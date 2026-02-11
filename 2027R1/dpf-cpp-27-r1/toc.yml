@@ -1,0 +1,28 @@
+- name: Introduction
+  href: index.md
+- name: Getting started
+  href: user-guide/00_getting_started.md
+- name: User guide
+  items:
+  - name: Concepts and Terminology
+    href: user-guide/02_Concepts.md
+  - name: Ways of Using DPF
+    href: user-guide/03_Ways_of_Using.md
+  - name: Using DPF
+    href: user-guide/05_Using_DPF.md
+  - name: DPF Collections
+    href: user-guide/12_dpf_collections.md
+- name: How-Tos
+  items:
+  - name: Using DPF capabilities in an existing project
+    href: user-guide/06_1_use_dpf_in_existing.md
+  - name: Creating a DPF custom operator's library
+    href: user-guide/06_2_how_to_create_cpp_plugin.md
+  - name: How to write an operator
+    href: user-guide/09_how_to_write_an_operator.md
+  - name: Debugging DPF
+    href: user-guide/06_Debugging_DPF.md
+  - name: Using DPF XML Files
+    href: user-guide/07_DPF_XML_Files.md
+- name: API Reference
+  href: api-reference/toc.yml

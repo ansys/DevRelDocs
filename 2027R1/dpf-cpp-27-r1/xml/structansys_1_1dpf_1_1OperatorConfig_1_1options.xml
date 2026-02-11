@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="structansys_1_1dpf_1_1OperatorConfig_1_1options" kind="struct" language="C++" prot="public">
+    <compoundname>ansys::dpf::OperatorConfig::options</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1OperatorConfig_1_1options_1a0a0e12b93cfcd142ef4a25b9efe0e6bf" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::OperatorConfig::options::runInParallel</definition>
+        <argsstring></argsstring>
+        <name>runInParallel</name>
+        <qualifiedname>ansys::dpf::OperatorConfig::options::runInParallel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5446" column="20" bodyfile="dpf_api.h" bodystart="5446" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1OperatorConfig_1_1options_1a15f08fae735f975394e30173810fa76f" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::OperatorConfig::options::numThreads</definition>
+        <argsstring></argsstring>
+        <name>numThreads</name>
+        <qualifiedname>ansys::dpf::OperatorConfig::options::numThreads</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5447" column="32" bodyfile="dpf_api.h" bodystart="5447" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1OperatorConfig_1_1options_1a8805e7d71bd6218f5560f7198f0b8bb7" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::OperatorConfig::options::inplace</definition>
+        <argsstring></argsstring>
+        <name>inplace</name>
+        <qualifiedname>ansys::dpf::OperatorConfig::options::inplace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5448" column="20" bodyfile="dpf_api.h" bodystart="5448" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1OperatorConfig_1_1options_1a39fb6ebfb0d4c4d574e6e104cfbb01c6" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::OperatorConfig::options::incremental</definition>
+        <argsstring></argsstring>
+        <name>incremental</name>
+        <qualifiedname>ansys::dpf::OperatorConfig::options::incremental</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5449" column="20" bodyfile="dpf_api.h" bodystart="5449" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1OperatorConfig_1_1options_1a2ffc5dfee0c628e2909b04d5b17af2c1" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::OperatorConfig::options::useCache</definition>
+        <argsstring></argsstring>
+        <name>useCache</name>
+        <qualifiedname>ansys::dpf::OperatorConfig::options::useCache</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5450" column="20" bodyfile="dpf_api.h" bodystart="5450" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1OperatorConfig_1_1options_1a834fcbcbc741836af6d7f6d6779abacc" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::OperatorConfig::options::mutex</definition>
+        <argsstring></argsstring>
+        <name>mutex</name>
+        <qualifiedname>ansys::dpf::OperatorConfig::options::mutex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5451" column="20" bodyfile="dpf_api.h" bodystart="5451" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1OperatorConfig_1_1options_1a89974852ac80945de22f255b292fdc68" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::OperatorConfig::options::binaryOperation</definition>
+        <argsstring></argsstring>
+        <name>binaryOperation</name>
+        <qualifiedname>ansys::dpf::OperatorConfig::options::binaryOperation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5452" column="20" bodyfile="dpf_api.h" bodystart="5452" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1OperatorConfig_1_1options_1a628cbc455587f33fc1062aa90b5be4be" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::OperatorConfig::options::workByIndex</definition>
+        <argsstring></argsstring>
+        <name>workByIndex</name>
+        <qualifiedname>ansys::dpf::OperatorConfig::options::workByIndex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5453" column="20" bodyfile="dpf_api.h" bodystart="5453" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1OperatorConfig_1_1options_1a3e2fcf2d6ace8cdd62325b60b05ed506" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::OperatorConfig::options::permissive</definition>
+        <argsstring></argsstring>
+        <name>permissive</name>
+        <qualifiedname>ansys::dpf::OperatorConfig::options::permissive</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5454" column="20" bodyfile="dpf_api.h" bodystart="5454" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1OperatorConfig_1_1options_1a5b0331ee63a17c0037ed3266b3f260ef" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::OperatorConfig::options::readInputsInParallel</definition>
+        <argsstring></argsstring>
+        <name>readInputsInParallel</name>
+        <qualifiedname>ansys::dpf::OperatorConfig::options::readInputsInParallel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5455" column="20" bodyfile="dpf_api.h" bodystart="5455" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1OperatorConfig_1_1options_1af6465fee4298a1643b825eeae2a643c6" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::OperatorConfig::options::allowReverseGrpcConnection</definition>
+        <argsstring></argsstring>
+        <name>allowReverseGrpcConnection</name>
+        <qualifiedname>ansys::dpf::OperatorConfig::options::allowReverseGrpcConnection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5456" column="20" bodyfile="dpf_api.h" bodystart="5456" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="dpf_api.h" line="5444" column="1" bodyfile="dpf_api.h" bodystart="5445" bodyend="5457"/>
+    <listofallmembers>
+      <member refid="structansys_1_1dpf_1_1OperatorConfig_1_1options_1af6465fee4298a1643b825eeae2a643c6" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorConfig::options</scope><name>allowReverseGrpcConnection</name></member>
+      <member refid="structansys_1_1dpf_1_1OperatorConfig_1_1options_1a89974852ac80945de22f255b292fdc68" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorConfig::options</scope><name>binaryOperation</name></member>
+      <member refid="structansys_1_1dpf_1_1OperatorConfig_1_1options_1a39fb6ebfb0d4c4d574e6e104cfbb01c6" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorConfig::options</scope><name>incremental</name></member>
+      <member refid="structansys_1_1dpf_1_1OperatorConfig_1_1options_1a8805e7d71bd6218f5560f7198f0b8bb7" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorConfig::options</scope><name>inplace</name></member>
+      <member refid="structansys_1_1dpf_1_1OperatorConfig_1_1options_1a834fcbcbc741836af6d7f6d6779abacc" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorConfig::options</scope><name>mutex</name></member>
+      <member refid="structansys_1_1dpf_1_1OperatorConfig_1_1options_1a15f08fae735f975394e30173810fa76f" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorConfig::options</scope><name>numThreads</name></member>
+      <member refid="structansys_1_1dpf_1_1OperatorConfig_1_1options_1a3e2fcf2d6ace8cdd62325b60b05ed506" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorConfig::options</scope><name>permissive</name></member>
+      <member refid="structansys_1_1dpf_1_1OperatorConfig_1_1options_1a5b0331ee63a17c0037ed3266b3f260ef" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorConfig::options</scope><name>readInputsInParallel</name></member>
+      <member refid="structansys_1_1dpf_1_1OperatorConfig_1_1options_1a0a0e12b93cfcd142ef4a25b9efe0e6bf" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorConfig::options</scope><name>runInParallel</name></member>
+      <member refid="structansys_1_1dpf_1_1OperatorConfig_1_1options_1a2ffc5dfee0c628e2909b04d5b17af2c1" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorConfig::options</scope><name>useCache</name></member>
+      <member refid="structansys_1_1dpf_1_1OperatorConfig_1_1options_1a628cbc455587f33fc1062aa90b5be4be" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorConfig::options</scope><name>workByIndex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

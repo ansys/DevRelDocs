@@ -1,0 +1,138 @@
+\doxysection{Complete\+RST.\+cpp}
+\hypertarget{CompleteRST_8cpp-example}{}\label{CompleteRST_8cpp-example}Example showing how to load an RST file and extract mesh and results.
+
+
+\begin{DoxyCodeInclude}{0}
+\DoxyCodeLine{\textcolor{comment}{//}}
+\DoxyCodeLine{\textcolor{comment}{//\ COPYRIGHT\ ANSYS.\ ALL\ RIGHTS\ RESERVED.}}
+\DoxyCodeLine{\textcolor{comment}{//}}
+\DoxyCodeLine{\textcolor{comment}{//\ this\ must\ only\ be\ included\ in\ application\ once}}
+\DoxyCodeLine{\textcolor{comment}{//\#include\ "{}dpf\_api\_i.cpp"{}}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include\ <limits>}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include\ "{}Example.h"{}}}
+\DoxyCodeLine{}
+\DoxyCodeLine{}
+\DoxyCodeLine{TEST(Complete,\ BaseTest)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ }
+\DoxyCodeLine{\ \ \ \ std::string\ fileName(\textcolor{stringliteral}{"{}../../../testfiles/Cube.rst"{}});}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ Data\ source}}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DataSources}{ansys::dpf::DataSources}}\ dataSources;\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ dataSources.\doxymbox{\hyperlink{classansys_1_1dpf_1_1DataSources_ad2a5bb6f24ca621ffaaee9e7a47cdc20}{addResultFile}}(fileName);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(dataSources.\doxymbox{\hyperlink{classansys_1_1dpf_1_1DataSources_a74a2a6b4aacae91be09048a58c601d1b}{numPaths}}(),\ 1);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ mesh\ provider}}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ meshProvider\ =\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}(\textcolor{stringliteral}{"{}mapdl::rst::MeshProvider"{}});}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{if}\ (meshProvider.\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a39cd546c42518e2332be8f287db95459}{empty}}())\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::runtime\_error(\textcolor{stringliteral}{"{}MeshProvider\ failed\ to\ load"{}});}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ }
+\DoxyCodeLine{\}}
+\DoxyCodeLine{TEST(Complete,\ RST)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ this\ is\ only\ called\ a\ single\ time\ in\ an\ application}}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//ansys::dpf::LibraryHandle\ lib;}}
+\DoxyCodeLine{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::string\ fileName(\textcolor{stringliteral}{"{}../../../testfiles/Cube.rst"{}});}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ Data\ source}}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DataSources}{ansys::dpf::DataSources}}\ dataSources;\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\ \ \ \ dataSources.\doxymbox{\hyperlink{classansys_1_1dpf_1_1DataSources_ad2a5bb6f24ca621ffaaee9e7a47cdc20}{addResultFile}}(fileName);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ mesh\ provider}}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ meshProvider\ =\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}(\textcolor{stringliteral}{"{}MeshProvider"{}});}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{if}\ (meshProvider.\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a39cd546c42518e2332be8f287db95459}{empty}}())\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::runtime\_error(\textcolor{stringliteral}{"{}MeshProvider"{}});}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ meshProvider.connect(\doxymbox{\hyperlink{namespaceansys_1_1dpf_aa4a44a04a0aafb8fe0645f019bbd94d1a5b6613f802062fde4faea4b553db7fbc}{ansys::dpf::eDataSourcesPin}},\ dataSources);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ meshed\ region}}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion}{ansys::dpf::MeshedRegion}}\ meshedRegion\ =\ meshProvider.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator_ae67b9230160d80fbca07eb423f180f98}{getOutputMeshedRegion}}(0);}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{if}\ (meshedRegion.\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a39cd546c42518e2332be8f287db95459}{empty}}())\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::runtime\_error(\textcolor{stringliteral}{"{}getOutputMeshedRegion"{}});}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ do\ some\ checks}}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ there\ are\ 27\ nodes\ in\ the\ entire\ mesh}}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(meshedRegion.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_af8ad6b50708b2c201a457c5da8e819da}{numberOfNodes}}(),\ 27);}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ there\ are\ 8\ hex\ elements\ in\ the\ entire\ mesh}}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(meshedRegion.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_ac3a262bc236fda82374a462d7c9e240c}{numberOfElements}}(),\ 8);}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ the\ length\ unit\ should\ be\ "{}m"{}}}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Unit}{ansys::dpf::Unit}}\ lengthUnit\ =\ meshedRegion.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_aed167b03463f42d94d424797529eccad}{lengthUnit}}();}
+\DoxyCodeLine{\ \ \ \ EXPECT\_STREQ(lengthUnit.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Unit_aed255d78340372d1dd05461d8bc29d38}{toString}}(),\ \textcolor{stringliteral}{"{}m"{}});}
+\DoxyCodeLine{\ \ \ \ EXPECT\_STREQ(lengthUnit.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Unit_a2ca6139006413a975a4995505ab826fc}{homogeneity}}(),\ \textcolor{stringliteral}{"{}Displacement"{}});}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ this\ file\ has\ 3\ named\ selections}}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(meshedRegion.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a3b768ab61193b7b1a6359f4ac619d1c4}{availableNamedSelections}}().size(),\ 3);}
+\DoxyCodeLine{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ "{}TOP"{}\ is\ a\ named\ selection,\ so\ it\ does\ not\ have\ a\ mesh\ associated\ with\ it,\ create\ one}}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{ansys::dpf::Scoping}}\ meshedRegionScopingTOP\ =\ meshedRegion.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a1f12d06a08e8afe8fe59c0a8d6aee779}{namedSelection}}(\textcolor{stringliteral}{"{}TOP"{}});}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{if}\ (meshedRegionScopingTOP.\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a39cd546c42518e2332be8f287db95459}{empty}}())\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::runtime\_error(\textcolor{stringliteral}{"{}namedSelection\ TOP"{}});}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ }
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ result\ info\ provider}}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ resultInfoProvider\ =\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}(\textcolor{stringliteral}{"{}ResultInfoProvider"{}});}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{if}\ (resultInfoProvider.\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a39cd546c42518e2332be8f287db95459}{empty}}())\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::runtime\_error(\textcolor{stringliteral}{"{}ResultInfoProvider"{}});}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ resultInfoProvider.connect(\doxymbox{\hyperlink{namespaceansys_1_1dpf_aa4a44a04a0aafb8fe0645f019bbd94d1a5b6613f802062fde4faea4b553db7fbc}{ansys::dpf::eDataSourcesPin}},\ dataSources);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1ResultInfo}{ansys::dpf::ResultInfo}}\ resultInfo\ =\ resultInfoProvider.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator_aeb719093c2406e06455423370eed3cd8}{getOutputResultInfo}}(0);}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{if}\ (resultInfo.\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a39cd546c42518e2332be8f287db95459}{empty}}())\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::runtime\_error(\textcolor{stringliteral}{"{}getOutputResultInfo"{}});}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ do\ some\ checks}}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ this\ file\ has\ 12\ results}}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(resultInfo.\doxymbox{\hyperlink{classansys_1_1dpf_1_1ResultInfo_a69427d3a5823aa23acfc59b891fa662a}{numberOfResults}}(),\ 12);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ one\ of\ those\ results\ should\ be\ Displacement}}
+\DoxyCodeLine{\ \ \ \ EXPECT\_TRUE(resultInfo.\doxymbox{\hyperlink{classansys_1_1dpf_1_1ResultInfo_ad8d61b8875d35dd7812d83b63ae68da9}{operatorNameIsAvailable}}(\textcolor{stringliteral}{"{}U"{}}));}
+\DoxyCodeLine{\ \ \ \ std::string\ resultName\ =\ resultInfo.\doxymbox{\hyperlink{classansys_1_1dpf_1_1ResultInfo_a640956feeee439f2fa42a2fc145fb05d}{resultNameByOperatorName}}(\textcolor{stringliteral}{"{}U"{}});\ \textcolor{comment}{//\ Displacement}}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(resultInfo.\doxymbox{\hyperlink{classansys_1_1dpf_1_1ResultInfo_a33fc997e9f5a93b23afac8ca753d0c25}{numberOfComponents}}(resultName),\ 3);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_STREQ(resultInfo.location(resultName),\ \textcolor{stringliteral}{"{}Nodal"{}});}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ going\ to\ want\ result\ for\ last\ time\ step/iteration}}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ time\ support\ provider}}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ timeFreqSupportProvider\ =\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}(\textcolor{stringliteral}{"{}TimeFreqSupportProvider"{}});}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{if}\ (timeFreqSupportProvider.\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a39cd546c42518e2332be8f287db95459}{empty}}())\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::runtime\_error(\textcolor{stringliteral}{"{}TimeFreqSupportProvider"{}});}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ timeFreqSupportProvider.connect(\doxymbox{\hyperlink{namespaceansys_1_1dpf_aa4a44a04a0aafb8fe0645f019bbd94d1a5b6613f802062fde4faea4b553db7fbc}{ansys::dpf::eDataSourcesPin}},\ dataSources);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport}{ansys::dpf::TimeFreqSupport}}\ timeFreqSupport\ =\ timeFreqSupportProvider.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator_ad2bfffac019485c51c8d3cc88c94ebd0}{getOutputTimeFreqSupport}}(0);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{ansys::dpf::dp\_int}}\ numTimeSteps\ =\ 0;}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{if}\ (!timeFreqSupport.\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a39cd546c42518e2332be8f287db95459}{empty}}())\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ numTimeSteps\ =\ timeFreqSupport.\doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a87c577de73b5ba2260cf3f940ac43068}{numberOfSets}}();}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ results\ field}}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ resultOperator\ =\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}(\textcolor{stringliteral}{"{}U"{}});}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{if}\ (resultOperator.\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a39cd546c42518e2332be8f287db95459}{empty}}())\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::runtime\_error(\textcolor{stringliteral}{"{}GetSharedOperatorByName\ 'U'"{}});}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ resultOperator.connect(\doxymbox{\hyperlink{namespaceansys_1_1dpf_aa4a44a04a0aafb8fe0645f019bbd94d1a5b6613f802062fde4faea4b553db7fbc}{ansys::dpf::eDataSourcesPin}},\ dataSources);}
+\DoxyCodeLine{\ \ \ \ std::vector<int>\ timeScoping(1);}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{if}\ (numTimeSteps)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ timeScoping[0]\ =\ numTimeSteps;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ resultOperator.connect(\doxymbox{\hyperlink{namespaceansys_1_1dpf_aa4a44a04a0aafb8fe0645f019bbd94d1ac390a52dd8c4f1e8ff81a162cdc04d4f}{ansys::dpf::eTimeScopPin}},\ timeScoping);}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{ansys::dpf::FieldsContainer}}\ resultFieldsContainer\ =\ resultOperator.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator_a9994ffe0f23c4a5de614099abb95286c}{getOutputFieldsContainer}}(0);}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{if}\ (resultFieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a39cd546c42518e2332be8f287db95459}{empty}}())\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::runtime\_error(\textcolor{stringliteral}{"{}getOutputFieldsContainer"{}});}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{ansys::dpf::Field}}\ resultsField\ =\ resultFieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_addfee935e69fe9fb9e0e533449f9a5bc}{at}}(0);\ \textcolor{comment}{//\ get\ the\ 0th\ field\ for\ timeScoping\ 1}}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{if}\ (resultsField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a39cd546c42518e2332be8f287db95459}{empty}}())\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::runtime\_error(\textcolor{stringliteral}{"{}resultsField"{}});}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ For\ some\ results,\ there\ may\ not\ be\ a\ value,\ set\ a\ default\ one}}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ rescope\ =\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}(\textcolor{stringliteral}{"{}Rescope"{}});}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{if}\ (rescope.empty())\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{throw}\ std::runtime\_error(\textcolor{stringliteral}{"{}Rescope"{}});}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{\}}
+
+\end{DoxyCodeInclude}
+ 

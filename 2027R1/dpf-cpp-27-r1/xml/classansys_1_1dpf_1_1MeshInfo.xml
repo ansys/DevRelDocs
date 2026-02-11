@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1MeshInfo" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::MeshInfo</compoundname>
+    <includes local="no">dpf_api.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1MeshInfo_1a9493684fe3cf86c47988022b9b1e9723" prot="private" static="no" mutable="no">
+        <type>GenericDataContainer</type>
+        <definition>GenericDataContainer ansys::dpf::MeshInfo::_genericData</definition>
+        <argsstring></argsstring>
+        <name>_genericData</name>
+        <qualifiedname>ansys::dpf::MeshInfo::_genericData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5509" column="22" bodyfile="dpf_api.h" bodystart="5509" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshInfo_1a890fd135102502182cd0155f13524a49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::MeshInfo::MeshInfo</definition>
+        <argsstring>()</argsstring>
+        <name>MeshInfo</name>
+        <qualifiedname>ansys::dpf::MeshInfo::MeshInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5512" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshInfo_1ae404772abc35c42c2ff22217d162c573" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::MeshInfo::MeshInfo</definition>
+        <argsstring>(const GenericDataContainer &amp;_genericData)</argsstring>
+        <name>MeshInfo</name>
+        <qualifiedname>ansys::dpf::MeshInfo::MeshInfo</qualifiedname>
+        <param>
+          <type>const GenericDataContainer &amp;</type>
+          <declname>_genericData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5513" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshInfo_1afff8f1ec60d852cc1e15c5fd5df6306b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::MeshInfo::MeshInfo</definition>
+        <argsstring>(MeshInfo const &amp;)</argsstring>
+        <name>MeshInfo</name>
+        <qualifiedname>ansys::dpf::MeshInfo::MeshInfo</qualifiedname>
+        <param>
+          <type>MeshInfo const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5514" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshInfo_1a22a33b5af1e81b7d4835343a35c99e23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MeshInfo &amp;</type>
+        <definition>MeshInfo &amp; ansys::dpf::MeshInfo::operator=</definition>
+        <argsstring>(MeshInfo const &amp;)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::MeshInfo::operator=</qualifiedname>
+        <param>
+          <type>MeshInfo const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5515" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshInfo_1aedfb2d1266289e8df5820ac7662b5f6f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>GenericDataContainer const &amp;</type>
+        <definition>GenericDataContainer const  &amp; ansys::dpf::MeshInfo::getGenericDataContainer</definition>
+        <argsstring>() const</argsstring>
+        <name>getGenericDataContainer</name>
+        <qualifiedname>ansys::dpf::MeshInfo::getGenericDataContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5517" column="28" bodyfile="dpf_api.h" bodystart="5517" bodyend="5519"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshInfo_1ad8d1b38ef0c64942059934fe0b33cfca" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T ansys::dpf::MeshInfo::getProperty</definition>
+        <argsstring>(const std::string &amp;property_name) const</argsstring>
+        <name>getProperty</name>
+        <qualifiedname>ansys::dpf::MeshInfo::getProperty</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>property_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5523" column="3" bodyfile="dpf_api.h" bodystart="5523" bodyend="5526"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshInfo_1a2e03f447b78a4f99d590c6d183616709" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void ansys::dpf::MeshInfo::setProperty</definition>
+        <argsstring>(const std::string &amp;property_name, const T &amp;property)</argsstring>
+        <name>setProperty</name>
+        <qualifiedname>ansys::dpf::MeshInfo::setProperty</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>property_name</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5529" column="6" bodyfile="dpf_api.h" bodystart="5529" bodyend="5532"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshInfo_1a4ad70b09ecbd1f3161ebbd33dd62d399" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::MeshInfo::setnumberOfNodes</definition>
+        <argsstring>(int numNodes)</argsstring>
+        <name>setnumberOfNodes</name>
+        <qualifiedname>ansys::dpf::MeshInfo::setnumberOfNodes</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>numNodes</declname>
+          <briefdescription><para>[in] Number of nodes. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+<para>@detail set the number of nodes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5537" column="6" bodyfile="dpf_api.h" bodystart="5537" bodyend="5541"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshInfo_1a01146bcc71f898d13ae42ec8b9e5f247" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::MeshInfo::setnumberOfElements</definition>
+        <argsstring>(int numElements)</argsstring>
+        <name>setnumberOfElements</name>
+        <qualifiedname>ansys::dpf::MeshInfo::setnumberOfElements</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>numElements</declname>
+          <briefdescription><para>[in] Number of elements. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+<para>@detail set the number of elements. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5544" column="6" bodyfile="dpf_api.h" bodystart="5544" bodyend="5548"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshInfo_1aac41382a70a99d12ccb70215685f5d00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::MeshInfo::setSplittableBy</definition>
+        <argsstring>(dpf::StringField splittableByScoping)</argsstring>
+        <name>setSplittableBy</name>
+        <qualifiedname>ansys::dpf::MeshInfo::setSplittableBy</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1StringField" kindref="compound">dpf::StringField</ref></type>
+          <declname>splittableByScoping</declname>
+          <briefdescription><para>[in] Split mesh names. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+<para>@detail set strings name correspondind to mesh split scopings. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5551" column="6" bodyfile="dpf_api.h" bodystart="5551" bodyend="5555"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshInfo_1a64932c3302954322668f319e76af6911" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::MeshInfo::setAvailableElementType</definition>
+        <argsstring>(dpf::Scoping availableElementTypes)</argsstring>
+        <name>setAvailableElementType</name>
+        <qualifiedname>ansys::dpf::MeshInfo::setAvailableElementType</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">dpf::Scoping</ref></type>
+          <declname>availableElementTypes</declname>
+          <briefdescription><para>[in] Scopings of available element types. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+<para>@detail set available elements of the mesh. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5558" column="6" bodyfile="dpf_api.h" bodystart="5558" bodyend="5562"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshInfo_1a1baa306edc0ddced75798e77f68c590a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ansys::dpf::MeshInfo::numberOfNodes</definition>
+        <argsstring>()</argsstring>
+        <name>numberOfNodes</name>
+        <qualifiedname>ansys::dpf::MeshInfo::numberOfNodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the number of nodes of the mesh. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5565" column="5" bodyfile="dpf_api.h" bodystart="5565" bodyend="5568"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshInfo_1a446ad4eef444bdc799ea0c783783e863" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ansys::dpf::MeshInfo::numberOfElements</definition>
+        <argsstring>()</argsstring>
+        <name>numberOfElements</name>
+        <qualifiedname>ansys::dpf::MeshInfo::numberOfElements</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the number of elements of the mesh. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5571" column="5" bodyfile="dpf_api.h" bodystart="5571" bodyend="5574"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshInfo_1a736817aee8059d944483e080a9152d0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">dpf::Scoping</ref></type>
+        <definition>dpf::Scoping ansys::dpf::MeshInfo::getAvailableElementTypes</definition>
+        <argsstring>()</argsstring>
+        <name>getAvailableElementTypes</name>
+        <qualifiedname>ansys::dpf::MeshInfo::getAvailableElementTypes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the available element types of the mesh. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5577" column="14" bodyfile="dpf_api.h" bodystart="5577" bodyend="5580"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshInfo_1a7a288ff55960fa0955502b51d8f84583" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1StringField" kindref="compound">dpf::StringField</ref></type>
+        <definition>dpf::StringField ansys::dpf::MeshInfo::getSplittableBy</definition>
+        <argsstring>()</argsstring>
+        <name>getSplittableBy</name>
+        <qualifiedname>ansys::dpf::MeshInfo::getSplittableBy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the names of the scoped meshes that split the mesh. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5583" column="18" bodyfile="dpf_api.h" bodystart="5583" bodyend="5586"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Define a mesh info. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classansys_1_1dpf_1_1MeshInfo" kindref="compound">MeshInfo</ref> can set and get properties of the mesh through a GenericDataContainer. </para>
+    </detaileddescription>
+    <location file="dpf_api.h" line="5507" column="1" bodyfile="dpf_api.h" bodystart="5507" bodyend="5588"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1MeshInfo_1a9493684fe3cf86c47988022b9b1e9723" prot="private" virt="non-virtual"><scope>ansys::dpf::MeshInfo</scope><name>_genericData</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshInfo_1a736817aee8059d944483e080a9152d0b" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshInfo</scope><name>getAvailableElementTypes</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshInfo_1aedfb2d1266289e8df5820ac7662b5f6f" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshInfo</scope><name>getGenericDataContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshInfo_1ad8d1b38ef0c64942059934fe0b33cfca" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshInfo</scope><name>getProperty</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshInfo_1a7a288ff55960fa0955502b51d8f84583" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshInfo</scope><name>getSplittableBy</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshInfo_1a890fd135102502182cd0155f13524a49" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshInfo</scope><name>MeshInfo</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshInfo_1ae404772abc35c42c2ff22217d162c573" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshInfo</scope><name>MeshInfo</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshInfo_1afff8f1ec60d852cc1e15c5fd5df6306b" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshInfo</scope><name>MeshInfo</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshInfo_1a446ad4eef444bdc799ea0c783783e863" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshInfo</scope><name>numberOfElements</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshInfo_1a1baa306edc0ddced75798e77f68c590a" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshInfo</scope><name>numberOfNodes</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshInfo_1a22a33b5af1e81b7d4835343a35c99e23" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshInfo</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshInfo_1a64932c3302954322668f319e76af6911" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshInfo</scope><name>setAvailableElementType</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshInfo_1a01146bcc71f898d13ae42ec8b9e5f247" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshInfo</scope><name>setnumberOfElements</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshInfo_1a4ad70b09ecbd1f3161ebbd33dd62d399" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshInfo</scope><name>setnumberOfNodes</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshInfo_1a2e03f447b78a4f99d590c6d183616709" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshInfo</scope><name>setProperty</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshInfo_1aac41382a70a99d12ccb70215685f5d00" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshInfo</scope><name>setSplittableBy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

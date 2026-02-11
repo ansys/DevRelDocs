@@ -1,0 +1,87 @@
+\chapter{Getting started }
+\hypertarget{getting_started}{}\label{getting_started}\index{Getting started@{Getting started}}
+The Data Processing Framework (DPF) provides numerical simulation users and engineers with a toolbox for accessing and transforming simulation data. DPF can access data from Ansys solver result (for example, RST) files as well as from several neutral file formats, including CSV, HDF5, and VTK. This workflow-\/based framework allows you to perform complex preprocessing and postprocessing operations on large amounts of simulation data.\hypertarget{getting_started_autotoc_md2}{}\doxysubsection{\texorpdfstring{Integrate DPF in a project}{Integrate DPF in a project}}\label{getting_started_autotoc_md2}
+To use DPF in a C++ project, you must have access to the following files of the \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}\+AWP\+\_\+\+ROOT@doc\+\_\+ansys\+\_\+ver/\+dpf/\+include\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} folder (AWP\+\_\+\+ROOT@doc\+\_\+ansys\+\_\+ver being an environment variable defining the root of the Ansys Inc or \href{https://dpf.docs.pyansys.com/version/stable/getting_started/dpf_server.html}{\texttt{DPF Server}} product).
+
+The following lines must be added on top of the C++ file to add DPF capabilities in:\+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{//\ DPF\ include\ files\ to\ access\ capabilities\ without\ linking\ step}
+\DoxyCodeLine{\#include\ "{}dpf\_api.h"{}}
+\DoxyCodeLine{\#include\ "{}dpf\_api\_i.cpp"{}}
+\DoxyCodeLine{}
+\DoxyCodeLine{//\ initialization\ of\ DPF\ capabilities}
+\DoxyCodeLine{struct\ staticData\ \{}
+\DoxyCodeLine{\ \ \ \ static\ ansys::dpf::LibraryHandle*\ \_dpfLibraryHandle;}
+\DoxyCodeLine{\};}
+\DoxyCodeLine{ansys::dpf::LibraryHandle*\ staticData::\_dpfLibraryHandle\ =\ new\ ansys::dpf::LibraryHandle(ansys::dpf::Context::premiumContext());}
+
+\end{DoxyCode}
+
+
+{\bfseries{Important:\+}} You must append the \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}\+AWP\+\_\+\+ROOT@doc\+\_\+ansys\+\_\+ver/\+aisol/\+bin/\+winx64\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} folder path to PATH variable on Windows, or to append the \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}\+AWP\+\_\+\+ROOT@doc\+\_\+ansys\+\_\+ver/\+aisol/\+dll/\+linx64\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} folder path to LD\+\_\+\+LIBRARY\+\_\+\+PATH variable on Linux.
+
+To learn more about integrating DPF capabilities into an already existing project, refer to the \doxylink{group__group__06__1}{Using DPF capabilities in an existing project} section.\hypertarget{getting_started_autotoc_md3}{}\doxysubsection{\texorpdfstring{Instantiate a Data\+Sources}{Instantiate a Data\+Sources}}\label{getting_started_autotoc_md3}
+Data\+Sources provides information regarding the files in which analysis results can be found. To instantiate a Data\+Sources from RST file path, use the following code, for example in the "{}main"{} method:\+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{//\ instantiate\ DataSources\ containing\ information\ about\ result\ file}
+\DoxyCodeLine{std::string\ fileName("{}mapdl\_files/wedge.rst"{});}
+\DoxyCodeLine{ansys::dpf::DataSources\ dataSources;\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{dataSources.addResultFile(fileName);}
+
+\end{DoxyCode}
+
+
+This is an hypothetical file path. Some RST files examples can be found under dpf/\+testfiles folder of the Ansys Inc product.
+
+{\bfseries{The "{}data\+Sources"{} instance is used in the next sections.}}\hypertarget{getting_started_autotoc_md4}{}\doxysubsection{\texorpdfstring{Read a displacement field with DPF}{Read a displacement field with DPF}}\label{getting_started_autotoc_md4}
+To read a displacement result field, use the following code, for example in the "{}main"{} method:\+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{//\ Instantiate\ result\ operator\ ("{}U"{}\ reads\ the\ displacement)}
+\DoxyCodeLine{ansys::dpf::Operator\ resultOperator\ =\ ansys::dpf::Operator("{}U"{});}
+\DoxyCodeLine{resultOperator.connect(ansys::dpf::eDataSourcesPin,\ dataSources);}
+\DoxyCodeLine{}
+\DoxyCodeLine{//\ Get\ the\ result\ Field\ (displacement)}
+\DoxyCodeLine{ansys::dpf::Field\ resultsField\ =\ resultOperator.getOutputFieldsContainer(0).at(0);}
+
+\end{DoxyCode}
+\hypertarget{getting_started_autotoc_md5}{}\doxysubsection{\texorpdfstring{Read a mesh with DPF}{Read a mesh with DPF}}\label{getting_started_autotoc_md5}
+To read a mesh, use the following code, for example in the "{}main"{} method:\+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{//\ Instantiate\ mesh\ reader\ operator\ }
+\DoxyCodeLine{ansys::dpf::Operator\ meshProvider\ =\ ansys::dpf::Operator("{}MeshProvider"{});}
+\DoxyCodeLine{meshProvider.connect(ansys::dpf::eDataSourcesPin,\ dataSources);}
+\DoxyCodeLine{}
+\DoxyCodeLine{//\ Get\ the\ mesh}
+\DoxyCodeLine{ansys::dpf::MeshedRegion\ meshedRegion\ =\ meshProvider.getOutputMeshedRegion(0);}
+\DoxyCodeLine{int\ numNode\ =\ meshedRegion.numberOfNodes();}
+\DoxyCodeLine{int\ numElements\ =\ meshedRegion.numberOfElements();}
+
+\end{DoxyCode}
+\hypertarget{getting_started_autotoc_md6}{}\doxysubsection{\texorpdfstring{Display displacement result}{Display displacement result}}\label{getting_started_autotoc_md6}
+To display the {\bfseries{results\+Field}} values previsouly computed on the computed {\bfseries{meshed\+Region}}, use the following code:\+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{ansys::dpf::Operator\ vtuExport("{}vtu\_export"{});}
+\DoxyCodeLine{vtuExport.connect(0,\ std::string("{}D:/temp/wedge"{}));\ //\ this\ folder\ must\ exist}
+\DoxyCodeLine{vtuExport.connect(2,\ meshedRegion);}
+\DoxyCodeLine{vtuExport.connect(3,\ resultsField);}
+\DoxyCodeLine{vtuExport.run();}
+
+\end{DoxyCode}
+
+
+This uses the VTU format. It can be displayed using {\bfseries{Paraview}}.
+
+{\bfseries{Display using Paraview:\+}}~\newline
+~\newline
+~\newline
+ 

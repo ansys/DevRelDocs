@@ -1,0 +1,70 @@
+\doxysection{ansys::\+dpf::\+Mapping Class Reference}
+\hypertarget{classansys_1_1dpf_1_1Mapping}{}\label{classansys_1_1dpf_1_1Mapping}\index{ansys::dpf::Mapping@{ansys::dpf::Mapping}}
+
+
+{\ttfamily \+\#include $<$dpf\+\_\+api.\+h$>$}
+
+Inheritance diagram for ansys::\+dpf::\+Mapping:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classansys_1_1dpf_1_1Mapping}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Mapping_a562c4764fd1a794f253676410ce96f2b}\label{classansys_1_1dpf_1_1Mapping_a562c4764fd1a794f253676410ce96f2b} 
+{\bfseries Mapping} (Mapping const \&)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Mapping_aa7835cf638a6c5ef8d418376f70fdb55}\label{classansys_1_1dpf_1_1Mapping_aa7835cf638a6c5ef8d418376f70fdb55} 
+{\bfseries Mapping} (Mapping \&\&) noexcept
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Mapping_a1d17d46e79d4d5d31c4bda58d71872c1}\label{classansys_1_1dpf_1_1Mapping_a1d17d46e79d4d5d31c4bda58d71872c1} 
+Mapping \& {\bfseries operator=} (Mapping const \&)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Mapping_a65cf6727e34d6926ad0a58b06a3feab1}\label{classansys_1_1dpf_1_1Mapping_a65cf6727e34d6926ad0a58b06a3feab1} 
+Mapping \& {\bfseries operator=} (Mapping \&\&)=delete
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1Mapping_aedd955d96f24f77a681f81436a13aa37}{map}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}} \&in)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes}{ansys::\+dpf::\+\+Dpf\+Types}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a39cd546c42518e2332be8f287db95459}{empty}} () const
+\item 
+virtual bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_ae198f89868d85c7db6dc1a934a1d3c15}{has\+Internal\+Object}} () const
+\item 
+virtual std::\+string \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a9977945710983bc03d2940fa007847b2}{describe}} () const
+\item 
+so::\+\+API const \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_aea34d37e0c080126eff70db34bf46597}{call\+API}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a9f9789ff61cc9d400a2a344830706b73}{is\+On\+Common\+API}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a968afd9daa0b0f13b65a2ac61369d73a}{get\+Client}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} \&client) const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a1a5634202c15404b6b24e8f50e51cb66}{has\+Been\+Moved\+Locally}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_aa64d5f8fcd7d85ad6ebf708494dbefd7}{is\+Same\+Object}} (Dpf\+Types const \&rhs) const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Define a mapping between two spaces. 
+
+\label{doc-func-members}
+\Hypertarget{classansys_1_1dpf_1_1Mapping_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classansys_1_1dpf_1_1Mapping_aedd955d96f24f77a681f81436a13aa37}\index{ansys::dpf::Mapping@{ansys::dpf::Mapping}!map@{map}}
+\index{map@{map}!ansys::dpf::Mapping@{ansys::dpf::Mapping}}
+\doxysubsubsection{\texorpdfstring{map()}{map()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Mapping_aedd955d96f24f77a681f81436a13aa37} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}} ansys::\+dpf::\+\+Mapping::\+map (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}} \&}]{in}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+\doxylink{classansys_1_1dpf_1_1Field}{Field} mapped to new field. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em in} & \doxylink{classansys_1_1dpf_1_1Field}{Field} to map. \\
+\hline
+\end{DoxyParams}

@@ -1,0 +1,45 @@
+\doxysection{ansys::\+dpf::\+Interface Class Reference}
+\hypertarget{classansys_1_1dpf_1_1Interface}{}\label{classansys_1_1dpf_1_1Interface}\index{ansys::dpf::Interface@{ansys::dpf::Interface}}
+
+
+\doxylink{classansys_1_1dpf_1_1Interface}{Interface} specifies a set of constraints that an underlying implementation (operator or workflow) must respect.  
+
+
+
+
+{\ttfamily \+\#include $<$dpf\+\_\+api.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Interface_ae7b77e9e0a3b3c9e0b6fb360bce69574}\label{classansys_1_1dpf_1_1Interface_ae7b77e9e0a3b3c9e0b6fb360bce69574} 
+{\bfseries Interface} (const std::\+string \&name, const std::\+vector$<$ std::\+string $>$ \&exposed\+Inputs, const std::\+vector$<$ std::\+string $>$ \&exposed\+Outputs, const \doxymbox{\hyperlink{classansys_1_1dpf_1_1CacheInformation}{Cache\+Information}} \&cache\+Information=\doxymbox{\hyperlink{classansys_1_1dpf_1_1CacheInformation}{Cache\+Information}}(), bool is\+Optional=false)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Interface_a886749ab22972009fb46b4369452b5a7}\label{classansys_1_1dpf_1_1Interface_a886749ab22972009fb46b4369452b5a7} 
+{\bfseries Interface} (const \doxymbox{\hyperlink{classansys_1_1dpf_1_1DataTree}{Data\+Tree}} \&dt)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Interface_aadad56bc25f8e1cfa01e776138e2a40e}\label{classansys_1_1dpf_1_1Interface_aadad56bc25f8e1cfa01e776138e2a40e} 
+std::\+string {\bfseries get\+Name} () const noexcept
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Interface_a2f04134d6869e0e2850b163098d7f60d}\label{classansys_1_1dpf_1_1Interface_a2f04134d6869e0e2850b163098d7f60d} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1DataTree}{Data\+Tree}} {\bfseries get} () const
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Interface_ad95dea740aaabe8b28151116205d9015}\label{classansys_1_1dpf_1_1Interface_ad95dea740aaabe8b28151116205d9015} 
+std::\+vector$<$ std::\+string $>$ {\bfseries get\+Exposed\+Inputs} () const noexcept
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Interface_aae0d89447d85a705dad45f87fe5a6ddc}\label{classansys_1_1dpf_1_1Interface_aae0d89447d85a705dad45f87fe5a6ddc} 
+std::\+vector$<$ std::\+string $>$ {\bfseries get\+Exposed\+Outputs} () const noexcept
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Interface_aa11f77e7c6afac065eed67320bc76152}\label{classansys_1_1dpf_1_1Interface_aa11f77e7c6afac065eed67320bc76152} 
+std::\+map$<$ std::\+string, Cache\+Information::\+\+Level\+And\+Destination $>$ {\bfseries get\+Cache\+Information} () const
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Interface_acdd838b3056830bb4e4f6beb8328d926}\label{classansys_1_1dpf_1_1Interface_acdd838b3056830bb4e4f6beb8328d926} 
+bool {\bfseries is\+To\+Cache} (const std::\+string \&pin\+Name) const noexcept
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Interface_a5ec662354dff0bc0c21efea29a50c135}\label{classansys_1_1dpf_1_1Interface_a5ec662354dff0bc0c21efea29a50c135} 
+bool {\bfseries is\+Optional} () const noexcept
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\doxylink{classansys_1_1dpf_1_1Interface}{Interface} specifies a set of constraints that an underlying implementation (operator or workflow) must respect. 

@@ -1,0 +1,107 @@
+\doxysection{ansys::\+dpf::\+Dpf\+Exception Class Reference}
+\hypertarget{classansys_1_1dpf_1_1DpfException}{}\label{classansys_1_1dpf_1_1DpfException}\index{ansys::dpf::DpfException@{ansys::dpf::DpfException}}
+
+
+{\ttfamily \+\#include $<$dpf\+\_\+api\+\_\+base.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfException_ab417aeb3168e72745df2f8c98d912428}{Dpf\+Exception}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError_a9a3fe202cc2e46746462fdb1ce44c47f}{Dpf\+Error::\+\+Error\+Nature}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfException_ad21aba4144b3dbcb6e619931ac6ae6ed}{nature}}, std::\+string const \&\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfException_a613c503433eb563fed99099941cc416d}{origin}}, std::\+string const \&\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfException_a69cc4e277ea17f9e7d83872db1edbf24}{message}})
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfException_a692cdeed9babf4395f9ce12c64a35818}{Dpf\+Exception}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} const \&\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfException_a07c601a38ec182b458074da6f0e52478}{error}})
+\item 
+virtual const char \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfException_a0df1c0ba45617a9f207739f935d0e074}{what}} () const noexcept
+\item 
+const char \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfException_a69cc4e277ea17f9e7d83872db1edbf24}{message}} () const noexcept
+\item 
+const char \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfException_a613c503433eb563fed99099941cc416d}{origin}} () const noexcept
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError_a9a3fe202cc2e46746462fdb1ce44c47f}{Dpf\+Error::\+\+Error\+Nature}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfException_ad21aba4144b3dbcb6e619931ac6ae6ed}{nature}} () const noexcept
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfException_a07c601a38ec182b458074da6f0e52478}{error}} () const noexcept
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Exception thrown by DPF call. 
+
+\label{doc-constructors}
+\Hypertarget{classansys_1_1dpf_1_1DpfException_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classansys_1_1dpf_1_1DpfException_ab417aeb3168e72745df2f8c98d912428}\index{ansys::dpf::DpfException@{ansys::dpf::DpfException}!DpfException@{DpfException}}
+\index{DpfException@{DpfException}!ansys::dpf::DpfException@{ansys::dpf::DpfException}}
+\doxysubsubsection{\texorpdfstring{DpfException()}{DpfException()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1DpfException_ab417aeb3168e72745df2f8c98d912428} 
+ansys::\+dpf::\+\+Dpf\+Exception::\+\+Dpf\+Exception (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError_a9a3fe202cc2e46746462fdb1ce44c47f}{Dpf\+Error::\+\+Error\+Nature}}}]{nature}{, }\item[{std::\+string const \&}]{origin}{, }\item[{std::\+string const \&}]{message}{}\end{DoxyParamCaption})}
+
+Create exception to throw. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em \doxylink{classansys_1_1dpf_1_1DpfException_ad21aba4144b3dbcb6e619931ac6ae6ed}{nature}} & Type of error.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em \doxylink{classansys_1_1dpf_1_1DpfException_a613c503433eb563fed99099941cc416d}{origin}} & Originator of error.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em \doxylink{classansys_1_1dpf_1_1DpfException_a69cc4e277ea17f9e7d83872db1edbf24}{message}} & Error message. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1DpfException_a692cdeed9babf4395f9ce12c64a35818}\index{ansys::dpf::DpfException@{ansys::dpf::DpfException}!DpfException@{DpfException}}
+\index{DpfException@{DpfException}!ansys::dpf::DpfException@{ansys::dpf::DpfException}}
+\doxysubsubsection{\texorpdfstring{DpfException()}{DpfException()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1DpfException_a692cdeed9babf4395f9ce12c64a35818} 
+ansys::\+dpf::\+\+Dpf\+Exception::\+\+Dpf\+Exception (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} const \&}]{error}{}\end{DoxyParamCaption})}
+
+Create exception to throw. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em \doxylink{classansys_1_1dpf_1_1DpfException_a07c601a38ec182b458074da6f0e52478}{error}} & Error. \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{classansys_1_1dpf_1_1DpfException_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classansys_1_1dpf_1_1DpfException_a07c601a38ec182b458074da6f0e52478}\index{ansys::dpf::DpfException@{ansys::dpf::DpfException}!error@{error}}
+\index{error@{error}!ansys::dpf::DpfException@{ansys::dpf::DpfException}}
+\doxysubsubsection{\texorpdfstring{error()}{error()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1DpfException_a07c601a38ec182b458074da6f0e52478} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} ansys::\+dpf::\+\+Dpf\+Exception::\+error (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+\begin{DoxyReturn}{Returns}
+Generated \doxylink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1DpfException_a69cc4e277ea17f9e7d83872db1edbf24}\index{ansys::dpf::DpfException@{ansys::dpf::DpfException}!message@{message}}
+\index{message@{message}!ansys::dpf::DpfException@{ansys::dpf::DpfException}}
+\doxysubsubsection{\texorpdfstring{message()}{message()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1DpfException_a69cc4e277ea17f9e7d83872db1edbf24} 
+const char \texorpdfstring{$\ast$}{*} ansys::\+dpf::\+\+Dpf\+Exception::\+message (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+\begin{DoxyReturn}{Returns}
+User supplied error message. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1DpfException_ad21aba4144b3dbcb6e619931ac6ae6ed}\index{ansys::dpf::DpfException@{ansys::dpf::DpfException}!nature@{nature}}
+\index{nature@{nature}!ansys::dpf::DpfException@{ansys::dpf::DpfException}}
+\doxysubsubsection{\texorpdfstring{nature()}{nature()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1DpfException_ad21aba4144b3dbcb6e619931ac6ae6ed} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError_a9a3fe202cc2e46746462fdb1ce44c47f}{Dpf\+Error::\+\+Error\+Nature}} ansys::\+dpf::\+\+Dpf\+Exception::\+nature (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+\begin{DoxyReturn}{Returns}
+Type of error. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1DpfException_a613c503433eb563fed99099941cc416d}\index{ansys::dpf::DpfException@{ansys::dpf::DpfException}!origin@{origin}}
+\index{origin@{origin}!ansys::dpf::DpfException@{ansys::dpf::DpfException}}
+\doxysubsubsection{\texorpdfstring{origin()}{origin()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1DpfException_a613c503433eb563fed99099941cc416d} 
+const char \texorpdfstring{$\ast$}{*} ansys::\+dpf::\+\+Dpf\+Exception::\+origin (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+\begin{DoxyReturn}{Returns}
+Originator of error. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1DpfException_a0df1c0ba45617a9f207739f935d0e074}\index{ansys::dpf::DpfException@{ansys::dpf::DpfException}!what@{what}}
+\index{what@{what}!ansys::dpf::DpfException@{ansys::dpf::DpfException}}
+\doxysubsubsection{\texorpdfstring{what()}{what()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1DpfException_a0df1c0ba45617a9f207739f935d0e074} 
+virtual const char \texorpdfstring{$\ast$}{*} ansys::\+dpf::\+\+Dpf\+Exception::\+what (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [noexcept]}}
+
+\begin{DoxyReturn}{Returns}
+Full error message. 
+\end{DoxyReturn}

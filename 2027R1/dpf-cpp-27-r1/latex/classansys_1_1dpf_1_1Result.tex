@@ -1,0 +1,312 @@
+\doxysection{ansys::\+dpf::\+Result Class Reference}
+\hypertarget{classansys_1_1dpf_1_1Result}{}\label{classansys_1_1dpf_1_1Result}\index{ansys::dpf::Result@{ansys::dpf::Result}}
+
+
+{\ttfamily \+\#include $<$dpf\+\_\+result.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_a73de9b4b151118e388e2985a4c88fa4a}{Result}} (const char \texorpdfstring{$\ast$}{*}res\+\_\+name, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} \&stream\+\_\+provider, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} \&timefreq\+\_\+support\+\_\+provider)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_a83f9071125be65acbd5319b0e9f44699}{Result}} (const char \texorpdfstring{$\ast$}{*}res\+\_\+name, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} \&stream\+\_\+provider, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} \&timefreq\+\_\+support\+\_\+provider, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} mesh\+Scoping)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_a5ede8932a39a76dc06b9b3b1d21ed606}{Result}} (const char \texorpdfstring{$\ast$}{*}res\+\_\+name, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} \&stream\+\_\+provider, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} \&timefreq\+\_\+support\+\_\+provider, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} mesh\+Scoping, \doxymbox{\hyperlink{structansys_1_1dpf_1_1Location}{Location}} requested\+\_\+location, int cs\+\_\+id)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_a0087535ae7c95ba3720b5875ad54025b}{Result}} (const char \texorpdfstring{$\ast$}{*}res\+\_\+name, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} \&stream\+\_\+provider, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} \&timefreq\+\_\+support\+\_\+provider, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} \&mesh\+\_\+provider, const char \texorpdfstring{$\ast$}{*}named\+\_\+selection, \doxymbox{\hyperlink{structansys_1_1dpf_1_1Location}{Location}} requested\+\_\+location, bool b\+Inclusive, int cs\+\_\+id)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{Fields\+Container}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_ac8e07e03eba295dacfe13a100603d5c4}{Evaluate\+At\+Given\+Time}} (double d\+Time, \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} \&error)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{Fields\+Container}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_aaf145866535c0773a9ba3524b1f65743}{Evaluate\+At\+Given\+Time\+Index}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} i\+Set, \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} \&error)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{Fields\+Container}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_af60979c0660e293e0eff722767939814}{Evaluate\+At\+Given\+Step\+Index\+And\+Sub\+Step}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} i\+Step, \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} i\+Sub\+Step, \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} \&error)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{Fields\+Container}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_a439090991ae8107589374384bfca4933}{Evaluate\+Amplitude\+At\+Given\+Time}} (double d\+Time, \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} \&error)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{Fields\+Container}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_a3df1f87059794e3ff557ccc63b99b171}{Evaluate\+Amplitude\+At\+Given\+Time\+Index}} (int i\+Set, \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} \&error)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{Fields\+Container}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_a5e672dee634e76b8a9782cdfab42461b}{Evaluate\+Amplitude\+At\+Given\+Step\+Index\+And\+Sub\+Step}} (int i\+Step, int i\+Sub\+Step, \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} \&error)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{Fields\+Container}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_a53d7529964052d14a60ee1d53f6d1d06}{Evaluate\+With\+Phase\+At\+Given\+Time}} (double d\+Time, double d\+Phase, \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} \&error)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{Fields\+Container}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_ae1d940c0f56673f96d91716dc736d17f}{Evaluate\+With\+Phase\+At\+Given\+Time\+Index}} (int i\+Set, double d\+Phase, \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} \&error)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{Fields\+Container}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_a75a2c05527109af736a19ca1156d85a2}{Evaluate\+With\+Phase\+At\+Given\+Step\+Index\+And\+Sub\+Step}} (int i\+Step, int i\+Sub\+Step, double d\+Phase, \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} \&error)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Encapsulation of results. \begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataApis_8cpp-example}{Data\+Apis.\+cpp}}, \doxymbox{\hyperlink{ModelTest_8cpp-example}{Model\+Test.\+cpp}}, and \doxymbox{\hyperlink{ResultTest_8cpp-example}{Result\+Test.\+cpp}}.\end{Desc}
+
+
+\label{doc-constructors}
+\Hypertarget{classansys_1_1dpf_1_1Result_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classansys_1_1dpf_1_1Result_a73de9b4b151118e388e2985a4c88fa4a}\index{ansys::dpf::Result@{ansys::dpf::Result}!Result@{Result}}
+\index{Result@{Result}!ansys::dpf::Result@{ansys::dpf::Result}}
+\doxysubsubsection{\texorpdfstring{Result()}{Result()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Result_a73de9b4b151118e388e2985a4c88fa4a} 
+ansys::\+dpf::\+\+Result::\+\+Result (\begin{DoxyParamCaption}\item[{const char \texorpdfstring{$\ast$}{*}}]{res\+\_\+name}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} \&}]{stream\+\_\+provider}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} \&}]{timefreq\+\_\+support\+\_\+provider}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Create a new result from res\+\_\+name using given stream and timefreq. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em res\+\_\+name} & Name of result on which to create result.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em stream\+\_\+provider} & Stream from which to create result.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em timefreq\+\_\+support\+\_\+provider} & Time/\+frequency from which to create result. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1Result_a83f9071125be65acbd5319b0e9f44699}\index{ansys::dpf::Result@{ansys::dpf::Result}!Result@{Result}}
+\index{Result@{Result}!ansys::dpf::Result@{ansys::dpf::Result}}
+\doxysubsubsection{\texorpdfstring{Result()}{Result()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Result_a83f9071125be65acbd5319b0e9f44699} 
+ansys::\+dpf::\+\+Result::\+\+Result (\begin{DoxyParamCaption}\item[{const char \texorpdfstring{$\ast$}{*}}]{res\+\_\+name}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} \&}]{stream\+\_\+provider}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} \&}]{timefreq\+\_\+support\+\_\+provider}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}}}]{mesh\+Scoping}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Create a new result from res\+\_\+name using given stream, timefreq, and scoping. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em res\+\_\+name} & Name of result on which to create result.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em stream\+\_\+provider} & Stream from which to create result.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em timefreq\+\_\+support\+\_\+provider} & Time/\+frequency from which to create result.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em mesh\+Scoping} & \doxylink{classansys_1_1dpf_1_1Scoping}{Scoping} from which to create result. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1Result_a5ede8932a39a76dc06b9b3b1d21ed606}\index{ansys::dpf::Result@{ansys::dpf::Result}!Result@{Result}}
+\index{Result@{Result}!ansys::dpf::Result@{ansys::dpf::Result}}
+\doxysubsubsection{\texorpdfstring{Result()}{Result()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Result_a5ede8932a39a76dc06b9b3b1d21ed606} 
+ansys::\+dpf::\+\+Result::\+\+Result (\begin{DoxyParamCaption}\item[{const char \texorpdfstring{$\ast$}{*}}]{res\+\_\+name}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} \&}]{stream\+\_\+provider}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} \&}]{timefreq\+\_\+support\+\_\+provider}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}}}]{mesh\+Scoping}{, }\item[{\doxymbox{\hyperlink{structansys_1_1dpf_1_1Location}{Location}}}]{requested\+\_\+location}{, }\item[{int}]{cs\+\_\+id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Create a new result from res\+\_\+name using given stream, timefreq, scoping, and location. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em res\+\_\+name} & Name of result on which to create result.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em stream\+\_\+provider} & Stream from which to create result.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em timefreq\+\_\+support\+\_\+provider} & Time/\+frequency from which to create result.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em mesh\+Scoping} & Scoping from which to create result.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em requested\+\_\+location} & Location on which to create result.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em cs\+\_\+id} & Not used. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1Result_a0087535ae7c95ba3720b5875ad54025b}\index{ansys::dpf::Result@{ansys::dpf::Result}!Result@{Result}}
+\index{Result@{Result}!ansys::dpf::Result@{ansys::dpf::Result}}
+\doxysubsubsection{\texorpdfstring{Result()}{Result()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Result_a0087535ae7c95ba3720b5875ad54025b} 
+ansys::\+dpf::\+\+Result::\+\+Result (\begin{DoxyParamCaption}\item[{const char \texorpdfstring{$\ast$}{*}}]{res\+\_\+name}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} \&}]{stream\+\_\+provider}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} \&}]{timefreq\+\_\+support\+\_\+provider}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} \&}]{mesh\+\_\+provider}{, }\item[{const char \texorpdfstring{$\ast$}{*}}]{named\+\_\+selection}{, }\item[{\doxymbox{\hyperlink{structansys_1_1dpf_1_1Location}{Location}}}]{requested\+\_\+location}{, }\item[{bool}]{b\+Inclusive}{, }\item[{int}]{cs\+\_\+id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Create a new result from res\+\_\+name using given stream, timefreq, mesh, named\+\_\+selection, and location. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em res\+\_\+name} & Name of result on which to create result.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em stream\+\_\+provider} & Stream from which to create result.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em timefreq\+\_\+support\+\_\+provider} & Time/\+frequency from which to create result.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em mesh\+\_\+provider} & Mesh from which to create result.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em named\+\_\+selection} & Named selection from which to create result.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em requested\+\_\+location} & Location on which to create result.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em b\+Inclusive} & If named\+\_\+selection is a nodal region and location is elemental, this flag indicates to include full/\+partial contained elements in named\+\_\+selection.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em cs\+\_\+id} & Not used. \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{classansys_1_1dpf_1_1Result_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classansys_1_1dpf_1_1Result_a5e672dee634e76b8a9782cdfab42461b}\index{ansys::dpf::Result@{ansys::dpf::Result}!EvaluateAmplitudeAtGivenStepIndexAndSubStep@{EvaluateAmplitudeAtGivenStepIndexAndSubStep}}
+\index{EvaluateAmplitudeAtGivenStepIndexAndSubStep@{EvaluateAmplitudeAtGivenStepIndexAndSubStep}!ansys::dpf::Result@{ansys::dpf::Result}}
+\doxysubsubsection{\texorpdfstring{EvaluateAmplitudeAtGivenStepIndexAndSubStep()}{EvaluateAmplitudeAtGivenStepIndexAndSubStep()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Result_a5e672dee634e76b8a9782cdfab42461b} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{Fields\+Container}} ansys::\+dpf::\+\+Result::\+\+Evaluate\+Amplitude\+At\+Given\+Step\+Index\+And\+Sub\+Step (\begin{DoxyParamCaption}\item[{int}]{i\+Step}{, }\item[{int}]{i\+Sub\+Step}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} \&}]{error}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Get the amplitude of the real and imaginary part of results of given \doxylink{classansys_1_1dpf_1_1TimeFreqSupport}{Time\+Freq\+Support}. Results are evaluated at a given \doxylink{classansys_1_1dpf_1_1TimeFreqSupport}{Time\+Freq\+Support}. This is arranged in \doxylink{classansys_1_1dpf_1_1TimeFreqSupport_a6b3cc037c0283450ac0234dadeddd1b6}{Time\+Freq\+Support::\+number\+Of\+Steps} groups of size \doxylink{classansys_1_1dpf_1_1TimeFreqSupport_a4333cdbfac1c49f802a9c33a18970ed5}{Time\+Freq\+Support::\+number\+Of\+Sub\+Steps\+By\+Step\+Index}. \begin{DoxyReturn}{Returns}
+Fields\+Container for given step and substep index. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em i\+Step} & Grouping index.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em i\+Sub\+Step} & Subgrouping index.  \\
+\hline
+\doxymbox{\texttt{out}}  & {\em error} & Status of call. \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{ResultTest_8cpp-example}{Result\+Test.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1Result_a439090991ae8107589374384bfca4933}\index{ansys::dpf::Result@{ansys::dpf::Result}!EvaluateAmplitudeAtGivenTime@{EvaluateAmplitudeAtGivenTime}}
+\index{EvaluateAmplitudeAtGivenTime@{EvaluateAmplitudeAtGivenTime}!ansys::dpf::Result@{ansys::dpf::Result}}
+\doxysubsubsection{\texorpdfstring{EvaluateAmplitudeAtGivenTime()}{EvaluateAmplitudeAtGivenTime()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Result_a439090991ae8107589374384bfca4933} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{Fields\+Container}} ansys::\+dpf::\+\+Result::\+\+Evaluate\+Amplitude\+At\+Given\+Time (\begin{DoxyParamCaption}\item[{double}]{d\+Time}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} \&}]{error}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Get the amplitude of the real and imaginary part of results at a given time. \begin{DoxyReturn}{Returns}
+Fields\+Container for given time. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em d\+Time} & Time for which to get fields.  \\
+\hline
+\doxymbox{\texttt{out}}  & {\em error} & Status of call. \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{ResultTest_8cpp-example}{Result\+Test.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1Result_a3df1f87059794e3ff557ccc63b99b171}\index{ansys::dpf::Result@{ansys::dpf::Result}!EvaluateAmplitudeAtGivenTimeIndex@{EvaluateAmplitudeAtGivenTimeIndex}}
+\index{EvaluateAmplitudeAtGivenTimeIndex@{EvaluateAmplitudeAtGivenTimeIndex}!ansys::dpf::Result@{ansys::dpf::Result}}
+\doxysubsubsection{\texorpdfstring{EvaluateAmplitudeAtGivenTimeIndex()}{EvaluateAmplitudeAtGivenTimeIndex()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Result_a3df1f87059794e3ff557ccc63b99b171} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{Fields\+Container}} ansys::\+dpf::\+\+Result::\+\+Evaluate\+Amplitude\+At\+Given\+Time\+Index (\begin{DoxyParamCaption}\item[{int}]{i\+Set}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} \&}]{error}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Get the amplitude of the real and imaginary part of results of given \doxylink{classansys_1_1dpf_1_1TimeFreqSupport}{Time\+Freq\+Support} index. \begin{DoxyReturn}{Returns}
+\doxylink{classansys_1_1dpf_1_1FieldsContainer}{Fields\+Container} for given \doxylink{classansys_1_1dpf_1_1TimeFreqSupport}{Time\+Freq\+Support} index. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em i\+Set} & Index of \doxylink{classansys_1_1dpf_1_1TimeFreqSupport}{Time\+Freq\+Support}.  \\
+\hline
+\doxymbox{\texttt{out}}  & {\em error} & Status of call. \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{ResultTest_8cpp-example}{Result\+Test.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1Result_af60979c0660e293e0eff722767939814}\index{ansys::dpf::Result@{ansys::dpf::Result}!EvaluateAtGivenStepIndexAndSubStep@{EvaluateAtGivenStepIndexAndSubStep}}
+\index{EvaluateAtGivenStepIndexAndSubStep@{EvaluateAtGivenStepIndexAndSubStep}!ansys::dpf::Result@{ansys::dpf::Result}}
+\doxysubsubsection{\texorpdfstring{EvaluateAtGivenStepIndexAndSubStep()}{EvaluateAtGivenStepIndexAndSubStep()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Result_af60979c0660e293e0eff722767939814} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{Fields\+Container}} ansys::\+dpf::\+\+Result::\+\+Evaluate\+At\+Given\+Step\+Index\+And\+Sub\+Step (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}}}]{i\+Step}{, }\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}}}]{i\+Sub\+Step}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} \&}]{error}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Results are evaluated for at a given \doxylink{classansys_1_1dpf_1_1TimeFreqSupport}{Time\+Freq\+Support}. This is arranged in \doxylink{classansys_1_1dpf_1_1TimeFreqSupport_a6b3cc037c0283450ac0234dadeddd1b6}{Time\+Freq\+Support::\+number\+Of\+Steps} groups of size \doxylink{classansys_1_1dpf_1_1TimeFreqSupport_a4333cdbfac1c49f802a9c33a18970ed5}{Time\+Freq\+Support::\+number\+Of\+Sub\+Steps\+By\+Step\+Index}. \begin{DoxyReturn}{Returns}
+Fields\+Container for given step and substep index. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em i\+Step} & Grouping index.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em i\+Sub\+Step} & Subgrouping index.  \\
+\hline
+\doxymbox{\texttt{out}}  & {\em error} & Status of call. \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{ResultTest_8cpp-example}{Result\+Test.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1Result_ac8e07e03eba295dacfe13a100603d5c4}\index{ansys::dpf::Result@{ansys::dpf::Result}!EvaluateAtGivenTime@{EvaluateAtGivenTime}}
+\index{EvaluateAtGivenTime@{EvaluateAtGivenTime}!ansys::dpf::Result@{ansys::dpf::Result}}
+\doxysubsubsection{\texorpdfstring{EvaluateAtGivenTime()}{EvaluateAtGivenTime()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Result_ac8e07e03eba295dacfe13a100603d5c4} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{Fields\+Container}} ansys::\+dpf::\+\+Result::\+\+Evaluate\+At\+Given\+Time (\begin{DoxyParamCaption}\item[{double}]{d\+Time}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} \&}]{error}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Get the fields associated with results at a given time. \begin{DoxyReturn}{Returns}
+Fields\+Container for given time. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em d\+Time} & Time for which to get fields.  \\
+\hline
+\doxymbox{\texttt{out}}  & {\em error} & Status of call. \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataApis_8cpp-example}{Data\+Apis.\+cpp}}, \doxymbox{\hyperlink{ModelTest_8cpp-example}{Model\+Test.\+cpp}}, and \doxymbox{\hyperlink{ResultTest_8cpp-example}{Result\+Test.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1Result_aaf145866535c0773a9ba3524b1f65743}\index{ansys::dpf::Result@{ansys::dpf::Result}!EvaluateAtGivenTimeIndex@{EvaluateAtGivenTimeIndex}}
+\index{EvaluateAtGivenTimeIndex@{EvaluateAtGivenTimeIndex}!ansys::dpf::Result@{ansys::dpf::Result}}
+\doxysubsubsection{\texorpdfstring{EvaluateAtGivenTimeIndex()}{EvaluateAtGivenTimeIndex()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Result_aaf145866535c0773a9ba3524b1f65743} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{Fields\+Container}} ansys::\+dpf::\+\+Result::\+\+Evaluate\+At\+Given\+Time\+Index (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}}}]{i\+Set}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} \&}]{error}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Get the fields associated with results at given \doxylink{classansys_1_1dpf_1_1TimeFreqSupport}{Time\+Freq\+Support} index. \begin{DoxyReturn}{Returns}
+Fields\+Container for given time/\+frequency index. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em i\+Set} & Index of \doxylink{classansys_1_1dpf_1_1TimeFreqSupport}{Time\+Freq\+Support}.  \\
+\hline
+\doxymbox{\texttt{out}}  & {\em error} & Status of call. \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{ResultTest_8cpp-example}{Result\+Test.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1Result_a75a2c05527109af736a19ca1156d85a2}\index{ansys::dpf::Result@{ansys::dpf::Result}!EvaluateWithPhaseAtGivenStepIndexAndSubStep@{EvaluateWithPhaseAtGivenStepIndexAndSubStep}}
+\index{EvaluateWithPhaseAtGivenStepIndexAndSubStep@{EvaluateWithPhaseAtGivenStepIndexAndSubStep}!ansys::dpf::Result@{ansys::dpf::Result}}
+\doxysubsubsection{\texorpdfstring{EvaluateWithPhaseAtGivenStepIndexAndSubStep()}{EvaluateWithPhaseAtGivenStepIndexAndSubStep()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Result_a75a2c05527109af736a19ca1156d85a2} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{Fields\+Container}} ansys::\+dpf::\+\+Result::\+\+Evaluate\+With\+Phase\+At\+Given\+Step\+Index\+And\+Sub\+Step (\begin{DoxyParamCaption}\item[{int}]{i\+Step}{, }\item[{int}]{i\+Sub\+Step}{, }\item[{double}]{d\+Phase}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} \&}]{error}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Get the sweeping phase at given \doxylink{classansys_1_1dpf_1_1TimeFreqSupport}{Time\+Freq\+Support} and phase. Results are evaluated at a given \doxylink{classansys_1_1dpf_1_1TimeFreqSupport}{Time\+Freq\+Support}. This is arranged in \doxylink{classansys_1_1dpf_1_1TimeFreqSupport_a6b3cc037c0283450ac0234dadeddd1b6}{Time\+Freq\+Support::\+number\+Of\+Steps} groups of size \doxylink{classansys_1_1dpf_1_1TimeFreqSupport_a4333cdbfac1c49f802a9c33a18970ed5}{Time\+Freq\+Support::\+number\+Of\+Sub\+Steps\+By\+Step\+Index}. \begin{DoxyReturn}{Returns}
+Fields\+Container for given step and substep index and phase. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em i\+Step} & Grouping index.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em i\+Sub\+Step} & Subgrouping index.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em d\+Phase} & Phase angle measured in degrees.  \\
+\hline
+\doxymbox{\texttt{out}}  & {\em error} & Status of call. \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{ResultTest_8cpp-example}{Result\+Test.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1Result_a53d7529964052d14a60ee1d53f6d1d06}\index{ansys::dpf::Result@{ansys::dpf::Result}!EvaluateWithPhaseAtGivenTime@{EvaluateWithPhaseAtGivenTime}}
+\index{EvaluateWithPhaseAtGivenTime@{EvaluateWithPhaseAtGivenTime}!ansys::dpf::Result@{ansys::dpf::Result}}
+\doxysubsubsection{\texorpdfstring{EvaluateWithPhaseAtGivenTime()}{EvaluateWithPhaseAtGivenTime()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Result_a53d7529964052d14a60ee1d53f6d1d06} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{Fields\+Container}} ansys::\+dpf::\+\+Result::\+\+Evaluate\+With\+Phase\+At\+Given\+Time (\begin{DoxyParamCaption}\item[{double}]{d\+Time}{, }\item[{double}]{d\+Phase}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} \&}]{error}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Get the sweeping phase at a given time and phase. \begin{DoxyReturn}{Returns}
+Fields\+Container for given time and phase. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em d\+Time} & Time for which to get fields.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em d\+Phase} & Phase angle measured in degrees.  \\
+\hline
+\doxymbox{\texttt{out}}  & {\em error} & Status of call. \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{ResultTest_8cpp-example}{Result\+Test.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1Result_ae1d940c0f56673f96d91716dc736d17f}\index{ansys::dpf::Result@{ansys::dpf::Result}!EvaluateWithPhaseAtGivenTimeIndex@{EvaluateWithPhaseAtGivenTimeIndex}}
+\index{EvaluateWithPhaseAtGivenTimeIndex@{EvaluateWithPhaseAtGivenTimeIndex}!ansys::dpf::Result@{ansys::dpf::Result}}
+\doxysubsubsection{\texorpdfstring{EvaluateWithPhaseAtGivenTimeIndex()}{EvaluateWithPhaseAtGivenTimeIndex()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Result_ae1d940c0f56673f96d91716dc736d17f} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{Fields\+Container}} ansys::\+dpf::\+\+Result::\+\+Evaluate\+With\+Phase\+At\+Given\+Time\+Index (\begin{DoxyParamCaption}\item[{int}]{i\+Set}{, }\item[{double}]{d\+Phase}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} \&}]{error}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Get the sweeping phase at given \doxylink{classansys_1_1dpf_1_1TimeFreqSupport}{Time\+Freq\+Support} index and phase \begin{DoxyReturn}{Returns}
+\doxylink{classansys_1_1dpf_1_1FieldsContainer}{Fields\+Container} for given \doxylink{classansys_1_1dpf_1_1TimeFreqSupport}{Time\+Freq\+Support} index and phase. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em i\+Set} & Index of \doxylink{classansys_1_1dpf_1_1TimeFreqSupport}{Time\+Freq\+Support}.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em d\+Phase} & Phase angle measured in degrees.  \\
+\hline
+\doxymbox{\texttt{out}}  & {\em error} & Status of call. \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{ResultTest_8cpp-example}{Result\+Test.\+cpp}}.\end{Desc}

@@ -1,0 +1,344 @@
+\doxysection{ansys::\+dpf::\+elements Struct Reference}
+\hypertarget{structansys_1_1dpf_1_1elements}{}\label{structansys_1_1dpf_1_1elements}\index{ansys::dpf::elements@{ansys::dpf::elements}}
+
+
+{\ttfamily \+\#include $<$dpf\+\_\+api\+\_\+base.\+h$>$}
+
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{structansys_1_1dpf_1_1elements_a26cd9737847a69cd1f856a8936c3551c}\label{structansys_1_1dpf_1_1elements_a26cd9737847a69cd1f856a8936c3551c} 
+enum {\bfseries EElement\+Type} \{ \newline
+{\bfseries k\+Ans\+General} = -\/2
+, {\bfseries k\+Ans\+All} = -\/1
+, {\bfseries k\+Ans\+Tet10} = 0
+, {\bfseries k\+Ans\+Hex20} = 1
+, \newline
+{\bfseries k\+Ans\+Wedge15} = 2
+, {\bfseries k\+Ans\+Pyramid13} = 3
+, {\bfseries k\+Ans\+Tri6} = 4
+, {\bfseries k\+Ans\+Tri\+Shell6} = 5
+, \newline
+{\bfseries k\+Ans\+Quad8} = 6
+, {\bfseries k\+Ans\+Quad\+Shell8} = 7
+, {\bfseries k\+Ans\+Line3} = 8
+, {\bfseries k\+Ans\+Point1} = 9
+, \newline
+{\bfseries k\+Ans\+Tet4} = 10
+, {\bfseries k\+Ans\+Hex8} = 11
+, {\bfseries k\+Ans\+Wedge6} = 12
+, {\bfseries k\+Ans\+Pyramid5} = 13
+, \newline
+{\bfseries k\+Ans\+Tri3} = 14
+, {\bfseries k\+Ans\+Tri\+Shell3} = 15
+, {\bfseries k\+Ans\+Quad4} = 16
+, {\bfseries k\+Ans\+Quad\+Shell4} = 17
+, \newline
+{\bfseries k\+Ans\+Line2} = 18
+, {\bfseries k\+Ans\+Num\+Element\+Types} = 19
+, {\bfseries k\+Ans\+Unknown} = 20
+, {\bfseries k\+Ans\+EMag\+Line} = 21
+, \newline
+{\bfseries k\+Ans\+EMag\+Arc} = 22
+, {\bfseries k\+Ans\+EMag\+Circle} = 23
+, {\bfseries k\+Ans\+Surface3} = 24
+, {\bfseries k\+Ans\+Surface4} = 25
+, \newline
+{\bfseries k\+Ans\+Surface6} = 26
+, {\bfseries k\+Ans\+Surface8} = 27
+, {\bfseries k\+Ans\+Edge2} = 28
+, {\bfseries k\+Ans\+Edge3} = 29
+, \newline
+{\bfseries k\+Ans\+Beam3} = 30
+, {\bfseries k\+Ans\+Beam4} = 31
+, {\bfseries k\+Ans\+General\+Placeholder} = 32
+, {\bfseries k\+Ans\+Polygon} = 33
+, \newline
+{\bfseries k\+Ans\+Polyhedron} = 34
+, {\bfseries k\+Ans\+Actual\+Num\+Element\+Types} = 35
+ \}
+\item 
+\Hypertarget{structansys_1_1dpf_1_1elements_a52e134d27c3ea7a5158ad3707d0af86d}\label{structansys_1_1dpf_1_1elements_a52e134d27c3ea7a5158ad3707d0af86d} 
+enum {\bfseries EShape} \{ {\bfseries e\+Shell} = 0
+, {\bfseries e\+Solid} = 1
+, {\bfseries e\+Beam} = 2
+, {\bfseries e\+Unknown\+Shape} = 3
+ \}
+\item 
+\Hypertarget{structansys_1_1dpf_1_1elements_a15f94658f6da65e43f52199c682eaa41}\label{structansys_1_1dpf_1_1elements_a15f94658f6da65e43f52199c682eaa41} 
+typedef enum ansys::\+dpf::\+elements::\+\+EElement\+Type {\bfseries EElement\+Type}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} const \& \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_a30e8daf92a36604a3c176d9f7b5d1f35}{descriptor}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} element\+\_\+index)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_a05d59369acd4f4ac6819645f2413ee22}{tet4}}
+\item 
+static const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_a7f276f248180559409b323fdedb70582}{tet10}}
+\item 
+static const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_ac6ff34f1a725f25b7e0a095aff779136}{tri3}}
+\item 
+static const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_a6da8547db64d0404c57c70c1b2ac7c49}{tri\+Shell3}}
+\item 
+static const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_a678e9dcef96b39246445828f33e72b71}{tri6}}
+\item 
+static const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_aee80f084c6fbaedceee94106818bec1c}{tri\+Shell6}}
+\item 
+static const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_a4781a62a05dd26d8f1f19cd7c4b6e524}{quad4}}
+\item 
+static const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_ac9194bac632c648b744f96a2306b428b}{quad\+Shell4}}
+\item 
+static const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_ad36e9e7391d69a1b8ad420e39fe3e7e0}{quad8}}
+\item 
+static const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_a93a4e8340f6e8aa6c8eaddc53f4f597d}{quad\+Shell8}}
+\item 
+static const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_a5691e11b844d29be5134f86e7dcd11dc}{pyramid5}}
+\item 
+static const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_a941c7a8dbfe56e2babd10f8cc8ac4285}{pyramid13}}
+\item 
+static const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_a3141f08f706520d619035b8511f0896a}{wedge6}}
+\item 
+static const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_a892a97f94e4a6fddaad8fe6291ad3dff}{wedge15}}
+\item 
+static const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_a04e5abf7b58c9ba639b0846d05950642}{hex8}}
+\item 
+static const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_a62bb2da3409ede24afca38ace21f75e8}{hex20}}
+\item 
+static const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_a52f6751afe46909ad6c83c0b0510491d}{line2}}
+\item 
+static const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_ae353ec6c1cb895bb0ee8b2dd59f2033e}{line3}}
+\item 
+static const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_a07ea15edb478efe2cb580ba86a65b89e}{beam3}}
+\item 
+static const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_a7651898827538618d188da12cb8be51a}{beam4}}
+\item 
+static const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_a42c776bd25670e7ca0c2cc9fc91e2829}{point1}}
+\item 
+static const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_a0b3e8e1bcd04a985c4f8d32c5e95738e}{polygon}}
+\item 
+static const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_af9f8a7d13897f82bc5fefa49b8797a83}{polyhedron}}
+\item 
+static const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_a51f0cc33dad4fd994ce98dd77a49ea9d}{unknown}}
+\item 
+static const std::\+vector$<$ \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} $>$ \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_a5553bdd8a5ab865ec9f66f59f4103707}{linears}}
+\item 
+static const std::\+vector$<$ \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} $>$ \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_a3c236de96ce4dddc85a57bab6a32bc83}{quadratics}}
+\item 
+static const std::\+vector$<$ \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} $>$ \doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_a4abe6329bb8b96b9a4b7f3ecd8fc7f2e}{solid\+\_\+elements}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Predefined \doxylink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}. \begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{MeshQueryTest_8cpp-example}{Mesh\+Query\+Test.\+cpp}}.\end{Desc}
+
+
+\label{doc-func-members}
+\Hypertarget{structansys_1_1dpf_1_1elements_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{structansys_1_1dpf_1_1elements_a30e8daf92a36604a3c176d9f7b5d1f35}\index{ansys::dpf::elements@{ansys::dpf::elements}!descriptor@{descriptor}}
+\index{descriptor@{descriptor}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{descriptor()}{descriptor()}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_a30e8daf92a36604a3c176d9f7b5d1f35} 
+\doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} const  \& ansys::\+dpf::\+elements::\+descriptor (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}}}]{element\+\_\+index}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\begin{DoxyReturn}{Returns}
+\doxylink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor} based on \doxylink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor} id. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataApis_8cpp-example}{Data\+Apis.\+cpp}}.\end{Desc}
+
+
+\label{doc-variable-members}
+\Hypertarget{structansys_1_1dpf_1_1elements_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{structansys_1_1dpf_1_1elements_a07ea15edb478efe2cb580ba86a65b89e}\index{ansys::dpf::elements@{ansys::dpf::elements}!beam3@{beam3}}
+\index{beam3@{beam3}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{beam3}{beam3}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_a07ea15edb478efe2cb580ba86a65b89e} 
+const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} ansys::\+dpf::\+elements::\+beam3\hspace{0.3cm}{\ttfamily [static]}}
+
+Linear 2-\/nodes (+ orientation node) Beam. \Hypertarget{structansys_1_1dpf_1_1elements_a7651898827538618d188da12cb8be51a}\index{ansys::dpf::elements@{ansys::dpf::elements}!beam4@{beam4}}
+\index{beam4@{beam4}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{beam4}{beam4}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_a7651898827538618d188da12cb8be51a} 
+const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} ansys::\+dpf::\+elements::\+beam4\hspace{0.3cm}{\ttfamily [static]}}
+
+Quadratic 3-\/nodes (+ orientation node) Beam. \Hypertarget{structansys_1_1dpf_1_1elements_a62bb2da3409ede24afca38ace21f75e8}\index{ansys::dpf::elements@{ansys::dpf::elements}!hex20@{hex20}}
+\index{hex20@{hex20}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{hex20}{hex20}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_a62bb2da3409ede24afca38ace21f75e8} 
+const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} ansys::\+dpf::\+elements::\+hex20\hspace{0.3cm}{\ttfamily [static]}}
+
+Quadratic 20-\/nodes Hexahedron. \begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{MeshQueryTest_8cpp-example}{Mesh\+Query\+Test.\+cpp}}.\end{Desc}
+\Hypertarget{structansys_1_1dpf_1_1elements_a04e5abf7b58c9ba639b0846d05950642}\index{ansys::dpf::elements@{ansys::dpf::elements}!hex8@{hex8}}
+\index{hex8@{hex8}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{hex8}{hex8}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_a04e5abf7b58c9ba639b0846d05950642} 
+const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} ansys::\+dpf::\+elements::\+hex8\hspace{0.3cm}{\ttfamily [static]}}
+
+Linear 8-\/nodes Hexahedron. \Hypertarget{structansys_1_1dpf_1_1elements_a52f6751afe46909ad6c83c0b0510491d}\index{ansys::dpf::elements@{ansys::dpf::elements}!line2@{line2}}
+\index{line2@{line2}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{line2}{line2}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_a52f6751afe46909ad6c83c0b0510491d} 
+const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} ansys::\+dpf::\+elements::\+line2\hspace{0.3cm}{\ttfamily [static]}}
+
+Linear 2-\/nodes Line. \begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataApis_8cpp-example}{Data\+Apis.\+cpp}}, and \doxymbox{\hyperlink{MeshQueryTest_8cpp-example}{Mesh\+Query\+Test.\+cpp}}.\end{Desc}
+\Hypertarget{structansys_1_1dpf_1_1elements_ae353ec6c1cb895bb0ee8b2dd59f2033e}\index{ansys::dpf::elements@{ansys::dpf::elements}!line3@{line3}}
+\index{line3@{line3}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{line3}{line3}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_ae353ec6c1cb895bb0ee8b2dd59f2033e} 
+const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} ansys::\+dpf::\+elements::\+line3\hspace{0.3cm}{\ttfamily [static]}}
+
+Quadratic 3-\/nodes Line. \Hypertarget{structansys_1_1dpf_1_1elements_a5553bdd8a5ab865ec9f66f59f4103707}\index{ansys::dpf::elements@{ansys::dpf::elements}!linears@{linears}}
+\index{linears@{linears}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{linears}{linears}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_a5553bdd8a5ab865ec9f66f59f4103707} 
+const std::\+vector$<$\doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}}$>$ ansys::\+dpf::\+elements::\+linears\hspace{0.3cm}{\ttfamily [static]}}
+
+of those elements with no mid-\/side nodes (excluding shell elements). \Hypertarget{structansys_1_1dpf_1_1elements_a42c776bd25670e7ca0c2cc9fc91e2829}\index{ansys::dpf::elements@{ansys::dpf::elements}!point1@{point1}}
+\index{point1@{point1}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{point1}{point1}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_a42c776bd25670e7ca0c2cc9fc91e2829} 
+const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} ansys::\+dpf::\+elements::\+point1\hspace{0.3cm}{\ttfamily [static]}}
+
+Point element. \begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataApis_8cpp-example}{Data\+Apis.\+cpp}}, \doxymbox{\hyperlink{DataExport_8cpp-example}{Data\+Export.\+cpp}}, and \doxymbox{\hyperlink{MeshQueryTest_8cpp-example}{Mesh\+Query\+Test.\+cpp}}.\end{Desc}
+\Hypertarget{structansys_1_1dpf_1_1elements_a0b3e8e1bcd04a985c4f8d32c5e95738e}\index{ansys::dpf::elements@{ansys::dpf::elements}!polygon@{polygon}}
+\index{polygon@{polygon}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{polygon}{polygon}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_a0b3e8e1bcd04a985c4f8d32c5e95738e} 
+const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} ansys::\+dpf::\+elements::\+polygon\hspace{0.3cm}{\ttfamily [static]}}
+
+Polygon element. \Hypertarget{structansys_1_1dpf_1_1elements_af9f8a7d13897f82bc5fefa49b8797a83}\index{ansys::dpf::elements@{ansys::dpf::elements}!polyhedron@{polyhedron}}
+\index{polyhedron@{polyhedron}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{polyhedron}{polyhedron}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_af9f8a7d13897f82bc5fefa49b8797a83} 
+const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} ansys::\+dpf::\+elements::\+polyhedron\hspace{0.3cm}{\ttfamily [static]}}
+
+Polyhedron element. \Hypertarget{structansys_1_1dpf_1_1elements_a941c7a8dbfe56e2babd10f8cc8ac4285}\index{ansys::dpf::elements@{ansys::dpf::elements}!pyramid13@{pyramid13}}
+\index{pyramid13@{pyramid13}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{pyramid13}{pyramid13}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_a941c7a8dbfe56e2babd10f8cc8ac4285} 
+const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} ansys::\+dpf::\+elements::\+pyramid13\hspace{0.3cm}{\ttfamily [static]}}
+
+Quadratic 13-\/nodes Pyramid. \Hypertarget{structansys_1_1dpf_1_1elements_a5691e11b844d29be5134f86e7dcd11dc}\index{ansys::dpf::elements@{ansys::dpf::elements}!pyramid5@{pyramid5}}
+\index{pyramid5@{pyramid5}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{pyramid5}{pyramid5}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_a5691e11b844d29be5134f86e7dcd11dc} 
+const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} ansys::\+dpf::\+elements::\+pyramid5\hspace{0.3cm}{\ttfamily [static]}}
+
+Linear 5-\/nodes Pyramid. \Hypertarget{structansys_1_1dpf_1_1elements_a4781a62a05dd26d8f1f19cd7c4b6e524}\index{ansys::dpf::elements@{ansys::dpf::elements}!quad4@{quad4}}
+\index{quad4@{quad4}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{quad4}{quad4}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_a4781a62a05dd26d8f1f19cd7c4b6e524} 
+const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} ansys::\+dpf::\+elements::\+quad4\hspace{0.3cm}{\ttfamily [static]}}
+
+Linear 4-\/nodes Quadrangle. \begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataApis_8cpp-example}{Data\+Apis.\+cpp}}, and \doxymbox{\hyperlink{MeshQueryTest_8cpp-example}{Mesh\+Query\+Test.\+cpp}}.\end{Desc}
+\Hypertarget{structansys_1_1dpf_1_1elements_ad36e9e7391d69a1b8ad420e39fe3e7e0}\index{ansys::dpf::elements@{ansys::dpf::elements}!quad8@{quad8}}
+\index{quad8@{quad8}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{quad8}{quad8}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_ad36e9e7391d69a1b8ad420e39fe3e7e0} 
+const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} ansys::\+dpf::\+elements::\+quad8\hspace{0.3cm}{\ttfamily [static]}}
+
+Quadratic 8-\/nodes Quadrangle. \begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{MeshQueryTest_8cpp-example}{Mesh\+Query\+Test.\+cpp}}.\end{Desc}
+\Hypertarget{structansys_1_1dpf_1_1elements_a3c236de96ce4dddc85a57bab6a32bc83}\index{ansys::dpf::elements@{ansys::dpf::elements}!quadratics@{quadratics}}
+\index{quadratics@{quadratics}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{quadratics}{quadratics}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_a3c236de96ce4dddc85a57bab6a32bc83} 
+const std::\+vector$<$\doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}}$>$ ansys::\+dpf::\+elements::\+quadratics\hspace{0.3cm}{\ttfamily [static]}}
+
+Vector of those elements with mid-\/side nodes (excluding shell elements). \Hypertarget{structansys_1_1dpf_1_1elements_ac9194bac632c648b744f96a2306b428b}\index{ansys::dpf::elements@{ansys::dpf::elements}!quadShell4@{quadShell4}}
+\index{quadShell4@{quadShell4}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{quadShell4}{quadShell4}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_ac9194bac632c648b744f96a2306b428b} 
+const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} ansys::\+dpf::\+elements::\+quad\+Shell4\hspace{0.3cm}{\ttfamily [static]}}
+
+Linear 4-\/nodes Quadrangle Shell. \begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataExport_8cpp-example}{Data\+Export.\+cpp}}.\end{Desc}
+\Hypertarget{structansys_1_1dpf_1_1elements_a93a4e8340f6e8aa6c8eaddc53f4f597d}\index{ansys::dpf::elements@{ansys::dpf::elements}!quadShell8@{quadShell8}}
+\index{quadShell8@{quadShell8}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{quadShell8}{quadShell8}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_a93a4e8340f6e8aa6c8eaddc53f4f597d} 
+const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} ansys::\+dpf::\+elements::\+quad\+Shell8\hspace{0.3cm}{\ttfamily [static]}}
+
+Quadratic 8-\/nodes Quadrangle Shell. \Hypertarget{structansys_1_1dpf_1_1elements_a4abe6329bb8b96b9a4b7f3ecd8fc7f2e}\index{ansys::dpf::elements@{ansys::dpf::elements}!solid\_elements@{solid\_elements}}
+\index{solid\_elements@{solid\_elements}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{solid\_elements}{solid\_elements}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_a4abe6329bb8b96b9a4b7f3ecd8fc7f2e} 
+const std::\+vector$<$\doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}}$>$ ansys::\+dpf::\+elements::\+solid\+\_\+elements\hspace{0.3cm}{\ttfamily [static]}}
+
+Vector of solid/\+volume elements. \Hypertarget{structansys_1_1dpf_1_1elements_a7f276f248180559409b323fdedb70582}\index{ansys::dpf::elements@{ansys::dpf::elements}!tet10@{tet10}}
+\index{tet10@{tet10}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{tet10}{tet10}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_a7f276f248180559409b323fdedb70582} 
+const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} ansys::\+dpf::\+elements::\+tet10\hspace{0.3cm}{\ttfamily [static]}}
+
+Quadratic 10-\/nodes Tetrahedron. \Hypertarget{structansys_1_1dpf_1_1elements_a05d59369acd4f4ac6819645f2413ee22}\index{ansys::dpf::elements@{ansys::dpf::elements}!tet4@{tet4}}
+\index{tet4@{tet4}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{tet4}{tet4}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_a05d59369acd4f4ac6819645f2413ee22} 
+const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} ansys::\+dpf::\+elements::\+tet4\hspace{0.3cm}{\ttfamily [static]}}
+
+Linear 4-\/nodes Tetrahedron. \begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataApis_8cpp-example}{Data\+Apis.\+cpp}}, and \doxymbox{\hyperlink{DataExport_8cpp-example}{Data\+Export.\+cpp}}.\end{Desc}
+\Hypertarget{structansys_1_1dpf_1_1elements_ac6ff34f1a725f25b7e0a095aff779136}\index{ansys::dpf::elements@{ansys::dpf::elements}!tri3@{tri3}}
+\index{tri3@{tri3}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{tri3}{tri3}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_ac6ff34f1a725f25b7e0a095aff779136} 
+const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} ansys::\+dpf::\+elements::\+tri3\hspace{0.3cm}{\ttfamily [static]}}
+
+Linear 3-\/nodes Triangle. \Hypertarget{structansys_1_1dpf_1_1elements_a678e9dcef96b39246445828f33e72b71}\index{ansys::dpf::elements@{ansys::dpf::elements}!tri6@{tri6}}
+\index{tri6@{tri6}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{tri6}{tri6}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_a678e9dcef96b39246445828f33e72b71} 
+const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} ansys::\+dpf::\+elements::\+tri6\hspace{0.3cm}{\ttfamily [static]}}
+
+Quadratic 6-\/nodes Triangle. \Hypertarget{structansys_1_1dpf_1_1elements_a6da8547db64d0404c57c70c1b2ac7c49}\index{ansys::dpf::elements@{ansys::dpf::elements}!triShell3@{triShell3}}
+\index{triShell3@{triShell3}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{triShell3}{triShell3}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_a6da8547db64d0404c57c70c1b2ac7c49} 
+const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} ansys::\+dpf::\+elements::\+tri\+Shell3\hspace{0.3cm}{\ttfamily [static]}}
+
+Linear 3-\/nodes Triangle Shell. \Hypertarget{structansys_1_1dpf_1_1elements_aee80f084c6fbaedceee94106818bec1c}\index{ansys::dpf::elements@{ansys::dpf::elements}!triShell6@{triShell6}}
+\index{triShell6@{triShell6}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{triShell6}{triShell6}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_aee80f084c6fbaedceee94106818bec1c} 
+const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} ansys::\+dpf::\+elements::\+tri\+Shell6\hspace{0.3cm}{\ttfamily [static]}}
+
+Quadratic 6-\/nodes Triangle Shell. \Hypertarget{structansys_1_1dpf_1_1elements_a51f0cc33dad4fd994ce98dd77a49ea9d}\index{ansys::dpf::elements@{ansys::dpf::elements}!unknown@{unknown}}
+\index{unknown@{unknown}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{unknown}{unknown}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_a51f0cc33dad4fd994ce98dd77a49ea9d} 
+const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} ansys::\+dpf::\+elements::\+unknown\hspace{0.3cm}{\ttfamily [static]}}
+
+Unknown element type. \Hypertarget{structansys_1_1dpf_1_1elements_a892a97f94e4a6fddaad8fe6291ad3dff}\index{ansys::dpf::elements@{ansys::dpf::elements}!wedge15@{wedge15}}
+\index{wedge15@{wedge15}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{wedge15}{wedge15}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_a892a97f94e4a6fddaad8fe6291ad3dff} 
+const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} ansys::\+dpf::\+elements::\+wedge15\hspace{0.3cm}{\ttfamily [static]}}
+
+Quadratic 15-\/nodes Wedge. \Hypertarget{structansys_1_1dpf_1_1elements_a3141f08f706520d619035b8511f0896a}\index{ansys::dpf::elements@{ansys::dpf::elements}!wedge6@{wedge6}}
+\index{wedge6@{wedge6}!ansys::dpf::elements@{ansys::dpf::elements}}
+\doxysubsubsection{\texorpdfstring{wedge6}{wedge6}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1elements_a3141f08f706520d619035b8511f0896a} 
+const \doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} ansys::\+dpf::\+elements::\+wedge6\hspace{0.3cm}{\ttfamily [static]}}
+
+Linear 6-\/nodes Wedge. 

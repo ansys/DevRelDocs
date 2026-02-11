@@ -1,0 +1,590 @@
+\doxysection{ansys::\+dpf::\+core Class Reference}
+\hypertarget{classansys_1_1dpf_1_1core}{}\label{classansys_1_1dpf_1_1core}\index{ansys::dpf::core@{ansys::dpf::core}}
+
+
+{\ttfamily \+\#include $<$dpf\+\_\+api.\+h$>$}
+
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_a5fbdf727da47ba6dd749ade51f1f2dcc}{apply\+Context}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Context}{Context}} const \&context)
+\item 
+static \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_a1a1687a6a7403dcbdb7fdbda47e100dc}{release\+Dpf}} ()
+\item 
+static \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_a8dd035c5ee368c43a4bc0d25b356e28a}{release\+Dpf}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client)
+\item 
+static \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_a768caf3bdc514ba3469584ea6da7ce78}{apply\+Context}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Context}{Context}} const \&context, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client)
+\item 
+static \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_addc032f5882185bcf940ce7adf293327}{load\+Dpf\+Plugin}} (std::\+string const \&plugin\+\_\+path, std::\+string const \&plugin\+\_\+name, std::\+string const \&symbol="{}Load\+Operators"{})
+\item 
+static \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_aa9921dd047827c618f977e01ee088694}{load\+Dpf\+Plugin}} (std::\+string const \&plugin\+\_\+path, std::\+string const \&plugin\+\_\+name, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client)
+\item 
+static \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_a74f7e10fc172292bc61582304787c30f}{load\+Dpf\+Plugin}} (std::\+string const \&plugin\+\_\+path, std::\+string const \&plugin\+\_\+name, std::\+string const \&symbol, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client)
+\item 
+static \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_a90f442e446b15a9fb5171ddcdf191b16}{assert\+Instantiate}} (std::\+string const \&identifier)
+\item 
+static \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_add883fb6a137735138c6b7bd9759c37f}{assert\+Instantiate}} (std::\+string const \&identifier, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client)
+\item 
+static \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_a721f5fcbccec1819566351daf8549ae9}{assert\+Instantiate}} (std::\+string const \&identifier, \doxymbox{\hyperlink{classansys_1_1dpf_1_1OperatorConfig}{Operator\+Config}} const \&config, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client)
+\item 
+static \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_ac729e14b3132c112e50982614be304aa}{assert\+Instantiate}} (std::\+string const \&identifier, \doxymbox{\hyperlink{classansys_1_1dpf_1_1OperatorConfig}{Operator\+Config}} const \&config)
+\item 
+static \doxymbox{\hyperlink{classansys_1_1dpf_1_1OperatorConfig}{Operator\+Config}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_a20f37512490ec6131335f52be7f2f28d}{default\+Operator\+Config}} (std::\+string const \&op\+\_\+identifier, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client=nullptr)
+\item 
+static \doxymbox{\hyperlink{classansys_1_1dpf_1_1OperatorSpecification}{Operator\+Specification}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_ae9c538db9a8802e9ec28e9e7b40267b5}{get\+Operator\+Specification}} (std::\+string const \&identifier, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client=nullptr)
+\item 
+static void \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_a1ba7a71221fa1426e7d692af8073c6f9}{record\+Operator}} (Operator\+Main\+Function f, std::\+string const \&operator\+\_\+identifier, Abstract\+Core \texorpdfstring{$\ast$}{*}core=nullptr)
+\item 
+static void \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_ae2e440cbaacff372ab16a894ebd58523}{record\+Operator}} (Operator\+Main\+Function f, std::\+string const \&operator\+\_\+identifier, \doxymbox{\hyperlink{classansys_1_1dpf_1_1OperatorSpecification}{Operator\+Specification}} const \&\doxymbox{\hyperlink{structansys_1_1dpf_1_1spec}{spec}}, Abstract\+Core \texorpdfstring{$\ast$}{*}=nullptr)
+\item 
+static void \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_a044882b0c9ca34a7d6327fa1e66c2a4c}{record\+Operator}} (Operator\+Main\+Function f, Operator\+Derivate\+Function deriv, std::\+string const \&operator\+\_\+identifier, \doxymbox{\hyperlink{classansys_1_1dpf_1_1OperatorSpecification}{Operator\+Specification}} const \&\doxymbox{\hyperlink{structansys_1_1dpf_1_1spec}{spec}}, Abstract\+Core \texorpdfstring{$\ast$}{*}=nullptr)
+\item 
+{\footnotesize template$<$typename StructureT$>$ }\\static void \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_ab323bdae88822935579597e9057cc14b}{record\+Operator}} ()
+\item 
+{\footnotesize template$<$typename StructureT$>$ }\\static void \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_aa1cb1818b981f0c1df639ef30ffc9f8b}{record\+Operator\+With\+Derivative}} ()
+\item 
+\Hypertarget{classansys_1_1dpf_1_1core_aeb4b908d70980261a3d1ed22d0f7e308}\label{classansys_1_1dpf_1_1core_aeb4b908d70980261a3d1ed22d0f7e308} 
+{\footnotesize template$<$typename StructureT$>$ }\\static void {\bfseries record\+Operator\+At\+Core} (Abstract\+Core \texorpdfstring{$\ast$}{*}core)
+\item 
+{\footnotesize template$<$typename StructureT$>$ }\\static void \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_a8c1912705392647f450a5734ef7b0333}{record\+Operator\+At\+Core\+With\+Derivative}} (Abstract\+Core \texorpdfstring{$\ast$}{*}core)
+\item 
+static void \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_aee8c2e35cb45716a87ebe7770ded34ea}{record\+Operator\+With\+New\+Name}} (std::\+string const \&exising\+\_\+identifier, std::\+string const \&new\+\_\+identifier, Abstract\+Core \texorpdfstring{$\ast$}{*}=nullptr)
+\item 
+static Workflow \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_a723856ec83974fcb2cc61549f3cb89dd}{workflow\+By\+Id}} (int id)
+\item 
+static Workflow \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_ae3c3f567efed3342df687fac9889c878}{workflow\+By\+Id}} (int id, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client)
+\item 
+static \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_a9368b14c3950b5227a837df8d3b865e8}{operator\+By\+Id}} (int id)
+\item 
+static Workflow \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_a0438a9c581e010038f7c40c5043a0f89}{workflow\+From\+Template}} (std::\+string const \&template\+\_\+identifier)
+\item 
+static bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_a7db9305e737bd0fb2859ff145d31d350}{workflow\+Template\+Exists}} (std::\+string const \&template\+\_\+identifier)
+\item 
+static void \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_ac3391e2f4d7b643efe6dcf0e934e8f45}{prepare\+Server\+Shutdown}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} \texorpdfstring{$\ast$}{*}const client)
+\item 
+static void \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_a2a7492837eb46b2d3ec75cd4e3e76c9f}{release\+Server}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} \texorpdfstring{$\ast$}{*}const client)
+\item 
+static std::\+vector$<$ std::\+string $>$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_a4ff73d65cea2aa6f69436ec673cb8934}{available\+Operators}} ()
+\item 
+static std::\+vector$<$ std::\+string $>$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_aca0296747cd46c61c955b8cdaa1ed16f}{available\+Operators}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} \texorpdfstring{$\ast$}{*}const client)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1core_a5c9ea0aa27d4bc9899d9af58e4422d60}\label{classansys_1_1dpf_1_1core_a5c9ea0aa27d4bc9899d9af58e4422d60} 
+static data\+Identifier\+In\+Database {\bfseries record\+In\+Database} (database\+Identifier const \&key, \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes}{Dpf\+Types}} \&data)
+\item 
+static data\+Identifier\+In\+Database \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_a5518f7636182e822f15a7ed40eb2c80a}{record\+In\+Database}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes}{Dpf\+Types}} \&data)
+\item 
+static void \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_a344424c85e16b6bb44cf7e27f021aa45}{release\+From\+Database}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_ab4574c9af3f2bb8011da7d1f4c8da20e}{dp\+\_\+id}} id, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client, bool async=false)
+\item 
+static \doxymbox{\hyperlink{classansys_1_1dpf_1_1Any}{ansys::\+dpf::\+\+Any}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_afb289372003268d7656638b51adc54cd}{get\+And\+Release\+From\+Database}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_ab4574c9af3f2bb8011da7d1f4c8da20e}{dp\+\_\+id}} id, database\+Identifier db\+\_\+id)
+\item 
+static \doxymbox{\hyperlink{classansys_1_1dpf_1_1RuntimeCoreConfig}{Runtime\+Core\+Config}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_a7e7dded7bf842c8c587bd0264b0b7452}{get\+Runtime\+Core\+Config}} ()
+\item 
+static \doxymbox{\hyperlink{classansys_1_1dpf_1_1RuntimeCoreConfig}{Runtime\+Core\+Config}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_a26d52ede300647e78b0a538690e5ffb8}{get\+Runtime\+Core\+Config}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} \texorpdfstring{$\ast$}{*}const client)
+\item 
+static \doxymbox{\hyperlink{classansys_1_1dpf_1_1RuntimeClientConfig}{Runtime\+Client\+Config}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_a4825a05c0f34be426942c0c519ee3b74}{get\+Runtime\+Client\+Config}} ()
+\item 
+\Hypertarget{classansys_1_1dpf_1_1core_a3b38833684ca509339ffe007ada5a030}\label{classansys_1_1dpf_1_1core_a3b38833684ca509339ffe007ada5a030} 
+static Fbs\+Server\+Data {\bfseries start\+Fbs\+Server} (std::\+string const \&ip="{}"{}, int port=0, const \doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} \texorpdfstring{$\ast$}{*}client=nullptr)
+\begin{DoxyCompactList}\small\item\em Starts a fbs server in this process or in the process targeted by "{}client"{}. \end{DoxyCompactList}\item 
+\Hypertarget{classansys_1_1dpf_1_1core_ae1f05f981693332e70380141f61a2bc0}\label{classansys_1_1dpf_1_1core_ae1f05f981693332e70380141f61a2bc0} 
+static Fbs\+Server\+Data {\bfseries get\+Or\+Start\+Fbs\+Server} (std::\+string const \&ip="{}"{}, int port=0, const \doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} \texorpdfstring{$\ast$}{*}client=nullptr)
+\begin{DoxyCompactList}\small\item\em Starts a fbs server in this process or in the process targeted by "{}client"{}. If a server was already started with this functions, the existing server is returned. \end{DoxyCompactList}\item 
+\Hypertarget{classansys_1_1dpf_1_1core_a8db49a31a767102e225f9b0de89aabc1}\label{classansys_1_1dpf_1_1core_a8db49a31a767102e225f9b0de89aabc1} 
+static Fbs\+Client {\bfseries connect\+To\+Fbs\+Server} (std::\+string const \&address, const \doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} \texorpdfstring{$\ast$}{*}client=nullptr)
+\begin{DoxyCompactList}\small\item\em Connects to a fbs server in this process or in the process targeted by "{}client"{}. \end{DoxyCompactList}\item 
+\Hypertarget{classansys_1_1dpf_1_1core_af59369ee9906684fed5f2deab51d6c78}\label{classansys_1_1dpf_1_1core_af59369ee9906684fed5f2deab51d6c78} 
+static Fbs\+Client {\bfseries connect\+To\+Fbs\+Server} (const opaque::\+\+Fbs\+Channel \texorpdfstring{$\ast$}{*}channel)
+\begin{DoxyCompactList}\small\item\em Connects to a fbs server in this process. \end{DoxyCompactList}\item 
+static void \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_ae3472a9ced3aff887f623d3a46943d5d}{get\+Server\+Version}} (int \&major\+\_\+version, int \&minor\+\_\+version)
+\item 
+{\footnotesize template$<$class Dpf\+Type, typename std::\+enable\+\_\+if$<$ std::\+is\+\_\+base\+\_\+of$<$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes}{Dpf\+Types}}, Dpf\+Type $>$::\+value $>$::\+type \texorpdfstring{$\ast$}{*} = nullptr$>$ }\\static Dpf\+Type \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_af26687fad53552d2263864bc46f935c8}{copy\+To}} (Dpf\+Type const \&to\+\_\+copy, const \doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} \texorpdfstring{$\ast$}{*}client)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Groups all Data\+Processing\+Framework core controls and utilities, like loading the core, loading libraries, protected instantiation, settings control. 
+
+\label{doc-func-members}
+\Hypertarget{classansys_1_1dpf_1_1core_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classansys_1_1dpf_1_1core_a5fbdf727da47ba6dd749ade51f1f2dcc}\index{ansys::dpf::core@{ansys::dpf::core}!applyContext@{applyContext}}
+\index{applyContext@{applyContext}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{applyContext()}{applyContext()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_a5fbdf727da47ba6dd749ade51f1f2dcc} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} ansys::\+dpf::\+core::\+apply\+Context (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Context}{Context}} const \&}]{context}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Defines the settings that will be used to load DPF\textquotesingle{}s plugins. A DPF xml file can be used. \begin{DoxyReturn}{Returns}
+Status of call. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1core_a768caf3bdc514ba3469584ea6da7ce78}\index{ansys::dpf::core@{ansys::dpf::core}!applyContext@{applyContext}}
+\index{applyContext@{applyContext}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{applyContext()}{applyContext()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_a768caf3bdc514ba3469584ea6da7ce78} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} ansys::\+dpf::\+core::\+apply\+Context (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Context}{Context}} const \&}]{context}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Defines the settings that will be used to load DPF\textquotesingle{}s plugins. A DPF xml file can be used. \begin{DoxyReturn}{Returns}
+Status of call. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_a90f442e446b15a9fb5171ddcdf191b16}\index{ansys::dpf::core@{ansys::dpf::core}!assertInstantiate@{assertInstantiate}}
+\index{assertInstantiate@{assertInstantiate}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{assertInstantiate()}{assertInstantiate()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_a90f442e446b15a9fb5171ddcdf191b16} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} ansys::\+dpf::\+core::\+assert\+Instantiate (\begin{DoxyParamCaption}\item[{std::\+string const \&}]{identifier}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyReturn}{Returns}
+\doxylink{classansys_1_1dpf_1_1Operator}{Operator} given by identifier. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em identifier} & \doxylink{classansys_1_1dpf_1_1Operator}{Operator} to instantiate. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_add883fb6a137735138c6b7bd9759c37f}\index{ansys::dpf::core@{ansys::dpf::core}!assertInstantiate@{assertInstantiate}}
+\index{assertInstantiate@{assertInstantiate}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{assertInstantiate()}{assertInstantiate()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_add883fb6a137735138c6b7bd9759c37f} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} ansys::\+dpf::\+core::\+assert\+Instantiate (\begin{DoxyParamCaption}\item[{std::\+string const \&}]{identifier}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyReturn}{Returns}
+\doxylink{classansys_1_1dpf_1_1Operator}{Operator} given by identifier. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em identifier} & \doxylink{classansys_1_1dpf_1_1Operator}{Operator} to instantiate.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_ac729e14b3132c112e50982614be304aa}\index{ansys::dpf::core@{ansys::dpf::core}!assertInstantiate@{assertInstantiate}}
+\index{assertInstantiate@{assertInstantiate}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{assertInstantiate()}{assertInstantiate()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_ac729e14b3132c112e50982614be304aa} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} ansys::\+dpf::\+core::\+assert\+Instantiate (\begin{DoxyParamCaption}\item[{std::\+string const \&}]{identifier}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1OperatorConfig}{Operator\+Config}} const \&}]{config}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em identifier} & \doxylink{classansys_1_1dpf_1_1Operator}{Operator} to instantiate.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em config} & Additional configuration information. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_a721f5fcbccec1819566351daf8549ae9}\index{ansys::dpf::core@{ansys::dpf::core}!assertInstantiate@{assertInstantiate}}
+\index{assertInstantiate@{assertInstantiate}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{assertInstantiate()}{assertInstantiate()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_a721f5fcbccec1819566351daf8549ae9} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} ansys::\+dpf::\+core::\+assert\+Instantiate (\begin{DoxyParamCaption}\item[{std::\+string const \&}]{identifier}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1OperatorConfig}{Operator\+Config}} const \&}]{config}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em identifier} & \doxylink{classansys_1_1dpf_1_1Operator}{Operator} to instantiate.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em config} & Additional configuration information.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_a4ff73d65cea2aa6f69436ec673cb8934}\index{ansys::dpf::core@{ansys::dpf::core}!availableOperators@{availableOperators}}
+\index{availableOperators@{availableOperators}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{availableOperators()}{availableOperators()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_a4ff73d65cea2aa6f69436ec673cb8934} 
+std::\+vector$<$ std::\+string $>$ ansys::\+dpf::\+core::\+available\+Operators (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns all the availbale operators names. \Hypertarget{classansys_1_1dpf_1_1core_aca0296747cd46c61c955b8cdaa1ed16f}\index{ansys::dpf::core@{ansys::dpf::core}!availableOperators@{availableOperators}}
+\index{availableOperators@{availableOperators}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{availableOperators()}{availableOperators()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_aca0296747cd46c61c955b8cdaa1ed16f} 
+std::\+vector$<$ std::\+string $>$ ansys::\+dpf::\+core::\+available\+Operators (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} \texorpdfstring{$\ast$}{*}const}]{client}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns all the availbale operators names for a given client. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_af26687fad53552d2263864bc46f935c8}\index{ansys::dpf::core@{ansys::dpf::core}!copyTo@{copyTo}}
+\index{copyTo@{copyTo}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{copyTo()}{copyTo()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_af26687fad53552d2263864bc46f935c8} 
+template$<$class Dpf\+Type, typename std::\+enable\+\_\+if$<$ std::\+is\+\_\+base\+\_\+of$<$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes}{Dpf\+Types}}, Dpf\+Type $>$::\+value $>$::\+type \texorpdfstring{$\ast$}{*} = nullptr$>$ \\
+Dpf\+Type ansys::\+dpf::\+core::\+copy\+To (\begin{DoxyParamCaption}\item[{Dpf\+Type const \&}]{to\+\_\+copy}{, }\item[{const \doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} \texorpdfstring{$\ast$}{*}}]{client}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_a20f37512490ec6131335f52be7f2f28d}\index{ansys::dpf::core@{ansys::dpf::core}!defaultOperatorConfig@{defaultOperatorConfig}}
+\index{defaultOperatorConfig@{defaultOperatorConfig}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{defaultOperatorConfig()}{defaultOperatorConfig()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_a20f37512490ec6131335f52be7f2f28d} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1OperatorConfig}{Operator\+Config}} ansys::\+dpf::\+core::\+default\+Operator\+Config (\begin{DoxyParamCaption}\item[{std::\+string const \&}]{op\+\_\+identifier}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{ = {\ttfamily nullptr}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyReturn}{Returns}
+Default configuration of given operator. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em op\+\_\+identifier} & \doxylink{classansys_1_1dpf_1_1Operator}{Operator} for which to get configuration.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} on which to get the operator\textquotesingle{}s config from. Default is nullptr. \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{OperatorsApis_8cpp-example}{Operators\+Apis.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1core_afb289372003268d7656638b51adc54cd}\index{ansys::dpf::core@{ansys::dpf::core}!getAndReleaseFromDatabase@{getAndReleaseFromDatabase}}
+\index{getAndReleaseFromDatabase@{getAndReleaseFromDatabase}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{getAndReleaseFromDatabase()}{getAndReleaseFromDatabase()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_afb289372003268d7656638b51adc54cd} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Any}{ansys::\+dpf::\+\+Any}} ansys::\+dpf::\+core::\+get\+And\+Release\+From\+Database (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_ab4574c9af3f2bb8011da7d1f4c8da20e}{dp\+\_\+id}}}]{id}{, }\item[{database\+Identifier}]{db\+\_\+id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Retrieves the object from the database, deletes it from the database and returns it. if nothing is found, the return \doxylink{classansys_1_1dpf_1_1Any}{Any} is empty, see \doxylink{classansys_1_1dpf_1_1DpfTypes_a39cd546c42518e2332be8f287db95459}{ansys::\+dpf::\+\+Any::\+empty}. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em id} & Id of the object on the server\textquotesingle{}s database. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_ae9c538db9a8802e9ec28e9e7b40267b5}\index{ansys::dpf::core@{ansys::dpf::core}!getOperatorSpecification@{getOperatorSpecification}}
+\index{getOperatorSpecification@{getOperatorSpecification}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{getOperatorSpecification()}{getOperatorSpecification()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_ae9c538db9a8802e9ec28e9e7b40267b5} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1OperatorSpecification}{Operator\+Specification}} ansys::\+dpf::\+core::\+get\+Operator\+Specification (\begin{DoxyParamCaption}\item[{std::\+string const \&}]{identifier}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{ = {\ttfamily nullptr}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyReturn}{Returns}
+Specification of given operator. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em identifier} & \doxylink{classansys_1_1dpf_1_1Operator}{Operator} for which to get specification.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} on which to get the operator\textquotesingle{}s config from. Default is nullptr. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_a4825a05c0f34be426942c0c519ee3b74}\index{ansys::dpf::core@{ansys::dpf::core}!getRuntimeClientConfig@{getRuntimeClientConfig}}
+\index{getRuntimeClientConfig@{getRuntimeClientConfig}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{getRuntimeClientConfig()}{getRuntimeClientConfig()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_a4825a05c0f34be426942c0c519ee3b74} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1RuntimeClientConfig}{Runtime\+Client\+Config}} ansys::\+dpf::\+core::\+get\+Runtime\+Client\+Config (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyReturn}{Returns}
+the \doxylink{classansys_1_1dpf_1_1RuntimeClientConfig}{Runtime\+Client\+Config} used to set \doxylink{classansys_1_1dpf_1_1Client}{Client} runtime configuration options 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1core_a7e7dded7bf842c8c587bd0264b0b7452}\index{ansys::dpf::core@{ansys::dpf::core}!getRuntimeCoreConfig@{getRuntimeCoreConfig}}
+\index{getRuntimeCoreConfig@{getRuntimeCoreConfig}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{getRuntimeCoreConfig()}{getRuntimeCoreConfig()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_a7e7dded7bf842c8c587bd0264b0b7452} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1RuntimeCoreConfig}{Runtime\+Core\+Config}} ansys::\+dpf::\+core::\+get\+Runtime\+Core\+Config (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyReturn}{Returns}
+the \doxylink{classansys_1_1dpf_1_1RuntimeCoreConfig}{Runtime\+Core\+Config} used to set Data\+Processing\+Core runtime configuration options 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1core_a26d52ede300647e78b0a538690e5ffb8}\index{ansys::dpf::core@{ansys::dpf::core}!getRuntimeCoreConfig@{getRuntimeCoreConfig}}
+\index{getRuntimeCoreConfig@{getRuntimeCoreConfig}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{getRuntimeCoreConfig()}{getRuntimeCoreConfig()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_a26d52ede300647e78b0a538690e5ffb8} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1RuntimeCoreConfig}{Runtime\+Core\+Config}} ansys::\+dpf::\+core::\+get\+Runtime\+Core\+Config (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} \texorpdfstring{$\ast$}{*}const}]{client}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyReturn}{Returns}
+the \doxylink{classansys_1_1dpf_1_1RuntimeCoreConfig}{Runtime\+Core\+Config} used to set Data\+Processing\+Core runtime configuration options 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_ae3472a9ced3aff887f623d3a46943d5d}\index{ansys::dpf::core@{ansys::dpf::core}!getServerVersion@{getServerVersion}}
+\index{getServerVersion@{getServerVersion}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{getServerVersion()}{getServerVersion()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_ae3472a9ced3aff887f623d3a46943d5d} 
+void ansys::\+dpf::\+core::\+get\+Server\+Version (\begin{DoxyParamCaption}\item[{int \&}]{major\+\_\+version}{, }\item[{int \&}]{minor\+\_\+version}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Fills the major and minor versions of the In-\/\+Process server 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em major\+\_\+version} & major version of the server  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em minor\+\_\+version} & minor version of the server \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_aa9921dd047827c618f977e01ee088694}\index{ansys::dpf::core@{ansys::dpf::core}!loadDpfPlugin@{loadDpfPlugin}}
+\index{loadDpfPlugin@{loadDpfPlugin}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{loadDpfPlugin()}{loadDpfPlugin()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_aa9921dd047827c618f977e01ee088694} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} ansys::\+dpf::\+core::\+load\+Dpf\+Plugin (\begin{DoxyParamCaption}\item[{std::\+string const \&}]{plugin\+\_\+path}{, }\item[{std::\+string const \&}]{plugin\+\_\+name}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Loads specified DPF plugin. \begin{DoxyReturn}{Returns}
+Status of call. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em plugin\+\_\+path} & Full path to plugin.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em plugin\+\_\+name} & Identifying name for plugin.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_a74f7e10fc172292bc61582304787c30f}\index{ansys::dpf::core@{ansys::dpf::core}!loadDpfPlugin@{loadDpfPlugin}}
+\index{loadDpfPlugin@{loadDpfPlugin}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{loadDpfPlugin()}{loadDpfPlugin()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_a74f7e10fc172292bc61582304787c30f} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} ansys::\+dpf::\+core::\+load\+Dpf\+Plugin (\begin{DoxyParamCaption}\item[{std::\+string const \&}]{plugin\+\_\+path}{, }\item[{std::\+string const \&}]{plugin\+\_\+name}{, }\item[{std::\+string const \&}]{symbol}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Loads specified DPF plugin. \begin{DoxyReturn}{Returns}
+Status of call. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em plugin\+\_\+path} & Full path to plugin.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em plugin\+\_\+name} & Identifying name for plugin.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em symbol} & Type of load.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_addc032f5882185bcf940ce7adf293327}\index{ansys::dpf::core@{ansys::dpf::core}!loadDpfPlugin@{loadDpfPlugin}}
+\index{loadDpfPlugin@{loadDpfPlugin}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{loadDpfPlugin()}{loadDpfPlugin()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_addc032f5882185bcf940ce7adf293327} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} ansys::\+dpf::\+core::\+load\+Dpf\+Plugin (\begin{DoxyParamCaption}\item[{std::\+string const \&}]{plugin\+\_\+path}{, }\item[{std::\+string const \&}]{plugin\+\_\+name}{, }\item[{std::\+string const \&}]{symbol}{ = {\ttfamily "{}LoadOperators"{}}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Loads specified DPF plugin. \begin{DoxyReturn}{Returns}
+Status of call. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em plugin\+\_\+path} & Full path to plugin.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em plugin\+\_\+name} & Identifying name for plugin.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em symbol} & Type of load. \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{Example_8cpp-example}{Example.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1core_a9368b14c3950b5227a837df8d3b865e8}\index{ansys::dpf::core@{ansys::dpf::core}!operatorById@{operatorById}}
+\index{operatorById@{operatorById}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{operatorById()}{operatorById()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_a9368b14c3950b5227a837df8d3b865e8} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}} ansys::\+dpf::\+core::\+operator\+By\+Id (\begin{DoxyParamCaption}\item[{int}]{id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyReturn}{Returns}
+\doxylink{classansys_1_1dpf_1_1Operator}{Operator} given by id. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em id} & \doxylink{classansys_1_1dpf_1_1Operator}{Operator} id. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_ac3391e2f4d7b643efe6dcf0e934e8f45}\index{ansys::dpf::core@{ansys::dpf::core}!prepareServerShutdown@{prepareServerShutdown}}
+\index{prepareServerShutdown@{prepareServerShutdown}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{prepareServerShutdown()}{prepareServerShutdown()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_ac3391e2f4d7b643efe6dcf0e934e8f45} 
+void ansys::\+dpf::\+core::\+prepare\+Server\+Shutdown (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} \texorpdfstring{$\ast$}{*}const}]{client}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Send a prepare shutdown request (cleanup process) to a specified server. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_a5518f7636182e822f15a7ed40eb2c80a}\index{ansys::dpf::core@{ansys::dpf::core}!recordInDatabase@{recordInDatabase}}
+\index{recordInDatabase@{recordInDatabase}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{recordInDatabase()}{recordInDatabase()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_a5518f7636182e822f15a7ed40eb2c80a} 
+data\+Identifier\+In\+Database ansys::\+dpf::\+core::\+record\+In\+Database (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes}{Dpf\+Types}} \&}]{data}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em data} & Remote Data to record \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_ab323bdae88822935579597e9057cc14b}\index{ansys::dpf::core@{ansys::dpf::core}!recordOperator@{recordOperator}}
+\index{recordOperator@{recordOperator}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{recordOperator()}{recordOperator()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_ab323bdae88822935579597e9057cc14b} 
+template$<$typename StructureT$>$ \\
+void ansys::\+dpf::\+core::\+record\+Operator (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Record a new operator based on defined type. \Hypertarget{classansys_1_1dpf_1_1core_a044882b0c9ca34a7d6327fa1e66c2a4c}\index{ansys::dpf::core@{ansys::dpf::core}!recordOperator@{recordOperator}}
+\index{recordOperator@{recordOperator}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{recordOperator()}{recordOperator()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_a044882b0c9ca34a7d6327fa1e66c2a4c} 
+void ansys::\+dpf::\+core::\+record\+Operator (\begin{DoxyParamCaption}\item[{Operator\+Main\+Function}]{f}{, }\item[{Operator\+Derivate\+Function}]{deriv}{, }\item[{std::\+string const \&}]{operator\+\_\+identifier}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1OperatorSpecification}{Operator\+Specification}} const \&}]{spec}{, }\item[{Abstract\+Core \texorpdfstring{$\ast$}{*}}]{}{ = {\ttfamily nullptr}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Record a new operator. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em f} & Function to perform operator.  \\
+\hline
+ & {\em operator\+\_\+identifier} & \texorpdfstring{$<$}{<} \+[in]\+ Function to derivate operator \+[in]\+ Unique identifier for operator.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em \doxylink{structansys_1_1dpf_1_1spec}{spec}} & Definition of inputs and outputs. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_a1ba7a71221fa1426e7d692af8073c6f9}\index{ansys::dpf::core@{ansys::dpf::core}!recordOperator@{recordOperator}}
+\index{recordOperator@{recordOperator}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{recordOperator()}{recordOperator()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_a1ba7a71221fa1426e7d692af8073c6f9} 
+void ansys::\+dpf::\+core::\+record\+Operator (\begin{DoxyParamCaption}\item[{Operator\+Main\+Function}]{f}{, }\item[{std::\+string const \&}]{operator\+\_\+identifier}{, }\item[{Abstract\+Core \texorpdfstring{$\ast$}{*}}]{core}{ = {\ttfamily nullptr}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Record a new operator. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em f} & Function to perform operator.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em operator\+\_\+identifier} & Unique identifier for operator. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_ae2e440cbaacff372ab16a894ebd58523}\index{ansys::dpf::core@{ansys::dpf::core}!recordOperator@{recordOperator}}
+\index{recordOperator@{recordOperator}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{recordOperator()}{recordOperator()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_ae2e440cbaacff372ab16a894ebd58523} 
+void ansys::\+dpf::\+core::\+record\+Operator (\begin{DoxyParamCaption}\item[{Operator\+Main\+Function}]{f}{, }\item[{std::\+string const \&}]{operator\+\_\+identifier}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1OperatorSpecification}{Operator\+Specification}} const \&}]{spec}{, }\item[{Abstract\+Core \texorpdfstring{$\ast$}{*}}]{}{ = {\ttfamily nullptr}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Record a new operator. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em f} & Function to perform operator.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em operator\+\_\+identifier} & Unique identifier for operator.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em \doxylink{structansys_1_1dpf_1_1spec}{spec}} & Definition of inputs and outputs. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_a8c1912705392647f450a5734ef7b0333}\index{ansys::dpf::core@{ansys::dpf::core}!recordOperatorAtCoreWithDerivative@{recordOperatorAtCoreWithDerivative}}
+\index{recordOperatorAtCoreWithDerivative@{recordOperatorAtCoreWithDerivative}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{recordOperatorAtCoreWithDerivative()}{recordOperatorAtCoreWithDerivative()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_a8c1912705392647f450a5734ef7b0333} 
+template$<$typename StructureT$>$ \\
+void ansys::\+dpf::\+core::\+record\+Operator\+At\+Core\+With\+Derivative (\begin{DoxyParamCaption}\item[{Abstract\+Core \texorpdfstring{$\ast$}{*}}]{core}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Record a new operator based on defined type, with a derivative \Hypertarget{classansys_1_1dpf_1_1core_aa1cb1818b981f0c1df639ef30ffc9f8b}\index{ansys::dpf::core@{ansys::dpf::core}!recordOperatorWithDerivative@{recordOperatorWithDerivative}}
+\index{recordOperatorWithDerivative@{recordOperatorWithDerivative}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{recordOperatorWithDerivative()}{recordOperatorWithDerivative()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_aa1cb1818b981f0c1df639ef30ffc9f8b} 
+template$<$typename StructureT$>$ \\
+void ansys::\+dpf::\+core::\+record\+Operator\+With\+Derivative (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Record a new operator based on defined type, with a derivative \Hypertarget{classansys_1_1dpf_1_1core_aee8c2e35cb45716a87ebe7770ded34ea}\index{ansys::dpf::core@{ansys::dpf::core}!recordOperatorWithNewName@{recordOperatorWithNewName}}
+\index{recordOperatorWithNewName@{recordOperatorWithNewName}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{recordOperatorWithNewName()}{recordOperatorWithNewName()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_aee8c2e35cb45716a87ebe7770ded34ea} 
+void ansys::\+dpf::\+core::\+record\+Operator\+With\+New\+Name (\begin{DoxyParamCaption}\item[{std::\+string const \&}]{exising\+\_\+identifier}{, }\item[{std::\+string const \&}]{new\+\_\+identifier}{, }\item[{Abstract\+Core \texorpdfstring{$\ast$}{*}}]{}{ = {\ttfamily nullptr}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Duplicates the record of the \doxylink{classansys_1_1dpf_1_1Operator}{Operator} identified by its name in the registry. The \doxylink{classansys_1_1dpf_1_1Operator}{Operator} will be added as private and won\textquotesingle{}t appear in the documentation 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em exising\+\_\+identifier} & existing unique identifier for operator.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em new\+\_\+identifier} & Unique identifier for operator. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_a1a1687a6a7403dcbdb7fdbda47e100dc}\index{ansys::dpf::core@{ansys::dpf::core}!releaseDpf@{releaseDpf}}
+\index{releaseDpf@{releaseDpf}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{releaseDpf()}{releaseDpf()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_a1a1687a6a7403dcbdb7fdbda47e100dc} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} ansys::\+dpf::\+core::\+release\+Dpf (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Clears the available Operators and Releases licenses when necessary. \begin{DoxyReturn}{Returns}
+Status of call. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1core_a8dd035c5ee368c43a4bc0d25b356e28a}\index{ansys::dpf::core@{ansys::dpf::core}!releaseDpf@{releaseDpf}}
+\index{releaseDpf@{releaseDpf}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{releaseDpf()}{releaseDpf()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_a8dd035c5ee368c43a4bc0d25b356e28a} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{Dpf\+Error}} ansys::\+dpf::\+core::\+release\+Dpf (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Clears the available Operators and Releases licenses when necessary. \begin{DoxyReturn}{Returns}
+Status of call. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_a344424c85e16b6bb44cf7e27f021aa45}\index{ansys::dpf::core@{ansys::dpf::core}!releaseFromDatabase@{releaseFromDatabase}}
+\index{releaseFromDatabase@{releaseFromDatabase}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{releaseFromDatabase()}{releaseFromDatabase()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_a344424c85e16b6bb44cf7e27f021aa45} 
+void ansys::\+dpf::\+core::\+release\+From\+Database (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_ab4574c9af3f2bb8011da7d1f4c8da20e}{dp\+\_\+id}}}]{id}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{, }\item[{bool}]{async}{ = {\ttfamily false}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+suppress the entity from the server\textquotesingle{}s database. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em id} & its Id on the server.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_a2a7492837eb46b2d3ec75cd4e3e76c9f}\index{ansys::dpf::core@{ansys::dpf::core}!releaseServer@{releaseServer}}
+\index{releaseServer@{releaseServer}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{releaseServer()}{releaseServer()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_a2a7492837eb46b2d3ec75cd4e3e76c9f} 
+void ansys::\+dpf::\+core::\+release\+Server (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} \texorpdfstring{$\ast$}{*}const}]{client}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+@detailsremoves the handle on the server should be used only if the server was started by this client instance 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_a723856ec83974fcb2cc61549f3cb89dd}\index{ansys::dpf::core@{ansys::dpf::core}!workflowById@{workflowById}}
+\index{workflowById@{workflowById}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{workflowById()}{workflowById()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_a723856ec83974fcb2cc61549f3cb89dd} 
+Workflow ansys::\+dpf::\+core::\+workflow\+By\+Id (\begin{DoxyParamCaption}\item[{int}]{id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyReturn}{Returns}
+Worflow registered in the registry (with Workflow::\+record) with its id. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em id} & Workflow id created by Workflow::\+record. \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataApis_8cpp-example}{Data\+Apis.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1core_ae3c3f567efed3342df687fac9889c878}\index{ansys::dpf::core@{ansys::dpf::core}!workflowById@{workflowById}}
+\index{workflowById@{workflowById}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{workflowById()}{workflowById()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_ae3c3f567efed3342df687fac9889c878} 
+Workflow ansys::\+dpf::\+core::\+workflow\+By\+Id (\begin{DoxyParamCaption}\item[{int}]{id}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyReturn}{Returns}
+Worflow registered in a server\textquotesingle{}s registry (with Workflow::\+record) with its id. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em id} & Workflow id created by Workflow::\+record.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_a0438a9c581e010038f7c40c5043a0f89}\index{ansys::dpf::core@{ansys::dpf::core}!workflowFromTemplate@{workflowFromTemplate}}
+\index{workflowFromTemplate@{workflowFromTemplate}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{workflowFromTemplate()}{workflowFromTemplate()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_a0438a9c581e010038f7c40c5043a0f89} 
+Workflow ansys::\+dpf::\+core::\+workflow\+From\+Template (\begin{DoxyParamCaption}\item[{std::\+string const \&}]{template\+\_\+identifier}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyReturn}{Returns}
+Workflow given by template identifier. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em template\+\_\+identifier} & Workflow template identifier. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_a7db9305e737bd0fb2859ff145d31d350}\index{ansys::dpf::core@{ansys::dpf::core}!workflowTemplateExists@{workflowTemplateExists}}
+\index{workflowTemplateExists@{workflowTemplateExists}!ansys::dpf::core@{ansys::dpf::core}}
+\doxysubsubsection{\texorpdfstring{workflowTemplateExists()}{workflowTemplateExists()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_a7db9305e737bd0fb2859ff145d31d350} 
+bool ansys::\+dpf::\+core::\+workflow\+Template\+Exists (\begin{DoxyParamCaption}\item[{std::\+string const \&}]{template\+\_\+identifier}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyReturn}{Returns}
+true if template identifier exists 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em template\+\_\+identifier} & Workflow template identifier. \\
+\hline
+\end{DoxyParams}

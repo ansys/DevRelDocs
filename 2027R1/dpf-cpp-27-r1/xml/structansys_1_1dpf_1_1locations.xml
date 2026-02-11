@@ -1,0 +1,435 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="structansys_1_1dpf_1_1locations" kind="struct" language="C++" prot="public">
+    <compoundname>ansys::dpf::locations</compoundname>
+    <includes local="no">dpf_api_base.h</includes>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1locations_1a2ba6480847faea7bb400aa585efde371" prot="private" static="yes" mutable="no">
+        <type>std::vector&lt; <ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref> &gt;</type>
+        <definition>std::vector&lt;Location&gt; ansys::dpf::locations::_existing_locations</definition>
+        <argsstring></argsstring>
+        <name>_existing_locations</name>
+        <qualifiedname>ansys::dpf::locations::_existing_locations</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="167" column="20" bodyfile="dpf_api_base.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1locations_1aa4e1967b0838d8597200c606c8564d29" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref></type>
+        <definition>const Location ansys::dpf::locations::nodal</definition>
+        <argsstring></argsstring>
+        <name>nodal</name>
+        <qualifiedname>ansys::dpf::locations::nodal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined nodal location. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="177" column="23" bodyfile="dpf_api_base.h" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1locations_1a3f66169a86ab935fb398b3fdde98bb04" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref></type>
+        <definition>const Location ansys::dpf::locations::elemental</definition>
+        <argsstring></argsstring>
+        <name>elemental</name>
+        <qualifiedname>ansys::dpf::locations::elemental</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined elemental location. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="179" column="23" bodyfile="dpf_api_base.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1locations_1a0bda534055805adc4c08bece34989ff3" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref></type>
+        <definition>const Location ansys::dpf::locations::elemental_nodal</definition>
+        <argsstring></argsstring>
+        <name>elemental_nodal</name>
+        <qualifiedname>ansys::dpf::locations::elemental_nodal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined elemental_nodal location. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="181" column="23" bodyfile="dpf_api_base.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1locations_1a5b54316cebce849e6a8489d19a990246" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref></type>
+        <definition>const Location ansys::dpf::locations::elemental_nodal_centroid</definition>
+        <argsstring></argsstring>
+        <name>elemental_nodal_centroid</name>
+        <qualifiedname>ansys::dpf::locations::elemental_nodal_centroid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined elemental_nodal_centroid location. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="183" column="23" bodyfile="dpf_api_base.h" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1locations_1ada5a62dea9a6a1bf156f90282a273959" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref></type>
+        <definition>const Location ansys::dpf::locations::overall</definition>
+        <argsstring></argsstring>
+        <name>overall</name>
+        <qualifiedname>ansys::dpf::locations::overall</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined overall location. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="185" column="23" bodyfile="dpf_api_base.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1locations_1aba56d24e91e52e4742ee5505dff04b94" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref></type>
+        <definition>const Location ansys::dpf::locations::nodal_elemental</definition>
+        <argsstring></argsstring>
+        <name>nodal_elemental</name>
+        <qualifiedname>ansys::dpf::locations::nodal_elemental</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined nodal_elemental location. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="187" column="23" bodyfile="dpf_api_base.h" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1locations_1a111716841842157a978ebebdc9c503b6" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref></type>
+        <definition>const Location ansys::dpf::locations::faces</definition>
+        <argsstring></argsstring>
+        <name>faces</name>
+        <qualifiedname>ansys::dpf::locations::faces</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined faces location. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="189" column="23" bodyfile="dpf_api_base.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1locations_1a0a70014790184f7fd2e4341c2bdb7711" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref></type>
+        <definition>const Location ansys::dpf::locations::elemental_and_faces</definition>
+        <argsstring></argsstring>
+        <name>elemental_and_faces</name>
+        <qualifiedname>ansys::dpf::locations::elemental_and_faces</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined elemental_and_faces location. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="191" column="23" bodyfile="dpf_api_base.h" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1locations_1acfb36fa3e6c22d12b971fdf941d6dab8" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref></type>
+        <definition>const Location ansys::dpf::locations::body</definition>
+        <argsstring></argsstring>
+        <name>body</name>
+        <qualifiedname>ansys::dpf::locations::body</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined body location. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="193" column="23" bodyfile="dpf_api_base.h" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1locations_1ae0384994ee793ef9de351b28c49ba706" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref></type>
+        <definition>const Location ansys::dpf::locations::contact</definition>
+        <argsstring></argsstring>
+        <name>contact</name>
+        <qualifiedname>ansys::dpf::locations::contact</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined contact location. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="195" column="23" bodyfile="dpf_api_base.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1locations_1a0a7d57a4476a34178090d4fa96f0c550" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref></type>
+        <definition>const Location ansys::dpf::locations::joint</definition>
+        <argsstring></argsstring>
+        <name>joint</name>
+        <qualifiedname>ansys::dpf::locations::joint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined joint location. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="197" column="23" bodyfile="dpf_api_base.h" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1locations_1a3049c32b1dc96441810bd53803916a58" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref></type>
+        <definition>const Location ansys::dpf::locations::topology</definition>
+        <argsstring></argsstring>
+        <name>topology</name>
+        <qualifiedname>ansys::dpf::locations::topology</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined topology location. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="199" column="23" bodyfile="dpf_api_base.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1locations_1af0cfa3922b89f1b5be079a47a714241a" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref></type>
+        <definition>const Location ansys::dpf::locations::udf_criteria</definition>
+        <argsstring></argsstring>
+        <name>udf_criteria</name>
+        <qualifiedname>ansys::dpf::locations::udf_criteria</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined udf_criteria location. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="201" column="23" bodyfile="dpf_api_base.h" bodystart="201" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1locations_1abc48364ef6b184ddf696099c9a2993cd" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref></type>
+        <definition>const Location ansys::dpf::locations::time_step</definition>
+        <argsstring></argsstring>
+        <name>time_step</name>
+        <qualifiedname>ansys::dpf::locations::time_step</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined time_step location. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="203" column="23" bodyfile="dpf_api_base.h" bodystart="203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1locations_1a3cf1bbc2ad6d8b8f6173e83b5118031a" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref></type>
+        <definition>const Location ansys::dpf::locations::time_set</definition>
+        <argsstring></argsstring>
+        <name>time_set</name>
+        <qualifiedname>ansys::dpf::locations::time_set</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined time_set location. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="205" column="23" bodyfile="dpf_api_base.h" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1locations_1a46ac72d7066346bc309dfb44de1a20cf" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref></type>
+        <definition>const Location ansys::dpf::locations::harmonic_index</definition>
+        <argsstring></argsstring>
+        <name>harmonic_index</name>
+        <qualifiedname>ansys::dpf::locations::harmonic_index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined harmonic_index location. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="207" column="23" bodyfile="dpf_api_base.h" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1locations_1abaf9f2158d14707096139ab5eb27d70d" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref></type>
+        <definition>const Location ansys::dpf::locations::phase</definition>
+        <argsstring></argsstring>
+        <name>phase</name>
+        <qualifiedname>ansys::dpf::locations::phase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined phase location. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="209" column="23" bodyfile="dpf_api_base.h" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1locations_1a76bdfc819d94d708b849281adf480677" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref></type>
+        <definition>const Location ansys::dpf::locations::species</definition>
+        <argsstring></argsstring>
+        <name>species</name>
+        <qualifiedname>ansys::dpf::locations::species</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined species location. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="211" column="23" bodyfile="dpf_api_base.h" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1locations_1a2c1aea4cc98bb70ffb146a163121b8e4" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref></type>
+        <definition>const Location ansys::dpf::locations::zone</definition>
+        <argsstring></argsstring>
+        <name>zone</name>
+        <qualifiedname>ansys::dpf::locations::zone</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined zones location. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="213" column="23" bodyfile="dpf_api_base.h" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1locations_1a6441fe6518684351e3f3f7ba52396615" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref></type>
+        <definition>const Location ansys::dpf::locations::band</definition>
+        <argsstring></argsstring>
+        <name>band</name>
+        <qualifiedname>ansys::dpf::locations::band</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined band location. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="215" column="23" bodyfile="dpf_api_base.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1locations_1a223dc0f57d600b9acf15ac72a603835c" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref></type>
+        <definition>const Location ansys::dpf::locations::unknown</definition>
+        <argsstring></argsstring>
+        <name>unknown</name>
+        <qualifiedname>ansys::dpf::locations::unknown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined unknown location. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="217" column="23" bodyfile="dpf_api_base.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structansys_1_1dpf_1_1locations_1a271a9fed8a1f57c015715167a8ce72c0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref> &gt; const &amp;</type>
+        <definition>static std::vector&lt; Location &gt; const  &amp; ansys::dpf::locations::all</definition>
+        <argsstring>()</argsstring>
+        <name>all</name>
+        <qualifiedname>ansys::dpf::locations::all</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets all user-defined and predefined locations. <simplesect kind="return"><para>All locations. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="172" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1locations_1a2b734a87208388ed01d8cb587043405b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ansys::dpf::locations::add_custom</definition>
+        <argsstring>(Location const &amp;)</argsstring>
+        <name>add_custom</name>
+        <qualifiedname>ansys::dpf::locations::add_custom</qualifiedname>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds a custom defined location. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="174" column="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Predefined location quantities. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Results are evaluated at locations. <simplesect kind="see"><para><ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>ansys::dpf::Location</label>
+        <link refid="structansys_1_1dpf_1_1Location"/>
+      </node>
+      <node id="1">
+        <label>ansys::dpf::locations</label>
+        <link refid="structansys_1_1dpf_1_1locations"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>band</edgelabel>
+          <edgelabel>body</edgelabel>
+          <edgelabel>contact</edgelabel>
+          <edgelabel>elemental</edgelabel>
+          <edgelabel>elemental_and_faces</edgelabel>
+          <edgelabel>elemental_nodal</edgelabel>
+          <edgelabel>elemental_nodal_centroid</edgelabel>
+          <edgelabel>faces</edgelabel>
+          <edgelabel>harmonic_index</edgelabel>
+          <edgelabel>joint</edgelabel>
+          <edgelabel>  ...</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="dpf_api_base.h" line="164" column="1" bodyfile="dpf_api_base.h" bodystart="165" bodyend="218"/>
+    <listofallmembers>
+      <member refid="structansys_1_1dpf_1_1locations_1a2ba6480847faea7bb400aa585efde371" prot="private" virt="non-virtual"><scope>ansys::dpf::locations</scope><name>_existing_locations</name></member>
+      <member refid="structansys_1_1dpf_1_1locations_1a2b734a87208388ed01d8cb587043405b" prot="public" virt="non-virtual"><scope>ansys::dpf::locations</scope><name>add_custom</name></member>
+      <member refid="structansys_1_1dpf_1_1locations_1a271a9fed8a1f57c015715167a8ce72c0" prot="public" virt="non-virtual"><scope>ansys::dpf::locations</scope><name>all</name></member>
+      <member refid="structansys_1_1dpf_1_1locations_1a6441fe6518684351e3f3f7ba52396615" prot="public" virt="non-virtual"><scope>ansys::dpf::locations</scope><name>band</name></member>
+      <member refid="structansys_1_1dpf_1_1locations_1acfb36fa3e6c22d12b971fdf941d6dab8" prot="public" virt="non-virtual"><scope>ansys::dpf::locations</scope><name>body</name></member>
+      <member refid="structansys_1_1dpf_1_1locations_1ae0384994ee793ef9de351b28c49ba706" prot="public" virt="non-virtual"><scope>ansys::dpf::locations</scope><name>contact</name></member>
+      <member refid="structansys_1_1dpf_1_1locations_1a3f66169a86ab935fb398b3fdde98bb04" prot="public" virt="non-virtual"><scope>ansys::dpf::locations</scope><name>elemental</name></member>
+      <member refid="structansys_1_1dpf_1_1locations_1a0a70014790184f7fd2e4341c2bdb7711" prot="public" virt="non-virtual"><scope>ansys::dpf::locations</scope><name>elemental_and_faces</name></member>
+      <member refid="structansys_1_1dpf_1_1locations_1a0bda534055805adc4c08bece34989ff3" prot="public" virt="non-virtual"><scope>ansys::dpf::locations</scope><name>elemental_nodal</name></member>
+      <member refid="structansys_1_1dpf_1_1locations_1a5b54316cebce849e6a8489d19a990246" prot="public" virt="non-virtual"><scope>ansys::dpf::locations</scope><name>elemental_nodal_centroid</name></member>
+      <member refid="structansys_1_1dpf_1_1locations_1a111716841842157a978ebebdc9c503b6" prot="public" virt="non-virtual"><scope>ansys::dpf::locations</scope><name>faces</name></member>
+      <member refid="structansys_1_1dpf_1_1locations_1a46ac72d7066346bc309dfb44de1a20cf" prot="public" virt="non-virtual"><scope>ansys::dpf::locations</scope><name>harmonic_index</name></member>
+      <member refid="structansys_1_1dpf_1_1locations_1a0a7d57a4476a34178090d4fa96f0c550" prot="public" virt="non-virtual"><scope>ansys::dpf::locations</scope><name>joint</name></member>
+      <member refid="structansys_1_1dpf_1_1locations_1aa4e1967b0838d8597200c606c8564d29" prot="public" virt="non-virtual"><scope>ansys::dpf::locations</scope><name>nodal</name></member>
+      <member refid="structansys_1_1dpf_1_1locations_1aba56d24e91e52e4742ee5505dff04b94" prot="public" virt="non-virtual"><scope>ansys::dpf::locations</scope><name>nodal_elemental</name></member>
+      <member refid="structansys_1_1dpf_1_1locations_1ada5a62dea9a6a1bf156f90282a273959" prot="public" virt="non-virtual"><scope>ansys::dpf::locations</scope><name>overall</name></member>
+      <member refid="structansys_1_1dpf_1_1locations_1abaf9f2158d14707096139ab5eb27d70d" prot="public" virt="non-virtual"><scope>ansys::dpf::locations</scope><name>phase</name></member>
+      <member refid="structansys_1_1dpf_1_1locations_1a76bdfc819d94d708b849281adf480677" prot="public" virt="non-virtual"><scope>ansys::dpf::locations</scope><name>species</name></member>
+      <member refid="structansys_1_1dpf_1_1locations_1a3cf1bbc2ad6d8b8f6173e83b5118031a" prot="public" virt="non-virtual"><scope>ansys::dpf::locations</scope><name>time_set</name></member>
+      <member refid="structansys_1_1dpf_1_1locations_1abc48364ef6b184ddf696099c9a2993cd" prot="public" virt="non-virtual"><scope>ansys::dpf::locations</scope><name>time_step</name></member>
+      <member refid="structansys_1_1dpf_1_1locations_1a3049c32b1dc96441810bd53803916a58" prot="public" virt="non-virtual"><scope>ansys::dpf::locations</scope><name>topology</name></member>
+      <member refid="structansys_1_1dpf_1_1locations_1af0cfa3922b89f1b5be079a47a714241a" prot="public" virt="non-virtual"><scope>ansys::dpf::locations</scope><name>udf_criteria</name></member>
+      <member refid="structansys_1_1dpf_1_1locations_1a223dc0f57d600b9acf15ac72a603835c" prot="public" virt="non-virtual"><scope>ansys::dpf::locations</scope><name>unknown</name></member>
+      <member refid="structansys_1_1dpf_1_1locations_1a2c1aea4cc98bb70ffb146a163121b8e4" prot="public" virt="non-virtual"><scope>ansys::dpf::locations</scope><name>zone</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

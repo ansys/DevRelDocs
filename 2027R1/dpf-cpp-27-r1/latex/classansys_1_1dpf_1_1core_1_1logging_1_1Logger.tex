@@ -1,0 +1,181 @@
+\doxysection{ansys::\+dpf::\+core::\+logging::\+Logger Class Reference}
+\hypertarget{classansys_1_1dpf_1_1core_1_1logging_1_1Logger}{}\label{classansys_1_1dpf_1_1core_1_1logging_1_1Logger}\index{ansys::dpf::core::logging::Logger@{ansys::dpf::core::logging::Logger}}
+
+
+\doxylink{classansys_1_1dpf_1_1core_1_1logging_1_1Logger}{Logger} interface. All public methods are thread-\/safe.  
+
+
+
+
+{\ttfamily \+\#include $<$dpf\+\_\+api.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_af93f29066aead589c32ad6f0fa38e331}{valid}} () const
+\begin{DoxyCompactList}\small\item\em Returns if the logger is valid. By design, the logging API will never error and there could be situations where a non-\/functional \doxylink{classansys_1_1dpf_1_1core_1_1logging_1_1Logger}{Logger} instance will be returned. E.\+g if trying to register a logger with a name that is already registered or with an invalid name, or get a logger with a name which does not exist or is invalid. If the \doxylink{classansys_1_1dpf_1_1core_1_1logging_1_1Logger}{Logger} is invalid, all method calls like \doxylink{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_a8a32ca508e5afd4f884a837e89e0b630}{flush()} or \doxylink{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_aa2e49a144e585dacee844c661aa64259}{log()} will be NOPs. \end{DoxyCompactList}\item 
+std::\+string \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_a3feaa521731b1300642dbe3f66ec730e}{name}} () const
+\begin{DoxyCompactList}\small\item\em Return the name of the \doxylink{classansys_1_1dpf_1_1core_1_1logging_1_1Logger}{Logger}. \end{DoxyCompactList}\item 
+\Hypertarget{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_a8a32ca508e5afd4f884a837e89e0b630}\label{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_a8a32ca508e5afd4f884a837e89e0b630} 
+void {\bfseries flush} ()
+\begin{DoxyCompactList}\small\item\em Flush all logger messages to the active sinks. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T$>$ }\\void \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_aebee92154360756451a040db2baf0e44}{trace}} (T const \&message)
+\begin{DoxyCompactList}\small\item\em Logs a message with the trace loglevel. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T$>$ }\\void \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_a0d6afc34b35d16aced0f7ab7e7c0e44d}{debug}} (T const \&message)
+\begin{DoxyCompactList}\small\item\em Logs a message with the debug loglevel. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T$>$ }\\void \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_a6f6a31f9750e3edddc5e7c2df1e68ccc}{info}} (T const \&message)
+\begin{DoxyCompactList}\small\item\em Logs a message with the info loglevel. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T$>$ }\\void \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_a445d9fc717e79f90fa375e681ad73bb5}{warning}} (T const \&message)
+\begin{DoxyCompactList}\small\item\em Logs a message with the warning loglevel. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T$>$ }\\void \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_a043296791982c6c29b84e57bd40b3dab}{error}} (T const \&message)
+\begin{DoxyCompactList}\small\item\em Logs a message with the error loglevel. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T$>$ }\\void \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_a3c0ae4ad90cb6e940d9d9fce2d51eded}{critical}} (T const \&message)
+\begin{DoxyCompactList}\small\item\em Logs a message with the critical loglevel. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T$>$ }\\void \doxymbox{\hyperlink{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_aa2e49a144e585dacee844c661aa64259}{log}} (T const \&message, e\+Log\+Level loglevel)
+\begin{DoxyCompactList}\small\item\em Logs a message with the critical loglevel. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\doxylink{classansys_1_1dpf_1_1core_1_1logging_1_1Logger}{Logger} interface. All public methods are thread-\/safe. 
+
+\label{doc-func-members}
+\Hypertarget{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_a3c0ae4ad90cb6e940d9d9fce2d51eded}\index{ansys::dpf::core::logging::Logger@{ansys::dpf::core::logging::Logger}!critical@{critical}}
+\index{critical@{critical}!ansys::dpf::core::logging::Logger@{ansys::dpf::core::logging::Logger}}
+\doxysubsubsection{\texorpdfstring{critical()}{critical()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_a3c0ae4ad90cb6e940d9d9fce2d51eded} 
+template$<$typename T$>$ \\
+void ansys::\+dpf::\+core::\+logging::\+\+Logger::\+critical (\begin{DoxyParamCaption}\item[{T const \&}]{message}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Logs a message with the critical loglevel. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & The string to be logged. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_a0d6afc34b35d16aced0f7ab7e7c0e44d}\index{ansys::dpf::core::logging::Logger@{ansys::dpf::core::logging::Logger}!debug@{debug}}
+\index{debug@{debug}!ansys::dpf::core::logging::Logger@{ansys::dpf::core::logging::Logger}}
+\doxysubsubsection{\texorpdfstring{debug()}{debug()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_a0d6afc34b35d16aced0f7ab7e7c0e44d} 
+template$<$typename T$>$ \\
+void ansys::\+dpf::\+core::\+logging::\+\+Logger::\+debug (\begin{DoxyParamCaption}\item[{T const \&}]{message}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Logs a message with the debug loglevel. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & The string to be logged. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_a043296791982c6c29b84e57bd40b3dab}\index{ansys::dpf::core::logging::Logger@{ansys::dpf::core::logging::Logger}!error@{error}}
+\index{error@{error}!ansys::dpf::core::logging::Logger@{ansys::dpf::core::logging::Logger}}
+\doxysubsubsection{\texorpdfstring{error()}{error()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_a043296791982c6c29b84e57bd40b3dab} 
+template$<$typename T$>$ \\
+void ansys::\+dpf::\+core::\+logging::\+\+Logger::\+error (\begin{DoxyParamCaption}\item[{T const \&}]{message}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Logs a message with the error loglevel. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & The string to be logged. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_a6f6a31f9750e3edddc5e7c2df1e68ccc}\index{ansys::dpf::core::logging::Logger@{ansys::dpf::core::logging::Logger}!info@{info}}
+\index{info@{info}!ansys::dpf::core::logging::Logger@{ansys::dpf::core::logging::Logger}}
+\doxysubsubsection{\texorpdfstring{info()}{info()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_a6f6a31f9750e3edddc5e7c2df1e68ccc} 
+template$<$typename T$>$ \\
+void ansys::\+dpf::\+core::\+logging::\+\+Logger::\+info (\begin{DoxyParamCaption}\item[{T const \&}]{message}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Logs a message with the info loglevel. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & The string to be logged. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_aa2e49a144e585dacee844c661aa64259}\index{ansys::dpf::core::logging::Logger@{ansys::dpf::core::logging::Logger}!log@{log}}
+\index{log@{log}!ansys::dpf::core::logging::Logger@{ansys::dpf::core::logging::Logger}}
+\doxysubsubsection{\texorpdfstring{log()}{log()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_aa2e49a144e585dacee844c661aa64259} 
+template$<$typename T$>$ \\
+void ansys::\+dpf::\+core::\+logging::\+\+Logger::\+log (\begin{DoxyParamCaption}\item[{T const \&}]{message}{, }\item[{e\+Log\+Level}]{loglevel}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Logs a message with the critical loglevel. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & The string to be logged. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_a3feaa521731b1300642dbe3f66ec730e}\index{ansys::dpf::core::logging::Logger@{ansys::dpf::core::logging::Logger}!name@{name}}
+\index{name@{name}!ansys::dpf::core::logging::Logger@{ansys::dpf::core::logging::Logger}}
+\doxysubsubsection{\texorpdfstring{name()}{name()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_a3feaa521731b1300642dbe3f66ec730e} 
+std::\+string ansys::\+dpf::\+core::\+logging::\+\+Logger::\+name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Return the name of the \doxylink{classansys_1_1dpf_1_1core_1_1logging_1_1Logger}{Logger}. 
+
+\begin{DoxyReturn}{Returns}
+std::\+string 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_aebee92154360756451a040db2baf0e44}\index{ansys::dpf::core::logging::Logger@{ansys::dpf::core::logging::Logger}!trace@{trace}}
+\index{trace@{trace}!ansys::dpf::core::logging::Logger@{ansys::dpf::core::logging::Logger}}
+\doxysubsubsection{\texorpdfstring{trace()}{trace()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_aebee92154360756451a040db2baf0e44} 
+template$<$typename T$>$ \\
+void ansys::\+dpf::\+core::\+logging::\+\+Logger::\+trace (\begin{DoxyParamCaption}\item[{T const \&}]{message}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Logs a message with the trace loglevel. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & The string to be logged. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_af93f29066aead589c32ad6f0fa38e331}\index{ansys::dpf::core::logging::Logger@{ansys::dpf::core::logging::Logger}!valid@{valid}}
+\index{valid@{valid}!ansys::dpf::core::logging::Logger@{ansys::dpf::core::logging::Logger}}
+\doxysubsubsection{\texorpdfstring{valid()}{valid()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_af93f29066aead589c32ad6f0fa38e331} 
+bool ansys::\+dpf::\+core::\+logging::\+\+Logger::\+valid (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Returns if the logger is valid. By design, the logging API will never error and there could be situations where a non-\/functional \doxylink{classansys_1_1dpf_1_1core_1_1logging_1_1Logger}{Logger} instance will be returned. E.\+g if trying to register a logger with a name that is already registered or with an invalid name, or get a logger with a name which does not exist or is invalid. If the \doxylink{classansys_1_1dpf_1_1core_1_1logging_1_1Logger}{Logger} is invalid, all method calls like \doxylink{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_a8a32ca508e5afd4f884a837e89e0b630}{flush()} or \doxylink{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_aa2e49a144e585dacee844c661aa64259}{log()} will be NOPs. 
+
+\begin{DoxyReturn}{Returns}
+std::\+string 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_a445d9fc717e79f90fa375e681ad73bb5}\index{ansys::dpf::core::logging::Logger@{ansys::dpf::core::logging::Logger}!warning@{warning}}
+\index{warning@{warning}!ansys::dpf::core::logging::Logger@{ansys::dpf::core::logging::Logger}}
+\doxysubsubsection{\texorpdfstring{warning()}{warning()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1core_1_1logging_1_1Logger_a445d9fc717e79f90fa375e681ad73bb5} 
+template$<$typename T$>$ \\
+void ansys::\+dpf::\+core::\+logging::\+\+Logger::\+warning (\begin{DoxyParamCaption}\item[{T const \&}]{message}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Logs a message with the warning loglevel. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & The string to be logged. \\
+\hline
+\end{DoxyParams}

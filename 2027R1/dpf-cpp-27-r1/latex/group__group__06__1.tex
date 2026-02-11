@@ -1,0 +1,244 @@
+\doxysubsection{Using DPF capabilities in an existing project }
+\hypertarget{group__group__06__1}{}\label{group__group__06__1}\index{Using DPF capabilities in an existing project@{Using DPF capabilities in an existing project}}
+The Data Processing Framework (DPF) provides numerical simulation users/\+engineers with a toolbox for accessing and transforming simulation data. It is used to handle complex pre-\/ or post-\/processing of simulation data within a simulation workflow.
+
+{\bfseries{It can be integrated into any existing C++ project.}}\hypertarget{group__group__06__1_autotoc_md34}{}\doxysubsubsubsection{\texorpdfstring{Prerequisites}{Prerequisites}}\label{group__group__06__1_autotoc_md34}
+To integrate DPF into an existing C++ project, you must have access to the following files of the \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}\+AWP\+\_\+\+ROOT@doc\+\_\+ansys\+\_\+ver/\+dpf/\+include\texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*} folder (AWP\+\_\+\+ROOT@doc\+\_\+ansys\+\_\+ver being an environment variable defining the root of the Ansys Inc or \href{https://dpf.docs.pyansys.com/version/stable/getting_started/dpf_server.html}{\texttt{DPF Server}} product):\+
+\begin{DoxyItemize}
+\item dpf\+\_\+api.\+h
+\item dpf\+\_\+api\+\_\+i.\+cpp
+\end{DoxyItemize}
+
+{\bfseries{DPF\+\_\+\+HGP\+\_\+\+ROOT environment variable}} must be set to define the location of those files and {\bfseries{must be set to follow this tutorial}}.
+
+Here is the command for Windows:\+ @win\+\_\+set\+\_\+hgp\+\_\+root
+
+It can also be set by editing the environment variables in Windows settings.
+
+Here is the command for Linux:\+ @lin\+\_\+set\+\_\+hgp\+\_\+root\hypertarget{group__group__06__1_autotoc_md35}{}\doxysubsubsubsection{\texorpdfstring{Specify location of DPF files}{Specify location of DPF files}}\label{group__group__06__1_autotoc_md35}
+\hypertarget{group__group__06__1_autotoc_md36}{}\doxysubsubsubsubsection{\texorpdfstring{Using Visual Studio}{Using Visual Studio}}\label{group__group__06__1_autotoc_md36}
+
+\begin{DoxyEnumerate}
+\item In the "{}\+Properties"{} of the project, open the "{}\+C/\+\+C++"{} tab.
+\item Switch to the "{}general"{} tab. Edit the "{}\+Additional Include Directories"{} section so that it contains the "{}\$(\+DPF\+\_\+\+HGP\+\_\+\+ROOT)"{} field.
+\item Ensure the compilation is done for the same platform and the build is done using the configuration where the properties have been updated (for example, if the \textquotesingle{}Release\texorpdfstring{$\vert$}{|}x64\textquotesingle{} properties are modified, build with the \textquotesingle{}Release\texorpdfstring{$\vert$}{|}x64\textquotesingle{} configuration).
+\end{DoxyEnumerate}\hypertarget{group__group__06__1_autotoc_md37}{}\doxysubsubsubsubsection{\texorpdfstring{Using CMake}{Using CMake}}\label{group__group__06__1_autotoc_md37}
+Add the following line in the CMake\+Lists.\+txt file:\+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{include\_directories(\$ENV\{DPF\_HGP\_ROOT\})}
+
+\end{DoxyCode}
+\hypertarget{group__group__06__1_autotoc_md38}{}\doxysubsubsubsection{\texorpdfstring{Integrate DPF into an existing project}{Integrate DPF into an existing project}}\label{group__group__06__1_autotoc_md38}
+In the header file where the DPF capabilities are used, add the following declarations:\+\hypertarget{group__group__06__1_autotoc_md39}{}\doxysubsubsubsubsection{\texorpdfstring{Include DPF}{Include DPF}}\label{group__group__06__1_autotoc_md39}
+This is needed to access DPF capabilities.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\#include\ "{}dpf\_api.h"{}}
+\DoxyCodeLine{\#include\ "{}dpf\_api\_i.cpp"{}}
+
+\end{DoxyCode}
+\hypertarget{group__group__06__1_autotoc_md40}{}\doxysubsubsubsubsection{\texorpdfstring{Declare DPF Library\+Handle}{Declare DPF Library\+Handle}}\label{group__group__06__1_autotoc_md40}
+The Library\+Handle object must be alive all the time DPF is used. It should be unique, instantiated once per project. This is why it is declared as static structure:\+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{struct\ staticData\ \{}
+\DoxyCodeLine{\ \ \ \ static\ ansys::dpf::LibraryHandle*\ \_dpfLibraryHandle;}
+\DoxyCodeLine{\};}
+
+\end{DoxyCode}
+\hypertarget{group__group__06__1_autotoc_md41}{}\doxysubsubsubsubsection{\texorpdfstring{Instantiate DPF Library\+Handle}{Instantiate DPF Library\+Handle}}\label{group__group__06__1_autotoc_md41}
+Before using any DPF capabilities, instantiate the Library\+Handle. This initializes DPF. To proceed, add the following line:\+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{ansys::dpf::LibraryHandle*\ staticData::\_dpfLibraryHandle\ =\ new\ ansys::dpf::LibraryHandle();}
+
+\end{DoxyCode}
+
+
+For example, it can be added into the main method of the running application.\hypertarget{group__group__06__1_autotoc_md42}{}\doxysubsubsubsubsection{\texorpdfstring{Use DPF capabilities}{Use DPF capabilities}}\label{group__group__06__1_autotoc_md42}
+Once the Library\+Handle is instantiated, all the DPF capabilities can be used. The following example adds two vectors by components:\+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{ansys::dpf::FieldDefinition\ fieldDef(ansys::dpf::Location("{}Nodal"{}),\ \{\ 3\ \});}
+\DoxyCodeLine{}
+\DoxyCodeLine{ansys::dpf::Field\ field\_a;}
+\DoxyCodeLine{field\_a.setFieldDefinition(fieldDef);}
+\DoxyCodeLine{std::vector<double>\ data\_a(\{\ 2.1,\ 1.5,\ 4.0\ \});}
+\DoxyCodeLine{field\_a.push\_back(1,\ data\_a);}
+\DoxyCodeLine{}
+\DoxyCodeLine{ansys::dpf::Field\ field\_b;}
+\DoxyCodeLine{field\_b.setFieldDefinition(fieldDef);}
+\DoxyCodeLine{std::vector<double>\ data\_b(\{\ 10.9,\ 9.5\ \});}
+\DoxyCodeLine{field\_b.push\_back(1,\ data\_b);}
+\DoxyCodeLine{}
+\DoxyCodeLine{ansys::dpf::Operator\ add\_operator("{}add"{});}
+\DoxyCodeLine{add\_operator.connect(0,\ field\_a);}
+\DoxyCodeLine{add\_operator.connect(1,\ field\_b);}
+\DoxyCodeLine{}
+\DoxyCodeLine{ansys::dpf::Field\ result\ =\ add\_operator.getOutputField(0);}
+
+\end{DoxyCode}
+
+
+Visit the {\bfseries{Examples}} section to learn more about DPF capabilities.
+
+The application can now be {\bfseries{compiled}}.\hypertarget{group__group__06__1_autotoc_md43}{}\doxysubsubsubsection{\texorpdfstring{Run the application}{Run the application}}\label{group__group__06__1_autotoc_md43}
+Once the application is compiled, the environment must be updated before running the application:\+ DPF entry point location must be known by the application, using PATH on Windows or LD\+\_\+\+LIBRARY\+\_\+\+PATH on Linux. The following command can be used.
+
+For Windows:\+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{set\ PATH=\%AWP\_ROOT271\%/aisol/bin/winx64;\%PATH\%}
+
+\end{DoxyCode}
+
+
+It can also be set by editing the environment variables in Windows settings.
+
+For Linux:\+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{export\ LD\_LIBRARY\_PATH=\$\{AWP\_ROOT271\}/aisol/dll/linx64"{};\$\{LD\_LIBRARY\_PATH\}}
+
+\end{DoxyCode}
+
+
+The application can now be {\bfseries{run}}.\hypertarget{group__group__06__1_autotoc_md44}{}\doxysubsubsubsection{\texorpdfstring{Example full code compiled with Visual Studio on Windows}{Example full code compiled with Visual Studio on Windows}}\label{group__group__06__1_autotoc_md44}
+The following is the complete code showing how to add DPF capabilities in an already existing C++ application which displays "{}\+Hello World!"{}.
+
+The following code adds the components of two 3D vectors. It gathers all the instructions previously provided in this section. It can be placed into a {\bfseries{Integrate\+Dpf\+Example.\+cpp}} file, compiled and run:\+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\#include\ <iostream>}
+\DoxyCodeLine{}
+\DoxyCodeLine{\#include\ "{}dpf\_api.h"{}}
+\DoxyCodeLine{\#include\ "{}dpf\_api\_i.cpp"{}}
+\DoxyCodeLine{}
+\DoxyCodeLine{struct\ staticData\ \{}
+\DoxyCodeLine{\ \ \ \ static\ ansys::dpf::LibraryHandle*\ \_dpfLibraryHandle;}
+\DoxyCodeLine{\};}
+\DoxyCodeLine{}
+\DoxyCodeLine{ansys::dpf::LibraryHandle*\ staticData::\_dpfLibraryHandle\ =\ new\ ansys::dpf::LibraryHandle();}
+\DoxyCodeLine{}
+\DoxyCodeLine{int\ main()}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ "{}Hello\ World!"{}\ <<\ std::endl;\ }
+\DoxyCodeLine{\ \ \ \ }
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ "{}This\ project\ is\ using\ DPF\ to\ addition\ two\ 3D\ vectors."{}\ <<\ std::endl;\ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ ansys::dpf::FieldDefinition\ fieldDef(ansys::dpf::Location("{}"{}),\ \{\ 3\ \});}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ ansys::dpf::Field\ field\_a;}
+\DoxyCodeLine{\ \ \ \ field\_a.setFieldDefinition(fieldDef);}
+\DoxyCodeLine{\ \ \ \ std::vector<double>\ data\_a(\{\ 2.1,\ 1.5,\ 4.0\ \});}
+\DoxyCodeLine{\ \ \ \ field\_a.push\_back(1,\ data\_a);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ ansys::dpf::Field\ field\_b;}
+\DoxyCodeLine{\ \ \ \ field\_b.setFieldDefinition(fieldDef);}
+\DoxyCodeLine{\ \ \ \ std::vector<double>\ data\_b(\{\ 10.9,\ 9.5,\ 3.5\ \});}
+\DoxyCodeLine{\ \ \ \ field\_b.push\_back(1,\ data\_b);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ ansys::dpf::Operator\ add\_operator("{}add"{});}
+\DoxyCodeLine{\ \ \ \ add\_operator.connect(0,\ field\_a);}
+\DoxyCodeLine{\ \ \ \ add\_operator.connect(1,\ field\_b);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ ansys::dpf::Field\ result\ =\ add\_operator.getOutputField(0);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ "{}First\ vector\ values\ are:"{}\ <<\ std::endl;}
+\DoxyCodeLine{\ \ \ \ for\ (int\ i\ =\ 0;\ i\ <\ result.dataSize();\ i++)}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ std::cout\ <<\ std::to\_string(data\_a.data()[i]).c\_str()\ <<\ std::endl;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ "{}Second\ vector\ values\ are:"{}\ <<\ std::endl;}
+\DoxyCodeLine{\ \ \ \ for\ (int\ i\ =\ 0;\ i\ <\ result.dataSize();\ i++)}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ std::cout\ <<\ std::to\_string(data\_b.data()[i]).c\_str()\ <<\ std::endl;}
+\DoxyCodeLine{\ \ \ \ }
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ "{}Result\ vector\ values\ are:"{}\ <<\ std::endl;}
+\DoxyCodeLine{\ \ \ \ for\ (int\ i\ =\ 0;\ i\ <\ result.dataSize();\ i++)}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ std::cout\ <<\ std::to\_string(result.data()[i]).c\_str()\ <<\ std::endl;}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+\label{group__group__06__1_existing_vcxproj}%
+\Hypertarget{group__group__06__1_existing_vcxproj}%
+To compile it with Visual Studio, the following code can be placed into a {\bfseries{Integrate\+Dpf\+Example.\+vcxproj}} file:\+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{<?xml\ version="{}1.0"{}\ encoding="{}utf-\/8"{}?>}
+\DoxyCodeLine{<Project\ DefaultTargets="{}Build"{}\ xmlns="{}http://schemas.microsoft.com/developer/msbuild/2003"{}>}
+\DoxyCodeLine{\ \ <ItemGroup\ Label="{}ProjectConfigurations"{}>}
+\DoxyCodeLine{\ \ \ \ <ProjectConfiguration\ Include="{}Release|x64"{}>}
+\DoxyCodeLine{\ \ \ \ \ \ <Configuration>Release</Configuration>}
+\DoxyCodeLine{\ \ \ \ \ \ <Platform>x64</Platform>}
+\DoxyCodeLine{\ \ \ \ </ProjectConfiguration>}
+\DoxyCodeLine{\ \ </ItemGroup>}
+\DoxyCodeLine{\ \ <PropertyGroup\ Label="{}Globals"{}>}
+\DoxyCodeLine{\ \ \ \ <VCProjectVersion>17.0</VCProjectVersion>}
+\DoxyCodeLine{\ \ \ \ <ProjectGuid>\{76D54AD4-\/314C-\/4FB1-\/801D-\/0CF6773183A9\}</ProjectGuid>}
+\DoxyCodeLine{\ \ \ \ <Keyword>Win32Proj</Keyword>}
+\DoxyCodeLine{\ \ \ \ <RootNamespace>IntegrateDpfExample</RootNamespace>}
+\DoxyCodeLine{\ \ \ \ <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>}
+\DoxyCodeLine{\ \ </PropertyGroup>}
+\DoxyCodeLine{\ \ <Import\ Project="{}\$(VCTargetsPath)\(\backslash\)Microsoft.Cpp.Default.props"{}\ />}
+\DoxyCodeLine{\ \ <PropertyGroup\ Condition="{}'\$(Configuration)|\$(Platform)'=='Release|x64'"{}\ Label="{}Configuration"{}>}
+\DoxyCodeLine{\ \ \ \ <ConfigurationType>Application</ConfigurationType>}
+\DoxyCodeLine{\ \ \ \ <UseDebugLibraries>false</UseDebugLibraries>}
+\DoxyCodeLine{\ \ \ \ <PlatformToolset>v143</PlatformToolset>}
+\DoxyCodeLine{\ \ \ \ <WholeProgramOptimization>true</WholeProgramOptimization>}
+\DoxyCodeLine{\ \ \ \ <CharacterSet>Unicode</CharacterSet>}
+\DoxyCodeLine{\ \ </PropertyGroup>}
+\DoxyCodeLine{\ \ <Import\ Project="{}\$(VCTargetsPath)\(\backslash\)Microsoft.Cpp.props"{}\ />}
+\DoxyCodeLine{\ \ <ImportGroup\ Label="{}ExtensionSettings"{}>}
+\DoxyCodeLine{\ \ </ImportGroup>}
+\DoxyCodeLine{\ \ <ImportGroup\ Label="{}Shared"{}>}
+\DoxyCodeLine{\ \ </ImportGroup>}
+\DoxyCodeLine{\ \ <ImportGroup\ Label="{}PropertySheets"{}\ Condition="{}'\$(Configuration)|\$(Platform)'=='Release|x64'"{}>}
+\DoxyCodeLine{\ \ \ \ <Import\ Project="{}\$(UserRootDir)\(\backslash\)Microsoft.Cpp.\$(Platform).user.props"{}\ Condition="{}exists('\$(UserRootDir)\(\backslash\)Microsoft.Cpp.\$(Platform).user.props')"{}\ Label="{}LocalAppDataPlatform"{}\ />}
+\DoxyCodeLine{\ \ </ImportGroup>}
+\DoxyCodeLine{\ \ <PropertyGroup\ Label="{}UserMacros"{}\ />}
+\DoxyCodeLine{\ \ <PropertyGroup\ Condition="{}'\$(Configuration)|\$(Platform)'=='Release|x64'"{}>}
+\DoxyCodeLine{\ \ \ \ <LinkIncremental>false</LinkIncremental>}
+\DoxyCodeLine{\ \ </PropertyGroup>}
+\DoxyCodeLine{\ \ <ItemDefinitionGroup\ Condition="{}'\$(Configuration)|\$(Platform)'=='Release|x64'"{}>}
+\DoxyCodeLine{\ \ \ \ <ClCompile>}
+\DoxyCodeLine{\ \ \ \ \ \ <PrecompiledHeader>}
+\DoxyCodeLine{\ \ \ \ \ \ </PrecompiledHeader>}
+\DoxyCodeLine{\ \ \ \ \ \ <WarningLevel>Level3</WarningLevel>}
+\DoxyCodeLine{\ \ \ \ \ \ <Optimization>MaxSpeed</Optimization>}
+\DoxyCodeLine{\ \ \ \ \ \ <FunctionLevelLinking>true</FunctionLevelLinking>}
+\DoxyCodeLine{\ \ \ \ \ \ <IntrinsicFunctions>true</IntrinsicFunctions>}
+\DoxyCodeLine{\ \ \ \ \ \ <SDLCheck>true</SDLCheck>}
+\DoxyCodeLine{\ \ \ \ \ \ <PreprocessorDefinitions>NDEBUG;\_CONSOLE;\%(PreprocessorDefinitions)</PreprocessorDefinitions>}
+\DoxyCodeLine{\ \ \ \ \ \ <ConformanceMode>true</ConformanceMode>}
+\DoxyCodeLine{\ \ \ \ \ \ <AdditionalIncludeDirectories>\$(DPF\_HGP\_ROOT);\%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>}
+\DoxyCodeLine{\ \ \ \ </ClCompile>}
+\DoxyCodeLine{\ \ \ \ <Link>}
+\DoxyCodeLine{\ \ \ \ \ \ <SubSystem>Console</SubSystem>}
+\DoxyCodeLine{\ \ \ \ \ \ <EnableCOMDATFolding>true</EnableCOMDATFolding>}
+\DoxyCodeLine{\ \ \ \ \ \ <OptimizeReferences>true</OptimizeReferences>}
+\DoxyCodeLine{\ \ \ \ \ \ <GenerateDebugInformation>true</GenerateDebugInformation>}
+\DoxyCodeLine{\ \ \ \ </Link>}
+\DoxyCodeLine{\ \ </ItemDefinitionGroup>}
+\DoxyCodeLine{\ \ <ItemGroup>}
+\DoxyCodeLine{\ \ \ \ <ClCompile\ Include="{}IntegrateDpfExample.cpp"{}\ />}
+\DoxyCodeLine{\ \ </ItemGroup>}
+\DoxyCodeLine{\ \ <Import\ Project="{}\$(VCTargetsPath)\(\backslash\)Microsoft.Cpp.targets"{}\ />}
+\DoxyCodeLine{\ \ <ImportGroup\ Label="{}ExtensionTargets"{}>}
+\DoxyCodeLine{\ \ </ImportGroup>}
+\DoxyCodeLine{</Project>}
+
+\end{DoxyCode}
+
+
+Then, the {\bfseries{Integrate\+Dpf\+Example.\+vcxproj}} project can be opened and compiled. Press F5 in Visual Studio to proceed. 

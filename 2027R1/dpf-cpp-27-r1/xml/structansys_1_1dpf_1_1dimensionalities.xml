@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="structansys_1_1dpf_1_1dimensionalities" kind="struct" language="C++" prot="public">
+    <compoundname>ansys::dpf::dimensionalities</compoundname>
+    <includes local="no">dpf_api_base.h</includes>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1dimensionalities_1a8f50e99f934a4d786b16e4a986cbb55c" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1Dimensionality" kindref="compound">Dimensionality</ref></type>
+        <definition>const Dimensionality ansys::dpf::dimensionalities::scalar</definition>
+        <argsstring></argsstring>
+        <name>scalar</name>
+        <qualifiedname>ansys::dpf::dimensionalities::scalar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>scalar dim. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="885" column="29" bodyfile="dpf_api_base.h" bodystart="885" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1dimensionalities_1a62b78a85d6311199716bc317455b9613" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1Dimensionality" kindref="compound">Dimensionality</ref></type>
+        <definition>const Dimensionality ansys::dpf::dimensionalities::vector3D</definition>
+        <argsstring></argsstring>
+        <name>vector3D</name>
+        <qualifiedname>ansys::dpf::dimensionalities::vector3D</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>3 components vector dim. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="887" column="29" bodyfile="dpf_api_base.h" bodystart="887" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1dimensionalities_1aa124b54e1f6389934deda44a0c5e5feb" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1Dimensionality" kindref="compound">Dimensionality</ref></type>
+        <definition>const Dimensionality ansys::dpf::dimensionalities::symmetrical3x3Matrix</definition>
+        <argsstring></argsstring>
+        <name>symmetrical3x3Matrix</name>
+        <qualifiedname>ansys::dpf::dimensionalities::symmetrical3x3Matrix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>3 by 3 symmetrical matrix dim. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="889" column="29" bodyfile="dpf_api_base.h" bodystart="889" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Predefined dimensionalities. <simplesect kind="see"><para><ref refid="structansys_1_1dpf_1_1Dimensionality" kindref="compound">Dimensionality</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>ansys::dpf::Dimensionality</label>
+        <link refid="structansys_1_1dpf_1_1Dimensionality"/>
+      </node>
+      <node id="1">
+        <label>ansys::dpf::dimensionalities</label>
+        <link refid="structansys_1_1dpf_1_1dimensionalities"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>scalar</edgelabel>
+          <edgelabel>symmetrical3x3Matrix</edgelabel>
+          <edgelabel>vector3D</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="dpf_api_base.h" line="882" column="1" bodyfile="dpf_api_base.h" bodystart="883" bodyend="890"/>
+    <listofallmembers>
+      <member refid="structansys_1_1dpf_1_1dimensionalities_1a8f50e99f934a4d786b16e4a986cbb55c" prot="public" virt="non-virtual"><scope>ansys::dpf::dimensionalities</scope><name>scalar</name></member>
+      <member refid="structansys_1_1dpf_1_1dimensionalities_1aa124b54e1f6389934deda44a0c5e5feb" prot="public" virt="non-virtual"><scope>ansys::dpf::dimensionalities</scope><name>symmetrical3x3Matrix</name></member>
+      <member refid="structansys_1_1dpf_1_1dimensionalities_1a62b78a85d6311199716bc317455b9613" prot="public" virt="non-virtual"><scope>ansys::dpf::dimensionalities</scope><name>vector3D</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

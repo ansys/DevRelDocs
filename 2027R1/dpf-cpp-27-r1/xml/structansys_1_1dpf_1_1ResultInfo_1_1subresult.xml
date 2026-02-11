@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="structansys_1_1dpf_1_1ResultInfo_1_1subresult" kind="struct" language="C++" prot="private">
+    <compoundname>ansys::dpf::ResultInfo::subresult</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1ResultInfo_1_1subresult_1a398bb881b0f0a76094a4830daf0f3496" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ResultInfo::subresult::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>ansys::dpf::ResultInfo::subresult::name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="460" column="25" bodyfile="dpf_api.h" bodystart="460" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1ResultInfo_1_1subresult_1a4a1cb9245e3641e1d27165e003773363" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ResultInfo::subresult::opname</definition>
+        <argsstring></argsstring>
+        <name>opname</name>
+        <qualifiedname>ansys::dpf::ResultInfo::subresult::opname</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="461" column="25" bodyfile="dpf_api.h" bodystart="461" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1ResultInfo_1_1subresult_1a629140089d410523aaf83be5ba7ff11d" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ResultInfo::subresult::description</definition>
+        <argsstring></argsstring>
+        <name>description</name>
+        <qualifiedname>ansys::dpf::ResultInfo::subresult::description</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="462" column="25" bodyfile="dpf_api.h" bodystart="462" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structansys_1_1dpf_1_1ResultInfo_1_1subresult_1ab8295462d3fa3360d21e3947ecf0c7fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::ResultInfo::subresult::subresult</definition>
+        <argsstring>()</argsstring>
+        <name>subresult</name>
+        <qualifiedname>ansys::dpf::ResultInfo::subresult::subresult</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="464" column="13" bodyfile="dpf_api.h" bodystart="464" bodyend="464"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="dpf_api.h" line="458" column="9" bodyfile="dpf_api.h" bodystart="459" bodyend="465"/>
+    <listofallmembers>
+      <member refid="structansys_1_1dpf_1_1ResultInfo_1_1subresult_1a629140089d410523aaf83be5ba7ff11d" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo::subresult</scope><name>description</name></member>
+      <member refid="structansys_1_1dpf_1_1ResultInfo_1_1subresult_1a398bb881b0f0a76094a4830daf0f3496" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo::subresult</scope><name>name</name></member>
+      <member refid="structansys_1_1dpf_1_1ResultInfo_1_1subresult_1a4a1cb9245e3641e1d27165e003773363" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo::subresult</scope><name>opname</name></member>
+      <member refid="structansys_1_1dpf_1_1ResultInfo_1_1subresult_1ab8295462d3fa3360d21e3947ecf0c7fa" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo::subresult</scope><name>subresult</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

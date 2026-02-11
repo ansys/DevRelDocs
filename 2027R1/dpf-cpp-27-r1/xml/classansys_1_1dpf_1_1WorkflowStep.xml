@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1WorkflowStep" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::WorkflowStep</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1WorkflowStep_1ac0a7bd013a5230b049573cfaa8d2c1e3" prot="private" static="no" mutable="no">
+        <type><ref refid="classansys_1_1dpf_1_1DataTree" kindref="compound">DataTree</ref></type>
+        <definition>DataTree ansys::dpf::WorkflowStep::_data</definition>
+        <argsstring></argsstring>
+        <name>_data</name>
+        <qualifiedname>ansys::dpf::WorkflowStep::_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5653" column="10" bodyfile="dpf_api.h" bodystart="5653" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1WorkflowStep_1acfde4ebb904fc8b665294dd3cc1c95e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::WorkflowStep::WorkflowStep</definition>
+        <argsstring>()=default</argsstring>
+        <name>WorkflowStep</name>
+        <qualifiedname>ansys::dpf::WorkflowStep::WorkflowStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5645" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1WorkflowStep_1ac894460c996de745e94c8ce11fd2274f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::WorkflowStep::WorkflowStep</definition>
+        <argsstring>(const std::vector&lt; int &gt; &amp;ids)</argsstring>
+        <name>WorkflowStep</name>
+        <qualifiedname>ansys::dpf::WorkflowStep::WorkflowStep</qualifiedname>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>ids</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5646" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1WorkflowStep_1a78ba80973788621ef27f4e00787870be" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::size_t</type>
+        <definition>std::size_t ansys::dpf::WorkflowStep::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <qualifiedname>ansys::dpf::WorkflowStep::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5648" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1WorkflowStep_1a79fdd5d6be1d5b5409b01dbf77a18b00" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt; int &gt; ansys::dpf::WorkflowStep::getOperatorIds</definition>
+        <argsstring>() const</argsstring>
+        <name>getOperatorIds</name>
+        <qualifiedname>ansys::dpf::WorkflowStep::getOperatorIds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5649" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1WorkflowStep_1a89cfcb8795b8cfbf1050a20c3af16c81" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classansys_1_1dpf_1_1DataTree" kindref="compound">DataTree</ref> &amp;</type>
+        <definition>const DataTree &amp; ansys::dpf::WorkflowStep::get</definition>
+        <argsstring>() const</argsstring>
+        <name>get</name>
+        <qualifiedname>ansys::dpf::WorkflowStep::get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5650" column="16" bodyfile="dpf_api.h" bodystart="5650" bodyend="5650"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="dpf_api.h" line="5642" column="1" bodyfile="dpf_api.h" bodystart="5643" bodyend="5654"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1WorkflowStep_1ac0a7bd013a5230b049573cfaa8d2c1e3" prot="private" virt="non-virtual"><scope>ansys::dpf::WorkflowStep</scope><name>_data</name></member>
+      <member refid="classansys_1_1dpf_1_1WorkflowStep_1a89cfcb8795b8cfbf1050a20c3af16c81" prot="public" virt="non-virtual"><scope>ansys::dpf::WorkflowStep</scope><name>get</name></member>
+      <member refid="classansys_1_1dpf_1_1WorkflowStep_1a79fdd5d6be1d5b5409b01dbf77a18b00" prot="public" virt="non-virtual"><scope>ansys::dpf::WorkflowStep</scope><name>getOperatorIds</name></member>
+      <member refid="classansys_1_1dpf_1_1WorkflowStep_1a78ba80973788621ef27f4e00787870be" prot="public" virt="non-virtual"><scope>ansys::dpf::WorkflowStep</scope><name>size</name></member>
+      <member refid="classansys_1_1dpf_1_1WorkflowStep_1acfde4ebb904fc8b665294dd3cc1c95e4" prot="public" virt="non-virtual"><scope>ansys::dpf::WorkflowStep</scope><name>WorkflowStep</name></member>
+      <member refid="classansys_1_1dpf_1_1WorkflowStep_1ac894460c996de745e94c8ce11fd2274f" prot="public" virt="non-virtual"><scope>ansys::dpf::WorkflowStep</scope><name>WorkflowStep</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

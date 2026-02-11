@@ -1,0 +1,66 @@
+{
+  "metadata": [],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "*.md",
+          "toc.yml"
+        ],
+        "src": ".",
+        "dest": "."
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/toc.yml"
+        ],
+        "src": "api-reference",
+        "dest": "api-reference"
+      },
+      {
+        "files": [
+          "**/*.md"
+        ],
+        "src": "user-guide",
+        "dest": "user-guide"
+      },
+      {
+        "files": [
+          "**/*"
+        ],
+        "src": "images",
+        "dest": "images"
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.jpeg",
+          "**/*.gif",
+          "**/*.svg"
+        ]
+      }
+    ],
+    "globalMetadata": {
+      "_appTitle": "DPF C++ API - 2027 R1 (Local)",
+      "_appFooter": "Copyright \u00a9 2026 ANSYS, Inc. All rights reserved.",
+      "_enableSearch": true,
+      "_disableContribution": true
+    },
+    "fileMetadata": {
+      "_tocRel": {
+        "api-reference/**": "../toc.yml"
+      }
+    },
+    "template": [
+      "default"
+    ],
+    "dest": "_site",
+    "xrefService": [
+      "https://xref.docs.microsoft.com/query?uid={uid}"
+    ]
+  }
+}

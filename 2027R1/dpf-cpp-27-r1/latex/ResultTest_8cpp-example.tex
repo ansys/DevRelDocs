@@ -1,0 +1,819 @@
+\doxysection{Result\+Test.\+cpp}
+\hypertarget{ResultTest_8cpp-example}{}\label{ResultTest_8cpp-example}Examples showing how to access results data in an RST file.
+
+
+\begin{DoxyCodeInclude}{0}
+\DoxyCodeLine{\textcolor{comment}{//}}
+\DoxyCodeLine{\textcolor{comment}{//\ COPYRIGHT\ ANSYS.\ ALL\ RIGHTS\ RESERVED.}}
+\DoxyCodeLine{\textcolor{comment}{//}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#ifdef\ EXAMPLE}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include\ "{}Example.h"{}}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include\ <gtest/gtest.h>}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include\ <math.h>}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include\ "{}helpers/dpf\_result.h"{}}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include\ "{}helpers/dpf\_model.h"{}}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include\ "{}../../UnitTestUtilities/UnitTestHelper.h"{}}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\textcolor{keyword}{using\ namespace\ }\doxymbox{\hyperlink{namespaceansys_1_1dpf}{ansys::dpf}};}
+\DoxyCodeLine{}
+\DoxyCodeLine{TEST(result\_info,\ DimensionalityNature\_Homogeneity\_AnalysisType\_PhysicsType\_unitSystem)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ std::string\ fileName(\textcolor{stringliteral}{"{}../../../testfiles/mapdl\_files/TwoSolids.rst"{}});}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DataSources}{ansys::dpf::DataSources}}\ ds;}
+\DoxyCodeLine{\ \ \ \ ds.\doxymbox{\hyperlink{classansys_1_1dpf_1_1DataSources_ad2a5bb6f24ca621ffaaee9e7a47cdc20}{addResultFile}}(fileName);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ provider(\textcolor{stringliteral}{"{}ResultInfoProvider"{}});}
+\DoxyCodeLine{\ \ \ \ provider.connect(4,\ ds);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1ResultInfo}{ansys::dpf::ResultInfo}}\ res\_info\ =\ provider.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator_aeb719093c2406e06455423370eed3cd8}{getOutputResultInfo}}(0);\ }
+\DoxyCodeLine{\ \ \ \ std::string\ analysis\_type\_name\ =\ res\_info.\doxymbox{\hyperlink{classansys_1_1dpf_1_1ResultInfo_ac0f80a2ea905a13dccc274790ef6cbc7}{analysisTypeName}}();}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(analysis\_type\_name,\ std::string(\textcolor{stringliteral}{"{}static"{}}));}
+\DoxyCodeLine{\ \ \ \ std::string\ physics\_type\_name\ =\ res\_info.\doxymbox{\hyperlink{classansys_1_1dpf_1_1ResultInfo_a4400684a038c4fd6dbae406e828c94f2}{physicsTypeName}}();}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(physics\_type\_name,\ std::string(\textcolor{stringliteral}{"{}mechanical"{}}));}
+\DoxyCodeLine{\ \ \ \ std::string\ unit\_sys\_name\ =\ res\_info.\doxymbox{\hyperlink{classansys_1_1dpf_1_1ResultInfo_ae358df95bebd891adf15148f5b26d21d}{unitSystemName}}();}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(unit\_sys\_name,\ std::string(\textcolor{stringliteral}{"{}MKS:\ m,\ kg,\ N,\ s,\ V,\ A,\ degC"{}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::set<std::string>\ res\ =\ res\_info.\doxymbox{\hyperlink{classansys_1_1dpf_1_1ResultInfo_a48e23d251d6109166a2a1f681a39c58a}{availableResults}}();}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ iter\ =\ res.begin();}
+\DoxyCodeLine{\ \ \ \ iter++;}
+\DoxyCodeLine{\ \ \ \ std::string\ res\_name\ =\ *iter;}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{structansys_1_1dpf_1_1Dimensionality_af4666dee615e27f2fe603240631b932f}{ansys::dpf::Dimensionality::ENature}}\ nat\ =\ res\_info.\doxymbox{\hyperlink{classansys_1_1dpf_1_1ResultInfo_ab47931a377a99ccb9bc6727bb6187d74}{nature}}(res\_name);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(nat,\ ansys::dpf::Dimensionality::eScalar);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ energy}}
+\DoxyCodeLine{\ \ \ \ res\_name\ =\ \textcolor{stringliteral}{"{}Energy-\/stiffness\ matrix"{}};}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Unit}{ansys::dpf::Unit}}\ unit\_res\ =\ res\_info.unit(res\_name);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(std::string(unit\_res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Unit_a2ca6139006413a975a4995505ab826fc}{homogeneity}}().\doxymbox{\hyperlink{classansys_1_1dpf_1_1Homogeneity_a74bcfe9b2ed50910f2da21944e3b7437}{c\_str}}()),\ std::string(\textcolor{stringliteral}{"{}Energy"{}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ disp}}
+\DoxyCodeLine{\ \ \ \ res\_name\ =\ \textcolor{stringliteral}{"{}Displacement"{}};}
+\DoxyCodeLine{\ \ \ \ unit\_res\ =\ res\_info.unit(res\_name);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(std::string(unit\_res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Unit_a2ca6139006413a975a4995505ab826fc}{homogeneity}}().\doxymbox{\hyperlink{classansys_1_1dpf_1_1Homogeneity_a74bcfe9b2ed50910f2da21944e3b7437}{c\_str}}()),\ std::string(\textcolor{stringliteral}{"{}Displacement"{}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ Force}}
+\DoxyCodeLine{\ \ \ \ res\_name\ =\ \textcolor{stringliteral}{"{}Force"{}};}
+\DoxyCodeLine{\ \ \ \ unit\_res\ =\ res\_info.unit(res\_name);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(std::string(unit\_res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Unit_a2ca6139006413a975a4995505ab826fc}{homogeneity}}().\doxymbox{\hyperlink{classansys_1_1dpf_1_1Homogeneity_a74bcfe9b2ed50910f2da21944e3b7437}{c\_str}}()),\ std::string(\textcolor{stringliteral}{"{}Force"{}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ Strain}}
+\DoxyCodeLine{\ \ \ \ res\_name\ =\ \textcolor{stringliteral}{"{}Strain"{}};}
+\DoxyCodeLine{\ \ \ \ unit\_res\ =\ res\_info.unit(res\_name);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(std::string(unit\_res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Unit_a2ca6139006413a975a4995505ab826fc}{homogeneity}}().\doxymbox{\hyperlink{classansys_1_1dpf_1_1Homogeneity_a74bcfe9b2ed50910f2da21944e3b7437}{c\_str}}()),\ std::string(\textcolor{stringliteral}{"{}DimensionLess"{}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ Contact\ Pressure}}
+\DoxyCodeLine{\ \ \ \ res\_name\ =\ \textcolor{stringliteral}{"{}Contact\ Pressure"{}};}
+\DoxyCodeLine{\ \ \ \ unit\_res\ =\ res\_info.unit(res\_name);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(std::string(unit\_res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Unit_a2ca6139006413a975a4995505ab826fc}{homogeneity}}().\doxymbox{\hyperlink{classansys_1_1dpf_1_1Homogeneity_a74bcfe9b2ed50910f2da21944e3b7437}{c\_str}}()),\ std::string(\textcolor{stringliteral}{"{}Pressure"{}}));}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{}
+\DoxyCodeLine{TEST(Results,\ readSEQV)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ std::string\ fileName(\textcolor{stringliteral}{"{}../../../testfiles/mapdl\_files/TwoSolids.rst"{}});}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Model}{ansys::dpf::Model}}\ model(fileName);}
+\DoxyCodeLine{\ \ \ }
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{Result}}\ res\ =\ model.CreateResultEvaluationWorkflow(\textcolor{stringliteral}{"{}S\_eqv"{}});}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{ansys::dpf::DpfError}}\ error;}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ fieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_ac8e07e03eba295dacfe13a100603d5c4}{EvaluateAtGivenTime}}(0.0,\ error);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(fieldsContainer.size(),\ 1);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ field\ =\ fieldsContainer[0];}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{structansys_1_1dpf_1_1Location}{Location}}\ location\ =\ field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a860e65caa16f612746ad116429282fd3}{fieldDefinition}}().\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldDefinition_a9ea61f23ef1eb93c794b7c222d7740b8}{location}}();}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 344);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\_int}}\ size;\ \ \ \ }
+\DoxyCodeLine{\ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}}\ minmax\ =\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}}(\textcolor{stringliteral}{"{}min\_max"{}});}
+\DoxyCodeLine{\ \ \ \ minmax.connect(0,\ field);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ fieldMin\ =\ minmax.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator_a888c9e303c08320944b1a328a73e1ac3}{getOutputField}}(0);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ fieldMax\ =\ minmax.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator_a888c9e303c08320944b1a328a73e1ac3}{getOutputField}}(1);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ dataMax\ =\ fieldMax.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size);}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ dataMin\ =\ fieldMin.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ ids\_max\ =\ fieldMax.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_aa16920741c1432c16e46ec6da26b3f04}{scoping}}().\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping_acf26749e29d9f23de6c70806ccfaea6b}{ids}}(size);}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ ids\_min\ =\ fieldMin.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_aa16920741c1432c16e46ec6da26b3f04}{scoping}}().\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping_acf26749e29d9f23de6c70806ccfaea6b}{ids}}(size);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(dataMax[0],\ 6314.9823137518824);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(dataMin[0],\ 62.022552581514269);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(ids\_max[0],\ 85);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(ids\_min[0],\ 141);\ \ \ }
+\DoxyCodeLine{\}}
+\DoxyCodeLine{}
+\DoxyCodeLine{TEST(Results,\ readSEQVAtGivenNode)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ std::string\ fileName(\textcolor{stringliteral}{"{}../../../testfiles/mapdl\_files/TwoSolids.rst"{}});}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Model}{ansys::dpf::Model}}\ model(fileName);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{Result}}\ res\ =\ model.CreateResultEvaluationWorkflow(\textcolor{stringliteral}{"{}S\_eqv"{}},\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}}(\{\ 1\ \},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{ansys::dpf::locations::nodal}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{ansys::dpf::DpfError}}\ error;}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ fieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_ac8e07e03eba295dacfe13a100603d5c4}{EvaluateAtGivenTime}}(0.0,\ error);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(fieldsContainer.size(),\ 1);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ field\ =\ fieldsContainer[0];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 1);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_STREQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a860e65caa16f612746ad116429282fd3}{fieldDefinition}}().\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldDefinition_a9ea61f23ef1eb93c794b7c222d7740b8}{location}}().\doxymbox{\hyperlink{structansys_1_1dpf_1_1Location_ad9fab192124627740ffa623b1a0221ea}{c\_str}}(),\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{locations::nodal}}.c\_str());}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_aa16920741c1432c16e46ec6da26b3f04}{scoping}}().\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping_aeae5e27bd752bdf0da3cc2d64fbe118a}{size}}(),\ 1);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_aa16920741c1432c16e46ec6da26b3f04}{scoping}}().\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping_a0fc75ac65a5b13727b77e2c155828ccd}{at}}(0),\ 1);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\_int}}\ size;}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[0],\ 987.40109280968454);}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{}
+\DoxyCodeLine{TEST(Results,\ readSEQVAtGivenNodes)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ std::string\ fileName(\textcolor{stringliteral}{"{}../../../testfiles/mapdl\_files/TwoSolids.rst"{}});}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Model}{ansys::dpf::Model}}\ model(fileName);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{Result}}\ res\ =\ model.CreateResultEvaluationWorkflow(\textcolor{stringliteral}{"{}S\_eqv"{}},\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}}(\{\ 1,2\ \},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{ansys::dpf::locations::nodal}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{ansys::dpf::DpfError}}\ error;}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ fieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_ac8e07e03eba295dacfe13a100603d5c4}{EvaluateAtGivenTime}}(0.0,\ error);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(fieldsContainer.size(),\ 1);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ field\ =\ fieldsContainer[0];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 2);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_STREQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a860e65caa16f612746ad116429282fd3}{fieldDefinition}}().\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldDefinition_a9ea61f23ef1eb93c794b7c222d7740b8}{location}}().\doxymbox{\hyperlink{structansys_1_1dpf_1_1Location_ad9fab192124627740ffa623b1a0221ea}{c\_str}}(),\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{locations::nodal}}.c\_str());}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_aa16920741c1432c16e46ec6da26b3f04}{scoping}}().\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping_aeae5e27bd752bdf0da3cc2d64fbe118a}{size}}(),\ 2);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\_int}}\ size;}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a50ed01d59770f646c41777d496e0ff9c}{entityDataById}}(1,\ size)[0],\ 987.40109280968454);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a50ed01d59770f646c41777d496e0ff9c}{entityDataById}}(2,\ size)[0],\ 1005.4123172685187);}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{}
+\DoxyCodeLine{TEST(Results,\ readTemperatures)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ std::string\ fileName(\textcolor{stringliteral}{"{}../../../testfiles/mapdl\_files/file.rth"{}});}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Model}{ansys::dpf::Model}}\ model(fileName);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport}{TimeFreqSupport}}\ timeFreq\ =\ model.getTimeFreqSupport();}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ numSets\ =\ timeFreq.\doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a87c577de73b5ba2260cf3f940ac43068}{numberOfSets}}();}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(numSets,\ 4);}
+\DoxyCodeLine{\ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{Result}}\ res\ =\ model.CreateResultEvaluationWorkflow(\textcolor{stringliteral}{"{}TEMP"{}});}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{ansys::dpf::DpfError}}\ error;}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ fieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_aaf145866535c0773a9ba3524b1f65743}{EvaluateAtGivenTimeIndex}}(3,\ error);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(fieldsContainer.size(),\ 1);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ field\ =\ fieldsContainer[0];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 2159);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\_int}}\ size;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}}\ minmax\ =\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}}(\textcolor{stringliteral}{"{}min\_max"{}});}
+\DoxyCodeLine{\ \ \ \ minmax.connect(0,\ field);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ fieldMin\ =\ minmax.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator_a888c9e303c08320944b1a328a73e1ac3}{getOutputField}}(0);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ fieldMax\ =\ minmax.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator_a888c9e303c08320944b1a328a73e1ac3}{getOutputField}}(1);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ dataMax\ =\ fieldMax.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size);}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ dataMin\ =\ fieldMin.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ ids\_max\ =\ fieldMax.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_aa16920741c1432c16e46ec6da26b3f04}{scoping}}().\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping_acf26749e29d9f23de6c70806ccfaea6b}{ids}}(size);}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ ids\_min\ =\ fieldMin.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_aa16920741c1432c16e46ec6da26b3f04}{scoping}}().\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping_acf26749e29d9f23de6c70806ccfaea6b}{ids}}(size);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(dataMax[0],\ 56.576226358561549);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(dataMin[0],\ 21.999572871657019);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(ids\_max[0],\ 32);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(ids\_min[0],\ 978);}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{}
+\DoxyCodeLine{TEST(Results,\ readSXAtGivenNamedSelection)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ std::string\ fileName(\textcolor{stringliteral}{"{}../../../testfiles/mapdl\_files/TwoSolids.rst"{}});}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Model}{ansys::dpf::Model}}\ model(fileName);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{Result}}\ res\ =\ model.CreateResultEvaluationWorkflow(\textcolor{stringliteral}{"{}SX"{}},\ \textcolor{stringliteral}{"{}not\_exist"{}});}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{ansys::dpf::DpfError}}\ error;}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ fieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_ac8e07e03eba295dacfe13a100603d5c4}{EvaluateAtGivenTime}}(0.0,\ error);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_FALSE(error.\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError_aa215db12375801e5addbe0dbf8a97533}{isOk}}());\ \ \ \ }
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(fieldsContainer.size(),\ 0);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ res\ =\ model.CreateResultEvaluationWorkflow(\textcolor{stringliteral}{"{}SX"{}},\ \textcolor{stringliteral}{"{}\_FIXEDSU"{}});}
+\DoxyCodeLine{\ \ \ \ fieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_ac8e07e03eba295dacfe13a100603d5c4}{EvaluateAtGivenTime}}(0.0,\ error);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_TRUE(error.\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError_aa215db12375801e5addbe0dbf8a97533}{isOk}}());}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ field\ =\ fieldsContainer[0];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 30);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\_int}}\ size;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}}\ minmax\ =\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{Operator}}(\textcolor{stringliteral}{"{}min\_max"{}});}
+\DoxyCodeLine{\ \ \ \ minmax.connect(0,\ field);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ fieldMin\ =\ minmax.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator_a888c9e303c08320944b1a328a73e1ac3}{getOutputField}}(0);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ fieldMax\ =\ minmax.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator_a888c9e303c08320944b1a328a73e1ac3}{getOutputField}}(1);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ dataMax\ =\ fieldMax.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size);}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ dataMin\ =\ fieldMin.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ ids\_max\ =\ fieldMax.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_aa16920741c1432c16e46ec6da26b3f04}{scoping}}().\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping_acf26749e29d9f23de6c70806ccfaea6b}{ids}}(size);}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ ids\_min\ =\ fieldMin.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_aa16920741c1432c16e46ec6da26b3f04}{scoping}}().\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping_acf26749e29d9f23de6c70806ccfaea6b}{ids}}(size);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(dataMax[0],\ 1292.4295654296875);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(dataMin[0],\ -\/2806.3163364955358);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(ids\_max[0],\ 100);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(ids\_min[0],\ 109);}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{}
+\DoxyCodeLine{TEST(Results,\ readSmaxshearSintensityAtGivenStepIndexAndSubStep)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ std::string\ fileName(\textcolor{stringliteral}{"{}../../../testfiles/mapdl\_files/TwoSolids.rst"{}});}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Model}{ansys::dpf::Model}}\ model(fileName);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport}{TimeFreqSupport}}\ timeFreq\ =\ model.getTimeFreqSupport();}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ numSets\ =\ timeFreq.\doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a87c577de73b5ba2260cf3f940ac43068}{numberOfSets}}();}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(numSets,\ 1);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ numSteps\ =\ timeFreq.\doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a6b3cc037c0283450ac0234dadeddd1b6}{numberOfSteps}}();}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(numSteps,\ 1);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ numSubSteps\ =\ timeFreq.\doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a4333cdbfac1c49f802a9c33a18970ed5}{numberOfSubStepsByStepIndex}}(0);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(numSubSteps,\ 1);}
+\DoxyCodeLine{\ \ \ \ }
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{Result}}\ res\ =\ model.CreateResultEvaluationWorkflow(\textcolor{stringliteral}{"{}S\_intensity"{}},\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}}(\{\ 1\ \},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{ansys::dpf::locations::nodal}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\_int}}\ size;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{ansys::dpf::DpfError}}\ error;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ fieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_af60979c0660e293e0eff722767939814}{EvaluateAtGivenStepIndexAndSubStep}}(0,\ 0,\ error);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(fieldsContainer.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ field\ =\ fieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_addfee935e69fe9fb9e0e533449f9a5bc}{at}}(0);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_DOUBLE\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[0],\ 1000.0921216717491);}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{Result}}\ res\ =\ model.CreateResultEvaluationWorkflow(\textcolor{stringliteral}{"{}S\_max\_shear"{}},\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}}(\{\ 1\ \},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{ansys::dpf::locations::nodal}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\_int}}\ size;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{ansys::dpf::DpfError}}\ error;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ fieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_af60979c0660e293e0eff722767939814}{EvaluateAtGivenStepIndexAndSubStep}}(0,\ 0,\ error);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(fieldsContainer.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ field\ =\ fieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_addfee935e69fe9fb9e0e533449f9a5bc}{at}}(0);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_DOUBLE\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[0],\ 500.04606083587453);}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{}
+\DoxyCodeLine{TEST(Results,\ readEULXYZAngleAtGivenStepIndexAndSubStep)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ std::string\ fileName(\textcolor{stringliteral}{"{}../../../testfiles/mapdl\_files/TwoSolids.rst"{}});}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Model}{ansys::dpf::Model}}\ model(fileName);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport}{TimeFreqSupport}}\ timeFreq\ =\ model.getTimeFreqSupport();}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ numSets\ =\ timeFreq.\doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a87c577de73b5ba2260cf3f940ac43068}{numberOfSets}}();}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(numSets,\ 1);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ numSteps\ =\ timeFreq.\doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a6b3cc037c0283450ac0234dadeddd1b6}{numberOfSteps}}();}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(numSteps,\ 1);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ numSubSteps\ =\ timeFreq.\doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a4333cdbfac1c49f802a9c33a18970ed5}{numberOfSubStepsByStepIndex}}(0);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(numSubSteps,\ 1);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{Result}}\ res\ =\ model.CreateResultEvaluationWorkflow(\textcolor{stringliteral}{"{}EULX"{}},\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}}(\{\ 1\ \},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{ansys::dpf::locations::nodal}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\_int}}\ size;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{ansys::dpf::DpfError}}\ error;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ fieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_af60979c0660e293e0eff722767939814}{EvaluateAtGivenStepIndexAndSubStep}}(0,\ 0,\ error);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(fieldsContainer.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ field\ =\ fieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_addfee935e69fe9fb9e0e533449f9a5bc}{at}}(0);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_DOUBLE\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[0],\ 0);}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{Result}}\ res\ =\ model.CreateResultEvaluationWorkflow(\textcolor{stringliteral}{"{}EULY"{}},\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}}(\{\ 1\ \},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{ansys::dpf::locations::nodal}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\_int}}\ size;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{ansys::dpf::DpfError}}\ error;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ fieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_af60979c0660e293e0eff722767939814}{EvaluateAtGivenStepIndexAndSubStep}}(0,\ 0,\ error);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(fieldsContainer.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ field\ =\ fieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_addfee935e69fe9fb9e0e533449f9a5bc}{at}}(0);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_DOUBLE\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[0],\ 0);}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{Result}}\ res\ =\ model.CreateResultEvaluationWorkflow(\textcolor{stringliteral}{"{}EULZ"{}},\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}}(\{\ 1\ \},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{ansys::dpf::locations::nodal}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\_int}}\ size;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{ansys::dpf::DpfError}}\ error;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ fieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_af60979c0660e293e0eff722767939814}{EvaluateAtGivenStepIndexAndSubStep}}(0,\ 0,\ error);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(fieldsContainer.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ field\ =\ fieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_addfee935e69fe9fb9e0e533449f9a5bc}{at}}(0);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_DOUBLE\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[0],\ 0);}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{}
+\DoxyCodeLine{TEST(Results,\ readEPELeqvEPELmaxshearEPELintensityAtGivenStepIndexAndSubStep)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ std::string\ fileName(\textcolor{stringliteral}{"{}../../../testfiles/mapdl\_files/TwoSolids.rst"{}});}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Model}{ansys::dpf::Model}}\ model(fileName);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport}{TimeFreqSupport}}\ timeFreq\ =\ model.getTimeFreqSupport();}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ numSets\ =\ timeFreq.\doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a87c577de73b5ba2260cf3f940ac43068}{numberOfSets}}();}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(numSets,\ 1);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ numSteps\ =\ timeFreq.\doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a6b3cc037c0283450ac0234dadeddd1b6}{numberOfSteps}}();}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(numSteps,\ 1);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ numSubSteps\ =\ timeFreq.\doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a4333cdbfac1c49f802a9c33a18970ed5}{numberOfSubStepsByStepIndex}}(0);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(numSubSteps,\ 1);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{Result}}\ res\ =\ model.CreateResultEvaluationWorkflow(\textcolor{stringliteral}{"{}EPEL\_eqv"{}},\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}}(\{\ 1\ \},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{ansys::dpf::locations::nodal}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\_int}}\ size;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{ansys::dpf::DpfError}}\ error;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ fieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_af60979c0660e293e0eff722767939814}{EvaluateAtGivenStepIndexAndSubStep}}(0,\ 0,\ error);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(fieldsContainer.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ field\ =\ fieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_addfee935e69fe9fb9e0e533449f9a5bc}{at}}(0);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_DOUBLE\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[0],\ 4.9375041277777143e-\/09);}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{Result}}\ res\ =\ model.CreateResultEvaluationWorkflow(\textcolor{stringliteral}{"{}EPEL\_intensity"{}},\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}}(\{\ 1\ \},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{ansys::dpf::locations::nodal}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\_int}}\ size;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{ansys::dpf::DpfError}}\ error;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ fieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_af60979c0660e293e0eff722767939814}{EvaluateAtGivenStepIndexAndSubStep}}(0,\ 0,\ error);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(fieldsContainer.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ field\ =\ fieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_addfee935e69fe9fb9e0e533449f9a5bc}{at}}(0);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_DOUBLE\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[0],\ 6.5005988174106854e-\/09);}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{Result}}\ res\ =\ model.CreateResultEvaluationWorkflow(\textcolor{stringliteral}{"{}EPEL\_max\_shear"{}},\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}}(\{\ 1\ \},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{ansys::dpf::locations::nodal}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\_int}}\ size;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{ansys::dpf::DpfError}}\ error;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ fieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_af60979c0660e293e0eff722767939814}{EvaluateAtGivenStepIndexAndSubStep}}(0,\ 0,\ error);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(fieldsContainer.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ field\ =\ fieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_addfee935e69fe9fb9e0e533449f9a5bc}{at}}(0);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_DOUBLE\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[0],\ 6.5005988174106854e-\/09);}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{}
+\DoxyCodeLine{TEST(Results,\ readSXAtGivenStepIndexAndSubStep)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ std::string\ fileName(\textcolor{stringliteral}{"{}../../../testfiles/mapdl\_files/TwoSolids.rst"{}});}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Model}{ansys::dpf::Model}}\ model(fileName);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport}{TimeFreqSupport}}\ timeFreq\ =\ model.getTimeFreqSupport();}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ numSets\ =\ timeFreq.\doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a87c577de73b5ba2260cf3f940ac43068}{numberOfSets}}();}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(numSets,\ 1);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ numSteps\ =\ timeFreq.\doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a6b3cc037c0283450ac0234dadeddd1b6}{numberOfSteps}}();}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(numSteps,\ 1);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ numSubSteps\ =\ timeFreq.\doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a4333cdbfac1c49f802a9c33a18970ed5}{numberOfSubStepsByStepIndex}}(0);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(numSubSteps,\ 1);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{Result}}\ res\ =\ model.CreateResultEvaluationWorkflow(\textcolor{stringliteral}{"{}S\_eqv"{}},\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}}(\{\ 1\ \},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{ansys::dpf::locations::nodal}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\_int}}\ size;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{ansys::dpf::DpfError}}\ error;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ fieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_af60979c0660e293e0eff722767939814}{EvaluateAtGivenStepIndexAndSubStep}}(0,\ 0,\ error);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(fieldsContainer.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ field\ =\ fieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_addfee935e69fe9fb9e0e533449f9a5bc}{at}}(0);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_DOUBLE\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[0],\ 987.40109280968454);}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{Result}}\ res\ =\ model.CreateResultEvaluationWorkflow(\textcolor{stringliteral}{"{}SX"{}},\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}}(\{\ 1\ \},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{ansys::dpf::locations::nodal}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\_int}}\ size;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{ansys::dpf::DpfError}}\ error;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ fieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_af60979c0660e293e0eff722767939814}{EvaluateAtGivenStepIndexAndSubStep}}(0,\ 0,\ error);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(fieldsContainer.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ field\ =\ fieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_addfee935e69fe9fb9e0e533449f9a5bc}{at}}(0);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_DOUBLE\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[0],\ -\/7.8000752627849579);}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{Result}}\ res\ =\ model.CreateResultEvaluationWorkflow(\textcolor{stringliteral}{"{}SY"{}},\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}}(\{\ 1\ \},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{ansys::dpf::locations::nodal}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\_int}}\ size;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{ansys::dpf::DpfError}}\ error;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ fieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_af60979c0660e293e0eff722767939814}{EvaluateAtGivenStepIndexAndSubStep}}(0,\ 0,\ error);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(fieldsContainer.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ field\ =\ fieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_addfee935e69fe9fb9e0e533449f9a5bc}{at}}(0);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_DOUBLE\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[0],\ -\/6.1013864427804947);}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{Result}}\ res\ =\ model.CreateResultEvaluationWorkflow(\textcolor{stringliteral}{"{}SZ"{}},\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}}(\{\ 1\ \},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{ansys::dpf::locations::nodal}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\_int}}\ size;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{ansys::dpf::DpfError}}\ error;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ fieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_af60979c0660e293e0eff722767939814}{EvaluateAtGivenStepIndexAndSubStep}}(0,\ 0,\ error);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(fieldsContainer.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ field\ =\ fieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_addfee935e69fe9fb9e0e533449f9a5bc}{at}}(0);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_DOUBLE\_EQ(field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[0],\ -\/994.09059143066406);}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{}
+\DoxyCodeLine{TEST(Results,\ readSEQVAmplitudeAtGivenTime)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ std::string\ fileName(\textcolor{stringliteral}{"{}../../../testfiles/complex/filetheo.rst"{}});}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Model}{ansys::dpf::Model}}\ model(fileName);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{Result}}\ res\ =\ model.CreateResultEvaluationWorkflow(\textcolor{stringliteral}{"{}S\_eqv"{}},\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}}(\{\ 1\ \},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{ansys::dpf::locations::nodal}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\_int}}\ size;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{ansys::dpf::DpfError}}\ error;}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ amplitudeFieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_a439090991ae8107589374384bfca4933}{EvaluateAmplitudeAtGivenTime}}(0.0,\ error);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(amplitudeFieldsContainer.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ amplitudeField\ =\ amplitudeFieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_addfee935e69fe9fb9e0e533449f9a5bc}{at}}(0);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(amplitudeField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 3);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\_double}}\ amplitudeValue\ =\ amplitudeField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[0];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(amplitudeValue,\ 15953.036468929646);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ now\ get\ the\ real\ and\ imaginary\ separately}}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ fieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_ac8e07e03eba295dacfe13a100603d5c4}{EvaluateAtGivenTime}}(0.0,\ error);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(fieldsContainer.size(),\ 2);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_TRUE(fieldsContainer.hasLabel(\textcolor{stringliteral}{"{}complex"{}}));}
+\DoxyCodeLine{\ \ \ \ EXPECT\_TRUE(fieldsContainer.hasLabel(\textcolor{stringliteral}{"{}time"{}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::vector<Field>\ realFields\ =\ fieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a45536132d19f7a61af3ff18e660ad8de}{getFieldsForTimeId}}(1,\ 0);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(realFields.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ realField\ =\ realFields.at(0);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(realField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 3);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\_double}}\ realValue\ =\ realField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[0];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(realValue,\ 15953.030385790376);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::vector<Field>\ imaginaryFields\ =\ fieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a45536132d19f7a61af3ff18e660ad8de}{getFieldsForTimeId}}(1,\ 1);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(imaginaryFields.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ imaginaryField\ =\ imaginaryFields[0];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(imaginaryField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 3);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\_double}}\ imaginaryValue\ =\ imaginaryField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[0];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(imaginaryValue,\ 13.931584555079384);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ and\ compare\ them}}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(amplitudeValue,\ sqrt(realValue\ *\ realValue\ +\ imaginaryValue\ *\ imaginaryValue));}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{}
+\DoxyCodeLine{TEST(Results,\ readSEQVAmplitudeAtGivenTimeIndex)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ std::string\ fileName(\textcolor{stringliteral}{"{}../../../testfiles/complex/filetheo.rst"{}});}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Model}{ansys::dpf::Model}}\ model(fileName);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{Result}}\ res\ =\ model.CreateResultEvaluationWorkflow(\textcolor{stringliteral}{"{}S\_eqv"{}},\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}}(\{\ 1\ \},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{ansys::dpf::locations::nodal}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\_int}}\ size;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{ansys::dpf::DpfError}}\ error;}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ amplitudeFieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_a3df1f87059794e3ff557ccc63b99b171}{EvaluateAmplitudeAtGivenTimeIndex}}(0,\ error);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(amplitudeFieldsContainer.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ amplitudeField\ =\ amplitudeFieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_addfee935e69fe9fb9e0e533449f9a5bc}{at}}(0);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(amplitudeField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 3);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\_double}}\ amplitudeValue\ =\ amplitudeField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[1];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(amplitudeValue,\ 15953.015373859611);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ now\ get\ the\ real\ and\ imaginary\ separately}}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ fieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_aaf145866535c0773a9ba3524b1f65743}{EvaluateAtGivenTimeIndex}}(0,\ error);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(fieldsContainer.size(),\ 2);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_TRUE(fieldsContainer.hasLabel(\textcolor{stringliteral}{"{}complex"{}}));}
+\DoxyCodeLine{\ \ \ \ EXPECT\_TRUE(fieldsContainer.hasLabel(\textcolor{stringliteral}{"{}time"{}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::vector<Field>\ realFields\ =\ fieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a45536132d19f7a61af3ff18e660ad8de}{getFieldsForTimeId}}(1,\ 0);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(realFields.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ realField\ =\ realFields.at(0);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(realField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 3);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\_double}}\ realValue\ =\ realField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[1];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(realValue,\ 15953.009290308262);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::vector<Field>\ imaginaryFields\ =\ fieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a45536132d19f7a61af3ff18e660ad8de}{getFieldsForTimeId}}(1,\ 1);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(imaginaryFields.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ imaginaryField\ =\ imaginaryFields[0];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(imaginaryField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 3);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\_double}}\ imaginaryValue\ =\ imaginaryField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[1];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(imaginaryValue,\ 13.932047206695039);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ and\ compare\ them}}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(amplitudeValue,\ sqrt(realValue\ *\ realValue\ +\ imaginaryValue\ *\ imaginaryValue));}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{}
+\DoxyCodeLine{TEST(Results,\ readSEQVAmplitudeAtGivenStepAndSubStep)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ std::string\ fileName(\textcolor{stringliteral}{"{}../../../testfiles/complex/filetheo.rst"{}});}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Model}{ansys::dpf::Model}}\ model(fileName);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport}{TimeFreqSupport}}\ timeFreq\ =\ model.getTimeFreqSupport();}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ numSets\ =\ timeFreq.\doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a87c577de73b5ba2260cf3f940ac43068}{numberOfSets}}();}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(numSets,\ 10);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ numSteps\ =\ timeFreq.\doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a6b3cc037c0283450ac0234dadeddd1b6}{numberOfSteps}}();}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(numSteps,\ 1);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ numSubSteps\ =\ timeFreq.\doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a4333cdbfac1c49f802a9c33a18970ed5}{numberOfSubStepsByStepIndex}}(0);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(numSubSteps,\ 10);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{Result}}\ res\ =\ model.CreateResultEvaluationWorkflow(\textcolor{stringliteral}{"{}S\_eqv"{}},\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}}(\{\ 1\ \},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{ansys::dpf::locations::nodal}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\_int}}\ size;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{ansys::dpf::DpfError}}\ error;}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ amplitudeFieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_a5e672dee634e76b8a9782cdfab42461b}{EvaluateAmplitudeAtGivenStepIndexAndSubStep}}(0,\ 9,\ error);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(amplitudeFieldsContainer.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ amplitudeField\ =\ amplitudeFieldsContainer[0];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(amplitudeField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 3);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\_double}}\ amplitudeValue\ =\ amplitudeField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[0];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(amplitudeValue,\ 4823.449633735253);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ now\ get\ the\ real\ and\ imaginary\ separately\ idx0,idx9=id10}}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ fieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_af60979c0660e293e0eff722767939814}{EvaluateAtGivenStepIndexAndSubStep}}(0,\ 9,\ error);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(fieldsContainer.size(),\ 2);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_TRUE(fieldsContainer.hasLabel(\textcolor{stringliteral}{"{}complex"{}}));}
+\DoxyCodeLine{\ \ \ \ EXPECT\_TRUE(fieldsContainer.hasLabel(\textcolor{stringliteral}{"{}time"{}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::vector<Field>\ realFields\ =\ fieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a45536132d19f7a61af3ff18e660ad8de}{getFieldsForTimeId}}(10,\ 0);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(realFields.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ realField\ =\ realFields.at(0);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(realField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 3);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\_double}}\ realValue\ =\ realField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[0];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(realValue,\ 4823.4491029746168);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::vector<Field>\ imaginaryFields\ =\ fieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a45536132d19f7a61af3ff18e660ad8de}{getFieldsForTimeId}}(10,\ 1);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(imaginaryFields.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ imaginaryField\ =\ imaginaryFields[0];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(imaginaryField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 3);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\_double}}\ imaginaryValue\ =\ imaginaryField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[0];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(imaginaryValue,\ 2.262784593315458);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ and\ compare\ them}}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(amplitudeValue,\ (\doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\_double}})sqrt(realValue\ *\ realValue\ +\ imaginaryValue\ *\ imaginaryValue));}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{}
+\DoxyCodeLine{TEST(Results,\ readSEQVWithPhaseAtGivenTime)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ std::string\ fileName(\textcolor{stringliteral}{"{}../../../testfiles/complex/filetheo.rst"{}});}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Model}{ansys::dpf::Model}}\ model(fileName);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{Result}}\ res\ =\ model.CreateResultEvaluationWorkflow(\textcolor{stringliteral}{"{}S\_eqv"{}},\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}}(\{\ 1\ \},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{ansys::dpf::locations::nodal}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\_int}}\ size;}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ theta\ is\ in\ degrees}}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{const}\ \doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\_double}}\ theta\ =\ 45.0;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{ansys::dpf::DpfError}}\ error;}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ amplitudeFieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_a53d7529964052d14a60ee1d53f6d1d06}{EvaluateWithPhaseAtGivenTime}}(0.0,\ theta,\ error);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(amplitudeFieldsContainer.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ amplitudeField\ =\ amplitudeFieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_addfee935e69fe9fb9e0e533449f9a5bc}{at}}(0);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(amplitudeField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 3);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\_double}}\ amplitudeValue\ =\ amplitudeField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[0];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(amplitudeValue,\ 11270.644848355851);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ now\ get\ the\ real\ and\ imaginary\ separately}}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ fieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_ac8e07e03eba295dacfe13a100603d5c4}{EvaluateAtGivenTime}}(0.0,\ error);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(fieldsContainer.size(),\ 2);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_TRUE(fieldsContainer.hasLabel(\textcolor{stringliteral}{"{}complex"{}}));}
+\DoxyCodeLine{\ \ \ \ EXPECT\_TRUE(fieldsContainer.hasLabel(\textcolor{stringliteral}{"{}time"{}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::vector<Field>\ realFields\ =\ fieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a45536132d19f7a61af3ff18e660ad8de}{getFieldsForTimeId}}(1,\ 0);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(realFields.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ realField\ =\ realFields.at(0);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(realField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 3);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\_double}}\ realValue\ =\ realField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[0];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(realValue,\ 15953.030385790376);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::vector<Field>\ imaginaryFields\ =\ fieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a45536132d19f7a61af3ff18e660ad8de}{getFieldsForTimeId}}(1,\ 1);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(imaginaryFields.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ imaginaryField\ =\ imaginaryFields[0];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(imaginaryField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 3);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\_double}}\ imaginaryValue\ =\ imaginaryField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[0];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(imaginaryValue,\ 13.931584555079384);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordtype}{double}\ thetaR\ =\ theta\ /\ 180.0\ *\ 3.14159265358979323846;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ and\ compare\ them}}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\_double}}\ expectedValue\ =\ realValue\ *\ cos(thetaR)\ -\/\ imaginaryValue\ *\ sin(thetaR);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(amplitudeValue,\ expectedValue);}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{}
+\DoxyCodeLine{TEST(Results,\ readRFXAtGivenScoping)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ std::string\ filename\ =\ (unit\_test\_helper::unitTestPath()\ /\ \textcolor{stringliteral}{"{}rst\_operators/allKindOfComplexity.rst"{}}).\textcolor{keywordtype}{string}();}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DataSources}{ansys::dpf::DataSources}}\ ds;}
+\DoxyCodeLine{\ \ \ \ ds.\doxymbox{\hyperlink{classansys_1_1dpf_1_1DataSources_ad2a5bb6f24ca621ffaaee9e7a47cdc20}{addResultFile}}(filename);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Model}{ansys::dpf::Model}}\ dpfModel(ds);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ std::string\ resultOperator\ =\ \textcolor{stringliteral}{"{}RFX"{}};}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keyword}{auto}\ mesh\ =\ dpfModel.getMesh(0);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{ansys::dpf::Scoping}}\ scoping\ =\ mesh.nodeScoping();}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keyword}{auto}\ location\ =\ scoping.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping_a516b4489a94ff02ecc880f170b8f93a9}{location}}();}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{ansys::dpf::Result}}\ res\ =\ dpfModel.CreateResultEvaluationWorkflow(resultOperator.c\_str(),\ scoping,\ location);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{ansys::dpf::Result}}*\ resultWorkflow\ =\ \&res;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{ansys::dpf::DpfError}}\ err;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{ansys::dpf::FieldsContainer}}\ fieldsContainer\ =\ resultWorkflow-\/>\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_aaf145866535c0773a9ba3524b1f65743}{EvaluateAtGivenTimeIndex}}(0,\ err);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(fieldsContainer.size(),\ 1);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{ansys::dpf::Field}}\ field\ =\ fieldsContainer[0];}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ std::vector<\ double\ >\ fieldData;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a3acedce4650d3f5671aa1dec3bba92ad}{getData}}(fieldData);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keyword}{auto}\ fd\_size\ =\ fieldData.size();}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(fd\_size,\ 661);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_NEAR(fieldData.at(0),\ -\/1.0752,\ 1e-\/4);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_NEAR(fieldData.at(300),\ 4.9963,\ 1e-\/4);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_NEAR(fieldData.at(660),\ 993.8184,\ 1e-\/4);}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Model}{ansys::dpf::Model}}\ dpfModel(ds);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ std::string\ resultOperator\ =\ \textcolor{stringliteral}{"{}RFY"{}};}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keyword}{auto}\ mesh\ =\ dpfModel.getMesh(0);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{ansys::dpf::Scoping}}\ scoping\ =\ mesh.nodeScoping();}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keyword}{auto}\ location\ =\ scoping.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping_a516b4489a94ff02ecc880f170b8f93a9}{location}}();}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{ansys::dpf::Result}}\ res\ =\ dpfModel.CreateResultEvaluationWorkflow(resultOperator.c\_str(),\ scoping,\ location);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{ansys::dpf::Result}}*\ resultWorkflow\ =\ \&res;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{ansys::dpf::DpfError}}\ err;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{ansys::dpf::FieldsContainer}}\ fieldsContainer\ =\ resultWorkflow-\/>\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_aaf145866535c0773a9ba3524b1f65743}{EvaluateAtGivenTimeIndex}}(0,\ err);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(fieldsContainer.size(),\ 1);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{ansys::dpf::Field}}\ field\ =\ fieldsContainer[0];}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ std::vector<\ double\ >\ fieldData;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a3acedce4650d3f5671aa1dec3bba92ad}{getData}}(fieldData);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keyword}{auto}\ fd\_size\ =\ fieldData.size();}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(fd\_size,\ 661);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_NEAR(fieldData.at(0),\ 2.5108,\ 1e-\/4);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_NEAR(fieldData.at(300),\ 0,\ 1e-\/4);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_NEAR(fieldData.at(660),\ 0,\ 1e-\/4);}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Model}{ansys::dpf::Model}}\ dpfModel(ds);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ std::string\ resultOperator\ =\ \textcolor{stringliteral}{"{}RFZ"{}};}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keyword}{auto}\ mesh\ =\ dpfModel.getMesh(0);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{ansys::dpf::Scoping}}\ scoping\ =\ mesh.nodeScoping();}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keyword}{auto}\ location\ =\ scoping.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping_a516b4489a94ff02ecc880f170b8f93a9}{location}}();}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{ansys::dpf::Result}}\ res\ =\ dpfModel.CreateResultEvaluationWorkflow(resultOperator.c\_str(),\ scoping,\ location);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{ansys::dpf::Result}}*\ resultWorkflow\ =\ \&res;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{ansys::dpf::DpfError}}\ err;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{ansys::dpf::FieldsContainer}}\ fieldsContainer\ =\ resultWorkflow-\/>\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_aaf145866535c0773a9ba3524b1f65743}{EvaluateAtGivenTimeIndex}}(0,\ err);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(fieldsContainer.size(),\ 1);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{ansys::dpf::Field}}\ field\ =\ fieldsContainer[0];}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ std::vector<\ double\ >\ fieldData;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a3acedce4650d3f5671aa1dec3bba92ad}{getData}}(fieldData);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keyword}{auto}\ fd\_size\ =\ fieldData.size();}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_EQ(fd\_size,\ 661);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_NEAR(fieldData.at(0),\ -\/0.0879,\ 1e-\/4);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_NEAR(fieldData.at(300),\ -\/2.1119,\ 1e-\/4);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ EXPECT\_NEAR(fieldData.at(660),\ -\/130.1577,\ 1e-\/4);}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{}
+\DoxyCodeLine{TEST(Results,\ readSEQVWithPhaseAtGivenTimeIndex)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ std::string\ fileName(\textcolor{stringliteral}{"{}../../../testfiles/complex/filetheo.rst"{}});}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Model}{ansys::dpf::Model}}\ model(fileName);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{Result}}\ res\ =\ model.CreateResultEvaluationWorkflow(\textcolor{stringliteral}{"{}S\_eqv"{}},\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}}(\{\ 1\ \},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{ansys::dpf::locations::nodal}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\_int}}\ size;}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ theta\ is\ in\ degrees}}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{const}\ \doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\_double}}\ theta\ =\ 22.5;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{ansys::dpf::DpfError}}\ error;}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ amplitudeFieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_ae1d940c0f56673f96d91716dc736d17f}{EvaluateWithPhaseAtGivenTimeIndex}}(0,\ theta,\ error);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(amplitudeFieldsContainer.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ amplitudeField\ =\ amplitudeFieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_addfee935e69fe9fb9e0e533449f9a5bc}{at}}(0);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(amplitudeField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 3);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\_double}}\ amplitudeValue\ =\ amplitudeField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[1];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(amplitudeValue,\ 14733.327201633281);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ now\ get\ the\ real\ and\ imaginary\ separately}}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ fieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_aaf145866535c0773a9ba3524b1f65743}{EvaluateAtGivenTimeIndex}}(0,\ error);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(fieldsContainer.size(),\ 2);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_TRUE(fieldsContainer.hasLabel(\textcolor{stringliteral}{"{}complex"{}}));}
+\DoxyCodeLine{\ \ \ \ EXPECT\_TRUE(fieldsContainer.hasLabel(\textcolor{stringliteral}{"{}time"{}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::vector<Field>\ realFields\ =\ fieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a45536132d19f7a61af3ff18e660ad8de}{getFieldsForTimeId}}(1,\ 0);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(realFields.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ realField\ =\ realFields.at(0);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(realField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 3);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\_double}}\ realValue\ =\ realField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[1];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(realValue,\ 15953.009290308262);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::vector<Field>\ imaginaryFields\ =\ fieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a45536132d19f7a61af3ff18e660ad8de}{getFieldsForTimeId}}(1,\ 1);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(imaginaryFields.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ imaginaryField\ =\ imaginaryFields[0];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(imaginaryField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 3);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\_double}}\ imaginaryValue\ =\ imaginaryField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[1];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(imaginaryValue,\ 13.932047206695039);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordtype}{double}\ thetaR\ =\ theta\ /\ 180.0\ *\ 3.14159265358979323846;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ and\ compare\ them}}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\_double}}\ expectedValue\ =\ realValue\ *\ cos(thetaR)\ -\/\ imaginaryValue\ *\ sin(thetaR);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(amplitudeValue,\ expectedValue);}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{}
+\DoxyCodeLine{TEST(Results,\ readSEQVWithPhaseAtGivenStepIndexAndSubStep)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ std::string\ fileName(\textcolor{stringliteral}{"{}../../../testfiles/complex/filetheo.rst"{}});}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Model}{ansys::dpf::Model}}\ model(fileName);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport}{TimeFreqSupport}}\ timeFreq\ =\ model.getTimeFreqSupport();}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ numSets\ =\ timeFreq.\doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a87c577de73b5ba2260cf3f940ac43068}{numberOfSets}}();}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(numSets,\ 10);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ numSteps\ =\ timeFreq.\doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a6b3cc037c0283450ac0234dadeddd1b6}{numberOfSteps}}();}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(numSteps,\ 1);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{auto}\ numSubSteps\ =\ timeFreq.\doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a4333cdbfac1c49f802a9c33a18970ed5}{numberOfSubStepsByStepIndex}}(0);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(numSubSteps,\ 10);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Result}{Result}}\ res\ =\ model.CreateResultEvaluationWorkflow(\textcolor{stringliteral}{"{}S\_eqv"{}},\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}}(\{\ 1\ \},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{ansys::dpf::locations::nodal}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\_int}}\ size;}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ theta\ is\ in\ degrees}}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{const}\ \doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\_double}}\ theta\ =\ 67.5;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfError}{ansys::dpf::DpfError}}\ error;}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ amplitudeFieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_a75a2c05527109af736a19ca1156d85a2}{EvaluateWithPhaseAtGivenStepIndexAndSubStep}}(0,\ 9,\ theta,\ error);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(amplitudeFieldsContainer.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ amplitudeField\ =\ amplitudeFieldsContainer[0];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(amplitudeField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 3);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\_double}}\ amplitudeValue\ =\ amplitudeField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[0];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(amplitudeValue,\ 1843.7635181923936);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ now\ get\ the\ real\ and\ imaginary\ separately\ idx0,idx9=id10}}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{FieldsContainer}}\ fieldsContainer\ =\ res.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Result_af60979c0660e293e0eff722767939814}{EvaluateAtGivenStepIndexAndSubStep}}(0,\ 9,\ error);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(fieldsContainer.size(),\ 2);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_TRUE(fieldsContainer.hasLabel(\textcolor{stringliteral}{"{}complex"{}}));}
+\DoxyCodeLine{\ \ \ \ EXPECT\_TRUE(fieldsContainer.hasLabel(\textcolor{stringliteral}{"{}time"{}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::vector<Field>\ realFields\ =\ fieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a45536132d19f7a61af3ff18e660ad8de}{getFieldsForTimeId}}(10,\ 0);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(realFields.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ realField\ =\ realFields.at(0);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(realField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 3);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\_double}}\ realValue\ =\ realField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[0];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(realValue,\ 4823.4491029746168);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::vector<Field>\ imaginaryFields\ =\ fieldsContainer.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a45536132d19f7a61af3ff18e660ad8de}{getFieldsForTimeId}}(10,\ 1);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(imaginaryFields.size(),\ 1);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}}\ imaginaryField\ =\ imaginaryFields[0];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_EQ(imaginaryField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}(),\ 3);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\_double}}\ imaginaryValue\ =\ imaginaryField.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}(size)[0];}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(imaginaryValue,\ 2.262784593315458);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordtype}{double}\ thetaR\ =\ theta\ /\ 180.0\ *\ 3.14159265358979323846;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ and\ compare\ them}}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\_double}}\ expectedValue\ =\ realValue\ *\ cos(thetaR)\ -\/\ imaginaryValue\ *\ sin(thetaR);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_DOUBLE\_EQ(amplitudeValue,\ expectedValue);}
+\DoxyCodeLine{\}}
+
+\end{DoxyCodeInclude}
+ 

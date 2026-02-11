@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>DPF API Documentation</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The DPF API contains methods for utilizing DPF. <htmlonly block="yes"> &lt;iframe width=&quot;100%&quot; height=&quot;100%&quot; style=&quot;overflow:hidden;&quot; src=&quot;dataProcessingDoc.html&quot;&gt;&lt;/iframe&gt;
+/// </htmlonly> </para>
+    </detaileddescription>
+    <location file="dpf_api.h"/>
+  </compounddef>
+</doxygen>

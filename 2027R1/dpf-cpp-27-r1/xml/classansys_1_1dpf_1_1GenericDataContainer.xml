@@ -1,0 +1,695 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1GenericDataContainer" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::GenericDataContainer</compoundname>
+    <basecompoundref refid="classansys_1_1dpf_1_1DpfTypes" prot="public" virt="non-virtual">ansys::dpf::DpfTypes</basecompoundref>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1GenericDataContainer_1a33ff3f826991522d2e77c1c523f33e19" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Operator</definition>
+        <argsstring></argsstring>
+        <name>Operator</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::Operator</qualifiedname>
+        <param>
+          <type>Operator</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3746" column="14" bodyfile="dpf_api.h" bodystart="3746" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1GenericDataContainer_1a81d95df60edf516a1de9878b780f8fb3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class OperatorMain</definition>
+        <argsstring></argsstring>
+        <name>OperatorMain</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::OperatorMain</qualifiedname>
+        <param>
+          <type>OperatorMain</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3747" column="14" bodyfile="dpf_api.h" bodystart="3747" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1GenericDataContainer_1a9820c685b67a3355c042bb0b3365d9e2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Any</definition>
+        <argsstring></argsstring>
+        <name>Any</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::Any</qualifiedname>
+        <param>
+          <type>Any</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3748" column="14" bodyfile="dpf_api.h" bodystart="3748" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1GenericDataContainer_1afa07847c7cb432b260e61a0c18025ba3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Workflow</definition>
+        <argsstring></argsstring>
+        <name>Workflow</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::Workflow</qualifiedname>
+        <param>
+          <type>Workflow</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3749" column="14" bodyfile="dpf_api.h" bodystart="3749" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1GenericDataContainer_1ae20c0436218f3c6589bf9e77a538259b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Changelog</definition>
+        <argsstring></argsstring>
+        <name>Changelog</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::Changelog</qualifiedname>
+        <param>
+          <type>Changelog</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3750" column="14" bodyfile="dpf_api.h" bodystart="3750" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1GenericDataContainer_1aa60b6022465bcd46362295cc53d4ba68" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class OperatorSpecification</definition>
+        <argsstring></argsstring>
+        <name>OperatorSpecification</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::OperatorSpecification</qualifiedname>
+        <param>
+          <type>OperatorSpecification</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3751" column="14" bodyfile="dpf_api.h" bodystart="3751" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1GenericDataContainer_1a17e81b7d4f7325d912e600690cb4e715" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class CustomContainerBase</definition>
+        <argsstring></argsstring>
+        <name>CustomContainerBase</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::CustomContainerBase</qualifiedname>
+        <param>
+          <type>CustomContainerBase</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3752" column="14" bodyfile="dpf_api.h" bodystart="3752" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1GenericDataContainer_1af891ea2ca8eebe3679e051763ba989ce" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class CollectionBase</definition>
+        <argsstring></argsstring>
+        <name>CollectionBase</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::CollectionBase</qualifiedname>
+        <param>
+          <type>CollectionBase</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3753" column="14" bodyfile="dpf_api.h" bodystart="3753" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1GenericDataContainer_1ab2e4916b9d046a72d197238993a71433" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename isBaseOfDpfTypes</type>
+          </param>
+          <param>
+            <type>typename isBaseOfCustomContainerBase</type>
+          </param>
+        </templateparamlist>
+        <type>struct</type>
+        <definition>friend struct internal::set_prop</definition>
+        <argsstring></argsstring>
+        <name>internal::set_prop</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::set_prop</qualifiedname>
+        <param>
+          <type>internal::set_prop</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3755" column="15" bodyfile="dpf_api.h" bodystart="3755" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1GenericDataContainer_1af764561c544bacc1b90b526ee8d3c708" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class core</definition>
+        <argsstring></argsstring>
+        <name>core</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::core</qualifiedname>
+        <param>
+          <type>core</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3756" column="14" bodyfile="dpf_api.h" bodystart="3756" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericDataContainer_1ab2d68cadf7c4ee3502154973176b7ecf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::GenericDataContainer::GenericDataContainer</definition>
+        <argsstring>(opaque::DpfInternalSharedObject *)</argsstring>
+        <name>GenericDataContainer</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::GenericDataContainer</qualifiedname>
+        <param>
+          <type>opaque::DpfInternalSharedObject *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3758" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericDataContainer_1a9c9212e22c4d4c06f8c448b7e83f763b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::GenericDataContainer::opaqueSetProperty</definition>
+        <argsstring>(const std::string &amp;property_name, opaque::DpfObject *property, DpfError &amp;error)</argsstring>
+        <name>opaqueSetProperty</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::opaqueSetProperty</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>property_name</declname>
+        </param>
+        <param>
+          <type>opaque::DpfObject *</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">DpfError</ref> &amp;</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3803" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericDataContainer_1a989703b663a32e49c9d432c63d233c85" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void ansys::dpf::GenericDataContainer::setPropertyIntegral</definition>
+        <argsstring>(const std::string &amp;property_name, const T &amp;property)</argsstring>
+        <name>setPropertyIntegral</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::setPropertyIntegral</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>property_name</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3806" column="6" bodyfile="dpf_api.h" bodystart="3836" bodyend="3839"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericDataContainer_1a5c092e1dad61106510e56d0c2917d6a1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Any</type>
+        <definition>Any ansys::dpf::GenericDataContainer::makeAny</definition>
+        <argsstring>(const T &amp;property)</argsstring>
+        <name>makeAny</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::makeAny</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3808" column="12" bodyfile="dpf_api.h" bodystart="3808" bodyend="3815"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericDataContainer_1a05408240eeaa8b33a4b7b28d33fd64c1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void ansys::dpf::GenericDataContainer::internalSetProperty</definition>
+        <argsstring>(const std::string &amp;property_name, const T &amp;property)</argsstring>
+        <name>internalSetProperty</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::internalSetProperty</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>property_name</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3818" column="6" bodyfile="dpf_api.h" bodystart="3818" bodyend="3827"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericDataContainer_1a842c796209ed3d9b975894c6d2e18a3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ansys::dpf::GenericDataContainer::~GenericDataContainer</definition>
+        <argsstring>()=default</argsstring>
+        <name>~GenericDataContainer</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::~GenericDataContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3761" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericDataContainer_1a8f809e3503a06710a076825a1c331740" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::GenericDataContainer::GenericDataContainer</definition>
+        <argsstring>()</argsstring>
+        <name>GenericDataContainer</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::GenericDataContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3762" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericDataContainer_1afce6ef073ac2fc60ddb7cef7aef1eec5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::GenericDataContainer::GenericDataContainer</definition>
+        <argsstring>(int id, Client const *const client)</argsstring>
+        <name>GenericDataContainer</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::GenericDataContainer</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+          <briefdescription><para>[in] Id of the GenericDataContainer object on the server&apos;s database. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> const *const</type>
+          <declname>client</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> instance designating the IP, port and protocol to use. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieve an existing instance of GenericDataContainer on a server. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3764" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericDataContainer_1a933dd62982781ee2643cbf120aa455f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::GenericDataContainer::GenericDataContainer</definition>
+        <argsstring>(Client const *const client)</argsstring>
+        <name>GenericDataContainer</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::GenericDataContainer</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> const *const</type>
+          <declname>client</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> instance designating the IP, port and protocol to use. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3767" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericDataContainer_1aa21e7758ec9efc6d257e7d2db76035ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::GenericDataContainer::GenericDataContainer</definition>
+        <argsstring>(GenericDataContainer const &amp;)</argsstring>
+        <name>GenericDataContainer</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::GenericDataContainer</qualifiedname>
+        <param>
+          <type>GenericDataContainer const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3769" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericDataContainer_1a852bd420e544d60c570e427725400d8d" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::GenericDataContainer::GenericDataContainer</definition>
+        <argsstring>(GenericDataContainer &amp;&amp;) noexcept</argsstring>
+        <name>GenericDataContainer</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::GenericDataContainer</qualifiedname>
+        <param>
+          <type>GenericDataContainer &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3770" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericDataContainer_1a1f5664d7fdb211b1760ca82e4f0c3481" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>GenericDataContainer &amp;</type>
+        <definition>GenericDataContainer &amp; ansys::dpf::GenericDataContainer::operator=</definition>
+        <argsstring>(GenericDataContainer const &amp;)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::operator=</qualifiedname>
+        <param>
+          <type>GenericDataContainer const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3771" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericDataContainer_1ad0bf774a3dddbe73e04976818d403fa2" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>GenericDataContainer &amp;</type>
+        <definition>GenericDataContainer &amp; ansys::dpf::GenericDataContainer::operator=</definition>
+        <argsstring>(GenericDataContainer &amp;&amp;) noexcept</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::operator=</qualifiedname>
+        <param>
+          <type>GenericDataContainer &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3772" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericDataContainer_1ada189eba34c9cd3ecb8e667f0cfbbcf4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; ansys::dpf::GenericDataContainer::getPropertyNames</definition>
+        <argsstring>() const</argsstring>
+        <name>getPropertyNames</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::getPropertyNames</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>property names as a vector of string considering the properties set in the file </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3775" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericDataContainer_1ace0470f9a8f297bbd3f1d12620f76500" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T ansys::dpf::GenericDataContainer::getProperty</definition>
+        <argsstring>(const std::string &amp;property_name) const</argsstring>
+        <name>getProperty</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::getProperty</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>property_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>property associated to given property name </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>if</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the property doesn&apos;t exist. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3780" column="3" bodyfile="dpf_api.h" bodystart="3832" bodyend="3834"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericDataContainer_1a0a3b3f1c37f9425fd2d335d9a4e52e14" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename CustomContainerT</type>
+          </param>
+        </templateparamlist>
+        <type>CustomContainerT</type>
+        <definition>CustomContainerT ansys::dpf::GenericDataContainer::getCustomContainerProperty</definition>
+        <argsstring>(const std::string &amp;property_name) const</argsstring>
+        <name>getCustomContainerProperty</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::getCustomContainerProperty</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>property_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>property of type deriving from CustomContainerBase associated to given property name </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3784" column="18" bodyfile="dpf_api.h" bodystart="3784" bodyend="3787"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericDataContainer_1ae8266244834854d4bbc7e0c95b5e253e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>GenericDataContainer const &amp;</type>
+        <definition>GenericDataContainer const  &amp; ansys::dpf::GenericDataContainer::container</definition>
+        <argsstring>() const</argsstring>
+        <name>container</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::container</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3789" column="28" bodyfile="dpf_api.h" bodystart="3789" bodyend="3789"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericDataContainer_1ae9feb6c42b98ceb8f7371c3cb6c3d601" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void ansys::dpf::GenericDataContainer::setProperty</definition>
+        <argsstring>(const std::string &amp;property_name, const T &amp;property)</argsstring>
+        <name>setProperty</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::setProperty</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>property_name</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set property with given property name </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3793" column="6" bodyfile="dpf_api.h" bodystart="3793" bodyend="3793"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericDataContainer_1a901007643a851b2e028800f82c2dea21" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Any</type>
+        <definition>Any ansys::dpf::GenericDataContainer::getPropertyAny</definition>
+        <argsstring>(const std::string &amp;property_name) const</argsstring>
+        <name>getPropertyAny</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::getPropertyAny</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>property_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3799" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericDataContainer_1a772dc4122f531c8a3944411b55e232a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::GenericDataContainer::setPropertyAny</definition>
+        <argsstring>(const std::string &amp;property_name, const Any &amp;property)</argsstring>
+        <name>setPropertyAny</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::setPropertyAny</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>property_name</declname>
+        </param>
+        <param>
+          <type>const Any &amp;</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3800" column="6"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericDataContainer_1a522b957635dffa828ea90ac8c905a007" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>GenericDataContainer</type>
+        <definition>static GenericDataContainer ansys::dpf::GenericDataContainer::emptyGenericDataContainer</definition>
+        <argsstring>()</argsstring>
+        <name>emptyGenericDataContainer</name>
+        <qualifiedname>ansys::dpf::GenericDataContainer::emptyGenericDataContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates an empty GenericDataContainer. <simplesect kind="return"><para>Empty GenericDataContainer. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3797" column="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ansys::dpf::DpfTypes</label>
+        <link refid="classansys_1_1dpf_1_1DpfTypes"/>
+      </node>
+      <node id="1">
+        <label>ansys::dpf::GenericDataContainer</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ansys::dpf::DpfTypes</label>
+        <link refid="classansys_1_1dpf_1_1DpfTypes"/>
+      </node>
+      <node id="1">
+        <label>ansys::dpf::GenericDataContainer</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="dpf_api.h" line="3744" column="1" bodyfile="dpf_api.h" bodystart="3744" bodyend="3829"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1aea34d37e0c080126eff70db34bf46597" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>callAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericDataContainer_1ae8266244834854d4bbc7e0c95b5e253e" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>container</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9977945710983bc03d2940fa007847b2" prot="public" virt="virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>describe</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459" prot="public" virt="virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>empty</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericDataContainer_1a522b957635dffa828ea90ac8c905a007" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>emptyGenericDataContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericDataContainer_1ab2d68cadf7c4ee3502154973176b7ecf" prot="private" virt="non-virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>GenericDataContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericDataContainer_1a8f809e3503a06710a076825a1c331740" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>GenericDataContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericDataContainer_1afce6ef073ac2fc60ddb7cef7aef1eec5" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>GenericDataContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericDataContainer_1a933dd62982781ee2643cbf120aa455f3" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>GenericDataContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericDataContainer_1aa21e7758ec9efc6d257e7d2db76035ef" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>GenericDataContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericDataContainer_1a852bd420e544d60c570e427725400d8d" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>GenericDataContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a968afd9daa0b0f13b65a2ac61369d73a" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>getClient</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericDataContainer_1a0a3b3f1c37f9425fd2d335d9a4e52e14" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>getCustomContainerProperty</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericDataContainer_1ace0470f9a8f297bbd3f1d12620f76500" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>getProperty</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericDataContainer_1a901007643a851b2e028800f82c2dea21" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>getPropertyAny</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericDataContainer_1ada189eba34c9cd3ecb8e667f0cfbbcf4" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>getPropertyNames</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a1a5634202c15404b6b24e8f50e51cb66" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>hasBeenMovedLocally</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ae198f89868d85c7db6dc1a934a1d3c15" prot="public" virt="virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>hasInternalObject</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericDataContainer_1a05408240eeaa8b33a4b7b28d33fd64c1" prot="private" virt="non-virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>internalSetProperty</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9f9789ff61cc9d400a2a344830706b73" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>isOnCommonAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1aa64d5f8fcd7d85ad6ebf708494dbefd7" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>isSameObject</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericDataContainer_1a5c092e1dad61106510e56d0c2917d6a1" prot="private" virt="non-virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>makeAny</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericDataContainer_1a9c9212e22c4d4c06f8c448b7e83f763b" prot="private" virt="non-virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>opaqueSetProperty</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericDataContainer_1a1f5664d7fdb211b1760ca82e4f0c3481" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericDataContainer_1ad0bf774a3dddbe73e04976818d403fa2" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericDataContainer_1ae9feb6c42b98ceb8f7371c3cb6c3d601" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>setProperty</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericDataContainer_1a772dc4122f531c8a3944411b55e232a3" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>setPropertyAny</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericDataContainer_1a989703b663a32e49c9d432c63d233c85" prot="private" virt="non-virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>setPropertyIntegral</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ab7c83b6ea160c2b115e056f6c312112f" prot="public" virt="virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>~DpfTypes</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericDataContainer_1a842c796209ed3d9b975894c6d2e18a3c" prot="public" virt="virtual"><scope>ansys::dpf::GenericDataContainer</scope><name>~GenericDataContainer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

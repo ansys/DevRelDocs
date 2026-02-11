@@ -1,0 +1,137 @@
+\doxysubsection{Using DPF XML Files }
+\hypertarget{group__group__07}{}\label{group__group__07}\index{Using DPF XML Files@{Using DPF XML Files}}
+This section describes the XML files associated with Data\+Processing\+Core and DPF plugins. These DPF files work on both Windows and Linux operating systems. The files can contain content for both operating systems.
+
+The XML files must be located alongside the plugin DLL files on Windows, or SO files on Linux.\hypertarget{group__group__07_autotoc_md65}{}\doxysubsubsubsection{\texorpdfstring{Data\+Processing\+Core File}{Data\+Processing\+Core File}}\label{group__group__07_autotoc_md65}
+The content and format of the Data\+Processing\+Core.\+xml file is as follows:\+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{<?xml\ version="{}1.0"{}?>\ }
+\DoxyCodeLine{<DPF\ version="{}1.0"{}>\ }
+\DoxyCodeLine{\ \ \ \ <Environment>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ <Linux>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ <ANSYS\_ROOT\_FOLDER>/usr/local/ansys\_inc/v271</ANSYS\_ROOT\_FOLDER>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ </Linux>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ <Windows>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ <ANSYS\_ROOT\_FOLDER>E:\(\backslash\)ANSYSDev\(\backslash\)ANSYS\ Inc\(\backslash\)v271</ANSYS\_ROOT\_FOLDER>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ </Windows>\ }
+\DoxyCodeLine{\ \ \ \ </Environment>\ }
+\DoxyCodeLine{\ \ \ \ <DefaultPlugins>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ <Linux>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ <native>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <Path>libAns.Dpf.Native.so</Path>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <Loader>LoadOperators</Loader>\ \ \ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <UsePluginXml>false</UsePluginXml>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ </native>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ </Linux>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ <Windows>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ <Debug>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <native>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <Path>\$(THIS\_XML\_FOLDER)\(\backslash\)Ans.Dpf.NativeD.dll</Path>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <Loader>LoadOperators</Loader>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ </native>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ </Debug>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ <Release>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <native>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <Path>Ans.Dpf.Native.dll</Path>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <Loader>LoadOperators</Loader>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ </native>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <fem\_utils>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <Path>\$(THIS\_XML\_FOLDER)\(\backslash\)Ans.Dpf.FEMUtils.dll</Path>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <Loader>LoadOperators</Loader>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <UsePluginXml>true</UsePluginXml>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ </fem\_utils>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ </Release>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ </Windows>\ }
+\DoxyCodeLine{\ \ \ \ </DefaultPlugins>\ }
+\DoxyCodeLine{\ \ \ \ <SearchPath>}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ <Linux>}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ <Path>\$(ANSYS\_ROOT\_FOLDER)/dpf/bin/linx64</Path>}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ </Linux>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ <Windows>}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ <Debug>}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <Path>\$(ANSYS\_ROOT\_FOLDER)\(\backslash\)dpf\(\backslash\)bin\(\backslash\)winx64</Path>}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ </Debug>}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ <Release>}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <Path>\$(ANSYS\_ROOT\_FOLDER)\(\backslash\)dpf\(\backslash\)bin\(\backslash\)winx64</Path>}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ </Release>}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ </Windows>}
+\DoxyCodeLine{\ \ \ \ </SearchPath>}
+\DoxyCodeLine{\ \ \ \ <LicenseSettings>}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ <EnableLicenseCheckout>true}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ </EnableLicenseCheckout>}
+\DoxyCodeLine{\ \ \ \ </LicenseSettings>}
+\DoxyCodeLine{</DPF>\ }
+
+\end{DoxyCode}
+
+
+The Data\+Processing\+Core.\+xml file is provided with the DPF software. Modify the file carefully to ensure that the DPF software operates correctly.
+
+Some of the sections in the file are optional, and many of the sections have Windows and Linux specific subsections.
+
+The {\ttfamily \texorpdfstring{$<$}{<}Environment\texorpdfstring{$>$}{>}} section is used only for defining the ROOT folder of the Ansys software. This is done with an {\ttfamily \texorpdfstring{$<$}{<}ANSYS\+\_\+\+ROOT\+\_\+\+FOLDER\texorpdfstring{$>$}{>}} tag. The root folder of the Ansys software ends with the v\#\#\# folder. It could be something like C:\+\textbackslash{}ansys\+\_\+inc\textbackslash{}v@doc\+\_\+ansys\+\_\+ver. The ANSYS\+\_\+\+ROOT\+\_\+\+FOLDER tag defines a variable that can be used in the other XML files. You might use it to find required third party software.
+
+If the ANSYS\+\_\+\+ROOT\+\_\+\+FOLDER tag is not defined in the {\ttfamily \texorpdfstring{$<$}{<}Environment\texorpdfstring{$>$}{>}} section within the Data\+Processing.\+xml file, the code attempts to find the root folder relative to the Data\+Processing\+Core DLL or SO file. This only works if the Data\+Processing\+Core file is located in its default location.
+
+If the ANSYS\+\_\+\+ROOT\+\_\+\+FOLDER tag is still not defined, the root folder is determined by reading the AWP\+\_\+\+ROOT\#\#\# environment variable specific to the version of the DPF code. For example, if you are using V@doc\+\_\+ansys\+\_\+ver DPF code, it looks for the AWP\+\_\+\+ROOT@doc\+\_\+ansys\+\_\+ver environment variable to find the root folder.
+
+ANSYS\+\_\+\+ROOT\+\_\+\+FOLDER is not an environment variable and can not be set accordingly.
+
+The {\ttfamily \texorpdfstring{$<$}{<}Load\+Operators\texorpdfstring{$>$}{>}} section is used for loading the default plugins. The further subdividing of the plugins into {\ttfamily \texorpdfstring{$<$}{<}Debug\texorpdfstring{$>$}{>}} or {\ttfamily \texorpdfstring{$<$}{<}Release\texorpdfstring{$>$}{>}} sections is optional. The {\ttfamily \texorpdfstring{$<$}{<}Debug\texorpdfstring{$>$}{>}} section would only be used with a debug version of the Data\+Processing\+Core DLL/\+\+SO file.
+
+The plugins to load are defined within their own section that is named by a tag like {\ttfamily \texorpdfstring{$<$}{<}native\texorpdfstring{$>$}{>}} or {\ttfamily \texorpdfstring{$<$}{<}fem\+\_\+utils\texorpdfstring{$>$}{>}}. This tag is used as the {\itshape Key} when loading the plugin. Each plugin must have a unique key.
+
+Within the Key section are two tags that define the location of the plugin and the method of loading. The location is defined by the {\ttfamily \texorpdfstring{$<$}{<}Path\texorpdfstring{$>$}{>}} tag and the loading method is defined by the {\ttfamily \texorpdfstring{$<$}{<}Loader\texorpdfstring{$>$}{>}} tag. These are used as arguments to the loading plugin mechanism.
+
+Currently, only {\itshape Load\+Operators} is supported for the {\ttfamily \texorpdfstring{$<$}{<}Loader\texorpdfstring{$>$}{>}} tag. This loads all operators within the plugin.
+
+The {\ttfamily \texorpdfstring{$<$}{<}Path\texorpdfstring{$>$}{>}} tag contains the location of the plugin to load. The normal mechanism that the OS uses to find a DLL/\+\+SO is used. The DLL could be in the Windows path, or the SO could be within the Linux LD\+\_\+\+LIBRARY\+\_\+\+PATH.
+
+The {\ttfamily \texorpdfstring{$<$}{<}Use\+Plugin\+Xml\texorpdfstring{$>$}{>}} tag contains a value that must be set to {\itshape true} or {\itshape false}. It defines if the PLUGIN.\+XML file (defined in next section) will be used to load the plugin or not. This tag is optional. The default value is {\itshape true}.
+
+Any path specified with the XML file must adhere to the path conventions of the OS. “\textbackslash{}” for Windows and “/\+” for Linux.
+
+Two pre-\/defined variables can be used to provide an absolute path to the plugin:\+
+
+
+\begin{DoxyItemize}
+\item ANSYS\+\_\+\+ROOT\+\_\+\+FOLDER as defined above.
+\item THIS\+\_\+\+XML\+\_\+\+FOLDER defining the location of where the current XML file is located. In this case Data\+Processing\+Core.\+xml.
+\end{DoxyItemize}
+
+Any other environment variable could be used. If you always had your plugins in a folder defined by the environment variable MY\+\_\+\+PLUGINS, you could use that in the XML file.
+
+The environment variables are specified the same way as ANSYS\+\_\+\+ROOT\+\_\+\+FOLDER or THIS\+\_\+\+XML\+\_\+\+FOLDER. They are defined as .
+
+In the Ansys installation, the default Data\+Processing\+Core.\+xml file is located next to the Data\+Processing\+Core DLL/\+\+SO file. If you want to use a different one, you can initialize DPF using a specific Data\+Processing\+Core.\+xml file. ~\newline
+
+
+The {\ttfamily \texorpdfstring{$<$}{<}Search\+Path\texorpdfstring{$>$}{>}} enables to set a PATH where DPF will try to load plugins ni case they are not found using the system PATH.
+
+The {\ttfamily \texorpdfstring{$<$}{<}License\+Settings\texorpdfstring{$>$}{>}} contains specific licensing setup. {\ttfamily \texorpdfstring{$<$}{<}Enable\+License\+Checkout\texorpdfstring{$>$}{>}} tag set to false will prevent DPF to checkout any license. That implies plugins that need a license checkout won\textquotesingle{}t be loaded. License checkout can also be prevented set DPF\+\_\+\+ENABLE\+\_\+\+LICENSE\+\_\+\+CHECKOUT environment variable to false.\hypertarget{group__group__07_autotoc_md66}{}\doxysubsubsubsection{\texorpdfstring{PLUGIN.\+XML File}{PLUGIN.\+XML File}}\label{group__group__07_autotoc_md66}
+The content and format of the Plugin.\+xml file is as follows:\+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{<?xml\ version="{}1.0"{}?>\ }
+\DoxyCodeLine{<DPF\ version="{}1.0"{}>\ }
+\DoxyCodeLine{\ \ \ \ <Environment>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ <Linux>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ <LD\_LIBRARY\_PATH>\$(ANSYS\_ROOT\_FOLDER)/dpf/bin/linx64:\$(ANSYS\_ROOT\_FOLDER)/aisol/dll/linx64:\$(ANSYS\_ROOT\_FOLDER)/aisol/lib/linx64:\$(ANSYS\_ROOT\_FOLDER)/tp/IntelMKL/2024.2.0/linx64/lib/intel64:\$(LD\_LIBRARY\_PATH)</LD\_LIBRARY\_PATH>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ </Linux>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ <Windows>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ <MY\_FOLDER>c:\(\backslash\)temp</MY\_FOLDER>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ <PATH>\$(ANSYS\_ROOT\_FOLDER)\(\backslash\)dpf\(\backslash\)bin\(\backslash\)winx64;\$(ANSYS\_ROOT\_FOLDER)\(\backslash\)aisol\(\backslash\)bin\(\backslash\)winx64;\$(ANSYS\_ROOT\_FOLDER)\(\backslash\)tp\(\backslash\)IntelMKL\(\backslash\)2024.2.3\(\backslash\)winx64;\$(ANSYS\_ROOT\_FOLDER)\(\backslash\)tp\(\backslash\)IntelCompiler\(\backslash\)2023.1.0\(\backslash\)winx64;\$(MY\_FOLDER);\$(PATH)</PATH>\ }
+\DoxyCodeLine{\ \ \ \ \ \ \ \ </Windows>\ }
+\DoxyCodeLine{\ \ \ \ </Environment>\ }
+\DoxyCodeLine{</DPF>\ }
+
+\end{DoxyCode}
+
+
+This file allows for a specific environment to be configured for loading a plugin. The {\ttfamily \texorpdfstring{$<$}{<}Environment\texorpdfstring{$>$}{>}} section within the plugin-\/specific XML file is defined the same way as the Data\+Processing\+Core.\+xml file. ~\newline
+
+
+Any environment variables defined or used have the values at the time they are defined or used. You can effectively define a variable multiple times and keep appending it. 

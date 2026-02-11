@@ -1,0 +1,278 @@
+\doxysection{ansys::\+dpf::\+Meshes\+Container Class Reference}
+\hypertarget{classansys_1_1dpf_1_1MeshesContainer}{}\label{classansys_1_1dpf_1_1MeshesContainer}\index{ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}}
+
+
+{\ttfamily \+\#include $<$dpf\+\_\+api.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classansys_1_1dpf_1_1MeshesContainer_ab5d10a6e0af1de794c5dd5ff5274a56c}\label{classansys_1_1dpf_1_1MeshesContainer_ab5d10a6e0af1de794c5dd5ff5274a56c} 
+{\bfseries Meshes\+Container} (Meshes\+Container const \&)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1MeshesContainer_a1950bf0757d24a5441b3b0326454ab6e}\label{classansys_1_1dpf_1_1MeshesContainer_a1950bf0757d24a5441b3b0326454ab6e} 
+{\bfseries Meshes\+Container} (Meshes\+Container \&\&) noexcept
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshesContainer_aa4c802341a32f409bface24c08750256}{Meshes\+Container}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshesContainer_a0ac20f2c12dfe98d977cb6bb5c7a85fa}{Meshes\+Container}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client, std::\+vector$<$ std::\+string $>$ const \&labels)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshesContainer_abb7d8aa6a81104550acd750be0341d52}{Meshes\+Container}} (int id, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshesContainer_ad5852e1110c3ac20a9e139a68a54bff4}{Meshes\+Container}} (std::\+vector$<$ std::\+string $>$ const \&labels)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1MeshesContainer_afe5811d03325be342ac58977d37ab0d0}\label{classansys_1_1dpf_1_1MeshesContainer_afe5811d03325be342ac58977d37ab0d0} 
+Meshes\+Container \& {\bfseries operator=} (Meshes\+Container const \&)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1MeshesContainer_a64a2fe24398371036df24ec2b5b26027}\label{classansys_1_1dpf_1_1MeshesContainer_a64a2fe24398371036df24ec2b5b26027} 
+Meshes\+Container \& {\bfseries operator=} (Meshes\+Container \&\&) noexcept
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion}{Meshed\+Region}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshesContainer_a7a7b3e5a05bbd093a14531d846c0557a}{operator\+[$\,$]\+}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} index)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion}{Meshed\+Region}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshesContainer_aa5faa82275582751a35b9f8f7fa52532}{at}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} index)
+\item 
+const \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion}{Meshed\+Region}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshesContainer_ab45cbc57a611d133effd85a07026ccf8}{at}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} index) const
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshesContainer_ad9bf573f6faf5c3d6a69509acebfd029}{update}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion}{Meshed\+Region}} \&f, \doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} index)
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshesContainer_ad8a4ca6475e0eaa186a3fcd2ed8e131b}{add}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&labels, \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion}{Meshed\+Region}} const \&f, bool can\+\_\+replace=true)
+\item 
+std::\+vector$<$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion}{Meshed\+Region}} $>$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshesContainer_a2be495164acdc7891bc8efa173d6ad60}{get\+Meshes}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&label\+\_\+space) const
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion}{Meshed\+Region}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshesContainer_a9b94613788b1ced87b9a1ad5b94dcefd}{get\+Mesh}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&label\+\_\+space) const
+\item 
+\Hypertarget{classansys_1_1dpf_1_1MeshesContainer_a699c93ca9f77f9a96f4aa4a8744c1596}\label{classansys_1_1dpf_1_1MeshesContainer_a699c93ca9f77f9a96f4aa4a8744c1596} 
+std::\+vector$<$ int $>$ {\bfseries get\+Meshes\+Indices} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&lab\+\_\+space) const
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion}{Meshed\+Region}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshesContainer_a6e8fcefe0d84508ba020c3cc53df1019}{get\+Matching\+Mesh}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&label\+\_\+space) const
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfVector}{Dpf\+Vector}}$<$ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} $>$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshesContainer_a00771e383d8202b17b14f208cdba10a3}{get\+Matching\+Mesh\+Indices}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&label\+\_\+space) const
+\item 
+\Hypertarget{classansys_1_1dpf_1_1MeshesContainer_afe73c105be73ed4fe598145f852552fe}\label{classansys_1_1dpf_1_1MeshesContainer_afe73c105be73ed4fe598145f852552fe} 
+Meshes\+Container {\bfseries create\+Sub\+Meshes\+Container} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&lab\+\_\+space) const
+\begin{DoxyCompactList}\small\item\em create a \doxylink{classansys_1_1dpf_1_1MeshesContainer}{Meshes\+Container} with all the meshes corresponding to the label space in input \end{DoxyCompactList}\item 
+Meshes\+Container \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshesContainer_a4d6dc89fa32881ff246e53fc919f6d57}{deep\+\_\+copy}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{ansys::\+dpf::\+\+Client}} const \texorpdfstring{$\ast$}{*}const client=nullptr) const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Meshes\+Container \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshesContainer_a5adfd625ae0bbadf1ac7b46caed156cf}{empty\+Meshes\+Container}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Contains a group of meshes. The meshes container is designed as a set of meshes ordered through labels and ids. Labels identify how the fields are filtered. The most common meshes container have the label "{}body"{} with ids corresponding to each body entity. \begin{DoxySeeAlso}{See also}
+\doxylink{classansys_1_1dpf_1_1MeshedRegion}{Meshed\+Region} 
+
+\doxylink{group__group__12}{Using collections and labels} 
+\end{DoxySeeAlso}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataExport_8cpp-example}{Data\+Export.\+cpp}}.\end{Desc}
+
+
+\label{doc-constructors}
+\Hypertarget{classansys_1_1dpf_1_1MeshesContainer_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classansys_1_1dpf_1_1MeshesContainer_aa4c802341a32f409bface24c08750256}\index{ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}!MeshesContainer@{MeshesContainer}}
+\index{MeshesContainer@{MeshesContainer}!ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}}
+\doxysubsubsection{\texorpdfstring{MeshesContainer()}{MeshesContainer()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshesContainer_aa4c802341a32f409bface24c08750256} 
+ansys::\+dpf::\+\+Meshes\+Container::\+\+Meshes\+Container (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{}\end{DoxyParamCaption})}
+
+Create a new meshes container on a server. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1MeshesContainer_a0ac20f2c12dfe98d977cb6bb5c7a85fa}\index{ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}!MeshesContainer@{MeshesContainer}}
+\index{MeshesContainer@{MeshesContainer}!ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}}
+\doxysubsubsection{\texorpdfstring{MeshesContainer()}{MeshesContainer()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshesContainer_a0ac20f2c12dfe98d977cb6bb5c7a85fa} 
+ansys::\+dpf::\+\+Meshes\+Container::\+\+Meshes\+Container (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{, }\item[{std::\+vector$<$ std::\+string $>$ const \&}]{labels}{}\end{DoxyParamCaption})}
+
+Create a collection of meshes with the given labels on a server. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em \doxylink{structansys_1_1dpf_1_1labels}{labels}} & Labels for meshes. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1MeshesContainer_abb7d8aa6a81104550acd750be0341d52}\index{ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}!MeshesContainer@{MeshesContainer}}
+\index{MeshesContainer@{MeshesContainer}!ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}}
+\doxysubsubsection{\texorpdfstring{MeshesContainer()}{MeshesContainer()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshesContainer_abb7d8aa6a81104550acd750be0341d52} 
+ansys::\+dpf::\+\+Meshes\+Container::\+\+Meshes\+Container (\begin{DoxyParamCaption}\item[{int}]{id}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{}\end{DoxyParamCaption})}
+
+Retrieve an existing instance of \doxylink{classansys_1_1dpf_1_1MeshesContainer}{Meshes\+Container} on a server. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em id} & Id of the \doxylink{classansys_1_1dpf_1_1MeshesContainer}{Meshes\+Container} object on the server\textquotesingle{}s database.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1MeshesContainer_ad5852e1110c3ac20a9e139a68a54bff4}\index{ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}!MeshesContainer@{MeshesContainer}}
+\index{MeshesContainer@{MeshesContainer}!ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}}
+\doxysubsubsection{\texorpdfstring{MeshesContainer()}{MeshesContainer()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshesContainer_ad5852e1110c3ac20a9e139a68a54bff4} 
+ansys::\+dpf::\+\+Meshes\+Container::\+\+Meshes\+Container (\begin{DoxyParamCaption}\item[{std::\+vector$<$ std::\+string $>$ const \&}]{labels}{}\end{DoxyParamCaption})}
+
+Create mesh container for a group of meshed regions with the given labels. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em \doxylink{structansys_1_1dpf_1_1labels}{labels}} & Labels for group of meshed regions. \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{classansys_1_1dpf_1_1MeshesContainer_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classansys_1_1dpf_1_1MeshesContainer_ad8a4ca6475e0eaa186a3fcd2ed8e131b}\index{ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}!add@{add}}
+\index{add@{add}!ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshesContainer_ad8a4ca6475e0eaa186a3fcd2ed8e131b} 
+void ansys::\+dpf::\+\+Meshes\+Container::\+add (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&}]{labels}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion}{Meshed\+Region}} const \&}]{f}{, }\item[{bool}]{can\+\_\+replace}{ = {\ttfamily true}}\end{DoxyParamCaption})}
+
+Add meshed region with given label space. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em \doxylink{structansys_1_1dpf_1_1labels}{labels}} & \doxylink{structansys_1_1dpf_1_1Label}{Label} space for meshed region.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em f} & Meshed region to add.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em can\+\_\+replace} & if can\+\_\+replace is false, then, the entity is pushed back without checking if the label space already exists. \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataExport_8cpp-example}{Data\+Export.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1MeshesContainer_aa5faa82275582751a35b9f8f7fa52532}\index{ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}!at@{at}}
+\index{at@{at}!ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}}
+\doxysubsubsection{\texorpdfstring{at()}{at()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshesContainer_aa5faa82275582751a35b9f8f7fa52532} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion}{Meshed\+Region}} ansys::\+dpf::\+\+Meshes\+Container::\+at (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}}}]{index}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Meshed region for given index. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em index} & Index of meshed region to get. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1MeshesContainer_ab45cbc57a611d133effd85a07026ccf8}\index{ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}!at@{at}}
+\index{at@{at}!ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}}
+\doxysubsubsection{\texorpdfstring{at()}{at()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshesContainer_ab45cbc57a611d133effd85a07026ccf8} 
+const \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion}{Meshed\+Region}} ansys::\+dpf::\+\+Meshes\+Container::\+at (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}}}]{index}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Meshed region for given index. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em index} & Index of meshed region to get. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1MeshesContainer_a4d6dc89fa32881ff246e53fc919f6d57}\index{ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}!deep\_copy@{deep\_copy}}
+\index{deep\_copy@{deep\_copy}!ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}}
+\doxysubsubsection{\texorpdfstring{deep\_copy()}{deep\_copy()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshesContainer_a4d6dc89fa32881ff246e53fc919f6d57} 
+Meshes\+Container ansys::\+dpf::\+\+Meshes\+Container::\+deep\+\_\+copy (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{ansys::\+dpf::\+\+Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{ = {\ttfamily nullptr}}\end{DoxyParamCaption}) const}
+
+Create a new \doxylink{classansys_1_1dpf_1_1MeshesContainer}{Meshes\+Container} on a server by copying all the data of this \doxylink{classansys_1_1dpf_1_1MeshesContainer}{Meshes\+Container}. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1MeshesContainer_a5adfd625ae0bbadf1ac7b46caed156cf}\index{ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}!emptyMeshesContainer@{emptyMeshesContainer}}
+\index{emptyMeshesContainer@{emptyMeshesContainer}!ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}}
+\doxysubsubsection{\texorpdfstring{emptyMeshesContainer()}{emptyMeshesContainer()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshesContainer_a5adfd625ae0bbadf1ac7b46caed156cf} 
+Meshes\+Container ansys::\+dpf::\+\+Meshes\+Container::\+empty\+Meshes\+Container (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create an empty mesh container. \begin{DoxyReturn}{Returns}
+Empty mesh container. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1MeshesContainer_a6e8fcefe0d84508ba020c3cc53df1019}\index{ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}!getMatchingMesh@{getMatchingMesh}}
+\index{getMatchingMesh@{getMatchingMesh}!ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}}
+\doxysubsubsection{\texorpdfstring{getMatchingMesh()}{getMatchingMesh()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshesContainer_a6e8fcefe0d84508ba020c3cc53df1019} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion}{Meshed\+Region}} ansys::\+dpf::\+\+Meshes\+Container::\+get\+Matching\+Mesh (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&}]{label\+\_\+space}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+First matching Mesh for given label space. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em label\+\_\+space} & \doxylink{structansys_1_1dpf_1_1Label}{Label} space for which to get \doxylink{classansys_1_1dpf_1_1Any}{Any}. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1MeshesContainer_a00771e383d8202b17b14f208cdba10a3}\index{ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}!getMatchingMeshIndices@{getMatchingMeshIndices}}
+\index{getMatchingMeshIndices@{getMatchingMeshIndices}!ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}}
+\doxysubsubsection{\texorpdfstring{getMatchingMeshIndices()}{getMatchingMeshIndices()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshesContainer_a00771e383d8202b17b14f208cdba10a3} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfVector}{Dpf\+Vector}}$<$ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} $>$ ansys::\+dpf::\+\+Meshes\+Container::\+get\+Matching\+Mesh\+Indices (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&}]{label\+\_\+space}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Vector of matching Mesh to the given label space. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em label\+\_\+space} & \doxylink{structansys_1_1dpf_1_1Label}{Label} space for which to get entries. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1MeshesContainer_a9b94613788b1ced87b9a1ad5b94dcefd}\index{ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}!getMesh@{getMesh}}
+\index{getMesh@{getMesh}!ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}}
+\doxysubsubsection{\texorpdfstring{getMesh()}{getMesh()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshesContainer_a9b94613788b1ced87b9a1ad5b94dcefd} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion}{Meshed\+Region}} ansys::\+dpf::\+\+Meshes\+Container::\+get\+Mesh (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&}]{label\+\_\+space}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+First meshed region for given label space. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em label\+\_\+space} & \doxylink{structansys_1_1dpf_1_1Label}{Label} space for which to get meshed region. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1MeshesContainer_a2be495164acdc7891bc8efa173d6ad60}\index{ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}!getMeshes@{getMeshes}}
+\index{getMeshes@{getMeshes}!ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}}
+\doxysubsubsection{\texorpdfstring{getMeshes()}{getMeshes()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshesContainer_a2be495164acdc7891bc8efa173d6ad60} 
+std::\+vector$<$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion}{Meshed\+Region}} $>$ ansys::\+dpf::\+\+Meshes\+Container::\+get\+Meshes (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&}]{label\+\_\+space}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Vector of meshed regions for given label space. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em label\+\_\+space} & \doxylink{structansys_1_1dpf_1_1Label}{Label} space for which to get meshed regions. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1MeshesContainer_a7a7b3e5a05bbd093a14531d846c0557a}\index{ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}!operator\+[]\+@{operator[]}}
+\index{operator\+[]\+@{operator[]}!ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshesContainer_a7a7b3e5a05bbd093a14531d846c0557a} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion}{Meshed\+Region}} ansys::\+dpf::\+\+Meshes\+Container::\+operator\+[$\,$]\+ (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}}}]{index}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Meshed region for given index. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em index} & Index of mesh within container. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1MeshesContainer_ad9bf573f6faf5c3d6a69509acebfd029}\index{ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}!update@{update}}
+\index{update@{update}!ansys::dpf::MeshesContainer@{ansys::dpf::MeshesContainer}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshesContainer_ad9bf573f6faf5c3d6a69509acebfd029} 
+void ansys::\+dpf::\+\+Meshes\+Container::\+update (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion}{Meshed\+Region}} \&}]{f}{, }\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}}}]{index}{}\end{DoxyParamCaption})}
+
+Update a meshed region at index. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em f} & New meshed region.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em index} & Index of meshed region to update. \\
+\hline
+\end{DoxyParams}

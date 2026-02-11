@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="operators_page" kind="page">
+    <compoundname>operators_page</compoundname>
+    <title>Operators</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<sect1 id="operators_page_1autotoc_md0_1s1"><sect2 id="operators_page_1autotoc_md0_1s2"><sect3 id="operators_page_1autotoc_md0_1s3"><sect4 id="operators_page_1autotoc_md0">
+<title>For a list of DPF existing operators, see:</title></sect4></sect3></sect2></sect1>
+<sect1 id="operators_page_1autotoc_md1_1s1"><sect2 id="operators_page_1autotoc_md1_1s2"><sect3 id="operators_page_1autotoc_md1_1s3"><sect4 id="operators_page_1autotoc_md1">
+<title><ulink url="https://dpf.docs.pyansys.com/version/0.8/operator_reference_load_apis.html">Operators</ulink></title></sect4></sect3></sect2></sect1>
+    </detaileddescription>
+    <location file="cpp_doc/00_2_operators.md"/>
+  </compounddef>
+</doxygen>

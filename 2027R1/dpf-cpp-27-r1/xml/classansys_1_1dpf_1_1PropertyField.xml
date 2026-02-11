@@ -1,0 +1,1552 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1PropertyField" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::PropertyField</compoundname>
+    <basecompoundref refid="classansys_1_1dpf_1_1DpfTypes" prot="public" virt="non-virtual">ansys::dpf::DpfTypes</basecompoundref>
+    <includes local="no">dpf_api.h</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1PropertyField_1a33ff3f826991522d2e77c1c523f33e19" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Operator</definition>
+        <argsstring></argsstring>
+        <name>Operator</name>
+        <qualifiedname>ansys::dpf::PropertyField::Operator</qualifiedname>
+        <param>
+          <type>Operator</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2382" column="14" bodyfile="dpf_api.h" bodystart="2382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1PropertyField_1afa07847c7cb432b260e61a0c18025ba3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Workflow</definition>
+        <argsstring></argsstring>
+        <name>Workflow</name>
+        <qualifiedname>ansys::dpf::PropertyField::Workflow</qualifiedname>
+        <param>
+          <type>Workflow</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2383" column="14" bodyfile="dpf_api.h" bodystart="2383" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1PropertyField_1abb31806c269987c4a5e2a51f1f4d4d39" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class MeshedRegion</definition>
+        <argsstring></argsstring>
+        <name>MeshedRegion</name>
+        <qualifiedname>ansys::dpf::PropertyField::MeshedRegion</qualifiedname>
+        <param>
+          <type>MeshedRegion</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2384" column="14" bodyfile="dpf_api.h" bodystart="2384" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1PropertyField_1a87ba90b4bbcd8d8baa7bf17c27fbdfae" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class TimeFreqSupport</definition>
+        <argsstring></argsstring>
+        <name>TimeFreqSupport</name>
+        <qualifiedname>ansys::dpf::PropertyField::TimeFreqSupport</qualifiedname>
+        <param>
+          <type>TimeFreqSupport</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2385" column="14" bodyfile="dpf_api.h" bodystart="2385" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1PropertyField_1a81d95df60edf516a1de9878b780f8fb3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class OperatorMain</definition>
+        <argsstring></argsstring>
+        <name>OperatorMain</name>
+        <qualifiedname>ansys::dpf::PropertyField::OperatorMain</qualifiedname>
+        <param>
+          <type>OperatorMain</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2386" column="14" bodyfile="dpf_api.h" bodystart="2386" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1PropertyField_1a9820c685b67a3355c042bb0b3365d9e2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Any</definition>
+        <argsstring></argsstring>
+        <name>Any</name>
+        <qualifiedname>ansys::dpf::PropertyField::Any</qualifiedname>
+        <param>
+          <type>Any</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2387" column="14" bodyfile="dpf_api.h" bodystart="2387" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1PropertyField_1a4303ef65e3d088cbff0512dfbf3734ac" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Support</definition>
+        <argsstring></argsstring>
+        <name>Support</name>
+        <qualifiedname>ansys::dpf::PropertyField::Support</qualifiedname>
+        <param>
+          <type>Support</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2388" column="14" bodyfile="dpf_api.h" bodystart="2388" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1PropertyField_1a8a8b42bcbba089cc2a997c65416c9038" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class GenericSupport</definition>
+        <argsstring></argsstring>
+        <name>GenericSupport</name>
+        <qualifiedname>ansys::dpf::PropertyField::GenericSupport</qualifiedname>
+        <param>
+          <type>GenericSupport</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2389" column="14" bodyfile="dpf_api.h" bodystart="2389" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1PropertyField_1ad465d7b2f213af5e9c522d51658e74b9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class CyclicSupport</definition>
+        <argsstring></argsstring>
+        <name>CyclicSupport</name>
+        <qualifiedname>ansys::dpf::PropertyField::CyclicSupport</qualifiedname>
+        <param>
+          <type>CyclicSupport</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2390" column="22" bodyfile="dpf_api.h" bodystart="2390" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1PropertyField_1acc06c4380c923e11af63f95e97c3c259" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class GenericDataContainer</definition>
+        <argsstring></argsstring>
+        <name>GenericDataContainer</name>
+        <qualifiedname>ansys::dpf::PropertyField::GenericDataContainer</qualifiedname>
+        <param>
+          <type>GenericDataContainer</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2391" column="14" bodyfile="dpf_api.h" bodystart="2391" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1PropertyField_1af764561c544bacc1b90b526ee8d3c708" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class core</definition>
+        <argsstring></argsstring>
+        <name>core</name>
+        <qualifiedname>ansys::dpf::PropertyField::core</qualifiedname>
+        <param>
+          <type>core</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2392" column="14" bodyfile="dpf_api.h" bodystart="2392" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1PropertyField_1a6c5ceed26c19a00434b5fa91cbed580c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class DataTree</definition>
+        <argsstring></argsstring>
+        <name>DataTree</name>
+        <qualifiedname>ansys::dpf::PropertyField::DataTree</qualifiedname>
+        <param>
+          <type>DataTree</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2393" column="14" bodyfile="dpf_api.h" bodystart="2393" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a1856a7b2187e8fffd97d9d04b5da798a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::PropertyField::PropertyField</definition>
+        <argsstring>(opaque::DpfInternalSharedObject *)</argsstring>
+        <name>PropertyField</name>
+        <qualifiedname>ansys::dpf::PropertyField::PropertyField</qualifiedname>
+        <param>
+          <type>opaque::DpfInternalSharedObject *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2396" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a9d57c71f4fad64a1f5946ebbd39db3c7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::PropertyField::PropertyField</definition>
+        <argsstring>(opaque::DpfObject *, so::API const *api)</argsstring>
+        <name>PropertyField</name>
+        <qualifiedname>ansys::dpf::PropertyField::PropertyField</qualifiedname>
+        <param>
+          <type>opaque::DpfObject *</type>
+        </param>
+        <param>
+          <type>so::API const *</type>
+          <declname>api</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2397" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1af0f42f6ef312437a7ee49d79b357a39f" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename TField</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void ansys::dpf::PropertyField::copy_to_Tfield</definition>
+        <argsstring>(TField &amp;out, ansys::dpf::Client const *const client, bool const copy_ids=true, bool const copy_data_ptr=true, bool const copy_support=true) const</argsstring>
+        <name>copy_to_Tfield</name>
+        <qualifiedname>ansys::dpf::PropertyField::copy_to_Tfield</qualifiedname>
+        <param>
+          <type>TField &amp;</type>
+          <declname>out</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref> where to copy the data </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">ansys::dpf::Client</ref> const *const</type>
+          <declname>client</declname>
+          <briefdescription><para>[in] Remote client </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>bool const</type>
+          <declname>copy_ids</declname>
+          <defval>true</defval>
+          <briefdescription><para>[in] Boolean to decide if scoping ids are to be copied </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>bool const</type>
+          <declname>copy_data_ptr</declname>
+          <defval>true</defval>
+          <briefdescription><para>[in] Boolean to decide if data pointer is to be copied </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>bool const</type>
+          <declname>copy_support</declname>
+          <defval>true</defval>
+          <briefdescription><para>[in] Boolean to decide if the support reference is to be copied </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2584" column="6" bodyfile="dpf_api.h" bodystart="2584" bodyend="2612"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1aac8837afab55e9ebe3087e966ebc9edd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>PropertyField</type>
+        <definition>static PropertyField ansys::dpf::PropertyField::emptyPropertyField</definition>
+        <argsstring>()</argsstring>
+        <name>emptyPropertyField</name>
+        <qualifiedname>ansys::dpf::PropertyField::emptyPropertyField</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2400" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a0ca259df13f04a150585337c7914c37e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>PropertyField</type>
+        <definition>static PropertyField ansys::dpf::PropertyField::createPropertyFieldWithTransformation</definition>
+        <argsstring>(Workflow transformation_wf, int reserved_number_of_entity=0, int reserved_data_size=0, std::string const &amp;input_name_to_connect=&quot;input_field&quot;, std::string const &amp;output_name_to_eval=&quot;transformed_field&quot;)</argsstring>
+        <name>createPropertyFieldWithTransformation</name>
+        <qualifiedname>ansys::dpf::PropertyField::createPropertyFieldWithTransformation</qualifiedname>
+        <param>
+          <type>Workflow</type>
+          <declname>transformation_wf</declname>
+          <briefdescription><para>[in] Transformation workflow. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>reserved_number_of_entity</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>reserved_data_size</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>input_name_to_connect</declname>
+          <defval>&quot;input_field&quot;</defval>
+          <briefdescription><para>[in] Name of the input of the workflow to connect. Should take a <ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref>. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>output_name_to_eval</declname>
+          <defval>&quot;transformed_field&quot;</defval>
+          <briefdescription><para>[in] Name of the output of the workflow to evaluate. Should return a <ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref>. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Instantiate a <ref refid="classansys_1_1dpf_1_1PropertyField" kindref="compound">PropertyField</ref> with Transformation. For each call to a getter, the workflow in input is connected this <ref refid="classansys_1_1dpf_1_1PropertyField" kindref="compound">PropertyField</ref> to input_name_to_connect and the <ref refid="classansys_1_1dpf_1_1PropertyField" kindref="compound">PropertyField</ref> output in output_name_to_eval is used as the getter instance. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2568" column="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1ae4d4f5e5f1452e4fba0fcf5897649d17" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ansys::dpf::PropertyField::~PropertyField</definition>
+        <argsstring>()</argsstring>
+        <name>~PropertyField</name>
+        <qualifiedname>ansys::dpf::PropertyField::~PropertyField</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2402" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a41f086b401649bbbaa1e1242b0d9ac03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::PropertyField::PropertyField</definition>
+        <argsstring>(Client const *const client, dp_int number_of_entities=0, dp_int data_size=0, const Location &amp;loc=Location())</argsstring>
+        <name>PropertyField</name>
+        <qualifiedname>ansys::dpf::PropertyField::PropertyField</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> const *const</type>
+          <declname>client</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> to create the property field on. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>number_of_entities</declname>
+          <defval>0</defval>
+          <briefdescription><para>[in] Number of entities. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>data_size</declname>
+          <defval>0</defval>
+          <briefdescription><para>[in] Reserved size of data. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>const <ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref> &amp;</type>
+          <declname>loc</declname>
+          <defval><ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref>()</defval>
+          <briefdescription><para>[in] <ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref> of entities. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create an empty property field with a client. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2404" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1ac8723c38fad6636b55b31a3d6d8ccc76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::PropertyField::PropertyField</definition>
+        <argsstring>(dp_int number_of_entities=0, dp_int data_size=0)</argsstring>
+        <name>PropertyField</name>
+        <qualifiedname>ansys::dpf::PropertyField::PropertyField</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>number_of_entities</declname>
+          <defval>0</defval>
+          <briefdescription><para>[in] Number of entities. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>data_size</declname>
+          <defval>0</defval>
+          <briefdescription><para>[in] Reserved size of data. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a property with number of entities and data size. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2410" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a88b5dfeb3f030e6afbfbf87efbcc3561" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::PropertyField::PropertyField</definition>
+        <argsstring>(int id, Client const *const client)</argsstring>
+        <name>PropertyField</name>
+        <qualifiedname>ansys::dpf::PropertyField::PropertyField</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+          <briefdescription><para>[in] Id of the <ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref> object on the server&apos;s database. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> const *const</type>
+          <declname>client</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> instance designating the IP, port and protocol to use. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieve an existing instance of <ref refid="classansys_1_1dpf_1_1PropertyField" kindref="compound">PropertyField</ref> on a server. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2414" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1ad787ee870fa5d12ba322bd1d3bbb52cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::PropertyField::PropertyField</definition>
+        <argsstring>(PropertyField const &amp;)</argsstring>
+        <name>PropertyField</name>
+        <qualifiedname>ansys::dpf::PropertyField::PropertyField</qualifiedname>
+        <param>
+          <type>PropertyField const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2417" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a89260e610bdbe97eaf9a0f6364daf0de" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::PropertyField::PropertyField</definition>
+        <argsstring>(PropertyField &amp;&amp;) noexcept</argsstring>
+        <name>PropertyField</name>
+        <qualifiedname>ansys::dpf::PropertyField::PropertyField</qualifiedname>
+        <param>
+          <type>PropertyField &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2418" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1adec6a0cbb0a46d7831e223fad50aab62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>PropertyField &amp;</type>
+        <definition>PropertyField &amp; ansys::dpf::PropertyField::operator=</definition>
+        <argsstring>(PropertyField const &amp;)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::PropertyField::operator=</qualifiedname>
+        <param>
+          <type>PropertyField const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2419" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a790b5c4569b3f2b6c58c0e9292147d12" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>PropertyField &amp;</type>
+        <definition>PropertyField &amp; ansys::dpf::PropertyField::operator=</definition>
+        <argsstring>(PropertyField &amp;&amp;) noexcept</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::PropertyField::operator=</qualifiedname>
+        <param>
+          <type>PropertyField &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2420" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a4df2020806c5f8d2ace1faa6b26a1ecb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1FieldDefinition" kindref="compound">FieldDefinition</ref></type>
+        <definition>FieldDefinition ansys::dpf::PropertyField::fieldDefinition</definition>
+        <argsstring>() const</argsstring>
+        <name>fieldDefinition</name>
+        <qualifiedname>ansys::dpf::PropertyField::fieldDefinition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1FieldDefinition" kindref="compound">FieldDefinition</ref> of the field. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2423" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a4ed774aecf5c68516a17da55da7b0ff7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::PropertyField::setFieldDefinition</definition>
+        <argsstring>(FieldDefinition const &amp;f)</argsstring>
+        <name>setFieldDefinition</name>
+        <qualifiedname>ansys::dpf::PropertyField::setFieldDefinition</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1FieldDefinition" kindref="compound">FieldDefinition</ref> const &amp;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the <ref refid="classansys_1_1dpf_1_1FieldDefinition" kindref="compound">FieldDefinition</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2425" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1ac99d91c191df704b90601b43076c216a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Support</type>
+        <definition>Support ansys::dpf::PropertyField::support</definition>
+        <argsstring>() const</argsstring>
+        <name>support</name>
+        <qualifiedname>ansys::dpf::PropertyField::support</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Support" kindref="compound">Support</ref> of the <ref refid="classansys_1_1dpf_1_1PropertyField" kindref="compound">PropertyField</ref>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2428" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a8124e1eaed971c006045b89b5fb28798" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::PropertyField::setSupport</definition>
+        <argsstring>(ansys::dpf::Support const &amp;s)</argsstring>
+        <name>setSupport</name>
+        <qualifiedname>ansys::dpf::PropertyField::setSupport</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Support" kindref="compound">ansys::dpf::Support</ref> const &amp;</type>
+          <declname>s</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1PropertyField" kindref="compound">PropertyField</ref> to support. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the support of the <ref refid="classansys_1_1dpf_1_1PropertyField" kindref="compound">PropertyField</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2430" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1ae715fc13eaca1ce40e0fcd686d3c8555" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::PropertyField::setSupport</definition>
+        <argsstring>(ansys::dpf::TimeFreqSupport const &amp;s)</argsstring>
+        <name>setSupport</name>
+        <qualifiedname>ansys::dpf::PropertyField::setSupport</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1TimeFreqSupport" kindref="compound">ansys::dpf::TimeFreqSupport</ref> const &amp;</type>
+          <declname>s</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1TimeFreqSupport" kindref="compound">TimeFreqSupport</ref> to support. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the support of the <ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2433" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a8244b39576d028e8168557c0764d49a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::PropertyField::setSupport</definition>
+        <argsstring>(ansys::dpf::MeshedRegion const &amp;s)</argsstring>
+        <name>setSupport</name>
+        <qualifiedname>ansys::dpf::PropertyField::setSupport</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1MeshedRegion" kindref="compound">ansys::dpf::MeshedRegion</ref> const &amp;</type>
+          <declname>s</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1MeshedRegion" kindref="compound">MeshedRegion</ref> to support. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the support of the <ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2436" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1aaf5a2e4abe9da5e77cc7b954b0ef81ba" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::PropertyField::name</definition>
+        <argsstring>() const</argsstring>
+        <name>name</name>
+        <qualifiedname>ansys::dpf::PropertyField::name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Name of <ref refid="classansys_1_1dpf_1_1PropertyField" kindref="compound">PropertyField</ref>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2441" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1aefb5d03109bcc57f95ca1257ab92ed7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::PropertyField::setName</definition>
+        <argsstring>(const std::string &amp;name)</argsstring>
+        <name>setName</name>
+        <qualifiedname>ansys::dpf::PropertyField::setName</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+          <briefdescription><para>[in] New name. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set name of <ref refid="classansys_1_1dpf_1_1PropertyField" kindref="compound">PropertyField</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2443" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a9dbf80f14848a93eb311d97a4b3da8dd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref></type>
+        <definition>Location ansys::dpf::PropertyField::location</definition>
+        <argsstring>() const</argsstring>
+        <name>location</name>
+        <qualifiedname>ansys::dpf::PropertyField::location</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref> of the property. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2446" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a9d57c8ecf193532958d34de87db60da0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref></type>
+        <definition>Scoping ansys::dpf::PropertyField::scoping</definition>
+        <argsstring>() const</argsstring>
+        <name>scoping</name>
+        <qualifiedname>ansys::dpf::PropertyField::scoping</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref> of the property. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2448" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1af0ff358222e067e0c03d588a6b11b04c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+        <definition>dp_int ansys::dpf::PropertyField::dataSize</definition>
+        <argsstring>() const</argsstring>
+        <name>dataSize</name>
+        <qualifiedname>ansys::dpf::PropertyField::dataSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Size of the data container. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2450" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a1a2b01c58216827f720b4a76a8f52d9d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+        <definition>dp_int ansys::dpf::PropertyField::numberOfComponents</definition>
+        <argsstring>() const</argsstring>
+        <name>numberOfComponents</name>
+        <qualifiedname>ansys::dpf::PropertyField::numberOfComponents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Number of components in the property data. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2452" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a3cb32ee79adc23f5c7ab5f6b6d831e26" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+        <definition>dp_int ansys::dpf::PropertyField::numberOfElementaryData</definition>
+        <argsstring>() const</argsstring>
+        <name>numberOfElementaryData</name>
+        <qualifiedname>ansys::dpf::PropertyField::numberOfElementaryData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Number of elementary data (size = number of components) contained in the <ref refid="classansys_1_1dpf_1_1PropertyField" kindref="compound">PropertyField</ref>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2455" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a74bc6460d3924f837b480b725f2d230c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::PropertyField::push_back</definition>
+        <argsstring>(dp_id entity_id, std::vector&lt; int &gt; const &amp;values)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>ansys::dpf::PropertyField::push_back</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1ab4574c9af3f2bb8011da7d1f4c8da20e" kindref="member">dp_id</ref></type>
+          <declname>entity_id</declname>
+          <briefdescription><para>[in] Id of entity for which to push data. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::vector&lt; int &gt; const &amp;</type>
+          <declname>values</declname>
+          <briefdescription><para>[in] Vector of data for entity. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Push back the entity data. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2458" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1ac709022d579f02b554fdc06fe0a59f7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::PropertyField::push_back</definition>
+        <argsstring>(dp_id entity_id, const int *values, int size)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>ansys::dpf::PropertyField::push_back</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1ab4574c9af3f2bb8011da7d1f4c8da20e" kindref="member">dp_id</ref></type>
+          <declname>entity_id</declname>
+          <briefdescription><para>[in] Index of entity for which to push data. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>const int *</type>
+          <declname>values</declname>
+          <briefdescription><para>[in] Ptr on data for entity. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+          <briefdescription><para>[in] Number of entities. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Push back the entity data. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2462" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a2200849fcd3d0c6ebc171b15d9cb8e54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::PropertyField::push_back</definition>
+        <argsstring>(dp_id entity_id, int *values, int size)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>ansys::dpf::PropertyField::push_back</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1ab4574c9af3f2bb8011da7d1f4c8da20e" kindref="member">dp_id</ref></type>
+          <declname>entity_id</declname>
+          <briefdescription><para>[in] Index of entity for which to push data. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>values</declname>
+          <briefdescription><para>[in] Ptr on data for entity. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+          <briefdescription><para>[in] Number of entities. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Push back the entity data. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2467" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1ae40e20aaa78a8bfc6ff8176cb9381152" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::PropertyField::setData</definition>
+        <argsstring>(std::vector&lt; int &gt; const &amp;data)</argsstring>
+        <name>setData</name>
+        <qualifiedname>ansys::dpf::PropertyField::setData</qualifiedname>
+        <param>
+          <type>std::vector&lt; int &gt; const &amp;</type>
+          <declname>data</declname>
+          <briefdescription><para>[in] Vector of data. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the data of the property field. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2472" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a74e8c4842a23651d988f8a264c9eabe6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::PropertyField::setData</definition>
+        <argsstring>(int const *const data, int size)</argsstring>
+        <name>setData</name>
+        <qualifiedname>ansys::dpf::PropertyField::setData</qualifiedname>
+        <param>
+          <type>int const *const</type>
+          <declname>data</declname>
+          <briefdescription><para>[in] List of data. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+          <briefdescription><para>[in] Size of list. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the data of the property field. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2475" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1afb3f6cd0c63ea162c4a7a53ef8066e7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::PropertyField::setDataPointer</definition>
+        <argsstring>(std::vector&lt; int &gt; const &amp;data)</argsstring>
+        <name>setDataPointer</name>
+        <qualifiedname>ansys::dpf::PropertyField::setDataPointer</qualifiedname>
+        <param>
+          <type>std::vector&lt; int &gt; const &amp;</type>
+          <declname>data</declname>
+          <briefdescription><para>[in] Vector of data. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the data pointer of the property field. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2479" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a4e7b773455c0cf6aefdfaa5e25261940" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::PropertyField::setDataPointer</definition>
+        <argsstring>(int *const data, int size)</argsstring>
+        <name>setDataPointer</name>
+        <qualifiedname>ansys::dpf::PropertyField::setDataPointer</qualifiedname>
+        <param>
+          <type>int *const</type>
+          <declname>data</declname>
+          <briefdescription><para>[in] List of data. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+          <briefdescription><para>[in] Size of list. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the data pointer of the property field. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2482" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a6e63d1d672b5b1d074052e9e9f0ad239" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::PropertyField::setScoping</definition>
+        <argsstring>(ansys::dpf::Scoping const &amp;s)</argsstring>
+        <name>setScoping</name>
+        <qualifiedname>ansys::dpf::PropertyField::setScoping</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">ansys::dpf::Scoping</ref> const &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the scoping of the property field. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2486" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a8b09b1109c854475c4af16cba105a667" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref> *</type>
+        <definition>const dp_int * ansys::dpf::PropertyField::dataByIndex</definition>
+        <argsstring>(dp_index entity_index, int &amp;size) const</argsstring>
+        <name>dataByIndex</name>
+        <qualifiedname>ansys::dpf::PropertyField::dataByIndex</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>entity_index</declname>
+          <briefdescription><para>[in] Index of entity for which to get data. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>size</declname>
+          <briefdescription><para>[out] Size of return data. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Pointer to entity data given by index. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2489" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1aa32b0e1c2611e88a2aef55c94a8c6880" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref> *</type>
+        <definition>const dp_int * ansys::dpf::PropertyField::dataById</definition>
+        <argsstring>(dp_id entity_id, int &amp;size) const</argsstring>
+        <name>dataById</name>
+        <qualifiedname>ansys::dpf::PropertyField::dataById</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1ab4574c9af3f2bb8011da7d1f4c8da20e" kindref="member">dp_id</ref></type>
+          <declname>entity_id</declname>
+          <briefdescription><para>[in] Id of entity for which to get data. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>size</declname>
+          <briefdescription><para>[out] Size of return data. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Pointer to entity data given by id. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2493" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a90f3baa944b4dd1a49adbcbec5a3d766" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::PropertyField::fillCursor</definition>
+        <argsstring>(dp_index index, PropFieldCursor &amp;cursor) const</argsstring>
+        <name>fillCursor</name>
+        <qualifiedname>ansys::dpf::PropertyField::fillCursor</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>index</declname>
+          <briefdescription><para>[in] Index of entity for which to get data. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1PropFieldCursor" kindref="compound">PropFieldCursor</ref> &amp;</type>
+          <declname>cursor</declname>
+          <briefdescription><para>[out] <ref refid="classansys_1_1dpf_1_1PropFieldCursor" kindref="compound">PropFieldCursor</ref> with which to contain data. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get data at a given index. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2497" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a55c6d4eb97b98ca58672b149e2bf1483" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::PropertyField::getIds</definition>
+        <argsstring>(std::vector&lt; dp_id &gt; &amp;ids_to_fill) const</argsstring>
+        <name>getIds</name>
+        <qualifiedname>ansys::dpf::PropertyField::getIds</qualifiedname>
+        <param>
+          <type>std::vector&lt; <ref refid="namespaceansys_1_1dpf_1ab4574c9af3f2bb8011da7d1f4c8da20e" kindref="member">dp_id</ref> &gt; &amp;</type>
+          <declname>ids_to_fill</declname>
+          <briefdescription><para>[out] Entity ids. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get ids of property entities. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2502" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1ab4fd6ed2f236efb404d4454944b4474b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::PropertyField::getData</definition>
+        <argsstring>(std::vector&lt; dp_int &gt; &amp;values_to_fill) const</argsstring>
+        <name>getData</name>
+        <qualifiedname>ansys::dpf::PropertyField::getData</qualifiedname>
+        <param>
+          <type>std::vector&lt; <ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref> &gt; &amp;</type>
+          <declname>values_to_fill</declname>
+          <briefdescription><para>[out] Property entity data. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get all data for property entities. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2505" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1ac77c2c8994da1d1511c69849257c748c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DpfVector&lt; int &gt;</type>
+        <definition>DpfVector&lt; int &gt; ansys::dpf::PropertyField::data</definition>
+        <argsstring>() const</argsstring>
+        <name>data</name>
+        <qualifiedname>ansys::dpf::PropertyField::data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1DpfVector" kindref="compound">DpfVector</ref> of data array. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2508" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a7b2afaba19a4b177460572a231c5275b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DpfVector&lt; int &gt;</type>
+        <definition>DpfVector&lt; int &gt; ansys::dpf::PropertyField::dataPointer</definition>
+        <argsstring>() const</argsstring>
+        <name>dataPointer</name>
+        <qualifiedname>ansys::dpf::PropertyField::dataPointer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1DpfVector" kindref="compound">DpfVector</ref> of data array. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2510" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a78f843b67d4df51c5bd0c57f98d9cc17" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::PropertyField::entityData</definition>
+        <argsstring>(dp_index entity_index, DpfVector&lt; int &gt; &amp;data) const</argsstring>
+        <name>entityData</name>
+        <qualifiedname>ansys::dpf::PropertyField::entityData</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>entity_index</declname>
+          <briefdescription><para>[in] Index of entity for which to get data. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>DpfVector&lt; int &gt; &amp;</type>
+          <declname>data</declname>
+          <briefdescription><para>[out] Pointer to the data. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1DpfVector" kindref="compound">DpfVector</ref> of data array of an entity, by index. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2512" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a433fe762b8bbf44c5cb7bc09e8e4f7a7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::PropertyField::entityDataById</definition>
+        <argsstring>(dp_id entity_id, DpfVector&lt; int &gt; &amp;data) const</argsstring>
+        <name>entityDataById</name>
+        <qualifiedname>ansys::dpf::PropertyField::entityDataById</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1ab4574c9af3f2bb8011da7d1f4c8da20e" kindref="member">dp_id</ref></type>
+          <declname>entity_id</declname>
+          <briefdescription><para>[in] Id of entity for which to get data. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>DpfVector&lt; int &gt; &amp;</type>
+          <declname>data</declname>
+          <briefdescription><para>[out] Pointer to the data. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1DpfVector" kindref="compound">DpfVector</ref> of data array of an entity, by id. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2516" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1ad7e142a83fd4138694a80f1a36bb778a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::PropertyField::reserve</definition>
+        <argsstring>(dp_int number_of_entities, dp_int overall_size=0)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>ansys::dpf::PropertyField::reserve</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>number_of_entities</declname>
+          <briefdescription><para>[in] Number of entities. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>overall_size</declname>
+          <defval>0</defval>
+          <briefdescription><para>[in] Total size of entity data. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserve the <ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref>. Only implemented for in process udage. To reserve the size for gRPC usage, use the constructor. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2521" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1aafa75bc6e0e191b4914282ad620a5c35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::PropertyField::resize</definition>
+        <argsstring>(dp_int number_of_entities, dp_int overall_size)</argsstring>
+        <name>resize</name>
+        <qualifiedname>ansys::dpf::PropertyField::resize</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>number_of_entities</declname>
+          <briefdescription><para>[in] Number of entities. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>overall_size</declname>
+          <briefdescription><para>[in] Total size of entity data. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserve the <ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2525" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1ab1245b64a580a13f74be20bc993eb403" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>PropertyField</type>
+        <definition>PropertyField ansys::dpf::PropertyField::deep_copy</definition>
+        <argsstring>(ansys::dpf::Client const *const client=nullptr) const</argsstring>
+        <name>deep_copy</name>
+        <qualifiedname>ansys::dpf::PropertyField::deep_copy</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">ansys::dpf::Client</ref> const *const</type>
+          <declname>client</declname>
+          <defval>nullptr</defval>
+          <briefdescription><para>[in] Remote client </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Make a deep copy on a given client. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2530" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a695daa98db9128948db4c67ffc57eedd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename UnitaryDataType</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref></type>
+        <definition>CustomTypeField ansys::dpf::PropertyField::cloneToCustomTypeField</definition>
+        <argsstring>(ansys::dpf::Client const *const client=nullptr, bool const copy_ids=true, bool const copy_data_ptr=true, bool const copy_support=true) const</argsstring>
+        <name>cloneToCustomTypeField</name>
+        <qualifiedname>ansys::dpf::PropertyField::cloneToCustomTypeField</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">ansys::dpf::Client</ref> const *const</type>
+          <declname>client</declname>
+          <defval>nullptr</defval>
+          <briefdescription><para>[in] Remote client </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>bool const</type>
+          <declname>copy_ids</declname>
+          <defval>true</defval>
+          <briefdescription><para>[in] Boolean to decide if scoping ids are to be copied </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>bool const</type>
+          <declname>copy_data_ptr</declname>
+          <defval>true</defval>
+          <briefdescription><para>[in] Boolean to decide if data pointer is to be copied </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>bool const</type>
+          <declname>copy_support</declname>
+          <defval>true</defval>
+          <briefdescription><para>[in] Boolean to decide if the support reference is to be copied </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new custom type field object from current property field without its data. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2535" column="17" bodyfile="dpf_api.h" bodystart="2535" bodyend="2548"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1ace579cbad593a985d56dfae75f3a50ba" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref></type>
+        <definition>Field ansys::dpf::PropertyField::cloneToField</definition>
+        <argsstring>(ansys::dpf::Client const *const client=nullptr, bool const copy_ids=true, bool const copy_data_ptr=true, bool const copy_support=true) const</argsstring>
+        <name>cloneToField</name>
+        <qualifiedname>ansys::dpf::PropertyField::cloneToField</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">ansys::dpf::Client</ref> const *const</type>
+          <declname>client</declname>
+          <defval>nullptr</defval>
+          <briefdescription><para>[in] Remote client </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>bool const</type>
+          <declname>copy_ids</declname>
+          <defval>true</defval>
+          <briefdescription><para>[in] Boolean to decide if scoping ids are to be copied </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>bool const</type>
+          <declname>copy_data_ptr</declname>
+          <defval>true</defval>
+          <briefdescription><para>[in] Boolean to decide if data pointer is to be copied </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>bool const</type>
+          <declname>copy_support</declname>
+          <defval>true</defval>
+          <briefdescription><para>[in] Boolean to decide if the support reference is to be copied </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new field object from current property field without its data. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2551" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a940bc0ea91ca4e1725abb112eee4c0e4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>PropertyField</type>
+        <definition>PropertyField ansys::dpf::PropertyField::cloneToPropertyField</definition>
+        <argsstring>(ansys::dpf::Client const *const client=nullptr, bool const copy_ids=true, bool const copy_data_ptr=true, bool const copy_support=true) const</argsstring>
+        <name>cloneToPropertyField</name>
+        <qualifiedname>ansys::dpf::PropertyField::cloneToPropertyField</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">ansys::dpf::Client</ref> const *const</type>
+          <declname>client</declname>
+          <defval>nullptr</defval>
+          <briefdescription><para>[in] Remote client </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>bool const</type>
+          <declname>copy_ids</declname>
+          <defval>true</defval>
+          <briefdescription><para>[in] Boolean to decide if scoping ids are to be copied </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>bool const</type>
+          <declname>copy_data_ptr</declname>
+          <defval>true</defval>
+          <briefdescription><para>[in] Boolean to decide if data pointer is to be copied </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>bool const</type>
+          <declname>copy_support</declname>
+          <defval>true</defval>
+          <briefdescription><para>[in] Boolean to decide if the support reference is to be copied </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new property field object from current property field without its data. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2558" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1aa9dc8cbf0e0bb1fd4efb704737ad2065" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DataTree</type>
+        <definition>DataTree ansys::dpf::PropertyField::getHeaderAsDataTree</definition>
+        <argsstring>() const</argsstring>
+        <name>getHeaderAsDataTree</name>
+        <qualifiedname>ansys::dpf::PropertyField::getHeaderAsDataTree</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the header of the <ref refid="classansys_1_1dpf_1_1PropertyField" kindref="compound">PropertyField</ref> as a <ref refid="classansys_1_1dpf_1_1DataTree" kindref="compound">DataTree</ref> object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2577" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1PropertyField_1a9c5f2a9ad893a89b067fc93c72170d56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::PropertyField::setHeaderAsDataTree</definition>
+        <argsstring>(const DataTree &amp;datatree)</argsstring>
+        <name>setHeaderAsDataTree</name>
+        <qualifiedname>ansys::dpf::PropertyField::setHeaderAsDataTree</qualifiedname>
+        <param>
+          <type>const DataTree &amp;</type>
+          <declname>datatree</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the header of the <ref refid="classansys_1_1dpf_1_1PropertyField" kindref="compound">PropertyField</ref> using a <ref refid="classansys_1_1dpf_1_1DataTree" kindref="compound">DataTree</ref> object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2580" column="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Holds Integral (int32) data describing a Property located on given entities (the Property <ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref>&apos;s data is bounded with its scoping). Is the equivalent of the <ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref> but with integral values data (and not double values). </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ansys::dpf::DpfTypes</label>
+        <link refid="classansys_1_1dpf_1_1DpfTypes"/>
+      </node>
+      <node id="1">
+        <label>ansys::dpf::PropertyField</label>
+        <link refid="classansys_1_1dpf_1_1PropertyField"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ansys::dpf::DpfTypes</label>
+        <link refid="classansys_1_1dpf_1_1DpfTypes"/>
+      </node>
+      <node id="1">
+        <label>ansys::dpf::PropertyField</label>
+        <link refid="classansys_1_1dpf_1_1PropertyField"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="dpf_api.h" line="2380" column="5" bodyfile="dpf_api.h" bodystart="2381" bodyend="2614"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1aea34d37e0c080126eff70db34bf46597" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>callAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a695daa98db9128948db4c67ffc57eedd" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>cloneToCustomTypeField</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1ace579cbad593a985d56dfae75f3a50ba" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>cloneToField</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a940bc0ea91ca4e1725abb112eee4c0e4" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>cloneToPropertyField</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1af0f42f6ef312437a7ee49d79b357a39f" prot="private" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>copy_to_Tfield</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a0ca259df13f04a150585337c7914c37e" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>createPropertyFieldWithTransformation</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1ac77c2c8994da1d1511c69849257c748c" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>data</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1aa32b0e1c2611e88a2aef55c94a8c6880" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>dataById</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a8b09b1109c854475c4af16cba105a667" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>dataByIndex</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a7b2afaba19a4b177460572a231c5275b" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>dataPointer</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1af0ff358222e067e0c03d588a6b11b04c" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>dataSize</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1ab1245b64a580a13f74be20bc993eb403" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>deep_copy</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9977945710983bc03d2940fa007847b2" prot="public" virt="virtual"><scope>ansys::dpf::PropertyField</scope><name>describe</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459" prot="public" virt="virtual"><scope>ansys::dpf::PropertyField</scope><name>empty</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1aac8837afab55e9ebe3087e966ebc9edd" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>emptyPropertyField</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a78f843b67d4df51c5bd0c57f98d9cc17" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>entityData</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a433fe762b8bbf44c5cb7bc09e8e4f7a7" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>entityDataById</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a4df2020806c5f8d2ace1faa6b26a1ecb" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>fieldDefinition</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a90f3baa944b4dd1a49adbcbec5a3d766" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>fillCursor</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a968afd9daa0b0f13b65a2ac61369d73a" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>getClient</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1ab4fd6ed2f236efb404d4454944b4474b" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>getData</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1aa9dc8cbf0e0bb1fd4efb704737ad2065" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>getHeaderAsDataTree</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a55c6d4eb97b98ca58672b149e2bf1483" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>getIds</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a1a5634202c15404b6b24e8f50e51cb66" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>hasBeenMovedLocally</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ae198f89868d85c7db6dc1a934a1d3c15" prot="public" virt="virtual"><scope>ansys::dpf::PropertyField</scope><name>hasInternalObject</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9f9789ff61cc9d400a2a344830706b73" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>isOnCommonAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1aa64d5f8fcd7d85ad6ebf708494dbefd7" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>isSameObject</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a9dbf80f14848a93eb311d97a4b3da8dd" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>location</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1aaf5a2e4abe9da5e77cc7b954b0ef81ba" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>name</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a1a2b01c58216827f720b4a76a8f52d9d" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>numberOfComponents</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a3cb32ee79adc23f5c7ab5f6b6d831e26" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>numberOfElementaryData</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1adec6a0cbb0a46d7831e223fad50aab62" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a790b5c4569b3f2b6c58c0e9292147d12" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a1856a7b2187e8fffd97d9d04b5da798a" prot="private" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>PropertyField</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a9d57c71f4fad64a1f5946ebbd39db3c7" prot="private" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>PropertyField</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a41f086b401649bbbaa1e1242b0d9ac03" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>PropertyField</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1ac8723c38fad6636b55b31a3d6d8ccc76" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>PropertyField</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a88b5dfeb3f030e6afbfbf87efbcc3561" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>PropertyField</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1ad787ee870fa5d12ba322bd1d3bbb52cd" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>PropertyField</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a89260e610bdbe97eaf9a0f6364daf0de" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>PropertyField</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a74bc6460d3924f837b480b725f2d230c" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>push_back</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1ac709022d579f02b554fdc06fe0a59f7f" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>push_back</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a2200849fcd3d0c6ebc171b15d9cb8e54" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>push_back</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1ad7e142a83fd4138694a80f1a36bb778a" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>reserve</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1aafa75bc6e0e191b4914282ad620a5c35" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>resize</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a9d57c8ecf193532958d34de87db60da0" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>scoping</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1ae40e20aaa78a8bfc6ff8176cb9381152" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>setData</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a74e8c4842a23651d988f8a264c9eabe6" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>setData</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1afb3f6cd0c63ea162c4a7a53ef8066e7f" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>setDataPointer</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a4e7b773455c0cf6aefdfaa5e25261940" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>setDataPointer</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a4ed774aecf5c68516a17da55da7b0ff7" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>setFieldDefinition</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a9c5f2a9ad893a89b067fc93c72170d56" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>setHeaderAsDataTree</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1aefb5d03109bcc57f95ca1257ab92ed7b" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>setName</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a6e63d1d672b5b1d074052e9e9f0ad239" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>setScoping</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a8124e1eaed971c006045b89b5fb28798" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>setSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1ae715fc13eaca1ce40e0fcd686d3c8555" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>setSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1a8244b39576d028e8168557c0764d49a6" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>setSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1ac99d91c191df704b90601b43076c216a" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyField</scope><name>support</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ab7c83b6ea160c2b115e056f6c312112f" prot="public" virt="virtual"><scope>ansys::dpf::PropertyField</scope><name>~DpfTypes</name></member>
+      <member refid="classansys_1_1dpf_1_1PropertyField_1ae4d4f5e5f1452e4fba0fcf5897649d17" prot="public" virt="virtual"><scope>ansys::dpf::PropertyField</scope><name>~PropertyField</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

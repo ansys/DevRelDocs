@@ -1,0 +1,558 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1Streams" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::Streams</compoundname>
+    <basecompoundref refid="classansys_1_1dpf_1_1DpfTypes" prot="public" virt="non-virtual">ansys::dpf::DpfTypes</basecompoundref>
+    <includes local="no">dpf_api.h</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1Streams_1a33ff3f826991522d2e77c1c523f33e19" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Operator</definition>
+        <argsstring></argsstring>
+        <name>Operator</name>
+        <qualifiedname>ansys::dpf::Streams::Operator</qualifiedname>
+        <param>
+          <type>Operator</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3596" column="14" bodyfile="dpf_api.h" bodystart="3596" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1Streams_1afa07847c7cb432b260e61a0c18025ba3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Workflow</definition>
+        <argsstring></argsstring>
+        <name>Workflow</name>
+        <qualifiedname>ansys::dpf::Streams::Workflow</qualifiedname>
+        <param>
+          <type>Workflow</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3597" column="14" bodyfile="dpf_api.h" bodystart="3597" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1Streams_1a81d95df60edf516a1de9878b780f8fb3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class OperatorMain</definition>
+        <argsstring></argsstring>
+        <name>OperatorMain</name>
+        <qualifiedname>ansys::dpf::Streams::OperatorMain</qualifiedname>
+        <param>
+          <type>OperatorMain</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3598" column="14" bodyfile="dpf_api.h" bodystart="3598" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1Streams_1a4d716179fdda163f10d901eb583050bf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class RemoteWorkflow</definition>
+        <argsstring></argsstring>
+        <name>RemoteWorkflow</name>
+        <qualifiedname>ansys::dpf::Streams::RemoteWorkflow</qualifiedname>
+        <param>
+          <type>RemoteWorkflow</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3599" column="14" bodyfile="dpf_api.h" bodystart="3599" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1Streams_1a9820c685b67a3355c042bb0b3365d9e2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Any</definition>
+        <argsstring></argsstring>
+        <name>Any</name>
+        <qualifiedname>ansys::dpf::Streams::Any</qualifiedname>
+        <param>
+          <type>Any</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3600" column="14" bodyfile="dpf_api.h" bodystart="3600" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1Streams_1a0188648e79792cb24b2117066be505eb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class LabelSpace</definition>
+        <argsstring></argsstring>
+        <name>LabelSpace</name>
+        <qualifiedname>ansys::dpf::Streams::LabelSpace</qualifiedname>
+        <param>
+          <type>LabelSpace</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3601" column="14" bodyfile="dpf_api.h" bodystart="3601" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1Streams_1a183aa7f533f994799a7dec66caf1191a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class RemoteOperator</definition>
+        <argsstring></argsstring>
+        <name>RemoteOperator</name>
+        <qualifiedname>ansys::dpf::Streams::RemoteOperator</qualifiedname>
+        <param>
+          <type>RemoteOperator</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3602" column="14" bodyfile="dpf_api.h" bodystart="3602" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1Streams_1acc06c4380c923e11af63f95e97c3c259" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class GenericDataContainer</definition>
+        <argsstring></argsstring>
+        <name>GenericDataContainer</name>
+        <qualifiedname>ansys::dpf::Streams::GenericDataContainer</qualifiedname>
+        <param>
+          <type>GenericDataContainer</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3603" column="14" bodyfile="dpf_api.h" bodystart="3603" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1Streams_1a5db1c99e2c94b26278f3838c85cdb618" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Client</definition>
+        <argsstring></argsstring>
+        <name>Client</name>
+        <qualifiedname>ansys::dpf::Streams::Client</qualifiedname>
+        <param>
+          <type>Client</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3604" column="14" bodyfile="dpf_api.h" bodystart="3604" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Streams_1a2c06ce5c4178519809f9e52da492cabf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Streams::Streams</definition>
+        <argsstring>(opaque::DpfInternalSharedObject *)</argsstring>
+        <name>Streams</name>
+        <qualifiedname>ansys::dpf::Streams::Streams</qualifiedname>
+        <param>
+          <type>opaque::DpfInternalSharedObject *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3607" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Streams_1acaed304f6bc14eab2751b7acbebe469e" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void *const</type>
+        <definition>void *const ansys::dpf::Streams::getExternalStreamWrap</definition>
+        <argsstring>(std::string const &amp;key) const</argsstring>
+        <name>getExternalStreamWrap</name>
+        <qualifiedname>ansys::dpf::Streams::getExternalStreamWrap</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3609" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Streams_1a37e0bc5eaafd69ddb0525f9e02339cd6" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void *const</type>
+        <definition>void *const ansys::dpf::Streams::getExternalStreamLabelWrap</definition>
+        <argsstring>(LabelSpace const &amp;identifier) const</argsstring>
+        <name>getExternalStreamLabelWrap</name>
+        <qualifiedname>ansys::dpf::Streams::getExternalStreamLabelWrap</qualifiedname>
+        <param>
+          <type>LabelSpace const &amp;</type>
+          <declname>identifier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3610" column="12"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Streams_1a3be81fb59adfb4050c563ade28ea99c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ansys::dpf::Streams::~Streams</definition>
+        <argsstring>()</argsstring>
+        <name>~Streams</name>
+        <qualifiedname>ansys::dpf::Streams::~Streams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3612" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Streams_1a8260b408904e6e11e24e2cf1ca3f7bd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Streams::Streams</definition>
+        <argsstring>(DataSources const &amp;dataSources, bool open_files=false)</argsstring>
+        <name>Streams</name>
+        <qualifiedname>ansys::dpf::Streams::Streams</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1DataSources" kindref="compound">DataSources</ref> const &amp;</type>
+          <declname>dataSources</declname>
+          <briefdescription><para>[in] Data source from which to create stream. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>open_files</declname>
+          <defval>false</defval>
+          <briefdescription><para>[in] Wether files defined in the dataSources are opened at the creation of the <ref refid="classansys_1_1dpf_1_1Streams" kindref="compound">Streams</ref> (default false). </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a stream from given data sources. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3614" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Streams_1a2d3487cb883138358d6e0cc76bb71974" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Streams::Streams</definition>
+        <argsstring>(Streams const &amp;)</argsstring>
+        <name>Streams</name>
+        <qualifiedname>ansys::dpf::Streams::Streams</qualifiedname>
+        <param>
+          <type>Streams const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3617" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Streams_1a4e584cc75bc6d32cd768005451643ef9" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Streams::Streams</definition>
+        <argsstring>(Streams &amp;&amp;) noexcept</argsstring>
+        <name>Streams</name>
+        <qualifiedname>ansys::dpf::Streams::Streams</qualifiedname>
+        <param>
+          <type>Streams &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3618" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Streams_1a24c07bb8c759f0a8b2cacd44af9ac929" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Streams::Streams</definition>
+        <argsstring>(int id, Client const *const client)</argsstring>
+        <name>Streams</name>
+        <qualifiedname>ansys::dpf::Streams::Streams</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+          <briefdescription><para>[in] Id of the <ref refid="classansys_1_1dpf_1_1Streams" kindref="compound">Streams</ref> on the server&apos;s database. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>Client const *const</type>
+          <declname>client</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> instance designating the IP, port and protocol to use. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieve an existing instance of <ref refid="classansys_1_1dpf_1_1Streams" kindref="compound">Streams</ref> on a server. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3621" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Streams_1a6f88f1efa7e63cf70d4998621697d182" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Streams &amp;</type>
+        <definition>Streams &amp; ansys::dpf::Streams::operator=</definition>
+        <argsstring>(Streams const &amp;)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::Streams::operator=</qualifiedname>
+        <param>
+          <type>Streams const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3624" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Streams_1ac8a81b6a8f8ffbf11c3d86cbe54f6c78" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>Streams &amp;</type>
+        <definition>Streams &amp; ansys::dpf::Streams::operator=</definition>
+        <argsstring>(Streams &amp;&amp;) noexcept</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::Streams::operator=</qualifiedname>
+        <param>
+          <type>Streams &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3625" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Streams_1a959c1869453d29b05a9fe3ce191404fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::Streams::releaseFiles</definition>
+        <argsstring>()</argsstring>
+        <name>releaseFiles</name>
+        <qualifiedname>ansys::dpf::Streams::releaseFiles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Closes all files and releases file resources. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3628" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Streams_1a13bc16955004519b53af3b0cc4ab613a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::Streams::addStream</definition>
+        <argsstring>(ExternalStream *stream)</argsstring>
+        <name>addStream</name>
+        <qualifiedname>ansys::dpf::Streams::addStream</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1ExternalStream" kindref="compound">ExternalStream</ref> *</type>
+          <declname>stream</declname>
+          <briefdescription><para>[in] External stream to add. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add external stream. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3631" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Streams_1a6451cbe0726b6ab1da471b7bda20fabb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::Streams::addStream</definition>
+        <argsstring>(ExternalStream *stream, LabelSpace const &amp;identifier)</argsstring>
+        <name>addStream</name>
+        <qualifiedname>ansys::dpf::Streams::addStream</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1ExternalStream" kindref="compound">ExternalStream</ref> *</type>
+          <declname>stream</declname>
+          <briefdescription><para>[in] External stream to add. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>LabelSpace const &amp;</type>
+          <declname>identifier</declname>
+          <briefdescription><para>[in] Identifier returned by the data sources. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add external stream. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3635" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Streams_1a1e1392a7f458c6a150f8cca4b02eb73f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ExternalStreamType</type>
+          </param>
+        </templateparamlist>
+        <type>ExternalStreamType *const</type>
+        <definition>ExternalStreamType *const ansys::dpf::Streams::getExternalStream</definition>
+        <argsstring>(std::string const &amp;key) const</argsstring>
+        <name>getExternalStream</name>
+        <qualifiedname>ansys::dpf::Streams::getExternalStream</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3640" column="26" bodyfile="dpf_api.h" bodystart="3640" bodyend="3645"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Streams_1ab140ed7556c377c5332578fbb5a28a21" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ExternalStreamType</type>
+          </param>
+        </templateparamlist>
+        <type>ExternalStreamType *const</type>
+        <definition>ExternalStreamType *const ansys::dpf::Streams::getExternalStream</definition>
+        <argsstring>(LabelSpace const &amp;identifier) const</argsstring>
+        <name>getExternalStream</name>
+        <qualifiedname>ansys::dpf::Streams::getExternalStream</qualifiedname>
+        <param>
+          <type>LabelSpace const &amp;</type>
+          <declname>identifier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3647" column="26" bodyfile="dpf_api.h" bodystart="3647" bodyend="3652"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Streams_1a6cc780b11dc285dab97f73e1cb347872" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1DataSources" kindref="compound">DataSources</ref></type>
+        <definition>DataSources ansys::dpf::Streams::dataSources</definition>
+        <argsstring>() const</argsstring>
+        <name>dataSources</name>
+        <qualifiedname>ansys::dpf::Streams::dataSources</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3654" column="13"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Streams_1a5bace24c4a163ba13a5aca8fb6f24199" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Streams</type>
+        <definition>static Streams ansys::dpf::Streams::emptyStreams</definition>
+        <argsstring>()</argsstring>
+        <name>emptyStreams</name>
+        <qualifiedname>ansys::dpf::Streams::emptyStreams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create an empty streams. <simplesect kind="return"><para>Empty <ref refid="classansys_1_1dpf_1_1Streams" kindref="compound">Streams</ref>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3658" column="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Defines an open, ready-to-use, data sources. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classansys_1_1dpf_1_1Streams" kindref="compound">Streams</ref> is an entity containing the data sources. Once the files in the streams are opened, they stay opened and they keep some data in cache to make the next evaluations faster. To close the files, release the streams. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ansys::dpf::DpfTypes</label>
+        <link refid="classansys_1_1dpf_1_1DpfTypes"/>
+      </node>
+      <node id="1">
+        <label>ansys::dpf::Streams</label>
+        <link refid="classansys_1_1dpf_1_1Streams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ansys::dpf::DpfTypes</label>
+        <link refid="classansys_1_1dpf_1_1DpfTypes"/>
+      </node>
+      <node id="1">
+        <label>ansys::dpf::Streams</label>
+        <link refid="classansys_1_1dpf_1_1Streams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="dpf_api.h" line="3594" column="1" bodyfile="dpf_api.h" bodystart="3595" bodyend="3660"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1Streams_1a13bc16955004519b53af3b0cc4ab613a" prot="public" virt="non-virtual"><scope>ansys::dpf::Streams</scope><name>addStream</name></member>
+      <member refid="classansys_1_1dpf_1_1Streams_1a6451cbe0726b6ab1da471b7bda20fabb" prot="public" virt="non-virtual"><scope>ansys::dpf::Streams</scope><name>addStream</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1aea34d37e0c080126eff70db34bf46597" prot="public" virt="non-virtual"><scope>ansys::dpf::Streams</scope><name>callAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1Streams_1a6cc780b11dc285dab97f73e1cb347872" prot="public" virt="non-virtual"><scope>ansys::dpf::Streams</scope><name>dataSources</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9977945710983bc03d2940fa007847b2" prot="public" virt="virtual"><scope>ansys::dpf::Streams</scope><name>describe</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459" prot="public" virt="virtual"><scope>ansys::dpf::Streams</scope><name>empty</name></member>
+      <member refid="classansys_1_1dpf_1_1Streams_1a5bace24c4a163ba13a5aca8fb6f24199" prot="public" virt="non-virtual"><scope>ansys::dpf::Streams</scope><name>emptyStreams</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a968afd9daa0b0f13b65a2ac61369d73a" prot="public" virt="non-virtual"><scope>ansys::dpf::Streams</scope><name>getClient</name></member>
+      <member refid="classansys_1_1dpf_1_1Streams_1a1e1392a7f458c6a150f8cca4b02eb73f" prot="public" virt="non-virtual"><scope>ansys::dpf::Streams</scope><name>getExternalStream</name></member>
+      <member refid="classansys_1_1dpf_1_1Streams_1ab140ed7556c377c5332578fbb5a28a21" prot="public" virt="non-virtual"><scope>ansys::dpf::Streams</scope><name>getExternalStream</name></member>
+      <member refid="classansys_1_1dpf_1_1Streams_1a37e0bc5eaafd69ddb0525f9e02339cd6" prot="private" virt="non-virtual"><scope>ansys::dpf::Streams</scope><name>getExternalStreamLabelWrap</name></member>
+      <member refid="classansys_1_1dpf_1_1Streams_1acaed304f6bc14eab2751b7acbebe469e" prot="private" virt="non-virtual"><scope>ansys::dpf::Streams</scope><name>getExternalStreamWrap</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a1a5634202c15404b6b24e8f50e51cb66" prot="public" virt="non-virtual"><scope>ansys::dpf::Streams</scope><name>hasBeenMovedLocally</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ae198f89868d85c7db6dc1a934a1d3c15" prot="public" virt="virtual"><scope>ansys::dpf::Streams</scope><name>hasInternalObject</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9f9789ff61cc9d400a2a344830706b73" prot="public" virt="non-virtual"><scope>ansys::dpf::Streams</scope><name>isOnCommonAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1aa64d5f8fcd7d85ad6ebf708494dbefd7" prot="public" virt="non-virtual"><scope>ansys::dpf::Streams</scope><name>isSameObject</name></member>
+      <member refid="classansys_1_1dpf_1_1Streams_1a6f88f1efa7e63cf70d4998621697d182" prot="public" virt="non-virtual"><scope>ansys::dpf::Streams</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1Streams_1ac8a81b6a8f8ffbf11c3d86cbe54f6c78" prot="public" virt="non-virtual"><scope>ansys::dpf::Streams</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1Streams_1a959c1869453d29b05a9fe3ce191404fb" prot="public" virt="non-virtual"><scope>ansys::dpf::Streams</scope><name>releaseFiles</name></member>
+      <member refid="classansys_1_1dpf_1_1Streams_1a2c06ce5c4178519809f9e52da492cabf" prot="private" virt="non-virtual"><scope>ansys::dpf::Streams</scope><name>Streams</name></member>
+      <member refid="classansys_1_1dpf_1_1Streams_1a8260b408904e6e11e24e2cf1ca3f7bd2" prot="public" virt="non-virtual"><scope>ansys::dpf::Streams</scope><name>Streams</name></member>
+      <member refid="classansys_1_1dpf_1_1Streams_1a2d3487cb883138358d6e0cc76bb71974" prot="public" virt="non-virtual"><scope>ansys::dpf::Streams</scope><name>Streams</name></member>
+      <member refid="classansys_1_1dpf_1_1Streams_1a4e584cc75bc6d32cd768005451643ef9" prot="public" virt="non-virtual"><scope>ansys::dpf::Streams</scope><name>Streams</name></member>
+      <member refid="classansys_1_1dpf_1_1Streams_1a24c07bb8c759f0a8b2cacd44af9ac929" prot="public" virt="non-virtual"><scope>ansys::dpf::Streams</scope><name>Streams</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ab7c83b6ea160c2b115e056f6c312112f" prot="public" virt="virtual"><scope>ansys::dpf::Streams</scope><name>~DpfTypes</name></member>
+      <member refid="classansys_1_1dpf_1_1Streams_1a3be81fb59adfb4050c563ade28ea99c5" prot="public" virt="virtual"><scope>ansys::dpf::Streams</scope><name>~Streams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

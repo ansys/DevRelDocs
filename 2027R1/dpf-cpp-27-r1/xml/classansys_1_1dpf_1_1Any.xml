@@ -1,0 +1,1419 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1Any" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::Any</compoundname>
+    <basecompoundref refid="classansys_1_1dpf_1_1DpfTypes" prot="public" virt="non-virtual">ansys::dpf::DpfTypes</basecompoundref>
+    <includes local="no">dpf_api.h</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1Any_1a81d95df60edf516a1de9878b780f8fb3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class OperatorMain</definition>
+        <argsstring></argsstring>
+        <name>OperatorMain</name>
+        <qualifiedname>ansys::dpf::Any::OperatorMain</qualifiedname>
+        <param>
+          <type>OperatorMain</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="166" column="14" bodyfile="dpf_api.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1Any_1a33ff3f826991522d2e77c1c523f33e19" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Operator</definition>
+        <argsstring></argsstring>
+        <name>Operator</name>
+        <qualifiedname>ansys::dpf::Any::Operator</qualifiedname>
+        <param>
+          <type>Operator</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="167" column="14" bodyfile="dpf_api.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1Any_1afa07847c7cb432b260e61a0c18025ba3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Workflow</definition>
+        <argsstring></argsstring>
+        <name>Workflow</name>
+        <qualifiedname>ansys::dpf::Any::Workflow</qualifiedname>
+        <param>
+          <type>Workflow</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="168" column="14" bodyfile="dpf_api.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1Any_1acc06c4380c923e11af63f95e97c3c259" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class GenericDataContainer</definition>
+        <argsstring></argsstring>
+        <name>GenericDataContainer</name>
+        <qualifiedname>ansys::dpf::Any::GenericDataContainer</qualifiedname>
+        <param>
+          <type>GenericDataContainer</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="169" column="14" bodyfile="dpf_api.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1Any_1af891ea2ca8eebe3679e051763ba989ce" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class CollectionBase</definition>
+        <argsstring></argsstring>
+        <name>CollectionBase</name>
+        <qualifiedname>ansys::dpf::Any::CollectionBase</qualifiedname>
+        <param>
+          <type>CollectionBase</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="170" column="14" bodyfile="dpf_api.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1Any_1af764561c544bacc1b90b526ee8d3c708" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class core</definition>
+        <argsstring></argsstring>
+        <name>core</name>
+        <qualifiedname>ansys::dpf::Any::core</qualifiedname>
+        <param>
+          <type>core</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="171" column="14" bodyfile="dpf_api.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1Any_1adf19ceee88ba644aceacffbd1495909b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename DataT</type>
+          </param>
+          <param>
+            <type>typename IsGDC</type>
+          </param>
+        </templateparamlist>
+        <type>struct</type>
+        <definition>friend struct ConstructHelpers::construct_trait</definition>
+        <argsstring></argsstring>
+        <name>ConstructHelpers::construct_trait</name>
+        <qualifiedname>ansys::dpf::Any::construct_trait</qualifiedname>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait" kindref="compound">ConstructHelpers::construct_trait</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="174" column="15" bodyfile="dpf_api.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1ab875c0a115bfa1a8eafbe8d296b0f920" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Any::Any</definition>
+        <argsstring>(opaque::DpfInternalSharedObject *)</argsstring>
+        <name>Any</name>
+        <qualifiedname>ansys::dpf::Any::Any</qualifiedname>
+        <param>
+          <type>opaque::DpfInternalSharedObject *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="177" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a6225d28d7704821aa2747b64d6ede5f3" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::Any::objectIsOfType</definition>
+        <argsstring>(std::string const &amp;type_name) const</argsstring>
+        <name>objectIsOfType</name>
+        <qualifiedname>ansys::dpf::Any::objectIsOfType</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>type_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="178" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a1ab7509e7cb58dfe3a7ec6f1ab239629" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename DataT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void ansys::dpf::Any::specializedConstructor</definition>
+        <argsstring>(const DataT &amp;value, Client const *const client)</argsstring>
+        <name>specializedConstructor</name>
+        <qualifiedname>ansys::dpf::Any::specializedConstructor</qualifiedname>
+        <param>
+          <type>const DataT &amp;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> const *const</type>
+          <declname>client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>calls the differente implementation of construct_trait::createAny. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="182" column="6" bodyfile="dpf_api.h" bodystart="182" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a352fb6c3bb985ffac3b72c916be97525" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename DataT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void ansys::dpf::Any::internalSpecializedConstructor</definition>
+        <argsstring>(const DataT &amp;value, Client const *const client)</argsstring>
+        <name>internalSpecializedConstructor</name>
+        <qualifiedname>ansys::dpf::Any::internalSpecializedConstructor</qualifiedname>
+        <param>
+          <type>const DataT &amp;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> const *const</type>
+          <declname>client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>called by construct_trait::createAny. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="188" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a1965b5a155fdd4951a9978540538c6fd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename DataT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void ansys::dpf::Any::internalCollectionSpecializedConstructor</definition>
+        <argsstring>(const Collection&lt; DataT &gt; &amp;value, Client const *const)</argsstring>
+        <name>internalCollectionSpecializedConstructor</name>
+        <qualifiedname>ansys::dpf::Any::internalCollectionSpecializedConstructor</qualifiedname>
+        <param>
+          <type>const <ref refid="classansys_1_1dpf_1_1Collection" kindref="compound">Collection</ref>&lt; DataT &gt; &amp;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> const * const</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="190" column="6" bodyfile="dpf_api.h" bodystart="190" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a35ef6550b0dcc158e2d7098454fe4479" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename DataT</type>
+          </param>
+        </templateparamlist>
+        <type>DataT</type>
+        <definition>DataT ansys::dpf::Any::internalGet</definition>
+        <argsstring>() const</argsstring>
+        <name>internalGet</name>
+        <qualifiedname>ansys::dpf::Any::internalGet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>specified template type held in the <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="322" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a2e1546c32b5f620c59eeec1203d81c0a" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename DataT</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classansys_1_1dpf_1_1Collection" kindref="compound">Collection</ref>&lt; DataT &gt;</type>
+        <definition>Collection&lt; DataT &gt; ansys::dpf::Any::internalGetCollection</definition>
+        <argsstring>() const</argsstring>
+        <name>internalGetCollection</name>
+        <qualifiedname>ansys::dpf::Any::internalGetCollection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="324" column="12" bodyfile="dpf_api.h" bodystart="324" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a23405416841365a763c71322208135f6" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>opaque::DpfInternalSharedObject *</type>
+        <definition>opaque::DpfInternalSharedObject * ansys::dpf::Any::opaqueGetAsCollection</definition>
+        <argsstring>() const</argsstring>
+        <name>opaqueGetAsCollection</name>
+        <qualifiedname>ansys::dpf::Any::opaqueGetAsCollection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="327" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a267ceda0447f3e2fd4f061b4980f9211" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>opaque::DpfObject *</type>
+        <definition>opaque::DpfObject * ansys::dpf::Any::opaqueNewFromCollection</definition>
+        <argsstring>(opaque::DpfObject *value)</argsstring>
+        <name>opaqueNewFromCollection</name>
+        <qualifiedname>ansys::dpf::Any::opaqueNewFromCollection</qualifiedname>
+        <param>
+          <type>opaque::DpfObject *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="328" column="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a6604617198bee45653ad2663237002c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual ansys::dpf::Any::~Any</definition>
+        <argsstring>()</argsstring>
+        <name>~Any</name>
+        <qualifiedname>ansys::dpf::Any::~Any</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="195" column="9" bodyfile="dpf_api.h" bodystart="195" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1af23b70b81b8f1d7cfddcd5e9d79e60f5" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename DataT</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>ansys::dpf::Any::Any</definition>
+        <argsstring>(const DataT &amp;value, Client const *const client=nullptr)</argsstring>
+        <name>Any</name>
+        <qualifiedname>ansys::dpf::Any::Any</qualifiedname>
+        <param>
+          <type>const DataT &amp;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> const *const</type>
+          <declname>client</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="198" column="10" bodyfile="dpf_api.h" bodystart="198" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1ab24d321afb6bc120c0b49fd269f28a91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Any::Any</definition>
+        <argsstring>(Any const &amp;)</argsstring>
+        <name>Any</name>
+        <qualifiedname>ansys::dpf::Any::Any</qualifiedname>
+        <param>
+          <type>Any const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="204" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a3570cea5938292c99e277fef602eb60f" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Any::Any</definition>
+        <argsstring>(Any &amp;&amp;) noexcept</argsstring>
+        <name>Any</name>
+        <qualifiedname>ansys::dpf::Any::Any</qualifiedname>
+        <param>
+          <type>Any &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="205" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a03e8005283ad244a72b3126b43bfe333" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Any &amp;</type>
+        <definition>Any &amp; ansys::dpf::Any::operator=</definition>
+        <argsstring>(Any const &amp;)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::Any::operator=</qualifiedname>
+        <param>
+          <type>Any const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="210" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1abea02211d9b1bbdacfe0f3cdebb4988e" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>Any &amp;</type>
+        <definition>Any &amp; ansys::dpf::Any::operator=</definition>
+        <argsstring>(Any &amp;&amp;) noexcept</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::Any::operator=</qualifiedname>
+        <param>
+          <type>Any &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="211" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a1849f144686207e9923c4660416eadcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::Any::wrappedType</definition>
+        <argsstring>()</argsstring>
+        <name>wrappedType</name>
+        <qualifiedname>ansys::dpf::Any::wrappedType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="216" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a6a0f7e3bc8ab2110cc3c1a96423898a1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename DataT</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool ansys::dpf::Any::testType</definition>
+        <argsstring>() const</argsstring>
+        <name>testType</name>
+        <qualifiedname>ansys::dpf::Any::testType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Indication that the object is of the type of data. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="220" column="6" bodyfile="dpf_api.h" bodystart="220" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a3755fc547ffa733c3a6b8b7bae28da42" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename DataT</type>
+          </param>
+        </templateparamlist>
+        <type>DataT</type>
+        <definition>DataT ansys::dpf::Any::get</definition>
+        <argsstring>() const</argsstring>
+        <name>get</name>
+        <qualifiedname>ansys::dpf::Any::get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>specified template type held in the <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="227" column="7" bodyfile="dpf_api.h" bodystart="227" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a00cce5475752905812ab028e4c1ca97b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+        <definition>dp_int ansys::dpf::Any::getAsInt</definition>
+        <argsstring>() const</argsstring>
+        <name>getAsInt</name>
+        <qualifiedname>ansys::dpf::Any::getAsInt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Int held in the <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="233" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a890fb93b1496ef38284322110f682eae" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::Any::getAsString</definition>
+        <argsstring>() const</argsstring>
+        <name>getAsString</name>
+        <qualifiedname>ansys::dpf::Any::getAsString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>String held in the <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="236" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a4576e195b7ef1e4a48b26f57db844289" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double ansys::dpf::Any::getAsDouble</definition>
+        <argsstring>() const</argsstring>
+        <name>getAsDouble</name>
+        <qualifiedname>ansys::dpf::Any::getAsDouble</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Double held in the <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="239" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a9b3531295f844610cc131f78c96ef04d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DpfVector&lt; int &gt;</type>
+        <definition>DpfVector&lt; int &gt; ansys::dpf::Any::getAsIntVector</definition>
+        <argsstring>() const</argsstring>
+        <name>getAsIntVector</name>
+        <qualifiedname>ansys::dpf::Any::getAsIntVector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>int vector held in the <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="242" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a8bb8b9c5c9b8caccff78ff66a16780cb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref></type>
+        <definition>Field ansys::dpf::Any::getAsField</definition>
+        <argsstring>() const</argsstring>
+        <name>getAsField</name>
+        <qualifiedname>ansys::dpf::Any::getAsField</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref> held in the <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="245" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a91f7cbddb5ec5ce949a7a9f692d1d113" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1PropertyField" kindref="compound">PropertyField</ref></type>
+        <definition>PropertyField ansys::dpf::Any::getAsPropertyField</definition>
+        <argsstring>() const</argsstring>
+        <name>getAsPropertyField</name>
+        <qualifiedname>ansys::dpf::Any::getAsPropertyField</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1PropertyField" kindref="compound">PropertyField</ref> held in the <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="248" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a1fede102c77bed4303bc8aa9210863b2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref></type>
+        <definition>Scoping ansys::dpf::Any::getAsScoping</definition>
+        <argsstring>() const</argsstring>
+        <name>getAsScoping</name>
+        <qualifiedname>ansys::dpf::Any::getAsScoping</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref> held in the <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="251" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1af48a4b58d4d52dd107e75fdb6db2cdea" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref></type>
+        <definition>FieldsContainer ansys::dpf::Any::getAsFieldsContainer</definition>
+        <argsstring>() const</argsstring>
+        <name>getAsFieldsContainer</name>
+        <qualifiedname>ansys::dpf::Any::getAsFieldsContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref> held in the <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="254" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1abcc1dc4052f9679abd3f13538ada623e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1ScopingsContainer" kindref="compound">ScopingsContainer</ref></type>
+        <definition>ScopingsContainer ansys::dpf::Any::getAsScopingsContainer</definition>
+        <argsstring>() const</argsstring>
+        <name>getAsScopingsContainer</name>
+        <qualifiedname>ansys::dpf::Any::getAsScopingsContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1ScopingsContainer" kindref="compound">ScopingsContainer</ref> held in the <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="257" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1aee25715543d8396d96a2826cf1d84a98" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1MeshesContainer" kindref="compound">MeshesContainer</ref></type>
+        <definition>MeshesContainer ansys::dpf::Any::getAsMeshesContainer</definition>
+        <argsstring>() const</argsstring>
+        <name>getAsMeshesContainer</name>
+        <qualifiedname>ansys::dpf::Any::getAsMeshesContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1MeshesContainer" kindref="compound">MeshesContainer</ref> held in the <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="260" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a96bbb9c2b82fab07d230bed40d06bb47" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1TimeFreqSupport" kindref="compound">TimeFreqSupport</ref></type>
+        <definition>TimeFreqSupport ansys::dpf::Any::getAsTimeFreqSupport</definition>
+        <argsstring>() const</argsstring>
+        <name>getAsTimeFreqSupport</name>
+        <qualifiedname>ansys::dpf::Any::getAsTimeFreqSupport</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1TimeFreqSupport" kindref="compound">TimeFreqSupport</ref> held in the <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="263" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a58519b0fe5310585c78ff0b8cca8ae62" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1MeshedRegion" kindref="compound">MeshedRegion</ref></type>
+        <definition>MeshedRegion ansys::dpf::Any::getAsMeshedRegion</definition>
+        <argsstring>() const</argsstring>
+        <name>getAsMeshedRegion</name>
+        <qualifiedname>ansys::dpf::Any::getAsMeshedRegion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1MeshedRegion" kindref="compound">MeshedRegion</ref> held in the <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="266" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a4dbf7a1c952b75dc3a2f2f36992559b0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1Streams" kindref="compound">Streams</ref></type>
+        <definition>Streams ansys::dpf::Any::getAsStreams</definition>
+        <argsstring>() const</argsstring>
+        <name>getAsStreams</name>
+        <qualifiedname>ansys::dpf::Any::getAsStreams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Streams" kindref="compound">Streams</ref> held in the <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="269" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1ab65ba60185b1136c36b4ed181521bfb1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1ResultInfo" kindref="compound">ResultInfo</ref></type>
+        <definition>ResultInfo ansys::dpf::Any::getAsResultInfo</definition>
+        <argsstring>() const</argsstring>
+        <name>getAsResultInfo</name>
+        <qualifiedname>ansys::dpf::Any::getAsResultInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1ResultInfo" kindref="compound">ResultInfo</ref> held in the <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="272" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1ad25e7ea69b88bb148cc8046d50760c29" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1DataTree" kindref="compound">DataTree</ref></type>
+        <definition>DataTree ansys::dpf::Any::getAsDataTree</definition>
+        <argsstring>() const</argsstring>
+        <name>getAsDataTree</name>
+        <qualifiedname>ansys::dpf::Any::getAsDataTree</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1DataTree" kindref="compound">DataTree</ref> held in the <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="275" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a0f2541d86f4078c8f5edefe21a07206a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Workflow</type>
+        <definition>Workflow ansys::dpf::Any::getAsWorkflow</definition>
+        <argsstring>() const</argsstring>
+        <name>getAsWorkflow</name>
+        <qualifiedname>ansys::dpf::Any::getAsWorkflow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Workflow held in the <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="278" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a5c1f49a671fa9d9d53b5b98fefdbd33b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Operator</type>
+        <definition>Operator ansys::dpf::Any::getAsOperator</definition>
+        <argsstring>() const</argsstring>
+        <name>getAsOperator</name>
+        <qualifiedname>ansys::dpf::Any::getAsOperator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref> held in the <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="281" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1ae1f0a0f83dd87c93e8a36ef83e390821" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1CyclicSupport" kindref="compound">CyclicSupport</ref></type>
+        <definition>CyclicSupport ansys::dpf::Any::getAsCyclicSupport</definition>
+        <argsstring>() const</argsstring>
+        <name>getAsCyclicSupport</name>
+        <qualifiedname>ansys::dpf::Any::getAsCyclicSupport</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1CyclicSupport" kindref="compound">CyclicSupport</ref> held in the <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="284" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a52850e5eb23e6cba70ccd0c0713e3452" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1DataSources" kindref="compound">DataSources</ref></type>
+        <definition>DataSources ansys::dpf::Any::getAsDataSources</definition>
+        <argsstring>() const</argsstring>
+        <name>getAsDataSources</name>
+        <qualifiedname>ansys::dpf::Any::getAsDataSources</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1DataSources" kindref="compound">DataSources</ref> held in the <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="287" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1aaab60afc505c69dbba4046eb5eaa3709" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1StringField" kindref="compound">StringField</ref></type>
+        <definition>StringField ansys::dpf::Any::getAsStringField</definition>
+        <argsstring>() const</argsstring>
+        <name>getAsStringField</name>
+        <qualifiedname>ansys::dpf::Any::getAsStringField</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1StringField" kindref="compound">StringField</ref> held in the <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="290" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a8a4ae829c4e5142a390158b7f1842cfb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>GenericDataContainer</type>
+        <definition>GenericDataContainer ansys::dpf::Any::getAsGenericDataContainer</definition>
+        <argsstring>() const</argsstring>
+        <name>getAsGenericDataContainer</name>
+        <qualifiedname>ansys::dpf::Any::getAsGenericDataContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>GenericDataContainer held in the <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="293" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a1dca8be1c667aecd16d76821088d1c58" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer" kindref="compound">CustomTypeFieldsContainer</ref></type>
+        <definition>CustomTypeFieldsContainer ansys::dpf::Any::getAsCustomTypeFieldsContainer</definition>
+        <argsstring>() const</argsstring>
+        <name>getAsCustomTypeFieldsContainer</name>
+        <qualifiedname>ansys::dpf::Any::getAsCustomTypeFieldsContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer" kindref="compound">CustomTypeFieldsContainer</ref> held in the <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="296" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a971efc6d276a05d1e2e047878cdfb56a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref></type>
+        <definition>CustomTypeField ansys::dpf::Any::getAsCustomTypeField</definition>
+        <argsstring>() const</argsstring>
+        <name>getAsCustomTypeField</name>
+        <qualifiedname>ansys::dpf::Any::getAsCustomTypeField</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref> held in the <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="299" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a53dda1baccbaa272f72df5195f30591b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref></type>
+        <definition>LabelSpace ansys::dpf::Any::getAsLabelSpace</definition>
+        <argsstring>() const</argsstring>
+        <name>getAsLabelSpace</name>
+        <qualifiedname>ansys::dpf::Any::getAsLabelSpace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> held in the <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="302" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1ae414564b0c53e55acf9878a9c3237784" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename DataT</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classansys_1_1dpf_1_1Collection" kindref="compound">Collection</ref>&lt; DataT &gt;</type>
+        <definition>Collection&lt; DataT &gt; ansys::dpf::Any::getAsCollection</definition>
+        <argsstring>() const</argsstring>
+        <name>getAsCollection</name>
+        <qualifiedname>ansys::dpf::Any::getAsCollection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>AnyCollection held in the <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object. </para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="306" column="12" bodyfile="dpf_api.h" bodystart="306" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1adde807f660e7d288e709f3d372a1b916" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::Any::getAsFbsReference</definition>
+        <argsstring>(opaque::FbsChannel *&amp;client, std::string &amp;address, opaque::FbsSlice *&amp;req_slice, size_t &amp;req_offset) const</argsstring>
+        <name>getAsFbsReference</name>
+        <qualifiedname>ansys::dpf::Any::getAsFbsReference</qualifiedname>
+        <param>
+          <type>opaque::FbsChannel *&amp;</type>
+          <declname>client</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>opaque::FbsSlice *&amp;</type>
+          <declname>req_slice</declname>
+        </param>
+        <param>
+          <type>size_t &amp;</type>
+          <declname>req_offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="309" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1ae7764836c250415dc742260c3ef5f24f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Any</type>
+        <definition>Any ansys::dpf::Any::deep_copy</definition>
+        <argsstring>(ansys::dpf::Client const *const client=nullptr) const</argsstring>
+        <name>deep_copy</name>
+        <qualifiedname>ansys::dpf::Any::deep_copy</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">ansys::dpf::Client</ref> const *const</type>
+          <declname>client</declname>
+          <defval>nullptr</defval>
+          <briefdescription><para>[in] Remote client </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Make a deep copy on a given client. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="312" column="5"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a1b66e1daab041b4e72e729e1ae3f108d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Any</type>
+        <definition>static Any ansys::dpf::Any::createFromFbsReference</definition>
+        <argsstring>(const opaque::FbsChannel *channel, std::string const &amp;address, const opaque::FbsSlice *req_slice, size_t req_offset, const ansys::dpf::Client *client=nullptr)</argsstring>
+        <name>createFromFbsReference</name>
+        <qualifiedname>ansys::dpf::Any::createFromFbsReference</qualifiedname>
+        <param>
+          <type>const opaque::FbsChannel *</type>
+          <declname>channel</declname>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>const opaque::FbsSlice *</type>
+          <declname>req_slice</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>req_offset</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classansys_1_1dpf_1_1Client" kindref="compound">ansys::dpf::Client</ref> *</type>
+          <declname>client</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="208" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a0e3cc3ade9dd3c2cf169249f35c06bf7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Any</type>
+        <definition>static Any ansys::dpf::Any::createFromFbsReference</definition>
+        <argsstring>(FbsClient const &amp;fbs_client, const opaque::FbsSlice *req_slice, const ansys::dpf::Client *client=nullptr)</argsstring>
+        <name>createFromFbsReference</name>
+        <qualifiedname>ansys::dpf::Any::createFromFbsReference</qualifiedname>
+        <param>
+          <type>FbsClient const &amp;</type>
+          <declname>fbs_client</declname>
+        </param>
+        <param>
+          <type>const opaque::FbsSlice *</type>
+          <declname>req_slice</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classansys_1_1dpf_1_1Client" kindref="compound">ansys::dpf::Client</ref> *</type>
+          <declname>client</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="209" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a8a8270659397ad6d912ef5c62d16f61c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Any</type>
+        <definition>static Any ansys::dpf::Any::retrieveFromServer</definition>
+        <argsstring>(int id, Client const *const client)</argsstring>
+        <name>retrieveFromServer</name>
+        <qualifiedname>ansys::dpf::Any::retrieveFromServer</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+          <briefdescription><para>[in] Id of the object on the server&apos;s database. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> const *const</type>
+          <declname>client</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> instance designating the IP, port and protocol to use. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieve an existing instance on a server. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="213" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Any_1a4e7350ee3446b0e8ad3c1aca88fee463" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Any</type>
+        <definition>static Any ansys::dpf::Any::emptyAny</definition>
+        <argsstring>()</argsstring>
+        <name>emptyAny</name>
+        <qualifiedname>ansys::dpf::Any::emptyAny</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="315" column="12"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> class holding a typed entity. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ansys::dpf::Any</label>
+        <link refid="classansys_1_1dpf_1_1Any"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ansys::dpf::DpfTypes</label>
+        <link refid="classansys_1_1dpf_1_1DpfTypes"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ansys::dpf::Any</label>
+        <link refid="classansys_1_1dpf_1_1Any"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ansys::dpf::DpfTypes</label>
+        <link refid="classansys_1_1dpf_1_1DpfTypes"/>
+      </node>
+    </collaborationgraph>
+    <location file="dpf_api.h" line="165" column="1" bodyfile="dpf_api.h" bodystart="165" bodyend="329"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1Any_1ab875c0a115bfa1a8eafbe8d296b0f920" prot="private" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>Any</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1af23b70b81b8f1d7cfddcd5e9d79e60f5" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>Any</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1ab24d321afb6bc120c0b49fd269f28a91" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>Any</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a3570cea5938292c99e277fef602eb60f" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>Any</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1aea34d37e0c080126eff70db34bf46597" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>callAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a1b66e1daab041b4e72e729e1ae3f108d" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>createFromFbsReference</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a0e3cc3ade9dd3c2cf169249f35c06bf7" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>createFromFbsReference</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1ae7764836c250415dc742260c3ef5f24f" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>deep_copy</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9977945710983bc03d2940fa007847b2" prot="public" virt="virtual"><scope>ansys::dpf::Any</scope><name>describe</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459" prot="public" virt="virtual"><scope>ansys::dpf::Any</scope><name>empty</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a4e7350ee3446b0e8ad3c1aca88fee463" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>emptyAny</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a3755fc547ffa733c3a6b8b7bae28da42" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>get</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1ae414564b0c53e55acf9878a9c3237784" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>getAsCollection</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a971efc6d276a05d1e2e047878cdfb56a" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>getAsCustomTypeField</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a1dca8be1c667aecd16d76821088d1c58" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>getAsCustomTypeFieldsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1ae1f0a0f83dd87c93e8a36ef83e390821" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>getAsCyclicSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a52850e5eb23e6cba70ccd0c0713e3452" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>getAsDataSources</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1ad25e7ea69b88bb148cc8046d50760c29" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>getAsDataTree</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a4576e195b7ef1e4a48b26f57db844289" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>getAsDouble</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1adde807f660e7d288e709f3d372a1b916" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>getAsFbsReference</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a8bb8b9c5c9b8caccff78ff66a16780cb" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>getAsField</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1af48a4b58d4d52dd107e75fdb6db2cdea" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>getAsFieldsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a8a4ae829c4e5142a390158b7f1842cfb" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>getAsGenericDataContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a00cce5475752905812ab028e4c1ca97b" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>getAsInt</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a9b3531295f844610cc131f78c96ef04d" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>getAsIntVector</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a53dda1baccbaa272f72df5195f30591b" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>getAsLabelSpace</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a58519b0fe5310585c78ff0b8cca8ae62" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>getAsMeshedRegion</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1aee25715543d8396d96a2826cf1d84a98" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>getAsMeshesContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a5c1f49a671fa9d9d53b5b98fefdbd33b" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>getAsOperator</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a91f7cbddb5ec5ce949a7a9f692d1d113" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>getAsPropertyField</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1ab65ba60185b1136c36b4ed181521bfb1" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>getAsResultInfo</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a1fede102c77bed4303bc8aa9210863b2" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>getAsScoping</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1abcc1dc4052f9679abd3f13538ada623e" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>getAsScopingsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a4dbf7a1c952b75dc3a2f2f36992559b0" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>getAsStreams</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a890fb93b1496ef38284322110f682eae" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>getAsString</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1aaab60afc505c69dbba4046eb5eaa3709" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>getAsStringField</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a96bbb9c2b82fab07d230bed40d06bb47" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>getAsTimeFreqSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a0f2541d86f4078c8f5edefe21a07206a" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>getAsWorkflow</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a968afd9daa0b0f13b65a2ac61369d73a" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>getClient</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a1a5634202c15404b6b24e8f50e51cb66" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>hasBeenMovedLocally</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ae198f89868d85c7db6dc1a934a1d3c15" prot="public" virt="virtual"><scope>ansys::dpf::Any</scope><name>hasInternalObject</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a1965b5a155fdd4951a9978540538c6fd" prot="private" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>internalCollectionSpecializedConstructor</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a35ef6550b0dcc158e2d7098454fe4479" prot="private" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>internalGet</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a2e1546c32b5f620c59eeec1203d81c0a" prot="private" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>internalGetCollection</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a352fb6c3bb985ffac3b72c916be97525" prot="private" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>internalSpecializedConstructor</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9f9789ff61cc9d400a2a344830706b73" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>isOnCommonAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1aa64d5f8fcd7d85ad6ebf708494dbefd7" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>isSameObject</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a6225d28d7704821aa2747b64d6ede5f3" prot="private" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>objectIsOfType</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a23405416841365a763c71322208135f6" prot="private" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>opaqueGetAsCollection</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a267ceda0447f3e2fd4f061b4980f9211" prot="private" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>opaqueNewFromCollection</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a03e8005283ad244a72b3126b43bfe333" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1abea02211d9b1bbdacfe0f3cdebb4988e" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a8a8270659397ad6d912ef5c62d16f61c" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>retrieveFromServer</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a1ab7509e7cb58dfe3a7ec6f1ab239629" prot="private" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>specializedConstructor</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a6a0f7e3bc8ab2110cc3c1a96423898a1" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>testType</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a1849f144686207e9923c4660416eadcb" prot="public" virt="non-virtual"><scope>ansys::dpf::Any</scope><name>wrappedType</name></member>
+      <member refid="classansys_1_1dpf_1_1Any_1a6604617198bee45653ad2663237002c2" prot="public" virt="virtual"><scope>ansys::dpf::Any</scope><name>~Any</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ab7c83b6ea160c2b115e056f6c312112f" prot="public" virt="virtual"><scope>ansys::dpf::Any</scope><name>~DpfTypes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

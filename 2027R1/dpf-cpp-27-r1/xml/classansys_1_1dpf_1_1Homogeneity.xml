@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1Homogeneity" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::Homogeneity</compoundname>
+    <includes local="no">dpf_api_base.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1Homogeneity_1a46338f4219da9f13d04fb0061bb81188" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::Homogeneity::_name</definition>
+        <argsstring></argsstring>
+        <name>_name</name>
+        <qualifiedname>ansys::dpf::Homogeneity::_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="315" column="13" bodyfile="dpf_api_base.h" bodystart="315" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Homogeneity_1a5ddd95a1b4667a297eb19531f722d27e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Homogeneity::Homogeneity</definition>
+        <argsstring>(std::string const &amp;name=&quot;Unknown&quot;)</argsstring>
+        <name>Homogeneity</name>
+        <qualifiedname>ansys::dpf::Homogeneity::Homogeneity</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>name</declname>
+          <defval>&quot;Unknown&quot;</defval>
+          <briefdescription><para>[in] Optional name of homogeneity. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create new homogeneity. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="319" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Homogeneity_1a192f79a5c56ddd9304822227218b199e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Homogeneity::Homogeneity</definition>
+        <argsstring>(Homogeneity const &amp;)=default</argsstring>
+        <name>Homogeneity</name>
+        <qualifiedname>ansys::dpf::Homogeneity::Homogeneity</qualifiedname>
+        <param>
+          <type>Homogeneity const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="321" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Homogeneity_1abab33dd46353450eb8b025e792a0c74f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Homogeneity::Homogeneity</definition>
+        <argsstring>(Homogeneity &amp;&amp;)=default</argsstring>
+        <name>Homogeneity</name>
+        <qualifiedname>ansys::dpf::Homogeneity::Homogeneity</qualifiedname>
+        <param>
+          <type>Homogeneity &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="322" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Homogeneity_1a1cdc8c0da49ee50ab0111341f070322e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1Homogeneity_1a5ddd95a1b4667a297eb19531f722d27e" kindref="member">Homogeneity</ref> &amp;</type>
+        <definition>Homogeneity &amp; ansys::dpf::Homogeneity::operator=</definition>
+        <argsstring>(Homogeneity const &amp;)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::Homogeneity::operator=</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Homogeneity_1a5ddd95a1b4667a297eb19531f722d27e" kindref="member">Homogeneity</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="323" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Homogeneity_1a04c1ddd43c0799283b283b6c65ee56ea" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::Homogeneity::operator==</definition>
+        <argsstring>(Homogeneity const &amp;rhs) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>ansys::dpf::Homogeneity::operator==</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Homogeneity_1a5ddd95a1b4667a297eb19531f722d27e" kindref="member">Homogeneity</ref> const &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="324" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Homogeneity_1a10804e4a1554cd01621fceb38b77fdfe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::Homogeneity::operator!=</definition>
+        <argsstring>(Homogeneity const &amp;rhs) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>ansys::dpf::Homogeneity::operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Homogeneity_1a5ddd95a1b4667a297eb19531f722d27e" kindref="member">Homogeneity</ref> const &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="325" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Homogeneity_1a805990ee94e455ca6cfb4be2cb9fd1d3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Homogeneity::operator std::string</definition>
+        <argsstring>() const</argsstring>
+        <name>operator std::string</name>
+        <qualifiedname>ansys::dpf::Homogeneity::string</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name of homogeneity. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="327" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Homogeneity_1a74bcfe9b2ed50910f2da21944e3b7437" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * ansys::dpf::Homogeneity::c_str</definition>
+        <argsstring>() const</argsstring>
+        <name>c_str</name>
+        <qualifiedname>ansys::dpf::Homogeneity::c_str</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets name of homogeneity. <simplesect kind="return"><para>Name of homogeneity. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="330" column="12"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>User defined physical measurement quantity. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Allows for the definition of a new measurement quantity. Many measurements quantities are predefined. <simplesect kind="see"><para><ref refid="structansys_1_1dpf_1_1homogeneities" kindref="compound">homogeneities</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="dpf_api_base.h" line="312" column="1" bodyfile="dpf_api_base.h" bodystart="313" bodyend="331"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1Homogeneity_1a46338f4219da9f13d04fb0061bb81188" prot="private" virt="non-virtual"><scope>ansys::dpf::Homogeneity</scope><name>_name</name></member>
+      <member refid="classansys_1_1dpf_1_1Homogeneity_1a74bcfe9b2ed50910f2da21944e3b7437" prot="public" virt="non-virtual"><scope>ansys::dpf::Homogeneity</scope><name>c_str</name></member>
+      <member refid="classansys_1_1dpf_1_1Homogeneity_1a5ddd95a1b4667a297eb19531f722d27e" prot="public" virt="non-virtual"><scope>ansys::dpf::Homogeneity</scope><name>Homogeneity</name></member>
+      <member refid="classansys_1_1dpf_1_1Homogeneity_1a192f79a5c56ddd9304822227218b199e" prot="public" virt="non-virtual"><scope>ansys::dpf::Homogeneity</scope><name>Homogeneity</name></member>
+      <member refid="classansys_1_1dpf_1_1Homogeneity_1abab33dd46353450eb8b025e792a0c74f" prot="public" virt="non-virtual"><scope>ansys::dpf::Homogeneity</scope><name>Homogeneity</name></member>
+      <member refid="classansys_1_1dpf_1_1Homogeneity_1a805990ee94e455ca6cfb4be2cb9fd1d3" prot="public" virt="non-virtual"><scope>ansys::dpf::Homogeneity</scope><name>operator std::string</name></member>
+      <member refid="classansys_1_1dpf_1_1Homogeneity_1a10804e4a1554cd01621fceb38b77fdfe" prot="public" virt="non-virtual"><scope>ansys::dpf::Homogeneity</scope><name>operator!=</name></member>
+      <member refid="classansys_1_1dpf_1_1Homogeneity_1a1cdc8c0da49ee50ab0111341f070322e" prot="public" virt="non-virtual"><scope>ansys::dpf::Homogeneity</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1Homogeneity_1a04c1ddd43c0799283b283b6c65ee56ea" prot="public" virt="non-virtual"><scope>ansys::dpf::Homogeneity</scope><name>operator==</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

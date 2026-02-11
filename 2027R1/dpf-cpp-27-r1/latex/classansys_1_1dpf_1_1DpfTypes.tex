@@ -1,0 +1,114 @@
+\doxysection{ansys::\+dpf::\+Dpf\+Types Class Reference}
+\hypertarget{classansys_1_1dpf_1_1DpfTypes}{}\label{classansys_1_1dpf_1_1DpfTypes}\index{ansys::dpf::DpfTypes@{ansys::dpf::DpfTypes}}
+
+
+{\ttfamily \+\#include $<$dpf\+\_\+api\+\_\+base.\+h$>$}
+
+Inheritance diagram for ansys::\+dpf::\+Dpf\+Types:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=12.000000cm]{classansys_1_1dpf_1_1DpfTypes}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a39cd546c42518e2332be8f287db95459}{empty}} () const
+\item 
+virtual bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_ae198f89868d85c7db6dc1a934a1d3c15}{has\+Internal\+Object}} () const
+\item 
+virtual std::\+string \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a9977945710983bc03d2940fa007847b2}{describe}} () const
+\item 
+so::\+\+API const \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_aea34d37e0c080126eff70db34bf46597}{call\+API}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a9f9789ff61cc9d400a2a344830706b73}{is\+On\+Common\+API}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a968afd9daa0b0f13b65a2ac61369d73a}{get\+Client}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} \&client) const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a1a5634202c15404b6b24e8f50e51cb66}{has\+Been\+Moved\+Locally}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_aa64d5f8fcd7d85ad6ebf708494dbefd7}{is\+Same\+Object}} (Dpf\+Types const \&rhs) const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Base class for many DPF classes 
+
+\label{doc-func-members}
+\Hypertarget{classansys_1_1dpf_1_1DpfTypes_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classansys_1_1dpf_1_1DpfTypes_aea34d37e0c080126eff70db34bf46597}\index{ansys::dpf::DpfTypes@{ansys::dpf::DpfTypes}!callAPI@{callAPI}}
+\index{callAPI@{callAPI}!ansys::dpf::DpfTypes@{ansys::dpf::DpfTypes}}
+\doxysubsubsection{\texorpdfstring{callAPI()}{callAPI()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1DpfTypes_aea34d37e0c080126eff70db34bf46597} 
+so::\+\+API const  \texorpdfstring{$\ast$}{*} ansys::\+dpf::\+\+Dpf\+Types::\+call\+API (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+API of object. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1DpfTypes_a9977945710983bc03d2940fa007847b2}\index{ansys::dpf::DpfTypes@{ansys::dpf::DpfTypes}!describe@{describe}}
+\index{describe@{describe}!ansys::dpf::DpfTypes@{ansys::dpf::DpfTypes}}
+\doxysubsubsection{\texorpdfstring{describe()}{describe()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1DpfTypes_a9977945710983bc03d2940fa007847b2} 
+virtual std::\+string ansys::\+dpf::\+\+Dpf\+Types::\+describe (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+Description of object. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1DpfTypes_a39cd546c42518e2332be8f287db95459}\index{ansys::dpf::DpfTypes@{ansys::dpf::DpfTypes}!empty@{empty}}
+\index{empty@{empty}!ansys::dpf::DpfTypes@{ansys::dpf::DpfTypes}}
+\doxysubsubsection{\texorpdfstring{empty()}{empty()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1DpfTypes_a39cd546c42518e2332be8f287db95459} 
+virtual bool ansys::\+dpf::\+\+Dpf\+Types::\+empty (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+Indicates if object is empty. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{AveragingTest_8cpp-example}{Averaging\+Test.\+cpp}}, and \doxymbox{\hyperlink{CompleteRST_8cpp-example}{Complete\+RST.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1DpfTypes_a968afd9daa0b0f13b65a2ac61369d73a}\index{ansys::dpf::DpfTypes@{ansys::dpf::DpfTypes}!getClient@{getClient}}
+\index{getClient@{getClient}!ansys::dpf::DpfTypes@{ansys::dpf::DpfTypes}}
+\doxysubsubsection{\texorpdfstring{getClient()}{getClient()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1DpfTypes_a968afd9daa0b0f13b65a2ac61369d73a} 
+bool ansys::\+dpf::\+\+Dpf\+Types::\+get\+Client (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} \&}]{client}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Get the \doxylink{classansys_1_1dpf_1_1Client}{Client} the object is on, if it has one. Must not be used without using remote API. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1DpfTypes_a1a5634202c15404b6b24e8f50e51cb66}\index{ansys::dpf::DpfTypes@{ansys::dpf::DpfTypes}!hasBeenMovedLocally@{hasBeenMovedLocally}}
+\index{hasBeenMovedLocally@{hasBeenMovedLocally}!ansys::dpf::DpfTypes@{ansys::dpf::DpfTypes}}
+\doxysubsubsection{\texorpdfstring{hasBeenMovedLocally()}{hasBeenMovedLocally()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1DpfTypes_a1a5634202c15404b6b24e8f50e51cb66} 
+bool ansys::\+dpf::\+\+Dpf\+Types::\+has\+Been\+Moved\+Locally (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Wether the object has been fully moved on the local server, in case it was defined first on another server. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1DpfTypes_ae198f89868d85c7db6dc1a934a1d3c15}\index{ansys::dpf::DpfTypes@{ansys::dpf::DpfTypes}!hasInternalObject@{hasInternalObject}}
+\index{hasInternalObject@{hasInternalObject}!ansys::dpf::DpfTypes@{ansys::dpf::DpfTypes}}
+\doxysubsubsection{\texorpdfstring{hasInternalObject()}{hasInternalObject()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1DpfTypes_ae198f89868d85c7db6dc1a934a1d3c15} 
+virtual bool ansys::\+dpf::\+\+Dpf\+Types::\+has\+Internal\+Object (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+Indicates if the internal implementation object has been instantiated. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1DpfTypes_a9f9789ff61cc9d400a2a344830706b73}\index{ansys::dpf::DpfTypes@{ansys::dpf::DpfTypes}!isOnCommonAPI@{isOnCommonAPI}}
+\index{isOnCommonAPI@{isOnCommonAPI}!ansys::dpf::DpfTypes@{ansys::dpf::DpfTypes}}
+\doxysubsubsection{\texorpdfstring{isOnCommonAPI()}{isOnCommonAPI()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1DpfTypes_a9f9789ff61cc9d400a2a344830706b73} 
+bool ansys::\+dpf::\+\+Dpf\+Types::\+is\+On\+Common\+API (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Wether the common API is used by the object or not. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1DpfTypes_aa64d5f8fcd7d85ad6ebf708494dbefd7}\index{ansys::dpf::DpfTypes@{ansys::dpf::DpfTypes}!isSameObject@{isSameObject}}
+\index{isSameObject@{isSameObject}!ansys::dpf::DpfTypes@{ansys::dpf::DpfTypes}}
+\doxysubsubsection{\texorpdfstring{isSameObject()}{isSameObject()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1DpfTypes_aa64d5f8fcd7d85ad6ebf708494dbefd7} 
+bool ansys::\+dpf::\+\+Dpf\+Types::\+is\+Same\+Object (\begin{DoxyParamCaption}\item[{Dpf\+Types const \&}]{rhs}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Indicate if the current object reference the same underlying DPF object than the provided Dpf\+Type. 
+\end{DoxyReturn}

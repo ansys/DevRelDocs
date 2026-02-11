@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1RemoteOperator" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::RemoteOperator</compoundname>
+    <basecompoundref refid="classansys_1_1dpf_1_1Operator" prot="public" virt="non-virtual">ansys::dpf::Operator</basecompoundref>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1RemoteOperator_1a81d95df60edf516a1de9878b780f8fb3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class OperatorMain</definition>
+        <argsstring></argsstring>
+        <name>OperatorMain</name>
+        <qualifiedname>ansys::dpf::RemoteOperator::OperatorMain</qualifiedname>
+        <param>
+          <type>OperatorMain</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6195" column="14" bodyfile="dpf_api.h" bodystart="6195" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1RemoteOperator_1aefcc6eae29f490570ac73cc7710b4d16" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::RemoteOperator::RemoteOperator</definition>
+        <argsstring>(opaque::DpfObject *)</argsstring>
+        <name>RemoteOperator</name>
+        <qualifiedname>ansys::dpf::RemoteOperator::RemoteOperator</qualifiedname>
+        <param>
+          <type>opaque::DpfObject *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6197" column="1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1RemoteOperator_1a7a4f90c21a28795bfb21a5efb9644e6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::RemoteOperator::RemoteOperator</definition>
+        <argsstring>(Streams &amp;streams, ansys::dpf::Operator const &amp;remote_operator)</argsstring>
+        <name>RemoteOperator</name>
+        <qualifiedname>ansys::dpf::RemoteOperator::RemoteOperator</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Streams" kindref="compound">Streams</ref> &amp;</type>
+          <declname>streams</declname>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">ansys::dpf::Operator</ref> const &amp;</type>
+          <declname>remote_operator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6199" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1RemoteOperator_1a360ae2d329ffdb8251e48a978c979e77" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ansys::dpf::RemoteOperator::~RemoteOperator</definition>
+        <argsstring>()</argsstring>
+        <name>~RemoteOperator</name>
+        <qualifiedname>ansys::dpf::RemoteOperator::~RemoteOperator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6200" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1RemoteOperator_1ab2dd627a01503531015e20e785c990cc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1Streams" kindref="compound">Streams</ref></type>
+        <definition>Streams ansys::dpf::RemoteOperator::getStreams</definition>
+        <argsstring>() const</argsstring>
+        <name>getStreams</name>
+        <qualifiedname>ansys::dpf::RemoteOperator::getStreams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6201" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1RemoteOperator_1a60ca69f52a9f0b8f51943a693d8699f2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceansys_1_1dpf_1ab4574c9af3f2bb8011da7d1f4c8da20e" kindref="member">dp_id</ref></type>
+        <definition>dp_id ansys::dpf::RemoteOperator::getRemoteOperatorId</definition>
+        <argsstring>() const</argsstring>
+        <name>getRemoteOperatorId</name>
+        <qualifiedname>ansys::dpf::RemoteOperator::getRemoteOperatorId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6202" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1RemoteOperator_1af217690aabd9fb3eac7955947b7631f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::RemoteOperator::registerStreamsHolderWorkflow</definition>
+        <argsstring>(int workflow_id_in_remote_registry)</argsstring>
+        <name>registerStreamsHolderWorkflow</name>
+        <qualifiedname>ansys::dpf::RemoteOperator::registerStreamsHolderWorkflow</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>workflow_id_in_remote_registry</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6204" column="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>ansys::dpf::DpfTypes</label>
+        <link refid="classansys_1_1dpf_1_1DpfTypes"/>
+      </node>
+      <node id="2">
+        <label>ansys::dpf::Operator</label>
+        <link refid="classansys_1_1dpf_1_1Operator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ansys::dpf::RemoteOperator</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>ansys::dpf::DpfTypes</label>
+        <link refid="classansys_1_1dpf_1_1DpfTypes"/>
+      </node>
+      <node id="2">
+        <label>ansys::dpf::Operator</label>
+        <link refid="classansys_1_1dpf_1_1Operator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ansys::dpf::RemoteOperator</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="dpf_api.h" line="6193" column="1" bodyfile="dpf_api.h" bodystart="6194" bodyend="6205"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1aea34d37e0c080126eff70db34bf46597" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>callAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a2a6099badd25d7829ff5099b9858996c" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>config</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a7e75ed79f3c3b553aa8dc5f0fd0da5f9" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ada98d98190efbbddcaec67189c7d17ee" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a6ceef5931b005a8688cca6c55add9098" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1af4c97e7cb8a63ed32aff9cfab424d962" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1afdb0fc1b88a81a335e497bbfa65eb134" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a5ef53571df9cd0020edee007e89440b5" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1af07fe702eab64d52382198563c2ac8f1" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a0412370a7e29c695b82c59a8944c5969" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a6f9e628bf2429fc5a805871c61c69a17" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1aad1b060bfb2886c3b3dd75f1385f6222" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a5add81029b92a785398586268a0112a9" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a5e5cbe01690fca3a27bbf8cd4a21f530" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1af13e07e9f51973d31c33dd4c80930c0f" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a9006d2db6a9e078acc0b293ec1439863" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ad136fc14cb5f91eca2d980ab965af5f9" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ac3acc3b69a93fb22fe03a1cde7d6a737" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a67c92c54c229a742e7a495aacae9d424" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1afeab224e0695e23986c942f36bcab86f" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1aa91c49a1f06fbd4099cb53d2b99d39f0" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a2ff86aaea622cdbea2cf51e0daa2c9bd" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a99b87b7fb57144cb1f4086b5540caa6e" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a837a0abac42dc564d1689eba82fa53e4" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1aec4344e63243eb28d312d5caea522fe6" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ab36ce932b21f4c46f22804331df8ad3e" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a992061e892165cb0537c691209e5c657" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a080f0ffe38a114b3c2b4390bc98aeb5e" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ae76c6c18901c49692e9d15d59b784d79" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a21dfe41f3f388752fa35bd28b7cb82a7" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1af9629fd0bf6f14054969bd1a17a3c01a" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ae5bd39532c17864b402d36cbf299e0a6" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a5c1afb9023b4dcede90cbb689d44235b" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1af0cc66b849378593d484d64fd884f534" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1adb1ae1638a5755d87a4487d823d63f0e" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a24b31ca1097981405738db61607929a4" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a4cf5fc0766e7247c959ea014d013dca4" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ae48269c601f1bccbcdaa774ec8643ac4" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a75b0ae22dd29988851a9234ed398652c" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1af4893a09b1eb2b704f9b58721f69f5fb" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1aea10a96c793a2c121c4be53f6a4b4511" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ac49d268562ffaa8e90535595647d203b" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1addc00a0f30991aeeb8af02ad17f80617" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a2ee979b7a51dfc0bca192e9a4df014f5" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a3c2406c052014884f6d4490102f94019" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a84d6fa69086fcfb4fba41254330d079f" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1aa69d8dbb75a65337be22b287adfc597b" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a7fc609c2f4538038c30ec8034f22ddb8" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ab0a16ba648b2e088b1b1bbb6c6d57bf1" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a8e9cb2e84276a62ecbfac15fc34eb987" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a055daebf6e09e2f8cadbd71218de629e" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a6a6d0fca683a19dded250760f9f67b4b" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a72c6e272e3a18c77d170ae638943e6a5" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1abdabcf70aad9e575be3586fef45db88d" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a3bd537c8f5215998f1812f930363d689" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a2ca89bdab3803dcf4cfc5be3c67620bc" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a0eaa44b1a73bcedbed888e5778d99fb5" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a43d5fc0fddc85c6f4cf6328e80a7b7b2" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a72bd0f550f68f2c2771f4427e7c13a03" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ae2825474b8c81df35899c9f4f2d99564" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1acfd6ae4496cac17382d290385b016b46" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a35815dd63725ce35d51b791dea1713e3" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ac9f70f22925540444a489da7c389cd2c" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a0dccc56a240f176d4406901fa3779ae8" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ab319e553b676692001a5fd6ea54a791c" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a40477e991f24bcce8d1214a94e6fcf40" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1aae1a8613ffc59659dc57d8ae2c0db974" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ac6cedbe418a4d342ac5c14263af02cff" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ae461a9cd04d255a5c1926b75a3a93942" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a1534da60955c2b7e0a08c2a6e1ea6c2c" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a54173dc95322956b2e823240b83f19ed" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a93bedb5d621ec1984727cd67419507ca" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connect</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a7c846af6ffd5e955198cf73f850f93af" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connectCustom</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ae46b1806d53ca0688fc2f2778892a90f" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>connectOperatorAsInput</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ab4605e40f2e7a12f08556dc7f55536a5" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>derivate</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9977945710983bc03d2940fa007847b2" prot="public" virt="virtual"><scope>ansys::dpf::RemoteOperator</scope><name>describe</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1aab643ec1b10889cc66c59f2707c35357" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>disconnect</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459" prot="public" virt="virtual"><scope>ansys::dpf::RemoteOperator</scope><name>empty</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a362fb9e030903084a39a214dd24c60d6" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>emptyOperator</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a99b17f4160746525c481a3325dcd6495" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getChangelog</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a968afd9daa0b0f13b65a2ac61369d73a" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getClient</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ac0506283e8ab3df6212de587af9e4e6e" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getCustomOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1aa0724a0c67725307b5c6af24a70651b8" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getId</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a1aed08bf6862fc5dabc73e2b0fcaa652" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ac90777ce00a93a394b27868d57c5fd98" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputAsAny</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1af07e2ae3ff10f7aec61535305fc4528d" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputBool</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ae7f49c535b7256be5f81086805b8782a" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputBool</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a4cb5af4bf08b8a0498dce57de049c51e" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputCustomContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a9bac72e2c59e0fccd561f0d79e71b560" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputCustomTypeField</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ae4a1191b90450b4e5f4c8c2158ae249b" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputCustomTypeField</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a3924949479b1ce4ba1c6cc481da96a18" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputCustomTypeFieldsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1aba7ac24e48503dffe6cc38cb84f2ddfd" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputCustomTypeFieldsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a0e19392cdac365c8adf45a3ad4332d48" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputCyclicSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a71aea9cf062a4c7b77c1489d0772b472" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputCyclicSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ac732c2716f06c6300a758ead38262f0b" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputDataSources</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a17df757b67691d558f721336a1a7a85a" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputDataSources</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ade53ef58396d3d381d8a561994fe545c" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputDataTree</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1af6e6cc8c9e93b5a80a0d3e33da942bad" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputDataTree</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a1194f22fcd0d38723e055d9e60cf5ab2" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputDouble</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a30ed16ef75862d901076351a102c4a22" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputDouble</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a9fcb797a323d6331a41ef183dcd60e9b" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputDoubleVector</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ac021f1b647c3bfd7d985a8df45d55432" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputDoubleVector</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a888c9e303c08320944b1a328a73e1ac3" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputField</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a11130d2408f153d52166eb616aa2674d" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputField</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a9994ffe0f23c4a5de614099abb95286c" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputFieldsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ae6201df100a49210ebed99c4a9908b6c" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputFieldsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a1386edc16e2914ecbcd2b1a8024c564f" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputGenericDataContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1aafc72bd0e319e32d85fe4029114fffd1" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputGenericDataContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a02f58e9a4f1b374d67c1a40627775b54" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputInt</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a59d1988f3cd2859f2abd1fb3804ffd08" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputInt</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a6774a55e67fa544d5711c6c0faa34397" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputIntVector</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a14bed5d34060b6376dbb4c9d4781f704" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputIntVector</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1abff2161fcaa3d7eb5925cf471c45597e" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputMapping</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a43811d1bb3f72cea7bec0f75308fccb9" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputMapping</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ae67b9230160d80fbca07eb423f180f98" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputMeshedRegion</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a78f57ff0af0b8ab212f76abc281491b7" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputMeshedRegion</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a46844eb39ebeead0e74f1f91c24a5ff3" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputMeshesContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a103e15b68d402162b0a8f05123150d0d" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputMeshesContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a0b296d2a58379f345b515b73c2305dde" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputMeshInfo</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a56e60de0ea0093055d7a4929a5e77760" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputMeshInfo</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a255fa07a2e0a12152f915ee8f5b5a524" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputOperator</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a58ea7f5128ab677787afb696b0293267" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputPropertyField</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ae726557dc3c40abd7afe411fc2ce278c" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputPropertyField</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1aeb719093c2406e06455423370eed3cd8" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputResultInfo</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1acea4c808d2f4d01adea5539b3da95d33" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputResultInfo</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a08ab4421b7cc47bb6c5baeafdebe641f" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputScoping</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a24b4ce1f0bf10bfd4640c6972d760e18" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputScoping</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ab8effed66eaf13176c6d68eb3fd2c11f" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputScopingsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a8907822d2e2a674d655d76cb4e216960" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputScopingsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a46ad7d86dbea88a04e305abe66fe90ff" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputStreams</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a9cb6167faf20d52062aecf504b44fde5" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputStreams</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a0ae653d9c8beee391a6c646de0188905" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputString</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1aaca3f1d0e1fa835f15ffe8b8d2f3368e" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputString</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ac55e669029f9cdc0b48a4e62e83856b2" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputStringField</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a2fc8d610df3ce984f84e75a7297d52c1" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputStringField</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a73a493dbe91ac1d1fcc532707efcd6f0" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1aa818d55166583977ae4e4ecbd709b56e" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ad2bfffac019485c51c8d3cc88c94ebd0" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputTimeFreqSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ab6015d4542961222e37a107e699dfc2e" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputTimeFreqSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ab43c2d56664e3db3bfb386bb6895fc9c" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputWorkflow</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a0875bb76f8121ba69f3e5e001deb7ea2" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getOutputWorkflow</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a3450f744e8f833a2862686431855c990" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getRemoteId</name></member>
+      <member refid="classansys_1_1dpf_1_1RemoteOperator_1a60ca69f52a9f0b8f51943a693d8699f2" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getRemoteOperatorId</name></member>
+      <member refid="classansys_1_1dpf_1_1RemoteOperator_1ab2dd627a01503531015e20e785c990cc" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>getStreams</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a1a5634202c15404b6b24e8f50e51cb66" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>hasBeenMovedLocally</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ae198f89868d85c7db6dc1a934a1d3c15" prot="public" virt="virtual"><scope>ansys::dpf::RemoteOperator</scope><name>hasInternalObject</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a6c7082fca20ecbf1d735ed0fb856e7a4" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>hasOutputWhenEvaluated</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1af2004755d58dfe08c62d03aafcd0a5e8" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>invalidate</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9f9789ff61cc9d400a2a344830706b73" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>isOnCommonAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1aa64d5f8fcd7d85ad6ebf708494dbefd7" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>isSameObject</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1aebaa16666821ea5a14df955fe221b029" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>name</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a057b4bcdeb665b76a5a2977a6a9fc419" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>Operator</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1abff1645354ccf086a67b6171b3a2301f" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>Operator</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a3790db7d260e3496c02e3e2514c3288f" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>Operator</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a1df02dd312a27f2e818b03e1b85acbf6" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>Operator</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ad30848489d18c9205afb4df5095bb0e4" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>Operator</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a5afcd95abeb8ad1163e0fa4879853703" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>Operator</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a1056f70628091ca270df141f0f52778f" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>Operator</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ac491eec1880a83c72d4d061c3ba64452" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>Operator</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a2e07af2c6faeb3312268c6e5a4549790" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1ad9e6e41beb3e9efc3c93999346c37ba6" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1RemoteOperator_1af217690aabd9fb3eac7955947b7631f1" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>registerStreamsHolderWorkflow</name></member>
+      <member refid="classansys_1_1dpf_1_1RemoteOperator_1aefcc6eae29f490570ac73cc7710b4d16" prot="private" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>RemoteOperator</name></member>
+      <member refid="classansys_1_1dpf_1_1RemoteOperator_1a7a4f90c21a28795bfb21a5efb9644e6a" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>RemoteOperator</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1abcc1a0b8708da9bc9639b6ce9842a3aa" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>run</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a4f41d725f69eccb3ce9fb42dc4e08122" prot="public" virt="non-virtual"><scope>ansys::dpf::RemoteOperator</scope><name>status</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ab7c83b6ea160c2b115e056f6c312112f" prot="public" virt="virtual"><scope>ansys::dpf::RemoteOperator</scope><name>~DpfTypes</name></member>
+      <member refid="classansys_1_1dpf_1_1Operator_1a01be03f6b414c4abfe855f13311c36cf" prot="public" virt="virtual"><scope>ansys::dpf::RemoteOperator</scope><name>~Operator</name></member>
+      <member refid="classansys_1_1dpf_1_1RemoteOperator_1a360ae2d329ffdb8251e48a978c979e77" prot="public" virt="virtual"><scope>ansys::dpf::RemoteOperator</scope><name>~RemoteOperator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

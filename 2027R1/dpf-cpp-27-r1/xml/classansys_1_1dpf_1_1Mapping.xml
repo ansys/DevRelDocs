@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1Mapping" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::Mapping</compoundname>
+    <basecompoundref refid="classansys_1_1dpf_1_1DpfTypes" prot="public" virt="non-virtual">ansys::dpf::DpfTypes</basecompoundref>
+    <includes local="no">dpf_api.h</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1Mapping_1a33ff3f826991522d2e77c1c523f33e19" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Operator</definition>
+        <argsstring></argsstring>
+        <name>Operator</name>
+        <qualifiedname>ansys::dpf::Mapping::Operator</qualifiedname>
+        <param>
+          <type>Operator</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5593" column="14" bodyfile="dpf_api.h" bodystart="5593" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1Mapping_1afa07847c7cb432b260e61a0c18025ba3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Workflow</definition>
+        <argsstring></argsstring>
+        <name>Workflow</name>
+        <qualifiedname>ansys::dpf::Mapping::Workflow</qualifiedname>
+        <param>
+          <type>Workflow</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5594" column="14" bodyfile="dpf_api.h" bodystart="5594" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1Mapping_1af764561c544bacc1b90b526ee8d3c708" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class core</definition>
+        <argsstring></argsstring>
+        <name>core</name>
+        <qualifiedname>ansys::dpf::Mapping::core</qualifiedname>
+        <param>
+          <type>core</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5595" column="14" bodyfile="dpf_api.h" bodystart="5595" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Mapping_1ac181baf0bdd757c7a600c7db75534f51" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Mapping::Mapping</definition>
+        <argsstring>(opaque::DpfObject *)</argsstring>
+        <name>Mapping</name>
+        <qualifiedname>ansys::dpf::Mapping::Mapping</qualifiedname>
+        <param>
+          <type>opaque::DpfObject *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5598" column="1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Mapping_1afd43f54f7d22509c247ad74405888d7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Mapping::~Mapping</definition>
+        <argsstring>()</argsstring>
+        <name>~Mapping</name>
+        <qualifiedname>ansys::dpf::Mapping::~Mapping</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5601" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Mapping_1a562c4764fd1a794f253676410ce96f2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Mapping::Mapping</definition>
+        <argsstring>(Mapping const &amp;)</argsstring>
+        <name>Mapping</name>
+        <qualifiedname>ansys::dpf::Mapping::Mapping</qualifiedname>
+        <param>
+          <type>Mapping const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5602" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Mapping_1aa7835cf638a6c5ef8d418376f70fdb55" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Mapping::Mapping</definition>
+        <argsstring>(Mapping &amp;&amp;) noexcept</argsstring>
+        <name>Mapping</name>
+        <qualifiedname>ansys::dpf::Mapping::Mapping</qualifiedname>
+        <param>
+          <type>Mapping &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5603" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Mapping_1a1d17d46e79d4d5d31c4bda58d71872c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Mapping &amp;</type>
+        <definition>Mapping &amp; ansys::dpf::Mapping::operator=</definition>
+        <argsstring>(Mapping const &amp;)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::Mapping::operator=</qualifiedname>
+        <param>
+          <type>Mapping const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5604" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Mapping_1a65cf6727e34d6926ad0a58b06a3feab1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Mapping &amp;</type>
+        <definition>Mapping &amp; ansys::dpf::Mapping::operator=</definition>
+        <argsstring>(Mapping &amp;&amp;)=delete</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::Mapping::operator=</qualifiedname>
+        <param>
+          <type>Mapping &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5605" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Mapping_1aedd955d96f24f77a681f81436a13aa37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref></type>
+        <definition>Field ansys::dpf::Mapping::map</definition>
+        <argsstring>(Field &amp;in)</argsstring>
+        <name>map</name>
+        <qualifiedname>ansys::dpf::Mapping::map</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref> &amp;</type>
+          <declname>in</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref> to map. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref> mapped to new field. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5608" column="7"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Define a mapping between two spaces. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ansys::dpf::DpfTypes</label>
+        <link refid="classansys_1_1dpf_1_1DpfTypes"/>
+      </node>
+      <node id="1">
+        <label>ansys::dpf::Mapping</label>
+        <link refid="classansys_1_1dpf_1_1Mapping"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ansys::dpf::DpfTypes</label>
+        <link refid="classansys_1_1dpf_1_1DpfTypes"/>
+      </node>
+      <node id="1">
+        <label>ansys::dpf::Mapping</label>
+        <link refid="classansys_1_1dpf_1_1Mapping"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="dpf_api.h" line="5591" column="1" bodyfile="dpf_api.h" bodystart="5592" bodyend="5610"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1aea34d37e0c080126eff70db34bf46597" prot="public" virt="non-virtual"><scope>ansys::dpf::Mapping</scope><name>callAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9977945710983bc03d2940fa007847b2" prot="public" virt="virtual"><scope>ansys::dpf::Mapping</scope><name>describe</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459" prot="public" virt="virtual"><scope>ansys::dpf::Mapping</scope><name>empty</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a968afd9daa0b0f13b65a2ac61369d73a" prot="public" virt="non-virtual"><scope>ansys::dpf::Mapping</scope><name>getClient</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a1a5634202c15404b6b24e8f50e51cb66" prot="public" virt="non-virtual"><scope>ansys::dpf::Mapping</scope><name>hasBeenMovedLocally</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ae198f89868d85c7db6dc1a934a1d3c15" prot="public" virt="virtual"><scope>ansys::dpf::Mapping</scope><name>hasInternalObject</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9f9789ff61cc9d400a2a344830706b73" prot="public" virt="non-virtual"><scope>ansys::dpf::Mapping</scope><name>isOnCommonAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1aa64d5f8fcd7d85ad6ebf708494dbefd7" prot="public" virt="non-virtual"><scope>ansys::dpf::Mapping</scope><name>isSameObject</name></member>
+      <member refid="classansys_1_1dpf_1_1Mapping_1aedd955d96f24f77a681f81436a13aa37" prot="public" virt="non-virtual"><scope>ansys::dpf::Mapping</scope><name>map</name></member>
+      <member refid="classansys_1_1dpf_1_1Mapping_1ac181baf0bdd757c7a600c7db75534f51" prot="private" virt="non-virtual"><scope>ansys::dpf::Mapping</scope><name>Mapping</name></member>
+      <member refid="classansys_1_1dpf_1_1Mapping_1a562c4764fd1a794f253676410ce96f2b" prot="public" virt="non-virtual"><scope>ansys::dpf::Mapping</scope><name>Mapping</name></member>
+      <member refid="classansys_1_1dpf_1_1Mapping_1aa7835cf638a6c5ef8d418376f70fdb55" prot="public" virt="non-virtual"><scope>ansys::dpf::Mapping</scope><name>Mapping</name></member>
+      <member refid="classansys_1_1dpf_1_1Mapping_1a1d17d46e79d4d5d31c4bda58d71872c1" prot="public" virt="non-virtual"><scope>ansys::dpf::Mapping</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1Mapping_1a65cf6727e34d6926ad0a58b06a3feab1" prot="public" virt="non-virtual"><scope>ansys::dpf::Mapping</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ab7c83b6ea160c2b115e056f6c312112f" prot="public" virt="virtual"><scope>ansys::dpf::Mapping</scope><name>~DpfTypes</name></member>
+      <member refid="classansys_1_1dpf_1_1Mapping_1afd43f54f7d22509c247ad74405888d7b" prot="public" virt="non-virtual"><scope>ansys::dpf::Mapping</scope><name>~Mapping</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

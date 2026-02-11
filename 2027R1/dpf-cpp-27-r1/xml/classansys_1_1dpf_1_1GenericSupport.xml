@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1GenericSupport" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::GenericSupport</compoundname>
+    <basecompoundref refid="classansys_1_1dpf_1_1Support" prot="public" virt="non-virtual">ansys::dpf::Support</basecompoundref>
+    <includes local="no">dpf_api.h</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1GenericSupport_1af764561c544bacc1b90b526ee8d3c708" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class core</definition>
+        <argsstring></argsstring>
+        <name>core</name>
+        <qualifiedname>ansys::dpf::GenericSupport::core</qualifiedname>
+        <param>
+          <type>core</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1461" column="14" bodyfile="dpf_api.h" bodystart="1461" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericSupport_1a59fb09372406ca9c371281f42e442554" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::GenericSupport::GenericSupport</definition>
+        <argsstring>(opaque::DpfInternalSharedObject *)</argsstring>
+        <name>GenericSupport</name>
+        <qualifiedname>ansys::dpf::GenericSupport::GenericSupport</qualifiedname>
+        <param>
+          <type>opaque::DpfInternalSharedObject *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1463" column="1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericSupport_1a220ac02215e0dc173c04c61d1530e51c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::GenericSupport::~GenericSupport</definition>
+        <argsstring>()</argsstring>
+        <name>~GenericSupport</name>
+        <qualifiedname>ansys::dpf::GenericSupport::~GenericSupport</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1466" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericSupport_1aed6480294bd5095215fdd1468fc4215b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::GenericSupport::GenericSupport</definition>
+        <argsstring>(Location const &amp;location)</argsstring>
+        <name>GenericSupport</name>
+        <qualifiedname>ansys::dpf::GenericSupport::GenericSupport</qualifiedname>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref> const &amp;</type>
+          <declname>location</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1467" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericSupport_1ab69289ea19752bb26eff730f73269ede" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::GenericSupport::GenericSupport</definition>
+        <argsstring>(Location const &amp;location, Client const *const client)</argsstring>
+        <name>GenericSupport</name>
+        <qualifiedname>ansys::dpf::GenericSupport::GenericSupport</qualifiedname>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref> const &amp;</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> const *const</type>
+          <declname>client</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> instance designating the IP, port and protocol to use. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1468" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericSupport_1a507d80322d882d68d1f826612c4cb283" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::GenericSupport::GenericSupport</definition>
+        <argsstring>(GenericSupport const &amp;)</argsstring>
+        <name>GenericSupport</name>
+        <qualifiedname>ansys::dpf::GenericSupport::GenericSupport</qualifiedname>
+        <param>
+          <type>GenericSupport const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1471" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericSupport_1a21a8be4f117cfebba72b1a4dfeb0aa68" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::GenericSupport::GenericSupport</definition>
+        <argsstring>(GenericSupport &amp;&amp;) noexcept</argsstring>
+        <name>GenericSupport</name>
+        <qualifiedname>ansys::dpf::GenericSupport::GenericSupport</qualifiedname>
+        <param>
+          <type>GenericSupport &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1472" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericSupport_1a9c2e1f7c456ff805191d412c2254d832" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>GenericSupport &amp;</type>
+        <definition>GenericSupport &amp; ansys::dpf::GenericSupport::operator=</definition>
+        <argsstring>(GenericSupport const &amp;)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::GenericSupport::operator=</qualifiedname>
+        <param>
+          <type>GenericSupport const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1473" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericSupport_1a340450fcae90eadbcf25a7b18f5fe6e2" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>GenericSupport &amp;</type>
+        <definition>GenericSupport &amp; ansys::dpf::GenericSupport::operator=</definition>
+        <argsstring>(GenericSupport &amp;&amp;) noexcept</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::GenericSupport::operator=</qualifiedname>
+        <param>
+          <type>GenericSupport &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1474" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericSupport_1af2e77d87cb69995c0189349ee42264b3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::GenericSupport::setSupportOfProperty</definition>
+        <argsstring>(PropertyType const &amp;property_name, Field const &amp;field) const</argsstring>
+        <name>setSupportOfProperty</name>
+        <qualifiedname>ansys::dpf::GenericSupport::setSupportOfProperty</qualifiedname>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref> const &amp;</type>
+          <declname>property_name</declname>
+        </param>
+        <param>
+          <type>Field const &amp;</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>insert (if new) or replace a property with its name and <ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref> value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1477" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericSupport_1a3315d3bd4873c1bc7d5f96a94c8a13ca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::GenericSupport::setSupportOfProperty</definition>
+        <argsstring>(PropertyType const &amp;property_name, PropertyField const &amp;field) const</argsstring>
+        <name>setSupportOfProperty</name>
+        <qualifiedname>ansys::dpf::GenericSupport::setSupportOfProperty</qualifiedname>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref> const &amp;</type>
+          <declname>property_name</declname>
+        </param>
+        <param>
+          <type>PropertyField const &amp;</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>insert (if new) or replace a property with its name and <ref refid="classansys_1_1dpf_1_1PropertyField" kindref="compound">PropertyField</ref> value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1479" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericSupport_1a4cff390263e550b35c34bbc7f7f675d4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::GenericSupport::setSupportOfProperty</definition>
+        <argsstring>(PropertyType const &amp;property_name, StringField const &amp;field) const</argsstring>
+        <name>setSupportOfProperty</name>
+        <qualifiedname>ansys::dpf::GenericSupport::setSupportOfProperty</qualifiedname>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref> const &amp;</type>
+          <declname>property_name</declname>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1StringField" kindref="compound">StringField</ref> const &amp;</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>insert (if new) or replace a property with its name and <ref refid="classansys_1_1dpf_1_1StringField" kindref="compound">StringField</ref> value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1481" column="6"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1GenericSupport_1aa561f217253e9f5ef38c1d027d08b560" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>GenericSupport</type>
+        <definition>static GenericSupport ansys::dpf::GenericSupport::emptyGenericSupport</definition>
+        <argsstring>()</argsstring>
+        <name>emptyGenericSupport</name>
+        <qualifiedname>ansys::dpf::GenericSupport::emptyGenericSupport</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create an empty support. <simplesect kind="return"><para>Empty <ref refid="classansys_1_1dpf_1_1Support" kindref="compound">Support</ref>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1485" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Define a generic support. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classansys_1_1dpf_1_1GenericSupport" kindref="compound">GenericSupport</ref> can support a location to describe its domain with its scope and properties. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>ansys::dpf::DpfTypes</label>
+        <link refid="classansys_1_1dpf_1_1DpfTypes"/>
+      </node>
+      <node id="1">
+        <label>ansys::dpf::GenericSupport</label>
+        <link refid="classansys_1_1dpf_1_1GenericSupport"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ansys::dpf::Support</label>
+        <link refid="classansys_1_1dpf_1_1Support"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>ansys::dpf::DpfTypes</label>
+        <link refid="classansys_1_1dpf_1_1DpfTypes"/>
+      </node>
+      <node id="1">
+        <label>ansys::dpf::GenericSupport</label>
+        <link refid="classansys_1_1dpf_1_1GenericSupport"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ansys::dpf::Support</label>
+        <link refid="classansys_1_1dpf_1_1Support"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="dpf_api.h" line="1459" column="1" bodyfile="dpf_api.h" bodystart="1460" bodyend="1486"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1aea34d37e0c080126eff70db34bf46597" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>callAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1Support_1a3b4233346825454e052a9de678d9ef0a" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>deep_copy</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9977945710983bc03d2940fa007847b2" prot="public" virt="virtual"><scope>ansys::dpf::GenericSupport</scope><name>describe</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459" prot="public" virt="virtual"><scope>ansys::dpf::GenericSupport</scope><name>empty</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericSupport_1aa561f217253e9f5ef38c1d027d08b560" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>emptyGenericSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1Support_1ad5b62f0bc3fc29380461006280edf89b" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>emptySupport</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericSupport_1a59fb09372406ca9c371281f42e442554" prot="private" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>GenericSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericSupport_1aed6480294bd5095215fdd1468fc4215b" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>GenericSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericSupport_1ab69289ea19752bb26eff730f73269ede" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>GenericSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericSupport_1a507d80322d882d68d1f826612c4cb283" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>GenericSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericSupport_1a21a8be4f117cfebba72b1a4dfeb0aa68" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>GenericSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1Support_1a5903cf9eb1f3f3fec9fc0a22331db3d3" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>getAsCyclicSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1Support_1a244cc29be85eb6192faf468268478064" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>getAsDomainMesh</name></member>
+      <member refid="classansys_1_1dpf_1_1Support_1a2ced0ad4403332166b14f301d67f4a4e" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>getAsTimeFreqSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1Support_1ac6c5332826a5eb2814e71a02fe3e7132" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>getAvailablePropertyNamesForFields</name></member>
+      <member refid="classansys_1_1dpf_1_1Support_1adb40c35236879d4d6d8a418c618a2f00" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>getAvailablePropertyNamesForPropertyFields</name></member>
+      <member refid="classansys_1_1dpf_1_1Support_1aefed9b020ce057f1c59e87c5cd0c11f5" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>getAvailablePropertyNamesForStringFields</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a968afd9daa0b0f13b65a2ac61369d73a" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>getClient</name></member>
+      <member refid="classansys_1_1dpf_1_1Support_1aa4704f682e0e0543acf44e37e9350aab" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>getFieldSupportByProperty</name></member>
+      <member refid="classansys_1_1dpf_1_1Support_1a7b80b961c6418d9c54bb2d50560d3d2f" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>getPropertyFieldSupportByProperty</name></member>
+      <member refid="classansys_1_1dpf_1_1Support_1a85465ef9621478e6990fddc5ecddc264" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>getStringFieldSupportByProperty</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a1a5634202c15404b6b24e8f50e51cb66" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>hasBeenMovedLocally</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ae198f89868d85c7db6dc1a934a1d3c15" prot="public" virt="virtual"><scope>ansys::dpf::GenericSupport</scope><name>hasInternalObject</name></member>
+      <member refid="classansys_1_1dpf_1_1Support_1a3cad097e6d82306d5ab8ba23bdb7c8ff" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>isMeshedDomain</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9f9789ff61cc9d400a2a344830706b73" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>isOnCommonAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1aa64d5f8fcd7d85ad6ebf708494dbefd7" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>isSameObject</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericSupport_1a9c2e1f7c456ff805191d412c2254d832" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericSupport_1a340450fcae90eadbcf25a7b18f5fe6e2" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1Support_1aafaebcbcdc49b2ab6fe730399f382d81" prot="public" virt="non-virtual" ambiguityscope="ansys::dpf::Support::"><scope>ansys::dpf::GenericSupport</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1Support_1a8584e7d484ca126718b4bd7e563011de" prot="public" virt="non-virtual" ambiguityscope="ansys::dpf::Support::"><scope>ansys::dpf::GenericSupport</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericSupport_1af2e77d87cb69995c0189349ee42264b3" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>setSupportOfProperty</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericSupport_1a3315d3bd4873c1bc7d5f96a94c8a13ca" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>setSupportOfProperty</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericSupport_1a4cff390263e550b35c34bbc7f7f675d4" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>setSupportOfProperty</name></member>
+      <member refid="classansys_1_1dpf_1_1Support_1a7437ca78d2d2fa368dc0063fdf3c221a" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>Support</name></member>
+      <member refid="classansys_1_1dpf_1_1Support_1a71326b7a5a317dd79c6b97a4eb18e79a" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>Support</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ab7c83b6ea160c2b115e056f6c312112f" prot="public" virt="virtual"><scope>ansys::dpf::GenericSupport</scope><name>~DpfTypes</name></member>
+      <member refid="classansys_1_1dpf_1_1GenericSupport_1a220ac02215e0dc173c04c61d1530e51c" prot="public" virt="non-virtual"><scope>ansys::dpf::GenericSupport</scope><name>~GenericSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1Support_1a3f63403200b8eb094dd8ebb3e43661ef" prot="public" virt="virtual"><scope>ansys::dpf::GenericSupport</scope><name>~Support</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

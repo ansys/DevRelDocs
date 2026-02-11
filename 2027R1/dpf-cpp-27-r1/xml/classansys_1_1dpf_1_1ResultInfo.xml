@@ -1,0 +1,1831 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1ResultInfo" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::ResultInfo</compoundname>
+    <basecompoundref refid="classansys_1_1dpf_1_1DpfTypes" prot="public" virt="non-virtual">ansys::dpf::DpfTypes</basecompoundref>
+    <includes local="no">dpf_api.h</includes>
+    <innerclass refid="classansys_1_1dpf_1_1ResultInfo_1_1Result" prot="public">ansys::dpf::ResultInfo::Result</innerclass>
+    <innerclass refid="structansys_1_1dpf_1_1ResultInfo_1_1subresult" prot="private">ansys::dpf::ResultInfo::subresult</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742ae" prot="public" static="no" strong="no">
+        <type></type>
+        <name>analysis_type</name>
+        <qualifiedname>ansys::dpf::ResultInfo::analysis_type</qualifiedname>
+        <enumvalue id="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea2ad50e8511b81f014d3275f5ac2d617d" prot="public">
+          <name>eStatic</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Static. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea612e3eb454ecf257bb23df2034536b7c" prot="public">
+          <name>eBukling</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Bukling. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea43233e3b7bde6dd3bc1fcce08792094c" prot="public">
+          <name>eModal</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Modal. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea621f9ba94cd5dbd3a5022b622d9852fe" prot="public">
+          <name>eHarmonic</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Harmonic. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aeaf79921aaee3274bd74fe2cb9a008f2a1" prot="public">
+          <name>eCMS</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>CMS. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea113a03346a5a097dd6594fd44c6d7d1d" prot="public">
+          <name>eTransient</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Transient. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea0740b5eadcd2cdcb124b57e5768ae34c" prot="public">
+          <name>eMSUP</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>MSUP. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea01e51f9752975dba490d540b4d5f47ce" prot="public">
+          <name>eSubStruct</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>SubStruct. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea1492b0b5fbb719dc8793c73fdbd78ed2" prot="public">
+          <name>eSpectrum</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Spectrum. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea533f3644550f70cbfc2a2892f9aba9c5" prot="public">
+          <name>eUnknownAnalysis</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Unknown analysis type. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea7dd25e302695ae006f756805aa1601de" prot="public">
+          <name>ePSD</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>PSD. </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Analysis Type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="490" column="9" bodyfile="dpf_api.h" bodystart="490" bodyend="513"/>
+      </memberdef>
+      <memberdef kind="enum" id="classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfaba" prot="public" static="no" strong="no">
+        <type></type>
+        <name>physics_type</name>
+        <qualifiedname>ansys::dpf::ResultInfo::physics_type</qualifiedname>
+        <enumvalue id="classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfabaab1cdf6ed7eb8c9102327076240beb06f" prot="public">
+          <name>eMecanic</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Mechanical. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfabaafeef68cbb19a910a625becb69c3a0510" prot="public">
+          <name>eThermal</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Thermal. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfabaab0d1187e954a2daba76caaa684203bbb" prot="public">
+          <name>eMagnetic</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Magnetic. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfabaaffc8f46f099407c3b33cfee2223f9a51" prot="public">
+          <name>eElectric</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Electric. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfabaadadd255c26d856ba97f4a290b3769107" prot="public">
+          <name>eFluid</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Fluid. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfabaad00f4b71e4db56a56048bc9ecd1786f3" prot="public">
+          <name>eUnknownPhysics</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+<para>Unknown physics type. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Physics Type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="515" column="9" bodyfile="dpf_api.h" bodystart="515" bodyend="528"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1ResultInfo_1a33ff3f826991522d2e77c1c523f33e19" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Operator</definition>
+        <argsstring></argsstring>
+        <name>Operator</name>
+        <qualifiedname>ansys::dpf::ResultInfo::Operator</qualifiedname>
+        <param>
+          <type>Operator</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="388" column="14" bodyfile="dpf_api.h" bodystart="388" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1ResultInfo_1a81d95df60edf516a1de9878b780f8fb3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class OperatorMain</definition>
+        <argsstring></argsstring>
+        <name>OperatorMain</name>
+        <qualifiedname>ansys::dpf::ResultInfo::OperatorMain</qualifiedname>
+        <param>
+          <type>OperatorMain</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="389" column="14" bodyfile="dpf_api.h" bodystart="389" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1ResultInfo_1afa07847c7cb432b260e61a0c18025ba3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Workflow</definition>
+        <argsstring></argsstring>
+        <name>Workflow</name>
+        <qualifiedname>ansys::dpf::ResultInfo::Workflow</qualifiedname>
+        <param>
+          <type>Workflow</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="390" column="14" bodyfile="dpf_api.h" bodystart="390" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1ResultInfo_1a9820c685b67a3355c042bb0b3365d9e2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Any</definition>
+        <argsstring></argsstring>
+        <name>Any</name>
+        <qualifiedname>ansys::dpf::ResultInfo::Any</qualifiedname>
+        <param>
+          <type>Any</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="391" column="14" bodyfile="dpf_api.h" bodystart="391" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1ResultInfo_1acc06c4380c923e11af63f95e97c3c259" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class GenericDataContainer</definition>
+        <argsstring></argsstring>
+        <name>GenericDataContainer</name>
+        <qualifiedname>ansys::dpf::ResultInfo::GenericDataContainer</qualifiedname>
+        <param>
+          <type>GenericDataContainer</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="392" column="14" bodyfile="dpf_api.h" bodystart="392" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1ResultInfo_1af764561c544bacc1b90b526ee8d3c708" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class core</definition>
+        <argsstring></argsstring>
+        <name>core</name>
+        <qualifiedname>ansys::dpf::ResultInfo::core</qualifiedname>
+        <param>
+          <type>core</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="393" column="14" bodyfile="dpf_api.h" bodystart="393" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1ResultInfo_1a21bafad6f87b274a4d24547c38c73892" prot="private" static="no" mutable="yes">
+        <type>std::map&lt; std::string, Result &gt;</type>
+        <definition>std::map&lt;std::string, Result&gt; ansys::dpf::ResultInfo::_results</definition>
+        <argsstring></argsstring>
+        <name>_results</name>
+        <qualifiedname>ansys::dpf::ResultInfo::_results</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="467" column="26" bodyfile="dpf_api.h" bodystart="467" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1ResultInfo_1acc74eb5729326b6c14062f2107f304a8" prot="private" static="no" mutable="yes">
+        <type>bool</type>
+        <definition>bool ansys::dpf::ResultInfo::_resultsUpToDate</definition>
+        <argsstring></argsstring>
+        <name>_resultsUpToDate</name>
+        <qualifiedname>ansys::dpf::ResultInfo::_resultsUpToDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="468" column="14" bodyfile="dpf_api.h" bodystart="468" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a21ca0a13f8b9c32f806d595707153fb2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::ResultInfo::ResultInfo</definition>
+        <argsstring>(opaque::DpfInternalSharedObject *)</argsstring>
+        <name>ResultInfo</name>
+        <qualifiedname>ansys::dpf::ResultInfo::ResultInfo</qualifiedname>
+        <param>
+          <type>opaque::DpfInternalSharedObject *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="466" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a50571a8a0b47f5002a2b8d5dd22c5bff" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::ResultInfo::fillResults</definition>
+        <argsstring>() const</argsstring>
+        <name>fillResults</name>
+        <qualifiedname>ansys::dpf::ResultInfo::fillResults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="470" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1acc63269a75b8274a6e799346aa77344a" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::ResultInfo::getResult</definition>
+        <argsstring>(dp_int idx, ResultInfo::Result &amp;res) const</argsstring>
+        <name>getResult</name>
+        <qualifiedname>ansys::dpf::ResultInfo::getResult</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>idx</declname>
+        </param>
+        <param>
+          <type>ResultInfo::Result &amp;</type>
+          <declname>res</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="471" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a90f6b5b2be7147d85b9a6566ef28ad62" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::map&lt; std::string, subresult &gt;</type>
+        <definition>std::map&lt; std::string, subresult &gt; ansys::dpf::ResultInfo::getSubResults</definition>
+        <argsstring>(dp_int idx) const</argsstring>
+        <name>getSubResults</name>
+        <qualifiedname>ansys::dpf::ResultInfo::getSubResults</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="472" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a3cba29f6d9017bf3653dc2c7f54e38a6" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ResultInfo::name</definition>
+        <argsstring>(dp_index result_index) const</argsstring>
+        <name>name</name>
+        <qualifiedname>ansys::dpf::ResultInfo::name</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>result_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="473" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a35099b4a3b6a70dfa1a6e15b51e3ca6b" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ResultInfo::opname</definition>
+        <argsstring>(dp_index result_index) const</argsstring>
+        <name>opname</name>
+        <qualifiedname>ansys::dpf::ResultInfo::opname</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>result_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="474" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a9e6d849b439e849963335873c75400d9" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ResultInfo::scriptingName</definition>
+        <argsstring>(dp_index result_index) const</argsstring>
+        <name>scriptingName</name>
+        <qualifiedname>ansys::dpf::ResultInfo::scriptingName</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>result_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="475" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1af3babfe9178b29c1bc5b25e9dcd1b920" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structansys_1_1dpf_1_1Location" kindref="compound">ansys::dpf::Location</ref></type>
+        <definition>ansys::dpf::Location ansys::dpf::ResultInfo::location</definition>
+        <argsstring>(dp_index result_index) const</argsstring>
+        <name>location</name>
+        <qualifiedname>ansys::dpf::ResultInfo::location</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>result_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="476" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a217b39cb7f48967e4c7cb2aca0787d84" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ResultInfo::description</definition>
+        <argsstring>(dp_index result_index) const</argsstring>
+        <name>description</name>
+        <qualifiedname>ansys::dpf::ResultInfo::description</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>result_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="477" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a731f5e9ee9423b129e4a108b8d2a9335" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1Unit" kindref="compound">ansys::dpf::Unit</ref></type>
+        <definition>ansys::dpf::Unit ansys::dpf::ResultInfo::unit</definition>
+        <argsstring>(dp_index result_index) const</argsstring>
+        <name>unit</name>
+        <qualifiedname>ansys::dpf::ResultInfo::unit</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>result_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="478" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1ae1e1855e9848d04539d1b44ec548068c" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+        <definition>dp_int ansys::dpf::ResultInfo::numberOfSubResults</definition>
+        <argsstring>(dp_index result_index) const</argsstring>
+        <name>numberOfSubResults</name>
+        <qualifiedname>ansys::dpf::ResultInfo::numberOfSubResults</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>result_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="479" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a2738cbf9ed56bd177023b8ee95d8e9da" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structansys_1_1dpf_1_1Dimensionality" kindref="compound">ansys::dpf::Dimensionality</ref></type>
+        <definition>ansys::dpf::Dimensionality ansys::dpf::ResultInfo::dimensionality</definition>
+        <argsstring>(dp_index result_index) const</argsstring>
+        <name>dimensionality</name>
+        <qualifiedname>ansys::dpf::ResultInfo::dimensionality</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>result_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="480" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1aaf62a147ac68906ae179e72b03e14b74" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>LabelSpacesVector</type>
+        <definition>LabelSpacesVector ansys::dpf::ResultInfo::qualifiers</definition>
+        <argsstring>(dp_index result_index) const</argsstring>
+        <name>qualifiers</name>
+        <qualifiedname>ansys::dpf::ResultInfo::qualifiers</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>result_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="481" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a5832b2128f6eb05acea5f60da7f58045" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ResultInfo::subName</definition>
+        <argsstring>(dp_index result_index, dp_index sub_result_index) const</argsstring>
+        <name>subName</name>
+        <qualifiedname>ansys::dpf::ResultInfo::subName</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>result_index</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>sub_result_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="482" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1ae4df36d7d4dda97ed028801ab3c82fea" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ResultInfo::subOpName</definition>
+        <argsstring>(dp_index result_index, dp_index sub_result_index) const</argsstring>
+        <name>subOpName</name>
+        <qualifiedname>ansys::dpf::ResultInfo::subOpName</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>result_index</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>sub_result_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="483" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1abf5a0076be907af27dd1527ed9942380" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ResultInfo::subDescription</definition>
+        <argsstring>(dp_index result_index, dp_index sub_result_index) const</argsstring>
+        <name>subDescription</name>
+        <qualifiedname>ansys::dpf::ResultInfo::subDescription</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>result_index</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>sub_result_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="484" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1ad3afd13c9715e79834ae5dde16c9d4d1" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const Result &amp;</type>
+        <definition>const Result &amp; ansys::dpf::ResultInfo::getResult</definition>
+        <argsstring>(std::string const &amp;res_name) const</argsstring>
+        <name>getResult</name>
+        <qualifiedname>ansys::dpf::ResultInfo::getResult</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>res_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="485" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a24c0e09458f47bfb10fd3d068472600f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::ResultInfo::unvalidateResults</definition>
+        <argsstring>()</argsstring>
+        <name>unvalidateResults</name>
+        <qualifiedname>ansys::dpf::ResultInfo::unvalidateResults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="486" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1abc8be30139b0cb1551feef7ec04a5bd5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>opaque::DpfInternalSharedObject *</type>
+        <definition>opaque::DpfInternalSharedObject * ansys::dpf::ResultInfo::instantiateLabelSpacesVector</definition>
+        <argsstring>(LabelSpacesVector const &amp;available_qualifiers)</argsstring>
+        <name>instantiateLabelSpacesVector</name>
+        <qualifiedname>ansys::dpf::ResultInfo::instantiateLabelSpacesVector</qualifiedname>
+        <param>
+          <type>LabelSpacesVector const &amp;</type>
+          <declname>available_qualifiers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="668" column="33"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a8e106b476f6790938ef80d10fa0705c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::ResultInfo::ResultInfo</definition>
+        <argsstring>(analysis_type const &amp;analysis_type=analysis_type::eUnknownAnalysis, physics_type const &amp;physics_type=physics_type::eUnknownPhysics)</argsstring>
+        <name>ResultInfo</name>
+        <qualifiedname>ansys::dpf::ResultInfo::ResultInfo</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742ae" kindref="member">analysis_type</ref> const &amp;</type>
+          <declname>analysis_type</declname>
+          <defval><ref refid="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea533f3644550f70cbfc2a2892f9aba9c5" kindref="member">analysis_type::eUnknownAnalysis</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfaba" kindref="member">physics_type</ref> const &amp;</type>
+          <declname>physics_type</declname>
+          <defval><ref refid="classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfabaad00f4b71e4db56a56048bc9ecd1786f3" kindref="member">physics_type::eUnknownPhysics</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="530" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a99a27115c627ec31921667eec75c6176" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ansys::dpf::ResultInfo::~ResultInfo</definition>
+        <argsstring>()</argsstring>
+        <name>~ResultInfo</name>
+        <qualifiedname>ansys::dpf::ResultInfo::~ResultInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="531" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a0a747c548c86ad5b07a4cedd05dc73d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::ResultInfo::ResultInfo</definition>
+        <argsstring>(ResultInfo const &amp;)</argsstring>
+        <name>ResultInfo</name>
+        <qualifiedname>ansys::dpf::ResultInfo::ResultInfo</qualifiedname>
+        <param>
+          <type>ResultInfo const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="532" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1af81f7999b7d31d1d9acdc919ef3fc022" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::ResultInfo::ResultInfo</definition>
+        <argsstring>(ResultInfo &amp;&amp;) noexcept</argsstring>
+        <name>ResultInfo</name>
+        <qualifiedname>ansys::dpf::ResultInfo::ResultInfo</qualifiedname>
+        <param>
+          <type>ResultInfo &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="533" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a2cdb1a252a8b35347d72ef6b543e3acf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ResultInfo &amp;</type>
+        <definition>ResultInfo &amp; ansys::dpf::ResultInfo::operator=</definition>
+        <argsstring>(ResultInfo const &amp;)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::ResultInfo::operator=</qualifiedname>
+        <param>
+          <type>ResultInfo const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="534" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a72181c28d7f4ab143b62bcc98df77f58" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>ResultInfo &amp;</type>
+        <definition>ResultInfo &amp; ansys::dpf::ResultInfo::operator=</definition>
+        <argsstring>(ResultInfo &amp;&amp;) noexcept</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::ResultInfo::operator=</qualifiedname>
+        <param>
+          <type>ResultInfo &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="535" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a9cbdb503d903b0a8212cc32a952c1ad2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742ae" kindref="member">analysis_type</ref></type>
+        <definition>analysis_type ansys::dpf::ResultInfo::analysisType</definition>
+        <argsstring>() const</argsstring>
+        <name>analysisType</name>
+        <qualifiedname>ansys::dpf::ResultInfo::analysisType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Analysis type for all results. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="538" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1abc776e636cedf999ab85007904f110a9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfaba" kindref="member">physics_type</ref></type>
+        <definition>physics_type ansys::dpf::ResultInfo::physicsType</definition>
+        <argsstring>() const</argsstring>
+        <name>physicsType</name>
+        <qualifiedname>ansys::dpf::ResultInfo::physicsType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Phyiscs type for all results. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="540" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a62c992acfa6ffc5b73de0f75f57f7e58" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structansys_1_1dpf_1_1UnitSystem" kindref="compound">UnitSystem</ref></type>
+        <definition>UnitSystem ansys::dpf::ResultInfo::unitSystem</definition>
+        <argsstring>() const</argsstring>
+        <name>unitSystem</name>
+        <qualifiedname>ansys::dpf::ResultInfo::unitSystem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Unit" kindref="compound">Unit</ref> system for all results. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="542" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1ac0f80a2ea905a13dccc274790ef6cbc7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ResultInfo::analysisTypeName</definition>
+        <argsstring>() const</argsstring>
+        <name>analysisTypeName</name>
+        <qualifiedname>ansys::dpf::ResultInfo::analysisTypeName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Analysis type name for all results. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="544" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a4400684a038c4fd6dbae406e828c94f2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ResultInfo::physicsTypeName</definition>
+        <argsstring>() const</argsstring>
+        <name>physicsTypeName</name>
+        <qualifiedname>ansys::dpf::ResultInfo::physicsTypeName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Phyiscs type name for all results. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="546" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1ae358df95bebd891adf15148f5b26d21d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ResultInfo::unitSystemName</definition>
+        <argsstring>() const</argsstring>
+        <name>unitSystemName</name>
+        <qualifiedname>ansys::dpf::ResultInfo::unitSystemName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Unit" kindref="compound">Unit</ref> system name for all results. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="548" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a69427d3a5823aa23acfc59b891fa662a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+        <definition>dp_int ansys::dpf::ResultInfo::numberOfResults</definition>
+        <argsstring>() const</argsstring>
+        <name>numberOfResults</name>
+        <qualifiedname>ansys::dpf::ResultInfo::numberOfResults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Number of results. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="550" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a48e23d251d6109166a2a1f681a39c58a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::set&lt; std::string &gt;</type>
+        <definition>std::set&lt; std::string &gt; ansys::dpf::ResultInfo::availableResults</definition>
+        <argsstring>() const</argsstring>
+        <name>availableResults</name>
+        <qualifiedname>ansys::dpf::ResultInfo::availableResults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The result name might be something like temperature. <simplesect kind="return"><para>Set of names for all results. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="553" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a640956feeee439f2fa42a2fc145fb05d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ResultInfo::resultNameByOperatorName</definition>
+        <argsstring>(std::string const &amp;op_name) const</argsstring>
+        <name>resultNameByOperatorName</name>
+        <qualifiedname>ansys::dpf::ResultInfo::resultNameByOperatorName</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>op_name</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref> name. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>For a result name like Temperature, the operator name might be something like TEMP. <simplesect kind="return"><para>Name of result </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="556" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1aa090d77720a048d0dbe0f6230ba7500c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ResultInfo::operatorName</definition>
+        <argsstring>(std::string const &amp;res_name) const</argsstring>
+        <name>operatorName</name>
+        <qualifiedname>ansys::dpf::ResultInfo::operatorName</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>res_name</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref> name. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The operator name might be something like TEMP, where the result name is Temperature. <simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref> name </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="560" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1ac476a3cc0d4c1bb7c5c02377244c413b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ResultInfo::scriptingName</definition>
+        <argsstring>(std::string const &amp;res_name) const</argsstring>
+        <name>scriptingName</name>
+        <qualifiedname>ansys::dpf::ResultInfo::scriptingName</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>res_name</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref> name. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The operator scripting name is used to instantiate the operator in scripting, ex: displacement, elastic_strain... <simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref> scripting name </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="564" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1ac2db59f4a0d95572d00c5093e3914246" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1Unit" kindref="compound">ansys::dpf::Unit</ref></type>
+        <definition>ansys::dpf::Unit ansys::dpf::ResultInfo::unit</definition>
+        <argsstring>(std::string const &amp;res_name) const</argsstring>
+        <name>unit</name>
+        <qualifiedname>ansys::dpf::ResultInfo::unit</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>res_name</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref> name. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Unit" kindref="compound">Unit</ref> for given result name. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="567" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a33fc997e9f5a93b23afac8ca753d0c25" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+        <definition>dp_int ansys::dpf::ResultInfo::numberOfComponents</definition>
+        <argsstring>(std::string const &amp;res_name) const</argsstring>
+        <name>numberOfComponents</name>
+        <qualifiedname>ansys::dpf::ResultInfo::numberOfComponents</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>res_name</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref> name. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Number of components for given result name. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="570" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a224325bb3a8b4646000d137a7c2eab10" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ResultInfo::description</definition>
+        <argsstring>(std::string const &amp;res_name) const</argsstring>
+        <name>description</name>
+        <qualifiedname>ansys::dpf::ResultInfo::description</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>res_name</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref> name. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Description of given result name. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="573" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a34c2142d20b7121084cd42874f99560d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structansys_1_1dpf_1_1Location" kindref="compound">ansys::dpf::Location</ref></type>
+        <definition>ansys::dpf::Location ansys::dpf::ResultInfo::location</definition>
+        <argsstring>(std::string const &amp;res_name) const</argsstring>
+        <name>location</name>
+        <qualifiedname>ansys::dpf::ResultInfo::location</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>res_name</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref> name. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref> of given result name. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="576" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1ab47931a377a99ccb9bc6727bb6187d74" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932f" kindref="member">Dimensionality::ENature</ref></type>
+        <definition>Dimensionality::ENature ansys::dpf::ResultInfo::nature</definition>
+        <argsstring>(std::string const &amp;res_name) const</argsstring>
+        <name>nature</name>
+        <qualifiedname>ansys::dpf::ResultInfo::nature</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>res_name</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref> name. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Nature for given result name. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="579" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1ae952c70bd96103690e5f1daf92f7f724" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>LabelSpacesVector</type>
+        <definition>LabelSpacesVector ansys::dpf::ResultInfo::qualifiers</definition>
+        <argsstring>(std::string const &amp;res_name) const</argsstring>
+        <name>qualifiers</name>
+        <qualifiedname>ansys::dpf::ResultInfo::qualifiers</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>res_name</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref> name. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="582" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a66ba1d7c64eacd4872fca3bdfd968414" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+        <definition>dp_int ansys::dpf::ResultInfo::numberOfSubResults</definition>
+        <argsstring>(std::string const &amp;res_name) const</argsstring>
+        <name>numberOfSubResults</name>
+        <qualifiedname>ansys::dpf::ResultInfo::numberOfSubResults</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>res_name</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref> name. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Number of subresults for given result name. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="586" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1af72de6732b08cca024fd01abd0ee8d99" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::set&lt; std::string &gt;</type>
+        <definition>std::set&lt; std::string &gt; ansys::dpf::ResultInfo::availableSubResults</definition>
+        <argsstring>(std::string const &amp;res_name) const</argsstring>
+        <name>availableSubResults</name>
+        <qualifiedname>ansys::dpf::ResultInfo::availableSubResults</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>res_name</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref> name. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Set of names of subresults for given result name. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="589" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1ad028bbf71ecc484170d725499ab7efbd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ResultInfo::subResultOperatorName</definition>
+        <argsstring>(std::string const &amp;res_name, std::string const &amp;subres_name) const</argsstring>
+        <name>subResultOperatorName</name>
+        <qualifiedname>ansys::dpf::ResultInfo::subResultOperatorName</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>res_name</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref> name. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>subres_name</declname>
+          <briefdescription><para>[in] Subresult name. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref> name for given subresult name of given result name </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="592" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a09bb53667b42b70d13356395437cfe77" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ResultInfo::subResultDescription</definition>
+        <argsstring>(std::string const &amp;res_name, std::string const &amp;subres_name) const</argsstring>
+        <name>subResultDescription</name>
+        <qualifiedname>ansys::dpf::ResultInfo::subResultDescription</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>res_name</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref> name. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>subres_name</declname>
+          <briefdescription><para>[in] Subresult name. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Description for given subresult name of given result name. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="596" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1ad8d61b8875d35dd7812d83b63ae68da9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::ResultInfo::operatorNameIsAvailable</definition>
+        <argsstring>(std::string const &amp;op_name) const</argsstring>
+        <name>operatorNameIsAvailable</name>
+        <qualifiedname>ansys::dpf::ResultInfo::operatorNameIsAvailable</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>op_name</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref> name. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Indication that operator is available within results and subresults. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="600" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a0d2b564f1b52afc97ef5be1d4e4661f9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::ResultInfo::solver_version</definition>
+        <argsstring>(int &amp;major_version, int &amp;minor_version) const</argsstring>
+        <name>solver_version</name>
+        <qualifiedname>ansys::dpf::ResultInfo::solver_version</qualifiedname>
+        <param>
+          <type>int &amp;</type>
+          <declname>major_version</declname>
+          <briefdescription><para>[out] Major version. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>minor_version</declname>
+          <briefdescription><para>[out] Minor version. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets solver version. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="603" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a52ed9fdb1a2a92a7ada0fed534c200b5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::ResultInfo::solve_date_time</definition>
+        <argsstring>(int &amp;solve_date, int &amp;solve_time) const</argsstring>
+        <name>solve_date_time</name>
+        <qualifiedname>ansys::dpf::ResultInfo::solve_date_time</qualifiedname>
+        <param>
+          <type>int &amp;</type>
+          <declname>solve_date</declname>
+          <briefdescription><para>[out] Date. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>solve_time</declname>
+          <briefdescription><para>[out] Time. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets solver date and time. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="607" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1ac3786ae43ac33386010794e990a31146" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ResultInfo::user_name</definition>
+        <argsstring>() const</argsstring>
+        <name>user_name</name>
+        <qualifiedname>ansys::dpf::ResultInfo::user_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>User name. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="611" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1ae6ed610647bdabcc9baab02b19462f99" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ResultInfo::job_name</definition>
+        <argsstring>() const</argsstring>
+        <name>job_name</name>
+        <qualifiedname>ansys::dpf::ResultInfo::job_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Job name. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="613" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a8b1146409fe3f14fda0b331faf1bf9fe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ResultInfo::product_name</definition>
+        <argsstring>() const</argsstring>
+        <name>product_name</name>
+        <qualifiedname>ansys::dpf::ResultInfo::product_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Product name. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="615" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a8071bc87922ee65107a63fc2f1eefd3d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ResultInfo::main_title</definition>
+        <argsstring>() const</argsstring>
+        <name>main_title</name>
+        <qualifiedname>ansys::dpf::ResultInfo::main_title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Main title. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="617" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1ad2e01a708a6c666323f5fa8d1806feed" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1CyclicSupport" kindref="compound">CyclicSupport</ref></type>
+        <definition>CyclicSupport ansys::dpf::ResultInfo::getCyclicSupport</definition>
+        <argsstring>() const</argsstring>
+        <name>getCyclicSupport</name>
+        <qualifiedname>ansys::dpf::ResultInfo::getCyclicSupport</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the cyclic support if the result file has cyclic symmetry (or multistage). The <ref refid="classansys_1_1dpf_1_1CyclicSupport" kindref="compound">CyclicSupport</ref> contains information relevant for cyclic expansion </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="619" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a927d3c7ce604380c710cfbd4e8a5e801" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::ResultInfo::hasCyclicSymmetry</definition>
+        <argsstring>(std::string &amp;cyc_symmetry_type) const</argsstring>
+        <name>hasCyclicSymmetry</name>
+        <qualifiedname>ansys::dpf::ResultInfo::hasCyclicSymmetry</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>cyc_symmetry_type</declname>
+          <briefdescription><para>[out] &quot;single_stage&quot;, &quot;multi_stage&quot; or &quot;not_cyclic&quot;. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if the result file has cyclic symmetry (or multistage) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="622" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a49defb2d47169645db3d8c636597e513" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::ResultInfo::hasCyclicSymmetry</definition>
+        <argsstring>() const</argsstring>
+        <name>hasCyclicSymmetry</name>
+        <qualifiedname>ansys::dpf::ResultInfo::hasCyclicSymmetry</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if the result file has cyclic symmetry (or multistage) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="625" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1ab1af821d17d4835e7c992c048323d735" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ResultInfo::getStringProperty</definition>
+        <argsstring>(std::string const &amp;property_name) const</argsstring>
+        <name>getStringProperty</name>
+        <qualifiedname>ansys::dpf::ResultInfo::getStringProperty</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>property_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a property value: most common are &apos;user_name&apos;, &apos;job_name&apos;, &apos;product_name&apos;, &apos;main_title&apos;, &apos;cyclic_symmetry_type&apos;. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="628" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a88a913a835dfc6688869efcb0745e1be" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ansys::dpf::ResultInfo::getIntProperty</definition>
+        <argsstring>(std::string const &amp;property_name) const</argsstring>
+        <name>getIntProperty</name>
+        <qualifiedname>ansys::dpf::ResultInfo::getIntProperty</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>property_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a property value: most common are &apos;solve_time&apos;, &apos;solve_date&apos;, &apos;solver_minor_version&apos;, &apos;solver_major_version&apos;. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="630" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a5bc76572a71debbc4c0c5386e39c7470" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; ansys::dpf::ResultInfo::availableQualifierLabels</definition>
+        <argsstring>() const</argsstring>
+        <name>availableQualifierLabels</name>
+        <qualifiedname>ansys::dpf::ResultInfo::availableQualifierLabels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="632" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1ae978521e336dac2cc7dddc3d2e8a46fa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1Support" kindref="compound">ansys::dpf::Support</ref></type>
+        <definition>ansys::dpf::Support ansys::dpf::ResultInfo::qualifierTypeSupport</definition>
+        <argsstring>(ansys::dpf::Label const &amp;qualifier) const</argsstring>
+        <name>qualifierTypeSupport</name>
+        <qualifiedname>ansys::dpf::ResultInfo::qualifierTypeSupport</qualifiedname>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1Label" kindref="compound">ansys::dpf::Label</ref> const &amp;</type>
+          <declname>qualifier</declname>
+          <briefdescription><para>[in] <ref refid="structansys_1_1dpf_1_1Label" kindref="compound">Label</ref> describing the location of the qualifier: ex phase, species... </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Support" kindref="compound">Support</ref> describing the Domain definition of the qualifier type. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="635" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1ad25053c5a68986f3948256228aad6cea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::ResultInfo::setUnitSystem</definition>
+        <argsstring>(UnitSystem const &amp;unit_system)</argsstring>
+        <name>setUnitSystem</name>
+        <qualifiedname>ansys::dpf::ResultInfo::setUnitSystem</qualifiedname>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1UnitSystem" kindref="compound">UnitSystem</ref> const &amp;</type>
+          <declname>unit_system</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the unit system. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="640" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a8b68b2bf88b1ef946ad7b559e187d179" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::ResultInfo::addResult</definition>
+        <argsstring>(std::string const &amp;operator_name, std::string const &amp;scripting_name, ansys::dpf::Dimensionality dimensionality, ansys::dpf::Location const &amp;location, ansys::dpf::Homogeneity const &amp;homogeneity, std::string const &amp;description=&quot;&quot;)</argsstring>
+        <name>addResult</name>
+        <qualifiedname>ansys::dpf::ResultInfo::addResult</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>operator_name</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref> name associated to the result. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>scripting_name</declname>
+          <briefdescription><para>[in] friendly name usable as a method: all lower case, no spaces only underscores. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1Dimensionality" kindref="compound">ansys::dpf::Dimensionality</ref></type>
+          <declname>dimensionality</declname>
+          <briefdescription><para>[in] <ref refid="structansys_1_1dpf_1_1Dimensionality" kindref="compound">Dimensionality</ref> of the result see <ref refid="structansys_1_1dpf_1_1dimensionalities" kindref="compound">dimensionalities</ref>. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1Location" kindref="compound">ansys::dpf::Location</ref> const &amp;</type>
+          <declname>location</declname>
+          <briefdescription><para>[in] <ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref> of the result. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Homogeneity" kindref="compound">ansys::dpf::Homogeneity</ref> const &amp;</type>
+          <declname>homogeneity</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Homogeneity" kindref="compound">Homogeneity</ref> of the result. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>description</declname>
+          <defval>&quot;&quot;</defval>
+          <briefdescription><para>[in] optional small description of the result. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add a result. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="642" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1aaa7f97f22a08851e10f4f8a1294077c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::ResultInfo::addResult</definition>
+        <argsstring>(Result const &amp;res)</argsstring>
+        <name>addResult</name>
+        <qualifiedname>ansys::dpf::ResultInfo::addResult</qualifiedname>
+        <param>
+          <type>Result const &amp;</type>
+          <declname>res</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add a result. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="650" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1ab33285e41a67d2a412e847f6f159a355" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::ResultInfo::addProperties</definition>
+        <argsstring>(std::vector&lt; std::pair&lt; std::string, std::string &gt; &gt;const &amp;properties)</argsstring>
+        <name>addProperties</name>
+        <qualifiedname>ansys::dpf::ResultInfo::addProperties</qualifiedname>
+        <param>
+          <type>std::vector&lt; std::pair&lt; std::string, std::string &gt; &gt;const &amp;</type>
+          <declname>properties</declname>
+          <briefdescription><para>[in] Most common are &apos;user_name&apos;, &apos;job_name&apos;, &apos;product_name&apos;, &apos;main_title&apos;, &apos;cyclic_symmetry_type&apos;. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="652" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a8d15940ba2e8825a0eae2239a65f2311" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::ResultInfo::addProperties</definition>
+        <argsstring>(std::vector&lt; std::pair&lt; std::string, int &gt; &gt;const &amp;properties)</argsstring>
+        <name>addProperties</name>
+        <qualifiedname>ansys::dpf::ResultInfo::addProperties</qualifiedname>
+        <param>
+          <type>std::vector&lt; std::pair&lt; std::string, int &gt; &gt;const &amp;</type>
+          <declname>properties</declname>
+          <briefdescription><para>[in] Most common are: &apos;solve_time&apos;, &apos;solve_date&apos;, &apos;solver_minor_version&apos;, &apos;solver_major_version&apos;. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="654" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a7ee77df7c3754986d3aa67dbc258883c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::ResultInfo::addAvailableQualifiersForAllResults</definition>
+        <argsstring>(LabelSpacesVector const &amp;available_qualifiers)</argsstring>
+        <name>addAvailableQualifiersForAllResults</name>
+        <qualifiedname>ansys::dpf::ResultInfo::addAvailableQualifiersForAllResults</qualifiedname>
+        <param>
+          <type>LabelSpacesVector const &amp;</type>
+          <declname>available_qualifiers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the available sub qualifiers (or domains) available for all Results in the <ref refid="classansys_1_1dpf_1_1ResultInfo" kindref="compound">ResultInfo</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="658" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1adc9dde21342797e91d4c3b4c7c66b532" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::ResultInfo::setQualifierLabelSupport</definition>
+        <argsstring>(ansys::dpf::Label const &amp;qualifier, ansys::dpf::Support const &amp;support)</argsstring>
+        <name>setQualifierLabelSupport</name>
+        <qualifiedname>ansys::dpf::ResultInfo::setQualifierLabelSupport</qualifiedname>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1Label" kindref="compound">ansys::dpf::Label</ref> const &amp;</type>
+          <declname>qualifier</declname>
+          <briefdescription><para>[in] <ref refid="structansys_1_1dpf_1_1Label" kindref="compound">Label</ref> describing the location of the qualifier: ex phase, species... </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Support" kindref="compound">ansys::dpf::Support</ref> const &amp;</type>
+          <declname>support</declname>
+          <briefdescription><para>[in] Domain definition of the qualifier. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Describe the Domain definition for a given qualifier. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="661" column="6"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ResultInfo_1a145571361ee459da296a2094aee7a0aa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ResultInfo</type>
+        <definition>static ResultInfo ansys::dpf::ResultInfo::emptyResultInfo</definition>
+        <argsstring>()</argsstring>
+        <name>emptyResultInfo</name>
+        <qualifiedname>ansys::dpf::ResultInfo::emptyResultInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="665" column="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Provides information on all available results </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ansys::dpf::DpfTypes</label>
+        <link refid="classansys_1_1dpf_1_1DpfTypes"/>
+      </node>
+      <node id="1">
+        <label>ansys::dpf::ResultInfo</label>
+        <link refid="classansys_1_1dpf_1_1ResultInfo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ansys::dpf::DpfTypes</label>
+        <link refid="classansys_1_1dpf_1_1DpfTypes"/>
+      </node>
+      <node id="1">
+        <label>ansys::dpf::ResultInfo</label>
+        <link refid="classansys_1_1dpf_1_1ResultInfo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="dpf_api.h" line="386" column="1" bodyfile="dpf_api.h" bodystart="387" bodyend="669"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a21bafad6f87b274a4d24547c38c73892" prot="private" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>_results</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1acc74eb5729326b6c14062f2107f304a8" prot="private" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>_resultsUpToDate</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a7ee77df7c3754986d3aa67dbc258883c" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>addAvailableQualifiersForAllResults</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1ab33285e41a67d2a412e847f6f159a355" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>addProperties</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a8d15940ba2e8825a0eae2239a65f2311" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>addProperties</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a8b68b2bf88b1ef946ad7b559e187d179" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>addResult</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1aaa7f97f22a08851e10f4f8a1294077c7" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>addResult</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742ae" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>analysis_type</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a9cbdb503d903b0a8212cc32a952c1ad2" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>analysisType</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1ac0f80a2ea905a13dccc274790ef6cbc7" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>analysisTypeName</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a5bc76572a71debbc4c0c5386e39c7470" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>availableQualifierLabels</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a48e23d251d6109166a2a1f681a39c58a" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>availableResults</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1af72de6732b08cca024fd01abd0ee8d99" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>availableSubResults</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1aea34d37e0c080126eff70db34bf46597" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>callAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9977945710983bc03d2940fa007847b2" prot="public" virt="virtual"><scope>ansys::dpf::ResultInfo</scope><name>describe</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a217b39cb7f48967e4c7cb2aca0787d84" prot="private" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>description</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a224325bb3a8b4646000d137a7c2eab10" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>description</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a2738cbf9ed56bd177023b8ee95d8e9da" prot="private" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>dimensionality</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea612e3eb454ecf257bb23df2034536b7c" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>eBukling</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aeaf79921aaee3274bd74fe2cb9a008f2a1" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>eCMS</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfabaaffc8f46f099407c3b33cfee2223f9a51" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>eElectric</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfabaadadd255c26d856ba97f4a290b3769107" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>eFluid</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea621f9ba94cd5dbd3a5022b622d9852fe" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>eHarmonic</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfabaab0d1187e954a2daba76caaa684203bbb" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>eMagnetic</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfabaab1cdf6ed7eb8c9102327076240beb06f" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>eMecanic</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea43233e3b7bde6dd3bc1fcce08792094c" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>eModal</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459" prot="public" virt="virtual"><scope>ansys::dpf::ResultInfo</scope><name>empty</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a145571361ee459da296a2094aee7a0aa" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>emptyResultInfo</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea0740b5eadcd2cdcb124b57e5768ae34c" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>eMSUP</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea7dd25e302695ae006f756805aa1601de" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>ePSD</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea1492b0b5fbb719dc8793c73fdbd78ed2" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>eSpectrum</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea2ad50e8511b81f014d3275f5ac2d617d" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>eStatic</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea01e51f9752975dba490d540b4d5f47ce" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>eSubStruct</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfabaafeef68cbb19a910a625becb69c3a0510" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>eThermal</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea113a03346a5a097dd6594fd44c6d7d1d" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>eTransient</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea533f3644550f70cbfc2a2892f9aba9c5" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>eUnknownAnalysis</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfabaad00f4b71e4db56a56048bc9ecd1786f3" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>eUnknownPhysics</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a50571a8a0b47f5002a2b8d5dd22c5bff" prot="private" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>fillResults</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a968afd9daa0b0f13b65a2ac61369d73a" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>getClient</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1ad2e01a708a6c666323f5fa8d1806feed" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>getCyclicSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a88a913a835dfc6688869efcb0745e1be" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>getIntProperty</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1acc63269a75b8274a6e799346aa77344a" prot="private" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>getResult</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1ad3afd13c9715e79834ae5dde16c9d4d1" prot="private" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>getResult</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1ab1af821d17d4835e7c992c048323d735" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>getStringProperty</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a90f6b5b2be7147d85b9a6566ef28ad62" prot="private" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>getSubResults</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a1a5634202c15404b6b24e8f50e51cb66" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>hasBeenMovedLocally</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a927d3c7ce604380c710cfbd4e8a5e801" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>hasCyclicSymmetry</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a49defb2d47169645db3d8c636597e513" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>hasCyclicSymmetry</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ae198f89868d85c7db6dc1a934a1d3c15" prot="public" virt="virtual"><scope>ansys::dpf::ResultInfo</scope><name>hasInternalObject</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1abc8be30139b0cb1551feef7ec04a5bd5" prot="private" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>instantiateLabelSpacesVector</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9f9789ff61cc9d400a2a344830706b73" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>isOnCommonAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1aa64d5f8fcd7d85ad6ebf708494dbefd7" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>isSameObject</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1ae6ed610647bdabcc9baab02b19462f99" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>job_name</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1af3babfe9178b29c1bc5b25e9dcd1b920" prot="private" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>location</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a34c2142d20b7121084cd42874f99560d" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>location</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a8071bc87922ee65107a63fc2f1eefd3d" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>main_title</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a3cba29f6d9017bf3653dc2c7f54e38a6" prot="private" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>name</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1ab47931a377a99ccb9bc6727bb6187d74" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>nature</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a33fc997e9f5a93b23afac8ca753d0c25" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>numberOfComponents</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a69427d3a5823aa23acfc59b891fa662a" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>numberOfResults</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1ae1e1855e9848d04539d1b44ec548068c" prot="private" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>numberOfSubResults</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a66ba1d7c64eacd4872fca3bdfd968414" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>numberOfSubResults</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a2cdb1a252a8b35347d72ef6b543e3acf" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a72181c28d7f4ab143b62bcc98df77f58" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1aa090d77720a048d0dbe0f6230ba7500c" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>operatorName</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1ad8d61b8875d35dd7812d83b63ae68da9" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>operatorNameIsAvailable</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a35099b4a3b6a70dfa1a6e15b51e3ca6b" prot="private" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>opname</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfaba" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>physics_type</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1abc776e636cedf999ab85007904f110a9" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>physicsType</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a4400684a038c4fd6dbae406e828c94f2" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>physicsTypeName</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a8b1146409fe3f14fda0b331faf1bf9fe" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>product_name</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1aaf62a147ac68906ae179e72b03e14b74" prot="private" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>qualifiers</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1ae952c70bd96103690e5f1daf92f7f724" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>qualifiers</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1ae978521e336dac2cc7dddc3d2e8a46fa" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>qualifierTypeSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a21ca0a13f8b9c32f806d595707153fb2" prot="private" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>ResultInfo</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a8e106b476f6790938ef80d10fa0705c3" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>ResultInfo</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a0a747c548c86ad5b07a4cedd05dc73d0" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>ResultInfo</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1af81f7999b7d31d1d9acdc919ef3fc022" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>ResultInfo</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a640956feeee439f2fa42a2fc145fb05d" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>resultNameByOperatorName</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a9e6d849b439e849963335873c75400d9" prot="private" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>scriptingName</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1ac476a3cc0d4c1bb7c5c02377244c413b" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>scriptingName</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1adc9dde21342797e91d4c3b4c7c66b532" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>setQualifierLabelSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1ad25053c5a68986f3948256228aad6cea" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>setUnitSystem</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a52ed9fdb1a2a92a7ada0fed534c200b5" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>solve_date_time</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a0d2b564f1b52afc97ef5be1d4e4661f9" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>solver_version</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1abf5a0076be907af27dd1527ed9942380" prot="private" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>subDescription</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a5832b2128f6eb05acea5f60da7f58045" prot="private" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>subName</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1ae4df36d7d4dda97ed028801ab3c82fea" prot="private" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>subOpName</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a09bb53667b42b70d13356395437cfe77" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>subResultDescription</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1ad028bbf71ecc484170d725499ab7efbd" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>subResultOperatorName</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a731f5e9ee9423b129e4a108b8d2a9335" prot="private" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>unit</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1ac2db59f4a0d95572d00c5093e3914246" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>unit</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a62c992acfa6ffc5b73de0f75f57f7e58" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>unitSystem</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1ae358df95bebd891adf15148f5b26d21d" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>unitSystemName</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a24c0e09458f47bfb10fd3d068472600f" prot="private" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>unvalidateResults</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1ac3786ae43ac33386010794e990a31146" prot="public" virt="non-virtual"><scope>ansys::dpf::ResultInfo</scope><name>user_name</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ab7c83b6ea160c2b115e056f6c312112f" prot="public" virt="virtual"><scope>ansys::dpf::ResultInfo</scope><name>~DpfTypes</name></member>
+      <member refid="classansys_1_1dpf_1_1ResultInfo_1a99a27115c627ec31921667eec75c6176" prot="public" virt="virtual"><scope>ansys::dpf::ResultInfo</scope><name>~ResultInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

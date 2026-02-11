@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="structansys_1_1dpf_1_1ConstructHelpers" kind="struct" language="C++" prot="public">
+    <compoundname>ansys::dpf::ConstructHelpers</compoundname>
+    <innerclass refid="structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait" prot="public">ansys::dpf::ConstructHelpers::construct_trait</innerclass>
+    <innerclass refid="structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait_3_01DataT_00_01std_1_1false__type_01_4" prot="public">ansys::dpf::ConstructHelpers::construct_trait&lt; DataT, std::false_type &gt;</innerclass>
+    <innerclass refid="structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait_3_01DataT_00_01std_1_1true__type_01_4" prot="public">ansys::dpf::ConstructHelpers::construct_trait&lt; DataT, std::true_type &gt;</innerclass>
+    <innerclass refid="structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait_3_01Collection_3_01DataT_01_4_00_01std_1_1false__type_01_4" prot="public">ansys::dpf::ConstructHelpers::construct_trait&lt; Collection&lt; DataT &gt;, std::false_type &gt;</innerclass>
+    <innerclass refid="structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait_3_01Any_00_01std_1_1true__type_01_4" prot="public">ansys::dpf::ConstructHelpers::construct_trait&lt; Any, std::true_type &gt;</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="dpf_api.h" line="133" column="1" bodyfile="dpf_api.h" bodystart="133" bodyend="140"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

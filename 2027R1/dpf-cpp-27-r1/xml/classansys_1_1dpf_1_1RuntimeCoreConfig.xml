@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1RuntimeCoreConfig" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::RuntimeCoreConfig</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ansys::dpf::RuntimeConfig</basecompoundref>
+    <includes local="no">dpf_api.h</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1RuntimeCoreConfig_1af764561c544bacc1b90b526ee8d3c708" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class core</definition>
+        <argsstring></argsstring>
+        <name>core</name>
+        <qualifiedname>ansys::dpf::RuntimeCoreConfig::core</qualifiedname>
+        <param>
+          <type>core</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6362" column="14" bodyfile="dpf_api.h" bodystart="6362" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1RuntimeCoreConfig_1a96ef33b2d74d74303fb6a4b0efe38b69" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::RuntimeCoreConfig::RuntimeCoreConfig</definition>
+        <argsstring>(DataTree &amp;data_tree)</argsstring>
+        <name>RuntimeCoreConfig</name>
+        <qualifiedname>ansys::dpf::RuntimeCoreConfig::RuntimeCoreConfig</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1DataTree" kindref="compound">DataTree</ref> &amp;</type>
+          <declname>data_tree</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6363" column="1" bodyfile="dpf_api.h" bodystart="6363" bodyend="6363"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1RuntimeCoreConfig_1a9cedb8f684ca41889ed7c4ed65b29e9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::RuntimeCoreConfig::RuntimeCoreConfig</definition>
+        <argsstring>(RuntimeCoreConfig const &amp;rhs)</argsstring>
+        <name>RuntimeCoreConfig</name>
+        <qualifiedname>ansys::dpf::RuntimeCoreConfig::RuntimeCoreConfig</qualifiedname>
+        <param>
+          <type>RuntimeCoreConfig const &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6365" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1RuntimeCoreConfig_1a9cd9782bb8c79716f3b540d14a561b98" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::RuntimeCoreConfig::RuntimeCoreConfig</definition>
+        <argsstring>(RuntimeCoreConfig &amp;&amp;rhs) noexcept</argsstring>
+        <name>RuntimeCoreConfig</name>
+        <qualifiedname>ansys::dpf::RuntimeCoreConfig::RuntimeCoreConfig</qualifiedname>
+        <param>
+          <type>RuntimeCoreConfig &amp;&amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6366" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1RuntimeCoreConfig_1af02bd1ff8d573d83cecefcdd647f0a0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::RuntimeCoreConfig::setNumberOfThreadsToUse</definition>
+        <argsstring>(int num_threads)</argsstring>
+        <name>setNumberOfThreadsToUse</name>
+        <qualifiedname>ansys::dpf::RuntimeCoreConfig::setNumberOfThreadsToUse</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>num_threads</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the default number of threads to use for all operators, default is omp_get_num_threads. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6368" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1RuntimeCoreConfig_1a4ae882d7ed1e89ad3d03a761f6f485c1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ansys::dpf::RuntimeCoreConfig::getNumberOfThreadsToUse</definition>
+        <argsstring>() const</argsstring>
+        <name>getNumberOfThreadsToUse</name>
+        <qualifiedname>ansys::dpf::RuntimeCoreConfig::getNumberOfThreadsToUse</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The default number of threads to use for all operators. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6370" column="5"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>enables to set runtime configuration options to the DPF process (DataProcessingCore). </para>
+    </detaileddescription>
+    <location file="dpf_api.h" line="6359" column="1" bodyfile="dpf_api.h" bodystart="6360" bodyend="6371"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1RuntimeConfig_1add61c48a143d2603ab22e1028dc8a25f" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeCoreConfig</scope><name>getAvailableOptions</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeConfig_1aa611e355441057cef04ef164008da8c8" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeCoreConfig</scope><name>getBoolValue</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeConfig_1abcbfdbc481d8fe2c2d5454830104b216" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeCoreConfig</scope><name>getDoubleValue</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeConfig_1a155763466ea3c190bf5b5090080edeae" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeCoreConfig</scope><name>getIntValue</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeCoreConfig_1a4ae882d7ed1e89ad3d03a761f6f485c1" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeCoreConfig</scope><name>getNumberOfThreadsToUse</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeConfig_1ae73075c73be83d06188b1708b8ebff47" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeCoreConfig</scope><name>getStringValue</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeConfig_1ab8144e943554f8eaab1002be7b92c8cd" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeCoreConfig</scope><name>RuntimeConfig</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeConfig_1af6f35d3d6b1aec5480004ae4ed1fe625" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeCoreConfig</scope><name>RuntimeConfig</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeCoreConfig_1a96ef33b2d74d74303fb6a4b0efe38b69" prot="private" virt="non-virtual"><scope>ansys::dpf::RuntimeCoreConfig</scope><name>RuntimeCoreConfig</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeCoreConfig_1a9cedb8f684ca41889ed7c4ed65b29e9a" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeCoreConfig</scope><name>RuntimeCoreConfig</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeCoreConfig_1a9cd9782bb8c79716f3b540d14a561b98" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeCoreConfig</scope><name>RuntimeCoreConfig</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeConfig_1ab1b88cf95976b49097ccc460bf8035ed" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeCoreConfig</scope><name>set</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeConfig_1a02d687d1252675cab169991475aa343d" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeCoreConfig</scope><name>set</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeConfig_1af559e97f012ddd2a31dbbf4185b4cfe5" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeCoreConfig</scope><name>set</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeConfig_1aef94b87f0abba8d508181b8fa62af304" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeCoreConfig</scope><name>set</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeCoreConfig_1af02bd1ff8d573d83cecefcdd647f0a0b" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeCoreConfig</scope><name>setNumberOfThreadsToUse</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeConfig_1aa7dcdc58bbf5639bad4036ded9785905" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeCoreConfig</scope><name>setSubOption</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

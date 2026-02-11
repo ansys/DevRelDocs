@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1LibraryHolder" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::LibraryHolder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">T</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1LibraryHolder_1a31482a89a064e0644c5599350ac0854a" prot="private" static="no" mutable="no">
+        <type><ref refid="classansys_1_1dpf_1_1LibraryHandle" kindref="compound">LibraryHandle</ref></type>
+        <definition>LibraryHandle ansys::dpf::LibraryHolder&lt; T &gt;::_handle</definition>
+        <argsstring></argsstring>
+        <name>_handle</name>
+        <qualifiedname>ansys::dpf::LibraryHolder::_handle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1934" column="15" bodyfile="dpf_api_base.h" bodystart="1934" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1LibraryHolder_1a9e3f921d5170e5107fd29b170556642d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::LibraryHolder&lt; T &gt;::LibraryHolder</definition>
+        <argsstring>()</argsstring>
+        <name>LibraryHolder</name>
+        <qualifiedname>ansys::dpf::LibraryHolder::LibraryHolder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1937" column="1" bodyfile="dpf_api_base.h" bodystart="1937" bodyend="1937"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1LibraryHolder_1a9b5ff8d6f40681096895370c00644451" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual ansys::dpf::LibraryHolder&lt; T &gt;::~LibraryHolder</definition>
+        <argsstring>()</argsstring>
+        <name>~LibraryHolder</name>
+        <qualifiedname>ansys::dpf::LibraryHolder::~LibraryHolder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1938" column="9" bodyfile="dpf_api_base.h" bodystart="1938" bodyend="1938"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="dpf_api_base.h" line="1931" column="1" bodyfile="dpf_api_base.h" bodystart="1932" bodyend="1939"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1LibraryHolder_1a31482a89a064e0644c5599350ac0854a" prot="private" virt="non-virtual"><scope>ansys::dpf::LibraryHolder</scope><name>_handle</name></member>
+      <member refid="classansys_1_1dpf_1_1LibraryHolder_1a9e3f921d5170e5107fd29b170556642d" prot="public" virt="non-virtual"><scope>ansys::dpf::LibraryHolder</scope><name>LibraryHolder</name></member>
+      <member refid="classansys_1_1dpf_1_1LibraryHolder_1a9b5ff8d6f40681096895370c00644451" prot="public" virt="virtual"><scope>ansys::dpf::LibraryHolder</scope><name>~LibraryHolder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

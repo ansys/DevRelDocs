@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="deprecated" kind="page">
+    <compoundname>deprecated</compoundname>
+    <title>Deprecated List</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><variablelist>
+<varlistentry><term>Member <ref refid="namespaceansys_1_1dpf_1aa4a44a04a0aafb8fe0645f019bbd94d1a9218c2b63a3ebece21e101df19ea2c36" kindref="member">ansys::dpf::eFilterDegeneratedElPin</ref>  </term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000001"/>use eFilterResults pin instead  </para>
+</listitem>
+<varlistentry><term>Member <ref refid="classansys_1_1dpf_1_1LibraryHandle_1a0651cd01e74e2cb90f320435bc7fc87a" kindref="member">ansys::dpf::LibraryHandle::LibraryHandle</ref>  (std::string const &amp;key, std::string const &amp;shared_object_root_name, <ref refid="namespaceansys_1_1dpf_1a318ab16f856ec8d2ef6e13af94a6dc56" kindref="member">ApiType</ref> api_type, <ref refid="namespaceansys_1_1dpf_1ac4f1380f00170887891b5cf54d8c94b3" kindref="member">LoadType</ref> load_type=<ref refid="namespaceansys_1_1dpf_1ac4f1380f00170887891b5cf54d8c94b3a6d450e9598ea0dffeaff74fbcccb116f" kindref="member">LoadType::try_load</ref>, std::string const &amp;dpf_client_api=&quot;DPFClientAPI&quot;)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000002"/>This call is deprecated. usage is not maintained. </para>
+</listitem>
+</variablelist>
+</para>
+    </detaileddescription>
+    <location file="deprecated"/>
+  </compounddef>
+</doxygen>

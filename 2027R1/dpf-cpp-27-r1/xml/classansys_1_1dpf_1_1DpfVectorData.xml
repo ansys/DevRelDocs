@@ -1,0 +1,584 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1DpfVectorData" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::DpfVectorData</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1DpfVectorData_1a0e33eb5238e95f7a2bb310579c5158a4" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+        <definition>dp_int ansys::dpf::DpfVectorData&lt; T &gt;::_size</definition>
+        <argsstring></argsstring>
+        <name>_size</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1241" column="8" bodyfile="dpf_api_base.h" bodystart="1241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1DpfVectorData_1aa53d72c3000d7f20e2eaa8e8dcf2f5a4" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ansys::dpf::DpfVectorData&lt; T &gt;::_modified</definition>
+        <argsstring></argsstring>
+        <name>_modified</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::_modified</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1242" column="6" bodyfile="dpf_api_base.h" bodystart="1242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1DpfVectorData_1a2b602162fdd57012d13a528c53d22e90" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ansys::dpf::DpfVectorData&lt; T &gt;::_handle_as_char</definition>
+        <argsstring></argsstring>
+        <name>_handle_as_char</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::_handle_as_char</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1243" column="6" bodyfile="dpf_api_base.h" bodystart="1243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1DpfVectorData_1a595cd69dcd1a59c21b7d61fb52544584" prot="public" static="no" mutable="no">
+        <type>opaque::DpfVector *</type>
+        <definition>opaque::DpfVector* ansys::dpf::DpfVectorData&lt; T &gt;::_vector</definition>
+        <argsstring></argsstring>
+        <name>_vector</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::_vector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1244" column="19" bodyfile="dpf_api_base.h" bodystart="1244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1DpfVectorData_1aa77b48135a08ffd3770f21602e1c5720" prot="public" static="no" mutable="no">
+        <type>size_t *</type>
+        <definition>size_t* ansys::dpf::DpfVectorData&lt; T &gt;::_sizes</definition>
+        <argsstring></argsstring>
+        <name>_sizes</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::_sizes</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1245" column="8" bodyfile="dpf_api_base.h" bodystart="1245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1DpfVectorData_1ab6997f70bc65657235b4c237b0571a3f" prot="public" static="no" mutable="no">
+        <type>T *</type>
+        <definition>T* ansys::dpf::DpfVectorData&lt; T &gt;::_data</definition>
+        <argsstring></argsstring>
+        <name>_data</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1246" column="3" bodyfile="dpf_api_base.h" bodystart="1246" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1DpfVectorData_1aa0847ff4fd34ecdf762787f72ce3aebd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::DpfVectorData&lt; T &gt;::DpfVectorData</definition>
+        <argsstring>(opaque::DpfObject const *object, bool handle_as_char=false)</argsstring>
+        <name>DpfVectorData</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::DpfVectorData</qualifiedname>
+        <param>
+          <type>opaque::DpfObject const *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>handle_as_char</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1248" column="1" bodyfile="dpf_api_base.h" bodystart="1248" bodyend="1252"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1DpfVectorData_1a7566a117ae37e367224cc0aad667a102" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::DpfVectorData&lt; T &gt;::DpfVectorData</definition>
+        <argsstring>()</argsstring>
+        <name>DpfVectorData</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::DpfVectorData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1253" column="1" bodyfile="dpf_api_base.h" bodystart="1253" bodyend="1257"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1DpfVectorData_1ae01cf7c03daa29fe4c52071b3c601f34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::DpfVectorData&lt; T &gt;::DpfVectorData</definition>
+        <argsstring>(DpfVectorData const &amp;rhs)</argsstring>
+        <name>DpfVectorData</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::DpfVectorData</qualifiedname>
+        <param>
+          <type>DpfVectorData const &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1258" column="1" bodyfile="dpf_api_base.h" bodystart="1258" bodyend="1262"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1DpfVectorData_1a22d9d27944a92b15d53cdaf1dab8d209" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::DpfVectorData&lt; T &gt;::~DpfVectorData</definition>
+        <argsstring>()</argsstring>
+        <name>~DpfVectorData</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::~DpfVectorData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1263" column="1" bodyfile="dpf_api_base.h" bodystart="1286" bodyend="1290"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1DpfVectorData_1a3ff346a6f9140a11921f96734512e6a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::DpfVectorData&lt; T &gt;::release</definition>
+        <argsstring>(bool will_be_reused=false)</argsstring>
+        <name>release</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::release</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>will_be_reused</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1264" column="6" bodyfile="dpf_api_base.h" bodystart="1312" bodyend="1315"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1DpfVectorData_1aadb33801fbe7da31383f234a4b710e78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::DpfVectorData&lt; T &gt;::commit</definition>
+        <argsstring>()</argsstring>
+        <name>commit</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::commit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1265" column="13" bodyfile="dpf_api_base.h" bodystart="1338" bodyend="1341"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1DpfVectorData_1a0d9a2c799ba2c08552aeb2a9462270a0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T ansys::dpf::DpfVectorData&lt; T &gt;::operator[]</definition>
+        <argsstring>(dp_index i) const</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::operator[]</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1266" column="10" bodyfile="dpf_api_base.h" bodystart="1266" bodyend="1266"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1DpfVectorData_1a19796e64b97d320f33af4e9480c4670e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T &amp;</type>
+        <definition>T &amp; ansys::dpf::DpfVectorData&lt; T &gt;::operator[]</definition>
+        <argsstring>(dp_index i)</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::operator[]</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1267" column="10" bodyfile="dpf_api_base.h" bodystart="1267" bodyend="1267"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1DpfVectorData_1a2b29d9ca699fd38abf7dc804d271130c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T const *const</type>
+        <definition>T const  *const ansys::dpf::DpfVectorData&lt; T &gt;::data</definition>
+        <argsstring>() const</argsstring>
+        <name>data</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1268" column="22" bodyfile="dpf_api_base.h" bodystart="1268" bodyend="1268"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1DpfVectorData_1a67db1f11efb775121c8a48dc1f850f11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *const</type>
+        <definition>T *const ansys::dpf::DpfVectorData&lt; T &gt;::data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1269" column="16" bodyfile="dpf_api_base.h" bodystart="1269" bodyend="1269"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1DpfVectorData_1ad9be1ae52f969191fce5b53c683758b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::DpfVectorData&lt; T &gt;::setAsSubVec</definition>
+        <argsstring>(DpfVectorData&lt; T &gt; *data_in, dp_int index, dp_int size)</argsstring>
+        <name>setAsSubVec</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::setAsSubVec</qualifiedname>
+        <param>
+          <type>DpfVectorData&lt; T &gt; *</type>
+          <declname>data_in</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1277" column="6" bodyfile="dpf_api_base.h" bodystart="1321" bodyend="1327"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1DpfVectorData_1a34786bb42401444727980278bbda59d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::DpfVectorData&lt; int &gt;::release</definition>
+        <argsstring>(bool will_be_reused)</argsstring>
+        <name>release</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::release</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>will_be_reused</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1317" column="20" declfile="dpf_api_base.h" declline="1317" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1DpfVectorData_1acaa73b2754682551378d64a70685dba3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::DpfVectorData&lt; double &gt;::release</definition>
+        <argsstring>(bool will_be_reused)</argsstring>
+        <name>release</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::release</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>will_be_reused</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1319" column="20" declfile="dpf_api_base.h" declline="1319" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1DpfVectorData_1a9eaf88799f8d8100223e798069901c26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::DpfVectorData&lt; char * &gt;::release</definition>
+        <argsstring>(bool will_be_reused)</argsstring>
+        <name>release</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::release</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>will_be_reused</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1329" column="27" declfile="dpf_api_base.h" declline="1329" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1DpfVectorData_1a2a2d10d349425e04e8f04b39fae6895e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::DpfVectorData&lt; int &gt;::setAsSubVec</definition>
+        <argsstring>(DpfVectorData&lt; int &gt; *data_in, dp_int index, dp_int size)</argsstring>
+        <name>setAsSubVec</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::setAsSubVec</qualifiedname>
+        <param>
+          <type>DpfVectorData&lt; int &gt; *</type>
+          <declname>data_in</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1332" column="20" declfile="dpf_api_base.h" declline="1332" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1DpfVectorData_1ade424949c7328df6a65d6691c0f5ddd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::DpfVectorData&lt; char &gt;::setAsSubVec</definition>
+        <argsstring>(DpfVectorData&lt; char &gt; *data_in, dp_int index, dp_int size)</argsstring>
+        <name>setAsSubVec</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::setAsSubVec</qualifiedname>
+        <param>
+          <type>DpfVectorData&lt; char &gt; *</type>
+          <declname>data_in</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1334" column="20" declfile="dpf_api_base.h" declline="1334" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1DpfVectorData_1a25142333f37ac9bd5a16f82e11043f8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::DpfVectorData&lt; double &gt;::setAsSubVec</definition>
+        <argsstring>(DpfVectorData&lt; double &gt; *data_in, dp_int index, dp_int size)</argsstring>
+        <name>setAsSubVec</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::setAsSubVec</qualifiedname>
+        <param>
+          <type>DpfVectorData&lt; double &gt; *</type>
+          <declname>data_in</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1336" column="20" declfile="dpf_api_base.h" declline="1336" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1DpfVectorData_1af59021883c9a1252b6cd0c8fdf5f391b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::DpfVectorData&lt; int &gt;::commit</definition>
+        <argsstring>()</argsstring>
+        <name>commit</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::commit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1343" column="20" declfile="dpf_api_base.h" declline="1343" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1DpfVectorData_1a0a1712ea7520abdaf6a22de993f30701" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::DpfVectorData&lt; double &gt;::commit</definition>
+        <argsstring>()</argsstring>
+        <name>commit</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::commit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1345" column="20" declfile="dpf_api_base.h" declline="1345" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1DpfVectorData_1a40f1ee2c20c5107609529d059f6588fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::DpfVectorData&lt; char * &gt;::commit</definition>
+        <argsstring>()</argsstring>
+        <name>commit</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::commit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1347" column="20" declfile="dpf_api_base.h" declline="1347" declcolumn="20"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1DpfVectorData_1a60e04c34b82b243b2d21fb1f0ef42caa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DpfVectorData *</type>
+        <definition>static DpfVectorData * ansys::dpf::DpfVectorData&lt; T &gt;::createOnAPI</definition>
+        <argsstring>(DpfVectorData const *object, bool handle_as_char=false)</argsstring>
+        <name>createOnAPI</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::createOnAPI</qualifiedname>
+        <param>
+          <type>DpfVectorData const *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>handle_as_char</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1270" column="22" bodyfile="dpf_api_base.h" bodystart="1270" bodyend="1272"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1DpfVectorData_1a0dd5e0f629c579e7889284c384d04de7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::DpfVectorData&lt; T &gt;::releaseAsChar</definition>
+        <argsstring>()</argsstring>
+        <name>releaseAsChar</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::releaseAsChar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1280" column="13" bodyfile="dpf_api_base.h" bodystart="1292" bodyend="1296"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1DpfVectorData_1a4b88244542aa16ad0f6a73900711c038" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::DpfVectorData&lt; T &gt;::commitAsChar</definition>
+        <argsstring>()</argsstring>
+        <name>commitAsChar</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::commitAsChar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1281" column="13" bodyfile="dpf_api_base.h" bodystart="1298" bodyend="1305"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1DpfVectorData_1a84025f9daf92695163fcfeb9e5ba3986" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::DpfVectorData&lt; T &gt;::setAsSubVecAsChar</definition>
+        <argsstring>(DpfVectorData&lt; T &gt; *data_in, dp_int index, dp_int size)</argsstring>
+        <name>setAsSubVecAsChar</name>
+        <qualifiedname>ansys::dpf::DpfVectorData::setAsSubVecAsChar</qualifiedname>
+        <param>
+          <type>DpfVectorData&lt; T &gt; *</type>
+          <declname>data_in</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1282" column="13" bodyfile="dpf_api_base.h" bodystart="1307" bodyend="1310"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="dpf_api_base.h" line="1238" column="1" bodyfile="dpf_api_base.h" bodystart="1239" bodyend="1284"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1ab6997f70bc65657235b4c237b0571a3f" prot="public" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>_data</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1a2b602162fdd57012d13a528c53d22e90" prot="public" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>_handle_as_char</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1aa53d72c3000d7f20e2eaa8e8dcf2f5a4" prot="public" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>_modified</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1a0e33eb5238e95f7a2bb310579c5158a4" prot="public" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>_size</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1aa77b48135a08ffd3770f21602e1c5720" prot="public" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>_sizes</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1a595cd69dcd1a59c21b7d61fb52544584" prot="public" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>_vector</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1aadb33801fbe7da31383f234a4b710e78" prot="public" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>commit</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1af59021883c9a1252b6cd0c8fdf5f391b" prot="public" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>commit</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1a0a1712ea7520abdaf6a22de993f30701" prot="public" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>commit</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1a40f1ee2c20c5107609529d059f6588fa" prot="public" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>commit</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1a4b88244542aa16ad0f6a73900711c038" prot="private" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>commitAsChar</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1a60e04c34b82b243b2d21fb1f0ef42caa" prot="public" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>createOnAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1a2b29d9ca699fd38abf7dc804d271130c" prot="public" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>data</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1a67db1f11efb775121c8a48dc1f850f11" prot="public" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>data</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1aa0847ff4fd34ecdf762787f72ce3aebd" prot="public" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>DpfVectorData</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1a7566a117ae37e367224cc0aad667a102" prot="public" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>DpfVectorData</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1ae01cf7c03daa29fe4c52071b3c601f34" prot="public" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>DpfVectorData</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1a0d9a2c799ba2c08552aeb2a9462270a0" prot="public" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>operator[]</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1a19796e64b97d320f33af4e9480c4670e" prot="public" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>operator[]</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1a3ff346a6f9140a11921f96734512e6a6" prot="public" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>release</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1a34786bb42401444727980278bbda59d8" prot="public" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>release</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1acaa73b2754682551378d64a70685dba3" prot="public" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>release</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1a9eaf88799f8d8100223e798069901c26" prot="public" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>release</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1a0dd5e0f629c579e7889284c384d04de7" prot="private" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>releaseAsChar</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1ad9be1ae52f969191fce5b53c683758b2" prot="public" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>setAsSubVec</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1a2a2d10d349425e04e8f04b39fae6895e" prot="public" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>setAsSubVec</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1ade424949c7328df6a65d6691c0f5ddd0" prot="public" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>setAsSubVec</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1a25142333f37ac9bd5a16f82e11043f8b" prot="public" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>setAsSubVec</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1a84025f9daf92695163fcfeb9e5ba3986" prot="private" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>setAsSubVecAsChar</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfVectorData_1a22d9d27944a92b15d53cdaf1dab8d209" prot="public" virt="non-virtual"><scope>ansys::dpf::DpfVectorData</scope><name>~DpfVectorData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

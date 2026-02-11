@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="structansys_1_1dpf_1_1Label" kind="struct" language="C++" prot="public">
+    <compoundname>ansys::dpf::Label</compoundname>
+    <includes local="no">dpf_api_base.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1Label_1ade6a2bf0d62ca26625d13c3d977dba58" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::Label::_value</definition>
+        <argsstring></argsstring>
+        <name>_value</name>
+        <qualifiedname>ansys::dpf::Label::_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="521" column="13" bodyfile="dpf_api_base.h" bodystart="521" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structansys_1_1dpf_1_1Label_1aa16652a3ceeda62dce2af07722a0ec80" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Label::Label</definition>
+        <argsstring>(std::string const &amp;name)</argsstring>
+        <name>Label</name>
+        <qualifiedname>ansys::dpf::Label::Label</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>name</declname>
+          <briefdescription><para>[in] Name of label. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create <ref refid="structansys_1_1dpf_1_1Label" kindref="compound">Label</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="525" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1Label_1a26ac4cad65d736a4400cdb84b16f950b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Label::Label</definition>
+        <argsstring>(Label const &amp;)=default</argsstring>
+        <name>Label</name>
+        <qualifiedname>ansys::dpf::Label::Label</qualifiedname>
+        <param>
+          <type>Label const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="527" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1Label_1aacb129a52a9ddbabf8a86553e6cbd9c7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::Label::operator==</definition>
+        <argsstring>(Label const &amp;) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>ansys::dpf::Label::operator==</qualifiedname>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1Label_1aa16652a3ceeda62dce2af07722a0ec80" kindref="member">Label</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="528" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1Label_1ae63a064be42fd512c71966bbd014b1e2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::Label::operator&lt;</definition>
+        <argsstring>(Label const &amp;) const</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>ansys::dpf::Label::operator&lt;</qualifiedname>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1Label_1aa16652a3ceeda62dce2af07722a0ec80" kindref="member">Label</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="529" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1Label_1a0406afbef012f8193e15713547c7057b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::Label::operator&lt;=</definition>
+        <argsstring>(Label const &amp;) const</argsstring>
+        <name>operator&lt;=</name>
+        <qualifiedname>ansys::dpf::Label::operator&lt;=</qualifiedname>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1Label_1aa16652a3ceeda62dce2af07722a0ec80" kindref="member">Label</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="530" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1Label_1a9b977b514452a7add47f54f86fe8c299" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::Label::operator!=</definition>
+        <argsstring>(Label const &amp;) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>ansys::dpf::Label::operator!=</qualifiedname>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1Label_1aa16652a3ceeda62dce2af07722a0ec80" kindref="member">Label</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="531" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1Label_1abb523602a3862d6141a3052812225e4b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Label::operator std::string</definition>
+        <argsstring>() const</argsstring>
+        <name>operator std::string</name>
+        <qualifiedname>ansys::dpf::Label::string</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Value of label. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="533" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1Label_1a8683632fa258b763080c99228b4f561c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * ansys::dpf::Label::c_str</definition>
+        <argsstring>() const</argsstring>
+        <name>c_str</name>
+        <qualifiedname>ansys::dpf::Label::c_str</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of label. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="535" column="12"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Container for label. <simplesect kind="see"><para><ref refid="structansys_1_1dpf_1_1labels" kindref="compound">labels</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="group__group__12" kindref="compound">Using collections and labels</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="dpf_api_base.h" line="518" column="1" bodyfile="dpf_api_base.h" bodystart="519" bodyend="536"/>
+    <listofallmembers>
+      <member refid="structansys_1_1dpf_1_1Label_1ade6a2bf0d62ca26625d13c3d977dba58" prot="private" virt="non-virtual"><scope>ansys::dpf::Label</scope><name>_value</name></member>
+      <member refid="structansys_1_1dpf_1_1Label_1a8683632fa258b763080c99228b4f561c" prot="public" virt="non-virtual"><scope>ansys::dpf::Label</scope><name>c_str</name></member>
+      <member refid="structansys_1_1dpf_1_1Label_1aa16652a3ceeda62dce2af07722a0ec80" prot="public" virt="non-virtual"><scope>ansys::dpf::Label</scope><name>Label</name></member>
+      <member refid="structansys_1_1dpf_1_1Label_1a26ac4cad65d736a4400cdb84b16f950b" prot="public" virt="non-virtual"><scope>ansys::dpf::Label</scope><name>Label</name></member>
+      <member refid="structansys_1_1dpf_1_1Label_1abb523602a3862d6141a3052812225e4b" prot="public" virt="non-virtual"><scope>ansys::dpf::Label</scope><name>operator std::string</name></member>
+      <member refid="structansys_1_1dpf_1_1Label_1a9b977b514452a7add47f54f86fe8c299" prot="public" virt="non-virtual"><scope>ansys::dpf::Label</scope><name>operator!=</name></member>
+      <member refid="structansys_1_1dpf_1_1Label_1ae63a064be42fd512c71966bbd014b1e2" prot="public" virt="non-virtual"><scope>ansys::dpf::Label</scope><name>operator&lt;</name></member>
+      <member refid="structansys_1_1dpf_1_1Label_1a0406afbef012f8193e15713547c7057b" prot="public" virt="non-virtual"><scope>ansys::dpf::Label</scope><name>operator&lt;=</name></member>
+      <member refid="structansys_1_1dpf_1_1Label_1aacb129a52a9ddbabf8a86553e6cbd9c7" prot="public" virt="non-virtual"><scope>ansys::dpf::Label</scope><name>operator==</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,408 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1LibraryHandle" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::LibraryHandle</compoundname>
+    <includes local="no">dpf_api_base.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1LibraryHandle_1ad615e7360dec3aacfb8e11da02a6fc77" prot="private" static="no" mutable="no">
+        <type>so::API *</type>
+        <definition>so::API* ansys::dpf::LibraryHandle::_api</definition>
+        <argsstring></argsstring>
+        <name>_api</name>
+        <qualifiedname>ansys::dpf::LibraryHandle::_api</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1880" column="9" bodyfile="dpf_api_base.h" bodystart="1880" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1LibraryHandle_1ac2302a692079be9e8a91b0ae3f424c2c" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::LibraryHandle::_key</definition>
+        <argsstring></argsstring>
+        <name>_key</name>
+        <qualifiedname>ansys::dpf::LibraryHandle::_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1881" column="13" bodyfile="dpf_api_base.h" bodystart="1881" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1LibraryHandle_1ad28867d2e3bab3c007745ccdff9ffc3d" prot="private" static="no" mutable="no">
+        <type><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref></type>
+        <definition>ansys::dpf::DpfError ansys::dpf::LibraryHandle::_error</definition>
+        <argsstring></argsstring>
+        <name>_error</name>
+        <qualifiedname>ansys::dpf::LibraryHandle::_error</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1882" column="22" bodyfile="dpf_api_base.h" bodystart="1882" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1LibraryHandle_1ace7af23aabdd94273ddce1266a0f402d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::LibraryHandle::LibraryHandle</definition>
+        <argsstring>(std::string const &amp;key=&quot;common&quot;, std::string const &amp;shared_object_root_name=&quot;DataProcessingCore&quot;, LoadType load_type=LoadType::try_load, std::string const &amp;dpf_client_api=&quot;DPFClientAPI&quot;)</argsstring>
+        <name>LibraryHandle</name>
+        <qualifiedname>ansys::dpf::LibraryHandle::LibraryHandle</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>key</declname>
+          <defval>&quot;common&quot;</defval>
+          <briefdescription><para>[in] Key used to identify the API (e.g. common, remote...). </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>shared_object_root_name</declname>
+          <defval>&quot;DataProcessingCore&quot;</defval>
+          <briefdescription><para>[in] Library name of the DPF API to load (e.g. DataProcessingCore that implements the core DPF symbols, Ans.Dpf.GrpcClient that implements the remote gRPC DPF symbols...). </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1ac4f1380f00170887891b5cf54d8c94b3" kindref="member">LoadType</ref></type>
+          <declname>load_type</declname>
+          <defval><ref refid="namespaceansys_1_1dpf_1ac4f1380f00170887891b5cf54d8c94b3a6d450e9598ea0dffeaff74fbcccb116f" kindref="member">LoadType::try_load</ref></defval>
+          <briefdescription><para>[in] Enum that provides settings at API loading step. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>dpf_client_api</declname>
+          <defval>&quot;DPFClientAPI&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Must be the first call made to DPF API. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1886" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1LibraryHandle_1a6015d31697c46deb75d7274fb5b0cf74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::LibraryHandle::LibraryHandle</definition>
+        <argsstring>(Context const &amp;context, std::string const &amp;key=&quot;common&quot;, std::string const &amp;shared_object_root_name=&quot;DataProcessingCore&quot;, LoadType load_type=LoadType::try_load, std::string const &amp;dpf_client_api=&quot;DPFClientAPI&quot;)</argsstring>
+        <name>LibraryHandle</name>
+        <qualifiedname>ansys::dpf::LibraryHandle::LibraryHandle</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Context" kindref="compound">Context</ref> const &amp;</type>
+          <declname>context</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Context" kindref="compound">Context</ref> object that defines settings to load the DPF APIs. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>key</declname>
+          <defval>&quot;common&quot;</defval>
+          <briefdescription><para>[in] Key used to identify the API (e.g. common, remote...). </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>shared_object_root_name</declname>
+          <defval>&quot;DataProcessingCore&quot;</defval>
+          <briefdescription><para>[in] Library name of the DPF API to load (e.g. DataProcessingCore that implements the core DPF symbols, Ans.Dpf.GrpcClient that implements the remote gRPC DPF symbols...). </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1ac4f1380f00170887891b5cf54d8c94b3" kindref="member">LoadType</ref></type>
+          <declname>load_type</declname>
+          <defval><ref refid="namespaceansys_1_1dpf_1ac4f1380f00170887891b5cf54d8c94b3a6d450e9598ea0dffeaff74fbcccb116f" kindref="member">LoadType::try_load</ref></defval>
+          <briefdescription><para>[in] Enum that provides settings at API loading step. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>dpf_client_api</declname>
+          <defval>&quot;DPFClientAPI&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Must be the first call made to DPF API. Using a <ref refid="classansys_1_1dpf_1_1Context" kindref="compound">Context</ref> that defines specific settings. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1893" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1LibraryHandle_1a22f10026b439d4e05a8d4917ca286961" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::LibraryHandle::LibraryHandle</definition>
+        <argsstring>(std::string const &amp;path_to_shared_object, Context const &amp;context, std::string const &amp;key=&quot;common&quot;, std::string const &amp;shared_object_root_name=&quot;DataProcessingCore&quot;, LoadType load_type=LoadType::try_load, std::string const &amp;path_to_dpf_client_api=&quot;&quot;, std::string const &amp;dpf_client_api=&quot;DPFClientAPI&quot;)</argsstring>
+        <name>LibraryHandle</name>
+        <qualifiedname>ansys::dpf::LibraryHandle::LibraryHandle</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>path_to_shared_object</declname>
+          <briefdescription><para>[in] path to DataProcessingCore.dll or libDataProcessingCore.so. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Context" kindref="compound">Context</ref> const &amp;</type>
+          <declname>context</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Context" kindref="compound">Context</ref> object that defines settings to load the DPF APIs. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>key</declname>
+          <defval>&quot;common&quot;</defval>
+          <briefdescription><para>[in] Key used to identify the API (e.g. common, remote...). </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>shared_object_root_name</declname>
+          <defval>&quot;DataProcessingCore&quot;</defval>
+          <briefdescription><para>[in] Library name of the DPF API to load (e.g. DataProcessingCore that implements the core DPF symbols, Ans.Dpf.GrpcClient that implements the remote gRPC DPF symbols...). </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1ac4f1380f00170887891b5cf54d8c94b3" kindref="member">LoadType</ref></type>
+          <declname>load_type</declname>
+          <defval><ref refid="namespaceansys_1_1dpf_1ac4f1380f00170887891b5cf54d8c94b3a6d450e9598ea0dffeaff74fbcccb116f" kindref="member">LoadType::try_load</ref></defval>
+          <briefdescription><para>[in] Enum that provides settings at API loading step. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>path_to_dpf_client_api</declname>
+          <defval>&quot;&quot;</defval>
+          <briefdescription><para>[in] path to DPFClientAPI.dll or libDPFClientAPI.so, takes path_to_shared_object by default. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>dpf_client_api</declname>
+          <defval>&quot;DPFClientAPI&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Must be the first call made to DPF API. Using a <ref refid="classansys_1_1dpf_1_1Context" kindref="compound">Context</ref> that defines specific settings. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1900" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1LibraryHandle_1a0651cd01e74e2cb90f320435bc7fc87a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::LibraryHandle::LibraryHandle</definition>
+        <argsstring>(std::string const &amp;key, std::string const &amp;shared_object_root_name, ApiType api_type, LoadType load_type=LoadType::try_load, std::string const &amp;dpf_client_api=&quot;DPFClientAPI&quot;)</argsstring>
+        <name>LibraryHandle</name>
+        <qualifiedname>ansys::dpf::LibraryHandle::LibraryHandle</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>shared_object_root_name</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a318ab16f856ec8d2ef6e13af94a6dc56" kindref="member">ApiType</ref></type>
+          <declname>api_type</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1ac4f1380f00170887891b5cf54d8c94b3" kindref="member">LoadType</ref></type>
+          <declname>load_type</declname>
+          <defval><ref refid="namespaceansys_1_1dpf_1ac4f1380f00170887891b5cf54d8c94b3a6d450e9598ea0dffeaff74fbcccb116f" kindref="member">LoadType::try_load</ref></defval>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>dpf_client_api</declname>
+          <defval>&quot;DPFClientAPI&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><xrefsect id="deprecated_1_deprecated000002"><xreftitle>Deprecated</xreftitle><xrefdescription><para>This call is deprecated. usage is not maintained. </para>
+</xrefdescription></xrefsect></para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1910" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1LibraryHandle_1af1ab8962e664dd53b7c4b47988443e7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::LibraryHandle::LibraryHandle</definition>
+        <argsstring>(so::API *api)</argsstring>
+        <name>LibraryHandle</name>
+        <qualifiedname>ansys::dpf::LibraryHandle::LibraryHandle</qualifiedname>
+        <param>
+          <type>so::API *</type>
+          <declname>api</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1912" column="1" bodyfile="dpf_api_base.h" bodystart="1912" bodyend="1912"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1LibraryHandle_1a385df64ee05cc735acdbd0d519f47fd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::LibraryHandle::LibraryHandle</definition>
+        <argsstring>(const LibraryHandle &amp;)=delete</argsstring>
+        <name>LibraryHandle</name>
+        <qualifiedname>ansys::dpf::LibraryHandle::LibraryHandle</qualifiedname>
+        <param>
+          <type>const LibraryHandle &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1913" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1LibraryHandle_1a761736a0e5edc45659fb39edf4f25a4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::LibraryHandle::LibraryHandle</definition>
+        <argsstring>(LibraryHandle &amp;&amp;)=delete</argsstring>
+        <name>LibraryHandle</name>
+        <qualifiedname>ansys::dpf::LibraryHandle::LibraryHandle</qualifiedname>
+        <param>
+          <type>LibraryHandle &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1914" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1LibraryHandle_1a7a1cac9d869e155572c2e7279770694f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::LibraryHandle::~LibraryHandle</definition>
+        <argsstring>()</argsstring>
+        <name>~LibraryHandle</name>
+        <qualifiedname>ansys::dpf::LibraryHandle::~LibraryHandle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1915" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1LibraryHandle_1a960d04a287464cd7e4337c501b07e55f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1LibraryHandle_1ace7af23aabdd94273ddce1266a0f402d" kindref="member">LibraryHandle</ref> &amp;</type>
+        <definition>LibraryHandle &amp; ansys::dpf::LibraryHandle::operator=</definition>
+        <argsstring>(const LibraryHandle &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::LibraryHandle::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="classansys_1_1dpf_1_1LibraryHandle_1ace7af23aabdd94273ddce1266a0f402d" kindref="member">LibraryHandle</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1917" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1LibraryHandle_1ae6b4015fd07463703a5a61a8d99b19f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1LibraryHandle_1ace7af23aabdd94273ddce1266a0f402d" kindref="member">LibraryHandle</ref> &amp;</type>
+        <definition>LibraryHandle &amp; ansys::dpf::LibraryHandle::operator=</definition>
+        <argsstring>(LibraryHandle &amp;&amp;)=delete</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::LibraryHandle::operator=</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1LibraryHandle_1ace7af23aabdd94273ddce1266a0f402d" kindref="member">LibraryHandle</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1918" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1LibraryHandle_1ad6ccabf051eb035f8c92d2a70915d1b5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>so::API const *</type>
+        <definition>so::API const  * ansys::dpf::LibraryHandle::callAPI</definition>
+        <argsstring>() const</argsstring>
+        <name>callAPI</name>
+        <qualifiedname>ansys::dpf::LibraryHandle::callAPI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1920" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1LibraryHandle_1a124c4f3f441f173c91e5db5f72697506" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref> const &amp;</type>
+        <definition>ansys::dpf::DpfError const  &amp; ansys::dpf::LibraryHandle::error</definition>
+        <argsstring>() const</argsstring>
+        <name>error</name>
+        <qualifiedname>ansys::dpf::LibraryHandle::error</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1922" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1LibraryHandle_1afe1ec06d81aa4f65d48803e6691aed46" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::LibraryHandle::libraryDir</definition>
+        <argsstring>() const</argsstring>
+        <name>libraryDir</name>
+        <qualifiedname>ansys::dpf::LibraryHandle::libraryDir</qualifiedname>
+        <briefdescription>
+<para>Return the path to the directory where the library is loaded. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1927" column="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Provides an access to use DPF HGP API. The instance of <ref refid="classansys_1_1dpf_1_1LibraryHandle" kindref="compound">LibraryHandle</ref> is only needed once. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Wraps dataProcessingCore loading in an RAII (Resource acquisition is initialization) structure in order to ensure correct loading/unloading of the DPF core functionalities. Must be the first call made to DPF API. </para>
+    </detaileddescription>
+    <location file="dpf_api_base.h" line="1877" column="1" bodyfile="dpf_api_base.h" bodystart="1878" bodyend="1928"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1LibraryHandle_1ad615e7360dec3aacfb8e11da02a6fc77" prot="private" virt="non-virtual"><scope>ansys::dpf::LibraryHandle</scope><name>_api</name></member>
+      <member refid="classansys_1_1dpf_1_1LibraryHandle_1ad28867d2e3bab3c007745ccdff9ffc3d" prot="private" virt="non-virtual"><scope>ansys::dpf::LibraryHandle</scope><name>_error</name></member>
+      <member refid="classansys_1_1dpf_1_1LibraryHandle_1ac2302a692079be9e8a91b0ae3f424c2c" prot="private" virt="non-virtual"><scope>ansys::dpf::LibraryHandle</scope><name>_key</name></member>
+      <member refid="classansys_1_1dpf_1_1LibraryHandle_1ad6ccabf051eb035f8c92d2a70915d1b5" prot="public" virt="non-virtual"><scope>ansys::dpf::LibraryHandle</scope><name>callAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1LibraryHandle_1a124c4f3f441f173c91e5db5f72697506" prot="public" virt="non-virtual"><scope>ansys::dpf::LibraryHandle</scope><name>error</name></member>
+      <member refid="classansys_1_1dpf_1_1LibraryHandle_1afe1ec06d81aa4f65d48803e6691aed46" prot="public" virt="non-virtual"><scope>ansys::dpf::LibraryHandle</scope><name>libraryDir</name></member>
+      <member refid="classansys_1_1dpf_1_1LibraryHandle_1ace7af23aabdd94273ddce1266a0f402d" prot="public" virt="non-virtual"><scope>ansys::dpf::LibraryHandle</scope><name>LibraryHandle</name></member>
+      <member refid="classansys_1_1dpf_1_1LibraryHandle_1a6015d31697c46deb75d7274fb5b0cf74" prot="public" virt="non-virtual"><scope>ansys::dpf::LibraryHandle</scope><name>LibraryHandle</name></member>
+      <member refid="classansys_1_1dpf_1_1LibraryHandle_1a22f10026b439d4e05a8d4917ca286961" prot="public" virt="non-virtual"><scope>ansys::dpf::LibraryHandle</scope><name>LibraryHandle</name></member>
+      <member refid="classansys_1_1dpf_1_1LibraryHandle_1a0651cd01e74e2cb90f320435bc7fc87a" prot="public" virt="non-virtual"><scope>ansys::dpf::LibraryHandle</scope><name>LibraryHandle</name></member>
+      <member refid="classansys_1_1dpf_1_1LibraryHandle_1af1ab8962e664dd53b7c4b47988443e7e" prot="public" virt="non-virtual"><scope>ansys::dpf::LibraryHandle</scope><name>LibraryHandle</name></member>
+      <member refid="classansys_1_1dpf_1_1LibraryHandle_1a385df64ee05cc735acdbd0d519f47fd0" prot="public" virt="non-virtual"><scope>ansys::dpf::LibraryHandle</scope><name>LibraryHandle</name></member>
+      <member refid="classansys_1_1dpf_1_1LibraryHandle_1a761736a0e5edc45659fb39edf4f25a4f" prot="public" virt="non-virtual"><scope>ansys::dpf::LibraryHandle</scope><name>LibraryHandle</name></member>
+      <member refid="classansys_1_1dpf_1_1LibraryHandle_1a960d04a287464cd7e4337c501b07e55f" prot="public" virt="non-virtual"><scope>ansys::dpf::LibraryHandle</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1LibraryHandle_1ae6b4015fd07463703a5a61a8d99b19f8" prot="public" virt="non-virtual"><scope>ansys::dpf::LibraryHandle</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1LibraryHandle_1a7a1cac9d869e155572c2e7279770694f" prot="public" virt="non-virtual"><scope>ansys::dpf::LibraryHandle</scope><name>~LibraryHandle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

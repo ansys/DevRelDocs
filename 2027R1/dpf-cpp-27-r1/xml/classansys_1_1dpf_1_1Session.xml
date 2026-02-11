@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1Session" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::Session</compoundname>
+    <basecompoundref refid="classansys_1_1dpf_1_1DpfTypes" prot="public" virt="non-virtual">ansys::dpf::DpfTypes</basecompoundref>
+    <includes local="no">dpf_api.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Session_1a70a391202084d3240f07e12cec53a1d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Session::Session</definition>
+        <argsstring>()</argsstring>
+        <name>Session</name>
+        <qualifiedname>ansys::dpf::Session::Session</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6273" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Session_1a29c88c6177c49e8b47dbb87b0be840fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Session::~Session</definition>
+        <argsstring>()</argsstring>
+        <name>~Session</name>
+        <qualifiedname>ansys::dpf::Session::~Session</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6274" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Session_1a35c8573a7a81b571b6856c75142921a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Session::Session</definition>
+        <argsstring>(Client const *const client)</argsstring>
+        <name>Session</name>
+        <qualifiedname>ansys::dpf::Session::Session</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> const *const</type>
+          <declname>client</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> instance designating the IP, port and protocol to use. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new <ref refid="classansys_1_1dpf_1_1Session" kindref="compound">Session</ref> on a server. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6276" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Session_1a4f2358b004b5e805e163dfcb46eac7ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Session::Session</definition>
+        <argsstring>(Session const &amp;)</argsstring>
+        <name>Session</name>
+        <qualifiedname>ansys::dpf::Session::Session</qualifiedname>
+        <param>
+          <type>Session const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6278" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Session_1abd64f9adfdc41f1e304e0cc874f7bf1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Session::Session</definition>
+        <argsstring>(Session &amp;&amp;)=delete</argsstring>
+        <name>Session</name>
+        <qualifiedname>ansys::dpf::Session::Session</qualifiedname>
+        <param>
+          <type>Session &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6279" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Session_1a4fbe681f5d623efaa51bca1ad73b5bfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Session &amp;</type>
+        <definition>Session &amp; ansys::dpf::Session::operator=</definition>
+        <argsstring>(Session const &amp;)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::Session::operator=</qualifiedname>
+        <param>
+          <type>Session const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6280" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Session_1af4c0f6c0a74d4c837ef94919eea9a7f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Session &amp;</type>
+        <definition>Session &amp; ansys::dpf::Session::operator=</definition>
+        <argsstring>(Session &amp;&amp;)=delete</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::Session::operator=</qualifiedname>
+        <param>
+          <type>Session &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6281" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Session_1a4fdd43dbb146e6bef0e69fdc3f6b8ac8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::Session::id</definition>
+        <argsstring>() const</argsstring>
+        <name>id</name>
+        <qualifiedname>ansys::dpf::Session::id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Id of session. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6284" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Session_1a44217e8e1b859b6bbc3cd902597a441b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::Session::add</definition>
+        <argsstring>(Workflow &amp;wf, std::string const &amp;identifier)</argsstring>
+        <name>add</name>
+        <qualifiedname>ansys::dpf::Session::add</qualifiedname>
+        <param>
+          <type>Workflow &amp;</type>
+          <declname>wf</declname>
+          <briefdescription><para>[in] Workflow to add. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>identifier</declname>
+          <briefdescription><para>[out] Identifier for workflow. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add a workflow to session. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6286" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Session_1a1ca0f541376f2606d6a1d38d73b42095" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::Session::add</definition>
+        <argsstring>(Workflow &amp;wf)</argsstring>
+        <name>add</name>
+        <qualifiedname>ansys::dpf::Session::add</qualifiedname>
+        <param>
+          <type>Workflow &amp;</type>
+          <declname>wf</declname>
+          <briefdescription><para>[in] Workflow to add. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add workflow to session. <simplesect kind="return"><para>Identifier for workflow. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6291" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Session_1a1eb04b4b9a1df351de2211ed4a9065f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Workflow</type>
+        <definition>Workflow ansys::dpf::Session::getWorkflow</definition>
+        <argsstring>(std::string const &amp;identifier)</argsstring>
+        <name>getWorkflow</name>
+        <qualifiedname>ansys::dpf::Session::getWorkflow</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>identifier</declname>
+          <briefdescription><para>[in] Identifier of workflow. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Workflow given by identifier. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6294" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Session_1a0c351a7e9deb14ef205168a8c2a14535" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Workflow</type>
+        <definition>Workflow ansys::dpf::Session::getWorkflowByIndex</definition>
+        <argsstring>(dp_index index)</argsstring>
+        <name>getWorkflowByIndex</name>
+        <qualifiedname>ansys::dpf::Session::getWorkflowByIndex</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>index</declname>
+          <briefdescription><para>[in] Index of workflow. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Workflow given by index. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6297" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Session_1ae6197db1ac01a01c67f4f87955c2b849" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+        <definition>dp_int ansys::dpf::Session::numberOfWorkflow</definition>
+        <argsstring>() const</argsstring>
+        <name>numberOfWorkflow</name>
+        <qualifiedname>ansys::dpf::Session::numberOfWorkflow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Number of workflows in session. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6300" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Session_1abf5a4032d5b54f0b31d83279af643ecb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::Session::flushWorkflows</definition>
+        <argsstring>()</argsstring>
+        <name>flushWorkflows</name>
+        <qualifiedname>ansys::dpf::Session::flushWorkflows</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6301" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Session_1a9d2f09db50b3767c062100bfc0b67e2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::Session::addEventHandler</definition>
+        <argsstring>(EventHandler &amp;event_handler)</argsstring>
+        <name>addEventHandler</name>
+        <qualifiedname>ansys::dpf::Session::addEventHandler</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1EventHandler" kindref="compound">EventHandler</ref> &amp;</type>
+          <declname>event_handler</declname>
+          <briefdescription><para>[in] Handler for session status. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add event handler to handle status of DPF session. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6303" column="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Define a DPF session. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ansys::dpf::DpfTypes</label>
+        <link refid="classansys_1_1dpf_1_1DpfTypes"/>
+      </node>
+      <node id="1">
+        <label>ansys::dpf::Session</label>
+        <link refid="classansys_1_1dpf_1_1Session"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ansys::dpf::DpfTypes</label>
+        <link refid="classansys_1_1dpf_1_1DpfTypes"/>
+      </node>
+      <node id="1">
+        <label>ansys::dpf::Session</label>
+        <link refid="classansys_1_1dpf_1_1Session"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="dpf_api.h" line="6270" column="1" bodyfile="dpf_api.h" bodystart="6271" bodyend="6305"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1Session_1a44217e8e1b859b6bbc3cd902597a441b" prot="public" virt="non-virtual"><scope>ansys::dpf::Session</scope><name>add</name></member>
+      <member refid="classansys_1_1dpf_1_1Session_1a1ca0f541376f2606d6a1d38d73b42095" prot="public" virt="non-virtual"><scope>ansys::dpf::Session</scope><name>add</name></member>
+      <member refid="classansys_1_1dpf_1_1Session_1a9d2f09db50b3767c062100bfc0b67e2c" prot="public" virt="non-virtual"><scope>ansys::dpf::Session</scope><name>addEventHandler</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1aea34d37e0c080126eff70db34bf46597" prot="public" virt="non-virtual"><scope>ansys::dpf::Session</scope><name>callAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9977945710983bc03d2940fa007847b2" prot="public" virt="virtual"><scope>ansys::dpf::Session</scope><name>describe</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459" prot="public" virt="virtual"><scope>ansys::dpf::Session</scope><name>empty</name></member>
+      <member refid="classansys_1_1dpf_1_1Session_1abf5a4032d5b54f0b31d83279af643ecb" prot="public" virt="non-virtual"><scope>ansys::dpf::Session</scope><name>flushWorkflows</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a968afd9daa0b0f13b65a2ac61369d73a" prot="public" virt="non-virtual"><scope>ansys::dpf::Session</scope><name>getClient</name></member>
+      <member refid="classansys_1_1dpf_1_1Session_1a1eb04b4b9a1df351de2211ed4a9065f3" prot="public" virt="non-virtual"><scope>ansys::dpf::Session</scope><name>getWorkflow</name></member>
+      <member refid="classansys_1_1dpf_1_1Session_1a0c351a7e9deb14ef205168a8c2a14535" prot="public" virt="non-virtual"><scope>ansys::dpf::Session</scope><name>getWorkflowByIndex</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a1a5634202c15404b6b24e8f50e51cb66" prot="public" virt="non-virtual"><scope>ansys::dpf::Session</scope><name>hasBeenMovedLocally</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ae198f89868d85c7db6dc1a934a1d3c15" prot="public" virt="virtual"><scope>ansys::dpf::Session</scope><name>hasInternalObject</name></member>
+      <member refid="classansys_1_1dpf_1_1Session_1a4fdd43dbb146e6bef0e69fdc3f6b8ac8" prot="public" virt="non-virtual"><scope>ansys::dpf::Session</scope><name>id</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9f9789ff61cc9d400a2a344830706b73" prot="public" virt="non-virtual"><scope>ansys::dpf::Session</scope><name>isOnCommonAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1aa64d5f8fcd7d85ad6ebf708494dbefd7" prot="public" virt="non-virtual"><scope>ansys::dpf::Session</scope><name>isSameObject</name></member>
+      <member refid="classansys_1_1dpf_1_1Session_1ae6197db1ac01a01c67f4f87955c2b849" prot="public" virt="non-virtual"><scope>ansys::dpf::Session</scope><name>numberOfWorkflow</name></member>
+      <member refid="classansys_1_1dpf_1_1Session_1a4fbe681f5d623efaa51bca1ad73b5bfb" prot="public" virt="non-virtual"><scope>ansys::dpf::Session</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1Session_1af4c0f6c0a74d4c837ef94919eea9a7f1" prot="public" virt="non-virtual"><scope>ansys::dpf::Session</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1Session_1a70a391202084d3240f07e12cec53a1d0" prot="public" virt="non-virtual"><scope>ansys::dpf::Session</scope><name>Session</name></member>
+      <member refid="classansys_1_1dpf_1_1Session_1a35c8573a7a81b571b6856c75142921a5" prot="public" virt="non-virtual"><scope>ansys::dpf::Session</scope><name>Session</name></member>
+      <member refid="classansys_1_1dpf_1_1Session_1a4f2358b004b5e805e163dfcb46eac7ab" prot="public" virt="non-virtual"><scope>ansys::dpf::Session</scope><name>Session</name></member>
+      <member refid="classansys_1_1dpf_1_1Session_1abd64f9adfdc41f1e304e0cc874f7bf1a" prot="public" virt="non-virtual"><scope>ansys::dpf::Session</scope><name>Session</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ab7c83b6ea160c2b115e056f6c312112f" prot="public" virt="virtual"><scope>ansys::dpf::Session</scope><name>~DpfTypes</name></member>
+      <member refid="classansys_1_1dpf_1_1Session_1a29c88c6177c49e8b47dbb87b0be840fa" prot="public" virt="non-virtual"><scope>ansys::dpf::Session</scope><name>~Session</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

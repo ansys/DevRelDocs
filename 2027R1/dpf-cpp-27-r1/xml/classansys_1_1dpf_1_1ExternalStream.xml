@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1ExternalStream" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>ansys::dpf::ExternalStream</compoundname>
+    <includes local="no">dpf_api.h</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1ExternalStream_1a5a10e7ca5f11fc70cc7d8e5b48bfff72" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Streams</definition>
+        <argsstring></argsstring>
+        <name>Streams</name>
+        <qualifiedname>ansys::dpf::ExternalStream::Streams</qualifiedname>
+        <param>
+          <type>Streams</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3579" column="22" bodyfile="dpf_api.h" bodystart="3579" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ExternalStream_1ae82ac90ef3e0b83a61c65d6f38920dde" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ansys::dpf::ExternalStream::~ExternalStream</definition>
+        <argsstring>()</argsstring>
+        <name>~ExternalStream</name>
+        <qualifiedname>ansys::dpf::ExternalStream::~ExternalStream</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3581" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ExternalStream_1aa6f23cac0435e5324144ee0887e80ecf" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ansys::dpf::ExternalStream::release</definition>
+        <argsstring>()=0</argsstring>
+        <name>release</name>
+        <qualifiedname>ansys::dpf::ExternalStream::release</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Free a stream after usage. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3583" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ExternalStream_1a0e85f7d70ad9c2a2b80c81bf6ac2ed20" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::string</type>
+        <definition>virtual std::string ansys::dpf::ExternalStream::streamTypeName</definition>
+        <argsstring>() const =0</argsstring>
+        <name>streamTypeName</name>
+        <qualifiedname>ansys::dpf::ExternalStream::streamTypeName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Type name of stream. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3585" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ExternalStream_1a80d1920a080fd91dc80850b6b465cc29" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::string</type>
+        <definition>virtual std::string ansys::dpf::ExternalStream::fileName</definition>
+        <argsstring>() const =0</argsstring>
+        <name>fileName</name>
+        <qualifiedname>ansys::dpf::ExternalStream::fileName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>File name of stream. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3587" column="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Abstraction of a stream. <simplesect kind="see"><para><ref refid="classansys_1_1dpf_1_1Streams" kindref="compound">Streams</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="dpf_api.h" line="3577" column="5" bodyfile="dpf_api.h" bodystart="3578" bodyend="3588"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1ExternalStream_1a80d1920a080fd91dc80850b6b465cc29" prot="public" virt="pure-virtual"><scope>ansys::dpf::ExternalStream</scope><name>fileName</name></member>
+      <member refid="classansys_1_1dpf_1_1ExternalStream_1aa6f23cac0435e5324144ee0887e80ecf" prot="public" virt="pure-virtual"><scope>ansys::dpf::ExternalStream</scope><name>release</name></member>
+      <member refid="classansys_1_1dpf_1_1ExternalStream_1a0e85f7d70ad9c2a2b80c81bf6ac2ed20" prot="public" virt="pure-virtual"><scope>ansys::dpf::ExternalStream</scope><name>streamTypeName</name></member>
+      <member refid="classansys_1_1dpf_1_1ExternalStream_1ae82ac90ef3e0b83a61c65d6f38920dde" prot="public" virt="virtual"><scope>ansys::dpf::ExternalStream</scope><name>~ExternalStream</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

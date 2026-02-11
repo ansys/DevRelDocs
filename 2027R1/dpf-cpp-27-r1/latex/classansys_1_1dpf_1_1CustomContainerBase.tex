@@ -1,0 +1,125 @@
+\doxysection{ansys::\+dpf::\+Custom\+Container\+Base Class Reference}
+\hypertarget{classansys_1_1dpf_1_1CustomContainerBase}{}\label{classansys_1_1dpf_1_1CustomContainerBase}\index{ansys::dpf::CustomContainerBase@{ansys::dpf::CustomContainerBase}}
+
+
+Allows you to define your own containers by deriving from this class.  
+
+
+
+
+{\ttfamily \+\#include $<$dpf\+\_\+api.\+h$>$}
+
+Inheritance diagram for ansys::\+dpf::\+Custom\+Container\+Base:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classansys_1_1dpf_1_1CustomContainerBase}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1CustomContainerBase_ab2649202d9da1730e164634a4d864f3e}{Custom\+Container\+Base}} (std::\+string const \&class\+\_\+name)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1CustomContainerBase_a0dbdad77df7b779da34e8fa283a6597f}{Custom\+Container\+Base}} (std::\+string const \&class\+\_\+name, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1CustomContainerBase_ae7229c52821828cec4fca9dce836ee55}{Custom\+Container\+Base}} (std::\+string const \&class\+\_\+name, Generic\+Data\+Container const \&\doxymbox{\hyperlink{classansys_1_1dpf_1_1CustomContainerBase_a595ca7a2057dd128a01676b24e622c08}{container}})
+\item 
+Generic\+Data\+Container \& \doxymbox{\hyperlink{classansys_1_1dpf_1_1CustomContainerBase_a595ca7a2057dd128a01676b24e622c08}{container}} ()
+\item 
+virtual Generic\+Data\+Container const \& \doxymbox{\hyperlink{classansys_1_1dpf_1_1CustomContainerBase_a43b2fea572fa3298d6405cf7f497c78b}{container}} () const
+\item 
+std::\+string \doxymbox{\hyperlink{classansys_1_1dpf_1_1CustomContainerBase_a65a8a6f6585ddf80c7e0dfdf9b9c50f5}{describe}} () const
+\item 
+\Hypertarget{classansys_1_1dpf_1_1CustomContainerBase_a1ba98abe5c74497c829744f302de3cb5}\label{classansys_1_1dpf_1_1CustomContainerBase_a1ba98abe5c74497c829744f302de3cb5} 
+std::\+vector$<$ std::\+string $>$ {\bfseries get\+Attribute\+Names} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1CustomContainerBase_ae048111b288fdbddfd3a5ab07438bc85}{get\+Client}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} \&client) const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Allows you to define your own containers by deriving from this class. 
+
+For the custom class deriving from \doxylink{classansys_1_1dpf_1_1CustomContainerBase}{Custom\+Container\+Base} to be fully supported by DPF features (connection to Operator, remote access, multi languages API), all private attributes should registered into the Generic\+Data\+Container held. 
+
+\label{doc-constructors}
+\Hypertarget{classansys_1_1dpf_1_1CustomContainerBase_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classansys_1_1dpf_1_1CustomContainerBase_ab2649202d9da1730e164634a4d864f3e}\index{ansys::dpf::CustomContainerBase@{ansys::dpf::CustomContainerBase}!CustomContainerBase@{CustomContainerBase}}
+\index{CustomContainerBase@{CustomContainerBase}!ansys::dpf::CustomContainerBase@{ansys::dpf::CustomContainerBase}}
+\doxysubsubsection{\texorpdfstring{CustomContainerBase()}{CustomContainerBase()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1CustomContainerBase_ab2649202d9da1730e164634a4d864f3e} 
+ansys::\+dpf::\+\+Custom\+Container\+Base::\+\+Custom\+Container\+Base (\begin{DoxyParamCaption}\item[{std::\+string const \&}]{class\+\_\+name}{}\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em class\+\_\+name} & Name of the custom class in camel case format. Will be used to print the instance. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1CustomContainerBase_a0dbdad77df7b779da34e8fa283a6597f}\index{ansys::dpf::CustomContainerBase@{ansys::dpf::CustomContainerBase}!CustomContainerBase@{CustomContainerBase}}
+\index{CustomContainerBase@{CustomContainerBase}!ansys::dpf::CustomContainerBase@{ansys::dpf::CustomContainerBase}}
+\doxysubsubsection{\texorpdfstring{CustomContainerBase()}{CustomContainerBase()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1CustomContainerBase_a0dbdad77df7b779da34e8fa283a6597f} 
+ansys::\+dpf::\+\+Custom\+Container\+Base::\+\+Custom\+Container\+Base (\begin{DoxyParamCaption}\item[{std::\+string const \&}]{class\+\_\+name}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{}\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em class\+\_\+name} & Name of the custom class in camel case format. Will be used to print the instance.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1CustomContainerBase_ae7229c52821828cec4fca9dce836ee55}\index{ansys::dpf::CustomContainerBase@{ansys::dpf::CustomContainerBase}!CustomContainerBase@{CustomContainerBase}}
+\index{CustomContainerBase@{CustomContainerBase}!ansys::dpf::CustomContainerBase@{ansys::dpf::CustomContainerBase}}
+\doxysubsubsection{\texorpdfstring{CustomContainerBase()}{CustomContainerBase()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1CustomContainerBase_ae7229c52821828cec4fca9dce836ee55} 
+ansys::\+dpf::\+\+Custom\+Container\+Base::\+\+Custom\+Container\+Base (\begin{DoxyParamCaption}\item[{std::\+string const \&}]{class\+\_\+name}{, }\item[{Generic\+Data\+Container const \&}]{container}{}\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em class\+\_\+name} & Name of the custom class in camel case format. Will be used to print the instance.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em \doxylink{classansys_1_1dpf_1_1CustomContainerBase_a595ca7a2057dd128a01676b24e622c08}{container}} & Internal container holding all the attributes as properties. \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{classansys_1_1dpf_1_1CustomContainerBase_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classansys_1_1dpf_1_1CustomContainerBase_a595ca7a2057dd128a01676b24e622c08}\index{ansys::dpf::CustomContainerBase@{ansys::dpf::CustomContainerBase}!container@{container}}
+\index{container@{container}!ansys::dpf::CustomContainerBase@{ansys::dpf::CustomContainerBase}}
+\doxysubsubsection{\texorpdfstring{container()}{container()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1CustomContainerBase_a595ca7a2057dd128a01676b24e622c08} 
+Generic\+Data\+Container \& ansys::\+dpf::\+\+Custom\+Container\+Base::\+container (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+The internal container. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1CustomContainerBase_a43b2fea572fa3298d6405cf7f497c78b}\index{ansys::dpf::CustomContainerBase@{ansys::dpf::CustomContainerBase}!container@{container}}
+\index{container@{container}!ansys::dpf::CustomContainerBase@{ansys::dpf::CustomContainerBase}}
+\doxysubsubsection{\texorpdfstring{container()}{container()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1CustomContainerBase_a43b2fea572fa3298d6405cf7f497c78b} 
+virtual Generic\+Data\+Container const  \& ansys::\+dpf::\+\+Custom\+Container\+Base::\+container (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\begin{DoxyReturn}{Returns}
+The internal container. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1CustomContainerBase_a65a8a6f6585ddf80c7e0dfdf9b9c50f5}\index{ansys::dpf::CustomContainerBase@{ansys::dpf::CustomContainerBase}!describe@{describe}}
+\index{describe@{describe}!ansys::dpf::CustomContainerBase@{ansys::dpf::CustomContainerBase}}
+\doxysubsubsection{\texorpdfstring{describe()}{describe()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1CustomContainerBase_a65a8a6f6585ddf80c7e0dfdf9b9c50f5} 
+std::\+string ansys::\+dpf::\+\+Custom\+Container\+Base::\+describe (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Description of object. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1CustomContainerBase_ae048111b288fdbddfd3a5ab07438bc85}\index{ansys::dpf::CustomContainerBase@{ansys::dpf::CustomContainerBase}!getClient@{getClient}}
+\index{getClient@{getClient}!ansys::dpf::CustomContainerBase@{ansys::dpf::CustomContainerBase}}
+\doxysubsubsection{\texorpdfstring{getClient()}{getClient()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1CustomContainerBase_ae048111b288fdbddfd3a5ab07438bc85} 
+bool ansys::\+dpf::\+\+Custom\+Container\+Base::\+get\+Client (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} \&}]{client}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Get the \doxylink{classansys_1_1dpf_1_1Client}{Client} the object is on, if it has one. Must not be used without using remote API. 
+\end{DoxyReturn}

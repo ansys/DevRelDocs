@@ -1,0 +1,436 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1core_1_1logging_1_1Logger" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::core::logging::Logger</compoundname>
+    <includes local="no">dpf_api.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1ade4701bc7b0779e76ca687f089556d7e" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::core::logging::Logger::_logger_name</definition>
+        <argsstring></argsstring>
+        <name>_logger_name</name>
+        <qualifiedname>ansys::dpf::core::logging::Logger::_logger_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6767" column="13" bodyfile="dpf_api.h" bodystart="6767" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1a360fda223fa063dd5ec78fd11ebd198b" prot="private" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* ansys::dpf::core::logging::Logger::_logger_impl</definition>
+        <argsstring></argsstring>
+        <name>_logger_impl</name>
+        <qualifiedname>ansys::dpf::core::logging::Logger::_logger_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6768" column="6" bodyfile="dpf_api.h" bodystart="6768" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1a8df68104e906bf3d5d075d0efdc0925b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::core::logging::Logger::Logger</definition>
+        <argsstring>(std::string logger_name, void *logger_impl)</argsstring>
+        <name>Logger</name>
+        <qualifiedname>ansys::dpf::core::logging::Logger::Logger</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>logger_name</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>logger_impl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6771" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1a19642576a9fedc2e9588e3a451bd775f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::core::logging::Logger::Logger</definition>
+        <argsstring>()=default</argsstring>
+        <name>Logger</name>
+        <qualifiedname>ansys::dpf::core::logging::Logger::Logger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6772" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1a949b835fc70d8d3fd6a8d5a81af6cade" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::core::logging::Logger::_logMsg</definition>
+        <argsstring>(const char *message, eLogLevel loglevel)</argsstring>
+        <name>_logMsg</name>
+        <qualifiedname>ansys::dpf::core::logging::Logger::_logMsg</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>eLogLevel</type>
+          <declname>loglevel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6879" column="6"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1af93f29066aead589c32ad6f0fa38e331" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::core::logging::Logger::valid</definition>
+        <argsstring>() const</argsstring>
+        <name>valid</name>
+        <qualifiedname>ansys::dpf::core::logging::Logger::valid</qualifiedname>
+        <briefdescription>
+<para>Returns if the logger is valid. By design, the logging API will never error and there could be situations where a non-functional <ref refid="classansys_1_1dpf_1_1core_1_1logging_1_1Logger" kindref="compound">Logger</ref> instance will be returned. E.g if trying to register a logger with a name that is already registered or with an invalid name, or get a logger with a name which does not exist or is invalid. If the <ref refid="classansys_1_1dpf_1_1core_1_1logging_1_1Logger" kindref="compound">Logger</ref> is invalid, all method calls like <ref refid="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1a8a32ca508e5afd4f884a837e89e0b630" kindref="member">flush()</ref> or <ref refid="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1aa2e49a144e585dacee844c661aa64259" kindref="member">log()</ref> will be NOPs. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>std::string </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6783" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1a3feaa521731b1300642dbe3f66ec730e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::core::logging::Logger::name</definition>
+        <argsstring>() const</argsstring>
+        <name>name</name>
+        <qualifiedname>ansys::dpf::core::logging::Logger::name</qualifiedname>
+        <briefdescription>
+<para>Return the name of the <ref refid="classansys_1_1dpf_1_1core_1_1logging_1_1Logger" kindref="compound">Logger</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>std::string </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6790" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1a8a32ca508e5afd4f884a837e89e0b630" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::core::logging::Logger::flush</definition>
+        <argsstring>()</argsstring>
+        <name>flush</name>
+        <qualifiedname>ansys::dpf::core::logging::Logger::flush</qualifiedname>
+        <briefdescription>
+<para>Flush all logger messages to the active sinks. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6795" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1aebee92154360756451a040db2baf0e44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void ansys::dpf::core::logging::Logger::trace</definition>
+        <argsstring>(T const &amp;message)</argsstring>
+        <name>trace</name>
+        <qualifiedname>ansys::dpf::core::logging::Logger::trace</qualifiedname>
+        <param>
+          <type>T const &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>Logs a message with the trace loglevel. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string to be logged. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6803" column="6" bodyfile="dpf_api.h" bodystart="6803" bodyend="6806"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1a0d6afc34b35d16aced0f7ab7e7c0e44d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void ansys::dpf::core::logging::Logger::debug</definition>
+        <argsstring>(T const &amp;message)</argsstring>
+        <name>debug</name>
+        <qualifiedname>ansys::dpf::core::logging::Logger::debug</qualifiedname>
+        <param>
+          <type>T const &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>Logs a message with the debug loglevel. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string to be logged. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6814" column="6" bodyfile="dpf_api.h" bodystart="6814" bodyend="6817"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1a6f6a31f9750e3edddc5e7c2df1e68ccc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void ansys::dpf::core::logging::Logger::info</definition>
+        <argsstring>(T const &amp;message)</argsstring>
+        <name>info</name>
+        <qualifiedname>ansys::dpf::core::logging::Logger::info</qualifiedname>
+        <param>
+          <type>T const &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>Logs a message with the info loglevel. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string to be logged. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6825" column="6" bodyfile="dpf_api.h" bodystart="6825" bodyend="6828"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1a445d9fc717e79f90fa375e681ad73bb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void ansys::dpf::core::logging::Logger::warning</definition>
+        <argsstring>(T const &amp;message)</argsstring>
+        <name>warning</name>
+        <qualifiedname>ansys::dpf::core::logging::Logger::warning</qualifiedname>
+        <param>
+          <type>T const &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>Logs a message with the warning loglevel. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string to be logged. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6836" column="6" bodyfile="dpf_api.h" bodystart="6836" bodyend="6839"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1a043296791982c6c29b84e57bd40b3dab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void ansys::dpf::core::logging::Logger::error</definition>
+        <argsstring>(T const &amp;message)</argsstring>
+        <name>error</name>
+        <qualifiedname>ansys::dpf::core::logging::Logger::error</qualifiedname>
+        <param>
+          <type>T const &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>Logs a message with the error loglevel. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string to be logged. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6847" column="6" bodyfile="dpf_api.h" bodystart="6847" bodyend="6850"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1a3c0ae4ad90cb6e940d9d9fce2d51eded" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void ansys::dpf::core::logging::Logger::critical</definition>
+        <argsstring>(T const &amp;message)</argsstring>
+        <name>critical</name>
+        <qualifiedname>ansys::dpf::core::logging::Logger::critical</qualifiedname>
+        <param>
+          <type>T const &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>Logs a message with the critical loglevel. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string to be logged. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6858" column="6" bodyfile="dpf_api.h" bodystart="6858" bodyend="6861"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1aa2e49a144e585dacee844c661aa64259" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void ansys::dpf::core::logging::Logger::log</definition>
+        <argsstring>(T const &amp;message, eLogLevel loglevel)</argsstring>
+        <name>log</name>
+        <qualifiedname>ansys::dpf::core::logging::Logger::log</qualifiedname>
+        <param>
+          <type>T const &amp;</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>eLogLevel</type>
+          <declname>loglevel</declname>
+        </param>
+        <briefdescription>
+<para>Logs a message with the critical loglevel. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string to be logged. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6869" column="6" bodyfile="dpf_api.h" bodystart="6869" bodyend="6872"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1ab65c01acdd6363080aefa500e3ee0cc0" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>static const char * ansys::dpf::core::logging::Logger::_toCharPtr</definition>
+        <argsstring>(std::string const &amp;str)</argsstring>
+        <name>_toCharPtr</name>
+        <qualifiedname>ansys::dpf::core::logging::Logger::_toCharPtr</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6878" column="26" bodyfile="dpf_api.h" bodystart="6878" bodyend="6878"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="classansys_1_1dpf_1_1core_1_1logging_1_1Logger" kindref="compound">Logger</ref> interface. All public methods are thread-safe. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="dpf_api.h" line="6764" column="1" bodyfile="dpf_api.h" bodystart="6765" bodyend="6880"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1a360fda223fa063dd5ec78fd11ebd198b" prot="private" virt="non-virtual"><scope>ansys::dpf::core::logging::Logger</scope><name>_logger_impl</name></member>
+      <member refid="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1ade4701bc7b0779e76ca687f089556d7e" prot="private" virt="non-virtual"><scope>ansys::dpf::core::logging::Logger</scope><name>_logger_name</name></member>
+      <member refid="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1a949b835fc70d8d3fd6a8d5a81af6cade" prot="private" virt="non-virtual"><scope>ansys::dpf::core::logging::Logger</scope><name>_logMsg</name></member>
+      <member refid="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1ab65c01acdd6363080aefa500e3ee0cc0" prot="private" virt="non-virtual"><scope>ansys::dpf::core::logging::Logger</scope><name>_toCharPtr</name></member>
+      <member refid="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1a3c0ae4ad90cb6e940d9d9fce2d51eded" prot="public" virt="non-virtual"><scope>ansys::dpf::core::logging::Logger</scope><name>critical</name></member>
+      <member refid="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1a0d6afc34b35d16aced0f7ab7e7c0e44d" prot="public" virt="non-virtual"><scope>ansys::dpf::core::logging::Logger</scope><name>debug</name></member>
+      <member refid="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1a043296791982c6c29b84e57bd40b3dab" prot="public" virt="non-virtual"><scope>ansys::dpf::core::logging::Logger</scope><name>error</name></member>
+      <member refid="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1a8a32ca508e5afd4f884a837e89e0b630" prot="public" virt="non-virtual"><scope>ansys::dpf::core::logging::Logger</scope><name>flush</name></member>
+      <member refid="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1a6f6a31f9750e3edddc5e7c2df1e68ccc" prot="public" virt="non-virtual"><scope>ansys::dpf::core::logging::Logger</scope><name>info</name></member>
+      <member refid="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1aa2e49a144e585dacee844c661aa64259" prot="public" virt="non-virtual"><scope>ansys::dpf::core::logging::Logger</scope><name>log</name></member>
+      <member refid="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1a8df68104e906bf3d5d075d0efdc0925b" prot="private" virt="non-virtual"><scope>ansys::dpf::core::logging::Logger</scope><name>Logger</name></member>
+      <member refid="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1a19642576a9fedc2e9588e3a451bd775f" prot="private" virt="non-virtual"><scope>ansys::dpf::core::logging::Logger</scope><name>Logger</name></member>
+      <member refid="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1a3feaa521731b1300642dbe3f66ec730e" prot="public" virt="non-virtual"><scope>ansys::dpf::core::logging::Logger</scope><name>name</name></member>
+      <member refid="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1aebee92154360756451a040db2baf0e44" prot="public" virt="non-virtual"><scope>ansys::dpf::core::logging::Logger</scope><name>trace</name></member>
+      <member refid="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1af93f29066aead589c32ad6f0fa38e331" prot="public" virt="non-virtual"><scope>ansys::dpf::core::logging::Logger</scope><name>valid</name></member>
+      <member refid="classansys_1_1dpf_1_1core_1_1logging_1_1Logger_1a445d9fc717e79f90fa375e681ad73bb5" prot="public" virt="non-virtual"><scope>ansys::dpf::core::logging::Logger</scope><name>warning</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

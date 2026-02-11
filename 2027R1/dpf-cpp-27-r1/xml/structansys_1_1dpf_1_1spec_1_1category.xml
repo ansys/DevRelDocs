@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="structansys_1_1dpf_1_1spec_1_1category" kind="struct" language="C++" prot="public">
+    <compoundname>ansys::dpf::spec::category</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1spec_1_1category_1ab85573af1a9f573d88d1ba9b422cf663" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::spec::category::sCategory</definition>
+        <argsstring></argsstring>
+        <name>sCategory</name>
+        <qualifiedname>ansys::dpf::spec::category::sCategory</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="912" column="20" bodyfile="dpf_api_base.h" bodystart="912" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1spec_1_1category_1ad8839c7b8c06d02d7fe490f0ee605212" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::spec::category::sResult</definition>
+        <argsstring></argsstring>
+        <name>sResult</name>
+        <qualifiedname>ansys::dpf::spec::category::sResult</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="913" column="20" bodyfile="dpf_api_base.h" bodystart="913" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1spec_1_1category_1a4adcf346e8c7926d286ec0bf322cf842" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::spec::category::sMath</definition>
+        <argsstring></argsstring>
+        <name>sMath</name>
+        <qualifiedname>ansys::dpf::spec::category::sMath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="914" column="20" bodyfile="dpf_api_base.h" bodystart="914" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1spec_1_1category_1a66b6558607cd42ad5fff8c9e9d315d75" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::spec::category::sMesh</definition>
+        <argsstring></argsstring>
+        <name>sMesh</name>
+        <qualifiedname>ansys::dpf::spec::category::sMesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="915" column="20" bodyfile="dpf_api_base.h" bodystart="915" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1spec_1_1category_1a6fb12d47a387d723502f99c18b0628f0" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::spec::category::sScoping</definition>
+        <argsstring></argsstring>
+        <name>sScoping</name>
+        <qualifiedname>ansys::dpf::spec::category::sScoping</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="916" column="20" bodyfile="dpf_api_base.h" bodystart="916" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1spec_1_1category_1a3742535611820bba4b202d50f004223a" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::spec::category::sMapping</definition>
+        <argsstring></argsstring>
+        <name>sMapping</name>
+        <qualifiedname>ansys::dpf::spec::category::sMapping</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="917" column="20" bodyfile="dpf_api_base.h" bodystart="917" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1spec_1_1category_1aff8f388bb26f2f3deef84b1013370658" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::spec::category::sMinMax</definition>
+        <argsstring></argsstring>
+        <name>sMinMax</name>
+        <qualifiedname>ansys::dpf::spec::category::sMinMax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="918" column="20" bodyfile="dpf_api_base.h" bodystart="918" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1spec_1_1category_1a3a460460080b66dd0eb155b3bb9e680e" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::spec::category::sGeo</definition>
+        <argsstring></argsstring>
+        <name>sGeo</name>
+        <qualifiedname>ansys::dpf::spec::category::sGeo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="919" column="20" bodyfile="dpf_api_base.h" bodystart="919" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1spec_1_1category_1a21d9da337cc8106169d182c6cc25ee6d" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::spec::category::sFilter</definition>
+        <argsstring></argsstring>
+        <name>sFilter</name>
+        <qualifiedname>ansys::dpf::spec::category::sFilter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="920" column="20" bodyfile="dpf_api_base.h" bodystart="920" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1spec_1_1category_1aa47e8e6f740032f319f83ee543706917" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::spec::category::sUtility</definition>
+        <argsstring></argsstring>
+        <name>sUtility</name>
+        <qualifiedname>ansys::dpf::spec::category::sUtility</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="921" column="20" bodyfile="dpf_api_base.h" bodystart="921" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1spec_1_1category_1af29ab7f1f7322f906f25ef4dc88d87af" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::spec::category::sAveraging</definition>
+        <argsstring></argsstring>
+        <name>sAveraging</name>
+        <qualifiedname>ansys::dpf::spec::category::sAveraging</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="922" column="20" bodyfile="dpf_api_base.h" bodystart="922" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1spec_1_1category_1afb8e5b2783ed26c0665da517c635a102" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::spec::category::sSerialization</definition>
+        <argsstring></argsstring>
+        <name>sSerialization</name>
+        <qualifiedname>ansys::dpf::spec::category::sSerialization</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="923" column="20" bodyfile="dpf_api_base.h" bodystart="923" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1spec_1_1category_1a75ac06a861348b5c37c51b3bac977dec" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::spec::category::sInvariant</definition>
+        <argsstring></argsstring>
+        <name>sInvariant</name>
+        <qualifiedname>ansys::dpf::spec::category::sInvariant</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="924" column="20" bodyfile="dpf_api_base.h" bodystart="924" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1spec_1_1category_1a45f68aca1754c55d45bbada65649f11e" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::spec::category::sLogic</definition>
+        <argsstring></argsstring>
+        <name>sLogic</name>
+        <qualifiedname>ansys::dpf::spec::category::sLogic</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="925" column="20" bodyfile="dpf_api_base.h" bodystart="925" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1spec_1_1category_1a8e4e3a32f54422f9d314593a35d6eeca" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::spec::category::sMetadata</definition>
+        <argsstring></argsstring>
+        <name>sMetadata</name>
+        <qualifiedname>ansys::dpf::spec::category::sMetadata</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="926" column="20" bodyfile="dpf_api_base.h" bodystart="926" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1spec_1_1category_1ae31c04570101f17852d90978400ff6fb" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::spec::category::sServer</definition>
+        <argsstring></argsstring>
+        <name>sServer</name>
+        <qualifiedname>ansys::dpf::spec::category::sServer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="927" column="20" bodyfile="dpf_api_base.h" bodystart="927" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1spec_1_1category_1a1e81221815ccf833ff9201a1e0c1b953" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::spec::category::sCompression</definition>
+        <argsstring></argsstring>
+        <name>sCompression</name>
+        <qualifiedname>ansys::dpf::spec::category::sCompression</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="928" column="20" bodyfile="dpf_api_base.h" bodystart="928" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1spec_1_1category_1a97e515aba6ae5d553f6d725b55ddf855" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::spec::category::sInfo</definition>
+        <argsstring></argsstring>
+        <name>sInfo</name>
+        <qualifiedname>ansys::dpf::spec::category::sInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="929" column="20" bodyfile="dpf_api_base.h" bodystart="929" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="dpf_api_base.h" line="910" column="1" bodyfile="dpf_api_base.h" bodystart="911" bodyend="930"/>
+    <listofallmembers>
+      <member refid="structansys_1_1dpf_1_1spec_1_1category_1af29ab7f1f7322f906f25ef4dc88d87af" prot="public" virt="non-virtual"><scope>ansys::dpf::spec::category</scope><name>sAveraging</name></member>
+      <member refid="structansys_1_1dpf_1_1spec_1_1category_1ab85573af1a9f573d88d1ba9b422cf663" prot="public" virt="non-virtual"><scope>ansys::dpf::spec::category</scope><name>sCategory</name></member>
+      <member refid="structansys_1_1dpf_1_1spec_1_1category_1a1e81221815ccf833ff9201a1e0c1b953" prot="public" virt="non-virtual"><scope>ansys::dpf::spec::category</scope><name>sCompression</name></member>
+      <member refid="structansys_1_1dpf_1_1spec_1_1category_1a21d9da337cc8106169d182c6cc25ee6d" prot="public" virt="non-virtual"><scope>ansys::dpf::spec::category</scope><name>sFilter</name></member>
+      <member refid="structansys_1_1dpf_1_1spec_1_1category_1a3a460460080b66dd0eb155b3bb9e680e" prot="public" virt="non-virtual"><scope>ansys::dpf::spec::category</scope><name>sGeo</name></member>
+      <member refid="structansys_1_1dpf_1_1spec_1_1category_1a97e515aba6ae5d553f6d725b55ddf855" prot="public" virt="non-virtual"><scope>ansys::dpf::spec::category</scope><name>sInfo</name></member>
+      <member refid="structansys_1_1dpf_1_1spec_1_1category_1a75ac06a861348b5c37c51b3bac977dec" prot="public" virt="non-virtual"><scope>ansys::dpf::spec::category</scope><name>sInvariant</name></member>
+      <member refid="structansys_1_1dpf_1_1spec_1_1category_1a45f68aca1754c55d45bbada65649f11e" prot="public" virt="non-virtual"><scope>ansys::dpf::spec::category</scope><name>sLogic</name></member>
+      <member refid="structansys_1_1dpf_1_1spec_1_1category_1a3742535611820bba4b202d50f004223a" prot="public" virt="non-virtual"><scope>ansys::dpf::spec::category</scope><name>sMapping</name></member>
+      <member refid="structansys_1_1dpf_1_1spec_1_1category_1a4adcf346e8c7926d286ec0bf322cf842" prot="public" virt="non-virtual"><scope>ansys::dpf::spec::category</scope><name>sMath</name></member>
+      <member refid="structansys_1_1dpf_1_1spec_1_1category_1a66b6558607cd42ad5fff8c9e9d315d75" prot="public" virt="non-virtual"><scope>ansys::dpf::spec::category</scope><name>sMesh</name></member>
+      <member refid="structansys_1_1dpf_1_1spec_1_1category_1a8e4e3a32f54422f9d314593a35d6eeca" prot="public" virt="non-virtual"><scope>ansys::dpf::spec::category</scope><name>sMetadata</name></member>
+      <member refid="structansys_1_1dpf_1_1spec_1_1category_1aff8f388bb26f2f3deef84b1013370658" prot="public" virt="non-virtual"><scope>ansys::dpf::spec::category</scope><name>sMinMax</name></member>
+      <member refid="structansys_1_1dpf_1_1spec_1_1category_1ad8839c7b8c06d02d7fe490f0ee605212" prot="public" virt="non-virtual"><scope>ansys::dpf::spec::category</scope><name>sResult</name></member>
+      <member refid="structansys_1_1dpf_1_1spec_1_1category_1a6fb12d47a387d723502f99c18b0628f0" prot="public" virt="non-virtual"><scope>ansys::dpf::spec::category</scope><name>sScoping</name></member>
+      <member refid="structansys_1_1dpf_1_1spec_1_1category_1afb8e5b2783ed26c0665da517c635a102" prot="public" virt="non-virtual"><scope>ansys::dpf::spec::category</scope><name>sSerialization</name></member>
+      <member refid="structansys_1_1dpf_1_1spec_1_1category_1ae31c04570101f17852d90978400ff6fb" prot="public" virt="non-virtual"><scope>ansys::dpf::spec::category</scope><name>sServer</name></member>
+      <member refid="structansys_1_1dpf_1_1spec_1_1category_1aa47e8e6f740032f319f83ee543706917" prot="public" virt="non-virtual"><scope>ansys::dpf::spec::category</scope><name>sUtility</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

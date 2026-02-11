@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="02__Concepts_8md" kind="file" language="Markdown">
+    <compoundname>02_Concepts.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal"><sp/>@defgroup<sp/>group_02<sp/>Concepts<sp/>and<sp/>Terminology</highlight></codeline>
+<codeline><highlight class="normal"><sp/>@ingroup<sp/>group_2_concepts</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Data<sp/>containers</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">DPF<sp/>sees<sp/>**fields<sp/>of<sp/>data**,<sp/>not<sp/>physical<sp/>results,<sp/>making<sp/>it<sp/>a<sp/>very<sp/>versatile<sp/>tool<sp/>that<sp/>can<sp/>be<sp/>used<sp/>in<sp/>a<sp/>variety<sp/>of<sp/>ways<sp/>across<sp/>teams,<sp/>projects,<sp/>and<sp/>simulations.<sp/><sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>**data<sp/>source**<sp/>is<sp/>one<sp/>or<sp/>more<sp/>files<sp/>in<sp/>which<sp/>analysis<sp/>results<sp/>can<sp/>be<sp/>found.<sp/><sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">A<sp/>**field**<sp/>is<sp/>the<sp/>main<sp/>simulation<sp/>data<sp/>container.<sp/>For<sp/>transient/harmonic/modal<sp/>or<sp/>multi-step<sp/>static<sp/>analyses,<sp/>a<sp/>**field<sp/>container**<sp/>is<sp/>used<sp/>to<sp/>hold<sp/>a<sp/>set<sp/>of<sp/>fields<sp/>(one<sp/>field<sp/>for<sp/>each<sp/>time<sp/>step,<sp/>each<sp/>frequency).<sp/><sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>physical<sp/>entity<sp/>with<sp/>which<sp/>the<sp/>field<sp/>is<sp/>associated<sp/>is<sp/>called<sp/>the<sp/>**support**.<sp/>For<sp/>example,<sp/>the<sp/>support<sp/>can<sp/>be<sp/>a<sp/>mesh,<sp/>geometrical<sp/>entity,<sp/>or<sp/>time<sp/>or<sp/>frequency<sp/>values.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>most<sp/>cases<sp/>you<sp/>will<sp/>not<sp/>want<sp/>to<sp/>work<sp/>with<sp/>the<sp/>entire<sp/>set<sp/>of<sp/>data,<sp/>but<sp/>rather<sp/>a<sp/>subset<sp/>of<sp/>that<sp/>data.<sp/>To<sp/>achieve<sp/>this<sp/>you<sp/>define<sp/>**scoping**.<sp/>Scoping<sp/>is<sp/>a<sp/>subset<sp/>of<sp/>the<sp/>model’s<sp/>support.<sp/>Typically,<sp/>scoping<sp/>can<sp/>represent<sp/>node<sp/>IDs,<sp/>element<sp/>IDs,<sp/>time<sp/>steps,<sp/>frequencies,<sp/>joints,<sp/>and<sp/>so<sp/>on.<sp/>Scoping<sp/>describes<sp/>a<sp/>spatial<sp/>and/or<sp/>temporal<sp/>subset<sp/>on<sp/>which<sp/>the<sp/>field<sp/>is<sp/>scoped.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>DPF,<sp/>field<sp/>data<sp/>is<sp/>always<sp/>associated<sp/>with<sp/>its<sp/>scoping<sp/>and<sp/>support,<sp/>making<sp/>the<sp/>field<sp/>a<sp/>self-describing<sp/>piece<sp/>of<sp/>data.<sp/>For<sp/>example,<sp/>in<sp/>a<sp/>field<sp/>of<sp/>nodal<sp/>displacement,<sp/>the<sp/>*displacement*<sp/>is<sp/>the<sp/>simulation<sp/>data<sp/>and<sp/>the<sp/>associated<sp/>*nodes*<sp/>are<sp/>the<sp/>scoping.<sp/>A<sp/>field<sp/>can<sp/>also<sp/>be<sp/>defined<sp/>by<sp/>its<sp/>dimensionality,<sp/>unit<sp/>of<sp/>data,<sp/>and<sp/>location.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>**location**<sp/>is<sp/>the<sp/>type<sp/>of<sp/>topology<sp/>associated<sp/>with<sp/>the<sp/>data<sp/>container.<sp/>DPF<sp/>uses<sp/>three<sp/>different<sp/>spatial<sp/>locations<sp/>for<sp/>finite<sp/>element<sp/>data:<sp/>Nodal,<sp/>Elemental,<sp/>and<sp/>ElementalNodal.<sp/>A<sp/>**Nodal**<sp/>location<sp/>describes<sp/>data<sp/>computed<sp/>on<sp/>the<sp/>nodes,<sp/>while<sp/>an<sp/>**Elemental**<sp/>location<sp/>describes<sp/>data<sp/>computed<sp/>on<sp/>the<sp/>element<sp/>itself.<sp/>These<sp/>nodes<sp/>and<sp/>elements<sp/>are<sp/>identified<sp/>by<sp/>an<sp/>ID<sp/>—<sp/>typically<sp/>a<sp/>node<sp/>or<sp/>element<sp/>number.<sp/>An<sp/>**ElementalNodal**<sp/>location<sp/>describes<sp/>data<sp/>defined<sp/>on<sp/>the<sp/>nodes<sp/>of<sp/>the<sp/>elements,<sp/>but<sp/>you<sp/>must<sp/>use<sp/>the<sp/>Element<sp/>ID<sp/>to<sp/>retrieve<sp/>it.<sp/>To<sp/>achieve<sp/>this<sp/>you<sp/>define<sp/>**Elemental<sp/>scoping**<sp/>or<sp/>**Nodal<sp/>scoping**.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>**meshed<sp/>region**<sp/>is<sp/>an<sp/>entity<sp/>describing<sp/>a<sp/>mesh.<sp/>Node<sp/>and<sp/>element<sp/>scopings,<sp/>element<sp/>types,<sp/>connectivity<sp/>(list<sp/>of<sp/>node<sp/>indices<sp/>composing<sp/>each<sp/>element)<sp/>and<sp/>node<sp/>coordinates<sp/>are<sp/>the<sp/>fundamental<sp/>entities<sp/>composing<sp/>the<sp/>meshed<sp/>region.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Concepts<sp/>summary</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>following<sp/>example<sp/>summarizes<sp/>the<sp/>concepts<sp/>above:&lt;br&gt;&lt;br&gt;![](field-breakdown.png)&lt;br&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Data<sp/>manipulation</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Operators</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**Operators**<sp/>are<sp/>the<sp/>main<sp/>objects<sp/>used<sp/>to<sp/>create,<sp/>transform<sp/>and<sp/>stream<sp/>the<sp/>data.<sp/>An<sp/>operator<sp/>is<sp/>composed<sp/>of<sp/>a<sp/>“core”<sp/>that<sp/>handles<sp/>the<sp/>calculation,<sp/>and<sp/>input<sp/>and<sp/>output<sp/>“pins”<sp/>(think<sp/>of<sp/>an<sp/>integrated<sp/>circuit<sp/>in<sp/>electronics).<sp/>These<sp/>pins<sp/>enable<sp/>you<sp/>to<sp/>provide<sp/>input<sp/>data<sp/>to<sp/>each<sp/>operator.<sp/>When<sp/>the<sp/>operator<sp/>is<sp/>evaluated,<sp/>it<sp/>processes<sp/>the<sp/>input<sp/>information<sp/>to<sp/>compute<sp/>its<sp/>output.&lt;br&gt;&lt;br&gt;![](OperatorPins.png)&lt;br&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**Input<sp/>pins**<sp/>allow<sp/>users<sp/>to<sp/>pass<sp/>on<sp/>their<sp/>data<sp/>to<sp/>the<sp/>operator.<sp/>DPF<sp/>data<sp/>container<sp/>types,<sp/>standard<sp/>types<sp/>or<sp/>operators&apos;<sp/>outputs<sp/>can<sp/>be<sp/>connected<sp/>on<sp/>the<sp/>input<sp/>pins<sp/>(connecting<sp/>an<sp/>operator<sp/>output<sp/>to<sp/>another<sp/>operator<sp/>input<sp/>doesn&apos;t<sp/>evaluate<sp/>this<sp/>input<sp/>operator).<sp/>The<sp/>inputs<sp/>allow<sp/>the<sp/>user<sp/>to<sp/>choose<sp/>the<sp/>time/frequencies<sp/>on<sp/>which<sp/>to<sp/>evaluate<sp/>a<sp/>result,<sp/>to<sp/>specify<sp/>the<sp/>files<sp/>where<sp/>to<sp/>find<sp/>a<sp/>result,<sp/>to<sp/>provide<sp/>a<sp/>field<sp/>on<sp/>which<sp/>he<sp/>wants<sp/>an<sp/>operation<sp/>to<sp/>be<sp/>computed,<sp/>and<sp/>so<sp/>on.<sp/>Optional<sp/>input<sp/>pins<sp/>allow<sp/>to<sp/>customize<sp/>even<sp/>more<sp/>the<sp/>operator<sp/>outputs.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**Output<sp/>pins**<sp/>allow<sp/>to<sp/>get<sp/>the<sp/>results<sp/>of<sp/>the<sp/>operation.<sp/>An<sp/>Operator<sp/>can<sp/>have<sp/>one<sp/>or<sp/>several<sp/>outputs<sp/>which<sp/>are<sp/>usually<sp/>DPF<sp/>data<sp/>containers.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**Configurations**<sp/>allow<sp/>you<sp/>to<sp/>optionally<sp/>choose<sp/>how<sp/>the<sp/>operator<sp/>will<sp/>run.<sp/>This<sp/>is<sp/>an<sp/>advanced<sp/>feature<sp/>used<sp/>for<sp/>deep<sp/>customization.<sp/>The<sp/>different<sp/>options<sp/>can<sp/>change<sp/>the<sp/>way<sp/>loops<sp/>are<sp/>done.<sp/>It<sp/>can<sp/>also<sp/>specify<sp/>whether<sp/>the<sp/>operator<sp/>will<sp/>perform<sp/>validity<sp/>checks<sp/>on<sp/>the<sp/>input<sp/>or<sp/>not.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Workflow</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Operators<sp/>can<sp/>be<sp/>chained<sp/>together<sp/>to<sp/>create<sp/>**workflows**.<sp/>A<sp/>workflow<sp/>is<sp/>a<sp/>global<sp/>entity<sp/>that<sp/>you<sp/>use<sp/>to<sp/>evaluate<sp/>the<sp/>data<sp/>produced<sp/>by<sp/>the<sp/>operators.<sp/>It<sp/>needs<sp/>input<sp/>information<sp/>and<sp/>computes<sp/>the<sp/>requested<sp/>output<sp/>information.<sp/><sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Think<sp/>of<sp/>a<sp/>workflow<sp/>as<sp/>a<sp/>black<sp/>box<sp/>in<sp/>which<sp/>some<sp/>operators<sp/>are<sp/>chained,<sp/>computing<sp/>the<sp/>information<sp/>for<sp/>which<sp/>it<sp/>is<sp/>made:&lt;br&gt;&lt;br&gt;![](Workflow1.png)&lt;br&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>following<sp/>example<sp/>shows<sp/>operators<sp/>that<sp/>have<sp/>been<sp/>chained<sp/>together<sp/>to<sp/>create<sp/>a<sp/>total<sp/>deformation<sp/>workflow:&lt;br&gt;&lt;br&gt;![](Workflow2.png)&lt;br&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>workflow<sp/>can<sp/>be<sp/>used<sp/>in<sp/>any<sp/>simulation<sp/>workflow<sp/>using<sp/>any<sp/>data<sp/>source<sp/>as<sp/>input.<sp/><sp/></highlight></codeline>
+    </programlisting>
+    <location file="cpp_doc/02_Concepts.md"/>
+  </compounddef>
+</doxygen>

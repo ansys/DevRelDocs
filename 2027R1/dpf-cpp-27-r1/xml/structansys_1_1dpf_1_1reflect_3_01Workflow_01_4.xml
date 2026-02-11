@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="structansys_1_1dpf_1_1reflect_3_01Workflow_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>ansys::dpf::reflect&lt; Workflow &gt;</compoundname>
+    <templateparamlist>
+    </templateparamlist>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structansys_1_1dpf_1_1reflect_3_01Workflow_01_4_1a1d86e5570949401c7146e2f154991f80" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>static std::string ansys::dpf::reflect&lt; Workflow &gt;::type_name</definition>
+        <argsstring>()</argsstring>
+        <name>type_name</name>
+        <qualifiedname>ansys::dpf::reflect&lt; Workflow &gt;::type_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6957" column="20" bodyfile="dpf_api.h" bodystart="6957" bodyend="6957"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="dpf_api.h" line="6955" column="11" bodyfile="dpf_api.h" bodystart="6956" bodyend="6958"/>
+    <listofallmembers>
+      <member refid="structansys_1_1dpf_1_1reflect_3_01Workflow_01_4_1a1d86e5570949401c7146e2f154991f80" prot="public" virt="non-virtual"><scope>ansys::dpf::reflect&lt; Workflow &gt;</scope><name>type_name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

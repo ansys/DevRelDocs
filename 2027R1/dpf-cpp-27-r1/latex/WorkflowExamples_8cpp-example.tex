@@ -1,0 +1,199 @@
+\doxysection{Workflow\+Examples.\+cpp}
+\hypertarget{WorkflowExamples_8cpp-example}{}\label{WorkflowExamples_8cpp-example}Examples of DPF workflows that compute data.
+
+
+\begin{DoxyCodeInclude}{0}
+\DoxyCodeLine{\textcolor{comment}{//}}
+\DoxyCodeLine{\textcolor{comment}{//\ COPYRIGHT\ ANSYS.\ ALL\ RIGHTS\ RESERVED.}}
+\DoxyCodeLine{\textcolor{comment}{//}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include\ "{}dpf\_api.h"{}}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include\ <limits>}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#ifdef\ EXAMPLE}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include\ "{}Example.h"{}}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include\ <gtest/gtest.h>}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{}
+\DoxyCodeLine{TEST(WorkflowExample,\ TotalDeformation)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ This\ elementary\ workflow\ allows\ the\ user\ to\ simply\ read\ a\ displacement\ vector\ from\ an\ analysis\ and\ compute\ its\ norm.}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ set\ the\ result\ file\ path\ to\ the\ right\ path}}
+\DoxyCodeLine{\ \ \ \ std::string\ fileName(\textcolor{stringliteral}{"{}../../../testfiles/mapdl\_files/TwoSolids.rst"{}});}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DataSources}{ansys::dpf::DataSources}}\ my\_data\_sources;}
+\DoxyCodeLine{\ \ \ \ my\_data\_sources.\doxymbox{\hyperlink{classansys_1_1dpf_1_1DataSources_ad2a5bb6f24ca621ffaaee9e7a47cdc20}{addResultFile}}(fileName);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ u\_op(\textcolor{stringliteral}{"{}U"{}});}
+\DoxyCodeLine{\ \ \ \ u\_op.connect(\doxymbox{\hyperlink{namespaceansys_1_1dpf_aa4a44a04a0aafb8fe0645f019bbd94d1a5b6613f802062fde4faea4b553db7fbc}{ansys::dpf::eDataSourcesPin}},\ my\_data\_sources);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ norm\_op(\textcolor{stringliteral}{"{}norm\_fc"{}});}
+\DoxyCodeLine{\ \ \ \ norm\_op.connect(u\_op);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{ansys::dpf::FieldsContainer}}\ my\_u\_norm\ =\ norm\_op.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator_a9994ffe0f23c4a5de614099abb95286c}{getOutputFieldsContainer}}(0);}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{}
+\DoxyCodeLine{TEST(WorkflowExample,\ MinMaxOverTimeOfVonMisesStress)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ This\ workflow\ allows\ users\ to\ read\ the\ stress\ tensors\ for\ a\ range\ of\ time\ }}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ steps\ from\ an\ analysis,\ to\ implicitly\ average\ those\ elemental\ nodal\ tensors\ to\ a\ }}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ nodal\ location,\ to\ compute\ its\ Von\ Mises\ equivalent\ and\ finally,\ to\ compute\ the\ }}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ minimum\ and\ the\ maximum\ over\ time\ for\ each\ component\ of\ the\ nodal\ equivalent\ tensors.\ }}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ This\ workflow\ is\ an\ example\ use\ case\ of\ the\ time\ scoping\ pin.\ This\ pin\ expects\ a\ scoping\ }}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ in\ input\ and\ allows\ the\ user\ to\ choose\ the\ time\ or\ frequency\ sets\ of\ his\ results.}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ set\ the\ result\ file\ path\ to\ the\ right\ path}}
+\DoxyCodeLine{\ \ \ \ std::string\ fileName(\textcolor{stringliteral}{"{}../../../testfiles/mapdl\_files/TwoSolids.rst"{}});}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DataSources}{ansys::dpf::DataSources}}\ my\_data\_sources;}
+\DoxyCodeLine{\ \ \ \ my\_data\_sources.\doxymbox{\hyperlink{classansys_1_1dpf_1_1DataSources_ad2a5bb6f24ca621ffaaee9e7a47cdc20}{addResultFile}}(fileName);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ stress\_op(\textcolor{stringliteral}{"{}S"{}});}
+\DoxyCodeLine{\ \ \ \ stress\_op.connect(\doxymbox{\hyperlink{namespaceansys_1_1dpf_aa4a44a04a0aafb8fe0645f019bbd94d1a5b6613f802062fde4faea4b553db7fbc}{ansys::dpf::eDataSourcesPin}},\ my\_data\_sources);}
+\DoxyCodeLine{\ \ \ \ stress\_op.connect(\doxymbox{\hyperlink{namespaceansys_1_1dpf_aa4a44a04a0aafb8fe0645f019bbd94d1ac390a52dd8c4f1e8ff81a162cdc04d4f}{ansys::dpf::eTimeScopPin}},\ \{\ 1\ \});}
+\DoxyCodeLine{\ \ \ \ stress\_op.connect(\doxymbox{\hyperlink{namespaceansys_1_1dpf_aa4a44a04a0aafb8fe0645f019bbd94d1aa8522e00b69f3a2f2626a088f20823fe}{ansys::dpf::eLocationPin}},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{ansys::dpf::locations::nodal}});}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ eqv\_op(\textcolor{stringliteral}{"{}eqv\_fc"{}});}
+\DoxyCodeLine{\ \ \ \ eqv\_op.connect(stress\_op);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ min\_max\_op(\textcolor{stringliteral}{"{}min\_max\_fc"{}});}
+\DoxyCodeLine{\ \ \ \ min\_max\_op.connect(eqv\_op);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{ansys::dpf::Field}}\ my\_min\ =\ min\_max\_op.getOutputField(0);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{ansys::dpf::Field}}\ my\_max\ =\ min\_max\_op.getOutputField(1);}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{}
+\DoxyCodeLine{TEST(WorkflowExample,\ StrainTensorsScopedOnNamedSelection)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ This\ workflow\ is\ an\ example\ use\ case\ of\ the\ mesh\ scoping\ in\ input\ of\ a\ result\ reader.\ }}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ Here,\ the\ user\ can\ extract\ a\ mesh\ scoping\ (a\ set\ of\ spatial\ entities:\ node\ or\ elements\ for\ example)\ }}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ from\ a\ named\ selection\ created\ in\ mechanical\ or\ mapdl.\ This\ mesh\ scoping\ is\ then\ used\ as\ an\ input\ }}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ of\ a\ strain\ tensors\ reader.\ The\ output\ of\ this\ workflow\ is\ the\ strain\ tensors\ scoped\ only\ on\ the\ }}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ named\ selection.\ Two\ different\ versions\ of\ this\ workflow\ is\ available:\ the\ first\ one\ extracts\ the\ elements\ }}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ of\ the\ named\ selection\ and\ returns\ an\ elemental\ nodal\ field,\ the\ second\ extracts\ the\ nodes\ of\ the\ named\ }}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ selection,\ the\ strain\ reader\ will\ consequently\ average\ the\ tensors\ on\ the\ node\ to\ take\ into\ account\ the\ }}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ nodal\ mesh\ scoping\ in\ input.}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ set\ the\ result\ file\ path\ to\ the\ right\ path}}
+\DoxyCodeLine{\ \ \ \ std::string\ fileName(\textcolor{stringliteral}{"{}../../../testfiles/mapdl\_files/TwoSolids.rst"{}});}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DataSources}{ansys::dpf::DataSources}}\ my\_data\_sources;}
+\DoxyCodeLine{\ \ \ \ my\_data\_sources.\doxymbox{\hyperlink{classansys_1_1dpf_1_1DataSources_ad2a5bb6f24ca621ffaaee9e7a47cdc20}{addResultFile}}(fileName);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ strain\_op(\textcolor{stringliteral}{"{}EPEL"{}});}
+\DoxyCodeLine{\ \ \ \ strain\_op.connect(\doxymbox{\hyperlink{namespaceansys_1_1dpf_aa4a44a04a0aafb8fe0645f019bbd94d1a5b6613f802062fde4faea4b553db7fbc}{ansys::dpf::eDataSourcesPin}},\ my\_data\_sources);}
+\DoxyCodeLine{\ \ \ \ strain\_op.connect(\doxymbox{\hyperlink{namespaceansys_1_1dpf_aa4a44a04a0aafb8fe0645f019bbd94d1aa8522e00b69f3a2f2626a088f20823fe}{ansys::dpf::eLocationPin}},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{ansys::dpf::locations::nodal}});}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ meshProvider(\textcolor{stringliteral}{"{}MeshProvider"{}});}
+\DoxyCodeLine{\ \ \ \ meshProvider.connect(\doxymbox{\hyperlink{namespaceansys_1_1dpf_aa4a44a04a0aafb8fe0645f019bbd94d1a5b6613f802062fde4faea4b553db7fbc}{ansys::dpf::eDataSourcesPin}},\ my\_data\_sources);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion}{ansys::dpf::MeshedRegion}}\ mesh\ =\ meshProvider.getOutputMeshedRegion(0);}
+\DoxyCodeLine{\ \ \ \ std::vector<std::string>\ available\_named\_sel\ =\ mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a3b768ab61193b7b1a6359f4ac619d1c4}{availableNamedSelections}}();}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ ns\_op(\textcolor{stringliteral}{"{}scoping\_provider\_by\_ns"{}});}
+\DoxyCodeLine{\ \ \ \ ns\_op.connect(\doxymbox{\hyperlink{namespaceansys_1_1dpf_aa4a44a04a0aafb8fe0645f019bbd94d1a5b6613f802062fde4faea4b553db7fbc}{ansys::dpf::eDataSourcesPin}},\ my\_data\_sources);}
+\DoxyCodeLine{\ \ \ \ ns\_op.connect(0,\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_a3f66169a86ab935fb398b3fdde98bb04}{ansys::dpf::locations::elemental}});}
+\DoxyCodeLine{\ \ \ \ ns\_op.connect(1,\ available\_named\_sel[0]);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ strain\_op.connect(\doxymbox{\hyperlink{namespaceansys_1_1dpf_aa4a44a04a0aafb8fe0645f019bbd94d1a79a70f074b2f79ccaff75ae8e4ec9ec9}{ansys::dpf::eMeshScopPin}},\ ns\_op,\ 0);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{ansys::dpf::FieldsContainer}}\ my\_nodal\_strains\ =\ strain\_op.getOutputFieldsContainer(0);}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{}
+\DoxyCodeLine{TEST(WorkflowExample,\ StressTensorsScopedOnOneElementType)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ This\ workflow\ is\ another\ example\ of\ use\ of\ the\ mesh\ scoping\ in\ input\ of\ a\ result\ reader.\ }}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ Here,\ the\ user\ requests\ a\ mesh\ scoping\ including\ all\ the\ elements\ of\ mapdl\ element\ type\ 186.\ }}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ This\ mesh\ scoping\ is\ then\ used\ as\ an\ input\ of\ a\ stress\ tensors\ reader.\ The\ output\ of\ this\ workflow\ }}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ is\ the\ stress\ tensors\ on\ all\ the\ elements\ of\ element\ type\ 186.}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ set\ the\ result\ file\ path\ to\ the\ right\ path}}
+\DoxyCodeLine{\ \ \ \ std::string\ fileName(\textcolor{stringliteral}{"{}../../../testfiles/mapdl\_files/TwoSolids.rst"{}});}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DataSources}{ansys::dpf::DataSources}}\ my\_data\_sources;}
+\DoxyCodeLine{\ \ \ \ my\_data\_sources.\doxymbox{\hyperlink{classansys_1_1dpf_1_1DataSources_ad2a5bb6f24ca621ffaaee9e7a47cdc20}{addResultFile}}(fileName);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ stress\_op(\textcolor{stringliteral}{"{}S"{}});}
+\DoxyCodeLine{\ \ \ \ stress\_op.connect(\doxymbox{\hyperlink{namespaceansys_1_1dpf_aa4a44a04a0aafb8fe0645f019bbd94d1a5b6613f802062fde4faea4b553db7fbc}{ansys::dpf::eDataSourcesPin}},\ my\_data\_sources);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ scop\_extract\_op(\textcolor{stringliteral}{"{}scoping\_provider\_by\_prop"{}});}
+\DoxyCodeLine{\ \ \ \ scop\_extract\_op.connect(\doxymbox{\hyperlink{namespaceansys_1_1dpf_aa4a44a04a0aafb8fe0645f019bbd94d1a5b6613f802062fde4faea4b553db7fbc}{ansys::dpf::eDataSourcesPin}},\ my\_data\_sources);}
+\DoxyCodeLine{\ \ \ \ scop\_extract\_op.connect(0,\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_a3f66169a86ab935fb398b3fdde98bb04}{ansys::dpf::locations::elemental}});}
+\DoxyCodeLine{\ \ \ \ scop\_extract\_op.connect(1,\ std::string(\textcolor{stringliteral}{"{}mapdl\_element\_type"{}}));}
+\DoxyCodeLine{\ \ \ \ scop\_extract\_op.connect(2,\ 186);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ stress\_op.connect(\doxymbox{\hyperlink{namespaceansys_1_1dpf_aa4a44a04a0aafb8fe0645f019bbd94d1a79a70f074b2f79ccaff75ae8e4ec9ec9}{ansys::dpf::eMeshScopPin}},\ scop\_extract\_op,\ 0);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{ansys::dpf::FieldsContainer}}\ my\_elemental\_nodal\_stress\ =\ stress\_op.getOutputFieldsContainer(0);}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{}
+\DoxyCodeLine{TEST(WorkflowExample,\ HighPassFilteringOnElementalStress)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ This\ advanced\ workflow\ computes\ the\ normal\ ZZ\ stress\ averaged\ on\ element}}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ sand\ apply\ a\ high\ pass\ filter\ keeping\ all\ the\ stress\ values\ higher\ than\ }}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ 0.5\ *\ maximum\ stress.}}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ This\ example\ requires\ a\ license.\ }}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ set\ the\ result\ file\ path\ to\ the\ right\ path}}
+\DoxyCodeLine{\ \ \ \ std::string\ fileName(\textcolor{stringliteral}{"{}../../../testfiles/mapdl\_files/TwoSolids.rst"{}});}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DataSources}{ansys::dpf::DataSources}}\ my\_data\_sources;}
+\DoxyCodeLine{\ \ \ \ my\_data\_sources.\doxymbox{\hyperlink{classansys_1_1dpf_1_1DataSources_ad2a5bb6f24ca621ffaaee9e7a47cdc20}{addResultFile}}(fileName);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ s(\textcolor{stringliteral}{"{}S"{}});}
+\DoxyCodeLine{\ \ \ \ s.connect(\doxymbox{\hyperlink{namespaceansys_1_1dpf_aa4a44a04a0aafb8fe0645f019bbd94d1a5b6613f802062fde4faea4b553db7fbc}{ansys::dpf::eDataSourcesPin}},\ my\_data\_sources);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ to\_elemental(\textcolor{stringliteral}{"{}entity\_average\_fc"{}});}
+\DoxyCodeLine{\ \ \ \ to\_elemental.connect(s);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ comp(\textcolor{stringliteral}{"{}component\_selector\_fc"{}});}
+\DoxyCodeLine{\ \ \ \ comp.connect(to\_elemental);}
+\DoxyCodeLine{\ \ \ \ comp.connect(1,\ 2);\ \textcolor{comment}{//ZZ\ comp\ of\ stress}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ min\_max(\textcolor{stringliteral}{"{}min\_max\_over\_label\_fc"{}});}
+\DoxyCodeLine{\ \ \ \ min\_max.connect(comp);}
+\DoxyCodeLine{\ \ \ \ min\_max.connect(1,\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1labels_a22ee1a5e3be8ad98c20c5ca52e247914}{ansys::dpf::labels::time}});}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ scale(\textcolor{stringliteral}{"{}scale"{}});}
+\DoxyCodeLine{\ \ \ \ scale.connect(min\_max);}
+\DoxyCodeLine{\ \ \ \ scale.connect(1,\ 0.5);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ high\_pass(\textcolor{stringliteral}{"{}core::field::high\_pass\_fc"{}});}
+\DoxyCodeLine{\ \ \ \ high\_pass.connect(comp);}
+\DoxyCodeLine{\ \ \ \ high\_pass.connect(1,\ scale,\ 0);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ uncomment\ this\ line\ to\ run\ the\ workflow.}}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ this\ requires\ a\ license.}}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//ansys::dpf::FieldsContainer\ fields\ =\ high\_pass.getOutputFieldsContainer(0);}}
+\DoxyCodeLine{\}}
+\DoxyCodeLine{}
+\DoxyCodeLine{TEST(WorkflowExample,\ StressMultiBodySimulation)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ Stress\ calculation\ on\ a\ multibody\ simulation\ without\ averaging\ across\ bodies}}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ This\ workflow\ shows\ the\ computation\ of\ stresses\ in\ a\ multibody\ simulation\ without\ }}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ doing\ averaging\ across\ the\ different\ bodies.}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ set\ the\ result\ file\ path\ to\ the\ right\ path}}
+\DoxyCodeLine{\ \ \ \ std::string\ fileName(\textcolor{stringliteral}{"{}../../../testfiles/mapdl\_files/TwoSolids.rst"{}});}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DataSources}{ansys::dpf::DataSources}}\ my\_data\_sources;}
+\DoxyCodeLine{\ \ \ \ my\_data\_sources.\doxymbox{\hyperlink{classansys_1_1dpf_1_1DataSources_ad2a5bb6f24ca621ffaaee9e7a47cdc20}{addResultFile}}(fileName);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ tfreq\_op(\textcolor{stringliteral}{"{}time\_freq\_support\_provider"{}});}
+\DoxyCodeLine{\ \ \ \ tfreq\_op.connect(4,\ my\_data\_sources);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport}{ansys::dpf::TimeFreqSupport}}\ tfreq\_support\ =\ tfreq\_op.getOutput<\doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport}{ansys::dpf::TimeFreqSupport}}>(0);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{ansys::dpf::Field}}\ tfreq\ =\ tfreq\_support.\doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_aa0cf046a80d328f966892abe85308f01}{frequencies}}();}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ mesh\_op(\textcolor{stringliteral}{"{}mesh\_provider"{}});}
+\DoxyCodeLine{\ \ \ \ mesh\_op.connect(4,\ my\_data\_sources);}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion}{ansys::dpf::MeshedRegion}}\ mesh\ =\ mesh\_op.getOutput<\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion}{ansys::dpf::MeshedRegion}}>(0);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ spm\_op(\textcolor{stringliteral}{"{}scoping::by\_property"{}});}
+\DoxyCodeLine{\ \ \ \ spm\_op.connect(7,\ mesh);}
+\DoxyCodeLine{\ \ \ \ spm\_op.connect(13,\ std::string(\textcolor{stringliteral}{"{}mat"{}}));}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1ScopingsContainer}{ansys::dpf::ScopingsContainer}}\ mesh\_scoping\ =\ spm\_op.getOutput<\doxymbox{\hyperlink{classansys_1_1dpf_1_1ScopingsContainer}{ansys::dpf::ScopingsContainer}}>(0);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ stress\_op(\textcolor{stringliteral}{"{}SZ"{}});}
+\DoxyCodeLine{\ \ \ \ stress\_op.connect(0,\ tfreq);}
+\DoxyCodeLine{\ \ \ \ stress\_op.connect(1,\ mesh\_scoping);}
+\DoxyCodeLine{\ \ \ \ stress\_op.connect(4,\ my\_data\_sources);}
+\DoxyCodeLine{\ \ \ \ stress\_op.connect(9,\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{ansys::dpf::locations::nodal}});}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{ansys::dpf::FieldsContainer}}\ my\_stresses\ =\ stress\_op.getOutputFieldsContainer(0);}
+\DoxyCodeLine{\}}
+
+\end{DoxyCodeInclude}
+ 

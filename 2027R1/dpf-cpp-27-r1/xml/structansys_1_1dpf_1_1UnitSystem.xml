@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="structansys_1_1dpf_1_1UnitSystem" kind="struct" language="C++" prot="public">
+    <compoundname>ansys::dpf::UnitSystem</compoundname>
+    <includes local="no">dpf_api_base.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1UnitSystem_1ae77ec395cf66809b0c654040d4ad1409" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::UnitSystem::_name</definition>
+        <argsstring></argsstring>
+        <name>_name</name>
+        <qualifiedname>ansys::dpf::UnitSystem::_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="440" column="13" bodyfile="dpf_api_base.h" bodystart="440" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1UnitSystem_1ae3a235b762f3d011c238e587cc5684c7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ansys::dpf::UnitSystem::_ansys_id</definition>
+        <argsstring></argsstring>
+        <name>_ansys_id</name>
+        <qualifiedname>ansys::dpf::UnitSystem::_ansys_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="441" column="5" bodyfile="dpf_api_base.h" bodystart="441" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1UnitSystem_1a0c9cbebe59cea409b54bb609dcf1b0c9" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::UnitSystem::_unit_names</definition>
+        <argsstring></argsstring>
+        <name>_unit_names</name>
+        <qualifiedname>ansys::dpf::UnitSystem::_unit_names</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="442" column="13" bodyfile="dpf_api_base.h" bodystart="442" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structansys_1_1dpf_1_1UnitSystem_1a87331afc8cfb97200f342280fd49e536" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::UnitSystem::UnitSystem</definition>
+        <argsstring>(std::string const &amp;name, int id)</argsstring>
+        <name>UnitSystem</name>
+        <qualifiedname>ansys::dpf::UnitSystem::UnitSystem</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>name</declname>
+          <briefdescription><para>[in] Name of unit system. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+          <briefdescription><para>[in] Common unit system identifier used by Ansys. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create new unit system. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="446" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1UnitSystem_1a588643682966a84ffbed42a60eb5aa93" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::UnitSystem::UnitSystem</definition>
+        <argsstring>(std::string const &amp;name, std::string const &amp;unit_names)</argsstring>
+        <name>UnitSystem</name>
+        <qualifiedname>ansys::dpf::UnitSystem::UnitSystem</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>name</declname>
+          <briefdescription><para>[in] Name of unit system </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>unit_names</declname>
+          <briefdescription><para>[in] semicolon-separated list of base units (Length, Mass, Time, Temperature, Electric Charge and Angle) </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new custom unit system from its base unit strings </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="450" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1UnitSystem_1aed08cd4b0916d79cd83929674fd6a8d5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::UnitSystem::operator std::string</definition>
+        <argsstring>() const</argsstring>
+        <name>operator std::string</name>
+        <qualifiedname>ansys::dpf::UnitSystem::string</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name of unit system. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="454" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1UnitSystem_1a7e8ff2d5918c48d3a4be9c30beffc8d7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * ansys::dpf::UnitSystem::c_str</definition>
+        <argsstring>() const</argsstring>
+        <name>c_str</name>
+        <qualifiedname>ansys::dpf::UnitSystem::c_str</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets name of unit system. <simplesect kind="return"><para>Name of unit system. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="457" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1UnitSystem_1a4344c11cdda170ff215ea0e8d9ab40e4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceansys_1_1dpf_1ab4574c9af3f2bb8011da7d1f4c8da20e" kindref="member">dp_id</ref></type>
+        <definition>dp_id ansys::dpf::UnitSystem::getId</definition>
+        <argsstring>() const</argsstring>
+        <name>getId</name>
+        <qualifiedname>ansys::dpf::UnitSystem::getId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets identifer of unit system. <simplesect kind="return"><para>Id of unit system. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="460" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1UnitSystem_1a835847ebc0bbc0566938299f232e0bab" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::UnitSystem::getUnitNames</definition>
+        <argsstring>() const</argsstring>
+        <name>getUnitNames</name>
+        <qualifiedname>ansys::dpf::UnitSystem::getUnitNames</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets unit_names of unit system (if it is custom). <simplesect kind="return"><para>unit_names string of unit system (if it is custom). </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="463" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1UnitSystem_1a49cfc761dd7c25410aea932346906bfc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::UnitSystem::operator==</definition>
+        <argsstring>(UnitSystem const &amp;rhs) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>ansys::dpf::UnitSystem::operator==</qualifiedname>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1UnitSystem_1a87331afc8cfb97200f342280fd49e536" kindref="member">UnitSystem</ref> const &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="464" column="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>System of measurement units. </para>
+    </detaileddescription>
+    <location file="dpf_api_base.h" line="437" column="1" bodyfile="dpf_api_base.h" bodystart="438" bodyend="465"/>
+    <listofallmembers>
+      <member refid="structansys_1_1dpf_1_1UnitSystem_1ae3a235b762f3d011c238e587cc5684c7" prot="private" virt="non-virtual"><scope>ansys::dpf::UnitSystem</scope><name>_ansys_id</name></member>
+      <member refid="structansys_1_1dpf_1_1UnitSystem_1ae77ec395cf66809b0c654040d4ad1409" prot="private" virt="non-virtual"><scope>ansys::dpf::UnitSystem</scope><name>_name</name></member>
+      <member refid="structansys_1_1dpf_1_1UnitSystem_1a0c9cbebe59cea409b54bb609dcf1b0c9" prot="private" virt="non-virtual"><scope>ansys::dpf::UnitSystem</scope><name>_unit_names</name></member>
+      <member refid="structansys_1_1dpf_1_1UnitSystem_1a7e8ff2d5918c48d3a4be9c30beffc8d7" prot="public" virt="non-virtual"><scope>ansys::dpf::UnitSystem</scope><name>c_str</name></member>
+      <member refid="structansys_1_1dpf_1_1UnitSystem_1a4344c11cdda170ff215ea0e8d9ab40e4" prot="public" virt="non-virtual"><scope>ansys::dpf::UnitSystem</scope><name>getId</name></member>
+      <member refid="structansys_1_1dpf_1_1UnitSystem_1a835847ebc0bbc0566938299f232e0bab" prot="public" virt="non-virtual"><scope>ansys::dpf::UnitSystem</scope><name>getUnitNames</name></member>
+      <member refid="structansys_1_1dpf_1_1UnitSystem_1aed08cd4b0916d79cd83929674fd6a8d5" prot="public" virt="non-virtual"><scope>ansys::dpf::UnitSystem</scope><name>operator std::string</name></member>
+      <member refid="structansys_1_1dpf_1_1UnitSystem_1a49cfc761dd7c25410aea932346906bfc" prot="public" virt="non-virtual"><scope>ansys::dpf::UnitSystem</scope><name>operator==</name></member>
+      <member refid="structansys_1_1dpf_1_1UnitSystem_1a87331afc8cfb97200f342280fd49e536" prot="public" virt="non-virtual"><scope>ansys::dpf::UnitSystem</scope><name>UnitSystem</name></member>
+      <member refid="structansys_1_1dpf_1_1UnitSystem_1a588643682966a84ffbed42a60eb5aa93" prot="public" virt="non-virtual"><scope>ansys::dpf::UnitSystem</scope><name>UnitSystem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="namespaceansys" kind="namespace" language="C++">
+    <compoundname>ansys</compoundname>
+    <innernamespace refid="namespaceansys_1_1dpf">ansys::dpf</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="helpers/dpf_model.h" line="9" column="1"/>
+  </compounddef>
+</doxygen>

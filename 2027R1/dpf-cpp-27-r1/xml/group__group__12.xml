@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="group__group__12" kind="group">
+    <compoundname>group_12</compoundname>
+    <title>Using collections and labels</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>DPF Collections are containers used for storing data. They are currently three types of collections:<itemizedlist>
+<listitem><para>FieldsContainer</para>
+</listitem><listitem><para>ScopingsContainer</para>
+</listitem><listitem><para>MeshesContainer Each container will store a vector with the defined data type. For example, a ScopingsContainer will store a vector of Scopings. DPF Collections are ordered with labels and ids. The ids must be meaningful regarding the stored data.</para>
+</listitem></itemizedlist>
+</para>
+<para>For example, the following FieldsContainer contains a vector of Fields based on the “time” label, that refers to the time sets (ids) of a simulation result.</para>
+<para><linebreak/>
+<linebreak/>
+<image type="html" name="coll_1.png" inline="yes"></image>
+<linebreak/>
+</para>
+<para><bold>Topics:</bold></para>
+<para><itemizedlist>
+<listitem><para>Labels mechanism</para>
+</listitem><listitem><para>Fields Container</para>
+</listitem><listitem><para>Scopings Containers and Meshes Containers</para>
+</listitem></itemizedlist>
+</para>
+<sect1 id="group__group__12_1autotoc_md78_1s1"><sect2 id="group__group__12_1autotoc_md78">
+<title><anchor id="_1coll1"/>Labels mechanism</title><para>Each collection must have a vector of labels defined. It is a list of strings describing each element. A label is a string that defines a criterion (for example “time”, “complex”, “body”, “dofs”, “domain”, a.s.o.). Each element of that collection has a label space associated. This label space is a map that associates each label with a meaningful id. For example, body ids are usually associated to the “body” label in a defined label space. More generally, the n labels of a collection define a n-dimensional space on which the container is defined. The labels space associated to a specific entity (e.g. Field, Scoping, Mesh) represents a coordinates-like identifier of this entity in this space.</para>
+</sect2></sect1>
+<sect1 id="group__group__12_1autotoc_md79_1s1"><sect2 id="group__group__12_1autotoc_md79">
+<title><anchor id="_1coll2"/>Fields Container</title><sect3 id="group__group__12_1autotoc_md80">
+<title>Description</title><para>The Fields Container is a vector of Fields, and all the Fields are ordered with labels and ids. Most commonly, the Fields Container is scoped on &quot;time&quot; label and the ids are the time or frequency sets. Generally, Fields Container allows to split results on different criterions.</para>
+</sect3>
+<sect3 id="group__group__12_1autotoc_md81">
+<title>Examples</title><sect4 id="group__group__12_1autotoc_md82">
+<title>Result by time steps and body</title><para>The following representations shows a FieldsContainer storing 8 fields. The FieldsContainer contains a result (e.g. displacement) sorted by body ids and by time sets: each field must have a time id and a body id defined.</para>
+<para><linebreak/>
+<image type="html" name="coll_2.png" inline="yes"></image>
+ <image type="html" name="coll_3.png" inline="yes"></image>
+<linebreak/>
+<linebreak/>
+</para>
+<para>The following C++ code snippets show how to:<itemizedlist>
+<listitem><para>create such a FieldsContainer</para>
+</listitem><listitem><para>access the available ids for a defined label</para>
+</listitem><listitem><para>access a specific result Field at defined time step and body id</para>
+</listitem><listitem><para>access a vector of result Fields at defined body id</para>
+</listitem></itemizedlist>
+</para>
+<sect5 id="group__group__12_1autotoc_md83">
+<title>Create the FieldsContainer and access the available ids for a defined label</title><para><programlisting><codeline><highlight class="normal">//<sp/>Build<sp/>a<sp/>FieldsContainer<sp/>with<sp/>&quot;time&quot;<sp/>and<sp/>&quot;body&quot;<sp/>labels</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>-----------------------------------------------------</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::FieldsContainer<sp/>fields_container;</highlight></codeline>
+<codeline><highlight class="normal">fields_container.addLabels({<sp/>ansys::dpf::labels::time,<sp/>ansys::dpf::labels::body<sp/>});</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>create<sp/>the<sp/>Fields<sp/>and<sp/>their<sp/>associated<sp/>label<sp/>spaces</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>---------------------------------------------------</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::LabelSpace<sp/>label_space_0({<sp/>{ansys::dpf::labels::time,<sp/>1},<sp/>{ansys::dpf::labels::body,<sp/>2}<sp/>});</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::Field<sp/>field_0;<sp/></highlight></codeline>
+<codeline><highlight class="normal">//<sp/>...<sp/>fill<sp/>field_0<sp/>data</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::LabelSpace<sp/>label_space_1({<sp/>{ansys::dpf::labels::time,<sp/>1},<sp/>{ansys::dpf::labels::body,<sp/>6}<sp/>});</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::Field<sp/>field_1;</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>...<sp/>fill<sp/>field_1<sp/>data</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::LabelSpace<sp/>label_space_2({<sp/>{ansys::dpf::labels::time,<sp/>1},<sp/>{ansys::dpf::labels::body,<sp/>17}<sp/>});</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::Field<sp/>field_2;</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>...<sp/>fill<sp/>field_2<sp/>data</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::LabelSpace<sp/>label_space_3({<sp/>{ansys::dpf::labels::time,<sp/>1},<sp/>{ansys::dpf::labels::body,<sp/>19}<sp/>});</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::Field<sp/>field_3;</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>...<sp/>fill<sp/>field_3<sp/>data</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::LabelSpace<sp/>label_space_4({<sp/>{ansys::dpf::labels::time,<sp/>4},<sp/>{ansys::dpf::labels::body,<sp/>2}<sp/>});</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::Field<sp/>field_4;</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>...<sp/>fill<sp/>field_4<sp/>data</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::LabelSpace<sp/>label_space_5({<sp/>{ansys::dpf::labels::time,<sp/>4},<sp/>{ansys::dpf::labels::body,<sp/>6}<sp/>});</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::Field<sp/>field_5;</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>...<sp/>fill<sp/>field_5<sp/>data</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::LabelSpace<sp/>label_space_6({<sp/>{ansys::dpf::labels::time,<sp/>4},<sp/>{ansys::dpf::labels::body,<sp/>17}<sp/>});</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::Field<sp/>field_6;</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>...<sp/>fill<sp/>field_6<sp/>data</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::LabelSpace<sp/>label_space_7({<sp/>{ansys::dpf::labels::time,<sp/>4},<sp/>{ansys::dpf::labels::body,<sp/>19}<sp/>});</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::Field<sp/>field_7;</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>...<sp/>fill<sp/>field_7<sp/>data</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>Add<sp/>fields<sp/>to<sp/>the<sp/>fields_container</highlight></codeline>
+<codeline><highlight class="normal">fields_container.add(label_space_0,<sp/>field_0);</highlight></codeline>
+<codeline><highlight class="normal">fields_container.add(label_space_1,<sp/>field_1);</highlight></codeline>
+<codeline><highlight class="normal">fields_container.add(label_space_2,<sp/>field_2);</highlight></codeline>
+<codeline><highlight class="normal">fields_container.add(label_space_3,<sp/>field_3);</highlight></codeline>
+<codeline><highlight class="normal">fields_container.add(label_space_4,<sp/>field_4);</highlight></codeline>
+<codeline><highlight class="normal">fields_container.add(label_space_5,<sp/>field_5);</highlight></codeline>
+<codeline><highlight class="normal">fields_container.add(label_space_6,<sp/>field_6);</highlight></codeline>
+<codeline><highlight class="normal">fields_container.add(label_space_7,<sp/>field_7);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>access<sp/>the<sp/>available<sp/>ids<sp/>for<sp/>a<sp/>defined<sp/>label</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>--------------------------------------------</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::Scoping<sp/>body_label_ids<sp/>=<sp/>fields_container.labelScoping(ansys::dpf::labels::body);</highlight></codeline>
+<codeline><highlight class="normal">int*<sp/>scoping_ids<sp/>=<sp/>body_label_ids.ids().data();</highlight></codeline>
+</programlisting></para>
+<para><computeroutput>scopings_ids</computeroutput> should contain the following values: 2, 6, 17, 19.</para>
+</sect5>
+<sect5 id="group__group__12_1autotoc_md84">
+<title>Access a specific result Field at defined time step and body id</title><para>The following code snippet shows how to access the following Field in the FieldsContainer previously created:</para>
+<para><linebreak/>
+<image type="html" name="coll_2_a.png" inline="yes"></image>
+<linebreak/>
+<linebreak/>
+</para>
+<para><programlisting><codeline><highlight class="normal">ansys::dpf::LabelSpace<sp/>label_space_time_4_body_17({<sp/>{ansys::dpf::labels::time,<sp/>4},<sp/>{ansys::dpf::labels::body,<sp/>17}<sp/>});</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">ansys::dpf::Field<sp/>field_time_4_body_17<sp/>=<sp/>fields_container.getField(label_space_time_4_body_17);</highlight></codeline>
+</programlisting></para>
+<para>See Field section to learn how to access the Field&apos;s data.</para>
+</sect5>
+<sect5 id="group__group__12_1autotoc_md85">
+<title>access a vector of result Fields at defined body id</title><para>The following code snippet shows how to access the following vector of Fields in the FieldsContainer previously created:</para>
+<para><linebreak/>
+<image type="html" name="coll_2_b.png" inline="yes"></image>
+<linebreak/>
+<linebreak/>
+</para>
+<para><programlisting><codeline><highlight class="normal">//<sp/>Get<sp/>vector<sp/>of<sp/>Fields</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::LabelSpace<sp/>label_space_body_6({<sp/>{ansys::dpf::labels::body,<sp/>6}<sp/>});</highlight></codeline>
+<codeline><highlight class="normal">std::vector&lt;ansys::dpf::Field&gt;<sp/>fields_with_body_id_6<sp/>=<sp/>fields_container.getFields(label_space_body_6);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>Get<sp/>the<sp/>label<sp/>space<sp/>associated<sp/>to<sp/>the<sp/>first<sp/>returned<sp/>field<sp/>to<sp/>know<sp/>its<sp/>time<sp/>id</highlight></codeline>
+<codeline><highlight class="normal">std::vector&lt;int&gt;<sp/>fields_indices<sp/>=<sp/>fields_container.getFieldsIndeces(label_space_body_6);</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::LabelSpace<sp/>first_label_space<sp/>=<sp/>fields_container.getLabelSpace(fields_indices[0]);</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>first_index_time_id<sp/>=<sp/>first_label_space.at(ansys::dpf::labels::time);</highlight></codeline>
+</programlisting></para>
+<para><computeroutput>fields_indices</computeroutput> vector should contain the following values: 1, 5.</para>
+<para>A similar code using the &quot;time&quot; label instead of the &quot;body&quot; one would allow to access a vector of result Fields at a defined time id.</para>
+<para>To know how to integrate DPF capabilities in already existing project, refer to the <ref refid="group__group__06__1" kindref="compound">Using DPF capabilities in an existing project</ref> section.</para>
+</sect5>
+</sect4>
+<sect4 id="group__group__12_1autotoc_md86">
+<title>Result by time steps, body and complex ids</title><para>The following representation shows a FieldsContainer storing 16 fields. The FieldsContainer contains a result (e.g. displacement) sorted by body ids, by time steps and complexity status: each field must have a time id, a body id and a complex id (that defines if the Field defines the complex or the real part of the result) defined.</para>
+<para><linebreak/>
+<linebreak/>
+<image type="html" name="coll_4.png" inline="yes"></image>
+ <image type="html" name="coll_5.png" inline="yes"></image>
+<linebreak/>
+</para>
+</sect4>
+</sect3>
+</sect2></sect1>
+<sect1 id="group__group__12_1autotoc_md87_1s1"><sect2 id="group__group__12_1autotoc_md87">
+<title><anchor id="_1coll3"/>Scopings Container and Meshes Container</title><para>The Scopings Container is a vector of Scopings and all the Scopings are ordered with labels and ids. Most commonly, the Scopings Container is scoped on &quot;body&quot; label and the ids are the material/body ids. More generically, the Scopings Container allows to split results on different criterions. Likewise for the Meshes Container.</para>
+<para>Generally, a defined ScopingsContainer will contain Scoping entities to apply on the Meshes entities of a corresponding MeshesContainer. The correspondence between Scoping and Meshes entities is made using the label spaces (check for corresponding labels and ids).</para>
+<para><linebreak/>
+<linebreak/>
+<image type="html" name="coll_6.png" inline="yes"></image>
+<linebreak/>
+<linebreak/>
+ </para>
+</sect2></sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

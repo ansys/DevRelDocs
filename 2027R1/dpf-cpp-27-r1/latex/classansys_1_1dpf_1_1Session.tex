@@ -1,0 +1,173 @@
+\doxysection{ansys::\+dpf::\+Session Class Reference}
+\hypertarget{classansys_1_1dpf_1_1Session}{}\label{classansys_1_1dpf_1_1Session}\index{ansys::dpf::Session@{ansys::dpf::Session}}
+
+
+{\ttfamily \+\#include $<$dpf\+\_\+api.\+h$>$}
+
+Inheritance diagram for ansys::\+dpf::\+Session:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classansys_1_1dpf_1_1Session}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Session_a35c8573a7a81b571b6856c75142921a5}{Session}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Session_a4f2358b004b5e805e163dfcb46eac7ab}\label{classansys_1_1dpf_1_1Session_a4f2358b004b5e805e163dfcb46eac7ab} 
+{\bfseries Session} (Session const \&)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Session_abd64f9adfdc41f1e304e0cc874f7bf1a}\label{classansys_1_1dpf_1_1Session_abd64f9adfdc41f1e304e0cc874f7bf1a} 
+{\bfseries Session} (Session \&\&)=delete
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Session_a4fbe681f5d623efaa51bca1ad73b5bfb}\label{classansys_1_1dpf_1_1Session_a4fbe681f5d623efaa51bca1ad73b5bfb} 
+Session \& {\bfseries operator=} (Session const \&)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Session_af4c0f6c0a74d4c837ef94919eea9a7f1}\label{classansys_1_1dpf_1_1Session_af4c0f6c0a74d4c837ef94919eea9a7f1} 
+Session \& {\bfseries operator=} (Session \&\&)=delete
+\item 
+std::\+string \doxymbox{\hyperlink{classansys_1_1dpf_1_1Session_a4fdd43dbb146e6bef0e69fdc3f6b8ac8}{id}} () const
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1Session_a44217e8e1b859b6bbc3cd902597a441b}{add}} (Workflow \&wf, std::\+string const \&identifier)
+\item 
+std::\+string \doxymbox{\hyperlink{classansys_1_1dpf_1_1Session_a1ca0f541376f2606d6a1d38d73b42095}{add}} (Workflow \&wf)
+\item 
+Workflow \doxymbox{\hyperlink{classansys_1_1dpf_1_1Session_a1eb04b4b9a1df351de2211ed4a9065f3}{get\+Workflow}} (std::\+string const \&identifier)
+\item 
+Workflow \doxymbox{\hyperlink{classansys_1_1dpf_1_1Session_a0c351a7e9deb14ef205168a8c2a14535}{get\+Workflow\+By\+Index}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} index)
+\item 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1Session_ae6197db1ac01a01c67f4f87955c2b849}{number\+Of\+Workflow}} () const
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Session_abf5a4032d5b54f0b31d83279af643ecb}\label{classansys_1_1dpf_1_1Session_abf5a4032d5b54f0b31d83279af643ecb} 
+void {\bfseries flush\+Workflows} ()
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1Session_a9d2f09db50b3767c062100bfc0b67e2c}{add\+Event\+Handler}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1EventHandler}{Event\+Handler}} \&event\+\_\+handler)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes}{ansys::\+dpf::\+\+Dpf\+Types}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a39cd546c42518e2332be8f287db95459}{empty}} () const
+\item 
+virtual bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_ae198f89868d85c7db6dc1a934a1d3c15}{has\+Internal\+Object}} () const
+\item 
+virtual std::\+string \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a9977945710983bc03d2940fa007847b2}{describe}} () const
+\item 
+so::\+\+API const \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_aea34d37e0c080126eff70db34bf46597}{call\+API}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a9f9789ff61cc9d400a2a344830706b73}{is\+On\+Common\+API}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a968afd9daa0b0f13b65a2ac61369d73a}{get\+Client}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} \&client) const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a1a5634202c15404b6b24e8f50e51cb66}{has\+Been\+Moved\+Locally}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_aa64d5f8fcd7d85ad6ebf708494dbefd7}{is\+Same\+Object}} (Dpf\+Types const \&rhs) const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Define a DPF session. 
+
+\label{doc-constructors}
+\Hypertarget{classansys_1_1dpf_1_1Session_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classansys_1_1dpf_1_1Session_a35c8573a7a81b571b6856c75142921a5}\index{ansys::dpf::Session@{ansys::dpf::Session}!Session@{Session}}
+\index{Session@{Session}!ansys::dpf::Session@{ansys::dpf::Session}}
+\doxysubsubsection{\texorpdfstring{Session()}{Session()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Session_a35c8573a7a81b571b6856c75142921a5} 
+ansys::\+dpf::\+\+Session::\+\+Session (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{}\end{DoxyParamCaption})}
+
+Create a new \doxylink{classansys_1_1dpf_1_1Session}{Session} on a server. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{classansys_1_1dpf_1_1Session_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classansys_1_1dpf_1_1Session_a1ca0f541376f2606d6a1d38d73b42095}\index{ansys::dpf::Session@{ansys::dpf::Session}!add@{add}}
+\index{add@{add}!ansys::dpf::Session@{ansys::dpf::Session}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Session_a1ca0f541376f2606d6a1d38d73b42095} 
+std::\+string ansys::\+dpf::\+\+Session::\+add (\begin{DoxyParamCaption}\item[{Workflow \&}]{wf}{}\end{DoxyParamCaption})}
+
+Add workflow to session. \begin{DoxyReturn}{Returns}
+Identifier for workflow. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em wf} & Workflow to add. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1Session_a44217e8e1b859b6bbc3cd902597a441b}\index{ansys::dpf::Session@{ansys::dpf::Session}!add@{add}}
+\index{add@{add}!ansys::dpf::Session@{ansys::dpf::Session}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Session_a44217e8e1b859b6bbc3cd902597a441b} 
+void ansys::\+dpf::\+\+Session::\+add (\begin{DoxyParamCaption}\item[{Workflow \&}]{wf}{, }\item[{std::\+string const \&}]{identifier}{}\end{DoxyParamCaption})}
+
+Add a workflow to session. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em wf} & Workflow to add.  \\
+\hline
+\doxymbox{\texttt{out}}  & {\em identifier} & Identifier for workflow. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1Session_a9d2f09db50b3767c062100bfc0b67e2c}\index{ansys::dpf::Session@{ansys::dpf::Session}!addEventHandler@{addEventHandler}}
+\index{addEventHandler@{addEventHandler}!ansys::dpf::Session@{ansys::dpf::Session}}
+\doxysubsubsection{\texorpdfstring{addEventHandler()}{addEventHandler()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Session_a9d2f09db50b3767c062100bfc0b67e2c} 
+void ansys::\+dpf::\+\+Session::\+add\+Event\+Handler (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1EventHandler}{Event\+Handler}} \&}]{event\+\_\+handler}{}\end{DoxyParamCaption})}
+
+Add event handler to handle status of DPF session. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em event\+\_\+handler} & Handler for session status. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1Session_a1eb04b4b9a1df351de2211ed4a9065f3}\index{ansys::dpf::Session@{ansys::dpf::Session}!getWorkflow@{getWorkflow}}
+\index{getWorkflow@{getWorkflow}!ansys::dpf::Session@{ansys::dpf::Session}}
+\doxysubsubsection{\texorpdfstring{getWorkflow()}{getWorkflow()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Session_a1eb04b4b9a1df351de2211ed4a9065f3} 
+Workflow ansys::\+dpf::\+\+Session::\+get\+Workflow (\begin{DoxyParamCaption}\item[{std::\+string const \&}]{identifier}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Workflow given by identifier. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em identifier} & Identifier of workflow. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1Session_a0c351a7e9deb14ef205168a8c2a14535}\index{ansys::dpf::Session@{ansys::dpf::Session}!getWorkflowByIndex@{getWorkflowByIndex}}
+\index{getWorkflowByIndex@{getWorkflowByIndex}!ansys::dpf::Session@{ansys::dpf::Session}}
+\doxysubsubsection{\texorpdfstring{getWorkflowByIndex()}{getWorkflowByIndex()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Session_a0c351a7e9deb14ef205168a8c2a14535} 
+Workflow ansys::\+dpf::\+\+Session::\+get\+Workflow\+By\+Index (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}}}]{index}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+Workflow given by index. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em index} & Index of workflow. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1Session_a4fdd43dbb146e6bef0e69fdc3f6b8ac8}\index{ansys::dpf::Session@{ansys::dpf::Session}!id@{id}}
+\index{id@{id}!ansys::dpf::Session@{ansys::dpf::Session}}
+\doxysubsubsection{\texorpdfstring{id()}{id()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Session_a4fdd43dbb146e6bef0e69fdc3f6b8ac8} 
+std::\+string ansys::\+dpf::\+\+Session::\+id (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Id of session. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1Session_ae6197db1ac01a01c67f4f87955c2b849}\index{ansys::dpf::Session@{ansys::dpf::Session}!numberOfWorkflow@{numberOfWorkflow}}
+\index{numberOfWorkflow@{numberOfWorkflow}!ansys::dpf::Session@{ansys::dpf::Session}}
+\doxysubsubsection{\texorpdfstring{numberOfWorkflow()}{numberOfWorkflow()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Session_ae6197db1ac01a01c67f4f87955c2b849} 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} ansys::\+dpf::\+\+Session::\+number\+Of\+Workflow (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Number of workflows in session. 
+\end{DoxyReturn}

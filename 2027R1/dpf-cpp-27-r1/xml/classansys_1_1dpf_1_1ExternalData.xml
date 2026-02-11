@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1ExternalData" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::ExternalData</compoundname>
+    <derivedcompoundref refid="classansys_1_1dpf_1_1ExternalDataT" prot="public" virt="non-virtual">ansys::dpf::ExternalDataT&lt; DataT &gt;</derivedcompoundref>
+    <includes local="no">dpf_api.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ExternalData_1ada5a486f7b90c6a662e7f1e0c93312a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual ansys::dpf::ExternalData::~ExternalData</definition>
+        <argsstring>()</argsstring>
+        <name>~ExternalData</name>
+        <qualifiedname>ansys::dpf::ExternalData::~ExternalData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="96" column="9" bodyfile="dpf_api.h" bodystart="96" bodyend="96"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Base class for external data. <simplesect kind="see"><para><ref refid="classansys_1_1dpf_1_1ExternalDataT" kindref="compound">ExternalDataT</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ansys::dpf::ExternalData</label>
+        <link refid="classansys_1_1dpf_1_1ExternalData"/>
+      </node>
+      <node id="2">
+        <label>ansys::dpf::ExternalDataT&lt; DataT &gt;</label>
+        <link refid="classansys_1_1dpf_1_1ExternalDataT"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="dpf_api.h" line="93" column="1" bodyfile="dpf_api.h" bodystart="94" bodyend="97"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1ExternalData_1ada5a486f7b90c6a662e7f1e0c93312a1" prot="public" virt="virtual"><scope>ansys::dpf::ExternalData</scope><name>~ExternalData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

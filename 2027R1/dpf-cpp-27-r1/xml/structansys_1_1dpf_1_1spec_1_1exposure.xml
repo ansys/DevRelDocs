@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="structansys_1_1dpf_1_1spec_1_1exposure" kind="struct" language="C++" prot="public">
+    <compoundname>ansys::dpf::spec::exposure</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1spec_1_1exposure_1ae61dd57d91c203e2c96502e32ba81dc2" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::spec::exposure::sExposure</definition>
+        <argsstring></argsstring>
+        <name>sExposure</name>
+        <qualifiedname>ansys::dpf::spec::exposure::sExposure</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="904" column="20" bodyfile="dpf_api_base.h" bodystart="904" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1spec_1_1exposure_1aaf8cc5c38732af3299eebea0160808ac" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::spec::exposure::sPublic</definition>
+        <argsstring></argsstring>
+        <name>sPublic</name>
+        <qualifiedname>ansys::dpf::spec::exposure::sPublic</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="905" column="20" bodyfile="dpf_api_base.h" bodystart="905" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1spec_1_1exposure_1a2b73e0a255d52b4d1585de2714463695" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::spec::exposure::sHidden</definition>
+        <argsstring></argsstring>
+        <name>sHidden</name>
+        <qualifiedname>ansys::dpf::spec::exposure::sHidden</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="906" column="20" bodyfile="dpf_api_base.h" bodystart="906" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1spec_1_1exposure_1a2c91985beda31d82b9a5ba4e89eef259" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::spec::exposure::sPrivate</definition>
+        <argsstring></argsstring>
+        <name>sPrivate</name>
+        <qualifiedname>ansys::dpf::spec::exposure::sPrivate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="907" column="20" bodyfile="dpf_api_base.h" bodystart="907" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="dpf_api_base.h" line="902" column="1" bodyfile="dpf_api_base.h" bodystart="903" bodyend="908"/>
+    <listofallmembers>
+      <member refid="structansys_1_1dpf_1_1spec_1_1exposure_1ae61dd57d91c203e2c96502e32ba81dc2" prot="public" virt="non-virtual"><scope>ansys::dpf::spec::exposure</scope><name>sExposure</name></member>
+      <member refid="structansys_1_1dpf_1_1spec_1_1exposure_1a2b73e0a255d52b4d1585de2714463695" prot="public" virt="non-virtual"><scope>ansys::dpf::spec::exposure</scope><name>sHidden</name></member>
+      <member refid="structansys_1_1dpf_1_1spec_1_1exposure_1a2c91985beda31d82b9a5ba4e89eef259" prot="public" virt="non-virtual"><scope>ansys::dpf::spec::exposure</scope><name>sPrivate</name></member>
+      <member refid="structansys_1_1dpf_1_1spec_1_1exposure_1aaf8cc5c38732af3299eebea0160808ac" prot="public" virt="non-virtual"><scope>ansys::dpf::spec::exposure</scope><name>sPublic</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

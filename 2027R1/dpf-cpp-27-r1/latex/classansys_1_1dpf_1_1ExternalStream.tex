@@ -1,0 +1,50 @@
+\doxysection{ansys::\+dpf::\+External\+Stream Class Reference}
+\hypertarget{classansys_1_1dpf_1_1ExternalStream}{}\label{classansys_1_1dpf_1_1ExternalStream}\index{ansys::dpf::ExternalStream@{ansys::dpf::ExternalStream}}
+
+
+{\ttfamily \+\#include $<$dpf\+\_\+api.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \doxymbox{\hyperlink{classansys_1_1dpf_1_1ExternalStream_aa6f23cac0435e5324144ee0887e80ecf}{release}} ()=0
+\item 
+virtual std::\+string \doxymbox{\hyperlink{classansys_1_1dpf_1_1ExternalStream_a0e85f7d70ad9c2a2b80c81bf6ac2ed20}{stream\+Type\+Name}} () const =0
+\item 
+virtual std::\+string \doxymbox{\hyperlink{classansys_1_1dpf_1_1ExternalStream_a80d1920a080fd91dc80850b6b465cc29}{file\+Name}} () const =0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Abstraction of a stream. \begin{DoxySeeAlso}{See also}
+\doxylink{classansys_1_1dpf_1_1Streams}{Streams} 
+\end{DoxySeeAlso}
+
+
+\label{doc-func-members}
+\Hypertarget{classansys_1_1dpf_1_1ExternalStream_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classansys_1_1dpf_1_1ExternalStream_a80d1920a080fd91dc80850b6b465cc29}\index{ansys::dpf::ExternalStream@{ansys::dpf::ExternalStream}!fileName@{fileName}}
+\index{fileName@{fileName}!ansys::dpf::ExternalStream@{ansys::dpf::ExternalStream}}
+\doxysubsubsection{\texorpdfstring{fileName()}{fileName()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ExternalStream_a80d1920a080fd91dc80850b6b465cc29} 
+virtual std::\+string ansys::\+dpf::\+\+External\+Stream::\+file\+Name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+\begin{DoxyReturn}{Returns}
+File name of stream. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1ExternalStream_aa6f23cac0435e5324144ee0887e80ecf}\index{ansys::dpf::ExternalStream@{ansys::dpf::ExternalStream}!release@{release}}
+\index{release@{release}!ansys::dpf::ExternalStream@{ansys::dpf::ExternalStream}}
+\doxysubsubsection{\texorpdfstring{release()}{release()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ExternalStream_aa6f23cac0435e5324144ee0887e80ecf} 
+virtual void ansys::\+dpf::\+\+External\+Stream::\+release (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Free a stream after usage. \Hypertarget{classansys_1_1dpf_1_1ExternalStream_a0e85f7d70ad9c2a2b80c81bf6ac2ed20}\index{ansys::dpf::ExternalStream@{ansys::dpf::ExternalStream}!streamTypeName@{streamTypeName}}
+\index{streamTypeName@{streamTypeName}!ansys::dpf::ExternalStream@{ansys::dpf::ExternalStream}}
+\doxysubsubsection{\texorpdfstring{streamTypeName()}{streamTypeName()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ExternalStream_a0e85f7d70ad9c2a2b80c81bf6ac2ed20} 
+virtual std::\+string ansys::\+dpf::\+\+External\+Stream::\+stream\+Type\+Name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+\begin{DoxyReturn}{Returns}
+Type name of stream. 
+\end{DoxyReturn}

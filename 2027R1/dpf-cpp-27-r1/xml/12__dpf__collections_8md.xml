@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="12__dpf__collections_8md" kind="file" language="Markdown">
+    <compoundname>12_dpf_collections.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal"><sp/>@defgroup<sp/>group_12<sp/>Using<sp/>collections<sp/>and<sp/>labels</highlight></codeline>
+<codeline><highlight class="normal"><sp/>@ingroup<sp/>group_4_how_tos</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">DPF<sp/>Collections<sp/>are<sp/>containers<sp/>used<sp/>for<sp/>storing<sp/>data.<sp/>They<sp/>are<sp/>currently<sp/>three<sp/>types<sp/>of<sp/>collections:<sp/></highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>FieldsContainer</highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>ScopingsContainer</highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>MeshesContainer</highlight></codeline>
+<codeline><highlight class="normal">Each<sp/>container<sp/>will<sp/>store<sp/>a<sp/>vector<sp/>with<sp/>the<sp/>defined<sp/>data<sp/>type.<sp/>For<sp/>example,<sp/>a<sp/>ScopingsContainer<sp/>will<sp/>store<sp/>a<sp/>vector<sp/>of<sp/>Scopings.<sp/></highlight></codeline>
+<codeline><highlight class="normal">DPF<sp/>Collections<sp/>are<sp/>ordered<sp/>with<sp/>labels<sp/>and<sp/>ids.<sp/>The<sp/>ids<sp/>must<sp/>be<sp/>meaningful<sp/>regarding<sp/>the<sp/>stored<sp/>data.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">For<sp/>example,<sp/>the<sp/>following<sp/>FieldsContainer<sp/>contains<sp/>a<sp/>vector<sp/>of<sp/>Fields<sp/>based<sp/>on<sp/>the<sp/>“time”<sp/>label,<sp/>that<sp/>refers<sp/>to<sp/>the<sp/>time<sp/>sets<sp/>(ids)<sp/>of<sp/>a<sp/>simulation<sp/>result.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&lt;br&gt;&lt;br&gt;![](coll_1.png)&lt;br&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**Topics:**</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>[Labels<sp/>mechanism](#coll1)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>[Fields<sp/>Container](#coll2)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>[Scopings<sp/>Containers<sp/>and<sp/>Meshes<sp/>Containers](#coll3)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>&lt;a<sp/>name=&quot;coll1&quot;&gt;&lt;/a&gt;Labels<sp/>mechanism</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Each<sp/>collection<sp/>must<sp/>have<sp/>a<sp/>vector<sp/>of<sp/>labels<sp/>defined.<sp/>It<sp/>is<sp/>a<sp/>list<sp/>of<sp/>strings<sp/>describing<sp/>each<sp/>element.<sp/>A<sp/>label<sp/>is<sp/>a<sp/>string<sp/>that<sp/>defines<sp/>a<sp/>criterion<sp/>(for<sp/>example<sp/>“time”,<sp/>“complex”,<sp/>“body”,<sp/>“dofs”,<sp/>“domain”,<sp/>a.s.o.).</highlight></codeline>
+<codeline><highlight class="normal">Each<sp/>element<sp/>of<sp/>that<sp/>collection<sp/>has<sp/>a<sp/>label<sp/>space<sp/>associated.<sp/>This<sp/>label<sp/>space<sp/>is<sp/>a<sp/>map<sp/>that<sp/>associates<sp/>each<sp/>label<sp/>with<sp/>a<sp/>meaningful<sp/>id.<sp/>For<sp/>example,<sp/>body<sp/>ids<sp/>are<sp/>usually<sp/>associated<sp/>to<sp/>the<sp/>“body”<sp/>label<sp/>in<sp/>a<sp/>defined<sp/>label<sp/>space.<sp/></highlight></codeline>
+<codeline><highlight class="normal">More<sp/>generally,<sp/>the<sp/>n<sp/>labels<sp/>of<sp/>a<sp/>collection<sp/>define<sp/>a<sp/>n-dimensional<sp/>space<sp/>on<sp/>which<sp/>the<sp/>container<sp/>is<sp/>defined.<sp/>The<sp/>labels<sp/>space<sp/>associated<sp/>to<sp/>a<sp/>specific<sp/>entity<sp/>(e.g.<sp/>Field,<sp/>Scoping,<sp/>Mesh)<sp/>represents<sp/>a<sp/>coordinates-like<sp/>identifier<sp/>of<sp/>this<sp/>entity<sp/>in<sp/>this<sp/>space.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>&lt;a<sp/>name=&quot;coll2&quot;&gt;&lt;/a&gt;Fields<sp/>Container</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Description</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>Fields<sp/>Container<sp/>is<sp/>a<sp/>vector<sp/>of<sp/>Fields,<sp/>and<sp/>all<sp/>the<sp/>Fields<sp/>are<sp/>ordered<sp/>with<sp/>labels<sp/>and<sp/>ids.<sp/>Most<sp/>commonly,<sp/>the<sp/>Fields<sp/>Container<sp/>is<sp/>scoped<sp/>on<sp/>&quot;time&quot;<sp/>label<sp/>and<sp/>the<sp/>ids<sp/>are<sp/>the<sp/>time<sp/>or<sp/>frequency<sp/>sets.<sp/>Generally,<sp/>Fields<sp/>Container<sp/>allows<sp/>to<sp/>split<sp/>results<sp/>on<sp/>different<sp/>criterions.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Examples</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>Result<sp/>by<sp/>time<sp/>steps<sp/>and<sp/>body</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>following<sp/>representations<sp/>shows<sp/>a<sp/>FieldsContainer<sp/>storing<sp/>8<sp/>fields.<sp/>The<sp/>FieldsContainer<sp/>contains<sp/>a<sp/>result<sp/>(e.g.<sp/>displacement)<sp/>sorted<sp/>by<sp/>body<sp/>ids<sp/>and<sp/>by<sp/>time<sp/>sets:<sp/>each<sp/>field<sp/>must<sp/>have<sp/>a<sp/>time<sp/>id<sp/>and<sp/>a<sp/>body<sp/>id<sp/>defined.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&lt;br&gt;![](coll_2.png)<sp/><sp/><sp/>![](coll_3.png)&lt;br&gt;&lt;br&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>following<sp/>C++<sp/>code<sp/>snippets<sp/>show<sp/>how<sp/>to:</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>create<sp/>such<sp/>a<sp/>FieldsContainer</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>access<sp/>the<sp/>available<sp/>ids<sp/>for<sp/>a<sp/>defined<sp/>label</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>access<sp/>a<sp/>specific<sp/>result<sp/>Field<sp/>at<sp/>defined<sp/>time<sp/>step<sp/>and<sp/>body<sp/>id</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>access<sp/>a<sp/>vector<sp/>of<sp/>result<sp/>Fields<sp/>at<sp/>defined<sp/>body<sp/>id</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#####<sp/>Create<sp/>the<sp/>FieldsContainer<sp/>and<sp/>access<sp/>the<sp/>available<sp/>ids<sp/>for<sp/>a<sp/>defined<sp/>label</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>Build<sp/>a<sp/>FieldsContainer<sp/>with<sp/>&quot;time&quot;<sp/>and<sp/>&quot;body&quot;<sp/>labels</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>-----------------------------------------------------</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::FieldsContainer<sp/>fields_container;</highlight></codeline>
+<codeline><highlight class="normal">fields_container.addLabels({<sp/>ansys::dpf::labels::time,<sp/>ansys::dpf::labels::body<sp/>});</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>create<sp/>the<sp/>Fields<sp/>and<sp/>their<sp/>associated<sp/>label<sp/>spaces</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>---------------------------------------------------</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::LabelSpace<sp/>label_space_0({<sp/>{ansys::dpf::labels::time,<sp/>1},<sp/>{ansys::dpf::labels::body,<sp/>2}<sp/>});</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::Field<sp/>field_0;<sp/></highlight></codeline>
+<codeline><highlight class="normal">//<sp/>...<sp/>fill<sp/>field_0<sp/>data</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::LabelSpace<sp/>label_space_1({<sp/>{ansys::dpf::labels::time,<sp/>1},<sp/>{ansys::dpf::labels::body,<sp/>6}<sp/>});</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::Field<sp/>field_1;</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>...<sp/>fill<sp/>field_1<sp/>data</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::LabelSpace<sp/>label_space_2({<sp/>{ansys::dpf::labels::time,<sp/>1},<sp/>{ansys::dpf::labels::body,<sp/>17}<sp/>});</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::Field<sp/>field_2;</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>...<sp/>fill<sp/>field_2<sp/>data</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::LabelSpace<sp/>label_space_3({<sp/>{ansys::dpf::labels::time,<sp/>1},<sp/>{ansys::dpf::labels::body,<sp/>19}<sp/>});</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::Field<sp/>field_3;</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>...<sp/>fill<sp/>field_3<sp/>data</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::LabelSpace<sp/>label_space_4({<sp/>{ansys::dpf::labels::time,<sp/>4},<sp/>{ansys::dpf::labels::body,<sp/>2}<sp/>});</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::Field<sp/>field_4;</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>...<sp/>fill<sp/>field_4<sp/>data</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::LabelSpace<sp/>label_space_5({<sp/>{ansys::dpf::labels::time,<sp/>4},<sp/>{ansys::dpf::labels::body,<sp/>6}<sp/>});</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::Field<sp/>field_5;</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>...<sp/>fill<sp/>field_5<sp/>data</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::LabelSpace<sp/>label_space_6({<sp/>{ansys::dpf::labels::time,<sp/>4},<sp/>{ansys::dpf::labels::body,<sp/>17}<sp/>});</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::Field<sp/>field_6;</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>...<sp/>fill<sp/>field_6<sp/>data</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::LabelSpace<sp/>label_space_7({<sp/>{ansys::dpf::labels::time,<sp/>4},<sp/>{ansys::dpf::labels::body,<sp/>19}<sp/>});</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::Field<sp/>field_7;</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>...<sp/>fill<sp/>field_7<sp/>data</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>Add<sp/>fields<sp/>to<sp/>the<sp/>fields_container</highlight></codeline>
+<codeline><highlight class="normal">fields_container.add(label_space_0,<sp/>field_0);</highlight></codeline>
+<codeline><highlight class="normal">fields_container.add(label_space_1,<sp/>field_1);</highlight></codeline>
+<codeline><highlight class="normal">fields_container.add(label_space_2,<sp/>field_2);</highlight></codeline>
+<codeline><highlight class="normal">fields_container.add(label_space_3,<sp/>field_3);</highlight></codeline>
+<codeline><highlight class="normal">fields_container.add(label_space_4,<sp/>field_4);</highlight></codeline>
+<codeline><highlight class="normal">fields_container.add(label_space_5,<sp/>field_5);</highlight></codeline>
+<codeline><highlight class="normal">fields_container.add(label_space_6,<sp/>field_6);</highlight></codeline>
+<codeline><highlight class="normal">fields_container.add(label_space_7,<sp/>field_7);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>access<sp/>the<sp/>available<sp/>ids<sp/>for<sp/>a<sp/>defined<sp/>label</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>--------------------------------------------</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::Scoping<sp/>body_label_ids<sp/>=<sp/>fields_container.labelScoping(ansys::dpf::labels::body);</highlight></codeline>
+<codeline><highlight class="normal">int*<sp/>scoping_ids<sp/>=<sp/>body_label_ids.ids().data();</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">`scopings_ids`<sp/>should<sp/>contain<sp/>the<sp/>following<sp/>values:<sp/>2,<sp/>6,<sp/>17,<sp/>19.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#####<sp/>Access<sp/>a<sp/>specific<sp/>result<sp/>Field<sp/>at<sp/>defined<sp/>time<sp/>step<sp/>and<sp/>body<sp/>id</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>following<sp/>code<sp/>snippet<sp/>shows<sp/>how<sp/>to<sp/>access<sp/>the<sp/>following<sp/>Field<sp/>in<sp/>the<sp/>FieldsContainer<sp/>previously<sp/>created:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&lt;br&gt;![](coll_2_a.png)&lt;br&gt;&lt;br&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::LabelSpace<sp/>label_space_time_4_body_17({<sp/>{ansys::dpf::labels::time,<sp/>4},<sp/>{ansys::dpf::labels::body,<sp/>17}<sp/>});</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">ansys::dpf::Field<sp/>field_time_4_body_17<sp/>=<sp/>fields_container.getField(label_space_time_4_body_17);</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">See<sp/>@ref<sp/>Field<sp/>section<sp/>to<sp/>learn<sp/>how<sp/>to<sp/>access<sp/>the<sp/>Field&apos;s<sp/>data.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#####<sp/>access<sp/>a<sp/>vector<sp/>of<sp/>result<sp/>Fields<sp/>at<sp/>defined<sp/>body<sp/>id</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>following<sp/>code<sp/>snippet<sp/>shows<sp/>how<sp/>to<sp/>access<sp/>the<sp/>following<sp/>vector<sp/>of<sp/>Fields<sp/>in<sp/>the<sp/>FieldsContainer<sp/>previously<sp/>created:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&lt;br&gt;![](coll_2_b.png)&lt;br&gt;&lt;br&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>Get<sp/>vector<sp/>of<sp/>Fields</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::LabelSpace<sp/>label_space_body_6({<sp/>{ansys::dpf::labels::body,<sp/>6}<sp/>});</highlight></codeline>
+<codeline><highlight class="normal">std::vector&lt;ansys::dpf::Field&gt;<sp/>fields_with_body_id_6<sp/>=<sp/>fields_container.getFields(label_space_body_6);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>Get<sp/>the<sp/>label<sp/>space<sp/>associated<sp/>to<sp/>the<sp/>first<sp/>returned<sp/>field<sp/>to<sp/>know<sp/>its<sp/>time<sp/>id</highlight></codeline>
+<codeline><highlight class="normal">std::vector&lt;int&gt;<sp/>fields_indices<sp/>=<sp/>fields_container.getFieldsIndeces(label_space_body_6);</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::LabelSpace<sp/>first_label_space<sp/>=<sp/>fields_container.getLabelSpace(fields_indices[0]);</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>first_index_time_id<sp/>=<sp/>first_label_space.at(ansys::dpf::labels::time);</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">`fields_indices`<sp/>vector<sp/>should<sp/>contain<sp/>the<sp/>following<sp/>values:<sp/>1,<sp/>5.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">A<sp/>similar<sp/>code<sp/>using<sp/>the<sp/>&quot;time&quot;<sp/>label<sp/>instead<sp/>of<sp/>the<sp/>&quot;body&quot;<sp/>one<sp/>would<sp/>allow<sp/>to<sp/>access<sp/>a<sp/>vector<sp/>of<sp/>result<sp/>Fields<sp/>at<sp/>a<sp/>defined<sp/>time<sp/>id.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">To<sp/>know<sp/>how<sp/>to<sp/>integrate<sp/>DPF<sp/>capabilities<sp/>in<sp/>already<sp/>existing<sp/>project,<sp/>refer<sp/>to<sp/>the<sp/>@ref<sp/>group_06_1<sp/>section.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>Result<sp/>by<sp/>time<sp/>steps,<sp/>body<sp/>and<sp/>complex<sp/>ids</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>following<sp/>representation<sp/>shows<sp/>a<sp/>FieldsContainer<sp/>storing<sp/>16<sp/>fields.<sp/>The<sp/>FieldsContainer<sp/>contains<sp/>a<sp/>result<sp/>(e.g.<sp/>displacement)<sp/>sorted<sp/>by<sp/>body<sp/>ids,<sp/>by<sp/>time<sp/>steps<sp/>and<sp/>complexity<sp/>status:<sp/>each<sp/>field<sp/>must<sp/>have<sp/>a<sp/>time<sp/>id,<sp/>a<sp/>body<sp/>id<sp/>and<sp/>a<sp/>complex<sp/>id<sp/>(that<sp/>defines<sp/>if<sp/>the<sp/>Field<sp/>defines<sp/>the<sp/>complex<sp/>or<sp/>the<sp/>real<sp/>part<sp/>of<sp/>the<sp/>result)<sp/>defined.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&lt;br&gt;&lt;br&gt;![](coll_4.png)<sp/><sp/><sp/>![](coll_5.png)&lt;br&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>&lt;a<sp/>name=&quot;coll3&quot;&gt;&lt;/a&gt;Scopings<sp/>Container<sp/>and<sp/>Meshes<sp/>Container</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>Scopings<sp/>Container<sp/>is<sp/>a<sp/>vector<sp/>of<sp/>Scopings<sp/>and<sp/>all<sp/>the<sp/>Scopings<sp/>are<sp/>ordered<sp/>with<sp/>labels<sp/>and<sp/>ids.<sp/>Most<sp/>commonly,<sp/>the<sp/>Scopings<sp/>Container<sp/>is<sp/>scoped<sp/>on<sp/>&quot;body&quot;<sp/>label<sp/>and<sp/>the<sp/>ids<sp/>are<sp/>the<sp/>material/body<sp/>ids.<sp/>More<sp/>generically,<sp/>the<sp/>Scopings<sp/>Container<sp/>allows<sp/>to<sp/>split<sp/>results<sp/>on<sp/>different<sp/>criterions.<sp/>Likewise<sp/>for<sp/>the<sp/>Meshes<sp/>Container.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Generally,<sp/>a<sp/>defined<sp/>ScopingsContainer<sp/>will<sp/>contain<sp/>Scoping<sp/>entities<sp/>to<sp/>apply<sp/>on<sp/>the<sp/>Meshes<sp/>entities<sp/>of<sp/>a<sp/>corresponding<sp/>MeshesContainer.<sp/>The<sp/>correspondence<sp/>between<sp/>Scoping<sp/>and<sp/>Meshes<sp/>entities<sp/>is<sp/>made<sp/>using<sp/>the<sp/>label<sp/>spaces<sp/>(check<sp/>for<sp/>corresponding<sp/>labels<sp/>and<sp/>ids).<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&lt;br&gt;&lt;br&gt;![](coll_6.png)&lt;br&gt;&lt;br&gt;</highlight></codeline>
+    </programlisting>
+    <location file="cpp_doc/12_dpf_collections.md"/>
+  </compounddef>
+</doxygen>

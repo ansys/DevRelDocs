@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="structansys_1_1dpf_1_1TypeDescriptor" kind="struct" language="C++" prot="public">
+    <compoundname>ansys::dpf::TypeDescriptor</compoundname>
+    <includes local="no">dpf_api_base.h</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="structansys_1_1dpf_1_1TypeDescriptor_1a403411f3e10f233f99a0948a853b605a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>struct</type>
+        <definition>friend struct types</definition>
+        <argsstring></argsstring>
+        <name>types</name>
+        <qualifiedname>ansys::dpf::TypeDescriptor::types</qualifiedname>
+        <param>
+          <type>types</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="746" column="15" bodyfile="dpf_api_base.h" bodystart="746" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="structansys_1_1dpf_1_1TypeDescriptor_1aa60b6022465bcd46362295cc53d4ba68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class OperatorSpecification</definition>
+        <argsstring></argsstring>
+        <name>OperatorSpecification</name>
+        <qualifiedname>ansys::dpf::TypeDescriptor::OperatorSpecification</qualifiedname>
+        <param>
+          <type>OperatorSpecification</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="747" column="14" bodyfile="dpf_api_base.h" bodystart="747" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1TypeDescriptor_1a6e115fde1b6792ee1d1dc01d764105d7" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::TypeDescriptor::_name</definition>
+        <argsstring></argsstring>
+        <name>_name</name>
+        <qualifiedname>ansys::dpf::TypeDescriptor::_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="749" column="13" bodyfile="dpf_api_base.h" bodystart="749" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structansys_1_1dpf_1_1TypeDescriptor_1a1b435e8d7b7c80e5f005af5b09b67aa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::TypeDescriptor::TypeDescriptor</definition>
+        <argsstring>(std::string const &amp;name)</argsstring>
+        <name>TypeDescriptor</name>
+        <qualifiedname>ansys::dpf::TypeDescriptor::TypeDescriptor</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="752" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1TypeDescriptor_1ab77c44a1fd8428da80637cf0f5d134a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::TypeDescriptor::TypeDescriptor</definition>
+        <argsstring>(TypeDescriptor const &amp;)=default</argsstring>
+        <name>TypeDescriptor</name>
+        <qualifiedname>ansys::dpf::TypeDescriptor::TypeDescriptor</qualifiedname>
+        <param>
+          <type>TypeDescriptor const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="753" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1TypeDescriptor_1a6286c4dd003ac8ab50ae664e937d6249" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::TypeDescriptor::TypeDescriptor</definition>
+        <argsstring>(TypeDescriptor &amp;&amp;)=default</argsstring>
+        <name>TypeDescriptor</name>
+        <qualifiedname>ansys::dpf::TypeDescriptor::TypeDescriptor</qualifiedname>
+        <param>
+          <type>TypeDescriptor &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="754" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1TypeDescriptor_1ac9cafa294908a8e4453448b9b7ff80d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>TypeDescriptor &amp;</type>
+        <definition>TypeDescriptor &amp; ansys::dpf::TypeDescriptor::operator=</definition>
+        <argsstring>(TypeDescriptor const &amp;)=default</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::TypeDescriptor::operator=</qualifiedname>
+        <param>
+          <type>TypeDescriptor const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="755" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1TypeDescriptor_1a35e9722790d970146479d2b96810c4e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>TypeDescriptor &amp;</type>
+        <definition>TypeDescriptor &amp; ansys::dpf::TypeDescriptor::operator=</definition>
+        <argsstring>(TypeDescriptor &amp;&amp;)=default</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::TypeDescriptor::operator=</qualifiedname>
+        <param>
+          <type>TypeDescriptor &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="756" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1TypeDescriptor_1ab0aa169a15cd0fccca22af45704ebc65" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::TypeDescriptor::operator==</definition>
+        <argsstring>(TypeDescriptor const &amp;) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>ansys::dpf::TypeDescriptor::operator==</qualifiedname>
+        <param>
+          <type>TypeDescriptor const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="757" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1TypeDescriptor_1aa65f92a8c0c05c70994a2a56f009d4a9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::TypeDescriptor::operator&lt;</definition>
+        <argsstring>(TypeDescriptor const &amp;) const</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>ansys::dpf::TypeDescriptor::operator&lt;</qualifiedname>
+        <param>
+          <type>TypeDescriptor const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="758" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1TypeDescriptor_1a5f4ebc2148881a583bc7fc00ac454a14" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::TypeDescriptor::operator&lt;=</definition>
+        <argsstring>(TypeDescriptor const &amp;) const</argsstring>
+        <name>operator&lt;=</name>
+        <qualifiedname>ansys::dpf::TypeDescriptor::operator&lt;=</qualifiedname>
+        <param>
+          <type>TypeDescriptor const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="759" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1TypeDescriptor_1addcc78b9415108906a05f6aebbf708e9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::TypeDescriptor::operator!=</definition>
+        <argsstring>(TypeDescriptor const &amp;) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>ansys::dpf::TypeDescriptor::operator!=</qualifiedname>
+        <param>
+          <type>TypeDescriptor const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="760" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1TypeDescriptor_1a176268d95ca20a2fdb6d1a0e3c1b4ffb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::TypeDescriptor::operator std::string</definition>
+        <argsstring>() const</argsstring>
+        <name>operator std::string</name>
+        <qualifiedname>ansys::dpf::TypeDescriptor::string</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name of type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="762" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1TypeDescriptor_1a47ae07192ee8b0fdabf6ccff33d432f4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * ansys::dpf::TypeDescriptor::c_str</definition>
+        <argsstring>() const</argsstring>
+        <name>c_str</name>
+        <qualifiedname>ansys::dpf::TypeDescriptor::c_str</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Name of type. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="764" column="12"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Description of type. <simplesect kind="see"><para><ref refid="structansys_1_1dpf_1_1types" kindref="compound">types</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="dpf_api_base.h" line="744" column="1" bodyfile="dpf_api_base.h" bodystart="745" bodyend="765"/>
+    <listofallmembers>
+      <member refid="structansys_1_1dpf_1_1TypeDescriptor_1a6e115fde1b6792ee1d1dc01d764105d7" prot="private" virt="non-virtual"><scope>ansys::dpf::TypeDescriptor</scope><name>_name</name></member>
+      <member refid="structansys_1_1dpf_1_1TypeDescriptor_1a47ae07192ee8b0fdabf6ccff33d432f4" prot="public" virt="non-virtual"><scope>ansys::dpf::TypeDescriptor</scope><name>c_str</name></member>
+      <member refid="structansys_1_1dpf_1_1TypeDescriptor_1a176268d95ca20a2fdb6d1a0e3c1b4ffb" prot="public" virt="non-virtual"><scope>ansys::dpf::TypeDescriptor</scope><name>operator std::string</name></member>
+      <member refid="structansys_1_1dpf_1_1TypeDescriptor_1addcc78b9415108906a05f6aebbf708e9" prot="public" virt="non-virtual"><scope>ansys::dpf::TypeDescriptor</scope><name>operator!=</name></member>
+      <member refid="structansys_1_1dpf_1_1TypeDescriptor_1aa65f92a8c0c05c70994a2a56f009d4a9" prot="public" virt="non-virtual"><scope>ansys::dpf::TypeDescriptor</scope><name>operator&lt;</name></member>
+      <member refid="structansys_1_1dpf_1_1TypeDescriptor_1a5f4ebc2148881a583bc7fc00ac454a14" prot="public" virt="non-virtual"><scope>ansys::dpf::TypeDescriptor</scope><name>operator&lt;=</name></member>
+      <member refid="structansys_1_1dpf_1_1TypeDescriptor_1ac9cafa294908a8e4453448b9b7ff80d6" prot="public" virt="non-virtual"><scope>ansys::dpf::TypeDescriptor</scope><name>operator=</name></member>
+      <member refid="structansys_1_1dpf_1_1TypeDescriptor_1a35e9722790d970146479d2b96810c4e7" prot="public" virt="non-virtual"><scope>ansys::dpf::TypeDescriptor</scope><name>operator=</name></member>
+      <member refid="structansys_1_1dpf_1_1TypeDescriptor_1ab0aa169a15cd0fccca22af45704ebc65" prot="public" virt="non-virtual"><scope>ansys::dpf::TypeDescriptor</scope><name>operator==</name></member>
+      <member refid="structansys_1_1dpf_1_1TypeDescriptor_1a1b435e8d7b7c80e5f005af5b09b67aa5" prot="public" virt="non-virtual"><scope>ansys::dpf::TypeDescriptor</scope><name>TypeDescriptor</name></member>
+      <member refid="structansys_1_1dpf_1_1TypeDescriptor_1ab77c44a1fd8428da80637cf0f5d134a4" prot="public" virt="non-virtual"><scope>ansys::dpf::TypeDescriptor</scope><name>TypeDescriptor</name></member>
+      <member refid="structansys_1_1dpf_1_1TypeDescriptor_1a6286c4dd003ac8ab50ae664e937d6249" prot="public" virt="non-virtual"><scope>ansys::dpf::TypeDescriptor</scope><name>TypeDescriptor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

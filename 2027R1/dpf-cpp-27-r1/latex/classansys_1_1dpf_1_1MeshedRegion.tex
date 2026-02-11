@@ -1,0 +1,704 @@
+\doxysection{ansys::\+dpf::\+Meshed\+Region Class Reference}
+\hypertarget{classansys_1_1dpf_1_1MeshedRegion}{}\label{classansys_1_1dpf_1_1MeshedRegion}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+
+
+Holds the mesh for a given region (body, faces, skin, ...).  
+
+
+
+
+{\ttfamily \+\#include $<$dpf\+\_\+api.\+h$>$}
+
+Inheritance diagram for ansys::\+dpf::\+Meshed\+Region:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classansys_1_1dpf_1_1MeshedRegion}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_aba448efff0199ee26bed06ba92c6f5bb}{Meshed\+Region}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a856308261c05f739c04f38c1b35ca072}{Meshed\+Region}} (int id, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a5707eb2666551a4af4f27403dc1b69da}\label{classansys_1_1dpf_1_1MeshedRegion_a5707eb2666551a4af4f27403dc1b69da} 
+{\bfseries Meshed\+Region} (Meshed\+Region const \&)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a505ce797a4462fa1b7dfae2e8156476e}\label{classansys_1_1dpf_1_1MeshedRegion_a505ce797a4462fa1b7dfae2e8156476e} 
+{\bfseries Meshed\+Region} (Meshed\+Region \&\&) noexcept
+\item 
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a69670c1f8a5ff252d4377429928f7f9e}\label{classansys_1_1dpf_1_1MeshedRegion_a69670c1f8a5ff252d4377429928f7f9e} 
+Meshed\+Region \& {\bfseries operator=} (Meshed\+Region const \&)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_aac882f2631e077aa86fdb6b7aa802ea0}\label{classansys_1_1dpf_1_1MeshedRegion_aac882f2631e077aa86fdb6b7aa802ea0} 
+Meshed\+Region \& {\bfseries operator=} (Meshed\+Region \&\&) noexcept
+\item 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_af8ad6b50708b2c201a457c5da8e819da}{number\+Of\+Nodes}} () const
+\item 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_ac3a262bc236fda82374a462d7c9e240c}{number\+Of\+Elements}} () const
+\item 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a8af38259739409435e0de446f7ff6499}{number\+Of\+Faces}} () const
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Unit}{Unit}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_aed167b03463f42d94d424797529eccad}{length\+Unit}} () const
+\item 
+Field \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a482ae171f257bfe86c8e567f0882caa4}{nodes\+Coordinates}} () const
+\item 
+Property\+Field \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a198535c4c5a86ce1920cf2f5cd6c2d9d}{prop\+Field}} (\doxymbox{\hyperlink{structansys_1_1dpf_1_1PropertyType}{Property\+Type}} const \&prop) const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a1c6b2126a94dc0b94f01c2ae179ad44a}{has\+Prop\+Field}} (\doxymbox{\hyperlink{structansys_1_1dpf_1_1PropertyType}{Property\+Type}} const \&prop) const
+\item 
+std::\+vector$<$ std::\+string $>$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_ad4dd7e2fb551172b494c559e403d902a}{available\+Property\+Fields}} () const
+\item 
+Property\+Field \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a0e89e4e209380a10140c14cd91655907}{element\+Types}} () const
+\item 
+Property\+Field \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a2c75723ffc634c39b081eecd31d54309}{connectivity}} () const
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_ad5df08993b7c588d9565ef1c1ea4813d}{node\+Scoping}} () const
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a3056a0fc6d69ca8769e33de6be0cecf0}{element\+Scoping}} () const
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a4b0b3c40b12475dfafc3fa9c5bc5ac9c}{face\+Scoping}} () const
+\item 
+std::\+vector$<$ std::\+string $>$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a3b768ab61193b7b1a6359f4ac619d1c4}{available\+Named\+Selections}} () const
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a1f12d06a08e8afe8fe59c0a8d6aee779}{named\+Selection}} (std::\+string const \&\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_acf7de56fc6905e8da6679ea9d8df2a5e}{name}}) const
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a012ff219aea7e92a889a77611de00b3a}{fill\+Cursor}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} element\+\_\+index, \doxymbox{\hyperlink{classansys_1_1dpf_1_1ElementCursor}{Element\+Cursor}} \&cursor) const
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_aa7b984923ddd90379f08bc5b9831a95e}{prepare\+Construction}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} n\+\_\+nodes, \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} n\+\_\+elements)
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a2b4891674d74a792b63318c305963500}{add\+Node}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_ab4574c9af3f2bb8011da7d1f4c8da20e}{dp\+\_\+id}} node\+\_\+id, std::\+array$<$ \doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\+\_\+double}}, 3 $>$ const \&data)
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a3d2d3cb295d55dd3ab8d9630e03e09dc}{add\+Node}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_ab4574c9af3f2bb8011da7d1f4c8da20e}{dp\+\_\+id}} node\+\_\+id, \doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\+\_\+double}} \texorpdfstring{$\ast$}{*}const data)
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a11b6e06dfea398609fa9fb25ad4333bb}{add\+Element}} (\doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} const \&descriptor, \doxymbox{\hyperlink{namespaceansys_1_1dpf_ab4574c9af3f2bb8011da7d1f4c8da20e}{dp\+\_\+id}} elem\+\_\+id, std::\+vector$<$ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} $>$ const \&node\+\_\+indices)
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a8bda0d11514aaf91d367d88b700f05c7}{add\+Element}} (ansys::\+dpf::\+elements::\+\+EShape shape, \doxymbox{\hyperlink{namespaceansys_1_1dpf_ab4574c9af3f2bb8011da7d1f4c8da20e}{dp\+\_\+id}} elem\+\_\+id, std::\+vector$<$ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} $>$ const \&node\+\_\+indices)
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a638d38d0400a6c64b85082a4c4beb105}{set\+Length\+Unit}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Unit}{Unit}} const \&unit)
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_afdcea89a088a5a05244abfa8a2457040}{set\+Named\+Selection\+Scoping}} (std::\+string const \&\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_acf7de56fc6905e8da6679ea9d8df2a5e}{name}}, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} scoping)
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a2bc27437f9025696a0d07072bd4bafe1}{set\+Property\+Field}} (std::\+string const \&\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_acf7de56fc6905e8da6679ea9d8df2a5e}{name}}, Property\+Field property\+\_\+field)
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a4f7720c8b112b1d02eedcc4564986232}{set\+Connectivity}} (Property\+Field \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a2c75723ffc634c39b081eecd31d54309}{connectivity}})
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a6521976e1c6a8ed3a1357c979cd380aa}{set\+Element\+Types}} (Property\+Field element\+\_\+types)
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_ad5fbd4c5a82f47d45eba62536cba68a1}{set\+Nodes\+Coordinates}} (Field coordinates)
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a4c0e5dd26ae85f7f9817848b6cf0e050}{has\+Beam}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a4d5721fffae74a36f5df08f17b3e8814}{has\+Only\+Beam}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a606ffd0951d9f75cc632754a8619153c}{has\+Shell}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a07f2c499670bb730703defe33d7a2366}{has\+Only\+Shell}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_aeea1bdb261048a2f951c4e14e557fcfc}{has\+Point}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_ad4bd4ba5896708b8c071dd45f342f1e0}{has\+Only\+Point}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a24ef139add0dbf2afee4fe4fc39da778}{has\+Solid}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_ad731342d5494aba788fdf45406bae322}{has\+Only\+Solid}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a0410fcda938500f26b02dd149816e693}{has\+Skin}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a329260f43c0178f2789082717916799c}{has\+Only\+Skin}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a13ff7e2b797ca3b50732e0d1859f03d8}{has\+Polygons}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a511d93666c76398d3553fbf697172c8c}{has\+Polyhedrons}} () const
+\item 
+\doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{ansys::\+dpf::\+\+Element\+Descriptor}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a5809c805cc972f4958fab4375be4f8cb}{element\+Descriptor\+By\+Element\+Id}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_ab4574c9af3f2bb8011da7d1f4c8da20e}{dp\+\_\+id}} element\+\_\+id) const
+\item 
+ansys::\+dpf::\+elements::\+\+EShape \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a04833f8ff06d70a58259eddf7e7b350c}{element\+Shape}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_ab4574c9af3f2bb8011da7d1f4c8da20e}{dp\+\_\+id}} element\+\_\+id) const
+\item 
+int \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a9581baba0973ffff79236c95a131f62a}{num\+Nodes\+Of\+Element}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} element\+\_\+index) const
+\item 
+std::\+string \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_acf7de56fc6905e8da6679ea9d8df2a5e}{name}} () const
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a76b415d07d6609006546fe28dac4d45b}{set\+Name}} (std::\+string const \&rhs)
+\item 
+Meshed\+Region \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a1506cd74943091c868e037cd9eafde94}{deep\+\_\+copy}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{ansys::\+dpf::\+\+Client}} const \texorpdfstring{$\ast$}{*}const client=nullptr) const
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes}{ansys::\+dpf::\+\+Dpf\+Types}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a39cd546c42518e2332be8f287db95459}{empty}} () const
+\item 
+virtual bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_ae198f89868d85c7db6dc1a934a1d3c15}{has\+Internal\+Object}} () const
+\item 
+virtual std::\+string \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a9977945710983bc03d2940fa007847b2}{describe}} () const
+\item 
+so::\+\+API const \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_aea34d37e0c080126eff70db34bf46597}{call\+API}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a9f9789ff61cc9d400a2a344830706b73}{is\+On\+Common\+API}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a968afd9daa0b0f13b65a2ac61369d73a}{get\+Client}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} \&client) const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a1a5634202c15404b6b24e8f50e51cb66}{has\+Been\+Moved\+Locally}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_aa64d5f8fcd7d85ad6ebf708494dbefd7}{is\+Same\+Object}} (Dpf\+Types const \&rhs) const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a597c0914caa5c5f069c74d981bb36d89}\label{classansys_1_1dpf_1_1MeshedRegion_a597c0914caa5c5f069c74d981bb36d89} 
+static Meshed\+Region {\bfseries empty\+Meshed\+Region} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Holds the mesh for a given region (body, faces, skin, ...). 
+
+The meshed region is an entity describing a mesh. Node and element scopings, element types, connectivity (list of node indices composing each element) and node coordinates are the fundamental entities composing the meshed region. It can also have materials, named selections... \begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{AveragingTest_8cpp-example}{Averaging\+Test.\+cpp}}, \doxymbox{\hyperlink{CompleteRST_8cpp-example}{Complete\+RST.\+cpp}}, \doxymbox{\hyperlink{DataApis_8cpp-example}{Data\+Apis.\+cpp}}, \doxymbox{\hyperlink{DataExport_8cpp-example}{Data\+Export.\+cpp}}, \doxymbox{\hyperlink{ModelTest_8cpp-example}{Model\+Test.\+cpp}}, and \doxymbox{\hyperlink{WorkflowExamples_8cpp-example}{Workflow\+Examples.\+cpp}}.\end{Desc}
+
+
+\label{doc-constructors}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_aba448efff0199ee26bed06ba92c6f5bb}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!MeshedRegion@{MeshedRegion}}
+\index{MeshedRegion@{MeshedRegion}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{MeshedRegion()}{MeshedRegion()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_aba448efff0199ee26bed06ba92c6f5bb} 
+ansys::\+dpf::\+\+Meshed\+Region::\+\+Meshed\+Region (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{}\end{DoxyParamCaption})}
+
+Create a new meshed region on a server. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a856308261c05f739c04f38c1b35ca072}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!MeshedRegion@{MeshedRegion}}
+\index{MeshedRegion@{MeshedRegion}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{MeshedRegion()}{MeshedRegion()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a856308261c05f739c04f38c1b35ca072} 
+ansys::\+dpf::\+\+Meshed\+Region::\+\+Meshed\+Region (\begin{DoxyParamCaption}\item[{int}]{id}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{}\end{DoxyParamCaption})}
+
+Retrieve an existing instance of \doxylink{classansys_1_1dpf_1_1MeshedRegion}{Meshed\+Region} on a server. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em id} & Id of the \doxylink{classansys_1_1dpf_1_1MeshedRegion}{Meshed\+Region} object on the server\textquotesingle{}s database.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a8bda0d11514aaf91d367d88b700f05c7}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!addElement@{addElement}}
+\index{addElement@{addElement}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{addElement()}{addElement()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a8bda0d11514aaf91d367d88b700f05c7} 
+void ansys::\+dpf::\+\+Meshed\+Region::\+add\+Element (\begin{DoxyParamCaption}\item[{ansys::\+dpf::\+elements::\+\+EShape}]{shape}{, }\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_ab4574c9af3f2bb8011da7d1f4c8da20e}{dp\+\_\+id}}}]{elem\+\_\+id}{, }\item[{std::\+vector$<$ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} $>$ const \&}]{node\+\_\+indices}{}\end{DoxyParamCaption})}
+
+Add element to mesh. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em shape} & Shape of the element.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em elem\+\_\+id} & Id of element.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em node\+\_\+indices} & Vector of node ids of element. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a11b6e06dfea398609fa9fb25ad4333bb}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!addElement@{addElement}}
+\index{addElement@{addElement}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{addElement()}{addElement()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a11b6e06dfea398609fa9fb25ad4333bb} 
+void ansys::\+dpf::\+\+Meshed\+Region::\+add\+Element (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} const \&}]{descriptor}{, }\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_ab4574c9af3f2bb8011da7d1f4c8da20e}{dp\+\_\+id}}}]{elem\+\_\+id}{, }\item[{std::\+vector$<$ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} $>$ const \&}]{node\+\_\+indices}{}\end{DoxyParamCaption})}
+
+Add element to mesh. Not available in remote, use the implementation with the element shape instead. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em descriptor} & Description of element.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em elem\+\_\+id} & Id of element.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em node\+\_\+indices} & Vector of node ids of element. \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataApis_8cpp-example}{Data\+Apis.\+cpp}}, and \doxymbox{\hyperlink{DataExport_8cpp-example}{Data\+Export.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a3d2d3cb295d55dd3ab8d9630e03e09dc}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!addNode@{addNode}}
+\index{addNode@{addNode}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{addNode()}{addNode()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a3d2d3cb295d55dd3ab8d9630e03e09dc} 
+void ansys::\+dpf::\+\+Meshed\+Region::\+add\+Node (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_ab4574c9af3f2bb8011da7d1f4c8da20e}{dp\+\_\+id}}}]{node\+\_\+id}{, }\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\+\_\+double}} \texorpdfstring{$\ast$}{*}const}]{data}{}\end{DoxyParamCaption})}
+
+Add node to mesh. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em node\+\_\+id} & Id of node.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em data} & XYZ coordinates of node. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a2b4891674d74a792b63318c305963500}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!addNode@{addNode}}
+\index{addNode@{addNode}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{addNode()}{addNode()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a2b4891674d74a792b63318c305963500} 
+void ansys::\+dpf::\+\+Meshed\+Region::\+add\+Node (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_ab4574c9af3f2bb8011da7d1f4c8da20e}{dp\+\_\+id}}}]{node\+\_\+id}{, }\item[{std::\+array$<$ \doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\+\_\+double}}, 3 $>$ const \&}]{data}{}\end{DoxyParamCaption})}
+
+Add node to mesh. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em node\+\_\+id} & Id of node.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em data} & XYZ coordinates of node. \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{AveragingTest_8cpp-example}{Averaging\+Test.\+cpp}}, \doxymbox{\hyperlink{DataApis_8cpp-example}{Data\+Apis.\+cpp}}, and \doxymbox{\hyperlink{DataExport_8cpp-example}{Data\+Export.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a3b768ab61193b7b1a6359f4ac619d1c4}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!availableNamedSelections@{availableNamedSelections}}
+\index{availableNamedSelections@{availableNamedSelections}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{availableNamedSelections()}{availableNamedSelections()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a3b768ab61193b7b1a6359f4ac619d1c4} 
+std::\+vector$<$ std::\+string $>$ ansys::\+dpf::\+\+Meshed\+Region::\+available\+Named\+Selections (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Vector of named selections withing mesh. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{CompleteRST_8cpp-example}{Complete\+RST.\+cpp}}, \doxymbox{\hyperlink{ModelTest_8cpp-example}{Model\+Test.\+cpp}}, and \doxymbox{\hyperlink{WorkflowExamples_8cpp-example}{Workflow\+Examples.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_ad4dd7e2fb551172b494c559e403d902a}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!availablePropertyFields@{availablePropertyFields}}
+\index{availablePropertyFields@{availablePropertyFields}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{availablePropertyFields()}{availablePropertyFields()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_ad4dd7e2fb551172b494c559e403d902a} 
+std::\+vector$<$ std::\+string $>$ ansys::\+dpf::\+\+Meshed\+Region::\+available\+Property\+Fields (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Vector of property fields withing mesh. See \doxylink{structansys_1_1dpf_1_1property__types}{property\+\_\+types} for examples of available types. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a2c75723ffc634c39b081eecd31d54309}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!connectivity@{connectivity}}
+\index{connectivity@{connectivity}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{connectivity()}{connectivity()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a2c75723ffc634c39b081eecd31d54309} 
+Property\+Field ansys::\+dpf::\+\+Meshed\+Region::\+connectivity (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Property field describing element connectivity for mesh. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataApis_8cpp-example}{Data\+Apis.\+cpp}}, and \doxymbox{\hyperlink{ModelTest_8cpp-example}{Model\+Test.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a1506cd74943091c868e037cd9eafde94}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!deep\_copy@{deep\_copy}}
+\index{deep\_copy@{deep\_copy}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{deep\_copy()}{deep\_copy()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a1506cd74943091c868e037cd9eafde94} 
+Meshed\+Region ansys::\+dpf::\+\+Meshed\+Region::\+deep\+\_\+copy (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{ansys::\+dpf::\+\+Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{ = {\ttfamily nullptr}}\end{DoxyParamCaption}) const}
+
+Create a new \doxylink{classansys_1_1dpf_1_1MeshedRegion}{Meshed\+Region} on a server by copying all the data of this \doxylink{classansys_1_1dpf_1_1MeshedRegion}{Meshed\+Region}. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataExport_8cpp-example}{Data\+Export.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a5809c805cc972f4958fab4375be4f8cb}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!elementDescriptorByElementId@{elementDescriptorByElementId}}
+\index{elementDescriptorByElementId@{elementDescriptorByElementId}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{elementDescriptorByElementId()}{elementDescriptorByElementId()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a5809c805cc972f4958fab4375be4f8cb} 
+\doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{ansys::\+dpf::\+\+Element\+Descriptor}} ansys::\+dpf::\+\+Meshed\+Region::\+element\+Descriptor\+By\+Element\+Id (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_ab4574c9af3f2bb8011da7d1f4c8da20e}{dp\+\_\+id}}}]{element\+\_\+id}{}\end{DoxyParamCaption}) const}
+
+Get \doxylink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor} (type related information) from element id. . \Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a3056a0fc6d69ca8769e33de6be0cecf0}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!elementScoping@{elementScoping}}
+\index{elementScoping@{elementScoping}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{elementScoping()}{elementScoping()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a3056a0fc6d69ca8769e33de6be0cecf0} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} ansys::\+dpf::\+\+Meshed\+Region::\+element\+Scoping (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+\doxylink{classansys_1_1dpf_1_1Scoping}{Scoping} describing elements of mesh. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataApis_8cpp-example}{Data\+Apis.\+cpp}}, and \doxymbox{\hyperlink{DataExport_8cpp-example}{Data\+Export.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a04833f8ff06d70a58259eddf7e7b350c}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!elementShape@{elementShape}}
+\index{elementShape@{elementShape}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{elementShape()}{elementShape()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a04833f8ff06d70a58259eddf7e7b350c} 
+ansys::\+dpf::\+elements::\+\+EShape ansys::\+dpf::\+\+Meshed\+Region::\+element\+Shape (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_ab4574c9af3f2bb8011da7d1f4c8da20e}{dp\+\_\+id}}}]{element\+\_\+id}{}\end{DoxyParamCaption}) const}
+
+Get element shape. \Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a0e89e4e209380a10140c14cd91655907}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!elementTypes@{elementTypes}}
+\index{elementTypes@{elementTypes}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{elementTypes()}{elementTypes()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a0e89e4e209380a10140c14cd91655907} 
+Property\+Field ansys::\+dpf::\+\+Meshed\+Region::\+element\+Types (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Property field describing element types within mesh. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataApis_8cpp-example}{Data\+Apis.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a4b0b3c40b12475dfafc3fa9c5bc5ac9c}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!faceScoping@{faceScoping}}
+\index{faceScoping@{faceScoping}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{faceScoping()}{faceScoping()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a4b0b3c40b12475dfafc3fa9c5bc5ac9c} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} ansys::\+dpf::\+\+Meshed\+Region::\+face\+Scoping (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+\doxylink{classansys_1_1dpf_1_1Scoping}{Scoping} describing faces of mesh. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a012ff219aea7e92a889a77611de00b3a}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!fillCursor@{fillCursor}}
+\index{fillCursor@{fillCursor}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{fillCursor()}{fillCursor()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a012ff219aea7e92a889a77611de00b3a} 
+void ansys::\+dpf::\+\+Meshed\+Region::\+fill\+Cursor (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}}}]{element\+\_\+index}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1ElementCursor}{Element\+Cursor}} \&}]{cursor}{}\end{DoxyParamCaption}) const}
+
+Get a cursor for given element. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em element\+\_\+index} & Index of element within mesh for which to get cursor.  \\
+\hline
+\doxymbox{\texttt{out}}  & {\em cursor} & Cursor for given element. \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataApis_8cpp-example}{Data\+Apis.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a4c0e5dd26ae85f7f9817848b6cf0e050}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!hasBeam@{hasBeam}}
+\index{hasBeam@{hasBeam}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{hasBeam()}{hasBeam()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a4c0e5dd26ae85f7f9817848b6cf0e050} 
+bool ansys::\+dpf::\+\+Meshed\+Region::\+has\+Beam (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Indication if mesh contains beam elements. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a4d5721fffae74a36f5df08f17b3e8814}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!hasOnlyBeam@{hasOnlyBeam}}
+\index{hasOnlyBeam@{hasOnlyBeam}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{hasOnlyBeam()}{hasOnlyBeam()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a4d5721fffae74a36f5df08f17b3e8814} 
+bool ansys::\+dpf::\+\+Meshed\+Region::\+has\+Only\+Beam (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Indication if mesh only contains beam elements. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_ad4bd4ba5896708b8c071dd45f342f1e0}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!hasOnlyPoint@{hasOnlyPoint}}
+\index{hasOnlyPoint@{hasOnlyPoint}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{hasOnlyPoint()}{hasOnlyPoint()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_ad4bd4ba5896708b8c071dd45f342f1e0} 
+bool ansys::\+dpf::\+\+Meshed\+Region::\+has\+Only\+Point (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Indication if mesh only contains point elements. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a07f2c499670bb730703defe33d7a2366}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!hasOnlyShell@{hasOnlyShell}}
+\index{hasOnlyShell@{hasOnlyShell}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{hasOnlyShell()}{hasOnlyShell()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a07f2c499670bb730703defe33d7a2366} 
+bool ansys::\+dpf::\+\+Meshed\+Region::\+has\+Only\+Shell (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Indication if mesh only contains shell elements. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a329260f43c0178f2789082717916799c}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!hasOnlySkin@{hasOnlySkin}}
+\index{hasOnlySkin@{hasOnlySkin}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{hasOnlySkin()}{hasOnlySkin()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a329260f43c0178f2789082717916799c} 
+bool ansys::\+dpf::\+\+Meshed\+Region::\+has\+Only\+Skin (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Indication if mesh only contains skin elements. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_ad731342d5494aba788fdf45406bae322}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!hasOnlySolid@{hasOnlySolid}}
+\index{hasOnlySolid@{hasOnlySolid}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{hasOnlySolid()}{hasOnlySolid()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_ad731342d5494aba788fdf45406bae322} 
+bool ansys::\+dpf::\+\+Meshed\+Region::\+has\+Only\+Solid (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Indication if mesh only contains solid elements. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_aeea1bdb261048a2f951c4e14e557fcfc}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!hasPoint@{hasPoint}}
+\index{hasPoint@{hasPoint}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{hasPoint()}{hasPoint()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_aeea1bdb261048a2f951c4e14e557fcfc} 
+bool ansys::\+dpf::\+\+Meshed\+Region::\+has\+Point (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Indication if mesh contains point elements. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a13ff7e2b797ca3b50732e0d1859f03d8}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!hasPolygons@{hasPolygons}}
+\index{hasPolygons@{hasPolygons}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{hasPolygons()}{hasPolygons()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a13ff7e2b797ca3b50732e0d1859f03d8} 
+bool ansys::\+dpf::\+\+Meshed\+Region::\+has\+Polygons (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Indication if mesh contains Polygonal elements. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a511d93666c76398d3553fbf697172c8c}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!hasPolyhedrons@{hasPolyhedrons}}
+\index{hasPolyhedrons@{hasPolyhedrons}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{hasPolyhedrons()}{hasPolyhedrons()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a511d93666c76398d3553fbf697172c8c} 
+bool ansys::\+dpf::\+\+Meshed\+Region::\+has\+Polyhedrons (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Indication if mesh contains Polyhedral elements. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a1c6b2126a94dc0b94f01c2ae179ad44a}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!hasPropField@{hasPropField}}
+\index{hasPropField@{hasPropField}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{hasPropField()}{hasPropField()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a1c6b2126a94dc0b94f01c2ae179ad44a} 
+bool ansys::\+dpf::\+\+Meshed\+Region::\+has\+Prop\+Field (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{structansys_1_1dpf_1_1PropertyType}{Property\+Type}} const \&}]{prop}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Indication that property type exists. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em prop} & Property type of which to check existence. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a606ffd0951d9f75cc632754a8619153c}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!hasShell@{hasShell}}
+\index{hasShell@{hasShell}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{hasShell()}{hasShell()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a606ffd0951d9f75cc632754a8619153c} 
+bool ansys::\+dpf::\+\+Meshed\+Region::\+has\+Shell (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Indication if mesh contains shell elements. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a0410fcda938500f26b02dd149816e693}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!hasSkin@{hasSkin}}
+\index{hasSkin@{hasSkin}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{hasSkin()}{hasSkin()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a0410fcda938500f26b02dd149816e693} 
+bool ansys::\+dpf::\+\+Meshed\+Region::\+has\+Skin (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Indication if mesh contains skin elements. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a24ef139add0dbf2afee4fe4fc39da778}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!hasSolid@{hasSolid}}
+\index{hasSolid@{hasSolid}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{hasSolid()}{hasSolid()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a24ef139add0dbf2afee4fe4fc39da778} 
+bool ansys::\+dpf::\+\+Meshed\+Region::\+has\+Solid (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Indication if mesh contains solid elements. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_aed167b03463f42d94d424797529eccad}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!lengthUnit@{lengthUnit}}
+\index{lengthUnit@{lengthUnit}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{lengthUnit()}{lengthUnit()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_aed167b03463f42d94d424797529eccad} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Unit}{Unit}} ansys::\+dpf::\+\+Meshed\+Region::\+length\+Unit (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Length unit for mesh. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{CompleteRST_8cpp-example}{Complete\+RST.\+cpp}}, and \doxymbox{\hyperlink{DataExport_8cpp-example}{Data\+Export.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_acf7de56fc6905e8da6679ea9d8df2a5e}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!name@{name}}
+\index{name@{name}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{name()}{name()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_acf7de56fc6905e8da6679ea9d8df2a5e} 
+std::\+string ansys::\+dpf::\+\+Meshed\+Region::\+name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Name of the mesh. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a1f12d06a08e8afe8fe59c0a8d6aee779}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!namedSelection@{namedSelection}}
+\index{namedSelection@{namedSelection}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{namedSelection()}{namedSelection()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a1f12d06a08e8afe8fe59c0a8d6aee779} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} ansys::\+dpf::\+\+Meshed\+Region::\+named\+Selection (\begin{DoxyParamCaption}\item[{std::\+string const \&}]{name}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+\doxylink{classansys_1_1dpf_1_1Scoping}{Scoping} for given named selection. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em \doxylink{classansys_1_1dpf_1_1MeshedRegion_acf7de56fc6905e8da6679ea9d8df2a5e}{name}} & Name of which to get scoping. \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{CompleteRST_8cpp-example}{Complete\+RST.\+cpp}}, and \doxymbox{\hyperlink{ModelTest_8cpp-example}{Model\+Test.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a482ae171f257bfe86c8e567f0882caa4}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!nodesCoordinates@{nodesCoordinates}}
+\index{nodesCoordinates@{nodesCoordinates}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{nodesCoordinates()}{nodesCoordinates()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a482ae171f257bfe86c8e567f0882caa4} 
+Field ansys::\+dpf::\+\+Meshed\+Region::\+nodes\+Coordinates (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+\doxylink{classansys_1_1dpf_1_1Field}{Field} containing mesh node coordinates. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataApis_8cpp-example}{Data\+Apis.\+cpp}}, \doxymbox{\hyperlink{DataExport_8cpp-example}{Data\+Export.\+cpp}}, and \doxymbox{\hyperlink{ModelTest_8cpp-example}{Model\+Test.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_ad5df08993b7c588d9565ef1c1ea4813d}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!nodeScoping@{nodeScoping}}
+\index{nodeScoping@{nodeScoping}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{nodeScoping()}{nodeScoping()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_ad5df08993b7c588d9565ef1c1ea4813d} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} ansys::\+dpf::\+\+Meshed\+Region::\+node\+Scoping (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+\doxylink{classansys_1_1dpf_1_1Scoping}{Scoping} describing nodes of mesh. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataApis_8cpp-example}{Data\+Apis.\+cpp}}, and \doxymbox{\hyperlink{DataExport_8cpp-example}{Data\+Export.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_ac3a262bc236fda82374a462d7c9e240c}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!numberOfElements@{numberOfElements}}
+\index{numberOfElements@{numberOfElements}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{numberOfElements()}{numberOfElements()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_ac3a262bc236fda82374a462d7c9e240c} 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} ansys::\+dpf::\+\+Meshed\+Region::\+number\+Of\+Elements (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Number of elements in mesh. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{CompleteRST_8cpp-example}{Complete\+RST.\+cpp}}, \doxymbox{\hyperlink{DataExport_8cpp-example}{Data\+Export.\+cpp}}, and \doxymbox{\hyperlink{ModelTest_8cpp-example}{Model\+Test.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a8af38259739409435e0de446f7ff6499}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!numberOfFaces@{numberOfFaces}}
+\index{numberOfFaces@{numberOfFaces}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{numberOfFaces()}{numberOfFaces()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a8af38259739409435e0de446f7ff6499} 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} ansys::\+dpf::\+\+Meshed\+Region::\+number\+Of\+Faces (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Number of faces in mesh. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_af8ad6b50708b2c201a457c5da8e819da}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!numberOfNodes@{numberOfNodes}}
+\index{numberOfNodes@{numberOfNodes}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{numberOfNodes()}{numberOfNodes()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_af8ad6b50708b2c201a457c5da8e819da} 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} ansys::\+dpf::\+\+Meshed\+Region::\+number\+Of\+Nodes (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Number of nodes in mesh. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{CompleteRST_8cpp-example}{Complete\+RST.\+cpp}}, \doxymbox{\hyperlink{DataExport_8cpp-example}{Data\+Export.\+cpp}}, and \doxymbox{\hyperlink{ModelTest_8cpp-example}{Model\+Test.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a9581baba0973ffff79236c95a131f62a}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!numNodesOfElement@{numNodesOfElement}}
+\index{numNodesOfElement@{numNodesOfElement}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{numNodesOfElement()}{numNodesOfElement()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a9581baba0973ffff79236c95a131f62a} 
+int ansys::\+dpf::\+\+Meshed\+Region::\+num\+Nodes\+Of\+Element (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}}}]{element\+\_\+index}{}\end{DoxyParamCaption}) const}
+
+Get number of nodes for element at given index. \Hypertarget{classansys_1_1dpf_1_1MeshedRegion_aa7b984923ddd90379f08bc5b9831a95e}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!prepareConstruction@{prepareConstruction}}
+\index{prepareConstruction@{prepareConstruction}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{prepareConstruction()}{prepareConstruction()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_aa7b984923ddd90379f08bc5b9831a95e} 
+void ansys::\+dpf::\+\+Meshed\+Region::\+prepare\+Construction (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}}}]{n\+\_\+nodes}{, }\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}}}]{n\+\_\+elements}{}\end{DoxyParamCaption})}
+
+Allocate and reserve space for given number of nodes and elements. node scoping and coordinates vectors are reserved for n\+\_\+nodes, elements scoping, connectivity and elements type property field are reserved for n\+\_\+elements. this method should always be called before adding any node or element. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em n\+\_\+nodes} & Expected number of nodes within mesh.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em n\+\_\+elements} & Expected number of elements within mesh. \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataApis_8cpp-example}{Data\+Apis.\+cpp}}, and \doxymbox{\hyperlink{DataExport_8cpp-example}{Data\+Export.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a198535c4c5a86ce1920cf2f5cd6c2d9d}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!propField@{propField}}
+\index{propField@{propField}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{propField()}{propField()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a198535c4c5a86ce1920cf2f5cd6c2d9d} 
+Property\+Field ansys::\+dpf::\+\+Meshed\+Region::\+prop\+Field (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{structansys_1_1dpf_1_1PropertyType}{Property\+Type}} const \&}]{prop}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Property field given by property type. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em prop} & Property type of which to get property field. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a4f7720c8b112b1d02eedcc4564986232}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!setConnectivity@{setConnectivity}}
+\index{setConnectivity@{setConnectivity}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{setConnectivity()}{setConnectivity()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a4f7720c8b112b1d02eedcc4564986232} 
+void ansys::\+dpf::\+\+Meshed\+Region::\+set\+Connectivity (\begin{DoxyParamCaption}\item[{Property\+Field}]{connectivity}{}\end{DoxyParamCaption})}
+
+Set a connectivity (nodes of the elements) property field. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em \doxylink{classansys_1_1dpf_1_1MeshedRegion_a2c75723ffc634c39b081eecd31d54309}{connectivity}} & Connectivity to set. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a6521976e1c6a8ed3a1357c979cd380aa}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!setElementTypes@{setElementTypes}}
+\index{setElementTypes@{setElementTypes}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{setElementTypes()}{setElementTypes()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a6521976e1c6a8ed3a1357c979cd380aa} 
+void ansys::\+dpf::\+\+Meshed\+Region::\+set\+Element\+Types (\begin{DoxyParamCaption}\item[{Property\+Field}]{element\+\_\+types}{}\end{DoxyParamCaption})}
+
+Set element types property field. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em element\+\_\+types} & Element types data to set.. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a638d38d0400a6c64b85082a4c4beb105}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!setLengthUnit@{setLengthUnit}}
+\index{setLengthUnit@{setLengthUnit}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{setLengthUnit()}{setLengthUnit()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a638d38d0400a6c64b85082a4c4beb105} 
+void ansys::\+dpf::\+\+Meshed\+Region::\+set\+Length\+Unit (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Unit}{Unit}} const \&}]{unit}{}\end{DoxyParamCaption})}
+
+Set length unit for mesh. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em unit} & Length unit for mesh. \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataExport_8cpp-example}{Data\+Export.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a76b415d07d6609006546fe28dac4d45b}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!setName@{setName}}
+\index{setName@{setName}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{setName()}{setName()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a76b415d07d6609006546fe28dac4d45b} 
+void ansys::\+dpf::\+\+Meshed\+Region::\+set\+Name (\begin{DoxyParamCaption}\item[{std::\+string const \&}]{rhs}{}\end{DoxyParamCaption})}
+
+Set mesh name. \Hypertarget{classansys_1_1dpf_1_1MeshedRegion_afdcea89a088a5a05244abfa8a2457040}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!setNamedSelectionScoping@{setNamedSelectionScoping}}
+\index{setNamedSelectionScoping@{setNamedSelectionScoping}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{setNamedSelectionScoping()}{setNamedSelectionScoping()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_afdcea89a088a5a05244abfa8a2457040} 
+void ansys::\+dpf::\+\+Meshed\+Region::\+set\+Named\+Selection\+Scoping (\begin{DoxyParamCaption}\item[{std::\+string const \&}]{name}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}}}]{scoping}{}\end{DoxyParamCaption})}
+
+Set a named selection scoping for mesh. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em \doxylink{classansys_1_1dpf_1_1MeshedRegion_acf7de56fc6905e8da6679ea9d8df2a5e}{name}} & Named selection name.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em scoping} & \doxylink{classansys_1_1dpf_1_1Scoping}{Scoping} to set. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_ad5fbd4c5a82f47d45eba62536cba68a1}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!setNodesCoordinates@{setNodesCoordinates}}
+\index{setNodesCoordinates@{setNodesCoordinates}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{setNodesCoordinates()}{setNodesCoordinates()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_ad5fbd4c5a82f47d45eba62536cba68a1} 
+void ansys::\+dpf::\+\+Meshed\+Region::\+set\+Nodes\+Coordinates (\begin{DoxyParamCaption}\item[{Field}]{coordinates}{}\end{DoxyParamCaption})}
+
+Set a field for mesh. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em coordinates} & \doxylink{classansys_1_1dpf_1_1Field}{Field} to set. \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataExport_8cpp-example}{Data\+Export.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1MeshedRegion_a2bc27437f9025696a0d07072bd4bafe1}\index{ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}!setPropertyField@{setPropertyField}}
+\index{setPropertyField@{setPropertyField}!ansys::dpf::MeshedRegion@{ansys::dpf::MeshedRegion}}
+\doxysubsubsection{\texorpdfstring{setPropertyField()}{setPropertyField()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1MeshedRegion_a2bc27437f9025696a0d07072bd4bafe1} 
+void ansys::\+dpf::\+\+Meshed\+Region::\+set\+Property\+Field (\begin{DoxyParamCaption}\item[{std::\+string const \&}]{name}{, }\item[{Property\+Field}]{property\+\_\+field}{}\end{DoxyParamCaption})}
+
+Set an elemental property field for mesh. Its elemental scoping must be equal to the one that has already been set into the mesh, if it exists. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em \doxylink{classansys_1_1dpf_1_1MeshedRegion_acf7de56fc6905e8da6679ea9d8df2a5e}{name}} & Property name:\+ \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+common\+\_\+property\+\_\+names.  
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em property\+\_\+field} & Property field to set. \\
+\hline
+\end{DoxyParams}

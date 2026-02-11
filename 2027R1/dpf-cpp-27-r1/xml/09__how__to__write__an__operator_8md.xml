@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="09__how__to__write__an__operator_8md" kind="file" language="Markdown">
+    <compoundname>09_how_to_write_an_operator.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal"><sp/>@defgroup<sp/>group_09<sp/>Writing<sp/>a<sp/>DPF<sp/>operator</highlight></codeline>
+<codeline><highlight class="normal"><sp/>@ingroup<sp/>group_4_how_tos</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Introduction<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>Data<sp/>Processing<sp/>Framework<sp/>(DPF)<sp/>provides<sp/>numerical<sp/>simulation<sp/>users/engineers<sp/>with<sp/>a<sp/>toolbox<sp/>for<sp/>accessing<sp/>and<sp/>transforming<sp/>simulation<sp/>data.<sp/></highlight></codeline>
+<codeline><highlight class="normal">It<sp/>is<sp/>used<sp/>to<sp/>handle<sp/>complex<sp/>pre-<sp/>or<sp/>post-processing<sp/>of<sp/>simulation<sp/>data<sp/>within<sp/>a<sp/>simulation<sp/>workflow.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>DPF,<sp/>**Operators**<sp/>are<sp/>the<sp/>main<sp/>object<sp/>used<sp/>to<sp/>create,<sp/>transform<sp/>and<sp/>stream<sp/>the<sp/>data.<sp/>An<sp/>operator<sp/>is<sp/>composed<sp/>of<sp/>a<sp/>“core”<sp/>that<sp/>handles<sp/>the<sp/>calculation.<sp/></highlight></codeline>
+<codeline><highlight class="normal">It<sp/>receives<sp/>the<sp/>data<sp/>using<sp/>input<sp/>pins,<sp/>applies<sp/>a<sp/>transformation<sp/>and<sp/>makes<sp/>the<sp/>data<sp/>available<sp/>through<sp/>the<sp/>output<sp/>pins<sp/>(think<sp/>of<sp/>an<sp/>integrated<sp/>circuit<sp/>in<sp/>electronics).<sp/></highlight></codeline>
+<codeline><highlight class="normal">**There<sp/>are<sp/>rules<sp/>to<sp/>follow<sp/>to<sp/>correctly<sp/>write<sp/>operators<sp/>in<sp/>a<sp/>project<sp/>which<sp/>is<sp/>already<sp/>using<sp/>DPF.**<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>section<sp/>illustrates<sp/>how<sp/>to<sp/>write<sp/>an<sp/>operator<sp/>in<sp/>a<sp/>C++<sp/>project<sp/>which<sp/>is<sp/>already<sp/>using<sp/>DPF<sp/>capabilities.<sp/>An<sp/>operator<sp/>could<sp/>also<sp/>be<sp/>written<sp/>in<sp/>its<sp/>own<sp/>plugin.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">For<sp/>a<sp/>set<sp/>of<sp/>instructions<sp/>on<sp/>how<sp/>to<sp/>create<sp/>a<sp/>project<sp/>from<sp/>scratch<sp/>using<sp/>DPF<sp/>capabilities<sp/>to<sp/>define<sp/>&amp;<sp/>expose<sp/>operators,<sp/>refer<sp/>to<sp/>the<sp/>@ref<sp/>group_06_2<sp/>section.</highlight></codeline>
+<codeline><highlight class="normal">For<sp/>a<sp/>set<sp/>of<sp/>instructions<sp/>on<sp/>how<sp/>to<sp/>integrate<sp/>DPF<sp/>capabilities<sp/>in<sp/>already<sp/>existing<sp/>project,<sp/>refer<sp/>to<sp/>the<sp/>@ref<sp/>group_06_1<sp/>section.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Operator&apos;s<sp/>implementation<sp/>example</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Custom<sp/>sort<sp/>operator</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>this<sp/>example,<sp/>an<sp/>operator<sp/>for<sp/>custom<sp/>sorting<sp/>is<sp/>implemented.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Note:<sp/>the<sp/>corresponding<sp/>implementation<sp/>is<sp/>only<sp/>employed<sp/>as<sp/>an<sp/>example.<sp/>Existing<sp/>&quot;ascending_sort&quot;<sp/>or<sp/>&quot;descending_sort&quot;<sp/>operators<sp/>are<sp/>the<sp/></highlight></codeline>
+<codeline><highlight class="normal">best<sp/>way<sp/>to<sp/>sort<sp/>Field<sp/>data.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Edit<sp/>the<sp/>file<sp/>where<sp/>the<sp/>custom<sp/>operator<sp/>is<sp/>implemented<sp/>and<sp/>add<sp/>the<sp/>following<sp/>line<sp/>if<sp/>it<sp/>is<sp/>not<sp/>already<sp/>specified:<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">#include<sp/>&quot;dpf_api.h&quot;</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>custom<sp/>operator<sp/>implementation<sp/>can<sp/>now<sp/>start.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>my<sp/>custom<sp/>operator<sp/></highlight></codeline>
+<codeline><highlight class="normal">//<sp/>------------------</highlight></codeline>
+<codeline><highlight class="normal">struct<sp/>SortOperator</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>identify<sp/>the<sp/>operator</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>static<sp/>std::string<sp/>name()<sp/>{<sp/>return<sp/>&quot;custom_sort&quot;;<sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>describe<sp/>the<sp/>operator<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>static<sp/>ansys::dpf::OperatorSpecification<sp/>specification()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ansys::dpf::OperatorSpecification<sp/>spec;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spec.setDocumentation(&quot;This<sp/>operator<sp/>allows<sp/>a<sp/>custom<sp/>sort<sp/>of<sp/>the<sp/>input<sp/>field<sp/>data.&quot;);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spec.setInputPins(</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ansys::dpf::PinDefinition(0)<sp/>//<sp/>set<sp/>the<sp/>input<sp/>pin<sp/>number</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.setName(&quot;field_to_sort&quot;)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.setAcceptedTypes({<sp/>ansys::dpf::types::field})</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.setDoc(&quot;field<sp/>on<sp/>what<sp/>must<sp/>be<sp/>applied<sp/>the<sp/>sorting&quot;),</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spec.setOutputPins(</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ansys::dpf::PinDefinition(0)<sp/>//<sp/>set<sp/>the<sp/>output<sp/>pin<sp/>number</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.setName(&quot;sorted_field&quot;)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.setAcceptedTypes({<sp/>ansys::dpf::types::field<sp/>})</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.setDoc(&quot;field<sp/>that<sp/>has<sp/>been<sp/>sorted&quot;),</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>set<sp/>the<sp/>exposed<sp/>properties<sp/>of<sp/>the<sp/>operator,<sp/>allowing<sp/>documentation<sp/>generation<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spec.setProperty(ansys::dpf::spec::exposure::sExposure,<sp/>ansys::dpf::spec::exposure::sPublic);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spec.setProperty(ansys::dpf::spec::category::sCategory,<sp/>&quot;custom&quot;);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spec.setProperty(ansys::dpf::spec::sUserName,<sp/>&quot;custom<sp/>sort&quot;);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Sets<sp/>the<sp/>operator<sp/>as<sp/>premium</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spec.setProperty(ansys::dpf::spec::license::sLicense,<sp/>ansys::dpf::spec::license::sDpf);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>spec;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>define<sp/>the<sp/>data<sp/>computation</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>static<sp/>void<sp/>run(ansys::dpf::OperatorMain&amp;<sp/>main)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>get<sp/>the<sp/>input<sp/>data</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ansys::dpf::Field<sp/>to_sort<sp/>=<sp/>main.getInputField(0);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>sort</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;double&gt;<sp/>data;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>to_sort.getData(data);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::sort(data.begin(),<sp/>data.end());</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>set<sp/>the<sp/>output</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ansys::dpf::Field<sp/>sorted<sp/>=<sp/>to_sort.deep_copy();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sorted.setData(data);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>main.setOutput(0,<sp/>sorted);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>main.setSuccessed();<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>**SortOperator**<sp/>structure<sp/>contains<sp/>all<sp/>the<sp/>implementation<sp/>related<sp/>to<sp/>the<sp/>custom<sp/>operator.<sp/>It<sp/>contains:</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>a<sp/>**name**<sp/>method<sp/>(unique<sp/>identifier):<sp/>&quot;custom_sort&quot;</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>a<sp/>**specification**<sp/>method<sp/>which<sp/>defines<sp/>and<sp/>describes<sp/>the<sp/>operator<sp/>inputs,<sp/>outputs<sp/>and<sp/>data<sp/>computation.<sp/>Here,<sp/>the<sp/>operator<sp/></highlight></codeline>
+<codeline><highlight class="normal">exposes<sp/>one<sp/>input<sp/>named<sp/>&quot;field_to_sort&quot;<sp/>at<sp/>pin<sp/>0:<sp/>when<sp/>connecting<sp/>data<sp/>to<sp/>this<sp/>operator,<sp/>the<sp/>connect<sp/>object<sp/>should<sp/>be<sp/>of<sp/>**Field**<sp/>type.<sp/></highlight></codeline>
+<codeline><highlight class="normal">It<sp/>exposes<sp/>one<sp/>output<sp/>named<sp/>&quot;sorted_field&quot;<sp/>at<sp/>pin<sp/>0,<sp/>that<sp/>is<sp/>of<sp/>**Field**<sp/>type.<sp/></highlight></codeline>
+<codeline><highlight class="normal">-<sp/>a<sp/>**run**<sp/>method<sp/>which<sp/>contains<sp/>the<sp/>data<sp/>computation<sp/>code.<sp/>It<sp/>first<sp/>reads<sp/>the<sp/>input<sp/>data,<sp/>reading<sp/>the<sp/>**Field**<sp/>provided<sp/>through<sp/>input<sp/>pin<sp/>0.<sp/></highlight></codeline>
+<codeline><highlight class="normal">It<sp/>computes<sp/>the<sp/>data,<sp/>sorting<sp/>it.<sp/>Then,<sp/>it<sp/>creates<sp/>the<sp/>output<sp/>**Field**<sp/>and<sp/>set<sp/>it<sp/>as<sp/>output.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>the<sp/>**specification**,<sp/>the<sp/>&quot;license&quot;<sp/>information<sp/>is<sp/>optional.<sp/>If<sp/>specified,<sp/>the<sp/>operator<sp/>will<sp/>require<sp/>a<sp/>license<sp/>checkout<sp/>using<sp/>the<sp/>specified<sp/>increment<sp/>while<sp/>running.<sp/></highlight></codeline>
+<codeline><highlight class="normal">It<sp/>will<sp/>release<sp/>the<sp/>license<sp/>increment<sp/>once<sp/>it<sp/>has<sp/>been<sp/>run.<sp/>Refer<sp/>to<sp/>the<sp/>@ref<sp/>group_11<sp/>section<sp/>to<sp/>learn<sp/>more<sp/>about<sp/>licensing<sp/>in<sp/>DPF.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Record<sp/>the<sp/>operator</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>following<sp/>code<sp/>enables<sp/>the<sp/>operator<sp/>to<sp/>be<sp/>accessible<sp/>and<sp/>must<sp/>be<sp/>run<sp/>before<sp/>any<sp/>instantiation<sp/>of<sp/>this<sp/>operator.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Working<sp/>in<sp/>an<sp/>operator&apos;s<sp/>library<sp/>(see<sp/>@ref<sp/>group_06_2),<sp/>use<sp/>the<sp/>following<sp/>code:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::core::recordOperatorAtCore&lt;SortOperator&gt;(core_ptr);<sp/></highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Working<sp/>in<sp/>an<sp/>existing<sp/>process<sp/>(see<sp/>@ref<sp/>group_06_1),<sp/>use<sp/>the<sp/>following<sp/>code:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::core::recordOperator&lt;SortOperator&gt;();<sp/></highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Instantiate<sp/>the<sp/>operator</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Once<sp/>the<sp/>operator<sp/>is<sp/>recorded<sp/>in<sp/>the<sp/>process,<sp/>it<sp/>can<sp/>be<sp/>instantiated<sp/>using<sp/>the<sp/>following<sp/>code:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::Operator<sp/>my_custom_operator(&quot;custom_sort&quot;);</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>following<sp/>can<sp/>be<sp/>used<sp/>to<sp/>check<sp/>if<sp/>the<sp/>operator<sp/>is<sp/>correctly<sp/>instantiated:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">bool<sp/>bIsInstantiated<sp/>=<sp/>!my_custom_operator.empty();</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">If<sp/>bIsInstantiated<sp/>value<sp/>is<sp/>false,<sp/>either<sp/>the<sp/>plugin<sp/>that<sp/>contains<sp/>the<sp/>operator<sp/>has<sp/>not<sp/>been<sp/>correctly<sp/>loaded,<sp/>or<sp/>the<sp/>record<sp/>is<sp/>not<sp/></highlight></codeline>
+<codeline><highlight class="normal">correctly<sp/>done.<sp/>The<sp/>spelling<sp/>also<sp/>must<sp/>be<sp/>checked.<sp/><sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Use<sp/>the<sp/>operator<sp/>to<sp/>compute<sp/>data</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>following<sp/>shows<sp/>how<sp/>to<sp/>create<sp/>a<sp/>**Field**<sp/>containing<sp/>the<sp/>data<sp/>to<sp/>be<sp/>sorted:<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::FieldDefinition<sp/>fieldDef(ansys::dpf::Location(&quot;CustomLocation&quot;),<sp/>{<sp/>1<sp/>});</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::Field<sp/>field_to_sort;</highlight></codeline>
+<codeline><highlight class="normal">field_to_sort.setFieldDefinition(fieldDef);</highlight></codeline>
+<codeline><highlight class="normal">std::vector&lt;double&gt;<sp/>data1({<sp/>2.1,<sp/>1.5,<sp/>4.0<sp/>});</highlight></codeline>
+<codeline><highlight class="normal">std::vector&lt;double&gt;<sp/>data2({<sp/>10.9,<sp/>9.5<sp/>});</highlight></codeline>
+<codeline><highlight class="normal">field_to_sort.push_back(3,<sp/>data1);</highlight></codeline>
+<codeline><highlight class="normal">field_to_sort.push_back(7,<sp/>data2);</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Once<sp/>the<sp/>operator<sp/>is<sp/>instantied<sp/>and<sp/>the<sp/>**Field**<sp/>containing<sp/>the<sp/>data<sp/>to<sp/>sort,<sp/>is<sp/>create.<sp/>The<sp/>operator<sp/>can<sp/>then<sp/>read<sp/>the<sp/>input<sp/>data<sp/>and<sp/>perform<sp/>the<sp/>necessary<sp/>computations.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">my_custom_operator.connect(0,<sp/>field_to_sort);</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>output<sp/>can<sp/>be<sp/>requested.<sp/>It<sp/>triggers<sp/>the<sp/>execution<sp/>of<sp/>the<sp/>operator<sp/>and<sp/>provides<sp/>a<sp/>**Field**<sp/>containing<sp/>sorted<sp/>data.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::Field<sp/>sorted_vector<sp/>=<sp/>my_custom_operator.getOutputField(0);</highlight></codeline>
+<codeline><highlight class="normal">double*<sp/>sorted_data<sp/>=<sp/>sorted_vector.data().data();</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">`sorted_data`<sp/>should<sp/>contain<sp/>the<sp/>following<sp/>values<sp/>with<sp/>the<sp/>following<sp/>order:<sp/>1.5,<sp/>2.1,<sp/>4.0,<sp/>9.5,<sp/>10.9.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">See<sp/>the<sp/>**Field**<sp/>documentation<sp/>to<sp/>learn<sp/>how<sp/>to<sp/>access<sp/>the<sp/>data.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Best<sp/>practices</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Documentation<sp/>generation<sp/>uses<sp/>JavaScript,<sp/>**&apos;js&apos;<sp/>or<sp/>&apos;JS&apos;<sp/>chain<sp/>of<sp/>characters<sp/>must<sp/>be<sp/>avoided**<sp/>in<sp/>any<sp/>string<sp/>object<sp/>of<sp/>the<sp/>operator<sp/>specification.<sp/>If<sp/>this<sp/>rule<sp/>is<sp/>not<sp/>followed,<sp/>the<sp/>documentation<sp/>generation<sp/>fails.<sp/></highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Operator&apos;s<sp/>name<sp/>should<sp/>not<sp/>contain<sp/>white<sp/>space<sp/>and<sp/>should<sp/>be<sp/>written<sp/>in<sp/>snake<sp/>case.<sp/></highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Use<sp/>lower<sp/>case<sp/>in<sp/>specification&apos;s<sp/>strings,<sp/>except<sp/>for<sp/>description.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Spaces<sp/>must<sp/>not<sp/>be<sp/>used<sp/>in<sp/>specification&apos;s<sp/>strings,<sp/>except<sp/>for<sp/>description.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Example<sp/>full<sp/>code<sp/>compiled<sp/>with<sp/>Visual<sp/>Studio<sp/>on<sp/>Windows</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>following<sp/>is<sp/>the<sp/>complete<sp/>code<sp/>showing<sp/>how<sp/>to<sp/>write<sp/>an<sp/>operator<sp/>in<sp/>an<sp/>existing<sp/>process<sp/>and<sp/>use<sp/>it.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>DPF<sp/>include<sp/>files<sp/>to<sp/>access<sp/>capabilities<sp/>without<sp/>linking<sp/>step</highlight></codeline>
+<codeline><highlight class="normal">#include<sp/>&quot;dpf_api.h&quot;</highlight></codeline>
+<codeline><highlight class="normal">#include<sp/>&quot;dpf_api_i.cpp&quot;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#include<sp/>&lt;iostream&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>initialization<sp/>of<sp/>DPF<sp/>capabilities</highlight></codeline>
+<codeline><highlight class="normal">struct<sp/>staticData<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>static<sp/>ansys::dpf::LibraryHandle*<sp/>_dpfLibraryHandle;</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::LibraryHandle*<sp/>staticData::_dpfLibraryHandle<sp/>=<sp/>new<sp/>ansys::dpf::LibraryHandle(ansys::dpf::Context::premiumContext());</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>my<sp/>custom<sp/>operator<sp/></highlight></codeline>
+<codeline><highlight class="normal">//<sp/>------------------</highlight></codeline>
+<codeline><highlight class="normal">struct<sp/>SortOperator</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>identify<sp/>the<sp/>operator</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>static<sp/>std::string<sp/>name()<sp/>{<sp/>return<sp/>&quot;custom_sort&quot;;<sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>describe<sp/>the<sp/>operator<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>static<sp/>ansys::dpf::OperatorSpecification<sp/>specification()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ansys::dpf::OperatorSpecification<sp/>spec;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spec.setDocumentation(&quot;This<sp/>operator<sp/>allows<sp/>a<sp/>custom<sp/>sort<sp/>of<sp/>the<sp/>input<sp/>field<sp/>data.&quot;);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spec.setInputPins(</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ansys::dpf::PinDefinition(0)<sp/>//<sp/>set<sp/>the<sp/>input<sp/>pin<sp/>number</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.setName(&quot;field_to_sort&quot;)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.setAcceptedTypes({<sp/>ansys::dpf::types::field})</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.setDoc(&quot;field<sp/>on<sp/>what<sp/>must<sp/>be<sp/>applied<sp/>the<sp/>sorting&quot;),</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spec.setOutputPins(</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ansys::dpf::PinDefinition(0)<sp/>//<sp/>set<sp/>the<sp/>output<sp/>pin<sp/>number</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.setName(&quot;sorted_field&quot;)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.setAcceptedTypes({<sp/>ansys::dpf::types::field<sp/>})</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.setDoc(&quot;field<sp/>that<sp/>has<sp/>been<sp/>sorted&quot;),</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>set<sp/>the<sp/>exposed<sp/>properties<sp/>of<sp/>the<sp/>operator,<sp/>allowing<sp/>documentation<sp/>generation<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spec.setProperty(ansys::dpf::spec::exposure::sExposure,<sp/>ansys::dpf::spec::exposure::sPublic);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spec.setProperty(ansys::dpf::spec::category::sCategory,<sp/>&quot;custom&quot;);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spec.setProperty(ansys::dpf::spec::sUserName,<sp/>&quot;custom<sp/>sort&quot;);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Sets<sp/>the<sp/>operator<sp/>as<sp/>premium</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spec.setProperty(ansys::dpf::spec::license::sLicense,<sp/>ansys::dpf::spec::license::sDpf);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>spec;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>define<sp/>the<sp/>data<sp/>computation</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>static<sp/>void<sp/>run(ansys::dpf::OperatorMain&amp;<sp/>main)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>get<sp/>the<sp/>input<sp/>data</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ansys::dpf::Field<sp/>to_sort<sp/>=<sp/>main.getInputField(0);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>sort</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;double&gt;<sp/>data;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>to_sort.getData(data);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::sort(data.begin(),<sp/>data.end());</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>set<sp/>the<sp/>output</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ansys::dpf::Field<sp/>sorted<sp/>=<sp/>to_sort.deep_copy();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sorted.setData(data);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>main.setOutput(0,<sp/>sorted);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>main.setSuccessed();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">int<sp/>main()</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>ansys::dpf::core::recordOperator&lt;SortOperator&gt;();<sp/>//<sp/>record<sp/>the<sp/>operator<sp/>to<sp/>make<sp/>it<sp/>accessible</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>ansys::dpf::Operator<sp/>my_custom_operator(&quot;custom_sort&quot;);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>bool<sp/>bIsInstantiated<sp/>=<sp/>!my_custom_operator.empty();</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>ansys::dpf::FieldDefinition<sp/>fieldDef(ansys::dpf::Location(&quot;CustomLocation&quot;),<sp/>{<sp/>1<sp/>});</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>ansys::dpf::Field<sp/>field_to_sort;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>field_to_sort.setFieldDefinition(fieldDef);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;double&gt;<sp/>data1({<sp/>2.1,<sp/>1.5,<sp/>4.0<sp/>});</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;double&gt;<sp/>data2({<sp/>10.9,<sp/>9.5<sp/>});</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>field_to_sort.push_back(3,<sp/>data1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>field_to_sort.push_back(7,<sp/>data2);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>my_custom_operator.connect(0,<sp/>field_to_sort);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>ansys::dpf::Field<sp/>sorted_vector<sp/>=<sp/>my_custom_operator.getOutputField(0);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>double*<sp/>sorted_data<sp/>=<sp/>sorted_vector.data().data();</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>for<sp/>(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>sorted_vector.dataSize();<sp/>i++)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>std::to_string(sorted_data[i]).c_str()<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;<sp/>&quot;<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">It<sp/>can<sp/>be<sp/>compiled<sp/>on<sp/>Visual<sp/>Studio<sp/>using<sp/>the<sp/>VCXPROJ<sp/>file<sp/>in<sp/>@ref<sp/>group_06_1<sp/>section.</highlight></codeline>
+    </programlisting>
+    <location file="cpp_doc/09_how_to_write_an_operator.md"/>
+  </compounddef>
+</doxygen>

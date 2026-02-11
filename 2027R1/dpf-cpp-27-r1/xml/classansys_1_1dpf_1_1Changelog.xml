@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1Changelog" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::Changelog</compoundname>
+    <basecompoundref refid="classansys_1_1dpf_1_1CustomContainerBase" prot="public" virt="non-virtual">ansys::dpf::CustomContainerBase</basecompoundref>
+    <includes local="no">dpf_api.h</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1Changelog_1aa60b6022465bcd46362295cc53d4ba68" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class OperatorSpecification</definition>
+        <argsstring></argsstring>
+        <name>OperatorSpecification</name>
+        <qualifiedname>ansys::dpf::Changelog::OperatorSpecification</qualifiedname>
+        <param>
+          <type>OperatorSpecification</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6410" column="14" bodyfile="dpf_api.h" bodystart="6410" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Changelog_1a56d82c7fc2254fd57844be0a9926a672" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::Changelog::append</definition>
+        <argsstring>(const SemanticVersion &amp;version, const std::string changes)</argsstring>
+        <name>append</name>
+        <qualifiedname>ansys::dpf::Changelog::append</qualifiedname>
+        <param>
+          <type>const <ref refid="classansys_1_1dpf_1_1SemanticVersion" kindref="compound">SemanticVersion</ref> &amp;</type>
+          <declname>version</declname>
+        </param>
+        <param>
+          <type>const std::string</type>
+          <declname>changes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6412" column="6"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Changelog_1a93e6beab26f0b25315c832c948ec6cb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Changelog::Changelog</definition>
+        <argsstring>()</argsstring>
+        <name>Changelog</name>
+        <qualifiedname>ansys::dpf::Changelog::Changelog</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6414" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Changelog_1aadce9fb026ef542b71a48e017c4899a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Changelog::Changelog</definition>
+        <argsstring>(const GenericDataContainer gdc)</argsstring>
+        <name>Changelog</name>
+        <qualifiedname>ansys::dpf::Changelog::Changelog</qualifiedname>
+        <param>
+          <type>const GenericDataContainer</type>
+          <declname>gdc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6415" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Changelog_1a6740bbacf3550c55e5fa410c1e70102a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ansys::dpf::Changelog::~Changelog</definition>
+        <argsstring>()</argsstring>
+        <name>~Changelog</name>
+        <qualifiedname>ansys::dpf::Changelog::~Changelog</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6416" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Changelog_1a787041aa6ca6a5cc2b070a76e8edffde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Changelog &amp;</type>
+        <definition>Changelog &amp; ansys::dpf::Changelog::patchBump</definition>
+        <argsstring>(const std::string changes)</argsstring>
+        <name>patchBump</name>
+        <qualifiedname>ansys::dpf::Changelog::patchBump</qualifiedname>
+        <param>
+          <type>const std::string</type>
+          <declname>changes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6418" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Changelog_1ad88a847aca0163e5a19a4591818fb795" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Changelog &amp;</type>
+        <definition>Changelog &amp; ansys::dpf::Changelog::minorBump</definition>
+        <argsstring>(const std::string changes)</argsstring>
+        <name>minorBump</name>
+        <qualifiedname>ansys::dpf::Changelog::minorBump</qualifiedname>
+        <param>
+          <type>const std::string</type>
+          <declname>changes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6419" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Changelog_1ac8e6dc63736847f1fc08a301258905fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Changelog &amp;</type>
+        <definition>Changelog &amp; ansys::dpf::Changelog::majorBump</definition>
+        <argsstring>(const std::string changes)</argsstring>
+        <name>majorBump</name>
+        <qualifiedname>ansys::dpf::Changelog::majorBump</qualifiedname>
+        <param>
+          <type>const std::string</type>
+          <declname>changes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6420" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Changelog_1a8d295ec0c234840d93b3ecb7ec68c469" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Changelog &amp;</type>
+        <definition>Changelog &amp; ansys::dpf::Changelog::expectVersion</definition>
+        <argsstring>(const SemanticVersion &amp;version)</argsstring>
+        <name>expectVersion</name>
+        <qualifiedname>ansys::dpf::Changelog::expectVersion</qualifiedname>
+        <param>
+          <type>const <ref refid="classansys_1_1dpf_1_1SemanticVersion" kindref="compound">SemanticVersion</ref> &amp;</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6422" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Changelog_1acdd70e4b9bdb3907db774acfda81a24f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1SemanticVersion" kindref="compound">SemanticVersion</ref></type>
+        <definition>SemanticVersion ansys::dpf::Changelog::getLastVersion</definition>
+        <argsstring>() const</argsstring>
+        <name>getLastVersion</name>
+        <qualifiedname>ansys::dpf::Changelog::getLastVersion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6424" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Changelog_1ab000960d060460b60154dc881bc1219d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="classansys_1_1dpf_1_1SemanticVersion" kindref="compound">SemanticVersion</ref> &gt;</type>
+        <definition>std::vector&lt; SemanticVersion &gt; ansys::dpf::Changelog::getVersions</definition>
+        <argsstring>() const</argsstring>
+        <name>getVersions</name>
+        <qualifiedname>ansys::dpf::Changelog::getVersions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6426" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Changelog_1a10c1b3d096703017bafc83517f30536c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; ansys::dpf::Changelog::getVersionsAsStrings</definition>
+        <argsstring>() const</argsstring>
+        <name>getVersionsAsStrings</name>
+        <qualifiedname>ansys::dpf::Changelog::getVersionsAsStrings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6427" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Changelog_1aea59789008aa6f51949dce368dba7a87" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::Changelog::getChangesForVersion</definition>
+        <argsstring>(const SemanticVersion &amp;version) const</argsstring>
+        <name>getChangesForVersion</name>
+        <qualifiedname>ansys::dpf::Changelog::getChangesForVersion</qualifiedname>
+        <param>
+          <type>const <ref refid="classansys_1_1dpf_1_1SemanticVersion" kindref="compound">SemanticVersion</ref> &amp;</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6429" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Changelog_1aa4d437d707bd2f7b5f351b19da5eb389" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::Changelog::getChangesForVersion</definition>
+        <argsstring>(const std::string &amp;version) const</argsstring>
+        <name>getChangesForVersion</name>
+        <qualifiedname>ansys::dpf::Changelog::getChangesForVersion</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6430" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Changelog_1aec6cd1c4222d9f9d5007262d013b1ece" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::map&lt; std::string, std::string &gt;</type>
+        <definition>std::map&lt; std::string, std::string &gt; ansys::dpf::Changelog::toMap</definition>
+        <argsstring>() const</argsstring>
+        <name>toMap</name>
+        <qualifiedname>ansys::dpf::Changelog::toMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6432" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classansys_1_1dpf_1_1Changelog" kindref="compound">Changelog</ref> class </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ansys::dpf::Changelog</label>
+        <link refid="classansys_1_1dpf_1_1Changelog"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ansys::dpf::CustomContainerBase</label>
+        <link refid="classansys_1_1dpf_1_1CustomContainerBase"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ansys::dpf::Changelog</label>
+        <link refid="classansys_1_1dpf_1_1Changelog"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ansys::dpf::CustomContainerBase</label>
+        <link refid="classansys_1_1dpf_1_1CustomContainerBase"/>
+      </node>
+    </collaborationgraph>
+    <location file="dpf_api.h" line="6409" column="1" bodyfile="dpf_api.h" bodystart="6409" bodyend="6433"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1Changelog_1a56d82c7fc2254fd57844be0a9926a672" prot="private" virt="non-virtual"><scope>ansys::dpf::Changelog</scope><name>append</name></member>
+      <member refid="classansys_1_1dpf_1_1Changelog_1a93e6beab26f0b25315c832c948ec6cb8" prot="public" virt="non-virtual"><scope>ansys::dpf::Changelog</scope><name>Changelog</name></member>
+      <member refid="classansys_1_1dpf_1_1Changelog_1aadce9fb026ef542b71a48e017c4899a6" prot="public" virt="non-virtual"><scope>ansys::dpf::Changelog</scope><name>Changelog</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomContainerBase_1a595ca7a2057dd128a01676b24e622c08" prot="public" virt="non-virtual"><scope>ansys::dpf::Changelog</scope><name>container</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomContainerBase_1a43b2fea572fa3298d6405cf7f497c78b" prot="public" virt="virtual"><scope>ansys::dpf::Changelog</scope><name>container</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomContainerBase_1ab2649202d9da1730e164634a4d864f3e" prot="public" virt="non-virtual"><scope>ansys::dpf::Changelog</scope><name>CustomContainerBase</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomContainerBase_1a0dbdad77df7b779da34e8fa283a6597f" prot="public" virt="non-virtual"><scope>ansys::dpf::Changelog</scope><name>CustomContainerBase</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomContainerBase_1ae7229c52821828cec4fca9dce836ee55" prot="public" virt="non-virtual"><scope>ansys::dpf::Changelog</scope><name>CustomContainerBase</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomContainerBase_1a65a8a6f6585ddf80c7e0dfdf9b9c50f5" prot="public" virt="non-virtual"><scope>ansys::dpf::Changelog</scope><name>describe</name></member>
+      <member refid="classansys_1_1dpf_1_1Changelog_1a8d295ec0c234840d93b3ecb7ec68c469" prot="public" virt="non-virtual"><scope>ansys::dpf::Changelog</scope><name>expectVersion</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomContainerBase_1a1ba98abe5c74497c829744f302de3cb5" prot="public" virt="non-virtual"><scope>ansys::dpf::Changelog</scope><name>getAttributeNames</name></member>
+      <member refid="classansys_1_1dpf_1_1Changelog_1aea59789008aa6f51949dce368dba7a87" prot="public" virt="non-virtual"><scope>ansys::dpf::Changelog</scope><name>getChangesForVersion</name></member>
+      <member refid="classansys_1_1dpf_1_1Changelog_1aa4d437d707bd2f7b5f351b19da5eb389" prot="public" virt="non-virtual"><scope>ansys::dpf::Changelog</scope><name>getChangesForVersion</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomContainerBase_1ae048111b288fdbddfd3a5ab07438bc85" prot="public" virt="non-virtual"><scope>ansys::dpf::Changelog</scope><name>getClient</name></member>
+      <member refid="classansys_1_1dpf_1_1Changelog_1acdd70e4b9bdb3907db774acfda81a24f" prot="public" virt="non-virtual"><scope>ansys::dpf::Changelog</scope><name>getLastVersion</name></member>
+      <member refid="classansys_1_1dpf_1_1Changelog_1ab000960d060460b60154dc881bc1219d" prot="public" virt="non-virtual"><scope>ansys::dpf::Changelog</scope><name>getVersions</name></member>
+      <member refid="classansys_1_1dpf_1_1Changelog_1a10c1b3d096703017bafc83517f30536c" prot="public" virt="non-virtual"><scope>ansys::dpf::Changelog</scope><name>getVersionsAsStrings</name></member>
+      <member refid="classansys_1_1dpf_1_1Changelog_1ac8e6dc63736847f1fc08a301258905fe" prot="public" virt="non-virtual"><scope>ansys::dpf::Changelog</scope><name>majorBump</name></member>
+      <member refid="classansys_1_1dpf_1_1Changelog_1ad88a847aca0163e5a19a4591818fb795" prot="public" virt="non-virtual"><scope>ansys::dpf::Changelog</scope><name>minorBump</name></member>
+      <member refid="classansys_1_1dpf_1_1Changelog_1a787041aa6ca6a5cc2b070a76e8edffde" prot="public" virt="non-virtual"><scope>ansys::dpf::Changelog</scope><name>patchBump</name></member>
+      <member refid="classansys_1_1dpf_1_1Changelog_1aec6cd1c4222d9f9d5007262d013b1ece" prot="public" virt="non-virtual"><scope>ansys::dpf::Changelog</scope><name>toMap</name></member>
+      <member refid="classansys_1_1dpf_1_1Changelog_1a6740bbacf3550c55e5fa410c1e70102a" prot="public" virt="virtual"><scope>ansys::dpf::Changelog</scope><name>~Changelog</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomContainerBase_1a352060b066a01aeda0631390b664f021" prot="public" virt="virtual"><scope>ansys::dpf::Changelog</scope><name>~CustomContainerBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

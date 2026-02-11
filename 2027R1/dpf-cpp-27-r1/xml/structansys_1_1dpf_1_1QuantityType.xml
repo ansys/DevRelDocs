@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="structansys_1_1dpf_1_1QuantityType" kind="struct" language="C++" prot="public">
+    <compoundname>ansys::dpf::QuantityType</compoundname>
+    <includes local="no">dpf_api_base.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1QuantityType_1a3c44846971e03cd97816d56777e5c5ad" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::QuantityType::_value</definition>
+        <argsstring></argsstring>
+        <name>_value</name>
+        <qualifiedname>ansys::dpf::QuantityType::_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="80" column="13" bodyfile="dpf_api_base.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structansys_1_1dpf_1_1QuantityType_1aad0ded6e541fc561a3c3d1c28cdcaf3f" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::QuantityType::QuantityType</definition>
+        <argsstring>(std::string const &amp;name=&quot;&quot;)</argsstring>
+        <name>QuantityType</name>
+        <qualifiedname>ansys::dpf::QuantityType::QuantityType</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>name</declname>
+          <defval>&quot;&quot;</defval>
+          <briefdescription><para>[in] Optional name of quanty type. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create new location. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="84" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1QuantityType_1a7f106d62dad9bf5f6bcf4cde9beb3b14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::QuantityType::QuantityType</definition>
+        <argsstring>(QuantityType const &amp;)=default</argsstring>
+        <name>QuantityType</name>
+        <qualifiedname>ansys::dpf::QuantityType::QuantityType</qualifiedname>
+        <param>
+          <type>QuantityType const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="86" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1QuantityType_1ab135777e525e088d662ef15beb5badf0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::QuantityType::operator==</definition>
+        <argsstring>(QuantityType const &amp;) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>ansys::dpf::QuantityType::operator==</qualifiedname>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1QuantityType_1aad0ded6e541fc561a3c3d1c28cdcaf3f" kindref="member">QuantityType</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="87" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1QuantityType_1af0c5735179d5e5ad3949052f551d5777" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::QuantityType::operator&lt;</definition>
+        <argsstring>(QuantityType const &amp;) const</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>ansys::dpf::QuantityType::operator&lt;</qualifiedname>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1QuantityType_1aad0ded6e541fc561a3c3d1c28cdcaf3f" kindref="member">QuantityType</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="88" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1QuantityType_1ab3a03a40046da3dc03075230b395df8b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::QuantityType::operator&lt;=</definition>
+        <argsstring>(QuantityType const &amp;) const</argsstring>
+        <name>operator&lt;=</name>
+        <qualifiedname>ansys::dpf::QuantityType::operator&lt;=</qualifiedname>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1QuantityType_1aad0ded6e541fc561a3c3d1c28cdcaf3f" kindref="member">QuantityType</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="89" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1QuantityType_1ab55b06401adb7a8017fadc7e860f9477" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::QuantityType::operator!=</definition>
+        <argsstring>(QuantityType const &amp;) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>ansys::dpf::QuantityType::operator!=</qualifiedname>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1QuantityType_1aad0ded6e541fc561a3c3d1c28cdcaf3f" kindref="member">QuantityType</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="90" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1QuantityType_1ad86c0033431ec42817dafdbef89e650a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::QuantityType::operator std::string</definition>
+        <argsstring>() const</argsstring>
+        <name>operator std::string</name>
+        <qualifiedname>ansys::dpf::QuantityType::string</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name of quantity type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="92" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1QuantityType_1a013520e0f57e0ad6bcd8a533d8639b21" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::QuantityType::empty</definition>
+        <argsstring>() const</argsstring>
+        <name>empty</name>
+        <qualifiedname>ansys::dpf::QuantityType::empty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="93" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1QuantityType_1abdfb356d30de73b4bae958a5a22eb186" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * ansys::dpf::QuantityType::c_str</definition>
+        <argsstring>() const</argsstring>
+        <name>c_str</name>
+        <qualifiedname>ansys::dpf::QuantityType::c_str</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets name of quantity type. <simplesect kind="return"><para>Name of quantity type. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="96" column="12"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>User defined quantity type. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Allows for the definition of a new quantity type. Many quantity types are predefined. <simplesect kind="see"><para><ref refid="structansys_1_1dpf_1_1quantity__types" kindref="compound">quantity_types</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="dpf_api_base.h" line="77" column="1" bodyfile="dpf_api_base.h" bodystart="78" bodyend="97"/>
+    <listofallmembers>
+      <member refid="structansys_1_1dpf_1_1QuantityType_1a3c44846971e03cd97816d56777e5c5ad" prot="private" virt="non-virtual"><scope>ansys::dpf::QuantityType</scope><name>_value</name></member>
+      <member refid="structansys_1_1dpf_1_1QuantityType_1abdfb356d30de73b4bae958a5a22eb186" prot="public" virt="non-virtual"><scope>ansys::dpf::QuantityType</scope><name>c_str</name></member>
+      <member refid="structansys_1_1dpf_1_1QuantityType_1a013520e0f57e0ad6bcd8a533d8639b21" prot="public" virt="non-virtual"><scope>ansys::dpf::QuantityType</scope><name>empty</name></member>
+      <member refid="structansys_1_1dpf_1_1QuantityType_1ad86c0033431ec42817dafdbef89e650a" prot="public" virt="non-virtual"><scope>ansys::dpf::QuantityType</scope><name>operator std::string</name></member>
+      <member refid="structansys_1_1dpf_1_1QuantityType_1ab55b06401adb7a8017fadc7e860f9477" prot="public" virt="non-virtual"><scope>ansys::dpf::QuantityType</scope><name>operator!=</name></member>
+      <member refid="structansys_1_1dpf_1_1QuantityType_1af0c5735179d5e5ad3949052f551d5777" prot="public" virt="non-virtual"><scope>ansys::dpf::QuantityType</scope><name>operator&lt;</name></member>
+      <member refid="structansys_1_1dpf_1_1QuantityType_1ab3a03a40046da3dc03075230b395df8b" prot="public" virt="non-virtual"><scope>ansys::dpf::QuantityType</scope><name>operator&lt;=</name></member>
+      <member refid="structansys_1_1dpf_1_1QuantityType_1ab135777e525e088d662ef15beb5badf0" prot="public" virt="non-virtual"><scope>ansys::dpf::QuantityType</scope><name>operator==</name></member>
+      <member refid="structansys_1_1dpf_1_1QuantityType_1aad0ded6e541fc561a3c3d1c28cdcaf3f" prot="public" virt="non-virtual"><scope>ansys::dpf::QuantityType</scope><name>QuantityType</name></member>
+      <member refid="structansys_1_1dpf_1_1QuantityType_1a7f106d62dad9bf5f6bcf4cde9beb3b14" prot="public" virt="non-virtual"><scope>ansys::dpf::QuantityType</scope><name>QuantityType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

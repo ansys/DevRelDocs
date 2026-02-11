@@ -1,0 +1,43 @@
+\doxysubsection{Using DPF Context }
+\hypertarget{group__group__11}{}\label{group__group__11}\index{Using DPF Context@{Using DPF Context}}
+\hypertarget{group__group__11_autotoc_md75}{}\doxysubsubsubsection{\texorpdfstring{Entry and Premium capabilities}{Entry and Premium capabilities}}\label{group__group__11_autotoc_md75}
+Two main licensing states are available in DPF:\+
+\begin{DoxyItemize}
+\item Premium:\+ default state. Allows DPF to perform license checkouts, allowing licensed DPF operators to run.
+\item Entry:\+ does not allow DPF to perform any license checkout, meaning that licensed DPF operators\textquotesingle{} execution will fail.
+\end{DoxyItemize}
+
+Refer to the {\bfseries{Operators}} section, select an operator and see the {\bfseries{Scripting}} section to know if an operator requires a license to be checkout.\hypertarget{group__group__11_autotoc_md76}{}\doxysubsubsubsection{\texorpdfstring{DPF context}{DPF context}}\label{group__group__11_autotoc_md76}
+The {\bfseries{Context}} class defines the licensing logic a server starts with and should be provided to the Library\+Handle constructor.
+
+The {\bfseries{Context}} is composed of the following information:\+
+\begin{DoxyItemize}
+\item EDpf\+Context enum value:\+ sets DPF default operator capabilities and defines whether DPF capabilities requiring a license checkout are allowed.
+\item setup\+\_\+file\+\_\+path string:\+ is optional and sets DPF default operator capabilities (plugins that are defaultly loaded) if Epf\+Context::\+e\+User\+Defined enum value is used.
+\end{DoxyItemize}
+
+For example:\+
+\begin{DoxyItemize}
+\item use "{}\+EDpf\+Context::\+e\+Entry"{} to prevent license checkout and have plugins defined in Data\+Processing\+Core.\+xml loaded
+\item use "{}\+EDpf\+Context::\+e\+Default"{} to allow license checkout (Premium) and have plugins defined in Data\+Processing\+Core.\+xml loaded
+\item use "{}\+EDpf\+Context::\+e\+Standalone"{} to allow license checkout and have plugins defined in Dpf\+Core\+Standalone.\+xml loaded
+\end{DoxyItemize}\hypertarget{group__group__11_autotoc_md77}{}\doxysubsubsubsection{\texorpdfstring{Instantiate Library\+Handle with specific DPF context}{Instantiate Library\+Handle with specific DPF context}}\label{group__group__11_autotoc_md77}
+The following code instantiates a Library\+Handle object using an Entry context:\+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{ansys::dpf::LibraryHandle*\ lib\ =\ new\ ansys::dpf::LibraryHandle(ansys::dpf::Context::entryContext());}
+
+\end{DoxyCode}
+
+
+The following code instantiates a Library\+Handle object using a Premium state and using Dpf\+Core\+Standalone.\+xml to load the default plugins:\+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{ansys::dpf::LibraryHandle*\ lib\ =\ new\ ansys::dpf::LibraryHandle(ansys::dpf::Context::premiumContext());}
+
+\end{DoxyCode}
+
+
+Refer to the \doxylink{group__group__06__1}{Using DPF capabilities in an existing project} section to learn more about the use the Library\+Handle to use DPF capabilities. 

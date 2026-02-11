@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="group__group__06__1" kind="group">
+    <compoundname>group_06_1</compoundname>
+    <title>Using DPF capabilities in an existing project</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The Data Processing Framework (DPF) provides numerical simulation users/engineers with a toolbox for accessing and transforming simulation data. It is used to handle complex pre- or post-processing of simulation data within a simulation workflow.</para>
+<para><bold>It can be integrated into any existing C++ project.</bold></para>
+<sect1 id="group__group__06__1_1autotoc_md34_1s1"><sect2 id="group__group__06__1_1autotoc_md34">
+<title>Prerequisites</title><para>To integrate DPF into an existing C++ project, you must have access to the following files of the **AWP_ROOT@doc_ansys_ver/dpf/include** folder (AWP_ROOT@doc_ansys_ver being an environment variable defining the root of the Ansys Inc or <ulink url="https://dpf.docs.pyansys.com/version/stable/getting_started/dpf_server.html">DPF Server</ulink> product):<itemizedlist>
+<listitem><para>dpf_api.h</para>
+</listitem><listitem><para>dpf_api_i.cpp</para>
+</listitem></itemizedlist>
+</para>
+<para><bold>DPF_HGP_ROOT environment variable</bold> must be set to define the location of those files and <bold>must be set to follow this tutorial</bold>.</para>
+<para>Here is the command for Windows: @win_set_hgp_root</para>
+<para>It can also be set by editing the environment variables in Windows settings.</para>
+<para>Here is the command for Linux: @lin_set_hgp_root</para>
+</sect2></sect1>
+<sect1 id="group__group__06__1_1autotoc_md35_1s1"><sect2 id="group__group__06__1_1autotoc_md35">
+<title>Specify location of DPF files</title><sect3 id="group__group__06__1_1autotoc_md36">
+<title>Using Visual Studio</title><para><orderedlist>
+<listitem><para>In the &quot;Properties&quot; of the project, open the &quot;C/C++&quot; tab.</para>
+</listitem><listitem><para>Switch to the &quot;general&quot; tab. Edit the &quot;Additional Include Directories&quot; section so that it contains the &quot;$(DPF_HGP_ROOT)&quot; field.</para>
+</listitem><listitem><para>Ensure the compilation is done for the same platform and the build is done using the configuration where the properties have been updated (for example, if the &apos;Release|x64&apos; properties are modified, build with the &apos;Release|x64&apos; configuration).</para>
+</listitem></orderedlist>
+</para>
+</sect3>
+<sect3 id="group__group__06__1_1autotoc_md37">
+<title>Using CMake</title><para>Add the following line in the CMakeLists.txt file:</para>
+<para><programlisting><codeline><highlight class="normal">include_directories($ENV{DPF_HGP_ROOT})</highlight></codeline>
+</programlisting></para>
+</sect3>
+</sect2></sect1>
+<sect1 id="group__group__06__1_1autotoc_md38_1s1"><sect2 id="group__group__06__1_1autotoc_md38">
+<title>Integrate DPF into an existing project</title><para>In the header file where the DPF capabilities are used, add the following declarations:</para>
+<sect3 id="group__group__06__1_1autotoc_md39">
+<title>Include DPF</title><para>This is needed to access DPF capabilities.</para>
+<para><programlisting><codeline><highlight class="normal">#include<sp/>&quot;dpf_api.h&quot;</highlight></codeline>
+<codeline><highlight class="normal">#include<sp/>&quot;dpf_api_i.cpp&quot;</highlight></codeline>
+</programlisting></para>
+</sect3>
+<sect3 id="group__group__06__1_1autotoc_md40">
+<title>Declare DPF LibraryHandle</title><para>The LibraryHandle object must be alive all the time DPF is used. It should be unique, instantiated once per project. This is why it is declared as static structure:</para>
+<para><programlisting><codeline><highlight class="normal">struct<sp/>staticData<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>static<sp/>ansys::dpf::LibraryHandle*<sp/>_dpfLibraryHandle;</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+</programlisting></para>
+</sect3>
+<sect3 id="group__group__06__1_1autotoc_md41">
+<title>Instantiate DPF LibraryHandle</title><para>Before using any DPF capabilities, instantiate the LibraryHandle. This initializes DPF. To proceed, add the following line:</para>
+<para><programlisting><codeline><highlight class="normal">ansys::dpf::LibraryHandle*<sp/>staticData::_dpfLibraryHandle<sp/>=<sp/>new<sp/>ansys::dpf::LibraryHandle();</highlight></codeline>
+</programlisting></para>
+<para>For example, it can be added into the main method of the running application.</para>
+</sect3>
+<sect3 id="group__group__06__1_1autotoc_md42">
+<title>Use DPF capabilities</title><para>Once the LibraryHandle is instantiated, all the DPF capabilities can be used. The following example adds two vectors by components:</para>
+<para><programlisting><codeline><highlight class="normal">ansys::dpf::FieldDefinition<sp/>fieldDef(ansys::dpf::Location(&quot;Nodal&quot;),<sp/>{<sp/>3<sp/>});</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">ansys::dpf::Field<sp/>field_a;</highlight></codeline>
+<codeline><highlight class="normal">field_a.setFieldDefinition(fieldDef);</highlight></codeline>
+<codeline><highlight class="normal">std::vector&lt;double&gt;<sp/>data_a({<sp/>2.1,<sp/>1.5,<sp/>4.0<sp/>});</highlight></codeline>
+<codeline><highlight class="normal">field_a.push_back(1,<sp/>data_a);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">ansys::dpf::Field<sp/>field_b;</highlight></codeline>
+<codeline><highlight class="normal">field_b.setFieldDefinition(fieldDef);</highlight></codeline>
+<codeline><highlight class="normal">std::vector&lt;double&gt;<sp/>data_b({<sp/>10.9,<sp/>9.5<sp/>});</highlight></codeline>
+<codeline><highlight class="normal">field_b.push_back(1,<sp/>data_b);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">ansys::dpf::Operator<sp/>add_operator(&quot;add&quot;);</highlight></codeline>
+<codeline><highlight class="normal">add_operator.connect(0,<sp/>field_a);</highlight></codeline>
+<codeline><highlight class="normal">add_operator.connect(1,<sp/>field_b);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">ansys::dpf::Field<sp/>result<sp/>=<sp/>add_operator.getOutputField(0);</highlight></codeline>
+</programlisting></para>
+<para>Visit the <bold>Examples</bold> section to learn more about DPF capabilities.</para>
+<para>The application can now be <bold>compiled</bold>.</para>
+</sect3>
+</sect2></sect1>
+<sect1 id="group__group__06__1_1autotoc_md43_1s1"><sect2 id="group__group__06__1_1autotoc_md43">
+<title>Run the application</title><para>Once the application is compiled, the environment must be updated before running the application: DPF entry point location must be known by the application, using PATH on Windows or LD_LIBRARY_PATH on Linux. The following command can be used.</para>
+<para>For Windows:</para>
+<para><programlisting><codeline><highlight class="normal">set<sp/>PATH=%AWP_ROOT271%/aisol/bin/winx64;%PATH%</highlight></codeline>
+</programlisting></para>
+<para>It can also be set by editing the environment variables in Windows settings.</para>
+<para>For Linux:</para>
+<para><programlisting><codeline><highlight class="normal">export<sp/>LD_LIBRARY_PATH=${AWP_ROOT271}/aisol/dll/linx64&quot;;${LD_LIBRARY_PATH}</highlight></codeline>
+</programlisting></para>
+<para>The application can now be <bold>run</bold>.</para>
+</sect2></sect1>
+<sect1 id="group__group__06__1_1autotoc_md44_1s1"><sect2 id="group__group__06__1_1autotoc_md44">
+<title>Example full code compiled with Visual Studio on Windows</title><para>The following is the complete code showing how to add DPF capabilities in an already existing C++ application which displays &quot;Hello World!&quot;.</para>
+<para>The following code adds the components of two 3D vectors. It gathers all the instructions previously provided in this section. It can be placed into a <bold>IntegrateDpfExample.cpp</bold> file, compiled and run:</para>
+<para><programlisting><codeline><highlight class="normal">#include<sp/>&lt;iostream&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#include<sp/>&quot;dpf_api.h&quot;</highlight></codeline>
+<codeline><highlight class="normal">#include<sp/>&quot;dpf_api_i.cpp&quot;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">struct<sp/>staticData<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>static<sp/>ansys::dpf::LibraryHandle*<sp/>_dpfLibraryHandle;</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">ansys::dpf::LibraryHandle*<sp/>staticData::_dpfLibraryHandle<sp/>=<sp/>new<sp/>ansys::dpf::LibraryHandle();</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">int<sp/>main()</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;Hello<sp/>World!&quot;<sp/>&lt;&lt;<sp/>std::endl;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;This<sp/>project<sp/>is<sp/>using<sp/>DPF<sp/>to<sp/>addition<sp/>two<sp/>3D<sp/>vectors.&quot;<sp/>&lt;&lt;<sp/>std::endl;<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>ansys::dpf::FieldDefinition<sp/>fieldDef(ansys::dpf::Location(&quot;&quot;),<sp/>{<sp/>3<sp/>});</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>ansys::dpf::Field<sp/>field_a;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>field_a.setFieldDefinition(fieldDef);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;double&gt;<sp/>data_a({<sp/>2.1,<sp/>1.5,<sp/>4.0<sp/>});</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>field_a.push_back(1,<sp/>data_a);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>ansys::dpf::Field<sp/>field_b;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>field_b.setFieldDefinition(fieldDef);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;double&gt;<sp/>data_b({<sp/>10.9,<sp/>9.5,<sp/>3.5<sp/>});</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>field_b.push_back(1,<sp/>data_b);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>ansys::dpf::Operator<sp/>add_operator(&quot;add&quot;);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>add_operator.connect(0,<sp/>field_a);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>add_operator.connect(1,<sp/>field_b);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>ansys::dpf::Field<sp/>result<sp/>=<sp/>add_operator.getOutputField(0);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;First<sp/>vector<sp/>values<sp/>are:&quot;<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>for<sp/>(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>result.dataSize();<sp/>i++)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>std::to_string(data_a.data()[i]).c_str()<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;Second<sp/>vector<sp/>values<sp/>are:&quot;<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>for<sp/>(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>result.dataSize();<sp/>i++)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>std::to_string(data_b.data()[i]).c_str()<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;Result<sp/>vector<sp/>values<sp/>are:&quot;<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>for<sp/>(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>result.dataSize();<sp/>i++)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>std::to_string(result.data()[i]).c_str()<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para>
+<para><anchor id="group__group__06__1_1existing_vcxproj"/>To compile it with Visual Studio, the following code can be placed into a <bold>IntegrateDpfExample.vcxproj</bold> file:</para>
+<para><programlisting><codeline><highlight class="normal">&lt;?xml<sp/>version=&quot;1.0&quot;<sp/>encoding=&quot;utf-8&quot;?&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;Project<sp/>DefaultTargets=&quot;Build&quot;<sp/>xmlns=&quot;http://schemas.microsoft.com/developer/msbuild/2003&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;ItemGroup<sp/>Label=&quot;ProjectConfigurations&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;ProjectConfiguration<sp/>Include=&quot;Release|x64&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Configuration&gt;Release&lt;/Configuration&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Platform&gt;x64&lt;/Platform&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/ProjectConfiguration&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/ItemGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;PropertyGroup<sp/>Label=&quot;Globals&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;VCProjectVersion&gt;17.0&lt;/VCProjectVersion&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;ProjectGuid&gt;{76D54AD4-314C-4FB1-801D-0CF6773183A9}&lt;/ProjectGuid&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;Keyword&gt;Win32Proj&lt;/Keyword&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;RootNamespace&gt;IntegrateDpfExample&lt;/RootNamespace&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;WindowsTargetPlatformVersion&gt;10.0&lt;/WindowsTargetPlatformVersion&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/PropertyGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;Import<sp/>Project=&quot;$(VCTargetsPath)\Microsoft.Cpp.Default.props&quot;<sp/>/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;PropertyGroup<sp/>Condition=&quot;&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;&quot;<sp/>Label=&quot;Configuration&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;ConfigurationType&gt;Application&lt;/ConfigurationType&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;UseDebugLibraries&gt;false&lt;/UseDebugLibraries&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;PlatformToolset&gt;v143&lt;/PlatformToolset&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;WholeProgramOptimization&gt;true&lt;/WholeProgramOptimization&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;CharacterSet&gt;Unicode&lt;/CharacterSet&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/PropertyGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;Import<sp/>Project=&quot;$(VCTargetsPath)\Microsoft.Cpp.props&quot;<sp/>/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;ImportGroup<sp/>Label=&quot;ExtensionSettings&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/ImportGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;ImportGroup<sp/>Label=&quot;Shared&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/ImportGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;ImportGroup<sp/>Label=&quot;PropertySheets&quot;<sp/>Condition=&quot;&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;Import<sp/>Project=&quot;$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props&quot;<sp/>Condition=&quot;exists(&apos;$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props&apos;)&quot;<sp/>Label=&quot;LocalAppDataPlatform&quot;<sp/>/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/ImportGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;PropertyGroup<sp/>Label=&quot;UserMacros&quot;<sp/>/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;PropertyGroup<sp/>Condition=&quot;&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;LinkIncremental&gt;false&lt;/LinkIncremental&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/PropertyGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;ItemDefinitionGroup<sp/>Condition=&quot;&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;ClCompile&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;PrecompiledHeader&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/PrecompiledHeader&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;WarningLevel&gt;Level3&lt;/WarningLevel&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Optimization&gt;MaxSpeed&lt;/Optimization&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;FunctionLevelLinking&gt;true&lt;/FunctionLevelLinking&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;IntrinsicFunctions&gt;true&lt;/IntrinsicFunctions&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;SDLCheck&gt;true&lt;/SDLCheck&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;PreprocessorDefinitions&gt;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)&lt;/PreprocessorDefinitions&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;ConformanceMode&gt;true&lt;/ConformanceMode&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;AdditionalIncludeDirectories&gt;$(DPF_HGP_ROOT);%(AdditionalIncludeDirectories)&lt;/AdditionalIncludeDirectories&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/ClCompile&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;Link&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;SubSystem&gt;Console&lt;/SubSystem&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;EnableCOMDATFolding&gt;true&lt;/EnableCOMDATFolding&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;OptimizeReferences&gt;true&lt;/OptimizeReferences&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;GenerateDebugInformation&gt;true&lt;/GenerateDebugInformation&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/Link&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/ItemDefinitionGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;ItemGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;ClCompile<sp/>Include=&quot;IntegrateDpfExample.cpp&quot;<sp/>/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/ItemGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;Import<sp/>Project=&quot;$(VCTargetsPath)\Microsoft.Cpp.targets&quot;<sp/>/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;ImportGroup<sp/>Label=&quot;ExtensionTargets&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/ImportGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/Project&gt;</highlight></codeline>
+</programlisting></para>
+<para>Then, the <bold>IntegrateDpfExample.vcxproj</bold> project can be opened and compiled. Press F5 in Visual Studio to proceed. </para>
+</sect2></sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

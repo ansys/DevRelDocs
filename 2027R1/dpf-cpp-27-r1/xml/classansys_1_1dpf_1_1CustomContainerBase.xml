@@ -1,0 +1,373 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1CustomContainerBase" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::CustomContainerBase</compoundname>
+    <derivedcompoundref refid="classansys_1_1dpf_1_1Changelog" prot="public" virt="non-virtual">ansys::dpf::Changelog</derivedcompoundref>
+    <includes local="no">dpf_api.h</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1CustomContainerBase_1acc06c4380c923e11af63f95e97c3c259" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class GenericDataContainer</definition>
+        <argsstring></argsstring>
+        <name>GenericDataContainer</name>
+        <qualifiedname>ansys::dpf::CustomContainerBase::GenericDataContainer</qualifiedname>
+        <param>
+          <type>GenericDataContainer</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5466" column="14" bodyfile="dpf_api.h" bodystart="5466" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1CustomContainerBase_1a33ff3f826991522d2e77c1c523f33e19" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Operator</definition>
+        <argsstring></argsstring>
+        <name>Operator</name>
+        <qualifiedname>ansys::dpf::CustomContainerBase::Operator</qualifiedname>
+        <param>
+          <type>Operator</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5467" column="14" bodyfile="dpf_api.h" bodystart="5467" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1CustomContainerBase_1afa07847c7cb432b260e61a0c18025ba3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Workflow</definition>
+        <argsstring></argsstring>
+        <name>Workflow</name>
+        <qualifiedname>ansys::dpf::CustomContainerBase::Workflow</qualifiedname>
+        <param>
+          <type>Workflow</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5468" column="14" bodyfile="dpf_api.h" bodystart="5468" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1CustomContainerBase_1af891ea2ca8eebe3679e051763ba989ce" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class CollectionBase</definition>
+        <argsstring></argsstring>
+        <name>CollectionBase</name>
+        <qualifiedname>ansys::dpf::CustomContainerBase::CollectionBase</qualifiedname>
+        <param>
+          <type>CollectionBase</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5469" column="14" bodyfile="dpf_api.h" bodystart="5469" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1CustomContainerBase_1af764561c544bacc1b90b526ee8d3c708" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class core</definition>
+        <argsstring></argsstring>
+        <name>core</name>
+        <qualifiedname>ansys::dpf::CustomContainerBase::core</qualifiedname>
+        <param>
+          <type>core</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5470" column="14" bodyfile="dpf_api.h" bodystart="5470" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1CustomContainerBase_1a117aede0de0250a9c8eb5481377e64cc" prot="private" static="no" mutable="no">
+        <type>GenericDataContainer</type>
+        <definition>GenericDataContainer ansys::dpf::CustomContainerBase::_container</definition>
+        <argsstring></argsstring>
+        <name>_container</name>
+        <qualifiedname>ansys::dpf::CustomContainerBase::_container</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5472" column="22" bodyfile="dpf_api.h" bodystart="5472" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomContainerBase_1a1b6aa8a1be22a9f53f16a8620cc8b951" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::CustomContainerBase::setContainer</definition>
+        <argsstring>(GenericDataContainer const &amp;container)</argsstring>
+        <name>setContainer</name>
+        <qualifiedname>ansys::dpf::CustomContainerBase::setContainer</qualifiedname>
+        <param>
+          <type>GenericDataContainer const &amp;</type>
+          <declname>container</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5475" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomContainerBase_1ac437033b807c1811dcd08e9ed527ef46" prot="private" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::CustomContainerBase::swap</definition>
+        <argsstring>(CustomContainerBase &amp;&amp;rhs) noexcept</argsstring>
+        <name>swap</name>
+        <qualifiedname>ansys::dpf::CustomContainerBase::swap</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1CustomContainerBase_1ab2649202d9da1730e164634a4d864f3e" kindref="member">CustomContainerBase</ref> &amp;&amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>swaps data between 2 CustomContainerBases. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>should be used in derived classes copy containers. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5478" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomContainerBase_1a7692a444bc417444608df8174fbb9e65" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>opaque::DpfObject *const</type>
+        <definition>opaque::DpfObject *const ansys::dpf::CustomContainerBase::internalObj</definition>
+        <argsstring>() const</argsstring>
+        <name>internalObj</name>
+        <qualifiedname>ansys::dpf::CustomContainerBase::internalObj</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5479" column="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomContainerBase_1ab2649202d9da1730e164634a4d864f3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::CustomContainerBase::CustomContainerBase</definition>
+        <argsstring>(std::string const &amp;class_name)</argsstring>
+        <name>CustomContainerBase</name>
+        <qualifiedname>ansys::dpf::CustomContainerBase::CustomContainerBase</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>class_name</declname>
+          <briefdescription><para>[in] Name of the custom class in camel case format. Will be used to print the instance. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5482" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomContainerBase_1a0dbdad77df7b779da34e8fa283a6597f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::CustomContainerBase::CustomContainerBase</definition>
+        <argsstring>(std::string const &amp;class_name, Client const *const client)</argsstring>
+        <name>CustomContainerBase</name>
+        <qualifiedname>ansys::dpf::CustomContainerBase::CustomContainerBase</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>class_name</declname>
+          <briefdescription><para>[in] Name of the custom class in camel case format. Will be used to print the instance. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> const *const</type>
+          <declname>client</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> instance designating the IP, port and protocol to use. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5484" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomContainerBase_1ae7229c52821828cec4fca9dce836ee55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::CustomContainerBase::CustomContainerBase</definition>
+        <argsstring>(std::string const &amp;class_name, GenericDataContainer const &amp;container)</argsstring>
+        <name>CustomContainerBase</name>
+        <qualifiedname>ansys::dpf::CustomContainerBase::CustomContainerBase</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>class_name</declname>
+          <briefdescription><para>[in] Name of the custom class in camel case format. Will be used to print the instance. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>GenericDataContainer const &amp;</type>
+          <declname>container</declname>
+          <briefdescription><para>[in] Internal container holding all the attributes as properties. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5487" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomContainerBase_1a352060b066a01aeda0631390b664f021" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ansys::dpf::CustomContainerBase::~CustomContainerBase</definition>
+        <argsstring>()</argsstring>
+        <name>~CustomContainerBase</name>
+        <qualifiedname>ansys::dpf::CustomContainerBase::~CustomContainerBase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5490" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomContainerBase_1a595ca7a2057dd128a01676b24e622c08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>GenericDataContainer &amp;</type>
+        <definition>GenericDataContainer &amp; ansys::dpf::CustomContainerBase::container</definition>
+        <argsstring>()</argsstring>
+        <name>container</name>
+        <qualifiedname>ansys::dpf::CustomContainerBase::container</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The internal container. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5492" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomContainerBase_1a43b2fea572fa3298d6405cf7f497c78b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>GenericDataContainer const &amp;</type>
+        <definition>virtual GenericDataContainer const  &amp; ansys::dpf::CustomContainerBase::container</definition>
+        <argsstring>() const</argsstring>
+        <name>container</name>
+        <qualifiedname>ansys::dpf::CustomContainerBase::container</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The internal container. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5494" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomContainerBase_1a65a8a6f6585ddf80c7e0dfdf9b9c50f5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::CustomContainerBase::describe</definition>
+        <argsstring>() const</argsstring>
+        <name>describe</name>
+        <qualifiedname>ansys::dpf::CustomContainerBase::describe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Description of object. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5496" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomContainerBase_1a1ba98abe5c74497c829744f302de3cb5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; ansys::dpf::CustomContainerBase::getAttributeNames</definition>
+        <argsstring>() const</argsstring>
+        <name>getAttributeNames</name>
+        <qualifiedname>ansys::dpf::CustomContainerBase::getAttributeNames</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5498" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomContainerBase_1ae048111b288fdbddfd3a5ab07438bc85" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::CustomContainerBase::getClient</definition>
+        <argsstring>(Client &amp;client) const</argsstring>
+        <name>getClient</name>
+        <qualifiedname>ansys::dpf::CustomContainerBase::getClient</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> &amp;</type>
+          <declname>client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Get the <ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> the object is on, if it has one. Must not be used without using remote API. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5501" column="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Allows you to define your own containers by deriving from this class. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>For the custom class deriving from <ref refid="classansys_1_1dpf_1_1CustomContainerBase" kindref="compound">CustomContainerBase</ref> to be fully supported by DPF features (connection to Operator, remote access, multi languages API), all private attributes should registered into the GenericDataContainer held. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ansys::dpf::Changelog</label>
+        <link refid="classansys_1_1dpf_1_1Changelog"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ansys::dpf::CustomContainerBase</label>
+        <link refid="classansys_1_1dpf_1_1CustomContainerBase"/>
+      </node>
+    </inheritancegraph>
+    <location file="dpf_api.h" line="5464" column="1" bodyfile="dpf_api.h" bodystart="5465" bodyend="5502"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1CustomContainerBase_1a117aede0de0250a9c8eb5481377e64cc" prot="private" virt="non-virtual"><scope>ansys::dpf::CustomContainerBase</scope><name>_container</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomContainerBase_1a595ca7a2057dd128a01676b24e622c08" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomContainerBase</scope><name>container</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomContainerBase_1a43b2fea572fa3298d6405cf7f497c78b" prot="public" virt="virtual"><scope>ansys::dpf::CustomContainerBase</scope><name>container</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomContainerBase_1ab2649202d9da1730e164634a4d864f3e" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomContainerBase</scope><name>CustomContainerBase</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomContainerBase_1a0dbdad77df7b779da34e8fa283a6597f" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomContainerBase</scope><name>CustomContainerBase</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomContainerBase_1ae7229c52821828cec4fca9dce836ee55" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomContainerBase</scope><name>CustomContainerBase</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomContainerBase_1a65a8a6f6585ddf80c7e0dfdf9b9c50f5" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomContainerBase</scope><name>describe</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomContainerBase_1a1ba98abe5c74497c829744f302de3cb5" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomContainerBase</scope><name>getAttributeNames</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomContainerBase_1ae048111b288fdbddfd3a5ab07438bc85" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomContainerBase</scope><name>getClient</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomContainerBase_1a7692a444bc417444608df8174fbb9e65" prot="private" virt="non-virtual"><scope>ansys::dpf::CustomContainerBase</scope><name>internalObj</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomContainerBase_1a1b6aa8a1be22a9f53f16a8620cc8b951" prot="private" virt="non-virtual"><scope>ansys::dpf::CustomContainerBase</scope><name>setContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomContainerBase_1ac437033b807c1811dcd08e9ed527ef46" prot="private" virt="non-virtual"><scope>ansys::dpf::CustomContainerBase</scope><name>swap</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomContainerBase_1a352060b066a01aeda0631390b664f021" prot="public" virt="virtual"><scope>ansys::dpf::CustomContainerBase</scope><name>~CustomContainerBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

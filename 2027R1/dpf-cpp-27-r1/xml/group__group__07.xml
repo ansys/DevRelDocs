@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="group__group__07" kind="group">
+    <compoundname>group_07</compoundname>
+    <title>Using DPF XML Files</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This section describes the XML files associated with DataProcessingCore and DPF plugins. These DPF files work on both Windows and Linux operating systems. The files can contain content for both operating systems.</para>
+<para>The XML files must be located alongside the plugin DLL files on Windows, or SO files on Linux.</para>
+<sect1 id="group__group__07_1autotoc_md65_1s1"><sect2 id="group__group__07_1autotoc_md65">
+<title>DataProcessingCore File</title><para>The content and format of the DataProcessingCore.xml file is as follows:</para>
+<para><programlisting><codeline><highlight class="normal">&lt;?xml<sp/>version=&quot;1.0&quot;?&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal">&lt;DPF<sp/>version=&quot;1.0&quot;&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;Environment&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Linux&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;ANSYS_ROOT_FOLDER&gt;/usr/local/ansys_inc/v271&lt;/ANSYS_ROOT_FOLDER&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/Linux&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Windows&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;ANSYS_ROOT_FOLDER&gt;E:\ANSYSDev\ANSYS<sp/>Inc\v271&lt;/ANSYS_ROOT_FOLDER&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/Windows&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/Environment&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;DefaultPlugins&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Linux&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;native&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Path&gt;libAns.Dpf.Native.so&lt;/Path&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Loader&gt;LoadOperators&lt;/Loader&gt;<sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;UsePluginXml&gt;false&lt;/UsePluginXml&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/native&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/Linux&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Windows&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Debug&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;native&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Path&gt;$(THIS_XML_FOLDER)\Ans.Dpf.NativeD.dll&lt;/Path&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Loader&gt;LoadOperators&lt;/Loader&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/native&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/Debug&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Release&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;native&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Path&gt;Ans.Dpf.Native.dll&lt;/Path&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Loader&gt;LoadOperators&lt;/Loader&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/native&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;fem_utils&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Path&gt;$(THIS_XML_FOLDER)\Ans.Dpf.FEMUtils.dll&lt;/Path&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Loader&gt;LoadOperators&lt;/Loader&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;UsePluginXml&gt;true&lt;/UsePluginXml&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/fem_utils&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/Release&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/Windows&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/DefaultPlugins&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;SearchPath&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Linux&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Path&gt;$(ANSYS_ROOT_FOLDER)/dpf/bin/linx64&lt;/Path&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/Linux&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Windows&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Debug&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Path&gt;$(ANSYS_ROOT_FOLDER)\dpf\bin\winx64&lt;/Path&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/Debug&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Release&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Path&gt;$(ANSYS_ROOT_FOLDER)\dpf\bin\winx64&lt;/Path&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/Release&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/Windows&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/SearchPath&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;LicenseSettings&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;EnableLicenseCheckout&gt;true</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/EnableLicenseCheckout&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/LicenseSettings&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/DPF&gt;<sp/></highlight></codeline>
+</programlisting></para>
+<para>The DataProcessingCore.xml file is provided with the DPF software. Modify the file carefully to ensure that the DPF software operates correctly.</para>
+<para>Some of the sections in the file are optional, and many of the sections have Windows and Linux specific subsections.</para>
+<para>The <computeroutput>&lt;Environment&gt;</computeroutput> section is used only for defining the ROOT folder of the Ansys software. This is done with an <computeroutput>&lt;ANSYS_ROOT_FOLDER&gt;</computeroutput> tag. The root folder of the Ansys software ends with the v### folder. It could be something like C:\ansys_inc\v@doc_ansys_ver. The ANSYS_ROOT_FOLDER tag defines a variable that can be used in the other XML files. You might use it to find required third party software.</para>
+<para>If the ANSYS_ROOT_FOLDER tag is not defined in the <computeroutput>&lt;Environment&gt;</computeroutput> section within the DataProcessing.xml file, the code attempts to find the root folder relative to the DataProcessingCore DLL or SO file. This only works if the DataProcessingCore file is located in its default location.</para>
+<para>If the ANSYS_ROOT_FOLDER tag is still not defined, the root folder is determined by reading the AWP_ROOT### environment variable specific to the version of the DPF code. For example, if you are using V@doc_ansys_ver DPF code, it looks for the AWP_ROOT@doc_ansys_ver environment variable to find the root folder.</para>
+<para>ANSYS_ROOT_FOLDER is not an environment variable and can not be set accordingly.</para>
+<para>The <computeroutput>&lt;LoadOperators&gt;</computeroutput> section is used for loading the default plugins. The further subdividing of the plugins into <computeroutput>&lt;Debug&gt;</computeroutput> or <computeroutput>&lt;Release&gt;</computeroutput> sections is optional. The <computeroutput>&lt;Debug&gt;</computeroutput> section would only be used with a debug version of the DataProcessingCore DLL/SO file.</para>
+<para>The plugins to load are defined within their own section that is named by a tag like <computeroutput>&lt;native&gt;</computeroutput> or <computeroutput>&lt;fem_utils&gt;</computeroutput>. This tag is used as the <emphasis>Key</emphasis> when loading the plugin. Each plugin must have a unique key.</para>
+<para>Within the Key section are two tags that define the location of the plugin and the method of loading. The location is defined by the <computeroutput>&lt;Path&gt;</computeroutput> tag and the loading method is defined by the <computeroutput>&lt;Loader&gt;</computeroutput> tag. These are used as arguments to the loading plugin mechanism.</para>
+<para>Currently, only <emphasis>LoadOperators</emphasis> is supported for the <computeroutput>&lt;Loader&gt;</computeroutput> tag. This loads all operators within the plugin.</para>
+<para>The <computeroutput>&lt;Path&gt;</computeroutput> tag contains the location of the plugin to load. The normal mechanism that the OS uses to find a DLL/SO is used. The DLL could be in the Windows path, or the SO could be within the Linux LD_LIBRARY_PATH.</para>
+<para>The <computeroutput>&lt;UsePluginXml&gt;</computeroutput> tag contains a value that must be set to <emphasis>true</emphasis> or <emphasis>false</emphasis>. It defines if the PLUGIN.XML file (defined in next section) will be used to load the plugin or not. This tag is optional. The default value is <emphasis>true</emphasis>.</para>
+<para>Any path specified with the XML file must adhere to the path conventions of the OS. “\” for Windows and “/” for Linux.</para>
+<para>Two pre-defined variables can be used to provide an absolute path to the plugin:</para>
+<para><itemizedlist>
+<listitem><para>ANSYS_ROOT_FOLDER as defined above.</para>
+</listitem><listitem><para>THIS_XML_FOLDER defining the location of where the current XML file is located. In this case DataProcessingCore.xml.</para>
+</listitem></itemizedlist>
+</para>
+<para>Any other environment variable could be used. If you always had your plugins in a folder defined by the environment variable MY_PLUGINS, you could use that in the XML file.</para>
+<para>The environment variables are specified the same way as ANSYS_ROOT_FOLDER or THIS_XML_FOLDER. They are defined as .</para>
+<para>In the Ansys installation, the default DataProcessingCore.xml file is located next to the DataProcessingCore DLL/SO file. If you want to use a different one, you can initialize DPF using a specific DataProcessingCore.xml file. <linebreak/>
+</para>
+<para>The <computeroutput>&lt;SearchPath&gt;</computeroutput> enables to set a PATH where DPF will try to load plugins ni case they are not found using the system PATH.</para>
+<para>The <computeroutput>&lt;LicenseSettings&gt;</computeroutput> contains specific licensing setup. <computeroutput>&lt;EnableLicenseCheckout&gt;</computeroutput> tag set to false will prevent DPF to checkout any license. That implies plugins that need a license checkout won&apos;t be loaded. License checkout can also be prevented set DPF_ENABLE_LICENSE_CHECKOUT environment variable to false.</para>
+</sect2></sect1>
+<sect1 id="group__group__07_1autotoc_md66_1s1"><sect2 id="group__group__07_1autotoc_md66">
+<title>PLUGIN.XML File</title><para>The content and format of the Plugin.xml file is as follows:</para>
+<para><programlisting><codeline><highlight class="normal">&lt;?xml<sp/>version=&quot;1.0&quot;?&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal">&lt;DPF<sp/>version=&quot;1.0&quot;&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;Environment&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Linux&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;LD_LIBRARY_PATH&gt;$(ANSYS_ROOT_FOLDER)/dpf/bin/linx64:$(ANSYS_ROOT_FOLDER)/aisol/dll/linx64:$(ANSYS_ROOT_FOLDER)/aisol/lib/linx64:$(ANSYS_ROOT_FOLDER)/tp/IntelMKL/2024.2.0/linx64/lib/intel64:$(LD_LIBRARY_PATH)&lt;/LD_LIBRARY_PATH&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/Linux&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Windows&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;MY_FOLDER&gt;c:\temp&lt;/MY_FOLDER&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;PATH&gt;$(ANSYS_ROOT_FOLDER)\dpf\bin\winx64;$(ANSYS_ROOT_FOLDER)\aisol\bin\winx64;$(ANSYS_ROOT_FOLDER)\tp\IntelMKL\2024.2.3\winx64;$(ANSYS_ROOT_FOLDER)\tp\IntelCompiler\2023.1.0\winx64;$(MY_FOLDER);$(PATH)&lt;/PATH&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/Windows&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/Environment&gt;<sp/></highlight></codeline>
+<codeline><highlight class="normal">&lt;/DPF&gt;<sp/></highlight></codeline>
+</programlisting></para>
+<para>This file allows for a specific environment to be configured for loading a plugin. The <computeroutput>&lt;Environment&gt;</computeroutput> section within the plugin-specific XML file is defined the same way as the DataProcessingCore.xml file. <linebreak/>
+</para>
+<para>Any environment variables defined or used have the values at the time they are defined or used. You can effectively define a variable multiple times and keep appending it. </para>
+</sect2></sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

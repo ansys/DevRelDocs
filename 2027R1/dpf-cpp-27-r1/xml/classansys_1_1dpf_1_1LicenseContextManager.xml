@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1LicenseContextManager" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::LicenseContextManager</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1LicenseContextManager_1acad6de18945844e886403e02dfb97554" prot="private" static="no" mutable="no">
+        <type><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref></type>
+        <definition>Operator ansys::dpf::LicenseContextManager::_licensing_operator</definition>
+        <argsstring></argsstring>
+        <name>_licensing_operator</name>
+        <qualifiedname>ansys::dpf::LicenseContextManager::_licensing_operator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="7056" column="10" bodyfile="dpf_api.h" bodystart="7056" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1LicenseContextManager_1a354346a6ed7b1213e72e921372803ecb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::LicenseContextManager::LicenseContextManager</definition>
+        <argsstring>(const std::string &amp;increment_name=&quot;&quot;, const double &amp;license_timeout_in_seconds=-1)</argsstring>
+        <name>LicenseContextManager</name>
+        <qualifiedname>ansys::dpf::LicenseContextManager::LicenseContextManager</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>increment_name</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>license_timeout_in_seconds</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="7051" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1LicenseContextManager_1aec313d871268c341cc3fac58cdfd4804" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::LicenseContextManager::LicenseContextManager</definition>
+        <argsstring>(const std::vector&lt; std::string &gt; &amp;vincrement_name, int delay_checkout=1, const double &amp;license_timeout_in_seconds=-1)</argsstring>
+        <name>LicenseContextManager</name>
+        <qualifiedname>ansys::dpf::LicenseContextManager::LicenseContextManager</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>vincrement_name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>delay_checkout</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>license_timeout_in_seconds</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="7052" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1LicenseContextManager_1acf5fa66ad6835273f8241c17dcf82e27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::LicenseContextManager::LicenseContextManager</definition>
+        <argsstring>(const double &amp;license_timeout_in_seconds)</argsstring>
+        <name>LicenseContextManager</name>
+        <qualifiedname>ansys::dpf::LicenseContextManager::LicenseContextManager</qualifiedname>
+        <param>
+          <type>const double &amp;</type>
+          <declname>license_timeout_in_seconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="7053" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1LicenseContextManager_1aba62d76d30827355d69e0a565685a2cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::LicenseContextManager::getStatus</definition>
+        <argsstring>()</argsstring>
+        <name>getStatus</name>
+        <qualifiedname>ansys::dpf::LicenseContextManager::getStatus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="7054" column="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="dpf_api.h" line="7049" column="1" bodyfile="dpf_api.h" bodystart="7049" bodyend="7057"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1LicenseContextManager_1acad6de18945844e886403e02dfb97554" prot="private" virt="non-virtual"><scope>ansys::dpf::LicenseContextManager</scope><name>_licensing_operator</name></member>
+      <member refid="classansys_1_1dpf_1_1LicenseContextManager_1aba62d76d30827355d69e0a565685a2cf" prot="public" virt="non-virtual"><scope>ansys::dpf::LicenseContextManager</scope><name>getStatus</name></member>
+      <member refid="classansys_1_1dpf_1_1LicenseContextManager_1a354346a6ed7b1213e72e921372803ecb" prot="public" virt="non-virtual"><scope>ansys::dpf::LicenseContextManager</scope><name>LicenseContextManager</name></member>
+      <member refid="classansys_1_1dpf_1_1LicenseContextManager_1aec313d871268c341cc3fac58cdfd4804" prot="public" virt="non-virtual"><scope>ansys::dpf::LicenseContextManager</scope><name>LicenseContextManager</name></member>
+      <member refid="classansys_1_1dpf_1_1LicenseContextManager_1acf5fa66ad6835273f8241c17dcf82e27" prot="public" virt="non-virtual"><scope>ansys::dpf::LicenseContextManager</scope><name>LicenseContextManager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

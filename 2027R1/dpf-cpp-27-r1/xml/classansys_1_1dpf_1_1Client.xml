@@ -1,0 +1,501 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1Client" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::Client</compoundname>
+    <basecompoundref refid="classansys_1_1dpf_1_1DpfTypes" prot="public" virt="non-virtual">ansys::dpf::DpfTypes</basecompoundref>
+    <includes local="no">dpf_api_base.h</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1Client_1afa07847c7cb432b260e61a0c18025ba3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Workflow</definition>
+        <argsstring></argsstring>
+        <name>Workflow</name>
+        <qualifiedname>ansys::dpf::Client::Workflow</qualifiedname>
+        <param>
+          <type>Workflow</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1086" column="14" bodyfile="dpf_api_base.h" bodystart="1086" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1Client_1a4d716179fdda163f10d901eb583050bf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class RemoteWorkflow</definition>
+        <argsstring></argsstring>
+        <name>RemoteWorkflow</name>
+        <qualifiedname>ansys::dpf::Client::RemoteWorkflow</qualifiedname>
+        <param>
+          <type>RemoteWorkflow</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1087" column="14" bodyfile="dpf_api_base.h" bodystart="1087" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1Client_1a0188648e79792cb24b2117066be505eb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class LabelSpace</definition>
+        <argsstring></argsstring>
+        <name>LabelSpace</name>
+        <qualifiedname>ansys::dpf::Client::LabelSpace</qualifiedname>
+        <param>
+          <type>LabelSpace</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1088" column="14" bodyfile="dpf_api_base.h" bodystart="1088" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1Client_1af764561c544bacc1b90b526ee8d3c708" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class core</definition>
+        <argsstring></argsstring>
+        <name>core</name>
+        <qualifiedname>ansys::dpf::Client::core</qualifiedname>
+        <param>
+          <type>core</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1089" column="14" bodyfile="dpf_api_base.h" bodystart="1089" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1Client_1a33382a01bdd05ad6c51454d9ed2afaae" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class DpfTypes</definition>
+        <argsstring></argsstring>
+        <name>DpfTypes</name>
+        <qualifiedname>ansys::dpf::Client::DpfTypes</qualifiedname>
+        <param>
+          <type>DpfTypes</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1090" column="14" bodyfile="dpf_api_base.h" bodystart="1090" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Client_1a8f8c75395535d5f2446bbb6678568755" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Client::Client</definition>
+        <argsstring>(opaque::DpfInternalSharedObject *obj)</argsstring>
+        <name>Client</name>
+        <qualifiedname>ansys::dpf::Client::Client</qualifiedname>
+        <param>
+          <type>opaque::DpfInternalSharedObject *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1092" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Client_1ac877bd3942c9ceb5ef5fc61eda5e3445" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Client::Client</definition>
+        <argsstring>(std::string const &amp;address, so::API const *library_handle)</argsstring>
+        <name>Client</name>
+        <qualifiedname>ansys::dpf::Client::Client</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>so::API const *</type>
+          <declname>library_handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1093" column="1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Client_1ab848ac7d438cfdbac21b5c634771e5eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Client::Client</definition>
+        <argsstring>(std::string const &amp;ip, std::string const &amp;port)</argsstring>
+        <name>Client</name>
+        <qualifiedname>ansys::dpf::Client::Client</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>ip</declname>
+          <briefdescription><para>[in] server ip </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>port</declname>
+          <briefdescription><para>[in] server port </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create <ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> object from known ip and port. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1096" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Client_1a53ac66c262ddb2e4485b6590ddbe4ce6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Client::Client</definition>
+        <argsstring>(std::string const &amp;ip, std::string const &amp;port, LibraryHandle const &amp;library_handle)</argsstring>
+        <name>Client</name>
+        <qualifiedname>ansys::dpf::Client::Client</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>ip</declname>
+          <briefdescription><para>[in] server ip </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>port</declname>
+          <briefdescription><para>[in] server port </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>LibraryHandle const &amp;</type>
+          <declname>library_handle</declname>
+          <briefdescription><para>[in] the library_handle API will be used </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create <ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> from known ip, port and library handle. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1100" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Client_1a2ffa309b414af2d3c89d24e8fb1b292d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Client::Client</definition>
+        <argsstring>(std::string const &amp;address)</argsstring>
+        <name>Client</name>
+        <qualifiedname>ansys::dpf::Client::Client</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>address</declname>
+          <briefdescription><para>[in] string with &apos;ip::port&apos; format. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create <ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> from known address. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1105" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Client_1a13b12680853a5cd3d21ef45ebc8ff3cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Client::Client</definition>
+        <argsstring>(std::string const &amp;address, LibraryHandle const &amp;library_handle)</argsstring>
+        <name>Client</name>
+        <qualifiedname>ansys::dpf::Client::Client</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>address</declname>
+          <briefdescription><para>[in] string with &apos;ip::port&apos; format. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>LibraryHandle const &amp;</type>
+          <declname>library_handle</declname>
+          <briefdescription><para>[in] the library_handle API will be used </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create <ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> from known address and library handle. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1108" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Client_1a04e16bc14f5a885a01dbe0319809aed6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Client::Client</definition>
+        <argsstring>(Client const &amp;)</argsstring>
+        <name>Client</name>
+        <qualifiedname>ansys::dpf::Client::Client</qualifiedname>
+        <param>
+          <type>Client const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1111" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Client_1abd9dd9720d7ae3882753e701ccc2b911" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Client::Client</definition>
+        <argsstring>(Client &amp;&amp;) noexcept</argsstring>
+        <name>Client</name>
+        <qualifiedname>ansys::dpf::Client::Client</qualifiedname>
+        <param>
+          <type>Client &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1112" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Client_1a0bb061f147ac0b86d79eeef92d9a2089" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Client &amp;</type>
+        <definition>Client &amp; ansys::dpf::Client::operator=</definition>
+        <argsstring>(Client const &amp;)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::Client::operator=</qualifiedname>
+        <param>
+          <type>Client const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1113" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Client_1a80e74fee04787f2ca20bd0d18dc26315" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>Client &amp;</type>
+        <definition>Client &amp; ansys::dpf::Client::operator=</definition>
+        <argsstring>(Client &amp;&amp;) noexcept</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::Client::operator=</qualifiedname>
+        <param>
+          <type>Client &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1114" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Client_1ab8cad35b4ab7dc06f9afa751ea1fda30" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ansys::dpf::Client::~Client</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Client</name>
+        <qualifiedname>ansys::dpf::Client::~Client</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1115" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Client_1a639a846bb0055117950c97f1599d6818" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>opaque::DpfObject *const</type>
+        <definition>opaque::DpfObject *const ansys::dpf::Client::internalObj</definition>
+        <argsstring>() const</argsstring>
+        <name>internalObj</name>
+        <qualifiedname>ansys::dpf::Client::internalObj</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1116" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Client_1ac4d7086213dd34ecb5d83723b85a6a2c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::Client::getChannelAddress</definition>
+        <argsstring>() const</argsstring>
+        <name>getChannelAddress</name>
+        <qualifiedname>ansys::dpf::Client::getChannelAddress</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Address string with &apos;ip::port&apos; format. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1118" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Client_1a7bb04a2b5cb70a3d2439a1e31d209dbc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::Client::getProtocolName</definition>
+        <argsstring>() const</argsstring>
+        <name>getProtocolName</name>
+        <qualifiedname>ansys::dpf::Client::getProtocolName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Protocol&apos;s name. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1120" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Client_1afd0f1549caf0a53c6fdcb763648e8ff7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::Client::getOrStartLocalServer</definition>
+        <argsstring>(ansys::dpf::Streams &amp;streams, ansys::dpf::Operator &amp;stream_provider, int output_pin=0) const</argsstring>
+        <name>getOrStartLocalServer</name>
+        <qualifiedname>ansys::dpf::Client::getOrStartLocalServer</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Streams" kindref="compound">ansys::dpf::Streams</ref> &amp;</type>
+          <declname>streams</declname>
+          <briefdescription><para>[out] <ref refid="classansys_1_1dpf_1_1Streams" kindref="compound">Streams</ref> holding the started server. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">ansys::dpf::Operator</ref> &amp;</type>
+          <declname>stream_provider</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref> which can start the server. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>output_pin</declname>
+          <defval>0</defval>
+          <briefdescription><para>[in] output pin of stream_provider returning a <ref refid="classansys_1_1dpf_1_1Streams" kindref="compound">ansys::dpf::Streams</ref>. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If it doesn&apos;t exist yet, a local server is started. This local server can then be connected to by another server (usually used for bidirectional gRPC connections). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1123" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Client_1a59c1b204080ed29f91883d6671eadfbb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>so::API const *</type>
+        <definition>so::API const  * ansys::dpf::Client::callAPI</definition>
+        <argsstring>() const</argsstring>
+        <name>callAPI</name>
+        <qualifiedname>ansys::dpf::Client::callAPI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1128" column="22" bodyfile="dpf_api_base.h" bodystart="1128" bodyend="1128"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Client_1a92c3f1e9c2cdfa589372253103065f73" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Client</type>
+        <definition>static Client ansys::dpf::Client::emptyClient</definition>
+        <argsstring>()</argsstring>
+        <name>emptyClient</name>
+        <qualifiedname>ansys::dpf::Client::emptyClient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create an empty client. <simplesect kind="return"><para>Empty <ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1132" column="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> for remote DPF connection. A <ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> instance is always associated to a DPF server process. The corresponding server needs to run so that the client instance can then be correctly used. This client allows to create DPF objects on a remote server. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ansys::dpf::Client</label>
+        <link refid="classansys_1_1dpf_1_1Client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ansys::dpf::DpfTypes</label>
+        <link refid="classansys_1_1dpf_1_1DpfTypes"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ansys::dpf::Client</label>
+        <link refid="classansys_1_1dpf_1_1Client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ansys::dpf::DpfTypes</label>
+        <link refid="classansys_1_1dpf_1_1DpfTypes"/>
+      </node>
+    </collaborationgraph>
+    <location file="dpf_api_base.h" line="1083" column="1" bodyfile="dpf_api_base.h" bodystart="1084" bodyend="1133"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1Client_1a59c1b204080ed29f91883d6671eadfbb" prot="public" virt="non-virtual"><scope>ansys::dpf::Client</scope><name>callAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1Client_1a8f8c75395535d5f2446bbb6678568755" prot="private" virt="non-virtual"><scope>ansys::dpf::Client</scope><name>Client</name></member>
+      <member refid="classansys_1_1dpf_1_1Client_1ac877bd3942c9ceb5ef5fc61eda5e3445" prot="private" virt="non-virtual"><scope>ansys::dpf::Client</scope><name>Client</name></member>
+      <member refid="classansys_1_1dpf_1_1Client_1ab848ac7d438cfdbac21b5c634771e5eb" prot="public" virt="non-virtual"><scope>ansys::dpf::Client</scope><name>Client</name></member>
+      <member refid="classansys_1_1dpf_1_1Client_1a53ac66c262ddb2e4485b6590ddbe4ce6" prot="public" virt="non-virtual"><scope>ansys::dpf::Client</scope><name>Client</name></member>
+      <member refid="classansys_1_1dpf_1_1Client_1a2ffa309b414af2d3c89d24e8fb1b292d" prot="public" virt="non-virtual"><scope>ansys::dpf::Client</scope><name>Client</name></member>
+      <member refid="classansys_1_1dpf_1_1Client_1a13b12680853a5cd3d21ef45ebc8ff3cf" prot="public" virt="non-virtual"><scope>ansys::dpf::Client</scope><name>Client</name></member>
+      <member refid="classansys_1_1dpf_1_1Client_1a04e16bc14f5a885a01dbe0319809aed6" prot="public" virt="non-virtual"><scope>ansys::dpf::Client</scope><name>Client</name></member>
+      <member refid="classansys_1_1dpf_1_1Client_1abd9dd9720d7ae3882753e701ccc2b911" prot="public" virt="non-virtual"><scope>ansys::dpf::Client</scope><name>Client</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9977945710983bc03d2940fa007847b2" prot="public" virt="virtual"><scope>ansys::dpf::Client</scope><name>describe</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459" prot="public" virt="virtual"><scope>ansys::dpf::Client</scope><name>empty</name></member>
+      <member refid="classansys_1_1dpf_1_1Client_1a92c3f1e9c2cdfa589372253103065f73" prot="public" virt="non-virtual"><scope>ansys::dpf::Client</scope><name>emptyClient</name></member>
+      <member refid="classansys_1_1dpf_1_1Client_1ac4d7086213dd34ecb5d83723b85a6a2c" prot="public" virt="non-virtual"><scope>ansys::dpf::Client</scope><name>getChannelAddress</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a968afd9daa0b0f13b65a2ac61369d73a" prot="public" virt="non-virtual"><scope>ansys::dpf::Client</scope><name>getClient</name></member>
+      <member refid="classansys_1_1dpf_1_1Client_1afd0f1549caf0a53c6fdcb763648e8ff7" prot="public" virt="non-virtual"><scope>ansys::dpf::Client</scope><name>getOrStartLocalServer</name></member>
+      <member refid="classansys_1_1dpf_1_1Client_1a7bb04a2b5cb70a3d2439a1e31d209dbc" prot="public" virt="non-virtual"><scope>ansys::dpf::Client</scope><name>getProtocolName</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a1a5634202c15404b6b24e8f50e51cb66" prot="public" virt="non-virtual"><scope>ansys::dpf::Client</scope><name>hasBeenMovedLocally</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ae198f89868d85c7db6dc1a934a1d3c15" prot="public" virt="virtual"><scope>ansys::dpf::Client</scope><name>hasInternalObject</name></member>
+      <member refid="classansys_1_1dpf_1_1Client_1a639a846bb0055117950c97f1599d6818" prot="public" virt="non-virtual"><scope>ansys::dpf::Client</scope><name>internalObj</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9f9789ff61cc9d400a2a344830706b73" prot="public" virt="non-virtual"><scope>ansys::dpf::Client</scope><name>isOnCommonAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1aa64d5f8fcd7d85ad6ebf708494dbefd7" prot="public" virt="non-virtual"><scope>ansys::dpf::Client</scope><name>isSameObject</name></member>
+      <member refid="classansys_1_1dpf_1_1Client_1a0bb061f147ac0b86d79eeef92d9a2089" prot="public" virt="non-virtual"><scope>ansys::dpf::Client</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1Client_1a80e74fee04787f2ca20bd0d18dc26315" prot="public" virt="non-virtual"><scope>ansys::dpf::Client</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1Client_1ab8cad35b4ab7dc06f9afa751ea1fda30" prot="public" virt="virtual"><scope>ansys::dpf::Client</scope><name>~Client</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ab7c83b6ea160c2b115e056f6c312112f" prot="public" virt="virtual"><scope>ansys::dpf::Client</scope><name>~DpfTypes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

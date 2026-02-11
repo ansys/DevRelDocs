@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="Readme_8txt" kind="file" language="Markdown">
+    <compoundname>Readme.txt</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">How<sp/>to<sp/>Use<sp/>the<sp/>Examples</highlight></codeline>
+<codeline><highlight class="normal">-----------------------</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&lt;pre&gt;</highlight></codeline>
+<codeline><highlight class="normal">The<sp/>Examples<sp/>folder<sp/>contains<sp/>some<sp/>example<sp/>files<sp/>that<sp/>demonstrate<sp/>how<sp/>to<sp/>use<sp/>DPF.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>DPF<sp/>API<sp/>is<sp/>written<sp/>using<sp/>an<sp/>Hour<sp/>Glass<sp/>Pattern.<sp/>HGP<sp/>removes<sp/>the<sp/>requirement</highlight></codeline>
+<codeline><highlight class="normal">of<sp/>linking<sp/>DPF<sp/>libraries<sp/>into<sp/>user<sp/>code.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>included<sp/>example<sp/>code<sp/>compiles<sp/>on<sp/>both<sp/>Windows<sp/>and<sp/>Linux.<sp/>It<sp/>demonstrates</highlight></codeline>
+<codeline><highlight class="normal">how<sp/>to<sp/>use<sp/>many<sp/>of<sp/>the<sp/>functions<sp/>within<sp/>the<sp/>DPF<sp/>API.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">There<sp/>is<sp/>a<sp/>simple<sp/>example,<sp/>CompleteRST.cpp,<sp/>for<sp/>loading<sp/>a<sp/>Mechanical<sp/>RST<sp/>file.</highlight></codeline>
+<codeline><highlight class="normal">The<sp/>code<sp/>demonstrates<sp/>how<sp/>to<sp/>read<sp/>the<sp/>mesh<sp/>and<sp/>the<sp/>results.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>ModelTest.cpp<sp/>file<sp/>shows<sp/>how<sp/>to<sp/>read<sp/>more<sp/>detailed<sp/>information<sp/>from<sp/>RST</highlight></codeline>
+<codeline><highlight class="normal">files.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>ResultTest.cpp<sp/>file<sp/>shows<sp/>how<sp/>to<sp/>read<sp/>result-related<sp/>data<sp/>from<sp/>RST<sp/>files.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Each<sp/>of<sp/>these<sp/>files<sp/>contains<sp/>several<sp/>self-contained<sp/>examples.<sp/>In<sp/>each<sp/>example,</highlight></codeline>
+<codeline><highlight class="normal">information<sp/>is<sp/>read<sp/>from<sp/>a<sp/>file<sp/>and<sp/>compared<sp/>to<sp/>expected<sp/>values.<sp/>When<sp/>compiled<sp/>and<sp/>run,<sp/>the<sp/>example</highlight></codeline>
+<codeline><highlight class="normal">code<sp/>produces<sp/>output<sp/>similar<sp/>to<sp/>the<sp/>following:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ResultsreadSEQV<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ResultsreadSEQVAtGivenNode<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ResultsreadSEQVAtGivenNodes<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ResultsreadTemperatures<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ResultsreadSXAtGivenNamedSelection<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ResultsreadSXAtGivenStepIndexAndSubStep<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ResultsreadSEQVAmplitudeAtGivenTime<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ResultsreadSEQVAmplitudeAtGivenTimeIndex<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/>ResultsreadSEQVAmplitudeAtGivenStepAndSubStep<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ResultsreadSEQVWithPhaseAtGivenTime<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ResultsreadSEQVWithPhaseAtGivenTimeIndex<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/>ResultsreadSEQVWithPhaseAtGivenStepIndexAndSubStep<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ModelreadMetaData<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ModelreadResultInfo<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ModelaccessTimeFreqSupport<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ModelreadNamedSelections<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/>ModelCreateResultEvaluationWorkflowInclusive<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CompleteRST<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">On<sp/>Windows,<sp/>the<sp/>console<sp/>window<sp/>will<sp/>generally<sp/>disappear<sp/>if<sp/>no<sp/>error<sp/>occurs.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">If<sp/>an<sp/>error<sp/>occurs,<sp/>the<sp/>output<sp/>could<sp/>look<sp/>like:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ResultsreadSEQV<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ResultsreadSEQVAtGivenNode<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ResultsreadSEQVAtGivenNodes<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ResultsreadTemperatures<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ResultsreadSXAtGivenNamedSelection<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ResultsreadSXAtGivenStepIndexAndSubStep<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ResultsreadSEQVAmplitudeAtGivenTime<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ResultsreadSEQVAmplitudeAtGivenTimeIndex<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/>ResultsreadSEQVAmplitudeAtGivenStepAndSubStep<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ResultsreadSEQVWithPhaseAtGivenTime<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ResultsreadSEQVWithPhaseAtGivenTimeIndex<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/>ResultsreadSEQVWithPhaseAtGivenStepIndexAndSubStep<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ModelreadMetaData<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ModelreadResultInfo<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ModelaccessTimeFreqSupport<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ModelreadNamedSelections<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/>ModelCreateResultEvaluationWorkflowInclusive<sp/><sp/><sp/><sp/>Success</highlight></codeline>
+<codeline><highlight class="normal">Running<sp/>Example:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CompleteRST<sp/><sp/><sp/><sp/>Fail<sp/>-<sp/>File:<sp/>CompleteRST.cpp<sp/>Line:<sp/>126<sp/>Condition:<sp/>elementTypesData.size()<sp/>==<sp/>4</highlight></codeline>
+<codeline><highlight class="normal">Press<sp/>enter<sp/>to<sp/>continue</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>console<sp/>will<sp/>pause,<sp/>waiting<sp/>for<sp/>input.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">To<sp/>build<sp/>the<sp/>example<sp/>code,<sp/>a<sp/>vcxproj<sp/>file<sp/>is<sp/>included<sp/>for<sp/>Windows<sp/>and<sp/>a</highlight></codeline>
+<codeline><highlight class="normal">Makefile<sp/>is<sp/>included<sp/>for<sp/>Linux.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Windows</highlight></codeline>
+<codeline><highlight class="normal">-------</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">1.<sp/>Change<sp/>to<sp/>the<sp/>Examples<sp/>folder.</highlight></codeline>
+<codeline><highlight class="normal">2.<sp/>Load<sp/>the<sp/>Example.vcxproj<sp/>file<sp/>into<sp/>Visual<sp/>Studio.</highlight></codeline>
+<codeline><highlight class="normal">3.<sp/>Build<sp/>the<sp/>solution.<sp/>DPF_Examples.exe<sp/>is<sp/>created.</highlight></codeline>
+<codeline><highlight class="normal">4.<sp/>Press<sp/>F5<sp/>in<sp/>Visual<sp/>Studio<sp/>to<sp/>run<sp/>the<sp/>code.<sp/>If<sp/>an<sp/>error<sp/>occurs,<sp/>the<sp/>program</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>will<sp/>pause<sp/>after<sp/>running<sp/>and<sp/>show<sp/>the<sp/>results<sp/>of<sp/>running<sp/>the<sp/>examples.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">If<sp/>DPF<sp/>was<sp/>installed<sp/>as<sp/>part<sp/>of<sp/>a<sp/>normal<sp/>Ansys<sp/>Software<sp/>installation,<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">required<sp/>.dll<sp/>files<sp/>are<sp/>available<sp/>for<sp/>running<sp/>the<sp/>DPF<sp/>example<sp/>code.<sp/><sp/>The<sp/>vcxproj</highlight></codeline>
+<codeline><highlight class="normal">file<sp/>sets<sp/>the<sp/>working<sp/>folder<sp/>to<sp/>the<sp/>build<sp/>folder<sp/>and<sp/>adds<sp/>appropriate<sp/>folders</highlight></codeline>
+<codeline><highlight class="normal">to<sp/>the<sp/>PATH<sp/>before<sp/>running<sp/>the<sp/>code<sp/>(location<sp/>of<sp/>DataProcessingCore.dll<sp/>must<sp/>be<sp/></highlight></codeline>
+<codeline><highlight class="normal">known<sp/>by<sp/>the<sp/>system<sp/>PATH).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Linux</highlight></codeline>
+<codeline><highlight class="normal">-----</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">1.<sp/>Change<sp/>to<sp/>the<sp/>Examples<sp/>folder.</highlight></codeline>
+<codeline><highlight class="normal">2.<sp/>Run<sp/>the<sp/>command<sp/>&quot;make&quot;.<sp/><sp/>This<sp/>builds<sp/>the<sp/>DPF_Examples<sp/>executable.</highlight></codeline>
+<codeline><highlight class="normal">3.<sp/>Run<sp/>the<sp/>command<sp/>&quot;make<sp/>run&quot;.<sp/>This<sp/>runs<sp/>the<sp/>DPF_Examples<sp/>executable.</highlight></codeline>
+<codeline><highlight class="normal">4.<sp/>Run<sp/>the<sp/>command<sp/>&quot;Make<sp/>clean&quot;,<sp/>to<sp/>clean<sp/>up.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">If<sp/>DPF<sp/>was<sp/>installed<sp/>as<sp/>part<sp/>of<sp/>a<sp/>normal<sp/>Ansys<sp/>Software<sp/>installation,<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">required<sp/>.so<sp/>files<sp/>are<sp/>available<sp/>for<sp/>running<sp/>the<sp/>example<sp/>code.<sp/>The<sp/>Makefile<sp/>sets</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>working<sp/>folder<sp/>to<sp/>the<sp/>build<sp/>folder<sp/>and<sp/>configures<sp/>LD_LIBRARY_PATH<sp/>and</highlight></codeline>
+<codeline><highlight class="normal">LD_PRELOAD<sp/>before<sp/>running<sp/>the<sp/>code.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Notes<sp/>regarding<sp/>LD_LIBRARY_PATH<sp/>and<sp/>LD_PRELOAD:<sp/></highlight></codeline>
+<codeline><highlight class="normal">1.<sp/>LD_LIBRARY_PATH<sp/>must<sp/>be<sp/>set<sp/>to<sp/>target<sp/>the<sp/>location<sp/>of<sp/>libDataProcessingCore.so.</highlight></codeline>
+<codeline><highlight class="normal">2.<sp/>LD_PRELOAD<sp/>must<sp/>be<sp/>set<sp/>to<sp/>target<sp/>the<sp/>libstdc++.so.6,<sp/>libiomp5.so,<sp/>libmkl_core.so<sp/>and<sp/>libmkl_intel_thread.so<sp/>locations.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Facing<sp/>issues<sp/>when<sp/>running<sp/>the<sp/>LD_PRELOAD<sp/>related<sp/>command,<sp/>edit<sp/>the<sp/>Makefile.<sp/>In<sp/>the<sp/>run<sp/>command,<sp/>replace<sp/>the<sp/>following<sp/>line:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>export<sp/>LD_LIBRARY_PATH=$(ANSYSDIR)/dpf/bin/linx64:$(LD_LIBRARY_PATH)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>export<sp/>LD_PRELOAD=$(ANSYSDIR)/dpf/bin/linx64/libiomp5.so:$(ANSYSDIR)/dpf/bin/linx64/libmkl_core.so:$(ANSYSDIR)/dpf/bin/linx64/libmkl_intel_thread.so:$(ANSYSDIR)/tp/stdc++/libstdc++.so.6:$(LD_PRELOAD)</highlight></codeline>
+<codeline><highlight class="normal">These<sp/>lines<sp/>must<sp/>be<sp/>replaced<sp/>with<sp/>the<sp/>following<sp/>content:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>export<sp/>LD_LIBRARY_PATH=$(ANSYSDIR)/aisol/dll/linx64:$(LD_LIBRARY_PATH)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>export<sp/>LD_PRELOAD=$(ANSYSDIR)/tp/IntelCompiler/2023.1.0/linx64/lib/intel64/libiomp5.so:$(ANSYSDIR)/tp/IntelMKL/2024.2.0/linx64/lib/intel64/libmkl_core.so:$(ANSYSDIR)/tp/IntelMKL/2024.2.0/linx64/lib/intel64/libmkl_intel_thread.so:$(ANSYSDIR)/tp/stdc++/libstdc++.so.6:$(LD_PRELOAD)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Note</highlight></codeline>
+<codeline><highlight class="normal">----</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>example<sp/>code<sp/>looks<sp/>for<sp/>data<sp/>files<sp/>relative<sp/>to<sp/>the<sp/>build<sp/>folder.<sp/>You<sp/>must<sp/>be</highlight></codeline>
+<codeline><highlight class="normal">in<sp/>the<sp/>build<sp/>folder<sp/>before<sp/>running<sp/>the<sp/>example<sp/>executable.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>data<sp/>files<sp/>are<sp/>in<sp/>the<sp/>&quot;testfiles&quot;<sp/>folder<sp/>at<sp/>the<sp/>DPF<sp/>root.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>example<sp/>code<sp/>requires<sp/>many<sp/>common<sp/>files<sp/>from<sp/>Ansys<sp/>to<sp/>run,<sp/>so<sp/>DPF<sp/>must<sp/>be</highlight></codeline>
+<codeline><highlight class="normal">installed<sp/>with<sp/>Ansys<sp/>software.</highlight></codeline>
+    </programlisting>
+    <location file="Examples/Readme.txt"/>
+  </compounddef>
+</doxygen>

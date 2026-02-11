@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="structansys_1_1dpf_1_1core_1_1logging_1_1internal" kind="struct" language="C++" prot="public">
+    <compoundname>ansys::dpf::core::logging::internal</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structansys_1_1dpf_1_1core_1_1logging_1_1internal_1a13b90dd3f303664af8d31638e7afb0cb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1DataTree" kindref="compound">DataTree</ref></type>
+        <definition>static DataTree ansys::dpf::core::logging::internal::createRegisterLoggerParams</definition>
+        <argsstring>(std::string const &amp;logger_name, LoggerConfig const &amp;config, Client const *const client=nullptr)</argsstring>
+        <name>createRegisterLoggerParams</name>
+        <qualifiedname>ansys::dpf::core::logging::internal::createRegisterLoggerParams</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>logger_name</declname>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1core_1_1logging_1_1LoggerConfig" kindref="compound">LoggerConfig</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> const *const</type>
+          <declname>client</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6749" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1core_1_1logging_1_1internal_1a3a9e68b5ba988bc6efede0511b1c1a90" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1DataTree" kindref="compound">DataTree</ref></type>
+        <definition>static DataTree ansys::dpf::core::logging::internal::createGetLoggerParams</definition>
+        <argsstring>(std::string const &amp;logger_name, Client const *const client=nullptr)</argsstring>
+        <name>createGetLoggerParams</name>
+        <qualifiedname>ansys::dpf::core::logging::internal::createGetLoggerParams</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>logger_name</declname>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> const *const</type>
+          <declname>client</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6751" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="dpf_api.h" line="6746" column="1" bodyfile="dpf_api.h" bodystart="6747" bodyend="6752"/>
+    <listofallmembers>
+      <member refid="structansys_1_1dpf_1_1core_1_1logging_1_1internal_1a3a9e68b5ba988bc6efede0511b1c1a90" prot="public" virt="non-virtual"><scope>ansys::dpf::core::logging::internal</scope><name>createGetLoggerParams</name></member>
+      <member refid="structansys_1_1dpf_1_1core_1_1logging_1_1internal_1a13b90dd3f303664af8d31638e7afb0cb" prot="public" virt="non-virtual"><scope>ansys::dpf::core::logging::internal</scope><name>createRegisterLoggerParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

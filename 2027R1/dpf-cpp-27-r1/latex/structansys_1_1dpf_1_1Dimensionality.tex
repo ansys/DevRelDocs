@@ -1,0 +1,106 @@
+\doxysection{ansys::\+dpf::\+Dimensionality Struct Reference}
+\hypertarget{structansys_1_1dpf_1_1Dimensionality}{}\label{structansys_1_1dpf_1_1Dimensionality}\index{ansys::dpf::Dimensionality@{ansys::dpf::Dimensionality}}
+
+
+{\ttfamily \+\#include $<$dpf\+\_\+api\+\_\+base.\+h$>$}
+
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \doxymbox{\hyperlink{structansys_1_1dpf_1_1Dimensionality_af4666dee615e27f2fe603240631b932f}{ENature}} \{ \newline
+{\bfseries e\+Scalar} = 0
+, {\bfseries e\+Vector} = 1
+, {\bfseries e\+Matrix} = 2
+, {\bfseries e\+Third\+Order\+Tensor} = 3
+, \newline
+{\bfseries e\+Fourth\+Order\+Tensor} = 4
+, {\bfseries e\+Symmetrical\+Matrix} = 5
+, {\bfseries e\+Diagonal\+Matrix} = 6
+, {\bfseries e\+Symetric\+Voigt\+Matrix} = 7
+, \newline
+{\bfseries e\+Identity\+Matrix} = 8
+, {\bfseries e\+Fourth\+Order\+Identity\+Tensor} = 9
+ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{structansys_1_1dpf_1_1Dimensionality_ac125b96a9c3925b3de25e96b567dde82}{Dimensionality}} (\doxymbox{\hyperlink{structansys_1_1dpf_1_1Dimensionality_af4666dee615e27f2fe603240631b932f}{ENature}} innature, std::\+vector$<$ int $>$ const \&incomponents)
+\item 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} \doxymbox{\hyperlink{structansys_1_1dpf_1_1Dimensionality_a17e3ae4b1a740d42176086de8873608e}{number\+Of\+Components}} () const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std::\+vector$<$ int $>$ \doxymbox{\hyperlink{structansys_1_1dpf_1_1Dimensionality_a5b2b368e4a13cf72be8a3e4f579c4284}{components}}
+\item 
+\doxymbox{\hyperlink{structansys_1_1dpf_1_1Dimensionality_af4666dee615e27f2fe603240631b932f}{ENature}} \doxymbox{\hyperlink{structansys_1_1dpf_1_1Dimensionality_ad0a69f176729f5196b59701ebc94c379}{nature}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Entity to describe the dimensionality. \begin{DoxySeeAlso}{See also}
+\doxylink{structansys_1_1dpf_1_1dimensionalities}{dimensionalities} 
+\end{DoxySeeAlso}
+
+
+\label{doc-enum-members}
+\Hypertarget{structansys_1_1dpf_1_1Dimensionality_doc-enum-members}
+\doxysubsection{Member Enumeration Documentation}
+\Hypertarget{structansys_1_1dpf_1_1Dimensionality_af4666dee615e27f2fe603240631b932f}\index{ansys::dpf::Dimensionality@{ansys::dpf::Dimensionality}!ENature@{ENature}}
+\index{ENature@{ENature}!ansys::dpf::Dimensionality@{ansys::dpf::Dimensionality}}
+\doxysubsubsection{\texorpdfstring{ENature}{ENature}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1Dimensionality_af4666dee615e27f2fe603240631b932f} 
+enum \doxymbox{\hyperlink{structansys_1_1dpf_1_1Dimensionality_af4666dee615e27f2fe603240631b932f}{ansys::\+dpf::\+\+Dimensionality::\+\+ENature}}}
+
+Enum value to describe handled entities dimensions. \begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{ResultTest_8cpp-example}{Result\+Test.\+cpp}}.\end{Desc}
+
+
+\label{doc-constructors}
+\Hypertarget{structansys_1_1dpf_1_1Dimensionality_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{structansys_1_1dpf_1_1Dimensionality_ac125b96a9c3925b3de25e96b567dde82}\index{ansys::dpf::Dimensionality@{ansys::dpf::Dimensionality}!Dimensionality@{Dimensionality}}
+\index{Dimensionality@{Dimensionality}!ansys::dpf::Dimensionality@{ansys::dpf::Dimensionality}}
+\doxysubsubsection{\texorpdfstring{Dimensionality()}{Dimensionality()}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1Dimensionality_ac125b96a9c3925b3de25e96b567dde82} 
+ansys::\+dpf::\+\+Dimensionality::\+\+Dimensionality (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{structansys_1_1dpf_1_1Dimensionality_af4666dee615e27f2fe603240631b932f}{ENature}}}]{innature}{, }\item[{std::\+vector$<$ int $>$ const \&}]{incomponents}{}\end{DoxyParamCaption})}
+
+\doxylink{structansys_1_1dpf_1_1Dimensionality}{Dimensionality} object that describes the entity dimensions. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em incomponents} & \doxylink{structansys_1_1dpf_1_1Dimensionality_af4666dee615e27f2fe603240631b932f}{ENature} enum value to describe the dimension of the entity. \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{structansys_1_1dpf_1_1Dimensionality_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{structansys_1_1dpf_1_1Dimensionality_a17e3ae4b1a740d42176086de8873608e}\index{ansys::dpf::Dimensionality@{ansys::dpf::Dimensionality}!numberOfComponents@{numberOfComponents}}
+\index{numberOfComponents@{numberOfComponents}!ansys::dpf::Dimensionality@{ansys::dpf::Dimensionality}}
+\doxysubsubsection{\texorpdfstring{numberOfComponents()}{numberOfComponents()}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1Dimensionality_a17e3ae4b1a740d42176086de8873608e} 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} ansys::\+dpf::\+\+Dimensionality::\+number\+Of\+Components (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\+[in]\+ Vector defining size of each dimension.\begin{DoxyReturn}{Returns}
+The number of components of the described entity. 
+\end{DoxyReturn}
+
+
+\label{doc-variable-members}
+\Hypertarget{structansys_1_1dpf_1_1Dimensionality_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{structansys_1_1dpf_1_1Dimensionality_a5b2b368e4a13cf72be8a3e4f579c4284}\index{ansys::dpf::Dimensionality@{ansys::dpf::Dimensionality}!components@{components}}
+\index{components@{components}!ansys::dpf::Dimensionality@{ansys::dpf::Dimensionality}}
+\doxysubsubsection{\texorpdfstring{components}{components}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1Dimensionality_a5b2b368e4a13cf72be8a3e4f579c4284} 
+std::\+vector$<$int$>$ ansys::\+dpf::\+\+Dimensionality::\+components}
+
+Vector defining size of each dimension. For example, use \{ 1 \} for scalar, \{ 3 \} for a 3D vector, and \{ 3, 3 \} for 3D tensor. \Hypertarget{structansys_1_1dpf_1_1Dimensionality_ad0a69f176729f5196b59701ebc94c379}\index{ansys::dpf::Dimensionality@{ansys::dpf::Dimensionality}!nature@{nature}}
+\index{nature@{nature}!ansys::dpf::Dimensionality@{ansys::dpf::Dimensionality}}
+\doxysubsubsection{\texorpdfstring{nature}{nature}}
+{\footnotesize\ttfamily \label{structansys_1_1dpf_1_1Dimensionality_ad0a69f176729f5196b59701ebc94c379} 
+\doxymbox{\hyperlink{structansys_1_1dpf_1_1Dimensionality_af4666dee615e27f2fe603240631b932f}{ENature}} ansys::\+dpf::\+\+Dimensionality::\+nature}
+
+\doxylink{structansys_1_1dpf_1_1Dimensionality_af4666dee615e27f2fe603240631b932f}{ENature} enum value to describe the dimension of the entity. 

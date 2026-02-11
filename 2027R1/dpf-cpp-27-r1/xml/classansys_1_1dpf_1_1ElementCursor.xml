@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1ElementCursor" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::ElementCursor</compoundname>
+    <includes local="no">dpf_api.h</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1ElementCursor_1abb31806c269987c4a5e2a51f1f4d4d39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class MeshedRegion</definition>
+        <argsstring></argsstring>
+        <name>MeshedRegion</name>
+        <qualifiedname>ansys::dpf::ElementCursor::MeshedRegion</qualifiedname>
+        <param>
+          <type>MeshedRegion</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="997" column="14" bodyfile="dpf_api.h" bodystart="997" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1ElementCursor_1a2d8cd8734fa6ef0b9a36bebb54af6f5a" prot="private" static="no" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref> *</type>
+        <definition>const ElementDescriptor* ansys::dpf::ElementCursor::_descriptor</definition>
+        <argsstring></argsstring>
+        <name>_descriptor</name>
+        <qualifiedname>ansys::dpf::ElementCursor::_descriptor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1000" column="25" bodyfile="dpf_api.h" bodystart="1000" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1ElementCursor_1a2cede84b2d6cb2228836fb6b91cb7cda" prot="private" static="no" mutable="no">
+        <type>const <ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref> *</type>
+        <definition>const dp_int* ansys::dpf::ElementCursor::_connectivity</definition>
+        <argsstring></argsstring>
+        <name>_connectivity</name>
+        <qualifiedname>ansys::dpf::ElementCursor::_connectivity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1001" column="14" bodyfile="dpf_api.h" bodystart="1001" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1ElementCursor_1a7624d6f01af77eee5d2c52ce8443268e" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+        <definition>dp_int ansys::dpf::ElementCursor::_effective_size</definition>
+        <argsstring></argsstring>
+        <name>_effective_size</name>
+        <qualifiedname>ansys::dpf::ElementCursor::_effective_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1002" column="8" bodyfile="dpf_api.h" bodystart="1002" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1ElementCursor_1a7fee5ce285ed04472c8f3bc65537d5b1" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceansys_1_1dpf_1ab4574c9af3f2bb8011da7d1f4c8da20e" kindref="member">dp_id</ref></type>
+        <definition>dp_id ansys::dpf::ElementCursor::_id</definition>
+        <argsstring></argsstring>
+        <name>_id</name>
+        <qualifiedname>ansys::dpf::ElementCursor::_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1003" column="7" bodyfile="dpf_api.h" bodystart="1003" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1ElementCursor_1a686dcc5429dce2a5de2cf24c9c947b0e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ansys::dpf::ElementCursor::_is_defined</definition>
+        <argsstring></argsstring>
+        <name>_is_defined</name>
+        <qualifiedname>ansys::dpf::ElementCursor::_is_defined</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1004" column="6" bodyfile="dpf_api.h" bodystart="1004" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ElementCursor_1ae5a794891c2c4ce555ef9ebed86c72c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::ElementCursor::ElementCursor</definition>
+        <argsstring>()</argsstring>
+        <name>ElementCursor</name>
+        <qualifiedname>ansys::dpf::ElementCursor::ElementCursor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1007" column="1" bodyfile="dpf_api.h" bodystart="1007" bodyend="1013"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ElementCursor_1ab3b7e0f631546b360d00d30f57475d29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::ElementCursor::ElementCursor</definition>
+        <argsstring>(ElementCursor const &amp;)=delete</argsstring>
+        <name>ElementCursor</name>
+        <qualifiedname>ansys::dpf::ElementCursor::ElementCursor</qualifiedname>
+        <param>
+          <type>ElementCursor const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1014" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ElementCursor_1a42a87b28ff9b8cd52894405beb4f8aa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::ElementCursor::ElementCursor</definition>
+        <argsstring>(ElementCursor &amp;&amp;)=delete</argsstring>
+        <name>ElementCursor</name>
+        <qualifiedname>ansys::dpf::ElementCursor::ElementCursor</qualifiedname>
+        <param>
+          <type>ElementCursor &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1015" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ElementCursor_1af3c4e595a62ac09aca9de7fc2322bb62" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref> const &amp;</type>
+        <definition>ElementDescriptor const  &amp; ansys::dpf::ElementCursor::descriptor</definition>
+        <argsstring>() const</argsstring>
+        <name>descriptor</name>
+        <qualifiedname>ansys::dpf::ElementCursor::descriptor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Element descriptor for cursor. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1018" column="32" bodyfile="dpf_api.h" bodystart="1018" bodyend="1018"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ElementCursor_1a54ae9b25c375c752682a7dff04603348" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+        <definition>dp_int ansys::dpf::ElementCursor::numberOfNodes</definition>
+        <argsstring>() const</argsstring>
+        <name>numberOfNodes</name>
+        <qualifiedname>ansys::dpf::ElementCursor::numberOfNodes</qualifiedname>
+        <briefdescription>
+<para>@ return Number of nodes in element. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1020" column="15" bodyfile="dpf_api.h" bodystart="1020" bodyend="1020"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ElementCursor_1a5e7ffc770ff20b75c5353f34aae6c687" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+        <definition>dp_int ansys::dpf::ElementCursor::numberOfCornerNodes</definition>
+        <argsstring>() const</argsstring>
+        <name>numberOfCornerNodes</name>
+        <qualifiedname>ansys::dpf::ElementCursor::numberOfCornerNodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Number of corner nodes in element. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1022" column="15" bodyfile="dpf_api.h" bodystart="1022" bodyend="1022"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ElementCursor_1a1710596a51fd20b7cc2e087cd78790a9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+        <definition>dp_int ansys::dpf::ElementCursor::numberOfMidNodes</definition>
+        <argsstring>() const</argsstring>
+        <name>numberOfMidNodes</name>
+        <qualifiedname>ansys::dpf::ElementCursor::numberOfMidNodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Number of mid-side nodes in element. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1024" column="15" bodyfile="dpf_api.h" bodystart="1024" bodyend="1024"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ElementCursor_1a2c9af98ac05f0b60cdac5f3baeece638" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+        <definition>dp_int ansys::dpf::ElementCursor::effectiveSize</definition>
+        <argsstring>() const</argsstring>
+        <name>effectiveSize</name>
+        <qualifiedname>ansys::dpf::ElementCursor::effectiveSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Number of nodes in cursor. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1026" column="15" bodyfile="dpf_api.h" bodystart="1026" bodyend="1026"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ElementCursor_1a4daaa4aa35e0c6a769d80b5fa0523b4d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::ElementCursor::defined</definition>
+        <argsstring>() const</argsstring>
+        <name>defined</name>
+        <qualifiedname>ansys::dpf::ElementCursor::defined</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Indication that cursor is defined. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1028" column="13" bodyfile="dpf_api.h" bodystart="1028" bodyend="1028"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ElementCursor_1a3f73e05a946c60b4901cb32027d84765" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceansys_1_1dpf_1ab4574c9af3f2bb8011da7d1f4c8da20e" kindref="member">dp_id</ref></type>
+        <definition>dp_id ansys::dpf::ElementCursor::id</definition>
+        <argsstring>() const</argsstring>
+        <name>id</name>
+        <qualifiedname>ansys::dpf::ElementCursor::id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Element cursor id. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1030" column="14" bodyfile="dpf_api.h" bodystart="1030" bodyend="1030"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1ElementCursor_1ade825f7c6dc2123cb6c7e9c03c2750fe" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+        <definition>dp_index ansys::dpf::ElementCursor::operator[]</definition>
+        <argsstring>(dp_index i) const</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>ansys::dpf::ElementCursor::operator[]</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>i</declname>
+          <briefdescription><para>[in] Index into connectivity list. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Connectivity node id given by index. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="1032" column="17" bodyfile="dpf_api.h" bodystart="1032" bodyend="1035"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Point on a local element data within a mesh. </para>
+    </detaileddescription>
+    <location file="dpf_api.h" line="994" column="1" bodyfile="dpf_api.h" bodystart="995" bodyend="1036"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1ElementCursor_1a2cede84b2d6cb2228836fb6b91cb7cda" prot="private" virt="non-virtual"><scope>ansys::dpf::ElementCursor</scope><name>_connectivity</name></member>
+      <member refid="classansys_1_1dpf_1_1ElementCursor_1a2d8cd8734fa6ef0b9a36bebb54af6f5a" prot="private" virt="non-virtual"><scope>ansys::dpf::ElementCursor</scope><name>_descriptor</name></member>
+      <member refid="classansys_1_1dpf_1_1ElementCursor_1a7624d6f01af77eee5d2c52ce8443268e" prot="private" virt="non-virtual"><scope>ansys::dpf::ElementCursor</scope><name>_effective_size</name></member>
+      <member refid="classansys_1_1dpf_1_1ElementCursor_1a7fee5ce285ed04472c8f3bc65537d5b1" prot="private" virt="non-virtual"><scope>ansys::dpf::ElementCursor</scope><name>_id</name></member>
+      <member refid="classansys_1_1dpf_1_1ElementCursor_1a686dcc5429dce2a5de2cf24c9c947b0e" prot="private" virt="non-virtual"><scope>ansys::dpf::ElementCursor</scope><name>_is_defined</name></member>
+      <member refid="classansys_1_1dpf_1_1ElementCursor_1a4daaa4aa35e0c6a769d80b5fa0523b4d" prot="public" virt="non-virtual"><scope>ansys::dpf::ElementCursor</scope><name>defined</name></member>
+      <member refid="classansys_1_1dpf_1_1ElementCursor_1af3c4e595a62ac09aca9de7fc2322bb62" prot="public" virt="non-virtual"><scope>ansys::dpf::ElementCursor</scope><name>descriptor</name></member>
+      <member refid="classansys_1_1dpf_1_1ElementCursor_1a2c9af98ac05f0b60cdac5f3baeece638" prot="public" virt="non-virtual"><scope>ansys::dpf::ElementCursor</scope><name>effectiveSize</name></member>
+      <member refid="classansys_1_1dpf_1_1ElementCursor_1ae5a794891c2c4ce555ef9ebed86c72c1" prot="public" virt="non-virtual"><scope>ansys::dpf::ElementCursor</scope><name>ElementCursor</name></member>
+      <member refid="classansys_1_1dpf_1_1ElementCursor_1ab3b7e0f631546b360d00d30f57475d29" prot="public" virt="non-virtual"><scope>ansys::dpf::ElementCursor</scope><name>ElementCursor</name></member>
+      <member refid="classansys_1_1dpf_1_1ElementCursor_1a42a87b28ff9b8cd52894405beb4f8aa0" prot="public" virt="non-virtual"><scope>ansys::dpf::ElementCursor</scope><name>ElementCursor</name></member>
+      <member refid="classansys_1_1dpf_1_1ElementCursor_1a3f73e05a946c60b4901cb32027d84765" prot="public" virt="non-virtual"><scope>ansys::dpf::ElementCursor</scope><name>id</name></member>
+      <member refid="classansys_1_1dpf_1_1ElementCursor_1a5e7ffc770ff20b75c5353f34aae6c687" prot="public" virt="non-virtual"><scope>ansys::dpf::ElementCursor</scope><name>numberOfCornerNodes</name></member>
+      <member refid="classansys_1_1dpf_1_1ElementCursor_1a1710596a51fd20b7cc2e087cd78790a9" prot="public" virt="non-virtual"><scope>ansys::dpf::ElementCursor</scope><name>numberOfMidNodes</name></member>
+      <member refid="classansys_1_1dpf_1_1ElementCursor_1a54ae9b25c375c752682a7dff04603348" prot="public" virt="non-virtual"><scope>ansys::dpf::ElementCursor</scope><name>numberOfNodes</name></member>
+      <member refid="classansys_1_1dpf_1_1ElementCursor_1ade825f7c6dc2123cb6c7e9c03c2750fe" prot="public" virt="non-virtual"><scope>ansys::dpf::ElementCursor</scope><name>operator[]</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="ModelTest_8cpp-example" kind="example">
+    <compoundname>ModelTest.cpp</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Examples showing how to load and use an RST file. <programlisting filename="ModelTest.cpp"><codeline><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="comment">//<sp/>COPYRIGHT<sp/>ANSYS.<sp/>ALL<sp/>RIGHTS<sp/>RESERVED.</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>EXAMPLE</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Example.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gtest/gtest.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;helpers/dpf_model.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_USE_MATH_DEFINES</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">TEST(Model,<sp/>readMetaData)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>fileName(</highlight><highlight class="stringliteral">&quot;../../../testfiles/mapdl_files/TwoSolids.rst&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Model" kindref="compound">ansys::dpf::Model</ref><sp/>model(fileName);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1MeshedRegion" kindref="compound">ansys::dpf::MeshedRegion</ref><sp/>mesh<sp/>=<sp/>model.getMesh();</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numEle<sp/>=<sp/>mesh.<ref refid="classansys_1_1dpf_1_1MeshedRegion_1ac3a262bc236fda82374a462d7c9e240c" kindref="member">numberOfElements</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_TRUE(numEle<sp/>==<sp/>165);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numNodes<sp/>=<sp/>mesh.<ref refid="classansys_1_1dpf_1_1MeshedRegion_1af8ad6b50708b2c201a457c5da8e819da" kindref="member">numberOfNodes</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_TRUE(numNodes<sp/>==<sp/>344);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">ansys::dpf::Field</ref><sp/>fieldCoord<sp/>=<sp/>mesh.<ref refid="classansys_1_1dpf_1_1MeshedRegion_1a482ae171f257bfe86c8e567f0882caa4" kindref="member">nodesCoordinates</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldCoord.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>344<sp/>*<sp/>3);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1PropertyField" kindref="compound">ansys::dpf::PropertyField</ref><sp/>elementsConnectivity<sp/>=<sp/>mesh.<ref refid="classansys_1_1dpf_1_1MeshedRegion_1a2c75723ffc634c39b081eecd31d54309" kindref="member">connectivity</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(elementsConnectivity.<ref refid="classansys_1_1dpf_1_1PropertyField_1af0ff358222e067e0c03d588a6b11b04c" kindref="member">dataSize</ref>(),<sp/>1562);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1TimeFreqSupport" kindref="compound">ansys::dpf::TimeFreqSupport</ref><sp/>timeSupport<sp/>=<sp/>model.getTimeFreqSupport();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numSets<sp/>=<sp/>timeSupport.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a87c577de73b5ba2260cf3f940ac43068" kindref="member">numberOfSets</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_TRUE(numSets<sp/>==<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>vNamedSelections<sp/>=<sp/>mesh.<ref refid="classansys_1_1dpf_1_1MeshedRegion_1a3b768ab61193b7b1a6359f4ac619d1c4" kindref="member">availableNamedSelections</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(vNamedSelections.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">TEST(Model,<sp/>readResultInfo)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>fileName(</highlight><highlight class="stringliteral">&quot;../../../testfiles/mapdl_files/TwoSolids.rst&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Model" kindref="compound">ansys::dpf::Model</ref><sp/>model(fileName);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1ResultInfo" kindref="compound">ansys::dpf::ResultInfo</ref><sp/>resInfo<sp/>=<sp/>model.getResultInfo();</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numRes<sp/>=<sp/>resInfo.<ref refid="classansys_1_1dpf_1_1ResultInfo_1a69427d3a5823aa23acfc59b891fa662a" kindref="member">numberOfResults</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(numRes,<sp/>25);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>unit<sp/>=<sp/>resInfo.<ref refid="classansys_1_1dpf_1_1ResultInfo_1a62c992acfa6ffc5b73de0f75f57f7e58" kindref="member">unitSystem</ref>();</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742ae" kindref="member">ansys::dpf::ResultInfo::analysis_type</ref><sp/>analysisType<sp/>=<sp/>resInfo.<ref refid="classansys_1_1dpf_1_1ResultInfo_1a9cbdb503d903b0a8212cc32a952c1ad2" kindref="member">analysisType</ref>();</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfaba" kindref="member">ansys::dpf::ResultInfo::physics_type</ref><sp/>physicsType<sp/>=<sp/>resInfo.<ref refid="classansys_1_1dpf_1_1ResultInfo_1abc776e636cedf999ab85007904f110a9" kindref="member">physicsType</ref>();</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>availReslts<sp/>=<sp/>resInfo.<ref refid="classansys_1_1dpf_1_1ResultInfo_1a48e23d251d6109166a2a1f681a39c58a" kindref="member">availableResults</ref>();</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>majorVersion,<sp/>minorVersion;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>solve_date,<sp/>solve_time;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>resInfo.<ref refid="classansys_1_1dpf_1_1ResultInfo_1a0d2b564f1b52afc97ef5be1d4e4661f9" kindref="member">solver_version</ref>(majorVersion,<sp/>minorVersion);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>resInfo.<ref refid="classansys_1_1dpf_1_1ResultInfo_1a52ed9fdb1a2a92a7ada0fed534c200b5" kindref="member">solve_date_time</ref>(solve_date,<sp/>solve_time);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>userName<sp/>=<sp/>resInfo.<ref refid="classansys_1_1dpf_1_1ResultInfo_1ac3786ae43ac33386010794e990a31146" kindref="member">user_name</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>productName<sp/>=<sp/>resInfo.<ref refid="classansys_1_1dpf_1_1ResultInfo_1a8b1146409fe3f14fda0b331faf1bf9fe" kindref="member">product_name</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>jobName<sp/>=<sp/>resInfo.<ref refid="classansys_1_1dpf_1_1ResultInfo_1ae6ed610647bdabcc9baab02b19462f99" kindref="member">job_name</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>mainTitle<sp/>=<sp/>resInfo.<ref refid="classansys_1_1dpf_1_1ResultInfo_1a8071bc87922ee65107a63fc2f1eefd3d" kindref="member">main_title</ref>();</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(availReslts.size(),<sp/>25);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_STREQ(unit.c_str(),<sp/></highlight><highlight class="stringliteral">&quot;solver_mks&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(analysisType,<sp/><ref refid="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea2ad50e8511b81f014d3275f5ac2d617d" kindref="member">ansys::dpf::ResultInfo::eStatic</ref>);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(physicsType,<sp/><ref refid="classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfabaab1cdf6ed7eb8c9102327076240beb06f" kindref="member">ansys::dpf::ResultInfo::eMecanic</ref>);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(majorVersion,<sp/>19);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(minorVersion,<sp/>4);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(solve_date,<sp/>20190128);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(solve_time,<sp/>175709);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_STREQ(userName.c_str(),<sp/></highlight><highlight class="stringliteral">&quot;rlagha&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_STREQ(productName.c_str(),<sp/></highlight><highlight class="stringliteral">&quot;MAPDL&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_STREQ(jobName.c_str(),<sp/></highlight><highlight class="stringliteral">&quot;file&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_STREQ(mainTitle.c_str(),<sp/></highlight><highlight class="stringliteral">&quot;unsaved_project--Static<sp/>Structural<sp/>(B5)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">TEST(Model,<sp/>readResultInfo_using_unit_strings)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>resultInfo<sp/>=<sp/><ref refid="classansys_1_1dpf_1_1ResultInfo" kindref="compound">ansys::dpf::ResultInfo</ref>(<ref refid="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea2ad50e8511b81f014d3275f5ac2d617d" kindref="member">ansys::dpf::ResultInfo::analysis_type::eStatic</ref>,<sp/>(<ref refid="classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfabaadadd255c26d856ba97f4a290b3769107" kindref="member">ansys::dpf::ResultInfo::physics_type::eFluid</ref>));</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structansys_1_1dpf_1_1UnitSystem" kindref="compound">ansys::dpf::UnitSystem</ref><sp/>si_cff(</highlight><highlight class="stringliteral">&quot;CFF_SI&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;m;s;kg;K;m/s;J;MPa;MPa*m^0.5;C;A;V;H;F;rad&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>resultInfo.setUnitSystem(si_cff);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>unit_system_name<sp/>=<sp/>resultInfo.unitSystemName();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_STREQ(unit_system_name.c_str(),<sp/></highlight><highlight class="stringliteral">&quot;SI:<sp/>m,<sp/>kg,<sp/>s,<sp/>V,<sp/>A,<sp/>K&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>unit_system<sp/>=<sp/>resultInfo.unitSystem();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Unit" kindref="compound">ansys::dpf::Unit</ref><sp/>unit_temp_diff(<ref refid="structansys_1_1dpf_1_1homogeneities_1ac34f11f1e215920d52e22121ea776054" kindref="member">ansys::dpf::homogeneities::temperature_difference</ref>,<sp/>unit_system);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_STREQ(unit_temp_diff.c_str(),<sp/></highlight><highlight class="stringliteral">&quot;dK&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal">TEST(Model,<sp/>accessTimeFreqSupport)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>fileName(</highlight><highlight class="stringliteral">&quot;../../../testfiles/cyclic/file.rst&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Model" kindref="compound">ansys::dpf::Model</ref><sp/>model(fileName);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1TimeFreqSupport" kindref="compound">ansys::dpf::TimeFreqSupport</ref><sp/>timeSupport<sp/>=<sp/>model.getTimeFreqSupport();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numSets<sp/>=<sp/>timeSupport.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a87c577de73b5ba2260cf3f940ac43068" kindref="member">numberOfSets</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_TRUE(numSets<sp/>==<sp/>48);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numberSteps<sp/>=<sp/>timeSupport.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a6b3cc037c0283450ac0234dadeddd1b6" kindref="member">numberOfSteps</ref>();</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">ansys::dpf::dp_int</ref><sp/>size;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">ansys::dpf::Field</ref><sp/>freqs<sp/>=<sp/>timeSupport.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1aa0cf046a80d328f966892abe85308f01" kindref="member">frequencies</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>data<sp/>=<sp/>freqs.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_TRUE(data<sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(size,<sp/>48);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">ansys::dpf::Field</ref><sp/>hi<sp/>=<sp/>timeSupport.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a101268a027373331f52244f52eb8b0d1" kindref="member">harmonicIndeces</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>hi_data<sp/>=<sp/>hi.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_TRUE(hi_data<sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(size,<sp/>48);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0,<sp/>offset<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>numberSteps;<sp/>++i)<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numSubSteps<sp/>=<sp/>timeSupport.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a4333cdbfac1c49f802a9c33a18970ed5" kindref="member">numberOfSubStepsByStepIndex</ref>(i);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_TRUE(numSubSteps<sp/>==<sp/>6);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>numSubSteps;<sp/>++j,<sp/>++offset)<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>iSet<sp/>=<sp/>timeSupport.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a018ae91fba33d3a61360c659a3fa49c8" kindref="member">getSetIndexByStepIndexAndSubStep</ref>(i,<sp/>j);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(iSet,<sp/>i<sp/>*<sp/>6<sp/>+<sp/>j);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>freq<sp/>=<sp/>timeSupport.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a15d6bc620aadd070c1bb027a075ce0cd" kindref="member">timeFreq</ref>(iSet);<sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(freq,<sp/>data[offset]);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(i,<sp/>fabs(hi_data[offset]));</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">TEST(Model,<sp/>readNamedSelections)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>fileName(</highlight><highlight class="stringliteral">&quot;../../../testfiles/mapdl_files/TwoSolids.rst&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Model" kindref="compound">ansys::dpf::Model</ref><sp/>model(fileName);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1MeshedRegion" kindref="compound">ansys::dpf::MeshedRegion</ref><sp/>mesh<sp/>=<sp/>model.getMesh();</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>vNamedSelections<sp/>=<sp/>mesh.<ref refid="classansys_1_1dpf_1_1MeshedRegion_1a3b768ab61193b7b1a6359f4ac619d1c4" kindref="member">availableNamedSelections</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(vNamedSelections.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_STREQ(</highlight><highlight class="stringliteral">&quot;_FIXEDSU&quot;</highlight><highlight class="normal">,<sp/>vNamedSelections[0].c_str());</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">ansys::dpf::Scoping</ref><sp/>scoping<sp/>=<sp/>mesh.<ref refid="classansys_1_1dpf_1_1MeshedRegion_1a1f12d06a08e8afe8fe59c0a8d6aee779" kindref="member">namedSelection</ref>(vNamedSelections[0]);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_STREQ(</highlight><highlight class="stringliteral">&quot;Nodal&quot;</highlight><highlight class="normal">,<sp/>scoping.<ref refid="classansys_1_1dpf_1_1Scoping_1a516b4489a94ff02ecc880f170b8f93a9" kindref="member">location</ref>().<ref refid="structansys_1_1dpf_1_1Location_1ad9fab192124627740ffa623b1a0221ea" kindref="member">c_str</ref>());</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(scoping.<ref refid="classansys_1_1dpf_1_1Scoping_1aeae5e27bd752bdf0da3cc2d64fbe118a" kindref="member">size</ref>(),<sp/>30);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">TEST(Model,<sp/>CreateResultEvaluationWorkflowInclusive)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>fileName(</highlight><highlight class="stringliteral">&quot;../../../testfiles/Cube.rst&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Model" kindref="compound">ansys::dpf::Model</ref><sp/>model(fileName);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1MeshedRegion" kindref="compound">ansys::dpf::MeshedRegion</ref><sp/>mesh<sp/>=<sp/>model.getMesh();</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numEle<sp/>=<sp/>mesh.<ref refid="classansys_1_1dpf_1_1MeshedRegion_1ac3a262bc236fda82374a462d7c9e240c" kindref="member">numberOfElements</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(numEle,<sp/>8);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numNodes<sp/>=<sp/>mesh.<ref refid="classansys_1_1dpf_1_1MeshedRegion_1af8ad6b50708b2c201a457c5da8e819da" kindref="member">numberOfNodes</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(numNodes,<sp/>27);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">ansys::dpf::Field</ref><sp/>fieldCoord<sp/>=<sp/>mesh.<ref refid="classansys_1_1dpf_1_1MeshedRegion_1a482ae171f257bfe86c8e567f0882caa4" kindref="member">nodesCoordinates</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldCoord.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>27<sp/>*<sp/>3);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1PropertyField" kindref="compound">ansys::dpf::PropertyField</ref><sp/>elementsConnectivity<sp/>=<sp/>mesh.<ref refid="classansys_1_1dpf_1_1MeshedRegion_1a2c75723ffc634c39b081eecd31d54309" kindref="member">connectivity</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(elementsConnectivity.<ref refid="classansys_1_1dpf_1_1PropertyField_1af0ff358222e067e0c03d588a6b11b04c" kindref="member">dataSize</ref>(),<sp/>64);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1TimeFreqSupport" kindref="compound">ansys::dpf::TimeFreqSupport</ref><sp/>timeSupport<sp/>=<sp/>model.getTimeFreqSupport();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numSets<sp/>=<sp/>timeSupport.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a87c577de73b5ba2260cf3f940ac43068" kindref="member">numberOfSets</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(numSets,<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>vNamedSelections<sp/>=<sp/>mesh.<ref refid="classansys_1_1dpf_1_1MeshedRegion_1a3b768ab61193b7b1a6359f4ac619d1c4" kindref="member">availableNamedSelections</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(vNamedSelections.size(),<sp/>3);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1ResultInfo" kindref="compound">ansys::dpf::ResultInfo</ref><sp/>resultInfo<sp/>=<sp/>model.getResultInfo();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numRes<sp/>=<sp/>resultInfo.<ref refid="classansys_1_1dpf_1_1ResultInfo_1a69427d3a5823aa23acfc59b891fa662a" kindref="member">numberOfResults</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(numRes,<sp/>15);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">ansys::dpf::Result</ref><sp/>result<sp/>=<sp/>model.CreateResultEvaluationWorkflow(</highlight><highlight class="stringliteral">&quot;SX&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;TOP&quot;</highlight><highlight class="normal">,<sp/><ref refid="structansys_1_1dpf_1_1locations_1a3f66169a86ab935fb398b3fdde98bb04" kindref="member">ansys::dpf::locations::elemental</ref>,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref><sp/>error;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">ansys::dpf::FieldsContainer</ref><sp/>fieldsContainer<sp/>=<sp/>result.<ref refid="classansys_1_1dpf_1_1Result_1ac8e07e03eba295dacfe13a100603d5c4" kindref="member">EvaluateAtGivenTime</ref>(0.0,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldsContainer.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">TEST(Model,<sp/>ReleaseHandles)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>fileName(</highlight><highlight class="stringliteral">&quot;../../../testfiles/mapdl_files/TwoSolids.rst&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Model" kindref="compound">ansys::dpf::Model</ref><sp/>model(fileName);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1MeshedRegion" kindref="compound">ansys::dpf::MeshedRegion</ref><sp/>mesh<sp/>=<sp/>model.getMesh();</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numEle<sp/>=<sp/>mesh.<ref refid="classansys_1_1dpf_1_1MeshedRegion_1ac3a262bc236fda82374a462d7c9e240c" kindref="member">numberOfElements</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_TRUE(numEle<sp/>==<sp/>165);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numNodes<sp/>=<sp/>mesh.<ref refid="classansys_1_1dpf_1_1MeshedRegion_1af8ad6b50708b2c201a457c5da8e819da" kindref="member">numberOfNodes</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_TRUE(numNodes<sp/>==<sp/>344);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>release<sp/>handles</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>model.ReleaseHandles();</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>We<sp/>can<sp/>then<sp/>go<sp/>ahead<sp/>and<sp/>continue<sp/>reading</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1TimeFreqSupport" kindref="compound">ansys::dpf::TimeFreqSupport</ref><sp/>timeSupport<sp/>=<sp/>model.getTimeFreqSupport();</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting> </para>
+    </detaileddescription>
+    <location file="dpf_api.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait_3_01DataT_00_01std_1_1true__type_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>ansys::dpf::ConstructHelpers::construct_trait&lt; DataT, std::true_type &gt;</compoundname>
+    <includes local="no">dpf_api.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename DataT</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait_3_01DataT_00_01std_1_1true__type_01_4_1ad75a177fd38a1673d3252e4b0db7eabb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DataT</type>
+        <definition>static DataT ansys::dpf::ConstructHelpers::construct_trait&lt; DataT, std::true_type &gt;::getFromAny</definition>
+        <argsstring>(Any const &amp;any)</argsstring>
+        <name>getFromAny</name>
+        <qualifiedname>ansys::dpf::ConstructHelpers::construct_trait&lt; DataT, std::true_type &gt;::getFromAny</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> const &amp;</type>
+          <declname>any</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="7015" column="14" bodyfile="dpf_api.h" bodystart="7015" bodyend="7015"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait_3_01DataT_00_01std_1_1true__type_01_4_1a7d933a66d2b30a654601ac7bc36e0a33" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ansys::dpf::ConstructHelpers::construct_trait&lt; DataT, std::true_type &gt;::createAny</definition>
+        <argsstring>(Any &amp;any, DataT const &amp;obj, Client const *const client)</argsstring>
+        <name>createAny</name>
+        <qualifiedname>ansys::dpf::ConstructHelpers::construct_trait&lt; DataT, std::true_type &gt;::createAny</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> &amp;</type>
+          <declname>any</declname>
+        </param>
+        <param>
+          <type>DataT const &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> const *const</type>
+          <declname>client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="7016" column="13" bodyfile="dpf_api.h" bodystart="7016" bodyend="7016"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait_3_01DataT_00_01std_1_1true__type_01_4_1a5ff1b9411067b57436689043782f766c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DataT</type>
+        <definition>static DataT ansys::dpf::ConstructHelpers::construct_trait&lt; DataT, std::true_type &gt;::getOutputFromOperator</definition>
+        <argsstring>(Operator &amp;op, dp_index pin_index)</argsstring>
+        <name>getOutputFromOperator</name>
+        <qualifiedname>ansys::dpf::ConstructHelpers::construct_trait&lt; DataT, std::true_type &gt;::getOutputFromOperator</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref> &amp;</type>
+          <declname>op</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="7017" column="14" bodyfile="dpf_api.h" bodystart="7017" bodyend="7020"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait_3_01DataT_00_01std_1_1true__type_01_4_1a6c010654b0ee1c6a0eda5a77cee01ddd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DataT</type>
+        <definition>static DataT ansys::dpf::ConstructHelpers::construct_trait&lt; DataT, std::true_type &gt;::getOutputFromWorkflow</definition>
+        <argsstring>(Workflow &amp;wf, std::string const &amp;pin_index)</argsstring>
+        <name>getOutputFromWorkflow</name>
+        <qualifiedname>ansys::dpf::ConstructHelpers::construct_trait&lt; DataT, std::true_type &gt;::getOutputFromWorkflow</qualifiedname>
+        <param>
+          <type>Workflow &amp;</type>
+          <declname>wf</declname>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>pin_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="7021" column="14" bodyfile="dpf_api.h" bodystart="7021" bodyend="7024"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait_3_01DataT_00_01std_1_1true__type_01_4_1a9a5ef83c02133a1ec977d26b4cd03664" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DataT</type>
+        <definition>static DataT ansys::dpf::ConstructHelpers::construct_trait&lt; DataT, std::true_type &gt;::getOperatorInput</definition>
+        <argsstring>(OperatorMain &amp;op, dp_index pin_index)</argsstring>
+        <name>getOperatorInput</name>
+        <qualifiedname>ansys::dpf::ConstructHelpers::construct_trait&lt; DataT, std::true_type &gt;::getOperatorInput</qualifiedname>
+        <param>
+          <type>OperatorMain &amp;</type>
+          <declname>op</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="7025" column="14" bodyfile="dpf_api.h" bodystart="7025" bodyend="7028"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>specialized for all entities deriving from <ref refid="classansys_1_1dpf_1_1CustomContainerBase" kindref="compound">CustomContainerBase</ref>. </para>
+    </detaileddescription>
+    <location file="dpf_api.h" line="7013" column="1" bodyfile="dpf_api.h" bodystart="7014" bodyend="7029"/>
+    <listofallmembers>
+      <member refid="structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait_3_01DataT_00_01std_1_1true__type_01_4_1a7d933a66d2b30a654601ac7bc36e0a33" prot="public" virt="non-virtual"><scope>ansys::dpf::ConstructHelpers::construct_trait&lt; DataT, std::true_type &gt;</scope><name>createAny</name></member>
+      <member refid="structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait_3_01DataT_00_01std_1_1true__type_01_4_1ad75a177fd38a1673d3252e4b0db7eabb" prot="public" virt="non-virtual"><scope>ansys::dpf::ConstructHelpers::construct_trait&lt; DataT, std::true_type &gt;</scope><name>getFromAny</name></member>
+      <member refid="structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait_3_01DataT_00_01std_1_1true__type_01_4_1a9a5ef83c02133a1ec977d26b4cd03664" prot="public" virt="non-virtual"><scope>ansys::dpf::ConstructHelpers::construct_trait&lt; DataT, std::true_type &gt;</scope><name>getOperatorInput</name></member>
+      <member refid="structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait_3_01DataT_00_01std_1_1true__type_01_4_1a5ff1b9411067b57436689043782f766c" prot="public" virt="non-virtual"><scope>ansys::dpf::ConstructHelpers::construct_trait&lt; DataT, std::true_type &gt;</scope><name>getOutputFromOperator</name></member>
+      <member refid="structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait_3_01DataT_00_01std_1_1true__type_01_4_1a6c010654b0ee1c6a0eda5a77cee01ddd" prot="public" virt="non-virtual"><scope>ansys::dpf::ConstructHelpers::construct_trait&lt; DataT, std::true_type &gt;</scope><name>getOutputFromWorkflow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

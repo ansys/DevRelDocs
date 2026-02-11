@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="structansys_1_1dpf_1_1PropertyType" kind="struct" language="C++" prot="public">
+    <compoundname>ansys::dpf::PropertyType</compoundname>
+    <includes local="no">dpf_api_base.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1PropertyType_1a4ca90a12d0ab8e44814088add3bfb81d" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::PropertyType::_value</definition>
+        <argsstring></argsstring>
+        <name>_value</name>
+        <qualifiedname>ansys::dpf::PropertyType::_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="226" column="13" bodyfile="dpf_api_base.h" bodystart="226" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structansys_1_1dpf_1_1PropertyType_1a8e5eb3fe693b3874c4c0c6bc472d4fc5" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::PropertyType::PropertyType</definition>
+        <argsstring>(std::string const &amp;name)</argsstring>
+        <name>PropertyType</name>
+        <qualifiedname>ansys::dpf::PropertyType::PropertyType</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>name</declname>
+          <briefdescription><para>[in] Name of property type. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create new property type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="230" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1PropertyType_1a1edbf1016ba3f0f1ddf58928fd43441a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::PropertyType::PropertyType</definition>
+        <argsstring>(PropertyType const &amp;)=default</argsstring>
+        <name>PropertyType</name>
+        <qualifiedname>ansys::dpf::PropertyType::PropertyType</qualifiedname>
+        <param>
+          <type>PropertyType const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="232" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1PropertyType_1ad9b89ef4cefb0be630d3f589dc07b601" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::PropertyType::PropertyType</definition>
+        <argsstring>()=default</argsstring>
+        <name>PropertyType</name>
+        <qualifiedname>ansys::dpf::PropertyType::PropertyType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="233" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1PropertyType_1a3d2c701a7fa239850799916427edccae" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::PropertyType::operator==</definition>
+        <argsstring>(PropertyType const &amp;) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>ansys::dpf::PropertyType::operator==</qualifiedname>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1PropertyType_1a8e5eb3fe693b3874c4c0c6bc472d4fc5" kindref="member">PropertyType</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="234" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1PropertyType_1a836bd074dd3614d5f70d8e362e058802" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::PropertyType::operator&lt;</definition>
+        <argsstring>(PropertyType const &amp;) const</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>ansys::dpf::PropertyType::operator&lt;</qualifiedname>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1PropertyType_1a8e5eb3fe693b3874c4c0c6bc472d4fc5" kindref="member">PropertyType</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="235" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1PropertyType_1ad74f013eccde6dad34abf8e9743e085c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::PropertyType::operator&lt;=</definition>
+        <argsstring>(PropertyType const &amp;) const</argsstring>
+        <name>operator&lt;=</name>
+        <qualifiedname>ansys::dpf::PropertyType::operator&lt;=</qualifiedname>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1PropertyType_1a8e5eb3fe693b3874c4c0c6bc472d4fc5" kindref="member">PropertyType</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="236" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1PropertyType_1a0c8f3b3685ac28b6fa46a263a561e5b0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::PropertyType::operator!=</definition>
+        <argsstring>(PropertyType const &amp;) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>ansys::dpf::PropertyType::operator!=</qualifiedname>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1PropertyType_1a8e5eb3fe693b3874c4c0c6bc472d4fc5" kindref="member">PropertyType</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="237" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1PropertyType_1a3d5716d1801fda4f945a6a89b4cdf0e3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::PropertyType::operator std::string</definition>
+        <argsstring>() const</argsstring>
+        <name>operator std::string</name>
+        <qualifiedname>ansys::dpf::PropertyType::string</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name of property type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="239" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1PropertyType_1aaf60552ef91b8bc28eccb40557199dba" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * ansys::dpf::PropertyType::c_str</definition>
+        <argsstring>() const</argsstring>
+        <name>c_str</name>
+        <qualifiedname>ansys::dpf::PropertyType::c_str</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets name of property type. <simplesect kind="return"><para>Name of property type. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="242" column="12"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>User defined property type. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Allows for the definition of a new property types. Many property types are predefined. <simplesect kind="see"><para><ref refid="structansys_1_1dpf_1_1property__types" kindref="compound">property_types</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="dpf_api_base.h" line="223" column="1" bodyfile="dpf_api_base.h" bodystart="224" bodyend="243"/>
+    <listofallmembers>
+      <member refid="structansys_1_1dpf_1_1PropertyType_1a4ca90a12d0ab8e44814088add3bfb81d" prot="private" virt="non-virtual"><scope>ansys::dpf::PropertyType</scope><name>_value</name></member>
+      <member refid="structansys_1_1dpf_1_1PropertyType_1aaf60552ef91b8bc28eccb40557199dba" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyType</scope><name>c_str</name></member>
+      <member refid="structansys_1_1dpf_1_1PropertyType_1a3d5716d1801fda4f945a6a89b4cdf0e3" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyType</scope><name>operator std::string</name></member>
+      <member refid="structansys_1_1dpf_1_1PropertyType_1a0c8f3b3685ac28b6fa46a263a561e5b0" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyType</scope><name>operator!=</name></member>
+      <member refid="structansys_1_1dpf_1_1PropertyType_1a836bd074dd3614d5f70d8e362e058802" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyType</scope><name>operator&lt;</name></member>
+      <member refid="structansys_1_1dpf_1_1PropertyType_1ad74f013eccde6dad34abf8e9743e085c" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyType</scope><name>operator&lt;=</name></member>
+      <member refid="structansys_1_1dpf_1_1PropertyType_1a3d2c701a7fa239850799916427edccae" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyType</scope><name>operator==</name></member>
+      <member refid="structansys_1_1dpf_1_1PropertyType_1a8e5eb3fe693b3874c4c0c6bc472d4fc5" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyType</scope><name>PropertyType</name></member>
+      <member refid="structansys_1_1dpf_1_1PropertyType_1a1edbf1016ba3f0f1ddf58928fd43441a" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyType</scope><name>PropertyType</name></member>
+      <member refid="structansys_1_1dpf_1_1PropertyType_1ad9b89ef4cefb0be630d3f589dc07b601" prot="public" virt="non-virtual"><scope>ansys::dpf::PropertyType</scope><name>PropertyType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

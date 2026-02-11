@@ -1,0 +1,401 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1RuntimeConfig" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::RuntimeConfig</compoundname>
+    <derivedcompoundref refid="classansys_1_1dpf_1_1RuntimeClientConfig" prot="public" virt="non-virtual">ansys::dpf::RuntimeClientConfig</derivedcompoundref>
+    <derivedcompoundref refid="classansys_1_1dpf_1_1RuntimeCoreConfig" prot="public" virt="non-virtual">ansys::dpf::RuntimeCoreConfig</derivedcompoundref>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1RuntimeConfig_1af764561c544bacc1b90b526ee8d3c708" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class core</definition>
+        <argsstring></argsstring>
+        <name>core</name>
+        <qualifiedname>ansys::dpf::RuntimeConfig::core</qualifiedname>
+        <param>
+          <type>core</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6310" column="14" bodyfile="dpf_api.h" bodystart="6310" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1RuntimeConfig_1a70592b16d6be93b22cefc57d07e6f528" prot="private" static="no" mutable="no">
+        <type><ref refid="classansys_1_1dpf_1_1DataTree" kindref="compound">DataTree</ref></type>
+        <definition>DataTree ansys::dpf::RuntimeConfig::_data_tree</definition>
+        <argsstring></argsstring>
+        <name>_data_tree</name>
+        <qualifiedname>ansys::dpf::RuntimeConfig::_data_tree</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6311" column="10" bodyfile="dpf_api.h" bodystart="6311" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1RuntimeConfig_1ae3747f608918c2c091d9f34770401d2a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::RuntimeConfig::RuntimeConfig</definition>
+        <argsstring>(DataTree &amp;data_tree)</argsstring>
+        <name>RuntimeConfig</name>
+        <qualifiedname>ansys::dpf::RuntimeConfig::RuntimeConfig</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1DataTree" kindref="compound">DataTree</ref> &amp;</type>
+          <declname>data_tree</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6313" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1RuntimeConfig_1a307705af73e9bd3e679a6bf8a63a4458" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1DataTree" kindref="compound">DataTree</ref></type>
+        <definition>DataTree ansys::dpf::RuntimeConfig::getSubOption</definition>
+        <argsstring>(std::string const &amp;sub_name) const</argsstring>
+        <name>getSubOption</name>
+        <qualifiedname>ansys::dpf::RuntimeConfig::getSubOption</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>sub_name</declname>
+          <briefdescription><para>[in] Sub-tree name. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a given sub-tree in the config. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6315" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1RuntimeConfig_1ab8144e943554f8eaab1002be7b92c8cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::RuntimeConfig::RuntimeConfig</definition>
+        <argsstring>(RuntimeConfig const &amp;rhs)</argsstring>
+        <name>RuntimeConfig</name>
+        <qualifiedname>ansys::dpf::RuntimeConfig::RuntimeConfig</qualifiedname>
+        <param>
+          <type>RuntimeConfig const &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6319" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1RuntimeConfig_1af6f35d3d6b1aec5480004ae4ed1fe625" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::RuntimeConfig::RuntimeConfig</definition>
+        <argsstring>(RuntimeConfig &amp;&amp;rhs) noexcept</argsstring>
+        <name>RuntimeConfig</name>
+        <qualifiedname>ansys::dpf::RuntimeConfig::RuntimeConfig</qualifiedname>
+        <param>
+          <type>RuntimeConfig &amp;&amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6320" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1RuntimeConfig_1add61c48a143d2603ab22e1028dc8a25f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; ansys::dpf::RuntimeConfig::getAvailableOptions</definition>
+        <argsstring>() const</argsstring>
+        <name>getAvailableOptions</name>
+        <qualifiedname>ansys::dpf::RuntimeConfig::getAvailableOptions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6321" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1RuntimeConfig_1a155763466ea3c190bf5b5090080edeae" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ansys::dpf::RuntimeConfig::getIntValue</definition>
+        <argsstring>(std::string const &amp;option) const</argsstring>
+        <name>getIntValue</name>
+        <qualifiedname>ansys::dpf::RuntimeConfig::getIntValue</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>option</declname>
+          <briefdescription><para>[in] Option name. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Integer value of given option. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6324" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1RuntimeConfig_1abcbfdbc481d8fe2c2d5454830104b216" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double ansys::dpf::RuntimeConfig::getDoubleValue</definition>
+        <argsstring>(std::string const &amp;option) const</argsstring>
+        <name>getDoubleValue</name>
+        <qualifiedname>ansys::dpf::RuntimeConfig::getDoubleValue</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>option</declname>
+          <briefdescription><para>[in] Option name. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Double value of given option. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6327" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1RuntimeConfig_1aa611e355441057cef04ef164008da8c8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::RuntimeConfig::getBoolValue</definition>
+        <argsstring>(std::string const &amp;option) const</argsstring>
+        <name>getBoolValue</name>
+        <qualifiedname>ansys::dpf::RuntimeConfig::getBoolValue</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>option</declname>
+          <briefdescription><para>[in] Option name. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Boolean value of given option. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6330" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1RuntimeConfig_1ae73075c73be83d06188b1708b8ebff47" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::RuntimeConfig::getStringValue</definition>
+        <argsstring>(std::string const &amp;option) const</argsstring>
+        <name>getStringValue</name>
+        <qualifiedname>ansys::dpf::RuntimeConfig::getStringValue</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>option</declname>
+          <briefdescription><para>[in] Option name. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Boolean value of given option. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6333" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1RuntimeConfig_1ab1b88cf95976b49097ccc460bf8035ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::RuntimeConfig::set</definition>
+        <argsstring>(std::string const &amp;option, dp_int value)</argsstring>
+        <name>set</name>
+        <qualifiedname>ansys::dpf::RuntimeConfig::set</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>option</declname>
+          <briefdescription><para>[in] Option name. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>value</declname>
+          <briefdescription><para>[in] Value for option. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets option to integer value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6337" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1RuntimeConfig_1a02d687d1252675cab169991475aa343d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::RuntimeConfig::set</definition>
+        <argsstring>(std::string const &amp;option, dp_double value)</argsstring>
+        <name>set</name>
+        <qualifiedname>ansys::dpf::RuntimeConfig::set</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>option</declname>
+          <briefdescription><para>[in] Option name. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref></type>
+          <declname>value</declname>
+          <briefdescription><para>[in] Value for option. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets option to double value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6341" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1RuntimeConfig_1af559e97f012ddd2a31dbbf4185b4cfe5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::RuntimeConfig::set</definition>
+        <argsstring>(std::string const &amp;option, bool value)</argsstring>
+        <name>set</name>
+        <qualifiedname>ansys::dpf::RuntimeConfig::set</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>option</declname>
+          <briefdescription><para>[in] Option name. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+          <briefdescription><para>[in] Value for option. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets option to boolean value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6345" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1RuntimeConfig_1aef94b87f0abba8d508181b8fa62af304" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::RuntimeConfig::set</definition>
+        <argsstring>(std::string const &amp;option, std::string value)</argsstring>
+        <name>set</name>
+        <qualifiedname>ansys::dpf::RuntimeConfig::set</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>option</declname>
+          <briefdescription><para>[in] Option name. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>value</declname>
+          <briefdescription><para>[in] Value for option. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets option to boolean value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6349" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1RuntimeConfig_1aa7dcdc58bbf5639bad4036ded9785905" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::RuntimeConfig::setSubOption</definition>
+        <argsstring>(std::string const &amp;sub_name, DataTree const &amp;)</argsstring>
+        <name>setSubOption</name>
+        <qualifiedname>ansys::dpf::RuntimeConfig::setSubOption</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>sub_name</declname>
+          <briefdescription><para>[in] Sub-tree name. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1DataTree" kindref="compound">DataTree</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the suboption. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6353" column="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ansys::dpf::RuntimeClientConfig</label>
+        <link refid="classansys_1_1dpf_1_1RuntimeClientConfig"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ansys::dpf::RuntimeConfig</label>
+      </node>
+      <node id="3">
+        <label>ansys::dpf::RuntimeCoreConfig</label>
+        <link refid="classansys_1_1dpf_1_1RuntimeCoreConfig"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="dpf_api.h" line="6307" column="1" bodyfile="dpf_api.h" bodystart="6308" bodyend="6356"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1RuntimeConfig_1a70592b16d6be93b22cefc57d07e6f528" prot="private" virt="non-virtual"><scope>ansys::dpf::RuntimeConfig</scope><name>_data_tree</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeConfig_1add61c48a143d2603ab22e1028dc8a25f" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeConfig</scope><name>getAvailableOptions</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeConfig_1aa611e355441057cef04ef164008da8c8" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeConfig</scope><name>getBoolValue</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeConfig_1abcbfdbc481d8fe2c2d5454830104b216" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeConfig</scope><name>getDoubleValue</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeConfig_1a155763466ea3c190bf5b5090080edeae" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeConfig</scope><name>getIntValue</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeConfig_1ae73075c73be83d06188b1708b8ebff47" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeConfig</scope><name>getStringValue</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeConfig_1a307705af73e9bd3e679a6bf8a63a4458" prot="private" virt="non-virtual"><scope>ansys::dpf::RuntimeConfig</scope><name>getSubOption</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeConfig_1ae3747f608918c2c091d9f34770401d2a" prot="private" virt="non-virtual"><scope>ansys::dpf::RuntimeConfig</scope><name>RuntimeConfig</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeConfig_1ab8144e943554f8eaab1002be7b92c8cd" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeConfig</scope><name>RuntimeConfig</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeConfig_1af6f35d3d6b1aec5480004ae4ed1fe625" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeConfig</scope><name>RuntimeConfig</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeConfig_1ab1b88cf95976b49097ccc460bf8035ed" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeConfig</scope><name>set</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeConfig_1a02d687d1252675cab169991475aa343d" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeConfig</scope><name>set</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeConfig_1af559e97f012ddd2a31dbbf4185b4cfe5" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeConfig</scope><name>set</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeConfig_1aef94b87f0abba8d508181b8fa62af304" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeConfig</scope><name>set</name></member>
+      <member refid="classansys_1_1dpf_1_1RuntimeConfig_1aa7dcdc58bbf5639bad4036ded9785905" prot="public" virt="non-virtual"><scope>ansys::dpf::RuntimeConfig</scope><name>setSubOption</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

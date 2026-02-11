@@ -1,0 +1,43 @@
+\doxysection{ansys::\+dpf::\+Runtime\+Core\+Config Class Reference}
+\hypertarget{classansys_1_1dpf_1_1RuntimeCoreConfig}{}\label{classansys_1_1dpf_1_1RuntimeCoreConfig}\index{ansys::dpf::RuntimeCoreConfig@{ansys::dpf::RuntimeCoreConfig}}
+
+
+{\ttfamily \+\#include $<$dpf\+\_\+api.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classansys_1_1dpf_1_1RuntimeCoreConfig_a9cedb8f684ca41889ed7c4ed65b29e9a}\label{classansys_1_1dpf_1_1RuntimeCoreConfig_a9cedb8f684ca41889ed7c4ed65b29e9a} 
+{\bfseries Runtime\+Core\+Config} (Runtime\+Core\+Config const \&rhs)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1RuntimeCoreConfig_a9cd9782bb8c79716f3b540d14a561b98}\label{classansys_1_1dpf_1_1RuntimeCoreConfig_a9cd9782bb8c79716f3b540d14a561b98} 
+{\bfseries Runtime\+Core\+Config} (Runtime\+Core\+Config \&\&rhs) noexcept
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1RuntimeCoreConfig_af02bd1ff8d573d83cecefcdd647f0a0b}{set\+Number\+Of\+Threads\+To\+Use}} (int num\+\_\+threads)
+\item 
+int \doxymbox{\hyperlink{classansys_1_1dpf_1_1RuntimeCoreConfig_a4ae882d7ed1e89ad3d03a761f6f485c1}{get\+Number\+Of\+Threads\+To\+Use}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+enables to set runtime configuration options to the DPF process (Data\+Processing\+Core). 
+
+\label{doc-func-members}
+\Hypertarget{classansys_1_1dpf_1_1RuntimeCoreConfig_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classansys_1_1dpf_1_1RuntimeCoreConfig_a4ae882d7ed1e89ad3d03a761f6f485c1}\index{ansys::dpf::RuntimeCoreConfig@{ansys::dpf::RuntimeCoreConfig}!getNumberOfThreadsToUse@{getNumberOfThreadsToUse}}
+\index{getNumberOfThreadsToUse@{getNumberOfThreadsToUse}!ansys::dpf::RuntimeCoreConfig@{ansys::dpf::RuntimeCoreConfig}}
+\doxysubsubsection{\texorpdfstring{getNumberOfThreadsToUse()}{getNumberOfThreadsToUse()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1RuntimeCoreConfig_a4ae882d7ed1e89ad3d03a761f6f485c1} 
+int ansys::\+dpf::\+\+Runtime\+Core\+Config::\+get\+Number\+Of\+Threads\+To\+Use (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+The default number of threads to use for all operators. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1RuntimeCoreConfig_af02bd1ff8d573d83cecefcdd647f0a0b}\index{ansys::dpf::RuntimeCoreConfig@{ansys::dpf::RuntimeCoreConfig}!setNumberOfThreadsToUse@{setNumberOfThreadsToUse}}
+\index{setNumberOfThreadsToUse@{setNumberOfThreadsToUse}!ansys::dpf::RuntimeCoreConfig@{ansys::dpf::RuntimeCoreConfig}}
+\doxysubsubsection{\texorpdfstring{setNumberOfThreadsToUse()}{setNumberOfThreadsToUse()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1RuntimeCoreConfig_af02bd1ff8d573d83cecefcdd647f0a0b} 
+void ansys::\+dpf::\+\+Runtime\+Core\+Config::\+set\+Number\+Of\+Threads\+To\+Use (\begin{DoxyParamCaption}\item[{int}]{num\+\_\+threads}{}\end{DoxyParamCaption})}
+
+Sets the default number of threads to use for all operators, default is omp\+\_\+get\+\_\+num\+\_\+threads. 

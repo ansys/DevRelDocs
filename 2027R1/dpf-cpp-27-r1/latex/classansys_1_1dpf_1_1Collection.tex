@@ -1,0 +1,273 @@
+\doxysection{ansys::\+dpf::\+Collection\texorpdfstring{$<$}{<} DataT \texorpdfstring{$>$}{>} Class Template Reference}
+\hypertarget{classansys_1_1dpf_1_1Collection}{}\label{classansys_1_1dpf_1_1Collection}\index{ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}}
+
+
+{\ttfamily \+\#include $<$dpf\+\_\+api.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Collection_ad71430265c0f1891bd415082f28b0d36}\label{classansys_1_1dpf_1_1Collection_ad71430265c0f1891bd415082f28b0d36} 
+{\bfseries Collection} (Collection$<$ DataT $>$ const \&)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Collection_ac67a41f31cce324a441d456ccfadbe1f}\label{classansys_1_1dpf_1_1Collection_ac67a41f31cce324a441d456ccfadbe1f} 
+{\bfseries Collection} (Collection$<$ DataT $>$ \&\&) noexcept
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection_ac50cf5a210cd3d391525a18c3abefca3}{Collection}} (std::\+vector$<$ std::\+string $>$ const \&labels)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection_ad86df2fa4903a8891826f44b195dc344}{Collection}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection_acbbfa8b0684530e727c378eeb5c8d46f}{Collection}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client, std::\+vector$<$ std::\+string $>$ const \&labels)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection_a37fdf6aad0fc6b3ebcb39c1a03f78429}{Collection}} (int id, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Collection_aee0b20090571d8d9218bc48ca542b6c3}\label{classansys_1_1dpf_1_1Collection_aee0b20090571d8d9218bc48ca542b6c3} 
+Collection \& {\bfseries operator=} (Collection$<$ DataT $>$ const \&)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Collection_a782d90e147798e3e81b7b5b331fa8eb0}\label{classansys_1_1dpf_1_1Collection_a782d90e147798e3e81b7b5b331fa8eb0} 
+Collection \& {\bfseries operator=} (Collection$<$ DataT $>$ \&\&) noexcept
+\item 
+DataT \doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection_a65acae9c8be4c94b19a82c28ae4419f7}{operator\+[$\,$]\+}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} index)
+\item 
+DataT \doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection_ad69525d9782d30f290d3f250576aa3d1}{at}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} index)
+\item 
+const DataT \doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection_ab5a9fa1e466cf9e36ae26d5419768c6d}{at}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} index) const
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection_a2ee31954dd991137fe535f3a3b3ffeed}{update}} (DataT \&f, \doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} index)
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection_afc36f19a39c1909d695f80ff22e0eeb0}{add}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&labels, DataT const \&f, bool can\+\_\+replace=true)
+\item 
+std::\+vector$<$ DataT $>$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection_a04b6d0e9e544f69be27dcfc3c79d5537}{get\+Entries}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&label\+\_\+space) const
+\item 
+DataT \doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection_a6dea8d438075e38470c4b9a46ca9ec07}{get\+Entry}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&label\+\_\+space) const
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Collection_a8e724ea1528d5244ffb4860e67a39698}\label{classansys_1_1dpf_1_1Collection_a8e724ea1528d5244ffb4860e67a39698} 
+std::\+vector$<$ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} $>$ {\bfseries get\+Entries\+Indices} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&lab\+\_\+space) const
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfVector}{Dpf\+Vector}}$<$ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} $>$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection_ab36f06c3b91692697f5c0a65dde0d33e}{get\+Matching\+Entities\+Indices}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&label\+\_\+space) const
+\item 
+DataT \doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection_a1ce412d54e6e0aa61a60aa86b344acae}{get\+Matching\+Entity}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&label\+\_\+space) const
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Collection_a027dbff1f436f77a4857899ef78e6b15}\label{classansys_1_1dpf_1_1Collection_a027dbff1f436f77a4857899ef78e6b15} 
+Collection$<$ DataT $>$ {\bfseries create\+Sub\+Collection} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&lab\+\_\+space) const
+\begin{DoxyCompactList}\small\item\em create a \doxylink{classansys_1_1dpf_1_1Collection}{Collection} with all the entries corresponding to the label space in input \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Collection$<$ DataT $>$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection_a545436af4a3a2c404796ab128ad06890}{empty\+Collection}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$typename DataT$>$\newline
+class ansys::\+dpf::\+\+Collection$<$ Data\+T $>$}
+Contains a group of entries of same type. The Any\+Collection is designed as a set of entries ordered through labels and ids. Labels identify how the entries are filtered. \begin{DoxySeeAlso}{See also}
+\doxylink{classansys_1_1dpf_1_1Any}{Any} 
+\end{DoxySeeAlso}
+
+
+\label{doc-constructors}
+\Hypertarget{classansys_1_1dpf_1_1Collection_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classansys_1_1dpf_1_1Collection_ac50cf5a210cd3d391525a18c3abefca3}\index{ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}!Collection@{Collection}}
+\index{Collection@{Collection}!ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}}
+\doxysubsubsection{\texorpdfstring{Collection()}{Collection()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Collection_ac50cf5a210cd3d391525a18c3abefca3} 
+template$<$typename DataT$>$ \\
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection}{ansys::\+dpf::\+\+Collection}}$<$ DataT $>$::\+\+Collection (\begin{DoxyParamCaption}\item[{std::\+vector$<$ std::\+string $>$ const \&}]{labels}{}\end{DoxyParamCaption})}
+
+Create container for a group of entries with the given labels. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em \doxylink{structansys_1_1dpf_1_1labels}{labels}} & Labels for group of entries. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1Collection_ad86df2fa4903a8891826f44b195dc344}\index{ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}!Collection@{Collection}}
+\index{Collection@{Collection}!ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}}
+\doxysubsubsection{\texorpdfstring{Collection()}{Collection()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Collection_ad86df2fa4903a8891826f44b195dc344} 
+template$<$typename DataT$>$ \\
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection}{ansys::\+dpf::\+\+Collection}}$<$ DataT $>$::\+\+Collection (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{}\end{DoxyParamCaption})}
+
+Create a new collection on a server. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1Collection_acbbfa8b0684530e727c378eeb5c8d46f}\index{ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}!Collection@{Collection}}
+\index{Collection@{Collection}!ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}}
+\doxysubsubsection{\texorpdfstring{Collection()}{Collection()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Collection_acbbfa8b0684530e727c378eeb5c8d46f} 
+template$<$typename DataT$>$ \\
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection}{ansys::\+dpf::\+\+Collection}}$<$ DataT $>$::\+\+Collection (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{, }\item[{std::\+vector$<$ std::\+string $>$ const \&}]{labels}{}\end{DoxyParamCaption})}
+
+Create a collection with the given labels on a server. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em \doxylink{structansys_1_1dpf_1_1labels}{labels}} & Labels for meshes. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1Collection_a37fdf6aad0fc6b3ebcb39c1a03f78429}\index{ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}!Collection@{Collection}}
+\index{Collection@{Collection}!ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}}
+\doxysubsubsection{\texorpdfstring{Collection()}{Collection()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Collection_a37fdf6aad0fc6b3ebcb39c1a03f78429} 
+template$<$typename DataT$>$ \\
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection}{ansys::\+dpf::\+\+Collection}}$<$ DataT $>$::\+\+Collection (\begin{DoxyParamCaption}\item[{int}]{id}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{}\end{DoxyParamCaption})}
+
+Retrieve an existing instance of \doxylink{classansys_1_1dpf_1_1Collection}{Collection} on a server. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em id} & Id of the \doxylink{classansys_1_1dpf_1_1Collection}{Collection} object on the server\textquotesingle{}s database.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{classansys_1_1dpf_1_1Collection_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classansys_1_1dpf_1_1Collection_afc36f19a39c1909d695f80ff22e0eeb0}\index{ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}!add@{add}}
+\index{add@{add}!ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Collection_afc36f19a39c1909d695f80ff22e0eeb0} 
+template$<$typename DataT$>$ \\
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection}{ansys::\+dpf::\+\+Collection}}$<$ DataT $>$::\+add (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&}]{labels}{, }\item[{DataT const \&}]{f}{, }\item[{bool}]{can\+\_\+replace}{ = {\ttfamily true}}\end{DoxyParamCaption})}
+
+Add \doxylink{classansys_1_1dpf_1_1Any}{Any} with given label space. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em \doxylink{structansys_1_1dpf_1_1labels}{labels}} & \doxylink{structansys_1_1dpf_1_1Label}{Label} space for \doxylink{classansys_1_1dpf_1_1Any}{Any}.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em f} & \doxylink{classansys_1_1dpf_1_1Any}{Any} to add.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em can\+\_\+replace} & if can\+\_\+replace is false, then, the entity is pushed back without checking if the label space already exists, available starting with 2024R2. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1Collection_ad69525d9782d30f290d3f250576aa3d1}\index{ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}!at@{at}}
+\index{at@{at}!ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}}
+\doxysubsubsection{\texorpdfstring{at()}{at()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Collection_ad69525d9782d30f290d3f250576aa3d1} 
+template$<$typename DataT$>$ \\
+DataT \doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection}{ansys::\+dpf::\+\+Collection}}$<$ DataT $>$::\+at (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}}}]{index}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+DataT for given index. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em index} & Index of \doxylink{classansys_1_1dpf_1_1Any}{Any} to get. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1Collection_ab5a9fa1e466cf9e36ae26d5419768c6d}\index{ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}!at@{at}}
+\index{at@{at}!ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}}
+\doxysubsubsection{\texorpdfstring{at()}{at()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Collection_ab5a9fa1e466cf9e36ae26d5419768c6d} 
+template$<$typename DataT$>$ \\
+const DataT \doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection}{ansys::\+dpf::\+\+Collection}}$<$ DataT $>$::\+at (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}}}]{index}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+DataT for given index. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em index} & Index of \doxylink{classansys_1_1dpf_1_1Any}{Any} to get. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1Collection_a545436af4a3a2c404796ab128ad06890}\index{ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}!emptyCollection@{emptyCollection}}
+\index{emptyCollection@{emptyCollection}!ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}}
+\doxysubsubsection{\texorpdfstring{emptyCollection()}{emptyCollection()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Collection_a545436af4a3a2c404796ab128ad06890} 
+template$<$typename DataT$>$ \\
+Collection$<$ DataT $>$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection}{ansys::\+dpf::\+\+Collection}}$<$ DataT $>$::\+empty\+Collection (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create an empty container. \begin{DoxyReturn}{Returns}
+Empty container. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1Collection_a04b6d0e9e544f69be27dcfc3c79d5537}\index{ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}!getEntries@{getEntries}}
+\index{getEntries@{getEntries}!ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}}
+\doxysubsubsection{\texorpdfstring{getEntries()}{getEntries()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Collection_a04b6d0e9e544f69be27dcfc3c79d5537} 
+template$<$typename DataT$>$ \\
+std::\+vector$<$ DataT $>$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection}{ansys::\+dpf::\+\+Collection}}$<$ DataT $>$::\+get\+Entries (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&}]{label\+\_\+space}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Vector of entries for given label space. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em label\+\_\+space} & \doxylink{structansys_1_1dpf_1_1Label}{Label} space for which to get entries. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1Collection_a6dea8d438075e38470c4b9a46ca9ec07}\index{ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}!getEntry@{getEntry}}
+\index{getEntry@{getEntry}!ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}}
+\doxysubsubsection{\texorpdfstring{getEntry()}{getEntry()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Collection_a6dea8d438075e38470c4b9a46ca9ec07} 
+template$<$typename DataT$>$ \\
+DataT \doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection}{ansys::\+dpf::\+\+Collection}}$<$ DataT $>$::\+get\+Entry (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&}]{label\+\_\+space}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+First \doxylink{classansys_1_1dpf_1_1Any}{Any} for given label space. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em label\+\_\+space} & \doxylink{structansys_1_1dpf_1_1Label}{Label} space for which to get \doxylink{classansys_1_1dpf_1_1Any}{Any}. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1Collection_ab36f06c3b91692697f5c0a65dde0d33e}\index{ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}!getMatchingEntitiesIndices@{getMatchingEntitiesIndices}}
+\index{getMatchingEntitiesIndices@{getMatchingEntitiesIndices}!ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}}
+\doxysubsubsection{\texorpdfstring{getMatchingEntitiesIndices()}{getMatchingEntitiesIndices()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Collection_ab36f06c3b91692697f5c0a65dde0d33e} 
+template$<$typename DataT$>$ \\
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfVector}{Dpf\+Vector}}$<$ int $>$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection}{ansys::\+dpf::\+\+Collection}}$<$ DataT $>$::\+get\+Matching\+Entities\+Indices (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&}]{label\+\_\+space}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Vector of matching entries to the given label space. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em label\+\_\+space} & \doxylink{structansys_1_1dpf_1_1Label}{Label} space for which to get entries. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1Collection_a1ce412d54e6e0aa61a60aa86b344acae}\index{ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}!getMatchingEntity@{getMatchingEntity}}
+\index{getMatchingEntity@{getMatchingEntity}!ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}}
+\doxysubsubsection{\texorpdfstring{getMatchingEntity()}{getMatchingEntity()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Collection_a1ce412d54e6e0aa61a60aa86b344acae} 
+template$<$typename DataT$>$ \\
+DataT \doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection}{ansys::\+dpf::\+\+Collection}}$<$ DataT $>$::\+get\+Matching\+Entity (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&}]{label\+\_\+space}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+First matching \doxylink{classansys_1_1dpf_1_1Any}{Any} for given label space. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em label\+\_\+space} & \doxylink{structansys_1_1dpf_1_1Label}{Label} space for which to get \doxylink{classansys_1_1dpf_1_1Any}{Any}. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1Collection_a65acae9c8be4c94b19a82c28ae4419f7}\index{ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}!operator\+[]\+@{operator[]}}
+\index{operator\+[]\+@{operator[]}!ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Collection_a65acae9c8be4c94b19a82c28ae4419f7} 
+template$<$typename DataT$>$ \\
+DataT \doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection}{ansys::\+dpf::\+\+Collection}}$<$ DataT $>$::\+operator\+[$\,$]\+ (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}}}]{index}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+\doxylink{classansys_1_1dpf_1_1Any}{Any} for given index. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em index} & Index of entries within container. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1Collection_a2ee31954dd991137fe535f3a3b3ffeed}\index{ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}!update@{update}}
+\index{update@{update}!ansys::dpf::Collection$<$ DataT $>$@{ansys::dpf::Collection$<$ DataT $>$}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Collection_a2ee31954dd991137fe535f3a3b3ffeed} 
+template$<$typename DataT$>$ \\
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1Collection}{ansys::\+dpf::\+\+Collection}}$<$ DataT $>$::\+update (\begin{DoxyParamCaption}\item[{DataT \&}]{f}{, }\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}}}]{index}{}\end{DoxyParamCaption})}
+
+Update a \doxylink{classansys_1_1dpf_1_1Any}{Any} at index. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em f} & New \doxylink{classansys_1_1dpf_1_1Any}{Any}.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em index} & Index of \doxylink{classansys_1_1dpf_1_1Any}{Any} to update. \\
+\hline
+\end{DoxyParams}

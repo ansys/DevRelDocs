@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="structansys_1_1dpf_1_1ConfigOptionSpecification" kind="struct" language="C++" prot="public">
+    <compoundname>ansys::dpf::ConfigOptionSpecification</compoundname>
+    <includes local="no">dpf_api.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1ConfigOptionSpecification_1a52f0699aa8cd917775d57e30bcf026be" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ConfigOptionSpecification::_description</definition>
+        <argsstring></argsstring>
+        <name>_description</name>
+        <qualifiedname>ansys::dpf::ConfigOptionSpecification::_description</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Description of config option. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6081" column="13" bodyfile="dpf_api.h" bodystart="6081" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1ConfigOptionSpecification_1afa80484ff40dd26e75e9bcb4f059f7bb" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ConfigOptionSpecification::_name</definition>
+        <argsstring></argsstring>
+        <name>_name</name>
+        <qualifiedname>ansys::dpf::ConfigOptionSpecification::_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name of config option. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6083" column="13" bodyfile="dpf_api.h" bodystart="6083" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1ConfigOptionSpecification_1adaa1194a59e880eae4f86b114f96e325" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; ansys::dpf::ConfigOptionSpecification::_type_names</definition>
+        <argsstring></argsstring>
+        <name>_type_names</name>
+        <qualifiedname>ansys::dpf::ConfigOptionSpecification::_type_names</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Type names of config option. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6085" column="13" bodyfile="dpf_api.h" bodystart="6085" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1ConfigOptionSpecification_1a9652c6c30852f7857853f22997b63413" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ConfigOptionSpecification::_default_value</definition>
+        <argsstring></argsstring>
+        <name>_default_value</name>
+        <qualifiedname>ansys::dpf::ConfigOptionSpecification::_default_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default value of config option. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6087" column="13" bodyfile="dpf_api.h" bodystart="6087" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structansys_1_1dpf_1_1ConfigOptionSpecification_1a253b65ae84fcc73cd2b27e2c5545a198" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::ConfigOptionSpecification::ConfigOptionSpecification</definition>
+        <argsstring>(std::string const &amp;description, std::string const &amp;name, std::vector&lt; std::string &gt; type_names, std::string const &amp;default_value)</argsstring>
+        <name>ConfigOptionSpecification</name>
+        <qualifiedname>ansys::dpf::ConfigOptionSpecification::ConfigOptionSpecification</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::string &gt;</type>
+          <declname>type_names</declname>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>default_value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6090" column="1" bodyfile="dpf_api.h" bodystart="6090" bodyend="6095"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1ConfigOptionSpecification_1a52c1ba0874464f49572045e5a4447a8b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ConfigOptionSpecification::getDescription</definition>
+        <argsstring>() const</argsstring>
+        <name>getDescription</name>
+        <qualifiedname>ansys::dpf::ConfigOptionSpecification::getDescription</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Description of config option. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6097" column="13" bodyfile="dpf_api.h" bodystart="6097" bodyend="6100"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1ConfigOptionSpecification_1a6a87af4628268c180d7b2af80877e7a3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ConfigOptionSpecification::getName</definition>
+        <argsstring>() const</argsstring>
+        <name>getName</name>
+        <qualifiedname>ansys::dpf::ConfigOptionSpecification::getName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name of config option. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6102" column="13" bodyfile="dpf_api.h" bodystart="6102" bodyend="6105"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1ConfigOptionSpecification_1a0f3280755b029a3d6ad7eccad74ead7a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; ansys::dpf::ConfigOptionSpecification::getTypeNames</definition>
+        <argsstring>() const</argsstring>
+        <name>getTypeNames</name>
+        <qualifiedname>ansys::dpf::ConfigOptionSpecification::getTypeNames</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Type names of config option. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6107" column="13" bodyfile="dpf_api.h" bodystart="6107" bodyend="6110"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1ConfigOptionSpecification_1a451a803874ee02f8e8cba2c578fb9bdb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::ConfigOptionSpecification::getDefaultValue</definition>
+        <argsstring>() const</argsstring>
+        <name>getDefaultValue</name>
+        <qualifiedname>ansys::dpf::ConfigOptionSpecification::getDefaultValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default value of config option. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6112" column="13" bodyfile="dpf_api.h" bodystart="6112" bodyend="6115"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Specification information for operator&apos;s configuration option. <simplesect kind="see"><para><ref refid="classansys_1_1dpf_1_1OperatorSpecification" kindref="compound">OperatorSpecification</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="dpf_api.h" line="6077" column="1" bodyfile="dpf_api.h" bodystart="6078" bodyend="6116"/>
+    <listofallmembers>
+      <member refid="structansys_1_1dpf_1_1ConfigOptionSpecification_1a9652c6c30852f7857853f22997b63413" prot="private" virt="non-virtual"><scope>ansys::dpf::ConfigOptionSpecification</scope><name>_default_value</name></member>
+      <member refid="structansys_1_1dpf_1_1ConfigOptionSpecification_1a52f0699aa8cd917775d57e30bcf026be" prot="private" virt="non-virtual"><scope>ansys::dpf::ConfigOptionSpecification</scope><name>_description</name></member>
+      <member refid="structansys_1_1dpf_1_1ConfigOptionSpecification_1afa80484ff40dd26e75e9bcb4f059f7bb" prot="private" virt="non-virtual"><scope>ansys::dpf::ConfigOptionSpecification</scope><name>_name</name></member>
+      <member refid="structansys_1_1dpf_1_1ConfigOptionSpecification_1adaa1194a59e880eae4f86b114f96e325" prot="private" virt="non-virtual"><scope>ansys::dpf::ConfigOptionSpecification</scope><name>_type_names</name></member>
+      <member refid="structansys_1_1dpf_1_1ConfigOptionSpecification_1a253b65ae84fcc73cd2b27e2c5545a198" prot="public" virt="non-virtual"><scope>ansys::dpf::ConfigOptionSpecification</scope><name>ConfigOptionSpecification</name></member>
+      <member refid="structansys_1_1dpf_1_1ConfigOptionSpecification_1a451a803874ee02f8e8cba2c578fb9bdb" prot="public" virt="non-virtual"><scope>ansys::dpf::ConfigOptionSpecification</scope><name>getDefaultValue</name></member>
+      <member refid="structansys_1_1dpf_1_1ConfigOptionSpecification_1a52c1ba0874464f49572045e5a4447a8b" prot="public" virt="non-virtual"><scope>ansys::dpf::ConfigOptionSpecification</scope><name>getDescription</name></member>
+      <member refid="structansys_1_1dpf_1_1ConfigOptionSpecification_1a6a87af4628268c180d7b2af80877e7a3" prot="public" virt="non-virtual"><scope>ansys::dpf::ConfigOptionSpecification</scope><name>getName</name></member>
+      <member refid="structansys_1_1dpf_1_1ConfigOptionSpecification_1a0f3280755b029a3d6ad7eccad74ead7a" prot="public" virt="non-virtual"><scope>ansys::dpf::ConfigOptionSpecification</scope><name>getTypeNames</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

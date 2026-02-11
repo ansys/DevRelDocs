@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="structansys_1_1dpf_1_1Dimensionality" kind="struct" language="C++" prot="public">
+    <compoundname>ansys::dpf::Dimensionality</compoundname>
+    <includes local="no">dpf_api_base.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932f" prot="public" static="no" strong="no">
+        <type></type>
+        <name>ENature</name>
+        <qualifiedname>ansys::dpf::Dimensionality::ENature</qualifiedname>
+        <enumvalue id="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932fab1e374d84e9d59ff041f86b649785682" prot="public">
+          <name>eScalar</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932faf49ffdf91915fe856dd4465ec99cee86" prot="public">
+          <name>eVector</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932fab7504de6505b8d462ea4805ac78c63de" prot="public">
+          <name>eMatrix</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932faefe92d527d4e8342302e21584a6c95db" prot="public">
+          <name>eThirdOrderTensor</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932fa86439d7afe0bec6120829e128979c26a" prot="public">
+          <name>eFourthOrderTensor</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932faf671f518935364c6f60ca6353e024ea4" prot="public">
+          <name>eSymmetricalMatrix</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932fabfb10634b8229d98071873a53cbdbab1" prot="public">
+          <name>eDiagonalMatrix</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932fa14aa2c543af770bb2cfaf2bea185f2cb" prot="public">
+          <name>eSymetricVoigtMatrix</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932fa635756dc0dccbafeedf23f36cc4cb680" prot="public">
+          <name>eIdentityMatrix</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932faac4c7551563382886e6ebdde81c74ec7" prot="public">
+          <name>eFourthOrderIdentityTensor</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Enum value to describe handled entities dimensions. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="864" column="1" bodyfile="dpf_api_base.h" bodystart="864" bodyend="864"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1Dimensionality_1a5b2b368e4a13cf72be8a3e4f579c4284" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; ansys::dpf::Dimensionality::components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <qualifiedname>ansys::dpf::Dimensionality::components</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Vector defining size of each dimension. For example, use { 1 } for scalar, { 3 } for a 3D vector, and { 3, 3 } for 3D tensor. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="868" column="13" bodyfile="dpf_api_base.h" bodystart="868" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1Dimensionality_1ad0a69f176729f5196b59701ebc94c379" prot="public" static="no" mutable="no">
+        <type><ref refid="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932f" kindref="member">ENature</ref></type>
+        <definition>ENature ansys::dpf::Dimensionality::nature</definition>
+        <argsstring></argsstring>
+        <name>nature</name>
+        <qualifiedname>ansys::dpf::Dimensionality::nature</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932f" kindref="member">ENature</ref> enum value to describe the dimension of the entity. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="870" column="9" bodyfile="dpf_api_base.h" bodystart="870" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structansys_1_1dpf_1_1Dimensionality_1ad640244ee091a7f88f74805c0f2c7540" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Dimensionality::Dimensionality</definition>
+        <argsstring>()=delete</argsstring>
+        <name>Dimensionality</name>
+        <qualifiedname>ansys::dpf::Dimensionality::Dimensionality</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="872" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1Dimensionality_1ac125b96a9c3925b3de25e96b567dde82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Dimensionality::Dimensionality</definition>
+        <argsstring>(ENature innature, std::vector&lt; int &gt; const &amp;incomponents)</argsstring>
+        <name>Dimensionality</name>
+        <qualifiedname>ansys::dpf::Dimensionality::Dimensionality</qualifiedname>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932f" kindref="member">ENature</ref></type>
+          <declname>innature</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; int &gt; const &amp;</type>
+          <declname>incomponents</declname>
+          <briefdescription><para>[in] <ref refid="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932f" kindref="member">ENature</ref> enum value to describe the dimension of the entity. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="structansys_1_1dpf_1_1Dimensionality" kindref="compound">Dimensionality</ref> object that describes the entity dimensions. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="874" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1Dimensionality_1a17e3ae4b1a740d42176086de8873608e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+        <definition>dp_int ansys::dpf::Dimensionality::numberOfComponents</definition>
+        <argsstring>() const</argsstring>
+        <name>numberOfComponents</name>
+        <qualifiedname>ansys::dpf::Dimensionality::numberOfComponents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>[in] Vector defining size of each dimension.<simplesect kind="return"><para>The number of components of the described entity. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="877" column="8"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Entity to describe the dimensionality. <simplesect kind="see"><para><ref refid="structansys_1_1dpf_1_1dimensionalities" kindref="compound">dimensionalities</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="dpf_api_base.h" line="861" column="1" bodyfile="dpf_api_base.h" bodystart="862" bodyend="878"/>
+    <listofallmembers>
+      <member refid="structansys_1_1dpf_1_1Dimensionality_1a5b2b368e4a13cf72be8a3e4f579c4284" prot="public" virt="non-virtual"><scope>ansys::dpf::Dimensionality</scope><name>components</name></member>
+      <member refid="structansys_1_1dpf_1_1Dimensionality_1ad640244ee091a7f88f74805c0f2c7540" prot="public" virt="non-virtual"><scope>ansys::dpf::Dimensionality</scope><name>Dimensionality</name></member>
+      <member refid="structansys_1_1dpf_1_1Dimensionality_1ac125b96a9c3925b3de25e96b567dde82" prot="public" virt="non-virtual"><scope>ansys::dpf::Dimensionality</scope><name>Dimensionality</name></member>
+      <member refid="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932fabfb10634b8229d98071873a53cbdbab1" prot="public" virt="non-virtual"><scope>ansys::dpf::Dimensionality</scope><name>eDiagonalMatrix</name></member>
+      <member refid="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932faac4c7551563382886e6ebdde81c74ec7" prot="public" virt="non-virtual"><scope>ansys::dpf::Dimensionality</scope><name>eFourthOrderIdentityTensor</name></member>
+      <member refid="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932fa86439d7afe0bec6120829e128979c26a" prot="public" virt="non-virtual"><scope>ansys::dpf::Dimensionality</scope><name>eFourthOrderTensor</name></member>
+      <member refid="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932fa635756dc0dccbafeedf23f36cc4cb680" prot="public" virt="non-virtual"><scope>ansys::dpf::Dimensionality</scope><name>eIdentityMatrix</name></member>
+      <member refid="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932fab7504de6505b8d462ea4805ac78c63de" prot="public" virt="non-virtual"><scope>ansys::dpf::Dimensionality</scope><name>eMatrix</name></member>
+      <member refid="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932f" prot="public" virt="non-virtual"><scope>ansys::dpf::Dimensionality</scope><name>ENature</name></member>
+      <member refid="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932fab1e374d84e9d59ff041f86b649785682" prot="public" virt="non-virtual"><scope>ansys::dpf::Dimensionality</scope><name>eScalar</name></member>
+      <member refid="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932fa14aa2c543af770bb2cfaf2bea185f2cb" prot="public" virt="non-virtual"><scope>ansys::dpf::Dimensionality</scope><name>eSymetricVoigtMatrix</name></member>
+      <member refid="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932faf671f518935364c6f60ca6353e024ea4" prot="public" virt="non-virtual"><scope>ansys::dpf::Dimensionality</scope><name>eSymmetricalMatrix</name></member>
+      <member refid="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932faefe92d527d4e8342302e21584a6c95db" prot="public" virt="non-virtual"><scope>ansys::dpf::Dimensionality</scope><name>eThirdOrderTensor</name></member>
+      <member refid="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932faf49ffdf91915fe856dd4465ec99cee86" prot="public" virt="non-virtual"><scope>ansys::dpf::Dimensionality</scope><name>eVector</name></member>
+      <member refid="structansys_1_1dpf_1_1Dimensionality_1ad0a69f176729f5196b59701ebc94c379" prot="public" virt="non-virtual"><scope>ansys::dpf::Dimensionality</scope><name>nature</name></member>
+      <member refid="structansys_1_1dpf_1_1Dimensionality_1a17e3ae4b1a740d42176086de8873608e" prot="public" virt="non-virtual"><scope>ansys::dpf::Dimensionality</scope><name>numberOfComponents</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

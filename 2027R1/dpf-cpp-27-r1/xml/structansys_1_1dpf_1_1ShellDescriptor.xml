@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="structansys_1_1dpf_1_1ShellDescriptor" kind="struct" language="C++" prot="public">
+    <compoundname>ansys::dpf::ShellDescriptor</compoundname>
+    <includes local="no">dpf_api_base.h</includes>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structansys_1_1dpf_1_1ShellDescriptor_1a3e51b00d11309aab8542185faa5b0094" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+        <definition>static dp_int ansys::dpf::ShellDescriptor::numShellLayers</definition>
+        <argsstring>(eshellLayers eshell_layer)</argsstring>
+        <name>numShellLayers</name>
+        <qualifiedname>ansys::dpf::ShellDescriptor::numShellLayers</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a6d14c6ea165905b13e914d776c880751" kindref="member">eshellLayers</ref></type>
+          <declname>eshell_layer</declname>
+          <briefdescription><para>[in] <ref refid="namespaceansys_1_1dpf_1a6d14c6ea165905b13e914d776c880751" kindref="member">eshellLayers</ref>. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the number of layer associated to a layer definition. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="593" column="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Information releative to shell elements. <simplesect kind="see"><para><ref refid="namespaceansys_1_1dpf_1a6d14c6ea165905b13e914d776c880751" kindref="member">eshellLayers</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="dpf_api_base.h" line="590" column="1" bodyfile="dpf_api_base.h" bodystart="591" bodyend="595"/>
+    <listofallmembers>
+      <member refid="structansys_1_1dpf_1_1ShellDescriptor_1a3e51b00d11309aab8542185faa5b0094" prot="public" virt="non-virtual"><scope>ansys::dpf::ShellDescriptor</scope><name>numShellLayers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

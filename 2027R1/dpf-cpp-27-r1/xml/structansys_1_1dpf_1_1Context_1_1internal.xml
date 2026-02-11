@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="structansys_1_1dpf_1_1Context_1_1internal" kind="struct" language="C++" prot="public">
+    <compoundname>ansys::dpf::Context::internal</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structansys_1_1dpf_1_1Context_1_1internal_1ac3e28262cfa961c2d354169056226ef1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int ansys::dpf::Context::internal::getAPIVersion</definition>
+        <argsstring>(Context const &amp;context)</argsstring>
+        <name>getAPIVersion</name>
+        <qualifiedname>ansys::dpf::Context::internal::getAPIVersion</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Context_1ae26354fe1dea7b2691e115275704278b" kindref="member">Context</ref> const &amp;</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1862" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1Context_1_1internal_1a66bc5304c6c05f5d54a2dc3a83815626" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1DataTree" kindref="compound">DataTree</ref></type>
+        <definition>static DataTree ansys::dpf::Context::internal::contextToDataTree</definition>
+        <argsstring>(Context const &amp;context, Client const *const client=nullptr)</argsstring>
+        <name>contextToDataTree</name>
+        <qualifiedname>ansys::dpf::Context::internal::contextToDataTree</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Context_1ae26354fe1dea7b2691e115275704278b" kindref="member">Context</ref> const &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> const *const</type>
+          <declname>client</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1863" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="dpf_api_base.h" line="1860" column="1" bodyfile="dpf_api_base.h" bodystart="1861" bodyend="1864"/>
+    <listofallmembers>
+      <member refid="structansys_1_1dpf_1_1Context_1_1internal_1a66bc5304c6c05f5d54a2dc3a83815626" prot="public" virt="non-virtual"><scope>ansys::dpf::Context::internal</scope><name>contextToDataTree</name></member>
+      <member refid="structansys_1_1dpf_1_1Context_1_1internal_1ac3e28262cfa961c2d354169056226ef1" prot="public" virt="non-virtual"><scope>ansys::dpf::Context::internal</scope><name>getAPIVersion</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

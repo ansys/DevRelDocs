@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="structansys_1_1dpf_1_1reflect_3_01MeshesContainer_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>ansys::dpf::reflect&lt; MeshesContainer &gt;</compoundname>
+    <templateparamlist>
+    </templateparamlist>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structansys_1_1dpf_1_1reflect_3_01MeshesContainer_01_4_1ab7af28d46f601e67c1fec56efb395fa6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>static std::string ansys::dpf::reflect&lt; MeshesContainer &gt;::type_name</definition>
+        <argsstring>()</argsstring>
+        <name>type_name</name>
+        <qualifiedname>ansys::dpf::reflect&lt; MeshesContainer &gt;::type_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6937" column="20" bodyfile="dpf_api.h" bodystart="6937" bodyend="6937"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="dpf_api.h" line="6935" column="11" bodyfile="dpf_api.h" bodystart="6936" bodyend="6938"/>
+    <listofallmembers>
+      <member refid="structansys_1_1dpf_1_1reflect_3_01MeshesContainer_01_4_1ab7af28d46f601e67c1fec56efb395fa6" prot="public" virt="non-virtual"><scope>ansys::dpf::reflect&lt; MeshesContainer &gt;</scope><name>type_name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

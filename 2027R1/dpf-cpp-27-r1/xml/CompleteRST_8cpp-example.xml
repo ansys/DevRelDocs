@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="CompleteRST_8cpp-example" kind="example">
+    <compoundname>CompleteRST.cpp</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Example showing how to load an RST file and extract mesh and results. <programlisting filename="CompleteRST.cpp"><codeline><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="comment">//<sp/>COPYRIGHT<sp/>ANSYS.<sp/>ALL<sp/>RIGHTS<sp/>RESERVED.</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="comment">//<sp/>this<sp/>must<sp/>only<sp/>be<sp/>included<sp/>in<sp/>application<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&quot;dpf_api_i.cpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;limits&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Example.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">TEST(Complete,<sp/>BaseTest)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>fileName(</highlight><highlight class="stringliteral">&quot;../../../testfiles/Cube.rst&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Data<sp/>source</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DataSources" kindref="compound">ansys::dpf::DataSources</ref><sp/>dataSources;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>dataSources.<ref refid="classansys_1_1dpf_1_1DataSources_1ad2a5bb6f24ca621ffaaee9e7a47cdc20" kindref="member">addResultFile</ref>(fileName);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(dataSources.<ref refid="classansys_1_1dpf_1_1DataSources_1a74a2a6b4aacae91be09048a58c601d1b" kindref="member">numPaths</ref>(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>mesh<sp/>provider</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">ansys::dpf::Operator</ref><sp/>meshProvider<sp/>=<sp/><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">ansys::dpf::Operator</ref>(</highlight><highlight class="stringliteral">&quot;mapdl::rst::MeshProvider&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(meshProvider.<ref refid="classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459" kindref="member">empty</ref>())<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;MeshProvider<sp/>failed<sp/>to<sp/>load&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal">TEST(Complete,<sp/>RST)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>this<sp/>is<sp/>only<sp/>called<sp/>a<sp/>single<sp/>time<sp/>in<sp/>an<sp/>application</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//ansys::dpf::LibraryHandle<sp/>lib;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>fileName(</highlight><highlight class="stringliteral">&quot;../../../testfiles/Cube.rst&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Data<sp/>source</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DataSources" kindref="compound">ansys::dpf::DataSources</ref><sp/>dataSources;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>dataSources.<ref refid="classansys_1_1dpf_1_1DataSources_1ad2a5bb6f24ca621ffaaee9e7a47cdc20" kindref="member">addResultFile</ref>(fileName);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>mesh<sp/>provider</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">ansys::dpf::Operator</ref><sp/>meshProvider<sp/>=<sp/><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">ansys::dpf::Operator</ref>(</highlight><highlight class="stringliteral">&quot;MeshProvider&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(meshProvider.<ref refid="classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459" kindref="member">empty</ref>())<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;MeshProvider&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>meshProvider.connect(<ref refid="namespaceansys_1_1dpf_1aa4a44a04a0aafb8fe0645f019bbd94d1a5b6613f802062fde4faea4b553db7fbc" kindref="member">ansys::dpf::eDataSourcesPin</ref>,<sp/>dataSources);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>meshed<sp/>region</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1MeshedRegion" kindref="compound">ansys::dpf::MeshedRegion</ref><sp/>meshedRegion<sp/>=<sp/>meshProvider.<ref refid="classansys_1_1dpf_1_1Operator_1ae67b9230160d80fbca07eb423f180f98" kindref="member">getOutputMeshedRegion</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(meshedRegion.<ref refid="classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459" kindref="member">empty</ref>())<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;getOutputMeshedRegion&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>do<sp/>some<sp/>checks</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>there<sp/>are<sp/>27<sp/>nodes<sp/>in<sp/>the<sp/>entire<sp/>mesh</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(meshedRegion.<ref refid="classansys_1_1dpf_1_1MeshedRegion_1af8ad6b50708b2c201a457c5da8e819da" kindref="member">numberOfNodes</ref>(),<sp/>27);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>there<sp/>are<sp/>8<sp/>hex<sp/>elements<sp/>in<sp/>the<sp/>entire<sp/>mesh</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(meshedRegion.<ref refid="classansys_1_1dpf_1_1MeshedRegion_1ac3a262bc236fda82374a462d7c9e240c" kindref="member">numberOfElements</ref>(),<sp/>8);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>the<sp/>length<sp/>unit<sp/>should<sp/>be<sp/>&quot;m&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Unit" kindref="compound">ansys::dpf::Unit</ref><sp/>lengthUnit<sp/>=<sp/>meshedRegion.<ref refid="classansys_1_1dpf_1_1MeshedRegion_1aed167b03463f42d94d424797529eccad" kindref="member">lengthUnit</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_STREQ(lengthUnit.<ref refid="classansys_1_1dpf_1_1Unit_1aed255d78340372d1dd05461d8bc29d38" kindref="member">toString</ref>(),<sp/></highlight><highlight class="stringliteral">&quot;m&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_STREQ(lengthUnit.<ref refid="classansys_1_1dpf_1_1Unit_1a2ca6139006413a975a4995505ab826fc" kindref="member">homogeneity</ref>(),<sp/></highlight><highlight class="stringliteral">&quot;Displacement&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>this<sp/>file<sp/>has<sp/>3<sp/>named<sp/>selections</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(meshedRegion.<ref refid="classansys_1_1dpf_1_1MeshedRegion_1a3b768ab61193b7b1a6359f4ac619d1c4" kindref="member">availableNamedSelections</ref>().size(),<sp/>3);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>&quot;TOP&quot;<sp/>is<sp/>a<sp/>named<sp/>selection,<sp/>so<sp/>it<sp/>does<sp/>not<sp/>have<sp/>a<sp/>mesh<sp/>associated<sp/>with<sp/>it,<sp/>create<sp/>one</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">ansys::dpf::Scoping</ref><sp/>meshedRegionScopingTOP<sp/>=<sp/>meshedRegion.<ref refid="classansys_1_1dpf_1_1MeshedRegion_1a1f12d06a08e8afe8fe59c0a8d6aee779" kindref="member">namedSelection</ref>(</highlight><highlight class="stringliteral">&quot;TOP&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(meshedRegionScopingTOP.<ref refid="classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459" kindref="member">empty</ref>())<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;namedSelection<sp/>TOP&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>result<sp/>info<sp/>provider</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">ansys::dpf::Operator</ref><sp/>resultInfoProvider<sp/>=<sp/><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">ansys::dpf::Operator</ref>(</highlight><highlight class="stringliteral">&quot;ResultInfoProvider&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(resultInfoProvider.<ref refid="classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459" kindref="member">empty</ref>())<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;ResultInfoProvider&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>resultInfoProvider.connect(<ref refid="namespaceansys_1_1dpf_1aa4a44a04a0aafb8fe0645f019bbd94d1a5b6613f802062fde4faea4b553db7fbc" kindref="member">ansys::dpf::eDataSourcesPin</ref>,<sp/>dataSources);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1ResultInfo" kindref="compound">ansys::dpf::ResultInfo</ref><sp/>resultInfo<sp/>=<sp/>resultInfoProvider.<ref refid="classansys_1_1dpf_1_1Operator_1aeb719093c2406e06455423370eed3cd8" kindref="member">getOutputResultInfo</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(resultInfo.<ref refid="classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459" kindref="member">empty</ref>())<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;getOutputResultInfo&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>do<sp/>some<sp/>checks</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>this<sp/>file<sp/>has<sp/>12<sp/>results</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(resultInfo.<ref refid="classansys_1_1dpf_1_1ResultInfo_1a69427d3a5823aa23acfc59b891fa662a" kindref="member">numberOfResults</ref>(),<sp/>12);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>one<sp/>of<sp/>those<sp/>results<sp/>should<sp/>be<sp/>Displacement</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_TRUE(resultInfo.<ref refid="classansys_1_1dpf_1_1ResultInfo_1ad8d61b8875d35dd7812d83b63ae68da9" kindref="member">operatorNameIsAvailable</ref>(</highlight><highlight class="stringliteral">&quot;U&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>resultName<sp/>=<sp/>resultInfo.<ref refid="classansys_1_1dpf_1_1ResultInfo_1a640956feeee439f2fa42a2fc145fb05d" kindref="member">resultNameByOperatorName</ref>(</highlight><highlight class="stringliteral">&quot;U&quot;</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//<sp/>Displacement</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(resultInfo.<ref refid="classansys_1_1dpf_1_1ResultInfo_1a33fc997e9f5a93b23afac8ca753d0c25" kindref="member">numberOfComponents</ref>(resultName),<sp/>3);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_STREQ(resultInfo.location(resultName),<sp/></highlight><highlight class="stringliteral">&quot;Nodal&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>going<sp/>to<sp/>want<sp/>result<sp/>for<sp/>last<sp/>time<sp/>step/iteration</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>time<sp/>support<sp/>provider</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">ansys::dpf::Operator</ref><sp/>timeFreqSupportProvider<sp/>=<sp/><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">ansys::dpf::Operator</ref>(</highlight><highlight class="stringliteral">&quot;TimeFreqSupportProvider&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(timeFreqSupportProvider.<ref refid="classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459" kindref="member">empty</ref>())<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;TimeFreqSupportProvider&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>timeFreqSupportProvider.connect(<ref refid="namespaceansys_1_1dpf_1aa4a44a04a0aafb8fe0645f019bbd94d1a5b6613f802062fde4faea4b553db7fbc" kindref="member">ansys::dpf::eDataSourcesPin</ref>,<sp/>dataSources);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1TimeFreqSupport" kindref="compound">ansys::dpf::TimeFreqSupport</ref><sp/>timeFreqSupport<sp/>=<sp/>timeFreqSupportProvider.<ref refid="classansys_1_1dpf_1_1Operator_1ad2bfffac019485c51c8d3cc88c94ebd0" kindref="member">getOutputTimeFreqSupport</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">ansys::dpf::dp_int</ref><sp/>numTimeSteps<sp/>=<sp/>0;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!timeFreqSupport.<ref refid="classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459" kindref="member">empty</ref>())<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>numTimeSteps<sp/>=<sp/>timeFreqSupport.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a87c577de73b5ba2260cf3f940ac43068" kindref="member">numberOfSets</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>results<sp/>field</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">ansys::dpf::Operator</ref><sp/>resultOperator<sp/>=<sp/><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">ansys::dpf::Operator</ref>(</highlight><highlight class="stringliteral">&quot;U&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(resultOperator.<ref refid="classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459" kindref="member">empty</ref>())<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;GetSharedOperatorByName<sp/>&apos;U&apos;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>resultOperator.connect(<ref refid="namespaceansys_1_1dpf_1aa4a44a04a0aafb8fe0645f019bbd94d1a5b6613f802062fde4faea4b553db7fbc" kindref="member">ansys::dpf::eDataSourcesPin</ref>,<sp/>dataSources);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;int&gt;<sp/>timeScoping(1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(numTimeSteps)<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>timeScoping[0]<sp/>=<sp/>numTimeSteps;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>resultOperator.connect(<ref refid="namespaceansys_1_1dpf_1aa4a44a04a0aafb8fe0645f019bbd94d1ac390a52dd8c4f1e8ff81a162cdc04d4f" kindref="member">ansys::dpf::eTimeScopPin</ref>,<sp/>timeScoping);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">ansys::dpf::FieldsContainer</ref><sp/>resultFieldsContainer<sp/>=<sp/>resultOperator.<ref refid="classansys_1_1dpf_1_1Operator_1a9994ffe0f23c4a5de614099abb95286c" kindref="member">getOutputFieldsContainer</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(resultFieldsContainer.<ref refid="classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459" kindref="member">empty</ref>())<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;getOutputFieldsContainer&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">ansys::dpf::Field</ref><sp/>resultsField<sp/>=<sp/>resultFieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1addfee935e69fe9fb9e0e533449f9a5bc" kindref="member">at</ref>(0);<sp/></highlight><highlight class="comment">//<sp/>get<sp/>the<sp/>0th<sp/>field<sp/>for<sp/>timeScoping<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(resultsField.<ref refid="classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459" kindref="member">empty</ref>())<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;resultsField&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>For<sp/>some<sp/>results,<sp/>there<sp/>may<sp/>not<sp/>be<sp/>a<sp/>value,<sp/>set<sp/>a<sp/>default<sp/>one</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>rescope<sp/>=<sp/><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">ansys::dpf::Operator</ref>(</highlight><highlight class="stringliteral">&quot;Rescope&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(rescope.empty())<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;Rescope&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting> </para>
+    </detaileddescription>
+    <location file="dpf_api.h"/>
+  </compounddef>
+</doxygen>

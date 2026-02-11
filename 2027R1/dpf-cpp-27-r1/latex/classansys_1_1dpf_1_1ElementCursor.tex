@@ -1,0 +1,111 @@
+\doxysection{ansys::\+dpf::\+Element\+Cursor Class Reference}
+\hypertarget{classansys_1_1dpf_1_1ElementCursor}{}\label{classansys_1_1dpf_1_1ElementCursor}\index{ansys::dpf::ElementCursor@{ansys::dpf::ElementCursor}}
+
+
+{\ttfamily \+\#include $<$dpf\+\_\+api.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classansys_1_1dpf_1_1ElementCursor_ab3b7e0f631546b360d00d30f57475d29}\label{classansys_1_1dpf_1_1ElementCursor_ab3b7e0f631546b360d00d30f57475d29} 
+{\bfseries Element\+Cursor} (Element\+Cursor const \&)=delete
+\item 
+\Hypertarget{classansys_1_1dpf_1_1ElementCursor_a42a87b28ff9b8cd52894405beb4f8aa0}\label{classansys_1_1dpf_1_1ElementCursor_a42a87b28ff9b8cd52894405beb4f8aa0} 
+{\bfseries Element\+Cursor} (Element\+Cursor \&\&)=delete
+\item 
+\doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} const \& \doxymbox{\hyperlink{classansys_1_1dpf_1_1ElementCursor_af3c4e595a62ac09aca9de7fc2322bb62}{descriptor}} () const
+\item 
+\Hypertarget{classansys_1_1dpf_1_1ElementCursor_a54ae9b25c375c752682a7dff04603348}\label{classansys_1_1dpf_1_1ElementCursor_a54ae9b25c375c752682a7dff04603348} 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} {\bfseries number\+Of\+Nodes} () const
+\begin{DoxyCompactList}\small\item\em @ return Number of nodes in element. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1ElementCursor_a5e7ffc770ff20b75c5353f34aae6c687}{number\+Of\+Corner\+Nodes}} () const
+\item 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1ElementCursor_a1710596a51fd20b7cc2e087cd78790a9}{number\+Of\+Mid\+Nodes}} () const
+\item 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1ElementCursor_a2c9af98ac05f0b60cdac5f3baeece638}{effective\+Size}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1ElementCursor_a4daaa4aa35e0c6a769d80b5fa0523b4d}{defined}} () const
+\item 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_ab4574c9af3f2bb8011da7d1f4c8da20e}{dp\+\_\+id}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1ElementCursor_a3f73e05a946c60b4901cb32027d84765}{id}} () const
+\item 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1ElementCursor_ade825f7c6dc2123cb6c7e9c03c2750fe}{operator\+[$\,$]\+}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} i) const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Point on a local element data within a mesh. \begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataApis_8cpp-example}{Data\+Apis.\+cpp}}.\end{Desc}
+
+
+\label{doc-func-members}
+\Hypertarget{classansys_1_1dpf_1_1ElementCursor_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classansys_1_1dpf_1_1ElementCursor_a4daaa4aa35e0c6a769d80b5fa0523b4d}\index{ansys::dpf::ElementCursor@{ansys::dpf::ElementCursor}!defined@{defined}}
+\index{defined@{defined}!ansys::dpf::ElementCursor@{ansys::dpf::ElementCursor}}
+\doxysubsubsection{\texorpdfstring{defined()}{defined()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ElementCursor_a4daaa4aa35e0c6a769d80b5fa0523b4d} 
+bool ansys::\+dpf::\+\+Element\+Cursor::\+defined (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+Indication that cursor is defined. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1ElementCursor_af3c4e595a62ac09aca9de7fc2322bb62}\index{ansys::dpf::ElementCursor@{ansys::dpf::ElementCursor}!descriptor@{descriptor}}
+\index{descriptor@{descriptor}!ansys::dpf::ElementCursor@{ansys::dpf::ElementCursor}}
+\doxysubsubsection{\texorpdfstring{descriptor()}{descriptor()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ElementCursor_af3c4e595a62ac09aca9de7fc2322bb62} 
+\doxymbox{\hyperlink{structansys_1_1dpf_1_1ElementDescriptor}{Element\+Descriptor}} const  \& ansys::\+dpf::\+\+Element\+Cursor::\+descriptor (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+Element descriptor for cursor. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1ElementCursor_a2c9af98ac05f0b60cdac5f3baeece638}\index{ansys::dpf::ElementCursor@{ansys::dpf::ElementCursor}!effectiveSize@{effectiveSize}}
+\index{effectiveSize@{effectiveSize}!ansys::dpf::ElementCursor@{ansys::dpf::ElementCursor}}
+\doxysubsubsection{\texorpdfstring{effectiveSize()}{effectiveSize()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ElementCursor_a2c9af98ac05f0b60cdac5f3baeece638} 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} ansys::\+dpf::\+\+Element\+Cursor::\+effective\+Size (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+Number of nodes in cursor. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1ElementCursor_a3f73e05a946c60b4901cb32027d84765}\index{ansys::dpf::ElementCursor@{ansys::dpf::ElementCursor}!id@{id}}
+\index{id@{id}!ansys::dpf::ElementCursor@{ansys::dpf::ElementCursor}}
+\doxysubsubsection{\texorpdfstring{id()}{id()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ElementCursor_a3f73e05a946c60b4901cb32027d84765} 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_ab4574c9af3f2bb8011da7d1f4c8da20e}{dp\+\_\+id}} ansys::\+dpf::\+\+Element\+Cursor::\+id (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+Element cursor id. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1ElementCursor_a5e7ffc770ff20b75c5353f34aae6c687}\index{ansys::dpf::ElementCursor@{ansys::dpf::ElementCursor}!numberOfCornerNodes@{numberOfCornerNodes}}
+\index{numberOfCornerNodes@{numberOfCornerNodes}!ansys::dpf::ElementCursor@{ansys::dpf::ElementCursor}}
+\doxysubsubsection{\texorpdfstring{numberOfCornerNodes()}{numberOfCornerNodes()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ElementCursor_a5e7ffc770ff20b75c5353f34aae6c687} 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} ansys::\+dpf::\+\+Element\+Cursor::\+number\+Of\+Corner\+Nodes (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+Number of corner nodes in element. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1ElementCursor_a1710596a51fd20b7cc2e087cd78790a9}\index{ansys::dpf::ElementCursor@{ansys::dpf::ElementCursor}!numberOfMidNodes@{numberOfMidNodes}}
+\index{numberOfMidNodes@{numberOfMidNodes}!ansys::dpf::ElementCursor@{ansys::dpf::ElementCursor}}
+\doxysubsubsection{\texorpdfstring{numberOfMidNodes()}{numberOfMidNodes()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ElementCursor_a1710596a51fd20b7cc2e087cd78790a9} 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} ansys::\+dpf::\+\+Element\+Cursor::\+number\+Of\+Mid\+Nodes (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+Number of mid-\/side nodes in element. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1ElementCursor_ade825f7c6dc2123cb6c7e9c03c2750fe}\index{ansys::dpf::ElementCursor@{ansys::dpf::ElementCursor}!operator\+[]\+@{operator[]}}
+\index{operator\+[]\+@{operator[]}!ansys::dpf::ElementCursor@{ansys::dpf::ElementCursor}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ElementCursor_ade825f7c6dc2123cb6c7e9c03c2750fe} 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} ansys::\+dpf::\+\+Element\+Cursor::\+operator\+[$\,$]\+ (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}}}]{i}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{DoxyReturn}{Returns}
+Connectivity node id given by index. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em i} & Index into connectivity list. \\
+\hline
+\end{DoxyParams}

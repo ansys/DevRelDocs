@@ -1,0 +1,323 @@
+\doxysection{ansys::\+dpf::\+Scopings\+Container Class Reference}
+\hypertarget{classansys_1_1dpf_1_1ScopingsContainer}{}\label{classansys_1_1dpf_1_1ScopingsContainer}\index{ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}}
+
+
+{\ttfamily \+\#include $<$dpf\+\_\+api.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classansys_1_1dpf_1_1ScopingsContainer_a98f063603783bdb8947982e927b2a516}\label{classansys_1_1dpf_1_1ScopingsContainer_a98f063603783bdb8947982e927b2a516} 
+{\bfseries Scopings\+Container} (Scopings\+Container const \&)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1ScopingsContainer_a537e44964af7b5d2dcd8b830f767dbc4}\label{classansys_1_1dpf_1_1ScopingsContainer_a537e44964af7b5d2dcd8b830f767dbc4} 
+{\bfseries Scopings\+Container} (Scopings\+Container \&\&) noexcept
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1ScopingsContainer_ab5ca28dd2c6971bcdc6c05ac9e2ab0cb}{Scopings\+Container}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1ScopingsContainer_aed23cb82bda6642f331cfe841701525a}{Scopings\+Container}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client, std::\+vector$<$ std::\+string $>$ const \&labels)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1ScopingsContainer_a7d11bd51f92baa443d303095b7e432c3}{Scopings\+Container}} (int id, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1ScopingsContainer_a62fa8d44f5d7faf885ed3fad4c4c4c97}{Scopings\+Container}} (std::\+vector$<$ std::\+string $>$ const \&labels)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1ScopingsContainer_a88e8eb80b0d732f01257cbb430c9f6bf}\label{classansys_1_1dpf_1_1ScopingsContainer_a88e8eb80b0d732f01257cbb430c9f6bf} 
+Scopings\+Container \& {\bfseries operator=} (Scopings\+Container const \&)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1ScopingsContainer_a166689f1f66dec10d0fca9617659298a}\label{classansys_1_1dpf_1_1ScopingsContainer_a166689f1f66dec10d0fca9617659298a} 
+Scopings\+Container \& {\bfseries operator=} (Scopings\+Container \&\&) noexcept
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1ScopingsContainer_a9477378fc07a99bb193afa7b594ac67f}{operator\+[$\,$]\+}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} index)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1ScopingsContainer_ab1fdfc75b55ff6cd3c2475f1241734e4}{at}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} index)
+\item 
+const \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1ScopingsContainer_a857bbd814a0a207fd94bd93ad2fe745c}{at}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} index) const
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1ScopingsContainer_a091782e39cd46714cd923cf784d8d30b}{update}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} \&f, \doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} index)
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1ScopingsContainer_a05cb61fc82233e1fbb0e307dd20fd2cb}{add}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&labels, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} const \&f, bool can\+\_\+replace=true)
+\item 
+std::\+vector$<$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} $>$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1ScopingsContainer_aecc5c3362d12b433b29fd9e5ca450418}{get\+Scopings}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&labels) const
+\item 
+std::\+vector$<$ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} $>$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1ScopingsContainer_a2a8782dceeb20d78578011c3b3accfff}{get\+Scopings\+Indices}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&lab\+\_\+space) const
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1ScopingsContainer_a72ac39c1f6bd56ac3ebe624369b3249f}{get\+Scoping}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&labels) const
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1ScopingsContainer_abcd0e3f3ff053fcf22c15469b0a00e78}{get\+Matching\+Scoping}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&label\+\_\+space) const
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfVector}{Dpf\+Vector}}$<$ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} $>$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1ScopingsContainer_a66a78cea272641bd538028e9d63cb3fe}{get\+Matching\+Scoping\+Indices}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&label\+\_\+space) const
+\item 
+Scopings\+Container \doxymbox{\hyperlink{classansys_1_1dpf_1_1ScopingsContainer_a937781f3a15cc04f81d38e290eb348e3}{create\+Sub\+Scopings\+Container}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&lab\+\_\+space) const
+\item 
+Scopings\+Container \doxymbox{\hyperlink{classansys_1_1dpf_1_1ScopingsContainer_a223fbc11c3fb729488a5f33772b2b2cf}{deep\+\_\+copy}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{ansys::\+dpf::\+\+Client}} const \texorpdfstring{$\ast$}{*}const client=nullptr) const
+\item 
+std::\+string \doxymbox{\hyperlink{classansys_1_1dpf_1_1ScopingsContainer_a2f5c40470b1d6b9b98c6056a24187a46}{get\+Hashable\+Key}} () const
+\item 
+\Hypertarget{classansys_1_1dpf_1_1ScopingsContainer_a08d196ad815b72f5de7c8524d490d170}\label{classansys_1_1dpf_1_1ScopingsContainer_a08d196ad815b72f5de7c8524d490d170} 
+void {\bfseries set\+Hashable\+Key} (const std::\+string \&unique\+\_\+identifier) const
+\item 
+size\+\_\+t \doxymbox{\hyperlink{classansys_1_1dpf_1_1ScopingsContainer_a455cf417503bd6ea107755cd4d630512}{get\+Hash}} () const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Scopings\+Container \doxymbox{\hyperlink{classansys_1_1dpf_1_1ScopingsContainer_a915d28f8d3b7869182ca79f9c4269b4c}{empty\+Scopings\+Container}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Contains a group of scopings.
+
+The scopings container is designed as a set of scopings ordered through labels and ids. Labels identify how the fields are filtered. The most common scopings container have the label "{}body"{} with ids corresponding to each body entity.
+
+Generally, a defined \doxylink{classansys_1_1dpf_1_1ScopingsContainer}{Scopings\+Container} will contain \doxylink{classansys_1_1dpf_1_1Scoping}{Scoping} entities to apply on the \doxylink{classansys_1_1dpf_1_1MeshedRegion}{Meshed\+Region} entities of a corresponding \doxylink{classansys_1_1dpf_1_1MeshesContainer}{Meshes\+Container}.
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{classansys_1_1dpf_1_1Scoping}{Scoping} 
+
+\doxylink{group__group__12}{Using collections and labels} 
+\end{DoxySeeAlso}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{AveragingTest_8cpp-example}{Averaging\+Test.\+cpp}}, and \doxymbox{\hyperlink{WorkflowExamples_8cpp-example}{Workflow\+Examples.\+cpp}}.\end{Desc}
+
+
+\label{doc-constructors}
+\Hypertarget{classansys_1_1dpf_1_1ScopingsContainer_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classansys_1_1dpf_1_1ScopingsContainer_ab5ca28dd2c6971bcdc6c05ac9e2ab0cb}\index{ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}!ScopingsContainer@{ScopingsContainer}}
+\index{ScopingsContainer@{ScopingsContainer}!ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}}
+\doxysubsubsection{\texorpdfstring{ScopingsContainer()}{ScopingsContainer()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ScopingsContainer_ab5ca28dd2c6971bcdc6c05ac9e2ab0cb} 
+ansys::\+dpf::\+\+Scopings\+Container::\+\+Scopings\+Container (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{}\end{DoxyParamCaption})}
+
+Create a new scopings container on a server. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1ScopingsContainer_aed23cb82bda6642f331cfe841701525a}\index{ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}!ScopingsContainer@{ScopingsContainer}}
+\index{ScopingsContainer@{ScopingsContainer}!ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}}
+\doxysubsubsection{\texorpdfstring{ScopingsContainer()}{ScopingsContainer()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ScopingsContainer_aed23cb82bda6642f331cfe841701525a} 
+ansys::\+dpf::\+\+Scopings\+Container::\+\+Scopings\+Container (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{, }\item[{std::\+vector$<$ std::\+string $>$ const \&}]{labels}{}\end{DoxyParamCaption})}
+
+Create a group of scopings with the given labels on a server. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em \doxylink{structansys_1_1dpf_1_1labels}{labels}} & Labels for group of scopings. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1ScopingsContainer_a7d11bd51f92baa443d303095b7e432c3}\index{ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}!ScopingsContainer@{ScopingsContainer}}
+\index{ScopingsContainer@{ScopingsContainer}!ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}}
+\doxysubsubsection{\texorpdfstring{ScopingsContainer()}{ScopingsContainer()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ScopingsContainer_a7d11bd51f92baa443d303095b7e432c3} 
+ansys::\+dpf::\+\+Scopings\+Container::\+\+Scopings\+Container (\begin{DoxyParamCaption}\item[{int}]{id}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{}\end{DoxyParamCaption})}
+
+Retrieve an existing instance of \doxylink{classansys_1_1dpf_1_1ScopingsContainer}{Scopings\+Container} on a server. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em id} & Id of the \doxylink{classansys_1_1dpf_1_1ScopingsContainer}{Scopings\+Container} object on the server\textquotesingle{}s database.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1ScopingsContainer_a62fa8d44f5d7faf885ed3fad4c4c4c97}\index{ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}!ScopingsContainer@{ScopingsContainer}}
+\index{ScopingsContainer@{ScopingsContainer}!ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}}
+\doxysubsubsection{\texorpdfstring{ScopingsContainer()}{ScopingsContainer()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ScopingsContainer_a62fa8d44f5d7faf885ed3fad4c4c4c97} 
+ansys::\+dpf::\+\+Scopings\+Container::\+\+Scopings\+Container (\begin{DoxyParamCaption}\item[{std::\+vector$<$ std::\+string $>$ const \&}]{labels}{}\end{DoxyParamCaption})}
+
+Create a group of scopings with the given labels. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em \doxylink{structansys_1_1dpf_1_1labels}{labels}} & Labels for group of scopings. \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{classansys_1_1dpf_1_1ScopingsContainer_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classansys_1_1dpf_1_1ScopingsContainer_a05cb61fc82233e1fbb0e307dd20fd2cb}\index{ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}!add@{add}}
+\index{add@{add}!ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ScopingsContainer_a05cb61fc82233e1fbb0e307dd20fd2cb} 
+void ansys::\+dpf::\+\+Scopings\+Container::\+add (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&}]{labels}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} const \&}]{f}{, }\item[{bool}]{can\+\_\+replace}{ = {\ttfamily true}}\end{DoxyParamCaption})}
+
+Add new scoping with given labels to group. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em \doxylink{structansys_1_1dpf_1_1labels}{labels}} & \doxylink{structansys_1_1dpf_1_1Label}{Label} space to use for new scoping.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em f} & \doxylink{classansys_1_1dpf_1_1Scoping}{Scoping} to add to group.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em can\+\_\+replace} & if can\+\_\+replace is false, then, the entity is pushed back without checking if the label space already exists. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1ScopingsContainer_ab1fdfc75b55ff6cd3c2475f1241734e4}\index{ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}!at@{at}}
+\index{at@{at}!ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}}
+\doxysubsubsection{\texorpdfstring{at()}{at()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ScopingsContainer_ab1fdfc75b55ff6cd3c2475f1241734e4} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} ansys::\+dpf::\+\+Scopings\+Container::\+at (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}}}]{index}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+\doxylink{classansys_1_1dpf_1_1Scoping}{Scoping} at given index. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em index} & Index of scoping to get. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1ScopingsContainer_a857bbd814a0a207fd94bd93ad2fe745c}\index{ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}!at@{at}}
+\index{at@{at}!ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}}
+\doxysubsubsection{\texorpdfstring{at()}{at()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ScopingsContainer_a857bbd814a0a207fd94bd93ad2fe745c} 
+const \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} ansys::\+dpf::\+\+Scopings\+Container::\+at (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}}}]{index}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+\doxylink{classansys_1_1dpf_1_1Scoping}{Scoping} at given index. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em index} & Index of scoping to get. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1ScopingsContainer_a937781f3a15cc04f81d38e290eb348e3}\index{ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}!createSubScopingsContainer@{createSubScopingsContainer}}
+\index{createSubScopingsContainer@{createSubScopingsContainer}!ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}}
+\doxysubsubsection{\texorpdfstring{createSubScopingsContainer()}{createSubScopingsContainer()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ScopingsContainer_a937781f3a15cc04f81d38e290eb348e3} 
+Scopings\+Container ansys::\+dpf::\+\+Scopings\+Container::\+create\+Sub\+Scopings\+Container (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&}]{lab\+\_\+space}{}\end{DoxyParamCaption}) const}
+
+Create a new \doxylink{classansys_1_1dpf_1_1ScopingsContainer}{Scopings\+Container} with all the scopings corresponding to the label space in input 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em lab\+\_\+space} & \doxylink{structansys_1_1dpf_1_1Label}{Label} space for which to create new scopings container. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1ScopingsContainer_a223fbc11c3fb729488a5f33772b2b2cf}\index{ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}!deep\_copy@{deep\_copy}}
+\index{deep\_copy@{deep\_copy}!ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}}
+\doxysubsubsection{\texorpdfstring{deep\_copy()}{deep\_copy()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ScopingsContainer_a223fbc11c3fb729488a5f33772b2b2cf} 
+Scopings\+Container ansys::\+dpf::\+\+Scopings\+Container::\+deep\+\_\+copy (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{ansys::\+dpf::\+\+Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{ = {\ttfamily nullptr}}\end{DoxyParamCaption}) const}
+
+Create a new \doxylink{classansys_1_1dpf_1_1ScopingsContainer}{Scopings\+Container} on a server by copying all the data of this \doxylink{classansys_1_1dpf_1_1ScopingsContainer}{Scopings\+Container}. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1ScopingsContainer_a915d28f8d3b7869182ca79f9c4269b4c}\index{ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}!emptyScopingsContainer@{emptyScopingsContainer}}
+\index{emptyScopingsContainer@{emptyScopingsContainer}!ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}}
+\doxysubsubsection{\texorpdfstring{emptyScopingsContainer()}{emptyScopingsContainer()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ScopingsContainer_a915d28f8d3b7869182ca79f9c4269b4c} 
+Scopings\+Container ansys::\+dpf::\+\+Scopings\+Container::\+empty\+Scopings\+Container (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create an empty scopings container. \begin{DoxyReturn}{Returns}
+Empty \doxylink{classansys_1_1dpf_1_1ScopingsContainer}{Scopings\+Container}. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1ScopingsContainer_a455cf417503bd6ea107755cd4d630512}\index{ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}!getHash@{getHash}}
+\index{getHash@{getHash}!ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}}
+\doxysubsubsection{\texorpdfstring{getHash()}{getHash()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ScopingsContainer_a455cf417503bd6ea107755cd4d630512} 
+size\+\_\+t ansys::\+dpf::\+\+Scopings\+Container::\+get\+Hash (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+Compute and get the hash of a scopings\+\_\+container \Hypertarget{classansys_1_1dpf_1_1ScopingsContainer_a2f5c40470b1d6b9b98c6056a24187a46}\index{ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}!getHashableKey@{getHashableKey}}
+\index{getHashableKey@{getHashableKey}!ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}}
+\doxysubsubsection{\texorpdfstring{getHashableKey()}{getHashableKey()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ScopingsContainer_a2f5c40470b1d6b9b98c6056a24187a46} 
+std::\+string ansys::\+dpf::\+\+Scopings\+Container::\+get\+Hashable\+Key (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+Set and get an simpler hashable entity (here a topoloy identifier) instead of the full scoppings container to save time \Hypertarget{classansys_1_1dpf_1_1ScopingsContainer_abcd0e3f3ff053fcf22c15469b0a00e78}\index{ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}!getMatchingScoping@{getMatchingScoping}}
+\index{getMatchingScoping@{getMatchingScoping}!ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}}
+\doxysubsubsection{\texorpdfstring{getMatchingScoping()}{getMatchingScoping()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ScopingsContainer_abcd0e3f3ff053fcf22c15469b0a00e78} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} ansys::\+dpf::\+\+Scopings\+Container::\+get\+Matching\+Scoping (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&}]{label\+\_\+space}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+First matching \doxylink{classansys_1_1dpf_1_1Scoping}{Scoping} for given label space. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em label\+\_\+space} & \doxylink{structansys_1_1dpf_1_1Label}{Label} space for which to get \doxylink{classansys_1_1dpf_1_1Any}{Any}. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1ScopingsContainer_a66a78cea272641bd538028e9d63cb3fe}\index{ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}!getMatchingScopingIndices@{getMatchingScopingIndices}}
+\index{getMatchingScopingIndices@{getMatchingScopingIndices}!ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}}
+\doxysubsubsection{\texorpdfstring{getMatchingScopingIndices()}{getMatchingScopingIndices()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ScopingsContainer_a66a78cea272641bd538028e9d63cb3fe} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfVector}{Dpf\+Vector}}$<$ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} $>$ ansys::\+dpf::\+\+Scopings\+Container::\+get\+Matching\+Scoping\+Indices (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&}]{label\+\_\+space}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Vector of matching \doxylink{classansys_1_1dpf_1_1Scoping}{Scoping} to the given label space. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em label\+\_\+space} & \doxylink{structansys_1_1dpf_1_1Label}{Label} space for which to get entries. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1ScopingsContainer_a72ac39c1f6bd56ac3ebe624369b3249f}\index{ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}!getScoping@{getScoping}}
+\index{getScoping@{getScoping}!ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}}
+\doxysubsubsection{\texorpdfstring{getScoping()}{getScoping()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ScopingsContainer_a72ac39c1f6bd56ac3ebe624369b3249f} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} ansys::\+dpf::\+\+Scopings\+Container::\+get\+Scoping (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&}]{labels}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+First scoping for given label space. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em \doxylink{structansys_1_1dpf_1_1labels}{labels}} & \doxylink{structansys_1_1dpf_1_1Label}{Label} space for which to get first scoping. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1ScopingsContainer_aecc5c3362d12b433b29fd9e5ca450418}\index{ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}!getScopings@{getScopings}}
+\index{getScopings@{getScopings}!ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}}
+\doxysubsubsection{\texorpdfstring{getScopings()}{getScopings()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ScopingsContainer_aecc5c3362d12b433b29fd9e5ca450418} 
+std::\+vector$<$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} $>$ ansys::\+dpf::\+\+Scopings\+Container::\+get\+Scopings (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&}]{labels}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Vector of scopings for given label space. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em \doxylink{structansys_1_1dpf_1_1labels}{labels}} & \doxylink{structansys_1_1dpf_1_1Label}{Label} space for whict to get scopings. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1ScopingsContainer_a2a8782dceeb20d78578011c3b3accfff}\index{ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}!getScopingsIndices@{getScopingsIndices}}
+\index{getScopingsIndices@{getScopingsIndices}!ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}}
+\doxysubsubsection{\texorpdfstring{getScopingsIndices()}{getScopingsIndices()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ScopingsContainer_a2a8782dceeb20d78578011c3b3accfff} 
+std::\+vector$<$ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} $>$ ansys::\+dpf::\+\+Scopings\+Container::\+get\+Scopings\+Indices (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&}]{lab\+\_\+space}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+\doxylink{classansys_1_1dpf_1_1Scoping}{Scoping} indices for scopings given by \doxylink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space} 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em lab\+\_\+space} & \doxylink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space} defining scopings for which to get indices. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1ScopingsContainer_a9477378fc07a99bb193afa7b594ac67f}\index{ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}!operator\+[]\+@{operator[]}}
+\index{operator\+[]\+@{operator[]}!ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ScopingsContainer_a9477378fc07a99bb193afa7b594ac67f} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} ansys::\+dpf::\+\+Scopings\+Container::\+operator\+[$\,$]\+ (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}}}]{index}{}\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+\doxylink{classansys_1_1dpf_1_1Scoping}{Scoping} at given index. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em index} & Index of scoping. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1ScopingsContainer_a091782e39cd46714cd923cf784d8d30b}\index{ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}!update@{update}}
+\index{update@{update}!ansys::dpf::ScopingsContainer@{ansys::dpf::ScopingsContainer}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1ScopingsContainer_a091782e39cd46714cd923cf784d8d30b} 
+void ansys::\+dpf::\+\+Scopings\+Container::\+update (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} \&}]{f}{, }\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}}}]{index}{}\end{DoxyParamCaption})}
+
+Update \doxylink{classansys_1_1dpf_1_1Scoping}{Scoping} at given index. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em f} & New scoping.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em index} & Index of scoping to update. \\
+\hline
+\end{DoxyParams}

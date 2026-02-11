@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="11__entry__premium_8md" kind="file" language="Markdown">
+    <compoundname>11_entry_premium.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal"><sp/>@defgroup<sp/>group_11<sp/>Using<sp/>DPF<sp/>Context</highlight></codeline>
+<codeline><highlight class="normal"><sp/>@ingroup<sp/>group_4_how_tos</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Entry<sp/>and<sp/>Premium<sp/>capabilities</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Two<sp/>main<sp/>licensing<sp/>states<sp/>are<sp/>available<sp/>in<sp/>DPF:</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Premium:<sp/>default<sp/>state.<sp/>Allows<sp/>DPF<sp/>to<sp/>perform<sp/>license<sp/>checkouts,<sp/>allowing<sp/>licensed<sp/>DPF<sp/>operators<sp/>to<sp/>run.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Entry:<sp/>does<sp/>not<sp/>allow<sp/>DPF<sp/>to<sp/>perform<sp/>any<sp/>license<sp/>checkout,<sp/>meaning<sp/>that<sp/>licensed<sp/>DPF<sp/>operators&apos;<sp/>execution<sp/>will<sp/>fail.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Refer<sp/>to<sp/>the<sp/>**Operators**<sp/>section,<sp/>select<sp/>an<sp/>operator<sp/>and<sp/>see<sp/>the<sp/>**Scripting**<sp/>section<sp/>to<sp/>know<sp/>if<sp/>an<sp/>operator<sp/>requires<sp/>a<sp/>license<sp/>to<sp/>be<sp/>checkout.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>DPF<sp/>context</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>**Context**<sp/>class<sp/>defines<sp/>the<sp/>licensing<sp/>logic<sp/>a<sp/>server<sp/>starts<sp/>with<sp/>and<sp/>should<sp/>be<sp/>provided<sp/>to<sp/>the<sp/>LibraryHandle<sp/>constructor.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>**Context**<sp/>is<sp/>composed<sp/>of<sp/>the<sp/>following<sp/>information:</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>EDpfContext<sp/>enum<sp/>value:<sp/>sets<sp/>DPF<sp/>default<sp/>operator<sp/>capabilities<sp/>and<sp/>defines<sp/>whether<sp/>DPF<sp/>capabilities<sp/>requiring<sp/>a<sp/>license<sp/>checkout<sp/>are<sp/>allowed.<sp/></highlight></codeline>
+<codeline><highlight class="normal">-<sp/>setup_file_path<sp/>string:<sp/>is<sp/>optional<sp/>and<sp/>sets<sp/>DPF<sp/>default<sp/>operator<sp/>capabilities<sp/>(plugins<sp/>that<sp/>are<sp/>defaultly<sp/>loaded)<sp/>if<sp/>EpfContext::eUserDefined<sp/>enum<sp/>value<sp/>is<sp/>used.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">For<sp/>example:</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>use<sp/>&quot;EDpfContext::eEntry&quot;<sp/>to<sp/>prevent<sp/>license<sp/>checkout<sp/>and<sp/>have<sp/>plugins<sp/>defined<sp/>in<sp/>DataProcessingCore.xml<sp/>loaded</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>use<sp/>&quot;EDpfContext::eDefault&quot;<sp/>to<sp/>allow<sp/>license<sp/>checkout<sp/>(Premium)<sp/>and<sp/>have<sp/>plugins<sp/>defined<sp/>in<sp/>DataProcessingCore.xml<sp/>loaded</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>use<sp/>&quot;EDpfContext::eStandalone&quot;<sp/>to<sp/>allow<sp/>license<sp/>checkout<sp/>and<sp/>have<sp/>plugins<sp/>defined<sp/>in<sp/>DpfCoreStandalone.xml<sp/>loaded</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Instantiate<sp/>LibraryHandle<sp/>with<sp/>specific<sp/>DPF<sp/>context</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>following<sp/>code<sp/>instantiates<sp/>a<sp/>LibraryHandle<sp/>object<sp/>using<sp/>an<sp/>Entry<sp/>context:<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::LibraryHandle*<sp/>lib<sp/>=<sp/>new<sp/>ansys::dpf::LibraryHandle(ansys::dpf::Context::entryContext());</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>following<sp/>code<sp/>instantiates<sp/>a<sp/>LibraryHandle<sp/>object<sp/>using<sp/>a<sp/>Premium<sp/>state<sp/>and<sp/>using<sp/>DpfCoreStandalone.xml<sp/>to<sp/>load<sp/>the<sp/>default<sp/>plugins:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">ansys::dpf::LibraryHandle*<sp/>lib<sp/>=<sp/>new<sp/>ansys::dpf::LibraryHandle(ansys::dpf::Context::premiumContext());</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Refer<sp/>to<sp/>the<sp/>@ref<sp/>group_06_1<sp/>section<sp/>to<sp/>learn<sp/>more<sp/>about<sp/>the<sp/>use<sp/>the<sp/>LibraryHandle<sp/>to<sp/>use<sp/>DPF<sp/>capabilities.<sp/></highlight></codeline>
+<codeline></codeline>
+    </programlisting>
+    <location file="cpp_doc/11_entry_premium.md"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1Model" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::Model</compoundname>
+    <includes local="no">dpf_model.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1Model_1af8652d1dd32a25aad602e81843468406" prot="private" static="no" mutable="no">
+        <type><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref></type>
+        <definition>Operator ansys::dpf::Model::_mesh_provider</definition>
+        <argsstring></argsstring>
+        <name>_mesh_provider</name>
+        <qualifiedname>ansys::dpf::Model::_mesh_provider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="helpers/dpf_model.h" line="82" column="22" bodyfile="helpers/dpf_model.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1Model_1ac29412aa2ec099e774ae0b3c09e405a5" prot="private" static="no" mutable="no">
+        <type><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref></type>
+        <definition>Operator ansys::dpf::Model::_timefreq_support_provider</definition>
+        <argsstring></argsstring>
+        <name>_timefreq_support_provider</name>
+        <qualifiedname>ansys::dpf::Model::_timefreq_support_provider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="helpers/dpf_model.h" line="83" column="22" bodyfile="helpers/dpf_model.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1Model_1ae90dbe5c46a52291be19abe233a47b29" prot="private" static="no" mutable="no">
+        <type><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref></type>
+        <definition>Operator ansys::dpf::Model::_stream_provider</definition>
+        <argsstring></argsstring>
+        <name>_stream_provider</name>
+        <qualifiedname>ansys::dpf::Model::_stream_provider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="helpers/dpf_model.h" line="84" column="22" bodyfile="helpers/dpf_model.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1Model_1afcffdbf193e399515d7eff47ef843fdc" prot="private" static="no" mutable="no">
+        <type><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref></type>
+        <definition>Operator ansys::dpf::Model::_result_info_provider</definition>
+        <argsstring></argsstring>
+        <name>_result_info_provider</name>
+        <qualifiedname>ansys::dpf::Model::_result_info_provider</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="helpers/dpf_model.h" line="85" column="22" bodyfile="helpers/dpf_model.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Model_1a6d0f6e29b54a53f4e9c856da139fae8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual ansys::dpf::Model::~Model</definition>
+        <argsstring>()</argsstring>
+        <name>~Model</name>
+        <qualifiedname>ansys::dpf::Model::~Model</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="helpers/dpf_model.h" line="16" column="21" bodyfile="helpers/dpf_model.h" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Model_1a76d48e79b13741b01c3e0bb37ea56cc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Model::Model</definition>
+        <argsstring>(const std::string &amp;filePath)</argsstring>
+        <name>Model</name>
+        <qualifiedname>ansys::dpf::Model::Model</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>filePath</declname>
+          <briefdescription><para>@ [in] File from which to create model. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create model from given file. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="helpers/dpf_model.h" line="18" column="13" bodyfile="helpers/dpf_model.h" bodystart="18" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Model_1aa7d8460544b5133e3d144a72f4f8d78b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::Model::Model</definition>
+        <argsstring>(const DataSources &amp;data_sources)</argsstring>
+        <name>Model</name>
+        <qualifiedname>ansys::dpf::Model::Model</qualifiedname>
+        <param>
+          <type>const <ref refid="classansys_1_1dpf_1_1DataSources" kindref="compound">DataSources</ref> &amp;</type>
+          <declname>data_sources</declname>
+          <briefdescription><para>[in] Data sources from which to create model. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create model from given data sources. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="helpers/dpf_model.h" line="26" column="13" bodyfile="helpers/dpf_model.h" bodystart="26" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Model_1a48c91a341bc268e48fe4efd1e8c8cb0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1MeshedRegion" kindref="compound">MeshedRegion</ref></type>
+        <definition>MeshedRegion ansys::dpf::Model::getMesh</definition>
+        <argsstring>(int timestep=0)</argsstring>
+        <name>getMesh</name>
+        <qualifiedname>ansys::dpf::Model::getMesh</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>timestep</declname>
+          <defval>0</defval>
+          <briefdescription><para>[in] Optional timestep for which to get meshed region. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Meshed region for given timestep. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="helpers/dpf_model.h" line="33" column="33" bodyfile="helpers/dpf_model.h" bodystart="107" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Model_1abadaeac1d698448632bc92df349f0ed9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1MeshesContainer" kindref="compound">MeshesContainer</ref></type>
+        <definition>MeshesContainer ansys::dpf::Model::getMeshesContainer</definition>
+        <argsstring>()</argsstring>
+        <name>getMeshesContainer</name>
+        <qualifiedname>ansys::dpf::Model::getMeshesContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Meshes container for model. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="helpers/dpf_model.h" line="38" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Model_1a431d3eb5237f3b5f9f99631c259c53d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1TimeFreqSupport" kindref="compound">TimeFreqSupport</ref></type>
+        <definition>TimeFreqSupport ansys::dpf::Model::getTimeFreqSupport</definition>
+        <argsstring>()</argsstring>
+        <name>getTimeFreqSupport</name>
+        <qualifiedname>ansys::dpf::Model::getTimeFreqSupport</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieves the time/freq support to have access to the analysis domain (number times steps/frequences, correspending times/frequences/ harmonic indices, rpms) <simplesect kind="return"><para>Time frequency support for model. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="helpers/dpf_model.h" line="42" column="36" bodyfile="helpers/dpf_model.h" bodystart="113" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Model_1a4c81175ac5b1652728ceb587b414857e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1ResultInfo" kindref="compound">ResultInfo</ref></type>
+        <definition>ResultInfo ansys::dpf::Model::getResultInfo</definition>
+        <argsstring>()</argsstring>
+        <name>getResultInfo</name>
+        <qualifiedname>ansys::dpf::Model::getResultInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref> Info allows to access to:<itemizedlist>
+<listitem><para>available results</para>
+</listitem><listitem><para>unit</para>
+</listitem><listitem><para>analysis type</para>
+</listitem><listitem><para>physics type</para>
+</listitem></itemizedlist>
+</para>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref> info for model. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="helpers/dpf_model.h" line="51" column="31" bodyfile="helpers/dpf_model.h" bodystart="118" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Model_1a34060c2b318e850b8b468b9e4371e651" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref></type>
+        <definition>Result ansys::dpf::Model::CreateResultEvaluationWorkflow</definition>
+        <argsstring>(const char *res_name, Scoping meshScoping=Scoping(), Location requested_location=Location(), int cs_id=0)</argsstring>
+        <name>CreateResultEvaluationWorkflow</name>
+        <qualifiedname>ansys::dpf::Model::CreateResultEvaluationWorkflow</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>res_name</declname>
+          <briefdescription><para>[in] Result name for which to get Result. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref></type>
+          <declname>meshScoping</declname>
+          <defval><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref>()</defval>
+          <briefdescription><para>[in] Scoping of mesh elements or nodes. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref></type>
+          <declname>requested_location</declname>
+          <defval><ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref>()</defval>
+          <briefdescription><para>[in] Location of evaluated result (nodal, elemental, or elemental_nodal). </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cs_id</declname>
+          <defval>0</defval>
+          <briefdescription><para>[in] Not used. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref> for given result name. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="helpers/dpf_model.h" line="54" column="27" bodyfile="helpers/dpf_model.h" bodystart="124" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Model_1a346a4ed1937d88f3b094041d51b68b13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref></type>
+        <definition>Result ansys::dpf::Model::CreateResultEvaluationWorkflow</definition>
+        <argsstring>(const char *res_name, const char *named_selection, Location requested_location=Location(), bool bInclusive=true, int cs_id=0)</argsstring>
+        <name>CreateResultEvaluationWorkflow</name>
+        <qualifiedname>ansys::dpf::Model::CreateResultEvaluationWorkflow</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>res_name</declname>
+          <briefdescription><para>[in] Result name for which to get Result. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>named_selection</declname>
+          <briefdescription><para>[in] Name of selected region in mesh. For MAPDL, names are capitalized. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref></type>
+          <declname>requested_location</declname>
+          <defval><ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref>()</defval>
+          <briefdescription><para>[in] Location of evaluated result (nodal, elemental, or elemental_nodal). </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bInclusive</declname>
+          <defval>true</defval>
+          <briefdescription><para>[in] When named_selection is a nodal region and requested_location is elemental, true indicates take elements with all nodes in region. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cs_id</declname>
+          <defval>0</defval>
+          <briefdescription><para>If false, take elements with at least 1 node in region. [in] Not used. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref> for given result name and named_selection of mesh. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="helpers/dpf_model.h" line="61" column="27" bodyfile="helpers/dpf_model.h" bodystart="128" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Model_1aa7b9083700bfa4fe6fae6b08c878eebc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1MeshQuery" kindref="compound">MeshQuery</ref></type>
+        <definition>MeshQuery ansys::dpf::Model::CreateMeshQuery</definition>
+        <argsstring>()</argsstring>
+        <name>CreateMeshQuery</name>
+        <qualifiedname>ansys::dpf::Model::CreateMeshQuery</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1MeshQuery" kindref="compound">MeshQuery</ref>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="helpers/dpf_model.h" line="70" column="23" bodyfile="helpers/dpf_model.h" bodystart="70" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Model_1ac6d249ff396b756eb860b1ea46dc2fa1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::Model::ReleaseHandles</definition>
+        <argsstring>()</argsstring>
+        <name>ReleaseHandles</name>
+        <qualifiedname>ansys::dpf::Model::ReleaseHandles</qualifiedname>
+        <briefdescription>
+<para>Closes the files that were kept open to retrieve data. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="helpers/dpf_model.h" line="75" column="6" bodyfile="helpers/dpf_model.h" bodystart="75" bodyend="78"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1Model_1a535757503fa7263d0a4995bb86d69216" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::Model::init</definition>
+        <argsstring>(const DataSources &amp;data_sources)</argsstring>
+        <name>init</name>
+        <qualifiedname>ansys::dpf::Model::init</qualifiedname>
+        <param>
+          <type>const <ref refid="classansys_1_1dpf_1_1DataSources" kindref="compound">DataSources</ref> &amp;</type>
+          <declname>data_sources</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="helpers/dpf_model.h" line="81" column="25" bodyfile="helpers/dpf_model.h" bodystart="88" bodyend="104"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Encapsulation of mesh and results. </para>
+    </detaileddescription>
+    <location file="helpers/dpf_model.h" line="13" column="9" bodyfile="helpers/dpf_model.h" bodystart="14" bodyend="86"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1Model_1af8652d1dd32a25aad602e81843468406" prot="private" virt="non-virtual"><scope>ansys::dpf::Model</scope><name>_mesh_provider</name></member>
+      <member refid="classansys_1_1dpf_1_1Model_1afcffdbf193e399515d7eff47ef843fdc" prot="private" virt="non-virtual"><scope>ansys::dpf::Model</scope><name>_result_info_provider</name></member>
+      <member refid="classansys_1_1dpf_1_1Model_1ae90dbe5c46a52291be19abe233a47b29" prot="private" virt="non-virtual"><scope>ansys::dpf::Model</scope><name>_stream_provider</name></member>
+      <member refid="classansys_1_1dpf_1_1Model_1ac29412aa2ec099e774ae0b3c09e405a5" prot="private" virt="non-virtual"><scope>ansys::dpf::Model</scope><name>_timefreq_support_provider</name></member>
+      <member refid="classansys_1_1dpf_1_1Model_1aa7b9083700bfa4fe6fae6b08c878eebc" prot="public" virt="non-virtual"><scope>ansys::dpf::Model</scope><name>CreateMeshQuery</name></member>
+      <member refid="classansys_1_1dpf_1_1Model_1a34060c2b318e850b8b468b9e4371e651" prot="public" virt="non-virtual"><scope>ansys::dpf::Model</scope><name>CreateResultEvaluationWorkflow</name></member>
+      <member refid="classansys_1_1dpf_1_1Model_1a346a4ed1937d88f3b094041d51b68b13" prot="public" virt="non-virtual"><scope>ansys::dpf::Model</scope><name>CreateResultEvaluationWorkflow</name></member>
+      <member refid="classansys_1_1dpf_1_1Model_1a48c91a341bc268e48fe4efd1e8c8cb0f" prot="public" virt="non-virtual"><scope>ansys::dpf::Model</scope><name>getMesh</name></member>
+      <member refid="classansys_1_1dpf_1_1Model_1abadaeac1d698448632bc92df349f0ed9" prot="public" virt="non-virtual"><scope>ansys::dpf::Model</scope><name>getMeshesContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1Model_1a4c81175ac5b1652728ceb587b414857e" prot="public" virt="non-virtual"><scope>ansys::dpf::Model</scope><name>getResultInfo</name></member>
+      <member refid="classansys_1_1dpf_1_1Model_1a431d3eb5237f3b5f9f99631c259c53d2" prot="public" virt="non-virtual"><scope>ansys::dpf::Model</scope><name>getTimeFreqSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1Model_1a535757503fa7263d0a4995bb86d69216" prot="private" virt="non-virtual"><scope>ansys::dpf::Model</scope><name>init</name></member>
+      <member refid="classansys_1_1dpf_1_1Model_1a76d48e79b13741b01c3e0bb37ea56cc1" prot="public" virt="non-virtual"><scope>ansys::dpf::Model</scope><name>Model</name></member>
+      <member refid="classansys_1_1dpf_1_1Model_1aa7d8460544b5133e3d144a72f4f8d78b" prot="public" virt="non-virtual"><scope>ansys::dpf::Model</scope><name>Model</name></member>
+      <member refid="classansys_1_1dpf_1_1Model_1ac6d249ff396b756eb860b1ea46dc2fa1" prot="public" virt="non-virtual"><scope>ansys::dpf::Model</scope><name>ReleaseHandles</name></member>
+      <member refid="classansys_1_1dpf_1_1Model_1a6d0f6e29b54a53f4e9c856da139fae8d" prot="public" virt="virtual"><scope>ansys::dpf::Model</scope><name>~Model</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

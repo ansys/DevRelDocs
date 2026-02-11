@@ -1,0 +1,934 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="structansys_1_1dpf_1_1elements" kind="struct" language="C++" prot="public">
+    <compoundname>ansys::dpf::elements</compoundname>
+    <includes local="no">dpf_api_base.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551c" prot="public" static="no" strong="no">
+        <type></type>
+        <name>EElementType</name>
+        <qualifiedname>ansys::dpf::elements::EElementType</qualifiedname>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca3c944a466624de41b5c769a0b0074c66" prot="public">
+          <name>kAnsGeneral</name>
+          <initializer>= -2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca83a76823c2de3d6eaf6f67d2c03c5053" prot="public">
+          <name>kAnsAll</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca5867a639e1407cc108ab408b0a5898a8" prot="public">
+          <name>kAnsTet10</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca36c0a1abea2e4fc9dcb84482a0d4619a" prot="public">
+          <name>kAnsHex20</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cab3d36ca15493097b79a0872f54ea0639" prot="public">
+          <name>kAnsWedge15</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cabf55387deebc1d80b88e4e769a215836" prot="public">
+          <name>kAnsPyramid13</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca741d2eaf420922288844697b36833ada" prot="public">
+          <name>kAnsTri6</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca39db39debaa8b4970ddf969fd21aed02" prot="public">
+          <name>kAnsTriShell6</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cad59d8a40d19b43357a1ff65c03710cb5" prot="public">
+          <name>kAnsQuad8</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551caaa1d3cc37e3cc23f85eeef7a29adb319" prot="public">
+          <name>kAnsQuadShell8</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca9a53ea970a6345464d7ce0e983b19d19" prot="public">
+          <name>kAnsLine3</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca7724a9a49aef3a205ac09756c42f0e0f" prot="public">
+          <name>kAnsPoint1</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca716ba3ac28b29b4f7701de2d79bcb38e" prot="public">
+          <name>kAnsTet4</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca2303b6c8f3509c8bf9ef4b6830d97d42" prot="public">
+          <name>kAnsHex8</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca2f65855869afd4d8c3388f42c583d9c7" prot="public">
+          <name>kAnsWedge6</name>
+          <initializer>= 12</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cab4c2adaadfa5130a1e28c67f4606af33" prot="public">
+          <name>kAnsPyramid5</name>
+          <initializer>= 13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca8aa1be158e8da7c3b99139b92dbe72de" prot="public">
+          <name>kAnsTri3</name>
+          <initializer>= 14</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cac25744a65f72faf85e1acc58b1fd9ddb" prot="public">
+          <name>kAnsTriShell3</name>
+          <initializer>= 15</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca45d9d03188720b958880c5d9cef2fb69" prot="public">
+          <name>kAnsQuad4</name>
+          <initializer>= 16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cacdfd5ca276d9a4b2e767e2b1b402a3a3" prot="public">
+          <name>kAnsQuadShell4</name>
+          <initializer>= 17</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cac5b7cfc5a8352b1d159ff4fe0668311c" prot="public">
+          <name>kAnsLine2</name>
+          <initializer>= 18</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca6d87d3d53faa782037c6c618bcba907a" prot="public">
+          <name>kAnsNumElementTypes</name>
+          <initializer>= 19</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cacaee9f103baac4a99415737e1a50cc17" prot="public">
+          <name>kAnsUnknown</name>
+          <initializer>= 20</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cad9fa65d0cdb08af4a12ec2419a26936c" prot="public">
+          <name>kAnsEMagLine</name>
+          <initializer>= 21</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca1dc72aa179e2dc4db2e7e0e085bb8340" prot="public">
+          <name>kAnsEMagArc</name>
+          <initializer>= 22</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca8189d7ab818e0813cc925a3343dee0dc" prot="public">
+          <name>kAnsEMagCircle</name>
+          <initializer>= 23</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551caf86ed8c6ac108c71ad1ea987e4969e42" prot="public">
+          <name>kAnsSurface3</name>
+          <initializer>= 24</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca926190eb354a9033667de4d7ed0f8975" prot="public">
+          <name>kAnsSurface4</name>
+          <initializer>= 25</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca504633ec5853b9f456dd6d27971fb1c3" prot="public">
+          <name>kAnsSurface6</name>
+          <initializer>= 26</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cacb77216ecd8f572584342523302ee1f0" prot="public">
+          <name>kAnsSurface8</name>
+          <initializer>= 27</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca4f1706ac9b5f90dec84a38199bea0738" prot="public">
+          <name>kAnsEdge2</name>
+          <initializer>= 28</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551caa2de5de4de3719a432d68bd539947984" prot="public">
+          <name>kAnsEdge3</name>
+          <initializer>= 29</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551caac61ff8dd9d8584d6690075806aa7b72" prot="public">
+          <name>kAnsBeam3</name>
+          <initializer>= 30</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cabee4a9bbd4b236cfcf12e58d0962b75a" prot="public">
+          <name>kAnsBeam4</name>
+          <initializer>= 31</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca5fec66e72c21213615d79d9e1daf7496" prot="public">
+          <name>kAnsGeneralPlaceholder</name>
+          <initializer>= 32</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cadc82ded2e3022f77738b9709d19dc339" prot="public">
+          <name>kAnsPolygon</name>
+          <initializer>= 33</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca015d8d84385a4237a4d93e5052f5052c" prot="public">
+          <name>kAnsPolyhedron</name>
+          <initializer>= 34</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca080f89260bfb81593cf30663e1a77591" prot="public">
+          <name>kAnsActualNumElementTypes</name>
+          <initializer>= 35</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="639" column="1" bodyfile="dpf_api_base.h" bodystart="640" bodyend="679"/>
+      </memberdef>
+      <memberdef kind="enum" id="structansys_1_1dpf_1_1elements_1a52e134d27c3ea7a5158ad3707d0af86d" prot="public" static="no" strong="no">
+        <type></type>
+        <name>EShape</name>
+        <qualifiedname>ansys::dpf::elements::EShape</qualifiedname>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a52e134d27c3ea7a5158ad3707d0af86daec80bcc85074212d11db8613e36776df" prot="public">
+          <name>eShell</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a52e134d27c3ea7a5158ad3707d0af86daa68e76180109e712867773ccfc98f589" prot="public">
+          <name>eSolid</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a52e134d27c3ea7a5158ad3707d0af86da79f8bbaf009f29ba6735fd6bf114b2cf" prot="public">
+          <name>eBeam</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1elements_1a52e134d27c3ea7a5158ad3707d0af86da9b206fd791ee266631f7d124aac83f52" prot="public">
+          <name>eUnknownShape</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="680" column="1" bodyfile="dpf_api_base.h" bodystart="680" bodyend="680"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structansys_1_1dpf_1_1elements_1a15f94658f6da65e43f52199c682eaa41" prot="public" static="no">
+        <type>enum ansys::dpf::elements::EElementType</type>
+        <definition>typedef enum ansys::dpf::elements::EElementType ansys::dpf::elements::EElementType</definition>
+        <argsstring></argsstring>
+        <name>EElementType</name>
+        <qualifiedname>ansys::dpf::elements::EElementType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="679" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1a792dbe53fef8ed1b06aef04f583dacdd" prot="private" static="yes" mutable="no">
+        <type>const std::vector&lt; <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref> &gt;</type>
+        <definition>const std::vector&lt;ElementDescriptor&gt; ansys::dpf::elements::dpf_index_to_descriptor</definition>
+        <argsstring></argsstring>
+        <name>dpf_index_to_descriptor</name>
+        <qualifiedname>ansys::dpf::elements::dpf_index_to_descriptor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="636" column="26" bodyfile="dpf_api_base.h" bodystart="636" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1a05d59369acd4f4ac6819645f2413ee22" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref></type>
+        <definition>const ElementDescriptor ansys::dpf::elements::tet4</definition>
+        <argsstring></argsstring>
+        <name>tet4</name>
+        <qualifiedname>ansys::dpf::elements::tet4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Linear 4-nodes Tetrahedron. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="683" column="32" bodyfile="dpf_api_base.h" bodystart="683" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1a7f276f248180559409b323fdedb70582" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref></type>
+        <definition>const ElementDescriptor ansys::dpf::elements::tet10</definition>
+        <argsstring></argsstring>
+        <name>tet10</name>
+        <qualifiedname>ansys::dpf::elements::tet10</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Quadratic 10-nodes Tetrahedron. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="685" column="32" bodyfile="dpf_api_base.h" bodystart="685" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1ac6ff34f1a725f25b7e0a095aff779136" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref></type>
+        <definition>const ElementDescriptor ansys::dpf::elements::tri3</definition>
+        <argsstring></argsstring>
+        <name>tri3</name>
+        <qualifiedname>ansys::dpf::elements::tri3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Linear 3-nodes Triangle. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="687" column="32" bodyfile="dpf_api_base.h" bodystart="687" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1a6da8547db64d0404c57c70c1b2ac7c49" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref></type>
+        <definition>const ElementDescriptor ansys::dpf::elements::triShell3</definition>
+        <argsstring></argsstring>
+        <name>triShell3</name>
+        <qualifiedname>ansys::dpf::elements::triShell3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Linear 3-nodes Triangle Shell. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="689" column="32" bodyfile="dpf_api_base.h" bodystart="689" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1a678e9dcef96b39246445828f33e72b71" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref></type>
+        <definition>const ElementDescriptor ansys::dpf::elements::tri6</definition>
+        <argsstring></argsstring>
+        <name>tri6</name>
+        <qualifiedname>ansys::dpf::elements::tri6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Quadratic 6-nodes Triangle. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="691" column="32" bodyfile="dpf_api_base.h" bodystart="691" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1aee80f084c6fbaedceee94106818bec1c" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref></type>
+        <definition>const ElementDescriptor ansys::dpf::elements::triShell6</definition>
+        <argsstring></argsstring>
+        <name>triShell6</name>
+        <qualifiedname>ansys::dpf::elements::triShell6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Quadratic 6-nodes Triangle Shell. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="693" column="32" bodyfile="dpf_api_base.h" bodystart="693" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1a4781a62a05dd26d8f1f19cd7c4b6e524" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref></type>
+        <definition>const ElementDescriptor ansys::dpf::elements::quad4</definition>
+        <argsstring></argsstring>
+        <name>quad4</name>
+        <qualifiedname>ansys::dpf::elements::quad4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Linear 4-nodes Quadrangle. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="695" column="32" bodyfile="dpf_api_base.h" bodystart="695" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1ac9194bac632c648b744f96a2306b428b" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref></type>
+        <definition>const ElementDescriptor ansys::dpf::elements::quadShell4</definition>
+        <argsstring></argsstring>
+        <name>quadShell4</name>
+        <qualifiedname>ansys::dpf::elements::quadShell4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Linear 4-nodes Quadrangle Shell. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="697" column="32" bodyfile="dpf_api_base.h" bodystart="697" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1ad36e9e7391d69a1b8ad420e39fe3e7e0" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref></type>
+        <definition>const ElementDescriptor ansys::dpf::elements::quad8</definition>
+        <argsstring></argsstring>
+        <name>quad8</name>
+        <qualifiedname>ansys::dpf::elements::quad8</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Quadratic 8-nodes Quadrangle. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="699" column="32" bodyfile="dpf_api_base.h" bodystart="699" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1a93a4e8340f6e8aa6c8eaddc53f4f597d" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref></type>
+        <definition>const ElementDescriptor ansys::dpf::elements::quadShell8</definition>
+        <argsstring></argsstring>
+        <name>quadShell8</name>
+        <qualifiedname>ansys::dpf::elements::quadShell8</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Quadratic 8-nodes Quadrangle Shell. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="701" column="32" bodyfile="dpf_api_base.h" bodystart="701" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1a5691e11b844d29be5134f86e7dcd11dc" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref></type>
+        <definition>const ElementDescriptor ansys::dpf::elements::pyramid5</definition>
+        <argsstring></argsstring>
+        <name>pyramid5</name>
+        <qualifiedname>ansys::dpf::elements::pyramid5</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Linear 5-nodes Pyramid. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="703" column="32" bodyfile="dpf_api_base.h" bodystart="703" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1a941c7a8dbfe56e2babd10f8cc8ac4285" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref></type>
+        <definition>const ElementDescriptor ansys::dpf::elements::pyramid13</definition>
+        <argsstring></argsstring>
+        <name>pyramid13</name>
+        <qualifiedname>ansys::dpf::elements::pyramid13</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Quadratic 13-nodes Pyramid. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="705" column="32" bodyfile="dpf_api_base.h" bodystart="705" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1a3141f08f706520d619035b8511f0896a" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref></type>
+        <definition>const ElementDescriptor ansys::dpf::elements::wedge6</definition>
+        <argsstring></argsstring>
+        <name>wedge6</name>
+        <qualifiedname>ansys::dpf::elements::wedge6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Linear 6-nodes Wedge. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="707" column="32" bodyfile="dpf_api_base.h" bodystart="707" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1a892a97f94e4a6fddaad8fe6291ad3dff" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref></type>
+        <definition>const ElementDescriptor ansys::dpf::elements::wedge15</definition>
+        <argsstring></argsstring>
+        <name>wedge15</name>
+        <qualifiedname>ansys::dpf::elements::wedge15</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Quadratic 15-nodes Wedge. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="709" column="32" bodyfile="dpf_api_base.h" bodystart="709" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1a04e5abf7b58c9ba639b0846d05950642" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref></type>
+        <definition>const ElementDescriptor ansys::dpf::elements::hex8</definition>
+        <argsstring></argsstring>
+        <name>hex8</name>
+        <qualifiedname>ansys::dpf::elements::hex8</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Linear 8-nodes Hexahedron. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="711" column="32" bodyfile="dpf_api_base.h" bodystart="711" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1a62bb2da3409ede24afca38ace21f75e8" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref></type>
+        <definition>const ElementDescriptor ansys::dpf::elements::hex20</definition>
+        <argsstring></argsstring>
+        <name>hex20</name>
+        <qualifiedname>ansys::dpf::elements::hex20</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Quadratic 20-nodes Hexahedron. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="713" column="32" bodyfile="dpf_api_base.h" bodystart="713" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1a52f6751afe46909ad6c83c0b0510491d" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref></type>
+        <definition>const ElementDescriptor ansys::dpf::elements::line2</definition>
+        <argsstring></argsstring>
+        <name>line2</name>
+        <qualifiedname>ansys::dpf::elements::line2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Linear 2-nodes Line. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="715" column="32" bodyfile="dpf_api_base.h" bodystart="715" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1ae353ec6c1cb895bb0ee8b2dd59f2033e" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref></type>
+        <definition>const ElementDescriptor ansys::dpf::elements::line3</definition>
+        <argsstring></argsstring>
+        <name>line3</name>
+        <qualifiedname>ansys::dpf::elements::line3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Quadratic 3-nodes Line. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="717" column="32" bodyfile="dpf_api_base.h" bodystart="717" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1a07ea15edb478efe2cb580ba86a65b89e" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref></type>
+        <definition>const ElementDescriptor ansys::dpf::elements::beam3</definition>
+        <argsstring></argsstring>
+        <name>beam3</name>
+        <qualifiedname>ansys::dpf::elements::beam3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Linear 2-nodes (+ orientation node) Beam. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="719" column="32" bodyfile="dpf_api_base.h" bodystart="719" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1a7651898827538618d188da12cb8be51a" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref></type>
+        <definition>const ElementDescriptor ansys::dpf::elements::beam4</definition>
+        <argsstring></argsstring>
+        <name>beam4</name>
+        <qualifiedname>ansys::dpf::elements::beam4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Quadratic 3-nodes (+ orientation node) Beam. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="721" column="32" bodyfile="dpf_api_base.h" bodystart="721" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1a42c776bd25670e7ca0c2cc9fc91e2829" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref></type>
+        <definition>const ElementDescriptor ansys::dpf::elements::point1</definition>
+        <argsstring></argsstring>
+        <name>point1</name>
+        <qualifiedname>ansys::dpf::elements::point1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Point element. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="723" column="32" bodyfile="dpf_api_base.h" bodystart="723" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1a0b3e8e1bcd04a985c4f8d32c5e95738e" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref></type>
+        <definition>const ElementDescriptor ansys::dpf::elements::polygon</definition>
+        <argsstring></argsstring>
+        <name>polygon</name>
+        <qualifiedname>ansys::dpf::elements::polygon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Polygon element. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="725" column="32" bodyfile="dpf_api_base.h" bodystart="725" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1af9f8a7d13897f82bc5fefa49b8797a83" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref></type>
+        <definition>const ElementDescriptor ansys::dpf::elements::polyhedron</definition>
+        <argsstring></argsstring>
+        <name>polyhedron</name>
+        <qualifiedname>ansys::dpf::elements::polyhedron</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Polyhedron element. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="727" column="32" bodyfile="dpf_api_base.h" bodystart="727" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1a51f0cc33dad4fd994ce98dd77a49ea9d" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref></type>
+        <definition>const ElementDescriptor ansys::dpf::elements::unknown</definition>
+        <argsstring></argsstring>
+        <name>unknown</name>
+        <qualifiedname>ansys::dpf::elements::unknown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Unknown element type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="729" column="32" bodyfile="dpf_api_base.h" bodystart="729" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1a5553bdd8a5ab865ec9f66f59f4103707" prot="public" static="yes" mutable="no">
+        <type>const std::vector&lt; <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref> &gt;</type>
+        <definition>const std::vector&lt;ElementDescriptor&gt; ansys::dpf::elements::linears</definition>
+        <argsstring></argsstring>
+        <name>linears</name>
+        <qualifiedname>ansys::dpf::elements::linears</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>of those elements with no mid-side nodes (excluding shell elements). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="731" column="26" bodyfile="dpf_api_base.h" bodystart="731" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1a3c236de96ce4dddc85a57bab6a32bc83" prot="public" static="yes" mutable="no">
+        <type>const std::vector&lt; <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref> &gt;</type>
+        <definition>const std::vector&lt;ElementDescriptor&gt; ansys::dpf::elements::quadratics</definition>
+        <argsstring></argsstring>
+        <name>quadratics</name>
+        <qualifiedname>ansys::dpf::elements::quadratics</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Vector of those elements with mid-side nodes (excluding shell elements). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="733" column="26" bodyfile="dpf_api_base.h" bodystart="733" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1elements_1a4abe6329bb8b96b9a4b7f3ecd8fc7f2e" prot="public" static="yes" mutable="no">
+        <type>const std::vector&lt; <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref> &gt;</type>
+        <definition>const std::vector&lt;ElementDescriptor&gt; ansys::dpf::elements::solid_elements</definition>
+        <argsstring></argsstring>
+        <name>solid_elements</name>
+        <qualifiedname>ansys::dpf::elements::solid_elements</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Vector of solid/volume elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="735" column="26" bodyfile="dpf_api_base.h" bodystart="735" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structansys_1_1dpf_1_1elements_1a30e8daf92a36604a3c176d9f7b5d1f35" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref> const &amp;</type>
+        <definition>static ElementDescriptor const  &amp; ansys::dpf::elements::descriptor</definition>
+        <argsstring>(dp_index element_index)</argsstring>
+        <name>descriptor</name>
+        <qualifiedname>ansys::dpf::elements::descriptor</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>element_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref> based on <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref> id. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="737" column="39" bodyfile="dpf_api_base.h" bodystart="737" bodyend="737"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Predefined <ref refid="structansys_1_1dpf_1_1ElementDescriptor" kindref="compound">ElementDescriptor</ref>. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>ansys::dpf::ElementDescriptor</label>
+        <link refid="structansys_1_1dpf_1_1ElementDescriptor"/>
+      </node>
+      <node id="1">
+        <label>ansys::dpf::elements</label>
+        <link refid="structansys_1_1dpf_1_1elements"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>beam3</edgelabel>
+          <edgelabel>beam4</edgelabel>
+          <edgelabel>hex20</edgelabel>
+          <edgelabel>hex8</edgelabel>
+          <edgelabel>line2</edgelabel>
+          <edgelabel>line3</edgelabel>
+          <edgelabel>point1</edgelabel>
+          <edgelabel>polygon</edgelabel>
+          <edgelabel>polyhedron</edgelabel>
+          <edgelabel>pyramid13</edgelabel>
+          <edgelabel>  ...</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="dpf_api_base.h" line="633" column="1" bodyfile="dpf_api_base.h" bodystart="634" bodyend="738"/>
+    <listofallmembers>
+      <member refid="structansys_1_1dpf_1_1elements_1a07ea15edb478efe2cb580ba86a65b89e" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>beam3</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a7651898827538618d188da12cb8be51a" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>beam4</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a30e8daf92a36604a3c176d9f7b5d1f35" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>descriptor</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a792dbe53fef8ed1b06aef04f583dacdd" prot="private" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>dpf_index_to_descriptor</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a52e134d27c3ea7a5158ad3707d0af86da79f8bbaf009f29ba6735fd6bf114b2cf" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>eBeam</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551c" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>EElementType</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a15f94658f6da65e43f52199c682eaa41" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>EElementType</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a52e134d27c3ea7a5158ad3707d0af86d" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>EShape</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a52e134d27c3ea7a5158ad3707d0af86daec80bcc85074212d11db8613e36776df" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>eShell</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a52e134d27c3ea7a5158ad3707d0af86daa68e76180109e712867773ccfc98f589" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>eSolid</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a52e134d27c3ea7a5158ad3707d0af86da9b206fd791ee266631f7d124aac83f52" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>eUnknownShape</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a62bb2da3409ede24afca38ace21f75e8" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>hex20</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a04e5abf7b58c9ba639b0846d05950642" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>hex8</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca080f89260bfb81593cf30663e1a77591" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsActualNumElementTypes</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca83a76823c2de3d6eaf6f67d2c03c5053" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsAll</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551caac61ff8dd9d8584d6690075806aa7b72" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsBeam3</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cabee4a9bbd4b236cfcf12e58d0962b75a" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsBeam4</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca4f1706ac9b5f90dec84a38199bea0738" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsEdge2</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551caa2de5de4de3719a432d68bd539947984" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsEdge3</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca1dc72aa179e2dc4db2e7e0e085bb8340" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsEMagArc</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca8189d7ab818e0813cc925a3343dee0dc" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsEMagCircle</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cad9fa65d0cdb08af4a12ec2419a26936c" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsEMagLine</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca3c944a466624de41b5c769a0b0074c66" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsGeneral</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca5fec66e72c21213615d79d9e1daf7496" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsGeneralPlaceholder</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca36c0a1abea2e4fc9dcb84482a0d4619a" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsHex20</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca2303b6c8f3509c8bf9ef4b6830d97d42" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsHex8</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cac5b7cfc5a8352b1d159ff4fe0668311c" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsLine2</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca9a53ea970a6345464d7ce0e983b19d19" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsLine3</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca6d87d3d53faa782037c6c618bcba907a" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsNumElementTypes</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca7724a9a49aef3a205ac09756c42f0e0f" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsPoint1</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cadc82ded2e3022f77738b9709d19dc339" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsPolygon</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca015d8d84385a4237a4d93e5052f5052c" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsPolyhedron</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cabf55387deebc1d80b88e4e769a215836" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsPyramid13</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cab4c2adaadfa5130a1e28c67f4606af33" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsPyramid5</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca45d9d03188720b958880c5d9cef2fb69" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsQuad4</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cad59d8a40d19b43357a1ff65c03710cb5" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsQuad8</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cacdfd5ca276d9a4b2e767e2b1b402a3a3" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsQuadShell4</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551caaa1d3cc37e3cc23f85eeef7a29adb319" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsQuadShell8</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551caf86ed8c6ac108c71ad1ea987e4969e42" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsSurface3</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca926190eb354a9033667de4d7ed0f8975" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsSurface4</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca504633ec5853b9f456dd6d27971fb1c3" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsSurface6</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cacb77216ecd8f572584342523302ee1f0" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsSurface8</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca5867a639e1407cc108ab408b0a5898a8" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsTet10</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca716ba3ac28b29b4f7701de2d79bcb38e" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsTet4</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca8aa1be158e8da7c3b99139b92dbe72de" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsTri3</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca741d2eaf420922288844697b36833ada" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsTri6</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cac25744a65f72faf85e1acc58b1fd9ddb" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsTriShell3</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca39db39debaa8b4970ddf969fd21aed02" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsTriShell6</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cacaee9f103baac4a99415737e1a50cc17" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsUnknown</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cab3d36ca15493097b79a0872f54ea0639" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsWedge15</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca2f65855869afd4d8c3388f42c583d9c7" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>kAnsWedge6</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a52f6751afe46909ad6c83c0b0510491d" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>line2</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1ae353ec6c1cb895bb0ee8b2dd59f2033e" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>line3</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a5553bdd8a5ab865ec9f66f59f4103707" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>linears</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a42c776bd25670e7ca0c2cc9fc91e2829" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>point1</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a0b3e8e1bcd04a985c4f8d32c5e95738e" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>polygon</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1af9f8a7d13897f82bc5fefa49b8797a83" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>polyhedron</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a941c7a8dbfe56e2babd10f8cc8ac4285" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>pyramid13</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a5691e11b844d29be5134f86e7dcd11dc" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>pyramid5</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a4781a62a05dd26d8f1f19cd7c4b6e524" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>quad4</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1ad36e9e7391d69a1b8ad420e39fe3e7e0" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>quad8</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a3c236de96ce4dddc85a57bab6a32bc83" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>quadratics</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1ac9194bac632c648b744f96a2306b428b" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>quadShell4</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a93a4e8340f6e8aa6c8eaddc53f4f597d" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>quadShell8</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a4abe6329bb8b96b9a4b7f3ecd8fc7f2e" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>solid_elements</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a7f276f248180559409b323fdedb70582" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>tet10</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a05d59369acd4f4ac6819645f2413ee22" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>tet4</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1ac6ff34f1a725f25b7e0a095aff779136" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>tri3</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a678e9dcef96b39246445828f33e72b71" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>tri6</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a6da8547db64d0404c57c70c1b2ac7c49" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>triShell3</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1aee80f084c6fbaedceee94106818bec1c" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>triShell6</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a51f0cc33dad4fd994ce98dd77a49ea9d" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>unknown</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a892a97f94e4a6fddaad8fe6291ad3dff" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>wedge15</name></member>
+      <member refid="structansys_1_1dpf_1_1elements_1a3141f08f706520d619035b8511f0896a" prot="public" virt="non-virtual"><scope>ansys::dpf::elements</scope><name>wedge6</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

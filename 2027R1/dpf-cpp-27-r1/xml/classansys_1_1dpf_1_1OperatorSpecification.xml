@@ -1,0 +1,595 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1OperatorSpecification" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::OperatorSpecification</compoundname>
+    <basecompoundref refid="classansys_1_1dpf_1_1DpfTypes" prot="public" virt="non-virtual">ansys::dpf::DpfTypes</basecompoundref>
+    <includes local="no">dpf_api.h</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1OperatorSpecification_1a33ff3f826991522d2e77c1c523f33e19" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Operator</definition>
+        <argsstring></argsstring>
+        <name>Operator</name>
+        <qualifiedname>ansys::dpf::OperatorSpecification::Operator</qualifiedname>
+        <param>
+          <type>Operator</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6123" column="14" bodyfile="dpf_api.h" bodystart="6123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1OperatorSpecification_1af764561c544bacc1b90b526ee8d3c708" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class core</definition>
+        <argsstring></argsstring>
+        <name>core</name>
+        <qualifiedname>ansys::dpf::OperatorSpecification::core</qualifiedname>
+        <param>
+          <type>core</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6124" column="14" bodyfile="dpf_api.h" bodystart="6124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1OperatorSpecification_1af3b971156c82470379e0fc202fb6abb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>struct</type>
+        <definition>friend struct internal::core</definition>
+        <argsstring></argsstring>
+        <name>internal::core</name>
+        <qualifiedname>ansys::dpf::OperatorSpecification::core</qualifiedname>
+        <param>
+          <type>internal::core</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6125" column="15" bodyfile="dpf_api.h" bodystart="6125" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorSpecification_1ae2e9f23ea7232fea0cf6ae0838a03fe3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::OperatorSpecification::OperatorSpecification</definition>
+        <argsstring>(opaque::DpfInternalSharedObject *)</argsstring>
+        <name>OperatorSpecification</name>
+        <qualifiedname>ansys::dpf::OperatorSpecification::OperatorSpecification</qualifiedname>
+        <param>
+          <type>opaque::DpfInternalSharedObject *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6128" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorSpecification_1a6a8563e7b2d555969e387fcb6d0423ea" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="structansys_1_1dpf_1_1PinDefinition" kindref="compound">PinDefinition</ref> &gt;</type>
+        <definition>std::vector&lt; PinDefinition &gt; ansys::dpf::OperatorSpecification::getPins</definition>
+        <argsstring>(bool binput) const</argsstring>
+        <name>getPins</name>
+        <qualifiedname>ansys::dpf::OperatorSpecification::getPins</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>binput</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6129" column="13"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorSpecification_1a5ff57b38ca2dff01bf4f62dda841249e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::OperatorSpecification::OperatorSpecification</definition>
+        <argsstring>()</argsstring>
+        <name>OperatorSpecification</name>
+        <qualifiedname>ansys::dpf::OperatorSpecification::OperatorSpecification</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6132" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorSpecification_1a80996301dbad63232dd6b9bf90cf944d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ansys::dpf::OperatorSpecification::~OperatorSpecification</definition>
+        <argsstring>()</argsstring>
+        <name>~OperatorSpecification</name>
+        <qualifiedname>ansys::dpf::OperatorSpecification::~OperatorSpecification</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6133" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorSpecification_1a9c474e5a973f7dfb5fdfa84c133a9c4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::OperatorSpecification::OperatorSpecification</definition>
+        <argsstring>(OperatorSpecification const &amp;)</argsstring>
+        <name>OperatorSpecification</name>
+        <qualifiedname>ansys::dpf::OperatorSpecification::OperatorSpecification</qualifiedname>
+        <param>
+          <type>OperatorSpecification const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6134" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorSpecification_1a87b1c58da59dea93a073ea51534715f6" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::OperatorSpecification::OperatorSpecification</definition>
+        <argsstring>(OperatorSpecification &amp;&amp;) noexcept</argsstring>
+        <name>OperatorSpecification</name>
+        <qualifiedname>ansys::dpf::OperatorSpecification::OperatorSpecification</qualifiedname>
+        <param>
+          <type>OperatorSpecification &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6135" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorSpecification_1a4c907e7bab1f5a3a606ea51b4848d437" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>OperatorSpecification &amp;</type>
+        <definition>OperatorSpecification &amp; ansys::dpf::OperatorSpecification::operator=</definition>
+        <argsstring>(OperatorSpecification const &amp;)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::OperatorSpecification::operator=</qualifiedname>
+        <param>
+          <type>OperatorSpecification const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6136" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorSpecification_1a82cdc5f2a8c768c10096e45b6e4a37f6" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>OperatorSpecification &amp;</type>
+        <definition>OperatorSpecification &amp; ansys::dpf::OperatorSpecification::operator=</definition>
+        <argsstring>(OperatorSpecification &amp;&amp;) noexcept</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::OperatorSpecification::operator=</qualifiedname>
+        <param>
+          <type>OperatorSpecification &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6137" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorSpecification_1ab34a33daaef024443cebecd265786e18" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="structansys_1_1dpf_1_1PinDefinition" kindref="compound">PinDefinition</ref> &gt;</type>
+        <definition>std::vector&lt; PinDefinition &gt; ansys::dpf::OperatorSpecification::inputPins</definition>
+        <argsstring>() const</argsstring>
+        <name>inputPins</name>
+        <qualifiedname>ansys::dpf::OperatorSpecification::inputPins</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the currently defined input pins of the operator. <simplesect kind="return"><para>Vector of input pin definitions. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6141" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorSpecification_1af1f0a429df6979e64b52713fc95e981a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="structansys_1_1dpf_1_1PinDefinition" kindref="compound">PinDefinition</ref> &gt;</type>
+        <definition>std::vector&lt; PinDefinition &gt; ansys::dpf::OperatorSpecification::outputPins</definition>
+        <argsstring>() const</argsstring>
+        <name>outputPins</name>
+        <qualifiedname>ansys::dpf::OperatorSpecification::outputPins</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the currently defined output pins of the operator. <simplesect kind="return"><para>Vector of output pin definitions. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6144" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorSpecification_1ac3e45d154d2904aedd470563c8d566b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorSpecification::setInputPins</definition>
+        <argsstring>(std::vector&lt; PinDefinition &gt; const &amp;pins)</argsstring>
+        <name>setInputPins</name>
+        <qualifiedname>ansys::dpf::OperatorSpecification::setInputPins</qualifiedname>
+        <param>
+          <type>std::vector&lt; <ref refid="structansys_1_1dpf_1_1PinDefinition" kindref="compound">PinDefinition</ref> &gt; const &amp;</type>
+          <declname>pins</declname>
+          <briefdescription><para>[in] Vector of input pins. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the input pin definitions of the operator. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6147" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorSpecification_1a5a47b3bacdaf74b6039f73facd30a881" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorSpecification::setOutputPins</definition>
+        <argsstring>(std::vector&lt; PinDefinition &gt; const &amp;pins)</argsstring>
+        <name>setOutputPins</name>
+        <qualifiedname>ansys::dpf::OperatorSpecification::setOutputPins</qualifiedname>
+        <param>
+          <type>std::vector&lt; <ref refid="structansys_1_1dpf_1_1PinDefinition" kindref="compound">PinDefinition</ref> &gt; const &amp;</type>
+          <declname>pins</declname>
+          <briefdescription><para>[in] Vector of input pins. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the output pin definitions of the operator. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6150" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorSpecification_1a398ea2f358ea35f62384436d99ca2bbf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::OperatorSpecification::getDocumentation</definition>
+        <argsstring>() const</argsstring>
+        <name>getDocumentation</name>
+        <qualifiedname>ansys::dpf::OperatorSpecification::getDocumentation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Description of operator. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6153" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorSpecification_1af2335159650a865b5c7eab060d85da07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorSpecification::setDocumentation</definition>
+        <argsstring>(std::string const &amp;text)</argsstring>
+        <name>setDocumentation</name>
+        <qualifiedname>ansys::dpf::OperatorSpecification::setDocumentation</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>text</declname>
+          <briefdescription><para>[in] String describing the operator. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the description of operator. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6155" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorSpecification_1a2f4a8c5f7334cbddb79b610d90fe9fc2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::OperatorSpecification::getProperty</definition>
+        <argsstring>(std::string const &amp;key) const</argsstring>
+        <name>getProperty</name>
+        <qualifiedname>ansys::dpf::OperatorSpecification::getProperty</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>key</declname>
+          <briefdescription><para>[in] Key of property to get. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref> property given by key. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6158" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorSpecification_1aa931a524a869f2881c49bfef21f790d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorSpecification::setProperty</definition>
+        <argsstring>(std::string const &amp;key, std::string const &amp;value)</argsstring>
+        <name>setProperty</name>
+        <qualifiedname>ansys::dpf::OperatorSpecification::setProperty</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>key</declname>
+          <briefdescription><para>[in] Key for which to set property. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>value</declname>
+          <briefdescription><para>[in] Property value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set property for given key. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6161" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorSpecification_1ad5b6239b64de0216aae2325f8936611c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="structansys_1_1dpf_1_1ConfigOptionSpecification" kindref="compound">ConfigOptionSpecification</ref> &gt;</type>
+        <definition>std::vector&lt; ConfigOptionSpecification &gt; ansys::dpf::OperatorSpecification::configOptions</definition>
+        <argsstring>() const</argsstring>
+        <name>configOptions</name>
+        <qualifiedname>ansys::dpf::OperatorSpecification::configOptions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the currently defined configuration options specifications. <simplesect kind="return"><para>Vector of operator configuration option specifications. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6167" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorSpecification_1ac608a98bb19ea5c878f2424e209f52d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorSpecification::addSupportedConfigOption</definition>
+        <argsstring>(std::string const &amp;option_name, bool default_value, std::string const &amp;documentation=&quot;&quot;)</argsstring>
+        <name>addSupportedConfigOption</name>
+        <qualifiedname>ansys::dpf::OperatorSpecification::addSupportedConfigOption</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>option_name</declname>
+          <briefdescription><para>[in] @See <ref refid="classansys_1_1dpf_1_1OperatorConfig_1ae02e4297e6fa9030d1ff3179fefe04b5" kindref="member">OperatorConfig::options</ref>. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>default_value</declname>
+          <briefdescription><para>[in] Default value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>documentation</declname>
+          <defval>&quot;&quot;</defval>
+          <briefdescription><para>[in] Description of the config option. If nothing is specified default values will be looked for. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add a supported config option to the operator. @See <ref refid="classansys_1_1dpf_1_1OperatorConfig" kindref="compound">OperatorConfig</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6171" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorSpecification_1a69d4382377d7375074fa8da84f5c5732" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorSpecification::addSupportedConfigOption</definition>
+        <argsstring>(std::string const &amp;option_name, int default_value, std::string const &amp;documentation=&quot;&quot;)</argsstring>
+        <name>addSupportedConfigOption</name>
+        <qualifiedname>ansys::dpf::OperatorSpecification::addSupportedConfigOption</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>option_name</declname>
+          <briefdescription><para>[in] @See <ref refid="classansys_1_1dpf_1_1OperatorConfig_1ae02e4297e6fa9030d1ff3179fefe04b5" kindref="member">OperatorConfig::options</ref>. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>default_value</declname>
+          <briefdescription><para>[in] Default value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>documentation</declname>
+          <defval>&quot;&quot;</defval>
+          <briefdescription><para>[in] Description of the config option. If nothing is specified default values will be looked for. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add a supported config option to the operator. @See <ref refid="classansys_1_1dpf_1_1OperatorConfig" kindref="compound">OperatorConfig</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6177" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorSpecification_1adcf58df937bb7bd6b2bb21b849ce7130" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorSpecification::addSupportedConfigOption</definition>
+        <argsstring>(std::string const &amp;option_name, double default_value, std::string const &amp;documentation=&quot;&quot;)</argsstring>
+        <name>addSupportedConfigOption</name>
+        <qualifiedname>ansys::dpf::OperatorSpecification::addSupportedConfigOption</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>option_name</declname>
+          <briefdescription><para>[in] @See <ref refid="classansys_1_1dpf_1_1OperatorConfig_1ae02e4297e6fa9030d1ff3179fefe04b5" kindref="member">OperatorConfig::options</ref>. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>default_value</declname>
+          <briefdescription><para>[in] Default value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>documentation</declname>
+          <defval>&quot;&quot;</defval>
+          <briefdescription><para>[in] Description of the config option. If nothing is specified default values will be looked for. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add a supported config option to the operator. @See <ref refid="classansys_1_1dpf_1_1OperatorConfig" kindref="compound">OperatorConfig</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6183" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorSpecification_1ab952e05fe762a0081c24d99bf7bb9158" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorSpecification::setVersion</definition>
+        <argsstring>(const SemanticVersion &amp;semver)</argsstring>
+        <name>setVersion</name>
+        <qualifiedname>ansys::dpf::OperatorSpecification::setVersion</qualifiedname>
+        <param>
+          <type>const <ref refid="classansys_1_1dpf_1_1SemanticVersion" kindref="compound">SemanticVersion</ref> &amp;</type>
+          <declname>semver</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6188" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorSpecification_1a87d6a5e4c061fb356735fbb53ccc50b3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1SemanticVersion" kindref="compound">SemanticVersion</ref></type>
+        <definition>SemanticVersion ansys::dpf::OperatorSpecification::getVersion</definition>
+        <argsstring>() const</argsstring>
+        <name>getVersion</name>
+        <qualifiedname>ansys::dpf::OperatorSpecification::getVersion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6189" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorSpecification_1a360172f91b5c055d425e4a0b5c20466c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorSpecification::setChangelog</definition>
+        <argsstring>(const Changelog &amp;changelog)</argsstring>
+        <name>setChangelog</name>
+        <qualifiedname>ansys::dpf::OperatorSpecification::setChangelog</qualifiedname>
+        <param>
+          <type>const <ref refid="classansys_1_1dpf_1_1Changelog" kindref="compound">Changelog</ref> &amp;</type>
+          <declname>changelog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6191" column="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Definition of a new operator. <simplesect kind="see"><para><ref refid="group__group__4__how__tos" kindref="compound">How-tos</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ansys::dpf::DpfTypes</label>
+        <link refid="classansys_1_1dpf_1_1DpfTypes"/>
+      </node>
+      <node id="1">
+        <label>ansys::dpf::OperatorSpecification</label>
+        <link refid="classansys_1_1dpf_1_1OperatorSpecification"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ansys::dpf::DpfTypes</label>
+        <link refid="classansys_1_1dpf_1_1DpfTypes"/>
+      </node>
+      <node id="1">
+        <label>ansys::dpf::OperatorSpecification</label>
+        <link refid="classansys_1_1dpf_1_1OperatorSpecification"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="dpf_api.h" line="6121" column="1" bodyfile="dpf_api.h" bodystart="6122" bodyend="6192"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1OperatorSpecification_1ac608a98bb19ea5c878f2424e209f52d8" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>addSupportedConfigOption</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorSpecification_1a69d4382377d7375074fa8da84f5c5732" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>addSupportedConfigOption</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorSpecification_1adcf58df937bb7bd6b2bb21b849ce7130" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>addSupportedConfigOption</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1aea34d37e0c080126eff70db34bf46597" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>callAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorSpecification_1ad5b6239b64de0216aae2325f8936611c" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>configOptions</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9977945710983bc03d2940fa007847b2" prot="public" virt="virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>describe</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459" prot="public" virt="virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>empty</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a968afd9daa0b0f13b65a2ac61369d73a" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>getClient</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorSpecification_1a398ea2f358ea35f62384436d99ca2bbf" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>getDocumentation</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorSpecification_1a6a8563e7b2d555969e387fcb6d0423ea" prot="private" virt="non-virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>getPins</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorSpecification_1a2f4a8c5f7334cbddb79b610d90fe9fc2" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>getProperty</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorSpecification_1a87d6a5e4c061fb356735fbb53ccc50b3" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>getVersion</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a1a5634202c15404b6b24e8f50e51cb66" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>hasBeenMovedLocally</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ae198f89868d85c7db6dc1a934a1d3c15" prot="public" virt="virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>hasInternalObject</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorSpecification_1ab34a33daaef024443cebecd265786e18" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>inputPins</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9f9789ff61cc9d400a2a344830706b73" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>isOnCommonAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1aa64d5f8fcd7d85ad6ebf708494dbefd7" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>isSameObject</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorSpecification_1a4c907e7bab1f5a3a606ea51b4848d437" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorSpecification_1a82cdc5f2a8c768c10096e45b6e4a37f6" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorSpecification_1ae2e9f23ea7232fea0cf6ae0838a03fe3" prot="private" virt="non-virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>OperatorSpecification</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorSpecification_1a5ff57b38ca2dff01bf4f62dda841249e" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>OperatorSpecification</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorSpecification_1a9c474e5a973f7dfb5fdfa84c133a9c4d" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>OperatorSpecification</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorSpecification_1a87b1c58da59dea93a073ea51534715f6" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>OperatorSpecification</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorSpecification_1af1f0a429df6979e64b52713fc95e981a" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>outputPins</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorSpecification_1a360172f91b5c055d425e4a0b5c20466c" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>setChangelog</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorSpecification_1af2335159650a865b5c7eab060d85da07" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>setDocumentation</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorSpecification_1ac3e45d154d2904aedd470563c8d566b5" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>setInputPins</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorSpecification_1a5a47b3bacdaf74b6039f73facd30a881" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>setOutputPins</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorSpecification_1aa931a524a869f2881c49bfef21f790d0" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>setProperty</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorSpecification_1ab952e05fe762a0081c24d99bf7bb9158" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>setVersion</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ab7c83b6ea160c2b115e056f6c312112f" prot="public" virt="virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>~DpfTypes</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorSpecification_1a80996301dbad63232dd6b9bf90cf944d" prot="public" virt="virtual"><scope>ansys::dpf::OperatorSpecification</scope><name>~OperatorSpecification</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

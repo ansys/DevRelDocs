@@ -1,0 +1,437 @@
+\doxysection{ansys::\+dpf::\+Time\+Freq\+Support Class Reference}
+\hypertarget{classansys_1_1dpf_1_1TimeFreqSupport}{}\label{classansys_1_1dpf_1_1TimeFreqSupport}\index{ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}}
+
+
+Define a time/\+frequency set.  
+
+
+
+
+{\ttfamily \+\#include $<$dpf\+\_\+api.\+h$>$}
+
+Inheritance diagram for ansys::\+dpf::\+Time\+Freq\+Support:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classansys_1_1dpf_1_1TimeFreqSupport}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a16e1c71584c44429329b23360b537630}{Time\+Freq\+Support}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a3122b8e5c405333882e1682efd125596}{Time\+Freq\+Support}} (int id, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_a7bdbb2d84f701cffd060879288bbe9be}\label{classansys_1_1dpf_1_1TimeFreqSupport_a7bdbb2d84f701cffd060879288bbe9be} 
+{\bfseries Time\+Freq\+Support} (Time\+Freq\+Support const \&)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_afa5cdfa726a0af0a13c6e8ad30a5193a}\label{classansys_1_1dpf_1_1TimeFreqSupport_afa5cdfa726a0af0a13c6e8ad30a5193a} 
+{\bfseries Time\+Freq\+Support} (Time\+Freq\+Support \&\&) noexcept
+\item 
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_a07bc20195f72ad854db1c75d86bbc650}\label{classansys_1_1dpf_1_1TimeFreqSupport_a07bc20195f72ad854db1c75d86bbc650} 
+Time\+Freq\+Support \& {\bfseries operator=} (Time\+Freq\+Support const \&)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_a5e294f5e0106f102b5392cc837a249fa}\label{classansys_1_1dpf_1_1TimeFreqSupport_a5e294f5e0106f102b5392cc837a249fa} 
+Time\+Freq\+Support \& {\bfseries operator=} (Time\+Freq\+Support \&\&) noexcept
+\item 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a87c577de73b5ba2260cf3f940ac43068}{number\+Of\+Sets}} () const
+\item 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a6b3cc037c0283450ac0234dadeddd1b6}{number\+Of\+Steps}} () const
+\item 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a4333cdbfac1c49f802a9c33a18970ed5}{number\+Of\+Sub\+Steps\+By\+Step\+Index}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} step\+Index) const
+\item 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a190d202d30643f5ea398555b5dbea12b}{number\+Of\+Sub\+Steps\+By\+Step\+Id}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} step\+Id) const
+\item 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a018ae91fba33d3a61360c659a3fa49c8}{get\+Set\+Index\+By\+Step\+Index\+And\+Sub\+Step}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} step, \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} sub\+\_\+step) const
+\item 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\+\_\+double}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a85a5cf293b3c72cdfa0668450aba6673}{get\+Imaginary\+Freq\+By\+Step}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} step, \doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} sub\+\_\+step) const
+\item 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\+\_\+double}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_abb6ca8360c5db93383e00db82cfcfa3f}{get\+Time\+Freq\+By\+Step}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} step, \doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} sub\+\_\+step) const
+\item 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_afaa513e5f4410b3a5f2fee984f41065c}{get\+Imaginary\+Freq\+Set\+Index\+By\+Value}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\+\_\+double}} frequency) const
+\item 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a85e297af28a24a226cff64338b1a6326}{get\+Set\+Index\+By\+Time\+Freq}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\+\_\+double}} frequency) const
+\item 
+std::\+pair$<$ \doxymbox{\hyperlink{namespaceansys_1_1dpf_ab4574c9af3f2bb8011da7d1f4c8da20e}{dp\+\_\+id}}, \doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} $>$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a9596196456260be8d2899952dff29c64}{get\+Step\+And\+Sub\+Step}} (int cumulative\+\_\+index) const
+\item 
+Field \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_aa0cf046a80d328f966892abe85308f01}{frequencies}} () const
+\item 
+Field \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a21319848f5f197398148551cbb74d4a0}{imaginary\+Frequencies}} () const
+\item 
+Field \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_aa2e1dacc70c07e6d6ba401748e3d822e}{rpms}} () const
+\item 
+Field \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a101268a027373331f52244f52eb8b0d1}{harmonic\+Indeces}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} stage=0) const
+\item 
+Property\+Field \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_ae138ce323b476464e3e114750eb5d686}{time\+Frequencies\+Substep\+Ids}} () const
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a4428c07ba03b6cf3dc65279cf8f2c08f}{harmonic\+Indices\+Scoping}} () const
+\item 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_aee5b3fa99be60b203563cf58f2a78321}{number\+Of\+Singular\+Sets}} () const
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_aa01a23bf27be8e42ce3ec1da5e0ddcbe}{set\+Time\+Frequencies}} (Field field)
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a934891bcade52745e6e80b7bf74193cf}{set\+Imaginary\+Frequencies}} (Field field)
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a855a9819d41665a1d9177fd8f67fa3f1}{set\+Rpms}} (Field field)
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a233c06f8d1967b7254dcf96df613e359}{set\+Harmonic\+Indices}} (Field field, \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} stage=0)
+\item 
+std::\+pair$<$ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}}, \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} $>$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_ab4822e8cee3be5c03badce0e4cea3991}{bounding\+Cumulative\+Indeces\+Of\+Time\+Freq}} (double time\+\_\+freq, int loadstep=0) const
+\item 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\+\_\+double}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a15d6bc620aadd070c1bb027a075ce0cd}{time\+Freq}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} cumul\+\_\+index, \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} complex\+\_\+id=0) const
+\item 
+Time\+Freq\+Support \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a3addff6333f65b2ea810d7033315ac1c}{deep\+\_\+copy}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{ansys::\+dpf::\+\+Client}} const \texorpdfstring{$\ast$}{*}const client=nullptr) const
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes}{ansys::\+dpf::\+\+Dpf\+Types}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a39cd546c42518e2332be8f287db95459}{empty}} () const
+\item 
+virtual bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_ae198f89868d85c7db6dc1a934a1d3c15}{has\+Internal\+Object}} () const
+\item 
+virtual std::\+string \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a9977945710983bc03d2940fa007847b2}{describe}} () const
+\item 
+so::\+\+API const \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_aea34d37e0c080126eff70db34bf46597}{call\+API}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a9f9789ff61cc9d400a2a344830706b73}{is\+On\+Common\+API}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a968afd9daa0b0f13b65a2ac61369d73a}{get\+Client}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} \&client) const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a1a5634202c15404b6b24e8f50e51cb66}{has\+Been\+Moved\+Locally}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_aa64d5f8fcd7d85ad6ebf708494dbefd7}{is\+Same\+Object}} (Dpf\+Types const \&rhs) const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_a7e75bb0b6e75fce04a882b70f9a48c17}\label{classansys_1_1dpf_1_1TimeFreqSupport_a7e75bb0b6e75fce04a882b70f9a48c17} 
+static Time\+Freq\+Support {\bfseries empty\+Time\+Freq\+Support} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Define a time/\+frequency set. 
+
+The time freq support describes an analysis\textquotesingle{} temporal or frequential space. For a transient analysis all the time sets cumulatives indices with their times are described. For a harmonic analysis, the real and imaginary frequencies, the RPMs, the load steps are described. \begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{CompleteRST_8cpp-example}{Complete\+RST.\+cpp}}, \doxymbox{\hyperlink{DataApis_8cpp-example}{Data\+Apis.\+cpp}}, \doxymbox{\hyperlink{DataExport_8cpp-example}{Data\+Export.\+cpp}}, \doxymbox{\hyperlink{ModelTest_8cpp-example}{Model\+Test.\+cpp}}, \doxymbox{\hyperlink{ResultTest_8cpp-example}{Result\+Test.\+cpp}}, and \doxymbox{\hyperlink{WorkflowExamples_8cpp-example}{Workflow\+Examples.\+cpp}}.\end{Desc}
+
+
+\label{doc-constructors}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_a16e1c71584c44429329b23360b537630}\index{ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}!TimeFreqSupport@{TimeFreqSupport}}
+\index{TimeFreqSupport@{TimeFreqSupport}!ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}}
+\doxysubsubsection{\texorpdfstring{TimeFreqSupport()}{TimeFreqSupport()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1TimeFreqSupport_a16e1c71584c44429329b23360b537630} 
+ansys::\+dpf::\+\+Time\+Freq\+Support::\+\+Time\+Freq\+Support (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{}\end{DoxyParamCaption})}
+
+Create a new \doxylink{classansys_1_1dpf_1_1TimeFreqSupport}{Time\+Freq\+Support} on a server. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_a3122b8e5c405333882e1682efd125596}\index{ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}!TimeFreqSupport@{TimeFreqSupport}}
+\index{TimeFreqSupport@{TimeFreqSupport}!ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}}
+\doxysubsubsection{\texorpdfstring{TimeFreqSupport()}{TimeFreqSupport()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1TimeFreqSupport_a3122b8e5c405333882e1682efd125596} 
+ansys::\+dpf::\+\+Time\+Freq\+Support::\+\+Time\+Freq\+Support (\begin{DoxyParamCaption}\item[{int}]{id}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{}\end{DoxyParamCaption})}
+
+Retrieve an existing instance of \doxylink{classansys_1_1dpf_1_1TimeFreqSupport}{Time\+Freq\+Support} on a server. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em id} & Id of the \doxylink{classansys_1_1dpf_1_1TimeFreqSupport}{Time\+Freq\+Support} object on the server\textquotesingle{}s database.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_ab4822e8cee3be5c03badce0e4cea3991}\index{ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}!boundingCumulativeIndecesOfTimeFreq@{boundingCumulativeIndecesOfTimeFreq}}
+\index{boundingCumulativeIndecesOfTimeFreq@{boundingCumulativeIndecesOfTimeFreq}!ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}}
+\doxysubsubsection{\texorpdfstring{boundingCumulativeIndecesOfTimeFreq()}{boundingCumulativeIndecesOfTimeFreq()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1TimeFreqSupport_ab4822e8cee3be5c03badce0e4cea3991} 
+std::\+pair$<$ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}}, \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} $>$ ansys::\+dpf::\+\+Time\+Freq\+Support::\+bounding\+Cumulative\+Indeces\+Of\+Time\+Freq (\begin{DoxyParamCaption}\item[{double}]{time\+\_\+freq}{, }\item[{int}]{loadstep}{ = {\ttfamily 0}}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Bounding indices for given time time frequency and load step. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em time\+\_\+freq} & Time frequency for which to find bounding indices.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em loadstep} & Optional load step. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_a3addff6333f65b2ea810d7033315ac1c}\index{ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}!deep\_copy@{deep\_copy}}
+\index{deep\_copy@{deep\_copy}!ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}}
+\doxysubsubsection{\texorpdfstring{deep\_copy()}{deep\_copy()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1TimeFreqSupport_a3addff6333f65b2ea810d7033315ac1c} 
+Time\+Freq\+Support ansys::\+dpf::\+\+Time\+Freq\+Support::\+deep\+\_\+copy (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{ansys::\+dpf::\+\+Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{ = {\ttfamily nullptr}}\end{DoxyParamCaption}) const}
+
+Create a new \doxylink{classansys_1_1dpf_1_1TimeFreqSupport}{Time\+Freq\+Support} on a server by copying all the data of this \doxylink{classansys_1_1dpf_1_1TimeFreqSupport}{Time\+Freq\+Support}. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_aa0cf046a80d328f966892abe85308f01}\index{ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}!frequencies@{frequencies}}
+\index{frequencies@{frequencies}!ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}}
+\doxysubsubsection{\texorpdfstring{frequencies()}{frequencies()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1TimeFreqSupport_aa0cf046a80d328f966892abe85308f01} 
+Field ansys::\+dpf::\+\+Time\+Freq\+Support::\+frequencies (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+\doxylink{classansys_1_1dpf_1_1Field}{Field} associated with time frequency. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataApis_8cpp-example}{Data\+Apis.\+cpp}}, \doxymbox{\hyperlink{DataExport_8cpp-example}{Data\+Export.\+cpp}}, \doxymbox{\hyperlink{ModelTest_8cpp-example}{Model\+Test.\+cpp}}, and \doxymbox{\hyperlink{WorkflowExamples_8cpp-example}{Workflow\+Examples.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_a85a5cf293b3c72cdfa0668450aba6673}\index{ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}!getImaginaryFreqByStep@{getImaginaryFreqByStep}}
+\index{getImaginaryFreqByStep@{getImaginaryFreqByStep}!ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}}
+\doxysubsubsection{\texorpdfstring{getImaginaryFreqByStep()}{getImaginaryFreqByStep()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1TimeFreqSupport_a85a5cf293b3c72cdfa0668450aba6673} 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\+\_\+double}} ansys::\+dpf::\+\+Time\+Freq\+Support::\+get\+Imaginary\+Freq\+By\+Step (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}}}]{step}{, }\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}}}]{sub\+\_\+step}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+imaginary frequency at a given step index and substep indices. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em step} & step index (0 based).  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em sub\+\_\+step} & sub\+\_\+step index (0 based). \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_afaa513e5f4410b3a5f2fee984f41065c}\index{ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}!getImaginaryFreqSetIndexByValue@{getImaginaryFreqSetIndexByValue}}
+\index{getImaginaryFreqSetIndexByValue@{getImaginaryFreqSetIndexByValue}!ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}}
+\doxysubsubsection{\texorpdfstring{getImaginaryFreqSetIndexByValue()}{getImaginaryFreqSetIndexByValue()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1TimeFreqSupport_afaa513e5f4410b3a5f2fee984f41065c} 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} ansys::\+dpf::\+\+Time\+Freq\+Support::\+get\+Imaginary\+Freq\+Set\+Index\+By\+Value (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\+\_\+double}}}]{frequency}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+set index (0 based) for given imaginary frequency. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_a018ae91fba33d3a61360c659a3fa49c8}\index{ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}!getSetIndexByStepIndexAndSubStep@{getSetIndexByStepIndexAndSubStep}}
+\index{getSetIndexByStepIndexAndSubStep@{getSetIndexByStepIndexAndSubStep}!ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}}
+\doxysubsubsection{\texorpdfstring{getSetIndexByStepIndexAndSubStep()}{getSetIndexByStepIndexAndSubStep()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1TimeFreqSupport_a018ae91fba33d3a61360c659a3fa49c8} 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} ansys::\+dpf::\+\+Time\+Freq\+Support::\+get\+Set\+Index\+By\+Step\+Index\+And\+Sub\+Step (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}}}]{step}{, }\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}}}]{sub\+\_\+step}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+set index (0 based) at a given step index and substep index. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{ModelTest_8cpp-example}{Model\+Test.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_a85e297af28a24a226cff64338b1a6326}\index{ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}!getSetIndexByTimeFreq@{getSetIndexByTimeFreq}}
+\index{getSetIndexByTimeFreq@{getSetIndexByTimeFreq}!ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}}
+\doxysubsubsection{\texorpdfstring{getSetIndexByTimeFreq()}{getSetIndexByTimeFreq()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1TimeFreqSupport_a85e297af28a24a226cff64338b1a6326} 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} ansys::\+dpf::\+\+Time\+Freq\+Support::\+get\+Set\+Index\+By\+Time\+Freq (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\+\_\+double}}}]{frequency}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+set index (0 based) for given time frequency. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_a9596196456260be8d2899952dff29c64}\index{ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}!getStepAndSubStep@{getStepAndSubStep}}
+\index{getStepAndSubStep@{getStepAndSubStep}!ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}}
+\doxysubsubsection{\texorpdfstring{getStepAndSubStep()}{getStepAndSubStep()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1TimeFreqSupport_a9596196456260be8d2899952dff29c64} 
+std::\+pair$<$ \doxymbox{\hyperlink{namespaceansys_1_1dpf_ab4574c9af3f2bb8011da7d1f4c8da20e}{dp\+\_\+id}}, \doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} $>$ ansys::\+dpf::\+\+Time\+Freq\+Support::\+get\+Step\+And\+Sub\+Step (\begin{DoxyParamCaption}\item[{int}]{cumulative\+\_\+index}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+step index and substep at a given set index (0 based). 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_abb6ca8360c5db93383e00db82cfcfa3f}\index{ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}!getTimeFreqByStep@{getTimeFreqByStep}}
+\index{getTimeFreqByStep@{getTimeFreqByStep}!ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}}
+\doxysubsubsection{\texorpdfstring{getTimeFreqByStep()}{getTimeFreqByStep()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1TimeFreqSupport_abb6ca8360c5db93383e00db82cfcfa3f} 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\+\_\+double}} ansys::\+dpf::\+\+Time\+Freq\+Support::\+get\+Time\+Freq\+By\+Step (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}}}]{step}{, }\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}}}]{sub\+\_\+step}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+time frequency at a given step index and substep indices. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em step} & step index (0 based).  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em sub\+\_\+step} & sub\+\_\+step index (0 based). \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_a101268a027373331f52244f52eb8b0d1}\index{ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}!harmonicIndeces@{harmonicIndeces}}
+\index{harmonicIndeces@{harmonicIndeces}!ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}}
+\doxysubsubsection{\texorpdfstring{harmonicIndeces()}{harmonicIndeces()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1TimeFreqSupport_a101268a027373331f52244f52eb8b0d1} 
+Field ansys::\+dpf::\+\+Time\+Freq\+Support::\+harmonic\+Indeces (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}}}]{stage}{ = {\ttfamily 0}}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Harmonic indices associated with time frequency. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{ModelTest_8cpp-example}{Model\+Test.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_a4428c07ba03b6cf3dc65279cf8f2c08f}\index{ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}!harmonicIndicesScoping@{harmonicIndicesScoping}}
+\index{harmonicIndicesScoping@{harmonicIndicesScoping}!ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}}
+\doxysubsubsection{\texorpdfstring{harmonicIndicesScoping()}{harmonicIndicesScoping()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1TimeFreqSupport_a4428c07ba03b6cf3dc65279cf8f2c08f} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{Scoping}} ansys::\+dpf::\+\+Time\+Freq\+Support::\+harmonic\+Indices\+Scoping (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+\doxylink{classansys_1_1dpf_1_1Scoping}{Scoping} containing all the stage numbers of the \doxylink{classansys_1_1dpf_1_1TimeFreqSupport}{Time\+Freq\+Support}. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_a21319848f5f197398148551cbb74d4a0}\index{ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}!imaginaryFrequencies@{imaginaryFrequencies}}
+\index{imaginaryFrequencies@{imaginaryFrequencies}!ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}}
+\doxysubsubsection{\texorpdfstring{imaginaryFrequencies()}{imaginaryFrequencies()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1TimeFreqSupport_a21319848f5f197398148551cbb74d4a0} 
+Field ansys::\+dpf::\+\+Time\+Freq\+Support::\+imaginary\+Frequencies (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+\doxylink{classansys_1_1dpf_1_1Field}{Field} associated with imaginary part of time frequency. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_a87c577de73b5ba2260cf3f940ac43068}\index{ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}!numberOfSets@{numberOfSets}}
+\index{numberOfSets@{numberOfSets}!ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}}
+\doxysubsubsection{\texorpdfstring{numberOfSets()}{numberOfSets()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1TimeFreqSupport_a87c577de73b5ba2260cf3f940ac43068} 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} ansys::\+dpf::\+\+Time\+Freq\+Support::\+number\+Of\+Sets (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Number of time frequency sets. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{CompleteRST_8cpp-example}{Complete\+RST.\+cpp}}, \doxymbox{\hyperlink{DataApis_8cpp-example}{Data\+Apis.\+cpp}}, \doxymbox{\hyperlink{DataExport_8cpp-example}{Data\+Export.\+cpp}}, \doxymbox{\hyperlink{ModelTest_8cpp-example}{Model\+Test.\+cpp}}, and \doxymbox{\hyperlink{ResultTest_8cpp-example}{Result\+Test.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_aee5b3fa99be60b203563cf58f2a78321}\index{ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}!numberOfSingularSets@{numberOfSingularSets}}
+\index{numberOfSingularSets@{numberOfSingularSets}!ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}}
+\doxysubsubsection{\texorpdfstring{numberOfSingularSets()}{numberOfSingularSets()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1TimeFreqSupport_aee5b3fa99be60b203563cf58f2a78321} 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} ansys::\+dpf::\+\+Time\+Freq\+Support::\+number\+Of\+Singular\+Sets (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Number of unique time frequency entries. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_a6b3cc037c0283450ac0234dadeddd1b6}\index{ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}!numberOfSteps@{numberOfSteps}}
+\index{numberOfSteps@{numberOfSteps}!ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}}
+\doxysubsubsection{\texorpdfstring{numberOfSteps()}{numberOfSteps()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1TimeFreqSupport_a6b3cc037c0283450ac0234dadeddd1b6} 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} ansys::\+dpf::\+\+Time\+Freq\+Support::\+number\+Of\+Steps (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Number of steps. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{ModelTest_8cpp-example}{Model\+Test.\+cpp}}, and \doxymbox{\hyperlink{ResultTest_8cpp-example}{Result\+Test.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_a190d202d30643f5ea398555b5dbea12b}\index{ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}!numberOfSubStepsByStepId@{numberOfSubStepsByStepId}}
+\index{numberOfSubStepsByStepId@{numberOfSubStepsByStepId}!ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}}
+\doxysubsubsection{\texorpdfstring{numberOfSubStepsByStepId()}{numberOfSubStepsByStepId()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1TimeFreqSupport_a190d202d30643f5ea398555b5dbea12b} 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} ansys::\+dpf::\+\+Time\+Freq\+Support::\+number\+Of\+Sub\+Steps\+By\+Step\+Id (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}}}]{step\+Id}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Number of sub steps for a given step id. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_a4333cdbfac1c49f802a9c33a18970ed5}\index{ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}!numberOfSubStepsByStepIndex@{numberOfSubStepsByStepIndex}}
+\index{numberOfSubStepsByStepIndex@{numberOfSubStepsByStepIndex}!ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}}
+\doxysubsubsection{\texorpdfstring{numberOfSubStepsByStepIndex()}{numberOfSubStepsByStepIndex()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1TimeFreqSupport_a4333cdbfac1c49f802a9c33a18970ed5} 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} ansys::\+dpf::\+\+Time\+Freq\+Support::\+number\+Of\+Sub\+Steps\+By\+Step\+Index (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}}}]{step\+Index}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Number of sub steps for a given step index (0 based). 
+\end{DoxyReturn}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{ModelTest_8cpp-example}{Model\+Test.\+cpp}}, and \doxymbox{\hyperlink{ResultTest_8cpp-example}{Result\+Test.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_aa2e1dacc70c07e6d6ba401748e3d822e}\index{ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}!rpms@{rpms}}
+\index{rpms@{rpms}!ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}}
+\doxysubsubsection{\texorpdfstring{rpms()}{rpms()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1TimeFreqSupport_aa2e1dacc70c07e6d6ba401748e3d822e} 
+Field ansys::\+dpf::\+\+Time\+Freq\+Support::\+rpms (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+RPMS associated with time frequency. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_a233c06f8d1967b7254dcf96df613e359}\index{ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}!setHarmonicIndices@{setHarmonicIndices}}
+\index{setHarmonicIndices@{setHarmonicIndices}!ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}}
+\doxysubsubsection{\texorpdfstring{setHarmonicIndices()}{setHarmonicIndices()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1TimeFreqSupport_a233c06f8d1967b7254dcf96df613e359} 
+void ansys::\+dpf::\+\+Time\+Freq\+Support::\+set\+Harmonic\+Indices (\begin{DoxyParamCaption}\item[{Field}]{field}{, }\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}}}]{stage}{ = {\ttfamily 0}}\end{DoxyParamCaption})}
+
+Set harmonic indices of time frequency support from given field for a specified stage. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em field} & \doxylink{classansys_1_1dpf_1_1Field}{Field} from which to set imaginary part of time frequency.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em stage} & Optional stage number (default is 0). \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataApis_8cpp-example}{Data\+Apis.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_a934891bcade52745e6e80b7bf74193cf}\index{ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}!setImaginaryFrequencies@{setImaginaryFrequencies}}
+\index{setImaginaryFrequencies@{setImaginaryFrequencies}!ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}}
+\doxysubsubsection{\texorpdfstring{setImaginaryFrequencies()}{setImaginaryFrequencies()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1TimeFreqSupport_a934891bcade52745e6e80b7bf74193cf} 
+void ansys::\+dpf::\+\+Time\+Freq\+Support::\+set\+Imaginary\+Frequencies (\begin{DoxyParamCaption}\item[{Field}]{field}{}\end{DoxyParamCaption})}
+
+Set imaginary part of time frequency from given field. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em field} & \doxylink{classansys_1_1dpf_1_1Field}{Field} from which to set imaginary part of time frequency. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_a855a9819d41665a1d9177fd8f67fa3f1}\index{ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}!setRpms@{setRpms}}
+\index{setRpms@{setRpms}!ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}}
+\doxysubsubsection{\texorpdfstring{setRpms()}{setRpms()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1TimeFreqSupport_a855a9819d41665a1d9177fd8f67fa3f1} 
+void ansys::\+dpf::\+\+Time\+Freq\+Support::\+set\+Rpms (\begin{DoxyParamCaption}\item[{Field}]{field}{}\end{DoxyParamCaption})}
+
+Set rpms of time frequency support from given field. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em field} & \doxylink{classansys_1_1dpf_1_1Field}{Field} from which to set imaginary part of time frequency. \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataApis_8cpp-example}{Data\+Apis.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_aa01a23bf27be8e42ce3ec1da5e0ddcbe}\index{ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}!setTimeFrequencies@{setTimeFrequencies}}
+\index{setTimeFrequencies@{setTimeFrequencies}!ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}}
+\doxysubsubsection{\texorpdfstring{setTimeFrequencies()}{setTimeFrequencies()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1TimeFreqSupport_aa01a23bf27be8e42ce3ec1da5e0ddcbe} 
+void ansys::\+dpf::\+\+Time\+Freq\+Support::\+set\+Time\+Frequencies (\begin{DoxyParamCaption}\item[{Field}]{field}{}\end{DoxyParamCaption})}
+
+Set time frequency from given field. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em field} & \doxylink{classansys_1_1dpf_1_1Field}{Field} from which to set time frequency. \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataApis_8cpp-example}{Data\+Apis.\+cpp}}, and \doxymbox{\hyperlink{DataExport_8cpp-example}{Data\+Export.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_a15d6bc620aadd070c1bb027a075ce0cd}\index{ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}!timeFreq@{timeFreq}}
+\index{timeFreq@{timeFreq}!ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}}
+\doxysubsubsection{\texorpdfstring{timeFreq()}{timeFreq()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1TimeFreqSupport_a15d6bc620aadd070c1bb027a075ce0cd} 
+\doxymbox{\hyperlink{namespaceansys_1_1dpf_acb480013bfed185b5e34a0bdcb0e3790}{dp\+\_\+double}} ansys::\+dpf::\+\+Time\+Freq\+Support::\+time\+Freq (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}}}]{cumul\+\_\+index}{, }\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}}}]{complex\+\_\+id}{ = {\ttfamily 0}}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Time/\+\+Frequency for given index. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em cumul\+\_\+index} & Index for which to get time frequency.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em complex\+\_\+id} & Optional non-\/zero indicates to get imaginary part of time frequency. \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{ModelTest_8cpp-example}{Model\+Test.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1TimeFreqSupport_ae138ce323b476464e3e114750eb5d686}\index{ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}!timeFrequenciesSubstepIds@{timeFrequenciesSubstepIds}}
+\index{timeFrequenciesSubstepIds@{timeFrequenciesSubstepIds}!ansys::dpf::TimeFreqSupport@{ansys::dpf::TimeFreqSupport}}
+\doxysubsubsection{\texorpdfstring{timeFrequenciesSubstepIds()}{timeFrequenciesSubstepIds()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1TimeFreqSupport_ae138ce323b476464e3e114750eb5d686} 
+Property\+Field ansys::\+dpf::\+\+Time\+Freq\+Support::\+time\+Frequencies\+Substep\+Ids (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+substep id associated with time frequency. 
+\end{DoxyReturn}

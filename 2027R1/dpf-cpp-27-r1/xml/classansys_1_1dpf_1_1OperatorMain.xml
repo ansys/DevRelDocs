@@ -1,0 +1,2337 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1OperatorMain" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::OperatorMain</compoundname>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1OperatorMain_1adf19ceee88ba644aceacffbd1495909b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename DataT</type>
+          </param>
+          <param>
+            <type>typename IsGDC</type>
+          </param>
+        </templateparamlist>
+        <type>struct</type>
+        <definition>friend struct ConstructHelpers::construct_trait</definition>
+        <argsstring></argsstring>
+        <name>ConstructHelpers::construct_trait</name>
+        <qualifiedname>ansys::dpf::OperatorMain::construct_trait</qualifiedname>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait" kindref="compound">ConstructHelpers::construct_trait</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5659" column="15" bodyfile="dpf_api.h" bodystart="5659" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1OperatorMain_1a0e7644ca811a4f2c1e76d9bc5cf0cc7b" prot="private" static="no" mutable="no">
+        <type>opaque::DpfOperatorData *</type>
+        <definition>opaque::DpfOperatorData* ansys::dpf::OperatorMain::_operator_data</definition>
+        <argsstring></argsstring>
+        <name>_operator_data</name>
+        <qualifiedname>ansys::dpf::OperatorMain::_operator_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5662" column="25" bodyfile="dpf_api.h" bodystart="5662" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classansys_1_1dpf_1_1OperatorMain_1acb8726b7e640c4bd1ec7c04537879852" prot="private" static="no" mutable="no">
+        <type>so::API const  *</type>
+        <definition>so::API const* ansys::dpf::OperatorMain::_api</definition>
+        <argsstring></argsstring>
+        <name>_api</name>
+        <qualifiedname>ansys::dpf::OperatorMain::_api</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5663" column="15" bodyfile="dpf_api.h" bodystart="5663" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1abe5ead4b53e3ad711a83f213a9c08639" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1ExternalData" kindref="compound">ExternalData</ref> *</type>
+        <definition>ExternalData * ansys::dpf::OperatorMain::getExternalInput</definition>
+        <argsstring>(dp_index)</argsstring>
+        <name>getExternalInput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getExternalInput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5665" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a9079e083b95ac830b07dec4430fea7e1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setExternalOutput</definition>
+        <argsstring>(dp_int, ExternalData *)</argsstring>
+        <name>setExternalOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setExternalOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1ExternalData" kindref="compound">ExternalData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5667" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a62abf633861afbb9d51f808475b4f4ad" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::OperatorMain::pinIsOfType</definition>
+        <argsstring>(dp_int pin_index, std::string const &amp;type_name)</argsstring>
+        <name>pinIsOfType</name>
+        <qualifiedname>ansys::dpf::OperatorMain::pinIsOfType</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>pin_index</declname>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>type_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5668" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1ae81c8de98b06a16bd4f854fdff74f018" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>so::API const *</type>
+        <definition>so::API const  * ansys::dpf::OperatorMain::callAPI</definition>
+        <argsstring>() const</argsstring>
+        <name>callAPI</name>
+        <qualifiedname>ansys::dpf::OperatorMain::callAPI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5669" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a73bd258c47179a6e11f56e197d5da68a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename DataT</type>
+          </param>
+        </templateparamlist>
+        <type>DataT</type>
+        <definition>DataT ansys::dpf::OperatorMain::internalGetInput</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>internalGetInput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::internalGetInput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5999" column="7"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a98d2a29a3512ba6a7085b5be9c2c83a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::OperatorMain::OperatorMain</definition>
+        <argsstring>(opaque::DpfOperatorData *)</argsstring>
+        <name>OperatorMain</name>
+        <qualifiedname>ansys::dpf::OperatorMain::OperatorMain</qualifiedname>
+        <param>
+          <type>opaque::DpfOperatorData *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5672" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1aa797695c15b7a5504a4743331e413738" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::OperatorMain::~OperatorMain</definition>
+        <argsstring>()</argsstring>
+        <name>~OperatorMain</name>
+        <qualifiedname>ansys::dpf::OperatorMain::~OperatorMain</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5673" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a61cbe081b1999638a8f67439bca744a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::OperatorMain::OperatorMain</definition>
+        <argsstring>(OperatorMain const &amp;)=delete</argsstring>
+        <name>OperatorMain</name>
+        <qualifiedname>ansys::dpf::OperatorMain::OperatorMain</qualifiedname>
+        <param>
+          <type>OperatorMain const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5674" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a51f50c2a6f6759adea826dc5f17dfe54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::OperatorMain::OperatorMain</definition>
+        <argsstring>(OperatorMain &amp;&amp;)=delete</argsstring>
+        <name>OperatorMain</name>
+        <qualifiedname>ansys::dpf::OperatorMain::OperatorMain</qualifiedname>
+        <param>
+          <type>OperatorMain &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5675" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a56d4246cf9e4bcd37ad15cad0c536f12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>OperatorMain &amp;</type>
+        <definition>OperatorMain &amp; ansys::dpf::OperatorMain::operator=</definition>
+        <argsstring>(OperatorMain const &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::OperatorMain::operator=</qualifiedname>
+        <param>
+          <type>OperatorMain const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5676" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a07aa4deac34a41322c3b8bbac87850b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>OperatorMain &amp;</type>
+        <definition>OperatorMain &amp; ansys::dpf::OperatorMain::operator=</definition>
+        <argsstring>(OperatorMain &amp;&amp;)=delete</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::OperatorMain::operator=</qualifiedname>
+        <param>
+          <type>OperatorMain &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5677" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a6efbfb4f07c70652b0452b02aba5d191" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref></type>
+        <definition>Operator ansys::dpf::OperatorMain::instantiateInternalOperator</definition>
+        <argsstring>(const std::string &amp;) const</argsstring>
+        <name>instantiateInternalOperator</name>
+        <qualifiedname>ansys::dpf::OperatorMain::instantiateInternalOperator</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+        </param>
+        <briefdescription>
+<para>Only method that should be used to instantiate operators inside another <ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref> run method. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Propagates operator attributes: <ref refid="classansys_1_1dpf_1_1OperatorConfig" kindref="compound">ansys::dpf::OperatorConfig</ref> and licensing settings to the instantiated <ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5682" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1add661774aa6a7c9469658c0de35315d0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref></type>
+        <definition>Operator ansys::dpf::OperatorMain::assertInstantiateInternalOperator</definition>
+        <argsstring>(const std::string &amp;) const</argsstring>
+        <name>assertInstantiateInternalOperator</name>
+        <qualifiedname>ansys::dpf::OperatorMain::assertInstantiateInternalOperator</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+        </param>
+        <briefdescription>
+<para>Only method that should be used to instantiate operators inside another <ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref> run method. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Propagates operator attributes: <ref refid="classansys_1_1dpf_1_1OperatorConfig" kindref="compound">ansys::dpf::OperatorConfig</ref> and licensing settings to the instantiated <ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref>. <parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classansys_1_1dpf_1_1DpfException" kindref="compound">DpfException</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>when the operator doesn&apos;t exist. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5687" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1ad15e8335f3550537fcf0282654c98aca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setSuccessed</definition>
+        <argsstring>()</argsstring>
+        <name>setSuccessed</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setSuccessed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set state of operator to success. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5690" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a2713857554e10c8428b7fe9b59f3fe73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setFailed</definition>
+        <argsstring>()</argsstring>
+        <name>setFailed</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setFailed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set state of operator to fail. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5692" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a041b07a72607c574cd81a878f9e16e41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+        <definition>dp_int ansys::dpf::OperatorMain::getNumInputs</definition>
+        <argsstring>()</argsstring>
+        <name>getNumInputs</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getNumInputs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Number of operator input pins. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5695" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a0fa415e6d731d27d4913a11aaed43f49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename DataT</type>
+          </param>
+        </templateparamlist>
+        <type>DataT</type>
+        <definition>DataT ansys::dpf::OperatorMain::getInput</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Pin from which to get output. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Input of type DataT given by pin index. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5700" column="7" bodyfile="dpf_api.h" bodystart="5700" bodyend="5704"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a064e47615a3d7beb23ee8ab9f589844e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref></type>
+        <definition>Field ansys::dpf::OperatorMain::getInputField</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputField</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputField</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Input field given by pin index. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5707" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a3f3c8dec090d9245f26c9386263b092f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, Field &amp;f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref> &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref> to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set field for output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5710" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a606d8d839ffcfa815775cb2ecfb0e7d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1DataSources" kindref="compound">DataSources</ref></type>
+        <definition>DataSources ansys::dpf::OperatorMain::getInputDataSources</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputDataSources</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputDataSources</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Data sources for input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5714" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1aed3bf969910e32998e557fe3986f6f16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, DataSources const &amp;f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1DataSources" kindref="compound">DataSources</ref> const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] Data sources to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set data sources for given output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5717" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1ae3a8077aa63c688e42dbe707a5bbe320" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref></type>
+        <definition>FieldsContainer ansys::dpf::OperatorMain::getInputFieldsContainer</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputFieldsContainer</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputFieldsContainer</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Fields container for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5721" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a741f2b8ee79bb443e70e76f27f8c56b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, FieldsContainer const &amp;f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref> const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] Fields container to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set fields container for given output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5724" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a5e80bfe0c525bb6d590ce5284a87505e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref></type>
+        <definition>Scoping ansys::dpf::OperatorMain::getInputScoping</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputScoping</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputScoping</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref> for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5728" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a58ce65919ca30cbf0eac87e91b4183bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, Scoping const &amp;f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref> const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref> to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set scoping for given output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5731" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a625cc21a2e7ab6ef0b9f28b29a3d7225" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1ScopingsContainer" kindref="compound">ScopingsContainer</ref></type>
+        <definition>ScopingsContainer ansys::dpf::OperatorMain::getInputScopingsContainer</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputScopingsContainer</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputScopingsContainer</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Scopings container for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5735" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a39fe05de2bdb90d0a326f70b2778a563" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, ScopingsContainer const &amp;f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1ScopingsContainer" kindref="compound">ScopingsContainer</ref> const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] Scopings container to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set scopings container for given input pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5738" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1abf3941daef165cb449d4159b106a23fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1MeshedRegion" kindref="compound">MeshedRegion</ref></type>
+        <definition>MeshedRegion ansys::dpf::OperatorMain::getInputMeshedRegion</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputMeshedRegion</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputMeshedRegion</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Meshed region for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5742" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a87f0ef2382c30a7bb01d5eae12f2a443" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, MeshedRegion const &amp;f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1MeshedRegion" kindref="compound">MeshedRegion</ref> const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] Meshed region to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set meshed region for given output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5745" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a772955b40f867d944a2420934a969e92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1TimeFreqSupport" kindref="compound">TimeFreqSupport</ref></type>
+        <definition>TimeFreqSupport ansys::dpf::OperatorMain::getInputTimeFreqSupport</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputTimeFreqSupport</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputTimeFreqSupport</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Time frequency support for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5749" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1adae5dd8d5b025dcafe46ec1c55355a4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, TimeFreqSupport const &amp;f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1TimeFreqSupport" kindref="compound">TimeFreqSupport</ref> const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] Time frequency support to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set time freqency support for given output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5752" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a33d2b9d8e6408e42547340f056fdecee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1MeshesContainer" kindref="compound">MeshesContainer</ref></type>
+        <definition>MeshesContainer ansys::dpf::OperatorMain::getInputMeshesContainer</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputMeshesContainer</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputMeshesContainer</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Meshes container for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5756" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a6d87280a68b4b87072d15782e19c3bca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, MeshesContainer const &amp;f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1MeshesContainer" kindref="compound">MeshesContainer</ref> const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] Meshes container to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set meshes container for given output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5759" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1abd71f83c649a04e7f2f7813384255f29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1Support" kindref="compound">Support</ref></type>
+        <definition>Support ansys::dpf::OperatorMain::getInputSupport</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputSupport</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputSupport</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Support" kindref="compound">Support</ref> for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5763" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a7a203e0881a74550d69e4781923b5ee4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, Support const &amp;f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Support" kindref="compound">Support</ref> const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Support" kindref="compound">Support</ref> to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set support for given output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5766" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a16741789fff23ceca3d49d71a2c5e9d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1StringField" kindref="compound">StringField</ref></type>
+        <definition>StringField ansys::dpf::OperatorMain::getInputStringField</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputStringField</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputStringField</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1StringField" kindref="compound">StringField</ref> for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5770" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a94dc906d6bdef04d5099e8f26286bed8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, StringField const &amp;f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1StringField" kindref="compound">StringField</ref> const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1StringField" kindref="compound">StringField</ref> to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set <ref refid="classansys_1_1dpf_1_1StringField" kindref="compound">StringField</ref> object for given output pin with its real type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5773" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a0dece5ce4416019ac4e9b9c11f68e94d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref></type>
+        <definition>CustomTypeField ansys::dpf::OperatorMain::getInputCustomTypeField</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputCustomTypeField</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputCustomTypeField</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref> for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5777" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a27f845f17e0e02d6d80e44824be759bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, CustomTypeField const &amp;f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref> const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref> to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set <ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref> object for given output pin with its real type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5780" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1abd1fe113136cd2f5e8ecfb8ee0b58161" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer" kindref="compound">CustomTypeFieldsContainer</ref></type>
+        <definition>CustomTypeFieldsContainer ansys::dpf::OperatorMain::getInputCustomTypeFieldsContainer</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputCustomTypeFieldsContainer</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputCustomTypeFieldsContainer</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer" kindref="compound">CustomTypeFieldsContainer</ref> for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5784" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1aad8340269a65030512992a8bdf25dbd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, CustomTypeFieldsContainer const &amp;f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer" kindref="compound">CustomTypeFieldsContainer</ref> const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer" kindref="compound">CustomTypeFieldsContainer</ref> to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set <ref refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer" kindref="compound">CustomTypeFieldsContainer</ref> object for given output pin with its real type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5787" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1ad28e17d0d720aa99a30bce78623963fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref></type>
+        <definition>Any ansys::dpf::OperatorMain::getInputAsAny</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputAsAny</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputAsAny</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get valuer. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5791" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a80d2f38c08cdba89814cf54f090fa150" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, Any const &amp;f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref> object for given output pin with its real type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5794" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1aefd22c45d42ee27cf4ec00cc68ae7063" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1Streams" kindref="compound">Streams</ref></type>
+        <definition>Streams ansys::dpf::OperatorMain::getInputStreams</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputStreams</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputStreams</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Streams" kindref="compound">Streams</ref> for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5798" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1ab7c167dbd3257b0683906edc2cc27a65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Workflow</type>
+        <definition>Workflow ansys::dpf::OperatorMain::getInputWorkflow</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputWorkflow</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputWorkflow</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Workflow for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5801" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a0fb8663005dd50e7aff666a463d7064c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref></type>
+        <definition>Operator ansys::dpf::OperatorMain::getInputOperator</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputOperator</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputOperator</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref> for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5804" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1ae34c524e2c7127c7aab5e54a68e8960c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>RemoteWorkflow</type>
+        <definition>RemoteWorkflow ansys::dpf::OperatorMain::getInputRemoteWorkflow</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputRemoteWorkflow</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputRemoteWorkflow</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>RemoteWorkflow for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5807" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1ae32da62d193560071bd7ca1611d66907" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>RemoteOperator</type>
+        <definition>RemoteOperator ansys::dpf::OperatorMain::getInputRemoteOperator</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputRemoteOperator</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputRemoteOperator</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>RemoteOperator for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5810" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a25ead93f38e596f54268fab0ac63a09e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, Streams const &amp;f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Streams" kindref="compound">Streams</ref> const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Streams" kindref="compound">Streams</ref> to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set streams for given output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5813" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a86ba9637ed2ad87246690b2407ce8033" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref></type>
+        <definition>LabelSpace ansys::dpf::OperatorMain::getInputLabelSpace</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputLabelSpace</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputLabelSpace</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Streams" kindref="compound">Streams</ref> for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5817" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a43a96a372b2d64c9a5c6ab871302e795" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1PropertyField" kindref="compound">PropertyField</ref></type>
+        <definition>PropertyField ansys::dpf::OperatorMain::getInputPropertyField</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputPropertyField</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputPropertyField</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Property field for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5820" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a6c877ce71b260e6a540a8cff6bec8acd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>GenericDataContainer</type>
+        <definition>GenericDataContainer ansys::dpf::OperatorMain::getInputGenericDataContainer</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputGenericDataContainer</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputGenericDataContainer</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>GenericDataContainer for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5823" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1af71f7f82fe4f93c6f04478256ac2eb13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename CustomContainerT</type>
+          </param>
+        </templateparamlist>
+        <type>CustomContainerT</type>
+        <definition>CustomContainerT ansys::dpf::OperatorMain::getInputCustomContainer</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputCustomContainer</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputCustomContainer</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>GenericDataContainer for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5827" column="18" bodyfile="dpf_api.h" bodystart="5827" bodyend="5830"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1ad682fd9e6639e9c89d0784274f1a57ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, GenericDataContainer const &amp;f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>GenericDataContainer const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] GenericDataContainer to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set GenericDataContainer for given output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5832" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a5582fb7b85a73b4136949e2e052dd9c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename DataT</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classansys_1_1dpf_1_1Collection" kindref="compound">Collection</ref>&lt; DataT &gt;</type>
+        <definition>Collection&lt; DataT &gt; ansys::dpf::OperatorMain::getInputCollection</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputCollection</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputCollection</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Collection" kindref="compound">Collection</ref> for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5837" column="12" bodyfile="dpf_api.h" bodystart="5837" bodyend="5840"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a236945af7413ccdd5dc3d27b9f2321b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename DataT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, Collection&lt; DataT &gt; const &amp;f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Collection" kindref="compound">Collection</ref>&lt; DataT &gt; const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] GenericDataContainer to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set GenericDataContainer for given output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5843" column="6" bodyfile="dpf_api.h" bodystart="5843" bodyend="5848"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a63fd614ba8d92270ce59fdc8ab324ce8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, PropertyField const &amp;f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1PropertyField" kindref="compound">PropertyField</ref> const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] Property field to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set property field for given output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5850" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a6633016f223517320280d747c3f1c5e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, Workflow const &amp;f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>Workflow const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] Property field to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set property field for given output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5854" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a196fa5872ed1efc02c39ce587a6e6946" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, MeshInfo const &amp;f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1MeshInfo" kindref="compound">MeshInfo</ref> const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] Mesh info to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set <ref refid="classansys_1_1dpf_1_1MeshInfo" kindref="compound">MeshInfo</ref> for given output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5858" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1ada3869c02e08864429635fe22b25b1e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, ResultInfo const &amp;f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1ResultInfo" kindref="compound">ResultInfo</ref> const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1ResultInfo" kindref="compound">ResultInfo</ref> to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set <ref refid="classansys_1_1dpf_1_1ResultInfo" kindref="compound">ResultInfo</ref> for given output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5862" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1ad3f323377fdf0b5babb1256a87443ce4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1DataTree" kindref="compound">DataTree</ref></type>
+        <definition>DataTree ansys::dpf::OperatorMain::getInputDataTree</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputDataTree</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputDataTree</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1DataTree" kindref="compound">DataTree</ref> for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5866" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1afc83b5cc7bb1821328a6a1bfb63320ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, DataTree const &amp;f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1DataTree" kindref="compound">DataTree</ref> const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] Meshes container to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set <ref refid="classansys_1_1dpf_1_1DataTree" kindref="compound">DataTree</ref> for given output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5869" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1ac6abb343e3616bb7b312ebfe9cb1e428" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::OperatorMain::getInputString</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputString</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputString</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>String value for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5873" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a604b24756c0ee9f63941e1943ce029ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, std::string const &amp;f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] String value to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set string value for given output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5876" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1ab313f7215443f3bd16dac73d5bbea480" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+        <definition>dp_int ansys::dpf::OperatorMain::getInputInteger</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputInteger</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputInteger</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Integer value for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5880" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a0c74f0785a142a82c33796feaced4542" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, dp_int f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>f</declname>
+          <briefdescription><para>[in] Integer value to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set integer value for given output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5883" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1abc4fb7b5bbd52de48ee5adcfa2d64ff0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref></type>
+        <definition>dp_double ansys::dpf::OperatorMain::getInputDouble</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputDouble</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputDouble</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Double value for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5887" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1ad6d1c029bc239f8b47f7ae34d011a4ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, dp_double f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref></type>
+          <declname>f</declname>
+          <briefdescription><para>[in] Double value to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set double value for given output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5890" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1ad227f6658d46455cc795c0e8e2e26c22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long long int</type>
+        <definition>long long int ansys::dpf::OperatorMain::getInputLongLong</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputLongLong</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputLongLong</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Long long int value for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5894" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a9ddd1af34ae1cc9b0274203471cfadc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, long long int f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>long long int</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] Long long int value to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set long long int value for given output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5897" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a1f0a8b9bfdb1068237ea65e9ced21b4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt; int &gt; ansys::dpf::OperatorMain::getInputVecInt</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputVecInt</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputVecInt</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Vector of integers for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5901" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1accaaa7cf0b5753e3ac603e833df5f79c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt; double &gt; ansys::dpf::OperatorMain::getInputVecDouble</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputVecDouble</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputVecDouble</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Vector of doubles for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5904" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a0655fe1b44a5385e2dbc8ddc4fca8e35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; ansys::dpf::OperatorMain::getInputVecString</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputVecString</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputVecString</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Vector of strings for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5907" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a13cd3ab170883dae7943255b33078cba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, std::vector&lt; int &gt; const &amp;out)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::vector&lt; int &gt; const &amp;</type>
+          <declname>out</declname>
+          <briefdescription><para>[in] Vector of integers to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set vector of integers for given output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5910" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a08c3ec2a45807e4f9e7ca10d7fee867b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, std::vector&lt; double &gt; const &amp;out)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::vector&lt; double &gt; const &amp;</type>
+          <declname>out</declname>
+          <briefdescription><para>[in] Vector of doubles to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set vector of doubles for given output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5914" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1ade2fb9f881cb1a54fb9e916faceb0c93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, std::vector&lt; std::string &gt; const &amp;out)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::vector&lt; std::string &gt; const &amp;</type>
+          <declname>out</declname>
+          <briefdescription><para>[in] Vector of string to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set vector of string for given output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5918" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1af7e999cf3331782b9f4f32ea44f13943" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::OperatorMain::getInputBool</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputBool</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputBool</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Boolean value for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5922" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a5c4409687386e49789787fb0a820723c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, bool f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] Boolean value to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set boolean value for given output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5925" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a0db75afb1a291b9c75c185b2977ff790" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, RemoteWorkflow const &amp;f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>RemoteWorkflow const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] RemoteWorkflow value to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set RemoteWorkflow value for given output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5929" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a965aa20043cdd3046efe469329b4a3ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, RemoteOperator const &amp;f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>RemoteOperator const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] RemoteOperator value to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set RemoteOperator value for given output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5933" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1afa7ec0345810870e285c3c75959b5a89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, Operator const &amp;f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref> const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref> value to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set <ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref> value for given output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5937" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a9bc4f209253ca9846fafeb914e3cc3b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutput</definition>
+        <argsstring>(dp_index pin_index, CustomContainerBase const &amp;f)</argsstring>
+        <name>setOutput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1CustomContainerBase" kindref="compound">CustomContainerBase</ref> const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref> value to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set <ref refid="classansys_1_1dpf_1_1CustomContainerBase" kindref="compound">CustomContainerBase</ref> value for given output pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5941" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a60ddb051be30cee5248dfbb06022bac8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::delegateRun</definition>
+        <argsstring>(Operator op, bool forwardInputs=true)</argsstring>
+        <name>delegateRun</name>
+        <qualifiedname>ansys::dpf::OperatorMain::delegateRun</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref></type>
+          <declname>op</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref> to use. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>forwardInputs</declname>
+          <defval>true</defval>
+          <briefdescription><para>[in] Choose if the input definition of this operator should be given to op. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>run the input op and take its state and outputs as his </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5945" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a2785545db8b85d2c28acb3b7c49dcf50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename DataT</type>
+          </param>
+        </templateparamlist>
+        <type>DataT</type>
+        <definition>DataT ansys::dpf::OperatorMain::getInputCustom</definition>
+        <argsstring>(dp_index pin_index)</argsstring>
+        <name>getInputCustom</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getInputCustom</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to get value. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Typed data for given input pin. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5950" column="7" bodyfile="dpf_api.h" bodystart="5950" bodyend="5960"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1acb04b65ee410b2177d9ada9964f8e560" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename DataT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::setOutputCustom</definition>
+        <argsstring>(dp_index pin_index, DataT const &amp;d)</argsstring>
+        <name>setOutputCustom</name>
+        <qualifiedname>ansys::dpf::OperatorMain::setOutputCustom</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Output pin for which to set value. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>DataT const &amp;</type>
+          <declname>d</declname>
+          <briefdescription><para>[in] Typed data to assign to output pin. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+<para>@ details Set typed data for given output pin. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5963" column="6" bodyfile="dpf_api.h" bodystart="5963" bodyend="5969"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1ab809c466d87ca0abf8c5ac29cd95b724" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename DataT</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool ansys::dpf::OperatorMain::testInput</definition>
+        <argsstring>(dp_int pin_index)</argsstring>
+        <name>testInput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::testInput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to check data type. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Indication that input pin contains typed data. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5972" column="6" bodyfile="dpf_api.h" bodystart="5972" bodyend="5976"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a3d1ca8c9935cc76828f2b436972240c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ansys::dpf::OperatorMain::hasInput</definition>
+        <argsstring>(dp_int pin_index)</argsstring>
+        <name>hasInput</name>
+        <qualifiedname>ansys::dpf::OperatorMain::hasInput</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>pin_index</declname>
+          <briefdescription><para>[in] Input pin for which to check data type. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Indication that input pin exists. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5979" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a642e72de160b2b8d215218bd9a56803a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::OperatorMain::connectAllInputs</definition>
+        <argsstring>(ansys::dpf::Operator &amp;op)</argsstring>
+        <name>connectAllInputs</name>
+        <qualifiedname>ansys::dpf::OperatorMain::connectAllInputs</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">ansys::dpf::Operator</ref> &amp;</type>
+          <declname>op</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref> on which the inputs are connected. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>@ connects all inputs connected to this operatorMain instance to another <ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5984" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1ace0b6f848fb1a996d0d9162b95828b37" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ansys::dpf::OperatorMain::operatorName</definition>
+        <argsstring>() const</argsstring>
+        <name>operatorName</name>
+        <qualifiedname>ansys::dpf::OperatorMain::operatorName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref> name used to record. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5988" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a2d0b48ea7dae01f583ebf30993c491c1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1OperatorConfig" kindref="compound">OperatorConfig</ref></type>
+        <definition>OperatorConfig ansys::dpf::OperatorMain::config</definition>
+        <argsstring>() const</argsstring>
+        <name>config</name>
+        <qualifiedname>ansys::dpf::OperatorMain::config</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The <ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref> Config used to create this operator. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5991" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1OperatorMain_1a5c2957fff4ff41671e98489faf5530ee" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ansys::dpf::OperatorMain::getNumThreads</definition>
+        <argsstring>() const</argsstring>
+        <name>getNumThreads</name>
+        <qualifiedname>ansys::dpf::OperatorMain::getNumThreads</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Number of threads in the config for parallel runs. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="5994" column="5"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="dpf_api.h" line="5656" column="1" bodyfile="dpf_api.h" bodystart="5657" bodyend="6000"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1acb8726b7e640c4bd1ec7c04537879852" prot="private" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>_api</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a0e7644ca811a4f2c1e76d9bc5cf0cc7b" prot="private" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>_operator_data</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1add661774aa6a7c9469658c0de35315d0" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>assertInstantiateInternalOperator</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1ae81c8de98b06a16bd4f854fdff74f018" prot="private" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>callAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a2d0b48ea7dae01f583ebf30993c491c1" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>config</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a642e72de160b2b8d215218bd9a56803a" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>connectAllInputs</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a60ddb051be30cee5248dfbb06022bac8" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>delegateRun</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1abe5ead4b53e3ad711a83f213a9c08639" prot="private" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getExternalInput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a0fa415e6d731d27d4913a11aaed43f49" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1ad28e17d0d720aa99a30bce78623963fc" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputAsAny</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1af7e999cf3331782b9f4f32ea44f13943" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputBool</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a5582fb7b85a73b4136949e2e052dd9c3" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputCollection</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a2785545db8b85d2c28acb3b7c49dcf50" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputCustom</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1af71f7f82fe4f93c6f04478256ac2eb13" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputCustomContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a0dece5ce4416019ac4e9b9c11f68e94d" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputCustomTypeField</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1abd1fe113136cd2f5e8ecfb8ee0b58161" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputCustomTypeFieldsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a606d8d839ffcfa815775cb2ecfb0e7d2" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputDataSources</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1ad3f323377fdf0b5babb1256a87443ce4" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputDataTree</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1abc4fb7b5bbd52de48ee5adcfa2d64ff0" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputDouble</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a064e47615a3d7beb23ee8ab9f589844e" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputField</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1ae3a8077aa63c688e42dbe707a5bbe320" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputFieldsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a6c877ce71b260e6a540a8cff6bec8acd" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputGenericDataContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1ab313f7215443f3bd16dac73d5bbea480" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputInteger</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a86ba9637ed2ad87246690b2407ce8033" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputLabelSpace</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1ad227f6658d46455cc795c0e8e2e26c22" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputLongLong</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1abf3941daef165cb449d4159b106a23fd" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputMeshedRegion</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a33d2b9d8e6408e42547340f056fdecee" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputMeshesContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a0fb8663005dd50e7aff666a463d7064c" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputOperator</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a43a96a372b2d64c9a5c6ab871302e795" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputPropertyField</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1ae32da62d193560071bd7ca1611d66907" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputRemoteOperator</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1ae34c524e2c7127c7aab5e54a68e8960c" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputRemoteWorkflow</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a5e80bfe0c525bb6d590ce5284a87505e" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputScoping</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a625cc21a2e7ab6ef0b9f28b29a3d7225" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputScopingsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1aefd22c45d42ee27cf4ec00cc68ae7063" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputStreams</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1ac6abb343e3616bb7b312ebfe9cb1e428" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputString</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a16741789fff23ceca3d49d71a2c5e9d4" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputStringField</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1abd71f83c649a04e7f2f7813384255f29" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a772955b40f867d944a2420934a969e92" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputTimeFreqSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1accaaa7cf0b5753e3ac603e833df5f79c" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputVecDouble</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a1f0a8b9bfdb1068237ea65e9ced21b4d" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputVecInt</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a0655fe1b44a5385e2dbc8ddc4fca8e35" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputVecString</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1ab7c167dbd3257b0683906edc2cc27a65" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getInputWorkflow</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a041b07a72607c574cd81a878f9e16e41" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getNumInputs</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a5c2957fff4ff41671e98489faf5530ee" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>getNumThreads</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a3d1ca8c9935cc76828f2b436972240c9" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>hasInput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a6efbfb4f07c70652b0452b02aba5d191" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>instantiateInternalOperator</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a73bd258c47179a6e11f56e197d5da68a" prot="private" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>internalGetInput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a56d4246cf9e4bcd37ad15cad0c536f12" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a07aa4deac34a41322c3b8bbac87850b5" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a98d2a29a3512ba6a7085b5be9c2c83a6" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>OperatorMain</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a61cbe081b1999638a8f67439bca744a7" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>OperatorMain</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a51f50c2a6f6759adea826dc5f17dfe54" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>OperatorMain</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1ace0b6f848fb1a996d0d9162b95828b37" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>operatorName</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a62abf633861afbb9d51f808475b4f4ad" prot="private" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>pinIsOfType</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a9079e083b95ac830b07dec4430fea7e1" prot="private" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setExternalOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a2713857554e10c8428b7fe9b59f3fe73" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setFailed</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a3f3c8dec090d9245f26c9386263b092f" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1aed3bf969910e32998e557fe3986f6f16" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a741f2b8ee79bb443e70e76f27f8c56b8" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a58ce65919ca30cbf0eac87e91b4183bd" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a39fe05de2bdb90d0a326f70b2778a563" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a87f0ef2382c30a7bb01d5eae12f2a443" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1adae5dd8d5b025dcafe46ec1c55355a4c" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a6d87280a68b4b87072d15782e19c3bca" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a7a203e0881a74550d69e4781923b5ee4" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a94dc906d6bdef04d5099e8f26286bed8" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a27f845f17e0e02d6d80e44824be759bd" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1aad8340269a65030512992a8bdf25dbd3" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a80d2f38c08cdba89814cf54f090fa150" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a25ead93f38e596f54268fab0ac63a09e" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1ad682fd9e6639e9c89d0784274f1a57ae" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a236945af7413ccdd5dc3d27b9f2321b0" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a63fd614ba8d92270ce59fdc8ab324ce8" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a6633016f223517320280d747c3f1c5e9" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a196fa5872ed1efc02c39ce587a6e6946" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1ada3869c02e08864429635fe22b25b1e8" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1afc83b5cc7bb1821328a6a1bfb63320ae" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a604b24756c0ee9f63941e1943ce029ad" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a0c74f0785a142a82c33796feaced4542" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1ad6d1c029bc239f8b47f7ae34d011a4ad" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a9ddd1af34ae1cc9b0274203471cfadc6" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a13cd3ab170883dae7943255b33078cba" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a08c3ec2a45807e4f9e7ca10d7fee867b" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1ade2fb9f881cb1a54fb9e916faceb0c93" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a5c4409687386e49789787fb0a820723c" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a0db75afb1a291b9c75c185b2977ff790" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a965aa20043cdd3046efe469329b4a3ed" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1afa7ec0345810870e285c3c75959b5a89" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1a9bc4f209253ca9846fafeb914e3cc3b9" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1acb04b65ee410b2177d9ada9964f8e560" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setOutputCustom</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1ad15e8335f3550537fcf0282654c98aca" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>setSuccessed</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1ab809c466d87ca0abf8c5ac29cd95b724" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>testInput</name></member>
+      <member refid="classansys_1_1dpf_1_1OperatorMain_1aa797695c15b7a5504a4743331e413738" prot="public" virt="non-virtual"><scope>ansys::dpf::OperatorMain</scope><name>~OperatorMain</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

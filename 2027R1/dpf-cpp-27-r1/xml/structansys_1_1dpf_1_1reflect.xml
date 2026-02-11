@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="structansys_1_1dpf_1_1reflect" kind="struct" language="C++" prot="public">
+    <compoundname>ansys::dpf::reflect</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename DpfTypeT</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structansys_1_1dpf_1_1reflect_1a11b504a62655742daf4ed79b1d9f403a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>static std::string ansys::dpf::reflect&lt; DpfTypeT &gt;::type_name</definition>
+        <argsstring>()</argsstring>
+        <name>type_name</name>
+        <qualifiedname>ansys::dpf::reflect::type_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="64" column="20" bodyfile="dpf_api_base.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="dpf_api_base.h" line="62" column="1" bodyfile="dpf_api_base.h" bodystart="63" bodyend="65"/>
+    <listofallmembers>
+      <member refid="structansys_1_1dpf_1_1reflect_1a11b504a62655742daf4ed79b1d9f403a" prot="public" virt="non-virtual"><scope>ansys::dpf::reflect</scope><name>type_name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

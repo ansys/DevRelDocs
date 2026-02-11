@@ -1,0 +1,628 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1CustomTypeFieldsContainer" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::CustomTypeFieldsContainer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ansys::dpf::CollectionBase</basecompoundref>
+    <includes local="no">dpf_api.h</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a33ff3f826991522d2e77c1c523f33e19" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Operator</definition>
+        <argsstring></argsstring>
+        <name>Operator</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::Operator</qualifiedname>
+        <param>
+          <type>Operator</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3195" column="22" bodyfile="dpf_api.h" bodystart="3195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1afa07847c7cb432b260e61a0c18025ba3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Workflow</definition>
+        <argsstring></argsstring>
+        <name>Workflow</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::Workflow</qualifiedname>
+        <param>
+          <type>Workflow</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3196" column="22" bodyfile="dpf_api.h" bodystart="3196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a81d95df60edf516a1de9878b780f8fb3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class OperatorMain</definition>
+        <argsstring></argsstring>
+        <name>OperatorMain</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::OperatorMain</qualifiedname>
+        <param>
+          <type>OperatorMain</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3197" column="14" bodyfile="dpf_api.h" bodystart="3197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a9820c685b67a3355c042bb0b3365d9e2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Any</definition>
+        <argsstring></argsstring>
+        <name>Any</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::Any</qualifiedname>
+        <param>
+          <type>Any</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3198" column="14" bodyfile="dpf_api.h" bodystart="3198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1af891ea2ca8eebe3679e051763ba989ce" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class CollectionBase</definition>
+        <argsstring></argsstring>
+        <name>CollectionBase</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::CollectionBase</qualifiedname>
+        <param>
+          <type>CollectionBase</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3199" column="14" bodyfile="dpf_api.h" bodystart="3199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1acc06c4380c923e11af63f95e97c3c259" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class GenericDataContainer</definition>
+        <argsstring></argsstring>
+        <name>GenericDataContainer</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::GenericDataContainer</qualifiedname>
+        <param>
+          <type>GenericDataContainer</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3200" column="14" bodyfile="dpf_api.h" bodystart="3200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1af764561c544bacc1b90b526ee8d3c708" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class core</definition>
+        <argsstring></argsstring>
+        <name>core</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::core</qualifiedname>
+        <param>
+          <type>core</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3201" column="14" bodyfile="dpf_api.h" bodystart="3201" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a97cf1417d7aa10b28c866d7631d37b5f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::CustomTypeFieldsContainer::CustomTypeFieldsContainer</definition>
+        <argsstring>(opaque::DpfInternalSharedObject *)</argsstring>
+        <name>CustomTypeFieldsContainer</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::CustomTypeFieldsContainer</qualifiedname>
+        <param>
+          <type>opaque::DpfInternalSharedObject *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3203" column="1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a43fb73f6e8e6bdbc109777f5a42e39f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::CustomTypeFieldsContainer::CustomTypeFieldsContainer</definition>
+        <argsstring>()</argsstring>
+        <name>CustomTypeFieldsContainer</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::CustomTypeFieldsContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3206" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a931ed37182b866a94576dda67fde3265" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ansys::dpf::CustomTypeFieldsContainer::~CustomTypeFieldsContainer</definition>
+        <argsstring>()</argsstring>
+        <name>~CustomTypeFieldsContainer</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::~CustomTypeFieldsContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3207" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a43cc23b4378cbda69c2df6b40351e20c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::CustomTypeFieldsContainer::CustomTypeFieldsContainer</definition>
+        <argsstring>(CustomTypeFieldsContainer const &amp;)</argsstring>
+        <name>CustomTypeFieldsContainer</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::CustomTypeFieldsContainer</qualifiedname>
+        <param>
+          <type>CustomTypeFieldsContainer const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3208" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a7d3eff103026eee8324abdf0874b9bc1" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::CustomTypeFieldsContainer::CustomTypeFieldsContainer</definition>
+        <argsstring>(CustomTypeFieldsContainer &amp;&amp;) noexcept</argsstring>
+        <name>CustomTypeFieldsContainer</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::CustomTypeFieldsContainer</qualifiedname>
+        <param>
+          <type>CustomTypeFieldsContainer &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3209" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a6549470b067faacff7505e4304d80da5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::CustomTypeFieldsContainer::CustomTypeFieldsContainer</definition>
+        <argsstring>(std::vector&lt; std::string &gt; const &amp;labels)</argsstring>
+        <name>CustomTypeFieldsContainer</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::CustomTypeFieldsContainer</qualifiedname>
+        <param>
+          <type>std::vector&lt; std::string &gt; const &amp;</type>
+          <declname>labels</declname>
+          <briefdescription><para>[in] Labels for group of CustomTypeFields. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create container for a group of CustomTypeFields with the given labels. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3211" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1aab7913584ae5fbd3ad88e74d1ce9ca10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>CustomTypeFieldsContainer &amp;</type>
+        <definition>CustomTypeFieldsContainer &amp; ansys::dpf::CustomTypeFieldsContainer::operator=</definition>
+        <argsstring>(CustomTypeFieldsContainer const &amp;)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::operator=</qualifiedname>
+        <param>
+          <type>CustomTypeFieldsContainer const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3213" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a5ce7b298bcd14b03d2c620934c8d9f55" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>CustomTypeFieldsContainer &amp;</type>
+        <definition>CustomTypeFieldsContainer &amp; ansys::dpf::CustomTypeFieldsContainer::operator=</definition>
+        <argsstring>(CustomTypeFieldsContainer &amp;&amp;) noexcept</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::operator=</qualifiedname>
+        <param>
+          <type>CustomTypeFieldsContainer &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3214" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a78e5486305d5d2330143a82e3ab1cd64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref></type>
+        <definition>CustomTypeField ansys::dpf::CustomTypeFieldsContainer::operator[]</definition>
+        <argsstring>(dp_int index)</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::operator[]</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>index</declname>
+          <briefdescription><para>[in] Index of CustomTypeFields within container. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref> for given index. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3217" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a2bb825ef745028ae124723664d1721f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref></type>
+        <definition>CustomTypeField ansys::dpf::CustomTypeFieldsContainer::at</definition>
+        <argsstring>(dp_index index)</argsstring>
+        <name>at</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::at</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>index</declname>
+          <briefdescription><para>[in] Index of <ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref> to get. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>CustomTypeFields for given index. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3220" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a0d85df941eb94304aa713f31c203f6cb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref></type>
+        <definition>const CustomTypeField ansys::dpf::CustomTypeFieldsContainer::at</definition>
+        <argsstring>(dp_index index) const</argsstring>
+        <name>at</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::at</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>index</declname>
+          <briefdescription><para>[in] Index of <ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref> to get. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>CustomTypeFields for given index. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3223" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1ad6cd99e2c5c073ff3709c17657e59f0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::CustomTypeFieldsContainer::update</definition>
+        <argsstring>(CustomTypeField &amp;f, dp_index index)</argsstring>
+        <name>update</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::update</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref> &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] New <ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref>. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>index</declname>
+          <briefdescription><para>[in] Index of <ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref> to update. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update a <ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref> at index. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3226" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a85eb626dd45ca5e3a1a8347ca73bdf59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::CustomTypeFieldsContainer::add</definition>
+        <argsstring>(LabelSpace const &amp;labels, CustomTypeField const &amp;f, bool can_replace=true)</argsstring>
+        <name>add</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::add</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> const &amp;</type>
+          <declname>labels</declname>
+          <briefdescription><para>[in] <ref refid="structansys_1_1dpf_1_1Label" kindref="compound">Label</ref> space for <ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref>. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref> const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref> to add. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>can_replace</declname>
+          <defval>true</defval>
+          <briefdescription><para>[in] if can_replace is false, then, the entity is pushed back without checking if the label space already exists. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add <ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref> with given label space. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3230" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a0c526ddb5e50c14c564b2c68ece091e4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+        <definition>dp_int ansys::dpf::CustomTypeFieldsContainer::getSizeFor</definition>
+        <argsstring>(LabelSpace const &amp;label_space) const</argsstring>
+        <name>getSizeFor</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::getSizeFor</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> const &amp;</type>
+          <declname>label_space</declname>
+          <briefdescription><para>[in] <ref refid="structansys_1_1dpf_1_1Label" kindref="compound">Label</ref> space for which to get number of entities. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Number of CustomTypeFields for given label space. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3235" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a43329515b1faf96f24540fb28876d9c9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref> &gt;</type>
+        <definition>std::vector&lt; CustomTypeField &gt; ansys::dpf::CustomTypeFieldsContainer::getCustomTypeFields</definition>
+        <argsstring>(LabelSpace const &amp;label_space) const</argsstring>
+        <name>getCustomTypeFields</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::getCustomTypeFields</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> const &amp;</type>
+          <declname>label_space</declname>
+          <briefdescription><para>[in] <ref refid="structansys_1_1dpf_1_1Label" kindref="compound">Label</ref> space for which to get CustomTypeFields. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Vector of CustomTypeFields for given label space. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3238" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1afbb394c6a1124f023188c0fde3f77d3c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref></type>
+        <definition>CustomTypeField ansys::dpf::CustomTypeFieldsContainer::getCustomTypeField</definition>
+        <argsstring>(LabelSpace const &amp;label_space) const</argsstring>
+        <name>getCustomTypeField</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::getCustomTypeField</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> const &amp;</type>
+          <declname>label_space</declname>
+          <briefdescription><para>[in] <ref refid="structansys_1_1dpf_1_1Label" kindref="compound">Label</ref> space for which to get <ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref>. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>First <ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref> for given label space. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3241" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1aff4531367a6abed9b9884db0f49c519a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt; int &gt; ansys::dpf::CustomTypeFieldsContainer::getCustomTypeFieldsIndices</definition>
+        <argsstring>(LabelSpace const &amp;lab_space) const</argsstring>
+        <name>getCustomTypeFieldsIndices</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::getCustomTypeFieldsIndices</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> const &amp;</type>
+          <declname>lab_space</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3243" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a9a2fc0eca540a4ee8fc7682302093110" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref></type>
+        <definition>CustomTypeField ansys::dpf::CustomTypeFieldsContainer::getMatchingCustomTypeField</definition>
+        <argsstring>(LabelSpace const &amp;label_space) const</argsstring>
+        <name>getMatchingCustomTypeField</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::getMatchingCustomTypeField</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> const &amp;</type>
+          <declname>label_space</declname>
+          <briefdescription><para>[in] <ref refid="structansys_1_1dpf_1_1Label" kindref="compound">Label</ref> space for which to get <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref>. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>First matching <ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref> for given label space. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3245" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a15fe40c6913c4df3853af4bee4d6375b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1DpfVector" kindref="compound">DpfVector</ref>&lt; <ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref> &gt;</type>
+        <definition>DpfVector&lt; dp_index &gt; ansys::dpf::CustomTypeFieldsContainer::getMatchingCustomTypeFieldIndices</definition>
+        <argsstring>(LabelSpace const &amp;label_space) const</argsstring>
+        <name>getMatchingCustomTypeFieldIndices</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::getMatchingCustomTypeFieldIndices</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> const &amp;</type>
+          <declname>label_space</declname>
+          <briefdescription><para>[in] <ref refid="structansys_1_1dpf_1_1Label" kindref="compound">Label</ref> space for which to get entries. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Vector of matching <ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref> to the given label space. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3248" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a163d49e339c1df1dea9271f591f52ade" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>CustomTypeFieldsContainer</type>
+        <definition>CustomTypeFieldsContainer ansys::dpf::CustomTypeFieldsContainer::createSubCustomTypeFieldsContainer</definition>
+        <argsstring>(LabelSpace const &amp;lab_space) const</argsstring>
+        <name>createSubCustomTypeFieldsContainer</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::createSubCustomTypeFieldsContainer</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> const &amp;</type>
+          <declname>lab_space</declname>
+        </param>
+        <briefdescription>
+<para>create a <ref refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer" kindref="compound">CustomTypeFieldsContainer</ref> with all the CustomTypeFields corresponding to the label space in input </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3251" column="35"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a0c1698f9c74ae209656e11454723670d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>CustomTypeFieldsContainer</type>
+        <definition>static CustomTypeFieldsContainer ansys::dpf::CustomTypeFieldsContainer::emptyCustomTypeFieldsContainer</definition>
+        <argsstring>()</argsstring>
+        <name>emptyCustomTypeFieldsContainer</name>
+        <qualifiedname>ansys::dpf::CustomTypeFieldsContainer::emptyCustomTypeFieldsContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create an empty container. <simplesect kind="return"><para>Empty container. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3255" column="42"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Contains a group of custom type fields. The <ref refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer" kindref="compound">CustomTypeFieldsContainer</ref> is designed as a set of custom type fields ordered through labels and ids. Labels identify how the fields are filtered. <simplesect kind="see"><para><ref refid="classansys_1_1dpf_1_1CustomTypeField" kindref="compound">CustomTypeField</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="group__group__12" kindref="compound">Using collections and labels</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="dpf_api.h" line="3193" column="5" bodyfile="dpf_api.h" bodystart="3194" bodyend="3257"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a85eb626dd45ca5e3a1a8347ca73bdf59" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>add</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a623a0b168512a4621fb7af8084f9872b" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>addLabel</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1ac6ce7bc876d6a94a97996d5febba5116" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>addLabel</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1ae97480559c14c59e830559582c1f2cd5" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>addLabels</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a2bb825ef745028ae124723664d1721f0" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>at</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a0d85df941eb94304aa713f31c203f6cb" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>at</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1aea34d37e0c080126eff70db34bf46597" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>callAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a163d49e339c1df1dea9271f591f52ade" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>createSubCustomTypeFieldsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a97cf1417d7aa10b28c866d7631d37b5f" prot="private" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>CustomTypeFieldsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a43fb73f6e8e6bdbc109777f5a42e39f6" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>CustomTypeFieldsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a43cc23b4378cbda69c2df6b40351e20c" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>CustomTypeFieldsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a7d3eff103026eee8324abdf0874b9bc1" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>CustomTypeFieldsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a6549470b067faacff7505e4304d80da5" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>CustomTypeFieldsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9977945710983bc03d2940fa007847b2" prot="public" virt="virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>describe</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459" prot="public" virt="virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>empty</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a0c1698f9c74ae209656e11454723670d" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>emptyCustomTypeFieldsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a968afd9daa0b0f13b65a2ac61369d73a" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>getClient</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1afbb394c6a1124f023188c0fde3f77d3c" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>getCustomTypeField</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a43329515b1faf96f24540fb28876d9c9" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>getCustomTypeFields</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1aff4531367a6abed9b9884db0f49c519a" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>getCustomTypeFieldsIndices</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a66d62492d07889a95a5d10f9d827cd11" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>getLabelSpace</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a9a2fc0eca540a4ee8fc7682302093110" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>getMatchingCustomTypeField</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a15fe40c6913c4df3853af4bee4d6375b" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>getMatchingCustomTypeFieldIndices</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a0c526ddb5e50c14c564b2c68ece091e4" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>getSizeFor</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a1a5634202c15404b6b24e8f50e51cb66" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>hasBeenMovedLocally</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ae198f89868d85c7db6dc1a934a1d3c15" prot="public" virt="virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>hasInternalObject</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a82ac9433fd3963b37b07989ef05de331" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>hasLabel</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a5e8d2dd8b9b6cf273985ce3ead392830" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>id</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9f9789ff61cc9d400a2a344830706b73" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>isOnCommonAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1aa64d5f8fcd7d85ad6ebf708494dbefd7" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>isSameObject</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a2c1bb3718e1a96d3f40b64794eb25f91" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>labels</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1ac61aef82ffe249c95dd10cf40de7c910" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>labelScoping</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a691450ab7c89db80f39d6bb2d10eace4" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>name</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1aab7913584ae5fbd3ad88e74d1ce9ca10" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a5ce7b298bcd14b03d2c620934c8d9f55" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a78e5486305d5d2330143a82e3ab1cd64" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>operator[]</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a98ab98c9a6b91b886fd600ed7d9e633b" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>reserve</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1ac88664d3e1d22abb74a95c8223b1e771" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>resize</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a93ebbfe9396dd1c4f447e799db6cbf3b" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>setId</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a44394f964c6130dcbaed446cec3b0197" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>setName</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1ae6f7683496d153ed944856d42b97dc82" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>setSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1ada2a037068417557fd7d410577a7fbb9" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>setSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a69e6878d2d691807f8a45ddfbda42f9e" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>size</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a9830a03b992af391bf03acad90eac372" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>support</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1ad6cd99e2c5c073ff3709c17657e59f0f" prot="public" virt="non-virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>update</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a99e04439d35f26b89f4d66813d74035b" prot="public" virt="virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>~CollectionBase</name></member>
+      <member refid="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a931ed37182b866a94576dda67fde3265" prot="public" virt="virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>~CustomTypeFieldsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ab7c83b6ea160c2b115e056f6c312112f" prot="public" virt="virtual"><scope>ansys::dpf::CustomTypeFieldsContainer</scope><name>~DpfTypes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

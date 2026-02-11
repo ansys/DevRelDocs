@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="structansys_1_1dpf_1_1internal_1_1set__prop" kind="struct" language="C++" prot="public">
+    <compoundname>ansys::dpf::internal::set_prop</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>typename isBaseOfDpfTypes</type>
+        <defval>typename std::is_base_of&lt;<ref refid="classansys_1_1dpf_1_1DpfTypes" kindref="compound">DpfTypes</ref>, T&gt;::type</defval>
+      </param>
+      <param>
+        <type>typename isBaseOfCustomContainerBase</type>
+        <defval>typename std::is_base_of&lt;<ref refid="classansys_1_1dpf_1_1CustomContainerBase" kindref="compound">CustomContainerBase</ref>, T&gt;::type</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structansys_1_1dpf_1_1internal_1_1set__prop_1af74a2e86cec206896b0ddd37ad20c254" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::internal::set_prop&lt; T, isBaseOfDpfTypes, isBaseOfCustomContainerBase &gt;::internalSetProperty</definition>
+        <argsstring>(GenericDataContainer &amp;gdc, const std::string &amp;property_name, const T &amp;property)</argsstring>
+        <name>internalSetProperty</name>
+        <qualifiedname>ansys::dpf::internal::set_prop::internalSetProperty</qualifiedname>
+        <param>
+          <type>GenericDataContainer &amp;</type>
+          <declname>gdc</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>property_name</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2713" column="13" bodyfile="dpf_api.h" bodystart="7062" bodyend="7064"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1internal_1_1set__prop_1a0c674593940be72e72528aaaf9cf5243" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::internal::set_prop&lt; T, isBaseOfDpfTypes, isBaseOfCustomContainerBase &gt;::internalAddEntry</definition>
+        <argsstring>(Collection&lt; T &gt; &amp;collection, LabelSpace const &amp;labels, T const &amp;f, bool can_replace)</argsstring>
+        <name>internalAddEntry</name>
+        <qualifiedname>ansys::dpf::internal::set_prop::internalAddEntry</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Collection" kindref="compound">Collection</ref>&lt; T &gt; &amp;</type>
+          <declname>collection</declname>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> const &amp;</type>
+          <declname>labels</declname>
+        </param>
+        <param>
+          <type>T const &amp;</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>can_replace</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2715" column="13" bodyfile="dpf_api.h" bodystart="7066" bodyend="7068"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="dpf_api.h" line="2711" column="1" bodyfile="dpf_api.h" bodystart="2712" bodyend="2716"/>
+    <listofallmembers>
+      <member refid="structansys_1_1dpf_1_1internal_1_1set__prop_1a0c674593940be72e72528aaaf9cf5243" prot="public" virt="non-virtual"><scope>ansys::dpf::internal::set_prop</scope><name>internalAddEntry</name></member>
+      <member refid="structansys_1_1dpf_1_1internal_1_1set__prop_1af74a2e86cec206896b0ddd37ad20c254" prot="public" virt="non-virtual"><scope>ansys::dpf::internal::set_prop</scope><name>internalSetProperty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

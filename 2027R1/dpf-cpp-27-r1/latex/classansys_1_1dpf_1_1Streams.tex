@@ -1,0 +1,156 @@
+\doxysection{ansys::\+dpf::\+Streams Class Reference}
+\hypertarget{classansys_1_1dpf_1_1Streams}{}\label{classansys_1_1dpf_1_1Streams}\index{ansys::dpf::Streams@{ansys::dpf::Streams}}
+
+
+Defines an open, ready-\/to-\/use, data sources.  
+
+
+
+
+{\ttfamily \+\#include $<$dpf\+\_\+api.\+h$>$}
+
+Inheritance diagram for ansys::\+dpf::\+Streams:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classansys_1_1dpf_1_1Streams}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Streams_a8260b408904e6e11e24e2cf1ca3f7bd2}{Streams}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1DataSources}{Data\+Sources}} const \&data\+Sources, bool open\+\_\+files=false)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Streams_a2d3487cb883138358d6e0cc76bb71974}\label{classansys_1_1dpf_1_1Streams_a2d3487cb883138358d6e0cc76bb71974} 
+{\bfseries Streams} (Streams const \&)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Streams_a4e584cc75bc6d32cd768005451643ef9}\label{classansys_1_1dpf_1_1Streams_a4e584cc75bc6d32cd768005451643ef9} 
+{\bfseries Streams} (Streams \&\&) noexcept
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Streams_a24c07bb8c759f0a8b2cacd44af9ac929}{Streams}} (int id, Client const \texorpdfstring{$\ast$}{*}const client)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Streams_a6f88f1efa7e63cf70d4998621697d182}\label{classansys_1_1dpf_1_1Streams_a6f88f1efa7e63cf70d4998621697d182} 
+Streams \& {\bfseries operator=} (Streams const \&)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Streams_ac8a81b6a8f8ffbf11c3d86cbe54f6c78}\label{classansys_1_1dpf_1_1Streams_ac8a81b6a8f8ffbf11c3d86cbe54f6c78} 
+Streams \& {\bfseries operator=} (Streams \&\&) noexcept
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1Streams_a959c1869453d29b05a9fe3ce191404fb}{release\+Files}} ()
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1Streams_a13bc16955004519b53af3b0cc4ab613a}{add\+Stream}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1ExternalStream}{External\+Stream}} \texorpdfstring{$\ast$}{*}stream)
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1Streams_a6451cbe0726b6ab1da471b7bda20fabb}{add\+Stream}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1ExternalStream}{External\+Stream}} \texorpdfstring{$\ast$}{*}stream, Label\+Space const \&identifier)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Streams_a1e1392a7f458c6a150f8cca4b02eb73f}\label{classansys_1_1dpf_1_1Streams_a1e1392a7f458c6a150f8cca4b02eb73f} 
+{\footnotesize template$<$typename External\+Stream\+Type$>$ }\\External\+Stream\+Type \texorpdfstring{$\ast$}{*}const {\bfseries get\+External\+Stream} (std::\+string const \&key) const
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Streams_ab140ed7556c377c5332578fbb5a28a21}\label{classansys_1_1dpf_1_1Streams_ab140ed7556c377c5332578fbb5a28a21} 
+{\footnotesize template$<$typename External\+Stream\+Type$>$ }\\External\+Stream\+Type \texorpdfstring{$\ast$}{*}const {\bfseries get\+External\+Stream} (Label\+Space const \&identifier) const
+\item 
+\Hypertarget{classansys_1_1dpf_1_1Streams_a6cc780b11dc285dab97f73e1cb347872}\label{classansys_1_1dpf_1_1Streams_a6cc780b11dc285dab97f73e1cb347872} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1DataSources}{Data\+Sources}} {\bfseries data\+Sources} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes}{ansys::\+dpf::\+\+Dpf\+Types}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a39cd546c42518e2332be8f287db95459}{empty}} () const
+\item 
+virtual bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_ae198f89868d85c7db6dc1a934a1d3c15}{has\+Internal\+Object}} () const
+\item 
+virtual std::\+string \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a9977945710983bc03d2940fa007847b2}{describe}} () const
+\item 
+so::\+\+API const \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_aea34d37e0c080126eff70db34bf46597}{call\+API}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a9f9789ff61cc9d400a2a344830706b73}{is\+On\+Common\+API}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a968afd9daa0b0f13b65a2ac61369d73a}{get\+Client}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} \&client) const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_a1a5634202c15404b6b24e8f50e51cb66}{has\+Been\+Moved\+Locally}} () const
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfTypes_aa64d5f8fcd7d85ad6ebf708494dbefd7}{is\+Same\+Object}} (Dpf\+Types const \&rhs) const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Streams \doxymbox{\hyperlink{classansys_1_1dpf_1_1Streams_a5bace24c4a163ba13a5aca8fb6f24199}{empty\+Streams}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Defines an open, ready-\/to-\/use, data sources. 
+
+\doxylink{classansys_1_1dpf_1_1Streams}{Streams} is an entity containing the data sources. Once the files in the streams are opened, they stay opened and they keep some data in cache to make the next evaluations faster. To close the files, release the streams. 
+
+\label{doc-constructors}
+\Hypertarget{classansys_1_1dpf_1_1Streams_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classansys_1_1dpf_1_1Streams_a8260b408904e6e11e24e2cf1ca3f7bd2}\index{ansys::dpf::Streams@{ansys::dpf::Streams}!Streams@{Streams}}
+\index{Streams@{Streams}!ansys::dpf::Streams@{ansys::dpf::Streams}}
+\doxysubsubsection{\texorpdfstring{Streams()}{Streams()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Streams_a8260b408904e6e11e24e2cf1ca3f7bd2} 
+ansys::\+dpf::\+\+Streams::\+\+Streams (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1DataSources}{Data\+Sources}} const \&}]{data\+Sources}{, }\item[{bool}]{open\+\_\+files}{ = {\ttfamily false}}\end{DoxyParamCaption})}
+
+Create a stream from given data sources. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em data\+Sources} & Data source from which to create stream.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em open\+\_\+files} & Wether files defined in the data\+Sources are opened at the creation of the \doxylink{classansys_1_1dpf_1_1Streams}{Streams} (default false). \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1Streams_a24c07bb8c759f0a8b2cacd44af9ac929}\index{ansys::dpf::Streams@{ansys::dpf::Streams}!Streams@{Streams}}
+\index{Streams@{Streams}!ansys::dpf::Streams@{ansys::dpf::Streams}}
+\doxysubsubsection{\texorpdfstring{Streams()}{Streams()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Streams_a24c07bb8c759f0a8b2cacd44af9ac929} 
+ansys::\+dpf::\+\+Streams::\+\+Streams (\begin{DoxyParamCaption}\item[{int}]{id}{, }\item[{Client const \texorpdfstring{$\ast$}{*}const}]{client}{}\end{DoxyParamCaption})}
+
+Retrieve an existing instance of \doxylink{classansys_1_1dpf_1_1Streams}{Streams} on a server. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em id} & Id of the \doxylink{classansys_1_1dpf_1_1Streams}{Streams} on the server\textquotesingle{}s database.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{classansys_1_1dpf_1_1Streams_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classansys_1_1dpf_1_1Streams_a13bc16955004519b53af3b0cc4ab613a}\index{ansys::dpf::Streams@{ansys::dpf::Streams}!addStream@{addStream}}
+\index{addStream@{addStream}!ansys::dpf::Streams@{ansys::dpf::Streams}}
+\doxysubsubsection{\texorpdfstring{addStream()}{addStream()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Streams_a13bc16955004519b53af3b0cc4ab613a} 
+void ansys::\+dpf::\+\+Streams::\+add\+Stream (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1ExternalStream}{External\+Stream}} \texorpdfstring{$\ast$}{*}}]{stream}{}\end{DoxyParamCaption})}
+
+Add external stream. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em stream} & External stream to add. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1Streams_a6451cbe0726b6ab1da471b7bda20fabb}\index{ansys::dpf::Streams@{ansys::dpf::Streams}!addStream@{addStream}}
+\index{addStream@{addStream}!ansys::dpf::Streams@{ansys::dpf::Streams}}
+\doxysubsubsection{\texorpdfstring{addStream()}{addStream()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Streams_a6451cbe0726b6ab1da471b7bda20fabb} 
+void ansys::\+dpf::\+\+Streams::\+add\+Stream (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1ExternalStream}{External\+Stream}} \texorpdfstring{$\ast$}{*}}]{stream}{, }\item[{Label\+Space const \&}]{identifier}{}\end{DoxyParamCaption})}
+
+Add external stream. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em stream} & External stream to add.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em identifier} & Identifier returned by the data sources. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1Streams_a5bace24c4a163ba13a5aca8fb6f24199}\index{ansys::dpf::Streams@{ansys::dpf::Streams}!emptyStreams@{emptyStreams}}
+\index{emptyStreams@{emptyStreams}!ansys::dpf::Streams@{ansys::dpf::Streams}}
+\doxysubsubsection{\texorpdfstring{emptyStreams()}{emptyStreams()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Streams_a5bace24c4a163ba13a5aca8fb6f24199} 
+Streams ansys::\+dpf::\+\+Streams::\+empty\+Streams (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create an empty streams. \begin{DoxyReturn}{Returns}
+Empty \doxylink{classansys_1_1dpf_1_1Streams}{Streams}. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1Streams_a959c1869453d29b05a9fe3ce191404fb}\index{ansys::dpf::Streams@{ansys::dpf::Streams}!releaseFiles@{releaseFiles}}
+\index{releaseFiles@{releaseFiles}!ansys::dpf::Streams@{ansys::dpf::Streams}}
+\doxysubsubsection{\texorpdfstring{releaseFiles()}{releaseFiles()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1Streams_a959c1869453d29b05a9fe3ce191404fb} 
+void ansys::\+dpf::\+\+Streams::\+release\+Files (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Closes all files and releases file resources. 

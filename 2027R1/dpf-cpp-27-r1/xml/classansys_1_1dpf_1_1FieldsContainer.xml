@@ -1,0 +1,746 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1FieldsContainer" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::FieldsContainer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ansys::dpf::CollectionBase</basecompoundref>
+    <includes local="no">dpf_api.h</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1FieldsContainer_1a33ff3f826991522d2e77c1c523f33e19" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Operator</definition>
+        <argsstring></argsstring>
+        <name>Operator</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::Operator</qualifiedname>
+        <param>
+          <type>Operator</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2917" column="14" bodyfile="dpf_api.h" bodystart="2917" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1FieldsContainer_1afa07847c7cb432b260e61a0c18025ba3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Workflow</definition>
+        <argsstring></argsstring>
+        <name>Workflow</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::Workflow</qualifiedname>
+        <param>
+          <type>Workflow</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2918" column="14" bodyfile="dpf_api.h" bodystart="2918" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1FieldsContainer_1a81d95df60edf516a1de9878b780f8fb3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class OperatorMain</definition>
+        <argsstring></argsstring>
+        <name>OperatorMain</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::OperatorMain</qualifiedname>
+        <param>
+          <type>OperatorMain</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2919" column="14" bodyfile="dpf_api.h" bodystart="2919" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1FieldsContainer_1a9820c685b67a3355c042bb0b3365d9e2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Any</definition>
+        <argsstring></argsstring>
+        <name>Any</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::Any</qualifiedname>
+        <param>
+          <type>Any</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2920" column="14" bodyfile="dpf_api.h" bodystart="2920" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1FieldsContainer_1af891ea2ca8eebe3679e051763ba989ce" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class CollectionBase</definition>
+        <argsstring></argsstring>
+        <name>CollectionBase</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::CollectionBase</qualifiedname>
+        <param>
+          <type>CollectionBase</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2921" column="14" bodyfile="dpf_api.h" bodystart="2921" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1FieldsContainer_1acc06c4380c923e11af63f95e97c3c259" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class GenericDataContainer</definition>
+        <argsstring></argsstring>
+        <name>GenericDataContainer</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::GenericDataContainer</qualifiedname>
+        <param>
+          <type>GenericDataContainer</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2922" column="14" bodyfile="dpf_api.h" bodystart="2922" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1FieldsContainer_1af764561c544bacc1b90b526ee8d3c708" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class core</definition>
+        <argsstring></argsstring>
+        <name>core</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::core</qualifiedname>
+        <param>
+          <type>core</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2923" column="14" bodyfile="dpf_api.h" bodystart="2923" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1FieldsContainer_1a6e2dbd7ed3c00c205066d33c96c3cc4d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::FieldsContainer::FieldsContainer</definition>
+        <argsstring>(opaque::DpfInternalSharedObject *)</argsstring>
+        <name>FieldsContainer</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::FieldsContainer</qualifiedname>
+        <param>
+          <type>opaque::DpfInternalSharedObject *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2926" column="1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1FieldsContainer_1af6a2e4828fd3c8447c0bad7c985b31a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::FieldsContainer::FieldsContainer</definition>
+        <argsstring>()</argsstring>
+        <name>FieldsContainer</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::FieldsContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2929" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1FieldsContainer_1acf61fba680e2cf1bfeefc199751fc8aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::FieldsContainer::FieldsContainer</definition>
+        <argsstring>(Client const *const client)</argsstring>
+        <name>FieldsContainer</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::FieldsContainer</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> const *const</type>
+          <declname>client</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> instance designating the IP, port and protocol to use. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new fields container on a server. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2931" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1FieldsContainer_1ac721796f129c6e8986be8ce5977eefcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::FieldsContainer::FieldsContainer</definition>
+        <argsstring>(Client const *const client, std::vector&lt; std::string &gt; const &amp;labels)</argsstring>
+        <name>FieldsContainer</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::FieldsContainer</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> const *const</type>
+          <declname>client</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> instance designating the IP, port and protocol to use. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::vector&lt; std::string &gt; const &amp;</type>
+          <declname>labels</declname>
+          <briefdescription><para>[in] Labels for fields. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a collection of fields with the given labels on a server. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2934" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1FieldsContainer_1a8f56a88941a626857bb11528368f08e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::FieldsContainer::FieldsContainer</definition>
+        <argsstring>(int id, Client const *const client)</argsstring>
+        <name>FieldsContainer</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::FieldsContainer</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+          <briefdescription><para>[in] Id of the <ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref> object on the server&apos;s database. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> const *const</type>
+          <declname>client</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> instance designating the IP, port and protocol to use. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieve an existing instance of <ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref> on a server. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2938" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1FieldsContainer_1a22e1ed19ab76ad96df74d2084c9ea4f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::FieldsContainer::FieldsContainer</definition>
+        <argsstring>(const std::vector&lt; std::string &gt; &amp;labels)</argsstring>
+        <name>FieldsContainer</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::FieldsContainer</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>labels</declname>
+          <briefdescription><para>[in] Labels for fields. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a collection of fields with the given labels. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2942" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1FieldsContainer_1a784977bc0973ea5711aaf7e3dbddbb5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ansys::dpf::FieldsContainer::~FieldsContainer</definition>
+        <argsstring>()</argsstring>
+        <name>~FieldsContainer</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::~FieldsContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2944" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1FieldsContainer_1a85f22edc2a63a092cf00e9fc839a28e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::FieldsContainer::FieldsContainer</definition>
+        <argsstring>(FieldsContainer const &amp;)</argsstring>
+        <name>FieldsContainer</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::FieldsContainer</qualifiedname>
+        <param>
+          <type>FieldsContainer const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2945" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1FieldsContainer_1abedc3efe1ad10ebdb110da6561a858e8" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::FieldsContainer::FieldsContainer</definition>
+        <argsstring>(FieldsContainer &amp;&amp;) noexcept</argsstring>
+        <name>FieldsContainer</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::FieldsContainer</qualifiedname>
+        <param>
+          <type>FieldsContainer &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2946" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1FieldsContainer_1a8c309f116e976d6270f9e7ccbc320fad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FieldsContainer &amp;</type>
+        <definition>FieldsContainer &amp; ansys::dpf::FieldsContainer::operator=</definition>
+        <argsstring>(FieldsContainer const &amp;)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::operator=</qualifiedname>
+        <param>
+          <type>FieldsContainer const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2947" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1FieldsContainer_1ae1fc1fa17432b002face34b00493093e" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>FieldsContainer &amp;</type>
+        <definition>FieldsContainer &amp; ansys::dpf::FieldsContainer::operator=</definition>
+        <argsstring>(FieldsContainer &amp;&amp;) noexcept</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::operator=</qualifiedname>
+        <param>
+          <type>FieldsContainer &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2948" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1FieldsContainer_1aea6b234cdf457204b5fa9c8e62c7b691" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref></type>
+        <definition>Field ansys::dpf::FieldsContainer::operator[]</definition>
+        <argsstring>(dp_int index)</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::operator[]</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>index</declname>
+          <briefdescription><para>[in] Index of field within container. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get field at index. <simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref> given by index. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2952" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1FieldsContainer_1addfee935e69fe9fb9e0e533449f9a5bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref></type>
+        <definition>Field ansys::dpf::FieldsContainer::at</definition>
+        <argsstring>(dp_index index)</argsstring>
+        <name>at</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::at</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>index</declname>
+          <briefdescription><para>[in] Index of field within container. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get field at index. <simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref> given by index. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2956" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1FieldsContainer_1a475eafcf1caa61c8113d4ea4dbcaa881" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref></type>
+        <definition>const Field ansys::dpf::FieldsContainer::at</definition>
+        <argsstring>(dp_index index) const</argsstring>
+        <name>at</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::at</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>index</declname>
+          <briefdescription><para>[in] Index of field. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get field at index. <simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref> given by index. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2960" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1FieldsContainer_1a9f0704e94d480481e50abd20df33317c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::FieldsContainer::update</definition>
+        <argsstring>(Field &amp;f, dp_index index)</argsstring>
+        <name>update</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::update</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref> &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] New field data. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>index</declname>
+          <briefdescription><para>[in] Index of field within container. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update <ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref> at index </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2963" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1FieldsContainer_1a72def09614e6d238cbb144229f1f1f5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::FieldsContainer::add</definition>
+        <argsstring>(LabelSpace const &amp;lab_space, Field const &amp;f, bool can_replace=true)</argsstring>
+        <name>add</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::add</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> const &amp;</type>
+          <declname>lab_space</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> to which to add <ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref>. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref> const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref> to add to <ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref>. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>can_replace</declname>
+          <defval>true</defval>
+          <briefdescription><para>[in] if can_replace is false, then, the entity is pushed back without checking if the label space already exists. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add <ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref> to <ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2967" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1FieldsContainer_1aaa1bd58f282cf7e3bebb1fd1cfe6adbc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref> &gt;</type>
+        <definition>std::vector&lt; Field &gt; ansys::dpf::FieldsContainer::getFields</definition>
+        <argsstring>(LabelSpace const &amp;lab_space) const</argsstring>
+        <name>getFields</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::getFields</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> const &amp;</type>
+          <declname>lab_space</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> for which to get fields. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Fields given by <ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2973" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1FieldsContainer_1aeb12b6212b016653f1eb325f19a9d1ce" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref></type>
+        <definition>Field ansys::dpf::FieldsContainer::getField</definition>
+        <argsstring>(LabelSpace const &amp;lab_space) const</argsstring>
+        <name>getField</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::getField</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> const &amp;</type>
+          <declname>lab_space</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> for which to get field. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>First <ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref> given by <ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2976" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1FieldsContainer_1a3a8ce9d9bf9a5ad8e4e3efb22d224cef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt; int &gt; ansys::dpf::FieldsContainer::getFieldsIndeces</definition>
+        <argsstring>(LabelSpace const &amp;lab_space) const</argsstring>
+        <name>getFieldsIndeces</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::getFieldsIndeces</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> const &amp;</type>
+          <declname>lab_space</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> defining field for which to get indices. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref> indices for field given by <ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2979" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1FieldsContainer_1a5122abf49c4bab17a4f7350abd5b53bb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref></type>
+        <definition>Field ansys::dpf::FieldsContainer::getMatchingField</definition>
+        <argsstring>(LabelSpace const &amp;label_space) const</argsstring>
+        <name>getMatchingField</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::getMatchingField</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> const &amp;</type>
+          <declname>label_space</declname>
+          <briefdescription><para>[in] <ref refid="structansys_1_1dpf_1_1Label" kindref="compound">Label</ref> space for which to get <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref>. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>First matching <ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref> for given label space. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2982" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1FieldsContainer_1aaeedf76765d3269c083354a462fc7340" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1DpfVector" kindref="compound">DpfVector</ref>&lt; <ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref> &gt;</type>
+        <definition>DpfVector&lt; dp_index &gt; ansys::dpf::FieldsContainer::getMatchingFieldIndices</definition>
+        <argsstring>(LabelSpace const &amp;label_space) const</argsstring>
+        <name>getMatchingFieldIndices</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::getMatchingFieldIndices</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> const &amp;</type>
+          <declname>label_space</declname>
+          <briefdescription><para>[in] <ref refid="structansys_1_1dpf_1_1Label" kindref="compound">Label</ref> space for which to get entries. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Vector of matching <ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref> to the given label space. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2985" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1FieldsContainer_1a45536132d19f7a61af3ff18e660ad8de" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref> &gt;</type>
+        <definition>std::vector&lt; Field &gt; ansys::dpf::FieldsContainer::getFieldsForTimeId</definition>
+        <argsstring>(dp_int time_id, dp_int complex_id=0) const</argsstring>
+        <name>getFieldsForTimeId</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::getFieldsForTimeId</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>time_id</declname>
+          <briefdescription><para>[in] Time Set Id (1 to # of time sets). </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>complex_id</declname>
+          <defval>0</defval>
+          <briefdescription><para>[in] Flag indicating to return imaginary part of result (0 = real part, 1 = imaginary part). </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Real or imaginary (by default real) Fields at given time set. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2988" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1FieldsContainer_1a218a256c1ff051e4c3b9e979f1af3599" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>FieldsContainer</type>
+        <definition>FieldsContainer ansys::dpf::FieldsContainer::createSubFieldsContainer</definition>
+        <argsstring>(LabelSpace const &amp;lab_space) const</argsstring>
+        <name>createSubFieldsContainer</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::createSubFieldsContainer</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> const &amp;</type>
+          <declname>lab_space</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> from which to get fields. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new fields container with all the fields corresponding to the label space in input. <simplesect kind="return"><para>Created fields container. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2993" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1FieldsContainer_1a7292a30f43f3d0276829f2a704569304" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>FieldsContainer</type>
+        <definition>FieldsContainer ansys::dpf::FieldsContainer::deep_copy</definition>
+        <argsstring>(ansys::dpf::Client const *const client=nullptr) const</argsstring>
+        <name>deep_copy</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::deep_copy</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">ansys::dpf::Client</ref> const *const</type>
+          <declname>client</declname>
+          <defval>nullptr</defval>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> instance designating the IP, port and protocol to use. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new <ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref> on a server by copying all the data of this <ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3001" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1FieldsContainer_1af4bcbf19662088a80192c4306e76eab9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FieldsContainer</type>
+        <definition>static FieldsContainer ansys::dpf::FieldsContainer::emptyFieldsContainer</definition>
+        <argsstring>()</argsstring>
+        <name>emptyFieldsContainer</name>
+        <qualifiedname>ansys::dpf::FieldsContainer::emptyFieldsContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create an empty fields container. <simplesect kind="return"><para>Empty <ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="2998" column="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Contains a group of fields. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref> is a group of fields, used mainly in transient, harmonic, modal or multi-steps static analysis, where we can have a field for each time step or for each frequency. Consequently the fields container can describle a complete analysis with all its details.</para>
+<para>The fields container is designed as a set of fields ordered through labels and ids. Labels identify how the fields are filtered. The most common fields container have the label &quot;time&quot; with ids corresponding to each time sets, the label &quot;complex&quot; will allow to separate real parts (id=0) from imaginary parts (id=1) in a harmonic analysis. <simplesect kind="see"><para><ref refid="group__group__12" kindref="compound">Using collections and labels</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="dpf_api.h" line="2915" column="1" bodyfile="dpf_api.h" bodystart="2916" bodyend="3004"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1FieldsContainer_1a72def09614e6d238cbb144229f1f1f5e" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>add</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a623a0b168512a4621fb7af8084f9872b" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>addLabel</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1ac6ce7bc876d6a94a97996d5febba5116" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>addLabel</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1ae97480559c14c59e830559582c1f2cd5" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>addLabels</name></member>
+      <member refid="classansys_1_1dpf_1_1FieldsContainer_1addfee935e69fe9fb9e0e533449f9a5bc" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>at</name></member>
+      <member refid="classansys_1_1dpf_1_1FieldsContainer_1a475eafcf1caa61c8113d4ea4dbcaa881" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>at</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1aea34d37e0c080126eff70db34bf46597" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>callAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1FieldsContainer_1a218a256c1ff051e4c3b9e979f1af3599" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>createSubFieldsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1FieldsContainer_1a7292a30f43f3d0276829f2a704569304" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>deep_copy</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9977945710983bc03d2940fa007847b2" prot="public" virt="virtual"><scope>ansys::dpf::FieldsContainer</scope><name>describe</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459" prot="public" virt="virtual"><scope>ansys::dpf::FieldsContainer</scope><name>empty</name></member>
+      <member refid="classansys_1_1dpf_1_1FieldsContainer_1af4bcbf19662088a80192c4306e76eab9" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>emptyFieldsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1FieldsContainer_1a6e2dbd7ed3c00c205066d33c96c3cc4d" prot="private" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>FieldsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1FieldsContainer_1af6a2e4828fd3c8447c0bad7c985b31a0" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>FieldsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1FieldsContainer_1acf61fba680e2cf1bfeefc199751fc8aa" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>FieldsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1FieldsContainer_1ac721796f129c6e8986be8ce5977eefcc" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>FieldsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1FieldsContainer_1a8f56a88941a626857bb11528368f08e6" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>FieldsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1FieldsContainer_1a22e1ed19ab76ad96df74d2084c9ea4f4" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>FieldsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1FieldsContainer_1a85f22edc2a63a092cf00e9fc839a28e6" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>FieldsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1FieldsContainer_1abedc3efe1ad10ebdb110da6561a858e8" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>FieldsContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a968afd9daa0b0f13b65a2ac61369d73a" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>getClient</name></member>
+      <member refid="classansys_1_1dpf_1_1FieldsContainer_1aeb12b6212b016653f1eb325f19a9d1ce" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>getField</name></member>
+      <member refid="classansys_1_1dpf_1_1FieldsContainer_1aaa1bd58f282cf7e3bebb1fd1cfe6adbc" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>getFields</name></member>
+      <member refid="classansys_1_1dpf_1_1FieldsContainer_1a45536132d19f7a61af3ff18e660ad8de" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>getFieldsForTimeId</name></member>
+      <member refid="classansys_1_1dpf_1_1FieldsContainer_1a3a8ce9d9bf9a5ad8e4e3efb22d224cef" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>getFieldsIndeces</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a66d62492d07889a95a5d10f9d827cd11" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>getLabelSpace</name></member>
+      <member refid="classansys_1_1dpf_1_1FieldsContainer_1a5122abf49c4bab17a4f7350abd5b53bb" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>getMatchingField</name></member>
+      <member refid="classansys_1_1dpf_1_1FieldsContainer_1aaeedf76765d3269c083354a462fc7340" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>getMatchingFieldIndices</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1aab65999d65acb4eab6aa7375266e5456" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>getSizeFor</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a1a5634202c15404b6b24e8f50e51cb66" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>hasBeenMovedLocally</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ae198f89868d85c7db6dc1a934a1d3c15" prot="public" virt="virtual"><scope>ansys::dpf::FieldsContainer</scope><name>hasInternalObject</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a82ac9433fd3963b37b07989ef05de331" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>hasLabel</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a5e8d2dd8b9b6cf273985ce3ead392830" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>id</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9f9789ff61cc9d400a2a344830706b73" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>isOnCommonAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1aa64d5f8fcd7d85ad6ebf708494dbefd7" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>isSameObject</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a2c1bb3718e1a96d3f40b64794eb25f91" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>labels</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1ac61aef82ffe249c95dd10cf40de7c910" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>labelScoping</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a691450ab7c89db80f39d6bb2d10eace4" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>name</name></member>
+      <member refid="classansys_1_1dpf_1_1FieldsContainer_1a8c309f116e976d6270f9e7ccbc320fad" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1FieldsContainer_1ae1fc1fa17432b002face34b00493093e" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1FieldsContainer_1aea6b234cdf457204b5fa9c8e62c7b691" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>operator[]</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a98ab98c9a6b91b886fd600ed7d9e633b" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>reserve</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1ac88664d3e1d22abb74a95c8223b1e771" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>resize</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a93ebbfe9396dd1c4f447e799db6cbf3b" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>setId</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a44394f964c6130dcbaed446cec3b0197" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>setName</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1ae6f7683496d153ed944856d42b97dc82" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>setSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1ada2a037068417557fd7d410577a7fbb9" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>setSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a69e6878d2d691807f8a45ddfbda42f9e" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>size</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a9830a03b992af391bf03acad90eac372" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>support</name></member>
+      <member refid="classansys_1_1dpf_1_1FieldsContainer_1a9f0704e94d480481e50abd20df33317c" prot="public" virt="non-virtual"><scope>ansys::dpf::FieldsContainer</scope><name>update</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a99e04439d35f26b89f4d66813d74035b" prot="public" virt="virtual"><scope>ansys::dpf::FieldsContainer</scope><name>~CollectionBase</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ab7c83b6ea160c2b115e056f6c312112f" prot="public" virt="virtual"><scope>ansys::dpf::FieldsContainer</scope><name>~DpfTypes</name></member>
+      <member refid="classansys_1_1dpf_1_1FieldsContainer_1a784977bc0973ea5711aaf7e3dbddbb5d" prot="public" virt="virtual"><scope>ansys::dpf::FieldsContainer</scope><name>~FieldsContainer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

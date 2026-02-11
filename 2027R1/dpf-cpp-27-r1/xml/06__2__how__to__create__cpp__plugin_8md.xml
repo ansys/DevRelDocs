@@ -1,0 +1,498 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="06__2__how__to__create__cpp__plugin_8md" kind="file" language="Markdown">
+    <compoundname>06_2_how_to_create_cpp_plugin.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal"><sp/>@defgroup<sp/>group_06_2<sp/>Creating<sp/>a<sp/>DPF<sp/>custom<sp/>operator&apos;s<sp/>library</highlight></codeline>
+<codeline><highlight class="normal"><sp/>@ingroup<sp/>group_1_get_started</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>Data<sp/>Processing<sp/>Framework<sp/>(DPF)<sp/>provides<sp/>numerical<sp/>simulation<sp/>users/engineers<sp/>with<sp/>a<sp/>toolbox<sp/>for<sp/>accessing<sp/>and<sp/>transforming<sp/>simulation<sp/>data.<sp/></highlight></codeline>
+<codeline><highlight class="normal">It<sp/>is<sp/>used<sp/>to<sp/>handle<sp/>complex<sp/>pre-<sp/>or<sp/>post-processing<sp/>of<sp/>simulation<sp/>data<sp/>within<sp/>a<sp/>simulation<sp/>workflow.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>DPF,<sp/>**Operators**<sp/>are<sp/>the<sp/>main<sp/>object<sp/>used<sp/>to<sp/>create,<sp/>transform<sp/>and<sp/>stream<sp/>the<sp/>data.<sp/>An<sp/>operator<sp/>is<sp/>composed<sp/>of<sp/>a<sp/>“core”<sp/>that<sp/>handles<sp/>the<sp/>calculation.<sp/></highlight></codeline>
+<codeline><highlight class="normal">It<sp/>receives<sp/>the<sp/>data<sp/>using<sp/>input<sp/>pins,<sp/>applies<sp/>a<sp/>transformation<sp/>and<sp/>makes<sp/>the<sp/>data<sp/>available<sp/>through<sp/>the<sp/>output<sp/>pins<sp/>(think<sp/>of<sp/>an<sp/>integrated<sp/>circuit<sp/>in<sp/>electronics).<sp/></highlight></codeline>
+<codeline><highlight class="normal">See<sp/>the<sp/>@ref<sp/>group_02<sp/>to<sp/>learn<sp/>more.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>Ansys<sp/>2022<sp/>R2<sp/>and<sp/>later,<sp/>you<sp/>can<sp/>create<sp/>custom<sp/>operator&apos;s<sp/>libraries<sp/>in<sp/>C++.<sp/>It<sp/>enables<sp/>to<sp/>access<sp/>custom<sp/>capabilities<sp/>in<sp/>any<sp/>project<sp/></highlight></codeline>
+<codeline><highlight class="normal">that<sp/>is<sp/>using<sp/>DPF.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>guide<sp/>explains<sp/>how<sp/>to<sp/>**create<sp/>and<sp/>compile<sp/>an<sp/>operator&apos;s<sp/>library<sp/>C++<sp/>project**,<sp/>and<sp/>**how<sp/>to<sp/>consume<sp/>it<sp/>in<sp/>another<sp/>C++<sp/>project**.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Pre-requisites</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>order<sp/>to<sp/>use<sp/>DPF<sp/>in<sp/>a<sp/>C++<sp/>project,<sp/>it<sp/>is<sp/>required<sp/>to<sp/>have<sp/>access<sp/>to<sp/>the<sp/>following<sp/>files<sp/>of<sp/>the<sp/>**AWP_ROOT@doc_ansys_ver/dpf/include**<sp/>folder<sp/>(AWP_ROOT@doc_ansys_ver<sp/></highlight></codeline>
+<codeline><highlight class="normal">being<sp/>an<sp/>environment<sp/>variable<sp/>defining<sp/>the<sp/>root<sp/>of<sp/>the<sp/>Ansys<sp/>Inc<sp/>or<sp/>[DPF<sp/>Server](https://dpf.docs.pyansys.com/version/stable/getting_started/dpf_server.html)<sp/>product):</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>dpf_api.h</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>dpf_api_i.cpp<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**DPF_HGP_ROOT<sp/>environment<sp/>variable**<sp/>must<sp/>be<sp/>set<sp/>to<sp/>define<sp/>the<sp/>location<sp/>of<sp/>those<sp/>files<sp/>and<sp/>**must<sp/>be<sp/>set<sp/>to<sp/>follow<sp/>this<sp/>tutorial**.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Here<sp/>is<sp/>the<sp/>command<sp/>for<sp/>Windows:</highlight></codeline>
+<codeline><highlight class="normal">@win_set_hgp_root</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">It<sp/>can<sp/>also<sp/>be<sp/>set<sp/>by<sp/>editing<sp/>the<sp/>environment<sp/>variables<sp/>in<sp/>Windows<sp/>settings.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Here<sp/>is<sp/>the<sp/>command<sp/>for<sp/>Linux:</highlight></codeline>
+<codeline><highlight class="normal">@lin_set_hgp_root</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Moreover<sp/>it<sp/>is<sp/>needed<sp/>to<sp/>have<sp/>compilation<sp/>tools.<sp/>Both<sp/>CMake<sp/>and<sp/>Visual<sp/>Studio<sp/>are<sp/>supported<sp/>for<sp/>project<sp/>management<sp/>and<sp/>compilation.<sp/>Examples<sp/>using<sp/>both<sp/>are<sp/>provided<sp/>in<sp/>the<sp/>following<sp/>sections.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Create<sp/>a<sp/>**DPF_Custom_Operators<sp/>folder**.<sp/>The<sp/>following<sp/>sections<sp/>of<sp/>this<sp/>tutorial<sp/>are<sp/>performed<sp/>from<sp/>this<sp/>folder.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Create<sp/>a<sp/>C++<sp/>Custom<sp/>operator&apos;s<sp/>library</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>section<sp/>details<sp/>the<sp/>C++<sp/>code<sp/>to<sp/>create<sp/>a<sp/>custom<sp/>basic<sp/>operator&apos;s<sp/>library.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>the<sp/>**DPF_Custom_Operators<sp/>folder**<sp/>previously<sp/>created,<sp/>create<sp/>a<sp/>**MyCustomOperator.h**<sp/>file<sp/>with<sp/>the<sp/>following<sp/>content:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">#pragma<sp/>once</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#include<sp/>&quot;dpf_api.h&quot;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#ifndef<sp/>__linux__</highlight></codeline>
+<codeline><highlight class="normal">#define<sp/>CLAYER_DLLEXPORT<sp/>__declspec(dllexport)</highlight></codeline>
+<codeline><highlight class="normal">#else</highlight></codeline>
+<codeline><highlight class="normal">#define<sp/>CLAYER_DLLEXPORT<sp/>__attribute__<sp/>((visibility<sp/>(&quot;default&quot;)))</highlight></codeline>
+<codeline><highlight class="normal">#endif</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">namespace<sp/>custom_operators</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>DPF<sp/>initial<sp/>settings:<sp/>once<sp/>by<sp/>project</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>-------------------------------------</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>struct<sp/>staticData<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>static<sp/>ansys::dpf::LibraryHandle*<sp/>_dpfLibraryHandle;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>extern<sp/>&quot;C&quot;<sp/>CLAYER_DLLEXPORT<sp/>int<sp/>LoadOperators(ansys::dpf::AbstractCore*<sp/>core_ptr);</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>my<sp/>custom<sp/>operator<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>------------------</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>struct<sp/>CustomMessage</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>identify<sp/>the<sp/>operator</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>static<sp/>std::string<sp/>name()<sp/>{<sp/>return<sp/>&quot;custom_message&quot;;<sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>describe<sp/>the<sp/>operator<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>static<sp/>ansys::dpf::OperatorSpecification<sp/>specification()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ansys::dpf::OperatorSpecification<sp/>spec;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spec.setDocumentation(&quot;This<sp/>operator<sp/>displays<sp/>a<sp/>custom<sp/>message<sp/>in<sp/>the<sp/>output<sp/>console.&quot;);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spec.setInputPins(</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ansys::dpf::PinDefinition(0)<sp/>//<sp/>set<sp/>the<sp/>input<sp/>pin<sp/>number</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.setName(&quot;custom_message&quot;)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.setAcceptedTypes({<sp/>ansys::dpf::types::string})</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.setDoc(&quot;Custom<sp/>message<sp/>to<sp/>display<sp/>in<sp/>the<sp/>output<sp/>console&quot;),</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>set<sp/>the<sp/>exposed<sp/>properties<sp/>of<sp/>the<sp/>operator,<sp/>allowing<sp/>documentation<sp/>generation<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spec.setProperty(ansys::dpf::spec::exposure::sExposure,<sp/>ansys::dpf::spec::exposure::sPublic);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spec.setProperty(ansys::dpf::spec::category::sCategory,<sp/>&quot;custom&quot;);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spec.setProperty(ansys::dpf::spec::sUserName,<sp/>&quot;custom<sp/>message&quot;);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>spec;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>define<sp/>the<sp/>data<sp/>computation</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>static<sp/>void<sp/>run(ansys::dpf::OperatorMain&amp;<sp/>main);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>**staticData**<sp/>structure<sp/>allows<sp/>to<sp/>use<sp/>the<sp/>DPF<sp/>capabilities<sp/>and<sp/>must<sp/>be<sp/>incorporated<sp/>only<sp/>once<sp/>per<sp/>project.<sp/></highlight></codeline>
+<codeline><highlight class="normal">The<sp/>**CustomMessage**<sp/>structure<sp/>contains<sp/>all<sp/>the<sp/>implementation<sp/>related<sp/>to<sp/>the<sp/>custom<sp/>operator.<sp/>It<sp/>always<sp/>contains:</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>a<sp/>**name**<sp/>method<sp/>(unique<sp/>identifier)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>a<sp/>**specification**<sp/>method<sp/>which<sp/>defines<sp/>and<sp/>describes<sp/>the<sp/>operator<sp/>inputs,<sp/>outputs<sp/>and<sp/>data<sp/>computation</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>a<sp/>**run**<sp/>method<sp/>which<sp/>contains<sp/>the<sp/>data<sp/>computation<sp/>code</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>the<sp/>**DPF_Custom_Operators<sp/>folder**,<sp/>create<sp/>a<sp/>**MyCustomOperator.cpp**<sp/>file<sp/>with<sp/>the<sp/>following<sp/>content:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">#include<sp/>&quot;MyCustomOperator.h&quot;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#include<sp/>&quot;dpf_api_i.cpp&quot;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">namespace<sp/>custom_operators</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>ansys::dpf::LibraryHandle*<sp/>staticData::_dpfLibraryHandle<sp/>=<sp/>new<sp/>ansys::dpf::LibraryHandle();</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>extern<sp/>&quot;C&quot;<sp/>CLAYER_DLLEXPORT<sp/>int<sp/>LoadOperators(ansys::dpf::AbstractCore*<sp/>core_ptr)<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ansys::dpf::core::recordOperatorAtCore&lt;CustomMessage&gt;(core_ptr);<sp/>//<sp/>record<sp/>the<sp/>operator<sp/>to<sp/>make<sp/>it<sp/>accessible</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>0;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>CustomMessage::run(ansys::dpf::OperatorMain&amp;<sp/>main)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>get<sp/>the<sp/>input<sp/>data</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>to_display<sp/>=<sp/>main.getInputString(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>computes<sp/>the<sp/>data</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;Hello<sp/>world!<sp/>This<sp/>message<sp/>is<sp/>displayed<sp/>from<sp/>a<sp/>DPF<sp/>operator.&quot;<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>to_display.c_str()<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Set<sp/>the<sp/>final<sp/>state<sp/>of<sp/>the<sp/>operator</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>main.setSuccessed();<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">It<sp/>is<sp/>now<sp/>required<sp/>to<sp/>compile<sp/>the<sp/>code.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Compile<sp/>the<sp/>C++<sp/>Custom<sp/>operator&apos;s<sp/>library</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>sections<sp/>details<sp/>the<sp/>compilation<sp/>process<sp/>of<sp/>the<sp/>C++<sp/>code.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Using<sp/>Visual<sp/>Studio<sp/>(Windows<sp/>only)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>the<sp/>**DPF_Custom_Operators<sp/>folder**<sp/>previously<sp/>created,<sp/>create<sp/>a<sp/>**CustomOperators.vcxproj**<sp/>file<sp/>with<sp/>the<sp/>following<sp/>content:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">&lt;?xml<sp/>version=&quot;1.0&quot;<sp/>encoding=&quot;utf-8&quot;?&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;Project<sp/>DefaultTargets=&quot;Build&quot;<sp/>xmlns=&quot;http://schemas.microsoft.com/developer/msbuild/2003&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;ItemGroup<sp/>Label=&quot;ProjectConfigurations&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;ProjectConfiguration<sp/>Include=&quot;Release|x64&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Configuration&gt;Release&lt;/Configuration&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Platform&gt;x64&lt;/Platform&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/ProjectConfiguration&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/ItemGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;ItemGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;ClInclude<sp/>Include=&quot;.\MyCustomOperator.h&quot;<sp/>/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/ItemGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;ItemGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;ClCompile<sp/>Include=&quot;.\MyCustomOperator.cpp&quot;<sp/>/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/ItemGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;PropertyGroup<sp/>Label=&quot;Globals&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;VCProjectVersion&gt;17.0&lt;/VCProjectVersion&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;ProjectGuid&gt;{18ED472A-4ECB-498C-A66C-805668FAABD3}&lt;/ProjectGuid&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;Keyword&gt;Win32Proj&lt;/Keyword&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;RootNamespace&gt;CustomOperators&lt;/RootNamespace&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;WindowsTargetPlatformVersion&gt;10.0&lt;/WindowsTargetPlatformVersion&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/PropertyGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;Import<sp/>Project=&quot;$(VCTargetsPath)\Microsoft.Cpp.Default.props&quot;<sp/>/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;PropertyGroup<sp/>Condition=&quot;&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;&quot;<sp/>Label=&quot;Configuration&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;ConfigurationType&gt;DynamicLibrary&lt;/ConfigurationType&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;UseDebugLibraries&gt;false&lt;/UseDebugLibraries&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;PlatformToolset&gt;v143&lt;/PlatformToolset&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;WholeProgramOptimization&gt;true&lt;/WholeProgramOptimization&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;CharacterSet&gt;Unicode&lt;/CharacterSet&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/PropertyGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;Import<sp/>Project=&quot;$(VCTargetsPath)\Microsoft.Cpp.props&quot;<sp/>/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;ImportGroup<sp/>Label=&quot;ExtensionSettings&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/ImportGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;ImportGroup<sp/>Label=&quot;Shared&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/ImportGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;ImportGroup<sp/>Label=&quot;PropertySheets&quot;<sp/>Condition=&quot;&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;Import<sp/>Project=&quot;$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props&quot;<sp/>Condition=&quot;exists(&apos;$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props&apos;)&quot;<sp/>Label=&quot;LocalAppDataPlatform&quot;<sp/>/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/ImportGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;PropertyGroup<sp/>Label=&quot;UserMacros&quot;<sp/>/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;PropertyGroup<sp/>Condition=&quot;&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;LinkIncremental&gt;false&lt;/LinkIncremental&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;OutDir&gt;$(SolutionDir)build\$(Configuration)\&lt;/OutDir&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/PropertyGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;ItemDefinitionGroup<sp/>Condition=&quot;&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;ClCompile&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;PrecompiledHeader&gt;NotUsing&lt;/PrecompiledHeader&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;WarningLevel&gt;Level3&lt;/WarningLevel&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Optimization&gt;MaxSpeed&lt;/Optimization&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;FunctionLevelLinking&gt;true&lt;/FunctionLevelLinking&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;IntrinsicFunctions&gt;true&lt;/IntrinsicFunctions&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;SDLCheck&gt;true&lt;/SDLCheck&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;PreprocessorDefinitions&gt;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)&lt;/PreprocessorDefinitions&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;ConformanceMode&gt;true&lt;/ConformanceMode&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;AdditionalIncludeDirectories&gt;$(DPF_HGP_ROOT);%(AdditionalIncludeDirectories)&lt;/AdditionalIncludeDirectories&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/ClCompile&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;Link&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;SubSystem&gt;Console&lt;/SubSystem&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;EnableCOMDATFolding&gt;true&lt;/EnableCOMDATFolding&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;OptimizeReferences&gt;true&lt;/OptimizeReferences&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;GenerateDebugInformation&gt;true&lt;/GenerateDebugInformation&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/Link&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/ItemDefinitionGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;Import<sp/>Project=&quot;$(VCTargetsPath)\Microsoft.Cpp.targets&quot;<sp/>/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;ImportGroup<sp/>Label=&quot;ExtensionTargets&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/ImportGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/Project&gt;</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Then,<sp/>open<sp/>the<sp/>**MyCustomOperator.vcxproj<sp/>project**<sp/>in<sp/>Visual<sp/>Studio<sp/>and<sp/>compile<sp/>it.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Using<sp/>CMake<sp/>(Windows<sp/>and<sp/>Linux)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>the<sp/>**DPF_Custom_Operators<sp/>folder**<sp/>previously<sp/>created,<sp/>create<sp/>a<sp/>CMakeLists.txt<sp/>file<sp/>with<sp/>the<sp/>following<sp/>content:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">set(CMAKE_VERBOSE_MAKEFILE<sp/>ON)</highlight></codeline>
+<codeline><highlight class="normal">cmake_minimum_required(VERSION<sp/>3.16.3)</highlight></codeline>
+<codeline><highlight class="normal">project(CustomOperators)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">if(NOT<sp/>DEFINED<sp/>ENV{DPF_HGP_ROOT})</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>message(FATAL_ERROR<sp/>&quot;DPF_HGP_ROOT<sp/>not<sp/>found!&quot;)</highlight></codeline>
+<codeline><highlight class="normal">endif()</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Compiler<sp/>options</highlight></codeline>
+<codeline><highlight class="normal">#-----------------</highlight></codeline>
+<codeline><highlight class="normal">if<sp/>(NOT<sp/>MSVC)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>set(CMAKE_CXX_FLAGS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;-Wall<sp/>-Wextra<sp/>-Wconversion&quot;)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>set(CMAKE_CXX_FLAGS<sp/>&quot;${CMAKE_CXX_FLAGS}<sp/>-fvisibility=hidden&quot;)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>set(CMAKE_SHARED_LINKER_FLAGS<sp/>&quot;-fvisibility=hidden&quot;)</highlight></codeline>
+<codeline><highlight class="normal">else()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>set(CMAKE_CXX_FLAGS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;/W3<sp/>/sdl<sp/>/EHsc&quot;)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>set(CMAKE_CXX_FLAGS_RELEASE<sp/>&quot;/O2<sp/>/Oi<sp/>/Gy&quot;)</highlight></codeline>
+<codeline><highlight class="normal">endif()</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Dependencies</highlight></codeline>
+<codeline><highlight class="normal">#-------------</highlight></codeline>
+<codeline><highlight class="normal">include_directories($ENV{DPF_HGP_ROOT})</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Add<sp/>library</highlight></codeline>
+<codeline><highlight class="normal">#------------</highlight></codeline>
+<codeline><highlight class="normal">file(GLOB<sp/>SOURCE_FILES<sp/>*.cpp)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">add_library(${CMAKE_PROJECT_NAME}<sp/>SHARED<sp/>${SOURCE_FILES})</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Then,<sp/>run<sp/>the<sp/>following<sp/>commands<sp/>in<sp/>a<sp/>**command<sp/>line**<sp/>opened<sp/>from<sp/>the<sp/>**DPF_Custom_Operators<sp/>folder**.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">mkdir<sp/>build</highlight></codeline>
+<codeline><highlight class="normal">cd<sp/>build</highlight></codeline>
+<codeline><highlight class="normal">cmake<sp/>..<sp/>-DCMAKE_BUILD_TYPE=Release<sp/></highlight></codeline>
+<codeline><highlight class="normal">cmake<sp/>--build<sp/>.<sp/>--config<sp/>Release</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">On<sp/>Windows,<sp/>it<sp/>creates<sp/>a<sp/>**build/Release**<sp/>folder<sp/>which<sp/>contains<sp/>the<sp/>&quot;CustomOperators.dll&quot;.</highlight></codeline>
+<codeline><highlight class="normal">On<sp/>Linux,<sp/>it<sp/>creates<sp/>the<sp/>&quot;libCustomOperators.so&quot;<sp/>file<sp/>into<sp/>the<sp/>**build**<sp/>folder.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Create<sp/>an<sp/>application<sp/>that<sp/>consumes<sp/>the<sp/>C++<sp/>Custom<sp/>operator&apos;s<sp/>library</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>following<sp/>shows<sp/>how<sp/>to<sp/>consume<sp/>the<sp/>CustomOperators<sp/>binary<sp/>into<sp/>another<sp/>C++<sp/>project.<sp/>The<sp/>consumption<sp/>is<sp/>done<sp/></highlight></codeline>
+<codeline><highlight class="normal">by<sp/>loading<sp/>the<sp/>binary<sp/>in<sp/>the<sp/>new<sp/>C++<sp/>project<sp/>at<sp/>runtime.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Create<sp/>the<sp/>testing<sp/>files</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Set<sp/>a<sp/>**DPF_Custom_Operators<sp/>environment<sp/>variable**<sp/>to<sp/>the<sp/>**DPF_Custom_Operators<sp/>folder**.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>the<sp/>**DPF_Custom_Operators<sp/>folder**<sp/>previously<sp/>created,<sp/>create<sp/>a<sp/>**DPF_application**<sp/>folder.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>the<sp/>**DPF_application**<sp/>folder,<sp/>create<sp/>a<sp/>CustomOperatorsTest.cpp<sp/>with<sp/>the<sp/>following<sp/>content:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">#include<sp/>&quot;dpf_api.h&quot;</highlight></codeline>
+<codeline><highlight class="normal">#include<sp/>&quot;dpf_api_i.cpp&quot;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">int<sp/>main(int<sp/>argc,<sp/>char**<sp/>argv)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>Initialize<sp/>DPF<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>ansys::dpf::LibraryHandle*<sp/>lib<sp/>=<sp/>new<sp/>ansys::dpf::LibraryHandle();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>ansys::dpf::DpfError<sp/>libDpfError<sp/>=<sp/>lib-&gt;error();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>if(!libDpfError.isOk())</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;DPF<sp/>initialization<sp/>failed.&quot;<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>error_message<sp/>=<sp/>libDpfError.message();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(!error_message.empty())</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>error_message.c_str()<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>1;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>Load<sp/>the<sp/>DPF<sp/>Custom<sp/>operator&apos;s<sp/>library<sp/>to<sp/>access<sp/>the<sp/>&quot;custom_message&quot;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>const<sp/>char*<sp/>val<sp/>=<sp/>getenv(&quot;DPF_Custom_Operators&quot;);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>if<sp/>(!val)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;DPF_Custom_Operators<sp/>environment<sp/>variable<sp/>not<sp/>found!&quot;<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>1;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>#ifdef<sp/>__linux__</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>std::string<sp/>path_to_dll<sp/>=<sp/>std::string(val)<sp/>+<sp/>&quot;/build/libCustomOperators.so&quot;;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>#else</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>path_to_dll<sp/>=<sp/>std::string(val)<sp/>+<sp/>&quot;/build/Release/CustomOperators.dll&quot;;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>#endif</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>ansys::dpf::core::loadDpfPlugin(path_to_dll,<sp/>&quot;custom_operators&quot;);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>use<sp/>the<sp/>Custom<sp/>Operator</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>ansys::dpf::Operator<sp/>custom_operator(&quot;custom_message&quot;);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>if<sp/>(custom_operator.empty())</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>&quot;CustomOperators<sp/>load<sp/>failed.&quot;<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>1;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>custom_message_str<sp/>=<sp/>&quot;This<sp/>is<sp/>a<sp/>DPF<sp/>custom<sp/>message.&quot;;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>custom_operator.connect(0,<sp/>custom_message_str);<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>custom_operator.run();</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>delete<sp/>lib;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>return<sp/>0;</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Compile<sp/>the<sp/>test<sp/>application</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>With<sp/>CMake<sp/>(Windows<sp/>and<sp/>Linux)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>the<sp/>**DPF_application**<sp/>folder,<sp/>create<sp/>a<sp/>CMakeLists.txt<sp/>file<sp/>with<sp/>the<sp/>following<sp/>content:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">set(CMAKE_VERBOSE_MAKEFILE<sp/>ON)</highlight></codeline>
+<codeline><highlight class="normal">cmake_minimum_required(VERSION<sp/>3.16.3)</highlight></codeline>
+<codeline><highlight class="normal">project(CustomOperatorsTest)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">if(NOT<sp/>DEFINED<sp/>ENV{DPF_HGP_ROOT})</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>message(FATAL_ERROR<sp/>&quot;DPF_HGP_ROOT<sp/>not<sp/>found!&quot;)</highlight></codeline>
+<codeline><highlight class="normal">endif()</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">if(NOT<sp/>DEFINED<sp/>ENV{DPF_Custom_Operators})</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>message(FATAL_ERROR<sp/>&quot;DPF_Custom_Operators<sp/>not<sp/>found!&quot;)</highlight></codeline>
+<codeline><highlight class="normal">endif()</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Compiler<sp/>options</highlight></codeline>
+<codeline><highlight class="normal">#-----------------</highlight></codeline>
+<codeline><highlight class="normal">if<sp/>(NOT<sp/>MSVC)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>set(CMAKE_CXX_FLAGS<sp/><sp/>&quot;-ldl<sp/>-Wall<sp/>-Wextra<sp/>-Wconversion&quot;)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>add_definitions(-D_CRT_SECURE_NO_WARNINGS)</highlight></codeline>
+<codeline><highlight class="normal">else()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>add_definitions(-D_CRT_SECURE_NO_WARNINGS)</highlight></codeline>
+<codeline><highlight class="normal">endif()</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Dependencies</highlight></codeline>
+<codeline><highlight class="normal">#-------------</highlight></codeline>
+<codeline><highlight class="normal">include_directories($ENV{DPF_HGP_ROOT})</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Add<sp/>library</highlight></codeline>
+<codeline><highlight class="normal">#------------</highlight></codeline>
+<codeline><highlight class="normal">file(GLOB<sp/>SOURCE_FILES<sp/>*.cpp)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">add_executable(${PROJECT_NAME}<sp/>${SOURCE_FILES})</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Run<sp/>the<sp/>following<sp/>commands<sp/>in<sp/>a<sp/>**command<sp/>line**<sp/>opened<sp/>from<sp/>the<sp/>**DPF_application<sp/>folder**.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">mkdir<sp/>build</highlight></codeline>
+<codeline><highlight class="normal">cd<sp/>build</highlight></codeline>
+<codeline><highlight class="normal">cmake<sp/>..<sp/>-DCMAKE_BUILD_TYPE=Release<sp/></highlight></codeline>
+<codeline><highlight class="normal">cmake<sp/>--build<sp/>.<sp/>--config<sp/>Release</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>With<sp/>Visual<sp/>Studio<sp/>(Windows<sp/>only)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>the<sp/>**DPF_application**<sp/>folder,<sp/>create<sp/>a<sp/>**CustomOperatorsTest.vcxproj**<sp/>file<sp/>with<sp/>the<sp/>following<sp/>content:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">&lt;?xml<sp/>version=&quot;1.0&quot;<sp/>encoding=&quot;utf-8&quot;?&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;Project<sp/>DefaultTargets=&quot;Build&quot;<sp/>xmlns=&quot;http://schemas.microsoft.com/developer/msbuild/2003&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;ItemGroup<sp/>Label=&quot;ProjectConfigurations&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;ProjectConfiguration<sp/>Include=&quot;Release|x64&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Configuration&gt;Release&lt;/Configuration&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Platform&gt;x64&lt;/Platform&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/ProjectConfiguration&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/ItemGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;ItemGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;ClCompile<sp/>Include=&quot;.\CustomOperatorsTest.cpp&quot;<sp/>/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/ItemGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;PropertyGroup<sp/>Label=&quot;Globals&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;VCProjectVersion&gt;17.0&lt;/VCProjectVersion&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;ProjectGuid&gt;{129D604D-EF32-4091-ABAD-BF3622AF6F08}&lt;/ProjectGuid&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;Keyword&gt;Win32Proj&lt;/Keyword&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;RootNamespace&gt;CustomOperatorsTest&lt;/RootNamespace&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;WindowsTargetPlatformVersion&gt;10.0&lt;/WindowsTargetPlatformVersion&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/PropertyGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;Import<sp/>Project=&quot;$(VCTargetsPath)\Microsoft.Cpp.Default.props&quot;<sp/>/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;PropertyGroup<sp/>Condition=&quot;&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;&quot;<sp/>Label=&quot;Configuration&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;ConfigurationType&gt;Application&lt;/ConfigurationType&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;UseDebugLibraries&gt;false&lt;/UseDebugLibraries&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;PlatformToolset&gt;v143&lt;/PlatformToolset&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;WholeProgramOptimization&gt;true&lt;/WholeProgramOptimization&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;CharacterSet&gt;Unicode&lt;/CharacterSet&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/PropertyGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;Import<sp/>Project=&quot;$(VCTargetsPath)\Microsoft.Cpp.props&quot;<sp/>/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;ImportGroup<sp/>Label=&quot;ExtensionSettings&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/ImportGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;ImportGroup<sp/>Label=&quot;Shared&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/ImportGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;ImportGroup<sp/>Label=&quot;PropertySheets&quot;<sp/>Condition=&quot;&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;Import<sp/>Project=&quot;$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props&quot;<sp/>Condition=&quot;exists(&apos;$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props&apos;)&quot;<sp/>Label=&quot;LocalAppDataPlatform&quot;<sp/>/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/ImportGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;PropertyGroup<sp/>Label=&quot;UserMacros&quot;<sp/>/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;PropertyGroup<sp/>Condition=&quot;&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;LinkIncremental&gt;false&lt;/LinkIncremental&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/PropertyGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;ItemDefinitionGroup<sp/>Condition=&quot;&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|x64&apos;&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;ClCompile&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;PrecompiledHeader&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;/PrecompiledHeader&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;WarningLevel&gt;Level3&lt;/WarningLevel&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;Optimization&gt;MaxSpeed&lt;/Optimization&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;FunctionLevelLinking&gt;true&lt;/FunctionLevelLinking&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;IntrinsicFunctions&gt;true&lt;/IntrinsicFunctions&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;SDLCheck&gt;true&lt;/SDLCheck&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;PreprocessorDefinitions&gt;NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)&lt;/PreprocessorDefinitions&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;ConformanceMode&gt;true&lt;/ConformanceMode&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;AdditionalIncludeDirectories&gt;$(DPF_HGP_ROOT);%(AdditionalIncludeDirectories)&lt;/AdditionalIncludeDirectories&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/ClCompile&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;Link&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;SubSystem&gt;Console&lt;/SubSystem&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;EnableCOMDATFolding&gt;true&lt;/EnableCOMDATFolding&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;OptimizeReferences&gt;true&lt;/OptimizeReferences&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;GenerateDebugInformation&gt;true&lt;/GenerateDebugInformation&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/Link&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/ItemDefinitionGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;Import<sp/>Project=&quot;$(VCTargetsPath)\Microsoft.Cpp.targets&quot;<sp/>/&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;ImportGroup<sp/>Label=&quot;ExtensionTargets&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>&lt;/ImportGroup&gt;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/Project&gt;</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Run<sp/>the<sp/>test<sp/>application</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>With<sp/>CMake<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Run<sp/>the<sp/>following<sp/>command<sp/>in<sp/>a<sp/>**command<sp/>line**<sp/>opened<sp/>from<sp/>the<sp/>**DPF_application<sp/>folder**.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">On<sp/>Windows,<sp/>use<sp/>the<sp/>following:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">set<sp/>PATH=%AWP_ROOT271%/aisol/bin/winx64;%PATH%</highlight></codeline>
+<codeline><highlight class="normal">cd<sp/>build</highlight></codeline>
+<codeline><highlight class="normal">cd<sp/>Release</highlight></codeline>
+<codeline><highlight class="normal">CustomOperatorsTest.exe</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Setting<sp/>the<sp/>PATH<sp/>is<sp/>required<sp/>to<sp/>find<sp/>DPF<sp/>entry<sp/>point<sp/>(DataProcessingCore.dll).<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">On<sp/>Linux,<sp/>use<sp/>the<sp/>following:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">export<sp/>LD_LIBRARY_PATH=${AWP_ROOT271}/aisol/dll/linx64&quot;;${LD_LIBRARY_PATH}</highlight></codeline>
+<codeline><highlight class="normal">cd<sp/>build</highlight></codeline>
+<codeline><highlight class="normal">./CustomOperatorsTest</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Setting<sp/>the<sp/>LD_LIBRARY_PATH<sp/>is<sp/>required<sp/>to<sp/>find<sp/>DPF<sp/>entry<sp/>point<sp/>(libDataProcessingCore.so).<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">If<sp/>you<sp/>face<sp/>licensing<sp/>issues,<sp/>the<sp/>ANSYSLMD_LICENSE_FILE<sp/>might<sp/>must<sp/>be<sp/>set.<sp/>Refer<sp/>to<sp/>the<sp/>[License<sp/>terms<sp/>section](https://dpf.docs.pyansys.com/version/stable/user_guide/getting_started_with_dpf_server.html#license-terms)<sp/>to<sp/>learn<sp/>how<sp/>to<sp/>set<sp/>it.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>With<sp/>Visual<sp/>Studio</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Edit<sp/>your<sp/>environment<sp/>variables<sp/>and<sp/>update<sp/>the<sp/>PATH<sp/>value<sp/>inserting<sp/>a<sp/>&quot;%AWP_ROOT@doc_ansys_ver%/aisol/bin/winx64&quot;<sp/>field.<sp/>It<sp/>is<sp/>needed<sp/>that<sp/>the<sp/>application<sp/>can<sp/>find<sp/>DPF<sp/>entry<sp/>point<sp/>(DataProcessingCore.dll)<sp/>while<sp/>running.</highlight></codeline>
+<codeline><highlight class="normal">Edit<sp/>your<sp/>environment<sp/>variables<sp/>and<sp/>create<sp/>a<sp/>DPF_Custom_Operators<sp/>variable<sp/>that<sp/>targets<sp/>the<sp/>**DPF_Custom_Operators<sp/>folder**<sp/>location.<sp/></highlight></codeline>
+<codeline><highlight class="normal">Open<sp/>the<sp/>**CustomOperatorsTest.vcxproj<sp/>project**<sp/>in<sp/>Visual<sp/>Studio.<sp/>Compile<sp/>it.<sp/>Press<sp/>F5<sp/>to<sp/>run<sp/>the<sp/>code.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>Result</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>following<sp/>message<sp/>should<sp/>appear:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">Hello<sp/>world!<sp/>This<sp/>message<sp/>is<sp/>displayed<sp/>from<sp/>a<sp/>DPF<sp/>operator.</highlight></codeline>
+<codeline><highlight class="normal">This<sp/>is<sp/>a<sp/>DPF<sp/>custom<sp/>message.</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+    </programlisting>
+    <location file="cpp_doc/06_2_how_to_create_cpp_plugin.md"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,706 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="classansys_1_1dpf_1_1MeshesContainer" kind="class" language="C++" prot="public">
+    <compoundname>ansys::dpf::MeshesContainer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ansys::dpf::CollectionBase</basecompoundref>
+    <includes local="no">dpf_api.h</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1MeshesContainer_1a33ff3f826991522d2e77c1c523f33e19" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Operator</definition>
+        <argsstring></argsstring>
+        <name>Operator</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::Operator</qualifiedname>
+        <param>
+          <type>Operator</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3112" column="22" bodyfile="dpf_api.h" bodystart="3112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1MeshesContainer_1afa07847c7cb432b260e61a0c18025ba3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Workflow</definition>
+        <argsstring></argsstring>
+        <name>Workflow</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::Workflow</qualifiedname>
+        <param>
+          <type>Workflow</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3113" column="22" bodyfile="dpf_api.h" bodystart="3113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1MeshesContainer_1a81d95df60edf516a1de9878b780f8fb3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class OperatorMain</definition>
+        <argsstring></argsstring>
+        <name>OperatorMain</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::OperatorMain</qualifiedname>
+        <param>
+          <type>OperatorMain</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3114" column="14" bodyfile="dpf_api.h" bodystart="3114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1MeshesContainer_1a9820c685b67a3355c042bb0b3365d9e2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class Any</definition>
+        <argsstring></argsstring>
+        <name>Any</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::Any</qualifiedname>
+        <param>
+          <type>Any</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3115" column="14" bodyfile="dpf_api.h" bodystart="3115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1MeshesContainer_1af891ea2ca8eebe3679e051763ba989ce" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class CollectionBase</definition>
+        <argsstring></argsstring>
+        <name>CollectionBase</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::CollectionBase</qualifiedname>
+        <param>
+          <type>CollectionBase</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3116" column="14" bodyfile="dpf_api.h" bodystart="3116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1MeshesContainer_1acc06c4380c923e11af63f95e97c3c259" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class GenericDataContainer</definition>
+        <argsstring></argsstring>
+        <name>GenericDataContainer</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::GenericDataContainer</qualifiedname>
+        <param>
+          <type>GenericDataContainer</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3117" column="14" bodyfile="dpf_api.h" bodystart="3117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classansys_1_1dpf_1_1MeshesContainer_1af764561c544bacc1b90b526ee8d3c708" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class core</definition>
+        <argsstring></argsstring>
+        <name>core</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::core</qualifiedname>
+        <param>
+          <type>core</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3118" column="14" bodyfile="dpf_api.h" bodystart="3118" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshesContainer_1a2489c7253dde4b595184cc79a327e230" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::MeshesContainer::MeshesContainer</definition>
+        <argsstring>(opaque::DpfInternalSharedObject *)</argsstring>
+        <name>MeshesContainer</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::MeshesContainer</qualifiedname>
+        <param>
+          <type>opaque::DpfInternalSharedObject *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3120" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshesContainer_1aa91619cdbf37ba4d2425d9d3e80516a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::MeshesContainer::MeshesContainer</definition>
+        <argsstring>()</argsstring>
+        <name>MeshesContainer</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::MeshesContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3123" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshesContainer_1a05109019be329e40c7db78d231eef9ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ansys::dpf::MeshesContainer::~MeshesContainer</definition>
+        <argsstring>()</argsstring>
+        <name>~MeshesContainer</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::~MeshesContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3124" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshesContainer_1ab5d10a6e0af1de794c5dd5ff5274a56c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::MeshesContainer::MeshesContainer</definition>
+        <argsstring>(MeshesContainer const &amp;)</argsstring>
+        <name>MeshesContainer</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::MeshesContainer</qualifiedname>
+        <param>
+          <type>MeshesContainer const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3125" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshesContainer_1a1950bf0757d24a5441b3b0326454ab6e" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::MeshesContainer::MeshesContainer</definition>
+        <argsstring>(MeshesContainer &amp;&amp;) noexcept</argsstring>
+        <name>MeshesContainer</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::MeshesContainer</qualifiedname>
+        <param>
+          <type>MeshesContainer &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3126" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshesContainer_1aa4c802341a32f409bface24c08750256" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::MeshesContainer::MeshesContainer</definition>
+        <argsstring>(Client const *const client)</argsstring>
+        <name>MeshesContainer</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::MeshesContainer</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> const *const</type>
+          <declname>client</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> instance designating the IP, port and protocol to use. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new meshes container on a server. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3128" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshesContainer_1a0ac20f2c12dfe98d977cb6bb5c7a85fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::MeshesContainer::MeshesContainer</definition>
+        <argsstring>(Client const *const client, std::vector&lt; std::string &gt; const &amp;labels)</argsstring>
+        <name>MeshesContainer</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::MeshesContainer</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> const *const</type>
+          <declname>client</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> instance designating the IP, port and protocol to use. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>std::vector&lt; std::string &gt; const &amp;</type>
+          <declname>labels</declname>
+          <briefdescription><para>[in] Labels for meshes. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a collection of meshes with the given labels on a server. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3131" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshesContainer_1abb7d8aa6a81104550acd750be0341d52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::MeshesContainer::MeshesContainer</definition>
+        <argsstring>(int id, Client const *const client)</argsstring>
+        <name>MeshesContainer</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::MeshesContainer</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+          <briefdescription><para>[in] Id of the <ref refid="classansys_1_1dpf_1_1MeshesContainer" kindref="compound">MeshesContainer</ref> object on the server&apos;s database. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> const *const</type>
+          <declname>client</declname>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> instance designating the IP, port and protocol to use. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieve an existing instance of <ref refid="classansys_1_1dpf_1_1MeshesContainer" kindref="compound">MeshesContainer</ref> on a server. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3135" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshesContainer_1ad5852e1110c3ac20a9e139a68a54bff4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ansys::dpf::MeshesContainer::MeshesContainer</definition>
+        <argsstring>(std::vector&lt; std::string &gt; const &amp;labels)</argsstring>
+        <name>MeshesContainer</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::MeshesContainer</qualifiedname>
+        <param>
+          <type>std::vector&lt; std::string &gt; const &amp;</type>
+          <declname>labels</declname>
+          <briefdescription><para>[in] Labels for group of meshed regions. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create mesh container for a group of meshed regions with the given labels. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3139" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshesContainer_1afe5811d03325be342ac58977d37ab0d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MeshesContainer &amp;</type>
+        <definition>MeshesContainer &amp; ansys::dpf::MeshesContainer::operator=</definition>
+        <argsstring>(MeshesContainer const &amp;)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::operator=</qualifiedname>
+        <param>
+          <type>MeshesContainer const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3141" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshesContainer_1a64a2fe24398371036df24ec2b5b26027" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>MeshesContainer &amp;</type>
+        <definition>MeshesContainer &amp; ansys::dpf::MeshesContainer::operator=</definition>
+        <argsstring>(MeshesContainer &amp;&amp;) noexcept</argsstring>
+        <name>operator=</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::operator=</qualifiedname>
+        <param>
+          <type>MeshesContainer &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3142" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshesContainer_1a7a7b3e5a05bbd093a14531d846c0557a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1MeshedRegion" kindref="compound">MeshedRegion</ref></type>
+        <definition>MeshedRegion ansys::dpf::MeshesContainer::operator[]</definition>
+        <argsstring>(dp_int index)</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::operator[]</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref></type>
+          <declname>index</declname>
+          <briefdescription><para>[in] Index of mesh within container. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Meshed region for given index. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3145" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshesContainer_1aa5faa82275582751a35b9f8f7fa52532" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1MeshedRegion" kindref="compound">MeshedRegion</ref></type>
+        <definition>MeshedRegion ansys::dpf::MeshesContainer::at</definition>
+        <argsstring>(dp_index index)</argsstring>
+        <name>at</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::at</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>index</declname>
+          <briefdescription><para>[in] Index of meshed region to get. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Meshed region for given index. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3148" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshesContainer_1ab45cbc57a611d133effd85a07026ccf8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classansys_1_1dpf_1_1MeshedRegion" kindref="compound">MeshedRegion</ref></type>
+        <definition>const MeshedRegion ansys::dpf::MeshesContainer::at</definition>
+        <argsstring>(dp_index index) const</argsstring>
+        <name>at</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::at</qualifiedname>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>index</declname>
+          <briefdescription><para>[in] Index of meshed region to get. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Meshed region for given index. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3151" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshesContainer_1ad9bf573f6faf5c3d6a69509acebfd029" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::MeshesContainer::update</definition>
+        <argsstring>(MeshedRegion &amp;f, dp_index index)</argsstring>
+        <name>update</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::update</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1MeshedRegion" kindref="compound">MeshedRegion</ref> &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] New meshed region. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref></type>
+          <declname>index</declname>
+          <briefdescription><para>[in] Index of meshed region to update. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update a meshed region at index. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3154" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshesContainer_1ad8a4ca6475e0eaa186a3fcd2ed8e131b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ansys::dpf::MeshesContainer::add</definition>
+        <argsstring>(LabelSpace const &amp;labels, MeshedRegion const &amp;f, bool can_replace=true)</argsstring>
+        <name>add</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::add</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> const &amp;</type>
+          <declname>labels</declname>
+          <briefdescription><para>[in] <ref refid="structansys_1_1dpf_1_1Label" kindref="compound">Label</ref> space for meshed region. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1MeshedRegion" kindref="compound">MeshedRegion</ref> const &amp;</type>
+          <declname>f</declname>
+          <briefdescription><para>[in] Meshed region to add. </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>can_replace</declname>
+          <defval>true</defval>
+          <briefdescription><para>[in] if can_replace is false, then, the entity is pushed back without checking if the label space already exists. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add meshed region with given label space. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3158" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshesContainer_1a2be495164acdc7891bc8efa173d6ad60" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="classansys_1_1dpf_1_1MeshedRegion" kindref="compound">MeshedRegion</ref> &gt;</type>
+        <definition>std::vector&lt; MeshedRegion &gt; ansys::dpf::MeshesContainer::getMeshes</definition>
+        <argsstring>(LabelSpace const &amp;label_space) const</argsstring>
+        <name>getMeshes</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::getMeshes</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> const &amp;</type>
+          <declname>label_space</declname>
+          <briefdescription><para>[in] <ref refid="structansys_1_1dpf_1_1Label" kindref="compound">Label</ref> space for which to get meshed regions. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Vector of meshed regions for given label space. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3163" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshesContainer_1a9b94613788b1ced87b9a1ad5b94dcefd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1MeshedRegion" kindref="compound">MeshedRegion</ref></type>
+        <definition>MeshedRegion ansys::dpf::MeshesContainer::getMesh</definition>
+        <argsstring>(LabelSpace const &amp;label_space) const</argsstring>
+        <name>getMesh</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::getMesh</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> const &amp;</type>
+          <declname>label_space</declname>
+          <briefdescription><para>[in] <ref refid="structansys_1_1dpf_1_1Label" kindref="compound">Label</ref> space for which to get meshed region. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>First meshed region for given label space. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3166" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshesContainer_1a699c93ca9f77f9a96f4aa4a8744c1596" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt; int &gt; ansys::dpf::MeshesContainer::getMeshesIndices</definition>
+        <argsstring>(LabelSpace const &amp;lab_space) const</argsstring>
+        <name>getMeshesIndices</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::getMeshesIndices</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> const &amp;</type>
+          <declname>lab_space</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3168" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshesContainer_1a6e8fcefe0d84508ba020c3cc53df1019" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1MeshedRegion" kindref="compound">MeshedRegion</ref></type>
+        <definition>MeshedRegion ansys::dpf::MeshesContainer::getMatchingMesh</definition>
+        <argsstring>(LabelSpace const &amp;label_space) const</argsstring>
+        <name>getMatchingMesh</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::getMatchingMesh</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> const &amp;</type>
+          <declname>label_space</declname>
+          <briefdescription><para>[in] <ref refid="structansys_1_1dpf_1_1Label" kindref="compound">Label</ref> space for which to get <ref refid="classansys_1_1dpf_1_1Any" kindref="compound">Any</ref>. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>First matching Mesh for given label space. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3170" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshesContainer_1a00771e383d8202b17b14f208cdba10a3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1DpfVector" kindref="compound">DpfVector</ref>&lt; <ref refid="namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920" kindref="member">dp_index</ref> &gt;</type>
+        <definition>DpfVector&lt; dp_index &gt; ansys::dpf::MeshesContainer::getMatchingMeshIndices</definition>
+        <argsstring>(LabelSpace const &amp;label_space) const</argsstring>
+        <name>getMatchingMeshIndices</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::getMatchingMeshIndices</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> const &amp;</type>
+          <declname>label_space</declname>
+          <briefdescription><para>[in] <ref refid="structansys_1_1dpf_1_1Label" kindref="compound">Label</ref> space for which to get entries. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Vector of matching Mesh to the given label space. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3173" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshesContainer_1afe73c105be73ed4fe598145f852552fe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MeshesContainer</type>
+        <definition>MeshesContainer ansys::dpf::MeshesContainer::createSubMeshesContainer</definition>
+        <argsstring>(LabelSpace const &amp;lab_space) const</argsstring>
+        <name>createSubMeshesContainer</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::createSubMeshesContainer</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1LabelSpace" kindref="compound">LabelSpace</ref> const &amp;</type>
+          <declname>lab_space</declname>
+        </param>
+        <briefdescription>
+<para>create a <ref refid="classansys_1_1dpf_1_1MeshesContainer" kindref="compound">MeshesContainer</ref> with all the meshes corresponding to the label space in input </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3176" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshesContainer_1a4d6dc89fa32881ff246e53fc919f6d57" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MeshesContainer</type>
+        <definition>MeshesContainer ansys::dpf::MeshesContainer::deep_copy</definition>
+        <argsstring>(ansys::dpf::Client const *const client=nullptr) const</argsstring>
+        <name>deep_copy</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::deep_copy</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">ansys::dpf::Client</ref> const *const</type>
+          <declname>client</declname>
+          <defval>nullptr</defval>
+          <briefdescription><para>[in] <ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> instance designating the IP, port and protocol to use. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new <ref refid="classansys_1_1dpf_1_1MeshesContainer" kindref="compound">MeshesContainer</ref> on a server by copying all the data of this <ref refid="classansys_1_1dpf_1_1MeshesContainer" kindref="compound">MeshesContainer</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3183" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classansys_1_1dpf_1_1MeshesContainer_1a5adfd625ae0bbadf1ac7b46caed156cf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MeshesContainer</type>
+        <definition>static MeshesContainer ansys::dpf::MeshesContainer::emptyMeshesContainer</definition>
+        <argsstring>()</argsstring>
+        <name>emptyMeshesContainer</name>
+        <qualifiedname>ansys::dpf::MeshesContainer::emptyMeshesContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create an empty mesh container. <simplesect kind="return"><para>Empty mesh container. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="3179" column="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Contains a group of meshes. The meshes container is designed as a set of meshes ordered through labels and ids. Labels identify how the fields are filtered. The most common meshes container have the label &quot;body&quot; with ids corresponding to each body entity. <simplesect kind="see"><para><ref refid="classansys_1_1dpf_1_1MeshedRegion" kindref="compound">MeshedRegion</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="group__group__12" kindref="compound">Using collections and labels</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="dpf_api.h" line="3110" column="5" bodyfile="dpf_api.h" bodystart="3111" bodyend="3185"/>
+    <listofallmembers>
+      <member refid="classansys_1_1dpf_1_1MeshesContainer_1ad8a4ca6475e0eaa186a3fcd2ed8e131b" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>add</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a623a0b168512a4621fb7af8084f9872b" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>addLabel</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1ac6ce7bc876d6a94a97996d5febba5116" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>addLabel</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1ae97480559c14c59e830559582c1f2cd5" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>addLabels</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshesContainer_1aa5faa82275582751a35b9f8f7fa52532" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>at</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshesContainer_1ab45cbc57a611d133effd85a07026ccf8" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>at</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1aea34d37e0c080126eff70db34bf46597" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>callAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshesContainer_1afe73c105be73ed4fe598145f852552fe" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>createSubMeshesContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshesContainer_1a4d6dc89fa32881ff246e53fc919f6d57" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>deep_copy</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9977945710983bc03d2940fa007847b2" prot="public" virt="virtual"><scope>ansys::dpf::MeshesContainer</scope><name>describe</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459" prot="public" virt="virtual"><scope>ansys::dpf::MeshesContainer</scope><name>empty</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshesContainer_1a5adfd625ae0bbadf1ac7b46caed156cf" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>emptyMeshesContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a968afd9daa0b0f13b65a2ac61369d73a" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>getClient</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a66d62492d07889a95a5d10f9d827cd11" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>getLabelSpace</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshesContainer_1a6e8fcefe0d84508ba020c3cc53df1019" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>getMatchingMesh</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshesContainer_1a00771e383d8202b17b14f208cdba10a3" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>getMatchingMeshIndices</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshesContainer_1a9b94613788b1ced87b9a1ad5b94dcefd" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>getMesh</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshesContainer_1a2be495164acdc7891bc8efa173d6ad60" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>getMeshes</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshesContainer_1a699c93ca9f77f9a96f4aa4a8744c1596" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>getMeshesIndices</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1aab65999d65acb4eab6aa7375266e5456" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>getSizeFor</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a1a5634202c15404b6b24e8f50e51cb66" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>hasBeenMovedLocally</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ae198f89868d85c7db6dc1a934a1d3c15" prot="public" virt="virtual"><scope>ansys::dpf::MeshesContainer</scope><name>hasInternalObject</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a82ac9433fd3963b37b07989ef05de331" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>hasLabel</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a5e8d2dd8b9b6cf273985ce3ead392830" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>id</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1a9f9789ff61cc9d400a2a344830706b73" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>isOnCommonAPI</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1aa64d5f8fcd7d85ad6ebf708494dbefd7" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>isSameObject</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a2c1bb3718e1a96d3f40b64794eb25f91" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>labels</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1ac61aef82ffe249c95dd10cf40de7c910" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>labelScoping</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshesContainer_1a2489c7253dde4b595184cc79a327e230" prot="private" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>MeshesContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshesContainer_1aa91619cdbf37ba4d2425d9d3e80516a1" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>MeshesContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshesContainer_1ab5d10a6e0af1de794c5dd5ff5274a56c" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>MeshesContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshesContainer_1a1950bf0757d24a5441b3b0326454ab6e" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>MeshesContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshesContainer_1aa4c802341a32f409bface24c08750256" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>MeshesContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshesContainer_1a0ac20f2c12dfe98d977cb6bb5c7a85fa" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>MeshesContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshesContainer_1abb7d8aa6a81104550acd750be0341d52" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>MeshesContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshesContainer_1ad5852e1110c3ac20a9e139a68a54bff4" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>MeshesContainer</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a691450ab7c89db80f39d6bb2d10eace4" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>name</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshesContainer_1afe5811d03325be342ac58977d37ab0d0" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshesContainer_1a64a2fe24398371036df24ec2b5b26027" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>operator=</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshesContainer_1a7a7b3e5a05bbd093a14531d846c0557a" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>operator[]</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a98ab98c9a6b91b886fd600ed7d9e633b" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>reserve</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1ac88664d3e1d22abb74a95c8223b1e771" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>resize</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a93ebbfe9396dd1c4f447e799db6cbf3b" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>setId</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a44394f964c6130dcbaed446cec3b0197" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>setName</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1ae6f7683496d153ed944856d42b97dc82" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>setSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1ada2a037068417557fd7d410577a7fbb9" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>setSupport</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a69e6878d2d691807f8a45ddfbda42f9e" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>size</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a9830a03b992af391bf03acad90eac372" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>support</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshesContainer_1ad9bf573f6faf5c3d6a69509acebfd029" prot="public" virt="non-virtual"><scope>ansys::dpf::MeshesContainer</scope><name>update</name></member>
+      <member refid="classansys_1_1dpf_1_1CollectionBase_1a99e04439d35f26b89f4d66813d74035b" prot="public" virt="virtual"><scope>ansys::dpf::MeshesContainer</scope><name>~CollectionBase</name></member>
+      <member refid="classansys_1_1dpf_1_1DpfTypes_1ab7c83b6ea160c2b115e056f6c312112f" prot="public" virt="virtual"><scope>ansys::dpf::MeshesContainer</scope><name>~DpfTypes</name></member>
+      <member refid="classansys_1_1dpf_1_1MeshesContainer_1a05109019be329e40c7db78d231eef9ad" prot="public" virt="virtual"><scope>ansys::dpf::MeshesContainer</scope><name>~MeshesContainer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

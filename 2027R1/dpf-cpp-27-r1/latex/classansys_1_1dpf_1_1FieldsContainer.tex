@@ -1,0 +1,341 @@
+\doxysection{ansys::\+dpf::\+Fields\+Container Class Reference}
+\hypertarget{classansys_1_1dpf_1_1FieldsContainer}{}\label{classansys_1_1dpf_1_1FieldsContainer}\index{ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}}
+
+
+Contains a group of fields.  
+
+
+
+
+{\ttfamily \+\#include $<$dpf\+\_\+api.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_acf61fba680e2cf1bfeefc199751fc8aa}{Fields\+Container}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_ac721796f129c6e8986be8ce5977eefcc}{Fields\+Container}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client, std::\+vector$<$ std::\+string $>$ const \&labels)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a8f56a88941a626857bb11528368f08e6}{Fields\+Container}} (int id, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const client)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a22e1ed19ab76ad96df74d2084c9ea4f4}{Fields\+Container}} (const std::\+vector$<$ std::\+string $>$ \&labels)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1FieldsContainer_a85f22edc2a63a092cf00e9fc839a28e6}\label{classansys_1_1dpf_1_1FieldsContainer_a85f22edc2a63a092cf00e9fc839a28e6} 
+{\bfseries Fields\+Container} (Fields\+Container const \&)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1FieldsContainer_abedc3efe1ad10ebdb110da6561a858e8}\label{classansys_1_1dpf_1_1FieldsContainer_abedc3efe1ad10ebdb110da6561a858e8} 
+{\bfseries Fields\+Container} (Fields\+Container \&\&) noexcept
+\item 
+\Hypertarget{classansys_1_1dpf_1_1FieldsContainer_a8c309f116e976d6270f9e7ccbc320fad}\label{classansys_1_1dpf_1_1FieldsContainer_a8c309f116e976d6270f9e7ccbc320fad} 
+Fields\+Container \& {\bfseries operator=} (Fields\+Container const \&)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1FieldsContainer_ae1fc1fa17432b002face34b00493093e}\label{classansys_1_1dpf_1_1FieldsContainer_ae1fc1fa17432b002face34b00493093e} 
+Fields\+Container \& {\bfseries operator=} (Fields\+Container \&\&) noexcept
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_aea6b234cdf457204b5fa9c8e62c7b691}{operator\+[$\,$]\+}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} index)
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_addfee935e69fe9fb9e0e533449f9a5bc}{at}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} index)
+\item 
+const \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a475eafcf1caa61c8113d4ea4dbcaa881}{at}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} index) const
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a9f0704e94d480481e50abd20df33317c}{update}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}} \&f, \doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} index)
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a72def09614e6d238cbb144229f1f1f5e}{add}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&lab\+\_\+space, \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}} const \&f, bool can\+\_\+replace=true)
+\item 
+std::\+vector$<$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}} $>$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_aaa1bd58f282cf7e3bebb1fd1cfe6adbc}{get\+Fields}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&lab\+\_\+space) const
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_aeb12b6212b016653f1eb325f19a9d1ce}{get\+Field}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&lab\+\_\+space) const
+\item 
+std::\+vector$<$ int $>$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a3a8ce9d9bf9a5ad8e4e3efb22d224cef}{get\+Fields\+Indeces}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&lab\+\_\+space) const
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}} \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a5122abf49c4bab17a4f7350abd5b53bb}{get\+Matching\+Field}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&label\+\_\+space) const
+\item 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfVector}{Dpf\+Vector}}$<$ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} $>$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_aaeedf76765d3269c083354a462fc7340}{get\+Matching\+Field\+Indices}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&label\+\_\+space) const
+\item 
+std::\+vector$<$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}} $>$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a45536132d19f7a61af3ff18e660ad8de}{get\+Fields\+For\+Time\+Id}} (\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} time\+\_\+id, \doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}} complex\+\_\+id=0) const
+\item 
+Fields\+Container \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a218a256c1ff051e4c3b9e979f1af3599}{create\+Sub\+Fields\+Container}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&lab\+\_\+space) const
+\item 
+Fields\+Container \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a7292a30f43f3d0276829f2a704569304}{deep\+\_\+copy}} (\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{ansys::\+dpf::\+\+Client}} const \texorpdfstring{$\ast$}{*}const client=nullptr) const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Fields\+Container \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_af4bcbf19662088a80192c4306e76eab9}{empty\+Fields\+Container}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Contains a group of fields. 
+
+\doxylink{classansys_1_1dpf_1_1FieldsContainer}{Fields\+Container} is a group of fields, used mainly in transient, harmonic, modal or multi-\/steps static analysis, where we can have a field for each time step or for each frequency. Consequently the fields container can describle a complete analysis with all its details.
+
+The fields container is designed as a set of fields ordered through labels and ids. Labels identify how the fields are filtered. The most common fields container have the label "{}time"{} with ids corresponding to each time sets, the label "{}complex"{} will allow to separate real parts (id=0) from imaginary parts (id=1) in a harmonic analysis. \begin{DoxySeeAlso}{See also}
+\doxylink{group__group__12}{Using collections and labels} 
+\end{DoxySeeAlso}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{AveragingTest_8cpp-example}{Averaging\+Test.\+cpp}}, \doxymbox{\hyperlink{CompleteRST_8cpp-example}{Complete\+RST.\+cpp}}, \doxymbox{\hyperlink{DataApis_8cpp-example}{Data\+Apis.\+cpp}}, \doxymbox{\hyperlink{DataExport_8cpp-example}{Data\+Export.\+cpp}}, \doxymbox{\hyperlink{ModelTest_8cpp-example}{Model\+Test.\+cpp}}, \doxymbox{\hyperlink{OperatorsApis_8cpp-example}{Operators\+Apis.\+cpp}}, \doxymbox{\hyperlink{ResultTest_8cpp-example}{Result\+Test.\+cpp}}, and \doxymbox{\hyperlink{WorkflowExamples_8cpp-example}{Workflow\+Examples.\+cpp}}.\end{Desc}
+
+
+\label{doc-constructors}
+\Hypertarget{classansys_1_1dpf_1_1FieldsContainer_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classansys_1_1dpf_1_1FieldsContainer_acf61fba680e2cf1bfeefc199751fc8aa}\index{ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}!FieldsContainer@{FieldsContainer}}
+\index{FieldsContainer@{FieldsContainer}!ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}}
+\doxysubsubsection{\texorpdfstring{FieldsContainer()}{FieldsContainer()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1FieldsContainer_acf61fba680e2cf1bfeefc199751fc8aa} 
+ansys::\+dpf::\+\+Fields\+Container::\+\+Fields\+Container (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{}\end{DoxyParamCaption})}
+
+Create a new fields container on a server. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1FieldsContainer_ac721796f129c6e8986be8ce5977eefcc}\index{ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}!FieldsContainer@{FieldsContainer}}
+\index{FieldsContainer@{FieldsContainer}!ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}}
+\doxysubsubsection{\texorpdfstring{FieldsContainer()}{FieldsContainer()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1FieldsContainer_ac721796f129c6e8986be8ce5977eefcc} 
+ansys::\+dpf::\+\+Fields\+Container::\+\+Fields\+Container (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{, }\item[{std::\+vector$<$ std::\+string $>$ const \&}]{labels}{}\end{DoxyParamCaption})}
+
+Create a collection of fields with the given labels on a server. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em \doxylink{structansys_1_1dpf_1_1labels}{labels}} & Labels for fields. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1FieldsContainer_a8f56a88941a626857bb11528368f08e6}\index{ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}!FieldsContainer@{FieldsContainer}}
+\index{FieldsContainer@{FieldsContainer}!ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}}
+\doxysubsubsection{\texorpdfstring{FieldsContainer()}{FieldsContainer()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1FieldsContainer_a8f56a88941a626857bb11528368f08e6} 
+ansys::\+dpf::\+\+Fields\+Container::\+\+Fields\+Container (\begin{DoxyParamCaption}\item[{int}]{id}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{}\end{DoxyParamCaption})}
+
+Retrieve an existing instance of \doxylink{classansys_1_1dpf_1_1FieldsContainer}{Fields\+Container} on a server. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em id} & Id of the \doxylink{classansys_1_1dpf_1_1FieldsContainer}{Fields\+Container} object on the server\textquotesingle{}s database.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1FieldsContainer_a22e1ed19ab76ad96df74d2084c9ea4f4}\index{ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}!FieldsContainer@{FieldsContainer}}
+\index{FieldsContainer@{FieldsContainer}!ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}}
+\doxysubsubsection{\texorpdfstring{FieldsContainer()}{FieldsContainer()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1FieldsContainer_a22e1ed19ab76ad96df74d2084c9ea4f4} 
+ansys::\+dpf::\+\+Fields\+Container::\+\+Fields\+Container (\begin{DoxyParamCaption}\item[{const std::\+vector$<$ std::\+string $>$ \&}]{labels}{}\end{DoxyParamCaption})}
+
+Create a collection of fields with the given labels. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em \doxylink{structansys_1_1dpf_1_1labels}{labels}} & Labels for fields. \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{classansys_1_1dpf_1_1FieldsContainer_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classansys_1_1dpf_1_1FieldsContainer_a72def09614e6d238cbb144229f1f1f5e}\index{ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}!add@{add}}
+\index{add@{add}!ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1FieldsContainer_a72def09614e6d238cbb144229f1f1f5e} 
+void ansys::\+dpf::\+\+Fields\+Container::\+add (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&}]{lab\+\_\+space}{, }\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}} const \&}]{f}{, }\item[{bool}]{can\+\_\+replace}{ = {\ttfamily true}}\end{DoxyParamCaption})}
+
+Add \doxylink{classansys_1_1dpf_1_1Field}{Field} to \doxylink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em lab\+\_\+space} & \doxylink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space} to which to add \doxylink{classansys_1_1dpf_1_1Field}{Field}.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em f} & \doxylink{classansys_1_1dpf_1_1Field}{Field} to add to \doxylink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em can\+\_\+replace} & if can\+\_\+replace is false, then, the entity is pushed back without checking if the label space already exists. \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataApis_8cpp-example}{Data\+Apis.\+cpp}}, and \doxymbox{\hyperlink{DataExport_8cpp-example}{Data\+Export.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1FieldsContainer_addfee935e69fe9fb9e0e533449f9a5bc}\index{ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}!at@{at}}
+\index{at@{at}!ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}}
+\doxysubsubsection{\texorpdfstring{at()}{at()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1FieldsContainer_addfee935e69fe9fb9e0e533449f9a5bc} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}} ansys::\+dpf::\+\+Fields\+Container::\+at (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}}}]{index}{}\end{DoxyParamCaption})}
+
+Get field at index. \begin{DoxyReturn}{Returns}
+\doxylink{classansys_1_1dpf_1_1Field}{Field} given by index. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em index} & Index of field within container. \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{AveragingTest_8cpp-example}{Averaging\+Test.\+cpp}}, \doxymbox{\hyperlink{CompleteRST_8cpp-example}{Complete\+RST.\+cpp}}, and \doxymbox{\hyperlink{ResultTest_8cpp-example}{Result\+Test.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1FieldsContainer_a475eafcf1caa61c8113d4ea4dbcaa881}\index{ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}!at@{at}}
+\index{at@{at}!ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}}
+\doxysubsubsection{\texorpdfstring{at()}{at()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1FieldsContainer_a475eafcf1caa61c8113d4ea4dbcaa881} 
+const \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}} ansys::\+dpf::\+\+Fields\+Container::\+at (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}}}]{index}{}\end{DoxyParamCaption}) const}
+
+Get field at index. \begin{DoxyReturn}{Returns}
+\doxylink{classansys_1_1dpf_1_1Field}{Field} given by index. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em index} & Index of field. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1FieldsContainer_a218a256c1ff051e4c3b9e979f1af3599}\index{ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}!createSubFieldsContainer@{createSubFieldsContainer}}
+\index{createSubFieldsContainer@{createSubFieldsContainer}!ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}}
+\doxysubsubsection{\texorpdfstring{createSubFieldsContainer()}{createSubFieldsContainer()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1FieldsContainer_a218a256c1ff051e4c3b9e979f1af3599} 
+Fields\+Container ansys::\+dpf::\+\+Fields\+Container::\+create\+Sub\+Fields\+Container (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&}]{lab\+\_\+space}{}\end{DoxyParamCaption}) const}
+
+Create a new fields container with all the fields corresponding to the label space in input. \begin{DoxyReturn}{Returns}
+Created fields container. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em lab\+\_\+space} & \doxylink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space} from which to get fields. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1FieldsContainer_a7292a30f43f3d0276829f2a704569304}\index{ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}!deep\_copy@{deep\_copy}}
+\index{deep\_copy@{deep\_copy}!ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}}
+\doxysubsubsection{\texorpdfstring{deep\_copy()}{deep\_copy()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1FieldsContainer_a7292a30f43f3d0276829f2a704569304} 
+Fields\+Container ansys::\+dpf::\+\+Fields\+Container::\+deep\+\_\+copy (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Client}{ansys::\+dpf::\+\+Client}} const \texorpdfstring{$\ast$}{*}const}]{client}{ = {\ttfamily nullptr}}\end{DoxyParamCaption}) const}
+
+Create a new \doxylink{classansys_1_1dpf_1_1FieldsContainer}{Fields\+Container} on a server by copying all the data of this \doxylink{classansys_1_1dpf_1_1FieldsContainer}{Fields\+Container}. 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em client} & \doxylink{classansys_1_1dpf_1_1Client}{Client} instance designating the IP, port and protocol to use. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1FieldsContainer_af4bcbf19662088a80192c4306e76eab9}\index{ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}!emptyFieldsContainer@{emptyFieldsContainer}}
+\index{emptyFieldsContainer@{emptyFieldsContainer}!ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}}
+\doxysubsubsection{\texorpdfstring{emptyFieldsContainer()}{emptyFieldsContainer()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1FieldsContainer_af4bcbf19662088a80192c4306e76eab9} 
+Fields\+Container ansys::\+dpf::\+\+Fields\+Container::\+empty\+Fields\+Container (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create an empty fields container. \begin{DoxyReturn}{Returns}
+Empty \doxylink{classansys_1_1dpf_1_1FieldsContainer}{Fields\+Container}. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataExport_8cpp-example}{Data\+Export.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1FieldsContainer_aeb12b6212b016653f1eb325f19a9d1ce}\index{ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}!getField@{getField}}
+\index{getField@{getField}!ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}}
+\doxysubsubsection{\texorpdfstring{getField()}{getField()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1FieldsContainer_aeb12b6212b016653f1eb325f19a9d1ce} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}} ansys::\+dpf::\+\+Fields\+Container::\+get\+Field (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&}]{lab\+\_\+space}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+First \doxylink{classansys_1_1dpf_1_1Field}{Field} given by \doxylink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space} 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em lab\+\_\+space} & \doxylink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space} for which to get field. \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{DataExport_8cpp-example}{Data\+Export.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1FieldsContainer_aaa1bd58f282cf7e3bebb1fd1cfe6adbc}\index{ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}!getFields@{getFields}}
+\index{getFields@{getFields}!ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}}
+\doxysubsubsection{\texorpdfstring{getFields()}{getFields()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1FieldsContainer_aaa1bd58f282cf7e3bebb1fd1cfe6adbc} 
+std::\+vector$<$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}} $>$ ansys::\+dpf::\+\+Fields\+Container::\+get\+Fields (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&}]{lab\+\_\+space}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Fields given by \doxylink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space} 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em lab\+\_\+space} & \doxylink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space} for which to get fields. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1FieldsContainer_a45536132d19f7a61af3ff18e660ad8de}\index{ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}!getFieldsForTimeId@{getFieldsForTimeId}}
+\index{getFieldsForTimeId@{getFieldsForTimeId}!ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}}
+\doxysubsubsection{\texorpdfstring{getFieldsForTimeId()}{getFieldsForTimeId()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1FieldsContainer_a45536132d19f7a61af3ff18e660ad8de} 
+std::\+vector$<$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}} $>$ ansys::\+dpf::\+\+Fields\+Container::\+get\+Fields\+For\+Time\+Id (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}}}]{time\+\_\+id}{, }\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}}}]{complex\+\_\+id}{ = {\ttfamily 0}}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Real or imaginary (by default real) Fields at given time set. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em time\+\_\+id} & Time Set Id (1 to \# of time sets).  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em complex\+\_\+id} & Flag indicating to return imaginary part of result (0 = real part, 1 = imaginary part). \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Examples]\par
+\doxymbox{\hyperlink{ResultTest_8cpp-example}{Result\+Test.\+cpp}}.\end{Desc}
+\Hypertarget{classansys_1_1dpf_1_1FieldsContainer_a3a8ce9d9bf9a5ad8e4e3efb22d224cef}\index{ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}!getFieldsIndeces@{getFieldsIndeces}}
+\index{getFieldsIndeces@{getFieldsIndeces}!ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}}
+\doxysubsubsection{\texorpdfstring{getFieldsIndeces()}{getFieldsIndeces()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1FieldsContainer_a3a8ce9d9bf9a5ad8e4e3efb22d224cef} 
+std::\+vector$<$ int $>$ ansys::\+dpf::\+\+Fields\+Container::\+get\+Fields\+Indeces (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&}]{lab\+\_\+space}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+\doxylink{classansys_1_1dpf_1_1Field}{Field} indices for field given by \doxylink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space} 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em lab\+\_\+space} & \doxylink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space} defining field for which to get indices. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1FieldsContainer_a5122abf49c4bab17a4f7350abd5b53bb}\index{ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}!getMatchingField@{getMatchingField}}
+\index{getMatchingField@{getMatchingField}!ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}}
+\doxysubsubsection{\texorpdfstring{getMatchingField()}{getMatchingField()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1FieldsContainer_a5122abf49c4bab17a4f7350abd5b53bb} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}} ansys::\+dpf::\+\+Fields\+Container::\+get\+Matching\+Field (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&}]{label\+\_\+space}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+First matching \doxylink{classansys_1_1dpf_1_1Field}{Field} for given label space. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em label\+\_\+space} & \doxylink{structansys_1_1dpf_1_1Label}{Label} space for which to get \doxylink{classansys_1_1dpf_1_1Any}{Any}. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1FieldsContainer_aaeedf76765d3269c083354a462fc7340}\index{ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}!getMatchingFieldIndices@{getMatchingFieldIndices}}
+\index{getMatchingFieldIndices@{getMatchingFieldIndices}!ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}}
+\doxysubsubsection{\texorpdfstring{getMatchingFieldIndices()}{getMatchingFieldIndices()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1FieldsContainer_aaeedf76765d3269c083354a462fc7340} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1DpfVector}{Dpf\+Vector}}$<$ \doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}} $>$ ansys::\+dpf::\+\+Fields\+Container::\+get\+Matching\+Field\+Indices (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{Label\+Space}} const \&}]{label\+\_\+space}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Vector of matching \doxylink{classansys_1_1dpf_1_1Field}{Field} to the given label space. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em label\+\_\+space} & \doxylink{structansys_1_1dpf_1_1Label}{Label} space for which to get entries. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1FieldsContainer_aea6b234cdf457204b5fa9c8e62c7b691}\index{ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}!operator\+[]\+@{operator[]}}
+\index{operator\+[]\+@{operator[]}!ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1FieldsContainer_aea6b234cdf457204b5fa9c8e62c7b691} 
+\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}} ansys::\+dpf::\+\+Fields\+Container::\+operator\+[$\,$]\+ (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a60d181a1f9d29cc7cc38b25dac4401f0}{dp\+\_\+int}}}]{index}{}\end{DoxyParamCaption})}
+
+Get field at index. \begin{DoxyReturn}{Returns}
+\doxylink{classansys_1_1dpf_1_1Field}{Field} given by index. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em index} & Index of field within container. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classansys_1_1dpf_1_1FieldsContainer_a9f0704e94d480481e50abd20df33317c}\index{ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}!update@{update}}
+\index{update@{update}!ansys::dpf::FieldsContainer@{ansys::dpf::FieldsContainer}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1FieldsContainer_a9f0704e94d480481e50abd20df33317c} 
+void ansys::\+dpf::\+\+Fields\+Container::\+update (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{Field}} \&}]{f}{, }\item[{\doxymbox{\hyperlink{namespaceansys_1_1dpf_a417548d1b705a9ba54ba9429afe68920}{dp\+\_\+index}}}]{index}{}\end{DoxyParamCaption})}
+
+Update \doxylink{classansys_1_1dpf_1_1Field}{Field} at index 
+\begin{DoxyParams}[1]{Parameters}
+\doxymbox{\texttt{in}}  & {\em f} & New field data.  \\
+\hline
+\doxymbox{\texttt{in}}  & {\em index} & Index of field within container. \\
+\hline
+\end{DoxyParams}

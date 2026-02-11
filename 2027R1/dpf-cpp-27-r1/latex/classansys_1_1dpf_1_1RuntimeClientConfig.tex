@@ -1,0 +1,112 @@
+\doxysection{ansys::\+dpf::\+Runtime\+Client\+Config Class Reference}
+\hypertarget{classansys_1_1dpf_1_1RuntimeClientConfig}{}\label{classansys_1_1dpf_1_1RuntimeClientConfig}\index{ansys::dpf::RuntimeClientConfig@{ansys::dpf::RuntimeClientConfig}}
+
+
+{\ttfamily \+\#include $<$dpf\+\_\+api.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classansys_1_1dpf_1_1RuntimeClientConfig_a0ae5e33053e62969b2968019c869b693}\label{classansys_1_1dpf_1_1RuntimeClientConfig_a0ae5e33053e62969b2968019c869b693} 
+{\bfseries Runtime\+Client\+Config} (Runtime\+Client\+Config const \&rhs)
+\item 
+\Hypertarget{classansys_1_1dpf_1_1RuntimeClientConfig_adec9994df2fb0d2b4717c300a69ed0c2}\label{classansys_1_1dpf_1_1RuntimeClientConfig_adec9994df2fb0d2b4717c300a69ed0c2} 
+{\bfseries Runtime\+Client\+Config} (Runtime\+Client\+Config \&\&rhs) noexcept
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1RuntimeClientConfig_ab83354eaf4d8646fd7d06e0f5dbdafaf}{enable\+Cache}} (bool use\+\_\+cache)
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1RuntimeClientConfig_aac0f20eaf4cb412d3ef03d787ac38f06}{is\+Cache\+Enabled}} () const
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1RuntimeClientConfig_a286701384f2b37237c61f20d1c24eae6}{set\+Streaming\+Buffer\+Size}} (int size)
+\item 
+int \doxymbox{\hyperlink{classansys_1_1dpf_1_1RuntimeClientConfig_a31e99b0bf8468a58ca3b5bcaa1412fe6}{get\+Streaming\+Buffer\+Size}} () const
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1RuntimeClientConfig_a380e861289e9683a04ca84c250b0ecf7}{set\+Stream\+Floats\+Instead\+Of\+Doubles}} (bool use\+\_\+float)
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1RuntimeClientConfig_a38db32f9104c3c2884a734a7cf606ed7}{streaming\+Floats\+Instead\+Of\+Double}} () const
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1RuntimeClientConfig_accdb5f4e700803b8bd6b6cf8cb8623d1}{set\+Metadata}} (std::\+map$<$ std::\+string, std::\+string $>$ const \&metadata)
+\item 
+std::\+map$<$ std::\+string, std::\+string $>$ \doxymbox{\hyperlink{classansys_1_1dpf_1_1RuntimeClientConfig_afd80c6f61d3503fff0667191937dfae8}{get\+Metadata}} () const
+\item 
+void \doxymbox{\hyperlink{classansys_1_1dpf_1_1RuntimeClientConfig_aff6f9df92453eff0bea05c9ce2c96a3b}{set\+Secure\+Connection}} (bool secure)
+\item 
+bool \doxymbox{\hyperlink{classansys_1_1dpf_1_1RuntimeClientConfig_adb4e00bb129ca912c50e719176d29e59}{is\+Connection\+Secure}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+enables to set runtime configuration options to DPF \doxylink{classansys_1_1dpf_1_1Client}{Client}. 
+
+\label{doc-func-members}
+\Hypertarget{classansys_1_1dpf_1_1RuntimeClientConfig_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classansys_1_1dpf_1_1RuntimeClientConfig_ab83354eaf4d8646fd7d06e0f5dbdafaf}\index{ansys::dpf::RuntimeClientConfig@{ansys::dpf::RuntimeClientConfig}!enableCache@{enableCache}}
+\index{enableCache@{enableCache}!ansys::dpf::RuntimeClientConfig@{ansys::dpf::RuntimeClientConfig}}
+\doxysubsubsection{\texorpdfstring{enableCache()}{enableCache()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1RuntimeClientConfig_ab83354eaf4d8646fd7d06e0f5dbdafaf} 
+void ansys::\+dpf::\+\+Runtime\+Client\+Config::\+enable\+Cache (\begin{DoxyParamCaption}\item[{bool}]{use\+\_\+cache}{}\end{DoxyParamCaption})}
+
+Sets whether g\+RPC calls should be intercepted to cache responses or not. \Hypertarget{classansys_1_1dpf_1_1RuntimeClientConfig_afd80c6f61d3503fff0667191937dfae8}\index{ansys::dpf::RuntimeClientConfig@{ansys::dpf::RuntimeClientConfig}!getMetadata@{getMetadata}}
+\index{getMetadata@{getMetadata}!ansys::dpf::RuntimeClientConfig@{ansys::dpf::RuntimeClientConfig}}
+\doxysubsubsection{\texorpdfstring{getMetadata()}{getMetadata()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1RuntimeClientConfig_afd80c6f61d3503fff0667191937dfae8} 
+std::\+map$<$ std::\+string, std::\+string $>$ ansys::\+dpf::\+\+Runtime\+Client\+Config::\+get\+Metadata (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+Gets the custom metadata appended to g\+RPC packets. \Hypertarget{classansys_1_1dpf_1_1RuntimeClientConfig_a31e99b0bf8468a58ca3b5bcaa1412fe6}\index{ansys::dpf::RuntimeClientConfig@{ansys::dpf::RuntimeClientConfig}!getStreamingBufferSize@{getStreamingBufferSize}}
+\index{getStreamingBufferSize@{getStreamingBufferSize}!ansys::dpf::RuntimeClientConfig@{ansys::dpf::RuntimeClientConfig}}
+\doxysubsubsection{\texorpdfstring{getStreamingBufferSize()}{getStreamingBufferSize()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1RuntimeClientConfig_a31e99b0bf8468a58ca3b5bcaa1412fe6} 
+int ansys::\+dpf::\+\+Runtime\+Client\+Config::\+get\+Streaming\+Buffer\+Size (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+the chunk size (in bytes) used in g\+RPC streaming calls. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1RuntimeClientConfig_aac0f20eaf4cb412d3ef03d787ac38f06}\index{ansys::dpf::RuntimeClientConfig@{ansys::dpf::RuntimeClientConfig}!isCacheEnabled@{isCacheEnabled}}
+\index{isCacheEnabled@{isCacheEnabled}!ansys::dpf::RuntimeClientConfig@{ansys::dpf::RuntimeClientConfig}}
+\doxysubsubsection{\texorpdfstring{isCacheEnabled()}{isCacheEnabled()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1RuntimeClientConfig_aac0f20eaf4cb412d3ef03d787ac38f06} 
+bool ansys::\+dpf::\+\+Runtime\+Client\+Config::\+is\+Cache\+Enabled (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Whether g\+RPC calls are intercepted to cache responses or not. 
+\end{DoxyReturn}
+\Hypertarget{classansys_1_1dpf_1_1RuntimeClientConfig_adb4e00bb129ca912c50e719176d29e59}\index{ansys::dpf::RuntimeClientConfig@{ansys::dpf::RuntimeClientConfig}!isConnectionSecure@{isConnectionSecure}}
+\index{isConnectionSecure@{isConnectionSecure}!ansys::dpf::RuntimeClientConfig@{ansys::dpf::RuntimeClientConfig}}
+\doxysubsubsection{\texorpdfstring{isConnectionSecure()}{isConnectionSecure()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1RuntimeClientConfig_adb4e00bb129ca912c50e719176d29e59} 
+bool ansys::\+dpf::\+\+Runtime\+Client\+Config::\+is\+Connection\+Secure (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+Returns if the g\+RPC communication is secured by using TLS. \Hypertarget{classansys_1_1dpf_1_1RuntimeClientConfig_accdb5f4e700803b8bd6b6cf8cb8623d1}\index{ansys::dpf::RuntimeClientConfig@{ansys::dpf::RuntimeClientConfig}!setMetadata@{setMetadata}}
+\index{setMetadata@{setMetadata}!ansys::dpf::RuntimeClientConfig@{ansys::dpf::RuntimeClientConfig}}
+\doxysubsubsection{\texorpdfstring{setMetadata()}{setMetadata()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1RuntimeClientConfig_accdb5f4e700803b8bd6b6cf8cb8623d1} 
+void ansys::\+dpf::\+\+Runtime\+Client\+Config::\+set\+Metadata (\begin{DoxyParamCaption}\item[{std::\+map$<$ std::\+string, std::\+string $>$ const \&}]{metadata}{}\end{DoxyParamCaption})}
+
+Sets the custom metadata appended to g\+RPC packets. \Hypertarget{classansys_1_1dpf_1_1RuntimeClientConfig_aff6f9df92453eff0bea05c9ce2c96a3b}\index{ansys::dpf::RuntimeClientConfig@{ansys::dpf::RuntimeClientConfig}!setSecureConnection@{setSecureConnection}}
+\index{setSecureConnection@{setSecureConnection}!ansys::dpf::RuntimeClientConfig@{ansys::dpf::RuntimeClientConfig}}
+\doxysubsubsection{\texorpdfstring{setSecureConnection()}{setSecureConnection()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1RuntimeClientConfig_aff6f9df92453eff0bea05c9ce2c96a3b} 
+void ansys::\+dpf::\+\+Runtime\+Client\+Config::\+set\+Secure\+Connection (\begin{DoxyParamCaption}\item[{bool}]{secure}{}\end{DoxyParamCaption})}
+
+Sets the use of TLS for secure g\+RPC connections. \Hypertarget{classansys_1_1dpf_1_1RuntimeClientConfig_a380e861289e9683a04ca84c250b0ecf7}\index{ansys::dpf::RuntimeClientConfig@{ansys::dpf::RuntimeClientConfig}!setStreamFloatsInsteadOfDoubles@{setStreamFloatsInsteadOfDoubles}}
+\index{setStreamFloatsInsteadOfDoubles@{setStreamFloatsInsteadOfDoubles}!ansys::dpf::RuntimeClientConfig@{ansys::dpf::RuntimeClientConfig}}
+\doxysubsubsection{\texorpdfstring{setStreamFloatsInsteadOfDoubles()}{setStreamFloatsInsteadOfDoubles()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1RuntimeClientConfig_a380e861289e9683a04ca84c250b0ecf7} 
+void ansys::\+dpf::\+\+Runtime\+Client\+Config::\+set\+Stream\+Floats\+Instead\+Of\+Doubles (\begin{DoxyParamCaption}\item[{bool}]{use\+\_\+float}{}\end{DoxyParamCaption})}
+
+Sets whether double values (8 bytes) should be converted and streamed as floats values (4 bytes) in g\+RPC streaming calls. \Hypertarget{classansys_1_1dpf_1_1RuntimeClientConfig_a286701384f2b37237c61f20d1c24eae6}\index{ansys::dpf::RuntimeClientConfig@{ansys::dpf::RuntimeClientConfig}!setStreamingBufferSize@{setStreamingBufferSize}}
+\index{setStreamingBufferSize@{setStreamingBufferSize}!ansys::dpf::RuntimeClientConfig@{ansys::dpf::RuntimeClientConfig}}
+\doxysubsubsection{\texorpdfstring{setStreamingBufferSize()}{setStreamingBufferSize()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1RuntimeClientConfig_a286701384f2b37237c61f20d1c24eae6} 
+void ansys::\+dpf::\+\+Runtime\+Client\+Config::\+set\+Streaming\+Buffer\+Size (\begin{DoxyParamCaption}\item[{int}]{size}{}\end{DoxyParamCaption})}
+
+Sets the chunk size (in bytes) used in g\+RPC streaming calls. \Hypertarget{classansys_1_1dpf_1_1RuntimeClientConfig_a38db32f9104c3c2884a734a7cf606ed7}\index{ansys::dpf::RuntimeClientConfig@{ansys::dpf::RuntimeClientConfig}!streamingFloatsInsteadOfDouble@{streamingFloatsInsteadOfDouble}}
+\index{streamingFloatsInsteadOfDouble@{streamingFloatsInsteadOfDouble}!ansys::dpf::RuntimeClientConfig@{ansys::dpf::RuntimeClientConfig}}
+\doxysubsubsection{\texorpdfstring{streamingFloatsInsteadOfDouble()}{streamingFloatsInsteadOfDouble()}}
+{\footnotesize\ttfamily \label{classansys_1_1dpf_1_1RuntimeClientConfig_a38db32f9104c3c2884a734a7cf606ed7} 
+bool ansys::\+dpf::\+\+Runtime\+Client\+Config::\+streaming\+Floats\+Instead\+Of\+Double (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+Whether double values (8 bytes) are converted and streamed as floats values (4 bytes) in g\+RPC streaming calls. 
+\end{DoxyReturn}

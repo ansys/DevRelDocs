@@ -1,0 +1,483 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="structansys_1_1dpf_1_1property__types" kind="struct" language="C++" prot="public">
+    <compoundname>ansys::dpf::property_types</compoundname>
+    <includes local="no">dpf_api_base.h</includes>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1property__types_1ae632da7ba6f924afd81d0734274be49d" prot="private" static="yes" mutable="no">
+        <type>std::vector&lt; <ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref> &gt;</type>
+        <definition>std::vector&lt;PropertyType&gt; ansys::dpf::property_types::_existing_props</definition>
+        <argsstring></argsstring>
+        <name>_existing_props</name>
+        <qualifiedname>ansys::dpf::property_types::_existing_props</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="249" column="20" bodyfile="dpf_api_base.h" bodystart="249" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1property__types_1aa4f6eaec75972b7eb1d0fe17a8ccf08a" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref></type>
+        <definition>const PropertyType ansys::dpf::property_types::material</definition>
+        <argsstring></argsstring>
+        <name>material</name>
+        <qualifiedname>ansys::dpf::property_types::material</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined material property type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="259" column="27" bodyfile="dpf_api_base.h" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1property__types_1af406e925d304de3e757eb3866e23368a" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref></type>
+        <definition>const PropertyType ansys::dpf::property_types::element_shape</definition>
+        <argsstring></argsstring>
+        <name>element_shape</name>
+        <qualifiedname>ansys::dpf::property_types::element_shape</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined element_shape property type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="261" column="27" bodyfile="dpf_api_base.h" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1property__types_1aa501bd7caa4d1252a5a0e8d12dbaa355" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref></type>
+        <definition>const PropertyType ansys::dpf::property_types::element_type</definition>
+        <argsstring></argsstring>
+        <name>element_type</name>
+        <qualifiedname>ansys::dpf::property_types::element_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined element_type property type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="263" column="27" bodyfile="dpf_api_base.h" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1property__types_1aa4fbbcfd27fb23722ee70e8785b06102" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref></type>
+        <definition>const PropertyType ansys::dpf::property_types::element_properties</definition>
+        <argsstring></argsstring>
+        <name>element_properties</name>
+        <qualifiedname>ansys::dpf::property_types::element_properties</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined element_properties property type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="265" column="27" bodyfile="dpf_api_base.h" bodystart="265" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1property__types_1a635e2eac0083346df7a0403deae50a73" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref></type>
+        <definition>const PropertyType ansys::dpf::property_types::connectivity</definition>
+        <argsstring></argsstring>
+        <name>connectivity</name>
+        <qualifiedname>ansys::dpf::property_types::connectivity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined connectivity property type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="267" column="27" bodyfile="dpf_api_base.h" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1property__types_1a9cc9c60cd0efd36522e1f9081a002019" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref></type>
+        <definition>const PropertyType ansys::dpf::property_types::apdl_element_type</definition>
+        <argsstring></argsstring>
+        <name>apdl_element_type</name>
+        <qualifiedname>ansys::dpf::property_types::apdl_element_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined apdl_element_type property type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="269" column="27" bodyfile="dpf_api_base.h" bodystart="269" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1property__types_1a045cec6548d902ddedea643c669ab466" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref></type>
+        <definition>const PropertyType ansys::dpf::property_types::faces_nodes_connectivity</definition>
+        <argsstring></argsstring>
+        <name>faces_nodes_connectivity</name>
+        <qualifiedname>ansys::dpf::property_types::faces_nodes_connectivity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined faces_nodes_connectivity property type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="271" column="27" bodyfile="dpf_api_base.h" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1property__types_1ad3ae6e46a0dcaf86c45205a4a3adb306" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref></type>
+        <definition>const PropertyType ansys::dpf::property_types::elements_faces_connectivity</definition>
+        <argsstring></argsstring>
+        <name>elements_faces_connectivity</name>
+        <qualifiedname>ansys::dpf::property_types::elements_faces_connectivity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined elements_faces_connectivity property type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="273" column="27" bodyfile="dpf_api_base.h" bodystart="273" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1property__types_1accf10b5281ea85cdbb8584eee12fa9ac" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref></type>
+        <definition>const PropertyType ansys::dpf::property_types::elements_faces_reversed</definition>
+        <argsstring></argsstring>
+        <name>elements_faces_reversed</name>
+        <qualifiedname>ansys::dpf::property_types::elements_faces_reversed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined elements_faces_reversed property type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="275" column="27" bodyfile="dpf_api_base.h" bodystart="275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1property__types_1a4ea0c81e428eb05163fdde6038ea8064" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref></type>
+        <definition>const PropertyType ansys::dpf::property_types::coordinates</definition>
+        <argsstring></argsstring>
+        <name>coordinates</name>
+        <qualifiedname>ansys::dpf::property_types::coordinates</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined coordinates property type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="277" column="27" bodyfile="dpf_api_base.h" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1property__types_1a71123bf897aaf8e883cd842e35f4ac85" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref></type>
+        <definition>const PropertyType ansys::dpf::property_types::faces_type</definition>
+        <argsstring></argsstring>
+        <name>faces_type</name>
+        <qualifiedname>ansys::dpf::property_types::faces_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined faces_type property type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="279" column="27" bodyfile="dpf_api_base.h" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1property__types_1ac5e5820dbebb1d236312d401cecf4b0a" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref></type>
+        <definition>const PropertyType ansys::dpf::property_types::time_freqs</definition>
+        <argsstring></argsstring>
+        <name>time_freqs</name>
+        <qualifiedname>ansys::dpf::property_types::time_freqs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined time_freqs <ref refid="classansys_1_1dpf_1_1TimeFreqSupport" kindref="compound">TimeFreqSupport</ref> property type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="281" column="27" bodyfile="dpf_api_base.h" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1property__types_1a277a217dc4bf085ecde7042a188bb5f6" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref></type>
+        <definition>const PropertyType ansys::dpf::property_types::imaginary_freqs</definition>
+        <argsstring></argsstring>
+        <name>imaginary_freqs</name>
+        <qualifiedname>ansys::dpf::property_types::imaginary_freqs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined imaginary_freqs <ref refid="classansys_1_1dpf_1_1TimeFreqSupport" kindref="compound">TimeFreqSupport</ref> property type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="283" column="27" bodyfile="dpf_api_base.h" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1property__types_1ae07aa6d83c8a542d894a0a305248d739" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref></type>
+        <definition>const PropertyType ansys::dpf::property_types::rpms</definition>
+        <argsstring></argsstring>
+        <name>rpms</name>
+        <qualifiedname>ansys::dpf::property_types::rpms</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined rpms <ref refid="classansys_1_1dpf_1_1TimeFreqSupport" kindref="compound">TimeFreqSupport</ref> property type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="285" column="27" bodyfile="dpf_api_base.h" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1property__types_1a2d71c67f4c7a99ce657ac4c914b3d587" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref></type>
+        <definition>const PropertyType ansys::dpf::property_types::harmonic_indices</definition>
+        <argsstring></argsstring>
+        <name>harmonic_indices</name>
+        <qualifiedname>ansys::dpf::property_types::harmonic_indices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined harmonic_indices <ref refid="classansys_1_1dpf_1_1TimeFreqSupport" kindref="compound">TimeFreqSupport</ref> property type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="287" column="27" bodyfile="dpf_api_base.h" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1property__types_1a1af51362a7b4941165493d13b1e4d116" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref></type>
+        <definition>const PropertyType ansys::dpf::property_types::time_freqs_substep_ids</definition>
+        <argsstring></argsstring>
+        <name>time_freqs_substep_ids</name>
+        <qualifiedname>ansys::dpf::property_types::time_freqs_substep_ids</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined time_freqs_substep_ids <ref refid="classansys_1_1dpf_1_1TimeFreqSupport" kindref="compound">TimeFreqSupport</ref> property type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="289" column="27" bodyfile="dpf_api_base.h" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1property__types_1a922015c78fa0f6a14f44f144e59025fe" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref></type>
+        <definition>const PropertyType ansys::dpf::property_types::time_freqs_cumulative_ids</definition>
+        <argsstring></argsstring>
+        <name>time_freqs_cumulative_ids</name>
+        <qualifiedname>ansys::dpf::property_types::time_freqs_cumulative_ids</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined time_freqs_cumulative_ids <ref refid="classansys_1_1dpf_1_1TimeFreqSupport" kindref="compound">TimeFreqSupport</ref> property type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="291" column="27" bodyfile="dpf_api_base.h" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1property__types_1ad098d8385b4950f536341b64984f8606" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref></type>
+        <definition>const PropertyType ansys::dpf::property_types::imaginary_freqs_substep_ids</definition>
+        <argsstring></argsstring>
+        <name>imaginary_freqs_substep_ids</name>
+        <qualifiedname>ansys::dpf::property_types::imaginary_freqs_substep_ids</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined imaginary_freqs_substep_ids <ref refid="classansys_1_1dpf_1_1TimeFreqSupport" kindref="compound">TimeFreqSupport</ref> property type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="293" column="27" bodyfile="dpf_api_base.h" bodystart="293" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1property__types_1a09ed687d86b7f75af9fef606d731660f" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref></type>
+        <definition>const PropertyType ansys::dpf::property_types::imaginary_freqs_cumulative_ids</definition>
+        <argsstring></argsstring>
+        <name>imaginary_freqs_cumulative_ids</name>
+        <qualifiedname>ansys::dpf::property_types::imaginary_freqs_cumulative_ids</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined imaginary_freqs_cumulative_ids <ref refid="classansys_1_1dpf_1_1TimeFreqSupport" kindref="compound">TimeFreqSupport</ref> property type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="295" column="27" bodyfile="dpf_api_base.h" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1property__types_1a0c7aacd1e99cffec129755334e247207" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref></type>
+        <definition>const PropertyType ansys::dpf::property_types::names</definition>
+        <argsstring></argsstring>
+        <name>names</name>
+        <qualifiedname>ansys::dpf::property_types::names</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined names CommonSupport property type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="297" column="27" bodyfile="dpf_api_base.h" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1property__types_1acf54e38c914e28ec161dec13d6e26937" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref></type>
+        <definition>const PropertyType ansys::dpf::property_types::cell_zone_id</definition>
+        <argsstring></argsstring>
+        <name>cell_zone_id</name>
+        <qualifiedname>ansys::dpf::property_types::cell_zone_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined cell_zone_id property type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="299" column="27" bodyfile="dpf_api_base.h" bodystart="299" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1property__types_1a330d0c4eee86652fc54cf20b738f126d" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref></type>
+        <definition>const PropertyType ansys::dpf::property_types::face_zone_id</definition>
+        <argsstring></argsstring>
+        <name>face_zone_id</name>
+        <qualifiedname>ansys::dpf::property_types::face_zone_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined face_zone_id property type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="301" column="27" bodyfile="dpf_api_base.h" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1property__types_1ae937b4e4dd19ad9f03978fd8353378de" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref></type>
+        <definition>const PropertyType ansys::dpf::property_types::part_id</definition>
+        <argsstring></argsstring>
+        <name>part_id</name>
+        <qualifiedname>ansys::dpf::property_types::part_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined part_id property type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="303" column="27" bodyfile="dpf_api_base.h" bodystart="303" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structansys_1_1dpf_1_1property__types_1a20bd60975a0c8d2243fb3a86099f99ea" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref></type>
+        <definition>const PropertyType ansys::dpf::property_types::section</definition>
+        <argsstring></argsstring>
+        <name>section</name>
+        <qualifiedname>ansys::dpf::property_types::section</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predefined section property type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="305" column="27" bodyfile="dpf_api_base.h" bodystart="305" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structansys_1_1dpf_1_1property__types_1a615a7b62841a0bc1ccbe546e284bec73" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref> &gt; const &amp;</type>
+        <definition>static std::vector&lt; PropertyType &gt; const  &amp; ansys::dpf::property_types::all</definition>
+        <argsstring>()</argsstring>
+        <name>all</name>
+        <qualifiedname>ansys::dpf::property_types::all</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets all user-defined and predefined property types. <simplesect kind="return"><para>All property types. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="254" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1property__types_1ad26ecf69fb0bcf015b52fdd55977b419" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ansys::dpf::property_types::add_custom</definition>
+        <argsstring>(PropertyType const &amp;rhs)</argsstring>
+        <name>add_custom</name>
+        <qualifiedname>ansys::dpf::property_types::add_custom</qualifiedname>
+        <param>
+          <type><ref refid="structansys_1_1dpf_1_1PropertyType" kindref="compound">PropertyType</ref> const &amp;</type>
+          <declname>rhs</declname>
+          <briefdescription><para>[in] Property object. </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds a custom defined property type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="256" column="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Predefined property types. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>ansys::dpf::PropertyType</label>
+        <link refid="structansys_1_1dpf_1_1PropertyType"/>
+      </node>
+      <node id="1">
+        <label>ansys::dpf::property_types</label>
+        <link refid="structansys_1_1dpf_1_1property__types"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>apdl_element_type</edgelabel>
+          <edgelabel>cell_zone_id</edgelabel>
+          <edgelabel>connectivity</edgelabel>
+          <edgelabel>coordinates</edgelabel>
+          <edgelabel>element_properties</edgelabel>
+          <edgelabel>element_shape</edgelabel>
+          <edgelabel>element_type</edgelabel>
+          <edgelabel>elements_faces_connectivity</edgelabel>
+          <edgelabel>elements_faces_reversed</edgelabel>
+          <edgelabel>face_zone_id</edgelabel>
+          <edgelabel>  ...</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="dpf_api_base.h" line="246" column="1" bodyfile="dpf_api_base.h" bodystart="247" bodyend="307"/>
+    <listofallmembers>
+      <member refid="structansys_1_1dpf_1_1property__types_1ae632da7ba6f924afd81d0734274be49d" prot="private" virt="non-virtual"><scope>ansys::dpf::property_types</scope><name>_existing_props</name></member>
+      <member refid="structansys_1_1dpf_1_1property__types_1ad26ecf69fb0bcf015b52fdd55977b419" prot="public" virt="non-virtual"><scope>ansys::dpf::property_types</scope><name>add_custom</name></member>
+      <member refid="structansys_1_1dpf_1_1property__types_1a615a7b62841a0bc1ccbe546e284bec73" prot="public" virt="non-virtual"><scope>ansys::dpf::property_types</scope><name>all</name></member>
+      <member refid="structansys_1_1dpf_1_1property__types_1a9cc9c60cd0efd36522e1f9081a002019" prot="public" virt="non-virtual"><scope>ansys::dpf::property_types</scope><name>apdl_element_type</name></member>
+      <member refid="structansys_1_1dpf_1_1property__types_1acf54e38c914e28ec161dec13d6e26937" prot="public" virt="non-virtual"><scope>ansys::dpf::property_types</scope><name>cell_zone_id</name></member>
+      <member refid="structansys_1_1dpf_1_1property__types_1a635e2eac0083346df7a0403deae50a73" prot="public" virt="non-virtual"><scope>ansys::dpf::property_types</scope><name>connectivity</name></member>
+      <member refid="structansys_1_1dpf_1_1property__types_1a4ea0c81e428eb05163fdde6038ea8064" prot="public" virt="non-virtual"><scope>ansys::dpf::property_types</scope><name>coordinates</name></member>
+      <member refid="structansys_1_1dpf_1_1property__types_1aa4fbbcfd27fb23722ee70e8785b06102" prot="public" virt="non-virtual"><scope>ansys::dpf::property_types</scope><name>element_properties</name></member>
+      <member refid="structansys_1_1dpf_1_1property__types_1af406e925d304de3e757eb3866e23368a" prot="public" virt="non-virtual"><scope>ansys::dpf::property_types</scope><name>element_shape</name></member>
+      <member refid="structansys_1_1dpf_1_1property__types_1aa501bd7caa4d1252a5a0e8d12dbaa355" prot="public" virt="non-virtual"><scope>ansys::dpf::property_types</scope><name>element_type</name></member>
+      <member refid="structansys_1_1dpf_1_1property__types_1ad3ae6e46a0dcaf86c45205a4a3adb306" prot="public" virt="non-virtual"><scope>ansys::dpf::property_types</scope><name>elements_faces_connectivity</name></member>
+      <member refid="structansys_1_1dpf_1_1property__types_1accf10b5281ea85cdbb8584eee12fa9ac" prot="public" virt="non-virtual"><scope>ansys::dpf::property_types</scope><name>elements_faces_reversed</name></member>
+      <member refid="structansys_1_1dpf_1_1property__types_1a330d0c4eee86652fc54cf20b738f126d" prot="public" virt="non-virtual"><scope>ansys::dpf::property_types</scope><name>face_zone_id</name></member>
+      <member refid="structansys_1_1dpf_1_1property__types_1a045cec6548d902ddedea643c669ab466" prot="public" virt="non-virtual"><scope>ansys::dpf::property_types</scope><name>faces_nodes_connectivity</name></member>
+      <member refid="structansys_1_1dpf_1_1property__types_1a71123bf897aaf8e883cd842e35f4ac85" prot="public" virt="non-virtual"><scope>ansys::dpf::property_types</scope><name>faces_type</name></member>
+      <member refid="structansys_1_1dpf_1_1property__types_1a2d71c67f4c7a99ce657ac4c914b3d587" prot="public" virt="non-virtual"><scope>ansys::dpf::property_types</scope><name>harmonic_indices</name></member>
+      <member refid="structansys_1_1dpf_1_1property__types_1a277a217dc4bf085ecde7042a188bb5f6" prot="public" virt="non-virtual"><scope>ansys::dpf::property_types</scope><name>imaginary_freqs</name></member>
+      <member refid="structansys_1_1dpf_1_1property__types_1a09ed687d86b7f75af9fef606d731660f" prot="public" virt="non-virtual"><scope>ansys::dpf::property_types</scope><name>imaginary_freqs_cumulative_ids</name></member>
+      <member refid="structansys_1_1dpf_1_1property__types_1ad098d8385b4950f536341b64984f8606" prot="public" virt="non-virtual"><scope>ansys::dpf::property_types</scope><name>imaginary_freqs_substep_ids</name></member>
+      <member refid="structansys_1_1dpf_1_1property__types_1aa4f6eaec75972b7eb1d0fe17a8ccf08a" prot="public" virt="non-virtual"><scope>ansys::dpf::property_types</scope><name>material</name></member>
+      <member refid="structansys_1_1dpf_1_1property__types_1a0c7aacd1e99cffec129755334e247207" prot="public" virt="non-virtual"><scope>ansys::dpf::property_types</scope><name>names</name></member>
+      <member refid="structansys_1_1dpf_1_1property__types_1ae937b4e4dd19ad9f03978fd8353378de" prot="public" virt="non-virtual"><scope>ansys::dpf::property_types</scope><name>part_id</name></member>
+      <member refid="structansys_1_1dpf_1_1property__types_1ae07aa6d83c8a542d894a0a305248d739" prot="public" virt="non-virtual"><scope>ansys::dpf::property_types</scope><name>rpms</name></member>
+      <member refid="structansys_1_1dpf_1_1property__types_1a20bd60975a0c8d2243fb3a86099f99ea" prot="public" virt="non-virtual"><scope>ansys::dpf::property_types</scope><name>section</name></member>
+      <member refid="structansys_1_1dpf_1_1property__types_1ac5e5820dbebb1d236312d401cecf4b0a" prot="public" virt="non-virtual"><scope>ansys::dpf::property_types</scope><name>time_freqs</name></member>
+      <member refid="structansys_1_1dpf_1_1property__types_1a922015c78fa0f6a14f44f144e59025fe" prot="public" virt="non-virtual"><scope>ansys::dpf::property_types</scope><name>time_freqs_cumulative_ids</name></member>
+      <member refid="structansys_1_1dpf_1_1property__types_1a1af51362a7b4941165493d13b1e4d116" prot="public" virt="non-virtual"><scope>ansys::dpf::property_types</scope><name>time_freqs_substep_ids</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

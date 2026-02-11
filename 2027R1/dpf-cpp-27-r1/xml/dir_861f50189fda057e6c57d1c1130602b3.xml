@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="dir_861f50189fda057e6c57d1c1130602b3" kind="dir">
+    <compoundname>helpers</compoundname>
+    <innerfile refid="dpf__meshQuery_8h">dpf_meshQuery.h</innerfile>
+    <innerfile refid="dpf__model_8h">dpf_model.h</innerfile>
+    <innerfile refid="dpf__result_8h">dpf_result.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="helpers/"/>
+  </compounddef>
+</doxygen>

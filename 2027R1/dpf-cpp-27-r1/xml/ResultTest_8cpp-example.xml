@@ -1,0 +1,823 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="ResultTest_8cpp-example" kind="example">
+    <compoundname>ResultTest.cpp</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Examples showing how to access results data in an RST file. <programlisting filename="ResultTest.cpp"><codeline><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="comment">//<sp/>COPYRIGHT<sp/>ANSYS.<sp/>ALL<sp/>RIGHTS<sp/>RESERVED.</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>EXAMPLE</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Example.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gtest/gtest.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;helpers/dpf_result.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;helpers/dpf_model.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../../UnitTestUtilities/UnitTestHelper.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceansys_1_1dpf" kindref="compound">ansys::dpf</ref>;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">TEST(result_info,<sp/>DimensionalityNature_Homogeneity_AnalysisType_PhysicsType_unitSystem)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>fileName(</highlight><highlight class="stringliteral">&quot;../../../testfiles/mapdl_files/TwoSolids.rst&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DataSources" kindref="compound">ansys::dpf::DataSources</ref><sp/>ds;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>ds.<ref refid="classansys_1_1dpf_1_1DataSources_1ad2a5bb6f24ca621ffaaee9e7a47cdc20" kindref="member">addResultFile</ref>(fileName);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">ansys::dpf::Operator</ref><sp/>provider(</highlight><highlight class="stringliteral">&quot;ResultInfoProvider&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>provider.connect(4,<sp/>ds);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1ResultInfo" kindref="compound">ansys::dpf::ResultInfo</ref><sp/>res_info<sp/>=<sp/>provider.getOutputResultInfo(0);<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>analysis_type_name<sp/>=<sp/>res_info.<ref refid="classansys_1_1dpf_1_1ResultInfo_1ac0f80a2ea905a13dccc274790ef6cbc7" kindref="member">analysisTypeName</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(analysis_type_name,<sp/>std::string(</highlight><highlight class="stringliteral">&quot;static&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>physics_type_name<sp/>=<sp/>res_info.<ref refid="classansys_1_1dpf_1_1ResultInfo_1a4400684a038c4fd6dbae406e828c94f2" kindref="member">physicsTypeName</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(physics_type_name,<sp/>std::string(</highlight><highlight class="stringliteral">&quot;mechanical&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>unit_sys_name<sp/>=<sp/>res_info.<ref refid="classansys_1_1dpf_1_1ResultInfo_1ae358df95bebd891adf15148f5b26d21d" kindref="member">unitSystemName</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(unit_sys_name,<sp/>std::string(</highlight><highlight class="stringliteral">&quot;MKS:<sp/>m,<sp/>kg,<sp/>N,<sp/>s,<sp/>V,<sp/>A,<sp/>degC&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::set&lt;std::string&gt;<sp/>res<sp/>=<sp/>res_info.<ref refid="classansys_1_1dpf_1_1ResultInfo_1a48e23d251d6109166a2a1f681a39c58a" kindref="member">availableResults</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>iter<sp/>=<sp/>res.begin();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>iter++;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>res_name<sp/>=<sp/>*iter;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932f" kindref="member">ansys::dpf::Dimensionality::ENature</ref><sp/>nat<sp/>=<sp/>res_info.<ref refid="classansys_1_1dpf_1_1ResultInfo_1ab47931a377a99ccb9bc6727bb6187d74" kindref="member">nature</ref>(res_name);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(nat,<sp/>ansys::dpf::Dimensionality::eScalar);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>energy</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>res_name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Energy-stiffness<sp/>matrix&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Unit" kindref="compound">ansys::dpf::Unit</ref><sp/>unit_res<sp/>=<sp/>res_info.unit(res_name);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(std::string(unit_res.<ref refid="classansys_1_1dpf_1_1Unit_1a2ca6139006413a975a4995505ab826fc" kindref="member">homogeneity</ref>().<ref refid="classansys_1_1dpf_1_1Homogeneity_1a74bcfe9b2ed50910f2da21944e3b7437" kindref="member">c_str</ref>()),<sp/>std::string(</highlight><highlight class="stringliteral">&quot;Energy&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>disp</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>res_name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Displacement&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>unit_res<sp/>=<sp/>res_info.unit(res_name);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(std::string(unit_res.<ref refid="classansys_1_1dpf_1_1Unit_1a2ca6139006413a975a4995505ab826fc" kindref="member">homogeneity</ref>().<ref refid="classansys_1_1dpf_1_1Homogeneity_1a74bcfe9b2ed50910f2da21944e3b7437" kindref="member">c_str</ref>()),<sp/>std::string(</highlight><highlight class="stringliteral">&quot;Displacement&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Force</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>res_name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Force&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>unit_res<sp/>=<sp/>res_info.unit(res_name);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(std::string(unit_res.<ref refid="classansys_1_1dpf_1_1Unit_1a2ca6139006413a975a4995505ab826fc" kindref="member">homogeneity</ref>().<ref refid="classansys_1_1dpf_1_1Homogeneity_1a74bcfe9b2ed50910f2da21944e3b7437" kindref="member">c_str</ref>()),<sp/>std::string(</highlight><highlight class="stringliteral">&quot;Force&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Strain</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>res_name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Strain&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>unit_res<sp/>=<sp/>res_info.unit(res_name);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(std::string(unit_res.<ref refid="classansys_1_1dpf_1_1Unit_1a2ca6139006413a975a4995505ab826fc" kindref="member">homogeneity</ref>().<ref refid="classansys_1_1dpf_1_1Homogeneity_1a74bcfe9b2ed50910f2da21944e3b7437" kindref="member">c_str</ref>()),<sp/>std::string(</highlight><highlight class="stringliteral">&quot;DimensionLess&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Contact<sp/>Pressure</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>res_name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Contact<sp/>Pressure&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>unit_res<sp/>=<sp/>res_info.unit(res_name);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(std::string(unit_res.<ref refid="classansys_1_1dpf_1_1Unit_1a2ca6139006413a975a4995505ab826fc" kindref="member">homogeneity</ref>().<ref refid="classansys_1_1dpf_1_1Homogeneity_1a74bcfe9b2ed50910f2da21944e3b7437" kindref="member">c_str</ref>()),<sp/>std::string(</highlight><highlight class="stringliteral">&quot;Pressure&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">TEST(Results,<sp/>readSEQV)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>fileName(</highlight><highlight class="stringliteral">&quot;../../../testfiles/mapdl_files/TwoSolids.rst&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Model" kindref="compound">ansys::dpf::Model</ref><sp/>model(fileName);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref><sp/>res<sp/>=<sp/>model.CreateResultEvaluationWorkflow(</highlight><highlight class="stringliteral">&quot;S_eqv&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref><sp/>error;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>fieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1ac8e07e03eba295dacfe13a100603d5c4" kindref="member">EvaluateAtGivenTime</ref>(0.0,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldsContainer.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>field<sp/>=<sp/>fieldsContainer[0];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structansys_1_1dpf_1_1Location" kindref="compound">Location</ref><sp/>location<sp/>=<sp/>field.<ref refid="classansys_1_1dpf_1_1Field_1a860e65caa16f612746ad116429282fd3" kindref="member">fieldDefinition</ref>().<ref refid="classansys_1_1dpf_1_1FieldDefinition_1a9ea61f23ef1eb93c794b7c222d7740b8" kindref="member">location</ref>();</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>344);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref><sp/>size;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref><sp/>minmax<sp/>=<sp/><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref>(</highlight><highlight class="stringliteral">&quot;min_max&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>minmax.connect(0,<sp/>field);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>fieldMin<sp/>=<sp/>minmax.<ref refid="classansys_1_1dpf_1_1Operator_1a888c9e303c08320944b1a328a73e1ac3" kindref="member">getOutputField</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>fieldMax<sp/>=<sp/>minmax.<ref refid="classansys_1_1dpf_1_1Operator_1a888c9e303c08320944b1a328a73e1ac3" kindref="member">getOutputField</ref>(1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>dataMax<sp/>=<sp/>fieldMax.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>dataMin<sp/>=<sp/>fieldMin.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>ids_max<sp/>=<sp/>fieldMax.<ref refid="classansys_1_1dpf_1_1Field_1aa16920741c1432c16e46ec6da26b3f04" kindref="member">scoping</ref>().<ref refid="classansys_1_1dpf_1_1Scoping_1acf26749e29d9f23de6c70806ccfaea6b" kindref="member">ids</ref>(size);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>ids_min<sp/>=<sp/>fieldMin.<ref refid="classansys_1_1dpf_1_1Field_1aa16920741c1432c16e46ec6da26b3f04" kindref="member">scoping</ref>().<ref refid="classansys_1_1dpf_1_1Scoping_1acf26749e29d9f23de6c70806ccfaea6b" kindref="member">ids</ref>(size);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(dataMax[0],<sp/>6314.9823137518824);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(dataMin[0],<sp/>62.022552581514269);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(ids_max[0],<sp/>85);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(ids_min[0],<sp/>141);<sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">TEST(Results,<sp/>readSEQVAtGivenNode)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>fileName(</highlight><highlight class="stringliteral">&quot;../../../testfiles/mapdl_files/TwoSolids.rst&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Model" kindref="compound">ansys::dpf::Model</ref><sp/>model(fileName);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref><sp/>res<sp/>=<sp/>model.CreateResultEvaluationWorkflow(</highlight><highlight class="stringliteral">&quot;S_eqv&quot;</highlight><highlight class="normal">,<sp/><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref>({<sp/>1<sp/>},<sp/><ref refid="structansys_1_1dpf_1_1locations_1aa4e1967b0838d8597200c606c8564d29" kindref="member">ansys::dpf::locations::nodal</ref>));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref><sp/>error;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>fieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1ac8e07e03eba295dacfe13a100603d5c4" kindref="member">EvaluateAtGivenTime</ref>(0.0,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldsContainer.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>field<sp/>=<sp/>fieldsContainer[0];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_STREQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a860e65caa16f612746ad116429282fd3" kindref="member">fieldDefinition</ref>().<ref refid="classansys_1_1dpf_1_1FieldDefinition_1a9ea61f23ef1eb93c794b7c222d7740b8" kindref="member">location</ref>().<ref refid="structansys_1_1dpf_1_1Location_1ad9fab192124627740ffa623b1a0221ea" kindref="member">c_str</ref>(),<sp/><ref refid="structansys_1_1dpf_1_1locations_1aa4e1967b0838d8597200c606c8564d29" kindref="member">locations::nodal</ref>.c_str());</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1aa16920741c1432c16e46ec6da26b3f04" kindref="member">scoping</ref>().<ref refid="classansys_1_1dpf_1_1Scoping_1aeae5e27bd752bdf0da3cc2d64fbe118a" kindref="member">size</ref>(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1aa16920741c1432c16e46ec6da26b3f04" kindref="member">scoping</ref>().<ref refid="classansys_1_1dpf_1_1Scoping_1a0fc75ac65a5b13727b77e2c155828ccd" kindref="member">at</ref>(0),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref><sp/>size;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[0],<sp/>987.40109280968454);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">TEST(Results,<sp/>readSEQVAtGivenNodes)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>fileName(</highlight><highlight class="stringliteral">&quot;../../../testfiles/mapdl_files/TwoSolids.rst&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Model" kindref="compound">ansys::dpf::Model</ref><sp/>model(fileName);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref><sp/>res<sp/>=<sp/>model.CreateResultEvaluationWorkflow(</highlight><highlight class="stringliteral">&quot;S_eqv&quot;</highlight><highlight class="normal">,<sp/><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref>({<sp/>1,2<sp/>},<sp/><ref refid="structansys_1_1dpf_1_1locations_1aa4e1967b0838d8597200c606c8564d29" kindref="member">ansys::dpf::locations::nodal</ref>));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref><sp/>error;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>fieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1ac8e07e03eba295dacfe13a100603d5c4" kindref="member">EvaluateAtGivenTime</ref>(0.0,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldsContainer.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>field<sp/>=<sp/>fieldsContainer[0];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>2);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_STREQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a860e65caa16f612746ad116429282fd3" kindref="member">fieldDefinition</ref>().<ref refid="classansys_1_1dpf_1_1FieldDefinition_1a9ea61f23ef1eb93c794b7c222d7740b8" kindref="member">location</ref>().<ref refid="structansys_1_1dpf_1_1Location_1ad9fab192124627740ffa623b1a0221ea" kindref="member">c_str</ref>(),<sp/><ref refid="structansys_1_1dpf_1_1locations_1aa4e1967b0838d8597200c606c8564d29" kindref="member">locations::nodal</ref>.c_str());</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1aa16920741c1432c16e46ec6da26b3f04" kindref="member">scoping</ref>().<ref refid="classansys_1_1dpf_1_1Scoping_1aeae5e27bd752bdf0da3cc2d64fbe118a" kindref="member">size</ref>(),<sp/>2);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref><sp/>size;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a50ed01d59770f646c41777d496e0ff9c" kindref="member">entityDataById</ref>(1,<sp/>size)[0],<sp/>987.40109280968454);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a50ed01d59770f646c41777d496e0ff9c" kindref="member">entityDataById</ref>(2,<sp/>size)[0],<sp/>1005.4123172685187);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">TEST(Results,<sp/>readTemperatures)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>fileName(</highlight><highlight class="stringliteral">&quot;../../../testfiles/mapdl_files/file.rth&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Model" kindref="compound">ansys::dpf::Model</ref><sp/>model(fileName);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1TimeFreqSupport" kindref="compound">TimeFreqSupport</ref><sp/>timeFreq<sp/>=<sp/>model.getTimeFreqSupport();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numSets<sp/>=<sp/>timeFreq.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a87c577de73b5ba2260cf3f940ac43068" kindref="member">numberOfSets</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(numSets,<sp/>4);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref><sp/>res<sp/>=<sp/>model.CreateResultEvaluationWorkflow(</highlight><highlight class="stringliteral">&quot;TEMP&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref><sp/>error;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>fieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1aaf145866535c0773a9ba3524b1f65743" kindref="member">EvaluateAtGivenTimeIndex</ref>(3,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldsContainer.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>field<sp/>=<sp/>fieldsContainer[0];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>2159);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref><sp/>size;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref><sp/>minmax<sp/>=<sp/><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref>(</highlight><highlight class="stringliteral">&quot;min_max&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>minmax.connect(0,<sp/>field);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>fieldMin<sp/>=<sp/>minmax.<ref refid="classansys_1_1dpf_1_1Operator_1a888c9e303c08320944b1a328a73e1ac3" kindref="member">getOutputField</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>fieldMax<sp/>=<sp/>minmax.<ref refid="classansys_1_1dpf_1_1Operator_1a888c9e303c08320944b1a328a73e1ac3" kindref="member">getOutputField</ref>(1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>dataMax<sp/>=<sp/>fieldMax.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>dataMin<sp/>=<sp/>fieldMin.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>ids_max<sp/>=<sp/>fieldMax.<ref refid="classansys_1_1dpf_1_1Field_1aa16920741c1432c16e46ec6da26b3f04" kindref="member">scoping</ref>().<ref refid="classansys_1_1dpf_1_1Scoping_1acf26749e29d9f23de6c70806ccfaea6b" kindref="member">ids</ref>(size);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>ids_min<sp/>=<sp/>fieldMin.<ref refid="classansys_1_1dpf_1_1Field_1aa16920741c1432c16e46ec6da26b3f04" kindref="member">scoping</ref>().<ref refid="classansys_1_1dpf_1_1Scoping_1acf26749e29d9f23de6c70806ccfaea6b" kindref="member">ids</ref>(size);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(dataMax[0],<sp/>56.576226358561549);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(dataMin[0],<sp/>21.999572871657019);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(ids_max[0],<sp/>32);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(ids_min[0],<sp/>978);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">TEST(Results,<sp/>readSXAtGivenNamedSelection)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>fileName(</highlight><highlight class="stringliteral">&quot;../../../testfiles/mapdl_files/TwoSolids.rst&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Model" kindref="compound">ansys::dpf::Model</ref><sp/>model(fileName);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref><sp/>res<sp/>=<sp/>model.CreateResultEvaluationWorkflow(</highlight><highlight class="stringliteral">&quot;SX&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;not_exist&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref><sp/>error;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>fieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1ac8e07e03eba295dacfe13a100603d5c4" kindref="member">EvaluateAtGivenTime</ref>(0.0,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_FALSE(error.<ref refid="classansys_1_1dpf_1_1DpfError_1aa215db12375801e5addbe0dbf8a97533" kindref="member">isOk</ref>());<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldsContainer.size(),<sp/>0);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>res<sp/>=<sp/>model.CreateResultEvaluationWorkflow(</highlight><highlight class="stringliteral">&quot;SX&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;_FIXEDSU&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>fieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1ac8e07e03eba295dacfe13a100603d5c4" kindref="member">EvaluateAtGivenTime</ref>(0.0,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_TRUE(error.<ref refid="classansys_1_1dpf_1_1DpfError_1aa215db12375801e5addbe0dbf8a97533" kindref="member">isOk</ref>());</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>field<sp/>=<sp/>fieldsContainer[0];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>30);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref><sp/>size;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref><sp/>minmax<sp/>=<sp/><ref refid="classansys_1_1dpf_1_1Operator" kindref="compound">Operator</ref>(</highlight><highlight class="stringliteral">&quot;min_max&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>minmax.connect(0,<sp/>field);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>fieldMin<sp/>=<sp/>minmax.<ref refid="classansys_1_1dpf_1_1Operator_1a888c9e303c08320944b1a328a73e1ac3" kindref="member">getOutputField</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>fieldMax<sp/>=<sp/>minmax.<ref refid="classansys_1_1dpf_1_1Operator_1a888c9e303c08320944b1a328a73e1ac3" kindref="member">getOutputField</ref>(1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>dataMax<sp/>=<sp/>fieldMax.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>dataMin<sp/>=<sp/>fieldMin.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>ids_max<sp/>=<sp/>fieldMax.<ref refid="classansys_1_1dpf_1_1Field_1aa16920741c1432c16e46ec6da26b3f04" kindref="member">scoping</ref>().<ref refid="classansys_1_1dpf_1_1Scoping_1acf26749e29d9f23de6c70806ccfaea6b" kindref="member">ids</ref>(size);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>ids_min<sp/>=<sp/>fieldMin.<ref refid="classansys_1_1dpf_1_1Field_1aa16920741c1432c16e46ec6da26b3f04" kindref="member">scoping</ref>().<ref refid="classansys_1_1dpf_1_1Scoping_1acf26749e29d9f23de6c70806ccfaea6b" kindref="member">ids</ref>(size);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(dataMax[0],<sp/>1292.4295654296875);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(dataMin[0],<sp/>-2806.3163364955358);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(ids_max[0],<sp/>100);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(ids_min[0],<sp/>109);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">TEST(Results,<sp/>readSmaxshearSintensityAtGivenStepIndexAndSubStep)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>fileName(</highlight><highlight class="stringliteral">&quot;../../../testfiles/mapdl_files/TwoSolids.rst&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Model" kindref="compound">ansys::dpf::Model</ref><sp/>model(fileName);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1TimeFreqSupport" kindref="compound">TimeFreqSupport</ref><sp/>timeFreq<sp/>=<sp/>model.getTimeFreqSupport();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numSets<sp/>=<sp/>timeFreq.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a87c577de73b5ba2260cf3f940ac43068" kindref="member">numberOfSets</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(numSets,<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numSteps<sp/>=<sp/>timeFreq.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a6b3cc037c0283450ac0234dadeddd1b6" kindref="member">numberOfSteps</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(numSteps,<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numSubSteps<sp/>=<sp/>timeFreq.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a4333cdbfac1c49f802a9c33a18970ed5" kindref="member">numberOfSubStepsByStepIndex</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(numSubSteps,<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref><sp/>res<sp/>=<sp/>model.CreateResultEvaluationWorkflow(</highlight><highlight class="stringliteral">&quot;S_intensity&quot;</highlight><highlight class="normal">,<sp/><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref>({<sp/>1<sp/>},<sp/><ref refid="structansys_1_1dpf_1_1locations_1aa4e1967b0838d8597200c606c8564d29" kindref="member">ansys::dpf::locations::nodal</ref>));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref><sp/>size;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref><sp/>error;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>fieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1af60979c0660e293e0eff722767939814" kindref="member">EvaluateAtGivenStepIndexAndSubStep</ref>(0,<sp/>0,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldsContainer.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>field<sp/>=<sp/>fieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1addfee935e69fe9fb9e0e533449f9a5bc" kindref="member">at</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[0],<sp/>1000.0921216717491);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref><sp/>res<sp/>=<sp/>model.CreateResultEvaluationWorkflow(</highlight><highlight class="stringliteral">&quot;S_max_shear&quot;</highlight><highlight class="normal">,<sp/><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref>({<sp/>1<sp/>},<sp/><ref refid="structansys_1_1dpf_1_1locations_1aa4e1967b0838d8597200c606c8564d29" kindref="member">ansys::dpf::locations::nodal</ref>));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref><sp/>size;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref><sp/>error;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>fieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1af60979c0660e293e0eff722767939814" kindref="member">EvaluateAtGivenStepIndexAndSubStep</ref>(0,<sp/>0,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldsContainer.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>field<sp/>=<sp/>fieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1addfee935e69fe9fb9e0e533449f9a5bc" kindref="member">at</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[0],<sp/>500.04606083587453);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">TEST(Results,<sp/>readEULXYZAngleAtGivenStepIndexAndSubStep)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>fileName(</highlight><highlight class="stringliteral">&quot;../../../testfiles/mapdl_files/TwoSolids.rst&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Model" kindref="compound">ansys::dpf::Model</ref><sp/>model(fileName);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1TimeFreqSupport" kindref="compound">TimeFreqSupport</ref><sp/>timeFreq<sp/>=<sp/>model.getTimeFreqSupport();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numSets<sp/>=<sp/>timeFreq.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a87c577de73b5ba2260cf3f940ac43068" kindref="member">numberOfSets</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(numSets,<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numSteps<sp/>=<sp/>timeFreq.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a6b3cc037c0283450ac0234dadeddd1b6" kindref="member">numberOfSteps</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(numSteps,<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numSubSteps<sp/>=<sp/>timeFreq.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a4333cdbfac1c49f802a9c33a18970ed5" kindref="member">numberOfSubStepsByStepIndex</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(numSubSteps,<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref><sp/>res<sp/>=<sp/>model.CreateResultEvaluationWorkflow(</highlight><highlight class="stringliteral">&quot;EULX&quot;</highlight><highlight class="normal">,<sp/><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref>({<sp/>1<sp/>},<sp/><ref refid="structansys_1_1dpf_1_1locations_1aa4e1967b0838d8597200c606c8564d29" kindref="member">ansys::dpf::locations::nodal</ref>));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref><sp/>size;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref><sp/>error;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>fieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1af60979c0660e293e0eff722767939814" kindref="member">EvaluateAtGivenStepIndexAndSubStep</ref>(0,<sp/>0,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldsContainer.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>field<sp/>=<sp/>fieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1addfee935e69fe9fb9e0e533449f9a5bc" kindref="member">at</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[0],<sp/>0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref><sp/>res<sp/>=<sp/>model.CreateResultEvaluationWorkflow(</highlight><highlight class="stringliteral">&quot;EULY&quot;</highlight><highlight class="normal">,<sp/><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref>({<sp/>1<sp/>},<sp/><ref refid="structansys_1_1dpf_1_1locations_1aa4e1967b0838d8597200c606c8564d29" kindref="member">ansys::dpf::locations::nodal</ref>));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref><sp/>size;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref><sp/>error;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>fieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1af60979c0660e293e0eff722767939814" kindref="member">EvaluateAtGivenStepIndexAndSubStep</ref>(0,<sp/>0,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldsContainer.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>field<sp/>=<sp/>fieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1addfee935e69fe9fb9e0e533449f9a5bc" kindref="member">at</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[0],<sp/>0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref><sp/>res<sp/>=<sp/>model.CreateResultEvaluationWorkflow(</highlight><highlight class="stringliteral">&quot;EULZ&quot;</highlight><highlight class="normal">,<sp/><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref>({<sp/>1<sp/>},<sp/><ref refid="structansys_1_1dpf_1_1locations_1aa4e1967b0838d8597200c606c8564d29" kindref="member">ansys::dpf::locations::nodal</ref>));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref><sp/>size;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref><sp/>error;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>fieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1af60979c0660e293e0eff722767939814" kindref="member">EvaluateAtGivenStepIndexAndSubStep</ref>(0,<sp/>0,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldsContainer.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>field<sp/>=<sp/>fieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1addfee935e69fe9fb9e0e533449f9a5bc" kindref="member">at</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[0],<sp/>0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">TEST(Results,<sp/>readEPELeqvEPELmaxshearEPELintensityAtGivenStepIndexAndSubStep)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>fileName(</highlight><highlight class="stringliteral">&quot;../../../testfiles/mapdl_files/TwoSolids.rst&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Model" kindref="compound">ansys::dpf::Model</ref><sp/>model(fileName);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1TimeFreqSupport" kindref="compound">TimeFreqSupport</ref><sp/>timeFreq<sp/>=<sp/>model.getTimeFreqSupport();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numSets<sp/>=<sp/>timeFreq.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a87c577de73b5ba2260cf3f940ac43068" kindref="member">numberOfSets</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(numSets,<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numSteps<sp/>=<sp/>timeFreq.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a6b3cc037c0283450ac0234dadeddd1b6" kindref="member">numberOfSteps</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(numSteps,<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numSubSteps<sp/>=<sp/>timeFreq.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a4333cdbfac1c49f802a9c33a18970ed5" kindref="member">numberOfSubStepsByStepIndex</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(numSubSteps,<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref><sp/>res<sp/>=<sp/>model.CreateResultEvaluationWorkflow(</highlight><highlight class="stringliteral">&quot;EPEL_eqv&quot;</highlight><highlight class="normal">,<sp/><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref>({<sp/>1<sp/>},<sp/><ref refid="structansys_1_1dpf_1_1locations_1aa4e1967b0838d8597200c606c8564d29" kindref="member">ansys::dpf::locations::nodal</ref>));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref><sp/>size;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref><sp/>error;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>fieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1af60979c0660e293e0eff722767939814" kindref="member">EvaluateAtGivenStepIndexAndSubStep</ref>(0,<sp/>0,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldsContainer.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>field<sp/>=<sp/>fieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1addfee935e69fe9fb9e0e533449f9a5bc" kindref="member">at</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[0],<sp/>4.9375041277777143e-09);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref><sp/>res<sp/>=<sp/>model.CreateResultEvaluationWorkflow(</highlight><highlight class="stringliteral">&quot;EPEL_intensity&quot;</highlight><highlight class="normal">,<sp/><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref>({<sp/>1<sp/>},<sp/><ref refid="structansys_1_1dpf_1_1locations_1aa4e1967b0838d8597200c606c8564d29" kindref="member">ansys::dpf::locations::nodal</ref>));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref><sp/>size;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref><sp/>error;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>fieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1af60979c0660e293e0eff722767939814" kindref="member">EvaluateAtGivenStepIndexAndSubStep</ref>(0,<sp/>0,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldsContainer.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>field<sp/>=<sp/>fieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1addfee935e69fe9fb9e0e533449f9a5bc" kindref="member">at</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[0],<sp/>6.5005988174106854e-09);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref><sp/>res<sp/>=<sp/>model.CreateResultEvaluationWorkflow(</highlight><highlight class="stringliteral">&quot;EPEL_max_shear&quot;</highlight><highlight class="normal">,<sp/><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref>({<sp/>1<sp/>},<sp/><ref refid="structansys_1_1dpf_1_1locations_1aa4e1967b0838d8597200c606c8564d29" kindref="member">ansys::dpf::locations::nodal</ref>));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref><sp/>size;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref><sp/>error;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>fieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1af60979c0660e293e0eff722767939814" kindref="member">EvaluateAtGivenStepIndexAndSubStep</ref>(0,<sp/>0,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldsContainer.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>field<sp/>=<sp/>fieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1addfee935e69fe9fb9e0e533449f9a5bc" kindref="member">at</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[0],<sp/>6.5005988174106854e-09);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">TEST(Results,<sp/>readSXAtGivenStepIndexAndSubStep)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>fileName(</highlight><highlight class="stringliteral">&quot;../../../testfiles/mapdl_files/TwoSolids.rst&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Model" kindref="compound">ansys::dpf::Model</ref><sp/>model(fileName);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1TimeFreqSupport" kindref="compound">TimeFreqSupport</ref><sp/>timeFreq<sp/>=<sp/>model.getTimeFreqSupport();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numSets<sp/>=<sp/>timeFreq.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a87c577de73b5ba2260cf3f940ac43068" kindref="member">numberOfSets</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(numSets,<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numSteps<sp/>=<sp/>timeFreq.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a6b3cc037c0283450ac0234dadeddd1b6" kindref="member">numberOfSteps</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(numSteps,<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numSubSteps<sp/>=<sp/>timeFreq.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a4333cdbfac1c49f802a9c33a18970ed5" kindref="member">numberOfSubStepsByStepIndex</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(numSubSteps,<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref><sp/>res<sp/>=<sp/>model.CreateResultEvaluationWorkflow(</highlight><highlight class="stringliteral">&quot;S_eqv&quot;</highlight><highlight class="normal">,<sp/><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref>({<sp/>1<sp/>},<sp/><ref refid="structansys_1_1dpf_1_1locations_1aa4e1967b0838d8597200c606c8564d29" kindref="member">ansys::dpf::locations::nodal</ref>));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref><sp/>size;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref><sp/>error;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>fieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1af60979c0660e293e0eff722767939814" kindref="member">EvaluateAtGivenStepIndexAndSubStep</ref>(0,<sp/>0,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldsContainer.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>field<sp/>=<sp/>fieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1addfee935e69fe9fb9e0e533449f9a5bc" kindref="member">at</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[0],<sp/>987.40109280968454);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref><sp/>res<sp/>=<sp/>model.CreateResultEvaluationWorkflow(</highlight><highlight class="stringliteral">&quot;SX&quot;</highlight><highlight class="normal">,<sp/><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref>({<sp/>1<sp/>},<sp/><ref refid="structansys_1_1dpf_1_1locations_1aa4e1967b0838d8597200c606c8564d29" kindref="member">ansys::dpf::locations::nodal</ref>));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref><sp/>size;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref><sp/>error;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>fieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1af60979c0660e293e0eff722767939814" kindref="member">EvaluateAtGivenStepIndexAndSubStep</ref>(0,<sp/>0,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldsContainer.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>field<sp/>=<sp/>fieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1addfee935e69fe9fb9e0e533449f9a5bc" kindref="member">at</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[0],<sp/>-7.8000752627849579);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref><sp/>res<sp/>=<sp/>model.CreateResultEvaluationWorkflow(</highlight><highlight class="stringliteral">&quot;SY&quot;</highlight><highlight class="normal">,<sp/><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref>({<sp/>1<sp/>},<sp/><ref refid="structansys_1_1dpf_1_1locations_1aa4e1967b0838d8597200c606c8564d29" kindref="member">ansys::dpf::locations::nodal</ref>));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref><sp/>size;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref><sp/>error;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>fieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1af60979c0660e293e0eff722767939814" kindref="member">EvaluateAtGivenStepIndexAndSubStep</ref>(0,<sp/>0,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldsContainer.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>field<sp/>=<sp/>fieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1addfee935e69fe9fb9e0e533449f9a5bc" kindref="member">at</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[0],<sp/>-6.1013864427804947);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref><sp/>res<sp/>=<sp/>model.CreateResultEvaluationWorkflow(</highlight><highlight class="stringliteral">&quot;SZ&quot;</highlight><highlight class="normal">,<sp/><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref>({<sp/>1<sp/>},<sp/><ref refid="structansys_1_1dpf_1_1locations_1aa4e1967b0838d8597200c606c8564d29" kindref="member">ansys::dpf::locations::nodal</ref>));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref><sp/>size;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref><sp/>error;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>fieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1af60979c0660e293e0eff722767939814" kindref="member">EvaluateAtGivenStepIndexAndSubStep</ref>(0,<sp/>0,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldsContainer.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>field<sp/>=<sp/>fieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1addfee935e69fe9fb9e0e533449f9a5bc" kindref="member">at</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(field.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[0],<sp/>-994.09059143066406);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">TEST(Results,<sp/>readSEQVAmplitudeAtGivenTime)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>fileName(</highlight><highlight class="stringliteral">&quot;../../../testfiles/complex/filetheo.rst&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Model" kindref="compound">ansys::dpf::Model</ref><sp/>model(fileName);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref><sp/>res<sp/>=<sp/>model.CreateResultEvaluationWorkflow(</highlight><highlight class="stringliteral">&quot;S_eqv&quot;</highlight><highlight class="normal">,<sp/><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref>({<sp/>1<sp/>},<sp/><ref refid="structansys_1_1dpf_1_1locations_1aa4e1967b0838d8597200c606c8564d29" kindref="member">ansys::dpf::locations::nodal</ref>));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref><sp/>size;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref><sp/>error;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>amplitudeFieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1a439090991ae8107589374384bfca4933" kindref="member">EvaluateAmplitudeAtGivenTime</ref>(0.0,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(amplitudeFieldsContainer.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>amplitudeField<sp/>=<sp/>amplitudeFieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1addfee935e69fe9fb9e0e533449f9a5bc" kindref="member">at</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(amplitudeField.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>3);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref><sp/>amplitudeValue<sp/>=<sp/>amplitudeField.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[0];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(amplitudeValue,<sp/>15953.036468929646);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>now<sp/>get<sp/>the<sp/>real<sp/>and<sp/>imaginary<sp/>separately</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>fieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1ac8e07e03eba295dacfe13a100603d5c4" kindref="member">EvaluateAtGivenTime</ref>(0.0,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldsContainer.size(),<sp/>2);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_TRUE(fieldsContainer.hasLabel(</highlight><highlight class="stringliteral">&quot;complex&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_TRUE(fieldsContainer.hasLabel(</highlight><highlight class="stringliteral">&quot;time&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;Field&gt;<sp/>realFields<sp/>=<sp/>fieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1a45536132d19f7a61af3ff18e660ad8de" kindref="member">getFieldsForTimeId</ref>(1,<sp/>0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(realFields.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>realField<sp/>=<sp/>realFields.at(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(realField.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>3);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref><sp/>realValue<sp/>=<sp/>realField.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[0];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(realValue,<sp/>15953.030385790376);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;Field&gt;<sp/>imaginaryFields<sp/>=<sp/>fieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1a45536132d19f7a61af3ff18e660ad8de" kindref="member">getFieldsForTimeId</ref>(1,<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(imaginaryFields.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>imaginaryField<sp/>=<sp/>imaginaryFields[0];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(imaginaryField.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>3);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref><sp/>imaginaryValue<sp/>=<sp/>imaginaryField.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[0];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(imaginaryValue,<sp/>13.931584555079384);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>and<sp/>compare<sp/>them</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(amplitudeValue,<sp/>sqrt(realValue<sp/>*<sp/>realValue<sp/>+<sp/>imaginaryValue<sp/>*<sp/>imaginaryValue));</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">TEST(Results,<sp/>readSEQVAmplitudeAtGivenTimeIndex)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>fileName(</highlight><highlight class="stringliteral">&quot;../../../testfiles/complex/filetheo.rst&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Model" kindref="compound">ansys::dpf::Model</ref><sp/>model(fileName);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref><sp/>res<sp/>=<sp/>model.CreateResultEvaluationWorkflow(</highlight><highlight class="stringliteral">&quot;S_eqv&quot;</highlight><highlight class="normal">,<sp/><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref>({<sp/>1<sp/>},<sp/><ref refid="structansys_1_1dpf_1_1locations_1aa4e1967b0838d8597200c606c8564d29" kindref="member">ansys::dpf::locations::nodal</ref>));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref><sp/>size;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref><sp/>error;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>amplitudeFieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1a3df1f87059794e3ff557ccc63b99b171" kindref="member">EvaluateAmplitudeAtGivenTimeIndex</ref>(0,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(amplitudeFieldsContainer.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>amplitudeField<sp/>=<sp/>amplitudeFieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1addfee935e69fe9fb9e0e533449f9a5bc" kindref="member">at</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(amplitudeField.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>3);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref><sp/>amplitudeValue<sp/>=<sp/>amplitudeField.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[1];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(amplitudeValue,<sp/>15953.015373859611);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>now<sp/>get<sp/>the<sp/>real<sp/>and<sp/>imaginary<sp/>separately</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>fieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1aaf145866535c0773a9ba3524b1f65743" kindref="member">EvaluateAtGivenTimeIndex</ref>(0,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldsContainer.size(),<sp/>2);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_TRUE(fieldsContainer.hasLabel(</highlight><highlight class="stringliteral">&quot;complex&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_TRUE(fieldsContainer.hasLabel(</highlight><highlight class="stringliteral">&quot;time&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;Field&gt;<sp/>realFields<sp/>=<sp/>fieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1a45536132d19f7a61af3ff18e660ad8de" kindref="member">getFieldsForTimeId</ref>(1,<sp/>0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(realFields.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>realField<sp/>=<sp/>realFields.at(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(realField.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>3);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref><sp/>realValue<sp/>=<sp/>realField.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[1];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(realValue,<sp/>15953.009290308262);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;Field&gt;<sp/>imaginaryFields<sp/>=<sp/>fieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1a45536132d19f7a61af3ff18e660ad8de" kindref="member">getFieldsForTimeId</ref>(1,<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(imaginaryFields.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>imaginaryField<sp/>=<sp/>imaginaryFields[0];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(imaginaryField.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>3);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref><sp/>imaginaryValue<sp/>=<sp/>imaginaryField.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[1];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(imaginaryValue,<sp/>13.932047206695039);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>and<sp/>compare<sp/>them</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(amplitudeValue,<sp/>sqrt(realValue<sp/>*<sp/>realValue<sp/>+<sp/>imaginaryValue<sp/>*<sp/>imaginaryValue));</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">TEST(Results,<sp/>readSEQVAmplitudeAtGivenStepAndSubStep)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>fileName(</highlight><highlight class="stringliteral">&quot;../../../testfiles/complex/filetheo.rst&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Model" kindref="compound">ansys::dpf::Model</ref><sp/>model(fileName);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1TimeFreqSupport" kindref="compound">TimeFreqSupport</ref><sp/>timeFreq<sp/>=<sp/>model.getTimeFreqSupport();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numSets<sp/>=<sp/>timeFreq.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a87c577de73b5ba2260cf3f940ac43068" kindref="member">numberOfSets</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(numSets,<sp/>10);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numSteps<sp/>=<sp/>timeFreq.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a6b3cc037c0283450ac0234dadeddd1b6" kindref="member">numberOfSteps</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(numSteps,<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numSubSteps<sp/>=<sp/>timeFreq.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a4333cdbfac1c49f802a9c33a18970ed5" kindref="member">numberOfSubStepsByStepIndex</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(numSubSteps,<sp/>10);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref><sp/>res<sp/>=<sp/>model.CreateResultEvaluationWorkflow(</highlight><highlight class="stringliteral">&quot;S_eqv&quot;</highlight><highlight class="normal">,<sp/><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref>({<sp/>1<sp/>},<sp/><ref refid="structansys_1_1dpf_1_1locations_1aa4e1967b0838d8597200c606c8564d29" kindref="member">ansys::dpf::locations::nodal</ref>));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref><sp/>size;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref><sp/>error;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>amplitudeFieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1a5e672dee634e76b8a9782cdfab42461b" kindref="member">EvaluateAmplitudeAtGivenStepIndexAndSubStep</ref>(0,<sp/>9,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(amplitudeFieldsContainer.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>amplitudeField<sp/>=<sp/>amplitudeFieldsContainer[0];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(amplitudeField.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>3);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref><sp/>amplitudeValue<sp/>=<sp/>amplitudeField.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[0];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(amplitudeValue,<sp/>4823.449633735253);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>now<sp/>get<sp/>the<sp/>real<sp/>and<sp/>imaginary<sp/>separately<sp/>idx0,idx9=id10</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>fieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1af60979c0660e293e0eff722767939814" kindref="member">EvaluateAtGivenStepIndexAndSubStep</ref>(0,<sp/>9,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldsContainer.size(),<sp/>2);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_TRUE(fieldsContainer.hasLabel(</highlight><highlight class="stringliteral">&quot;complex&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_TRUE(fieldsContainer.hasLabel(</highlight><highlight class="stringliteral">&quot;time&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;Field&gt;<sp/>realFields<sp/>=<sp/>fieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1a45536132d19f7a61af3ff18e660ad8de" kindref="member">getFieldsForTimeId</ref>(10,<sp/>0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(realFields.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>realField<sp/>=<sp/>realFields.at(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(realField.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>3);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref><sp/>realValue<sp/>=<sp/>realField.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[0];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(realValue,<sp/>4823.4491029746168);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;Field&gt;<sp/>imaginaryFields<sp/>=<sp/>fieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1a45536132d19f7a61af3ff18e660ad8de" kindref="member">getFieldsForTimeId</ref>(10,<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(imaginaryFields.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>imaginaryField<sp/>=<sp/>imaginaryFields[0];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(imaginaryField.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>3);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref><sp/>imaginaryValue<sp/>=<sp/>imaginaryField.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[0];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(imaginaryValue,<sp/>2.262784593315458);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>and<sp/>compare<sp/>them</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(amplitudeValue,<sp/>(<ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref>)sqrt(realValue<sp/>*<sp/>realValue<sp/>+<sp/>imaginaryValue<sp/>*<sp/>imaginaryValue));</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">TEST(Results,<sp/>readSEQVWithPhaseAtGivenTime)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>fileName(</highlight><highlight class="stringliteral">&quot;../../../testfiles/complex/filetheo.rst&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Model" kindref="compound">ansys::dpf::Model</ref><sp/>model(fileName);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref><sp/>res<sp/>=<sp/>model.CreateResultEvaluationWorkflow(</highlight><highlight class="stringliteral">&quot;S_eqv&quot;</highlight><highlight class="normal">,<sp/><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref>({<sp/>1<sp/>},<sp/><ref refid="structansys_1_1dpf_1_1locations_1aa4e1967b0838d8597200c606c8564d29" kindref="member">ansys::dpf::locations::nodal</ref>));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref><sp/>size;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>theta<sp/>is<sp/>in<sp/>degrees</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref><sp/>theta<sp/>=<sp/>45.0;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref><sp/>error;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>amplitudeFieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1a53d7529964052d14a60ee1d53f6d1d06" kindref="member">EvaluateWithPhaseAtGivenTime</ref>(0.0,<sp/>theta,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(amplitudeFieldsContainer.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>amplitudeField<sp/>=<sp/>amplitudeFieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1addfee935e69fe9fb9e0e533449f9a5bc" kindref="member">at</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(amplitudeField.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>3);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref><sp/>amplitudeValue<sp/>=<sp/>amplitudeField.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[0];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(amplitudeValue,<sp/>11270.644848355851);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>now<sp/>get<sp/>the<sp/>real<sp/>and<sp/>imaginary<sp/>separately</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>fieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1ac8e07e03eba295dacfe13a100603d5c4" kindref="member">EvaluateAtGivenTime</ref>(0.0,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldsContainer.size(),<sp/>2);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_TRUE(fieldsContainer.hasLabel(</highlight><highlight class="stringliteral">&quot;complex&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_TRUE(fieldsContainer.hasLabel(</highlight><highlight class="stringliteral">&quot;time&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;Field&gt;<sp/>realFields<sp/>=<sp/>fieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1a45536132d19f7a61af3ff18e660ad8de" kindref="member">getFieldsForTimeId</ref>(1,<sp/>0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(realFields.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>realField<sp/>=<sp/>realFields.at(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(realField.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>3);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref><sp/>realValue<sp/>=<sp/>realField.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[0];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(realValue,<sp/>15953.030385790376);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;Field&gt;<sp/>imaginaryFields<sp/>=<sp/>fieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1a45536132d19f7a61af3ff18e660ad8de" kindref="member">getFieldsForTimeId</ref>(1,<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(imaginaryFields.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>imaginaryField<sp/>=<sp/>imaginaryFields[0];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(imaginaryField.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>3);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref><sp/>imaginaryValue<sp/>=<sp/>imaginaryField.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[0];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(imaginaryValue,<sp/>13.931584555079384);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>thetaR<sp/>=<sp/>theta<sp/>/<sp/>180.0<sp/>*<sp/>3.14159265358979323846;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>and<sp/>compare<sp/>them</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref><sp/>expectedValue<sp/>=<sp/>realValue<sp/>*<sp/>cos(thetaR)<sp/>-<sp/>imaginaryValue<sp/>*<sp/>sin(thetaR);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(amplitudeValue,<sp/>expectedValue);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">TEST(Results,<sp/>readRFXAtGivenScoping)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>filename<sp/>=<sp/>(unit_test_helper::unitTestPath()<sp/>/<sp/></highlight><highlight class="stringliteral">&quot;rst_operators/allKindOfComplexity.rst&quot;</highlight><highlight class="normal">).</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">();</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DataSources" kindref="compound">ansys::dpf::DataSources</ref><sp/>ds;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>ds.<ref refid="classansys_1_1dpf_1_1DataSources_1ad2a5bb6f24ca621ffaaee9e7a47cdc20" kindref="member">addResultFile</ref>(filename);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Model" kindref="compound">ansys::dpf::Model</ref><sp/>dpfModel(ds);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>resultOperator<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;RFX&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>mesh<sp/>=<sp/>dpfModel.getMesh(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">ansys::dpf::Scoping</ref><sp/>scoping<sp/>=<sp/>mesh.nodeScoping();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>location<sp/>=<sp/>scoping.<ref refid="classansys_1_1dpf_1_1Scoping_1a516b4489a94ff02ecc880f170b8f93a9" kindref="member">location</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">ansys::dpf::Result</ref><sp/>res<sp/>=<sp/>dpfModel.CreateResultEvaluationWorkflow(resultOperator.c_str(),<sp/>scoping,<sp/>location);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">ansys::dpf::Result</ref>*<sp/>resultWorkflow<sp/>=<sp/>&amp;res;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref><sp/>err;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">ansys::dpf::FieldsContainer</ref><sp/>fieldsContainer<sp/>=<sp/>resultWorkflow-&gt;<ref refid="classansys_1_1dpf_1_1Result_1aaf145866535c0773a9ba3524b1f65743" kindref="member">EvaluateAtGivenTimeIndex</ref>(0,<sp/>err);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldsContainer.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">ansys::dpf::Field</ref><sp/>field<sp/>=<sp/>fieldsContainer[0];</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;<sp/>double<sp/>&gt;<sp/>fieldData;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field.<ref refid="classansys_1_1dpf_1_1Field_1a3acedce4650d3f5671aa1dec3bba92ad" kindref="member">getData</ref>(fieldData);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>fd_size<sp/>=<sp/>fieldData.size();</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(fd_size,<sp/>661);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_NEAR(fieldData.at(0),<sp/>-1.0752,<sp/>1e-4);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_NEAR(fieldData.at(300),<sp/>4.9963,<sp/>1e-4);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_NEAR(fieldData.at(660),<sp/>993.8184,<sp/>1e-4);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Model" kindref="compound">ansys::dpf::Model</ref><sp/>dpfModel(ds);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>resultOperator<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;RFY&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>mesh<sp/>=<sp/>dpfModel.getMesh(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">ansys::dpf::Scoping</ref><sp/>scoping<sp/>=<sp/>mesh.nodeScoping();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>location<sp/>=<sp/>scoping.<ref refid="classansys_1_1dpf_1_1Scoping_1a516b4489a94ff02ecc880f170b8f93a9" kindref="member">location</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">ansys::dpf::Result</ref><sp/>res<sp/>=<sp/>dpfModel.CreateResultEvaluationWorkflow(resultOperator.c_str(),<sp/>scoping,<sp/>location);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">ansys::dpf::Result</ref>*<sp/>resultWorkflow<sp/>=<sp/>&amp;res;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref><sp/>err;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">ansys::dpf::FieldsContainer</ref><sp/>fieldsContainer<sp/>=<sp/>resultWorkflow-&gt;<ref refid="classansys_1_1dpf_1_1Result_1aaf145866535c0773a9ba3524b1f65743" kindref="member">EvaluateAtGivenTimeIndex</ref>(0,<sp/>err);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldsContainer.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">ansys::dpf::Field</ref><sp/>field<sp/>=<sp/>fieldsContainer[0];</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;<sp/>double<sp/>&gt;<sp/>fieldData;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field.<ref refid="classansys_1_1dpf_1_1Field_1a3acedce4650d3f5671aa1dec3bba92ad" kindref="member">getData</ref>(fieldData);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>fd_size<sp/>=<sp/>fieldData.size();</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(fd_size,<sp/>661);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_NEAR(fieldData.at(0),<sp/>2.5108,<sp/>1e-4);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_NEAR(fieldData.at(300),<sp/>0,<sp/>1e-4);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_NEAR(fieldData.at(660),<sp/>0,<sp/>1e-4);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Model" kindref="compound">ansys::dpf::Model</ref><sp/>dpfModel(ds);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>resultOperator<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;RFZ&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>mesh<sp/>=<sp/>dpfModel.getMesh(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">ansys::dpf::Scoping</ref><sp/>scoping<sp/>=<sp/>mesh.nodeScoping();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>location<sp/>=<sp/>scoping.<ref refid="classansys_1_1dpf_1_1Scoping_1a516b4489a94ff02ecc880f170b8f93a9" kindref="member">location</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">ansys::dpf::Result</ref><sp/>res<sp/>=<sp/>dpfModel.CreateResultEvaluationWorkflow(resultOperator.c_str(),<sp/>scoping,<sp/>location);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">ansys::dpf::Result</ref>*<sp/>resultWorkflow<sp/>=<sp/>&amp;res;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref><sp/>err;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">ansys::dpf::FieldsContainer</ref><sp/>fieldsContainer<sp/>=<sp/>resultWorkflow-&gt;<ref refid="classansys_1_1dpf_1_1Result_1aaf145866535c0773a9ba3524b1f65743" kindref="member">EvaluateAtGivenTimeIndex</ref>(0,<sp/>err);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldsContainer.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">ansys::dpf::Field</ref><sp/>field<sp/>=<sp/>fieldsContainer[0];</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;<sp/>double<sp/>&gt;<sp/>fieldData;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field.<ref refid="classansys_1_1dpf_1_1Field_1a3acedce4650d3f5671aa1dec3bba92ad" kindref="member">getData</ref>(fieldData);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>fd_size<sp/>=<sp/>fieldData.size();</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_EQ(fd_size,<sp/>661);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_NEAR(fieldData.at(0),<sp/>-0.0879,<sp/>1e-4);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_NEAR(fieldData.at(300),<sp/>-2.1119,<sp/>1e-4);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXPECT_NEAR(fieldData.at(660),<sp/>-130.1577,<sp/>1e-4);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">TEST(Results,<sp/>readSEQVWithPhaseAtGivenTimeIndex)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>fileName(</highlight><highlight class="stringliteral">&quot;../../../testfiles/complex/filetheo.rst&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Model" kindref="compound">ansys::dpf::Model</ref><sp/>model(fileName);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref><sp/>res<sp/>=<sp/>model.CreateResultEvaluationWorkflow(</highlight><highlight class="stringliteral">&quot;S_eqv&quot;</highlight><highlight class="normal">,<sp/><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref>({<sp/>1<sp/>},<sp/><ref refid="structansys_1_1dpf_1_1locations_1aa4e1967b0838d8597200c606c8564d29" kindref="member">ansys::dpf::locations::nodal</ref>));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref><sp/>size;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>theta<sp/>is<sp/>in<sp/>degrees</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref><sp/>theta<sp/>=<sp/>22.5;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref><sp/>error;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>amplitudeFieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1ae1d940c0f56673f96d91716dc736d17f" kindref="member">EvaluateWithPhaseAtGivenTimeIndex</ref>(0,<sp/>theta,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(amplitudeFieldsContainer.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>amplitudeField<sp/>=<sp/>amplitudeFieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1addfee935e69fe9fb9e0e533449f9a5bc" kindref="member">at</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(amplitudeField.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>3);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref><sp/>amplitudeValue<sp/>=<sp/>amplitudeField.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[1];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(amplitudeValue,<sp/>14733.327201633281);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>now<sp/>get<sp/>the<sp/>real<sp/>and<sp/>imaginary<sp/>separately</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>fieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1aaf145866535c0773a9ba3524b1f65743" kindref="member">EvaluateAtGivenTimeIndex</ref>(0,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldsContainer.size(),<sp/>2);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_TRUE(fieldsContainer.hasLabel(</highlight><highlight class="stringliteral">&quot;complex&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_TRUE(fieldsContainer.hasLabel(</highlight><highlight class="stringliteral">&quot;time&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;Field&gt;<sp/>realFields<sp/>=<sp/>fieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1a45536132d19f7a61af3ff18e660ad8de" kindref="member">getFieldsForTimeId</ref>(1,<sp/>0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(realFields.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>realField<sp/>=<sp/>realFields.at(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(realField.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>3);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref><sp/>realValue<sp/>=<sp/>realField.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[1];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(realValue,<sp/>15953.009290308262);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;Field&gt;<sp/>imaginaryFields<sp/>=<sp/>fieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1a45536132d19f7a61af3ff18e660ad8de" kindref="member">getFieldsForTimeId</ref>(1,<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(imaginaryFields.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>imaginaryField<sp/>=<sp/>imaginaryFields[0];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(imaginaryField.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>3);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref><sp/>imaginaryValue<sp/>=<sp/>imaginaryField.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[1];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(imaginaryValue,<sp/>13.932047206695039);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>thetaR<sp/>=<sp/>theta<sp/>/<sp/>180.0<sp/>*<sp/>3.14159265358979323846;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>and<sp/>compare<sp/>them</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref><sp/>expectedValue<sp/>=<sp/>realValue<sp/>*<sp/>cos(thetaR)<sp/>-<sp/>imaginaryValue<sp/>*<sp/>sin(thetaR);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(amplitudeValue,<sp/>expectedValue);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">TEST(Results,<sp/>readSEQVWithPhaseAtGivenStepIndexAndSubStep)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>fileName(</highlight><highlight class="stringliteral">&quot;../../../testfiles/complex/filetheo.rst&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Model" kindref="compound">ansys::dpf::Model</ref><sp/>model(fileName);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1TimeFreqSupport" kindref="compound">TimeFreqSupport</ref><sp/>timeFreq<sp/>=<sp/>model.getTimeFreqSupport();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numSets<sp/>=<sp/>timeFreq.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a87c577de73b5ba2260cf3f940ac43068" kindref="member">numberOfSets</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(numSets,<sp/>10);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numSteps<sp/>=<sp/>timeFreq.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a6b3cc037c0283450ac0234dadeddd1b6" kindref="member">numberOfSteps</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(numSteps,<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>numSubSteps<sp/>=<sp/>timeFreq.<ref refid="classansys_1_1dpf_1_1TimeFreqSupport_1a4333cdbfac1c49f802a9c33a18970ed5" kindref="member">numberOfSubStepsByStepIndex</ref>(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(numSubSteps,<sp/>10);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Result" kindref="compound">Result</ref><sp/>res<sp/>=<sp/>model.CreateResultEvaluationWorkflow(</highlight><highlight class="stringliteral">&quot;S_eqv&quot;</highlight><highlight class="normal">,<sp/><ref refid="classansys_1_1dpf_1_1Scoping" kindref="compound">Scoping</ref>({<sp/>1<sp/>},<sp/><ref refid="structansys_1_1dpf_1_1locations_1aa4e1967b0838d8597200c606c8564d29" kindref="member">ansys::dpf::locations::nodal</ref>));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0" kindref="member">dp_int</ref><sp/>size;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>theta<sp/>is<sp/>in<sp/>degrees</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref><sp/>theta<sp/>=<sp/>67.5;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1DpfError" kindref="compound">ansys::dpf::DpfError</ref><sp/>error;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>amplitudeFieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1a75a2c05527109af736a19ca1156d85a2" kindref="member">EvaluateWithPhaseAtGivenStepIndexAndSubStep</ref>(0,<sp/>9,<sp/>theta,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(amplitudeFieldsContainer.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>amplitudeField<sp/>=<sp/>amplitudeFieldsContainer[0];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(amplitudeField.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>3);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref><sp/>amplitudeValue<sp/>=<sp/>amplitudeField.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[0];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(amplitudeValue,<sp/>1843.7635181923936);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>now<sp/>get<sp/>the<sp/>real<sp/>and<sp/>imaginary<sp/>separately<sp/>idx0,idx9=id10</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1FieldsContainer" kindref="compound">FieldsContainer</ref><sp/>fieldsContainer<sp/>=<sp/>res.<ref refid="classansys_1_1dpf_1_1Result_1af60979c0660e293e0eff722767939814" kindref="member">EvaluateAtGivenStepIndexAndSubStep</ref>(0,<sp/>9,<sp/>error);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(fieldsContainer.size(),<sp/>2);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_TRUE(fieldsContainer.hasLabel(</highlight><highlight class="stringliteral">&quot;complex&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_TRUE(fieldsContainer.hasLabel(</highlight><highlight class="stringliteral">&quot;time&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;Field&gt;<sp/>realFields<sp/>=<sp/>fieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1a45536132d19f7a61af3ff18e660ad8de" kindref="member">getFieldsForTimeId</ref>(10,<sp/>0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(realFields.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>realField<sp/>=<sp/>realFields.at(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(realField.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>3);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref><sp/>realValue<sp/>=<sp/>realField.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[0];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(realValue,<sp/>4823.4491029746168);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;Field&gt;<sp/>imaginaryFields<sp/>=<sp/>fieldsContainer.<ref refid="classansys_1_1dpf_1_1FieldsContainer_1a45536132d19f7a61af3ff18e660ad8de" kindref="member">getFieldsForTimeId</ref>(10,<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(imaginaryFields.size(),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classansys_1_1dpf_1_1Field" kindref="compound">Field</ref><sp/>imaginaryField<sp/>=<sp/>imaginaryFields[0];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(imaginaryField.<ref refid="classansys_1_1dpf_1_1Field_1a9bb7ac154ee6720cbb98b1c09e056942" kindref="member">dataSize</ref>(),<sp/>3);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref><sp/>imaginaryValue<sp/>=<sp/>imaginaryField.<ref refid="classansys_1_1dpf_1_1Field_1a0967a8c6cee105a679dd1151a5d41004" kindref="member">data</ref>(size)[0];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(imaginaryValue,<sp/>2.262784593315458);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>thetaR<sp/>=<sp/>theta<sp/>/<sp/>180.0<sp/>*<sp/>3.14159265358979323846;</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>and<sp/>compare<sp/>them</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790" kindref="member">dp_double</ref><sp/>expectedValue<sp/>=<sp/>realValue<sp/>*<sp/>cos(thetaR)<sp/>-<sp/>imaginaryValue<sp/>*<sp/>sin(thetaR);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_DOUBLE_EQ(amplitudeValue,<sp/>expectedValue);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting> </para>
+    </detaileddescription>
+    <location file="dpf_api.h"/>
+  </compounddef>
+</doxygen>

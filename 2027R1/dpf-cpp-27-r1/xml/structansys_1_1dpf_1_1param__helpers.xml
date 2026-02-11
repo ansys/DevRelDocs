@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="structansys_1_1dpf_1_1param__helpers" kind="struct" language="C++" prot="public">
+    <compoundname>ansys::dpf::param_helpers</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structansys_1_1dpf_1_1param__helpers_1ad723d1e9c3542897b198b085f1860f08" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1DataTree" kindref="compound">DataTree</ref></type>
+        <definition>static DataTree ansys::dpf::param_helpers::createParamTree</definition>
+        <argsstring>(Client const *const client=nullptr)</argsstring>
+        <name>createParamTree</name>
+        <qualifiedname>ansys::dpf::param_helpers::createParamTree</qualifiedname>
+        <param>
+          <type><ref refid="classansys_1_1dpf_1_1Client" kindref="compound">Client</ref> const *const</type>
+          <declname>client</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="71" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="dpf_api_base.h" line="69" column="1" bodyfile="dpf_api_base.h" bodystart="70" bodyend="72"/>
+    <listofallmembers>
+      <member refid="structansys_1_1dpf_1_1param__helpers_1ad723d1e9c3542897b198b085f1860f08" prot="public" virt="non-virtual"><scope>ansys::dpf::param_helpers</scope><name>createParamTree</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

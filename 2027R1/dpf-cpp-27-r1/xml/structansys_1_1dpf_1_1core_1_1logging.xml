@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="structansys_1_1dpf_1_1core_1_1logging" kind="struct" language="C++" prot="public">
+    <compoundname>ansys::dpf::core::logging</compoundname>
+    <innerclass refid="classansys_1_1dpf_1_1core_1_1logging_1_1LoggerConfig" prot="public">ansys::dpf::core::logging::LoggerConfig</innerclass>
+    <innerclass refid="structansys_1_1dpf_1_1core_1_1logging_1_1internal" prot="public">ansys::dpf::core::logging::internal</innerclass>
+    <innerclass refid="classansys_1_1dpf_1_1core_1_1logging_1_1Logger" prot="public">ansys::dpf::core::logging::Logger</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structansys_1_1dpf_1_1core_1_1logging_1a48490078df162c963f2b931e6cd5bfd8" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>eLogLevel</name>
+        <qualifiedname>ansys::dpf::core::logging::eLogLevel</qualifiedname>
+        <enumvalue id="structansys_1_1dpf_1_1core_1_1logging_1a48490078df162c963f2b931e6cd5bfd8a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1core_1_1logging_1a48490078df162c963f2b931e6cd5bfd8add4ec0ac4e58f7c32a01244ae91150b1" prot="public">
+          <name>Trace</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1core_1_1logging_1a48490078df162c963f2b931e6cd5bfd8aa603905470e2a5b8c13e96b579ef0dba" prot="public">
+          <name>Debug</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1core_1_1logging_1a48490078df162c963f2b931e6cd5bfd8a4059b0251f66a18cb56f544728796875" prot="public">
+          <name>Info</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1core_1_1logging_1a48490078df162c963f2b931e6cd5bfd8a56525ae64d370c0b448ac0d60710ef17" prot="public">
+          <name>Warn</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1core_1_1logging_1a48490078df162c963f2b931e6cd5bfd8a902b0d55fddef6f8d651fe1035b7d4bd" prot="public">
+          <name>Error</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1core_1_1logging_1a48490078df162c963f2b931e6cd5bfd8a278d01e5af56273bae1bb99a98b370cd" prot="public">
+          <name>Critical</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6661" column="1" bodyfile="dpf_api.h" bodystart="6662" bodyend="6670"/>
+      </memberdef>
+      <memberdef kind="enum" id="structansys_1_1dpf_1_1core_1_1logging_1a9cf8329ed6cbf904ab61fa7c891f5483" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>eLoggerSink</name>
+        <qualifiedname>ansys::dpf::core::logging::eLoggerSink</qualifiedname>
+        <enumvalue id="structansys_1_1dpf_1_1core_1_1logging_1a9cf8329ed6cbf904ab61fa7c891f5483a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1core_1_1logging_1a9cf8329ed6cbf904ab61fa7c891f5483a21d983484658a89e3070776fae2261f5" prot="public">
+          <name>Stdout</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structansys_1_1dpf_1_1core_1_1logging_1a9cf8329ed6cbf904ab61fa7c891f5483a0b27918290ff5323bea1e3b78a9cf04e" prot="public">
+          <name>File</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6672" column="1" bodyfile="dpf_api.h" bodystart="6673" bodyend="6677"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structansys_1_1dpf_1_1core_1_1logging_1ac86b0ab3c88a16cce14edad88b99f2a0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ansys::dpf::core::logging::flushAllLoggers</definition>
+        <argsstring>()</argsstring>
+        <name>flushAllLoggers</name>
+        <qualifiedname>ansys::dpf::core::logging::flushAllLoggers</qualifiedname>
+        <briefdescription>
+<para>Flush all loggers. This function is thread-safe. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6758" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1core_1_1logging_1aad2ae0b0c211e19c584b6bc4e807fa7f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1core_1_1logging_1_1Logger" kindref="compound">Logger</ref></type>
+        <definition>static Logger ansys::dpf::core::logging::registerLogger</definition>
+        <argsstring>(std::string const &amp;logger_name)</argsstring>
+        <name>registerLogger</name>
+        <qualifiedname>ansys::dpf::core::logging::registerLogger</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>logger_name</declname>
+        </param>
+        <briefdescription>
+<para>Registers a logger into the logging infrastructure. This function is thread-safe. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>logger_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The logger name. This will appear in the log message to identify the message.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>std::shared_ptr&lt;Logger&gt; The registered logger. </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classansys_1_1dpf_1_1core_1_1logging_1_1LoggerConfig" kindref="compound">LoggerConfig</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6890" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="structansys_1_1dpf_1_1core_1_1logging_1af4e6af1f9879fb1fc1757559617376e0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classansys_1_1dpf_1_1core_1_1logging_1_1Logger" kindref="compound">Logger</ref></type>
+        <definition>static Logger ansys::dpf::core::logging::getLogger</definition>
+        <argsstring>(std::string const &amp;logger_name)</argsstring>
+        <name>getLogger</name>
+        <qualifiedname>ansys::dpf::core::logging::getLogger</qualifiedname>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>logger_name</declname>
+        </param>
+        <briefdescription>
+<para>Get a <ref refid="classansys_1_1dpf_1_1core_1_1logging_1_1Logger" kindref="compound">Logger</ref> by its name. This function is thread-safe. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>logger_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The logger name. This will appear in the log message to identify the message. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>std::shared_ptr&lt;Logger&gt; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api.h" line="6898" column="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="dpf_api.h" line="6659" column="1" bodyfile="dpf_api.h" bodystart="6660" bodyend="6900"/>
+    <listofallmembers>
+      <member refid="structansys_1_1dpf_1_1core_1_1logging_1a9cf8329ed6cbf904ab61fa7c891f5483" prot="public" virt="non-virtual"><scope>ansys::dpf::core::logging</scope><name>eLoggerSink</name></member>
+      <member refid="structansys_1_1dpf_1_1core_1_1logging_1a48490078df162c963f2b931e6cd5bfd8" prot="public" virt="non-virtual"><scope>ansys::dpf::core::logging</scope><name>eLogLevel</name></member>
+      <member refid="structansys_1_1dpf_1_1core_1_1logging_1ac86b0ab3c88a16cce14edad88b99f2a0" prot="public" virt="non-virtual"><scope>ansys::dpf::core::logging</scope><name>flushAllLoggers</name></member>
+      <member refid="structansys_1_1dpf_1_1core_1_1logging_1af4e6af1f9879fb1fc1757559617376e0" prot="public" virt="non-virtual"><scope>ansys::dpf::core::logging</scope><name>getLogger</name></member>
+      <member refid="structansys_1_1dpf_1_1core_1_1logging_1aad2ae0b0c211e19c584b6bc4e807fa7f" prot="public" virt="non-virtual"><scope>ansys::dpf::core::logging</scope><name>registerLogger</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="structansys_1_1dpf_1_1reflect_3_01bool_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>ansys::dpf::reflect&lt; bool &gt;</compoundname>
+    <templateparamlist>
+    </templateparamlist>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structansys_1_1dpf_1_1reflect_3_01bool_01_4_1a49190d9984d4e8b70292f08b87a3df92" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>static std::string ansys::dpf::reflect&lt; bool &gt;::type_name</definition>
+        <argsstring>()</argsstring>
+        <name>type_name</name>
+        <qualifiedname>ansys::dpf::reflect&lt; bool &gt;::type_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dpf_api_base.h" line="1955" column="20" bodyfile="dpf_api_base.h" bodystart="1955" bodyend="1955"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="dpf_api_base.h" line="1953" column="11" bodyfile="dpf_api_base.h" bodystart="1954" bodyend="1956"/>
+    <listofallmembers>
+      <member refid="structansys_1_1dpf_1_1reflect_3_01bool_01_4_1a49190d9984d4e8b70292f08b87a3df92" prot="public" virt="non-virtual"><scope>ansys::dpf::reflect&lt; bool &gt;</scope><name>type_name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

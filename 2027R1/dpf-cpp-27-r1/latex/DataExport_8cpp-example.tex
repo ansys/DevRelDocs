@@ -1,0 +1,298 @@
+\doxysection{Data\+Export.\+cpp}
+\hypertarget{DataExport_8cpp-example}{}\label{DataExport_8cpp-example}Examples creating entites and importing or exporting from or to specific formats.
+
+
+\begin{DoxyCodeInclude}{0}
+\DoxyCodeLine{\textcolor{comment}{//}}
+\DoxyCodeLine{\textcolor{comment}{//\ COPYRIGHT\ ANSYS.\ ALL\ RIGHTS\ RESERVED.}}
+\DoxyCodeLine{\textcolor{comment}{//}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include\ "{}dpf\_api.h"{}}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include\ "{}helpers/dpf\_result.h"{}}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include\ "{}helpers/dpf\_model.h"{}}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include\ <limits>}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#ifdef\ EXAMPLE}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include\ "{}Example.h"{}}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include\ <gtest/gtest.h>}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\textcolor{comment}{//\ TemporaryDirectory}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include\ <boost/filesystem.hpp>}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include\ <boost/dll.hpp>}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include\ <thread>}}
+\DoxyCodeLine{\textcolor{preprocessor}{\#include\ <sstream>}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\textcolor{keyword}{struct\ }DataExportTempDir}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\textcolor{keyword}{private}:\ }
+\DoxyCodeLine{\ \ \ \ boost::filesystem::path\ \_result\_path;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\textcolor{keyword}{public}:}
+\DoxyCodeLine{\ \ \ \ DataExportTempDir()}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ std::ostringstream\ ss;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ ss\ <<\ std::this\_thread::get\_id();}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ boost::filesystem::path\ program\_loc\ =\ boost::dll::program\_location().parent\_path();}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ program\_loc\ /=\ (\textcolor{stringliteral}{"{}DpfData"{}}\ +\ ss.str());}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!boost::filesystem::exists(program\_loc))}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ boost::filesystem::create\_directories(program\_loc);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \_result\_path\ =\ program\_loc;}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \string~DataExportTempDir()}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ clear();}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordtype}{void}\ clear()}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (boost::filesystem::exists(\_result\_path))}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ boost::filesystem::remove\_all(\_result\_path);}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::string\ getTempFile(std::string\ \textcolor{keyword}{const}\&\ name)\textcolor{keyword}{\ const}}
+\DoxyCodeLine{\textcolor{keyword}{\ \ \ \ }\{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ (\_result\_path\ /\ name).string();}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{\};}
+\DoxyCodeLine{}
+\DoxyCodeLine{TEST(CreateAndExport,\ CreateEntitesAndHdf5Export)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{/*}}
+\DoxyCodeLine{\textcolor{comment}{\ \ \ \ You\ can\ create\ your\ field,\ fields\ container,\ or\ meshed\ region,\ to\ use\ in\ DPF\ operators,\ with\ your\ own\ data.}}
+\DoxyCodeLine{\textcolor{comment}{\ \ \ \ These\ entities\ can\ then\ be\ exported\ into\ HDF5\ format,\ that\ can\ be\ re-\/opened\ in\ another\ process.}}
+\DoxyCodeLine{\textcolor{comment}{\ \ \ \ */}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{ansys::dpf::LabelSpace}}\ label\_space\_1\ =\ \{\ \{\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1labels_a22ee1a5e3be8ad98c20c5ca52e247914}{ansys::dpf::labels::time}},\ 1\ \}\ \};}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{ansys::dpf::LabelSpace}}\ label\_space\_2\ =\ \{\ \{\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1labels_a22ee1a5e3be8ad98c20c5ca52e247914}{ansys::dpf::labels::time}},\ 2\ \}\ \};}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1LabelSpace}{ansys::dpf::LabelSpace}}\ label\_space\_3\ =\ \{\ \{\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1labels_a22ee1a5e3be8ad98c20c5ca52e247914}{ansys::dpf::labels::time}},\ 3\ \}\ \};}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordtype}{int}\ numNodes\ =\ 9;}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordtype}{int}\ numElements\ =\ 3;}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion}{ansys::dpf::MeshedRegion}}\ mesh;}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport}{ansys::dpf::TimeFreqSupport}}\ time\_freq\_support;}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{ansys::dpf::FieldsContainer}}\ fc\_disp;}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{ansys::dpf::FieldsContainer}}\ fc\_stress;}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshesContainer}{ansys::dpf::MeshesContainer}}\ meshes;}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1DataSources}{ansys::dpf::DataSources}}\ hdf5\_ds;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ set\ the\ result\ folder\ path\ to\ the\ right\ path}}
+\DoxyCodeLine{\ \ \ \ DataExportTempDir\ temp\_dir;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ 1.\ Create\ a\ new\ mesh\ with\ 1\ quad,\ 1\ point\ element\ and\ 1\ tetra}}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_aa7b984923ddd90379f08bc5b9831a95e}{prepareConstruction}}(numNodes,\ numElements);\ \textcolor{comment}{//reserve\ the\ size\ of\ the\ mesh}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a638d38d0400a6c64b85082a4c4beb105}{setLengthUnit}}(\doxymbox{\hyperlink{classansys_1_1dpf_1_1Unit}{ansys::dpf::Unit}}(\textcolor{stringliteral}{"{}m"{}}));}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{comment}{//quad\ element\ with\ 4\ nodes}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a2b4891674d74a792b63318c305963500}{addNode}}(1,\ \{\ 0.0,\ 0.0,\ 0.0\ \});}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a2b4891674d74a792b63318c305963500}{addNode}}(2,\ \{\ 1.0,\ 0.0,\ 0.0\ \});}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a2b4891674d74a792b63318c305963500}{addNode}}(3,\ \{\ 1.0,\ 1.0,\ 0.0\ \});}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a2b4891674d74a792b63318c305963500}{addNode}}(4,\ \{\ 0.0,\ 1.0,\ 0.0\ \});}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a11b6e06dfea398609fa9fb25ad4333bb}{addElement}}(\doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_ac9194bac632c648b744f96a2306b428b}{ansys::dpf::elements::quadShell4}},\ 1,\ \{\ 0,\ 1,\ 2,\ 3\ \});\ \textcolor{comment}{//\ connectivity\ is\ by\ node\ indexes}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{comment}{//point\ element}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a2b4891674d74a792b63318c305963500}{addNode}}(5,\ \{\ 0.0,\ 0.0,\ 0.0\ \});}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a11b6e06dfea398609fa9fb25ad4333bb}{addElement}}(\doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_a42c776bd25670e7ca0c2cc9fc91e2829}{ansys::dpf::elements::point1}},\ 2,\ \{\ 4\ \});}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{comment}{//tetra\ element\ with\ 4\ nodes}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a2b4891674d74a792b63318c305963500}{addNode}}(6,\ \{\ 0.0,\ 0.0,\ 0.0\ \});}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a2b4891674d74a792b63318c305963500}{addNode}}(7,\ \{\ 1.0,\ 0.0,\ 0.0\ \});}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a2b4891674d74a792b63318c305963500}{addNode}}(8,\ \{\ 1.0,\ 1.0,\ 0.0\ \});}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a2b4891674d74a792b63318c305963500}{addNode}}(9,\ \{\ 0.0,\ 1.0,\ 1.0\ \});}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a11b6e06dfea398609fa9fb25ad4333bb}{addElement}}(\doxymbox{\hyperlink{structansys_1_1dpf_1_1elements_a05d59369acd4f4ac6819645f2413ee22}{ansys::dpf::elements::tet4}},\ 4,\ \{\ 5,\ 6,\ 7,\ 8\ \});}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{comment}{//\ Access\ the\ mesh\ information}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_ad5df08993b7c588d9565ef1c1ea4813d}{nodeScoping}}().\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping_aeae5e27bd752bdf0da3cc2d64fbe118a}{size}}();}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{comment}{//return:}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{comment}{//11}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a3056a0fc6d69ca8769e33de6be0cecf0}{elementScoping}}().\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping_aeae5e27bd752bdf0da3cc2d64fbe118a}{size}}();}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{comment}{//return:}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{comment}{//4}}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ 2.\ Create\ time\ freq\ support\ to\ describe\ the\ time\ frequencies\ information}}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{ansys::dpf::Field}}\ time\_freq(3,\ \{\ 1\ \},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_a3cf1bbc2ad6d8b8f6173e83b5118031a}{ansys::dpf::locations::time\_set}});}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ time\_freq.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_aa16920741c1432c16e46ec6da26b3f04}{scoping}}().\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping_a021a022f87287b786ff9b3c92deb0e69}{setIds}}(\{\ 1,\ 2,\ 3\ \});}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ time\_freq.scoping().setLocation(\doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_abc48364ef6b184ddf696099c9a2993cd}{ansys::dpf::locations::time\_step}});}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ time\_freq.setData(\{\ 0.1,\ 0.21,\ 0.2\ \});}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{comment}{//\ set\ the\ time\_freq\_support\ fields}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ time\_freq\_support.\doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_aa01a23bf27be8e42ce3ec1da5e0ddcbe}{setTimeFrequencies}}(time\_freq);}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ 3.\ Create\ nodal\ displacement\ FieldContainer\ for\ 3\ time\ steps}}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{/*}}
+\DoxyCodeLine{\textcolor{comment}{\ \ \ \ Create\ displacement\ fields\ over\ time\ with\ three\ time\ sets.\ For\ the\ first\ time\ set,\ the\ displacement\ }}
+\DoxyCodeLine{\textcolor{comment}{\ \ \ \ on\ each\ node\ is\ the\ value\ of\ its\ x,\ y,\ and\ z\ coordinates.\ For\ the\ second\ time\ set,\ the\ displacement\ }}
+\DoxyCodeLine{\textcolor{comment}{\ \ \ \ on\ each\ node\ is\ two\ times\ the\ value\ of\ its\ x,\ y,\ and\ z\ coordinates.\ For\ the\ third\ time\ set,\ the\ }}
+\DoxyCodeLine{\textcolor{comment}{\ \ \ \ displacement\ on\ each\ node\ is\ three\ times\ the\ value\ of\ its\ x,\ y,\ and\ z\ coordinates.}}
+\DoxyCodeLine{\textcolor{comment}{\ \ \ \ */}}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{ansys::dpf::Field}}\ coordinates\_field\ =\ mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a482ae171f257bfe86c8e567f0882caa4}{nodesCoordinates}}();}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ add(\textcolor{stringliteral}{"{}add"{}});}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ add.connect(0,\ coordinates\_field);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ add.connect(1,\ coordinates\_field);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{ansys::dpf::Field}}\ coordinates\_x\_2\ =\ add.getOutputField(0);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ add.connect(1,\ coordinates\_x\_2);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{ansys::dpf::Field}}\ coordinates\_x\_3\ =\ add.getOutputField(0);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldDefinition}{ansys::dpf::FieldDefinition}}\ fieldDef\ =\ coordinates\_field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a860e65caa16f612746ad116429282fd3}{fieldDefinition}}();}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ fieldDef.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldDefinition_a8033b1d4486ea3d819ecbb6418bab079}{setUnit}}(mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_aed167b03463f42d94d424797529eccad}{lengthUnit}}());}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{comment}{//\ fill\ whole\ data\ in\ once}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{ansys::dpf::Field}}\ time\_1\_disp\_data(numNodes,\ \{\ 3\ \},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{ansys::dpf::locations::nodal}});}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordtype}{double}*\ data\_1\ =\ coordinates\_field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}().data();}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ time\_1\_disp\_data.setData(data\_1,\ coordinates\_field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}());}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{ansys::dpf::Field}}\ time\_2\_disp\_data(numNodes,\ \{\ 3\ \},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{ansys::dpf::locations::nodal}});}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordtype}{double}*\ data\_2\ =\ coordinates\_x\_2.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}().data();}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ time\_2\_disp\_data.setData(data\_2,\ coordinates\_x\_2.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}());}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{ansys::dpf::Field}}\ time\_3\_disp\_data(numNodes,\ \{\ 3\ \},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_aa4e1967b0838d8597200c606c8564d29}{ansys::dpf::locations::nodal}});}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordtype}{double}*\ data\_3\ =\ coordinates\_x\_3.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a0967a8c6cee105a679dd1151a5d41004}{data}}().data();}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ time\_3\_disp\_data.setData(data\_3,\ coordinates\_x\_3.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}());}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldDefinition}{ansys::dpf::FieldDefinition}}\ field\_def\_1\ =\ time\_1\_disp\_data.fieldDefinition();}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ field\_def\_1.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldDefinition_a8033b1d4486ea3d819ecbb6418bab079}{setUnit}}(mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_aed167b03463f42d94d424797529eccad}{lengthUnit}}());}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ time\_1\_disp\_data.setFieldDefinition(field\_def\_1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldDefinition}{ansys::dpf::FieldDefinition}}\ field\_def\_2\ =\ time\_2\_disp\_data.fieldDefinition();}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ field\_def\_2.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldDefinition_a8033b1d4486ea3d819ecbb6418bab079}{setUnit}}(mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_aed167b03463f42d94d424797529eccad}{lengthUnit}}());}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ time\_2\_disp\_data.setFieldDefinition(field\_def\_2);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldDefinition}{ansys::dpf::FieldDefinition}}\ field\_def\_3\ =\ time\_3\_disp\_data.fieldDefinition();}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ field\_def\_3.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldDefinition_a8033b1d4486ea3d819ecbb6418bab079}{setUnit}}(mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_aed167b03463f42d94d424797529eccad}{lengthUnit}}());}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ time\_3\_disp\_data.setFieldDefinition(field\_def\_3);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ time\_1\_disp\_data.setScoping(coordinates\_field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_aa16920741c1432c16e46ec6da26b3f04}{scoping}}());}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ time\_2\_disp\_data.setScoping(coordinates\_field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_aa16920741c1432c16e46ec6da26b3f04}{scoping}}());}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ time\_3\_disp\_data.setScoping(coordinates\_field.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_aa16920741c1432c16e46ec6da26b3f04}{scoping}}());}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ fc\_disp.addLabel(\doxymbox{\hyperlink{structansys_1_1dpf_1_1labels_a22ee1a5e3be8ad98c20c5ca52e247914}{ansys::dpf::labels::time}});}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ fc\_disp.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a72def09614e6d238cbb144229f1f1f5e}{add}}(label\_space\_1,\ time\_1\_disp\_data);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ fc\_disp.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a72def09614e6d238cbb144229f1f1f5e}{add}}(label\_space\_2,\ time\_2\_disp\_data);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ fc\_disp.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a72def09614e6d238cbb144229f1f1f5e}{add}}(label\_space\_3,\ time\_3\_disp\_data);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ fc\_disp.setSupport(time\_freq\_support);}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ 4.\ Create\ elemental\ stress\ FieldContainer\ for\ 3\ time\ steps}}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ num\_entities\ =\ 3;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{ansys::dpf::Field}}\ field\_stress\_1(num\_entities,\ \{\ 3,\ 3\ \},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_a3f66169a86ab935fb398b3fdde98bb04}{ansys::dpf::locations::elemental}});\ \textcolor{comment}{//elemental\ sym\ matrix}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{ansys::dpf::Field}}\ field\_stress\_2(num\_entities,\ \{\ 3,\ 3\ \},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_a3f66169a86ab935fb398b3fdde98bb04}{ansys::dpf::locations::elemental}});\ \textcolor{comment}{//elemental\ sym\ matrix}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{ansys::dpf::Field}}\ field\_stress\_3(num\_entities,\ \{\ 3,\ 3\ \},\ \doxymbox{\hyperlink{structansys_1_1dpf_1_1locations_a3f66169a86ab935fb398b3fdde98bb04}{ansys::dpf::locations::elemental}});\ \textcolor{comment}{//elemental\ sym\ matrix}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldDefinition}{ansys::dpf::FieldDefinition}}\ field\_def\_1\ =\ field\_stress\_1.fieldDefinition();}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ field\_def\_1.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldDefinition_a8033b1d4486ea3d819ecbb6418bab079}{setUnit}}(\doxymbox{\hyperlink{classansys_1_1dpf_1_1Unit}{ansys::dpf::Unit}}(\textcolor{stringliteral}{"{}Pa"{}}));}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ field\_stress\_1.setFieldDefinition(field\_def\_1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldDefinition}{ansys::dpf::FieldDefinition}}\ field\_def\_2\ =\ field\_stress\_2.fieldDefinition();}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ field\_def\_2.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldDefinition_a8033b1d4486ea3d819ecbb6418bab079}{setUnit}}(\doxymbox{\hyperlink{classansys_1_1dpf_1_1Unit}{ansys::dpf::Unit}}(\textcolor{stringliteral}{"{}Pa"{}}));}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ field\_stress\_2.setFieldDefinition(field\_def\_2);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldDefinition}{ansys::dpf::FieldDefinition}}\ field\_def\_3\ =\ field\_stress\_3.fieldDefinition();}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ field\_def\_3.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldDefinition_a8033b1d4486ea3d819ecbb6418bab079}{setUnit}}(\doxymbox{\hyperlink{classansys_1_1dpf_1_1Unit}{ansys::dpf::Unit}}(\textcolor{stringliteral}{"{}Pa"{}}));}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ field\_stress\_3.setFieldDefinition(field\_def\_3);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{comment}{//\ fill\ by\ entity}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ std::vector<double>\ elem\_data\_1\ =\ \{\ 1.0,\ 1.0,\ 1.0,\ 0.0,\ 0.0,\ 0.0,\ 1.0,\ 1.0,\ 1.0,\ 0.0,\ 0.0,\ 0.0,\ 1.0,\ 1.0,\ 1.0,\ 0.0,\ 0.0,\ 0.0,\ 1.0,\ 1.0,\ 1.0,\ 0.0,\ 0.0,\ 0.0,\ \};}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ std::vector<double>\ elem\_data\_2\ =\ \{\ 4.0,\ 4.0,\ 4.0,\ 0.0,\ 0.0,\ 0.0\ \};}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ std::vector<double>\ elem\_data\_3\ =\ \{\ 2.3,\ 1.0,\ 1.0,\ 0.0,\ 0.0,\ 1.0,\ 2.3,\ 1.0,\ 1.0,\ 0.0,\ 0.0,\ 1.0,\ 2.3,\ 1.0,\ 1.0,\ 0.0,\ 0.0,\ 1.0,\ 2.3,\ 1.0,\ 1.0,\ 0.0,\ 0.0,\ 1.0\ \};}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ field\_stress\_1.push\_back(1,\ elem\_data\_1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ field\_stress\_1.push\_back(2,\ elem\_data\_2);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ field\_stress\_1.push\_back(4,\ elem\_data\_3);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ field\_stress\_2.push\_back(1,\ elem\_data\_1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ field\_stress\_2.push\_back(2,\ elem\_data\_2);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ field\_stress\_2.push\_back(4,\ elem\_data\_3);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ field\_stress\_3.push\_back(1,\ elem\_data\_1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ field\_stress\_3.push\_back(2,\ elem\_data\_2);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ field\_stress\_3.push\_back(4,\ elem\_data\_3);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ fc\_stress.addLabel(\doxymbox{\hyperlink{structansys_1_1dpf_1_1labels_a22ee1a5e3be8ad98c20c5ca52e247914}{ansys::dpf::labels::time}});}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ fc\_stress.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a72def09614e6d238cbb144229f1f1f5e}{add}}(label\_space\_1,\ field\_stress\_1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ fc\_stress.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a72def09614e6d238cbb144229f1f1f5e}{add}}(label\_space\_2,\ field\_stress\_2);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ fc\_stress.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_a72def09614e6d238cbb144229f1f1f5e}{add}}(label\_space\_3,\ field\_stress\_3);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ fc\_stress.setSupport(time\_freq\_support);}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ 5.\ Get\ deformed\ meshed\ in\ a\ MeshesContainer}}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{ansys::dpf::Field}}\ node\_coords\ =\ mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a482ae171f257bfe86c8e567f0882caa4}{nodesCoordinates}}();}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ add\_coords(\textcolor{stringliteral}{"{}add"{}});}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ add\_coords.connect(0,\ node\_coords);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{ansys::dpf::Field}}\ disp\_field\_1\ =\ fc\_disp.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_aeb12b6212b016653f1eb325f19a9d1ce}{getField}}(label\_space\_1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ add\_coords.connect(1,\ disp\_field\_1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{ansys::dpf::Field}}\ deformed\_coords\_1\ =\ add\_coords.getOutputField(0);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{ansys::dpf::Field}}\ disp\_field\_2\ =\ fc\_disp.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_aeb12b6212b016653f1eb325f19a9d1ce}{getField}}(label\_space\_2);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ add\_coords.connect(1,\ disp\_field\_2);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{ansys::dpf::Field}}\ deformed\_coords\_2\ =\ add\_coords.getOutputField(0);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{ansys::dpf::Field}}\ disp\_field\_3\ =\ fc\_disp.\doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_aeb12b6212b016653f1eb325f19a9d1ce}{getField}}(label\_space\_3);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ add\_coords.connect(1,\ disp\_field\_3);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{ansys::dpf::Field}}\ deformed\_coords\_3\ =\ add\_coords.getOutputField(0);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion}{ansys::dpf::MeshedRegion}}\ mesh\_1\ =\ mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a1506cd74943091c868e037cd9eafde94}{deep\_copy}}();}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ mesh\_1.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_ad5fbd4c5a82f47d45eba62536cba68a1}{setNodesCoordinates}}(deformed\_coords\_1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion}{ansys::dpf::MeshedRegion}}\ mesh\_2\ =\ mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a1506cd74943091c868e037cd9eafde94}{deep\_copy}}();}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ mesh\_2.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_ad5fbd4c5a82f47d45eba62536cba68a1}{setNodesCoordinates}}(deformed\_coords\_2);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion}{ansys::dpf::MeshedRegion}}\ mesh\_3\ =\ mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_a1506cd74943091c868e037cd9eafde94}{deep\_copy}}();}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ mesh\_3.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_ad5fbd4c5a82f47d45eba62536cba68a1}{setNodesCoordinates}}(deformed\_coords\_3);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ meshes.addLabel(\doxymbox{\hyperlink{structansys_1_1dpf_1_1labels_a22ee1a5e3be8ad98c20c5ca52e247914}{ansys::dpf::labels::time}});}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ meshes.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshesContainer_ad8a4ca6475e0eaa186a3fcd2ed8e131b}{add}}(label\_space\_1,\ mesh\_1);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ meshes.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshesContainer_ad8a4ca6475e0eaa186a3fcd2ed8e131b}{add}}(label\_space\_2,\ mesh\_2);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ meshes.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshesContainer_ad8a4ca6475e0eaa186a3fcd2ed8e131b}{add}}(label\_space\_3,\ mesh\_3);}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ 6.\ Serialize\ into\ hdf5\ file}}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ op\_hdf5(\textcolor{stringliteral}{"{}hdf5::h5dpf::make\_result\_file"{}});}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ op\_hdf5.connect(0,\ temp\_dir.getTempFile(\textcolor{stringliteral}{"{}export\_hdf5.h5"{}}));}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ op\_hdf5.connect(1,\ mesh);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ op\_hdf5.connect(4,\ std::string(\textcolor{stringliteral}{"{}stress\_result"{}}));}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ op\_hdf5.connect(5,\ fc\_stress);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ op\_hdf5.connect(6,\ std::string(\textcolor{stringliteral}{"{}disp\_result"{}}));}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ op\_hdf5.connect(7,\ fc\_disp);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ hdf5\_ds\ =\ op\_hdf5.getOutputDataSources(0);}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ 7.\ Deserialize\ the\ H5\ file\ and\ check\ the\ result}}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion}{ansys::dpf::MeshedRegion}}\ mesh\_deser\ =\ ansys::dpf::MeshedRegion::emptyMeshedRegion();}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{ansys::dpf::FieldsContainer}}\ stress\_deser\ =\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_af4bcbf19662088a80192c4306e76eab9}{ansys::dpf::FieldsContainer::emptyFieldsContainer}}();}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer}{ansys::dpf::FieldsContainer}}\ disp\_deser\ =\ \doxymbox{\hyperlink{classansys_1_1dpf_1_1FieldsContainer_af4bcbf19662088a80192c4306e76eab9}{ansys::dpf::FieldsContainer::emptyFieldsContainer}}();}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping}{ansys::dpf::Scoping}}\ time\_scoping;}
+\DoxyCodeLine{\ \ \ \ time\_scoping.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Scoping_a021a022f87287b786ff9b3c92deb0e69}{setIds}}(\{\ 1,\ 2,\ 3\ \});}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ stream(\textcolor{stringliteral}{"{}stream\_provider"{}});}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ stream.connect(\doxymbox{\hyperlink{namespaceansys_1_1dpf_aa4a44a04a0aafb8fe0645f019bbd94d1a5b6613f802062fde4faea4b553db7fbc}{ansys::dpf::eDataSourcesPin}},\ hdf5\_ds);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ h5\_read\_op(\textcolor{stringliteral}{"{}hdf5::h5dpf::custom"{}});}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ h5\_read\_op.connect(\doxymbox{\hyperlink{namespaceansys_1_1dpf_aa4a44a04a0aafb8fe0645f019bbd94d1a0f5631bb51d4a3e4a40e167cb1198799}{ansys::dpf::eStreamPin}},\ stream,\ 0);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ h5\_read\_op.connect(\doxymbox{\hyperlink{namespaceansys_1_1dpf_aa4a44a04a0aafb8fe0645f019bbd94d1ac390a52dd8c4f1e8ff81a162cdc04d4f}{ansys::dpf::eTimeScopPin}},\ time\_scoping);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ h5\_read\_op.connect(60,\ std::string(\textcolor{stringliteral}{"{}stress\_result"{}}));}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ stress\_deser\ =\ h5\_read\_op.getOutputFieldsContainer(0);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ h5\_read\_op.connect(60,\ std::string(\textcolor{stringliteral}{"{}disp\_result"{}}));}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ disp\_deser\ =\ h5\_read\_op.getOutputFieldsContainer(0);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Operator}{ansys::dpf::Operator}}\ mesh\_prov\_op(\textcolor{stringliteral}{"{}MeshProvider"{}});}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ mesh\_prov\_op.connect(\doxymbox{\hyperlink{namespaceansys_1_1dpf_aa4a44a04a0aafb8fe0645f019bbd94d1a0f5631bb51d4a3e4a40e167cb1198799}{ansys::dpf::eStreamPin}},\ stream,\ 0);}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ mesh\_deser\ =\ mesh\_prov\_op.getOutputMeshedRegion(0);}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ 8.\ Ensure\ serialized\ and\ deserialized\ values\ are\ identical}}
+\DoxyCodeLine{\ \ \ \ \textcolor{comment}{//\ -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\ \ \ \ EXPECT\_TRUE(mesh\_deser.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_ac3a262bc236fda82374a462d7c9e240c}{numberOfElements}}()\ ==\ mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_ac3a262bc236fda82374a462d7c9e240c}{numberOfElements}}());}
+\DoxyCodeLine{\ \ \ \ EXPECT\_TRUE(mesh\_deser.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_af8ad6b50708b2c201a457c5da8e819da}{numberOfNodes}}()\ ==\ mesh.\doxymbox{\hyperlink{classansys_1_1dpf_1_1MeshedRegion_af8ad6b50708b2c201a457c5da8e819da}{numberOfNodes}}());}
+\DoxyCodeLine{\ \ \ \ EXPECT\_TRUE(disp\_deser.size()\ ==\ fc\_disp.size());}
+\DoxyCodeLine{\ \ \ \ EXPECT\_TRUE(disp\_deser[0].dataSize()\ ==\ fc\_disp[0].dataSize());}
+\DoxyCodeLine{\ \ \ \ EXPECT\_TRUE(stress\_deser.size()\ ==\ fc\_stress.size());}
+\DoxyCodeLine{\ \ \ \ EXPECT\_TRUE(stress\_deser[1].dataSize()\ ==\ stress\_deser[1].dataSize());}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport}{ansys::dpf::TimeFreqSupport}}\ tfq\ =\ stress\_deser.support().\doxymbox{\hyperlink{classansys_1_1dpf_1_1Support_a2ced0ad4403332166b14f301d67f4a4e}{getAsTimeFreqSupport}}();}
+\DoxyCodeLine{\ \ \ \ \doxymbox{\hyperlink{classansys_1_1dpf_1_1Field}{ansys::dpf::Field}}\ f\ =\ tfq.\doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_aa0cf046a80d328f966892abe85308f01}{frequencies}}();}
+\DoxyCodeLine{\ \ \ \ EXPECT\_TRUE(tfq.\doxymbox{\hyperlink{classansys_1_1dpf_1_1TimeFreqSupport_a87c577de73b5ba2260cf3f940ac43068}{numberOfSets}}()\ ==\ 3);}
+\DoxyCodeLine{\ \ \ \ EXPECT\_TRUE(f.\doxymbox{\hyperlink{classansys_1_1dpf_1_1Field_a9bb7ac154ee6720cbb98b1c09e056942}{dataSize}}()\ ==\ 3);}
+\DoxyCodeLine{\}}
+
+\end{DoxyCodeInclude}
+ 
