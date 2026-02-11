@@ -4,9 +4,13 @@ The Field is DPF's fundamental simulation data container. It is a data structure
 
 ## Field architecture
 
-A field consists of the following components:
+A field is composed of the following components:
 
-![Field Structure](../images/field_structure.svg)
+- **Data array**: Holds the actual numerical values
+- **Scoping**: Defines which entities have data
+- **Support**: Provides the mesh and time/frequency context
+- **Unit**: Specifies the measurement system for the values
+- **Field definition**: Stores dimensionality information for interpreting the data array
 
 ### Data array
 
