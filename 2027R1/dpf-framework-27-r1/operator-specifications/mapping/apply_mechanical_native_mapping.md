@@ -14,16 +14,20 @@ Maps source data from source mesh to target mesh (computes interpolation).This o
 
 ## Inputs
 
-| Pin number | Name | Expected type(s) |
-|-------|-------|------------------|
-| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [source_mesh](#input_0) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
-| <strong>1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [source_mesh_id](#input_1) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>2</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [target_mesh](#input_2) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
-| <strong>3</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [target_mesh_id](#input_3) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>4</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [mapping_manager_data](#input_4) | |
-| <strong>5</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [source_data](#input_5) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>6</strong>|  [target_scoping](#input_6) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
-| <strong>9</strong>|  [threads_user_requested](#input_9) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.
+Some inputs are required, while others are optional and provide additional configuration.
+Each parameter is detailed in the sections that follow the table.
+
+| Pin number | Name | Status | Expected type(s) |
+|------------|------|--------|------------------|
+| <strong>0</strong> | [source_mesh](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+| <strong>1</strong> | [source_mesh_id](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>2</strong> | [target_mesh](#input_2) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+| <strong>3</strong> | [target_mesh_id](#input_3) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>4</strong> | [mapping_manager_data](#input_4) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>| |
+| <strong>5</strong> | [source_data](#input_5) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+| <strong>6</strong> | [target_scoping](#input_6) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+| <strong>9</strong> | [threads_user_requested](#input_9) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
 
 
 <a id="input_0"></a>
@@ -93,6 +97,10 @@ Number of threads to be used to parallelize apply operations. Default: 1 (run in
 
 ## Outputs
 
+This table lists the output pins for this operator.
+Output pins provide the results of the operator's computation and can be connected to inputs of other operators or retrieved for further processing.
+Each output is detailed in the sections that follow the table.
+
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
 |  **0**| [mapped_data](#output_0) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
@@ -116,8 +124,10 @@ A Map containing the outputs of the interpolation as a key value pair
 
 ## Configurations
 
+This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
 
-### mutex
+
+### [mutex](../../core-concepts/operator-configurations.md#mutex)
 
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 - **Default value:** false
@@ -127,6 +137,8 @@ If this option is set to true, the shared memory is prevented from being simulta
 
 
 ## Scripting
+
+This operator can be accessed through scripting interfaces using these identifiers.
 
  **Category**: mapping
 
@@ -141,6 +153,9 @@ If this option is set to true, the shared memory is prevented from being simulta
  **License**: any_dpf_supported_increments
 
 ## Examples
+
+These examples demonstrate how to use this operator in different programming environments.
+Each example shows how to instantiate the operator, connect the required inputs, and retrieve the output.
 
 <details>
 <summary>C++</summary>

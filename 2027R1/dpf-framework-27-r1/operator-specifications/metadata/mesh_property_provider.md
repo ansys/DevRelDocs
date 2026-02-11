@@ -24,13 +24,17 @@ This operator supports the following keys ([file formats](../../index.md#overvie
 
 ## Inputs
 
-| Pin number | Name | Expected type(s) |
-|-------|-------|------------------|
-| <strong>1</strong>|  [mesh_scoping](#input_1) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
-| <strong>3</strong>|  [streams_container](#input_3) |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
-| <strong>4</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [data_sources](#input_4) |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
-| <strong>13</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [property_name](#input_13) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>17</strong>|  [property_identifier](#input_17) |[`int32`](../../core-concepts/dpf-types.md#standard-types), [`string`](../../core-concepts/dpf-types.md#standard-types) |
+This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.
+Some inputs are required, while others are optional and provide additional configuration.
+Each parameter is detailed in the sections that follow the table.
+
+| Pin number | Name | Status | Expected type(s) |
+|------------|------|--------|------------------|
+| <strong>1</strong> | [mesh_scoping](#input_1) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+| <strong>3</strong> | [streams_container](#input_3) |  |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
+| <strong>4</strong> | [data_sources](#input_4) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
+| <strong>13</strong> | [property_name](#input_13) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>17</strong> | [property_identifier](#input_17) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types), [`string`](../../core-concepts/dpf-types.md#standard-types) |
 
 
 <a id="input_1"></a>
@@ -76,6 +80,10 @@ Retrieves a property at a given index or by name. For example, a named selection
 
 ## Outputs
 
+This table lists the output pins for this operator.
+Output pins provide the results of the operator's computation and can be connected to inputs of other operators or retrieved for further processing.
+Each output is detailed in the sections that follow the table.
+
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
 |  **0**| [property](#output_0) |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`property_field`](../../core-concepts/dpf-types.md#property-field), [`string_field`](../../core-concepts/dpf-types.md#string-field) |
@@ -91,8 +99,10 @@ Returns a property field for properties: "mat", "apdl_element_type", "section", 
 
 ## Configurations
 
+This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
 
-### mutex
+
+### [mutex](../../core-concepts/operator-configurations.md#mutex)
 
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 - **Default value:** false
@@ -102,6 +112,8 @@ If this option is set to true, the shared memory is prevented from being simulta
 
 
 ## Scripting
+
+This operator can be accessed through scripting interfaces using these identifiers.
 
  **Category**: metadata
 
@@ -116,6 +128,9 @@ If this option is set to true, the shared memory is prevented from being simulta
  **License**: None
 
 ## Examples
+
+These examples demonstrate how to use this operator in different programming environments.
+Each example shows how to instantiate the operator, connect the required inputs, and retrieve the output.
 
 <details>
 <summary>C++</summary>

@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-02-07).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-02-10).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -22,7 +22,7 @@ The following table shows which components have updates in each category.
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils | [1 item](#Features_femutils) |[11 items](#Fixes_femutils) |
+| femutils | [1 item](#Features_femutils) |[12 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
 | framework | [2 items](#Features_framework) |[5 items](#Fixes_framework) |
 | grpc | [1 item](#Features_grpc) |[3 items](#Fixes_grpc) |
@@ -31,12 +31,12 @@ The following table shows which components have updates in each category.
 | hdf5 | [6 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
 | hgp | [3 items](#Features_hgp) |[2 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
-| kernel | [2 items](#Features_kernel) |[7 items](#Fixes_kernel) |
+| kernel | [2 items](#Features_kernel) |[8 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
 | mapd | [1 item](#Features_mapd) | |
 | mapdl | [14 items](#Features_mapdl) |[40 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
-| math | [9 items](#Features_math) |[1 item](#Fixes_math) |
+| math | [10 items](#Features_math) |[1 item](#Fixes_math) |
 | mechanical | [2 items](#Features_mechanical) |[4 items](#Fixes_mechanical) |
 | mesh |  |[3 items](#Fixes_mesh) |
 | misc | [13 items](#Features_misc) |[19 items](#Fixes_misc) |
@@ -48,7 +48,7 @@ The following table shows which components have updates in each category.
 | pydpf |  |[1 item](#Fixes_pydpf) |
 | refactor | [1 item](#Features_refactor) | |
 | rotation |  |[1 item](#Fixes_rotation) |
-| workflows |  |[2 items](#Fixes_workflows) |
+| workflows | [1 item](#Features_workflows) |[2 items](#Fixes_workflows) |
 
 
 ## 1297620
@@ -345,6 +345,13 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_femutils"></a> Fixes
+
+- Bug 1398238 Fail to extract structural temperature at multiple time steps:
+  > Fix random failure in multistep transient simulation
+  >
+  > 
+  >
+  > 
 
 - Keep the input unit when computing torque and force summation:
   > 
@@ -731,6 +738,9 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_kernel"></a> Fixes
+
+- Follow-up on units:
+  > 
 
 - Complete unit strings for existing Unit Systems:
   > 
@@ -1206,6 +1216,9 @@ The following table shows which components have updates in each category.
   > 
 ## math
 ### <a id="Features_math"></a> Features
+
+- Create a new operator to compute modal loads for MSUP workflow:
+  > 
 
 - Add new MKL BLAS wrapper for scaling operation:
   > Add new MKL BLAS wrapper for scaling operation
@@ -1863,6 +1876,16 @@ The following table shows which components have updates in each category.
   >
   > 
 ## workflows
+### <a id="Features_workflows"></a> Features
+
+- Setup a shared live migration to hdf5 workflow:
+  > 
+  >
+  > Add a shared workflow suitable for H5DPF writing from solvers
+  >
+  > 
+  >
+  > 
 
 ### <a id="Fixes_workflows"></a> Fixes
 

@@ -14,18 +14,22 @@ Take nine scalar fields and assemble them as a 3x3 matrix field. If the 'symmetr
 
 ## Inputs
 
-| Pin number | Name | Expected type(s) |
-|-------|-------|------------------|
-| <strong>0</strong>|  [xx](#input_0) |[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>1</strong>|  [yy](#input_1) |[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>2</strong>|  [zz](#input_2) |[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>3</strong>|  [xy](#input_3) |[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>4</strong>|  [yz](#input_4) |[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>5</strong>|  [xz](#input_5) |[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>6</strong>|  [yx](#input_6) |[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>7</strong>|  [zy](#input_7) |[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>8</strong>|  [zx](#input_8) |[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>60</strong>|  [symmetrical](#input_60) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.
+Some inputs are required, while others are optional and provide additional configuration.
+Each parameter is detailed in the sections that follow the table.
+
+| Pin number | Name | Status | Expected type(s) |
+|------------|------|--------|------------------|
+| <strong>0</strong> | [xx](#input_0) |  |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>1</strong> | [yy](#input_1) |  |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>2</strong> | [zz](#input_2) |  |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>3</strong> | [xy](#input_3) |  |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>4</strong> | [yz](#input_4) |  |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>5</strong> | [xz](#input_5) |  |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>6</strong> | [yx](#input_6) |  |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>7</strong> | [zy](#input_7) |  |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>8</strong> | [zx](#input_8) |  |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>60</strong> | [symmetrical](#input_60) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
 
 
 <a id="input_0"></a>
@@ -111,6 +115,10 @@ Take nine scalar fields and assemble them as a 3x3 matrix field. If the 'symmetr
 
 ## Outputs
 
+This table lists the output pins for this operator.
+Output pins provide the results of the operator's computation and can be connected to inputs of other operators or retrieved for further processing.
+Each output is detailed in the sections that follow the table.
+
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
 |  **0**| [field](#output_0) |[`field`](../../core-concepts/dpf-types.md#field) |
@@ -126,8 +134,10 @@ Take nine scalar fields and assemble them as a 3x3 matrix field. If the 'symmetr
 
 ## Configurations
 
+This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
 
-### mutex
+
+### [mutex](../../core-concepts/operator-configurations.md#mutex)
 
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 - **Default value:** false
@@ -137,6 +147,8 @@ If this option is set to true, the shared memory is prevented from being simulta
 
 
 ## Scripting
+
+This operator can be accessed through scripting interfaces using these identifiers.
 
  **Category**: utility
 
@@ -151,6 +163,9 @@ If this option is set to true, the shared memory is prevented from being simulta
  **License**: None
 
 ## Examples
+
+These examples demonstrate how to use this operator in different programming environments.
+Each example shows how to instantiate the operator, connect the required inputs, and retrieve the output.
 
 <details>
 <summary>C++</summary>
