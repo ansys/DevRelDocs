@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-02-10).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-02-11).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -13,7 +13,7 @@ The following table shows which components have updates in each category.
 | cgns | [1 item](#Features_cgns) | |
 | changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
 | ci | [1 item](#Features_ci) |[1 item](#Fixes_ci) |
-| compression | [2 items](#Features_compression) |[1 item](#Fixes_compression) |
+| compression | [3 items](#Features_compression) |[1 item](#Fixes_compression) |
 | core |  |[1 item](#Fixes_core) |
 | cyclic | [1 item](#Features_cyclic) | |
 | doc | [2 items](#Features_doc) |[1 item](#Fixes_doc) |
@@ -48,7 +48,8 @@ The following table shows which components have updates in each category.
 | pydpf |  |[1 item](#Fixes_pydpf) |
 | refactor | [1 item](#Features_refactor) | |
 | rotation |  |[1 item](#Fixes_rotation) |
-| workflows | [1 item](#Features_workflows) |[2 items](#Fixes_workflows) |
+| vtk |  |[1 item](#Fixes_vtk) |
+| workflows | [2 items](#Features_workflows) |[2 items](#Fixes_workflows) |
 
 
 ## 1297620
@@ -160,6 +161,15 @@ The following table shows which components have updates in each category.
   > 
 ## compression
 ### <a id="Features_compression"></a> Features
+
+- Quantization operator enhancements:
+  > - Added parallelization in _quantization_fc_
+  >
+  > - The loss of precision was at maximum half of the threshold, therefore computations has been changed to be just at the threshold in the worst case.
+  >
+  > 
+  >
+  > 
 
 - Support threshold by number of components in quantization operator:
   > It is now possible to apply a different threshold on each component in the operators **Quantization** ("quantization_fc") and **QuantizationFC** ("quantization_fc").
@@ -1875,8 +1885,25 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
+## vtk
+
+### <a id="Fixes_vtk"></a> Fixes
+
+- Fix the face node ordering for reversed faces:
+  > Fix face orientation during export to VTK for fluid meshes.
+  >
+  > 
+  >
+  > 
 ## workflows
 ### <a id="Features_workflows"></a> Features
+
+- Adaptation of dequantization to the new threshold in quantization operator:
+  > Fix in the quantization workflow due to changes in _quantization_ and _quantization_fc_ operators.
+  >
+  > 
+  >
+  > 
 
 - Setup a shared live migration to hdf5 workflow:
   > 
@@ -1910,9 +1937,21 @@ The following table shows which components have updates in each category.
 
 - [quantization](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/compression/quantization.md):
   > Scales a field to a given precision threshold, then rounds all the values to the unit.
+  > 
+  > The output of the quantization operation is :
+  > \\[ q(x) = \left\lfloor\frac{x}{2\varepsilon} + \frac{1}{2}\right\rfloor \\]
+  > The truncated value in the original scale has to be computed by doing \\( 2\varepsilon q(x) \\).
+  > 
+  > To truncate a number to \\(n\\) decimal places, the threshold must be chosen as \\(10^{-n}\\).
 
 - [quantization_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/compression/quantization_fc.md):
   > Scales all the fields of a fields container to a given precision threshold, then rounds all the values to the unit.
+  > 
+  > The output of the quantization operation is :
+  > \\[q(x) = \left\lfloor\frac{x}{2\varepsilon} + \frac{1}{2}\right\rfloor \\]
+  > The truncated value in the original scale has to be computed by doing \\(2\varepsilon q(x) \\).
+  > 
+  > To truncate a number to \\(n\\) decimal places, the threshold must be chosen as \\(10^{-n}\\).
 
 
 #### info
@@ -2311,6 +2350,11 @@ The following table shows which components have updates in each category.
 ### Changed operators
 
 #### averaging
+
+- [elemental_to_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_to_nodal_fc.md)
+
+  > 0.0.1: Fixed shell management issue.
+
 
 - [force_summation](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/force_summation.md)
 
