@@ -36,7 +36,7 @@ The following sections are summaries. For more detailed content, see [Ways of Us
 
 ### Operators
 
-Most of the DPF capabilities can be accessed using the operators. For a list of DPF existing operators, see [Operators section](user-guide/00_2_operators.md).
+Most of the DPF capabilities can be accessed using the operators. For a list of DPF existing operators, see [Operators section](user-guide/operators.md).
 
 ### Accessing DPF Server files
 
@@ -47,12 +47,12 @@ DPF capabilities are accessible when DPF Server files are available. These files
 
 ### Enriching DPF capabilities
 
-- [C++ operator's library](user-guide/06_2_how_to_create_cpp_plugin.md)
+- [C++ operator's library](user-guide/how-to-create-cpp-plugin.md)
 - C++ solver reader plugin
 
 ## More content
 
-See [Getting started](user-guide/00_getting_started.md) section to know how to get started with DPF.
+See [Getting started](user-guide/getting-started.md) section to know how to get started with DPF.
 
 For comprehensive examples on how to use DPF C++ API, see Examples section.
 

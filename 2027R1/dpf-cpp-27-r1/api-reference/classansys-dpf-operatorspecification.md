@@ -1,0 +1,808 @@
+<a id="classansys_1_1dpf_1_1OperatorSpecification"></a>
+# Class ansys::dpf::OperatorSpecification
+
+![][C++]
+![][public]
+
+**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6121)
+
+
+
+Definition of a new operator. 
+
+**See also**: group_4_how_tos
+
+**Inherits from**:
+
+* [ansys::dpf::DpfTypes](classansys_1_1dpf_1_1DpfTypes.md#classansys_1_1dpf_1_1DpfTypes)
+
+## Members
+
+* [addSupportedConfigOption](classansys_1_1dpf_1_1OperatorSpecification.md#classansys_1_1dpf_1_1OperatorSpecification_1ac608a98bb19ea5c878f2424e209f52d8)
+* [addSupportedConfigOption](classansys_1_1dpf_1_1OperatorSpecification.md#classansys_1_1dpf_1_1OperatorSpecification_1a69d4382377d7375074fa8da84f5c5732)
+* [addSupportedConfigOption](classansys_1_1dpf_1_1OperatorSpecification.md#classansys_1_1dpf_1_1OperatorSpecification_1adcf58df937bb7bd6b2bb21b849ce7130)
+* [callAPI](classansys_1_1dpf_1_1DpfTypes.md#classansys_1_1dpf_1_1DpfTypes_1aea34d37e0c080126eff70db34bf46597)
+* [configOptions](classansys_1_1dpf_1_1OperatorSpecification.md#classansys_1_1dpf_1_1OperatorSpecification_1ad5b6239b64de0216aae2325f8936611c)
+* [describe](classansys_1_1dpf_1_1DpfTypes.md#classansys_1_1dpf_1_1DpfTypes_1a9977945710983bc03d2940fa007847b2)
+* [empty](classansys_1_1dpf_1_1DpfTypes.md#classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459)
+* [getClient](classansys_1_1dpf_1_1DpfTypes.md#classansys_1_1dpf_1_1DpfTypes_1a968afd9daa0b0f13b65a2ac61369d73a)
+* [getDocumentation](classansys_1_1dpf_1_1OperatorSpecification.md#classansys_1_1dpf_1_1OperatorSpecification_1a398ea2f358ea35f62384436d99ca2bbf)
+* [getPins](classansys_1_1dpf_1_1OperatorSpecification.md#classansys_1_1dpf_1_1OperatorSpecification_1a6a8563e7b2d555969e387fcb6d0423ea)
+* [getProperty](classansys_1_1dpf_1_1OperatorSpecification.md#classansys_1_1dpf_1_1OperatorSpecification_1a2f4a8c5f7334cbddb79b610d90fe9fc2)
+* [getVersion](classansys_1_1dpf_1_1OperatorSpecification.md#classansys_1_1dpf_1_1OperatorSpecification_1a87d6a5e4c061fb356735fbb53ccc50b3)
+* [hasBeenMovedLocally](classansys_1_1dpf_1_1DpfTypes.md#classansys_1_1dpf_1_1DpfTypes_1a1a5634202c15404b6b24e8f50e51cb66)
+* [hasInternalObject](classansys_1_1dpf_1_1DpfTypes.md#classansys_1_1dpf_1_1DpfTypes_1ae198f89868d85c7db6dc1a934a1d3c15)
+* [inputPins](classansys_1_1dpf_1_1OperatorSpecification.md#classansys_1_1dpf_1_1OperatorSpecification_1ab34a33daaef024443cebecd265786e18)
+* [isOnCommonAPI](classansys_1_1dpf_1_1DpfTypes.md#classansys_1_1dpf_1_1DpfTypes_1a9f9789ff61cc9d400a2a344830706b73)
+* [isSameObject](classansys_1_1dpf_1_1DpfTypes.md#classansys_1_1dpf_1_1DpfTypes_1aa64d5f8fcd7d85ad6ebf708494dbefd7)
+* [operator=](classansys_1_1dpf_1_1OperatorSpecification.md#classansys_1_1dpf_1_1OperatorSpecification_1a4c907e7bab1f5a3a606ea51b4848d437)
+* [operator=](classansys_1_1dpf_1_1OperatorSpecification.md#classansys_1_1dpf_1_1OperatorSpecification_1a82cdc5f2a8c768c10096e45b6e4a37f6)
+* [OperatorSpecification](classansys_1_1dpf_1_1OperatorSpecification.md#classansys_1_1dpf_1_1OperatorSpecification_1ae2e9f23ea7232fea0cf6ae0838a03fe3)
+* [OperatorSpecification](classansys_1_1dpf_1_1OperatorSpecification.md#classansys_1_1dpf_1_1OperatorSpecification_1a5ff57b38ca2dff01bf4f62dda841249e)
+* [OperatorSpecification](classansys_1_1dpf_1_1OperatorSpecification.md#classansys_1_1dpf_1_1OperatorSpecification_1a9c474e5a973f7dfb5fdfa84c133a9c4d)
+* [OperatorSpecification](classansys_1_1dpf_1_1OperatorSpecification.md#classansys_1_1dpf_1_1OperatorSpecification_1a87b1c58da59dea93a073ea51534715f6)
+* [outputPins](classansys_1_1dpf_1_1OperatorSpecification.md#classansys_1_1dpf_1_1OperatorSpecification_1af1f0a429df6979e64b52713fc95e981a)
+* [setChangelog](classansys_1_1dpf_1_1OperatorSpecification.md#classansys_1_1dpf_1_1OperatorSpecification_1a360172f91b5c055d425e4a0b5c20466c)
+* [setDocumentation](classansys_1_1dpf_1_1OperatorSpecification.md#classansys_1_1dpf_1_1OperatorSpecification_1af2335159650a865b5c7eab060d85da07)
+* [setInputPins](classansys_1_1dpf_1_1OperatorSpecification.md#classansys_1_1dpf_1_1OperatorSpecification_1ac3e45d154d2904aedd470563c8d566b5)
+* [setOutputPins](classansys_1_1dpf_1_1OperatorSpecification.md#classansys_1_1dpf_1_1OperatorSpecification_1a5a47b3bacdaf74b6039f73facd30a881)
+* [setProperty](classansys_1_1dpf_1_1OperatorSpecification.md#classansys_1_1dpf_1_1OperatorSpecification_1aa931a524a869f2881c49bfef21f790d0)
+* [setVersion](classansys_1_1dpf_1_1OperatorSpecification.md#classansys_1_1dpf_1_1OperatorSpecification_1ab952e05fe762a0081c24d99bf7bb9158)
+* [~DpfTypes](classansys_1_1dpf_1_1DpfTypes.md#classansys_1_1dpf_1_1DpfTypes_1ab7c83b6ea160c2b115e056f6c312112f)
+* [~OperatorSpecification](classansys_1_1dpf_1_1OperatorSpecification.md#classansys_1_1dpf_1_1OperatorSpecification_1a80996301dbad63232dd6b9bf90cf944d)
+
+## Friends
+
+<a id="classansys_1_1dpf_1_1OperatorSpecification_1a33ff3f826991522d2e77c1c523f33e19"></a>
+### Friend Operator
+
+![][C++]
+![][private]
+
+**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6123)
+
+
+
+
+
+
+
+<!--
+**TODO**:
+
+* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
+* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Operator"}]}`
+* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::Operator"}]}`
+* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Operator"}]},{"type":"text","text":"\n        "}]}`
+-->
+
+<a id="classansys_1_1dpf_1_1OperatorSpecification_1af764561c544bacc1b90b526ee8d3c708"></a>
+### Friend core
+
+![][C++]
+![][private]
+
+**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6124)
+
+
+
+
+
+
+
+<!--
+**TODO**:
+
+* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
+* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
+* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::core"}]}`
+* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
+-->
+
+<a id="classansys_1_1dpf_1_1OperatorSpecification_1af3b971156c82470379e0fc202fb6abb3"></a>
+### Friend internal::core
+
+![][C++]
+![][public]
+
+**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6125)
+
+
+
+
+
+
+
+<!--
+**TODO**:
+
+* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"struct"}]}`
+* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend struct internal::core"}]}`
+* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::core"}]}`
+* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"internal::core"}]},{"type":"text","text":"\n        "}]}`
+-->
+
+## Private functions
+
+<a id="classansys_1_1dpf_1_1OperatorSpecification_1ae2e9f23ea7232fea0cf6ae0838a03fe3"></a>
+### Function OperatorSpecification
+
+![][private]
+
+
+```cpp
+ansys::dpf::OperatorSpecification::OperatorSpecification(opaque::DpfInternalSharedObject *)
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* opaque::DpfInternalSharedObject *
+
+**Return type**: 
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::OperatorSpecification"}]}`
+-->
+
+<a id="classansys_1_1dpf_1_1OperatorSpecification_1a6a8563e7b2d555969e387fcb6d0423ea"></a>
+### Function getPins
+
+![][private]
+![][const]
+
+
+```cpp
+std::vector< PinDefinition > ansys::dpf::OperatorSpecification::getPins(bool binput) const
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* bool **binput**
+
+**Return type**: std::vector< [PinDefinition](structansys_1_1dpf_1_1PinDefinition.md#structansys_1_1dpf_1_1PinDefinition) >
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::getPins"}]}`
+-->
+
+## Public functions
+
+<a id="classansys_1_1dpf_1_1OperatorSpecification_1a5ff57b38ca2dff01bf4f62dda841249e"></a>
+### Function OperatorSpecification
+
+![][public]
+
+
+```cpp
+ansys::dpf::OperatorSpecification::OperatorSpecification()
+```
+
+
+
+
+
+
+
+
+**Return type**: 
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::OperatorSpecification"}]}`
+-->
+
+<a id="classansys_1_1dpf_1_1OperatorSpecification_1a80996301dbad63232dd6b9bf90cf944d"></a>
+### Function ~OperatorSpecification
+
+![][public]
+
+
+```cpp
+virtual ansys::dpf::OperatorSpecification::~OperatorSpecification()
+```
+
+
+
+
+
+
+
+
+**Return type**: 
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::~OperatorSpecification"}]}`
+-->
+
+<a id="classansys_1_1dpf_1_1OperatorSpecification_1a9c474e5a973f7dfb5fdfa84c133a9c4d"></a>
+### Function OperatorSpecification
+
+![][public]
+
+
+```cpp
+ansys::dpf::OperatorSpecification::OperatorSpecification(OperatorSpecification const &)
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* OperatorSpecification const &
+
+**Return type**: 
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::OperatorSpecification"}]}`
+-->
+
+<a id="classansys_1_1dpf_1_1OperatorSpecification_1a87b1c58da59dea93a073ea51534715f6"></a>
+### Function OperatorSpecification
+
+![][public]
+
+
+```cpp
+ansys::dpf::OperatorSpecification::OperatorSpecification(OperatorSpecification &&) noexcept
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* OperatorSpecification &&
+
+**Return type**: 
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::OperatorSpecification"}]}`
+-->
+
+<a id="classansys_1_1dpf_1_1OperatorSpecification_1a4c907e7bab1f5a3a606ea51b4848d437"></a>
+### Function operator=
+
+![][public]
+
+
+```cpp
+OperatorSpecification & ansys::dpf::OperatorSpecification::operator=(OperatorSpecification const &)
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* OperatorSpecification const &
+
+**Return type**: OperatorSpecification &
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::operator="}]}`
+-->
+
+<a id="classansys_1_1dpf_1_1OperatorSpecification_1a82cdc5f2a8c768c10096e45b6e4a37f6"></a>
+### Function operator=
+
+![][public]
+
+
+```cpp
+OperatorSpecification & ansys::dpf::OperatorSpecification::operator=(OperatorSpecification &&) noexcept
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* OperatorSpecification &&
+
+**Return type**: OperatorSpecification &
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::operator="}]}`
+-->
+
+<a id="classansys_1_1dpf_1_1OperatorSpecification_1ab34a33daaef024443cebecd265786e18"></a>
+### Function inputPins
+
+![][public]
+![][const]
+
+
+```cpp
+std::vector< PinDefinition > ansys::dpf::OperatorSpecification::inputPins() const
+```
+
+
+
+
+Gets the currently defined input pins of the operator. 
+**Returns**:
+
+Vector of input pin definitions.
+
+
+
+**Return type**: std::vector< [PinDefinition](structansys_1_1dpf_1_1PinDefinition.md#structansys_1_1dpf_1_1PinDefinition) >
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::inputPins"}]}`
+-->
+
+<a id="classansys_1_1dpf_1_1OperatorSpecification_1af1f0a429df6979e64b52713fc95e981a"></a>
+### Function outputPins
+
+![][public]
+![][const]
+
+
+```cpp
+std::vector< PinDefinition > ansys::dpf::OperatorSpecification::outputPins() const
+```
+
+
+
+
+Gets the currently defined output pins of the operator. 
+**Returns**:
+
+Vector of output pin definitions.
+
+
+
+**Return type**: std::vector< [PinDefinition](structansys_1_1dpf_1_1PinDefinition.md#structansys_1_1dpf_1_1PinDefinition) >
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::outputPins"}]}`
+-->
+
+<a id="classansys_1_1dpf_1_1OperatorSpecification_1ac3e45d154d2904aedd470563c8d566b5"></a>
+### Function setInputPins
+
+![][public]
+
+
+```cpp
+void ansys::dpf::OperatorSpecification::setInputPins(std::vector< PinDefinition > const &pins)
+```
+
+
+
+
+Sets the input pin definitions of the operator.
+
+
+
+**Parameters**:
+
+* std::vector< [PinDefinition](structansys_1_1dpf_1_1PinDefinition.md#structansys_1_1dpf_1_1PinDefinition) > const & **pins**: [in] Vector of input pins.
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::setInputPins"}]}`
+-->
+
+<a id="classansys_1_1dpf_1_1OperatorSpecification_1a5a47b3bacdaf74b6039f73facd30a881"></a>
+### Function setOutputPins
+
+![][public]
+
+
+```cpp
+void ansys::dpf::OperatorSpecification::setOutputPins(std::vector< PinDefinition > const &pins)
+```
+
+
+
+
+Sets the output pin definitions of the operator.
+
+
+
+**Parameters**:
+
+* std::vector< [PinDefinition](structansys_1_1dpf_1_1PinDefinition.md#structansys_1_1dpf_1_1PinDefinition) > const & **pins**: [in] Vector of input pins.
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::setOutputPins"}]}`
+-->
+
+<a id="classansys_1_1dpf_1_1OperatorSpecification_1a398ea2f358ea35f62384436d99ca2bbf"></a>
+### Function getDocumentation
+
+![][public]
+![][const]
+
+
+```cpp
+std::string ansys::dpf::OperatorSpecification::getDocumentation() const
+```
+
+
+
+
+**Returns**:
+
+Description of operator.
+
+
+
+**Return type**: std::string
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::getDocumentation"}]}`
+-->
+
+<a id="classansys_1_1dpf_1_1OperatorSpecification_1af2335159650a865b5c7eab060d85da07"></a>
+### Function setDocumentation
+
+![][public]
+
+
+```cpp
+void ansys::dpf::OperatorSpecification::setDocumentation(std::string const &text)
+```
+
+
+
+
+Sets the description of operator.
+
+
+
+**Parameters**:
+
+* std::string const & **text**: [in] String describing the operator.
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::setDocumentation"}]}`
+-->
+
+<a id="classansys_1_1dpf_1_1OperatorSpecification_1a2f4a8c5f7334cbddb79b610d90fe9fc2"></a>
+### Function getProperty
+
+![][public]
+![][const]
+
+
+```cpp
+std::string ansys::dpf::OperatorSpecification::getProperty(std::string const &key) const
+```
+
+
+
+
+**Returns**:
+
+[Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) property given by key.
+
+
+
+**Parameters**:
+
+* std::string const & **key**: [in] Key of property to get.
+
+**Return type**: std::string
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::getProperty"}]}`
+-->
+
+<a id="classansys_1_1dpf_1_1OperatorSpecification_1aa931a524a869f2881c49bfef21f790d0"></a>
+### Function setProperty
+
+![][public]
+
+
+```cpp
+void ansys::dpf::OperatorSpecification::setProperty(std::string const &key, std::string const &value)
+```
+
+
+
+
+Set property for given key.
+
+
+
+**Parameters**:
+
+* std::string const & **key**: [in] Key for which to set property.
+* std::string const & **value**: [in] Property value.
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::setProperty"}]}`
+-->
+
+<a id="classansys_1_1dpf_1_1OperatorSpecification_1ad5b6239b64de0216aae2325f8936611c"></a>
+### Function configOptions
+
+![][public]
+![][const]
+
+
+```cpp
+std::vector< ConfigOptionSpecification > ansys::dpf::OperatorSpecification::configOptions() const
+```
+
+
+
+
+Gets the currently defined configuration options specifications. 
+**Returns**:
+
+Vector of operator configuration option specifications.
+
+
+
+**Return type**: std::vector< [ConfigOptionSpecification](structansys_1_1dpf_1_1ConfigOptionSpecification.md#structansys_1_1dpf_1_1ConfigOptionSpecification) >
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::configOptions"}]}`
+-->
+
+<a id="classansys_1_1dpf_1_1OperatorSpecification_1ac608a98bb19ea5c878f2424e209f52d8"></a>
+### Function addSupportedConfigOption
+
+![][public]
+
+
+```cpp
+void ansys::dpf::OperatorSpecification::addSupportedConfigOption(std::string const &option_name, bool default_value, std::string const &documentation="")
+```
+
+
+
+
+Add a supported config option to the operator. @See [OperatorConfig](classansys_1_1dpf_1_1OperatorConfig.md#classansys_1_1dpf_1_1OperatorConfig)
+
+
+
+**Parameters**:
+
+* std::string const & **option_name**: [in] @See [OperatorConfig::options](classansys_1_1dpf_1_1OperatorConfig.md#classansys_1_1dpf_1_1OperatorConfig_1ae02e4297e6fa9030d1ff3179fefe04b5).
+* bool **default_value**: [in] Default value.
+* std::string const & **documentation** = "" : [in] Description of the config option. If nothing is specified default values will be looked for.
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::addSupportedConfigOption"}]}`
+-->
+
+<a id="classansys_1_1dpf_1_1OperatorSpecification_1a69d4382377d7375074fa8da84f5c5732"></a>
+### Function addSupportedConfigOption
+
+![][public]
+
+
+```cpp
+void ansys::dpf::OperatorSpecification::addSupportedConfigOption(std::string const &option_name, int default_value, std::string const &documentation="")
+```
+
+
+
+
+Add a supported config option to the operator. @See [OperatorConfig](classansys_1_1dpf_1_1OperatorConfig.md#classansys_1_1dpf_1_1OperatorConfig)
+
+
+
+**Parameters**:
+
+* std::string const & **option_name**: [in] @See [OperatorConfig::options](classansys_1_1dpf_1_1OperatorConfig.md#classansys_1_1dpf_1_1OperatorConfig_1ae02e4297e6fa9030d1ff3179fefe04b5).
+* int **default_value**: [in] Default value.
+* std::string const & **documentation** = "" : [in] Description of the config option. If nothing is specified default values will be looked for.
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::addSupportedConfigOption"}]}`
+-->
+
+<a id="classansys_1_1dpf_1_1OperatorSpecification_1adcf58df937bb7bd6b2bb21b849ce7130"></a>
+### Function addSupportedConfigOption
+
+![][public]
+
+
+```cpp
+void ansys::dpf::OperatorSpecification::addSupportedConfigOption(std::string const &option_name, double default_value, std::string const &documentation="")
+```
+
+
+
+
+Add a supported config option to the operator. @See [OperatorConfig](classansys_1_1dpf_1_1OperatorConfig.md#classansys_1_1dpf_1_1OperatorConfig)
+
+
+
+**Parameters**:
+
+* std::string const & **option_name**: [in] @See [OperatorConfig::options](classansys_1_1dpf_1_1OperatorConfig.md#classansys_1_1dpf_1_1OperatorConfig_1ae02e4297e6fa9030d1ff3179fefe04b5).
+* double **default_value**: [in] Default value.
+* std::string const & **documentation** = "" : [in] Description of the config option. If nothing is specified default values will be looked for.
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::addSupportedConfigOption"}]}`
+-->
+
+<a id="classansys_1_1dpf_1_1OperatorSpecification_1ab952e05fe762a0081c24d99bf7bb9158"></a>
+### Function setVersion
+
+![][public]
+
+
+```cpp
+void ansys::dpf::OperatorSpecification::setVersion(const SemanticVersion &semver)
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* const [SemanticVersion](classansys_1_1dpf_1_1SemanticVersion.md#classansys_1_1dpf_1_1SemanticVersion) & **semver**
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::setVersion"}]}`
+-->
+
+<a id="classansys_1_1dpf_1_1OperatorSpecification_1a87d6a5e4c061fb356735fbb53ccc50b3"></a>
+### Function getVersion
+
+![][public]
+![][const]
+
+
+```cpp
+SemanticVersion ansys::dpf::OperatorSpecification::getVersion() const
+```
+
+
+
+
+
+
+
+
+**Return type**: [SemanticVersion](classansys_1_1dpf_1_1SemanticVersion.md#classansys_1_1dpf_1_1SemanticVersion)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::getVersion"}]}`
+-->
+
+<a id="classansys_1_1dpf_1_1OperatorSpecification_1a360172f91b5c055d425e4a0b5c20466c"></a>
+### Function setChangelog
+
+![][public]
+
+
+```cpp
+void ansys::dpf::OperatorSpecification::setChangelog(const Changelog &changelog)
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* const [Changelog](classansys_1_1dpf_1_1Changelog.md#classansys_1_1dpf_1_1Changelog) & **changelog**
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::setChangelog"}]}`
+-->
+
+<!--
+**TODO**:
+
+* `includes  {"type":"element","name":"includes","attributes":{"local":"no"},"children":[{"type":"text","text":"dpf_api.h"}]}`
+-->
+
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
+[const]: https://img.shields.io/badge/-const-lightblue (const)
+[static]: https://img.shields.io/badge/-static-lightgrey (static)

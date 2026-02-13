@@ -1,28 +1,567 @@
 - name: Introduction
   href: index.md
 - name: Getting started
-  href: user-guide/00_getting_started.md
+  href: user-guide/getting-started.md
 - name: User guide
   items:
+  - name: Operators
+    href: user-guide/operators.md
   - name: Concepts and Terminology
-    href: user-guide/02_Concepts.md
+    href: user-guide/concepts.md
   - name: Ways of Using DPF
-    href: user-guide/03_Ways_of_Using.md
+    href: user-guide/ways-of-using.md
   - name: Using DPF
-    href: user-guide/05_Using_DPF.md
+    href: user-guide/using-dpf.md
   - name: DPF Collections
-    href: user-guide/12_dpf_collections.md
+    href: user-guide/dpf-collections.md
 - name: How-Tos
   items:
   - name: Using DPF capabilities in an existing project
-    href: user-guide/06_1_use_dpf_in_existing.md
+    href: user-guide/use-dpf-in-existing.md
   - name: Creating a DPF custom operator's library
-    href: user-guide/06_2_how_to_create_cpp_plugin.md
+    href: user-guide/how-to-create-cpp-plugin.md
   - name: How to write an operator
-    href: user-guide/09_how_to_write_an_operator.md
+    href: user-guide/how-to-write-an-operator.md
   - name: Debugging DPF
-    href: user-guide/06_Debugging_DPF.md
+    href: user-guide/debugging-dpf.md
   - name: Using DPF XML Files
-    href: user-guide/07_DPF_XML_Files.md
+    href: user-guide/dpf-xml-files.md
 - name: API Reference
-  href: api-reference/toc.yml
+  items:
+  - name: Namespaces
+    items:
+    - name: ansys
+      href: api-reference/namespaceansys.md
+      kind: namespace
+    - name: ansys::dpf
+      href: api-reference/namespaceansys_1_1dpf.md
+      kind: namespace
+    - name: ansys::dpf::internal
+      href: api-reference/namespaceansys_1_1dpf_1_1internal.md
+      kind: namespace
+    - name: ansys::dpf::opaque
+      href: api-reference/namespaceansys_1_1dpf_1_1opaque.md
+      kind: namespace
+    - name: ansys::dpf::so
+      href: api-reference/namespaceansys_1_1dpf_1_1so.md
+      kind: namespace
+    - name: dataProcessing
+      href: api-reference/namespacedataProcessing.md
+      kind: namespace
+    - name: helper
+      href: api-reference/namespacehelper.md
+      kind: namespace
+    - name: std
+      href: api-reference/namespacestd.md
+      kind: namespace
+  - name: Classes
+    items:
+    - name: ansys::dpf::Any
+      href: api-reference/classansys_1_1dpf_1_1Any.md
+      kind: class
+    - name: ansys::dpf::CacheInformation
+      href: api-reference/classansys_1_1dpf_1_1CacheInformation.md
+      kind: class
+    - name: ansys::dpf::CacheInformation::LevelAndDestination
+      href: api-reference/classansys_1_1dpf_1_1CacheInformation_1_1LevelAndDestination.md
+      kind: class
+    - name: ansys::dpf::Changelog
+      href: api-reference/classansys_1_1dpf_1_1Changelog.md
+      kind: class
+    - name: ansys::dpf::Client
+      href: api-reference/classansys_1_1dpf_1_1Client.md
+      kind: class
+    - name: ansys::dpf::Collection
+      href: api-reference/classansys_1_1dpf_1_1Collection.md
+      kind: class
+    - name: ansys::dpf::CollectionBase
+      href: api-reference/classansys_1_1dpf_1_1CollectionBase.md
+      kind: class
+    - name: ansys::dpf::Context
+      href: api-reference/classansys_1_1dpf_1_1Context.md
+      kind: class
+    - name: ansys::dpf::CustomContainerBase
+      href: api-reference/classansys_1_1dpf_1_1CustomContainerBase.md
+      kind: class
+    - name: ansys::dpf::CustomTypeField
+      href: api-reference/classansys_1_1dpf_1_1CustomTypeField.md
+      kind: class
+    - name: ansys::dpf::CustomTypeFieldsContainer
+      href: api-reference/classansys_1_1dpf_1_1CustomTypeFieldsContainer.md
+      kind: class
+    - name: ansys::dpf::CyclicSupport
+      href: api-reference/classansys_1_1dpf_1_1CyclicSupport.md
+      kind: class
+    - name: ansys::dpf::DataSources
+      href: api-reference/classansys_1_1dpf_1_1DataSources.md
+      kind: class
+    - name: ansys::dpf::DataTree
+      href: api-reference/classansys_1_1dpf_1_1DataTree.md
+      kind: class
+    - name: ansys::dpf::DpfError
+      href: api-reference/classansys_1_1dpf_1_1DpfError.md
+      kind: class
+    - name: ansys::dpf::DpfException
+      href: api-reference/classansys_1_1dpf_1_1DpfException.md
+      kind: class
+    - name: ansys::dpf::DpfTypes
+      href: api-reference/classansys_1_1dpf_1_1DpfTypes.md
+      kind: class
+    - name: ansys::dpf::DpfVector
+      href: api-reference/classansys_1_1dpf_1_1DpfVector.md
+      kind: class
+    - name: ansys::dpf::DpfVector< std::string >
+      href: api-reference/classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4.md
+      kind: class
+    - name: ansys::dpf::DpfVectorData
+      href: api-reference/classansys_1_1dpf_1_1DpfVectorData.md
+      kind: class
+    - name: ansys::dpf::ElementCursor
+      href: api-reference/classansys_1_1dpf_1_1ElementCursor.md
+      kind: class
+    - name: ansys::dpf::EventHandler
+      href: api-reference/classansys_1_1dpf_1_1EventHandler.md
+      kind: class
+    - name: ansys::dpf::ExternalData
+      href: api-reference/classansys_1_1dpf_1_1ExternalData.md
+      kind: class
+    - name: ansys::dpf::ExternalDataT
+      href: api-reference/classansys_1_1dpf_1_1ExternalDataT.md
+      kind: class
+    - name: ansys::dpf::ExternalStream
+      href: api-reference/classansys_1_1dpf_1_1ExternalStream.md
+      kind: class
+    - name: ansys::dpf::Field
+      href: api-reference/classansys_1_1dpf_1_1Field.md
+      kind: class
+    - name: ansys::dpf::FieldCursor
+      href: api-reference/classansys_1_1dpf_1_1FieldCursor.md
+      kind: class
+    - name: ansys::dpf::FieldDefinition
+      href: api-reference/classansys_1_1dpf_1_1FieldDefinition.md
+      kind: class
+    - name: ansys::dpf::FieldsContainer
+      href: api-reference/classansys_1_1dpf_1_1FieldsContainer.md
+      kind: class
+    - name: ansys::dpf::GenericDataContainer
+      href: api-reference/classansys_1_1dpf_1_1GenericDataContainer.md
+      kind: class
+    - name: ansys::dpf::GenericSupport
+      href: api-reference/classansys_1_1dpf_1_1GenericSupport.md
+      kind: class
+    - name: ansys::dpf::Homogeneity
+      href: api-reference/classansys_1_1dpf_1_1Homogeneity.md
+      kind: class
+    - name: ansys::dpf::Interface
+      href: api-reference/classansys_1_1dpf_1_1Interface.md
+      kind: class
+    - name: ansys::dpf::LabelSpace
+      href: api-reference/classansys_1_1dpf_1_1LabelSpace.md
+      kind: class
+    - name: ansys::dpf::LibraryHandle
+      href: api-reference/classansys_1_1dpf_1_1LibraryHandle.md
+      kind: class
+    - name: ansys::dpf::LibraryHolder
+      href: api-reference/classansys_1_1dpf_1_1LibraryHolder.md
+      kind: class
+    - name: ansys::dpf::LicenseContextManager
+      href: api-reference/classansys_1_1dpf_1_1LicenseContextManager.md
+      kind: class
+    - name: ansys::dpf::Mapping
+      href: api-reference/classansys_1_1dpf_1_1Mapping.md
+      kind: class
+    - name: ansys::dpf::MeshInfo
+      href: api-reference/classansys_1_1dpf_1_1MeshInfo.md
+      kind: class
+    - name: ansys::dpf::MeshQuery
+      href: api-reference/classansys_1_1dpf_1_1MeshQuery.md
+      kind: class
+    - name: ansys::dpf::MeshedRegion
+      href: api-reference/classansys_1_1dpf_1_1MeshedRegion.md
+      kind: class
+    - name: ansys::dpf::MeshesContainer
+      href: api-reference/classansys_1_1dpf_1_1MeshesContainer.md
+      kind: class
+    - name: ansys::dpf::Model
+      href: api-reference/classansys_1_1dpf_1_1Model.md
+      kind: class
+    - name: ansys::dpf::Operator
+      href: api-reference/classansys_1_1dpf_1_1Operator.md
+      kind: class
+    - name: ansys::dpf::OperatorConfig
+      href: api-reference/classansys_1_1dpf_1_1OperatorConfig.md
+      kind: class
+    - name: ansys::dpf::OperatorDerivativeMain
+      href: api-reference/classansys_1_1dpf_1_1OperatorDerivativeMain.md
+      kind: class
+    - name: ansys::dpf::OperatorMain
+      href: api-reference/classansys_1_1dpf_1_1OperatorMain.md
+      kind: class
+    - name: ansys::dpf::OperatorSpecification
+      href: api-reference/classansys_1_1dpf_1_1OperatorSpecification.md
+      kind: class
+    - name: ansys::dpf::PropFieldCursor
+      href: api-reference/classansys_1_1dpf_1_1PropFieldCursor.md
+      kind: class
+    - name: ansys::dpf::PropertyField
+      href: api-reference/classansys_1_1dpf_1_1PropertyField.md
+      kind: class
+    - name: ansys::dpf::RemoteOperator
+      href: api-reference/classansys_1_1dpf_1_1RemoteOperator.md
+      kind: class
+    - name: ansys::dpf::RemoteWorkflow
+      href: api-reference/classansys_1_1dpf_1_1RemoteWorkflow.md
+      kind: class
+    - name: ansys::dpf::Result
+      href: api-reference/classansys_1_1dpf_1_1Result.md
+      kind: class
+    - name: ansys::dpf::ResultInfo
+      href: api-reference/classansys_1_1dpf_1_1ResultInfo.md
+      kind: class
+    - name: ansys::dpf::ResultInfo::Result
+      href: api-reference/classansys_1_1dpf_1_1ResultInfo_1_1Result.md
+      kind: class
+    - name: ansys::dpf::RuntimeClientConfig
+      href: api-reference/classansys_1_1dpf_1_1RuntimeClientConfig.md
+      kind: class
+    - name: ansys::dpf::RuntimeConfig
+      href: api-reference/classansys_1_1dpf_1_1RuntimeConfig.md
+      kind: class
+    - name: ansys::dpf::RuntimeCoreConfig
+      href: api-reference/classansys_1_1dpf_1_1RuntimeCoreConfig.md
+      kind: class
+    - name: ansys::dpf::Scoping
+      href: api-reference/classansys_1_1dpf_1_1Scoping.md
+      kind: class
+    - name: ansys::dpf::ScopingsContainer
+      href: api-reference/classansys_1_1dpf_1_1ScopingsContainer.md
+      kind: class
+    - name: ansys::dpf::SemanticVersion
+      href: api-reference/classansys_1_1dpf_1_1SemanticVersion.md
+      kind: class
+    - name: ansys::dpf::Session
+      href: api-reference/classansys_1_1dpf_1_1Session.md
+      kind: class
+    - name: ansys::dpf::Streams
+      href: api-reference/classansys_1_1dpf_1_1Streams.md
+      kind: class
+    - name: ansys::dpf::StringField
+      href: api-reference/classansys_1_1dpf_1_1StringField.md
+      kind: class
+    - name: ansys::dpf::Support
+      href: api-reference/classansys_1_1dpf_1_1Support.md
+      kind: class
+    - name: ansys::dpf::TimeFreqSupport
+      href: api-reference/classansys_1_1dpf_1_1TimeFreqSupport.md
+      kind: class
+    - name: ansys::dpf::Unit
+      href: api-reference/classansys_1_1dpf_1_1Unit.md
+      kind: class
+    - name: ansys::dpf::Workflow
+      href: api-reference/classansys_1_1dpf_1_1Workflow.md
+      kind: class
+    - name: ansys::dpf::WorkflowStep
+      href: api-reference/classansys_1_1dpf_1_1WorkflowStep.md
+      kind: class
+    - name: ansys::dpf::core
+      href: api-reference/classansys_1_1dpf_1_1core.md
+      kind: class
+    - name: ansys::dpf::core::logging::Logger
+      href: api-reference/classansys_1_1dpf_1_1core_1_1logging_1_1Logger.md
+      kind: class
+    - name: ansys::dpf::core::logging::LoggerConfig
+      href: api-reference/classansys_1_1dpf_1_1core_1_1logging_1_1LoggerConfig.md
+      kind: class
+  - name: Structures
+    items:
+    - name: ansys::dpf::ConfigOptionSpecification
+      href: api-reference/structansys_1_1dpf_1_1ConfigOptionSpecification.md
+      kind: struct
+    - name: ansys::dpf::ConstructHelpers
+      href: api-reference/structansys_1_1dpf_1_1ConstructHelpers.md
+      kind: struct
+    - name: ansys::dpf::ConstructHelpers::construct_trait
+      href: api-reference/structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait.md
+      kind: struct
+    - name: ansys::dpf::ConstructHelpers::construct_trait< Any, std::true_type >
+      href: api-reference/structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait_3_01Any_00_01std_1_1true__type_01_4.md
+      kind: struct
+    - name: ansys::dpf::ConstructHelpers::construct_trait< Collection< DataT >, std::false_type
+        >
+      href: api-reference/structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait_3_01Collection_3_01DataT_01_4_00_01std_1_1false__type_01_4.md
+      kind: struct
+    - name: ansys::dpf::ConstructHelpers::construct_trait< DataT, std::false_type
+        >
+      href: api-reference/structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait_3_01DataT_00_01std_1_1false__type_01_4.md
+      kind: struct
+    - name: ansys::dpf::ConstructHelpers::construct_trait< DataT, std::true_type >
+      href: api-reference/structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait_3_01DataT_00_01std_1_1true__type_01_4.md
+      kind: struct
+    - name: ansys::dpf::Context::internal
+      href: api-reference/structansys_1_1dpf_1_1Context_1_1internal.md
+      kind: struct
+    - name: ansys::dpf::Dimensionality
+      href: api-reference/structansys_1_1dpf_1_1Dimensionality.md
+      kind: struct
+    - name: ansys::dpf::DpfVector::iterator
+      href: api-reference/structansys_1_1dpf_1_1DpfVector_1_1iterator.md
+      kind: struct
+    - name: ansys::dpf::DpfVectorDataHelper
+      href: api-reference/structansys_1_1dpf_1_1DpfVectorDataHelper.md
+      kind: struct
+    - name: ansys::dpf::ElementDescriptor
+      href: api-reference/structansys_1_1dpf_1_1ElementDescriptor.md
+      kind: struct
+    - name: ansys::dpf::Label
+      href: api-reference/structansys_1_1dpf_1_1Label.md
+      kind: struct
+    - name: ansys::dpf::Location
+      href: api-reference/structansys_1_1dpf_1_1Location.md
+      kind: struct
+    - name: ansys::dpf::OperatorConfig::options
+      href: api-reference/structansys_1_1dpf_1_1OperatorConfig_1_1options.md
+      kind: struct
+    - name: ansys::dpf::PinDefinition
+      href: api-reference/structansys_1_1dpf_1_1PinDefinition.md
+      kind: struct
+    - name: ansys::dpf::PropertyType
+      href: api-reference/structansys_1_1dpf_1_1PropertyType.md
+      kind: struct
+    - name: ansys::dpf::QuantityType
+      href: api-reference/structansys_1_1dpf_1_1QuantityType.md
+      kind: struct
+    - name: ansys::dpf::ResultInfo::subresult
+      href: api-reference/structansys_1_1dpf_1_1ResultInfo_1_1subresult.md
+      kind: struct
+    - name: ansys::dpf::ShellDescriptor
+      href: api-reference/structansys_1_1dpf_1_1ShellDescriptor.md
+      kind: struct
+    - name: ansys::dpf::TypeDescriptor
+      href: api-reference/structansys_1_1dpf_1_1TypeDescriptor.md
+      kind: struct
+    - name: ansys::dpf::UnitSystem
+      href: api-reference/structansys_1_1dpf_1_1UnitSystem.md
+      kind: struct
+    - name: ansys::dpf::array_to_pointer_decay
+      href: api-reference/structansys_1_1dpf_1_1array__to__pointer__decay.md
+      kind: struct
+    - name: ansys::dpf::array_to_pointer_decay< T[N]>
+      href: api-reference/structansys_1_1dpf_1_1array__to__pointer__decay_3_01T_0fN_0e_4.md
+      kind: struct
+    - name: ansys::dpf::core::FbsServerData
+      href: api-reference/structansys_1_1dpf_1_1core_1_1FbsServerData.md
+      kind: struct
+    - name: ansys::dpf::core::logging
+      href: api-reference/structansys_1_1dpf_1_1core_1_1logging.md
+      kind: struct
+    - name: ansys::dpf::core::logging::internal
+      href: api-reference/structansys_1_1dpf_1_1core_1_1logging_1_1internal.md
+      kind: struct
+    - name: ansys::dpf::core::path_utilities
+      href: api-reference/structansys_1_1dpf_1_1core_1_1path__utilities.md
+      kind: struct
+    - name: ansys::dpf::core::trace
+      href: api-reference/structansys_1_1dpf_1_1core_1_1trace.md
+      kind: struct
+    - name: ansys::dpf::dimensionalities
+      href: api-reference/structansys_1_1dpf_1_1dimensionalities.md
+      kind: struct
+    - name: ansys::dpf::elements
+      href: api-reference/structansys_1_1dpf_1_1elements.md
+      kind: struct
+    - name: ansys::dpf::homogeneities
+      href: api-reference/structansys_1_1dpf_1_1homogeneities.md
+      kind: struct
+    - name: ansys::dpf::internal::set_prop
+      href: api-reference/structansys_1_1dpf_1_1internal_1_1set__prop.md
+      kind: struct
+    - name: ansys::dpf::internal::set_prop< T, std::false_type, std::true_type >
+      href: api-reference/structansys_1_1dpf_1_1internal_1_1set__prop_3_01T_00_01std_1_1false__type_00_01std_1_1true__type_01_4.md
+      kind: struct
+    - name: ansys::dpf::internal::set_prop< T, std::true_type, std::false_type >
+      href: api-reference/structansys_1_1dpf_1_1internal_1_1set__prop_3_01T_00_01std_1_1true__type_00_01std_1_1false__type_01_4.md
+      kind: struct
+    - name: ansys::dpf::labels
+      href: api-reference/structansys_1_1dpf_1_1labels.md
+      kind: struct
+    - name: ansys::dpf::locations
+      href: api-reference/structansys_1_1dpf_1_1locations.md
+      kind: struct
+    - name: ansys::dpf::param_helpers
+      href: api-reference/structansys_1_1dpf_1_1param__helpers.md
+      kind: struct
+    - name: ansys::dpf::property_types
+      href: api-reference/structansys_1_1dpf_1_1property__types.md
+      kind: struct
+    - name: ansys::dpf::quantity_types
+      href: api-reference/structansys_1_1dpf_1_1quantity__types.md
+      kind: struct
+    - name: ansys::dpf::reflect
+      href: api-reference/structansys_1_1dpf_1_1reflect.md
+      kind: struct
+    - name: ansys::dpf::reflect< CustomTypeField >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01CustomTypeField_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< CustomTypeFieldsContainer >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01CustomTypeFieldsContainer_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< DataSources >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01DataSources_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< DataTree >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01DataTree_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< Field >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01Field_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< FieldsContainer >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01FieldsContainer_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< GenericDataContainer >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01GenericDataContainer_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< LabelSpace >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01LabelSpace_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< MeshedRegion >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01MeshedRegion_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< MeshesContainer >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01MeshesContainer_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< Operator >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01Operator_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< PropertyField >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01PropertyField_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< RemoteOperator >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01RemoteOperator_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< RemoteWorkflow >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01RemoteWorkflow_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< ResultInfo >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01ResultInfo_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< Scoping >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01Scoping_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< ScopingsContainer >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01ScopingsContainer_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< Streams >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01Streams_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< StringField >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01StringField_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< TimeFreqSupport >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01TimeFreqSupport_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< Workflow >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01Workflow_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< bool >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01bool_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< char >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01char_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< double >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01double_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< float >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01float_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< int >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01int_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< int64_t >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01int64__t_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< int8_t >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01int8__t_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< short >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01short_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< size_t >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01size__t_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< std::complex< double > >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01std_1_1complex_3_01double_01_4_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< std::string >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01std_1_1string_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< std::vector< double > >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01std_1_1vector_3_01double_01_4_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< std::vector< int > >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01std_1_1vector_3_01int_01_4_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< std::vector< std::string > >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01std_1_1vector_3_01std_1_1string_01_4_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< unsigned int >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01unsigned_01int_01_4.md
+      kind: struct
+    - name: ansys::dpf::reflect< wchar_t >
+      href: api-reference/structansys_1_1dpf_1_1reflect_3_01wchar__t_01_4.md
+      kind: struct
+    - name: ansys::dpf::spec
+      href: api-reference/structansys_1_1dpf_1_1spec.md
+      kind: struct
+    - name: ansys::dpf::spec::category
+      href: api-reference/structansys_1_1dpf_1_1spec_1_1category.md
+      kind: struct
+    - name: ansys::dpf::spec::exposure
+      href: api-reference/structansys_1_1dpf_1_1spec_1_1exposure.md
+      kind: struct
+    - name: ansys::dpf::spec::license
+      href: api-reference/structansys_1_1dpf_1_1spec_1_1license.md
+      kind: struct
+    - name: ansys::dpf::spec::plugin
+      href: api-reference/structansys_1_1dpf_1_1spec_1_1plugin.md
+      kind: struct
+    - name: ansys::dpf::types
+      href: api-reference/structansys_1_1dpf_1_1types.md
+      kind: struct
+    - name: ansys::dpf::unit_systems
+      href: api-reference/structansys_1_1dpf_1_1unit__systems.md
+      kind: struct
+    - name: std::hash< ansys::dpf::PropertyType >
+      href: api-reference/structstd_1_1hash_3_01ansys_1_1dpf_1_1PropertyType_01_4.md
+      kind: struct
+  - name: Files
+    items:
+    - name: Readme.txt
+      href: api-reference/Readme_8txt.md
+      kind: file
+    - name: dpf_api.h
+      href: api-reference/dpf__api_8h.md
+      kind: file
+    - name: dpf_api_base.h
+      href: api-reference/dpf__api__base_8h.md
+      kind: file
+    - name: dpf_meshQuery.h
+      href: api-reference/dpf__meshQuery_8h.md
+      kind: file
+    - name: dpf_model.h
+      href: api-reference/dpf__model_8h.md
+      kind: file
+    - name: dpf_result.h
+      href: api-reference/dpf__result_8h.md
+      kind: file
+  - name: Pages
+    items:
+    - name: deprecated
+      href: api-reference/deprecated.md
+      kind: page
+    - name: index
+      href: api-reference/indexpage.md
+      kind: page
+    - name: md_D_1_2ANSYSDev_2Sandbox_2DPF_2Ans_8Dpf_8Hgp_2Examples_2Readme
+      href: api-reference/md_D_1_2ANSYSDev_2Sandbox_2DPF_2Ans_8Dpf_8Hgp_2Examples_2Readme.md
+      kind: page
