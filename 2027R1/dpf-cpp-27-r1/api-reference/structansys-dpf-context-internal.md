@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 1860)
 
-
-
-
-
 ## Members
 
 * [contextToDataTree](structansys_1_1dpf_1_1Context_1_1internal.md#structansys_1_1dpf_1_1Context_1_1internal_1a66bc5304c6c05f5d54a2dc3a83815626)
@@ -23,17 +19,9 @@
 ![][public]
 ![][static]
 
-
 ```cpp
 static int ansys::dpf::Context::internal::getAPIVersion(Context const &context)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -53,17 +41,9 @@ static int ansys::dpf::Context::internal::getAPIVersion(Context const &context)
 ![][public]
 ![][static]
 
-
 ```cpp
 static DataTree ansys::dpf::Context::internal::contextToDataTree(Context const &context, Client const *const client=nullptr)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 

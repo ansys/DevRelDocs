@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 599)
 
-
-
 Description of element. 
 
 **See also**: [elements](structansys_1_1dpf_1_1elements.md#structansys_1_1dpf_1_1elements)
@@ -37,17 +35,9 @@ Description of element.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 601)
 
-
 ```cpp
 int ansys::dpf::ElementDescriptor::id
 ```
-
-
-
-
-
-
-
 
 **Type**: int
 
@@ -64,17 +54,11 @@ int ansys::dpf::ElementDescriptor::id
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 603)
 
-
 ```cpp
 std::string ansys::dpf::ElementDescriptor::name
 ```
 
-
-
-
 Full name of element.
-
-
 
 **Type**: std::string
 
@@ -91,17 +75,9 @@ Full name of element.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 604)
 
-
 ```cpp
 std::string ansys::dpf::ElementDescriptor::short_name
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -118,17 +94,9 @@ std::string ansys::dpf::ElementDescriptor::short_name
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 605)
 
-
 ```cpp
 dp_int ansys::dpf::ElementDescriptor::number_of_corner_nodes
 ```
-
-
-
-
-
-
-
 
 **Type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -145,17 +113,9 @@ dp_int ansys::dpf::ElementDescriptor::number_of_corner_nodes
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 606)
 
-
 ```cpp
 dp_int ansys::dpf::ElementDescriptor::number_of_mid_nodes
 ```
-
-
-
-
-
-
-
 
 **Type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -172,17 +132,9 @@ dp_int ansys::dpf::ElementDescriptor::number_of_mid_nodes
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 607)
 
-
 ```cpp
 dp_int ansys::dpf::ElementDescriptor::number_of_nodes
 ```
-
-
-
-
-
-
-
 
 **Type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -199,17 +151,11 @@ dp_int ansys::dpf::ElementDescriptor::number_of_nodes
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 609)
 
-
 ```cpp
 bool ansys::dpf::ElementDescriptor::solid
 ```
 
-
-
-
 Solid or volume element.
-
-
 
 **Type**: bool
 
@@ -226,17 +172,11 @@ Solid or volume element.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 611)
 
-
 ```cpp
 bool ansys::dpf::ElementDescriptor::shell
 ```
 
-
-
-
 Shell or surface element.
-
-
 
 **Type**: bool
 
@@ -253,17 +193,11 @@ Shell or surface element.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 613)
 
-
 ```cpp
 bool ansys::dpf::ElementDescriptor::beam
 ```
 
-
-
-
 Beam or line element.
-
-
 
 **Type**: bool
 
@@ -280,17 +214,11 @@ Beam or line element.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 615)
 
-
 ```cpp
 bool ansys::dpf::ElementDescriptor::quadratic
 ```
 
-
-
-
 Quadratic element.
-
-
 
 **Type**: bool
 
@@ -307,17 +235,11 @@ Quadratic element.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::ElementDescriptor::ElementDescriptor(dp_int id, std::string const &name, std::string const &short_name, dp_int corner, dp_int mid, dp_int all, bool is_solid, bool is_shell, bool is_beam)
 ```
 
-
-
-
 Create element descriptor
-
-
 
 **Parameters**:
 
@@ -345,17 +267,9 @@ Create element descriptor
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::ElementDescriptor::operator==(ElementDescriptor const &rhs) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -375,17 +289,9 @@ bool ansys::dpf::ElementDescriptor::operator==(ElementDescriptor const &rhs) con
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::ElementDescriptor::unknownNumNodes() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: bool
 
@@ -400,4 +306,3 @@ bool ansys::dpf::ElementDescriptor::unknownNumNodes() const
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-[Markdown]: https://img.shields.io/badge/language-Markdown-blue (Markdown)

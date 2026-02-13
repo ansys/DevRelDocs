@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3744)
 
-
-
-
-
 **Inherits from**:
 
 * [ansys::dpf::DpfTypes](classansys_1_1dpf_1_1DpfTypes.md#classansys_1_1dpf_1_1DpfTypes)
@@ -49,400 +45,7 @@
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1GenericDataContainer_1a33ff3f826991522d2e77c1c523f33e19"></a>
-### Friend Operator
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3746)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Operator"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::GenericDataContainer::Operator"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Operator"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1GenericDataContainer_1a81d95df60edf516a1de9878b780f8fb3"></a>
-### Friend OperatorMain
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3747)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorMain"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::GenericDataContainer::OperatorMain"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorMain"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1GenericDataContainer_1a9820c685b67a3355c042bb0b3365d9e2"></a>
-### Friend Any
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3748)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Any"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::GenericDataContainer::Any"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Any"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1GenericDataContainer_1afa07847c7cb432b260e61a0c18025ba3"></a>
-### Friend Workflow
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3749)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Workflow"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::GenericDataContainer::Workflow"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Workflow"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1GenericDataContainer_1ae20c0436218f3c6589bf9e77a538259b"></a>
-### Friend Changelog
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3750)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Changelog"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::GenericDataContainer::Changelog"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Changelog"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1GenericDataContainer_1aa60b6022465bcd46362295cc53d4ba68"></a>
-### Friend OperatorSpecification
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3751)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorSpecification"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::GenericDataContainer::OperatorSpecification"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorSpecification"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1GenericDataContainer_1a17e81b7d4f7325d912e600690cb4e715"></a>
-### Friend CustomContainerBase
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3752)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class CustomContainerBase"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::GenericDataContainer::CustomContainerBase"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"CustomContainerBase"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1GenericDataContainer_1af891ea2ca8eebe3679e051763ba989ce"></a>
-### Friend CollectionBase
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3753)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class CollectionBase"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::GenericDataContainer::CollectionBase"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"CollectionBase"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1GenericDataContainer_1ab2e4916b9d046a72d197238993a71433"></a>
-### Friend internal::set\_prop
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3755)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename T"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename isBaseOfDpfTypes"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename isBaseOfCustomContainerBase"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"struct"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend struct internal::set_prop"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::GenericDataContainer::set_prop"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"internal::set_prop"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1GenericDataContainer_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3756)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::GenericDataContainer::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1GenericDataContainer_1ab2d68cadf7c4ee3502154973176b7ecf"></a>
-### Function GenericDataContainer
-
-![][private]
-
-
-```cpp
-ansys::dpf::GenericDataContainer::GenericDataContainer(opaque::DpfInternalSharedObject *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfInternalSharedObject *
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::GenericDataContainer::GenericDataContainer"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1GenericDataContainer_1a9c9212e22c4d4c06f8c448b7e83f763b"></a>
-### Function opaqueSetProperty
-
-![][private]
-
-
-```cpp
-void ansys::dpf::GenericDataContainer::opaqueSetProperty(const std::string &property_name, opaque::DpfObject *property, DpfError &error)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* const std::string & **property_name**
-* opaque::DpfObject * **property**
-* [DpfError](classansys_1_1dpf_1_1DpfError.md#classansys_1_1dpf_1_1DpfError) & **error**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::GenericDataContainer::opaqueSetProperty"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1GenericDataContainer_1a989703b663a32e49c9d432c63d233c85"></a>
-### Function setPropertyIntegral
-
-![][private]
-
-
-```cpp
-void ansys::dpf::GenericDataContainer::setPropertyIntegral(const std::string &property_name, const T &property)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* const std::string & **property_name**
-* const T & **property**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename T"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::GenericDataContainer::setPropertyIntegral"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1GenericDataContainer_1a5c092e1dad61106510e56d0c2917d6a1"></a>
-### Function makeAny
-
-![][private]
-
-
-```cpp
-Any ansys::dpf::GenericDataContainer::makeAny(const T &property)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* const T & **property**
-
-**Return type**: Any
-
-<!--
-**TODO**:
-
-* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename T"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::GenericDataContainer::makeAny"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1GenericDataContainer_1a05408240eeaa8b33a4b7b28d33fd64c1"></a>
-### Function internalSetProperty
-
-![][private]
-
-
-```cpp
-void ansys::dpf::GenericDataContainer::internalSetProperty(const std::string &property_name, const T &property)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* const std::string & **property_name**
-* const T & **property**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename T"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::GenericDataContainer::internalSetProperty"}]}`
--->
 
 ## Public functions
 
@@ -451,17 +54,9 @@ void ansys::dpf::GenericDataContainer::internalSetProperty(const std::string &pr
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::GenericDataContainer::~GenericDataContainer()=default
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -476,17 +71,9 @@ virtual ansys::dpf::GenericDataContainer::~GenericDataContainer()=default
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::GenericDataContainer::GenericDataContainer()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -501,17 +88,11 @@ ansys::dpf::GenericDataContainer::GenericDataContainer()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::GenericDataContainer::GenericDataContainer(int id, Client const *const client)
 ```
 
-
-
-
 Retrieve an existing instance of GenericDataContainer on a server.
-
-
 
 **Parameters**:
 
@@ -531,17 +112,9 @@ Retrieve an existing instance of GenericDataContainer on a server.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::GenericDataContainer::GenericDataContainer(Client const *const client)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -560,17 +133,9 @@ ansys::dpf::GenericDataContainer::GenericDataContainer(Client const *const clien
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::GenericDataContainer::GenericDataContainer(GenericDataContainer const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -589,17 +154,9 @@ ansys::dpf::GenericDataContainer::GenericDataContainer(GenericDataContainer cons
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::GenericDataContainer::GenericDataContainer(GenericDataContainer &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -618,17 +175,9 @@ ansys::dpf::GenericDataContainer::GenericDataContainer(GenericDataContainer &&) 
 
 ![][public]
 
-
 ```cpp
 GenericDataContainer & ansys::dpf::GenericDataContainer::operator=(GenericDataContainer const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -647,17 +196,9 @@ GenericDataContainer & ansys::dpf::GenericDataContainer::operator=(GenericDataCo
 
 ![][public]
 
-
 ```cpp
 GenericDataContainer & ansys::dpf::GenericDataContainer::operator=(GenericDataContainer &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -677,19 +218,13 @@ GenericDataContainer & ansys::dpf::GenericDataContainer::operator=(GenericDataCo
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< std::string > ansys::dpf::GenericDataContainer::getPropertyNames() const
 ```
 
-
-
-
 **Returns**:
 
 property names as a vector of string considering the properties set in the file
-
-
 
 **Return type**: std::vector< std::string >
 
@@ -705,24 +240,17 @@ property names as a vector of string considering the properties set in the file
 ![][public]
 ![][const]
 
-
 ```cpp
 T ansys::dpf::GenericDataContainer::getProperty(const std::string &property_name) const
 ```
-
-
-
 
 **Returns**:
 
 property associated to given property name
 
-
 **Exceptions**:
 
 * **if**: the property doesn't exist.
-
-
 
 **Parameters**:
 
@@ -743,19 +271,13 @@ property associated to given property name
 ![][public]
 ![][const]
 
-
 ```cpp
 CustomContainerT ansys::dpf::GenericDataContainer::getCustomContainerProperty(const std::string &property_name) const
 ```
 
-
-
-
 **Returns**:
 
 property of type deriving from CustomContainerBase associated to given property name
-
-
 
 **Parameters**:
 
@@ -776,17 +298,9 @@ property of type deriving from CustomContainerBase associated to given property 
 ![][public]
 ![][const]
 
-
 ```cpp
 GenericDataContainer const  & ansys::dpf::GenericDataContainer::container() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: GenericDataContainer const &
 
@@ -801,17 +315,11 @@ GenericDataContainer const  & ansys::dpf::GenericDataContainer::container() cons
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::GenericDataContainer::setProperty(const std::string &property_name, const T &property)
 ```
 
-
-
-
 set property with given property name
-
-
 
 **Parameters**:
 
@@ -833,17 +341,9 @@ set property with given property name
 ![][public]
 ![][const]
 
-
 ```cpp
 Any ansys::dpf::GenericDataContainer::getPropertyAny(const std::string &property_name) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -862,17 +362,9 @@ Any ansys::dpf::GenericDataContainer::getPropertyAny(const std::string &property
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::GenericDataContainer::setPropertyAny(const std::string &property_name, const Any &property)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -895,20 +387,14 @@ void ansys::dpf::GenericDataContainer::setPropertyAny(const std::string &propert
 ![][public]
 ![][static]
 
-
 ```cpp
 static GenericDataContainer ansys::dpf::GenericDataContainer::emptyGenericDataContainer()
 ```
-
-
-
 
 Creates an empty GenericDataContainer. 
 **Returns**:
 
 Empty GenericDataContainer.
-
-
 
 **Return type**: GenericDataContainer
 

@@ -50,301 +50,6 @@ Define an abstract support notion.
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1Support_1aaec47a26a3c11c1debd3ed922b69cbd2"></a>
-### Friend Field
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1043)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Field"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Support::Field"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Field"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Support_1ad19b1aa2f28448bd897fc6c5dd771f02"></a>
-### Friend CustomTypeField
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1044)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class CustomTypeField"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Support::CustomTypeField"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"CustomTypeField"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Support_1abb4aa5a7ed62b741f0b146a257d0fe5e"></a>
-### Friend PropertyField
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1045)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class PropertyField"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Support::PropertyField"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"PropertyField"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Support_1af891ea2ca8eebe3679e051763ba989ce"></a>
-### Friend CollectionBase
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1046)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class CollectionBase"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Support::CollectionBase"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"CollectionBase"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Support_1a33ff3f826991522d2e77c1c523f33e19"></a>
-### Friend Operator
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1047)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Operator"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Support::Operator"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Operator"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Support_1afa07847c7cb432b260e61a0c18025ba3"></a>
-### Friend Workflow
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1048)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Workflow"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Support::Workflow"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Workflow"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Support_1a81d95df60edf516a1de9878b780f8fb3"></a>
-### Friend OperatorMain
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1049)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorMain"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Support::OperatorMain"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorMain"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Support_1afb1dc59f2e0edbbfe9016fab50e74fbd"></a>
-### Friend ResultInfo
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1050)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class ResultInfo"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Support::ResultInfo"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"ResultInfo"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Support_1a9820c685b67a3355c042bb0b3365d9e2"></a>
-### Friend Any
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1051)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Any"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Support::Any"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Any"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Support_1acc06c4380c923e11af63f95e97c3c259"></a>
-### Friend GenericDataContainer
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1052)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class GenericDataContainer"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Support::GenericDataContainer"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"GenericDataContainer"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Support_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1053)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Support::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
-## Private functions
-
-<a id="classansys_1_1dpf_1_1Support_1a6298c1865b9e164fcaabb2f505f9a2b4"></a>
-### Function Support
-
-![][private]
-
-
-```cpp
-ansys::dpf::Support::Support(opaque::DpfInternalSharedObject *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfInternalSharedObject *
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Support::Support"}]}`
--->
-
 ## Public functions
 
 <a id="classansys_1_1dpf_1_1Support_1a3f63403200b8eb094dd8ebb3e43661ef"></a>
@@ -352,17 +57,9 @@ ansys::dpf::Support::Support(opaque::DpfInternalSharedObject *)
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::Support::~Support()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -377,17 +74,9 @@ virtual ansys::dpf::Support::~Support()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Support::Support(Support const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -406,17 +95,9 @@ ansys::dpf::Support::Support(Support const &)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Support::Support(Support &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -435,17 +116,9 @@ ansys::dpf::Support::Support(Support &&) noexcept
 
 ![][public]
 
-
 ```cpp
 Support & ansys::dpf::Support::operator=(Support const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -464,17 +137,9 @@ Support & ansys::dpf::Support::operator=(Support const &)
 
 ![][public]
 
-
 ```cpp
 Support & ansys::dpf::Support::operator=(Support &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -494,19 +159,13 @@ Support & ansys::dpf::Support::operator=(Support &&) noexcept
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::Support::isMeshedDomain() const
 ```
 
-
-
-
 **Returns**:
 
 Indication if support is meshed domain.
-
-
 
 **Return type**: bool
 
@@ -522,19 +181,13 @@ Indication if support is meshed domain.
 ![][public]
 ![][const]
 
-
 ```cpp
 MeshedRegion ansys::dpf::Support::getAsDomainMesh() const
 ```
 
-
-
-
 **Returns**:
 
 [Support](classansys_1_1dpf_1_1Support.md#classansys_1_1dpf_1_1Support) as domain mesh.
-
-
 
 **Return type**: [MeshedRegion](classansys_1_1dpf_1_1MeshedRegion.md#classansys_1_1dpf_1_1MeshedRegion)
 
@@ -550,19 +203,13 @@ MeshedRegion ansys::dpf::Support::getAsDomainMesh() const
 ![][public]
 ![][const]
 
-
 ```cpp
 CyclicSupport ansys::dpf::Support::getAsCyclicSupport() const
 ```
 
-
-
-
 **Returns**:
 
 [Support](classansys_1_1dpf_1_1Support.md#classansys_1_1dpf_1_1Support) as cyclic support.
-
-
 
 **Return type**: [CyclicSupport](classansys_1_1dpf_1_1CyclicSupport.md#classansys_1_1dpf_1_1CyclicSupport)
 
@@ -578,19 +225,13 @@ CyclicSupport ansys::dpf::Support::getAsCyclicSupport() const
 ![][public]
 ![][const]
 
-
 ```cpp
 TimeFreqSupport ansys::dpf::Support::getAsTimeFreqSupport() const
 ```
 
-
-
-
 **Returns**:
 
 [Support](classansys_1_1dpf_1_1Support.md#classansys_1_1dpf_1_1Support) as time frequency support.
-
-
 
 **Return type**: [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#classansys_1_1dpf_1_1TimeFreqSupport)
 
@@ -606,21 +247,15 @@ TimeFreqSupport ansys::dpf::Support::getAsTimeFreqSupport() const
 ![][public]
 ![][const]
 
-
 ```cpp
 Field ansys::dpf::Support::getFieldSupportByProperty(PropertyType const &property_name) const
 ```
-
-
-
 
 **Returns**:
 
 [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) for a given property.
 
 return empty [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) if the property doesn't exist.
-
-
 
 **Parameters**:
 
@@ -640,21 +275,15 @@ return empty [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) i
 ![][public]
 ![][const]
 
-
 ```cpp
 PropertyField ansys::dpf::Support::getPropertyFieldSupportByProperty(PropertyType const &property_name) const
 ```
-
-
-
 
 **Returns**:
 
 [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1dpf_1_1PropertyField) for a given property.
 
 return empty [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1dpf_1_1PropertyField) if the property doesn't exist.
-
-
 
 **Parameters**:
 
@@ -674,21 +303,15 @@ return empty [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_
 ![][public]
 ![][const]
 
-
 ```cpp
 StringField ansys::dpf::Support::getStringFieldSupportByProperty(PropertyType const &property_name) const
 ```
-
-
-
 
 **Returns**:
 
 [StringField](classansys_1_1dpf_1_1StringField.md#classansys_1_1dpf_1_1StringField) for a given property.
 
 return empty [StringField](classansys_1_1dpf_1_1StringField.md#classansys_1_1dpf_1_1StringField) if the property doesn't exist.
-
-
 
 **Parameters**:
 
@@ -708,19 +331,13 @@ return empty [StringField](classansys_1_1dpf_1_1StringField.md#classansys_1_1dpf
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< std::string > ansys::dpf::Support::getAvailablePropertyNamesForFields() const
 ```
 
-
-
-
 **Returns**:
 
 the list of available properties returning a [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field).
-
-
 
 **Return type**: std::vector< std::string >
 
@@ -736,19 +353,13 @@ the list of available properties returning a [Field](classansys_1_1dpf_1_1Field.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< std::string > ansys::dpf::Support::getAvailablePropertyNamesForPropertyFields() const
 ```
 
-
-
-
 **Returns**:
 
 the list of available properties returning a [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1dpf_1_1PropertyField).
-
-
 
 **Return type**: std::vector< std::string >
 
@@ -764,19 +375,13 @@ the list of available properties returning a [PropertyField](classansys_1_1dpf_1
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< std::string > ansys::dpf::Support::getAvailablePropertyNamesForStringFields() const
 ```
 
-
-
-
 **Returns**:
 
 the list of available properties returning a [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1dpf_1_1PropertyField).
-
-
 
 **Return type**: std::vector< std::string >
 
@@ -792,17 +397,11 @@ the list of available properties returning a [PropertyField](classansys_1_1dpf_1
 ![][public]
 ![][const]
 
-
 ```cpp
 Support ansys::dpf::Support::deep_copy(ansys::dpf::Client const *const client=nullptr) const
 ```
 
-
-
-
 Create a new [Support](classansys_1_1dpf_1_1Support.md#classansys_1_1dpf_1_1Support) on a server by copying all the data of this [Support](classansys_1_1dpf_1_1Support.md#classansys_1_1dpf_1_1Support).
-
-
 
 **Parameters**:
 
@@ -824,20 +423,14 @@ Create a new [Support](classansys_1_1dpf_1_1Support.md#classansys_1_1dpf_1_1Supp
 ![][public]
 ![][static]
 
-
 ```cpp
 static Support ansys::dpf::Support::emptySupport()
 ```
-
-
-
 
 Create an empty support. 
 **Returns**:
 
 Empty [Support](classansys_1_1dpf_1_1Support.md#classansys_1_1dpf_1_1Support).
-
-
 
 **Return type**: Support
 

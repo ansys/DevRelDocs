@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1489)
 
-
-
 Define a DOM (Document-Object-Model) tree.
 
 **Inherits from**:
@@ -73,276 +71,7 @@ Define a DOM (Document-Object-Model) tree.
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1DataTree_1a33ff3f826991522d2e77c1c523f33e19"></a>
-### Friend Operator
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1491)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Operator"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataTree::Operator"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Operator"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1DataTree_1ad19b1aa2f28448bd897fc6c5dd771f02"></a>
-### Friend CustomTypeField
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1492)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class CustomTypeField"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataTree::CustomTypeField"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"CustomTypeField"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1DataTree_1aaec47a26a3c11c1debd3ed922b69cbd2"></a>
-### Friend Field
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1493)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Field"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataTree::Field"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Field"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1DataTree_1afa07847c7cb432b260e61a0c18025ba3"></a>
-### Friend Workflow
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1494)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Workflow"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataTree::Workflow"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Workflow"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1DataTree_1a81d95df60edf516a1de9878b780f8fb3"></a>
-### Friend OperatorMain
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1495)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorMain"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataTree::OperatorMain"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorMain"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1DataTree_1a9820c685b67a3355c042bb0b3365d9e2"></a>
-### Friend Any
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1496)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Any"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataTree::Any"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Any"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1DataTree_1acc06c4380c923e11af63f95e97c3c259"></a>
-### Friend GenericDataContainer
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1497)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class GenericDataContainer"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataTree::GenericDataContainer"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"GenericDataContainer"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1DataTree_1a17e81b7d4f7325d912e600690cb4e715"></a>
-### Friend CustomContainerBase
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1498)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class CustomContainerBase"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataTree::CustomContainerBase"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"CustomContainerBase"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1DataTree_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1499)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataTree::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1DataTree_1a0ac5b9aea4e3d87aa2f70881b1fb60a8"></a>
-### Friend param\_helpers
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1500)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"struct"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend struct param_helpers"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataTree::param_helpers"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"param_helpers"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1DataTree_1a3740dd0ac21ff32f777594d16b43fcd1"></a>
-### Function DataTree
-
-![][private]
-
-
-```cpp
-ansys::dpf::DataTree::DataTree(opaque::DpfInternalSharedObject *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfInternalSharedObject *
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataTree::DataTree"}]}`
--->
 
 ## Public functions
 
@@ -351,17 +80,9 @@ ansys::dpf::DataTree::DataTree(opaque::DpfInternalSharedObject *)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::DataTree::DataTree()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -376,17 +97,9 @@ ansys::dpf::DataTree::DataTree()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::DataTree::DataTree(Client const *const client)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -405,17 +118,9 @@ ansys::dpf::DataTree::DataTree(Client const *const client)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::DataTree::~DataTree()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -430,17 +135,9 @@ ansys::dpf::DataTree::~DataTree()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::DataTree::DataTree(DataTree const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -459,17 +156,9 @@ ansys::dpf::DataTree::DataTree(DataTree const &)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::DataTree::DataTree(DataTree &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -488,17 +177,9 @@ ansys::dpf::DataTree::DataTree(DataTree &&) noexcept
 
 ![][public]
 
-
 ```cpp
 DataTree & ansys::dpf::DataTree::operator=(DataTree const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -517,17 +198,9 @@ DataTree & ansys::dpf::DataTree::operator=(DataTree const &)
 
 ![][public]
 
-
 ```cpp
 DataTree & ansys::dpf::DataTree::operator=(DataTree &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -547,17 +220,11 @@ DataTree & ansys::dpf::DataTree::operator=(DataTree &&) noexcept
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::DataTree::fillFromJson(std::istream const &stream) const
 ```
 
-
-
-
 Fill this data tree with the content of a json file generated by another tree (See [DataTree::writeToJson](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree_1a3fc23d000373acf82b7be9d9689ff957)).
-
-
 
 **Parameters**:
 
@@ -577,17 +244,11 @@ Fill this data tree with the content of a json file generated by another tree (S
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::DataTree::fillFromTxt(std::istream const &stream) const
 ```
 
-
-
-
 Fill this data tree with the content of a txt file generated by another tree (See [DataTree::writeToTxt](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree_1a2f6cbbcca9c04de9a5d1821ab1f85d38)).
-
-
 
 **Parameters**:
 
@@ -607,17 +268,11 @@ Fill this data tree with the content of a txt file generated by another tree (Se
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::DataTree::writeToTxt(std::ostream &stream) const
 ```
 
-
-
-
 Write the attributes and the subtrees of this data tree as text in a c++ standard output stream (example: std::ofstream, std::ostringstream).
-
-
 
 **Parameters**:
 
@@ -637,17 +292,11 @@ Write the attributes and the subtrees of this data tree as text in a c++ standar
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::DataTree::writeToJson(std::ostream &stream) const
 ```
 
-
-
-
 Write the attributes and the subtrees of this data tree in a json like format in a c++ standard output stream (example: std::ofstream, std::ostringstream).
-
-
 
 **Parameters**:
 
@@ -667,19 +316,13 @@ Write the attributes and the subtrees of this data tree in a json like format in
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< std::string > ansys::dpf::DataTree::getAvailableAttributeNames() const
 ```
 
-
-
-
 **Returns**:
 
 the list of attributes names available (without recursivity in the subtrees).
-
-
 
 **Return type**: std::vector< std::string >
 
@@ -695,19 +338,13 @@ the list of attributes names available (without recursivity in the subtrees).
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< std::string > ansys::dpf::DataTree::getAvailableSubTreeNames() const
 ```
 
-
-
-
 **Returns**:
 
 the list of first rank substree names available (without recursivity in the subtrees).
-
-
 
 **Return type**: std::vector< std::string >
 
@@ -723,19 +360,13 @@ the list of first rank substree names available (without recursivity in the subt
 ![][public]
 ![][const]
 
-
 ```cpp
 const DataTree ansys::dpf::DataTree::getSubByName(std::string const &name) const
 ```
 
-
-
-
 **Returns**:
 
 a subtree by its name (return an empty substree if it doesn't exist).
-
-
 
 **Parameters**:
 
@@ -755,25 +386,18 @@ a subtree by its name (return an empty substree if it doesn't exist).
 ![][public]
 ![][const]
 
-
 ```cpp
 int ansys::dpf::DataTree::getIntAttribute(std::string const &name, int default_value=0) const
 ```
-
-
-
 
 **Returns**:
 
 an attribute by its name.
 
-
 **Parameters**:
 
 * **Name**: of the attribute.
 * **Default**: value of the attribute. @information: if the attribute doesn't exist, the default value is returned.
-
-
 
 **Parameters**:
 
@@ -794,11 +418,9 @@ an attribute by its name.
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::DataTree::tryGetIntAttribute(std::string const &name, int &value) const
 ```
-
 
 Get an attribute by its name.
 
@@ -808,12 +430,9 @@ Available since Ansys 2025R2.
 * **Name**: of the attribute.
 * **Output**: value of the attribute.
 
-
 **Returns**:
 
 true if the attribute exists, false otherwise.
-
-
 
 **Parameters**:
 
@@ -834,25 +453,18 @@ true if the attribute exists, false otherwise.
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::DataTree::getBoolAttribute(std::string const &name, bool default_value=false) const
 ```
-
-
-
 
 **Returns**:
 
 an attribute by its name.
 
-
 **Parameters**:
 
 * **Name**: of the attribute.
 * **Default**: value of the attribute. @information: if the attribute doesn't exist, the default value is returned.
-
-
 
 **Parameters**:
 
@@ -873,11 +485,9 @@ an attribute by its name.
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::DataTree::tryGetBoolAttribute(std::string const &name, bool &value) const
 ```
-
 
 Get an attribute by its name.
 
@@ -887,12 +497,9 @@ Available since Ansys 2025R2.
 * **Name**: of the attribute.
 * **Output**: value of the attribute.
 
-
 **Returns**:
 
 true if the attribute exists, false otherwise.
-
-
 
 **Parameters**:
 
@@ -913,25 +520,18 @@ true if the attribute exists, false otherwise.
 ![][public]
 ![][const]
 
-
 ```cpp
 unsigned int ansys::dpf::DataTree::getUnsignedIntAttribute(std::string const &name, unsigned int default_value=0) const
 ```
-
-
-
 
 **Returns**:
 
 an attribute by its name.
 
-
 **Parameters**:
 
 * **Name**: of the attribute.
 * **Default**: value of the attribute. @information: if the attribute doesn't exist, the default value is returned.
-
-
 
 **Parameters**:
 
@@ -952,13 +552,9 @@ an attribute by its name.
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::DataTree::tryGetUnsignedIntAttribute(std::string const &name, unsigned int &value) const
 ```
-
-
-
 
 **Returns**:
 
@@ -970,12 +566,9 @@ Available since Ansys 2025R2.
 * **Name**: of the attribute.
 * **Output**: value of the attribute.
 
-
 **Returns**:
 
 true if the attribute exists, false otherwise.
-
-
 
 **Parameters**:
 
@@ -996,25 +589,18 @@ true if the attribute exists, false otherwise.
 ![][public]
 ![][const]
 
-
 ```cpp
 double ansys::dpf::DataTree::getDoubleAttribute(std::string const &name, double default_value=0.0) const
 ```
-
-
-
 
 **Returns**:
 
 an attribute by its name.
 
-
 **Parameters**:
 
 * **Name**: of the attribute.
 * **Default**: value of the attribute. @information: if the attribute doesn't exist, the default value is returned.
-
-
 
 **Parameters**:
 
@@ -1035,13 +621,9 @@ an attribute by its name.
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::DataTree::tryGetDoubleAttribute(std::string const &name, double &value) const
 ```
-
-
-
 
 **Returns**:
 
@@ -1053,12 +635,9 @@ Available since Ansys 2025R2.
 * **Name**: of the attribute.
 * **Output**: value of the attribute.
 
-
 **Returns**:
 
 true if the attribute exists, false otherwise.
-
-
 
 **Parameters**:
 
@@ -1079,25 +658,18 @@ true if the attribute exists, false otherwise.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::DataTree::getStringAttribute(std::string const &name, std::string="") const
 ```
-
-
-
 
 **Returns**:
 
 an attribute by its name.
 
-
 **Parameters**:
 
 * **Name**: of the attribute.
 * **Default**: value of the attribute. @information: if the attribute doesn't exist, the default value is returned.
-
-
 
 **Parameters**:
 
@@ -1118,13 +690,9 @@ an attribute by its name.
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::DataTree::tryGetStringAttribute(std::string const &name, std::string &value) const
 ```
-
-
-
 
 **Returns**:
 
@@ -1136,12 +704,9 @@ Available since Ansys 2025R2.
 * **Name**: of the attribute.
 * **Output**: value of the attribute.
 
-
 **Returns**:
 
 true if the attribute exists, false otherwise.
-
-
 
 **Parameters**:
 
@@ -1162,25 +727,18 @@ true if the attribute exists, false otherwise.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< int > ansys::dpf::DataTree::getVectIntAttribute(std::string const &name, std::vector< int > default_value={}) const
 ```
-
-
-
 
 **Returns**:
 
 an attribute by its name
 
-
 **Parameters**:
 
 * **Name**: of the attribute.
 * **Default**: value of the attribute. @information: if the attribute doesn't exist, the default value is returned.
-
-
 
 **Parameters**:
 
@@ -1201,13 +759,9 @@ an attribute by its name
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::DataTree::tryGetVectIntAttribute(std::string const &name, std::vector< int > &value) const
 ```
-
-
-
 
 **Returns**:
 
@@ -1219,12 +773,9 @@ Available since Ansys 2025R2.
 * **Name**: of the attribute.
 * **Output**: value of the attribute.
 
-
 **Returns**:
 
 true if the attribute exists, false otherwise.
-
-
 
 **Parameters**:
 
@@ -1245,25 +796,18 @@ true if the attribute exists, false otherwise.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< double > ansys::dpf::DataTree::getVectDoubleAttribute(std::string const &name, std::vector< double > default_value={}) const
 ```
-
-
-
 
 **Returns**:
 
 an attribute by its name.
 
-
 **Parameters**:
 
 * **Name**: of the attribute.
 * **Default**: value of the attribute. @information: if the attribute doesn't exist, the default value is returned.
-
-
 
 **Parameters**:
 
@@ -1284,13 +828,9 @@ an attribute by its name.
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::DataTree::tryGetVectDoubleAttribute(std::string const &name, std::vector< double > &value) const
 ```
-
-
-
 
 **Returns**:
 
@@ -1302,12 +842,9 @@ Available since Ansys 2025R2.
 * **Name**: of the attribute.
 * **Output**: value of the attribute.
 
-
 **Returns**:
 
 true if the attribute exists, false otherwise.
-
-
 
 **Parameters**:
 
@@ -1328,25 +865,18 @@ true if the attribute exists, false otherwise.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< std::string > ansys::dpf::DataTree::getVectStringAttribute(std::string const &name, std::vector< std::string > default_value={}) const
 ```
-
-
-
 
 **Returns**:
 
 an attribute by its name.
 
-
 **Parameters**:
 
 * **Name**: of the attribute.
 * **Default**: value of the attribute. @information: if the attribute doesn't exist, the default value is returned.
-
-
 
 **Parameters**:
 
@@ -1367,13 +897,9 @@ an attribute by its name.
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::DataTree::tryGetVectStringAttribute(std::string const &name, std::vector< std::string > &value) const
 ```
-
-
-
 
 **Returns**:
 
@@ -1385,12 +911,9 @@ Available since Ansys 2025R2.
 * **Name**: of the attribute.
 * **Output**: value of the attribute.
 
-
 **Returns**:
 
 true if the attribute exists, false otherwise.
-
-
 
 **Parameters**:
 
@@ -1410,17 +933,11 @@ true if the attribute exists, false otherwise.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::DataTree::makeIntAttribute(std::string const &name, int value)
 ```
 
-
-
-
 create or replace an attribute.
-
-
 
 **Parameters**:
 
@@ -1440,17 +957,11 @@ create or replace an attribute.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::DataTree::makeBoolAttribute(std::string const &name, bool value)
 ```
 
-
-
-
 create or replace an attribute.
-
-
 
 **Parameters**:
 
@@ -1470,17 +981,11 @@ create or replace an attribute.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::DataTree::makeUnsignedIntAttribute(std::string const &name, unsigned int value)
 ```
 
-
-
-
 create or replace an attribute.
-
-
 
 **Parameters**:
 
@@ -1500,17 +1005,11 @@ create or replace an attribute.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::DataTree::makeDoubleAttribute(std::string const &name, double value)
 ```
 
-
-
-
 create or replace an attribute.
-
-
 
 **Parameters**:
 
@@ -1530,17 +1029,11 @@ create or replace an attribute.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::DataTree::makeStringAttribute(std::string const &name, std::string const &value)
 ```
 
-
-
-
 create or replace an attribute.
-
-
 
 **Parameters**:
 
@@ -1560,17 +1053,11 @@ create or replace an attribute.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::DataTree::makeVectIntAttribute(std::string const &name, std::vector< int > const &value)
 ```
 
-
-
-
 create or replace an attribute.
-
-
 
 **Parameters**:
 
@@ -1590,17 +1077,11 @@ create or replace an attribute.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::DataTree::makeVectDoubleAttribute(std::string const &name, std::vector< double > const &value)
 ```
 
-
-
-
 create or replace an attribute.
-
-
 
 **Parameters**:
 
@@ -1620,17 +1101,11 @@ create or replace an attribute.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::DataTree::makeVectStringAttribute(std::string const &name, std::vector< std::string > const &value)
 ```
 
-
-
-
 create or replace an attribute.
-
-
 
 **Parameters**:
 
@@ -1650,20 +1125,14 @@ create or replace an attribute.
 
 ![][public]
 
-
 ```cpp
 DataTree ansys::dpf::DataTree::makeSub(std::string const &name)
 ```
-
-
-
 
 create a subtree with a name. If the substree already exists, it is returned. 
 **Returns**:
 
 the created subtree to fill it.
-
-
 
 **Parameters**:
 
@@ -1682,17 +1151,9 @@ the created subtree to fill it.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::DataTree::makeSubTreeAttribute(std::string const &name, DataTree const *const sub_tree)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -1713,19 +1174,13 @@ void ansys::dpf::DataTree::makeSubTreeAttribute(std::string const &name, DataTre
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::DataTree::hasAttribute(std::string const &attribute_name) const
 ```
 
-
-
-
 **Returns**:
 
 true if an attribute exists (accepts sub attributes by adding "/", example attribute_name="sub_name/attrib_name").
-
-
 
 **Parameters**:
 
@@ -1745,19 +1200,13 @@ true if an attribute exists (accepts sub attributes by adding "/", example attri
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::DataTree::hasSub(std::string const &attribute_name) const
 ```
 
-
-
-
 **Returns**:
 
 true if a subtree exists.
-
-
 
 **Parameters**:
 
@@ -1777,17 +1226,11 @@ true if a subtree exists.
 ![][public]
 ![][const]
 
-
 ```cpp
 DataTree ansys::dpf::DataTree::deep_copy(ansys::dpf::Client const *const client=nullptr) const
 ```
 
-
-
-
 Make a deep copy on a given client.
-
-
 
 **Parameters**:
 
@@ -1809,20 +1252,14 @@ Make a deep copy on a given client.
 ![][public]
 ![][static]
 
-
 ```cpp
 static DataTree ansys::dpf::DataTree::emptyDataTree()
 ```
-
-
-
 
 Create an empty [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree). 
 **Returns**:
 
 Empty [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree).
-
-
 
 **Return type**: DataTree
 

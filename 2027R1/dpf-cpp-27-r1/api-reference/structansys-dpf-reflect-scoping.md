@@ -6,12 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6927)
 
-
-
-
-
-
-
 ## Members
 
 * [type\_name](structansys_1_1dpf_1_1reflect_3_01Scoping_01_4.md#structansys_1_1dpf_1_1reflect_3_01Scoping_01_4_1a94fc551d4b8e2c5ab22ee0cf9739176c)
@@ -24,17 +18,9 @@
 ![][public]
 ![][static]
 
-
 ```cpp
 static std::string ansys::dpf::reflect< Scoping >::type_name()
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::string
 

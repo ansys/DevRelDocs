@@ -27,34 +27,6 @@ Data is defined with a quantity type.
 
 ## Private static attributes
 
-<a id="structansys_1_1dpf_1_1quantity__types_1a58fe45f1c17d242148f181d23d80b1e3"></a>
-### Variable \_existing\_quantity\_types
-
-![][private]
-![][static]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 104)
-
-
-```cpp
-std::vector<QuantityType> ansys::dpf::quantity_types::_existing_quantity_types
-```
-
-
-
-
-
-
-
-
-**Type**: std::vector< [QuantityType](structansys_1_1dpf_1_1QuantityType.md#structansys_1_1dpf_1_1QuantityType) >
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::quantity_types::_existing_quantity_types"}]}`
--->
-
 ## Public static attributes
 
 <a id="structansys_1_1dpf_1_1quantity__types_1aaeedb3e644391be386435c1a358cf3d3"></a>
@@ -65,17 +37,11 @@ std::vector<QuantityType> ansys::dpf::quantity_types::_existing_quantity_types
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 114)
 
-
 ```cpp
 const QuantityType ansys::dpf::quantity_types::discret
 ```
 
-
-
-
 Predefined discret quantity type, can not be interpolated.
-
-
 
 **Type**: const [QuantityType](structansys_1_1dpf_1_1QuantityType.md#structansys_1_1dpf_1_1QuantityType)
 
@@ -93,17 +59,11 @@ Predefined discret quantity type, can not be interpolated.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 116)
 
-
 ```cpp
 const QuantityType ansys::dpf::quantity_types::continuous
 ```
 
-
-
-
 Predefined continuous quantity type.
-
-
 
 **Type**: const [QuantityType](structansys_1_1dpf_1_1QuantityType.md#structansys_1_1dpf_1_1QuantityType)
 
@@ -121,17 +81,11 @@ Predefined continuous quantity type.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 118)
 
-
 ```cpp
 const QuantityType ansys::dpf::quantity_types::integrated
 ```
 
-
-
-
 Predefined integrated quantity type, can not be averaged.
-
-
 
 **Type**: const [QuantityType](structansys_1_1dpf_1_1QuantityType.md#structansys_1_1dpf_1_1QuantityType)
 
@@ -149,17 +103,11 @@ Predefined integrated quantity type, can not be averaged.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 120)
 
-
 ```cpp
 const QuantityType ansys::dpf::quantity_types::position
 ```
 
-
-
-
 Predefined position quantity type.
-
-
 
 **Type**: const [QuantityType](structansys_1_1dpf_1_1QuantityType.md#structansys_1_1dpf_1_1QuantityType)
 
@@ -177,17 +125,11 @@ Predefined position quantity type.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 122)
 
-
 ```cpp
 const QuantityType ansys::dpf::quantity_types::increment
 ```
 
-
-
-
 Predefined increment quantity type.
-
-
 
 **Type**: const [QuantityType](structansys_1_1dpf_1_1QuantityType.md#structansys_1_1dpf_1_1QuantityType)
 
@@ -205,17 +147,11 @@ Predefined increment quantity type.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 124)
 
-
 ```cpp
 const QuantityType ansys::dpf::quantity_types::time
 ```
 
-
-
-
 Predefined time quantity type.
-
-
 
 **Type**: const [QuantityType](structansys_1_1dpf_1_1QuantityType.md#structansys_1_1dpf_1_1QuantityType)
 
@@ -233,17 +169,11 @@ Predefined time quantity type.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 126)
 
-
 ```cpp
 const QuantityType ansys::dpf::quantity_types::frequency
 ```
 
-
-
-
 Predefined frequency quantity type.
-
-
 
 **Type**: const [QuantityType](structansys_1_1dpf_1_1QuantityType.md#structansys_1_1dpf_1_1QuantityType)
 
@@ -261,17 +191,11 @@ Predefined frequency quantity type.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 128)
 
-
 ```cpp
 const QuantityType ansys::dpf::quantity_types::mode
 ```
 
-
-
-
 Predefined mode quantity type.
-
-
 
 **Type**: const [QuantityType](structansys_1_1dpf_1_1QuantityType.md#structansys_1_1dpf_1_1QuantityType)
 
@@ -289,17 +213,11 @@ Predefined mode quantity type.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 131)
 
-
 ```cpp
 const QuantityType ansys::dpf::quantity_types::unknown
 ```
 
-
-
-
 Predefined unknown location.
-
-
 
 **Type**: const [QuantityType](structansys_1_1dpf_1_1QuantityType.md#structansys_1_1dpf_1_1QuantityType)
 
@@ -317,20 +235,14 @@ Predefined unknown location.
 ![][public]
 ![][static]
 
-
 ```cpp
 static std::vector< QuantityType > const  & ansys::dpf::quantity_types::all()
 ```
-
-
-
 
 Gets all user-defined and predefined quantities types. 
 **Returns**:
 
 All quantity types.
-
-
 
 **Return type**: std::vector< [QuantityType](structansys_1_1dpf_1_1QuantityType.md#structansys_1_1dpf_1_1QuantityType) > const &
 
@@ -346,17 +258,11 @@ All quantity types.
 ![][public]
 ![][static]
 
-
 ```cpp
 static void ansys::dpf::quantity_types::add_custom(QuantityType const &)
 ```
 
-
-
-
 Adds a custom defined location.
-
-
 
 **Parameters**:
 

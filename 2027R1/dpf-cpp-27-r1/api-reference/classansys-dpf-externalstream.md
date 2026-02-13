@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3577)
 
-
-
 Abstraction of a stream. 
 
 **See also**: [Streams](classansys_1_1dpf_1_1Streams.md#classansys_1_1dpf_1_1Streams)
@@ -21,30 +19,6 @@ Abstraction of a stream.
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1ExternalStream_1a5a10e7ca5f11fc70cc7d8e5b48bfff72"></a>
-### Friend Streams
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3579)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Streams"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ExternalStream::Streams"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Streams"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Public functions
 
 <a id="classansys_1_1dpf_1_1ExternalStream_1ae82ac90ef3e0b83a61c65d6f38920dde"></a>
@@ -52,17 +26,9 @@ Abstraction of a stream.
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::ExternalStream::~ExternalStream()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -77,17 +43,11 @@ virtual ansys::dpf::ExternalStream::~ExternalStream()
 
 ![][public]
 
-
 ```cpp
 virtual void ansys::dpf::ExternalStream::release()=0
 ```
 
-
-
-
 Free a stream after usage.
-
-
 
 **Return type**: void
 
@@ -103,19 +63,13 @@ Free a stream after usage.
 ![][public]
 ![][const]
 
-
 ```cpp
 virtual std::string ansys::dpf::ExternalStream::streamTypeName() const =0
 ```
 
-
-
-
 **Returns**:
 
 Type name of stream.
-
-
 
 **Return type**: std::string
 
@@ -131,19 +85,13 @@ Type name of stream.
 ![][public]
 ![][const]
 
-
 ```cpp
 virtual std::string ansys::dpf::ExternalStream::fileName() const =0
 ```
 
-
-
-
 **Returns**:
 
 File name of stream.
-
-
 
 **Return type**: std::string
 
@@ -164,4 +112,3 @@ File name of stream.
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-[Markdown]: https://img.shields.io/badge/language-Markdown-blue (Markdown)

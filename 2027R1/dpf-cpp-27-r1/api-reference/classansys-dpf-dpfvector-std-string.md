@@ -10,8 +10,6 @@ Represents a modifiable vector of data and manages its memory.
 
 If the [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) is returned by a local entity, then it's a direct pointer to its data else if the [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) is returned by a remote entity, then it's a copy of the data and the remote data is updated (if necessary) when the [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) is destructed.
 
-
-
 ## Members
 
 * [\_data](classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4.md#classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1a825a2ab9569e45b97ca72a8efd3c7fa4)
@@ -45,341 +43,9 @@ If the [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVec
 
 ## Private types
 
-<a id="classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1aba918e7a9766a1b41d1ec799fe4af52f"></a>
-### Typedef fillFuncByIntChar
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 1652)
-
-
-```cpp
-typedef void(* ansys::dpf::DpfVector< std::string >::fillFuncByIntChar) (opaque::DpfObject const  *const obj, opaque::DpfVector *, char ***, int *, int, int &, _TCHAR *&)
-```
-
-
-
-
-
-
-
-
-**Return type**: void(*
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::fillFuncByIntChar"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1ad39ee6d915fff5cd86f1f22faefd60bf"></a>
-### Typedef fillFuncChar
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 1653)
-
-
-```cpp
-typedef void(* ansys::dpf::DpfVector< std::string >::fillFuncChar) (opaque::DpfObject const  *const obj, opaque::DpfVector *, char ***, int *, int &, _TCHAR *&)
-```
-
-
-
-
-
-
-
-
-**Return type**: void(*
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::fillFuncChar"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1aaf5df8a46f73d4e772a57a876ddabb17"></a>
-### Typedef fillFuncByIntCharWithSize
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 1654)
-
-
-```cpp
-typedef void(* ansys::dpf::DpfVector< std::string >::fillFuncByIntCharWithSize) (opaque::DpfObject const  *const obj, opaque::DpfVector *, char ***, size_t **, int *, int, int &, _TCHAR *&)
-```
-
-
-
-
-
-
-
-
-**Return type**: void(*
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::fillFuncByIntCharWithSize"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1a359d026e31d5b073b479466e0f0520a2"></a>
-### Typedef fillFuncCharWithSize
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 1655)
-
-
-```cpp
-typedef void(* ansys::dpf::DpfVector< std::string >::fillFuncCharWithSize) (opaque::DpfObject const  *const obj, opaque::DpfVector *, char ***, size_t **, int *, int &, _TCHAR *&)
-```
-
-
-
-
-
-
-
-
-**Return type**: void(*
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::fillFuncCharWithSize"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1DpfVector_1a40d6740f15bbf968a4271b7d04f3d6c8"></a>
-### Typedef fillFuncByInt
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 1370)
-
-
-```cpp
-typedef void(* ansys::dpf::DpfVector< std::string >::fillFuncByInt) (opaque::DpfObject const *const obj, opaque::DpfVector *, std::string **, int *, int, int &, _TCHAR *&)
-```
-
-
-
-
-
-
-
-
-**Return type**: void(*
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::fillFuncByInt"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1DpfVector_1ad865948302449c2789ac2c836fc3a5b4"></a>
-### Typedef fillFunc
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 1371)
-
-
-```cpp
-typedef void(* ansys::dpf::DpfVector< std::string >::fillFunc) (opaque::DpfObject const *const obj, opaque::DpfVector *, std::string **, int *, int &, _TCHAR *&)
-```
-
-
-
-
-
-
-
-
-**Return type**: void(*
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::fillFunc"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1DpfVector_1a5fbda0c494b964a09226f99d4f79c713"></a>
-### Typedef fillVoidDataFuncByInt
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 1372)
-
-
-```cpp
-typedef void(* ansys::dpf::DpfVector< std::string >::fillVoidDataFuncByInt) (opaque::DpfObject const *const obj, opaque::DpfVector *, void **, int *, int, int &, _TCHAR *&)
-```
-
-
-
-
-
-
-
-
-**Return type**: void(*
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::fillVoidDataFuncByInt"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1DpfVector_1aecdf9d227d3810b2138e80fe2a6e40c7"></a>
-### Typedef fillVoidDataFunc
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 1373)
-
-
-```cpp
-typedef void(* ansys::dpf::DpfVector< std::string >::fillVoidDataFunc) (opaque::DpfObject const *const obj, opaque::DpfVector *, void **, int *, int &, _TCHAR *&)
-```
-
-
-
-
-
-
-
-
-**Return type**: void(*
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::fillVoidDataFunc"}]}`
--->
-
-## Friends
-
-<a id="classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1a5640574bd4988f2739826c3f2f273de5"></a>
-### Friend StringField
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 1649)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class StringField"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::StringField"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"StringField"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private attributes
 
-<a id="classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1a825a2ab9569e45b97ca72a8efd3c7fa4"></a>
-### Variable \_data
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 1651)
-
-
-```cpp
-DpfVectorData<char*>* ansys::dpf::DpfVector< std::string >::_data
-```
-
-
-
-
-
-
-
-
-**Type**: DpfVectorData< char * > *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::_data"}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1a39a0e993001d5e1c6a56f2c19a0b02cf"></a>
-### Function DpfVector
-
-![][private]
-
-
-```cpp
-ansys::dpf::DpfVector< std::string >::DpfVector(fillFuncCharWithSize const &new_constructor, fillFuncChar const &constructor, opaque::DpfObject *const obj)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* fillFuncCharWithSize const & **new_constructor**
-* fillFuncChar const & **constructor**
-* opaque::DpfObject *const **obj**
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::DpfVector"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1ac94e3a284866af57bbb888724efd30c6"></a>
-### Function fill
-
-![][private]
-
-
-```cpp
-void ansys::dpf::DpfVector< std::string >::fill(fillFuncByIntCharWithSize const &new_fill, fillFuncByIntChar const &fill, int id_index, opaque::DpfObject *const obj)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* fillFuncByIntCharWithSize const & **new_fill**
-* fillFuncByIntChar const & **fill**
-* int **id_index**
-* opaque::DpfObject *const **obj**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::fill"}]}`
--->
 
 ## Public functions
 
@@ -388,17 +54,9 @@ void ansys::dpf::DpfVector< std::string >::fill(fillFuncByIntCharWithSize const 
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::DpfVector< std::string >::DpfVector()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -413,17 +71,9 @@ ansys::dpf::DpfVector< std::string >::DpfVector()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::DpfVector< std::string >::DpfVector(DpfTypes const &for_object)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -442,17 +92,9 @@ ansys::dpf::DpfVector< std::string >::DpfVector(DpfTypes const &for_object)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::DpfVector< std::string >::~DpfVector()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -467,17 +109,9 @@ ansys::dpf::DpfVector< std::string >::~DpfVector()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::DpfVector< std::string >::DpfVector(DpfVector const &)=delete
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -496,17 +130,9 @@ ansys::dpf::DpfVector< std::string >::DpfVector(DpfVector const &)=delete
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::DpfVector< std::string >::DpfVector(DpfVector &&)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -525,17 +151,9 @@ ansys::dpf::DpfVector< std::string >::DpfVector(DpfVector &&)
 
 ![][public]
 
-
 ```cpp
 DpfVector & ansys::dpf::DpfVector< std::string >::operator=(DpfVector const &)=delete
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -554,17 +172,9 @@ DpfVector & ansys::dpf::DpfVector< std::string >::operator=(DpfVector const &)=d
 
 ![][public]
 
-
 ```cpp
 DpfVector & ansys::dpf::DpfVector< std::string >::operator=(DpfVector &&)=delete
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -584,17 +194,9 @@ DpfVector & ansys::dpf::DpfVector< std::string >::operator=(DpfVector &&)=delete
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::DpfVector< std::string >::operator[](dp_index idx) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -614,17 +216,9 @@ std::string ansys::dpf::DpfVector< std::string >::operator[](dp_index idx) const
 ![][public]
 ![][const]
 
-
 ```cpp
 char **const ansys::dpf::DpfVector< std::string >::data() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: char **const
 
@@ -640,17 +234,11 @@ char **const ansys::dpf::DpfVector< std::string >::data() const
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::DpfVector< std::string >::size() const
 ```
 
-
-
-
 Return the size of the data contained in the [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) object.
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -666,17 +254,11 @@ Return the size of the data contained in the [DpfVector](classansys_1_1dpf_1_1Dp
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::DpfVector< std::string >::defined() const
 ```
 
-
-
-
 Return an true information if the [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) object has data set.
-
-
 
 **Return type**: bool
 
@@ -692,17 +274,9 @@ Return an true information if the [DpfVector](classansys_1_1dpf_1_1DpfVector.md#
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::DpfVector< std::string >::copy(std::vector< std::string > &to_fill) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -722,17 +296,9 @@ void ansys::dpf::DpfVector< std::string >::copy(std::vector< std::string > &to_f
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< std::string > ansys::dpf::DpfVector< std::string >::copy() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::vector< std::string >
 
@@ -748,17 +314,11 @@ std::vector< std::string > ansys::dpf::DpfVector< std::string >::copy() const
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::DpfVector< std::string >::commit() const
 ```
 
-
-
-
 Update the data in the object (if the vector is pointing on remote data).
-
-
 
 **Return type**: void
 
@@ -774,17 +334,9 @@ Update the data in the object (if the vector is pointing on remote data).
 ![][public]
 ![][const]
 
-
 ```cpp
 iterator ansys::dpf::DpfVector< std::string >::begin() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: iterator
 
@@ -800,17 +352,9 @@ iterator ansys::dpf::DpfVector< std::string >::begin() const
 ![][public]
 ![][const]
 
-
 ```cpp
 iterator ansys::dpf::DpfVector< std::string >::end() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: iterator
 
@@ -825,17 +369,13 @@ iterator ansys::dpf::DpfVector< std::string >::end() const
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::DpfVector< std::string >::reset(iterator const &begin, iterator const &end)
 ```
 
-
 Reinitialize the data with a range of an other vector (range from begin to end).
 
 Copyless: the new data is created with a reference on the same data as begin and end: modifying the new vector data, will also modify the initial vector.
-
-
 
 **Parameters**:
 

@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 133)
 
-
-
-
-
 ## Inner classes
 
 * [ansys::dpf::ConstructHelpers::construct\_trait](structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait.md#structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait)

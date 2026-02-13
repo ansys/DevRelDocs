@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 7033)
 
-
-
 specialized for all entities deriving from [CustomContainerBase](classansys_1_1dpf_1_1CustomContainerBase.md#classansys_1_1dpf_1_1CustomContainerBase).
 
 **Template parameters**:
@@ -30,17 +28,9 @@ specialized for all entities deriving from [CustomContainerBase](classansys_1_1d
 ![][public]
 ![][static]
 
-
 ```cpp
 static Collection< DataT > ansys::dpf::ConstructHelpers::construct_trait< Collection< DataT >, std::false_type >::getFromAny(Any const &any)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -60,17 +50,9 @@ static Collection< DataT > ansys::dpf::ConstructHelpers::construct_trait< Collec
 ![][public]
 ![][static]
 
-
 ```cpp
 static void ansys::dpf::ConstructHelpers::construct_trait< Collection< DataT >, std::false_type >::createAny(Any &any, Collection< DataT > const &obj, Client const *const client)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -92,17 +74,9 @@ static void ansys::dpf::ConstructHelpers::construct_trait< Collection< DataT >, 
 ![][public]
 ![][static]
 
-
 ```cpp
 static Collection< DataT > ansys::dpf::ConstructHelpers::construct_trait< Collection< DataT >, std::false_type >::getOutputFromOperator(Operator &op, dp_index pin_index)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -123,17 +97,9 @@ static Collection< DataT > ansys::dpf::ConstructHelpers::construct_trait< Collec
 ![][public]
 ![][static]
 
-
 ```cpp
 static Collection< DataT > ansys::dpf::ConstructHelpers::construct_trait< Collection< DataT >, std::false_type >::getOutputFromWorkflow(Workflow &wf, std::string const &pin_index)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -154,17 +120,9 @@ static Collection< DataT > ansys::dpf::ConstructHelpers::construct_trait< Collec
 ![][public]
 ![][static]
 
-
 ```cpp
 static Collection< DataT > ansys::dpf::ConstructHelpers::construct_trait< Collection< DataT >, std::false_type >::getOperatorInput(OperatorMain &op, dp_index pin_index)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 

@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 937)
 
-
-
-
-
 ## Members
 
 * [sDpf](structansys_1_1dpf_1_1spec_1_1license.md#structansys_1_1dpf_1_1spec_1_1license_1a790b051668c0a8b90352f6580fd4a285)
@@ -25,17 +21,9 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 939)
 
-
 ```cpp
 std::string ansys::dpf::spec::license::sLicense
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -53,17 +41,9 @@ std::string ansys::dpf::spec::license::sLicense
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 940)
 
-
 ```cpp
 std::string ansys::dpf::spec::license::sDpf
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 

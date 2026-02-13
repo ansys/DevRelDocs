@@ -193,440 +193,6 @@ The [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) i
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1Operator_1afa07847c7cb432b260e61a0c18025ba3"></a>
-### Friend Workflow
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3850)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Workflow"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::Workflow"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Workflow"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Operator_1a81d95df60edf516a1de9878b780f8fb3"></a>
-### Friend OperatorMain
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3851)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorMain"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::OperatorMain"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorMain"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Operator_1ae9f2ddfdfa9998926c2d9b5db149f913"></a>
-### Friend OperatorDerivativeMain
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3852)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorDerivativeMain"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::OperatorDerivativeMain"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorDerivativeMain"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Operator_1a183aa7f533f994799a7dec66caf1191a"></a>
-### Friend RemoteOperator
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3853)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class RemoteOperator"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::RemoteOperator"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"RemoteOperator"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Operator_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3854)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Operator_1a9820c685b67a3355c042bb0b3365d9e2"></a>
-### Friend Any
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3855)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Any"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::Any"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Any"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Operator_1ae076a041b5d8d451dab6d8173747a21f"></a>
-### Friend MeshInfo
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3856)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class MeshInfo"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::MeshInfo"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"MeshInfo"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Operator_1acc06c4380c923e11af63f95e97c3c259"></a>
-### Friend GenericDataContainer
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3857)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class GenericDataContainer"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::GenericDataContainer"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"GenericDataContainer"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Operator_1adf19ceee88ba644aceacffbd1495909b"></a>
-### Friend ConstructHelpers::construct\_trait
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3860)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename DataT"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename IsGDC"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"struct"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend struct ConstructHelpers::construct_trait"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::construct_trait"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait"},"children":[{"type":"text","text":"ConstructHelpers::construct_trait"}]}]},{"type":"text","text":"\n        "}]}`
--->
-
-## Private functions
-
-<a id="classansys_1_1dpf_1_1Operator_1af8637d431d1aa5707da1e418e55f4580"></a>
-### Function Operator
-
-![][private]
-
-
-```cpp
-ansys::dpf::Operator::Operator(opaque::DpfInternalSharedObject *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfInternalSharedObject *
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::Operator"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Operator_1a764cee54f8ba1128465da800ba3cdca9"></a>
-### Function connect
-
-![][private]
-
-
-```cpp
-void ansys::dpf::Operator::connect(dp_index, ExternalData *d)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [dp\_index](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920)
-* [ExternalData](classansys_1_1dpf_1_1ExternalData.md#classansys_1_1dpf_1_1ExternalData) * **d**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::connect"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Operator_1a41890daadda30998ef2cf62d6eae1015"></a>
-### Function getExternalOut
-
-![][private]
-
-
-```cpp
-ExternalData * ansys::dpf::Operator::getExternalOut(dp_index)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [dp\_index](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920)
-
-**Return type**: [ExternalData](classansys_1_1dpf_1_1ExternalData.md#classansys_1_1dpf_1_1ExternalData) *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::getExternalOut"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Operator_1a65bb62d2b99a429d684c1238e1cc0a8f"></a>
-### Function safeConnect
-
-![][private]
-
-
-```cpp
-void ansys::dpf::Operator::safeConnect(DpfError &error, int input, DataT data)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [DpfError](classansys_1_1dpf_1_1DpfError.md#classansys_1_1dpf_1_1DpfError) & **error**
-* int **input**
-* DataT **data**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename DataT"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::safeConnect"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Operator_1a7fa04a24516a4df4957b45bd5e21dbb9"></a>
-### Function safeConnectDpfType
-
-![][private]
-
-
-```cpp
-void ansys::dpf::Operator::safeConnectDpfType(DpfError &error, int input, DataT data)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [DpfError](classansys_1_1dpf_1_1DpfError.md#classansys_1_1dpf_1_1DpfError) & **error**
-* int **input**
-* DataT **data**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename DataT"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::safeConnectDpfType"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Operator_1a9f29eb21ecc63661d335fc41794269e3"></a>
-### Function internalGetOutput
-
-![][private]
-
-
-```cpp
-DataT ansys::dpf::Operator::internalGetOutput(dp_index pin_index)
-```
-
-
-
-
-**Returns**:
-
-DPF known type result for given output pin.
-
-
-
-**Parameters**:
-
-* [dp\_index](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920) **pin_index**
-
-**Return type**: DataT
-
-<!--
-**TODO**:
-
-* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename DataT"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::internalGetOutput"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Operator_1ad15d04fe1ac5a91f642b7c14fb947776"></a>
-### Function opaqueCommonConnect
-
-![][private]
-
-
-```cpp
-void ansys::dpf::Operator::opaqueCommonConnect(dp_index input_pin, opaque::DpfObject *data, DpfError &error)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [dp\_index](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920) **input_pin**
-* opaque::DpfObject * **data**
-* [DpfError](classansys_1_1dpf_1_1DpfError.md#classansys_1_1dpf_1_1DpfError) & **error**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::opaqueCommonConnect"}]}`
--->
-
 ## Public functions
 
 <a id="classansys_1_1dpf_1_1Operator_1a057b4bcdeb665b76a5a2977a6a9fc419"></a>
@@ -634,17 +200,9 @@ void ansys::dpf::Operator::opaqueCommonConnect(dp_index input_pin, opaque::DpfOb
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Operator::Operator()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -659,20 +217,14 @@ ansys::dpf::Operator::Operator()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Operator::Operator(std::string const &identifier)
 ```
-
-
-
 
 Create a new operator with its name. 
 **Returns**:
 
 empty [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) if identifier is not found. Use [ansys::dpf::core::assertInstantiate](classansys_1_1dpf_1_1core.md#classansys_1_1dpf_1_1core_1a90f442e446b15a9fb5171ddcdf191b16) for safer usage.
-
-
 
 **Parameters**:
 
@@ -691,17 +243,11 @@ empty [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Operator::Operator(std::string const &identifier, OperatorConfig const &config)
 ```
 
-
-
-
 Create a new operator If the [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) doesn't exist, the created instance is empty. Use [ansys::dpf::core::assertInstantiate](classansys_1_1dpf_1_1core.md#classansys_1_1dpf_1_1core_1a90f442e446b15a9fb5171ddcdf191b16) for safer usage.
-
-
 
 **Parameters**:
 
@@ -721,17 +267,11 @@ Create a new operator If the [Operator](classansys_1_1dpf_1_1Operator.md#classan
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Operator::Operator(std::string const &identifier, OperatorConfig const &config, Client const *const client)
 ```
 
-
-
-
 Create a new operator If the [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) doesn't exist, the created instance is empty. Use [ansys::dpf::core::assertInstantiate](classansys_1_1dpf_1_1core.md#classansys_1_1dpf_1_1core_1a90f442e446b15a9fb5171ddcdf191b16) for safer usage.
-
-
 
 **Parameters**:
 
@@ -752,17 +292,11 @@ Create a new operator If the [Operator](classansys_1_1dpf_1_1Operator.md#classan
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Operator::Operator(std::string const &identifier, Client const *const client)
 ```
 
-
-
-
 Create a new operator with its name on a server. If the [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) doesn't exist, the created instance is empty. Use [ansys::dpf::core::assertInstantiate](classansys_1_1dpf_1_1core.md#classansys_1_1dpf_1_1core_1a90f442e446b15a9fb5171ddcdf191b16) for safer usage.
-
-
 
 **Parameters**:
 
@@ -782,17 +316,11 @@ Create a new operator with its name on a server. If the [Operator](classansys_1_
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Operator::Operator(int id, Client const *const client)
 ```
 
-
-
-
 Retrieve an existing instance of [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) on a server.
-
-
 
 **Parameters**:
 
@@ -812,17 +340,9 @@ Retrieve an existing instance of [Operator](classansys_1_1dpf_1_1Operator.md#cla
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Operator::Operator(Operator &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -841,17 +361,9 @@ ansys::dpf::Operator::Operator(Operator &&) noexcept
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Operator::Operator(Operator const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -870,17 +382,9 @@ ansys::dpf::Operator::Operator(Operator const &)
 
 ![][public]
 
-
 ```cpp
 Operator & ansys::dpf::Operator::operator=(Operator const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -899,17 +403,9 @@ Operator & ansys::dpf::Operator::operator=(Operator const &)
 
 ![][public]
 
-
 ```cpp
 Operator & ansys::dpf::Operator::operator=(Operator &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -928,17 +424,9 @@ Operator & ansys::dpf::Operator::operator=(Operator &&) noexcept
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::Operator::~Operator()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -953,17 +441,11 @@ virtual ansys::dpf::Operator::~Operator()
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::run()
 ```
 
-
-
-
 Perform operation.
-
-
 
 **Return type**: void
 
@@ -978,17 +460,11 @@ Perform operation.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::invalidate()
 ```
 
-
-
-
 Invalidate results of operation.
-
-
 
 **Return type**: void
 
@@ -1003,17 +479,11 @@ Invalidate results of operation.
 
 ![][public]
 
-
 ```cpp
 Operator ansys::dpf::Operator::derivate()
 ```
 
-
-
-
 Generate derivative of current operator and its ancestors.
-
-
 
 **Return type**: Operator
 
@@ -1029,17 +499,9 @@ Generate derivative of current operator and its ancestors.
 ![][public]
 ![][const]
 
-
 ```cpp
 OperatorState ansys::dpf::Operator::status() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: [OperatorState](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1aa85785755f5470ad631e33d5c44a1dcb)
 
@@ -1055,17 +517,9 @@ OperatorState ansys::dpf::Operator::status() const
 ![][public]
 ![][const]
 
-
 ```cpp
 int ansys::dpf::Operator::getId() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: int
 
@@ -1081,17 +535,11 @@ int ansys::dpf::Operator::getId() const
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::Operator::name() const
 ```
 
-
-
-
 Get name of the operator.
-
-
 
 **Return type**: std::string
 
@@ -1107,17 +555,11 @@ Get name of the operator.
 ![][public]
 ![][const]
 
-
 ```cpp
 Changelog ansys::dpf::Operator::getChangelog() const
 ```
 
-
-
-
 get operator changelog
-
-
 
 **Return type**: [Changelog](classansys_1_1dpf_1_1Changelog.md#classansys_1_1dpf_1_1Changelog)
 
@@ -1132,20 +574,14 @@ get operator changelog
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, Operator const &op, dp_index output_pin)
 ```
-
-
-
 
 Connect operators output_pin to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -1166,20 +602,14 @@ Connect operators output_pin to input_pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(Operator const &op)
 ```
-
-
-
 
 Connection operator output pin 0 to input pin 0. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -1198,20 +628,14 @@ Connection operator output pin 0 to input pin 0.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, Field const &data)
 ```
-
-
-
 
 Connect [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -1231,20 +655,14 @@ Connect [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) data t
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, FieldsContainer const &data)
 ```
-
-
-
 
 Connect [FieldsContainer](classansys_1_1dpf_1_1FieldsContainer.md#classansys_1_1dpf_1_1FieldsContainer) data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -1264,20 +682,14 @@ Connect [FieldsContainer](classansys_1_1dpf_1_1FieldsContainer.md#classansys_1_1
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, ScopingsContainer const &data)
 ```
-
-
-
 
 Connect [ScopingsContainer](classansys_1_1dpf_1_1ScopingsContainer.md#classansys_1_1dpf_1_1ScopingsContainer) data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -1297,20 +709,14 @@ Connect [ScopingsContainer](classansys_1_1dpf_1_1ScopingsContainer.md#classansys
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, MeshesContainer const &data)
 ```
-
-
-
 
 Connect [MeshesContainer](classansys_1_1dpf_1_1MeshesContainer.md#classansys_1_1dpf_1_1MeshesContainer) data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -1330,20 +736,14 @@ Connect [MeshesContainer](classansys_1_1dpf_1_1MeshesContainer.md#classansys_1_1
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, DataSources const &data)
 ```
-
-
-
 
 Connect [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources) data to input_pin.
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -1363,20 +763,14 @@ Connect [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1D
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, MeshedRegion const &data)
 ```
-
-
-
 
 Connect [MeshedRegion](classansys_1_1dpf_1_1MeshedRegion.md#classansys_1_1dpf_1_1MeshedRegion) data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -1396,20 +790,14 @@ Connect [MeshedRegion](classansys_1_1dpf_1_1MeshedRegion.md#classansys_1_1dpf_1_
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, Scoping const &data)
 ```
-
-
-
 
 Connect [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -1429,20 +817,14 @@ Connect [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) 
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, Streams const &data)
 ```
-
-
-
 
 Connect [Streams](classansys_1_1dpf_1_1Streams.md#classansys_1_1dpf_1_1Streams) data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -1462,20 +844,14 @@ Connect [Streams](classansys_1_1dpf_1_1Streams.md#classansys_1_1dpf_1_1Streams) 
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, PropertyField const &data)
 ```
-
-
-
 
 Connect [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1dpf_1_1PropertyField) data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -1495,20 +871,14 @@ Connect [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1dpf_
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, Support const &data)
 ```
-
-
-
 
 Connect [Support](classansys_1_1dpf_1_1Support.md#classansys_1_1dpf_1_1Support) data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -1528,20 +898,14 @@ Connect [Support](classansys_1_1dpf_1_1Support.md#classansys_1_1dpf_1_1Support) 
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, CyclicSupport const &data)
 ```
-
-
-
 
 Connect [CyclicSupport](classansys_1_1dpf_1_1CyclicSupport.md#classansys_1_1dpf_1_1CyclicSupport) data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -1561,20 +925,14 @@ Connect [CyclicSupport](classansys_1_1dpf_1_1CyclicSupport.md#classansys_1_1dpf_
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, TimeFreqSupport const &data)
 ```
-
-
-
 
 Connect [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#classansys_1_1dpf_1_1TimeFreqSupport) data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -1594,20 +952,14 @@ Connect [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#classansys_1_1
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, StringField const &data)
 ```
-
-
-
 
 Connect [StringField](classansys_1_1dpf_1_1StringField.md#classansys_1_1dpf_1_1StringField) data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -1627,20 +979,14 @@ Connect [StringField](classansys_1_1dpf_1_1StringField.md#classansys_1_1dpf_1_1S
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, CustomTypeField const &data)
 ```
-
-
-
 
 Connect [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField) data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -1660,20 +1006,14 @@ Connect [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, LabelSpace const &data)
 ```
-
-
-
 
 Connect [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1_1LabelSpace) data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -1693,20 +1033,14 @@ Connect [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1_1Lab
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, GenericDataContainer const &data)
 ```
-
-
-
 
 Connect GenericDataContainer data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -1726,20 +1060,14 @@ Connect GenericDataContainer data to input_pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, CustomContainerBase const &data)
 ```
-
-
-
 
 Connect [CustomContainerBase](classansys_1_1dpf_1_1CustomContainerBase.md#classansys_1_1dpf_1_1CustomContainerBase) data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -1759,20 +1087,14 @@ Connect [CustomContainerBase](classansys_1_1dpf_1_1CustomContainerBase.md#classa
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, Workflow const &data)
 ```
-
-
-
 
 Connect Workflow data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -1792,20 +1114,14 @@ Connect Workflow data to input_pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, RemoteWorkflow const &data)
 ```
-
-
-
 
 Connect RemoteWorkflow data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -1825,20 +1141,14 @@ Connect RemoteWorkflow data to input_pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, ResultInfo const &data)
 ```
-
-
-
 
 Connect [ResultInfo](classansys_1_1dpf_1_1ResultInfo.md#classansys_1_1dpf_1_1ResultInfo) data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -1858,20 +1168,14 @@ Connect [ResultInfo](classansys_1_1dpf_1_1ResultInfo.md#classansys_1_1dpf_1_1Res
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, CustomTypeFieldsContainer const &data)
 ```
-
-
-
 
 Connect [CustomTypeFieldsContainer](classansys_1_1dpf_1_1CustomTypeFieldsContainer.md#classansys_1_1dpf_1_1CustomTypeFieldsContainer) data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -1891,20 +1195,14 @@ Connect [CustomTypeFieldsContainer](classansys_1_1dpf_1_1CustomTypeFieldsContain
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, Location const &data)
 ```
-
-
-
 
 Connect [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location) data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -1924,20 +1222,14 @@ Connect [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Locat
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, PropertyType const &data)
 ```
-
-
-
 
 Connect PropertyTypes data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -1957,20 +1249,14 @@ Connect PropertyTypes data to input_pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, Label const &data)
 ```
-
-
-
 
 Connect [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label) data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -1990,20 +1276,14 @@ Connect [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label) data
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, dp_int data)
 ```
-
-
-
 
 Connect integer data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -2023,20 +1303,14 @@ Connect integer data to input_pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, bool data)
 ```
-
-
-
 
 Connect boolean data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -2056,20 +1330,14 @@ Connect boolean data to input_pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, dp_double data)
 ```
-
-
-
 
 Connect double data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -2089,20 +1357,14 @@ Connect double data to input_pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, std::string const &data)
 ```
-
-
-
 
 Connect string data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -2122,20 +1384,14 @@ Connect string data to input_pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, std::vector< dp_int > const &data)
 ```
-
-
-
 
 Connect vector of integer data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -2155,20 +1411,14 @@ Connect vector of integer data to input_pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, std::vector< dp_double > const &data)
 ```
-
-
-
 
 Connect vector of double data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -2188,20 +1438,14 @@ Connect vector of double data to input_pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, std::vector< std::string > const &data)
 ```
-
-
-
 
 Connect vecotr of string data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -2221,20 +1465,14 @@ Connect vecotr of string data to input_pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, IAnsDispatch *data)
 ```
-
-
-
 
 Connect IAnsDispatch data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -2254,20 +1492,14 @@ Connect IAnsDispatch data to input_pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, Any const &data)
 ```
-
-
-
 
 Connect [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -2287,20 +1519,14 @@ Connect [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) data to inpu
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, DataTree const &data)
 ```
-
-
-
 
 Connect [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree) data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -2320,20 +1546,14 @@ Connect [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTre
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, UnitSystem const &data)
 ```
-
-
-
 
 Connect [UnitSystem](structansys_1_1dpf_1_1UnitSystem.md#structansys_1_1dpf_1_1UnitSystem) data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -2353,17 +1573,9 @@ Connect [UnitSystem](structansys_1_1dpf_1_1UnitSystem.md#structansys_1_1dpf_1_1U
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, Collection< DataT > const &data)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -2384,20 +1596,14 @@ void ansys::dpf::Operator::connect(dp_index input_pin, Collection< DataT > const
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connectOperatorAsInput(dp_index input_pin, Operator const &data)
 ```
-
-
-
 
 Connect an [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) instance as an input to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -2417,20 +1623,14 @@ Connect an [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Oper
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connectCustom(dp_index input_pin, DataT const &d)
 ```
-
-
-
 
 Connect custom data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -2451,17 +1651,11 @@ Connect custom data to input_pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, Operator const &op, dp_index output_pin, DpfError &error)
 ```
 
-
-
-
 Connect operators output_pin to input_pin.
-
-
 
 **Parameters**:
 
@@ -2483,17 +1677,11 @@ Connect operators output_pin to input_pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, Field const &data, DpfError &error)
 ```
 
-
-
-
 Connect [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) data to input_pin.
-
-
 
 **Parameters**:
 
@@ -2514,17 +1702,11 @@ Connect [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) data t
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, FieldsContainer const &data, DpfError &error)
 ```
 
-
-
-
 Connect [FieldsContainer](classansys_1_1dpf_1_1FieldsContainer.md#classansys_1_1dpf_1_1FieldsContainer) data to input_pin.
-
-
 
 **Parameters**:
 
@@ -2545,17 +1727,11 @@ Connect [FieldsContainer](classansys_1_1dpf_1_1FieldsContainer.md#classansys_1_1
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, ScopingsContainer const &data, DpfError &error)
 ```
 
-
-
-
 Connect [ScopingsContainer](classansys_1_1dpf_1_1ScopingsContainer.md#classansys_1_1dpf_1_1ScopingsContainer) data to input_pin.
-
-
 
 **Parameters**:
 
@@ -2576,17 +1752,11 @@ Connect [ScopingsContainer](classansys_1_1dpf_1_1ScopingsContainer.md#classansys
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, MeshesContainer const &data, DpfError &error)
 ```
 
-
-
-
 Connect [MeshesContainer](classansys_1_1dpf_1_1MeshesContainer.md#classansys_1_1dpf_1_1MeshesContainer) output_pin to input_pin.
-
-
 
 **Parameters**:
 
@@ -2607,17 +1777,11 @@ Connect [MeshesContainer](classansys_1_1dpf_1_1MeshesContainer.md#classansys_1_1
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, DataSources const &data, DpfError &error)
 ```
 
-
-
-
 Connect [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources) data to input_pin.
-
-
 
 **Parameters**:
 
@@ -2638,17 +1802,11 @@ Connect [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1D
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, MeshedRegion const &data, DpfError &error)
 ```
 
-
-
-
 Connect [MeshedRegion](classansys_1_1dpf_1_1MeshedRegion.md#classansys_1_1dpf_1_1MeshedRegion) data to input_pin.
-
-
 
 **Parameters**:
 
@@ -2669,17 +1827,11 @@ Connect [MeshedRegion](classansys_1_1dpf_1_1MeshedRegion.md#classansys_1_1dpf_1_
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, Streams const &data, DpfError &error)
 ```
 
-
-
-
 Connect [Streams](classansys_1_1dpf_1_1Streams.md#classansys_1_1dpf_1_1Streams) data to input_pin.
-
-
 
 **Parameters**:
 
@@ -2700,17 +1852,11 @@ Connect [Streams](classansys_1_1dpf_1_1Streams.md#classansys_1_1dpf_1_1Streams) 
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, Scoping const &data, DpfError &error)
 ```
 
-
-
-
 Connect [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) data to input_pin.
-
-
 
 **Parameters**:
 
@@ -2731,17 +1877,11 @@ Connect [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) 
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, PropertyField const &data, DpfError &error)
 ```
 
-
-
-
 Connect [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1dpf_1_1PropertyField) data to input_pin.
-
-
 
 **Parameters**:
 
@@ -2762,17 +1902,11 @@ Connect [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1dpf_
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, Support const &data, DpfError &error)
 ```
 
-
-
-
 Connect [Support](classansys_1_1dpf_1_1Support.md#classansys_1_1dpf_1_1Support) data to input_pin.
-
-
 
 **Parameters**:
 
@@ -2793,17 +1927,11 @@ Connect [Support](classansys_1_1dpf_1_1Support.md#classansys_1_1dpf_1_1Support) 
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, CyclicSupport const &data, DpfError &error)
 ```
 
-
-
-
 Connect [CyclicSupport](classansys_1_1dpf_1_1CyclicSupport.md#classansys_1_1dpf_1_1CyclicSupport) data to input_pin.
-
-
 
 **Parameters**:
 
@@ -2824,17 +1952,11 @@ Connect [CyclicSupport](classansys_1_1dpf_1_1CyclicSupport.md#classansys_1_1dpf_
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, TimeFreqSupport const &data, DpfError &error)
 ```
 
-
-
-
 Connect [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#classansys_1_1dpf_1_1TimeFreqSupport) data to input_pin.
-
-
 
 **Parameters**:
 
@@ -2855,17 +1977,11 @@ Connect [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#classansys_1_1
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, StringField const &data, DpfError &error)
 ```
 
-
-
-
 Connect [StringField](classansys_1_1dpf_1_1StringField.md#classansys_1_1dpf_1_1StringField) data to input_pin.
-
-
 
 **Parameters**:
 
@@ -2886,17 +2002,11 @@ Connect [StringField](classansys_1_1dpf_1_1StringField.md#classansys_1_1dpf_1_1S
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, CustomTypeField const &data, DpfError &error)
 ```
 
-
-
-
 Connect [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField) data to input_pin.
-
-
 
 **Parameters**:
 
@@ -2917,17 +2027,11 @@ Connect [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, LabelSpace const &data, DpfError &error)
 ```
 
-
-
-
 Connect [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#classansys_1_1dpf_1_1TimeFreqSupport) data to input_pin.
-
-
 
 **Parameters**:
 
@@ -2948,17 +2052,11 @@ Connect [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#classansys_1_1
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, Workflow const &data, DpfError &error)
 ```
 
-
-
-
 Connect Workflow data to input_pin.
-
-
 
 **Parameters**:
 
@@ -2979,17 +2077,11 @@ Connect Workflow data to input_pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, RemoteWorkflow const &data, DpfError &error)
 ```
 
-
-
-
 Connect RemoteWorkflow data to input_pin.
-
-
 
 **Parameters**:
 
@@ -3010,17 +2102,11 @@ Connect RemoteWorkflow data to input_pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, CustomTypeFieldsContainer const &data, DpfError &error)
 ```
 
-
-
-
 Connect [CustomTypeFieldsContainer](classansys_1_1dpf_1_1CustomTypeFieldsContainer.md#classansys_1_1dpf_1_1CustomTypeFieldsContainer) data to input_pin.
-
-
 
 **Parameters**:
 
@@ -3041,17 +2127,11 @@ Connect [CustomTypeFieldsContainer](classansys_1_1dpf_1_1CustomTypeFieldsContain
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, bool data, DpfError &error)
 ```
 
-
-
-
 Connect boolean data to input_pin.
-
-
 
 **Parameters**:
 
@@ -3072,17 +2152,11 @@ Connect boolean data to input_pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, dp_int data, DpfError &error)
 ```
 
-
-
-
 Connect integer data to input_pin.
-
-
 
 **Parameters**:
 
@@ -3103,17 +2177,11 @@ Connect integer data to input_pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, dp_double data, DpfError &error)
 ```
 
-
-
-
 Connect double data to input_pin.
-
-
 
 **Parameters**:
 
@@ -3134,17 +2202,11 @@ Connect double data to input_pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, std::string const &data, DpfError &error)
 ```
 
-
-
-
 Connect string data to input_pin.
-
-
 
 **Parameters**:
 
@@ -3165,17 +2227,11 @@ Connect string data to input_pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, std::vector< dp_int > const &data, DpfError &error)
 ```
 
-
-
-
 Connect vector of integer data to input_pin.
-
-
 
 **Parameters**:
 
@@ -3196,17 +2252,11 @@ Connect vector of integer data to input_pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, std::vector< dp_double > const &data, DpfError &error)
 ```
 
-
-
-
 Connect vector of double data to input_pin.
-
-
 
 **Parameters**:
 
@@ -3227,17 +2277,11 @@ Connect vector of double data to input_pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, std::vector< std::string > const &data, DpfError &error)
 ```
 
-
-
-
 Connect vbector of string data to input_pin.
-
-
 
 **Parameters**:
 
@@ -3258,17 +2302,11 @@ Connect vbector of string data to input_pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, IAnsDispatch *data, DpfError &error)
 ```
 
-
-
-
 Connect IAnsDispatch data to input_pin.
-
-
 
 **Parameters**:
 
@@ -3289,17 +2327,11 @@ Connect IAnsDispatch data to input_pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, Any const &data, DpfError &error)
 ```
 
-
-
-
 Connect [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) data to input_pin.
-
-
 
 **Parameters**:
 
@@ -3320,17 +2352,11 @@ Connect [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) data to inpu
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, DataTree const &data, DpfError &error)
 ```
 
-
-
-
 Connect [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree) data to input_pin.
-
-
 
 **Parameters**:
 
@@ -3351,17 +2377,11 @@ Connect [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTre
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, GenericDataContainer const &data, DpfError &error)
 ```
 
-
-
-
 Connect GenericDataContainer data to input_pin.
-
-
 
 **Parameters**:
 
@@ -3382,17 +2402,11 @@ Connect GenericDataContainer data to input_pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, CustomContainerBase const &data, DpfError &error)
 ```
 
-
-
-
 Connect [CustomContainerBase](classansys_1_1dpf_1_1CustomContainerBase.md#classansys_1_1dpf_1_1CustomContainerBase) data to input_pin.
-
-
 
 **Parameters**:
 
@@ -3413,17 +2427,11 @@ Connect [CustomContainerBase](classansys_1_1dpf_1_1CustomContainerBase.md#classa
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::connect(dp_index input_pin, DataT const &data, DpfError &error)
 ```
 
-
-
-
 Connect [Collection](classansys_1_1dpf_1_1Collection.md#classansys_1_1dpf_1_1Collection) data to input_pin.
-
-
 
 **Parameters**:
 
@@ -3445,24 +2453,17 @@ Connect [Collection](classansys_1_1dpf_1_1Collection.md#classansys_1_1dpf_1_1Col
 
 ![][public]
 
-
 ```cpp
 Field ansys::dpf::Operator::getOutputField(dp_index pin_index)
 ```
-
-
-
 
 **Returns**:
 
 [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) output on pin_index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3481,24 +2482,17 @@ Field ansys::dpf::Operator::getOutputField(dp_index pin_index)
 
 ![][public]
 
-
 ```cpp
 PropertyField ansys::dpf::Operator::getOutputPropertyField(dp_index pin_index)
 ```
-
-
-
 
 **Returns**:
 
 [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1dpf_1_1PropertyField) output on pin_index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3517,24 +2511,17 @@ PropertyField ansys::dpf::Operator::getOutputPropertyField(dp_index pin_index)
 
 ![][public]
 
-
 ```cpp
 Scoping ansys::dpf::Operator::getOutputScoping(dp_index pin_index)
 ```
-
-
-
 
 **Returns**:
 
 [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) output on pin_index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3553,24 +2540,17 @@ Scoping ansys::dpf::Operator::getOutputScoping(dp_index pin_index)
 
 ![][public]
 
-
 ```cpp
 FieldsContainer ansys::dpf::Operator::getOutputFieldsContainer(dp_index pin_index)
 ```
-
-
-
 
 **Returns**:
 
 [FieldsContainer](classansys_1_1dpf_1_1FieldsContainer.md#classansys_1_1dpf_1_1FieldsContainer) output on pin_index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3589,24 +2569,17 @@ FieldsContainer ansys::dpf::Operator::getOutputFieldsContainer(dp_index pin_inde
 
 ![][public]
 
-
 ```cpp
 ScopingsContainer ansys::dpf::Operator::getOutputScopingsContainer(dp_index pin_index)
 ```
-
-
-
 
 **Returns**:
 
 [ScopingsContainer](classansys_1_1dpf_1_1ScopingsContainer.md#classansys_1_1dpf_1_1ScopingsContainer) output on pin_index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3625,24 +2598,17 @@ ScopingsContainer ansys::dpf::Operator::getOutputScopingsContainer(dp_index pin_
 
 ![][public]
 
-
 ```cpp
 MeshesContainer ansys::dpf::Operator::getOutputMeshesContainer(dp_index pin_index)
 ```
-
-
-
 
 **Returns**:
 
 [MeshesContainer](classansys_1_1dpf_1_1MeshesContainer.md#classansys_1_1dpf_1_1MeshesContainer) output on pin_index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3661,24 +2627,17 @@ MeshesContainer ansys::dpf::Operator::getOutputMeshesContainer(dp_index pin_inde
 
 ![][public]
 
-
 ```cpp
 TimeFreqSupport ansys::dpf::Operator::getOutputTimeFreqSupport(dp_index pin_index)
 ```
-
-
-
 
 **Returns**:
 
 [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#classansys_1_1dpf_1_1TimeFreqSupport) output on pin_index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3697,24 +2656,17 @@ TimeFreqSupport ansys::dpf::Operator::getOutputTimeFreqSupport(dp_index pin_inde
 
 ![][public]
 
-
 ```cpp
 MeshedRegion ansys::dpf::Operator::getOutputMeshedRegion(dp_index pin_index)
 ```
-
-
-
 
 **Returns**:
 
 [MeshedRegion](classansys_1_1dpf_1_1MeshedRegion.md#classansys_1_1dpf_1_1MeshedRegion) output on pin_index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3733,24 +2685,17 @@ MeshedRegion ansys::dpf::Operator::getOutputMeshedRegion(dp_index pin_index)
 
 ![][public]
 
-
 ```cpp
 Streams ansys::dpf::Operator::getOutputStreams(dp_index pin_index)
 ```
-
-
-
 
 **Returns**:
 
 [Streams](classansys_1_1dpf_1_1Streams.md#classansys_1_1dpf_1_1Streams) output on pin_index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3769,24 +2714,17 @@ Streams ansys::dpf::Operator::getOutputStreams(dp_index pin_index)
 
 ![][public]
 
-
 ```cpp
 ResultInfo ansys::dpf::Operator::getOutputResultInfo(dp_index pin_index)
 ```
-
-
-
 
 **Returns**:
 
 [ResultInfo](classansys_1_1dpf_1_1ResultInfo.md#classansys_1_1dpf_1_1ResultInfo) output on pin_index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3805,24 +2743,17 @@ ResultInfo ansys::dpf::Operator::getOutputResultInfo(dp_index pin_index)
 
 ![][public]
 
-
 ```cpp
 Mapping ansys::dpf::Operator::getOutputMapping(dp_index pin_index)
 ```
-
-
-
 
 **Returns**:
 
 [Mapping](classansys_1_1dpf_1_1Mapping.md#classansys_1_1dpf_1_1Mapping) output on pin_index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3841,24 +2772,17 @@ Mapping ansys::dpf::Operator::getOutputMapping(dp_index pin_index)
 
 ![][public]
 
-
 ```cpp
 DataTree ansys::dpf::Operator::getOutputDataTree(dp_index pin_index)
 ```
-
-
-
 
 **Returns**:
 
 [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree) output on pin_index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3877,24 +2801,17 @@ DataTree ansys::dpf::Operator::getOutputDataTree(dp_index pin_index)
 
 ![][public]
 
-
 ```cpp
 Workflow ansys::dpf::Operator::getOutputWorkflow(dp_index pin_index)
 ```
-
-
-
 
 **Returns**:
 
 Workflow output on pin_index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3913,24 +2830,17 @@ Workflow output on pin_index.
 
 ![][public]
 
-
 ```cpp
 Operator ansys::dpf::Operator::getOutputOperator(dp_index pin_index)
 ```
-
-
-
 
 **Returns**:
 
 [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) output on pin_index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3949,24 +2859,17 @@ Operator ansys::dpf::Operator::getOutputOperator(dp_index pin_index)
 
 ![][public]
 
-
 ```cpp
 Support ansys::dpf::Operator::getOutputSupport(dp_index pin_index)
 ```
-
-
-
 
 **Returns**:
 
 [Support](classansys_1_1dpf_1_1Support.md#classansys_1_1dpf_1_1Support) output on pin_index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3985,24 +2888,17 @@ Support ansys::dpf::Operator::getOutputSupport(dp_index pin_index)
 
 ![][public]
 
-
 ```cpp
 CyclicSupport ansys::dpf::Operator::getOutputCyclicSupport(dp_index pin_index)
 ```
-
-
-
 
 **Returns**:
 
 [CyclicSupport](classansys_1_1dpf_1_1CyclicSupport.md#classansys_1_1dpf_1_1CyclicSupport) output on pin_index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4021,24 +2917,17 @@ CyclicSupport ansys::dpf::Operator::getOutputCyclicSupport(dp_index pin_index)
 
 ![][public]
 
-
 ```cpp
 DataSources ansys::dpf::Operator::getOutputDataSources(dp_index pin_index)
 ```
-
-
-
 
 **Returns**:
 
 [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources) output on pin_index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4057,24 +2946,17 @@ DataSources ansys::dpf::Operator::getOutputDataSources(dp_index pin_index)
 
 ![][public]
 
-
 ```cpp
 StringField ansys::dpf::Operator::getOutputStringField(dp_index pin_index)
 ```
-
-
-
 
 **Returns**:
 
 [StringField](classansys_1_1dpf_1_1StringField.md#classansys_1_1dpf_1_1StringField) output on pin_index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4093,24 +2975,17 @@ StringField ansys::dpf::Operator::getOutputStringField(dp_index pin_index)
 
 ![][public]
 
-
 ```cpp
 CustomTypeField ansys::dpf::Operator::getOutputCustomTypeField(dp_index pin_index)
 ```
-
-
-
 
 **Returns**:
 
 [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField) output on pin_index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4129,24 +3004,17 @@ CustomTypeField ansys::dpf::Operator::getOutputCustomTypeField(dp_index pin_inde
 
 ![][public]
 
-
 ```cpp
 MeshInfo ansys::dpf::Operator::getOutputMeshInfo(dp_index pin_index)
 ```
-
-
-
 
 **Returns**:
 
 [MeshInfo](classansys_1_1dpf_1_1MeshInfo.md#classansys_1_1dpf_1_1MeshInfo) output on pin_index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4165,24 +3033,17 @@ MeshInfo ansys::dpf::Operator::getOutputMeshInfo(dp_index pin_index)
 
 ![][public]
 
-
 ```cpp
 GenericDataContainer ansys::dpf::Operator::getOutputGenericDataContainer(dp_index pin_index)
 ```
-
-
-
 
 **Returns**:
 
 GenericDataContainer output on pin_index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4201,24 +3062,17 @@ GenericDataContainer output on pin_index.
 
 ![][public]
 
-
 ```cpp
 CustomTypeFieldsContainer ansys::dpf::Operator::getOutputCustomTypeFieldsContainer(dp_index pin_index)
 ```
-
-
-
 
 **Returns**:
 
 [CustomTypeFieldsContainer](classansys_1_1dpf_1_1CustomTypeFieldsContainer.md#classansys_1_1dpf_1_1CustomTypeFieldsContainer) output on pin_index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4237,24 +3091,17 @@ CustomTypeFieldsContainer ansys::dpf::Operator::getOutputCustomTypeFieldsContain
 
 ![][public]
 
-
 ```cpp
 CustomContainerT ansys::dpf::Operator::getOutputCustomContainer(dp_index pin_index)
 ```
-
-
-
 
 **Returns**:
 
 CustomContainerBase output on pin_index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4274,24 +3121,17 @@ CustomContainerBase output on pin_index.
 
 ![][public]
 
-
 ```cpp
 std::string ansys::dpf::Operator::getOutputString(dp_index pin_index)
 ```
-
-
-
 
 **Returns**:
 
 String output on pin_index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4310,24 +3150,17 @@ String output on pin_index.
 
 ![][public]
 
-
 ```cpp
 dp_double ansys::dpf::Operator::getOutputDouble(dp_index pin_index)
 ```
-
-
-
 
 **Returns**:
 
 Double output on pin_index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4346,24 +3179,17 @@ Double output on pin_index.
 
 ![][public]
 
-
 ```cpp
 dp_int ansys::dpf::Operator::getOutputInt(dp_index pin_index)
 ```
-
-
-
 
 **Returns**:
 
 Integer output on pin_index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4382,24 +3208,17 @@ Integer output on pin_index.
 
 ![][public]
 
-
 ```cpp
 bool ansys::dpf::Operator::getOutputBool(dp_index pin_index)
 ```
-
-
-
 
 **Returns**:
 
 Boolean output on pin_index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4418,19 +3237,13 @@ Boolean output on pin_index.
 
 ![][public]
 
-
 ```cpp
 DpfVector< int > ansys::dpf::Operator::getOutputIntVector(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 Integers vector result as [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) for given output pin.
-
-
 
 **Parameters**:
 
@@ -4449,19 +3262,13 @@ Integers vector result as [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classans
 
 ![][public]
 
-
 ```cpp
 DpfVector< double > ansys::dpf::Operator::getOutputDoubleVector(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 Doubles vector result as [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) for given output pin.
-
-
 
 **Parameters**:
 
@@ -4480,19 +3287,13 @@ Doubles vector result as [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansy
 
 ![][public]
 
-
 ```cpp
 Any ansys::dpf::Operator::getOutputAsAny(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) result for given output pin.
-
-
 
 **Parameters**:
 
@@ -4511,24 +3312,17 @@ Any ansys::dpf::Operator::getOutputAsAny(dp_index pin_index)
 
 ![][public]
 
-
 ```cpp
 DataT ansys::dpf::Operator::getCustomOutput(dp_int index)
 ```
-
-
-
 
 **Returns**:
 
 Custom data output on index.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4548,19 +3342,13 @@ Custom data output on index.
 
 ![][public]
 
-
 ```cpp
 DataT ansys::dpf::Operator::getOutput(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 Typed result for given output pin.
-
-
 
 **Parameters**:
 
@@ -4580,19 +3368,13 @@ Typed result for given output pin.
 
 ![][public]
 
-
 ```cpp
 Field ansys::dpf::Operator::getOutputField(dp_index pin_index, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) output on pin_index.
-
-
 
 **Parameters**:
 
@@ -4612,19 +3394,13 @@ Field ansys::dpf::Operator::getOutputField(dp_index pin_index, DpfError &error)
 
 ![][public]
 
-
 ```cpp
 PropertyField ansys::dpf::Operator::getOutputPropertyField(dp_index pin_index, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1dpf_1_1PropertyField) output on pin_index.
-
-
 
 **Parameters**:
 
@@ -4644,19 +3420,13 @@ PropertyField ansys::dpf::Operator::getOutputPropertyField(dp_index pin_index, D
 
 ![][public]
 
-
 ```cpp
 Scoping ansys::dpf::Operator::getOutputScoping(dp_index pin_index, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) output on pin_index.
-
-
 
 **Parameters**:
 
@@ -4676,19 +3446,13 @@ Scoping ansys::dpf::Operator::getOutputScoping(dp_index pin_index, DpfError &err
 
 ![][public]
 
-
 ```cpp
 FieldsContainer ansys::dpf::Operator::getOutputFieldsContainer(dp_index pin_index, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [FieldsContainer](classansys_1_1dpf_1_1FieldsContainer.md#classansys_1_1dpf_1_1FieldsContainer) output on pin_index.
-
-
 
 **Parameters**:
 
@@ -4708,19 +3472,13 @@ FieldsContainer ansys::dpf::Operator::getOutputFieldsContainer(dp_index pin_inde
 
 ![][public]
 
-
 ```cpp
 ScopingsContainer ansys::dpf::Operator::getOutputScopingsContainer(dp_index pin_index, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [ScopingsContainer](classansys_1_1dpf_1_1ScopingsContainer.md#classansys_1_1dpf_1_1ScopingsContainer) output on pin_index.
-
-
 
 **Parameters**:
 
@@ -4740,19 +3498,13 @@ ScopingsContainer ansys::dpf::Operator::getOutputScopingsContainer(dp_index pin_
 
 ![][public]
 
-
 ```cpp
 MeshesContainer ansys::dpf::Operator::getOutputMeshesContainer(dp_index pin_index, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [MeshesContainer](classansys_1_1dpf_1_1MeshesContainer.md#classansys_1_1dpf_1_1MeshesContainer) output on pin_index.
-
-
 
 **Parameters**:
 
@@ -4772,19 +3524,13 @@ MeshesContainer ansys::dpf::Operator::getOutputMeshesContainer(dp_index pin_inde
 
 ![][public]
 
-
 ```cpp
 TimeFreqSupport ansys::dpf::Operator::getOutputTimeFreqSupport(dp_index pin_index, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#classansys_1_1dpf_1_1TimeFreqSupport) output on pin_index.
-
-
 
 **Parameters**:
 
@@ -4804,19 +3550,13 @@ TimeFreqSupport ansys::dpf::Operator::getOutputTimeFreqSupport(dp_index pin_inde
 
 ![][public]
 
-
 ```cpp
 MeshedRegion ansys::dpf::Operator::getOutputMeshedRegion(dp_index pin_index, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [MeshedRegion](classansys_1_1dpf_1_1MeshedRegion.md#classansys_1_1dpf_1_1MeshedRegion) output on pin_index.
-
-
 
 **Parameters**:
 
@@ -4836,19 +3576,13 @@ MeshedRegion ansys::dpf::Operator::getOutputMeshedRegion(dp_index pin_index, Dpf
 
 ![][public]
 
-
 ```cpp
 Streams ansys::dpf::Operator::getOutputStreams(dp_index pin_index, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [Streams](classansys_1_1dpf_1_1Streams.md#classansys_1_1dpf_1_1Streams) output on pin_index.
-
-
 
 **Parameters**:
 
@@ -4868,19 +3602,13 @@ Streams ansys::dpf::Operator::getOutputStreams(dp_index pin_index, DpfError &err
 
 ![][public]
 
-
 ```cpp
 ResultInfo ansys::dpf::Operator::getOutputResultInfo(dp_index pin_index, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [ResultInfo](classansys_1_1dpf_1_1ResultInfo.md#classansys_1_1dpf_1_1ResultInfo) output on pin_index.
-
-
 
 **Parameters**:
 
@@ -4900,19 +3628,13 @@ ResultInfo ansys::dpf::Operator::getOutputResultInfo(dp_index pin_index, DpfErro
 
 ![][public]
 
-
 ```cpp
 Mapping ansys::dpf::Operator::getOutputMapping(dp_index pin_index, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [Mapping](classansys_1_1dpf_1_1Mapping.md#classansys_1_1dpf_1_1Mapping) output on pin_index.
-
-
 
 **Parameters**:
 
@@ -4932,19 +3654,13 @@ Mapping ansys::dpf::Operator::getOutputMapping(dp_index pin_index, DpfError &err
 
 ![][public]
 
-
 ```cpp
 DataTree ansys::dpf::Operator::getOutputDataTree(dp_index pin_index, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree) output on pin_index.
-
-
 
 **Parameters**:
 
@@ -4964,19 +3680,13 @@ DataTree ansys::dpf::Operator::getOutputDataTree(dp_index pin_index, DpfError &e
 
 ![][public]
 
-
 ```cpp
 Workflow ansys::dpf::Operator::getOutputWorkflow(dp_index pin_index, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 Workflow output on pin_index.
-
-
 
 **Parameters**:
 
@@ -4996,19 +3706,13 @@ Workflow output on pin_index.
 
 ![][public]
 
-
 ```cpp
 Support ansys::dpf::Operator::getOutputSupport(dp_index pin_index, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [Support](classansys_1_1dpf_1_1Support.md#classansys_1_1dpf_1_1Support) output on pin_index.
-
-
 
 **Parameters**:
 
@@ -5028,19 +3732,13 @@ Support ansys::dpf::Operator::getOutputSupport(dp_index pin_index, DpfError &err
 
 ![][public]
 
-
 ```cpp
 CyclicSupport ansys::dpf::Operator::getOutputCyclicSupport(dp_index pin_index, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [CyclicSupport](classansys_1_1dpf_1_1CyclicSupport.md#classansys_1_1dpf_1_1CyclicSupport) output on pin_index.
-
-
 
 **Parameters**:
 
@@ -5060,19 +3758,13 @@ CyclicSupport ansys::dpf::Operator::getOutputCyclicSupport(dp_index pin_index, D
 
 ![][public]
 
-
 ```cpp
 DataSources ansys::dpf::Operator::getOutputDataSources(dp_index pin_index, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources) output on pin_index.
-
-
 
 **Parameters**:
 
@@ -5092,19 +3784,13 @@ DataSources ansys::dpf::Operator::getOutputDataSources(dp_index pin_index, DpfEr
 
 ![][public]
 
-
 ```cpp
 StringField ansys::dpf::Operator::getOutputStringField(dp_index pin_index, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [StringField](classansys_1_1dpf_1_1StringField.md#classansys_1_1dpf_1_1StringField) output on pin_index.
-
-
 
 **Parameters**:
 
@@ -5124,19 +3810,13 @@ StringField ansys::dpf::Operator::getOutputStringField(dp_index pin_index, DpfEr
 
 ![][public]
 
-
 ```cpp
 CustomTypeField ansys::dpf::Operator::getOutputCustomTypeField(dp_index pin_index, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField) output on pin_index.
-
-
 
 **Parameters**:
 
@@ -5156,19 +3836,13 @@ CustomTypeField ansys::dpf::Operator::getOutputCustomTypeField(dp_index pin_inde
 
 ![][public]
 
-
 ```cpp
 MeshInfo ansys::dpf::Operator::getOutputMeshInfo(dp_index pin_index, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [MeshInfo](classansys_1_1dpf_1_1MeshInfo.md#classansys_1_1dpf_1_1MeshInfo) output on pin_index.
-
-
 
 **Parameters**:
 
@@ -5188,19 +3862,13 @@ MeshInfo ansys::dpf::Operator::getOutputMeshInfo(dp_index pin_index, DpfError &e
 
 ![][public]
 
-
 ```cpp
 GenericDataContainer ansys::dpf::Operator::getOutputGenericDataContainer(dp_index pin_index, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 GenericDataContainer output on pin_index.
-
-
 
 **Parameters**:
 
@@ -5220,19 +3888,13 @@ GenericDataContainer output on pin_index.
 
 ![][public]
 
-
 ```cpp
 CustomTypeFieldsContainer ansys::dpf::Operator::getOutputCustomTypeFieldsContainer(dp_index pin_index, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [CustomTypeFieldsContainer](classansys_1_1dpf_1_1CustomTypeFieldsContainer.md#classansys_1_1dpf_1_1CustomTypeFieldsContainer) output on pin_index.
-
-
 
 **Parameters**:
 
@@ -5252,19 +3914,13 @@ CustomTypeFieldsContainer ansys::dpf::Operator::getOutputCustomTypeFieldsContain
 
 ![][public]
 
-
 ```cpp
 std::string ansys::dpf::Operator::getOutputString(dp_index pin_index, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 String output on pin_index.
-
-
 
 **Parameters**:
 
@@ -5284,19 +3940,13 @@ String output on pin_index.
 
 ![][public]
 
-
 ```cpp
 dp_double ansys::dpf::Operator::getOutputDouble(dp_index pin_index, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 Double output on pin_index.
-
-
 
 **Parameters**:
 
@@ -5316,19 +3966,13 @@ Double output on pin_index.
 
 ![][public]
 
-
 ```cpp
 bool ansys::dpf::Operator::getOutputBool(dp_index pin_index, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 Boolean output on pin_index.
-
-
 
 **Parameters**:
 
@@ -5348,19 +3992,13 @@ Boolean output on pin_index.
 
 ![][public]
 
-
 ```cpp
 int ansys::dpf::Operator::getOutputInt(dp_index pin_index, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 int output on pin_index.
-
-
 
 **Parameters**:
 
@@ -5380,19 +4018,13 @@ int output on pin_index.
 
 ![][public]
 
-
 ```cpp
 DpfVector< int > ansys::dpf::Operator::getOutputIntVector(dp_index pin_index, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 Integers vector result as [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) for given output pin.
-
-
 
 **Parameters**:
 
@@ -5412,19 +4044,13 @@ Integers vector result as [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classans
 
 ![][public]
 
-
 ```cpp
 DpfVector< double > ansys::dpf::Operator::getOutputDoubleVector(dp_index pin_index, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 Doubles vector result as [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) for given output pin.
-
-
 
 **Parameters**:
 
@@ -5444,17 +4070,11 @@ Doubles vector result as [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansy
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Operator::disconnect(dp_index pin_index)
 ```
 
-
-
-
 Disconnect pin from operator.
-
-
 
 **Parameters**:
 
@@ -5473,20 +4093,14 @@ Disconnect pin from operator.
 
 ![][public]
 
-
 ```cpp
 bool ansys::dpf::Operator::hasOutputWhenEvaluated(dp_index pin_index)
 ```
-
-
-
 
 Determines if output will be available on pin_index when operator evaluated. 
 **Returns**:
 
 Indication of output available on pin.
-
-
 
 **Parameters**:
 
@@ -5506,20 +4120,14 @@ Indication of output available on pin.
 ![][public]
 ![][const]
 
-
 ```cpp
 OperatorConfig ansys::dpf::Operator::config() const
 ```
-
-
-
 
 Get configuration information for operator. 
 **Returns**:
 
 [OperatorConfig](classansys_1_1dpf_1_1OperatorConfig.md#classansys_1_1dpf_1_1OperatorConfig)
-
-
 
 **Return type**: [OperatorConfig](classansys_1_1dpf_1_1OperatorConfig.md#classansys_1_1dpf_1_1OperatorConfig)
 
@@ -5535,17 +4143,9 @@ Get configuration information for operator.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_id ansys::dpf::Operator::getRemoteId() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: [dp\_id](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1ab4574c9af3f2bb8011da7d1f4c8da20e)
 
@@ -5563,20 +4163,14 @@ dp_id ansys::dpf::Operator::getRemoteId() const
 ![][public]
 ![][static]
 
-
 ```cpp
 static Operator ansys::dpf::Operator::emptyOperator()
 ```
-
-
-
 
 Create an empty operator. 
 **Returns**:
 
 Empty [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator)
-
-
 
 **Return type**: Operator
 

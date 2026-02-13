@@ -27,33 +27,6 @@ The location is the type of topology associated with the data container. This al
 
 ## Private attributes
 
-<a id="structansys_1_1dpf_1_1Location_1a3395e6fbde40a5726b06fa9d104046f6"></a>
-### Variable \_value
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 142)
-
-
-```cpp
-std::string ansys::dpf::Location::_value
-```
-
-
-
-
-
-
-
-
-**Type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Location::_value"}]}`
--->
-
 ## Public functions
 
 <a id="structansys_1_1dpf_1_1Location_1a2b3efab2807517d182bc9a486a0fb837"></a>
@@ -61,17 +34,11 @@ std::string ansys::dpf::Location::_value
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Location::Location(std::string const &name="")
 ```
 
-
-
-
 Create new location.
-
-
 
 **Parameters**:
 
@@ -90,17 +57,9 @@ Create new location.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Location::Location(Location const &)=default
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -120,17 +79,9 @@ ansys::dpf::Location::Location(Location const &)=default
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::Location::operator==(Location const &) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -150,17 +101,9 @@ bool ansys::dpf::Location::operator==(Location const &) const
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::Location::operator<(Location const &) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -180,17 +123,9 @@ bool ansys::dpf::Location::operator<(Location const &) const
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::Location::operator<=(Location const &) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -210,17 +145,9 @@ bool ansys::dpf::Location::operator<=(Location const &) const
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::Location::operator!=(Location const &) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -240,17 +167,11 @@ bool ansys::dpf::Location::operator!=(Location const &) const
 ![][public]
 ![][const]
 
-
 ```cpp
 ansys::dpf::Location::operator std::string() const
 ```
 
-
-
-
 Name of location.
-
-
 
 **Return type**: 
 
@@ -266,17 +187,9 @@ Name of location.
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::Location::empty() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: bool
 
@@ -292,20 +205,14 @@ bool ansys::dpf::Location::empty() const
 ![][public]
 ![][const]
 
-
 ```cpp
 const char * ansys::dpf::Location::c_str() const
 ```
-
-
-
 
 Gets name of location. 
 **Returns**:
 
 Name of location.
-
-
 
 **Return type**: const char *
 

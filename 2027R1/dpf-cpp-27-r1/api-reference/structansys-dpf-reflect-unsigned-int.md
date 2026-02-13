@@ -6,12 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 1978)
 
-
-
-
-
-
-
 ## Members
 
 * [type\_name](structansys_1_1dpf_1_1reflect_3_01unsigned_01int_01_4.md#structansys_1_1dpf_1_1reflect_3_01unsigned_01int_01_4_1a0cc16baffdd60d0b02c53d737f44d280)
@@ -24,17 +18,9 @@
 ![][public]
 ![][static]
 
-
 ```cpp
 static std::string ansys::dpf::reflect< unsigned int >::type_name()
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::string
 

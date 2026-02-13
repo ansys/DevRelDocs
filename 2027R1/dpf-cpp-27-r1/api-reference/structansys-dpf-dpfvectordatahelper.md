@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 1228)
 
-
-
-
-
 ## Members
 
 * [commitCharVector](structansys_1_1dpf_1_1DpfVectorDataHelper.md#structansys_1_1dpf_1_1DpfVectorDataHelper_1a4a814cbb3bf619204d823cc9c77df460)
@@ -27,17 +23,9 @@
 ![][public]
 ![][static]
 
-
 ```cpp
 static opaque::DpfVector * ansys::dpf::DpfVectorDataHelper::initDpfVector(opaque::DpfObject const *object=nullptr)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -57,17 +45,9 @@ static opaque::DpfVector * ansys::dpf::DpfVectorDataHelper::initDpfVector(opaque
 ![][public]
 ![][static]
 
-
 ```cpp
 static opaque::DpfVector * ansys::dpf::DpfVectorDataHelper::duplicateDpfVector(opaque::DpfVector *)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -87,17 +67,9 @@ static opaque::DpfVector * ansys::dpf::DpfVectorDataHelper::duplicateDpfVector(o
 ![][public]
 ![][static]
 
-
 ```cpp
 static void ansys::dpf::DpfVectorDataHelper::deleteDpfVector(opaque::DpfVector *vector)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -117,17 +89,9 @@ static void ansys::dpf::DpfVectorDataHelper::deleteDpfVector(opaque::DpfVector *
 ![][public]
 ![][static]
 
-
 ```cpp
 static void ansys::dpf::DpfVectorDataHelper::releaseCharVector(opaque::DpfVector *vector, char *data, dp_int size, bool modified)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -150,17 +114,9 @@ static void ansys::dpf::DpfVectorDataHelper::releaseCharVector(opaque::DpfVector
 ![][public]
 ![][static]
 
-
 ```cpp
 static void ansys::dpf::DpfVectorDataHelper::commitCharVector(opaque::DpfVector *vector, char *data, dp_int size, bool modified)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -183,17 +139,9 @@ static void ansys::dpf::DpfVectorDataHelper::commitCharVector(opaque::DpfVector 
 ![][public]
 ![][static]
 
-
 ```cpp
 static void ansys::dpf::DpfVectorDataHelper::setAsSubVecCharVector(opaque::DpfVector *vector, char *data, dp_int size, opaque::DpfVector *vector_out, dp_int starting_index, dp_int size_out, char **dataout)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 

@@ -5,10 +5,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/helpers/dpf\_model.h` (line 9)
 
-
-
-
-
 ## Child namespaces
 
 * [ansys::dpf](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf)

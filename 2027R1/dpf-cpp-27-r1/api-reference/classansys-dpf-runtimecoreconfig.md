@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6359)
 
-
-
 enables to set runtime configuration options to the DPF process (DataProcessingCore).
 
 **Inherits from**:
@@ -36,60 +34,7 @@ enables to set runtime configuration options to the DPF process (DataProcessingC
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1RuntimeCoreConfig_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6362)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::RuntimeCoreConfig::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1RuntimeCoreConfig_1a96ef33b2d74d74303fb6a4b0efe38b69"></a>
-### Function RuntimeCoreConfig
-
-![][private]
-
-
-```cpp
-ansys::dpf::RuntimeCoreConfig::RuntimeCoreConfig(DataTree &data_tree)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree) & **data_tree**
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::RuntimeCoreConfig::RuntimeCoreConfig"}]}`
--->
 
 ## Public functions
 
@@ -98,17 +43,9 @@ ansys::dpf::RuntimeCoreConfig::RuntimeCoreConfig(DataTree &data_tree)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::RuntimeCoreConfig::RuntimeCoreConfig(RuntimeCoreConfig const &rhs)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -127,17 +64,9 @@ ansys::dpf::RuntimeCoreConfig::RuntimeCoreConfig(RuntimeCoreConfig const &rhs)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::RuntimeCoreConfig::RuntimeCoreConfig(RuntimeCoreConfig &&rhs) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -156,17 +85,11 @@ ansys::dpf::RuntimeCoreConfig::RuntimeCoreConfig(RuntimeCoreConfig &&rhs) noexce
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::RuntimeCoreConfig::setNumberOfThreadsToUse(int num_threads)
 ```
 
-
-
-
 Sets the default number of threads to use for all operators, default is omp_get_num_threads.
-
-
 
 **Parameters**:
 
@@ -186,19 +109,13 @@ Sets the default number of threads to use for all operators, default is omp_get_
 ![][public]
 ![][const]
 
-
 ```cpp
 int ansys::dpf::RuntimeCoreConfig::getNumberOfThreadsToUse() const
 ```
 
-
-
-
 **Returns**:
 
 The default number of threads to use for all operators.
-
-
 
 **Return type**: int
 

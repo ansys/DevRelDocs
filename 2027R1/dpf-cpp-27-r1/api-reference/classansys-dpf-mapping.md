@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5591)
 
-
-
 Define a mapping between two spaces.
 
 **Inherits from**:
@@ -35,108 +33,7 @@ Define a mapping between two spaces.
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1Mapping_1a33ff3f826991522d2e77c1c523f33e19"></a>
-### Friend Operator
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5593)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Operator"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Mapping::Operator"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Operator"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Mapping_1afa07847c7cb432b260e61a0c18025ba3"></a>
-### Friend Workflow
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5594)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Workflow"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Mapping::Workflow"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Workflow"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Mapping_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5595)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Mapping::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1Mapping_1ac181baf0bdd757c7a600c7db75534f51"></a>
-### Function Mapping
-
-![][private]
-
-
-```cpp
-ansys::dpf::Mapping::Mapping(opaque::DpfObject *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfObject *
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Mapping::Mapping"}]}`
--->
 
 ## Public functions
 
@@ -145,17 +42,9 @@ ansys::dpf::Mapping::Mapping(opaque::DpfObject *)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Mapping::~Mapping()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -170,17 +59,9 @@ ansys::dpf::Mapping::~Mapping()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Mapping::Mapping(Mapping const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -199,17 +80,9 @@ ansys::dpf::Mapping::Mapping(Mapping const &)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Mapping::Mapping(Mapping &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -228,17 +101,9 @@ ansys::dpf::Mapping::Mapping(Mapping &&) noexcept
 
 ![][public]
 
-
 ```cpp
 Mapping & ansys::dpf::Mapping::operator=(Mapping const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -257,17 +122,9 @@ Mapping & ansys::dpf::Mapping::operator=(Mapping const &)
 
 ![][public]
 
-
 ```cpp
 Mapping & ansys::dpf::Mapping::operator=(Mapping &&)=delete
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -286,19 +143,13 @@ Mapping & ansys::dpf::Mapping::operator=(Mapping &&)=delete
 
 ![][public]
 
-
 ```cpp
 Field ansys::dpf::Mapping::map(Field &in)
 ```
 
-
-
-
 **Returns**:
 
 [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) mapped to new field.
-
-
 
 **Parameters**:
 

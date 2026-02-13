@@ -5,10 +5,6 @@
 
 **Location**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/helpers/dpf\_result.h`
 
-
-
-
-
 ## Classes
 
 * [ansys::dpf::Result](classansys_1_1dpf_1_1Result.md#classansys_1_1dpf_1_1Result)
@@ -27,7 +23,6 @@
 * [D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/helpers/dpf_model.h](dpf__model_8h.md#dpf__model_8h)
 
 ## Source
-
 
 ```cpp
 //
@@ -151,10 +146,6 @@ private:
                 - requested location
                 - cs_id 
 
-
-
-
-
                         _______     __ "res_source"      __________ 
                "time" -|       |___|____________________|          |__ "res_amplitude"
                        |source |   |                    |amplitude |
@@ -164,9 +155,6 @@ private:
                                    |____________________|              |__ "res_phase"
                                                         |sweeping phase|
                                                "phase" -|______________|
-
-
-
 
         */
         Operator res_provider(res_name);
@@ -285,11 +273,9 @@ Result::init(const char* res_name, Operator &stream_provider, Operator &timefreq
     }
 }
 
-
 }
 }
 ```
-
 
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)

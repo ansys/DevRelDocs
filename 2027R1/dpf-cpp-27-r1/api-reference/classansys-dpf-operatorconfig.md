@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5394)
 
-
-
 used to configure options on how the operator is running.
 
 **Inherits from**:
@@ -49,108 +47,7 @@ used to configure options on how the operator is running.
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1OperatorConfig_1a33ff3f826991522d2e77c1c523f33e19"></a>
-### Friend Operator
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5396)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Operator"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorConfig::Operator"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Operator"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1OperatorConfig_1a81d95df60edf516a1de9878b780f8fb3"></a>
-### Friend OperatorMain
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5397)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorMain"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorConfig::OperatorMain"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorMain"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1OperatorConfig_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5398)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorConfig::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1OperatorConfig_1a6cf7ce72ffaae91a2f6e0371c1131fd3"></a>
-### Function OperatorConfig
-
-![][private]
-
-
-```cpp
-ansys::dpf::OperatorConfig::OperatorConfig(opaque::DpfInternalSharedObject *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfInternalSharedObject *
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorConfig::OperatorConfig"}]}`
--->
 
 ## Public functions
 
@@ -159,17 +56,9 @@ ansys::dpf::OperatorConfig::OperatorConfig(opaque::DpfInternalSharedObject *)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::OperatorConfig::OperatorConfig()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -184,17 +73,9 @@ ansys::dpf::OperatorConfig::OperatorConfig()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::OperatorConfig::OperatorConfig(Client const *const client)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -213,17 +94,9 @@ ansys::dpf::OperatorConfig::OperatorConfig(Client const *const client)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::OperatorConfig::OperatorConfig(OperatorConfig &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -242,17 +115,9 @@ ansys::dpf::OperatorConfig::OperatorConfig(OperatorConfig &&) noexcept
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::OperatorConfig::OperatorConfig(OperatorConfig const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -271,17 +136,9 @@ ansys::dpf::OperatorConfig::OperatorConfig(OperatorConfig const &)
 
 ![][public]
 
-
 ```cpp
 OperatorConfig & ansys::dpf::OperatorConfig::operator=(OperatorConfig const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -300,17 +157,9 @@ OperatorConfig & ansys::dpf::OperatorConfig::operator=(OperatorConfig const &)
 
 ![][public]
 
-
 ```cpp
 OperatorConfig & ansys::dpf::OperatorConfig::operator=(OperatorConfig &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -330,19 +179,13 @@ OperatorConfig & ansys::dpf::OperatorConfig::operator=(OperatorConfig &&) noexce
 ![][public]
 ![][const]
 
-
 ```cpp
 int ansys::dpf::OperatorConfig::numOptions() const
 ```
 
-
-
-
 **Returns**:
 
 Number of avalable options.
-
-
 
 **Return type**: int
 
@@ -357,19 +200,13 @@ Number of avalable options.
 
 ![][public]
 
-
 ```cpp
 std::vector< std::string > ansys::dpf::OperatorConfig::options()
 ```
 
-
-
-
 **Returns**:
 
 Vector of option names.
-
-
 
 **Return type**: std::vector< std::string >
 
@@ -384,19 +221,13 @@ Vector of option names.
 
 ![][public]
 
-
 ```cpp
 std::map< std::string, std::string > ansys::dpf::OperatorConfig::optionsAndValues()
 ```
 
-
-
-
 **Returns**:
 
 Map of option and printable values.
-
-
 
 **Return type**: std::map< std::string, std::string >
 
@@ -411,17 +242,11 @@ Map of option and printable values.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorConfig::set(std::string const &option, dp_int value)
 ```
 
-
-
-
 Sets option to integer value.
-
-
 
 **Parameters**:
 
@@ -441,17 +266,11 @@ Sets option to integer value.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorConfig::set(std::string const &option, dp_double value)
 ```
 
-
-
-
 Sets option to double value.
-
-
 
 **Parameters**:
 
@@ -471,17 +290,11 @@ Sets option to double value.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorConfig::set(std::string const &option, bool value)
 ```
 
-
-
-
 Sets option to boolean value.
-
-
 
 **Parameters**:
 
@@ -502,19 +315,13 @@ Sets option to boolean value.
 ![][public]
 ![][const]
 
-
 ```cpp
 int ansys::dpf::OperatorConfig::getIntValue(std::string const &option) const
 ```
 
-
-
-
 **Returns**:
 
 Integer value of given option.
-
-
 
 **Parameters**:
 
@@ -534,19 +341,13 @@ Integer value of given option.
 ![][public]
 ![][const]
 
-
 ```cpp
 double ansys::dpf::OperatorConfig::getDoubleValue(std::string const &option) const
 ```
 
-
-
-
 **Returns**:
 
 Double value of given option.
-
-
 
 **Parameters**:
 
@@ -566,19 +367,13 @@ Double value of given option.
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::OperatorConfig::getBoolValue(std::string const &option) const
 ```
 
-
-
-
 **Returns**:
 
 Boolean value of given option.
-
-
 
 **Parameters**:
 
@@ -598,19 +393,13 @@ Boolean value of given option.
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::OperatorConfig::hasOption(std::string const &option) const
 ```
 
-
-
-
 **Returns**:
 
 Boolean value if given optin exists in config.
-
-
 
 **Parameters**:
 

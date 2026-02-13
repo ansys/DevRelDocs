@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 910)
 
-
-
-
-
 ## Members
 
 * [sAveraging](structansys_1_1dpf_1_1spec_1_1category.md#structansys_1_1dpf_1_1spec_1_1category_1af29ab7f1f7322f906f25ef4dc88d87af)
@@ -41,17 +37,9 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 912)
 
-
 ```cpp
 std::string ansys::dpf::spec::category::sCategory
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -69,17 +57,9 @@ std::string ansys::dpf::spec::category::sCategory
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 913)
 
-
 ```cpp
 std::string ansys::dpf::spec::category::sResult
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -97,17 +77,9 @@ std::string ansys::dpf::spec::category::sResult
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 914)
 
-
 ```cpp
 std::string ansys::dpf::spec::category::sMath
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -125,17 +97,9 @@ std::string ansys::dpf::spec::category::sMath
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 915)
 
-
 ```cpp
 std::string ansys::dpf::spec::category::sMesh
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -153,17 +117,9 @@ std::string ansys::dpf::spec::category::sMesh
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 916)
 
-
 ```cpp
 std::string ansys::dpf::spec::category::sScoping
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -181,17 +137,9 @@ std::string ansys::dpf::spec::category::sScoping
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 917)
 
-
 ```cpp
 std::string ansys::dpf::spec::category::sMapping
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -209,17 +157,9 @@ std::string ansys::dpf::spec::category::sMapping
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 918)
 
-
 ```cpp
 std::string ansys::dpf::spec::category::sMinMax
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -237,17 +177,9 @@ std::string ansys::dpf::spec::category::sMinMax
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 919)
 
-
 ```cpp
 std::string ansys::dpf::spec::category::sGeo
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -265,17 +197,9 @@ std::string ansys::dpf::spec::category::sGeo
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 920)
 
-
 ```cpp
 std::string ansys::dpf::spec::category::sFilter
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -293,17 +217,9 @@ std::string ansys::dpf::spec::category::sFilter
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 921)
 
-
 ```cpp
 std::string ansys::dpf::spec::category::sUtility
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -321,17 +237,9 @@ std::string ansys::dpf::spec::category::sUtility
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 922)
 
-
 ```cpp
 std::string ansys::dpf::spec::category::sAveraging
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -349,17 +257,9 @@ std::string ansys::dpf::spec::category::sAveraging
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 923)
 
-
 ```cpp
 std::string ansys::dpf::spec::category::sSerialization
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -377,17 +277,9 @@ std::string ansys::dpf::spec::category::sSerialization
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 924)
 
-
 ```cpp
 std::string ansys::dpf::spec::category::sInvariant
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -405,17 +297,9 @@ std::string ansys::dpf::spec::category::sInvariant
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 925)
 
-
 ```cpp
 std::string ansys::dpf::spec::category::sLogic
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -433,17 +317,9 @@ std::string ansys::dpf::spec::category::sLogic
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 926)
 
-
 ```cpp
 std::string ansys::dpf::spec::category::sMetadata
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -461,17 +337,9 @@ std::string ansys::dpf::spec::category::sMetadata
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 927)
 
-
 ```cpp
 std::string ansys::dpf::spec::category::sServer
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -489,17 +357,9 @@ std::string ansys::dpf::spec::category::sServer
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 928)
 
-
 ```cpp
 std::string ansys::dpf::spec::category::sCompression
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -517,17 +377,9 @@ std::string ansys::dpf::spec::category::sCompression
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 929)
 
-
 ```cpp
 std::string ansys::dpf::spec::category::sInfo
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 

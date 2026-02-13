@@ -57,60 +57,7 @@ Define a generic support.
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1GenericSupport_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1461)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::GenericSupport::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1GenericSupport_1a59fb09372406ca9c371281f42e442554"></a>
-### Function GenericSupport
-
-![][private]
-
-
-```cpp
-ansys::dpf::GenericSupport::GenericSupport(opaque::DpfInternalSharedObject *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfInternalSharedObject *
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::GenericSupport::GenericSupport"}]}`
--->
 
 ## Public functions
 
@@ -119,17 +66,9 @@ ansys::dpf::GenericSupport::GenericSupport(opaque::DpfInternalSharedObject *)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::GenericSupport::~GenericSupport()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -144,17 +83,9 @@ ansys::dpf::GenericSupport::~GenericSupport()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::GenericSupport::GenericSupport(Location const &location)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -173,17 +104,9 @@ ansys::dpf::GenericSupport::GenericSupport(Location const &location)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::GenericSupport::GenericSupport(Location const &location, Client const *const client)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -203,17 +126,9 @@ ansys::dpf::GenericSupport::GenericSupport(Location const &location, Client cons
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::GenericSupport::GenericSupport(GenericSupport const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -232,17 +147,9 @@ ansys::dpf::GenericSupport::GenericSupport(GenericSupport const &)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::GenericSupport::GenericSupport(GenericSupport &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -261,17 +168,9 @@ ansys::dpf::GenericSupport::GenericSupport(GenericSupport &&) noexcept
 
 ![][public]
 
-
 ```cpp
 GenericSupport & ansys::dpf::GenericSupport::operator=(GenericSupport const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -290,17 +189,9 @@ GenericSupport & ansys::dpf::GenericSupport::operator=(GenericSupport const &)
 
 ![][public]
 
-
 ```cpp
 GenericSupport & ansys::dpf::GenericSupport::operator=(GenericSupport &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -320,17 +211,11 @@ GenericSupport & ansys::dpf::GenericSupport::operator=(GenericSupport &&) noexce
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::GenericSupport::setSupportOfProperty(PropertyType const &property_name, Field const &field) const
 ```
 
-
-
-
 insert (if new) or replace a property with its name and [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) value.
-
-
 
 **Parameters**:
 
@@ -351,17 +236,11 @@ insert (if new) or replace a property with its name and [Field](classansys_1_1dp
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::GenericSupport::setSupportOfProperty(PropertyType const &property_name, PropertyField const &field) const
 ```
 
-
-
-
 insert (if new) or replace a property with its name and [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1dpf_1_1PropertyField) value.
-
-
 
 **Parameters**:
 
@@ -382,17 +261,11 @@ insert (if new) or replace a property with its name and [PropertyField](classans
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::GenericSupport::setSupportOfProperty(PropertyType const &property_name, StringField const &field) const
 ```
 
-
-
-
 insert (if new) or replace a property with its name and [StringField](classansys_1_1dpf_1_1StringField.md#classansys_1_1dpf_1_1StringField) value.
-
-
 
 **Parameters**:
 
@@ -415,20 +288,14 @@ insert (if new) or replace a property with its name and [StringField](classansys
 ![][public]
 ![][static]
 
-
 ```cpp
 static GenericSupport ansys::dpf::GenericSupport::emptyGenericSupport()
 ```
-
-
-
 
 Create an empty support. 
 **Returns**:
 
 Empty [Support](classansys_1_1dpf_1_1Support.md#classansys_1_1dpf_1_1Support).
-
-
 
 **Return type**: GenericSupport
 

@@ -6,11 +6,7 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 7044)
 
-
-
 specialized for [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) as it takes a GenericDataContainer in a constructor but isn't deriving from [CustomContainerBase](classansys_1_1dpf_1_1CustomContainerBase.md#classansys_1_1dpf_1_1CustomContainerBase).
-
-
 
 ## Members
 
@@ -25,17 +21,9 @@ specialized for [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) as i
 ![][public]
 ![][static]
 
-
 ```cpp
 static Any ansys::dpf::ConstructHelpers::construct_trait< Any, std::true_type >::getFromAny(Any const &any)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -55,17 +43,9 @@ static Any ansys::dpf::ConstructHelpers::construct_trait< Any, std::true_type >:
 ![][public]
 ![][static]
 
-
 ```cpp
 static void ansys::dpf::ConstructHelpers::construct_trait< Any, std::true_type >::createAny(Any &any, Any const &obj, Client const *const)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 

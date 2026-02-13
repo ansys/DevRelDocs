@@ -6,12 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6935)
 
-
-
-
-
-
-
 ## Members
 
 * [type\_name](structansys_1_1dpf_1_1reflect_3_01MeshesContainer_01_4.md#structansys_1_1dpf_1_1reflect_3_01MeshesContainer_01_4_1ab7af28d46f601e67c1fec56efb395fa6)
@@ -24,17 +18,9 @@
 ![][public]
 ![][static]
 
-
 ```cpp
 static std::string ansys::dpf::reflect< MeshesContainer >::type_name()
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::string
 

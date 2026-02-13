@@ -6,12 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6923)
 
-
-
-
-
-
-
 ## Members
 
 * [type\_name](structansys_1_1dpf_1_1reflect_3_01Streams_01_4.md#structansys_1_1dpf_1_1reflect_3_01Streams_01_4_1a1474d1aa770528c4c202b9071ff305a8)
@@ -24,17 +18,9 @@
 ![][public]
 ![][static]
 
-
 ```cpp
 static std::string ansys::dpf::reflect< Streams >::type_name()
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::string
 

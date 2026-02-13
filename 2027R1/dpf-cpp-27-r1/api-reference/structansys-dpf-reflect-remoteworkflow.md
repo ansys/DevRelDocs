@@ -6,12 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6967)
 
-
-
-
-
-
-
 ## Members
 
 * [type\_name](structansys_1_1dpf_1_1reflect_3_01RemoteWorkflow_01_4.md#structansys_1_1dpf_1_1reflect_3_01RemoteWorkflow_01_4_1a4ebb2100c6ade8127e0b06a5e7c828e0)
@@ -24,17 +18,9 @@
 ![][public]
 ![][static]
 
-
 ```cpp
 static std::string ansys::dpf::reflect< RemoteWorkflow >::type_name()
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::string
 

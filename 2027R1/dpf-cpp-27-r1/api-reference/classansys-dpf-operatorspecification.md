@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6121)
 
-
-
 Definition of a new operator. 
 
 **See also**: group_4_how_tos
@@ -53,139 +51,6 @@ Definition of a new operator.
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1OperatorSpecification_1a33ff3f826991522d2e77c1c523f33e19"></a>
-### Friend Operator
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6123)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Operator"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::Operator"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Operator"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1OperatorSpecification_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6124)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1OperatorSpecification_1af3b971156c82470379e0fc202fb6abb3"></a>
-### Friend internal::core
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6125)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"struct"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend struct internal::core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"internal::core"}]},{"type":"text","text":"\n        "}]}`
--->
-
-## Private functions
-
-<a id="classansys_1_1dpf_1_1OperatorSpecification_1ae2e9f23ea7232fea0cf6ae0838a03fe3"></a>
-### Function OperatorSpecification
-
-![][private]
-
-
-```cpp
-ansys::dpf::OperatorSpecification::OperatorSpecification(opaque::DpfInternalSharedObject *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfInternalSharedObject *
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::OperatorSpecification"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1OperatorSpecification_1a6a8563e7b2d555969e387fcb6d0423ea"></a>
-### Function getPins
-
-![][private]
-![][const]
-
-
-```cpp
-std::vector< PinDefinition > ansys::dpf::OperatorSpecification::getPins(bool binput) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* bool **binput**
-
-**Return type**: std::vector< [PinDefinition](structansys_1_1dpf_1_1PinDefinition.md#structansys_1_1dpf_1_1PinDefinition) >
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorSpecification::getPins"}]}`
--->
-
 ## Public functions
 
 <a id="classansys_1_1dpf_1_1OperatorSpecification_1a5ff57b38ca2dff01bf4f62dda841249e"></a>
@@ -193,17 +58,9 @@ std::vector< PinDefinition > ansys::dpf::OperatorSpecification::getPins(bool bin
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::OperatorSpecification::OperatorSpecification()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -218,17 +75,9 @@ ansys::dpf::OperatorSpecification::OperatorSpecification()
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::OperatorSpecification::~OperatorSpecification()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -243,17 +92,9 @@ virtual ansys::dpf::OperatorSpecification::~OperatorSpecification()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::OperatorSpecification::OperatorSpecification(OperatorSpecification const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -272,17 +113,9 @@ ansys::dpf::OperatorSpecification::OperatorSpecification(OperatorSpecification c
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::OperatorSpecification::OperatorSpecification(OperatorSpecification &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -301,17 +134,9 @@ ansys::dpf::OperatorSpecification::OperatorSpecification(OperatorSpecification &
 
 ![][public]
 
-
 ```cpp
 OperatorSpecification & ansys::dpf::OperatorSpecification::operator=(OperatorSpecification const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -330,17 +155,9 @@ OperatorSpecification & ansys::dpf::OperatorSpecification::operator=(OperatorSpe
 
 ![][public]
 
-
 ```cpp
 OperatorSpecification & ansys::dpf::OperatorSpecification::operator=(OperatorSpecification &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -360,20 +177,14 @@ OperatorSpecification & ansys::dpf::OperatorSpecification::operator=(OperatorSpe
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< PinDefinition > ansys::dpf::OperatorSpecification::inputPins() const
 ```
-
-
-
 
 Gets the currently defined input pins of the operator. 
 **Returns**:
 
 Vector of input pin definitions.
-
-
 
 **Return type**: std::vector< [PinDefinition](structansys_1_1dpf_1_1PinDefinition.md#structansys_1_1dpf_1_1PinDefinition) >
 
@@ -389,20 +200,14 @@ Vector of input pin definitions.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< PinDefinition > ansys::dpf::OperatorSpecification::outputPins() const
 ```
-
-
-
 
 Gets the currently defined output pins of the operator. 
 **Returns**:
 
 Vector of output pin definitions.
-
-
 
 **Return type**: std::vector< [PinDefinition](structansys_1_1dpf_1_1PinDefinition.md#structansys_1_1dpf_1_1PinDefinition) >
 
@@ -417,17 +222,11 @@ Vector of output pin definitions.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorSpecification::setInputPins(std::vector< PinDefinition > const &pins)
 ```
 
-
-
-
 Sets the input pin definitions of the operator.
-
-
 
 **Parameters**:
 
@@ -446,17 +245,11 @@ Sets the input pin definitions of the operator.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorSpecification::setOutputPins(std::vector< PinDefinition > const &pins)
 ```
 
-
-
-
 Sets the output pin definitions of the operator.
-
-
 
 **Parameters**:
 
@@ -476,19 +269,13 @@ Sets the output pin definitions of the operator.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::OperatorSpecification::getDocumentation() const
 ```
 
-
-
-
 **Returns**:
 
 Description of operator.
-
-
 
 **Return type**: std::string
 
@@ -503,17 +290,11 @@ Description of operator.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorSpecification::setDocumentation(std::string const &text)
 ```
 
-
-
-
 Sets the description of operator.
-
-
 
 **Parameters**:
 
@@ -533,19 +314,13 @@ Sets the description of operator.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::OperatorSpecification::getProperty(std::string const &key) const
 ```
 
-
-
-
 **Returns**:
 
 [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) property given by key.
-
-
 
 **Parameters**:
 
@@ -564,17 +339,11 @@ std::string ansys::dpf::OperatorSpecification::getProperty(std::string const &ke
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorSpecification::setProperty(std::string const &key, std::string const &value)
 ```
 
-
-
-
 Set property for given key.
-
-
 
 **Parameters**:
 
@@ -595,20 +364,14 @@ Set property for given key.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< ConfigOptionSpecification > ansys::dpf::OperatorSpecification::configOptions() const
 ```
-
-
-
 
 Gets the currently defined configuration options specifications. 
 **Returns**:
 
 Vector of operator configuration option specifications.
-
-
 
 **Return type**: std::vector< [ConfigOptionSpecification](structansys_1_1dpf_1_1ConfigOptionSpecification.md#structansys_1_1dpf_1_1ConfigOptionSpecification) >
 
@@ -623,17 +386,11 @@ Vector of operator configuration option specifications.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorSpecification::addSupportedConfigOption(std::string const &option_name, bool default_value, std::string const &documentation="")
 ```
 
-
-
-
 Add a supported config option to the operator. @See [OperatorConfig](classansys_1_1dpf_1_1OperatorConfig.md#classansys_1_1dpf_1_1OperatorConfig)
-
-
 
 **Parameters**:
 
@@ -654,17 +411,11 @@ Add a supported config option to the operator. @See [OperatorConfig](classansys_
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorSpecification::addSupportedConfigOption(std::string const &option_name, int default_value, std::string const &documentation="")
 ```
 
-
-
-
 Add a supported config option to the operator. @See [OperatorConfig](classansys_1_1dpf_1_1OperatorConfig.md#classansys_1_1dpf_1_1OperatorConfig)
-
-
 
 **Parameters**:
 
@@ -685,17 +436,11 @@ Add a supported config option to the operator. @See [OperatorConfig](classansys_
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorSpecification::addSupportedConfigOption(std::string const &option_name, double default_value, std::string const &documentation="")
 ```
 
-
-
-
 Add a supported config option to the operator. @See [OperatorConfig](classansys_1_1dpf_1_1OperatorConfig.md#classansys_1_1dpf_1_1OperatorConfig)
-
-
 
 **Parameters**:
 
@@ -716,17 +461,9 @@ Add a supported config option to the operator. @See [OperatorConfig](classansys_
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorSpecification::setVersion(const SemanticVersion &semver)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -746,17 +483,9 @@ void ansys::dpf::OperatorSpecification::setVersion(const SemanticVersion &semver
 ![][public]
 ![][const]
 
-
 ```cpp
 SemanticVersion ansys::dpf::OperatorSpecification::getVersion() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: [SemanticVersion](classansys_1_1dpf_1_1SemanticVersion.md#classansys_1_1dpf_1_1SemanticVersion)
 
@@ -771,17 +500,9 @@ SemanticVersion ansys::dpf::OperatorSpecification::getVersion() const
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorSpecification::setChangelog(const Changelog &changelog)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 

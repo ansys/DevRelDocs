@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5642)
 
-
-
-
-
 ## Members
 
 * [\_data](classansys_1_1dpf_1_1WorkflowStep.md#classansys_1_1dpf_1_1WorkflowStep_1ac0a7bd013a5230b049573cfaa8d2c1e3)
@@ -21,33 +17,6 @@
 
 ## Private attributes
 
-<a id="classansys_1_1dpf_1_1WorkflowStep_1ac0a7bd013a5230b049573cfaa8d2c1e3"></a>
-### Variable \_data
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5653)
-
-
-```cpp
-DataTree ansys::dpf::WorkflowStep::_data
-```
-
-
-
-
-
-
-
-
-**Type**: [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::WorkflowStep::_data"}]}`
--->
-
 ## Public functions
 
 <a id="classansys_1_1dpf_1_1WorkflowStep_1acfde4ebb904fc8b665294dd3cc1c95e4"></a>
@@ -55,17 +24,9 @@ DataTree ansys::dpf::WorkflowStep::_data
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::WorkflowStep::WorkflowStep()=default
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -80,17 +41,9 @@ ansys::dpf::WorkflowStep::WorkflowStep()=default
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::WorkflowStep::WorkflowStep(const std::vector< int > &ids)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -110,17 +63,9 @@ ansys::dpf::WorkflowStep::WorkflowStep(const std::vector< int > &ids)
 ![][public]
 ![][const]
 
-
 ```cpp
 std::size_t ansys::dpf::WorkflowStep::size() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::size_t
 
@@ -136,17 +81,9 @@ std::size_t ansys::dpf::WorkflowStep::size() const
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< int > ansys::dpf::WorkflowStep::getOperatorIds() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::vector< int >
 
@@ -162,17 +99,9 @@ std::vector< int > ansys::dpf::WorkflowStep::getOperatorIds() const
 ![][public]
 ![][const]
 
-
 ```cpp
 const DataTree & ansys::dpf::WorkflowStep::get() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: const [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree) &
 

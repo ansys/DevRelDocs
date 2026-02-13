@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5656)
 
-
-
-
-
 ## Members
 
 * [\_api](classansys_1_1dpf_1_1OperatorMain.md#classansys_1_1dpf_1_1OperatorMain_1acb8726b7e640c4bd1ec7c04537879852)
@@ -108,233 +104,7 @@
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1OperatorMain_1adf19ceee88ba644aceacffbd1495909b"></a>
-### Friend ConstructHelpers::construct\_trait
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5659)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename DataT"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename IsGDC"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"struct"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend struct ConstructHelpers::construct_trait"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorMain::construct_trait"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait"},"children":[{"type":"text","text":"ConstructHelpers::construct_trait"}]}]},{"type":"text","text":"\n        "}]}`
--->
-
-## Private attributes
-
-<a id="classansys_1_1dpf_1_1OperatorMain_1a0e7644ca811a4f2c1e76d9bc5cf0cc7b"></a>
-### Variable \_operator\_data
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5662)
-
-
-```cpp
-opaque::DpfOperatorData* ansys::dpf::OperatorMain::_operator_data
-```
-
-
-
-
-
-
-
-
-**Type**: opaque::DpfOperatorData *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorMain::_operator_data"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1OperatorMain_1acb8726b7e640c4bd1ec7c04537879852"></a>
-### Variable \_api
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5663)
-
-
-```cpp
-so::API const* ansys::dpf::OperatorMain::_api
-```
-
-
-
-
-
-
-
-
-**Type**: so::API const  *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorMain::_api"}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1OperatorMain_1abe5ead4b53e3ad711a83f213a9c08639"></a>
-### Function getExternalInput
-
-![][private]
-
-
-```cpp
-ExternalData * ansys::dpf::OperatorMain::getExternalInput(dp_index)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [dp\_index](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920)
-
-**Return type**: [ExternalData](classansys_1_1dpf_1_1ExternalData.md#classansys_1_1dpf_1_1ExternalData) *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorMain::getExternalInput"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1OperatorMain_1a9079e083b95ac830b07dec4430fea7e1"></a>
-### Function setExternalOutput
-
-![][private]
-
-
-```cpp
-void ansys::dpf::OperatorMain::setExternalOutput(dp_int, ExternalData *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
-* [ExternalData](classansys_1_1dpf_1_1ExternalData.md#classansys_1_1dpf_1_1ExternalData) *
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorMain::setExternalOutput"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1OperatorMain_1a62abf633861afbb9d51f808475b4f4ad"></a>
-### Function pinIsOfType
-
-![][private]
-
-
-```cpp
-bool ansys::dpf::OperatorMain::pinIsOfType(dp_int pin_index, std::string const &type_name)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0) **pin_index**
-* std::string const & **type_name**
-
-**Return type**: bool
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorMain::pinIsOfType"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1OperatorMain_1ae81c8de98b06a16bd4f854fdff74f018"></a>
-### Function callAPI
-
-![][private]
-![][const]
-
-
-```cpp
-so::API const  * ansys::dpf::OperatorMain::callAPI() const
-```
-
-
-
-
-
-
-
-
-**Return type**: so::API const *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorMain::callAPI"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1OperatorMain_1a73bd258c47179a6e11f56e197d5da68a"></a>
-### Function internalGetInput
-
-![][private]
-
-
-```cpp
-DataT ansys::dpf::OperatorMain::internalGetInput(dp_index pin_index)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [dp\_index](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920) **pin_index**
-
-**Return type**: DataT
-
-<!--
-**TODO**:
-
-* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename DataT"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorMain::internalGetInput"}]}`
--->
 
 ## Public functions
 
@@ -343,17 +113,9 @@ DataT ansys::dpf::OperatorMain::internalGetInput(dp_index pin_index)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::OperatorMain::OperatorMain(opaque::DpfOperatorData *)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -372,17 +134,9 @@ ansys::dpf::OperatorMain::OperatorMain(opaque::DpfOperatorData *)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::OperatorMain::~OperatorMain()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -397,17 +151,9 @@ ansys::dpf::OperatorMain::~OperatorMain()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::OperatorMain::OperatorMain(OperatorMain const &)=delete
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -426,17 +172,9 @@ ansys::dpf::OperatorMain::OperatorMain(OperatorMain const &)=delete
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::OperatorMain::OperatorMain(OperatorMain &&)=delete
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -455,17 +193,9 @@ ansys::dpf::OperatorMain::OperatorMain(OperatorMain &&)=delete
 
 ![][public]
 
-
 ```cpp
 OperatorMain & ansys::dpf::OperatorMain::operator=(OperatorMain const &)=delete
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -484,17 +214,9 @@ OperatorMain & ansys::dpf::OperatorMain::operator=(OperatorMain const &)=delete
 
 ![][public]
 
-
 ```cpp
 OperatorMain & ansys::dpf::OperatorMain::operator=(OperatorMain &&)=delete
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -514,17 +236,13 @@ OperatorMain & ansys::dpf::OperatorMain::operator=(OperatorMain &&)=delete
 ![][public]
 ![][const]
 
-
 ```cpp
 Operator ansys::dpf::OperatorMain::instantiateInternalOperator(const std::string &) const
 ```
 
-
 Only method that should be used to instantiate operators inside another [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) run method.
 
 Propagates operator attributes: [ansys::dpf::OperatorConfig](classansys_1_1dpf_1_1OperatorConfig.md#classansys_1_1dpf_1_1OperatorConfig) and licensing settings to the instantiated [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator).
-
-
 
 **Parameters**:
 
@@ -544,11 +262,9 @@ Propagates operator attributes: [ansys::dpf::OperatorConfig](classansys_1_1dpf_1
 ![][public]
 ![][const]
 
-
 ```cpp
 Operator ansys::dpf::OperatorMain::assertInstantiateInternalOperator(const std::string &) const
 ```
-
 
 Only method that should be used to instantiate operators inside another [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) run method.
 
@@ -556,8 +272,6 @@ Propagates operator attributes: [ansys::dpf::OperatorConfig](classansys_1_1dpf_1
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**: when the operator doesn't exist.
-
-
 
 **Parameters**:
 
@@ -576,17 +290,11 @@ Propagates operator attributes: [ansys::dpf::OperatorConfig](classansys_1_1dpf_1
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setSuccessed()
 ```
 
-
-
-
 Set state of operator to success.
-
-
 
 **Return type**: void
 
@@ -601,17 +309,11 @@ Set state of operator to success.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setFailed()
 ```
 
-
-
-
 Set state of operator to fail.
-
-
 
 **Return type**: void
 
@@ -626,19 +328,13 @@ Set state of operator to fail.
 
 ![][public]
 
-
 ```cpp
 dp_int ansys::dpf::OperatorMain::getNumInputs()
 ```
 
-
-
-
 **Returns**:
 
 Number of operator input pins.
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -653,19 +349,13 @@ Number of operator input pins.
 
 ![][public]
 
-
 ```cpp
 DataT ansys::dpf::OperatorMain::getInput(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 Input of type DataT given by pin index.
-
-
 
 **Parameters**:
 
@@ -685,19 +375,13 @@ Input of type DataT given by pin index.
 
 ![][public]
 
-
 ```cpp
 Field ansys::dpf::OperatorMain::getInputField(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 Input field given by pin index.
-
-
 
 **Parameters**:
 
@@ -716,17 +400,11 @@ Input field given by pin index.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, Field &f)
 ```
 
-
-
-
 Set field for output pin.
-
-
 
 **Parameters**:
 
@@ -746,19 +424,13 @@ Set field for output pin.
 
 ![][public]
 
-
 ```cpp
 DataSources ansys::dpf::OperatorMain::getInputDataSources(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 Data sources for input pin.
-
-
 
 **Parameters**:
 
@@ -777,17 +449,11 @@ Data sources for input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, DataSources const &f)
 ```
 
-
-
-
 Set data sources for given output pin.
-
-
 
 **Parameters**:
 
@@ -807,19 +473,13 @@ Set data sources for given output pin.
 
 ![][public]
 
-
 ```cpp
 FieldsContainer ansys::dpf::OperatorMain::getInputFieldsContainer(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 Fields container for given input pin.
-
-
 
 **Parameters**:
 
@@ -838,17 +498,11 @@ Fields container for given input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, FieldsContainer const &f)
 ```
 
-
-
-
 Set fields container for given output pin.
-
-
 
 **Parameters**:
 
@@ -868,19 +522,13 @@ Set fields container for given output pin.
 
 ![][public]
 
-
 ```cpp
 Scoping ansys::dpf::OperatorMain::getInputScoping(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) for given input pin.
-
-
 
 **Parameters**:
 
@@ -899,17 +547,11 @@ Scoping ansys::dpf::OperatorMain::getInputScoping(dp_index pin_index)
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, Scoping const &f)
 ```
 
-
-
-
 Set scoping for given output pin.
-
-
 
 **Parameters**:
 
@@ -929,19 +571,13 @@ Set scoping for given output pin.
 
 ![][public]
 
-
 ```cpp
 ScopingsContainer ansys::dpf::OperatorMain::getInputScopingsContainer(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 Scopings container for given input pin.
-
-
 
 **Parameters**:
 
@@ -960,17 +596,11 @@ Scopings container for given input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, ScopingsContainer const &f)
 ```
 
-
-
-
 Set scopings container for given input pin.
-
-
 
 **Parameters**:
 
@@ -990,19 +620,13 @@ Set scopings container for given input pin.
 
 ![][public]
 
-
 ```cpp
 MeshedRegion ansys::dpf::OperatorMain::getInputMeshedRegion(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 Meshed region for given input pin.
-
-
 
 **Parameters**:
 
@@ -1021,17 +645,11 @@ Meshed region for given input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, MeshedRegion const &f)
 ```
 
-
-
-
 Set meshed region for given output pin.
-
-
 
 **Parameters**:
 
@@ -1051,19 +669,13 @@ Set meshed region for given output pin.
 
 ![][public]
 
-
 ```cpp
 TimeFreqSupport ansys::dpf::OperatorMain::getInputTimeFreqSupport(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 Time frequency support for given input pin.
-
-
 
 **Parameters**:
 
@@ -1082,17 +694,11 @@ Time frequency support for given input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, TimeFreqSupport const &f)
 ```
 
-
-
-
 Set time freqency support for given output pin.
-
-
 
 **Parameters**:
 
@@ -1112,19 +718,13 @@ Set time freqency support for given output pin.
 
 ![][public]
 
-
 ```cpp
 MeshesContainer ansys::dpf::OperatorMain::getInputMeshesContainer(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 Meshes container for given input pin.
-
-
 
 **Parameters**:
 
@@ -1143,17 +743,11 @@ Meshes container for given input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, MeshesContainer const &f)
 ```
 
-
-
-
 Set meshes container for given output pin.
-
-
 
 **Parameters**:
 
@@ -1173,19 +767,13 @@ Set meshes container for given output pin.
 
 ![][public]
 
-
 ```cpp
 Support ansys::dpf::OperatorMain::getInputSupport(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 [Support](classansys_1_1dpf_1_1Support.md#classansys_1_1dpf_1_1Support) for given input pin.
-
-
 
 **Parameters**:
 
@@ -1204,17 +792,11 @@ Support ansys::dpf::OperatorMain::getInputSupport(dp_index pin_index)
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, Support const &f)
 ```
 
-
-
-
 Set support for given output pin.
-
-
 
 **Parameters**:
 
@@ -1234,19 +816,13 @@ Set support for given output pin.
 
 ![][public]
 
-
 ```cpp
 StringField ansys::dpf::OperatorMain::getInputStringField(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 [StringField](classansys_1_1dpf_1_1StringField.md#classansys_1_1dpf_1_1StringField) for given input pin.
-
-
 
 **Parameters**:
 
@@ -1265,17 +841,11 @@ StringField ansys::dpf::OperatorMain::getInputStringField(dp_index pin_index)
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, StringField const &f)
 ```
 
-
-
-
 Set [StringField](classansys_1_1dpf_1_1StringField.md#classansys_1_1dpf_1_1StringField) object for given output pin with its real type.
-
-
 
 **Parameters**:
 
@@ -1295,19 +865,13 @@ Set [StringField](classansys_1_1dpf_1_1StringField.md#classansys_1_1dpf_1_1Strin
 
 ![][public]
 
-
 ```cpp
 CustomTypeField ansys::dpf::OperatorMain::getInputCustomTypeField(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField) for given input pin.
-
-
 
 **Parameters**:
 
@@ -1326,17 +890,11 @@ CustomTypeField ansys::dpf::OperatorMain::getInputCustomTypeField(dp_index pin_i
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, CustomTypeField const &f)
 ```
 
-
-
-
 Set [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField) object for given output pin with its real type.
-
-
 
 **Parameters**:
 
@@ -1356,19 +914,13 @@ Set [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_
 
 ![][public]
 
-
 ```cpp
 CustomTypeFieldsContainer ansys::dpf::OperatorMain::getInputCustomTypeFieldsContainer(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 [CustomTypeFieldsContainer](classansys_1_1dpf_1_1CustomTypeFieldsContainer.md#classansys_1_1dpf_1_1CustomTypeFieldsContainer) for given input pin.
-
-
 
 **Parameters**:
 
@@ -1387,17 +939,11 @@ CustomTypeFieldsContainer ansys::dpf::OperatorMain::getInputCustomTypeFieldsCont
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, CustomTypeFieldsContainer const &f)
 ```
 
-
-
-
 Set [CustomTypeFieldsContainer](classansys_1_1dpf_1_1CustomTypeFieldsContainer.md#classansys_1_1dpf_1_1CustomTypeFieldsContainer) object for given output pin with its real type.
-
-
 
 **Parameters**:
 
@@ -1417,19 +963,13 @@ Set [CustomTypeFieldsContainer](classansys_1_1dpf_1_1CustomTypeFieldsContainer.m
 
 ![][public]
 
-
 ```cpp
 Any ansys::dpf::OperatorMain::getInputAsAny(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) for given input pin.
-
-
 
 **Parameters**:
 
@@ -1448,17 +988,11 @@ Any ansys::dpf::OperatorMain::getInputAsAny(dp_index pin_index)
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, Any const &f)
 ```
 
-
-
-
 Set [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object for given output pin with its real type.
-
-
 
 **Parameters**:
 
@@ -1478,19 +1012,13 @@ Set [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object for given
 
 ![][public]
 
-
 ```cpp
 Streams ansys::dpf::OperatorMain::getInputStreams(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 [Streams](classansys_1_1dpf_1_1Streams.md#classansys_1_1dpf_1_1Streams) for given input pin.
-
-
 
 **Parameters**:
 
@@ -1509,19 +1037,13 @@ Streams ansys::dpf::OperatorMain::getInputStreams(dp_index pin_index)
 
 ![][public]
 
-
 ```cpp
 Workflow ansys::dpf::OperatorMain::getInputWorkflow(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 Workflow for given input pin.
-
-
 
 **Parameters**:
 
@@ -1540,19 +1062,13 @@ Workflow for given input pin.
 
 ![][public]
 
-
 ```cpp
 Operator ansys::dpf::OperatorMain::getInputOperator(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) for given input pin.
-
-
 
 **Parameters**:
 
@@ -1571,19 +1087,13 @@ Operator ansys::dpf::OperatorMain::getInputOperator(dp_index pin_index)
 
 ![][public]
 
-
 ```cpp
 RemoteWorkflow ansys::dpf::OperatorMain::getInputRemoteWorkflow(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 RemoteWorkflow for given input pin.
-
-
 
 **Parameters**:
 
@@ -1602,19 +1112,13 @@ RemoteWorkflow for given input pin.
 
 ![][public]
 
-
 ```cpp
 RemoteOperator ansys::dpf::OperatorMain::getInputRemoteOperator(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 RemoteOperator for given input pin.
-
-
 
 **Parameters**:
 
@@ -1633,17 +1137,11 @@ RemoteOperator for given input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, Streams const &f)
 ```
 
-
-
-
 Set streams for given output pin.
-
-
 
 **Parameters**:
 
@@ -1663,19 +1161,13 @@ Set streams for given output pin.
 
 ![][public]
 
-
 ```cpp
 LabelSpace ansys::dpf::OperatorMain::getInputLabelSpace(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 [Streams](classansys_1_1dpf_1_1Streams.md#classansys_1_1dpf_1_1Streams) for given input pin.
-
-
 
 **Parameters**:
 
@@ -1694,19 +1186,13 @@ LabelSpace ansys::dpf::OperatorMain::getInputLabelSpace(dp_index pin_index)
 
 ![][public]
 
-
 ```cpp
 PropertyField ansys::dpf::OperatorMain::getInputPropertyField(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 Property field for given input pin.
-
-
 
 **Parameters**:
 
@@ -1725,19 +1211,13 @@ Property field for given input pin.
 
 ![][public]
 
-
 ```cpp
 GenericDataContainer ansys::dpf::OperatorMain::getInputGenericDataContainer(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 GenericDataContainer for given input pin.
-
-
 
 **Parameters**:
 
@@ -1756,19 +1236,13 @@ GenericDataContainer for given input pin.
 
 ![][public]
 
-
 ```cpp
 CustomContainerT ansys::dpf::OperatorMain::getInputCustomContainer(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 GenericDataContainer for given input pin.
-
-
 
 **Parameters**:
 
@@ -1788,17 +1262,11 @@ GenericDataContainer for given input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, GenericDataContainer const &f)
 ```
 
-
-
-
 Set GenericDataContainer for given output pin.
-
-
 
 **Parameters**:
 
@@ -1818,19 +1286,13 @@ Set GenericDataContainer for given output pin.
 
 ![][public]
 
-
 ```cpp
 Collection< DataT > ansys::dpf::OperatorMain::getInputCollection(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 [Collection](classansys_1_1dpf_1_1Collection.md#classansys_1_1dpf_1_1Collection) for given input pin.
-
-
 
 **Parameters**:
 
@@ -1850,17 +1312,11 @@ Collection< DataT > ansys::dpf::OperatorMain::getInputCollection(dp_index pin_in
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, Collection< DataT > const &f)
 ```
 
-
-
-
 Set GenericDataContainer for given output pin.
-
-
 
 **Parameters**:
 
@@ -1881,17 +1337,11 @@ Set GenericDataContainer for given output pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, PropertyField const &f)
 ```
 
-
-
-
 Set property field for given output pin.
-
-
 
 **Parameters**:
 
@@ -1911,17 +1361,11 @@ Set property field for given output pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, Workflow const &f)
 ```
 
-
-
-
 Set property field for given output pin.
-
-
 
 **Parameters**:
 
@@ -1941,17 +1385,11 @@ Set property field for given output pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, MeshInfo const &f)
 ```
 
-
-
-
 Set [MeshInfo](classansys_1_1dpf_1_1MeshInfo.md#classansys_1_1dpf_1_1MeshInfo) for given output pin.
-
-
 
 **Parameters**:
 
@@ -1971,17 +1409,11 @@ Set [MeshInfo](classansys_1_1dpf_1_1MeshInfo.md#classansys_1_1dpf_1_1MeshInfo) f
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, ResultInfo const &f)
 ```
 
-
-
-
 Set [ResultInfo](classansys_1_1dpf_1_1ResultInfo.md#classansys_1_1dpf_1_1ResultInfo) for given output pin.
-
-
 
 **Parameters**:
 
@@ -2001,19 +1433,13 @@ Set [ResultInfo](classansys_1_1dpf_1_1ResultInfo.md#classansys_1_1dpf_1_1ResultI
 
 ![][public]
 
-
 ```cpp
 DataTree ansys::dpf::OperatorMain::getInputDataTree(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree) for given input pin.
-
-
 
 **Parameters**:
 
@@ -2032,17 +1458,11 @@ DataTree ansys::dpf::OperatorMain::getInputDataTree(dp_index pin_index)
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, DataTree const &f)
 ```
 
-
-
-
 Set [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree) for given output pin.
-
-
 
 **Parameters**:
 
@@ -2062,19 +1482,13 @@ Set [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree) f
 
 ![][public]
 
-
 ```cpp
 std::string ansys::dpf::OperatorMain::getInputString(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 String value for given input pin.
-
-
 
 **Parameters**:
 
@@ -2093,17 +1507,11 @@ String value for given input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, std::string const &f)
 ```
 
-
-
-
 Set string value for given output pin.
-
-
 
 **Parameters**:
 
@@ -2123,19 +1531,13 @@ Set string value for given output pin.
 
 ![][public]
 
-
 ```cpp
 dp_int ansys::dpf::OperatorMain::getInputInteger(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 Integer value for given input pin.
-
-
 
 **Parameters**:
 
@@ -2154,17 +1556,11 @@ Integer value for given input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, dp_int f)
 ```
 
-
-
-
 Set integer value for given output pin.
-
-
 
 **Parameters**:
 
@@ -2184,19 +1580,13 @@ Set integer value for given output pin.
 
 ![][public]
 
-
 ```cpp
 dp_double ansys::dpf::OperatorMain::getInputDouble(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 Double value for given input pin.
-
-
 
 **Parameters**:
 
@@ -2215,17 +1605,11 @@ Double value for given input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, dp_double f)
 ```
 
-
-
-
 Set double value for given output pin.
-
-
 
 **Parameters**:
 
@@ -2245,19 +1629,13 @@ Set double value for given output pin.
 
 ![][public]
 
-
 ```cpp
 long long int ansys::dpf::OperatorMain::getInputLongLong(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 Long long int value for given input pin.
-
-
 
 **Parameters**:
 
@@ -2276,17 +1654,11 @@ Long long int value for given input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, long long int f)
 ```
 
-
-
-
 Set long long int value for given output pin.
-
-
 
 **Parameters**:
 
@@ -2306,19 +1678,13 @@ Set long long int value for given output pin.
 
 ![][public]
 
-
 ```cpp
 std::vector< int > ansys::dpf::OperatorMain::getInputVecInt(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 Vector of integers for given input pin.
-
-
 
 **Parameters**:
 
@@ -2337,19 +1703,13 @@ Vector of integers for given input pin.
 
 ![][public]
 
-
 ```cpp
 std::vector< double > ansys::dpf::OperatorMain::getInputVecDouble(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 Vector of doubles for given input pin.
-
-
 
 **Parameters**:
 
@@ -2368,19 +1728,13 @@ Vector of doubles for given input pin.
 
 ![][public]
 
-
 ```cpp
 std::vector< std::string > ansys::dpf::OperatorMain::getInputVecString(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 Vector of strings for given input pin.
-
-
 
 **Parameters**:
 
@@ -2399,17 +1753,11 @@ Vector of strings for given input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, std::vector< int > const &out)
 ```
 
-
-
-
 Set vector of integers for given output pin.
-
-
 
 **Parameters**:
 
@@ -2429,17 +1777,11 @@ Set vector of integers for given output pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, std::vector< double > const &out)
 ```
 
-
-
-
 Set vector of doubles for given output pin.
-
-
 
 **Parameters**:
 
@@ -2459,17 +1801,11 @@ Set vector of doubles for given output pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, std::vector< std::string > const &out)
 ```
 
-
-
-
 Set vector of string for given output pin.
-
-
 
 **Parameters**:
 
@@ -2489,19 +1825,13 @@ Set vector of string for given output pin.
 
 ![][public]
 
-
 ```cpp
 bool ansys::dpf::OperatorMain::getInputBool(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 Boolean value for given input pin.
-
-
 
 **Parameters**:
 
@@ -2520,17 +1850,11 @@ Boolean value for given input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, bool f)
 ```
 
-
-
-
 Set boolean value for given output pin.
-
-
 
 **Parameters**:
 
@@ -2550,17 +1874,11 @@ Set boolean value for given output pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, RemoteWorkflow const &f)
 ```
 
-
-
-
 Set RemoteWorkflow value for given output pin.
-
-
 
 **Parameters**:
 
@@ -2580,17 +1898,11 @@ Set RemoteWorkflow value for given output pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, RemoteOperator const &f)
 ```
 
-
-
-
 Set RemoteOperator value for given output pin.
-
-
 
 **Parameters**:
 
@@ -2610,17 +1922,11 @@ Set RemoteOperator value for given output pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, Operator const &f)
 ```
 
-
-
-
 Set [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) value for given output pin.
-
-
 
 **Parameters**:
 
@@ -2640,17 +1946,11 @@ Set [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) v
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, CustomContainerBase const &f)
 ```
 
-
-
-
 Set [CustomContainerBase](classansys_1_1dpf_1_1CustomContainerBase.md#classansys_1_1dpf_1_1CustomContainerBase) value for given output pin.
-
-
 
 **Parameters**:
 
@@ -2670,17 +1970,11 @@ Set [CustomContainerBase](classansys_1_1dpf_1_1CustomContainerBase.md#classansys
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::delegateRun(Operator op, bool forwardInputs=true)
 ```
 
-
-
-
 run the input op and take its state and outputs as his
-
-
 
 **Parameters**:
 
@@ -2700,19 +1994,13 @@ run the input op and take its state and outputs as his
 
 ![][public]
 
-
 ```cpp
 DataT ansys::dpf::OperatorMain::getInputCustom(dp_index pin_index)
 ```
 
-
-
-
 **Returns**:
 
 Typed data for given input pin.
-
-
 
 **Parameters**:
 
@@ -2732,17 +2020,11 @@ Typed data for given input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::setOutputCustom(dp_index pin_index, DataT const &d)
 ```
 
-
 @ details Set typed data for given output pin.
-
-
-
-
 
 **Parameters**:
 
@@ -2763,19 +2045,13 @@ void ansys::dpf::OperatorMain::setOutputCustom(dp_index pin_index, DataT const &
 
 ![][public]
 
-
 ```cpp
 bool ansys::dpf::OperatorMain::testInput(dp_int pin_index)
 ```
 
-
-
-
 **Returns**:
 
 Indication that input pin contains typed data.
-
-
 
 **Parameters**:
 
@@ -2795,19 +2071,13 @@ Indication that input pin contains typed data.
 
 ![][public]
 
-
 ```cpp
 bool ansys::dpf::OperatorMain::hasInput(dp_int pin_index)
 ```
 
-
-
-
 **Returns**:
 
 Indication that input pin exists.
-
-
 
 **Parameters**:
 
@@ -2826,17 +2096,11 @@ Indication that input pin exists.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorMain::connectAllInputs(ansys::dpf::Operator &op)
 ```
 
-
-
-
 @ connects all inputs connected to this operatorMain instance to another [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator)
-
-
 
 **Parameters**:
 
@@ -2856,19 +2120,13 @@ void ansys::dpf::OperatorMain::connectAllInputs(ansys::dpf::Operator &op)
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::OperatorMain::operatorName() const
 ```
 
-
-
-
 **Returns**:
 
 The [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) name used to record.
-
-
 
 **Return type**: std::string
 
@@ -2884,19 +2142,13 @@ The [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) n
 ![][public]
 ![][const]
 
-
 ```cpp
 OperatorConfig ansys::dpf::OperatorMain::config() const
 ```
 
-
-
-
 **Returns**:
 
 The [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) Config used to create this operator.
-
-
 
 **Return type**: [OperatorConfig](classansys_1_1dpf_1_1OperatorConfig.md#classansys_1_1dpf_1_1OperatorConfig)
 
@@ -2912,19 +2164,13 @@ The [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) C
 ![][public]
 ![][const]
 
-
 ```cpp
 int ansys::dpf::OperatorMain::getNumThreads() const
 ```
 
-
-
-
 **Returns**:
 
 Number of threads in the config for parallel runs.
-
-
 
 **Return type**: int
 

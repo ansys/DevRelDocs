@@ -3,8 +3,6 @@
 
 **Location**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h`
 
-
-
 Example helper functions: to include in any other file. 
 ```
 

@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 4653)
 
-
-
-
-
 **Inherits from**:
 
 * [ansys::dpf::DpfTypes](classansys_1_1dpf_1_1DpfTypes.md#classansys_1_1dpf_1_1DpfTypes)
@@ -210,495 +206,6 @@
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1Workflow_1afbdd63a566878ce30072e785ca7e7740"></a>
-### Friend Session
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 4656)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Session"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::Session"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Session"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Workflow_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 4657)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Workflow_1a33ff3f826991522d2e77c1c523f33e19"></a>
-### Friend Operator
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 4658)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Operator"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::Operator"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Operator"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Workflow_1a81d95df60edf516a1de9878b780f8fb3"></a>
-### Friend OperatorMain
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 4659)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorMain"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::OperatorMain"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorMain"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Workflow_1a4d716179fdda163f10d901eb583050bf"></a>
-### Friend RemoteWorkflow
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 4660)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class RemoteWorkflow"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::RemoteWorkflow"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"RemoteWorkflow"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Workflow_1a9820c685b67a3355c042bb0b3365d9e2"></a>
-### Friend Any
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 4661)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Any"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::Any"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Any"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Workflow_1aaec47a26a3c11c1debd3ed922b69cbd2"></a>
-### Friend Field
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 4662)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Field"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::Field"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Field"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Workflow_1abb4aa5a7ed62b741f0b146a257d0fe5e"></a>
-### Friend PropertyField
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 4663)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class PropertyField"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::PropertyField"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"PropertyField"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Workflow_1acc06c4380c923e11af63f95e97c3c259"></a>
-### Friend GenericDataContainer
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 4664)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class GenericDataContainer"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::GenericDataContainer"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"GenericDataContainer"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Workflow_1adf19ceee88ba644aceacffbd1495909b"></a>
-### Friend ConstructHelpers::construct\_trait
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 4666)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename DataT"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename IsGDC"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"struct"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend struct ConstructHelpers::construct_trait"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::construct_trait"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait"},"children":[{"type":"text","text":"ConstructHelpers::construct_trait"}]}]},{"type":"text","text":"\n        "}]}`
--->
-
-## Private functions
-
-<a id="classansys_1_1dpf_1_1Workflow_1a2fbb1ab4344ba3a6c7adf19e811323d5"></a>
-### Function Workflow
-
-![][private]
-
-
-```cpp
-ansys::dpf::Workflow::Workflow(opaque::DpfInternalSharedObject *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfInternalSharedObject *
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::Workflow"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Workflow_1a5ddc7a186d7f778073ef81c57d42d367"></a>
-### Function connect
-
-![][private]
-
-
-```cpp
-void ansys::dpf::Workflow::connect(std::string const &, ExternalData *d)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* std::string const &
-* [ExternalData](classansys_1_1dpf_1_1ExternalData.md#classansys_1_1dpf_1_1ExternalData) * **d**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::connect"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Workflow_1a8edad76427131ca201adcb8584198db5"></a>
-### Function getExternalOut
-
-![][private]
-
-
-```cpp
-ExternalData * ansys::dpf::Workflow::getExternalOut(std::string const &)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* std::string const &
-
-**Return type**: [ExternalData](classansys_1_1dpf_1_1ExternalData.md#classansys_1_1dpf_1_1ExternalData) *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::getExternalOut"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Workflow_1a4019948fc1655cca28ee1d8e056bcb79"></a>
-### Function safeConnect
-
-![][private]
-
-
-```cpp
-void ansys::dpf::Workflow::safeConnect(DpfError &error, std::string const &pin_name, DataT data)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [DpfError](classansys_1_1dpf_1_1DpfError.md#classansys_1_1dpf_1_1DpfError) & **error**
-* std::string const & **pin_name**
-* DataT **data**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename DataT"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::safeConnect"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Workflow_1a722a4c522d6ddc6be851968de38c008e"></a>
-### Function safeConnectDpfType
-
-![][private]
-
-
-```cpp
-void ansys::dpf::Workflow::safeConnectDpfType(DpfError &error, std::string const &pin_name, DataT data)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [DpfError](classansys_1_1dpf_1_1DpfError.md#classansys_1_1dpf_1_1DpfError) & **error**
-* std::string const & **pin_name**
-* DataT **data**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename DataT"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::safeConnectDpfType"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Workflow_1ab611f2cb12b36f69bf96cc059a253ff2"></a>
-### Function pvinstantiateOnRemote
-
-![][private]
-![][const]
-
-
-```cpp
-Workflow ansys::dpf::Workflow::pvinstantiateOnRemote(std::string const &address, std::string const &protocol) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* std::string const & **address**
-* std::string const & **protocol**
-
-**Return type**: Workflow
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::pvinstantiateOnRemote"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Workflow_1a118e0f26c33493e1ce2fe12987d6e50c"></a>
-### Function opaqueCommonConnect
-
-![][private]
-
-
-```cpp
-void ansys::dpf::Workflow::opaqueCommonConnect(std::string const &pin_name, opaque::DpfObject *f, DpfError &error)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* std::string const & **pin_name**: [in] Input pin name.
-* opaque::DpfObject * **f**
-* [DpfError](classansys_1_1dpf_1_1DpfError.md#classansys_1_1dpf_1_1DpfError) & **error**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::opaqueCommonConnect"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Workflow_1ab71cc56a3b6a943f667da3a8ff2c3f5b"></a>
-### Function internalGetOutput
-
-![][private]
-
-
-```cpp
-DataT ansys::dpf::Workflow::internalGetOutput(std::string const &pin_name)
-```
-
-
-
-
-**Returns**:
-
-DPF known type result for given output pin.
-
-
-
-**Parameters**:
-
-* std::string const & **pin_name**
-
-**Return type**: DataT
-
-<!--
-**TODO**:
-
-* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename DataT"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::internalGetOutput"}]}`
--->
-
 ## Public functions
 
 <a id="classansys_1_1dpf_1_1Workflow_1a808195b2d92b18f8f3a362e4bd701f39"></a>
@@ -706,17 +213,11 @@ DPF known type result for given output pin.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Workflow::Workflow(bool useCache=false)
 ```
 
-
-
-
 Create a new workflow.
-
-
 
 **Parameters**:
 
@@ -735,17 +236,11 @@ Create a new workflow.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Workflow::Workflow(std::string const &workflow_string)
 ```
 
-
-
-
 Create a workflow from a string.
-
-
 
 **Parameters**:
 
@@ -764,17 +259,11 @@ Create a workflow from a string.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Workflow::Workflow(Client const *const client)
 ```
 
-
-
-
 Create a new workflow on a server.
-
-
 
 **Parameters**:
 
@@ -793,17 +282,11 @@ Create a new workflow on a server.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Workflow::Workflow(std::string const &workflow_string, Client const *const client)
 ```
 
-
-
-
 Create a workflow from a string on a server.
-
-
 
 **Parameters**:
 
@@ -823,17 +306,11 @@ Create a workflow from a string on a server.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Workflow::Workflow(dp_id id, Client const *const client)
 ```
 
-
-
-
 Retrieve an existing instance of Workflow on a server.
-
-
 
 **Parameters**:
 
@@ -853,17 +330,9 @@ Retrieve an existing instance of Workflow on a server.
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::Workflow::~Workflow()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -878,17 +347,9 @@ virtual ansys::dpf::Workflow::~Workflow()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Workflow::Workflow(Workflow const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -907,17 +368,9 @@ ansys::dpf::Workflow::Workflow(Workflow const &)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Workflow::Workflow(Workflow &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -936,17 +389,9 @@ ansys::dpf::Workflow::Workflow(Workflow &&) noexcept
 
 ![][public]
 
-
 ```cpp
 Workflow & ansys::dpf::Workflow::operator=(Workflow const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -965,17 +410,9 @@ Workflow & ansys::dpf::Workflow::operator=(Workflow const &)
 
 ![][public]
 
-
 ```cpp
 Workflow & ansys::dpf::Workflow::operator=(Workflow &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -995,19 +432,13 @@ Workflow & ansys::dpf::Workflow::operator=(Workflow &&) noexcept
 ![][public]
 ![][const]
 
-
 ```cpp
 Workflow ansys::dpf::Workflow::getCopy() const
 ```
 
-
-
-
 **Returns**:
 
 Copy of workflow.
-
-
 
 **Return type**: Workflow
 
@@ -1022,17 +453,11 @@ Copy of workflow.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::add(Operator &op)
 ```
 
-
-
-
 Add operator to workflow.
-
-
 
 **Parameters**:
 
@@ -1051,17 +476,11 @@ Add operator to workflow.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connectWith(Workflow &left_workflow)
 ```
 
-
-
-
 connect left_worflow to this workflow with matching input/output names.
-
-
 
 **Parameters**:
 
@@ -1080,17 +499,11 @@ connect left_worflow to this workflow with matching input/output names.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connectWith(Workflow &left_workflow, std::map< std::string, std::string > const &connections)
 ```
 
-
-
-
 connect left_worflow to this workflow with specified connections (out->in).
-
-
 
 **Parameters**:
 
@@ -1111,19 +524,13 @@ connect left_worflow to this workflow with specified connections (out->in).
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::Workflow::hasInputPin(std::string const &pin_name) const
 ```
 
-
-
-
 **Returns**:
 
 Indication of existence of given input pin.
-
-
 
 **Parameters**:
 
@@ -1143,19 +550,13 @@ Indication of existence of given input pin.
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::Workflow::hasOutputPin(std::string const &pin_name) const
 ```
 
-
-
-
 **Returns**:
 
 Indication of existence of given output pin.
-
-
 
 **Parameters**:
 
@@ -1175,19 +576,13 @@ Indication of existence of given output pin.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< std::string > ansys::dpf::Workflow::listInputPins() const
 ```
 
-
-
-
 **Returns**:
 
 Vector of input pin names.
-
-
 
 **Return type**: std::vector< std::string >
 
@@ -1203,19 +598,13 @@ Vector of input pin names.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< std::string > ansys::dpf::Workflow::listOutputPins() const
 ```
 
-
-
-
 **Returns**:
 
 Vector of output pin names.
-
-
 
 **Return type**: std::vector< std::string >
 
@@ -1230,17 +619,11 @@ Vector of output pin names.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::nameInputPin(std::string const &pin_name, int operator_input_pin, Operator &op)
 ```
 
-
-
-
 Add an input name to given pin of operator.
-
-
 
 **Parameters**:
 
@@ -1261,17 +644,11 @@ Add an input name to given pin of operator.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::nameOutputPin(Operator &op, int operator_output_pin, std::string const &pin_name)
 ```
 
-
-
-
 Add an output name to given pin of operator.
-
-
 
 **Parameters**:
 
@@ -1292,17 +669,11 @@ Add an output name to given pin of operator.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::eraseInputPin(std::string const &pin_name)
 ```
 
-
-
-
 Removes an exposed pin.
-
-
 
 **Parameters**:
 
@@ -1321,17 +692,11 @@ Removes an exposed pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::eraseOutputPin(std::string const &pin_name)
 ```
 
-
-
-
 Removes an exposed pin.
-
-
 
 **Parameters**:
 
@@ -1351,17 +716,11 @@ Removes an exposed pin.
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::Workflow::writeToSwf(std::string const &file_path) const
 ```
 
-
-
-
 Write workflow to given file, in a DataProcessing format.
-
-
 
 **Parameters**:
 
@@ -1381,17 +740,11 @@ Write workflow to given file, in a DataProcessing format.
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::Workflow::writeToGraphViz(std::string const &file_path) const
 ```
 
-
-
-
 Write workflow to given file, in a graphViz format.
-
-
 
 **Parameters**:
 
@@ -1411,17 +764,11 @@ Write workflow to given file, in a graphViz format.
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::Workflow::writeToJson(std::string &jsonString) const
 ```
 
-
-
-
 Write workflow to string in a json format. This method is currently not supporting the serialization of data which is connected to an operator of the workflow. For example, trying to write to a JSON string a workflow that contains a forward operator with scoping connected to it, the scoping is not written.
-
-
 
 **Parameters**:
 
@@ -1440,17 +787,11 @@ Write workflow to string in a json format. This method is currently not supporti
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::readFromJson(const std::string &jsonString)
 ```
 
-
-
-
 load workflow from string in a json format.
-
-
 
 **Parameters**:
 
@@ -1470,17 +811,11 @@ load workflow from string in a json format.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::Workflow::writeToString() const
 ```
 
-
-
-
 Write workflow to text.
-
-
 
 **Return type**: std::string
 
@@ -1495,17 +830,11 @@ Write workflow to text.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::chainWith(const Workflow &wf)
 ```
 
-
-
-
 Append given workflow.
-
-
 
 **Parameters**:
 
@@ -1524,17 +853,11 @@ Append given workflow.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::chainWith(const Workflow &wf, const std::pair< std::string, std::string > &in_out_names)
 ```
 
-
-
-
 Append given workflow. Output name is connected to input name of given workflow.
-
-
 
 **Parameters**:
 
@@ -1554,17 +877,11 @@ Append given workflow. Output name is connected to input name of given workflow.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::renameInputPin(std::string const &old_pin_name, std::string const &new_pin_name)
 ```
 
-
-
-
 Rename input pin with given name to new name.
-
-
 
 **Parameters**:
 
@@ -1584,17 +901,11 @@ Rename input pin with given name to new name.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::renameOutputPin(std::string const &old_pin_name, std::string const &new_pin_name)
 ```
 
-
-
-
 Rename output pin with given name to new name.
-
-
 
 **Parameters**:
 
@@ -1614,17 +925,11 @@ Rename output pin with given name to new name.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::loadFromSwf(std::string const &file_path)
 ```
 
-
-
-
 Load workflow from given file.
-
-
 
 **Parameters**:
 
@@ -1643,17 +948,9 @@ Load workflow from given file.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::generateDerivativeFor(std::string const &output_name, std::string const &symbol_name)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -1673,19 +970,13 @@ void ansys::dpf::Workflow::generateDerivativeFor(std::string const &output_name,
 
 ![][public]
 
-
 ```cpp
 bool ansys::dpf::Workflow::hasOutputWhenEvaluated(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 Indication of existence of output pin when workflow evaluated.
-
-
 
 **Parameters**:
 
@@ -1705,19 +996,13 @@ Indication of existence of output pin when workflow evaluated.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::Workflow::numberOfOperators() const
 ```
 
-
-
-
 **Returns**:
 
 Number of operators in workflow chain.
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -1733,19 +1018,13 @@ Number of operators in workflow chain.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::Workflow::operatorNameByIndex(dp_int index) const
 ```
 
-
-
-
 **Returns**:
 
 [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) name by index in workflow chain.
-
-
 
 **Parameters**:
 
@@ -1765,19 +1044,13 @@ std::string ansys::dpf::Workflow::operatorNameByIndex(dp_int index) const
 ![][public]
 ![][const]
 
-
 ```cpp
 Operator ansys::dpf::Workflow::firstOperator() const
 ```
 
-
-
-
 **Returns**:
 
 First operator in workflow chain.
-
-
 
 **Return type**: Operator
 
@@ -1793,19 +1066,13 @@ First operator in workflow chain.
 ![][public]
 ![][const]
 
-
 ```cpp
 Operator ansys::dpf::Workflow::lastOperator() const
 ```
 
-
-
-
 **Returns**:
 
 last operator in workflow chain.
-
-
 
 **Return type**: Operator
 
@@ -1821,17 +1088,9 @@ last operator in workflow chain.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< Operator > ansys::dpf::Workflow::getOperators() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::vector< Operator >
 
@@ -1846,19 +1105,13 @@ std::vector< Operator > ansys::dpf::Workflow::getOperators() const
 
 ![][public]
 
-
 ```cpp
 Field ansys::dpf::Workflow::getOutputField(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) result for given output pin.
-
-
 
 **Parameters**:
 
@@ -1877,19 +1130,13 @@ Field ansys::dpf::Workflow::getOutputField(std::string const &pin_name)
 
 ![][public]
 
-
 ```cpp
 FieldsContainer ansys::dpf::Workflow::getOutputFieldsContainer(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 Fields container result for given output pin.
-
-
 
 **Parameters**:
 
@@ -1908,19 +1155,13 @@ Fields container result for given output pin.
 
 ![][public]
 
-
 ```cpp
 Scoping ansys::dpf::Workflow::getOutputScoping(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) result for given output pin.
-
-
 
 **Parameters**:
 
@@ -1939,19 +1180,13 @@ Scoping ansys::dpf::Workflow::getOutputScoping(std::string const &pin_name)
 
 ![][public]
 
-
 ```cpp
 ScopingsContainer ansys::dpf::Workflow::getOutputScopingsContainer(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 Scopings container result for given output pin.
-
-
 
 **Parameters**:
 
@@ -1970,19 +1205,13 @@ Scopings container result for given output pin.
 
 ![][public]
 
-
 ```cpp
 MeshesContainer ansys::dpf::Workflow::getOutputMeshesContainer(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 Meshes container result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2001,19 +1230,13 @@ Meshes container result for given output pin.
 
 ![][public]
 
-
 ```cpp
 TimeFreqSupport ansys::dpf::Workflow::getOutputTimeFreqSupport(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 Time frequency support result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2032,19 +1255,13 @@ Time frequency support result for given output pin.
 
 ![][public]
 
-
 ```cpp
 MeshedRegion ansys::dpf::Workflow::getOutputMeshedRegion(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 Meshed region result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2063,19 +1280,13 @@ Meshed region result for given output pin.
 
 ![][public]
 
-
 ```cpp
 ResultInfo ansys::dpf::Workflow::getOutputResultInfo(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 [Result](classansys_1_1dpf_1_1Result.md#classansys_1_1dpf_1_1Result) information result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2094,19 +1305,13 @@ ResultInfo ansys::dpf::Workflow::getOutputResultInfo(std::string const &pin_name
 
 ![][public]
 
-
 ```cpp
 Support ansys::dpf::Workflow::getOutputSupport(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 [Support](classansys_1_1dpf_1_1Support.md#classansys_1_1dpf_1_1Support) result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2125,19 +1330,13 @@ Support ansys::dpf::Workflow::getOutputSupport(std::string const &pin_name)
 
 ![][public]
 
-
 ```cpp
 CyclicSupport ansys::dpf::Workflow::getOutputCyclicSupport(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 [CyclicSupport](classansys_1_1dpf_1_1CyclicSupport.md#classansys_1_1dpf_1_1CyclicSupport) result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2156,19 +1355,13 @@ CyclicSupport ansys::dpf::Workflow::getOutputCyclicSupport(std::string const &pi
 
 ![][public]
 
-
 ```cpp
 DataSources ansys::dpf::Workflow::getOutputDataSources(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 Data sources result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2187,19 +1380,13 @@ Data sources result for given output pin.
 
 ![][public]
 
-
 ```cpp
 Streams ansys::dpf::Workflow::getOutputStreams(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 [Streams](classansys_1_1dpf_1_1Streams.md#classansys_1_1dpf_1_1Streams) result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2218,19 +1405,13 @@ Streams ansys::dpf::Workflow::getOutputStreams(std::string const &pin_name)
 
 ![][public]
 
-
 ```cpp
 PropertyField ansys::dpf::Workflow::getOutputPropertyField(std::string const &pin_namepin_name)
 ```
 
-
-
-
 **Returns**:
 
 Property field result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2249,19 +1430,13 @@ Property field result for given output pin.
 
 ![][public]
 
-
 ```cpp
 Unit ansys::dpf::Workflow::getOutputUnit(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 [Unit](classansys_1_1dpf_1_1Unit.md#classansys_1_1dpf_1_1Unit) result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2280,19 +1455,13 @@ Unit ansys::dpf::Workflow::getOutputUnit(std::string const &pin_name)
 
 ![][public]
 
-
 ```cpp
 Workflow ansys::dpf::Workflow::getOutputWorkflow(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 Workflow result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2311,19 +1480,13 @@ Workflow result for given output pin.
 
 ![][public]
 
-
 ```cpp
 DataTree ansys::dpf::Workflow::getOutputDataTree(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree) result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2342,19 +1505,13 @@ DataTree ansys::dpf::Workflow::getOutputDataTree(std::string const &pin_name)
 
 ![][public]
 
-
 ```cpp
 StringField ansys::dpf::Workflow::getOutputStringField(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 [StringField](classansys_1_1dpf_1_1StringField.md#classansys_1_1dpf_1_1StringField) result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2373,19 +1530,13 @@ StringField ansys::dpf::Workflow::getOutputStringField(std::string const &pin_na
 
 ![][public]
 
-
 ```cpp
 CustomTypeField ansys::dpf::Workflow::getOutputCustomTypeField(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField) result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2404,19 +1555,13 @@ CustomTypeField ansys::dpf::Workflow::getOutputCustomTypeField(std::string const
 
 ![][public]
 
-
 ```cpp
 GenericDataContainer ansys::dpf::Workflow::getOutputGenericDataContainer(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 GenericDataContainer result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2435,19 +1580,13 @@ GenericDataContainer result for given output pin.
 
 ![][public]
 
-
 ```cpp
 CustomTypeFieldsContainer ansys::dpf::Workflow::getOutputCustomTypeFieldsContainer(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 [CustomTypeFieldsContainer](classansys_1_1dpf_1_1CustomTypeFieldsContainer.md#classansys_1_1dpf_1_1CustomTypeFieldsContainer) result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2466,19 +1605,13 @@ CustomTypeFieldsContainer ansys::dpf::Workflow::getOutputCustomTypeFieldsContain
 
 ![][public]
 
-
 ```cpp
 dp_int ansys::dpf::Workflow::getOutputInt(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 Integer result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2497,19 +1630,13 @@ Integer result for given output pin.
 
 ![][public]
 
-
 ```cpp
 dp_double ansys::dpf::Workflow::getOutputDouble(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 Double result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2528,19 +1655,13 @@ Double result for given output pin.
 
 ![][public]
 
-
 ```cpp
 bool ansys::dpf::Workflow::getOutputBool(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 Boolean result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2559,19 +1680,13 @@ Boolean result for given output pin.
 
 ![][public]
 
-
 ```cpp
 std::string ansys::dpf::Workflow::getOutputString(std::string const &pin_index)
 ```
 
-
-
-
 **Returns**:
 
 String result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2590,19 +1705,13 @@ String result for given output pin.
 
 ![][public]
 
-
 ```cpp
 Any ansys::dpf::Workflow::getOutputAsAny(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2621,19 +1730,13 @@ Any ansys::dpf::Workflow::getOutputAsAny(std::string const &pin_name)
 
 ![][public]
 
-
 ```cpp
 DpfVector< int > ansys::dpf::Workflow::getOutputIntVector(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 Integers vector result as [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) for given output pin.
-
-
 
 **Parameters**:
 
@@ -2652,19 +1755,13 @@ Integers vector result as [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classans
 
 ![][public]
 
-
 ```cpp
 DpfVector< double > ansys::dpf::Workflow::getOutputDoubleVector(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 Doubles vector result as [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) for given output pin.
-
-
 
 **Parameters**:
 
@@ -2683,19 +1780,13 @@ Doubles vector result as [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansy
 
 ![][public]
 
-
 ```cpp
 DataT ansys::dpf::Workflow::getCustomOutput(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 Custom result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2715,19 +1806,13 @@ Custom result for given output pin.
 
 ![][public]
 
-
 ```cpp
 DataT ansys::dpf::Workflow::getOutput(std::string const &pin_name)
 ```
 
-
-
-
 **Returns**:
 
 Typed result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2747,19 +1832,13 @@ Typed result for given output pin.
 
 ![][public]
 
-
 ```cpp
 Field ansys::dpf::Workflow::getOutputField(std::string const &pin_name, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2779,19 +1858,13 @@ Field ansys::dpf::Workflow::getOutputField(std::string const &pin_name, DpfError
 
 ![][public]
 
-
 ```cpp
 FieldsContainer ansys::dpf::Workflow::getOutputFieldsContainer(std::string const &pin_name, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 Fields container result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2811,19 +1884,13 @@ Fields container result for given output pin.
 
 ![][public]
 
-
 ```cpp
 Scoping ansys::dpf::Workflow::getOutputScoping(std::string const &pin_name, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2843,19 +1910,13 @@ Scoping ansys::dpf::Workflow::getOutputScoping(std::string const &pin_name, DpfE
 
 ![][public]
 
-
 ```cpp
 ScopingsContainer ansys::dpf::Workflow::getOutputScopingsContainer(std::string const &pin_name, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 Scopings container result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2875,19 +1936,13 @@ Scopings container result for given output pin.
 
 ![][public]
 
-
 ```cpp
 MeshesContainer ansys::dpf::Workflow::getOutputMeshesContainer(std::string const &pin_name, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 Meshes container result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2907,19 +1962,13 @@ Meshes container result for given output pin.
 
 ![][public]
 
-
 ```cpp
 TimeFreqSupport ansys::dpf::Workflow::getOutputTimeFreqSupport(std::string const &pin_name, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 Time frequency support result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2939,19 +1988,13 @@ Time frequency support result for given output pin.
 
 ![][public]
 
-
 ```cpp
 MeshedRegion ansys::dpf::Workflow::getOutputMeshedRegion(std::string const &pin_name, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 Meshed region result for given output pin.
-
-
 
 **Parameters**:
 
@@ -2971,19 +2014,13 @@ Meshed region result for given output pin.
 
 ![][public]
 
-
 ```cpp
 ResultInfo ansys::dpf::Workflow::getOutputResultInfo(std::string const &pin_name, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [Result](classansys_1_1dpf_1_1Result.md#classansys_1_1dpf_1_1Result) information result for given output pin.
-
-
 
 **Parameters**:
 
@@ -3003,19 +2040,13 @@ ResultInfo ansys::dpf::Workflow::getOutputResultInfo(std::string const &pin_name
 
 ![][public]
 
-
 ```cpp
 Support ansys::dpf::Workflow::getOutputSupport(std::string const &pin_name, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [Support](classansys_1_1dpf_1_1Support.md#classansys_1_1dpf_1_1Support) result for given output pin.
-
-
 
 **Parameters**:
 
@@ -3035,19 +2066,13 @@ Support ansys::dpf::Workflow::getOutputSupport(std::string const &pin_name, DpfE
 
 ![][public]
 
-
 ```cpp
 CyclicSupport ansys::dpf::Workflow::getOutputCyclicSupport(std::string const &pin_name, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [CyclicSupport](classansys_1_1dpf_1_1CyclicSupport.md#classansys_1_1dpf_1_1CyclicSupport) result for given output pin.
-
-
 
 **Parameters**:
 
@@ -3067,19 +2092,13 @@ CyclicSupport ansys::dpf::Workflow::getOutputCyclicSupport(std::string const &pi
 
 ![][public]
 
-
 ```cpp
 DataSources ansys::dpf::Workflow::getOutputDataSources(std::string const &pin_name, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 Data sources result for given output pin.
-
-
 
 **Parameters**:
 
@@ -3099,19 +2118,13 @@ Data sources result for given output pin.
 
 ![][public]
 
-
 ```cpp
 Streams ansys::dpf::Workflow::getOutputStreams(std::string const &pin_name, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [Streams](classansys_1_1dpf_1_1Streams.md#classansys_1_1dpf_1_1Streams) result for given output pin.
-
-
 
 **Parameters**:
 
@@ -3131,19 +2144,13 @@ Streams ansys::dpf::Workflow::getOutputStreams(std::string const &pin_name, DpfE
 
 ![][public]
 
-
 ```cpp
 PropertyField ansys::dpf::Workflow::getOutputPropertyField(std::string const &pin_name, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 Property field result for given output pin.
-
-
 
 **Parameters**:
 
@@ -3163,19 +2170,13 @@ Property field result for given output pin.
 
 ![][public]
 
-
 ```cpp
 StringField ansys::dpf::Workflow::getOutputStringField(std::string const &pin_name, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [StringField](classansys_1_1dpf_1_1StringField.md#classansys_1_1dpf_1_1StringField) result for given output pin.
-
-
 
 **Parameters**:
 
@@ -3195,19 +2196,13 @@ StringField ansys::dpf::Workflow::getOutputStringField(std::string const &pin_na
 
 ![][public]
 
-
 ```cpp
 CustomTypeField ansys::dpf::Workflow::getOutputCustomTypeField(std::string const &pin_name, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField) result for given output pin.
-
-
 
 **Parameters**:
 
@@ -3227,19 +2222,13 @@ CustomTypeField ansys::dpf::Workflow::getOutputCustomTypeField(std::string const
 
 ![][public]
 
-
 ```cpp
 GenericDataContainer ansys::dpf::Workflow::getOutputGenericDataContainer(std::string const &pin_name, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 GenericDataContainer result for given output pin.
-
-
 
 **Parameters**:
 
@@ -3259,19 +2248,13 @@ GenericDataContainer result for given output pin.
 
 ![][public]
 
-
 ```cpp
 CustomTypeFieldsContainer ansys::dpf::Workflow::getOutputCustomTypeFieldsContainer(std::string const &pin_name, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [CustomTypeFieldsContainer](classansys_1_1dpf_1_1CustomTypeFieldsContainer.md#classansys_1_1dpf_1_1CustomTypeFieldsContainer) result for given output pin.
-
-
 
 **Parameters**:
 
@@ -3291,19 +2274,13 @@ CustomTypeFieldsContainer ansys::dpf::Workflow::getOutputCustomTypeFieldsContain
 
 ![][public]
 
-
 ```cpp
 Unit ansys::dpf::Workflow::getOutputUnit(std::string const &pin_name, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 [Unit](classansys_1_1dpf_1_1Unit.md#classansys_1_1dpf_1_1Unit) result for given output pin.
-
-
 
 **Parameters**:
 
@@ -3323,19 +2300,13 @@ Unit ansys::dpf::Workflow::getOutputUnit(std::string const &pin_name, DpfError &
 
 ![][public]
 
-
 ```cpp
 Workflow ansys::dpf::Workflow::getOutputWorkflow(std::string const &pin_name, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 Workflow result for given output pin.
-
-
 
 **Parameters**:
 
@@ -3355,19 +2326,13 @@ Workflow result for given output pin.
 
 ![][public]
 
-
 ```cpp
 dp_int ansys::dpf::Workflow::getOutputInt(std::string const &pin_name, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 Integer result for given output pin.
-
-
 
 **Parameters**:
 
@@ -3387,19 +2352,13 @@ Integer result for given output pin.
 
 ![][public]
 
-
 ```cpp
 dp_double ansys::dpf::Workflow::getOutputDouble(std::string const &pin_name, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 Double result for given output pin.
-
-
 
 **Parameters**:
 
@@ -3419,19 +2378,13 @@ Double result for given output pin.
 
 ![][public]
 
-
 ```cpp
 bool ansys::dpf::Workflow::getOutputBool(std::string const &pin_name, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 Boolean result for given output pin.
-
-
 
 **Parameters**:
 
@@ -3451,19 +2404,13 @@ Boolean result for given output pin.
 
 ![][public]
 
-
 ```cpp
 std::string ansys::dpf::Workflow::getOutputString(std::string const &pin_name, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 String result for given output pin.
-
-
 
 **Parameters**:
 
@@ -3483,19 +2430,13 @@ String result for given output pin.
 
 ![][public]
 
-
 ```cpp
 DpfVector< int > ansys::dpf::Workflow::getOutputIntVector(std::string const &pin_name, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 Integers vector result as [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) for given output pin.
-
-
 
 **Parameters**:
 
@@ -3515,19 +2456,13 @@ Integers vector result as [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classans
 
 ![][public]
 
-
 ```cpp
 DpfVector< double > ansys::dpf::Workflow::getOutputDoubleVector(std::string const &pin_name, DpfError &error)
 ```
 
-
-
-
 **Returns**:
 
 Doubles vector result as [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) for given output pin.
-
-
 
 **Parameters**:
 
@@ -3547,20 +2482,14 @@ Doubles vector result as [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansy
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, std::string const &f)
 ```
-
-
-
 
 Connect string to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3580,20 +2509,14 @@ Connect string to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, dp_int f)
 ```
-
-
-
 
 Connect integer to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3613,20 +2536,14 @@ Connect integer to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, bool f)
 ```
-
-
-
 
 Connect boolean to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3646,20 +2563,14 @@ Connect boolean to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, dp_double f)
 ```
-
-
-
 
 Connect double to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3679,20 +2590,14 @@ Connect double to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, std::vector< int > const &f)
 ```
-
-
-
 
 Connect vector of integers to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3712,20 +2617,14 @@ Connect vector of integers to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, std::vector< dp_double > const &f)
 ```
-
-
-
 
 Connect vector of doubles to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3745,20 +2644,14 @@ Connect vector of doubles to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, std::vector< std::string > const &f)
 ```
-
-
-
 
 Connect vector of strings to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3778,20 +2671,14 @@ Connect vector of strings to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, Scoping const &data)
 ```
-
-
-
 
 Connect [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) data to input_pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3811,20 +2698,14 @@ Connect [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) 
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, Field const &f)
 ```
-
-
-
 
 Connect field to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3844,20 +2725,14 @@ Connect field to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, FieldsContainer const &f)
 ```
-
-
-
 
 Connect fields container to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3877,20 +2752,14 @@ Connect fields container to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, ScopingsContainer const &f)
 ```
-
-
-
 
 Connect scopings container to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3910,20 +2779,14 @@ Connect scopings container to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, MeshesContainer const &f)
 ```
-
-
-
 
 Connect meshes container to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3943,20 +2806,14 @@ Connect meshes container to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, MeshedRegion const &f)
 ```
-
-
-
 
 Connect mesed region to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -3976,20 +2833,14 @@ Connect mesed region to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, PropertyField const &f)
 ```
-
-
-
 
 Connect property field to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4009,20 +2860,14 @@ Connect property field to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, Support const &f)
 ```
-
-
-
 
 Connect support to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4042,20 +2887,14 @@ Connect support to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, TimeFreqSupport const &f)
 ```
-
-
-
 
 Connect time frequency support to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4075,20 +2914,14 @@ Connect time frequency support to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, CyclicSupport const &f)
 ```
-
-
-
 
 Connect [CyclicSupport](classansys_1_1dpf_1_1CyclicSupport.md#classansys_1_1dpf_1_1CyclicSupport) to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4108,20 +2941,14 @@ Connect [CyclicSupport](classansys_1_1dpf_1_1CyclicSupport.md#classansys_1_1dpf_
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, Workflow const &f)
 ```
-
-
-
 
 Connect Workflow to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4141,20 +2968,14 @@ Connect Workflow to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, DataSources const &f)
 ```
-
-
-
 
 Connect data sources to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4174,20 +2995,14 @@ Connect data sources to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, Streams const &f)
 ```
-
-
-
 
 Connect [Streams](classansys_1_1dpf_1_1Streams.md#classansys_1_1dpf_1_1Streams) to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4207,20 +3022,14 @@ Connect [Streams](classansys_1_1dpf_1_1Streams.md#classansys_1_1dpf_1_1Streams) 
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, DataTree const &f)
 ```
-
-
-
 
 Connect [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree) to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4240,20 +3049,14 @@ Connect [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTre
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, StringField const &f)
 ```
-
-
-
 
 Connect [StringField](classansys_1_1dpf_1_1StringField.md#classansys_1_1dpf_1_1StringField) to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4273,20 +3076,14 @@ Connect [StringField](classansys_1_1dpf_1_1StringField.md#classansys_1_1dpf_1_1S
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, CustomTypeField const &f)
 ```
-
-
-
 
 Connect [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField) to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4306,20 +3103,14 @@ Connect [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, GenericDataContainer const &f)
 ```
-
-
-
 
 Connect GenericDataContainer to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4339,20 +3130,14 @@ Connect GenericDataContainer to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, CustomTypeFieldsContainer const &f)
 ```
-
-
-
 
 Connect [CustomTypeFieldsContainer](classansys_1_1dpf_1_1CustomTypeFieldsContainer.md#classansys_1_1dpf_1_1CustomTypeFieldsContainer) to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4372,20 +3157,14 @@ Connect [CustomTypeFieldsContainer](classansys_1_1dpf_1_1CustomTypeFieldsContain
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, LabelSpace const &f)
 ```
-
-
-
 
 Connect [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1_1LabelSpace) to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4405,20 +3184,14 @@ Connect [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1_1Lab
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, CustomContainerBase const &f)
 ```
-
-
-
 
 Connect [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1_1LabelSpace) to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4438,20 +3211,14 @@ Connect [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1_1Lab
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, Collection< DataT > const &f)
 ```
-
-
-
 
 Connect [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) dpf type. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4472,20 +3239,14 @@ Connect [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) dpf type.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, Any const &f)
 ```
-
-
-
 
 Connect [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4505,20 +3266,14 @@ Connect [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) to input pin
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, Operator const &f, dp_index output_pin)
 ```
-
-
-
 
 Connect operator output pin to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4539,20 +3294,14 @@ Connect operator output pin to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connectCustom(std::string const &input_pin, DataT const &d)
 ```
-
-
-
 
 Connect typed data to input pin. 
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Parameters**:
 
@@ -4573,17 +3322,11 @@ Connect typed data to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, dp_int f, DpfError &error)
 ```
 
-
-
-
 Connect integer to input pin.
-
-
 
 **Parameters**:
 
@@ -4604,17 +3347,11 @@ Connect integer to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, bool f, DpfError &error)
 ```
 
-
-
-
 Connect boolean to input pin.
-
-
 
 **Parameters**:
 
@@ -4635,17 +3372,11 @@ Connect boolean to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, dp_double f, DpfError &error)
 ```
 
-
-
-
 Connect double to input pin.
-
-
 
 **Parameters**:
 
@@ -4666,17 +3397,11 @@ Connect double to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, std::string const &f, DpfError &error)
 ```
 
-
-
-
 Connect string to input pin.
-
-
 
 **Parameters**:
 
@@ -4697,17 +3422,11 @@ Connect string to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, std::vector< int > const &f, DpfError &error)
 ```
 
-
-
-
 Connect vector of integers to input pin.
-
-
 
 **Parameters**:
 
@@ -4728,17 +3447,11 @@ Connect vector of integers to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, std::vector< dp_double > const &f, DpfError &error)
 ```
 
-
-
-
 Connect vector of doubles to input pin.
-
-
 
 **Parameters**:
 
@@ -4759,17 +3472,11 @@ Connect vector of doubles to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, std::vector< std::string > const &f, DpfError &error)
 ```
 
-
-
-
 Connect vector of strings to input pin.
-
-
 
 **Parameters**:
 
@@ -4790,17 +3497,11 @@ Connect vector of strings to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, Scoping const &f, DpfError &error)
 ```
 
-
-
-
 Connect scoping to input pin.
-
-
 
 **Parameters**:
 
@@ -4821,17 +3522,11 @@ Connect scoping to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, Field const &f, DpfError &error)
 ```
 
-
-
-
 Connect field to input pin.
-
-
 
 **Parameters**:
 
@@ -4852,17 +3547,11 @@ Connect field to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, FieldsContainer const &f, DpfError &error)
 ```
 
-
-
-
 Connect fields container to input pin.
-
-
 
 **Parameters**:
 
@@ -4883,17 +3572,11 @@ Connect fields container to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, ScopingsContainer const &f, DpfError &error)
 ```
 
-
-
-
 Connect scopings container to input pin.
-
-
 
 **Parameters**:
 
@@ -4914,17 +3597,11 @@ Connect scopings container to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, MeshesContainer const &f, DpfError &error)
 ```
 
-
-
-
 Connect meshes container to input pin.
-
-
 
 **Parameters**:
 
@@ -4945,17 +3622,11 @@ Connect meshes container to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, MeshedRegion const &f, DpfError &error)
 ```
 
-
-
-
 Connect meshed region to input pin.
-
-
 
 **Parameters**:
 
@@ -4976,17 +3647,11 @@ Connect meshed region to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, DataSources const &f, DpfError &error)
 ```
 
-
-
-
 Connect data sources to input pin.
-
-
 
 **Parameters**:
 
@@ -5007,17 +3672,11 @@ Connect data sources to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, Streams const &f, DpfError &error)
 ```
 
-
-
-
 Connect [Streams](classansys_1_1dpf_1_1Streams.md#classansys_1_1dpf_1_1Streams) to input pin.
-
-
 
 **Parameters**:
 
@@ -5038,17 +3697,11 @@ Connect [Streams](classansys_1_1dpf_1_1Streams.md#classansys_1_1dpf_1_1Streams) 
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, PropertyField const &f, DpfError &error)
 ```
 
-
-
-
 Connect property field to input pin.
-
-
 
 **Parameters**:
 
@@ -5069,17 +3722,11 @@ Connect property field to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, Support const &f, DpfError &error)
 ```
 
-
-
-
 Connect support to input pin.
-
-
 
 **Parameters**:
 
@@ -5100,17 +3747,11 @@ Connect support to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, CyclicSupport const &f, DpfError &error)
 ```
 
-
-
-
 Connect [CyclicSupport](classansys_1_1dpf_1_1CyclicSupport.md#classansys_1_1dpf_1_1CyclicSupport) to input pin.
-
-
 
 **Parameters**:
 
@@ -5131,17 +3772,11 @@ Connect [CyclicSupport](classansys_1_1dpf_1_1CyclicSupport.md#classansys_1_1dpf_
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, TimeFreqSupport const &f, DpfError &error)
 ```
 
-
-
-
 Connect timefrequency support to input pin.
-
-
 
 **Parameters**:
 
@@ -5162,17 +3797,11 @@ Connect timefrequency support to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, Workflow const &f, DpfError &error)
 ```
 
-
-
-
 Connect Workflow support to input pin.
-
-
 
 **Parameters**:
 
@@ -5193,17 +3822,11 @@ Connect Workflow support to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, DataTree const &f, DpfError &error)
 ```
 
-
-
-
 Connect [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree) support to input pin.
-
-
 
 **Parameters**:
 
@@ -5224,17 +3847,11 @@ Connect [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTre
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, StringField const &f, DpfError &error)
 ```
 
-
-
-
 Connect [StringField](classansys_1_1dpf_1_1StringField.md#classansys_1_1dpf_1_1StringField) support to input pin.
-
-
 
 **Parameters**:
 
@@ -5255,17 +3872,11 @@ Connect [StringField](classansys_1_1dpf_1_1StringField.md#classansys_1_1dpf_1_1S
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, CustomTypeField const &f, DpfError &error)
 ```
 
-
-
-
 Connect [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField) support to input pin.
-
-
 
 **Parameters**:
 
@@ -5286,17 +3897,11 @@ Connect [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, GenericDataContainer const &f, DpfError &error)
 ```
 
-
-
-
 Connect GenericDataContainer support to input pin.
-
-
 
 **Parameters**:
 
@@ -5317,17 +3922,11 @@ Connect GenericDataContainer support to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, CustomTypeFieldsContainer const &f, DpfError &error)
 ```
 
-
-
-
 Connect [CustomTypeFieldsContainer](classansys_1_1dpf_1_1CustomTypeFieldsContainer.md#classansys_1_1dpf_1_1CustomTypeFieldsContainer) support to input pin.
-
-
 
 **Parameters**:
 
@@ -5348,17 +3947,11 @@ Connect [CustomTypeFieldsContainer](classansys_1_1dpf_1_1CustomTypeFieldsContain
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, LabelSpace const &f, DpfError &error)
 ```
 
-
-
-
 Connect [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1_1LabelSpace) support to input pin.
-
-
 
 **Parameters**:
 
@@ -5379,17 +3972,11 @@ Connect [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1_1Lab
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, Any const &f, DpfError &error)
 ```
 
-
-
-
 Connect [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) support to input pin.
-
-
 
 **Parameters**:
 
@@ -5410,17 +3997,11 @@ Connect [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) support to i
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::connect(std::string const &pin_name, Operator const &f, dp_index output_pin, DpfError &error)
 ```
 
-
-
-
 Connect operator output pin to input pin.
-
-
 
 **Parameters**:
 
@@ -5442,17 +4023,11 @@ Connect operator output pin to input pin.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::discoverAllOperators()
 ```
 
-
-
-
 Using operator's connectivity, discover all operators contained in the workflow and add them inside.
-
-
 
 **Return type**: void
 
@@ -5467,11 +4042,9 @@ Using operator's connectivity, discover all operators contained in the workflow 
 
 ![][public]
 
-
 ```cpp
 int ansys::dpf::Workflow::record(std::string const &name, bool transfer_ownership, DpfError &error)
 ```
-
 
 Records the workflow in DPF's registry.
 
@@ -5480,8 +4053,6 @@ Records the workflow in DPF's registry.
 * **name**: Name of the workflow.
 * **transfer_ownership**: If true the workflow will be suppressed from the registry as soon as it is returned by [ansys::dpf::core::workflowById](classansys_1_1dpf_1_1core.md#classansys_1_1dpf_1_1core_1a723856ec83974fcb2cc61549f3cb89dd).
 * **error**: Name of the workflow.
-
-
 
 **Parameters**:
 
@@ -5502,11 +4073,9 @@ Records the workflow in DPF's registry.
 
 ![][public]
 
-
 ```cpp
 int ansys::dpf::Workflow::record(std::string const &name, bool transfer_ownership)
 ```
-
 
 Records the workflow in DPF's registry.
 
@@ -5514,8 +4083,6 @@ Records the workflow in DPF's registry.
 
 * **name**: Name of the workflow.
 * **transfer_ownership**: If true the workflow will be suppressed from the registry as soon as it is returned by [ansys::dpf::core::workflowById](classansys_1_1dpf_1_1core.md#classansys_1_1dpf_1_1core_1a723856ec83974fcb2cc61549f3cb89dd).
-
-
 
 **Parameters**:
 
@@ -5535,17 +4102,9 @@ Records the workflow in DPF's registry.
 
 ![][public]
 
-
 ```cpp
 bool ansys::dpf::Workflow::tryReplaceWorkflowInRegistry(int id, std::string const &name, bool transfer_ownership)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -5566,17 +4125,9 @@ bool ansys::dpf::Workflow::tryReplaceWorkflowInRegistry(int id, std::string cons
 
 ![][public]
 
-
 ```cpp
 bool ansys::dpf::Workflow::eraseWorkflowFromRegistry()
 ```
-
-
-
-
-
-
-
 
 **Return type**: bool
 
@@ -5592,17 +4143,11 @@ bool ansys::dpf::Workflow::eraseWorkflowFromRegistry()
 ![][public]
 ![][const]
 
-
 ```cpp
 Workflow ansys::dpf::Workflow::instantiateOnRemote(ansys::dpf::Client const *const client) const
 ```
 
-
-
-
 Make a copy of the workflow (with writeToString) on a server.
-
-
 
 **Parameters**:
 
@@ -5622,17 +4167,11 @@ Make a copy of the workflow (with writeToString) on a server.
 ![][public]
 ![][const]
 
-
 ```cpp
 Workflow ansys::dpf::Workflow::instantiateOnRemote(std::string const &address, std::string const &protocol) const
 ```
 
-
-
-
 Asks the server to make a copy of the workflow (with writeToString) on a server address.
-
-
 
 **Parameters**:
 
@@ -5653,17 +4192,11 @@ Asks the server to make a copy of the workflow (with writeToString) on a server 
 ![][public]
 ![][const]
 
-
 ```cpp
 Workflow ansys::dpf::Workflow::instantiateOnRemote(std::string const &ip, int port, std::string const &protocol) const
 ```
 
-
-
-
 Asks the server to make a copy of the workflow (with writeToString) on a server address.
-
-
 
 **Parameters**:
 
@@ -5685,17 +4218,11 @@ Asks the server to make a copy of the workflow (with writeToString) on a server 
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_id ansys::dpf::Workflow::getRemoteId() const
 ```
 
-
-
-
 If the workflow is remote, returns its Id on the server.
-
-
 
 **Return type**: [dp\_id](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1ab4574c9af3f2bb8011da7d1f4c8da20e)
 
@@ -5711,17 +4238,11 @@ If the workflow is remote, returns its Id on the server.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< std::pair< int, ansys::dpf::Operator > > ansys::dpf::Workflow::operatorsForInput(std::string const &input_name) const
 ```
 
-
-
-
 get the list of [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) s and their exposed input pin number for a given exposed input pin name.
-
-
 
 **Parameters**:
 
@@ -5741,17 +4262,11 @@ get the list of [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_
 ![][public]
 ![][const]
 
-
 ```cpp
 std::pair< int, ansys::dpf::Operator > ansys::dpf::Workflow::operatorForOutput(std::string const &output_name) const
 ```
 
-
-
-
 get the [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) and their exposed output pin number for a given exposed output pin name.
-
-
 
 **Parameters**:
 
@@ -5770,17 +4285,9 @@ get the [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operato
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::enableCache(bool b)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -5800,17 +4307,11 @@ void ansys::dpf::Workflow::enableCache(bool b)
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::Workflow::getHashableKey() const
 ```
 
-
-
-
 Set and get an simpler hashable entity (here workflow identifier) instead of the full Workflow to save time
-
-
 
 **Return type**: std::string
 
@@ -5826,17 +4327,9 @@ Set and get an simpler hashable entity (here workflow identifier) instead of the
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::Workflow::setHashableKey(const std::string &unique_identifier) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -5856,17 +4349,11 @@ void ansys::dpf::Workflow::setHashableKey(const std::string &unique_identifier) 
 ![][public]
 ![][const]
 
-
 ```cpp
 size_t ansys::dpf::Workflow::getHash() const
 ```
 
-
-
-
 Compute and get the hash of a workflow
-
-
 
 **Return type**: size_t
 
@@ -5881,17 +4368,11 @@ Compute and get the hash of a workflow
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Workflow::addStep(const std::string &name, const WorkflowStep &step)
 ```
 
-
-
-
 Set symbolic step to the workflow
-
-
 
 **Parameters**:
 
@@ -5911,17 +4392,9 @@ Set symbolic step to the workflow
 
 ![][public]
 
-
 ```cpp
 std::map< std::string, WorkflowStep > ansys::dpf::Workflow::getSteps()
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::map< std::string, WorkflowStep >
 
@@ -5939,20 +4412,14 @@ std::map< std::string, WorkflowStep > ansys::dpf::Workflow::getSteps()
 ![][public]
 ![][static]
 
-
 ```cpp
 static Workflow ansys::dpf::Workflow::emptyWorkflow()
 ```
-
-
-
 
 Create an empty workflow. 
 **Returns**:
 
 Empty Workflow.
-
-
 
 **Return type**: Workflow
 
@@ -5967,3 +4434,4 @@ Empty Workflow.
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+[Markdown]: https://img.shields.io/badge/language-Markdown-blue (Markdown)

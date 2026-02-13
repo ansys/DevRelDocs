@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 93)
 
-
-
 Base class for external data. 
 
 **See also**: [ExternalDataT](classansys_1_1dpf_1_1ExternalDataT.md#classansys_1_1dpf_1_1ExternalDataT)
@@ -27,17 +25,9 @@ Base class for external data.
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::ExternalData::~ExternalData()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 

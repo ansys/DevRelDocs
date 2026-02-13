@@ -5,10 +5,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 39)
 
-
-
-
-
 ## Functions
 
 <a id="dpf__api__base_8h_1a3536bcf1fa71355264a220b8d375579d"></a>
@@ -17,17 +13,9 @@
 ![][public]
 ![][static]
 
-
 ```cpp
 static void helper::call_function(FunctionT f, ansys::dpf::so::API const *api, ArgsT... args)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -49,17 +37,9 @@ static void helper::call_function(FunctionT f, ansys::dpf::so::API const *api, A
 
 ![][public]
 
-
 ```cpp
 void helper::throw_dpf_exception_if_necessary(std::string const &origin, int error_size, _TCHAR *text, const ansys::dpf::so::API *api)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 

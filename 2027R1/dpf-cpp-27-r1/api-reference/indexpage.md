@@ -1,8 +1,6 @@
 <a id="indexpage"></a>
 # DPF API Documentation
 
-
-
 The DPF API contains methods for utilizing DPF.  <iframe width="100%" height="100%" style="overflow:hidden;" src="dataProcessingDoc.html"></iframe>
 ///
 

@@ -34,17 +34,9 @@ Must be used while writing the specification of an operator. Use lower case for 
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 899)
 
-
 ```cpp
 std::string ansys::dpf::spec::sUserName
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -62,17 +54,9 @@ std::string ansys::dpf::spec::sUserName
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 900)
 
-
 ```cpp
 std::string ansys::dpf::spec::sScriptingName
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 

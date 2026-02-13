@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6002)
 
-
-
-
-
 ## Members
 
 * [\_api](classansys_1_1dpf_1_1OperatorDerivativeMain.md#classansys_1_1dpf_1_1OperatorDerivativeMain_1a4014d4308767800804f42da542e09c61)
@@ -26,87 +22,7 @@
 
 ## Private attributes
 
-<a id="classansys_1_1dpf_1_1OperatorDerivativeMain_1ab4fccca9365502442f76d2f3aca45518"></a>
-### Variable \_data
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6005)
-
-
-```cpp
-opaque::DpfOperatorDerivData* ansys::dpf::OperatorDerivativeMain::_data
-```
-
-
-
-
-
-
-
-
-**Type**: opaque::DpfOperatorDerivData *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorDerivativeMain::_data"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1OperatorDerivativeMain_1a4014d4308767800804f42da542e09c61"></a>
-### Variable \_api
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6006)
-
-
-```cpp
-so::API const* ansys::dpf::OperatorDerivativeMain::_api
-```
-
-
-
-
-
-
-
-
-**Type**: so::API const  *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorDerivativeMain::_api"}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1OperatorDerivativeMain_1ad41bf2edf2aa53b5dd1d500585cb830f"></a>
-### Function callAPI
-
-![][private]
-![][const]
-
-
-```cpp
-so::API const  * ansys::dpf::OperatorDerivativeMain::callAPI() const
-```
-
-
-
-
-
-
-
-
-**Return type**: so::API const *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorDerivativeMain::callAPI"}]}`
--->
 
 ## Public functions
 
@@ -115,17 +31,9 @@ so::API const  * ansys::dpf::OperatorDerivativeMain::callAPI() const
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::OperatorDerivativeMain::OperatorDerivativeMain(opaque::DpfOperatorDerivData *data)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -144,17 +52,9 @@ ansys::dpf::OperatorDerivativeMain::OperatorDerivativeMain(opaque::DpfOperatorDe
 
 ![][public]
 
-
 ```cpp
 Operator ansys::dpf::OperatorDerivativeMain::getDerivativeOfInput(int pin_index)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -173,17 +73,9 @@ Operator ansys::dpf::OperatorDerivativeMain::getDerivativeOfInput(int pin_index)
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorDerivativeMain::mapBaseInputToInput(int base_pin_idx, int op_pin_idx, Operator &op)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -204,17 +96,9 @@ void ansys::dpf::OperatorDerivativeMain::mapBaseInputToInput(int base_pin_idx, i
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorDerivativeMain::mapBaseOutputToInput(int base_pin_idx, int op_pin_idx, Operator &op)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -235,17 +119,9 @@ void ansys::dpf::OperatorDerivativeMain::mapBaseOutputToInput(int base_pin_idx, 
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorDerivativeMain::setDerivative(Operator &out)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -264,17 +140,9 @@ void ansys::dpf::OperatorDerivativeMain::setDerivative(Operator &out)
 
 ![][public]
 
-
 ```cpp
 Operator ansys::dpf::OperatorDerivativeMain::instanciate(std::string const &operator_name)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -293,17 +161,9 @@ Operator ansys::dpf::OperatorDerivativeMain::instanciate(std::string const &oper
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorDerivativeMain::mapDownStreamDerivativeTo(int input_pin, Operator &op)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -323,17 +183,9 @@ void ansys::dpf::OperatorDerivativeMain::mapDownStreamDerivativeTo(int input_pin
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::OperatorDerivativeMain::connectUpStreamDerivativeTo(Operator &op, int out_pin, int ancestor_pin)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 

@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 1931)
 
-
-
-
-
 **Template parameters**:
 
 * typename T
@@ -26,33 +22,6 @@
 
 ## Private attributes
 
-<a id="classansys_1_1dpf_1_1LibraryHolder_1a31482a89a064e0644c5599350ac0854a"></a>
-### Variable \_handle
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 1934)
-
-
-```cpp
-LibraryHandle ansys::dpf::LibraryHolder< T >::_handle
-```
-
-
-
-
-
-
-
-
-**Type**: [LibraryHandle](classansys_1_1dpf_1_1LibraryHandle.md#classansys_1_1dpf_1_1LibraryHandle)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::LibraryHolder::_handle"}]}`
--->
-
 ## Public functions
 
 <a id="classansys_1_1dpf_1_1LibraryHolder_1a9e3f921d5170e5107fd29b170556642d"></a>
@@ -60,17 +29,9 @@ LibraryHandle ansys::dpf::LibraryHolder< T >::_handle
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::LibraryHolder< T >::LibraryHolder()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -85,17 +46,9 @@ ansys::dpf::LibraryHolder< T >::LibraryHolder()
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::LibraryHolder< T >::~LibraryHolder()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 

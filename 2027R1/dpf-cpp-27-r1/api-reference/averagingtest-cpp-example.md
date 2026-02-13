@@ -3,8 +3,6 @@
 
 **Location**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h`
 
-
-
 Examples showing how to average results to reach a nodal or elemental form, per bodies... 
 ```
 

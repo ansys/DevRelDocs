@@ -45,312 +45,7 @@ Defines an open, ready-to-use, data sources.
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1Streams_1a33ff3f826991522d2e77c1c523f33e19"></a>
-### Friend Operator
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3596)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Operator"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Streams::Operator"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Operator"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Streams_1afa07847c7cb432b260e61a0c18025ba3"></a>
-### Friend Workflow
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3597)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Workflow"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Streams::Workflow"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Workflow"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Streams_1a81d95df60edf516a1de9878b780f8fb3"></a>
-### Friend OperatorMain
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3598)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorMain"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Streams::OperatorMain"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorMain"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Streams_1a4d716179fdda163f10d901eb583050bf"></a>
-### Friend RemoteWorkflow
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3599)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class RemoteWorkflow"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Streams::RemoteWorkflow"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"RemoteWorkflow"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Streams_1a9820c685b67a3355c042bb0b3365d9e2"></a>
-### Friend Any
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3600)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Any"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Streams::Any"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Any"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Streams_1a0188648e79792cb24b2117066be505eb"></a>
-### Friend LabelSpace
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3601)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class LabelSpace"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Streams::LabelSpace"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"LabelSpace"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Streams_1a183aa7f533f994799a7dec66caf1191a"></a>
-### Friend RemoteOperator
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3602)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class RemoteOperator"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Streams::RemoteOperator"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"RemoteOperator"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Streams_1acc06c4380c923e11af63f95e97c3c259"></a>
-### Friend GenericDataContainer
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3603)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class GenericDataContainer"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Streams::GenericDataContainer"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"GenericDataContainer"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Streams_1a5db1c99e2c94b26278f3838c85cdb618"></a>
-### Friend Client
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3604)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Client"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Streams::Client"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Client"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1Streams_1a2c06ce5c4178519809f9e52da492cabf"></a>
-### Function Streams
-
-![][private]
-
-
-```cpp
-ansys::dpf::Streams::Streams(opaque::DpfInternalSharedObject *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfInternalSharedObject *
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Streams::Streams"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Streams_1acaed304f6bc14eab2751b7acbebe469e"></a>
-### Function getExternalStreamWrap
-
-![][private]
-![][const]
-
-
-```cpp
-void *const ansys::dpf::Streams::getExternalStreamWrap(std::string const &key) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* std::string const & **key**
-
-**Return type**: void *const
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Streams::getExternalStreamWrap"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Streams_1a37e0bc5eaafd69ddb0525f9e02339cd6"></a>
-### Function getExternalStreamLabelWrap
-
-![][private]
-![][const]
-
-
-```cpp
-void *const ansys::dpf::Streams::getExternalStreamLabelWrap(LabelSpace const &identifier) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* LabelSpace const & **identifier**
-
-**Return type**: void *const
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Streams::getExternalStreamLabelWrap"}]}`
--->
 
 ## Public functions
 
@@ -359,17 +54,9 @@ void *const ansys::dpf::Streams::getExternalStreamLabelWrap(LabelSpace const &id
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::Streams::~Streams()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -384,17 +71,11 @@ virtual ansys::dpf::Streams::~Streams()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Streams::Streams(DataSources const &dataSources, bool open_files=false)
 ```
 
-
-
-
 Create a stream from given data sources.
-
-
 
 **Parameters**:
 
@@ -414,17 +95,9 @@ Create a stream from given data sources.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Streams::Streams(Streams const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -443,17 +116,9 @@ ansys::dpf::Streams::Streams(Streams const &)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Streams::Streams(Streams &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -472,17 +137,11 @@ ansys::dpf::Streams::Streams(Streams &&) noexcept
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Streams::Streams(int id, Client const *const client)
 ```
 
-
-
-
 Retrieve an existing instance of [Streams](classansys_1_1dpf_1_1Streams.md#classansys_1_1dpf_1_1Streams) on a server.
-
-
 
 **Parameters**:
 
@@ -502,17 +161,9 @@ Retrieve an existing instance of [Streams](classansys_1_1dpf_1_1Streams.md#class
 
 ![][public]
 
-
 ```cpp
 Streams & ansys::dpf::Streams::operator=(Streams const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -531,17 +182,9 @@ Streams & ansys::dpf::Streams::operator=(Streams const &)
 
 ![][public]
 
-
 ```cpp
 Streams & ansys::dpf::Streams::operator=(Streams &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -560,17 +203,11 @@ Streams & ansys::dpf::Streams::operator=(Streams &&) noexcept
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Streams::releaseFiles()
 ```
 
-
-
-
 Closes all files and releases file resources.
-
-
 
 **Return type**: void
 
@@ -585,17 +222,11 @@ Closes all files and releases file resources.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Streams::addStream(ExternalStream *stream)
 ```
 
-
-
-
 Add external stream.
-
-
 
 **Parameters**:
 
@@ -614,17 +245,11 @@ Add external stream.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Streams::addStream(ExternalStream *stream, LabelSpace const &identifier)
 ```
 
-
-
-
 Add external stream.
-
-
 
 **Parameters**:
 
@@ -645,17 +270,9 @@ Add external stream.
 ![][public]
 ![][const]
 
-
 ```cpp
 ExternalStreamType *const ansys::dpf::Streams::getExternalStream(std::string const &key) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -676,17 +293,9 @@ ExternalStreamType *const ansys::dpf::Streams::getExternalStream(std::string con
 ![][public]
 ![][const]
 
-
 ```cpp
 ExternalStreamType *const ansys::dpf::Streams::getExternalStream(LabelSpace const &identifier) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -707,17 +316,9 @@ ExternalStreamType *const ansys::dpf::Streams::getExternalStream(LabelSpace cons
 ![][public]
 ![][const]
 
-
 ```cpp
 DataSources ansys::dpf::Streams::dataSources() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources)
 
@@ -735,20 +336,14 @@ DataSources ansys::dpf::Streams::dataSources() const
 ![][public]
 ![][static]
 
-
 ```cpp
 static Streams ansys::dpf::Streams::emptyStreams()
 ```
-
-
-
 
 Create an empty streams. 
 **Returns**:
 
 Empty [Streams](classansys_1_1dpf_1_1Streams.md#classansys_1_1dpf_1_1Streams).
-
-
 
 **Return type**: Streams
 

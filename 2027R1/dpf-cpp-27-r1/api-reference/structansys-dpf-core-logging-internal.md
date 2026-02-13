@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6746)
 
-
-
-
-
 ## Members
 
 * [createGetLoggerParams](structansys_1_1dpf_1_1core_1_1logging_1_1internal.md#structansys_1_1dpf_1_1core_1_1logging_1_1internal_1a3a9e68b5ba988bc6efede0511b1c1a90)
@@ -23,17 +19,9 @@
 ![][public]
 ![][static]
 
-
 ```cpp
 static DataTree ansys::dpf::core::logging::internal::createRegisterLoggerParams(std::string const &logger_name, LoggerConfig const &config, Client const *const client=nullptr)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -55,17 +43,9 @@ static DataTree ansys::dpf::core::logging::internal::createRegisterLoggerParams(
 ![][public]
 ![][static]
 
-
 ```cpp
 static DataTree ansys::dpf::core::logging::internal::createGetLoggerParams(std::string const &logger_name, Client const *const client=nullptr)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 

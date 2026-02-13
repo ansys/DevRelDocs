@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 744)
 
-
-
 Description of type. 
 
 **See also**: [types](structansys_1_1dpf_1_1types.md#structansys_1_1dpf_1_1types)
@@ -29,83 +27,6 @@ Description of type.
 
 ## Friends
 
-<a id="structansys_1_1dpf_1_1TypeDescriptor_1a403411f3e10f233f99a0948a853b605a"></a>
-### Friend types
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 746)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"struct"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend struct types"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::TypeDescriptor::types"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"types"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="structansys_1_1dpf_1_1TypeDescriptor_1aa60b6022465bcd46362295cc53d4ba68"></a>
-### Friend OperatorSpecification
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 747)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorSpecification"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::TypeDescriptor::OperatorSpecification"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorSpecification"}]},{"type":"text","text":"\n        "}]}`
--->
-
-## Private attributes
-
-<a id="structansys_1_1dpf_1_1TypeDescriptor_1a6e115fde1b6792ee1d1dc01d764105d7"></a>
-### Variable \_name
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 749)
-
-
-```cpp
-std::string ansys::dpf::TypeDescriptor::_name
-```
-
-
-
-
-
-
-
-
-**Type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::TypeDescriptor::_name"}]}`
--->
-
 ## Public functions
 
 <a id="structansys_1_1dpf_1_1TypeDescriptor_1a1b435e8d7b7c80e5f005af5b09b67aa5"></a>
@@ -113,17 +34,9 @@ std::string ansys::dpf::TypeDescriptor::_name
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::TypeDescriptor::TypeDescriptor(std::string const &name)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -142,17 +55,9 @@ ansys::dpf::TypeDescriptor::TypeDescriptor(std::string const &name)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::TypeDescriptor::TypeDescriptor(TypeDescriptor const &)=default
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -171,17 +76,9 @@ ansys::dpf::TypeDescriptor::TypeDescriptor(TypeDescriptor const &)=default
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::TypeDescriptor::TypeDescriptor(TypeDescriptor &&)=default
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -200,17 +97,9 @@ ansys::dpf::TypeDescriptor::TypeDescriptor(TypeDescriptor &&)=default
 
 ![][public]
 
-
 ```cpp
 TypeDescriptor & ansys::dpf::TypeDescriptor::operator=(TypeDescriptor const &)=default
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -229,17 +118,9 @@ TypeDescriptor & ansys::dpf::TypeDescriptor::operator=(TypeDescriptor const &)=d
 
 ![][public]
 
-
 ```cpp
 TypeDescriptor & ansys::dpf::TypeDescriptor::operator=(TypeDescriptor &&)=default
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -259,17 +140,9 @@ TypeDescriptor & ansys::dpf::TypeDescriptor::operator=(TypeDescriptor &&)=defaul
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::TypeDescriptor::operator==(TypeDescriptor const &) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -289,17 +162,9 @@ bool ansys::dpf::TypeDescriptor::operator==(TypeDescriptor const &) const
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::TypeDescriptor::operator<(TypeDescriptor const &) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -319,17 +184,9 @@ bool ansys::dpf::TypeDescriptor::operator<(TypeDescriptor const &) const
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::TypeDescriptor::operator<=(TypeDescriptor const &) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -349,17 +206,9 @@ bool ansys::dpf::TypeDescriptor::operator<=(TypeDescriptor const &) const
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::TypeDescriptor::operator!=(TypeDescriptor const &) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -379,17 +228,11 @@ bool ansys::dpf::TypeDescriptor::operator!=(TypeDescriptor const &) const
 ![][public]
 ![][const]
 
-
 ```cpp
 ansys::dpf::TypeDescriptor::operator std::string() const
 ```
 
-
-
-
 Name of type.
-
-
 
 **Return type**: 
 
@@ -405,19 +248,13 @@ Name of type.
 ![][public]
 ![][const]
 
-
 ```cpp
 const char * ansys::dpf::TypeDescriptor::c_str() const
 ```
 
-
-
-
 **Returns**:
 
 Name of type.
-
-
 
 **Return type**: const char *
 

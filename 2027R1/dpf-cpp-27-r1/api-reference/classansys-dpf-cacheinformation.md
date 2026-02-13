@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 4602)
 
-
-
 To be used in order to write external operators
 
 ## Inner classes
@@ -22,33 +20,6 @@ To be used in order to write external operators
 
 ## Private attributes
 
-<a id="classansys_1_1dpf_1_1CacheInformation_1a469c7ef5f0a5cfbf954416d5842c3b3d"></a>
-### Variable \_data
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 4650)
-
-
-```cpp
-DataTree ansys::dpf::CacheInformation::_data
-```
-
-
-
-
-
-
-
-
-**Type**: [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CacheInformation::_data"}]}`
--->
-
 ## Public functions
 
 <a id="classansys_1_1dpf_1_1CacheInformation_1a2013c0dba404b5949969a4d055bb57b0"></a>
@@ -56,17 +27,9 @@ DataTree ansys::dpf::CacheInformation::_data
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::CacheInformation::add(const std::string &pinName, const LevelAndDestination &levelAndDestination)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -87,17 +50,9 @@ void ansys::dpf::CacheInformation::add(const std::string &pinName, const LevelAn
 ![][public]
 ![][const]
 
-
 ```cpp
 const DataTree & ansys::dpf::CacheInformation::get() const noexcept
 ```
-
-
-
-
-
-
-
 
 **Return type**: const [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree) &
 

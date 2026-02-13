@@ -3,8 +3,6 @@
 
 **Location**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h`
 
-
-
 Examples of DPF workflows that compute data. 
 ```
 

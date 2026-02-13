@@ -5,10 +5,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 950)
 
-
-
-
-
 ## Typedefs
 
 <a id="dpf__api__base_8h_1aff0ec7788deeb01cdbbc3c5423ba3e64"></a>
@@ -18,17 +14,9 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 962)
 
-
 ```cpp
 typedef void ansys::dpf::opaque::DpfCustomType
 ```
-
-
-
-
-
-
-
 
 **Return type**: void
 

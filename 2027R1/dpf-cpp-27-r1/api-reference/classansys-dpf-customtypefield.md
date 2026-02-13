@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1674)
 
-
-
 Holds data located on given entities (the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field)'s data is bounded with its scoping). The unitary data type can be chosen by the user (it can be int32, float, char...). Is the equivalent of the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) but with custom type values data. (and not double values).
 
 **Inherits from**:
@@ -90,669 +88,7 @@ Holds data located on given entities (the [Field](classansys_1_1dpf_1_1Field.md#
 
 ## Private types
 
-<a id="classansys_1_1dpf_1_1CustomTypeField_1ac15275da93ade734165536607795304f"></a>
-### Typedef fillFuncByInt
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1901)
-
-
-```cpp
-typedef void(* ansys::dpf::CustomTypeField::fillFuncByInt) (opaque::DpfObject const  *const obj, opaque::DpfVector *, void **, int *, int, int &, _TCHAR *&)
-```
-
-
-
-
-
-
-
-
-**Return type**: void(*
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::fillFuncByInt"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeField_1a5fa6321555c75efe7150dd9b485beedf"></a>
-### Typedef fillFunc
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1902)
-
-
-```cpp
-typedef void(* ansys::dpf::CustomTypeField::fillFunc) (opaque::DpfObject const  *const obj, opaque::DpfVector *, void **, int *, int &, _TCHAR *&)
-```
-
-
-
-
-
-
-
-
-**Return type**: void(*
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::fillFunc"}]}`
--->
-
-## Friends
-
-<a id="classansys_1_1dpf_1_1CustomTypeField_1a33ff3f826991522d2e77c1c523f33e19"></a>
-### Friend Operator
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1676)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Operator"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::Operator"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Operator"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeField_1afa07847c7cb432b260e61a0c18025ba3"></a>
-### Friend Workflow
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1677)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Workflow"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::Workflow"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Workflow"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeField_1abb31806c269987c4a5e2a51f1f4d4d39"></a>
-### Friend MeshedRegion
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1678)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class MeshedRegion"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::MeshedRegion"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"MeshedRegion"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeField_1a81d95df60edf516a1de9878b780f8fb3"></a>
-### Friend OperatorMain
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1679)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorMain"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::OperatorMain"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorMain"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeField_1a9820c685b67a3355c042bb0b3365d9e2"></a>
-### Friend Any
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1680)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Any"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::Any"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Any"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeField_1a4303ef65e3d088cbff0512dfbf3734ac"></a>
-### Friend Support
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1681)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Support"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::Support"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Support"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeField_1a8a8b42bcbba089cc2a997c65416c9038"></a>
-### Friend GenericSupport
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1682)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class GenericSupport"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::GenericSupport"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"GenericSupport"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeField_1af891ea2ca8eebe3679e051763ba989ce"></a>
-### Friend CollectionBase
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1683)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class CollectionBase"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::CollectionBase"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"CollectionBase"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeField_1a85a013dd3ecded2c61e26abb22126377"></a>
-### Friend CustomTypeFieldsContainer
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1684)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class CustomTypeFieldsContainer"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::CustomTypeFieldsContainer"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"CustomTypeFieldsContainer"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeField_1acc06c4380c923e11af63f95e97c3c259"></a>
-### Friend GenericDataContainer
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1685)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class GenericDataContainer"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::GenericDataContainer"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"GenericDataContainer"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeField_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1686)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeField_1a6c5ceed26c19a00434b5fa91cbed580c"></a>
-### Friend DataTree
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1687)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class DataTree"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::DataTree"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"DataTree"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1CustomTypeField_1a8b7bb0926ee5fd732de9c906bb9fb279"></a>
-### Function CustomTypeField
-
-![][private]
-
-
-```cpp
-ansys::dpf::CustomTypeField::CustomTypeField(opaque::DpfInternalSharedObject *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfInternalSharedObject *
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::CustomTypeField"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeField_1a098ef1c26b5bd811a44f73610c663ae9"></a>
-### Function CustomTypeField
-
-![][private]
-
-
-```cpp
-ansys::dpf::CustomTypeField::CustomTypeField(opaque::DpfObject *, so::API const *api)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfObject *
-* so::API const * **api**
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::CustomTypeField"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeField_1a12121ff0122035dabf58b9b5b0b437f8"></a>
-### Function init
-
-![][private]
-
-
-```cpp
-void ansys::dpf::CustomTypeField::init(Client const *const client, std::string const &type, dp_int unitary_data_num_bytes, dp_int reserved_number_of_entities, dp_int reserved_num_unitary_data)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [Client](classansys_1_1dpf_1_1Client.md#classansys_1_1dpf_1_1Client) const *const **client**
-* std::string const & **type**
-* [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0) **unitary_data_num_bytes**: [in] Num bytes by unitary data.
-* [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0) **reserved_number_of_entities**: [in] Number of entities to reserve in the scoping.
-* [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0) **reserved_num_unitary_data**: [in] Reserved size of data=reserved_num_unitary_data*unitary_data_num_bytes.
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::init"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeField_1abbdf64fde6abac6ded4815f89c5e17eb"></a>
-### Function typeName
-
-![][private]
-![][const]
-
-
-```cpp
-std::string ansys::dpf::CustomTypeField::typeName() const
-```
-
-
-
-
-
-
-
-
-**Return type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::typeName"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeField_1a8fc4cb48cf78f7ebfc2ca3ddb6da4c81"></a>
-### Function unitarySize
-
-![][private]
-![][const]
-
-
-```cpp
-dp_int ansys::dpf::CustomTypeField::unitarySize() const
-```
-
-
-
-
-
-
-
-
-**Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::unitarySize"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeField_1afa8d4e1733a1a0cd18a6936935cf6d05"></a>
-### Function customtypefield\_get\_data\_for\_dpfVector
-
-![][private]
-![][const]
-
-
-```cpp
-fillFunc ansys::dpf::CustomTypeField::customtypefield_get_data_for_dpfVector() const
-```
-
-
-
-
-
-
-
-
-**Return type**: fillFunc
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::customtypefield_get_data_for_dpfVector"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeField_1a0501f3082206c558d530b7ca52f32e56"></a>
-### Function customtypefield\_get\_entity\_data\_for\_dpfVector
-
-![][private]
-![][const]
-
-
-```cpp
-fillFuncByInt ansys::dpf::CustomTypeField::customtypefield_get_entity_data_for_dpfVector() const
-```
-
-
-
-
-
-
-
-
-**Return type**: fillFuncByInt
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::customtypefield_get_entity_data_for_dpfVector"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeField_1a2cade9cc83bfdba22c0afaa9d90fe48a"></a>
-### Function customtypefield\_get\_entity\_data\_by\_id\_for\_dpfVector
-
-![][private]
-![][const]
-
-
-```cpp
-fillFuncByInt ansys::dpf::CustomTypeField::customtypefield_get_entity_data_by_id_for_dpfVector() const
-```
-
-
-
-
-
-
-
-
-**Return type**: fillFuncByInt
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::customtypefield_get_entity_data_by_id_for_dpfVector"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeField_1a5be2bdfebf82d2d393099a6a3570afa2"></a>
-### Function push\_back
-
-![][private]
-
-
-```cpp
-void ansys::dpf::CustomTypeField::push_back(dp_id entity_id, void *values, dp_int size)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [dp\_id](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**
-* void * **values**
-* [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0) **size**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::push_back"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeField_1ae0550750e32534ee470785fe1d495362"></a>
-### Function setData
-
-![][private]
-
-
-```cpp
-void ansys::dpf::CustomTypeField::setData(void *values, dp_int size)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* void * **values**
-* [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0) **size**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::setData"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeField_1a804ae03fc5b12edccd663fb49616004b"></a>
-### Function copy\_to\_Tfield
-
-![][private]
-![][const]
-
-
-```cpp
-void ansys::dpf::CustomTypeField::copy_to_Tfield(TField &out, ansys::dpf::Client const *const client, bool const copy_ids=true, bool const copy_data_ptr=true, bool const copy_support=true) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* TField & **out**: [in] [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) where to copy the data
-* [ansys::dpf::Client](classansys_1_1dpf_1_1Client.md#classansys_1_1dpf_1_1Client) const *const **client**: [in] Remote client
-* bool const **copy_ids** = true : [in] Boolean to decide if scoping ids are to be copied
-* bool const **copy_data_ptr** = true : [in] Boolean to decide if data pointer is to be copied
-* bool const **copy_support** = true : [in] Boolean to decide if the support reference is to be copied
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename TField"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::copy_to_Tfield"}]}`
--->
 
 ## Public static functions
 
@@ -762,17 +98,9 @@ void ansys::dpf::CustomTypeField::copy_to_Tfield(TField &out, ansys::dpf::Client
 ![][public]
 ![][static]
 
-
 ```cpp
 static CustomTypeField ansys::dpf::CustomTypeField::emptyCustomTypeField()
 ```
-
-
-
-
-
-
-
 
 **Return type**: CustomTypeField
 
@@ -789,17 +117,9 @@ static CustomTypeField ansys::dpf::CustomTypeField::emptyCustomTypeField()
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::CustomTypeField::~CustomTypeField()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -814,17 +134,11 @@ virtual ansys::dpf::CustomTypeField::~CustomTypeField()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::CustomTypeField::CustomTypeField(Client const *const client, UnitaryDataType *, dp_int reserved_number_of_entities=0, dp_int reserved_num_unitary_data=0)
 ```
 
-
-
-
 Create an empty custom type field with a client. The unitary data type will be UnitaryDataType. For example, use [ansys::dpf::CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField) f(ansys::dpf::UseType<float>()).
-
-
 
 **Parameters**:
 
@@ -847,17 +161,11 @@ Create an empty custom type field with a client. The unitary data type will be U
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::CustomTypeField::CustomTypeField(UnitaryDataType *, dp_int reserved_number_of_entities=0, dp_int reserved_num_unitary_data=0)
 ```
 
-
-
-
 Create a property with number of entities and data size. The unitary data type will be UnitaryDataType. For example, use [ansys::dpf::CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField) f(ansys::dpf::UseType<float>()).
-
-
 
 **Parameters**:
 
@@ -879,17 +187,11 @@ Create a property with number of entities and data size. The unitary data type w
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::CustomTypeField::CustomTypeField(Client const *const client, dp_int unitary_data_num_bytes, dp_int reserved_number_of_entities=0, dp_int reserved_num_unitary_data=0)
 ```
 
-
-
-
 Create an empty custom type field with a client. The unitary data type will be of size unitary_data_num_bytes.
-
-
 
 **Parameters**:
 
@@ -911,17 +213,11 @@ Create an empty custom type field with a client. The unitary data type will be o
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::CustomTypeField::CustomTypeField(dp_int unitary_data_num_bytes, dp_int reserved_number_of_entities=0, dp_int reserved_num_unitary_data=0)
 ```
 
-
-
-
 Create a property with number of entities and data size. The unitary data type will be of size unitary_data_num_bytes.
-
-
 
 **Parameters**:
 
@@ -942,17 +238,11 @@ Create a property with number of entities and data size. The unitary data type w
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::CustomTypeField::CustomTypeField(int id, Client const *const client)
 ```
 
-
-
-
 Retrieve an existing instance of [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField) on a server.
-
-
 
 **Parameters**:
 
@@ -972,17 +262,9 @@ Retrieve an existing instance of [CustomTypeField](classansys_1_1dpf_1_1CustomTy
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::CustomTypeField::CustomTypeField(CustomTypeField const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -1001,17 +283,9 @@ ansys::dpf::CustomTypeField::CustomTypeField(CustomTypeField const &)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::CustomTypeField::CustomTypeField(CustomTypeField &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -1030,17 +304,9 @@ ansys::dpf::CustomTypeField::CustomTypeField(CustomTypeField &&) noexcept
 
 ![][public]
 
-
 ```cpp
 CustomTypeField & ansys::dpf::CustomTypeField::operator=(CustomTypeField const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -1059,17 +325,9 @@ CustomTypeField & ansys::dpf::CustomTypeField::operator=(CustomTypeField const &
 
 ![][public]
 
-
 ```cpp
 CustomTypeField & ansys::dpf::CustomTypeField::operator=(CustomTypeField &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -1089,17 +347,11 @@ CustomTypeField & ansys::dpf::CustomTypeField::operator=(CustomTypeField &&) noe
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::CustomTypeField::identicalPointers(CustomTypeField const &f) const
 ```
 
-
-
-
 Compare field with input field f.
-
-
 
 **Parameters**:
 
@@ -1119,19 +371,13 @@ Compare field with input field f.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::CustomTypeField::name() const
 ```
 
-
-
-
 **Returns**:
 
 Name of [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField).
-
-
 
 **Return type**: std::string
 
@@ -1146,17 +392,11 @@ Name of [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::CustomTypeField::setName(const std::string &name)
 ```
 
-
-
-
 Set name of [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField).
-
-
 
 **Parameters**:
 
@@ -1176,19 +416,13 @@ Set name of [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys
 ![][public]
 ![][const]
 
-
 ```cpp
 Scoping ansys::dpf::CustomTypeField::scoping() const
 ```
 
-
-
-
 **Returns**:
 
 [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) of the property.
-
-
 
 **Return type**: [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping)
 
@@ -1204,19 +438,13 @@ Scoping ansys::dpf::CustomTypeField::scoping() const
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::CustomTypeField::dataSize() const
 ```
 
-
-
-
 **Returns**:
 
 Size of the data container.
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -1232,19 +460,13 @@ Size of the data container.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::CustomTypeField::numberOfComponents() const
 ```
 
-
-
-
 **Returns**:
 
 Number of components in the property data.
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -1260,19 +482,13 @@ Number of components in the property data.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::CustomTypeField::numberOfEntities() const
 ```
 
-
-
-
 **Returns**:
 
 Number of entities in the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) Only implemented for in process udage. For gRPC usage, use [scoping()](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField_1a042c55cecb14366c797e50d45d7309de).size().
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -1288,19 +504,13 @@ Number of entities in the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dp
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::CustomTypeField::numberOfElementaryData() const
 ```
 
-
-
-
 **Returns**:
 
 Number of elementary data (size = number of components) contained in the [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField).
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -1315,17 +525,11 @@ Number of elementary data (size = number of components) contained in the [Custom
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::CustomTypeField::push_back(dp_id entity_id, std::vector< UnitaryDataType > const &values)
 ```
 
-
-
-
 Push back the entity data. The unitary data type should be UnitaryDataType.
-
-
 
 **Parameters**:
 
@@ -1346,17 +550,11 @@ Push back the entity data. The unitary data type should be UnitaryDataType.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::CustomTypeField::push_back(dp_id entity_id, const UnitaryDataType *values, dp_int size)
 ```
 
-
-
-
 Push back the entity data. The unitary data type should be UnitaryDataType.
-
-
 
 **Parameters**:
 
@@ -1378,23 +576,13 @@ Push back the entity data. The unitary data type should be UnitaryDataType.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::CustomTypeField::setData(std::vector< UnitaryDataType > const &data)
 ```
 
-
-
-
 Set the data of the custom property field.
 
-
-
-
-
 Push back the entity data. The unitary data type should be UnitaryDataType.
-
-
 
 **Parameters**:
 
@@ -1414,17 +602,11 @@ Push back the entity data. The unitary data type should be UnitaryDataType.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::CustomTypeField::setData(UnitaryDataType const *const data, int size)
 ```
 
-
-
-
 Set the data of the custom property field. The unitary data type should be UnitaryDataType.
-
-
 
 **Parameters**:
 
@@ -1445,17 +627,11 @@ Set the data of the custom property field. The unitary data type should be Unita
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::CustomTypeField::setDataPointer(std::vector< dp_int > const &data)
 ```
 
-
-
-
 Set the data pointer of the custom type field.
-
-
 
 **Parameters**:
 
@@ -1474,17 +650,11 @@ Set the data pointer of the custom type field.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::CustomTypeField::setDataPointer(dp_int const *const data, int size)
 ```
 
-
-
-
 Set the data pointer of the custom type field.
-
-
 
 **Parameters**:
 
@@ -1504,17 +674,11 @@ Set the data pointer of the custom type field.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::CustomTypeField::setScoping(ansys::dpf::Scoping const &s)
 ```
 
-
-
-
 Set the scoping of the custom property field.
-
-
 
 **Parameters**:
 
@@ -1534,17 +698,11 @@ Set the scoping of the custom property field.
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::CustomTypeField::addStringProperty(const char *key, const char *sProp) const
 ```
 
-
-
-
 Add property of given key and string value. If key is already set, then value is updated with sProp.
-
-
 
 **Parameters**:
 
@@ -1565,19 +723,13 @@ Add property of given key and string value. If key is already set, then value is
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::CustomTypeField::getStringProperty(const char *key, std::string &sProp) const
 ```
 
-
-
-
 **Returns**:
 
 True if property of given key is set. Sprop is updated with the property's value.
-
-
 
 **Parameters**:
 
@@ -1598,17 +750,11 @@ True if property of given key is set. Sprop is updated with the property's value
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::CustomTypeField::getData(std::vector< UnitaryDataType > &values_to_fill) const
 ```
 
-
-
-
 Get all data for property entities. The unitary data type should be UnitaryDataType.
-
-
 
 **Parameters**:
 
@@ -1629,19 +775,13 @@ Get all data for property entities. The unitary data type should be UnitaryDataT
 ![][public]
 ![][const]
 
-
 ```cpp
 DpfVector< UnitaryDataType > ansys::dpf::CustomTypeField::data() const
 ```
 
-
-
-
 **Returns**:
 
 [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) of data array. The unitary data type should be UnitaryDataType.
-
-
 
 **Return type**: DpfVector< UnitaryDataType >
 
@@ -1658,19 +798,13 @@ DpfVector< UnitaryDataType > ansys::dpf::CustomTypeField::data() const
 ![][public]
 ![][const]
 
-
 ```cpp
 DpfVector< int > ansys::dpf::CustomTypeField::dataPointer() const
 ```
 
-
-
-
 **Returns**:
 
 [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) of data array.
-
-
 
 **Return type**: DpfVector< int >
 
@@ -1686,19 +820,13 @@ DpfVector< int > ansys::dpf::CustomTypeField::dataPointer() const
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::CustomTypeField::entityData(dp_index entity_index, DpfVector< UnitaryDataType > &data) const
 ```
 
-
-
-
 **Returns**:
 
 [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) of data array of an entity, by index. The unitary data type should be UnitaryDataType.
-
-
 
 **Parameters**:
 
@@ -1720,19 +848,13 @@ void ansys::dpf::CustomTypeField::entityData(dp_index entity_index, DpfVector< U
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::CustomTypeField::entityDataById(dp_id entity_id, DpfVector< UnitaryDataType > &data) const
 ```
 
-
-
-
 **Returns**:
 
 [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) of data array of an entity, by id. The unitary data type should be UnitaryDataType.
-
-
 
 **Parameters**:
 
@@ -1753,17 +875,11 @@ void ansys::dpf::CustomTypeField::entityDataById(dp_id entity_id, DpfVector< Uni
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::CustomTypeField::reserve(dp_int number_of_entities, dp_int overall_size=0)
 ```
 
-
-
-
 Reserve the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field). Only implemented for in process udage. To reserve the size for gRPC usage, use the constructor.
-
-
 
 **Parameters**:
 
@@ -1783,17 +899,11 @@ Reserve the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field). O
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::CustomTypeField::resize(dp_int number_of_entities, dp_int overall_size)
 ```
 
-
-
-
 Reserve the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field).
-
-
 
 **Parameters**:
 
@@ -1813,17 +923,13 @@ Reserve the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field).
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::CustomTypeField::resizeDataPointer(dp_int number_of_entities)
 ```
 
-
 [in] Number of entities
 
 Resize the dataPointer array.
-
-
 
 **Parameters**:
 
@@ -1843,19 +949,13 @@ Resize the dataPointer array.
 ![][public]
 ![][const]
 
-
 ```cpp
 FieldDefinition ansys::dpf::CustomTypeField::fieldDefinition() const
 ```
 
-
-
-
 **Returns**:
 
 [FieldDefinition](classansys_1_1dpf_1_1FieldDefinition.md#classansys_1_1dpf_1_1FieldDefinition) of the field.
-
-
 
 **Return type**: [FieldDefinition](classansys_1_1dpf_1_1FieldDefinition.md#classansys_1_1dpf_1_1FieldDefinition)
 
@@ -1871,19 +971,13 @@ FieldDefinition ansys::dpf::CustomTypeField::fieldDefinition() const
 ![][public]
 ![][const]
 
-
 ```cpp
 Support ansys::dpf::CustomTypeField::support() const
 ```
 
-
-
-
 **Returns**:
 
 [Support](classansys_1_1dpf_1_1Support.md#classansys_1_1dpf_1_1Support) of the field.
-
-
 
 **Return type**: Support
 
@@ -1898,17 +992,11 @@ Support ansys::dpf::CustomTypeField::support() const
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::CustomTypeField::setSupport(ansys::dpf::Support &s)
 ```
 
-
-
-
 Set the support of the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field).
-
-
 
 **Parameters**:
 
@@ -1927,17 +1015,11 @@ Set the support of the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::CustomTypeField::setSupport(ansys::dpf::TimeFreqSupport &s)
 ```
 
-
-
-
 Set the support of the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field).
-
-
 
 **Parameters**:
 
@@ -1956,17 +1038,11 @@ Set the support of the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::CustomTypeField::setSupport(ansys::dpf::MeshedRegion &s)
 ```
 
-
-
-
 Set the support of the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field).
-
-
 
 **Parameters**:
 
@@ -1985,17 +1061,11 @@ Set the support of the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::CustomTypeField::setFieldDefinition(FieldDefinition const &f)
 ```
 
-
-
-
 Set the [FieldDefinition](classansys_1_1dpf_1_1FieldDefinition.md#classansys_1_1dpf_1_1FieldDefinition).
-
-
 
 **Parameters**:
 
@@ -2015,17 +1085,11 @@ Set the [FieldDefinition](classansys_1_1dpf_1_1FieldDefinition.md#classansys_1_1
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::CustomTypeField::isOfUnitaryType() const
 ```
 
-
-
-
 tests the type of the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field).
-
-
 
 **Return type**: bool
 
@@ -2042,17 +1106,11 @@ tests the type of the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_
 ![][public]
 ![][const]
 
-
 ```cpp
 CustomTypeField ansys::dpf::CustomTypeField::cloneToCustomTypeField(ansys::dpf::Client const *const client=nullptr, bool const copy_ids=true, bool const copy_data_ptr=true, bool const copy_support=true) const
 ```
 
-
-
-
 Creates a new custom type field object from current field without its data.
-
-
 
 **Parameters**:
 
@@ -2076,17 +1134,11 @@ Creates a new custom type field object from current field without its data.
 ![][public]
 ![][const]
 
-
 ```cpp
 Field ansys::dpf::CustomTypeField::cloneToField(ansys::dpf::Client const *const client=nullptr, bool const copy_ids=true, bool const copy_data_ptr=true, bool const copy_support=true) const
 ```
 
-
-
-
 Creates a new field object from current custom type field without its data.
-
-
 
 **Parameters**:
 
@@ -2109,17 +1161,11 @@ Creates a new field object from current custom type field without its data.
 ![][public]
 ![][const]
 
-
 ```cpp
 PropertyField ansys::dpf::CustomTypeField::cloneToPropertyField(ansys::dpf::Client const *const client=nullptr, bool const copy_ids=true, bool const copy_data_ptr=true, bool const copy_support=true) const
 ```
 
-
-
-
 Creates a new property field object from current custom type field without its data.
-
-
 
 **Parameters**:
 
@@ -2142,17 +1188,11 @@ Creates a new property field object from current custom type field without its d
 ![][public]
 ![][const]
 
-
 ```cpp
 DataTree ansys::dpf::CustomTypeField::getHeaderAsDataTree() const
 ```
 
-
-
-
 Get the header of the [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField) as a [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree) object.
-
-
 
 **Return type**: DataTree
 
@@ -2167,17 +1207,11 @@ Get the header of the [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::CustomTypeField::setHeaderAsDataTree(const DataTree &datatree)
 ```
 
-
-
-
 Set the header of the [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField) using a [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree) object.
-
-
 
 **Parameters**:
 
@@ -2197,17 +1231,11 @@ Set the header of the [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#
 ![][public]
 ![][const]
 
-
 ```cpp
 CustomTypeField ansys::dpf::CustomTypeField::deep_copy(ansys::dpf::Client const *const client=nullptr) const
 ```
 
-
-
-
 Create a new [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField) on a server by copying all the data of this [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField).
-
-
 
 **Parameters**:
 
@@ -2232,3 +1260,4 @@ Create a new [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansy
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+[Markdown]: https://img.shields.io/badge/language-Markdown-blue (Markdown)

@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 994)
 
-
-
 Point on a local element data within a mesh.
 
 ## Members
@@ -31,167 +29,6 @@ Point on a local element data within a mesh.
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1ElementCursor_1abb31806c269987c4a5e2a51f1f4d4d39"></a>
-### Friend MeshedRegion
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 997)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class MeshedRegion"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ElementCursor::MeshedRegion"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"MeshedRegion"}]},{"type":"text","text":"\n        "}]}`
--->
-
-## Private attributes
-
-<a id="classansys_1_1dpf_1_1ElementCursor_1a2d8cd8734fa6ef0b9a36bebb54af6f5a"></a>
-### Variable \_descriptor
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1000)
-
-
-```cpp
-const ElementDescriptor* ansys::dpf::ElementCursor::_descriptor
-```
-
-
-
-
-
-
-
-
-**Type**: const [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor) *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ElementCursor::_descriptor"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ElementCursor_1a2cede84b2d6cb2228836fb6b91cb7cda"></a>
-### Variable \_connectivity
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1001)
-
-
-```cpp
-const dp_int* ansys::dpf::ElementCursor::_connectivity
-```
-
-
-
-
-
-
-
-
-**Type**: const [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0) *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ElementCursor::_connectivity"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ElementCursor_1a7624d6f01af77eee5d2c52ce8443268e"></a>
-### Variable \_effective\_size
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1002)
-
-
-```cpp
-dp_int ansys::dpf::ElementCursor::_effective_size
-```
-
-
-
-
-
-
-
-
-**Type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ElementCursor::_effective_size"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ElementCursor_1a7fee5ce285ed04472c8f3bc65537d5b1"></a>
-### Variable \_id
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1003)
-
-
-```cpp
-dp_id ansys::dpf::ElementCursor::_id
-```
-
-
-
-
-
-
-
-
-**Type**: [dp\_id](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1ab4574c9af3f2bb8011da7d1f4c8da20e)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ElementCursor::_id"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ElementCursor_1a686dcc5429dce2a5de2cf24c9c947b0e"></a>
-### Variable \_is\_defined
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1004)
-
-
-```cpp
-bool ansys::dpf::ElementCursor::_is_defined
-```
-
-
-
-
-
-
-
-
-**Type**: bool
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ElementCursor::_is_defined"}]}`
--->
-
 ## Public functions
 
 <a id="classansys_1_1dpf_1_1ElementCursor_1ae5a794891c2c4ce555ef9ebed86c72c1"></a>
@@ -199,17 +36,9 @@ bool ansys::dpf::ElementCursor::_is_defined
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::ElementCursor::ElementCursor()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -224,17 +53,9 @@ ansys::dpf::ElementCursor::ElementCursor()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::ElementCursor::ElementCursor(ElementCursor const &)=delete
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -253,17 +74,9 @@ ansys::dpf::ElementCursor::ElementCursor(ElementCursor const &)=delete
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::ElementCursor::ElementCursor(ElementCursor &&)=delete
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -283,19 +96,13 @@ ansys::dpf::ElementCursor::ElementCursor(ElementCursor &&)=delete
 ![][public]
 ![][const]
 
-
 ```cpp
 ElementDescriptor const  & ansys::dpf::ElementCursor::descriptor() const
 ```
 
-
-
-
 **Returns**:
 
 Element descriptor for cursor.
-
-
 
 **Return type**: [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor) const &
 
@@ -311,17 +118,11 @@ Element descriptor for cursor.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::ElementCursor::numberOfNodes() const
 ```
 
-
 @ return Number of nodes in element.
-
-
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -337,19 +138,13 @@ dp_int ansys::dpf::ElementCursor::numberOfNodes() const
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::ElementCursor::numberOfCornerNodes() const
 ```
 
-
-
-
 **Returns**:
 
 Number of corner nodes in element.
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -365,19 +160,13 @@ Number of corner nodes in element.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::ElementCursor::numberOfMidNodes() const
 ```
 
-
-
-
 **Returns**:
 
 Number of mid-side nodes in element.
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -393,19 +182,13 @@ Number of mid-side nodes in element.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::ElementCursor::effectiveSize() const
 ```
 
-
-
-
 **Returns**:
 
 Number of nodes in cursor.
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -421,19 +204,13 @@ Number of nodes in cursor.
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::ElementCursor::defined() const
 ```
 
-
-
-
 **Returns**:
 
 Indication that cursor is defined.
-
-
 
 **Return type**: bool
 
@@ -449,19 +226,13 @@ Indication that cursor is defined.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_id ansys::dpf::ElementCursor::id() const
 ```
 
-
-
-
 **Returns**:
 
 Element cursor id.
-
-
 
 **Return type**: [dp\_id](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1ab4574c9af3f2bb8011da7d1f4c8da20e)
 
@@ -477,19 +248,13 @@ Element cursor id.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_index ansys::dpf::ElementCursor::operator[](dp_index i) const
 ```
 
-
-
-
 **Returns**:
 
 Connectivity node id given by index.
-
-
 
 **Parameters**:
 

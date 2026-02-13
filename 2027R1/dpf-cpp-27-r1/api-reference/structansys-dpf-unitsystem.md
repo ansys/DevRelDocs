@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 437)
 
-
-
 System of measurement units.
 
 ## Members
@@ -25,87 +23,6 @@ System of measurement units.
 
 ## Private attributes
 
-<a id="structansys_1_1dpf_1_1UnitSystem_1ae77ec395cf66809b0c654040d4ad1409"></a>
-### Variable \_name
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 440)
-
-
-```cpp
-std::string ansys::dpf::UnitSystem::_name
-```
-
-
-
-
-
-
-
-
-**Type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::UnitSystem::_name"}]}`
--->
-
-<a id="structansys_1_1dpf_1_1UnitSystem_1ae3a235b762f3d011c238e587cc5684c7"></a>
-### Variable \_ansys\_id
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 441)
-
-
-```cpp
-int ansys::dpf::UnitSystem::_ansys_id
-```
-
-
-
-
-
-
-
-
-**Type**: int
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::UnitSystem::_ansys_id"}]}`
--->
-
-<a id="structansys_1_1dpf_1_1UnitSystem_1a0c9cbebe59cea409b54bb609dcf1b0c9"></a>
-### Variable \_unit\_names
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 442)
-
-
-```cpp
-std::string ansys::dpf::UnitSystem::_unit_names
-```
-
-
-
-
-
-
-
-
-**Type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::UnitSystem::_unit_names"}]}`
--->
-
 ## Public functions
 
 <a id="structansys_1_1dpf_1_1UnitSystem_1a87331afc8cfb97200f342280fd49e536"></a>
@@ -113,17 +30,11 @@ std::string ansys::dpf::UnitSystem::_unit_names
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::UnitSystem::UnitSystem(std::string const &name, int id)
 ```
 
-
-
-
 Create new unit system.
-
-
 
 **Parameters**:
 
@@ -143,17 +54,11 @@ Create new unit system.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::UnitSystem::UnitSystem(std::string const &name, std::string const &unit_names)
 ```
 
-
-
-
 Creates a new custom unit system from its base unit strings
-
-
 
 **Parameters**:
 
@@ -174,17 +79,11 @@ Creates a new custom unit system from its base unit strings
 ![][public]
 ![][const]
 
-
 ```cpp
 ansys::dpf::UnitSystem::operator std::string() const
 ```
 
-
-
-
 Name of unit system.
-
-
 
 **Return type**: 
 
@@ -200,20 +99,14 @@ Name of unit system.
 ![][public]
 ![][const]
 
-
 ```cpp
 const char * ansys::dpf::UnitSystem::c_str() const
 ```
-
-
-
 
 Gets name of unit system. 
 **Returns**:
 
 Name of unit system.
-
-
 
 **Return type**: const char *
 
@@ -229,20 +122,14 @@ Name of unit system.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_id ansys::dpf::UnitSystem::getId() const
 ```
-
-
-
 
 Gets identifer of unit system. 
 **Returns**:
 
 Id of unit system.
-
-
 
 **Return type**: [dp\_id](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1ab4574c9af3f2bb8011da7d1f4c8da20e)
 
@@ -258,20 +145,14 @@ Id of unit system.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::UnitSystem::getUnitNames() const
 ```
-
-
-
 
 Gets unit_names of unit system (if it is custom). 
 **Returns**:
 
 unit_names string of unit system (if it is custom).
-
-
 
 **Return type**: std::string
 
@@ -287,17 +168,9 @@ unit_names string of unit system (if it is custom).
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::UnitSystem::operator==(UnitSystem const &rhs) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 

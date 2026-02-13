@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5444)
 
-
-
-
-
 ## Members
 
 * [allowReverseGrpcConnection](structansys_1_1dpf_1_1OperatorConfig_1_1options.md#structansys_1_1dpf_1_1OperatorConfig_1_1options_1af6465fee4298a1643b825eeae2a643c6)
@@ -34,17 +30,9 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5446)
 
-
 ```cpp
 std::string ansys::dpf::OperatorConfig::options::runInParallel
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -62,17 +50,9 @@ std::string ansys::dpf::OperatorConfig::options::runInParallel
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5447)
 
-
 ```cpp
 std::string ansys::dpf::OperatorConfig::options::numThreads
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -90,17 +70,9 @@ std::string ansys::dpf::OperatorConfig::options::numThreads
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5448)
 
-
 ```cpp
 std::string ansys::dpf::OperatorConfig::options::inplace
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -118,17 +90,9 @@ std::string ansys::dpf::OperatorConfig::options::inplace
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5449)
 
-
 ```cpp
 std::string ansys::dpf::OperatorConfig::options::incremental
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -146,17 +110,9 @@ std::string ansys::dpf::OperatorConfig::options::incremental
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5450)
 
-
 ```cpp
 std::string ansys::dpf::OperatorConfig::options::useCache
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -174,17 +130,9 @@ std::string ansys::dpf::OperatorConfig::options::useCache
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5451)
 
-
 ```cpp
 std::string ansys::dpf::OperatorConfig::options::mutex
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -202,17 +150,9 @@ std::string ansys::dpf::OperatorConfig::options::mutex
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5452)
 
-
 ```cpp
 std::string ansys::dpf::OperatorConfig::options::binaryOperation
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -230,17 +170,9 @@ std::string ansys::dpf::OperatorConfig::options::binaryOperation
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5453)
 
-
 ```cpp
 std::string ansys::dpf::OperatorConfig::options::workByIndex
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -258,17 +190,9 @@ std::string ansys::dpf::OperatorConfig::options::workByIndex
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5454)
 
-
 ```cpp
 std::string ansys::dpf::OperatorConfig::options::permissive
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -286,17 +210,9 @@ std::string ansys::dpf::OperatorConfig::options::permissive
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5455)
 
-
 ```cpp
 std::string ansys::dpf::OperatorConfig::options::readInputsInParallel
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -314,17 +230,9 @@ std::string ansys::dpf::OperatorConfig::options::readInputsInParallel
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5456)
 
-
 ```cpp
 std::string ansys::dpf::OperatorConfig::options::allowReverseGrpcConnection
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 

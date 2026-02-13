@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 673)
 
-
-
 Provide all the information about the content of a [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) ([Unit](classansys_1_1dpf_1_1Unit.md#classansys_1_1dpf_1_1Unit), [location](classansys_1_1dpf_1_1FieldDefinition.md#classansys_1_1dpf_1_1FieldDefinition_1a9ea61f23ef1eb93c794b7c222d7740b8), dimension, a.s.o.). 
 
 **See also**: [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field)
@@ -60,185 +58,7 @@ Provide all the information about the content of a [Field](classansys_1_1dpf_1_1
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1FieldDefinition_1aaec47a26a3c11c1debd3ed922b69cbd2"></a>
-### Friend Field
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 675)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Field"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::FieldDefinition::Field"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Field"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1FieldDefinition_1ad19b1aa2f28448bd897fc6c5dd771f02"></a>
-### Friend CustomTypeField
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 676)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class CustomTypeField"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::FieldDefinition::CustomTypeField"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"CustomTypeField"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1FieldDefinition_1acc06c4380c923e11af63f95e97c3c259"></a>
-### Friend GenericDataContainer
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 677)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class GenericDataContainer"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::FieldDefinition::GenericDataContainer"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"GenericDataContainer"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1FieldDefinition_1abb4aa5a7ed62b741f0b146a257d0fe5e"></a>
-### Friend PropertyField
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 678)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class PropertyField"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::FieldDefinition::PropertyField"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"PropertyField"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1FieldDefinition_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 679)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::FieldDefinition::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1FieldDefinition_1ae4620ddac9e40cc32e3574747f123da7"></a>
-### Function FieldDefinition
-
-![][private]
-
-
-```cpp
-ansys::dpf::FieldDefinition::FieldDefinition(opaque::DpfInternalSharedObject *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfInternalSharedObject *
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::FieldDefinition::FieldDefinition"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1FieldDefinition_1a528b85dc20c86ddd83467cec708f0034"></a>
-### Function copyAttributes
-
-![][private]
-
-
-```cpp
-void ansys::dpf::FieldDefinition::copyAttributes(FieldDefinition const &)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* FieldDefinition const &
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::FieldDefinition::copyAttributes"}]}`
--->
 
 ## Public functions
 
@@ -247,17 +67,11 @@ void ansys::dpf::FieldDefinition::copyAttributes(FieldDefinition const &)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::FieldDefinition::FieldDefinition()
 ```
 
-
-
-
 Create [FieldDefinition](classansys_1_1dpf_1_1FieldDefinition.md#classansys_1_1dpf_1_1FieldDefinition).
-
-
 
 **Return type**: 
 
@@ -272,17 +86,11 @@ Create [FieldDefinition](classansys_1_1dpf_1_1FieldDefinition.md#classansys_1_1d
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::FieldDefinition::FieldDefinition(Client const *const client)
 ```
 
-
-
-
 Create [FieldDefinition](classansys_1_1dpf_1_1FieldDefinition.md#classansys_1_1dpf_1_1FieldDefinition) on a server.
-
-
 
 **Parameters**:
 
@@ -301,17 +109,9 @@ Create [FieldDefinition](classansys_1_1dpf_1_1FieldDefinition.md#classansys_1_1d
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::FieldDefinition::~FieldDefinition()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -326,17 +126,9 @@ virtual ansys::dpf::FieldDefinition::~FieldDefinition()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::FieldDefinition::FieldDefinition(FieldDefinition const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -355,17 +147,9 @@ ansys::dpf::FieldDefinition::FieldDefinition(FieldDefinition const &)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::FieldDefinition::FieldDefinition(FieldDefinition &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -384,17 +168,11 @@ ansys::dpf::FieldDefinition::FieldDefinition(FieldDefinition &&) noexcept
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::FieldDefinition::FieldDefinition(const ansys::dpf::Location &loc, const std::vector< dp_int > &dimensions)
 ```
 
-
-
-
 Create [FieldDefinition](classansys_1_1dpf_1_1FieldDefinition.md#classansys_1_1dpf_1_1FieldDefinition).
-
-
 
 **Parameters**:
 
@@ -414,17 +192,11 @@ Create [FieldDefinition](classansys_1_1dpf_1_1FieldDefinition.md#classansys_1_1d
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::FieldDefinition::FieldDefinition(const ansys::dpf::Location &loc, const std::vector< dp_int > &dimensions, const Unit &unit)
 ```
 
-
-
-
 Create [FieldDefinition](classansys_1_1dpf_1_1FieldDefinition.md#classansys_1_1dpf_1_1FieldDefinition).
-
-
 
 **Parameters**:
 
@@ -445,17 +217,11 @@ Create [FieldDefinition](classansys_1_1dpf_1_1FieldDefinition.md#classansys_1_1d
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::FieldDefinition::FieldDefinition(Client const *const client, const ansys::dpf::Location &loc, const std::vector< dp_int > &dimensions)
 ```
 
-
-
-
 Create [FieldDefinition](classansys_1_1dpf_1_1FieldDefinition.md#classansys_1_1dpf_1_1FieldDefinition).
-
-
 
 **Parameters**:
 
@@ -476,17 +242,11 @@ Create [FieldDefinition](classansys_1_1dpf_1_1FieldDefinition.md#classansys_1_1d
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::FieldDefinition::FieldDefinition(Client const *const client, const ansys::dpf::Location &loc, const std::vector< dp_int > &dimensions, const Unit &unit)
 ```
 
-
-
-
 Create [FieldDefinition](classansys_1_1dpf_1_1FieldDefinition.md#classansys_1_1dpf_1_1FieldDefinition).
-
-
 
 **Parameters**:
 
@@ -508,17 +268,9 @@ Create [FieldDefinition](classansys_1_1dpf_1_1FieldDefinition.md#classansys_1_1d
 
 ![][public]
 
-
 ```cpp
 FieldDefinition & ansys::dpf::FieldDefinition::operator=(FieldDefinition const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -537,17 +289,9 @@ FieldDefinition & ansys::dpf::FieldDefinition::operator=(FieldDefinition const &
 
 ![][public]
 
-
 ```cpp
 FieldDefinition & ansys::dpf::FieldDefinition::operator=(FieldDefinition &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -567,19 +311,13 @@ FieldDefinition & ansys::dpf::FieldDefinition::operator=(FieldDefinition &&) noe
 ![][public]
 ![][const]
 
-
 ```cpp
 ansys::dpf::Unit ansys::dpf::FieldDefinition::unit() const
 ```
 
-
-
-
 **Returns**:
 
 [Unit](classansys_1_1dpf_1_1Unit.md#classansys_1_1dpf_1_1Unit) of [FieldDefinition](classansys_1_1dpf_1_1FieldDefinition.md#classansys_1_1dpf_1_1FieldDefinition).
-
-
 
 **Return type**: [ansys::dpf::Unit](classansys_1_1dpf_1_1Unit.md#classansys_1_1dpf_1_1Unit)
 
@@ -595,19 +333,13 @@ ansys::dpf::Unit ansys::dpf::FieldDefinition::unit() const
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< dp_int > ansys::dpf::FieldDefinition::dimensions() const
 ```
 
-
-
-
 **Returns**:
 
 Vector defining size of each dimension. See [Dimensionality](structansys_1_1dpf_1_1Dimensionality.md#structansys_1_1dpf_1_1Dimensionality).
-
-
 
 **Return type**: std::vector< [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0) >
 
@@ -623,19 +355,13 @@ Vector defining size of each dimension. See [Dimensionality](structansys_1_1dpf_
 ![][public]
 ![][const]
 
-
 ```cpp
 ansys::dpf::Location ansys::dpf::FieldDefinition::location() const
 ```
 
-
-
-
 **Returns**:
 
 [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location) on which field defined.
-
-
 
 **Return type**: [ansys::dpf::Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location)
 
@@ -651,19 +377,13 @@ ansys::dpf::Location ansys::dpf::FieldDefinition::location() const
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::FieldDefinition::name() const
 ```
 
-
-
-
 **Returns**:
 
 Name of the field.
-
-
 
 **Return type**: std::string
 
@@ -679,19 +399,13 @@ Name of the field.
 ![][public]
 ![][const]
 
-
 ```cpp
 eshellLayers ansys::dpf::FieldDefinition::shellLayers() const
 ```
 
-
-
-
 **Returns**:
 
 Layers over which field defined.
-
-
 
 **Return type**: [eshellLayers](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a6d14c6ea165905b13e914d776c880751)
 
@@ -706,17 +420,11 @@ Layers over which field defined.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::FieldDefinition::setName(std::string const &rhs)
 ```
 
-
-
-
 Set field name.
-
-
 
 **Parameters**:
 
@@ -735,17 +443,11 @@ Set field name.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::FieldDefinition::setLocation(ansys::dpf::Location const &rhs)
 ```
 
-
-
-
 Set field location.
-
-
 
 **Parameters**:
 
@@ -764,17 +466,11 @@ Set field location.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::FieldDefinition::setUnit(ansys::dpf::Unit const &rhs)
 ```
 
-
-
-
 Set field unit.
-
-
 
 **Parameters**:
 
@@ -793,17 +489,11 @@ Set field unit.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::FieldDefinition::setDimensions(std::vector< dp_int > const &rhs, int effective_size)
 ```
 
-
-
-
 Set dimensions of field.
-
-
 
 **Parameters**:
 
@@ -823,17 +513,11 @@ Set dimensions of field.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::FieldDefinition::setDimensions(std::vector< dp_int > const &rhs)
 ```
 
-
-
-
 Set dimensions of field.
-
-
 
 **Parameters**:
 
@@ -852,17 +536,11 @@ Set dimensions of field.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::FieldDefinition::setShellLayers(ansys::dpf::eshellLayers layers)
 ```
 
-
-
-
 Set layers of field.
-
-
 
 **Parameters**:
 
@@ -882,17 +560,11 @@ Set layers of field.
 ![][public]
 ![][const]
 
-
 ```cpp
 FieldDefinition ansys::dpf::FieldDefinition::deep_copy(ansys::dpf::Client const *const client=nullptr) const
 ```
 
-
-
-
 Make a deep copy on a given client.
-
-
 
 **Parameters**:
 
@@ -912,17 +584,11 @@ Make a deep copy on a given client.
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::FieldDefinition::isOfQuantityType(QuantityType const &quantitytype) const
 ```
 
-
-
-
 checks is the field data is of the given quantity type.
-
-
 
 **Parameters**:
 
@@ -941,17 +607,11 @@ checks is the field data is of the given quantity type.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::FieldDefinition::setQuantityType(QuantityType const &quantitytype)
 ```
 
-
-
-
 Set field data quantity type.
-
-
 
 **Parameters**:
 
@@ -971,17 +631,11 @@ Set field data quantity type.
 ![][public]
 ![][const]
 
-
 ```cpp
 int ansys::dpf::FieldDefinition::numberOfQuantityTypes() const
 ```
 
-
-
-
 Get the number of quantity types.
-
-
 
 **Return type**: int
 
@@ -997,17 +651,11 @@ Get the number of quantity types.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::FieldDefinition::quantity_type(int i) const
 ```
 
-
-
-
 Get i'th quantity types.
-
-
 
 **Parameters**:
 
@@ -1029,20 +677,14 @@ Get i'th quantity types.
 ![][public]
 ![][static]
 
-
 ```cpp
 static FieldDefinition ansys::dpf::FieldDefinition::emptyFieldDefinition()
 ```
-
-
-
 
 Create an empty [FieldDefinition](classansys_1_1dpf_1_1FieldDefinition.md#classansys_1_1dpf_1_1FieldDefinition). 
 **Returns**:
 
 Empty [FieldDefinition](classansys_1_1dpf_1_1FieldDefinition.md#classansys_1_1dpf_1_1FieldDefinition).
-
-
 
 **Return type**: FieldDefinition
 

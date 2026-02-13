@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 101)
 
-
-
 Typed encapsulation of external data.
 
 **Template parameters**:
@@ -29,33 +27,6 @@ Typed encapsulation of external data.
 
 ## Private attributes
 
-<a id="classansys_1_1dpf_1_1ExternalDataT_1a3395f311632026c3d8cf2b09d5388c03"></a>
-### Variable \_data
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 104)
-
-
-```cpp
-DataT ansys::dpf::ExternalDataT< DataT >::_data
-```
-
-
-
-
-
-
-
-
-**Type**: DataT
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ExternalDataT::_data"}]}`
--->
-
 ## Public functions
 
 <a id="classansys_1_1dpf_1_1ExternalDataT_1aa7dd171449cdbd182e1fb9698a6e1466"></a>
@@ -63,17 +34,11 @@ DataT ansys::dpf::ExternalDataT< DataT >::_data
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::ExternalDataT< DataT >::ExternalDataT(DataT const &d)
 ```
 
-
-
-
 Create an encapsulated data object.
-
-
 
 **Parameters**:
 
@@ -92,17 +57,9 @@ Create an encapsulated data object.
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::ExternalDataT< DataT >::~ExternalDataT()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -117,19 +74,13 @@ virtual ansys::dpf::ExternalDataT< DataT >::~ExternalDataT()
 
 ![][public]
 
-
 ```cpp
 DataT & ansys::dpf::ExternalDataT< DataT >::get()
 ```
 
-
-
-
 **Returns**:
 
 Base data object.
-
-
 
 **Return type**: DataT &
 
@@ -145,19 +96,13 @@ Base data object.
 ![][public]
 ![][const]
 
-
 ```cpp
 DataT const  & ansys::dpf::ExternalDataT< DataT >::get() const
 ```
 
-
-
-
 **Returns**:
 
 Base data object.
-
-
 
 **Return type**: DataT const &
 

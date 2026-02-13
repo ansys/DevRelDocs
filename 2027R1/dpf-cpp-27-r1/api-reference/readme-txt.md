@@ -5,12 +5,7 @@
 
 **Location**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/Examples/Readme.txt`
 
-
-
-
-
 ## Source
-
 
 ```markdown
 How to Use the Examples
@@ -135,7 +130,6 @@ The data files are in the "testfiles" folder at the DPF root.
 The example code requires many common files from Ansys to run, so DPF must be
 installed with Ansys software.
 ```
-
 
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)

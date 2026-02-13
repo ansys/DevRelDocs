@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 1199)
 
-
-
 Exception thrown by DPF call.
 
 **Inherits from**:
@@ -28,33 +26,6 @@ Exception thrown by DPF call.
 
 ## Private attributes
 
-<a id="classansys_1_1dpf_1_1DpfException_1afe43926be0e0f9cff070be7e3601d080"></a>
-### Variable \_error
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 1202)
-
-
-```cpp
-DpfError ansys::dpf::DpfException::_error
-```
-
-
-
-
-
-
-
-
-**Type**: [DpfError](classansys_1_1dpf_1_1DpfError.md#classansys_1_1dpf_1_1DpfError)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfException::_error"}]}`
--->
-
 ## Public functions
 
 <a id="classansys_1_1dpf_1_1DpfException_1ab417aeb3168e72745df2f8c98d912428"></a>
@@ -62,17 +33,11 @@ DpfError ansys::dpf::DpfException::_error
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::DpfException::DpfException(DpfError::ErrorNature nature, std::string const &origin, std::string const &message)
 ```
 
-
-
-
 Create exception to throw.
-
-
 
 **Parameters**:
 
@@ -93,17 +58,11 @@ Create exception to throw.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::DpfException::DpfException(DpfError const &error)
 ```
 
-
-
-
 Create exception to throw.
-
-
 
 **Parameters**:
 
@@ -122,17 +81,9 @@ Create exception to throw.
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::DpfException::~DpfException()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -148,19 +99,13 @@ virtual ansys::dpf::DpfException::~DpfException()
 ![][public]
 ![][const]
 
-
 ```cpp
 virtual const char * ansys::dpf::DpfException::what() const noexcept
 ```
 
-
-
-
 **Returns**:
 
 Full error message.
-
-
 
 **Return type**: const char *
 
@@ -176,19 +121,13 @@ Full error message.
 ![][public]
 ![][const]
 
-
 ```cpp
 const char * ansys::dpf::DpfException::message() const noexcept
 ```
 
-
-
-
 **Returns**:
 
 User supplied error message.
-
-
 
 **Return type**: const char *
 
@@ -204,19 +143,13 @@ User supplied error message.
 ![][public]
 ![][const]
 
-
 ```cpp
 const char * ansys::dpf::DpfException::origin() const noexcept
 ```
 
-
-
-
 **Returns**:
 
 Originator of error.
-
-
 
 **Return type**: const char *
 
@@ -232,19 +165,13 @@ Originator of error.
 ![][public]
 ![][const]
 
-
 ```cpp
 DpfError::ErrorNature ansys::dpf::DpfException::nature() const noexcept
 ```
 
-
-
-
 **Returns**:
 
 Type of error.
-
-
 
 **Return type**: [DpfError::ErrorNature](classansys_1_1dpf_1_1DpfError.md#classansys_1_1dpf_1_1DpfError_1a9a3fe202cc2e46746462fdb1ce44c47f)
 
@@ -260,19 +187,13 @@ Type of error.
 ![][public]
 ![][const]
 
-
 ```cpp
 DpfError ansys::dpf::DpfException::error() const noexcept
 ```
 
-
-
-
 **Returns**:
 
 Generated [DpfError](classansys_1_1dpf_1_1DpfError.md#classansys_1_1dpf_1_1DpfError).
-
-
 
 **Return type**: [DpfError](classansys_1_1dpf_1_1DpfError.md#classansys_1_1dpf_1_1DpfError)
 

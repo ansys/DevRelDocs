@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6077)
 
-
-
 Specification information for operator's configuration option. 
 
 **See also**: [OperatorSpecification](classansys_1_1dpf_1_1OperatorSpecification.md#classansys_1_1dpf_1_1OperatorSpecification)
@@ -26,114 +24,6 @@ Specification information for operator's configuration option.
 
 ## Private attributes
 
-<a id="structansys_1_1dpf_1_1ConfigOptionSpecification_1a52f0699aa8cd917775d57e30bcf026be"></a>
-### Variable \_description
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6081)
-
-
-```cpp
-std::string ansys::dpf::ConfigOptionSpecification::_description
-```
-
-
-
-
-Description of config option.
-
-
-
-**Type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ConfigOptionSpecification::_description"}]}`
--->
-
-<a id="structansys_1_1dpf_1_1ConfigOptionSpecification_1afa80484ff40dd26e75e9bcb4f059f7bb"></a>
-### Variable \_name
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6083)
-
-
-```cpp
-std::string ansys::dpf::ConfigOptionSpecification::_name
-```
-
-
-
-
-Name of config option.
-
-
-
-**Type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ConfigOptionSpecification::_name"}]}`
--->
-
-<a id="structansys_1_1dpf_1_1ConfigOptionSpecification_1adaa1194a59e880eae4f86b114f96e325"></a>
-### Variable \_type\_names
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6085)
-
-
-```cpp
-std::vector<std::string> ansys::dpf::ConfigOptionSpecification::_type_names
-```
-
-
-
-
-Type names of config option.
-
-
-
-**Type**: std::vector< std::string >
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ConfigOptionSpecification::_type_names"}]}`
--->
-
-<a id="structansys_1_1dpf_1_1ConfigOptionSpecification_1a9652c6c30852f7857853f22997b63413"></a>
-### Variable \_default\_value
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6087)
-
-
-```cpp
-std::string ansys::dpf::ConfigOptionSpecification::_default_value
-```
-
-
-
-
-Default value of config option.
-
-
-
-**Type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ConfigOptionSpecification::_default_value"}]}`
--->
-
 ## Public functions
 
 <a id="structansys_1_1dpf_1_1ConfigOptionSpecification_1a253b65ae84fcc73cd2b27e2c5545a198"></a>
@@ -141,17 +31,9 @@ Default value of config option.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::ConfigOptionSpecification::ConfigOptionSpecification(std::string const &description, std::string const &name, std::vector< std::string > type_names, std::string const &default_value)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -174,17 +56,11 @@ ansys::dpf::ConfigOptionSpecification::ConfigOptionSpecification(std::string con
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::ConfigOptionSpecification::getDescription() const
 ```
 
-
-
-
 Description of config option.
-
-
 
 **Return type**: std::string
 
@@ -200,17 +76,11 @@ Description of config option.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::ConfigOptionSpecification::getName() const
 ```
 
-
-
-
 Name of config option.
-
-
 
 **Return type**: std::string
 
@@ -226,17 +96,11 @@ Name of config option.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< std::string > ansys::dpf::ConfigOptionSpecification::getTypeNames() const
 ```
 
-
-
-
 Type names of config option.
-
-
 
 **Return type**: std::vector< std::string >
 
@@ -252,17 +116,11 @@ Type names of config option.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::ConfigOptionSpecification::getDefaultValue() const
 ```
 
-
-
-
 Default value of config option.
-
-
 
 **Return type**: std::string
 

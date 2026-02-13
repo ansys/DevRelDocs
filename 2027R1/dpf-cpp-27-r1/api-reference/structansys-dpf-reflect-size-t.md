@@ -6,12 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 1957)
 
-
-
-
-
-
-
 ## Members
 
 * [type\_name](structansys_1_1dpf_1_1reflect_3_01size__t_01_4.md#structansys_1_1dpf_1_1reflect_3_01size__t_01_4_1a93a3eb7ab21c60a9571c17c5cbc13569)
@@ -24,17 +18,9 @@
 ![][public]
 ![][static]
 
-
 ```cpp
 static std::string ansys::dpf::reflect< size_t >::type_name()
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::string
 

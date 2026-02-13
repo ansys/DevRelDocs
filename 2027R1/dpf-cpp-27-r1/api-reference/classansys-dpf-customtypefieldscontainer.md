@@ -6,10 +6,7 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3193)
 
-
-
 Contains a group of custom type fields. The [CustomTypeFieldsContainer](classansys_1_1dpf_1_1CustomTypeFieldsContainer.md#classansys_1_1dpf_1_1CustomTypeFieldsContainer) is designed as a set of custom type fields ordered through labels and ids. Labels identify how the fields are filtered. 
-
 
 **See also**: [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField), group_12
 
@@ -70,204 +67,7 @@ Contains a group of custom type fields. The [CustomTypeFieldsContainer](classans
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a33ff3f826991522d2e77c1c523f33e19"></a>
-### Friend Operator
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3195)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Operator"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeFieldsContainer::Operator"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Operator"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1afa07847c7cb432b260e61a0c18025ba3"></a>
-### Friend Workflow
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3196)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Workflow"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeFieldsContainer::Workflow"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Workflow"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a81d95df60edf516a1de9878b780f8fb3"></a>
-### Friend OperatorMain
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3197)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorMain"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeFieldsContainer::OperatorMain"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorMain"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a9820c685b67a3355c042bb0b3365d9e2"></a>
-### Friend Any
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3198)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Any"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeFieldsContainer::Any"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Any"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1af891ea2ca8eebe3679e051763ba989ce"></a>
-### Friend CollectionBase
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3199)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class CollectionBase"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeFieldsContainer::CollectionBase"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"CollectionBase"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1acc06c4380c923e11af63f95e97c3c259"></a>
-### Friend GenericDataContainer
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3200)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class GenericDataContainer"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeFieldsContainer::GenericDataContainer"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"GenericDataContainer"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3201)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeFieldsContainer::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1CustomTypeFieldsContainer_1a97cf1417d7aa10b28c866d7631d37b5f"></a>
-### Function CustomTypeFieldsContainer
-
-![][private]
-
-
-```cpp
-ansys::dpf::CustomTypeFieldsContainer::CustomTypeFieldsContainer(opaque::DpfInternalSharedObject *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfInternalSharedObject *
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeFieldsContainer::CustomTypeFieldsContainer"}]}`
--->
 
 ## Public functions
 
@@ -276,17 +76,9 @@ ansys::dpf::CustomTypeFieldsContainer::CustomTypeFieldsContainer(opaque::DpfInte
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::CustomTypeFieldsContainer::CustomTypeFieldsContainer()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -301,17 +93,9 @@ ansys::dpf::CustomTypeFieldsContainer::CustomTypeFieldsContainer()
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::CustomTypeFieldsContainer::~CustomTypeFieldsContainer()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -326,17 +110,9 @@ virtual ansys::dpf::CustomTypeFieldsContainer::~CustomTypeFieldsContainer()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::CustomTypeFieldsContainer::CustomTypeFieldsContainer(CustomTypeFieldsContainer const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -355,17 +131,9 @@ ansys::dpf::CustomTypeFieldsContainer::CustomTypeFieldsContainer(CustomTypeField
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::CustomTypeFieldsContainer::CustomTypeFieldsContainer(CustomTypeFieldsContainer &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -384,17 +152,11 @@ ansys::dpf::CustomTypeFieldsContainer::CustomTypeFieldsContainer(CustomTypeField
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::CustomTypeFieldsContainer::CustomTypeFieldsContainer(std::vector< std::string > const &labels)
 ```
 
-
-
-
 Create container for a group of CustomTypeFields with the given labels.
-
-
 
 **Parameters**:
 
@@ -413,17 +175,9 @@ Create container for a group of CustomTypeFields with the given labels.
 
 ![][public]
 
-
 ```cpp
 CustomTypeFieldsContainer & ansys::dpf::CustomTypeFieldsContainer::operator=(CustomTypeFieldsContainer const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -442,17 +196,9 @@ CustomTypeFieldsContainer & ansys::dpf::CustomTypeFieldsContainer::operator=(Cus
 
 ![][public]
 
-
 ```cpp
 CustomTypeFieldsContainer & ansys::dpf::CustomTypeFieldsContainer::operator=(CustomTypeFieldsContainer &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -471,19 +217,13 @@ CustomTypeFieldsContainer & ansys::dpf::CustomTypeFieldsContainer::operator=(Cus
 
 ![][public]
 
-
 ```cpp
 CustomTypeField ansys::dpf::CustomTypeFieldsContainer::operator[](dp_int index)
 ```
 
-
-
-
 **Returns**:
 
 [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField) for given index.
-
-
 
 **Parameters**:
 
@@ -502,19 +242,13 @@ CustomTypeField ansys::dpf::CustomTypeFieldsContainer::operator[](dp_int index)
 
 ![][public]
 
-
 ```cpp
 CustomTypeField ansys::dpf::CustomTypeFieldsContainer::at(dp_index index)
 ```
 
-
-
-
 **Returns**:
 
 CustomTypeFields for given index.
-
-
 
 **Parameters**:
 
@@ -534,19 +268,13 @@ CustomTypeFields for given index.
 ![][public]
 ![][const]
 
-
 ```cpp
 const CustomTypeField ansys::dpf::CustomTypeFieldsContainer::at(dp_index index) const
 ```
 
-
-
-
 **Returns**:
 
 CustomTypeFields for given index.
-
-
 
 **Parameters**:
 
@@ -565,17 +293,11 @@ CustomTypeFields for given index.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::CustomTypeFieldsContainer::update(CustomTypeField &f, dp_index index)
 ```
 
-
-
-
 Update a [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField) at index.
-
-
 
 **Parameters**:
 
@@ -595,17 +317,11 @@ Update a [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::CustomTypeFieldsContainer::add(LabelSpace const &labels, CustomTypeField const &f, bool can_replace=true)
 ```
 
-
-
-
 Add [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField) with given label space.
-
-
 
 **Parameters**:
 
@@ -627,19 +343,13 @@ Add [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::CustomTypeFieldsContainer::getSizeFor(LabelSpace const &label_space) const
 ```
 
-
-
-
 **Returns**:
 
 Number of CustomTypeFields for given label space.
-
-
 
 **Parameters**:
 
@@ -659,19 +369,13 @@ Number of CustomTypeFields for given label space.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< CustomTypeField > ansys::dpf::CustomTypeFieldsContainer::getCustomTypeFields(LabelSpace const &label_space) const
 ```
 
-
-
-
 **Returns**:
 
 Vector of CustomTypeFields for given label space.
-
-
 
 **Parameters**:
 
@@ -691,19 +395,13 @@ Vector of CustomTypeFields for given label space.
 ![][public]
 ![][const]
 
-
 ```cpp
 CustomTypeField ansys::dpf::CustomTypeFieldsContainer::getCustomTypeField(LabelSpace const &label_space) const
 ```
 
-
-
-
 **Returns**:
 
 First [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField) for given label space.
-
-
 
 **Parameters**:
 
@@ -723,17 +421,9 @@ First [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dp
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< int > ansys::dpf::CustomTypeFieldsContainer::getCustomTypeFieldsIndices(LabelSpace const &lab_space) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -753,19 +443,13 @@ std::vector< int > ansys::dpf::CustomTypeFieldsContainer::getCustomTypeFieldsInd
 ![][public]
 ![][const]
 
-
 ```cpp
 CustomTypeField ansys::dpf::CustomTypeFieldsContainer::getMatchingCustomTypeField(LabelSpace const &label_space) const
 ```
 
-
-
-
 **Returns**:
 
 First matching [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField) for given label space.
-
-
 
 **Parameters**:
 
@@ -785,19 +469,13 @@ First matching [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classan
 ![][public]
 ![][const]
 
-
 ```cpp
 DpfVector< dp_index > ansys::dpf::CustomTypeFieldsContainer::getMatchingCustomTypeFieldIndices(LabelSpace const &label_space) const
 ```
 
-
-
-
 **Returns**:
 
 Vector of matching [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField) to the given label space.
-
-
 
 **Parameters**:
 
@@ -817,17 +495,11 @@ Vector of matching [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#cla
 ![][public]
 ![][const]
 
-
 ```cpp
 CustomTypeFieldsContainer ansys::dpf::CustomTypeFieldsContainer::createSubCustomTypeFieldsContainer(LabelSpace const &lab_space) const
 ```
 
-
 create a [CustomTypeFieldsContainer](classansys_1_1dpf_1_1CustomTypeFieldsContainer.md#classansys_1_1dpf_1_1CustomTypeFieldsContainer) with all the CustomTypeFields corresponding to the label space in input
-
-
-
-
 
 **Parameters**:
 
@@ -849,20 +521,14 @@ create a [CustomTypeFieldsContainer](classansys_1_1dpf_1_1CustomTypeFieldsContai
 ![][public]
 ![][static]
 
-
 ```cpp
 static CustomTypeFieldsContainer ansys::dpf::CustomTypeFieldsContainer::emptyCustomTypeFieldsContainer()
 ```
-
-
-
 
 Create an empty container. 
 **Returns**:
 
 Empty container.
-
-
 
 **Return type**: CustomTypeFieldsContainer
 

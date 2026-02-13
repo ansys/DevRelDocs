@@ -5,10 +5,6 @@
 
 **Location**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h`
 
-
-
-
-
 ## Classes
 
 * [ansys::dpf::ExternalData](classansys_1_1dpf_1_1ExternalData.md#classansys_1_1dpf_1_1ExternalData)
@@ -129,7 +125,6 @@
 * <chrono>
 * [dpf_api_base.h](dpf__api__base_8h.md#dpf__api__base_8h)
 
-
 ```mermaid
 graph LR
 1["D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf_api.h"]
@@ -161,7 +156,6 @@ click 1 "dpf__api_8h.md#dpf__api_8h"
 
 ```
 
-
 ## Included by
 
 * [D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/helpers/dpf_meshQuery.h](dpf__meshQuery_8h.md#dpf__meshQuery_8h)
@@ -175,20 +169,11 @@ click 1 "dpf__api_8h.md#dpf__api_8h"
 
 ![][public]
 
-
 ```cpp
 #define CALL_CONVENTION __stdcall
 ```
 
-
-
-
-
-
-
-
 ## Source
-
 
 ```cpp
 //
@@ -232,7 +217,6 @@ namespace dpf
     typedef void(__stdcall* EventReception)(void*, int, const char*);
     typedef void(__stdcall* ExternalDataDeleter)(ExternalData*);
 #endif
-
 
     class core;
     class Operator;
@@ -444,7 +428,6 @@ namespace dpf
         opaque::DpfInternalSharedObject* opaqueGetAsCollection() const;
         opaque::DpfObject* opaqueNewFromCollection(opaque::DpfObject* value);
     };
-
 
     class Unit
     {
@@ -922,7 +905,6 @@ namespace dpf
             const bool b_copy_ids = true 
         )const;
     };
-
 
     class ElementCursor
     {
@@ -1518,7 +1500,6 @@ namespace dpf
             bool const copy_support = true 
         ) const;
 
-
         DataTree getHeaderAsDataTree() const;
 
         void setHeaderAsDataTree(const DataTree& datatree);
@@ -1855,7 +1836,6 @@ namespace dpf
             bool const copy_support = true 
         ) const;
 
-
         static Field createFieldWithTransformation(Workflow transformation_wf, 
             int reserved_number_of_entity = 0, 
             const std::vector<int>& dimensions = { 1 }, 
@@ -1863,7 +1843,6 @@ namespace dpf
             std::string const& input_name_to_connect = "input_field", 
             std::string const& output_name_to_eval = "transformed_field"
             );
-
 
         DataTree getHeaderAsDataTree() const;
 
@@ -1978,7 +1957,6 @@ namespace dpf
         void setSupport(ansys::dpf::MeshedRegion const& s 
         );
 
-
         std::string name()const;
         void setName(const std::string& name 
         );
@@ -2072,14 +2050,12 @@ namespace dpf
             bool const copy_support = true 
         ) const;
 
-
         static PropertyField createPropertyFieldWithTransformation(Workflow transformation_wf, 
             int reserved_number_of_entity=0,
             int reserved_data_size=0,
             std::string const& input_name_to_connect = "input_field", 
             std::string const& output_name_to_eval = "transformed_field" 
             );
-
 
         DataTree getHeaderAsDataTree() const;
 
@@ -2189,9 +2165,7 @@ namespace dpf
         );
     };
 
-
     namespace internal {
-
 
         template <typename T, typename isBaseOfDpfTypes = typename std::is_base_of<DpfTypes, T>::type, typename isBaseOfCustomContainerBase = typename std::is_base_of<CustomContainerBase, T>::type>
         struct set_prop
@@ -2546,7 +2520,6 @@ namespace dpf
         ) const;
         MeshesContainer createSubMeshesContainer(LabelSpace const& lab_space)const;
         static MeshesContainer emptyMeshesContainer();
-
 
         MeshesContainer deep_copy(ansys::dpf::Client const* const client = nullptr 
         )const;
@@ -2940,7 +2913,6 @@ namespace dpf
         static Streams emptyStreams();
 
     };
-
 
     typedef enum { 
         eTimeScopPin = 0,
@@ -3589,9 +3561,6 @@ namespace dpf
         return CustomContainerT(cont);
     }
 
-
-
-
     class Interface;
     class WorkflowStep;
 
@@ -3702,7 +3671,6 @@ namespace dpf
 
         std::vector<std::string> listInputPins() const;
         std::vector<std::string> listOutputPins() const;
-
 
         void nameInputPin(std::string const& pin_name, 
             int operator_input_pin, 
@@ -4271,7 +4239,6 @@ namespace dpf
         bool getClient(Client& client)const;
     };
 
-
     class MeshInfo {        
     private:
         GenericDataContainer _genericData;
@@ -4442,7 +4409,6 @@ namespace dpf
         void setFailed();
 
         dp_int getNumInputs();
-
 
         template<typename DataT>
         DataT getInput(dp_index pin_index 
@@ -5516,7 +5482,6 @@ namespace dpf
 } // end of namespace dpf
 } // end of namepsace ansys
 ```
-
 
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)

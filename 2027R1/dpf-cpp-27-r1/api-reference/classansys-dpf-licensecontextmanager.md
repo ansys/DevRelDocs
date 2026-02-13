@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 7049)
 
-
-
-
-
 ## Members
 
 * [\_licensing\_operator](classansys_1_1dpf_1_1LicenseContextManager.md#classansys_1_1dpf_1_1LicenseContextManager_1acad6de18945844e886403e02dfb97554)
@@ -20,33 +16,6 @@
 
 ## Private attributes
 
-<a id="classansys_1_1dpf_1_1LicenseContextManager_1acad6de18945844e886403e02dfb97554"></a>
-### Variable \_licensing\_operator
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 7056)
-
-
-```cpp
-Operator ansys::dpf::LicenseContextManager::_licensing_operator
-```
-
-
-
-
-
-
-
-
-**Type**: [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::LicenseContextManager::_licensing_operator"}]}`
--->
-
 ## Public functions
 
 <a id="classansys_1_1dpf_1_1LicenseContextManager_1a354346a6ed7b1213e72e921372803ecb"></a>
@@ -54,17 +23,9 @@ Operator ansys::dpf::LicenseContextManager::_licensing_operator
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::LicenseContextManager::LicenseContextManager(const std::string &increment_name="", const double &license_timeout_in_seconds=-1)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -84,17 +45,9 @@ ansys::dpf::LicenseContextManager::LicenseContextManager(const std::string &incr
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::LicenseContextManager::LicenseContextManager(const std::vector< std::string > &vincrement_name, int delay_checkout=1, const double &license_timeout_in_seconds=-1)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -115,17 +68,9 @@ ansys::dpf::LicenseContextManager::LicenseContextManager(const std::vector< std:
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::LicenseContextManager::LicenseContextManager(const double &license_timeout_in_seconds)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -144,17 +89,9 @@ ansys::dpf::LicenseContextManager::LicenseContextManager(const double &license_t
 
 ![][public]
 
-
 ```cpp
 std::string ansys::dpf::LicenseContextManager::getStatus()
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::string
 

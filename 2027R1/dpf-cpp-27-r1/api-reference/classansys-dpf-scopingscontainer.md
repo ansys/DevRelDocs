@@ -6,28 +6,11 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3017)
 
-
-
 Contains a group of scopings.
-
-
-
-
 
 The scopings container is designed as a set of scopings ordered through labels and ids. Labels identify how the fields are filtered. The most common scopings container have the label "body" with ids corresponding to each body entity.
 
-
-
-
-
 Generally, a defined [ScopingsContainer](classansys_1_1dpf_1_1ScopingsContainer.md#classansys_1_1dpf_1_1ScopingsContainer) will contain [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) entities to apply on the [MeshedRegion](classansys_1_1dpf_1_1MeshedRegion.md#classansys_1_1dpf_1_1MeshedRegion) entities of a corresponding [MeshesContainer](classansys_1_1dpf_1_1MeshesContainer.md#classansys_1_1dpf_1_1MeshesContainer).
-
-
-
-
-
-
-
 
 **See also**: [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping), group_12
 
@@ -95,204 +78,7 @@ Generally, a defined [ScopingsContainer](classansys_1_1dpf_1_1ScopingsContainer.
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1ScopingsContainer_1a33ff3f826991522d2e77c1c523f33e19"></a>
-### Friend Operator
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3019)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Operator"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ScopingsContainer::Operator"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Operator"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ScopingsContainer_1afa07847c7cb432b260e61a0c18025ba3"></a>
-### Friend Workflow
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3020)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Workflow"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ScopingsContainer::Workflow"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Workflow"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ScopingsContainer_1a81d95df60edf516a1de9878b780f8fb3"></a>
-### Friend OperatorMain
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3021)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorMain"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ScopingsContainer::OperatorMain"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorMain"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ScopingsContainer_1a9820c685b67a3355c042bb0b3365d9e2"></a>
-### Friend Any
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3022)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Any"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ScopingsContainer::Any"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Any"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ScopingsContainer_1af891ea2ca8eebe3679e051763ba989ce"></a>
-### Friend CollectionBase
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3023)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class CollectionBase"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ScopingsContainer::CollectionBase"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"CollectionBase"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ScopingsContainer_1acc06c4380c923e11af63f95e97c3c259"></a>
-### Friend GenericDataContainer
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3024)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class GenericDataContainer"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ScopingsContainer::GenericDataContainer"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"GenericDataContainer"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ScopingsContainer_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3025)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ScopingsContainer::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1ScopingsContainer_1a85d23226c9519f0f07fe5eb1088e4afb"></a>
-### Function ScopingsContainer
-
-![][private]
-
-
-```cpp
-ansys::dpf::ScopingsContainer::ScopingsContainer(opaque::DpfInternalSharedObject *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfInternalSharedObject *
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ScopingsContainer::ScopingsContainer"}]}`
--->
 
 ## Public functions
 
@@ -301,17 +87,9 @@ ansys::dpf::ScopingsContainer::ScopingsContainer(opaque::DpfInternalSharedObject
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::ScopingsContainer::ScopingsContainer()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -326,17 +104,9 @@ ansys::dpf::ScopingsContainer::ScopingsContainer()
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::ScopingsContainer::~ScopingsContainer()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -351,17 +121,9 @@ virtual ansys::dpf::ScopingsContainer::~ScopingsContainer()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::ScopingsContainer::ScopingsContainer(ScopingsContainer const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -380,17 +142,9 @@ ansys::dpf::ScopingsContainer::ScopingsContainer(ScopingsContainer const &)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::ScopingsContainer::ScopingsContainer(ScopingsContainer &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -409,17 +163,11 @@ ansys::dpf::ScopingsContainer::ScopingsContainer(ScopingsContainer &&) noexcept
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::ScopingsContainer::ScopingsContainer(Client const *const client)
 ```
 
-
-
-
 Create a new scopings container on a server.
-
-
 
 **Parameters**:
 
@@ -438,17 +186,11 @@ Create a new scopings container on a server.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::ScopingsContainer::ScopingsContainer(Client const *const client, std::vector< std::string > const &labels)
 ```
 
-
-
-
 Create a group of scopings with the given labels on a server.
-
-
 
 **Parameters**:
 
@@ -468,17 +210,11 @@ Create a group of scopings with the given labels on a server.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::ScopingsContainer::ScopingsContainer(int id, Client const *const client)
 ```
 
-
-
-
 Retrieve an existing instance of [ScopingsContainer](classansys_1_1dpf_1_1ScopingsContainer.md#classansys_1_1dpf_1_1ScopingsContainer) on a server.
-
-
 
 **Parameters**:
 
@@ -498,17 +234,11 @@ Retrieve an existing instance of [ScopingsContainer](classansys_1_1dpf_1_1Scopin
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::ScopingsContainer::ScopingsContainer(std::vector< std::string > const &labels)
 ```
 
-
-
-
 Create a group of scopings with the given labels.
-
-
 
 **Parameters**:
 
@@ -527,17 +257,9 @@ Create a group of scopings with the given labels.
 
 ![][public]
 
-
 ```cpp
 ScopingsContainer & ansys::dpf::ScopingsContainer::operator=(ScopingsContainer const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -556,17 +278,9 @@ ScopingsContainer & ansys::dpf::ScopingsContainer::operator=(ScopingsContainer c
 
 ![][public]
 
-
 ```cpp
 ScopingsContainer & ansys::dpf::ScopingsContainer::operator=(ScopingsContainer &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -585,19 +299,13 @@ ScopingsContainer & ansys::dpf::ScopingsContainer::operator=(ScopingsContainer &
 
 ![][public]
 
-
 ```cpp
 Scoping ansys::dpf::ScopingsContainer::operator[](dp_int index)
 ```
 
-
-
-
 **Returns**:
 
 [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) at given index.
-
-
 
 **Parameters**:
 
@@ -616,19 +324,13 @@ Scoping ansys::dpf::ScopingsContainer::operator[](dp_int index)
 
 ![][public]
 
-
 ```cpp
 Scoping ansys::dpf::ScopingsContainer::at(dp_index index)
 ```
 
-
-
-
 **Returns**:
 
 [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) at given index.
-
-
 
 **Parameters**:
 
@@ -648,19 +350,13 @@ Scoping ansys::dpf::ScopingsContainer::at(dp_index index)
 ![][public]
 ![][const]
 
-
 ```cpp
 const Scoping ansys::dpf::ScopingsContainer::at(dp_index index) const
 ```
 
-
-
-
 **Returns**:
 
 [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) at given index.
-
-
 
 **Parameters**:
 
@@ -679,17 +375,11 @@ const Scoping ansys::dpf::ScopingsContainer::at(dp_index index) const
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::ScopingsContainer::update(Scoping &f, dp_index index)
 ```
 
-
-
-
 Update [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) at given index.
-
-
 
 **Parameters**:
 
@@ -709,17 +399,11 @@ Update [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) a
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::ScopingsContainer::add(LabelSpace const &labels, Scoping const &f, bool can_replace=true)
 ```
 
-
-
-
 Add new scoping with given labels to group.
-
-
 
 **Parameters**:
 
@@ -741,19 +425,13 @@ Add new scoping with given labels to group.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< Scoping > ansys::dpf::ScopingsContainer::getScopings(LabelSpace const &labels) const
 ```
 
-
-
-
 **Returns**:
 
 Vector of scopings for given label space.
-
-
 
 **Parameters**:
 
@@ -773,19 +451,13 @@ Vector of scopings for given label space.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< dp_index > ansys::dpf::ScopingsContainer::getScopingsIndices(LabelSpace const &lab_space) const
 ```
 
-
-
-
 **Returns**:
 
 [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) indices for scopings given by [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1_1LabelSpace)
-
-
 
 **Parameters**:
 
@@ -805,19 +477,13 @@ std::vector< dp_index > ansys::dpf::ScopingsContainer::getScopingsIndices(LabelS
 ![][public]
 ![][const]
 
-
 ```cpp
 Scoping ansys::dpf::ScopingsContainer::getScoping(LabelSpace const &labels) const
 ```
 
-
-
-
 **Returns**:
 
 First scoping for given label space.
-
-
 
 **Parameters**:
 
@@ -837,19 +503,13 @@ First scoping for given label space.
 ![][public]
 ![][const]
 
-
 ```cpp
 Scoping ansys::dpf::ScopingsContainer::getMatchingScoping(LabelSpace const &label_space) const
 ```
 
-
-
-
 **Returns**:
 
 First matching [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) for given label space.
-
-
 
 **Parameters**:
 
@@ -869,19 +529,13 @@ First matching [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Sc
 ![][public]
 ![][const]
 
-
 ```cpp
 DpfVector< dp_index > ansys::dpf::ScopingsContainer::getMatchingScopingIndices(LabelSpace const &label_space) const
 ```
 
-
-
-
 **Returns**:
 
 Vector of matching [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) to the given label space.
-
-
 
 **Parameters**:
 
@@ -901,17 +555,11 @@ Vector of matching [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1
 ![][public]
 ![][const]
 
-
 ```cpp
 ScopingsContainer ansys::dpf::ScopingsContainer::createSubScopingsContainer(LabelSpace const &lab_space) const
 ```
 
-
-
-
 Create a new [ScopingsContainer](classansys_1_1dpf_1_1ScopingsContainer.md#classansys_1_1dpf_1_1ScopingsContainer) with all the scopings corresponding to the label space in input
-
-
 
 **Parameters**:
 
@@ -931,17 +579,11 @@ Create a new [ScopingsContainer](classansys_1_1dpf_1_1ScopingsContainer.md#class
 ![][public]
 ![][const]
 
-
 ```cpp
 ScopingsContainer ansys::dpf::ScopingsContainer::deep_copy(ansys::dpf::Client const *const client=nullptr) const
 ```
 
-
-
-
 Create a new [ScopingsContainer](classansys_1_1dpf_1_1ScopingsContainer.md#classansys_1_1dpf_1_1ScopingsContainer) on a server by copying all the data of this [ScopingsContainer](classansys_1_1dpf_1_1ScopingsContainer.md#classansys_1_1dpf_1_1ScopingsContainer).
-
-
 
 **Parameters**:
 
@@ -961,17 +603,11 @@ Create a new [ScopingsContainer](classansys_1_1dpf_1_1ScopingsContainer.md#class
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::ScopingsContainer::getHashableKey() const
 ```
 
-
-
-
 Set and get an simpler hashable entity (here a topoloy identifier) instead of the full scoppings container to save time
-
-
 
 **Return type**: std::string
 
@@ -987,17 +623,9 @@ Set and get an simpler hashable entity (here a topoloy identifier) instead of th
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::ScopingsContainer::setHashableKey(const std::string &unique_identifier) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -1017,17 +645,11 @@ void ansys::dpf::ScopingsContainer::setHashableKey(const std::string &unique_ide
 ![][public]
 ![][const]
 
-
 ```cpp
 size_t ansys::dpf::ScopingsContainer::getHash() const
 ```
 
-
-
-
 Compute and get the hash of a scopings_container
-
-
 
 **Return type**: size_t
 
@@ -1045,20 +667,14 @@ Compute and get the hash of a scopings_container
 ![][public]
 ![][static]
 
-
 ```cpp
 static ScopingsContainer ansys::dpf::ScopingsContainer::emptyScopingsContainer()
 ```
-
-
-
 
 Create an empty scopings container. 
 **Returns**:
 
 Empty [ScopingsContainer](classansys_1_1dpf_1_1ScopingsContainer.md#classansys_1_1dpf_1_1ScopingsContainer).
-
-
 
 **Return type**: ScopingsContainer
 

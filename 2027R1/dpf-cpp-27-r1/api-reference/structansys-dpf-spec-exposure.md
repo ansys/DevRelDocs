@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 902)
 
-
-
-
-
 ## Members
 
 * [sExposure](structansys_1_1dpf_1_1spec_1_1exposure.md#structansys_1_1dpf_1_1spec_1_1exposure_1ae61dd57d91c203e2c96502e32ba81dc2)
@@ -27,17 +23,9 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 904)
 
-
 ```cpp
 std::string ansys::dpf::spec::exposure::sExposure
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -55,17 +43,9 @@ std::string ansys::dpf::spec::exposure::sExposure
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 905)
 
-
 ```cpp
 std::string ansys::dpf::spec::exposure::sPublic
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -83,17 +63,9 @@ std::string ansys::dpf::spec::exposure::sPublic
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 906)
 
-
 ```cpp
 std::string ansys::dpf::spec::exposure::sHidden
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -111,17 +83,9 @@ std::string ansys::dpf::spec::exposure::sHidden
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 907)
 
-
 ```cpp
 std::string ansys::dpf::spec::exposure::sPrivate
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 

@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2346)
 
-
-
 Represents complete property data(id, size, num elementary data)
 
 ## Members
@@ -28,194 +26,6 @@ Represents complete property data(id, size, num elementary data)
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1PropFieldCursor_1abb4aa5a7ed62b741f0b146a257d0fe5e"></a>
-### Friend PropertyField
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2349)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class PropertyField"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropFieldCursor::PropertyField"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"PropertyField"}]},{"type":"text","text":"\n        "}]}`
--->
-
-## Private attributes
-
-<a id="classansys_1_1dpf_1_1PropFieldCursor_1aaf953b8f54eb9f430f4c76ae1d28d188"></a>
-### Variable \_data
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2352)
-
-
-```cpp
-dp_int* ansys::dpf::PropFieldCursor::_data
-```
-
-
-
-
-
-
-
-
-**Type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0) *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropFieldCursor::_data"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1PropFieldCursor_1aef4d9c662bb18d5ea420114b15741b66"></a>
-### Variable \_size
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2353)
-
-
-```cpp
-dp_int ansys::dpf::PropFieldCursor::_size
-```
-
-
-
-
-
-
-
-
-**Type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropFieldCursor::_size"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1PropFieldCursor_1adbecee231254353874983533962c8191"></a>
-### Variable \_id
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2354)
-
-
-```cpp
-dp_id ansys::dpf::PropFieldCursor::_id
-```
-
-
-
-
-
-
-
-
-**Type**: [dp\_id](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1ab4574c9af3f2bb8011da7d1f4c8da20e)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropFieldCursor::_id"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1PropFieldCursor_1af4e80d71af1a1b30bb97905b76545a0e"></a>
-### Variable \_n\_component
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2355)
-
-
-```cpp
-dp_int ansys::dpf::PropFieldCursor::_n_component
-```
-
-
-
-
-
-
-
-
-**Type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropFieldCursor::_n_component"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1PropFieldCursor_1ac812e90ddc03293e9f0736a64169de3f"></a>
-### Variable \_n\_elementary\_data
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2356)
-
-
-```cpp
-dp_int ansys::dpf::PropFieldCursor::_n_elementary_data
-```
-
-
-
-
-
-
-
-
-**Type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropFieldCursor::_n_elementary_data"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1PropFieldCursor_1a1c869248d2dde8296b294061536ad23c"></a>
-### Variable \_defined
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2357)
-
-
-```cpp
-bool ansys::dpf::PropFieldCursor::_defined
-```
-
-
-
-
-
-
-
-
-**Type**: bool
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropFieldCursor::_defined"}]}`
--->
-
 ## Public functions
 
 <a id="classansys_1_1dpf_1_1PropFieldCursor_1afb9be4ae3088090d4caf097455fe877f"></a>
@@ -224,19 +34,13 @@ bool ansys::dpf::PropFieldCursor::_defined
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int * ansys::dpf::PropFieldCursor::data() const
 ```
 
-
-
-
 **Returns**:
 
 Pointer to property data.
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0) *
 
@@ -252,19 +56,13 @@ Pointer to property data.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int & ansys::dpf::PropFieldCursor::operator[](dp_int index) const
 ```
 
-
-
-
 **Returns**:
 
 Property data at given index.
-
-
 
 **Parameters**:
 
@@ -284,19 +82,13 @@ Property data at given index.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::PropFieldCursor::size() const
 ```
 
-
-
-
 **Returns**:
 
 Size of property data.
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -312,19 +104,13 @@ Size of property data.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_id ansys::dpf::PropFieldCursor::id() const
 ```
 
-
-
-
 **Returns**:
 
 Id of property.
-
-
 
 **Return type**: [dp\_id](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1ab4574c9af3f2bb8011da7d1f4c8da20e)
 
@@ -340,19 +126,13 @@ Id of property.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::PropFieldCursor::numberOfComponents() const
 ```
 
-
-
-
 **Returns**:
 
 Number of components in property data.
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -368,19 +148,13 @@ Number of components in property data.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::PropFieldCursor::numberOfElementaryData() const
 ```
 
-
-
-
 **Returns**:
 
 Number of entries in property data.
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -396,19 +170,13 @@ Number of entries in property data.
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::PropFieldCursor::defined() const
 ```
 
-
-
-
 **Returns**:
 
 Indication that property defined
-
-
 
 **Return type**: bool
 

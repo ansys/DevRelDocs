@@ -8,8 +8,6 @@
 
 The configuration associated to a [Logger](classansys_1_1dpf_1_1core_1_1logging_1_1Logger.md#classansys_1_1dpf_1_1core_1_1logging_1_1Logger). It allows setting the log level and the sinks of a logger.
 
-
-
 ## Members
 
 * [\_log\_level](classansys_1_1dpf_1_1core_1_1logging_1_1LoggerConfig.md#classansys_1_1dpf_1_1core_1_1logging_1_1LoggerConfig_1aeee2c0107f687daf35ecf7c4ede3d94c)
@@ -24,60 +22,6 @@ The configuration associated to a [Logger](classansys_1_1dpf_1_1core_1_1logging_
 
 ## Private attributes
 
-<a id="classansys_1_1dpf_1_1core_1_1logging_1_1LoggerConfig_1aeee2c0107f687daf35ecf7c4ede3d94c"></a>
-### Variable \_log\_level
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6686)
-
-
-```cpp
-eLogLevel ansys::dpf::core::logging::LoggerConfig::_log_level
-```
-
-
-
-
-
-
-
-
-**Type**: eLogLevel
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::logging::LoggerConfig::_log_level"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1core_1_1logging_1_1LoggerConfig_1a9f21a038624f2840a9fa157e0623a06f"></a>
-### Variable \_sinks
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6687)
-
-
-```cpp
-std::set<eLoggerSink> ansys::dpf::core::logging::LoggerConfig::_sinks
-```
-
-
-
-
-
-
-
-
-**Type**: std::set< eLoggerSink >
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::logging::LoggerConfig::_sinks"}]}`
--->
-
 ## Public functions
 
 <a id="classansys_1_1dpf_1_1core_1_1logging_1_1LoggerConfig_1a4b15b9ab50086d77382b8a6f4e26e04a"></a>
@@ -85,17 +29,11 @@ std::set<eLoggerSink> ansys::dpf::core::logging::LoggerConfig::_sinks
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::core::logging::LoggerConfig::LoggerConfig()
 ```
 
-
 Construct a new [Logger](classansys_1_1dpf_1_1core_1_1logging_1_1Logger.md#classansys_1_1dpf_1_1core_1_1logging_1_1Logger) Config object.
-
-
-
-
 
 **Return type**: 
 
@@ -111,19 +49,15 @@ Construct a new [Logger](classansys_1_1dpf_1_1core_1_1logging_1_1Logger.md#class
 ![][public]
 ![][const]
 
-
 ```cpp
 eLogLevel ansys::dpf::core::logging::LoggerConfig::getLogLevel() const
 ```
-
 
 Get the loglevel for the [Logger](classansys_1_1dpf_1_1core_1_1logging_1_1Logger.md#classansys_1_1dpf_1_1core_1_1logging_1_1Logger).
 
 **Returns**:
 
 eLogLevel
-
-
 
 **Return type**: eLogLevel
 
@@ -139,19 +73,15 @@ eLogLevel
 ![][public]
 ![][const]
 
-
 ```cpp
 std::set< eLoggerSink > const  & ansys::dpf::core::logging::LoggerConfig::getSinks() const
 ```
-
 
 Get the list of sink types supported by the [Logger](classansys_1_1dpf_1_1core_1_1logging_1_1Logger.md#classansys_1_1dpf_1_1core_1_1logging_1_1Logger).
 
 **Returns**:
 
 std::set<eLoggerSink> const&
-
-
 
 **Return type**: std::set< eLoggerSink > const &
 
@@ -166,11 +96,9 @@ std::set<eLoggerSink> const&
 
 ![][public]
 
-
 ```cpp
 LoggerConfig & ansys::dpf::core::logging::LoggerConfig::withLogLevel(eLogLevel log_level)
 ```
-
 
 Sets the log level for the [Logger](classansys_1_1dpf_1_1core_1_1logging_1_1Logger.md#classansys_1_1dpf_1_1core_1_1logging_1_1Logger).
 
@@ -178,12 +106,9 @@ Sets the log level for the [Logger](classansys_1_1dpf_1_1core_1_1logging_1_1Logg
 
 * **log_level**: The [Logger](classansys_1_1dpf_1_1core_1_1logging_1_1Logger.md#classansys_1_1dpf_1_1core_1_1logging_1_1Logger) loglevel.
 
-
 **Returns**:
 
 [LoggerConfig](classansys_1_1dpf_1_1core_1_1logging_1_1LoggerConfig.md#classansys_1_1dpf_1_1core_1_1logging_1_1LoggerConfig)&
-
-
 
 **Parameters**:
 
@@ -202,11 +127,9 @@ Sets the log level for the [Logger](classansys_1_1dpf_1_1core_1_1logging_1_1Logg
 
 ![][public]
 
-
 ```cpp
 LoggerConfig & ansys::dpf::core::logging::LoggerConfig::withSinks(eLoggerSink sink)
 ```
-
 
 Sets a single sink for the [Logger](classansys_1_1dpf_1_1core_1_1logging_1_1Logger.md#classansys_1_1dpf_1_1core_1_1logging_1_1Logger) to write to.
 
@@ -214,12 +137,9 @@ Sets a single sink for the [Logger](classansys_1_1dpf_1_1core_1_1logging_1_1Logg
 
 * **sink**: The sink to write to.
 
-
 **Returns**:
 
 [LoggerConfig](classansys_1_1dpf_1_1core_1_1logging_1_1LoggerConfig.md#classansys_1_1dpf_1_1core_1_1logging_1_1LoggerConfig)&
-
-
 
 **Parameters**:
 
@@ -238,11 +158,9 @@ Sets a single sink for the [Logger](classansys_1_1dpf_1_1core_1_1logging_1_1Logg
 
 ![][public]
 
-
 ```cpp
 LoggerConfig & ansys::dpf::core::logging::LoggerConfig::withSinks(std::set< eLoggerSink > const &sinks)
 ```
-
 
 Sets a list of sinks for the [Logger](classansys_1_1dpf_1_1core_1_1logging_1_1Logger.md#classansys_1_1dpf_1_1core_1_1logging_1_1Logger) to write to.
 
@@ -250,12 +168,9 @@ Sets a list of sinks for the [Logger](classansys_1_1dpf_1_1core_1_1logging_1_1Lo
 
 * **sinks**: The sinks to write to.
 
-
 **Returns**:
 
 [LoggerConfig](classansys_1_1dpf_1_1core_1_1logging_1_1LoggerConfig.md#classansys_1_1dpf_1_1core_1_1logging_1_1LoggerConfig)&
-
-
 
 **Parameters**:
 
@@ -277,19 +192,15 @@ Sets a list of sinks for the [Logger](classansys_1_1dpf_1_1core_1_1logging_1_1Lo
 ![][public]
 ![][static]
 
-
 ```cpp
 static LoggerConfig ansys::dpf::core::logging::LoggerConfig::defaultConfig()
 ```
-
 
 Returns the default config for logging.
 
 **Returns**:
 
 [LoggerConfig](classansys_1_1dpf_1_1core_1_1logging_1_1LoggerConfig.md#classansys_1_1dpf_1_1core_1_1logging_1_1LoggerConfig)
-
-
 
 **Return type**: [LoggerConfig](classansys_1_1dpf_1_1core_1_1logging_1_1LoggerConfig.md#classansys_1_1dpf_1_1core_1_1logging_1_1LoggerConfig_1a4b15b9ab50086d77382b8a6f4e26e04a)
 

@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3264)
 
-
-
 Contains a group of entries of same type. The AnyCollection is designed as a set of entries ordered through labels and ids. Labels identify how the entries are filtered. 
 
 **See also**: [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any)
@@ -76,204 +74,7 @@ Contains a group of entries of same type. The AnyCollection is designed as a set
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1Collection_1a33ff3f826991522d2e77c1c523f33e19"></a>
-### Friend Operator
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3266)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Operator"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Collection::Operator"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Operator"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Collection_1afa07847c7cb432b260e61a0c18025ba3"></a>
-### Friend Workflow
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3267)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Workflow"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Collection::Workflow"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Workflow"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Collection_1a81d95df60edf516a1de9878b780f8fb3"></a>
-### Friend OperatorMain
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3268)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorMain"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Collection::OperatorMain"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorMain"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Collection_1a9820c685b67a3355c042bb0b3365d9e2"></a>
-### Friend Any
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3269)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Any"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Collection::Any"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Any"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Collection_1af891ea2ca8eebe3679e051763ba989ce"></a>
-### Friend CollectionBase
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3270)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class CollectionBase"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Collection::CollectionBase"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"CollectionBase"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Collection_1acc06c4380c923e11af63f95e97c3c259"></a>
-### Friend GenericDataContainer
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3271)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class GenericDataContainer"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Collection::GenericDataContainer"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"GenericDataContainer"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Collection_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3272)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Collection::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1Collection_1ae79cb983c0840dbb6d97bea543a6b395"></a>
-### Function Collection
-
-![][private]
-
-
-```cpp
-ansys::dpf::Collection< DataT >::Collection(opaque::DpfInternalSharedObject *obj)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfInternalSharedObject * **obj**
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Collection::Collection"}]}`
--->
 
 ## Public functions
 
@@ -282,17 +83,9 @@ ansys::dpf::Collection< DataT >::Collection(opaque::DpfInternalSharedObject *obj
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Collection< DataT >::Collection()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -307,17 +100,9 @@ ansys::dpf::Collection< DataT >::Collection()
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::Collection< DataT >::~Collection()=default
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -332,17 +117,9 @@ virtual ansys::dpf::Collection< DataT >::~Collection()=default
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Collection< DataT >::Collection(Collection< DataT > const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -361,17 +138,9 @@ ansys::dpf::Collection< DataT >::Collection(Collection< DataT > const &)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Collection< DataT >::Collection(Collection< DataT > &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -390,17 +159,11 @@ ansys::dpf::Collection< DataT >::Collection(Collection< DataT > &&) noexcept
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Collection< DataT >::Collection(std::vector< std::string > const &labels)
 ```
 
-
-
-
 Create container for a group of entries with the given labels.
-
-
 
 **Parameters**:
 
@@ -419,17 +182,11 @@ Create container for a group of entries with the given labels.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Collection< DataT >::Collection(Client const *const client)
 ```
 
-
-
-
 Create a new collection on a server.
-
-
 
 **Parameters**:
 
@@ -448,17 +205,11 @@ Create a new collection on a server.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Collection< DataT >::Collection(Client const *const client, std::vector< std::string > const &labels)
 ```
 
-
-
-
 Create a collection with the given labels on a server.
-
-
 
 **Parameters**:
 
@@ -478,17 +229,11 @@ Create a collection with the given labels on a server.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Collection< DataT >::Collection(int id, Client const *const client)
 ```
 
-
-
-
 Retrieve an existing instance of [Collection](classansys_1_1dpf_1_1Collection.md#classansys_1_1dpf_1_1Collection) on a server.
-
-
 
 **Parameters**:
 
@@ -508,17 +253,9 @@ Retrieve an existing instance of [Collection](classansys_1_1dpf_1_1Collection.md
 
 ![][public]
 
-
 ```cpp
 Collection< DataT > & ansys::dpf::Collection< DataT >::operator=(Collection< DataT > const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -537,17 +274,9 @@ Collection< DataT > & ansys::dpf::Collection< DataT >::operator=(Collection< Dat
 
 ![][public]
 
-
 ```cpp
 Collection< DataT > & ansys::dpf::Collection< DataT >::operator=(Collection< DataT > &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -566,19 +295,13 @@ Collection< DataT > & ansys::dpf::Collection< DataT >::operator=(Collection< Dat
 
 ![][public]
 
-
 ```cpp
 DataT ansys::dpf::Collection< DataT >::operator[](dp_int index)
 ```
 
-
-
-
 **Returns**:
 
 [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) for given index.
-
-
 
 **Parameters**:
 
@@ -597,19 +320,13 @@ DataT ansys::dpf::Collection< DataT >::operator[](dp_int index)
 
 ![][public]
 
-
 ```cpp
 DataT ansys::dpf::Collection< DataT >::at(dp_index index)
 ```
 
-
-
-
 **Returns**:
 
 DataT for given index.
-
-
 
 **Parameters**:
 
@@ -629,19 +346,13 @@ DataT for given index.
 ![][public]
 ![][const]
 
-
 ```cpp
 const DataT ansys::dpf::Collection< DataT >::at(dp_index index) const
 ```
 
-
-
-
 **Returns**:
 
 DataT for given index.
-
-
 
 **Parameters**:
 
@@ -660,17 +371,11 @@ DataT for given index.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Collection< DataT >::update(DataT &f, dp_index index)
 ```
 
-
-
-
 Update a [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) at index.
-
-
 
 **Parameters**:
 
@@ -690,17 +395,11 @@ Update a [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) at index.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Collection< DataT >::add(LabelSpace const &labels, DataT const &f, bool can_replace=true)
 ```
 
-
-
-
 Add [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) with given label space.
-
-
 
 **Parameters**:
 
@@ -722,19 +421,13 @@ Add [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) with given label
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< DataT > ansys::dpf::Collection< DataT >::getEntries(LabelSpace const &label_space) const
 ```
 
-
-
-
 **Returns**:
 
 Vector of entries for given label space.
-
-
 
 **Parameters**:
 
@@ -754,19 +447,13 @@ Vector of entries for given label space.
 ![][public]
 ![][const]
 
-
 ```cpp
 DataT ansys::dpf::Collection< DataT >::getEntry(LabelSpace const &label_space) const
 ```
 
-
-
-
 **Returns**:
 
 First [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) for given label space.
-
-
 
 **Parameters**:
 
@@ -786,17 +473,9 @@ First [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) for given labe
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< dp_index > ansys::dpf::Collection< DataT >::getEntriesIndices(LabelSpace const &lab_space) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -816,19 +495,13 @@ std::vector< dp_index > ansys::dpf::Collection< DataT >::getEntriesIndices(Label
 ![][public]
 ![][const]
 
-
 ```cpp
 DpfVector< int > ansys::dpf::Collection< DataT >::getMatchingEntitiesIndices(LabelSpace const &label_space) const
 ```
 
-
-
-
 **Returns**:
 
 Vector of matching entries to the given label space.
-
-
 
 **Parameters**:
 
@@ -848,19 +521,13 @@ Vector of matching entries to the given label space.
 ![][public]
 ![][const]
 
-
 ```cpp
 DataT ansys::dpf::Collection< DataT >::getMatchingEntity(LabelSpace const &label_space) const
 ```
 
-
-
-
 **Returns**:
 
 First matching [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) for given label space.
-
-
 
 **Parameters**:
 
@@ -880,17 +547,11 @@ First matching [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) for g
 ![][public]
 ![][const]
 
-
 ```cpp
 Collection< DataT > ansys::dpf::Collection< DataT >::createSubCollection(LabelSpace const &lab_space) const
 ```
 
-
 create a [Collection](classansys_1_1dpf_1_1Collection.md#classansys_1_1dpf_1_1Collection) with all the entries corresponding to the label space in input
-
-
-
-
 
 **Parameters**:
 
@@ -912,20 +573,14 @@ create a [Collection](classansys_1_1dpf_1_1Collection.md#classansys_1_1dpf_1_1Co
 ![][public]
 ![][static]
 
-
 ```cpp
 Collection< DataT > ansys::dpf::Collection< DataT >::emptyCollection()
 ```
-
-
-
 
 Create an empty container. 
 **Returns**:
 
 Empty container.
-
-
 
 **Return type**: Collection< DataT >
 

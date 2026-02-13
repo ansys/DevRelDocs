@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2380)
 
-
-
 Holds Integral (int32) data describing a Property located on given entities (the Property [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field)'s data is bounded with its scoping). Is the equivalent of the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) but with integral values data (and not double values).
 
 **Inherits from**:
@@ -79,389 +77,7 @@ Holds Integral (int32) data describing a Property located on given entities (the
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1PropertyField_1a33ff3f826991522d2e77c1c523f33e19"></a>
-### Friend Operator
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2382)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Operator"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropertyField::Operator"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Operator"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1PropertyField_1afa07847c7cb432b260e61a0c18025ba3"></a>
-### Friend Workflow
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2383)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Workflow"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropertyField::Workflow"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Workflow"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1PropertyField_1abb31806c269987c4a5e2a51f1f4d4d39"></a>
-### Friend MeshedRegion
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2384)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class MeshedRegion"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropertyField::MeshedRegion"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"MeshedRegion"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1PropertyField_1a87ba90b4bbcd8d8baa7bf17c27fbdfae"></a>
-### Friend TimeFreqSupport
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2385)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class TimeFreqSupport"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropertyField::TimeFreqSupport"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"TimeFreqSupport"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1PropertyField_1a81d95df60edf516a1de9878b780f8fb3"></a>
-### Friend OperatorMain
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2386)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorMain"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropertyField::OperatorMain"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorMain"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1PropertyField_1a9820c685b67a3355c042bb0b3365d9e2"></a>
-### Friend Any
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2387)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Any"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropertyField::Any"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Any"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1PropertyField_1a4303ef65e3d088cbff0512dfbf3734ac"></a>
-### Friend Support
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2388)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Support"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropertyField::Support"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Support"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1PropertyField_1a8a8b42bcbba089cc2a997c65416c9038"></a>
-### Friend GenericSupport
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2389)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class GenericSupport"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropertyField::GenericSupport"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"GenericSupport"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1PropertyField_1ad465d7b2f213af5e9c522d51658e74b9"></a>
-### Friend CyclicSupport
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2390)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class CyclicSupport"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropertyField::CyclicSupport"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"CyclicSupport"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1PropertyField_1acc06c4380c923e11af63f95e97c3c259"></a>
-### Friend GenericDataContainer
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2391)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class GenericDataContainer"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropertyField::GenericDataContainer"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"GenericDataContainer"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1PropertyField_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2392)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropertyField::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1PropertyField_1a6c5ceed26c19a00434b5fa91cbed580c"></a>
-### Friend DataTree
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2393)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class DataTree"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropertyField::DataTree"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"DataTree"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1PropertyField_1a1856a7b2187e8fffd97d9d04b5da798a"></a>
-### Function PropertyField
-
-![][private]
-
-
-```cpp
-ansys::dpf::PropertyField::PropertyField(opaque::DpfInternalSharedObject *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfInternalSharedObject *
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropertyField::PropertyField"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1PropertyField_1a9d57c71f4fad64a1f5946ebbd39db3c7"></a>
-### Function PropertyField
-
-![][private]
-
-
-```cpp
-ansys::dpf::PropertyField::PropertyField(opaque::DpfObject *, so::API const *api)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfObject *
-* so::API const * **api**
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropertyField::PropertyField"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1PropertyField_1af0f42f6ef312437a7ee49d79b357a39f"></a>
-### Function copy\_to\_Tfield
-
-![][private]
-![][const]
-
-
-```cpp
-void ansys::dpf::PropertyField::copy_to_Tfield(TField &out, ansys::dpf::Client const *const client, bool const copy_ids=true, bool const copy_data_ptr=true, bool const copy_support=true) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* TField & **out**: [in] [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) where to copy the data
-* [ansys::dpf::Client](classansys_1_1dpf_1_1Client.md#classansys_1_1dpf_1_1Client) const *const **client**: [in] Remote client
-* bool const **copy_ids** = true : [in] Boolean to decide if scoping ids are to be copied
-* bool const **copy_data_ptr** = true : [in] Boolean to decide if data pointer is to be copied
-* bool const **copy_support** = true : [in] Boolean to decide if the support reference is to be copied
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename TField"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropertyField::copy_to_Tfield"}]}`
--->
 
 ## Public static functions
 
@@ -471,17 +87,9 @@ void ansys::dpf::PropertyField::copy_to_Tfield(TField &out, ansys::dpf::Client c
 ![][public]
 ![][static]
 
-
 ```cpp
 static PropertyField ansys::dpf::PropertyField::emptyPropertyField()
 ```
-
-
-
-
-
-
-
 
 **Return type**: PropertyField
 
@@ -497,17 +105,11 @@ static PropertyField ansys::dpf::PropertyField::emptyPropertyField()
 ![][public]
 ![][static]
 
-
 ```cpp
 static PropertyField ansys::dpf::PropertyField::createPropertyFieldWithTransformation(Workflow transformation_wf, int reserved_number_of_entity=0, int reserved_data_size=0, std::string const &input_name_to_connect="input_field", std::string const &output_name_to_eval="transformed_field")
 ```
 
-
-
-
 Instantiate a [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1dpf_1_1PropertyField) with Transformation. For each call to a getter, the workflow in input is connected this [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1dpf_1_1PropertyField) to input_name_to_connect and the [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1dpf_1_1PropertyField) output in output_name_to_eval is used as the getter instance.
-
-
 
 **Parameters**:
 
@@ -532,17 +134,9 @@ Instantiate a [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::PropertyField::~PropertyField()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -557,17 +151,11 @@ virtual ansys::dpf::PropertyField::~PropertyField()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::PropertyField::PropertyField(Client const *const client, dp_int number_of_entities=0, dp_int data_size=0, const Location &loc=Location())
 ```
 
-
-
-
 Create an empty property field with a client.
-
-
 
 **Parameters**:
 
@@ -589,17 +177,11 @@ Create an empty property field with a client.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::PropertyField::PropertyField(dp_int number_of_entities=0, dp_int data_size=0)
 ```
 
-
-
-
 Create a property with number of entities and data size.
-
-
 
 **Parameters**:
 
@@ -619,17 +201,11 @@ Create a property with number of entities and data size.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::PropertyField::PropertyField(int id, Client const *const client)
 ```
 
-
-
-
 Retrieve an existing instance of [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1dpf_1_1PropertyField) on a server.
-
-
 
 **Parameters**:
 
@@ -649,17 +225,9 @@ Retrieve an existing instance of [PropertyField](classansys_1_1dpf_1_1PropertyFi
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::PropertyField::PropertyField(PropertyField const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -678,17 +246,9 @@ ansys::dpf::PropertyField::PropertyField(PropertyField const &)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::PropertyField::PropertyField(PropertyField &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -707,17 +267,9 @@ ansys::dpf::PropertyField::PropertyField(PropertyField &&) noexcept
 
 ![][public]
 
-
 ```cpp
 PropertyField & ansys::dpf::PropertyField::operator=(PropertyField const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -736,17 +288,9 @@ PropertyField & ansys::dpf::PropertyField::operator=(PropertyField const &)
 
 ![][public]
 
-
 ```cpp
 PropertyField & ansys::dpf::PropertyField::operator=(PropertyField &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -766,19 +310,13 @@ PropertyField & ansys::dpf::PropertyField::operator=(PropertyField &&) noexcept
 ![][public]
 ![][const]
 
-
 ```cpp
 FieldDefinition ansys::dpf::PropertyField::fieldDefinition() const
 ```
 
-
-
-
 **Returns**:
 
 [FieldDefinition](classansys_1_1dpf_1_1FieldDefinition.md#classansys_1_1dpf_1_1FieldDefinition) of the field.
-
-
 
 **Return type**: [FieldDefinition](classansys_1_1dpf_1_1FieldDefinition.md#classansys_1_1dpf_1_1FieldDefinition)
 
@@ -793,17 +331,11 @@ FieldDefinition ansys::dpf::PropertyField::fieldDefinition() const
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::PropertyField::setFieldDefinition(FieldDefinition const &f)
 ```
 
-
-
-
 Set the [FieldDefinition](classansys_1_1dpf_1_1FieldDefinition.md#classansys_1_1dpf_1_1FieldDefinition).
-
-
 
 **Parameters**:
 
@@ -823,19 +355,13 @@ Set the [FieldDefinition](classansys_1_1dpf_1_1FieldDefinition.md#classansys_1_1
 ![][public]
 ![][const]
 
-
 ```cpp
 Support ansys::dpf::PropertyField::support() const
 ```
 
-
-
-
 **Returns**:
 
 [Support](classansys_1_1dpf_1_1Support.md#classansys_1_1dpf_1_1Support) of the [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1dpf_1_1PropertyField).
-
-
 
 **Return type**: Support
 
@@ -850,17 +376,11 @@ Support ansys::dpf::PropertyField::support() const
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::PropertyField::setSupport(ansys::dpf::Support const &s)
 ```
 
-
-
-
 Set the support of the [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1dpf_1_1PropertyField).
-
-
 
 **Parameters**:
 
@@ -879,17 +399,11 @@ Set the support of the [PropertyField](classansys_1_1dpf_1_1PropertyField.md#cla
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::PropertyField::setSupport(ansys::dpf::TimeFreqSupport const &s)
 ```
 
-
-
-
 Set the support of the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field).
-
-
 
 **Parameters**:
 
@@ -908,17 +422,11 @@ Set the support of the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::PropertyField::setSupport(ansys::dpf::MeshedRegion const &s)
 ```
 
-
-
-
 Set the support of the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field).
-
-
 
 **Parameters**:
 
@@ -938,19 +446,13 @@ Set the support of the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::PropertyField::name() const
 ```
 
-
-
-
 **Returns**:
 
 Name of [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1dpf_1_1PropertyField).
-
-
 
 **Return type**: std::string
 
@@ -965,17 +467,11 @@ Name of [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1dpf_
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::PropertyField::setName(const std::string &name)
 ```
 
-
-
-
 Set name of [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1dpf_1_1PropertyField).
-
-
 
 **Parameters**:
 
@@ -995,19 +491,13 @@ Set name of [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1
 ![][public]
 ![][const]
 
-
 ```cpp
 Location ansys::dpf::PropertyField::location() const
 ```
 
-
-
-
 **Returns**:
 
 [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location) of the property.
-
-
 
 **Return type**: [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location)
 
@@ -1023,19 +513,13 @@ Location ansys::dpf::PropertyField::location() const
 ![][public]
 ![][const]
 
-
 ```cpp
 Scoping ansys::dpf::PropertyField::scoping() const
 ```
 
-
-
-
 **Returns**:
 
 [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) of the property.
-
-
 
 **Return type**: [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping)
 
@@ -1051,19 +535,13 @@ Scoping ansys::dpf::PropertyField::scoping() const
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::PropertyField::dataSize() const
 ```
 
-
-
-
 **Returns**:
 
 Size of the data container.
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -1079,19 +557,13 @@ Size of the data container.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::PropertyField::numberOfComponents() const
 ```
 
-
-
-
 **Returns**:
 
 Number of components in the property data.
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -1107,19 +579,13 @@ Number of components in the property data.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::PropertyField::numberOfElementaryData() const
 ```
 
-
-
-
 **Returns**:
 
 Number of elementary data (size = number of components) contained in the [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1dpf_1_1PropertyField).
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -1134,17 +600,11 @@ Number of elementary data (size = number of components) contained in the [Proper
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::PropertyField::push_back(dp_id entity_id, std::vector< int > const &values)
 ```
 
-
-
-
 Push back the entity data.
-
-
 
 **Parameters**:
 
@@ -1164,17 +624,11 @@ Push back the entity data.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::PropertyField::push_back(dp_id entity_id, const int *values, int size)
 ```
 
-
-
-
 Push back the entity data.
-
-
 
 **Parameters**:
 
@@ -1195,17 +649,11 @@ Push back the entity data.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::PropertyField::push_back(dp_id entity_id, int *values, int size)
 ```
 
-
-
-
 Push back the entity data.
-
-
 
 **Parameters**:
 
@@ -1226,17 +674,11 @@ Push back the entity data.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::PropertyField::setData(std::vector< int > const &data)
 ```
 
-
-
-
 Set the data of the property field.
-
-
 
 **Parameters**:
 
@@ -1255,17 +697,11 @@ Set the data of the property field.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::PropertyField::setData(int const *const data, int size)
 ```
 
-
-
-
 Set the data of the property field.
-
-
 
 **Parameters**:
 
@@ -1285,17 +721,11 @@ Set the data of the property field.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::PropertyField::setDataPointer(std::vector< int > const &data)
 ```
 
-
-
-
 Set the data pointer of the property field.
-
-
 
 **Parameters**:
 
@@ -1314,17 +744,11 @@ Set the data pointer of the property field.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::PropertyField::setDataPointer(int *const data, int size)
 ```
 
-
-
-
 Set the data pointer of the property field.
-
-
 
 **Parameters**:
 
@@ -1344,17 +768,11 @@ Set the data pointer of the property field.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::PropertyField::setScoping(ansys::dpf::Scoping const &s)
 ```
 
-
-
-
 Set the scoping of the property field.
-
-
 
 **Parameters**:
 
@@ -1374,19 +792,13 @@ Set the scoping of the property field.
 ![][public]
 ![][const]
 
-
 ```cpp
 const dp_int * ansys::dpf::PropertyField::dataByIndex(dp_index entity_index, int &size) const
 ```
 
-
-
-
 **Returns**:
 
 Pointer to entity data given by index.
-
-
 
 **Parameters**:
 
@@ -1407,19 +819,13 @@ Pointer to entity data given by index.
 ![][public]
 ![][const]
 
-
 ```cpp
 const dp_int * ansys::dpf::PropertyField::dataById(dp_id entity_id, int &size) const
 ```
 
-
-
-
 **Returns**:
 
 Pointer to entity data given by id.
-
-
 
 **Parameters**:
 
@@ -1440,17 +846,11 @@ Pointer to entity data given by id.
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::PropertyField::fillCursor(dp_index index, PropFieldCursor &cursor) const
 ```
 
-
-
-
 Get data at a given index.
-
-
 
 **Parameters**:
 
@@ -1471,17 +871,11 @@ Get data at a given index.
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::PropertyField::getIds(std::vector< dp_id > &ids_to_fill) const
 ```
 
-
-
-
 Get ids of property entities.
-
-
 
 **Parameters**:
 
@@ -1501,17 +895,11 @@ Get ids of property entities.
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::PropertyField::getData(std::vector< dp_int > &values_to_fill) const
 ```
 
-
-
-
 Get all data for property entities.
-
-
 
 **Parameters**:
 
@@ -1531,19 +919,13 @@ Get all data for property entities.
 ![][public]
 ![][const]
 
-
 ```cpp
 DpfVector< int > ansys::dpf::PropertyField::data() const
 ```
 
-
-
-
 **Returns**:
 
 [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) of data array.
-
-
 
 **Return type**: DpfVector< int >
 
@@ -1559,19 +941,13 @@ DpfVector< int > ansys::dpf::PropertyField::data() const
 ![][public]
 ![][const]
 
-
 ```cpp
 DpfVector< int > ansys::dpf::PropertyField::dataPointer() const
 ```
 
-
-
-
 **Returns**:
 
 [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) of data array.
-
-
 
 **Return type**: DpfVector< int >
 
@@ -1587,19 +963,13 @@ DpfVector< int > ansys::dpf::PropertyField::dataPointer() const
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::PropertyField::entityData(dp_index entity_index, DpfVector< int > &data) const
 ```
 
-
-
-
 **Returns**:
 
 [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) of data array of an entity, by index.
-
-
 
 **Parameters**:
 
@@ -1620,19 +990,13 @@ void ansys::dpf::PropertyField::entityData(dp_index entity_index, DpfVector< int
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::PropertyField::entityDataById(dp_id entity_id, DpfVector< int > &data) const
 ```
 
-
-
-
 **Returns**:
 
 [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) of data array of an entity, by id.
-
-
 
 **Parameters**:
 
@@ -1652,17 +1016,11 @@ void ansys::dpf::PropertyField::entityDataById(dp_id entity_id, DpfVector< int >
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::PropertyField::reserve(dp_int number_of_entities, dp_int overall_size=0)
 ```
 
-
-
-
 Reserve the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field). Only implemented for in process udage. To reserve the size for gRPC usage, use the constructor.
-
-
 
 **Parameters**:
 
@@ -1682,17 +1040,11 @@ Reserve the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field). O
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::PropertyField::resize(dp_int number_of_entities, dp_int overall_size)
 ```
 
-
-
-
 Reserve the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field).
-
-
 
 **Parameters**:
 
@@ -1713,17 +1065,11 @@ Reserve the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field).
 ![][public]
 ![][const]
 
-
 ```cpp
 PropertyField ansys::dpf::PropertyField::deep_copy(ansys::dpf::Client const *const client=nullptr) const
 ```
 
-
-
-
 Make a deep copy on a given client.
-
-
 
 **Parameters**:
 
@@ -1743,17 +1089,11 @@ Make a deep copy on a given client.
 ![][public]
 ![][const]
 
-
 ```cpp
 CustomTypeField ansys::dpf::PropertyField::cloneToCustomTypeField(ansys::dpf::Client const *const client=nullptr, bool const copy_ids=true, bool const copy_data_ptr=true, bool const copy_support=true) const
 ```
 
-
-
-
 Creates a new custom type field object from current property field without its data.
-
-
 
 **Parameters**:
 
@@ -1777,17 +1117,11 @@ Creates a new custom type field object from current property field without its d
 ![][public]
 ![][const]
 
-
 ```cpp
 Field ansys::dpf::PropertyField::cloneToField(ansys::dpf::Client const *const client=nullptr, bool const copy_ids=true, bool const copy_data_ptr=true, bool const copy_support=true) const
 ```
 
-
-
-
 Creates a new field object from current property field without its data.
-
-
 
 **Parameters**:
 
@@ -1810,17 +1144,11 @@ Creates a new field object from current property field without its data.
 ![][public]
 ![][const]
 
-
 ```cpp
 PropertyField ansys::dpf::PropertyField::cloneToPropertyField(ansys::dpf::Client const *const client=nullptr, bool const copy_ids=true, bool const copy_data_ptr=true, bool const copy_support=true) const
 ```
 
-
-
-
 Creates a new property field object from current property field without its data.
-
-
 
 **Parameters**:
 
@@ -1843,17 +1171,11 @@ Creates a new property field object from current property field without its data
 ![][public]
 ![][const]
 
-
 ```cpp
 DataTree ansys::dpf::PropertyField::getHeaderAsDataTree() const
 ```
 
-
-
-
 Get the header of the [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1dpf_1_1PropertyField) as a [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree) object.
-
-
 
 **Return type**: DataTree
 
@@ -1868,17 +1190,11 @@ Get the header of the [PropertyField](classansys_1_1dpf_1_1PropertyField.md#clas
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::PropertyField::setHeaderAsDataTree(const DataTree &datatree)
 ```
 
-
-
-
 Set the header of the [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1dpf_1_1PropertyField) using a [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree) object.
-
-
 
 **Parameters**:
 

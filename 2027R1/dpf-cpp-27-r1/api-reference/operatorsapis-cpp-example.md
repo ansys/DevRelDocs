@@ -3,8 +3,6 @@
 
 **Location**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h`
 
-
-
 Examples showing how to use the DPF operators to compute the data. 
 ```
 

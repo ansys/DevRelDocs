@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 246)
 
-
-
 Predefined property types.
 
 ## Members
@@ -42,34 +40,6 @@ Predefined property types.
 
 ## Private static attributes
 
-<a id="structansys_1_1dpf_1_1property__types_1ae632da7ba6f924afd81d0734274be49d"></a>
-### Variable \_existing\_props
-
-![][private]
-![][static]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 249)
-
-
-```cpp
-std::vector<PropertyType> ansys::dpf::property_types::_existing_props
-```
-
-
-
-
-
-
-
-
-**Type**: std::vector< [PropertyType](structansys_1_1dpf_1_1PropertyType.md#structansys_1_1dpf_1_1PropertyType) >
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::property_types::_existing_props"}]}`
--->
-
 ## Public static attributes
 
 <a id="structansys_1_1dpf_1_1property__types_1aa4f6eaec75972b7eb1d0fe17a8ccf08a"></a>
@@ -80,17 +50,11 @@ std::vector<PropertyType> ansys::dpf::property_types::_existing_props
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 259)
 
-
 ```cpp
 const PropertyType ansys::dpf::property_types::material
 ```
 
-
-
-
 Predefined material property type.
-
-
 
 **Type**: const [PropertyType](structansys_1_1dpf_1_1PropertyType.md#structansys_1_1dpf_1_1PropertyType)
 
@@ -108,17 +72,11 @@ Predefined material property type.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 261)
 
-
 ```cpp
 const PropertyType ansys::dpf::property_types::element_shape
 ```
 
-
-
-
 Predefined element_shape property type.
-
-
 
 **Type**: const [PropertyType](structansys_1_1dpf_1_1PropertyType.md#structansys_1_1dpf_1_1PropertyType)
 
@@ -136,17 +94,11 @@ Predefined element_shape property type.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 263)
 
-
 ```cpp
 const PropertyType ansys::dpf::property_types::element_type
 ```
 
-
-
-
 Predefined element_type property type.
-
-
 
 **Type**: const [PropertyType](structansys_1_1dpf_1_1PropertyType.md#structansys_1_1dpf_1_1PropertyType)
 
@@ -164,17 +116,11 @@ Predefined element_type property type.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 265)
 
-
 ```cpp
 const PropertyType ansys::dpf::property_types::element_properties
 ```
 
-
-
-
 Predefined element_properties property type.
-
-
 
 **Type**: const [PropertyType](structansys_1_1dpf_1_1PropertyType.md#structansys_1_1dpf_1_1PropertyType)
 
@@ -192,17 +138,11 @@ Predefined element_properties property type.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 267)
 
-
 ```cpp
 const PropertyType ansys::dpf::property_types::connectivity
 ```
 
-
-
-
 Predefined connectivity property type.
-
-
 
 **Type**: const [PropertyType](structansys_1_1dpf_1_1PropertyType.md#structansys_1_1dpf_1_1PropertyType)
 
@@ -220,17 +160,11 @@ Predefined connectivity property type.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 269)
 
-
 ```cpp
 const PropertyType ansys::dpf::property_types::apdl_element_type
 ```
 
-
-
-
 Predefined apdl_element_type property type.
-
-
 
 **Type**: const [PropertyType](structansys_1_1dpf_1_1PropertyType.md#structansys_1_1dpf_1_1PropertyType)
 
@@ -248,17 +182,11 @@ Predefined apdl_element_type property type.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 271)
 
-
 ```cpp
 const PropertyType ansys::dpf::property_types::faces_nodes_connectivity
 ```
 
-
-
-
 Predefined faces_nodes_connectivity property type.
-
-
 
 **Type**: const [PropertyType](structansys_1_1dpf_1_1PropertyType.md#structansys_1_1dpf_1_1PropertyType)
 
@@ -276,17 +204,11 @@ Predefined faces_nodes_connectivity property type.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 273)
 
-
 ```cpp
 const PropertyType ansys::dpf::property_types::elements_faces_connectivity
 ```
 
-
-
-
 Predefined elements_faces_connectivity property type.
-
-
 
 **Type**: const [PropertyType](structansys_1_1dpf_1_1PropertyType.md#structansys_1_1dpf_1_1PropertyType)
 
@@ -304,17 +226,11 @@ Predefined elements_faces_connectivity property type.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 275)
 
-
 ```cpp
 const PropertyType ansys::dpf::property_types::elements_faces_reversed
 ```
 
-
-
-
 Predefined elements_faces_reversed property type.
-
-
 
 **Type**: const [PropertyType](structansys_1_1dpf_1_1PropertyType.md#structansys_1_1dpf_1_1PropertyType)
 
@@ -332,17 +248,11 @@ Predefined elements_faces_reversed property type.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 277)
 
-
 ```cpp
 const PropertyType ansys::dpf::property_types::coordinates
 ```
 
-
-
-
 Predefined coordinates property type.
-
-
 
 **Type**: const [PropertyType](structansys_1_1dpf_1_1PropertyType.md#structansys_1_1dpf_1_1PropertyType)
 
@@ -360,17 +270,11 @@ Predefined coordinates property type.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 279)
 
-
 ```cpp
 const PropertyType ansys::dpf::property_types::faces_type
 ```
 
-
-
-
 Predefined faces_type property type.
-
-
 
 **Type**: const [PropertyType](structansys_1_1dpf_1_1PropertyType.md#structansys_1_1dpf_1_1PropertyType)
 
@@ -388,17 +292,11 @@ Predefined faces_type property type.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 281)
 
-
 ```cpp
 const PropertyType ansys::dpf::property_types::time_freqs
 ```
 
-
-
-
 Predefined time_freqs [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#classansys_1_1dpf_1_1TimeFreqSupport) property type.
-
-
 
 **Type**: const [PropertyType](structansys_1_1dpf_1_1PropertyType.md#structansys_1_1dpf_1_1PropertyType)
 
@@ -416,17 +314,11 @@ Predefined time_freqs [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 283)
 
-
 ```cpp
 const PropertyType ansys::dpf::property_types::imaginary_freqs
 ```
 
-
-
-
 Predefined imaginary_freqs [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#classansys_1_1dpf_1_1TimeFreqSupport) property type.
-
-
 
 **Type**: const [PropertyType](structansys_1_1dpf_1_1PropertyType.md#structansys_1_1dpf_1_1PropertyType)
 
@@ -444,17 +336,11 @@ Predefined imaginary_freqs [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSuppor
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 285)
 
-
 ```cpp
 const PropertyType ansys::dpf::property_types::rpms
 ```
 
-
-
-
 Predefined rpms [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#classansys_1_1dpf_1_1TimeFreqSupport) property type.
-
-
 
 **Type**: const [PropertyType](structansys_1_1dpf_1_1PropertyType.md#structansys_1_1dpf_1_1PropertyType)
 
@@ -472,17 +358,11 @@ Predefined rpms [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#classa
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 287)
 
-
 ```cpp
 const PropertyType ansys::dpf::property_types::harmonic_indices
 ```
 
-
-
-
 Predefined harmonic_indices [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#classansys_1_1dpf_1_1TimeFreqSupport) property type.
-
-
 
 **Type**: const [PropertyType](structansys_1_1dpf_1_1PropertyType.md#structansys_1_1dpf_1_1PropertyType)
 
@@ -500,17 +380,11 @@ Predefined harmonic_indices [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSuppo
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 289)
 
-
 ```cpp
 const PropertyType ansys::dpf::property_types::time_freqs_substep_ids
 ```
 
-
-
-
 Predefined time_freqs_substep_ids [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#classansys_1_1dpf_1_1TimeFreqSupport) property type.
-
-
 
 **Type**: const [PropertyType](structansys_1_1dpf_1_1PropertyType.md#structansys_1_1dpf_1_1PropertyType)
 
@@ -528,17 +402,11 @@ Predefined time_freqs_substep_ids [TimeFreqSupport](classansys_1_1dpf_1_1TimeFre
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 291)
 
-
 ```cpp
 const PropertyType ansys::dpf::property_types::time_freqs_cumulative_ids
 ```
 
-
-
-
 Predefined time_freqs_cumulative_ids [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#classansys_1_1dpf_1_1TimeFreqSupport) property type.
-
-
 
 **Type**: const [PropertyType](structansys_1_1dpf_1_1PropertyType.md#structansys_1_1dpf_1_1PropertyType)
 
@@ -556,17 +424,11 @@ Predefined time_freqs_cumulative_ids [TimeFreqSupport](classansys_1_1dpf_1_1Time
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 293)
 
-
 ```cpp
 const PropertyType ansys::dpf::property_types::imaginary_freqs_substep_ids
 ```
 
-
-
-
 Predefined imaginary_freqs_substep_ids [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#classansys_1_1dpf_1_1TimeFreqSupport) property type.
-
-
 
 **Type**: const [PropertyType](structansys_1_1dpf_1_1PropertyType.md#structansys_1_1dpf_1_1PropertyType)
 
@@ -584,17 +446,11 @@ Predefined imaginary_freqs_substep_ids [TimeFreqSupport](classansys_1_1dpf_1_1Ti
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 295)
 
-
 ```cpp
 const PropertyType ansys::dpf::property_types::imaginary_freqs_cumulative_ids
 ```
 
-
-
-
 Predefined imaginary_freqs_cumulative_ids [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#classansys_1_1dpf_1_1TimeFreqSupport) property type.
-
-
 
 **Type**: const [PropertyType](structansys_1_1dpf_1_1PropertyType.md#structansys_1_1dpf_1_1PropertyType)
 
@@ -612,17 +468,11 @@ Predefined imaginary_freqs_cumulative_ids [TimeFreqSupport](classansys_1_1dpf_1_
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 297)
 
-
 ```cpp
 const PropertyType ansys::dpf::property_types::names
 ```
 
-
-
-
 Predefined names CommonSupport property type.
-
-
 
 **Type**: const [PropertyType](structansys_1_1dpf_1_1PropertyType.md#structansys_1_1dpf_1_1PropertyType)
 
@@ -640,17 +490,11 @@ Predefined names CommonSupport property type.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 299)
 
-
 ```cpp
 const PropertyType ansys::dpf::property_types::cell_zone_id
 ```
 
-
-
-
 Predefined cell_zone_id property type.
-
-
 
 **Type**: const [PropertyType](structansys_1_1dpf_1_1PropertyType.md#structansys_1_1dpf_1_1PropertyType)
 
@@ -668,17 +512,11 @@ Predefined cell_zone_id property type.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 301)
 
-
 ```cpp
 const PropertyType ansys::dpf::property_types::face_zone_id
 ```
 
-
-
-
 Predefined face_zone_id property type.
-
-
 
 **Type**: const [PropertyType](structansys_1_1dpf_1_1PropertyType.md#structansys_1_1dpf_1_1PropertyType)
 
@@ -696,17 +534,11 @@ Predefined face_zone_id property type.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 303)
 
-
 ```cpp
 const PropertyType ansys::dpf::property_types::part_id
 ```
 
-
-
-
 Predefined part_id property type.
-
-
 
 **Type**: const [PropertyType](structansys_1_1dpf_1_1PropertyType.md#structansys_1_1dpf_1_1PropertyType)
 
@@ -724,17 +556,11 @@ Predefined part_id property type.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 305)
 
-
 ```cpp
 const PropertyType ansys::dpf::property_types::section
 ```
 
-
-
-
 Predefined section property type.
-
-
 
 **Type**: const [PropertyType](structansys_1_1dpf_1_1PropertyType.md#structansys_1_1dpf_1_1PropertyType)
 
@@ -752,20 +578,14 @@ Predefined section property type.
 ![][public]
 ![][static]
 
-
 ```cpp
 static std::vector< PropertyType > const  & ansys::dpf::property_types::all()
 ```
-
-
-
 
 Gets all user-defined and predefined property types. 
 **Returns**:
 
 All property types.
-
-
 
 **Return type**: std::vector< [PropertyType](structansys_1_1dpf_1_1PropertyType.md#structansys_1_1dpf_1_1PropertyType) > const &
 
@@ -781,17 +601,11 @@ All property types.
 ![][public]
 ![][static]
 
-
 ```cpp
 static void ansys::dpf::property_types::add_custom(PropertyType const &rhs)
 ```
 
-
-
-
 Adds a custom defined property type.
-
-
 
 **Parameters**:
 

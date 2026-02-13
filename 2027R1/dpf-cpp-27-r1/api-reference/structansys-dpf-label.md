@@ -6,10 +6,7 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 518)
 
-
-
 Container for label. 
-
 
 **See also**: [labels](structansys_1_1dpf_1_1labels.md#structansys_1_1dpf_1_1labels), group_12
 
@@ -27,33 +24,6 @@ Container for label.
 
 ## Private attributes
 
-<a id="structansys_1_1dpf_1_1Label_1ade6a2bf0d62ca26625d13c3d977dba58"></a>
-### Variable \_value
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 521)
-
-
-```cpp
-std::string ansys::dpf::Label::_value
-```
-
-
-
-
-
-
-
-
-**Type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Label::_value"}]}`
--->
-
 ## Public functions
 
 <a id="structansys_1_1dpf_1_1Label_1aa16652a3ceeda62dce2af07722a0ec80"></a>
@@ -61,17 +31,11 @@ std::string ansys::dpf::Label::_value
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Label::Label(std::string const &name)
 ```
 
-
-
-
 Create [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label).
-
-
 
 **Parameters**:
 
@@ -90,17 +54,9 @@ Create [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label).
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Label::Label(Label const &)=default
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -120,17 +76,9 @@ ansys::dpf::Label::Label(Label const &)=default
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::Label::operator==(Label const &) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -150,17 +98,9 @@ bool ansys::dpf::Label::operator==(Label const &) const
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::Label::operator<(Label const &) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -180,17 +120,9 @@ bool ansys::dpf::Label::operator<(Label const &) const
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::Label::operator<=(Label const &) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -210,17 +142,9 @@ bool ansys::dpf::Label::operator<=(Label const &) const
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::Label::operator!=(Label const &) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -240,17 +164,11 @@ bool ansys::dpf::Label::operator!=(Label const &) const
 ![][public]
 ![][const]
 
-
 ```cpp
 ansys::dpf::Label::operator std::string() const
 ```
 
-
-
-
 Value of label.
-
-
 
 **Return type**: 
 
@@ -266,19 +184,13 @@ Value of label.
 ![][public]
 ![][const]
 
-
 ```cpp
 const char * ansys::dpf::Label::c_str() const
 ```
 
-
-
-
 **Returns**:
 
 Value of label.
-
-
 
 **Return type**: const char *
 

@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2711)
 
-
-
-
-
 **Template parameters**:
 
 * typename T
@@ -29,17 +25,9 @@
 ![][public]
 ![][static]
 
-
 ```cpp
 void ansys::dpf::internal::set_prop< T, isBaseOfDpfTypes, isBaseOfCustomContainerBase >::internalSetProperty(GenericDataContainer &gdc, const std::string &property_name, const T &property)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -61,17 +49,9 @@ void ansys::dpf::internal::set_prop< T, isBaseOfDpfTypes, isBaseOfCustomContaine
 ![][public]
 ![][static]
 
-
 ```cpp
 void ansys::dpf::internal::set_prop< T, isBaseOfDpfTypes, isBaseOfCustomContainerBase >::internalAddEntry(Collection< T > &collection, LabelSpace const &labels, T const &f, bool can_replace)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 

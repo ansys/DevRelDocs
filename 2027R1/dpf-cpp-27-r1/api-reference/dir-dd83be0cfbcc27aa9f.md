@@ -3,10 +3,6 @@
 
 **Location**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/`
 
-
-
-
-
 ## Subdirectories
 
 * [D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/Examples](dir_40e7d5bfa48f61f47d695b5d5b36b5b4.md#dir_40e7d5bfa48f61f47d695b5d5b36b5b4)

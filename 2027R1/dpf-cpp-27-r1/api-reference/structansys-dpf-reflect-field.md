@@ -6,12 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6907)
 
-
-
-
-
-
-
 ## Members
 
 * [type\_name](structansys_1_1dpf_1_1reflect_3_01Field_01_4.md#structansys_1_1dpf_1_1reflect_3_01Field_01_4_1add7415ec5ee9798c68817d6f4aeb14a4)
@@ -24,17 +18,9 @@
 ![][public]
 ![][static]
 
-
 ```cpp
 static std::string ansys::dpf::reflect< Field >::type_name()
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::string
 

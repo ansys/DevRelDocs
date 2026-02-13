@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6659)
 
-
-
-
-
 ## Inner classes
 
 * [ansys::dpf::core::logging::LoggerConfig](classansys_1_1dpf_1_1core_1_1logging_1_1LoggerConfig.md#classansys_1_1dpf_1_1core_1_1logging_1_1LoggerConfig)
@@ -33,7 +29,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6661)
 
-
 ```cpp
 enum eLogLevel {
   Unknown = -1,
@@ -46,61 +41,26 @@ enum eLogLevel {
 }
 ```
 
-
-
-
-
-
-
-
 <a id="structansys_1_1dpf_1_1core_1_1logging_1a48490078df162c963f2b931e6cd5bfd8a88183b946cc5f0e8c96b2e66e1c74a7e"></a>
 #### Enumerator Unknown
-
-
-
-
 
 <a id="structansys_1_1dpf_1_1core_1_1logging_1a48490078df162c963f2b931e6cd5bfd8add4ec0ac4e58f7c32a01244ae91150b1"></a>
 #### Enumerator Trace
 
-
-
-
-
 <a id="structansys_1_1dpf_1_1core_1_1logging_1a48490078df162c963f2b931e6cd5bfd8aa603905470e2a5b8c13e96b579ef0dba"></a>
 #### Enumerator Debug
-
-
-
-
 
 <a id="structansys_1_1dpf_1_1core_1_1logging_1a48490078df162c963f2b931e6cd5bfd8a4059b0251f66a18cb56f544728796875"></a>
 #### Enumerator Info
 
-
-
-
-
 <a id="structansys_1_1dpf_1_1core_1_1logging_1a48490078df162c963f2b931e6cd5bfd8a56525ae64d370c0b448ac0d60710ef17"></a>
 #### Enumerator Warn
-
-
-
-
 
 <a id="structansys_1_1dpf_1_1core_1_1logging_1a48490078df162c963f2b931e6cd5bfd8a902b0d55fddef6f8d651fe1035b7d4bd"></a>
 #### Enumerator Error
 
-
-
-
-
 <a id="structansys_1_1dpf_1_1core_1_1logging_1a48490078df162c963f2b931e6cd5bfd8a278d01e5af56273bae1bb99a98b370cd"></a>
 #### Enumerator Critical
-
-
-
-
 
 <!--
 **TODO**:
@@ -115,7 +75,6 @@ enum eLogLevel {
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6672)
 
-
 ```cpp
 enum eLoggerSink {
   Unknown = -1,
@@ -124,33 +83,14 @@ enum eLoggerSink {
 }
 ```
 
-
-
-
-
-
-
-
 <a id="structansys_1_1dpf_1_1core_1_1logging_1a9cf8329ed6cbf904ab61fa7c891f5483a88183b946cc5f0e8c96b2e66e1c74a7e"></a>
 #### Enumerator Unknown
-
-
-
-
 
 <a id="structansys_1_1dpf_1_1core_1_1logging_1a9cf8329ed6cbf904ab61fa7c891f5483a21d983484658a89e3070776fae2261f5"></a>
 #### Enumerator Stdout
 
-
-
-
-
 <a id="structansys_1_1dpf_1_1core_1_1logging_1a9cf8329ed6cbf904ab61fa7c891f5483a0b27918290ff5323bea1e3b78a9cf04e"></a>
 #### Enumerator File
-
-
-
-
 
 <!--
 **TODO**:
@@ -166,17 +106,11 @@ enum eLoggerSink {
 ![][public]
 ![][static]
 
-
 ```cpp
 static void ansys::dpf::core::logging::flushAllLoggers()
 ```
 
-
 Flush all loggers. This function is thread-safe.
-
-
-
-
 
 **Return type**: void
 
@@ -192,11 +126,9 @@ Flush all loggers. This function is thread-safe.
 ![][public]
 ![][static]
 
-
 ```cpp
 static Logger ansys::dpf::core::logging::registerLogger(std::string const &logger_name)
 ```
-
 
 Registers a logger into the logging infrastructure. This function is thread-safe.
 
@@ -204,16 +136,11 @@ Registers a logger into the logging infrastructure. This function is thread-safe
 
 * **logger_name**: The logger name. This will appear in the log message to identify the message.
 
-
 **Returns**:
 
 std::shared_ptr<Logger> The registered logger.
 
-
-
 **See also**: [LoggerConfig](classansys_1_1dpf_1_1core_1_1logging_1_1LoggerConfig.md#classansys_1_1dpf_1_1core_1_1logging_1_1LoggerConfig)
-
-
 
 **Parameters**:
 
@@ -233,11 +160,9 @@ std::shared_ptr<Logger> The registered logger.
 ![][public]
 ![][static]
 
-
 ```cpp
 static Logger ansys::dpf::core::logging::getLogger(std::string const &logger_name)
 ```
-
 
 Get a [Logger](classansys_1_1dpf_1_1core_1_1logging_1_1Logger.md#classansys_1_1dpf_1_1core_1_1logging_1_1Logger) by its name. This function is thread-safe.
 
@@ -245,12 +170,9 @@ Get a [Logger](classansys_1_1dpf_1_1core_1_1logging_1_1Logger.md#classansys_1_1d
 
 * **logger_name**: The logger name. This will appear in the log message to identify the message.
 
-
 **Returns**:
 
 std::shared_ptr<Logger>
-
-
 
 **Parameters**:
 

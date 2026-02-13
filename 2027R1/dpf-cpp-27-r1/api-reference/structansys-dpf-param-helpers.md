@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 69)
 
-
-
-
-
 ## Members
 
 * [createParamTree](structansys_1_1dpf_1_1param__helpers.md#structansys_1_1dpf_1_1param__helpers_1ad723d1e9c3542897b198b085f1860f08)
@@ -22,17 +18,9 @@
 ![][public]
 ![][static]
 
-
 ```cpp
 static DataTree ansys::dpf::param_helpers::createParamTree(Client const *const client=nullptr)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 

@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 633)
 
-
-
 Predefined [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor).
 
 ## Members
@@ -89,451 +87,6 @@ Predefined [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#struct
 
 ## Public types
 
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551c"></a>
-### Enumeration type EElementType
-
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 639)
-
-
-```cpp
-enum EElementType {
-  kAnsGeneral = -2,
-  kAnsAll = -1,
-  kAnsTet10 = 0,
-  kAnsHex20 = 1,
-  kAnsWedge15 = 2,
-  kAnsPyramid13 = 3,
-  kAnsTri6 = 4,
-  kAnsTriShell6 = 5,
-  kAnsQuad8 = 6,
-  kAnsQuadShell8 = 7,
-  kAnsLine3 = 8,
-  kAnsPoint1 = 9,
-  kAnsTet4 = 10,
-  kAnsHex8 = 11,
-  kAnsWedge6 = 12,
-  kAnsPyramid5 = 13,
-  kAnsTri3 = 14,
-  kAnsTriShell3 = 15,
-  kAnsQuad4 = 16,
-  kAnsQuadShell4 = 17,
-  kAnsLine2 = 18,
-  kAnsNumElementTypes = 19,
-  kAnsUnknown = 20,
-  kAnsEMagLine = 21,
-  kAnsEMagArc = 22,
-  kAnsEMagCircle = 23,
-  kAnsSurface3 = 24,
-  kAnsSurface4 = 25,
-  kAnsSurface6 = 26,
-  kAnsSurface8 = 27,
-  kAnsEdge2 = 28,
-  kAnsEdge3 = 29,
-  kAnsBeam3 = 30,
-  kAnsBeam4 = 31,
-  kAnsGeneralPlaceholder = 32,
-  kAnsPolygon = 33,
-  kAnsPolyhedron = 34,
-  kAnsActualNumElementTypes = 35
-}
-```
-
-
-
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca3c944a466624de41b5c769a0b0074c66"></a>
-#### Enumerator kAnsGeneral
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca83a76823c2de3d6eaf6f67d2c03c5053"></a>
-#### Enumerator kAnsAll
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca5867a639e1407cc108ab408b0a5898a8"></a>
-#### Enumerator kAnsTet10
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca36c0a1abea2e4fc9dcb84482a0d4619a"></a>
-#### Enumerator kAnsHex20
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cab3d36ca15493097b79a0872f54ea0639"></a>
-#### Enumerator kAnsWedge15
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cabf55387deebc1d80b88e4e769a215836"></a>
-#### Enumerator kAnsPyramid13
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca741d2eaf420922288844697b36833ada"></a>
-#### Enumerator kAnsTri6
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca39db39debaa8b4970ddf969fd21aed02"></a>
-#### Enumerator kAnsTriShell6
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cad59d8a40d19b43357a1ff65c03710cb5"></a>
-#### Enumerator kAnsQuad8
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551caaa1d3cc37e3cc23f85eeef7a29adb319"></a>
-#### Enumerator kAnsQuadShell8
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca9a53ea970a6345464d7ce0e983b19d19"></a>
-#### Enumerator kAnsLine3
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca7724a9a49aef3a205ac09756c42f0e0f"></a>
-#### Enumerator kAnsPoint1
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca716ba3ac28b29b4f7701de2d79bcb38e"></a>
-#### Enumerator kAnsTet4
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca2303b6c8f3509c8bf9ef4b6830d97d42"></a>
-#### Enumerator kAnsHex8
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca2f65855869afd4d8c3388f42c583d9c7"></a>
-#### Enumerator kAnsWedge6
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cab4c2adaadfa5130a1e28c67f4606af33"></a>
-#### Enumerator kAnsPyramid5
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca8aa1be158e8da7c3b99139b92dbe72de"></a>
-#### Enumerator kAnsTri3
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cac25744a65f72faf85e1acc58b1fd9ddb"></a>
-#### Enumerator kAnsTriShell3
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca45d9d03188720b958880c5d9cef2fb69"></a>
-#### Enumerator kAnsQuad4
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cacdfd5ca276d9a4b2e767e2b1b402a3a3"></a>
-#### Enumerator kAnsQuadShell4
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cac5b7cfc5a8352b1d159ff4fe0668311c"></a>
-#### Enumerator kAnsLine2
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca6d87d3d53faa782037c6c618bcba907a"></a>
-#### Enumerator kAnsNumElementTypes
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cacaee9f103baac4a99415737e1a50cc17"></a>
-#### Enumerator kAnsUnknown
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cad9fa65d0cdb08af4a12ec2419a26936c"></a>
-#### Enumerator kAnsEMagLine
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca1dc72aa179e2dc4db2e7e0e085bb8340"></a>
-#### Enumerator kAnsEMagArc
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca8189d7ab818e0813cc925a3343dee0dc"></a>
-#### Enumerator kAnsEMagCircle
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551caf86ed8c6ac108c71ad1ea987e4969e42"></a>
-#### Enumerator kAnsSurface3
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca926190eb354a9033667de4d7ed0f8975"></a>
-#### Enumerator kAnsSurface4
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca504633ec5853b9f456dd6d27971fb1c3"></a>
-#### Enumerator kAnsSurface6
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cacb77216ecd8f572584342523302ee1f0"></a>
-#### Enumerator kAnsSurface8
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca4f1706ac9b5f90dec84a38199bea0738"></a>
-#### Enumerator kAnsEdge2
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551caa2de5de4de3719a432d68bd539947984"></a>
-#### Enumerator kAnsEdge3
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551caac61ff8dd9d8584d6690075806aa7b72"></a>
-#### Enumerator kAnsBeam3
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cabee4a9bbd4b236cfcf12e58d0962b75a"></a>
-#### Enumerator kAnsBeam4
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca5fec66e72c21213615d79d9e1daf7496"></a>
-#### Enumerator kAnsGeneralPlaceholder
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551cadc82ded2e3022f77738b9709d19dc339"></a>
-#### Enumerator kAnsPolygon
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca015d8d84385a4237a4d93e5052f5052c"></a>
-#### Enumerator kAnsPolyhedron
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a26cd9737847a69cd1f856a8936c3551ca080f89260bfb81593cf30663e1a77591"></a>
-#### Enumerator kAnsActualNumElementTypes
-
-
-
-
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::EElementType"}]}`
--->
-
-<a id="structansys_1_1dpf_1_1elements_1a52e134d27c3ea7a5158ad3707d0af86d"></a>
-### Enumeration type EShape
-
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 680)
-
-
-```cpp
-enum EShape {
-  eShell = 0,
-  eSolid = 1,
-  eBeam = 2,
-  eUnknownShape = 3
-}
-```
-
-
-
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a52e134d27c3ea7a5158ad3707d0af86daec80bcc85074212d11db8613e36776df"></a>
-#### Enumerator eShell
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a52e134d27c3ea7a5158ad3707d0af86daa68e76180109e712867773ccfc98f589"></a>
-#### Enumerator eSolid
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a52e134d27c3ea7a5158ad3707d0af86da79f8bbaf009f29ba6735fd6bf114b2cf"></a>
-#### Enumerator eBeam
-
-
-
-
-
-<a id="structansys_1_1dpf_1_1elements_1a52e134d27c3ea7a5158ad3707d0af86da9b206fd791ee266631f7d124aac83f52"></a>
-#### Enumerator eUnknownShape
-
-
-
-
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::EShape"}]}`
--->
-
-<a id="structansys_1_1dpf_1_1elements_1a15f94658f6da65e43f52199c682eaa41"></a>
-### Typedef EElementType
-
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 679)
-
-
-```cpp
-typedef enum ansys::dpf::elements::EElementType ansys::dpf::elements::EElementType
-```
-
-
-
-
-
-
-
-
-**Return type**: enum ansys::dpf::elements::EElementType
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::EElementType"}]}`
--->
-
-## Private static attributes
-
-<a id="structansys_1_1dpf_1_1elements_1a792dbe53fef8ed1b06aef04f583dacdd"></a>
-### Variable dpf\_index\_to\_descriptor
-
-![][private]
-![][static]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 636)
-
-
-```cpp
-const std::vector<ElementDescriptor> ansys::dpf::elements::dpf_index_to_descriptor
-```
-
-
-
-
-
-
-
-
-**Type**: const std::vector< [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor) >
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::dpf_index_to_descriptor"}]}`
--->
-
 ## Public static attributes
 
 <a id="structansys_1_1dpf_1_1elements_1a05d59369acd4f4ac6819645f2413ee22"></a>
@@ -544,17 +97,11 @@ const std::vector<ElementDescriptor> ansys::dpf::elements::dpf_index_to_descript
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 683)
 
-
 ```cpp
 const ElementDescriptor ansys::dpf::elements::tet4
 ```
 
-
-
-
 Linear 4-nodes Tetrahedron.
-
-
 
 **Type**: const [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor)
 
@@ -572,17 +119,11 @@ Linear 4-nodes Tetrahedron.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 685)
 
-
 ```cpp
 const ElementDescriptor ansys::dpf::elements::tet10
 ```
 
-
-
-
 Quadratic 10-nodes Tetrahedron.
-
-
 
 **Type**: const [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor)
 
@@ -600,17 +141,11 @@ Quadratic 10-nodes Tetrahedron.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 687)
 
-
 ```cpp
 const ElementDescriptor ansys::dpf::elements::tri3
 ```
 
-
-
-
 Linear 3-nodes Triangle.
-
-
 
 **Type**: const [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor)
 
@@ -628,17 +163,11 @@ Linear 3-nodes Triangle.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 689)
 
-
 ```cpp
 const ElementDescriptor ansys::dpf::elements::triShell3
 ```
 
-
-
-
 Linear 3-nodes Triangle Shell.
-
-
 
 **Type**: const [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor)
 
@@ -656,17 +185,11 @@ Linear 3-nodes Triangle Shell.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 691)
 
-
 ```cpp
 const ElementDescriptor ansys::dpf::elements::tri6
 ```
 
-
-
-
 Quadratic 6-nodes Triangle.
-
-
 
 **Type**: const [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor)
 
@@ -684,17 +207,11 @@ Quadratic 6-nodes Triangle.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 693)
 
-
 ```cpp
 const ElementDescriptor ansys::dpf::elements::triShell6
 ```
 
-
-
-
 Quadratic 6-nodes Triangle Shell.
-
-
 
 **Type**: const [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor)
 
@@ -712,17 +229,11 @@ Quadratic 6-nodes Triangle Shell.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 695)
 
-
 ```cpp
 const ElementDescriptor ansys::dpf::elements::quad4
 ```
 
-
-
-
 Linear 4-nodes Quadrangle.
-
-
 
 **Type**: const [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor)
 
@@ -740,17 +251,11 @@ Linear 4-nodes Quadrangle.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 697)
 
-
 ```cpp
 const ElementDescriptor ansys::dpf::elements::quadShell4
 ```
 
-
-
-
 Linear 4-nodes Quadrangle Shell.
-
-
 
 **Type**: const [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor)
 
@@ -768,17 +273,11 @@ Linear 4-nodes Quadrangle Shell.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 699)
 
-
 ```cpp
 const ElementDescriptor ansys::dpf::elements::quad8
 ```
 
-
-
-
 Quadratic 8-nodes Quadrangle.
-
-
 
 **Type**: const [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor)
 
@@ -796,17 +295,11 @@ Quadratic 8-nodes Quadrangle.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 701)
 
-
 ```cpp
 const ElementDescriptor ansys::dpf::elements::quadShell8
 ```
 
-
-
-
 Quadratic 8-nodes Quadrangle Shell.
-
-
 
 **Type**: const [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor)
 
@@ -824,17 +317,11 @@ Quadratic 8-nodes Quadrangle Shell.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 703)
 
-
 ```cpp
 const ElementDescriptor ansys::dpf::elements::pyramid5
 ```
 
-
-
-
 Linear 5-nodes Pyramid.
-
-
 
 **Type**: const [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor)
 
@@ -852,17 +339,11 @@ Linear 5-nodes Pyramid.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 705)
 
-
 ```cpp
 const ElementDescriptor ansys::dpf::elements::pyramid13
 ```
 
-
-
-
 Quadratic 13-nodes Pyramid.
-
-
 
 **Type**: const [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor)
 
@@ -880,17 +361,11 @@ Quadratic 13-nodes Pyramid.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 707)
 
-
 ```cpp
 const ElementDescriptor ansys::dpf::elements::wedge6
 ```
 
-
-
-
 Linear 6-nodes Wedge.
-
-
 
 **Type**: const [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor)
 
@@ -908,17 +383,11 @@ Linear 6-nodes Wedge.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 709)
 
-
 ```cpp
 const ElementDescriptor ansys::dpf::elements::wedge15
 ```
 
-
-
-
 Quadratic 15-nodes Wedge.
-
-
 
 **Type**: const [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor)
 
@@ -936,17 +405,11 @@ Quadratic 15-nodes Wedge.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 711)
 
-
 ```cpp
 const ElementDescriptor ansys::dpf::elements::hex8
 ```
 
-
-
-
 Linear 8-nodes Hexahedron.
-
-
 
 **Type**: const [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor)
 
@@ -964,17 +427,11 @@ Linear 8-nodes Hexahedron.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 713)
 
-
 ```cpp
 const ElementDescriptor ansys::dpf::elements::hex20
 ```
 
-
-
-
 Quadratic 20-nodes Hexahedron.
-
-
 
 **Type**: const [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor)
 
@@ -992,17 +449,11 @@ Quadratic 20-nodes Hexahedron.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 715)
 
-
 ```cpp
 const ElementDescriptor ansys::dpf::elements::line2
 ```
 
-
-
-
 Linear 2-nodes Line.
-
-
 
 **Type**: const [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor)
 
@@ -1020,17 +471,11 @@ Linear 2-nodes Line.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 717)
 
-
 ```cpp
 const ElementDescriptor ansys::dpf::elements::line3
 ```
 
-
-
-
 Quadratic 3-nodes Line.
-
-
 
 **Type**: const [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor)
 
@@ -1048,17 +493,11 @@ Quadratic 3-nodes Line.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 719)
 
-
 ```cpp
 const ElementDescriptor ansys::dpf::elements::beam3
 ```
 
-
-
-
 Linear 2-nodes (+ orientation node) Beam.
-
-
 
 **Type**: const [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor)
 
@@ -1076,17 +515,11 @@ Linear 2-nodes (+ orientation node) Beam.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 721)
 
-
 ```cpp
 const ElementDescriptor ansys::dpf::elements::beam4
 ```
 
-
-
-
 Quadratic 3-nodes (+ orientation node) Beam.
-
-
 
 **Type**: const [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor)
 
@@ -1104,17 +537,11 @@ Quadratic 3-nodes (+ orientation node) Beam.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 723)
 
-
 ```cpp
 const ElementDescriptor ansys::dpf::elements::point1
 ```
 
-
-
-
 Point element.
-
-
 
 **Type**: const [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor)
 
@@ -1132,17 +559,11 @@ Point element.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 725)
 
-
 ```cpp
 const ElementDescriptor ansys::dpf::elements::polygon
 ```
 
-
-
-
 Polygon element.
-
-
 
 **Type**: const [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor)
 
@@ -1160,17 +581,11 @@ Polygon element.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 727)
 
-
 ```cpp
 const ElementDescriptor ansys::dpf::elements::polyhedron
 ```
 
-
-
-
 Polyhedron element.
-
-
 
 **Type**: const [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor)
 
@@ -1188,17 +603,11 @@ Polyhedron element.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 729)
 
-
 ```cpp
 const ElementDescriptor ansys::dpf::elements::unknown
 ```
 
-
-
-
 Unknown element type.
-
-
 
 **Type**: const [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor)
 
@@ -1216,17 +625,11 @@ Unknown element type.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 731)
 
-
 ```cpp
 const std::vector<ElementDescriptor> ansys::dpf::elements::linears
 ```
 
-
-
-
 of those elements with no mid-side nodes (excluding shell elements).
-
-
 
 **Type**: const std::vector< [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor) >
 
@@ -1244,17 +647,11 @@ of those elements with no mid-side nodes (excluding shell elements).
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 733)
 
-
 ```cpp
 const std::vector<ElementDescriptor> ansys::dpf::elements::quadratics
 ```
 
-
-
-
 Vector of those elements with mid-side nodes (excluding shell elements).
-
-
 
 **Type**: const std::vector< [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor) >
 
@@ -1272,17 +669,11 @@ Vector of those elements with mid-side nodes (excluding shell elements).
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 735)
 
-
 ```cpp
 const std::vector<ElementDescriptor> ansys::dpf::elements::solid_elements
 ```
 
-
-
-
 Vector of solid/volume elements.
-
-
 
 **Type**: const std::vector< [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor) >
 
@@ -1300,19 +691,13 @@ Vector of solid/volume elements.
 ![][public]
 ![][static]
 
-
 ```cpp
 static ElementDescriptor const  & ansys::dpf::elements::descriptor(dp_index element_index)
 ```
 
-
-
-
 **Returns**:
 
 [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor) based on [ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor) id.
-
-
 
 **Parameters**:
 

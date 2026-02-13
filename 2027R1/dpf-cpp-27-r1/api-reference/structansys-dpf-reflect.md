@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 62)
 
-
-
-
-
 **Template parameters**:
 
 * typename DpfTypeT
@@ -26,17 +22,9 @@
 ![][public]
 ![][static]
 
-
 ```cpp
 static std::string ansys::dpf::reflect< DpfTypeT >::type_name()
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::string
 

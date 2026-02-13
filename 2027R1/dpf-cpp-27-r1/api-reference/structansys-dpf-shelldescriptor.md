@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 590)
 
-
-
 Information releative to shell elements. 
 
 **See also**: [eshellLayers](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a6d14c6ea165905b13e914d776c880751)
@@ -24,17 +22,11 @@ Information releative to shell elements.
 ![][public]
 ![][static]
 
-
 ```cpp
 static dp_int ansys::dpf::ShellDescriptor::numShellLayers(eshellLayers eshell_layer)
 ```
 
-
-
-
 Returns the number of layer associated to a layer definition.
-
-
 
 **Parameters**:
 

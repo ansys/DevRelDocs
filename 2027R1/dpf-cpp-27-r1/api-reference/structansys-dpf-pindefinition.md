@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6022)
 
-
-
 Definition of an [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) pin.
 
 ## Members
@@ -42,17 +40,11 @@ Definition of an [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6025)
 
-
 ```cpp
 std::string ansys::dpf::PinDefinition::name
 ```
 
-
-
-
 Name of pin.
-
-
 
 **Type**: std::string
 
@@ -69,17 +61,11 @@ Name of pin.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6027)
 
-
 ```cpp
 int ansys::dpf::PinDefinition::position
 ```
 
-
-
-
 Pin position number.
-
-
 
 **Type**: int
 
@@ -96,17 +82,11 @@ Pin position number.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6029)
 
-
 ```cpp
 std::string ansys::dpf::PinDefinition::documentation
 ```
 
-
-
-
 Description of pin.
-
-
 
 **Type**: std::string
 
@@ -123,17 +103,9 @@ Description of pin.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6030)
 
-
 ```cpp
 bool ansys::dpf::PinDefinition::is_optional
 ```
-
-
-
-
-
-
-
 
 **Type**: bool
 
@@ -150,17 +122,9 @@ bool ansys::dpf::PinDefinition::is_optional
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6031)
 
-
 ```cpp
 bool ansys::dpf::PinDefinition::is_ellipsis
 ```
-
-
-
-
-
-
-
 
 **Type**: bool
 
@@ -177,17 +141,9 @@ bool ansys::dpf::PinDefinition::is_ellipsis
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6032)
 
-
 ```cpp
 bool ansys::dpf::PinDefinition::is_inplace
 ```
-
-
-
-
-
-
-
 
 **Type**: bool
 
@@ -204,17 +160,9 @@ bool ansys::dpf::PinDefinition::is_inplace
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6033)
 
-
 ```cpp
 std::string ansys::dpf::PinDefinition::derived_type_name
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -231,17 +179,9 @@ std::string ansys::dpf::PinDefinition::derived_type_name
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6034)
 
-
 ```cpp
 std::vector<TypeDescriptor> ansys::dpf::PinDefinition::accepted_types
 ```
-
-
-
-
-
-
-
 
 **Type**: std::vector< [TypeDescriptor](structansys_1_1dpf_1_1TypeDescriptor.md#structansys_1_1dpf_1_1TypeDescriptor) >
 
@@ -258,17 +198,9 @@ std::vector<TypeDescriptor> ansys::dpf::PinDefinition::accepted_types
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6035)
 
-
 ```cpp
 std::vector<std::string> ansys::dpf::PinDefinition::aliases
 ```
-
-
-
-
-
-
-
 
 **Type**: std::vector< std::string >
 
@@ -285,17 +217,9 @@ std::vector<std::string> ansys::dpf::PinDefinition::aliases
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::PinDefinition::PinDefinition()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -310,17 +234,11 @@ ansys::dpf::PinDefinition::PinDefinition()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::PinDefinition::PinDefinition(int pin_position)
 ```
 
-
-
-
 Create pin definition for given pin.
-
-
 
 **Parameters**:
 
@@ -339,20 +257,14 @@ Create pin definition for given pin.
 
 ![][public]
 
-
 ```cpp
 PinDefinition & ansys::dpf::PinDefinition::setName(std::string const &n)
 ```
-
-
-
 
 Set name of pin. 
 **Returns**:
 
 Pin definition.
-
-
 
 **Parameters**:
 
@@ -371,20 +283,14 @@ Pin definition.
 
 ![][public]
 
-
 ```cpp
 PinDefinition & ansys::dpf::PinDefinition::setDerivedTypeName(std::string const &n)
 ```
-
-
-
 
 Allows to give a custom container type as a pin type. 
 **Returns**:
 
 Pin definition.
-
-
 
 **Parameters**:
 
@@ -403,20 +309,14 @@ Pin definition.
 
 ![][public]
 
-
 ```cpp
 PinDefinition & ansys::dpf::PinDefinition::setPosition(int n)
 ```
-
-
-
 
 Set input pin position. 
 **Returns**:
 
 Pin definition.
-
-
 
 **Parameters**:
 
@@ -435,20 +335,14 @@ Pin definition.
 
 ![][public]
 
-
 ```cpp
 PinDefinition & ansys::dpf::PinDefinition::setDoc(std::string const &n)
 ```
-
-
-
 
 Set description of pin. 
 **Returns**:
 
 Pin definition.
-
-
 
 **Parameters**:
 
@@ -467,20 +361,14 @@ Pin definition.
 
 ![][public]
 
-
 ```cpp
 PinDefinition & ansys::dpf::PinDefinition::setOptional(bool n)
 ```
-
-
-
 
 Set indication that pin is optional. 
 **Returns**:
 
 Pin definition.
-
-
 
 **Parameters**:
 
@@ -499,19 +387,13 @@ Pin definition.
 
 ![][public]
 
-
 ```cpp
 PinDefinition & ansys::dpf::PinDefinition::setEllipsis(bool n)
 ```
 
-
-
-
 **Returns**:
 
 Pin definition.
-
-
 
 **Parameters**:
 
@@ -530,19 +412,13 @@ Pin definition.
 
 ![][public]
 
-
 ```cpp
 PinDefinition & ansys::dpf::PinDefinition::setAcceptedTypes(std::vector< TypeDescriptor > const &n)
 ```
 
-
-
-
 **Returns**:
 
 Pin definition.
-
-
 
 **Parameters**:
 
@@ -561,19 +437,13 @@ Pin definition.
 
 ![][public]
 
-
 ```cpp
 PinDefinition & ansys::dpf::PinDefinition::setAliases(std::vector< std::string > const &n)
 ```
 
-
-
-
 **Returns**:
 
 Pin definition.
-
-
 
 **Parameters**:
 
@@ -592,19 +462,13 @@ Pin definition.
 
 ![][public]
 
-
 ```cpp
 PinDefinition & ansys::dpf::PinDefinition::addAlias(std::string const &alias)
 ```
 
-
-
-
 **Returns**:
 
 Pin definition.
-
-
 
 **Parameters**:
 

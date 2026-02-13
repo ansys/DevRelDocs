@@ -5,10 +5,6 @@
 
 **Location**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/helpers/dpf\_meshQuery.h`
 
-
-
-
-
 ## Classes
 
 * [ansys::dpf::MeshQuery](classansys_1_1dpf_1_1MeshQuery.md#classansys_1_1dpf_1_1MeshQuery)
@@ -27,7 +23,6 @@
 * [D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/helpers/dpf_model.h](dpf__model_8h.md#dpf__model_8h)
 
 ## Source
-
 
 ```cpp
 //
@@ -206,7 +201,6 @@ namespace ansys {
     } // end of namespace dpf
 } // end of namepsace ansys
 ```
-
 
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)

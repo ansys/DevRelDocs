@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1388)
 
-
-
 Cyclic support.
 
 **Inherits from**:
@@ -54,251 +52,7 @@ Cyclic support.
 
 ## Private attributes
 
-<a id="classansys_1_1dpf_1_1CyclicSupport_1a7c5471094c75d0cc1b9d50f8a6dc5e0e"></a>
-### Variable Support
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1390)
-
-
-```cpp
-friend ansys::dpf::CyclicSupport::Support
-```
-
-
-
-
-
-
-
-
-**Type**: friend
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CyclicSupport::Support"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CyclicSupport_1a235238c8e69f5be95a21dfa6ed03bd5b"></a>
-### Variable ResultInfo
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1391)
-
-
-```cpp
-friend ansys::dpf::CyclicSupport::ResultInfo
-```
-
-
-
-
-
-
-
-
-**Type**: friend
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CyclicSupport::ResultInfo"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CyclicSupport_1a3ca1280c8c36f88fcab27604d03ffda4"></a>
-### Variable Operator
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1392)
-
-
-```cpp
-friend ansys::dpf::CyclicSupport::Operator
-```
-
-
-
-
-
-
-
-
-**Type**: friend
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CyclicSupport::Operator"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CyclicSupport_1aee83ce43de96dfd01ee9256ddac4457c"></a>
-### Variable Workflow
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1393)
-
-
-```cpp
-friend ansys::dpf::CyclicSupport::Workflow
-```
-
-
-
-
-
-
-
-
-**Type**: friend
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CyclicSupport::Workflow"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CyclicSupport_1a66f26db4c6727eb754f1c33e093d352c"></a>
-### Variable Any
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1394)
-
-
-```cpp
-friend ansys::dpf::CyclicSupport::Any
-```
-
-
-
-
-
-
-
-
-**Type**: friend
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CyclicSupport::Any"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CyclicSupport_1af069b484450f076e98c733812068aa7b"></a>
-### Variable Field
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1395)
-
-
-```cpp
-friend ansys::dpf::CyclicSupport::Field
-```
-
-
-
-
-
-
-
-
-**Type**: friend
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CyclicSupport::Field"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CyclicSupport_1ab68c2a58aeeed9255c576232f8fc5be2"></a>
-### Variable PropertyField
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1396)
-
-
-```cpp
-friend ansys::dpf::CyclicSupport::PropertyField
-```
-
-
-
-
-
-
-
-
-**Type**: friend
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CyclicSupport::PropertyField"}]}`
--->
-
-## Friends
-
-<a id="classansys_1_1dpf_1_1CyclicSupport_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1397)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CyclicSupport::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1CyclicSupport_1ac0d2cae0ac9a0cf6b360ff92287167ae"></a>
-### Function CyclicSupport
-
-![][private]
-
-
-```cpp
-ansys::dpf::CyclicSupport::CyclicSupport(opaque::DpfInternalSharedObject *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfInternalSharedObject *
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CyclicSupport::CyclicSupport"}]}`
--->
 
 ## Public functions
 
@@ -307,17 +61,9 @@ ansys::dpf::CyclicSupport::CyclicSupport(opaque::DpfInternalSharedObject *)
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::CyclicSupport::~CyclicSupport()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -332,17 +78,9 @@ virtual ansys::dpf::CyclicSupport::~CyclicSupport()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::CyclicSupport::CyclicSupport(CyclicSupport const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -361,17 +99,9 @@ ansys::dpf::CyclicSupport::CyclicSupport(CyclicSupport const &)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::CyclicSupport::CyclicSupport(CyclicSupport &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -390,17 +120,9 @@ ansys::dpf::CyclicSupport::CyclicSupport(CyclicSupport &&) noexcept
 
 ![][public]
 
-
 ```cpp
 CyclicSupport & ansys::dpf::CyclicSupport::operator=(CyclicSupport const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -419,17 +141,9 @@ CyclicSupport & ansys::dpf::CyclicSupport::operator=(CyclicSupport const &)
 
 ![][public]
 
-
 ```cpp
 CyclicSupport & ansys::dpf::CyclicSupport::operator=(CyclicSupport &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -449,19 +163,13 @@ CyclicSupport & ansys::dpf::CyclicSupport::operator=(CyclicSupport &&) noexcept
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::CyclicSupport::numberOfSectors(dp_int istage=0) const
 ```
 
-
-
-
 **Returns**:
 
 Number of sectors for given stage.
-
-
 
 **Parameters**:
 
@@ -481,19 +189,13 @@ Number of sectors for given stage.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_double ansys::dpf::CyclicSupport::cyclicPhase() const
 ```
 
-
-
-
 **Returns**:
 
 Cyclic phase.
-
-
 
 **Return type**: [dp\_double](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1acb480013bfed185b5e34a0bdcb0e3790)
 
@@ -509,19 +211,13 @@ Cyclic phase.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::CyclicSupport::numberOfStages() const
 ```
 
-
-
-
 **Returns**:
 
 Number of cyclic stages
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -537,19 +233,13 @@ Number of cyclic stages
 ![][public]
 ![][const]
 
-
 ```cpp
 Scoping ansys::dpf::CyclicSupport::sectorsScoping(dp_int istage=0) const
 ```
 
-
-
-
 **Returns**:
 
 [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) containing the list of sectors that are currently set for expansion for given stage.
-
-
 
 **Parameters**:
 
@@ -569,19 +259,13 @@ Scoping ansys::dpf::CyclicSupport::sectorsScoping(dp_int istage=0) const
 ![][public]
 ![][const]
 
-
 ```cpp
 Scoping ansys::dpf::CyclicSupport::baseNodesScoping(dp_int istage=0) const
 ```
 
-
-
-
 **Returns**:
 
 [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) containing the node ids in the base sector for given stage.
-
-
 
 **Parameters**:
 
@@ -601,19 +285,13 @@ Scoping ansys::dpf::CyclicSupport::baseNodesScoping(dp_int istage=0) const
 ![][public]
 ![][const]
 
-
 ```cpp
 Scoping ansys::dpf::CyclicSupport::baseElementsScoping(dp_int istage=0) const
 ```
 
-
-
-
 **Returns**:
 
 [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) containing the element ids in the base sector for given stage.
-
-
 
 **Parameters**:
 
@@ -633,19 +311,13 @@ Scoping ansys::dpf::CyclicSupport::baseElementsScoping(dp_int istage=0) const
 ![][public]
 ![][const]
 
-
 ```cpp
 Scoping ansys::dpf::CyclicSupport::expandNodeIds(dp_int nodeId, Scoping sectors_scoping, dp_int istage=0) const
 ```
 
-
-
-
 **Returns**:
 
 [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) containing the nodes ids corresponding to the base nodeId given in input for the expanded sectors given in sectorsScoping
-
-
 
 **Parameters**:
 
@@ -667,19 +339,13 @@ Scoping ansys::dpf::CyclicSupport::expandNodeIds(dp_int nodeId, Scoping sectors_
 ![][public]
 ![][const]
 
-
 ```cpp
 Scoping ansys::dpf::CyclicSupport::expandElementIds(dp_int elementId, Scoping sectors_scoping, dp_int istage=0) const
 ```
 
-
-
-
 **Returns**:
 
 [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) containing the element ids corresponding to the base elementId given in input for the expanded sectors given in sectorsScoping
-
-
 
 **Parameters**:
 
@@ -701,19 +367,13 @@ Scoping ansys::dpf::CyclicSupport::expandElementIds(dp_int elementId, Scoping se
 ![][public]
 ![][const]
 
-
 ```cpp
 Scoping ansys::dpf::CyclicSupport::expandNodeIds(dp_int nodeId, dp_int istage=0) const
 ```
 
-
-
-
 **Returns**:
 
 [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) containing the nodes ids corresponding to the base nodeId given in input for all expanded sectors
-
-
 
 **Parameters**:
 
@@ -734,19 +394,13 @@ Scoping ansys::dpf::CyclicSupport::expandNodeIds(dp_int nodeId, dp_int istage=0)
 ![][public]
 ![][const]
 
-
 ```cpp
 Scoping ansys::dpf::CyclicSupport::expandElementIds(dp_int elementId, dp_int istage=0) const
 ```
 
-
-
-
 **Returns**:
 
 [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) containing the element ids corresponding to the base elementId given in input for all expanded sectors
-
-
 
 **Parameters**:
 
@@ -767,19 +421,13 @@ Scoping ansys::dpf::CyclicSupport::expandElementIds(dp_int elementId, dp_int ist
 ![][public]
 ![][const]
 
-
 ```cpp
 Field ansys::dpf::CyclicSupport::getCS() const
 ```
 
-
-
-
 **Returns**:
 
 [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) containing the coordinate system of the cyclic support
-
-
 
 **Return type**: Field
 
@@ -795,19 +443,13 @@ Field ansys::dpf::CyclicSupport::getCS() const
 ![][public]
 ![][const]
 
-
 ```cpp
 PropertyField ansys::dpf::CyclicSupport::getLowHighMap(dp_int istage=0) const
 ```
 
-
-
-
 **Returns**:
 
 [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1dpf_1_1PropertyField) containing the Low High map for a stage
-
-
 
 **Parameters**:
 
@@ -827,19 +469,13 @@ PropertyField ansys::dpf::CyclicSupport::getLowHighMap(dp_int istage=0) const
 ![][public]
 ![][const]
 
-
 ```cpp
 PropertyField ansys::dpf::CyclicSupport::getHighLowMap(dp_int istage=0) const
 ```
 
-
-
-
 **Returns**:
 
 [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1dpf_1_1PropertyField) containing the High Low map for a stage
-
-
 
 **Parameters**:
 

@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 882)
 
-
-
 Predefined dimensionalities. 
 
 **See also**: [Dimensionality](structansys_1_1dpf_1_1Dimensionality.md#structansys_1_1dpf_1_1Dimensionality)
@@ -28,17 +26,11 @@ Predefined dimensionalities.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 885)
 
-
 ```cpp
 const Dimensionality ansys::dpf::dimensionalities::scalar
 ```
 
-
-
-
 scalar dim.
-
-
 
 **Type**: const [Dimensionality](structansys_1_1dpf_1_1Dimensionality.md#structansys_1_1dpf_1_1Dimensionality)
 
@@ -56,17 +48,11 @@ scalar dim.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 887)
 
-
 ```cpp
 const Dimensionality ansys::dpf::dimensionalities::vector3D
 ```
 
-
-
-
 3 components vector dim.
-
-
 
 **Type**: const [Dimensionality](structansys_1_1dpf_1_1Dimensionality.md#structansys_1_1dpf_1_1Dimensionality)
 
@@ -84,17 +70,11 @@ const Dimensionality ansys::dpf::dimensionalities::vector3D
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 889)
 
-
 ```cpp
 const Dimensionality ansys::dpf::dimensionalities::symmetrical3x3Matrix
 ```
 
-
-
-
 3 by 3 symmetrical matrix dim.
-
-
 
 **Type**: const [Dimensionality](structansys_1_1dpf_1_1Dimensionality.md#structansys_1_1dpf_1_1Dimensionality)
 

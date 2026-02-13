@@ -5,10 +5,6 @@
 
 **Location**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/helpers/dpf\_model.h`
 
-
-
-
-
 ## Classes
 
 * [ansys::dpf::Model](classansys_1_1dpf_1_1Model.md#classansys_1_1dpf_1_1Model)
@@ -25,7 +21,6 @@
 * [dpf_meshQuery.h](dpf__meshQuery_8h.md#dpf__meshQuery_8h)
 
 ## Source
-
 
 ```cpp
 //
@@ -58,7 +53,6 @@ namespace ansys {
 
             inline MeshedRegion getMesh(int timestep = 0 
             );
-
 
             inline MeshesContainer getMeshesContainer();
 
@@ -114,7 +108,6 @@ namespace ansys {
             }
         }
 
-
         MeshedRegion Model::getMesh(int /*timestep*/)
         {
             auto mesh = _mesh_provider.getOutputMeshedRegion(0);
@@ -140,12 +133,9 @@ namespace ansys {
             return Result(res_name, _stream_provider, _timefreq_support_provider, _mesh_provider, named_selection, requested_location, bInclusive, cs_id);
         }
 
-
-
     } // end of namespace dpf
 } // end of namepsace ansys
 ```
-
 
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)

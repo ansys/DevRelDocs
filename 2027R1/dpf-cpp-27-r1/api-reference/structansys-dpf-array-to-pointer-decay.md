@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 119)
 
-
-
-
-
 **Template parameters**:
 
 * class T
@@ -27,17 +23,9 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 121)
 
-
 ```cpp
 typedef T ansys::dpf::array_to_pointer_decay< T >::type
 ```
-
-
-
-
-
-
-
 
 **Return type**: T
 

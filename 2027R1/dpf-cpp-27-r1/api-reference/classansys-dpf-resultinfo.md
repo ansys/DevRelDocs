@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 386)
 
-
-
 Provides information on all available results
 
 **Inherits from**:
@@ -122,960 +120,9 @@ Provides information on all available results
 
 ## Public types
 
-<a id="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742ae"></a>
-### Enumeration type analysis\_type
-
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 490)
-
-
-```cpp
-enum analysis_type {
-  eStatic = 0,
-  eBukling = 1,
-  eModal = 2,
-  eHarmonic = 3,
-  eCMS = 4,
-  eTransient = 5,
-  eMSUP = 6,
-  eSubStruct = 7,
-  eSpectrum = 8,
-  eUnknownAnalysis = 9,
-  ePSD = 10
-}
-```
-
-
-
-
-Analysis Type.
-
-
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea2ad50e8511b81f014d3275f5ac2d617d"></a>
-#### Enumerator eStatic
-
-
-
-Static.
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea612e3eb454ecf257bb23df2034536b7c"></a>
-#### Enumerator eBukling
-
-
-
-Bukling.
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea43233e3b7bde6dd3bc1fcce08792094c"></a>
-#### Enumerator eModal
-
-
-
-Modal.
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea621f9ba94cd5dbd3a5022b622d9852fe"></a>
-#### Enumerator eHarmonic
-
-
-
-Harmonic.
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aeaf79921aaee3274bd74fe2cb9a008f2a1"></a>
-#### Enumerator eCMS
-
-
-
-CMS.
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea113a03346a5a097dd6594fd44c6d7d1d"></a>
-#### Enumerator eTransient
-
-
-
-Transient.
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea0740b5eadcd2cdcb124b57e5768ae34c"></a>
-#### Enumerator eMSUP
-
-
-
-MSUP.
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea01e51f9752975dba490d540b4d5f47ce"></a>
-#### Enumerator eSubStruct
-
-
-
-SubStruct.
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea1492b0b5fbb719dc8793c73fdbd78ed2"></a>
-#### Enumerator eSpectrum
-
-
-
-Spectrum.
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea533f3644550f70cbfc2a2892f9aba9c5"></a>
-#### Enumerator eUnknownAnalysis
-
-
-
-Unknown analysis type.
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742aea7dd25e302695ae006f756805aa1601de"></a>
-#### Enumerator ePSD
-
-
-
-PSD.
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::analysis_type"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfaba"></a>
-### Enumeration type physics\_type
-
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 515)
-
-
-```cpp
-enum physics_type {
-  eMecanic = 0,
-  eThermal = 1,
-  eMagnetic = 2,
-  eElectric = 3,
-  eFluid = 5,
-  eUnknownPhysics = 4
-}
-```
-
-
-
-
-Physics Type.
-
-
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfabaab1cdf6ed7eb8c9102327076240beb06f"></a>
-#### Enumerator eMecanic
-
-
-
-Mechanical.
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfabaafeef68cbb19a910a625becb69c3a0510"></a>
-#### Enumerator eThermal
-
-
-
-Thermal.
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfabaab0d1187e954a2daba76caaa684203bbb"></a>
-#### Enumerator eMagnetic
-
-
-
-Magnetic.
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfabaaffc8f46f099407c3b33cfee2223f9a51"></a>
-#### Enumerator eElectric
-
-
-
-Electric.
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfabaadadd255c26d856ba97f4a290b3769107"></a>
-#### Enumerator eFluid
-
-
-
-Fluid.
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfabaad00f4b71e4db56a56048bc9ecd1786f3"></a>
-#### Enumerator eUnknownPhysics
-
-Unknown physics type.
-
-
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::physics_type"}]}`
--->
-
-## Friends
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a33ff3f826991522d2e77c1c523f33e19"></a>
-### Friend Operator
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 388)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Operator"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::Operator"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Operator"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a81d95df60edf516a1de9878b780f8fb3"></a>
-### Friend OperatorMain
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 389)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorMain"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::OperatorMain"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorMain"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1afa07847c7cb432b260e61a0c18025ba3"></a>
-### Friend Workflow
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 390)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Workflow"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::Workflow"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Workflow"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a9820c685b67a3355c042bb0b3365d9e2"></a>
-### Friend Any
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 391)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Any"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::Any"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Any"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1acc06c4380c923e11af63f95e97c3c259"></a>
-### Friend GenericDataContainer
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 392)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class GenericDataContainer"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::GenericDataContainer"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"GenericDataContainer"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 393)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private attributes
 
-<a id="classansys_1_1dpf_1_1ResultInfo_1a21bafad6f87b274a4d24547c38c73892"></a>
-### Variable \_results
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 467)
-
-
-```cpp
-std::map<std::string, Result> ansys::dpf::ResultInfo::_results
-```
-
-
-
-
-
-
-
-
-**Type**: std::map< std::string, Result >
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::_results"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1acc74eb5729326b6c14062f2107f304a8"></a>
-### Variable \_resultsUpToDate
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 468)
-
-
-```cpp
-bool ansys::dpf::ResultInfo::_resultsUpToDate
-```
-
-
-
-
-
-
-
-
-**Type**: bool
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::_resultsUpToDate"}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a21ca0a13f8b9c32f806d595707153fb2"></a>
-### Function ResultInfo
-
-![][private]
-
-
-```cpp
-ansys::dpf::ResultInfo::ResultInfo(opaque::DpfInternalSharedObject *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfInternalSharedObject *
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::ResultInfo"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a50571a8a0b47f5002a2b8d5dd22c5bff"></a>
-### Function fillResults
-
-![][private]
-![][const]
-
-
-```cpp
-void ansys::dpf::ResultInfo::fillResults() const
-```
-
-
-
-
-
-
-
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::fillResults"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1acc63269a75b8274a6e799346aa77344a"></a>
-### Function getResult
-
-![][private]
-![][const]
-
-
-```cpp
-void ansys::dpf::ResultInfo::getResult(dp_int idx, ResultInfo::Result &res) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0) **idx**
-* ResultInfo::Result & **res**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::getResult"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a90f6b5b2be7147d85b9a6566ef28ad62"></a>
-### Function getSubResults
-
-![][private]
-![][const]
-
-
-```cpp
-std::map< std::string, subresult > ansys::dpf::ResultInfo::getSubResults(dp_int idx) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0) **idx**
-
-**Return type**: std::map< std::string, subresult >
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::getSubResults"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a3cba29f6d9017bf3653dc2c7f54e38a6"></a>
-### Function name
-
-![][private]
-![][const]
-
-
-```cpp
-std::string ansys::dpf::ResultInfo::name(dp_index result_index) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [dp\_index](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920) **result_index**
-
-**Return type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::name"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a35099b4a3b6a70dfa1a6e15b51e3ca6b"></a>
-### Function opname
-
-![][private]
-![][const]
-
-
-```cpp
-std::string ansys::dpf::ResultInfo::opname(dp_index result_index) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [dp\_index](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920) **result_index**
-
-**Return type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::opname"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a9e6d849b439e849963335873c75400d9"></a>
-### Function scriptingName
-
-![][private]
-![][const]
-
-
-```cpp
-std::string ansys::dpf::ResultInfo::scriptingName(dp_index result_index) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [dp\_index](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920) **result_index**
-
-**Return type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::scriptingName"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1af3babfe9178b29c1bc5b25e9dcd1b920"></a>
-### Function location
-
-![][private]
-![][const]
-
-
-```cpp
-ansys::dpf::Location ansys::dpf::ResultInfo::location(dp_index result_index) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [dp\_index](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920) **result_index**
-
-**Return type**: [ansys::dpf::Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::location"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a217b39cb7f48967e4c7cb2aca0787d84"></a>
-### Function description
-
-![][private]
-![][const]
-
-
-```cpp
-std::string ansys::dpf::ResultInfo::description(dp_index result_index) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [dp\_index](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920) **result_index**
-
-**Return type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::description"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a731f5e9ee9423b129e4a108b8d2a9335"></a>
-### Function unit
-
-![][private]
-![][const]
-
-
-```cpp
-ansys::dpf::Unit ansys::dpf::ResultInfo::unit(dp_index result_index) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [dp\_index](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920) **result_index**
-
-**Return type**: [ansys::dpf::Unit](classansys_1_1dpf_1_1Unit.md#classansys_1_1dpf_1_1Unit)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::unit"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1ae1e1855e9848d04539d1b44ec548068c"></a>
-### Function numberOfSubResults
-
-![][private]
-![][const]
-
-
-```cpp
-dp_int ansys::dpf::ResultInfo::numberOfSubResults(dp_index result_index) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [dp\_index](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920) **result_index**
-
-**Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::numberOfSubResults"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a2738cbf9ed56bd177023b8ee95d8e9da"></a>
-### Function dimensionality
-
-![][private]
-![][const]
-
-
-```cpp
-ansys::dpf::Dimensionality ansys::dpf::ResultInfo::dimensionality(dp_index result_index) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [dp\_index](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920) **result_index**
-
-**Return type**: [ansys::dpf::Dimensionality](structansys_1_1dpf_1_1Dimensionality.md#structansys_1_1dpf_1_1Dimensionality)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::dimensionality"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1aaf62a147ac68906ae179e72b03e14b74"></a>
-### Function qualifiers
-
-![][private]
-![][const]
-
-
-```cpp
-LabelSpacesVector ansys::dpf::ResultInfo::qualifiers(dp_index result_index) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [dp\_index](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920) **result_index**
-
-**Return type**: LabelSpacesVector
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::qualifiers"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a5832b2128f6eb05acea5f60da7f58045"></a>
-### Function subName
-
-![][private]
-![][const]
-
-
-```cpp
-std::string ansys::dpf::ResultInfo::subName(dp_index result_index, dp_index sub_result_index) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [dp\_index](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920) **result_index**
-* [dp\_index](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920) **sub_result_index**
-
-**Return type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::subName"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1ae4df36d7d4dda97ed028801ab3c82fea"></a>
-### Function subOpName
-
-![][private]
-![][const]
-
-
-```cpp
-std::string ansys::dpf::ResultInfo::subOpName(dp_index result_index, dp_index sub_result_index) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [dp\_index](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920) **result_index**
-* [dp\_index](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920) **sub_result_index**
-
-**Return type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::subOpName"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1abf5a0076be907af27dd1527ed9942380"></a>
-### Function subDescription
-
-![][private]
-![][const]
-
-
-```cpp
-std::string ansys::dpf::ResultInfo::subDescription(dp_index result_index, dp_index sub_result_index) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [dp\_index](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920) **result_index**
-* [dp\_index](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920) **sub_result_index**
-
-**Return type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::subDescription"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1ad3afd13c9715e79834ae5dde16c9d4d1"></a>
-### Function getResult
-
-![][private]
-![][const]
-
-
-```cpp
-const Result & ansys::dpf::ResultInfo::getResult(std::string const &res_name) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* std::string const & **res_name**
-
-**Return type**: const Result &
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::getResult"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1a24c0e09458f47bfb10fd3d068472600f"></a>
-### Function unvalidateResults
-
-![][private]
-
-
-```cpp
-void ansys::dpf::ResultInfo::unvalidateResults()
-```
-
-
-
-
-
-
-
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::unvalidateResults"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1ResultInfo_1abc8be30139b0cb1551feef7ec04a5bd5"></a>
-### Function instantiateLabelSpacesVector
-
-![][private]
-
-
-```cpp
-opaque::DpfInternalSharedObject * ansys::dpf::ResultInfo::instantiateLabelSpacesVector(LabelSpacesVector const &available_qualifiers)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* LabelSpacesVector const & **available_qualifiers**
-
-**Return type**: opaque::DpfInternalSharedObject *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::instantiateLabelSpacesVector"}]}`
--->
 
 ## Public functions
 
@@ -1084,17 +131,9 @@ opaque::DpfInternalSharedObject * ansys::dpf::ResultInfo::instantiateLabelSpaces
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::ResultInfo::ResultInfo(analysis_type const &analysis_type=analysis_type::eUnknownAnalysis, physics_type const &physics_type=physics_type::eUnknownPhysics)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -1114,17 +153,9 @@ ansys::dpf::ResultInfo::ResultInfo(analysis_type const &analysis_type=analysis_t
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::ResultInfo::~ResultInfo()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -1139,17 +170,9 @@ virtual ansys::dpf::ResultInfo::~ResultInfo()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::ResultInfo::ResultInfo(ResultInfo const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -1168,17 +191,9 @@ ansys::dpf::ResultInfo::ResultInfo(ResultInfo const &)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::ResultInfo::ResultInfo(ResultInfo &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -1197,17 +212,9 @@ ansys::dpf::ResultInfo::ResultInfo(ResultInfo &&) noexcept
 
 ![][public]
 
-
 ```cpp
 ResultInfo & ansys::dpf::ResultInfo::operator=(ResultInfo const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -1226,17 +233,9 @@ ResultInfo & ansys::dpf::ResultInfo::operator=(ResultInfo const &)
 
 ![][public]
 
-
 ```cpp
 ResultInfo & ansys::dpf::ResultInfo::operator=(ResultInfo &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -1256,19 +255,13 @@ ResultInfo & ansys::dpf::ResultInfo::operator=(ResultInfo &&) noexcept
 ![][public]
 ![][const]
 
-
 ```cpp
 analysis_type ansys::dpf::ResultInfo::analysisType() const
 ```
 
-
-
-
 **Returns**:
 
 Analysis type for all results.
-
-
 
 **Return type**: [analysis\_type](classansys_1_1dpf_1_1ResultInfo.md#classansys_1_1dpf_1_1ResultInfo_1a7242b85e3d035f0953356a1146e742ae)
 
@@ -1284,19 +277,13 @@ Analysis type for all results.
 ![][public]
 ![][const]
 
-
 ```cpp
 physics_type ansys::dpf::ResultInfo::physicsType() const
 ```
 
-
-
-
 **Returns**:
 
 Phyiscs type for all results.
-
-
 
 **Return type**: [physics\_type](classansys_1_1dpf_1_1ResultInfo.md#classansys_1_1dpf_1_1ResultInfo_1a4c9d8d076df7a3899011b1b2195dfaba)
 
@@ -1312,19 +299,13 @@ Phyiscs type for all results.
 ![][public]
 ![][const]
 
-
 ```cpp
 UnitSystem ansys::dpf::ResultInfo::unitSystem() const
 ```
 
-
-
-
 **Returns**:
 
 [Unit](classansys_1_1dpf_1_1Unit.md#classansys_1_1dpf_1_1Unit) system for all results.
-
-
 
 **Return type**: [UnitSystem](structansys_1_1dpf_1_1UnitSystem.md#structansys_1_1dpf_1_1UnitSystem)
 
@@ -1340,19 +321,13 @@ UnitSystem ansys::dpf::ResultInfo::unitSystem() const
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::ResultInfo::analysisTypeName() const
 ```
 
-
-
-
 **Returns**:
 
 Analysis type name for all results.
-
-
 
 **Return type**: std::string
 
@@ -1368,19 +343,13 @@ Analysis type name for all results.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::ResultInfo::physicsTypeName() const
 ```
 
-
-
-
 **Returns**:
 
 Phyiscs type name for all results.
-
-
 
 **Return type**: std::string
 
@@ -1396,19 +365,13 @@ Phyiscs type name for all results.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::ResultInfo::unitSystemName() const
 ```
 
-
-
-
 **Returns**:
 
 [Unit](classansys_1_1dpf_1_1Unit.md#classansys_1_1dpf_1_1Unit) system name for all results.
-
-
 
 **Return type**: std::string
 
@@ -1424,19 +387,13 @@ std::string ansys::dpf::ResultInfo::unitSystemName() const
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::ResultInfo::numberOfResults() const
 ```
 
-
-
-
 **Returns**:
 
 Number of results.
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -1452,20 +409,14 @@ Number of results.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::set< std::string > ansys::dpf::ResultInfo::availableResults() const
 ```
-
-
-
 
 The result name might be something like temperature. 
 **Returns**:
 
 Set of names for all results.
-
-
 
 **Return type**: std::set< std::string >
 
@@ -1481,20 +432,14 @@ Set of names for all results.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::ResultInfo::resultNameByOperatorName(std::string const &op_name) const
 ```
-
-
-
 
 For a result name like Temperature, the operator name might be something like TEMP. 
 **Returns**:
 
 Name of result
-
-
 
 **Parameters**:
 
@@ -1514,20 +459,14 @@ Name of result
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::ResultInfo::operatorName(std::string const &res_name) const
 ```
-
-
-
 
 The operator name might be something like TEMP, where the result name is Temperature. 
 **Returns**:
 
 [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) name
-
-
 
 **Parameters**:
 
@@ -1547,20 +486,14 @@ The operator name might be something like TEMP, where the result name is Tempera
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::ResultInfo::scriptingName(std::string const &res_name) const
 ```
-
-
-
 
 The operator scripting name is used to instantiate the operator in scripting, ex: displacement, elastic_strain... 
 **Returns**:
 
 [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) scripting name
-
-
 
 **Parameters**:
 
@@ -1580,19 +513,13 @@ The operator scripting name is used to instantiate the operator in scripting, ex
 ![][public]
 ![][const]
 
-
 ```cpp
 ansys::dpf::Unit ansys::dpf::ResultInfo::unit(std::string const &res_name) const
 ```
 
-
-
-
 **Returns**:
 
 [Unit](classansys_1_1dpf_1_1Unit.md#classansys_1_1dpf_1_1Unit) for given result name.
-
-
 
 **Parameters**:
 
@@ -1612,19 +539,13 @@ ansys::dpf::Unit ansys::dpf::ResultInfo::unit(std::string const &res_name) const
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::ResultInfo::numberOfComponents(std::string const &res_name) const
 ```
 
-
-
-
 **Returns**:
 
 Number of components for given result name.
-
-
 
 **Parameters**:
 
@@ -1644,19 +565,13 @@ Number of components for given result name.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::ResultInfo::description(std::string const &res_name) const
 ```
 
-
-
-
 **Returns**:
 
 Description of given result name.
-
-
 
 **Parameters**:
 
@@ -1676,19 +591,13 @@ Description of given result name.
 ![][public]
 ![][const]
 
-
 ```cpp
 ansys::dpf::Location ansys::dpf::ResultInfo::location(std::string const &res_name) const
 ```
 
-
-
-
 **Returns**:
 
 [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location) of given result name.
-
-
 
 **Parameters**:
 
@@ -1708,19 +617,13 @@ ansys::dpf::Location ansys::dpf::ResultInfo::location(std::string const &res_nam
 ![][public]
 ![][const]
 
-
 ```cpp
 Dimensionality::ENature ansys::dpf::ResultInfo::nature(std::string const &res_name) const
 ```
 
-
-
-
 **Returns**:
 
 Nature for given result name.
-
-
 
 **Parameters**:
 
@@ -1740,17 +643,9 @@ Nature for given result name.
 ![][public]
 ![][const]
 
-
 ```cpp
 LabelSpacesVector ansys::dpf::ResultInfo::qualifiers(std::string const &res_name) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -1770,19 +665,13 @@ LabelSpacesVector ansys::dpf::ResultInfo::qualifiers(std::string const &res_name
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::ResultInfo::numberOfSubResults(std::string const &res_name) const
 ```
 
-
-
-
 **Returns**:
 
 Number of subresults for given result name.
-
-
 
 **Parameters**:
 
@@ -1802,19 +691,13 @@ Number of subresults for given result name.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::set< std::string > ansys::dpf::ResultInfo::availableSubResults(std::string const &res_name) const
 ```
 
-
-
-
 **Returns**:
 
 Set of names of subresults for given result name.
-
-
 
 **Parameters**:
 
@@ -1834,19 +717,13 @@ Set of names of subresults for given result name.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::ResultInfo::subResultOperatorName(std::string const &res_name, std::string const &subres_name) const
 ```
 
-
-
-
 **Returns**:
 
 [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) name for given subresult name of given result name
-
-
 
 **Parameters**:
 
@@ -1867,19 +744,13 @@ std::string ansys::dpf::ResultInfo::subResultOperatorName(std::string const &res
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::ResultInfo::subResultDescription(std::string const &res_name, std::string const &subres_name) const
 ```
 
-
-
-
 **Returns**:
 
 Description for given subresult name of given result name.
-
-
 
 **Parameters**:
 
@@ -1900,19 +771,13 @@ Description for given subresult name of given result name.
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::ResultInfo::operatorNameIsAvailable(std::string const &op_name) const
 ```
 
-
-
-
 **Returns**:
 
 Indication that operator is available within results and subresults.
-
-
 
 **Parameters**:
 
@@ -1932,17 +797,11 @@ Indication that operator is available within results and subresults.
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::ResultInfo::solver_version(int &major_version, int &minor_version) const
 ```
 
-
-
-
 Gets solver version.
-
-
 
 **Parameters**:
 
@@ -1963,17 +822,11 @@ Gets solver version.
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::ResultInfo::solve_date_time(int &solve_date, int &solve_time) const
 ```
 
-
-
-
 Gets solver date and time.
-
-
 
 **Parameters**:
 
@@ -1994,19 +847,13 @@ Gets solver date and time.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::ResultInfo::user_name() const
 ```
 
-
-
-
 **Returns**:
 
 User name.
-
-
 
 **Return type**: std::string
 
@@ -2022,19 +869,13 @@ User name.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::ResultInfo::job_name() const
 ```
 
-
-
-
 **Returns**:
 
 Job name.
-
-
 
 **Return type**: std::string
 
@@ -2050,19 +891,13 @@ Job name.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::ResultInfo::product_name() const
 ```
 
-
-
-
 **Returns**:
 
 Product name.
-
-
 
 **Return type**: std::string
 
@@ -2078,19 +913,13 @@ Product name.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::ResultInfo::main_title() const
 ```
 
-
-
-
 **Returns**:
 
 Main title.
-
-
 
 **Return type**: std::string
 
@@ -2106,19 +935,13 @@ Main title.
 ![][public]
 ![][const]
 
-
 ```cpp
 CyclicSupport ansys::dpf::ResultInfo::getCyclicSupport() const
 ```
 
-
-
-
 **Returns**:
 
 the cyclic support if the result file has cyclic symmetry (or multistage). The [CyclicSupport](classansys_1_1dpf_1_1CyclicSupport.md#classansys_1_1dpf_1_1CyclicSupport) contains information relevant for cyclic expansion
-
-
 
 **Return type**: [CyclicSupport](classansys_1_1dpf_1_1CyclicSupport.md#classansys_1_1dpf_1_1CyclicSupport)
 
@@ -2134,19 +957,13 @@ the cyclic support if the result file has cyclic symmetry (or multistage). The [
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::ResultInfo::hasCyclicSymmetry(std::string &cyc_symmetry_type) const
 ```
 
-
-
-
 **Returns**:
 
 true if the result file has cyclic symmetry (or multistage)
-
-
 
 **Parameters**:
 
@@ -2166,19 +983,13 @@ true if the result file has cyclic symmetry (or multistage)
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::ResultInfo::hasCyclicSymmetry() const
 ```
 
-
-
-
 **Returns**:
 
 true if the result file has cyclic symmetry (or multistage)
-
-
 
 **Return type**: bool
 
@@ -2194,19 +1005,13 @@ true if the result file has cyclic symmetry (or multistage)
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::ResultInfo::getStringProperty(std::string const &property_name) const
 ```
 
-
-
-
 **Returns**:
 
 a property value: most common are 'user_name', 'job_name', 'product_name', 'main_title', 'cyclic_symmetry_type'.
-
-
 
 **Parameters**:
 
@@ -2226,19 +1031,13 @@ a property value: most common are 'user_name', 'job_name', 'product_name', 'main
 ![][public]
 ![][const]
 
-
 ```cpp
 int ansys::dpf::ResultInfo::getIntProperty(std::string const &property_name) const
 ```
 
-
-
-
 **Returns**:
 
 a property value: most common are 'solve_time', 'solve_date', 'solver_minor_version', 'solver_major_version'.
-
-
 
 **Parameters**:
 
@@ -2258,17 +1057,9 @@ a property value: most common are 'solve_time', 'solve_date', 'solver_minor_vers
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< std::string > ansys::dpf::ResultInfo::availableQualifierLabels() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::vector< std::string >
 
@@ -2284,19 +1075,13 @@ std::vector< std::string > ansys::dpf::ResultInfo::availableQualifierLabels() co
 ![][public]
 ![][const]
 
-
 ```cpp
 ansys::dpf::Support ansys::dpf::ResultInfo::qualifierTypeSupport(ansys::dpf::Label const &qualifier) const
 ```
 
-
-
-
 **Returns**:
 
 [Support](classansys_1_1dpf_1_1Support.md#classansys_1_1dpf_1_1Support) describing the Domain definition of the qualifier type.
-
-
 
 **Parameters**:
 
@@ -2315,17 +1100,11 @@ ansys::dpf::Support ansys::dpf::ResultInfo::qualifierTypeSupport(ansys::dpf::Lab
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::ResultInfo::setUnitSystem(UnitSystem const &unit_system)
 ```
 
-
-
-
 Set the unit system.
-
-
 
 **Parameters**:
 
@@ -2344,17 +1123,11 @@ Set the unit system.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::ResultInfo::addResult(std::string const &operator_name, std::string const &scripting_name, ansys::dpf::Dimensionality dimensionality, ansys::dpf::Location const &location, ansys::dpf::Homogeneity const &homogeneity, std::string const &description="")
 ```
 
-
-
-
 Add a result.
-
-
 
 **Parameters**:
 
@@ -2378,17 +1151,11 @@ Add a result.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::ResultInfo::addResult(Result const &res)
 ```
 
-
-
-
 Add a result.
-
-
 
 **Parameters**:
 
@@ -2407,17 +1174,9 @@ Add a result.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::ResultInfo::addProperties(std::vector< std::pair< std::string, std::string > >const &properties)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -2436,17 +1195,9 @@ void ansys::dpf::ResultInfo::addProperties(std::vector< std::pair< std::string, 
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::ResultInfo::addProperties(std::vector< std::pair< std::string, int > >const &properties)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -2465,17 +1216,11 @@ void ansys::dpf::ResultInfo::addProperties(std::vector< std::pair< std::string, 
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::ResultInfo::addAvailableQualifiersForAllResults(LabelSpacesVector const &available_qualifiers)
 ```
 
-
-
-
 Set the available sub qualifiers (or domains) available for all Results in the [ResultInfo](classansys_1_1dpf_1_1ResultInfo.md#classansys_1_1dpf_1_1ResultInfo).
-
-
 
 **Parameters**:
 
@@ -2494,17 +1239,11 @@ Set the available sub qualifiers (or domains) available for all Results in the [
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::ResultInfo::setQualifierLabelSupport(ansys::dpf::Label const &qualifier, ansys::dpf::Support const &support)
 ```
 
-
-
-
 Describe the Domain definition for a given qualifier.
-
-
 
 **Parameters**:
 
@@ -2527,17 +1266,9 @@ Describe the Domain definition for a given qualifier.
 ![][public]
 ![][static]
 
-
 ```cpp
 static ResultInfo ansys::dpf::ResultInfo::emptyResultInfo()
 ```
-
-
-
-
-
-
-
 
 **Return type**: ResultInfo
 

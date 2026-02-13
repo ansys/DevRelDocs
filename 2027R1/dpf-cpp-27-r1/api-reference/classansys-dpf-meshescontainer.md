@@ -6,10 +6,7 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3110)
 
-
-
 Contains a group of meshes. The meshes container is designed as a set of meshes ordered through labels and ids. Labels identify how the fields are filtered. The most common meshes container have the label "body" with ids corresponding to each body entity. 
-
 
 **See also**: [MeshedRegion](classansys_1_1dpf_1_1MeshedRegion.md#classansys_1_1dpf_1_1MeshedRegion), group_12
 
@@ -74,204 +71,7 @@ Contains a group of meshes. The meshes container is designed as a set of meshes 
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1MeshesContainer_1a33ff3f826991522d2e77c1c523f33e19"></a>
-### Friend Operator
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3112)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Operator"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::MeshesContainer::Operator"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Operator"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1MeshesContainer_1afa07847c7cb432b260e61a0c18025ba3"></a>
-### Friend Workflow
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3113)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Workflow"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::MeshesContainer::Workflow"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Workflow"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1MeshesContainer_1a81d95df60edf516a1de9878b780f8fb3"></a>
-### Friend OperatorMain
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3114)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorMain"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::MeshesContainer::OperatorMain"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorMain"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1MeshesContainer_1a9820c685b67a3355c042bb0b3365d9e2"></a>
-### Friend Any
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3115)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Any"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::MeshesContainer::Any"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Any"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1MeshesContainer_1af891ea2ca8eebe3679e051763ba989ce"></a>
-### Friend CollectionBase
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3116)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class CollectionBase"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::MeshesContainer::CollectionBase"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"CollectionBase"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1MeshesContainer_1acc06c4380c923e11af63f95e97c3c259"></a>
-### Friend GenericDataContainer
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3117)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class GenericDataContainer"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::MeshesContainer::GenericDataContainer"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"GenericDataContainer"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1MeshesContainer_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3118)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::MeshesContainer::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1MeshesContainer_1a2489c7253dde4b595184cc79a327e230"></a>
-### Function MeshesContainer
-
-![][private]
-
-
-```cpp
-ansys::dpf::MeshesContainer::MeshesContainer(opaque::DpfInternalSharedObject *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfInternalSharedObject *
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::MeshesContainer::MeshesContainer"}]}`
--->
 
 ## Public functions
 
@@ -280,17 +80,9 @@ ansys::dpf::MeshesContainer::MeshesContainer(opaque::DpfInternalSharedObject *)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::MeshesContainer::MeshesContainer()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -305,17 +97,9 @@ ansys::dpf::MeshesContainer::MeshesContainer()
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::MeshesContainer::~MeshesContainer()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -330,17 +114,9 @@ virtual ansys::dpf::MeshesContainer::~MeshesContainer()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::MeshesContainer::MeshesContainer(MeshesContainer const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -359,17 +135,9 @@ ansys::dpf::MeshesContainer::MeshesContainer(MeshesContainer const &)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::MeshesContainer::MeshesContainer(MeshesContainer &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -388,17 +156,11 @@ ansys::dpf::MeshesContainer::MeshesContainer(MeshesContainer &&) noexcept
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::MeshesContainer::MeshesContainer(Client const *const client)
 ```
 
-
-
-
 Create a new meshes container on a server.
-
-
 
 **Parameters**:
 
@@ -417,17 +179,11 @@ Create a new meshes container on a server.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::MeshesContainer::MeshesContainer(Client const *const client, std::vector< std::string > const &labels)
 ```
 
-
-
-
 Create a collection of meshes with the given labels on a server.
-
-
 
 **Parameters**:
 
@@ -447,17 +203,11 @@ Create a collection of meshes with the given labels on a server.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::MeshesContainer::MeshesContainer(int id, Client const *const client)
 ```
 
-
-
-
 Retrieve an existing instance of [MeshesContainer](classansys_1_1dpf_1_1MeshesContainer.md#classansys_1_1dpf_1_1MeshesContainer) on a server.
-
-
 
 **Parameters**:
 
@@ -477,17 +227,11 @@ Retrieve an existing instance of [MeshesContainer](classansys_1_1dpf_1_1MeshesCo
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::MeshesContainer::MeshesContainer(std::vector< std::string > const &labels)
 ```
 
-
-
-
 Create mesh container for a group of meshed regions with the given labels.
-
-
 
 **Parameters**:
 
@@ -506,17 +250,9 @@ Create mesh container for a group of meshed regions with the given labels.
 
 ![][public]
 
-
 ```cpp
 MeshesContainer & ansys::dpf::MeshesContainer::operator=(MeshesContainer const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -535,17 +271,9 @@ MeshesContainer & ansys::dpf::MeshesContainer::operator=(MeshesContainer const &
 
 ![][public]
 
-
 ```cpp
 MeshesContainer & ansys::dpf::MeshesContainer::operator=(MeshesContainer &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -564,19 +292,13 @@ MeshesContainer & ansys::dpf::MeshesContainer::operator=(MeshesContainer &&) noe
 
 ![][public]
 
-
 ```cpp
 MeshedRegion ansys::dpf::MeshesContainer::operator[](dp_int index)
 ```
 
-
-
-
 **Returns**:
 
 Meshed region for given index.
-
-
 
 **Parameters**:
 
@@ -595,19 +317,13 @@ Meshed region for given index.
 
 ![][public]
 
-
 ```cpp
 MeshedRegion ansys::dpf::MeshesContainer::at(dp_index index)
 ```
 
-
-
-
 **Returns**:
 
 Meshed region for given index.
-
-
 
 **Parameters**:
 
@@ -627,19 +343,13 @@ Meshed region for given index.
 ![][public]
 ![][const]
 
-
 ```cpp
 const MeshedRegion ansys::dpf::MeshesContainer::at(dp_index index) const
 ```
 
-
-
-
 **Returns**:
 
 Meshed region for given index.
-
-
 
 **Parameters**:
 
@@ -658,17 +368,11 @@ Meshed region for given index.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::MeshesContainer::update(MeshedRegion &f, dp_index index)
 ```
 
-
-
-
 Update a meshed region at index.
-
-
 
 **Parameters**:
 
@@ -688,17 +392,11 @@ Update a meshed region at index.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::MeshesContainer::add(LabelSpace const &labels, MeshedRegion const &f, bool can_replace=true)
 ```
 
-
-
-
 Add meshed region with given label space.
-
-
 
 **Parameters**:
 
@@ -720,19 +418,13 @@ Add meshed region with given label space.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< MeshedRegion > ansys::dpf::MeshesContainer::getMeshes(LabelSpace const &label_space) const
 ```
 
-
-
-
 **Returns**:
 
 Vector of meshed regions for given label space.
-
-
 
 **Parameters**:
 
@@ -752,19 +444,13 @@ Vector of meshed regions for given label space.
 ![][public]
 ![][const]
 
-
 ```cpp
 MeshedRegion ansys::dpf::MeshesContainer::getMesh(LabelSpace const &label_space) const
 ```
 
-
-
-
 **Returns**:
 
 First meshed region for given label space.
-
-
 
 **Parameters**:
 
@@ -784,17 +470,9 @@ First meshed region for given label space.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< int > ansys::dpf::MeshesContainer::getMeshesIndices(LabelSpace const &lab_space) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -814,19 +492,13 @@ std::vector< int > ansys::dpf::MeshesContainer::getMeshesIndices(LabelSpace cons
 ![][public]
 ![][const]
 
-
 ```cpp
 MeshedRegion ansys::dpf::MeshesContainer::getMatchingMesh(LabelSpace const &label_space) const
 ```
 
-
-
-
 **Returns**:
 
 First matching Mesh for given label space.
-
-
 
 **Parameters**:
 
@@ -846,19 +518,13 @@ First matching Mesh for given label space.
 ![][public]
 ![][const]
 
-
 ```cpp
 DpfVector< dp_index > ansys::dpf::MeshesContainer::getMatchingMeshIndices(LabelSpace const &label_space) const
 ```
 
-
-
-
 **Returns**:
 
 Vector of matching Mesh to the given label space.
-
-
 
 **Parameters**:
 
@@ -878,17 +544,11 @@ Vector of matching Mesh to the given label space.
 ![][public]
 ![][const]
 
-
 ```cpp
 MeshesContainer ansys::dpf::MeshesContainer::createSubMeshesContainer(LabelSpace const &lab_space) const
 ```
 
-
 create a [MeshesContainer](classansys_1_1dpf_1_1MeshesContainer.md#classansys_1_1dpf_1_1MeshesContainer) with all the meshes corresponding to the label space in input
-
-
-
-
 
 **Parameters**:
 
@@ -908,17 +568,11 @@ create a [MeshesContainer](classansys_1_1dpf_1_1MeshesContainer.md#classansys_1_
 ![][public]
 ![][const]
 
-
 ```cpp
 MeshesContainer ansys::dpf::MeshesContainer::deep_copy(ansys::dpf::Client const *const client=nullptr) const
 ```
 
-
-
-
 Create a new [MeshesContainer](classansys_1_1dpf_1_1MeshesContainer.md#classansys_1_1dpf_1_1MeshesContainer) on a server by copying all the data of this [MeshesContainer](classansys_1_1dpf_1_1MeshesContainer.md#classansys_1_1dpf_1_1MeshesContainer).
-
-
 
 **Parameters**:
 
@@ -940,20 +594,14 @@ Create a new [MeshesContainer](classansys_1_1dpf_1_1MeshesContainer.md#classansy
 ![][public]
 ![][static]
 
-
 ```cpp
 static MeshesContainer ansys::dpf::MeshesContainer::emptyMeshesContainer()
 ```
-
-
-
 
 Create an empty mesh container. 
 **Returns**:
 
 Empty mesh container.
-
-
 
 **Return type**: MeshesContainer
 

@@ -6,12 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6915)
 
-
-
-
-
-
-
 ## Members
 
 * [type\_name](structansys_1_1dpf_1_1reflect_3_01MeshedRegion_01_4.md#structansys_1_1dpf_1_1reflect_3_01MeshedRegion_01_4_1a398873194aec5d45fe4be9534524d0bb)
@@ -24,17 +18,9 @@
 ![][public]
 ![][static]
 
-
 ```cpp
 static std::string ansys::dpf::reflect< MeshedRegion >::type_name()
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::string
 

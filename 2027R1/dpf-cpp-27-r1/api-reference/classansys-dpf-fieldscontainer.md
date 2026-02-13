@@ -10,10 +10,6 @@ Contains a group of fields.
 
 [FieldsContainer](classansys_1_1dpf_1_1FieldsContainer.md#classansys_1_1dpf_1_1FieldsContainer) is a group of fields, used mainly in transient, harmonic, modal or multi-steps static analysis, where we can have a field for each time step or for each frequency. Consequently the fields container can describle a complete analysis with all its details.
 
-
-
-
-
 The fields container is designed as a set of fields ordered through labels and ids. Labels identify how the fields are filtered. The most common fields container have the label "time" with ids corresponding to each time sets, the label "complex" will allow to separate real parts (id=0) from imaginary parts (id=1) in a harmonic analysis. 
 
 **See also**: group_12
@@ -80,204 +76,7 @@ The fields container is designed as a set of fields ordered through labels and i
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1FieldsContainer_1a33ff3f826991522d2e77c1c523f33e19"></a>
-### Friend Operator
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2917)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Operator"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::FieldsContainer::Operator"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Operator"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1FieldsContainer_1afa07847c7cb432b260e61a0c18025ba3"></a>
-### Friend Workflow
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2918)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Workflow"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::FieldsContainer::Workflow"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Workflow"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1FieldsContainer_1a81d95df60edf516a1de9878b780f8fb3"></a>
-### Friend OperatorMain
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2919)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorMain"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::FieldsContainer::OperatorMain"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorMain"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1FieldsContainer_1a9820c685b67a3355c042bb0b3365d9e2"></a>
-### Friend Any
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2920)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Any"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::FieldsContainer::Any"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Any"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1FieldsContainer_1af891ea2ca8eebe3679e051763ba989ce"></a>
-### Friend CollectionBase
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2921)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class CollectionBase"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::FieldsContainer::CollectionBase"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"CollectionBase"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1FieldsContainer_1acc06c4380c923e11af63f95e97c3c259"></a>
-### Friend GenericDataContainer
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2922)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class GenericDataContainer"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::FieldsContainer::GenericDataContainer"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"GenericDataContainer"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1FieldsContainer_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2923)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::FieldsContainer::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1FieldsContainer_1a6e2dbd7ed3c00c205066d33c96c3cc4d"></a>
-### Function FieldsContainer
-
-![][private]
-
-
-```cpp
-ansys::dpf::FieldsContainer::FieldsContainer(opaque::DpfInternalSharedObject *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfInternalSharedObject *
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::FieldsContainer::FieldsContainer"}]}`
--->
 
 ## Public functions
 
@@ -286,17 +85,9 @@ ansys::dpf::FieldsContainer::FieldsContainer(opaque::DpfInternalSharedObject *)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::FieldsContainer::FieldsContainer()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -311,17 +102,11 @@ ansys::dpf::FieldsContainer::FieldsContainer()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::FieldsContainer::FieldsContainer(Client const *const client)
 ```
 
-
-
-
 Create a new fields container on a server.
-
-
 
 **Parameters**:
 
@@ -340,17 +125,11 @@ Create a new fields container on a server.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::FieldsContainer::FieldsContainer(Client const *const client, std::vector< std::string > const &labels)
 ```
 
-
-
-
 Create a collection of fields with the given labels on a server.
-
-
 
 **Parameters**:
 
@@ -370,17 +149,11 @@ Create a collection of fields with the given labels on a server.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::FieldsContainer::FieldsContainer(int id, Client const *const client)
 ```
 
-
-
-
 Retrieve an existing instance of [FieldsContainer](classansys_1_1dpf_1_1FieldsContainer.md#classansys_1_1dpf_1_1FieldsContainer) on a server.
-
-
 
 **Parameters**:
 
@@ -400,17 +173,11 @@ Retrieve an existing instance of [FieldsContainer](classansys_1_1dpf_1_1FieldsCo
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::FieldsContainer::FieldsContainer(const std::vector< std::string > &labels)
 ```
 
-
-
-
 Create a collection of fields with the given labels.
-
-
 
 **Parameters**:
 
@@ -429,17 +196,9 @@ Create a collection of fields with the given labels.
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::FieldsContainer::~FieldsContainer()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -454,17 +213,9 @@ virtual ansys::dpf::FieldsContainer::~FieldsContainer()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::FieldsContainer::FieldsContainer(FieldsContainer const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -483,17 +234,9 @@ ansys::dpf::FieldsContainer::FieldsContainer(FieldsContainer const &)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::FieldsContainer::FieldsContainer(FieldsContainer &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -512,17 +255,9 @@ ansys::dpf::FieldsContainer::FieldsContainer(FieldsContainer &&) noexcept
 
 ![][public]
 
-
 ```cpp
 FieldsContainer & ansys::dpf::FieldsContainer::operator=(FieldsContainer const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -541,17 +276,9 @@ FieldsContainer & ansys::dpf::FieldsContainer::operator=(FieldsContainer const &
 
 ![][public]
 
-
 ```cpp
 FieldsContainer & ansys::dpf::FieldsContainer::operator=(FieldsContainer &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -570,20 +297,14 @@ FieldsContainer & ansys::dpf::FieldsContainer::operator=(FieldsContainer &&) noe
 
 ![][public]
 
-
 ```cpp
 Field ansys::dpf::FieldsContainer::operator[](dp_int index)
 ```
-
-
-
 
 Get field at index. 
 **Returns**:
 
 [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) given by index.
-
-
 
 **Parameters**:
 
@@ -602,20 +323,14 @@ Get field at index.
 
 ![][public]
 
-
 ```cpp
 Field ansys::dpf::FieldsContainer::at(dp_index index)
 ```
-
-
-
 
 Get field at index. 
 **Returns**:
 
 [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) given by index.
-
-
 
 **Parameters**:
 
@@ -635,20 +350,14 @@ Get field at index.
 ![][public]
 ![][const]
 
-
 ```cpp
 const Field ansys::dpf::FieldsContainer::at(dp_index index) const
 ```
-
-
-
 
 Get field at index. 
 **Returns**:
 
 [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) given by index.
-
-
 
 **Parameters**:
 
@@ -667,17 +376,11 @@ Get field at index.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::FieldsContainer::update(Field &f, dp_index index)
 ```
 
-
-
-
 Update [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) at index
-
-
 
 **Parameters**:
 
@@ -697,17 +400,11 @@ Update [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) at inde
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::FieldsContainer::add(LabelSpace const &lab_space, Field const &f, bool can_replace=true)
 ```
 
-
-
-
 Add [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) to [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1_1LabelSpace).
-
-
 
 **Parameters**:
 
@@ -729,19 +426,13 @@ Add [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) to [LabelS
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< Field > ansys::dpf::FieldsContainer::getFields(LabelSpace const &lab_space) const
 ```
 
-
-
-
 **Returns**:
 
 Fields given by [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1_1LabelSpace)
-
-
 
 **Parameters**:
 
@@ -761,19 +452,13 @@ Fields given by [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dp
 ![][public]
 ![][const]
 
-
 ```cpp
 Field ansys::dpf::FieldsContainer::getField(LabelSpace const &lab_space) const
 ```
 
-
-
-
 **Returns**:
 
 First [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) given by [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1_1LabelSpace)
-
-
 
 **Parameters**:
 
@@ -793,19 +478,13 @@ First [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) given by
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< int > ansys::dpf::FieldsContainer::getFieldsIndeces(LabelSpace const &lab_space) const
 ```
 
-
-
-
 **Returns**:
 
 [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) indices for field given by [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1_1LabelSpace)
-
-
 
 **Parameters**:
 
@@ -825,19 +504,13 @@ std::vector< int > ansys::dpf::FieldsContainer::getFieldsIndeces(LabelSpace cons
 ![][public]
 ![][const]
 
-
 ```cpp
 Field ansys::dpf::FieldsContainer::getMatchingField(LabelSpace const &label_space) const
 ```
 
-
-
-
 **Returns**:
 
 First matching [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) for given label space.
-
-
 
 **Parameters**:
 
@@ -857,19 +530,13 @@ First matching [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field)
 ![][public]
 ![][const]
 
-
 ```cpp
 DpfVector< dp_index > ansys::dpf::FieldsContainer::getMatchingFieldIndices(LabelSpace const &label_space) const
 ```
 
-
-
-
 **Returns**:
 
 Vector of matching [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) to the given label space.
-
-
 
 **Parameters**:
 
@@ -889,19 +556,13 @@ Vector of matching [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Fi
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< Field > ansys::dpf::FieldsContainer::getFieldsForTimeId(dp_int time_id, dp_int complex_id=0) const
 ```
 
-
-
-
 **Returns**:
 
 Real or imaginary (by default real) Fields at given time set.
-
-
 
 **Parameters**:
 
@@ -922,20 +583,14 @@ Real or imaginary (by default real) Fields at given time set.
 ![][public]
 ![][const]
 
-
 ```cpp
 FieldsContainer ansys::dpf::FieldsContainer::createSubFieldsContainer(LabelSpace const &lab_space) const
 ```
-
-
-
 
 Create a new fields container with all the fields corresponding to the label space in input. 
 **Returns**:
 
 Created fields container.
-
-
 
 **Parameters**:
 
@@ -955,17 +610,11 @@ Created fields container.
 ![][public]
 ![][const]
 
-
 ```cpp
 FieldsContainer ansys::dpf::FieldsContainer::deep_copy(ansys::dpf::Client const *const client=nullptr) const
 ```
 
-
-
-
 Create a new [FieldsContainer](classansys_1_1dpf_1_1FieldsContainer.md#classansys_1_1dpf_1_1FieldsContainer) on a server by copying all the data of this [FieldsContainer](classansys_1_1dpf_1_1FieldsContainer.md#classansys_1_1dpf_1_1FieldsContainer).
-
-
 
 **Parameters**:
 
@@ -987,20 +636,14 @@ Create a new [FieldsContainer](classansys_1_1dpf_1_1FieldsContainer.md#classansy
 ![][public]
 ![][static]
 
-
 ```cpp
 static FieldsContainer ansys::dpf::FieldsContainer::emptyFieldsContainer()
 ```
-
-
-
 
 Create an empty fields container. 
 **Returns**:
 
 Empty [FieldsContainer](classansys_1_1dpf_1_1FieldsContainer.md#classansys_1_1dpf_1_1FieldsContainer).
-
-
 
 **Return type**: FieldsContainer
 

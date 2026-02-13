@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 771)
 
-
-
 Defines an indexation for fields container. 
 
 **See also**: group_12
@@ -57,276 +55,7 @@ Defines an indexation for fields container.
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1LabelSpace_1af891ea2ca8eebe3679e051763ba989ce"></a>
-### Friend CollectionBase
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 773)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class CollectionBase"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::LabelSpace::CollectionBase"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"CollectionBase"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1LabelSpace_1a6d2e3be67ea5e4da29f1bf68744341b6"></a>
-### Friend DataSources
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 774)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class DataSources"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::LabelSpace::DataSources"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"DataSources"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1LabelSpace_1a5a10e7ca5f11fc70cc7d8e5b48bfff72"></a>
-### Friend Streams
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 775)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Streams"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::LabelSpace::Streams"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Streams"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1LabelSpace_1afb1dc59f2e0edbbfe9016fab50e74fbd"></a>
-### Friend ResultInfo
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 776)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class ResultInfo"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::LabelSpace::ResultInfo"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"ResultInfo"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1LabelSpace_1a33ff3f826991522d2e77c1c523f33e19"></a>
-### Friend Operator
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 777)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Operator"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::LabelSpace::Operator"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Operator"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1LabelSpace_1afa07847c7cb432b260e61a0c18025ba3"></a>
-### Friend Workflow
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 778)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Workflow"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::LabelSpace::Workflow"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Workflow"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1LabelSpace_1a81d95df60edf516a1de9878b780f8fb3"></a>
-### Friend OperatorMain
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 779)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorMain"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::LabelSpace::OperatorMain"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorMain"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1LabelSpace_1acc06c4380c923e11af63f95e97c3c259"></a>
-### Friend GenericDataContainer
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 780)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class GenericDataContainer"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::LabelSpace::GenericDataContainer"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"GenericDataContainer"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1LabelSpace_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 781)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::LabelSpace::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1LabelSpace_1a9820c685b67a3355c042bb0b3365d9e2"></a>
-### Friend Any
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 782)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Any"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::LabelSpace::Any"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Any"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1LabelSpace_1a0db02c20407d5eaa7ee6a8d75e37a687"></a>
-### Function LabelSpace
-
-![][private]
-
-
-```cpp
-ansys::dpf::LabelSpace::LabelSpace(opaque::DpfInternalSharedObject *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfInternalSharedObject *
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::LabelSpace::LabelSpace"}]}`
--->
 
 ## Public functions
 
@@ -335,17 +64,9 @@ ansys::dpf::LabelSpace::LabelSpace(opaque::DpfInternalSharedObject *)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::LabelSpace::LabelSpace()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -360,17 +81,11 @@ ansys::dpf::LabelSpace::LabelSpace()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::LabelSpace::LabelSpace(Client const *const client)
 ```
 
-
-
-
 Create a new [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1_1LabelSpace) for a given client.
-
-
 
 **Parameters**:
 
@@ -389,17 +104,11 @@ Create a new [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::LabelSpace::LabelSpace(std::map< Label, dp_int > const &rhs, Client const *const client)
 ```
 
-
-
-
 Consturct new [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1_1LabelSpace) from labels and values.
-
-
 
 **Parameters**:
 
@@ -419,17 +128,11 @@ Consturct new [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::LabelSpace::LabelSpace(std::initializer_list< std::pair< const Label, int > > init, Client const *const client)
 ```
 
-
-
-
 Construct new [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1_1LabelSpace) from pairs of labels and values.
-
-
 
 **Parameters**:
 
@@ -449,17 +152,11 @@ Construct new [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::LabelSpace::LabelSpace(std::map< Label, dp_int > const &rhs)
 ```
 
-
-
-
 Consturct new [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1_1LabelSpace) from labels and values.
-
-
 
 **Parameters**:
 
@@ -478,17 +175,11 @@ Consturct new [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::LabelSpace::LabelSpace(std::initializer_list< std::pair< const Label, int > > init)
 ```
 
-
-
-
 Construct new [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1_1LabelSpace) from pairs of labels and values.
-
-
 
 **Parameters**:
 
@@ -507,17 +198,9 @@ Construct new [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::LabelSpace::~LabelSpace()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -532,17 +215,9 @@ virtual ansys::dpf::LabelSpace::~LabelSpace()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::LabelSpace::LabelSpace(LabelSpace const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -561,17 +236,9 @@ ansys::dpf::LabelSpace::LabelSpace(LabelSpace const &)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::LabelSpace::LabelSpace(LabelSpace &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -590,17 +257,9 @@ ansys::dpf::LabelSpace::LabelSpace(LabelSpace &&) noexcept
 
 ![][public]
 
-
 ```cpp
 LabelSpace & ansys::dpf::LabelSpace::operator=(LabelSpace const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -619,17 +278,9 @@ LabelSpace & ansys::dpf::LabelSpace::operator=(LabelSpace const &)
 
 ![][public]
 
-
 ```cpp
 LabelSpace & ansys::dpf::LabelSpace::operator=(LabelSpace &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -648,17 +299,11 @@ LabelSpace & ansys::dpf::LabelSpace::operator=(LabelSpace &&) noexcept
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::LabelSpace::add(Label const &label, dp_int value)
 ```
 
-
-
-
 Add a label with value. If label already exists, nothing happens.
-
-
 
 **Parameters**:
 
@@ -678,17 +323,11 @@ Add a label with value. If label already exists, nothing happens.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::LabelSpace::set(Label const &label, dp_int value)
 ```
 
-
-
-
 Set an already existing label to value. If label does not exist it is added.
-
-
 
 **Parameters**:
 
@@ -708,17 +347,11 @@ Set an already existing label to value. If label does not exist it is added.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::LabelSpace::erase(Label const &label)
 ```
 
-
-
-
 Removes label from space.
-
-
 
 **Parameters**:
 
@@ -738,19 +371,13 @@ Removes label from space.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::LabelSpace::size() const
 ```
 
-
-
-
 **Returns**:
 
 Number of labels in space.
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -766,19 +393,13 @@ Number of labels in space.
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::LabelSpace::has(Label const &label) const
 ```
 
-
-
-
 **Returns**:
 
 Indication that label exists within space.
-
-
 
 **Parameters**:
 
@@ -798,19 +419,13 @@ Indication that label exists within space.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::LabelSpace::at(Label const &label) const
 ```
 
-
-
-
 **Returns**:
 
 Value of label within space.
-
-
 
 **Parameters**:
 
@@ -830,19 +445,13 @@ Value of label within space.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::LabelSpace::labelsName(dp_index index) const
 ```
 
-
-
-
 **Returns**:
 
 name of label at given index.
-
-
 
 **Parameters**:
 
@@ -861,24 +470,16 @@ name of label at given index.
 
 ![][public]
 
-
 ```cpp
 LabelSpace & ansys::dpf::LabelSpace::setTime(dp_index i)
 ```
-
-
-
 
 Set time label to value. 
 **Returns**:
 
 Reference to labelspace.
 
-
-
 **See also**: [labels](structansys_1_1dpf_1_1labels.md#structansys_1_1dpf_1_1labels)
-
-
 
 **Parameters**:
 
@@ -897,24 +498,16 @@ Reference to labelspace.
 
 ![][public]
 
-
 ```cpp
 LabelSpace & ansys::dpf::LabelSpace::setDomain(dp_index i)
 ```
-
-
-
 
 Set domain label to value 
 **Returns**:
 
 Reference to labelspace.
 
-
-
 **See also**: [labels](structansys_1_1dpf_1_1labels.md#structansys_1_1dpf_1_1labels)
-
-
 
 **Parameters**:
 
@@ -933,24 +526,16 @@ Reference to labelspace.
 
 ![][public]
 
-
 ```cpp
 LabelSpace & ansys::dpf::LabelSpace::setComplex(dp_index i)
 ```
-
-
-
 
 Set complex label to value. 
 **Returns**:
 
 Reference to labelspace.
 
-
-
 **See also**: [labels](structansys_1_1dpf_1_1labels.md#structansys_1_1dpf_1_1labels)
-
-
 
 **Parameters**:
 
@@ -969,24 +554,16 @@ Reference to labelspace.
 
 ![][public]
 
-
 ```cpp
 LabelSpace & ansys::dpf::LabelSpace::addAnyTime()
 ```
-
-
-
 
 Set time label to -1. 
 **Returns**:
 
 Reference to labelspace.
 
-
-
 **See also**: [labels](structansys_1_1dpf_1_1labels.md#structansys_1_1dpf_1_1labels)
-
-
 
 **Return type**: LabelSpace &
 
@@ -1001,24 +578,16 @@ Reference to labelspace.
 
 ![][public]
 
-
 ```cpp
 LabelSpace & ansys::dpf::LabelSpace::addAnyDomain()
 ```
-
-
-
 
 Set domain label to -1. 
 **Returns**:
 
 Reference to labelspace.
 
-
-
 **See also**: [labels](structansys_1_1dpf_1_1labels.md#structansys_1_1dpf_1_1labels)
-
-
 
 **Return type**: LabelSpace &
 
@@ -1034,17 +603,11 @@ Reference to labelspace.
 ![][public]
 ![][const]
 
-
 ```cpp
 LabelSpace ansys::dpf::LabelSpace::deep_copy(ansys::dpf::Client const *const client=nullptr) const
 ```
 
-
-
-
 Create a new [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1_1LabelSpace) on a server by copying all the data of this [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1_1LabelSpace).
-
-
 
 **Parameters**:
 
@@ -1063,17 +626,11 @@ Create a new [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::LabelSpace::mergeWith(ansys::dpf::LabelSpace const other)
 ```
 
-
-
-
 Inserts all labels and ids of other in this.
-
-
 
 **Parameters**:
 
@@ -1095,20 +652,14 @@ Inserts all labels and ids of other in this.
 ![][public]
 ![][static]
 
-
 ```cpp
 static LabelSpace ansys::dpf::LabelSpace::emptyLabelSpace()
 ```
-
-
-
 
 Create an empty [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1_1LabelSpace) 
 **Returns**:
 
 Empty [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1_1LabelSpace)
-
-
 
 **Return type**: LabelSpace
 

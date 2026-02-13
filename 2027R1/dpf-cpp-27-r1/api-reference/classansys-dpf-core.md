@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6440)
 
-
-
 Groups all DataProcessingFramework core controls and utilities, like loading the core, loading libraries, protected instantiation, settings control.
 
 ## Inner classes
@@ -69,122 +67,7 @@ Groups all DataProcessingFramework core controls and utilities, like loading the
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1core_1a94818e037679aecb263ee0493037b45d"></a>
-### Friend Collection
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6443)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename DataT"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Collection"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::Collection"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Collection"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private static functions
-
-<a id="classansys_1_1dpf_1_1core_1aef5f62f63432e2426c08849b0077627c"></a>
-### Function ensureCopyToCompatibility
-
-![][private]
-![][static]
-
-
-```cpp
-static bool ansys::dpf::core::ensureCopyToCompatibility()
-```
-
-
-
-
-
-
-
-
-**Return type**: bool
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::ensureCopyToCompatibility"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1core_1a9773eeb6d3b3b42d91678c3bd1a1c47e"></a>
-### Function opaqueCopyTo
-
-![][private]
-![][static]
-
-
-```cpp
-static opaque::DpfInternalSharedObject * ansys::dpf::core::opaqueCopyTo(const opaque::DpfObject *to_copy, const Client *client)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* const opaque::DpfObject * **to_copy**
-* const [Client](classansys_1_1dpf_1_1Client.md#classansys_1_1dpf_1_1Client) * **client**
-
-**Return type**: opaque::DpfInternalSharedObject *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::opaqueCopyTo"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1core_1a4de85d32f025bad48a07e97d6d4bac5f"></a>
-### Function startFbsServer
-
-![][private]
-![][static]
-
-
-```cpp
-static FbsServerData ansys::dpf::core::startFbsServer(bool get_existing, std::string const &ip="", int port=0, const Client *client=nullptr)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* bool **get_existing**
-* std::string const & **ip** = "" 
-* int **port** = 0 
-* const [Client](classansys_1_1dpf_1_1Client.md#classansys_1_1dpf_1_1Client) * **client** = nullptr 
-
-**Return type**: FbsServerData
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::startFbsServer"}]}`
--->
 
 ## Public functions
 
@@ -193,17 +76,9 @@ static FbsServerData ansys::dpf::core::startFbsServer(bool get_existing, std::st
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::core::core()=delete
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -221,20 +96,14 @@ ansys::dpf::core::core()=delete
 ![][public]
 ![][static]
 
-
 ```cpp
 static DpfError ansys::dpf::core::applyContext(Context const &context)
 ```
-
-
-
 
 Defines the settings that will be used to load DPF's plugins. A DPF xml file can be used. 
 **Returns**:
 
 Status of call.
-
-
 
 **Parameters**:
 
@@ -254,20 +123,14 @@ Status of call.
 ![][public]
 ![][static]
 
-
 ```cpp
 static DpfError ansys::dpf::core::releaseDpf()
 ```
-
-
-
 
 Clears the available Operators and Releases licenses when necessary. 
 **Returns**:
 
 Status of call.
-
-
 
 **Return type**: [DpfError](classansys_1_1dpf_1_1DpfError.md#classansys_1_1dpf_1_1DpfError)
 
@@ -283,20 +146,14 @@ Status of call.
 ![][public]
 ![][static]
 
-
 ```cpp
 static DpfError ansys::dpf::core::releaseDpf(Client const *const client)
 ```
-
-
-
 
 Clears the available Operators and Releases licenses when necessary. 
 **Returns**:
 
 Status of call.
-
-
 
 **Parameters**:
 
@@ -316,20 +173,14 @@ Status of call.
 ![][public]
 ![][static]
 
-
 ```cpp
 static DpfError ansys::dpf::core::applyContext(Context const &context, Client const *const client)
 ```
-
-
-
 
 Defines the settings that will be used to load DPF's plugins. A DPF xml file can be used. 
 **Returns**:
 
 Status of call.
-
-
 
 **Parameters**:
 
@@ -350,20 +201,14 @@ Status of call.
 ![][public]
 ![][static]
 
-
 ```cpp
 static DpfError ansys::dpf::core::loadDpfPlugin(std::string const &plugin_path, std::string const &plugin_name, std::string const &symbol="LoadOperators")
 ```
-
-
-
 
 Loads specified DPF plugin. 
 **Returns**:
 
 Status of call.
-
-
 
 **Parameters**:
 
@@ -385,20 +230,14 @@ Status of call.
 ![][public]
 ![][static]
 
-
 ```cpp
 static DpfError ansys::dpf::core::loadDpfPlugin(std::string const &plugin_path, std::string const &plugin_name, Client const *const client)
 ```
-
-
-
 
 Loads specified DPF plugin. 
 **Returns**:
 
 Status of call.
-
-
 
 **Parameters**:
 
@@ -420,20 +259,14 @@ Status of call.
 ![][public]
 ![][static]
 
-
 ```cpp
 static DpfError ansys::dpf::core::loadDpfPlugin(std::string const &plugin_path, std::string const &plugin_name, std::string const &symbol, Client const *const client)
 ```
-
-
-
 
 Loads specified DPF plugin. 
 **Returns**:
 
 Status of call.
-
-
 
 **Parameters**:
 
@@ -456,19 +289,13 @@ Status of call.
 ![][public]
 ![][static]
 
-
 ```cpp
 static Operator ansys::dpf::core::assertInstantiate(std::string const &identifier)
 ```
 
-
-
-
 **Returns**:
 
 [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) given by identifier.
-
-
 
 **Parameters**:
 
@@ -488,19 +315,13 @@ static Operator ansys::dpf::core::assertInstantiate(std::string const &identifie
 ![][public]
 ![][static]
 
-
 ```cpp
 static Operator ansys::dpf::core::assertInstantiate(std::string const &identifier, Client const *const client)
 ```
 
-
-
-
 **Returns**:
 
 [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) given by identifier.
-
-
 
 **Parameters**:
 
@@ -521,17 +342,9 @@ static Operator ansys::dpf::core::assertInstantiate(std::string const &identifie
 ![][public]
 ![][static]
 
-
 ```cpp
 static Operator ansys::dpf::core::assertInstantiate(std::string const &identifier, OperatorConfig const &config, Client const *const client)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -553,17 +366,9 @@ static Operator ansys::dpf::core::assertInstantiate(std::string const &identifie
 ![][public]
 ![][static]
 
-
 ```cpp
 static Operator ansys::dpf::core::assertInstantiate(std::string const &identifier, OperatorConfig const &config)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -584,19 +389,13 @@ static Operator ansys::dpf::core::assertInstantiate(std::string const &identifie
 ![][public]
 ![][static]
 
-
 ```cpp
 static OperatorConfig ansys::dpf::core::defaultOperatorConfig(std::string const &op_identifier, Client const *const client=nullptr)
 ```
 
-
-
-
 **Returns**:
 
 Default configuration of given operator.
-
-
 
 **Parameters**:
 
@@ -617,19 +416,13 @@ Default configuration of given operator.
 ![][public]
 ![][static]
 
-
 ```cpp
 static OperatorSpecification ansys::dpf::core::getOperatorSpecification(std::string const &identifier, Client const *const client=nullptr)
 ```
 
-
-
-
 **Returns**:
 
 Specification of given operator.
-
-
 
 **Parameters**:
 
@@ -650,17 +443,11 @@ Specification of given operator.
 ![][public]
 ![][static]
 
-
 ```cpp
 static void ansys::dpf::core::recordOperator(OperatorMainFunction f, std::string const &operator_identifier, AbstractCore *core=nullptr)
 ```
 
-
-
-
 Record a new operator.
-
-
 
 **Parameters**:
 
@@ -682,17 +469,11 @@ Record a new operator.
 ![][public]
 ![][static]
 
-
 ```cpp
 static void ansys::dpf::core::recordOperator(OperatorMainFunction f, std::string const &operator_identifier, OperatorSpecification const &spec, AbstractCore *=nullptr)
 ```
 
-
-
-
 Record a new operator.
-
-
 
 **Parameters**:
 
@@ -715,17 +496,11 @@ Record a new operator.
 ![][public]
 ![][static]
 
-
 ```cpp
 static void ansys::dpf::core::recordOperator(OperatorMainFunction f, OperatorDerivateFunction deriv, std::string const &operator_identifier, OperatorSpecification const &spec, AbstractCore *=nullptr)
 ```
 
-
-
-
 Record a new operator.
-
-
 
 **Parameters**:
 
@@ -749,17 +524,11 @@ Record a new operator.
 ![][public]
 ![][static]
 
-
 ```cpp
 static void ansys::dpf::core::recordOperator()
 ```
 
-
-
-
 Record a new operator based on defined type.
-
-
 
 **Return type**: void
 
@@ -776,17 +545,11 @@ Record a new operator based on defined type.
 ![][public]
 ![][static]
 
-
 ```cpp
 static void ansys::dpf::core::recordOperatorWithDerivative()
 ```
 
-
-
-
 Record a new operator based on defined type, with a derivative
-
-
 
 **Return type**: void
 
@@ -803,17 +566,9 @@ Record a new operator based on defined type, with a derivative
 ![][public]
 ![][static]
 
-
 ```cpp
 static void ansys::dpf::core::recordOperatorAtCore(AbstractCore *core)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -834,17 +589,11 @@ static void ansys::dpf::core::recordOperatorAtCore(AbstractCore *core)
 ![][public]
 ![][static]
 
-
 ```cpp
 static void ansys::dpf::core::recordOperatorAtCoreWithDerivative(AbstractCore *core)
 ```
 
-
-
-
 Record a new operator based on defined type, with a derivative
-
-
 
 **Parameters**:
 
@@ -865,17 +614,11 @@ Record a new operator based on defined type, with a derivative
 ![][public]
 ![][static]
 
-
 ```cpp
 static void ansys::dpf::core::recordOperatorWithNewName(std::string const &exising_identifier, std::string const &new_identifier, AbstractCore *=nullptr)
 ```
 
-
-
-
 Duplicates the record of the [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) identified by its name in the registry. The [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) will be added as private and won't appear in the documentation
-
-
 
 **Parameters**:
 
@@ -897,19 +640,13 @@ Duplicates the record of the [Operator](classansys_1_1dpf_1_1Operator.md#classan
 ![][public]
 ![][static]
 
-
 ```cpp
 static Workflow ansys::dpf::core::workflowById(int id)
 ```
 
-
-
-
 **Returns**:
 
 Worflow registered in the registry (with Workflow::record) with its id.
-
-
 
 **Parameters**:
 
@@ -929,19 +666,13 @@ Worflow registered in the registry (with Workflow::record) with its id.
 ![][public]
 ![][static]
 
-
 ```cpp
 static Workflow ansys::dpf::core::workflowById(int id, Client const *const client)
 ```
 
-
-
-
 **Returns**:
 
 Worflow registered in a server's registry (with Workflow::record) with its id.
-
-
 
 **Parameters**:
 
@@ -962,19 +693,13 @@ Worflow registered in a server's registry (with Workflow::record) with its id.
 ![][public]
 ![][static]
 
-
 ```cpp
 static Operator ansys::dpf::core::operatorById(int id)
 ```
 
-
-
-
 **Returns**:
 
 [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) given by id.
-
-
 
 **Parameters**:
 
@@ -994,19 +719,13 @@ static Operator ansys::dpf::core::operatorById(int id)
 ![][public]
 ![][static]
 
-
 ```cpp
 static Workflow ansys::dpf::core::workflowFromTemplate(std::string const &template_identifier)
 ```
 
-
-
-
 **Returns**:
 
 Workflow given by template identifier.
-
-
 
 **Parameters**:
 
@@ -1026,19 +745,13 @@ Workflow given by template identifier.
 ![][public]
 ![][static]
 
-
 ```cpp
 static bool ansys::dpf::core::workflowTemplateExists(std::string const &template_identifier)
 ```
 
-
-
-
 **Returns**:
 
 true if template identifier exists
-
-
 
 **Parameters**:
 
@@ -1058,17 +771,11 @@ true if template identifier exists
 ![][public]
 ![][static]
 
-
 ```cpp
 static void ansys::dpf::core::prepareServerShutdown(Client *const client)
 ```
 
-
-
-
 Send a prepare shutdown request (cleanup process) to a specified server.
-
-
 
 **Parameters**:
 
@@ -1088,17 +795,11 @@ Send a prepare shutdown request (cleanup process) to a specified server.
 ![][public]
 ![][static]
 
-
 ```cpp
 static void ansys::dpf::core::releaseServer(Client *const client)
 ```
 
-
-
-
 @detailsremoves the handle on the server should be used only if the server was started by this client instance
-
-
 
 **Parameters**:
 
@@ -1118,17 +819,11 @@ static void ansys::dpf::core::releaseServer(Client *const client)
 ![][public]
 ![][static]
 
-
 ```cpp
 static std::vector< std::string > ansys::dpf::core::availableOperators()
 ```
 
-
-
-
 Returns all the availbale operators names.
-
-
 
 **Return type**: std::vector< std::string >
 
@@ -1144,17 +839,11 @@ Returns all the availbale operators names.
 ![][public]
 ![][static]
 
-
 ```cpp
 static std::vector< std::string > ansys::dpf::core::availableOperators(Client *const client)
 ```
 
-
-
-
 Returns all the availbale operators names for a given client.
-
-
 
 **Parameters**:
 
@@ -1174,17 +863,9 @@ Returns all the availbale operators names for a given client.
 ![][public]
 ![][static]
 
-
 ```cpp
 static dataIdentifierInDatabase ansys::dpf::core::recordInDatabase(databaseIdentifier const &key, DpfTypes &data)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -1205,17 +886,9 @@ static dataIdentifierInDatabase ansys::dpf::core::recordInDatabase(databaseIdent
 ![][public]
 ![][static]
 
-
 ```cpp
 static dataIdentifierInDatabase ansys::dpf::core::recordInDatabase(DpfTypes &data)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -1235,17 +908,11 @@ static dataIdentifierInDatabase ansys::dpf::core::recordInDatabase(DpfTypes &dat
 ![][public]
 ![][static]
 
-
 ```cpp
 static void ansys::dpf::core::releaseFromDatabase(dp_id id, Client const *const client, bool async=false)
 ```
 
-
-
-
 suppress the entity from the server's database.
-
-
 
 **Parameters**:
 
@@ -1267,17 +934,11 @@ suppress the entity from the server's database.
 ![][public]
 ![][static]
 
-
 ```cpp
 static ansys::dpf::Any ansys::dpf::core::getAndReleaseFromDatabase(dp_id id, databaseIdentifier db_id)
 ```
 
-
-
-
 Retrieves the object from the database, deletes it from the database and returns it. if nothing is found, the return [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) is empty, see [ansys::dpf::Any::empty](classansys_1_1dpf_1_1DpfTypes.md#classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459).
-
-
 
 **Parameters**:
 
@@ -1298,19 +959,13 @@ Retrieves the object from the database, deletes it from the database and returns
 ![][public]
 ![][static]
 
-
 ```cpp
 static RuntimeCoreConfig ansys::dpf::core::getRuntimeCoreConfig()
 ```
 
-
-
-
 **Returns**:
 
 the [RuntimeCoreConfig](classansys_1_1dpf_1_1RuntimeCoreConfig.md#classansys_1_1dpf_1_1RuntimeCoreConfig) used to set DataProcessingCore runtime configuration options
-
-
 
 **Return type**: [RuntimeCoreConfig](classansys_1_1dpf_1_1RuntimeCoreConfig.md#classansys_1_1dpf_1_1RuntimeCoreConfig)
 
@@ -1326,19 +981,13 @@ the [RuntimeCoreConfig](classansys_1_1dpf_1_1RuntimeCoreConfig.md#classansys_1_1
 ![][public]
 ![][static]
 
-
 ```cpp
 static RuntimeCoreConfig ansys::dpf::core::getRuntimeCoreConfig(Client *const client)
 ```
 
-
-
-
 **Returns**:
 
 the [RuntimeCoreConfig](classansys_1_1dpf_1_1RuntimeCoreConfig.md#classansys_1_1dpf_1_1RuntimeCoreConfig) used to set DataProcessingCore runtime configuration options
-
-
 
 **Parameters**:
 
@@ -1358,19 +1007,13 @@ the [RuntimeCoreConfig](classansys_1_1dpf_1_1RuntimeCoreConfig.md#classansys_1_1
 ![][public]
 ![][static]
 
-
 ```cpp
 static RuntimeClientConfig ansys::dpf::core::getRuntimeClientConfig()
 ```
 
-
-
-
 **Returns**:
 
 the [RuntimeClientConfig](classansys_1_1dpf_1_1RuntimeClientConfig.md#classansys_1_1dpf_1_1RuntimeClientConfig) used to set [Client](classansys_1_1dpf_1_1Client.md#classansys_1_1dpf_1_1Client) runtime configuration options
-
-
 
 **Return type**: [RuntimeClientConfig](classansys_1_1dpf_1_1RuntimeClientConfig.md#classansys_1_1dpf_1_1RuntimeClientConfig)
 
@@ -1386,17 +1029,11 @@ the [RuntimeClientConfig](classansys_1_1dpf_1_1RuntimeClientConfig.md#classansys
 ![][public]
 ![][static]
 
-
 ```cpp
 static FbsServerData ansys::dpf::core::startFbsServer(std::string const &ip="", int port=0, const Client *client=nullptr)
 ```
 
-
 Starts a fbs server in this process or in the process targeted by "client".
-
-
-
-
 
 **Parameters**:
 
@@ -1418,17 +1055,11 @@ Starts a fbs server in this process or in the process targeted by "client".
 ![][public]
 ![][static]
 
-
 ```cpp
 static FbsServerData ansys::dpf::core::getOrStartFbsServer(std::string const &ip="", int port=0, const Client *client=nullptr)
 ```
 
-
 Starts a fbs server in this process or in the process targeted by "client". If a server was already started with this functions, the existing server is returned.
-
-
-
-
 
 **Parameters**:
 
@@ -1450,17 +1081,11 @@ Starts a fbs server in this process or in the process targeted by "client". If a
 ![][public]
 ![][static]
 
-
 ```cpp
 static FbsClient ansys::dpf::core::connectToFbsServer(std::string const &address, const Client *client=nullptr)
 ```
 
-
 Connects to a fbs server in this process or in the process targeted by "client".
-
-
-
-
 
 **Parameters**:
 
@@ -1481,17 +1106,11 @@ Connects to a fbs server in this process or in the process targeted by "client".
 ![][public]
 ![][static]
 
-
 ```cpp
 static FbsClient ansys::dpf::core::connectToFbsServer(const opaque::FbsChannel *channel)
 ```
 
-
 Connects to a fbs server in this process.
-
-
-
-
 
 **Parameters**:
 
@@ -1511,17 +1130,11 @@ Connects to a fbs server in this process.
 ![][public]
 ![][static]
 
-
 ```cpp
 static void ansys::dpf::core::getServerVersion(int &major_version, int &minor_version)
 ```
 
-
-
-
 Fills the major and minor versions of the In-Process server
-
-
 
 **Parameters**:
 
@@ -1542,17 +1155,9 @@ Fills the major and minor versions of the In-Process server
 ![][public]
 ![][static]
 
-
 ```cpp
 static DpfType ansys::dpf::core::copyTo(DpfType const &to_copy, const Client *client)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 

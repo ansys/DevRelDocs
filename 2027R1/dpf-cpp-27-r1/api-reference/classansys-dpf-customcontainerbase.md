@@ -32,240 +32,9 @@ For the custom class deriving from [CustomContainerBase](classansys_1_1dpf_1_1Cu
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1CustomContainerBase_1acc06c4380c923e11af63f95e97c3c259"></a>
-### Friend GenericDataContainer
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5466)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class GenericDataContainer"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomContainerBase::GenericDataContainer"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"GenericDataContainer"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomContainerBase_1a33ff3f826991522d2e77c1c523f33e19"></a>
-### Friend Operator
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5467)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Operator"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomContainerBase::Operator"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Operator"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomContainerBase_1afa07847c7cb432b260e61a0c18025ba3"></a>
-### Friend Workflow
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5468)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Workflow"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomContainerBase::Workflow"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Workflow"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomContainerBase_1af891ea2ca8eebe3679e051763ba989ce"></a>
-### Friend CollectionBase
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5469)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class CollectionBase"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomContainerBase::CollectionBase"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"CollectionBase"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomContainerBase_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5470)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomContainerBase::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private attributes
 
-<a id="classansys_1_1dpf_1_1CustomContainerBase_1a117aede0de0250a9c8eb5481377e64cc"></a>
-### Variable \_container
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5472)
-
-
-```cpp
-GenericDataContainer ansys::dpf::CustomContainerBase::_container
-```
-
-
-
-
-
-
-
-
-**Type**: GenericDataContainer
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomContainerBase::_container"}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1CustomContainerBase_1a1b6aa8a1be22a9f53f16a8620cc8b951"></a>
-### Function setContainer
-
-![][private]
-
-
-```cpp
-void ansys::dpf::CustomContainerBase::setContainer(GenericDataContainer const &container)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* GenericDataContainer const & **container**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomContainerBase::setContainer"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomContainerBase_1ac437033b807c1811dcd08e9ed527ef46"></a>
-### Function swap
-
-![][private]
-
-
-```cpp
-void ansys::dpf::CustomContainerBase::swap(CustomContainerBase &&rhs) noexcept
-```
-
-
-swaps data between 2 CustomContainerBases.
-
-should be used in derived classes copy containers.
-
-
-
-**Parameters**:
-
-* [CustomContainerBase](classansys_1_1dpf_1_1CustomContainerBase.md#classansys_1_1dpf_1_1CustomContainerBase_1ab2649202d9da1730e164634a4d864f3e) && **rhs**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomContainerBase::swap"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1CustomContainerBase_1a7692a444bc417444608df8174fbb9e65"></a>
-### Function internalObj
-
-![][private]
-![][const]
-
-
-```cpp
-opaque::DpfObject *const ansys::dpf::CustomContainerBase::internalObj() const
-```
-
-
-
-
-
-
-
-
-**Return type**: opaque::DpfObject *const
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomContainerBase::internalObj"}]}`
--->
 
 ## Public functions
 
@@ -274,17 +43,9 @@ opaque::DpfObject *const ansys::dpf::CustomContainerBase::internalObj() const
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::CustomContainerBase::CustomContainerBase(std::string const &class_name)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -303,17 +64,9 @@ ansys::dpf::CustomContainerBase::CustomContainerBase(std::string const &class_na
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::CustomContainerBase::CustomContainerBase(std::string const &class_name, Client const *const client)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -333,17 +86,9 @@ ansys::dpf::CustomContainerBase::CustomContainerBase(std::string const &class_na
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::CustomContainerBase::CustomContainerBase(std::string const &class_name, GenericDataContainer const &container)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -363,17 +108,9 @@ ansys::dpf::CustomContainerBase::CustomContainerBase(std::string const &class_na
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::CustomContainerBase::~CustomContainerBase()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -388,19 +125,13 @@ virtual ansys::dpf::CustomContainerBase::~CustomContainerBase()
 
 ![][public]
 
-
 ```cpp
 GenericDataContainer & ansys::dpf::CustomContainerBase::container()
 ```
 
-
-
-
 **Returns**:
 
 The internal container.
-
-
 
 **Return type**: GenericDataContainer &
 
@@ -416,19 +147,13 @@ The internal container.
 ![][public]
 ![][const]
 
-
 ```cpp
 virtual GenericDataContainer const  & ansys::dpf::CustomContainerBase::container() const
 ```
 
-
-
-
 **Returns**:
 
 The internal container.
-
-
 
 **Return type**: GenericDataContainer const &
 
@@ -444,19 +169,13 @@ The internal container.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::CustomContainerBase::describe() const
 ```
 
-
-
-
 **Returns**:
 
 Description of object.
-
-
 
 **Return type**: std::string
 
@@ -472,17 +191,9 @@ Description of object.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< std::string > ansys::dpf::CustomContainerBase::getAttributeNames() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::vector< std::string >
 
@@ -498,19 +209,13 @@ std::vector< std::string > ansys::dpf::CustomContainerBase::getAttributeNames() 
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::CustomContainerBase::getClient(Client &client) const
 ```
 
-
-
-
 **Returns**:
 
 Get the [Client](classansys_1_1dpf_1_1Client.md#classansys_1_1dpf_1_1Client) the object is on, if it has one. Must not be used without using remote API.
-
-
 
 **Parameters**:
 

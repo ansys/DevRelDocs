@@ -26,33 +26,6 @@ Allows for the definition of a new measurement quantity. Many measurements quant
 
 ## Private attributes
 
-<a id="classansys_1_1dpf_1_1Homogeneity_1a46338f4219da9f13d04fb0061bb81188"></a>
-### Variable \_name
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 315)
-
-
-```cpp
-std::string ansys::dpf::Homogeneity::_name
-```
-
-
-
-
-
-
-
-
-**Type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Homogeneity::_name"}]}`
--->
-
 ## Public functions
 
 <a id="classansys_1_1dpf_1_1Homogeneity_1a5ddd95a1b4667a297eb19531f722d27e"></a>
@@ -60,17 +33,11 @@ std::string ansys::dpf::Homogeneity::_name
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Homogeneity::Homogeneity(std::string const &name="Unknown")
 ```
 
-
-
-
 Create new homogeneity.
-
-
 
 **Parameters**:
 
@@ -89,17 +56,9 @@ Create new homogeneity.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Homogeneity::Homogeneity(Homogeneity const &)=default
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -118,17 +77,9 @@ ansys::dpf::Homogeneity::Homogeneity(Homogeneity const &)=default
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Homogeneity::Homogeneity(Homogeneity &&)=default
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -147,17 +98,9 @@ ansys::dpf::Homogeneity::Homogeneity(Homogeneity &&)=default
 
 ![][public]
 
-
 ```cpp
 Homogeneity & ansys::dpf::Homogeneity::operator=(Homogeneity const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -177,17 +120,9 @@ Homogeneity & ansys::dpf::Homogeneity::operator=(Homogeneity const &)
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::Homogeneity::operator==(Homogeneity const &rhs) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -207,17 +142,9 @@ bool ansys::dpf::Homogeneity::operator==(Homogeneity const &rhs) const
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::Homogeneity::operator!=(Homogeneity const &rhs) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -237,17 +164,11 @@ bool ansys::dpf::Homogeneity::operator!=(Homogeneity const &rhs) const
 ![][public]
 ![][const]
 
-
 ```cpp
 ansys::dpf::Homogeneity::operator std::string() const
 ```
 
-
-
-
 Name of homogeneity.
-
-
 
 **Return type**: 
 
@@ -263,20 +184,14 @@ Name of homogeneity.
 ![][public]
 ![][const]
 
-
 ```cpp
 const char * ansys::dpf::Homogeneity::c_str() const
 ```
-
-
-
 
 Gets name of homogeneity. 
 **Returns**:
 
 Name of homogeneity.
-
-
 
 **Return type**: const char *
 
@@ -297,4 +212,3 @@ Name of homogeneity.
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-[Markdown]: https://img.shields.io/badge/language-Markdown-blue (Markdown)

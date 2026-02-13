@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6270)
 
-
-
 Define a DPF session.
 
 **Inherits from**:
@@ -48,17 +46,9 @@ Define a DPF session.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Session::Session()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -73,17 +63,9 @@ ansys::dpf::Session::Session()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Session::~Session()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -98,17 +80,11 @@ ansys::dpf::Session::~Session()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Session::Session(Client const *const client)
 ```
 
-
-
-
 Create a new [Session](classansys_1_1dpf_1_1Session.md#classansys_1_1dpf_1_1Session) on a server.
-
-
 
 **Parameters**:
 
@@ -127,17 +103,9 @@ Create a new [Session](classansys_1_1dpf_1_1Session.md#classansys_1_1dpf_1_1Sess
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Session::Session(Session const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -156,17 +124,9 @@ ansys::dpf::Session::Session(Session const &)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Session::Session(Session &&)=delete
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -185,17 +145,9 @@ ansys::dpf::Session::Session(Session &&)=delete
 
 ![][public]
 
-
 ```cpp
 Session & ansys::dpf::Session::operator=(Session const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -214,17 +166,9 @@ Session & ansys::dpf::Session::operator=(Session const &)
 
 ![][public]
 
-
 ```cpp
 Session & ansys::dpf::Session::operator=(Session &&)=delete
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -244,19 +188,13 @@ Session & ansys::dpf::Session::operator=(Session &&)=delete
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::Session::id() const
 ```
 
-
-
-
 **Returns**:
 
 Id of session.
-
-
 
 **Return type**: std::string
 
@@ -271,17 +209,11 @@ Id of session.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Session::add(Workflow &wf, std::string const &identifier)
 ```
 
-
-
-
 Add a workflow to session.
-
-
 
 **Parameters**:
 
@@ -301,20 +233,14 @@ Add a workflow to session.
 
 ![][public]
 
-
 ```cpp
 std::string ansys::dpf::Session::add(Workflow &wf)
 ```
-
-
-
 
 Add workflow to session. 
 **Returns**:
 
 Identifier for workflow.
-
-
 
 **Parameters**:
 
@@ -333,19 +259,13 @@ Identifier for workflow.
 
 ![][public]
 
-
 ```cpp
 Workflow ansys::dpf::Session::getWorkflow(std::string const &identifier)
 ```
 
-
-
-
 **Returns**:
 
 Workflow given by identifier.
-
-
 
 **Parameters**:
 
@@ -364,19 +284,13 @@ Workflow given by identifier.
 
 ![][public]
 
-
 ```cpp
 Workflow ansys::dpf::Session::getWorkflowByIndex(dp_index index)
 ```
 
-
-
-
 **Returns**:
 
 Workflow given by index.
-
-
 
 **Parameters**:
 
@@ -396,19 +310,13 @@ Workflow given by index.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::Session::numberOfWorkflow() const
 ```
 
-
-
-
 **Returns**:
 
 Number of workflows in session.
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -423,17 +331,9 @@ Number of workflows in session.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Session::flushWorkflows()
 ```
-
-
-
-
-
-
-
 
 **Return type**: void
 
@@ -448,17 +348,11 @@ void ansys::dpf::Session::flushWorkflows()
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Session::addEventHandler(EventHandler &event_handler)
 ```
 
-
-
-
 Add event handler to handle status of DPF session.
-
-
 
 **Parameters**:
 

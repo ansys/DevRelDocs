@@ -41,34 +41,6 @@ Results are evaluated at locations.
 
 ## Private static attributes
 
-<a id="structansys_1_1dpf_1_1locations_1a2ba6480847faea7bb400aa585efde371"></a>
-### Variable \_existing\_locations
-
-![][private]
-![][static]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 167)
-
-
-```cpp
-std::vector<Location> ansys::dpf::locations::_existing_locations
-```
-
-
-
-
-
-
-
-
-**Type**: std::vector< [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location) >
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::locations::_existing_locations"}]}`
--->
-
 ## Public static attributes
 
 <a id="structansys_1_1dpf_1_1locations_1aa4e1967b0838d8597200c606c8564d29"></a>
@@ -79,17 +51,11 @@ std::vector<Location> ansys::dpf::locations::_existing_locations
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 177)
 
-
 ```cpp
 const Location ansys::dpf::locations::nodal
 ```
 
-
-
-
 Predefined nodal location.
-
-
 
 **Type**: const [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location)
 
@@ -107,17 +73,11 @@ Predefined nodal location.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 179)
 
-
 ```cpp
 const Location ansys::dpf::locations::elemental
 ```
 
-
-
-
 Predefined elemental location.
-
-
 
 **Type**: const [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location)
 
@@ -135,17 +95,11 @@ Predefined elemental location.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 181)
 
-
 ```cpp
 const Location ansys::dpf::locations::elemental_nodal
 ```
 
-
-
-
 Predefined elemental_nodal location.
-
-
 
 **Type**: const [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location)
 
@@ -163,17 +117,11 @@ Predefined elemental_nodal location.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 183)
 
-
 ```cpp
 const Location ansys::dpf::locations::elemental_nodal_centroid
 ```
 
-
-
-
 Predefined elemental_nodal_centroid location.
-
-
 
 **Type**: const [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location)
 
@@ -191,17 +139,11 @@ Predefined elemental_nodal_centroid location.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 185)
 
-
 ```cpp
 const Location ansys::dpf::locations::overall
 ```
 
-
-
-
 Predefined overall location.
-
-
 
 **Type**: const [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location)
 
@@ -219,17 +161,11 @@ Predefined overall location.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 187)
 
-
 ```cpp
 const Location ansys::dpf::locations::nodal_elemental
 ```
 
-
-
-
 Predefined nodal_elemental location.
-
-
 
 **Type**: const [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location)
 
@@ -247,17 +183,11 @@ Predefined nodal_elemental location.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 189)
 
-
 ```cpp
 const Location ansys::dpf::locations::faces
 ```
 
-
-
-
 Predefined faces location.
-
-
 
 **Type**: const [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location)
 
@@ -275,17 +205,11 @@ Predefined faces location.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 191)
 
-
 ```cpp
 const Location ansys::dpf::locations::elemental_and_faces
 ```
 
-
-
-
 Predefined elemental_and_faces location.
-
-
 
 **Type**: const [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location)
 
@@ -303,17 +227,11 @@ Predefined elemental_and_faces location.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 193)
 
-
 ```cpp
 const Location ansys::dpf::locations::body
 ```
 
-
-
-
 Predefined body location.
-
-
 
 **Type**: const [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location)
 
@@ -331,17 +249,11 @@ Predefined body location.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 195)
 
-
 ```cpp
 const Location ansys::dpf::locations::contact
 ```
 
-
-
-
 Predefined contact location.
-
-
 
 **Type**: const [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location)
 
@@ -359,17 +271,11 @@ Predefined contact location.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 197)
 
-
 ```cpp
 const Location ansys::dpf::locations::joint
 ```
 
-
-
-
 Predefined joint location.
-
-
 
 **Type**: const [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location)
 
@@ -387,17 +293,11 @@ Predefined joint location.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 199)
 
-
 ```cpp
 const Location ansys::dpf::locations::topology
 ```
 
-
-
-
 Predefined topology location.
-
-
 
 **Type**: const [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location)
 
@@ -415,17 +315,11 @@ Predefined topology location.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 201)
 
-
 ```cpp
 const Location ansys::dpf::locations::udf_criteria
 ```
 
-
-
-
 Predefined udf_criteria location.
-
-
 
 **Type**: const [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location)
 
@@ -443,17 +337,11 @@ Predefined udf_criteria location.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 203)
 
-
 ```cpp
 const Location ansys::dpf::locations::time_step
 ```
 
-
-
-
 Predefined time_step location.
-
-
 
 **Type**: const [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location)
 
@@ -471,17 +359,11 @@ Predefined time_step location.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 205)
 
-
 ```cpp
 const Location ansys::dpf::locations::time_set
 ```
 
-
-
-
 Predefined time_set location.
-
-
 
 **Type**: const [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location)
 
@@ -499,17 +381,11 @@ Predefined time_set location.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 207)
 
-
 ```cpp
 const Location ansys::dpf::locations::harmonic_index
 ```
 
-
-
-
 Predefined harmonic_index location.
-
-
 
 **Type**: const [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location)
 
@@ -527,17 +403,11 @@ Predefined harmonic_index location.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 209)
 
-
 ```cpp
 const Location ansys::dpf::locations::phase
 ```
 
-
-
-
 Predefined phase location.
-
-
 
 **Type**: const [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location)
 
@@ -555,17 +425,11 @@ Predefined phase location.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 211)
 
-
 ```cpp
 const Location ansys::dpf::locations::species
 ```
 
-
-
-
 Predefined species location.
-
-
 
 **Type**: const [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location)
 
@@ -583,17 +447,11 @@ Predefined species location.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 213)
 
-
 ```cpp
 const Location ansys::dpf::locations::zone
 ```
 
-
-
-
 Predefined zones location.
-
-
 
 **Type**: const [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location)
 
@@ -611,17 +469,11 @@ Predefined zones location.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 215)
 
-
 ```cpp
 const Location ansys::dpf::locations::band
 ```
 
-
-
-
 Predefined band location.
-
-
 
 **Type**: const [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location)
 
@@ -639,17 +491,11 @@ Predefined band location.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 217)
 
-
 ```cpp
 const Location ansys::dpf::locations::unknown
 ```
 
-
-
-
 Predefined unknown location.
-
-
 
 **Type**: const [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location)
 
@@ -667,20 +513,14 @@ Predefined unknown location.
 ![][public]
 ![][static]
 
-
 ```cpp
 static std::vector< Location > const  & ansys::dpf::locations::all()
 ```
-
-
-
 
 Gets all user-defined and predefined locations. 
 **Returns**:
 
 All locations.
-
-
 
 **Return type**: std::vector< [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location) > const &
 
@@ -696,17 +536,11 @@ All locations.
 ![][public]
 ![][static]
 
-
 ```cpp
 static void ansys::dpf::locations::add_custom(Location const &)
 ```
 
-
-
-
 Adds a custom defined location.
-
-
 
 **Parameters**:
 

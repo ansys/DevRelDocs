@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 165)
 
-
-
 [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) class holding a typed entity.
 
 **Inherits from**:
@@ -77,445 +75,6 @@
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1Any_1a81d95df60edf516a1de9878b780f8fb3"></a>
-### Friend OperatorMain
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 166)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorMain"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Any::OperatorMain"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorMain"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Any_1a33ff3f826991522d2e77c1c523f33e19"></a>
-### Friend Operator
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 167)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Operator"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Any::Operator"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Operator"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Any_1afa07847c7cb432b260e61a0c18025ba3"></a>
-### Friend Workflow
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 168)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Workflow"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Any::Workflow"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Workflow"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Any_1acc06c4380c923e11af63f95e97c3c259"></a>
-### Friend GenericDataContainer
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 169)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class GenericDataContainer"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Any::GenericDataContainer"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"GenericDataContainer"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Any_1af891ea2ca8eebe3679e051763ba989ce"></a>
-### Friend CollectionBase
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 170)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class CollectionBase"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Any::CollectionBase"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"CollectionBase"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Any_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 171)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Any::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Any_1adf19ceee88ba644aceacffbd1495909b"></a>
-### Friend ConstructHelpers::construct\_trait
-
-![][C++]
-![][public]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 174)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename DataT"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename IsGDC"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"struct"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend struct ConstructHelpers::construct_trait"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Any::construct_trait"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"structansys_1_1dpf_1_1ConstructHelpers_1_1construct__trait"},"children":[{"type":"text","text":"ConstructHelpers::construct_trait"}]}]},{"type":"text","text":"\n        "}]}`
--->
-
-## Private functions
-
-<a id="classansys_1_1dpf_1_1Any_1ab875c0a115bfa1a8eafbe8d296b0f920"></a>
-### Function Any
-
-![][private]
-
-
-```cpp
-ansys::dpf::Any::Any(opaque::DpfInternalSharedObject *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfInternalSharedObject *
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Any::Any"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Any_1a6225d28d7704821aa2747b64d6ede5f3"></a>
-### Function objectIsOfType
-
-![][private]
-![][const]
-
-
-```cpp
-bool ansys::dpf::Any::objectIsOfType(std::string const &type_name) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* std::string const & **type_name**
-
-**Return type**: bool
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Any::objectIsOfType"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Any_1a1ab7509e7cb58dfe3a7ec6f1ab239629"></a>
-### Function specializedConstructor
-
-![][private]
-
-
-```cpp
-void ansys::dpf::Any::specializedConstructor(const DataT &value, Client const *const client)
-```
-
-
-
-
-calls the differente implementation of construct_trait::createAny.
-
-
-
-**Parameters**:
-
-* const DataT & **value**
-* [Client](classansys_1_1dpf_1_1Client.md#classansys_1_1dpf_1_1Client) const *const **client**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename DataT"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Any::specializedConstructor"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Any_1a352fb6c3bb985ffac3b72c916be97525"></a>
-### Function internalSpecializedConstructor
-
-![][private]
-
-
-```cpp
-void ansys::dpf::Any::internalSpecializedConstructor(const DataT &value, Client const *const client)
-```
-
-
-
-
-called by construct_trait::createAny.
-
-
-
-**Parameters**:
-
-* const DataT & **value**
-* [Client](classansys_1_1dpf_1_1Client.md#classansys_1_1dpf_1_1Client) const *const **client**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename DataT"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Any::internalSpecializedConstructor"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Any_1a1965b5a155fdd4951a9978540538c6fd"></a>
-### Function internalCollectionSpecializedConstructor
-
-![][private]
-
-
-```cpp
-void ansys::dpf::Any::internalCollectionSpecializedConstructor(const Collection< DataT > &value, Client const *const)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* const [Collection](classansys_1_1dpf_1_1Collection.md#classansys_1_1dpf_1_1Collection)< DataT > & **value**
-* [Client](classansys_1_1dpf_1_1Client.md#classansys_1_1dpf_1_1Client) const * const
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename DataT"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Any::internalCollectionSpecializedConstructor"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Any_1a35ef6550b0dcc158e2d7098454fe4479"></a>
-### Function internalGet
-
-![][private]
-![][const]
-
-
-```cpp
-DataT ansys::dpf::Any::internalGet() const
-```
-
-
-
-
-**Returns**:
-
-specified template type held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object.
-
-
-**Exceptions**:
-
-* **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
-
-**Return type**: DataT
-
-<!--
-**TODO**:
-
-* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename DataT"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Any::internalGet"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Any_1a2e1546c32b5f620c59eeec1203d81c0a"></a>
-### Function internalGetCollection
-
-![][private]
-![][const]
-
-
-```cpp
-Collection< DataT > ansys::dpf::Any::internalGetCollection() const
-```
-
-
-
-
-
-
-
-
-**Return type**: [Collection](classansys_1_1dpf_1_1Collection.md#classansys_1_1dpf_1_1Collection)< DataT >
-
-<!--
-**TODO**:
-
-* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename DataT"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Any::internalGetCollection"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Any_1a23405416841365a763c71322208135f6"></a>
-### Function opaqueGetAsCollection
-
-![][private]
-![][const]
-
-
-```cpp
-opaque::DpfInternalSharedObject * ansys::dpf::Any::opaqueGetAsCollection() const
-```
-
-
-
-
-
-
-
-
-**Return type**: opaque::DpfInternalSharedObject *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Any::opaqueGetAsCollection"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Any_1a267ceda0447f3e2fd4f061b4980f9211"></a>
-### Function opaqueNewFromCollection
-
-![][private]
-
-
-```cpp
-opaque::DpfObject * ansys::dpf::Any::opaqueNewFromCollection(opaque::DpfObject *value)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfObject * **value**
-
-**Return type**: opaque::DpfObject *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Any::opaqueNewFromCollection"}]}`
--->
-
 ## Public functions
 
 <a id="classansys_1_1dpf_1_1Any_1a6604617198bee45653ad2663237002c2"></a>
@@ -523,17 +82,9 @@ opaque::DpfObject * ansys::dpf::Any::opaqueNewFromCollection(opaque::DpfObject *
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::Any::~Any()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -548,17 +99,9 @@ virtual ansys::dpf::Any::~Any()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Any::Any(const DataT &value, Client const *const client=nullptr)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -579,17 +122,9 @@ ansys::dpf::Any::Any(const DataT &value, Client const *const client=nullptr)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Any::Any(Any const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -608,17 +143,9 @@ ansys::dpf::Any::Any(Any const &)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Any::Any(Any &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -637,17 +164,9 @@ ansys::dpf::Any::Any(Any &&) noexcept
 
 ![][public]
 
-
 ```cpp
 Any & ansys::dpf::Any::operator=(Any const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -666,17 +185,9 @@ Any & ansys::dpf::Any::operator=(Any const &)
 
 ![][public]
 
-
 ```cpp
 Any & ansys::dpf::Any::operator=(Any &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -695,17 +206,9 @@ Any & ansys::dpf::Any::operator=(Any &&) noexcept
 
 ![][public]
 
-
 ```cpp
 std::string ansys::dpf::Any::wrappedType()
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::string
 
@@ -721,19 +224,13 @@ std::string ansys::dpf::Any::wrappedType()
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::Any::testType() const
 ```
 
-
-
-
 **Returns**:
 
 Indication that the object is of the type of data.
-
-
 
 **Return type**: bool
 
@@ -750,24 +247,17 @@ Indication that the object is of the type of data.
 ![][public]
 ![][const]
 
-
 ```cpp
 DataT ansys::dpf::Any::get() const
 ```
-
-
-
 
 **Returns**:
 
 specified template type held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Return type**: DataT
 
@@ -784,24 +274,17 @@ specified template type held in the [Any](classansys_1_1dpf_1_1Any.md#classansys
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::Any::getAsInt() const
 ```
-
-
-
 
 **Returns**:
 
 Int held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -817,24 +300,17 @@ Int held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) obje
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::Any::getAsString() const
 ```
-
-
-
 
 **Returns**:
 
 String held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Return type**: std::string
 
@@ -850,24 +326,17 @@ String held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) o
 ![][public]
 ![][const]
 
-
 ```cpp
 double ansys::dpf::Any::getAsDouble() const
 ```
-
-
-
 
 **Returns**:
 
 Double held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Return type**: double
 
@@ -883,24 +352,17 @@ Double held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) o
 ![][public]
 ![][const]
 
-
 ```cpp
 DpfVector< int > ansys::dpf::Any::getAsIntVector() const
 ```
-
-
-
 
 **Returns**:
 
 int vector held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Return type**: DpfVector< int >
 
@@ -916,24 +378,17 @@ int vector held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1An
 ![][public]
 ![][const]
 
-
 ```cpp
 Field ansys::dpf::Any::getAsField() const
 ```
-
-
-
 
 **Returns**:
 
 [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Return type**: [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field)
 
@@ -949,24 +404,17 @@ Field ansys::dpf::Any::getAsField() const
 ![][public]
 ![][const]
 
-
 ```cpp
 PropertyField ansys::dpf::Any::getAsPropertyField() const
 ```
-
-
-
 
 **Returns**:
 
 [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1dpf_1_1PropertyField) held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Return type**: [PropertyField](classansys_1_1dpf_1_1PropertyField.md#classansys_1_1dpf_1_1PropertyField)
 
@@ -982,24 +430,17 @@ PropertyField ansys::dpf::Any::getAsPropertyField() const
 ![][public]
 ![][const]
 
-
 ```cpp
 Scoping ansys::dpf::Any::getAsScoping() const
 ```
-
-
-
 
 **Returns**:
 
 [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Return type**: [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping)
 
@@ -1015,24 +456,17 @@ Scoping ansys::dpf::Any::getAsScoping() const
 ![][public]
 ![][const]
 
-
 ```cpp
 FieldsContainer ansys::dpf::Any::getAsFieldsContainer() const
 ```
-
-
-
 
 **Returns**:
 
 [FieldsContainer](classansys_1_1dpf_1_1FieldsContainer.md#classansys_1_1dpf_1_1FieldsContainer) held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Return type**: [FieldsContainer](classansys_1_1dpf_1_1FieldsContainer.md#classansys_1_1dpf_1_1FieldsContainer)
 
@@ -1048,24 +482,17 @@ FieldsContainer ansys::dpf::Any::getAsFieldsContainer() const
 ![][public]
 ![][const]
 
-
 ```cpp
 ScopingsContainer ansys::dpf::Any::getAsScopingsContainer() const
 ```
-
-
-
 
 **Returns**:
 
 [ScopingsContainer](classansys_1_1dpf_1_1ScopingsContainer.md#classansys_1_1dpf_1_1ScopingsContainer) held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Return type**: [ScopingsContainer](classansys_1_1dpf_1_1ScopingsContainer.md#classansys_1_1dpf_1_1ScopingsContainer)
 
@@ -1081,24 +508,17 @@ ScopingsContainer ansys::dpf::Any::getAsScopingsContainer() const
 ![][public]
 ![][const]
 
-
 ```cpp
 MeshesContainer ansys::dpf::Any::getAsMeshesContainer() const
 ```
-
-
-
 
 **Returns**:
 
 [MeshesContainer](classansys_1_1dpf_1_1MeshesContainer.md#classansys_1_1dpf_1_1MeshesContainer) held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Return type**: [MeshesContainer](classansys_1_1dpf_1_1MeshesContainer.md#classansys_1_1dpf_1_1MeshesContainer)
 
@@ -1114,24 +534,17 @@ MeshesContainer ansys::dpf::Any::getAsMeshesContainer() const
 ![][public]
 ![][const]
 
-
 ```cpp
 TimeFreqSupport ansys::dpf::Any::getAsTimeFreqSupport() const
 ```
-
-
-
 
 **Returns**:
 
 [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#classansys_1_1dpf_1_1TimeFreqSupport) held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Return type**: [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#classansys_1_1dpf_1_1TimeFreqSupport)
 
@@ -1147,24 +560,17 @@ TimeFreqSupport ansys::dpf::Any::getAsTimeFreqSupport() const
 ![][public]
 ![][const]
 
-
 ```cpp
 MeshedRegion ansys::dpf::Any::getAsMeshedRegion() const
 ```
-
-
-
 
 **Returns**:
 
 [MeshedRegion](classansys_1_1dpf_1_1MeshedRegion.md#classansys_1_1dpf_1_1MeshedRegion) held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Return type**: [MeshedRegion](classansys_1_1dpf_1_1MeshedRegion.md#classansys_1_1dpf_1_1MeshedRegion)
 
@@ -1180,24 +586,17 @@ MeshedRegion ansys::dpf::Any::getAsMeshedRegion() const
 ![][public]
 ![][const]
 
-
 ```cpp
 Streams ansys::dpf::Any::getAsStreams() const
 ```
-
-
-
 
 **Returns**:
 
 [Streams](classansys_1_1dpf_1_1Streams.md#classansys_1_1dpf_1_1Streams) held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Return type**: [Streams](classansys_1_1dpf_1_1Streams.md#classansys_1_1dpf_1_1Streams)
 
@@ -1213,24 +612,17 @@ Streams ansys::dpf::Any::getAsStreams() const
 ![][public]
 ![][const]
 
-
 ```cpp
 ResultInfo ansys::dpf::Any::getAsResultInfo() const
 ```
-
-
-
 
 **Returns**:
 
 [ResultInfo](classansys_1_1dpf_1_1ResultInfo.md#classansys_1_1dpf_1_1ResultInfo) held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Return type**: [ResultInfo](classansys_1_1dpf_1_1ResultInfo.md#classansys_1_1dpf_1_1ResultInfo)
 
@@ -1246,24 +638,17 @@ ResultInfo ansys::dpf::Any::getAsResultInfo() const
 ![][public]
 ![][const]
 
-
 ```cpp
 DataTree ansys::dpf::Any::getAsDataTree() const
 ```
-
-
-
 
 **Returns**:
 
 [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree) held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Return type**: [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree)
 
@@ -1279,24 +664,17 @@ DataTree ansys::dpf::Any::getAsDataTree() const
 ![][public]
 ![][const]
 
-
 ```cpp
 Workflow ansys::dpf::Any::getAsWorkflow() const
 ```
-
-
-
 
 **Returns**:
 
 Workflow held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Return type**: Workflow
 
@@ -1312,24 +690,17 @@ Workflow held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any)
 ![][public]
 ![][const]
 
-
 ```cpp
 Operator ansys::dpf::Any::getAsOperator() const
 ```
-
-
-
 
 **Returns**:
 
 [Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator) held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Return type**: Operator
 
@@ -1345,24 +716,17 @@ Operator ansys::dpf::Any::getAsOperator() const
 ![][public]
 ![][const]
 
-
 ```cpp
 CyclicSupport ansys::dpf::Any::getAsCyclicSupport() const
 ```
-
-
-
 
 **Returns**:
 
 [CyclicSupport](classansys_1_1dpf_1_1CyclicSupport.md#classansys_1_1dpf_1_1CyclicSupport) held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Return type**: [CyclicSupport](classansys_1_1dpf_1_1CyclicSupport.md#classansys_1_1dpf_1_1CyclicSupport)
 
@@ -1378,24 +742,17 @@ CyclicSupport ansys::dpf::Any::getAsCyclicSupport() const
 ![][public]
 ![][const]
 
-
 ```cpp
 DataSources ansys::dpf::Any::getAsDataSources() const
 ```
-
-
-
 
 **Returns**:
 
 [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources) held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Return type**: [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources)
 
@@ -1411,24 +768,17 @@ DataSources ansys::dpf::Any::getAsDataSources() const
 ![][public]
 ![][const]
 
-
 ```cpp
 StringField ansys::dpf::Any::getAsStringField() const
 ```
-
-
-
 
 **Returns**:
 
 [StringField](classansys_1_1dpf_1_1StringField.md#classansys_1_1dpf_1_1StringField) held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Return type**: [StringField](classansys_1_1dpf_1_1StringField.md#classansys_1_1dpf_1_1StringField)
 
@@ -1444,24 +794,17 @@ StringField ansys::dpf::Any::getAsStringField() const
 ![][public]
 ![][const]
 
-
 ```cpp
 GenericDataContainer ansys::dpf::Any::getAsGenericDataContainer() const
 ```
-
-
-
 
 **Returns**:
 
 GenericDataContainer held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Return type**: GenericDataContainer
 
@@ -1477,24 +820,17 @@ GenericDataContainer held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_
 ![][public]
 ![][const]
 
-
 ```cpp
 CustomTypeFieldsContainer ansys::dpf::Any::getAsCustomTypeFieldsContainer() const
 ```
-
-
-
 
 **Returns**:
 
 [CustomTypeFieldsContainer](classansys_1_1dpf_1_1CustomTypeFieldsContainer.md#classansys_1_1dpf_1_1CustomTypeFieldsContainer) held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Return type**: [CustomTypeFieldsContainer](classansys_1_1dpf_1_1CustomTypeFieldsContainer.md#classansys_1_1dpf_1_1CustomTypeFieldsContainer)
 
@@ -1510,24 +846,17 @@ CustomTypeFieldsContainer ansys::dpf::Any::getAsCustomTypeFieldsContainer() cons
 ![][public]
 ![][const]
 
-
 ```cpp
 CustomTypeField ansys::dpf::Any::getAsCustomTypeField() const
 ```
-
-
-
 
 **Returns**:
 
 [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField) held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Return type**: [CustomTypeField](classansys_1_1dpf_1_1CustomTypeField.md#classansys_1_1dpf_1_1CustomTypeField)
 
@@ -1543,24 +872,17 @@ CustomTypeField ansys::dpf::Any::getAsCustomTypeField() const
 ![][public]
 ![][const]
 
-
 ```cpp
 LabelSpace ansys::dpf::Any::getAsLabelSpace() const
 ```
-
-
-
 
 **Returns**:
 
 [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1_1LabelSpace) held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Return type**: [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1_1LabelSpace)
 
@@ -1576,24 +898,17 @@ LabelSpace ansys::dpf::Any::getAsLabelSpace() const
 ![][public]
 ![][const]
 
-
 ```cpp
 Collection< DataT > ansys::dpf::Any::getAsCollection() const
 ```
-
-
-
 
 **Returns**:
 
 AnyCollection held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_1Any) object.
 
-
 **Exceptions**:
 
 * **[DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)**:
-
-
 
 **Return type**: [Collection](classansys_1_1dpf_1_1Collection.md#classansys_1_1dpf_1_1Collection)< DataT >
 
@@ -1610,17 +925,9 @@ AnyCollection held in the [Any](classansys_1_1dpf_1_1Any.md#classansys_1_1dpf_1_
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::Any::getAsFbsReference(opaque::FbsChannel *&client, std::string &address, opaque::FbsSlice *&req_slice, size_t &req_offset) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -1643,17 +950,11 @@ void ansys::dpf::Any::getAsFbsReference(opaque::FbsChannel *&client, std::string
 ![][public]
 ![][const]
 
-
 ```cpp
 Any ansys::dpf::Any::deep_copy(ansys::dpf::Client const *const client=nullptr) const
 ```
 
-
-
-
 Make a deep copy on a given client.
-
-
 
 **Parameters**:
 
@@ -1675,17 +976,9 @@ Make a deep copy on a given client.
 ![][public]
 ![][static]
 
-
 ```cpp
 static Any ansys::dpf::Any::createFromFbsReference(const opaque::FbsChannel *channel, std::string const &address, const opaque::FbsSlice *req_slice, size_t req_offset, const ansys::dpf::Client *client=nullptr)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -1709,17 +1002,9 @@ static Any ansys::dpf::Any::createFromFbsReference(const opaque::FbsChannel *cha
 ![][public]
 ![][static]
 
-
 ```cpp
 static Any ansys::dpf::Any::createFromFbsReference(FbsClient const &fbs_client, const opaque::FbsSlice *req_slice, const ansys::dpf::Client *client=nullptr)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -1741,17 +1026,11 @@ static Any ansys::dpf::Any::createFromFbsReference(FbsClient const &fbs_client, 
 ![][public]
 ![][static]
 
-
 ```cpp
 static Any ansys::dpf::Any::retrieveFromServer(int id, Client const *const client)
 ```
 
-
-
-
 Retrieve an existing instance on a server.
-
-
 
 **Parameters**:
 
@@ -1772,17 +1051,9 @@ Retrieve an existing instance on a server.
 ![][public]
 ![][static]
 
-
 ```cpp
 static Any ansys::dpf::Any::emptyAny()
 ```
-
-
-
-
-
-
-
 
 **Return type**: Any
 

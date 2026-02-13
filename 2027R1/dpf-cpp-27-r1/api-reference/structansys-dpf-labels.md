@@ -6,10 +6,7 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 541)
 
-
-
 Predefined labels. 
-
 
 **See also**: [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label), group_12
 
@@ -38,17 +35,11 @@ Predefined labels.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 544)
 
-
 ```cpp
 const Label ansys::dpf::labels::time
 ```
 
-
-
-
 [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label) for time.
-
-
 
 **Type**: const [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label)
 
@@ -66,17 +57,11 @@ const Label ansys::dpf::labels::time
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 546)
 
-
 ```cpp
 const Label ansys::dpf::labels::dofs
 ```
 
-
-
-
 [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label) for dofs.
-
-
 
 **Type**: const [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label)
 
@@ -94,17 +79,11 @@ const Label ansys::dpf::labels::dofs
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 548)
 
-
 ```cpp
 const Label ansys::dpf::labels::domain
 ```
 
-
-
-
 [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label) for domain.
-
-
 
 **Type**: const [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label)
 
@@ -122,17 +101,11 @@ const Label ansys::dpf::labels::domain
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 550)
 
-
 ```cpp
 const Label ansys::dpf::labels::complex
 ```
 
-
-
-
 [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label) for complex.
-
-
 
 **Type**: const [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label)
 
@@ -150,17 +123,11 @@ const Label ansys::dpf::labels::complex
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 552)
 
-
 ```cpp
 const Label ansys::dpf::labels::body
 ```
 
-
-
-
 [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label) for body.
-
-
 
 **Type**: const [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label)
 
@@ -178,17 +145,11 @@ const Label ansys::dpf::labels::body
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 554)
 
-
 ```cpp
 const Label ansys::dpf::labels::panel
 ```
 
-
-
-
 [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label) for panel.
-
-
 
 **Type**: const [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label)
 
@@ -206,17 +167,11 @@ const Label ansys::dpf::labels::panel
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 556)
 
-
 ```cpp
 const Label ansys::dpf::labels::derivative_order
 ```
 
-
-
-
 [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label) for derivative_order.
-
-
 
 **Type**: const [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label)
 
@@ -234,17 +189,11 @@ const Label ansys::dpf::labels::derivative_order
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 558)
 
-
 ```cpp
 const Label ansys::dpf::labels::phase
 ```
 
-
-
-
 [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label) for phase.
-
-
 
 **Type**: const [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label)
 
@@ -262,17 +211,11 @@ const Label ansys::dpf::labels::phase
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 560)
 
-
 ```cpp
 const Label ansys::dpf::labels::zone
 ```
 
-
-
-
 [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label) for zone.
-
-
 
 **Type**: const [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label)
 
@@ -290,17 +233,11 @@ const Label ansys::dpf::labels::zone
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 562)
 
-
 ```cpp
 const Label ansys::dpf::labels::species
 ```
 
-
-
-
 [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label) for species.
-
-
 
 **Type**: const [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label)
 
@@ -318,17 +255,11 @@ const Label ansys::dpf::labels::species
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 564)
 
-
 ```cpp
 const Label ansys::dpf::labels::partition
 ```
 
-
-
-
 [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label) for partition.
-
-
 
 **Type**: const [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label)
 
@@ -346,17 +277,11 @@ const Label ansys::dpf::labels::partition
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 566)
 
-
 ```cpp
 const Label ansys::dpf::labels::ghost
 ```
 
-
-
-
 [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label) for ghost.
-
-
 
 **Type**: const [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label)
 

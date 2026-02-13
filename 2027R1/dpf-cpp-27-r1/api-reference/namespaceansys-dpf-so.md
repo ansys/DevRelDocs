@@ -5,10 +5,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 31)
 
-
-
-
-
 ## Variables
 
 <a id="dpf__api__base_8h_1a60e6c3be08c573fb53b989c60c79ee96"></a>
@@ -19,17 +15,9 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 34)
 
-
 ```cpp
 API* ansys::dpf::so::_api = nullptr
 ```
-
-
-
-
-
-
-
 
 **Type**: API *
 

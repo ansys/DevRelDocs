@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6610)
 
-
-
-
-
 ## Members
 
 * [address](structansys_1_1dpf_1_1core_1_1FbsServerData.md#structansys_1_1dpf_1_1core_1_1FbsServerData_1ad36a9cb79d2486e67b7eed1c272acbbd)
@@ -24,17 +20,9 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6610)
 
-
 ```cpp
 FbsClient ansys::dpf::core::FbsServerData::server_holder
 ```
-
-
-
-
-
-
-
 
 **Type**: FbsClient
 
@@ -51,17 +39,9 @@ FbsClient ansys::dpf::core::FbsServerData::server_holder
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6610)
 
-
 ```cpp
 std::string ansys::dpf::core::FbsServerData::address
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 

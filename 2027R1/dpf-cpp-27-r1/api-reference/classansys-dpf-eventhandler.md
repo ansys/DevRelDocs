@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6235)
 
-
-
 Define a event handler for DPF.
 
 ## Members
@@ -36,7 +34,6 @@ Define a event handler for DPF.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6240)
 
-
 ```cpp
 enum EventNature {
   eOperatorStarted,
@@ -53,87 +50,60 @@ enum EventNature {
 }
 ```
 
-
-
-
 Available states during DPF operation.
-
-
 
 <a id="classansys_1_1dpf_1_1EventHandler_1aa5dbd9875e86799e977a4ef66e78d640a2cc032c33b1b3d8906a99ced4711047f"></a>
 #### Enumerator eOperatorStarted
-
-
 
 An operator was start.
 
 <a id="classansys_1_1dpf_1_1EventHandler_1aa5dbd9875e86799e977a4ef66e78d640a0700941093fa292915f9618bb0b61d84"></a>
 #### Enumerator eOperatorFinished
 
-
-
 An operator has finished.
 
 <a id="classansys_1_1dpf_1_1EventHandler_1aa5dbd9875e86799e977a4ef66e78d640a93548451bb604b25b1b48544f69f5d94"></a>
 #### Enumerator eOperatorSentException
-
-
 
 An operator failed with an exception.
 
 <a id="classansys_1_1dpf_1_1EventHandler_1aa5dbd9875e86799e977a4ef66e78d640a0f25376abadec81fa52570e79d36d05f"></a>
 #### Enumerator eOperatorError
 
-
-
 An operator failed with an error.
 
 <a id="classansys_1_1dpf_1_1EventHandler_1aa5dbd9875e86799e977a4ef66e78d640a464a5c45643457a27c1465574121ddf6"></a>
 #### Enumerator eOperatorMakeSomeProgress
-
-
 
 An operator is still running.
 
 <a id="classansys_1_1dpf_1_1EventHandler_1aa5dbd9875e86799e977a4ef66e78d640af1894e7491fc61198867494dcc74bfac"></a>
 #### Enumerator eOperatorWarning
 
-
-
 An operator generated a warning.
 
 <a id="classansys_1_1dpf_1_1EventHandler_1aa5dbd9875e86799e977a4ef66e78d640ad9626a0a09879a7183a76e08746cdcd1"></a>
 #### Enumerator eOperatorAddedInWorkflow
-
-
 
 An operator was added to workflow.
 
 <a id="classansys_1_1dpf_1_1EventHandler_1aa5dbd9875e86799e977a4ef66e78d640abeef70561c2a67ebb5d1d80f874018ec"></a>
 #### Enumerator eOperatorDelegatedRun
 
-
-
 An operator was run.
 
 <a id="classansys_1_1dpf_1_1EventHandler_1aa5dbd9875e86799e977a4ef66e78d640a3a282aed20a3d810ba9992e4727ee076"></a>
 #### Enumerator eSessionWorkflowAdded
-
-
 
 A workflow was added to a [Session](classansys_1_1dpf_1_1Session.md#classansys_1_1dpf_1_1Session).
 
 <a id="classansys_1_1dpf_1_1EventHandler_1aa5dbd9875e86799e977a4ef66e78d640ac8ff87a9082ab3365a799654b0c8ff1c"></a>
 #### Enumerator eWorkflowEvaluationStarted
 
-
-
 A workflow has started.
 
 <a id="classansys_1_1dpf_1_1EventHandler_1aa5dbd9875e86799e977a4ef66e78d640ae0689b714a39e93dcbc855b06abc3f50"></a>
 #### Enumerator eWorkflowEvaluationFinished
-
-
 
 A workflow has finished.
 
@@ -153,12 +123,6 @@ A workflow has finished.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6238)
 
-
-
-
-
-
-
 <!--
 **TODO**:
 
@@ -176,17 +140,9 @@ A workflow has finished.
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::EventHandler::~EventHandler()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -201,17 +157,9 @@ virtual ansys::dpf::EventHandler::~EventHandler()
 
 ![][public]
 
-
 ```cpp
 virtual void ansys::dpf::EventHandler::onEvent(EventNature nature, const char *args)=0
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -237,4 +185,3 @@ virtual void ansys::dpf::EventHandler::onEvent(EventNature nature, const char *a
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-[Markdown]: https://img.shields.io/badge/language-Markdown-blue (Markdown)

@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6647)
 
-
-
-
-
 ## Members
 
 * [activate](structansys_1_1dpf_1_1core_1_1trace.md#structansys_1_1dpf_1_1core_1_1trace_1add2263cd8184d586605b459ac0705d44)
@@ -24,17 +20,9 @@
 ![][public]
 ![][static]
 
-
 ```cpp
 static void ansys::dpf::core::trace::activate(std::string const &path_to_trace="./")
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -54,17 +42,9 @@ static void ansys::dpf::core::trace::activate(std::string const &path_to_trace="
 ![][public]
 ![][static]
 
-
 ```cpp
 static void ansys::dpf::core::trace::deactivate()
 ```
-
-
-
-
-
-
-
 
 **Return type**: void
 
@@ -80,17 +60,9 @@ static void ansys::dpf::core::trace::deactivate()
 ![][public]
 ![][static]
 
-
 ```cpp
 static void ansys::dpf::core::trace::make_section(std::string const &section_name)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 

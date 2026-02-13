@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6654)
 
-
-
-
-
 ## Members
 
 * [uploadFile](structansys_1_1dpf_1_1core_1_1path__utilities.md#structansys_1_1dpf_1_1core_1_1path__utilities_1ac7b2f796f5562b530e11b7c680dd07e6)
@@ -22,17 +18,9 @@
 ![][public]
 ![][static]
 
-
 ```cpp
 static std::string ansys::dpf::core::path_utilities::uploadFile(Client const *const client, std::string const &file_path, std::string const &to_server_file_path="", bool inTmp=true)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 

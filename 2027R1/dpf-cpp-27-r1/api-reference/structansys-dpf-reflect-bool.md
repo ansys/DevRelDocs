@@ -6,12 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 1953)
 
-
-
-
-
-
-
 ## Members
 
 * [type\_name](structansys_1_1dpf_1_1reflect_3_01bool_01_4.md#structansys_1_1dpf_1_1reflect_3_01bool_01_4_1a49190d9984d4e8b70292f08b87a3df92)
@@ -24,17 +18,9 @@
 ![][public]
 ![][static]
 
-
 ```cpp
 static std::string ansys::dpf::reflect< bool >::type_name()
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::string
 

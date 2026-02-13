@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6307)
 
-
-
-
-
 **Inherited by**:
 
 * [ansys::dpf::RuntimeClientConfig](classansys_1_1dpf_1_1RuntimeClientConfig.md#classansys_1_1dpf_1_1RuntimeClientConfig)
@@ -35,121 +31,9 @@
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1RuntimeConfig_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6310)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::RuntimeConfig::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private attributes
 
-<a id="classansys_1_1dpf_1_1RuntimeConfig_1a70592b16d6be93b22cefc57d07e6f528"></a>
-### Variable \_data\_tree
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6311)
-
-
-```cpp
-DataTree ansys::dpf::RuntimeConfig::_data_tree
-```
-
-
-
-
-
-
-
-
-**Type**: [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::RuntimeConfig::_data_tree"}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1RuntimeConfig_1ae3747f608918c2c091d9f34770401d2a"></a>
-### Function RuntimeConfig
-
-![][private]
-
-
-```cpp
-ansys::dpf::RuntimeConfig::RuntimeConfig(DataTree &data_tree)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree) & **data_tree**
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::RuntimeConfig::RuntimeConfig"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1RuntimeConfig_1a307705af73e9bd3e679a6bf8a63a4458"></a>
-### Function getSubOption
-
-![][private]
-![][const]
-
-
-```cpp
-DataTree ansys::dpf::RuntimeConfig::getSubOption(std::string const &sub_name) const
-```
-
-
-
-
-**Returns**:
-
-a given sub-tree in the config.
-
-
-
-**Parameters**:
-
-* std::string const & **sub_name**: [in] Sub-tree name.
-
-**Return type**: [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::RuntimeConfig::getSubOption"}]}`
--->
 
 ## Public functions
 
@@ -158,17 +42,9 @@ a given sub-tree in the config.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::RuntimeConfig::RuntimeConfig(RuntimeConfig const &rhs)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -187,17 +63,9 @@ ansys::dpf::RuntimeConfig::RuntimeConfig(RuntimeConfig const &rhs)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::RuntimeConfig::RuntimeConfig(RuntimeConfig &&rhs) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -217,17 +85,9 @@ ansys::dpf::RuntimeConfig::RuntimeConfig(RuntimeConfig &&rhs) noexcept
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< std::string > ansys::dpf::RuntimeConfig::getAvailableOptions() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::vector< std::string >
 
@@ -243,19 +103,13 @@ std::vector< std::string > ansys::dpf::RuntimeConfig::getAvailableOptions() cons
 ![][public]
 ![][const]
 
-
 ```cpp
 int ansys::dpf::RuntimeConfig::getIntValue(std::string const &option) const
 ```
 
-
-
-
 **Returns**:
 
 Integer value of given option.
-
-
 
 **Parameters**:
 
@@ -275,19 +129,13 @@ Integer value of given option.
 ![][public]
 ![][const]
 
-
 ```cpp
 double ansys::dpf::RuntimeConfig::getDoubleValue(std::string const &option) const
 ```
 
-
-
-
 **Returns**:
 
 Double value of given option.
-
-
 
 **Parameters**:
 
@@ -307,19 +155,13 @@ Double value of given option.
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::RuntimeConfig::getBoolValue(std::string const &option) const
 ```
 
-
-
-
 **Returns**:
 
 Boolean value of given option.
-
-
 
 **Parameters**:
 
@@ -339,19 +181,13 @@ Boolean value of given option.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::RuntimeConfig::getStringValue(std::string const &option) const
 ```
 
-
-
-
 **Returns**:
 
 Boolean value of given option.
-
-
 
 **Parameters**:
 
@@ -370,17 +206,11 @@ Boolean value of given option.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::RuntimeConfig::set(std::string const &option, dp_int value)
 ```
 
-
-
-
 Sets option to integer value.
-
-
 
 **Parameters**:
 
@@ -400,17 +230,11 @@ Sets option to integer value.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::RuntimeConfig::set(std::string const &option, dp_double value)
 ```
 
-
-
-
 Sets option to double value.
-
-
 
 **Parameters**:
 
@@ -430,17 +254,11 @@ Sets option to double value.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::RuntimeConfig::set(std::string const &option, bool value)
 ```
 
-
-
-
 Sets option to boolean value.
-
-
 
 **Parameters**:
 
@@ -460,17 +278,11 @@ Sets option to boolean value.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::RuntimeConfig::set(std::string const &option, std::string value)
 ```
 
-
-
-
 Sets option to boolean value.
-
-
 
 **Parameters**:
 
@@ -490,17 +302,11 @@ Sets option to boolean value.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::RuntimeConfig::setSubOption(std::string const &sub_name, DataTree const &)
 ```
 
-
-
-
 Sets the suboption.
-
-
 
 **Parameters**:
 

@@ -60,372 +60,7 @@ The scoping is entities ids representing a subset of the model's support. Typica
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1Scoping_1aaec47a26a3c11c1debd3ed922b69cbd2"></a>
-### Friend Field
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 880)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Field"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Scoping::Field"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Field"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Scoping_1ad19b1aa2f28448bd897fc6c5dd771f02"></a>
-### Friend CustomTypeField
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 881)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class CustomTypeField"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Scoping::CustomTypeField"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"CustomTypeField"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Scoping_1afa07847c7cb432b260e61a0c18025ba3"></a>
-### Friend Workflow
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 882)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Workflow"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Scoping::Workflow"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Workflow"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Scoping_1a33ff3f826991522d2e77c1c523f33e19"></a>
-### Friend Operator
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 883)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Operator"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Scoping::Operator"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Operator"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Scoping_1abb31806c269987c4a5e2a51f1f4d4d39"></a>
-### Friend MeshedRegion
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 884)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class MeshedRegion"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Scoping::MeshedRegion"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"MeshedRegion"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Scoping_1abb4aa5a7ed62b741f0b146a257d0fe5e"></a>
-### Friend PropertyField
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 885)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class PropertyField"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Scoping::PropertyField"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"PropertyField"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Scoping_1a5640574bd4988f2739826c3f2f273de5"></a>
-### Friend StringField
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 886)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class StringField"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Scoping::StringField"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"StringField"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Scoping_1ad465d7b2f213af5e9c522d51658e74b9"></a>
-### Friend CyclicSupport
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 887)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class CyclicSupport"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Scoping::CyclicSupport"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"CyclicSupport"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Scoping_1af891ea2ca8eebe3679e051763ba989ce"></a>
-### Friend CollectionBase
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 888)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class CollectionBase"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Scoping::CollectionBase"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"CollectionBase"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Scoping_1a81d95df60edf516a1de9878b780f8fb3"></a>
-### Friend OperatorMain
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 889)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorMain"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Scoping::OperatorMain"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorMain"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Scoping_1a87ba90b4bbcd8d8baa7bf17c27fbdfae"></a>
-### Friend TimeFreqSupport
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 890)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class TimeFreqSupport"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Scoping::TimeFreqSupport"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"TimeFreqSupport"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Scoping_1acc06c4380c923e11af63f95e97c3c259"></a>
-### Friend GenericDataContainer
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 891)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class GenericDataContainer"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Scoping::GenericDataContainer"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"GenericDataContainer"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Scoping_1a9820c685b67a3355c042bb0b3365d9e2"></a>
-### Friend Any
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 892)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Any"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Scoping::Any"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Any"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Scoping_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 893)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Scoping::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1Scoping_1a6d421545a4cc09fd4200b5c2401369d0"></a>
-### Function Scoping
-
-![][private]
-
-
-```cpp
-ansys::dpf::Scoping::Scoping(opaque::DpfInternalSharedObject *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfInternalSharedObject *
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Scoping::Scoping"}]}`
--->
 
 ## Public functions
 
@@ -434,17 +69,11 @@ ansys::dpf::Scoping::Scoping(opaque::DpfInternalSharedObject *)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Scoping::Scoping()
 ```
 
-
-
-
 Create a new scoping.
-
-
 
 **Return type**: 
 
@@ -459,17 +88,11 @@ Create a new scoping.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Scoping::Scoping(std::vector< dp_id > const &ids, ansys::dpf::Location location)
 ```
 
-
-
-
 Create a scoping of [ids](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping_1acf26749e29d9f23de6c70806ccfaea6b) at a location.
-
-
 
 **Parameters**:
 
@@ -489,17 +112,11 @@ Create a scoping of [ids](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1S
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Scoping::Scoping(std::vector< dp_id > const &ids, ansys::dpf::Location location, Client const *const client)
 ```
 
-
-
-
 Create a scoping of [ids](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping_1acf26749e29d9f23de6c70806ccfaea6b) at a location.
-
-
 
 **Parameters**:
 
@@ -520,17 +137,11 @@ Create a scoping of [ids](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1S
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Scoping::Scoping(Client const *const client)
 ```
 
-
-
-
 Create a new scoping on a server.
-
-
 
 **Parameters**:
 
@@ -549,17 +160,11 @@ Create a new scoping on a server.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Scoping::Scoping(int id, Client const *const client)
 ```
 
-
-
-
 Retrieve an existing instance of [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) on a server.
-
-
 
 **Parameters**:
 
@@ -579,17 +184,9 @@ Retrieve an existing instance of [Scoping](classansys_1_1dpf_1_1Scoping.md#class
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::Scoping::~Scoping()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -604,17 +201,9 @@ virtual ansys::dpf::Scoping::~Scoping()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Scoping::Scoping(Scoping const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -633,17 +222,9 @@ ansys::dpf::Scoping::Scoping(Scoping const &)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Scoping::Scoping(Scoping &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -662,17 +243,9 @@ ansys::dpf::Scoping::Scoping(Scoping &&) noexcept
 
 ![][public]
 
-
 ```cpp
 Scoping & ansys::dpf::Scoping::operator=(Scoping const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -691,17 +264,9 @@ Scoping & ansys::dpf::Scoping::operator=(Scoping const &)
 
 ![][public]
 
-
 ```cpp
 Scoping & ansys::dpf::Scoping::operator=(Scoping &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -721,19 +286,13 @@ Scoping & ansys::dpf::Scoping::operator=(Scoping &&) noexcept
 ![][public]
 ![][const]
 
-
 ```cpp
 ansys::dpf::Location ansys::dpf::Scoping::location() const
 ```
 
-
-
-
 **Returns**:
 
 [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location) of [ids](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping_1acf26749e29d9f23de6c70806ccfaea6b).
-
-
 
 **Return type**: [ansys::dpf::Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location)
 
@@ -748,17 +307,11 @@ ansys::dpf::Location ansys::dpf::Scoping::location() const
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Scoping::setLocation(ansys::dpf::Location location)
 ```
 
-
-
-
 Set location of scoping.
-
-
 
 **Parameters**:
 
@@ -777,17 +330,11 @@ Set location of scoping.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Scoping::setIds(std::vector< dp_id > const &ids)
 ```
 
-
-
-
 Update scoping to vector of new [ids](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping_1acf26749e29d9f23de6c70806ccfaea6b).
-
-
 
 **Parameters**:
 
@@ -806,17 +353,11 @@ Update scoping to vector of new [ids](classansys_1_1dpf_1_1Scoping.md#classansys
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Scoping::setIds(dp_id *ids, dp_int size)
 ```
 
-
-
-
 Update scoping to list of new [ids](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping_1acf26749e29d9f23de6c70806ccfaea6b).
-
-
 
 **Parameters**:
 
@@ -837,17 +378,11 @@ Update scoping to list of new [ids](classansys_1_1dpf_1_1Scoping.md#classansys_1
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::Scoping::identicalPointers(Scoping const &f) const
 ```
 
-
-
-
 Compare scoping with input scoping f.
-
-
 
 **Parameters**:
 
@@ -867,19 +402,13 @@ Compare scoping with input scoping f.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::Scoping::size() const
 ```
 
-
-
-
 **Returns**:
 
 Number of entries in scoping.
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -895,19 +424,13 @@ Number of entries in scoping.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_id ansys::dpf::Scoping::idByIndex(dp_int index) const
 ```
 
-
-
-
 **Returns**:
 
 Id at index offset into vector of [ids](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping_1acf26749e29d9f23de6c70806ccfaea6b).
-
-
 
 **Parameters**:
 
@@ -927,24 +450,17 @@ Id at index offset into vector of [ids](classansys_1_1dpf_1_1Scoping.md#classans
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_index ansys::dpf::Scoping::indexById(dp_int id) const
 ```
-
-
-
 
 **Returns**:
 
 Index of id within vector of [ids](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping_1acf26749e29d9f23de6c70806ccfaea6b).
 
-
 **Returns**:
 
 -1 if id not found.
-
-
 
 **Parameters**:
 
@@ -964,19 +480,13 @@ Index of id within vector of [ids](classansys_1_1dpf_1_1Scoping.md#classansys_1_
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_id ansys::dpf::Scoping::at(dp_int index) const
 ```
 
-
-
-
 **Returns**:
 
 Id at index offset into vector of [ids](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping_1acf26749e29d9f23de6c70806ccfaea6b).
-
-
 
 **Parameters**:
 
@@ -996,19 +506,13 @@ Id at index offset into vector of [ids](classansys_1_1dpf_1_1Scoping.md#classans
 ![][public]
 ![][const]
 
-
 ```cpp
 const dp_id * ansys::dpf::Scoping::ids(dp_int &size) const
 ```
 
-
-
-
 **Returns**:
 
 Pointer to list of [ids](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping_1acf26749e29d9f23de6c70806ccfaea6b).
-
-
 
 **Parameters**:
 
@@ -1028,19 +532,13 @@ Pointer to list of [ids](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Sc
 ![][public]
 ![][const]
 
-
 ```cpp
 DpfVector< int > ansys::dpf::Scoping::ids() const
 ```
 
-
-
-
 **Returns**:
 
 [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) of ids array.
-
-
 
 **Return type**: DpfVector< int >
 
@@ -1056,17 +554,11 @@ DpfVector< int > ansys::dpf::Scoping::ids() const
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::Scoping::getIds(std::vector< dp_id > &ids_to_fill) const
 ```
 
-
-
-
 Update ids_to_fill with scoping [ids](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping_1acf26749e29d9f23de6c70806ccfaea6b).
-
-
 
 **Parameters**:
 
@@ -1085,17 +577,11 @@ Update ids_to_fill with scoping [ids](classansys_1_1dpf_1_1Scoping.md#classansys
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Scoping::emplace(dp_index index, dp_id id)
 ```
 
-
-
-
 Set offset index into scoping to new id.
-
-
 
 **Parameters**:
 
@@ -1116,17 +602,9 @@ Set offset index into scoping to new id.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::Scoping::hashIds() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::string
 
@@ -1141,17 +619,11 @@ std::string ansys::dpf::Scoping::hashIds() const
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Scoping::reserve(dp_int size)
 ```
 
-
-
-
 Reserve the container of ids.
-
-
 
 **Parameters**:
 
@@ -1170,17 +642,11 @@ Reserve the container of ids.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::Scoping::resize(dp_int size)
 ```
 
-
-
-
 Resize the container of ids.
-
-
 
 **Parameters**:
 
@@ -1200,17 +666,11 @@ Resize the container of ids.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::Scoping::getHashableKey() const
 ```
 
-
-
-
 Set and get an simpler hashable entity (here topology identifiers) instead of the full FE [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) to save time
-
-
 
 **Return type**: std::string
 
@@ -1226,17 +686,9 @@ Set and get an simpler hashable entity (here topology identifiers) instead of th
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::Scoping::setHashableKey(const std::string &unique_identifier) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -1256,17 +708,11 @@ void ansys::dpf::Scoping::setHashableKey(const std::string &unique_identifier) c
 ![][public]
 ![][const]
 
-
 ```cpp
 size_t ansys::dpf::Scoping::getHash() const
 ```
 
-
-
-
 Compute and get the hash of a scoping
-
-
 
 **Return type**: size_t
 
@@ -1282,17 +728,11 @@ Compute and get the hash of a scoping
 ![][public]
 ![][const]
 
-
 ```cpp
 Scoping ansys::dpf::Scoping::deep_copy(ansys::dpf::Client const *const client=nullptr, const bool b_copy_ids=true) const
 ```
 
-
-
-
 Create a new [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) on a server by copying all the data of this [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping).
-
-
 
 **Parameters**:
 
@@ -1315,20 +755,14 @@ Create a new [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scop
 ![][public]
 ![][static]
 
-
 ```cpp
 static Scoping ansys::dpf::Scoping::emptyScoping()
 ```
-
-
-
 
 Create an empty scoping. 
 **Returns**:
 
 Empty [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping)
-
-
 
 **Return type**: Scoping
 

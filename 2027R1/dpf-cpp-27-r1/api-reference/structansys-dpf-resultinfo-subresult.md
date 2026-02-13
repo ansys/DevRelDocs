@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 458)
 
-
-
-
-
 ## Members
 
 * [description](structansys_1_1dpf_1_1ResultInfo_1_1subresult.md#structansys_1_1dpf_1_1ResultInfo_1_1subresult_1a629140089d410523aaf83be5ba7ff11d)
@@ -26,17 +22,9 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 460)
 
-
 ```cpp
 std::string ansys::dpf::ResultInfo::subresult::name
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -53,17 +41,9 @@ std::string ansys::dpf::ResultInfo::subresult::name
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 461)
 
-
 ```cpp
 std::string ansys::dpf::ResultInfo::subresult::opname
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -80,17 +60,9 @@ std::string ansys::dpf::ResultInfo::subresult::opname
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 462)
 
-
 ```cpp
 std::string ansys::dpf::ResultInfo::subresult::description
 ```
-
-
-
-
-
-
-
 
 **Type**: std::string
 
@@ -107,17 +79,9 @@ std::string ansys::dpf::ResultInfo::subresult::description
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::ResultInfo::subresult::subresult()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 

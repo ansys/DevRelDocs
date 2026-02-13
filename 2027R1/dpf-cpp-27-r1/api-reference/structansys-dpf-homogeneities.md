@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 334)
 
-
-
 Predefined measurement quantities.
 
 ## Members
@@ -72,17 +70,11 @@ Predefined measurement quantities.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 337)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::length
 ```
 
-
-
-
 Predefined measurement quantity for length.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -100,17 +92,11 @@ Predefined measurement quantity for length.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 339)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::mass
 ```
 
-
-
-
 Predefined measurement quantity for mass.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -128,17 +114,11 @@ Predefined measurement quantity for mass.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 341)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::time
 ```
 
-
-
-
 Predefined measurement quantity for time.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -156,17 +136,11 @@ Predefined measurement quantity for time.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 343)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::angle
 ```
 
-
-
-
 Predefined measurement quantity for angle.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -184,17 +158,11 @@ Predefined measurement quantity for angle.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 345)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::temperature
 ```
 
-
-
-
 Predefined measurement quantity for temperature.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -212,17 +180,11 @@ Predefined measurement quantity for temperature.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 347)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::electric_charge
 ```
 
-
-
-
 Predefined measurement quantity for electric_charge.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -240,17 +202,11 @@ Predefined measurement quantity for electric_charge.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 349)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::surface
 ```
 
-
-
-
 Predefined measurement quantity for surface.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -268,17 +224,11 @@ Predefined measurement quantity for surface.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 351)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::volume
 ```
 
-
-
-
 Predefined measurement quantity for volume.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -296,17 +246,11 @@ Predefined measurement quantity for volume.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 353)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::force
 ```
 
-
-
-
 Predefined measurement quantity for force.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -324,17 +268,11 @@ Predefined measurement quantity for force.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 355)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::moment
 ```
 
-
-
-
 Predefined measurement quantity for moment.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -352,17 +290,11 @@ Predefined measurement quantity for moment.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 357)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::pressure
 ```
 
-
-
-
 Predefined measurement quantity for pressure.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -380,17 +312,11 @@ Predefined measurement quantity for pressure.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 359)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::velocity
 ```
 
-
-
-
 Predefined measurement quantity for velocity.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -408,17 +334,11 @@ Predefined measurement quantity for velocity.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 361)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::acceleration
 ```
 
-
-
-
 Predefined measurement quantity for acceleration.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -436,17 +356,11 @@ Predefined measurement quantity for acceleration.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 363)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::density
 ```
 
-
-
-
 Predefined measurement quantity for density.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -464,17 +378,11 @@ Predefined measurement quantity for density.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 365)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::power
 ```
 
-
-
-
 Predefined measurement quantity for power.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -492,17 +400,11 @@ Predefined measurement quantity for power.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 367)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::energy
 ```
 
-
-
-
 Predefined measurement quantity for energy.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -520,17 +422,11 @@ Predefined measurement quantity for energy.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 369)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::frequency
 ```
 
-
-
-
 Predefined measurement quantity for frequency.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -548,17 +444,11 @@ Predefined measurement quantity for frequency.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 371)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::heat_flux
 ```
 
-
-
-
 Predefined measurement quantity for heat_flux.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -576,17 +466,11 @@ Predefined measurement quantity for heat_flux.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 373)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::angular_velocity
 ```
 
-
-
-
 Predefined measurement quantity for angular_velocity.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -604,17 +488,11 @@ Predefined measurement quantity for angular_velocity.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 375)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::capacitance
 ```
 
-
-
-
 Predefined measurement quantity for capacitance.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -632,17 +510,11 @@ Predefined measurement quantity for capacitance.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 377)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::electric_charge_density
 ```
 
-
-
-
 Predefined measurement quantity for electric_charge_density.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -660,17 +532,11 @@ Predefined measurement quantity for electric_charge_density.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 379)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::current
 ```
 
-
-
-
 Predefined measurement quantity for current.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -688,17 +554,11 @@ Predefined measurement quantity for current.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 381)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::current_density
 ```
 
-
-
-
 Predefined measurement quantity for current_density.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -716,17 +576,11 @@ Predefined measurement quantity for current_density.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 383)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::electric_conductivity
 ```
 
-
-
-
 Predefined measurement quantity for electric_conductivity.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -744,17 +598,11 @@ Predefined measurement quantity for electric_conductivity.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 385)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::electric_field
 ```
 
-
-
-
 Predefined measurement quantity for electric_field.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -772,17 +620,11 @@ Predefined measurement quantity for electric_field.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 387)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::electric_flux_density
 ```
 
-
-
-
 Predefined measurement quantity for electric_flux_density.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -800,17 +642,11 @@ Predefined measurement quantity for electric_flux_density.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 389)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::resistance
 ```
 
-
-
-
 Predefined measurement quantity for resistance.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -828,17 +664,11 @@ Predefined measurement quantity for resistance.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 391)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::resistivity
 ```
 
-
-
-
 Predefined measurement quantity for resistivity.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -856,17 +686,11 @@ Predefined measurement quantity for resistivity.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 393)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::force_intensity
 ```
 
-
-
-
 Predefined measurement quantity for force_intensity.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -884,17 +708,11 @@ Predefined measurement quantity for force_intensity.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 395)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::moment_inertia
 ```
 
-
-
-
 Predefined measurement quantity for moment_inertia.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -912,17 +730,11 @@ Predefined measurement quantity for moment_inertia.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 397)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::stiffness
 ```
 
-
-
-
 Predefined measurement quantity for stiffness.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -940,17 +752,11 @@ Predefined measurement quantity for stiffness.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 399)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::voltage
 ```
 
-
-
-
 Predefined measurement quantity for voltage.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -968,17 +774,11 @@ Predefined measurement quantity for voltage.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 401)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::stress_intensity_factor
 ```
 
-
-
-
 Predefined measurement quantity for stress_intensity_factor.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -996,17 +796,11 @@ Predefined measurement quantity for stress_intensity_factor.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 403)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::thermal_gradient
 ```
 
-
-
-
 Predefined measurement quantity for thermal_gradient.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -1024,17 +818,11 @@ Predefined measurement quantity for thermal_gradient.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 405)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::viscosity
 ```
 
-
-
-
 Predefined measurement quantity for viscosity.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -1052,17 +840,11 @@ Predefined measurement quantity for viscosity.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 407)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::angular_acceleration
 ```
 
-
-
-
 Predefined measurement quantity for angular_acceleration.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -1080,17 +862,11 @@ Predefined measurement quantity for angular_acceleration.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 409)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::specific_energy
 ```
 
-
-
-
 Predefined measurement quantity for specific_energy.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -1108,17 +884,11 @@ Predefined measurement quantity for specific_energy.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 411)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::epsilon
 ```
 
-
-
-
 Predefined measurement quantity for turbulent_dissipation_rate.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -1136,17 +906,11 @@ Predefined measurement quantity for turbulent_dissipation_rate.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 413)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::mass_flow
 ```
 
-
-
-
 Predefined measurement quantity for mass_flow_rate.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -1164,17 +928,11 @@ Predefined measurement quantity for mass_flow_rate.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 415)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::volume_flow
 ```
 
-
-
-
 Predefined measurement quantity for volume_flow_rate.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -1192,17 +950,11 @@ Predefined measurement quantity for volume_flow_rate.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 417)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::specific_heat
 ```
 
-
-
-
 Predefined measurement quantity for specific_heat.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -1220,17 +972,11 @@ Predefined measurement quantity for specific_heat.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 419)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::thermal_conductivity
 ```
 
-
-
-
 Predefined measurement quantity for thermal_conductivity.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -1248,17 +994,11 @@ Predefined measurement quantity for thermal_conductivity.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 421)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::specific_entropy
 ```
 
-
-
-
 Predefined measurement quantity for specific_entropy.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -1276,17 +1016,11 @@ Predefined measurement quantity for specific_entropy.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 423)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::force_density
 ```
 
-
-
-
 Predefined measurement quantity for force density.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -1304,17 +1038,11 @@ Predefined measurement quantity for force density.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 425)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::temperature_difference
 ```
 
-
-
-
 Predefined measurement quantity for temperature difference.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -1332,17 +1060,11 @@ Predefined measurement quantity for temperature difference.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 427)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::magnetic_potential
 ```
 
-
-
-
 Predefined measurement quantity for magnetic potential.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -1360,17 +1082,11 @@ Predefined measurement quantity for magnetic potential.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 429)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::film_coefficient
 ```
 
-
-
-
 Predefined measurement quantity for film_coefficient.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -1388,17 +1104,11 @@ Predefined measurement quantity for film_coefficient.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 431)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::dimension_less
 ```
 
-
-
-
 Predefined measurement quantity for dimension_less.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -1416,17 +1126,11 @@ Predefined measurement quantity for dimension_less.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 433)
 
-
 ```cpp
 const Homogeneity ansys::dpf::homogeneities::unknown
 ```
 
-
-
-
 Unknown quantity.
-
-
 
 **Type**: const [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
 
@@ -1441,4 +1145,3 @@ Unknown quantity.
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-[Markdown]: https://img.shields.io/badge/language-Markdown-blue (Markdown)

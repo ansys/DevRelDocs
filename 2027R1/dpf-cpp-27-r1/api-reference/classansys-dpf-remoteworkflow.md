@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6206)
 
-
-
-
-
 **Inherits from**:
 
 * ansys::dpf::Workflow
@@ -211,142 +207,9 @@
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1RemoteWorkflow_1a81d95df60edf516a1de9878b780f8fb3"></a>
-### Friend OperatorMain
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6208)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorMain"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::RemoteWorkflow::OperatorMain"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorMain"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1RemoteWorkflow_1afa07847c7cb432b260e61a0c18025ba3"></a>
-### Friend Workflow
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6209)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Workflow"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::RemoteWorkflow::Workflow"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Workflow"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private attributes
 
-<a id="classansys_1_1dpf_1_1RemoteWorkflow_1a79900a0bfa15622a05bc9ca1223bc83d"></a>
-### Variable \_remote\_workflow
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6212)
-
-
-```cpp
-ansys::dpf::Workflow* ansys::dpf::RemoteWorkflow::_remote_workflow = nullptr
-```
-
-
-
-
-
-
-
-
-**Type**: ansys::dpf::Workflow *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::RemoteWorkflow::_remote_workflow"}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1RemoteWorkflow_1ad4feeb3f615a2dc3c82788206334a0c9"></a>
-### Function RemoteWorkflow
-
-![][private]
-
-
-```cpp
-ansys::dpf::RemoteWorkflow::RemoteWorkflow(opaque::DpfObject *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfObject *
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::RemoteWorkflow::RemoteWorkflow"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1RemoteWorkflow_1a72456395104add8a7322002595b40a06"></a>
-### Function getRemoteInstance
-
-![][private]
-
-
-```cpp
-ansys::dpf::Workflow & ansys::dpf::RemoteWorkflow::getRemoteInstance(DpfTypes const *const other)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [DpfTypes](classansys_1_1dpf_1_1DpfTypes.md#classansys_1_1dpf_1_1DpfTypes) const *const **other**
-
-**Return type**: ansys::dpf::Workflow &
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::RemoteWorkflow::getRemoteInstance"}]}`
--->
 
 ## Public functions
 
@@ -355,17 +218,9 @@ ansys::dpf::Workflow & ansys::dpf::RemoteWorkflow::getRemoteInstance(DpfTypes co
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::RemoteWorkflow::RemoteWorkflow(Streams &streams, ansys::dpf::Workflow const &remote_workflow)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -385,17 +240,9 @@ ansys::dpf::RemoteWorkflow::RemoteWorkflow(Streams &streams, ansys::dpf::Workflo
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::RemoteWorkflow::~RemoteWorkflow()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -410,17 +257,9 @@ virtual ansys::dpf::RemoteWorkflow::~RemoteWorkflow()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::RemoteWorkflow::RemoteWorkflow(RemoteWorkflow const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -439,17 +278,9 @@ ansys::dpf::RemoteWorkflow::RemoteWorkflow(RemoteWorkflow const &)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::RemoteWorkflow::RemoteWorkflow(Workflow const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -468,17 +299,9 @@ ansys::dpf::RemoteWorkflow::RemoteWorkflow(Workflow const &)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::RemoteWorkflow::RemoteWorkflow(RemoteWorkflow &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -497,17 +320,9 @@ ansys::dpf::RemoteWorkflow::RemoteWorkflow(RemoteWorkflow &&) noexcept
 
 ![][public]
 
-
 ```cpp
 RemoteWorkflow & ansys::dpf::RemoteWorkflow::operator=(RemoteWorkflow const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -526,17 +341,9 @@ RemoteWorkflow & ansys::dpf::RemoteWorkflow::operator=(RemoteWorkflow const &)
 
 ![][public]
 
-
 ```cpp
 RemoteWorkflow & ansys::dpf::RemoteWorkflow::operator=(RemoteWorkflow &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -556,17 +363,9 @@ RemoteWorkflow & ansys::dpf::RemoteWorkflow::operator=(RemoteWorkflow &&) noexce
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_id ansys::dpf::RemoteWorkflow::getRemoteWorkflowId() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: [dp\_id](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1ab4574c9af3f2bb8011da7d1f4c8da20e)
 
@@ -582,17 +381,9 @@ dp_id ansys::dpf::RemoteWorkflow::getRemoteWorkflowId() const
 ![][public]
 ![][const]
 
-
 ```cpp
 Streams ansys::dpf::RemoteWorkflow::getStreams() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: [Streams](classansys_1_1dpf_1_1Streams.md#classansys_1_1dpf_1_1Streams)
 
@@ -610,20 +401,14 @@ Streams ansys::dpf::RemoteWorkflow::getStreams() const
 ![][public]
 ![][static]
 
-
 ```cpp
 static RemoteWorkflow ansys::dpf::RemoteWorkflow::emptyRemoteWorkflow()
 ```
-
-
-
 
 Create an empty remote workflow. 
 **Returns**:
 
 Empty RemoteWorkflow.
-
-
 
 **Return type**: RemoteWorkflow
 

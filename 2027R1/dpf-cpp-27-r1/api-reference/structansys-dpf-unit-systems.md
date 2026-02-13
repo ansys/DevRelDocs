@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 470)
 
-
-
 Predefined unit systems.
 
 ## Members
@@ -42,17 +40,11 @@ Predefined unit systems.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 473)
 
-
 ```cpp
 const UnitSystem ansys::dpf::unit_systems::SI
 ```
 
-
-
-
 Predefined SI unit system.
-
-
 
 **Type**: const [UnitSystem](structansys_1_1dpf_1_1UnitSystem.md#structansys_1_1dpf_1_1UnitSystem)
 
@@ -70,17 +62,11 @@ Predefined SI unit system.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 475)
 
-
 ```cpp
 const UnitSystem ansys::dpf::unit_systems::ansys_cgs
 ```
 
-
-
-
 Predefined ansys_cgs unit system.
-
-
 
 **Type**: const [UnitSystem](structansys_1_1dpf_1_1UnitSystem.md#structansys_1_1dpf_1_1UnitSystem)
 
@@ -98,17 +84,11 @@ Predefined ansys_cgs unit system.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 477)
 
-
 ```cpp
 const UnitSystem ansys::dpf::unit_systems::ansys_nmm
 ```
 
-
-
-
 Predefined ansys_nmm unit system.
-
-
 
 **Type**: const [UnitSystem](structansys_1_1dpf_1_1UnitSystem.md#structansys_1_1dpf_1_1UnitSystem)
 
@@ -126,17 +106,11 @@ Predefined ansys_nmm unit system.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 479)
 
-
 ```cpp
 const UnitSystem ansys::dpf::unit_systems::ansys_bin
 ```
 
-
-
-
 Predefined ansys_bin unit system.
-
-
 
 **Type**: const [UnitSystem](structansys_1_1dpf_1_1UnitSystem.md#structansys_1_1dpf_1_1UnitSystem)
 
@@ -154,17 +128,11 @@ Predefined ansys_bin unit system.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 481)
 
-
 ```cpp
 const UnitSystem ansys::dpf::unit_systems::ansys_umks
 ```
 
-
-
-
 Predefined SI unit system.
-
-
 
 **Type**: const [UnitSystem](structansys_1_1dpf_1_1UnitSystem.md#structansys_1_1dpf_1_1UnitSystem)
 
@@ -182,17 +150,11 @@ Predefined SI unit system.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 483)
 
-
 ```cpp
 const UnitSystem ansys::dpf::unit_systems::ansys_cust
 ```
 
-
-
-
 Predefined ansys_cust unit system.
-
-
 
 **Type**: const [UnitSystem](structansys_1_1dpf_1_1UnitSystem.md#structansys_1_1dpf_1_1UnitSystem)
 
@@ -210,17 +172,11 @@ Predefined ansys_cust unit system.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 485)
 
-
 ```cpp
 const UnitSystem ansys::dpf::unit_systems::ansys_nmm_ton
 ```
 
-
-
-
 Predefined ansys_nmm_ton unit system.
-
-
 
 **Type**: const [UnitSystem](structansys_1_1dpf_1_1UnitSystem.md#structansys_1_1dpf_1_1UnitSystem)
 
@@ -238,17 +194,11 @@ Predefined ansys_nmm_ton unit system.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 487)
 
-
 ```cpp
 const UnitSystem ansys::dpf::unit_systems::ansys_nmm_dat
 ```
 
-
-
-
 Predefined ansys_nmm_dat unit system.
-
-
 
 **Type**: const [UnitSystem](structansys_1_1dpf_1_1UnitSystem.md#structansys_1_1dpf_1_1UnitSystem)
 
@@ -266,17 +216,11 @@ Predefined ansys_nmm_dat unit system.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 489)
 
-
 ```cpp
 const UnitSystem ansys::dpf::unit_systems::ansys_knms
 ```
 
-
-
-
 Predefined ansys_knms unit system.
-
-
 
 **Type**: const [UnitSystem](structansys_1_1dpf_1_1UnitSystem.md#structansys_1_1dpf_1_1UnitSystem)
 
@@ -294,17 +238,11 @@ Predefined ansys_knms unit system.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 491)
 
-
 ```cpp
 const UnitSystem ansys::dpf::unit_systems::solver_mks
 ```
 
-
-
-
 Predefined solver_mks unit system.
-
-
 
 **Type**: const [UnitSystem](structansys_1_1dpf_1_1UnitSystem.md#structansys_1_1dpf_1_1UnitSystem)
 
@@ -322,17 +260,11 @@ Predefined solver_mks unit system.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 493)
 
-
 ```cpp
 const UnitSystem ansys::dpf::unit_systems::solver_cgs
 ```
 
-
-
-
 Predefined solver_cgs unit system.
-
-
 
 **Type**: const [UnitSystem](structansys_1_1dpf_1_1UnitSystem.md#structansys_1_1dpf_1_1UnitSystem)
 
@@ -350,17 +282,11 @@ Predefined solver_cgs unit system.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 495)
 
-
 ```cpp
 const UnitSystem ansys::dpf::unit_systems::solver_bft
 ```
 
-
-
-
 Predefined solver_bft unit system.
-
-
 
 **Type**: const [UnitSystem](structansys_1_1dpf_1_1UnitSystem.md#structansys_1_1dpf_1_1UnitSystem)
 
@@ -378,17 +304,11 @@ Predefined solver_bft unit system.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 497)
 
-
 ```cpp
 const UnitSystem ansys::dpf::unit_systems::solver_nmm
 ```
 
-
-
-
 Predefined solver_nmm unit system.
-
-
 
 **Type**: const [UnitSystem](structansys_1_1dpf_1_1UnitSystem.md#structansys_1_1dpf_1_1UnitSystem)
 
@@ -406,17 +326,11 @@ Predefined solver_nmm unit system.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 499)
 
-
 ```cpp
 const UnitSystem ansys::dpf::unit_systems::solver_bin
 ```
 
-
-
-
 Predefined solver_bin unit system.
-
-
 
 **Type**: const [UnitSystem](structansys_1_1dpf_1_1UnitSystem.md#structansys_1_1dpf_1_1UnitSystem)
 
@@ -434,17 +348,11 @@ Predefined solver_bin unit system.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 501)
 
-
 ```cpp
 const UnitSystem ansys::dpf::unit_systems::solver_umks
 ```
 
-
-
-
 Predefined solver_umks unit system.
-
-
 
 **Type**: const [UnitSystem](structansys_1_1dpf_1_1UnitSystem.md#structansys_1_1dpf_1_1UnitSystem)
 
@@ -462,17 +370,11 @@ Predefined solver_umks unit system.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 503)
 
-
 ```cpp
 const UnitSystem ansys::dpf::unit_systems::solver_knms
 ```
 
-
-
-
 Predefined solver_knms unit system.
-
-
 
 **Type**: const [UnitSystem](structansys_1_1dpf_1_1UnitSystem.md#structansys_1_1dpf_1_1UnitSystem)
 
@@ -490,17 +392,11 @@ Predefined solver_knms unit system.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 505)
 
-
 ```cpp
 const UnitSystem ansys::dpf::unit_systems::undefined
 ```
 
-
-
-
 Predefined undefined unit system.
-
-
 
 **Type**: const [UnitSystem](structansys_1_1dpf_1_1UnitSystem.md#structansys_1_1dpf_1_1UnitSystem)
 
@@ -518,20 +414,14 @@ Predefined undefined unit system.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 508)
 
-
 ```cpp
 const std::vector<UnitSystem> ansys::dpf::unit_systems::all
 ```
-
-
-
 
 Gets all predefined unit systems. 
 **Returns**:
 
 All unit systems.
-
-
 
 **Type**: const std::vector< [UnitSystem](structansys_1_1dpf_1_1UnitSystem.md#structansys_1_1dpf_1_1UnitSystem) >
 
@@ -549,20 +439,14 @@ All unit systems.
 ![][public]
 ![][static]
 
-
 ```cpp
 static UnitSystem const  & ansys::dpf::unit_systems::from_ansys_id(dp_id id)
 ```
-
-
-
 
 Gets unit system by id. 
 **Returns**:
 
 All unit system.
-
-
 
 **Parameters**:
 

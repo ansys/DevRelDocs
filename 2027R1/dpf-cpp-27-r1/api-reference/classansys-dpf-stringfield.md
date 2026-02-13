@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2619)
 
-
-
 Holds string data describing a Property located on given entities (the [StringField](classansys_1_1dpf_1_1StringField.md#classansys_1_1dpf_1_1StringField)'s data is bounded with its scoping). Is the equivalent of the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) but with string values data (and not double values).
 
 **Inherits from**:
@@ -54,338 +52,9 @@ Holds string data describing a Property located on given entities (the [StringFi
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1StringField_1a33ff3f826991522d2e77c1c523f33e19"></a>
-### Friend Operator
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2621)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Operator"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::StringField::Operator"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Operator"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1StringField_1afa07847c7cb432b260e61a0c18025ba3"></a>
-### Friend Workflow
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2622)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Workflow"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::StringField::Workflow"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Workflow"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1StringField_1a9820c685b67a3355c042bb0b3365d9e2"></a>
-### Friend Any
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2623)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Any"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::StringField::Any"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Any"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1StringField_1a4303ef65e3d088cbff0512dfbf3734ac"></a>
-### Friend Support
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2624)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Support"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::StringField::Support"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Support"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1StringField_1a8a8b42bcbba089cc2a997c65416c9038"></a>
-### Friend GenericSupport
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2625)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class GenericSupport"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::StringField::GenericSupport"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"GenericSupport"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1StringField_1a81d95df60edf516a1de9878b780f8fb3"></a>
-### Friend OperatorMain
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2626)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorMain"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::StringField::OperatorMain"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorMain"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1StringField_1acc06c4380c923e11af63f95e97c3c259"></a>
-### Friend GenericDataContainer
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2627)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class GenericDataContainer"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::StringField::GenericDataContainer"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"GenericDataContainer"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1StringField_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2628)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::StringField::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1StringField_1a6c5ceed26c19a00434b5fa91cbed580c"></a>
-### Friend DataTree
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2629)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class DataTree"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::StringField::DataTree"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"DataTree"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private attributes
 
-<a id="classansys_1_1dpf_1_1StringField_1a8ed632a4e203d45ce3cf27f786846040"></a>
-### Variable \_push\_back\_buffer
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2634)
-
-
-```cpp
-std::vector<const char*> ansys::dpf::StringField::_push_back_buffer
-```
-
-
-
-
-
-
-
-
-**Type**: std::vector< const char * >
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::StringField::_push_back_buffer"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1StringField_1a1add0f6909656e1df78fdc7f0c9e2652"></a>
-### Variable \_push\_back\_size\_buffer
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 2635)
-
-
-```cpp
-std::vector<size_t> ansys::dpf::StringField::_push_back_size_buffer
-```
-
-
-
-
-
-
-
-
-**Type**: std::vector< size_t >
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::StringField::_push_back_size_buffer"}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1StringField_1a0cb97a61d24a3c9ceb6928e2deb669f3"></a>
-### Function StringField
-
-![][private]
-
-
-```cpp
-ansys::dpf::StringField::StringField(opaque::DpfInternalSharedObject *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfInternalSharedObject *
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::StringField::StringField"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1StringField_1a144dcf2cab4fd11106ee556820f4df3c"></a>
-### Function StringField
-
-![][private]
-
-
-```cpp
-ansys::dpf::StringField::StringField(opaque::DpfObject *, so::API const *api)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfObject *
-* so::API const * **api**
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::StringField::StringField"}]}`
--->
 
 ## Public static functions
 
@@ -395,17 +64,9 @@ ansys::dpf::StringField::StringField(opaque::DpfObject *, so::API const *api)
 ![][public]
 ![][static]
 
-
 ```cpp
 static StringField ansys::dpf::StringField::emptyStringField()
 ```
-
-
-
-
-
-
-
 
 **Return type**: StringField
 
@@ -422,17 +83,9 @@ static StringField ansys::dpf::StringField::emptyStringField()
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::StringField::~StringField()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -447,17 +100,11 @@ virtual ansys::dpf::StringField::~StringField()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::StringField::StringField(Client const *const client, dp_int number_of_entities=0, dp_int data_size=0)
 ```
 
-
-
-
 Create an empty property field with a client.
-
-
 
 **Parameters**:
 
@@ -478,17 +125,11 @@ Create an empty property field with a client.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::StringField::StringField(int id, Client const *const client)
 ```
 
-
-
-
 Retrieve an existing instance of [StringField](classansys_1_1dpf_1_1StringField.md#classansys_1_1dpf_1_1StringField) on a server.
-
-
 
 **Parameters**:
 
@@ -508,17 +149,11 @@ Retrieve an existing instance of [StringField](classansys_1_1dpf_1_1StringField.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::StringField::StringField(dp_int number_of_entities=0, dp_int data_size=0)
 ```
 
-
-
-
 Create a property with number of entities and data size.
-
-
 
 **Parameters**:
 
@@ -538,17 +173,9 @@ Create a property with number of entities and data size.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::StringField::StringField(StringField const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -567,17 +194,9 @@ ansys::dpf::StringField::StringField(StringField const &)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::StringField::StringField(StringField &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -596,17 +215,9 @@ ansys::dpf::StringField::StringField(StringField &&) noexcept
 
 ![][public]
 
-
 ```cpp
 StringField & ansys::dpf::StringField::operator=(StringField const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -625,17 +236,9 @@ StringField & ansys::dpf::StringField::operator=(StringField const &)
 
 ![][public]
 
-
 ```cpp
 StringField & ansys::dpf::StringField::operator=(StringField &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -655,19 +258,13 @@ StringField & ansys::dpf::StringField::operator=(StringField &&) noexcept
 ![][public]
 ![][const]
 
-
 ```cpp
 Location ansys::dpf::StringField::location() const
 ```
 
-
-
-
 **Returns**:
 
 [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location) of the property.
-
-
 
 **Return type**: [Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location)
 
@@ -683,19 +280,13 @@ Location ansys::dpf::StringField::location() const
 ![][public]
 ![][const]
 
-
 ```cpp
 Scoping ansys::dpf::StringField::scoping() const
 ```
 
-
-
-
 **Returns**:
 
 [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) of the property.
-
-
 
 **Return type**: [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping)
 
@@ -711,19 +302,13 @@ Scoping ansys::dpf::StringField::scoping() const
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::StringField::dataSize() const
 ```
 
-
-
-
 **Returns**:
 
 Size of the data container.
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -738,17 +323,11 @@ Size of the data container.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::StringField::push_back(dp_id entity_id, std::vector< std::string > const &values)
 ```
 
-
-
-
 Push back the entity data.
-
-
 
 **Parameters**:
 
@@ -768,17 +347,11 @@ Push back the entity data.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::StringField::push_back(dp_id entity_id, const std::string *values, dp_index size)
 ```
 
-
-
-
 Push back the entity data.
-
-
 
 **Parameters**:
 
@@ -799,17 +372,11 @@ Push back the entity data.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::StringField::setData(std::vector< std::string > const &data)
 ```
 
-
-
-
 Set the data of the property field.
-
-
 
 **Parameters**:
 
@@ -828,17 +395,11 @@ Set the data of the property field.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::StringField::setScoping(ansys::dpf::Scoping &s)
 ```
 
-
-
-
 Set the scoping of the property field.
-
-
 
 **Parameters**:
 
@@ -858,19 +419,13 @@ Set the scoping of the property field.
 ![][public]
 ![][const]
 
-
 ```cpp
 DpfVector< std::string > ansys::dpf::StringField::data() const
 ```
 
-
-
-
 **Returns**:
 
 [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) of data array.
-
-
 
 **Return type**: DpfVector< std::string >
 
@@ -886,17 +441,11 @@ DpfVector< std::string > ansys::dpf::StringField::data() const
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::StringField::getData(std::vector< std::string > &values_to_fill) const
 ```
 
-
-
-
 Get all data for property entities.
-
-
 
 **Parameters**:
 
@@ -916,19 +465,13 @@ Get all data for property entities.
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::StringField::entityData(dp_index entity_index, DpfVector< std::string > &data) const
 ```
 
-
-
-
 **Returns**:
 
 [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) of data array of an entity, by index.
-
-
 
 **Parameters**:
 
@@ -949,19 +492,13 @@ void ansys::dpf::StringField::entityData(dp_index entity_index, DpfVector< std::
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::StringField::entityDataById(dp_id entity_id, DpfVector< std::string > &data) const
 ```
 
-
-
-
 **Returns**:
 
 [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) of data array of an entity, by id.
-
-
 
 **Parameters**:
 
@@ -981,17 +518,11 @@ void ansys::dpf::StringField::entityDataById(dp_id entity_id, DpfVector< std::st
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::StringField::reserve(dp_int number_of_entities, dp_int overall_size=0)
 ```
 
-
-
-
 Reserve the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field). Only implemented for in process udage. To reserve the size for gRPC usage, use the constructor.
-
-
 
 **Parameters**:
 
@@ -1011,17 +542,11 @@ Reserve the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field). O
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::StringField::resize(dp_int number_of_entities, dp_int overall_size)
 ```
 
-
-
-
 Reserve the [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field).
-
-
 
 **Parameters**:
 

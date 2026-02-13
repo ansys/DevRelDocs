@@ -62,300 +62,7 @@ The time freq support describes an analysis' temporal or frequential space. For 
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1TimeFreqSupport_1a33ff3f826991522d2e77c1c523f33e19"></a>
-### Friend Operator
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1279)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Operator"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::TimeFreqSupport::Operator"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Operator"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1TimeFreqSupport_1afa07847c7cb432b260e61a0c18025ba3"></a>
-### Friend Workflow
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1280)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Workflow"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::TimeFreqSupport::Workflow"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Workflow"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1TimeFreqSupport_1a4303ef65e3d088cbff0512dfbf3734ac"></a>
-### Friend Support
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1281)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Support"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::TimeFreqSupport::Support"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Support"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1TimeFreqSupport_1af891ea2ca8eebe3679e051763ba989ce"></a>
-### Friend CollectionBase
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1282)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class CollectionBase"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::TimeFreqSupport::CollectionBase"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"CollectionBase"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1TimeFreqSupport_1aaec47a26a3c11c1debd3ed922b69cbd2"></a>
-### Friend Field
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1283)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Field"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::TimeFreqSupport::Field"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Field"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1TimeFreqSupport_1abb4aa5a7ed62b741f0b146a257d0fe5e"></a>
-### Friend PropertyField
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1284)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class PropertyField"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::TimeFreqSupport::PropertyField"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"PropertyField"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1TimeFreqSupport_1ad19b1aa2f28448bd897fc6c5dd771f02"></a>
-### Friend CustomTypeField
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1285)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class CustomTypeField"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::TimeFreqSupport::CustomTypeField"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"CustomTypeField"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1TimeFreqSupport_1a81d95df60edf516a1de9878b780f8fb3"></a>
-### Friend OperatorMain
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1286)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorMain"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::TimeFreqSupport::OperatorMain"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorMain"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1TimeFreqSupport_1a9820c685b67a3355c042bb0b3365d9e2"></a>
-### Friend Any
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1287)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Any"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::TimeFreqSupport::Any"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Any"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1TimeFreqSupport_1acc06c4380c923e11af63f95e97c3c259"></a>
-### Friend GenericDataContainer
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1288)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class GenericDataContainer"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::TimeFreqSupport::GenericDataContainer"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"GenericDataContainer"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1TimeFreqSupport_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 1289)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::TimeFreqSupport::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1TimeFreqSupport_1a65928d29e352da578768b2f99677aa03"></a>
-### Function TimeFreqSupport
-
-![][private]
-
-
-```cpp
-ansys::dpf::TimeFreqSupport::TimeFreqSupport(opaque::DpfInternalSharedObject *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfInternalSharedObject *
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::TimeFreqSupport::TimeFreqSupport"}]}`
--->
 
 ## Public functions
 
@@ -364,17 +71,9 @@ ansys::dpf::TimeFreqSupport::TimeFreqSupport(opaque::DpfInternalSharedObject *)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::TimeFreqSupport::TimeFreqSupport()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -389,17 +88,11 @@ ansys::dpf::TimeFreqSupport::TimeFreqSupport()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::TimeFreqSupport::TimeFreqSupport(Client const *const client)
 ```
 
-
-
-
 Create a new [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#classansys_1_1dpf_1_1TimeFreqSupport) on a server.
-
-
 
 **Parameters**:
 
@@ -418,17 +111,11 @@ Create a new [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#classansy
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::TimeFreqSupport::TimeFreqSupport(int id, Client const *const client)
 ```
 
-
-
-
 Retrieve an existing instance of [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#classansys_1_1dpf_1_1TimeFreqSupport) on a server.
-
-
 
 **Parameters**:
 
@@ -448,17 +135,9 @@ Retrieve an existing instance of [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreq
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::TimeFreqSupport::~TimeFreqSupport()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -473,17 +152,9 @@ virtual ansys::dpf::TimeFreqSupport::~TimeFreqSupport()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::TimeFreqSupport::TimeFreqSupport(TimeFreqSupport const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -502,17 +173,9 @@ ansys::dpf::TimeFreqSupport::TimeFreqSupport(TimeFreqSupport const &)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::TimeFreqSupport::TimeFreqSupport(TimeFreqSupport &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -531,17 +194,9 @@ ansys::dpf::TimeFreqSupport::TimeFreqSupport(TimeFreqSupport &&) noexcept
 
 ![][public]
 
-
 ```cpp
 TimeFreqSupport & ansys::dpf::TimeFreqSupport::operator=(TimeFreqSupport const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -560,17 +215,9 @@ TimeFreqSupport & ansys::dpf::TimeFreqSupport::operator=(TimeFreqSupport const &
 
 ![][public]
 
-
 ```cpp
 TimeFreqSupport & ansys::dpf::TimeFreqSupport::operator=(TimeFreqSupport &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -590,19 +237,13 @@ TimeFreqSupport & ansys::dpf::TimeFreqSupport::operator=(TimeFreqSupport &&) noe
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::TimeFreqSupport::numberOfSets() const
 ```
 
-
-
-
 **Returns**:
 
 Number of time frequency sets.
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -618,19 +259,13 @@ Number of time frequency sets.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::TimeFreqSupport::numberOfSteps() const
 ```
 
-
-
-
 **Returns**:
 
 Number of steps.
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -646,19 +281,13 @@ Number of steps.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::TimeFreqSupport::numberOfSubStepsByStepIndex(dp_int stepIndex) const
 ```
 
-
-
-
 **Returns**:
 
 Number of sub steps for a given step index (0 based).
-
-
 
 **Parameters**:
 
@@ -678,19 +307,13 @@ Number of sub steps for a given step index (0 based).
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::TimeFreqSupport::numberOfSubStepsByStepId(dp_int stepId) const
 ```
 
-
-
-
 **Returns**:
 
 Number of sub steps for a given step id.
-
-
 
 **Parameters**:
 
@@ -710,19 +333,13 @@ Number of sub steps for a given step id.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::TimeFreqSupport::getSetIndexByStepIndexAndSubStep(dp_int step, dp_int sub_step) const
 ```
 
-
-
-
 **Returns**:
 
 set index (0 based) at a given step index and substep index.
-
-
 
 **Parameters**:
 
@@ -743,19 +360,13 @@ set index (0 based) at a given step index and substep index.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_double ansys::dpf::TimeFreqSupport::getImaginaryFreqByStep(dp_index step, dp_index sub_step) const
 ```
 
-
-
-
 **Returns**:
 
 imaginary frequency at a given step index and substep indices.
-
-
 
 **Parameters**:
 
@@ -776,19 +387,13 @@ imaginary frequency at a given step index and substep indices.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_double ansys::dpf::TimeFreqSupport::getTimeFreqByStep(dp_index step, dp_index sub_step) const
 ```
 
-
-
-
 **Returns**:
 
 time frequency at a given step index and substep indices.
-
-
 
 **Parameters**:
 
@@ -809,19 +414,13 @@ time frequency at a given step index and substep indices.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::TimeFreqSupport::getImaginaryFreqSetIndexByValue(dp_double frequency) const
 ```
 
-
-
-
 **Returns**:
 
 set index (0 based) for given imaginary frequency.
-
-
 
 **Parameters**:
 
@@ -841,19 +440,13 @@ set index (0 based) for given imaginary frequency.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::TimeFreqSupport::getSetIndexByTimeFreq(dp_double frequency) const
 ```
 
-
-
-
 **Returns**:
 
 set index (0 based) for given time frequency.
-
-
 
 **Parameters**:
 
@@ -873,19 +466,13 @@ set index (0 based) for given time frequency.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::pair< dp_id, dp_index > ansys::dpf::TimeFreqSupport::getStepAndSubStep(int cumulative_index) const
 ```
 
-
-
-
 **Returns**:
 
 step index and substep at a given set index (0 based).
-
-
 
 **Parameters**:
 
@@ -905,19 +492,13 @@ step index and substep at a given set index (0 based).
 ![][public]
 ![][const]
 
-
 ```cpp
 Field ansys::dpf::TimeFreqSupport::frequencies() const
 ```
 
-
-
-
 **Returns**:
 
 [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) associated with time frequency.
-
-
 
 **Return type**: Field
 
@@ -933,19 +514,13 @@ Field ansys::dpf::TimeFreqSupport::frequencies() const
 ![][public]
 ![][const]
 
-
 ```cpp
 Field ansys::dpf::TimeFreqSupport::imaginaryFrequencies() const
 ```
 
-
-
-
 **Returns**:
 
 [Field](classansys_1_1dpf_1_1Field.md#classansys_1_1dpf_1_1Field) associated with imaginary part of time frequency.
-
-
 
 **Return type**: Field
 
@@ -961,19 +536,13 @@ Field ansys::dpf::TimeFreqSupport::imaginaryFrequencies() const
 ![][public]
 ![][const]
 
-
 ```cpp
 Field ansys::dpf::TimeFreqSupport::rpms() const
 ```
 
-
-
-
 **Returns**:
 
 RPMS associated with time frequency.
-
-
 
 **Return type**: Field
 
@@ -989,19 +558,13 @@ RPMS associated with time frequency.
 ![][public]
 ![][const]
 
-
 ```cpp
 Field ansys::dpf::TimeFreqSupport::harmonicIndeces(dp_int stage=0) const
 ```
 
-
-
-
 **Returns**:
 
 Harmonic indices associated with time frequency.
-
-
 
 **Parameters**:
 
@@ -1021,19 +584,13 @@ Harmonic indices associated with time frequency.
 ![][public]
 ![][const]
 
-
 ```cpp
 PropertyField ansys::dpf::TimeFreqSupport::timeFrequenciesSubstepIds() const
 ```
 
-
-
-
 **Returns**:
 
 substep id associated with time frequency.
-
-
 
 **Return type**: PropertyField
 
@@ -1049,19 +606,13 @@ substep id associated with time frequency.
 ![][public]
 ![][const]
 
-
 ```cpp
 Scoping ansys::dpf::TimeFreqSupport::harmonicIndicesScoping() const
 ```
 
-
-
-
 **Returns**:
 
 [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping) containing all the stage numbers of the [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#classansys_1_1dpf_1_1TimeFreqSupport).
-
-
 
 **Return type**: [Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping)
 
@@ -1077,19 +628,13 @@ Scoping ansys::dpf::TimeFreqSupport::harmonicIndicesScoping() const
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::TimeFreqSupport::numberOfSingularSets() const
 ```
 
-
-
-
 **Returns**:
 
 Number of unique time frequency entries.
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 
@@ -1104,17 +649,11 @@ Number of unique time frequency entries.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::TimeFreqSupport::setTimeFrequencies(Field field)
 ```
 
-
-
-
 Set time frequency from given field.
-
-
 
 **Parameters**:
 
@@ -1133,17 +672,11 @@ Set time frequency from given field.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::TimeFreqSupport::setImaginaryFrequencies(Field field)
 ```
 
-
-
-
 Set imaginary part of time frequency from given field.
-
-
 
 **Parameters**:
 
@@ -1162,17 +695,11 @@ Set imaginary part of time frequency from given field.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::TimeFreqSupport::setRpms(Field field)
 ```
 
-
-
-
 Set rpms of time frequency support from given field.
-
-
 
 **Parameters**:
 
@@ -1191,17 +718,11 @@ Set rpms of time frequency support from given field.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::TimeFreqSupport::setHarmonicIndices(Field field, dp_int stage=0)
 ```
 
-
-
-
 Set harmonic indices of time frequency support from given field for a specified stage.
-
-
 
 **Parameters**:
 
@@ -1222,19 +743,13 @@ Set harmonic indices of time frequency support from given field for a specified 
 ![][public]
 ![][const]
 
-
 ```cpp
 std::pair< dp_int, dp_int > ansys::dpf::TimeFreqSupport::boundingCumulativeIndecesOfTimeFreq(double time_freq, int loadstep=0) const
 ```
 
-
-
-
 **Returns**:
 
 Bounding indices for given time time frequency and load step.
-
-
 
 **Parameters**:
 
@@ -1255,19 +770,13 @@ Bounding indices for given time time frequency and load step.
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_double ansys::dpf::TimeFreqSupport::timeFreq(dp_int cumul_index, dp_int complex_id=0) const
 ```
 
-
-
-
 **Returns**:
 
 Time/Frequency for given index.
-
-
 
 **Parameters**:
 
@@ -1288,17 +797,11 @@ Time/Frequency for given index.
 ![][public]
 ![][const]
 
-
 ```cpp
 TimeFreqSupport ansys::dpf::TimeFreqSupport::deep_copy(ansys::dpf::Client const *const client=nullptr) const
 ```
 
-
-
-
 Create a new [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#classansys_1_1dpf_1_1TimeFreqSupport) on a server by copying all the data of this [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#classansys_1_1dpf_1_1TimeFreqSupport).
-
-
 
 **Parameters**:
 
@@ -1320,17 +823,9 @@ Create a new [TimeFreqSupport](classansys_1_1dpf_1_1TimeFreqSupport.md#classansy
 ![][public]
 ![][static]
 
-
 ```cpp
 static TimeFreqSupport ansys::dpf::TimeFreqSupport::emptyTimeFreqSupport()
 ```
-
-
-
-
-
-
-
 
 **Return type**: TimeFreqSupport
 

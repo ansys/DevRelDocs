@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3453)
 
-
-
 Container of files on which the analysis results can be found.
 
 **Inherits from**:
@@ -66,204 +64,7 @@ Container of files on which the analysis results can be found.
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1DataSources_1a33ff3f826991522d2e77c1c523f33e19"></a>
-### Friend Operator
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3455)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Operator"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::Operator"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Operator"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1DataSources_1afa07847c7cb432b260e61a0c18025ba3"></a>
-### Friend Workflow
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3456)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Workflow"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::Workflow"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Workflow"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1DataSources_1a81d95df60edf516a1de9878b780f8fb3"></a>
-### Friend OperatorMain
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3457)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorMain"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::OperatorMain"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorMain"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1DataSources_1a5a10e7ca5f11fc70cc7d8e5b48bfff72"></a>
-### Friend Streams
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3458)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Streams"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::Streams"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Streams"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1DataSources_1a9820c685b67a3355c042bb0b3365d9e2"></a>
-### Friend Any
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3459)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Any"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::Any"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Any"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1DataSources_1acc06c4380c923e11af63f95e97c3c259"></a>
-### Friend GenericDataContainer
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3460)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class GenericDataContainer"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::GenericDataContainer"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"GenericDataContainer"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="classansys_1_1dpf_1_1DataSources_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3461)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1DataSources_1ad6e0a2d06ea8716ecd330e6401382ad7"></a>
-### Function DataSources
-
-![][private]
-
-
-```cpp
-ansys::dpf::DataSources::DataSources(opaque::DpfInternalSharedObject *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfInternalSharedObject *
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::DataSources"}]}`
--->
 
 ## Public functions
 
@@ -272,17 +73,9 @@ ansys::dpf::DataSources::DataSources(opaque::DpfInternalSharedObject *)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::DataSources::DataSources()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -297,17 +90,11 @@ ansys::dpf::DataSources::DataSources()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::DataSources::DataSources(Client const *const client)
 ```
 
-
-
-
 Create a file container on a server.
-
-
 
 **Parameters**:
 
@@ -326,17 +113,9 @@ Create a file container on a server.
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::DataSources::~DataSources()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -351,17 +130,9 @@ virtual ansys::dpf::DataSources::~DataSources()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::DataSources::DataSources(DataSources const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -380,17 +151,9 @@ ansys::dpf::DataSources::DataSources(DataSources const &)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::DataSources::DataSources(DataSources &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -409,17 +172,11 @@ ansys::dpf::DataSources::DataSources(DataSources &&) noexcept
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::DataSources::DataSources(std::string const &result_file_path, std::string const &key)
 ```
 
-
-
-
 Create a file container with given file and key.
-
-
 
 **Parameters**:
 
@@ -439,17 +196,11 @@ Create a file container with given file and key.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::DataSources::DataSources(std::string const &result_file_path, std::string const &key, Client const *const client)
 ```
 
-
-
-
 Create a file container with given file and key.
-
-
 
 **Parameters**:
 
@@ -470,17 +221,11 @@ Create a file container with given file and key.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::DataSources::DataSources(std::string const &result_file_path)
 ```
 
-
-
-
 Create a file container with given file.
-
-
 
 **Parameters**:
 
@@ -499,17 +244,11 @@ Create a file container with given file.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::DataSources::DataSources(std::string const &result_file_path, Client const *const client)
 ```
 
-
-
-
 Create a file container with given file on a server.
-
-
 
 **Parameters**:
 
@@ -529,17 +268,11 @@ Create a file container with given file on a server.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::DataSources::DataSources(int id, Client const *const client)
 ```
 
-
-
-
 Retrieve an existing instance of [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources) on a server.
-
-
 
 **Parameters**:
 
@@ -559,17 +292,9 @@ Retrieve an existing instance of [DataSources](classansys_1_1dpf_1_1DataSources.
 
 ![][public]
 
-
 ```cpp
 DataSources & ansys::dpf::DataSources::operator=(DataSources const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -588,17 +313,9 @@ DataSources & ansys::dpf::DataSources::operator=(DataSources const &)
 
 ![][public]
 
-
 ```cpp
 DataSources & ansys::dpf::DataSources::operator=(DataSources &&) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -617,17 +334,11 @@ DataSources & ansys::dpf::DataSources::operator=(DataSources &&) noexcept
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::DataSources::addResultFile(std::string const &file_path, std::string const &key)
 ```
 
-
-
-
 Define result file with key for data sources.
-
-
 
 **Parameters**:
 
@@ -647,17 +358,11 @@ Define result file with key for data sources.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::DataSources::addResultFileWString(std::wstring const &file_path)
 ```
 
-
-
-
 Define result for data sources.
-
-
 
 **Parameters**:
 
@@ -676,17 +381,11 @@ Define result for data sources.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::DataSources::addResultFile(std::string const &file_path)
 ```
 
-
-
-
 Define result for data sources.
-
-
 
 **Parameters**:
 
@@ -705,17 +404,11 @@ Define result for data sources.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::DataSources::addDomainResultFile(std::string const &file_path, std::string const &key, dp_int domain_id)
 ```
 
-
-
-
 Define data source result file with key and domain.
-
-
 
 **Parameters**:
 
@@ -736,17 +429,11 @@ Define data source result file with key and domain.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::DataSources::addFile(std::string const &file_path, std::string const &key)
 ```
 
-
-
-
 Add secondary, non-result, file with key to data sources.
-
-
 
 **Parameters**:
 
@@ -766,17 +453,11 @@ Add secondary, non-result, file with key to data sources.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::DataSources::addFile(std::string const &file_path)
 ```
 
-
-
-
 Add secondary, non-result, file to data sources.
-
-
 
 **Parameters**:
 
@@ -795,17 +476,11 @@ Add secondary, non-result, file to data sources.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::DataSources::addFile(std::string const &file_path, std::string const &key, std::string const &result_key)
 ```
 
-
-
-
 Add secondary, non-result, file with key and result key to data sources.
-
-
 
 **Parameters**:
 
@@ -826,17 +501,11 @@ Add secondary, non-result, file with key and result key to data sources.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::DataSources::addDomainFile(std::string const &file_path, std::string const &key, dp_int domain_id)
 ```
 
-
-
-
 Add domain file with key and domain id to data sources.
-
-
 
 **Parameters**:
 
@@ -857,17 +526,11 @@ Add domain file with key and domain id to data sources.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::DataSources::addUpStream(DataSources &ds)
 ```
 
-
-
-
 Add up stream to data sources.
-
-
 
 **Parameters**:
 
@@ -886,17 +549,11 @@ Add up stream to data sources.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::DataSources::addUpStream(DataSources &ds, std::string const &result_key)
 ```
 
-
-
-
 Add up stream with result key to data sources.
-
-
 
 **Parameters**:
 
@@ -917,19 +574,13 @@ Add up stream with result key to data sources.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::DataSources::resultKey() const
 ```
 
-
-
-
 **Returns**:
 
 [Result](classansys_1_1dpf_1_1Result.md#classansys_1_1dpf_1_1Result) key of data sources.
-
-
 
 **Return type**: std::string
 
@@ -945,19 +596,13 @@ std::string ansys::dpf::DataSources::resultKey() const
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::DataSources::resultNamespaceForKey(std::string const &key) const
 ```
 
-
-
-
 **Returns**:
 
 [Result](classansys_1_1dpf_1_1Result.md#classansys_1_1dpf_1_1Result) namespace to a given key of data sources.
-
-
 
 **Parameters**:
 
@@ -977,19 +622,13 @@ std::string ansys::dpf::DataSources::resultNamespaceForKey(std::string const &ke
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< std::string > ansys::dpf::DataSources::filePaths(std::string const &key) const
 ```
 
-
-
-
 **Returns**:
 
 Vector of secondary files given by key.
-
-
 
 **Parameters**:
 
@@ -1009,19 +648,13 @@ Vector of secondary files given by key.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< std::string > ansys::dpf::DataSources::resultFilePaths() const
 ```
 
-
-
-
 **Returns**:
 
 Vector of result files in data sources.
-
-
 
 **Return type**: std::vector< std::string >
 
@@ -1037,19 +670,13 @@ Vector of result files in data sources.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< std::string > ansys::dpf::DataSources::keys() const
 ```
 
-
-
-
 **Returns**:
 
 Vector of keys in data sources.
-
-
 
 **Return type**: std::vector< std::string >
 
@@ -1065,19 +692,13 @@ Vector of keys in data sources.
 ![][public]
 ![][const]
 
-
 ```cpp
 int ansys::dpf::DataSources::numPaths() const
 ```
 
-
-
-
 **Returns**:
 
 Size or Num file path in data sources.
-
-
 
 **Return type**: int
 
@@ -1093,19 +714,13 @@ Size or Num file path in data sources.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::DataSources::pathAtKeyByIndex(std::string const &key, dp_index index) const
 ```
 
-
-
-
 **Returns**:
 
 Path at given key and given index in data sources.
-
-
 
 **Parameters**:
 
@@ -1126,19 +741,13 @@ Path at given key and given index in data sources.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::pair< std::string, std::string > ansys::dpf::DataSources::pathAndKeyByIndex(int index) const
 ```
 
-
-
-
 **Returns**:
 
 File path and its key for a given index in data sources.
-
-
 
 **Parameters**:
 
@@ -1158,19 +767,13 @@ File path and its key for a given index in data sources.
 ![][public]
 ![][const]
 
-
 ```cpp
 LabelSpace ansys::dpf::DataSources::identifierbyIndex(int index) const
 ```
 
-
-
-
 **Returns**:
 
 [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1_1LabelSpace) or identifier of a path for a given index in data sources.
-
-
 
 **Parameters**:
 
@@ -1190,17 +793,11 @@ LabelSpace ansys::dpf::DataSources::identifierbyIndex(int index) const
 ![][public]
 ![][const]
 
-
 ```cpp
 DataSources ansys::dpf::DataSources::deep_copy(ansys::dpf::Client const *const client=nullptr) const
 ```
 
-
-
-
 Create a new [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources) on a server by copying all the data of this [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources).
-
-
 
 **Parameters**:
 
@@ -1220,17 +817,11 @@ Create a new [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::DataSources::getHashableKey() const
 ```
 
-
-
-
 Set and get an simpler hashable entity (here a file path) instead of the full [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources) to save time
-
-
 
 **Return type**: std::string
 
@@ -1246,17 +837,9 @@ Set and get an simpler hashable entity (here a file path) instead of the full [D
 ![][public]
 ![][const]
 
-
 ```cpp
 void ansys::dpf::DataSources::setHashableKey(const std::string &unique_identifier) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -1276,17 +859,11 @@ void ansys::dpf::DataSources::setHashableKey(const std::string &unique_identifie
 ![][public]
 ![][const]
 
-
 ```cpp
 size_t ansys::dpf::DataSources::getHash() const
 ```
 
-
-
-
 Compute and get the hash of a data_sources
-
-
 
 **Return type**: size_t
 
@@ -1301,17 +878,9 @@ Compute and get the hash of a data_sources
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::DataSources::registerNamespace(std::string const &result_key, std::string const &namspace)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -1334,20 +903,14 @@ void ansys::dpf::DataSources::registerNamespace(std::string const &result_key, s
 ![][public]
 ![][static]
 
-
 ```cpp
 static DataSources ansys::dpf::DataSources::emptyDataSources()
 ```
-
-
-
 
 Create an empty data sources. 
 **Returns**:
 
 Empty [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources).
-
-
 
 **Return type**: DataSources
 

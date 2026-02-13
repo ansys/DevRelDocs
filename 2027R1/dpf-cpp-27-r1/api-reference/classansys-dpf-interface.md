@@ -8,8 +8,6 @@
 
 [Interface](classansys_1_1dpf_1_1Interface.md#classansys_1_1dpf_1_1Interface) specifies a set of constraints that an underlying implementation (operator or workflow) must respect.
 
-
-
 ## Members
 
 * [\_cache\_property](classansys_1_1dpf_1_1Interface.md#classansys_1_1dpf_1_1Interface_1affc863dddc1a27ae780026c82402df49)
@@ -31,174 +29,7 @@
 
 ## Private attributes
 
-<a id="classansys_1_1dpf_1_1Interface_1af5fd6d11e90665950f007c741561d81f"></a>
-### Variable \_data
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5632)
-
-
-```cpp
-DataTree ansys::dpf::Interface::_data
-```
-
-
-
-
-
-
-
-
-**Type**: [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Interface::_data"}]}`
--->
-
 ## Private static attributes
-
-<a id="classansys_1_1dpf_1_1Interface_1aa68dccce48508a14ec1ea27da9239657"></a>
-### Variable \_name\_property
-
-![][private]
-![][static]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5635)
-
-
-```cpp
-const std::string ansys::dpf::Interface::_name_property
-```
-
-
-
-
-
-
-
-
-**Type**: const std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Interface::_name_property"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Interface_1a9c5f721cedcd11e524c997e27a625c32"></a>
-### Variable \_exposedInputs\_property
-
-![][private]
-![][static]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5636)
-
-
-```cpp
-const std::string ansys::dpf::Interface::_exposedInputs_property
-```
-
-
-
-
-
-
-
-
-**Type**: const std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Interface::_exposedInputs_property"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Interface_1a6b2792174a71c603706446ad00fbe1b3"></a>
-### Variable \_exposedOutputs\_property
-
-![][private]
-![][static]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5637)
-
-
-```cpp
-const std::string ansys::dpf::Interface::_exposedOutputs_property
-```
-
-
-
-
-
-
-
-
-**Type**: const std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Interface::_exposedOutputs_property"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Interface_1aba786c3a4352f0a036e3b5ba9e27858b"></a>
-### Variable \_optional\_property
-
-![][private]
-![][static]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5638)
-
-
-```cpp
-const std::string ansys::dpf::Interface::_optional_property
-```
-
-
-
-
-
-
-
-
-**Type**: const std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Interface::_optional_property"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Interface_1affc863dddc1a27ae780026c82402df49"></a>
-### Variable \_cache\_property
-
-![][private]
-![][static]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5639)
-
-
-```cpp
-const std::string ansys::dpf::Interface::_cache_property
-```
-
-
-
-
-
-
-
-
-**Type**: const std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Interface::_cache_property"}]}`
--->
 
 ## Public functions
 
@@ -207,17 +38,9 @@ const std::string ansys::dpf::Interface::_cache_property
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Interface::Interface()=default
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -232,17 +55,9 @@ ansys::dpf::Interface::Interface()=default
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Interface::Interface(const std::string &name, const std::vector< std::string > &exposedInputs, const std::vector< std::string > &exposedOutputs, const CacheInformation &cacheInformation=CacheInformation(), bool isOptional=false)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -265,17 +80,9 @@ ansys::dpf::Interface::Interface(const std::string &name, const std::vector< std
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Interface::Interface(const DataTree &dt)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -295,17 +102,9 @@ ansys::dpf::Interface::Interface(const DataTree &dt)
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::Interface::getName() const noexcept
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::string
 
@@ -321,17 +120,9 @@ std::string ansys::dpf::Interface::getName() const noexcept
 ![][public]
 ![][const]
 
-
 ```cpp
 DataTree ansys::dpf::Interface::get() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree)
 
@@ -347,17 +138,9 @@ DataTree ansys::dpf::Interface::get() const
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< std::string > ansys::dpf::Interface::getExposedInputs() const noexcept
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::vector< std::string >
 
@@ -373,17 +156,9 @@ std::vector< std::string > ansys::dpf::Interface::getExposedInputs() const noexc
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< std::string > ansys::dpf::Interface::getExposedOutputs() const noexcept
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::vector< std::string >
 
@@ -399,17 +174,9 @@ std::vector< std::string > ansys::dpf::Interface::getExposedOutputs() const noex
 ![][public]
 ![][const]
 
-
 ```cpp
 std::map< std::string, CacheInformation::LevelAndDestination > ansys::dpf::Interface::getCacheInformation() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::map< std::string, CacheInformation::LevelAndDestination >
 
@@ -425,17 +192,9 @@ std::map< std::string, CacheInformation::LevelAndDestination > ansys::dpf::Inter
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::Interface::isToCache(const std::string &pinName) const noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -455,17 +214,9 @@ bool ansys::dpf::Interface::isToCache(const std::string &pinName) const noexcept
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::Interface::isOptional() const noexcept
 ```
-
-
-
-
-
-
-
 
 **Return type**: bool
 

@@ -3,10 +3,6 @@
 
 **Location**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/helpers/`
 
-
-
-
-
 ## Files
 
 * [dpf\_meshQuery.h](dpf__meshQuery_8h.md#dpf__meshQuery_8h)

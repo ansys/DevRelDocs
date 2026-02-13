@@ -6,12 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 1983)
 
-
-
-
-
-
-
 ## Members
 
 * [type\_name](structansys_1_1dpf_1_1reflect_3_01short_01_4.md#structansys_1_1dpf_1_1reflect_3_01short_01_4_1a8117a5458f92ba093d9c6a2986ed167c)
@@ -24,17 +18,9 @@
 ![][public]
 ![][static]
 
-
 ```cpp
 static std::string ansys::dpf::reflect< short >::type_name()
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::string
 

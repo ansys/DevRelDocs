@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6193)
 
-
-
-
-
 **Inherits from**:
 
 * [ansys::dpf::Operator](classansys_1_1dpf_1_1Operator.md#classansys_1_1dpf_1_1Operator)
@@ -188,60 +184,7 @@
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1RemoteOperator_1a81d95df60edf516a1de9878b780f8fb3"></a>
-### Friend OperatorMain
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6195)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorMain"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::RemoteOperator::OperatorMain"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorMain"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1RemoteOperator_1aefcc6eae29f490570ac73cc7710b4d16"></a>
-### Function RemoteOperator
-
-![][private]
-
-
-```cpp
-ansys::dpf::RemoteOperator::RemoteOperator(opaque::DpfObject *)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* opaque::DpfObject *
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::RemoteOperator::RemoteOperator"}]}`
--->
 
 ## Public functions
 
@@ -250,17 +193,9 @@ ansys::dpf::RemoteOperator::RemoteOperator(opaque::DpfObject *)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::RemoteOperator::RemoteOperator(Streams &streams, ansys::dpf::Operator const &remote_operator)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -280,17 +215,9 @@ ansys::dpf::RemoteOperator::RemoteOperator(Streams &streams, ansys::dpf::Operato
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::RemoteOperator::~RemoteOperator()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -306,17 +233,9 @@ virtual ansys::dpf::RemoteOperator::~RemoteOperator()
 ![][public]
 ![][const]
 
-
 ```cpp
 Streams ansys::dpf::RemoteOperator::getStreams() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: [Streams](classansys_1_1dpf_1_1Streams.md#classansys_1_1dpf_1_1Streams)
 
@@ -332,17 +251,9 @@ Streams ansys::dpf::RemoteOperator::getStreams() const
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_id ansys::dpf::RemoteOperator::getRemoteOperatorId() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: [dp\_id](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1ab4574c9af3f2bb8011da7d1f4c8da20e)
 
@@ -357,17 +268,9 @@ dp_id ansys::dpf::RemoteOperator::getRemoteOperatorId() const
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::RemoteOperator::registerStreamsHolderWorkflow(int workflow_id_in_remote_registry)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 

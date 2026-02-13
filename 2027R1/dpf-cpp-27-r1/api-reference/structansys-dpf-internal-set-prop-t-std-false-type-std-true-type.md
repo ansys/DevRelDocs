@@ -6,10 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 7089)
 
-
-
-
-
 **Template parameters**:
 
 * typename T
@@ -27,17 +23,9 @@
 ![][public]
 ![][static]
 
-
 ```cpp
 static void ansys::dpf::internal::set_prop< T, std::false_type, std::true_type >::internalSetProperty(GenericDataContainer &gdc, const std::string &property_name, const T &property)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -59,17 +47,9 @@ static void ansys::dpf::internal::set_prop< T, std::false_type, std::true_type >
 ![][public]
 ![][static]
 
-
 ```cpp
 static void ansys::dpf::internal::set_prop< T, std::false_type, std::true_type >::internalAddEntry(Collection< T > &collection, LabelSpace const &labels, T const &f, bool can_replace)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 

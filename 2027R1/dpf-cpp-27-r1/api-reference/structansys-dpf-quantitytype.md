@@ -27,33 +27,6 @@ Allows for the definition of a new quantity type. Many quantity types are predef
 
 ## Private attributes
 
-<a id="structansys_1_1dpf_1_1QuantityType_1a3c44846971e03cd97816d56777e5c5ad"></a>
-### Variable \_value
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 80)
-
-
-```cpp
-std::string ansys::dpf::QuantityType::_value
-```
-
-
-
-
-
-
-
-
-**Type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::QuantityType::_value"}]}`
--->
-
 ## Public functions
 
 <a id="structansys_1_1dpf_1_1QuantityType_1aad0ded6e541fc561a3c3d1c28cdcaf3f"></a>
@@ -61,17 +34,11 @@ std::string ansys::dpf::QuantityType::_value
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::QuantityType::QuantityType(std::string const &name="")
 ```
 
-
-
-
 Create new location.
-
-
 
 **Parameters**:
 
@@ -90,17 +57,9 @@ Create new location.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::QuantityType::QuantityType(QuantityType const &)=default
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -120,17 +79,9 @@ ansys::dpf::QuantityType::QuantityType(QuantityType const &)=default
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::QuantityType::operator==(QuantityType const &) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -150,17 +101,9 @@ bool ansys::dpf::QuantityType::operator==(QuantityType const &) const
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::QuantityType::operator<(QuantityType const &) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -180,17 +123,9 @@ bool ansys::dpf::QuantityType::operator<(QuantityType const &) const
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::QuantityType::operator<=(QuantityType const &) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -210,17 +145,9 @@ bool ansys::dpf::QuantityType::operator<=(QuantityType const &) const
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::QuantityType::operator!=(QuantityType const &) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -240,17 +167,11 @@ bool ansys::dpf::QuantityType::operator!=(QuantityType const &) const
 ![][public]
 ![][const]
 
-
 ```cpp
 ansys::dpf::QuantityType::operator std::string() const
 ```
 
-
-
-
 Name of quantity type.
-
-
 
 **Return type**: 
 
@@ -266,17 +187,9 @@ Name of quantity type.
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::QuantityType::empty() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: bool
 
@@ -292,20 +205,14 @@ bool ansys::dpf::QuantityType::empty() const
 ![][public]
 ![][const]
 
-
 ```cpp
 const char * ansys::dpf::QuantityType::c_str() const
 ```
-
-
-
 
 Gets name of quantity type. 
 **Returns**:
 
 Name of quantity type.
-
-
 
 **Return type**: const char *
 

@@ -31,33 +31,6 @@ Define a mesh info.
 
 ## Private attributes
 
-<a id="classansys_1_1dpf_1_1MeshInfo_1a9493684fe3cf86c47988022b9b1e9723"></a>
-### Variable \_genericData
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 5509)
-
-
-```cpp
-GenericDataContainer ansys::dpf::MeshInfo::_genericData
-```
-
-
-
-
-
-
-
-
-**Type**: GenericDataContainer
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::MeshInfo::_genericData"}]}`
--->
-
 ## Public functions
 
 <a id="classansys_1_1dpf_1_1MeshInfo_1a890fd135102502182cd0155f13524a49"></a>
@@ -65,17 +38,9 @@ GenericDataContainer ansys::dpf::MeshInfo::_genericData
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::MeshInfo::MeshInfo()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -90,17 +55,9 @@ ansys::dpf::MeshInfo::MeshInfo()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::MeshInfo::MeshInfo(const GenericDataContainer &_genericData)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -119,17 +76,9 @@ ansys::dpf::MeshInfo::MeshInfo(const GenericDataContainer &_genericData)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::MeshInfo::MeshInfo(MeshInfo const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -148,17 +97,9 @@ ansys::dpf::MeshInfo::MeshInfo(MeshInfo const &)
 
 ![][public]
 
-
 ```cpp
 MeshInfo & ansys::dpf::MeshInfo::operator=(MeshInfo const &)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -178,17 +119,9 @@ MeshInfo & ansys::dpf::MeshInfo::operator=(MeshInfo const &)
 ![][public]
 ![][const]
 
-
 ```cpp
 GenericDataContainer const  & ansys::dpf::MeshInfo::getGenericDataContainer() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: GenericDataContainer const &
 
@@ -204,17 +137,9 @@ GenericDataContainer const  & ansys::dpf::MeshInfo::getGenericDataContainer() co
 ![][public]
 ![][const]
 
-
 ```cpp
 T ansys::dpf::MeshInfo::getProperty(const std::string &property_name) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -234,17 +159,9 @@ T ansys::dpf::MeshInfo::getProperty(const std::string &property_name) const
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::MeshInfo::setProperty(const std::string &property_name, const T &property)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -265,17 +182,11 @@ void ansys::dpf::MeshInfo::setProperty(const std::string &property_name, const T
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::MeshInfo::setnumberOfNodes(int numNodes)
 ```
 
-
 @detail set the number of nodes.
-
-
-
-
 
 **Parameters**:
 
@@ -294,17 +205,11 @@ void ansys::dpf::MeshInfo::setnumberOfNodes(int numNodes)
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::MeshInfo::setnumberOfElements(int numElements)
 ```
 
-
 @detail set the number of elements.
-
-
-
-
 
 **Parameters**:
 
@@ -323,17 +228,11 @@ void ansys::dpf::MeshInfo::setnumberOfElements(int numElements)
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::MeshInfo::setSplittableBy(dpf::StringField splittableByScoping)
 ```
 
-
 @detail set strings name correspondind to mesh split scopings.
-
-
-
-
 
 **Parameters**:
 
@@ -352,17 +251,11 @@ void ansys::dpf::MeshInfo::setSplittableBy(dpf::StringField splittableByScoping)
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::MeshInfo::setAvailableElementType(dpf::Scoping availableElementTypes)
 ```
 
-
 @detail set available elements of the mesh.
-
-
-
-
 
 **Parameters**:
 
@@ -381,19 +274,13 @@ void ansys::dpf::MeshInfo::setAvailableElementType(dpf::Scoping availableElement
 
 ![][public]
 
-
 ```cpp
 int ansys::dpf::MeshInfo::numberOfNodes()
 ```
 
-
-
-
 **Returns**:
 
 the number of nodes of the mesh.
-
-
 
 **Return type**: int
 
@@ -408,19 +295,13 @@ the number of nodes of the mesh.
 
 ![][public]
 
-
 ```cpp
 int ansys::dpf::MeshInfo::numberOfElements()
 ```
 
-
-
-
 **Returns**:
 
 the number of elements of the mesh.
-
-
 
 **Return type**: int
 
@@ -435,19 +316,13 @@ the number of elements of the mesh.
 
 ![][public]
 
-
 ```cpp
 dpf::Scoping ansys::dpf::MeshInfo::getAvailableElementTypes()
 ```
 
-
-
-
 **Returns**:
 
 the available element types of the mesh.
-
-
 
 **Return type**: [dpf::Scoping](classansys_1_1dpf_1_1Scoping.md#classansys_1_1dpf_1_1Scoping)
 
@@ -462,19 +337,13 @@ the available element types of the mesh.
 
 ![][public]
 
-
 ```cpp
 dpf::StringField ansys::dpf::MeshInfo::getSplittableBy()
 ```
 
-
-
-
 **Returns**:
 
 the names of the scoped meshes that split the mesh.
-
-
 
 **Return type**: [dpf::StringField](classansys_1_1dpf_1_1StringField.md#classansys_1_1dpf_1_1StringField)
 

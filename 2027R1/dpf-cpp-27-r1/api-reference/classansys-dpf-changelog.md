@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6409)
 
-
-
 [Changelog](classansys_1_1dpf_1_1Changelog.md#classansys_1_1dpf_1_1Changelog) class
 
 **Inherits from**:
@@ -42,61 +40,7 @@
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1Changelog_1aa60b6022465bcd46362295cc53d4ba68"></a>
-### Friend OperatorSpecification
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6410)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorSpecification"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Changelog::OperatorSpecification"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorSpecification"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1Changelog_1a56d82c7fc2254fd57844be0a9926a672"></a>
-### Function append
-
-![][private]
-
-
-```cpp
-void ansys::dpf::Changelog::append(const SemanticVersion &version, const std::string changes)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* const [SemanticVersion](classansys_1_1dpf_1_1SemanticVersion.md#classansys_1_1dpf_1_1SemanticVersion) & **version**
-* const std::string **changes**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Changelog::append"}]}`
--->
 
 ## Public functions
 
@@ -105,17 +49,9 @@ void ansys::dpf::Changelog::append(const SemanticVersion &version, const std::st
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Changelog::Changelog()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -130,17 +66,9 @@ ansys::dpf::Changelog::Changelog()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Changelog::Changelog(const GenericDataContainer gdc)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -159,17 +87,9 @@ ansys::dpf::Changelog::Changelog(const GenericDataContainer gdc)
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::Changelog::~Changelog()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -184,17 +104,9 @@ virtual ansys::dpf::Changelog::~Changelog()
 
 ![][public]
 
-
 ```cpp
 Changelog & ansys::dpf::Changelog::patchBump(const std::string changes)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -213,17 +125,9 @@ Changelog & ansys::dpf::Changelog::patchBump(const std::string changes)
 
 ![][public]
 
-
 ```cpp
 Changelog & ansys::dpf::Changelog::minorBump(const std::string changes)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -242,17 +146,9 @@ Changelog & ansys::dpf::Changelog::minorBump(const std::string changes)
 
 ![][public]
 
-
 ```cpp
 Changelog & ansys::dpf::Changelog::majorBump(const std::string changes)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -271,17 +167,9 @@ Changelog & ansys::dpf::Changelog::majorBump(const std::string changes)
 
 ![][public]
 
-
 ```cpp
 Changelog & ansys::dpf::Changelog::expectVersion(const SemanticVersion &version)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -301,17 +189,9 @@ Changelog & ansys::dpf::Changelog::expectVersion(const SemanticVersion &version)
 ![][public]
 ![][const]
 
-
 ```cpp
 SemanticVersion ansys::dpf::Changelog::getLastVersion() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: [SemanticVersion](classansys_1_1dpf_1_1SemanticVersion.md#classansys_1_1dpf_1_1SemanticVersion)
 
@@ -327,17 +207,9 @@ SemanticVersion ansys::dpf::Changelog::getLastVersion() const
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< SemanticVersion > ansys::dpf::Changelog::getVersions() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::vector< [SemanticVersion](classansys_1_1dpf_1_1SemanticVersion.md#classansys_1_1dpf_1_1SemanticVersion) >
 
@@ -353,17 +225,9 @@ std::vector< SemanticVersion > ansys::dpf::Changelog::getVersions() const
 ![][public]
 ![][const]
 
-
 ```cpp
 std::vector< std::string > ansys::dpf::Changelog::getVersionsAsStrings() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::vector< std::string >
 
@@ -379,17 +243,9 @@ std::vector< std::string > ansys::dpf::Changelog::getVersionsAsStrings() const
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::Changelog::getChangesForVersion(const SemanticVersion &version) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -409,17 +265,9 @@ std::string ansys::dpf::Changelog::getChangesForVersion(const SemanticVersion &v
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::Changelog::getChangesForVersion(const std::string &version) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -439,17 +287,9 @@ std::string ansys::dpf::Changelog::getChangesForVersion(const std::string &versi
 ![][public]
 ![][const]
 
-
 ```cpp
 std::map< std::string, std::string > ansys::dpf::Changelog::toMap() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::map< std::string, std::string >
 

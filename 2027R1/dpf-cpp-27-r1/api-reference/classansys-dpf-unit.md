@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 333)
 
-
-
 Definition of a unit.
 
 ## Members
@@ -33,60 +31,6 @@ Definition of a unit.
 
 ## Private attributes
 
-<a id="classansys_1_1dpf_1_1Unit_1a014762fb8e86eb940385dd8e538011bb"></a>
-### Variable \_homo
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 336)
-
-
-```cpp
-Homogeneity ansys::dpf::Unit::_homo
-```
-
-
-
-
-
-
-
-
-**Type**: [Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Unit::_homo"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1Unit_1a4372f8b13cf1da6c3036430303d9765f"></a>
-### Variable \_symbol
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 337)
-
-
-```cpp
-std::string ansys::dpf::Unit::_symbol
-```
-
-
-
-
-
-
-
-
-**Type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Unit::_symbol"}]}`
--->
-
 ## Public functions
 
 <a id="classansys_1_1dpf_1_1Unit_1a3a9ceab17e3c6f63fed02c704fb8ce0d"></a>
@@ -94,17 +38,9 @@ std::string ansys::dpf::Unit::_symbol
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Unit::Unit()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -119,17 +55,11 @@ ansys::dpf::Unit::Unit()
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Unit::Unit(std::string const &symbol)
 ```
 
-
-
-
 Create a [Unit](classansys_1_1dpf_1_1Unit.md#classansys_1_1dpf_1_1Unit) with given name.
-
-
 
 **Parameters**:
 
@@ -148,17 +78,11 @@ Create a [Unit](classansys_1_1dpf_1_1Unit.md#classansys_1_1dpf_1_1Unit) with giv
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Unit::Unit(Homogeneity const &homogeneity, UnitSystem const &unit_system)
 ```
 
-
-
-
 Create a [Unit](classansys_1_1dpf_1_1Unit.md#classansys_1_1dpf_1_1Unit) with a given homogeneity from given unit_system.
-
-
 
 **Parameters**:
 
@@ -178,17 +102,11 @@ Create a [Unit](classansys_1_1dpf_1_1Unit.md#classansys_1_1dpf_1_1Unit) with a g
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Unit::Unit(Homogeneity const &homogeneity, std::string const &symbol)
 ```
 
-
-
-
 Create a [Unit](classansys_1_1dpf_1_1Unit.md#classansys_1_1dpf_1_1Unit) with a given homogeneity and a given symbol.
-
-
 
 **Parameters**:
 
@@ -209,17 +127,9 @@ Create a [Unit](classansys_1_1dpf_1_1Unit.md#classansys_1_1dpf_1_1Unit) with a g
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::Unit::operator==(Unit const &unit) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -239,19 +149,13 @@ bool ansys::dpf::Unit::operator==(Unit const &unit) const
 ![][public]
 ![][const]
 
-
 ```cpp
 double ansys::dpf::Unit::conversionFactorTo(Unit const &rhs) const
 ```
 
-
-
-
 **Returns**:
 
 Multiplication factor required to convert to new unit system.
-
-
 
 **Parameters**:
 
@@ -271,19 +175,13 @@ Multiplication factor required to convert to new unit system.
 ![][public]
 ![][const]
 
-
 ```cpp
 double ansys::dpf::Unit::shiftTo(Unit const &rhs) const
 ```
 
-
-
-
 **Returns**:
 
 Additive factor required to convert to new unit system.
-
-
 
 **Parameters**:
 
@@ -303,19 +201,13 @@ Additive factor required to convert to new unit system.
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::Unit::isHomogeneousTo(Unit const &) const
 ```
 
-
-
-
 **Returns**:
 
 Indication of same measurement quantities.
-
-
 
 **Parameters**:
 
@@ -335,19 +227,13 @@ Indication of same measurement quantities.
 ![][public]
 ![][const]
 
-
 ```cpp
 ansys::dpf::Homogeneity const  & ansys::dpf::Unit::homogeneity() const
 ```
 
-
-
-
 **Returns**:
 
 Measurement quantity.
-
-
 
 **Return type**: [ansys::dpf::Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity) const &
 
@@ -363,19 +249,13 @@ Measurement quantity.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string const  & ansys::dpf::Unit::toString() const
 ```
 
-
-
-
 **Returns**:
 
 Symbol name.
-
-
 
 **Return type**: std::string const &
 
@@ -391,19 +271,13 @@ Symbol name.
 ![][public]
 ![][const]
 
-
 ```cpp
 const char * ansys::dpf::Unit::c_str() const
 ```
 
-
-
-
 **Returns**:
 
 Symbol name.
-
-
 
 **Return type**: const char *
 
@@ -419,21 +293,15 @@ Symbol name.
 ![][public]
 ![][const]
 
-
 ```cpp
 Unit ansys::dpf::Unit::multiplyWith(Unit const &rhs) const
 ```
-
-
-
 
 **Returns**:
 
 new unit that is the product of this unit and another one.
 
 Works only for in process API.
-
-
 
 **Parameters**:
 
@@ -453,21 +321,15 @@ Works only for in process API.
 ![][public]
 ![][const]
 
-
 ```cpp
 Unit ansys::dpf::Unit::divideBy(Unit const &rhs) const
 ```
-
-
-
 
 **Returns**:
 
 new unit that is the division of this unit by another one.
 
 Works only for in process API.
-
-
 
 **Parameters**:
 
@@ -487,21 +349,15 @@ Works only for in process API.
 ![][public]
 ![][const]
 
-
 ```cpp
 Unit ansys::dpf::Unit::invert() const
 ```
-
-
-
 
 **Returns**:
 
 new the inverse unit to this one.
 
 Works only for in process API.
-
-
 
 **Return type**: Unit
 
@@ -517,21 +373,15 @@ Works only for in process API.
 ![][public]
 ![][const]
 
-
 ```cpp
 Unit ansys::dpf::Unit::pow(double power) const
 ```
-
-
-
 
 **Returns**:
 
 the powed unit.
 
 Works only for in process API.
-
-
 
 **Parameters**:
 
@@ -553,19 +403,13 @@ Works only for in process API.
 ![][public]
 ![][static]
 
-
 ```cpp
 static Homogeneity ansys::dpf::Unit::HomogeneityIdToHomogeneity(int id)
 ```
 
-
-
-
 **Returns**:
 
 the homogeneity corresponding to a homogeneity id
-
-
 
 **Parameters**:
 

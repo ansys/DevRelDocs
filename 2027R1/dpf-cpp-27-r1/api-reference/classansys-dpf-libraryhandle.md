@@ -31,87 +31,6 @@ Wraps dataProcessingCore loading in an RAII (Resource acquisition is initializat
 
 ## Private attributes
 
-<a id="classansys_1_1dpf_1_1LibraryHandle_1ad615e7360dec3aacfb8e11da02a6fc77"></a>
-### Variable \_api
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 1880)
-
-
-```cpp
-so::API* ansys::dpf::LibraryHandle::_api = nullptr
-```
-
-
-
-
-
-
-
-
-**Type**: so::API *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::LibraryHandle::_api"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1LibraryHandle_1ac2302a692079be9e8a91b0ae3f424c2c"></a>
-### Variable \_key
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 1881)
-
-
-```cpp
-std::string ansys::dpf::LibraryHandle::_key
-```
-
-
-
-
-
-
-
-
-**Type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::LibraryHandle::_key"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1LibraryHandle_1ad28867d2e3bab3c007745ccdff9ffc3d"></a>
-### Variable \_error
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 1882)
-
-
-```cpp
-ansys::dpf::DpfError ansys::dpf::LibraryHandle::_error
-```
-
-
-
-
-
-
-
-
-**Type**: [ansys::dpf::DpfError](classansys_1_1dpf_1_1DpfError.md#classansys_1_1dpf_1_1DpfError)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::LibraryHandle::_error"}]}`
--->
-
 ## Public functions
 
 <a id="classansys_1_1dpf_1_1LibraryHandle_1ace7af23aabdd94273ddce1266a0f402d"></a>
@@ -119,17 +38,11 @@ ansys::dpf::DpfError ansys::dpf::LibraryHandle::_error
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::LibraryHandle::LibraryHandle(std::string const &key="common", std::string const &shared_object_root_name="DataProcessingCore", LoadType load_type=LoadType::try_load, std::string const &dpf_client_api="DPFClientAPI")
 ```
 
-
-
-
 Must be the first call made to DPF API.
-
-
 
 **Parameters**:
 
@@ -151,17 +64,11 @@ Must be the first call made to DPF API.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::LibraryHandle::LibraryHandle(Context const &context, std::string const &key="common", std::string const &shared_object_root_name="DataProcessingCore", LoadType load_type=LoadType::try_load, std::string const &dpf_client_api="DPFClientAPI")
 ```
 
-
-
-
 Must be the first call made to DPF API. Using a [Context](classansys_1_1dpf_1_1Context.md#classansys_1_1dpf_1_1Context) that defines specific settings.
-
-
 
 **Parameters**:
 
@@ -184,17 +91,11 @@ Must be the first call made to DPF API. Using a [Context](classansys_1_1dpf_1_1C
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::LibraryHandle::LibraryHandle(std::string const &path_to_shared_object, Context const &context, std::string const &key="common", std::string const &shared_object_root_name="DataProcessingCore", LoadType load_type=LoadType::try_load, std::string const &path_to_dpf_client_api="", std::string const &dpf_client_api="DPFClientAPI")
 ```
 
-
-
-
 Must be the first call made to DPF API. Using a [Context](classansys_1_1dpf_1_1Context.md#classansys_1_1dpf_1_1Context) that defines specific settings.
-
-
 
 **Parameters**:
 
@@ -219,19 +120,13 @@ Must be the first call made to DPF API. Using a [Context](classansys_1_1dpf_1_1C
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::LibraryHandle::LibraryHandle(std::string const &key, std::string const &shared_object_root_name, ApiType api_type, LoadType load_type=LoadType::try_load, std::string const &dpf_client_api="DPFClientAPI")
 ```
 
-
-
-
 **Deprecated**:
 
 This call is deprecated. usage is not maintained.
-
-
 
 **Parameters**:
 
@@ -254,17 +149,9 @@ This call is deprecated. usage is not maintained.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::LibraryHandle::LibraryHandle(so::API *api)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -283,17 +170,9 @@ ansys::dpf::LibraryHandle::LibraryHandle(so::API *api)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::LibraryHandle::LibraryHandle(const LibraryHandle &)=delete
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -312,17 +191,9 @@ ansys::dpf::LibraryHandle::LibraryHandle(const LibraryHandle &)=delete
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::LibraryHandle::LibraryHandle(LibraryHandle &&)=delete
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -341,17 +212,9 @@ ansys::dpf::LibraryHandle::LibraryHandle(LibraryHandle &&)=delete
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::LibraryHandle::~LibraryHandle()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -366,17 +229,9 @@ ansys::dpf::LibraryHandle::~LibraryHandle()
 
 ![][public]
 
-
 ```cpp
 LibraryHandle & ansys::dpf::LibraryHandle::operator=(const LibraryHandle &)=delete
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -395,17 +250,9 @@ LibraryHandle & ansys::dpf::LibraryHandle::operator=(const LibraryHandle &)=dele
 
 ![][public]
 
-
 ```cpp
 LibraryHandle & ansys::dpf::LibraryHandle::operator=(LibraryHandle &&)=delete
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -425,17 +272,9 @@ LibraryHandle & ansys::dpf::LibraryHandle::operator=(LibraryHandle &&)=delete
 ![][public]
 ![][const]
 
-
 ```cpp
 so::API const  * ansys::dpf::LibraryHandle::callAPI() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: so::API const *
 
@@ -451,17 +290,9 @@ so::API const  * ansys::dpf::LibraryHandle::callAPI() const
 ![][public]
 ![][const]
 
-
 ```cpp
 ansys::dpf::DpfError const  & ansys::dpf::LibraryHandle::error() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: [ansys::dpf::DpfError](classansys_1_1dpf_1_1DpfError.md#classansys_1_1dpf_1_1DpfError) const &
 
@@ -477,17 +308,11 @@ ansys::dpf::DpfError const  & ansys::dpf::LibraryHandle::error() const
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::LibraryHandle::libraryDir() const
 ```
 
-
 Return the path to the directory where the library is loaded.
-
-
-
-
 
 **Return type**: std::string
 

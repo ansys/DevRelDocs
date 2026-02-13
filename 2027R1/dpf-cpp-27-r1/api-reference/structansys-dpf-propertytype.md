@@ -27,33 +27,6 @@ Allows for the definition of a new property types. Many property types are prede
 
 ## Private attributes
 
-<a id="structansys_1_1dpf_1_1PropertyType_1a4ca90a12d0ab8e44814088add3bfb81d"></a>
-### Variable \_value
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 226)
-
-
-```cpp
-std::string ansys::dpf::PropertyType::_value
-```
-
-
-
-
-
-
-
-
-**Type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropertyType::_value"}]}`
--->
-
 ## Public functions
 
 <a id="structansys_1_1dpf_1_1PropertyType_1a8e5eb3fe693b3874c4c0c6bc472d4fc5"></a>
@@ -61,17 +34,11 @@ std::string ansys::dpf::PropertyType::_value
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::PropertyType::PropertyType(std::string const &name)
 ```
 
-
-
-
 Create new property type.
-
-
 
 **Parameters**:
 
@@ -90,17 +57,9 @@ Create new property type.
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::PropertyType::PropertyType(PropertyType const &)=default
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -119,17 +78,9 @@ ansys::dpf::PropertyType::PropertyType(PropertyType const &)=default
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::PropertyType::PropertyType()=default
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -145,17 +96,9 @@ ansys::dpf::PropertyType::PropertyType()=default
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::PropertyType::operator==(PropertyType const &) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -175,17 +118,9 @@ bool ansys::dpf::PropertyType::operator==(PropertyType const &) const
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::PropertyType::operator<(PropertyType const &) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -205,17 +140,9 @@ bool ansys::dpf::PropertyType::operator<(PropertyType const &) const
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::PropertyType::operator<=(PropertyType const &) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -235,17 +162,9 @@ bool ansys::dpf::PropertyType::operator<=(PropertyType const &) const
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::PropertyType::operator!=(PropertyType const &) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -265,17 +184,11 @@ bool ansys::dpf::PropertyType::operator!=(PropertyType const &) const
 ![][public]
 ![][const]
 
-
 ```cpp
 ansys::dpf::PropertyType::operator std::string() const
 ```
 
-
-
-
 Name of property type.
-
-
 
 **Return type**: 
 
@@ -291,20 +204,14 @@ Name of property type.
 ![][public]
 ![][const]
 
-
 ```cpp
 const char * ansys::dpf::PropertyType::c_str() const
 ```
-
-
-
 
 Gets name of property type. 
 **Returns**:
 
 Name of property type.
-
-
 
 **Return type**: const char *
 

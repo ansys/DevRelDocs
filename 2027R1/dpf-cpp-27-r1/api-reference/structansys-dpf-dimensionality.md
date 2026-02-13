@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 861)
 
-
-
 Entity to describe the dimensionality. 
 
 **See also**: [dimensionalities](structansys_1_1dpf_1_1dimensionalities.md#structansys_1_1dpf_1_1dimensionalities)
@@ -40,7 +38,6 @@ Entity to describe the dimensionality.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 864)
 
-
 ```cpp
 enum ENature {
   eScalar = 0,
@@ -56,82 +53,37 @@ enum ENature {
 }
 ```
 
-
-
-
 Enum value to describe handled entities dimensions.
-
-
 
 <a id="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932fab1e374d84e9d59ff041f86b649785682"></a>
 #### Enumerator eScalar
 
-
-
-
-
 <a id="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932faf49ffdf91915fe856dd4465ec99cee86"></a>
 #### Enumerator eVector
-
-
-
-
 
 <a id="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932fab7504de6505b8d462ea4805ac78c63de"></a>
 #### Enumerator eMatrix
 
-
-
-
-
 <a id="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932faefe92d527d4e8342302e21584a6c95db"></a>
 #### Enumerator eThirdOrderTensor
-
-
-
-
 
 <a id="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932fa86439d7afe0bec6120829e128979c26a"></a>
 #### Enumerator eFourthOrderTensor
 
-
-
-
-
 <a id="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932faf671f518935364c6f60ca6353e024ea4"></a>
 #### Enumerator eSymmetricalMatrix
-
-
-
-
 
 <a id="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932fabfb10634b8229d98071873a53cbdbab1"></a>
 #### Enumerator eDiagonalMatrix
 
-
-
-
-
 <a id="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932fa14aa2c543af770bb2cfaf2bea185f2cb"></a>
 #### Enumerator eSymetricVoigtMatrix
-
-
-
-
 
 <a id="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932fa635756dc0dccbafeedf23f36cc4cb680"></a>
 #### Enumerator eIdentityMatrix
 
-
-
-
-
 <a id="structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932faac4c7551563382886e6ebdde81c74ec7"></a>
 #### Enumerator eFourthOrderIdentityTensor
-
-
-
-
 
 <!--
 **TODO**:
@@ -148,17 +100,11 @@ Enum value to describe handled entities dimensions.
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 868)
 
-
 ```cpp
 std::vector<int> ansys::dpf::Dimensionality::components
 ```
 
-
-
-
 Vector defining size of each dimension. For example, use { 1 } for scalar, { 3 } for a 3D vector, and { 3, 3 } for 3D tensor.
-
-
 
 **Type**: std::vector< int >
 
@@ -175,17 +121,11 @@ Vector defining size of each dimension. For example, use { 1 } for scalar, { 3 }
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 870)
 
-
 ```cpp
 ENature ansys::dpf::Dimensionality::nature
 ```
 
-
-
-
 [ENature](structansys_1_1dpf_1_1Dimensionality.md#structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932f) enum value to describe the dimension of the entity.
-
-
 
 **Type**: [ENature](structansys_1_1dpf_1_1Dimensionality.md#structansys_1_1dpf_1_1Dimensionality_1af4666dee615e27f2fe603240631b932f)
 
@@ -202,17 +142,9 @@ ENature ansys::dpf::Dimensionality::nature
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Dimensionality::Dimensionality()=delete
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -227,17 +159,11 @@ ansys::dpf::Dimensionality::Dimensionality()=delete
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::Dimensionality::Dimensionality(ENature innature, std::vector< int > const &incomponents)
 ```
 
-
-
-
 [Dimensionality](structansys_1_1dpf_1_1Dimensionality.md#structansys_1_1dpf_1_1Dimensionality) object that describes the entity dimensions.
-
-
 
 **Parameters**:
 
@@ -258,20 +184,14 @@ ansys::dpf::Dimensionality::Dimensionality(ENature innature, std::vector< int > 
 ![][public]
 ![][const]
 
-
 ```cpp
 dp_int ansys::dpf::Dimensionality::numberOfComponents() const
 ```
-
-
-
 
 [in] Vector defining size of each dimension.
 **Returns**:
 
 The number of components of the described entity.
-
-
 
 **Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
 

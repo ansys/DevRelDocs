@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 143)
 
-
-
 [SemanticVersion](classansys_1_1dpf_1_1SemanticVersion.md#classansys_1_1dpf_1_1SemanticVersion) class
 
 ## Members
@@ -28,170 +26,7 @@
 
 ## Private attributes
 
-<a id="classansys_1_1dpf_1_1SemanticVersion_1ac2b94734558ecc557b6ee6555a447670"></a>
-### Variable \_major
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 144)
-
-
-```cpp
-uint16_t ansys::dpf::SemanticVersion::_major
-```
-
-
-
-
-
-
-
-
-**Type**: uint16_t
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::SemanticVersion::_major"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1SemanticVersion_1a920a1e6bbd004182d2422c56b34bbcbf"></a>
-### Variable \_minor
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 145)
-
-
-```cpp
-uint16_t ansys::dpf::SemanticVersion::_minor
-```
-
-
-
-
-
-
-
-
-**Type**: uint16_t
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::SemanticVersion::_minor"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1SemanticVersion_1a7cf8911f3b028dee61b4344b4b2c538e"></a>
-### Variable \_patch
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 146)
-
-
-```cpp
-uint16_t ansys::dpf::SemanticVersion::_patch
-```
-
-
-
-
-
-
-
-
-**Type**: uint16_t
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::SemanticVersion::_patch"}]}`
--->
-
-<a id="classansys_1_1dpf_1_1SemanticVersion_1a3ccf7d3c9a27d0877b802f01315204f7"></a>
-### Variable OperatorSpecification
-
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 147)
-
-
-```cpp
-friend ansys::dpf::SemanticVersion::OperatorSpecification
-```
-
-
-
-
-
-
-
-
-**Type**: friend
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::SemanticVersion::OperatorSpecification"}]}`
--->
-
-## Friends
-
-<a id="classansys_1_1dpf_1_1SemanticVersion_1ae20c0436218f3c6589bf9e77a538259b"></a>
-### Friend Changelog
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 148)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Changelog"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::SemanticVersion::Changelog"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Changelog"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1SemanticVersion_1a9f2dd14fbb4213fdc0add52f4a53a9a8"></a>
-### Function SemanticVersion
-
-![][private]
-
-
-```cpp
-ansys::dpf::SemanticVersion::SemanticVersion(const std::string version_str)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* const std::string **version_str**
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::SemanticVersion::SemanticVersion"}]}`
--->
 
 ## Public functions
 
@@ -200,17 +35,9 @@ ansys::dpf::SemanticVersion::SemanticVersion(const std::string version_str)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::SemanticVersion::SemanticVersion(uint16_t major, uint16_t minor, uint16_t patch)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -231,17 +58,9 @@ ansys::dpf::SemanticVersion::SemanticVersion(uint16_t major, uint16_t minor, uin
 
 ![][public]
 
-
 ```cpp
 virtual ansys::dpf::SemanticVersion::~SemanticVersion()
 ```
-
-
-
-
-
-
-
 
 **Return type**: 
 
@@ -257,17 +76,9 @@ virtual ansys::dpf::SemanticVersion::~SemanticVersion()
 ![][public]
 ![][const]
 
-
 ```cpp
 uint16_t ansys::dpf::SemanticVersion::getMajor() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: uint16_t
 
@@ -283,17 +94,9 @@ uint16_t ansys::dpf::SemanticVersion::getMajor() const
 ![][public]
 ![][const]
 
-
 ```cpp
 uint16_t ansys::dpf::SemanticVersion::getMinor() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: uint16_t
 
@@ -309,17 +112,9 @@ uint16_t ansys::dpf::SemanticVersion::getMinor() const
 ![][public]
 ![][const]
 
-
 ```cpp
 uint16_t ansys::dpf::SemanticVersion::getPatch() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: uint16_t
 
@@ -335,17 +130,9 @@ uint16_t ansys::dpf::SemanticVersion::getPatch() const
 ![][public]
 ![][const]
 
-
 ```cpp
 std::string ansys::dpf::SemanticVersion::toString() const
 ```
-
-
-
-
-
-
-
 
 **Return type**: std::string
 
@@ -361,17 +148,9 @@ std::string ansys::dpf::SemanticVersion::toString() const
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::SemanticVersion::operator==(const SemanticVersion &other) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -391,17 +170,9 @@ bool ansys::dpf::SemanticVersion::operator==(const SemanticVersion &other) const
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::SemanticVersion::operator!=(const SemanticVersion &other) const
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 

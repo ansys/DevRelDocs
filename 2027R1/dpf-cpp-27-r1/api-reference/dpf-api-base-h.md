@@ -5,10 +5,6 @@
 
 **Location**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h`
 
-
-
-
-
 ## Classes
 
 * [ansys::dpf::reflect](structansys_1_1dpf_1_1reflect.md#structansys_1_1dpf_1_1reflect)
@@ -91,7 +87,6 @@
 * <complex>
 * tchar.h
 
-
 ```mermaid
 graph LR
 1["D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf_api_base.h"]
@@ -129,13 +124,11 @@ click 1 "dpf__api__base_8h.md#dpf__api__base_8h"
 
 ```
 
-
 ## Included by
 
 * [D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf_api.h](dpf__api_8h.md#dpf__api_8h)
 
 ## Source
-
 
 ```cpp
 //
@@ -193,7 +186,6 @@ namespace ansys
         typedef int dp_index;
         typedef double dp_double;
 
-
         template <typename DpfTypeT>
         struct reflect
         {
@@ -245,7 +237,6 @@ namespace ansys
 
             static const QuantityType unknown;
         };
-
 
         struct Location
         {
@@ -769,7 +760,6 @@ namespace ansys
             class FbsSlice;
             typedef void DpfCustomType;
 
-
             class DpfInternalSharedObject;
         }
 
@@ -1153,7 +1143,6 @@ namespace ansys
             void copy(std::vector<T>& to_fill)const;
             std::vector<T> copy()const;
 
-
             struct iterator {
                 friend class DpfVector;
             public:
@@ -1209,10 +1198,8 @@ namespace ansys
             iterator begin() const { return iterator(0, _data); }
             iterator end() const { return iterator(static_cast<typename iterator::index_type>(size()), _data); }
 
-
             inline void reset(iterator const& begin, iterator const& end);
         };
-
 
         template <typename T>
         DpfVector<T>::DpfVector(fillFunc const& constructor, opaque::DpfObject* obj)
@@ -1373,7 +1360,6 @@ namespace ansys
                 return _data->commit();
         }
 
-
         template <>
         class DpfVector<std::string>
         {
@@ -1409,7 +1395,6 @@ namespace ansys
             void copy(std::vector<std::string>& to_fill)const;
             std::vector<std::string> copy()const;
         };
-
 
         enum class ApiType
         {
@@ -1634,7 +1619,6 @@ namespace ansys
     } // end of namespace dpf
 } // end of namepsace ansys
 
-
 namespace helper
 {
     template <typename FunctionT, typename ...ArgsT>
@@ -1658,7 +1642,6 @@ namespace std {
 }
 
 ```
-
 
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)

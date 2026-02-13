@@ -6,8 +6,6 @@
 
 **Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6374)
 
-
-
 enables to set runtime configuration options to DPF [Client](classansys_1_1dpf_1_1Client.md#classansys_1_1dpf_1_1Client).
 
 **Inherits from**:
@@ -44,60 +42,7 @@ enables to set runtime configuration options to DPF [Client](classansys_1_1dpf_1
 
 ## Friends
 
-<a id="classansys_1_1dpf_1_1RuntimeClientConfig_1af764561c544bacc1b90b526ee8d3c708"></a>
-### Friend core
-
-![][C++]
-![][private]
-
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6377)
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::RuntimeClientConfig::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
--->
-
 ## Private functions
-
-<a id="classansys_1_1dpf_1_1RuntimeClientConfig_1a389fafdd0bdd37bd33e085ed86308c79"></a>
-### Function RuntimeClientConfig
-
-![][private]
-
-
-```cpp
-ansys::dpf::RuntimeClientConfig::RuntimeClientConfig(DataTree &data_tree)
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* [DataTree](classansys_1_1dpf_1_1DataTree.md#classansys_1_1dpf_1_1DataTree) & **data_tree**
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::RuntimeClientConfig::RuntimeClientConfig"}]}`
--->
 
 ## Public functions
 
@@ -106,17 +51,9 @@ ansys::dpf::RuntimeClientConfig::RuntimeClientConfig(DataTree &data_tree)
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::RuntimeClientConfig::RuntimeClientConfig(RuntimeClientConfig const &rhs)
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -135,17 +72,9 @@ ansys::dpf::RuntimeClientConfig::RuntimeClientConfig(RuntimeClientConfig const &
 
 ![][public]
 
-
 ```cpp
 ansys::dpf::RuntimeClientConfig::RuntimeClientConfig(RuntimeClientConfig &&rhs) noexcept
 ```
-
-
-
-
-
-
-
 
 **Parameters**:
 
@@ -164,17 +93,11 @@ ansys::dpf::RuntimeClientConfig::RuntimeClientConfig(RuntimeClientConfig &&rhs) 
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::RuntimeClientConfig::enableCache(bool use_cache)
 ```
 
-
-
-
 Sets whether gRPC calls should be intercepted to cache responses or not.
-
-
 
 **Parameters**:
 
@@ -194,19 +117,13 @@ Sets whether gRPC calls should be intercepted to cache responses or not.
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::RuntimeClientConfig::isCacheEnabled() const
 ```
 
-
-
-
 **Returns**:
 
 Whether gRPC calls are intercepted to cache responses or not.
-
-
 
 **Return type**: bool
 
@@ -221,17 +138,11 @@ Whether gRPC calls are intercepted to cache responses or not.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::RuntimeClientConfig::setStreamingBufferSize(int size)
 ```
 
-
-
-
 Sets the chunk size (in bytes) used in gRPC streaming calls.
-
-
 
 **Parameters**:
 
@@ -251,19 +162,13 @@ Sets the chunk size (in bytes) used in gRPC streaming calls.
 ![][public]
 ![][const]
 
-
 ```cpp
 int ansys::dpf::RuntimeClientConfig::getStreamingBufferSize() const
 ```
 
-
-
-
 **Returns**:
 
 the chunk size (in bytes) used in gRPC streaming calls.
-
-
 
 **Return type**: int
 
@@ -278,17 +183,11 @@ the chunk size (in bytes) used in gRPC streaming calls.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::RuntimeClientConfig::setStreamFloatsInsteadOfDoubles(bool use_float)
 ```
 
-
-
-
 Sets whether double values (8 bytes) should be converted and streamed as floats values (4 bytes) in gRPC streaming calls.
-
-
 
 **Parameters**:
 
@@ -308,19 +207,13 @@ Sets whether double values (8 bytes) should be converted and streamed as floats 
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::RuntimeClientConfig::streamingFloatsInsteadOfDouble() const
 ```
 
-
-
-
 **Returns**:
 
 Whether double values (8 bytes) are converted and streamed as floats values (4 bytes) in gRPC streaming calls.
-
-
 
 **Return type**: bool
 
@@ -335,17 +228,11 @@ Whether double values (8 bytes) are converted and streamed as floats values (4 b
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::RuntimeClientConfig::setMetadata(std::map< std::string, std::string > const &metadata)
 ```
 
-
-
-
 Sets the custom metadata appended to gRPC packets.
-
-
 
 **Parameters**:
 
@@ -365,17 +252,11 @@ Sets the custom metadata appended to gRPC packets.
 ![][public]
 ![][const]
 
-
 ```cpp
 std::map< std::string, std::string > ansys::dpf::RuntimeClientConfig::getMetadata() const
 ```
 
-
-
-
 Gets the custom metadata appended to gRPC packets.
-
-
 
 **Return type**: std::map< std::string, std::string >
 
@@ -390,17 +271,11 @@ Gets the custom metadata appended to gRPC packets.
 
 ![][public]
 
-
 ```cpp
 void ansys::dpf::RuntimeClientConfig::setSecureConnection(bool secure)
 ```
 
-
-
-
 Sets the use of TLS for secure gRPC connections.
-
-
 
 **Parameters**:
 
@@ -420,17 +295,11 @@ Sets the use of TLS for secure gRPC connections.
 ![][public]
 ![][const]
 
-
 ```cpp
 bool ansys::dpf::RuntimeClientConfig::isConnectionSecure() const
 ```
 
-
-
-
 Returns if the gRPC communication is secured by using TLS.
-
-
 
 **Return type**: bool
 
