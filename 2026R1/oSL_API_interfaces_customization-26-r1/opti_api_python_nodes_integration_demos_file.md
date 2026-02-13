@@ -1,4 +1,4 @@
-# File-based demos
+# File-based Demos
 If you switch the config file entry `FileBased` from "false" to "true", the reference file entry with browser button appears prominently at the top of the node edit dialog.
 
 ![demo_file_fig1.png](graphics/demo_file_fig1.png)

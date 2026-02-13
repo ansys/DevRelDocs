@@ -1,7 +1,6 @@
 
 # Basic Node
 The following topics describe the framework for creating a Python-based node plugin.
-## Table of Contents
 
 - [Basic Requirements](#basic-requirements)
 - [Functions to Implement](#functions-to-implement)
@@ -175,14 +174,14 @@ The following tables describe the standardized data structures of important obje
 
 | Name | Type | Description |
 |------|------|-------------|
-| OSL_PROJECT_WORKING_DIR | Absolute path of the current project (`*.opd`).|
-| OSL_PROJECT_FILE_DIR | Absolute path of the current directory containing the project file (`*.opf`)|
-| OSL_PROJECT_DIR<br>***Deprecated.*** | String | Absolute path of the current project (`*opd`). ***Deprecated.*** |
+| OSL_PROJECT_WORKING_DIR | String | Absolute path of the current project working directory (`*.opd`). |
+| OSL_PROJECT_FILE_DIR | String | Absolute path of the current directory containing the project file (**`*.opf`**). |
 | OSL_NODE_NAME | String | Name of the current node. |
 | OSL_HOME | String | Absolute path of the directory containing the optiSLang executable. |
 | OSL_RLS_VER | String | The version number of optiSLang. |
 | OSL_RLS_REV | String | The revision number of optiSLang. |
 | OSL_RLS_FLG | String | A version suffix which is normally empty unless a specific build is set. |
+| OSL_PROJECT_DIR<br>***Deprecated.*** | String | Absolute path of the current project (`*.opd`). ***Deprecated.*** |
 
 **Table 4: optiSLang Variables that Vary Per HID in Execute Function**
 

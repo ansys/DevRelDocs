@@ -184,10 +184,6 @@ Return the union of this set and other.
 
 #### *property* base_path_mode
 
-<a id="stdcpp_python_export.RelativeSplittedPath.resolved"></a>
-
-#### resolved(arg2: [Path](#stdcpp_python_export.Path), arg3: [Path](#stdcpp_python_export.Path), arg4: [Path](#stdcpp_python_export.Path), arg5: [Path](#stdcpp_python_export.Path)) → [Path](#stdcpp_python_export.Path)
-
 <a id="stdcpp_python_export.RelativeSplittedPath.splitted_path"></a>
 
 #### *property* splitted_path

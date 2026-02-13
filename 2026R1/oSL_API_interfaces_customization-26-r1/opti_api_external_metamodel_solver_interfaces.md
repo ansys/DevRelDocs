@@ -46,9 +46,9 @@ Complete the following procedure to use the MOP Solver standalone interface.
 
 ## Using the MOP Solver Programming Interface
 
-In addition to the [standalone interface](#using-the-mop-solver-programming-interface), you can also use a programming interface to the MOP Solver. This C based API allows the MOP Solver to be embedded in various programming environments.
+In addition to the [standalone interface](#using-the-mop-solver-standalone-interface), you can also use a programming interface to the MOP Solver. This C based API allows the MOP Solver to be embedded in various programming environments.
 
-To get started with the MOP Solver C API, usage examples and reference documentation are provided under the [optiSLang MOPSolver API documentation](https://developer.ansys.com/docs/optislang-mopsolver-api-2023-r2/index.xhtml).
+To get started with the MOP Solver C API, usage examples and reference documentation are provided under the [optiSLang MOPSolver API documentation](https://developer.ansys.com/product/optiSLang-MOPSolver-API-2023-R2/index.xhtml).
 
 The MOP Solver installation and its API is located within the base installation directory (`[installation path]`) and includes the following subfolders and files:
 
