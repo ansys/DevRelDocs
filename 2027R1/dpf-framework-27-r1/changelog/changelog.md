@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-02-11).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-02-14).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -22,7 +22,7 @@ The following table shows which components have updates in each category.
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils | [1 item](#Features_femutils) |[12 items](#Fixes_femutils) |
+| femutils | [2 items](#Features_femutils) |[12 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
 | framework | [2 items](#Features_framework) |[5 items](#Fixes_framework) |
 | grpc | [1 item](#Features_grpc) |[3 items](#Fixes_grpc) |
@@ -348,6 +348,11 @@ The following table shows which components have updates in each category.
 
 ## femutils
 ### <a id="Features_femutils"></a> Features
+
+- Switch from_scoping to entry:
+  > Switch mesh::by_scopings op to public
+  >
+  > 
 
 - Implementing build_scoping_build_index_tables in split_mesh and meshes::by_scopings and refactoring:
   > Improvement in the performance for `split_mesh`, `meshes::by_scopings` and `mesh::by_scoping` operators for cases with non-shared scoping between property fields and mesh.
@@ -2570,6 +2575,10 @@ Upgraded documentation
 
   > 0.2.0: Improvement in the performance for cases with non shared scoping between property fields and mesh.
 
+  > 0.2.1: Minor improvements in performance.
+
+  > 0.3.0: From premium to entry.
+
 
 - [from_scopings](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/from_scopings.md)
 
@@ -2583,6 +2592,11 @@ Upgraded documentation
 - [mesh_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/mesh_provider.md)
 
   > 0.1.0: Update the effect of the permissive configuration.
+
+
+- [mesh_to_pyvista](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/mesh_to_pyvista.md)
+
+  > 0.0.1: Fix node ordering for face connectivity of fluid cell faces marked as reversed.
 
 
 - [meshes_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/meshes_provider.md)
