@@ -8,9 +8,8 @@
       "date": "2026-02-16",
       "status": "unpublished",
       "api categories": "Autonomous Vehicle Simulation",
-      "product": "AVxcelerate A Sensors Simulator API",
-      "product collection": "Autonomous Vehicle Simulation",
-      "physics": "Autonomous Driving"
+      "product": "AVxcelerate Sensors Simulator API",
+      "physics": "Autonomous Vehicle Simulation"
     }
   }
 }
