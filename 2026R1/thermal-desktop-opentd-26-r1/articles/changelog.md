@@ -1,5 +1,18 @@
 # Changelog
 
+## Version 2026 R1
+
+### Notes
+
+- The .NET 4 versions of the dll's will have assembly version 26.1.4.x and will be installed to the GAC, as usual.
+- The .NET 8 versions of the dll's will have assembly version 26.1.8.y and will be installed in the TD installation directory. .NET 8 does not use the GAC.
+
+### New Features
+
+- Added ability to read UDFAs in OpenTD.Results
+- Added ability to read radk database in the .NET 8 version of OpenTD.Results
+
+
 ## Version 2025 R2
 
 ### Notes
