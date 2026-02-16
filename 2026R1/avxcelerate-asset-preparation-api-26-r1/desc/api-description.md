@@ -1,10 +1,10 @@
 # API description
 
-> **Important Note:** You are reading the documentation for AVxcelerate Asset Preparation API v3 delivered in 2025 R2.
+> **Important Note:** You are reading the documentation for AVxcelerate Asset Preparation API v3 delivered in 2026 R1.
 >
-> To consult the documentation of the v3 delivered in 2025 R1, go to the [Ansys Developer Portal](https://developer.ansys.com/).
+> To consult the documentation of the v3 delivered in prior releases, go to the [Ansys Developer Portal](https://developer.ansys.com/).
 >
-> Please refer to the [Changelog](./../changelog/changelog.md) to get the complete list of changes introduced in this version.
+> Please refer to the [Changelog](../changelog/changelog.md) to get the complete list of changes introduced in this version.
 >
 ## Overview
 
@@ -108,57 +108,99 @@ To access the AVxcelerate Asset Preparation API, the server must be started so t
 
 The script to start the server is provided in the *Asset_Preparation_API* folder:
 
-- on Windows:  `asset_preparation.ps1` (with the default installation path the script is located in `C:/Program Files/ANSYS Inc/v252/Autonomy/AVxcelerateSensors/APIs/Asset_Preparation_API`)
-- on Linux: `asset_preparation.sh` (with the default installation path the script is located in `/ansys_inc/v252/Autonomy/AVxcelerateSensors/APIs/Asset_Preparation_API`)
+- on Windows:  `asset_preparation.ps1` (with the default installation path the script is located in `C:/Program Files/ANSYS Inc/v261/Autonomy/AVxcelerateSensors/APIs/Asset_Preparation_API`)
+- on Linux: `asset_preparation.sh` (with the default installation path the script is located in `/ansys_inc/v261/Autonomy/AVxcelerateSensors/APIs/Asset_Preparation_API`)
   
 To access the user documentation of the API, launch the script with the `user-doc` argument.
 
 ### Supported versions
 
-The Asset Preparation Server delivered in the 2025 R2 product package supports several versions of the API. You must specify which API version must be launched when starting the Asset Preparation Server.
+The Asset Preparation Server delivered in the 2026 R1 product package supports several versions of the API. To use the API v3, you must specify the API version when starting the Asset Preparation server.
 
-### Port
+### Transport mode
 
-The default port the server uses to communicate is TCP port 5001. If this port is already used by another application, specify the port parameter when starting the Asset Preparation Server.
+The Asset Preparation server and the client applications must run on the same workstation.
+To be able to communicate with the Asset Preparation server, the transport mode used by client applications must correspond to the transport mode configured for Asset Preparation server.
+
+#### UDS
+
+The default communication mode the Asset Preparation server uses is Unix Domain Socket (UDS). An UDS socket file will be automatically created when the server is started.
+
+With the default settings, the socket file is named _ap_api.sock_ and located in `[USER_HOME_DIRECTORY]/.conn`.
+
+Optionally, you can define a custom location for the socket file using the `-udsDir` parameter and/or an identifier for the socket file using the `-udsId` parameter. When an identifier is defined, the socket file is named _ap_api-<uds-id>.sock_.
+
+> **Note**: The maximum length of the full path to the socket file (file name included) is 107 characters on Linux and on Windows. Space and special characters are not allowed in the directory path, nor in the identifier.
+
+The Asset Preparation server cannot start if the socket file is already used by another application.
+
+#### Insecure
+
+Alternatively to the UDS transport mode, you may use the insecure transport mode to communicate with the Asset Preparation server.
+
+> **Important note**: Using the insecure transport mode is not recommended.
+
+The default port the server uses to communicate in insecure mode is TCP port 5001. If this port is already used by another application, specify the `-port` parameter when starting the Asset Preparation server.
 
 ### Starting the Asset Preparation server
 
-To start the Asset preparation server, launch the script with the `start` argument and the following parameters:
+To start the Asset preparation server for the API v3, launch the script with the `start` argument and the `-apiVersion` parameter.
 
-- `-apiVersion` to specify the version of the API
+Example to start the server for the API v3
 
-  > **Note**: If you do not set this parameter, the server will start the API v1.
-
-- `-port` to specify the port to communicate with the Asset Preparation server.  If not set the default port (TCP 5001) is used.
-
-Example on Windows using PowerShell:
+- on Windows using PowerShell:
 
 ```ps
-PS C:\Users\myusername> cd "C:\Program Files\ANSYS Inc\v252\Autonomy\AVxcelerateSensors\APIs\Asset_Preparation_API"
-PS C:\Program Files\ANSYS Inc\v252\Autonomy\AVxcelerateSensors\APIs\Asset_Preparation_API> .\asset_preparation.ps1 start -apiVersion 3
+PS C:\Users\myusername> cd "C:\Program Files\ANSYS Inc\v261\Autonomy\AVxcelerateSensors\APIs\Asset_Preparation_API"
+PS C:\Program Files\ANSYS Inc\v261\Autonomy\AVxcelerateSensors\APIs\Asset_Preparation_API> .\asset_preparation.ps1 start -apiVersion 3
 ```
 
-Example on Linux using PowerShell:
+- on Linux using PowerShell:
 
 ```ps
-PS /home>cd "/ansys_inc/v252/Autonomy/AVxcelerateSensors/APIs/Asset_Preparation_API"
-PS /ansys_inc/v252/Autonomy/AVxcelerateSensors/APIs/Asset_Preparation_API>./asset_preparation.sh start -apiVersion 3
+PS /home>cd "/ansys_inc/v261/Autonomy/AVxcelerateSensors/APIs/Asset_Preparation_API"
+PS /ansys_inc/v261/Autonomy/AVxcelerateSensors/APIs/Asset_Preparation_API>./asset_preparation.sh start -apiVersion 3
+```
+  
+Additional parameters may be set according to your needs:
+
+- `-transportMode` to specify the communication mode. The supported options are `uds` and `insecure`. If not set, UDS mode is used.
+- `-udsDir` to specify the directory in which the socket file is created in UDS mode. If not set, the socket file is created in `[USER_HOME_DIRECTORY]/.conn`.
+- `-udsId` to specify an identifier for the socket in UDS mode. If not set, the name of the socket file is _ap_api.sock_.
+- `-port` to specify the port to communicate with the Asset Preparation server in insecure mode. If not set, the default port (TCP 5001) is used.
+
+Example to start the server for API v3 with specific UDS settings
+
+- on Windows using PowerShell:
+
+```ps
+PS C:\Users\myusername> cd "C:\Program Files\ANSYS Inc\v261\Autonomy\AVxcelerateSensors\APIs\Asset_Preparation_API"
+PS C:\Program Files\ANSYS Inc\v261\Autonomy\AVxcelerateSensors\APIs\Asset_Preparation_API> .\asset_preparation.ps1 start -apiVersion 3 -transportMode uds -udsDir "C:\ProgramData\uds_socket_files" -udsId myUdsSocket
+```
+
+- on Linux using PowerShell:
+
+```ps
+PS /home>cd "/ansys_inc/v261/Autonomy/AVxcelerateSensors/APIs/Asset_Preparation_API"
+PS /ansys_inc/v261/Autonomy/AVxcelerateSensors/APIs/Asset_Preparation_API>./asset_preparation.sh start -apiVersion 3 -transportMode uds -udsDir "/usr/uds_socket_files" -udsId myUdsSocket
 ```
 
 ### Stopping the Asset Preparation server
+
+Once you are done using the Asset Preparation API, you must stop the Asset preparation server.
 
 To stop the Asset preparation server, launch the script with the `stop` argument.
 
 Example on Windows using PowerShell:
 
 ```ps
-PS C:\Program Files\ANSYS Inc\v252\Autonomy\AVxcelerateSensors\APIs\Asset_Preparation_API> .\asset_preparation.ps1 stop
+PS C:\Program Files\ANSYS Inc\v261\Autonomy\AVxcelerateSensors\APIs\Asset_Preparation_API> .\asset_preparation.ps1 stop
 ```
 
 Example on Linux using PowerShell:
 
 ```ps
-PS /ansys_inc/v252/Autonomy/AVxcelerateSensors/APIs/Asset_Preparation_API>./asset_preparation.sh stop
+PS /ansys_inc/v261/Autonomy/AVxcelerateSensors/APIs/Asset_Preparation_API>./asset_preparation.sh stop
 ```
 
 ## Status and error management
@@ -223,7 +265,7 @@ The service receiving the data handles the chunks in the same order as it receiv
 - ![Diagram Key Choice](diagram_key_choice.png) Rounded boxes represent possibilities (OneOf). Example: the rotation can be a Quaternion or Euler Angles.
 
 > **Note**:
-> To ease the creation of objects using this API, most of the fields in the creation request messages are not required: if a field is not specified, the default value for the field is used. The default value of each field in the messages used in object creation requests are provided in the [Reference](./../ref/reference-documentation.md) section of the documentation.
+> To ease the creation of objects using this API, most of the fields in the creation request messages are not required: if a field is not specified, the default value for the field is used. The default value of each field in the messages used in object creation requests are provided in the [Reference](../ref/reference-documentation.md) section of the documentation.
 >
 > The fields where a reference or an instance is expected however are always required.
 >
@@ -262,7 +304,7 @@ The *Resource Preparation* service (exposed in the *resource/resource.proto* fil
 
 #### Resource Preparation service input
 
-The *Resource Preparation* service accepts a stream of chunks as input of the **UploadResource** call, see [ResourcePreparation](./../ref/reference-documentation.md#resourcepreparation). The service waits for metadata with the `AVX MIMEType` key, which contains the MIMEType of the sent data.
+The *Resource Preparation* service accepts a stream of chunks as input of the **UploadResource** call, see [ResourcePreparation](../ref/reference-documentation.md#resourcepreparation). The service waits for metadata with the `AVX MIMEType` key, which contains the MIMEType of the sent data.
 
 A user-defined name can be provided to the uploaded resource with the `AVX DataName` key, which contains the name of the sent data.
 
@@ -310,10 +352,10 @@ For irradiance maps, they must comply with the following requirements:
 
 You can generate an irradiance map (.xmp) file with Speos as follows:
 
-1. Create an irradiance sensor. For more details, refer to [Creating an Irradiance Sensor in Ansys Speos User's Guide](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v252/en/Optis_UG_ASP/Optis/UG_ASP/T_UG_ASP_sensor_creating_irradiance_sensor.html).
+1. Create an irradiance sensor. For more details, refer to [Creating an Irradiance Sensor in Ansys Speos User's Guide](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v261/en/Optis_UG_ASP/Optis/UG_ASP/T_UG_ASP_sensor_creating_irradiance_sensor.html).
 1. Check the orientation of the xmp: +X of the xmp map must correspond to the right lateral direction of the car (+x expressed in car coordinate system).
 1. Check the orientation of the xmp:-Y of the xmp map must correspond to the forward direction of the car (-z expressed in car coordinate system).
-1. Run a [simulation](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v252/en/Optis_UG_ASP/Optis/UG_ASP/simulations_179503.html).
+1. Run a [simulation](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v261/en/Optis_UG_ASP/Optis/UG_ASP/simulations_179503.html).
 
 **Example** - send the first chunk containing only metadata
 
@@ -329,7 +371,7 @@ await call.RequestStream.WriteAsync(new Chunk
 
 #### Resource Preparation service output
 
-The *Resource Description* service outputs chunks as a byte stream from the **DownloadResourceAsChunks** call, see [ResourcePreparation](./../ref/reference-documentation.md#resourcepreparation). The service sends metadata with the `AVX MIMEType` key defining the type of the data, with the same format as for the **UploadResource**: `type/subtype` with the original file extension as a subtype, and the `AVX DataName` key defining the name of the data. The data is the stream of the original file.
+The *Resource Description* service outputs chunks as a byte stream from the **DownloadResourceAsChunks** call, see [ResourcePreparation](../ref/reference-documentation.md#resourcepreparation). The service sends metadata with the `AVX MIMEType` key defining the type of the data, with the same format as for the **UploadResource**: `type/subtype` with the original file extension as a subtype, and the `AVX DataName` key defining the name of the data. The data is the stream of the original file.
 The identifier of a downloaded resource can then be used to reference the resource in a message of another service.
 
 > **Note:** Irradiance maps cannot be downloaded, neither as chunks, nor as file because after import, the xmp file is converted into a proprietary format which cannot be converted back to the xmp file format.
@@ -458,7 +500,7 @@ Here is the structure of a transform:
 
 #### Tags
 
-The **Tag** message, exposed in the *common/tag.proto* file, allows you to specify parts of interest so that the assets are properly animated during the simulation. Refer to the tags listed [here](./../ref/reference-documentation.md#tag) for the expected case of each tag.
+The **Tag** message, exposed in the *common/tag.proto* file, allows you to specify parts of interest so that the assets are properly animated during the simulation. Refer to the tags listed [here](../ref/reference-documentation.md#tag) for the expected case of each tag.
 
 There are two main categories of tags: `Basic` and `Lighting System`.
 
@@ -520,7 +562,7 @@ All the dependencies of the imported scene tree are also uploaded into the corre
 The import operation triggers a check for conflicts between the objects already existing on the server and the objects to import based on their names, except for scene trees, light instances, nodes and material parts.
 How the conflicting objects are handled is ruled by:
 
-- the `Name Conflict Policy` field of the **PutSceneTreeFromAssetFileRequest** message for **PutSceneTreeFromAssetFile**, see [ConflictPolicy](./../ref/reference-documentation.md#conflictpolicy).
+- the `Name Conflict Policy` field of the **PutSceneTreeFromAssetFileRequest** message for **PutSceneTreeFromAssetFile**, see [ConflictPolicy](../ref/reference-documentation.md#conflictpolicy).
 - the `AVX ConflictPolicy` metadata which must be provided in the first chunk for **PutSceneTreeFromAssetChunks**.
   The `AVX ConflictPolicy` metadata should be one of the following text strings (case-insensitive):
 
@@ -536,8 +578,8 @@ How the conflicting objects are handled is ruled by:
 Here are possible outputs of the *Scene Tree Preparation* service.
 
 - The binary data of the scene tree with an identifier. This identifier can be used to reference the created scene tree in an environment.
-- Chunks of binary data from the **GetAssetChunks** call, see [SceneTreePreparation](./../ref/reference-documentation.md#scenetreepreparation). The data is the content of the asset.
-- A .asset file from the **GetAssetFile** call, see [SceneTreePreparation](./../ref/reference-documentation.md#scenetreepreparation).
+- Chunks of binary data from the **GetAssetChunks** call, see [SceneTreePreparation](../ref/reference-documentation.md#scenetreepreparation). The data is the content of the asset.
+- A .asset file from the **GetAssetFile** call, see [SceneTreePreparation](../ref/reference-documentation.md#scenetreepreparation).
   When the .asset file exported from the API is imported in AVxcelerate Asset Preparation Editor, the scene tree is converted to one .scenetree file.
 
 ### Environment Preparation service
@@ -568,7 +610,7 @@ All the dependencies of the imported environment are also uploaded into the corr
 The import operation triggers a check for conflicts between the objects already existing on the server and the objects to import based on their names, except for scene trees, light instances, nodes and material parts.
 How the conflicting objects are handled is ruled by:
 
-- the `Name Conflict Policy` field of the **PutEnvironmentFromTrackFileRequest** message for **PutEnvironmentFromTrackFile**, see [ConflictPolicy](./../ref/reference-documentation.md#conflictpolicy).
+- the `Name Conflict Policy` field of the **PutEnvironmentFromTrackFileRequest** message for **PutEnvironmentFromTrackFile**, see [ConflictPolicy](../ref/reference-documentation.md#conflictpolicy).
 - the `AVX ConflictPolicy` metadata which must be provided in the first chunk for **PutEnvironmentFromTrackChunks**.
   The `AVX ConflictPolicy` metadata should be one of the following text strings (case-insensitive):
 
@@ -581,8 +623,8 @@ How the conflicting objects are handled is ruled by:
 
 The different outputs of the *Environment Preparation* service are:
 
-- chunks as a byte stream from the **GetTackChunks** call, see [EnvironmentPreparation](./../ref/reference-documentation.md#environmentpreparation). The data is the content of the track.
-- a .track file from the **GetTrackFile** call, see [EnvironmentPreparation](./../ref/reference-documentation.md#environmentpreparation).
+- chunks as a byte stream from the **GetTackChunks** call, see [EnvironmentPreparation](../ref/reference-documentation.md#environmentpreparation). The data is the content of the track.
+- a .track file from the **GetTrackFile** call, see [EnvironmentPreparation](../ref/reference-documentation.md#environmentpreparation).
   When the .track file exported from the API is imported in AVxcelerate Asset Preparation Editor, the environment is converted to one .env file.
 
 ### Natural Sky Preparation service
@@ -842,15 +884,15 @@ For tracks and assets exported as a byte stream from the AVxcelerate Asset Prepa
     - **AssetInfo** > **Assets** > **ResourceIdentifier** > **ID**
     - **Track** > **ResourceIdentifier** > **ID**
 
-Refer to the AVXCELERATE Sensors Simulator API Documentation published on the [Ansys Developer Portal](https://developer.ansys.com/).
+Refer to the AVxcelerate Sensors Simulator API Documentation published on the [Ansys Developer Portal](https://developer.ansys.com/).
 
 ### Asset and Track files
 
-To check the .asset and .track files created using this API, open the files in AVxcelerate Asset Preparation Editor, refer to [AVxcelerate Asset Preparation User's Guide](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v252/en/Optis_UG_VRXP/index.html).
+To check the .asset and .track files created using this API, open the files in AVxcelerate Asset Preparation Editor.
 
 To set the .asset and .track files as inputs for AVxcelerate Sensors Simulator for a co-simulation with CarMaker:
 
-1. add the references to the .asset and .track files into the json co-simulation mapping file (refer to [Mapping AVX to CarMaker Track and Assets](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v252/en/Optis_UG_VSS/Optis/shared/reusable_topics/tasks/T_UG_VSS_mapping_CM_assets.html) or [Mapping AVX to SCANeR Assets](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v252/en/Optis_UG_VSS/Optis/UG_VSS/T_UG_VSS_mapping_assets.html))
-1. set the mapping file in the connector parameters (refer to [Setting the AVXConnector Parameters](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v252/en/Optis_UG_VSS/Optis/shared/reusable_topics/tasks/T_UG_VSS_setting_AVXConnector_settings.html) or [Applying the Configuration Files to a SCANeR Scenario](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v252/en/Optis_UG_VSS/Optis/UG_VSS/T_UG_VSS_setting_AVXConnector_settings.html)).
+1. add the references to the .asset and .track files into the json co-simulation mapping file, refer to [Mapping AVX to CarMaker Track and Assets](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v261/en/Optis_UG_VSS/Optis/shared/reusable_topics/tasks/T_UG_VSS_mapping_CM_assets.html),
+1. set the mapping file in the connector parameters, refer to [Setting the AVXConnector Parameters](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v261/en/Optis_UG_VSS/Optis/shared/reusable_topics/tasks/T_UG_VSS_setting_AVXConnector_settings.html).
 
-To set the .asset and .track files as inputs for AVxcelerate Sensors Simulator through a custom connector built upon AVxcelerate Sensors Simulator API, define them in the *Simulation Control* service > **LOAD** command > **Configuration** message > `SceneInfo` field. Refer to the AVXCELERATE Sensors Simulator API Documentation published on the [Ansys Developer Portal](https://developer.ansys.com/).
+To set the .asset and .track files as inputs for AVxcelerate Sensors Simulator through a custom connector built upon AVxcelerate Sensors Simulator API, define them in the *Simulation Control* service > **LOAD** command > **Configuration** message > `SceneInfo` field. Refer to the AVxcelerate Sensors Simulator API Documentation published on the [Ansys Developer Portal](https://developer.ansys.com/).

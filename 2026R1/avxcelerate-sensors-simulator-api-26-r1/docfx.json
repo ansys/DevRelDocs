@@ -5,11 +5,12 @@
       "summary": "Connect AVxcelerate Sensors Simulator in your own simulation environment and incorporate your perception stack into the simulation loop.",
       "version": "2026 R1",
       "description": "This document is intended for developers who need to develop client applications in order to integrate AVxcelerate Sensors Simulator in their driving simulation application or to integrate the System Under Test (SUT) into the simulation loop.",
-      "date": "2025-05-26",
+      "date": "2026-02-16",
       "status": "unpublished",
       "api categories": "Autonomous Vehicle Simulation",
       "product": "AVxcelerate A Sensors Simulator API",
-      "physics": "Autonomous Vehicle Simulation"
+      "product collection": "Autonomous Vehicle Simulation",
+      "physics": "Autonomous Driving"
     }
   }
 }
