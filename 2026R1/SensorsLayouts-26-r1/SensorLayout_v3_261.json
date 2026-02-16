@@ -1,12 +1,12 @@
 {
-  "openapi": "3.0.1",
+  "openapi": "3.0.4",
   "info": {
     "title": "Sensor Layouts",
     "description": "The Sensor Layouts REST API allows you to manage your Sensor Layouts Library, create new sensor layouts or update existing ones, and download sensor layouts as files.",
-    "version": "v2"
+    "version": "v3"
   },
   "paths": {
-    "/avx-sensorlabs/v2/sensorlayouts/{id}": {
+    "/avx-sensorlabs/v3/sensorlayouts/{id}": {
       "delete": {
         "tags": [
           "SensorLayouts"
@@ -26,7 +26,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -67,11 +67,11 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.LayoutData"
+                  "$ref": "#/components/schemas/Pre.SensorLayouts.v3.Data.LayoutData"
                 }
               }
             }
@@ -111,24 +111,24 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.LayoutData"
+                "$ref": "#/components/schemas/Pre.SensorLayouts.v3.Data.LayoutData"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.LayoutData"
+                "$ref": "#/components/schemas/Pre.SensorLayouts.v3.Data.LayoutData"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.LayoutData"
+                "$ref": "#/components/schemas/Pre.SensorLayouts.v3.Data.LayoutData"
               }
             }
           }
         },
         "responses": {
           "200": {
-            "description": "Success",
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -150,7 +150,7 @@
         }
       }
     },
-    "/avx-sensorlabs/v2/sensorlayouts": {
+    "/avx-sensorlabs/v3/sensorlayouts": {
       "delete": {
         "tags": [
           "SensorLayouts"
@@ -158,7 +158,7 @@
         "summary": "Delete all the sensor layouts from the library.",
         "responses": {
           "200": {
-            "description": "Success"
+            "description": "OK"
           }
         }
       },
@@ -167,7 +167,7 @@
           "SensorLayouts"
         ],
         "summary": "List all sensors layouts available in the library.",
-        "description": "<br>Valid sensor layouts will be displayed under validLayouts, with their id, name and metadata.\r\n<br>\r\n                    If there are any corrupted sensor layouts, they are deleted from the library and their names will appear in corruptedLayoutNames,\r\n                    or if the name cannot be retrieved, the flag anyDeleted will be set to true.\r\n                ",
+        "description": "\r\nValid sensor layouts will be displayed under validLayouts, with their id, name and metadata.\r\n\r\nIf there are any corrupted sensor layouts, they are deleted from the library and their names will appear in corruptedLayoutNames,\r\n                    or if the name cannot be retrieved, the flag anyDeleted will be set to true.",
         "parameters": [
           {
             "name": "offset",
@@ -201,7 +201,7 @@
           {
             "name": "Pattern",
             "in": "query",
-            "description": "Filters sensor layouts by sensor layout name, Accepted formats are:\r\n<br>\r\n    for exact match: ```name```.\r\n<br>\r\n    for match containing text: ```_name_```.\r\n",
+            "description": "Filters sensor layouts by sensor layout name, Accepted formats are:\r\n\r\nfor exact match: ```name```.\r\nfor match containing text: ```_name_```.",
             "schema": {
               "type": "string"
             }
@@ -253,11 +253,11 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.LayoutsInformation"
+                  "$ref": "#/components/schemas/Pre.SensorLayouts.v3.Data.LayoutsInformation"
                 }
               }
             }
@@ -300,7 +300,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success",
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
@@ -322,7 +322,7 @@
         }
       }
     },
-    "/avx-sensorlabs/v2/sensorlayouts/{id}/packed/{sensorLayoutName}": {
+    "/avx-sensorlabs/v3/sensorlayouts/{id}/packed/{sensorLayoutName}": {
       "get": {
         "tags": [
           "SensorLayouts"
@@ -351,7 +351,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Success"
+            "description": "OK"
           },
           "400": {
             "description": "Bad Request",
@@ -376,7 +376,7 @@
         }
       }
     },
-    "/avx-sensorlabs/v2/sensorlayouts/packed": {
+    "/avx-sensorlabs/v3/sensorlayouts/packed": {
       "post": {
         "tags": [
           "SensorLayouts"
@@ -387,20 +387,30 @@
           "content": {
             "multipart/form-data": {
               "schema": {
+                "required": [
+                  "file"
+                ],
                 "type": "object",
                 "properties": {
                   "file": {
                     "type": "string",
+                    "description": "File to upload.",
                     "format": "binary"
                   },
                   "sensorLayoutName": {
-                    "type": "string"
+                    "type": "string",
+                    "description": "New name for the layout, in case of layout name conflict."
                   },
                   "overwrite": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "description": "Flag to indicate if existing sensor layout should be overwritten, in case of conflict."
                   },
                   "sensorUpdatesJson": {
-                    "type": "string"
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "description": "Json structure with a list of actions for each conflicting sensor that is referenced in the layout.\r\nContains: current sensor name, new name, should replace sensor, should use existing sensor, is the sensor a thermal camera.\r\n\r\nReplace one sensor : {\"sensorUpdatesJson\":{\"name\":\"Camera\",\"replaceName\":\"\",\"replace\":true, \"useExisting\": false}}\r\nRename one sensor : {\"sensorUpdatesJson\":{\"name\":\"Camera\",\"replaceName\":\"NewCamera\",\"replace\":false, \"useExisting\": false}}"
                   }
                 }
               },
@@ -423,11 +433,11 @@
         },
         "responses": {
           "200": {
-            "description": "Success",
+            "description": "OK",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/LayoutRead.Identifier"
+                  "$ref": "#/components/schemas/LayoutRead.UploadResult"
                 }
               }
             }
@@ -448,14 +458,27 @@
         },
         "additionalProperties": false
       },
-      "Pre.SensorLayouts.v2.Data.LayoutData": {
+      "LayoutRead.UploadResult": {
+        "type": "object",
+        "properties": {
+          "layoutId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "hadOldThermalCamera": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.SensorLayouts.v3.Data.LayoutData": {
         "type": "object",
         "properties": {
           "metadata": {
-            "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.LayoutMetadata"
+            "$ref": "#/components/schemas/Pre.SensorLayouts.v3.Data.LayoutMetadata"
           },
           "root": {
-            "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.TreeNode"
+            "$ref": "#/components/schemas/Pre.SensorLayouts.v3.Data.TreeNode"
           },
           "missingSensorNames": {
             "type": "array",
@@ -468,7 +491,7 @@
         },
         "additionalProperties": false
       },
-      "Pre.SensorLayouts.v2.Data.LayoutInfo": {
+      "Pre.SensorLayouts.v3.Data.LayoutInfo": {
         "type": "object",
         "properties": {
           "id": {
@@ -480,12 +503,12 @@
             "nullable": true
           },
           "metadata": {
-            "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.Metadata"
+            "$ref": "#/components/schemas/Pre.SensorLayouts.v3.Data.Metadata"
           }
         },
         "additionalProperties": false
       },
-      "Pre.SensorLayouts.v2.Data.LayoutMetadata": {
+      "Pre.SensorLayouts.v3.Data.LayoutMetadata": {
         "type": "object",
         "properties": {
           "name": {
@@ -517,7 +540,7 @@
         "additionalProperties": false,
         "description": "Metadata of the layout."
       },
-      "Pre.SensorLayouts.v2.Data.LayoutsInformation": {
+      "Pre.SensorLayouts.v3.Data.LayoutsInformation": {
         "type": "object",
         "properties": {
           "totalLayoutsCount": {
@@ -528,7 +551,7 @@
           "validLayouts": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.LayoutInfo"
+              "$ref": "#/components/schemas/Pre.SensorLayouts.v3.Data.LayoutInfo"
             },
             "description": "Valid layouts count.",
             "nullable": true
@@ -549,7 +572,7 @@
         "additionalProperties": false,
         "description": "Layout information."
       },
-      "Pre.SensorLayouts.v2.Data.Metadata": {
+      "Pre.SensorLayouts.v3.Data.Metadata": {
         "type": "object",
         "properties": {
           "manufacturer": {
@@ -606,7 +629,7 @@
         "additionalProperties": false,
         "description": "Represents metadata."
       },
-      "Pre.SensorLayouts.v2.Data.Position": {
+      "Pre.SensorLayouts.v3.Data.Position": {
         "type": "object",
         "properties": {
           "x": {
@@ -628,7 +651,7 @@
         "additionalProperties": false,
         "description": "Position."
       },
-      "Pre.SensorLayouts.v2.Data.Rotation": {
+      "Pre.SensorLayouts.v3.Data.Rotation": {
         "type": "object",
         "properties": {
           "x": {
@@ -650,7 +673,7 @@
         "additionalProperties": false,
         "description": "Rotation."
       },
-      "Pre.SensorLayouts.v2.Data.SensorInfo": {
+      "Pre.SensorLayouts.v3.Data.SensorInfo": {
         "type": "object",
         "properties": {
           "id": {
@@ -659,7 +682,7 @@
             "format": "uuid"
           },
           "type": {
-            "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.SensorType"
+            "$ref": "#/components/schemas/Pre.SensorLayouts.v3.Data.SensorType"
           },
           "name": {
             "type": "string",
@@ -669,7 +692,7 @@
         },
         "additionalProperties": false
       },
-      "Pre.SensorLayouts.v2.Data.SensorType": {
+      "Pre.SensorLayouts.v3.Data.SensorType": {
         "type": "object",
         "properties": {
           "type": {
@@ -679,19 +702,19 @@
         },
         "additionalProperties": false
       },
-      "Pre.SensorLayouts.v2.Data.Transform": {
+      "Pre.SensorLayouts.v3.Data.Transform": {
         "type": "object",
         "properties": {
           "position": {
-            "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.Position"
+            "$ref": "#/components/schemas/Pre.SensorLayouts.v3.Data.Position"
           },
           "rotation": {
-            "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.Rotation"
+            "$ref": "#/components/schemas/Pre.SensorLayouts.v3.Data.Rotation"
           }
         },
         "additionalProperties": false
       },
-      "Pre.SensorLayouts.v2.Data.TreeNode": {
+      "Pre.SensorLayouts.v3.Data.TreeNode": {
         "type": "object",
         "properties": {
           "nodeName": {
@@ -699,15 +722,15 @@
             "nullable": true
           },
           "transform": {
-            "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.Transform"
+            "$ref": "#/components/schemas/Pre.SensorLayouts.v3.Data.Transform"
           },
           "sensorInfo": {
-            "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.SensorInfo"
+            "$ref": "#/components/schemas/Pre.SensorLayouts.v3.Data.SensorInfo"
           },
           "children": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.TreeNode"
+              "$ref": "#/components/schemas/Pre.SensorLayouts.v3.Data.TreeNode"
             },
             "nullable": true
           }
