@@ -1,46 +1,47 @@
- @defgroup group_09 Writing a DPF operator
- @ingroup group_4_how_tos
+# Writing a DPF operator
 
-## Introduction 
+## Introduction
 
-The Data Processing Framework (DPF) provides numerical simulation users/engineers with a toolbox for accessing and transforming simulation data. 
+The Data Processing Framework (DPF) provides numerical simulation users/engineers with a toolbox for accessing and transforming simulation data.
 It is used to handle complex pre- or post-processing of simulation data within a simulation workflow.
 
-In DPF, **Operators** are the main object used to create, transform and stream the data. An operator is composed of a “core” that handles the calculation. 
-It receives the data using input pins, applies a transformation and makes the data available through the output pins (think of an integrated circuit in electronics). 
-**There are rules to follow to correctly write operators in a project which is already using DPF.** 
+In DPF, **Operators** are the main object used to create, transform and stream the data. An operator is composed of a “core” that handles the calculation.
+It receives the data using input pins, applies a transformation and makes the data available through the output pins (think of an integrated circuit in electronics).
+**There are rules to follow to correctly write operators in a project which is already using DPF.**
 
 This section illustrates how to write an operator in a C++ project which is already using DPF capabilities. An operator could also be written in its own plugin.
 
-For a set of instructions on how to create a project from scratch using DPF capabilities to define & expose operators, refer to the @ref group_06_2 section.
-For a set of instructions on how to integrate DPF capabilities in already existing project, refer to the @ref group_06_1 section.
+For a set of instructions on how to create a project from scratch using DPF capabilities to define & expose operators, refer to [this](create-cpp-plugin.md) section.
+For a set of instructions on how to integrate DPF capabilities in already existing project, refer to [this](use-dpf-in-existing.md) section.
 
 ## Operator's implementation example
 
 ### Custom sort operator
 
-In this example, an operator for custom sorting is implemented. 
+In this example, an operator for custom sorting is implemented.
 
-Note: the corresponding implementation is only employed as an example. Existing "ascending_sort" or "descending_sort" operators are the 
-best way to sort Field data.
+> Note:
+>
+> The corresponding implementation is only employed as an example.
+> Existing "ascending_sort" or "descending_sort" operators are the best way to sort Field data.
 
-Edit the file where the custom operator is implemented and add the following line if it is not already specified: 
+Edit the file where the custom operator is implemented and add the following line if it is not already specified:
 
-```
+```cpp
 #include "dpf_api.h"
 ```
 
-The custom operator implementation can now start. 
+The custom operator implementation can now start.
 
-```
-// my custom operator 
+```cpp
+// my custom operator
 // ------------------
 struct SortOperator
 {
 	// identify the operator
 	static std::string name() { return "custom_sort"; }
 
-	// describe the operator 
+	// describe the operator
 	static ansys::dpf::OperatorSpecification specification()
 	{
 		ansys::dpf::OperatorSpecification spec;
@@ -63,11 +64,11 @@ struct SortOperator
 				.setDoc("field that has been sorted"),
 			});
 
-		// set the exposed properties of the operator, allowing documentation generation 
+		// set the exposed properties of the operator, allowing documentation generation
 		spec.setProperty(ansys::dpf::spec::exposure::sExposure, ansys::dpf::spec::exposure::sPublic);
 		spec.setProperty(ansys::dpf::spec::category::sCategory, "custom");
 		spec.setProperty(ansys::dpf::spec::sUserName, "custom sort");
-		
+
 		// Sets the operator as premium
 		spec.setProperty(ansys::dpf::spec::license::sLicense, ansys::dpf::spec::license::sDpf);
 
@@ -89,60 +90,58 @@ struct SortOperator
 		ansys::dpf::Field sorted = to_sort.deep_copy();
 		sorted.setData(data);
 		main.setOutput(0, sorted);
-		main.setSuccessed(); 
+		main.setSuccessed();
 	}
 };
 ```
 
 The **SortOperator** structure contains all the implementation related to the custom operator. It contains:
-- a **name** method (unique identifier): "custom_sort"
-- a **specification** method which defines and describes the operator inputs, outputs and data computation. Here, the operator 
-exposes one input named "field_to_sort" at pin 0: when connecting data to this operator, the connect object should be of **Field** type. 
-It exposes one output named "sorted_field" at pin 0, that is of **Field** type. 
-- a **run** method which contains the data computation code. It first reads the input data, reading the **Field** provided through input pin 0. 
-It computes the data, sorting it. Then, it creates the output **Field** and set it as output.
 
-In the **specification**, the "license" information is optional. If specified, the operator will require a license checkout using the specified increment while running. 
-It will release the license increment once it has been run. Refer to the @ref group_11 section to learn more about licensing in DPF. 
+- a **name** method (unique identifier): "custom_sort"
+- a **specification** method which defines and describes the operator inputs, outputs and data computation. Here, the operator exposes one input named "field_to_sort" at pin 0: when connecting data to this operator, the connect object should be of **Field** type. It exposes one output named "sorted_field" at pin 0, that is of **Field** type.
+- a **run** method which contains the data computation code. It first reads the input data, reading the **Field** provided through input pin 0. It computes the data, sorting it. Then, it creates the output **Field** and set it as output.
+
+In the **specification**, the "license" information is optional. If specified, the operator will require a license checkout using the specified increment while running.
+It will release the license increment once it has been run. Refer to [this section](entry-premium.md) to learn more about licensing in DPF.
 
 ### Record the operator
 
-The following code enables the operator to be accessible and must be run before any instantiation of this operator. 
+The following code enables the operator to be accessible and must be run before any instantiation of this operator.
 
-Working in an operator's library (see @ref group_06_2), use the following code:
+Working in an operator's library (see [here](create-cpp-plugin.md)), use the following code:
 
+```cpp
+ansys::dpf::core::recordOperatorAtCore<SortOperator>(core_ptr);
 ```
-ansys::dpf::core::recordOperatorAtCore<SortOperator>(core_ptr); 
-```
 
-Working in an existing process (see @ref group_06_1), use the following code:
+Working in an existing process (see [here](use-dpf-in-existing.md)), use the following code:
 
-```
-ansys::dpf::core::recordOperator<SortOperator>(); 
+```cpp
+ansys::dpf::core::recordOperator<SortOperator>();
 ```
 
 ### Instantiate the operator
 
 Once the operator is recorded in the process, it can be instantiated using the following code:
 
-```
+```cpp
 ansys::dpf::Operator my_custom_operator("custom_sort");
 ```
 
 The following can be used to check if the operator is correctly instantiated:
 
-```
+```cpp
 bool bIsInstantiated = !my_custom_operator.empty();
 ```
 
-If bIsInstantiated value is false, either the plugin that contains the operator has not been correctly loaded, or the record is not 
-correctly done. The spelling also must be checked.  
+If `bIsInstantiated` value is false, either the plugin that contains the operator has not been correctly loaded, or the record is not correctly done.
+The spelling also must be checked.
 
 ### Use the operator to compute data
 
-The following shows how to create a **Field** containing the data to be sorted: 
+The following shows how to create a **Field** containing the data to be sorted:
 
-```
+```cpp
 ansys::dpf::FieldDefinition fieldDef(ansys::dpf::Location("CustomLocation"), { 1 });
 ansys::dpf::Field field_to_sort;
 field_to_sort.setFieldDefinition(fieldDef);
@@ -154,33 +153,33 @@ field_to_sort.push_back(7, data2);
 
 Once the operator is instantied and the **Field** containing the data to sort, is create. The operator can then read the input data and perform the necessary computations.
 
-```
+```cpp
 my_custom_operator.connect(0, field_to_sort);
 ```
 
-The output can be requested. It triggers the execution of the operator and provides a **Field** containing sorted data. 
+The output can be requested. It triggers the execution of the operator and provides a **Field** containing sorted data.
 
-```
+```cpp
 ansys::dpf::Field sorted_vector = my_custom_operator.getOutputField(0);
 double* sorted_data = sorted_vector.data().data();
 ```
 
-`sorted_data` should contain the following values with the following order: 1.5, 2.1, 4.0, 9.5, 10.9. 
+`sorted_data` should contain the following values with the following order: 1.5, 2.1, 4.0, 9.5, 10.9.
 
-See the **Field** documentation to learn how to access the data. 
+See the **Field** documentation to learn how to access the data.
 
 ## Best practices
 
-- Documentation generation uses JavaScript, **'js' or 'JS' chain of characters must be avoided** in any string object of the operator specification. If this rule is not followed, the documentation generation fails. 
-- Operator's name should not contain white space and should be written in snake case. 
+- Documentation generation uses JavaScript, **'js' or 'JS' chain of characters must be avoided** in any string object of the operator specification. If this rule is not followed, the documentation generation fails.
+- Operator's name should not contain white space and should be written in snake case.
 - Use lower case in specification's strings, except for description.
 - Spaces must not be used in specification's strings, except for description.
 
 ## Example full code compiled with Visual Studio on Windows
 
-The following is the complete code showing how to write an operator in an existing process and use it. 
+The following is the complete code showing how to write an operator in an existing process and use it.
 
-```
+```cpp
 // DPF include files to access capabilities without linking step
 #include "dpf_api.h"
 #include "dpf_api_i.cpp"
@@ -193,14 +192,14 @@ struct staticData {
 };
 ansys::dpf::LibraryHandle* staticData::_dpfLibraryHandle = new ansys::dpf::LibraryHandle(ansys::dpf::Context::premiumContext());
 
-// my custom operator 
+// my custom operator
 // ------------------
 struct SortOperator
 {
 	// identify the operator
 	static std::string name() { return "custom_sort"; }
 
-	// describe the operator 
+	// describe the operator
 	static ansys::dpf::OperatorSpecification specification()
 	{
 		ansys::dpf::OperatorSpecification spec;
@@ -223,7 +222,7 @@ struct SortOperator
 				.setDoc("field that has been sorted"),
 			});
 
-		// set the exposed properties of the operator, allowing documentation generation 
+		// set the exposed properties of the operator, allowing documentation generation
 		spec.setProperty(ansys::dpf::spec::exposure::sExposure, ansys::dpf::spec::exposure::sPublic);
 		spec.setProperty(ansys::dpf::spec::category::sCategory, "custom");
 		spec.setProperty(ansys::dpf::spec::sUserName, "custom sort");
@@ -281,4 +280,4 @@ int main()
 }
 ```
 
-It can be compiled on Visual Studio using the VCXPROJ file in @ref group_06_1 section.
+It can be compiled on Visual Studio using the ``VCXPROJ`` file in [this section](use-dpf-in-existing.md).

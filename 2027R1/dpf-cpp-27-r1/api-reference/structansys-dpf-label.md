@@ -1,41 +1,44 @@
-<a id="structansys_1_1dpf_1_1Label"></a>
+<a id="structansys-dpf-label"></a>
 # Structure ansys::dpf::Label
 
 ![][C++]
 ![][public]
 
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 518)
+
 
 Container for label. 
 
-**See also**: [labels](structansys_1_1dpf_1_1labels.md#structansys_1_1dpf_1_1labels), group_12
+**See also**: [labels](structansys-dpf-labels.md#structansys-dpf-labels)
 
 ## Members
 
-* [\_value](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label_1ade6a2bf0d62ca26625d13c3d977dba58)
-* [c\_str](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label_1a8683632fa258b763080c99228b4f561c)
-* [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label_1aa16652a3ceeda62dce2af07722a0ec80)
-* [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label_1a26ac4cad65d736a4400cdb84b16f950b)
-* [operator std::string](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label_1abb523602a3862d6141a3052812225e4b)
-* [operator!=](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label_1a9b977b514452a7add47f54f86fe8c299)
-* [operator\<](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label_1ae63a064be42fd512c71966bbd014b1e2)
-* [operator\<=](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label_1a0406afbef012f8193e15713547c7057b)
-* [operator==](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label_1aacb129a52a9ddbabf8a86553e6cbd9c7)
-
-## Private attributes
+* [c\_str](structansys-dpf-label.md#structansys-dpf-label-1a8683632fa258b763080c99228b4f561c)
+* [Label](structansys-dpf-label.md#structansys-dpf-label-1aa16652a3ceeda62dce2af07722a0ec80)
+* [Label](structansys-dpf-label.md#structansys-dpf-label-1a26ac4cad65d736a4400cdb84b16f950b)
+* [operator std::string](structansys-dpf-label.md#structansys-dpf-label-1abb523602a3862d6141a3052812225e4b)
+* [operator!=](structansys-dpf-label.md#structansys-dpf-label-1a9b977b514452a7add47f54f86fe8c299)
+* [operator\<](structansys-dpf-label.md#structansys-dpf-label-1ae63a064be42fd512c71966bbd014b1e2)
+* [operator\<=](structansys-dpf-label.md#structansys-dpf-label-1a0406afbef012f8193e15713547c7057b)
+* [operator==](structansys-dpf-label.md#structansys-dpf-label-1aacb129a52a9ddbabf8a86553e6cbd9c7)
 
 ## Public functions
 
-<a id="structansys_1_1dpf_1_1Label_1aa16652a3ceeda62dce2af07722a0ec80"></a>
+<a id="structansys-dpf-label-1aa16652a3ceeda62dce2af07722a0ec80"></a>
 ### Function Label
 
 ![][public]
+
 
 ```cpp
 ansys::dpf::Label::Label(std::string const &name)
 ```
 
-Create [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label).
+
+
+
+Create [Label](structansys-dpf-label.md#structansys-dpf-label).
+
+
 
 **Parameters**:
 
@@ -49,14 +52,22 @@ Create [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label).
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Label::Label"}]}`
 -->
 
-<a id="structansys_1_1dpf_1_1Label_1a26ac4cad65d736a4400cdb84b16f950b"></a>
+<a id="structansys-dpf-label-1a26ac4cad65d736a4400cdb84b16f950b"></a>
 ### Function Label
 
 ![][public]
 
+
 ```cpp
 ansys::dpf::Label::Label(Label const &)=default
 ```
+
+
+
+
+
+
+
 
 **Parameters**:
 
@@ -70,19 +81,27 @@ ansys::dpf::Label::Label(Label const &)=default
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Label::Label"}]}`
 -->
 
-<a id="structansys_1_1dpf_1_1Label_1aacb129a52a9ddbabf8a86553e6cbd9c7"></a>
+<a id="structansys-dpf-label-1aacb129a52a9ddbabf8a86553e6cbd9c7"></a>
 ### Function operator==
 
 ![][public]
 ![][const]
 
+
 ```cpp
 bool ansys::dpf::Label::operator==(Label const &) const
 ```
 
+
+
+
+
+
+
+
 **Parameters**:
 
-* [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label_1aa16652a3ceeda62dce2af07722a0ec80) const &
+* [Label](structansys-dpf-label.md#structansys-dpf-label-1aa16652a3ceeda62dce2af07722a0ec80) const &
 
 **Return type**: bool
 
@@ -92,19 +111,27 @@ bool ansys::dpf::Label::operator==(Label const &) const
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Label::operator=="}]}`
 -->
 
-<a id="structansys_1_1dpf_1_1Label_1ae63a064be42fd512c71966bbd014b1e2"></a>
+<a id="structansys-dpf-label-1ae63a064be42fd512c71966bbd014b1e2"></a>
 ### Function operator\<
 
 ![][public]
 ![][const]
 
+
 ```cpp
 bool ansys::dpf::Label::operator<(Label const &) const
 ```
 
+
+
+
+
+
+
+
 **Parameters**:
 
-* [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label_1aa16652a3ceeda62dce2af07722a0ec80) const &
+* [Label](structansys-dpf-label.md#structansys-dpf-label-1aa16652a3ceeda62dce2af07722a0ec80) const &
 
 **Return type**: bool
 
@@ -114,19 +141,27 @@ bool ansys::dpf::Label::operator<(Label const &) const
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Label::operator<"}]}`
 -->
 
-<a id="structansys_1_1dpf_1_1Label_1a0406afbef012f8193e15713547c7057b"></a>
+<a id="structansys-dpf-label-1a0406afbef012f8193e15713547c7057b"></a>
 ### Function operator\<=
 
 ![][public]
 ![][const]
 
+
 ```cpp
 bool ansys::dpf::Label::operator<=(Label const &) const
 ```
 
+
+
+
+
+
+
+
 **Parameters**:
 
-* [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label_1aa16652a3ceeda62dce2af07722a0ec80) const &
+* [Label](structansys-dpf-label.md#structansys-dpf-label-1aa16652a3ceeda62dce2af07722a0ec80) const &
 
 **Return type**: bool
 
@@ -136,19 +171,27 @@ bool ansys::dpf::Label::operator<=(Label const &) const
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Label::operator<="}]}`
 -->
 
-<a id="structansys_1_1dpf_1_1Label_1a9b977b514452a7add47f54f86fe8c299"></a>
+<a id="structansys-dpf-label-1a9b977b514452a7add47f54f86fe8c299"></a>
 ### Function operator!=
 
 ![][public]
 ![][const]
 
+
 ```cpp
 bool ansys::dpf::Label::operator!=(Label const &) const
 ```
 
+
+
+
+
+
+
+
 **Parameters**:
 
-* [Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label_1aa16652a3ceeda62dce2af07722a0ec80) const &
+* [Label](structansys-dpf-label.md#structansys-dpf-label-1aa16652a3ceeda62dce2af07722a0ec80) const &
 
 **Return type**: bool
 
@@ -158,17 +201,23 @@ bool ansys::dpf::Label::operator!=(Label const &) const
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Label::operator!="}]}`
 -->
 
-<a id="structansys_1_1dpf_1_1Label_1abb523602a3862d6141a3052812225e4b"></a>
+<a id="structansys-dpf-label-1abb523602a3862d6141a3052812225e4b"></a>
 ### Function operator std::string
 
 ![][public]
 ![][const]
 
+
 ```cpp
 ansys::dpf::Label::operator std::string() const
 ```
 
+
+
+
 Value of label.
+
+
 
 **Return type**: 
 
@@ -178,19 +227,25 @@ Value of label.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Label::string"}]}`
 -->
 
-<a id="structansys_1_1dpf_1_1Label_1a8683632fa258b763080c99228b4f561c"></a>
+<a id="structansys-dpf-label-1a8683632fa258b763080c99228b4f561c"></a>
 ### Function c\_str
 
 ![][public]
 ![][const]
 
+
 ```cpp
 const char * ansys::dpf::Label::c_str() const
 ```
 
+
+
+
 **Returns**:
 
 Value of label.
+
+
 
 **Return type**: const char *
 
@@ -201,7 +256,7 @@ Value of label.
 -->
 
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+[private]: https://img.shields.io/badge/-private-red (private)

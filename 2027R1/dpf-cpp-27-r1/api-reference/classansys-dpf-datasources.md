@@ -1,82 +1,87 @@
-<a id="classansys_1_1dpf_1_1DataSources"></a>
+<a id="classansys-dpf-datasources"></a>
 # Class ansys::dpf::DataSources
 
 ![][C++]
 ![][public]
 
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 3453)
+
 
 Container of files on which the analysis results can be found.
 
 **Inherits from**:
 
-* [ansys::dpf::DpfTypes](classansys_1_1dpf_1_1DpfTypes.md#classansys_1_1dpf_1_1DpfTypes)
+* [ansys::dpf::DpfTypes](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes)
 
 ## Members
 
-* [addDomainFile](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1a997a716f9f6a33e05480f9965be17364)
-* [addDomainResultFile](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1a84323382bc1f6d128bb86e6c3f15c4b0)
-* [addFile](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1ad8d20dc94dee694a62fce66e91691090)
-* [addFile](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1a51a3d8501269698d90ebf54dc0049d2a)
-* [addFile](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1a166f58480abfc46773763764419eaf4c)
-* [addResultFile](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1ad2a5bb6f24ca621ffaaee9e7a47cdc20)
-* [addResultFile](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1a596a92f17851f672d0572a404def4f2d)
-* [addResultFileWString](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1a8480115f09431641ad94e5088629ea10)
-* [addUpStream](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1a45df078c3f76993557f10d9528bd1484)
-* [addUpStream](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1a34b2782ba0ecc1469787399af5c645c9)
-* [callAPI](classansys_1_1dpf_1_1DpfTypes.md#classansys_1_1dpf_1_1DpfTypes_1aea34d37e0c080126eff70db34bf46597)
-* [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1ad6e0a2d06ea8716ecd330e6401382ad7)
-* [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1ad0322bbcce3526b0a5cfb7b74a4e5578)
-* [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1a6428071b5158de19e283481087220d4c)
-* [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1aa03af46c3f99a1f27aac744b1fc9db1a)
-* [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1a1685cb861c0112d06c9be089013cf553)
-* [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1af3684cac83ff9a5e91bde6f3d421fed6)
-* [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1a2124e3800c560dc2b676b5ceeecac6d2)
-* [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1ab607a7dd632e40f18baa9bdc44631011)
-* [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1a85e10756d54a7164a7c47fde17426ce8)
-* [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1a187861f11263eda7b619c769b5ff83a5)
-* [deep\_copy](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1a98fc4cd5c063eef368734854b30b63c2)
-* [describe](classansys_1_1dpf_1_1DpfTypes.md#classansys_1_1dpf_1_1DpfTypes_1a9977945710983bc03d2940fa007847b2)
-* [empty](classansys_1_1dpf_1_1DpfTypes.md#classansys_1_1dpf_1_1DpfTypes_1a39cd546c42518e2332be8f287db95459)
-* [emptyDataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1a014bb2c064ff1dce21325a012a57a4c8)
-* [filePaths](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1ab406fd24d91af8256c82faee8d962c17)
-* [getClient](classansys_1_1dpf_1_1DpfTypes.md#classansys_1_1dpf_1_1DpfTypes_1a968afd9daa0b0f13b65a2ac61369d73a)
-* [getHash](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1a27af11a7f6a10abb4ce707e338065420)
-* [getHashableKey](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1a5847c55b3f521ae84f106f3413888a95)
-* [hasBeenMovedLocally](classansys_1_1dpf_1_1DpfTypes.md#classansys_1_1dpf_1_1DpfTypes_1a1a5634202c15404b6b24e8f50e51cb66)
-* [hasInternalObject](classansys_1_1dpf_1_1DpfTypes.md#classansys_1_1dpf_1_1DpfTypes_1ae198f89868d85c7db6dc1a934a1d3c15)
-* [identifierbyIndex](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1a8803654ff5e770591c1c866271f436f6)
-* [isOnCommonAPI](classansys_1_1dpf_1_1DpfTypes.md#classansys_1_1dpf_1_1DpfTypes_1a9f9789ff61cc9d400a2a344830706b73)
-* [isSameObject](classansys_1_1dpf_1_1DpfTypes.md#classansys_1_1dpf_1_1DpfTypes_1aa64d5f8fcd7d85ad6ebf708494dbefd7)
-* [keys](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1a80afd0dab2f06de1b37097e89ef96e63)
-* [numPaths](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1a74a2a6b4aacae91be09048a58c601d1b)
-* [operator=](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1a1d22445fd9d22b9a7adc4853d9c31386)
-* [operator=](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1a9c18012971ddaaf102576c92fb76814d)
-* [pathAndKeyByIndex](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1a3232c71d54216a688008e590ac8f892d)
-* [pathAtKeyByIndex](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1af9f900d56ea58cec07e7d04151c2208a)
-* [registerNamespace](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1a3e58ea69bbb8b0e13f2368885f490a9d)
-* [resultFilePaths](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1a4c0974ee4d72e7d7d2d5051796cf7de2)
-* [resultKey](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1a7320cf9a8d0850e64fc8d337ee666178)
-* [resultNamespaceForKey](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1adfa425b1477b6ebe977f11097b9fb7c9)
-* [setHashableKey](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1a97dfdec6f9ba966084790215b8eb682e)
-* [~DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources_1aed25d8728c9a1a337adeb8131ef473ba)
-* [~DpfTypes](classansys_1_1dpf_1_1DpfTypes.md#classansys_1_1dpf_1_1DpfTypes_1ab7c83b6ea160c2b115e056f6c312112f)
+* [addDomainFile](classansys-dpf-datasources.md#classansys-dpf-datasources-1a997a716f9f6a33e05480f9965be17364)
+* [addDomainResultFile](classansys-dpf-datasources.md#classansys-dpf-datasources-1a84323382bc1f6d128bb86e6c3f15c4b0)
+* [addFile](classansys-dpf-datasources.md#classansys-dpf-datasources-1ad8d20dc94dee694a62fce66e91691090)
+* [addFile](classansys-dpf-datasources.md#classansys-dpf-datasources-1a51a3d8501269698d90ebf54dc0049d2a)
+* [addFile](classansys-dpf-datasources.md#classansys-dpf-datasources-1a166f58480abfc46773763764419eaf4c)
+* [addResultFile](classansys-dpf-datasources.md#classansys-dpf-datasources-1ad2a5bb6f24ca621ffaaee9e7a47cdc20)
+* [addResultFile](classansys-dpf-datasources.md#classansys-dpf-datasources-1a596a92f17851f672d0572a404def4f2d)
+* [addResultFileWString](classansys-dpf-datasources.md#classansys-dpf-datasources-1a8480115f09431641ad94e5088629ea10)
+* [addUpStream](classansys-dpf-datasources.md#classansys-dpf-datasources-1a45df078c3f76993557f10d9528bd1484)
+* [addUpStream](classansys-dpf-datasources.md#classansys-dpf-datasources-1a34b2782ba0ecc1469787399af5c645c9)
+* [callAPI](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1aea34d37e0c080126eff70db34bf46597)
+* [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources-1ad0322bbcce3526b0a5cfb7b74a4e5578)
+* [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources-1a6428071b5158de19e283481087220d4c)
+* [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources-1aa03af46c3f99a1f27aac744b1fc9db1a)
+* [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources-1a1685cb861c0112d06c9be089013cf553)
+* [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources-1af3684cac83ff9a5e91bde6f3d421fed6)
+* [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources-1a2124e3800c560dc2b676b5ceeecac6d2)
+* [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources-1ab607a7dd632e40f18baa9bdc44631011)
+* [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources-1a85e10756d54a7164a7c47fde17426ce8)
+* [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources-1a187861f11263eda7b619c769b5ff83a5)
+* [deep\_copy](classansys-dpf-datasources.md#classansys-dpf-datasources-1a98fc4cd5c063eef368734854b30b63c2)
+* [describe](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a9977945710983bc03d2940fa007847b2)
+* [empty](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a39cd546c42518e2332be8f287db95459)
+* [emptyDataSources](classansys-dpf-datasources.md#classansys-dpf-datasources-1a014bb2c064ff1dce21325a012a57a4c8)
+* [filePaths](classansys-dpf-datasources.md#classansys-dpf-datasources-1ab406fd24d91af8256c82faee8d962c17)
+* [getClient](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a968afd9daa0b0f13b65a2ac61369d73a)
+* [getHash](classansys-dpf-datasources.md#classansys-dpf-datasources-1a27af11a7f6a10abb4ce707e338065420)
+* [getHashableKey](classansys-dpf-datasources.md#classansys-dpf-datasources-1a5847c55b3f521ae84f106f3413888a95)
+* [hasBeenMovedLocally](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a1a5634202c15404b6b24e8f50e51cb66)
+* [hasInternalObject](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1ae198f89868d85c7db6dc1a934a1d3c15)
+* [identifierbyIndex](classansys-dpf-datasources.md#classansys-dpf-datasources-1a8803654ff5e770591c1c866271f436f6)
+* [isOnCommonAPI](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a9f9789ff61cc9d400a2a344830706b73)
+* [isSameObject](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1aa64d5f8fcd7d85ad6ebf708494dbefd7)
+* [keys](classansys-dpf-datasources.md#classansys-dpf-datasources-1a80afd0dab2f06de1b37097e89ef96e63)
+* [numPaths](classansys-dpf-datasources.md#classansys-dpf-datasources-1a74a2a6b4aacae91be09048a58c601d1b)
+* [operator=](classansys-dpf-datasources.md#classansys-dpf-datasources-1a1d22445fd9d22b9a7adc4853d9c31386)
+* [operator=](classansys-dpf-datasources.md#classansys-dpf-datasources-1a9c18012971ddaaf102576c92fb76814d)
+* [pathAndKeyByIndex](classansys-dpf-datasources.md#classansys-dpf-datasources-1a3232c71d54216a688008e590ac8f892d)
+* [pathAtKeyByIndex](classansys-dpf-datasources.md#classansys-dpf-datasources-1af9f900d56ea58cec07e7d04151c2208a)
+* [registerNamespace](classansys-dpf-datasources.md#classansys-dpf-datasources-1a3e58ea69bbb8b0e13f2368885f490a9d)
+* [resultFilePaths](classansys-dpf-datasources.md#classansys-dpf-datasources-1a4c0974ee4d72e7d7d2d5051796cf7de2)
+* [resultKey](classansys-dpf-datasources.md#classansys-dpf-datasources-1a7320cf9a8d0850e64fc8d337ee666178)
+* [resultNamespaceForKey](classansys-dpf-datasources.md#classansys-dpf-datasources-1adfa425b1477b6ebe977f11097b9fb7c9)
+* [setHashableKey](classansys-dpf-datasources.md#classansys-dpf-datasources-1a97dfdec6f9ba966084790215b8eb682e)
+* [~DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources-1aed25d8728c9a1a337adeb8131ef473ba)
+* [~DpfTypes](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1ab7c83b6ea160c2b115e056f6c312112f)
 
 ## Friends
 
-## Private functions
-
 ## Public functions
 
-<a id="classansys_1_1dpf_1_1DataSources_1ad0322bbcce3526b0a5cfb7b74a4e5578"></a>
+<a id="classansys-dpf-datasources-1ad0322bbcce3526b0a5cfb7b74a4e5578"></a>
 ### Function DataSources
 
 ![][public]
+
 
 ```cpp
 ansys::dpf::DataSources::DataSources()
 ```
 
+
+
+
+
+
+
+
 **Return type**: 
 
 <!--
@@ -85,20 +90,26 @@ ansys::dpf::DataSources::DataSources()
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::DataSources"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1a6428071b5158de19e283481087220d4c"></a>
+<a id="classansys-dpf-datasources-1a6428071b5158de19e283481087220d4c"></a>
 ### Function DataSources
 
 ![][public]
+
 
 ```cpp
 ansys::dpf::DataSources::DataSources(Client const *const client)
 ```
 
+
+
+
 Create a file container on a server.
+
+
 
 **Parameters**:
 
-* [Client](classansys_1_1dpf_1_1Client.md#classansys_1_1dpf_1_1Client) const *const **client**: [in] [Client](classansys_1_1dpf_1_1Client.md#classansys_1_1dpf_1_1Client) instance designating the IP, port and protocol to use.
+* [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
 **Return type**: 
 
@@ -108,14 +119,22 @@ Create a file container on a server.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::DataSources"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1aed25d8728c9a1a337adeb8131ef473ba"></a>
+<a id="classansys-dpf-datasources-1aed25d8728c9a1a337adeb8131ef473ba"></a>
 ### Function ~DataSources
 
 ![][public]
 
+
 ```cpp
 virtual ansys::dpf::DataSources::~DataSources()
 ```
+
+
+
+
+
+
+
 
 **Return type**: 
 
@@ -125,15 +144,23 @@ virtual ansys::dpf::DataSources::~DataSources()
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::~DataSources"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1aa03af46c3f99a1f27aac744b1fc9db1a"></a>
+<a id="classansys-dpf-datasources-1aa03af46c3f99a1f27aac744b1fc9db1a"></a>
 ### Function DataSources
 
 ![][public]
+
 
 ```cpp
 ansys::dpf::DataSources::DataSources(DataSources const &)
 ```
 
+
+
+
+
+
+
+
 **Parameters**:
 
 * DataSources const &
@@ -146,15 +173,23 @@ ansys::dpf::DataSources::DataSources(DataSources const &)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::DataSources"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1a1685cb861c0112d06c9be089013cf553"></a>
+<a id="classansys-dpf-datasources-1a1685cb861c0112d06c9be089013cf553"></a>
 ### Function DataSources
 
 ![][public]
+
 
 ```cpp
 ansys::dpf::DataSources::DataSources(DataSources &&) noexcept
 ```
 
+
+
+
+
+
+
+
 **Parameters**:
 
 * DataSources &&
@@ -167,20 +202,26 @@ ansys::dpf::DataSources::DataSources(DataSources &&) noexcept
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::DataSources"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1af3684cac83ff9a5e91bde6f3d421fed6"></a>
+<a id="classansys-dpf-datasources-1af3684cac83ff9a5e91bde6f3d421fed6"></a>
 ### Function DataSources
 
 ![][public]
+
 
 ```cpp
 ansys::dpf::DataSources::DataSources(std::string const &result_file_path, std::string const &key)
 ```
 
+
+
+
 Create a file container with given file and key.
+
+
 
 **Parameters**:
 
-* std::string const & **result_file_path**: [in] [Result](classansys_1_1dpf_1_1Result.md#classansys_1_1dpf_1_1Result) file with which to create data source container.
+* std::string const & **result_file_path**: [in] [Result](classansys-dpf-result.md#classansys-dpf-result) file with which to create data source container.
 * std::string const & **key**: [in] Key describing type of file.
 
 **Return type**: 
@@ -191,22 +232,28 @@ Create a file container with given file and key.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::DataSources"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1a2124e3800c560dc2b676b5ceeecac6d2"></a>
+<a id="classansys-dpf-datasources-1a2124e3800c560dc2b676b5ceeecac6d2"></a>
 ### Function DataSources
 
 ![][public]
+
 
 ```cpp
 ansys::dpf::DataSources::DataSources(std::string const &result_file_path, std::string const &key, Client const *const client)
 ```
 
+
+
+
 Create a file container with given file and key.
+
+
 
 **Parameters**:
 
-* std::string const & **result_file_path**: [in] [Result](classansys_1_1dpf_1_1Result.md#classansys_1_1dpf_1_1Result) file with which to create data source container.
+* std::string const & **result_file_path**: [in] [Result](classansys-dpf-result.md#classansys-dpf-result) file with which to create data source container.
 * std::string const & **key**: [in] Key describing type of file.
-* [Client](classansys_1_1dpf_1_1Client.md#classansys_1_1dpf_1_1Client) const *const **client**: [in] [Client](classansys_1_1dpf_1_1Client.md#classansys_1_1dpf_1_1Client) instance designating the IP, port and protocol to use.
+* [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
 **Return type**: 
 
@@ -216,20 +263,26 @@ Create a file container with given file and key.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::DataSources"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1ab607a7dd632e40f18baa9bdc44631011"></a>
+<a id="classansys-dpf-datasources-1ab607a7dd632e40f18baa9bdc44631011"></a>
 ### Function DataSources
 
 ![][public]
+
 
 ```cpp
 ansys::dpf::DataSources::DataSources(std::string const &result_file_path)
 ```
 
+
+
+
 Create a file container with given file.
+
+
 
 **Parameters**:
 
-* std::string const & **result_file_path**: [in] [Result](classansys_1_1dpf_1_1Result.md#classansys_1_1dpf_1_1Result) file with which to create data source container.
+* std::string const & **result_file_path**: [in] [Result](classansys-dpf-result.md#classansys-dpf-result) file with which to create data source container.
 
 **Return type**: 
 
@@ -239,21 +292,27 @@ Create a file container with given file.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::DataSources"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1a85e10756d54a7164a7c47fde17426ce8"></a>
+<a id="classansys-dpf-datasources-1a85e10756d54a7164a7c47fde17426ce8"></a>
 ### Function DataSources
 
 ![][public]
+
 
 ```cpp
 ansys::dpf::DataSources::DataSources(std::string const &result_file_path, Client const *const client)
 ```
 
+
+
+
 Create a file container with given file on a server.
+
+
 
 **Parameters**:
 
-* std::string const & **result_file_path**: [in] [Result](classansys_1_1dpf_1_1Result.md#classansys_1_1dpf_1_1Result) file with which to create data source container.
-* [Client](classansys_1_1dpf_1_1Client.md#classansys_1_1dpf_1_1Client) const *const **client**
+* std::string const & **result_file_path**: [in] [Result](classansys-dpf-result.md#classansys-dpf-result) file with which to create data source container.
+* [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**
 
 **Return type**: 
 
@@ -263,21 +322,27 @@ Create a file container with given file on a server.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::DataSources"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1a187861f11263eda7b619c769b5ff83a5"></a>
+<a id="classansys-dpf-datasources-1a187861f11263eda7b619c769b5ff83a5"></a>
 ### Function DataSources
 
 ![][public]
+
 
 ```cpp
 ansys::dpf::DataSources::DataSources(int id, Client const *const client)
 ```
 
-Retrieve an existing instance of [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources) on a server.
+
+
+
+Retrieve an existing instance of [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources) on a server.
+
+
 
 **Parameters**:
 
-* int **id**: [in] Id of the [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources) object on the server's database.
-* [Client](classansys_1_1dpf_1_1Client.md#classansys_1_1dpf_1_1Client) const *const **client**: [in] [Client](classansys_1_1dpf_1_1Client.md#classansys_1_1dpf_1_1Client) instance designating the IP, port and protocol to use.
+* int **id**: [in] Id of the [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources) object on the server's database.
+* [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
 **Return type**: 
 
@@ -287,14 +352,22 @@ Retrieve an existing instance of [DataSources](classansys_1_1dpf_1_1DataSources.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::DataSources"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1a1d22445fd9d22b9a7adc4853d9c31386"></a>
+<a id="classansys-dpf-datasources-1a1d22445fd9d22b9a7adc4853d9c31386"></a>
 ### Function operator=
 
 ![][public]
 
+
 ```cpp
 DataSources & ansys::dpf::DataSources::operator=(DataSources const &)
 ```
+
+
+
+
+
+
+
 
 **Parameters**:
 
@@ -308,14 +381,22 @@ DataSources & ansys::dpf::DataSources::operator=(DataSources const &)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::operator="}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1a9c18012971ddaaf102576c92fb76814d"></a>
+<a id="classansys-dpf-datasources-1a9c18012971ddaaf102576c92fb76814d"></a>
 ### Function operator=
 
 ![][public]
 
+
 ```cpp
 DataSources & ansys::dpf::DataSources::operator=(DataSources &&) noexcept
 ```
+
+
+
+
+
+
+
 
 **Parameters**:
 
@@ -329,20 +410,26 @@ DataSources & ansys::dpf::DataSources::operator=(DataSources &&) noexcept
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::operator="}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1ad2a5bb6f24ca621ffaaee9e7a47cdc20"></a>
+<a id="classansys-dpf-datasources-1ad2a5bb6f24ca621ffaaee9e7a47cdc20"></a>
 ### Function addResultFile
 
 ![][public]
+
 
 ```cpp
 void ansys::dpf::DataSources::addResultFile(std::string const &file_path, std::string const &key)
 ```
 
+
+
+
 Define result file with key for data sources.
+
+
 
 **Parameters**:
 
-* std::string const & **file_path**: [in] [Result](classansys_1_1dpf_1_1Result.md#classansys_1_1dpf_1_1Result) file to use with data source container.
+* std::string const & **file_path**: [in] [Result](classansys-dpf-result.md#classansys-dpf-result) file to use with data source container.
 * std::string const & **key**: [in] Key describing type of file.
 
 **Return type**: void
@@ -353,20 +440,26 @@ Define result file with key for data sources.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::addResultFile"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1a8480115f09431641ad94e5088629ea10"></a>
+<a id="classansys-dpf-datasources-1a8480115f09431641ad94e5088629ea10"></a>
 ### Function addResultFileWString
 
 ![][public]
+
 
 ```cpp
 void ansys::dpf::DataSources::addResultFileWString(std::wstring const &file_path)
 ```
 
+
+
+
 Define result for data sources.
+
+
 
 **Parameters**:
 
-* std::wstring const & **file_path**: [in] [Result](classansys_1_1dpf_1_1Result.md#classansys_1_1dpf_1_1Result) file to use with data source container.
+* std::wstring const & **file_path**: [in] [Result](classansys-dpf-result.md#classansys-dpf-result) file to use with data source container.
 
 **Return type**: void
 
@@ -376,20 +469,26 @@ Define result for data sources.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::addResultFileWString"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1a596a92f17851f672d0572a404def4f2d"></a>
+<a id="classansys-dpf-datasources-1a596a92f17851f672d0572a404def4f2d"></a>
 ### Function addResultFile
 
 ![][public]
+
 
 ```cpp
 void ansys::dpf::DataSources::addResultFile(std::string const &file_path)
 ```
 
+
+
+
 Define result for data sources.
+
+
 
 **Parameters**:
 
-* std::string const & **file_path**: [in] [Result](classansys_1_1dpf_1_1Result.md#classansys_1_1dpf_1_1Result) file to use with data source container.
+* std::string const & **file_path**: [in] [Result](classansys-dpf-result.md#classansys-dpf-result) file to use with data source container.
 
 **Return type**: void
 
@@ -399,22 +498,28 @@ Define result for data sources.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::addResultFile"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1a84323382bc1f6d128bb86e6c3f15c4b0"></a>
+<a id="classansys-dpf-datasources-1a84323382bc1f6d128bb86e6c3f15c4b0"></a>
 ### Function addDomainResultFile
 
 ![][public]
+
 
 ```cpp
 void ansys::dpf::DataSources::addDomainResultFile(std::string const &file_path, std::string const &key, dp_int domain_id)
 ```
 
+
+
+
 Define data source result file with key and domain.
+
+
 
 **Parameters**:
 
-* std::string const & **file_path**: [in] [Result](classansys_1_1dpf_1_1Result.md#classansys_1_1dpf_1_1Result) file to use with data source container.
+* std::string const & **file_path**: [in] [Result](classansys-dpf-result.md#classansys-dpf-result) file to use with data source container.
 * std::string const & **key**: [in] Key describing type of file.
-* [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0) **domain_id**: [in] Domain id of file.
+* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **domain_id**: [in] Domain id of file.
 
 **Return type**: void
 
@@ -424,16 +529,22 @@ Define data source result file with key and domain.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::addDomainResultFile"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1ad8d20dc94dee694a62fce66e91691090"></a>
+<a id="classansys-dpf-datasources-1ad8d20dc94dee694a62fce66e91691090"></a>
 ### Function addFile
 
 ![][public]
+
 
 ```cpp
 void ansys::dpf::DataSources::addFile(std::string const &file_path, std::string const &key)
 ```
 
+
+
+
 Add secondary, non-result, file with key to data sources.
+
+
 
 **Parameters**:
 
@@ -448,16 +559,22 @@ Add secondary, non-result, file with key to data sources.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::addFile"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1a51a3d8501269698d90ebf54dc0049d2a"></a>
+<a id="classansys-dpf-datasources-1a51a3d8501269698d90ebf54dc0049d2a"></a>
 ### Function addFile
 
 ![][public]
+
 
 ```cpp
 void ansys::dpf::DataSources::addFile(std::string const &file_path)
 ```
 
+
+
+
 Add secondary, non-result, file to data sources.
+
+
 
 **Parameters**:
 
@@ -471,22 +588,28 @@ Add secondary, non-result, file to data sources.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::addFile"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1a166f58480abfc46773763764419eaf4c"></a>
+<a id="classansys-dpf-datasources-1a166f58480abfc46773763764419eaf4c"></a>
 ### Function addFile
 
 ![][public]
+
 
 ```cpp
 void ansys::dpf::DataSources::addFile(std::string const &file_path, std::string const &key, std::string const &result_key)
 ```
 
+
+
+
 Add secondary, non-result, file with key and result key to data sources.
+
+
 
 **Parameters**:
 
 * std::string const & **file_path**: [in] File to use with data source container.
 * std::string const & **key**: [in] Key describing type of file.
-* std::string const & **result_key**: [in] [Result](classansys_1_1dpf_1_1Result.md#classansys_1_1dpf_1_1Result) key for file.
+* std::string const & **result_key**: [in] [Result](classansys-dpf-result.md#classansys-dpf-result) key for file.
 
 **Return type**: void
 
@@ -496,22 +619,28 @@ Add secondary, non-result, file with key and result key to data sources.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::addFile"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1a997a716f9f6a33e05480f9965be17364"></a>
+<a id="classansys-dpf-datasources-1a997a716f9f6a33e05480f9965be17364"></a>
 ### Function addDomainFile
 
 ![][public]
+
 
 ```cpp
 void ansys::dpf::DataSources::addDomainFile(std::string const &file_path, std::string const &key, dp_int domain_id)
 ```
 
+
+
+
 Add domain file with key and domain id to data sources.
+
+
 
 **Parameters**:
 
 * std::string const & **file_path**: [in] File to use with data source container.
 * std::string const & **key**: [in] Key describing type of file.
-* [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0) **domain_id**: [in] Domain id of file.
+* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **domain_id**: [in] Domain id of file.
 
 **Return type**: void
 
@@ -521,16 +650,22 @@ Add domain file with key and domain id to data sources.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::addDomainFile"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1a45df078c3f76993557f10d9528bd1484"></a>
+<a id="classansys-dpf-datasources-1a45df078c3f76993557f10d9528bd1484"></a>
 ### Function addUpStream
 
 ![][public]
+
 
 ```cpp
 void ansys::dpf::DataSources::addUpStream(DataSources &ds)
 ```
 
+
+
+
 Add up stream to data sources.
+
+
 
 **Parameters**:
 
@@ -544,21 +679,27 @@ Add up stream to data sources.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::addUpStream"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1a34b2782ba0ecc1469787399af5c645c9"></a>
+<a id="classansys-dpf-datasources-1a34b2782ba0ecc1469787399af5c645c9"></a>
 ### Function addUpStream
 
 ![][public]
+
 
 ```cpp
 void ansys::dpf::DataSources::addUpStream(DataSources &ds, std::string const &result_key)
 ```
 
+
+
+
 Add up stream with result key to data sources.
+
+
 
 **Parameters**:
 
 * DataSources & **ds**: [in] Upstream data sources.
-* std::string const & **result_key**: [in] [Result](classansys_1_1dpf_1_1Result.md#classansys_1_1dpf_1_1Result) key for upstream source.
+* std::string const & **result_key**: [in] [Result](classansys-dpf-result.md#classansys-dpf-result) key for upstream source.
 
 **Return type**: void
 
@@ -568,19 +709,25 @@ Add up stream with result key to data sources.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::addUpStream"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1a7320cf9a8d0850e64fc8d337ee666178"></a>
+<a id="classansys-dpf-datasources-1a7320cf9a8d0850e64fc8d337ee666178"></a>
 ### Function resultKey
 
 ![][public]
 ![][const]
 
+
 ```cpp
 std::string ansys::dpf::DataSources::resultKey() const
 ```
 
+
+
+
 **Returns**:
 
-[Result](classansys_1_1dpf_1_1Result.md#classansys_1_1dpf_1_1Result) key of data sources.
+[Result](classansys-dpf-result.md#classansys-dpf-result) key of data sources.
+
+
 
 **Return type**: std::string
 
@@ -590,19 +737,25 @@ std::string ansys::dpf::DataSources::resultKey() const
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::resultKey"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1adfa425b1477b6ebe977f11097b9fb7c9"></a>
+<a id="classansys-dpf-datasources-1adfa425b1477b6ebe977f11097b9fb7c9"></a>
 ### Function resultNamespaceForKey
 
 ![][public]
 ![][const]
 
+
 ```cpp
 std::string ansys::dpf::DataSources::resultNamespaceForKey(std::string const &key) const
 ```
 
+
+
+
 **Returns**:
 
-[Result](classansys_1_1dpf_1_1Result.md#classansys_1_1dpf_1_1Result) namespace to a given key of data sources.
+[Result](classansys-dpf-result.md#classansys-dpf-result) namespace to a given key of data sources.
+
+
 
 **Parameters**:
 
@@ -616,19 +769,25 @@ std::string ansys::dpf::DataSources::resultNamespaceForKey(std::string const &ke
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::resultNamespaceForKey"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1ab406fd24d91af8256c82faee8d962c17"></a>
+<a id="classansys-dpf-datasources-1ab406fd24d91af8256c82faee8d962c17"></a>
 ### Function filePaths
 
 ![][public]
 ![][const]
 
+
 ```cpp
 std::vector< std::string > ansys::dpf::DataSources::filePaths(std::string const &key) const
 ```
 
+
+
+
 **Returns**:
 
 Vector of secondary files given by key.
+
+
 
 **Parameters**:
 
@@ -642,19 +801,25 @@ Vector of secondary files given by key.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::filePaths"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1a4c0974ee4d72e7d7d2d5051796cf7de2"></a>
+<a id="classansys-dpf-datasources-1a4c0974ee4d72e7d7d2d5051796cf7de2"></a>
 ### Function resultFilePaths
 
 ![][public]
 ![][const]
 
+
 ```cpp
 std::vector< std::string > ansys::dpf::DataSources::resultFilePaths() const
 ```
 
+
+
+
 **Returns**:
 
 Vector of result files in data sources.
+
+
 
 **Return type**: std::vector< std::string >
 
@@ -664,19 +829,25 @@ Vector of result files in data sources.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::resultFilePaths"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1a80afd0dab2f06de1b37097e89ef96e63"></a>
+<a id="classansys-dpf-datasources-1a80afd0dab2f06de1b37097e89ef96e63"></a>
 ### Function keys
 
 ![][public]
 ![][const]
 
+
 ```cpp
 std::vector< std::string > ansys::dpf::DataSources::keys() const
 ```
 
+
+
+
 **Returns**:
 
 Vector of keys in data sources.
+
+
 
 **Return type**: std::vector< std::string >
 
@@ -686,19 +857,25 @@ Vector of keys in data sources.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::keys"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1a74a2a6b4aacae91be09048a58c601d1b"></a>
+<a id="classansys-dpf-datasources-1a74a2a6b4aacae91be09048a58c601d1b"></a>
 ### Function numPaths
 
 ![][public]
 ![][const]
 
+
 ```cpp
 int ansys::dpf::DataSources::numPaths() const
 ```
 
+
+
+
 **Returns**:
 
 Size or Num file path in data sources.
+
+
 
 **Return type**: int
 
@@ -708,24 +885,30 @@ Size or Num file path in data sources.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::numPaths"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1af9f900d56ea58cec07e7d04151c2208a"></a>
+<a id="classansys-dpf-datasources-1af9f900d56ea58cec07e7d04151c2208a"></a>
 ### Function pathAtKeyByIndex
 
 ![][public]
 ![][const]
 
+
 ```cpp
 std::string ansys::dpf::DataSources::pathAtKeyByIndex(std::string const &key, dp_index index) const
 ```
+
+
+
 
 **Returns**:
 
 Path at given key and given index in data sources.
 
+
+
 **Parameters**:
 
 * std::string const & **key**
-* [dp\_index](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920) **index**
+* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**
 
 **Return type**: std::string
 
@@ -735,19 +918,25 @@ Path at given key and given index in data sources.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::pathAtKeyByIndex"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1a3232c71d54216a688008e590ac8f892d"></a>
+<a id="classansys-dpf-datasources-1a3232c71d54216a688008e590ac8f892d"></a>
 ### Function pathAndKeyByIndex
 
 ![][public]
 ![][const]
 
+
 ```cpp
 std::pair< std::string, std::string > ansys::dpf::DataSources::pathAndKeyByIndex(int index) const
 ```
 
+
+
+
 **Returns**:
 
 File path and its key for a given index in data sources.
+
+
 
 **Parameters**:
 
@@ -761,25 +950,31 @@ File path and its key for a given index in data sources.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::pathAndKeyByIndex"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1a8803654ff5e770591c1c866271f436f6"></a>
+<a id="classansys-dpf-datasources-1a8803654ff5e770591c1c866271f436f6"></a>
 ### Function identifierbyIndex
 
 ![][public]
 ![][const]
 
+
 ```cpp
 LabelSpace ansys::dpf::DataSources::identifierbyIndex(int index) const
 ```
 
+
+
+
 **Returns**:
 
-[LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1_1LabelSpace) or identifier of a path for a given index in data sources.
+[LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) or identifier of a path for a given index in data sources.
+
+
 
 **Parameters**:
 
 * int **index**
 
-**Return type**: [LabelSpace](classansys_1_1dpf_1_1LabelSpace.md#classansys_1_1dpf_1_1LabelSpace)
+**Return type**: [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace)
 
 <!--
 **TODO**:
@@ -787,21 +982,27 @@ LabelSpace ansys::dpf::DataSources::identifierbyIndex(int index) const
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::identifierbyIndex"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1a98fc4cd5c063eef368734854b30b63c2"></a>
+<a id="classansys-dpf-datasources-1a98fc4cd5c063eef368734854b30b63c2"></a>
 ### Function deep\_copy
 
 ![][public]
 ![][const]
 
+
 ```cpp
 DataSources ansys::dpf::DataSources::deep_copy(ansys::dpf::Client const *const client=nullptr) const
 ```
 
-Create a new [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources) on a server by copying all the data of this [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources).
+
+
+
+Create a new [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources) on a server by copying all the data of this [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources).
+
+
 
 **Parameters**:
 
-* [ansys::dpf::Client](classansys_1_1dpf_1_1Client.md#classansys_1_1dpf_1_1Client) const *const **client** = nullptr : [in] [Client](classansys_1_1dpf_1_1Client.md#classansys_1_1dpf_1_1Client) instance designating the IP, port and protocol to use.
+* [ansys::dpf::Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client** = nullptr : [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
 **Return type**: DataSources
 
@@ -811,17 +1012,23 @@ Create a new [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::deep_copy"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1a5847c55b3f521ae84f106f3413888a95"></a>
+<a id="classansys-dpf-datasources-1a5847c55b3f521ae84f106f3413888a95"></a>
 ### Function getHashableKey
 
 ![][public]
 ![][const]
 
+
 ```cpp
 std::string ansys::dpf::DataSources::getHashableKey() const
 ```
 
-Set and get an simpler hashable entity (here a file path) instead of the full [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources) to save time
+
+
+
+Set and get an simpler hashable entity (here a file path) instead of the full [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources) to save time
+
+
 
 **Return type**: std::string
 
@@ -831,15 +1038,23 @@ Set and get an simpler hashable entity (here a file path) instead of the full [D
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::getHashableKey"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1a97dfdec6f9ba966084790215b8eb682e"></a>
+<a id="classansys-dpf-datasources-1a97dfdec6f9ba966084790215b8eb682e"></a>
 ### Function setHashableKey
 
 ![][public]
 ![][const]
 
+
 ```cpp
 void ansys::dpf::DataSources::setHashableKey(const std::string &unique_identifier) const
 ```
+
+
+
+
+
+
+
 
 **Parameters**:
 
@@ -853,17 +1068,23 @@ void ansys::dpf::DataSources::setHashableKey(const std::string &unique_identifie
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::setHashableKey"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1a27af11a7f6a10abb4ce707e338065420"></a>
+<a id="classansys-dpf-datasources-1a27af11a7f6a10abb4ce707e338065420"></a>
 ### Function getHash
 
 ![][public]
 ![][const]
 
+
 ```cpp
 size_t ansys::dpf::DataSources::getHash() const
 ```
 
+
+
+
 Compute and get the hash of a data_sources
+
+
 
 **Return type**: size_t
 
@@ -873,14 +1094,22 @@ Compute and get the hash of a data_sources
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::getHash"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DataSources_1a3e58ea69bbb8b0e13f2368885f490a9d"></a>
+<a id="classansys-dpf-datasources-1a3e58ea69bbb8b0e13f2368885f490a9d"></a>
 ### Function registerNamespace
 
 ![][public]
 
+
 ```cpp
 void ansys::dpf::DataSources::registerNamespace(std::string const &result_key, std::string const &namspace)
 ```
+
+
+
+
+
+
+
 
 **Parameters**:
 
@@ -897,20 +1126,26 @@ void ansys::dpf::DataSources::registerNamespace(std::string const &result_key, s
 
 ## Public static functions
 
-<a id="classansys_1_1dpf_1_1DataSources_1a014bb2c064ff1dce21325a012a57a4c8"></a>
+<a id="classansys-dpf-datasources-1a014bb2c064ff1dce21325a012a57a4c8"></a>
 ### Function emptyDataSources
 
 ![][public]
 ![][static]
 
+
 ```cpp
 static DataSources ansys::dpf::DataSources::emptyDataSources()
 ```
 
+
+
+
 Create an empty data sources. 
 **Returns**:
 
-Empty [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1DataSources).
+Empty [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources).
+
+
 
 **Return type**: DataSources
 
@@ -927,7 +1162,6 @@ Empty [DataSources](classansys_1_1dpf_1_1DataSources.md#classansys_1_1dpf_1_1Dat
 -->
 
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)

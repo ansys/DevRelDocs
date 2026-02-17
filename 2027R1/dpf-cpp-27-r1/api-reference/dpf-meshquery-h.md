@@ -1,28 +1,33 @@
-<a id="dpf__meshQuery_8h"></a>
+<a id="dpf-meshquery-h"></a>
 # File dpf\_meshQuery.h
 
 ![][C++]
 
-**Location**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/helpers/dpf\_meshQuery.h`
+**Location**: `dpf/include/helpers`
+
+
+
+
 
 ## Classes
 
-* [ansys::dpf::MeshQuery](classansys_1_1dpf_1_1MeshQuery.md#classansys_1_1dpf_1_1MeshQuery)
+* [ansys::dpf::MeshQuery](classansys-dpf-meshquery.md#classansys-dpf-meshquery)
 
 ## Namespaces
 
 * [ansys](namespaceansys.md#namespaceansys)
-* [ansys::dpf](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf)
+* [ansys::dpf](namespaceansys-dpf.md#namespaceansys-dpf)
 
 ## Includes
 
-* [dpf_api.h](dpf__api_8h.md#dpf__api_8h)
+* [dpf_api.h](dpf-api-h.md#dpf-api-h)
 
 ## Included by
 
-* [D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/helpers/dpf_model.h](dpf__model_8h.md#dpf__model_8h)
+* [dpf/include/helpers/dpf_model.h](dpf-model-h.md#dpf-model-h)
 
 ## Source
+
 
 ```cpp
 //
@@ -202,9 +207,9 @@ namespace ansys {
 } // end of namepsace ansys
 ```
 
+
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-[Markdown]: https://img.shields.io/badge/language-Markdown-blue (Markdown)
+[private]: https://img.shields.io/badge/-private-red (private)

@@ -3,19 +3,29 @@
 
 ![][C++]
 
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 39)
+
+
+
 
 ## Functions
 
-<a id="dpf__api__base_8h_1a3536bcf1fa71355264a220b8d375579d"></a>
+<a id="dpf-api-base-h-1a3536bcf1fa71355264a220b8d375579d"></a>
 ### Function call\_function
 
 ![][public]
 ![][static]
 
+
 ```cpp
 static void helper::call_function(FunctionT f, ansys::dpf::so::API const *api, ArgsT... args)
 ```
+
+
+
+
+
+
+
 
 **Parameters**:
 
@@ -32,14 +42,22 @@ static void helper::call_function(FunctionT f, ansys::dpf::so::API const *api, A
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"helper::call_function"}]}`
 -->
 
-<a id="dpf__api__base_8h_1af26176cb86f1989ba2c112d62d53a865"></a>
+<a id="dpf-api-base-h-1af26176cb86f1989ba2c112d62d53a865"></a>
 ### Function throw\_dpf\_exception\_if\_necessary
 
 ![][public]
 
+
 ```cpp
 void helper::throw_dpf_exception_if_necessary(std::string const &origin, int error_size, _TCHAR *text, const ansys::dpf::so::API *api)
 ```
+
+
+
+
+
+
+
 
 **Parameters**:
 
@@ -57,7 +75,7 @@ void helper::throw_dpf_exception_if_necessary(std::string const &origin, int err
 -->
 
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+[private]: https://img.shields.io/badge/-private-red (private)

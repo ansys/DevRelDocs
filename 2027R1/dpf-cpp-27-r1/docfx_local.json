@@ -1,6 +1,19 @@
 {
   "metadata": [],
   "build": {
+    "globalMetadata": {
+      "title": "DPF C++ API (Local)",
+      "summary": "",
+      "version": "2027 R1",
+      "product": "DPF",
+      "programming language": "C++",
+      "product collection": "Structures",
+      "physics": "Structures",
+      "_appFooter": "Copyright \u00a9 2027 ANSYS, Inc. All rights reserved.",
+      "_enableSearch": true,
+      "_disableContribution": true,
+      "_appTitle": "DPF C++ API 2027 R1"
+    },
     "content": [
       {
         "files": [
@@ -17,6 +30,14 @@
         ],
         "src": "api-reference",
         "dest": "api-reference"
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/toc.yml"
+        ],
+        "src": "examples",
+        "dest": "examples"
       },
       {
         "files": [
@@ -44,19 +65,14 @@
         ]
       }
     ],
-    "globalMetadata": {
-      "_appTitle": "DPF C++ API - 2027 R1 (Local)",
-      "_appFooter": "Copyright \u00a9 2026 ANSYS, Inc. All rights reserved.",
-      "_enableSearch": true,
-      "_disableContribution": true
-    },
     "fileMetadata": {
       "_tocRel": {
         "api-reference/**": "../toc.yml"
       }
     },
     "template": [
-      "default"
+      "default",
+      "modern"
     ],
     "dest": "_site",
     "xrefService": [

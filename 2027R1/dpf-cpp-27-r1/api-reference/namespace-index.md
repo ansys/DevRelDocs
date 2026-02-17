@@ -3,14 +3,14 @@
 ## A
 
 * [ansys](namespaceansys.md#namespaceansys)
-* [ansys::dpf](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf): This is the main namespace of the HGP API.
-* [ansys::dpf::internal](namespaceansys_1_1dpf_1_1internal.md#namespaceansys_1_1dpf_1_1internal)
-* [ansys::dpf::opaque](namespaceansys_1_1dpf_1_1opaque.md#namespaceansys_1_1dpf_1_1opaque)
-* [ansys::dpf::so](namespaceansys_1_1dpf_1_1so.md#namespaceansys_1_1dpf_1_1so)
+* [ansys::dpf](namespaceansys-dpf.md#namespaceansys-dpf): This is the main namespace of the HGP API.
+* [ansys::dpf::internal](namespaceansys-dpf-internal.md#namespaceansys-dpf-internal)
+* [ansys::dpf::opaque](namespaceansys-dpf-opaque.md#namespaceansys-dpf-opaque)
+* [ansys::dpf::so](namespaceansys-dpf-so.md#namespaceansys-dpf-so)
 
 ## D
 
-* [dataProcessing](namespacedataProcessing.md#namespacedataProcessing)
+* [dataProcessing](namespacedataprocessing.md#namespacedataprocessing)
 
 ## H
 

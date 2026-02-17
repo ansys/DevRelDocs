@@ -1,26 +1,31 @@
-<a id="dpf__model_8h"></a>
+<a id="dpf-model-h"></a>
 # File dpf\_model.h
 
 ![][C++]
 
-**Location**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/helpers/dpf\_model.h`
+**Location**: `dpf/include/helpers`
+
+
+
+
 
 ## Classes
 
-* [ansys::dpf::Model](classansys_1_1dpf_1_1Model.md#classansys_1_1dpf_1_1Model)
+* [ansys::dpf::Model](classansys-dpf-model.md#classansys-dpf-model)
 
 ## Namespaces
 
 * [ansys](namespaceansys.md#namespaceansys)
-* [ansys::dpf](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf)
+* [ansys::dpf](namespaceansys-dpf.md#namespaceansys-dpf)
 
 ## Includes
 
-* [dpf_api.h](dpf__api_8h.md#dpf__api_8h)
-* [dpf_result.h](dpf__result_8h.md#dpf__result_8h)
-* [dpf_meshQuery.h](dpf__meshQuery_8h.md#dpf__meshQuery_8h)
+* [dpf_api.h](dpf-api-h.md#dpf-api-h)
+* [dpf_result.h](dpf-result-h.md#dpf-result-h)
+* [dpf_meshQuery.h](dpf-meshquery-h.md#dpf-meshquery-h)
 
 ## Source
+
 
 ```cpp
 //
@@ -53,6 +58,7 @@ namespace ansys {
 
             inline MeshedRegion getMesh(int timestep = 0 
             );
+
 
             inline MeshesContainer getMeshesContainer();
 
@@ -108,6 +114,7 @@ namespace ansys {
             }
         }
 
+
         MeshedRegion Model::getMesh(int /*timestep*/)
         {
             auto mesh = _mesh_provider.getOutputMeshedRegion(0);
@@ -133,13 +140,15 @@ namespace ansys {
             return Result(res_name, _stream_provider, _timefreq_support_provider, _mesh_provider, named_selection, requested_location, bInclusive, cs_id);
         }
 
+
+
     } // end of namespace dpf
 } // end of namepsace ansys
 ```
 
+
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-[Markdown]: https://img.shields.io/badge/language-Markdown-blue (Markdown)
+[private]: https://img.shields.io/badge/-private-red (private)

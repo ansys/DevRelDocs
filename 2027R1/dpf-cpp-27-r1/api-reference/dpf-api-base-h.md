@@ -1,77 +1,81 @@
-<a id="dpf__api__base_8h"></a>
+<a id="dpf-api-base-h"></a>
 # File dpf\_api\_base.h
 
 ![][C++]
 
-**Location**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h`
+**Location**: `dpf/include`
+
+
+
+
 
 ## Classes
 
-* [ansys::dpf::reflect](structansys_1_1dpf_1_1reflect.md#structansys_1_1dpf_1_1reflect)
-* [ansys::dpf::param\_helpers](structansys_1_1dpf_1_1param__helpers.md#structansys_1_1dpf_1_1param__helpers)
-* [ansys::dpf::QuantityType](structansys_1_1dpf_1_1QuantityType.md#structansys_1_1dpf_1_1QuantityType)
-* [ansys::dpf::quantity\_types](structansys_1_1dpf_1_1quantity__types.md#structansys_1_1dpf_1_1quantity__types)
-* [ansys::dpf::Location](structansys_1_1dpf_1_1Location.md#structansys_1_1dpf_1_1Location)
-* [ansys::dpf::locations](structansys_1_1dpf_1_1locations.md#structansys_1_1dpf_1_1locations)
-* [ansys::dpf::PropertyType](structansys_1_1dpf_1_1PropertyType.md#structansys_1_1dpf_1_1PropertyType)
-* [ansys::dpf::property\_types](structansys_1_1dpf_1_1property__types.md#structansys_1_1dpf_1_1property__types)
-* [ansys::dpf::Homogeneity](classansys_1_1dpf_1_1Homogeneity.md#classansys_1_1dpf_1_1Homogeneity)
-* [ansys::dpf::homogeneities](structansys_1_1dpf_1_1homogeneities.md#structansys_1_1dpf_1_1homogeneities)
-* [ansys::dpf::UnitSystem](structansys_1_1dpf_1_1UnitSystem.md#structansys_1_1dpf_1_1UnitSystem)
-* [ansys::dpf::unit\_systems](structansys_1_1dpf_1_1unit__systems.md#structansys_1_1dpf_1_1unit__systems)
-* [ansys::dpf::Label](structansys_1_1dpf_1_1Label.md#structansys_1_1dpf_1_1Label)
-* [ansys::dpf::labels](structansys_1_1dpf_1_1labels.md#structansys_1_1dpf_1_1labels)
-* [ansys::dpf::ShellDescriptor](structansys_1_1dpf_1_1ShellDescriptor.md#structansys_1_1dpf_1_1ShellDescriptor)
-* [ansys::dpf::ElementDescriptor](structansys_1_1dpf_1_1ElementDescriptor.md#structansys_1_1dpf_1_1ElementDescriptor)
-* [ansys::dpf::elements](structansys_1_1dpf_1_1elements.md#structansys_1_1dpf_1_1elements)
-* [ansys::dpf::TypeDescriptor](structansys_1_1dpf_1_1TypeDescriptor.md#structansys_1_1dpf_1_1TypeDescriptor)
-* [ansys::dpf::types](structansys_1_1dpf_1_1types.md#structansys_1_1dpf_1_1types)
-* [ansys::dpf::Dimensionality](structansys_1_1dpf_1_1Dimensionality.md#structansys_1_1dpf_1_1Dimensionality)
-* [ansys::dpf::dimensionalities](structansys_1_1dpf_1_1dimensionalities.md#structansys_1_1dpf_1_1dimensionalities)
-* [ansys::dpf::spec](structansys_1_1dpf_1_1spec.md#structansys_1_1dpf_1_1spec)
-* [ansys::dpf::spec::exposure](structansys_1_1dpf_1_1spec_1_1exposure.md#structansys_1_1dpf_1_1spec_1_1exposure)
-* [ansys::dpf::spec::category](structansys_1_1dpf_1_1spec_1_1category.md#structansys_1_1dpf_1_1spec_1_1category)
-* [ansys::dpf::spec::plugin](structansys_1_1dpf_1_1spec_1_1plugin.md#structansys_1_1dpf_1_1spec_1_1plugin)
-* [ansys::dpf::spec::license](structansys_1_1dpf_1_1spec_1_1license.md#structansys_1_1dpf_1_1spec_1_1license)
-* [ansys::dpf::DpfTypes](classansys_1_1dpf_1_1DpfTypes.md#classansys_1_1dpf_1_1DpfTypes)
-* [ansys::dpf::Client](classansys_1_1dpf_1_1Client.md#classansys_1_1dpf_1_1Client)
-* [ansys::dpf::DpfError](classansys_1_1dpf_1_1DpfError.md#classansys_1_1dpf_1_1DpfError)
-* [ansys::dpf::DpfException](classansys_1_1dpf_1_1DpfException.md#classansys_1_1dpf_1_1DpfException)
-* [ansys::dpf::DpfVectorDataHelper](structansys_1_1dpf_1_1DpfVectorDataHelper.md#structansys_1_1dpf_1_1DpfVectorDataHelper)
-* [ansys::dpf::DpfVectorData](classansys_1_1dpf_1_1DpfVectorData.md#classansys_1_1dpf_1_1DpfVectorData)
-* [ansys::dpf::DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector)
-* [ansys::dpf::DpfVector::iterator](structansys_1_1dpf_1_1DpfVector_1_1iterator.md#structansys_1_1dpf_1_1DpfVector_1_1iterator)
-* [ansys::dpf::DpfVector\< std::string \>](classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4.md#classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4)
-* [ansys::dpf::Context](classansys_1_1dpf_1_1Context.md#classansys_1_1dpf_1_1Context)
-* [ansys::dpf::Context::internal](structansys_1_1dpf_1_1Context_1_1internal.md#structansys_1_1dpf_1_1Context_1_1internal)
-* [ansys::dpf::LibraryHandle](classansys_1_1dpf_1_1LibraryHandle.md#classansys_1_1dpf_1_1LibraryHandle)
-* [ansys::dpf::LibraryHolder](classansys_1_1dpf_1_1LibraryHolder.md#classansys_1_1dpf_1_1LibraryHolder)
-* [ansys::dpf::reflect\< std::string \>](structansys_1_1dpf_1_1reflect_3_01std_1_1string_01_4.md#structansys_1_1dpf_1_1reflect_3_01std_1_1string_01_4)
-* [ansys::dpf::reflect\< int \>](structansys_1_1dpf_1_1reflect_3_01int_01_4.md#structansys_1_1dpf_1_1reflect_3_01int_01_4)
-* [ansys::dpf::reflect\< double \>](structansys_1_1dpf_1_1reflect_3_01double_01_4.md#structansys_1_1dpf_1_1reflect_3_01double_01_4)
-* [ansys::dpf::reflect\< bool \>](structansys_1_1dpf_1_1reflect_3_01bool_01_4.md#structansys_1_1dpf_1_1reflect_3_01bool_01_4)
-* [ansys::dpf::reflect\< size\_t \>](structansys_1_1dpf_1_1reflect_3_01size__t_01_4.md#structansys_1_1dpf_1_1reflect_3_01size__t_01_4)
-* [ansys::dpf::reflect\< int64\_t \>](structansys_1_1dpf_1_1reflect_3_01int64__t_01_4.md#structansys_1_1dpf_1_1reflect_3_01int64__t_01_4)
-* [ansys::dpf::reflect\< char \>](structansys_1_1dpf_1_1reflect_3_01char_01_4.md#structansys_1_1dpf_1_1reflect_3_01char_01_4)
-* [ansys::dpf::reflect\< wchar\_t \>](structansys_1_1dpf_1_1reflect_3_01wchar__t_01_4.md#structansys_1_1dpf_1_1reflect_3_01wchar__t_01_4)
-* [ansys::dpf::reflect\< float \>](structansys_1_1dpf_1_1reflect_3_01float_01_4.md#structansys_1_1dpf_1_1reflect_3_01float_01_4)
-* [ansys::dpf::reflect\< unsigned int \>](structansys_1_1dpf_1_1reflect_3_01unsigned_01int_01_4.md#structansys_1_1dpf_1_1reflect_3_01unsigned_01int_01_4)
-* [ansys::dpf::reflect\< short \>](structansys_1_1dpf_1_1reflect_3_01short_01_4.md#structansys_1_1dpf_1_1reflect_3_01short_01_4)
-* [ansys::dpf::reflect\< std::vector\< int \> \>](structansys_1_1dpf_1_1reflect_3_01std_1_1vector_3_01int_01_4_01_4.md#structansys_1_1dpf_1_1reflect_3_01std_1_1vector_3_01int_01_4_01_4)
-* [ansys::dpf::reflect\< std::vector\< double \> \>](structansys_1_1dpf_1_1reflect_3_01std_1_1vector_3_01double_01_4_01_4.md#structansys_1_1dpf_1_1reflect_3_01std_1_1vector_3_01double_01_4_01_4)
-* [ansys::dpf::reflect\< std::vector\< std::string \> \>](structansys_1_1dpf_1_1reflect_3_01std_1_1vector_3_01std_1_1string_01_4_01_4.md#structansys_1_1dpf_1_1reflect_3_01std_1_1vector_3_01std_1_1string_01_4_01_4)
-* [ansys::dpf::reflect\< int8\_t \>](structansys_1_1dpf_1_1reflect_3_01int8__t_01_4.md#structansys_1_1dpf_1_1reflect_3_01int8__t_01_4)
-* [ansys::dpf::reflect\< std::complex\< double \> \>](structansys_1_1dpf_1_1reflect_3_01std_1_1complex_3_01double_01_4_01_4.md#structansys_1_1dpf_1_1reflect_3_01std_1_1complex_3_01double_01_4_01_4)
-* [std::hash\< ansys::dpf::PropertyType \>](structstd_1_1hash_3_01ansys_1_1dpf_1_1PropertyType_01_4.md#structstd_1_1hash_3_01ansys_1_1dpf_1_1PropertyType_01_4)
+* [ansys::dpf::reflect](structansys-dpf-reflect.md#structansys-dpf-reflect)
+* [ansys::dpf::param\_helpers](structansys-dpf-param-helpers.md#structansys-dpf-param-helpers)
+* [ansys::dpf::QuantityType](structansys-dpf-quantitytype.md#structansys-dpf-quantitytype)
+* [ansys::dpf::quantity\_types](structansys-dpf-quantity-types.md#structansys-dpf-quantity-types)
+* [ansys::dpf::Location](structansys-dpf-location.md#structansys-dpf-location)
+* [ansys::dpf::locations](structansys-dpf-locations.md#structansys-dpf-locations)
+* [ansys::dpf::PropertyType](structansys-dpf-propertytype.md#structansys-dpf-propertytype)
+* [ansys::dpf::property\_types](structansys-dpf-property-types.md#structansys-dpf-property-types)
+* [ansys::dpf::Homogeneity](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity)
+* [ansys::dpf::homogeneities](structansys-dpf-homogeneities.md#structansys-dpf-homogeneities)
+* [ansys::dpf::UnitSystem](structansys-dpf-unitsystem.md#structansys-dpf-unitsystem)
+* [ansys::dpf::unit\_systems](structansys-dpf-unit-systems.md#structansys-dpf-unit-systems)
+* [ansys::dpf::Label](structansys-dpf-label.md#structansys-dpf-label)
+* [ansys::dpf::labels](structansys-dpf-labels.md#structansys-dpf-labels)
+* [ansys::dpf::ShellDescriptor](structansys-dpf-shelldescriptor.md#structansys-dpf-shelldescriptor)
+* [ansys::dpf::ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor)
+* [ansys::dpf::elements](structansys-dpf-elements.md#structansys-dpf-elements)
+* [ansys::dpf::TypeDescriptor](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor)
+* [ansys::dpf::types](structansys-dpf-types.md#structansys-dpf-types)
+* [ansys::dpf::Dimensionality](structansys-dpf-dimensionality.md#structansys-dpf-dimensionality)
+* [ansys::dpf::dimensionalities](structansys-dpf-dimensionalities.md#structansys-dpf-dimensionalities)
+* [ansys::dpf::spec](structansys-dpf-spec.md#structansys-dpf-spec)
+* [ansys::dpf::spec::exposure](structansys-dpf-spec-exposure.md#structansys-dpf-spec-exposure)
+* [ansys::dpf::spec::category](structansys-dpf-spec-category.md#structansys-dpf-spec-category)
+* [ansys::dpf::spec::plugin](structansys-dpf-spec-plugin.md#structansys-dpf-spec-plugin)
+* [ansys::dpf::spec::license](structansys-dpf-spec-license.md#structansys-dpf-spec-license)
+* [ansys::dpf::DpfTypes](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes)
+* [ansys::dpf::Client](classansys-dpf-client.md#classansys-dpf-client)
+* [ansys::dpf::DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror)
+* [ansys::dpf::DpfException](classansys-dpf-dpfexception.md#classansys-dpf-dpfexception)
+* [ansys::dpf::DpfVectorDataHelper](structansys-dpf-dpfvectordatahelper.md#structansys-dpf-dpfvectordatahelper)
+* [ansys::dpf::DpfVectorData](classansys-dpf-dpfvectordata.md#classansys-dpf-dpfvectordata)
+* [ansys::dpf::DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)
+* [ansys::dpf::DpfVector::iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator)
+* [ansys::dpf::DpfVector\< std::string \>](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-std-string-4)
+* [ansys::dpf::Context](classansys-dpf-context.md#classansys-dpf-context)
+* [ansys::dpf::Context::internal](structansys-dpf-context-internal.md#structansys-dpf-context-internal)
+* [ansys::dpf::LibraryHandle](classansys-dpf-libraryhandle.md#classansys-dpf-libraryhandle)
+* [ansys::dpf::LibraryHolder](classansys-dpf-libraryholder.md#classansys-dpf-libraryholder)
+* [ansys::dpf::reflect\< std::string \>](structansys-dpf-reflect-std-string.md#structansys-dpf-reflect-std-string-4)
+* [ansys::dpf::reflect\< int \>](structansys-dpf-reflect-int.md#structansys-dpf-reflect-int-4)
+* [ansys::dpf::reflect\< double \>](structansys-dpf-reflect-double.md#structansys-dpf-reflect-double-4)
+* [ansys::dpf::reflect\< bool \>](structansys-dpf-reflect-bool.md#structansys-dpf-reflect-bool-4)
+* [ansys::dpf::reflect\< size\_t \>](structansys-dpf-reflect-size-t.md#structansys-dpf-reflect-size-t-4)
+* [ansys::dpf::reflect\< int64\_t \>](structansys-dpf-reflect-int64-t.md#structansys-dpf-reflect-int64-t-4)
+* [ansys::dpf::reflect\< char \>](structansys-dpf-reflect-char.md#structansys-dpf-reflect-char-4)
+* [ansys::dpf::reflect\< wchar\_t \>](structansys-dpf-reflect-wchar-t.md#structansys-dpf-reflect-wchar-t-4)
+* [ansys::dpf::reflect\< float \>](structansys-dpf-reflect-float.md#structansys-dpf-reflect-float-4)
+* [ansys::dpf::reflect\< unsigned int \>](structansys-dpf-reflect-unsigned-int.md#structansys-dpf-reflect-unsigned-int-4)
+* [ansys::dpf::reflect\< short \>](structansys-dpf-reflect-short.md#structansys-dpf-reflect-short-4)
+* [ansys::dpf::reflect\< std::vector\< int \> \>](structansys-dpf-reflect-std-vector-int-4.md#structansys-dpf-reflect-std-vector-int-4-4)
+* [ansys::dpf::reflect\< std::vector\< double \> \>](structansys-dpf-reflect-std-vector-double-4.md#structansys-dpf-reflect-std-vector-double-4-4)
+* [ansys::dpf::reflect\< std::vector\< std::string \> \>](structansys-dpf-reflect-std-vector-std-string-4.md#structansys-dpf-reflect-std-vector-std-string-4-4)
+* [ansys::dpf::reflect\< int8\_t \>](structansys-dpf-reflect-int8-t.md#structansys-dpf-reflect-int8-t-4)
+* [ansys::dpf::reflect\< std::complex\< double \> \>](structansys-dpf-reflect-std-complex-double-4.md#structansys-dpf-reflect-std-complex-double-4-4)
+* [std::hash\< ansys::dpf::PropertyType \>](structstd-hash-ansys-dpf-propertytype.md#structstd-hash-ansys-dpf-propertytype-4)
 
 ## Namespaces
 
-* [dataProcessing](namespacedataProcessing.md#namespacedataProcessing)
+* [dataProcessing](namespacedataprocessing.md#namespacedataprocessing)
 * [ansys](namespaceansys.md#namespaceansys)
-* [ansys::dpf](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf)
-* [ansys::dpf::so](namespaceansys_1_1dpf_1_1so.md#namespaceansys_1_1dpf_1_1so)
+* [ansys::dpf](namespaceansys-dpf.md#namespaceansys-dpf)
+* [ansys::dpf::so](namespaceansys-dpf-so.md#namespaceansys-dpf-so)
 * [helper](namespacehelper.md#namespacehelper)
-* [ansys::dpf::opaque](namespaceansys_1_1dpf_1_1opaque.md#namespaceansys_1_1dpf_1_1opaque)
+* [ansys::dpf::opaque](namespaceansys-dpf-opaque.md#namespaceansys-dpf-opaque)
 * [std](namespacestd.md#namespacestd)
 
 ## Includes
@@ -86,6 +90,7 @@
 * <cstring>
 * <complex>
 * tchar.h
+
 
 ```mermaid
 graph LR
@@ -124,11 +129,13 @@ click 1 "dpf__api__base_8h.md#dpf__api__base_8h"
 
 ```
 
+
 ## Included by
 
-* [D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf_api.h](dpf__api_8h.md#dpf__api_8h)
+* [dpf/include/dpf_api.h](dpf-api-h.md#dpf-api-h)
 
 ## Source
+
 
 ```cpp
 //
@@ -186,6 +193,7 @@ namespace ansys
         typedef int dp_index;
         typedef double dp_double;
 
+
         template <typename DpfTypeT>
         struct reflect
         {
@@ -237,6 +245,7 @@ namespace ansys
 
             static const QuantityType unknown;
         };
+
 
         struct Location
         {
@@ -760,6 +769,7 @@ namespace ansys
             class FbsSlice;
             typedef void DpfCustomType;
 
+
             class DpfInternalSharedObject;
         }
 
@@ -1143,6 +1153,7 @@ namespace ansys
             void copy(std::vector<T>& to_fill)const;
             std::vector<T> copy()const;
 
+
             struct iterator {
                 friend class DpfVector;
             public:
@@ -1198,8 +1209,10 @@ namespace ansys
             iterator begin() const { return iterator(0, _data); }
             iterator end() const { return iterator(static_cast<typename iterator::index_type>(size()), _data); }
 
+
             inline void reset(iterator const& begin, iterator const& end);
         };
+
 
         template <typename T>
         DpfVector<T>::DpfVector(fillFunc const& constructor, opaque::DpfObject* obj)
@@ -1360,6 +1373,7 @@ namespace ansys
                 return _data->commit();
         }
 
+
         template <>
         class DpfVector<std::string>
         {
@@ -1395,6 +1409,7 @@ namespace ansys
             void copy(std::vector<std::string>& to_fill)const;
             std::vector<std::string> copy()const;
         };
+
 
         enum class ApiType
         {
@@ -1619,6 +1634,7 @@ namespace ansys
     } // end of namespace dpf
 } // end of namepsace ansys
 
+
 namespace helper
 {
     template <typename FunctionT, typename ...ArgsT>
@@ -1643,9 +1659,9 @@ namespace std {
 
 ```
 
+
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-[Markdown]: https://img.shields.io/badge/language-Markdown-blue (Markdown)
+[private]: https://img.shields.io/badge/-private-red (private)

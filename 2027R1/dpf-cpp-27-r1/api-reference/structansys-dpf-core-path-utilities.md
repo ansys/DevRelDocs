@@ -1,30 +1,40 @@
-<a id="structansys_1_1dpf_1_1core_1_1path__utilities"></a>
+<a id="structansys-dpf-core-path-utilities"></a>
 # Structure ansys::dpf::core::path\_utilities
 
 ![][C++]
 ![][public]
 
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api.h` (line 6654)
+
+
+
 
 ## Members
 
-* [uploadFile](structansys_1_1dpf_1_1core_1_1path__utilities.md#structansys_1_1dpf_1_1core_1_1path__utilities_1ac7b2f796f5562b530e11b7c680dd07e6)
+* [uploadFile](structansys-dpf-core-path-utilities.md#structansys-dpf-core-path-utilities-1ac7b2f796f5562b530e11b7c680dd07e6)
 
 ## Public static functions
 
-<a id="structansys_1_1dpf_1_1core_1_1path__utilities_1ac7b2f796f5562b530e11b7c680dd07e6"></a>
+<a id="structansys-dpf-core-path-utilities-1ac7b2f796f5562b530e11b7c680dd07e6"></a>
 ### Function uploadFile
 
 ![][public]
 ![][static]
 
+
 ```cpp
 static std::string ansys::dpf::core::path_utilities::uploadFile(Client const *const client, std::string const &file_path, std::string const &to_server_file_path="", bool inTmp=true)
 ```
 
+
+
+
+
+
+
+
 **Parameters**:
 
-* [Client](classansys_1_1dpf_1_1Client.md#classansys_1_1dpf_1_1Client) const *const **client**
+* [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**
 * std::string const & **file_path**
 * std::string const & **to_server_file_path** = "" 
 * bool **inTmp** = true 
@@ -38,7 +48,6 @@ static std::string ansys::dpf::core::path_utilities::uploadFile(Client const *co
 -->
 
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)

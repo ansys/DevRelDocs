@@ -1,28 +1,33 @@
-<a id="dpf__result_8h"></a>
+<a id="dpf-result-h"></a>
 # File dpf\_result.h
 
 ![][C++]
 
-**Location**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/helpers/dpf\_result.h`
+**Location**: `dpf/include/helpers`
+
+
+
+
 
 ## Classes
 
-* [ansys::dpf::Result](classansys_1_1dpf_1_1Result.md#classansys_1_1dpf_1_1Result)
+* [ansys::dpf::Result](classansys-dpf-result.md#classansys-dpf-result)
 
 ## Namespaces
 
 * [ansys](namespaceansys.md#namespaceansys)
-* [ansys::dpf](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf)
+* [ansys::dpf](namespaceansys-dpf.md#namespaceansys-dpf)
 
 ## Includes
 
-* [dpf_api.h](dpf__api_8h.md#dpf__api_8h)
+* [dpf_api.h](dpf-api-h.md#dpf-api-h)
 
 ## Included by
 
-* [D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/helpers/dpf_model.h](dpf__model_8h.md#dpf__model_8h)
+* [dpf/include/helpers/dpf_model.h](dpf-model-h.md#dpf-model-h)
 
 ## Source
+
 
 ```cpp
 //
@@ -146,6 +151,10 @@ private:
                 - requested location
                 - cs_id 
 
+
+
+
+
                         _______     __ "res_source"      __________ 
                "time" -|       |___|____________________|          |__ "res_amplitude"
                        |source |   |                    |amplitude |
@@ -155,6 +164,9 @@ private:
                                    |____________________|              |__ "res_phase"
                                                         |sweeping phase|
                                                "phase" -|______________|
+
+
+
 
         */
         Operator res_provider(res_name);
@@ -273,13 +285,14 @@ Result::init(const char* res_name, Operator &stream_provider, Operator &timefreq
     }
 }
 
+
 }
 }
 ```
 
+
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-[Markdown]: https://img.shields.io/badge/language-Markdown-blue (Markdown)
+[private]: https://img.shields.io/badge/-private-red (private)

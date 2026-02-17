@@ -1,10 +1,12 @@
-<a id="structansys_1_1dpf_1_1reflect"></a>
+<a id="structansys-dpf-reflect"></a>
 # Structure ansys::dpf::reflect
 
 ![][C++]
 ![][public]
 
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 62)
+
+
+
 
 **Template parameters**:
 
@@ -12,19 +14,27 @@
 
 ## Members
 
-* [type\_name](structansys_1_1dpf_1_1reflect.md#structansys_1_1dpf_1_1reflect_1a11b504a62655742daf4ed79b1d9f403a)
+* [type\_name](structansys-dpf-reflect.md#structansys-dpf-reflect-1a11b504a62655742daf4ed79b1d9f403a)
 
 ## Public static functions
 
-<a id="structansys_1_1dpf_1_1reflect_1a11b504a62655742daf4ed79b1d9f403a"></a>
+<a id="structansys-dpf-reflect-1a11b504a62655742daf4ed79b1d9f403a"></a>
 ### Function type\_name
 
 ![][public]
 ![][static]
 
+
 ```cpp
 static std::string ansys::dpf::reflect< DpfTypeT >::type_name()
 ```
+
+
+
+
+
+
+
 
 **Return type**: std::string
 
@@ -35,7 +45,6 @@ static std::string ansys::dpf::reflect< DpfTypeT >::type_name()
 -->
 
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)

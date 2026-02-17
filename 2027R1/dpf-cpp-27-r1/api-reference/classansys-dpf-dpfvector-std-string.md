@@ -1,63 +1,56 @@
-<a id="classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4"></a>
+<a id="classansys-dpf-dpfvector-std-string-4"></a>
 # Class ansys::dpf::DpfVector\< std::string \>
 
 ![][C++]
 ![][public]
 
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 1646)
-
 Represents a modifiable vector of data and manages its memory.
 
-If the [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) is returned by a local entity, then it's a direct pointer to its data else if the [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) is returned by a remote entity, then it's a copy of the data and the remote data is updated (if necessary) when the [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) is destructed.
+If the [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector) is returned by a local entity, then it's a direct pointer to its data else if the [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector) is returned by a remote entity, then it's a copy of the data and the remote data is updated (if necessary) when the [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector) is destructed.
+
+
 
 ## Members
 
-* [\_data](classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4.md#classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1a825a2ab9569e45b97ca72a8efd3c7fa4)
-* [begin](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector_1a0c627a2093966cc9aef3b1f488571c09)
-* [commit](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector_1a2cc9e64a9e622ee766a5766c2faf85d4)
-* [copy](classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4.md#classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1aa05689f762f50261d089ffa487dc9361)
-* [copy](classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4.md#classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1a18220ac80c9aaddd3de1288ab29296f6)
-* [data](classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4.md#classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1afbe78e3c9d22168b7af99c7096ef696b)
-* [defined](classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4.md#classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1a1a5660a40d27752e8ecf9d901e8fb1c6)
-* [DpfVector](classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4.md#classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1a39a0e993001d5e1c6a56f2c19a0b02cf)
-* [DpfVector](classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4.md#classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1a3d896a4c388a8b5929e2cbea5403cdf0)
-* [DpfVector](classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4.md#classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1a3f22bafefe577a577ca1922b7f01494b)
-* [DpfVector](classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4.md#classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1aef8136509e2979b349120c1ad9dabbfa)
-* [DpfVector](classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4.md#classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1a8122bb5ba23d302c236ffb3dfdfb5ffd)
-* [end](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector_1ab2aff0738b4fa8b223beed776246b3d3)
-* [fill](classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4.md#classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1ac94e3a284866af57bbb888724efd30c6)
-* [fillFunc](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector_1ad865948302449c2789ac2c836fc3a5b4)
-* [fillFuncByInt](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector_1a40d6740f15bbf968a4271b7d04f3d6c8)
-* [fillFuncByIntChar](classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4.md#classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1aba918e7a9766a1b41d1ec799fe4af52f)
-* [fillFuncByIntCharWithSize](classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4.md#classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1aaf5df8a46f73d4e772a57a876ddabb17)
-* [fillFuncChar](classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4.md#classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1ad39ee6d915fff5cd86f1f22faefd60bf)
-* [fillFuncCharWithSize](classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4.md#classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1a359d026e31d5b073b479466e0f0520a2)
-* [fillVoidDataFunc](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector_1aecdf9d227d3810b2138e80fe2a6e40c7)
-* [fillVoidDataFuncByInt](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector_1a5fbda0c494b964a09226f99d4f79c713)
-* [operator=](classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4.md#classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1ac0fbd4432b0c2f71e54e0a8c09261f53)
-* [operator=](classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4.md#classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1a1da44cb6b9c8d1c9b329de281b1ecf4a)
-* [operator[]](classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4.md#classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1abf7bb24b1472d59bf762ec0a17d3206b)
-* [reset](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector_1ad6a4b21b02e43e7e139f59f00b184bbc)
-* [size](classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4.md#classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1a156b0cca472bfe35a025915e3b09c7d7)
-* [~DpfVector](classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4.md#classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1a5d7b660c69b99f2a44322da6690b9676)
+* [begin](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector-1a0c627a2093966cc9aef3b1f488571c09)
+* [commit](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector-1a2cc9e64a9e622ee766a5766c2faf85d4)
+* [copy](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-std-string-4-1aa05689f762f50261d089ffa487dc9361)
+* [copy](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-std-string-4-1a18220ac80c9aaddd3de1288ab29296f6)
+* [data](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-std-string-4-1afbe78e3c9d22168b7af99c7096ef696b)
+* [defined](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-std-string-4-1a1a5660a40d27752e8ecf9d901e8fb1c6)
+* [DpfVector](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-std-string-4-1a3d896a4c388a8b5929e2cbea5403cdf0)
+* [DpfVector](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-std-string-4-1a3f22bafefe577a577ca1922b7f01494b)
+* [DpfVector](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-std-string-4-1aef8136509e2979b349120c1ad9dabbfa)
+* [DpfVector](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-std-string-4-1a8122bb5ba23d302c236ffb3dfdfb5ffd)
+* [end](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector-1ab2aff0738b4fa8b223beed776246b3d3)
+* [operator=](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-std-string-4-1ac0fbd4432b0c2f71e54e0a8c09261f53)
+* [operator=](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-std-string-4-1a1da44cb6b9c8d1c9b329de281b1ecf4a)
+* [operator[]](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-std-string-4-1abf7bb24b1472d59bf762ec0a17d3206b)
+* [reset](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector-1ad6a4b21b02e43e7e139f59f00b184bbc)
+* [size](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-std-string-4-1a156b0cca472bfe35a025915e3b09c7d7)
+* [~DpfVector](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-std-string-4-1a5d7b660c69b99f2a44322da6690b9676)
 
-## Private types
-
-## Private attributes
-
-## Private functions
+## Friends
 
 ## Public functions
 
-<a id="classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1a3d896a4c388a8b5929e2cbea5403cdf0"></a>
+<a id="classansys-dpf-dpfvector-std-string-4-1a3d896a4c388a8b5929e2cbea5403cdf0"></a>
 ### Function DpfVector
 
 ![][public]
+
 
 ```cpp
 ansys::dpf::DpfVector< std::string >::DpfVector()
 ```
 
+
+
+
+
+
+
+
 **Return type**: 
 
 <!--
@@ -66,18 +59,26 @@ ansys::dpf::DpfVector< std::string >::DpfVector()
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::DpfVector"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1a3f22bafefe577a577ca1922b7f01494b"></a>
+<a id="classansys-dpf-dpfvector-std-string-4-1a3f22bafefe577a577ca1922b7f01494b"></a>
 ### Function DpfVector
 
 ![][public]
+
 
 ```cpp
 ansys::dpf::DpfVector< std::string >::DpfVector(DpfTypes const &for_object)
 ```
 
+
+
+
+
+
+
+
 **Parameters**:
 
-* [DpfTypes](classansys_1_1dpf_1_1DpfTypes.md#classansys_1_1dpf_1_1DpfTypes) const & **for_object**
+* [DpfTypes](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes) const & **for_object**
 
 **Return type**: 
 
@@ -87,14 +88,22 @@ ansys::dpf::DpfVector< std::string >::DpfVector(DpfTypes const &for_object)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::DpfVector"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1a5d7b660c69b99f2a44322da6690b9676"></a>
+<a id="classansys-dpf-dpfvector-std-string-4-1a5d7b660c69b99f2a44322da6690b9676"></a>
 ### Function ~DpfVector
 
 ![][public]
 
+
 ```cpp
 ansys::dpf::DpfVector< std::string >::~DpfVector()
 ```
+
+
+
+
+
+
+
 
 **Return type**: 
 
@@ -104,15 +113,23 @@ ansys::dpf::DpfVector< std::string >::~DpfVector()
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::~DpfVector"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1aef8136509e2979b349120c1ad9dabbfa"></a>
+<a id="classansys-dpf-dpfvector-std-string-4-1aef8136509e2979b349120c1ad9dabbfa"></a>
 ### Function DpfVector
 
 ![][public]
+
 
 ```cpp
 ansys::dpf::DpfVector< std::string >::DpfVector(DpfVector const &)=delete
 ```
 
+
+
+
+
+
+
+
 **Parameters**:
 
 * DpfVector const &
@@ -125,15 +142,23 @@ ansys::dpf::DpfVector< std::string >::DpfVector(DpfVector const &)=delete
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::DpfVector"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1a8122bb5ba23d302c236ffb3dfdfb5ffd"></a>
+<a id="classansys-dpf-dpfvector-std-string-4-1a8122bb5ba23d302c236ffb3dfdfb5ffd"></a>
 ### Function DpfVector
 
 ![][public]
+
 
 ```cpp
 ansys::dpf::DpfVector< std::string >::DpfVector(DpfVector &&)
 ```
 
+
+
+
+
+
+
+
 **Parameters**:
 
 * DpfVector &&
@@ -146,14 +171,22 @@ ansys::dpf::DpfVector< std::string >::DpfVector(DpfVector &&)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::DpfVector"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1ac0fbd4432b0c2f71e54e0a8c09261f53"></a>
+<a id="classansys-dpf-dpfvector-std-string-4-1ac0fbd4432b0c2f71e54e0a8c09261f53"></a>
 ### Function operator=
 
 ![][public]
 
+
 ```cpp
 DpfVector & ansys::dpf::DpfVector< std::string >::operator=(DpfVector const &)=delete
 ```
+
+
+
+
+
+
+
 
 **Parameters**:
 
@@ -167,14 +200,22 @@ DpfVector & ansys::dpf::DpfVector< std::string >::operator=(DpfVector const &)=d
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::operator="}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1a1da44cb6b9c8d1c9b329de281b1ecf4a"></a>
+<a id="classansys-dpf-dpfvector-std-string-4-1a1da44cb6b9c8d1c9b329de281b1ecf4a"></a>
 ### Function operator=
 
 ![][public]
 
+
 ```cpp
 DpfVector & ansys::dpf::DpfVector< std::string >::operator=(DpfVector &&)=delete
 ```
+
+
+
+
+
+
+
 
 **Parameters**:
 
@@ -188,19 +229,27 @@ DpfVector & ansys::dpf::DpfVector< std::string >::operator=(DpfVector &&)=delete
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::operator="}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1abf7bb24b1472d59bf762ec0a17d3206b"></a>
+<a id="classansys-dpf-dpfvector-std-string-4-1abf7bb24b1472d59bf762ec0a17d3206b"></a>
 ### Function operator[]
 
 ![][public]
 ![][const]
 
+
 ```cpp
 std::string ansys::dpf::DpfVector< std::string >::operator[](dp_index idx) const
 ```
 
+
+
+
+
+
+
+
 **Parameters**:
 
-* [dp\_index](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a417548d1b705a9ba54ba9429afe68920) **idx**
+* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **idx**
 
 **Return type**: std::string
 
@@ -210,15 +259,23 @@ std::string ansys::dpf::DpfVector< std::string >::operator[](dp_index idx) const
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::operator[]"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1afbe78e3c9d22168b7af99c7096ef696b"></a>
+<a id="classansys-dpf-dpfvector-std-string-4-1afbe78e3c9d22168b7af99c7096ef696b"></a>
 ### Function data
 
 ![][public]
 ![][const]
 
+
 ```cpp
 char **const ansys::dpf::DpfVector< std::string >::data() const
 ```
+
+
+
+
+
+
+
 
 **Return type**: char **const
 
@@ -228,19 +285,25 @@ char **const ansys::dpf::DpfVector< std::string >::data() const
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::data"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1a156b0cca472bfe35a025915e3b09c7d7"></a>
+<a id="classansys-dpf-dpfvector-std-string-4-1a156b0cca472bfe35a025915e3b09c7d7"></a>
 ### Function size
 
 ![][public]
 ![][const]
 
+
 ```cpp
 dp_int ansys::dpf::DpfVector< std::string >::size() const
 ```
 
-Return the size of the data contained in the [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) object.
 
-**Return type**: [dp\_int](namespaceansys_1_1dpf.md#namespaceansys_1_1dpf_1a60d181a1f9d29cc7cc38b25dac4401f0)
+
+
+Return the size of the data contained in the [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector) object.
+
+
+
+**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -248,17 +311,23 @@ Return the size of the data contained in the [DpfVector](classansys_1_1dpf_1_1Dp
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::size"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1a1a5660a40d27752e8ecf9d901e8fb1c6"></a>
+<a id="classansys-dpf-dpfvector-std-string-4-1a1a5660a40d27752e8ecf9d901e8fb1c6"></a>
 ### Function defined
 
 ![][public]
 ![][const]
 
+
 ```cpp
 bool ansys::dpf::DpfVector< std::string >::defined() const
 ```
 
-Return an true information if the [DpfVector](classansys_1_1dpf_1_1DpfVector.md#classansys_1_1dpf_1_1DpfVector) object has data set.
+
+
+
+Return an true information if the [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector) object has data set.
+
+
 
 **Return type**: bool
 
@@ -268,15 +337,23 @@ Return an true information if the [DpfVector](classansys_1_1dpf_1_1DpfVector.md#
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::defined"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1aa05689f762f50261d089ffa487dc9361"></a>
+<a id="classansys-dpf-dpfvector-std-string-4-1aa05689f762f50261d089ffa487dc9361"></a>
 ### Function copy
 
 ![][public]
 ![][const]
 
+
 ```cpp
 void ansys::dpf::DpfVector< std::string >::copy(std::vector< std::string > &to_fill) const
 ```
+
+
+
+
+
+
+
 
 **Parameters**:
 
@@ -290,15 +367,23 @@ void ansys::dpf::DpfVector< std::string >::copy(std::vector< std::string > &to_f
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::copy"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DpfVector_3_01std_1_1string_01_4_1a18220ac80c9aaddd3de1288ab29296f6"></a>
+<a id="classansys-dpf-dpfvector-std-string-4-1a18220ac80c9aaddd3de1288ab29296f6"></a>
 ### Function copy
 
 ![][public]
 ![][const]
 
+
 ```cpp
 std::vector< std::string > ansys::dpf::DpfVector< std::string >::copy() const
 ```
+
+
+
+
+
+
+
 
 **Return type**: std::vector< std::string >
 
@@ -308,17 +393,23 @@ std::vector< std::string > ansys::dpf::DpfVector< std::string >::copy() const
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::copy"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DpfVector_1a2cc9e64a9e622ee766a5766c2faf85d4"></a>
+<a id="classansys-dpf-dpfvector-1a2cc9e64a9e622ee766a5766c2faf85d4"></a>
 ### Function commit
 
 ![][public]
 ![][const]
 
+
 ```cpp
 void ansys::dpf::DpfVector< std::string >::commit() const
 ```
 
+
+
+
 Update the data in the object (if the vector is pointing on remote data).
+
+
 
 **Return type**: void
 
@@ -328,15 +419,23 @@ Update the data in the object (if the vector is pointing on remote data).
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::commit"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DpfVector_1a0c627a2093966cc9aef3b1f488571c09"></a>
+<a id="classansys-dpf-dpfvector-1a0c627a2093966cc9aef3b1f488571c09"></a>
 ### Function begin
 
 ![][public]
 ![][const]
 
+
 ```cpp
 iterator ansys::dpf::DpfVector< std::string >::begin() const
 ```
+
+
+
+
+
+
+
 
 **Return type**: iterator
 
@@ -346,15 +445,23 @@ iterator ansys::dpf::DpfVector< std::string >::begin() const
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::begin"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DpfVector_1ab2aff0738b4fa8b223beed776246b3d3"></a>
+<a id="classansys-dpf-dpfvector-1ab2aff0738b4fa8b223beed776246b3d3"></a>
 ### Function end
 
 ![][public]
 ![][const]
 
+
 ```cpp
 iterator ansys::dpf::DpfVector< std::string >::end() const
 ```
+
+
+
+
+
+
+
 
 **Return type**: iterator
 
@@ -364,18 +471,22 @@ iterator ansys::dpf::DpfVector< std::string >::end() const
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector< std::string >::end"}]}`
 -->
 
-<a id="classansys_1_1dpf_1_1DpfVector_1ad6a4b21b02e43e7e139f59f00b184bbc"></a>
+<a id="classansys-dpf-dpfvector-1ad6a4b21b02e43e7e139f59f00b184bbc"></a>
 ### Function reset
 
 ![][public]
+
 
 ```cpp
 void ansys::dpf::DpfVector< std::string >::reset(iterator const &begin, iterator const &end)
 ```
 
+
 Reinitialize the data with a range of an other vector (range from begin to end).
 
 Copyless: the new data is created with a reference on the same data as begin and end: modifying the new vector data, will also modify the initial vector.
+
+
 
 **Parameters**:
 
@@ -397,7 +508,6 @@ Copyless: the new data is created with a reference on the same data as begin and
 -->
 
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)

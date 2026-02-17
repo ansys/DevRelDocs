@@ -1,29 +1,37 @@
-<a id="structansys_1_1dpf_1_1spec_1_1license"></a>
+<a id="structansys-dpf-spec-license"></a>
 # Structure ansys::dpf::spec::license
 
 ![][C++]
 ![][public]
 
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 937)
+
+
+
 
 ## Members
 
-* [sDpf](structansys_1_1dpf_1_1spec_1_1license.md#structansys_1_1dpf_1_1spec_1_1license_1a790b051668c0a8b90352f6580fd4a285)
-* [sLicense](structansys_1_1dpf_1_1spec_1_1license.md#structansys_1_1dpf_1_1spec_1_1license_1a3797de3b42ef8e593a6a5f8fd55e244e)
+* [sDpf](structansys-dpf-spec-license.md#structansys-dpf-spec-license-1a790b051668c0a8b90352f6580fd4a285)
+* [sLicense](structansys-dpf-spec-license.md#structansys-dpf-spec-license-1a3797de3b42ef8e593a6a5f8fd55e244e)
 
 ## Public static attributes
 
-<a id="structansys_1_1dpf_1_1spec_1_1license_1a3797de3b42ef8e593a6a5f8fd55e244e"></a>
+<a id="structansys-dpf-spec-license-1a3797de3b42ef8e593a6a5f8fd55e244e"></a>
 ### Variable sLicense
 
 ![][public]
 ![][static]
 
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 939)
 
 ```cpp
 std::string ansys::dpf::spec::license::sLicense
 ```
+
+
+
+
+
+
+
 
 **Type**: std::string
 
@@ -33,17 +41,23 @@ std::string ansys::dpf::spec::license::sLicense
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::spec::license::sLicense"}]}`
 -->
 
-<a id="structansys_1_1dpf_1_1spec_1_1license_1a790b051668c0a8b90352f6580fd4a285"></a>
+<a id="structansys-dpf-spec-license-1a790b051668c0a8b90352f6580fd4a285"></a>
 ### Variable sDpf
 
 ![][public]
 ![][static]
 
-**Definition**: `D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf\_api\_base.h` (line 940)
 
 ```cpp
 std::string ansys::dpf::spec::license::sDpf
 ```
+
+
+
+
+
+
+
 
 **Type**: std::string
 
@@ -54,7 +68,7 @@ std::string ansys::dpf::spec::license::sDpf
 -->
 
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+[private]: https://img.shields.io/badge/-private-red (private)
