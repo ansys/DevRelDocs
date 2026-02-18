@@ -83,6 +83,5 @@ const DataTree & ansys::dpf::CacheInformation::get() const noexcept
 -->
 
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
-[static]: https://img.shields.io/badge/-static-lightgrey (static)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)

@@ -19,8 +19,8 @@ If the [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector) is retu
 
 ## Members
 
-* [begin](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector-1a0c627a2093966cc9aef3b1f488571c09)
-* [commit](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector-1a2cc9e64a9e622ee766a5766c2faf85d4)
+* [begin](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-1a0c627a2093966cc9aef3b1f488571c09)
+* [commit](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-1a2cc9e64a9e622ee766a5766c2faf85d4)
 * [copy](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector-1a1a9c97d138baa7c3f00f3e1e80d3572d)
 * [copy](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector-1a31354ff982c53a6e327c7210c2878092)
 * [data](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector-1a8470a9e4e9231bc076637a4e8a6f8322)
@@ -32,12 +32,12 @@ If the [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector) is retu
 * [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector-1a670674aaab714a8c63c62976b9be90b3)
 * [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector-1a1f56f040aa9ccb1e38a78d532aa70bdd)
 * [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector-1afac69aecf4a6084088169a284eaa02d4)
-* [end](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector-1ab2aff0738b4fa8b223beed776246b3d3)
+* [end](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-1ab2aff0738b4fa8b223beed776246b3d3)
 * [operator=](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector-1aa1b3d94db49397e944fb55c5b384b461)
 * [operator=](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector-1acde4bf0573de204073368a5703ee0c03)
 * [operator[]](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector-1adbf45d7edf6c4d39c867cf3259a4842f)
 * [operator[]](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector-1a415f918ff1a4edc082ef4c5ab50e2276)
-* [reset](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector-1ad6a4b21b02e43e7e139f59f00b184bbc)
+* [reset](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-1ad6a4b21b02e43e7e139f59f00b184bbc)
 * [size](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector-1acb74f526bb5e61fef09605354966ff16)
 * [~DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector-1a87d680a6d344aab93501db869f76d212)
 
@@ -632,6 +632,6 @@ Copyless: the new data is created with a reference on the same data as begin and
 -->
 
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)

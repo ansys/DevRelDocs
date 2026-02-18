@@ -46,6 +46,6 @@ typedef const T* ansys::dpf::array_to_pointer_decay< T[N]>::type
 -->
 
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
