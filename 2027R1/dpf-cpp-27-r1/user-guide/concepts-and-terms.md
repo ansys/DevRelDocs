@@ -8,7 +8,7 @@ This section gathers pages related to DPF concepts and terminology.
 
 [Ways of using DPF](ways-of-using.md)
 
-> [!NOTE]
+> **_NOTE:_**
 > This documentation focuses on the C++ API for DPF.
 >
 > Check the [DPF Framework documentation](https://developer.ansys.com/docs/dpf-framework-2027-r1/index.md) to learn more about DPF and its capabilities.

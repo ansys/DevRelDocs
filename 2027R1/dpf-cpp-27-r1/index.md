@@ -10,7 +10,7 @@ The data in DPF is defined based on physics-agnostic mathematical quantities des
 
 ![DPF Flow](images/dpf-flow.png)
 
-> [!NOTE]
+> **_NOTE:_**
 > This documentation focuses on the C++ API for DPF.
 >
 > Check the [DPF Framework documentation](https://developer.ansys.com/docs/dpf-framework-2027-r1/index.md) to learn more about DPF and its capabilities.

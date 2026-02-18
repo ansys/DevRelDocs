@@ -6,7 +6,7 @@ This section gathers pages related to what a developer should know to start usin
 
 [Using DPF capabilities in an existing project](use-dpf-in-existing.md)
 
-> [!NOTE]
+> **_NOTE:_**
 > This documentation focuses on the C++ API for DPF.
 >
 > Check the [DPF Framework documentation](https://developer.ansys.com/docs/dpf-framework-2027-r1/index.md) to learn more about DPF and its capabilities.
