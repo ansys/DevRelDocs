@@ -55,7 +55,7 @@ DPF capabilities are accessible when DPF Server files are available. These files
 - The [**DPF Server**](https://dpf.docs.pyansys.com/version/stable/getting_started/dpf_server.html) package. It is independent of the Ansys installer and is available on the [DPF Pre-Release page](https://download.ansys.com/Others/DPF%20Pre-Release) of the Ansys Customer Portal. DPF Server is protected by an Ansys [license mechanism](https://dpf.docs.pyansys.com/version/stable/getting_started/licensing.html).
 
 #### Enriching DPF capabilities
-- [C++ operator's library](user-guide/how-to-create-cpp-plugin.md)
+- [C++ operator's library](user-guide/create-cpp-plugin.md)
 - [C++ solver reader plugin](https://astonishing-hyacinth-e64.notion.site/How-to-write-a-new-solver-reader-as-a-DPF-s-plugin-bd2d2a3cf51f47ef9e70df45d64f89cb)
 
 ### More content
