@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Plot_AxisStyle"></a> Class AxisStyle
+# Class AxisStyle
 
 Namespace: [OpenTD.Results.Plot](OpenTD.Results.Plot.md)  
 Assembly: OpenTD.Results.dll  
@@ -7,12 +7,12 @@ Assembly: OpenTD.Results.dll
 public class AxisStyle
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AxisStyle](OpenTD.Results.Plot.AxisStyle.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -24,7 +24,7 @@ public class AxisStyle
 
 ## Constructors
 
-### <a id="OpenTD_Results_Plot_AxisStyle__ctor"></a> AxisStyle\(\)
+### AxisStyle\(\)
 
 ```csharp
 public AxisStyle()
@@ -32,7 +32,7 @@ public AxisStyle()
 
 ## Properties
 
-### <a id="OpenTD_Results_Plot_AxisStyle_IsIntegerStyle"></a> IsIntegerStyle
+### IsIntegerStyle
 
 ```csharp
 public bool IsIntegerStyle { get; }
@@ -42,7 +42,7 @@ public bool IsIntegerStyle { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Plot_AxisStyle_LabelColor"></a> LabelColor
+### LabelColor
 
 ```csharp
 public Color LabelColor { get; set; }
@@ -52,7 +52,7 @@ public Color LabelColor { get; set; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="OpenTD_Results_Plot_AxisStyle_LabelFont"></a> LabelFont
+### LabelFont
 
 ```csharp
 public Font LabelFont { get; set; }
@@ -62,7 +62,7 @@ public Font LabelFont { get; set; }
 
  [Font](https://learn.microsoft.com/dotnet/api/system.drawing.font)
 
-### <a id="OpenTD_Results_Plot_AxisStyle_LabelFormat"></a> LabelFormat
+### LabelFormat
 
 ```csharp
 public string LabelFormat { get; set; }
@@ -72,7 +72,7 @@ public string LabelFormat { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Plot_AxisStyle_LineColor"></a> LineColor
+### LineColor
 
 ```csharp
 public Color LineColor { get; set; }
@@ -82,7 +82,7 @@ public Color LineColor { get; set; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="OpenTD_Results_Plot_AxisStyle_LineDashStyle"></a> LineDashStyle
+### LineDashStyle
 
 ```csharp
 public ChartDashStyle LineDashStyle { get; set; }
@@ -92,7 +92,7 @@ public ChartDashStyle LineDashStyle { get; set; }
 
  ChartDashStyle
 
-### <a id="OpenTD_Results_Plot_AxisStyle_LineWidth"></a> LineWidth
+### LineWidth
 
 ```csharp
 public int LineWidth { get; set; }
@@ -102,7 +102,7 @@ public int LineWidth { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Results_Plot_AxisStyle_TextOrientation"></a> TextOrientation
+### TextOrientation
 
 ```csharp
 public TextOrientation TextOrientation { get; set; }
@@ -112,7 +112,7 @@ public TextOrientation TextOrientation { get; set; }
 
  TextOrientation
 
-### <a id="OpenTD_Results_Plot_AxisStyle_TitleColor"></a> TitleColor
+### TitleColor
 
 ```csharp
 public Color TitleColor { get; set; }
@@ -122,7 +122,7 @@ public Color TitleColor { get; set; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="OpenTD_Results_Plot_AxisStyle_TitleFont"></a> TitleFont
+### TitleFont
 
 ```csharp
 public Font TitleFont { get; set; }
@@ -131,4 +131,5 @@ public Font TitleFont { get; set; }
 #### Property Value
 
  [Font](https://learn.microsoft.com/dotnet/api/system.drawing.font)
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_UnitsData_Current"></a> Enum UnitsData.Current
+# Enum UnitsData.Current
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -16,4 +16,5 @@ public enum UnitsData.Current
 `MICRO_AMPS = 2` 
 
 `MILLI_AMPS = 1` 
+
 

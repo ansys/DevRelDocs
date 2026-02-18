@@ -1,4 +1,4 @@
-# <a id="OpenTD_PostProcessing_AdditionalSindaInfo_MultiTimeSelectOptions"></a> Enum AdditionalSindaInfo.MultiTimeSelectOptions
+# Enum AdditionalSindaInfo.MultiTimeSelectOptions
 
 Namespace: [OpenTD.PostProcessing](OpenTD.PostProcessing.md)  
 Assembly: OpenTD.dll  
@@ -16,4 +16,5 @@ public enum AdditionalSindaInfo.MultiTimeSelectOptions
 `MAXIMUM = 2` 
 
 `MINIMUM = 3` 
+
 

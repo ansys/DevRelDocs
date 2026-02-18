@@ -1,4 +1,4 @@
-# <a id="OpenTD_NetworkLogicUnits_AbzroTypes"></a> Enum NetworkLogicUnits.AbzroTypes
+# Enum NetworkLogicUnits.AbzroTypes
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -16,4 +16,5 @@ public enum NetworkLogicUnits.AbzroTypes
 `MUST_BE_ZERO = 1` 
 
 `NOT_SET = 0` 
+
 

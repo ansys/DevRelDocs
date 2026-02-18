@@ -1,4 +1,4 @@
-# <a id="OpenTD_FloCAD"></a> Namespace OpenTD.FloCAD
+# Namespace OpenTD.FloCAD
 
 ### Classes
 
@@ -73,4 +73,5 @@ Client-side representation of a tie entity in a TD instance.
 ### Enums
 
  [PipeTie.WallLocations](OpenTD.FloCAD.PipeTie.WallLocations.md)
+
 

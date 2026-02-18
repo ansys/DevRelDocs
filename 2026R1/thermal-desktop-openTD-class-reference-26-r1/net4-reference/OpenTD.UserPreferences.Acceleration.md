@@ -1,4 +1,4 @@
-# <a id="OpenTD_UserPreferences_Acceleration"></a> Class Acceleration
+# Class Acceleration
 
 Namespace: [OpenTD.UserPreferences](OpenTD.UserPreferences.md)  
 Assembly: OpenTD.dll  
@@ -11,18 +11,18 @@ user preferences.
 public class Acceleration : Preferences, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 TdConnected ← 
 Preferences ← 
 [Acceleration](OpenTD.UserPreferences.Acceleration.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -34,13 +34,13 @@ Preferences ←
 
 ## Constructors
 
-### <a id="OpenTD_UserPreferences_Acceleration__ctor"></a> Acceleration\(\)
+### Acceleration\(\)
 
 ```csharp
 public Acceleration()
 ```
 
-### <a id="OpenTD_UserPreferences_Acceleration__ctor_OpenTD_ThermalDesktop_"></a> Acceleration\(ThermalDesktop\)
+### Acceleration\(ThermalDesktop\)
 
 ```csharp
 public Acceleration(ThermalDesktop _td)
@@ -52,7 +52,7 @@ public Acceleration(ThermalDesktop _td)
 
 ## Properties
 
-### <a id="OpenTD_UserPreferences_Acceleration_Magnitude"></a> Magnitude
+### Magnitude
 
 ```csharp
 [DataMember]
@@ -63,7 +63,7 @@ public Dimensional<Gravity> Magnitude { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Gravity](OpenTD.Dimension.Gravity.md)\>
 
-### <a id="OpenTD_UserPreferences_Acceleration_MagnitudeExp"></a> MagnitudeExp
+### MagnitudeExp
 
 ```csharp
 [DataMember]
@@ -74,7 +74,7 @@ public ExpressionData MagnitudeExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_UserPreferences_Acceleration_XDir"></a> XDir
+### XDir
 
 ```csharp
 [DataMember]
@@ -85,7 +85,7 @@ public double XDir { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_Acceleration_XDirExp"></a> XDirExp
+### XDirExp
 
 ```csharp
 [DataMember]
@@ -96,7 +96,7 @@ public ExpressionData XDirExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_UserPreferences_Acceleration_YDir"></a> YDir
+### YDir
 
 ```csharp
 [DataMember]
@@ -107,7 +107,7 @@ public double YDir { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_Acceleration_YDirExp"></a> YDirExp
+### YDirExp
 
 ```csharp
 [DataMember]
@@ -118,7 +118,7 @@ public ExpressionData YDirExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_UserPreferences_Acceleration_ZDir"></a> ZDir
+### ZDir
 
 ```csharp
 [DataMember]
@@ -129,7 +129,7 @@ public double ZDir { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_Acceleration_ZDirExp"></a> ZDirExp
+### ZDirExp
 
 ```csharp
 [DataMember]
@@ -142,7 +142,7 @@ public ExpressionData ZDirExp { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_UserPreferences_Acceleration_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -150,11 +150,12 @@ Updates the TD entity with the latest client data.
 public void Update()
 ```
 
-### <a id="OpenTD_UserPreferences_Acceleration_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
 ```csharp
 public void UpdateFromTD()
 ```
+
 

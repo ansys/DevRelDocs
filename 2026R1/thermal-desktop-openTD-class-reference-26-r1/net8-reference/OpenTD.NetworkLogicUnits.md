@@ -1,4 +1,4 @@
-# <a id="OpenTD_NetworkLogicUnits"></a> Class NetworkLogicUnits
+# Class NetworkLogicUnits
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,15 +6,16 @@ Assembly: OpenTD.dll
 Controls how units are handled within a NetworkLogicData object.
 
 ```csharp
+[MessagePackObject(true)]
 public class NetworkLogicUnits
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [NetworkLogicUnits](OpenTD.NetworkLogicUnits.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +27,7 @@ public class NetworkLogicUnits
 
 ## Constructors
 
-### <a id="OpenTD_NetworkLogicUnits__ctor"></a> NetworkLogicUnits\(\)
+### NetworkLogicUnits\(\)
 
 ```csharp
 public NetworkLogicUnits()
@@ -34,7 +35,7 @@ public NetworkLogicUnits()
 
 ## Properties
 
-### <a id="OpenTD_NetworkLogicUnits_AbzroAware"></a> AbzroAware
+### AbzroAware
 
 ```csharp
 public NetworkLogicUnits.AbzroTypes AbzroAware { get; set; }
@@ -44,9 +45,10 @@ public NetworkLogicUnits.AbzroTypes AbzroAware { get; set; }
 
  [NetworkLogicUnits](OpenTD.NetworkLogicUnits.md).[AbzroTypes](OpenTD.NetworkLogicUnits.AbzroTypes.md)
 
-### <a id="OpenTD_NetworkLogicUnits_CheckEnergy"></a> CheckEnergy
+### CheckEnergy
 
 ```csharp
+[IgnoreMember]
 public bool CheckEnergy { get; set; }
 ```
 
@@ -54,9 +56,10 @@ public bool CheckEnergy { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_NetworkLogicUnits_CheckForce"></a> CheckForce
+### CheckForce
 
 ```csharp
+[IgnoreMember]
 public bool CheckForce { get; set; }
 ```
 
@@ -64,9 +67,10 @@ public bool CheckForce { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_NetworkLogicUnits_CheckMass"></a> CheckMass
+### CheckMass
 
 ```csharp
+[IgnoreMember]
 public bool CheckMass { get; set; }
 ```
 
@@ -74,9 +78,10 @@ public bool CheckMass { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_NetworkLogicUnits_CheckModelLength"></a> CheckModelLength
+### CheckModelLength
 
 ```csharp
+[IgnoreMember]
 public bool CheckModelLength { get; set; }
 ```
 
@@ -84,9 +89,10 @@ public bool CheckModelLength { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_NetworkLogicUnits_CheckPressure"></a> CheckPressure
+### CheckPressure
 
 ```csharp
+[IgnoreMember]
 public bool CheckPressure { get; set; }
 ```
 
@@ -94,9 +100,10 @@ public bool CheckPressure { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_NetworkLogicUnits_CheckTemp"></a> CheckTemp
+### CheckTemp
 
 ```csharp
+[IgnoreMember]
 public bool CheckTemp { get; set; }
 ```
 
@@ -104,9 +111,10 @@ public bool CheckTemp { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_NetworkLogicUnits_CheckTime"></a> CheckTime
+### CheckTime
 
 ```csharp
+[IgnoreMember]
 public bool CheckTime { get; set; }
 ```
 
@@ -114,7 +122,7 @@ public bool CheckTime { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_NetworkLogicUnits_CheckUnitsArray"></a> CheckUnitsArray
+### CheckUnitsArray
 
 ```csharp
 public List<bool> CheckUnitsArray { get; set; }
@@ -124,7 +132,7 @@ public List<bool> CheckUnitsArray { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 
-### <a id="OpenTD_NetworkLogicUnits_Comment"></a> Comment
+### Comment
 
 ```csharp
 public string Comment { get; set; }
@@ -134,7 +142,7 @@ public string Comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_NetworkLogicUnits_NonFlocadUnitsValues"></a> NonFlocadUnitsValues
+### NonFlocadUnitsValues
 
 ```csharp
 public UnitsData NonFlocadUnitsValues { get; set; }
@@ -144,7 +152,7 @@ public UnitsData NonFlocadUnitsValues { get; set; }
 
  [UnitsData](OpenTD.UnitsData.md)
 
-### <a id="OpenTD_NetworkLogicUnits_PatmosAware"></a> PatmosAware
+### PatmosAware
 
 ```csharp
 public NetworkLogicUnits.PatmosTypes PatmosAware { get; set; }
@@ -154,7 +162,7 @@ public NetworkLogicUnits.PatmosTypes PatmosAware { get; set; }
 
  [NetworkLogicUnits](OpenTD.NetworkLogicUnits.md).[PatmosTypes](OpenTD.NetworkLogicUnits.PatmosTypes.md)
 
-### <a id="OpenTD_NetworkLogicUnits_SindaUidDependentValue"></a> SindaUidDependentValue
+### SindaUidDependentValue
 
 ```csharp
 public NetworkLogicUnits.SindaUidTypes SindaUidDependentValue { get; set; }
@@ -164,7 +172,7 @@ public NetworkLogicUnits.SindaUidTypes SindaUidDependentValue { get; set; }
 
  [NetworkLogicUnits](OpenTD.NetworkLogicUnits.md).[SindaUidTypes](OpenTD.NetworkLogicUnits.SindaUidTypes.md)
 
-### <a id="OpenTD_NetworkLogicUnits_SindaUidOrNonFlocad"></a> SindaUidOrNonFlocad
+### SindaUidOrNonFlocad
 
 ```csharp
 public NetworkLogicUnits.UnitSystemTypes SindaUidOrNonFlocad { get; set; }
@@ -177,4 +185,5 @@ public NetworkLogicUnits.UnitSystemTypes SindaUidOrNonFlocad { get; set; }
 ## See Also
 
 [NetworkLogicData](OpenTD.NetworkLogicData.md)
+
 

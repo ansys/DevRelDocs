@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_OrbitDateTime"></a> Class OrbitDateTime
+# Class OrbitDateTime
 
 Namespace: [OpenTD.RadCAD](OpenTD.RadCAD.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ Date and time data used to define orbits.
 public class OrbitDateTime
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OrbitDateTime](OpenTD.RadCAD.OrbitDateTime.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,7 +27,7 @@ public class OrbitDateTime
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_OrbitDateTime__ctor"></a> OrbitDateTime\(\)
+### OrbitDateTime\(\)
 
 ```csharp
 public OrbitDateTime()
@@ -35,7 +35,7 @@ public OrbitDateTime()
 
 ## Properties
 
-### <a id="OpenTD_RadCAD_OrbitDateTime_Day"></a> Day
+### Day
 
 ```csharp
 [DataMember]
@@ -46,7 +46,7 @@ public int Day { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_OrbitDateTime_DayExp"></a> DayExp
+### DayExp
 
 ```csharp
 [DataMember]
@@ -57,7 +57,7 @@ public ExpressionData DayExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_OrbitDateTime_Hour"></a> Hour
+### Hour
 
 ```csharp
 [DataMember]
@@ -68,7 +68,7 @@ public int Hour { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_OrbitDateTime_HourExp"></a> HourExp
+### HourExp
 
 ```csharp
 [DataMember]
@@ -79,7 +79,7 @@ public ExpressionData HourExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_OrbitDateTime_Minute"></a> Minute
+### Minute
 
 ```csharp
 [DataMember]
@@ -90,7 +90,7 @@ public int Minute { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_OrbitDateTime_MinuteExp"></a> MinuteExp
+### MinuteExp
 
 ```csharp
 [DataMember]
@@ -101,7 +101,7 @@ public ExpressionData MinuteExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_OrbitDateTime_Month"></a> Month
+### Month
 
 ```csharp
 [DataMember]
@@ -112,7 +112,7 @@ public int Month { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_OrbitDateTime_MonthExp"></a> MonthExp
+### MonthExp
 
 ```csharp
 [DataMember]
@@ -123,7 +123,7 @@ public ExpressionData MonthExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_OrbitDateTime_Second"></a> Second
+### Second
 
 ```csharp
 [DataMember]
@@ -134,7 +134,7 @@ public int Second { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_OrbitDateTime_SecondExp"></a> SecondExp
+### SecondExp
 
 ```csharp
 [DataMember]
@@ -145,7 +145,7 @@ public ExpressionData SecondExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_OrbitDateTime_Year"></a> Year
+### Year
 
 ```csharp
 [DataMember]
@@ -156,7 +156,7 @@ public int Year { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_OrbitDateTime_YearExp"></a> YearExp
+### YearExp
 
 ```csharp
 [DataMember]
@@ -170,4 +170,5 @@ public ExpressionData YearExp { get; set; }
 ## See Also
 
 ITdDerived
+
 

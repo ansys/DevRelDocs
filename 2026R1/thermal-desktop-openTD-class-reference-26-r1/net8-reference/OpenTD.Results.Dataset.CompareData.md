@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_CompareData"></a> Class CompareData
+# Class CompareData
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -7,7 +7,7 @@ Assembly: OpenTD.Results.dll
 public abstract class CompareData : ICompareData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [CompareData](OpenTD.Results.Dataset.CompareData.md)
@@ -16,11 +16,11 @@ public abstract class CompareData : ICompareData
 
 [PercentDifferenceCompareData](OpenTD.Results.Dataset.PercentDifferenceCompareData.md)
 
-#### Implements
+## Implements
 
 [ICompareData](OpenTD.Results.Dataset.ICompareData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -32,7 +32,7 @@ public abstract class CompareData : ICompareData
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_CompareData__ctor_OpenTD_Results_Dataset_IComparerInput_OpenTD_Results_Dataset_IComparerOutput_"></a> CompareData\(IComparerInput, IComparerOutput\)
+### CompareData\(IComparerInput, IComparerOutput\)
 
 ```csharp
 public CompareData(IComparerInput comparerInput, IComparerOutput comparerOutput)
@@ -46,7 +46,7 @@ public CompareData(IComparerInput comparerInput, IComparerOutput comparerOutput)
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_CompareData_ComparerInput"></a> ComparerInput
+### ComparerInput
 
 The Comparer will send data from the datasets through this member.
 
@@ -58,7 +58,7 @@ public IComparerInput ComparerInput { get; set; }
 
  [IComparerInput](OpenTD.Results.Dataset.IComparerInput.md)
 
-### <a id="OpenTD_Results_Dataset_CompareData_ComparerOutput"></a> ComparerOutput
+### ComparerOutput
 
 Send output from the comparison to the Comparer through this member.
 
@@ -72,7 +72,7 @@ public IComparerOutput ComparerOutput { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_CompareData_Compare_System_String_OpenTD_Results_Dataset_DataSubtype_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_Int64__System_Collections_Generic_IEnumerable_System_Int64__System_Boolean_"></a> Compare\(string, DataSubtype, IEnumerable<string\>, IEnumerable<long\>, IEnumerable<long\>, bool\)
+### Compare\(string, DataSubtype, IEnumerable<string\>, IEnumerable<long\>, IEnumerable<long\>, bool\)
 
 This method implements the comparison algorithm.
 
@@ -109,4 +109,5 @@ These are the internal indices to the commonNames list for Dataset B.
 `msgOnSuccess` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 If true, use ComparerOutput to write a message if this comparison is successful.
+
 

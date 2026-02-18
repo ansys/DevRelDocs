@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_Polygon"></a> Class Polygon
+# Class Polygon
 
 Namespace: [OpenTD.RadCAD](OpenTD.RadCAD.md)  
 Assembly: OpenTD.dll  
@@ -6,10 +6,11 @@ Assembly: OpenTD.dll
 Client-side representation of a single-face MeshFD in a TD instance.
 
 ```csharp
+[MessagePackObject(true)]
 public class Polygon : RcEntityData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -18,11 +19,11 @@ public class Polygon : RcEntityData, IUpdatable
 [RcEntityData](OpenTD.RadCAD.RcEntityData.md) ← 
 [Polygon](OpenTD.RadCAD.Polygon.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [RcEntityData.TopIdType](OpenTD.RadCAD.RcEntityData.md\#OpenTD\_RadCAD\_RcEntityData\_TopIdType), 
 [RcEntityData.BotIdType](OpenTD.RadCAD.RcEntityData.md\#OpenTD\_RadCAD\_RcEntityData\_BotIdType), 
@@ -152,7 +153,7 @@ public class Polygon : RcEntityData, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_Polygon__ctor"></a> Polygon\(\)
+### Polygon\(\)
 
 ```csharp
 public Polygon()
@@ -160,9 +161,10 @@ public Polygon()
 
 ## Properties
 
-### <a id="OpenTD_RadCAD_Polygon_Vertices"></a> Vertices
+### Vertices
 
 ```csharp
+[IgnoreMember]
 public List<Point3d> Vertices { get; }
 ```
 
@@ -170,7 +172,7 @@ public List<Point3d> Vertices { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Point3d](OpenTD.Point3d.md)\>
 
-### <a id="OpenTD_RadCAD_Polygon__v"></a> \_v
+### \_v
 
 Do not use.
 
@@ -184,7 +186,7 @@ public List<Point3d> _v { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_RadCAD_Polygon_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -196,7 +198,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_RadCAD_Polygon_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -204,7 +206,7 @@ Updates the TD entity with the latest client data.
 public override void Update()
 ```
 
-### <a id="OpenTD_RadCAD_Polygon_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -216,4 +218,5 @@ public override void UpdateFromTD()
 
 [MeshFD](OpenTD.RadCAD.MeshFD.md), 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

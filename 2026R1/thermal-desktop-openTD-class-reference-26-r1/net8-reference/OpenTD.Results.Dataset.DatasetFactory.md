@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_DatasetFactory"></a> Class DatasetFactory
+# Class DatasetFactory
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -9,12 +9,12 @@ Use to load various datasets from disk.
 public static class DatasetFactory
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [DatasetFactory](OpenTD.Results.Dataset.DatasetFactory.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +26,7 @@ public static class DatasetFactory
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_DatasetFactory_Load_System_String_"></a> Load\(string\)
+### Load\(string\)
 
 With the supplied pathname, this method will determine whether
 it is a savX, CSR, or sav and return an IDataset that can
@@ -48,7 +48,7 @@ public static IDataset Load(string pathname)
 
  OpenTDException
 
-### <a id="OpenTD_Results_Dataset_DatasetFactory_LoadRadkDatabase_System_String_System_String_System_Boolean_"></a> LoadRadkDatabase\(string, string, bool\)
+### LoadRadkDatabase\(string, string, bool\)
 
 With the supplied radk path
 This method will generate a radk class instance
@@ -72,4 +72,5 @@ public static RadkDatabase LoadRadkDatabase(string directoryPath, string fileNam
 #### Exceptions
 
  OpenTDException
+
 

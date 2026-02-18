@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Plot_Axis"></a> Class Axis
+# Class Axis
 
 Namespace: [OpenTD.Results.Plot](OpenTD.Results.Plot.md)  
 Assembly: OpenTD.Results.dll  
@@ -10,12 +10,12 @@ associated with it.
 public class Axis
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Axis](OpenTD.Results.Plot.Axis.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -27,13 +27,13 @@ public class Axis
 
 ## Constructors
 
-### <a id="OpenTD_Results_Plot_Axis__ctor"></a> Axis\(\)
+### Axis\(\)
 
 ```csharp
 public Axis()
 ```
 
-### <a id="OpenTD_Results_Plot_Axis__ctor_OpenTD_UnitsData_UnitsType_"></a> Axis\(UnitsType\)
+### Axis\(UnitsType\)
 
 ```csharp
 public Axis(UnitsData.UnitsType dimension)
@@ -43,7 +43,7 @@ public Axis(UnitsData.UnitsType dimension)
 
 `dimension` UnitsData.UnitsType
 
-### <a id="OpenTD_Results_Plot_Axis__ctor_OpenTD_UnitsData_UnitsType_OpenTD_UnitsData_"></a> Axis\(UnitsType, UnitsData\)
+### Axis\(UnitsType, UnitsData\)
 
 ```csharp
 public Axis(UnitsData.UnitsType dimension, UnitsData units)
@@ -57,7 +57,7 @@ public Axis(UnitsData.UnitsType dimension, UnitsData units)
 
 ## Properties
 
-### <a id="OpenTD_Results_Plot_Axis_AutoCommenter"></a> AutoCommenter
+### AutoCommenter
 
 ```csharp
 protected AutoCommenter AutoCommenter { get; set; }
@@ -67,7 +67,7 @@ protected AutoCommenter AutoCommenter { get; set; }
 
  AutoCommenter
 
-### <a id="OpenTD_Results_Plot_Axis_AutoNamer"></a> AutoNamer
+### AutoNamer
 
 ```csharp
 protected AutoNamer AutoNamer { get; set; }
@@ -77,7 +77,7 @@ protected AutoNamer AutoNamer { get; set; }
 
  AutoNamer
 
-### <a id="OpenTD_Results_Plot_Axis_AutoScaleInterval"></a> AutoScaleInterval
+### AutoScaleInterval
 
 ```csharp
 public bool AutoScaleInterval { get; set; }
@@ -87,7 +87,7 @@ public bool AutoScaleInterval { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Plot_Axis_AutoScaleMaximumValue"></a> AutoScaleMaximumValue
+### AutoScaleMaximumValue
 
 ```csharp
 public bool AutoScaleMaximumValue { get; set; }
@@ -97,7 +97,7 @@ public bool AutoScaleMaximumValue { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Plot_Axis_AutoScaleMinimumValue"></a> AutoScaleMinimumValue
+### AutoScaleMinimumValue
 
 ```csharp
 public bool AutoScaleMinimumValue { get; set; }
@@ -107,7 +107,7 @@ public bool AutoScaleMinimumValue { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Plot_Axis_AutoScaleNumIntervals"></a> AutoScaleNumIntervals
+### AutoScaleNumIntervals
 
 ```csharp
 public int AutoScaleNumIntervals { get; set; }
@@ -117,7 +117,7 @@ public int AutoScaleNumIntervals { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Results_Plot_Axis_AxisStyle"></a> AxisStyle
+### AxisStyle
 
 ```csharp
 public AxisStyle AxisStyle { get; set; }
@@ -127,7 +127,7 @@ public AxisStyle AxisStyle { get; set; }
 
  [AxisStyle](OpenTD.Results.Plot.AxisStyle.md)
 
-### <a id="OpenTD_Results_Plot_Axis_Comment"></a> Comment
+### Comment
 
 ```csharp
 public string Comment { get; set; }
@@ -137,7 +137,7 @@ public string Comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Plot_Axis_Dimension"></a> Dimension
+### Dimension
 
 Physical dimension of the axis.
 
@@ -149,7 +149,7 @@ public UnitsData.UnitsType Dimension { get; set; }
 
  UnitsData.UnitsType
 
-### <a id="OpenTD_Results_Plot_Axis_InternalSuggestedComment"></a> InternalSuggestedComment
+### InternalSuggestedComment
 
 ```csharp
 public string InternalSuggestedComment { get; set; }
@@ -159,7 +159,7 @@ public string InternalSuggestedComment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Plot_Axis_InternalSuggestedName"></a> InternalSuggestedName
+### InternalSuggestedName
 
 ```csharp
 public string InternalSuggestedName { get; set; }
@@ -169,7 +169,7 @@ public string InternalSuggestedName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Plot_Axis_Interval"></a> Interval
+### Interval
 
 ```csharp
 public double Interval { get; set; }
@@ -179,7 +179,7 @@ public double Interval { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Results_Plot_Axis_IsInteger"></a> IsInteger
+### IsInteger
 
 ```csharp
 public bool IsInteger { get; set; }
@@ -189,7 +189,7 @@ public bool IsInteger { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Plot_Axis_IsReversed"></a> IsReversed
+### IsReversed
 
 ```csharp
 public bool IsReversed { get; set; }
@@ -199,7 +199,7 @@ public bool IsReversed { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Plot_Axis_MajorGrid"></a> MajorGrid
+### MajorGrid
 
 ```csharp
 public Grid MajorGrid { get; set; }
@@ -209,7 +209,7 @@ public Grid MajorGrid { get; set; }
 
  [Grid](OpenTD.Results.Plot.Grid.md)
 
-### <a id="OpenTD_Results_Plot_Axis_MaximumValue"></a> MaximumValue
+### MaximumValue
 
 ```csharp
 public double MaximumValue { get; set; }
@@ -219,7 +219,7 @@ public double MaximumValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Results_Plot_Axis_MinimumValue"></a> MinimumValue
+### MinimumValue
 
 ```csharp
 public double MinimumValue { get; set; }
@@ -229,7 +229,7 @@ public double MinimumValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Results_Plot_Axis_MinorGrid"></a> MinorGrid
+### MinorGrid
 
 ```csharp
 public Grid MinorGrid { get; set; }
@@ -239,7 +239,7 @@ public Grid MinorGrid { get; set; }
 
  [Grid](OpenTD.Results.Plot.Grid.md)
 
-### <a id="OpenTD_Results_Plot_Axis_Name"></a> Name
+### Name
 
 ```csharp
 public string Name { get; set; }
@@ -249,7 +249,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Plot_Axis_Position"></a> Position
+### Position
 
 ```csharp
 public Axis.Positions Position { get; set; }
@@ -259,7 +259,7 @@ public Axis.Positions Position { get; set; }
 
  [Axis](OpenTD.Results.Plot.Axis.md).[Positions](OpenTD.Results.Plot.Axis.Positions.md)
 
-### <a id="OpenTD_Results_Plot_Axis_Title"></a> Title
+### Title
 
 ```csharp
 public string Title { get; set; }
@@ -269,7 +269,7 @@ public string Title { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Plot_Axis_Units"></a> Units
+### Units
 
 Units system to display on the axis and to use to plot series associated with it.
 
@@ -283,7 +283,7 @@ public UnitsData Units { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Results_Plot_Axis_GetAxisStyle"></a> GetAxisStyle\(\)
+### GetAxisStyle\(\)
 
 ```csharp
 public AxisStyle GetAxisStyle()
@@ -293,7 +293,7 @@ public AxisStyle GetAxisStyle()
 
  [AxisStyle](OpenTD.Results.Plot.AxisStyle.md)
 
-### <a id="OpenTD_Results_Plot_Axis_GetSelfSuggestedComment"></a> GetSelfSuggestedComment\(\)
+### GetSelfSuggestedComment\(\)
 
 ```csharp
 protected virtual string GetSelfSuggestedComment()
@@ -303,7 +303,7 @@ protected virtual string GetSelfSuggestedComment()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Plot_Axis_GetSelfSuggestedName"></a> GetSelfSuggestedName\(\)
+### GetSelfSuggestedName\(\)
 
 ```csharp
 protected virtual string GetSelfSuggestedName()
@@ -313,7 +313,7 @@ protected virtual string GetSelfSuggestedName()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Plot_Axis_SetAxisStyle_OpenTD_Results_Plot_AxisStyle_"></a> SetAxisStyle\(AxisStyle\)
+### SetAxisStyle\(AxisStyle\)
 
 ```csharp
 public void SetAxisStyle(AxisStyle ax)
@@ -323,7 +323,7 @@ public void SetAxisStyle(AxisStyle ax)
 
 `ax` [AxisStyle](OpenTD.Results.Plot.AxisStyle.md)
 
-### <a id="OpenTD_Results_Plot_Axis_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -341,4 +341,5 @@ A string that represents the current object.
 
 [Plot2d](OpenTD.Results.Plot.Plot2d.md), 
 IAutoName
+
 

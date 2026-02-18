@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FEModel_Quaternion"></a> Class Quaternion
+# Class Quaternion
 
 Namespace: [OpenTD.RadCAD.FEModel](OpenTD.RadCAD.FEModel.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ mesh using an FEMeshImporter only.
 public class Quaternion
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Quaternion](OpenTD.RadCAD.FEModel.Quaternion.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -27,7 +27,7 @@ public class Quaternion
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_FEModel_Quaternion__ctor"></a> Quaternion\(\)
+### Quaternion\(\)
 
 ```csharp
 public Quaternion()
@@ -35,7 +35,7 @@ public Quaternion()
 
 ## Fields
 
-### <a id="OpenTD_RadCAD_FEModel_Quaternion_s"></a> s
+### s
 
 ```csharp
 public double s
@@ -45,7 +45,7 @@ public double s
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_FEModel_Quaternion_v"></a> v
+### v
 
 ```csharp
 public Vector3d v
@@ -54,4 +54,5 @@ public Vector3d v
 #### Field Value
 
  [Vector3d](OpenTD.Vector3d.md)
+
 

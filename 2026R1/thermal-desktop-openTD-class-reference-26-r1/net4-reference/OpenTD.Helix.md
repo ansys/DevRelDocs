@@ -1,4 +1,4 @@
-# <a id="OpenTD_Helix"></a> Class Helix
+# Class Helix
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,7 +10,7 @@ Client-side representation of an AutoCAD Helix entity in a TD instance.
 public class Helix : TdDbEntityData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -18,11 +18,11 @@ public class Helix : TdDbEntityData, IUpdatable
 [TdDbEntityData](OpenTD.TdDbEntityData.md) ← 
 [Helix](OpenTD.Helix.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [TdDbEntityData.SetFrom\(TdDbEntityData\)](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_SetFrom\_OpenTD\_TdDbEntityData\_), 
 [TdDbEntityData.Layer](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_Layer), 
@@ -54,7 +54,7 @@ public class Helix : TdDbEntityData, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_Helix__ctor"></a> Helix\(\)
+### Helix\(\)
 
 ```csharp
 public Helix()
@@ -62,7 +62,7 @@ public Helix()
 
 ## Properties
 
-### <a id="OpenTD_Helix_Axis"></a> Axis
+### Axis
 
 ```csharp
 [DataMember]
@@ -73,7 +73,7 @@ public Vector3d Axis { get; set; }
 
  [Vector3d](OpenTD.Vector3d.md)
 
-### <a id="OpenTD_Helix_BaseCenter"></a> BaseCenter
+### BaseCenter
 
 ```csharp
 [DataMember]
@@ -84,7 +84,7 @@ public Point3d BaseCenter { get; set; }
 
  [Point3d](OpenTD.Point3d.md)
 
-### <a id="OpenTD_Helix_BaseRadius"></a> BaseRadius
+### BaseRadius
 
 ```csharp
 [DataMember]
@@ -95,7 +95,7 @@ public Dimensional<ModelLength> BaseRadius { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_Helix_Height"></a> Height
+### Height
 
 ```csharp
 [DataMember]
@@ -106,7 +106,7 @@ public Dimensional<ModelLength> Height { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_Helix_NumTurns"></a> NumTurns
+### NumTurns
 
 ```csharp
 [DataMember]
@@ -117,7 +117,7 @@ public double NumTurns { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Helix_TopRadius"></a> TopRadius
+### TopRadius
 
 ```csharp
 [DataMember]
@@ -130,7 +130,7 @@ public Dimensional<ModelLength> TopRadius { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Helix_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -142,7 +142,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_Helix_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -153,4 +153,5 @@ public override void Update()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

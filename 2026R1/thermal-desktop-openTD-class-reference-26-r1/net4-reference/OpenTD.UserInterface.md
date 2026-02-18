@@ -1,4 +1,4 @@
-# <a id="OpenTD_UserInterface"></a> Namespace OpenTD.UserInterface
+# Namespace OpenTD.UserInterface
 
 ### Namespaces
 
@@ -15,4 +15,5 @@ subscribing to the OnWrite event.
  [WriteEventArgs](OpenTD.UserInterface.WriteEventArgs.md)
 
 Used by the StandardOutput.OnWrite event to route StandardOutput to a custom destination.
+
 

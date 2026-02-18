@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_DataArrayEnumerator"></a> Class DataArrayEnumerator
+# Class DataArrayEnumerator
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -9,18 +9,18 @@ Used internally when iterating over the values in a DataArray.
 public class DataArrayEnumerator : IEnumerator<double>, IEnumerator, IDisposable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [DataArrayEnumerator](OpenTD.Results.Dataset.DataArrayEnumerator.md)
 
-#### Implements
+## Implements
 
 [IEnumerator<double\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator\-1), 
 [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), 
 [IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -32,7 +32,7 @@ public class DataArrayEnumerator : IEnumerator<double>, IEnumerator, IDisposable
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_DataArrayEnumerator__ctor_OpenTD_Results_Dataset_DataArray_"></a> DataArrayEnumerator\(DataArray\)
+### DataArrayEnumerator\(DataArray\)
 
 ```csharp
 public DataArrayEnumerator(DataArray _array)
@@ -44,7 +44,7 @@ public DataArrayEnumerator(DataArray _array)
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_DataArrayEnumerator_Current"></a> Current
+### Current
 
 Gets the element in the collection at the current position of the enumerator.
 
@@ -58,7 +58,7 @@ public double Current { get; }
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_DataArrayEnumerator_Dispose"></a> Dispose\(\)
+### Dispose\(\)
 
 Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
@@ -66,7 +66,7 @@ Performs application-defined tasks associated with freeing, releasing, or resett
 public void Dispose()
 ```
 
-### <a id="OpenTD_Results_Dataset_DataArrayEnumerator_Dispose_System_Boolean_"></a> Dispose\(bool\)
+### Dispose\(bool\)
 
 ```csharp
 protected virtual void Dispose(bool disposing)
@@ -76,7 +76,7 @@ protected virtual void Dispose(bool disposing)
 
 `disposing` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Dataset_DataArrayEnumerator_MoveNext"></a> MoveNext\(\)
+### MoveNext\(\)
 
 Advances the enumerator to the next element of the collection.
 
@@ -88,7 +88,7 @@ public bool MoveNext()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the enumerator was successfully advanced to the next element; <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> if the enumerator has passed the end of the collection.
+[true](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool) if the enumerator was successfully advanced to the next element; [false](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool) if the enumerator has passed the end of the collection.
 
 #### Exceptions
 
@@ -96,7 +96,7 @@ public bool MoveNext()
 
 The collection was modified after the enumerator was created.
 
-### <a id="OpenTD_Results_Dataset_DataArrayEnumerator_Reset"></a> Reset\(\)
+### Reset\(\)
 
 Sets the enumerator to its initial position, which is before the first element in the collection.
 
@@ -114,7 +114,4 @@ The collection was modified after the enumerator was created.
 
 The enumerator does not support being reset.
 
-## See Also
-
-[IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator\-1)<T\>
 

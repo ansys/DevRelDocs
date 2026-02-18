@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Plot_LegendStyle"></a> Class LegendStyle
+# Class LegendStyle
 
 Namespace: [OpenTD.Results.Plot](OpenTD.Results.Plot.md)  
 Assembly: OpenTD.Results.dll  
@@ -7,12 +7,12 @@ Assembly: OpenTD.Results.dll
 public class LegendStyle
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [LegendStyle](OpenTD.Results.Plot.LegendStyle.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -24,7 +24,7 @@ public class LegendStyle
 
 ## Constructors
 
-### <a id="OpenTD_Results_Plot_LegendStyle__ctor"></a> LegendStyle\(\)
+### LegendStyle\(\)
 
 ```csharp
 public LegendStyle()
@@ -32,7 +32,7 @@ public LegendStyle()
 
 ## Properties
 
-### <a id="OpenTD_Results_Plot_LegendStyle_BorderColor"></a> BorderColor
+### BorderColor
 
 ```csharp
 public Color BorderColor { get; set; }
@@ -42,7 +42,7 @@ public Color BorderColor { get; set; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="OpenTD_Results_Plot_LegendStyle_BorderDashStyle"></a> BorderDashStyle
+### BorderDashStyle
 
 ```csharp
 public ChartDashStyle BorderDashStyle { get; set; }
@@ -52,7 +52,7 @@ public ChartDashStyle BorderDashStyle { get; set; }
 
  ChartDashStyle
 
-### <a id="OpenTD_Results_Plot_LegendStyle_BorderWidth"></a> BorderWidth
+### BorderWidth
 
 ```csharp
 public int BorderWidth { get; set; }
@@ -62,7 +62,7 @@ public int BorderWidth { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Results_Plot_LegendStyle_ItemFont"></a> ItemFont
+### ItemFont
 
 ```csharp
 public Font ItemFont { get; set; }
@@ -72,7 +72,7 @@ public Font ItemFont { get; set; }
 
  [Font](https://learn.microsoft.com/dotnet/api/system.drawing.font)
 
-### <a id="OpenTD_Results_Plot_LegendStyle_ItemOrder"></a> ItemOrder
+### ItemOrder
 
 ```csharp
 public LegendItemOrder ItemOrder { get; set; }
@@ -82,7 +82,7 @@ public LegendItemOrder ItemOrder { get; set; }
 
  LegendItemOrder
 
-### <a id="OpenTD_Results_Plot_LegendStyle_Position"></a> Position
+### Position
 
 ```csharp
 public Docking Position { get; set; }
@@ -92,7 +92,7 @@ public Docking Position { get; set; }
 
  Docking
 
-### <a id="OpenTD_Results_Plot_LegendStyle_SecondaryPosition"></a> SecondaryPosition
+### SecondaryPosition
 
 ```csharp
 public StringAlignment SecondaryPosition { get; set; }
@@ -102,7 +102,7 @@ public StringAlignment SecondaryPosition { get; set; }
 
  [StringAlignment](https://learn.microsoft.com/dotnet/api/system.drawing.stringalignment)
 
-### <a id="OpenTD_Results_Plot_LegendStyle_TableStyle"></a> TableStyle
+### TableStyle
 
 ```csharp
 public LegendTableStyle TableStyle { get; set; }
@@ -112,7 +112,7 @@ public LegendTableStyle TableStyle { get; set; }
 
  LegendTableStyle
 
-### <a id="OpenTD_Results_Plot_LegendStyle_TitleColor"></a> TitleColor
+### TitleColor
 
 ```csharp
 public Color TitleColor { get; set; }
@@ -122,7 +122,7 @@ public Color TitleColor { get; set; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="OpenTD_Results_Plot_LegendStyle_TitleFont"></a> TitleFont
+### TitleFont
 
 ```csharp
 public Font TitleFont { get; set; }
@@ -131,4 +131,5 @@ public Font TitleFont { get; set; }
 #### Property Value
 
  [Font](https://learn.microsoft.com/dotnet/api/system.drawing.font)
+
 

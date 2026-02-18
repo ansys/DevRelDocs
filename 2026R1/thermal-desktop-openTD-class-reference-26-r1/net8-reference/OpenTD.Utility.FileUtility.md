@@ -1,4 +1,4 @@
-# <a id="OpenTD_Utility_FileUtility"></a> Class FileUtility
+# Class FileUtility
 
 Namespace: [OpenTD.Utility](OpenTD.Utility.md)  
 Assembly: OpenTD.dll  
@@ -9,12 +9,12 @@ Utility methods for working with files.
 public static class FileUtility
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [FileUtility](OpenTD.Utility.FileUtility.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +26,7 @@ public static class FileUtility
 
 ## Methods
 
-### <a id="OpenTD_Utility_FileUtility_GetEndOfPath_System_String_"></a> GetEndOfPath\(string\)
+### GetEndOfPath\(string\)
 
 Returns either the filename or directory name at the end of the input path.
 
@@ -46,7 +46,7 @@ The path.
 
 System.String.
 
-### <a id="OpenTD_Utility_FileUtility_IsDirectory_System_String_"></a> IsDirectory\(string\)
+### IsDirectory\(string\)
 
 Determines whether the specified path is a directory.
 
@@ -66,7 +66,7 @@ The path.
 
 <code>true</code> if the specified path is a directory; otherwise, <code>false</code>.
 
-### <a id="OpenTD_Utility_FileUtility_IsFileLocked_System_IO_FileInfo_"></a> IsFileLocked\(FileInfo\)
+### IsFileLocked\(FileInfo\)
 
 Determines whether a file is locked for use.
 
@@ -83,4 +83,5 @@ The file.
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

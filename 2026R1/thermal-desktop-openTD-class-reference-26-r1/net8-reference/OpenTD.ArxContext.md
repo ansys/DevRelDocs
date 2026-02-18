@@ -1,4 +1,4 @@
-# <a id="OpenTD_ArxContext"></a> Class ArxContext
+# Class ArxContext
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ if RadCAD has been loaded first.
 public static class ArxContext
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ArxContext](OpenTD.ArxContext.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -27,7 +27,7 @@ public static class ArxContext
 
 ## Fields
 
-### <a id="OpenTD_ArxContext_TD"></a> TD
+### TD
 
 ```csharp
 public static ThermalDesktop TD
@@ -39,7 +39,7 @@ public static ThermalDesktop TD
 
 ## Properties
 
-### <a id="OpenTD_ArxContext_ProgressBar"></a> ProgressBar
+### ProgressBar
 
 ```csharp
 public static ProgressBar ProgressBar { get; }
@@ -49,7 +49,7 @@ public static ProgressBar ProgressBar { get; }
 
  [ProgressBar](OpenTD.AddIn.ProgressBar.md)
 
-### <a id="OpenTD_ArxContext_UserBreak"></a> UserBreak
+### UserBreak
 
 ```csharp
 public static IUserBreak UserBreak { get; }
@@ -58,4 +58,5 @@ public static IUserBreak UserBreak { get; }
 #### Property Value
 
  IUserBreak
+
 

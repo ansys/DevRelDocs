@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_DataArray"></a> Class DataArray
+# Class DataArray
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -13,7 +13,7 @@ inputs to SimplePlots.
 public class DataArray : IEnumerable<double>, IEnumerable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [DataArray](OpenTD.Results.Dataset.DataArray.md)
@@ -22,12 +22,12 @@ public class DataArray : IEnumerable<double>, IEnumerable
 
 [DerivedDataArray](OpenTD.Results.Dataset.DerivedDataArray.md)
 
-#### Implements
+## Implements
 
 [IEnumerable<double\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1), 
 [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -39,7 +39,7 @@ public class DataArray : IEnumerable<double>, IEnumerable
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_DataArray__ctor_OpenTD_Results_Dataset_DataItemIdentifier_System_Collections_Generic_IEnumerable_System_Double__OpenTD_UnitsData_"></a> DataArray\(DataItemIdentifier, IEnumerable<double\>, UnitsData\)
+### DataArray\(DataItemIdentifier, IEnumerable<double\>, UnitsData\)
 
 ```csharp
 public DataArray(DataItemIdentifier dataItem, IEnumerable<double> values, UnitsData units)
@@ -53,13 +53,13 @@ public DataArray(DataItemIdentifier dataItem, IEnumerable<double> values, UnitsD
 
 `units` UnitsData
 
-### <a id="OpenTD_Results_Dataset_DataArray__ctor"></a> DataArray\(\)
+### DataArray\(\)
 
 ```csharp
 public DataArray()
 ```
 
-### <a id="OpenTD_Results_Dataset_DataArray__ctor_System_Collections_Generic_IEnumerable_System_Double__"></a> DataArray\(IEnumerable<double\>\)
+### DataArray\(IEnumerable<double\>\)
 
 Initializes a new instance of the <xref href="OpenTD.Results.Dataset.DataArray" data-throw-if-not-resolved="false"></xref> class, assuming dimensionless data.
 
@@ -73,7 +73,7 @@ public DataArray(IEnumerable<double> values)
 
 The values.
 
-### <a id="OpenTD_Results_Dataset_DataArray__ctor_OpenTD_Results_Dataset_DataSubtype_System_Collections_Generic_IEnumerable_System_Double__OpenTD_UnitsData_OpenTD_Results_Dataset_ItemIdentifier_"></a> DataArray\(DataSubtype, IEnumerable<double\>, UnitsData, ItemIdentifier\)
+### DataArray\(DataSubtype, IEnumerable<double\>, UnitsData, ItemIdentifier\)
 
 ```csharp
 public DataArray(DataSubtype subtype, IEnumerable<double> values, UnitsData units, ItemIdentifier item = null)
@@ -89,7 +89,7 @@ public DataArray(DataSubtype subtype, IEnumerable<double> values, UnitsData unit
 
 `item` [ItemIdentifier](OpenTD.Results.Dataset.ItemIdentifier.md)
 
-### <a id="OpenTD_Results_Dataset_DataArray__ctor_OpenTD_Results_Dataset_DataArray_"></a> DataArray\(DataArray\)
+### DataArray\(DataArray\)
 
 ```csharp
 public DataArray(DataArray x)
@@ -101,7 +101,7 @@ public DataArray(DataArray x)
 
 ## Fields
 
-### <a id="OpenTD_Results_Dataset_DataArray_ValuesSI"></a> ValuesSI
+### ValuesSI
 
 ```csharp
 protected List<double> ValuesSI
@@ -113,7 +113,7 @@ protected List<double> ValuesSI
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_DataArray_AutoCommenter"></a> AutoCommenter
+### AutoCommenter
 
 ```csharp
 protected AutoCommenter AutoCommenter { get; set; }
@@ -123,7 +123,7 @@ protected AutoCommenter AutoCommenter { get; set; }
 
  AutoCommenter
 
-### <a id="OpenTD_Results_Dataset_DataArray_AutoNamer"></a> AutoNamer
+### AutoNamer
 
 ```csharp
 protected AutoNamer AutoNamer { get; set; }
@@ -133,7 +133,7 @@ protected AutoNamer AutoNamer { get; set; }
 
  AutoNamer
 
-### <a id="OpenTD_Results_Dataset_DataArray_Comment"></a> Comment
+### Comment
 
 ```csharp
 public string Comment { get; set; }
@@ -143,7 +143,7 @@ public string Comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_DataArray_Count"></a> Count
+### Count
 
 The number of items in this DataArray.
 
@@ -155,7 +155,7 @@ public virtual int Count { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Results_Dataset_DataArray_Dimension"></a> Dimension
+### Dimension
 
 The physical dimension of this data.
 
@@ -167,7 +167,7 @@ public UnitsData.UnitsType Dimension { get; }
 
  UnitsData.UnitsType
 
-### <a id="OpenTD_Results_Dataset_DataArray_InternalSuggestedComment"></a> InternalSuggestedComment
+### InternalSuggestedComment
 
 ```csharp
 public string InternalSuggestedComment { get; set; }
@@ -177,7 +177,7 @@ public string InternalSuggestedComment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_DataArray_InternalSuggestedName"></a> InternalSuggestedName
+### InternalSuggestedName
 
 ```csharp
 public string InternalSuggestedName { get; set; }
@@ -187,7 +187,7 @@ public string InternalSuggestedName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_DataArray_IsInteger"></a> IsInteger
+### IsInteger
 
 Returns true if the subtype of this data represents integer data.
 
@@ -199,7 +199,7 @@ public bool IsInteger { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Dataset_DataArray_Name"></a> Name
+### Name
 
 ```csharp
 public string Name { get; set; }
@@ -209,7 +209,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_DataArray_SourceDataItem"></a> SourceDataItem
+### SourceDataItem
 
 Combines the SourceItem and Subtype. If either are null, this is null.
 
@@ -221,7 +221,7 @@ public DataItemIdentifier SourceDataItem { get; }
 
  [DataItemIdentifier](OpenTD.Results.Dataset.DataItemIdentifier.md)
 
-### <a id="OpenTD_Results_Dataset_DataArray_SourceDataset"></a> SourceDataset
+### SourceDataset
 
 The source Dataset for this data.
 
@@ -233,7 +233,7 @@ public virtual IDataset SourceDataset { get; }
 
  [IDataset](OpenTD.Results.Dataset.IDataset.md)
 
-### <a id="OpenTD_Results_Dataset_DataArray_SourceItem"></a> SourceItem
+### SourceItem
 
 Identifies the item (node, lump, register, etc.) this data came from.
 
@@ -245,7 +245,7 @@ public virtual ItemIdentifier SourceItem { get; }
 
  [ItemIdentifier](OpenTD.Results.Dataset.ItemIdentifier.md)
 
-### <a id="OpenTD_Results_Dataset_DataArray_Subtype"></a> Subtype
+### Subtype
 
 The DataSubtype (T, TL, PL, GTX, etc.)
 
@@ -257,7 +257,7 @@ public virtual DataSubtype Subtype { get; set; }
 
  [DataSubtype](OpenTD.Results.Dataset.DataSubtype.md)
 
-### <a id="OpenTD_Results_Dataset_DataArray_Item_System_Int32_"></a> this\[int\]
+### this\[int\]
 
 ```csharp
 public virtual double this[int index] { get; set; }
@@ -269,13 +269,13 @@ public virtual double this[int index] { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_DataArray_CheckData"></a> CheckData\(\)
+### CheckData\(\)
 
 ```csharp
 protected virtual void CheckData()
 ```
 
-### <a id="OpenTD_Results_Dataset_DataArray_GetEnumerator"></a> GetEnumerator\(\)
+### GetEnumerator\(\)
 
 Returns an enumerator that iterates through the collection.
 
@@ -289,7 +289,7 @@ public IEnumerator<double> GetEnumerator()
 
 An enumerator that can be used to iterate through the collection.
 
-### <a id="OpenTD_Results_Dataset_DataArray_GetSelfSuggestedComment"></a> GetSelfSuggestedComment\(\)
+### GetSelfSuggestedComment\(\)
 
 ```csharp
 protected virtual string GetSelfSuggestedComment()
@@ -299,7 +299,7 @@ protected virtual string GetSelfSuggestedComment()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_DataArray_GetSelfSuggestedName"></a> GetSelfSuggestedName\(\)
+### GetSelfSuggestedName\(\)
 
 ```csharp
 protected virtual string GetSelfSuggestedName()
@@ -309,7 +309,7 @@ protected virtual string GetSelfSuggestedName()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_DataArray_GetValues"></a> GetValues\(\)
+### GetValues\(\)
 
 Gets the data in the current WorkingUnits.
 
@@ -327,7 +327,7 @@ List&lt;System.Double&gt;.
 
 Units.WorkingUnits
 
-### <a id="OpenTD_Results_Dataset_DataArray_GetValues_OpenTD_UnitsData_"></a> GetValues\(UnitsData\)
+### GetValues\(UnitsData\)
 
 Gets the data in the units provided.
 
@@ -347,7 +347,7 @@ The units to return the data in.
 
 List&lt;System.Double&gt;.
 
-### <a id="OpenTD_Results_Dataset_DataArray_SetValues_System_Collections_Generic_IEnumerable_System_Double__OpenTD_Results_Dataset_DataSubtype_OpenTD_UnitsData_OpenTD_Results_Dataset_ItemIdentifier_"></a> SetValues\(IEnumerable<double\>, DataSubtype, UnitsData, ItemIdentifier\)
+### SetValues\(IEnumerable<double\>, DataSubtype, UnitsData, ItemIdentifier\)
 
 ```csharp
 public virtual void SetValues(IEnumerable<double> values, DataSubtype subtype = null, UnitsData units = null, ItemIdentifier item = null)
@@ -363,7 +363,7 @@ public virtual void SetValues(IEnumerable<double> values, DataSubtype subtype = 
 
 `item` [ItemIdentifier](OpenTD.Results.Dataset.ItemIdentifier.md)
 
-### <a id="OpenTD_Results_Dataset_DataArray_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -379,7 +379,7 @@ A string that represents the current object.
 
 ## Operators
 
-### <a id="OpenTD_Results_Dataset_DataArray_op_Implicit_OpenTD_Results_Dataset_DataArray__System_Collections_Generic_List_System_Double_"></a> implicit operator List<double\>\(DataArray\)
+### implicit operator List<double\>\(DataArray\)
 
 ```csharp
 public static implicit operator List<double>(DataArray x)
@@ -393,7 +393,7 @@ public static implicit operator List<double>(DataArray x)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="OpenTD_Results_Dataset_DataArray_op_Implicit_OpenTD_Results_Dataset_DataArray__System_Collections_Generic_List_OpenTD_Results_Dataset_DataArray_"></a> implicit operator List<DataArray\>\(DataArray\)
+### implicit operator List<DataArray\>\(DataArray\)
 
 ```csharp
 public static implicit operator List<DataArray>(DataArray x)
@@ -412,4 +412,5 @@ public static implicit operator List<DataArray>(DataArray x)
 [Dataset](OpenTD.Results.Dataset.Dataset.md), 
 IAutoName, 
 [SimplePlot](OpenTD.Results.Plot.SimplePlot.md)
+
 

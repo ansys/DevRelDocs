@@ -1,4 +1,4 @@
-# <a id="OpenTD_UDFACollection"></a> Class UDFACollection
+# Class UDFACollection
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,7 +10,7 @@ This holds a collection of individual Fortran arrays
 public class UDFACollection : RcLogicUDFACollectionData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -18,11 +18,11 @@ public class UDFACollection : RcLogicUDFACollectionData, IUpdatable
 RcLogicUDFACollectionData ← 
 [UDFACollection](OpenTD.UDFACollection.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [LogicObject.Update\(\)](OpenTD.LogicObject.md\#OpenTD\_LogicObject\_Update), 
 [LogicObject.UpdateFromTD\(\)](OpenTD.LogicObject.md\#OpenTD\_LogicObject\_UpdateFromTD), 
@@ -50,7 +50,7 @@ RcLogicUDFACollectionData ←
 
 ## Methods
 
-### <a id="OpenTD_UDFACollection_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -62,7 +62,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_UDFACollection_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -73,4 +73,5 @@ public override void Update()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

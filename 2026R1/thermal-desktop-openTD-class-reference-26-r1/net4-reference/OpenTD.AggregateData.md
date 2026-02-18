@@ -1,4 +1,4 @@
-# <a id="OpenTD_AggregateData"></a> Class AggregateData
+# Class AggregateData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ Represents an aggregate or laminate material.
 public class AggregateData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AggregateData](OpenTD.AggregateData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,7 +27,7 @@ public class AggregateData
 
 ## Constructors
 
-### <a id="OpenTD_AggregateData__ctor"></a> AggregateData\(\)
+### AggregateData\(\)
 
 ```csharp
 public AggregateData()
@@ -35,7 +35,7 @@ public AggregateData()
 
 ## Properties
 
-### <a id="OpenTD_AggregateData_Components"></a> Components
+### Components
 
 ```csharp
 [DataMember]
@@ -46,7 +46,7 @@ public List<AggregateComponentData> Components { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[AggregateComponentData](OpenTD.AggregateComponentData.md)\>
 
-### <a id="OpenTD_AggregateData_Theta"></a> Theta
+### Theta
 
 ```csharp
 [DataMember]
@@ -57,7 +57,7 @@ public Dimensional<Angle> Theta { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_AggregateData_WeightType"></a> WeightType
+### WeightType
 
 ```csharp
 [DataMember]
@@ -68,7 +68,7 @@ public AggregateData.WeightTypes WeightType { get; set; }
 
  [AggregateData](OpenTD.AggregateData.md).[WeightTypes](OpenTD.AggregateData.WeightTypes.md)
 
-### <a id="OpenTD_AggregateData_kxp"></a> kxp
+### kxp
 
 ```csharp
 [DataMember]
@@ -79,7 +79,7 @@ public double kxp { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_AggregateData_kxpExp"></a> kxpExp
+### kxpExp
 
 ```csharp
 [DataMember]
@@ -90,7 +90,7 @@ public ExpressionData kxpExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_AggregateData_kyp"></a> kyp
+### kyp
 
 ```csharp
 [DataMember]
@@ -101,7 +101,7 @@ public double kyp { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_AggregateData_kypExp"></a> kypExp
+### kypExp
 
 ```csharp
 [DataMember]
@@ -112,7 +112,7 @@ public ExpressionData kypExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_AggregateData_kzp"></a> kzp
+### kzp
 
 ```csharp
 [DataMember]
@@ -123,7 +123,7 @@ public double kzp { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_AggregateData_kzpExp"></a> kzpExp
+### kzpExp
 
 ```csharp
 [DataMember]
@@ -133,4 +133,5 @@ public ExpressionData kzpExp { get; set; }
 #### Property Value
 
  [ExpressionData](OpenTD.ExpressionData.md)
+
 

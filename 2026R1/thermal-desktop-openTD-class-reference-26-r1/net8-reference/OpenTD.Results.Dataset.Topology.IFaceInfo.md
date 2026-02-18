@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_Topology_IFaceInfo"></a> Class IFaceInfo
+# Class IFaceInfo
 
 Namespace: [OpenTD.Results.Dataset.Topology](OpenTD.Results.Dataset.Topology.md)  
 Assembly: OpenTD.Results.dll  
@@ -9,18 +9,18 @@ Represents IFace information.
 public class IFaceInfo : ObjectInfoBase, IIFaceInfo, IObjectInfoBase
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ObjectInfoBase](OpenTD.Results.Dataset.Topology.ObjectInfoBase.md) ← 
 [IFaceInfo](OpenTD.Results.Dataset.Topology.IFaceInfo.md)
 
-#### Implements
+## Implements
 
 [IIFaceInfo](OpenTD.Results.Dataset.Topology.IIFaceInfo.md), 
 [IObjectInfoBase](OpenTD.Results.Dataset.Topology.IObjectInfoBase.md)
 
-#### Inherited Members
+## Inherited Members
 
 [ObjectInfoBase.SindaName](OpenTD.Results.Dataset.Topology.ObjectInfoBase.md\#OpenTD\_Results\_Dataset\_Topology\_ObjectInfoBase\_SindaName), 
 [ObjectInfoBase.ItemIdentifier](OpenTD.Results.Dataset.Topology.ObjectInfoBase.md\#OpenTD\_Results\_Dataset\_Topology\_ObjectInfoBase\_ItemIdentifier), 
@@ -34,7 +34,7 @@ public class IFaceInfo : ObjectInfoBase, IIFaceInfo, IObjectInfoBase
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_Topology_IFaceInfo_FromLump"></a> FromLump
+### FromLump
 
 ```csharp
 public ILumpInfo FromLump { get; }
@@ -44,7 +44,7 @@ public ILumpInfo FromLump { get; }
 
  [ILumpInfo](OpenTD.Results.Dataset.Topology.ILumpInfo.md)
 
-### <a id="OpenTD_Results_Dataset_Topology_IFaceInfo_IFaceType"></a> IFaceType
+### IFaceType
 
 ```csharp
 public IFaceType IFaceType { get; }
@@ -54,7 +54,7 @@ public IFaceType IFaceType { get; }
 
  [IFaceType](OpenTD.Results.Dataset.Topology.IFaceType.md)
 
-### <a id="OpenTD_Results_Dataset_Topology_IFaceInfo_ToLump"></a> ToLump
+### ToLump
 
 ```csharp
 public ILumpInfo ToLump { get; }
@@ -66,7 +66,7 @@ public ILumpInfo ToLump { get; }
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_Topology_IFaceInfo_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -83,4 +83,5 @@ A string that represents the current object.
 ## See Also
 
 [ObjectInfoBase](OpenTD.Results.Dataset.Topology.ObjectInfoBase.md)
+
 

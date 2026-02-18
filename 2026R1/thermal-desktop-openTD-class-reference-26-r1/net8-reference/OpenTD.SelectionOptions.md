@@ -1,4 +1,4 @@
-# <a id="OpenTD_SelectionOptions"></a> Class SelectionOptions
+# Class SelectionOptions
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ user to select entities from the TD graphics window.
 public class SelectionOptions
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [SelectionOptions](OpenTD.SelectionOptions.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -27,7 +27,7 @@ public class SelectionOptions
 
 ## Constructors
 
-### <a id="OpenTD_SelectionOptions__ctor"></a> SelectionOptions\(\)
+### SelectionOptions\(\)
 
 ```csharp
 public SelectionOptions()
@@ -35,7 +35,7 @@ public SelectionOptions()
 
 ## Properties
 
-### <a id="OpenTD_SelectionOptions_AllowedAcadTypes"></a> AllowedAcadTypes
+### AllowedAcadTypes
 
 Not currently used.
 
@@ -47,7 +47,7 @@ public List<string> AllowedAcadTypes { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_SelectionOptions_AllowedDomainTypes"></a> AllowedDomainTypes
+### AllowedDomainTypes
 
 If EnableDomains is true, only domain types in this list can be selected
 by the user in TD. If null or empty, any domain type is allowed.
@@ -60,7 +60,7 @@ public List<DomainType> AllowedDomainTypes { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[DomainType](OpenTD.DomainType.md)\>
 
-### <a id="OpenTD_SelectionOptions_EnableDomains"></a> EnableDomains
+### EnableDomains
 
 If true and domains exist in the model, GetSelection will allow the user
 to select domains by name in addition to or instead of picking entities
@@ -74,7 +74,7 @@ public bool EnableDomains { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_SelectionOptions_EnableFilterDialog"></a> EnableFilterDialog
+### EnableFilterDialog
 
 Displays the filter dialog if: 1. set true, 2. the user selects more than
 one entity, and 3. the global RC Filter is turned on. Use the TD
@@ -89,7 +89,7 @@ public bool EnableFilterDialog { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_SelectionOptions_EnableGroupSelection"></a> EnableGroupSelection
+### EnableGroupSelection
 
 If true and named AutoCAD groups exist in the model, GetSelection will
 allow the user to select groups by name in addition to or instead of
@@ -103,7 +103,7 @@ public bool EnableGroupSelection { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_SelectionOptions_EnableModelBrowserSelection"></a> EnableModelBrowserSelection
+### EnableModelBrowserSelection
 
 If true, allows the user to select entities from the Model Browser lists,
 in addition to or instead of picking entities graphically. Defaults to true.
@@ -116,7 +116,7 @@ public bool EnableModelBrowserSelection { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_SelectionOptions_ForceSingleOperation"></a> ForceSingleOperation
+### ForceSingleOperation
 
 Not currently used.
 
@@ -128,7 +128,7 @@ public bool ForceSingleOperation { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_SelectionOptions_Prompt"></a> Prompt
+### Prompt
 
 This will be printed to the TD commandline to prompt the user to select
 entities. If blank or null, TD will use a default prompt.
@@ -144,4 +144,5 @@ public string Prompt { get; set; }
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md).[GetSelection](OpenTD.ThermalDesktop.md\#OpenTD\_ThermalDesktop\_GetSelection\_OpenTD\_SelectionOptions\_)\([SelectionOptions](OpenTD.SelectionOptions.md)\)
+
 

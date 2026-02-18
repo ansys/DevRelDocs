@@ -1,4 +1,4 @@
-# <a id="OpenTD_Script"></a> Class Script
+# Class Script
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -11,12 +11,12 @@ by the official CRTech OpenTD Demos.
 public abstract class Script
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Script](OpenTD.Script.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -28,7 +28,7 @@ public abstract class Script
 
 ## Properties
 
-### <a id="OpenTD_Script_WorkingDirectory"></a> WorkingDirectory
+### WorkingDirectory
 
 One working directory for all of your scripts to use.
 
@@ -42,7 +42,7 @@ public static string WorkingDirectory { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Script_GetDescription"></a> GetDescription\(\)
+### GetDescription\(\)
 
 ```csharp
 public abstract string GetDescription()
@@ -52,7 +52,7 @@ public abstract string GetDescription()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Script_GetKeywords"></a> GetKeywords\(\)
+### GetKeywords\(\)
 
 ```csharp
 public abstract string GetKeywords()
@@ -62,7 +62,7 @@ public abstract string GetKeywords()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Script_GetName"></a> GetName\(\)
+### GetName\(\)
 
 ```csharp
 public abstract string GetName()
@@ -72,13 +72,13 @@ public abstract string GetName()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Script_Run"></a> Run\(\)
+### Run\(\)
 
 ```csharp
 public abstract void Run()
 ```
 
-### <a id="OpenTD_Script_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -91,4 +91,5 @@ public override string ToString()
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 A string that represents the current object.
+
 

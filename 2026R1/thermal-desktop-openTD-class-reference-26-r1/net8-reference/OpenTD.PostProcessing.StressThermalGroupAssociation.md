@@ -1,4 +1,4 @@
-# <a id="OpenTD_PostProcessing_StressThermalGroupAssociation"></a> Class StressThermalGroupAssociation
+# Class StressThermalGroupAssociation
 
 Namespace: [OpenTD.PostProcessing](OpenTD.PostProcessing.md)  
 Assembly: OpenTD.dll  
@@ -6,15 +6,16 @@ Assembly: OpenTD.dll
 Client-side representation of class to define data mapper group associations
 
 ```csharp
+[MessagePackObject(true)]
 public class StressThermalGroupAssociation
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [StressThermalGroupAssociation](OpenTD.PostProcessing.StressThermalGroupAssociation.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +27,7 @@ public class StressThermalGroupAssociation
 
 ## Constructors
 
-### <a id="OpenTD_PostProcessing_StressThermalGroupAssociation__ctor"></a> StressThermalGroupAssociation\(\)
+### StressThermalGroupAssociation\(\)
 
 ```csharp
 public StressThermalGroupAssociation()
@@ -34,7 +35,7 @@ public StressThermalGroupAssociation()
 
 ## Properties
 
-### <a id="OpenTD_PostProcessing_StressThermalGroupAssociation_StressElemIds"></a> StressElemIds
+### StressElemIds
 
 ```csharp
 public List<int> StressElemIds { get; set; }
@@ -44,7 +45,7 @@ public List<int> StressElemIds { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### <a id="OpenTD_PostProcessing_StressThermalGroupAssociation_StressGroupName"></a> StressGroupName
+### StressGroupName
 
 ```csharp
 public string StressGroupName { get; set; }
@@ -54,7 +55,7 @@ public string StressGroupName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_StressThermalGroupAssociation_StressNodeIds"></a> StressNodeIds
+### StressNodeIds
 
 ```csharp
 public List<int> StressNodeIds { get; set; }
@@ -64,7 +65,7 @@ public List<int> StressNodeIds { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### <a id="OpenTD_PostProcessing_StressThermalGroupAssociation_ThermalGroupName"></a> ThermalGroupName
+### ThermalGroupName
 
 ```csharp
 public string ThermalGroupName { get; set; }
@@ -74,7 +75,7 @@ public string ThermalGroupName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_StressThermalGroupAssociation_ThermalGroupNameGrad"></a> ThermalGroupNameGrad
+### ThermalGroupNameGrad
 
 ```csharp
 public string ThermalGroupNameGrad { get; set; }
@@ -83,4 +84,5 @@ public string ThermalGroupNameGrad { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

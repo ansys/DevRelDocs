@@ -1,4 +1,4 @@
-# <a id="OpenTD_MergeNodesOptionsData"></a> Class MergeNodesOptionsData
+# Class MergeNodesOptionsData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ Provides options for the ThermalDesktop.MergeNodes command.
 public class MergeNodesOptionsData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [MergeNodesOptionsData](OpenTD.MergeNodesOptionsData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,7 +27,7 @@ public class MergeNodesOptionsData
 
 ## Constructors
 
-### <a id="OpenTD_MergeNodesOptionsData__ctor"></a> MergeNodesOptionsData\(\)
+### MergeNodesOptionsData\(\)
 
 ```csharp
 public MergeNodesOptionsData()
@@ -35,7 +35,7 @@ public MergeNodesOptionsData()
 
 ## Properties
 
-### <a id="OpenTD_MergeNodesOptionsData_KeepMethod"></a> KeepMethod
+### KeepMethod
 
 ```csharp
 [DataMember]
@@ -46,7 +46,7 @@ public MergeNodesOptionsData.KeepMethods KeepMethod { get; set; }
 
  [MergeNodesOptionsData](OpenTD.MergeNodesOptionsData.md).[KeepMethods](OpenTD.MergeNodesOptionsData.KeepMethods.md)
 
-### <a id="OpenTD_MergeNodesOptionsData_NodeHandles"></a> NodeHandles
+### NodeHandles
 
 ```csharp
 [DataMember]
@@ -57,7 +57,7 @@ public List<string> NodeHandles { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_MergeNodesOptionsData_Tolerance"></a> Tolerance
+### Tolerance
 
 ```csharp
 [DataMember]
@@ -71,4 +71,5 @@ public Dimensional<ModelLength> Tolerance { get; set; }
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md).[MergeNodes](OpenTD.ThermalDesktop.md\#OpenTD\_ThermalDesktop\_MergeNodes\_OpenTD\_MergeNodesOptionsData\_)\([MergeNodesOptionsData](OpenTD.MergeNodesOptionsData.md)\)
+
 

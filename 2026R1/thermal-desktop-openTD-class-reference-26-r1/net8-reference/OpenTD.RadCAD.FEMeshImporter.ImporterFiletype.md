@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FEMeshImporter_ImporterFiletype"></a> Enum FEMeshImporter.ImporterFiletype
+# Enum FEMeshImporter.ImporterFiletype
 
 Namespace: [OpenTD.RadCAD](OpenTD.RadCAD.md)  
 Assembly: OpenTD.dll  
@@ -20,4 +20,5 @@ public enum FEMeshImporter.ImporterFiletype
 `POINTWISE = 4` 
 
 `TDDIRECT = 5` 
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_Notes"></a> Class Notes
+# Class Notes
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -9,18 +9,18 @@ Client-side representation of the dwg notes in a TD instance.
 public class Notes : RcNotesData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
 RcNotesData ← 
 [Notes](OpenTD.Notes.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [OpenTDObject.SetFrom\(OpenTDObject\)](OpenTD.OpenTDObject.md\#OpenTD\_OpenTDObject\_SetFrom\_OpenTD\_OpenTDObject\_), 
 [OpenTDObject.Update\(\)](OpenTD.OpenTDObject.md\#OpenTD\_OpenTDObject\_Update), 
@@ -38,7 +38,7 @@ RcNotesData ←
 
 ## Methods
 
-### <a id="OpenTD_Notes_Clear"></a> Clear\(\)
+### Clear\(\)
 
 Clear the client-side notes only. This does not affect the dwg notes in the TD instance.
 
@@ -46,7 +46,7 @@ Clear the client-side notes only. This does not affect the dwg notes in the TD i
 public void Clear()
 ```
 
-### <a id="OpenTD_Notes_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -58,7 +58,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_Notes_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -66,7 +66,7 @@ Updates the TD entity with the latest client data.
 public override void Update()
 ```
 
-### <a id="OpenTD_Notes_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -77,4 +77,5 @@ public override void UpdateFromTD()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

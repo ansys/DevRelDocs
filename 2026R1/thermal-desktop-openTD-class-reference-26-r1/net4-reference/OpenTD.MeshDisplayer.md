@@ -1,4 +1,4 @@
-# <a id="OpenTD_MeshDisplayer"></a> Class MeshDisplayer
+# Class MeshDisplayer
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -13,7 +13,7 @@ Implements the <xref href="OpenTD.TdDbEntityData" data-throw-if-not-resolved="fa
 public class MeshDisplayer : TdDbEntityData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -26,11 +26,11 @@ public class MeshDisplayer : TdDbEntityData, IUpdatable
 [DataMapper](OpenTD.PostProcessing.DataMapper.md), 
 [FEMeshImporter](OpenTD.RadCAD.FEMeshImporter.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [TdDbEntityData.SetFrom\(TdDbEntityData\)](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_SetFrom\_OpenTD\_TdDbEntityData\_), 
 [TdDbEntityData.Layer](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_Layer), 
@@ -62,7 +62,7 @@ public class MeshDisplayer : TdDbEntityData, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_MeshDisplayer__ctor"></a> MeshDisplayer\(\)
+### MeshDisplayer\(\)
 
 ```csharp
 public MeshDisplayer()
@@ -70,7 +70,7 @@ public MeshDisplayer()
 
 ## Properties
 
-### <a id="OpenTD_MeshDisplayer_BaseTrans"></a> BaseTrans
+### BaseTrans
 
 ```csharp
 [DataMember]
@@ -81,7 +81,7 @@ public Matrix3d BaseTrans { get; set; }
 
  [Matrix3d](OpenTD.Matrix3d.md)
 
-### <a id="OpenTD_MeshDisplayer_Label"></a> Label
+### Label
 
 ```csharp
 [DataMember]
@@ -92,7 +92,7 @@ public string Label { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_MeshDisplayer_LocalToWorldTransformation"></a> LocalToWorldTransformation
+### LocalToWorldTransformation
 
 ```csharp
 public Matrix3d LocalToWorldTransformation { get; }
@@ -102,7 +102,7 @@ public Matrix3d LocalToWorldTransformation { get; }
 
  [Matrix3d](OpenTD.Matrix3d.md)
 
-### <a id="OpenTD_MeshDisplayer_ModelViewDisplayMode"></a> ModelViewDisplayMode
+### ModelViewDisplayMode
 
 ```csharp
 [DataMember]
@@ -113,7 +113,7 @@ public MeshDisplayerGraphicsMode ModelViewDisplayMode { get; set; }
 
  [MeshDisplayerGraphicsMode](OpenTD.MeshDisplayerGraphicsMode.md)
 
-### <a id="OpenTD_MeshDisplayer_PostProcessingDisplayMode"></a> PostProcessingDisplayMode
+### PostProcessingDisplayMode
 
 ```csharp
 [DataMember]
@@ -124,7 +124,7 @@ public MeshDisplayerGraphicsMode PostProcessingDisplayMode { get; set; }
 
  [MeshDisplayerGraphicsMode](OpenTD.MeshDisplayerGraphicsMode.md)
 
-### <a id="OpenTD_MeshDisplayer_StressThermalGroupMap"></a> StressThermalGroupMap
+### StressThermalGroupMap
 
 Do not use.
 
@@ -139,7 +139,7 @@ public Dictionary<string, StressThermalGroupAssociation> StressThermalGroupMap {
 
 ## Methods
 
-### <a id="OpenTD_MeshDisplayer_GetThermalStressAssociations"></a> GetThermalStressAssociations\(\)
+### GetThermalStressAssociations\(\)
 
 Get list of post processing data mapper stress group to thermal group associations
 
@@ -151,7 +151,7 @@ public List<StressThermalGroupAssociation> GetThermalStressAssociations()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[StressThermalGroupAssociation](OpenTD.PostProcessing.StressThermalGroupAssociation.md)\>
 
-### <a id="OpenTD_MeshDisplayer_SetThermalStressAssociation_System_String_System_String_"></a> SetThermalStressAssociation\(string, string\)
+### SetThermalStressAssociation\(string, string\)
 
 Set post processing data mapper stress group to thermal group association
 
@@ -165,7 +165,7 @@ public void SetThermalStressAssociation(string stress, string thermal)
 
 `thermal` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_MeshDisplayer_SetThermalStressGradAssociation_System_String_System_String_"></a> SetThermalStressGradAssociation\(string, string\)
+### SetThermalStressGradAssociation\(string, string\)
 
 Set post processing data mapper stress group to thermal gradient group association
 
@@ -179,7 +179,7 @@ public void SetThermalStressGradAssociation(string stress, string thermal)
 
 `thermal` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_MeshDisplayer_TransformBy_OpenTD_Matrix3d_"></a> TransformBy\(Matrix3d\)
+### TransformBy\(Matrix3d\)
 
 ```csharp
 public void TransformBy(Matrix3d x)
@@ -193,4 +193,5 @@ public void TransformBy(Matrix3d x)
 
 [TdDbEntityData](OpenTD.TdDbEntityData.md), 
 [FEMeshImporter](OpenTD.RadCAD.FEMeshImporter.md)
+
 

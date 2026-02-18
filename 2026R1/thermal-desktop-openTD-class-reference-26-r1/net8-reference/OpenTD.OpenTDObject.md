@@ -1,4 +1,4 @@
-# <a id="OpenTD_OpenTDObject"></a> Class OpenTDObject
+# Class OpenTDObject
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,10 +6,17 @@ Assembly: OpenTD.dll
 Base class for client-side objects linked to entities in a TD instance.
 
 ```csharp
+[Union(0, typeof(CaseSetData))]
+[Union(1, typeof(DbObject))]
+[Union(2, typeof(Layer))]
+[Union(3, typeof(LogicObject))]
+[Union(4, typeof(MeasureMappingTolerances))]
+[Union(5, typeof(Notes))]
+[Union(6, typeof(UniqueNameObject))]
 public abstract class OpenTDObject : IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md)
@@ -21,11 +28,11 @@ public abstract class OpenTDObject : IUpdatable
 [MeasureMappingTolerances](OpenTD.MeasureMappingTolerances.md), 
 [UniqueNameObject](OpenTD.UniqueNameObject.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -37,7 +44,7 @@ public abstract class OpenTDObject : IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_OpenTDObject__ctor"></a> OpenTDObject\(\)
+### OpenTDObject\(\)
 
 ```csharp
 public OpenTDObject()
@@ -45,7 +52,7 @@ public OpenTDObject()
 
 ## Fields
 
-### <a id="OpenTD_OpenTDObject_TdProxy"></a> TdProxy
+### TdProxy
 
 ```csharp
 protected ITdCommander TdProxy
@@ -57,7 +64,7 @@ protected ITdCommander TdProxy
 
 ## Methods
 
-### <a id="OpenTD_OpenTDObject_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -69,7 +76,7 @@ public abstract void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_OpenTDObject_SetFrom_OpenTD_OpenTDObject_"></a> SetFrom\(OpenTDObject\)
+### SetFrom\(OpenTDObject\)
 
 ```csharp
 public void SetFrom(OpenTDObject x)
@@ -79,7 +86,7 @@ public void SetFrom(OpenTDObject x)
 
 `x` [OpenTDObject](OpenTD.OpenTDObject.md)
 
-### <a id="OpenTD_OpenTDObject_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -87,7 +94,7 @@ Updates the TD entity with the latest client data.
 public abstract void Update()
 ```
 
-### <a id="OpenTD_OpenTDObject_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -95,7 +102,7 @@ Updates the client-side instance with the latest data from the TD entity.
 public abstract void UpdateFromTD()
 ```
 
-### <a id="OpenTD_OpenTDObject_UpdateIn_OpenTD_ThermalDesktop_"></a> UpdateIn\(ThermalDesktop\)
+### UpdateIn\(ThermalDesktop\)
 
 Updates the TD entity corresponding to this object in the
 specified TD instance, if possible.
@@ -111,4 +118,5 @@ public void UpdateIn(ThermalDesktop td)
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

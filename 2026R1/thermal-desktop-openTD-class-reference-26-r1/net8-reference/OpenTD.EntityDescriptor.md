@@ -1,4 +1,4 @@
-# <a id="OpenTD_EntityDescriptor"></a> Struct EntityDescriptor
+# Struct EntityDescriptor
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,10 +6,11 @@ Assembly: OpenTD.dll
 Describes a TD entity, such as a node or a lump
 
 ```csharp
+[MessagePackObject(true)]
 public struct EntityDescriptor
 ```
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -20,7 +21,7 @@ public struct EntityDescriptor
 
 ## Constructors
 
-### <a id="OpenTD_EntityDescriptor__ctor_System_String_OpenTD_Connection_"></a> EntityDescriptor\(string, Connection\)
+### EntityDescriptor\(string, Connection\)
 
 ```csharp
 public EntityDescriptor(string rawType, Connection connection)
@@ -32,7 +33,7 @@ public EntityDescriptor(string rawType, Connection connection)
 
 `connection` [Connection](OpenTD.Connection.md)
 
-### <a id="OpenTD_EntityDescriptor__ctor_System_String_System_String_"></a> EntityDescriptor\(string, string\)
+### EntityDescriptor\(string, string\)
 
 ```csharp
 public EntityDescriptor(string rawType, string handle)
@@ -46,7 +47,7 @@ public EntityDescriptor(string rawType, string handle)
 
 ## Fields
 
-### <a id="OpenTD_EntityDescriptor_Connection"></a> Connection
+### Connection
 
 ```csharp
 public Connection Connection
@@ -56,7 +57,7 @@ public Connection Connection
 
  [Connection](OpenTD.Connection.md)
 
-### <a id="OpenTD_EntityDescriptor_RawType"></a> RawType
+### RawType
 
 This is how AutoCAD identifies the entity type. For example,
 "RcNode" or "RcLump"
@@ -71,7 +72,7 @@ public string RawType
 
 ## Methods
 
-### <a id="OpenTD_EntityDescriptor_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns the fully qualified type name of this instance.
 
@@ -84,4 +85,5 @@ public override string ToString()
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The fully qualified type name.
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_TdConnectConfig_Types"></a> Enum TdConnectConfig.Types
+# Enum TdConnectConfig.Types
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -26,4 +26,5 @@ public enum TdConnectConfig.Types
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md), 
 [ThermalDesktop](OpenTD.ThermalDesktop.md).[Connect](OpenTD.ThermalDesktop.md\#OpenTD\_ThermalDesktop\_Connect)\(\)
+
 

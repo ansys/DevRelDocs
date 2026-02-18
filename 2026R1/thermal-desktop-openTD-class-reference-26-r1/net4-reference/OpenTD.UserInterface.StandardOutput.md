@@ -1,4 +1,4 @@
-# <a id="OpenTD_UserInterface_StandardOutput"></a> Class StandardOutput
+# Class StandardOutput
 
 Namespace: [OpenTD.UserInterface](OpenTD.UserInterface.md)  
 Assembly: OpenTD.dll  
@@ -11,12 +11,12 @@ subscribing to the OnWrite event.
 public static class StandardOutput
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [StandardOutput](OpenTD.UserInterface.StandardOutput.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -28,7 +28,7 @@ public static class StandardOutput
 
 ## Methods
 
-### <a id="OpenTD_UserInterface_StandardOutput_HideDialog"></a> HideDialog\(\)
+### HideDialog\(\)
 
 Hides the default StandardOutput dialog.
 
@@ -36,7 +36,7 @@ Hides the default StandardOutput dialog.
 public static void HideDialog()
 ```
 
-### <a id="OpenTD_UserInterface_StandardOutput_ShowDialog"></a> ShowDialog\(\)
+### ShowDialog\(\)
 
 Shows the default StandardOutput dialog.
 
@@ -44,7 +44,7 @@ Shows the default StandardOutput dialog.
 public static void ShowDialog()
 ```
 
-### <a id="OpenTD_UserInterface_StandardOutput_Write_System_String_"></a> Write\(string\)
+### Write\(string\)
 
 Writes the specified message to StandardOutput.
 
@@ -58,7 +58,7 @@ public static void Write(string msg)
 
 The message.
 
-### <a id="OpenTD_UserInterface_StandardOutput_Write_System_String_System_Object___"></a> Write\(string, params object\[\]\)
+### Write\(string, params object\[\]\)
 
 Writes the specified format string to StandardOutput.
 
@@ -72,7 +72,7 @@ public static void Write(string format, params object[] args)
 
 `args` [object](https://learn.microsoft.com/dotnet/api/system.object)\[\]
 
-### <a id="OpenTD_UserInterface_StandardOutput_Write_System_Object_"></a> Write\(object\)
+### Write\(object\)
 
 Uses ToString() to write the specified object to StandardOutput.
 
@@ -84,7 +84,7 @@ public static void Write(object x)
 
 `x` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="OpenTD_UserInterface_StandardOutput_WriteLine_System_String_"></a> WriteLine\(string\)
+### WriteLine\(string\)
 
 Writes the specified message to StandardOutput, followed by newline.
 
@@ -98,7 +98,7 @@ public static void WriteLine(string msg)
 
 The message.
 
-### <a id="OpenTD_UserInterface_StandardOutput_WriteLine_System_String_System_Object___"></a> WriteLine\(string, params object\[\]\)
+### WriteLine\(string, params object\[\]\)
 
 Writes the specified format string to StandardOutput, followed by newline.
 
@@ -112,7 +112,7 @@ public static void WriteLine(string format, params object[] args)
 
 `args` [object](https://learn.microsoft.com/dotnet/api/system.object)\[\]
 
-### <a id="OpenTD_UserInterface_StandardOutput_WriteLine_System_Object_"></a> WriteLine\(object\)
+### WriteLine\(object\)
 
 Uses ToString() to write the specified object to StandardOutput, followed by newline.
 
@@ -126,7 +126,7 @@ public static void WriteLine(object x)
 
 The x.
 
-### <a id="OpenTD_UserInterface_StandardOutput_WriteLine"></a> WriteLine\(\)
+### WriteLine\(\)
 
 Writes newline to StandardOutput.
 
@@ -134,7 +134,7 @@ Writes newline to StandardOutput.
 public static void WriteLine()
 ```
 
-### <a id="OpenTD_UserInterface_StandardOutput_OnWrite"></a> OnWrite
+### OnWrite
 
 Subscribe to this event to route StandardOutput to a custom destination.
 
@@ -150,4 +150,5 @@ public static event EventHandler<WriteEventArgs> OnWrite
 
 [OutputDialog](OpenTD.UserInterface.Forms.OutputDialog.md), 
 [StandardOutput](OpenTD.UserInterface.StandardOutput.md).[OnWrite](OpenTD.UserInterface.StandardOutput.md\#OpenTD\_UserInterface\_StandardOutput\_OnWrite)
+
 

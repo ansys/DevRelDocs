@@ -1,22 +1,23 @@
-# <a id="OpenTD_Dimension_CondPerArea"></a> Class CondPerArea
+# Class CondPerArea
 
 Namespace: [OpenTD.Dimension](OpenTD.Dimension.md)  
 Assembly: OpenTD.dll  
 
 ```csharp
+[MessagePackObject(false)]
 public class CondPerArea : IDimension
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [CondPerArea](OpenTD.Dimension.CondPerArea.md)
 
-#### Implements
+## Implements
 
 [IDimension](OpenTD.Dimension.IDimension.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -28,7 +29,7 @@ public class CondPerArea : IDimension
 
 ## Methods
 
-### <a id="OpenTD_Dimension_CondPerArea_ConvertFromSI_System_Double_OpenTD_UnitsData_"></a> ConvertFromSI\(double, UnitsData\)
+### ConvertFromSI\(double, UnitsData\)
 
 Converts x from SI to input units.
 
@@ -46,7 +47,7 @@ public double ConvertFromSI(double x, UnitsData units)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Dimension_CondPerArea_ConvertToSI_OpenTD_UnitsData_System_Double_"></a> ConvertToSI\(UnitsData, double\)
+### ConvertToSI\(UnitsData, double\)
 
 Converts x from input units to SI.
 
@@ -64,7 +65,7 @@ public double ConvertToSI(UnitsData units, double x)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Dimension_CondPerArea_GetName"></a> GetName\(\)
+### GetName\(\)
 
 Gets the name of the dimension, e.g., "Density".
 
@@ -78,7 +79,7 @@ public string GetName()
 
 System.String.
 
-### <a id="OpenTD_Dimension_CondPerArea_GetTitle_OpenTD_UnitsData_"></a> GetTitle\(UnitsData\)
+### GetTitle\(UnitsData\)
 
 Gets the name of the dimension and the unit, e.g., "Density (kg/m3)".
 
@@ -98,7 +99,7 @@ The units.
 
 System.String.
 
-### <a id="OpenTD_Dimension_CondPerArea_GetUnitsName_OpenTD_UnitsData_"></a> GetUnitsName\(UnitsData\)
+### GetUnitsName\(UnitsData\)
 
 Gets the name of unit corresponding to this dimension, e.g. "kg/m3".
 
@@ -117,4 +118,5 @@ The units.
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 System.String.
+
 

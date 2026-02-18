@@ -1,4 +1,4 @@
-# <a id="OpenTD_FloCAD_PipeStdUtility"></a> Class PipeStdUtility
+# Class PipeStdUtility
 
 Namespace: [OpenTD.FloCAD](OpenTD.FloCAD.md)  
 Assembly: OpenTD.dll  
@@ -9,12 +9,12 @@ Accesses the list of standard pipes associated with an instance of TD.
 public class PipeStdUtility
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [PipeStdUtility](OpenTD.FloCAD.PipeStdUtility.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +26,7 @@ public class PipeStdUtility
 
 ## Constructors
 
-### <a id="OpenTD_FloCAD_PipeStdUtility__ctor_OpenTD_ThermalDesktop_"></a> PipeStdUtility\(ThermalDesktop\)
+### PipeStdUtility\(ThermalDesktop\)
 
 ```csharp
 public PipeStdUtility(ThermalDesktop td)
@@ -38,7 +38,7 @@ public PipeStdUtility(ThermalDesktop td)
 
 ## Methods
 
-### <a id="OpenTD_FloCAD_PipeStdUtility_GetPipeStdSignature_System_String_System_String_System_String_"></a> GetPipeStdSignature\(string, string, string\)
+### GetPipeStdSignature\(string, string, string\)
 
 ```csharp
 public PipeStdSignatureData GetPipeStdSignature(string nameSubstring, string scheduleSubstring, string nom_siSubstring)
@@ -56,7 +56,7 @@ public PipeStdSignatureData GetPipeStdSignature(string nameSubstring, string sch
 
  [PipeStdSignatureData](OpenTD.FloCAD.PipeStdSignatureData.md)
 
-### <a id="OpenTD_FloCAD_PipeStdUtility_GetPipeStdSignature_System_Predicate_OpenTD_FloCAD_PipeStdSignatureData__"></a> GetPipeStdSignature\(Predicate<PipeStdSignatureData\>\)
+### GetPipeStdSignature\(Predicate<PipeStdSignatureData\>\)
 
 ```csharp
 public PipeStdSignatureData GetPipeStdSignature(Predicate<PipeStdSignatureData> rule)
@@ -70,7 +70,7 @@ public PipeStdSignatureData GetPipeStdSignature(Predicate<PipeStdSignatureData> 
 
  [PipeStdSignatureData](OpenTD.FloCAD.PipeStdSignatureData.md)
 
-### <a id="OpenTD_FloCAD_PipeStdUtility_GetPipeStdSignatures"></a> GetPipeStdSignatures\(\)
+### GetPipeStdSignatures\(\)
 
 ```csharp
 public List<PipeStdSignatureData> GetPipeStdSignatures()
@@ -83,4 +83,5 @@ public List<PipeStdSignatureData> GetPipeStdSignatures()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_FloCAD_IFace"></a> Class IFace
+# Class IFace
 
 Namespace: [OpenTD.FloCAD](OpenTD.FloCAD.md)  
 Assembly: OpenTD.dll  
@@ -9,7 +9,7 @@ Client-side representation of an IFace entity in a TD instance.
 public class IFace : RcIFaceData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -18,11 +18,11 @@ public class IFace : RcIFaceData, IUpdatable
 RcIFaceData ← 
 [IFace](OpenTD.FloCAD.IFace.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [TdDbEntityData.SetFrom\(TdDbEntityData\)](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_SetFrom\_OpenTD\_TdDbEntityData\_), 
 [TdDbEntityData.Layer](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_Layer), 
@@ -54,7 +54,7 @@ RcIFaceData ←
 
 ## Methods
 
-### <a id="OpenTD_FloCAD_IFace_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -66,7 +66,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_FloCAD_IFace_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -77,4 +77,5 @@ public override void Update()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

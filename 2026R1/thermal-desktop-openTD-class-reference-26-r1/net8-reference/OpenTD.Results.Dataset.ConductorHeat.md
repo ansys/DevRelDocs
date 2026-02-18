@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_ConductorHeat"></a> Class ConductorHeat
+# Class ConductorHeat
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -9,12 +9,12 @@ Represents heatrate data for a conductor connection.
 public class ConductorHeat
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ConductorHeat](OpenTD.Results.Dataset.ConductorHeat.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +26,7 @@ public class ConductorHeat
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_ConductorHeat_ConductorInfo"></a> ConductorInfo
+### ConductorInfo
 
 ```csharp
 public IConductorInfo ConductorInfo { get; }
@@ -36,7 +36,7 @@ public IConductorInfo ConductorInfo { get; }
 
  [IConductorInfo](OpenTD.Results.Dataset.Topology.IConductorInfo.md)
 
-### <a id="OpenTD_Results_Dataset_ConductorHeat_G"></a> G
+### G
 
 ```csharp
 public Dimensional<Conductance> G { get; }
@@ -46,7 +46,7 @@ public Dimensional<Conductance> G { get; }
 
  Dimensional<Conductance\>
 
-### <a id="OpenTD_Results_Dataset_ConductorHeat_Heatrate"></a> Heatrate
+### Heatrate
 
 ```csharp
 public Dimensional<HeatRate> Heatrate { get; }
@@ -56,7 +56,7 @@ public Dimensional<HeatRate> Heatrate { get; }
 
  Dimensional<HeatRate\>
 
-### <a id="OpenTD_Results_Dataset_ConductorHeat_ToTemp"></a> ToTemp
+### ToTemp
 
 ```csharp
 public Dimensional<Temp> ToTemp { get; }
@@ -65,4 +65,5 @@ public Dimensional<Temp> ToTemp { get; }
 #### Property Value
 
  Dimensional<Temp\>
+
 

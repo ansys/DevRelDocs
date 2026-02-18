@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_RcEntityData_NodePositionsType"></a> Enum RcEntityData.NodePositionsType
+# Enum RcEntityData.NodePositionsType
 
 Namespace: [OpenTD.RadCAD](OpenTD.RadCAD.md)  
 Assembly: OpenTD.dll  
@@ -12,4 +12,5 @@ public enum RcEntityData.NodePositionsType
 `CENTERED = 0` 
 
 `EDGE = 1` 
+
 

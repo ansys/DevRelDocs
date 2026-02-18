@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_EllipticCone"></a> Class EllipticCone
+# Class EllipticCone
 
 Namespace: [OpenTD.RadCAD](OpenTD.RadCAD.md)  
 Assembly: OpenTD.dll  
@@ -10,7 +10,7 @@ Client-side representation of an EllipticCone entity in a TD instance.
 public class EllipticCone : RcEllipticConeData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -21,11 +21,11 @@ public class EllipticCone : RcEllipticConeData, IUpdatable
 RcEllipticConeData ← 
 [EllipticCone](OpenTD.RadCAD.EllipticCone.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [RcConicData.LocalTrans](OpenTD.RadCAD.RcConicData.md\#OpenTD\_RadCAD\_RcConicData\_LocalTrans), 
 [RcConicData.BaseTrans](OpenTD.RadCAD.RcConicData.md\#OpenTD\_RadCAD\_RcConicData\_BaseTrans), 
@@ -160,7 +160,7 @@ RcEllipticConeData ←
 
 ## Methods
 
-### <a id="OpenTD_RadCAD_EllipticCone_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -172,7 +172,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_RadCAD_EllipticCone_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -180,7 +180,7 @@ Updates the TD entity with the latest client data.
 public override void Update()
 ```
 
-### <a id="OpenTD_RadCAD_EllipticCone_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -191,4 +191,5 @@ public override void UpdateFromTD()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

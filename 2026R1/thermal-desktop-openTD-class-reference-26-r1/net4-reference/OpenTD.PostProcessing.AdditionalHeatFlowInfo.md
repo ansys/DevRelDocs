@@ -1,4 +1,4 @@
-# <a id="OpenTD_PostProcessing_AdditionalHeatFlowInfo"></a> Class AdditionalHeatFlowInfo
+# Class AdditionalHeatFlowInfo
 
 Namespace: [OpenTD.PostProcessing](OpenTD.PostProcessing.md)  
 Assembly: OpenTD.dll  
@@ -11,13 +11,13 @@ Implements the <xref href="OpenTD.PostProcessing.AdditionalDatasetInfo" data-thr
 public class AdditionalHeatFlowInfo : AdditionalDatasetInfo
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AdditionalDatasetInfo](OpenTD.PostProcessing.AdditionalDatasetInfo.md) ← 
 [AdditionalHeatFlowInfo](OpenTD.PostProcessing.AdditionalHeatFlowInfo.md)
 
-#### Inherited Members
+## Inherited Members
 
 [AdditionalDatasetInfo.Pathname](OpenTD.PostProcessing.AdditionalDatasetInfo.md\#OpenTD\_PostProcessing\_AdditionalDatasetInfo\_Pathname), 
 [AdditionalDatasetInfo.\_pathname](OpenTD.PostProcessing.AdditionalDatasetInfo.md\#OpenTD\_PostProcessing\_AdditionalDatasetInfo\_\_pathname), 
@@ -31,7 +31,7 @@ public class AdditionalHeatFlowInfo : AdditionalDatasetInfo
 
 ## Constructors
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowInfo__ctor"></a> AdditionalHeatFlowInfo\(\)
+### AdditionalHeatFlowInfo\(\)
 
 ```csharp
 public AdditionalHeatFlowInfo()
@@ -39,7 +39,7 @@ public AdditionalHeatFlowInfo()
 
 ## Properties
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowInfo_DivideByArea"></a> DivideByArea
+### DivideByArea
 
 ```csharp
 [DataMember]
@@ -50,7 +50,7 @@ public int DivideByArea { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowInfo_DivideByAreaFile"></a> DivideByAreaFile
+### DivideByAreaFile
 
 ```csharp
 [DataMember]
@@ -61,7 +61,7 @@ public string DivideByAreaFile { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowInfo_From"></a> From
+### From
 
 ```csharp
 [DataMember]
@@ -72,7 +72,7 @@ public List<string> From { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowInfo_Linear"></a> Linear
+### Linear
 
 ```csharp
 [DataMember]
@@ -83,7 +83,7 @@ public int Linear { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowInfo_Radiation"></a> Radiation
+### Radiation
 
 ```csharp
 [DataMember]
@@ -94,7 +94,7 @@ public int Radiation { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowInfo_ReverseSignFrom"></a> ReverseSignFrom
+### ReverseSignFrom
 
 ```csharp
 [DataMember]
@@ -105,7 +105,7 @@ public int ReverseSignFrom { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowInfo_ReverseSignTo"></a> ReverseSignTo
+### ReverseSignTo
 
 ```csharp
 [DataMember]
@@ -116,7 +116,7 @@ public int ReverseSignTo { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowInfo_ShowFrom"></a> ShowFrom
+### ShowFrom
 
 ```csharp
 [DataMember]
@@ -127,7 +127,7 @@ public int ShowFrom { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowInfo_ShowTo"></a> ShowTo
+### ShowTo
 
 ```csharp
 [DataMember]
@@ -138,7 +138,7 @@ public int ShowTo { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowInfo_Ties"></a> Ties
+### Ties
 
 ```csharp
 [DataMember]
@@ -149,7 +149,7 @@ public int Ties { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowInfo_To"></a> To
+### To
 
 ```csharp
 [DataMember]
@@ -164,4 +164,5 @@ public List<string> To { get; set; }
 
 [AdditionalDatasetInfo](OpenTD.PostProcessing.AdditionalDatasetInfo.md), 
 [Dataset](OpenTD.PostProcessing.Dataset.md)
+
 

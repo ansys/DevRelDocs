@@ -1,4 +1,4 @@
-# <a id="OpenTD_DynamicSindaStatus"></a> Class DynamicSindaStatus
+# Class DynamicSindaStatus
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,13 +10,13 @@ Sinda Status dialog during a run.
 public class DynamicSindaStatus : TdConnected
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 TdConnected ← 
 [DynamicSindaStatus](OpenTD.DynamicSindaStatus.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -28,7 +28,7 @@ TdConnected ←
 
 ## Constructors
 
-### <a id="OpenTD_DynamicSindaStatus__ctor_OpenTD_ThermalDesktop_"></a> DynamicSindaStatus\(ThermalDesktop\)
+### DynamicSindaStatus\(ThermalDesktop\)
 
 ```csharp
 public DynamicSindaStatus(ThermalDesktop _td)
@@ -40,7 +40,7 @@ public DynamicSindaStatus(ThermalDesktop _td)
 
 ## Methods
 
-### <a id="OpenTD_DynamicSindaStatus_GetMessages"></a> GetMessages\(\)
+### GetMessages\(\)
 
 Get the messages currently shown in the Dynamic Sinda Status dialog.
 
@@ -51,4 +51,5 @@ public List<string> GetMessages()
 #### Returns
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+
 

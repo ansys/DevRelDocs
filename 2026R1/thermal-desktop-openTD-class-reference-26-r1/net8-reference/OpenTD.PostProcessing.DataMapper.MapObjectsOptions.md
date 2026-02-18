@@ -1,4 +1,4 @@
-# <a id="OpenTD_PostProcessing_DataMapper_MapObjectsOptions"></a> Enum DataMapper.MapObjectsOptions
+# Enum DataMapper.MapObjectsOptions
 
 Namespace: [OpenTD.PostProcessing](OpenTD.PostProcessing.md)  
 Assembly: OpenTD.dll  
@@ -14,4 +14,5 @@ public enum DataMapper.MapObjectsOptions
 `ALL = 0` 
 
 `GROUP_ASSOCIATION = 2` 
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_UnitsData_Angle"></a> Enum UnitsData.Angle
+# Enum UnitsData.Angle
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -14,4 +14,5 @@ public enum UnitsData.Angle
 `DEGREES = 0` 
 
 `RADIANS = 1` 
+
 

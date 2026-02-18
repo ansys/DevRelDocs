@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_SelectMinDataArray"></a> Class SelectMinDataArray
+# Class SelectMinDataArray
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -10,7 +10,7 @@ value and returns data from it only.
 public class SelectMinDataArray : SelectOneDataArray, IEnumerable<double>, IEnumerable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [DataArray](OpenTD.Results.Dataset.DataArray.md) ← 
@@ -18,12 +18,12 @@ public class SelectMinDataArray : SelectOneDataArray, IEnumerable<double>, IEnum
 [SelectOneDataArray](OpenTD.Results.Dataset.SelectOneDataArray.md) ← 
 [SelectMinDataArray](OpenTD.Results.Dataset.SelectMinDataArray.md)
 
-#### Implements
+## Implements
 
 [IEnumerable<double\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1), 
 [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
 
-#### Inherited Members
+## Inherited Members
 
 [SelectOneDataArray.GetValues\(UnitsData\)](OpenTD.Results.Dataset.SelectOneDataArray.md\#OpenTD\_Results\_Dataset\_SelectOneDataArray\_GetValues\_OpenTD\_UnitsData\_), 
 [SelectOneDataArray.SourceDataset](OpenTD.Results.Dataset.SelectOneDataArray.md\#OpenTD\_Results\_Dataset\_SelectOneDataArray\_SourceDataset), 
@@ -75,7 +75,7 @@ public class SelectMinDataArray : SelectOneDataArray, IEnumerable<double>, IEnum
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_SelectMinDataArray__ctor_OpenTD_Results_Dataset_DataArrayCollection_"></a> SelectMinDataArray\(DataArrayCollection\)
+### SelectMinDataArray\(DataArrayCollection\)
 
 ```csharp
 public SelectMinDataArray(DataArrayCollection inputCollection)
@@ -85,7 +85,7 @@ public SelectMinDataArray(DataArrayCollection inputCollection)
 
 `inputCollection` [DataArrayCollection](OpenTD.Results.Dataset.DataArrayCollection.md)
 
-### <a id="OpenTD_Results_Dataset_SelectMinDataArray__ctor"></a> SelectMinDataArray\(\)
+### SelectMinDataArray\(\)
 
 ```csharp
 public SelectMinDataArray()
@@ -93,7 +93,7 @@ public SelectMinDataArray()
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_SelectMinDataArray_SetDerivedData"></a> SetDerivedData\(\)
+### SetDerivedData\(\)
 
 For setting ValuesSI, any other derived data
 
@@ -104,4 +104,5 @@ protected override void SetDerivedData()
 ## See Also
 
 [SelectOneDataArray](OpenTD.Results.Dataset.SelectOneDataArray.md)
+
 

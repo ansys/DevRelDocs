@@ -1,4 +1,4 @@
-# <a id="OpenTD_AutocadLauncher"></a> Class AutocadLauncher
+# Class AutocadLauncher
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -11,12 +11,12 @@ controlled via the LaunchConfig property.
 public class AutocadLauncher
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AutocadLauncher](OpenTD.AutocadLauncher.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -28,7 +28,7 @@ public class AutocadLauncher
 
 ## Constructors
 
-### <a id="OpenTD_AutocadLauncher__ctor_OpenTD_AutocadConfig_"></a> AutocadLauncher\(AutocadConfig\)
+### AutocadLauncher\(AutocadConfig\)
 
 ```csharp
 public AutocadLauncher(AutocadConfig config)
@@ -40,7 +40,7 @@ public AutocadLauncher(AutocadConfig config)
 
 ## Properties
 
-### <a id="OpenTD_AutocadLauncher_Command"></a> Command
+### Command
 
 A command string to execute once AutoCAD launches.
 
@@ -52,7 +52,7 @@ public string Command { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_AutocadLauncher_LaunchConfig"></a> LaunchConfig
+### LaunchConfig
 
 Controls how AutoCAD will be launched.
 
@@ -66,7 +66,7 @@ public AutocadConfig LaunchConfig { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_AutocadLauncher_Launch"></a> Launch\(\)
+### Launch\(\)
 
 Tries to start an instance of AutoCAD, based on the settings within LaunchConfig,
 and run the command string within Command.
@@ -79,7 +79,7 @@ public Process Launch()
 
  [Process](https://learn.microsoft.com/dotnet/api/system.diagnostics.process)
 
-### <a id="OpenTD_AutocadLauncher_acadLocation"></a> acadLocation\(\)
+### acadLocation\(\)
 
 ```csharp
 protected string acadLocation()
@@ -88,4 +88,5 @@ protected string acadLocation()
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

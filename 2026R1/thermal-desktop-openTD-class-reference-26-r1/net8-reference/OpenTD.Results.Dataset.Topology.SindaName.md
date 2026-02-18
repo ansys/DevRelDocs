@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_Topology_SindaName"></a> Class SindaName
+# Class SindaName
 
 Namespace: [OpenTD.Results.Dataset.Topology](OpenTD.Results.Dataset.Topology.md)  
 Assembly: OpenTD.Results.dll  
@@ -10,16 +10,16 @@ within their respective type.
 public class SindaName : IEquatable<SindaName>
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [SindaName](OpenTD.Results.Dataset.Topology.SindaName.md)
 
-#### Implements
+## Implements
 
 [IEquatable<SindaName\>](https://learn.microsoft.com/dotnet/api/system.iequatable\-1)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -31,7 +31,7 @@ public class SindaName : IEquatable<SindaName>
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_Topology_SindaName__ctor_System_String_System_Int64_"></a> SindaName\(string, long\)
+### SindaName\(string, long\)
 
 Initializes a new instance of the <xref href="OpenTD.Results.Dataset.Topology.SindaName" data-throw-if-not-resolved="false"></xref> class for a 
 given submodel and id.
@@ -52,7 +52,7 @@ The identifier.
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_Topology_SindaName_Id"></a> Id
+### Id
 
 ```csharp
 public long Id { get; }
@@ -62,7 +62,7 @@ public long Id { get; }
 
  [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
-### <a id="OpenTD_Results_Dataset_Topology_SindaName_Key"></a> Key
+### Key
 
 ```csharp
 public string Key { get; }
@@ -72,7 +72,7 @@ public string Key { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_Topology_SindaName_Submodel"></a> Submodel
+### Submodel
 
 ```csharp
 public string Submodel { get; }
@@ -84,7 +84,7 @@ public string Submodel { get; }
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_Topology_SindaName_Equals_OpenTD_Results_Dataset_Topology_SindaName_"></a> Equals\(SindaName\)
+### Equals\(SindaName\)
 
 Indicates whether the current object is equal to another object of the same type.
 
@@ -102,9 +102,9 @@ An object to compare with this object.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+[true](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool) if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, [false](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool).
 
-### <a id="OpenTD_Results_Dataset_Topology_SindaName_Equals_System_Object_"></a> Equals\(object\)
+### Equals\(object\)
 
 Determines whether the specified object is equal to the current object.
 
@@ -122,9 +122,9 @@ The object to compare with the current object.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+[true](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool) if the specified object  is equal to the current object; otherwise, [false](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool).
 
-### <a id="OpenTD_Results_Dataset_Topology_SindaName_GetHashCode"></a> GetHashCode\(\)
+### GetHashCode\(\)
 
 Serves as the default hash function.
 
@@ -138,7 +138,7 @@ public override int GetHashCode()
 
 A hash code for the current object.
 
-### <a id="OpenTD_Results_Dataset_Topology_SindaName_Parse_System_String_"></a> Parse\(string\)
+### Parse\(string\)
 
 Parses the specified SindaName key.
 
@@ -177,7 +177,7 @@ Id portion is not parseable as an Int64.
 Id portion is less than MinValue 
     or greater than MaxValue for Int64 type.
 
-### <a id="OpenTD_Results_Dataset_Topology_SindaName_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Converts to string.
 
@@ -191,7 +191,7 @@ public override string ToString()
 
 A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents this instance in 'Submodel.Id' form.
 
-### <a id="OpenTD_Results_Dataset_Topology_SindaName_TryParse_System_String_OpenTD_Results_Dataset_Topology_SindaName__"></a> TryParse\(string, out SindaName\)
+### TryParse\(string, out SindaName\)
 
 Attempts to parse the specified sinda name key.
 
@@ -220,4 +220,5 @@ True if the parse was successful and false otherwise.
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 sindaNameKey is null.
+
 

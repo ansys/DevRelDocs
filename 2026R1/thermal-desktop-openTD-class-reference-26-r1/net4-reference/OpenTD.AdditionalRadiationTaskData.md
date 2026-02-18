@@ -1,4 +1,4 @@
-# <a id="OpenTD_AdditionalRadiationTaskData"></a> Class AdditionalRadiationTaskData
+# Class AdditionalRadiationTaskData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ Represents one Radiation Analysis Data Control item
 public class AdditionalRadiationTaskData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AdditionalRadiationTaskData](OpenTD.AdditionalRadiationTaskData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,7 +27,7 @@ public class AdditionalRadiationTaskData
 
 ## Constructors
 
-### <a id="OpenTD_AdditionalRadiationTaskData__ctor"></a> AdditionalRadiationTaskData\(\)
+### AdditionalRadiationTaskData\(\)
 
 ```csharp
 public AdditionalRadiationTaskData()
@@ -35,7 +35,7 @@ public AdditionalRadiationTaskData()
 
 ## Properties
 
-### <a id="OpenTD_AdditionalRadiationTaskData_CalcAlbedo"></a> CalcAlbedo
+### CalcAlbedo
 
 ```csharp
 [DataMember]
@@ -46,7 +46,7 @@ public int CalcAlbedo { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_CalcDiffuseSkyAlbedo"></a> CalcDiffuseSkyAlbedo
+### CalcDiffuseSkyAlbedo
 
 ```csharp
 [DataMember]
@@ -57,7 +57,7 @@ public int CalcDiffuseSkyAlbedo { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_CalcDiffuseSkyIR"></a> CalcDiffuseSkyIR
+### CalcDiffuseSkyIR
 
 ```csharp
 [DataMember]
@@ -68,7 +68,7 @@ public int CalcDiffuseSkyIR { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_CalcDiffuseSkySolar"></a> CalcDiffuseSkySolar
+### CalcDiffuseSkySolar
 
 ```csharp
 [DataMember]
@@ -79,7 +79,7 @@ public int CalcDiffuseSkySolar { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_CalcNodes"></a> CalcNodes
+### CalcNodes
 
 ```csharp
 [DataMember]
@@ -90,7 +90,7 @@ public List<string> CalcNodes { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_AdditionalRadiationTaskData_CalcNodesType"></a> CalcNodesType
+### CalcNodesType
 
 ```csharp
 [DataMember]
@@ -101,7 +101,7 @@ public int CalcNodesType { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_CalcPlanet"></a> CalcPlanet
+### CalcPlanet
 
 ```csharp
 [DataMember]
@@ -112,7 +112,7 @@ public int CalcPlanet { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_CalcPos"></a> CalcPos
+### CalcPos
 
 ```csharp
 [DataMember]
@@ -123,7 +123,7 @@ public List<int> CalcPos { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### <a id="OpenTD_AdditionalRadiationTaskData_CalcPosType"></a> CalcPosType
+### CalcPosType
 
 ```csharp
 [DataMember]
@@ -134,7 +134,7 @@ public int CalcPosType { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_CalcSolar"></a> CalcSolar
+### CalcSolar
 
 ```csharp
 [DataMember]
@@ -145,7 +145,7 @@ public int CalcSolar { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_DhError"></a> DhError
+### DhError
 
 ```csharp
 [DataMember]
@@ -156,7 +156,7 @@ public double DhError { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_DhErrorExp"></a> DhErrorExp
+### DhErrorExp
 
 ```csharp
 [DataMember]
@@ -167,7 +167,7 @@ public ExpressionData DhErrorExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_DhRaysError"></a> DhRaysError
+### DhRaysError
 
 ```csharp
 [DataMember]
@@ -178,7 +178,7 @@ public ulong DhRaysError { get; set; }
 
  [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_DhRaysErrorExp"></a> DhRaysErrorExp
+### DhRaysErrorExp
 
 ```csharp
 [DataMember]
@@ -189,7 +189,7 @@ public ExpressionData DhRaysErrorExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_EnergyCutoffFraction"></a> EnergyCutoffFraction
+### EnergyCutoffFraction
 
 ```csharp
 [DataMember]
@@ -200,7 +200,7 @@ public double EnergyCutoffFraction { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_EnergyCutoffFractionExp"></a> EnergyCutoffFractionExp
+### EnergyCutoffFractionExp
 
 ```csharp
 [DataMember]
@@ -211,7 +211,7 @@ public ExpressionData EnergyCutoffFractionExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_RaysPerNode"></a> RaysPerNode
+### RaysPerNode
 
 ```csharp
 [DataMember]
@@ -222,7 +222,7 @@ public ulong RaysPerNode { get; set; }
 
  [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_RaysPerNodeExp"></a> RaysPerNodeExp
+### RaysPerNodeExp
 
 ```csharp
 [DataMember]
@@ -232,4 +232,5 @@ public ExpressionData RaysPerNodeExp { get; set; }
 #### Property Value
 
  [ExpressionData](OpenTD.ExpressionData.md)
+
 

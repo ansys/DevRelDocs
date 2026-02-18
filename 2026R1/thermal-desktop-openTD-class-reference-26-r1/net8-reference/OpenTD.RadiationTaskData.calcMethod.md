@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadiationTaskData_calcMethod"></a> Enum RadiationTaskData.calcMethod
+# Enum RadiationTaskData.calcMethod
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -14,4 +14,5 @@ public enum RadiationTaskData.calcMethod
 `MC = 0` 
 
 `PR = 1` 
+
 

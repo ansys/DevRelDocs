@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD"></a> Namespace OpenTD.RadCAD
+# Namespace OpenTD.RadCAD
 
 ### Namespaces
 
@@ -173,4 +173,5 @@ Client-side representation of an Tracker/Articulator entity in a TD instance.
  [OrbitParameters.ShapeTypes](OpenTD.RadCAD.OrbitParameters.ShapeTypes.md)
 
  [RcEntityData.VolumetricParticipation](OpenTD.RadCAD.RcEntityData.VolumetricParticipation.md)
+
 

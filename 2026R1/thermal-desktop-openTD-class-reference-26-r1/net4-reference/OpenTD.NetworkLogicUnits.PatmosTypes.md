@@ -1,4 +1,4 @@
-# <a id="OpenTD_NetworkLogicUnits_PatmosTypes"></a> Enum NetworkLogicUnits.PatmosTypes
+# Enum NetworkLogicUnits.PatmosTypes
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -16,4 +16,5 @@ public enum NetworkLogicUnits.PatmosTypes
 `MUST_BE_ZERO = 1` 
 
 `NOT_SET = 0` 
+
 

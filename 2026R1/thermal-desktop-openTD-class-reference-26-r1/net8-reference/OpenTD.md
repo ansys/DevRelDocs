@@ -1,4 +1,4 @@
-# <a id="OpenTD"></a> Namespace OpenTD
+# Namespace OpenTD
 
 ### Namespaces
 
@@ -178,6 +178,8 @@ Client-side representation of an AutoCAD Line entity in a TD instance.
  [ListSI](OpenTD.ListSI.md)
 
 A list of doubles named to explicitly state SI units.
+
+ [ListSIFormatter](OpenTD.ListSIFormatter.md)
 
  [LogicObject](OpenTD.LogicObject.md)
 
@@ -614,17 +616,17 @@ Temperature units
 
 Time units
 
+ [AutocadVariableData.Types](OpenTD.AutocadVariableData.Types.md)
+
+What kind of data is stored in this AutoCAD variable?
+Examples: integer, string, etc.
+
  [TdConnectConfig.Types](OpenTD.TdConnectConfig.Types.md)
 
 Determines whether ThermalDesktop will start a new instance of TD,
 attach to an existing instance, or automatically try to attach but
 revert to starting a new instance if attaching fails. There's also
 an INPROCESS option that is only used internally by TD.
-
- [AutocadVariableData.Types](OpenTD.AutocadVariableData.Types.md)
-
-What kind of data is stored in this AutoCAD variable?
-Examples: integer, string, etc.
 
  [UDFA.UdfaInitType](OpenTD.UDFA.UdfaInitType.md)
 
@@ -642,13 +644,13 @@ How to handle units in a NetworkLogicData object
 
 Physical dimensions.
 
- [RegisterData.ValueType](OpenTD.RegisterData.ValueType.md)
-
-Specifies what register value will be sent to Sinda.
-
  [UDFA.ValueType](OpenTD.UDFA.ValueType.md)
 
 UDFA values type: real, integer, etc.
+
+ [RegisterData.ValueType](OpenTD.RegisterData.ValueType.md)
+
+Specifies what register value will be sent to Sinda.
 
  [VisualStyles](OpenTD.VisualStyles.md)
 
@@ -669,4 +671,5 @@ Calculation Method (Monte Carlo or Progressive Radiosity).
  [RadiationTaskData.calcType](OpenTD.RadiationTaskData.calcType.md)
 
 The type of radiation task.
+
 

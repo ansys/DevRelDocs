@@ -1,4 +1,4 @@
-# <a id="OpenTD_IUpdatable"></a> Interface IUpdatable
+# Interface IUpdatable
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -12,7 +12,7 @@ public interface IUpdatable
 
 ## Methods
 
-### <a id="OpenTD_IUpdatable_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -20,7 +20,7 @@ Updates the TD entity with the latest client data.
 void Update()
 ```
 
-### <a id="OpenTD_IUpdatable_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -31,4 +31,5 @@ void UpdateFromTD()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_FloCAD_Bay"></a> Class Bay
+# Class Bay
 
 Namespace: [OpenTD.FloCAD](OpenTD.FloCAD.md)  
 Assembly: OpenTD.dll  
@@ -6,15 +6,16 @@ Assembly: OpenTD.dll
 Client-side representation of a Compartment Bay entity in a TD instance.
 
 ```csharp
+[MessagePackObject(true)]
 public class Bay
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Bay](OpenTD.FloCAD.Bay.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +27,7 @@ public class Bay
 
 ## Constructors
 
-### <a id="OpenTD_FloCAD_Bay__ctor"></a> Bay\(\)
+### Bay\(\)
 
 ```csharp
 public Bay()
@@ -34,7 +35,7 @@ public Bay()
 
 ## Properties
 
-### <a id="OpenTD_FloCAD_Bay_AstMult"></a> AstMult
+### AstMult
 
 ```csharp
 public double AstMult { get; set; }
@@ -44,7 +45,7 @@ public double AstMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_FloCAD_Bay_AstMultExp"></a> AstMultExp
+### AstMultExp
 
 ```csharp
 public ExpressionData AstMultExp { get; set; }
@@ -54,7 +55,7 @@ public ExpressionData AstMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_FloCAD_Bay_CoolMult"></a> CoolMult
+### CoolMult
 
 ```csharp
 public double CoolMult { get; set; }
@@ -64,7 +65,7 @@ public double CoolMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_FloCAD_Bay_CoolMultExp"></a> CoolMultExp
+### CoolMultExp
 
 ```csharp
 public ExpressionData CoolMultExp { get; set; }
@@ -74,9 +75,10 @@ public ExpressionData CoolMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_FloCAD_Bay_ERNConductorHandle"></a> ERNConductorHandle
+### ERNConductorHandle
 
 ```csharp
+[IgnoreMember]
 public string ERNConductorHandle { get; }
 ```
 
@@ -84,9 +86,10 @@ public string ERNConductorHandle { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FloCAD_Bay_ERNHandle"></a> ERNHandle
+### ERNHandle
 
 ```csharp
+[IgnoreMember]
 public string ERNHandle { get; }
 ```
 
@@ -94,9 +97,10 @@ public string ERNHandle { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FloCAD_Bay_ERNTieHandle"></a> ERNTieHandle
+### ERNTieHandle
 
 ```csharp
+[IgnoreMember]
 public string ERNTieHandle { get; }
 ```
 
@@ -104,7 +108,7 @@ public string ERNTieHandle { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FloCAD_Bay_HeatMult"></a> HeatMult
+### HeatMult
 
 ```csharp
 public double HeatMult { get; set; }
@@ -114,7 +118,7 @@ public double HeatMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_FloCAD_Bay_HeatMultExp"></a> HeatMultExp
+### HeatMultExp
 
 ```csharp
 public ExpressionData HeatMultExp { get; set; }
@@ -124,7 +128,7 @@ public ExpressionData HeatMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_FloCAD_Bay_LiqAugMult"></a> LiqAugMult
+### LiqAugMult
 
 ```csharp
 public double LiqAugMult { get; set; }
@@ -134,7 +138,7 @@ public double LiqAugMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_FloCAD_Bay_LiqAugMultExp"></a> LiqAugMultExp
+### LiqAugMultExp
 
 ```csharp
 public ExpressionData LiqAugMultExp { get; set; }
@@ -144,7 +148,7 @@ public ExpressionData LiqAugMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_FloCAD_Bay_LiqDegMult"></a> LiqDegMult
+### LiqDegMult
 
 ```csharp
 public double LiqDegMult { get; set; }
@@ -154,7 +158,7 @@ public double LiqDegMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_FloCAD_Bay_LiqDegMultExp"></a> LiqDegMultExp
+### LiqDegMultExp
 
 ```csharp
 public ExpressionData LiqDegMultExp { get; set; }
@@ -164,7 +168,7 @@ public ExpressionData LiqDegMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_FloCAD_Bay_OverallMult"></a> OverallMult
+### OverallMult
 
 ```csharp
 public double OverallMult { get; set; }
@@ -174,7 +178,7 @@ public double OverallMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_FloCAD_Bay_OverallMultExp"></a> OverallMultExp
+### OverallMultExp
 
 ```csharp
 public ExpressionData OverallMultExp { get; set; }
@@ -184,7 +188,7 @@ public ExpressionData OverallMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_FloCAD_Bay_PackingFactor"></a> PackingFactor
+### PackingFactor
 
 ```csharp
 public double PackingFactor { get; set; }
@@ -194,7 +198,7 @@ public double PackingFactor { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_FloCAD_Bay_PackingFactorExp"></a> PackingFactorExp
+### PackingFactorExp
 
 ```csharp
 public ExpressionData PackingFactorExp { get; set; }
@@ -204,7 +208,7 @@ public ExpressionData PackingFactorExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_FloCAD_Bay_RegisterDesignator"></a> RegisterDesignator
+### RegisterDesignator
 
 ```csharp
 public string RegisterDesignator { get; set; }
@@ -214,7 +218,7 @@ public string RegisterDesignator { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FloCAD_Bay_SplashHeight"></a> SplashHeight
+### SplashHeight
 
 ```csharp
 public double SplashHeight { get; set; }
@@ -224,7 +228,7 @@ public double SplashHeight { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_FloCAD_Bay_SplashHeightExp"></a> SplashHeightExp
+### SplashHeightExp
 
 ```csharp
 public ExpressionData SplashHeightExp { get; set; }
@@ -234,7 +238,7 @@ public ExpressionData SplashHeightExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_FloCAD_Bay_SubtractedVolumes"></a> SubtractedVolumes
+### SubtractedVolumes
 
 ```csharp
 public List<Connection> SubtractedVolumes { get; set; }
@@ -244,7 +248,7 @@ public List<Connection> SubtractedVolumes { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Connection](OpenTD.Connection.md)\>
 
-### <a id="OpenTD_FloCAD_Bay_Surfaces"></a> Surfaces
+### Surfaces
 
 ```csharp
 public List<Connection> Surfaces { get; set; }
@@ -254,7 +258,7 @@ public List<Connection> Surfaces { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Connection](OpenTD.Connection.md)\>
 
-### <a id="OpenTD_FloCAD_Bay_VapAugMult"></a> VapAugMult
+### VapAugMult
 
 ```csharp
 public double VapAugMult { get; set; }
@@ -264,7 +268,7 @@ public double VapAugMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_FloCAD_Bay_VapAugMultExp"></a> VapAugMultExp
+### VapAugMultExp
 
 ```csharp
 public ExpressionData VapAugMultExp { get; set; }
@@ -274,7 +278,7 @@ public ExpressionData VapAugMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_FloCAD_Bay_VapDegMult"></a> VapDegMult
+### VapDegMult
 
 ```csharp
 public double VapDegMult { get; set; }
@@ -284,7 +288,7 @@ public double VapDegMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_FloCAD_Bay_VapDegMultExp"></a> VapDegMultExp
+### VapDegMultExp
 
 ```csharp
 public ExpressionData VapDegMultExp { get; set; }
@@ -294,7 +298,7 @@ public ExpressionData VapDegMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_FloCAD_Bay_Volumes"></a> Volumes
+### Volumes
 
 ```csharp
 public List<Connection> Volumes { get; set; }
@@ -304,7 +308,7 @@ public List<Connection> Volumes { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Connection](OpenTD.Connection.md)\>
 
-### <a id="OpenTD_FloCAD_Bay__ERNConductorHandle"></a> \_ERNConductorHandle
+### \_ERNConductorHandle
 
 Do not use.
 
@@ -316,7 +320,7 @@ public string _ERNConductorHandle { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FloCAD_Bay__ERNHandle"></a> \_ERNHandle
+### \_ERNHandle
 
 Do not use.
 
@@ -328,7 +332,7 @@ public string _ERNHandle { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FloCAD_Bay__ERNTieHandle"></a> \_ERNTieHandle
+### \_ERNTieHandle
 
 Do not use.
 
@@ -340,7 +344,7 @@ public string _ERNTieHandle { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FloCAD_Bay_autoNameERN"></a> autoNameERN
+### autoNameERN
 
 ```csharp
 public bool autoNameERN { get; set; }
@@ -350,7 +354,7 @@ public bool autoNameERN { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_FloCAD_Bay_doERN"></a> doERN
+### doERN
 
 ```csharp
 public bool doERN { get; set; }
@@ -360,7 +364,7 @@ public bool doERN { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_FloCAD_Bay_userSpecifiedERNCondId"></a> userSpecifiedERNCondId
+### userSpecifiedERNCondId
 
 ```csharp
 public int userSpecifiedERNCondId { get; set; }
@@ -370,7 +374,7 @@ public int userSpecifiedERNCondId { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_FloCAD_Bay_userSpecifiedERNCondSubmodel"></a> userSpecifiedERNCondSubmodel
+### userSpecifiedERNCondSubmodel
 
 ```csharp
 public string userSpecifiedERNCondSubmodel { get; set; }
@@ -380,7 +384,7 @@ public string userSpecifiedERNCondSubmodel { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FloCAD_Bay_userSpecifiedERNId"></a> userSpecifiedERNId
+### userSpecifiedERNId
 
 ```csharp
 public int userSpecifiedERNId { get; set; }
@@ -390,7 +394,7 @@ public int userSpecifiedERNId { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_FloCAD_Bay_userSpecifiedERNSubmodel"></a> userSpecifiedERNSubmodel
+### userSpecifiedERNSubmodel
 
 ```csharp
 public string userSpecifiedERNSubmodel { get; set; }
@@ -404,4 +408,5 @@ public string userSpecifiedERNSubmodel { get; set; }
 
 [Compartment](OpenTD.FloCAD.Compartment.md), 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

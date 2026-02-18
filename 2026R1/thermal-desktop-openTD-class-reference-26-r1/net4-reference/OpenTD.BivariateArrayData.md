@@ -1,4 +1,4 @@
-# <a id="OpenTD_BivariateArrayData"></a> Class BivariateArrayData
+# Class BivariateArrayData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ Represents a TD bivariate array.
 public class BivariateArrayData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [BivariateArrayData](OpenTD.BivariateArrayData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,7 +27,7 @@ public class BivariateArrayData
 
 ## Constructors
 
-### <a id="OpenTD_BivariateArrayData__ctor"></a> BivariateArrayData\(\)
+### BivariateArrayData\(\)
 
 Initializes a new instance of the <xref href="OpenTD.BivariateArrayData" data-throw-if-not-resolved="false"></xref> class.
 
@@ -35,7 +35,7 @@ Initializes a new instance of the <xref href="OpenTD.BivariateArrayData" data-th
 public BivariateArrayData()
 ```
 
-### <a id="OpenTD_BivariateArrayData__ctor_System_String_"></a> BivariateArrayData\(string\)
+### BivariateArrayData\(string\)
 
 Initializes a new instance of the <xref href="OpenTD.BivariateArrayData" data-throw-if-not-resolved="false"></xref> class.
 
@@ -51,7 +51,7 @@ The bivariate array in the format used by input forms in TD.
 
 ## Properties
 
-### <a id="OpenTD_BivariateArrayData_Value"></a> Value
+### Value
 
 Bivariate array with comma and newline delimiters.
 
@@ -64,7 +64,7 @@ public string Value { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_BivariateArrayData_xValues"></a> xValues
+### xValues
 
 Get independent variable along top row.
 
@@ -77,7 +77,7 @@ public List<double> xValues { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="OpenTD_BivariateArrayData_yValues"></a> yValues
+### yValues
 
 Get independent variable along left column.
 
@@ -90,7 +90,7 @@ public List<double> yValues { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="OpenTD_BivariateArrayData_zValues"></a> zValues
+### zValues
 
 Get dependent variable, row-by-row (z11, z12, z13, z21, z22, z23, etc.)
 
@@ -102,4 +102,5 @@ public List<double> zValues { get; }
 #### Property Value
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+
 

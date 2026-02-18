@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FEModel_EdgeDomain"></a> Class EdgeDomain
+# Class EdgeDomain
 
 Namespace: [OpenTD.RadCAD.FEModel](OpenTD.RadCAD.FEModel.md)  
 Assembly: OpenTD.dll  
@@ -7,15 +7,16 @@ Lightweight edge domain for use creating a finite element
 mesh using an FEMeshImporter only.
 
 ```csharp
+[MessagePackObject(true)]
 public class EdgeDomain
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [EdgeDomain](OpenTD.RadCAD.FEModel.EdgeDomain.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -27,7 +28,7 @@ public class EdgeDomain
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_FEModel_EdgeDomain__ctor"></a> EdgeDomain\(\)
+### EdgeDomain\(\)
 
 ```csharp
 public EdgeDomain()
@@ -35,7 +36,7 @@ public EdgeDomain()
 
 ## Fields
 
-### <a id="OpenTD_RadCAD_FEModel_EdgeDomain_edgeSpecs"></a> edgeSpecs
+### edgeSpecs
 
 ```csharp
 public SortedDictionary<int, EdgeSpec> edgeSpecs
@@ -47,7 +48,7 @@ public SortedDictionary<int, EdgeSpec> edgeSpecs
 
 ## Properties
 
-### <a id="OpenTD_RadCAD_FEModel_EdgeDomain_EdgeSpecs"></a> EdgeSpecs
+### EdgeSpecs
 
 ```csharp
 public ICollection<EdgeSpec> EdgeSpecs { get; }
@@ -59,7 +60,7 @@ public ICollection<EdgeSpec> EdgeSpecs { get; }
 
 ## Methods
 
-### <a id="OpenTD_RadCAD_FEModel_EdgeDomain_Add_OpenTD_RadCAD_FEModel_EdgeSpec_"></a> Add\(EdgeSpec\)
+### Add\(EdgeSpec\)
 
 ```csharp
 public void Add(EdgeSpec edgeSpec)
@@ -68,4 +69,5 @@ public void Add(EdgeSpec edgeSpec)
 #### Parameters
 
 `edgeSpec` [EdgeSpec](OpenTD.RadCAD.FEModel.EdgeSpec.md)
+
 

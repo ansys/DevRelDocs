@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_StandardDataSubtypes"></a> Enum StandardDataSubtypes
+# Enum StandardDataSubtypes
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -584,4 +584,5 @@ public enum StandardDataSubtypes
 `ZJ = 51` 
 
 `ZR = 52` 
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_NodeTieHeatrates"></a> Class NodeTieHeatrates
+# Class NodeTieHeatrates
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -9,12 +9,12 @@ Rerpesents a node and the heatrates for connected ties.
 public class NodeTieHeatrates
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [NodeTieHeatrates](OpenTD.Results.Dataset.NodeTieHeatrates.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +26,7 @@ public class NodeTieHeatrates
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_NodeTieHeatrates_Heatrates"></a> Heatrates
+### Heatrates
 
 ```csharp
 public List<TieHeat> Heatrates { get; }
@@ -36,7 +36,7 @@ public List<TieHeat> Heatrates { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[TieHeat](OpenTD.Results.Dataset.TieHeat.md)\>
 
-### <a id="OpenTD_Results_Dataset_NodeTieHeatrates_NodeInfo"></a> NodeInfo
+### NodeInfo
 
 ```csharp
 public INodeInfo NodeInfo { get; }
@@ -45,4 +45,5 @@ public INodeInfo NodeInfo { get; }
 #### Property Value
 
  [INodeInfo](OpenTD.Results.Dataset.Topology.INodeInfo.md)
+
 

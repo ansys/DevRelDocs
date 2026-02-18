@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_Torus"></a> Class Torus
+# Class Torus
 
 Namespace: [OpenTD.RadCAD](OpenTD.RadCAD.md)  
 Assembly: OpenTD.dll  
@@ -6,10 +6,11 @@ Assembly: OpenTD.dll
 Client-side representation of a Torus entity in a TD instance.
 
 ```csharp
+[MessagePackObject(true)]
 public class Torus : RcTorusData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -20,11 +21,11 @@ public class Torus : RcTorusData, IUpdatable
 RcTorusData ← 
 [Torus](OpenTD.RadCAD.Torus.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [RcConicData.LocalTrans](OpenTD.RadCAD.RcConicData.md\#OpenTD\_RadCAD\_RcConicData\_LocalTrans), 
 [RcConicData.BaseTrans](OpenTD.RadCAD.RcConicData.md\#OpenTD\_RadCAD\_RcConicData\_BaseTrans), 
@@ -159,7 +160,7 @@ RcTorusData ←
 
 ## Methods
 
-### <a id="OpenTD_RadCAD_Torus_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -171,7 +172,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_RadCAD_Torus_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -179,7 +180,7 @@ Updates the TD entity with the latest client data.
 public override void Update()
 ```
 
-### <a id="OpenTD_RadCAD_Torus_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -190,4 +191,5 @@ public override void UpdateFromTD()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

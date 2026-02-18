@@ -1,4 +1,4 @@
-# <a id="OpenTD_PostProcessing_DataMapper_FileFormats"></a> Enum DataMapper.FileFormats
+# Enum DataMapper.FileFormats
 
 Namespace: [OpenTD.PostProcessing](OpenTD.PostProcessing.md)  
 Assembly: OpenTD.dll  
@@ -20,4 +20,5 @@ public enum DataMapper.FileFormats
 `NASTRAN = 0` 
 
 `UNSPECIFIED = -1` 
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_Orbit_Planets"></a> Enum Orbit.Planets
+# Enum Orbit.Planets
 
 Namespace: [OpenTD.RadCAD](OpenTD.RadCAD.md)  
 Assembly: OpenTD.dll  
@@ -32,4 +32,5 @@ public enum Orbit.Planets
 `URANUS = 7` 
 
 `VENUS = 2` 
+
 

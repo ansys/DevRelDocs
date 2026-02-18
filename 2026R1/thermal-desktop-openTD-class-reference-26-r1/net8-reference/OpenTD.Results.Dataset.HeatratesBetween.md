@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_HeatratesBetween"></a> Class HeatratesBetween
+# Class HeatratesBetween
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -11,12 +11,12 @@ indicate heat flowing out of the From set.
 public class HeatratesBetween
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [HeatratesBetween](OpenTD.Results.Dataset.HeatratesBetween.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -28,7 +28,7 @@ public class HeatratesBetween
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_HeatratesBetween_FromSet"></a> FromSet
+### FromSet
 
 ```csharp
 public string FromSet { get; }
@@ -38,7 +38,7 @@ public string FromSet { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_HeatratesBetween_LinearCount"></a> LinearCount
+### LinearCount
 
 ```csharp
 public int LinearCount { get; }
@@ -48,7 +48,7 @@ public int LinearCount { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Results_Dataset_HeatratesBetween_LinearHeatrate"></a> LinearHeatrate
+### LinearHeatrate
 
 ```csharp
 public Dimensional<HeatRate> LinearHeatrate { get; }
@@ -58,7 +58,7 @@ public Dimensional<HeatRate> LinearHeatrate { get; }
 
  Dimensional<HeatRate\>
 
-### <a id="OpenTD_Results_Dataset_HeatratesBetween_NodeHeatrates"></a> NodeHeatrates
+### NodeHeatrates
 
 ```csharp
 public List<NodeHeatrates> NodeHeatrates { get; }
@@ -68,7 +68,7 @@ public List<NodeHeatrates> NodeHeatrates { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[NodeHeatrates](OpenTD.Results.Dataset.NodeHeatrates.md)\>
 
-### <a id="OpenTD_Results_Dataset_HeatratesBetween_RadiativeCount"></a> RadiativeCount
+### RadiativeCount
 
 ```csharp
 public int RadiativeCount { get; }
@@ -78,7 +78,7 @@ public int RadiativeCount { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Results_Dataset_HeatratesBetween_RadiativeHeatrate"></a> RadiativeHeatrate
+### RadiativeHeatrate
 
 ```csharp
 public Dimensional<HeatRate> RadiativeHeatrate { get; }
@@ -88,7 +88,7 @@ public Dimensional<HeatRate> RadiativeHeatrate { get; }
 
  Dimensional<HeatRate\>
 
-### <a id="OpenTD_Results_Dataset_HeatratesBetween_TieCount"></a> TieCount
+### TieCount
 
 ```csharp
 public int TieCount { get; }
@@ -98,7 +98,7 @@ public int TieCount { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Results_Dataset_HeatratesBetween_TieHeatrate"></a> TieHeatrate
+### TieHeatrate
 
 ```csharp
 public Dimensional<HeatRate> TieHeatrate { get; }
@@ -108,7 +108,7 @@ public Dimensional<HeatRate> TieHeatrate { get; }
 
  Dimensional<HeatRate\>
 
-### <a id="OpenTD_Results_Dataset_HeatratesBetween_ToSet"></a> ToSet
+### ToSet
 
 ```csharp
 public string ToSet { get; }
@@ -118,7 +118,7 @@ public string ToSet { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_HeatratesBetween_TotalCount"></a> TotalCount
+### TotalCount
 
 ```csharp
 public int TotalCount { get; }
@@ -128,7 +128,7 @@ public int TotalCount { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Results_Dataset_HeatratesBetween_TotalHeatrate"></a> TotalHeatrate
+### TotalHeatrate
 
 ```csharp
 public Dimensional<HeatRate> TotalHeatrate { get; }
@@ -137,4 +137,5 @@ public Dimensional<HeatRate> TotalHeatrate { get; }
 #### Property Value
 
  Dimensional<HeatRate\>
+
 

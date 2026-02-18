@@ -1,4 +1,4 @@
-# <a id="OpenTD_NodeBreakdownData"></a> Class NodeBreakdownData
+# Class NodeBreakdownData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ Represents node subdivisions, e.g., the u and v nodal breakdowns in a conic.
 public class NodeBreakdownData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [NodeBreakdownData](OpenTD.NodeBreakdownData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,7 +27,7 @@ public class NodeBreakdownData
 
 ## Constructors
 
-### <a id="OpenTD_NodeBreakdownData__ctor"></a> NodeBreakdownData\(\)
+### NodeBreakdownData\(\)
 
 ```csharp
 public NodeBreakdownData()
@@ -35,7 +35,7 @@ public NodeBreakdownData()
 
 ## Properties
 
-### <a id="OpenTD_NodeBreakdownData_Boundaries"></a> Boundaries
+### Boundaries
 
 ```csharp
 [DataMember]
@@ -46,7 +46,7 @@ public List<double> Boundaries { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="OpenTD_NodeBreakdownData_Num"></a> Num
+### Num
 
 ```csharp
 [DataMember]
@@ -57,7 +57,7 @@ public int Num { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_NodeBreakdownData_NumExp"></a> NumExp
+### NumExp
 
 ```csharp
 [DataMember]
@@ -68,7 +68,7 @@ public ExpressionData NumExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_NodeBreakdownData_Spacing"></a> Spacing
+### Spacing
 
 ```csharp
 [DataMember]
@@ -78,4 +78,5 @@ public NodeBreakdownData.SpacingType Spacing { get; set; }
 #### Property Value
 
  [NodeBreakdownData](OpenTD.NodeBreakdownData.md).[SpacingType](OpenTD.NodeBreakdownData.SpacingType.md)
+
 

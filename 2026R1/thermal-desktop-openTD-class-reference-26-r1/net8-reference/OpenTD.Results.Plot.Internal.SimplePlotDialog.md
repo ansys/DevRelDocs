@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Plot_Internal_SimplePlotDialog"></a> Class SimplePlotDialog
+# Class SimplePlotDialog
 
 Namespace: [OpenTD.Results.Plot.Internal](OpenTD.Results.Plot.Internal.md)  
 Assembly: OpenTD.Results.dll  
@@ -7,7 +7,7 @@ Assembly: OpenTD.Results.dll
 public class SimplePlotDialog : Form, IDropTarget, ISynchronizeInvoke, IWin32Window, IBindableComponent, IComponent, IDisposable, IContainerControl
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [MarshalByRefObject](https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject) ← 
@@ -18,7 +18,7 @@ public class SimplePlotDialog : Form, IDropTarget, ISynchronizeInvoke, IWin32Win
 [Form](https://learn.microsoft.com/dotnet/api/system.windows.forms.form) ← 
 [SimplePlotDialog](OpenTD.Results.Plot.Internal.SimplePlotDialog.md)
 
-#### Implements
+## Implements
 
 [IDropTarget](https://learn.microsoft.com/dotnet/api/system.windows.forms.idroptarget), 
 [ISynchronizeInvoke](https://learn.microsoft.com/dotnet/api/system.componentmodel.isynchronizeinvoke), 
@@ -28,7 +28,7 @@ public class SimplePlotDialog : Form, IDropTarget, ISynchronizeInvoke, IWin32Win
 [IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable), 
 [IContainerControl](https://learn.microsoft.com/dotnet/api/system.windows.forms.icontainercontrol)
 
-#### Inherited Members
+## Inherited Members
 
 [Form.SetVisibleCore\(bool\)](https://learn.microsoft.com/dotnet/api/system.windows.forms.form.setvisiblecore), 
 [Form.Activate\(\)](https://learn.microsoft.com/dotnet/api/system.windows.forms.form.activate), 
@@ -629,7 +629,7 @@ public class SimplePlotDialog : Form, IDropTarget, ISynchronizeInvoke, IWin32Win
 
 ## Constructors
 
-### <a id="OpenTD_Results_Plot_Internal_SimplePlotDialog__ctor_OpenTD_Results_Plot_SimplePlot_"></a> SimplePlotDialog\(SimplePlot\)
+### SimplePlotDialog\(SimplePlot\)
 
 ```csharp
 public SimplePlotDialog(SimplePlot plotInfo)
@@ -641,7 +641,7 @@ public SimplePlotDialog(SimplePlot plotInfo)
 
 ## Methods
 
-### <a id="OpenTD_Results_Plot_Internal_SimplePlotDialog_Dispose_System_Boolean_"></a> Dispose\(bool\)
+### Dispose\(bool\)
 
 Clean up any resources being used.
 
@@ -655,7 +655,7 @@ protected override void Dispose(bool disposing)
 
 true if managed resources should be disposed; otherwise, false.
 
-### <a id="OpenTD_Results_Plot_Internal_SimplePlotDialog_SaveImage_System_IO_Stream_System_Windows_Forms_DataVisualization_Charting_ChartImageFormat_"></a> SaveImage\(Stream, ChartImageFormat\)
+### SaveImage\(Stream, ChartImageFormat\)
 
 ```csharp
 public void SaveImage(Stream imageStream, ChartImageFormat format)
@@ -666,4 +666,5 @@ public void SaveImage(Stream imageStream, ChartImageFormat format)
 `imageStream` [Stream](https://learn.microsoft.com/dotnet/api/system.io.stream)
 
 `format` ChartImageFormat
+
 

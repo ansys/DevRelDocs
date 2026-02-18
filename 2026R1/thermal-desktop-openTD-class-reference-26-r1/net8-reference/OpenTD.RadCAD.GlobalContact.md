@@ -1,18 +1,19 @@
-# <a id="OpenTD_RadCAD_GlobalContact"></a> Class GlobalContact
+# Class GlobalContact
 
 Namespace: [OpenTD.RadCAD](OpenTD.RadCAD.md)  
 Assembly: OpenTD.dll  
 
 ```csharp
+[MessagePackObject(true)]
 public class GlobalContact
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [GlobalContact](OpenTD.RadCAD.GlobalContact.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -24,7 +25,7 @@ public class GlobalContact
 
 ## Properties
 
-### <a id="OpenTD_RadCAD_GlobalContact_fluxPerLengthOrAbsolute"></a> fluxPerLengthOrAbsolute
+### fluxPerLengthOrAbsolute
 
 ```csharp
 public bool fluxPerLengthOrAbsolute { get; set; }
@@ -34,7 +35,7 @@ public bool fluxPerLengthOrAbsolute { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_RadCAD_GlobalContact_useContact"></a> useContact
+### useContact
 
 ```csharp
 public bool useContact { get; set; }
@@ -44,7 +45,7 @@ public bool useContact { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_RadCAD_GlobalContact_value"></a> value
+### value
 
 ```csharp
 public float value { get; set; }
@@ -54,7 +55,7 @@ public float value { get; set; }
 
  [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### <a id="OpenTD_RadCAD_GlobalContact_valueExp"></a> valueExp
+### valueExp
 
 ```csharp
 public ExpressionData valueExp { get; set; }
@@ -63,4 +64,5 @@ public ExpressionData valueExp { get; set; }
 #### Property Value
 
  [ExpressionData](OpenTD.ExpressionData.md)
+
 
