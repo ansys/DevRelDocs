@@ -1,0 +1,104 @@
+# <a id="OpenTD_UserPreferences_GraphicsResolutionPreferences"></a> Class GraphicsResolutionPreferences
+
+Namespace: [OpenTD.UserPreferences](OpenTD.UserPreferences.md)  
+Assembly: OpenTD.dll  
+
+Use to set the global dwg graphics size preferences.
+
+```csharp
+[DataContract]
+public class GraphicsResolutionPreferences : Preferences, IUpdatable
+```
+
+#### Inheritance
+
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+TdConnected ← 
+Preferences ← 
+[GraphicsResolutionPreferences](OpenTD.UserPreferences.GraphicsResolutionPreferences.md)
+
+#### Implements
+
+[IUpdatable](OpenTD.IUpdatable.md)
+
+#### Inherited Members
+
+[object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
+[object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
+[object.Equals\(object, object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
+[object.ReferenceEquals\(object, object\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
+[object.GetHashCode\(\)](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), 
+[object.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.object.gettype), 
+[object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone)
+
+## Constructors
+
+### <a id="OpenTD_UserPreferences_GraphicsResolutionPreferences__ctor"></a> GraphicsResolutionPreferences\(\)
+
+```csharp
+public GraphicsResolutionPreferences()
+```
+
+### <a id="OpenTD_UserPreferences_GraphicsResolutionPreferences__ctor_OpenTD_ThermalDesktop_"></a> GraphicsResolutionPreferences\(ThermalDesktop\)
+
+```csharp
+public GraphicsResolutionPreferences(ThermalDesktop _td)
+```
+
+#### Parameters
+
+`_td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
+## Properties
+
+### <a id="OpenTD_UserPreferences_GraphicsResolutionPreferences_facetRes"></a> facetRes
+
+```csharp
+[DataMember]
+public double facetRes { get; set; }
+```
+
+#### Property Value
+
+ [double](https://learn.microsoft.com/dotnet/api/system.double)
+
+### <a id="OpenTD_UserPreferences_GraphicsResolutionPreferences_maxSurfaceFacetsPerFullCircle"></a> maxSurfaceFacetsPerFullCircle
+
+```csharp
+[DataMember]
+public int maxSurfaceFacetsPerFullCircle { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### <a id="OpenTD_UserPreferences_GraphicsResolutionPreferences_pipeDegPerPointIndex"></a> pipeDegPerPointIndex
+
+```csharp
+[DataMember]
+public int pipeDegPerPointIndex { get; set; }
+```
+
+#### Property Value
+
+ [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+## Methods
+
+### <a id="OpenTD_UserPreferences_GraphicsResolutionPreferences_Update"></a> Update\(\)
+
+Updates the TD entity with the latest client data.
+
+```csharp
+public void Update()
+```
+
+### <a id="OpenTD_UserPreferences_GraphicsResolutionPreferences_UpdateFromTD"></a> UpdateFromTD\(\)
+
+Updates the client-side instance with the latest data from the TD entity.
+
+```csharp
+public void UpdateFromTD()
+```
+
