@@ -7,43 +7,23 @@ title: Getting Started Guide
 
 ## What you can do with automation in Speos for NX
 
-
-
-
-
 You can create new Speos for NX features or modify existing features, run and export simulations using scripts.
-
 
 This section gives you an overview of what Speos for NX Library can achieve with one example of Python script.
 
-
 This section contains the following topics: 
+
 - **How to create an NX Journal Python**
 - **How to create a Speos for NX Python script**
 - **How to run an NX Journal**
 
-
-
-
-
-
 ## How to create an NX journal python
-
-
-
-
-
 
 1. Create a text file in the target directory.
 2. Edit it with a text editor.
 3. Change its extension for .py.
 
-
-
-
 -Or-
-
-
 
 1. Press Ctrl + M on your keyboard.
 2. Click Menu, Tools, Journal, Record.
@@ -51,25 +31,10 @@ This section contains the following topics:
 4. Click OK.
 5. Click Menu, Tools, Journal, Stop Recording.
 
-
-
-
-
-
 ## How to create a Speos for NX python script
-
-
-
-
-
 
 1. Open your .py journal.
 2. Rewrite the function as below:
-
-
-
-
-
 
 ```python
     # Imports system packages
@@ -131,32 +96,14 @@ This section contains the following topics:
         main()
 ```
 
-
-
-
-
-
 ## How to run an NX journal
-
-
-
-
-
 
 1. In Menu, click Tools, Journal, Play....
 2. Select the journal to play from Recently Accessed Journals.
 
-
-
-
 -Or-
-
-
 
 1. Browse for the journal to start.
 2. Click Run.
-
-
-
 
  Note: You can also edit the journal from Speos for NX. You can add journal arguments.
