@@ -14,14 +14,18 @@ Creates a scalar or vector field from numeric data. Converts scalar values or ve
 
 ## Inputs
 
-| Pin number | Name | Expected type(s) |
-|-------|-------|------------------|
-| <strong>0</strong>|  [double_or_vector_double](#input_0) |[`double`](../../core-concepts/dpf-types.md#standard-types), [`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>1</strong>|  [unit](#input_1) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>2</strong>|  [location](#input_2) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>3</strong>|  [num_entities](#input_3) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>4</strong>|  [num_components](#input_4) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>5</strong>|  [scoping](#input_5) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.
+Some inputs are required, while others are optional and provide additional configuration.
+Each parameter is detailed in the sections that follow the table.
+
+| Pin number | Name | Status | Expected type(s) |
+|------------|------|--------|------------------|
+| <strong>0</strong> | [double_or_vector_double](#input_0) |  |[`double`](../../core-concepts/dpf-types.md#standard-types), [`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>1</strong> | [unit](#input_1) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>2</strong> | [location](#input_2) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>3</strong> | [num_entities](#input_3) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>4</strong> | [num_components](#input_4) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>5</strong> | [scoping](#input_5) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
 
 
 <a id="input_0"></a>
@@ -75,6 +79,10 @@ Scoping defining entity IDs and locations. If provided, overrides num_entities
 
 ## Outputs
 
+This table lists the output pins for this operator.
+Output pins provide the results of the operator's computation and can be connected to inputs of other operators or retrieved for further processing.
+Each output is detailed in the sections that follow the table.
+
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
 |  **0**| [field](#output_0) |[`field`](../../core-concepts/dpf-types.md#field) |
@@ -90,8 +98,10 @@ Generated field with specified data and properties
 
 ## Configurations
 
+This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
 
-### mutex
+
+### [mutex](../../core-concepts/operator-configurations.md#mutex)
 
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 - **Default value:** false
@@ -101,6 +111,8 @@ If this option is set to true, the shared memory is prevented from being simulta
 
 
 ## Scripting
+
+This operator can be accessed through scripting interfaces using these identifiers.
 
  **Category**: utility
 
@@ -115,6 +127,9 @@ If this option is set to true, the shared memory is prevented from being simulta
  **License**: None
 
 ## Examples
+
+These examples demonstrate how to use this operator in different programming environments.
+Each example shows how to instantiate the operator, connect the required inputs, and retrieve the output.
 
 <details>
 <summary>C++</summary>

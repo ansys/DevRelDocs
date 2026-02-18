@@ -14,27 +14,31 @@ Write the invariant terms and the model data in a motion dfmf file
 
 ## Inputs
 
-| Pin number | Name | Expected type(s) |
-|-------|-------|------------------|
-| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [model_data](#input_0) |[`property_field`](../../core-concepts/dpf-types.md#property-field) |
-| <strong>1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [mode_shapes](#input_1) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>2</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [lumped_mass](#input_2) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>3</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [field_coordinates](#input_3) |[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>4</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [nod](#input_4) |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>5</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [used_node_index](#input_5) |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>6</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [eigenvalue](#input_6) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>7</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [translational_mode_shape](#input_7) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>8</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [rotational_mode_shape](#input_8) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>9</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [invrt_1](#input_9) |[`double`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>10</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [invrt_2](#input_10) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>11</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [invrt_3](#input_11) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>12</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [invrt_4](#input_12) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>13</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [invrt_5](#input_13) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>14</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [invrt_6](#input_14) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>15</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [invrt_7](#input_15) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>16</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [invrt_8](#input_16) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>17</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [dfmffile_path](#input_17) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>18</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [rstfile_path](#input_18) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.
+Some inputs are required, while others are optional and provide additional configuration.
+Each parameter is detailed in the sections that follow the table.
+
+| Pin number | Name | Status | Expected type(s) |
+|------------|------|--------|------------------|
+| <strong>0</strong> | [model_data](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`property_field`](../../core-concepts/dpf-types.md#property-field) |
+| <strong>1</strong> | [mode_shapes](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+| <strong>2</strong> | [lumped_mass](#input_2) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+| <strong>3</strong> | [field_coordinates](#input_3) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>4</strong> | [nod](#input_4) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>5</strong> | [used_node_index](#input_5) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>6</strong> | [eigenvalue](#input_6) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>7</strong> | [translational_mode_shape](#input_7) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>8</strong> | [rotational_mode_shape](#input_8) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>9</strong> | [invrt_1](#input_9) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`double`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>10</strong> | [invrt_2](#input_10) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>11</strong> | [invrt_3](#input_11) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>12</strong> | [invrt_4](#input_12) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>13</strong> | [invrt_5](#input_13) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>14</strong> | [invrt_6](#input_14) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>15</strong> | [invrt_7](#input_15) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>16</strong> | [invrt_8](#input_16) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>17</strong> | [dfmffile_path](#input_17) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>18</strong> | [rstfile_path](#input_18) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](../../core-concepts/dpf-types.md#standard-types) |
 
 
 <a id="input_0"></a>
@@ -192,6 +196,10 @@ path with motion dfmf extension where the export occurs
 
 ## Outputs
 
+This table lists the output pins for this operator.
+Output pins provide the results of the operator's computation and can be connected to inputs of other operators or retrieved for further processing.
+Each output is detailed in the sections that follow the table.
+
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
 |  **0**| [dfmf_data_source](#output_0) |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
@@ -207,8 +215,10 @@ Data Source containing the dfmf file generated.
 
 ## Configurations
 
+This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
 
-### mutex
+
+### [mutex](../../core-concepts/operator-configurations.md#mutex)
 
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 - **Default value:** false
@@ -218,6 +228,8 @@ If this option is set to true, the shared memory is prevented from being simulta
 
 
 ## Scripting
+
+This operator can be accessed through scripting interfaces using these identifiers.
 
  **Category**: result
 
@@ -232,6 +244,9 @@ If this option is set to true, the shared memory is prevented from being simulta
  **License**: None
 
 ## Examples
+
+These examples demonstrate how to use this operator in different programming environments.
+Each example shows how to instantiate the operator, connect the required inputs, and retrieve the output.
 
 <details>
 <summary>C++</summary>

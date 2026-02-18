@@ -12,12 +12,22 @@ license: any_dpf_supported_increments
 
 Scales all the fields of a fields container to a given precision threshold, then rounds all the values to the unit.
 
+The output of the quantization operation is :
+$$q(x) = \left\lfloor\frac{x}{2\varepsilon} + \frac{1}{2}\right\rfloor $$
+The truncated value in the original scale has to be computed by doing $2\varepsilon q(x) $.
+
+To truncate a number to $n$ decimal places, the threshold must be chosen as $10^{-n}$.
+
 ## Inputs
 
-| Pin number | Name | Expected type(s) |
-|-------|-------|------------------|
-| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [input_fc](#input_0) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [threshold](#input_1) |[`double`](../../core-concepts/dpf-types.md#standard-types), [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.
+Some inputs are required, while others are optional and provide additional configuration.
+Each parameter is detailed in the sections that follow the table.
+
+| Pin number | Name | Status | Expected type(s) |
+|------------|------|--------|------------------|
+| <strong>0</strong> | [input_fc](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+| <strong>1</strong> | [threshold](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`double`](../../core-concepts/dpf-types.md#standard-types), [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
 
 
 <a id="input_0"></a>
@@ -26,7 +36,7 @@ Scales all the fields of a fields container to a given precision threshold, then
 - **Required:** Yes
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-Fields container to be quantized.
+Fields container to quantized.
 
 <a id="input_1"></a>
 ### threshold (Pin 1)
@@ -35,13 +45,16 @@ Fields container to be quantized.
 - **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types), [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
 Precision threshold desired.
-Case double : the threshold is applied on all the fields of the input fields container.
-Case field with one, numComp or input size values : the threshold is used for each field of the input fields container.
-Case fields container : the corresponding threshold field is found by matching label.
-
+- Case double : the threshold is applied on all the fields of the input fields container.
+- Case field with one, numComp or input size values : the threshold is used for each field of the input fields container.
+- Case fields container : the corresponding threshold field is found by matching label.
 
 
 ## Outputs
+
+This table lists the output pins for this operator.
+Output pins provide the results of the operator's computation and can be connected to inputs of other operators or retrieved for further processing.
+Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
@@ -58,17 +71,35 @@ Quantized fields container.
 
 ## Configurations
 
+This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
 
-### mutex
+
+### [mutex](../../core-concepts/operator-configurations.md#mutex)
 
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
 
+### [num_threads](../../core-concepts/operator-configurations.md#num_threads)
+
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** 0
+
+
+
+### [run_in_parallel](../../core-concepts/operator-configurations.md#run_in_parallel)
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** true
+
+Loops are allowed to run in parallel if the value of this config is set to true.
+
 
 
 ## Scripting
+
+This operator can be accessed through scripting interfaces using these identifiers.
 
  **Category**: compression
 
@@ -83,6 +114,9 @@ If this option is set to true, the shared memory is prevented from being simulta
  **License**: any_dpf_supported_increments
 
 ## Examples
+
+These examples demonstrate how to use this operator in different programming environments.
+Each example shows how to instantiate the operator, connect the required inputs, and retrieve the output.
 
 <details>
 <summary>C++</summary>
