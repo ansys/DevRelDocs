@@ -160,3 +160,8 @@ List of Classes:
 - [ansys::dpf::types](structansys-dpf-types.md)
 - [ansys::dpf::unit_systems](structansys-dpf-unit-systems.md)
 - [std::hash< ansys::dpf::PropertyType >](structstd-hash-ansys-dpf-propertytype.md)
+
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[const]: https://img.shields.io/badge/-const-lightblue (const)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
+[static]: https://img.shields.io/badge/-static-lightgrey (static)
