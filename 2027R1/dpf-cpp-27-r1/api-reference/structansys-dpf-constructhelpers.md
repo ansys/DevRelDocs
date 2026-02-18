@@ -1,5 +1,6 @@
-<a id="structansys-dpf-constructhelpers"></a>
 # Structure ansys::dpf::ConstructHelpers
+
+<a id="structansys-dpf-constructhelpers"></a>
 
 ![][C++]
 ![][public]

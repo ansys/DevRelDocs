@@ -1,5 +1,6 @@
-<a id="structansys-dpf-param-helpers"></a>
 # Structure ansys::dpf::param\_helpers
+
+<a id="structansys-dpf-param-helpers"></a>
 
 ![][C++]
 ![][public]

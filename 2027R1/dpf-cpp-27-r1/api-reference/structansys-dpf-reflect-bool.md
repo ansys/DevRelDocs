@@ -1,5 +1,6 @@
-<a id="structansys-dpf-reflect-bool-4"></a>
 # Structure ansys::dpf::reflect\< bool \>
+
+<a id="structansys-dpf-reflect-bool-4"></a>
 
 ![][C++]
 ![][public]

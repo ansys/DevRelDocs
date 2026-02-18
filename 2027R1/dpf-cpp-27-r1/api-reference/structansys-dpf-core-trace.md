@@ -1,5 +1,6 @@
-<a id="structansys-dpf-core-trace"></a>
 # Structure ansys::dpf::core::trace
+
+<a id="structansys-dpf-core-trace"></a>
 
 ![][C++]
 ![][public]

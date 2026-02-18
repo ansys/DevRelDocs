@@ -1,5 +1,6 @@
-<a id="namespaceansys-dpf-opaque"></a>
 # Namespace ansys::dpf::opaque
+
+<a id="namespaceansys-dpf-opaque"></a>
 
 ![][C++]
 

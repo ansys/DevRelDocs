@@ -1,5 +1,6 @@
-<a id="classansys-dpf-homogeneity"></a>
 # Class ansys::dpf::Homogeneity
+
+<a id="classansys-dpf-homogeneity"></a>
 
 ![][C++]
 ![][public]

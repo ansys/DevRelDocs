@@ -1,5 +1,6 @@
-<a id="structansys-dpf-reflect-double-4"></a>
 # Structure ansys::dpf::reflect\< double \>
+
+<a id="structansys-dpf-reflect-double-4"></a>
 
 ![][C++]
 ![][public]

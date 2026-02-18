@@ -1,5 +1,6 @@
-<a id="structansys-dpf-homogeneities"></a>
 # Structure ansys::dpf::homogeneities
+
+<a id="structansys-dpf-homogeneities"></a>
 
 ![][C++]
 ![][public]

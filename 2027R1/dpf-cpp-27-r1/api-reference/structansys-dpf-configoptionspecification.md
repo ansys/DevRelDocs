@@ -1,5 +1,6 @@
-<a id="structansys-dpf-configoptionspecification"></a>
 # Structure ansys::dpf::ConfigOptionSpecification
+
+<a id="structansys-dpf-configoptionspecification"></a>
 
 ![][C++]
 ![][public]

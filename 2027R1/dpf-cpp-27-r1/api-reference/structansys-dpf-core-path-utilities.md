@@ -1,5 +1,6 @@
-<a id="structansys-dpf-core-path-utilities"></a>
 # Structure ansys::dpf::core::path\_utilities
+
+<a id="structansys-dpf-core-path-utilities"></a>
 
 ![][C++]
 ![][public]

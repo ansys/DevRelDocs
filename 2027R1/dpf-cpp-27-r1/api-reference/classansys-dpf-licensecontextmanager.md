@@ -1,5 +1,6 @@
-<a id="classansys-dpf-licensecontextmanager"></a>
 # Class ansys::dpf::LicenseContextManager
+
+<a id="classansys-dpf-licensecontextmanager"></a>
 
 ![][C++]
 ![][public]

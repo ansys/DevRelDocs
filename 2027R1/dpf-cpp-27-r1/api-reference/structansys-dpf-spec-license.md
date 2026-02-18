@@ -1,5 +1,6 @@
-<a id="structansys-dpf-spec-license"></a>
 # Structure ansys::dpf::spec::license
+
+<a id="structansys-dpf-spec-license"></a>
 
 ![][C++]
 ![][public]

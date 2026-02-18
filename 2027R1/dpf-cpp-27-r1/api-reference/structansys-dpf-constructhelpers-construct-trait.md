@@ -1,5 +1,6 @@
-<a id="structansys-dpf-constructhelpers-construct-trait"></a>
 # Structure ansys::dpf::ConstructHelpers::construct\_trait
+
+<a id="structansys-dpf-constructhelpers-construct-trait"></a>
 
 ![][C++]
 ![][public]

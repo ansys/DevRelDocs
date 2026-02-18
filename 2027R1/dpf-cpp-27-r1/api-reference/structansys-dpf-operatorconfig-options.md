@@ -1,5 +1,6 @@
-<a id="structansys-dpf-operatorconfig-options"></a>
 # Structure ansys::dpf::OperatorConfig::options
+
+<a id="structansys-dpf-operatorconfig-options"></a>
 
 ![][C++]
 ![][public]

@@ -1,5 +1,6 @@
-<a id="classansys-dpf-model"></a>
 # Class ansys::dpf::Model
+
+<a id="classansys-dpf-model"></a>
 
 ![][C++]
 ![][public]

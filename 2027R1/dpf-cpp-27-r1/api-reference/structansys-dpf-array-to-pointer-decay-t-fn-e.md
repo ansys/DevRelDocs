@@ -1,5 +1,6 @@
-<a id="structansys-dpf-array-to-pointer-decay-t-fn-e-4"></a>
 # Structure ansys::dpf::array\_to\_pointer\_decay\< T[N]\>
+
+<a id="structansys-dpf-array-to-pointer-decay-t-fn-e-4"></a>
 
 ![][C++]
 ![][public]

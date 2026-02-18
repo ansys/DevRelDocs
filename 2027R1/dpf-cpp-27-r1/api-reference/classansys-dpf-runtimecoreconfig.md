@@ -1,5 +1,6 @@
-<a id="classansys-dpf-runtimecoreconfig"></a>
 # Class ansys::dpf::RuntimeCoreConfig
+
+<a id="classansys-dpf-runtimecoreconfig"></a>
 
 ![][C++]
 ![][public]

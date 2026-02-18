@@ -1,5 +1,6 @@
-<a id="classansys-dpf-dpftypes"></a>
 # Class ansys::dpf::DpfTypes
+
+<a id="classansys-dpf-dpftypes"></a>
 
 ![][C++]
 ![][public]

@@ -1,5 +1,6 @@
-<a id="structansys-dpf-spec-category"></a>
 # Structure ansys::dpf::spec::category
+
+<a id="structansys-dpf-spec-category"></a>
 
 ![][C++]
 ![][public]

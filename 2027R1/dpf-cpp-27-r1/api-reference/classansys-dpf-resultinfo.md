@@ -1,5 +1,6 @@
-<a id="classansys-dpf-resultinfo"></a>
 # Class ansys::dpf::ResultInfo
+
+<a id="classansys-dpf-resultinfo"></a>
 
 ![][C++]
 ![][public]

@@ -1,5 +1,6 @@
-<a id="classansys-dpf-eventhandler"></a>
 # Class ansys::dpf::EventHandler
+
+<a id="classansys-dpf-eventhandler"></a>
 
 ![][C++]
 ![][public]

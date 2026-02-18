@@ -1,5 +1,6 @@
-<a id="structansys-dpf-constructhelpers-construct-trait-collection-datat-4-std-false-type-4"></a>
 # Structure ansys::dpf::ConstructHelpers::construct\_trait\< Collection\< DataT \>, std::false\_type \>
+
+<a id="structansys-dpf-constructhelpers-construct-trait-collection-datat-4-std-false-type-4"></a>
 
 ![][C++]
 ![][public]

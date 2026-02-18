@@ -1,5 +1,6 @@
-<a id="structansys-dpf-label"></a>
 # Structure ansys::dpf::Label
+
+<a id="structansys-dpf-label"></a>
 
 ![][C++]
 ![][public]

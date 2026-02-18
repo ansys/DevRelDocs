@@ -1,5 +1,6 @@
-<a id="namespaceansys-dpf-internal"></a>
 # Namespace ansys::dpf::internal
+
+<a id="namespaceansys-dpf-internal"></a>
 
 ![][C++]
 

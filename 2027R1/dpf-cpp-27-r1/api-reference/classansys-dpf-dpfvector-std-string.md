@@ -1,5 +1,6 @@
-<a id="classansys-dpf-dpfvector-std-string-4"></a>
 # Class ansys::dpf::DpfVector\< std::string \>
+
+<a id="classansys-dpf-dpfvector-std-string-4"></a>
 
 ![][C++]
 ![][public]

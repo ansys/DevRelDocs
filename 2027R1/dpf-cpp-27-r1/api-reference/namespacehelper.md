@@ -1,5 +1,6 @@
-<a id="namespacehelper"></a>
 # Namespace helper
+
+<a id="namespacehelper"></a>
 
 ![][C++]
 

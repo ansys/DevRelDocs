@@ -1,5 +1,6 @@
-<a id="classansys-dpf-externalstream"></a>
 # Class ansys::dpf::ExternalStream
+
+<a id="classansys-dpf-externalstream"></a>
 
 ![][C++]
 ![][public]

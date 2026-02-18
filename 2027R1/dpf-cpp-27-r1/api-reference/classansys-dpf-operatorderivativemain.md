@@ -1,5 +1,6 @@
-<a id="classansys-dpf-operatorderivativemain"></a>
 # Class ansys::dpf::OperatorDerivativeMain
+
+<a id="classansys-dpf-operatorderivativemain"></a>
 
 ![][C++]
 ![][public]

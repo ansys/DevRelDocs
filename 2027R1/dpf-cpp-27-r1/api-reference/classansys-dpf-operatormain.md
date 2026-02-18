@@ -1,5 +1,6 @@
-<a id="classansys-dpf-operatormain"></a>
 # Class ansys::dpf::OperatorMain
+
+<a id="classansys-dpf-operatormain"></a>
 
 ![][C++]
 ![][public]

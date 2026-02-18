@@ -1,5 +1,6 @@
-<a id="classansys-dpf-session"></a>
 # Class ansys::dpf::Session
+
+<a id="classansys-dpf-session"></a>
 
 ![][C++]
 ![][public]

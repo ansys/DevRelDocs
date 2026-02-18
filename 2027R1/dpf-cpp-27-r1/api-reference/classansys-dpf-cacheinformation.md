@@ -1,5 +1,6 @@
-<a id="classansys-dpf-cacheinformation"></a>
 # Class ansys::dpf::CacheInformation
+
+<a id="classansys-dpf-cacheinformation"></a>
 
 ![][C++]
 ![][public]

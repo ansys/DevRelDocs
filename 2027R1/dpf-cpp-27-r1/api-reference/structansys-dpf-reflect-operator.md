@@ -1,5 +1,6 @@
-<a id="structansys-dpf-reflect-operator-4"></a>
 # Structure ansys::dpf::reflect\< Operator \>
+
+<a id="structansys-dpf-reflect-operator-4"></a>
 
 ![][C++]
 ![][public]

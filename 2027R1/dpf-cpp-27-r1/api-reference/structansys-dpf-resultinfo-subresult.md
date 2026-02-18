@@ -1,5 +1,6 @@
-<a id="structansys-dpf-resultinfo-subresult"></a>
 # Structure ansys::dpf::ResultInfo::subresult
+
+<a id="structansys-dpf-resultinfo-subresult"></a>
 
 ![][C++]
 ![][private]

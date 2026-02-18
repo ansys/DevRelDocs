@@ -1,5 +1,6 @@
-<a id="structansys-dpf-core-logging-internal"></a>
 # Structure ansys::dpf::core::logging::internal
+
+<a id="structansys-dpf-core-logging-internal"></a>
 
 ![][C++]
 ![][public]

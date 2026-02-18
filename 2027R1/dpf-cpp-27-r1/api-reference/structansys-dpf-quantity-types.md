@@ -1,5 +1,6 @@
-<a id="structansys-dpf-quantity-types"></a>
 # Structure ansys::dpf::quantity\_types
+
+<a id="structansys-dpf-quantity-types"></a>
 
 ![][C++]
 ![][public]

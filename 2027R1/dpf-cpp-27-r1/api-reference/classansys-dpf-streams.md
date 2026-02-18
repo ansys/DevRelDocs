@@ -1,5 +1,6 @@
-<a id="classansys-dpf-streams"></a>
 # Class ansys::dpf::Streams
+
+<a id="classansys-dpf-streams"></a>
 
 ![][C++]
 ![][public]

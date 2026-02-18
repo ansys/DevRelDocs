@@ -1,5 +1,6 @@
-<a id="classansys-dpf-libraryhandle"></a>
 # Class ansys::dpf::LibraryHandle
+
+<a id="classansys-dpf-libraryhandle"></a>
 
 ![][C++]
 ![][public]

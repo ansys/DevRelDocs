@@ -1,5 +1,6 @@
-<a id="namespaceansys-dpf-so"></a>
 # Namespace ansys::dpf::so
+
+<a id="namespaceansys-dpf-so"></a>
 
 ![][C++]
 

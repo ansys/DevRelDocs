@@ -1,5 +1,6 @@
-<a id="structansys-dpf-locations"></a>
 # Structure ansys::dpf::locations
+
+<a id="structansys-dpf-locations"></a>
 
 ![][C++]
 ![][public]

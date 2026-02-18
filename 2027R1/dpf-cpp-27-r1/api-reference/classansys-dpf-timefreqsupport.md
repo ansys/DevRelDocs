@@ -1,5 +1,6 @@
-<a id="classansys-dpf-timefreqsupport"></a>
 # Class ansys::dpf::TimeFreqSupport
+
+<a id="classansys-dpf-timefreqsupport"></a>
 
 ![][C++]
 ![][public]

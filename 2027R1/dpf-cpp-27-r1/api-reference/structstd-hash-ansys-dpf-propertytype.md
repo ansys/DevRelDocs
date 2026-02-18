@@ -1,5 +1,6 @@
-<a id="structstd-hash-ansys-dpf-propertytype-4"></a>
 # Structure std::hash\< ansys::dpf::PropertyType \>
+
+<a id="structstd-hash-ansys-dpf-propertytype-4"></a>
 
 ![][C++]
 ![][public]

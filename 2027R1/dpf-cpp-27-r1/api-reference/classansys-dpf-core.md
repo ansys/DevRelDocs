@@ -1,5 +1,6 @@
-<a id="classansys-dpf-core"></a>
 # Class ansys::dpf::core
+
+<a id="classansys-dpf-core"></a>
 
 ![][C++]
 ![][public]

@@ -1,5 +1,6 @@
-<a id="structansys-dpf-core-logging"></a>
 # Structure ansys::dpf::core::logging
+
+<a id="structansys-dpf-core-logging"></a>
 
 ![][C++]
 ![][public]

@@ -1,5 +1,6 @@
-<a id="classansys-dpf-core-logging-logger"></a>
 # Class ansys::dpf::core::logging::Logger
+
+<a id="classansys-dpf-core-logging-logger"></a>
 
 ![][C++]
 ![][public]

@@ -1,5 +1,6 @@
-<a id="structansys-dpf-spec-exposure"></a>
 # Structure ansys::dpf::spec::exposure
+
+<a id="structansys-dpf-spec-exposure"></a>
 
 ![][C++]
 ![][public]

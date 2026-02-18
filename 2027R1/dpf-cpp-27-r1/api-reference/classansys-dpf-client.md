@@ -1,5 +1,6 @@
-<a id="classansys-dpf-client"></a>
 # Class ansys::dpf::Client
+
+<a id="classansys-dpf-client"></a>
 
 ![][C++]
 ![][public]

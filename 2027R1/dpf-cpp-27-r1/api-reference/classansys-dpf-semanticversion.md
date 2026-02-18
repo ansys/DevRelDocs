@@ -1,5 +1,6 @@
-<a id="classansys-dpf-semanticversion"></a>
 # Class ansys::dpf::SemanticVersion
+
+<a id="classansys-dpf-semanticversion"></a>
 
 ![][C++]
 ![][public]

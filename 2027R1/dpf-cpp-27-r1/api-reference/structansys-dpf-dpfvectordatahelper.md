@@ -1,5 +1,6 @@
-<a id="structansys-dpf-dpfvectordatahelper"></a>
 # Structure ansys::dpf::DpfVectorDataHelper
+
+<a id="structansys-dpf-dpfvectordatahelper"></a>
 
 ![][C++]
 ![][public]

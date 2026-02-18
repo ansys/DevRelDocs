@@ -1,5 +1,6 @@
-<a id="classansys-dpf-datatree"></a>
 # Class ansys::dpf::DataTree
+
+<a id="classansys-dpf-datatree"></a>
 
 ![][C++]
 ![][public]

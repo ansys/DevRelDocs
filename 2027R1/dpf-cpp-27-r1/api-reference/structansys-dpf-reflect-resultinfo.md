@@ -1,5 +1,6 @@
-<a id="structansys-dpf-reflect-resultinfo-4"></a>
 # Structure ansys::dpf::reflect\< ResultInfo \>
+
+<a id="structansys-dpf-reflect-resultinfo-4"></a>
 
 ![][C++]
 ![][public]

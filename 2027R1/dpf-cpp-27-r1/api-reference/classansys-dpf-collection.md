@@ -1,5 +1,6 @@
-<a id="classansys-dpf-collection"></a>
 # Class ansys::dpf::Collection
+
+<a id="classansys-dpf-collection"></a>
 
 ![][C++]
 ![][public]

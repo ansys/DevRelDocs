@@ -1,5 +1,6 @@
-<a id="classansys-dpf-labelspace"></a>
 # Class ansys::dpf::LabelSpace
+
+<a id="classansys-dpf-labelspace"></a>
 
 ![][C++]
 ![][public]

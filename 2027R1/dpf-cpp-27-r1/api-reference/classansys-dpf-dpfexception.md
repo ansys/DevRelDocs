@@ -1,5 +1,6 @@
-<a id="classansys-dpf-dpfexception"></a>
 # Class ansys::dpf::DpfException
+
+<a id="classansys-dpf-dpfexception"></a>
 
 ![][C++]
 ![][public]

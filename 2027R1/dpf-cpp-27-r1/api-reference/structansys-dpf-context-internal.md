@@ -1,5 +1,6 @@
-<a id="structansys-dpf-context-internal"></a>
 # Structure ansys::dpf::Context::internal
+
+<a id="structansys-dpf-context-internal"></a>
 
 ![][C++]
 ![][public]

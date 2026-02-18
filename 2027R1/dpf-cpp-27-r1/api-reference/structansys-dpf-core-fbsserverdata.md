@@ -1,5 +1,6 @@
-<a id="structansys-dpf-core-fbsserverdata"></a>
 # Structure ansys::dpf::core::FbsServerData
+
+<a id="structansys-dpf-core-fbsserverdata"></a>
 
 ![][C++]
 ![][public]
