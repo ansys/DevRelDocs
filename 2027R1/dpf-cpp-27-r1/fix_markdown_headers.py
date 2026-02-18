@@ -104,7 +104,7 @@ def process_directory(directory):
 
 if __name__ == "__main__":
     # Directory containing the markdown files
-    markdown_dir = r"api-reference"
+    markdown_dir = r"examples"
     
     print("Markdown Header Fix Script")
     print("=" * 50)

@@ -1,5 +1,6 @@
-<a id="AveragingTest_8cpp-example"></a>
 # Example AveragingTest.cpp
+
+<a id="AveragingTest_8cpp-example"></a>
 Examples showing how to average results to reach a nodal or elemental form, per bodies... 
 ```
 //

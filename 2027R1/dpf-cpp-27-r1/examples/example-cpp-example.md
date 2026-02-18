@@ -1,5 +1,6 @@
-<a id="Example_8cpp-example"></a>
 # Example Example.cpp
+
+<a id="Example_8cpp-example"></a>
 Example helper functions. 
 ```
 //

@@ -1,5 +1,6 @@
-<a id="ModelTest_8cpp-example"></a>
 # Example ModelTest.cpp
+
+<a id="ModelTest_8cpp-example"></a>
 Examples showing how to load and use an RST file. 
 ```
 //

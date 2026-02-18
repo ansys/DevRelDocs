@@ -1,5 +1,6 @@
-<a id="Example_8h-example"></a>
 # Example Example.h
+
+<a id="Example_8h-example"></a>
 Example helper functions: to include in any other file. 
 ```
 //

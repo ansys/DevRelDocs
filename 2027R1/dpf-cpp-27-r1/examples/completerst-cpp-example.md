@@ -1,5 +1,6 @@
-<a id="CompleteRST_8cpp-example"></a>
 # Example CompleteRST.cpp
+
+<a id="CompleteRST_8cpp-example"></a>
 Example showing how to load an RST file and extract mesh and results. 
 ```
 //

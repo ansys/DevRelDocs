@@ -1,5 +1,6 @@
-<a id="ResultTest_8cpp-example"></a>
 # Example ResultTest.cpp
+
+<a id="ResultTest_8cpp-example"></a>
 Examples showing how to access results data in an RST file. 
 ```
 //
