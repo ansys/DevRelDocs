@@ -74,7 +74,7 @@ from an MPI application running on 2 processes to an MPI application running on 
 
 Figure 1 illustrates the problem setup.
 
-![Figure 1: Simple data transfer example](../images/SimpleDataTransferExample.png)  
+![Figure 1: Simple data transfer example](./../images/SimpleDataTransferExample.png)  
 _Figure 1: Simple data transfer example_
 
 #### C++

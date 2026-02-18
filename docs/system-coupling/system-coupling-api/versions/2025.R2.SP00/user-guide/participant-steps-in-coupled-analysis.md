@@ -16,7 +16,7 @@ This sequence of steps is required for the participant which is doing a steady a
 Note that the coupled analysis type may or may not be steady. The important part is that
 if this participant is steady, it must traverse this sequence of steps.
 
-![Figure 1: Sequence of participant steps for a steady analysis](../images/ParticipantStepsInCoupledAnalysisFigure1.png)  
+![Figure 1: Sequence of participant steps for a steady analysis](./../images/ParticipantStepsInCoupledAnalysisFigure1.png)  
 *Figure 1: Sequence of participant steps for a steady analysis*
 
 ### Participant steps in a transient coupled analysis with iterations
@@ -31,7 +31,7 @@ will correspond to the time value at the end of the current coupling time step. 
 this participant should produce outputs that correspond to the time
 value at the end of the current coupling time step.
 
-![Figure 2: Sequence of participant steps for a transient analysis with iterations](../images/ParticipantStepsInCoupledAnalysisFigure2.png)  
+![Figure 2: Sequence of participant steps for a transient analysis with iterations](./../images/ParticipantStepsInCoupledAnalysisFigure2.png)  
 *Figure 2: Sequence of participant steps for a transient analysis with iterations*
 
 ### Participant steps in a transient coupled analysis without iterations
@@ -43,7 +43,7 @@ to the time value at the beginning of the current coupling time step, and after 
 the participant should produce outputs that correspond to the time value at the
 end of the current coupling time step.
 
-![Figure 3: Sequence of participant steps for a transient analysis without iterations](../images/ParticipantStepsInCoupledAnalysisFigure3.png)  
+![Figure 3: Sequence of participant steps for a transient analysis without iterations](./../images/ParticipantStepsInCoupledAnalysisFigure3.png)  
 *Figure 3: Sequence of participant steps for a transient analysis without iterations*
 
 ## Connect to System Coupling
