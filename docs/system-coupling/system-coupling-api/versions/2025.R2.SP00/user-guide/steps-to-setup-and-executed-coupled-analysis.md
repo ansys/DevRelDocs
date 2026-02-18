@@ -3,7 +3,7 @@
 The steps involved in setting up and executing the coupled analysis are shown in Figure 1 and
 described in more details below.
 
-![Figure 1: Sequence of steps to set up and execute a coupled analysis](../images/ParticipantStepsInSetupAndExecution.png)  
+![Figure 1: Sequence of steps to set up and execute a coupled analysis](./../images/ParticipantStepsInSetupAndExecution.png)  
 *Figure 1: Sequence of steps to set up and execute a coupled analysis*
 
 ## Step 1: Set up the participant solver

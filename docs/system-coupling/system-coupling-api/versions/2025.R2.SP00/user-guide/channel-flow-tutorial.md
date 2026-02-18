@@ -49,7 +49,7 @@ The geometry is discretized using tetrahedral mesh, as shown in _Figure 1_.
 
 - The case is set up to perform five Fluent solver iterations per coupling iteration.
 
-![Figure 1: Fluent geometry](../images/ChannelFlowTutorialFigure1.png)  
+![Figure 1: Fluent geometry](./../images/ChannelFlowTutorialFigure1.png)  
 _Figure 1: Fluent geometry_
 
 ### Mock solver
@@ -64,7 +64,7 @@ a rectangle extending from origin to point (1, 0.1, 0).
 
 - It sends heat rate on elements as outputs on the **FSI** region. Each of the four elements provides constant 5 [W], so a total of 20 [W] is supplied to Fluent by the mock solver.
 
-![Figure 2: Mock solver geometry](../images/ChannelFlowTutorialFigure2.png)  
+![Figure 2: Mock solver geometry](./../images/ChannelFlowTutorialFigure2.png)  
 _Figure 2: Mock solver geometry_
 
 ## Get the necessary files
@@ -210,7 +210,7 @@ You'll be able to visualize the air temperature as it gets heated while flowing 
 
     This allows you to visualize the air temperature as the air flows through the channel and the hot air is mixed with the colder air.
 
-![Figure 3: Fluent temperature results after co-simulation with the mock solver](../images/ChannelFlowTutorialFigure3.png)  
+![Figure 3: Fluent temperature results after co-simulation with the mock solver](./../images/ChannelFlowTutorialFigure3.png)  
 _Figure 3: Fluent temperature results after co-simulation with the mock solver_
 
 ## Part 2: The parallel version of the mock solver

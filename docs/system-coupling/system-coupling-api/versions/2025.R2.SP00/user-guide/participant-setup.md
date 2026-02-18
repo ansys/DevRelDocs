@@ -67,7 +67,7 @@ This wrapper script should then be provided to System Coupling as the participan
 
 The sequence of steps to be traversed during the participant setup is shown in Figure 1.
 
-![Figure 1: Sequence of Coupled Participant Setup Steps](../images/ParticipantStepsInSetupMode.png)  
+![Figure 1: Sequence of Coupled Participant Setup Steps](./../images/ParticipantStepsInSetupMode.png)  
 _Figure 1: Sequence of Coupled Participant Setup Steps_
 
 ### Step 1: Start in standalone mode or connect to System Coupling

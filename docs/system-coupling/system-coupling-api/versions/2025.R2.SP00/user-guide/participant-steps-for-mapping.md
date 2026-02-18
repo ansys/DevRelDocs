@@ -9,7 +9,7 @@ The details of the mapping algorithms can be found in the System Coupling User's
 The steps involved in setting up and executing mapping of data are shown in
 Figure 1 and described in more details below.
 
-![Figure 1: Sequence of steps to execute mapping](../images/ParticipantStepsInMapping.png)  
+![Figure 1: Sequence of steps to execute mapping](./../images/ParticipantStepsInMapping.png)  
 _Figure 1: Sequence of steps to execute mapping_
 
 The steps are described in more detail below. A couple of code examples for each target
@@ -83,7 +83,7 @@ also becomes `33.3`.
 
 Figure 2 illustrates the problem setup.
 
-![Figure 2: Simple surface mapping example](../images/SimpleMappingExample.png)  
+![Figure 2: Simple surface mapping example](./../images/SimpleMappingExample.png)  
 _Figure 2: Simple surface mapping example_
 
 #### C++
@@ -595,7 +595,7 @@ also become `33.3`.
 
 Figure 3 illustrates the problem setup.
 
-![Figure 3: Simple volume mapping example](../images/SimpleVolumeMappingExample.png)  
+![Figure 3: Simple volume mapping example](./../images/SimpleVolumeMappingExample.png)  
 _Figure 3: Simple volume mapping example_
 
 #### C++
