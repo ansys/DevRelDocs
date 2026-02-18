@@ -19,6 +19,22 @@
 # USA.
 ################################################################################
 
+################################################################################
+# Regular expression to identify product version directories.
+#
+# Constraints:
+#   1. Must NOT be in the repository root.
+#   2. Must NOT be in the first directory level. 
+#   2. Matches paths containing: /versions/YYYY.RX.SPXX
+#
+# Examples:
+#   - docs/some_dir/versions/2026.R1.SP00             (Match)
+#   - docs/some_dir/another_dir/versions/2026.R1.SP00 (Match)
+#   - docs/versions/2026.R1.SP00                      (No Match)
+#   - versions/2026.R1.SP00                           (No Match)
+################################################################################
+readonly PRODUCT_VERSION_DIR_REGEX='^([^/]+/){2,}versions/[0-9]{4}\.R[0-9]\.SP[0-9]{2}'
+
 ########################################
 # Validates required environment variables.
 #
@@ -91,9 +107,8 @@ extract_product_documentation_metadata() {
   local -n _ref_physics=$5
 
   # Identify affected product version directories.
-  local _version_dir_regex='^[^/]+/versions/[0-9]{4}\.R[0-9]{1}\.SP[0-9]{2}'
   local _version_dirs
-  _version_dirs=$(git diff-tree --no-commit-id --name-only -r HEAD | grep -oP "${_version_dir_regex}" | sort -u || true)
+  _version_dirs=$(git diff-tree --no-commit-id --name-only -r HEAD | grep -oP "${PRODUCT_VERSION_DIR_REGEX}" | sort -u || true)
 
   if [[ -z "${_version_dirs}" ]]; then
     echo "No product documentation changes detected. Exiting."
@@ -222,7 +237,7 @@ get_access_token() {
 #   BASE_URL - The base URL of the site instance.
 #   GITHUB_REPOSITORY_OWNER - The owner of the current GitHub repository.
 #   GITHUB_REPOSITORY - Used to derive the short repository name.
-#   GITHUB_REF - Used to derive the git branch or tag name.
+#   GITHUB_REF_NAME - The git branch or tag name.
 #   GITHUB_SHA - The commit hash triggering the migration.
 #   BASIC_AUTH_USERNAME - (Optional) Username for basic auth.
 #   BASIC_AUTH_PASSWORD - (Optional) Password for basic auth.
@@ -255,7 +270,7 @@ create_migration_job() {
     --arg ro "${GITHUB_REPOSITORY_OWNER}" \
     --arg rn "${_github_repository_name}" \
     --arg sp "${_source_path}" \
-    --arg gr "${GITHUB_REF##*/}" \
+    --arg gr "${GITHUB_REF_NAME}" \
     --arg cs "${GITHUB_SHA}" \
     --arg pn "${_product_name}" \
     --arg pv "${_product_version}" \

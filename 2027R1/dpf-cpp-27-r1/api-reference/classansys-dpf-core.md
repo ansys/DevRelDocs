@@ -1,0 +1,1459 @@
+# Class ansys::dpf::core
+
+<a id="classansys-dpf-core"></a>
+
+![][C++]
+![][public]
+
+
+
+Groups all DataProcessingFramework core controls and utilities, like loading the core, loading libraries, protected instantiation, settings control.
+
+## Inner classes
+
+* [ansys::dpf::core::FbsServerData](structansys-dpf-core-fbsserverdata.md#structansys-dpf-core-fbsserverdata)
+* [ansys::dpf::core::trace](structansys-dpf-core-trace.md#structansys-dpf-core-trace)
+* [ansys::dpf::core::path\_utilities](structansys-dpf-core-path-utilities.md#structansys-dpf-core-path-utilities)
+* [ansys::dpf::core::logging](structansys-dpf-core-logging.md#structansys-dpf-core-logging)
+
+## Members
+
+* [applyContext](classansys-dpf-core.md#classansys-dpf-core-1a5fbdf727da47ba6dd749ade51f1f2dcc)
+* [applyContext](classansys-dpf-core.md#classansys-dpf-core-1a768caf3bdc514ba3469584ea6da7ce78)
+* [assertInstantiate](classansys-dpf-core.md#classansys-dpf-core-1a90f442e446b15a9fb5171ddcdf191b16)
+* [assertInstantiate](classansys-dpf-core.md#classansys-dpf-core-1add883fb6a137735138c6b7bd9759c37f)
+* [assertInstantiate](classansys-dpf-core.md#classansys-dpf-core-1a721f5fcbccec1819566351daf8549ae9)
+* [assertInstantiate](classansys-dpf-core.md#classansys-dpf-core-1ac729e14b3132c112e50982614be304aa)
+* [availableOperators](classansys-dpf-core.md#classansys-dpf-core-1a4ff73d65cea2aa6f69436ec673cb8934)
+* [availableOperators](classansys-dpf-core.md#classansys-dpf-core-1aca0296747cd46c61c955b8cdaa1ed16f)
+* [connectToFbsServer](classansys-dpf-core.md#classansys-dpf-core-1a8db49a31a767102e225f9b0de89aabc1)
+* [connectToFbsServer](classansys-dpf-core.md#classansys-dpf-core-1af59369ee9906684fed5f2deab51d6c78)
+* [copyTo](classansys-dpf-core.md#classansys-dpf-core-1af26687fad53552d2263864bc46f935c8)
+* [core](classansys-dpf-core.md#classansys-dpf-core-1a451565ef11de326224de4b0b9f80e9fa)
+* [defaultOperatorConfig](classansys-dpf-core.md#classansys-dpf-core-1a20f37512490ec6131335f52be7f2f28d)
+* [getAndReleaseFromDatabase](classansys-dpf-core.md#classansys-dpf-core-1afb289372003268d7656638b51adc54cd)
+* [getOperatorSpecification](classansys-dpf-core.md#classansys-dpf-core-1ae9c538db9a8802e9ec28e9e7b40267b5)
+* [getOrStartFbsServer](classansys-dpf-core.md#classansys-dpf-core-1ae1f05f981693332e70380141f61a2bc0)
+* [getRuntimeClientConfig](classansys-dpf-core.md#classansys-dpf-core-1a4825a05c0f34be426942c0c519ee3b74)
+* [getRuntimeCoreConfig](classansys-dpf-core.md#classansys-dpf-core-1a7e7dded7bf842c8c587bd0264b0b7452)
+* [getRuntimeCoreConfig](classansys-dpf-core.md#classansys-dpf-core-1a26d52ede300647e78b0a538690e5ffb8)
+* [getServerVersion](classansys-dpf-core.md#classansys-dpf-core-1ae3472a9ced3aff887f623d3a46943d5d)
+* [loadDpfPlugin](classansys-dpf-core.md#classansys-dpf-core-1addc032f5882185bcf940ce7adf293327)
+* [loadDpfPlugin](classansys-dpf-core.md#classansys-dpf-core-1aa9921dd047827c618f977e01ee088694)
+* [loadDpfPlugin](classansys-dpf-core.md#classansys-dpf-core-1a74f7e10fc172292bc61582304787c30f)
+* [operatorById](classansys-dpf-core.md#classansys-dpf-core-1a9368b14c3950b5227a837df8d3b865e8)
+* [prepareServerShutdown](classansys-dpf-core.md#classansys-dpf-core-1ac3391e2f4d7b643efe6dcf0e934e8f45)
+* [recordInDatabase](classansys-dpf-core.md#classansys-dpf-core-1a5c9ea0aa27d4bc9899d9af58e4422d60)
+* [recordInDatabase](classansys-dpf-core.md#classansys-dpf-core-1a5518f7636182e822f15a7ed40eb2c80a)
+* [recordOperator](classansys-dpf-core.md#classansys-dpf-core-1a1ba7a71221fa1426e7d692af8073c6f9)
+* [recordOperator](classansys-dpf-core.md#classansys-dpf-core-1ae2e440cbaacff372ab16a894ebd58523)
+* [recordOperator](classansys-dpf-core.md#classansys-dpf-core-1a044882b0c9ca34a7d6327fa1e66c2a4c)
+* [recordOperator](classansys-dpf-core.md#classansys-dpf-core-1ab323bdae88822935579597e9057cc14b)
+* [recordOperatorAtCore](classansys-dpf-core.md#classansys-dpf-core-1aeb4b908d70980261a3d1ed22d0f7e308)
+* [recordOperatorAtCoreWithDerivative](classansys-dpf-core.md#classansys-dpf-core-1a8c1912705392647f450a5734ef7b0333)
+* [recordOperatorWithDerivative](classansys-dpf-core.md#classansys-dpf-core-1aa1cb1818b981f0c1df639ef30ffc9f8b)
+* [recordOperatorWithNewName](classansys-dpf-core.md#classansys-dpf-core-1aee8c2e35cb45716a87ebe7770ded34ea)
+* [releaseDpf](classansys-dpf-core.md#classansys-dpf-core-1a1a1687a6a7403dcbdb7fdbda47e100dc)
+* [releaseDpf](classansys-dpf-core.md#classansys-dpf-core-1a8dd035c5ee368c43a4bc0d25b356e28a)
+* [releaseFromDatabase](classansys-dpf-core.md#classansys-dpf-core-1a344424c85e16b6bb44cf7e27f021aa45)
+* [releaseServer](classansys-dpf-core.md#classansys-dpf-core-1a2a7492837eb46b2d3ec75cd4e3e76c9f)
+* [startFbsServer](classansys-dpf-core.md#classansys-dpf-core-1a3b38833684ca509339ffe007ada5a030)
+* [workflowById](classansys-dpf-core.md#classansys-dpf-core-1a723856ec83974fcb2cc61549f3cb89dd)
+* [workflowById](classansys-dpf-core.md#classansys-dpf-core-1ae3c3f567efed3342df687fac9889c878)
+* [workflowFromTemplate](classansys-dpf-core.md#classansys-dpf-core-1a0438a9c581e010038f7c40c5043a0f89)
+* [workflowTemplateExists](classansys-dpf-core.md#classansys-dpf-core-1a7db9305e737bd0fb2859ff145d31d350)
+
+## Friends
+
+## Public functions
+
+<a id="classansys-dpf-core-1a451565ef11de326224de4b0b9f80e9fa"></a>
+### Function core
+
+![][public]
+
+
+```cpp
+ansys::dpf::core::core()=delete
+```
+
+
+
+
+
+
+
+
+**Return type**: 
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::core"}]}`
+-->
+
+## Public static functions
+
+<a id="classansys-dpf-core-1a5fbdf727da47ba6dd749ade51f1f2dcc"></a>
+### Function applyContext
+
+![][public]
+![][static]
+
+
+```cpp
+static DpfError ansys::dpf::core::applyContext(Context const &context)
+```
+
+
+
+
+Defines the settings that will be used to load DPF's plugins. A DPF xml file can be used. 
+**Returns**:
+
+Status of call.
+
+
+
+**Parameters**:
+
+* [Context](classansys-dpf-context.md#classansys-dpf-context) const & **context**
+
+**Return type**: [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::applyContext"}]}`
+-->
+
+<a id="classansys-dpf-core-1a1a1687a6a7403dcbdb7fdbda47e100dc"></a>
+### Function releaseDpf
+
+![][public]
+![][static]
+
+
+```cpp
+static DpfError ansys::dpf::core::releaseDpf()
+```
+
+
+
+
+Clears the available Operators and Releases licenses when necessary. 
+**Returns**:
+
+Status of call.
+
+
+
+**Return type**: [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::releaseDpf"}]}`
+-->
+
+<a id="classansys-dpf-core-1a8dd035c5ee368c43a4bc0d25b356e28a"></a>
+### Function releaseDpf
+
+![][public]
+![][static]
+
+
+```cpp
+static DpfError ansys::dpf::core::releaseDpf(Client const *const client)
+```
+
+
+
+
+Clears the available Operators and Releases licenses when necessary. 
+**Returns**:
+
+Status of call.
+
+
+
+**Parameters**:
+
+* [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
+
+**Return type**: [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::releaseDpf"}]}`
+-->
+
+<a id="classansys-dpf-core-1a768caf3bdc514ba3469584ea6da7ce78"></a>
+### Function applyContext
+
+![][public]
+![][static]
+
+
+```cpp
+static DpfError ansys::dpf::core::applyContext(Context const &context, Client const *const client)
+```
+
+
+
+
+Defines the settings that will be used to load DPF's plugins. A DPF xml file can be used. 
+**Returns**:
+
+Status of call.
+
+
+
+**Parameters**:
+
+* [Context](classansys-dpf-context.md#classansys-dpf-context) const & **context**
+* [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
+
+**Return type**: [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::applyContext"}]}`
+-->
+
+<a id="classansys-dpf-core-1addc032f5882185bcf940ce7adf293327"></a>
+### Function loadDpfPlugin
+
+![][public]
+![][static]
+
+
+```cpp
+static DpfError ansys::dpf::core::loadDpfPlugin(std::string const &plugin_path, std::string const &plugin_name, std::string const &symbol="LoadOperators")
+```
+
+
+
+
+Loads specified DPF plugin. 
+**Returns**:
+
+Status of call.
+
+
+
+**Parameters**:
+
+* std::string const & **plugin_path**: [in] Full path to plugin.
+* std::string const & **plugin_name**: [in] Identifying name for plugin.
+* std::string const & **symbol** = "LoadOperators" : [in] Type of load.
+
+**Return type**: [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::loadDpfPlugin"}]}`
+-->
+
+<a id="classansys-dpf-core-1aa9921dd047827c618f977e01ee088694"></a>
+### Function loadDpfPlugin
+
+![][public]
+![][static]
+
+
+```cpp
+static DpfError ansys::dpf::core::loadDpfPlugin(std::string const &plugin_path, std::string const &plugin_name, Client const *const client)
+```
+
+
+
+
+Loads specified DPF plugin. 
+**Returns**:
+
+Status of call.
+
+
+
+**Parameters**:
+
+* std::string const & **plugin_path**: [in] Full path to plugin.
+* std::string const & **plugin_name**: [in] Identifying name for plugin.
+* [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
+
+**Return type**: [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::loadDpfPlugin"}]}`
+-->
+
+<a id="classansys-dpf-core-1a74f7e10fc172292bc61582304787c30f"></a>
+### Function loadDpfPlugin
+
+![][public]
+![][static]
+
+
+```cpp
+static DpfError ansys::dpf::core::loadDpfPlugin(std::string const &plugin_path, std::string const &plugin_name, std::string const &symbol, Client const *const client)
+```
+
+
+
+
+Loads specified DPF plugin. 
+**Returns**:
+
+Status of call.
+
+
+
+**Parameters**:
+
+* std::string const & **plugin_path**: [in] Full path to plugin.
+* std::string const & **plugin_name**: [in] Identifying name for plugin.
+* std::string const & **symbol**: [in] Type of load.
+* [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
+
+**Return type**: [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::loadDpfPlugin"}]}`
+-->
+
+<a id="classansys-dpf-core-1a90f442e446b15a9fb5171ddcdf191b16"></a>
+### Function assertInstantiate
+
+![][public]
+![][static]
+
+
+```cpp
+static Operator ansys::dpf::core::assertInstantiate(std::string const &identifier)
+```
+
+
+
+
+**Returns**:
+
+[Operator](classansys-dpf-operator.md#classansys-dpf-operator) given by identifier.
+
+
+
+**Parameters**:
+
+* std::string const & **identifier**: [in] [Operator](classansys-dpf-operator.md#classansys-dpf-operator) to instantiate.
+
+**Return type**: [Operator](classansys-dpf-operator.md#classansys-dpf-operator)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::assertInstantiate"}]}`
+-->
+
+<a id="classansys-dpf-core-1add883fb6a137735138c6b7bd9759c37f"></a>
+### Function assertInstantiate
+
+![][public]
+![][static]
+
+
+```cpp
+static Operator ansys::dpf::core::assertInstantiate(std::string const &identifier, Client const *const client)
+```
+
+
+
+
+**Returns**:
+
+[Operator](classansys-dpf-operator.md#classansys-dpf-operator) given by identifier.
+
+
+
+**Parameters**:
+
+* std::string const & **identifier**: [in] [Operator](classansys-dpf-operator.md#classansys-dpf-operator) to instantiate.
+* [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
+
+**Return type**: [Operator](classansys-dpf-operator.md#classansys-dpf-operator)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::assertInstantiate"}]}`
+-->
+
+<a id="classansys-dpf-core-1a721f5fcbccec1819566351daf8549ae9"></a>
+### Function assertInstantiate
+
+![][public]
+![][static]
+
+
+```cpp
+static Operator ansys::dpf::core::assertInstantiate(std::string const &identifier, OperatorConfig const &config, Client const *const client)
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* std::string const & **identifier**: [in] [Operator](classansys-dpf-operator.md#classansys-dpf-operator) to instantiate.
+* [OperatorConfig](classansys-dpf-operatorconfig.md#classansys-dpf-operatorconfig) const & **config**: [in] Additional configuration information.
+* [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
+
+**Return type**: [Operator](classansys-dpf-operator.md#classansys-dpf-operator)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::assertInstantiate"}]}`
+-->
+
+<a id="classansys-dpf-core-1ac729e14b3132c112e50982614be304aa"></a>
+### Function assertInstantiate
+
+![][public]
+![][static]
+
+
+```cpp
+static Operator ansys::dpf::core::assertInstantiate(std::string const &identifier, OperatorConfig const &config)
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* std::string const & **identifier**: [in] [Operator](classansys-dpf-operator.md#classansys-dpf-operator) to instantiate.
+* [OperatorConfig](classansys-dpf-operatorconfig.md#classansys-dpf-operatorconfig) const & **config**: [in] Additional configuration information.
+
+**Return type**: [Operator](classansys-dpf-operator.md#classansys-dpf-operator)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::assertInstantiate"}]}`
+-->
+
+<a id="classansys-dpf-core-1a20f37512490ec6131335f52be7f2f28d"></a>
+### Function defaultOperatorConfig
+
+![][public]
+![][static]
+
+
+```cpp
+static OperatorConfig ansys::dpf::core::defaultOperatorConfig(std::string const &op_identifier, Client const *const client=nullptr)
+```
+
+
+
+
+**Returns**:
+
+Default configuration of given operator.
+
+
+
+**Parameters**:
+
+* std::string const & **op_identifier**: [in] [Operator](classansys-dpf-operator.md#classansys-dpf-operator) for which to get configuration.
+* [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client** = nullptr : [in] [Client](classansys-dpf-client.md#classansys-dpf-client) on which to get the operator's config from. Default is nullptr.
+
+**Return type**: [OperatorConfig](classansys-dpf-operatorconfig.md#classansys-dpf-operatorconfig)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::defaultOperatorConfig"}]}`
+-->
+
+<a id="classansys-dpf-core-1ae9c538db9a8802e9ec28e9e7b40267b5"></a>
+### Function getOperatorSpecification
+
+![][public]
+![][static]
+
+
+```cpp
+static OperatorSpecification ansys::dpf::core::getOperatorSpecification(std::string const &identifier, Client const *const client=nullptr)
+```
+
+
+
+
+**Returns**:
+
+Specification of given operator.
+
+
+
+**Parameters**:
+
+* std::string const & **identifier**: [in] [Operator](classansys-dpf-operator.md#classansys-dpf-operator) for which to get specification.
+* [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client** = nullptr : [in] [Client](classansys-dpf-client.md#classansys-dpf-client) on which to get the operator's config from. Default is nullptr.
+
+**Return type**: [OperatorSpecification](classansys-dpf-operatorspecification.md#classansys-dpf-operatorspecification)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::getOperatorSpecification"}]}`
+-->
+
+<a id="classansys-dpf-core-1a1ba7a71221fa1426e7d692af8073c6f9"></a>
+### Function recordOperator
+
+![][public]
+![][static]
+
+
+```cpp
+static void ansys::dpf::core::recordOperator(OperatorMainFunction f, std::string const &operator_identifier, AbstractCore *core=nullptr)
+```
+
+
+
+
+Record a new operator.
+
+
+
+**Parameters**:
+
+* OperatorMainFunction **f**: [in] Function to perform operator.
+* std::string const & **operator_identifier**: [in] Unique identifier for operator.
+* AbstractCore * **core** = nullptr 
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::recordOperator"}]}`
+-->
+
+<a id="classansys-dpf-core-1ae2e440cbaacff372ab16a894ebd58523"></a>
+### Function recordOperator
+
+![][public]
+![][static]
+
+
+```cpp
+static void ansys::dpf::core::recordOperator(OperatorMainFunction f, std::string const &operator_identifier, OperatorSpecification const &spec, AbstractCore *=nullptr)
+```
+
+
+
+
+Record a new operator.
+
+
+
+**Parameters**:
+
+* OperatorMainFunction **f**: [in] Function to perform operator.
+* std::string const & **operator_identifier**: [in] Unique identifier for operator.
+* [OperatorSpecification](classansys-dpf-operatorspecification.md#classansys-dpf-operatorspecification) const & **spec**: [in] Definition of inputs and outputs.
+* AbstractCore * = nullptr 
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::recordOperator"}]}`
+-->
+
+<a id="classansys-dpf-core-1a044882b0c9ca34a7d6327fa1e66c2a4c"></a>
+### Function recordOperator
+
+![][public]
+![][static]
+
+
+```cpp
+static void ansys::dpf::core::recordOperator(OperatorMainFunction f, OperatorDerivateFunction deriv, std::string const &operator_identifier, OperatorSpecification const &spec, AbstractCore *=nullptr)
+```
+
+
+
+
+Record a new operator.
+
+
+
+**Parameters**:
+
+* OperatorMainFunction **f**: [in] Function to perform operator.
+* OperatorDerivateFunction **deriv**
+* std::string const & **operator_identifier**: < [in] Function to derivate operator [in] Unique identifier for operator.
+* [OperatorSpecification](classansys-dpf-operatorspecification.md#classansys-dpf-operatorspecification) const & **spec**: [in] Definition of inputs and outputs.
+* AbstractCore * = nullptr 
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::recordOperator"}]}`
+-->
+
+<a id="classansys-dpf-core-1ab323bdae88822935579597e9057cc14b"></a>
+### Function recordOperator
+
+![][public]
+![][static]
+
+
+```cpp
+static void ansys::dpf::core::recordOperator()
+```
+
+
+
+
+Record a new operator based on defined type.
+
+
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename StructureT"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::recordOperator"}]}`
+-->
+
+<a id="classansys-dpf-core-1aa1cb1818b981f0c1df639ef30ffc9f8b"></a>
+### Function recordOperatorWithDerivative
+
+![][public]
+![][static]
+
+
+```cpp
+static void ansys::dpf::core::recordOperatorWithDerivative()
+```
+
+
+
+
+Record a new operator based on defined type, with a derivative
+
+
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename StructureT"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::recordOperatorWithDerivative"}]}`
+-->
+
+<a id="classansys-dpf-core-1aeb4b908d70980261a3d1ed22d0f7e308"></a>
+### Function recordOperatorAtCore
+
+![][public]
+![][static]
+
+
+```cpp
+static void ansys::dpf::core::recordOperatorAtCore(AbstractCore *core)
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* AbstractCore * **core**
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename StructureT"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::recordOperatorAtCore"}]}`
+-->
+
+<a id="classansys-dpf-core-1a8c1912705392647f450a5734ef7b0333"></a>
+### Function recordOperatorAtCoreWithDerivative
+
+![][public]
+![][static]
+
+
+```cpp
+static void ansys::dpf::core::recordOperatorAtCoreWithDerivative(AbstractCore *core)
+```
+
+
+
+
+Record a new operator based on defined type, with a derivative
+
+
+
+**Parameters**:
+
+* AbstractCore * **core**
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename StructureT"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::recordOperatorAtCoreWithDerivative"}]}`
+-->
+
+<a id="classansys-dpf-core-1aee8c2e35cb45716a87ebe7770ded34ea"></a>
+### Function recordOperatorWithNewName
+
+![][public]
+![][static]
+
+
+```cpp
+static void ansys::dpf::core::recordOperatorWithNewName(std::string const &exising_identifier, std::string const &new_identifier, AbstractCore *=nullptr)
+```
+
+
+
+
+Duplicates the record of the [Operator](classansys-dpf-operator.md#classansys-dpf-operator) identified by its name in the registry. The [Operator](classansys-dpf-operator.md#classansys-dpf-operator) will be added as private and won't appear in the documentation
+
+
+
+**Parameters**:
+
+* std::string const & **exising_identifier**: [in] existing unique identifier for operator.
+* std::string const & **new_identifier**: [in] Unique identifier for operator.
+* AbstractCore * = nullptr 
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::recordOperatorWithNewName"}]}`
+-->
+
+<a id="classansys-dpf-core-1a723856ec83974fcb2cc61549f3cb89dd"></a>
+### Function workflowById
+
+![][public]
+![][static]
+
+
+```cpp
+static Workflow ansys::dpf::core::workflowById(int id)
+```
+
+
+
+
+**Returns**:
+
+Worflow registered in the registry (with Workflow::record) with its id.
+
+
+
+**Parameters**:
+
+* int **id**: [in] Workflow id created by Workflow::record.
+
+**Return type**: Workflow
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::workflowById"}]}`
+-->
+
+<a id="classansys-dpf-core-1ae3c3f567efed3342df687fac9889c878"></a>
+### Function workflowById
+
+![][public]
+![][static]
+
+
+```cpp
+static Workflow ansys::dpf::core::workflowById(int id, Client const *const client)
+```
+
+
+
+
+**Returns**:
+
+Worflow registered in a server's registry (with Workflow::record) with its id.
+
+
+
+**Parameters**:
+
+* int **id**: [in] Workflow id created by Workflow::record.
+* [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
+
+**Return type**: Workflow
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::workflowById"}]}`
+-->
+
+<a id="classansys-dpf-core-1a9368b14c3950b5227a837df8d3b865e8"></a>
+### Function operatorById
+
+![][public]
+![][static]
+
+
+```cpp
+static Operator ansys::dpf::core::operatorById(int id)
+```
+
+
+
+
+**Returns**:
+
+[Operator](classansys-dpf-operator.md#classansys-dpf-operator) given by id.
+
+
+
+**Parameters**:
+
+* int **id**: [in] [Operator](classansys-dpf-operator.md#classansys-dpf-operator) id.
+
+**Return type**: [Operator](classansys-dpf-operator.md#classansys-dpf-operator)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::operatorById"}]}`
+-->
+
+<a id="classansys-dpf-core-1a0438a9c581e010038f7c40c5043a0f89"></a>
+### Function workflowFromTemplate
+
+![][public]
+![][static]
+
+
+```cpp
+static Workflow ansys::dpf::core::workflowFromTemplate(std::string const &template_identifier)
+```
+
+
+
+
+**Returns**:
+
+Workflow given by template identifier.
+
+
+
+**Parameters**:
+
+* std::string const & **template_identifier**: [in] Workflow template identifier.
+
+**Return type**: Workflow
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::workflowFromTemplate"}]}`
+-->
+
+<a id="classansys-dpf-core-1a7db9305e737bd0fb2859ff145d31d350"></a>
+### Function workflowTemplateExists
+
+![][public]
+![][static]
+
+
+```cpp
+static bool ansys::dpf::core::workflowTemplateExists(std::string const &template_identifier)
+```
+
+
+
+
+**Returns**:
+
+true if template identifier exists
+
+
+
+**Parameters**:
+
+* std::string const & **template_identifier**: [in] Workflow template identifier.
+
+**Return type**: bool
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::workflowTemplateExists"}]}`
+-->
+
+<a id="classansys-dpf-core-1ac3391e2f4d7b643efe6dcf0e934e8f45"></a>
+### Function prepareServerShutdown
+
+![][public]
+![][static]
+
+
+```cpp
+static void ansys::dpf::core::prepareServerShutdown(Client *const client)
+```
+
+
+
+
+Send a prepare shutdown request (cleanup process) to a specified server.
+
+
+
+**Parameters**:
+
+* [Client](classansys-dpf-client.md#classansys-dpf-client) *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::prepareServerShutdown"}]}`
+-->
+
+<a id="classansys-dpf-core-1a2a7492837eb46b2d3ec75cd4e3e76c9f"></a>
+### Function releaseServer
+
+![][public]
+![][static]
+
+
+```cpp
+static void ansys::dpf::core::releaseServer(Client *const client)
+```
+
+
+
+
+@detailsremoves the handle on the server should be used only if the server was started by this client instance
+
+
+
+**Parameters**:
+
+* [Client](classansys-dpf-client.md#classansys-dpf-client) *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::releaseServer"}]}`
+-->
+
+<a id="classansys-dpf-core-1a4ff73d65cea2aa6f69436ec673cb8934"></a>
+### Function availableOperators
+
+![][public]
+![][static]
+
+
+```cpp
+static std::vector< std::string > ansys::dpf::core::availableOperators()
+```
+
+
+
+
+Returns all the availbale operators names.
+
+
+
+**Return type**: std::vector< std::string >
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::availableOperators"}]}`
+-->
+
+<a id="classansys-dpf-core-1aca0296747cd46c61c955b8cdaa1ed16f"></a>
+### Function availableOperators
+
+![][public]
+![][static]
+
+
+```cpp
+static std::vector< std::string > ansys::dpf::core::availableOperators(Client *const client)
+```
+
+
+
+
+Returns all the availbale operators names for a given client.
+
+
+
+**Parameters**:
+
+* [Client](classansys-dpf-client.md#classansys-dpf-client) *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
+
+**Return type**: std::vector< std::string >
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::availableOperators"}]}`
+-->
+
+<a id="classansys-dpf-core-1a5c9ea0aa27d4bc9899d9af58e4422d60"></a>
+### Function recordInDatabase
+
+![][public]
+![][static]
+
+
+```cpp
+static dataIdentifierInDatabase ansys::dpf::core::recordInDatabase(databaseIdentifier const &key, DpfTypes &data)
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* databaseIdentifier const & **key**
+* [DpfTypes](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes) & **data**
+
+**Return type**: dataIdentifierInDatabase
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::recordInDatabase"}]}`
+-->
+
+<a id="classansys-dpf-core-1a5518f7636182e822f15a7ed40eb2c80a"></a>
+### Function recordInDatabase
+
+![][public]
+![][static]
+
+
+```cpp
+static dataIdentifierInDatabase ansys::dpf::core::recordInDatabase(DpfTypes &data)
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* [DpfTypes](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes) & **data**: [in] Remote Data to record
+
+**Return type**: dataIdentifierInDatabase
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::recordInDatabase"}]}`
+-->
+
+<a id="classansys-dpf-core-1a344424c85e16b6bb44cf7e27f021aa45"></a>
+### Function releaseFromDatabase
+
+![][public]
+![][static]
+
+
+```cpp
+static void ansys::dpf::core::releaseFromDatabase(dp_id id, Client const *const client, bool async=false)
+```
+
+
+
+
+suppress the entity from the server's database.
+
+
+
+**Parameters**:
+
+* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **id**: [in] its Id on the server.
+* [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
+* bool **async** = false 
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::releaseFromDatabase"}]}`
+-->
+
+<a id="classansys-dpf-core-1afb289372003268d7656638b51adc54cd"></a>
+### Function getAndReleaseFromDatabase
+
+![][public]
+![][static]
+
+
+```cpp
+static ansys::dpf::Any ansys::dpf::core::getAndReleaseFromDatabase(dp_id id, databaseIdentifier db_id)
+```
+
+
+
+
+Retrieves the object from the database, deletes it from the database and returns it. if nothing is found, the return [Any](classansys-dpf-any.md#classansys-dpf-any) is empty, see [ansys::dpf::Any::empty](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a39cd546c42518e2332be8f287db95459).
+
+
+
+**Parameters**:
+
+* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **id**: [in] Id of the object on the server's database.
+* databaseIdentifier **db_id**
+
+**Return type**: [ansys::dpf::Any](classansys-dpf-any.md#classansys-dpf-any)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::getAndReleaseFromDatabase"}]}`
+-->
+
+<a id="classansys-dpf-core-1a7e7dded7bf842c8c587bd0264b0b7452"></a>
+### Function getRuntimeCoreConfig
+
+![][public]
+![][static]
+
+
+```cpp
+static RuntimeCoreConfig ansys::dpf::core::getRuntimeCoreConfig()
+```
+
+
+
+
+**Returns**:
+
+the [RuntimeCoreConfig](classansys-dpf-runtimecoreconfig.md#classansys-dpf-runtimecoreconfig) used to set DataProcessingCore runtime configuration options
+
+
+
+**Return type**: [RuntimeCoreConfig](classansys-dpf-runtimecoreconfig.md#classansys-dpf-runtimecoreconfig)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::getRuntimeCoreConfig"}]}`
+-->
+
+<a id="classansys-dpf-core-1a26d52ede300647e78b0a538690e5ffb8"></a>
+### Function getRuntimeCoreConfig
+
+![][public]
+![][static]
+
+
+```cpp
+static RuntimeCoreConfig ansys::dpf::core::getRuntimeCoreConfig(Client *const client)
+```
+
+
+
+
+**Returns**:
+
+the [RuntimeCoreConfig](classansys-dpf-runtimecoreconfig.md#classansys-dpf-runtimecoreconfig) used to set DataProcessingCore runtime configuration options
+
+
+
+**Parameters**:
+
+* [Client](classansys-dpf-client.md#classansys-dpf-client) *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
+
+**Return type**: [RuntimeCoreConfig](classansys-dpf-runtimecoreconfig.md#classansys-dpf-runtimecoreconfig)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::getRuntimeCoreConfig"}]}`
+-->
+
+<a id="classansys-dpf-core-1a4825a05c0f34be426942c0c519ee3b74"></a>
+### Function getRuntimeClientConfig
+
+![][public]
+![][static]
+
+
+```cpp
+static RuntimeClientConfig ansys::dpf::core::getRuntimeClientConfig()
+```
+
+
+
+
+**Returns**:
+
+the [RuntimeClientConfig](classansys-dpf-runtimeclientconfig.md#classansys-dpf-runtimeclientconfig) used to set [Client](classansys-dpf-client.md#classansys-dpf-client) runtime configuration options
+
+
+
+**Return type**: [RuntimeClientConfig](classansys-dpf-runtimeclientconfig.md#classansys-dpf-runtimeclientconfig)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::getRuntimeClientConfig"}]}`
+-->
+
+<a id="classansys-dpf-core-1a3b38833684ca509339ffe007ada5a030"></a>
+### Function startFbsServer
+
+![][public]
+![][static]
+
+
+```cpp
+static FbsServerData ansys::dpf::core::startFbsServer(std::string const &ip="", int port=0, const Client *client=nullptr)
+```
+
+
+Starts a fbs server in this process or in the process targeted by "client".
+
+
+
+
+
+**Parameters**:
+
+* std::string const & **ip** = "" 
+* int **port** = 0 
+* const [Client](classansys-dpf-client.md#classansys-dpf-client) * **client** = nullptr 
+
+**Return type**: FbsServerData
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::startFbsServer"}]}`
+-->
+
+<a id="classansys-dpf-core-1ae1f05f981693332e70380141f61a2bc0"></a>
+### Function getOrStartFbsServer
+
+![][public]
+![][static]
+
+
+```cpp
+static FbsServerData ansys::dpf::core::getOrStartFbsServer(std::string const &ip="", int port=0, const Client *client=nullptr)
+```
+
+
+Starts a fbs server in this process or in the process targeted by "client". If a server was already started with this functions, the existing server is returned.
+
+
+
+
+
+**Parameters**:
+
+* std::string const & **ip** = "" 
+* int **port** = 0 
+* const [Client](classansys-dpf-client.md#classansys-dpf-client) * **client** = nullptr 
+
+**Return type**: FbsServerData
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::getOrStartFbsServer"}]}`
+-->
+
+<a id="classansys-dpf-core-1a8db49a31a767102e225f9b0de89aabc1"></a>
+### Function connectToFbsServer
+
+![][public]
+![][static]
+
+
+```cpp
+static FbsClient ansys::dpf::core::connectToFbsServer(std::string const &address, const Client *client=nullptr)
+```
+
+
+Connects to a fbs server in this process or in the process targeted by "client".
+
+
+
+
+
+**Parameters**:
+
+* std::string const & **address**
+* const [Client](classansys-dpf-client.md#classansys-dpf-client) * **client** = nullptr 
+
+**Return type**: FbsClient
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::connectToFbsServer"}]}`
+-->
+
+<a id="classansys-dpf-core-1af59369ee9906684fed5f2deab51d6c78"></a>
+### Function connectToFbsServer
+
+![][public]
+![][static]
+
+
+```cpp
+static FbsClient ansys::dpf::core::connectToFbsServer(const opaque::FbsChannel *channel)
+```
+
+
+Connects to a fbs server in this process.
+
+
+
+
+
+**Parameters**:
+
+* const opaque::FbsChannel * **channel**
+
+**Return type**: FbsClient
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::connectToFbsServer"}]}`
+-->
+
+<a id="classansys-dpf-core-1ae3472a9ced3aff887f623d3a46943d5d"></a>
+### Function getServerVersion
+
+![][public]
+![][static]
+
+
+```cpp
+static void ansys::dpf::core::getServerVersion(int &major_version, int &minor_version)
+```
+
+
+
+
+Fills the major and minor versions of the In-Process server
+
+
+
+**Parameters**:
+
+* int & **major_version**: [in] major version of the server
+* int & **minor_version**: [in] minor version of the server
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::getServerVersion"}]}`
+-->
+
+<a id="classansys-dpf-core-1af26687fad53552d2263864bc46f935c8"></a>
+### Function copyTo
+
+![][public]
+![][static]
+
+
+```cpp
+static DpfType ansys::dpf::core::copyTo(DpfType const &to_copy, const Client *client)
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* DpfType const & **to_copy**
+* const [Client](classansys-dpf-client.md#classansys-dpf-client) * **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
+
+**Return type**: DpfType
+
+<!--
+**TODO**:
+
+* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"class DpfType"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename std::enable_if< std::is_base_of< "},{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classansys_1_1dpf_1_1DpfTypes"},"children":[{"type":"text","text":"DpfTypes"}]},{"type":"text","text":", DpfType >::value >::type *"}]},{"type":"text","text":"\n            "},{"type":"element","name":"defval","attributes":{},"children":[{"type":"text","text":"nullptr"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::copyTo"}]}`
+-->
+
+<!--
+**TODO**:
+
+* `includes  {"type":"element","name":"includes","attributes":{"local":"no"},"children":[{"type":"text","text":"dpf_api.h"}]}`
+-->
+
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[const]: https://img.shields.io/badge/-const-lightblue (const)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
+[static]: https://img.shields.io/badge/-static-lightgrey (static)
