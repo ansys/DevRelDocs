@@ -1,0 +1,40 @@
+name: Document Migration
+
+on:
+  push:
+    branches:
+      - accept
+
+jobs:
+  migration:
+    name: Run migration
+    runs-on: ubuntu-latest
+    # Double check that the Git reference is a branch.
+    if: github.ref_type == 'branch'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Needed for the Bash script to get the list of changed files.
+          fetch-depth: 2
+
+      - name: Set environment context
+        run: |
+          if [[ "${{ github.ref_name }}" == "accept" ]]; then
+             echo "TARGET_ENV=Amazee ACCEPT" >> $GITHUB_ENV
+             echo "BASE_URL=${{ vars.BASE_URL_ACCEPT }}" >> $GITHUB_ENV
+             echo "BASIC_AUTH_USERNAME=${{ secrets.BASIC_AUTH_USERNAME_ACCEPT }}" >> $GITHUB_ENV
+             echo "BASIC_AUTH_PASSWORD=${{ secrets.BASIC_AUTH_PASSWORD_ACCEPT }}" >> $GITHUB_ENV
+             echo "CLIENT_ID=${{ secrets.CLIENT_ID_ACCEPT }}" >> $GITHUB_ENV
+             echo "CLIENT_SECRET=${{ secrets.CLIENT_SECRET_ACCEPT }}" >> $GITHUB_ENV
+          fi
+
+      - name: Run migration script
+        run: |
+          echo "::group::Environment check"
+          echo "Preparing to run migration script..."
+          echo "Target branch: ${{ github.ref_name }}"
+          echo "Target environment: ${{ env.TARGET_ENV }}"
+          echo "::endgroup::"
+          bash .github/scripts/create_migration_job.sh
