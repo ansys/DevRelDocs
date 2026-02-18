@@ -10,7 +10,7 @@ The data in DPF is defined based on physics-agnostic mathematical quantities des
 
 ![DPF Flow](images/dpf-flow.png)
 
-> [!NOTE]
+> **_NOTE:_**
 > This documentation focuses on the C++ API for DPF.
 >
 > Check the [DPF Framework documentation](https://developer.ansys.com/docs/dpf-framework-2027-r1/index.md) to learn more about DPF and its capabilities.
@@ -55,7 +55,7 @@ DPF capabilities are accessible when DPF Server files are available. These files
 - The [**DPF Server**](https://dpf.docs.pyansys.com/version/stable/getting_started/dpf_server.html) package. It is independent of the Ansys installer and is available on the [DPF Pre-Release page](https://download.ansys.com/Others/DPF%20Pre-Release) of the Ansys Customer Portal. DPF Server is protected by an Ansys [license mechanism](https://dpf.docs.pyansys.com/version/stable/getting_started/licensing.html).
 
 #### Enriching DPF capabilities
-- [C++ operator's library](user-guide/how-to-create-cpp-plugin.md)
+- [C++ operator's library](user-guide/create-cpp-plugin.md)
 - [C++ solver reader plugin](https://astonishing-hyacinth-e64.notion.site/How-to-write-a-new-solver-reader-as-a-DPF-s-plugin-bd2d2a3cf51f47ef9e70df45d64f89cb)
 
 ### More content
