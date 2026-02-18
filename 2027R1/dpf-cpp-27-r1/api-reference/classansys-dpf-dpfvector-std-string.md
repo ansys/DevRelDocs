@@ -13,8 +13,8 @@ If the [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector) is retu
 
 ## Members
 
-* [begin](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-1a0c627a2093966cc9aef3b1f488571c09)
-* [commit](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-1a2cc9e64a9e622ee766a5766c2faf85d4)
+* [begin](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector-1a0c627a2093966cc9aef3b1f488571c09)
+* [commit](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector-1a2cc9e64a9e622ee766a5766c2faf85d4)
 * [copy](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-std-string-4-1aa05689f762f50261d089ffa487dc9361)
 * [copy](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-std-string-4-1a18220ac80c9aaddd3de1288ab29296f6)
 * [data](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-std-string-4-1afbe78e3c9d22168b7af99c7096ef696b)
@@ -23,11 +23,11 @@ If the [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector) is retu
 * [DpfVector](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-std-string-4-1a3f22bafefe577a577ca1922b7f01494b)
 * [DpfVector](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-std-string-4-1aef8136509e2979b349120c1ad9dabbfa)
 * [DpfVector](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-std-string-4-1a8122bb5ba23d302c236ffb3dfdfb5ffd)
-* [end](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-1ab2aff0738b4fa8b223beed776246b3d3)
+* [end](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector-1ab2aff0738b4fa8b223beed776246b3d3)
 * [operator=](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-std-string-4-1ac0fbd4432b0c2f71e54e0a8c09261f53)
 * [operator=](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-std-string-4-1a1da44cb6b9c8d1c9b329de281b1ecf4a)
 * [operator[]](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-std-string-4-1abf7bb24b1472d59bf762ec0a17d3206b)
-* [reset](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-1ad6a4b21b02e43e7e139f59f00b184bbc)
+* [reset](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector-1ad6a4b21b02e43e7e139f59f00b184bbc)
 * [size](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-std-string-4-1a156b0cca472bfe35a025915e3b09c7d7)
 * [~DpfVector](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-std-string-4-1a5d7b660c69b99f2a44322da6690b9676)
 
