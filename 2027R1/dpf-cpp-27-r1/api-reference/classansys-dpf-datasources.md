@@ -35,7 +35,7 @@ Container of files on which the analysis results can be found.
 * [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources-1ab607a7dd632e40f18baa9bdc44631011)
 * [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources-1a85e10756d54a7164a7c47fde17426ce8)
 * [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources-1a187861f11263eda7b619c769b5ff83a5)
-* [deep\_copy](classansys-dpf-datasources.md#classansys-dpf-datasources-1a98fc4cd5c063eef368734854b30b63c2)
+* [deep_copy](classansys-dpf-datasources.md#classansys-dpf-datasources-1a98fc4cd5c063eef368734854b30b63c2)
 * [describe](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a9977945710983bc03d2940fa007847b2)
 * [empty](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a39cd546c42518e2332be8f287db95459)
 * [emptyDataSources](classansys-dpf-datasources.md#classansys-dpf-datasources-1a014bb2c064ff1dce21325a012a57a4c8)
@@ -518,7 +518,7 @@ Define data source result file with key and domain.
 
 * std::string const & **file_path**: [in] [Result](classansys-dpf-result.md#classansys-dpf-result) file to use with data source container.
 * std::string const & **key**: [in] Key describing type of file.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **domain_id**: [in] Domain id of file.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **domain_id**: [in] Domain id of file.
 
 **Return type**: void
 
@@ -639,7 +639,7 @@ Add domain file with key and domain id to data sources.
 
 * std::string const & **file_path**: [in] File to use with data source container.
 * std::string const & **key**: [in] Key describing type of file.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **domain_id**: [in] Domain id of file.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **domain_id**: [in] Domain id of file.
 
 **Return type**: void
 
@@ -907,7 +907,7 @@ Path at given key and given index in data sources.
 **Parameters**:
 
 * std::string const & **key**
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**
 
 **Return type**: std::string
 
@@ -982,7 +982,7 @@ LabelSpace ansys::dpf::DataSources::identifierbyIndex(int index) const
 -->
 
 <a id="classansys-dpf-datasources-1a98fc4cd5c063eef368734854b30b63c2"></a>
-### Function deep\_copy
+### Function deep_copy
 
 ![][public]
 ![][const]

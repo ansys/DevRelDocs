@@ -13,7 +13,7 @@ The location is the type of topology associated with the data container. This al
 
 ## Members
 
-* [c\_str](structansys-dpf-location.md#structansys-dpf-location-1ad9fab192124627740ffa623b1a0221ea)
+* [c_str](structansys-dpf-location.md#structansys-dpf-location-1ad9fab192124627740ffa623b1a0221ea)
 * [empty](structansys-dpf-location.md#structansys-dpf-location-1aa79d660aa731fcdbdad2f57b3b3a5e65)
 * [Location](structansys-dpf-location.md#structansys-dpf-location-1a2b3efab2807517d182bc9a486a0fb837)
 * [Location](structansys-dpf-location.md#structansys-dpf-location-1acbfdb380af9621ce0bc37d290f18a464)
@@ -256,7 +256,7 @@ bool ansys::dpf::Location::empty() const
 -->
 
 <a id="structansys-dpf-location-1ad9fab192124627740ffa623b1a0221ea"></a>
-### Function c\_str
+### Function c_str
 
 ![][public]
 ![][const]

@@ -1,4 +1,4 @@
-# Structure ansys::dpf::reflect\< int8\_t \>
+# Structure ansys::dpf::reflect\< int8_t \>
 
 <a id="structansys-dpf-reflect-int8-t-4"></a>
 
@@ -13,12 +13,12 @@
 
 ## Members
 
-* [type\_name](structansys-dpf-reflect-int8-t.md#structansys-dpf-reflect-int8-t-4-1a86c6c67bc5f84453e5554093ab16b28a)
+* [type_name](structansys-dpf-reflect-int8-t.md#structansys-dpf-reflect-int8-t-4-1a86c6c67bc5f84453e5554093ab16b28a)
 
 ## Public static functions
 
 <a id="structansys-dpf-reflect-int8-t-4-1a86c6c67bc5f84453e5554093ab16b28a"></a>
-### Function type\_name
+### Function type_name
 
 ![][public]
 ![][static]

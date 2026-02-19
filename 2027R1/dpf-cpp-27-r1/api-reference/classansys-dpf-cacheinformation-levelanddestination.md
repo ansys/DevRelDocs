@@ -11,8 +11,8 @@
 
 ## Members
 
-* [\_destination\_property](classansys-dpf-cacheinformation-levelanddestination.md#classansys-dpf-cacheinformation-levelanddestination-1a0f41cf7694abd66f7b464c5b9cf4db57)
-* [\_level\_property](classansys-dpf-cacheinformation-levelanddestination.md#classansys-dpf-cacheinformation-levelanddestination-1a9d4ab0be2b48d2e8a1a0df3558922a36)
+* [_destination_property](classansys-dpf-cacheinformation-levelanddestination.md#classansys-dpf-cacheinformation-levelanddestination-1a0f41cf7694abd66f7b464c5b9cf4db57)
+* [_level_property](classansys-dpf-cacheinformation-levelanddestination.md#classansys-dpf-cacheinformation-levelanddestination-1a9d4ab0be2b48d2e8a1a0df3558922a36)
 * [Destination](classansys-dpf-cacheinformation-levelanddestination.md#classansys-dpf-cacheinformation-levelanddestination-1a688d62a5059a0a6e4a3fc6389bb25730)
 * [get](classansys-dpf-cacheinformation-levelanddestination.md#classansys-dpf-cacheinformation-levelanddestination-1ae0e573e2894a2a3fb6fd3e113fd38d6c)
 * [getDestination](classansys-dpf-cacheinformation-levelanddestination.md#classansys-dpf-cacheinformation-levelanddestination-1af4246fcfacf65e32bc5848941bc33208)
@@ -46,35 +46,35 @@ enum Level {
 
 
 <a id="classansys-dpf-cacheinformation-levelanddestination-1a70af213b42855440433a7d5bbc1ecbf5a46da30641de35664521d2362911d957e"></a>
-#### Enumerator MIN\_LEVEL
+#### Enumerator MIN_LEVEL
 
 
 
 
 
 <a id="classansys-dpf-cacheinformation-levelanddestination-1a70af213b42855440433a7d5bbc1ecbf5ab2e608ecb42cdc24c5d0c7a0cf8879c7"></a>
-#### Enumerator LEVEL\_ONE
+#### Enumerator LEVEL_ONE
 
 
 
 
 
 <a id="classansys-dpf-cacheinformation-levelanddestination-1a70af213b42855440433a7d5bbc1ecbf5aa421c0089d8a62445ffb1e6a22bf898a"></a>
-#### Enumerator LEVEL\_TWO
+#### Enumerator LEVEL_TWO
 
 
 
 
 
 <a id="classansys-dpf-cacheinformation-levelanddestination-1a70af213b42855440433a7d5bbc1ecbf5a7b581e62b0cb0bd1755c40fc89b0a7f7"></a>
-#### Enumerator LEVEL\_THREE
+#### Enumerator LEVEL_THREE
 
 
 
 
 
 <a id="classansys-dpf-cacheinformation-levelanddestination-1a70af213b42855440433a7d5bbc1ecbf5a220d1e7fac4735d1001d0104c0d01ea9"></a>
-#### Enumerator MAX\_LEVEL
+#### Enumerator MAX_LEVEL
 
 
 
@@ -129,7 +129,7 @@ enum Destination {
 ## Public static attributes
 
 <a id="classansys-dpf-cacheinformation-levelanddestination-1a9d4ab0be2b48d2e8a1a0df3558922a36"></a>
-### Variable \_level\_property
+### Variable _level_property
 
 ![][public]
 ![][static]
@@ -155,7 +155,7 @@ const std::string ansys::dpf::CacheInformation::LevelAndDestination::_level_prop
 -->
 
 <a id="classansys-dpf-cacheinformation-levelanddestination-1a0f41cf7694abd66f7b464c5b9cf4db57"></a>
-### Variable \_destination\_property
+### Variable _destination_property
 
 ![][public]
 ![][static]

@@ -13,7 +13,7 @@ Description of type.
 
 ## Members
 
-* [c\_str](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor-1a47ae07192ee8b0fdabf6ccff33d432f4)
+* [c_str](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor-1a47ae07192ee8b0fdabf6ccff33d432f4)
 * [operator std::string](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor-1a176268d95ca20a2fdb6d1a0e3c1b4ffb)
 * [operator!=](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor-1addcc78b9415108906a05f6aebbf708e9)
 * [operator\<](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor-1aa65f92a8c0c05c70994a2a56f009d4a9)
@@ -365,7 +365,7 @@ Name of type.
 -->
 
 <a id="structansys-dpf-typedescriptor-1a47ae07192ee8b0fdabf6ccff33d432f4"></a>
-### Function c\_str
+### Function c_str
 
 ![][public]
 ![][const]

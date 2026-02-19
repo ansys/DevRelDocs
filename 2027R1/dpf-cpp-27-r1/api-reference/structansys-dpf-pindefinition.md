@@ -11,14 +11,14 @@ Definition of an [Operator](classansys-dpf-operator.md#classansys-dpf-operator) 
 
 ## Members
 
-* [accepted\_types](structansys-dpf-pindefinition.md#structansys-dpf-pindefinition-1ad7fe730ca1b57d8e4c8f3a70ac7041f7)
+* [accepted_types](structansys-dpf-pindefinition.md#structansys-dpf-pindefinition-1ad7fe730ca1b57d8e4c8f3a70ac7041f7)
 * [addAlias](structansys-dpf-pindefinition.md#structansys-dpf-pindefinition-1afc9b5d5161c5fffa46a4b2a7cd7cb887)
 * [aliases](structansys-dpf-pindefinition.md#structansys-dpf-pindefinition-1a1f5dd7b4fa4650aefc9be2e1c7b0fff8)
-* [derived\_type\_name](structansys-dpf-pindefinition.md#structansys-dpf-pindefinition-1afe0a140c14142d72726f5ad831e65e01)
+* [derived_type_name](structansys-dpf-pindefinition.md#structansys-dpf-pindefinition-1afe0a140c14142d72726f5ad831e65e01)
 * [documentation](structansys-dpf-pindefinition.md#structansys-dpf-pindefinition-1a280231283314d4275889e5b1871fbde0)
-* [is\_ellipsis](structansys-dpf-pindefinition.md#structansys-dpf-pindefinition-1a1811518326691a9d54832141dd04e4eb)
-* [is\_inplace](structansys-dpf-pindefinition.md#structansys-dpf-pindefinition-1a27764e9352db5a61371c223a384d61d5)
-* [is\_optional](structansys-dpf-pindefinition.md#structansys-dpf-pindefinition-1ae3a0442033de150dd5d4e6077ac95aa0)
+* [is_ellipsis](structansys-dpf-pindefinition.md#structansys-dpf-pindefinition-1a1811518326691a9d54832141dd04e4eb)
+* [is_inplace](structansys-dpf-pindefinition.md#structansys-dpf-pindefinition-1a27764e9352db5a61371c223a384d61d5)
+* [is_optional](structansys-dpf-pindefinition.md#structansys-dpf-pindefinition-1ae3a0442033de150dd5d4e6077ac95aa0)
 * [name](structansys-dpf-pindefinition.md#structansys-dpf-pindefinition-1a2dd76d015c235c3f89e7d223dde5860c)
 * [PinDefinition](structansys-dpf-pindefinition.md#structansys-dpf-pindefinition-1aef45c262b8b9c64f3983c96ef4f4bcb4)
 * [PinDefinition](structansys-dpf-pindefinition.md#structansys-dpf-pindefinition-1a7f96a3b401928fd5b7d29728869c2188)
@@ -110,7 +110,7 @@ Description of pin.
 -->
 
 <a id="structansys-dpf-pindefinition-1ae3a0442033de150dd5d4e6077ac95aa0"></a>
-### Variable is\_optional
+### Variable is_optional
 
 ![][public]
 
@@ -135,7 +135,7 @@ bool ansys::dpf::PinDefinition::is_optional
 -->
 
 <a id="structansys-dpf-pindefinition-1a1811518326691a9d54832141dd04e4eb"></a>
-### Variable is\_ellipsis
+### Variable is_ellipsis
 
 ![][public]
 
@@ -160,7 +160,7 @@ bool ansys::dpf::PinDefinition::is_ellipsis
 -->
 
 <a id="structansys-dpf-pindefinition-1a27764e9352db5a61371c223a384d61d5"></a>
-### Variable is\_inplace
+### Variable is_inplace
 
 ![][public]
 
@@ -185,7 +185,7 @@ bool ansys::dpf::PinDefinition::is_inplace
 -->
 
 <a id="structansys-dpf-pindefinition-1afe0a140c14142d72726f5ad831e65e01"></a>
-### Variable derived\_type\_name
+### Variable derived_type_name
 
 ![][public]
 
@@ -210,7 +210,7 @@ std::string ansys::dpf::PinDefinition::derived_type_name
 -->
 
 <a id="structansys-dpf-pindefinition-1ad7fe730ca1b57d8e4c8f3a70ac7041f7"></a>
-### Variable accepted\_types
+### Variable accepted_types
 
 ![][public]
 

@@ -13,12 +13,12 @@
 
 ## Members
 
-* [type\_name](structansys-dpf-reflect-std-vector-double-4.md#structansys-dpf-reflect-std-vector-double-4-4-1aa318f6d4dae4cda2c89da115efeb8b7c)
+* [type_name](structansys-dpf-reflect-std-vector-double-4.md#structansys-dpf-reflect-std-vector-double-4-4-1aa318f6d4dae4cda2c89da115efeb8b7c)
 
 ## Public static functions
 
 <a id="structansys-dpf-reflect-std-vector-double-4-4-1aa318f6d4dae4cda2c89da115efeb8b7c"></a>
-### Function type\_name
+### Function type_name
 
 ![][public]
 ![][static]

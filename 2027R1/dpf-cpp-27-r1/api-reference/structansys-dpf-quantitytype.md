@@ -9,11 +9,11 @@ User defined quantity type.
 
 Allows for the definition of a new quantity type. Many quantity types are predefined. 
 
-**See also**: [quantity\_types](structansys-dpf-quantity-types.md#structansys-dpf-quantity-types)
+**See also**: [quantity_types](structansys-dpf-quantity-types.md#structansys-dpf-quantity-types)
 
 ## Members
 
-* [c\_str](structansys-dpf-quantitytype.md#structansys-dpf-quantitytype-1abdfb356d30de73b4bae958a5a22eb186)
+* [c_str](structansys-dpf-quantitytype.md#structansys-dpf-quantitytype-1abdfb356d30de73b4bae958a5a22eb186)
 * [empty](structansys-dpf-quantitytype.md#structansys-dpf-quantitytype-1a013520e0f57e0ad6bcd8a533d8639b21)
 * [operator std::string](structansys-dpf-quantitytype.md#structansys-dpf-quantitytype-1ad86c0033431ec42817dafdbef89e650a)
 * [operator!=](structansys-dpf-quantitytype.md#structansys-dpf-quantitytype-1ab55b06401adb7a8017fadc7e860f9477)
@@ -256,7 +256,7 @@ bool ansys::dpf::QuantityType::empty() const
 -->
 
 <a id="structansys-dpf-quantitytype-1abdfb356d30de73b4bae958a5a22eb186"></a>
-### Function c\_str
+### Function c_str
 
 ![][public]
 ![][const]

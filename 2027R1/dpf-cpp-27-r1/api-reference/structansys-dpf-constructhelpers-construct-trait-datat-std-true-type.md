@@ -1,4 +1,4 @@
-# Structure ansys::dpf::ConstructHelpers::construct\_trait\< DataT, std::true\_type \>
+# Structure ansys::dpf::ConstructHelpers::construct_trait\< DataT, std::true_type \>
 
 <a id="structansys-dpf-constructhelpers-construct-trait-datat-std-true-type-4"></a>
 
@@ -106,7 +106,7 @@ static DataT ansys::dpf::ConstructHelpers::construct_trait< DataT, std::true_typ
 **Parameters**:
 
 * [Operator](classansys-dpf-operator.md#classansys-dpf-operator) & **op**
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**
 
 **Return type**: DataT
 
@@ -168,7 +168,7 @@ static DataT ansys::dpf::ConstructHelpers::construct_trait< DataT, std::true_typ
 **Parameters**:
 
 * OperatorMain & **op**
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**
 
 **Return type**: DataT
 

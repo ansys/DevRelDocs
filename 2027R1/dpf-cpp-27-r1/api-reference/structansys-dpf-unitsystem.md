@@ -11,7 +11,7 @@ System of measurement units.
 
 ## Members
 
-* [c\_str](structansys-dpf-unitsystem.md#structansys-dpf-unitsystem-1a7e8ff2d5918c48d3a4be9c30beffc8d7)
+* [c_str](structansys-dpf-unitsystem.md#structansys-dpf-unitsystem-1a7e8ff2d5918c48d3a4be9c30beffc8d7)
 * [getId](structansys-dpf-unitsystem.md#structansys-dpf-unitsystem-1a4344c11cdda170ff215ea0e8d9ab40e4)
 * [getUnitNames](structansys-dpf-unitsystem.md#structansys-dpf-unitsystem-1a835847ebc0bbc0566938299f232e0bab)
 * [operator std::string](structansys-dpf-unitsystem.md#structansys-dpf-unitsystem-1aed08cd4b0916d79cd83929674fd6a8d5)
@@ -108,7 +108,7 @@ Name of unit system.
 -->
 
 <a id="structansys-dpf-unitsystem-1a7e8ff2d5918c48d3a4be9c30beffc8d7"></a>
-### Function c\_str
+### Function c_str
 
 ![][public]
 ![][const]
@@ -157,7 +157,7 @@ Id of unit system.
 
 
 
-**Return type**: [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e)
+**Return type**: [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e)
 
 <!--
 **TODO**:

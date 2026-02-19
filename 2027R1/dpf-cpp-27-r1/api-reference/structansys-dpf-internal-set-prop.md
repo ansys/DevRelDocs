@@ -1,4 +1,4 @@
-# Structure ansys::dpf::internal::set\_prop
+# Structure ansys::dpf::internal::set_prop
 
 <a id="structansys-dpf-internal-set-prop"></a>
 

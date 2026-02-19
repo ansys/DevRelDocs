@@ -1,4 +1,4 @@
-# Structure ansys::dpf::internal::set\_prop\< T, std::false\_type, std::true\_type \>
+# Structure ansys::dpf::internal::set_prop\< T, std::false_type, std::true_type \>
 
 <a id="structansys-dpf-internal-set-prop-t-std-false-type-std-true-type-4"></a>
 

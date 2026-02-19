@@ -136,7 +136,7 @@ Scoping of nodes for material.
 
 **Parameters**:
 
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **materialId**: [in] Id of material for which to get nodes.
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **materialId**: [in] Id of material for which to get nodes.
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
 **Return type**: [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping)
@@ -265,7 +265,7 @@ Scoping of elements for material.
 
 **Parameters**:
 
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **materialId**: [in] Id of material for which to get elements.
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **materialId**: [in] Id of material for which to get elements.
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
 **Return type**: [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping)

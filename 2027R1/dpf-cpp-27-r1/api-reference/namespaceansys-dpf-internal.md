@@ -10,9 +10,9 @@
 
 ## Classes
 
-* [ansys::dpf::internal::set\_prop](structansys-dpf-internal-set-prop.md#structansys-dpf-internal-set-prop)
-* [ansys::dpf::internal::set\_prop\< T, std::true\_type, std::false\_type \>](structansys-dpf-internal-set-prop-t-std-true-type-std-false-type.md#structansys-dpf-internal-set-prop-t-std-true-type-std-false-type-4)
-* [ansys::dpf::internal::set\_prop\< T, std::false\_type, std::true\_type \>](structansys-dpf-internal-set-prop-t-std-false-type-std-true-type.md#structansys-dpf-internal-set-prop-t-std-false-type-std-true-type-4)
+* [ansys::dpf::internal::set_prop](structansys-dpf-internal-set-prop.md#structansys-dpf-internal-set-prop)
+* [ansys::dpf::internal::set_prop\< T, std::true_type, std::false_type \>](structansys-dpf-internal-set-prop-t-std-true-type-std-false-type.md#structansys-dpf-internal-set-prop-t-std-true-type-std-false-type-4)
+* [ansys::dpf::internal::set_prop\< T, std::false_type, std::true_type \>](structansys-dpf-internal-set-prop-t-std-false-type-std-true-type.md#structansys-dpf-internal-set-prop-t-std-false-type-std-true-type-4)
 
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [const]: https://img.shields.io/badge/-const-lightblue (const)

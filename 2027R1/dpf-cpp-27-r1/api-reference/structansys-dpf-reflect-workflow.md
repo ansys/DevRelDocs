@@ -13,12 +13,12 @@
 
 ## Members
 
-* [type\_name](structansys-dpf-reflect-workflow.md#structansys-dpf-reflect-workflow-4-1a1d86e5570949401c7146e2f154991f80)
+* [type_name](structansys-dpf-reflect-workflow.md#structansys-dpf-reflect-workflow-4-1a1d86e5570949401c7146e2f154991f80)
 
 ## Public static functions
 
 <a id="structansys-dpf-reflect-workflow-4-1a1d86e5570949401c7146e2f154991f80"></a>
-### Function type\_name
+### Function type_name
 
 ![][public]
 ![][static]

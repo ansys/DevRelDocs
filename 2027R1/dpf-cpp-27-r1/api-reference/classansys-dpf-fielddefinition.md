@@ -18,7 +18,7 @@ Provide all the information about the content of a [Field](classansys-dpf-field.
 ## Members
 
 * [callAPI](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1aea34d37e0c080126eff70db34bf46597)
-* [deep\_copy](classansys-dpf-fielddefinition.md#classansys-dpf-fielddefinition-1a55532a5f5029319a6d388f2c8ef4e704)
+* [deep_copy](classansys-dpf-fielddefinition.md#classansys-dpf-fielddefinition-1a55532a5f5029319a6d388f2c8ef4e704)
 * [describe](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a9977945710983bc03d2940fa007847b2)
 * [dimensions](classansys-dpf-fielddefinition.md#classansys-dpf-fielddefinition-1a0d33e4d4faaa30b3808014b19de680cd)
 * [empty](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a39cd546c42518e2332be8f287db95459)
@@ -42,7 +42,7 @@ Provide all the information about the content of a [Field](classansys-dpf-field.
 * [numberOfQuantityTypes](classansys-dpf-fielddefinition.md#classansys-dpf-fielddefinition-1a5d02a40074a8fb9c0aa2541f02fe439c)
 * [operator=](classansys-dpf-fielddefinition.md#classansys-dpf-fielddefinition-1ad5b3ffb901b9fae885af420f727956ef)
 * [operator=](classansys-dpf-fielddefinition.md#classansys-dpf-fielddefinition-1a61679cddaa8bd95bd9fa23d605da23ca)
-* [quantity\_type](classansys-dpf-fielddefinition.md#classansys-dpf-fielddefinition-1af7d513babc5f529f1ba3e324f5e0b60a)
+* [quantity_type](classansys-dpf-fielddefinition.md#classansys-dpf-fielddefinition-1af7d513babc5f529f1ba3e324f5e0b60a)
 * [setDimensions](classansys-dpf-fielddefinition.md#classansys-dpf-fielddefinition-1ab05632e1f011855593928c927908ccdc)
 * [setDimensions](classansys-dpf-fielddefinition.md#classansys-dpf-fielddefinition-1abb7364b9d7860660498d8b28bf9aa212)
 * [setLocation](classansys-dpf-fielddefinition.md#classansys-dpf-fielddefinition-1a5ef8fa0b594db3066e6aab50d3b019b6)
@@ -216,7 +216,7 @@ Create [FieldDefinition](classansys-dpf-fielddefinition.md#classansys-dpf-fieldd
 **Parameters**:
 
 * const [ansys::dpf::Location](structansys-dpf-location.md#structansys-dpf-location) & **loc**: [in] [Location](structansys-dpf-location.md#structansys-dpf-location) on which field defined.
-* const std::vector< [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) > & **dimensions**: [in] Vector defining size of each dimension. See [Dimensionality](structansys-dpf-dimensionality.md#structansys-dpf-dimensionality).
+* const std::vector< [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) > & **dimensions**: [in] Vector defining size of each dimension. See [Dimensionality](structansys-dpf-dimensionality.md#structansys-dpf-dimensionality).
 
 **Return type**: 
 
@@ -246,7 +246,7 @@ Create [FieldDefinition](classansys-dpf-fielddefinition.md#classansys-dpf-fieldd
 **Parameters**:
 
 * const [ansys::dpf::Location](structansys-dpf-location.md#structansys-dpf-location) & **loc**: [in] [Location](structansys-dpf-location.md#structansys-dpf-location) on which field defined.
-* const std::vector< [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) > & **dimensions**: [in] Vector defining size of each dimension. See [Dimensionality](structansys-dpf-dimensionality.md#structansys-dpf-dimensionality).
+* const std::vector< [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) > & **dimensions**: [in] Vector defining size of each dimension. See [Dimensionality](structansys-dpf-dimensionality.md#structansys-dpf-dimensionality).
 * const [Unit](classansys-dpf-unit.md#classansys-dpf-unit) & **unit**: [in] [Unit](classansys-dpf-unit.md#classansys-dpf-unit) defined for field.
 
 **Return type**: 
@@ -278,7 +278,7 @@ Create [FieldDefinition](classansys-dpf-fielddefinition.md#classansys-dpf-fieldd
 
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] Remote client.
 * const [ansys::dpf::Location](structansys-dpf-location.md#structansys-dpf-location) & **loc**: [in] [Location](structansys-dpf-location.md#structansys-dpf-location) on which field defined.
-* const std::vector< [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) > & **dimensions**: [in] Vector defining size of each dimension. See [Dimensionality](structansys-dpf-dimensionality.md#structansys-dpf-dimensionality).
+* const std::vector< [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) > & **dimensions**: [in] Vector defining size of each dimension. See [Dimensionality](structansys-dpf-dimensionality.md#structansys-dpf-dimensionality).
 
 **Return type**: 
 
@@ -309,7 +309,7 @@ Create [FieldDefinition](classansys-dpf-fielddefinition.md#classansys-dpf-fieldd
 
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] Remote client.
 * const [ansys::dpf::Location](structansys-dpf-location.md#structansys-dpf-location) & **loc**: [in] [Location](structansys-dpf-location.md#structansys-dpf-location) on which field defined.
-* const std::vector< [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) > & **dimensions**: [in] Vector defining size of each dimension. See [Dimensionality](structansys-dpf-dimensionality.md#structansys-dpf-dimensionality).
+* const std::vector< [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) > & **dimensions**: [in] Vector defining size of each dimension. See [Dimensionality](structansys-dpf-dimensionality.md#structansys-dpf-dimensionality).
 * const [Unit](classansys-dpf-unit.md#classansys-dpf-unit) & **unit**: [in] [Unit](classansys-dpf-unit.md#classansys-dpf-unit) defined for field.
 
 **Return type**: 
@@ -426,7 +426,7 @@ Vector defining size of each dimension. See [Dimensionality](structansys-dpf-dim
 
 
 
-**Return type**: std::vector< [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) >
+**Return type**: std::vector< [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) >
 
 <!--
 **TODO**:
@@ -624,7 +624,7 @@ Set dimensions of field.
 
 **Parameters**:
 
-* std::vector< [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) > const & **rhs**: [in] Vector defining size of each dimension. See [Dimensionality](structansys-dpf-dimensionality.md#structansys-dpf-dimensionality).
+* std::vector< [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) > const & **rhs**: [in] Vector defining size of each dimension. See [Dimensionality](structansys-dpf-dimensionality.md#structansys-dpf-dimensionality).
 * int **effective_size**: [in] Effective size of data per field entry. (scalar is 1, xyz vector is 3, 2 Dimensional 3x3 Matrix is 9, ...)
 
 **Return type**: void
@@ -654,7 +654,7 @@ Set dimensions of field.
 
 **Parameters**:
 
-* std::vector< [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) > const & **rhs**: [in] Vector defining size of each dimension. See [Dimensionality](structansys-dpf-dimensionality.md#structansys-dpf-dimensionality).
+* std::vector< [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) > const & **rhs**: [in] Vector defining size of each dimension. See [Dimensionality](structansys-dpf-dimensionality.md#structansys-dpf-dimensionality).
 
 **Return type**: void
 
@@ -694,7 +694,7 @@ Set layers of field.
 -->
 
 <a id="classansys-dpf-fielddefinition-1a55532a5f5029319a6d388f2c8ef4e704"></a>
-### Function deep\_copy
+### Function deep_copy
 
 ![][public]
 ![][const]
@@ -809,7 +809,7 @@ Get the number of quantity types.
 -->
 
 <a id="classansys-dpf-fielddefinition-1af7d513babc5f529f1ba3e324f5e0b60a"></a>
-### Function quantity\_type
+### Function quantity_type
 
 ![][public]
 ![][const]

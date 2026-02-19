@@ -11,7 +11,7 @@ Definition of a unit.
 
 ## Members
 
-* [c\_str](classansys-dpf-unit.md#classansys-dpf-unit-1af130c0a87a7006258b3fb1e8b83d785b)
+* [c_str](classansys-dpf-unit.md#classansys-dpf-unit-1af130c0a87a7006258b3fb1e8b83d785b)
 * [conversionFactorTo](classansys-dpf-unit.md#classansys-dpf-unit-1a8ca3445a56c372fd3734b5a7d00537f1)
 * [divideBy](classansys-dpf-unit.md#classansys-dpf-unit-1af8033c3d0b41a3ea626221e21a7efce7)
 * [homogeneity](classansys-dpf-unit.md#classansys-dpf-unit-1a2ca6139006413a975a4995505ab826fc)
@@ -327,7 +327,7 @@ Symbol name.
 -->
 
 <a id="classansys-dpf-unit-1af130c0a87a7006258b3fb1e8b83d785b"></a>
-### Function c\_str
+### Function c_str
 
 ![][public]
 ![][const]

@@ -39,7 +39,7 @@ Returns the number of layer associated to a layer definition.
 
 * [eshellLayers](namespaceansys-dpf.md#namespaceansys-dpf-1a6d14c6ea165905b13e914d776c880751) **eshell_layer**: [in] [eshellLayers](namespaceansys-dpf.md#namespaceansys-dpf-1a6d14c6ea165905b13e914d776c880751).
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:

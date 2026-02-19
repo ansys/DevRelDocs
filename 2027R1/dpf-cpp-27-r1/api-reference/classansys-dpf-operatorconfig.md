@@ -321,7 +321,7 @@ Sets option to integer value.
 **Parameters**:
 
 * std::string const & **option**: [in] Option name.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **value**: [in] Value for option.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **value**: [in] Value for option.
 
 **Return type**: void
 
@@ -351,7 +351,7 @@ Sets option to double value.
 **Parameters**:
 
 * std::string const & **option**: [in] Option name.
-* [dp\_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) **value**: [in] Value for option.
+* [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) **value**: [in] Value for option.
 
 **Return type**: void
 
