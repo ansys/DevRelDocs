@@ -95,7 +95,7 @@
 
 ```mermaid
 graph LR
-1["D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf_api_base.h"]
+1["dpf/include/dpf_api_base.h"]
 click 1 "dpf__api__base_8h.md#dpf__api__base_8h"
 1 --> 2
 1 --> 3
@@ -330,6 +330,7 @@ namespace ansys
             static const PropertyType element_type;
             static const PropertyType element_properties;
             static const PropertyType connectivity;
+            static const PropertyType degenerated_connectivity_ids;
             static const PropertyType apdl_element_type;
             static const PropertyType faces_nodes_connectivity;
             static const PropertyType elements_faces_connectivity;

@@ -133,7 +133,7 @@
 
 ```mermaid
 graph LR
-1["D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf_api.h"]
+1["dpf/include/dpf_api.h"]
 click 1 "dpf__api_8h.md#dpf__api_8h"
 1 --> 2
 1 --> 3
@@ -913,9 +913,6 @@ namespace dpf
         void reserve(dp_int size);
         void resize(dp_int size);
         static Scoping emptyScoping();
-
-        std::string getHashableKey() const;
-        void setHashableKey(const std::string& unique_identifier) const;
 
         size_t getHash() const;
 
@@ -2487,9 +2484,6 @@ namespace dpf
         ScopingsContainer deep_copy(ansys::dpf::Client const* const client = nullptr 
         )const;
 
-        std::string getHashableKey() const;
-        void setHashableKey(const std::string& unique_identifier) const;
-
         size_t getHash() const;
     };
 
@@ -2861,9 +2855,6 @@ namespace dpf
         )const;
 
         static DataSources emptyDataSources();
-
-        std::string getHashableKey() const;
-        void setHashableKey(const std::string& unique_identifier) const;
 
         size_t getHash() const;
 
@@ -4163,9 +4154,6 @@ namespace dpf
 
         void enableCache(bool b);
 
-        std::string getHashableKey() const;
-        void setHashableKey(const std::string& unique_identifier) const;
-        
         size_t getHash() const;
 
         void addStep(const std::string& name, const WorkflowStep& step);
