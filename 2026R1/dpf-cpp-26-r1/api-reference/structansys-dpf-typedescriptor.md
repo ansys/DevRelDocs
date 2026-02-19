@@ -7,13 +7,13 @@
 
 
 
-Description of type. 
+Description of type.
 
 **See also**: [types](structansys-dpf-types.md#structansys-dpf-types)
 
 ## Members
 
-* [c\_str](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor-1a47ae07192ee8b0fdabf6ccff33d432f4)
+* [c_str](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor-1a47ae07192ee8b0fdabf6ccff33d432f4)
 * [operator std::string](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor-1a176268d95ca20a2fdb6d1a0e3c1b4ffb)
 * [operator!=](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor-1addcc78b9415108906a05f6aebbf708e9)
 * [operator\<](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor-1aa65f92a8c0c05c70994a2a56f009d4a9)
@@ -94,7 +94,7 @@ ansys::dpf::TypeDescriptor::TypeDescriptor(std::string const &name)
 
 * std::string const & **name**
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -123,7 +123,7 @@ ansys::dpf::TypeDescriptor::TypeDescriptor(TypeDescriptor const &)=default
 
 * TypeDescriptor const &
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -152,7 +152,7 @@ ansys::dpf::TypeDescriptor::TypeDescriptor(TypeDescriptor &&)=default
 
 * TypeDescriptor &&
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -356,7 +356,7 @@ Name of type.
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -365,7 +365,7 @@ Name of type.
 -->
 
 <a id="structansys-dpf-typedescriptor-1a47ae07192ee8b0fdabf6ccff33d432f4"></a>
-### Function c\_str
+### Function c_str
 
 ![][public]
 ![][const]

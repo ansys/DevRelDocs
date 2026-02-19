@@ -1,4 +1,4 @@
-# File dpf\_api\_base.h
+# File dpf_api_base.h
 
 <a id="dpf-api-base-h"></a>
 
@@ -13,17 +13,17 @@
 ## Classes
 
 * [ansys::dpf::reflect](structansys-dpf-reflect.md#structansys-dpf-reflect)
-* [ansys::dpf::param\_helpers](structansys-dpf-param-helpers.md#structansys-dpf-param-helpers)
+* [ansys::dpf::param_helpers](structansys-dpf-param-helpers.md#structansys-dpf-param-helpers)
 * [ansys::dpf::QuantityType](structansys-dpf-quantitytype.md#structansys-dpf-quantitytype)
-* [ansys::dpf::quantity\_types](structansys-dpf-quantity-types.md#structansys-dpf-quantity-types)
+* [ansys::dpf::quantity_types](structansys-dpf-quantity-types.md#structansys-dpf-quantity-types)
 * [ansys::dpf::Location](structansys-dpf-location.md#structansys-dpf-location)
 * [ansys::dpf::locations](structansys-dpf-locations.md#structansys-dpf-locations)
 * [ansys::dpf::PropertyType](structansys-dpf-propertytype.md#structansys-dpf-propertytype)
-* [ansys::dpf::property\_types](structansys-dpf-property-types.md#structansys-dpf-property-types)
+* [ansys::dpf::property_types](structansys-dpf-property-types.md#structansys-dpf-property-types)
 * [ansys::dpf::Homogeneity](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity)
 * [ansys::dpf::homogeneities](structansys-dpf-homogeneities.md#structansys-dpf-homogeneities)
 * [ansys::dpf::UnitSystem](structansys-dpf-unitsystem.md#structansys-dpf-unitsystem)
-* [ansys::dpf::unit\_systems](structansys-dpf-unit-systems.md#structansys-dpf-unit-systems)
+* [ansys::dpf::unit_systems](structansys-dpf-unit-systems.md#structansys-dpf-unit-systems)
 * [ansys::dpf::Label](structansys-dpf-label.md#structansys-dpf-label)
 * [ansys::dpf::labels](structansys-dpf-labels.md#structansys-dpf-labels)
 * [ansys::dpf::ShellDescriptor](structansys-dpf-shelldescriptor.md#structansys-dpf-shelldescriptor)
@@ -55,17 +55,17 @@
 * [ansys::dpf::reflect\< int \>](structansys-dpf-reflect-int.md#structansys-dpf-reflect-int-4)
 * [ansys::dpf::reflect\< double \>](structansys-dpf-reflect-double.md#structansys-dpf-reflect-double-4)
 * [ansys::dpf::reflect\< bool \>](structansys-dpf-reflect-bool.md#structansys-dpf-reflect-bool-4)
-* [ansys::dpf::reflect\< size\_t \>](structansys-dpf-reflect-size-t.md#structansys-dpf-reflect-size-t-4)
-* [ansys::dpf::reflect\< int64\_t \>](structansys-dpf-reflect-int64-t.md#structansys-dpf-reflect-int64-t-4)
+* [ansys::dpf::reflect\< size_t \>](structansys-dpf-reflect-size-t.md#structansys-dpf-reflect-size-t-4)
+* [ansys::dpf::reflect\< int64_t \>](structansys-dpf-reflect-int64-t.md#structansys-dpf-reflect-int64-t-4)
 * [ansys::dpf::reflect\< char \>](structansys-dpf-reflect-char.md#structansys-dpf-reflect-char-4)
-* [ansys::dpf::reflect\< wchar\_t \>](structansys-dpf-reflect-wchar-t.md#structansys-dpf-reflect-wchar-t-4)
+* [ansys::dpf::reflect\< wchar_t \>](structansys-dpf-reflect-wchar-t.md#structansys-dpf-reflect-wchar-t-4)
 * [ansys::dpf::reflect\< float \>](structansys-dpf-reflect-float.md#structansys-dpf-reflect-float-4)
 * [ansys::dpf::reflect\< unsigned int \>](structansys-dpf-reflect-unsigned-int.md#structansys-dpf-reflect-unsigned-int-4)
 * [ansys::dpf::reflect\< short \>](structansys-dpf-reflect-short.md#structansys-dpf-reflect-short-4)
 * [ansys::dpf::reflect\< std::vector\< int \> \>](structansys-dpf-reflect-std-vector-int-4.md#structansys-dpf-reflect-std-vector-int-4-4)
 * [ansys::dpf::reflect\< std::vector\< double \> \>](structansys-dpf-reflect-std-vector-double-4.md#structansys-dpf-reflect-std-vector-double-4-4)
 * [ansys::dpf::reflect\< std::vector\< std::string \> \>](structansys-dpf-reflect-std-vector-std-string-4.md#structansys-dpf-reflect-std-vector-std-string-4-4)
-* [ansys::dpf::reflect\< int8\_t \>](structansys-dpf-reflect-int8-t.md#structansys-dpf-reflect-int8-t-4)
+* [ansys::dpf::reflect\< int8_t \>](structansys-dpf-reflect-int8-t.md#structansys-dpf-reflect-int8-t-4)
 * [ansys::dpf::reflect\< std::complex\< double \> \>](structansys-dpf-reflect-std-complex-double-4.md#structansys-dpf-reflect-std-complex-double-4-4)
 * [std::hash\< ansys::dpf::PropertyType \>](structstd-hash-ansys-dpf-propertytype.md#structstd-hash-ansys-dpf-propertytype-4)
 
@@ -214,7 +214,7 @@ namespace ansys
             std::string _value;
 
         public:
-            explicit QuantityType(std::string const& name = "" 
+            explicit QuantityType(std::string const& name = ""
             );
             QuantityType(QuantityType const&) = default;
             bool operator==(QuantityType const&) const;
@@ -233,7 +233,7 @@ namespace ansys
 
         public:
             static std::vector<QuantityType> const& all();
-            static void add_custom(QuantityType const& 
+            static void add_custom(QuantityType const&
             );
             static const QuantityType discret;
             static const QuantityType continuous;
@@ -254,7 +254,7 @@ namespace ansys
             std::string _value;
 
         public:
-            explicit Location(std::string const& name = "" 
+            explicit Location(std::string const& name = ""
             );
             Location(Location const&) = default;
             bool operator==(Location const&) const;
@@ -273,7 +273,7 @@ namespace ansys
 
         public:
             static std::vector<Location> const& all();
-            static void add_custom(Location const& 
+            static void add_custom(Location const&
             );
             static const Location nodal;
             static const Location elemental;
@@ -304,7 +304,7 @@ namespace ansys
             std::string _value;
 
         public:
-            explicit PropertyType(std::string const& name 
+            explicit PropertyType(std::string const& name
             );
             PropertyType(PropertyType const&) = default;
             PropertyType() = default;
@@ -323,7 +323,7 @@ namespace ansys
 
         public:
             static std::vector<PropertyType> const& all();
-            static void add_custom(PropertyType const& rhs 
+            static void add_custom(PropertyType const& rhs
             );
             static const PropertyType material;
             static const PropertyType element_shape;
@@ -358,7 +358,7 @@ namespace ansys
             std::string _name;
 
         public:
-            Homogeneity(std::string const& name = "Unknown" 
+            Homogeneity(std::string const& name = "Unknown"
             );
             Homogeneity(Homogeneity const&) = default;
             Homogeneity(Homogeneity&&) = default;
@@ -430,11 +430,11 @@ namespace ansys
             std::string _unit_names;
 
         public:
-            explicit UnitSystem(std::string const& name, 
-                int id 
+            explicit UnitSystem(std::string const& name,
+                int id
             );
-            explicit UnitSystem(std::string const& name, 
-                std::string const& unit_names 
+            explicit UnitSystem(std::string const& name,
+                std::string const& unit_names
             );
             operator std::string() const;
             const char* c_str() const;
@@ -464,7 +464,7 @@ namespace ansys
             static const UnitSystem solver_knms;
             static const UnitSystem undefined;
             static const std::vector<UnitSystem> all;
-            static UnitSystem const& from_ansys_id(dp_id id 
+            static UnitSystem const& from_ansys_id(dp_id id
             );
         };
 
@@ -474,7 +474,7 @@ namespace ansys
             std::string _value;
 
         public:
-            explicit Label(std::string const& name 
+            explicit Label(std::string const& name
             );
             Label(Label const&) = default;
             bool operator==(Label const&) const;
@@ -513,7 +513,7 @@ namespace ansys
 
         struct ShellDescriptor
         {
-            static dp_int numShellLayers(eshellLayers eshell_layer 
+            static dp_int numShellLayers(eshellLayers eshell_layer
             );
         };
 
@@ -530,15 +530,15 @@ namespace ansys
             bool beam;
             bool quadratic;
 
-            ElementDescriptor(dp_int id, 
-                std::string const& name, 
-                std::string const& short_name, 
-                dp_int corner, 
-                dp_int mid, 
-                dp_int all, 
-                bool is_solid, 
-                bool is_shell, 
-                bool is_beam 
+            ElementDescriptor(dp_int id,
+                std::string const& name,
+                std::string const& short_name,
+                dp_int corner,
+                dp_int mid,
+                dp_int all,
+                bool is_solid,
+                bool is_shell,
+                bool is_beam
             );
             inline bool operator==(ElementDescriptor const& rhs) const { return id == rhs.id; }
             bool unknownNumNodes()const;
@@ -688,8 +688,8 @@ namespace ansys
             ENature nature;
 
             Dimensionality() = delete;
-            Dimensionality(ENature innature, 
-                std::vector<int> const& incomponents); 
+            Dimensionality(ENature innature,
+                std::vector<int> const& incomponents);
             dp_int numberOfComponents()const;
         };
 
@@ -879,17 +879,17 @@ namespace ansys
             Client(opaque::DpfInternalSharedObject* obj);
             Client(std::string const& address, so::API const* library_handle);
         public:
-            Client(std::string const& ip, 
-                std::string const& port 
+            Client(std::string const& ip,
+                std::string const& port
             );
-            Client(std::string const& ip, 
-                std::string const& port, 
-                LibraryHandle const& library_handle 
+            Client(std::string const& ip,
+                std::string const& port,
+                LibraryHandle const& library_handle
             );
-            Client(std::string const& address 
+            Client(std::string const& address
             );
-            Client(std::string const& address, 
-                LibraryHandle const& library_handle 
+            Client(std::string const& address,
+                LibraryHandle const& library_handle
             );
             Client(Client const&);
             Client(Client&&) noexcept;
@@ -900,9 +900,9 @@ namespace ansys
             std::string getChannelAddress()const;
             std::string getProtocolName()const;
 
-            bool getOrStartLocalServer(ansys::dpf::Streams& streams 
-                , ansys::dpf::Operator& stream_provider 
-                , int output_pin = 0 
+            bool getOrStartLocalServer(ansys::dpf::Streams& streams
+                , ansys::dpf::Operator& stream_provider
+                , int output_pin = 0
             ) const;
 
             inline so::API const* callAPI() const { return DpfTypes::callAPI(); }
@@ -930,9 +930,9 @@ namespace ansys
                 eUnimplementedAPI,
             };
 
-            DpfError(ErrorNature nature, 
-                std::string const& origin, 
-                std::string const& message 
+            DpfError(ErrorNature nature,
+                std::string const& origin,
+                std::string const& message
             );
             DpfError();
             virtual ~DpfError();
@@ -956,9 +956,9 @@ namespace ansys
             DpfError _error;
 
         public:
-            DpfException(DpfError::ErrorNature nature, 
-                std::string const& origin, 
-                std::string const& message 
+            DpfException(DpfError::ErrorNature nature,
+                std::string const& origin,
+                std::string const& message
             );
             DpfException(DpfError const& error
             );
@@ -1459,8 +1459,8 @@ namespace ansys
 
         public:
             /* API V1 - to be deprecated*/
-            Context(EDpfContext context = EDpfContext::eDefault, 
-                std::string const& setup_file_path = ""      
+            Context(EDpfContext context = EDpfContext::eDefault,
+                std::string const& setup_file_path = ""
             );
             static Context entryContext();
             static Context premiumContext();
@@ -1514,24 +1514,24 @@ namespace ansys
             ansys::dpf::DpfError _error;
         public:
 
-            LibraryHandle(std::string const& key = "common", 
-                std::string const& shared_object_root_name = "DataProcessingCore",  
-                LoadType load_type = LoadType::try_load, 
+            LibraryHandle(std::string const& key = "common",
+                std::string const& shared_object_root_name = "DataProcessingCore",
+                LoadType load_type = LoadType::try_load,
                 std::string const& dpf_client_api = "DPFClientAPI"
             );
 
-            LibraryHandle(Context const& context, 
-                std::string const& key = "common", 
-                std::string const& shared_object_root_name = "DataProcessingCore", 
-                LoadType load_type = LoadType::try_load, 
+            LibraryHandle(Context const& context,
+                std::string const& key = "common",
+                std::string const& shared_object_root_name = "DataProcessingCore",
+                LoadType load_type = LoadType::try_load,
                 std::string const& dpf_client_api = "DPFClientAPI"
             );
-            LibraryHandle(std::string const& path_to_shared_object, 
-                Context const& context, 
-                std::string const& key = "common", 
-                std::string const& shared_object_root_name = "DataProcessingCore", 
-                LoadType load_type = LoadType::try_load, 
-                std::string const& path_to_dpf_client_api = "", 
+            LibraryHandle(std::string const& path_to_shared_object,
+                Context const& context,
+                std::string const& key = "common",
+                std::string const& shared_object_root_name = "DataProcessingCore",
+                LoadType load_type = LoadType::try_load,
+                std::string const& path_to_dpf_client_api = "",
                 std::string const& dpf_client_api = "DPFClientAPI"
             );
 

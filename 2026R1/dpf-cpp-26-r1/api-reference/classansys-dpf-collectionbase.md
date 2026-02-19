@@ -55,7 +55,7 @@
 ## Friends
 
 <a id="classansys-dpf-collectionbase-1ab2e4916b9d046a72d197238993a71433"></a>
-### Friend internal::set\_prop
+### Friend internal::set_prop
 
 ![][C++]
 ![][public]
@@ -96,7 +96,7 @@ virtual ansys::dpf::CollectionBase::~CollectionBase()=default
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -118,14 +118,14 @@ dp_int ansys::dpf::CollectionBase::size() const
 
 
 
-Get Number of entries in container. 
+Get Number of entries in container.
 **Returns**:
 
 Number of entries.
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -152,7 +152,7 @@ Reserve space for entries
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size**: [in] Number of entries for which to reserve space.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size**: [in] Number of entries for which to reserve space.
 
 **Return type**: void
 
@@ -181,7 +181,7 @@ Resize container to given size.
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size**: [in] Set container to number of entries.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size**: [in] Set container to number of entries.
 
 **Return type**: void
 
@@ -240,7 +240,7 @@ Add new label with value.
 **Parameters**:
 
 * std::string const & **label**: [in] New label.
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **default_value**: [in] Value of label.
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **default_value**: [in] Value of label.
 
 **Return type**: void
 
@@ -303,7 +303,7 @@ Number of entries for given [LabelSpace](classansys-dpf-labelspace.md#classansys
 
 * [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) const & **lab_space**: [in] [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) for which to get number of entries.
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -361,7 +361,7 @@ LabelSpace ansys::dpf::CollectionBase::getLabelSpace(dp_index index) const
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of field.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of field.
 
 **Return type**: [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace)
 
@@ -604,7 +604,7 @@ Id of CollectionBase.
 
 
 
-**Return type**: [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e)
+**Return type**: [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e)
 
 <!--
 **TODO**:
@@ -631,7 +631,7 @@ Set Id of CollectionBase.
 
 **Parameters**:
 
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **id**: [in] New id.
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **id**: [in] New id.
 
 **Return type**: void
 

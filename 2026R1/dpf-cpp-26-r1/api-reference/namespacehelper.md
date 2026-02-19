@@ -11,7 +11,7 @@
 ## Functions
 
 <a id="dpf-api-base-h-1a3536bcf1fa71355264a220b8d375579d"></a>
-### Function call\_function
+### Function call_function
 
 ![][public]
 ![][static]
@@ -44,7 +44,7 @@ static void helper::call_function(FunctionT f, ansys::dpf::so::API const *api, A
 -->
 
 <a id="dpf-api-base-h-1af26176cb86f1989ba2c112d62d53a865"></a>
-### Function throw\_dpf\_exception\_if\_necessary
+### Function throw_dpf_exception_if_necessary
 
 ![][public]
 

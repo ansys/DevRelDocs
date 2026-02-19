@@ -1,4 +1,4 @@
-# Structure ansys::dpf::quantity\_types
+# Structure ansys::dpf::quantity_types
 
 <a id="structansys-dpf-quantity-types"></a>
 
@@ -11,7 +11,7 @@ Data is defined with a quantity type.
 
 ## Members
 
-* [add\_custom](structansys-dpf-quantity-types.md#structansys-dpf-quantity-types-1a32aaa6266dab39ee8aeb01f81f6ba327)
+* [add_custom](structansys-dpf-quantity-types.md#structansys-dpf-quantity-types-1a32aaa6266dab39ee8aeb01f81f6ba327)
 * [all](structansys-dpf-quantity-types.md#structansys-dpf-quantity-types-1ab605c047941b3bd642a77d8e3440038a)
 * [continuous](structansys-dpf-quantity-types.md#structansys-dpf-quantity-types-1a8c7ced680f31c1cc9bb219c14641c29f)
 * [discret](structansys-dpf-quantity-types.md#structansys-dpf-quantity-types-1aaeedb3e644391be386435c1a358cf3d3)
@@ -275,7 +275,7 @@ static std::vector< QuantityType > const  & ansys::dpf::quantity_types::all()
 
 
 
-Gets all user-defined and predefined quantities types. 
+Gets all user-defined and predefined quantities types.
 **Returns**:
 
 All quantity types.
@@ -291,7 +291,7 @@ All quantity types.
 -->
 
 <a id="structansys-dpf-quantity-types-1a32aaa6266dab39ee8aeb01f81f6ba327"></a>
-### Function add\_custom
+### Function add_custom
 
 ![][public]
 ![][static]

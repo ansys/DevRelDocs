@@ -44,7 +44,7 @@
 ## Friends
 
 <a id="classansys-dpf-genericdatacontainer-1ab2e4916b9d046a72d197238993a71433"></a>
-### Friend internal::set\_prop
+### Friend internal::set_prop
 
 ![][C++]
 ![][public]
@@ -85,7 +85,7 @@ virtual ansys::dpf::GenericDataContainer::~GenericDataContainer()=default
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -110,7 +110,7 @@ ansys::dpf::GenericDataContainer::GenericDataContainer()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -140,7 +140,7 @@ Retrieve an existing instance of GenericDataContainer on a server.
 * int **id**: [in] Id of the GenericDataContainer object on the server's database.
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -169,7 +169,7 @@ ansys::dpf::GenericDataContainer::GenericDataContainer(Client const *const clien
 
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -198,7 +198,7 @@ ansys::dpf::GenericDataContainer::GenericDataContainer(GenericDataContainer cons
 
 * GenericDataContainer const &
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -227,7 +227,7 @@ ansys::dpf::GenericDataContainer::GenericDataContainer(GenericDataContainer &&) 
 
 * GenericDataContainer &&
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -525,7 +525,7 @@ static GenericDataContainer ansys::dpf::GenericDataContainer::emptyGenericDataCo
 
 
 
-Creates an empty GenericDataContainer. 
+Creates an empty GenericDataContainer.
 **Returns**:
 
 Empty GenericDataContainer.

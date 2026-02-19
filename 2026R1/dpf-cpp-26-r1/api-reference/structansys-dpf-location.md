@@ -7,13 +7,13 @@
 
 User defined location quantity.
 
-The location is the type of topology associated with the data container. This allows for the definition of a new location quantity. Many location quantities are predefined. 
+The location is the type of topology associated with the data container. This allows for the definition of a new location quantity. Many location quantities are predefined.
 
 **See also**: [locations](structansys-dpf-locations.md#structansys-dpf-locations)
 
 ## Members
 
-* [c\_str](structansys-dpf-location.md#structansys-dpf-location-1ad9fab192124627740ffa623b1a0221ea)
+* [c_str](structansys-dpf-location.md#structansys-dpf-location-1ad9fab192124627740ffa623b1a0221ea)
 * [empty](structansys-dpf-location.md#structansys-dpf-location-1aa79d660aa731fcdbdad2f57b3b3a5e65)
 * [Location](structansys-dpf-location.md#structansys-dpf-location-1a2b3efab2807517d182bc9a486a0fb837)
 * [Location](structansys-dpf-location.md#structansys-dpf-location-1acbfdb380af9621ce0bc37d290f18a464)
@@ -46,7 +46,7 @@ Create new location.
 
 * std::string const & **name** = "" : [in] Optional name of location.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -75,7 +75,7 @@ ansys::dpf::Location::Location(Location const &)=default
 
 * Location const &
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -221,7 +221,7 @@ Name of location.
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -256,7 +256,7 @@ bool ansys::dpf::Location::empty() const
 -->
 
 <a id="structansys-dpf-location-1ad9fab192124627740ffa623b1a0221ea"></a>
-### Function c\_str
+### Function c_str
 
 ![][public]
 ![][const]
@@ -269,7 +269,7 @@ const char * ansys::dpf::Location::c_str() const
 
 
 
-Gets name of location. 
+Gets name of location.
 **Returns**:
 
 Name of location.

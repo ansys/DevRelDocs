@@ -1,4 +1,4 @@
-# File dpf\_model.h
+# File dpf_model.h
 
 <a id="dpf-model-h"></a>
 
@@ -44,20 +44,20 @@ namespace ansys {
         {
         public:
             virtual ~Model() {}
-            Model(const std::string &filePath 
+            Model(const std::string &filePath
             )
             {
                 DataSources ds;
                 ds.addResultFile(filePath);
                 init(ds);
             }
-            Model(const DataSources &data_sources 
+            Model(const DataSources &data_sources
             )
             {
                 init(data_sources);
             }
 
-            inline MeshedRegion getMesh(int timestep = 0 
+            inline MeshedRegion getMesh(int timestep = 0
             );
 
 
@@ -67,17 +67,17 @@ namespace ansys {
 
             inline ResultInfo getResultInfo();
 
-            inline Result CreateResultEvaluationWorkflow(const char* res_name, 
-                Scoping meshScoping = Scoping(), 
-                Location requested_location = Location(), 
-                int cs_id = 0 
+            inline Result CreateResultEvaluationWorkflow(const char* res_name,
+                Scoping meshScoping = Scoping(),
+                Location requested_location = Location(),
+                int cs_id = 0
             );
 
-            inline Result CreateResultEvaluationWorkflow(const char* res_name, 
-                const char * named_selection, 
-                Location requested_location = Location(), 
-                bool bInclusive = true, 
-                int cs_id = 0 
+            inline Result CreateResultEvaluationWorkflow(const char* res_name,
+                const char * named_selection,
+                Location requested_location = Location(),
+                bool bInclusive = true,
+                int cs_id = 0
             );
 
             MeshQuery CreateMeshQuery() {

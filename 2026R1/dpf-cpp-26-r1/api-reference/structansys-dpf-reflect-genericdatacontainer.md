@@ -13,12 +13,12 @@
 
 ## Members
 
-* [type\_name](structansys-dpf-reflect-genericdatacontainer.md#structansys-dpf-reflect-genericdatacontainer-4-1ad6d66f579cab31746250524ec89c523c)
+* [type_name](structansys-dpf-reflect-genericdatacontainer.md#structansys-dpf-reflect-genericdatacontainer-4-1ad6d66f579cab31746250524ec89c523c)
 
 ## Public static functions
 
 <a id="structansys-dpf-reflect-genericdatacontainer-4-1ad6d66f579cab31746250524ec89c523c"></a>
-### Function type\_name
+### Function type_name
 
 ![][public]
 ![][static]

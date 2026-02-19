@@ -1,4 +1,4 @@
-# Structure ansys::dpf::ConstructHelpers::construct\_trait\< Collection\< DataT \>, std::false\_type \>
+# Structure ansys::dpf::ConstructHelpers::construct_trait\< Collection\< DataT \>, std::false_type \>
 
 <a id="structansys-dpf-constructhelpers-construct-trait-collection-datat-4-std-false-type-4"></a>
 
@@ -106,7 +106,7 @@ static Collection< DataT > ansys::dpf::ConstructHelpers::construct_trait< Collec
 **Parameters**:
 
 * [Operator](classansys-dpf-operator.md#classansys-dpf-operator) & **op**
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**
 
 **Return type**: [Collection](classansys-dpf-collection.md#classansys-dpf-collection)< DataT >
 
@@ -168,7 +168,7 @@ static Collection< DataT > ansys::dpf::ConstructHelpers::construct_trait< Collec
 **Parameters**:
 
 * OperatorMain & **op**
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**
 
 **Return type**: [Collection](classansys-dpf-collection.md#classansys-dpf-collection)< DataT >
 

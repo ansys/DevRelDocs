@@ -1,4 +1,4 @@
-# Structure ansys::dpf::ConstructHelpers::construct\_trait\< Any, std::true\_type \>
+# Structure ansys::dpf::ConstructHelpers::construct_trait\< Any, std::true_type \>
 
 <a id="structansys-dpf-constructhelpers-construct-trait-any-std-true-type-4"></a>
 

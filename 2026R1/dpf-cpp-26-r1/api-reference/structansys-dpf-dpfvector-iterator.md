@@ -11,11 +11,11 @@
 
 ## Members
 
-* [difference\_type](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1af9b1bcb76a762d48fcb08813c9bee821)
-* [index\_type](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a63ba4846aa8efc7342860bb6abd95c30)
+* [difference_type](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1af9b1bcb76a762d48fcb08813c9bee821)
+* [index_type](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a63ba4846aa8efc7342860bb6abd95c30)
 * [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a9cdfc43fb8670b7e8cc6a8e6c228b2b4)
 * [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a8fbdb64d3b3ba3ec725836bbffcfcf7f)
-* [iterator\_category](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a8220bff9c1cc4042834cf0daab43f4c4)
+* [iterator_category](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a8220bff9c1cc4042834cf0daab43f4c4)
 * [operator!=](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a55a8ee0e80dad1a7da9d751c25bc0386)
 * [operator*](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a4072330935b9093a9afe71942405bd5a)
 * [operator+](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1ae96e2141a46966d92da5681f7b5631a4)
@@ -31,12 +31,12 @@
 * [operator==](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a81d10d7799462c7ca5e7cf19119ca356)
 * [pointer](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1af1579be2ea26b6235a615f935c8f1359)
 * [reference](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a5942362976b46101d148b0e3df64e13c)
-* [value\_type](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a958e79ca78fe418883ae448359f44812)
+* [value_type](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a958e79ca78fe418883ae448359f44812)
 
 ## Public types
 
 <a id="structansys-dpf-dpfvector-iterator-1a63ba4846aa8efc7342860bb6abd95c30"></a>
-### Typedef index\_type
+### Typedef index_type
 
 ![][public]
 
@@ -61,7 +61,7 @@ using ansys::dpf::DpfVector< T >::iterator::index_type = size_t
 -->
 
 <a id="structansys-dpf-dpfvector-iterator-1af9b1bcb76a762d48fcb08813c9bee821"></a>
-### Typedef difference\_type
+### Typedef difference_type
 
 ![][public]
 
@@ -136,7 +136,7 @@ using ansys::dpf::DpfVector< T >::iterator::reference = T&
 -->
 
 <a id="structansys-dpf-dpfvector-iterator-1a958e79ca78fe418883ae448359f44812"></a>
-### Typedef value\_type
+### Typedef value_type
 
 ![][public]
 
@@ -161,7 +161,7 @@ using ansys::dpf::DpfVector< T >::iterator::value_type = T
 -->
 
 <a id="structansys-dpf-dpfvector-iterator-1a8220bff9c1cc4042834cf0daab43f4c4"></a>
-### Typedef iterator\_category
+### Typedef iterator_category
 
 ![][public]
 
@@ -343,7 +343,7 @@ ansys::dpf::DpfVector< T >::iterator::iterator()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -373,7 +373,7 @@ ansys::dpf::DpfVector< T >::iterator::iterator(index_type index, DpfVectorData< 
 * index_type **index**
 * DpfVectorData< T > * **data**
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:

@@ -1,4 +1,4 @@
-# File dpf\_meshQuery.h
+# File dpf_meshQuery.h
 
 <a id="dpf-meshquery-h"></a>
 
@@ -44,80 +44,80 @@ namespace ansys {
         {
         public:
             virtual ~MeshQuery() {}
-            MeshQuery(Operator &mesh_provider 
+            MeshQuery(Operator &mesh_provider
             )
             {
                 init(mesh_provider);
             }
-            
-            inline Scoping GetNodesByNamedSelection(const char *named_selection, 
-                DpfError &error 
+
+            inline Scoping GetNodesByNamedSelection(const char *named_selection,
+                DpfError &error
             ) {
                 return GetByNamedSelection(true, named_selection, error);
             }
-            inline Scoping GetNodesByMaterialId(dp_id materialId, 
-                DpfError &error 
+            inline Scoping GetNodesByMaterialId(dp_id materialId,
+                DpfError &error
             ) {
                 return GetByMaterialId(true, materialId, error);
             }
-            inline Scoping GetNodesByElementType(const ElementDescriptor &element_type, 
-                DpfError &error 
+            inline Scoping GetNodesByElementType(const ElementDescriptor &element_type,
+                DpfError &error
             ) {
                 return GetByPropertyType(true, "eltype", element_type.id, error);
             }
-            inline Scoping GetNodesBySolverElementType(int element_type, 
-                DpfError &error 
+            inline Scoping GetNodesBySolverElementType(int element_type,
+                DpfError &error
             ) {
                 return GetByPropertyType(true, "apdl_element_type", element_type, error);
             }
 
-            inline Scoping GetElementsByNamedSelection(const char *named_selection, 
-                bool inclusive, 
-                DpfError &error 
+            inline Scoping GetElementsByNamedSelection(const char *named_selection,
+                bool inclusive,
+                DpfError &error
             ) {
                 return GetByNamedSelection(false, named_selection, error, inclusive);
             }
-            inline Scoping GetElementsByMaterialId(dp_id materialId, 
-                DpfError &error 
+            inline Scoping GetElementsByMaterialId(dp_id materialId,
+                DpfError &error
             ) {
                 return GetByMaterialId(false, materialId, error);
             }
-            inline Scoping GetElementsByElementType(const ElementDescriptor &element_type, 
-                DpfError &error 
+            inline Scoping GetElementsByElementType(const ElementDescriptor &element_type,
+                DpfError &error
             ) {
                 return GetByPropertyType(false, "eltype", element_type.id, error);
             }
-            inline Scoping GetElementsBySolverElementType(int element_type, 
-                DpfError &error 
+            inline Scoping GetElementsBySolverElementType(int element_type,
+                DpfError &error
             ) {
                 return GetByPropertyType(false, "apdl_element_type", element_type, error);
             }
 
-            inline Scoping GetSkinElements(DpfError &error 
+            inline Scoping GetSkinElements(DpfError &error
             )
             {
                 return GetElements(std::string("skin_elements"), error);
             }
 
-            inline Scoping GetBeamElements(DpfError &error 
+            inline Scoping GetBeamElements(DpfError &error
             )
             {
                 return GetElements(std::string("beam_elements"), error);
             }
 
-            inline Scoping GetSolidElements(DpfError &error 
+            inline Scoping GetSolidElements(DpfError &error
             )
             {
                 return GetElements(std::string("solid_elements"), error);
             }
 
-            inline Scoping GetPointElements(DpfError &error 
+            inline Scoping GetPointElements(DpfError &error
             )
             {
                 return GetElements(std::string("point_elements"), error);
             }
 
-            inline Scoping GetShellElements(DpfError &error 
+            inline Scoping GetShellElements(DpfError &error
             )
             {
                 return GetElements(std::string("shell_elements"), error);

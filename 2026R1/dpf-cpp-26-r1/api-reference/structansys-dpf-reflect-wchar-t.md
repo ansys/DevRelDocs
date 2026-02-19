@@ -1,4 +1,4 @@
-# Structure ansys::dpf::reflect\< wchar\_t \>
+# Structure ansys::dpf::reflect\< wchar_t \>
 
 <a id="structansys-dpf-reflect-wchar-t-4"></a>
 
@@ -13,12 +13,12 @@
 
 ## Members
 
-* [type\_name](structansys-dpf-reflect-wchar-t.md#structansys-dpf-reflect-wchar-t-4-1aa99bc6a30cf66085ac36ebc165122e03)
+* [type_name](structansys-dpf-reflect-wchar-t.md#structansys-dpf-reflect-wchar-t-4-1aa99bc6a30cf66085ac36ebc165122e03)
 
 ## Public static functions
 
 <a id="structansys-dpf-reflect-wchar-t-4-1aa99bc6a30cf66085ac36ebc165122e03"></a>
-### Function type\_name
+### Function type_name
 
 ![][public]
 ![][static]

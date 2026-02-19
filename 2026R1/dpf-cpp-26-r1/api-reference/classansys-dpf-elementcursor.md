@@ -66,7 +66,7 @@ ansys::dpf::ElementCursor::ElementCursor()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -95,7 +95,7 @@ ansys::dpf::ElementCursor::ElementCursor(ElementCursor const &)=delete
 
 * ElementCursor const &
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -124,7 +124,7 @@ ansys::dpf::ElementCursor::ElementCursor(ElementCursor &&)=delete
 
 * ElementCursor &&
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -178,7 +178,7 @@ dp_int ansys::dpf::ElementCursor::numberOfNodes() const
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -206,7 +206,7 @@ Number of corner nodes in element.
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -234,7 +234,7 @@ Number of mid-side nodes in element.
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -262,7 +262,7 @@ Number of nodes in cursor.
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -318,7 +318,7 @@ Element cursor id.
 
 
 
-**Return type**: [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e)
+**Return type**: [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e)
 
 <!--
 **TODO**:
@@ -348,9 +348,9 @@ Connectivity node id given by index.
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **i**: [in] Index into connectivity list.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **i**: [in] Index into connectivity list.
 
-**Return type**: [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920)
+**Return type**: [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920)
 
 <!--
 **TODO**:

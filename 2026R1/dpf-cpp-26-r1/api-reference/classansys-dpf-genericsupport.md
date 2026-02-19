@@ -16,7 +16,7 @@ Define a generic support.
 ## Members
 
 * [callAPI](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1aea34d37e0c080126eff70db34bf46597)
-* [deep\_copy](classansys-dpf-support.md#classansys-dpf-support-1a3b4233346825454e052a9de678d9ef0a)
+* [deep_copy](classansys-dpf-support.md#classansys-dpf-support-1a3b4233346825454e052a9de678d9ef0a)
 * [describe](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a9977945710983bc03d2940fa007847b2)
 * [empty](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a39cd546c42518e2332be8f287db95459)
 * [emptyGenericSupport](classansys-dpf-genericsupport.md#classansys-dpf-genericsupport-1aa561f217253e9f5ef38c1d027d08b560)
@@ -74,7 +74,7 @@ ansys::dpf::GenericSupport::~GenericSupport()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -103,7 +103,7 @@ ansys::dpf::GenericSupport::GenericSupport(Location const &location)
 
 * [Location](structansys-dpf-location.md#structansys-dpf-location) const & **location**
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -133,7 +133,7 @@ ansys::dpf::GenericSupport::GenericSupport(Location const &location, Client cons
 * [Location](structansys-dpf-location.md#structansys-dpf-location) const & **location**
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -162,7 +162,7 @@ ansys::dpf::GenericSupport::GenericSupport(GenericSupport const &)
 
 * GenericSupport const &
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -191,7 +191,7 @@ ansys::dpf::GenericSupport::GenericSupport(GenericSupport &&) noexcept
 
 * GenericSupport &&
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -366,7 +366,7 @@ static GenericSupport ansys::dpf::GenericSupport::emptyGenericSupport()
 
 
 
-Create an empty support. 
+Create an empty support.
 **Returns**:
 
 Empty [Support](classansys-dpf-support.md#classansys-dpf-support).

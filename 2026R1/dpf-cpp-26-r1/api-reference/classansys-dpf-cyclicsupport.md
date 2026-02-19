@@ -64,7 +64,7 @@ virtual ansys::dpf::CyclicSupport::~CyclicSupport()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -93,7 +93,7 @@ ansys::dpf::CyclicSupport::CyclicSupport(CyclicSupport const &)
 
 * CyclicSupport const &
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -122,7 +122,7 @@ ansys::dpf::CyclicSupport::CyclicSupport(CyclicSupport &&) noexcept
 
 * CyclicSupport &&
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -210,9 +210,9 @@ Number of sectors for given stage.
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **istage** = 0 : [in] Optional stage.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **istage** = 0 : [in] Optional stage.
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -240,7 +240,7 @@ Cyclic phase.
 
 
 
-**Return type**: [dp\_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790)
+**Return type**: [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790)
 
 <!--
 **TODO**:
@@ -268,7 +268,7 @@ Number of cyclic stages
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -298,7 +298,7 @@ Scoping ansys::dpf::CyclicSupport::sectorsScoping(dp_int istage=0) const
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **istage** = 0 : [in] Optional stage.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **istage** = 0 : [in] Optional stage.
 
 **Return type**: [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping)
 
@@ -330,7 +330,7 @@ Scoping ansys::dpf::CyclicSupport::baseNodesScoping(dp_int istage=0) const
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **istage** = 0 : [in] Optional stage.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **istage** = 0 : [in] Optional stage.
 
 **Return type**: [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping)
 
@@ -362,7 +362,7 @@ Scoping ansys::dpf::CyclicSupport::baseElementsScoping(dp_int istage=0) const
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **istage** = 0 : [in] Optional stage.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **istage** = 0 : [in] Optional stage.
 
 **Return type**: [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping)
 
@@ -394,9 +394,9 @@ Scoping ansys::dpf::CyclicSupport::expandNodeIds(dp_int nodeId, Scoping sectors_
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **nodeId**: [in] nodeId to expand.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **nodeId**: [in] nodeId to expand.
 * [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping) **sectors_scoping**: [in] [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping) containing the list of sectors to expand.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **istage** = 0 : [in] Optional stage.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **istage** = 0 : [in] Optional stage.
 
 **Return type**: [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping)
 
@@ -428,9 +428,9 @@ Scoping ansys::dpf::CyclicSupport::expandElementIds(dp_int elementId, Scoping se
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **elementId**: [in] elementId to expand.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **elementId**: [in] elementId to expand.
 * [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping) **sectors_scoping**: [in] [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping) containing the list of sectors to expand.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **istage** = 0 : [in] Optional stage.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **istage** = 0 : [in] Optional stage.
 
 **Return type**: [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping)
 
@@ -462,8 +462,8 @@ Scoping ansys::dpf::CyclicSupport::expandNodeIds(dp_int nodeId, dp_int istage=0)
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **nodeId**: [in] nodeId to expand.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **istage** = 0 : [in] Optional stage.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **nodeId**: [in] nodeId to expand.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **istage** = 0 : [in] Optional stage.
 
 **Return type**: [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping)
 
@@ -495,8 +495,8 @@ Scoping ansys::dpf::CyclicSupport::expandElementIds(dp_int elementId, dp_int ist
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **elementId**: [in] elementId to expand.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **istage** = 0 : [in] Optional stage.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **elementId**: [in] elementId to expand.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **istage** = 0 : [in] Optional stage.
 
 **Return type**: [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping)
 
@@ -556,7 +556,7 @@ PropertyField ansys::dpf::CyclicSupport::getLowHighMap(dp_int istage=0) const
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **istage** = 0 : [in] Optional stage.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **istage** = 0 : [in] Optional stage.
 
 **Return type**: PropertyField
 
@@ -588,7 +588,7 @@ PropertyField ansys::dpf::CyclicSupport::getHighLowMap(dp_int istage=0) const
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **istage** = 0 : [in] Optional stage.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **istage** = 0 : [in] Optional stage.
 
 **Return type**: PropertyField
 

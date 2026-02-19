@@ -13,12 +13,12 @@
 
 ## Members
 
-* [type\_name](structansys-dpf-reflect-std-complex-double-4.md#structansys-dpf-reflect-std-complex-double-4-4-1afc7c5244d7580d18ce3be110f078386e)
+* [type_name](structansys-dpf-reflect-std-complex-double-4.md#structansys-dpf-reflect-std-complex-double-4-4-1afc7c5244d7580d18ce3be110f078386e)
 
 ## Public static functions
 
 <a id="structansys-dpf-reflect-std-complex-double-4-4-1afc7c5244d7580d18ce3be110f078386e"></a>
-### Function type\_name
+### Function type_name
 
 ![][public]
 ![][static]

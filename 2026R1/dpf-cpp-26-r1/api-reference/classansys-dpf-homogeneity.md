@@ -7,13 +7,13 @@
 
 User defined physical measurement quantity.
 
-Allows for the definition of a new measurement quantity. Many measurements quantities are predefined. 
+Allows for the definition of a new measurement quantity. Many measurements quantities are predefined.
 
 **See also**: [homogeneities](structansys-dpf-homogeneities.md#structansys-dpf-homogeneities)
 
 ## Members
 
-* [c\_str](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity-1a74bcfe9b2ed50910f2da21944e3b7437)
+* [c_str](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity-1a74bcfe9b2ed50910f2da21944e3b7437)
 * [Homogeneity](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity-1a5ddd95a1b4667a297eb19531f722d27e)
 * [Homogeneity](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity-1a192f79a5c56ddd9304822227218b199e)
 * [Homogeneity](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity-1abab33dd46353450eb8b025e792a0c74f)
@@ -45,7 +45,7 @@ Create new homogeneity.
 
 * std::string const & **name** = "Unknown" : [in] Optional name of homogeneity.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -74,7 +74,7 @@ ansys::dpf::Homogeneity::Homogeneity(Homogeneity const &)=default
 
 * Homogeneity const &
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -103,7 +103,7 @@ ansys::dpf::Homogeneity::Homogeneity(Homogeneity &&)=default
 
 * Homogeneity &&
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -218,7 +218,7 @@ Name of homogeneity.
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -227,7 +227,7 @@ Name of homogeneity.
 -->
 
 <a id="classansys-dpf-homogeneity-1a74bcfe9b2ed50910f2da21944e3b7437"></a>
-### Function c\_str
+### Function c_str
 
 ![][public]
 ![][const]
@@ -240,7 +240,7 @@ const char * ansys::dpf::Homogeneity::c_str() const
 
 
 
-Gets name of homogeneity. 
+Gets name of homogeneity.
 **Returns**:
 
 Name of homogeneity.

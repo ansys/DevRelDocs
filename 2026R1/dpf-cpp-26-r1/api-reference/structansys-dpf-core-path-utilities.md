@@ -1,4 +1,4 @@
-# Structure ansys::dpf::core::path\_utilities
+# Structure ansys::dpf::core::path_utilities
 
 <a id="structansys-dpf-core-path-utilities"></a>
 
@@ -37,8 +37,8 @@ static std::string ansys::dpf::core::path_utilities::uploadFile(Client const *co
 
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**
 * std::string const & **file_path**
-* std::string const & **to_server_file_path** = "" 
-* bool **inTmp** = true 
+* std::string const & **to_server_file_path** = ""
+* bool **inTmp** = true
 
 **Return type**: std::string
 

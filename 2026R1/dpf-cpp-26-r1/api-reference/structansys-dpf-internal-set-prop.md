@@ -1,4 +1,4 @@
-# Structure ansys::dpf::internal::set\_prop
+# Structure ansys::dpf::internal::set_prop
 
 <a id="structansys-dpf-internal-set-prop"></a>
 
@@ -12,8 +12,8 @@
 **Template parameters**:
 
 * typename T
-* typename isBaseOfDpfTypes = typename std::is_base_of<[DpfTypes](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes), T>::type 
-* typename isBaseOfCustomContainerBase = typename std::is_base_of<[CustomContainerBase](classansys-dpf-customcontainerbase.md#classansys-dpf-customcontainerbase), T>::type 
+* typename isBaseOfDpfTypes = typename std::is_base_of<[DpfTypes](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes), T>::type
+* typename isBaseOfCustomContainerBase = typename std::is_base_of<[CustomContainerBase](classansys-dpf-customcontainerbase.md#classansys-dpf-customcontainerbase), T>::type
 
 ## Members
 

@@ -7,13 +7,13 @@
 
 
 
-Container for label. 
+Container for label.
 
 **See also**: [labels](structansys-dpf-labels.md#structansys-dpf-labels)
 
 ## Members
 
-* [c\_str](structansys-dpf-label.md#structansys-dpf-label-1a8683632fa258b763080c99228b4f561c)
+* [c_str](structansys-dpf-label.md#structansys-dpf-label-1a8683632fa258b763080c99228b4f561c)
 * [Label](structansys-dpf-label.md#structansys-dpf-label-1aa16652a3ceeda62dce2af07722a0ec80)
 * [Label](structansys-dpf-label.md#structansys-dpf-label-1a26ac4cad65d736a4400cdb84b16f950b)
 * [operator std::string](structansys-dpf-label.md#structansys-dpf-label-1abb523602a3862d6141a3052812225e4b)
@@ -45,7 +45,7 @@ Create [Label](structansys-dpf-label.md#structansys-dpf-label).
 
 * std::string const & **name**: [in] Name of label.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -74,7 +74,7 @@ ansys::dpf::Label::Label(Label const &)=default
 
 * Label const &
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -220,7 +220,7 @@ Value of label.
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -229,7 +229,7 @@ Value of label.
 -->
 
 <a id="structansys-dpf-label-1a8683632fa258b763080c99228b4f561c"></a>
-### Function c\_str
+### Function c_str
 
 ![][public]
 ![][const]

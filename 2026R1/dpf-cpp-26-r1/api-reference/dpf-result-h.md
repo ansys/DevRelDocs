@@ -1,4 +1,4 @@
-# File dpf\_result.h
+# File dpf_result.h
 
 <a id="dpf-result-h"></a>
 
@@ -43,89 +43,89 @@ class Result
 {
 public:
 
-    Result(const char* res_name, 
-        Operator &stream_provider, 
-        Operator &timefreq_support_provider 
+    Result(const char* res_name,
+        Operator &stream_provider,
+        Operator &timefreq_support_provider
     )
     {
         init(res_name, stream_provider, timefreq_support_provider, Scoping(), Location(), 0);
     }
 
-    Result(const char* res_name, 
-        Operator &stream_provider, 
-        Operator &timefreq_support_provider, 
-        Scoping meshScoping 
+    Result(const char* res_name,
+        Operator &stream_provider,
+        Operator &timefreq_support_provider,
+        Scoping meshScoping
     )
     {
         init(res_name, stream_provider, timefreq_support_provider, meshScoping, Location(), 0);
     }
 
-    Result(const char* res_name, 
-        Operator &stream_provider, 
-        Operator &timefreq_support_provider, 
-        Scoping meshScoping, 
-        Location requested_location, 
-        int cs_id 
+    Result(const char* res_name,
+        Operator &stream_provider,
+        Operator &timefreq_support_provider,
+        Scoping meshScoping,
+        Location requested_location,
+        int cs_id
     )
     {
         init(res_name, stream_provider, timefreq_support_provider, meshScoping, requested_location, cs_id);
     }
-    
-    Result(const char* res_name, 
-        Operator &stream_provider, 
-        Operator &timefreq_support_provider, 
-        Operator &mesh_provider, 
-        const char *named_selection, 
-        Location requested_location, 
-        bool bInclusive, 
-        int cs_id 
+
+    Result(const char* res_name,
+        Operator &stream_provider,
+        Operator &timefreq_support_provider,
+        Operator &mesh_provider,
+        const char *named_selection,
+        Location requested_location,
+        bool bInclusive,
+        int cs_id
     )
     {
         init(res_name, stream_provider, timefreq_support_provider, mesh_provider, named_selection, requested_location, bInclusive, cs_id);
     }
-    
+
     virtual ~Result() {}
 
-    FieldsContainer EvaluateAtGivenTime(double dTime, 
-        DpfError &error 
+    FieldsContainer EvaluateAtGivenTime(double dTime,
+        DpfError &error
     ) {return EvaluateOutputAtGivenTime(dTime, 0.0, "res_source", error);}
-    inline FieldsContainer EvaluateAtGivenTimeIndex(dp_int iSet, 
-        DpfError &error 
+    inline FieldsContainer EvaluateAtGivenTimeIndex(dp_int iSet,
+        DpfError &error
     ) {return EvaluateOutputAtGivenSetIndex(iSet, 0.0, "res_source", error);}
-    inline FieldsContainer EvaluateAtGivenStepIndexAndSubStep(dp_int iStep, 
-        dp_int iSubStep, 
-        DpfError &error 
+    inline FieldsContainer EvaluateAtGivenStepIndexAndSubStep(dp_int iStep,
+        dp_int iSubStep,
+        DpfError &error
     ) {return EvaluateOutputAtGivenStepIndexAndSubStep(iStep, iSubStep, 0.0, "res_source", error);}
-     
+
     //FieldsContainer EvaluateImagAtGivenTime(double dTime, DpfError &error);
     //FieldsContainer EvaluateImagAtGivenSet(int iSet, DpfError &error);
-    //FieldsContainer EvaluateImagAtGivenStepAndSubStep(int iStep, int iSubStep, DpfError &error);     
-    
-    FieldsContainer EvaluateAmplitudeAtGivenTime(double dTime, 
-        DpfError &error 
+    //FieldsContainer EvaluateImagAtGivenStepAndSubStep(int iStep, int iSubStep, DpfError &error);
+
+    FieldsContainer EvaluateAmplitudeAtGivenTime(double dTime,
+        DpfError &error
     ) {return EvaluateOutputAtGivenTime(dTime, 0.0, "res_amplitude", error); }
-    FieldsContainer EvaluateAmplitudeAtGivenTimeIndex(int iSet, 
-        DpfError &error 
+    FieldsContainer EvaluateAmplitudeAtGivenTimeIndex(int iSet,
+        DpfError &error
     ) {return EvaluateOutputAtGivenSetIndex(iSet, 0.0, "res_amplitude", error);}
-    FieldsContainer EvaluateAmplitudeAtGivenStepIndexAndSubStep(int iStep, 
-        int iSubStep, 
-        DpfError &error 
+    FieldsContainer EvaluateAmplitudeAtGivenStepIndexAndSubStep(int iStep,
+        int iSubStep,
+        DpfError &error
     ) {return EvaluateOutputAtGivenStepIndexAndSubStep(iStep, iSubStep, 0.0, "res_amplitude", error);}
-     
-    FieldsContainer EvaluateWithPhaseAtGivenTime(double dTime, 
-        double dPhase, 
-        DpfError &error 
+
+    FieldsContainer EvaluateWithPhaseAtGivenTime(double dTime,
+        double dPhase,
+        DpfError &error
     ) { return EvaluateOutputAtGivenTime(dTime, dPhase, "res_phase", error); }
-    FieldsContainer EvaluateWithPhaseAtGivenTimeIndex(int iSet, 
-        double dPhase, 
-        DpfError &error 
+    FieldsContainer EvaluateWithPhaseAtGivenTimeIndex(int iSet,
+        double dPhase,
+        DpfError &error
     ) { return EvaluateOutputAtGivenSetIndex(iSet, dPhase, "res_phase", error); }
-    FieldsContainer EvaluateWithPhaseAtGivenStepIndexAndSubStep(int iStep, 
-        int iSubStep, 
-        double dPhase, 
-        DpfError &error 
+    FieldsContainer EvaluateWithPhaseAtGivenStepIndexAndSubStep(int iStep,
+        int iSubStep,
+        double dPhase,
+        DpfError &error
     ) { return EvaluateOutputAtGivenStepIndexAndSubStep(iStep, iSubStep, dPhase, "res_phase", error); }
-    
+
 
 private:
 
@@ -137,7 +137,7 @@ private:
     {
         /*
             The diagram bellow shows the result workflow
-            
+
             Exposed input and output pins:
                  -Input pins:
                      -"time" : allows to evaluate at given time/freq, set, step-substep
@@ -150,13 +150,13 @@ private:
             No-exposed input pins (specified once when a result is created)
                 - mesh scoping
                 - requested location
-                - cs_id 
+                - cs_id
 
 
 
 
 
-                        _______     __ "res_source"      __________ 
+                        _______     __ "res_source"      __________
                "time" -|       |___|____________________|          |__ "res_amplitude"
                        |source |   |                    |amplitude |
                        |_______|   |                    |__________|
@@ -198,7 +198,7 @@ private:
         _workflow.nameOutputPin(phase, 0, "res_phase");
 
     }
-    
+
     inline void init(const char* res_name, Operator &stream_provider, Operator &timefreq_support_provider, Operator &mesh_provider, const char *named_selection, Location requested_location, bool bInclusive, int cs_id);
     Workflow _workflow;
     DpfError _dpfError;

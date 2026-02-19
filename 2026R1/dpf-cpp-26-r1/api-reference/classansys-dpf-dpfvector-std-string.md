@@ -52,7 +52,7 @@ ansys::dpf::DpfVector< std::string >::DpfVector()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -81,7 +81,7 @@ ansys::dpf::DpfVector< std::string >::DpfVector(DpfTypes const &for_object)
 
 * [DpfTypes](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes) const & **for_object**
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -106,7 +106,7 @@ ansys::dpf::DpfVector< std::string >::~DpfVector()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -135,7 +135,7 @@ ansys::dpf::DpfVector< std::string >::DpfVector(DpfVector const &)=delete
 
 * DpfVector const &
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -164,7 +164,7 @@ ansys::dpf::DpfVector< std::string >::DpfVector(DpfVector &&)
 
 * DpfVector &&
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -250,7 +250,7 @@ std::string ansys::dpf::DpfVector< std::string >::operator[](dp_index idx) const
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **idx**
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **idx**
 
 **Return type**: std::string
 
@@ -304,7 +304,7 @@ Return the size of the data contained in the [DpfVector](classansys-dpf-dpfvecto
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:

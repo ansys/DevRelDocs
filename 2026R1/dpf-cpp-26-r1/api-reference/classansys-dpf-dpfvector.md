@@ -62,7 +62,7 @@ ansys::dpf::DpfVector< T >::DpfVector()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -91,7 +91,7 @@ ansys::dpf::DpfVector< T >::DpfVector(Client const *const for_object)
 
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **for_object**
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -120,7 +120,7 @@ ansys::dpf::DpfVector< T >::DpfVector(Client const &for_object)
 
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const & **for_object**
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -150,7 +150,7 @@ Copyless constructor: the new vector is created with a reference on the same dat
 * iterator const & **begin**
 * iterator const & **end**
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -175,7 +175,7 @@ ansys::dpf::DpfVector< T >::~DpfVector()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -204,7 +204,7 @@ ansys::dpf::DpfVector< T >::DpfVector(DpfVector const &)
 
 * rhsDpfVector const &
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -233,7 +233,7 @@ ansys::dpf::DpfVector< T >::DpfVector(DpfVector &&) noexcept
 
 * rhsDpfVector &&
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -318,7 +318,7 @@ T & ansys::dpf::DpfVector< T >::operator[](dp_index idx)
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **idx**
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **idx**
 
 **Return type**: T &
 
@@ -348,7 +348,7 @@ T ansys::dpf::DpfVector< T >::operator[](dp_index idx) const
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **idx**
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **idx**
 
 **Return type**: T
 
@@ -427,7 +427,7 @@ Return the size of the data contained in the [DpfVector](classansys-dpf-dpfvecto
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
