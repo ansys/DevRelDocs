@@ -133,7 +133,7 @@
 
 ```mermaid
 graph LR
-1["D:/ANSYSDev/Sandbox/DPF/Ans.Dpf.Hgp/dpf_api.h"]
+1["dpf/include/dpf_api.h"]
 click 1 "dpf__api_8h.md#dpf__api_8h"
 1 --> 2
 1 --> 3
