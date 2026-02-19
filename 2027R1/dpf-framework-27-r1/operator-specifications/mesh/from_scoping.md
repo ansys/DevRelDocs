@@ -1,7 +1,7 @@
 ---
 category: mesh
 plugin: core
-license: any_dpf_supported_increments
+license: None
 ---
 
 # mesh:from scoping
@@ -106,7 +106,7 @@ This operator can be accessed through scripting interfaces using these identifie
 
  **Internal name**: mesh::by_scoping
 
- **License**: any_dpf_supported_increments
+ **License**: None
 
 ## Examples
 

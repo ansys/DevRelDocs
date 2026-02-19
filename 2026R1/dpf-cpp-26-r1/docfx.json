@@ -1,0 +1,13 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "DPF Cpp API 2026 R1",
+      "summary": "",
+      "version": "2026 R1",
+      "product": "DPF",
+      "programming language": "C++",
+      "product collection": "Structures",
+      "physics": "Structures"
+    }
+  }
+}
