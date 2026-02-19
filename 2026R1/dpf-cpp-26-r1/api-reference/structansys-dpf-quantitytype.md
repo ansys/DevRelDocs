@@ -15,7 +15,6 @@ Allows for the definition of a new quantity type. Many quantity types are predef
 
 * [c_str](structansys-dpf-quantitytype.md#structansys-dpf-quantitytype-1abdfb356d30de73b4bae958a5a22eb186)
 * [empty](structansys-dpf-quantitytype.md#structansys-dpf-quantitytype-1a013520e0f57e0ad6bcd8a533d8639b21)
-* [operator std::string](structansys-dpf-quantitytype.md#structansys-dpf-quantitytype-1ad86c0033431ec42817dafdbef89e650a)
 * [operator!=](structansys-dpf-quantitytype.md#structansys-dpf-quantitytype-1ab55b06401adb7a8017fadc7e860f9477)
 * [operator\<](structansys-dpf-quantitytype.md#structansys-dpf-quantitytype-1af0c5735179d5e5ad3949052f551d5777)
 * [operator\<=](structansys-dpf-quantitytype.md#structansys-dpf-quantitytype-1ab3a03a40046da3dc03075230b395df8b)
@@ -201,32 +200,6 @@ bool ansys::dpf::QuantityType::operator!=(QuantityType const &) const
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::QuantityType::operator!="}]}`
--->
-
-<a id="structansys-dpf-quantitytype-1ad86c0033431ec42817dafdbef89e650a"></a>
-### Function operator std::string
-
-![][public]
-![][const]
-
-
-```cpp
-ansys::dpf::QuantityType::operator std::string() const
-```
-
-
-
-
-Name of quantity type.
-
-
-
-**Return type**:
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::QuantityType::string"}]}`
 -->
 
 <a id="structansys-dpf-quantitytype-1a013520e0f57e0ad6bcd8a533d8639b21"></a>
