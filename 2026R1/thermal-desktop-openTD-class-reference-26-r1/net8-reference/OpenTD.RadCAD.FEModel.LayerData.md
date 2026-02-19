@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FEModel_LayerData"></a> Class LayerData
+# Class LayerData
 
 Namespace: [OpenTD.RadCAD.FEModel](OpenTD.RadCAD.FEModel.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ mesh using an FEMeshImporter only.
 public class LayerData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [LayerData](OpenTD.RadCAD.FEModel.LayerData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -27,7 +27,7 @@ public class LayerData
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_FEModel_LayerData__ctor"></a> LayerData\(\)
+### LayerData\(\)
 
 ```csharp
 public LayerData()
@@ -35,7 +35,7 @@ public LayerData()
 
 ## Fields
 
-### <a id="OpenTD_RadCAD_FEModel_LayerData_alpha"></a> alpha
+### alpha
 
 ```csharp
 public int alpha
@@ -45,7 +45,7 @@ public int alpha
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_FEModel_LayerData_blue"></a> blue
+### blue
 
 ```csharp
 public int blue
@@ -55,7 +55,7 @@ public int blue
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_FEModel_LayerData_green"></a> green
+### green
 
 ```csharp
 public int green
@@ -65,7 +65,7 @@ public int green
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_FEModel_LayerData_name"></a> name
+### name
 
 ```csharp
 public string name
@@ -75,7 +75,7 @@ public string name
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_FEModel_LayerData_red"></a> red
+### red
 
 ```csharp
 public int red
@@ -84,4 +84,5 @@ public int red
 #### Field Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 

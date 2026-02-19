@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FEModel_Node"></a> Class Node
+# Class Node
 
 Namespace: [OpenTD.RadCAD.FEModel](OpenTD.RadCAD.FEModel.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ mesh using an FEMeshImporter only.
 public class Node
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Node](OpenTD.RadCAD.FEModel.Node.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,7 +27,7 @@ public class Node
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_FEModel_Node__ctor"></a> Node\(\)
+### Node\(\)
 
 ```csharp
 public Node()
@@ -35,7 +35,7 @@ public Node()
 
 ## Fields
 
-### <a id="OpenTD_RadCAD_FEModel_Node_Nx"></a> Nx
+### Nx
 
 ```csharp
 public double Nx
@@ -45,7 +45,7 @@ public double Nx
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_FEModel_Node_Ny"></a> Ny
+### Ny
 
 ```csharp
 public double Ny
@@ -55,7 +55,7 @@ public double Ny
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_FEModel_Node_Nz"></a> Nz
+### Nz
 
 ```csharp
 public double Nz
@@ -65,7 +65,7 @@ public double Nz
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_FEModel_Node_id"></a> id
+### id
 
 ```csharp
 public int id
@@ -75,7 +75,7 @@ public int id
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_FEModel_Node_idOverride"></a> idOverride
+### idOverride
 
 ```csharp
 public int idOverride
@@ -85,7 +85,7 @@ public int idOverride
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_FEModel_Node_submodel"></a> submodel
+### submodel
 
 ```csharp
 public string submodel
@@ -95,7 +95,7 @@ public string submodel
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_FEModel_Node_x"></a> x
+### x
 
 ```csharp
 public Dimensional<ModelLength> x
@@ -105,7 +105,7 @@ public Dimensional<ModelLength> x
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FEModel_Node_y"></a> y
+### y
 
 ```csharp
 public Dimensional<ModelLength> y
@@ -115,7 +115,7 @@ public Dimensional<ModelLength> y
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FEModel_Node_z"></a> z
+### z
 
 ```csharp
 public Dimensional<ModelLength> z
@@ -124,4 +124,5 @@ public Dimensional<ModelLength> z
 #### Field Value
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
+
 

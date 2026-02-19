@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_AnalysisGroupVolumetricInfo"></a> Class AnalysisGroupVolumetricInfo
+# Class AnalysisGroupVolumetricInfo
 
 Namespace: [OpenTD.RadCAD](OpenTD.RadCAD.md)  
 Assembly: OpenTD.dll  
@@ -11,12 +11,12 @@ analysis group.
 public class AnalysisGroupVolumetricInfo
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AnalysisGroupVolumetricInfo](OpenTD.RadCAD.AnalysisGroupVolumetricInfo.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -28,7 +28,7 @@ public class AnalysisGroupVolumetricInfo
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_AnalysisGroupVolumetricInfo__ctor_System_String_OpenTD_RadCAD_RcEntityData_VolumetricParticipation_OpenTD_RadCAD_RcEntityData_VolumetricParticipation_"></a> AnalysisGroupVolumetricInfo\(string, VolumetricParticipation, VolumetricParticipation\)
+### AnalysisGroupVolumetricInfo\(string, VolumetricParticipation, VolumetricParticipation\)
 
 ```csharp
 public AnalysisGroupVolumetricInfo(string name, RcEntityData.VolumetricParticipation volTop, RcEntityData.VolumetricParticipation volBot)
@@ -44,7 +44,7 @@ public AnalysisGroupVolumetricInfo(string name, RcEntityData.VolumetricParticipa
 
 ## Properties
 
-### <a id="OpenTD_RadCAD_AnalysisGroupVolumetricInfo_BotSideVolumetricParticipation"></a> BotSideVolumetricParticipation
+### BotSideVolumetricParticipation
 
 ```csharp
 [DataMember]
@@ -55,7 +55,7 @@ public RcEntityData.VolumetricParticipation BotSideVolumetricParticipation { get
 
  [RcEntityData](OpenTD.RadCAD.RcEntityData.md).[VolumetricParticipation](OpenTD.RadCAD.RcEntityData.VolumetricParticipation.md)
 
-### <a id="OpenTD_RadCAD_AnalysisGroupVolumetricInfo_Name"></a> Name
+### Name
 
 ```csharp
 [DataMember]
@@ -66,7 +66,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_AnalysisGroupVolumetricInfo_TopSideVolumetricParticipation"></a> TopSideVolumetricParticipation
+### TopSideVolumetricParticipation
 
 ```csharp
 [DataMember]
@@ -79,7 +79,7 @@ public RcEntityData.VolumetricParticipation TopSideVolumetricParticipation { get
 
 ## Methods
 
-### <a id="OpenTD_RadCAD_AnalysisGroupVolumetricInfo_Equals_System_Object_"></a> Equals\(object\)
+### Equals\(object\)
 
 Determines whether the specified object is equal to the current object.
 
@@ -97,9 +97,9 @@ The object to compare with the current object.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+[true](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool) if the specified object  is equal to the current object; otherwise, [false](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool).
 
-### <a id="OpenTD_RadCAD_AnalysisGroupVolumetricInfo_GetHashCode"></a> GetHashCode\(\)
+### GetHashCode\(\)
 
 Serves as the default hash function.
 
@@ -113,7 +113,7 @@ public override int GetHashCode()
 
 A hash code for the current object.
 
-### <a id="OpenTD_RadCAD_AnalysisGroupVolumetricInfo_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -126,4 +126,5 @@ public override string ToString()
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 A string that represents the current object.
+
 

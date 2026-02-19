@@ -1,4 +1,4 @@
-# <a id="OpenTD_ListSI"></a> Class ListSI
+# Class ListSI
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -9,13 +9,13 @@ A list of doubles named to explicitly state SI units.
 public class ListSI : List<double>, IList<double>, ICollection<double>, IList, ICollection, IReadOnlyList<double>, IReadOnlyCollection<double>, IEnumerable<double>, IEnumerable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [List<double\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1) ← 
 [ListSI](OpenTD.ListSI.md)
 
-#### Implements
+## Implements
 
 [IList<double\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1), 
 [ICollection<double\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1), 
@@ -26,7 +26,7 @@ public class ListSI : List<double>, IList<double>, ICollection<double>, IList, I
 [IEnumerable<double\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1), 
 [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
 
-#### Inherited Members
+## Inherited Members
 
 [List<double\>.Add\(double\)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1.add), 
 [List<double\>.AddRange\(IEnumerable<double\>\)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1.addrange), 
@@ -87,13 +87,13 @@ public class ListSI : List<double>, IList<double>, ICollection<double>, IList, I
 
 ## Constructors
 
-### <a id="OpenTD_ListSI__ctor"></a> ListSI\(\)
+### ListSI\(\)
 
 ```csharp
 public ListSI()
 ```
 
-### <a id="OpenTD_ListSI__ctor_System_Collections_Generic_IEnumerable_System_Double__"></a> ListSI\(IEnumerable<double\>\)
+### ListSI\(IEnumerable<double\>\)
 
 ```csharp
 public ListSI(IEnumerable<double> doubleCollection)
@@ -103,7 +103,7 @@ public ListSI(IEnumerable<double> doubleCollection)
 
 `doubleCollection` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="OpenTD_ListSI__ctor_System_Int32_"></a> ListSI\(int\)
+### ListSI\(int\)
 
 ```csharp
 public ListSI(int capacity)
@@ -116,4 +116,5 @@ public ListSI(int capacity)
 ## See Also
 
 [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<T\>
+
 

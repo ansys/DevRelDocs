@@ -1,4 +1,4 @@
-# <a id="OpenTD_OpenTDException"></a> Class OpenTDException
+# Class OpenTDException
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,7 +10,7 @@ General exception thrown by OpenTD.
 public class OpenTDException : Exception, ISerializable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Exception](https://learn.microsoft.com/dotnet/api/system.exception) ← 
@@ -20,11 +20,11 @@ public class OpenTDException : Exception, ISerializable
 
 [BadDataException](OpenTD.BadDataException.md)
 
-#### Implements
+## Implements
 
 [ISerializable](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.iserializable)
 
-#### Inherited Members
+## Inherited Members
 
 [Exception.GetBaseException\(\)](https://learn.microsoft.com/dotnet/api/system.exception.getbaseexception), 
 [Exception.GetType\(\)](https://learn.microsoft.com/dotnet/api/system.exception.gettype), 
@@ -48,7 +48,7 @@ public class OpenTDException : Exception, ISerializable
 
 ## Constructors
 
-### <a id="OpenTD_OpenTDException__ctor_OpenTD_Internal_Communication_StatusData_"></a> OpenTDException\(StatusData\)
+### OpenTDException\(StatusData\)
 
 ```csharp
 public OpenTDException(StatusData x)
@@ -58,7 +58,7 @@ public OpenTDException(StatusData x)
 
 `x` [StatusData](OpenTD.Internal.Communication.StatusData.md)
 
-### <a id="OpenTD_OpenTDException__ctor_System_String_"></a> OpenTDException\(string\)
+### OpenTDException\(string\)
 
 ```csharp
 public OpenTDException(string msg)
@@ -68,7 +68,7 @@ public OpenTDException(string msg)
 
 `msg` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_OpenTDException__ctor_System_String_System_Exception_"></a> OpenTDException\(string, Exception\)
+### OpenTDException\(string, Exception\)
 
 ```csharp
 public OpenTDException(string msg, Exception innerException)
@@ -82,7 +82,7 @@ public OpenTDException(string msg, Exception innerException)
 
 ## Fields
 
-### <a id="OpenTD_OpenTDException_statusData"></a> statusData
+### statusData
 
 ```csharp
 public StatusData statusData
@@ -94,7 +94,7 @@ public StatusData statusData
 
 ## Methods
 
-### <a id="OpenTD_OpenTDException_Show"></a> Show\(\)
+### Show\(\)
 
 ```csharp
 public void Show()
@@ -103,4 +103,5 @@ public void Show()
 ## See Also
 
 [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+
 

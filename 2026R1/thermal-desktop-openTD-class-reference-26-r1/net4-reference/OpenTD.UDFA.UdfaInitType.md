@@ -1,4 +1,4 @@
-# <a id="OpenTD_UDFA_UdfaInitType"></a> Enum UDFA.UdfaInitType
+# Enum UDFA.UdfaInitType
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -36,4 +36,5 @@ public enum UDFA.UdfaInitType
 `PATH_VOLUMETRIC = 12` 
 
 `SINGLE = 0` 
+
 

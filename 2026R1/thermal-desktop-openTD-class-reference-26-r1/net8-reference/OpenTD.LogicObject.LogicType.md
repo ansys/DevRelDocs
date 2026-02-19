@@ -1,4 +1,4 @@
-# <a id="OpenTD_LogicObject_LogicType"></a> Enum LogicObject.LogicType
+# Enum LogicObject.LogicType
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -36,4 +36,5 @@ public enum LogicObject.LogicType
 `USERCODE = 3` 
 
 `USER_ARRAY = 8` 
+
 

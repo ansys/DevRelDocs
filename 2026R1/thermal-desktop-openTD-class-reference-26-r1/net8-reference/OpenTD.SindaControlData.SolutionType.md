@@ -1,4 +1,4 @@
-# <a id="OpenTD_SindaControlData_SolutionType"></a> Enum SindaControlData.SolutionType
+# Enum SindaControlData.SolutionType
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -26,4 +26,5 @@ public enum SindaControlData.SolutionType
 `MATRIX = 2` 
 
 `MATRIX_SUBMODEL = 3` 
+
 

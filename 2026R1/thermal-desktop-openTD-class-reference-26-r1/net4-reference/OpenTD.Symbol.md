@@ -1,4 +1,4 @@
-# <a id="OpenTD_Symbol"></a> Class Symbol
+# Class Symbol
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -9,7 +9,7 @@ Client-side representation of a Symbol in a TD instance.
 public class Symbol : SymbolData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -17,11 +17,11 @@ public class Symbol : SymbolData, IUpdatable
 SymbolData ← 
 [Symbol](OpenTD.Symbol.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [UniqueNameObject.Name](OpenTD.UniqueNameObject.md\#OpenTD\_UniqueNameObject\_Name), 
 [UniqueNameObject.Rename\(string\)](OpenTD.UniqueNameObject.md\#OpenTD\_UniqueNameObject\_Rename\_System\_String\_), 
@@ -45,7 +45,7 @@ SymbolData ←
 
 ## Methods
 
-### <a id="OpenTD_Symbol_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -57,7 +57,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_Symbol_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -65,7 +65,7 @@ Updates the TD entity with the latest client data.
 public override void Update()
 ```
 
-### <a id="OpenTD_Symbol_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -76,4 +76,5 @@ public override void UpdateFromTD()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

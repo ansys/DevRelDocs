@@ -1,4 +1,4 @@
-# <a id="OpenTD_Utility"></a> Namespace OpenTD.Utility
+# Namespace OpenTD.Utility
 
 ### Classes
 
@@ -42,4 +42,5 @@ that equal the added/inserted item (according to its definition of Equals)
  [RootedPathname](OpenTD.Utility.RootedPathname.md)
 
 An absolute pathname.
+
 

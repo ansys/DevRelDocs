@@ -1,4 +1,4 @@
-# <a id="OpenTD_UDFA_ValueType"></a> Enum UDFA.ValueType
+# Enum UDFA.ValueType
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -18,4 +18,5 @@ public enum UDFA.ValueType
 `LOGICAL = 3` 
 
 `REAL = 0` 
+
 

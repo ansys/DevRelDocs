@@ -1,4 +1,4 @@
-# <a id="OpenTD_UCS"></a> Class UCS
+# Class UCS
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -11,17 +11,17 @@ Implements <xref href="OpenTD.IUpdatable" data-throw-if-not-resolved="false"></x
 public class UCS : Matrix3d, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Matrix3d](OpenTD.Matrix3d.md) ← 
 [UCS](OpenTD.UCS.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [Matrix3d.SetToZero\(bool\)](OpenTD.Matrix3d.md\#OpenTD\_Matrix3d\_SetToZero\_System\_Boolean\_), 
 [Matrix3d.SetToIdentity\(bool\)](OpenTD.Matrix3d.md\#OpenTD\_Matrix3d\_SetToIdentity\_System\_Boolean\_), 
@@ -49,7 +49,7 @@ public class UCS : Matrix3d, IUpdatable
 
 ## Methods
 
-### <a id="OpenTD_UCS_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -57,7 +57,7 @@ Updates the TD entity with the latest client data.
 public void Update()
 ```
 
-### <a id="OpenTD_UCS_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -69,4 +69,5 @@ public void UpdateFromTD()
 
 [Matrix3d](OpenTD.Matrix3d.md), 
 [IUpdatable](OpenTD.IUpdatable.md)
+
 

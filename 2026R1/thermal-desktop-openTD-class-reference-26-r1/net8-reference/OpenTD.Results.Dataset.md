@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset"></a> Namespace OpenTD.Results.Dataset
+# Namespace OpenTD.Results.Dataset
 
 ### Namespaces
 
@@ -328,4 +328,5 @@ Type of entity (if any) associated with UDFA
  [DataSubtype.ValueTypes](OpenTD.Results.Dataset.DataSubtype.ValueTypes.md)
 
 Value types: double, integer, etc.
+
 

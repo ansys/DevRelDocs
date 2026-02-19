@@ -15,6 +15,7 @@ The OpenTD API is organized into the following namespaces:
 
 - **OpenTD** - Core classes, structs, interfaces, and enums for OpenTD functionality
 - **OpenTD.AddIn** - Add-in development utilities
+- **OpenTD.CoSolver** - Cosimulation with Sinda
 - **OpenTD.Dimension** - Dimensional analysis and unit handling
 - **OpenTD.FloCAD** - Fluid modeling components
 - **OpenTD.Internal.Communication** - Internal communication interfaces
@@ -24,6 +25,7 @@ The OpenTD API is organized into the following namespaces:
 - **OpenTD.RadCAD.FEM** - Finite element mesh components for radiation
 - **OpenTD.RadCAD.FEModel** - Finite element model structures
 - **OpenTD.RadCAD.FdSolid** - Finite difference solid modeling
+- **OpenTD.Results** - Read save, CSR, and savex files
 - **OpenTD.UserInterface** - User interface components
 - **OpenTD.UserInterface.Forms** - User interface forms and dialogs
 - **OpenTD.UserPreferences** - User preferences and settings

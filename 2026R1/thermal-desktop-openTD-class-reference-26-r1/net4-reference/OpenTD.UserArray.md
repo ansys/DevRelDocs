@@ -1,4 +1,4 @@
-# <a id="OpenTD_UserArray"></a> Class UserArray
+# Class UserArray
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -9,7 +9,7 @@ Client-side representation of a Logic Object User Array in a TD instance.
 public class UserArray : RcLogicUserArrayData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -17,11 +17,11 @@ public class UserArray : RcLogicUserArrayData, IUpdatable
 RcLogicUserArrayData ← 
 [UserArray](OpenTD.UserArray.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [LogicObject.Update\(\)](OpenTD.LogicObject.md\#OpenTD\_LogicObject\_Update), 
 [LogicObject.UpdateFromTD\(\)](OpenTD.LogicObject.md\#OpenTD\_LogicObject\_UpdateFromTD), 
@@ -49,7 +49,7 @@ RcLogicUserArrayData ←
 
 ## Methods
 
-### <a id="OpenTD_UserArray_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -61,7 +61,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_UserArray_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -72,4 +72,5 @@ public override void Update()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

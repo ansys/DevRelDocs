@@ -24,6 +24,8 @@
   items:
   - name: Available types
     href: core-concepts/dpf-types.md
+  - name: Field fundamentals
+    href: core-concepts/field.md
   - name: Operator fundamentals
     href: core-concepts/operator.md
   - name: Operator configurations

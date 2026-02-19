@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FEM_LinearTri"></a> Class LinearTri
+# Class LinearTri
 
 Namespace: [OpenTD.RadCAD.FEM](OpenTD.RadCAD.FEM.md)  
 Assembly: OpenTD.dll  
@@ -10,7 +10,7 @@ Client-side representation of a LinearTri entity in a TD instance.
 public class LinearTri : RcSurfaceElement, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -20,11 +20,11 @@ public class LinearTri : RcSurfaceElement, IUpdatable
 [RcSurfaceElement](OpenTD.RadCAD.FEM.RcSurfaceElement.md) ← 
 [LinearTri](OpenTD.RadCAD.FEM.LinearTri.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [RcSurfaceElement.AttachedNodeHandles](OpenTD.RadCAD.FEM.RcSurfaceElement.md\#OpenTD\_RadCAD\_FEM\_RcSurfaceElement\_AttachedNodeHandles), 
 [RcSurfaceElement.SurfaceOrienters](OpenTD.RadCAD.FEM.RcSurfaceElement.md\#OpenTD\_RadCAD\_FEM\_RcSurfaceElement\_SurfaceOrienters), 
@@ -160,7 +160,7 @@ public class LinearTri : RcSurfaceElement, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_FEM_LinearTri__ctor"></a> LinearTri\(\)
+### LinearTri\(\)
 
 ```csharp
 public LinearTri()
@@ -168,7 +168,7 @@ public LinearTri()
 
 ## Methods
 
-### <a id="OpenTD_RadCAD_FEM_LinearTri_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -180,7 +180,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_RadCAD_FEM_LinearTri_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -188,7 +188,7 @@ Updates the TD entity with the latest client data.
 public override void Update()
 ```
 
-### <a id="OpenTD_RadCAD_FEM_LinearTri_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -199,4 +199,5 @@ public override void UpdateFromTD()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

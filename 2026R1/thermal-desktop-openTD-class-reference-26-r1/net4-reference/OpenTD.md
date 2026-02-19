@@ -1,8 +1,10 @@
-# <a id="OpenTD"></a> Namespace OpenTD
+# Namespace OpenTD
 
 ### Namespaces
 
  [OpenTD.AddIn](OpenTD.AddIn.md)
+
+ [OpenTD.CoSolver](OpenTD.CoSolver.md)
 
  [OpenTD.Dimension](OpenTD.Dimension.md)
 
@@ -665,4 +667,5 @@ Calculation Method (Monte Carlo or Progressive Radiosity).
  [RadiationTaskData.calcType](OpenTD.RadiationTaskData.calcType.md)
 
 The type of radiation task.
+
 

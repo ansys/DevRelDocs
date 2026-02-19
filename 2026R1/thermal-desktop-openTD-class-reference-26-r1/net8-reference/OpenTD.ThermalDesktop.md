@@ -1,4 +1,4 @@
-# <a id="OpenTD_ThermalDesktop"></a> Class ThermalDesktop
+# Class ThermalDesktop
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,16 +10,16 @@ This is the top-level class for interacting with OpenTD.
 public class ThermalDesktop : ITdConsole
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-#### Implements
+## Implements
 
 [ITdConsole](OpenTD.ITdConsole.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -38,7 +38,7 @@ public class ThermalDesktop : ITdConsole
 
 ## Constructors
 
-### <a id="OpenTD_ThermalDesktop__ctor_System_String_"></a> ThermalDesktop\(string\)
+### ThermalDesktop\(string\)
 
 ```csharp
 public ThermalDesktop(string dwgPathname)
@@ -48,7 +48,7 @@ public ThermalDesktop(string dwgPathname)
 
 `dwgPathname` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_ThermalDesktop__ctor"></a> ThermalDesktop\(\)
+### ThermalDesktop\(\)
 
 ```csharp
 public ThermalDesktop()
@@ -56,7 +56,7 @@ public ThermalDesktop()
 
 ## Properties
 
-### <a id="OpenTD_ThermalDesktop_ConnectConfig"></a> ConnectConfig
+### ConnectConfig
 
 Controls how Connect() will try to connect to TD.
 
@@ -68,7 +68,7 @@ public TdConnectConfig ConnectConfig { get; set; }
 
  [TdConnectConfig](OpenTD.TdConnectConfig.md)
 
-### <a id="OpenTD_ThermalDesktop_DatasetManager"></a> DatasetManager
+### DatasetManager
 
 Use the DatasetManager to access TD's "Postprocessing Datasets"
 dialog. Use it to control what data is displayed as a contour plot
@@ -86,7 +86,7 @@ public DatasetManager DatasetManager { get; }
 
 [DatasetManager](OpenTD.PostProcessing.DatasetManager.md)
 
-### <a id="OpenTD_ThermalDesktop_ProgressBar"></a> ProgressBar
+### ProgressBar
 
 Use to show progress of a procedure in TD.
 
@@ -102,7 +102,7 @@ public ProgressBar ProgressBar { get; }
 
 [ProgressBar](OpenTD.AddIn.ProgressBar.md)
 
-### <a id="OpenTD_ThermalDesktop_RadiationAnalysisGroupManager"></a> RadiationAnalysisGroupManager
+### RadiationAnalysisGroupManager
 
 The radiation analysis group manager.
 
@@ -118,7 +118,7 @@ public RadiationAnalysisGroupManager RadiationAnalysisGroupManager { get; }
 
 [RadiationAnalysisGroupManager](OpenTD.RadCAD.RadiationAnalysisGroupManager.md)
 
-### <a id="OpenTD_ThermalDesktop_ThermoPropAliasManager"></a> ThermoPropAliasManager
+### ThermoPropAliasManager
 
 The thermophysical property alias manager.
 
@@ -136,7 +136,7 @@ public ThermoPropAliasManager ThermoPropAliasManager { get; }
 
 ## Methods
 
-### <a id="OpenTD_ThermalDesktop_AddNodeCorrespondence_OpenTD_NameData_OpenTD_NameData_"></a> AddNodeCorrespondence\(NameData, NameData\)
+### AddNodeCorrespondence\(NameData, NameData\)
 
 Adds TRASYS-style node correspondence between SINDA and RadCAD nodes.
 Use SetNodeCorrespondenceState to turn node correspondence on or off.
@@ -161,7 +161,7 @@ The radcad node.
 [ThermalDesktop](OpenTD.ThermalDesktop.md).[SetNodeCorrespondenceState](OpenTD.ThermalDesktop.md\#OpenTD\_ThermalDesktop\_SetNodeCorrespondenceState\_System\_Boolean\_)\([bool](https://learn.microsoft.com/dotnet/api/system.boolean)\), 
 [ThermalDesktop](OpenTD.ThermalDesktop.md).[SetNodeCorrespondenceMap](OpenTD.ThermalDesktop.md\#OpenTD\_ThermalDesktop\_SetNodeCorrespondenceMap\_System\_Collections\_Generic\_Dictionary\_System\_String\_System\_Collections\_Generic\_List\_System\_String\_\_\_)\([Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>\>\)
 
-### <a id="OpenTD_ThermalDesktop_BringToFront"></a> BringToFront\(\)
+### BringToFront\(\)
 
 Brings the AutoCAD window to the foreground.
 
@@ -169,13 +169,13 @@ Brings the AutoCAD window to the foreground.
 public void BringToFront()
 ```
 
-### <a id="OpenTD_ThermalDesktop_ClearSelection"></a> ClearSelection\(\)
+### ClearSelection\(\)
 
 ```csharp
 public void ClearSelection()
 ```
 
-### <a id="OpenTD_ThermalDesktop_Connect"></a> Connect\(\)
+### Connect\(\)
 
 Connect to an instance of TD using the options specified in ConnectConfig.
 
@@ -187,7 +187,7 @@ public void Connect()
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md).[ConnectConfig](OpenTD.ThermalDesktop.md\#OpenTD\_ThermalDesktop\_ConnectConfig)
 
-### <a id="OpenTD_ThermalDesktop_Connect_OpenTD_TdConnectConfig_"></a> Connect\(TdConnectConfig\)
+### Connect\(TdConnectConfig\)
 
 Set ConnectConfig to the supplied TdConnectConfig and call Connect().
 
@@ -199,7 +199,7 @@ public void Connect(TdConnectConfig connectConfig)
 
 `connectConfig` [TdConnectConfig](OpenTD.TdConnectConfig.md)
 
-### <a id="OpenTD_ThermalDesktop_Connect_System_String_"></a> Connect\(string\)
+### Connect\(string\)
 
 Set ConnectConfig.DwgPathname to the supplied path and call Connect().
 
@@ -211,7 +211,7 @@ public void Connect(string dwgPathname)
 
 `dwgPathname` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_ThermalDesktop_ConnectAsync"></a> ConnectAsync\(\)
+### ConnectAsync\(\)
 
 Connect to an instance of TD asynchronously
 using the options specified in ConnectConfig.
@@ -228,7 +228,7 @@ public Task ConnectAsync()
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md).[ConnectConfig](OpenTD.ThermalDesktop.md\#OpenTD\_ThermalDesktop\_ConnectConfig)
 
-### <a id="OpenTD_ThermalDesktop_ConvertFDtoFE_System_Collections_Generic_IEnumerable_System_String__"></a> ConvertFDtoFE\(IEnumerable<string\>\)
+### ConvertFDtoFE\(IEnumerable<string\>\)
 
 Convert FD entities (with edge nodes) to FE meshes
 
@@ -240,7 +240,7 @@ public void ConvertFDtoFE(IEnumerable<string> handles)
 
 `handles` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_ThermalDesktop_CreateAcEllipse"></a> CreateAcEllipse\(\)
+### CreateAcEllipse\(\)
 
 Creates a new Ellipse in this Thermal Desktop instance.
 
@@ -256,7 +256,7 @@ public AcEllipse CreateAcEllipse()
 
 [AcEllipse](OpenTD.AcEllipse.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateArc"></a> CreateArc\(\)
+### CreateArc\(\)
 
 Creates a new Arc in this Thermal Desktop instance.
 
@@ -272,7 +272,7 @@ public Arc CreateArc()
 
 [Arc](OpenTD.Arc.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateArrayInterpolation_System_Collections_Generic_IEnumerable_System_Double__System_Collections_Generic_IEnumerable_System_Double__System_String_"></a> CreateArrayInterpolation\(IEnumerable<double\>, IEnumerable<double\>, string\)
+### CreateArrayInterpolation\(IEnumerable<double\>, IEnumerable<double\>, string\)
 
 Creates a new ArrayInterpolation using defaults from this TD instance.
 
@@ -296,7 +296,7 @@ public ArrayInterpolation CreateArrayInterpolation(IEnumerable<double> xValues, 
 
 [UserArray](OpenTD.UserArray.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateAssembly_OpenTD_Point3d_"></a> CreateAssembly\(Point3d\)
+### CreateAssembly\(Point3d\)
 
 Creates a new Assembly using defaults from this TD instance.
 
@@ -316,7 +316,7 @@ public Assembly CreateAssembly(Point3d origin)
 
 [Assembly](OpenTD.RadCAD.Assembly.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateCappmp_OpenTD_Connection_OpenTD_Connection_OpenTD_Connection_"></a> CreateCappmp\(Connection, Connection, Connection\)
+### CreateCappmp\(Connection, Connection, Connection\)
 
 Creates a new cappmp using defaults from this TD instance.
 
@@ -340,7 +340,7 @@ public Cappmp CreateCappmp(Connection fromLump, Connection toLump, Connection No
 
 [Cappmp](OpenTD.FloCAD.Cappmp.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateCaseSet_System_String_System_String_System_String_"></a> CreateCaseSet\(string, string, string\)
+### CreateCaseSet\(string, string, string\)
 
 Creates a new Case Set using defaults from this TD instance.
 
@@ -364,7 +364,7 @@ public CaseSet CreateCaseSet(string name, string groupName = "", string sindaFil
 
 [CaseSet](OpenTD.CaseSet.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateCircle"></a> CreateCircle\(\)
+### CreateCircle\(\)
 
 Creates a new Circle in this Thermal Desktop instance.
 
@@ -380,7 +380,7 @@ public Circle CreateCircle()
 
 [Circle](OpenTD.Circle.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateCompartment_System_Collections_Generic_List_System_Collections_Generic_List_OpenTD_Connection___System_Collections_Generic_List_System_Collections_Generic_List_OpenTD_Connection___"></a> CreateCompartment\(List<List<Connection\>\>, List<List<Connection\>\>\)
+### CreateCompartment\(List<List<Connection\>\>, List<List<Connection\>\>\)
 
 Creates a new Compartment using defaults from this TD instance.
 
@@ -402,7 +402,7 @@ public Compartment CreateCompartment(List<List<Connection>> volumes, List<List<C
 
 [Compartment](OpenTD.FloCAD.Compartment.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateConductor_OpenTD_Connection_OpenTD_Connection_"></a> CreateConductor\(Connection, Connection\)
+### CreateConductor\(Connection, Connection\)
 
 Creates a new Conductor using defaults from this TD instance.
 
@@ -424,7 +424,7 @@ public Conductor CreateConductor(Connection from, Connection to)
 
 [Conductor](OpenTD.Conductor.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateConductor_OpenTD_Connection_System_Collections_Generic_IEnumerable_OpenTD_Connection__"></a> CreateConductor\(Connection, IEnumerable<Connection\>\)
+### CreateConductor\(Connection, IEnumerable<Connection\>\)
 
 Creates a new Conductor using defaults from this TD instance.
 
@@ -446,7 +446,7 @@ public Conductor CreateConductor(Connection from, IEnumerable<Connection> to)
 
 [Conductor](OpenTD.Conductor.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateCone"></a> CreateCone\(\)
+### CreateCone\(\)
 
 Creates a new Cone using defaults from this TD instance.
 
@@ -462,7 +462,7 @@ public Cone CreateCone()
 
 [Cone](OpenTD.RadCAD.Cone.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateContactor_System_Collections_Generic_IEnumerable_OpenTD_Connection__System_Collections_Generic_IEnumerable_OpenTD_Connection__"></a> CreateContactor\(IEnumerable<Connection\>, IEnumerable<Connection\>\)
+### CreateContactor\(IEnumerable<Connection\>, IEnumerable<Connection\>\)
 
 Creates a new Contactor using defaults from this TD instance.
 
@@ -484,7 +484,7 @@ public Contactor CreateContactor(IEnumerable<Connection> from, IEnumerable<Conne
 
 [Contactor](OpenTD.Contactor.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateContactor_OpenTD_Connection_System_Collections_Generic_IEnumerable_OpenTD_Connection__"></a> CreateContactor\(Connection, IEnumerable<Connection\>\)
+### CreateContactor\(Connection, IEnumerable<Connection\>\)
 
 Creates a new Contactor using defaults from this TD instance.
 
@@ -506,7 +506,7 @@ public Contactor CreateContactor(Connection from, IEnumerable<Connection> to)
 
 [Contactor](OpenTD.Contactor.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateContactor_System_Collections_Generic_IEnumerable_OpenTD_Connection__OpenTD_Connection_"></a> CreateContactor\(IEnumerable<Connection\>, Connection\)
+### CreateContactor\(IEnumerable<Connection\>, Connection\)
 
 Creates a new Contactor using defaults from this TD instance.
 
@@ -528,7 +528,7 @@ public Contactor CreateContactor(IEnumerable<Connection> from, Connection to)
 
 [Contactor](OpenTD.Contactor.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateContactor_OpenTD_Connection_OpenTD_Connection_"></a> CreateContactor\(Connection, Connection\)
+### CreateContactor\(Connection, Connection\)
 
 Creates a new Contactor using defaults from this TD instance.
 
@@ -550,7 +550,7 @@ public Contactor CreateContactor(Connection from, Connection to)
 
 [Contactor](OpenTD.Contactor.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateCylinder"></a> CreateCylinder\(\)
+### CreateCylinder\(\)
 
 Creates a new Cylinder using defaults from this TD instance.
 
@@ -566,7 +566,7 @@ public Cylinder CreateCylinder()
 
 [Cylinder](OpenTD.RadCAD.Cylinder.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateDbIterator_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_"></a> CreateDbIterator\(bool, bool, bool, bool, bool\)
+### CreateDbIterator\(bool, bool, bool, bool, bool\)
 
 Creates an iterator for walking the AutoCAD entity database.
 
@@ -600,7 +600,7 @@ if set to <code>true</code> iterates through paper space.
 
 IDbIterator.
 
-### <a id="OpenTD_ThermalDesktop_CreateDisk"></a> CreateDisk\(\)
+### CreateDisk\(\)
 
 Creates a new Disk using defaults from this TD instance.
 
@@ -616,7 +616,7 @@ public Disk CreateDisk()
 
 [Disk](OpenTD.RadCAD.Disk.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateEllipse"></a> CreateEllipse\(\)
+### CreateEllipse\(\)
 
 Creates a new Ellipse using defaults from this TD instance.
 
@@ -632,7 +632,7 @@ public Ellipse CreateEllipse()
 
 [Ellipse](OpenTD.RadCAD.Ellipse.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateEllipsoid"></a> CreateEllipsoid\(\)
+### CreateEllipsoid\(\)
 
 Creates a new Ellipsoid using defaults from this TD instance.
 
@@ -648,7 +648,7 @@ public Ellipsoid CreateEllipsoid()
 
 [Ellipsoid](OpenTD.RadCAD.Ellipsoid.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateEllipticCone"></a> CreateEllipticCone\(\)
+### CreateEllipticCone\(\)
 
 Creates a new EllipticCone using defaults from this TD instance.
 
@@ -664,7 +664,7 @@ public EllipticCone CreateEllipticCone()
 
 [EllipticCone](OpenTD.RadCAD.EllipticCone.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateEllipticCylinder"></a> CreateEllipticCylinder\(\)
+### CreateEllipticCylinder\(\)
 
 Creates a new EllipticCylinder using defaults from this TD instance.
 
@@ -680,7 +680,7 @@ public EllipticCylinder CreateEllipticCylinder()
 
 [EllipticCylinder](OpenTD.RadCAD.EllipticCylinder.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateFEMeshImporter_System_String_System_Boolean_"></a> CreateFEMeshImporter\(string, bool\)
+### CreateFEMeshImporter\(string, bool\)
 
 Creates a new FEMeshImporter.
 
@@ -702,7 +702,7 @@ public FEMeshImporter CreateFEMeshImporter(string name, bool useCurrentUCS)
 
 [FEMeshImporter](OpenTD.RadCAD.FEMeshImporter.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateFTie_OpenTD_Connection_OpenTD_Connection_OpenTD_Connection_OpenTD_FloCAD_RcFTieData_FTieTypes_"></a> CreateFTie\(Connection, Connection, Connection, FTieTypes\)
+### CreateFTie\(Connection, Connection, Connection, FTieTypes\)
 
 Creates a new FTie using defaults from this TD instance.
 
@@ -728,7 +728,7 @@ public FTie CreateFTie(Connection AttachedLumpC, Connection AttachedLumpD, Conne
 
 [FTie](OpenTD.FloCAD.FTie.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateFkLocator_System_String_OpenTD_Point3d_"></a> CreateFkLocator\(string, Point3d\)
+### CreateFkLocator\(string, Point3d\)
 
 Creates a new FkLocator using defaults from this TD instance.
 
@@ -750,7 +750,7 @@ public FkLocator CreateFkLocator(string attachedHandle, Point3d origin)
 
 [FkLocator](OpenTD.FloCAD.FkLocator.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateFluidSubmodel_System_String_"></a> CreateFluidSubmodel\(string\)
+### CreateFluidSubmodel\(string\)
 
 Creates a new fluid submodel using defaults from this TD instance.
 
@@ -770,7 +770,7 @@ public FluidSubmodel CreateFluidSubmodel(string name)
 
 [FluidSubmodel](OpenTD.FloCAD.FluidSubmodel.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateHeatLoad_System_Collections_Generic_IEnumerable_OpenTD_Connection__"></a> CreateHeatLoad\(IEnumerable<Connection\>\)
+### CreateHeatLoad\(IEnumerable<Connection\>\)
 
 Creates a new HeatLoad using defaults from this TD instance.
 
@@ -790,7 +790,7 @@ public HeatLoad CreateHeatLoad(IEnumerable<Connection> applyConnections)
 
 [HeatLoad](OpenTD.HeatLoad.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateHeatLoad_OpenTD_Connection_"></a> CreateHeatLoad\(Connection\)
+### CreateHeatLoad\(Connection\)
 
 Creates a new HeatLoad using defaults from this TD instance.
 
@@ -810,7 +810,7 @@ public HeatLoad CreateHeatLoad(Connection applyConnection)
 
 [HeatLoad](OpenTD.HeatLoad.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateHeater_System_Collections_Generic_IEnumerable_OpenTD_Connection__System_Collections_Generic_IEnumerable_OpenTD_Connection__"></a> CreateHeater\(IEnumerable<Connection\>, IEnumerable<Connection\>\)
+### CreateHeater\(IEnumerable<Connection\>, IEnumerable<Connection\>\)
 
 Creates a new Heater using defaults from this TD instance.
 
@@ -832,7 +832,7 @@ public Heater CreateHeater(IEnumerable<Connection> applyConnections, IEnumerable
 
 [Heater](OpenTD.Heater.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateHelix"></a> CreateHelix\(\)
+### CreateHelix\(\)
 
 Creates a new Helix in this Thermal Desktop instance.
 
@@ -848,7 +848,7 @@ public Helix CreateHelix()
 
 [Helix](OpenTD.Helix.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateIFace_OpenTD_Connection_OpenTD_Connection_"></a> CreateIFace\(Connection, Connection\)
+### CreateIFace\(Connection, Connection\)
 
 Creates a new IFace using defaults from this TD instance.
 
@@ -870,7 +870,7 @@ public IFace CreateIFace(Connection TankA, Connection TankB)
 
 [IFace](OpenTD.FloCAD.IFace.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateLayer_System_String_"></a> CreateLayer\(string\)
+### CreateLayer\(string\)
 
 Creates a new Layer using defaults from this TD instance.
 
@@ -890,7 +890,7 @@ public Layer CreateLayer(string name)
 
 [Layer](OpenTD.Layer.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateLine_OpenTD_Point3d_OpenTD_Point3d_"></a> CreateLine\(Point3d, Point3d\)
+### CreateLine\(Point3d, Point3d\)
 
 Creates a new Line in this TD instance.
 
@@ -912,7 +912,7 @@ public Line CreateLine(Point3d pointA, Point3d pointB)
 
 [Line](OpenTD.Line.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateLinearBrick_System_Collections_Generic_IEnumerable_System_String__"></a> CreateLinearBrick\(IEnumerable<string\>\)
+### CreateLinearBrick\(IEnumerable<string\>\)
 
 Creates a new LinearBrick using defaults from this TD instance.
 
@@ -932,7 +932,7 @@ public LinearBrick CreateLinearBrick(IEnumerable<string> nodeHandles)
 
 [LinearBrick](OpenTD.RadCAD.FEM.LinearBrick.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateLinearPyramid_System_Collections_Generic_IEnumerable_System_String__"></a> CreateLinearPyramid\(IEnumerable<string\>\)
+### CreateLinearPyramid\(IEnumerable<string\>\)
 
 Creates a new LinearPyramid using defaults from this TD instance.
 
@@ -952,7 +952,7 @@ public LinearPyramid CreateLinearPyramid(IEnumerable<string> nodeHandles)
 
 [LinearPyramid](OpenTD.RadCAD.FEM.LinearPyramid.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateLinearQuad_System_Collections_Generic_IEnumerable_System_String__"></a> CreateLinearQuad\(IEnumerable<string\>\)
+### CreateLinearQuad\(IEnumerable<string\>\)
 
 Creates a new LinearQuad using defaults from this TD instance.
 
@@ -972,7 +972,7 @@ public LinearQuad CreateLinearQuad(IEnumerable<string> nodeHandles)
 
 [LinearQuad](OpenTD.RadCAD.FEM.LinearQuad.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateLinearTet_System_Collections_Generic_IEnumerable_System_String__"></a> CreateLinearTet\(IEnumerable<string\>\)
+### CreateLinearTet\(IEnumerable<string\>\)
 
 Creates a new LinearTet using defaults from this TD instance.
 
@@ -992,7 +992,7 @@ public LinearTet CreateLinearTet(IEnumerable<string> nodeHandles)
 
 [LinearTet](OpenTD.RadCAD.FEM.LinearTet.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateLinearTri_System_Collections_Generic_IEnumerable_System_String__"></a> CreateLinearTri\(IEnumerable<string\>\)
+### CreateLinearTri\(IEnumerable<string\>\)
 
 Creates a new LinearTri using defaults from this TD instance.
 
@@ -1012,7 +1012,7 @@ public LinearTri CreateLinearTri(IEnumerable<string> nodeHandles)
 
 [LinearTri](OpenTD.RadCAD.FEM.LinearTri.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateLinearWedge_System_Collections_Generic_IEnumerable_System_String__"></a> CreateLinearWedge\(IEnumerable<string\>\)
+### CreateLinearWedge\(IEnumerable<string\>\)
 
 Creates a new LinearWedge using defaults from this TD instance.
 
@@ -1032,7 +1032,7 @@ public LinearWedge CreateLinearWedge(IEnumerable<string> nodeHandles)
 
 [LinearWedge](OpenTD.RadCAD.FEM.LinearWedge.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateLump"></a> CreateLump\(\)
+### CreateLump\(\)
 
 Creates a new Lump using defaults from this TD instance.
 
@@ -1048,7 +1048,7 @@ public Lump CreateLump()
 
 [Lump](OpenTD.FloCAD.Lump.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateMaterialStack_System_String_"></a> CreateMaterialStack\(string\)
+### CreateMaterialStack\(string\)
 
 Creates a new Material Stack using defaults from this TD instance.
 
@@ -1068,7 +1068,7 @@ public MaterialStack CreateMaterialStack(string caseSensitiveName)
 
 [MaterialStack](OpenTD.MaterialStack.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateMeasure"></a> CreateMeasure\(\)
+### CreateMeasure\(\)
 
 Creates a new Measure using defaults from this TD instance.
 
@@ -1084,7 +1084,7 @@ public Measure CreateMeasure()
 
 [Measure](OpenTD.Measure.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateMeshFD_System_Collections_Generic_IEnumerable_OpenTD_RadCAD_Face__System_Collections_Generic_IEnumerable_OpenTD_Point3d__"></a> CreateMeshFD\(IEnumerable<Face\>, IEnumerable<Point3d\>\)
+### CreateMeshFD\(IEnumerable<Face\>, IEnumerable<Point3d\>\)
 
 Creates a new MeshFD using defaults from this TD instance.
 
@@ -1106,7 +1106,7 @@ public MeshFD CreateMeshFD(IEnumerable<Face> faces, IEnumerable<Point3d> vertice
 
 [MeshFD](OpenTD.RadCAD.MeshFD.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateNode"></a> CreateNode\(\)
+### CreateNode\(\)
 
 Creates a new Node using defaults from this TD instance.
 
@@ -1122,7 +1122,7 @@ public Node CreateNode()
 
 [Node](OpenTD.Node.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateNode_OpenTD_Point3d_"></a> CreateNode\(Point3d\)
+### CreateNode\(Point3d\)
 
 Creates a new Node with a given origin using defaults from this TD instance.
 
@@ -1143,7 +1143,7 @@ public Node CreateNode(Point3d origin)
 [Node](OpenTD.Node.md), 
 [Point3d](OpenTD.Point3d.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateOffsetParaboloid"></a> CreateOffsetParaboloid\(\)
+### CreateOffsetParaboloid\(\)
 
 Creates a new OffsetParaboloid using defaults from this TD instance.
 
@@ -1159,7 +1159,7 @@ public OffsetParaboloid CreateOffsetParaboloid()
 
 [OffsetParaboloid](OpenTD.RadCAD.OffsetParaboloid.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateOgive"></a> CreateOgive\(\)
+### CreateOgive\(\)
 
 Creates a new Ogive using defaults from this TD instance.
 
@@ -1175,7 +1175,7 @@ public Ogive CreateOgive()
 
 [Ogive](OpenTD.RadCAD.Ogive.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateOpticalProps_System_String_"></a> CreateOpticalProps\(string\)
+### CreateOpticalProps\(string\)
 
 Creates a new optical property using defaults from this TD instance.
 
@@ -1195,7 +1195,7 @@ public OpticalProps CreateOpticalProps(string caseSensitiveName)
 
 [OpticalProps](OpenTD.RadCAD.OpticalProps.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateOrbit_System_String_"></a> CreateOrbit\(string\)
+### CreateOrbit\(string\)
 
 Creates a new orbit using defaults from this TD instance.
 
@@ -1215,7 +1215,7 @@ public Orbit CreateOrbit(string name)
 
 [Orbit](OpenTD.RadCAD.Orbit.md)
 
-### <a id="OpenTD_ThermalDesktop_CreatePID"></a> CreatePID\(\)
+### CreatePID\(\)
 
 Creates a new PID using defaults from this TD instance.
 
@@ -1231,7 +1231,7 @@ public PID CreatePID()
 
 [PID](OpenTD.PID.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateParabolicTrough"></a> CreateParabolicTrough\(\)
+### CreateParabolicTrough\(\)
 
 Creates a new ParabolicTrough using defaults from this TD instance.
 
@@ -1247,7 +1247,7 @@ public ParabolicTrough CreateParabolicTrough()
 
 [ParabolicTrough](OpenTD.RadCAD.ParabolicTrough.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateParaboloid"></a> CreateParaboloid\(\)
+### CreateParaboloid\(\)
 
 Creates a new Paraboloid using defaults from this TD instance.
 
@@ -1263,7 +1263,7 @@ public Paraboloid CreateParaboloid()
 
 [Paraboloid](OpenTD.RadCAD.Paraboloid.md)
 
-### <a id="OpenTD_ThermalDesktop_CreatePath_OpenTD_Connection_OpenTD_Connection_OpenTD_FloCAD_RcPathData_PathTypes_System_Boolean_"></a> CreatePath\(Connection, Connection, PathTypes, bool\)
+### CreatePath\(Connection, Connection, PathTypes, bool\)
 
 Creates a new Path using defaults from this TD instance.
 
@@ -1289,7 +1289,7 @@ public Path CreatePath(Connection from, Connection to, RcPathData.PathTypes pTyp
 
 [Path](OpenTD.FloCAD.Path.md)
 
-### <a id="OpenTD_ThermalDesktop_CreatePipe_OpenTD_DbObject_"></a> CreatePipe\(DbObject\)
+### CreatePipe\(DbObject\)
 
 ```csharp
 public Pipe CreatePipe(DbObject centerline)
@@ -1303,7 +1303,7 @@ public Pipe CreatePipe(DbObject centerline)
 
  [Pipe](OpenTD.FloCAD.Pipe.md)
 
-### <a id="OpenTD_ThermalDesktop_CreatePipe_System_Collections_Generic_IEnumerable_System_String__"></a> CreatePipe\(IEnumerable<string\>\)
+### CreatePipe\(IEnumerable<string\>\)
 
 Creates a new Pipe using defaults from this TD instance.
 
@@ -1323,7 +1323,7 @@ public Pipe CreatePipe(IEnumerable<string> centerlineHandles)
 
 [Pipe](OpenTD.FloCAD.Pipe.md)
 
-### <a id="OpenTD_ThermalDesktop_CreatePolygon_System_Collections_Generic_IEnumerable_OpenTD_Point3d__"></a> CreatePolygon\(IEnumerable<Point3d\>\)
+### CreatePolygon\(IEnumerable<Point3d\>\)
 
 Creates a new single-face MeshFD using defaults from this TD instance.
 
@@ -1343,7 +1343,7 @@ public Polygon CreatePolygon(IEnumerable<Point3d> vertices)
 
 [Polygon](OpenTD.RadCAD.Polygon.md)
 
-### <a id="OpenTD_ThermalDesktop_CreatePolyline"></a> CreatePolyline\(\)
+### CreatePolyline\(\)
 
 Creates a new LWPolyline in this Thermal Desktop instance.
 
@@ -1359,7 +1359,7 @@ public Polyline CreatePolyline()
 
 [Polyline](OpenTD.Polyline.md)
 
-### <a id="OpenTD_ThermalDesktop_CreatePolyline3d_System_Collections_Generic_IEnumerable_OpenTD_Point3d__System_Boolean_"></a> CreatePolyline3d\(IEnumerable<Point3d\>, bool\)
+### CreatePolyline3d\(IEnumerable<Point3d\>, bool\)
 
 Creates a new 3d polyline in this Thermal Desktop instance.
 
@@ -1381,7 +1381,7 @@ public Polyline3d CreatePolyline3d(IEnumerable<Point3d> vertices, bool closed = 
 
 [Polyline3d](OpenTD.Polyline3d.md)
 
-### <a id="OpenTD_ThermalDesktop_CreatePort_OpenTD_Connection_"></a> CreatePort\(Connection\)
+### CreatePort\(Connection\)
 
 Creates a new Port using defaults from this TD instance. Pass an empty connection
 to create a port that's not attached to anything.
@@ -1402,7 +1402,7 @@ public Port CreatePort(Connection connection)
 
 [Port](OpenTD.FloCAD.Port.md)
 
-### <a id="OpenTD_ThermalDesktop_CreatePostProcessingDataMapper_System_String_OpenTD_UnitsData_ModelLength_OpenTD_PostProcessing_DataMapper_FileFormats_System_Boolean_System_String_System_Boolean_"></a> CreatePostProcessingDataMapper\(string, ModelLength, FileFormats, bool, string, bool\)
+### CreatePostProcessingDataMapper\(string, ModelLength, FileFormats, bool, string, bool\)
 
 Creates a new PostProcessingDataMapper using defaults from this TD instance.
 
@@ -1432,7 +1432,7 @@ public DataMapper CreatePostProcessingDataMapper(string inputPathname, UnitsData
 
 [DataMapper](OpenTD.PostProcessing.DataMapper.md)
 
-### <a id="OpenTD_ThermalDesktop_CreatePressureLoad_System_Collections_Generic_IEnumerable_OpenTD_Connection__"></a> CreatePressureLoad\(IEnumerable<Connection\>\)
+### CreatePressureLoad\(IEnumerable<Connection\>\)
 
 Creates a new PressureLoad using defaults from this TD instance.
 
@@ -1452,7 +1452,7 @@ public PressureLoad CreatePressureLoad(IEnumerable<Connection> appliedTo)
 
 [PressureLoad](OpenTD.PressureLoad.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateQuadraticBrick_System_Collections_Generic_IEnumerable_System_String__"></a> CreateQuadraticBrick\(IEnumerable<string\>\)
+### CreateQuadraticBrick\(IEnumerable<string\>\)
 
 Creates a new QuadraticBrick using defaults from this TD instance.
 
@@ -1472,7 +1472,7 @@ public QuadraticBrick CreateQuadraticBrick(IEnumerable<string> nodeHandles)
 
 [QuadraticBrick](OpenTD.RadCAD.FEM.QuadraticBrick.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateQuadraticPyramid_System_Collections_Generic_IEnumerable_System_String__"></a> CreateQuadraticPyramid\(IEnumerable<string\>\)
+### CreateQuadraticPyramid\(IEnumerable<string\>\)
 
 Creates a new QuadraticPyramid using defaults from this TD instance.
 
@@ -1492,7 +1492,7 @@ public QuadraticPyramid CreateQuadraticPyramid(IEnumerable<string> nodeHandles)
 
 [QuadraticPyramid](OpenTD.RadCAD.FEM.QuadraticPyramid.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateQuadraticQuad_System_Collections_Generic_IEnumerable_System_String__"></a> CreateQuadraticQuad\(IEnumerable<string\>\)
+### CreateQuadraticQuad\(IEnumerable<string\>\)
 
 Creates a new QuadraticQuad using defaults from this TD instance.
 
@@ -1512,7 +1512,7 @@ public QuadraticQuad CreateQuadraticQuad(IEnumerable<string> nodeHandles)
 
 [QuadraticQuad](OpenTD.RadCAD.FEM.QuadraticQuad.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateQuadraticTet_System_Collections_Generic_IEnumerable_System_String__"></a> CreateQuadraticTet\(IEnumerable<string\>\)
+### CreateQuadraticTet\(IEnumerable<string\>\)
 
 Creates a new QuadraticTet using defaults from this TD instance.
 
@@ -1532,7 +1532,7 @@ public QuadraticTet CreateQuadraticTet(IEnumerable<string> nodeHandles)
 
 [QuadraticTet](OpenTD.RadCAD.FEM.QuadraticTet.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateQuadraticTri_System_Collections_Generic_IEnumerable_System_String__"></a> CreateQuadraticTri\(IEnumerable<string\>\)
+### CreateQuadraticTri\(IEnumerable<string\>\)
 
 Creates a new QuadraticTri using defaults from this TD instance.
 
@@ -1552,7 +1552,7 @@ public QuadraticTri CreateQuadraticTri(IEnumerable<string> nodeHandles)
 
 [QuadraticTri](OpenTD.RadCAD.FEM.QuadraticTri.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateQuadraticWedge_System_Collections_Generic_IEnumerable_System_String__"></a> CreateQuadraticWedge\(IEnumerable<string\>\)
+### CreateQuadraticWedge\(IEnumerable<string\>\)
 
 Creates a new QuadraticWedge using defaults from this TD instance.
 
@@ -1572,7 +1572,7 @@ public QuadraticWedge CreateQuadraticWedge(IEnumerable<string> nodeHandles)
 
 [QuadraticWedge](OpenTD.RadCAD.FEM.QuadraticWedge.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateRectangle"></a> CreateRectangle\(\)
+### CreateRectangle\(\)
 
 Creates a new Rectangle using defaults from this TD instance.
 
@@ -1588,7 +1588,7 @@ public Rectangle CreateRectangle()
 
 [Rectangle](OpenTD.RadCAD.Rectangle.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateScarfedCone"></a> CreateScarfedCone\(\)
+### CreateScarfedCone\(\)
 
 Creates a new ScarfedCone using defaults from this TD instance.
 
@@ -1604,7 +1604,7 @@ public ScarfedCone CreateScarfedCone()
 
 [ScarfedCone](OpenTD.RadCAD.ScarfedCone.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateScarfedCylinder"></a> CreateScarfedCylinder\(\)
+### CreateScarfedCylinder\(\)
 
 Creates a new ScarfedCylinder using defaults from this TD instance.
 
@@ -1620,7 +1620,7 @@ public ScarfedCylinder CreateScarfedCylinder()
 
 [ScarfedCylinder](OpenTD.RadCAD.ScarfedCylinder.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateSolidBrick"></a> CreateSolidBrick\(\)
+### CreateSolidBrick\(\)
 
 Creates a new SolidBrick using defaults from this TD instance.
 
@@ -1636,7 +1636,7 @@ public SolidBrick CreateSolidBrick()
 
 [SolidBrick](OpenTD.RadCAD.FdSolid.SolidBrick.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateSolidCone"></a> CreateSolidCone\(\)
+### CreateSolidCone\(\)
 
 Creates a new SolidCone using defaults from this TD instance.
 
@@ -1652,7 +1652,7 @@ public SolidCone CreateSolidCone()
 
 [SolidCone](OpenTD.RadCAD.FdSolid.SolidCone.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateSolidCylinder"></a> CreateSolidCylinder\(\)
+### CreateSolidCylinder\(\)
 
 Creates a new SolidCylinder using defaults from this TD instance.
 
@@ -1668,7 +1668,7 @@ public SolidCylinder CreateSolidCylinder()
 
 [SolidCylinder](OpenTD.RadCAD.FdSolid.SolidCylinder.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateSolidEllipsoid"></a> CreateSolidEllipsoid\(\)
+### CreateSolidEllipsoid\(\)
 
 Creates a new SolidEllipsoid using defaults from this TD instance.
 
@@ -1684,7 +1684,7 @@ public SolidEllipsoid CreateSolidEllipsoid()
 
 [SolidEllipsoid](OpenTD.RadCAD.FdSolid.SolidEllipsoid.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateSolidSphere"></a> CreateSolidSphere\(\)
+### CreateSolidSphere\(\)
 
 Creates a new SolidSphere using defaults from this TD instance.
 
@@ -1700,7 +1700,7 @@ public SolidSphere CreateSolidSphere()
 
 [SolidSphere](OpenTD.RadCAD.FdSolid.SolidSphere.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateSphere"></a> CreateSphere\(\)
+### CreateSphere\(\)
 
 Creates a new Sphere using defaults from this TD instance.
 
@@ -1716,7 +1716,7 @@ public Sphere CreateSphere()
 
 [Sphere](OpenTD.RadCAD.Sphere.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateSpline"></a> CreateSpline\(\)
+### CreateSpline\(\)
 
 Creates a new Spline in this Thermal Desktop instance.
 
@@ -1732,7 +1732,7 @@ public Spline CreateSpline()
 
 [Spline](OpenTD.Spline.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateSubmodel_System_String_"></a> CreateSubmodel\(string\)
+### CreateSubmodel\(string\)
 
 Creates a new Submodel using defaults from this TD instance.
 
@@ -1752,7 +1752,7 @@ public Submodel CreateSubmodel(string name)
 
 [Submodel](OpenTD.Submodel.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateSymbol_System_String_System_String_"></a> CreateSymbol\(string, string\)
+### CreateSymbol\(string, string\)
 
 Creates a new Symbol using defaults from this TD instance.
 
@@ -1774,7 +1774,7 @@ public Symbol CreateSymbol(string name, string value)
 
 [Symbol](OpenTD.Symbol.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateTec_System_Collections_Generic_IEnumerable_OpenTD_Connection__System_Collections_Generic_IEnumerable_OpenTD_Connection__"></a> CreateTec\(IEnumerable<Connection\>, IEnumerable<Connection\>\)
+### CreateTec\(IEnumerable<Connection\>, IEnumerable<Connection\>\)
 
 Creates a new Tec using defaults from this TD instance.
 
@@ -1796,7 +1796,7 @@ public Tec CreateTec(IEnumerable<Connection> from, IEnumerable<Connection> to)
 
 [Tec](OpenTD.Tec.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateTec_OpenTD_Connection_System_Collections_Generic_IEnumerable_OpenTD_Connection__"></a> CreateTec\(Connection, IEnumerable<Connection\>\)
+### CreateTec\(Connection, IEnumerable<Connection\>\)
 
 Creates a new Tec using defaults from this TD instance.
 
@@ -1818,7 +1818,7 @@ public Tec CreateTec(Connection from, IEnumerable<Connection> to)
 
 [Tec](OpenTD.Tec.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateTec_System_Collections_Generic_IEnumerable_OpenTD_Connection__OpenTD_Connection_"></a> CreateTec\(IEnumerable<Connection\>, Connection\)
+### CreateTec\(IEnumerable<Connection\>, Connection\)
 
 Creates a new Tec using defaults from this TD instance.
 
@@ -1840,7 +1840,7 @@ public Tec CreateTec(IEnumerable<Connection> from, Connection to)
 
 [Tec](OpenTD.Tec.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateTec_OpenTD_Connection_OpenTD_Connection_"></a> CreateTec\(Connection, Connection\)
+### CreateTec\(Connection, Connection\)
 
 Creates a new Tec using defaults from this TD instance.
 
@@ -1862,7 +1862,7 @@ public Tec CreateTec(Connection from, Connection to)
 
 [Tec](OpenTD.Tec.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateTee_System_Collections_Generic_IEnumerable_System_String__System_String_"></a> CreateTee\(IEnumerable<string\>, string\)
+### CreateTee\(IEnumerable<string\>, string\)
 
 Creates a new Tee from a main branch and side branch using defaults from this TD instance.
 
@@ -1884,7 +1884,7 @@ public Tee CreateTee(IEnumerable<string> mainBranchHandles, string sideBranchHan
 
 [Tee](OpenTD.FloCAD.Tee.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateTee_System_Collections_Generic_IEnumerable_System_String__OpenTD_Point3d_"></a> CreateTee\(IEnumerable<string\>, Point3d\)
+### CreateTee\(IEnumerable<string\>, Point3d\)
 
 Creates a new Tee from a main branch and a location using defaults from this TD instance.
 
@@ -1906,7 +1906,7 @@ public Tee CreateTee(IEnumerable<string> mainBranchHandles, Point3d origin)
 
 [Tee](OpenTD.FloCAD.Tee.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateText_System_String_"></a> CreateText\(string\)
+### CreateText\(string\)
 
 Creates a new Text annotation using defaults from this TD instance.
 
@@ -1926,7 +1926,7 @@ public Text CreateText(string text)
 
 [Text](OpenTD.Text.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateThermoProps_System_String_"></a> CreateThermoProps\(string\)
+### CreateThermoProps\(string\)
 
 Creates a new ThermoProps using defaults from this TD instance.
 
@@ -1946,7 +1946,7 @@ public ThermoProps CreateThermoProps(string caseSensitiveName)
 
 [ThermoProps](OpenTD.ThermoProps.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateTie_System_Collections_Generic_IEnumerable_OpenTD_Connection__System_Collections_Generic_IEnumerable_OpenTD_Connection__System_Collections_Generic_IEnumerable_System_String__"></a> CreateTie\(IEnumerable<Connection\>, IEnumerable<Connection\>, IEnumerable<string\>\)
+### CreateTie\(IEnumerable<Connection\>, IEnumerable<Connection\>, IEnumerable<string\>\)
 
 Creates a new Tie using defaults from this TD instance.
 
@@ -1970,7 +1970,7 @@ public Tie CreateTie(IEnumerable<Connection> thermals, IEnumerable<Connection> l
 
 [Tie](OpenTD.FloCAD.Tie.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateTorus"></a> CreateTorus\(\)
+### CreateTorus\(\)
 
 Creates a new Torus using defaults from this TD instance.
 
@@ -1986,7 +1986,7 @@ public Torus CreateTorus()
 
 [Torus](OpenTD.RadCAD.Torus.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateTracker_OpenTD_Point3d_"></a> CreateTracker\(Point3d\)
+### CreateTracker\(Point3d\)
 
 Creates a new Tracker using defaults from this TD instance.
 
@@ -2006,7 +2006,7 @@ public Tracker CreateTracker(Point3d origin)
 
 [Tracker](OpenTD.RadCAD.Tracker.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateUDFACollection"></a> CreateUDFACollection\(\)
+### CreateUDFACollection\(\)
 
 Creates a new UDFACollection using defaults from this TD instance.
 
@@ -2022,7 +2022,7 @@ public UDFACollection CreateUDFACollection()
 
 [UDFACollection](OpenTD.UDFACollection.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateUserArray_OpenTD_SubmodelNameData_System_Int32_System_Collections_Generic_IEnumerable_System_Double__"></a> CreateUserArray\(SubmodelNameData, int, IEnumerable<double\>\)
+### CreateUserArray\(SubmodelNameData, int, IEnumerable<double\>\)
 
 Creates a new UserArray using defaults from this TD instance.
 
@@ -2046,7 +2046,7 @@ public UserArray CreateUserArray(SubmodelNameData submodel, int arrayId, IEnumer
 
 [UserArray](OpenTD.UserArray.md)
 
-### <a id="OpenTD_ThermalDesktop_CreateUserCode"></a> CreateUserCode\(\)
+### CreateUserCode\(\)
 
 Creates a new UserCode using defaults from this TD instance.
 
@@ -2062,7 +2062,7 @@ public UserCode CreateUserCode()
 
 [UserCode](OpenTD.UserCode.md)
 
-### <a id="OpenTD_ThermalDesktop_DeleteCaseSet_System_String_System_String_"></a> DeleteCaseSet\(string, string\)
+### DeleteCaseSet\(string, string\)
 
 Deletes a Case Set within this TD instance.
 
@@ -2080,7 +2080,7 @@ public void DeleteCaseSet(string caseName, string groupName = "")
 
 [CaseSet](OpenTD.CaseSet.md)
 
-### <a id="OpenTD_ThermalDesktop_DeleteEntity_OpenTD_TdDbEntityData_"></a> DeleteEntity\(TdDbEntityData\)
+### DeleteEntity\(TdDbEntityData\)
 
 Deletes a TD/AutoCAD entity from the AutoCAD database.
 
@@ -2094,7 +2094,7 @@ public void DeleteEntity(TdDbEntityData x)
 
 The entity to delete.
 
-### <a id="OpenTD_ThermalDesktop_DeleteFluidSubmodel_System_String_"></a> DeleteFluidSubmodel\(string\)
+### DeleteFluidSubmodel\(string\)
 
 Deletes a fluid submodel within this TD instance.
 
@@ -2110,7 +2110,7 @@ public void DeleteFluidSubmodel(string name)
 
 [FluidSubmodel](OpenTD.FloCAD.FluidSubmodel.md)
 
-### <a id="OpenTD_ThermalDesktop_DeleteLayer_System_String_"></a> DeleteLayer\(string\)
+### DeleteLayer\(string\)
 
 Deletes a Layer within this TD instance.
 
@@ -2126,7 +2126,7 @@ public void DeleteLayer(string name)
 
 [Layer](OpenTD.Layer.md)
 
-### <a id="OpenTD_ThermalDesktop_DeleteLogicObject_System_String_"></a> DeleteLogicObject\(string\)
+### DeleteLogicObject\(string\)
 
 Deletes a LogicObject within this TD instance.
 
@@ -2142,7 +2142,7 @@ public void DeleteLogicObject(string handle)
 
 [LogicObject](OpenTD.LogicObject.md)
 
-### <a id="OpenTD_ThermalDesktop_DeleteMaterialStack_System_String_"></a> DeleteMaterialStack\(string\)
+### DeleteMaterialStack\(string\)
 
 Deletes a Material Stack within this TD instance.
 
@@ -2158,7 +2158,7 @@ public void DeleteMaterialStack(string caseSensitiveName)
 
 [MaterialStack](OpenTD.MaterialStack.md)
 
-### <a id="OpenTD_ThermalDesktop_DeleteOpticalProps_System_String_"></a> DeleteOpticalProps\(string\)
+### DeleteOpticalProps\(string\)
 
 Deletes an optical property within this TD instance.
 
@@ -2174,7 +2174,7 @@ public void DeleteOpticalProps(string caseSensitiveName)
 
 [OpticalProps](OpenTD.RadCAD.OpticalProps.md)
 
-### <a id="OpenTD_ThermalDesktop_DeleteOrbit_System_String_"></a> DeleteOrbit\(string\)
+### DeleteOrbit\(string\)
 
 Deletes an orbit within this TD instance.
 
@@ -2190,7 +2190,7 @@ public void DeleteOrbit(string name)
 
 [Orbit](OpenTD.RadCAD.Orbit.md)
 
-### <a id="OpenTD_ThermalDesktop_DeleteSubmodel_System_String_"></a> DeleteSubmodel\(string\)
+### DeleteSubmodel\(string\)
 
 Deletes a Submodel within this TD instance.
 
@@ -2206,7 +2206,7 @@ public void DeleteSubmodel(string name)
 
 [Submodel](OpenTD.Submodel.md)
 
-### <a id="OpenTD_ThermalDesktop_DeleteSymbol_System_String_"></a> DeleteSymbol\(string\)
+### DeleteSymbol\(string\)
 
 Deletes a Symbol within this TD instance.
 
@@ -2222,7 +2222,7 @@ public void DeleteSymbol(string name)
 
 [Symbol](OpenTD.Symbol.md)
 
-### <a id="OpenTD_ThermalDesktop_DeleteThermoProps_System_String_"></a> DeleteThermoProps\(string\)
+### DeleteThermoProps\(string\)
 
 Deletes a ThermoProps within this TD instance.
 
@@ -2238,19 +2238,19 @@ public void DeleteThermoProps(string caseSensitiveName)
 
 [ThermoProps](OpenTD.ThermoProps.md)
 
-### <a id="OpenTD_ThermalDesktop_DisableUndo"></a> DisableUndo\(\)
+### DisableUndo\(\)
 
 ```csharp
 public void DisableUndo()
 ```
 
-### <a id="OpenTD_ThermalDesktop_EnableUndo"></a> EnableUndo\(\)
+### EnableUndo\(\)
 
 ```csharp
 public void EnableUndo()
 ```
 
-### <a id="OpenTD_ThermalDesktop_ExportNodeInfo_OpenTD_ExportNodeInfoOptionsData_"></a> ExportNodeInfo\(ExportNodeInfoOptionsData\)
+### ExportNodeInfo\(ExportNodeInfoOptionsData\)
 
 Call the TD Export Node Info command to get node info as a list of strings
 (the default) or to write node info to the screen or file.
@@ -2269,7 +2269,7 @@ Options.
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_ThermalDesktop_Filter__1_System_Collections_Generic_List___0__System_Predicate___0__"></a> Filter<T\>\(List<T\>, Predicate<T\>\)
+### Filter<T\>\(List<T\>, Predicate<T\>\)
 
 Filters the specified input list using a predicate/rule.
 
@@ -2297,7 +2297,7 @@ List&lt;T&gt;.
 
 `T` 
 
-### <a id="OpenTD_ThermalDesktop_GetAcEllipse_System_String_System_Boolean_"></a> GetAcEllipse\(string, bool\)
+### GetAcEllipse\(string, bool\)
 
 Gets an existing Ellipse from this TD instance.
 
@@ -2323,7 +2323,7 @@ If true, xref drawings will be included in the search.
 
 [AcEllipse](OpenTD.AcEllipse.md)
 
-### <a id="OpenTD_ThermalDesktop_GetAcEllipses_System_Boolean_"></a> GetAcEllipses\(bool\)
+### GetAcEllipses\(bool\)
 
 Gets all the Ellipses in this TD instance.
 
@@ -2345,7 +2345,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [AcEllipse](OpenTD.AcEllipse.md)
 
-### <a id="OpenTD_ThermalDesktop_GetArc_System_String_System_Boolean_"></a> GetArc\(string, bool\)
+### GetArc\(string, bool\)
 
 Gets an existing Arc from this TD instance.
 
@@ -2371,7 +2371,7 @@ If true, xref drawings will be included in the Arc search.
 
 [Arc](OpenTD.Arc.md)
 
-### <a id="OpenTD_ThermalDesktop_GetArcs_System_Boolean_"></a> GetArcs\(bool\)
+### GetArcs\(bool\)
 
 Gets all the Arcs in this TD instance.
 
@@ -2393,7 +2393,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Arc](OpenTD.Arc.md)
 
-### <a id="OpenTD_ThermalDesktop_GetAssemblies_System_Boolean_"></a> GetAssemblies\(bool\)
+### GetAssemblies\(bool\)
 
 Gets all the Assemblys in this TD instance.
 
@@ -2415,7 +2415,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Assembly](OpenTD.RadCAD.Assembly.md)
 
-### <a id="OpenTD_ThermalDesktop_GetAssembly_System_String_System_Boolean_"></a> GetAssembly\(string, bool\)
+### GetAssembly\(string, bool\)
 
 Gets an existing Assembly from this TD instance.
 
@@ -2441,7 +2441,7 @@ If true, xref drawings will be included in the Assembly search
 
 [Assembly](OpenTD.RadCAD.Assembly.md)
 
-### <a id="OpenTD_ThermalDesktop_GetAutocadVariable_System_String_System_Int32__"></a> GetAutocadVariable\(string, out int\)
+### GetAutocadVariable\(string, out int\)
 
 Gets the autocad variable.
 
@@ -2465,7 +2465,7 @@ The value.
 
 Autocad variable " + name + " is of type " + rawValue.Type + ", not INT
 
-### <a id="OpenTD_ThermalDesktop_GetAutocadVariable_System_String_System_Double__"></a> GetAutocadVariable\(string, out double\)
+### GetAutocadVariable\(string, out double\)
 
 Gets the autocad variable.
 
@@ -2489,7 +2489,7 @@ The value.
 
 Autocad variable " + name + " is of type " + rawValue.Type + ", not DOUBLE
 
-### <a id="OpenTD_ThermalDesktop_GetAutocadVariable_System_String_System_String__"></a> GetAutocadVariable\(string, out string\)
+### GetAutocadVariable\(string, out string\)
 
 Gets the autocad variable.
 
@@ -2513,7 +2513,7 @@ The value.
 
 Autocad variable " + name + " is of type " + rawValue.Type + ", not STRING
 
-### <a id="OpenTD_ThermalDesktop_GetCappmp_System_String_System_Boolean_"></a> GetCappmp\(string, bool\)
+### GetCappmp\(string, bool\)
 
 Gets an existing cappmp from this TD instance.
 
@@ -2539,7 +2539,7 @@ If true, xref drawings will be included in the search.
 
 [Cappmp](OpenTD.FloCAD.Cappmp.md)
 
-### <a id="OpenTD_ThermalDesktop_GetCappmps_System_Boolean_"></a> GetCappmps\(bool\)
+### GetCappmps\(bool\)
 
 Gets all the cappmps in this TD instance.
 
@@ -2561,7 +2561,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Cappmp](OpenTD.FloCAD.Cappmp.md)
 
-### <a id="OpenTD_ThermalDesktop_GetCaseSet_System_String_System_String_"></a> GetCaseSet\(string, string\)
+### GetCaseSet\(string, string\)
 
 Gets an existing Case Set from this TD instance.
 
@@ -2583,7 +2583,7 @@ public CaseSet GetCaseSet(string name, string groupName = "")
 
 [CaseSet](OpenTD.CaseSet.md)
 
-### <a id="OpenTD_ThermalDesktop_GetCaseSets"></a> GetCaseSets\(\)
+### GetCaseSets\(\)
 
 Gets all the Case Sets in this TD instance.
 
@@ -2599,7 +2599,7 @@ public List<CaseSet> GetCaseSets()
 
 [CaseSet](OpenTD.CaseSet.md)
 
-### <a id="OpenTD_ThermalDesktop_GetCircle_System_String_System_Boolean_"></a> GetCircle\(string, bool\)
+### GetCircle\(string, bool\)
 
 Gets an existing Circle from this TD instance.
 
@@ -2625,7 +2625,7 @@ If true, xref drawings will be included in the search.
 
 [Circle](OpenTD.Circle.md)
 
-### <a id="OpenTD_ThermalDesktop_GetCircles_System_Boolean_"></a> GetCircles\(bool\)
+### GetCircles\(bool\)
 
 Gets all the Circles in this TD instance.
 
@@ -2647,7 +2647,7 @@ if set to <code>true</code> also seCircleh XREF's referenced in this TD instance
 
 [Circle](OpenTD.Circle.md)
 
-### <a id="OpenTD_ThermalDesktop_GetCompartment_System_String_System_Boolean_"></a> GetCompartment\(string, bool\)
+### GetCompartment\(string, bool\)
 
 Gets an existing Compartment from this TD instance.
 
@@ -2673,7 +2673,7 @@ If true, xref drawings will be included in the search.
 
 [Compartment](OpenTD.FloCAD.Compartment.md)
 
-### <a id="OpenTD_ThermalDesktop_GetCompartments_System_Boolean_"></a> GetCompartments\(bool\)
+### GetCompartments\(bool\)
 
 Gets all the Compartments in this TD instance.
 
@@ -2695,7 +2695,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Compartment](OpenTD.FloCAD.Compartment.md)
 
-### <a id="OpenTD_ThermalDesktop_GetConductor_System_String_System_Boolean_"></a> GetConductor\(string, bool\)
+### GetConductor\(string, bool\)
 
 Gets an existing Conductor from this TD instance.
 
@@ -2721,7 +2721,7 @@ If true, xref drawings will be included in the search.
 
 [Conductor](OpenTD.Conductor.md)
 
-### <a id="OpenTD_ThermalDesktop_GetConductors_System_Boolean_"></a> GetConductors\(bool\)
+### GetConductors\(bool\)
 
 Gets all the Conductors in this TD instance.
 
@@ -2743,7 +2743,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Conductor](OpenTD.Conductor.md)
 
-### <a id="OpenTD_ThermalDesktop_GetCone_System_String_System_Boolean_"></a> GetCone\(string, bool\)
+### GetCone\(string, bool\)
 
 Gets an existing Cone from this TD instance.
 
@@ -2769,7 +2769,7 @@ If true, xref drawings will be included in the search.
 
 [Cone](OpenTD.RadCAD.Cone.md)
 
-### <a id="OpenTD_ThermalDesktop_GetCones_System_Boolean_"></a> GetCones\(bool\)
+### GetCones\(bool\)
 
 Gets all the Cones in this TD instance.
 
@@ -2791,7 +2791,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Cone](OpenTD.RadCAD.Cone.md)
 
-### <a id="OpenTD_ThermalDesktop_GetContactor_System_String_System_Boolean_"></a> GetContactor\(string, bool\)
+### GetContactor\(string, bool\)
 
 Gets an existing Contactor from this TD instance.
 
@@ -2817,7 +2817,7 @@ If true, xref drawings will be included in the search.
 
 [Contactor](OpenTD.Contactor.md)
 
-### <a id="OpenTD_ThermalDesktop_GetContactors_System_Boolean_"></a> GetContactors\(bool\)
+### GetContactors\(bool\)
 
 Gets all the Contactors in this TD instance.
 
@@ -2839,7 +2839,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Contactor](OpenTD.Contactor.md)
 
-### <a id="OpenTD_ThermalDesktop_GetCurrentDwgPathname"></a> GetCurrentDwgPathname\(\)
+### GetCurrentDwgPathname\(\)
 
 ```csharp
 public string GetCurrentDwgPathname()
@@ -2849,7 +2849,7 @@ public string GetCurrentDwgPathname()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_ThermalDesktop_GetCurrentLayer"></a> GetCurrentLayer\(\)
+### GetCurrentLayer\(\)
 
 Get the current layer from this TD instance.
 
@@ -2861,7 +2861,7 @@ public Layer GetCurrentLayer()
 
  [Layer](OpenTD.Layer.md)
 
-### <a id="OpenTD_ThermalDesktop_GetCurrentWorkingDirectory"></a> GetCurrentWorkingDirectory\(\)
+### GetCurrentWorkingDirectory\(\)
 
 ```csharp
 public string GetCurrentWorkingDirectory()
@@ -2871,7 +2871,7 @@ public string GetCurrentWorkingDirectory()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_ThermalDesktop_GetCylinder_System_String_System_Boolean_"></a> GetCylinder\(string, bool\)
+### GetCylinder\(string, bool\)
 
 Gets an existing Cylinder from this TD instance.
 
@@ -2897,7 +2897,7 @@ If true, xref drawings will be included in the search.
 
 [Cylinder](OpenTD.RadCAD.Cylinder.md)
 
-### <a id="OpenTD_ThermalDesktop_GetCylinders_System_Boolean_"></a> GetCylinders\(bool\)
+### GetCylinders\(bool\)
 
 Gets all the Cylinders in this TD instance.
 
@@ -2919,7 +2919,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Cylinder](OpenTD.RadCAD.Cylinder.md)
 
-### <a id="OpenTD_ThermalDesktop_GetDisk_System_String_System_Boolean_"></a> GetDisk\(string, bool\)
+### GetDisk\(string, bool\)
 
 Gets an existing Disk from this TD instance.
 
@@ -2945,7 +2945,7 @@ If true, xref drawings will be included in the search.
 
 [Disk](OpenTD.RadCAD.Disk.md)
 
-### <a id="OpenTD_ThermalDesktop_GetDisks_System_Boolean_"></a> GetDisks\(bool\)
+### GetDisks\(bool\)
 
 Gets all the Disks in this TD instance.
 
@@ -2967,7 +2967,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Disk](OpenTD.RadCAD.Disk.md)
 
-### <a id="OpenTD_ThermalDesktop_GetDomainManager"></a> GetDomainManager\(\)
+### GetDomainManager\(\)
 
 Gets an IDomainManager for working with domains in this TD instance.
 
@@ -2985,7 +2985,7 @@ IDomainManager.
 
 [IDomainManager](OpenTD.IDomainManager.md)
 
-### <a id="OpenTD_ThermalDesktop_GetDwgUnits"></a> GetDwgUnits\(\)
+### GetDwgUnits\(\)
 
 Gets the TD units. Deprecated. Use ThermalDesktop.UserPreferences.Units instead.
 
@@ -2999,7 +2999,7 @@ public UnitsData GetDwgUnits()
 
 UnitsData.
 
-### <a id="OpenTD_ThermalDesktop_GetDynamicSindaStatus"></a> GetDynamicSindaStatus\(\)
+### GetDynamicSindaStatus\(\)
 
 ```csharp
 public DynamicSindaStatus GetDynamicSindaStatus()
@@ -3009,7 +3009,7 @@ public DynamicSindaStatus GetDynamicSindaStatus()
 
  [DynamicSindaStatus](OpenTD.DynamicSindaStatus.md)
 
-### <a id="OpenTD_ThermalDesktop_GetEllipse_System_String_System_Boolean_"></a> GetEllipse\(string, bool\)
+### GetEllipse\(string, bool\)
 
 Gets an existing Ellipse from this TD instance.
 
@@ -3035,7 +3035,7 @@ If true, xref drawings will be included in the search.
 
 [Ellipse](OpenTD.RadCAD.Ellipse.md)
 
-### <a id="OpenTD_ThermalDesktop_GetEllipses_System_Boolean_"></a> GetEllipses\(bool\)
+### GetEllipses\(bool\)
 
 Gets all the Ellipses in this TD instance.
 
@@ -3057,7 +3057,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Ellipse](OpenTD.RadCAD.Ellipse.md)
 
-### <a id="OpenTD_ThermalDesktop_GetEllipsoid_System_String_System_Boolean_"></a> GetEllipsoid\(string, bool\)
+### GetEllipsoid\(string, bool\)
 
 Gets an existing Ellipsoid from this TD instance.
 
@@ -3083,7 +3083,7 @@ If true, xref drawings will be included in the search.
 
 [Ellipsoid](OpenTD.RadCAD.Ellipsoid.md)
 
-### <a id="OpenTD_ThermalDesktop_GetEllipsoids_System_Boolean_"></a> GetEllipsoids\(bool\)
+### GetEllipsoids\(bool\)
 
 Gets all the Ellipsoids in this TD instance.
 
@@ -3105,7 +3105,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Ellipsoid](OpenTD.RadCAD.Ellipsoid.md)
 
-### <a id="OpenTD_ThermalDesktop_GetEllipticCone_System_String_System_Boolean_"></a> GetEllipticCone\(string, bool\)
+### GetEllipticCone\(string, bool\)
 
 Gets an existing EllipticCone from this TD instance.
 
@@ -3131,7 +3131,7 @@ If true, xref drawings will be included in the search.
 
 [EllipticCone](OpenTD.RadCAD.EllipticCone.md)
 
-### <a id="OpenTD_ThermalDesktop_GetEllipticCones_System_Boolean_"></a> GetEllipticCones\(bool\)
+### GetEllipticCones\(bool\)
 
 Gets all the Cones in this TD instance.
 
@@ -3153,7 +3153,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Cone](OpenTD.RadCAD.Cone.md)
 
-### <a id="OpenTD_ThermalDesktop_GetEllipticCylinder_System_String_System_Boolean_"></a> GetEllipticCylinder\(string, bool\)
+### GetEllipticCylinder\(string, bool\)
 
 Gets an existing EllipticCylinder from this TD instance.
 
@@ -3179,7 +3179,7 @@ If true, xref drawings will be included in the search.
 
 [EllipticCylinder](OpenTD.RadCAD.EllipticCylinder.md)
 
-### <a id="OpenTD_ThermalDesktop_GetEllipticCylinders_System_Boolean_"></a> GetEllipticCylinders\(bool\)
+### GetEllipticCylinders\(bool\)
 
 Gets all the EllipticCylinders in this TD instance.
 
@@ -3201,7 +3201,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [EllipticCylinder](OpenTD.RadCAD.EllipticCylinder.md)
 
-### <a id="OpenTD_ThermalDesktop_GetEntityType_System_String_"></a> GetEntityType\(string\)
+### GetEntityType\(string\)
 
 Use to determine the entity type ("RcNode", "RcRectangle", and so on) for a handle.
 
@@ -3217,7 +3217,7 @@ public EntityDescriptor GetEntityType(string handle)
 
  [EntityDescriptor](OpenTD.EntityDescriptor.md)
 
-### <a id="OpenTD_ThermalDesktop_GetEntityTypes_System_Collections_Generic_IEnumerable_System_String__"></a> GetEntityTypes\(IEnumerable<string\>\)
+### GetEntityTypes\(IEnumerable<string\>\)
 
 Use to determine the entity types ("RcNode", "RcRectangle", and so on) for a list
 of handles.
@@ -3234,7 +3234,7 @@ public List<EntityDescriptor> GetEntityTypes(IEnumerable<string> handles)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[EntityDescriptor](OpenTD.EntityDescriptor.md)\>
 
-### <a id="OpenTD_ThermalDesktop_GetFEMeshImporter_System_String_System_Boolean_"></a> GetFEMeshImporter\(string, bool\)
+### GetFEMeshImporter\(string, bool\)
 
 Gets an existing FEMeshImporter from this TD instance.
 
@@ -3260,7 +3260,7 @@ If true, xref drawings will be included in the search.
 
 [FEMeshImporter](OpenTD.RadCAD.FEMeshImporter.md)
 
-### <a id="OpenTD_ThermalDesktop_GetFEMeshImporters_System_Boolean_"></a> GetFEMeshImporters\(bool\)
+### GetFEMeshImporters\(bool\)
 
 Gets all the FEMeshImporters in this TD instance.
 
@@ -3282,7 +3282,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [FEMeshImporter](OpenTD.RadCAD.FEMeshImporter.md)
 
-### <a id="OpenTD_ThermalDesktop_GetFTie_System_String_System_Boolean_"></a> GetFTie\(string, bool\)
+### GetFTie\(string, bool\)
 
 Gets an existing FTie from this TD instance.
 
@@ -3308,7 +3308,7 @@ If true, xref drawings will be included in the search.
 
 [FTie](OpenTD.FloCAD.FTie.md)
 
-### <a id="OpenTD_ThermalDesktop_GetFTies_System_Boolean_"></a> GetFTies\(bool\)
+### GetFTies\(bool\)
 
 Gets all the FTies in this TD instance.
 
@@ -3330,7 +3330,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [FTie](OpenTD.FloCAD.FTie.md)
 
-### <a id="OpenTD_ThermalDesktop_GetFkLocator_System_String_System_Boolean_"></a> GetFkLocator\(string, bool\)
+### GetFkLocator\(string, bool\)
 
 Gets an existing FkLocator from this TD instance.
 
@@ -3356,7 +3356,7 @@ If true, xref drawings will be included in the search.
 
 [FkLocator](OpenTD.FloCAD.FkLocator.md)
 
-### <a id="OpenTD_ThermalDesktop_GetFkLocators_System_Boolean_"></a> GetFkLocators\(bool\)
+### GetFkLocators\(bool\)
 
 Gets all the FkLocators in this TD instance.
 
@@ -3378,7 +3378,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [FkLocator](OpenTD.FloCAD.FkLocator.md)
 
-### <a id="OpenTD_ThermalDesktop_GetFluidSubmodel_System_String_"></a> GetFluidSubmodel\(string\)
+### GetFluidSubmodel\(string\)
 
 Gets an existing fluid submodel from this TD instance.
 
@@ -3398,7 +3398,7 @@ public FluidSubmodel GetFluidSubmodel(string name)
 
 [FluidSubmodel](OpenTD.FloCAD.FluidSubmodel.md)
 
-### <a id="OpenTD_ThermalDesktop_GetFluidSubmodels_System_Boolean_"></a> GetFluidSubmodels\(bool\)
+### GetFluidSubmodels\(bool\)
 
 Gets all the fluid submodels in this TD instance.
 
@@ -3420,7 +3420,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [FluidSubmodel](OpenTD.FloCAD.FluidSubmodel.md)
 
-### <a id="OpenTD_ThermalDesktop_GetHeatLoad_System_String_System_Boolean_"></a> GetHeatLoad\(string, bool\)
+### GetHeatLoad\(string, bool\)
 
 Gets an existing HeatLoad from this TD instance.
 
@@ -3446,7 +3446,7 @@ If true, xref drawings will be included in the search.
 
 [HeatLoad](OpenTD.HeatLoad.md)
 
-### <a id="OpenTD_ThermalDesktop_GetHeatLoads_System_Boolean_"></a> GetHeatLoads\(bool\)
+### GetHeatLoads\(bool\)
 
 Gets all the HeatLoads in this TD instance.
 
@@ -3468,7 +3468,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [HeatLoad](OpenTD.HeatLoad.md)
 
-### <a id="OpenTD_ThermalDesktop_GetHeater_System_String_System_Boolean_"></a> GetHeater\(string, bool\)
+### GetHeater\(string, bool\)
 
 Gets an existing Heater from this TD instance.
 
@@ -3494,7 +3494,7 @@ If true, xref drawings will be included in the search.
 
 [Heater](OpenTD.Heater.md)
 
-### <a id="OpenTD_ThermalDesktop_GetHeaters_System_Boolean_"></a> GetHeaters\(bool\)
+### GetHeaters\(bool\)
 
 Gets all the Heaters in this TD instance.
 
@@ -3516,7 +3516,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Heater](OpenTD.Heater.md)
 
-### <a id="OpenTD_ThermalDesktop_GetHelices_System_Boolean_"></a> GetHelices\(bool\)
+### GetHelices\(bool\)
 
 Gets all the Helixs in this TD instance.
 
@@ -3538,7 +3538,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Helix](OpenTD.Helix.md)
 
-### <a id="OpenTD_ThermalDesktop_GetHelix_System_String_System_Boolean_"></a> GetHelix\(string, bool\)
+### GetHelix\(string, bool\)
 
 Gets an existing Helix from this TD instance.
 
@@ -3564,7 +3564,7 @@ If true, xref drawings will be included in the search.
 
 [Helix](OpenTD.Helix.md)
 
-### <a id="OpenTD_ThermalDesktop_GetIFace_System_String_System_Boolean_"></a> GetIFace\(string, bool\)
+### GetIFace\(string, bool\)
 
 Gets an existing IFace from this TD instance.
 
@@ -3590,7 +3590,7 @@ If true, xref drawings will be included in the search.
 
 [IFace](OpenTD.FloCAD.IFace.md)
 
-### <a id="OpenTD_ThermalDesktop_GetIFaces_System_Boolean_"></a> GetIFaces\(bool\)
+### GetIFaces\(bool\)
 
 Gets all the IFaces in this TD instance.
 
@@ -3612,7 +3612,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [IFace](OpenTD.FloCAD.IFace.md)
 
-### <a id="OpenTD_ThermalDesktop_GetInstanceDataListString"></a> GetInstanceDataListString\(\)
+### GetInstanceDataListString\(\)
 
 Use the Set/GetInstanceData methods to store general data with this OpenTD server.
 
@@ -3624,7 +3624,7 @@ public List<string> GetInstanceDataListString()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_ThermalDesktop_GetLayer_System_String_"></a> GetLayer\(string\)
+### GetLayer\(string\)
 
 Gets an existing Layer from this TD instance. Note: this method accecpts an AutoCAD handle, not a layer name.
 
@@ -3644,7 +3644,7 @@ public Layer GetLayer(string handle)
 
 [Layer](OpenTD.Layer.md)
 
-### <a id="OpenTD_ThermalDesktop_GetLayerByName_System_String_"></a> GetLayerByName\(string\)
+### GetLayerByName\(string\)
 
 Gets an existing Layer from this TD instance, based on the layer name.
 
@@ -3660,7 +3660,7 @@ public Layer GetLayerByName(string name)
 
  [Layer](OpenTD.Layer.md)
 
-### <a id="OpenTD_ThermalDesktop_GetLayers_System_Boolean_"></a> GetLayers\(bool\)
+### GetLayers\(bool\)
 
 Gets all the Layers in this TD instance.
 
@@ -3682,7 +3682,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Layer](OpenTD.Layer.md)
 
-### <a id="OpenTD_ThermalDesktop_GetLine_System_String_System_Boolean_"></a> GetLine\(string, bool\)
+### GetLine\(string, bool\)
 
 Gets an existing Line from this TD instance.
 
@@ -3708,7 +3708,7 @@ If true, xref drawings will be included in the search.
 
 [Line](OpenTD.Line.md)
 
-### <a id="OpenTD_ThermalDesktop_GetLinearBrick_System_String_System_Boolean_"></a> GetLinearBrick\(string, bool\)
+### GetLinearBrick\(string, bool\)
 
 Gets an existing LinearBrick from this TD instance.
 
@@ -3734,7 +3734,7 @@ If true, xref drawings will be included in the search.
 
 [LinearBrick](OpenTD.RadCAD.FEM.LinearBrick.md)
 
-### <a id="OpenTD_ThermalDesktop_GetLinearBricks_System_Boolean_"></a> GetLinearBricks\(bool\)
+### GetLinearBricks\(bool\)
 
 Gets all the LinearBricks in this TD instance.
 
@@ -3756,7 +3756,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [LinearBrick](OpenTD.RadCAD.FEM.LinearBrick.md)
 
-### <a id="OpenTD_ThermalDesktop_GetLinearPyramid_System_String_System_Boolean_"></a> GetLinearPyramid\(string, bool\)
+### GetLinearPyramid\(string, bool\)
 
 Gets an existing LinearPyramid from this TD instance.
 
@@ -3782,7 +3782,7 @@ If true, xref drawings will be included in the search.
 
 [LinearPyramid](OpenTD.RadCAD.FEM.LinearPyramid.md)
 
-### <a id="OpenTD_ThermalDesktop_GetLinearPyramids_System_Boolean_"></a> GetLinearPyramids\(bool\)
+### GetLinearPyramids\(bool\)
 
 Gets all the LinearPyramids in this TD instance.
 
@@ -3804,7 +3804,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [LinearPyramid](OpenTD.RadCAD.FEM.LinearPyramid.md)
 
-### <a id="OpenTD_ThermalDesktop_GetLinearQuad_System_String_System_Boolean_"></a> GetLinearQuad\(string, bool\)
+### GetLinearQuad\(string, bool\)
 
 Gets an existing LinearQuad from this TD instance.
 
@@ -3830,7 +3830,7 @@ If true, xref drawings will be included in the search.
 
 [LinearQuad](OpenTD.RadCAD.FEM.LinearQuad.md)
 
-### <a id="OpenTD_ThermalDesktop_GetLinearQuads_System_Boolean_"></a> GetLinearQuads\(bool\)
+### GetLinearQuads\(bool\)
 
 Gets all the LinearQuads in this TD instance.
 
@@ -3852,7 +3852,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [LinearQuad](OpenTD.RadCAD.FEM.LinearQuad.md)
 
-### <a id="OpenTD_ThermalDesktop_GetLinearTet_System_String_System_Boolean_"></a> GetLinearTet\(string, bool\)
+### GetLinearTet\(string, bool\)
 
 Gets an existing LinearTet from this TD instance.
 
@@ -3878,7 +3878,7 @@ If true, xref drawings will be included in the search.
 
 [LinearTet](OpenTD.RadCAD.FEM.LinearTet.md)
 
-### <a id="OpenTD_ThermalDesktop_GetLinearTets_System_Boolean_"></a> GetLinearTets\(bool\)
+### GetLinearTets\(bool\)
 
 Gets all the LinearTets in this TD instance.
 
@@ -3900,7 +3900,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [LinearTet](OpenTD.RadCAD.FEM.LinearTet.md)
 
-### <a id="OpenTD_ThermalDesktop_GetLinearTri_System_String_System_Boolean_"></a> GetLinearTri\(string, bool\)
+### GetLinearTri\(string, bool\)
 
 Gets an existing LinearTri from this TD instance.
 
@@ -3926,7 +3926,7 @@ If true, xref drawings will be included in the search.
 
 [LinearTri](OpenTD.RadCAD.FEM.LinearTri.md)
 
-### <a id="OpenTD_ThermalDesktop_GetLinearTris_System_Boolean_"></a> GetLinearTris\(bool\)
+### GetLinearTris\(bool\)
 
 Gets all the LinearTris in this TD instance.
 
@@ -3948,7 +3948,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [LinearTri](OpenTD.RadCAD.FEM.LinearTri.md)
 
-### <a id="OpenTD_ThermalDesktop_GetLinearWedge_System_String_System_Boolean_"></a> GetLinearWedge\(string, bool\)
+### GetLinearWedge\(string, bool\)
 
 Gets an existing LinearWedge from this TD instance.
 
@@ -3974,7 +3974,7 @@ If true, xref drawings will be included in the search.
 
 [LinearWedge](OpenTD.RadCAD.FEM.LinearWedge.md)
 
-### <a id="OpenTD_ThermalDesktop_GetLinearWedges_System_Boolean_"></a> GetLinearWedges\(bool\)
+### GetLinearWedges\(bool\)
 
 Gets all the LinearWedges in this TD instance.
 
@@ -3996,7 +3996,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [LinearWedge](OpenTD.RadCAD.FEM.LinearWedge.md)
 
-### <a id="OpenTD_ThermalDesktop_GetLines_System_Boolean_"></a> GetLines\(bool\)
+### GetLines\(bool\)
 
 Gets all the Lines in this TD instance.
 
@@ -4018,7 +4018,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Line](OpenTD.Line.md)
 
-### <a id="OpenTD_ThermalDesktop_GetLogicObjects_System_Boolean_"></a> GetLogicObjects\(bool\)
+### GetLogicObjects\(bool\)
 
 Gets all the LogicObjects in this TD instance.
 
@@ -4040,7 +4040,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [LogicObject](OpenTD.LogicObject.md)
 
-### <a id="OpenTD_ThermalDesktop_GetLump_System_String_System_Boolean_"></a> GetLump\(string, bool\)
+### GetLump\(string, bool\)
 
 Gets an existing Lump from this TD instance.
 
@@ -4066,7 +4066,7 @@ If true, xref drawings will be included in the search.
 
 [Lump](OpenTD.FloCAD.Lump.md)
 
-### <a id="OpenTD_ThermalDesktop_GetLumps_System_Boolean_"></a> GetLumps\(bool\)
+### GetLumps\(bool\)
 
 Gets all the Lumps in this TD instance.
 
@@ -4088,7 +4088,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Lump](OpenTD.FloCAD.Lump.md)
 
-### <a id="OpenTD_ThermalDesktop_GetMainWindow"></a> GetMainWindow\(\)
+### GetMainWindow\(\)
 
 ```csharp
 public NativeWindow GetMainWindow()
@@ -4098,7 +4098,7 @@ public NativeWindow GetMainWindow()
 
  [NativeWindow](https://learn.microsoft.com/dotnet/api/system.windows.forms.nativewindow)
 
-### <a id="OpenTD_ThermalDesktop_GetMaterialStack_System_String_"></a> GetMaterialStack\(string\)
+### GetMaterialStack\(string\)
 
 Gets an existing Material Stack from this TD instance.
 
@@ -4118,7 +4118,7 @@ public MaterialStack GetMaterialStack(string caseSensitiveName)
 
 [MaterialStack](OpenTD.MaterialStack.md)
 
-### <a id="OpenTD_ThermalDesktop_GetMaterialStacks_System_Boolean_"></a> GetMaterialStacks\(bool\)
+### GetMaterialStacks\(bool\)
 
 Gets all the Material Stacks in this TD instance.
 
@@ -4140,7 +4140,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [MaterialStack](OpenTD.MaterialStack.md)
 
-### <a id="OpenTD_ThermalDesktop_GetMeasure_System_String_System_Boolean_"></a> GetMeasure\(string, bool\)
+### GetMeasure\(string, bool\)
 
 Gets an existing Measure from this TD instance.
 
@@ -4166,7 +4166,7 @@ If true, xref drawings will be included in the search.
 
 [Measure](OpenTD.Measure.md)
 
-### <a id="OpenTD_ThermalDesktop_GetMeasureMappingTolerances"></a> GetMeasureMappingTolerances\(\)
+### GetMeasureMappingTolerances\(\)
 
 Gets the mapping tolerances used by Measures in this TD instance.
 
@@ -4182,7 +4182,7 @@ public MeasureMappingTolerances GetMeasureMappingTolerances()
 
 [Measure](OpenTD.Measure.md)
 
-### <a id="OpenTD_ThermalDesktop_GetMeasures_System_Boolean_"></a> GetMeasures\(bool\)
+### GetMeasures\(bool\)
 
 Gets all the Measures in this TD instance.
 
@@ -4204,7 +4204,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Measure](OpenTD.Measure.md)
 
-### <a id="OpenTD_ThermalDesktop_GetMeshFD_System_String_System_Boolean_"></a> GetMeshFD\(string, bool\)
+### GetMeshFD\(string, bool\)
 
 Gets an existing MeshFD from this TD instance.
 
@@ -4230,7 +4230,7 @@ If true, xref drawings will be included in the search.
 
 [MeshFD](OpenTD.RadCAD.MeshFD.md)
 
-### <a id="OpenTD_ThermalDesktop_GetMeshFDs_System_Boolean_"></a> GetMeshFDs\(bool\)
+### GetMeshFDs\(bool\)
 
 Gets all the MeshFDs in this TD instance.
 
@@ -4252,7 +4252,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [MeshFD](OpenTD.RadCAD.MeshFD.md)
 
-### <a id="OpenTD_ThermalDesktop_GetModel"></a> GetModel\(\)
+### GetModel\(\)
 
 Gets a Model representing all OpenTD-supported entities in this TD instance.
 
@@ -4270,7 +4270,7 @@ Model.
 
 [Model](OpenTD.Model.md)
 
-### <a id="OpenTD_ThermalDesktop_GetNode_System_String_System_Boolean_"></a> GetNode\(string, bool\)
+### GetNode\(string, bool\)
 
 Gets an existing Node from this TD instance.
 
@@ -4296,7 +4296,7 @@ If true, xref drawings will be included in the search.
 
 [Node](OpenTD.Node.md)
 
-### <a id="OpenTD_ThermalDesktop_GetNodeCorrespondenceMap"></a> GetNodeCorrespondenceMap\(\)
+### GetNodeCorrespondenceMap\(\)
 
 Gets the TRASYS-style node correspondence dictionary. Keys are SINDA node names.
 Values are lists of RadCAD nodes that correspond to each SINDA node.
@@ -4315,7 +4315,7 @@ public Dictionary<string, List<string>> GetNodeCorrespondenceMap()
 [ThermalDesktop](OpenTD.ThermalDesktop.md).[SetNodeCorrespondenceState](OpenTD.ThermalDesktop.md\#OpenTD\_ThermalDesktop\_SetNodeCorrespondenceState\_System\_Boolean\_)\([bool](https://learn.microsoft.com/dotnet/api/system.boolean)\), 
 [ThermalDesktop](OpenTD.ThermalDesktop.md).[SetNodeCorrespondenceMap](OpenTD.ThermalDesktop.md\#OpenTD\_ThermalDesktop\_SetNodeCorrespondenceMap\_System\_Collections\_Generic\_Dictionary\_System\_String\_System\_Collections\_Generic\_List\_System\_String\_\_\_)\([Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>\>\)
 
-### <a id="OpenTD_ThermalDesktop_GetNodes_System_Boolean_"></a> GetNodes\(bool\)
+### GetNodes\(bool\)
 
 Gets all the Nodes in this TD instance.
 
@@ -4337,7 +4337,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Node](OpenTD.Node.md)
 
-### <a id="OpenTD_ThermalDesktop_GetNotes"></a> GetNotes\(\)
+### GetNotes\(\)
 
 Gets the dwg notes from this TD instance.
 
@@ -4353,7 +4353,7 @@ public Notes GetNotes()
 
 [Notes](OpenTD.Notes.md)
 
-### <a id="OpenTD_ThermalDesktop_GetNumberOfDbObjects_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_"></a> GetNumberOfDbObjects\(bool, bool, bool, bool, bool\)
+### GetNumberOfDbObjects\(bool, bool, bool, bool, bool\)
 
 ```csharp
 public int GetNumberOfDbObjects(bool forward = true, bool modelSpace = true, bool xRefs = false, bool paperSpace = false, bool tdOnly = true)
@@ -4375,7 +4375,7 @@ public int GetNumberOfDbObjects(bool forward = true, bool modelSpace = true, boo
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_ThermalDesktop_GetOffsetParaboloid_System_String_System_Boolean_"></a> GetOffsetParaboloid\(string, bool\)
+### GetOffsetParaboloid\(string, bool\)
 
 Gets an existing OffsetParaboloid from this TD instance.
 
@@ -4401,7 +4401,7 @@ If true, xref drawings will be included in the search.
 
 [OffsetParaboloid](OpenTD.RadCAD.OffsetParaboloid.md)
 
-### <a id="OpenTD_ThermalDesktop_GetOffsetParaboloids_System_Boolean_"></a> GetOffsetParaboloids\(bool\)
+### GetOffsetParaboloids\(bool\)
 
 Gets all the OffsetParaboloids in this TD instance.
 
@@ -4423,7 +4423,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [OffsetParaboloid](OpenTD.RadCAD.OffsetParaboloid.md)
 
-### <a id="OpenTD_ThermalDesktop_GetOgive_System_String_System_Boolean_"></a> GetOgive\(string, bool\)
+### GetOgive\(string, bool\)
 
 Gets an existing Ogive from this TD instance.
 
@@ -4449,7 +4449,7 @@ If true, xref drawings will be included in the search.
 
 [Ogive](OpenTD.RadCAD.Ogive.md)
 
-### <a id="OpenTD_ThermalDesktop_GetOgives_System_Boolean_"></a> GetOgives\(bool\)
+### GetOgives\(bool\)
 
 Gets all the Ogives in this TD instance.
 
@@ -4471,7 +4471,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Ogive](OpenTD.RadCAD.Ogive.md)
 
-### <a id="OpenTD_ThermalDesktop_GetOpticalPropDBPathname"></a> GetOpticalPropDBPathname\(\)
+### GetOpticalPropDBPathname\(\)
 
 Gets the pathname of the current optical property database file
 in use by this TD instance.
@@ -4484,7 +4484,7 @@ public string GetOpticalPropDBPathname()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_ThermalDesktop_GetOpticalProps_System_String_"></a> GetOpticalProps\(string\)
+### GetOpticalProps\(string\)
 
 Gets an existing optical property from this TD instance.
 
@@ -4504,7 +4504,7 @@ public OpticalProps GetOpticalProps(string name)
 
 [OpticalProps](OpenTD.RadCAD.OpticalProps.md)
 
-### <a id="OpenTD_ThermalDesktop_GetOpticalPropss_System_Boolean_"></a> GetOpticalPropss\(bool\)
+### GetOpticalPropss\(bool\)
 
 Gets all the optical properties in this TD instance.
 
@@ -4526,7 +4526,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [OpticalProps](OpenTD.RadCAD.OpticalProps.md)
 
-### <a id="OpenTD_ThermalDesktop_GetOrbit_System_String_"></a> GetOrbit\(string\)
+### GetOrbit\(string\)
 
 Gets an existing orbit from this TD instance.
 
@@ -4546,7 +4546,7 @@ public Orbit GetOrbit(string name)
 
 [Orbit](OpenTD.RadCAD.Orbit.md)
 
-### <a id="OpenTD_ThermalDesktop_GetOrbits"></a> GetOrbits\(\)
+### GetOrbits\(\)
 
 Gets all the orbits in this TD instance.
 
@@ -4562,7 +4562,7 @@ public List<Orbit> GetOrbits()
 
 [Orbit](OpenTD.RadCAD.Orbit.md)
 
-### <a id="OpenTD_ThermalDesktop_GetParabolicTrough_System_String_System_Boolean_"></a> GetParabolicTrough\(string, bool\)
+### GetParabolicTrough\(string, bool\)
 
 Gets an existing ParabolicTrough from this TD instance.
 
@@ -4588,7 +4588,7 @@ If true, xref drawings will be included in the search.
 
 [ParabolicTrough](OpenTD.RadCAD.ParabolicTrough.md)
 
-### <a id="OpenTD_ThermalDesktop_GetParabolicTroughs_System_Boolean_"></a> GetParabolicTroughs\(bool\)
+### GetParabolicTroughs\(bool\)
 
 Gets all the ParabolicTroughs in this TD instance.
 
@@ -4610,7 +4610,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [ParabolicTrough](OpenTD.RadCAD.ParabolicTrough.md)
 
-### <a id="OpenTD_ThermalDesktop_GetParaboloid_System_String_System_Boolean_"></a> GetParaboloid\(string, bool\)
+### GetParaboloid\(string, bool\)
 
 Gets an existing Paraboloid from this TD instance.
 
@@ -4636,7 +4636,7 @@ If true, xref drawings will be included in the search.
 
 [Paraboloid](OpenTD.RadCAD.Paraboloid.md)
 
-### <a id="OpenTD_ThermalDesktop_GetParaboloids_System_Boolean_"></a> GetParaboloids\(bool\)
+### GetParaboloids\(bool\)
 
 Gets all the Paraboloids in this TD instance.
 
@@ -4658,7 +4658,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Paraboloid](OpenTD.RadCAD.Paraboloid.md)
 
-### <a id="OpenTD_ThermalDesktop_GetPath_System_String_System_Boolean_"></a> GetPath\(string, bool\)
+### GetPath\(string, bool\)
 
 Gets an existing Path from this TD instance.
 
@@ -4684,7 +4684,7 @@ If true, xref drawings will be included in the search.
 
 [Path](OpenTD.FloCAD.Path.md)
 
-### <a id="OpenTD_ThermalDesktop_GetPaths_System_Boolean_"></a> GetPaths\(bool\)
+### GetPaths\(bool\)
 
 Gets all the Paths in this TD instance.
 
@@ -4706,7 +4706,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Path](OpenTD.FloCAD.Path.md)
 
-### <a id="OpenTD_ThermalDesktop_GetPipe_System_String_System_Boolean_"></a> GetPipe\(string, bool\)
+### GetPipe\(string, bool\)
 
 Gets an existing Pipe from this TD instance.
 
@@ -4732,7 +4732,7 @@ If true, xref drawings will be included in the search.
 
 [Pipe](OpenTD.FloCAD.Pipe.md)
 
-### <a id="OpenTD_ThermalDesktop_GetPipes_System_Boolean_"></a> GetPipes\(bool\)
+### GetPipes\(bool\)
 
 Gets all the Pipes in this TD instance.
 
@@ -4754,7 +4754,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Pipe](OpenTD.FloCAD.Pipe.md)
 
-### <a id="OpenTD_ThermalDesktop_GetPolygon_System_String_"></a> GetPolygon\(string\)
+### GetPolygon\(string\)
 
 Gets an existing single-face MeshFD from this TD instance.
 
@@ -4776,7 +4776,7 @@ An AutoCAD handle attached to a single-face MeshFD in this TD instance.
 
 [Polygon](OpenTD.RadCAD.Polygon.md)
 
-### <a id="OpenTD_ThermalDesktop_GetPolygons_System_Boolean_"></a> GetPolygons\(bool\)
+### GetPolygons\(bool\)
 
 Gets all the Polygons in this TD instance.
 
@@ -4798,7 +4798,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Polygon](OpenTD.RadCAD.Polygon.md)
 
-### <a id="OpenTD_ThermalDesktop_GetPolyline_System_String_System_Boolean_"></a> GetPolyline\(string, bool\)
+### GetPolyline\(string, bool\)
 
 Gets an existing LWPolyline from this TD instance.
 
@@ -4824,7 +4824,7 @@ If true, xref drawings will be included in the search.
 
 [Polyline](OpenTD.Polyline.md)
 
-### <a id="OpenTD_ThermalDesktop_GetPolyline3d_System_String_System_Boolean_"></a> GetPolyline3d\(string, bool\)
+### GetPolyline3d\(string, bool\)
 
 Gets an existing 3d polyline from this TD instance.
 
@@ -4850,7 +4850,7 @@ If true, xref drawings will be included in the search.
 
 [Polyline3d](OpenTD.Polyline3d.md)
 
-### <a id="OpenTD_ThermalDesktop_GetPolyline3ds_System_Boolean_"></a> GetPolyline3ds\(bool\)
+### GetPolyline3ds\(bool\)
 
 Gets all the 3d polylines in this TD instance.
 
@@ -4872,7 +4872,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Polyline3d](OpenTD.Polyline3d.md)
 
-### <a id="OpenTD_ThermalDesktop_GetPolylines_System_Boolean_"></a> GetPolylines\(bool\)
+### GetPolylines\(bool\)
 
 Gets all the LWPolylines in this TD instance.
 
@@ -4894,7 +4894,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Polyline](OpenTD.Polyline.md)
 
-### <a id="OpenTD_ThermalDesktop_GetPort_System_String_System_Boolean_"></a> GetPort\(string, bool\)
+### GetPort\(string, bool\)
 
 Gets an existing Port from this TD instance.
 
@@ -4920,7 +4920,7 @@ If true, xref drawings will be included in the search.
 
 [Port](OpenTD.FloCAD.Port.md)
 
-### <a id="OpenTD_ThermalDesktop_GetPorts_System_Boolean_"></a> GetPorts\(bool\)
+### GetPorts\(bool\)
 
 Gets all the Ports in this TD instance.
 
@@ -4942,7 +4942,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Port](OpenTD.FloCAD.Port.md)
 
-### <a id="OpenTD_ThermalDesktop_GetPostProcessingDataMapper_System_String_System_Boolean_"></a> GetPostProcessingDataMapper\(string, bool\)
+### GetPostProcessingDataMapper\(string, bool\)
 
 Gets an existing PostProcessingDataMapper from this TD instance.
 
@@ -4968,7 +4968,7 @@ If true, xref drawings will be included in the search.
 
 [DataMapper](OpenTD.PostProcessing.DataMapper.md)
 
-### <a id="OpenTD_ThermalDesktop_GetPostProcessingDataMappers_System_Boolean_"></a> GetPostProcessingDataMappers\(bool\)
+### GetPostProcessingDataMappers\(bool\)
 
 Gets all the PostProcessingDataMappers in this TD instance.
 
@@ -4990,7 +4990,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [DataMapper](OpenTD.PostProcessing.DataMapper.md)
 
-### <a id="OpenTD_ThermalDesktop_GetPressureLoad_System_String_System_Boolean_"></a> GetPressureLoad\(string, bool\)
+### GetPressureLoad\(string, bool\)
 
 Gets an existing PressureLoad from this TD instance.
 
@@ -5016,7 +5016,7 @@ If true, xref drawings will be included in the search.
 
 [PressureLoad](OpenTD.PressureLoad.md)
 
-### <a id="OpenTD_ThermalDesktop_GetPressureLoads_System_Boolean_"></a> GetPressureLoads\(bool\)
+### GetPressureLoads\(bool\)
 
 Gets all the PressureLoads in this TD instance.
 
@@ -5038,7 +5038,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [PressureLoad](OpenTD.PressureLoad.md)
 
-### <a id="OpenTD_ThermalDesktop_GetQuadraticBrick_System_String_System_Boolean_"></a> GetQuadraticBrick\(string, bool\)
+### GetQuadraticBrick\(string, bool\)
 
 Gets an existing QuadraticBrick from this TD instance.
 
@@ -5064,7 +5064,7 @@ If true, xref drawings will be included in the search.
 
 [QuadraticBrick](OpenTD.RadCAD.FEM.QuadraticBrick.md)
 
-### <a id="OpenTD_ThermalDesktop_GetQuadraticBricks_System_Boolean_"></a> GetQuadraticBricks\(bool\)
+### GetQuadraticBricks\(bool\)
 
 Gets all the QuadraticBricks in this TD instance.
 
@@ -5086,7 +5086,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [QuadraticBrick](OpenTD.RadCAD.FEM.QuadraticBrick.md)
 
-### <a id="OpenTD_ThermalDesktop_GetQuadraticPyramid_System_String_System_Boolean_"></a> GetQuadraticPyramid\(string, bool\)
+### GetQuadraticPyramid\(string, bool\)
 
 Gets an existing QuadraticPyramid from this TD instance.
 
@@ -5112,7 +5112,7 @@ If true, xref drawings will be included in the search.
 
 [QuadraticPyramid](OpenTD.RadCAD.FEM.QuadraticPyramid.md)
 
-### <a id="OpenTD_ThermalDesktop_GetQuadraticPyramids_System_Boolean_"></a> GetQuadraticPyramids\(bool\)
+### GetQuadraticPyramids\(bool\)
 
 Gets all the QuadraticPyramids in this TD instance.
 
@@ -5134,7 +5134,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [QuadraticPyramid](OpenTD.RadCAD.FEM.QuadraticPyramid.md)
 
-### <a id="OpenTD_ThermalDesktop_GetQuadraticQuad_System_String_System_Boolean_"></a> GetQuadraticQuad\(string, bool\)
+### GetQuadraticQuad\(string, bool\)
 
 Gets an existing QuadraticQuad from this TD instance.
 
@@ -5160,7 +5160,7 @@ If true, xref drawings will be included in the search.
 
 [QuadraticQuad](OpenTD.RadCAD.FEM.QuadraticQuad.md)
 
-### <a id="OpenTD_ThermalDesktop_GetQuadraticQuads_System_Boolean_"></a> GetQuadraticQuads\(bool\)
+### GetQuadraticQuads\(bool\)
 
 Gets all the QuadraticQuads in this TD instance.
 
@@ -5182,7 +5182,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [QuadraticQuad](OpenTD.RadCAD.FEM.QuadraticQuad.md)
 
-### <a id="OpenTD_ThermalDesktop_GetQuadraticTet_System_String_System_Boolean_"></a> GetQuadraticTet\(string, bool\)
+### GetQuadraticTet\(string, bool\)
 
 Gets an existing QuadraticTet from this TD instance.
 
@@ -5208,7 +5208,7 @@ If true, xref drawings will be included in the search.
 
 [QuadraticTet](OpenTD.RadCAD.FEM.QuadraticTet.md)
 
-### <a id="OpenTD_ThermalDesktop_GetQuadraticTets_System_Boolean_"></a> GetQuadraticTets\(bool\)
+### GetQuadraticTets\(bool\)
 
 Gets all the QuadraticTets in this TD instance.
 
@@ -5230,7 +5230,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [QuadraticTet](OpenTD.RadCAD.FEM.QuadraticTet.md)
 
-### <a id="OpenTD_ThermalDesktop_GetQuadraticTri_System_String_System_Boolean_"></a> GetQuadraticTri\(string, bool\)
+### GetQuadraticTri\(string, bool\)
 
 Gets an existing QuadraticTri from this TD instance.
 
@@ -5256,7 +5256,7 @@ If true, xref drawings will be included in the search.
 
 [QuadraticTri](OpenTD.RadCAD.FEM.QuadraticTri.md)
 
-### <a id="OpenTD_ThermalDesktop_GetQuadraticTris_System_Boolean_"></a> GetQuadraticTris\(bool\)
+### GetQuadraticTris\(bool\)
 
 Gets all the QuadraticTris in this TD instance.
 
@@ -5278,7 +5278,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [QuadraticTri](OpenTD.RadCAD.FEM.QuadraticTri.md)
 
-### <a id="OpenTD_ThermalDesktop_GetQuadraticWedge_System_String_System_Boolean_"></a> GetQuadraticWedge\(string, bool\)
+### GetQuadraticWedge\(string, bool\)
 
 Gets an existing QuadraticWedge from this TD instance.
 
@@ -5304,7 +5304,7 @@ If true, xref drawings will be included in the search.
 
 [QuadraticWedge](OpenTD.RadCAD.FEM.QuadraticWedge.md)
 
-### <a id="OpenTD_ThermalDesktop_GetQuadraticWedges_System_Boolean_"></a> GetQuadraticWedges\(bool\)
+### GetQuadraticWedges\(bool\)
 
 Gets all the QuadraticWedges in this TD instance.
 
@@ -5326,7 +5326,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [QuadraticWedge](OpenTD.RadCAD.FEM.QuadraticWedge.md)
 
-### <a id="OpenTD_ThermalDesktop_GetRectangle_System_String_System_Boolean_"></a> GetRectangle\(string, bool\)
+### GetRectangle\(string, bool\)
 
 Gets an existing Rectangle from this TD instance.
 
@@ -5352,7 +5352,7 @@ If true, xref drawings will be included in the search.
 
 [Rectangle](OpenTD.RadCAD.Rectangle.md)
 
-### <a id="OpenTD_ThermalDesktop_GetRectangles_System_Boolean_"></a> GetRectangles\(bool\)
+### GetRectangles\(bool\)
 
 Gets all the Rectangles in this TD instance.
 
@@ -5374,7 +5374,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Rectangle](OpenTD.RadCAD.Rectangle.md)
 
-### <a id="OpenTD_ThermalDesktop_GetScarfedCone_System_String_System_Boolean_"></a> GetScarfedCone\(string, bool\)
+### GetScarfedCone\(string, bool\)
 
 Gets an existing ScarfedCone from this TD instance.
 
@@ -5400,7 +5400,7 @@ If true, xref drawings will be included in the search.
 
 [ScarfedCone](OpenTD.RadCAD.ScarfedCone.md)
 
-### <a id="OpenTD_ThermalDesktop_GetScarfedCones_System_Boolean_"></a> GetScarfedCones\(bool\)
+### GetScarfedCones\(bool\)
 
 Gets all the ScarfedCones in this TD instance.
 
@@ -5422,7 +5422,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [ScarfedCone](OpenTD.RadCAD.ScarfedCone.md)
 
-### <a id="OpenTD_ThermalDesktop_GetScarfedCylinder_System_String_System_Boolean_"></a> GetScarfedCylinder\(string, bool\)
+### GetScarfedCylinder\(string, bool\)
 
 Gets an existing ScarfedCylinder from this TD instance.
 
@@ -5448,7 +5448,7 @@ If true, xref drawings will be included in the search.
 
 [ScarfedCylinder](OpenTD.RadCAD.ScarfedCylinder.md)
 
-### <a id="OpenTD_ThermalDesktop_GetScarfedCylinders_System_Boolean_"></a> GetScarfedCylinders\(bool\)
+### GetScarfedCylinders\(bool\)
 
 Gets all the ScarfedCylinders in this TD instance.
 
@@ -5470,7 +5470,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [ScarfedCylinder](OpenTD.RadCAD.ScarfedCylinder.md)
 
-### <a id="OpenTD_ThermalDesktop_GetSelection_OpenTD_SelectionOptions_"></a> GetSelection\(SelectionOptions\)
+### GetSelection\(SelectionOptions\)
 
 Prompts the user to select entities in TD graphically, or from the Model Browser,
 or from Domains or AutoCAD Groups.
@@ -5491,7 +5491,7 @@ public List<EntityDescriptor> GetSelection(SelectionOptions options)
 
 [SelectionOptions](OpenTD.SelectionOptions.md)
 
-### <a id="OpenTD_ThermalDesktop_GetSelection"></a> GetSelection\(\)
+### GetSelection\(\)
 
 Prompts the user to select entities in TD using default SelectionOptions.
 
@@ -5507,7 +5507,7 @@ public List<EntityDescriptor> GetSelection()
 
 [SelectionOptions](OpenTD.SelectionOptions.md)
 
-### <a id="OpenTD_ThermalDesktop_GetSolidBrick_System_String_System_Boolean_"></a> GetSolidBrick\(string, bool\)
+### GetSolidBrick\(string, bool\)
 
 Gets an existing SolidBrick from this TD instance.
 
@@ -5533,7 +5533,7 @@ If true, xref drawings will be included in the search.
 
 [SolidBrick](OpenTD.RadCAD.FdSolid.SolidBrick.md)
 
-### <a id="OpenTD_ThermalDesktop_GetSolidBricks_System_Boolean_"></a> GetSolidBricks\(bool\)
+### GetSolidBricks\(bool\)
 
 Gets all the SolidBricks in this TD instance.
 
@@ -5555,7 +5555,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [SolidBrick](OpenTD.RadCAD.FdSolid.SolidBrick.md)
 
-### <a id="OpenTD_ThermalDesktop_GetSolidCone_System_String_System_Boolean_"></a> GetSolidCone\(string, bool\)
+### GetSolidCone\(string, bool\)
 
 Gets an existing SolidCone from this TD instance.
 
@@ -5581,7 +5581,7 @@ If true, xref drawings will be included in the search.
 
 [SolidCone](OpenTD.RadCAD.FdSolid.SolidCone.md)
 
-### <a id="OpenTD_ThermalDesktop_GetSolidCones_System_Boolean_"></a> GetSolidCones\(bool\)
+### GetSolidCones\(bool\)
 
 Gets all the SolidCones in this TD instance.
 
@@ -5603,7 +5603,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [SolidCone](OpenTD.RadCAD.FdSolid.SolidCone.md)
 
-### <a id="OpenTD_ThermalDesktop_GetSolidCylinder_System_String_System_Boolean_"></a> GetSolidCylinder\(string, bool\)
+### GetSolidCylinder\(string, bool\)
 
 Gets an existing SolidCylinder from this TD instance.
 
@@ -5629,7 +5629,7 @@ If true, xref drawings will be included in the search.
 
 [SolidCylinder](OpenTD.RadCAD.FdSolid.SolidCylinder.md)
 
-### <a id="OpenTD_ThermalDesktop_GetSolidCylinders_System_Boolean_"></a> GetSolidCylinders\(bool\)
+### GetSolidCylinders\(bool\)
 
 Gets all the SolidCylinders in this TD instance.
 
@@ -5651,7 +5651,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [SolidCylinder](OpenTD.RadCAD.FdSolid.SolidCylinder.md)
 
-### <a id="OpenTD_ThermalDesktop_GetSolidEllipsoid_System_String_System_Boolean_"></a> GetSolidEllipsoid\(string, bool\)
+### GetSolidEllipsoid\(string, bool\)
 
 Gets an existing SolidEllipsoid from this TD instance.
 
@@ -5677,7 +5677,7 @@ If true, xref drawings will be included in the search.
 
 [SolidEllipsoid](OpenTD.RadCAD.FdSolid.SolidEllipsoid.md)
 
-### <a id="OpenTD_ThermalDesktop_GetSolidEllipsoids_System_Boolean_"></a> GetSolidEllipsoids\(bool\)
+### GetSolidEllipsoids\(bool\)
 
 Gets all the SolidEllipsoids in this TD instance.
 
@@ -5699,7 +5699,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [SolidEllipsoid](OpenTD.RadCAD.FdSolid.SolidEllipsoid.md)
 
-### <a id="OpenTD_ThermalDesktop_GetSolidSphere_System_String_System_Boolean_"></a> GetSolidSphere\(string, bool\)
+### GetSolidSphere\(string, bool\)
 
 Gets an existing SolidSphere from this TD instance.
 
@@ -5725,7 +5725,7 @@ If true, xref drawings will be included in the search.
 
 [SolidSphere](OpenTD.RadCAD.FdSolid.SolidSphere.md)
 
-### <a id="OpenTD_ThermalDesktop_GetSolidSpheres_System_Boolean_"></a> GetSolidSpheres\(bool\)
+### GetSolidSpheres\(bool\)
 
 Gets all the SolidSpheres in this TD instance.
 
@@ -5747,7 +5747,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [SolidSphere](OpenTD.RadCAD.FdSolid.SolidSphere.md)
 
-### <a id="OpenTD_ThermalDesktop_GetSphere_System_String_System_Boolean_"></a> GetSphere\(string, bool\)
+### GetSphere\(string, bool\)
 
 Gets an existing Sphere from this TD instance.
 
@@ -5773,7 +5773,7 @@ If true, xref drawings will be included in the search.
 
 [Sphere](OpenTD.RadCAD.Sphere.md)
 
-### <a id="OpenTD_ThermalDesktop_GetSpheres_System_Boolean_"></a> GetSpheres\(bool\)
+### GetSpheres\(bool\)
 
 Gets all the Spheres in this TD instance.
 
@@ -5795,7 +5795,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Sphere](OpenTD.RadCAD.Sphere.md)
 
-### <a id="OpenTD_ThermalDesktop_GetSpline_System_String_System_Boolean_"></a> GetSpline\(string, bool\)
+### GetSpline\(string, bool\)
 
 Gets an existing Spline from this TD instance.
 
@@ -5821,7 +5821,7 @@ If true, xref drawings will be included in the search.
 
 [Spline](OpenTD.Spline.md)
 
-### <a id="OpenTD_ThermalDesktop_GetSplines_System_Boolean_"></a> GetSplines\(bool\)
+### GetSplines\(bool\)
 
 Gets all the Splines in this TD instance.
 
@@ -5843,7 +5843,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Spline](OpenTD.Spline.md)
 
-### <a id="OpenTD_ThermalDesktop_GetSubmodels_System_Boolean_"></a> GetSubmodels\(bool\)
+### GetSubmodels\(bool\)
 
 Gets all the Submodels in this TD instance.
 
@@ -5865,7 +5865,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Submodel](OpenTD.Submodel.md)
 
-### <a id="OpenTD_ThermalDesktop_GetSymbol_System_String_"></a> GetSymbol\(string\)
+### GetSymbol\(string\)
 
 Gets an existing Symbol from this TD instance.
 
@@ -5885,7 +5885,7 @@ public Symbol GetSymbol(string name)
 
 [Symbol](OpenTD.Symbol.md)
 
-### <a id="OpenTD_ThermalDesktop_GetSymbolValue_System_String_"></a> GetSymbolValue\(string\)
+### GetSymbolValue\(string\)
 
 Gets an evaluated symbol value from this TD instance.
 Throws an OpenTDException if symbol does not exist.
@@ -5906,7 +5906,7 @@ The name.
 
 System.Double.
 
-### <a id="OpenTD_ThermalDesktop_GetSymbols"></a> GetSymbols\(\)
+### GetSymbols\(\)
 
 Gets all the Symbols in this TD instance.
 
@@ -5922,7 +5922,7 @@ public List<Symbol> GetSymbols()
 
 [Symbol](OpenTD.Symbol.md)
 
-### <a id="OpenTD_ThermalDesktop_GetTec_System_String_System_Boolean_"></a> GetTec\(string, bool\)
+### GetTec\(string, bool\)
 
 Gets an existing Tec from this TD instance.
 
@@ -5948,7 +5948,7 @@ If true, xref drawings will be included in the search.
 
 [Tec](OpenTD.Tec.md)
 
-### <a id="OpenTD_ThermalDesktop_GetTecs_System_Boolean_"></a> GetTecs\(bool\)
+### GetTecs\(bool\)
 
 Gets all the Tecs in this TD instance.
 
@@ -5970,7 +5970,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Tec](OpenTD.Tec.md)
 
-### <a id="OpenTD_ThermalDesktop_GetTee_System_String_System_Boolean_"></a> GetTee\(string, bool\)
+### GetTee\(string, bool\)
 
 Gets an existing Tee from this TD instance.
 
@@ -5996,7 +5996,7 @@ If true, xref drawings will be included in the search.
 
 [Tee](OpenTD.FloCAD.Tee.md)
 
-### <a id="OpenTD_ThermalDesktop_GetTees_System_Boolean_"></a> GetTees\(bool\)
+### GetTees\(bool\)
 
 Gets all the Tees in this TD instance.
 
@@ -6018,7 +6018,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Tee](OpenTD.FloCAD.Tee.md)
 
-### <a id="OpenTD_ThermalDesktop_GetText_System_String_System_Boolean_"></a> GetText\(string, bool\)
+### GetText\(string, bool\)
 
 Gets an existing Text annotation from this TD instance.
 
@@ -6044,7 +6044,7 @@ If true, xref drawings will be included in the search.
 
 [Text](OpenTD.Text.md)
 
-### <a id="OpenTD_ThermalDesktop_GetTexts_System_Boolean_"></a> GetTexts\(bool\)
+### GetTexts\(bool\)
 
 Gets all the Text annotations in this TD instance.
 
@@ -6066,7 +6066,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Text](OpenTD.Text.md)
 
-### <a id="OpenTD_ThermalDesktop_GetThermalDesktopVersion"></a> GetThermalDesktopVersion\(\)
+### GetThermalDesktopVersion\(\)
 
 Gets the thermal desktop version.
 
@@ -6080,7 +6080,7 @@ public string GetThermalDesktopVersion()
 
 System.String.
 
-### <a id="OpenTD_ThermalDesktop_GetThermoPropDBPathname"></a> GetThermoPropDBPathname\(\)
+### GetThermoPropDBPathname\(\)
 
 Gets the pathname of the current thermophysical property database file
 in use by this TD instance.
@@ -6093,7 +6093,7 @@ public string GetThermoPropDBPathname()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_ThermalDesktop_GetThermoProps_System_String_"></a> GetThermoProps\(string\)
+### GetThermoProps\(string\)
 
 Gets an existing ThermoProps from this TD instance.
 
@@ -6113,7 +6113,7 @@ public ThermoProps GetThermoProps(string name)
 
 [ThermoProps](OpenTD.ThermoProps.md)
 
-### <a id="OpenTD_ThermalDesktop_GetThermoPropss_System_Boolean_"></a> GetThermoPropss\(bool\)
+### GetThermoPropss\(bool\)
 
 Gets all the ThermoProps in this TD instance.
 
@@ -6135,7 +6135,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [ThermoProps](OpenTD.ThermoProps.md)
 
-### <a id="OpenTD_ThermalDesktop_GetTie_System_String_System_Boolean_"></a> GetTie\(string, bool\)
+### GetTie\(string, bool\)
 
 Gets an existing Tie from this TD instance.
 
@@ -6161,7 +6161,7 @@ If true, xref drawings will be included in the search.
 
 [Tie](OpenTD.FloCAD.Tie.md)
 
-### <a id="OpenTD_ThermalDesktop_GetTies_System_Boolean_"></a> GetTies\(bool\)
+### GetTies\(bool\)
 
 Gets all the Ties in this TD instance.
 
@@ -6183,7 +6183,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Tie](OpenTD.FloCAD.Tie.md)
 
-### <a id="OpenTD_ThermalDesktop_GetTorus_System_String_System_Boolean_"></a> GetTorus\(string, bool\)
+### GetTorus\(string, bool\)
 
 Gets an existing Torus from this TD instance.
 
@@ -6209,7 +6209,7 @@ If true, xref drawings will be included in the search.
 
 [Torus](OpenTD.RadCAD.Torus.md)
 
-### <a id="OpenTD_ThermalDesktop_GetToruses_System_Boolean_"></a> GetToruses\(bool\)
+### GetToruses\(bool\)
 
 Gets all the Toruss in this TD instance.
 
@@ -6231,7 +6231,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Torus](OpenTD.RadCAD.Torus.md)
 
-### <a id="OpenTD_ThermalDesktop_GetTracker_System_String_System_Boolean_"></a> GetTracker\(string, bool\)
+### GetTracker\(string, bool\)
 
 Gets an existing Tracker from this TD instance.
 
@@ -6257,7 +6257,7 @@ If true, xref drawings will be included in the search.
 
 [Tracker](OpenTD.RadCAD.Tracker.md)
 
-### <a id="OpenTD_ThermalDesktop_GetTrackers_System_Boolean_"></a> GetTrackers\(bool\)
+### GetTrackers\(bool\)
 
 Gets all the Trackers in this TD instance.
 
@@ -6279,7 +6279,7 @@ if set to <code>true</code> also search XREF's referenced in this TD instance.
 
 [Tracker](OpenTD.RadCAD.Tracker.md)
 
-### <a id="OpenTD_ThermalDesktop_GetXREFpathnames"></a> GetXREFpathnames\(\)
+### GetXREFpathnames\(\)
 
 ```csharp
 public List<XrefInfo> GetXREFpathnames()
@@ -6289,13 +6289,13 @@ public List<XrefInfo> GetXREFpathnames()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[XrefInfo](OpenTD.XrefInfo.md)\>
 
-### <a id="OpenTD_ThermalDesktop_HideModelBrowser"></a> HideModelBrowser\(\)
+### HideModelBrowser\(\)
 
 ```csharp
 public void HideModelBrowser()
 ```
 
-### <a id="OpenTD_ThermalDesktop_IsConnected"></a> IsConnected\(\)
+### IsConnected\(\)
 
 Determines whether this ThermalDesktop is connected to an instance of TD.
 
@@ -6309,7 +6309,7 @@ public bool IsConnected()
 
 <code>true</code> if this instance is connected; otherwise, <code>false</code>.
 
-### <a id="OpenTD_ThermalDesktop_OpenOpticalPropDB_System_String_"></a> OpenOpticalPropDB\(string\)
+### OpenOpticalPropDB\(string\)
 
 Opens an optical property database file.
 
@@ -6323,7 +6323,7 @@ public void OpenOpticalPropDB(string pathname)
 
 The rco pathname.
 
-### <a id="OpenTD_ThermalDesktop_OpenThermoPropDB_System_String_"></a> OpenThermoPropDB\(string\)
+### OpenThermoPropDB\(string\)
 
 Opens a thermophysical property database file.
 
@@ -6337,7 +6337,7 @@ public void OpenThermoPropDB(string pathname)
 
 The tdp pathname.
 
-### <a id="OpenTD_ThermalDesktop_Print_System_String_"></a> Print\(string\)
+### Print\(string\)
 
 Prints the specified text to the AutoCAD commandline, without automatically adding a newline.
 
@@ -6351,7 +6351,7 @@ public void Print(string text)
 
 The text.
 
-### <a id="OpenTD_ThermalDesktop_ResetGraphics"></a> ResetGraphics\(\)
+### ResetGraphics\(\)
 
 Calls the TD Reset Graphics command.
 
@@ -6359,7 +6359,7 @@ Calls the TD Reset Graphics command.
 public void ResetGraphics()
 ```
 
-### <a id="OpenTD_ThermalDesktop_RestoreIsoView_OpenTD_IsoViews_"></a> RestoreIsoView\(IsoViews\)
+### RestoreIsoView\(IsoViews\)
 
 Restores the view to one of the standard isometric views defined by AutoCAD.
 
@@ -6373,7 +6373,7 @@ public void RestoreIsoView(IsoViews view)
 
 The view.
 
-### <a id="OpenTD_ThermalDesktop_RestoreOrthoView_OpenTD_OrthoViews_"></a> RestoreOrthoView\(OrthoViews\)
+### RestoreOrthoView\(OrthoViews\)
 
 Restores the view to one of the standard orthographic views defined by AutoCAD.
 
@@ -6387,7 +6387,7 @@ public void RestoreOrthoView(OrthoViews view)
 
 The view.
 
-### <a id="OpenTD_ThermalDesktop_RestoreView_System_String_"></a> RestoreView\(string\)
+### RestoreView\(string\)
 
 Restores the view to an AutoCAD named view.
 
@@ -6401,7 +6401,7 @@ public void RestoreView(string viewName)
 
 Name of the view.
 
-### <a id="OpenTD_ThermalDesktop_SaveAs_System_String_"></a> SaveAs\(string\)
+### SaveAs\(string\)
 
 Saves the dwg. Automatically overwrites existing file at pathname.
 
@@ -6415,7 +6415,7 @@ public void SaveAs(string pathname)
 
 The pathname.
 
-### <a id="OpenTD_ThermalDesktop_SendCommand_System_String_System_Boolean_System_Int32_"></a> SendCommand\(string, bool, int\)
+### SendCommand\(string, bool, int\)
 
 Sends an AutoCAD command.
 
@@ -6437,7 +6437,7 @@ if set to <code>true</code> echo the command to the commandline.
 
 Delay in ms to wait after sending command. (AutoCAD commands are executed asynchronously.)
 
-### <a id="OpenTD_ThermalDesktop_SendLegacyComCommand_System_String_System_Int32_"></a> SendLegacyComCommand\(string, int\)
+### SendLegacyComCommand\(string, int\)
 
 Emulates the TD COM parser -- an ancestor of OpenTD -- without using COM.
 
@@ -6581,7 +6581,7 @@ use ThermalDesktop.ThermoPropAliasManager instead.
 update
 Updates all entity values based on symbol expressions.
 
-### <a id="OpenTD_ThermalDesktop_SetAutocadVariable_System_String_System_Int32_"></a> SetAutocadVariable\(string, int\)
+### SetAutocadVariable\(string, int\)
 
 Sets an autocad variable that takes an integer value.
 
@@ -6599,7 +6599,7 @@ The name.
 
 The value.
 
-### <a id="OpenTD_ThermalDesktop_SetAutocadVariable_System_String_System_Double_"></a> SetAutocadVariable\(string, double\)
+### SetAutocadVariable\(string, double\)
 
 Sets an autocad variable that takes a double value.
 
@@ -6617,7 +6617,7 @@ The name.
 
 The value.
 
-### <a id="OpenTD_ThermalDesktop_SetAutocadVariable_System_String_System_String_"></a> SetAutocadVariable\(string, string\)
+### SetAutocadVariable\(string, string\)
 
 Sets an autocad variable that takes a string value.
 
@@ -6635,7 +6635,7 @@ The name.
 
 The value.
 
-### <a id="OpenTD_ThermalDesktop_SetCurrentLayer_System_String_"></a> SetCurrentLayer\(string\)
+### SetCurrentLayer\(string\)
 
 ```csharp
 public void SetCurrentLayer(string name)
@@ -6645,7 +6645,7 @@ public void SetCurrentLayer(string name)
 
 `name` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_ThermalDesktop_SetDwgUnits_OpenTD_UnitsData_System_Boolean_"></a> SetDwgUnits\(UnitsData, bool\)
+### SetDwgUnits\(UnitsData, bool\)
 
 Sets the dwg units. Deprecated. Use ThermalDesktop.UserPreferences.Units instead.
 
@@ -6663,7 +6663,7 @@ The units.
 
 if set to <code>true</code> do not scale model to new length units.
 
-### <a id="OpenTD_ThermalDesktop_SetInstanceDataListString_System_Collections_Generic_List_System_String__"></a> SetInstanceDataListString\(List<string\>\)
+### SetInstanceDataListString\(List<string\>\)
 
 Use the Set/GetInstanceData methods to store general data with this OpenTD server.
 
@@ -6675,7 +6675,7 @@ public void SetInstanceDataListString(List<string> x)
 
 `x` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_ThermalDesktop_SetNodeCorrespondenceMap_System_Collections_Generic_Dictionary_System_String_System_Collections_Generic_List_System_String___"></a> SetNodeCorrespondenceMap\(Dictionary<string, List<string\>\>\)
+### SetNodeCorrespondenceMap\(Dictionary<string, List<string\>\>\)
 
 Sets the TRASYS-style node correspondence dictionary. Keys are SINDA node names.
 Values are lists of RadCAD nodes that correspond to each SINDA node.
@@ -6694,7 +6694,7 @@ public void SetNodeCorrespondenceMap(Dictionary<string, List<string>> map)
 [ThermalDesktop](OpenTD.ThermalDesktop.md).[SetNodeCorrespondenceState](OpenTD.ThermalDesktop.md\#OpenTD\_ThermalDesktop\_SetNodeCorrespondenceState\_System\_Boolean\_)\([bool](https://learn.microsoft.com/dotnet/api/system.boolean)\), 
 [ThermalDesktop](OpenTD.ThermalDesktop.md).[GetNodeCorrespondenceMap](OpenTD.ThermalDesktop.md\#OpenTD\_ThermalDesktop\_GetNodeCorrespondenceMap)\(\)
 
-### <a id="OpenTD_ThermalDesktop_SetNodeCorrespondenceState_System_Boolean_"></a> SetNodeCorrespondenceState\(bool\)
+### SetNodeCorrespondenceState\(bool\)
 
 Turns node correspondence on or off.
 
@@ -6708,7 +6708,7 @@ public void SetNodeCorrespondenceState(bool activated)
 
 if set to <code>true</code> activates node correspondence.
 
-### <a id="OpenTD_ThermalDesktop_SetSelection_System_Collections_Generic_IEnumerable_OpenTD_DbObject__"></a> SetSelection\(IEnumerable<DbObject\>\)
+### SetSelection\(IEnumerable<DbObject\>\)
 
 Highlight objects in the TD graphics window.
 
@@ -6720,7 +6720,7 @@ public void SetSelection(IEnumerable<DbObject> items)
 
 `items` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[DbObject](OpenTD.DbObject.md)\>
 
-### <a id="OpenTD_ThermalDesktop_SetSelection_System_Collections_Generic_IEnumerable_System_String__"></a> SetSelection\(IEnumerable<string\>\)
+### SetSelection\(IEnumerable<string\>\)
 
 Highlight objects by handle in the TD graphics window.
 
@@ -6732,7 +6732,7 @@ public void SetSelection(IEnumerable<string> itemHandles)
 
 `itemHandles` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_ThermalDesktop_SetUnits_OpenTD_UnitsData_"></a> SetUnits\(UnitsData\)
+### SetUnits\(UnitsData\)
 
 Sets OpenTD WorkingUnits and the TD dwg units.
 
@@ -6746,7 +6746,7 @@ public void SetUnits(UnitsData x)
 
 The units.
 
-### <a id="OpenTD_ThermalDesktop_SetView_OpenTD_IsoViews_"></a> SetView\(IsoViews\)
+### SetView\(IsoViews\)
 
 ```csharp
 public void SetView(IsoViews view)
@@ -6756,7 +6756,7 @@ public void SetView(IsoViews view)
 
 `view` [IsoViews](OpenTD.IsoViews.md)
 
-### <a id="OpenTD_ThermalDesktop_SetView_OpenTD_OrthoViews_"></a> SetView\(OrthoViews\)
+### SetView\(OrthoViews\)
 
 ```csharp
 public void SetView(OrthoViews view)
@@ -6766,7 +6766,7 @@ public void SetView(OrthoViews view)
 
 `view` [OrthoViews](OpenTD.OrthoViews.md)
 
-### <a id="OpenTD_ThermalDesktop_SetView_System_String_"></a> SetView\(string\)
+### SetView\(string\)
 
 ```csharp
 public void SetView(string namedView)
@@ -6776,7 +6776,7 @@ public void SetView(string namedView)
 
 `namedView` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_ThermalDesktop_SetVisualStyle_OpenTD_VisualStyles_"></a> SetVisualStyle\(VisualStyles\)
+### SetVisualStyle\(VisualStyles\)
 
 Sets the AutoCAD visual style.
 
@@ -6790,13 +6790,13 @@ public void SetVisualStyle(VisualStyles style)
 
 The style.
 
-### <a id="OpenTD_ThermalDesktop_ShowModelBrowser"></a> ShowModelBrowser\(\)
+### ShowModelBrowser\(\)
 
 ```csharp
 public void ShowModelBrowser()
 ```
 
-### <a id="OpenTD_ThermalDesktop_SnapMeasures_System_Collections_Generic_IEnumerable_System_String__"></a> SnapMeasures\(IEnumerable<string\>\)
+### SnapMeasures\(IEnumerable<string\>\)
 
 ```csharp
 public void SnapMeasures(IEnumerable<string> handles)
@@ -6806,13 +6806,13 @@ public void SnapMeasures(IEnumerable<string> handles)
 
 `handles` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_ThermalDesktop_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 ```csharp
 public void UpdateFromTD()
 ```
 
-### <a id="OpenTD_ThermalDesktop_UpdateGraphics"></a> UpdateGraphics\(\)
+### UpdateGraphics\(\)
 
 Calls the TD Updates Graphics command.
 
@@ -6820,13 +6820,13 @@ Calls the TD Updates Graphics command.
 public void UpdateGraphics()
 ```
 
-### <a id="OpenTD_ThermalDesktop_UpdateMeasures"></a> UpdateMeasures\(\)
+### UpdateMeasures\(\)
 
 ```csharp
 public void UpdateMeasures()
 ```
 
-### <a id="OpenTD_ThermalDesktop_ZoomExtents"></a> ZoomExtents\(\)
+### ZoomExtents\(\)
 
 Zooms the view to the extents of the model.
 
@@ -6834,11 +6834,12 @@ Zooms the view to the extents of the model.
 public void ZoomExtents()
 ```
 
-### <a id="OpenTD_ThermalDesktop__Scratchpad"></a> \_Scratchpad\(\)
+### \_Scratchpad\(\)
 
 Do not use.
 
 ```csharp
 public void _Scratchpad()
 ```
+
 

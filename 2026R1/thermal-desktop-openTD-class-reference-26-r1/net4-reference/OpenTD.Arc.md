@@ -1,4 +1,4 @@
-# <a id="OpenTD_Arc"></a> Class Arc
+# Class Arc
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,7 +10,7 @@ Client-side representation of an AutoCAD Arc entity in a TD instance.
 public class Arc : TdDbEntityData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -18,11 +18,11 @@ public class Arc : TdDbEntityData, IUpdatable
 [TdDbEntityData](OpenTD.TdDbEntityData.md) ← 
 [Arc](OpenTD.Arc.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [TdDbEntityData.SetFrom\(TdDbEntityData\)](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_SetFrom\_OpenTD\_TdDbEntityData\_), 
 [TdDbEntityData.Layer](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_Layer), 
@@ -54,7 +54,7 @@ public class Arc : TdDbEntityData, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_Arc__ctor"></a> Arc\(\)
+### Arc\(\)
 
 ```csharp
 public Arc()
@@ -62,7 +62,7 @@ public Arc()
 
 ## Properties
 
-### <a id="OpenTD_Arc_Center"></a> Center
+### Center
 
 ```csharp
 [DataMember]
@@ -73,7 +73,7 @@ public Point3d Center { get; set; }
 
  [Point3d](OpenTD.Point3d.md)
 
-### <a id="OpenTD_Arc_EndAngle"></a> EndAngle
+### EndAngle
 
 ```csharp
 [DataMember]
@@ -84,7 +84,7 @@ public Dimensional<Angle> EndAngle { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_Arc_Normal"></a> Normal
+### Normal
 
 ```csharp
 [DataMember]
@@ -95,7 +95,7 @@ public Vector3d Normal { get; set; }
 
  [Vector3d](OpenTD.Vector3d.md)
 
-### <a id="OpenTD_Arc_Radius"></a> Radius
+### Radius
 
 ```csharp
 [DataMember]
@@ -106,7 +106,7 @@ public Dimensional<ModelLength> Radius { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_Arc_StartAngle"></a> StartAngle
+### StartAngle
 
 ```csharp
 [DataMember]
@@ -117,7 +117,7 @@ public Dimensional<Angle> StartAngle { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_Arc_Thickness"></a> Thickness
+### Thickness
 
 ```csharp
 [DataMember]
@@ -130,7 +130,7 @@ public double Thickness { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Arc_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -142,7 +142,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_Arc_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -153,4 +153,5 @@ public override void Update()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

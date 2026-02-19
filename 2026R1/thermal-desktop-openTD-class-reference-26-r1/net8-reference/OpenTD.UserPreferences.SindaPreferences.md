@@ -1,4 +1,4 @@
-# <a id="OpenTD_UserPreferences_SindaPreferences"></a> Class SindaPreferences
+# Class SindaPreferences
 
 Namespace: [OpenTD.UserPreferences](OpenTD.UserPreferences.md)  
 Assembly: OpenTD.dll  
@@ -6,21 +6,22 @@ Assembly: OpenTD.dll
 Use to set the global Sinda preferences.
 
 ```csharp
+[MessagePackObject(true)]
 public class SindaPreferences : Preferences, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 TdConnected ← 
 Preferences ← 
 [SindaPreferences](OpenTD.UserPreferences.SindaPreferences.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -32,13 +33,13 @@ Preferences ←
 
 ## Constructors
 
-### <a id="OpenTD_UserPreferences_SindaPreferences__ctor"></a> SindaPreferences\(\)
+### SindaPreferences\(\)
 
 ```csharp
 public SindaPreferences()
 ```
 
-### <a id="OpenTD_UserPreferences_SindaPreferences__ctor_OpenTD_ThermalDesktop_"></a> SindaPreferences\(ThermalDesktop\)
+### SindaPreferences\(ThermalDesktop\)
 
 ```csharp
 public SindaPreferences(ThermalDesktop _td)
@@ -50,7 +51,7 @@ public SindaPreferences(ThermalDesktop _td)
 
 ## Properties
 
-### <a id="OpenTD_UserPreferences_SindaPreferences_sindaCsrOrSave"></a> sindaCsrOrSave
+### sindaCsrOrSave
 
 ```csharp
 public int sindaCsrOrSave { get; set; }
@@ -60,7 +61,7 @@ public int sindaCsrOrSave { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_SindaPreferences_sindaRunStatusWindowIndex"></a> sindaRunStatusWindowIndex
+### sindaRunStatusWindowIndex
 
 ```csharp
 public int sindaRunStatusWindowIndex { get; set; }
@@ -70,7 +71,7 @@ public int sindaRunStatusWindowIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_SindaPreferences_sindaUseOpenMP"></a> sindaUseOpenMP
+### sindaUseOpenMP
 
 ```csharp
 public int sindaUseOpenMP { get; set; }
@@ -80,7 +81,7 @@ public int sindaUseOpenMP { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_SindaPreferences_thermalAnalyzer"></a> thermalAnalyzer
+### thermalAnalyzer
 
 ```csharp
 public int thermalAnalyzer { get; set; }
@@ -90,7 +91,7 @@ public int thermalAnalyzer { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_SindaPreferences_waitForSindaLicense"></a> waitForSindaLicense
+### waitForSindaLicense
 
 ```csharp
 public int waitForSindaLicense { get; set; }
@@ -102,7 +103,7 @@ public int waitForSindaLicense { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_UserPreferences_SindaPreferences_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -110,11 +111,12 @@ Updates the TD entity with the latest client data.
 public void Update()
 ```
 
-### <a id="OpenTD_UserPreferences_SindaPreferences_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
 ```csharp
 public void UpdateFromTD()
 ```
+
 

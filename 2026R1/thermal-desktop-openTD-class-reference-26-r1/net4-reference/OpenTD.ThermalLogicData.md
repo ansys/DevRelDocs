@@ -1,4 +1,4 @@
-# <a id="OpenTD_ThermalLogicData"></a> Class ThermalLogicData
+# Class ThermalLogicData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -13,12 +13,12 @@ Used in a Case Set.
 public class ThermalLogicData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ThermalLogicData](OpenTD.ThermalLogicData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -30,7 +30,7 @@ public class ThermalLogicData
 
 ## Constructors
 
-### <a id="OpenTD_ThermalLogicData__ctor"></a> ThermalLogicData\(\)
+### ThermalLogicData\(\)
 
 ```csharp
 public ThermalLogicData()
@@ -38,7 +38,7 @@ public ThermalLogicData()
 
 ## Properties
 
-### <a id="OpenTD_ThermalLogicData_Array"></a> Array
+### Array
 
 ```csharp
 [DataMember]
@@ -49,7 +49,7 @@ public string Array { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_ThermalLogicData_Carray"></a> Carray
+### Carray
 
 ```csharp
 [DataMember]
@@ -60,7 +60,7 @@ public string Carray { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_ThermalLogicData_Conductor"></a> Conductor
+### Conductor
 
 ```csharp
 [DataMember]
@@ -71,7 +71,7 @@ public string Conductor { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_ThermalLogicData_Control"></a> Control
+### Control
 
 ```csharp
 [DataMember]
@@ -82,7 +82,7 @@ public string Control { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_ThermalLogicData_Node"></a> Node
+### Node
 
 ```csharp
 [DataMember]
@@ -93,7 +93,7 @@ public string Node { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_ThermalLogicData_Output"></a> Output
+### Output
 
 ```csharp
 [DataMember]
@@ -104,7 +104,7 @@ public string Output { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_ThermalLogicData_Variables0"></a> Variables0
+### Variables0
 
 ```csharp
 [DataMember]
@@ -115,7 +115,7 @@ public string Variables0 { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_ThermalLogicData_Variables1"></a> Variables1
+### Variables1
 
 ```csharp
 [DataMember]
@@ -126,7 +126,7 @@ public string Variables1 { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_ThermalLogicData_Variables2"></a> Variables2
+### Variables2
 
 ```csharp
 [DataMember]
@@ -140,4 +140,5 @@ public string Variables2 { get; set; }
 ## See Also
 
 [CaseSet](OpenTD.CaseSet.md)
+
 

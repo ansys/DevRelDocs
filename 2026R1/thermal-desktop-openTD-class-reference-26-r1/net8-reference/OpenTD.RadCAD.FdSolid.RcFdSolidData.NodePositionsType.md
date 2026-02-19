@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_NodePositionsType"></a> Enum RcFdSolidData.NodePositionsType
+# Enum RcFdSolidData.NodePositionsType
 
 Namespace: [OpenTD.RadCAD.FdSolid](OpenTD.RadCAD.FdSolid.md)  
 Assembly: OpenTD.dll  
@@ -12,4 +12,5 @@ public enum RcFdSolidData.NodePositionsType
 `CENTERED = 0` 
 
 `EDGE = 1` 
+
 

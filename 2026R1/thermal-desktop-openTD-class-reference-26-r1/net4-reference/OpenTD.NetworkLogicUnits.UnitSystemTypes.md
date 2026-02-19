@@ -1,4 +1,4 @@
-# <a id="OpenTD_NetworkLogicUnits_UnitSystemTypes"></a> Enum NetworkLogicUnits.UnitSystemTypes
+# Enum NetworkLogicUnits.UnitSystemTypes
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -14,4 +14,5 @@ public enum NetworkLogicUnits.UnitSystemTypes
 `SPECIFIC_UNITS = 1` 
 
 `UID = 0` 
+
 

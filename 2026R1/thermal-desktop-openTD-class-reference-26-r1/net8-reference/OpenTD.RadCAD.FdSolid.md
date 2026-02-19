@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FdSolid"></a> Namespace OpenTD.RadCAD.FdSolid
+# Namespace OpenTD.RadCAD.FdSolid
 
 ### Classes
 
@@ -38,4 +38,5 @@ Client-side representation of a SolidSphere entity in a TD instance.
  [RcFdSolidData.MliNodeTypes](OpenTD.RadCAD.FdSolid.RcFdSolidData.MliNodeTypes.md)
 
  [RcFdSolidData.NodePositionsType](OpenTD.RadCAD.FdSolid.RcFdSolidData.NodePositionsType.md)
+
 

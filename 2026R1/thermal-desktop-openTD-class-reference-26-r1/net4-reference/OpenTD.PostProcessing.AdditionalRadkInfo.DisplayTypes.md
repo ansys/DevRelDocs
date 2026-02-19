@@ -1,4 +1,4 @@
-# <a id="OpenTD_PostProcessing_AdditionalRadkInfo_DisplayTypes"></a> Enum AdditionalRadkInfo.DisplayTypes
+# Enum AdditionalRadkInfo.DisplayTypes
 
 Namespace: [OpenTD.PostProcessing](OpenTD.PostProcessing.md)  
 Assembly: OpenTD.dll  
@@ -32,4 +32,5 @@ public enum AdditionalRadkInfo.DisplayTypes
 `XIJ_NODE = 4` 
 
 `XIJ_SPACE = 1` 
+
 

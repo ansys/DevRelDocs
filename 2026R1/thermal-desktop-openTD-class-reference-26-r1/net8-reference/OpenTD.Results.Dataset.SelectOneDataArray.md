@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_SelectOneDataArray"></a> Class SelectOneDataArray
+# Class SelectOneDataArray
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -10,7 +10,7 @@ and returns data solely from it.
 public abstract class SelectOneDataArray : DerivedDataArray, IEnumerable<double>, IEnumerable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [DataArray](OpenTD.Results.Dataset.DataArray.md) ← 
@@ -22,12 +22,12 @@ public abstract class SelectOneDataArray : DerivedDataArray, IEnumerable<double>
 [SelectMaxDataArray](OpenTD.Results.Dataset.SelectMaxDataArray.md), 
 [SelectMinDataArray](OpenTD.Results.Dataset.SelectMinDataArray.md)
 
-#### Implements
+## Implements
 
 [IEnumerable<double\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1), 
 [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
 
-#### Inherited Members
+## Inherited Members
 
 [DerivedDataArray.InputCollection](OpenTD.Results.Dataset.DerivedDataArray.md\#OpenTD\_Results\_Dataset\_DerivedDataArray\_InputCollection), 
 [DerivedDataArray.IgnoreNaNInCalculations](OpenTD.Results.Dataset.DerivedDataArray.md\#OpenTD\_Results\_Dataset\_DerivedDataArray\_IgnoreNaNInCalculations), 
@@ -72,7 +72,7 @@ public abstract class SelectOneDataArray : DerivedDataArray, IEnumerable<double>
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_SelectOneDataArray__ctor_OpenTD_Results_Dataset_DataArrayCollection_"></a> SelectOneDataArray\(DataArrayCollection\)
+### SelectOneDataArray\(DataArrayCollection\)
 
 ```csharp
 public SelectOneDataArray(DataArrayCollection inputCollection)
@@ -82,7 +82,7 @@ public SelectOneDataArray(DataArrayCollection inputCollection)
 
 `inputCollection` [DataArrayCollection](OpenTD.Results.Dataset.DataArrayCollection.md)
 
-### <a id="OpenTD_Results_Dataset_SelectOneDataArray__ctor"></a> SelectOneDataArray\(\)
+### SelectOneDataArray\(\)
 
 ```csharp
 public SelectOneDataArray()
@@ -90,7 +90,7 @@ public SelectOneDataArray()
 
 ## Fields
 
-### <a id="OpenTD_Results_Dataset_SelectOneDataArray_selectedArray"></a> selectedArray
+### selectedArray
 
 ```csharp
 protected DataArray selectedArray
@@ -102,7 +102,7 @@ protected DataArray selectedArray
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_SelectOneDataArray_Count"></a> Count
+### Count
 
 The number of items in this DataArray.
 
@@ -114,7 +114,7 @@ public override int Count { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Results_Dataset_SelectOneDataArray_SourceDataset"></a> SourceDataset
+### SourceDataset
 
 The source Dataset for the InputCollection.
 
@@ -132,7 +132,7 @@ public override IDataset SourceDataset { get; }
 
 Cannot set DerivedDataArray.SourceDataset directly. It will be derived from InputArrays.
 
-### <a id="OpenTD_Results_Dataset_SelectOneDataArray_SourceItem"></a> SourceItem
+### SourceItem
 
 The SourceItem for the InputCollection.
 
@@ -152,13 +152,13 @@ Cannot set DerivedDataArray.SourceItem directly. It will be derived from InputAr
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_SelectOneDataArray_CheckData"></a> CheckData\(\)
+### CheckData\(\)
 
 ```csharp
 protected override void CheckData()
 ```
 
-### <a id="OpenTD_Results_Dataset_SelectOneDataArray_GetSelfSuggestedName"></a> GetSelfSuggestedName\(\)
+### GetSelfSuggestedName\(\)
 
 ```csharp
 protected override string GetSelfSuggestedName()
@@ -168,7 +168,7 @@ protected override string GetSelfSuggestedName()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_SelectOneDataArray_GetValues_OpenTD_UnitsData_"></a> GetValues\(UnitsData\)
+### GetValues\(UnitsData\)
 
 Gets the data in the units provided.
 
@@ -191,4 +191,5 @@ List&lt;System.Double&gt;.
 ## See Also
 
 [DerivedDataArray](OpenTD.Results.Dataset.DerivedDataArray.md)
+
 

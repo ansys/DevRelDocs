@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FEModel_FaceSpec"></a> Class FaceSpec
+# Class FaceSpec
 
 Namespace: [OpenTD.RadCAD.FEModel](OpenTD.RadCAD.FEModel.md)  
 Assembly: OpenTD.dll  
@@ -7,15 +7,16 @@ Lightweight face for use creating a finite element
 mesh using an FEMeshImporter only.
 
 ```csharp
+[MessagePackObject(true)]
 public class FaceSpec
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [FaceSpec](OpenTD.RadCAD.FEModel.FaceSpec.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -27,7 +28,7 @@ public class FaceSpec
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_FEModel_FaceSpec__ctor"></a> FaceSpec\(\)
+### FaceSpec\(\)
 
 ```csharp
 public FaceSpec()
@@ -35,7 +36,7 @@ public FaceSpec()
 
 ## Fields
 
-### <a id="OpenTD_RadCAD_FEModel_FaceSpec_id"></a> id
+### id
 
 ```csharp
 public int id
@@ -45,7 +46,7 @@ public int id
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_FEModel_FaceSpec_sides"></a> sides
+### sides
 
 ```csharp
 public int sides
@@ -54,4 +55,5 @@ public int sides
 #### Field Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 

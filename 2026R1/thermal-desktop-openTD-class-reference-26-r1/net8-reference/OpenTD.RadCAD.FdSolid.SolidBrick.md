@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FdSolid_SolidBrick"></a> Class SolidBrick
+# Class SolidBrick
 
 Namespace: [OpenTD.RadCAD.FdSolid](OpenTD.RadCAD.FdSolid.md)  
 Assembly: OpenTD.dll  
@@ -6,10 +6,11 @@ Assembly: OpenTD.dll
 Client-side representation of a SolidBrick entity in a TD instance.
 
 ```csharp
+[MessagePackObject(true)]
 public class SolidBrick : RcFdSolidData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -18,11 +19,11 @@ public class SolidBrick : RcFdSolidData, IUpdatable
 [RcFdSolidData](OpenTD.RadCAD.FdSolid.RcFdSolidData.md) ← 
 [SolidBrick](OpenTD.RadCAD.FdSolid.SolidBrick.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [RcFdSolidData.AnalysisGroups](OpenTD.RadCAD.FdSolid.RcFdSolidData.md\#OpenTD\_RadCAD\_FdSolid\_RcFdSolidData\_AnalysisGroups), 
 [RcFdSolidData.Comment](OpenTD.RadCAD.FdSolid.RcFdSolidData.md\#OpenTD\_RadCAD\_FdSolid\_RcFdSolidData\_Comment), 
@@ -108,7 +109,7 @@ public class SolidBrick : RcFdSolidData, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidBrick__ctor"></a> SolidBrick\(\)
+### SolidBrick\(\)
 
 ```csharp
 public SolidBrick()
@@ -116,7 +117,7 @@ public SolidBrick()
 
 ## Properties
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidBrick_XMax"></a> XMax
+### XMax
 
 ```csharp
 public Dimensional<ModelLength> XMax { get; set; }
@@ -126,7 +127,7 @@ public Dimensional<ModelLength> XMax { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidBrick_XMaxExp"></a> XMaxExp
+### XMaxExp
 
 ```csharp
 public ExpressionData XMaxExp { get; set; }
@@ -136,7 +137,7 @@ public ExpressionData XMaxExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidBrick_YMax"></a> YMax
+### YMax
 
 ```csharp
 public Dimensional<ModelLength> YMax { get; set; }
@@ -146,7 +147,7 @@ public Dimensional<ModelLength> YMax { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidBrick_YMaxExp"></a> YMaxExp
+### YMaxExp
 
 ```csharp
 public ExpressionData YMaxExp { get; set; }
@@ -156,7 +157,7 @@ public ExpressionData YMaxExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidBrick_ZMax"></a> ZMax
+### ZMax
 
 ```csharp
 public Dimensional<ModelLength> ZMax { get; set; }
@@ -166,7 +167,7 @@ public Dimensional<ModelLength> ZMax { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidBrick_ZMaxExp"></a> ZMaxExp
+### ZMaxExp
 
 ```csharp
 public ExpressionData ZMaxExp { get; set; }
@@ -178,7 +179,7 @@ public ExpressionData ZMaxExp { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidBrick_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -190,7 +191,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidBrick_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -198,7 +199,7 @@ Updates the TD entity with the latest client data.
 public override void Update()
 ```
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidBrick_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -209,4 +210,5 @@ public override void UpdateFromTD()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

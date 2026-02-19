@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid"></a> Class SolidEllipsoid
+# Class SolidEllipsoid
 
 Namespace: [OpenTD.RadCAD.FdSolid](OpenTD.RadCAD.FdSolid.md)  
 Assembly: OpenTD.dll  
@@ -10,7 +10,7 @@ Client-side representation of a SolidEllipsoid entity in a TD instance.
 public class SolidEllipsoid : RcFdSolidData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -19,11 +19,11 @@ public class SolidEllipsoid : RcFdSolidData, IUpdatable
 [RcFdSolidData](OpenTD.RadCAD.FdSolid.RcFdSolidData.md) ← 
 [SolidEllipsoid](OpenTD.RadCAD.FdSolid.SolidEllipsoid.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [RcFdSolidData.AnalysisGroups](OpenTD.RadCAD.FdSolid.RcFdSolidData.md\#OpenTD\_RadCAD\_FdSolid\_RcFdSolidData\_AnalysisGroups), 
 [RcFdSolidData.Comment](OpenTD.RadCAD.FdSolid.RcFdSolidData.md\#OpenTD\_RadCAD\_FdSolid\_RcFdSolidData\_Comment), 
@@ -109,7 +109,7 @@ public class SolidEllipsoid : RcFdSolidData, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid__ctor"></a> SolidEllipsoid\(\)
+### SolidEllipsoid\(\)
 
 ```csharp
 public SolidEllipsoid()
@@ -117,7 +117,7 @@ public SolidEllipsoid()
 
 ## Properties
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid_EndAngle"></a> EndAngle
+### EndAngle
 
 ```csharp
 [DataMember]
@@ -128,7 +128,7 @@ public Dimensional<Angle> EndAngle { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid_EndAngleExp"></a> EndAngleExp
+### EndAngleExp
 
 ```csharp
 [DataMember]
@@ -139,7 +139,7 @@ public ExpressionData EndAngleExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid_InnerMaxHeight"></a> InnerMaxHeight
+### InnerMaxHeight
 
 ```csharp
 [DataMember]
@@ -150,7 +150,7 @@ public Dimensional<ModelLength> InnerMaxHeight { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid_InnerMaxHeightExp"></a> InnerMaxHeightExp
+### InnerMaxHeightExp
 
 ```csharp
 [DataMember]
@@ -161,7 +161,7 @@ public ExpressionData InnerMaxHeightExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid_InnerMinHeight"></a> InnerMinHeight
+### InnerMinHeight
 
 ```csharp
 [DataMember]
@@ -172,7 +172,7 @@ public Dimensional<ModelLength> InnerMinHeight { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid_InnerMinHeightExp"></a> InnerMinHeightExp
+### InnerMinHeightExp
 
 ```csharp
 [DataMember]
@@ -183,7 +183,7 @@ public ExpressionData InnerMinHeightExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid_InnerXRadius"></a> InnerXRadius
+### InnerXRadius
 
 ```csharp
 [DataMember]
@@ -194,7 +194,7 @@ public Dimensional<ModelLength> InnerXRadius { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid_InnerXRadiusExp"></a> InnerXRadiusExp
+### InnerXRadiusExp
 
 ```csharp
 [DataMember]
@@ -205,7 +205,7 @@ public ExpressionData InnerXRadiusExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid_InnerYRadius"></a> InnerYRadius
+### InnerYRadius
 
 ```csharp
 [DataMember]
@@ -216,7 +216,7 @@ public Dimensional<ModelLength> InnerYRadius { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid_InnerYRadiusExp"></a> InnerYRadiusExp
+### InnerYRadiusExp
 
 ```csharp
 [DataMember]
@@ -227,7 +227,7 @@ public ExpressionData InnerYRadiusExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid_InnerZRadius"></a> InnerZRadius
+### InnerZRadius
 
 ```csharp
 [DataMember]
@@ -238,7 +238,7 @@ public Dimensional<ModelLength> InnerZRadius { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid_InnerZRadiusExp"></a> InnerZRadiusExp
+### InnerZRadiusExp
 
 ```csharp
 [DataMember]
@@ -249,7 +249,7 @@ public ExpressionData InnerZRadiusExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid_OuterMaxHeight"></a> OuterMaxHeight
+### OuterMaxHeight
 
 ```csharp
 [DataMember]
@@ -260,7 +260,7 @@ public Dimensional<ModelLength> OuterMaxHeight { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid_OuterMaxHeightExp"></a> OuterMaxHeightExp
+### OuterMaxHeightExp
 
 ```csharp
 [DataMember]
@@ -271,7 +271,7 @@ public ExpressionData OuterMaxHeightExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid_OuterMinHeight"></a> OuterMinHeight
+### OuterMinHeight
 
 ```csharp
 [DataMember]
@@ -282,7 +282,7 @@ public Dimensional<ModelLength> OuterMinHeight { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid_OuterMinHeightExp"></a> OuterMinHeightExp
+### OuterMinHeightExp
 
 ```csharp
 [DataMember]
@@ -293,7 +293,7 @@ public ExpressionData OuterMinHeightExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid_OuterXRadius"></a> OuterXRadius
+### OuterXRadius
 
 ```csharp
 [DataMember]
@@ -304,7 +304,7 @@ public Dimensional<ModelLength> OuterXRadius { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid_OuterXRadiusExp"></a> OuterXRadiusExp
+### OuterXRadiusExp
 
 ```csharp
 [DataMember]
@@ -315,7 +315,7 @@ public ExpressionData OuterXRadiusExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid_OuterYRadius"></a> OuterYRadius
+### OuterYRadius
 
 ```csharp
 [DataMember]
@@ -326,7 +326,7 @@ public Dimensional<ModelLength> OuterYRadius { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid_OuterYRadiusExp"></a> OuterYRadiusExp
+### OuterYRadiusExp
 
 ```csharp
 [DataMember]
@@ -337,7 +337,7 @@ public ExpressionData OuterYRadiusExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid_OuterZRadius"></a> OuterZRadius
+### OuterZRadius
 
 ```csharp
 [DataMember]
@@ -348,7 +348,7 @@ public Dimensional<ModelLength> OuterZRadius { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid_OuterZRadiusExp"></a> OuterZRadiusExp
+### OuterZRadiusExp
 
 ```csharp
 [DataMember]
@@ -359,7 +359,7 @@ public ExpressionData OuterZRadiusExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid_StartAngle"></a> StartAngle
+### StartAngle
 
 ```csharp
 [DataMember]
@@ -370,7 +370,7 @@ public Dimensional<Angle> StartAngle { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid_StartAngleExp"></a> StartAngleExp
+### StartAngleExp
 
 ```csharp
 [DataMember]
@@ -383,7 +383,7 @@ public ExpressionData StartAngleExp { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -395,7 +395,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -403,7 +403,7 @@ Updates the TD entity with the latest client data.
 public override void Update()
 ```
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidEllipsoid_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -414,4 +414,5 @@ public override void UpdateFromTD()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

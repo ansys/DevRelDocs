@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_RcEntityData"></a> Class RcEntityData
+# Class RcEntityData
 
 Namespace: [OpenTD.RadCAD](OpenTD.RadCAD.md)  
 Assembly: OpenTD.dll  
@@ -7,10 +7,11 @@ Base class for entities with materials, u and v nodal breakdowns,
 optical properties, etc.
 
 ```csharp
+[MessagePackObject(true)]
 public class RcEntityData : TdDbEntityData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -24,11 +25,11 @@ public class RcEntityData : TdDbEntityData, IUpdatable
 [RcConicData](OpenTD.RadCAD.RcConicData.md), 
 [RcSurfaceElement](OpenTD.RadCAD.FEM.RcSurfaceElement.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [TdDbEntityData.SetFrom\(TdDbEntityData\)](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_SetFrom\_OpenTD\_TdDbEntityData\_), 
 [TdDbEntityData.Layer](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_Layer), 
@@ -60,7 +61,7 @@ public class RcEntityData : TdDbEntityData, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_RcEntityData__ctor"></a> RcEntityData\(\)
+### RcEntityData\(\)
 
 ```csharp
 public RcEntityData()
@@ -68,7 +69,7 @@ public RcEntityData()
 
 ## Properties
 
-### <a id="OpenTD_RadCAD_RcEntityData_AnalysisGroups"></a> AnalysisGroups
+### AnalysisGroups
 
 ```csharp
 public UniqueItemList<AnalysisGroupSurfaceInfo> AnalysisGroups { get; set; }
@@ -78,7 +79,7 @@ public UniqueItemList<AnalysisGroupSurfaceInfo> AnalysisGroups { get; set; }
 
  [UniqueItemList](OpenTD.Utility.UniqueItemList\-1.md)<[AnalysisGroupSurfaceInfo](OpenTD.RadCAD.AnalysisGroupSurfaceInfo.md)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData_AnalysisGroupsVolumetric"></a> AnalysisGroupsVolumetric
+### AnalysisGroupsVolumetric
 
 ```csharp
 public UniqueItemList<AnalysisGroupVolumetricInfo> AnalysisGroupsVolumetric { get; set; }
@@ -88,9 +89,10 @@ public UniqueItemList<AnalysisGroupVolumetricInfo> AnalysisGroupsVolumetric { ge
 
  [UniqueItemList](OpenTD.Utility.UniqueItemList\-1.md)<[AnalysisGroupVolumetricInfo](OpenTD.RadCAD.AnalysisGroupVolumetricInfo.md)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData_AttachedCompartmentHandles"></a> AttachedCompartmentHandles
+### AttachedCompartmentHandles
 
 ```csharp
+[IgnoreMember]
 public List<string> AttachedCompartmentHandles { get; }
 ```
 
@@ -98,9 +100,10 @@ public List<string> AttachedCompartmentHandles { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData_AttachedConductorHandles"></a> AttachedConductorHandles
+### AttachedConductorHandles
 
 ```csharp
+[IgnoreMember]
 public List<string> AttachedConductorHandles { get; }
 ```
 
@@ -108,9 +111,10 @@ public List<string> AttachedConductorHandles { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData_AttachedHeatLoadHandles"></a> AttachedHeatLoadHandles
+### AttachedHeatLoadHandles
 
 ```csharp
+[IgnoreMember]
 public List<string> AttachedHeatLoadHandles { get; }
 ```
 
@@ -118,9 +122,10 @@ public List<string> AttachedHeatLoadHandles { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData_AttachedNodeHandles"></a> AttachedNodeHandles
+### AttachedNodeHandles
 
 ```csharp
+[IgnoreMember]
 public List<string> AttachedNodeHandles { get; }
 ```
 
@@ -128,9 +133,10 @@ public List<string> AttachedNodeHandles { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData_AttachedPipeHandles"></a> AttachedPipeHandles
+### AttachedPipeHandles
 
 ```csharp
+[IgnoreMember]
 public List<string> AttachedPipeHandles { get; }
 ```
 
@@ -138,9 +144,10 @@ public List<string> AttachedPipeHandles { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData_AttachedTieHandles"></a> AttachedTieHandles
+### AttachedTieHandles
 
 ```csharp
+[IgnoreMember]
 public List<string> AttachedTieHandles { get; }
 ```
 
@@ -148,7 +155,7 @@ public List<string> AttachedTieHandles { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData_BotFmcOpticalProp"></a> BotFmcOpticalProp
+### BotFmcOpticalProp
 
 ```csharp
 public string BotFmcOpticalProp { get; set; }
@@ -158,7 +165,7 @@ public string BotFmcOpticalProp { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_RcEntityData_BotIdType"></a> BotIdType
+### BotIdType
 
 ```csharp
 public RcEntityData.IdType BotIdType { get; set; }
@@ -168,7 +175,7 @@ public RcEntityData.IdType BotIdType { get; set; }
 
  [RcEntityData](OpenTD.RadCAD.RcEntityData.md).[IdType](OpenTD.RadCAD.RcEntityData.IdType.md)
 
-### <a id="OpenTD_RadCAD_RcEntityData_BotInsulationNodeSubmodelIdOption"></a> BotInsulationNodeSubmodelIdOption
+### BotInsulationNodeSubmodelIdOption
 
 ```csharp
 public RcEntityData.InsulationNodeSubmodelIdOption BotInsulationNodeSubmodelIdOption { get; set; }
@@ -178,7 +185,7 @@ public RcEntityData.InsulationNodeSubmodelIdOption BotInsulationNodeSubmodelIdOp
 
  [RcEntityData](OpenTD.RadCAD.RcEntityData.md).[InsulationNodeSubmodelIdOption](OpenTD.RadCAD.RcEntityData.InsulationNodeSubmodelIdOption.md)
 
-### <a id="OpenTD_RadCAD_RcEntityData_BotMLIMaterial"></a> BotMLIMaterial
+### BotMLIMaterial
 
 ```csharp
 public string BotMLIMaterial { get; set; }
@@ -188,7 +195,7 @@ public string BotMLIMaterial { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_RcEntityData_BotMLINumLayers"></a> BotMLINumLayers
+### BotMLINumLayers
 
 ```csharp
 public int BotMLINumLayers { get; set; }
@@ -198,7 +205,7 @@ public int BotMLINumLayers { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_RcEntityData_BotMLINumOffset"></a> BotMLINumOffset
+### BotMLINumOffset
 
 ```csharp
 public int BotMLINumOffset { get; set; }
@@ -208,7 +215,7 @@ public int BotMLINumOffset { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_RcEntityData_BotMLIOverride"></a> BotMLIOverride
+### BotMLIOverride
 
 ```csharp
 public List<string> BotMLIOverride { get; set; }
@@ -218,7 +225,7 @@ public List<string> BotMLIOverride { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData_BotMLISubmodel"></a> BotMLISubmodel
+### BotMLISubmodel
 
 ```csharp
 public SubmodelNameData BotMLISubmodel { get; set; }
@@ -228,7 +235,7 @@ public SubmodelNameData BotMLISubmodel { get; set; }
 
  [SubmodelNameData](OpenTD.SubmodelNameData.md)
 
-### <a id="OpenTD_RadCAD_RcEntityData_BotMLIThickness"></a> BotMLIThickness
+### BotMLIThickness
 
 ```csharp
 public Dimensional<ModelLength> BotMLIThickness { get; set; }
@@ -238,7 +245,7 @@ public Dimensional<ModelLength> BotMLIThickness { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData_BotMLIThicknessExp"></a> BotMLIThicknessExp
+### BotMLIThicknessExp
 
 ```csharp
 public ExpressionData BotMLIThicknessExp { get; set; }
@@ -248,7 +255,7 @@ public ExpressionData BotMLIThicknessExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_RcEntityData_BotMaterial"></a> BotMaterial
+### BotMaterial
 
 ```csharp
 public string BotMaterial { get; set; }
@@ -258,7 +265,7 @@ public string BotMaterial { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_RcEntityData_BotMaterialStackName"></a> BotMaterialStackName
+### BotMaterialStackName
 
 ```csharp
 public string BotMaterialStackName { get; set; }
@@ -268,7 +275,7 @@ public string BotMaterialStackName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_RcEntityData_BotMliInitialTemp"></a> BotMliInitialTemp
+### BotMliInitialTemp
 
 ```csharp
 public Dimensional<Temp> BotMliInitialTemp { get; set; }
@@ -278,7 +285,7 @@ public Dimensional<Temp> BotMliInitialTemp { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Temp](OpenTD.Dimension.Temp.md)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData_BotMliInitialTempExp"></a> BotMliInitialTempExp
+### BotMliInitialTempExp
 
 ```csharp
 public ExpressionData BotMliInitialTempExp { get; set; }
@@ -288,7 +295,7 @@ public ExpressionData BotMliInitialTempExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_RcEntityData_BotNodeNames"></a> BotNodeNames
+### BotNodeNames
 
 ```csharp
 public List<string> BotNodeNames { get; set; }
@@ -298,7 +305,7 @@ public List<string> BotNodeNames { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData_BotOpticOverride"></a> BotOpticOverride
+### BotOpticOverride
 
 ```csharp
 public Dictionary<string, string> BotOpticOverride { get; set; }
@@ -308,7 +315,7 @@ public Dictionary<string, string> BotOpticOverride { get; set; }
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData_BotOpticalProp"></a> BotOpticalProp
+### BotOpticalProp
 
 ```csharp
 public string BotOpticalProp { get; set; }
@@ -318,7 +325,7 @@ public string BotOpticalProp { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_RcEntityData_BotOrientName"></a> BotOrientName
+### BotOrientName
 
 ```csharp
 public string BotOrientName { get; set; }
@@ -328,7 +335,7 @@ public string BotOrientName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_RcEntityData_BotStartId"></a> BotStartId
+### BotStartId
 
 ```csharp
 public int BotStartId { get; set; }
@@ -338,7 +345,7 @@ public int BotStartId { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_RcEntityData_BotStartSubmodel"></a> BotStartSubmodel
+### BotStartSubmodel
 
 ```csharp
 public SubmodelNameData BotStartSubmodel { get; set; }
@@ -348,7 +355,7 @@ public SubmodelNameData BotStartSubmodel { get; set; }
 
  [SubmodelNameData](OpenTD.SubmodelNameData.md)
 
-### <a id="OpenTD_RadCAD_RcEntityData_BotThickness"></a> BotThickness
+### BotThickness
 
 ```csharp
 public Dimensional<ModelLength> BotThickness { get; set; }
@@ -358,7 +365,7 @@ public Dimensional<ModelLength> BotThickness { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData_BotThicknessExp"></a> BotThicknessExp
+### BotThicknessExp
 
 ```csharp
 public ExpressionData BotThicknessExp { get; set; }
@@ -368,7 +375,7 @@ public ExpressionData BotThicknessExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_RcEntityData_BotVolumetricIds"></a> BotVolumetricIds
+### BotVolumetricIds
 
 ```csharp
 public List<string> BotVolumetricIds { get; set; }
@@ -378,7 +385,7 @@ public List<string> BotVolumetricIds { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData_BotVolumetricOverride"></a> BotVolumetricOverride
+### BotVolumetricOverride
 
 ```csharp
 public Dictionary<string, string> BotVolumetricOverride { get; set; }
@@ -388,7 +395,7 @@ public Dictionary<string, string> BotVolumetricOverride { get; set; }
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData_BotVolumetricProp"></a> BotVolumetricProp
+### BotVolumetricProp
 
 ```csharp
 public string BotVolumetricProp { get; set; }
@@ -398,7 +405,7 @@ public string BotVolumetricProp { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_RcEntityData_BotVolumetricSubmodel"></a> BotVolumetricSubmodel
+### BotVolumetricSubmodel
 
 ```csharp
 public string BotVolumetricSubmodel { get; set; }
@@ -408,7 +415,7 @@ public string BotVolumetricSubmodel { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_RcEntityData_BreakdownU"></a> BreakdownU
+### BreakdownU
 
 ```csharp
 public NodeBreakdownData BreakdownU { get; set; }
@@ -418,7 +425,7 @@ public NodeBreakdownData BreakdownU { get; set; }
 
  [NodeBreakdownData](OpenTD.NodeBreakdownData.md)
 
-### <a id="OpenTD_RadCAD_RcEntityData_BreakdownV"></a> BreakdownV
+### BreakdownV
 
 ```csharp
 public NodeBreakdownData BreakdownV { get; set; }
@@ -428,7 +435,7 @@ public NodeBreakdownData BreakdownV { get; set; }
 
  [NodeBreakdownData](OpenTD.NodeBreakdownData.md)
 
-### <a id="OpenTD_RadCAD_RcEntityData_Comment"></a> Comment
+### Comment
 
 ```csharp
 public string Comment { get; set; }
@@ -438,7 +445,7 @@ public string Comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_RcEntityData_CondSubmodel"></a> CondSubmodel
+### CondSubmodel
 
 ```csharp
 public SubmodelNameData CondSubmodel { get; set; }
@@ -448,7 +455,7 @@ public SubmodelNameData CondSubmodel { get; set; }
 
  [SubmodelNameData](OpenTD.SubmodelNameData.md)
 
-### <a id="OpenTD_RadCAD_RcEntityData_CoreLateralConduction"></a> CoreLateralConduction
+### CoreLateralConduction
 
 ```csharp
 public bool CoreLateralConduction { get; set; }
@@ -458,7 +465,7 @@ public bool CoreLateralConduction { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_RadCAD_RcEntityData_DensityMult"></a> DensityMult
+### DensityMult
 
 ```csharp
 public double DensityMult { get; set; }
@@ -468,7 +475,7 @@ public double DensityMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_RcEntityData_DensityMultExp"></a> DensityMultExp
+### DensityMultExp
 
 ```csharp
 public ExpressionData DensityMultExp { get; set; }
@@ -478,7 +485,7 @@ public ExpressionData DensityMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_RcEntityData_GenerateCCData"></a> GenerateCCData
+### GenerateCCData
 
 ```csharp
 public int GenerateCCData { get; set; }
@@ -488,7 +495,7 @@ public int GenerateCCData { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_RcEntityData_GenerateCCDataExp"></a> GenerateCCDataExp
+### GenerateCCDataExp
 
 ```csharp
 public ExpressionData GenerateCCDataExp { get; set; }
@@ -498,7 +505,7 @@ public ExpressionData GenerateCCDataExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_RcEntityData_GlobalContactArray"></a> GlobalContactArray
+### GlobalContactArray
 
 ```csharp
 public List<GlobalContact> GlobalContactArray { get; set; }
@@ -508,7 +515,7 @@ public List<GlobalContact> GlobalContactArray { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[GlobalContact](OpenTD.RadCAD.GlobalContact.md)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData_KuMult"></a> KuMult
+### KuMult
 
 ```csharp
 public double KuMult { get; set; }
@@ -518,7 +525,7 @@ public double KuMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_RcEntityData_KuMultExp"></a> KuMultExp
+### KuMultExp
 
 ```csharp
 public ExpressionData KuMultExp { get; set; }
@@ -528,7 +535,7 @@ public ExpressionData KuMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_RcEntityData_KvMult"></a> KvMult
+### KvMult
 
 ```csharp
 public double KvMult { get; set; }
@@ -538,7 +545,7 @@ public double KvMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_RcEntityData_KvMultExp"></a> KvMultExp
+### KvMultExp
 
 ```csharp
 public ExpressionData KvMultExp { get; set; }
@@ -548,7 +555,7 @@ public ExpressionData KvMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_RcEntityData_KwMult"></a> KwMult
+### KwMult
 
 ```csharp
 public double KwMult { get; set; }
@@ -558,7 +565,7 @@ public double KwMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_RcEntityData_KwMultExp"></a> KwMultExp
+### KwMultExp
 
 ```csharp
 public ExpressionData KwMultExp { get; set; }
@@ -568,7 +575,7 @@ public ExpressionData KwMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_RcEntityData_NodePositions"></a> NodePositions
+### NodePositions
 
 ```csharp
 public RcEntityData.NodePositionsType NodePositions { get; set; }
@@ -578,7 +585,7 @@ public RcEntityData.NodePositionsType NodePositions { get; set; }
 
  [RcEntityData](OpenTD.RadCAD.RcEntityData.md).[NodePositionsType](OpenTD.RadCAD.RcEntityData.NodePositionsType.md)
 
-### <a id="OpenTD_RadCAD_RcEntityData_OutputBotMLINodesAsArithmetic"></a> OutputBotMLINodesAsArithmetic
+### OutputBotMLINodesAsArithmetic
 
 ```csharp
 public int OutputBotMLINodesAsArithmetic { get; set; }
@@ -588,7 +595,7 @@ public int OutputBotMLINodesAsArithmetic { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_RcEntityData_OutputNodesAsArithmetic"></a> OutputNodesAsArithmetic
+### OutputNodesAsArithmetic
 
 ```csharp
 public int OutputNodesAsArithmetic { get; set; }
@@ -598,7 +605,7 @@ public int OutputNodesAsArithmetic { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_RcEntityData_OutputTopMLINodesAsArithmetic"></a> OutputTopMLINodesAsArithmetic
+### OutputTopMLINodesAsArithmetic
 
 ```csharp
 public int OutputTopMLINodesAsArithmetic { get; set; }
@@ -608,7 +615,7 @@ public int OutputTopMLINodesAsArithmetic { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_RcEntityData_SameSideNumbering"></a> SameSideNumbering
+### SameSideNumbering
 
 ```csharp
 public int SameSideNumbering { get; set; }
@@ -618,7 +625,7 @@ public int SameSideNumbering { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_RcEntityData_ShowArrow"></a> ShowArrow
+### ShowArrow
 
 ```csharp
 public int ShowArrow { get; set; }
@@ -628,7 +635,7 @@ public int ShowArrow { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopBotMaterial"></a> TopBotMaterial
+### TopBotMaterial
 
 ```csharp
 public string TopBotMaterial { get; set; }
@@ -638,7 +645,7 @@ public string TopBotMaterial { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopBotSepDist"></a> TopBotSepDist
+### TopBotSepDist
 
 ```csharp
 public Dimensional<ModelLength> TopBotSepDist { get; set; }
@@ -648,7 +655,7 @@ public Dimensional<ModelLength> TopBotSepDist { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopBotSepDistExp"></a> TopBotSepDistExp
+### TopBotSepDistExp
 
 ```csharp
 public ExpressionData TopBotSepDistExp { get; set; }
@@ -658,7 +665,7 @@ public ExpressionData TopBotSepDistExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopFmcOpticalProp"></a> TopFmcOpticalProp
+### TopFmcOpticalProp
 
 ```csharp
 public string TopFmcOpticalProp { get; set; }
@@ -668,7 +675,7 @@ public string TopFmcOpticalProp { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopIdType"></a> TopIdType
+### TopIdType
 
 ```csharp
 public RcEntityData.IdType TopIdType { get; set; }
@@ -678,7 +685,7 @@ public RcEntityData.IdType TopIdType { get; set; }
 
  [RcEntityData](OpenTD.RadCAD.RcEntityData.md).[IdType](OpenTD.RadCAD.RcEntityData.IdType.md)
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopInsulationNodeSubmodelIdOption"></a> TopInsulationNodeSubmodelIdOption
+### TopInsulationNodeSubmodelIdOption
 
 ```csharp
 public RcEntityData.InsulationNodeSubmodelIdOption TopInsulationNodeSubmodelIdOption { get; set; }
@@ -688,7 +695,7 @@ public RcEntityData.InsulationNodeSubmodelIdOption TopInsulationNodeSubmodelIdOp
 
  [RcEntityData](OpenTD.RadCAD.RcEntityData.md).[InsulationNodeSubmodelIdOption](OpenTD.RadCAD.RcEntityData.InsulationNodeSubmodelIdOption.md)
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopMLIMaterial"></a> TopMLIMaterial
+### TopMLIMaterial
 
 ```csharp
 public string TopMLIMaterial { get; set; }
@@ -698,7 +705,7 @@ public string TopMLIMaterial { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopMLINumLayers"></a> TopMLINumLayers
+### TopMLINumLayers
 
 ```csharp
 public int TopMLINumLayers { get; set; }
@@ -708,7 +715,7 @@ public int TopMLINumLayers { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopMLINumOffset"></a> TopMLINumOffset
+### TopMLINumOffset
 
 ```csharp
 public int TopMLINumOffset { get; set; }
@@ -718,7 +725,7 @@ public int TopMLINumOffset { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopMLIOverride"></a> TopMLIOverride
+### TopMLIOverride
 
 ```csharp
 public List<string> TopMLIOverride { get; set; }
@@ -728,7 +735,7 @@ public List<string> TopMLIOverride { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopMLISubmodel"></a> TopMLISubmodel
+### TopMLISubmodel
 
 ```csharp
 public SubmodelNameData TopMLISubmodel { get; set; }
@@ -738,7 +745,7 @@ public SubmodelNameData TopMLISubmodel { get; set; }
 
  [SubmodelNameData](OpenTD.SubmodelNameData.md)
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopMLIThickness"></a> TopMLIThickness
+### TopMLIThickness
 
 ```csharp
 public Dimensional<ModelLength> TopMLIThickness { get; set; }
@@ -748,7 +755,7 @@ public Dimensional<ModelLength> TopMLIThickness { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopMLIThicknessExp"></a> TopMLIThicknessExp
+### TopMLIThicknessExp
 
 ```csharp
 public ExpressionData TopMLIThicknessExp { get; set; }
@@ -758,7 +765,7 @@ public ExpressionData TopMLIThicknessExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopMaterial"></a> TopMaterial
+### TopMaterial
 
 ```csharp
 public string TopMaterial { get; set; }
@@ -768,7 +775,7 @@ public string TopMaterial { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopMaterialStackName"></a> TopMaterialStackName
+### TopMaterialStackName
 
 ```csharp
 public string TopMaterialStackName { get; set; }
@@ -778,7 +785,7 @@ public string TopMaterialStackName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopMliInitialTemp"></a> TopMliInitialTemp
+### TopMliInitialTemp
 
 ```csharp
 public Dimensional<Temp> TopMliInitialTemp { get; set; }
@@ -788,7 +795,7 @@ public Dimensional<Temp> TopMliInitialTemp { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Temp](OpenTD.Dimension.Temp.md)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopMliInitialTempExp"></a> TopMliInitialTempExp
+### TopMliInitialTempExp
 
 ```csharp
 public ExpressionData TopMliInitialTempExp { get; set; }
@@ -798,7 +805,7 @@ public ExpressionData TopMliInitialTempExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopNodeNames"></a> TopNodeNames
+### TopNodeNames
 
 ```csharp
 public List<string> TopNodeNames { get; set; }
@@ -808,7 +815,7 @@ public List<string> TopNodeNames { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopOpticOverride"></a> TopOpticOverride
+### TopOpticOverride
 
 ```csharp
 public Dictionary<string, string> TopOpticOverride { get; set; }
@@ -818,7 +825,7 @@ public Dictionary<string, string> TopOpticOverride { get; set; }
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopOpticalProp"></a> TopOpticalProp
+### TopOpticalProp
 
 ```csharp
 public string TopOpticalProp { get; set; }
@@ -828,7 +835,7 @@ public string TopOpticalProp { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopOrientName"></a> TopOrientName
+### TopOrientName
 
 ```csharp
 public string TopOrientName { get; set; }
@@ -838,7 +845,7 @@ public string TopOrientName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopStartId"></a> TopStartId
+### TopStartId
 
 ```csharp
 public int TopStartId { get; set; }
@@ -848,7 +855,7 @@ public int TopStartId { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopStartSubmodel"></a> TopStartSubmodel
+### TopStartSubmodel
 
 ```csharp
 public SubmodelNameData TopStartSubmodel { get; set; }
@@ -858,7 +865,7 @@ public SubmodelNameData TopStartSubmodel { get; set; }
 
  [SubmodelNameData](OpenTD.SubmodelNameData.md)
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopThickness"></a> TopThickness
+### TopThickness
 
 ```csharp
 public Dimensional<ModelLength> TopThickness { get; set; }
@@ -868,7 +875,7 @@ public Dimensional<ModelLength> TopThickness { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopThicknessExp"></a> TopThicknessExp
+### TopThicknessExp
 
 ```csharp
 public ExpressionData TopThicknessExp { get; set; }
@@ -878,7 +885,7 @@ public ExpressionData TopThicknessExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopVolumetricIds"></a> TopVolumetricIds
+### TopVolumetricIds
 
 ```csharp
 public List<string> TopVolumetricIds { get; set; }
@@ -888,7 +895,7 @@ public List<string> TopVolumetricIds { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopVolumetricOverride"></a> TopVolumetricOverride
+### TopVolumetricOverride
 
 ```csharp
 public Dictionary<string, string> TopVolumetricOverride { get; set; }
@@ -898,7 +905,7 @@ public Dictionary<string, string> TopVolumetricOverride { get; set; }
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopVolumetricProp"></a> TopVolumetricProp
+### TopVolumetricProp
 
 ```csharp
 public string TopVolumetricProp { get; set; }
@@ -908,7 +915,7 @@ public string TopVolumetricProp { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_RcEntityData_TopVolumetricSubmodel"></a> TopVolumetricSubmodel
+### TopVolumetricSubmodel
 
 ```csharp
 public string TopVolumetricSubmodel { get; set; }
@@ -918,7 +925,7 @@ public string TopVolumetricSubmodel { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_RcEntityData_UseBotMLI"></a> UseBotMLI
+### UseBotMLI
 
 ```csharp
 public int UseBotMLI { get; set; }
@@ -928,7 +935,7 @@ public int UseBotMLI { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_RcEntityData_UseBotMLIExp"></a> UseBotMLIExp
+### UseBotMLIExp
 
 ```csharp
 public ExpressionData UseBotMLIExp { get; set; }
@@ -938,7 +945,7 @@ public ExpressionData UseBotMLIExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_RcEntityData_UseBotMaterialStack"></a> UseBotMaterialStack
+### UseBotMaterialStack
 
 ```csharp
 public int UseBotMaterialStack { get; set; }
@@ -948,7 +955,7 @@ public int UseBotMaterialStack { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_RcEntityData_UseTopMLI"></a> UseTopMLI
+### UseTopMLI
 
 ```csharp
 public int UseTopMLI { get; set; }
@@ -958,7 +965,7 @@ public int UseTopMLI { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_RcEntityData_UseTopMLIExp"></a> UseTopMLIExp
+### UseTopMLIExp
 
 ```csharp
 public ExpressionData UseTopMLIExp { get; set; }
@@ -968,7 +975,7 @@ public ExpressionData UseTopMLIExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_RcEntityData_UseTopMaterialStack"></a> UseTopMaterialStack
+### UseTopMaterialStack
 
 ```csharp
 public int UseTopMaterialStack { get; set; }
@@ -978,7 +985,7 @@ public int UseTopMaterialStack { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_RcEntityData__AttachedCompartmentHandles"></a> \_AttachedCompartmentHandles
+### \_AttachedCompartmentHandles
 
 Do not use.
 
@@ -990,7 +997,7 @@ public List<string> _AttachedCompartmentHandles { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData__AttachedConductorHandles"></a> \_AttachedConductorHandles
+### \_AttachedConductorHandles
 
 Do not use.
 
@@ -1002,7 +1009,7 @@ public List<string> _AttachedConductorHandles { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData__AttachedHeatLoadHandles"></a> \_AttachedHeatLoadHandles
+### \_AttachedHeatLoadHandles
 
 Do not use.
 
@@ -1014,7 +1021,7 @@ public List<string> _AttachedHeatLoadHandles { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData__AttachedNodeHandles"></a> \_AttachedNodeHandles
+### \_AttachedNodeHandles
 
 Do not use.
 
@@ -1026,7 +1033,7 @@ public List<string> _AttachedNodeHandles { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData__AttachedPipeHandles"></a> \_AttachedPipeHandles
+### \_AttachedPipeHandles
 
 Do not use.
 
@@ -1038,7 +1045,7 @@ public List<string> _AttachedPipeHandles { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_RcEntityData__AttachedTieHandles"></a> \_AttachedTieHandles
+### \_AttachedTieHandles
 
 Do not use.
 
@@ -1052,7 +1059,7 @@ public List<string> _AttachedTieHandles { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_RadCAD_RcEntityData_CheckData"></a> CheckData\(\)
+### CheckData\(\)
 
 ```csharp
 public void CheckData()
@@ -1061,4 +1068,5 @@ public void CheckData()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FEModel_EdgeSpec"></a> Class EdgeSpec
+# Class EdgeSpec
 
 Namespace: [OpenTD.RadCAD.FEModel](OpenTD.RadCAD.FEModel.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ mesh using an FEMeshImporter only.
 public class EdgeSpec
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [EdgeSpec](OpenTD.RadCAD.FEModel.EdgeSpec.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,7 +27,7 @@ public class EdgeSpec
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_FEModel_EdgeSpec__ctor"></a> EdgeSpec\(\)
+### EdgeSpec\(\)
 
 ```csharp
 public EdgeSpec()
@@ -35,7 +35,7 @@ public EdgeSpec()
 
 ## Fields
 
-### <a id="OpenTD_RadCAD_FEModel_EdgeSpec_edge"></a> edge
+### edge
 
 ```csharp
 public int edge
@@ -45,7 +45,7 @@ public int edge
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_FEModel_EdgeSpec_id"></a> id
+### id
 
 ```csharp
 public int id
@@ -54,4 +54,5 @@ public int id
 #### Field Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 

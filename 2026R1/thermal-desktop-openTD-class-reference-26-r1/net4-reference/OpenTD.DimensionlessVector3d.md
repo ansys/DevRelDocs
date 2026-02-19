@@ -1,4 +1,4 @@
-# <a id="OpenTD_DimensionlessVector3d"></a> Class DimensionlessVector3d
+# Class DimensionlessVector3d
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ A dimensionless 3D vector.
 public class DimensionlessVector3d
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [DimensionlessVector3d](OpenTD.DimensionlessVector3d.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,7 +27,7 @@ public class DimensionlessVector3d
 
 ## Constructors
 
-### <a id="OpenTD_DimensionlessVector3d__ctor"></a> DimensionlessVector3d\(\)
+### DimensionlessVector3d\(\)
 
 Initializes a new instance of the <xref href="OpenTD.DimensionlessVector3d" data-throw-if-not-resolved="false"></xref> class.
 
@@ -35,7 +35,7 @@ Initializes a new instance of the <xref href="OpenTD.DimensionlessVector3d" data
 public DimensionlessVector3d()
 ```
 
-### <a id="OpenTD_DimensionlessVector3d__ctor_System_Double_System_Double_System_Double_"></a> DimensionlessVector3d\(double, double, double\)
+### DimensionlessVector3d\(double, double, double\)
 
 Initializes a new instance of the <xref href="OpenTD.DimensionlessVector3d" data-throw-if-not-resolved="false"></xref> class.
 
@@ -57,7 +57,7 @@ The y coordinate.
 
 The z coordinate.
 
-### <a id="OpenTD_DimensionlessVector3d__ctor_OpenTD_DimensionlessVector3d_"></a> DimensionlessVector3d\(DimensionlessVector3d\)
+### DimensionlessVector3d\(DimensionlessVector3d\)
 
 Initializes a new instance of the <xref href="OpenTD.DimensionlessVector3d" data-throw-if-not-resolved="false"></xref> class.
 Copy constructor.
@@ -70,7 +70,7 @@ public DimensionlessVector3d(DimensionlessVector3d v)
 
 `v` [DimensionlessVector3d](OpenTD.DimensionlessVector3d.md)
 
-### <a id="OpenTD_DimensionlessVector3d__ctor_OpenTD_Vector3d_"></a> DimensionlessVector3d\(Vector3d\)
+### DimensionlessVector3d\(Vector3d\)
 
 ```csharp
 public DimensionlessVector3d(Vector3d v)
@@ -82,7 +82,7 @@ public DimensionlessVector3d(Vector3d v)
 
 ## Properties
 
-### <a id="OpenTD_DimensionlessVector3d_X"></a> X
+### X
 
 ```csharp
 [DataMember]
@@ -93,7 +93,7 @@ public double X { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_DimensionlessVector3d_Y"></a> Y
+### Y
 
 ```csharp
 [DataMember]
@@ -104,7 +104,7 @@ public double Y { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_DimensionlessVector3d_Z"></a> Z
+### Z
 
 ```csharp
 [DataMember]
@@ -117,7 +117,7 @@ public double Z { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_DimensionlessVector3d_CrossProduct_OpenTD_DimensionlessVector3d_"></a> CrossProduct\(DimensionlessVector3d\)
+### CrossProduct\(DimensionlessVector3d\)
 
 ```csharp
 public DimensionlessVector3d CrossProduct(DimensionlessVector3d vv)
@@ -131,7 +131,7 @@ public DimensionlessVector3d CrossProduct(DimensionlessVector3d vv)
 
  [DimensionlessVector3d](OpenTD.DimensionlessVector3d.md)
 
-### <a id="OpenTD_DimensionlessVector3d_DotProduct_OpenTD_DimensionlessVector3d_"></a> DotProduct\(DimensionlessVector3d\)
+### DotProduct\(DimensionlessVector3d\)
 
 ```csharp
 public double DotProduct(DimensionlessVector3d v)
@@ -145,7 +145,7 @@ public double DotProduct(DimensionlessVector3d v)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_DimensionlessVector3d_Equals_System_Object_"></a> Equals\(object\)
+### Equals\(object\)
 
 Determines whether the specified object is equal to the current object.
 
@@ -163,9 +163,9 @@ The object to compare with the current object.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+[true](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool) if the specified object  is equal to the current object; otherwise, [false](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool).
 
-### <a id="OpenTD_DimensionlessVector3d_GetHashCode"></a> GetHashCode\(\)
+### GetHashCode\(\)
 
 Serves as the default hash function.
 
@@ -179,7 +179,7 @@ public override int GetHashCode()
 
 A hash code for the current object.
 
-### <a id="OpenTD_DimensionlessVector3d_Length"></a> Length\(\)
+### Length\(\)
 
 ```csharp
 public double Length()
@@ -189,7 +189,7 @@ public double Length()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_DimensionlessVector3d_LengthSqrd"></a> LengthSqrd\(\)
+### LengthSqrd\(\)
 
 ```csharp
 public double LengthSqrd()
@@ -199,7 +199,7 @@ public double LengthSqrd()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_DimensionlessVector3d_Mag"></a> Mag\(\)
+### Mag\(\)
 
 ```csharp
 public double Mag()
@@ -209,7 +209,7 @@ public double Mag()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_DimensionlessVector3d_Normal"></a> Normal\(\)
+### Normal\(\)
 
 ```csharp
 public DimensionlessVector3d Normal()
@@ -219,13 +219,13 @@ public DimensionlessVector3d Normal()
 
  [DimensionlessVector3d](OpenTD.DimensionlessVector3d.md)
 
-### <a id="OpenTD_DimensionlessVector3d_Normalize"></a> Normalize\(\)
+### Normalize\(\)
 
 ```csharp
 public void Normalize()
 ```
 
-### <a id="OpenTD_DimensionlessVector3d_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -239,7 +239,7 @@ public override string ToString()
 
 A string that represents the current object.
 
-### <a id="OpenTD_DimensionlessVector3d_set_System_Double_System_Double_System_Double_"></a> set\(double, double, double\)
+### set\(double, double, double\)
 
 ```csharp
 public void set(double v1, double v2, double v3)
@@ -255,7 +255,7 @@ public void set(double v1, double v2, double v3)
 
 ## Operators
 
-### <a id="OpenTD_DimensionlessVector3d_op_Addition_OpenTD_DimensionlessVector3d_OpenTD_DimensionlessVector3d_"></a> operator \+\(DimensionlessVector3d, DimensionlessVector3d\)
+### operator \+\(DimensionlessVector3d, DimensionlessVector3d\)
 
 ```csharp
 public static DimensionlessVector3d operator +(DimensionlessVector3d a, DimensionlessVector3d b)
@@ -271,7 +271,7 @@ public static DimensionlessVector3d operator +(DimensionlessVector3d a, Dimensio
 
  [DimensionlessVector3d](OpenTD.DimensionlessVector3d.md)
 
-### <a id="OpenTD_DimensionlessVector3d_op_Division_OpenTD_DimensionlessVector3d_System_Double_"></a> operator /\(DimensionlessVector3d, double\)
+### operator /\(DimensionlessVector3d, double\)
 
 ```csharp
 public static DimensionlessVector3d operator /(DimensionlessVector3d v, double s)
@@ -287,7 +287,7 @@ public static DimensionlessVector3d operator /(DimensionlessVector3d v, double s
 
  [DimensionlessVector3d](OpenTD.DimensionlessVector3d.md)
 
-### <a id="OpenTD_DimensionlessVector3d_op_Equality_OpenTD_DimensionlessVector3d_OpenTD_DimensionlessVector3d_"></a> operator ==\(DimensionlessVector3d, DimensionlessVector3d\)
+### operator ==\(DimensionlessVector3d, DimensionlessVector3d\)
 
 ```csharp
 public static bool operator ==(DimensionlessVector3d first, DimensionlessVector3d second)
@@ -303,7 +303,7 @@ public static bool operator ==(DimensionlessVector3d first, DimensionlessVector3
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_DimensionlessVector3d_op_Inequality_OpenTD_DimensionlessVector3d_OpenTD_DimensionlessVector3d_"></a> operator \!=\(DimensionlessVector3d, DimensionlessVector3d\)
+### operator \!=\(DimensionlessVector3d, DimensionlessVector3d\)
 
 ```csharp
 public static bool operator !=(DimensionlessVector3d first, DimensionlessVector3d second)
@@ -319,7 +319,7 @@ public static bool operator !=(DimensionlessVector3d first, DimensionlessVector3
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_DimensionlessVector3d_op_Modulus_OpenTD_DimensionlessVector3d_OpenTD_DimensionlessVector3d_"></a> operator %\(DimensionlessVector3d, DimensionlessVector3d\)
+### operator %\(DimensionlessVector3d, DimensionlessVector3d\)
 
 ```csharp
 public static DimensionlessVector3d operator %(DimensionlessVector3d u, DimensionlessVector3d v)
@@ -335,7 +335,7 @@ public static DimensionlessVector3d operator %(DimensionlessVector3d u, Dimensio
 
  [DimensionlessVector3d](OpenTD.DimensionlessVector3d.md)
 
-### <a id="OpenTD_DimensionlessVector3d_op_Multiply_OpenTD_DimensionlessVector3d_OpenTD_DimensionlessVector3d_"></a> operator \*\(DimensionlessVector3d, DimensionlessVector3d\)
+### operator \*\(DimensionlessVector3d, DimensionlessVector3d\)
 
 ```csharp
 public static double operator *(DimensionlessVector3d a, DimensionlessVector3d b)
@@ -351,7 +351,7 @@ public static double operator *(DimensionlessVector3d a, DimensionlessVector3d b
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_DimensionlessVector3d_op_Multiply_System_Double_OpenTD_DimensionlessVector3d_"></a> operator \*\(double, DimensionlessVector3d\)
+### operator \*\(double, DimensionlessVector3d\)
 
 ```csharp
 public static DimensionlessVector3d operator *(double s, DimensionlessVector3d v)
@@ -367,7 +367,7 @@ public static DimensionlessVector3d operator *(double s, DimensionlessVector3d v
 
  [DimensionlessVector3d](OpenTD.DimensionlessVector3d.md)
 
-### <a id="OpenTD_DimensionlessVector3d_op_Multiply_OpenTD_DimensionlessVector3d_System_Double_"></a> operator \*\(DimensionlessVector3d, double\)
+### operator \*\(DimensionlessVector3d, double\)
 
 ```csharp
 public static DimensionlessVector3d operator *(DimensionlessVector3d v, double s)
@@ -383,7 +383,7 @@ public static DimensionlessVector3d operator *(DimensionlessVector3d v, double s
 
  [DimensionlessVector3d](OpenTD.DimensionlessVector3d.md)
 
-### <a id="OpenTD_DimensionlessVector3d_op_Subtraction_OpenTD_DimensionlessVector3d_OpenTD_DimensionlessVector3d_"></a> operator \-\(DimensionlessVector3d, DimensionlessVector3d\)
+### operator \-\(DimensionlessVector3d, DimensionlessVector3d\)
 
 ```csharp
 public static DimensionlessVector3d operator -(DimensionlessVector3d a, DimensionlessVector3d b)
@@ -399,7 +399,7 @@ public static DimensionlessVector3d operator -(DimensionlessVector3d a, Dimensio
 
  [DimensionlessVector3d](OpenTD.DimensionlessVector3d.md)
 
-### <a id="OpenTD_DimensionlessVector3d_op_UnaryNegation_OpenTD_DimensionlessVector3d_"></a> operator \-\(DimensionlessVector3d\)
+### operator \-\(DimensionlessVector3d\)
 
 ```csharp
 public static DimensionlessVector3d operator -(DimensionlessVector3d a)
@@ -412,4 +412,5 @@ public static DimensionlessVector3d operator -(DimensionlessVector3d a)
 #### Returns
 
  [DimensionlessVector3d](OpenTD.DimensionlessVector3d.md)
+
 

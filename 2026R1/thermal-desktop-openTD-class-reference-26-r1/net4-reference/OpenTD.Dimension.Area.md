@@ -1,4 +1,4 @@
-# <a id="OpenTD_Dimension_Area"></a> Class Area
+# Class Area
 
 Namespace: [OpenTD.Dimension](OpenTD.Dimension.md)  
 Assembly: OpenTD.dll  
@@ -7,16 +7,16 @@ Assembly: OpenTD.dll
 public class Area : IDimension
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Area](OpenTD.Dimension.Area.md)
 
-#### Implements
+## Implements
 
 [IDimension](OpenTD.Dimension.IDimension.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -28,7 +28,7 @@ public class Area : IDimension
 
 ## Methods
 
-### <a id="OpenTD_Dimension_Area_ConvertFromSI_System_Double_OpenTD_UnitsData_"></a> ConvertFromSI\(double, UnitsData\)
+### ConvertFromSI\(double, UnitsData\)
 
 Converts x from SI to input units.
 
@@ -46,7 +46,7 @@ public double ConvertFromSI(double x, UnitsData units)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Dimension_Area_ConvertToSI_OpenTD_UnitsData_System_Double_"></a> ConvertToSI\(UnitsData, double\)
+### ConvertToSI\(UnitsData, double\)
 
 Converts x from input units to SI.
 
@@ -64,7 +64,7 @@ public double ConvertToSI(UnitsData units, double x)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Dimension_Area_GetName"></a> GetName\(\)
+### GetName\(\)
 
 Gets the name of the dimension, e.g., "Density".
 
@@ -78,7 +78,7 @@ public string GetName()
 
 System.String.
 
-### <a id="OpenTD_Dimension_Area_GetTitle_OpenTD_UnitsData_"></a> GetTitle\(UnitsData\)
+### GetTitle\(UnitsData\)
 
 Gets the name of the dimension and the unit, e.g., "Density (kg/m3)".
 
@@ -98,7 +98,7 @@ The units.
 
 System.String.
 
-### <a id="OpenTD_Dimension_Area_GetUnitsName_OpenTD_UnitsData_"></a> GetUnitsName\(UnitsData\)
+### GetUnitsName\(UnitsData\)
 
 Gets the name of unit corresponding to this dimension, e.g. "kg/m3".
 
@@ -117,4 +117,5 @@ The units.
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 System.String.
+
 

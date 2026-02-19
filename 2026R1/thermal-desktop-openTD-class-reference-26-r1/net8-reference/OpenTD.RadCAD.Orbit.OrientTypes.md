@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_Orbit_OrientTypes"></a> Enum Orbit.OrientTypes
+# Enum Orbit.OrientTypes
 
 Namespace: [OpenTD.RadCAD](OpenTD.RadCAD.md)  
 Assembly: OpenTD.dll  
@@ -16,4 +16,5 @@ public enum Orbit.OrientTypes
 `SUN = 1` 
 
 `VELOCITY = 3` 
+
 

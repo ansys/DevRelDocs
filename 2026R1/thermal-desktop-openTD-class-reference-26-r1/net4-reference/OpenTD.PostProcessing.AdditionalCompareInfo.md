@@ -1,4 +1,4 @@
-# <a id="OpenTD_PostProcessing_AdditionalCompareInfo"></a> Class AdditionalCompareInfo
+# Class AdditionalCompareInfo
 
 Namespace: [OpenTD.PostProcessing](OpenTD.PostProcessing.md)  
 Assembly: OpenTD.dll  
@@ -11,13 +11,13 @@ Implements the <xref href="OpenTD.PostProcessing.AdditionalDatasetInfo" data-thr
 public class AdditionalCompareInfo : AdditionalDatasetInfo
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AdditionalDatasetInfo](OpenTD.PostProcessing.AdditionalDatasetInfo.md) ← 
 [AdditionalCompareInfo](OpenTD.PostProcessing.AdditionalCompareInfo.md)
 
-#### Inherited Members
+## Inherited Members
 
 [AdditionalDatasetInfo.Pathname](OpenTD.PostProcessing.AdditionalDatasetInfo.md\#OpenTD\_PostProcessing\_AdditionalDatasetInfo\_Pathname), 
 [AdditionalDatasetInfo.\_pathname](OpenTD.PostProcessing.AdditionalDatasetInfo.md\#OpenTD\_PostProcessing\_AdditionalDatasetInfo\_\_pathname), 
@@ -31,7 +31,7 @@ public class AdditionalCompareInfo : AdditionalDatasetInfo
 
 ## Constructors
 
-### <a id="OpenTD_PostProcessing_AdditionalCompareInfo__ctor"></a> AdditionalCompareInfo\(\)
+### AdditionalCompareInfo\(\)
 
 ```csharp
 public AdditionalCompareInfo()
@@ -39,7 +39,7 @@ public AdditionalCompareInfo()
 
 ## Properties
 
-### <a id="OpenTD_PostProcessing_AdditionalCompareInfo_DataSetNames"></a> DataSetNames
+### DataSetNames
 
 ```csharp
 [DataMember]
@@ -50,7 +50,7 @@ public List<string> DataSetNames { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_PostProcessing_AdditionalCompareInfo_Format"></a> Format
+### Format
 
 ```csharp
 [DataMember]
@@ -61,7 +61,7 @@ public string Format { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_AdditionalCompareInfo_Type"></a> Type
+### Type
 
 ```csharp
 [DataMember]
@@ -72,7 +72,7 @@ public int Type { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_AdditionalCompareInfo_Type2"></a> Type2
+### Type2
 
 ```csharp
 [DataMember]
@@ -87,4 +87,5 @@ public int Type2 { get; set; }
 
 [AdditionalDatasetInfo](OpenTD.PostProcessing.AdditionalDatasetInfo.md), 
 [Dataset](OpenTD.PostProcessing.Dataset.md)
+
 

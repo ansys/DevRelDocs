@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadiationTaskData_NodeNameTypes"></a> Enum RadiationTaskData.NodeNameTypes
+# Enum RadiationTaskData.NodeNameTypes
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -16,4 +16,5 @@ public enum RadiationTaskData.NodeNameTypes
 `SPECIFIC = 1` 
 
 `TOPBOT = 2` 
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_EllipticCylinder"></a> Class EllipticCylinder
+# Class EllipticCylinder
 
 Namespace: [OpenTD.RadCAD](OpenTD.RadCAD.md)  
 Assembly: OpenTD.dll  
@@ -10,7 +10,7 @@ Client-side representation of an EllipticCylinder in a TD instance.
 public class EllipticCylinder : RcConicData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -20,11 +20,11 @@ public class EllipticCylinder : RcConicData, IUpdatable
 [RcConicData](OpenTD.RadCAD.RcConicData.md) ← 
 [EllipticCylinder](OpenTD.RadCAD.EllipticCylinder.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [RcConicData.LocalTrans](OpenTD.RadCAD.RcConicData.md\#OpenTD\_RadCAD\_RcConicData\_LocalTrans), 
 [RcConicData.BaseTrans](OpenTD.RadCAD.RcConicData.md\#OpenTD\_RadCAD\_RcConicData\_BaseTrans), 
@@ -159,7 +159,7 @@ public class EllipticCylinder : RcConicData, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_EllipticCylinder__ctor"></a> EllipticCylinder\(\)
+### EllipticCylinder\(\)
 
 ```csharp
 public EllipticCylinder()
@@ -167,7 +167,7 @@ public EllipticCylinder()
 
 ## Properties
 
-### <a id="OpenTD_RadCAD_EllipticCylinder_EndAngle"></a> EndAngle
+### EndAngle
 
 ```csharp
 [DataMember]
@@ -178,7 +178,7 @@ public Dimensional<Angle> EndAngle { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_EllipticCylinder_EndAngleExp"></a> EndAngleExp
+### EndAngleExp
 
 ```csharp
 [DataMember]
@@ -189,7 +189,7 @@ public ExpressionData EndAngleExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_EllipticCylinder_Height"></a> Height
+### Height
 
 ```csharp
 [DataMember]
@@ -200,7 +200,7 @@ public Dimensional<ModelLength> Height { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_EllipticCylinder_HeightExp"></a> HeightExp
+### HeightExp
 
 ```csharp
 [DataMember]
@@ -211,7 +211,7 @@ public ExpressionData HeightExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_EllipticCylinder_SemiMajor"></a> SemiMajor
+### SemiMajor
 
 ```csharp
 [DataMember]
@@ -222,7 +222,7 @@ public Dimensional<ModelLength> SemiMajor { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_EllipticCylinder_SemiMajorExp"></a> SemiMajorExp
+### SemiMajorExp
 
 ```csharp
 [DataMember]
@@ -233,7 +233,7 @@ public ExpressionData SemiMajorExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_EllipticCylinder_SemiMinor"></a> SemiMinor
+### SemiMinor
 
 ```csharp
 [DataMember]
@@ -244,7 +244,7 @@ public Dimensional<ModelLength> SemiMinor { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_EllipticCylinder_SemiMinorExp"></a> SemiMinorExp
+### SemiMinorExp
 
 ```csharp
 [DataMember]
@@ -255,7 +255,7 @@ public ExpressionData SemiMinorExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_EllipticCylinder_StartAngle"></a> StartAngle
+### StartAngle
 
 ```csharp
 [DataMember]
@@ -266,7 +266,7 @@ public Dimensional<Angle> StartAngle { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_EllipticCylinder_StartAngleExp"></a> StartAngleExp
+### StartAngleExp
 
 ```csharp
 [DataMember]
@@ -279,7 +279,7 @@ public ExpressionData StartAngleExp { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_RadCAD_EllipticCylinder_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -291,7 +291,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_RadCAD_EllipticCylinder_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -299,7 +299,7 @@ Updates the TD entity with the latest client data.
 public override void Update()
 ```
 
-### <a id="OpenTD_RadCAD_EllipticCylinder_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -310,4 +310,5 @@ public override void UpdateFromTD()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

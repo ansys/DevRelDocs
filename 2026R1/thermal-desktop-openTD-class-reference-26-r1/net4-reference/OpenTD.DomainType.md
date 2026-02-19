@@ -1,4 +1,4 @@
-# <a id="OpenTD_DomainType"></a> Enum DomainType
+# Enum DomainType
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -24,4 +24,5 @@ public enum DomainType
 `SOLIDSET = 3` 
 
 `UNSPECIFIED_TAG_TYPE = -1` 
+
 

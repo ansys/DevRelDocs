@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_OrbitParameters_ShapeTypes"></a> Enum OrbitParameters.ShapeTypes
+# Enum OrbitParameters.ShapeTypes
 
 Namespace: [OpenTD.RadCAD](OpenTD.RadCAD.md)  
 Assembly: OpenTD.dll  
@@ -16,4 +16,5 @@ public enum OrbitParameters.ShapeTypes
 `MINALT = 0` 
 
 `PERIOD = 3` 
+
 

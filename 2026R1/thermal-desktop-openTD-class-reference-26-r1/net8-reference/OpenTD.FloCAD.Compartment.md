@@ -1,4 +1,4 @@
-# <a id="OpenTD_FloCAD_Compartment"></a> Class Compartment
+# Class Compartment
 
 Namespace: [OpenTD.FloCAD](OpenTD.FloCAD.md)  
 Assembly: OpenTD.dll  
@@ -6,10 +6,11 @@ Assembly: OpenTD.dll
 Client-side representation of a Compartment entity in a TD instance.
 
 ```csharp
+[MessagePackObject(true)]
 public class Compartment : TdDbEntityData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -17,11 +18,11 @@ public class Compartment : TdDbEntityData, IUpdatable
 [TdDbEntityData](OpenTD.TdDbEntityData.md) ← 
 [Compartment](OpenTD.FloCAD.Compartment.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [TdDbEntityData.SetFrom\(TdDbEntityData\)](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_SetFrom\_OpenTD\_TdDbEntityData\_), 
 [TdDbEntityData.Layer](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_Layer), 
@@ -53,7 +54,7 @@ public class Compartment : TdDbEntityData, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_FloCAD_Compartment__ctor"></a> Compartment\(\)
+### Compartment\(\)
 
 ```csharp
 public Compartment()
@@ -61,7 +62,7 @@ public Compartment()
 
 ## Properties
 
-### <a id="OpenTD_FloCAD_Compartment_Bays"></a> Bays
+### Bays
 
 ```csharp
 public List<Bay> Bays { get; set; }
@@ -71,7 +72,7 @@ public List<Bay> Bays { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Bay](OpenTD.FloCAD.Bay.md)\>
 
-### <a id="OpenTD_FloCAD_Compartment_Comment"></a> Comment
+### Comment
 
 ```csharp
 public string Comment { get; set; }
@@ -81,7 +82,7 @@ public string Comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FloCAD_Compartment_CompartmentId"></a> CompartmentId
+### CompartmentId
 
 ```csharp
 public int CompartmentId { get; set; }
@@ -91,7 +92,7 @@ public int CompartmentId { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_FloCAD_Compartment_Enabled"></a> Enabled
+### Enabled
 
 ```csharp
 public int Enabled { get; set; }
@@ -101,7 +102,7 @@ public int Enabled { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_FloCAD_Compartment_EnabledExp"></a> EnabledExp
+### EnabledExp
 
 ```csharp
 public ExpressionData EnabledExp { get; set; }
@@ -111,7 +112,7 @@ public ExpressionData EnabledExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_FloCAD_Compartment_LiquidColor"></a> LiquidColor
+### LiquidColor
 
 ```csharp
 public int LiquidColor { get; set; }
@@ -121,9 +122,10 @@ public int LiquidColor { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_FloCAD_Compartment_LumpHandle"></a> LumpHandle
+### LumpHandle
 
 ```csharp
+[IgnoreMember]
 public string LumpHandle { get; }
 ```
 
@@ -131,7 +133,7 @@ public string LumpHandle { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FloCAD_Compartment_PackingFactor"></a> PackingFactor
+### PackingFactor
 
 ```csharp
 public double PackingFactor { get; set; }
@@ -141,7 +143,7 @@ public double PackingFactor { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_FloCAD_Compartment_PackingFactorExp"></a> PackingFactorExp
+### PackingFactorExp
 
 ```csharp
 public ExpressionData PackingFactorExp { get; set; }
@@ -151,7 +153,7 @@ public ExpressionData PackingFactorExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_FloCAD_Compartment_ShowIds"></a> ShowIds
+### ShowIds
 
 ```csharp
 public bool ShowIds { get; set; }
@@ -161,7 +163,7 @@ public bool ShowIds { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_FloCAD_Compartment_ShowLV"></a> ShowLV
+### ShowLV
 
 ```csharp
 public int ShowLV { get; set; }
@@ -171,7 +173,7 @@ public int ShowLV { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_FloCAD_Compartment_ShowLVExp"></a> ShowLVExp
+### ShowLVExp
 
 ```csharp
 public ExpressionData ShowLVExp { get; set; }
@@ -181,7 +183,7 @@ public ExpressionData ShowLVExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_FloCAD_Compartment_ShowSelectionRing"></a> ShowSelectionRing
+### ShowSelectionRing
 
 ```csharp
 public int ShowSelectionRing { get; set; }
@@ -191,7 +193,7 @@ public int ShowSelectionRing { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_FloCAD_Compartment_ShowSelectionRingExp"></a> ShowSelectionRingExp
+### ShowSelectionRingExp
 
 ```csharp
 public ExpressionData ShowSelectionRingExp { get; set; }
@@ -201,7 +203,7 @@ public ExpressionData ShowSelectionRingExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_FloCAD_Compartment_Ties"></a> Ties
+### Ties
 
 ```csharp
 public List<CompartmentTie> Ties { get; set; }
@@ -211,7 +213,7 @@ public List<CompartmentTie> Ties { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[CompartmentTie](OpenTD.FloCAD.CompartmentTie.md)\>
 
-### <a id="OpenTD_FloCAD_Compartment_TwinLump"></a> TwinLump
+### TwinLump
 
 ```csharp
 public int TwinLump { get; set; }
@@ -221,7 +223,7 @@ public int TwinLump { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_FloCAD_Compartment__LumpHandle"></a> \_LumpHandle
+### \_LumpHandle
 
 Do not use.
 
@@ -235,7 +237,7 @@ public string _LumpHandle { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_FloCAD_Compartment_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -247,7 +249,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_FloCAD_Compartment_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -261,7 +263,7 @@ public override string ToString()
 
 A string that represents the current object.
 
-### <a id="OpenTD_FloCAD_Compartment_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -269,7 +271,7 @@ Updates the TD entity with the latest client data.
 public override void Update()
 ```
 
-### <a id="OpenTD_FloCAD_Compartment_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -280,4 +282,5 @@ public override void UpdateFromTD()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_RadiationAnalysisGroupManager"></a> Class RadiationAnalysisGroupManager
+# Class RadiationAnalysisGroupManager
 
 Namespace: [OpenTD.RadCAD](OpenTD.RadCAD.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ Each ThermalDesktop object includes a RadiationAnalysisGroupManager.
 public class RadiationAnalysisGroupManager
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [RadiationAnalysisGroupManager](OpenTD.RadCAD.RadiationAnalysisGroupManager.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -27,7 +27,7 @@ public class RadiationAnalysisGroupManager
 
 ## Methods
 
-### <a id="OpenTD_RadCAD_RadiationAnalysisGroupManager_Copy_System_String_System_String_"></a> Copy\(string, string\)
+### Copy\(string, string\)
 
 BETA-OPENTD This feature is untested in OpenTD
 
@@ -41,7 +41,7 @@ public void Copy(string original, string newName)
 
 `newName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_RadiationAnalysisGroupManager_CreateOrUpdate_System_String_System_String_"></a> CreateOrUpdate\(string, string\)
+### CreateOrUpdate\(string, string\)
 
 ```csharp
 public void CreateOrUpdate(string name, string comment = "")
@@ -53,7 +53,7 @@ public void CreateOrUpdate(string name, string comment = "")
 
 `comment` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_RadiationAnalysisGroupManager_GetDefault"></a> GetDefault\(\)
+### GetDefault\(\)
 
 ```csharp
 public string GetDefault()
@@ -63,7 +63,7 @@ public string GetDefault()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_RadiationAnalysisGroupManager_GetRadiationGroup_System_String_"></a> GetRadiationGroup\(string\)
+### GetRadiationGroup\(string\)
 
 ```csharp
 public Tuple<string, string> GetRadiationGroup(string name)
@@ -77,7 +77,7 @@ public Tuple<string, string> GetRadiationGroup(string name)
 
  [Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_RadiationAnalysisGroupManager_GetRadiationGroups"></a> GetRadiationGroups\(\)
+### GetRadiationGroups\(\)
 
 ```csharp
 public List<Tuple<string, string>> GetRadiationGroups()
@@ -87,7 +87,7 @@ public List<Tuple<string, string>> GetRadiationGroups()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>\>
 
-### <a id="OpenTD_RadCAD_RadiationAnalysisGroupManager_Merge_System_Collections_Generic_IEnumerable_System_String__System_String_"></a> Merge\(IEnumerable<string\>, string\)
+### Merge\(IEnumerable<string\>, string\)
 
 BETA-OPENTD This feature is untested in OpenTD
 
@@ -101,7 +101,7 @@ public void Merge(IEnumerable<string> origNames, string newName)
 
 `newName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_RadiationAnalysisGroupManager_PurgeUnused"></a> PurgeUnused\(\)
+### PurgeUnused\(\)
 
 BETA-OPENTD This feature is untested in OpenTD
 
@@ -109,7 +109,7 @@ BETA-OPENTD This feature is untested in OpenTD
 public void PurgeUnused()
 ```
 
-### <a id="OpenTD_RadCAD_RadiationAnalysisGroupManager_Remove_System_String_"></a> Remove\(string\)
+### Remove\(string\)
 
 BETA-OPENTD This feature is untested in OpenTD
 
@@ -121,7 +121,7 @@ public void Remove(string name)
 
 `name` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_RadiationAnalysisGroupManager_Rename_System_String_System_String_"></a> Rename\(string, string\)
+### Rename\(string, string\)
 
 BETA-OPENTD This feature is untested in OpenTD
 
@@ -135,7 +135,7 @@ public void Rename(string oldName, string newName)
 
 `newName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_RadiationAnalysisGroupManager_SetDefault_System_String_"></a> SetDefault\(string\)
+### SetDefault\(string\)
 
 ```csharp
 public void SetDefault(string name)
@@ -144,4 +144,5 @@ public void SetDefault(string name)
 #### Parameters
 
 `name` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

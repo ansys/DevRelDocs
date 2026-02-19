@@ -1,4 +1,4 @@
-# <a id="OpenTD_RegisterData"></a> Class RegisterData
+# Class RegisterData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,15 +6,16 @@ Assembly: OpenTD.dll
 Represents a Sinda register, used in a Case Set.
 
 ```csharp
+[MessagePackObject(true)]
 public class RegisterData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [RegisterData](OpenTD.RegisterData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +27,7 @@ public class RegisterData
 
 ## Constructors
 
-### <a id="OpenTD_RegisterData__ctor"></a> RegisterData\(\)
+### RegisterData\(\)
 
 ```csharp
 public RegisterData()
@@ -34,7 +35,7 @@ public RegisterData()
 
 ## Properties
 
-### <a id="OpenTD_RegisterData_Comment"></a> Comment
+### Comment
 
 ```csharp
 public string Comment { get; set; }
@@ -44,7 +45,7 @@ public string Comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RegisterData_Disabled"></a> Disabled
+### Disabled
 
 ```csharp
 public bool Disabled { get; set; }
@@ -54,7 +55,7 @@ public bool Disabled { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_RegisterData_Integer"></a> Integer
+### Integer
 
 ```csharp
 public bool Integer { get; set; }
@@ -64,7 +65,7 @@ public bool Integer { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_RegisterData_Name"></a> Name
+### Name
 
 ```csharp
 public string Name { get; set; }
@@ -74,7 +75,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RegisterData_UserValue"></a> UserValue
+### UserValue
 
 ```csharp
 public string UserValue { get; set; }
@@ -84,7 +85,7 @@ public string UserValue { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RegisterData_valueType"></a> valueType
+### valueType
 
 ```csharp
 public RegisterData.ValueType valueType { get; set; }
@@ -97,4 +98,5 @@ public RegisterData.ValueType valueType { get; set; }
 ## See Also
 
 [CaseSet](OpenTD.CaseSet.md)
+
 

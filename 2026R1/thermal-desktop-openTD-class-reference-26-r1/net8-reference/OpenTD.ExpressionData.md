@@ -1,4 +1,4 @@
-# <a id="OpenTD_ExpressionData"></a> Class ExpressionData
+# Class ExpressionData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,15 +6,16 @@ Assembly: OpenTD.dll
 Data describing a TD expression.
 
 ```csharp
+[MessagePackObject(true)]
 public class ExpressionData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ExpressionData](OpenTD.ExpressionData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +27,7 @@ public class ExpressionData
 
 ## Constructors
 
-### <a id="OpenTD_ExpressionData__ctor"></a> ExpressionData\(\)
+### ExpressionData\(\)
 
 Initializes a new instance of the <xref href="OpenTD.ExpressionData" data-throw-if-not-resolved="false"></xref> class.
 
@@ -34,7 +35,7 @@ Initializes a new instance of the <xref href="OpenTD.ExpressionData" data-throw-
 public ExpressionData()
 ```
 
-### <a id="OpenTD_ExpressionData__ctor_System_String_"></a> ExpressionData\(string\)
+### ExpressionData\(string\)
 
 Initializes a new instance of the <xref href="OpenTD.ExpressionData" data-throw-if-not-resolved="false"></xref> class.
 
@@ -48,7 +49,7 @@ public ExpressionData(string expression)
 
 The expression.
 
-### <a id="OpenTD_ExpressionData__ctor_System_String_OpenTD_UnitsData_"></a> ExpressionData\(string, UnitsData\)
+### ExpressionData\(string, UnitsData\)
 
 Initializes a new instance of the <xref href="OpenTD.ExpressionData" data-throw-if-not-resolved="false"></xref> class.
 
@@ -66,7 +67,7 @@ The expression.
 
 The expression units.
 
-### <a id="OpenTD_ExpressionData__ctor_OpenTD_ExpressionData_"></a> ExpressionData\(ExpressionData\)
+### ExpressionData\(ExpressionData\)
 
 ```csharp
 public ExpressionData(ExpressionData x)
@@ -78,7 +79,7 @@ public ExpressionData(ExpressionData x)
 
 ## Properties
 
-### <a id="OpenTD_ExpressionData_Comment"></a> Comment
+### Comment
 
 ```csharp
 public string Comment { get; set; }
@@ -88,7 +89,7 @@ public string Comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_ExpressionData_DisableWarnings"></a> DisableWarnings
+### DisableWarnings
 
 ```csharp
 public bool DisableWarnings { get; set; }
@@ -98,7 +99,7 @@ public bool DisableWarnings { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_ExpressionData_ExpressionInSindaUnits"></a> ExpressionInSindaUnits
+### ExpressionInSindaUnits
 
 ```csharp
 public bool ExpressionInSindaUnits { get; set; }
@@ -108,7 +109,7 @@ public bool ExpressionInSindaUnits { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_ExpressionData_OutputToSinda"></a> OutputToSinda
+### OutputToSinda
 
 ```csharp
 public bool OutputToSinda { get; set; }
@@ -118,7 +119,7 @@ public bool OutputToSinda { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_ExpressionData_Value"></a> Value
+### Value
 
 ```csharp
 public string Value { get; set; }
@@ -128,7 +129,7 @@ public string Value { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_ExpressionData_units"></a> units
+### units
 
 ExpressionDatas contain their own unit system, independent of the
 dwg units or OpenTD WorkingUnits. This unit system defaults to the
@@ -142,7 +143,7 @@ public UnitsData units { get; set; }
 
  [UnitsData](OpenTD.UnitsData.md)
 
-### <a id="OpenTD_ExpressionData_unitsType"></a> unitsType
+### unitsType
 
 ```csharp
 public UnitsData.UnitsType unitsType { get; set; }
@@ -154,7 +155,7 @@ public UnitsData.UnitsType unitsType { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_ExpressionData_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -170,7 +171,7 @@ A string that represents the current object.
 
 ## Operators
 
-### <a id="OpenTD_ExpressionData_op_Implicit_OpenTD_ExpressionData__System_String"></a> implicit operator string\(ExpressionData\)
+### implicit operator string\(ExpressionData\)
 
 ```csharp
 public static implicit operator string(ExpressionData x)
@@ -183,4 +184,5 @@ public static implicit operator string(ExpressionData x)
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

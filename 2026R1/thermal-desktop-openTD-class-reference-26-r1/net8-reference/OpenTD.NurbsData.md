@@ -1,4 +1,4 @@
-# <a id="OpenTD_NurbsData"></a> Class NurbsData
+# Class NurbsData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,15 +6,16 @@ Assembly: OpenTD.dll
 Describes a Non-Uniform Rational B-Spline
 
 ```csharp
+[MessagePackObject(true)]
 public class NurbsData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [NurbsData](OpenTD.NurbsData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +27,7 @@ public class NurbsData
 
 ## Constructors
 
-### <a id="OpenTD_NurbsData__ctor"></a> NurbsData\(\)
+### NurbsData\(\)
 
 ```csharp
 public NurbsData()
@@ -34,7 +35,7 @@ public NurbsData()
 
 ## Properties
 
-### <a id="OpenTD_NurbsData_Closed"></a> Closed
+### Closed
 
 ```csharp
 public bool Closed { get; set; }
@@ -44,7 +45,7 @@ public bool Closed { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_NurbsData_ControlPointTolerance"></a> ControlPointTolerance
+### ControlPointTolerance
 
 ```csharp
 public double ControlPointTolerance { get; set; }
@@ -54,7 +55,7 @@ public double ControlPointTolerance { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_NurbsData_ControlPoints"></a> ControlPoints
+### ControlPoints
 
 ```csharp
 public List<Point3d> ControlPoints { get; set; }
@@ -64,7 +65,7 @@ public List<Point3d> ControlPoints { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Point3d](OpenTD.Point3d.md)\>
 
-### <a id="OpenTD_NurbsData_Degree"></a> Degree
+### Degree
 
 ```csharp
 public int Degree { get; set; }
@@ -74,7 +75,7 @@ public int Degree { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_NurbsData_KnotTolerance"></a> KnotTolerance
+### KnotTolerance
 
 ```csharp
 public double KnotTolerance { get; set; }
@@ -84,7 +85,7 @@ public double KnotTolerance { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_NurbsData_Knots"></a> Knots
+### Knots
 
 ```csharp
 public List<double> Knots { get; set; }
@@ -94,7 +95,7 @@ public List<double> Knots { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="OpenTD_NurbsData_Periodic"></a> Periodic
+### Periodic
 
 ```csharp
 public bool Periodic { get; set; }
@@ -104,7 +105,7 @@ public bool Periodic { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_NurbsData_Rational"></a> Rational
+### Rational
 
 ```csharp
 public bool Rational { get; set; }
@@ -114,7 +115,7 @@ public bool Rational { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_NurbsData_Weights"></a> Weights
+### Weights
 
 ```csharp
 public List<double> Weights { get; set; }
@@ -127,4 +128,5 @@ public List<double> Weights { get; set; }
 ## See Also
 
 [Spline](OpenTD.Spline.md)
+
 

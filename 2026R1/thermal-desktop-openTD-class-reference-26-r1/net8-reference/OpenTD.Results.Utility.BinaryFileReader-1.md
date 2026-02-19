@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Utility_BinaryFileReader_1"></a> Class BinaryFileReader<T\>
+# Class BinaryFileReader<T\>
 
 Namespace: [OpenTD.Results.Utility](OpenTD.Results.Utility.md)  
 Assembly: OpenTD.Results.dll  
@@ -11,12 +11,12 @@ public class BinaryFileReader<T>
 
 `T` 
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [BinaryFileReader<T\>](OpenTD.Results.Utility.BinaryFileReader\-1.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -28,7 +28,7 @@ public class BinaryFileReader<T>
 
 ## Constructors
 
-### <a id="OpenTD_Results_Utility_BinaryFileReader_1__ctor__0_"></a> BinaryFileReader\(T\)
+### BinaryFileReader\(T\)
 
 ```csharp
 public BinaryFileReader(T t)
@@ -37,4 +37,5 @@ public BinaryFileReader(T t)
 #### Parameters
 
 `t` T
+
 

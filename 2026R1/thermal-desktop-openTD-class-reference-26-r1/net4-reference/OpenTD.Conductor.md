@@ -1,4 +1,4 @@
-# <a id="OpenTD_Conductor"></a> Class Conductor
+# Class Conductor
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -9,7 +9,7 @@ Client-side representation of a Conductor entity in a TD instance.
 public class Conductor : RcConductorData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -18,11 +18,11 @@ public class Conductor : RcConductorData, IUpdatable
 RcConductorData ← 
 [Conductor](OpenTD.Conductor.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [TdDbEntityData.SetFrom\(TdDbEntityData\)](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_SetFrom\_OpenTD\_TdDbEntityData\_), 
 [TdDbEntityData.Layer](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_Layer), 
@@ -54,7 +54,7 @@ RcConductorData ←
 
 ## Methods
 
-### <a id="OpenTD_Conductor_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -66,7 +66,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_Conductor_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -77,4 +77,5 @@ public override void Update()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

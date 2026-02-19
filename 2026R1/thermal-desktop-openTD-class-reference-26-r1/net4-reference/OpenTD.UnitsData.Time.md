@@ -1,4 +1,4 @@
-# <a id="OpenTD_UnitsData_Time"></a> Enum UnitsData.Time
+# Enum UnitsData.Time
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -16,4 +16,5 @@ public enum UnitsData.Time
 `MIN = 1` 
 
 `SEC = 0` 
+
 

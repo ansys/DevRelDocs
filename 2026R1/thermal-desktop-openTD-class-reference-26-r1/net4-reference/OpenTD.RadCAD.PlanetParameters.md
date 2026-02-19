@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_PlanetParameters"></a> Class PlanetParameters
+# Class PlanetParameters
 
 Namespace: [OpenTD.RadCAD](OpenTD.RadCAD.md)  
 Assembly: OpenTD.dll  
@@ -11,12 +11,12 @@ Defaults to Earth data.
 public class PlanetParameters
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [PlanetParameters](OpenTD.RadCAD.PlanetParameters.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -28,7 +28,7 @@ public class PlanetParameters
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_PlanetParameters__ctor"></a> PlanetParameters\(\)
+### PlanetParameters\(\)
 
 ```csharp
 public PlanetParameters()
@@ -36,7 +36,7 @@ public PlanetParameters()
 
 ## Properties
 
-### <a id="OpenTD_RadCAD_PlanetParameters_albedo"></a> albedo
+### albedo
 
 ```csharp
 [DataMember]
@@ -47,7 +47,7 @@ public double albedo { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_PlanetParameters_color"></a> color
+### color
 
 ```csharp
 [DataMember]
@@ -58,7 +58,7 @@ public int color { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_PlanetParameters_darkSideTempK"></a> darkSideTempK
+### darkSideTempK
 
 ```csharp
 [DataMember]
@@ -69,7 +69,7 @@ public double darkSideTempK { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_PlanetParameters_diurnalPeriodSec"></a> diurnalPeriodSec
+### diurnalPeriodSec
 
 ```csharp
 [DataMember]
@@ -80,7 +80,7 @@ public double diurnalPeriodSec { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_PlanetParameters_gravMassKm3s2"></a> gravMassKm3s2
+### gravMassKm3s2
 
 ```csharp
 [DataMember]
@@ -91,7 +91,7 @@ public double gravMassKm3s2 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_PlanetParameters_inclinationDeg"></a> inclinationDeg
+### inclinationDeg
 
 ```csharp
 [DataMember]
@@ -102,7 +102,7 @@ public double inclinationDeg { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_PlanetParameters_radiusKm"></a> radiusKm
+### radiusKm
 
 ```csharp
 [DataMember]
@@ -113,7 +113,7 @@ public double radiusKm { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_PlanetParameters_siderealPeriodSec"></a> siderealPeriodSec
+### siderealPeriodSec
 
 ```csharp
 [DataMember]
@@ -124,7 +124,7 @@ public double siderealPeriodSec { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_PlanetParameters_solarFluxWm2"></a> solarFluxWm2
+### solarFluxWm2
 
 ```csharp
 [DataMember]
@@ -135,7 +135,7 @@ public double solarFluxWm2 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_PlanetParameters_subSolarTempK"></a> subSolarTempK
+### subSolarTempK
 
 ```csharp
 [DataMember]
@@ -148,75 +148,76 @@ public double subSolarTempK { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_RadCAD_PlanetParameters_SetToEarth"></a> SetToEarth\(\)
+### SetToEarth\(\)
 
 ```csharp
 public void SetToEarth()
 ```
 
-### <a id="OpenTD_RadCAD_PlanetParameters_SetToGeneric"></a> SetToGeneric\(\)
+### SetToGeneric\(\)
 
 ```csharp
 public void SetToGeneric()
 ```
 
-### <a id="OpenTD_RadCAD_PlanetParameters_SetToJupiter"></a> SetToJupiter\(\)
+### SetToJupiter\(\)
 
 ```csharp
 public void SetToJupiter()
 ```
 
-### <a id="OpenTD_RadCAD_PlanetParameters_SetToMars"></a> SetToMars\(\)
+### SetToMars\(\)
 
 ```csharp
 public void SetToMars()
 ```
 
-### <a id="OpenTD_RadCAD_PlanetParameters_SetToMercury"></a> SetToMercury\(\)
+### SetToMercury\(\)
 
 ```csharp
 public void SetToMercury()
 ```
 
-### <a id="OpenTD_RadCAD_PlanetParameters_SetToMoon"></a> SetToMoon\(\)
+### SetToMoon\(\)
 
 ```csharp
 public void SetToMoon()
 ```
 
-### <a id="OpenTD_RadCAD_PlanetParameters_SetToNeptune"></a> SetToNeptune\(\)
+### SetToNeptune\(\)
 
 ```csharp
 public void SetToNeptune()
 ```
 
-### <a id="OpenTD_RadCAD_PlanetParameters_SetToPluto"></a> SetToPluto\(\)
+### SetToPluto\(\)
 
 ```csharp
 public void SetToPluto()
 ```
 
-### <a id="OpenTD_RadCAD_PlanetParameters_SetToSaturn"></a> SetToSaturn\(\)
+### SetToSaturn\(\)
 
 ```csharp
 public void SetToSaturn()
 ```
 
-### <a id="OpenTD_RadCAD_PlanetParameters_SetToSun"></a> SetToSun\(\)
+### SetToSun\(\)
 
 ```csharp
 public void SetToSun()
 ```
 
-### <a id="OpenTD_RadCAD_PlanetParameters_SetToUranus"></a> SetToUranus\(\)
+### SetToUranus\(\)
 
 ```csharp
 public void SetToUranus()
 ```
 
-### <a id="OpenTD_RadCAD_PlanetParameters_SetToVenus"></a> SetToVenus\(\)
+### SetToVenus\(\)
 
 ```csharp
 public void SetToVenus()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadiationTaskData_calcType"></a> Enum RadiationTaskData.calcType
+# Enum RadiationTaskData.calcType
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -24,4 +24,5 @@ public enum RadiationTaskData.calcType
 `RADK = 0` 
 
 `VIEWFACTOR = 3` 
+
 

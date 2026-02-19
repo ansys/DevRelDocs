@@ -1,4 +1,4 @@
-# <a id="OpenTD_PostProcessing_AdditionalSindaInfo"></a> Class AdditionalSindaInfo
+# Class AdditionalSindaInfo
 
 Namespace: [OpenTD.PostProcessing](OpenTD.PostProcessing.md)  
 Assembly: OpenTD.dll  
@@ -11,13 +11,13 @@ Implements the <xref href="OpenTD.PostProcessing.AdditionalDatasetInfo" data-thr
 public class AdditionalSindaInfo : AdditionalDatasetInfo
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AdditionalDatasetInfo](OpenTD.PostProcessing.AdditionalDatasetInfo.md) ← 
 [AdditionalSindaInfo](OpenTD.PostProcessing.AdditionalSindaInfo.md)
 
-#### Inherited Members
+## Inherited Members
 
 [AdditionalDatasetInfo.Pathname](OpenTD.PostProcessing.AdditionalDatasetInfo.md\#OpenTD\_PostProcessing\_AdditionalDatasetInfo\_Pathname), 
 [AdditionalDatasetInfo.\_pathname](OpenTD.PostProcessing.AdditionalDatasetInfo.md\#OpenTD\_PostProcessing\_AdditionalDatasetInfo\_\_pathname), 
@@ -31,7 +31,7 @@ public class AdditionalSindaInfo : AdditionalDatasetInfo
 
 ## Constructors
 
-### <a id="OpenTD_PostProcessing_AdditionalSindaInfo__ctor"></a> AdditionalSindaInfo\(\)
+### AdditionalSindaInfo\(\)
 
 ```csharp
 public AdditionalSindaInfo()
@@ -39,7 +39,7 @@ public AdditionalSindaInfo()
 
 ## Properties
 
-### <a id="OpenTD_PostProcessing_AdditionalSindaInfo_AvailableFTieVariables"></a> AvailableFTieVariables
+### AvailableFTieVariables
 
 Read only.
 
@@ -52,7 +52,7 @@ public List<string> AvailableFTieVariables { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_PostProcessing_AdditionalSindaInfo_AvailableIFaceVariables"></a> AvailableIFaceVariables
+### AvailableIFaceVariables
 
 Read only.
 
@@ -65,7 +65,7 @@ public List<string> AvailableIFaceVariables { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_PostProcessing_AdditionalSindaInfo_AvailableLumpVariables"></a> AvailableLumpVariables
+### AvailableLumpVariables
 
 Read only.
 
@@ -78,7 +78,7 @@ public List<string> AvailableLumpVariables { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_PostProcessing_AdditionalSindaInfo_AvailableNodeVariables"></a> AvailableNodeVariables
+### AvailableNodeVariables
 
 Read only.
 
@@ -91,7 +91,7 @@ public List<string> AvailableNodeVariables { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_PostProcessing_AdditionalSindaInfo_AvailablePathVariables"></a> AvailablePathVariables
+### AvailablePathVariables
 
 Read only.
 
@@ -104,7 +104,7 @@ public List<string> AvailablePathVariables { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_PostProcessing_AdditionalSindaInfo_AvailableTieVariables"></a> AvailableTieVariables
+### AvailableTieVariables
 
 Read only.
 
@@ -117,7 +117,7 @@ public List<string> AvailableTieVariables { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_PostProcessing_AdditionalSindaInfo_LinkLumpTempsToNodeTemps"></a> LinkLumpTempsToNodeTemps
+### LinkLumpTempsToNodeTemps
 
 ```csharp
 [DataMember]
@@ -128,7 +128,7 @@ public bool LinkLumpTempsToNodeTemps { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_PostProcessing_AdditionalSindaInfo_MultiTimeSelectOption"></a> MultiTimeSelectOption
+### MultiTimeSelectOption
 
 ```csharp
 [DataMember]
@@ -139,7 +139,7 @@ public AdditionalSindaInfo.MultiTimeSelectOptions MultiTimeSelectOption { get; s
 
  [AdditionalSindaInfo](OpenTD.PostProcessing.AdditionalSindaInfo.md).[MultiTimeSelectOptions](OpenTD.PostProcessing.AdditionalSindaInfo.MultiTimeSelectOptions.md)
 
-### <a id="OpenTD_PostProcessing_AdditionalSindaInfo_SelectedFTieVariable"></a> SelectedFTieVariable
+### SelectedFTieVariable
 
 ```csharp
 public string SelectedFTieVariable { get; }
@@ -149,7 +149,7 @@ public string SelectedFTieVariable { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_AdditionalSindaInfo_SelectedFTieVariableIndex"></a> SelectedFTieVariableIndex
+### SelectedFTieVariableIndex
 
 Identifies what variable in the AvailableFTieVariables list will display when post-processed.        /// .
 
@@ -162,7 +162,7 @@ public int SelectedFTieVariableIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_AdditionalSindaInfo_SelectedIFaceVariable"></a> SelectedIFaceVariable
+### SelectedIFaceVariable
 
 ```csharp
 public string SelectedIFaceVariable { get; }
@@ -172,7 +172,7 @@ public string SelectedIFaceVariable { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_AdditionalSindaInfo_SelectedIFaceVariableIndex"></a> SelectedIFaceVariableIndex
+### SelectedIFaceVariableIndex
 
 Identifies what variable in the AvailableIFaceVariables list will display when post-processed.        /// .
 
@@ -185,7 +185,7 @@ public int SelectedIFaceVariableIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_AdditionalSindaInfo_SelectedLumpVariable"></a> SelectedLumpVariable
+### SelectedLumpVariable
 
 ```csharp
 public string SelectedLumpVariable { get; }
@@ -195,7 +195,7 @@ public string SelectedLumpVariable { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_AdditionalSindaInfo_SelectedLumpVariableIndex"></a> SelectedLumpVariableIndex
+### SelectedLumpVariableIndex
 
 Identifies what variable in the AvailableLumpVariables list will display when post-processed.        /// .
 
@@ -208,7 +208,7 @@ public int SelectedLumpVariableIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_AdditionalSindaInfo_SelectedNodeVariable"></a> SelectedNodeVariable
+### SelectedNodeVariable
 
 ```csharp
 public string SelectedNodeVariable { get; }
@@ -218,7 +218,7 @@ public string SelectedNodeVariable { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_AdditionalSindaInfo_SelectedNodeVariableIndex"></a> SelectedNodeVariableIndex
+### SelectedNodeVariableIndex
 
 Identifies what variable in the AvailableNodeVariables list will display when post-processed.        /// .
 
@@ -231,7 +231,7 @@ public int SelectedNodeVariableIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_AdditionalSindaInfo_SelectedPathVariable"></a> SelectedPathVariable
+### SelectedPathVariable
 
 ```csharp
 public string SelectedPathVariable { get; }
@@ -241,7 +241,7 @@ public string SelectedPathVariable { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_AdditionalSindaInfo_SelectedPathVariableIndex"></a> SelectedPathVariableIndex
+### SelectedPathVariableIndex
 
 Identifies what variable in the AvailablePathVariables list will display when post-processed.        /// .
 
@@ -254,7 +254,7 @@ public int SelectedPathVariableIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_AdditionalSindaInfo_SelectedTieVariable"></a> SelectedTieVariable
+### SelectedTieVariable
 
 ```csharp
 public string SelectedTieVariable { get; }
@@ -264,7 +264,7 @@ public string SelectedTieVariable { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_AdditionalSindaInfo_SelectedTieVariableIndex"></a> SelectedTieVariableIndex
+### SelectedTieVariableIndex
 
 Identifies what variable in the AvailableTieVariables list will display when post-processed.        /// .
 
@@ -277,7 +277,7 @@ public int SelectedTieVariableIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_AdditionalSindaInfo_ShowCondConnTempDiff"></a> ShowCondConnTempDiff
+### ShowCondConnTempDiff
 
 ```csharp
 [DataMember]
@@ -288,7 +288,7 @@ public bool ShowCondConnTempDiff { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_PostProcessing_AdditionalSindaInfo_secondaryTemperatureUnits"></a> secondaryTemperatureUnits
+### secondaryTemperatureUnits
 
 Not used.
 
@@ -301,7 +301,7 @@ public UnitsData secondaryTemperatureUnits { get; set; }
 
  [UnitsData](OpenTD.UnitsData.md)
 
-### <a id="OpenTD_PostProcessing_AdditionalSindaInfo_showTemperatureSecondary"></a> showTemperatureSecondary
+### showTemperatureSecondary
 
 Not used.
 
@@ -318,4 +318,5 @@ public bool showTemperatureSecondary { get; set; }
 
 [AdditionalDatasetInfo](OpenTD.PostProcessing.AdditionalDatasetInfo.md), 
 [Dataset](OpenTD.PostProcessing.Dataset.md)
+
 

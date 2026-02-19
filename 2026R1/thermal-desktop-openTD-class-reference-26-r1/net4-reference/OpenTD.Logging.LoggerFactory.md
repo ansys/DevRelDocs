@@ -1,4 +1,4 @@
-# <a id="OpenTD_Logging_LoggerFactory"></a> Class LoggerFactory
+# Class LoggerFactory
 
 Namespace: [OpenTD.Logging](OpenTD.Logging.md)  
 Assembly: OpenTD.dll  
@@ -12,12 +12,12 @@ file.
 public static class LoggerFactory
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [LoggerFactory](OpenTD.Logging.LoggerFactory.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -29,7 +29,7 @@ public static class LoggerFactory
 
 ## Fields
 
-### <a id="OpenTD_Logging_LoggerFactory_Initialized"></a> Initialized
+### Initialized
 
 ```csharp
 public static bool Initialized
@@ -41,7 +41,7 @@ public static bool Initialized
 
 ## Properties
 
-### <a id="OpenTD_Logging_LoggerFactory_LogConfigPath"></a> LogConfigPath
+### LogConfigPath
 
 ```csharp
 public static string LogConfigPath { get; }
@@ -53,7 +53,7 @@ public static string LogConfigPath { get; }
 
 ## Methods
 
-### <a id="OpenTD_Logging_LoggerFactory_GetLogger_System_String_"></a> GetLogger\(string\)
+### GetLogger\(string\)
 
 Get a new Logger. Hint: create a static logger for your class
 and name it with the class name.
@@ -74,7 +74,7 @@ public static Logger GetLogger(string name)
 
 [Logger](OpenTD.Logging.Logger.md)
 
-### <a id="OpenTD_Logging_LoggerFactory_GetLogger"></a> GetLogger\(\)
+### GetLogger\(\)
 
 Get a new Logger, with a default name.
 
@@ -90,7 +90,7 @@ public static Logger GetLogger()
 
 [Logger](OpenTD.Logging.Logger.md)
 
-### <a id="OpenTD_Logging_LoggerFactory_LogAndThrowException_System_String_OpenTD_Logging_Logger_System_Exception_System_Boolean_"></a> LogAndThrowException\(string, Logger, Exception, bool\)
+### LogAndThrowException\(string, Logger, Exception, bool\)
 
 ```csharp
 public static void LogAndThrowException(string msg, Logger log, Exception innerEx = null, bool justWarning = false)
@@ -109,4 +109,5 @@ public static void LogAndThrowException(string msg, Logger log, Exception innerE
 ## See Also
 
 [Logger](OpenTD.Logging.Logger.md)
+
 

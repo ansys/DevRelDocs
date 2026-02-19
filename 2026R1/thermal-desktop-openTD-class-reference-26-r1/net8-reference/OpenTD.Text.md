@@ -1,4 +1,4 @@
-# <a id="OpenTD_Text"></a> Class Text
+# Class Text
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,10 +6,11 @@ Assembly: OpenTD.dll
 Client-side representation of a Text annotation in a TD instance.
 
 ```csharp
+[MessagePackObject(true)]
 public class Text : TdTextData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -18,11 +19,11 @@ public class Text : TdTextData, IUpdatable
 TdTextData ← 
 [Text](OpenTD.Text.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [TdDbEntityData.SetFrom\(TdDbEntityData\)](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_SetFrom\_OpenTD\_TdDbEntityData\_), 
 [TdDbEntityData.Layer](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_Layer), 
@@ -54,7 +55,7 @@ TdTextData ←
 
 ## Methods
 
-### <a id="OpenTD_Text_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -66,7 +67,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_Text_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -77,4 +78,5 @@ public override void Update()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

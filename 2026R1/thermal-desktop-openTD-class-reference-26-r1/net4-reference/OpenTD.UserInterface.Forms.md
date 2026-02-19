@@ -1,4 +1,4 @@
-# <a id="OpenTD_UserInterface_Forms"></a> Namespace OpenTD.UserInterface.Forms
+# Namespace OpenTD.UserInterface.Forms
 
 ### Classes
 
@@ -10,4 +10,5 @@ A custom control for displaying output text, with optional buttons for copying a
 
 A custom form for displaying output text, with optional buttons for copying and saving text.
 Uses an OutputBox.
+
 

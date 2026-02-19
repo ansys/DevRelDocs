@@ -1,4 +1,4 @@
-# <a id="OpenTD_PostProcessing_Dataset_PlotMliNodes"></a> Enum Dataset.PlotMliNodes
+# Enum Dataset.PlotMliNodes
 
 Namespace: [OpenTD.PostProcessing](OpenTD.PostProcessing.md)  
 Assembly: OpenTD.dll  
@@ -18,4 +18,5 @@ public enum Dataset.PlotMliNodes
 `SUBSTRATE_ONLY = 0` 
 
 `SUBSTRATE_TOP_MLI_BOT = 3` 
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_TimeoutProperties"></a> Class TimeoutProperties
+# Class TimeoutProperties
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -9,12 +9,12 @@ Data used to decide when to timeout an operation.
 public class TimeoutProperties
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [TimeoutProperties](OpenTD.TimeoutProperties.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,13 +26,13 @@ public class TimeoutProperties
 
 ## Constructors
 
-### <a id="OpenTD_TimeoutProperties__ctor"></a> TimeoutProperties\(\)
+### TimeoutProperties\(\)
 
 ```csharp
 public TimeoutProperties()
 ```
 
-### <a id="OpenTD_TimeoutProperties__ctor_OpenTD_TimeoutProperties_"></a> TimeoutProperties\(TimeoutProperties\)
+### TimeoutProperties\(TimeoutProperties\)
 
 ```csharp
 public TimeoutProperties(TimeoutProperties x)
@@ -44,7 +44,7 @@ public TimeoutProperties(TimeoutProperties x)
 
 ## Properties
 
-### <a id="OpenTD_TimeoutProperties_DelayMs"></a> DelayMs
+### DelayMs
 
 The delay in ms between tries.
 
@@ -56,7 +56,7 @@ public int DelayMs { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_TimeoutProperties_NumberOfTries"></a> NumberOfTries
+### NumberOfTries
 
 The number of tries before timing out.
 
@@ -67,4 +67,5 @@ public int NumberOfTries { get; set; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 

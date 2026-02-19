@@ -1,4 +1,4 @@
-# <a id="OpenTD_SubmodelNameData"></a> Class SubmodelNameData
+# Class SubmodelNameData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,15 +6,16 @@ Assembly: OpenTD.dll
 A submodel name. Implicitly converts to/from string. Automatically converts to uppercase.
 
 ```csharp
+[MessagePackObject(true)]
 public class SubmodelNameData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [SubmodelNameData](OpenTD.SubmodelNameData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +27,7 @@ public class SubmodelNameData
 
 ## Constructors
 
-### <a id="OpenTD_SubmodelNameData__ctor"></a> SubmodelNameData\(\)
+### SubmodelNameData\(\)
 
 Initializes a new instance of the <xref href="OpenTD.SubmodelNameData" data-throw-if-not-resolved="false"></xref> class
 with default thermal submodel name.
@@ -35,7 +36,7 @@ with default thermal submodel name.
 public SubmodelNameData()
 ```
 
-### <a id="OpenTD_SubmodelNameData__ctor_System_String_"></a> SubmodelNameData\(string\)
+### SubmodelNameData\(string\)
 
 Initializes a new instance of the <xref href="OpenTD.SubmodelNameData" data-throw-if-not-resolved="false"></xref> class.
 
@@ -51,7 +52,7 @@ The submodel name.
 
 ## Properties
 
-### <a id="OpenTD_SubmodelNameData_Name"></a> Name
+### Name
 
 ```csharp
 public string Name { get; set; }
@@ -63,13 +64,13 @@ public string Name { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_SubmodelNameData_Check"></a> Check\(\)
+### Check\(\)
 
 ```csharp
 public void Check()
 ```
 
-### <a id="OpenTD_SubmodelNameData_Equals_System_Object_"></a> Equals\(object\)
+### Equals\(object\)
 
 Determines whether the specified object is equal to the current object.
 
@@ -87,9 +88,9 @@ The object to compare with the current object.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+[true](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool) if the specified object  is equal to the current object; otherwise, [false](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool).
 
-### <a id="OpenTD_SubmodelNameData_GetHashCode"></a> GetHashCode\(\)
+### GetHashCode\(\)
 
 Serves as the default hash function.
 
@@ -103,7 +104,7 @@ public override int GetHashCode()
 
 A hash code for the current object.
 
-### <a id="OpenTD_SubmodelNameData_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -119,7 +120,7 @@ A string that represents the current object.
 
 ## Operators
 
-### <a id="OpenTD_SubmodelNameData_op_Equality_OpenTD_SubmodelNameData_OpenTD_SubmodelNameData_"></a> operator ==\(SubmodelNameData, SubmodelNameData\)
+### operator ==\(SubmodelNameData, SubmodelNameData\)
 
 ```csharp
 public static bool operator ==(SubmodelNameData first, SubmodelNameData second)
@@ -135,7 +136,7 @@ public static bool operator ==(SubmodelNameData first, SubmodelNameData second)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_SubmodelNameData_op_Implicit_System_String__OpenTD_SubmodelNameData"></a> implicit operator SubmodelNameData\(string\)
+### implicit operator SubmodelNameData\(string\)
 
 ```csharp
 public static implicit operator SubmodelNameData(string submodelName)
@@ -149,7 +150,7 @@ public static implicit operator SubmodelNameData(string submodelName)
 
  [SubmodelNameData](OpenTD.SubmodelNameData.md)
 
-### <a id="OpenTD_SubmodelNameData_op_Implicit_OpenTD_SubmodelNameData__System_String"></a> implicit operator string\(SubmodelNameData\)
+### implicit operator string\(SubmodelNameData\)
 
 ```csharp
 public static implicit operator string(SubmodelNameData s)
@@ -163,7 +164,7 @@ public static implicit operator string(SubmodelNameData s)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_SubmodelNameData_op_Inequality_OpenTD_SubmodelNameData_OpenTD_SubmodelNameData_"></a> operator \!=\(SubmodelNameData, SubmodelNameData\)
+### operator \!=\(SubmodelNameData, SubmodelNameData\)
 
 ```csharp
 public static bool operator !=(SubmodelNameData first, SubmodelNameData second)
@@ -178,4 +179,5 @@ public static bool operator !=(SubmodelNameData first, SubmodelNameData second)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

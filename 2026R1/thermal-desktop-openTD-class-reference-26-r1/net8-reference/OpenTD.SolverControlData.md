@@ -1,4 +1,4 @@
-# <a id="OpenTD_SolverControlData"></a> Class SolverControlData
+# Class SolverControlData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,15 +6,16 @@ Assembly: OpenTD.dll
 Sinda solver (optimization) control constants. Used in Case Set.
 
 ```csharp
+[MessagePackObject(true)]
 public class SolverControlData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [SolverControlData](OpenTD.SolverControlData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +27,7 @@ public class SolverControlData
 
 ## Constructors
 
-### <a id="OpenTD_SolverControlData__ctor"></a> SolverControlData\(\)
+### SolverControlData\(\)
 
 ```csharp
 public SolverControlData()
@@ -34,7 +35,7 @@ public SolverControlData()
 
 ## Properties
 
-### <a id="OpenTD_SolverControlData_Object"></a> Object
+### Object
 
 ```csharp
 public string Object { get; set; }
@@ -44,7 +45,7 @@ public string Object { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_SolverControlData_achgo"></a> achgo
+### achgo
 
 ```csharp
 public double achgo { get; set; }
@@ -54,7 +55,7 @@ public double achgo { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SolverControlData_achgoExp"></a> achgoExp
+### achgoExp
 
 ```csharp
 public ExpressionData achgoExp { get; set; }
@@ -64,7 +65,7 @@ public ExpressionData achgoExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SolverControlData_adero"></a> adero
+### adero
 
 ```csharp
 public double adero { get; set; }
@@ -74,7 +75,7 @@ public double adero { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SolverControlData_aderoExp"></a> aderoExp
+### aderoExp
 
 ```csharp
 public ExpressionData aderoExp { get; set; }
@@ -84,7 +85,7 @@ public ExpressionData aderoExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SolverControlData_aderr"></a> aderr
+### aderr
 
 ```csharp
 public double aderr { get; set; }
@@ -94,7 +95,7 @@ public double aderr { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SolverControlData_aderrExp"></a> aderrExp
+### aderrExp
 
 ```csharp
 public ExpressionData aderrExp { get; set; }
@@ -104,7 +105,7 @@ public ExpressionData aderrExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SolverControlData_aerro"></a> aerro
+### aerro
 
 ```csharp
 public double aerro { get; set; }
@@ -114,7 +115,7 @@ public double aerro { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SolverControlData_aerroExp"></a> aerroExp
+### aerroExp
 
 ```csharp
 public ExpressionData aerroExp { get; set; }
@@ -124,7 +125,7 @@ public ExpressionData aerroExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SolverControlData_aerrr"></a> aerrr
+### aerrr
 
 ```csharp
 public double aerrr { get; set; }
@@ -134,7 +135,7 @@ public double aerrr { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SolverControlData_aerrrExp"></a> aerrrExp
+### aerrrExp
 
 ```csharp
 public ExpressionData aerrrExp { get; set; }
@@ -144,7 +145,7 @@ public ExpressionData aerrrExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SolverControlData_goal"></a> goal
+### goal
 
 ```csharp
 public double goal { get; set; }
@@ -154,7 +155,7 @@ public double goal { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SolverControlData_goalExp"></a> goalExp
+### goalExp
 
 ```csharp
 public ExpressionData goalExp { get; set; }
@@ -164,7 +165,7 @@ public ExpressionData goalExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SolverControlData_goalType"></a> goalType
+### goalType
 
 ```csharp
 public SolverControlData.GoalType goalType { get; set; }
@@ -174,7 +175,7 @@ public SolverControlData.GoalType goalType { get; set; }
 
  [SolverControlData](OpenTD.SolverControlData.md).[GoalType](OpenTD.SolverControlData.GoalType.md)
 
-### <a id="OpenTD_SolverControlData_mdero"></a> mdero
+### mdero
 
 ```csharp
 public int mdero { get; set; }
@@ -184,7 +185,7 @@ public int mdero { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_SolverControlData_metho"></a> metho
+### metho
 
 ```csharp
 public int metho { get; set; }
@@ -194,7 +195,7 @@ public int metho { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_SolverControlData_nconvo"></a> nconvo
+### nconvo
 
 ```csharp
 public int nconvo { get; set; }
@@ -204,7 +205,7 @@ public int nconvo { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_SolverControlData_nconvoExp"></a> nconvoExp
+### nconvoExp
 
 ```csharp
 public ExpressionData nconvoExp { get; set; }
@@ -214,7 +215,7 @@ public ExpressionData nconvoExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SolverControlData_nervus"></a> nervus
+### nervus
 
 ```csharp
 public int nervus { get; set; }
@@ -224,7 +225,7 @@ public int nervus { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_SolverControlData_newpro"></a> newpro
+### newpro
 
 ```csharp
 public int newpro { get; set; }
@@ -234,7 +235,7 @@ public int newpro { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_SolverControlData_newproExp"></a> newproExp
+### newproExp
 
 ```csharp
 public ExpressionData newproExp { get; set; }
@@ -244,7 +245,7 @@ public ExpressionData newproExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SolverControlData_nloopo"></a> nloopo
+### nloopo
 
 ```csharp
 public int nloopo { get; set; }
@@ -254,7 +255,7 @@ public int nloopo { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_SolverControlData_nloopoExp"></a> nloopoExp
+### nloopoExp
 
 ```csharp
 public ExpressionData nloopoExp { get; set; }
@@ -264,7 +265,7 @@ public ExpressionData nloopoExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SolverControlData_nloopr"></a> nloopr
+### nloopr
 
 ```csharp
 public int nloopr { get; set; }
@@ -274,7 +275,7 @@ public int nloopr { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_SolverControlData_nlooprExp"></a> nlooprExp
+### nlooprExp
 
 ```csharp
 public ExpressionData nlooprExp { get; set; }
@@ -284,7 +285,7 @@ public ExpressionData nlooprExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SolverControlData_nseed"></a> nseed
+### nseed
 
 ```csharp
 public int nseed { get; set; }
@@ -294,7 +295,7 @@ public int nseed { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_SolverControlData_nseedExp"></a> nseedExp
+### nseedExp
 
 ```csharp
 public ExpressionData nseedExp { get; set; }
@@ -304,7 +305,7 @@ public ExpressionData nseedExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SolverControlData_nwrkio"></a> nwrkio
+### nwrkio
 
 ```csharp
 public int nwrkio { get; set; }
@@ -314,7 +315,7 @@ public int nwrkio { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_SolverControlData_nwrkioExp"></a> nwrkioExp
+### nwrkioExp
 
 ```csharp
 public ExpressionData nwrkioExp { get; set; }
@@ -324,7 +325,7 @@ public ExpressionData nwrkioExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SolverControlData_nwrkro"></a> nwrkro
+### nwrkro
 
 ```csharp
 public double nwrkro { get; set; }
@@ -334,7 +335,7 @@ public double nwrkro { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SolverControlData_nwrkroExp"></a> nwrkroExp
+### nwrkroExp
 
 ```csharp
 public ExpressionData nwrkroExp { get; set; }
@@ -344,7 +345,7 @@ public ExpressionData nwrkroExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SolverControlData_pusho"></a> pusho
+### pusho
 
 ```csharp
 public double pusho { get; set; }
@@ -354,7 +355,7 @@ public double pusho { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SolverControlData_pushoExp"></a> pushoExp
+### pushoExp
 
 ```csharp
 public ExpressionData pushoExp { get; set; }
@@ -364,7 +365,7 @@ public ExpressionData pushoExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SolverControlData_rcacto"></a> rcacto
+### rcacto
 
 ```csharp
 public double rcacto { get; set; }
@@ -374,7 +375,7 @@ public double rcacto { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SolverControlData_rcactoExp"></a> rcactoExp
+### rcactoExp
 
 ```csharp
 public ExpressionData rcactoExp { get; set; }
@@ -384,7 +385,7 @@ public ExpressionData rcactoExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SolverControlData_rcerro"></a> rcerro
+### rcerro
 
 ```csharp
 public double rcerro { get; set; }
@@ -394,7 +395,7 @@ public double rcerro { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SolverControlData_rcerroExp"></a> rcerroExp
+### rcerroExp
 
 ```csharp
 public ExpressionData rcerroExp { get; set; }
@@ -404,7 +405,7 @@ public ExpressionData rcerroExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SolverControlData_rchgo"></a> rchgo
+### rchgo
 
 ```csharp
 public double rchgo { get; set; }
@@ -414,7 +415,7 @@ public double rchgo { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SolverControlData_rchgoExp"></a> rchgoExp
+### rchgoExp
 
 ```csharp
 public ExpressionData rchgoExp { get; set; }
@@ -424,7 +425,7 @@ public ExpressionData rchgoExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SolverControlData_rcvio"></a> rcvio
+### rcvio
 
 ```csharp
 public double rcvio { get; set; }
@@ -434,7 +435,7 @@ public double rcvio { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SolverControlData_rcvioExp"></a> rcvioExp
+### rcvioExp
 
 ```csharp
 public ExpressionData rcvioExp { get; set; }
@@ -444,7 +445,7 @@ public ExpressionData rcvioExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SolverControlData_rdero"></a> rdero
+### rdero
 
 ```csharp
 public double rdero { get; set; }
@@ -454,7 +455,7 @@ public double rdero { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SolverControlData_rderoExp"></a> rderoExp
+### rderoExp
 
 ```csharp
 public ExpressionData rderoExp { get; set; }
@@ -464,7 +465,7 @@ public ExpressionData rderoExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SolverControlData_rderr"></a> rderr
+### rderr
 
 ```csharp
 public double rderr { get; set; }
@@ -474,7 +475,7 @@ public double rderr { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SolverControlData_rderrExp"></a> rderrExp
+### rderrExp
 
 ```csharp
 public ExpressionData rderrExp { get; set; }
@@ -484,7 +485,7 @@ public ExpressionData rderrExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SolverControlData_rerro"></a> rerro
+### rerro
 
 ```csharp
 public double rerro { get; set; }
@@ -494,7 +495,7 @@ public double rerro { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SolverControlData_rerroExp"></a> rerroExp
+### rerroExp
 
 ```csharp
 public ExpressionData rerroExp { get; set; }
@@ -504,7 +505,7 @@ public ExpressionData rerroExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SolverControlData_rerrr"></a> rerrr
+### rerrr
 
 ```csharp
 public double rerrr { get; set; }
@@ -514,7 +515,7 @@ public double rerrr { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SolverControlData_rerrrExp"></a> rerrrExp
+### rerrrExp
 
 ```csharp
 public ExpressionData rerrrExp { get; set; }
@@ -524,7 +525,7 @@ public ExpressionData rerrrExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SolverControlData_useDL"></a> useDL
+### useDL
 
 ```csharp
 public int useDL { get; set; }
@@ -537,4 +538,5 @@ public int useDL { get; set; }
 ## See Also
 
 [CaseSet](OpenTD.CaseSet.md)
+
 

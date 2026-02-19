@@ -1,4 +1,4 @@
-# <a id="OpenTD_CaseSetManagerOptions_DuplicateNodes"></a> Enum CaseSetManagerOptions.DuplicateNodes
+# Enum CaseSetManagerOptions.DuplicateNodes
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -16,4 +16,5 @@ public enum CaseSetManagerOptions.DuplicateNodes
 `AUTO_RENUMBER = 2` 
 
 `PROMPT_IF_FOUND = 0` 
+
 

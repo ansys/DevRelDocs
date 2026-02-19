@@ -1,4 +1,4 @@
-# <a id="OpenTD_MaterialStackLayerData"></a> Class MaterialStackLayerData
+# Class MaterialStackLayerData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ Represents one layer of a Material Stack.
 public class MaterialStackLayerData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [MaterialStackLayerData](OpenTD.MaterialStackLayerData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,7 +27,7 @@ public class MaterialStackLayerData
 
 ## Constructors
 
-### <a id="OpenTD_MaterialStackLayerData__ctor"></a> MaterialStackLayerData\(\)
+### MaterialStackLayerData\(\)
 
 ```csharp
 public MaterialStackLayerData()
@@ -35,7 +35,7 @@ public MaterialStackLayerData()
 
 ## Properties
 
-### <a id="OpenTD_MaterialStackLayerData_Material"></a> Material
+### Material
 
 ```csharp
 [DataMember]
@@ -46,7 +46,7 @@ public string Material { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_MaterialStackLayerData_NumNodes"></a> NumNodes
+### NumNodes
 
 ```csharp
 [DataMember]
@@ -57,7 +57,7 @@ public int NumNodes { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_MaterialStackLayerData_Thickness"></a> Thickness
+### Thickness
 
 ```csharp
 [DataMember]
@@ -68,7 +68,7 @@ public Dimensional<ModelLength> Thickness { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_MaterialStackLayerData_ThicknessExp"></a> ThicknessExp
+### ThicknessExp
 
 ```csharp
 [DataMember]
@@ -81,7 +81,7 @@ public ExpressionData ThicknessExp { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_MaterialStackLayerData_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -98,4 +98,5 @@ A string that represents the current object.
 ## See Also
 
 [MaterialStack](OpenTD.MaterialStack.md)
+
 

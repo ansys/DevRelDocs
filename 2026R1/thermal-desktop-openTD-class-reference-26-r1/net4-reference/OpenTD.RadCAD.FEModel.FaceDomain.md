@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FEModel_FaceDomain"></a> Class FaceDomain
+# Class FaceDomain
 
 Namespace: [OpenTD.RadCAD.FEModel](OpenTD.RadCAD.FEModel.md)  
 Assembly: OpenTD.dll  
@@ -11,12 +11,12 @@ mesh using an FEMeshImporter only.
 public class FaceDomain
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [FaceDomain](OpenTD.RadCAD.FEModel.FaceDomain.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -28,7 +28,7 @@ public class FaceDomain
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_FEModel_FaceDomain__ctor"></a> FaceDomain\(\)
+### FaceDomain\(\)
 
 ```csharp
 public FaceDomain()
@@ -36,7 +36,7 @@ public FaceDomain()
 
 ## Fields
 
-### <a id="OpenTD_RadCAD_FEModel_FaceDomain_faceSpecs"></a> faceSpecs
+### faceSpecs
 
 ```csharp
 [DataMember]
@@ -49,7 +49,7 @@ public SortedDictionary<int, FaceSpec> faceSpecs
 
 ## Properties
 
-### <a id="OpenTD_RadCAD_FEModel_FaceDomain_FaceSpecs"></a> FaceSpecs
+### FaceSpecs
 
 ```csharp
 public ICollection<FaceSpec> FaceSpecs { get; }
@@ -61,7 +61,7 @@ public ICollection<FaceSpec> FaceSpecs { get; }
 
 ## Methods
 
-### <a id="OpenTD_RadCAD_FEModel_FaceDomain_Add_OpenTD_RadCAD_FEModel_FaceSpec_"></a> Add\(FaceSpec\)
+### Add\(FaceSpec\)
 
 ```csharp
 public void Add(FaceSpec faceSpec)
@@ -70,4 +70,5 @@ public void Add(FaceSpec faceSpec)
 #### Parameters
 
 `faceSpec` [FaceSpec](OpenTD.RadCAD.FEModel.FaceSpec.md)
+
 

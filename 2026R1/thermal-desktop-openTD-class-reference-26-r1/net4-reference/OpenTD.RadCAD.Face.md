@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_Face"></a> Class Face
+# Class Face
 
 Namespace: [OpenTD.RadCAD](OpenTD.RadCAD.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ A finite-difference face used in a MeshFD.
 public class Face
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Face](OpenTD.RadCAD.Face.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,7 +27,7 @@ public class Face
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_Face__ctor"></a> Face\(\)
+### Face\(\)
 
 ```csharp
 public Face()
@@ -35,7 +35,7 @@ public Face()
 
 ## Properties
 
-### <a id="OpenTD_RadCAD_Face_VertexIndices"></a> VertexIndices
+### VertexIndices
 
 ```csharp
 [DataMember]
@@ -49,4 +49,5 @@ public List<int> VertexIndices { get; set; }
 ## See Also
 
 [MeshFD](OpenTD.RadCAD.MeshFD.md)
+
 

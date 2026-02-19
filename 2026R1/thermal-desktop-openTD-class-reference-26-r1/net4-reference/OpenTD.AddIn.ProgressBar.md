@@ -1,4 +1,4 @@
-# <a id="OpenTD_AddIn_ProgressBar"></a> Class ProgressBar
+# Class ProgressBar
 
 Namespace: [OpenTD.AddIn](OpenTD.AddIn.md)  
 Assembly: OpenTD.dll  
@@ -9,13 +9,13 @@ Use to control the TD/AutoCAD progress bar.
 public class ProgressBar : TdConnected
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 TdConnected ← 
 [ProgressBar](OpenTD.AddIn.ProgressBar.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,7 +27,7 @@ TdConnected ←
 
 ## Constructors
 
-### <a id="OpenTD_AddIn_ProgressBar__ctor_OpenTD_ThermalDesktop_"></a> ProgressBar\(ThermalDesktop\)
+### ProgressBar\(ThermalDesktop\)
 
 ```csharp
 public ProgressBar(ThermalDesktop _td)
@@ -39,7 +39,7 @@ public ProgressBar(ThermalDesktop _td)
 
 ## Methods
 
-### <a id="OpenTD_AddIn_ProgressBar_Hide"></a> Hide\(\)
+### Hide\(\)
 
 Hide the progress bar.
 
@@ -47,7 +47,7 @@ Hide the progress bar.
 public void Hide()
 ```
 
-### <a id="OpenTD_AddIn_ProgressBar_SetProgress_System_Int32_"></a> SetProgress\(int\)
+### SetProgress\(int\)
 
 Set the position of the bar from 0 to 100.
 
@@ -59,7 +59,7 @@ public void SetProgress(int progressPercent)
 
 `progressPercent` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_AddIn_ProgressBar_SetTitle_System_String_"></a> SetTitle\(string\)
+### SetTitle\(string\)
 
 Set the text to display near the bar.
 
@@ -71,11 +71,12 @@ public void SetTitle(string title)
 
 `title` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_AddIn_ProgressBar_Show"></a> Show\(\)
+### Show\(\)
 
 Show the progress bar.
 
 ```csharp
 public void Show()
 ```
+
 

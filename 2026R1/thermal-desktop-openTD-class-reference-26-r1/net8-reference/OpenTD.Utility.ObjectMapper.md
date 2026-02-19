@@ -1,4 +1,4 @@
-# <a id="OpenTD_Utility_ObjectMapper"></a> Class ObjectMapper
+# Class ObjectMapper
 
 Namespace: [OpenTD.Utility](OpenTD.Utility.md)  
 Assembly: OpenTD.dll  
@@ -9,12 +9,12 @@ Can be used to perform a shallow copy of an object.
 public static class ObjectMapper
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ObjectMapper](OpenTD.Utility.ObjectMapper.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +26,7 @@ public static class ObjectMapper
 
 ## Methods
 
-### <a id="OpenTD_Utility_ObjectMapper_CopyProperties_System_Object_System_Object_"></a> CopyProperties\(object, object\)
+### CopyProperties\(object, object\)
 
 Copies the matching properties from one object to another.
 
@@ -44,7 +44,7 @@ The source.
 
 The target.
 
-### <a id="OpenTD_Utility_ObjectMapper_GetMatchingProperties_System_Type_System_Type_"></a> GetMatchingProperties\(Type, Type\)
+### GetMatchingProperties\(Type, Type\)
 
 ```csharp
 public static IList<PropertyMap> GetMatchingProperties(Type sourceType, Type targetType)
@@ -59,4 +59,5 @@ public static IList<PropertyMap> GetMatchingProperties(Type sourceType, Type tar
 #### Returns
 
  [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[PropertyMap](OpenTD.Utility.PropertyMap.md)\>
+
 

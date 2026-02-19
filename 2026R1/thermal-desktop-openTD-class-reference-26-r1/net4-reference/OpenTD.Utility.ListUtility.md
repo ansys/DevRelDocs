@@ -1,4 +1,4 @@
-# <a id="OpenTD_Utility_ListUtility"></a> Class ListUtility
+# Class ListUtility
 
 Namespace: [OpenTD.Utility](OpenTD.Utility.md)  
 Assembly: OpenTD.dll  
@@ -9,12 +9,12 @@ Utility methods for working with lists.
 public static class ListUtility
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ListUtility](OpenTD.Utility.ListUtility.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -26,7 +26,7 @@ public static class ListUtility
 
 ## Methods
 
-### <a id="OpenTD_Utility_ListUtility_SequencesEqual__1_System_Collections_Generic_List___0__System_Collections_Generic_List___0__"></a> SequencesEqual<T\>\(List<T\>, List<T\>\)
+### SequencesEqual<T\>\(List<T\>, List<T\>\)
 
 ```csharp
 public static bool SequencesEqual<T>(List<T> x, List<T> y)
@@ -45,4 +45,5 @@ public static bool SequencesEqual<T>(List<T> x, List<T> y)
 #### Type Parameters
 
 `T` 
+
 

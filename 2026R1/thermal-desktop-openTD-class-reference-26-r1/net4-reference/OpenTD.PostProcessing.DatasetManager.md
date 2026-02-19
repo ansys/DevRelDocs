@@ -1,4 +1,4 @@
-# <a id="OpenTD_PostProcessing_DatasetManager"></a> Class DatasetManager
+# Class DatasetManager
 
 Namespace: [OpenTD.PostProcessing](OpenTD.PostProcessing.md)  
 Assembly: OpenTD.dll  
@@ -10,13 +10,13 @@ within TD.
 public class DatasetManager : TdConnected
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 TdConnected ← 
 [DatasetManager](OpenTD.PostProcessing.DatasetManager.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -28,7 +28,7 @@ TdConnected ←
 
 ## Constructors
 
-### <a id="OpenTD_PostProcessing_DatasetManager__ctor_OpenTD_ThermalDesktop_"></a> DatasetManager\(ThermalDesktop\)
+### DatasetManager\(ThermalDesktop\)
 
 ```csharp
 public DatasetManager(ThermalDesktop _td)
@@ -40,7 +40,7 @@ public DatasetManager(ThermalDesktop _td)
 
 ## Methods
 
-### <a id="OpenTD_PostProcessing_DatasetManager_CreateDataset_System_String_System_String_OpenTD_PostProcessing_Dataset_DataSourceTypes_"></a> CreateDataset\(string, string, DataSourceTypes\)
+### CreateDataset\(string, string, DataSourceTypes\)
 
 Creates a new Dataset using defaults from this TD instance.
 
@@ -64,7 +64,7 @@ public Dataset CreateDataset(string name, string pathname, Dataset.DataSourceTyp
 
 [Dataset](OpenTD.PostProcessing.Dataset.md)
 
-### <a id="OpenTD_PostProcessing_DatasetManager_DeleteDataset_System_String_"></a> DeleteDataset\(string\)
+### DeleteDataset\(string\)
 
 ```csharp
 public void DeleteDataset(string name)
@@ -74,7 +74,7 @@ public void DeleteDataset(string name)
 
 `name` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_DatasetManager_GetCurrentDataset"></a> GetCurrentDataset\(\)
+### GetCurrentDataset\(\)
 
 Gets the currently-activated Dataset from this TD instance.
 
@@ -90,7 +90,7 @@ public Dataset GetCurrentDataset()
 
 [Dataset](OpenTD.PostProcessing.Dataset.md)
 
-### <a id="OpenTD_PostProcessing_DatasetManager_GetDataset_System_String_"></a> GetDataset\(string\)
+### GetDataset\(string\)
 
 Gets an existing Dataset from this TD instance.
 
@@ -110,7 +110,7 @@ public Dataset GetDataset(string name)
 
 [Dataset](OpenTD.PostProcessing.Dataset.md)
 
-### <a id="OpenTD_PostProcessing_DatasetManager_GetDatasets"></a> GetDatasets\(\)
+### GetDatasets\(\)
 
 Gets all the Datasets in this TD instance.
 
@@ -130,4 +130,5 @@ public List<Dataset> GetDatasets()
 
 [Dataset](OpenTD.PostProcessing.Dataset.md), 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

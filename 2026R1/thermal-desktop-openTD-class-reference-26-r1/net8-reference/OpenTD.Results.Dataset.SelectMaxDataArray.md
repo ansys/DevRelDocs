@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_SelectMaxDataArray"></a> Class SelectMaxDataArray
+# Class SelectMaxDataArray
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -10,7 +10,7 @@ value and returns data from it only.
 public class SelectMaxDataArray : SelectOneDataArray, IEnumerable<double>, IEnumerable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [DataArray](OpenTD.Results.Dataset.DataArray.md) ← 
@@ -18,12 +18,12 @@ public class SelectMaxDataArray : SelectOneDataArray, IEnumerable<double>, IEnum
 [SelectOneDataArray](OpenTD.Results.Dataset.SelectOneDataArray.md) ← 
 [SelectMaxDataArray](OpenTD.Results.Dataset.SelectMaxDataArray.md)
 
-#### Implements
+## Implements
 
 [IEnumerable<double\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1), 
 [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
 
-#### Inherited Members
+## Inherited Members
 
 [SelectOneDataArray.GetValues\(UnitsData\)](OpenTD.Results.Dataset.SelectOneDataArray.md\#OpenTD\_Results\_Dataset\_SelectOneDataArray\_GetValues\_OpenTD\_UnitsData\_), 
 [SelectOneDataArray.SourceDataset](OpenTD.Results.Dataset.SelectOneDataArray.md\#OpenTD\_Results\_Dataset\_SelectOneDataArray\_SourceDataset), 
@@ -75,7 +75,7 @@ public class SelectMaxDataArray : SelectOneDataArray, IEnumerable<double>, IEnum
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_SelectMaxDataArray__ctor_OpenTD_Results_Dataset_DataArrayCollection_"></a> SelectMaxDataArray\(DataArrayCollection\)
+### SelectMaxDataArray\(DataArrayCollection\)
 
 ```csharp
 public SelectMaxDataArray(DataArrayCollection inputCollection)
@@ -85,7 +85,7 @@ public SelectMaxDataArray(DataArrayCollection inputCollection)
 
 `inputCollection` [DataArrayCollection](OpenTD.Results.Dataset.DataArrayCollection.md)
 
-### <a id="OpenTD_Results_Dataset_SelectMaxDataArray__ctor"></a> SelectMaxDataArray\(\)
+### SelectMaxDataArray\(\)
 
 ```csharp
 public SelectMaxDataArray()
@@ -93,7 +93,7 @@ public SelectMaxDataArray()
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_SelectMaxDataArray_SetDerivedData"></a> SetDerivedData\(\)
+### SetDerivedData\(\)
 
 For setting ValuesSI, any other derived data
 
@@ -104,4 +104,5 @@ protected override void SetDerivedData()
 ## See Also
 
 [SelectOneDataArray](OpenTD.Results.Dataset.SelectOneDataArray.md)
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_LogicObject"></a> Class LogicObject
+# Class LogicObject
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,20 +6,21 @@ Assembly: OpenTD.dll
 Base class for TD logic objects.
 
 ```csharp
+[MessagePackObject(true)]
 public class LogicObject : OpenTDObject, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
 [LogicObject](OpenTD.LogicObject.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [OpenTDObject.SetFrom\(OpenTDObject\)](OpenTD.OpenTDObject.md\#OpenTD\_OpenTDObject\_SetFrom\_OpenTD\_OpenTDObject\_), 
 [OpenTDObject.Update\(\)](OpenTD.OpenTDObject.md\#OpenTD\_OpenTDObject\_Update), 
@@ -37,7 +38,7 @@ public class LogicObject : OpenTDObject, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_LogicObject__ctor"></a> LogicObject\(\)
+### LogicObject\(\)
 
 ```csharp
 public LogicObject()
@@ -45,7 +46,7 @@ public LogicObject()
 
 ## Properties
 
-### <a id="OpenTD_LogicObject_Comment"></a> Comment
+### Comment
 
 ```csharp
 public string Comment { get; set; }
@@ -55,7 +56,7 @@ public string Comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_LogicObject_EnabledExp"></a> EnabledExp
+### EnabledExp
 
 ```csharp
 public ExpressionData EnabledExp { get; set; }
@@ -65,7 +66,7 @@ public ExpressionData EnabledExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_LogicObject_GroupName"></a> GroupName
+### GroupName
 
 ```csharp
 public string GroupName { get; set; }
@@ -75,7 +76,7 @@ public string GroupName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_LogicObject_Handle"></a> Handle
+### Handle
 
 ```csharp
 public string Handle { get; set; }
@@ -85,7 +86,7 @@ public string Handle { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_LogicObject_Submodel"></a> Submodel
+### Submodel
 
 ```csharp
 public SubmodelNameData Submodel { get; set; }
@@ -95,9 +96,10 @@ public SubmodelNameData Submodel { get; set; }
 
  [SubmodelNameData](OpenTD.SubmodelNameData.md)
 
-### <a id="OpenTD_LogicObject_Type"></a> Type
+### Type
 
 ```csharp
+[IgnoreMember]
 public LogicObject.LogicType Type { get; }
 ```
 
@@ -107,7 +109,7 @@ public LogicObject.LogicType Type { get; }
 
 ## Methods
 
-### <a id="OpenTD_LogicObject_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -119,7 +121,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_LogicObject_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -133,7 +135,7 @@ public override string ToString()
 
 A string that represents the current object.
 
-### <a id="OpenTD_LogicObject_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -141,11 +143,12 @@ Updates the TD entity with the latest client data.
 public override void Update()
 ```
 
-### <a id="OpenTD_LogicObject_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
 ```csharp
 public override void UpdateFromTD()
 ```
+
 

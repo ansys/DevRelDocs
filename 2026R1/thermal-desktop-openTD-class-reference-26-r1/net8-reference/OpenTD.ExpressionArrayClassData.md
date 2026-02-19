@@ -1,4 +1,4 @@
-# <a id="OpenTD_ExpressionArrayClassData"></a> Class ExpressionArrayClassData
+# Class ExpressionArrayClassData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,15 +6,16 @@ Assembly: OpenTD.dll
 Array of TD expressions.
 
 ```csharp
+[MessagePackObject(true)]
 public class ExpressionArrayClassData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ExpressionArrayClassData](OpenTD.ExpressionArrayClassData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +27,7 @@ public class ExpressionArrayClassData
 
 ## Constructors
 
-### <a id="OpenTD_ExpressionArrayClassData__ctor"></a> ExpressionArrayClassData\(\)
+### ExpressionArrayClassData\(\)
 
 ```csharp
 public ExpressionArrayClassData()
@@ -34,7 +35,7 @@ public ExpressionArrayClassData()
 
 ## Properties
 
-### <a id="OpenTD_ExpressionArrayClassData_comment"></a> comment
+### comment
 
 ```csharp
 public string comment { get; set; }
@@ -44,7 +45,7 @@ public string comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_ExpressionArrayClassData_disableWarning"></a> disableWarning
+### disableWarning
 
 ```csharp
 public int disableWarning { get; set; }
@@ -54,7 +55,7 @@ public int disableWarning { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_ExpressionArrayClassData_expression"></a> expression
+### expression
 
 ```csharp
 public List<string> expression { get; set; }
@@ -64,7 +65,7 @@ public List<string> expression { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_ExpressionArrayClassData_outputToSinda"></a> outputToSinda
+### outputToSinda
 
 ```csharp
 public int outputToSinda { get; set; }
@@ -74,7 +75,7 @@ public int outputToSinda { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_ExpressionArrayClassData_sindaUnits"></a> sindaUnits
+### sindaUnits
 
 ```csharp
 public int sindaUnits { get; set; }
@@ -84,7 +85,7 @@ public int sindaUnits { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_ExpressionArrayClassData_units"></a> units
+### units
 
 ```csharp
 public UnitsData units { get; set; }
@@ -94,7 +95,7 @@ public UnitsData units { get; set; }
 
  [UnitsData](OpenTD.UnitsData.md)
 
-### <a id="OpenTD_ExpressionArrayClassData_unitsType"></a> unitsType
+### unitsType
 
 ```csharp
 public UnitsData.UnitsType unitsType { get; set; }
@@ -103,4 +104,5 @@ public UnitsData.UnitsType unitsType { get; set; }
 #### Property Value
 
  [UnitsData](OpenTD.UnitsData.md).[UnitsType](OpenTD.UnitsData.UnitsType.md)
+
 

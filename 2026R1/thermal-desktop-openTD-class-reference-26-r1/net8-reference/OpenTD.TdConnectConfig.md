@@ -1,4 +1,4 @@
-# <a id="OpenTD_TdConnectConfig"></a> Class TdConnectConfig
+# Class TdConnectConfig
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ when ThermalDesktop.Connect() is called.
 public class TdConnectConfig
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [TdConnectConfig](OpenTD.TdConnectConfig.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -27,7 +27,7 @@ public class TdConnectConfig
 
 ## Constructors
 
-### <a id="OpenTD_TdConnectConfig__ctor"></a> TdConnectConfig\(\)
+### TdConnectConfig\(\)
 
 ```csharp
 public TdConnectConfig()
@@ -35,7 +35,7 @@ public TdConnectConfig()
 
 ## Properties
 
-### <a id="OpenTD_TdConnectConfig_AcadExePathname"></a> AcadExePathname
+### AcadExePathname
 
 Normally ThermalDesktop.Connect() uses the latest version of AutoCAD
 it finds on your machine. Set AcadExePathname to the location of another
@@ -55,7 +55,7 @@ public RootedPathname AcadExePathname { get; set; }
 [ThermalDesktop](OpenTD.ThermalDesktop.md), 
 [ThermalDesktop](OpenTD.ThermalDesktop.md).[Connect](OpenTD.ThermalDesktop.md\#OpenTD\_ThermalDesktop\_Connect)\(\)
 
-### <a id="OpenTD_TdConnectConfig_AcadVisible"></a> AcadVisible
+### AcadVisible
 
 Controls whether a newly-started instance of TD will be visible.
 
@@ -72,7 +72,7 @@ public bool AcadVisible { get; set; }
 [ThermalDesktop](OpenTD.ThermalDesktop.md), 
 [ThermalDesktop](OpenTD.ThermalDesktop.md).[Connect](OpenTD.ThermalDesktop.md\#OpenTD\_ThermalDesktop\_Connect)\(\)
 
-### <a id="OpenTD_TdConnectConfig_AdditionalAcadCommandline"></a> AdditionalAcadCommandline
+### AdditionalAcadCommandline
 
 Additional arguments to use when starting acad.exe.
 
@@ -89,7 +89,7 @@ public string AdditionalAcadCommandline { get; set; }
 [ThermalDesktop](OpenTD.ThermalDesktop.md), 
 [ThermalDesktop](OpenTD.ThermalDesktop.md).[Connect](OpenTD.ThermalDesktop.md\#OpenTD\_ThermalDesktop\_Connect)\(\)
 
-### <a id="OpenTD_TdConnectConfig_Address"></a> Address
+### Address
 
 ```csharp
 public string Address { get; set; }
@@ -99,7 +99,7 @@ public string Address { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_TdConnectConfig_AddressUsed"></a> AddressUsed
+### AddressUsed
 
 ```csharp
 public string AddressUsed { get; }
@@ -109,7 +109,7 @@ public string AddressUsed { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_TdConnectConfig_DefaultAddress"></a> DefaultAddress
+### DefaultAddress
 
 ```csharp
 public static string DefaultAddress { get; }
@@ -119,7 +119,7 @@ public static string DefaultAddress { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_TdConnectConfig_DwgPathname"></a> DwgPathname
+### DwgPathname
 
 Path to dwg file to open or attach to if already opened.
 If left blank and TdConnectConfig.Type allows it,
@@ -141,7 +141,57 @@ public RootedPathname DwgPathname { get; set; }
 [ThermalDesktop](OpenTD.ThermalDesktop.md).[Connect](OpenTD.ThermalDesktop.md\#OpenTD\_ThermalDesktop\_Connect)\(\), 
 [ThermalDesktop](OpenTD.ThermalDesktop.md).[GetCurrentDwgPathname](OpenTD.ThermalDesktop.md\#OpenTD\_ThermalDesktop\_GetCurrentDwgPathname)\(\)
 
-### <a id="OpenTD_TdConnectConfig_PortUsed"></a> PortUsed
+### PipeBaseAddress
+
+```csharp
+public static string PipeBaseAddress { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### PipeEndpointName
+
+Advanced. If not blank, specifies the name of the communications
+channel used by OpenTD to communicate with this instance of TD.
+If starting a new TD instance, OpenTD will attempt to create a channel with
+this name. If attaching, OpenTD will attempt to connect to a channel
+with this name. Leave blank for automatic channel-naming.
+To open a named channel in TD, use the 'RcOpenTD' AutoCAD command.
+
+```csharp
+public string PipeEndpointName { get; set; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+#### See Also
+
+[ThermalDesktop](OpenTD.ThermalDesktop.md), 
+[ThermalDesktop](OpenTD.ThermalDesktop.md).[Connect](OpenTD.ThermalDesktop.md\#OpenTD\_ThermalDesktop\_Connect)\(\)
+
+### PipeEndpointNameUsed
+
+Gets the communication channel name actually used. Set when
+ThermalDesktop.Connect() is called successfully.
+
+```csharp
+public string PipeEndpointNameUsed { get; }
+```
+
+#### Property Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+#### See Also
+
+[ThermalDesktop](OpenTD.ThermalDesktop.md), 
+[ThermalDesktop](OpenTD.ThermalDesktop.md).[Connect](OpenTD.ThermalDesktop.md\#OpenTD\_ThermalDesktop\_Connect)\(\)
+
+### PortUsed
 
 ```csharp
 public int PortUsed { get; }
@@ -151,7 +201,7 @@ public int PortUsed { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_TdConnectConfig_ShowAcadSplashScreen"></a> ShowAcadSplashScreen
+### ShowAcadSplashScreen
 
 Controls whether the AutoCAD splash screen is displayed during startup.
 
@@ -168,7 +218,7 @@ public bool ShowAcadSplashScreen { get; set; }
 [ThermalDesktop](OpenTD.ThermalDesktop.md), 
 [ThermalDesktop](OpenTD.ThermalDesktop.md).[Connect](OpenTD.ThermalDesktop.md\#OpenTD\_ThermalDesktop\_Connect)\(\)
 
-### <a id="OpenTD_TdConnectConfig_StartDirectory"></a> StartDirectory
+### StartDirectory
 
 The starting directory for the acad.exe process. For the current working
 directory, see ThermalDesktop.GetCurrentWorkingDirectory().
@@ -187,7 +237,7 @@ public string StartDirectory { get; set; }
 [ThermalDesktop](OpenTD.ThermalDesktop.md).[Connect](OpenTD.ThermalDesktop.md\#OpenTD\_ThermalDesktop\_Connect)\(\), 
 [ThermalDesktop](OpenTD.ThermalDesktop.md).[GetCurrentWorkingDirectory](OpenTD.ThermalDesktop.md\#OpenTD\_ThermalDesktop\_GetCurrentWorkingDirectory)\(\)
 
-### <a id="OpenTD_TdConnectConfig_StartTimeout"></a> StartTimeout
+### StartTimeout
 
 Controls how long OpenTD will try to connect to TD before timing out.
 
@@ -204,7 +254,7 @@ public TimeoutProperties StartTimeout { get; set; }
 [ThermalDesktop](OpenTD.ThermalDesktop.md), 
 [ThermalDesktop](OpenTD.ThermalDesktop.md).[Connect](OpenTD.ThermalDesktop.md\#OpenTD\_ThermalDesktop\_Connect)\(\)
 
-### <a id="OpenTD_TdConnectConfig_Type"></a> Type
+### Type
 
 ```csharp
 public TdConnectConfig.Types Type { get; set; }
@@ -214,8 +264,33 @@ public TdConnectConfig.Types Type { get; set; }
 
  [TdConnectConfig](OpenTD.TdConnectConfig.md).[Types](OpenTD.TdConnectConfig.Types.md)
 
+## Methods
+
+### GetRepeatableNameFromPath\(string, bool\)
+
+```csharp
+public static string GetRepeatableNameFromPath(string pathname, bool calledFromServer = false)
+```
+
+#### Parameters
+
+`pathname` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`calledFromServer` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+#### Returns
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### Validate\(\)
+
+```csharp
+public void Validate()
+```
+
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md), 
 [ThermalDesktop](OpenTD.ThermalDesktop.md).[Connect](OpenTD.ThermalDesktop.md\#OpenTD\_ThermalDesktop\_Connect)\(\)
+
 

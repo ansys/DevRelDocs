@@ -1,4 +1,4 @@
-# <a id="OpenTD_XrefInfo"></a> Class XrefInfo
+# Class XrefInfo
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -9,12 +9,12 @@ Information about XREF'd dwgs
 public class XrefInfo
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [XrefInfo](OpenTD.XrefInfo.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +26,7 @@ public class XrefInfo
 
 ## Properties
 
-### <a id="OpenTD_XrefInfo_DatabaseName"></a> DatabaseName
+### DatabaseName
 
 ```csharp
 public string DatabaseName { get; set; }
@@ -36,7 +36,7 @@ public string DatabaseName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_XrefInfo_Pathname"></a> Pathname
+### Pathname
 
 ```csharp
 public string Pathname { get; set; }
@@ -45,4 +45,5 @@ public string Pathname { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

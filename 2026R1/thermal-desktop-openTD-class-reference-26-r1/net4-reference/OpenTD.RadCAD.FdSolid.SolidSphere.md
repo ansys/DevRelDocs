@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FdSolid_SolidSphere"></a> Class SolidSphere
+# Class SolidSphere
 
 Namespace: [OpenTD.RadCAD.FdSolid](OpenTD.RadCAD.FdSolid.md)  
 Assembly: OpenTD.dll  
@@ -10,7 +10,7 @@ Client-side representation of a SolidSphere entity in a TD instance.
 public class SolidSphere : RcFdSolidData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -19,11 +19,11 @@ public class SolidSphere : RcFdSolidData, IUpdatable
 [RcFdSolidData](OpenTD.RadCAD.FdSolid.RcFdSolidData.md) ← 
 [SolidSphere](OpenTD.RadCAD.FdSolid.SolidSphere.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [RcFdSolidData.AnalysisGroups](OpenTD.RadCAD.FdSolid.RcFdSolidData.md\#OpenTD\_RadCAD\_FdSolid\_RcFdSolidData\_AnalysisGroups), 
 [RcFdSolidData.Comment](OpenTD.RadCAD.FdSolid.RcFdSolidData.md\#OpenTD\_RadCAD\_FdSolid\_RcFdSolidData\_Comment), 
@@ -109,7 +109,7 @@ public class SolidSphere : RcFdSolidData, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidSphere__ctor"></a> SolidSphere\(\)
+### SolidSphere\(\)
 
 ```csharp
 public SolidSphere()
@@ -117,7 +117,7 @@ public SolidSphere()
 
 ## Properties
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidSphere_Bmax"></a> Bmax
+### Bmax
 
 ```csharp
 [DataMember]
@@ -128,7 +128,7 @@ public Dimensional<Angle> Bmax { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidSphere_BmaxExp"></a> BmaxExp
+### BmaxExp
 
 ```csharp
 [DataMember]
@@ -139,7 +139,7 @@ public ExpressionData BmaxExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidSphere_Bmin"></a> Bmin
+### Bmin
 
 ```csharp
 [DataMember]
@@ -150,7 +150,7 @@ public Dimensional<Angle> Bmin { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidSphere_BminExp"></a> BminExp
+### BminExp
 
 ```csharp
 [DataMember]
@@ -161,7 +161,7 @@ public ExpressionData BminExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidSphere_EndAngle"></a> EndAngle
+### EndAngle
 
 ```csharp
 [DataMember]
@@ -172,7 +172,7 @@ public Dimensional<Angle> EndAngle { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidSphere_EndAngleExp"></a> EndAngleExp
+### EndAngleExp
 
 ```csharp
 [DataMember]
@@ -183,7 +183,7 @@ public ExpressionData EndAngleExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidSphere_Rmax"></a> Rmax
+### Rmax
 
 ```csharp
 [DataMember]
@@ -194,7 +194,7 @@ public Dimensional<ModelLength> Rmax { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidSphere_RmaxExp"></a> RmaxExp
+### RmaxExp
 
 ```csharp
 [DataMember]
@@ -205,7 +205,7 @@ public ExpressionData RmaxExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidSphere_Rmin"></a> Rmin
+### Rmin
 
 ```csharp
 [DataMember]
@@ -216,7 +216,7 @@ public Dimensional<ModelLength> Rmin { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidSphere_RminExp"></a> RminExp
+### RminExp
 
 ```csharp
 [DataMember]
@@ -227,7 +227,7 @@ public ExpressionData RminExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidSphere_StartAngle"></a> StartAngle
+### StartAngle
 
 ```csharp
 [DataMember]
@@ -238,7 +238,7 @@ public Dimensional<Angle> StartAngle { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidSphere_StartAngleExp"></a> StartAngleExp
+### StartAngleExp
 
 ```csharp
 [DataMember]
@@ -251,7 +251,7 @@ public ExpressionData StartAngleExp { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidSphere_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -263,7 +263,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidSphere_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -271,7 +271,7 @@ Updates the TD entity with the latest client data.
 public override void Update()
 ```
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidSphere_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -282,4 +282,5 @@ public override void UpdateFromTD()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

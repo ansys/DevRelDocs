@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FEM_QuadraticTri"></a> Class QuadraticTri
+# Class QuadraticTri
 
 Namespace: [OpenTD.RadCAD.FEM](OpenTD.RadCAD.FEM.md)  
 Assembly: OpenTD.dll  
@@ -6,10 +6,11 @@ Assembly: OpenTD.dll
 Client-side representation of a QuadraticTri entity in a TD instance.
 
 ```csharp
+[MessagePackObject(true)]
 public class QuadraticTri : RcSurfaceElement, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -19,11 +20,11 @@ public class QuadraticTri : RcSurfaceElement, IUpdatable
 [RcSurfaceElement](OpenTD.RadCAD.FEM.RcSurfaceElement.md) ← 
 [QuadraticTri](OpenTD.RadCAD.FEM.QuadraticTri.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [RcSurfaceElement.AttachedNodeHandles](OpenTD.RadCAD.FEM.RcSurfaceElement.md\#OpenTD\_RadCAD\_FEM\_RcSurfaceElement\_AttachedNodeHandles), 
 [RcSurfaceElement.SurfaceOrienters](OpenTD.RadCAD.FEM.RcSurfaceElement.md\#OpenTD\_RadCAD\_FEM\_RcSurfaceElement\_SurfaceOrienters), 
@@ -159,7 +160,7 @@ public class QuadraticTri : RcSurfaceElement, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_FEM_QuadraticTri__ctor"></a> QuadraticTri\(\)
+### QuadraticTri\(\)
 
 ```csharp
 public QuadraticTri()
@@ -167,7 +168,7 @@ public QuadraticTri()
 
 ## Methods
 
-### <a id="OpenTD_RadCAD_FEM_QuadraticTri_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -179,7 +180,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_RadCAD_FEM_QuadraticTri_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -187,7 +188,7 @@ Updates the TD entity with the latest client data.
 public override void Update()
 ```
 
-### <a id="OpenTD_RadCAD_FEM_QuadraticTri_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -198,4 +199,5 @@ public override void UpdateFromTD()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

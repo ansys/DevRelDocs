@@ -1,4 +1,4 @@
-# <a id="OpenTD_NetworkLogicData"></a> Class NetworkLogicData
+# Class NetworkLogicData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ TD network logic.
 public class NetworkLogicData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [NetworkLogicData](OpenTD.NetworkLogicData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,7 +27,7 @@ public class NetworkLogicData
 
 ## Constructors
 
-### <a id="OpenTD_NetworkLogicData__ctor"></a> NetworkLogicData\(\)
+### NetworkLogicData\(\)
 
 ```csharp
 public NetworkLogicData()
@@ -35,7 +35,7 @@ public NetworkLogicData()
 
 ## Properties
 
-### <a id="OpenTD_NetworkLogicData_AfterBuild"></a> AfterBuild
+### AfterBuild
 
 ```csharp
 [DataMember]
@@ -46,7 +46,7 @@ public string AfterBuild { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_NetworkLogicData_BeforeBuild"></a> BeforeBuild
+### BeforeBuild
 
 ```csharp
 [DataMember]
@@ -57,7 +57,7 @@ public string BeforeBuild { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_NetworkLogicData_Comment"></a> Comment
+### Comment
 
 ```csharp
 [DataMember]
@@ -68,7 +68,7 @@ public string Comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_NetworkLogicData_Flogic0"></a> Flogic0
+### Flogic0
 
 ```csharp
 [DataMember]
@@ -79,7 +79,7 @@ public string Flogic0 { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_NetworkLogicData_Flogic1"></a> Flogic1
+### Flogic1
 
 ```csharp
 [DataMember]
@@ -90,7 +90,7 @@ public string Flogic1 { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_NetworkLogicData_Flogic2"></a> Flogic2
+### Flogic2
 
 ```csharp
 [DataMember]
@@ -101,7 +101,7 @@ public string Flogic2 { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_NetworkLogicData_Operations"></a> Operations
+### Operations
 
 ```csharp
 [DataMember]
@@ -112,7 +112,7 @@ public string Operations { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_NetworkLogicData_Output"></a> Output
+### Output
 
 ```csharp
 [DataMember]
@@ -123,7 +123,7 @@ public string Output { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_NetworkLogicData_PostSolution"></a> PostSolution
+### PostSolution
 
 ```csharp
 [DataMember]
@@ -134,7 +134,7 @@ public string PostSolution { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_NetworkLogicData_TranslateCodeUnits"></a> TranslateCodeUnits
+### TranslateCodeUnits
 
 ```csharp
 [DataMember]
@@ -145,7 +145,7 @@ public NetworkLogicUnits TranslateCodeUnits { get; set; }
 
  [NetworkLogicUnits](OpenTD.NetworkLogicUnits.md)
 
-### <a id="OpenTD_NetworkLogicData_Variables0"></a> Variables0
+### Variables0
 
 ```csharp
 [DataMember]
@@ -156,7 +156,7 @@ public string Variables0 { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_NetworkLogicData_Variables1"></a> Variables1
+### Variables1
 
 ```csharp
 [DataMember]
@@ -167,7 +167,7 @@ public string Variables1 { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_NetworkLogicData_Variables2"></a> Variables2
+### Variables2
 
 ```csharp
 [DataMember]
@@ -177,4 +177,5 @@ public string Variables2 { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

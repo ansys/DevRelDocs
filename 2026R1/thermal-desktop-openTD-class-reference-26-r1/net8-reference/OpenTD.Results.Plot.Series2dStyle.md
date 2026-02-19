@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Plot_Series2dStyle"></a> Class Series2dStyle
+# Class Series2dStyle
 
 Namespace: [OpenTD.Results.Plot](OpenTD.Results.Plot.md)  
 Assembly: OpenTD.Results.dll  
@@ -7,12 +7,12 @@ Assembly: OpenTD.Results.dll
 public class Series2dStyle
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Series2dStyle](OpenTD.Results.Plot.Series2dStyle.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -24,7 +24,7 @@ public class Series2dStyle
 
 ## Properties
 
-### <a id="OpenTD_Results_Plot_Series2dStyle_LineColor"></a> LineColor
+### LineColor
 
 ```csharp
 public Color LineColor { get; set; }
@@ -34,7 +34,7 @@ public Color LineColor { get; set; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="OpenTD_Results_Plot_Series2dStyle_LineStyle"></a> LineStyle
+### LineStyle
 
 ```csharp
 public ChartDashStyle LineStyle { get; set; }
@@ -44,7 +44,7 @@ public ChartDashStyle LineStyle { get; set; }
 
  ChartDashStyle
 
-### <a id="OpenTD_Results_Plot_Series2dStyle_LineWidth"></a> LineWidth
+### LineWidth
 
 ```csharp
 public int LineWidth { get; set; }
@@ -54,7 +54,7 @@ public int LineWidth { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Results_Plot_Series2dStyle_MarkerBorderColor"></a> MarkerBorderColor
+### MarkerBorderColor
 
 ```csharp
 public Color MarkerBorderColor { get; set; }
@@ -64,7 +64,7 @@ public Color MarkerBorderColor { get; set; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="OpenTD_Results_Plot_Series2dStyle_MarkerBorderWidth"></a> MarkerBorderWidth
+### MarkerBorderWidth
 
 ```csharp
 public int MarkerBorderWidth { get; set; }
@@ -74,7 +74,7 @@ public int MarkerBorderWidth { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Results_Plot_Series2dStyle_MarkerColor"></a> MarkerColor
+### MarkerColor
 
 ```csharp
 public Color MarkerColor { get; set; }
@@ -84,7 +84,7 @@ public Color MarkerColor { get; set; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="OpenTD_Results_Plot_Series2dStyle_MarkerSize"></a> MarkerSize
+### MarkerSize
 
 ```csharp
 public int MarkerSize { get; set; }
@@ -94,7 +94,7 @@ public int MarkerSize { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Results_Plot_Series2dStyle_MarkerStep"></a> MarkerStep
+### MarkerStep
 
 ```csharp
 public int MarkerStep { get; set; }
@@ -104,7 +104,7 @@ public int MarkerStep { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Results_Plot_Series2dStyle_MarkerStyle"></a> MarkerStyle
+### MarkerStyle
 
 ```csharp
 public MarkerStyle MarkerStyle { get; set; }
@@ -113,4 +113,5 @@ public MarkerStyle MarkerStyle { get; set; }
 #### Property Value
 
  [MarkerStyle](https://github.com/kirsan31/winforms\-datavisualization/blob/3229fd69de931778b8e872dc2d5ecab468ab24dd/src/WinForms.DataVisualization.Utilities/Enums.cs)
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_KickerData"></a> Class KickerData
+# Class KickerData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,15 +6,16 @@ Assembly: OpenTD.dll
 Represents a Model Kicker task.
 
 ```csharp
+[MessagePackObject(true)]
 public class KickerData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [KickerData](OpenTD.KickerData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +27,7 @@ public class KickerData
 
 ## Constructors
 
-### <a id="OpenTD_KickerData__ctor"></a> KickerData\(\)
+### KickerData\(\)
 
 ```csharp
 public KickerData()
@@ -34,7 +35,7 @@ public KickerData()
 
 ## Properties
 
-### <a id="OpenTD_KickerData_IndividuallyOrAll"></a> IndividuallyOrAll
+### IndividuallyOrAll
 
 ```csharp
 public int IndividuallyOrAll { get; set; }
@@ -44,7 +45,7 @@ public int IndividuallyOrAll { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_KickerData_KickBoundaryNodes"></a> KickBoundaryNodes
+### KickBoundaryNodes
 
 ```csharp
 public int KickBoundaryNodes { get; set; }
@@ -54,7 +55,7 @@ public int KickBoundaryNodes { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_KickerData_KickDomains"></a> KickDomains
+### KickDomains
 
 ```csharp
 public List<string> KickDomains { get; set; }
@@ -64,7 +65,7 @@ public List<string> KickDomains { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_KickerData_KickSubmodels"></a> KickSubmodels
+### KickSubmodels
 
 ```csharp
 public List<string> KickSubmodels { get; set; }
@@ -74,7 +75,7 @@ public List<string> KickSubmodels { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_KickerData_KickValue"></a> KickValue
+### KickValue
 
 ```csharp
 public double KickValue { get; set; }
@@ -84,7 +85,7 @@ public double KickValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_KickerData_KickValueExp"></a> KickValueExp
+### KickValueExp
 
 ```csharp
 public ExpressionData KickValueExp { get; set; }
@@ -94,7 +95,7 @@ public ExpressionData KickValueExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_KickerData_Name"></a> Name
+### Name
 
 ```csharp
 public string Name { get; set; }
@@ -104,7 +105,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_KickerData_SubmodelsOrDomains"></a> SubmodelsOrDomains
+### SubmodelsOrDomains
 
 ```csharp
 public int SubmodelsOrDomains { get; set; }
@@ -113,4 +114,5 @@ public int SubmodelsOrDomains { get; set; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 

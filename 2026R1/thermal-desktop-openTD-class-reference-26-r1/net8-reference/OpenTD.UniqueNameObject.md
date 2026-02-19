@@ -1,4 +1,4 @@
-# <a id="OpenTD_UniqueNameObject"></a> Class UniqueNameObject
+# Class UniqueNameObject
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -7,10 +7,16 @@ An object that is uniquely-identified by its name,
 instead of, for example, an AutoCAD handle.
 
 ```csharp
+[Union(0, typeof(MaterialStackData))]
+[Union(1, typeof(Dataset))]
+[Union(2, typeof(OpticalPropsData))]
+[Union(3, typeof(SubmodelData))]
+[Union(4, typeof(SymbolData))]
+[Union(5, typeof(ThermoPropsData))]
 public abstract class UniqueNameObject : OpenTDObject, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -20,11 +26,11 @@ public abstract class UniqueNameObject : OpenTDObject, IUpdatable
 
 [Dataset](OpenTD.PostProcessing.Dataset.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [OpenTDObject.SetFrom\(OpenTDObject\)](OpenTD.OpenTDObject.md\#OpenTD\_OpenTDObject\_SetFrom\_OpenTD\_OpenTDObject\_), 
 [OpenTDObject.Update\(\)](OpenTD.OpenTDObject.md\#OpenTD\_OpenTDObject\_Update), 
@@ -42,7 +48,7 @@ public abstract class UniqueNameObject : OpenTDObject, IUpdatable
 
 ## Properties
 
-### <a id="OpenTD_UniqueNameObject_Name"></a> Name
+### Name
 
 This object is uniquely-identified by this name.
 
@@ -54,7 +60,7 @@ public string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UniqueNameObject__n"></a> \_n
+### \_n
 
 Do not use.
 
@@ -68,7 +74,7 @@ public string _n { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_UniqueNameObject_ModifyName_System_String_"></a> ModifyName\(string\)
+### ModifyName\(string\)
 
 ```csharp
 protected virtual string ModifyName(string name)
@@ -82,7 +88,7 @@ protected virtual string ModifyName(string name)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UniqueNameObject_ProxyRename_System_String_System_String_"></a> ProxyRename\(string, string\)
+### ProxyRename\(string, string\)
 
 ```csharp
 protected abstract void ProxyRename(string from, string to)
@@ -94,7 +100,7 @@ protected abstract void ProxyRename(string from, string to)
 
 `to` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UniqueNameObject_Rename_System_String_"></a> Rename\(string\)
+### Rename\(string\)
 
 Use this method to rename the client-side object and the
 TD item it is linked to.
@@ -107,7 +113,7 @@ public virtual void Rename(string to)
 
 `to` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UniqueNameObject_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -124,4 +130,5 @@ A string that represents the current object.
 ## See Also
 
 [OpenTDObject](OpenTD.OpenTDObject.md)
+
 

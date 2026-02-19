@@ -1,4 +1,4 @@
-# <a id="OpenTD_FloCAD_Pipe"></a> Class Pipe
+# Class Pipe
 
 Namespace: [OpenTD.FloCAD](OpenTD.FloCAD.md)  
 Assembly: OpenTD.dll  
@@ -6,10 +6,11 @@ Assembly: OpenTD.dll
 Client-side representation of a pipe entity in a TD instance.
 
 ```csharp
+[MessagePackObject(true)]
 public class Pipe : RcPipeData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -19,11 +20,11 @@ public class Pipe : RcPipeData, IUpdatable
 RcPipeData ← 
 [Pipe](OpenTD.FloCAD.Pipe.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [RcEntityData.TopIdType](OpenTD.RadCAD.RcEntityData.md\#OpenTD\_RadCAD\_RcEntityData\_TopIdType), 
 [RcEntityData.BotIdType](OpenTD.RadCAD.RcEntityData.md\#OpenTD\_RadCAD\_RcEntityData\_BotIdType), 
@@ -153,7 +154,7 @@ RcPipeData ←
 
 ## Methods
 
-### <a id="OpenTD_FloCAD_Pipe_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -165,7 +166,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_FloCAD_Pipe_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -176,4 +177,5 @@ public override void Update()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

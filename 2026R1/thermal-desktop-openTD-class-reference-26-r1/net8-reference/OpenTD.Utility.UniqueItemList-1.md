@@ -1,4 +1,4 @@
-# <a id="OpenTD_Utility_UniqueItemList_1"></a> Class UniqueItemList<T\>
+# Class UniqueItemList<T\>
 
 Namespace: [OpenTD.Utility](OpenTD.Utility.md)  
 Assembly: OpenTD.dll  
@@ -7,6 +7,7 @@ Acts like a List, except Add and Insert will remove existing items
 that equal the added/inserted item (according to its definition of Equals)
 
 ```csharp
+[MessagePackObject(true)]
 public class UniqueItemList<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable
 ```
 
@@ -14,19 +15,19 @@ public class UniqueItemList<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnum
 
 `T` 
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [UniqueItemList<T\>](OpenTD.Utility.UniqueItemList\-1.md)
 
-#### Implements
+## Implements
 
 [IList<T\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1), 
 [ICollection<T\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1), 
 [IEnumerable<T\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1), 
 [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -38,7 +39,7 @@ public class UniqueItemList<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnum
 
 ## Properties
 
-### <a id="OpenTD_Utility_UniqueItemList_1_Count"></a> Count
+### Count
 
 Gets the number of elements contained in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -50,7 +51,7 @@ public int Count { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Utility_UniqueItemList_1_IsReadOnly"></a> IsReadOnly
+### IsReadOnly
 
 Gets a value indicating whether the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
 
@@ -62,7 +63,7 @@ public bool IsReadOnly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Utility_UniqueItemList_1_Item_System_Int32_"></a> this\[int\]
+### this\[int\]
 
 Gets or sets the element at the specified index.
 
@@ -86,7 +87,7 @@ The property is set and the <xref href="System.Collections.Generic.IList%601" da
 
 ## Methods
 
-### <a id="OpenTD_Utility_UniqueItemList_1_Add__0_"></a> Add\(T\)
+### Add\(T\)
 
 Will remove any existing item that equals the added item.
 
@@ -98,7 +99,7 @@ public void Add(T item)
 
 `item` T
 
-### <a id="OpenTD_Utility_UniqueItemList_1_Clear"></a> Clear\(\)
+### Clear\(\)
 
 Removes all items from the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -112,7 +113,7 @@ public void Clear()
 
 The <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
 
-### <a id="OpenTD_Utility_UniqueItemList_1_Contains__0_"></a> Contains\(T\)
+### Contains\(T\)
 
 Determines whether the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> contains a specific value.
 
@@ -130,9 +131,9 @@ The object to locate in the <xref href="System.Collections.Generic.ICollection%6
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">item</code> is found in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+[true](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool) if <code class="paramref">item</code> is found in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>; otherwise, [false](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool).
 
-### <a id="OpenTD_Utility_UniqueItemList_1_CopyTo__0___System_Int32_"></a> CopyTo\(T\[\], int\)
+### CopyTo\(T\[\], int\)
 
 Copies the elements of the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> to an <xref href="System.Array" data-throw-if-not-resolved="false"></xref>, starting at a particular <xref href="System.Array" data-throw-if-not-resolved="false"></xref> index.
 
@@ -154,7 +155,7 @@ The zero-based index in <code class="paramref">array</code> at which copying beg
 
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
-<code class="paramref">array</code> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.
+<code class="paramref">array</code> is [null](https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null).
 
  [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
 
@@ -164,7 +165,7 @@ The zero-based index in <code class="paramref">array</code> at which copying beg
 
 The number of elements in the source <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is greater than the available space from <code class="paramref">arrayIndex</code> to the end of the destination <code class="paramref">array</code>.
 
-### <a id="OpenTD_Utility_UniqueItemList_1_GetEnumerator"></a> GetEnumerator\(\)
+### GetEnumerator\(\)
 
 Returns an enumerator that iterates through the collection.
 
@@ -178,7 +179,7 @@ public IEnumerator<T> GetEnumerator()
 
 An enumerator that can be used to iterate through the collection.
 
-### <a id="OpenTD_Utility_UniqueItemList_1_IndexOf__0_"></a> IndexOf\(T\)
+### IndexOf\(T\)
 
 Determines the index of a specific item in the <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -198,7 +199,7 @@ The object to locate in the <xref href="System.Collections.Generic.IList%601" da
 
 The index of <code class="paramref">item</code> if found in the list; otherwise, -1.
 
-### <a id="OpenTD_Utility_UniqueItemList_1_Insert_System_Int32__0_"></a> Insert\(int, T\)
+### Insert\(int, T\)
 
 Will remove any existing item that equals the inserted item.
 
@@ -212,7 +213,7 @@ public void Insert(int index, T item)
 
 `item` T
 
-### <a id="OpenTD_Utility_UniqueItemList_1_Remove__0_"></a> Remove\(T\)
+### Remove\(T\)
 
 Removes the first occurrence of a specific object from the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -230,7 +231,7 @@ The object to remove from the <xref href="System.Collections.Generic.ICollection
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">item</code> was successfully removed from the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>. This method also returns <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> if <code class="paramref">item</code> is not found in the original <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
+[true](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool) if <code class="paramref">item</code> was successfully removed from the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>; otherwise, [false](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool). This method also returns [false](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool) if <code class="paramref">item</code> is not found in the original <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
 #### Exceptions
 
@@ -238,7 +239,7 @@ The object to remove from the <xref href="System.Collections.Generic.ICollection
 
 The <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
 
-### <a id="OpenTD_Utility_UniqueItemList_1_RemoveAll_System_Predicate__0__"></a> RemoveAll\(Predicate<T\>\)
+### RemoveAll\(Predicate<T\>\)
 
 ```csharp
 public int RemoveAll(Predicate<T> match)
@@ -252,7 +253,7 @@ public int RemoveAll(Predicate<T> match)
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Utility_UniqueItemList_1_RemoveAt_System_Int32_"></a> RemoveAt\(int\)
+### RemoveAt\(int\)
 
 Removes the <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref> item at the specified index.
 
@@ -275,4 +276,5 @@ The zero-based index of the item to remove.
  [NotSupportedException](https://learn.microsoft.com/dotnet/api/system.notsupportedexception)
 
 The <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref> is read-only.
+
 

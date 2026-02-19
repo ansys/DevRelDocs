@@ -1,4 +1,4 @@
-# <a id="OpenTD_PostProcessing_Dataset"></a> Class Dataset
+# Class Dataset
 
 Namespace: [OpenTD.PostProcessing](OpenTD.PostProcessing.md)  
 Assembly: OpenTD.dll  
@@ -10,18 +10,18 @@ Client-side representation of a dataset (solution results) in a TD instance.
 public class Dataset : UniqueNameObject, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
 [UniqueNameObject](OpenTD.UniqueNameObject.md) ← 
 [Dataset](OpenTD.PostProcessing.Dataset.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [UniqueNameObject.Name](OpenTD.UniqueNameObject.md\#OpenTD\_UniqueNameObject\_Name), 
 [UniqueNameObject.Rename\(string\)](OpenTD.UniqueNameObject.md\#OpenTD\_UniqueNameObject\_Rename\_System\_String\_), 
@@ -45,7 +45,7 @@ public class Dataset : UniqueNameObject, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_PostProcessing_Dataset__ctor"></a> Dataset\(\)
+### Dataset\(\)
 
 ```csharp
 public Dataset()
@@ -53,7 +53,7 @@ public Dataset()
 
 ## Properties
 
-### <a id="OpenTD_PostProcessing_Dataset_AdditionalInfo"></a> AdditionalInfo
+### AdditionalInfo
 
 Type-specific information about the dataset.
 
@@ -66,7 +66,7 @@ public AdditionalDatasetInfoHolder AdditionalInfo { get; set; }
 
  AdditionalDatasetInfoHolder
 
-### <a id="OpenTD_PostProcessing_Dataset_Comment"></a> Comment
+### Comment
 
 ```csharp
 [DataMember]
@@ -77,7 +77,7 @@ public string Comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_Dataset_CurrentTimeIndex"></a> CurrentTimeIndex
+### CurrentTimeIndex
 
 Set this to choose what timestep/record will be displayed when post-processed.
 
@@ -90,7 +90,7 @@ public int CurrentTimeIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_Dataset_OffsetTime"></a> OffsetTime
+### OffsetTime
 
 ```csharp
 [DataMember]
@@ -101,7 +101,7 @@ public Dimensional<Time> OffsetTime { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_PostProcessing_Dataset_OffsetTimeExp"></a> OffsetTimeExp
+### OffsetTimeExp
 
 ```csharp
 [DataMember]
@@ -112,7 +112,7 @@ public ExpressionData OffsetTimeExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_PostProcessing_Dataset_OrbitName"></a> OrbitName
+### OrbitName
 
 ```csharp
 [DataMember]
@@ -123,7 +123,7 @@ public string OrbitName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_Dataset_Pathname"></a> Pathname
+### Pathname
 
 ```csharp
 public string Pathname { get; }
@@ -133,7 +133,7 @@ public string Pathname { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_Dataset_PlotMLINodes"></a> PlotMLINodes
+### PlotMLINodes
 
 ```csharp
 [DataMember]
@@ -144,7 +144,7 @@ public Dataset.PlotMliNodes PlotMLINodes { get; set; }
 
  [Dataset](OpenTD.PostProcessing.Dataset.md).[PlotMliNodes](OpenTD.PostProcessing.Dataset.PlotMliNodes.md)
 
-### <a id="OpenTD_PostProcessing_Dataset_SmartColorBarCycle"></a> SmartColorBarCycle
+### SmartColorBarCycle
 
 ```csharp
 [DataMember]
@@ -155,7 +155,7 @@ public int SmartColorBarCycle { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_Dataset_SourceType"></a> SourceType
+### SourceType
 
 Read only. The type of dataset. For example, SF for Sinda results.
 
@@ -168,7 +168,7 @@ public Dataset.DataSourceTypes SourceType { get; set; }
 
  [Dataset](OpenTD.PostProcessing.Dataset.md).[DataSourceTypes](OpenTD.PostProcessing.Dataset.DataSourceTypes.md)
 
-### <a id="OpenTD_PostProcessing_Dataset_Times"></a> Times
+### Times
 
 Read only. Time values associated with each timestep/record in the dataset,
 in the current WorkingUnits.
@@ -182,7 +182,7 @@ public DimensionalList<Time> Times { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_PostProcessing_Dataset_UseOrbit"></a> UseOrbit
+### UseOrbit
 
 ```csharp
 [DataMember]
@@ -195,7 +195,7 @@ public int UseOrbit { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_PostProcessing_Dataset_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -207,7 +207,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_PostProcessing_Dataset_ProxyRename_System_String_System_String_"></a> ProxyRename\(string, string\)
+### ProxyRename\(string, string\)
 
 ```csharp
 protected override void ProxyRename(string from, string to)
@@ -219,19 +219,19 @@ protected override void ProxyRename(string from, string to)
 
 `to` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_Dataset_SetCurrent"></a> SetCurrent\(\)
+### SetCurrent\(\)
 
 ```csharp
 public void SetCurrent()
 ```
 
-### <a id="OpenTD_PostProcessing_Dataset_ShowContourPlot"></a> ShowContourPlot\(\)
+### ShowContourPlot\(\)
 
 ```csharp
 public void ShowContourPlot()
 ```
 
-### <a id="OpenTD_PostProcessing_Dataset_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -245,7 +245,7 @@ public override string ToString()
 
 A string that represents the current object.
 
-### <a id="OpenTD_PostProcessing_Dataset_TrySetCurrentTimeIndex_System_Double_System_Double_"></a> TrySetCurrentTimeIndex\(double, double\)
+### TrySetCurrentTimeIndex\(double, double\)
 
 Use this to indirectly set CurrentTimeIndex by specifying a time in the
 current WorkingUnits. Returns true if able to find a time in Times
@@ -265,7 +265,7 @@ public bool TrySetCurrentTimeIndex(double time, double percentTolerance = 1)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_PostProcessing_Dataset_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -273,11 +273,12 @@ Updates the TD entity with the latest client data.
 public override void Update()
 ```
 
-### <a id="OpenTD_PostProcessing_Dataset_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
 ```csharp
 public override void UpdateFromTD()
 ```
+
 

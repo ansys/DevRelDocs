@@ -1,4 +1,4 @@
-# <a id="OpenTD_NameData"></a> Class NameData
+# Class NameData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ A Sinda name, e.g., MAIN.1.
 public class NameData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [NameData](OpenTD.NameData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,7 +27,7 @@ public class NameData
 
 ## Constructors
 
-### <a id="OpenTD_NameData__ctor"></a> NameData\(\)
+### NameData\(\)
 
 Initializes a new instance of the <xref href="OpenTD.NameData" data-throw-if-not-resolved="false"></xref> class.
 
@@ -35,7 +35,7 @@ Initializes a new instance of the <xref href="OpenTD.NameData" data-throw-if-not
 public NameData()
 ```
 
-### <a id="OpenTD_NameData__ctor_System_String_System_Int32_"></a> NameData\(string, int\)
+### NameData\(string, int\)
 
 Initializes a new instance of the <xref href="OpenTD.NameData" data-throw-if-not-resolved="false"></xref> class.
 
@@ -55,7 +55,7 @@ The ID.
 
 ## Properties
 
-### <a id="OpenTD_NameData_Id"></a> Id
+### Id
 
 ```csharp
 [DataMember]
@@ -66,7 +66,7 @@ public int Id { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_NameData_Submodel"></a> Submodel
+### Submodel
 
 ```csharp
 [DataMember]
@@ -79,7 +79,7 @@ public SubmodelNameData Submodel { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_NameData_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -92,4 +92,5 @@ public override string ToString()
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 A string that represents the current object.
+
 

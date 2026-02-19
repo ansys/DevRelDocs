@@ -1,4 +1,4 @@
-# <a id="OpenTD_BatchControl"></a> Class BatchControl
+# Class BatchControl
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,13 +10,13 @@ Used to control batch run settings in the Case Set Manager.
 public class BatchControl : TdConnected
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 TdConnected ← 
 [BatchControl](OpenTD.BatchControl.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -28,13 +28,13 @@ TdConnected ←
 
 ## Constructors
 
-### <a id="OpenTD_BatchControl__ctor"></a> BatchControl\(\)
+### BatchControl\(\)
 
 ```csharp
 public BatchControl()
 ```
 
-### <a id="OpenTD_BatchControl__ctor_OpenTD_ThermalDesktop_"></a> BatchControl\(ThermalDesktop\)
+### BatchControl\(ThermalDesktop\)
 
 ```csharp
 public BatchControl(ThermalDesktop _td)
@@ -46,7 +46,7 @@ public BatchControl(ThermalDesktop _td)
 
 ## Properties
 
-### <a id="OpenTD_BatchControl_changeDirLocalOrMaster"></a> changeDirLocalOrMaster
+### changeDirLocalOrMaster
 
 ```csharp
 [DataMember]
@@ -57,7 +57,7 @@ public int changeDirLocalOrMaster { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_BatchControl_copyFiles"></a> copyFiles
+### copyFiles
 
 ```csharp
 [DataMember]
@@ -68,7 +68,7 @@ public bool copyFiles { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_BatchControl_copyFilesFormat"></a> copyFilesFormat
+### copyFilesFormat
 
 ```csharp
 [DataMember]
@@ -79,7 +79,7 @@ public string copyFilesFormat { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_BatchControl_licenseWait"></a> licenseWait
+### licenseWait
 
 ```csharp
 [DataMember]
@@ -90,7 +90,7 @@ public bool licenseWait { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_BatchControl_masterHeader"></a> masterHeader
+### masterHeader
 
 ```csharp
 [DataMember]
@@ -101,7 +101,7 @@ public string masterHeader { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_BatchControl_masterPerCasePost"></a> masterPerCasePost
+### masterPerCasePost
 
 ```csharp
 [DataMember]
@@ -112,7 +112,7 @@ public string masterPerCasePost { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_BatchControl_outputEachCaseToLogFile"></a> outputEachCaseToLogFile
+### outputEachCaseToLogFile
 
 ```csharp
 [DataMember]
@@ -123,7 +123,7 @@ public bool outputEachCaseToLogFile { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_BatchControl_runBatchCommandFormat"></a> runBatchCommandFormat
+### runBatchCommandFormat
 
 ```csharp
 [DataMember]
@@ -134,7 +134,7 @@ public string runBatchCommandFormat { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_BatchControl_setDirectoryFormat"></a> setDirectoryFormat
+### setDirectoryFormat
 
 ```csharp
 [DataMember]
@@ -145,7 +145,7 @@ public string setDirectoryFormat { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_BatchControl_sindaCleanup"></a> sindaCleanup
+### sindaCleanup
 
 ```csharp
 [DataMember]
@@ -156,7 +156,7 @@ public bool sindaCleanup { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_BatchControl_sindaMultiProcessor"></a> sindaMultiProcessor
+### sindaMultiProcessor
 
 ```csharp
 [DataMember]
@@ -167,7 +167,7 @@ public bool sindaMultiProcessor { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_BatchControl_sindaStatusWindow"></a> sindaStatusWindow
+### sindaStatusWindow
 
 ```csharp
 [DataMember]
@@ -178,7 +178,7 @@ public bool sindaStatusWindow { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_BatchControl_submitCommand"></a> submitCommand
+### submitCommand
 
 ```csharp
 [DataMember]
@@ -191,15 +191,16 @@ public string submitCommand { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_BatchControl_SetToHTCondor"></a> SetToHTCondor\(\)
+### SetToHTCondor\(\)
 
 ```csharp
 public void SetToHTCondor()
 ```
 
-### <a id="OpenTD_BatchControl_SetToLocalMachine"></a> SetToLocalMachine\(\)
+### SetToLocalMachine\(\)
 
 ```csharp
 public void SetToLocalMachine()
 ```
+
 

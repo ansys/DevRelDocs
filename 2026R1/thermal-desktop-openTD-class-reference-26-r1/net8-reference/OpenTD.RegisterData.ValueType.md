@@ -1,4 +1,4 @@
-# <a id="OpenTD_RegisterData_ValueType"></a> Enum RegisterData.ValueType
+# Enum RegisterData.ValueType
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -16,4 +16,5 @@ public enum RegisterData.ValueType
 `SYMBOLEXPRESSION = 2` 
 
 `USERVALUE = 1` 
+
 

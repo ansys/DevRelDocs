@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_UDFADescriptor"></a> Class UDFADescriptor
+# Class UDFADescriptor
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -9,12 +9,12 @@ Describes a user-defined Fortran array (UDFA)
 public class UDFADescriptor
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [UDFADescriptor](OpenTD.Results.Dataset.UDFADescriptor.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +26,7 @@ public class UDFADescriptor
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_UDFADescriptor__ctor_System_String_OpenTD_Results_Dataset_UDFAType_System_Int64_OpenTD_Results_Dataset_DataSubtype_ValueTypes_"></a> UDFADescriptor\(string, UDFAType, long, ValueTypes\)
+### UDFADescriptor\(string, UDFAType, long, ValueTypes\)
 
 ```csharp
 public UDFADescriptor(string name, UDFAType udfaType, long size, DataSubtype.ValueTypes valueType)
@@ -44,7 +44,7 @@ public UDFADescriptor(string name, UDFAType udfaType, long size, DataSubtype.Val
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_UDFADescriptor_Name"></a> Name
+### Name
 
 ```csharp
 public string Name { get; }
@@ -54,7 +54,7 @@ public string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_UDFADescriptor_Size"></a> Size
+### Size
 
 ```csharp
 public long Size { get; }
@@ -64,7 +64,7 @@ public long Size { get; }
 
  [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
-### <a id="OpenTD_Results_Dataset_UDFADescriptor_Subtype"></a> Subtype
+### Subtype
 
 ```csharp
 public DataSubtype Subtype { get; }
@@ -74,7 +74,7 @@ public DataSubtype Subtype { get; }
 
  [DataSubtype](OpenTD.Results.Dataset.DataSubtype.md)
 
-### <a id="OpenTD_Results_Dataset_UDFADescriptor_UDFAType"></a> UDFAType
+### UDFAType
 
 ```csharp
 public UDFAType UDFAType { get; }
@@ -86,7 +86,7 @@ public UDFAType UDFAType { get; }
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_UDFADescriptor_Equals_System_Object_"></a> Equals\(object\)
+### Equals\(object\)
 
 Determines whether the specified object is equal to the current object.
 
@@ -104,9 +104,9 @@ The object to compare with the current object.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+[true](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool) if the specified object  is equal to the current object; otherwise, [false](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool).
 
-### <a id="OpenTD_Results_Dataset_UDFADescriptor_GetHashCode"></a> GetHashCode\(\)
+### GetHashCode\(\)
 
 Serves as the default hash function.
 
@@ -119,4 +119,5 @@ public override int GetHashCode()
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 A hash code for the current object.
+
 

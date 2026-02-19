@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Plot_Grid"></a> Class Grid
+# Class Grid
 
 Namespace: [OpenTD.Results.Plot](OpenTD.Results.Plot.md)  
 Assembly: OpenTD.Results.dll  
@@ -9,12 +9,12 @@ Represents a grid drawn in the main plot area.
 public class Grid
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Grid](OpenTD.Results.Plot.Grid.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +26,7 @@ public class Grid
 
 ## Constructors
 
-### <a id="OpenTD_Results_Plot_Grid__ctor"></a> Grid\(\)
+### Grid\(\)
 
 ```csharp
 public Grid()
@@ -34,7 +34,7 @@ public Grid()
 
 ## Properties
 
-### <a id="OpenTD_Results_Plot_Grid_Enabled"></a> Enabled
+### Enabled
 
 ```csharp
 public bool Enabled { get; set; }
@@ -44,7 +44,7 @@ public bool Enabled { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Plot_Grid_LineColor"></a> LineColor
+### LineColor
 
 ```csharp
 public Color LineColor { get; set; }
@@ -54,7 +54,7 @@ public Color LineColor { get; set; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="OpenTD_Results_Plot_Grid_LineDashStyle"></a> LineDashStyle
+### LineDashStyle
 
 ```csharp
 public ChartDashStyle LineDashStyle { get; set; }
@@ -64,7 +64,7 @@ public ChartDashStyle LineDashStyle { get; set; }
 
  ChartDashStyle
 
-### <a id="OpenTD_Results_Plot_Grid_LineWidth"></a> LineWidth
+### LineWidth
 
 ```csharp
 public int LineWidth { get; set; }
@@ -77,4 +77,5 @@ public int LineWidth { get; set; }
 ## See Also
 
 [Plot2d](OpenTD.Results.Plot.Plot2d.md)
+
 

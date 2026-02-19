@@ -1,4 +1,4 @@
-# <a id="OpenTD_PostProcessing"></a> Namespace OpenTD.PostProcessing
+# Namespace OpenTD.PostProcessing
 
 ### Classes
 
@@ -81,4 +81,5 @@ Client-side representation of class to define data mapper group associations
  [Dataset.PlotMliNodes](OpenTD.PostProcessing.Dataset.PlotMliNodes.md)
 
  [AdditionalHeatrateInfo.SourceTypes](OpenTD.PostProcessing.AdditionalHeatrateInfo.SourceTypes.md)
+
 

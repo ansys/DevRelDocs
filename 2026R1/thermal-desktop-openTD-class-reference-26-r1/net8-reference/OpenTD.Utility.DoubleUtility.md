@@ -1,4 +1,4 @@
-# <a id="OpenTD_Utility_DoubleUtility"></a> Class DoubleUtility
+# Class DoubleUtility
 
 Namespace: [OpenTD.Utility](OpenTD.Utility.md)  
 Assembly: OpenTD.dll  
@@ -9,12 +9,12 @@ Utility methods for working with doubles.
 public static class DoubleUtility
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [DoubleUtility](OpenTD.Utility.DoubleUtility.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +26,7 @@ public static class DoubleUtility
 
 ## Properties
 
-### <a id="OpenTD_Utility_DoubleUtility_PercentTolerance"></a> PercentTolerance
+### PercentTolerance
 
 Defaults to 0.1%
 
@@ -40,7 +40,7 @@ public static double PercentTolerance { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Utility_DoubleUtility_AreEqual_System_Double_System_Double_"></a> AreEqual\(double, double\)
+### AreEqual\(double, double\)
 
 Determines whether two doubles are equal to within the static
 DoubleUtility.PercentTolerance.
@@ -63,7 +63,7 @@ public static bool AreEqual(double x1, double x2)
 
 [DoubleUtility](OpenTD.Utility.DoubleUtility.md).[PercentTolerance](OpenTD.Utility.DoubleUtility.md\#OpenTD\_Utility\_DoubleUtility\_PercentTolerance)
 
-### <a id="OpenTD_Utility_DoubleUtility_PercentDifference_System_Double_System_Double_"></a> PercentDifference\(double, double\)
+### PercentDifference\(double, double\)
 
 Determines the percent difference between two doubles. Handles
 NaN.
@@ -81,4 +81,5 @@ public static double PercentDifference(double x, double y)
 #### Returns
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 
