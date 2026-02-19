@@ -1055,7 +1055,6 @@
       items:
       - name: RootedPathname
         href: net4-reference/OpenTD.Utility.RootedPathname.md
-
 - name: NET8 Reference
   href: net8-reference/index.md
   items:
