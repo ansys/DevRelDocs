@@ -99,7 +99,6 @@
 * [getCopy](classansys-dpf-workflow.md#classansys-dpf-workflow-1a850d7aa707b7b9017bd679defc9d2845)
 * [getCustomOutput](classansys-dpf-workflow.md#classansys-dpf-workflow-1a3d181c629d1808c570ac90e485a6c5f9)
 * [getHash](classansys-dpf-workflow.md#classansys-dpf-workflow-1abd60834d5d8fb9b037f9546f80d1cb0f)
-* [getHashableKey](classansys-dpf-workflow.md#classansys-dpf-workflow-1ac8940321454536d9bad23508d29b8e3e)
 * [getOperators](classansys-dpf-workflow.md#classansys-dpf-workflow-1ab1855fcc04e3d0bafedc9f8c6b644082)
 * [getOutput](classansys-dpf-workflow.md#classansys-dpf-workflow-1a312d744b2c8174b3cd5e1d102ff6ae7b)
 * [getOutputAsAny](classansys-dpf-workflow.md#classansys-dpf-workflow-1a5340e6ab9473e5615e62223509d473c2)
@@ -183,7 +182,6 @@
 * [record](classansys-dpf-workflow.md#classansys-dpf-workflow-1a304ee206ac4927f7aa757c63b0ec00b5)
 * [renameInputPin](classansys-dpf-workflow.md#classansys-dpf-workflow-1a22fba3c96a8a6e9eda279fd1c4b5358f)
 * [renameOutputPin](classansys-dpf-workflow.md#classansys-dpf-workflow-1abff62660096b06dd09667061c8e3d8a6)
-* [setHashableKey](classansys-dpf-workflow.md#classansys-dpf-workflow-1aafb16d5c9e5dc71d79126339b8a08a1a)
 * [tryReplaceWorkflowInRegistry](classansys-dpf-workflow.md#classansys-dpf-workflow-1a478c1be621d4c49916771b42d4b10ba9)
 * [Workflow](classansys-dpf-workflow.md#classansys-dpf-workflow-1a808195b2d92b18f8f3a362e4bd701f39)
 * [Workflow](classansys-dpf-workflow.md#classansys-dpf-workflow-1a8a36b36629bde25afe03b12b0ed5a958)
@@ -5515,62 +5513,6 @@ void ansys::dpf::Workflow::enableCache(bool b)
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::enableCache"}]}`
--->
-
-<a id="classansys-dpf-workflow-1ac8940321454536d9bad23508d29b8e3e"></a>
-### Function getHashableKey
-
-![][public]
-![][const]
-
-
-```cpp
-std::string ansys::dpf::Workflow::getHashableKey() const
-```
-
-
-
-
-Set and get an simpler hashable entity (here workflow identifier) instead of the full Workflow to save time
-
-
-
-**Return type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::getHashableKey"}]}`
--->
-
-<a id="classansys-dpf-workflow-1aafb16d5c9e5dc71d79126339b8a08a1a"></a>
-### Function setHashableKey
-
-![][public]
-![][const]
-
-
-```cpp
-void ansys::dpf::Workflow::setHashableKey(const std::string &unique_identifier) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* const std::string & **unique_identifier**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::setHashableKey"}]}`
 -->
 
 <a id="classansys-dpf-workflow-1abd60834d5d8fb9b037f9546f80d1cb0f"></a>

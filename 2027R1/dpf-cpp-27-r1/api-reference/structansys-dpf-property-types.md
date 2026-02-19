@@ -17,6 +17,7 @@ Predefined property types.
 * [cell\_zone\_id](structansys-dpf-property-types.md#structansys-dpf-property-types-1acf54e38c914e28ec161dec13d6e26937)
 * [connectivity](structansys-dpf-property-types.md#structansys-dpf-property-types-1a635e2eac0083346df7a0403deae50a73)
 * [coordinates](structansys-dpf-property-types.md#structansys-dpf-property-types-1a4ea0c81e428eb05163fdde6038ea8064)
+* [degenerated\_connectivity\_ids](structansys-dpf-property-types.md#structansys-dpf-property-types-1a9b9bcd664e37d88e3dfb84af1d9b065a)
 * [element\_properties](structansys-dpf-property-types.md#structansys-dpf-property-types-1aa4fbbcfd27fb23722ee70e8785b06102)
 * [element\_shape](structansys-dpf-property-types.md#structansys-dpf-property-types-1af406e925d304de3e757eb3866e23368a)
 * [element\_type](structansys-dpf-property-types.md#structansys-dpf-property-types-1aa501bd7caa4d1252a5a0e8d12dbaa355)
@@ -168,6 +169,32 @@ Predefined connectivity property type.
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::property_types::connectivity"}]}`
+-->
+
+<a id="structansys-dpf-property-types-1a9b9bcd664e37d88e3dfb84af1d9b065a"></a>
+### Variable degenerated\_connectivity\_ids
+
+![][public]
+![][static]
+
+
+```cpp
+const PropertyType ansys::dpf::property_types::degenerated_connectivity_ids
+```
+
+
+
+
+Predefined degenerated_connectivity_ids property type.
+
+
+
+**Type**: const [PropertyType](structansys-dpf-propertytype.md#structansys-dpf-propertytype)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::property_types::degenerated_connectivity_ids"}]}`
 -->
 
 <a id="structansys-dpf-property-types-1a9cc9c60cd0efd36522e1f9081a002019"></a>

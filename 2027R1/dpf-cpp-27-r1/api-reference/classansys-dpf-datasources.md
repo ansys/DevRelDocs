@@ -42,7 +42,6 @@ Container of files on which the analysis results can be found.
 * [filePaths](classansys-dpf-datasources.md#classansys-dpf-datasources-1ab406fd24d91af8256c82faee8d962c17)
 * [getClient](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a968afd9daa0b0f13b65a2ac61369d73a)
 * [getHash](classansys-dpf-datasources.md#classansys-dpf-datasources-1a27af11a7f6a10abb4ce707e338065420)
-* [getHashableKey](classansys-dpf-datasources.md#classansys-dpf-datasources-1a5847c55b3f521ae84f106f3413888a95)
 * [hasBeenMovedLocally](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a1a5634202c15404b6b24e8f50e51cb66)
 * [hasInternalObject](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1ae198f89868d85c7db6dc1a934a1d3c15)
 * [identifierbyIndex](classansys-dpf-datasources.md#classansys-dpf-datasources-1a8803654ff5e770591c1c866271f436f6)
@@ -58,7 +57,6 @@ Container of files on which the analysis results can be found.
 * [resultFilePaths](classansys-dpf-datasources.md#classansys-dpf-datasources-1a4c0974ee4d72e7d7d2d5051796cf7de2)
 * [resultKey](classansys-dpf-datasources.md#classansys-dpf-datasources-1a7320cf9a8d0850e64fc8d337ee666178)
 * [resultNamespaceForKey](classansys-dpf-datasources.md#classansys-dpf-datasources-1adfa425b1477b6ebe977f11097b9fb7c9)
-* [setHashableKey](classansys-dpf-datasources.md#classansys-dpf-datasources-1a97dfdec6f9ba966084790215b8eb682e)
 * [~DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources-1aed25d8728c9a1a337adeb8131ef473ba)
 * [~DpfTypes](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1ab7c83b6ea160c2b115e056f6c312112f)
 
@@ -1011,62 +1009,6 @@ Create a new [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasour
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::deep_copy"}]}`
--->
-
-<a id="classansys-dpf-datasources-1a5847c55b3f521ae84f106f3413888a95"></a>
-### Function getHashableKey
-
-![][public]
-![][const]
-
-
-```cpp
-std::string ansys::dpf::DataSources::getHashableKey() const
-```
-
-
-
-
-Set and get an simpler hashable entity (here a file path) instead of the full [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources) to save time
-
-
-
-**Return type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::getHashableKey"}]}`
--->
-
-<a id="classansys-dpf-datasources-1a97dfdec6f9ba966084790215b8eb682e"></a>
-### Function setHashableKey
-
-![][public]
-![][const]
-
-
-```cpp
-void ansys::dpf::DataSources::setHashableKey(const std::string &unique_identifier) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* const std::string & **unique_identifier**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::setHashableKey"}]}`
 -->
 
 <a id="classansys-dpf-datasources-1a27af11a7f6a10abb4ce707e338065420"></a>

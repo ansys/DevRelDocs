@@ -49,7 +49,6 @@ Generally, a defined [ScopingsContainer](classansys-dpf-scopingscontainer.md#cla
 * [emptyScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer-1a915d28f8d3b7869182ca79f9c4269b4c)
 * [getClient](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a968afd9daa0b0f13b65a2ac61369d73a)
 * [getHash](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer-1a455cf417503bd6ea107755cd4d630512)
-* [getHashableKey](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer-1a2f5c40470b1d6b9b98c6056a24187a46)
 * [getLabelSpace](classansys-dpf-collectionbase.md#classansys-dpf-collectionbase-1a66d62492d07889a95a5d10f9d827cd11)
 * [getMatchingScoping](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer-1abcd0e3f3ff053fcf22c15469b0a00e78)
 * [getMatchingScopingIndices](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer-1a66a78cea272641bd538028e9d63cb3fe)
@@ -78,7 +77,6 @@ Generally, a defined [ScopingsContainer](classansys-dpf-scopingscontainer.md#cla
 * [ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer-1aed23cb82bda6642f331cfe841701525a)
 * [ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer-1a7d11bd51f92baa443d303095b7e432c3)
 * [ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer-1a62fa8d44f5d7faf885ed3fad4c4c4c97)
-* [setHashableKey](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer-1a08d196ad815b72f5de7c8524d490d170)
 * [setId](classansys-dpf-collectionbase.md#classansys-dpf-collectionbase-1a93ebbfe9396dd1c4f447e799db6cbf3b)
 * [setName](classansys-dpf-collectionbase.md#classansys-dpf-collectionbase-1a44394f964c6130dcbaed446cec3b0197)
 * [setSupport](classansys-dpf-collectionbase.md#classansys-dpf-collectionbase-1ae6f7683496d153ed944856d42b97dc82)
@@ -751,62 +749,6 @@ Create a new [ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ScopingsContainer::deep_copy"}]}`
--->
-
-<a id="classansys-dpf-scopingscontainer-1a2f5c40470b1d6b9b98c6056a24187a46"></a>
-### Function getHashableKey
-
-![][public]
-![][const]
-
-
-```cpp
-std::string ansys::dpf::ScopingsContainer::getHashableKey() const
-```
-
-
-
-
-Set and get an simpler hashable entity (here a topoloy identifier) instead of the full scoppings container to save time
-
-
-
-**Return type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ScopingsContainer::getHashableKey"}]}`
--->
-
-<a id="classansys-dpf-scopingscontainer-1a08d196ad815b72f5de7c8524d490d170"></a>
-### Function setHashableKey
-
-![][public]
-![][const]
-
-
-```cpp
-void ansys::dpf::ScopingsContainer::setHashableKey(const std::string &unique_identifier) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* const std::string & **unique_identifier**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ScopingsContainer::setHashableKey"}]}`
 -->
 
 <a id="classansys-dpf-scopingscontainer-1a455cf417503bd6ea107755cd4d630512"></a>

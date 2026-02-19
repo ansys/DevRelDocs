@@ -24,7 +24,6 @@ The scoping is entities ids representing a subset of the model's support. Typica
 * [emptyScoping](classansys-dpf-scoping.md#classansys-dpf-scoping-1a5c2fcf31c8714d27cec3455a94552650)
 * [getClient](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a968afd9daa0b0f13b65a2ac61369d73a)
 * [getHash](classansys-dpf-scoping.md#classansys-dpf-scoping-1a860cdcd91dc058236d1769fa6b880533)
-* [getHashableKey](classansys-dpf-scoping.md#classansys-dpf-scoping-1a7081b6456a9fadb2031fa2f65028c123)
 * [getIds](classansys-dpf-scoping.md#classansys-dpf-scoping-1a7377823a48ee69e439a8589627c5e6c0)
 * [hasBeenMovedLocally](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a1a5634202c15404b6b24e8f50e51cb66)
 * [hashIds](classansys-dpf-scoping.md#classansys-dpf-scoping-1a0b2cb58e52e98cd3e3a97c5fd8889e8b)
@@ -48,7 +47,6 @@ The scoping is entities ids representing a subset of the model's support. Typica
 * [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping-1ae1d319d0e8a3704e26556a8b11da2273)
 * [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping-1a95d3c08798fc15fb9daf34de74972518)
 * [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping-1a6ba7035c72a55f1213134becfdcca71a)
-* [setHashableKey](classansys-dpf-scoping.md#classansys-dpf-scoping-1a0415713e75068c4b5ba8a57cc2497fa2)
 * [setIds](classansys-dpf-scoping.md#classansys-dpf-scoping-1a021a022f87287b786ff9b3c92deb0e69)
 * [setIds](classansys-dpf-scoping.md#classansys-dpf-scoping-1aad7349f7505d953324c71900cf3d020c)
 * [setLocation](classansys-dpf-scoping.md#classansys-dpf-scoping-1abfc7b7b2376db292a67d05e9b7828367)
@@ -823,62 +821,6 @@ Resize the container of ids.
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Scoping::resize"}]}`
--->
-
-<a id="classansys-dpf-scoping-1a7081b6456a9fadb2031fa2f65028c123"></a>
-### Function getHashableKey
-
-![][public]
-![][const]
-
-
-```cpp
-std::string ansys::dpf::Scoping::getHashableKey() const
-```
-
-
-
-
-Set and get an simpler hashable entity (here topology identifiers) instead of the full FE [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping) to save time
-
-
-
-**Return type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Scoping::getHashableKey"}]}`
--->
-
-<a id="classansys-dpf-scoping-1a0415713e75068c4b5ba8a57cc2497fa2"></a>
-### Function setHashableKey
-
-![][public]
-![][const]
-
-
-```cpp
-void ansys::dpf::Scoping::setHashableKey(const std::string &unique_identifier) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* const std::string & **unique_identifier**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Scoping::setHashableKey"}]}`
 -->
 
 <a id="classansys-dpf-scoping-1a860cdcd91dc058236d1769fa6b880533"></a>
