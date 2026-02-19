@@ -14,7 +14,6 @@ Allows for the definition of a new property types. Many property types are prede
 ## Members
 
 * [c_str](structansys-dpf-propertytype.md#structansys-dpf-propertytype-1aaf60552ef91b8bc28eccb40557199dba)
-* [operator std::string](structansys-dpf-propertytype.md#structansys-dpf-propertytype-1a3d5716d1801fda4f945a6a89b4cdf0e3)
 * [operator!=](structansys-dpf-propertytype.md#structansys-dpf-propertytype-1a0c8f3b3685ac28b6fa46a263a561e5b0)
 * [operator\<](structansys-dpf-propertytype.md#structansys-dpf-propertytype-1a836bd074dd3614d5f70d8e362e058802)
 * [operator\<=](structansys-dpf-propertytype.md#structansys-dpf-propertytype-1ad74f013eccde6dad34abf8e9743e085c)
@@ -226,32 +225,6 @@ bool ansys::dpf::PropertyType::operator!=(PropertyType const &) const
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropertyType::operator!="}]}`
--->
-
-<a id="structansys-dpf-propertytype-1a3d5716d1801fda4f945a6a89b4cdf0e3"></a>
-### Function operator std::string
-
-![][public]
-![][const]
-
-
-```cpp
-ansys::dpf::PropertyType::operator std::string() const
-```
-
-
-
-
-Name of property type.
-
-
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropertyType::string"}]}`
 -->
 
 <a id="structansys-dpf-propertytype-1aaf60552ef91b8bc28eccb40557199dba"></a>

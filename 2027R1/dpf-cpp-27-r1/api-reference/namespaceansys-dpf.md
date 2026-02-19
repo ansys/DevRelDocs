@@ -8,12 +8,6 @@ This is the main namespace of the HGP API.
 
 This namespace encapsulates all of the HGP functionality.
 
-## Child namespaces
-
-* [ansys::dpf::internal](namespaceansys-dpf-internal.md#namespaceansys-dpf-internal)
-* [ansys::dpf::so](namespaceansys-dpf-so.md#namespaceansys-dpf-so)
-* [ansys::dpf::opaque](namespaceansys-dpf-opaque.md#namespaceansys-dpf-opaque)
-
 ## Classes
 
 * [ansys::dpf::Model](classansys-dpf-model.md#classansys-dpf-model)
@@ -128,11 +122,9 @@ This namespace encapsulates all of the HGP functionality.
 * [ansys::dpf::DpfVectorDataHelper](structansys-dpf-dpfvectordatahelper.md#structansys-dpf-dpfvectordatahelper)
 * [ansys::dpf::DpfVectorData](classansys-dpf-dpfvectordata.md#classansys-dpf-dpfvectordata)
 * [ansys::dpf::DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)
-* [ansys::dpf::DpfVector\< std::string \>](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-std-string-4)
 * [ansys::dpf::Context](classansys-dpf-context.md#classansys-dpf-context)
 * [ansys::dpf::LibraryHandle](classansys-dpf-libraryhandle.md#classansys-dpf-libraryhandle)
 * [ansys::dpf::LibraryHolder](classansys-dpf-libraryholder.md#classansys-dpf-libraryholder)
-* [ansys::dpf::reflect\< std::string \>](structansys-dpf-reflect-std-string.md#structansys-dpf-reflect-std-string-4)
 * [ansys::dpf::reflect\< int \>](structansys-dpf-reflect-int.md#structansys-dpf-reflect-int-4)
 * [ansys::dpf::reflect\< double \>](structansys-dpf-reflect-double.md#structansys-dpf-reflect-double-4)
 * [ansys::dpf::reflect\< bool \>](structansys-dpf-reflect-bool.md#structansys-dpf-reflect-bool-4)
@@ -143,11 +135,7 @@ This namespace encapsulates all of the HGP functionality.
 * [ansys::dpf::reflect\< float \>](structansys-dpf-reflect-float.md#structansys-dpf-reflect-float-4)
 * [ansys::dpf::reflect\< unsigned int \>](structansys-dpf-reflect-unsigned-int.md#structansys-dpf-reflect-unsigned-int-4)
 * [ansys::dpf::reflect\< short \>](structansys-dpf-reflect-short.md#structansys-dpf-reflect-short-4)
-* [ansys::dpf::reflect\< std::vector\< int \> \>](structansys-dpf-reflect-std-vector-int-4.md#structansys-dpf-reflect-std-vector-int-4-4)
-* [ansys::dpf::reflect\< std::vector\< double \> \>](structansys-dpf-reflect-std-vector-double-4.md#structansys-dpf-reflect-std-vector-double-4-4)
-* [ansys::dpf::reflect\< std::vector\< std::string \> \>](structansys-dpf-reflect-std-vector-std-string-4.md#structansys-dpf-reflect-std-vector-std-string-4-4)
 * [ansys::dpf::reflect\< int8_t \>](structansys-dpf-reflect-int8-t.md#structansys-dpf-reflect-int8-t-4)
-* [ansys::dpf::reflect\< std::complex\< double \> \>](structansys-dpf-reflect-std-complex-double-4.md#structansys-dpf-reflect-std-complex-double-4-4)
 
 ## Enumeration types
 

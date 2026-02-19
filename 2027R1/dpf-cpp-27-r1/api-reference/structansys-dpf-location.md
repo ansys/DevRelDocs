@@ -17,7 +17,6 @@ The location is the type of topology associated with the data container. This al
 * [empty](structansys-dpf-location.md#structansys-dpf-location-1aa79d660aa731fcdbdad2f57b3b3a5e65)
 * [Location](structansys-dpf-location.md#structansys-dpf-location-1a2b3efab2807517d182bc9a486a0fb837)
 * [Location](structansys-dpf-location.md#structansys-dpf-location-1acbfdb380af9621ce0bc37d290f18a464)
-* [operator std::string](structansys-dpf-location.md#structansys-dpf-location-1a5a60f9364ad31a180f0fe06aedd3bfc9)
 * [operator!=](structansys-dpf-location.md#structansys-dpf-location-1ae9e07f6694532a61658cd75aca0a6756)
 * [operator\<](structansys-dpf-location.md#structansys-dpf-location-1a17fccc35f2e202671ce6b961ef946521)
 * [operator\<=](structansys-dpf-location.md#structansys-dpf-location-1a120b2f92eef3fea51a789125c740726f)
@@ -201,32 +200,6 @@ bool ansys::dpf::Location::operator!=(Location const &) const
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Location::operator!="}]}`
--->
-
-<a id="structansys-dpf-location-1a5a60f9364ad31a180f0fe06aedd3bfc9"></a>
-### Function operator std::string
-
-![][public]
-![][const]
-
-
-```cpp
-ansys::dpf::Location::operator std::string() const
-```
-
-
-
-
-Name of location.
-
-
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Location::string"}]}`
 -->
 
 <a id="structansys-dpf-location-1aa79d660aa731fcdbdad2f57b3b3a5e65"></a>

@@ -45,18 +45,6 @@
       href: api-reference/namespaceansys.md
     - name: ansys::dpf
       href: api-reference/namespaceansys-dpf.md
-    - name: ansys::dpf::internal
-      href: api-reference/namespaceansys-dpf-internal.md
-    - name: ansys::dpf::opaque
-      href: api-reference/namespaceansys-dpf-opaque.md
-    - name: ansys::dpf::so
-      href: api-reference/namespaceansys-dpf-so.md
-    - name: dataProcessing
-      href: api-reference/namespacedataprocessing.md
-    - name: helper
-      href: api-reference/namespacehelper.md
-    - name: std
-      href: api-reference/namespacestd.md
   - name: Classes
     href: api-reference/classes.md
     items:
@@ -80,16 +68,6 @@
       href: api-reference/structansys-dpf-constructhelpers.md
     - name: ansys::dpf::ConstructHelpers::construct_trait
       href: api-reference/structansys-dpf-constructhelpers-construct-trait.md
-    - name: ansys::dpf::ConstructHelpers::construct_trait< Any, std::true_type >
-      href: api-reference/structansys-dpf-constructhelpers-construct-trait-any-std-true-type.md
-    - name: ansys::dpf::ConstructHelpers::construct_trait< Collection< DataT >, std::false_type
-        >
-      href: api-reference/structansys-dpf-constructhelpers-construct-trait-collection-datat-4-std-false-type.md
-    - name: ansys::dpf::ConstructHelpers::construct_trait< DataT, std::false_type
-        >
-      href: api-reference/structansys-dpf-constructhelpers-construct-trait-datat-std-false-type.md
-    - name: ansys::dpf::ConstructHelpers::construct_trait< DataT, std::true_type >
-      href: api-reference/structansys-dpf-constructhelpers-construct-trait-datat-std-true-type.md
     - name: ansys::dpf::Context
       href: api-reference/classansys-dpf-context.md
     - name: ansys::dpf::Context::internal
@@ -118,8 +96,6 @@
       href: api-reference/classansys-dpf-dpfvector.md
     - name: ansys::dpf::DpfVector::iterator
       href: api-reference/structansys-dpf-dpfvector-iterator.md
-    - name: ansys::dpf::DpfVector< std::string >
-      href: api-reference/classansys-dpf-dpfvector-std-string.md
     - name: ansys::dpf::DpfVectorData
       href: api-reference/classansys-dpf-dpfvectordata.md
     - name: ansys::dpf::DpfVectorDataHelper
@@ -270,12 +246,6 @@
       href: api-reference/structansys-dpf-elements.md
     - name: ansys::dpf::homogeneities
       href: api-reference/structansys-dpf-homogeneities.md
-    - name: ansys::dpf::internal::set_prop
-      href: api-reference/structansys-dpf-internal-set-prop.md
-    - name: ansys::dpf::internal::set_prop< T, std::false_type, std::true_type >
-      href: api-reference/structansys-dpf-internal-set-prop-t-std-false-type-std-true-type.md
-    - name: ansys::dpf::internal::set_prop< T, std::true_type, std::false_type >
-      href: api-reference/structansys-dpf-internal-set-prop-t-std-true-type-std-false-type.md
     - name: ansys::dpf::labels
       href: api-reference/structansys-dpf-labels.md
     - name: ansys::dpf::locations
@@ -348,16 +318,6 @@
       href: api-reference/structansys-dpf-reflect-short.md
     - name: ansys::dpf::reflect< size_t >
       href: api-reference/structansys-dpf-reflect-size-t.md
-    - name: ansys::dpf::reflect< std::complex< double > >
-      href: api-reference/structansys-dpf-reflect-std-complex-double-4.md
-    - name: ansys::dpf::reflect< std::string >
-      href: api-reference/structansys-dpf-reflect-std-string.md
-    - name: ansys::dpf::reflect< std::vector< double > >
-      href: api-reference/structansys-dpf-reflect-std-vector-double-4.md
-    - name: ansys::dpf::reflect< std::vector< int > >
-      href: api-reference/structansys-dpf-reflect-std-vector-int-4.md
-    - name: ansys::dpf::reflect< std::vector< std::string > >
-      href: api-reference/structansys-dpf-reflect-std-vector-std-string-4.md
     - name: ansys::dpf::reflect< unsigned int >
       href: api-reference/structansys-dpf-reflect-unsigned-int.md
     - name: ansys::dpf::reflect< wchar_t >
@@ -376,8 +336,6 @@
       href: api-reference/structansys-dpf-types.md
     - name: ansys::dpf::unit_systems
       href: api-reference/structansys-dpf-unit-systems.md
-    - name: std::hash< ansys::dpf::PropertyType >
-      href: api-reference/structstd-hash-ansys-dpf-propertytype.md
   - name: Files
     href: api-reference/files.md
     items:

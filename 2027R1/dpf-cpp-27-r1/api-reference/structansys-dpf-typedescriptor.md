@@ -14,7 +14,6 @@ Description of type.
 ## Members
 
 * [c_str](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor-1a47ae07192ee8b0fdabf6ccff33d432f4)
-* [operator std::string](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor-1a176268d95ca20a2fdb6d1a0e3c1b4ffb)
 * [operator!=](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor-1addcc78b9415108906a05f6aebbf708e9)
 * [operator\<](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor-1aa65f92a8c0c05c70994a2a56f009d4a9)
 * [operator\<=](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor-1a5f4ebc2148881a583bc7fc00ac454a14)
@@ -336,32 +335,6 @@ bool ansys::dpf::TypeDescriptor::operator!=(TypeDescriptor const &) const
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::TypeDescriptor::operator!="}]}`
--->
-
-<a id="structansys-dpf-typedescriptor-1a176268d95ca20a2fdb6d1a0e3c1b4ffb"></a>
-### Function operator std::string
-
-![][public]
-![][const]
-
-
-```cpp
-ansys::dpf::TypeDescriptor::operator std::string() const
-```
-
-
-
-
-Name of type.
-
-
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::TypeDescriptor::string"}]}`
 -->
 
 <a id="structansys-dpf-typedescriptor-1a47ae07192ee8b0fdabf6ccff33d432f4"></a>
