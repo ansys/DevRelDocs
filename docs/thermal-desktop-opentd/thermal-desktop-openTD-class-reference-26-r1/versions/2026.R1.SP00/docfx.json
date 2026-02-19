@@ -4,6 +4,7 @@
             "title": "OpenTD reference 2026 R1",
             "summary": "",
             "version": "2026 R1",
+            "doc_type": "markdown",
             "product": "Thermal Desktop",
             "programming language": "C#",
             "product collection": "Fluids",
