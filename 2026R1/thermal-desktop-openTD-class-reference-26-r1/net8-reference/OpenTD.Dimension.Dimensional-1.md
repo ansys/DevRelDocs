@@ -1,4 +1,4 @@
-# <a id="OpenTD_Dimension_Dimensional_1"></a> Struct Dimensional<T\>
+# Struct Dimensional<T\>
 
 Namespace: [OpenTD.Dimension](OpenTD.Dimension.md)  
 Assembly: OpenTD.dll  
@@ -10,6 +10,7 @@ to 0, then set WorkingUnits.temp to F, the Dimensional would now return 32.
 Dimensionals implicitly convert to/from doubles.
 
 ```csharp
+[MessagePackObject(false, AllowPrivate = true)]
 public struct Dimensional<T> where T : IDimension, new()
 ```
 
@@ -17,7 +18,7 @@ public struct Dimensional<T> where T : IDimension, new()
 
 `T` 
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -28,7 +29,7 @@ public struct Dimensional<T> where T : IDimension, new()
 
 ## Constructors
 
-### <a id="OpenTD_Dimension_Dimensional_1__ctor_System_Double_"></a> Dimensional\(double\)
+### Dimensional\(double\)
 
 ```csharp
 public Dimensional(double x)
@@ -38,7 +39,7 @@ public Dimensional(double x)
 
 `x` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Dimension_Dimensional_1__ctor_System_Double_OpenTD_UnitsData_"></a> Dimensional\(double, UnitsData\)
+### Dimensional\(double, UnitsData\)
 
 ```csharp
 public Dimensional(double x, UnitsData inputUnits)
@@ -52,7 +53,7 @@ public Dimensional(double x, UnitsData inputUnits)
 
 ## Methods
 
-### <a id="OpenTD_Dimension_Dimensional_1_GetValueSI"></a> GetValueSI\(\)
+### GetValueSI\(\)
 
 ```csharp
 public double GetValueSI()
@@ -62,7 +63,7 @@ public double GetValueSI()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Dimension_Dimensional_1_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns the fully qualified type name of this instance.
 
@@ -78,7 +79,7 @@ The fully qualified type name.
 
 ## Operators
 
-### <a id="OpenTD_Dimension_Dimensional_1_op_Implicit_System_Double__OpenTD_Dimension_Dimensional__0_"></a> implicit operator Dimensional<T\>\(double\)
+### implicit operator Dimensional<T\>\(double\)
 
 ```csharp
 public static implicit operator Dimensional<T>(double x)
@@ -92,7 +93,7 @@ public static implicit operator Dimensional<T>(double x)
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<T\>
 
-### <a id="OpenTD_Dimension_Dimensional_1_op_Implicit_OpenTD_Dimension_Dimensional__0___System_Double"></a> implicit operator double\(Dimensional<T\>\)
+### implicit operator double\(Dimensional<T\>\)
 
 ```csharp
 public static implicit operator double(Dimensional<T> x)
@@ -105,4 +106,5 @@ public static implicit operator double(Dimensional<T> x)
 #### Returns
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 

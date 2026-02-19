@@ -1,4 +1,4 @@
-# <a id="OpenTD_UserInterface_WriteEventArgs"></a> Class WriteEventArgs
+# Class WriteEventArgs
 
 Namespace: [OpenTD.UserInterface](OpenTD.UserInterface.md)  
 Assembly: OpenTD.dll  
@@ -9,13 +9,13 @@ Used by the StandardOutput.OnWrite event to route StandardOutput to a custom des
 public class WriteEventArgs : EventArgs
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs) ← 
 [WriteEventArgs](OpenTD.UserInterface.WriteEventArgs.md)
 
-#### Inherited Members
+## Inherited Members
 
 [EventArgs.Empty](https://learn.microsoft.com/dotnet/api/system.eventargs.empty), 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
@@ -28,7 +28,7 @@ public class WriteEventArgs : EventArgs
 
 ## Constructors
 
-### <a id="OpenTD_UserInterface_WriteEventArgs__ctor_System_String_"></a> WriteEventArgs\(string\)
+### WriteEventArgs\(string\)
 
 ```csharp
 public WriteEventArgs(string msg)
@@ -40,7 +40,7 @@ public WriteEventArgs(string msg)
 
 ## Properties
 
-### <a id="OpenTD_UserInterface_WriteEventArgs_Message"></a> Message
+### Message
 
 ```csharp
 public string Message { get; set; }
@@ -52,7 +52,7 @@ public string Message { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_UserInterface_WriteEventArgs_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -69,4 +69,5 @@ A string that represents the current object.
 ## See Also
 
 [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
+
 

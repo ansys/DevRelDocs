@@ -1,4 +1,4 @@
-# <a id="OpenTD_OrthoViews"></a> Enum OrthoViews
+# Enum OrthoViews
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -22,4 +22,5 @@ public enum OrthoViews
 `RIGHT = 5` 
 
 `TOP = 0` 
+
 

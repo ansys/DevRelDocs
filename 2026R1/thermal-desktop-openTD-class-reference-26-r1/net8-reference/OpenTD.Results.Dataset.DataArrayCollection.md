@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_DataArrayCollection"></a> Class DataArrayCollection
+# Class DataArrayCollection
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -9,19 +9,19 @@ A collection of DataArrays, with some metadata describing them.
 public class DataArrayCollection : IList<DataArray>, ICollection<DataArray>, IEnumerable<DataArray>, IEnumerable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [DataArrayCollection](OpenTD.Results.Dataset.DataArrayCollection.md)
 
-#### Implements
+## Implements
 
 [IList<DataArray\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1), 
 [ICollection<DataArray\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1), 
 [IEnumerable<DataArray\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1), 
 [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -33,13 +33,13 @@ public class DataArrayCollection : IList<DataArray>, ICollection<DataArray>, IEn
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection__ctor"></a> DataArrayCollection\(\)
+### DataArrayCollection\(\)
 
 ```csharp
 public DataArrayCollection()
 ```
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection__ctor_System_Collections_Generic_IEnumerable_OpenTD_Results_Dataset_DataArray__"></a> DataArrayCollection\(IEnumerable<DataArray\>\)
+### DataArrayCollection\(IEnumerable<DataArray\>\)
 
 ```csharp
 public DataArrayCollection(IEnumerable<DataArray> collection)
@@ -49,7 +49,7 @@ public DataArrayCollection(IEnumerable<DataArray> collection)
 
 `collection` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[DataArray](OpenTD.Results.Dataset.DataArray.md)\>
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection__ctor_OpenTD_Results_Dataset_StandardDataSubtypes_System_Collections_Generic_IEnumerable_System_Collections_Generic_IEnumerable_System_Double___OpenTD_UnitsData_OpenTD_Results_Dataset_IDataset_OpenTD_Results_Dataset_ItemIdentifier_"></a> DataArrayCollection\(StandardDataSubtypes, IEnumerable<IEnumerable<double\>\>, UnitsData, IDataset, ItemIdentifier\)
+### DataArrayCollection\(StandardDataSubtypes, IEnumerable<IEnumerable<double\>\>, UnitsData, IDataset, ItemIdentifier\)
 
 ```csharp
 public DataArrayCollection(StandardDataSubtypes subtype, IEnumerable<IEnumerable<double>> collection, UnitsData units, IDataset sourceDataset = null, ItemIdentifier sourceItem = null)
@@ -67,7 +67,7 @@ public DataArrayCollection(StandardDataSubtypes subtype, IEnumerable<IEnumerable
 
 `sourceItem` [ItemIdentifier](OpenTD.Results.Dataset.ItemIdentifier.md)
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection__ctor_OpenTD_Results_Dataset_DataSubtype_System_Collections_Generic_IEnumerable_System_Collections_Generic_IEnumerable_System_Double___OpenTD_UnitsData_OpenTD_Results_Dataset_IDataset_OpenTD_Results_Dataset_ItemIdentifier_"></a> DataArrayCollection\(DataSubtype, IEnumerable<IEnumerable<double\>\>, UnitsData, IDataset, ItemIdentifier\)
+### DataArrayCollection\(DataSubtype, IEnumerable<IEnumerable<double\>\>, UnitsData, IDataset, ItemIdentifier\)
 
 ```csharp
 public DataArrayCollection(DataSubtype subtype, IEnumerable<IEnumerable<double>> collection, UnitsData units, IDataset sourceDataset = null, ItemIdentifier sourceItem = null)
@@ -85,7 +85,7 @@ public DataArrayCollection(DataSubtype subtype, IEnumerable<IEnumerable<double>>
 
 `sourceItem` [ItemIdentifier](OpenTD.Results.Dataset.ItemIdentifier.md)
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection__ctor_OpenTD_Results_Dataset_DataArrayCollection_"></a> DataArrayCollection\(DataArrayCollection\)
+### DataArrayCollection\(DataArrayCollection\)
 
 ```csharp
 public DataArrayCollection(DataArrayCollection collection)
@@ -97,7 +97,7 @@ public DataArrayCollection(DataArrayCollection collection)
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_AutoCommenter"></a> AutoCommenter
+### AutoCommenter
 
 ```csharp
 protected AutoCommenter AutoCommenter { get; set; }
@@ -107,7 +107,7 @@ protected AutoCommenter AutoCommenter { get; set; }
 
  AutoCommenter
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_AutoNamer"></a> AutoNamer
+### AutoNamer
 
 ```csharp
 protected AutoNamer AutoNamer { get; set; }
@@ -117,7 +117,7 @@ protected AutoNamer AutoNamer { get; set; }
 
  AutoNamer
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_Comment"></a> Comment
+### Comment
 
 ```csharp
 public string Comment { get; set; }
@@ -127,7 +127,7 @@ public string Comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_Count"></a> Count
+### Count
 
 Gets the number of elements contained in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -139,7 +139,7 @@ public int Count { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_DataItemCount"></a> DataItemCount
+### DataItemCount
 
 If all the DataArrays in the collection have the same number of items,
 this will equal that. Otherwise this will be -1.
@@ -152,7 +152,7 @@ public virtual int DataItemCount { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_Dimension"></a> Dimension
+### Dimension
 
 If all the DataArrays in the collection have the same physical dimension,
 this will equal that. Otherwise this will be UnitsData.UnitsType.UNITS_NOT_SET.
@@ -165,7 +165,7 @@ public virtual UnitsData.UnitsType Dimension { get; }
 
  UnitsData.UnitsType
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_InternalSuggestedComment"></a> InternalSuggestedComment
+### InternalSuggestedComment
 
 ```csharp
 public string InternalSuggestedComment { get; set; }
@@ -175,7 +175,7 @@ public string InternalSuggestedComment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_InternalSuggestedName"></a> InternalSuggestedName
+### InternalSuggestedName
 
 ```csharp
 public string InternalSuggestedName { get; set; }
@@ -185,7 +185,7 @@ public string InternalSuggestedName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_IsReadOnly"></a> IsReadOnly
+### IsReadOnly
 
 Gets a value indicating whether the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
 
@@ -197,7 +197,7 @@ public bool IsReadOnly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_MaxDataItemCount"></a> MaxDataItemCount
+### MaxDataItemCount
 
 The maximum item count found in the arrays of the collection.
 
@@ -209,7 +209,7 @@ public virtual int MaxDataItemCount { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_MinDataItemCount"></a> MinDataItemCount
+### MinDataItemCount
 
 The minimum item count found in the arrays of the collection.
 
@@ -221,7 +221,7 @@ public virtual int MinDataItemCount { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_Name"></a> Name
+### Name
 
 ```csharp
 public string Name { get; set; }
@@ -231,7 +231,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_SourceDataItemIdentifiers"></a> SourceDataItemIdentifiers
+### SourceDataItemIdentifiers
 
 The SourceDataItemIdentifiers associated with the DataArrays in this collection.
 
@@ -243,7 +243,7 @@ public DataItemIdentifierCollection SourceDataItemIdentifiers { get; }
 
  [DataItemIdentifierCollection](OpenTD.Results.Dataset.DataItemIdentifierCollection.md)
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_SourceDataset"></a> SourceDataset
+### SourceDataset
 
 If all the DataArrays in the collection have the same SourceDataset, this will
 equal that. Otherwise this will be null.
@@ -256,7 +256,7 @@ public virtual IDataset SourceDataset { get; }
 
  [IDataset](OpenTD.Results.Dataset.IDataset.md)
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_SourceItem"></a> SourceItem
+### SourceItem
 
 If all the DataArrays in the collection have the same SourceItem, this will
 equal that. Otherwise this will be null.
@@ -269,7 +269,7 @@ public virtual ItemIdentifier SourceItem { get; }
 
  [ItemIdentifier](OpenTD.Results.Dataset.ItemIdentifier.md)
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_SourceItemIdentifiers"></a> SourceItemIdentifiers
+### SourceItemIdentifiers
 
 The SourceItemIdentifiers associated with the DataArrays in this collection.
 
@@ -281,7 +281,7 @@ public ItemIdentifierCollection SourceItemIdentifiers { get; }
 
  [ItemIdentifierCollection](OpenTD.Results.Dataset.ItemIdentifierCollection.md)
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_SourceItemSubmodel"></a> SourceItemSubmodel
+### SourceItemSubmodel
 
 If all the DataArrays in the collection have the same SourceItem submodel, this will
 equal that. Otherwise this will be null.
@@ -294,7 +294,7 @@ public virtual string SourceItemSubmodel { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_Subtype"></a> Subtype
+### Subtype
 
 If all the DataArrays in the collection have the same data subtype, this will
 equal that. Otherwise this will be null.
@@ -307,7 +307,7 @@ public virtual DataSubtype Subtype { get; }
 
  [DataSubtype](OpenTD.Results.Dataset.DataSubtype.md)
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_Item_System_Int32_"></a> this\[int\]
+### this\[int\]
 
 Gets or sets the element at the specified index.
 
@@ -331,7 +331,7 @@ The property is set and the <xref href="System.Collections.Generic.IList%601" da
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_Add_OpenTD_Results_Dataset_DataArray_"></a> Add\(DataArray\)
+### Add\(DataArray\)
 
 Adds an item to the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -349,7 +349,7 @@ public void Add(DataArray x)
 
 The <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_AddRange_System_Collections_Generic_IEnumerable_OpenTD_Results_Dataset_DataArray__"></a> AddRange\(IEnumerable<DataArray\>\)
+### AddRange\(IEnumerable<DataArray\>\)
 
 ```csharp
 public void AddRange(IEnumerable<DataArray> collection)
@@ -359,7 +359,7 @@ public void AddRange(IEnumerable<DataArray> collection)
 
 `collection` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[DataArray](OpenTD.Results.Dataset.DataArray.md)\>
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_Clear"></a> Clear\(\)
+### Clear\(\)
 
 Removes all items from the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -373,7 +373,7 @@ public void Clear()
 
 The <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_Contains_OpenTD_Results_Dataset_DataArray_"></a> Contains\(DataArray\)
+### Contains\(DataArray\)
 
 Determines whether the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> contains a specific value.
 
@@ -391,9 +391,9 @@ The object to locate in the <xref href="System.Collections.Generic.ICollection%6
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">item</code> is found in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+[true](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool) if <code class="paramref">item</code> is found in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>; otherwise, [false](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool).
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_CopyTo_OpenTD_Results_Dataset_DataArray___System_Int32_"></a> CopyTo\(DataArray\[\], int\)
+### CopyTo\(DataArray\[\], int\)
 
 Copies the elements of the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> to an <xref href="System.Array" data-throw-if-not-resolved="false"></xref>, starting at a particular <xref href="System.Array" data-throw-if-not-resolved="false"></xref> index.
 
@@ -415,7 +415,7 @@ The zero-based index in <code class="paramref">array</code> at which copying beg
 
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
-<code class="paramref">array</code> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.
+<code class="paramref">array</code> is [null](https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null).
 
  [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
 
@@ -425,7 +425,7 @@ The zero-based index in <code class="paramref">array</code> at which copying beg
 
 The number of elements in the source <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is greater than the available space from <code class="paramref">arrayIndex</code> to the end of the destination <code class="paramref">array</code>.
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_Filter_OpenTD_Results_Dataset_DataItemIdentifierCollection_"></a> Filter\(DataItemIdentifierCollection\)
+### Filter\(DataItemIdentifierCollection\)
 
 ```csharp
 public DataArrayCollection Filter(DataItemIdentifierCollection dataItems)
@@ -439,7 +439,7 @@ public DataArrayCollection Filter(DataItemIdentifierCollection dataItems)
 
  [DataArrayCollection](OpenTD.Results.Dataset.DataArrayCollection.md)
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_GetEnumerator"></a> GetEnumerator\(\)
+### GetEnumerator\(\)
 
 Returns an enumerator that iterates through the collection.
 
@@ -453,7 +453,7 @@ public IEnumerator<DataArray> GetEnumerator()
 
 An enumerator that can be used to iterate through the collection.
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_GetSelfSuggestedComment"></a> GetSelfSuggestedComment\(\)
+### GetSelfSuggestedComment\(\)
 
 ```csharp
 protected virtual string GetSelfSuggestedComment()
@@ -463,7 +463,7 @@ protected virtual string GetSelfSuggestedComment()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_GetSelfSuggestedName"></a> GetSelfSuggestedName\(\)
+### GetSelfSuggestedName\(\)
 
 ```csharp
 protected virtual string GetSelfSuggestedName()
@@ -473,7 +473,7 @@ protected virtual string GetSelfSuggestedName()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_GetTranspose"></a> GetTranspose\(\)
+### GetTranspose\(\)
 
 ```csharp
 public virtual DataArrayCollection GetTranspose()
@@ -483,7 +483,7 @@ public virtual DataArrayCollection GetTranspose()
 
  [DataArrayCollection](OpenTD.Results.Dataset.DataArrayCollection.md)
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_GetValues"></a> GetValues\(\)
+### GetValues\(\)
 
 ```csharp
 public virtual List<List<double>> GetValues()
@@ -493,7 +493,7 @@ public virtual List<List<double>> GetValues()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>\>
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_GetValues_OpenTD_UnitsData_"></a> GetValues\(UnitsData\)
+### GetValues\(UnitsData\)
 
 ```csharp
 public virtual List<List<double>> GetValues(UnitsData units)
@@ -507,7 +507,7 @@ public virtual List<List<double>> GetValues(UnitsData units)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>\>
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_IndexOf_OpenTD_Results_Dataset_DataArray_"></a> IndexOf\(DataArray\)
+### IndexOf\(DataArray\)
 
 Determines the index of a specific item in the <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -527,7 +527,7 @@ The object to locate in the <xref href="System.Collections.Generic.IList%601" da
 
 The index of <code class="paramref">item</code> if found in the list; otherwise, -1.
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_Insert_System_Int32_OpenTD_Results_Dataset_DataArray_"></a> Insert\(int, DataArray\)
+### Insert\(int, DataArray\)
 
 Inserts an item to the <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref> at the specified index.
 
@@ -555,7 +555,7 @@ The object to insert into the <xref href="System.Collections.Generic.IList%601" 
 
 The <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref> is read-only.
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_InsertRange_System_Int32_System_Collections_Generic_IEnumerable_OpenTD_Results_Dataset_DataArray__"></a> InsertRange\(int, IEnumerable<DataArray\>\)
+### InsertRange\(int, IEnumerable<DataArray\>\)
 
 ```csharp
 public void InsertRange(int index, IEnumerable<DataArray> collection)
@@ -567,7 +567,7 @@ public void InsertRange(int index, IEnumerable<DataArray> collection)
 
 `collection` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[DataArray](OpenTD.Results.Dataset.DataArray.md)\>
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_Remove_OpenTD_Results_Dataset_DataArray_"></a> Remove\(DataArray\)
+### Remove\(DataArray\)
 
 Removes the first occurrence of a specific object from the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -583,7 +583,7 @@ public bool Remove(DataArray x)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">item</code> was successfully removed from the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>. This method also returns <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> if <code class="paramref">item</code> is not found in the original <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
+[true](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool) if <code class="paramref">item</code> was successfully removed from the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>; otherwise, [false](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool). This method also returns [false](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool) if <code class="paramref">item</code> is not found in the original <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
 #### Exceptions
 
@@ -591,7 +591,7 @@ public bool Remove(DataArray x)
 
 The <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_RemoveAt_System_Int32_"></a> RemoveAt\(int\)
+### RemoveAt\(int\)
 
 Removes the <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref> item at the specified index.
 
@@ -615,7 +615,7 @@ The zero-based index of the item to remove.
 
 The <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref> is read-only.
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_RemoveRange_System_Int32_System_Int32_"></a> RemoveRange\(int, int\)
+### RemoveRange\(int, int\)
 
 ```csharp
 public void RemoveRange(int index, int count)
@@ -627,7 +627,7 @@ public void RemoveRange(int index, int count)
 
 `count` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Results_Dataset_DataArrayCollection_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -643,8 +643,6 @@ A string that represents the current object.
 
 ## See Also
 
-IAutoName, 
-[ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<T\>, 
-[IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<T\>, 
-[IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<T\>
+IAutoName
+
 

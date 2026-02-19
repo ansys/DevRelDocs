@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_PercentDifferenceCompareData"></a> Class PercentDifferenceCompareData
+# Class PercentDifferenceCompareData
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -13,17 +13,17 @@ the same number of records.
 public class PercentDifferenceCompareData : CompareData, ICompareData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [CompareData](OpenTD.Results.Dataset.CompareData.md) ← 
 [PercentDifferenceCompareData](OpenTD.Results.Dataset.PercentDifferenceCompareData.md)
 
-#### Implements
+## Implements
 
 [ICompareData](OpenTD.Results.Dataset.ICompareData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [CompareData.ComparerInput](OpenTD.Results.Dataset.CompareData.md\#OpenTD\_Results\_Dataset\_CompareData\_ComparerInput), 
 [CompareData.ComparerOutput](OpenTD.Results.Dataset.CompareData.md\#OpenTD\_Results\_Dataset\_CompareData\_ComparerOutput), 
@@ -38,7 +38,7 @@ public class PercentDifferenceCompareData : CompareData, ICompareData
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_PercentDifferenceCompareData__ctor_OpenTD_Results_Dataset_IComparerInput_OpenTD_Results_Dataset_IComparerOutput_"></a> PercentDifferenceCompareData\(IComparerInput, IComparerOutput\)
+### PercentDifferenceCompareData\(IComparerInput, IComparerOutput\)
 
 ```csharp
 public PercentDifferenceCompareData(IComparerInput comparerInput, IComparerOutput comparerOutput)
@@ -52,7 +52,7 @@ public PercentDifferenceCompareData(IComparerInput comparerInput, IComparerOutpu
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_PercentDifferenceCompareData_Floor"></a> Floor
+### Floor
 
 Comparison floor for comparing doubles. If the absolute value of a datapoint in dataset A is less than this value, the percent difference for that comparison is set to zero, resulting in that comparison being ignored. All comparisons are in SI units, so set the floor in SI units. Defaults to 0.
 
@@ -64,7 +64,7 @@ public double Floor { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Results_Dataset_PercentDifferenceCompareData_PercentTol"></a> PercentTol
+### PercentTol
 
 Percent tolerance to use when comparing doubles. Defaults to 1.0.
 
@@ -78,7 +78,7 @@ public double PercentTol { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_PercentDifferenceCompareData_Compare_System_String_OpenTD_Results_Dataset_DataSubtype_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_Int64__System_Collections_Generic_IEnumerable_System_Int64__System_Boolean_"></a> Compare\(string, DataSubtype, IEnumerable<string\>, IEnumerable<long\>, IEnumerable<long\>, bool\)
+### Compare\(string, DataSubtype, IEnumerable<string\>, IEnumerable<long\>, IEnumerable<long\>, bool\)
 
 This method implements the comparison algorithm.
 
@@ -119,4 +119,5 @@ If true, use ComparerOutput to write a message if this comparison is successful.
 ## See Also
 
 [ICompareData](OpenTD.Results.Dataset.ICompareData.md)
+
 

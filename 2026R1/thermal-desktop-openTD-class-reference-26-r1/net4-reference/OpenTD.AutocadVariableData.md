@@ -1,4 +1,4 @@
-# <a id="OpenTD_AutocadVariableData"></a> Class AutocadVariableData
+# Class AutocadVariableData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ Examples: FILEDIA, PICKBOX, TOOLTIPS, etc.
 public class AutocadVariableData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AutocadVariableData](OpenTD.AutocadVariableData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,7 +27,7 @@ public class AutocadVariableData
 
 ## Constructors
 
-### <a id="OpenTD_AutocadVariableData__ctor"></a> AutocadVariableData\(\)
+### AutocadVariableData\(\)
 
 ```csharp
 public AutocadVariableData()
@@ -35,7 +35,7 @@ public AutocadVariableData()
 
 ## Properties
 
-### <a id="OpenTD_AutocadVariableData_Name"></a> Name
+### Name
 
 ```csharp
 public string Name { get; set; }
@@ -45,7 +45,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_AutocadVariableData_Type"></a> Type
+### Type
 
 ```csharp
 public AutocadVariableData.Types Type { get; set; }
@@ -55,7 +55,7 @@ public AutocadVariableData.Types Type { get; set; }
 
  [AutocadVariableData](OpenTD.AutocadVariableData.md).[Types](OpenTD.AutocadVariableData.Types.md)
 
-### <a id="OpenTD_AutocadVariableData_ValueDouble"></a> ValueDouble
+### ValueDouble
 
 ```csharp
 public double ValueDouble { get; set; }
@@ -65,7 +65,7 @@ public double ValueDouble { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_AutocadVariableData_ValueInt"></a> ValueInt
+### ValueInt
 
 ```csharp
 public int ValueInt { get; set; }
@@ -75,7 +75,7 @@ public int ValueInt { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_AutocadVariableData_ValueString"></a> ValueString
+### ValueString
 
 ```csharp
 public string ValueString { get; set; }
@@ -84,4 +84,5 @@ public string ValueString { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

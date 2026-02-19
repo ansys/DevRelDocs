@@ -1,4 +1,4 @@
-# <a id="OpenTD_Connection"></a> Class Connection
+# Class Connection
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -12,12 +12,12 @@ side of a surface to connect to.
 public class Connection
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Connection](OpenTD.Connection.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -29,7 +29,7 @@ public class Connection
 
 ## Constructors
 
-### <a id="OpenTD_Connection__ctor_System_String_System_Int32_"></a> Connection\(string, int\)
+### Connection\(string, int\)
 
 ```csharp
 public Connection(string _Handle, int _Marker)
@@ -41,7 +41,7 @@ public Connection(string _Handle, int _Marker)
 
 `_Marker` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Connection__ctor"></a> Connection\(\)
+### Connection\(\)
 
 Initializes a new instance of the <xref href="OpenTD.Connection" data-throw-if-not-resolved="false"></xref> class.
 
@@ -49,7 +49,7 @@ Initializes a new instance of the <xref href="OpenTD.Connection" data-throw-if-n
 public Connection()
 ```
 
-### <a id="OpenTD_Connection__ctor_System_String_"></a> Connection\(string\)
+### Connection\(string\)
 
 Initializes a new instance of the <xref href="OpenTD.Connection" data-throw-if-not-resolved="false"></xref> class.
 
@@ -63,7 +63,7 @@ public Connection(string _Handle)
 
 AutoCAD handle.
 
-### <a id="OpenTD_Connection__ctor_OpenTD_DbObject_"></a> Connection\(DbObject\)
+### Connection\(DbObject\)
 
 Initializes a new instance of the <xref href="OpenTD.Connection" data-throw-if-not-resolved="false"></xref> class.
 
@@ -81,7 +81,7 @@ Gets the AutoCAD handle from this DbObject.
 
 [DbObject](OpenTD.DbObject.md)
 
-### <a id="OpenTD_Connection__ctor_OpenTD_DbObject_System_Int32_"></a> Connection\(DbObject, int\)
+### Connection\(DbObject, int\)
 
 Initializes a new instance of the <xref href="OpenTD.Connection" data-throw-if-not-resolved="false"></xref> class.
 
@@ -105,7 +105,7 @@ The marker specifies how to connect to the entity.
 
 ## Fields
 
-### <a id="OpenTD_Connection_Empty"></a> Empty
+### Empty
 
 ```csharp
 public static readonly Connection Empty
@@ -117,7 +117,7 @@ public static readonly Connection Empty
 
 ## Properties
 
-### <a id="OpenTD_Connection_Handle"></a> Handle
+### Handle
 
 ```csharp
 [DataMember]
@@ -128,7 +128,7 @@ public string Handle { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Connection_Marker"></a> Marker
+### Marker
 
 ```csharp
 [DataMember]
@@ -141,7 +141,7 @@ public int Marker { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Connection_GetDomainName"></a> GetDomainName\(\)
+### GetDomainName\(\)
 
 ```csharp
 public string GetDomainName()
@@ -151,7 +151,7 @@ public string GetDomainName()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Connection_IsDomainName"></a> IsDomainName\(\)
+### IsDomainName\(\)
 
 ```csharp
 public bool IsDomainName()
@@ -161,7 +161,7 @@ public bool IsDomainName()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Connection_IsEmpty"></a> IsEmpty\(\)
+### IsEmpty\(\)
 
 ```csharp
 public bool IsEmpty()
@@ -171,7 +171,7 @@ public bool IsEmpty()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Connection_SetDomainName_System_String_"></a> SetDomainName\(string\)
+### SetDomainName\(string\)
 
 ```csharp
 public void SetDomainName(string domainName)
@@ -181,7 +181,7 @@ public void SetDomainName(string domainName)
 
 `domainName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Connection_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -197,7 +197,7 @@ A string that represents the current object.
 
 ## Operators
 
-### <a id="OpenTD_Connection_op_Implicit_System_String__OpenTD_Connection"></a> implicit operator Connection\(string\)
+### implicit operator Connection\(string\)
 
 ```csharp
 public static implicit operator Connection(string handle)
@@ -211,7 +211,7 @@ public static implicit operator Connection(string handle)
 
  [Connection](OpenTD.Connection.md)
 
-### <a id="OpenTD_Connection_op_Implicit_OpenTD_DbObject__OpenTD_Connection"></a> implicit operator Connection\(DbObject\)
+### implicit operator Connection\(DbObject\)
 
 ```csharp
 public static implicit operator Connection(DbObject x)
@@ -225,7 +225,7 @@ public static implicit operator Connection(DbObject x)
 
  [Connection](OpenTD.Connection.md)
 
-### <a id="OpenTD_Connection_op_Implicit_OpenTD_Connection__System_Collections_Generic_List_OpenTD_Connection_"></a> implicit operator List<Connection\>\(Connection\)
+### implicit operator List<Connection\>\(Connection\)
 
 Implicitly converts a single element into a one-element list.
 
@@ -240,4 +240,5 @@ public static implicit operator List<Connection>(Connection x)
 #### Returns
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Connection](OpenTD.Connection.md)\>
+
 

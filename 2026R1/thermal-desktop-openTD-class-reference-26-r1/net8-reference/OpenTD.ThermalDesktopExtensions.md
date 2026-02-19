@@ -1,4 +1,4 @@
-# <a id="OpenTD_ThermalDesktopExtensions"></a> Class ThermalDesktopExtensions
+# Class ThermalDesktopExtensions
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -7,12 +7,12 @@ Assembly: OpenTD.dll
 public static class ThermalDesktopExtensions
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ThermalDesktopExtensions](OpenTD.ThermalDesktopExtensions.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -24,7 +24,7 @@ public static class ThermalDesktopExtensions
 
 ## Methods
 
-### <a id="OpenTD_ThermalDesktopExtensions_CaptureGraphicsArea_OpenTD_ThermalDesktop_"></a> CaptureGraphicsArea\(ThermalDesktop\)
+### CaptureGraphicsArea\(ThermalDesktop\)
 
 ```csharp
 public static Bitmap CaptureGraphicsArea(this ThermalDesktop td)
@@ -38,7 +38,7 @@ public static Bitmap CaptureGraphicsArea(this ThermalDesktop td)
 
  [Bitmap](https://learn.microsoft.com/dotnet/api/system.drawing.bitmap)
 
-### <a id="OpenTD_ThermalDesktopExtensions_GetViewNames_OpenTD_ThermalDesktop_"></a> GetViewNames\(ThermalDesktop\)
+### GetViewNames\(ThermalDesktop\)
 
 ```csharp
 public static List<string> GetViewNames(this ThermalDesktop td)
@@ -52,7 +52,7 @@ public static List<string> GetViewNames(this ThermalDesktop td)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_ThermalDesktopExtensions_MergeNodes_OpenTD_ThermalDesktop_OpenTD_MergeNodesOptionsData_"></a> MergeNodes\(ThermalDesktop, MergeNodesOptionsData\)
+### MergeNodes\(ThermalDesktop, MergeNodesOptionsData\)
 
 ```csharp
 public static void MergeNodes(this ThermalDesktop td, MergeNodesOptionsData data)
@@ -64,7 +64,7 @@ public static void MergeNodes(this ThermalDesktop td, MergeNodesOptionsData data
 
 `data` [MergeNodesOptionsData](OpenTD.MergeNodesOptionsData.md)
 
-### <a id="OpenTD_ThermalDesktopExtensions_Quit_OpenTD_ThermalDesktop_"></a> Quit\(ThermalDesktop\)
+### Quit\(ThermalDesktop\)
 
 ```csharp
 public static void Quit(this ThermalDesktop td)
@@ -73,4 +73,5 @@ public static void Quit(this ThermalDesktop td)
 #### Parameters
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

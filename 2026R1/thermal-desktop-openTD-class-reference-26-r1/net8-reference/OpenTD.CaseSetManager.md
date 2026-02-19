@@ -1,4 +1,4 @@
-# <a id="OpenTD_CaseSetManager"></a> Class CaseSetManager
+# Class CaseSetManager
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,17 +10,17 @@ other operations available in TD's Case Set Manager.
 public class CaseSetManager : TdConnected, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 TdConnected ← 
 [CaseSetManager](OpenTD.CaseSetManager.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -32,7 +32,7 @@ TdConnected ←
 
 ## Constructors
 
-### <a id="OpenTD_CaseSetManager__ctor_OpenTD_ThermalDesktop_"></a> CaseSetManager\(ThermalDesktop\)
+### CaseSetManager\(ThermalDesktop\)
 
 ```csharp
 public CaseSetManager(ThermalDesktop _td)
@@ -44,7 +44,7 @@ public CaseSetManager(ThermalDesktop _td)
 
 ## Properties
 
-### <a id="OpenTD_CaseSetManager_Options"></a> Options
+### Options
 
 ```csharp
 public CaseSetManagerOptions Options { get; }
@@ -56,7 +56,7 @@ public CaseSetManagerOptions Options { get; }
 
 ## Methods
 
-### <a id="OpenTD_CaseSetManager_Add_System_String_System_String_System_String_"></a> Add\(string, string, string\)
+### Add\(string, string, string\)
 
 ```csharp
 public CaseSet Add(string name, string groupName = "", string sindaFilenames = "")
@@ -74,7 +74,7 @@ public CaseSet Add(string name, string groupName = "", string sindaFilenames = "
 
  [CaseSet](OpenTD.CaseSet.md)
 
-### <a id="OpenTD_CaseSetManager_Delete_System_String_System_String_"></a> Delete\(string, string\)
+### Delete\(string, string\)
 
 ```csharp
 public void Delete(string name, string groupName = "")
@@ -86,7 +86,7 @@ public void Delete(string name, string groupName = "")
 
 `groupName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_CaseSetManager_GetCaseSets"></a> GetCaseSets\(\)
+### GetCaseSets\(\)
 
 ```csharp
 public List<CaseSet> GetCaseSets()
@@ -96,7 +96,7 @@ public List<CaseSet> GetCaseSets()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[CaseSet](OpenTD.CaseSet.md)\>
 
-### <a id="OpenTD_CaseSetManager_IsCaseRunning"></a> IsCaseRunning\(\)
+### IsCaseRunning\(\)
 
 Some types of cases return control to TD before they finish. Example:
 cases involving Dynamic Sinda. This also means they return control to
@@ -112,7 +112,7 @@ public bool IsCaseRunning()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_CaseSetManager_Rename_System_String_System_String_System_String_System_String_"></a> Rename\(string, string, string, string\)
+### Rename\(string, string, string, string\)
 
 ```csharp
 public void Rename(string name, string groupName, string newName, string newGroupName)
@@ -128,7 +128,7 @@ public void Rename(string name, string groupName, string newName, string newGrou
 
 `newGroupName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_CaseSetManager_Run_System_String_System_String_System_Boolean_"></a> Run\(string, string, bool\)
+### Run\(string, string, bool\)
 
 Run one case.
 Set useOldMethod to true for a less-verbose run method that
@@ -146,7 +146,7 @@ public void Run(string name, string groupName = "", bool useOldMethod = false)
 
 `useOldMethod` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_CaseSetManager_Run_System_Collections_Generic_IEnumerable_System_Int32__"></a> Run\(IEnumerable<int\>\)
+### Run\(IEnumerable<int\>\)
 
 Run multiple cases, just like selecting them and pressing the run button in the GUI.
 Use this method to run cases using TD batch mode.
@@ -159,7 +159,7 @@ public void Run(IEnumerable<int> caseIndices)
 
 `caseIndices` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### <a id="OpenTD_CaseSetManager_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -167,7 +167,7 @@ Updates the TD entity with the latest client data.
 public void Update()
 ```
 
-### <a id="OpenTD_CaseSetManager_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -178,4 +178,5 @@ public void UpdateFromTD()
 ## See Also
 
 [CaseSet](OpenTD.CaseSet.md)
+
 

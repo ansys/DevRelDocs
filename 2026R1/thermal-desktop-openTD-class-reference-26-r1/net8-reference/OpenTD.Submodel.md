@@ -1,4 +1,4 @@
-# <a id="OpenTD_Submodel"></a> Class Submodel
+# Class Submodel
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,10 +6,11 @@ Assembly: OpenTD.dll
 A thermal submodel. Implicitly converts to/from string.
 
 ```csharp
+[MessagePackObject(true)]
 public class Submodel : SubmodelData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -17,11 +18,11 @@ public class Submodel : SubmodelData, IUpdatable
 SubmodelData ← 
 [Submodel](OpenTD.Submodel.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [UniqueNameObject.Name](OpenTD.UniqueNameObject.md\#OpenTD\_UniqueNameObject\_Name), 
 [UniqueNameObject.Rename\(string\)](OpenTD.UniqueNameObject.md\#OpenTD\_UniqueNameObject\_Rename\_System\_String\_), 
@@ -45,7 +46,7 @@ SubmodelData ←
 
 ## Methods
 
-### <a id="OpenTD_Submodel_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -56,4 +57,5 @@ public override void CreateIn(ThermalDesktop td)
 #### Parameters
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

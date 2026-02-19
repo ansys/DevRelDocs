@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Class1"></a> Class Class1
+# Class Class1
 
 Namespace: [OpenTD.Results](OpenTD.Results.md)  
 Assembly: OpenTD.Results.dll  
@@ -7,12 +7,12 @@ Assembly: OpenTD.Results.dll
 public class Class1
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Class1](OpenTD.Results.Class1.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -21,4 +21,5 @@ public class Class1
 [object.MemberwiseClone\(\)](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), 
 [object.ReferenceEquals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring)
+
 

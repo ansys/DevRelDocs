@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FEModel_SolidElement"></a> Class SolidElement
+# Class SolidElement
 
 Namespace: [OpenTD.RadCAD.FEModel](OpenTD.RadCAD.FEModel.md)  
 Assembly: OpenTD.dll  
@@ -10,13 +10,13 @@ mesh using an FEMeshImporter only.
 public class SolidElement : Element
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Element](OpenTD.RadCAD.FEModel.Element.md) ← 
 [SolidElement](OpenTD.RadCAD.FEModel.SolidElement.md)
 
-#### Inherited Members
+## Inherited Members
 
 [Element.id](OpenTD.RadCAD.FEModel.Element.md\#OpenTD\_RadCAD\_FEModel\_Element\_id), 
 [Element.order](OpenTD.RadCAD.FEModel.Element.md\#OpenTD\_RadCAD\_FEModel\_Element\_order), 
@@ -49,7 +49,7 @@ public class SolidElement : Element
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_FEModel_SolidElement__ctor"></a> SolidElement\(\)
+### SolidElement\(\)
 
 ```csharp
 public SolidElement()
@@ -57,7 +57,7 @@ public SolidElement()
 
 ## Fields
 
-### <a id="OpenTD_RadCAD_FEModel_SolidElement_solidOrienters"></a> solidOrienters
+### solidOrienters
 
 ```csharp
 public List<Quaternion> solidOrienters
@@ -66,4 +66,5 @@ public List<Quaternion> solidOrienters
 #### Field Value
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Quaternion](OpenTD.RadCAD.FEModel.Quaternion.md)\>
+
 

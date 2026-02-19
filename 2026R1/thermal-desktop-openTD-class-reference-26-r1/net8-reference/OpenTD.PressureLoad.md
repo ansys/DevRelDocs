@@ -1,4 +1,4 @@
-# <a id="OpenTD_PressureLoad"></a> Class PressureLoad
+# Class PressureLoad
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,10 +6,11 @@ Assembly: OpenTD.dll
 Client-side representation of a Pressure entity in a TD instance.
 
 ```csharp
+[MessagePackObject(true)]
 public class PressureLoad : TdDbEntityData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -17,11 +18,11 @@ public class PressureLoad : TdDbEntityData, IUpdatable
 [TdDbEntityData](OpenTD.TdDbEntityData.md) ← 
 [PressureLoad](OpenTD.PressureLoad.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [TdDbEntityData.SetFrom\(TdDbEntityData\)](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_SetFrom\_OpenTD\_TdDbEntityData\_), 
 [TdDbEntityData.Layer](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_Layer), 
@@ -53,7 +54,7 @@ public class PressureLoad : TdDbEntityData, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_PressureLoad__ctor"></a> PressureLoad\(\)
+### PressureLoad\(\)
 
 ```csharp
 public PressureLoad()
@@ -61,7 +62,7 @@ public PressureLoad()
 
 ## Properties
 
-### <a id="OpenTD_PressureLoad_AppliedTo"></a> AppliedTo
+### AppliedTo
 
 ```csharp
 public List<Connection> AppliedTo { get; set; }
@@ -71,7 +72,7 @@ public List<Connection> AppliedTo { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Connection](OpenTD.Connection.md)\>
 
-### <a id="OpenTD_PressureLoad_Comment"></a> Comment
+### Comment
 
 ```csharp
 public string Comment { get; set; }
@@ -81,7 +82,7 @@ public string Comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PressureLoad_Enabled"></a> Enabled
+### Enabled
 
 ```csharp
 public int Enabled { get; set; }
@@ -91,7 +92,7 @@ public int Enabled { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PressureLoad_EnabledExp"></a> EnabledExp
+### EnabledExp
 
 ```csharp
 public ExpressionData EnabledExp { get; set; }
@@ -101,7 +102,7 @@ public ExpressionData EnabledExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_PressureLoad_FileName"></a> FileName
+### FileName
 
 ```csharp
 public string FileName { get; set; }
@@ -111,7 +112,7 @@ public string FileName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PressureLoad_Submodel"></a> Submodel
+### Submodel
 
 ```csharp
 public string Submodel { get; set; }
@@ -121,7 +122,7 @@ public string Submodel { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PressureLoad_TimeArray"></a> TimeArray
+### TimeArray
 
 ```csharp
 public DimensionalList<Time> TimeArray { get; set; }
@@ -131,7 +132,7 @@ public DimensionalList<Time> TimeArray { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_PressureLoad_Type"></a> Type
+### Type
 
 ```csharp
 public PressureLoad.PressureTypes Type { get; set; }
@@ -141,7 +142,7 @@ public PressureLoad.PressureTypes Type { get; set; }
 
  [PressureLoad](OpenTD.PressureLoad.md).[PressureTypes](OpenTD.PressureLoad.PressureTypes.md)
 
-### <a id="OpenTD_PressureLoad_Value"></a> Value
+### Value
 
 ```csharp
 public Dimensional<Pressure> Value { get; set; }
@@ -151,7 +152,7 @@ public Dimensional<Pressure> Value { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Pressure](OpenTD.Dimension.Pressure.md)\>
 
-### <a id="OpenTD_PressureLoad_ValueArray"></a> ValueArray
+### ValueArray
 
 ```csharp
 public DimensionalList<Pressure> ValueArray { get; set; }
@@ -161,7 +162,7 @@ public DimensionalList<Pressure> ValueArray { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[Pressure](OpenTD.Dimension.Pressure.md)\>
 
-### <a id="OpenTD_PressureLoad_ValueExp"></a> ValueExp
+### ValueExp
 
 ```csharp
 public ExpressionData ValueExp { get; set; }
@@ -173,7 +174,7 @@ public ExpressionData ValueExp { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_PressureLoad_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -185,7 +186,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_PressureLoad_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -199,7 +200,7 @@ public override string ToString()
 
 A string that represents the current object.
 
-### <a id="OpenTD_PressureLoad_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -207,7 +208,7 @@ Updates the TD entity with the latest client data.
 public override void Update()
 ```
 
-### <a id="OpenTD_PressureLoad_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -218,4 +219,5 @@ public override void UpdateFromTD()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

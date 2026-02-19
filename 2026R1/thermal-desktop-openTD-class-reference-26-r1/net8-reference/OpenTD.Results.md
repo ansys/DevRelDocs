@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results"></a> Namespace OpenTD.Results
+# Namespace OpenTD.Results
 
 ### Namespaces
 
@@ -11,4 +11,5 @@
 ### Classes
 
  [Class1](OpenTD.Results.Class1.md)
+
 

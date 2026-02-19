@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_FormulaDataArray"></a> Class FormulaDataArray
+# Class FormulaDataArray
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -10,19 +10,19 @@ references 0 or more arrays from its InputCollection.
 public class FormulaDataArray : DerivedDataArray, IEnumerable<double>, IEnumerable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [DataArray](OpenTD.Results.Dataset.DataArray.md) ← 
 [DerivedDataArray](OpenTD.Results.Dataset.DerivedDataArray.md) ← 
 [FormulaDataArray](OpenTD.Results.Dataset.FormulaDataArray.md)
 
-#### Implements
+## Implements
 
 [IEnumerable<double\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1), 
 [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
 
-#### Inherited Members
+## Inherited Members
 
 [DerivedDataArray.InputCollection](OpenTD.Results.Dataset.DerivedDataArray.md\#OpenTD\_Results\_Dataset\_DerivedDataArray\_InputCollection), 
 [DerivedDataArray.IgnoreNaNInCalculations](OpenTD.Results.Dataset.DerivedDataArray.md\#OpenTD\_Results\_Dataset\_DerivedDataArray\_IgnoreNaNInCalculations), 
@@ -67,7 +67,7 @@ public class FormulaDataArray : DerivedDataArray, IEnumerable<double>, IEnumerab
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_FormulaDataArray__ctor_OpenTD_Results_Dataset_DataArrayCollection_"></a> FormulaDataArray\(DataArrayCollection\)
+### FormulaDataArray\(DataArrayCollection\)
 
 ```csharp
 public FormulaDataArray(DataArrayCollection inputCollection)
@@ -77,7 +77,7 @@ public FormulaDataArray(DataArrayCollection inputCollection)
 
 `inputCollection` [DataArrayCollection](OpenTD.Results.Dataset.DataArrayCollection.md)
 
-### <a id="OpenTD_Results_Dataset_FormulaDataArray__ctor"></a> FormulaDataArray\(\)
+### FormulaDataArray\(\)
 
 ```csharp
 public FormulaDataArray()
@@ -85,7 +85,7 @@ public FormulaDataArray()
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_FormulaDataArray_Formula"></a> Formula
+### Formula
 
 The formula to generate array values. Use "X0" to refer to the first
 array in the InputCollection, "X1" to refer to the second, etc.
@@ -100,7 +100,7 @@ public string Formula { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_FormulaDataArray_FormulaUnits"></a> FormulaUnits
+### FormulaUnits
 
 The units the forumla is written in, if applicable. The FormulaDataArray
 will automatically convert the InputCollection to these units before applying
@@ -116,7 +116,7 @@ public UnitsData FormulaUnits { get; set; }
 
  UnitsData
 
-### <a id="OpenTD_Results_Dataset_FormulaDataArray_OutputCount"></a> OutputCount
+### OutputCount
 
 The number of items contained in the output array. This defaults to
 the maximum Count of any input array (if there are input arrays) or to
@@ -130,7 +130,7 @@ public int OutputCount { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Results_Dataset_FormulaDataArray_Subtype"></a> Subtype
+### Subtype
 
 The subtype of the formula result. Defaults to dimensionless, but can be set by the user.
 
@@ -144,13 +144,13 @@ public override DataSubtype Subtype { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_FormulaDataArray_CheckData"></a> CheckData\(\)
+### CheckData\(\)
 
 ```csharp
 protected override void CheckData()
 ```
 
-### <a id="OpenTD_Results_Dataset_FormulaDataArray_GetSelfSuggestedName"></a> GetSelfSuggestedName\(\)
+### GetSelfSuggestedName\(\)
 
 ```csharp
 protected override string GetSelfSuggestedName()
@@ -160,11 +160,12 @@ protected override string GetSelfSuggestedName()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_FormulaDataArray_SetDerivedData"></a> SetDerivedData\(\)
+### SetDerivedData\(\)
 
 For setting ValuesSI, any other derived data
 
 ```csharp
 protected override void SetDerivedData()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_RcConicData"></a> Class RcConicData
+# Class RcConicData
 
 Namespace: [OpenTD.RadCAD](OpenTD.RadCAD.md)  
 Assembly: OpenTD.dll  
@@ -11,7 +11,7 @@ Client-side representation of a conic entity in a TD instance.
 public class RcConicData : RcEntityData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -24,11 +24,11 @@ public class RcConicData : RcEntityData, IUpdatable
 
 [EllipticCylinder](OpenTD.RadCAD.EllipticCylinder.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [RcEntityData.TopIdType](OpenTD.RadCAD.RcEntityData.md\#OpenTD\_RadCAD\_RcEntityData\_TopIdType), 
 [RcEntityData.BotIdType](OpenTD.RadCAD.RcEntityData.md\#OpenTD\_RadCAD\_RcEntityData\_BotIdType), 
@@ -158,7 +158,7 @@ public class RcConicData : RcEntityData, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_RcConicData__ctor"></a> RcConicData\(\)
+### RcConicData\(\)
 
 ```csharp
 public RcConicData()
@@ -166,7 +166,7 @@ public RcConicData()
 
 ## Properties
 
-### <a id="OpenTD_RadCAD_RcConicData_BaseTrans"></a> BaseTrans
+### BaseTrans
 
 Transformation from Base to World Coordinate System (WCS)
 
@@ -179,7 +179,7 @@ public Matrix3d BaseTrans { get; set; }
 
  [Matrix3d](OpenTD.Matrix3d.md)
 
-### <a id="OpenTD_RadCAD_RcConicData_LocalToWorldTransformation"></a> LocalToWorldTransformation
+### LocalToWorldTransformation
 
 Get transformation from Local to World Coordinate System (WCS)
 
@@ -191,7 +191,7 @@ public Matrix3d LocalToWorldTransformation { get; }
 
  [Matrix3d](OpenTD.Matrix3d.md)
 
-### <a id="OpenTD_RadCAD_RcConicData_LocalTrans"></a> LocalTrans
+### LocalTrans
 
 Transformation from Local to Base coordinate system
 
@@ -206,7 +206,7 @@ public Transformation LocalTrans { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_RadCAD_RcConicData_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -220,7 +220,7 @@ public override string ToString()
 
 A string that represents the current object.
 
-### <a id="OpenTD_RadCAD_RcConicData_TransformBy_OpenTD_Matrix3d_"></a> TransformBy\(Matrix3d\)
+### TransformBy\(Matrix3d\)
 
 Transform the conic by the provided matrix. This will also update BaseTrans.
 
@@ -235,4 +235,5 @@ public void TransformBy(Matrix3d x)
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

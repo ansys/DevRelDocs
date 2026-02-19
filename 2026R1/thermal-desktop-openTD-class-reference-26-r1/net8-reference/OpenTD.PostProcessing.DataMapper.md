@@ -1,4 +1,4 @@
-# <a id="OpenTD_PostProcessing_DataMapper"></a> Class DataMapper
+# Class DataMapper
 
 Namespace: [OpenTD.PostProcessing](OpenTD.PostProcessing.md)  
 Assembly: OpenTD.dll  
@@ -9,10 +9,11 @@ Implements <xref href="OpenTD.IUpdatable" data-throw-if-not-resolved="false"></x
 Implements <xref href="OpenTD.IReassignable" data-throw-if-not-resolved="false"></xref>
 
 ```csharp
+[MessagePackObject(true)]
 public class DataMapper : MeshDisplayer, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -21,11 +22,11 @@ public class DataMapper : MeshDisplayer, IUpdatable
 [MeshDisplayer](OpenTD.MeshDisplayer.md) ← 
 [DataMapper](OpenTD.PostProcessing.DataMapper.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [MeshDisplayer.LocalToWorldTransformation](OpenTD.MeshDisplayer.md\#OpenTD\_MeshDisplayer\_LocalToWorldTransformation), 
 [MeshDisplayer.TransformBy\(Matrix3d\)](OpenTD.MeshDisplayer.md\#OpenTD\_MeshDisplayer\_TransformBy\_OpenTD\_Matrix3d\_), 
@@ -67,7 +68,7 @@ public class DataMapper : MeshDisplayer, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_PostProcessing_DataMapper__ctor"></a> DataMapper\(\)
+### DataMapper\(\)
 
 ```csharp
 public DataMapper()
@@ -75,7 +76,7 @@ public DataMapper()
 
 ## Properties
 
-### <a id="OpenTD_PostProcessing_DataMapper_AcadGroupName"></a> AcadGroupName
+### AcadGroupName
 
 ```csharp
 public string AcadGroupName { get; set; }
@@ -85,7 +86,7 @@ public string AcadGroupName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_DataMapper_AcadGroupNameGrad"></a> AcadGroupNameGrad
+### AcadGroupNameGrad
 
 ```csharp
 public string AcadGroupNameGrad { get; set; }
@@ -95,7 +96,7 @@ public string AcadGroupNameGrad { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_DataMapper_CreatePoints"></a> CreatePoints
+### CreatePoints
 
 ```csharp
 public int CreatePoints { get; set; }
@@ -105,7 +106,7 @@ public int CreatePoints { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_DataMapper_CurrentPPDataset"></a> CurrentPPDataset
+### CurrentPPDataset
 
 ```csharp
 public string CurrentPPDataset { get; set; }
@@ -115,7 +116,7 @@ public string CurrentPPDataset { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_DataMapper_Enabled"></a> Enabled
+### Enabled
 
 ```csharp
 public int Enabled { get; set; }
@@ -125,7 +126,7 @@ public int Enabled { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_DataMapper_EnabledExp"></a> EnabledExp
+### EnabledExp
 
 ```csharp
 public ExpressionData EnabledExp { get; set; }
@@ -135,7 +136,7 @@ public ExpressionData EnabledExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_PostProcessing_DataMapper_EndTime"></a> EndTime
+### EndTime
 
 ```csharp
 public Dimensional<Time> EndTime { get; set; }
@@ -145,7 +146,7 @@ public Dimensional<Time> EndTime { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_PostProcessing_DataMapper_EndTimeExp"></a> EndTimeExp
+### EndTimeExp
 
 ```csharp
 public ExpressionData EndTimeExp { get; set; }
@@ -155,7 +156,7 @@ public ExpressionData EndTimeExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_PostProcessing_DataMapper_InputFile"></a> InputFile
+### InputFile
 
 ```csharp
 public string InputFile { get; set; }
@@ -165,7 +166,7 @@ public string InputFile { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_DataMapper_InputFileFormat"></a> InputFileFormat
+### InputFileFormat
 
 ```csharp
 public DataMapper.FileFormats InputFileFormat { get; set; }
@@ -175,7 +176,7 @@ public DataMapper.FileFormats InputFileFormat { get; set; }
 
  [DataMapper](OpenTD.PostProcessing.DataMapper.md).[FileFormats](OpenTD.PostProcessing.DataMapper.FileFormats.md)
 
-### <a id="OpenTD_PostProcessing_DataMapper_InputFileModelLengthUnits"></a> InputFileModelLengthUnits
+### InputFileModelLengthUnits
 
 ```csharp
 public int InputFileModelLengthUnits { get; set; }
@@ -185,7 +186,7 @@ public int InputFileModelLengthUnits { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_DataMapper_LastReadInputFile"></a> LastReadInputFile
+### LastReadInputFile
 
 ```csharp
 public string LastReadInputFile { get; set; }
@@ -195,7 +196,7 @@ public string LastReadInputFile { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_DataMapper_LastReadPatranNeutralFile"></a> LastReadPatranNeutralFile
+### LastReadPatranNeutralFile
 
 ```csharp
 public string LastReadPatranNeutralFile { get; set; }
@@ -205,7 +206,7 @@ public string LastReadPatranNeutralFile { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_DataMapper_LastReadTimeStampInputFile"></a> LastReadTimeStampInputFile
+### LastReadTimeStampInputFile
 
 ```csharp
 public string LastReadTimeStampInputFile { get; set; }
@@ -215,7 +216,7 @@ public string LastReadTimeStampInputFile { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_DataMapper_LastReadTimeStampPatranNeutralFile"></a> LastReadTimeStampPatranNeutralFile
+### LastReadTimeStampPatranNeutralFile
 
 ```csharp
 public string LastReadTimeStampPatranNeutralFile { get; set; }
@@ -225,7 +226,7 @@ public string LastReadTimeStampPatranNeutralFile { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_DataMapper_LoadGroupsFromPatran"></a> LoadGroupsFromPatran
+### LoadGroupsFromPatran
 
 ```csharp
 public int LoadGroupsFromPatran { get; set; }
@@ -235,7 +236,7 @@ public int LoadGroupsFromPatran { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_DataMapper_MapBeams"></a> MapBeams
+### MapBeams
 
 ```csharp
 public int MapBeams { get; set; }
@@ -245,7 +246,7 @@ public int MapBeams { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_DataMapper_MapConstantOrVariableTol"></a> MapConstantOrVariableTol
+### MapConstantOrVariableTol
 
 ```csharp
 public int MapConstantOrVariableTol { get; set; }
@@ -255,7 +256,7 @@ public int MapConstantOrVariableTol { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_DataMapper_MapCurrentAllOrSelectedPP"></a> MapCurrentAllOrSelectedPP
+### MapCurrentAllOrSelectedPP
 
 ```csharp
 public int MapCurrentAllOrSelectedPP { get; set; }
@@ -265,7 +266,7 @@ public int MapCurrentAllOrSelectedPP { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_DataMapper_MapObjectsOption"></a> MapObjectsOption
+### MapObjectsOption
 
 ```csharp
 public DataMapper.MapObjectsOptions MapObjectsOption { get; set; }
@@ -275,7 +276,7 @@ public DataMapper.MapObjectsOptions MapObjectsOption { get; set; }
 
  [DataMapper](OpenTD.PostProcessing.DataMapper.md).[MapObjectsOptions](OpenTD.PostProcessing.DataMapper.MapObjectsOptions.md)
 
-### <a id="OpenTD_PostProcessing_DataMapper_MapObjectsOptionGrad"></a> MapObjectsOptionGrad
+### MapObjectsOptionGrad
 
 ```csharp
 public DataMapper.MapObjectsOptions MapObjectsOptionGrad { get; set; }
@@ -285,7 +286,7 @@ public DataMapper.MapObjectsOptions MapObjectsOptionGrad { get; set; }
 
  [DataMapper](OpenTD.PostProcessing.DataMapper.md).[MapObjectsOptions](OpenTD.PostProcessing.DataMapper.MapObjectsOptions.md)
 
-### <a id="OpenTD_PostProcessing_DataMapper_MapOutputGradients"></a> MapOutputGradients
+### MapOutputGradients
 
 ```csharp
 public int MapOutputGradients { get; set; }
@@ -295,7 +296,7 @@ public int MapOutputGradients { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_DataMapper_MapTolerance"></a> MapTolerance
+### MapTolerance
 
 ```csharp
 public double MapTolerance { get; set; }
@@ -305,7 +306,7 @@ public double MapTolerance { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_PostProcessing_DataMapper_MapToleranceArray"></a> MapToleranceArray
+### MapToleranceArray
 
 ```csharp
 public DimensionalList<ModelLength> MapToleranceArray { get; set; }
@@ -315,7 +316,7 @@ public DimensionalList<ModelLength> MapToleranceArray { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_PostProcessing_DataMapper_MapUnspecifiedGroupsToAllEntities"></a> MapUnspecifiedGroupsToAllEntities
+### MapUnspecifiedGroupsToAllEntities
 
 ```csharp
 public int MapUnspecifiedGroupsToAllEntities { get; set; }
@@ -325,7 +326,7 @@ public int MapUnspecifiedGroupsToAllEntities { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_DataMapper_MapUnspecifiedGroupsToAllEntitiesGrad"></a> MapUnspecifiedGroupsToAllEntitiesGrad
+### MapUnspecifiedGroupsToAllEntitiesGrad
 
 ```csharp
 public int MapUnspecifiedGroupsToAllEntitiesGrad { get; set; }
@@ -335,7 +336,7 @@ public int MapUnspecifiedGroupsToAllEntitiesGrad { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_DataMapper_MaxTolerance"></a> MaxTolerance
+### MaxTolerance
 
 ```csharp
 public Dimensional<ModelLength> MaxTolerance { get; set; }
@@ -345,7 +346,7 @@ public Dimensional<ModelLength> MaxTolerance { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_PostProcessing_DataMapper_MaxToleranceExp"></a> MaxToleranceExp
+### MaxToleranceExp
 
 ```csharp
 public ExpressionData MaxToleranceExp { get; set; }
@@ -355,7 +356,7 @@ public ExpressionData MaxToleranceExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_PostProcessing_DataMapper_Name"></a> Name
+### Name
 
 ```csharp
 public string Name { get; set; }
@@ -365,7 +366,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_DataMapper_OutputFile"></a> OutputFile
+### OutputFile
 
 ```csharp
 public string OutputFile { get; set; }
@@ -375,7 +376,7 @@ public string OutputFile { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_DataMapper_OutputFileFormat"></a> OutputFileFormat
+### OutputFileFormat
 
 ```csharp
 public DataMapper.FileFormats OutputFileFormat { get; set; }
@@ -385,7 +386,7 @@ public DataMapper.FileFormats OutputFileFormat { get; set; }
 
  [DataMapper](OpenTD.PostProcessing.DataMapper.md).[FileFormats](OpenTD.PostProcessing.DataMapper.FileFormats.md)
 
-### <a id="OpenTD_PostProcessing_DataMapper_PatranNeutralFile"></a> PatranNeutralFile
+### PatranNeutralFile
 
 ```csharp
 public string PatranNeutralFile { get; set; }
@@ -395,7 +396,7 @@ public string PatranNeutralFile { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_DataMapper_ReadInModelLengthUnits"></a> ReadInModelLengthUnits
+### ReadInModelLengthUnits
 
 ```csharp
 public int ReadInModelLengthUnits { get; set; }
@@ -405,7 +406,7 @@ public int ReadInModelLengthUnits { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_DataMapper_SelectedTimesForMapping"></a> SelectedTimesForMapping
+### SelectedTimesForMapping
 
 ```csharp
 public List<int> SelectedTimesForMapping { get; set; }
@@ -415,7 +416,7 @@ public List<int> SelectedTimesForMapping { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### <a id="OpenTD_PostProcessing_DataMapper_SingleOrMultipleFiles"></a> SingleOrMultipleFiles
+### SingleOrMultipleFiles
 
 ```csharp
 public int SingleOrMultipleFiles { get; set; }
@@ -425,7 +426,7 @@ public int SingleOrMultipleFiles { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_DataMapper_StartTime"></a> StartTime
+### StartTime
 
 ```csharp
 public Dimensional<Time> StartTime { get; set; }
@@ -435,7 +436,7 @@ public Dimensional<Time> StartTime { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_PostProcessing_DataMapper_StartTimeExp"></a> StartTimeExp
+### StartTimeExp
 
 ```csharp
 public ExpressionData StartTimeExp { get; set; }
@@ -445,7 +446,7 @@ public ExpressionData StartTimeExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_PostProcessing_DataMapper_TempDeltaK"></a> TempDeltaK
+### TempDeltaK
 
 ```csharp
 public Dimensional<Temp> TempDeltaK { get; set; }
@@ -455,7 +456,7 @@ public Dimensional<Temp> TempDeltaK { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Temp](OpenTD.Dimension.Temp.md)\>
 
-### <a id="OpenTD_PostProcessing_DataMapper_TempDeltaKExp"></a> TempDeltaKExp
+### TempDeltaKExp
 
 ```csharp
 public ExpressionData TempDeltaKExp { get; set; }
@@ -465,7 +466,7 @@ public ExpressionData TempDeltaKExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_PostProcessing_DataMapper_TrackMultiMapTempDiff"></a> TrackMultiMapTempDiff
+### TrackMultiMapTempDiff
 
 ```csharp
 public int TrackMultiMapTempDiff { get; set; }
@@ -475,7 +476,7 @@ public int TrackMultiMapTempDiff { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_DataMapper_UseAdvancedMapMethod"></a> UseAdvancedMapMethod
+### UseAdvancedMapMethod
 
 ```csharp
 public int UseAdvancedMapMethod { get; set; }
@@ -485,7 +486,7 @@ public int UseAdvancedMapMethod { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_DataMapper_UseStructuralThicknessForGradientCalcs"></a> UseStructuralThicknessForGradientCalcs
+### UseStructuralThicknessForGradientCalcs
 
 ```csharp
 public int UseStructuralThicknessForGradientCalcs { get; set; }
@@ -495,9 +496,10 @@ public int UseStructuralThicknessForGradientCalcs { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_DataMapper_UseUCS"></a> UseUCS
+### UseUCS
 
 ```csharp
+[IgnoreMember]
 public bool UseUCS { get; set; }
 ```
 
@@ -507,7 +509,7 @@ public bool UseUCS { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_PostProcessing_DataMapper_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -519,13 +521,13 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_PostProcessing_DataMapper_Map"></a> Map\(\)
+### Map\(\)
 
 ```csharp
 public void Map()
 ```
 
-### <a id="OpenTD_PostProcessing_DataMapper_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -533,7 +535,7 @@ Updates the TD entity with the latest client data.
 public override void Update()
 ```
 
-### <a id="OpenTD_PostProcessing_DataMapper_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -546,4 +548,5 @@ public override void UpdateFromTD()
 [MeshDisplayer](OpenTD.MeshDisplayer.md), 
 [IUpdatable](OpenTD.IUpdatable.md), 
 IReassignable
+
 

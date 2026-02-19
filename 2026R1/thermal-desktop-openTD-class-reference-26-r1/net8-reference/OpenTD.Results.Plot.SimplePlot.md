@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Plot_SimplePlot"></a> Class SimplePlot
+# Class SimplePlot
 
 Namespace: [OpenTD.Results.Plot](OpenTD.Results.Plot.md)  
 Assembly: OpenTD.Results.dll  
@@ -13,13 +13,13 @@ If you try to plot more axes, it will throw an exception.
 public class SimplePlot : Plot2d
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Plot2d](OpenTD.Results.Plot.Plot2d.md) ← 
 [SimplePlot](OpenTD.Results.Plot.SimplePlot.md)
 
-#### Inherited Members
+## Inherited Members
 
 [Plot2d.SetSeriesPaletteColor\(int, Color\)](OpenTD.Results.Plot.Plot2d.md\#OpenTD\_Results\_Plot\_Plot2d\_SetSeriesPaletteColor\_System\_Int32\_System\_Drawing\_Color\_), 
 [Plot2d.SetPlotStyle\(Plot2dStyle\)](OpenTD.Results.Plot.Plot2d.md\#OpenTD\_Results\_Plot\_Plot2d\_SetPlotStyle\_OpenTD\_Results\_Plot\_Plot2dStyle\_), 
@@ -71,7 +71,7 @@ public class SimplePlot : Plot2d
 
 ## Constructors
 
-### <a id="OpenTD_Results_Plot_SimplePlot__ctor_System_String_"></a> SimplePlot\(string\)
+### SimplePlot\(string\)
 
 ```csharp
 public SimplePlot(string title)
@@ -81,7 +81,7 @@ public SimplePlot(string title)
 
 `title` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Plot_SimplePlot__ctor"></a> SimplePlot\(\)
+### SimplePlot\(\)
 
 ```csharp
 public SimplePlot()
@@ -89,13 +89,13 @@ public SimplePlot()
 
 ## Methods
 
-### <a id="OpenTD_Results_Plot_SimplePlot_CheckData"></a> CheckData\(\)
+### CheckData\(\)
 
 ```csharp
 protected void CheckData()
 ```
 
-### <a id="OpenTD_Results_Plot_SimplePlot_GetAsImage"></a> GetAsImage\(\)
+### GetAsImage\(\)
 
 ```csharp
 public override Bitmap GetAsImage()
@@ -105,7 +105,7 @@ public override Bitmap GetAsImage()
 
  [Bitmap](https://learn.microsoft.com/dotnet/api/system.drawing.bitmap)
 
-### <a id="OpenTD_Results_Plot_SimplePlot_Show"></a> Show\(\)
+### Show\(\)
 
 ```csharp
 public override void Show()
@@ -114,4 +114,5 @@ public override void Show()
 ## See Also
 
 [Plot2d](OpenTD.Results.Plot.Plot2d.md)
+
 

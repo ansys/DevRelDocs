@@ -1,4 +1,4 @@
-# <a id="OpenTD_UDFA"></a> Class UDFA
+# Class UDFA
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,15 +6,16 @@ Assembly: OpenTD.dll
 Client-side representation of a User-Defined Fortran Array (UDFA).
 
 ```csharp
+[MessagePackObject(true)]
 public class UDFA
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [UDFA](OpenTD.UDFA.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +27,7 @@ public class UDFA
 
 ## Constructors
 
-### <a id="OpenTD_UDFA__ctor"></a> UDFA\(\)
+### UDFA\(\)
 
 ```csharp
 public UDFA()
@@ -34,7 +35,7 @@ public UDFA()
 
 ## Properties
 
-### <a id="OpenTD_UDFA_DoSave"></a> DoSave
+### DoSave
 
 ```csharp
 public int DoSave { get; set; }
@@ -44,7 +45,7 @@ public int DoSave { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UDFA_DoWarn"></a> DoWarn
+### DoWarn
 
 ```csharp
 public bool DoWarn { get; set; }
@@ -54,7 +55,7 @@ public bool DoWarn { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UDFA_DynamicUpdates"></a> DynamicUpdates
+### DynamicUpdates
 
 ```csharp
 public bool DynamicUpdates { get; set; }
@@ -64,7 +65,7 @@ public bool DynamicUpdates { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UDFA_Enabled"></a> Enabled
+### Enabled
 
 ```csharp
 public int Enabled { get; set; }
@@ -74,7 +75,7 @@ public int Enabled { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UDFA_EnabledExpression"></a> EnabledExpression
+### EnabledExpression
 
 ```csharp
 public ExpressionData EnabledExpression { get; set; }
@@ -84,7 +85,7 @@ public ExpressionData EnabledExpression { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_UDFA_IndexName"></a> IndexName
+### IndexName
 
 ```csharp
 public string IndexName { get; set; }
@@ -94,7 +95,7 @@ public string IndexName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UDFA_InitData"></a> InitData
+### InitData
 
 ```csharp
 public string InitData { get; set; }
@@ -104,7 +105,7 @@ public string InitData { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UDFA_InitType"></a> InitType
+### InitType
 
 ```csharp
 public UDFA.UdfaInitType InitType { get; set; }
@@ -114,7 +115,7 @@ public UDFA.UdfaInitType InitType { get; set; }
 
  [UDFA](OpenTD.UDFA.md).[UdfaInitType](OpenTD.UDFA.UdfaInitType.md)
 
-### <a id="OpenTD_UDFA_Length"></a> Length
+### Length
 
 ```csharp
 public int Length { get; set; }
@@ -124,7 +125,7 @@ public int Length { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UDFA_LengthExpression"></a> LengthExpression
+### LengthExpression
 
 ```csharp
 public ExpressionData LengthExpression { get; set; }
@@ -134,7 +135,7 @@ public ExpressionData LengthExpression { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_UDFA_Name"></a> Name
+### Name
 
 ```csharp
 public string Name { get; set; }
@@ -144,7 +145,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UDFA_Type"></a> Type
+### Type
 
 ```csharp
 public UDFA.UdfaType Type { get; set; }
@@ -154,7 +155,7 @@ public UDFA.UdfaType Type { get; set; }
 
  [UDFA](OpenTD.UDFA.md).[UdfaType](OpenTD.UDFA.UdfaType.md)
 
-### <a id="OpenTD_UDFA_UdcaStringLength"></a> UdcaStringLength
+### UdcaStringLength
 
 ```csharp
 public int UdcaStringLength { get; set; }
@@ -164,7 +165,7 @@ public int UdcaStringLength { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UDFA_UdcaStringLengthExpression"></a> UdcaStringLengthExpression
+### UdcaStringLengthExpression
 
 ```csharp
 public ExpressionData UdcaStringLengthExpression { get; set; }
@@ -174,7 +175,7 @@ public ExpressionData UdcaStringLengthExpression { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_UDFA_UdfaValueType"></a> UdfaValueType
+### UdfaValueType
 
 ```csharp
 public UDFA.ValueType UdfaValueType { get; set; }
@@ -186,7 +187,7 @@ public UDFA.ValueType UdfaValueType { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_UDFA_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -200,9 +201,10 @@ public override string ToString()
 
 A string that represents the current object.
 
-### <a id="OpenTD_UDFA_Validate"></a> Validate\(\)
+### Validate\(\)
 
 ```csharp
 public void Validate()
 ```
+
 

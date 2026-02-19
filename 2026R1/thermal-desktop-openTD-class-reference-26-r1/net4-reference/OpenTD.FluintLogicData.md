@@ -1,4 +1,4 @@
-# <a id="OpenTD_FluintLogicData"></a> Class FluintLogicData
+# Class FluintLogicData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ User logic for a fluid submodel.
 public class FluintLogicData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [FluintLogicData](OpenTD.FluintLogicData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,7 +27,7 @@ public class FluintLogicData
 
 ## Constructors
 
-### <a id="OpenTD_FluintLogicData__ctor"></a> FluintLogicData\(\)
+### FluintLogicData\(\)
 
 ```csharp
 public FluintLogicData()
@@ -35,7 +35,7 @@ public FluintLogicData()
 
 ## Properties
 
-### <a id="OpenTD_FluintLogicData_Array"></a> Array
+### Array
 
 ```csharp
 [DataMember]
@@ -46,7 +46,7 @@ public string Array { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FluintLogicData_Carray"></a> Carray
+### Carray
 
 ```csharp
 [DataMember]
@@ -57,7 +57,7 @@ public string Carray { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FluintLogicData_Control"></a> Control
+### Control
 
 ```csharp
 [DataMember]
@@ -68,7 +68,7 @@ public string Control { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FluintLogicData_Flogic0"></a> Flogic0
+### Flogic0
 
 ```csharp
 [DataMember]
@@ -79,7 +79,7 @@ public string Flogic0 { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FluintLogicData_Flogic1"></a> Flogic1
+### Flogic1
 
 ```csharp
 [DataMember]
@@ -90,7 +90,7 @@ public string Flogic1 { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FluintLogicData_Flogic2"></a> Flogic2
+### Flogic2
 
 ```csharp
 [DataMember]
@@ -101,7 +101,7 @@ public string Flogic2 { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FluintLogicData_Flow"></a> Flow
+### Flow
 
 ```csharp
 [DataMember]
@@ -112,7 +112,7 @@ public string Flow { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FluintLogicData_Output"></a> Output
+### Output
 
 ```csharp
 [DataMember]
@@ -122,4 +122,5 @@ public string Output { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

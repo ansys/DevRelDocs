@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_AnalysisGroupSurfaceInfo"></a> Class AnalysisGroupSurfaceInfo
+# Class AnalysisGroupSurfaceInfo
 
 Namespace: [OpenTD.RadCAD](OpenTD.RadCAD.md)  
 Assembly: OpenTD.dll  
@@ -7,15 +7,16 @@ Used to specify what sides of a surface are active in a radiation
 analysis group.
 
 ```csharp
+[MessagePackObject(true)]
 public class AnalysisGroupSurfaceInfo
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AnalysisGroupSurfaceInfo](OpenTD.RadCAD.AnalysisGroupSurfaceInfo.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -27,7 +28,7 @@ public class AnalysisGroupSurfaceInfo
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_AnalysisGroupSurfaceInfo__ctor_System_String_OpenTD_RadCAD_RcEntityData_Active_"></a> AnalysisGroupSurfaceInfo\(string, Active\)
+### AnalysisGroupSurfaceInfo\(string, Active\)
 
 ```csharp
 public AnalysisGroupSurfaceInfo(string name, RcEntityData.Active activeSides)
@@ -41,7 +42,7 @@ public AnalysisGroupSurfaceInfo(string name, RcEntityData.Active activeSides)
 
 ## Properties
 
-### <a id="OpenTD_RadCAD_AnalysisGroupSurfaceInfo_ActiveSides"></a> ActiveSides
+### ActiveSides
 
 ```csharp
 public RcEntityData.Active ActiveSides { get; set; }
@@ -51,7 +52,7 @@ public RcEntityData.Active ActiveSides { get; set; }
 
  [RcEntityData](OpenTD.RadCAD.RcEntityData.md).[Active](OpenTD.RadCAD.RcEntityData.Active.md)
 
-### <a id="OpenTD_RadCAD_AnalysisGroupSurfaceInfo_Name"></a> Name
+### Name
 
 ```csharp
 public string Name { get; set; }
@@ -63,7 +64,7 @@ public string Name { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_RadCAD_AnalysisGroupSurfaceInfo_Equals_System_Object_"></a> Equals\(object\)
+### Equals\(object\)
 
 Determines whether the specified object is equal to the current object.
 
@@ -81,9 +82,9 @@ The object to compare with the current object.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+[true](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool) if the specified object  is equal to the current object; otherwise, [false](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool).
 
-### <a id="OpenTD_RadCAD_AnalysisGroupSurfaceInfo_GetHashCode"></a> GetHashCode\(\)
+### GetHashCode\(\)
 
 Serves as the default hash function.
 
@@ -97,7 +98,7 @@ public override int GetHashCode()
 
 A hash code for the current object.
 
-### <a id="OpenTD_RadCAD_AnalysisGroupSurfaceInfo_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -110,4 +111,5 @@ public override string ToString()
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 A string that represents the current object.
+
 

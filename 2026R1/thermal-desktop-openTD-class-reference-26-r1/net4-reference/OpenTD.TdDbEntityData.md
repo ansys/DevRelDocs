@@ -1,4 +1,4 @@
-# <a id="OpenTD_TdDbEntityData"></a> Class TdDbEntityData
+# Class TdDbEntityData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,7 +10,7 @@ Base class for objects sorted on AutoCAD layers.
 public class TdDbEntityData : DbObject, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -34,11 +34,11 @@ public class TdDbEntityData : DbObject, IUpdatable
 [RcSolidElement](OpenTD.RadCAD.FEM.RcSolidElement.md), 
 [Spline](OpenTD.Spline.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [DbObject.SetFrom\(DbObject\)](OpenTD.DbObject.md\#OpenTD\_DbObject\_SetFrom\_OpenTD\_DbObject\_), 
 [DbObject.Update\(\)](OpenTD.DbObject.md\#OpenTD\_DbObject\_Update), 
@@ -64,13 +64,13 @@ public class TdDbEntityData : DbObject, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_TdDbEntityData__ctor"></a> TdDbEntityData\(\)
+### TdDbEntityData\(\)
 
 ```csharp
 public TdDbEntityData()
 ```
 
-### <a id="OpenTD_TdDbEntityData__ctor_System_String_"></a> TdDbEntityData\(string\)
+### TdDbEntityData\(string\)
 
 ```csharp
 public TdDbEntityData(string _Handle)
@@ -82,7 +82,7 @@ public TdDbEntityData(string _Handle)
 
 ## Properties
 
-### <a id="OpenTD_TdDbEntityData_ColorIndex"></a> ColorIndex
+### ColorIndex
 
 Specifies a color. See the AutoCAD Layer Properties Manager for valid values.
 
@@ -95,7 +95,7 @@ public int ColorIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_TdDbEntityData_Layer"></a> Layer
+### Layer
 
 ```csharp
 [DataMember]
@@ -108,7 +108,7 @@ public string Layer { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_TdDbEntityData_SetFrom_OpenTD_TdDbEntityData_"></a> SetFrom\(TdDbEntityData\)
+### SetFrom\(TdDbEntityData\)
 
 ```csharp
 public void SetFrom(TdDbEntityData x)
@@ -118,7 +118,7 @@ public void SetFrom(TdDbEntityData x)
 
 `x` [TdDbEntityData](OpenTD.TdDbEntityData.md)
 
-### <a id="OpenTD_TdDbEntityData_ToString_System_String_System_String_System_String_"></a> ToString\(string, string, string\)
+### ToString\(string, string, string\)
 
 ```csharp
 protected string ToString(string Submodel, string Id, string Comment)
@@ -136,7 +136,7 @@ protected string ToString(string Submodel, string Id, string Comment)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_TdDbEntityData_ToString_System_String_System_Int32_System_String_"></a> ToString\(string, int, string\)
+### ToString\(string, int, string\)
 
 ```csharp
 protected string ToString(string Submodel, int Id, string Comment)
@@ -154,7 +154,7 @@ protected string ToString(string Submodel, int Id, string Comment)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_TdDbEntityData_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -171,4 +171,5 @@ A string that represents the current object.
 ## See Also
 
 [DbObject](OpenTD.DbObject.md)
+
 

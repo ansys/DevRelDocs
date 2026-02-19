@@ -1,4 +1,4 @@
-# <a id="OpenTD_AggregateComponentData"></a> Class AggregateComponentData
+# Class AggregateComponentData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ Represents one component/layer of an aggregate/laminate material.
 public class AggregateComponentData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AggregateComponentData](OpenTD.AggregateComponentData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,7 +27,7 @@ public class AggregateComponentData
 
 ## Constructors
 
-### <a id="OpenTD_AggregateComponentData__ctor"></a> AggregateComponentData\(\)
+### AggregateComponentData\(\)
 
 ```csharp
 public AggregateComponentData()
@@ -35,7 +35,7 @@ public AggregateComponentData()
 
 ## Properties
 
-### <a id="OpenTD_AggregateComponentData_Name"></a> Name
+### Name
 
 ```csharp
 [DataMember]
@@ -46,7 +46,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_AggregateComponentData_OrientationAngle"></a> OrientationAngle
+### OrientationAngle
 
 ```csharp
 [DataMember]
@@ -57,7 +57,7 @@ public Dimensional<Angle> OrientationAngle { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_AggregateComponentData_OrientationAngleExp"></a> OrientationAngleExp
+### OrientationAngleExp
 
 ```csharp
 [DataMember]
@@ -68,7 +68,7 @@ public ExpressionData OrientationAngleExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_AggregateComponentData_Thickness"></a> Thickness
+### Thickness
 
 ```csharp
 [DataMember]
@@ -79,7 +79,7 @@ public Dimensional<ModelLength> Thickness { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_AggregateComponentData_ThicknessExp"></a> ThicknessExp
+### ThicknessExp
 
 ```csharp
 [DataMember]
@@ -90,7 +90,7 @@ public ExpressionData ThicknessExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_AggregateComponentData_Weight"></a> Weight
+### Weight
 
 ```csharp
 [DataMember]
@@ -101,7 +101,7 @@ public double Weight { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_AggregateComponentData_WeightExp"></a> WeightExp
+### WeightExp
 
 ```csharp
 [DataMember]
@@ -111,4 +111,5 @@ public ExpressionData WeightExp { get; set; }
 #### Property Value
 
  [ExpressionData](OpenTD.ExpressionData.md)
+
 

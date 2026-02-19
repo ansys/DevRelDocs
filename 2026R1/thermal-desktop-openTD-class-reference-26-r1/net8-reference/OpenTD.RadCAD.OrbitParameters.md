@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_OrbitParameters"></a> Class OrbitParameters
+# Class OrbitParameters
 
 Namespace: [OpenTD.RadCAD](OpenTD.RadCAD.md)  
 Assembly: OpenTD.dll  
@@ -6,15 +6,16 @@ Assembly: OpenTD.dll
 Parameters used to define the shape and position of orbits.
 
 ```csharp
+[MessagePackObject(true)]
 public class OrbitParameters
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OrbitParameters](OpenTD.RadCAD.OrbitParameters.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +27,7 @@ public class OrbitParameters
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_OrbitParameters__ctor"></a> OrbitParameters\(\)
+### OrbitParameters\(\)
 
 ```csharp
 public OrbitParameters()
@@ -34,7 +35,7 @@ public OrbitParameters()
 
 ## Properties
 
-### <a id="OpenTD_RadCAD_OrbitParameters_AltMax"></a> AltMax
+### AltMax
 
 ```csharp
 public Dimensional<OrbitLength> AltMax { get; set; }
@@ -44,7 +45,7 @@ public Dimensional<OrbitLength> AltMax { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[OrbitLength](OpenTD.Dimension.OrbitLength.md)\>
 
-### <a id="OpenTD_RadCAD_OrbitParameters_AltMaxExp"></a> AltMaxExp
+### AltMaxExp
 
 ```csharp
 public ExpressionData AltMaxExp { get; set; }
@@ -54,7 +55,7 @@ public ExpressionData AltMaxExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_OrbitParameters_AltMin"></a> AltMin
+### AltMin
 
 ```csharp
 public Dimensional<OrbitLength> AltMin { get; set; }
@@ -64,7 +65,7 @@ public Dimensional<OrbitLength> AltMin { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[OrbitLength](OpenTD.Dimension.OrbitLength.md)\>
 
-### <a id="OpenTD_RadCAD_OrbitParameters_AltMinExp"></a> AltMinExp
+### AltMinExp
 
 ```csharp
 public ExpressionData AltMinExp { get; set; }
@@ -74,7 +75,7 @@ public ExpressionData AltMinExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_OrbitParameters_Eccen"></a> Eccen
+### Eccen
 
 ```csharp
 public double Eccen { get; set; }
@@ -84,7 +85,7 @@ public double Eccen { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_OrbitParameters_EccenExp"></a> EccenExp
+### EccenExp
 
 ```csharp
 public ExpressionData EccenExp { get; set; }
@@ -94,7 +95,7 @@ public ExpressionData EccenExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_OrbitParameters_Inclination"></a> Inclination
+### Inclination
 
 ```csharp
 public Dimensional<Angle> Inclination { get; set; }
@@ -104,7 +105,7 @@ public Dimensional<Angle> Inclination { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_OrbitParameters_InclinationExp"></a> InclinationExp
+### InclinationExp
 
 ```csharp
 public ExpressionData InclinationExp { get; set; }
@@ -114,7 +115,7 @@ public ExpressionData InclinationExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_OrbitParameters_PeriapArgument"></a> PeriapArgument
+### PeriapArgument
 
 ```csharp
 public Dimensional<Angle> PeriapArgument { get; set; }
@@ -124,7 +125,7 @@ public Dimensional<Angle> PeriapArgument { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_OrbitParameters_PeriapArgumentExp"></a> PeriapArgumentExp
+### PeriapArgumentExp
 
 ```csharp
 public ExpressionData PeriapArgumentExp { get; set; }
@@ -134,7 +135,7 @@ public ExpressionData PeriapArgumentExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_OrbitParameters_Period"></a> Period
+### Period
 
 ```csharp
 public Dimensional<Time> Period { get; set; }
@@ -144,7 +145,7 @@ public Dimensional<Time> Period { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_RadCAD_OrbitParameters_PeriodExp"></a> PeriodExp
+### PeriodExp
 
 ```csharp
 public ExpressionData PeriodExp { get; set; }
@@ -154,7 +155,7 @@ public ExpressionData PeriodExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_OrbitParameters_RaAscending"></a> RaAscending
+### RaAscending
 
 ```csharp
 public Dimensional<Angle> RaAscending { get; set; }
@@ -164,7 +165,7 @@ public Dimensional<Angle> RaAscending { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_OrbitParameters_RaAscendingExp"></a> RaAscendingExp
+### RaAscendingExp
 
 ```csharp
 public ExpressionData RaAscendingExp { get; set; }
@@ -174,7 +175,7 @@ public ExpressionData RaAscendingExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_OrbitParameters_RaPrime"></a> RaPrime
+### RaPrime
 
 ```csharp
 public Dimensional<Angle> RaPrime { get; set; }
@@ -184,7 +185,7 @@ public Dimensional<Angle> RaPrime { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_OrbitParameters_RaPrimeExp"></a> RaPrimeExp
+### RaPrimeExp
 
 ```csharp
 public ExpressionData RaPrimeExp { get; set; }
@@ -194,7 +195,7 @@ public ExpressionData RaPrimeExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_OrbitParameters_RaSun"></a> RaSun
+### RaSun
 
 ```csharp
 public Dimensional<Angle> RaSun { get; set; }
@@ -204,7 +205,7 @@ public Dimensional<Angle> RaSun { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_OrbitParameters_RaSunExp"></a> RaSunExp
+### RaSunExp
 
 ```csharp
 public ExpressionData RaSunExp { get; set; }
@@ -214,7 +215,7 @@ public ExpressionData RaSunExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_OrbitParameters_shape1"></a> shape1
+### shape1
 
 ```csharp
 public OrbitParameters.ShapeTypes shape1 { get; set; }
@@ -224,7 +225,7 @@ public OrbitParameters.ShapeTypes shape1 { get; set; }
 
  [OrbitParameters](OpenTD.RadCAD.OrbitParameters.md).[ShapeTypes](OpenTD.RadCAD.OrbitParameters.ShapeTypes.md)
 
-### <a id="OpenTD_RadCAD_OrbitParameters_shape2"></a> shape2
+### shape2
 
 ```csharp
 public OrbitParameters.ShapeTypes shape2 { get; set; }
@@ -237,4 +238,5 @@ public OrbitParameters.ShapeTypes shape2 { get; set; }
 ## See Also
 
 ITdDerived
+
 

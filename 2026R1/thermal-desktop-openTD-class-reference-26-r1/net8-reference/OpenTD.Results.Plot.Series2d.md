@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Plot_Series2d"></a> Class Series2d
+# Class Series2d
 
 Namespace: [OpenTD.Results.Plot](OpenTD.Results.Plot.md)  
 Assembly: OpenTD.Results.dll  
@@ -10,12 +10,12 @@ associated with it.
 public class Series2d
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Series2d](OpenTD.Results.Plot.Series2d.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -27,7 +27,7 @@ public class Series2d
 
 ## Constructors
 
-### <a id="OpenTD_Results_Plot_Series2d__ctor_OpenTD_Results_Dataset_DataArray_"></a> Series2d\(DataArray\)
+### Series2d\(DataArray\)
 
 Initializes a new instance of the <xref href="OpenTD.Results.Plot.Series2d" data-throw-if-not-resolved="false"></xref> class, looking
 in ydata's SourceDataset for time or record number to use as x data.
@@ -42,7 +42,7 @@ public Series2d(DataArray ydata)
 
 The y data.
 
-### <a id="OpenTD_Results_Plot_Series2d__ctor_OpenTD_Results_Dataset_DataArray_System_String_"></a> Series2d\(DataArray, string\)
+### Series2d\(DataArray, string\)
 
 Initializes a new instance of the <xref href="OpenTD.Results.Plot.Series2d" data-throw-if-not-resolved="false"></xref> class, looking
 in ydata's SourceDataset for time or record number to use as x data.
@@ -67,7 +67,7 @@ A custom series name.
 
 ydata dataset must contain a valid SourceDataset to look up x values
 
-### <a id="OpenTD_Results_Plot_Series2d__ctor_OpenTD_Results_Dataset_DataArray_OpenTD_Results_Dataset_DataArray_"></a> Series2d\(DataArray, DataArray\)
+### Series2d\(DataArray, DataArray\)
 
 Initializes a new instance of the <xref href="OpenTD.Results.Plot.Series2d" data-throw-if-not-resolved="false"></xref> class, explicitly
 specifying x and y data.
@@ -86,7 +86,7 @@ The x data.
 
 The y data.
 
-### <a id="OpenTD_Results_Plot_Series2d__ctor_OpenTD_Results_Dataset_DataArray_OpenTD_Results_Dataset_DataArray_System_String_"></a> Series2d\(DataArray, DataArray, string\)
+### Series2d\(DataArray, DataArray, string\)
 
 Initializes a new instance of the <xref href="OpenTD.Results.Plot.Series2d" data-throw-if-not-resolved="false"></xref> class, explicitly
 specifying x and y data.
@@ -111,7 +111,7 @@ A custom series name.
 
 ## Fields
 
-### <a id="OpenTD_Results_Plot_Series2d_Series2dStyle"></a> Series2dStyle
+### Series2dStyle
 
 ```csharp
 public Series2dStyle Series2dStyle
@@ -123,7 +123,7 @@ public Series2dStyle Series2dStyle
 
 ## Properties
 
-### <a id="OpenTD_Results_Plot_Series2d_Comment"></a> Comment
+### Comment
 
 ```csharp
 public string Comment { get; set; }
@@ -133,7 +133,7 @@ public string Comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Plot_Series2d_Enabled"></a> Enabled
+### Enabled
 
 ```csharp
 public bool Enabled { get; set; }
@@ -143,7 +143,7 @@ public bool Enabled { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Plot_Series2d_InternalSuggestedComment"></a> InternalSuggestedComment
+### InternalSuggestedComment
 
 ```csharp
 public string InternalSuggestedComment { get; set; }
@@ -153,7 +153,7 @@ public string InternalSuggestedComment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Plot_Series2d_InternalSuggestedName"></a> InternalSuggestedName
+### InternalSuggestedName
 
 ```csharp
 public string InternalSuggestedName { get; set; }
@@ -163,7 +163,7 @@ public string InternalSuggestedName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Plot_Series2d_Name"></a> Name
+### Name
 
 ```csharp
 public string Name { get; set; }
@@ -173,7 +173,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Plot_Series2d_XAxis"></a> XAxis
+### XAxis
 
 ```csharp
 public Axis XAxis { get; set; }
@@ -183,7 +183,7 @@ public Axis XAxis { get; set; }
 
  [Axis](OpenTD.Results.Plot.Axis.md)
 
-### <a id="OpenTD_Results_Plot_Series2d_XData"></a> XData
+### XData
 
 ```csharp
 public DataArray XData { get; set; }
@@ -193,7 +193,7 @@ public DataArray XData { get; set; }
 
  [DataArray](OpenTD.Results.Dataset.DataArray.md)
 
-### <a id="OpenTD_Results_Plot_Series2d_YAxis"></a> YAxis
+### YAxis
 
 ```csharp
 public Axis YAxis { get; set; }
@@ -203,7 +203,7 @@ public Axis YAxis { get; set; }
 
  [Axis](OpenTD.Results.Plot.Axis.md)
 
-### <a id="OpenTD_Results_Plot_Series2d_YData"></a> YData
+### YData
 
 ```csharp
 public DataArray YData { get; set; }
@@ -215,13 +215,13 @@ public DataArray YData { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Results_Plot_Series2d_CheckData"></a> CheckData\(\)
+### CheckData\(\)
 
 ```csharp
 public void CheckData()
 ```
 
-### <a id="OpenTD_Results_Plot_Series2d_GetSeries2dStyle"></a> GetSeries2dStyle\(\)
+### GetSeries2dStyle\(\)
 
 ```csharp
 public Series2dStyle GetSeries2dStyle()
@@ -231,7 +231,7 @@ public Series2dStyle GetSeries2dStyle()
 
  [Series2dStyle](OpenTD.Results.Plot.Series2dStyle.md)
 
-### <a id="OpenTD_Results_Plot_Series2d_SetSeries2dStyle_OpenTD_Results_Plot_Series2dStyle_"></a> SetSeries2dStyle\(Series2dStyle\)
+### SetSeries2dStyle\(Series2dStyle\)
 
 ```csharp
 public void SetSeries2dStyle(Series2dStyle sstyle)
@@ -241,7 +241,7 @@ public void SetSeries2dStyle(Series2dStyle sstyle)
 
 `sstyle` [Series2dStyle](OpenTD.Results.Plot.Series2dStyle.md)
 
-### <a id="OpenTD_Results_Plot_Series2d_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -259,4 +259,5 @@ A string that represents the current object.
 
 [Plot2d](OpenTD.Results.Plot.Plot2d.md), 
 IAutoName
+
 

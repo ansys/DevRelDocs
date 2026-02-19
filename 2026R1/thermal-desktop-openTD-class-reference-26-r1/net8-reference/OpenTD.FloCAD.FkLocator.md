@@ -1,4 +1,4 @@
-# <a id="OpenTD_FloCAD_FkLocator"></a> Class FkLocator
+# Class FkLocator
 
 Namespace: [OpenTD.FloCAD](OpenTD.FloCAD.md)  
 Assembly: OpenTD.dll  
@@ -6,10 +6,11 @@ Assembly: OpenTD.dll
 Client-side representation of an FkLocator entity in a TD instance.
 
 ```csharp
+[MessagePackObject(true)]
 public class FkLocator : Port, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -19,11 +20,11 @@ RcPortData ←
 [Port](OpenTD.FloCAD.Port.md) ← 
 [FkLocator](OpenTD.FloCAD.FkLocator.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [Port.Update\(\)](OpenTD.FloCAD.Port.md\#OpenTD\_FloCAD\_Port\_Update), 
 [Port.CreateIn\(ThermalDesktop\)](OpenTD.FloCAD.Port.md\#OpenTD\_FloCAD\_Port\_CreateIn\_OpenTD\_ThermalDesktop\_), 
@@ -57,7 +58,7 @@ RcPortData ←
 
 ## Constructors
 
-### <a id="OpenTD_FloCAD_FkLocator__ctor"></a> FkLocator\(\)
+### FkLocator\(\)
 
 ```csharp
 public FkLocator()
@@ -65,7 +66,7 @@ public FkLocator()
 
 ## Properties
 
-### <a id="OpenTD_FloCAD_FkLocator_Anchor"></a> Anchor
+### Anchor
 
 ```csharp
 public bool Anchor { get; set; }
@@ -75,7 +76,7 @@ public bool Anchor { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_FloCAD_FkLocator_ApplyAfth"></a> ApplyAfth
+### ApplyAfth
 
 ```csharp
 public bool ApplyAfth { get; set; }
@@ -85,7 +86,7 @@ public bool ApplyAfth { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_FloCAD_FkLocator_Inlet"></a> Inlet
+### Inlet
 
 ```csharp
 public bool Inlet { get; set; }
@@ -95,7 +96,7 @@ public bool Inlet { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_FloCAD_FkLocator_LossCoefficient"></a> LossCoefficient
+### LossCoefficient
 
 ```csharp
 public double LossCoefficient { get; set; }
@@ -105,7 +106,7 @@ public double LossCoefficient { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_FloCAD_FkLocator_LossCoefficientExp"></a> LossCoefficientExp
+### LossCoefficientExp
 
 ```csharp
 public ExpressionData LossCoefficientExp { get; set; }
@@ -115,7 +116,7 @@ public ExpressionData LossCoefficientExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_FloCAD_FkLocator_Outlet"></a> Outlet
+### Outlet
 
 ```csharp
 public bool Outlet { get; set; }
@@ -125,7 +126,7 @@ public bool Outlet { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_FloCAD_FkLocator_PathFrac"></a> PathFrac
+### PathFrac
 
 ```csharp
 public double PathFrac { get; set; }
@@ -135,7 +136,7 @@ public double PathFrac { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_FloCAD_FkLocator_PathFracExp"></a> PathFracExp
+### PathFracExp
 
 ```csharp
 public ExpressionData PathFracExp { get; set; }
@@ -145,7 +146,7 @@ public ExpressionData PathFracExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_FloCAD_FkLocator_UseFkCalc"></a> UseFkCalc
+### UseFkCalc
 
 ```csharp
 public bool UseFkCalc { get; set; }
@@ -157,7 +158,7 @@ public bool UseFkCalc { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_FloCAD_FkLocator_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -169,7 +170,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_FloCAD_FkLocator_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -180,4 +181,5 @@ public override void Update()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

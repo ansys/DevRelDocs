@@ -1,4 +1,4 @@
-# <a id="OpenTD_LogicObjectRoutineTypes"></a> Enum LogicObjectRoutineTypes
+# Enum LogicObjectRoutineTypes
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -36,4 +36,5 @@ public enum LogicObjectRoutineTypes
 `VAR1 = 1` 
 
 `VAR2 = 2` 
+
 

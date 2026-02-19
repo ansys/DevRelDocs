@@ -1,4 +1,4 @@
-# <a id="OpenTD_UserPreferences_GraphicsTextPreferences"></a> Class GraphicsTextPreferences
+# Class GraphicsTextPreferences
 
 Namespace: [OpenTD.UserPreferences](OpenTD.UserPreferences.md)  
 Assembly: OpenTD.dll  
@@ -6,21 +6,22 @@ Assembly: OpenTD.dll
 Use to set the global dwg text preferences.
 
 ```csharp
+[MessagePackObject(true)]
 public class GraphicsTextPreferences : Preferences, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 TdConnected ← 
 Preferences ← 
 [GraphicsTextPreferences](OpenTD.UserPreferences.GraphicsTextPreferences.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -32,13 +33,13 @@ Preferences ←
 
 ## Constructors
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences__ctor"></a> GraphicsTextPreferences\(\)
+### GraphicsTextPreferences\(\)
 
 ```csharp
 public GraphicsTextPreferences()
 ```
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences__ctor_OpenTD_ThermalDesktop_"></a> GraphicsTextPreferences\(ThermalDesktop\)
+### GraphicsTextPreferences\(ThermalDesktop\)
 
 ```csharp
 public GraphicsTextPreferences(ThermalDesktop _td)
@@ -50,7 +51,7 @@ public GraphicsTextPreferences(ThermalDesktop _td)
 
 ## Properties
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_compartmentTextColor"></a> compartmentTextColor
+### compartmentTextColor
 
 ```csharp
 public int compartmentTextColor { get; set; }
@@ -60,7 +61,7 @@ public int compartmentTextColor { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_compartmentTextScale"></a> compartmentTextScale
+### compartmentTextScale
 
 ```csharp
 public double compartmentTextScale { get; set; }
@@ -70,7 +71,7 @@ public double compartmentTextScale { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_compartmentTextShow"></a> compartmentTextShow
+### compartmentTextShow
 
 ```csharp
 public bool compartmentTextShow { get; set; }
@@ -80,7 +81,7 @@ public bool compartmentTextShow { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_compartmentTextStringIndex"></a> compartmentTextStringIndex
+### compartmentTextStringIndex
 
 ```csharp
 public int compartmentTextStringIndex { get; set; }
@@ -90,7 +91,7 @@ public int compartmentTextStringIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_fklocTextColor"></a> fklocTextColor
+### fklocTextColor
 
 ```csharp
 public int fklocTextColor { get; set; }
@@ -100,7 +101,7 @@ public int fklocTextColor { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_fklocTextScale"></a> fklocTextScale
+### fklocTextScale
 
 ```csharp
 public double fklocTextScale { get; set; }
@@ -110,7 +111,7 @@ public double fklocTextScale { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_fklocTextShow"></a> fklocTextShow
+### fklocTextShow
 
 ```csharp
 public bool fklocTextShow { get; set; }
@@ -120,7 +121,7 @@ public bool fklocTextShow { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_fklocTextStringIndex"></a> fklocTextStringIndex
+### fklocTextStringIndex
 
 ```csharp
 public int fklocTextStringIndex { get; set; }
@@ -130,7 +131,7 @@ public int fklocTextStringIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_fontName"></a> fontName
+### fontName
 
 ```csharp
 public string fontName { get; set; }
@@ -140,7 +141,7 @@ public string fontName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_lumpTextColor"></a> lumpTextColor
+### lumpTextColor
 
 ```csharp
 public int lumpTextColor { get; set; }
@@ -150,7 +151,7 @@ public int lumpTextColor { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_lumpTextScale"></a> lumpTextScale
+### lumpTextScale
 
 ```csharp
 public double lumpTextScale { get; set; }
@@ -160,7 +161,7 @@ public double lumpTextScale { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_lumpTextShow"></a> lumpTextShow
+### lumpTextShow
 
 ```csharp
 public bool lumpTextShow { get; set; }
@@ -170,7 +171,7 @@ public bool lumpTextShow { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_lumpTextStringIndex"></a> lumpTextStringIndex
+### lumpTextStringIndex
 
 ```csharp
 public int lumpTextStringIndex { get; set; }
@@ -180,7 +181,7 @@ public int lumpTextStringIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_nodeTextColor"></a> nodeTextColor
+### nodeTextColor
 
 ```csharp
 public int nodeTextColor { get; set; }
@@ -190,7 +191,7 @@ public int nodeTextColor { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_nodeTextScale"></a> nodeTextScale
+### nodeTextScale
 
 ```csharp
 public double nodeTextScale { get; set; }
@@ -200,7 +201,7 @@ public double nodeTextScale { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_nodeTextShow"></a> nodeTextShow
+### nodeTextShow
 
 ```csharp
 public bool nodeTextShow { get; set; }
@@ -210,7 +211,7 @@ public bool nodeTextShow { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_nodeTextStringIndex"></a> nodeTextStringIndex
+### nodeTextStringIndex
 
 ```csharp
 public int nodeTextStringIndex { get; set; }
@@ -220,7 +221,7 @@ public int nodeTextStringIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_numbersSize"></a> numbersSize
+### numbersSize
 
 ```csharp
 public Dimensional<ModelLength> numbersSize { get; set; }
@@ -230,7 +231,7 @@ public Dimensional<ModelLength> numbersSize { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_pathTextColor"></a> pathTextColor
+### pathTextColor
 
 ```csharp
 public int pathTextColor { get; set; }
@@ -240,7 +241,7 @@ public int pathTextColor { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_pathTextScale"></a> pathTextScale
+### pathTextScale
 
 ```csharp
 public double pathTextScale { get; set; }
@@ -250,7 +251,7 @@ public double pathTextScale { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_pathTextShow"></a> pathTextShow
+### pathTextShow
 
 ```csharp
 public bool pathTextShow { get; set; }
@@ -260,7 +261,7 @@ public bool pathTextShow { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_pathTextStringIndex"></a> pathTextStringIndex
+### pathTextStringIndex
 
 ```csharp
 public int pathTextStringIndex { get; set; }
@@ -270,7 +271,7 @@ public int pathTextStringIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_pipeTextColor"></a> pipeTextColor
+### pipeTextColor
 
 ```csharp
 public int pipeTextColor { get; set; }
@@ -280,7 +281,7 @@ public int pipeTextColor { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_pipeTextScale"></a> pipeTextScale
+### pipeTextScale
 
 ```csharp
 public double pipeTextScale { get; set; }
@@ -290,7 +291,7 @@ public double pipeTextScale { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_pipeTextShow"></a> pipeTextShow
+### pipeTextShow
 
 ```csharp
 public bool pipeTextShow { get; set; }
@@ -300,7 +301,7 @@ public bool pipeTextShow { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_pipeTextStringIndex"></a> pipeTextStringIndex
+### pipeTextStringIndex
 
 ```csharp
 public int pipeTextStringIndex { get; set; }
@@ -310,7 +311,7 @@ public int pipeTextStringIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_portTextColor"></a> portTextColor
+### portTextColor
 
 ```csharp
 public int portTextColor { get; set; }
@@ -320,7 +321,7 @@ public int portTextColor { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_portTextScale"></a> portTextScale
+### portTextScale
 
 ```csharp
 public double portTextScale { get; set; }
@@ -330,7 +331,7 @@ public double portTextScale { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_portTextShow"></a> portTextShow
+### portTextShow
 
 ```csharp
 public bool portTextShow { get; set; }
@@ -340,7 +341,7 @@ public bool portTextShow { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_portTextStringIndex"></a> portTextStringIndex
+### portTextStringIndex
 
 ```csharp
 public int portTextStringIndex { get; set; }
@@ -350,7 +351,7 @@ public int portTextStringIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_screenNumberPercent"></a> screenNumberPercent
+### screenNumberPercent
 
 ```csharp
 public double screenNumberPercent { get; set; }
@@ -360,7 +361,7 @@ public double screenNumberPercent { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_showFluidSubmodelNames"></a> showFluidSubmodelNames
+### showFluidSubmodelNames
 
 ```csharp
 public bool showFluidSubmodelNames { get; set; }
@@ -370,7 +371,7 @@ public bool showFluidSubmodelNames { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_showNodeSubmodelNames"></a> showNodeSubmodelNames
+### showNodeSubmodelNames
 
 ```csharp
 public bool showNodeSubmodelNames { get; set; }
@@ -380,7 +381,7 @@ public bool showNodeSubmodelNames { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_teeTextColor"></a> teeTextColor
+### teeTextColor
 
 ```csharp
 public int teeTextColor { get; set; }
@@ -390,7 +391,7 @@ public int teeTextColor { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_teeTextScale"></a> teeTextScale
+### teeTextScale
 
 ```csharp
 public double teeTextScale { get; set; }
@@ -400,7 +401,7 @@ public double teeTextScale { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_teeTextShow"></a> teeTextShow
+### teeTextShow
 
 ```csharp
 public bool teeTextShow { get; set; }
@@ -410,7 +411,7 @@ public bool teeTextShow { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_teeTextStringIndex"></a> teeTextStringIndex
+### teeTextStringIndex
 
 ```csharp
 public int teeTextStringIndex { get; set; }
@@ -420,7 +421,7 @@ public int teeTextStringIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_tieTextColor"></a> tieTextColor
+### tieTextColor
 
 ```csharp
 public int tieTextColor { get; set; }
@@ -430,7 +431,7 @@ public int tieTextColor { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_tieTextScale"></a> tieTextScale
+### tieTextScale
 
 ```csharp
 public double tieTextScale { get; set; }
@@ -440,7 +441,7 @@ public double tieTextScale { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_tieTextShow"></a> tieTextShow
+### tieTextShow
 
 ```csharp
 public bool tieTextShow { get; set; }
@@ -450,7 +451,7 @@ public bool tieTextShow { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_tieTextStringIndex"></a> tieTextStringIndex
+### tieTextStringIndex
 
 ```csharp
 public int tieTextStringIndex { get; set; }
@@ -460,7 +461,7 @@ public int tieTextStringIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_useScreenNumberPercent"></a> useScreenNumberPercent
+### useScreenNumberPercent
 
 ```csharp
 public bool useScreenNumberPercent { get; set; }
@@ -472,7 +473,7 @@ public bool useScreenNumberPercent { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -480,11 +481,12 @@ Updates the TD entity with the latest client data.
 public void Update()
 ```
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
 ```csharp
 public void UpdateFromTD()
 ```
+
 

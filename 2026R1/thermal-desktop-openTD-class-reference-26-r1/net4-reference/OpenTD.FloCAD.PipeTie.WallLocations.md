@@ -1,4 +1,4 @@
-# <a id="OpenTD_FloCAD_PipeTie_WallLocations"></a> Enum PipeTie.WallLocations
+# Enum PipeTie.WallLocations
 
 Namespace: [OpenTD.FloCAD](OpenTD.FloCAD.md)  
 Assembly: OpenTD.dll  
@@ -14,4 +14,5 @@ public enum PipeTie.WallLocations
 `INTERIOR = 1` 
 
 `OUTER = 2` 
+
 

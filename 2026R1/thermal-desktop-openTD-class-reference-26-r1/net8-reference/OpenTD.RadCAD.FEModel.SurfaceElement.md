@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FEModel_SurfaceElement"></a> Class SurfaceElement
+# Class SurfaceElement
 
 Namespace: [OpenTD.RadCAD.FEModel](OpenTD.RadCAD.FEModel.md)  
 Assembly: OpenTD.dll  
@@ -10,13 +10,13 @@ mesh using an FEMeshImporter only.
 public class SurfaceElement : Element
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Element](OpenTD.RadCAD.FEModel.Element.md) ← 
 [SurfaceElement](OpenTD.RadCAD.FEModel.SurfaceElement.md)
 
-#### Inherited Members
+## Inherited Members
 
 [Element.id](OpenTD.RadCAD.FEModel.Element.md\#OpenTD\_RadCAD\_FEModel\_Element\_id), 
 [Element.order](OpenTD.RadCAD.FEModel.Element.md\#OpenTD\_RadCAD\_FEModel\_Element\_order), 
@@ -49,7 +49,7 @@ public class SurfaceElement : Element
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_FEModel_SurfaceElement__ctor"></a> SurfaceElement\(\)
+### SurfaceElement\(\)
 
 ```csharp
 public SurfaceElement()
@@ -57,7 +57,7 @@ public SurfaceElement()
 
 ## Fields
 
-### <a id="OpenTD_RadCAD_FEModel_SurfaceElement_MLI_material_a"></a> MLI\_material\_a
+### MLI\_material\_a
 
 ```csharp
 public string MLI_material_a
@@ -67,7 +67,7 @@ public string MLI_material_a
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_FEModel_SurfaceElement_MLI_material_b"></a> MLI\_material\_b
+### MLI\_material\_b
 
 ```csharp
 public string MLI_material_b
@@ -77,7 +77,7 @@ public string MLI_material_b
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_FEModel_SurfaceElement_MLI_thickness_a"></a> MLI\_thickness\_a
+### MLI\_thickness\_a
 
 ```csharp
 public Dimensional<ModelLength> MLI_thickness_a
@@ -87,7 +87,7 @@ public Dimensional<ModelLength> MLI_thickness_a
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FEModel_SurfaceElement_MLI_thickness_b"></a> MLI\_thickness\_b
+### MLI\_thickness\_b
 
 ```csharp
 public Dimensional<ModelLength> MLI_thickness_b
@@ -97,7 +97,7 @@ public Dimensional<ModelLength> MLI_thickness_b
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FEModel_SurfaceElement_material_stack_a"></a> material\_stack\_a
+### material\_stack\_a
 
 ```csharp
 public string material_stack_a
@@ -107,7 +107,7 @@ public string material_stack_a
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_FEModel_SurfaceElement_material_stack_b"></a> material\_stack\_b
+### material\_stack\_b
 
 ```csharp
 public string material_stack_b
@@ -117,7 +117,7 @@ public string material_stack_b
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_FEModel_SurfaceElement_onSolid"></a> onSolid
+### onSolid
 
 ```csharp
 public bool onSolid
@@ -127,7 +127,7 @@ public bool onSolid
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_RadCAD_FEModel_SurfaceElement_optic_a"></a> optic\_a
+### optic\_a
 
 ```csharp
 public string optic_a
@@ -137,7 +137,7 @@ public string optic_a
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_FEModel_SurfaceElement_optic_b"></a> optic\_b
+### optic\_b
 
 ```csharp
 public string optic_b
@@ -147,7 +147,7 @@ public string optic_b
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_FEModel_SurfaceElement_surfaceIndex"></a> surfaceIndex
+### surfaceIndex
 
 ```csharp
 public int surfaceIndex
@@ -157,7 +157,7 @@ public int surfaceIndex
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_FEModel_SurfaceElement_surfaceOrienters"></a> surfaceOrienters
+### surfaceOrienters
 
 ```csharp
 public List<Vector3d> surfaceOrienters
@@ -167,7 +167,7 @@ public List<Vector3d> surfaceOrienters
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Vector3d](OpenTD.Vector3d.md)\>
 
-### <a id="OpenTD_RadCAD_FEModel_SurfaceElement_thickness"></a> thickness
+### thickness
 
 ```csharp
 public Dimensional<ModelLength> thickness
@@ -176,4 +176,5 @@ public Dimensional<ModelLength> thickness
 #### Field Value
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FEM_RcSurfaceElement"></a> Class RcSurfaceElement
+# Class RcSurfaceElement
 
 Namespace: [OpenTD.RadCAD.FEM](OpenTD.RadCAD.FEM.md)  
 Assembly: OpenTD.dll  
@@ -6,10 +6,11 @@ Assembly: OpenTD.dll
 Base class for surface finite elements.
 
 ```csharp
+[MessagePackObject(true)]
 public class RcSurfaceElement : RcEntityData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -25,11 +26,11 @@ public class RcSurfaceElement : RcEntityData, IUpdatable
 [QuadraticQuad](OpenTD.RadCAD.FEM.QuadraticQuad.md), 
 [QuadraticTri](OpenTD.RadCAD.FEM.QuadraticTri.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [RcEntityData.TopIdType](OpenTD.RadCAD.RcEntityData.md\#OpenTD\_RadCAD\_RcEntityData\_TopIdType), 
 [RcEntityData.BotIdType](OpenTD.RadCAD.RcEntityData.md\#OpenTD\_RadCAD\_RcEntityData\_BotIdType), 
@@ -159,7 +160,7 @@ public class RcSurfaceElement : RcEntityData, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_FEM_RcSurfaceElement__ctor"></a> RcSurfaceElement\(\)
+### RcSurfaceElement\(\)
 
 ```csharp
 public RcSurfaceElement()
@@ -167,9 +168,10 @@ public RcSurfaceElement()
 
 ## Properties
 
-### <a id="OpenTD_RadCAD_FEM_RcSurfaceElement_AttachedNodeHandles"></a> AttachedNodeHandles
+### AttachedNodeHandles
 
 ```csharp
+[IgnoreMember]
 public List<string> AttachedNodeHandles { get; set; }
 ```
 
@@ -177,11 +179,12 @@ public List<string> AttachedNodeHandles { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_FEM_RcSurfaceElement_BotMaterial"></a> BotMaterial
+### BotMaterial
 
 Not used.
 
 ```csharp
+[IgnoreMember]
 public string BotMaterial { get; set; }
 ```
 
@@ -189,11 +192,12 @@ public string BotMaterial { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_FEM_RcSurfaceElement_BotOrientName"></a> BotOrientName
+### BotOrientName
 
 Not used.
 
 ```csharp
+[IgnoreMember]
 public string BotOrientName { get; set; }
 ```
 
@@ -201,11 +205,12 @@ public string BotOrientName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_FEM_RcSurfaceElement_BotThickness"></a> BotThickness
+### BotThickness
 
 Not used.
 
 ```csharp
+[IgnoreMember]
 public Dimensional<ModelLength> BotThickness { get; set; }
 ```
 
@@ -213,7 +218,7 @@ public Dimensional<ModelLength> BotThickness { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FEM_RcSurfaceElement_SurfaceOrienters"></a> SurfaceOrienters
+### SurfaceOrienters
 
 ```csharp
 public List<Vector3d> SurfaceOrienters { get; set; }
@@ -225,7 +230,7 @@ public List<Vector3d> SurfaceOrienters { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_RadCAD_FEM_RcSurfaceElement_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -238,4 +243,5 @@ public override string ToString()
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 A string that represents the current object.
+
 

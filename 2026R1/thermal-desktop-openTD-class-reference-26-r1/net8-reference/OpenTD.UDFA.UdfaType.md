@@ -1,4 +1,4 @@
-# <a id="OpenTD_UDFA_UdfaType"></a> Enum UDFA.UdfaType
+# Enum UDFA.UdfaType
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -30,4 +30,5 @@ public enum UDFA.UdfaType
 `TIES = 3` 
 
 `USER_INPUT = 0` 
+
 

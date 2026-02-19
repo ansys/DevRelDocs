@@ -1,4 +1,4 @@
-# <a id="OpenTD_Utility_RootedPathname"></a> Struct RootedPathname
+# Struct RootedPathname
 
 Namespace: [OpenTD.Utility](OpenTD.Utility.md)  
 Assembly: OpenTD.dll  
@@ -6,10 +6,11 @@ Assembly: OpenTD.dll
 An absolute pathname.
 
 ```csharp
+[MessagePackObject(true)]
 public struct RootedPathname
 ```
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -20,7 +21,7 @@ public struct RootedPathname
 
 ## Constructors
 
-### <a id="OpenTD_Utility_RootedPathname__ctor_System_String_"></a> RootedPathname\(string\)
+### RootedPathname\(string\)
 
 Initializes a new instance of the <xref href="OpenTD.Utility.RootedPathname" data-throw-if-not-resolved="false"></xref> struct,
 starting with a relative or absolute pathname as input.
@@ -37,7 +38,7 @@ A relative or absolute pathname.
 
 ## Methods
 
-### <a id="OpenTD_Utility_RootedPathname_GetFileName"></a> GetFileName\(\)
+### GetFileName\(\)
 
 Returns the filename and extension of the path.
 
@@ -49,7 +50,7 @@ public string GetFileName()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Utility_RootedPathname_ToLower"></a> ToLower\(\)
+### ToLower\(\)
 
 ```csharp
 public string ToLower()
@@ -59,7 +60,7 @@ public string ToLower()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Utility_RootedPathname_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns the fully qualified type name of this instance.
 
@@ -75,7 +76,7 @@ The fully qualified type name.
 
 ## Operators
 
-### <a id="OpenTD_Utility_RootedPathname_op_Implicit_System_String__OpenTD_Utility_RootedPathname"></a> implicit operator RootedPathname\(string\)
+### implicit operator RootedPathname\(string\)
 
 ```csharp
 public static implicit operator RootedPathname(string x)
@@ -89,7 +90,7 @@ public static implicit operator RootedPathname(string x)
 
  [RootedPathname](OpenTD.Utility.RootedPathname.md)
 
-### <a id="OpenTD_Utility_RootedPathname_op_Implicit_OpenTD_Utility_RootedPathname__System_String"></a> implicit operator string\(RootedPathname\)
+### implicit operator string\(RootedPathname\)
 
 ```csharp
 public static implicit operator string(RootedPathname x)
@@ -102,4 +103,5 @@ public static implicit operator string(RootedPathname x)
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

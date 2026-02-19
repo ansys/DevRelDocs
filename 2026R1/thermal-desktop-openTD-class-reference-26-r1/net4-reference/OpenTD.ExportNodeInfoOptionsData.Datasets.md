@@ -1,4 +1,4 @@
-# <a id="OpenTD_ExportNodeInfoOptionsData_Datasets"></a> Enum ExportNodeInfoOptionsData.Datasets
+# Enum ExportNodeInfoOptionsData.Datasets
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -16,4 +16,5 @@ public enum ExportNodeInfoOptionsData.Datasets
 `CURRENT = 0` 
 
 `NO_DATASETS = 2` 
+
 

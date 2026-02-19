@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_RcEntityData_VolumetricParticipation"></a> Enum RcEntityData.VolumetricParticipation
+# Enum RcEntityData.VolumetricParticipation
 
 Namespace: [OpenTD.RadCAD](OpenTD.RadCAD.md)  
 Assembly: OpenTD.dll  
@@ -14,4 +14,5 @@ public enum RcEntityData.VolumetricParticipation
 `INACTIVE = 1` 
 
 `NOT_PRESENT = 2` 
+
 

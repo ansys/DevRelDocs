@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_Active"></a> Enum RcFdSolidData.Active
+# Enum RcFdSolidData.Active
 
 Namespace: [OpenTD.RadCAD.FdSolid](OpenTD.RadCAD.FdSolid.md)  
 Assembly: OpenTD.dll  
@@ -18,4 +18,5 @@ public enum RcFdSolidData.Active
 `NOTINCONFIG = 4` 
 
 `OUTSIDE = 0` 
+
 

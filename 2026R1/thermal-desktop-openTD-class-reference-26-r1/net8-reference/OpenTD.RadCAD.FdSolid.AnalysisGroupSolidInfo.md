@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FdSolid_AnalysisGroupSolidInfo"></a> Class AnalysisGroupSolidInfo
+# Class AnalysisGroupSolidInfo
 
 Namespace: [OpenTD.RadCAD.FdSolid](OpenTD.RadCAD.FdSolid.md)  
 Assembly: OpenTD.dll  
@@ -7,15 +7,16 @@ Used to specify which faces of a solid are active in a
 Radiation Analysis Group.
 
 ```csharp
+[MessagePackObject(true)]
 public class AnalysisGroupSolidInfo
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AnalysisGroupSolidInfo](OpenTD.RadCAD.FdSolid.AnalysisGroupSolidInfo.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -27,7 +28,7 @@ public class AnalysisGroupSolidInfo
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_FdSolid_AnalysisGroupSolidInfo__ctor_System_String_OpenTD_RadCAD_FdSolid_RcFdSolidData_Active_System_Collections_Generic_IEnumerable_System_Int32__"></a> AnalysisGroupSolidInfo\(string, Active, IEnumerable<int\>\)
+### AnalysisGroupSolidInfo\(string, Active, IEnumerable<int\>\)
 
 ```csharp
 public AnalysisGroupSolidInfo(string name, RcFdSolidData.Active activeSides, IEnumerable<int> faces)
@@ -41,9 +42,15 @@ public AnalysisGroupSolidInfo(string name, RcFdSolidData.Active activeSides, IEn
 
 `faces` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
+### AnalysisGroupSolidInfo\(\)
+
+```csharp
+public AnalysisGroupSolidInfo()
+```
+
 ## Properties
 
-### <a id="OpenTD_RadCAD_FdSolid_AnalysisGroupSolidInfo_ActiveSides"></a> ActiveSides
+### ActiveSides
 
 ```csharp
 public RcFdSolidData.Active ActiveSides { get; set; }
@@ -53,7 +60,7 @@ public RcFdSolidData.Active ActiveSides { get; set; }
 
  [RcFdSolidData](OpenTD.RadCAD.FdSolid.RcFdSolidData.md).[Active](OpenTD.RadCAD.FdSolid.RcFdSolidData.Active.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_AnalysisGroupSolidInfo_Faces"></a> Faces
+### Faces
 
 ```csharp
 public List<int> Faces { get; set; }
@@ -63,7 +70,7 @@ public List<int> Faces { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_AnalysisGroupSolidInfo_Name"></a> Name
+### Name
 
 ```csharp
 public string Name { get; set; }
@@ -75,7 +82,7 @@ public string Name { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_RadCAD_FdSolid_AnalysisGroupSolidInfo_Equals_System_Object_"></a> Equals\(object\)
+### Equals\(object\)
 
 Determines whether the specified object is equal to the current object.
 
@@ -93,9 +100,9 @@ The object to compare with the current object.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+[true](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool) if the specified object  is equal to the current object; otherwise, [false](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool).
 
-### <a id="OpenTD_RadCAD_FdSolid_AnalysisGroupSolidInfo_GetHashCode"></a> GetHashCode\(\)
+### GetHashCode\(\)
 
 Serves as the default hash function.
 
@@ -109,7 +116,7 @@ public override int GetHashCode()
 
 A hash code for the current object.
 
-### <a id="OpenTD_RadCAD_FdSolid_AnalysisGroupSolidInfo_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -122,4 +129,5 @@ public override string ToString()
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 A string that represents the current object.
+
 

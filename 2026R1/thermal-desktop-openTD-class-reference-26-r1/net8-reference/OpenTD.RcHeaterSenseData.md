@@ -1,4 +1,4 @@
-# <a id="OpenTD_RcHeaterSenseData"></a> Class RcHeaterSenseData
+# Class RcHeaterSenseData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,15 +6,16 @@ Assembly: OpenTD.dll
 Data describing what a heater senses.
 
 ```csharp
+[MessagePackObject(true)]
 public class RcHeaterSenseData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [RcHeaterSenseData](OpenTD.RcHeaterSenseData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +27,7 @@ public class RcHeaterSenseData
 
 ## Constructors
 
-### <a id="OpenTD_RcHeaterSenseData__ctor"></a> RcHeaterSenseData\(\)
+### RcHeaterSenseData\(\)
 
 ```csharp
 public RcHeaterSenseData()
@@ -34,7 +35,7 @@ public RcHeaterSenseData()
 
 ## Properties
 
-### <a id="OpenTD_RcHeaterSenseData_HeaterSenseType"></a> HeaterSenseType
+### HeaterSenseType
 
 ```csharp
 public RcHeaterSenseData.HeaterSenseTypes HeaterSenseType { get; set; }
@@ -44,7 +45,7 @@ public RcHeaterSenseData.HeaterSenseTypes HeaterSenseType { get; set; }
 
  [RcHeaterSenseData](OpenTD.RcHeaterSenseData.md).[HeaterSenseTypes](OpenTD.RcHeaterSenseData.HeaterSenseTypes.md)
 
-### <a id="OpenTD_RcHeaterSenseData_UserLogic"></a> UserLogic
+### UserLogic
 
 ```csharp
 public string UserLogic { get; set; }
@@ -53,4 +54,5 @@ public string UserLogic { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

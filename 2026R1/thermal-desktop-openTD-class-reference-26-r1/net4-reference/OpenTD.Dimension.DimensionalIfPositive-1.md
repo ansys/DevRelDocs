@@ -1,4 +1,4 @@
-# <a id="OpenTD_Dimension_DimensionalIfPositive_1"></a> Struct DimensionalIfPositive<T\>
+# Struct DimensionalIfPositive<T\>
 
 Namespace: [OpenTD.Dimension](OpenTD.Dimension.md)  
 Assembly: OpenTD.dll  
@@ -15,7 +15,7 @@ public struct DimensionalIfPositive<T> where T : IDimension, new()
 
 `T` 
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -26,7 +26,7 @@ public struct DimensionalIfPositive<T> where T : IDimension, new()
 
 ## Constructors
 
-### <a id="OpenTD_Dimension_DimensionalIfPositive_1__ctor_System_Double_"></a> DimensionalIfPositive\(double\)
+### DimensionalIfPositive\(double\)
 
 ```csharp
 public DimensionalIfPositive(double x)
@@ -38,7 +38,7 @@ public DimensionalIfPositive(double x)
 
 ## Methods
 
-### <a id="OpenTD_Dimension_DimensionalIfPositive_1_GetValueSI"></a> GetValueSI\(\)
+### GetValueSI\(\)
 
 ```csharp
 public double GetValueSI()
@@ -48,7 +48,7 @@ public double GetValueSI()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Dimension_DimensionalIfPositive_1_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns the fully qualified type name of this instance.
 
@@ -64,7 +64,7 @@ The fully qualified type name.
 
 ## Operators
 
-### <a id="OpenTD_Dimension_DimensionalIfPositive_1_op_Implicit_System_Double__OpenTD_Dimension_DimensionalIfPositive__0_"></a> implicit operator DimensionalIfPositive<T\>\(double\)
+### implicit operator DimensionalIfPositive<T\>\(double\)
 
 ```csharp
 public static implicit operator DimensionalIfPositive<T>(double x)
@@ -78,7 +78,7 @@ public static implicit operator DimensionalIfPositive<T>(double x)
 
  [DimensionalIfPositive](OpenTD.Dimension.DimensionalIfPositive\-1.md)<T\>
 
-### <a id="OpenTD_Dimension_DimensionalIfPositive_1_op_Implicit_OpenTD_Dimension_DimensionalIfPositive__0___System_Double"></a> implicit operator double\(DimensionalIfPositive<T\>\)
+### implicit operator double\(DimensionalIfPositive<T\>\)
 
 ```csharp
 public static implicit operator double(DimensionalIfPositive<T> x)
@@ -95,4 +95,5 @@ public static implicit operator double(DimensionalIfPositive<T> x)
 ## See Also
 
 [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<T\>
+
 

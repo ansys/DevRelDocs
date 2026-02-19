@@ -1,4 +1,4 @@
-# <a id="OpenTD_Polyline"></a> Class Polyline
+# Class Polyline
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,7 +10,7 @@ Client-side representation of an AutoCAD LWPolyline entity in a TD instance.
 public class Polyline : TdDbEntityData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -18,11 +18,11 @@ public class Polyline : TdDbEntityData, IUpdatable
 [TdDbEntityData](OpenTD.TdDbEntityData.md) ← 
 [Polyline](OpenTD.Polyline.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [TdDbEntityData.SetFrom\(TdDbEntityData\)](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_SetFrom\_OpenTD\_TdDbEntityData\_), 
 [TdDbEntityData.Layer](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_Layer), 
@@ -54,7 +54,7 @@ public class Polyline : TdDbEntityData, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_Polyline__ctor"></a> Polyline\(\)
+### Polyline\(\)
 
 ```csharp
 public Polyline()
@@ -62,7 +62,7 @@ public Polyline()
 
 ## Properties
 
-### <a id="OpenTD_Polyline_Closed"></a> Closed
+### Closed
 
 Gets or sets a value indicating whether this <xref href="OpenTD.Polyline" data-throw-if-not-resolved="false"></xref>
 is a closed curve.
@@ -76,7 +76,7 @@ public bool Closed { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Polyline_Elevation"></a> Elevation
+### Elevation
 
 Distance from WCS origin to plane that contains polyline.
 
@@ -89,7 +89,7 @@ public Dimensional<ModelLength> Elevation { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_Polyline_ExtrusionThickness"></a> ExtrusionThickness
+### ExtrusionThickness
 
 Extrusion thickness in the normal direction.
 
@@ -102,7 +102,7 @@ public Dimensional<ModelLength> ExtrusionThickness { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_Polyline_Normal"></a> Normal
+### Normal
 
 Normal of the plane that contains the polyline.
 
@@ -115,7 +115,7 @@ public Vector3d Normal { get; set; }
 
  [Vector3d](OpenTD.Vector3d.md)
 
-### <a id="OpenTD_Polyline_Vertices"></a> Vertices
+### Vertices
 
 2-D points defining the polyline in a plane. Vertex properties affect the
 segment following a given vertex. For example, if the Bulge of vertex 3
@@ -132,7 +132,7 @@ public List<PolylineVertex> Vertices { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Polyline_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -144,7 +144,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_Polyline_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -155,4 +155,5 @@ public override void Update()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

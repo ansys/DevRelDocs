@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_CompareAssertion"></a> Class CompareAssertion
+# Class CompareAssertion
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -10,12 +10,12 @@ are expected to be equal.
 public class CompareAssertion
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [CompareAssertion](OpenTD.Results.Dataset.CompareAssertion.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -27,7 +27,7 @@ public class CompareAssertion
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_CompareAssertion__ctor_OpenTD_Results_Dataset_Comparer_System_Boolean_"></a> CompareAssertion\(Comparer, bool\)
+### CompareAssertion\(Comparer, bool\)
 
 ```csharp
 public CompareAssertion(Comparer comparer, bool assertDatasetsSame = true)
@@ -39,7 +39,7 @@ public CompareAssertion(Comparer comparer, bool assertDatasetsSame = true)
 
 `assertDatasetsSame` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Dataset_CompareAssertion__ctor_OpenTD_Results_Dataset_IDataset_OpenTD_Results_Dataset_IDataset_System_Boolean_"></a> CompareAssertion\(IDataset, IDataset, bool\)
+### CompareAssertion\(IDataset, IDataset, bool\)
 
 ```csharp
 public CompareAssertion(IDataset A, IDataset B, bool assertDatasetsSame = true)
@@ -55,7 +55,7 @@ public CompareAssertion(IDataset A, IDataset B, bool assertDatasetsSame = true)
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_CompareAssertion_AssertDatasetsSame"></a> AssertDatasetsSame
+### AssertDatasetsSame
 
 ```csharp
 public bool AssertDatasetsSame { get; set; }
@@ -65,7 +65,7 @@ public bool AssertDatasetsSame { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Dataset_CompareAssertion_Comparer"></a> Comparer
+### Comparer
 
 ```csharp
 public Comparer Comparer { get; set; }
@@ -75,7 +75,7 @@ public Comparer Comparer { get; set; }
 
  [Comparer](OpenTD.Results.Dataset.Comparer.md)
 
-### <a id="OpenTD_Results_Dataset_CompareAssertion_Message"></a> Message
+### Message
 
 ```csharp
 public string Message { get; }
@@ -85,7 +85,7 @@ public string Message { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_CompareAssertion_Success"></a> Success
+### Success
 
 ```csharp
 public bool Success { get; }
@@ -97,13 +97,13 @@ public bool Success { get; }
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_CompareAssertion_ResetResult"></a> ResetResult\(\)
+### ResetResult\(\)
 
 ```csharp
 public void ResetResult()
 ```
 
-### <a id="OpenTD_Results_Dataset_CompareAssertion_TestAssertion"></a> TestAssertion\(\)
+### TestAssertion\(\)
 
 ```csharp
 public bool TestAssertion()
@@ -112,4 +112,5 @@ public bool TestAssertion()
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

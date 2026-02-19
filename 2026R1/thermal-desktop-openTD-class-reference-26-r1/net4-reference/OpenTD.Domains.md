@@ -1,4 +1,4 @@
-# <a id="OpenTD_Domains"></a> Class Domains
+# Class Domains
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ Use to get all domains within a TD instance.
 public class Domains
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Domains](OpenTD.Domains.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,13 +27,13 @@ public class Domains
 
 ## Constructors
 
-### <a id="OpenTD_Domains__ctor"></a> Domains\(\)
+### Domains\(\)
 
 ```csharp
 public Domains()
 ```
 
-### <a id="OpenTD_Domains__ctor_OpenTD_ThermalDesktop_"></a> Domains\(ThermalDesktop\)
+### Domains\(ThermalDesktop\)
 
 Creates dictionaries for each type of domain. 
 Domains in master drawing will create dictionary where key=domain name, value=list of connections in domain
@@ -50,7 +50,7 @@ public Domains(ThermalDesktop tdInstance)
 
 ## Properties
 
-### <a id="OpenTD_Domains_EdgeDomains"></a> EdgeDomains
+### EdgeDomains
 
 Key = Name of domain   Value = list of connections in domain
 
@@ -63,7 +63,7 @@ public Dictionary<string, List<Connection>> EdgeDomains { get; set; }
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Connection](OpenTD.Connection.md)\>\>
 
-### <a id="OpenTD_Domains_EdgeDomainsXREF"></a> EdgeDomainsXREF
+### EdgeDomainsXREF
 
 Key = Name of XREF   Value = list of domain names in XREF
 
@@ -76,7 +76,7 @@ public Dictionary<string, List<string>> EdgeDomainsXREF { get; set; }
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>\>
 
-### <a id="OpenTD_Domains_LumpDomains"></a> LumpDomains
+### LumpDomains
 
 Key = Name of domain   Value = list of connections in domain
 
@@ -89,7 +89,7 @@ public Dictionary<string, List<Connection>> LumpDomains { get; set; }
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Connection](OpenTD.Connection.md)\>\>
 
-### <a id="OpenTD_Domains_LumpDomainsXREF"></a> LumpDomainsXREF
+### LumpDomainsXREF
 
 Key = Name of XREF   Value = list of domain names in XREF
 
@@ -102,7 +102,7 @@ public Dictionary<string, List<string>> LumpDomainsXREF { get; set; }
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>\>
 
-### <a id="OpenTD_Domains_NodeDomains"></a> NodeDomains
+### NodeDomains
 
 Key = Name of domain   Value = list of connections in domain
 
@@ -115,7 +115,7 @@ public Dictionary<string, List<Connection>> NodeDomains { get; set; }
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Connection](OpenTD.Connection.md)\>\>
 
-### <a id="OpenTD_Domains_NodeDomainsXREF"></a> NodeDomainsXREF
+### NodeDomainsXREF
 
 Key = Name of XREF   Value = list of domain names in XREF
 
@@ -128,7 +128,7 @@ public Dictionary<string, List<string>> NodeDomainsXREF { get; set; }
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>\>
 
-### <a id="OpenTD_Domains_PathDomains"></a> PathDomains
+### PathDomains
 
 Key = Name of domain   Value = list of connections in domain
 
@@ -141,7 +141,7 @@ public Dictionary<string, List<Connection>> PathDomains { get; set; }
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Connection](OpenTD.Connection.md)\>\>
 
-### <a id="OpenTD_Domains_PathDomainsXREF"></a> PathDomainsXREF
+### PathDomainsXREF
 
 Key = Name of XREF   Value = list of domain names in XREF
 
@@ -154,7 +154,7 @@ public Dictionary<string, List<string>> PathDomainsXREF { get; set; }
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>\>
 
-### <a id="OpenTD_Domains_SolidDomains"></a> SolidDomains
+### SolidDomains
 
 Key = Name of domain   Value = list of connections in domain
 
@@ -167,7 +167,7 @@ public Dictionary<string, List<Connection>> SolidDomains { get; set; }
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Connection](OpenTD.Connection.md)\>\>
 
-### <a id="OpenTD_Domains_SolidDomainsXREF"></a> SolidDomainsXREF
+### SolidDomainsXREF
 
 Key = Name of XREF   Value = list of domain names in XREF
 
@@ -180,7 +180,7 @@ public Dictionary<string, List<string>> SolidDomainsXREF { get; set; }
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>\>
 
-### <a id="OpenTD_Domains_SurfaceDomains"></a> SurfaceDomains
+### SurfaceDomains
 
 Key = Name of domain   Value = list of connections in domain
 
@@ -193,7 +193,7 @@ public Dictionary<string, List<Connection>> SurfaceDomains { get; set; }
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Connection](OpenTD.Connection.md)\>\>
 
-### <a id="OpenTD_Domains_SurfaceDomainsXREF"></a> SurfaceDomainsXREF
+### SurfaceDomainsXREF
 
 Key = Name of XREF   Value = list of domain names in XREF
 
@@ -206,7 +206,7 @@ public Dictionary<string, List<string>> SurfaceDomainsXREF { get; set; }
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>\>
 
-### <a id="OpenTD_Domains_TD"></a> TD
+### TD
 
 ```csharp
 public ThermalDesktop TD { get; set; }
@@ -218,7 +218,7 @@ public ThermalDesktop TD { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Domains_GetNames"></a> GetNames\(\)
+### GetNames\(\)
 
 Returns all domain names.
 Call UpdateFromTD() first to synchronize with the TD instance.
@@ -238,7 +238,7 @@ List&lt;System.String&gt;.
 [Domains](OpenTD.Domains.md).[UpdateFromTD](OpenTD.Domains.md\#OpenTD\_Domains\_UpdateFromTD)\(\), 
 [Domains](OpenTD.Domains.md).[UpdateFromTD](OpenTD.Domains.md\#OpenTD\_Domains\_UpdateFromTD\_OpenTD\_ThermalDesktop\_)\([ThermalDesktop](OpenTD.ThermalDesktop.md)\)
 
-### <a id="OpenTD_Domains_UpdateFromTD_OpenTD_ThermalDesktop_"></a> UpdateFromTD\(ThermalDesktop\)
+### UpdateFromTD\(ThermalDesktop\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -250,11 +250,12 @@ public void UpdateFromTD(ThermalDesktop tdInstance)
 
 `tdInstance` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_Domains_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
 ```csharp
 public void UpdateFromTD()
 ```
+
 

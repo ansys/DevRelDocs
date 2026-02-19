@@ -1,4 +1,4 @@
-# <a id="OpenTD_ExpressionArrayClassData"></a> Class ExpressionArrayClassData
+# Class ExpressionArrayClassData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ Array of TD expressions.
 public class ExpressionArrayClassData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ExpressionArrayClassData](OpenTD.ExpressionArrayClassData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,7 +27,7 @@ public class ExpressionArrayClassData
 
 ## Constructors
 
-### <a id="OpenTD_ExpressionArrayClassData__ctor"></a> ExpressionArrayClassData\(\)
+### ExpressionArrayClassData\(\)
 
 ```csharp
 public ExpressionArrayClassData()
@@ -35,7 +35,7 @@ public ExpressionArrayClassData()
 
 ## Properties
 
-### <a id="OpenTD_ExpressionArrayClassData_comment"></a> comment
+### comment
 
 ```csharp
 [DataMember]
@@ -46,7 +46,7 @@ public string comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_ExpressionArrayClassData_disableWarning"></a> disableWarning
+### disableWarning
 
 ```csharp
 [DataMember]
@@ -57,7 +57,7 @@ public int disableWarning { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_ExpressionArrayClassData_expression"></a> expression
+### expression
 
 ```csharp
 [DataMember]
@@ -68,7 +68,7 @@ public List<string> expression { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_ExpressionArrayClassData_outputToSinda"></a> outputToSinda
+### outputToSinda
 
 ```csharp
 [DataMember]
@@ -79,7 +79,7 @@ public int outputToSinda { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_ExpressionArrayClassData_sindaUnits"></a> sindaUnits
+### sindaUnits
 
 ```csharp
 [DataMember]
@@ -90,7 +90,7 @@ public int sindaUnits { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_ExpressionArrayClassData_units"></a> units
+### units
 
 ```csharp
 [DataMember]
@@ -101,7 +101,7 @@ public UnitsData units { get; set; }
 
  [UnitsData](OpenTD.UnitsData.md)
 
-### <a id="OpenTD_ExpressionArrayClassData_unitsType"></a> unitsType
+### unitsType
 
 ```csharp
 [DataMember]
@@ -111,4 +111,5 @@ public UnitsData.UnitsType unitsType { get; set; }
 #### Property Value
 
  [UnitsData](OpenTD.UnitsData.md).[UnitsType](OpenTD.UnitsData.UnitsType.md)
+
 

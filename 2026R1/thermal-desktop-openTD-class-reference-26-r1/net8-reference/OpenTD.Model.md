@@ -1,4 +1,4 @@
-# <a id="OpenTD_Model"></a> Class Model
+# Class Model
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,15 +6,16 @@ Assembly: OpenTD.dll
 Use to get all OpenTD-supported entities from a TD instance.
 
 ```csharp
+[MessagePackObject(true)]
 public class Model
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Model](OpenTD.Model.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,13 +27,13 @@ public class Model
 
 ## Constructors
 
-### <a id="OpenTD_Model__ctor"></a> Model\(\)
+### Model\(\)
 
 ```csharp
 public Model()
 ```
 
-### <a id="OpenTD_Model__ctor_OpenTD_ThermalDesktop_"></a> Model\(ThermalDesktop\)
+### Model\(ThermalDesktop\)
 
 ```csharp
 public Model(ThermalDesktop tdInstance)
@@ -44,7 +45,7 @@ public Model(ThermalDesktop tdInstance)
 
 ## Properties
 
-### <a id="OpenTD_Model_AcEllipses"></a> AcEllipses
+### AcEllipses
 
 ```csharp
 public List<AcEllipse> AcEllipses { get; set; }
@@ -54,7 +55,7 @@ public List<AcEllipse> AcEllipses { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[AcEllipse](OpenTD.AcEllipse.md)\>
 
-### <a id="OpenTD_Model_Arcs"></a> Arcs
+### Arcs
 
 ```csharp
 public List<Arc> Arcs { get; set; }
@@ -64,7 +65,7 @@ public List<Arc> Arcs { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Arc](OpenTD.Arc.md)\>
 
-### <a id="OpenTD_Model_Assemblies"></a> Assemblies
+### Assemblies
 
 ```csharp
 public List<Assembly> Assemblies { get; set; }
@@ -74,7 +75,7 @@ public List<Assembly> Assemblies { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Assembly](OpenTD.RadCAD.Assembly.md)\>
 
-### <a id="OpenTD_Model_Cappmps"></a> Cappmps
+### Cappmps
 
 ```csharp
 public List<Cappmp> Cappmps { get; set; }
@@ -84,7 +85,7 @@ public List<Cappmp> Cappmps { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Cappmp](OpenTD.FloCAD.Cappmp.md)\>
 
-### <a id="OpenTD_Model_CaseSets"></a> CaseSets
+### CaseSets
 
 ```csharp
 public List<CaseSet> CaseSets { get; set; }
@@ -94,7 +95,7 @@ public List<CaseSet> CaseSets { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[CaseSet](OpenTD.CaseSet.md)\>
 
-### <a id="OpenTD_Model_Circles"></a> Circles
+### Circles
 
 ```csharp
 public List<Circle> Circles { get; set; }
@@ -104,7 +105,7 @@ public List<Circle> Circles { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Circle](OpenTD.Circle.md)\>
 
-### <a id="OpenTD_Model_Compartments"></a> Compartments
+### Compartments
 
 ```csharp
 public List<Compartment> Compartments { get; set; }
@@ -114,7 +115,7 @@ public List<Compartment> Compartments { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Compartment](OpenTD.FloCAD.Compartment.md)\>
 
-### <a id="OpenTD_Model_Conductors"></a> Conductors
+### Conductors
 
 ```csharp
 public List<Conductor> Conductors { get; set; }
@@ -124,7 +125,7 @@ public List<Conductor> Conductors { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Conductor](OpenTD.Conductor.md)\>
 
-### <a id="OpenTD_Model_Cones"></a> Cones
+### Cones
 
 ```csharp
 public List<Cone> Cones { get; set; }
@@ -134,7 +135,7 @@ public List<Cone> Cones { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Cone](OpenTD.RadCAD.Cone.md)\>
 
-### <a id="OpenTD_Model_Contactors"></a> Contactors
+### Contactors
 
 ```csharp
 public List<Contactor> Contactors { get; set; }
@@ -144,7 +145,7 @@ public List<Contactor> Contactors { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Contactor](OpenTD.Contactor.md)\>
 
-### <a id="OpenTD_Model_Cylinders"></a> Cylinders
+### Cylinders
 
 ```csharp
 public List<Cylinder> Cylinders { get; set; }
@@ -154,7 +155,7 @@ public List<Cylinder> Cylinders { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Cylinder](OpenTD.RadCAD.Cylinder.md)\>
 
-### <a id="OpenTD_Model_Datasets"></a> Datasets
+### Datasets
 
 ```csharp
 public List<Dataset> Datasets { get; set; }
@@ -164,7 +165,7 @@ public List<Dataset> Datasets { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Dataset](OpenTD.PostProcessing.Dataset.md)\>
 
-### <a id="OpenTD_Model_Disks"></a> Disks
+### Disks
 
 ```csharp
 public List<Disk> Disks { get; set; }
@@ -174,7 +175,7 @@ public List<Disk> Disks { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Disk](OpenTD.RadCAD.Disk.md)\>
 
-### <a id="OpenTD_Model_Domains"></a> Domains
+### Domains
 
 ```csharp
 public Domains Domains { get; set; }
@@ -184,7 +185,7 @@ public Domains Domains { get; set; }
 
  [Domains](OpenTD.Domains.md)
 
-### <a id="OpenTD_Model_DwgUnits"></a> DwgUnits
+### DwgUnits
 
 ```csharp
 public UnitsData DwgUnits { get; set; }
@@ -194,7 +195,7 @@ public UnitsData DwgUnits { get; set; }
 
  [UnitsData](OpenTD.UnitsData.md)
 
-### <a id="OpenTD_Model_Ellipses"></a> Ellipses
+### Ellipses
 
 ```csharp
 public List<Ellipse> Ellipses { get; set; }
@@ -204,7 +205,7 @@ public List<Ellipse> Ellipses { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Ellipse](OpenTD.RadCAD.Ellipse.md)\>
 
-### <a id="OpenTD_Model_Ellipsoids"></a> Ellipsoids
+### Ellipsoids
 
 ```csharp
 public List<Ellipsoid> Ellipsoids { get; set; }
@@ -214,7 +215,7 @@ public List<Ellipsoid> Ellipsoids { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Ellipsoid](OpenTD.RadCAD.Ellipsoid.md)\>
 
-### <a id="OpenTD_Model_EllipticCones"></a> EllipticCones
+### EllipticCones
 
 ```csharp
 public List<EllipticCone> EllipticCones { get; set; }
@@ -224,7 +225,7 @@ public List<EllipticCone> EllipticCones { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[EllipticCone](OpenTD.RadCAD.EllipticCone.md)\>
 
-### <a id="OpenTD_Model_EllipticCylinders"></a> EllipticCylinders
+### EllipticCylinders
 
 ```csharp
 public List<EllipticCylinder> EllipticCylinders { get; set; }
@@ -234,7 +235,7 @@ public List<EllipticCylinder> EllipticCylinders { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[EllipticCylinder](OpenTD.RadCAD.EllipticCylinder.md)\>
 
-### <a id="OpenTD_Model_FEMeshImporters"></a> FEMeshImporters
+### FEMeshImporters
 
 ```csharp
 public List<FEMeshImporter> FEMeshImporters { get; set; }
@@ -244,7 +245,7 @@ public List<FEMeshImporter> FEMeshImporters { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[FEMeshImporter](OpenTD.RadCAD.FEMeshImporter.md)\>
 
-### <a id="OpenTD_Model_FTies"></a> FTies
+### FTies
 
 ```csharp
 public List<FTie> FTies { get; set; }
@@ -254,7 +255,7 @@ public List<FTie> FTies { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[FTie](OpenTD.FloCAD.FTie.md)\>
 
-### <a id="OpenTD_Model_FkLocators"></a> FkLocators
+### FkLocators
 
 ```csharp
 public List<FkLocator> FkLocators { get; set; }
@@ -264,7 +265,7 @@ public List<FkLocator> FkLocators { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[FkLocator](OpenTD.FloCAD.FkLocator.md)\>
 
-### <a id="OpenTD_Model_FluidSubmodels"></a> FluidSubmodels
+### FluidSubmodels
 
 ```csharp
 public List<FluidSubmodel> FluidSubmodels { get; set; }
@@ -274,7 +275,7 @@ public List<FluidSubmodel> FluidSubmodels { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[FluidSubmodel](OpenTD.FloCAD.FluidSubmodel.md)\>
 
-### <a id="OpenTD_Model_HeatLoads"></a> HeatLoads
+### HeatLoads
 
 ```csharp
 public List<HeatLoad> HeatLoads { get; set; }
@@ -284,7 +285,7 @@ public List<HeatLoad> HeatLoads { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[HeatLoad](OpenTD.HeatLoad.md)\>
 
-### <a id="OpenTD_Model_Heaters"></a> Heaters
+### Heaters
 
 ```csharp
 public List<Heater> Heaters { get; set; }
@@ -294,7 +295,7 @@ public List<Heater> Heaters { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Heater](OpenTD.Heater.md)\>
 
-### <a id="OpenTD_Model_Helices"></a> Helices
+### Helices
 
 ```csharp
 public List<Helix> Helices { get; set; }
@@ -304,7 +305,7 @@ public List<Helix> Helices { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Helix](OpenTD.Helix.md)\>
 
-### <a id="OpenTD_Model_IFaces"></a> IFaces
+### IFaces
 
 ```csharp
 public List<IFace> IFaces { get; set; }
@@ -314,7 +315,7 @@ public List<IFace> IFaces { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[IFace](OpenTD.FloCAD.IFace.md)\>
 
-### <a id="OpenTD_Model_Layers"></a> Layers
+### Layers
 
 ```csharp
 public List<Layer> Layers { get; set; }
@@ -324,7 +325,7 @@ public List<Layer> Layers { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Layer](OpenTD.Layer.md)\>
 
-### <a id="OpenTD_Model_LinearBricks"></a> LinearBricks
+### LinearBricks
 
 ```csharp
 public List<LinearBrick> LinearBricks { get; set; }
@@ -334,7 +335,7 @@ public List<LinearBrick> LinearBricks { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[LinearBrick](OpenTD.RadCAD.FEM.LinearBrick.md)\>
 
-### <a id="OpenTD_Model_LinearPyramids"></a> LinearPyramids
+### LinearPyramids
 
 ```csharp
 public List<LinearPyramid> LinearPyramids { get; set; }
@@ -344,7 +345,7 @@ public List<LinearPyramid> LinearPyramids { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[LinearPyramid](OpenTD.RadCAD.FEM.LinearPyramid.md)\>
 
-### <a id="OpenTD_Model_LinearQuads"></a> LinearQuads
+### LinearQuads
 
 ```csharp
 public List<LinearQuad> LinearQuads { get; set; }
@@ -354,7 +355,7 @@ public List<LinearQuad> LinearQuads { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[LinearQuad](OpenTD.RadCAD.FEM.LinearQuad.md)\>
 
-### <a id="OpenTD_Model_LinearTets"></a> LinearTets
+### LinearTets
 
 ```csharp
 public List<LinearTet> LinearTets { get; set; }
@@ -364,7 +365,7 @@ public List<LinearTet> LinearTets { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[LinearTet](OpenTD.RadCAD.FEM.LinearTet.md)\>
 
-### <a id="OpenTD_Model_LinearTris"></a> LinearTris
+### LinearTris
 
 ```csharp
 public List<LinearTri> LinearTris { get; set; }
@@ -374,7 +375,7 @@ public List<LinearTri> LinearTris { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[LinearTri](OpenTD.RadCAD.FEM.LinearTri.md)\>
 
-### <a id="OpenTD_Model_LinearWedges"></a> LinearWedges
+### LinearWedges
 
 ```csharp
 public List<LinearWedge> LinearWedges { get; set; }
@@ -384,7 +385,7 @@ public List<LinearWedge> LinearWedges { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[LinearWedge](OpenTD.RadCAD.FEM.LinearWedge.md)\>
 
-### <a id="OpenTD_Model_Lines"></a> Lines
+### Lines
 
 ```csharp
 public List<Line> Lines { get; set; }
@@ -394,7 +395,7 @@ public List<Line> Lines { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Line](OpenTD.Line.md)\>
 
-### <a id="OpenTD_Model_LogicObjects"></a> LogicObjects
+### LogicObjects
 
 ```csharp
 public LogicObjects LogicObjects { get; set; }
@@ -404,7 +405,7 @@ public LogicObjects LogicObjects { get; set; }
 
  [LogicObjects](OpenTD.LogicObjects.md)
 
-### <a id="OpenTD_Model_Lumps"></a> Lumps
+### Lumps
 
 ```csharp
 public List<Lump> Lumps { get; set; }
@@ -414,7 +415,7 @@ public List<Lump> Lumps { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Lump](OpenTD.FloCAD.Lump.md)\>
 
-### <a id="OpenTD_Model_MaterialStacks"></a> MaterialStacks
+### MaterialStacks
 
 ```csharp
 public List<MaterialStack> MaterialStacks { get; set; }
@@ -424,7 +425,7 @@ public List<MaterialStack> MaterialStacks { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[MaterialStack](OpenTD.MaterialStack.md)\>
 
-### <a id="OpenTD_Model_MeshFDs"></a> MeshFDs
+### MeshFDs
 
 ```csharp
 public List<MeshFD> MeshFDs { get; set; }
@@ -434,7 +435,7 @@ public List<MeshFD> MeshFDs { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[MeshFD](OpenTD.RadCAD.MeshFD.md)\>
 
-### <a id="OpenTD_Model_Nodes"></a> Nodes
+### Nodes
 
 ```csharp
 public List<Node> Nodes { get; set; }
@@ -444,7 +445,7 @@ public List<Node> Nodes { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Node](OpenTD.Node.md)\>
 
-### <a id="OpenTD_Model_Notes"></a> Notes
+### Notes
 
 ```csharp
 public Notes Notes { get; set; }
@@ -454,7 +455,7 @@ public Notes Notes { get; set; }
 
  [Notes](OpenTD.Notes.md)
 
-### <a id="OpenTD_Model_OffsetParaboloids"></a> OffsetParaboloids
+### OffsetParaboloids
 
 ```csharp
 public List<OffsetParaboloid> OffsetParaboloids { get; set; }
@@ -464,7 +465,7 @@ public List<OffsetParaboloid> OffsetParaboloids { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[OffsetParaboloid](OpenTD.RadCAD.OffsetParaboloid.md)\>
 
-### <a id="OpenTD_Model_Ogives"></a> Ogives
+### Ogives
 
 ```csharp
 public List<Ogive> Ogives { get; set; }
@@ -474,7 +475,7 @@ public List<Ogive> Ogives { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Ogive](OpenTD.RadCAD.Ogive.md)\>
 
-### <a id="OpenTD_Model_OpticalPropss"></a> OpticalPropss
+### OpticalPropss
 
 ```csharp
 public List<OpticalProps> OpticalPropss { get; set; }
@@ -484,7 +485,7 @@ public List<OpticalProps> OpticalPropss { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[OpticalProps](OpenTD.RadCAD.OpticalProps.md)\>
 
-### <a id="OpenTD_Model_Orbits"></a> Orbits
+### Orbits
 
 ```csharp
 public List<Orbit> Orbits { get; set; }
@@ -494,7 +495,7 @@ public List<Orbit> Orbits { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Orbit](OpenTD.RadCAD.Orbit.md)\>
 
-### <a id="OpenTD_Model_ParabolicTroughs"></a> ParabolicTroughs
+### ParabolicTroughs
 
 ```csharp
 public List<ParabolicTrough> ParabolicTroughs { get; set; }
@@ -504,7 +505,7 @@ public List<ParabolicTrough> ParabolicTroughs { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ParabolicTrough](OpenTD.RadCAD.ParabolicTrough.md)\>
 
-### <a id="OpenTD_Model_Paraboloids"></a> Paraboloids
+### Paraboloids
 
 ```csharp
 public List<Paraboloid> Paraboloids { get; set; }
@@ -514,7 +515,7 @@ public List<Paraboloid> Paraboloids { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Paraboloid](OpenTD.RadCAD.Paraboloid.md)\>
 
-### <a id="OpenTD_Model_Paths"></a> Paths
+### Paths
 
 ```csharp
 public List<Path> Paths { get; set; }
@@ -524,7 +525,7 @@ public List<Path> Paths { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Path](OpenTD.FloCAD.Path.md)\>
 
-### <a id="OpenTD_Model_PipeStdSignatures"></a> PipeStdSignatures
+### PipeStdSignatures
 
 ```csharp
 public List<PipeStdSignatureData> PipeStdSignatures { get; set; }
@@ -534,7 +535,7 @@ public List<PipeStdSignatureData> PipeStdSignatures { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[PipeStdSignatureData](OpenTD.FloCAD.PipeStdSignatureData.md)\>
 
-### <a id="OpenTD_Model_Pipes"></a> Pipes
+### Pipes
 
 ```csharp
 public List<Pipe> Pipes { get; set; }
@@ -544,7 +545,7 @@ public List<Pipe> Pipes { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Pipe](OpenTD.FloCAD.Pipe.md)\>
 
-### <a id="OpenTD_Model_Polyline3ds"></a> Polyline3ds
+### Polyline3ds
 
 ```csharp
 public List<Polyline3d> Polyline3ds { get; set; }
@@ -554,7 +555,7 @@ public List<Polyline3d> Polyline3ds { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Polyline3d](OpenTD.Polyline3d.md)\>
 
-### <a id="OpenTD_Model_Polylines"></a> Polylines
+### Polylines
 
 ```csharp
 public List<Polyline> Polylines { get; set; }
@@ -564,7 +565,7 @@ public List<Polyline> Polylines { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Polyline](OpenTD.Polyline.md)\>
 
-### <a id="OpenTD_Model_Ports"></a> Ports
+### Ports
 
 ```csharp
 public List<Port> Ports { get; set; }
@@ -574,7 +575,7 @@ public List<Port> Ports { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Port](OpenTD.FloCAD.Port.md)\>
 
-### <a id="OpenTD_Model_PressureLoads"></a> PressureLoads
+### PressureLoads
 
 ```csharp
 public List<PressureLoad> PressureLoads { get; set; }
@@ -584,7 +585,7 @@ public List<PressureLoad> PressureLoads { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[PressureLoad](OpenTD.PressureLoad.md)\>
 
-### <a id="OpenTD_Model_QuadraticBricks"></a> QuadraticBricks
+### QuadraticBricks
 
 ```csharp
 public List<QuadraticBrick> QuadraticBricks { get; set; }
@@ -594,7 +595,7 @@ public List<QuadraticBrick> QuadraticBricks { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[QuadraticBrick](OpenTD.RadCAD.FEM.QuadraticBrick.md)\>
 
-### <a id="OpenTD_Model_QuadraticPyramids"></a> QuadraticPyramids
+### QuadraticPyramids
 
 ```csharp
 public List<QuadraticPyramid> QuadraticPyramids { get; set; }
@@ -604,7 +605,7 @@ public List<QuadraticPyramid> QuadraticPyramids { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[QuadraticPyramid](OpenTD.RadCAD.FEM.QuadraticPyramid.md)\>
 
-### <a id="OpenTD_Model_QuadraticQuads"></a> QuadraticQuads
+### QuadraticQuads
 
 ```csharp
 public List<QuadraticQuad> QuadraticQuads { get; set; }
@@ -614,7 +615,7 @@ public List<QuadraticQuad> QuadraticQuads { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[QuadraticQuad](OpenTD.RadCAD.FEM.QuadraticQuad.md)\>
 
-### <a id="OpenTD_Model_QuadraticTets"></a> QuadraticTets
+### QuadraticTets
 
 ```csharp
 public List<QuadraticTet> QuadraticTets { get; set; }
@@ -624,7 +625,7 @@ public List<QuadraticTet> QuadraticTets { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[QuadraticTet](OpenTD.RadCAD.FEM.QuadraticTet.md)\>
 
-### <a id="OpenTD_Model_QuadraticTris"></a> QuadraticTris
+### QuadraticTris
 
 ```csharp
 public List<QuadraticTri> QuadraticTris { get; set; }
@@ -634,7 +635,7 @@ public List<QuadraticTri> QuadraticTris { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[QuadraticTri](OpenTD.RadCAD.FEM.QuadraticTri.md)\>
 
-### <a id="OpenTD_Model_QuadraticWedges"></a> QuadraticWedges
+### QuadraticWedges
 
 ```csharp
 public List<QuadraticWedge> QuadraticWedges { get; set; }
@@ -644,7 +645,7 @@ public List<QuadraticWedge> QuadraticWedges { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[QuadraticWedge](OpenTD.RadCAD.FEM.QuadraticWedge.md)\>
 
-### <a id="OpenTD_Model_RadiationAnalysisGroups"></a> RadiationAnalysisGroups
+### RadiationAnalysisGroups
 
 ```csharp
 public List<Tuple<string, string>> RadiationAnalysisGroups { get; set; }
@@ -654,7 +655,7 @@ public List<Tuple<string, string>> RadiationAnalysisGroups { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>\>
 
-### <a id="OpenTD_Model_Rectangles"></a> Rectangles
+### Rectangles
 
 ```csharp
 public List<Rectangle> Rectangles { get; set; }
@@ -664,7 +665,7 @@ public List<Rectangle> Rectangles { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Rectangle](OpenTD.RadCAD.Rectangle.md)\>
 
-### <a id="OpenTD_Model_ScarfedCones"></a> ScarfedCones
+### ScarfedCones
 
 ```csharp
 public List<ScarfedCone> ScarfedCones { get; set; }
@@ -674,7 +675,7 @@ public List<ScarfedCone> ScarfedCones { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ScarfedCone](OpenTD.RadCAD.ScarfedCone.md)\>
 
-### <a id="OpenTD_Model_SolidBricks"></a> SolidBricks
+### SolidBricks
 
 ```csharp
 public List<SolidBrick> SolidBricks { get; set; }
@@ -684,7 +685,7 @@ public List<SolidBrick> SolidBricks { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[SolidBrick](OpenTD.RadCAD.FdSolid.SolidBrick.md)\>
 
-### <a id="OpenTD_Model_SolidCones"></a> SolidCones
+### SolidCones
 
 ```csharp
 public List<SolidCone> SolidCones { get; set; }
@@ -694,7 +695,7 @@ public List<SolidCone> SolidCones { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[SolidCone](OpenTD.RadCAD.FdSolid.SolidCone.md)\>
 
-### <a id="OpenTD_Model_SolidCylinders"></a> SolidCylinders
+### SolidCylinders
 
 ```csharp
 public List<SolidCylinder> SolidCylinders { get; set; }
@@ -704,7 +705,7 @@ public List<SolidCylinder> SolidCylinders { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[SolidCylinder](OpenTD.RadCAD.FdSolid.SolidCylinder.md)\>
 
-### <a id="OpenTD_Model_SolidEllipsoids"></a> SolidEllipsoids
+### SolidEllipsoids
 
 ```csharp
 public List<SolidEllipsoid> SolidEllipsoids { get; set; }
@@ -714,7 +715,7 @@ public List<SolidEllipsoid> SolidEllipsoids { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[SolidEllipsoid](OpenTD.RadCAD.FdSolid.SolidEllipsoid.md)\>
 
-### <a id="OpenTD_Model_SolidSpheres"></a> SolidSpheres
+### SolidSpheres
 
 ```csharp
 public List<SolidSphere> SolidSpheres { get; set; }
@@ -724,7 +725,7 @@ public List<SolidSphere> SolidSpheres { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[SolidSphere](OpenTD.RadCAD.FdSolid.SolidSphere.md)\>
 
-### <a id="OpenTD_Model_Spheres"></a> Spheres
+### Spheres
 
 ```csharp
 public List<Sphere> Spheres { get; set; }
@@ -734,7 +735,7 @@ public List<Sphere> Spheres { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Sphere](OpenTD.RadCAD.Sphere.md)\>
 
-### <a id="OpenTD_Model_Splines"></a> Splines
+### Splines
 
 ```csharp
 public List<Spline> Splines { get; set; }
@@ -744,7 +745,7 @@ public List<Spline> Splines { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Spline](OpenTD.Spline.md)\>
 
-### <a id="OpenTD_Model_Submodels"></a> Submodels
+### Submodels
 
 ```csharp
 public List<Submodel> Submodels { get; set; }
@@ -754,7 +755,7 @@ public List<Submodel> Submodels { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Submodel](OpenTD.Submodel.md)\>
 
-### <a id="OpenTD_Model_Symbols"></a> Symbols
+### Symbols
 
 ```csharp
 public List<Symbol> Symbols { get; set; }
@@ -764,9 +765,10 @@ public List<Symbol> Symbols { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Symbol](OpenTD.Symbol.md)\>
 
-### <a id="OpenTD_Model_TD"></a> TD
+### TD
 
 ```csharp
+[IgnoreMember]
 public ThermalDesktop TD { get; set; }
 ```
 
@@ -774,7 +776,7 @@ public ThermalDesktop TD { get; set; }
 
  [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_Model_Tecs"></a> Tecs
+### Tecs
 
 ```csharp
 public List<Tec> Tecs { get; set; }
@@ -784,7 +786,7 @@ public List<Tec> Tecs { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Tec](OpenTD.Tec.md)\>
 
-### <a id="OpenTD_Model_Tees"></a> Tees
+### Tees
 
 ```csharp
 public List<Tee> Tees { get; set; }
@@ -794,7 +796,7 @@ public List<Tee> Tees { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Tee](OpenTD.FloCAD.Tee.md)\>
 
-### <a id="OpenTD_Model_Texts"></a> Texts
+### Texts
 
 ```csharp
 public List<Text> Texts { get; set; }
@@ -804,7 +806,7 @@ public List<Text> Texts { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Text](OpenTD.Text.md)\>
 
-### <a id="OpenTD_Model_ThermoPropAliases"></a> ThermoPropAliases
+### ThermoPropAliases
 
 ```csharp
 public List<Tuple<string, string>> ThermoPropAliases { get; set; }
@@ -814,7 +816,7 @@ public List<Tuple<string, string>> ThermoPropAliases { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>\>
 
-### <a id="OpenTD_Model_ThermoPropss"></a> ThermoPropss
+### ThermoPropss
 
 ```csharp
 public List<ThermoProps> ThermoPropss { get; set; }
@@ -824,7 +826,7 @@ public List<ThermoProps> ThermoPropss { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ThermoProps](OpenTD.ThermoProps.md)\>
 
-### <a id="OpenTD_Model_Ties"></a> Ties
+### Ties
 
 ```csharp
 public List<Tie> Ties { get; set; }
@@ -834,7 +836,7 @@ public List<Tie> Ties { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Tie](OpenTD.FloCAD.Tie.md)\>
 
-### <a id="OpenTD_Model_Toruses"></a> Toruses
+### Toruses
 
 ```csharp
 public List<Torus> Toruses { get; set; }
@@ -844,7 +846,7 @@ public List<Torus> Toruses { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Torus](OpenTD.RadCAD.Torus.md)\>
 
-### <a id="OpenTD_Model_Trackers"></a> Trackers
+### Trackers
 
 ```csharp
 public List<Tracker> Trackers { get; set; }
@@ -856,7 +858,7 @@ public List<Tracker> Trackers { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Model_UpdateFromTD_OpenTD_ThermalDesktop_System_Boolean_"></a> UpdateFromTD\(ThermalDesktop, bool\)
+### UpdateFromTD\(ThermalDesktop, bool\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -870,7 +872,7 @@ public void UpdateFromTD(ThermalDesktop tdInstance, bool searchXREFS = false)
 
 `searchXREFS` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Model_UpdateFromTD_System_Boolean_"></a> UpdateFromTD\(bool\)
+### UpdateFromTD\(bool\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -881,4 +883,5 @@ public void UpdateFromTD(bool searchXREFS = false)
 #### Parameters
 
 `searchXREFS` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

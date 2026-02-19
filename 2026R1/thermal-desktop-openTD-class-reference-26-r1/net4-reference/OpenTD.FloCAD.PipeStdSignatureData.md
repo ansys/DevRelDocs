@@ -1,4 +1,4 @@
-# <a id="OpenTD_FloCAD_PipeStdSignatureData"></a> Class PipeStdSignatureData
+# Class PipeStdSignatureData
 
 Namespace: [OpenTD.FloCAD](OpenTD.FloCAD.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ Represents a standard pipe.
 public class PipeStdSignatureData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [PipeStdSignatureData](OpenTD.FloCAD.PipeStdSignatureData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,7 +27,7 @@ public class PipeStdSignatureData
 
 ## Constructors
 
-### <a id="OpenTD_FloCAD_PipeStdSignatureData__ctor"></a> PipeStdSignatureData\(\)
+### PipeStdSignatureData\(\)
 
 ```csharp
 public PipeStdSignatureData()
@@ -35,7 +35,7 @@ public PipeStdSignatureData()
 
 ## Properties
 
-### <a id="OpenTD_FloCAD_PipeStdSignatureData_Name"></a> Name
+### Name
 
 ```csharp
 [DataMember]
@@ -46,7 +46,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FloCAD_PipeStdSignatureData_Nom_SI"></a> Nom\_SI
+### Nom\_SI
 
 Nominal diameter in meters.
 
@@ -59,7 +59,7 @@ public string Nom_SI { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FloCAD_PipeStdSignatureData_Schedule"></a> Schedule
+### Schedule
 
 ```csharp
 [DataMember]
@@ -72,7 +72,7 @@ public string Schedule { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_FloCAD_PipeStdSignatureData_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -89,4 +89,5 @@ A string that represents the current object.
 ## See Also
 
 [Pipe](OpenTD.FloCAD.Pipe.md)
+
 

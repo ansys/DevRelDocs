@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Plot_Plot2dStyle"></a> Class Plot2dStyle
+# Class Plot2dStyle
 
 Namespace: [OpenTD.Results.Plot](OpenTD.Results.Plot.md)  
 Assembly: OpenTD.Results.dll  
@@ -7,12 +7,12 @@ Assembly: OpenTD.Results.dll
 public class Plot2dStyle
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Plot2dStyle](OpenTD.Results.Plot.Plot2dStyle.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -24,7 +24,7 @@ public class Plot2dStyle
 
 ## Constructors
 
-### <a id="OpenTD_Results_Plot_Plot2dStyle__ctor"></a> Plot2dStyle\(\)
+### Plot2dStyle\(\)
 
 ```csharp
 public Plot2dStyle()
@@ -32,7 +32,7 @@ public Plot2dStyle()
 
 ## Properties
 
-### <a id="OpenTD_Results_Plot_Plot2dStyle_AutoHideLegend"></a> AutoHideLegend
+### AutoHideLegend
 
 If true, plots with one series will hide the legend.
 
@@ -44,7 +44,7 @@ public bool AutoHideLegend { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Plot_Plot2dStyle_AutoMarkerStyle"></a> AutoMarkerStyle
+### AutoMarkerStyle
 
 Marker style to use if AutoUseMarkersForNonContinuousSeries is true and
 non-continuous series are found.
@@ -57,7 +57,7 @@ public MarkerStyle AutoMarkerStyle { get; set; }
 
  [MarkerStyle](https://github.com/kirsan31/winforms\-datavisualization/blob/3229fd69de931778b8e872dc2d5ecab468ab24dd/src/WinForms.DataVisualization.Utilities/Enums.cs)
 
-### <a id="OpenTD_Results_Plot_Plot2dStyle_CustomPalette"></a> CustomPalette
+### CustomPalette
 
 ```csharp
 public Color[] CustomPalette { get; set; }
@@ -67,7 +67,7 @@ public Color[] CustomPalette { get; set; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)\[\]
 
-### <a id="OpenTD_Results_Plot_Plot2dStyle_LegendStyle"></a> LegendStyle
+### LegendStyle
 
 ```csharp
 public LegendStyle LegendStyle { get; set; }
@@ -77,7 +77,7 @@ public LegendStyle LegendStyle { get; set; }
 
  [LegendStyle](OpenTD.Results.Plot.LegendStyle.md)
 
-### <a id="OpenTD_Results_Plot_Plot2dStyle_Palette"></a> Palette
+### Palette
 
 ```csharp
 public ChartColorPalette Palette { get; set; }
@@ -87,7 +87,7 @@ public ChartColorPalette Palette { get; set; }
 
  [ChartColorPalette](https://github.com/kirsan31/winforms\-datavisualization/blob/3229fd69de931778b8e872dc2d5ecab468ab24dd/src/WinForms.DataVisualization.Utilities/ColorPalette.cs)
 
-### <a id="OpenTD_Results_Plot_Plot2dStyle_Series2dStyles"></a> Series2dStyles
+### Series2dStyles
 
 ```csharp
 public List<Series2dStyle> Series2dStyles { get; set; }
@@ -97,7 +97,7 @@ public List<Series2dStyle> Series2dStyles { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Series2dStyle](OpenTD.Results.Plot.Series2dStyle.md)\>
 
-### <a id="OpenTD_Results_Plot_Plot2dStyle_Size"></a> Size
+### Size
 
 ```csharp
 public Size Size { get; set; }
@@ -107,7 +107,7 @@ public Size Size { get; set; }
 
  [Size](https://learn.microsoft.com/dotnet/api/system.drawing.size)
 
-### <a id="OpenTD_Results_Plot_Plot2dStyle_TitleColor"></a> TitleColor
+### TitleColor
 
 ```csharp
 public Color TitleColor { get; set; }
@@ -117,7 +117,7 @@ public Color TitleColor { get; set; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="OpenTD_Results_Plot_Plot2dStyle_TitleEnabled"></a> TitleEnabled
+### TitleEnabled
 
 ```csharp
 public bool TitleEnabled { get; set; }
@@ -127,7 +127,7 @@ public bool TitleEnabled { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Plot_Plot2dStyle_TitleFont"></a> TitleFont
+### TitleFont
 
 ```csharp
 public Font TitleFont { get; set; }
@@ -137,7 +137,7 @@ public Font TitleFont { get; set; }
 
  [Font](https://learn.microsoft.com/dotnet/api/system.drawing.font)
 
-### <a id="OpenTD_Results_Plot_Plot2dStyle_TitlePosition"></a> TitlePosition
+### TitlePosition
 
 ```csharp
 public Docking TitlePosition { get; set; }
@@ -147,7 +147,7 @@ public Docking TitlePosition { get; set; }
 
  Docking
 
-### <a id="OpenTD_Results_Plot_Plot2dStyle_UseCustomPalette"></a> UseCustomPalette
+### UseCustomPalette
 
 ```csharp
 public bool UseCustomPalette { get; set; }
@@ -157,7 +157,7 @@ public bool UseCustomPalette { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Plot_Plot2dStyle_XAxesStyles"></a> XAxesStyles
+### XAxesStyles
 
 ```csharp
 public List<AxisStyle> XAxesStyles { get; set; }
@@ -167,7 +167,7 @@ public List<AxisStyle> XAxesStyles { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[AxisStyle](OpenTD.Results.Plot.AxisStyle.md)\>
 
-### <a id="OpenTD_Results_Plot_Plot2dStyle_YAxesStyles"></a> YAxesStyles
+### YAxesStyles
 
 ```csharp
 public List<AxisStyle> YAxesStyles { get; set; }
@@ -179,9 +179,10 @@ public List<AxisStyle> YAxesStyles { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Results_Plot_Plot2dStyle_CheckPalette"></a> CheckPalette\(\)
+### CheckPalette\(\)
 
 ```csharp
 public virtual void CheckPalette()
 ```
+
 

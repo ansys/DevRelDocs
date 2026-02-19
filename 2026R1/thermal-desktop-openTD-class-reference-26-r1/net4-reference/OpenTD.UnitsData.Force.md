@@ -1,4 +1,4 @@
-# <a id="OpenTD_UnitsData_Force"></a> Enum UnitsData.Force
+# Enum UnitsData.Force
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -14,4 +14,5 @@ public enum UnitsData.Force
 `LBF = 1` 
 
 `N = 0` 
+
 

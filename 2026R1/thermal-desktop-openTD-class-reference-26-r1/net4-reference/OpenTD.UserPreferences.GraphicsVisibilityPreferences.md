@@ -1,4 +1,4 @@
-# <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences"></a> Class GraphicsVisibilityPreferences
+# Class GraphicsVisibilityPreferences
 
 Namespace: [OpenTD.UserPreferences](OpenTD.UserPreferences.md)  
 Assembly: OpenTD.dll  
@@ -10,18 +10,18 @@ Use to set the global dwg graphics visibility preferences.
 public class GraphicsVisibilityPreferences : Preferences, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 TdConnected ← 
 Preferences ← 
 [GraphicsVisibilityPreferences](OpenTD.UserPreferences.GraphicsVisibilityPreferences.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -33,13 +33,13 @@ Preferences ←
 
 ## Constructors
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences__ctor"></a> GraphicsVisibilityPreferences\(\)
+### GraphicsVisibilityPreferences\(\)
 
 ```csharp
 public GraphicsVisibilityPreferences()
 ```
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences__ctor_OpenTD_ThermalDesktop_"></a> GraphicsVisibilityPreferences\(ThermalDesktop\)
+### GraphicsVisibilityPreferences\(ThermalDesktop\)
 
 ```csharp
 public GraphicsVisibilityPreferences(ThermalDesktop _td)
@@ -51,7 +51,7 @@ public GraphicsVisibilityPreferences(ThermalDesktop _td)
 
 ## Properties
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_pipeDrawOptions"></a> pipeDrawOptions
+### pipeDrawOptions
 
 ```csharp
 [DataMember]
@@ -62,7 +62,7 @@ public int pipeDrawOptions { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showAssemblies"></a> showAssemblies
+### showAssemblies
 
 ```csharp
 [DataMember]
@@ -73,7 +73,7 @@ public bool showAssemblies { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showColorContours"></a> showColorContours
+### showColorContours
 
 ```csharp
 [DataMember]
@@ -84,7 +84,7 @@ public bool showColorContours { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showCompartment"></a> showCompartment
+### showCompartment
 
 ```csharp
 [DataMember]
@@ -95,7 +95,7 @@ public bool showCompartment { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showConductors"></a> showConductors
+### showConductors
 
 ```csharp
 [DataMember]
@@ -106,7 +106,7 @@ public bool showConductors { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showContactConductance"></a> showContactConductance
+### showContactConductance
 
 ```csharp
 [DataMember]
@@ -117,7 +117,7 @@ public bool showContactConductance { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showContactors"></a> showContactors
+### showContactors
 
 ```csharp
 [DataMember]
@@ -128,7 +128,7 @@ public bool showContactors { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showDisabled"></a> showDisabled
+### showDisabled
 
 ```csharp
 [DataMember]
@@ -139,7 +139,7 @@ public bool showDisabled { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showFTies"></a> showFTies
+### showFTies
 
 ```csharp
 [DataMember]
@@ -150,7 +150,7 @@ public bool showFTies { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showFiniteElementBoundariesShaded"></a> showFiniteElementBoundariesShaded
+### showFiniteElementBoundariesShaded
 
 ```csharp
 [DataMember]
@@ -161,7 +161,7 @@ public bool showFiniteElementBoundariesShaded { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showFkLocator"></a> showFkLocator
+### showFkLocator
 
 ```csharp
 [DataMember]
@@ -172,7 +172,7 @@ public bool showFkLocator { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showGenerateCondCapOff"></a> showGenerateCondCapOff
+### showGenerateCondCapOff
 
 ```csharp
 [DataMember]
@@ -183,7 +183,7 @@ public bool showGenerateCondCapOff { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showHeatEx"></a> showHeatEx
+### showHeatEx
 
 ```csharp
 [DataMember]
@@ -194,7 +194,7 @@ public bool showHeatEx { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showHeatLoads"></a> showHeatLoads
+### showHeatLoads
 
 ```csharp
 [DataMember]
@@ -205,7 +205,7 @@ public bool showHeatLoads { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showIFaces"></a> showIFaces
+### showIFaces
 
 ```csharp
 [DataMember]
@@ -216,7 +216,7 @@ public bool showIFaces { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showLumps"></a> showLumps
+### showLumps
 
 ```csharp
 [DataMember]
@@ -227,7 +227,7 @@ public bool showLumps { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showMeasures"></a> showMeasures
+### showMeasures
 
 ```csharp
 [DataMember]
@@ -238,7 +238,7 @@ public bool showMeasures { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showMeshDisplayers"></a> showMeshDisplayers
+### showMeshDisplayers
 
 ```csharp
 [DataMember]
@@ -249,7 +249,7 @@ public bool showMeshDisplayers { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showMeshManagers"></a> showMeshManagers
+### showMeshManagers
 
 ```csharp
 [DataMember]
@@ -260,7 +260,7 @@ public bool showMeshManagers { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showMliRibs"></a> showMliRibs
+### showMliRibs
 
 ```csharp
 [DataMember]
@@ -271,7 +271,7 @@ public bool showMliRibs { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showNodalBoundaries"></a> showNodalBoundaries
+### showNodalBoundaries
 
 ```csharp
 [DataMember]
@@ -282,7 +282,7 @@ public bool showNodalBoundaries { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showNodes"></a> showNodes
+### showNodes
 
 ```csharp
 [DataMember]
@@ -293,7 +293,7 @@ public bool showNodes { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showOrienters"></a> showOrienters
+### showOrienters
 
 ```csharp
 [DataMember]
@@ -304,7 +304,7 @@ public bool showOrienters { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showPathLink"></a> showPathLink
+### showPathLink
 
 ```csharp
 [DataMember]
@@ -315,7 +315,7 @@ public bool showPathLink { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showPaths"></a> showPaths
+### showPaths
 
 ```csharp
 [DataMember]
@@ -326,7 +326,7 @@ public bool showPaths { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showPipes"></a> showPipes
+### showPipes
 
 ```csharp
 [DataMember]
@@ -337,7 +337,7 @@ public bool showPipes { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showPort"></a> showPort
+### showPort
 
 ```csharp
 [DataMember]
@@ -348,7 +348,7 @@ public bool showPort { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showPrimitiveAxesInWireframeView"></a> showPrimitiveAxesInWireframeView
+### showPrimitiveAxesInWireframeView
 
 ```csharp
 [DataMember]
@@ -359,7 +359,7 @@ public bool showPrimitiveAxesInWireframeView { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showRotationAxis"></a> showRotationAxis
+### showRotationAxis
 
 ```csharp
 [DataMember]
@@ -370,7 +370,7 @@ public bool showRotationAxis { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showSolidFiniteElements"></a> showSolidFiniteElements
+### showSolidFiniteElements
 
 ```csharp
 [DataMember]
@@ -381,7 +381,7 @@ public bool showSolidFiniteElements { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showSurfaces"></a> showSurfaces
+### showSurfaces
 
 ```csharp
 [DataMember]
@@ -392,7 +392,7 @@ public bool showSurfaces { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showTdDirectImporters"></a> showTdDirectImporters
+### showTdDirectImporters
 
 ```csharp
 [DataMember]
@@ -403,7 +403,7 @@ public bool showTdDirectImporters { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showTdText"></a> showTdText
+### showTdText
 
 ```csharp
 [DataMember]
@@ -414,7 +414,7 @@ public bool showTdText { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showTee"></a> showTee
+### showTee
 
 ```csharp
 [DataMember]
@@ -425,7 +425,7 @@ public bool showTee { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showTies"></a> showTies
+### showTies
 
 ```csharp
 [DataMember]
@@ -436,7 +436,7 @@ public bool showTies { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showTrackers"></a> showTrackers
+### showTrackers
 
 ```csharp
 [DataMember]
@@ -447,7 +447,7 @@ public bool showTrackers { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showUserNodes"></a> showUserNodes
+### showUserNodes
 
 ```csharp
 [DataMember]
@@ -458,7 +458,7 @@ public bool showUserNodes { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_showWireframeThickness"></a> showWireframeThickness
+### showWireframeThickness
 
 ```csharp
 [DataMember]
@@ -471,7 +471,7 @@ public bool showWireframeThickness { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -479,11 +479,12 @@ Updates the TD entity with the latest client data.
 public void Update()
 ```
 
-### <a id="OpenTD_UserPreferences_GraphicsVisibilityPreferences_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
 ```csharp
 public void UpdateFromTD()
 ```
+
 

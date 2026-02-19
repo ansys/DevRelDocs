@@ -1,4 +1,4 @@
-# <a id="OpenTD_UnitsData"></a> Class UnitsData
+# Class UnitsData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,19 +6,20 @@ Assembly: OpenTD.dll
 Describes a system of units. Can be inconsistent.
 
 ```csharp
+[MessagePackObject(true)]
 public class UnitsData : IEquatable<UnitsData>
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [UnitsData](OpenTD.UnitsData.md)
 
-#### Implements
+## Implements
 
 [IEquatable<UnitsData\>](https://learn.microsoft.com/dotnet/api/system.iequatable\-1)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -30,13 +31,13 @@ public class UnitsData : IEquatable<UnitsData>
 
 ## Constructors
 
-### <a id="OpenTD_UnitsData__ctor"></a> UnitsData\(\)
+### UnitsData\(\)
 
 ```csharp
 public UnitsData()
 ```
 
-### <a id="OpenTD_UnitsData__ctor_System_String_"></a> UnitsData\(string\)
+### UnitsData\(string\)
 
 Initializes a new instance of the <xref href="OpenTD.UnitsData" data-throw-if-not-resolved="false"></xref> class
 by parsing the supplied units expression string. Use with basic units
@@ -58,7 +59,7 @@ public UnitsData(string unitsExpression)
 
 `unitsExpression` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UnitsData__ctor_System_Int64_System_Int64_"></a> UnitsData\(long, long\)
+### UnitsData\(long, long\)
 
 Initializes a new instance of the <xref href="OpenTD.UnitsData" data-throw-if-not-resolved="false"></xref> class, using integers
 written to save files or CSR's by SINDA.
@@ -73,7 +74,7 @@ public UnitsData(long TdUnits, long TdUnits2)
 
 `TdUnits2` [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
-### <a id="OpenTD_UnitsData__ctor_OpenTD_UnitsData_"></a> UnitsData\(UnitsData\)
+### UnitsData\(UnitsData\)
 
 Copy constructor.
 
@@ -87,7 +88,7 @@ public UnitsData(UnitsData source)
 
 ## Properties
 
-### <a id="OpenTD_UnitsData_FlocadOutputUnits"></a> FlocadOutputUnits
+### FlocadOutputUnits
 
 ```csharp
 public UnitsData.FlocadOutputUnitsType FlocadOutputUnits { get; set; }
@@ -97,7 +98,7 @@ public UnitsData.FlocadOutputUnitsType FlocadOutputUnits { get; set; }
 
  [UnitsData](OpenTD.UnitsData.md).[FlocadOutputUnitsType](OpenTD.UnitsData.FlocadOutputUnitsType.md)
 
-### <a id="OpenTD_UnitsData_angle"></a> angle
+### angle
 
 ```csharp
 public UnitsData.Angle angle { get; set; }
@@ -107,7 +108,7 @@ public UnitsData.Angle angle { get; set; }
 
  [UnitsData](OpenTD.UnitsData.md).[Angle](OpenTD.UnitsData.Angle.md)
 
-### <a id="OpenTD_UnitsData_current"></a> current
+### current
 
 ```csharp
 public UnitsData.Current current { get; set; }
@@ -117,7 +118,7 @@ public UnitsData.Current current { get; set; }
 
  [UnitsData](OpenTD.UnitsData.md).[Current](OpenTD.UnitsData.Current.md)
 
-### <a id="OpenTD_UnitsData_def"></a> def
+### def
 
 Use def to create arbitrary combinations of units (advanced).
 
@@ -129,7 +130,7 @@ public UnitsDefData def { get; set; }
 
  [UnitsDefData](OpenTD.UnitsDefData.md)
 
-### <a id="OpenTD_UnitsData_energy"></a> energy
+### energy
 
 ```csharp
 public UnitsData.Energy energy { get; set; }
@@ -139,7 +140,7 @@ public UnitsData.Energy energy { get; set; }
 
  [UnitsData](OpenTD.UnitsData.md).[Energy](OpenTD.UnitsData.Energy.md)
 
-### <a id="OpenTD_UnitsData_force"></a> force
+### force
 
 ```csharp
 public UnitsData.Force force { get; set; }
@@ -149,7 +150,7 @@ public UnitsData.Force force { get; set; }
 
  [UnitsData](OpenTD.UnitsData.md).[Force](OpenTD.UnitsData.Force.md)
 
-### <a id="OpenTD_UnitsData_mass"></a> mass
+### mass
 
 ```csharp
 public UnitsData.Mass mass { get; set; }
@@ -159,7 +160,7 @@ public UnitsData.Mass mass { get; set; }
 
  [UnitsData](OpenTD.UnitsData.md).[Mass](OpenTD.UnitsData.Mass.md)
 
-### <a id="OpenTD_UnitsData_modelLength"></a> modelLength
+### modelLength
 
 ```csharp
 public UnitsData.ModelLength modelLength { get; set; }
@@ -169,7 +170,7 @@ public UnitsData.ModelLength modelLength { get; set; }
 
  [UnitsData](OpenTD.UnitsData.md).[ModelLength](OpenTD.UnitsData.ModelLength.md)
 
-### <a id="OpenTD_UnitsData_orbitLength"></a> orbitLength
+### orbitLength
 
 ```csharp
 public UnitsData.OrbitLength orbitLength { get; set; }
@@ -179,7 +180,7 @@ public UnitsData.OrbitLength orbitLength { get; set; }
 
  [UnitsData](OpenTD.UnitsData.md).[OrbitLength](OpenTD.UnitsData.OrbitLength.md)
 
-### <a id="OpenTD_UnitsData_pressure"></a> pressure
+### pressure
 
 ```csharp
 public UnitsData.Pressure pressure { get; set; }
@@ -189,7 +190,7 @@ public UnitsData.Pressure pressure { get; set; }
 
  [UnitsData](OpenTD.UnitsData.md).[Pressure](OpenTD.UnitsData.Pressure.md)
 
-### <a id="OpenTD_UnitsData_temp"></a> temp
+### temp
 
 ```csharp
 public UnitsData.Temp temp { get; set; }
@@ -199,7 +200,7 @@ public UnitsData.Temp temp { get; set; }
 
  [UnitsData](OpenTD.UnitsData.md).[Temp](OpenTD.UnitsData.Temp.md)
 
-### <a id="OpenTD_UnitsData_time"></a> time
+### time
 
 ```csharp
 public UnitsData.Time time { get; set; }
@@ -209,7 +210,7 @@ public UnitsData.Time time { get; set; }
 
  [UnitsData](OpenTD.UnitsData.md).[Time](OpenTD.UnitsData.Time.md)
 
-### <a id="OpenTD_UnitsData_voltage"></a> voltage
+### voltage
 
 ```csharp
 public UnitsData.Voltage voltage { get; set; }
@@ -221,7 +222,7 @@ public UnitsData.Voltage voltage { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_UnitsData_Equals_OpenTD_UnitsData_"></a> Equals\(UnitsData\)
+### Equals\(UnitsData\)
 
 Indicates whether the current object is equal to another object of the same type.
 
@@ -237,9 +238,9 @@ public bool Equals(UnitsData x)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+[true](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool) if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, [false](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool).
 
-### <a id="OpenTD_UnitsData_Equals_System_Object_"></a> Equals\(object\)
+### Equals\(object\)
 
 Determines whether the specified object is equal to the current object.
 
@@ -257,9 +258,9 @@ The object to compare with the current object.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+[true](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool) if the specified object  is equal to the current object; otherwise, [false](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool).
 
-### <a id="OpenTD_UnitsData_GetHashCode"></a> GetHashCode\(\)
+### GetHashCode\(\)
 
 Serves as the default hash function.
 
@@ -273,7 +274,7 @@ public override int GetHashCode()
 
 A hash code for the current object.
 
-### <a id="OpenTD_UnitsData_GetName_OpenTD_UnitsData_UnitsType_"></a> GetName\(UnitsType\)
+### GetName\(UnitsType\)
 
 ```csharp
 public static string GetName(UnitsData.UnitsType type)
@@ -287,7 +288,7 @@ public static string GetName(UnitsData.UnitsType type)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UnitsData_GetTitle_OpenTD_UnitsData_UnitsType_"></a> GetTitle\(UnitsType\)
+### GetTitle\(UnitsType\)
 
 ```csharp
 public string GetTitle(UnitsData.UnitsType type)
@@ -301,7 +302,7 @@ public string GetTitle(UnitsData.UnitsType type)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UnitsData_GetUnitsName_OpenTD_UnitsData_UnitsType_"></a> GetUnitsName\(UnitsType\)
+### GetUnitsName\(UnitsType\)
 
 ```csharp
 public string GetUnitsName(UnitsData.UnitsType type)
@@ -315,7 +316,7 @@ public string GetUnitsName(UnitsData.UnitsType type)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UnitsData_SetFrom_OpenTD_UnitsData_"></a> SetFrom\(UnitsData\)
+### SetFrom\(UnitsData\)
 
 ```csharp
 public void SetFrom(UnitsData source)
@@ -325,7 +326,7 @@ public void SetFrom(UnitsData source)
 
 `source` [UnitsData](OpenTD.UnitsData.md)
 
-### <a id="OpenTD_UnitsData_SetFromDataset_System_Int64_System_Int64_"></a> SetFromDataset\(long, long\)
+### SetFromDataset\(long, long\)
 
 Set this units system based on 64-bit integers written to a save file
 or CSR by Sinda.
@@ -348,7 +349,7 @@ Problem decoding TdUnits.
 or
 Problem decoding TdUnits2.
 
-### <a id="OpenTD_UnitsData_SetFromUnitsExpression_System_String_"></a> SetFromUnitsExpression\(string\)
+### SetFromUnitsExpression\(string\)
 
 Sets this UnitsData using the supplied string. Use with basic units
 (m, hr, Btu, etc.) or compound units expressions (Btu/hr/ft^2/F, kg/m-s, etc.).
@@ -374,19 +375,19 @@ public bool SetFromUnitsExpression(string str)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UnitsData_SetToEng"></a> SetToEng\(\)
+### SetToEng\(\)
 
 ```csharp
 public void SetToEng()
 ```
 
-### <a id="OpenTD_UnitsData_SetToSI"></a> SetToSI\(\)
+### SetToSI\(\)
 
 ```csharp
 public void SetToSI()
 ```
 
-### <a id="OpenTD_UnitsData_Text_OpenTD_UnitsData_OrbitLength_"></a> Text\(OrbitLength\)
+### Text\(OrbitLength\)
 
 ```csharp
 public static string Text(UnitsData.OrbitLength units)
@@ -400,7 +401,7 @@ public static string Text(UnitsData.OrbitLength units)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UnitsData_Text_OpenTD_UnitsData_ModelLength_"></a> Text\(ModelLength\)
+### Text\(ModelLength\)
 
 ```csharp
 public static string Text(UnitsData.ModelLength units)
@@ -414,7 +415,7 @@ public static string Text(UnitsData.ModelLength units)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UnitsData_Text_OpenTD_UnitsData_Time_"></a> Text\(Time\)
+### Text\(Time\)
 
 ```csharp
 public static string Text(UnitsData.Time units)
@@ -428,7 +429,7 @@ public static string Text(UnitsData.Time units)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UnitsData_Text_OpenTD_UnitsData_Energy_"></a> Text\(Energy\)
+### Text\(Energy\)
 
 ```csharp
 public static string Text(UnitsData.Energy units)
@@ -442,7 +443,7 @@ public static string Text(UnitsData.Energy units)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UnitsData_Text_OpenTD_UnitsData_Temp_"></a> Text\(Temp\)
+### Text\(Temp\)
 
 ```csharp
 public static string Text(UnitsData.Temp units)
@@ -456,7 +457,7 @@ public static string Text(UnitsData.Temp units)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UnitsData_Text_OpenTD_UnitsData_Mass_"></a> Text\(Mass\)
+### Text\(Mass\)
 
 ```csharp
 public static string Text(UnitsData.Mass units)
@@ -470,7 +471,7 @@ public static string Text(UnitsData.Mass units)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UnitsData_Text_OpenTD_UnitsData_Pressure_"></a> Text\(Pressure\)
+### Text\(Pressure\)
 
 ```csharp
 public static string Text(UnitsData.Pressure units)
@@ -484,7 +485,7 @@ public static string Text(UnitsData.Pressure units)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UnitsData_Text_OpenTD_UnitsData_Angle_"></a> Text\(Angle\)
+### Text\(Angle\)
 
 ```csharp
 public static string Text(UnitsData.Angle units)
@@ -498,7 +499,7 @@ public static string Text(UnitsData.Angle units)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UnitsData_Text_OpenTD_UnitsData_Force_"></a> Text\(Force\)
+### Text\(Force\)
 
 ```csharp
 public static string Text(UnitsData.Force units)
@@ -512,7 +513,7 @@ public static string Text(UnitsData.Force units)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UnitsData_Text_OpenTD_UnitsData_Current_"></a> Text\(Current\)
+### Text\(Current\)
 
 ```csharp
 public static string Text(UnitsData.Current units)
@@ -526,7 +527,7 @@ public static string Text(UnitsData.Current units)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UnitsData_Text_OpenTD_UnitsData_Voltage_"></a> Text\(Voltage\)
+### Text\(Voltage\)
 
 ```csharp
 public static string Text(UnitsData.Voltage units)
@@ -540,7 +541,7 @@ public static string Text(UnitsData.Voltage units)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UnitsData_Text_OpenTD_UnitsData_Resistance_"></a> Text\(Resistance\)
+### Text\(Resistance\)
 
 ```csharp
 public static string Text(UnitsData.Resistance units)
@@ -554,7 +555,7 @@ public static string Text(UnitsData.Resistance units)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UnitsData_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -570,7 +571,7 @@ A string that represents the current object.
 
 ## Operators
 
-### <a id="OpenTD_UnitsData_op_Equality_OpenTD_UnitsData_OpenTD_UnitsData_"></a> operator ==\(UnitsData, UnitsData\)
+### operator ==\(UnitsData, UnitsData\)
 
 ```csharp
 public static bool operator ==(UnitsData x1, UnitsData x2)
@@ -586,7 +587,7 @@ public static bool operator ==(UnitsData x1, UnitsData x2)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UnitsData_op_Inequality_OpenTD_UnitsData_OpenTD_UnitsData_"></a> operator \!=\(UnitsData, UnitsData\)
+### operator \!=\(UnitsData, UnitsData\)
 
 ```csharp
 public static bool operator !=(UnitsData x1, UnitsData x2)
@@ -601,4 +602,5 @@ public static bool operator !=(UnitsData x1, UnitsData x2)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

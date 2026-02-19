@@ -1,4 +1,4 @@
-# <a id="OpenTD_UnitsData_Energy"></a> Enum UnitsData.Energy
+# Enum UnitsData.Energy
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -20,4 +20,5 @@ public enum UnitsData.Energy
 `MILLI_J = 3` 
 
 `WATT_HOUR = 4` 
+
 

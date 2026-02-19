@@ -1,4 +1,4 @@
-# <a id="OpenTD_MergeNodesOptionsData"></a> Class MergeNodesOptionsData
+# Class MergeNodesOptionsData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,15 +6,16 @@ Assembly: OpenTD.dll
 Provides options for the ThermalDesktop.MergeNodes command.
 
 ```csharp
+[MessagePackObject(true)]
 public class MergeNodesOptionsData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [MergeNodesOptionsData](OpenTD.MergeNodesOptionsData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +27,7 @@ public class MergeNodesOptionsData
 
 ## Constructors
 
-### <a id="OpenTD_MergeNodesOptionsData__ctor"></a> MergeNodesOptionsData\(\)
+### MergeNodesOptionsData\(\)
 
 ```csharp
 public MergeNodesOptionsData()
@@ -34,7 +35,7 @@ public MergeNodesOptionsData()
 
 ## Properties
 
-### <a id="OpenTD_MergeNodesOptionsData_KeepMethod"></a> KeepMethod
+### KeepMethod
 
 ```csharp
 public MergeNodesOptionsData.KeepMethods KeepMethod { get; set; }
@@ -44,7 +45,7 @@ public MergeNodesOptionsData.KeepMethods KeepMethod { get; set; }
 
  [MergeNodesOptionsData](OpenTD.MergeNodesOptionsData.md).[KeepMethods](OpenTD.MergeNodesOptionsData.KeepMethods.md)
 
-### <a id="OpenTD_MergeNodesOptionsData_NodeHandles"></a> NodeHandles
+### NodeHandles
 
 ```csharp
 public List<string> NodeHandles { get; set; }
@@ -54,7 +55,7 @@ public List<string> NodeHandles { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_MergeNodesOptionsData_Tolerance"></a> Tolerance
+### Tolerance
 
 ```csharp
 public Dimensional<ModelLength> Tolerance { get; set; }
@@ -63,4 +64,5 @@ public Dimensional<ModelLength> Tolerance { get; set; }
 #### Property Value
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
+
 

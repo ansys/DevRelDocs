@@ -1,4 +1,4 @@
-# <a id="OpenTD_Spline"></a> Class Spline
+# Class Spline
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,7 +10,7 @@ Client-side representation of an AutoCAD Spline entity in a TD instance.
 public class Spline : TdDbEntityData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -18,11 +18,11 @@ public class Spline : TdDbEntityData, IUpdatable
 [TdDbEntityData](OpenTD.TdDbEntityData.md) ← 
 [Spline](OpenTD.Spline.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [TdDbEntityData.SetFrom\(TdDbEntityData\)](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_SetFrom\_OpenTD\_TdDbEntityData\_), 
 [TdDbEntityData.Layer](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_Layer), 
@@ -54,7 +54,7 @@ public class Spline : TdDbEntityData, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_Spline__ctor"></a> Spline\(\)
+### Spline\(\)
 
 ```csharp
 public Spline()
@@ -62,7 +62,7 @@ public Spline()
 
 ## Properties
 
-### <a id="OpenTD_Spline_NurbsData"></a> NurbsData
+### NurbsData
 
 ```csharp
 [DataMember]
@@ -75,7 +75,7 @@ public NurbsData NurbsData { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Spline_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -87,7 +87,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_Spline_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -98,4 +98,5 @@ public override void Update()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

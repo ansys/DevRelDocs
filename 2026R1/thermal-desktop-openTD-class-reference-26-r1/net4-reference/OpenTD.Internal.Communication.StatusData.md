@@ -1,4 +1,4 @@
-# <a id="OpenTD_Internal_Communication_StatusData"></a> Class StatusData
+# Class StatusData
 
 Namespace: [OpenTD.Internal.Communication](OpenTD.Internal.Communication.md)  
 Assembly: OpenTD.dll  
@@ -8,12 +8,12 @@ Assembly: OpenTD.dll
 public class StatusData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [StatusData](OpenTD.Internal.Communication.StatusData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -25,7 +25,7 @@ public class StatusData
 
 ## Constructors
 
-### <a id="OpenTD_Internal_Communication_StatusData__ctor"></a> StatusData\(\)
+### StatusData\(\)
 
 ```csharp
 public StatusData()
@@ -33,7 +33,7 @@ public StatusData()
 
 ## Properties
 
-### <a id="OpenTD_Internal_Communication_StatusData_Message"></a> Message
+### Message
 
 ```csharp
 [DataMember]
@@ -44,7 +44,7 @@ public string Message { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Internal_Communication_StatusData_Success"></a> Success
+### Success
 
 ```csharp
 [DataMember]
@@ -57,7 +57,7 @@ public bool Success { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Internal_Communication_StatusData_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -73,7 +73,7 @@ A string that represents the current object.
 
 ## Operators
 
-### <a id="OpenTD_Internal_Communication_StatusData_op_Implicit_OpenTD_Internal_Communication_StatusData__System_Boolean"></a> implicit operator bool\(StatusData\)
+### implicit operator bool\(StatusData\)
 
 ```csharp
 public static implicit operator bool(StatusData r)
@@ -87,7 +87,7 @@ public static implicit operator bool(StatusData r)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Internal_Communication_StatusData_op_Implicit_OpenTD_Internal_Communication_StatusData__System_String"></a> implicit operator string\(StatusData\)
+### implicit operator string\(StatusData\)
 
 ```csharp
 public static implicit operator string(StatusData r)
@@ -100,4 +100,5 @@ public static implicit operator string(StatusData r)
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_Utility_StringExtensions"></a> Class StringExtensions
+# Class StringExtensions
 
 Namespace: [OpenTD.Utility](OpenTD.Utility.md)  
 Assembly: OpenTD.dll  
@@ -9,12 +9,12 @@ Utility methods for working with strings.
 public static class StringExtensions
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [StringExtensions](OpenTD.Utility.StringExtensions.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -26,7 +26,7 @@ public static class StringExtensions
 
 ## Methods
 
-### <a id="OpenTD_Utility_StringExtensions_FirstToUpper_System_String_"></a> FirstToUpper\(string\)
+### FirstToUpper\(string\)
 
 Capitalizes the first letter of a string.
 
@@ -44,7 +44,7 @@ public static string FirstToUpper(this string str)
 
 System.String.
 
-### <a id="OpenTD_Utility_StringExtensions_find_first_of_System_String_System_String_System_Int32_"></a> find\_first\_of\(string, string, int\)
+### find\_first\_of\(string, string, int\)
 
 Finds the position of the first of a list of characters. Returns -1 on failure.
 
@@ -67,4 +67,5 @@ The starting position to look in the string. Defaults to 0.
 #### Returns
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 

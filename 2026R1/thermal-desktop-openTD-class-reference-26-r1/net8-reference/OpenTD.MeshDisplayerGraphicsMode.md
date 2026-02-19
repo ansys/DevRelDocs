@@ -1,4 +1,4 @@
-# <a id="OpenTD_MeshDisplayerGraphicsMode"></a> Enum MeshDisplayerGraphicsMode
+# Enum MeshDisplayerGraphicsMode
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -20,4 +20,5 @@ public enum MeshDisplayerGraphicsMode
 `WIREFRAME = 2` 
 
 `WIREFRAME_EXTERIOR = 1` 
+
 

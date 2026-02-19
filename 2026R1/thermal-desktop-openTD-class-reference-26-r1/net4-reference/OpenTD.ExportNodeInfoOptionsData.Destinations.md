@@ -1,4 +1,4 @@
-# <a id="OpenTD_ExportNodeInfoOptionsData_Destinations"></a> Enum ExportNodeInfoOptionsData.Destinations
+# Enum ExportNodeInfoOptionsData.Destinations
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -16,4 +16,5 @@ public enum ExportNodeInfoOptionsData.Destinations
 `LIST = 2` 
 
 `SCREEN = 0` 
+
 

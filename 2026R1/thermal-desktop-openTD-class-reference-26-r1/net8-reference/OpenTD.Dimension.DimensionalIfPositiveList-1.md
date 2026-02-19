@@ -1,4 +1,4 @@
-# <a id="OpenTD_Dimension_DimensionalIfPositiveList_1"></a> Class DimensionalIfPositiveList<T\>
+# Class DimensionalIfPositiveList<T\>
 
 Namespace: [OpenTD.Dimension](OpenTD.Dimension.md)  
 Assembly: OpenTD.dll  
@@ -6,6 +6,7 @@ Assembly: OpenTD.dll
 A list of DimensionalIfPositives.
 
 ```csharp
+[MessagePackObject(true)]
 public class DimensionalIfPositiveList<T> : List<DimensionalIfPositive<T>>, IList<DimensionalIfPositive<T>>, ICollection<DimensionalIfPositive<T>>, IReadOnlyList<DimensionalIfPositive<T>>, IReadOnlyCollection<DimensionalIfPositive<T>>, IEnumerable<DimensionalIfPositive<T>>, IList, ICollection, IEnumerable where T : IDimension, new()
 ```
 
@@ -13,13 +14,13 @@ public class DimensionalIfPositiveList<T> : List<DimensionalIfPositive<T>>, ILis
 
 `T` 
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [List<DimensionalIfPositive<T\>\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1) ← 
 [DimensionalIfPositiveList<T\>](OpenTD.Dimension.DimensionalIfPositiveList\-1.md)
 
-#### Implements
+## Implements
 
 [IList<DimensionalIfPositive<T\>\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1), 
 [ICollection<DimensionalIfPositive<T\>\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1), 
@@ -30,7 +31,7 @@ public class DimensionalIfPositiveList<T> : List<DimensionalIfPositive<T>>, ILis
 [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.icollection), 
 [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
 
-#### Inherited Members
+## Inherited Members
 
 [List<DimensionalIfPositive<T\>\>.Add\(DimensionalIfPositive<T\>\)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1.add), 
 [List<DimensionalIfPositive<T\>\>.AddRange\(IEnumerable<DimensionalIfPositive<T\>\>\)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1.addrange), 
@@ -93,13 +94,13 @@ public class DimensionalIfPositiveList<T> : List<DimensionalIfPositive<T>>, ILis
 
 ## Constructors
 
-### <a id="OpenTD_Dimension_DimensionalIfPositiveList_1__ctor"></a> DimensionalIfPositiveList\(\)
+### DimensionalIfPositiveList\(\)
 
 ```csharp
 public DimensionalIfPositiveList()
 ```
 
-### <a id="OpenTD_Dimension_DimensionalIfPositiveList_1__ctor_System_Collections_Generic_IEnumerable_System_Double__"></a> DimensionalIfPositiveList\(IEnumerable<double\>\)
+### DimensionalIfPositiveList\(IEnumerable<double\>\)
 
 ```csharp
 public DimensionalIfPositiveList(IEnumerable<double> x)
@@ -109,7 +110,7 @@ public DimensionalIfPositiveList(IEnumerable<double> x)
 
 `x` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="OpenTD_Dimension_DimensionalIfPositiveList_1__ctor_System_Double___"></a> DimensionalIfPositiveList\(double\[\]\)
+### DimensionalIfPositiveList\(double\[\]\)
 
 ```csharp
 public DimensionalIfPositiveList(double[] x)
@@ -121,7 +122,7 @@ public DimensionalIfPositiveList(double[] x)
 
 ## Methods
 
-### <a id="OpenTD_Dimension_DimensionalIfPositiveList_1_AddRange_System_Collections_Generic_IEnumerable_System_Double__"></a> AddRange\(IEnumerable<double\>\)
+### AddRange\(IEnumerable<double\>\)
 
 ```csharp
 public void AddRange(IEnumerable<double> x)
@@ -131,7 +132,7 @@ public void AddRange(IEnumerable<double> x)
 
 `x` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="OpenTD_Dimension_DimensionalIfPositiveList_1_GetValuesSI"></a> GetValuesSI\(\)
+### GetValuesSI\(\)
 
 ```csharp
 public List<double> GetValuesSI()
@@ -143,7 +144,7 @@ public List<double> GetValuesSI()
 
 ## Operators
 
-### <a id="OpenTD_Dimension_DimensionalIfPositiveList_1_op_Implicit_System_Collections_Generic_List_System_Double___OpenTD_Dimension_DimensionalIfPositiveList__0_"></a> implicit operator DimensionalIfPositiveList<T\>\(List<double\>\)
+### implicit operator DimensionalIfPositiveList<T\>\(List<double\>\)
 
 ```csharp
 public static implicit operator DimensionalIfPositiveList<T>(List<double> x)
@@ -157,7 +158,7 @@ public static implicit operator DimensionalIfPositiveList<T>(List<double> x)
 
  [DimensionalIfPositiveList](OpenTD.Dimension.DimensionalIfPositiveList\-1.md)<T\>
 
-### <a id="OpenTD_Dimension_DimensionalIfPositiveList_1_op_Implicit_OpenTD_Dimension_DimensionalIfPositiveList__0___System_Collections_Generic_List_System_Double_"></a> implicit operator List<double\>\(DimensionalIfPositiveList<T\>\)
+### implicit operator List<double\>\(DimensionalIfPositiveList<T\>\)
 
 ```csharp
 public static implicit operator List<double>(DimensionalIfPositiveList<T> x)
@@ -174,4 +175,5 @@ public static implicit operator List<double>(DimensionalIfPositiveList<T> x)
 ## See Also
 
 [DimensionalIfPositive](OpenTD.Dimension.DimensionalIfPositive\-1.md)<T\>
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_ItemIdentifierCollection"></a> Class ItemIdentifierCollection
+# Class ItemIdentifierCollection
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -9,19 +9,19 @@ Collection of ItemIdentifiers
 public class ItemIdentifierCollection : IList<ItemIdentifier>, ICollection<ItemIdentifier>, IEnumerable<ItemIdentifier>, IEnumerable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ItemIdentifierCollection](OpenTD.Results.Dataset.ItemIdentifierCollection.md)
 
-#### Implements
+## Implements
 
 [IList<ItemIdentifier\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1), 
 [ICollection<ItemIdentifier\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1), 
 [IEnumerable<ItemIdentifier\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1), 
 [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -33,7 +33,7 @@ public class ItemIdentifierCollection : IList<ItemIdentifier>, ICollection<ItemI
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection__ctor_System_Collections_Generic_IEnumerable_OpenTD_Results_Dataset_ItemIdentifier__"></a> ItemIdentifierCollection\(IEnumerable<ItemIdentifier\>\)
+### ItemIdentifierCollection\(IEnumerable<ItemIdentifier\>\)
 
 ```csharp
 public ItemIdentifierCollection(IEnumerable<ItemIdentifier> collection)
@@ -43,13 +43,13 @@ public ItemIdentifierCollection(IEnumerable<ItemIdentifier> collection)
 
 `collection` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[ItemIdentifier](OpenTD.Results.Dataset.ItemIdentifier.md)\>
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection__ctor"></a> ItemIdentifierCollection\(\)
+### ItemIdentifierCollection\(\)
 
 ```csharp
 public ItemIdentifierCollection()
 ```
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection__ctor_System_String_OpenTD_ThermalDesktop_"></a> ItemIdentifierCollection\(string, ThermalDesktop\)
+### ItemIdentifierCollection\(string, ThermalDesktop\)
 
 Initializes a new instance of the <xref href="OpenTD.Results.Dataset.ItemIdentifierCollection" data-throw-if-not-resolved="false"></xref> class with
 node names from a domain.
@@ -64,7 +64,7 @@ public ItemIdentifierCollection(string domainName, ThermalDesktop td)
 
 `td` ThermalDesktop
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection__ctor_OpenTD_Results_Dataset_DataTypes_System_String_OpenTD_Results_Dataset_IDataset_"></a> ItemIdentifierCollection\(DataTypes, string, IDataset\)
+### ItemIdentifierCollection\(DataTypes, string, IDataset\)
 
 Initializes a new instance of the <xref href="OpenTD.Results.Dataset.ItemIdentifierCollection" data-throw-if-not-resolved="false"></xref> class with
 entity names (conductors, nodes, lumps, etc.) from a DataSet.
@@ -81,7 +81,7 @@ public ItemIdentifierCollection(DataTypes dataType, string submodelName, IDatase
 
 `dataset` [IDataset](OpenTD.Results.Dataset.IDataset.md)
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection__ctor_System_Collections_Generic_IEnumerable_System_String__"></a> ItemIdentifierCollection\(IEnumerable<string\>\)
+### ItemIdentifierCollection\(IEnumerable<string\>\)
 
 ```csharp
 public ItemIdentifierCollection(IEnumerable<string> dataItemNames)
@@ -91,7 +91,7 @@ public ItemIdentifierCollection(IEnumerable<string> dataItemNames)
 
 `dataItemNames` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection__ctor_System_String___"></a> ItemIdentifierCollection\(params string\[\]\)
+### ItemIdentifierCollection\(params string\[\]\)
 
 ```csharp
 public ItemIdentifierCollection(params string[] sindaNames)
@@ -103,7 +103,7 @@ public ItemIdentifierCollection(params string[] sindaNames)
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_AutoCommenter"></a> AutoCommenter
+### AutoCommenter
 
 ```csharp
 protected AutoCommenter AutoCommenter { get; set; }
@@ -113,7 +113,7 @@ protected AutoCommenter AutoCommenter { get; set; }
 
  AutoCommenter
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_AutoNamer"></a> AutoNamer
+### AutoNamer
 
 ```csharp
 protected AutoNamer AutoNamer { get; set; }
@@ -123,7 +123,7 @@ protected AutoNamer AutoNamer { get; set; }
 
  AutoNamer
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_Comment"></a> Comment
+### Comment
 
 ```csharp
 public string Comment { get; set; }
@@ -133,7 +133,7 @@ public string Comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_Count"></a> Count
+### Count
 
 Gets the number of elements contained in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -145,7 +145,7 @@ public int Count { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_Id"></a> Id
+### Id
 
 If all the ItemIdentifiers in the collection have the same Id, this will
 equal that. Otherwise this will be -1.
@@ -158,7 +158,7 @@ public long Id { get; }
 
  [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_InternalSuggestedComment"></a> InternalSuggestedComment
+### InternalSuggestedComment
 
 ```csharp
 public string InternalSuggestedComment { get; set; }
@@ -168,7 +168,7 @@ public string InternalSuggestedComment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_InternalSuggestedName"></a> InternalSuggestedName
+### InternalSuggestedName
 
 ```csharp
 public string InternalSuggestedName { get; set; }
@@ -178,7 +178,7 @@ public string InternalSuggestedName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_IsReadOnly"></a> IsReadOnly
+### IsReadOnly
 
 Gets a value indicating whether the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
 
@@ -190,7 +190,7 @@ public bool IsReadOnly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_Name"></a> Name
+### Name
 
 ```csharp
 public string Name { get; set; }
@@ -200,7 +200,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_RecordNum"></a> RecordNum
+### RecordNum
 
 If all the ItemRecordNumentifiers in the collection have the same RecordNum, this will
 equal that. Otherwise this will be -1.
@@ -213,7 +213,7 @@ public long RecordNum { get; }
 
  [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_RegisterName"></a> RegisterName
+### RegisterName
 
 If all the ItemIdentifiers in the collection have the same RegisterName, this will
 equal that. Otherwise this will be null.
@@ -226,7 +226,7 @@ public string RegisterName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_Submodel"></a> Submodel
+### Submodel
 
 If all the ItemIdentifiers in the collection have the same Submodel, this will
 equal that. Otherwise this will be null.
@@ -239,7 +239,7 @@ public string Submodel { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_Type"></a> Type
+### Type
 
 If all the ItemIdentifiers in the collection have the same Type, this will
 equal that. Otherwise this will be NOT_SET.
@@ -252,7 +252,7 @@ public ItemIdentifier.Types Type { get; }
 
  [ItemIdentifier](OpenTD.Results.Dataset.ItemIdentifier.md).[Types](OpenTD.Results.Dataset.ItemIdentifier.Types.md)
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_Item_System_Int32_"></a> this\[int\]
+### this\[int\]
 
 Gets or sets the element at the specified index.
 
@@ -276,7 +276,7 @@ The property is set and the <xref href="System.Collections.Generic.IList%601" da
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_Add_OpenTD_Results_Dataset_ItemIdentifier_"></a> Add\(ItemIdentifier\)
+### Add\(ItemIdentifier\)
 
 Adds an item to the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -296,7 +296,7 @@ The object to add to the <xref href="System.Collections.Generic.ICollection%601"
 
 The <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_AddRange_System_Collections_Generic_IEnumerable_OpenTD_Results_Dataset_ItemIdentifier__"></a> AddRange\(IEnumerable<ItemIdentifier\>\)
+### AddRange\(IEnumerable<ItemIdentifier\>\)
 
 ```csharp
 public void AddRange(IEnumerable<ItemIdentifier> collection)
@@ -306,7 +306,7 @@ public void AddRange(IEnumerable<ItemIdentifier> collection)
 
 `collection` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[ItemIdentifier](OpenTD.Results.Dataset.ItemIdentifier.md)\>
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_Clear"></a> Clear\(\)
+### Clear\(\)
 
 Removes all items from the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -320,7 +320,7 @@ public void Clear()
 
 The <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_Contains_OpenTD_Results_Dataset_ItemIdentifier_"></a> Contains\(ItemIdentifier\)
+### Contains\(ItemIdentifier\)
 
 Determines whether the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> contains a specific value.
 
@@ -338,9 +338,9 @@ The object to locate in the <xref href="System.Collections.Generic.ICollection%6
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">item</code> is found in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+[true](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool) if <code class="paramref">item</code> is found in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>; otherwise, [false](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool).
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_CopyTo_OpenTD_Results_Dataset_ItemIdentifier___System_Int32_"></a> CopyTo\(ItemIdentifier\[\], int\)
+### CopyTo\(ItemIdentifier\[\], int\)
 
 Copies the elements of the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> to an <xref href="System.Array" data-throw-if-not-resolved="false"></xref>, starting at a particular <xref href="System.Array" data-throw-if-not-resolved="false"></xref> index.
 
@@ -362,7 +362,7 @@ The zero-based index in <code class="paramref">array</code> at which copying beg
 
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
-<code class="paramref">array</code> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.
+<code class="paramref">array</code> is [null](https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null).
 
  [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
 
@@ -372,7 +372,7 @@ The zero-based index in <code class="paramref">array</code> at which copying beg
 
 The number of elements in the source <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is greater than the available space from <code class="paramref">arrayIndex</code> to the end of the destination <code class="paramref">array</code>.
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_GetEnumerator"></a> GetEnumerator\(\)
+### GetEnumerator\(\)
 
 Returns an enumerator that iterates through the collection.
 
@@ -386,7 +386,7 @@ public IEnumerator<ItemIdentifier> GetEnumerator()
 
 An enumerator that can be used to iterate through the collection.
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_GetSelfSuggestedComment"></a> GetSelfSuggestedComment\(\)
+### GetSelfSuggestedComment\(\)
 
 ```csharp
 protected virtual string GetSelfSuggestedComment()
@@ -396,7 +396,7 @@ protected virtual string GetSelfSuggestedComment()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_GetSelfSuggestedName"></a> GetSelfSuggestedName\(\)
+### GetSelfSuggestedName\(\)
 
 ```csharp
 protected virtual string GetSelfSuggestedName()
@@ -406,7 +406,7 @@ protected virtual string GetSelfSuggestedName()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_IndexOf_OpenTD_Results_Dataset_ItemIdentifier_"></a> IndexOf\(ItemIdentifier\)
+### IndexOf\(ItemIdentifier\)
 
 Determines the index of a specific item in the <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -426,7 +426,7 @@ The object to locate in the <xref href="System.Collections.Generic.IList%601" da
 
 The index of <code class="paramref">item</code> if found in the list; otherwise, -1.
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_Insert_System_Int32_OpenTD_Results_Dataset_ItemIdentifier_"></a> Insert\(int, ItemIdentifier\)
+### Insert\(int, ItemIdentifier\)
 
 Inserts an item to the <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref> at the specified index.
 
@@ -454,7 +454,7 @@ The object to insert into the <xref href="System.Collections.Generic.IList%601" 
 
 The <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref> is read-only.
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_InsertRange_System_Int32_System_Collections_Generic_IEnumerable_OpenTD_Results_Dataset_ItemIdentifier__"></a> InsertRange\(int, IEnumerable<ItemIdentifier\>\)
+### InsertRange\(int, IEnumerable<ItemIdentifier\>\)
 
 ```csharp
 public void InsertRange(int index, IEnumerable<ItemIdentifier> collection)
@@ -466,7 +466,7 @@ public void InsertRange(int index, IEnumerable<ItemIdentifier> collection)
 
 `collection` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[ItemIdentifier](OpenTD.Results.Dataset.ItemIdentifier.md)\>
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_Remove_OpenTD_Results_Dataset_ItemIdentifier_"></a> Remove\(ItemIdentifier\)
+### Remove\(ItemIdentifier\)
 
 Removes the first occurrence of a specific object from the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -484,7 +484,7 @@ The object to remove from the <xref href="System.Collections.Generic.ICollection
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">item</code> was successfully removed from the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>. This method also returns <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> if <code class="paramref">item</code> is not found in the original <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
+[true](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool) if <code class="paramref">item</code> was successfully removed from the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>; otherwise, [false](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool). This method also returns [false](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool) if <code class="paramref">item</code> is not found in the original <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
 #### Exceptions
 
@@ -492,7 +492,7 @@ The object to remove from the <xref href="System.Collections.Generic.ICollection
 
 The <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_RemoveAt_System_Int32_"></a> RemoveAt\(int\)
+### RemoveAt\(int\)
 
 Removes the <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref> item at the specified index.
 
@@ -516,7 +516,7 @@ The zero-based index of the item to remove.
 
 The <xref href="System.Collections.Generic.IList%601" data-throw-if-not-resolved="false"></xref> is read-only.
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_RemoveRange_System_Int32_System_Int32_"></a> RemoveRange\(int, int\)
+### RemoveRange\(int, int\)
 
 ```csharp
 public void RemoveRange(int index, int count)
@@ -528,7 +528,7 @@ public void RemoveRange(int index, int count)
 
 `count` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifierCollection_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -541,4 +541,5 @@ public override string ToString()
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 A string that represents the current object.
+
 

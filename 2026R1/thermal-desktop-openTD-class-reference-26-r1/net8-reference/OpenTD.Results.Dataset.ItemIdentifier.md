@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_ItemIdentifier"></a> Class ItemIdentifier
+# Class ItemIdentifier
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -10,12 +10,12 @@ e.g., entities (nodes, lumps, etc.), registers, record numbers, etc.
 public class ItemIdentifier
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ItemIdentifier](OpenTD.Results.Dataset.ItemIdentifier.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -27,7 +27,7 @@ public class ItemIdentifier
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifier__ctor_OpenTD_Results_Dataset_ItemIdentifier_Types_System_String_System_Int64_System_Int64_System_String_"></a> ItemIdentifier\(Types, string, long, long, string\)
+### ItemIdentifier\(Types, string, long, long, string\)
 
 ```csharp
 public ItemIdentifier(ItemIdentifier.Types type, string submodel, long id, long recordNum, string registerName)
@@ -45,7 +45,7 @@ public ItemIdentifier(ItemIdentifier.Types type, string submodel, long id, long 
 
 `registerName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifier__ctor_System_String_"></a> ItemIdentifier\(string\)
+### ItemIdentifier\(string\)
 
 ```csharp
 public ItemIdentifier(string sindaName)
@@ -55,7 +55,7 @@ public ItemIdentifier(string sindaName)
 
 `sindaName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifier__ctor_System_String_System_Int64_"></a> ItemIdentifier\(string, long\)
+### ItemIdentifier\(string, long\)
 
 ```csharp
 public ItemIdentifier(string submodel, long id)
@@ -69,7 +69,7 @@ public ItemIdentifier(string submodel, long id)
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifier_AutoCommenter"></a> AutoCommenter
+### AutoCommenter
 
 ```csharp
 protected AutoCommenter AutoCommenter { get; set; }
@@ -79,7 +79,7 @@ protected AutoCommenter AutoCommenter { get; set; }
 
  AutoCommenter
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifier_Comment"></a> Comment
+### Comment
 
 ```csharp
 public string Comment { get; set; }
@@ -89,7 +89,7 @@ public string Comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifier_Id"></a> Id
+### Id
 
 ```csharp
 public long Id { get; }
@@ -99,7 +99,7 @@ public long Id { get; }
 
  [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifier_InternalSuggestedComment"></a> InternalSuggestedComment
+### InternalSuggestedComment
 
 ```csharp
 public string InternalSuggestedComment { get; set; }
@@ -109,7 +109,7 @@ public string InternalSuggestedComment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifier_RecordNum"></a> RecordNum
+### RecordNum
 
 ```csharp
 public long RecordNum { get; }
@@ -119,7 +119,7 @@ public long RecordNum { get; }
 
  [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifier_RegisterName"></a> RegisterName
+### RegisterName
 
 ```csharp
 public string RegisterName { get; }
@@ -129,7 +129,7 @@ public string RegisterName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifier_Submodel"></a> Submodel
+### Submodel
 
 ```csharp
 public string Submodel { get; }
@@ -139,7 +139,7 @@ public string Submodel { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifier_Type"></a> Type
+### Type
 
 ```csharp
 public ItemIdentifier.Types Type { get; }
@@ -151,7 +151,7 @@ public ItemIdentifier.Types Type { get; }
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifier_Equals_System_Object_"></a> Equals\(object\)
+### Equals\(object\)
 
 Determines whether the specified object is equal to the current object.
 
@@ -169,9 +169,9 @@ The object to compare with the current object.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+[true](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool) if the specified object  is equal to the current object; otherwise, [false](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool).
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifier_GetHashCode"></a> GetHashCode\(\)
+### GetHashCode\(\)
 
 Serves as the default hash function.
 
@@ -185,7 +185,7 @@ public override int GetHashCode()
 
 A hash code for the current object.
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifier_GetSelfSuggestedComment"></a> GetSelfSuggestedComment\(\)
+### GetSelfSuggestedComment\(\)
 
 ```csharp
 protected virtual string GetSelfSuggestedComment()
@@ -195,7 +195,7 @@ protected virtual string GetSelfSuggestedComment()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifier_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -211,7 +211,7 @@ A string that represents the current object.
 
 ## Operators
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifier_op_Equality_OpenTD_Results_Dataset_ItemIdentifier_OpenTD_Results_Dataset_ItemIdentifier_"></a> operator ==\(ItemIdentifier, ItemIdentifier\)
+### operator ==\(ItemIdentifier, ItemIdentifier\)
 
 ```csharp
 public static bool operator ==(ItemIdentifier x1, ItemIdentifier x2)
@@ -227,7 +227,7 @@ public static bool operator ==(ItemIdentifier x1, ItemIdentifier x2)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Dataset_ItemIdentifier_op_Inequality_OpenTD_Results_Dataset_ItemIdentifier_OpenTD_Results_Dataset_ItemIdentifier_"></a> operator \!=\(ItemIdentifier, ItemIdentifier\)
+### operator \!=\(ItemIdentifier, ItemIdentifier\)
 
 ```csharp
 public static bool operator !=(ItemIdentifier x1, ItemIdentifier x2)
@@ -242,4 +242,5 @@ public static bool operator !=(ItemIdentifier x1, ItemIdentifier x2)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

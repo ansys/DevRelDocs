@@ -1,4 +1,4 @@
-# <a id="OpenTD_SindaOptionsData"></a> Class SindaOptionsData
+# Class SindaOptionsData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -9,12 +9,12 @@ Sinda options. Used in Case Set.
 public class SindaOptionsData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [SindaOptionsData](OpenTD.SindaOptionsData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -26,7 +26,7 @@ public class SindaOptionsData
 
 ## Constructors
 
-### <a id="OpenTD_SindaOptionsData__ctor"></a> SindaOptionsData\(\)
+### SindaOptionsData\(\)
 
 ```csharp
 public SindaOptionsData()
@@ -34,7 +34,7 @@ public SindaOptionsData()
 
 ## Properties
 
-### <a id="OpenTD_SindaOptionsData_AdditionalUserInput"></a> AdditionalUserInput
+### AdditionalUserInput
 
 ```csharp
 public string AdditionalUserInput { get; set; }
@@ -44,7 +44,7 @@ public string AdditionalUserInput { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_SindaOptionsData_AllowMixedArrays"></a> AllowMixedArrays
+### AllowMixedArrays
 
 ```csharp
 public bool AllowMixedArrays { get; set; }
@@ -54,7 +54,7 @@ public bool AllowMixedArrays { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_SindaOptionsData_ListAllInputToPpOut"></a> ListAllInputToPpOut
+### ListAllInputToPpOut
 
 ```csharp
 public bool ListAllInputToPpOut { get; set; }
@@ -64,7 +64,7 @@ public bool ListAllInputToPpOut { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_SindaOptionsData_OutputFilename"></a> OutputFilename
+### OutputFilename
 
 ```csharp
 public string OutputFilename { get; set; }
@@ -74,7 +74,7 @@ public string OutputFilename { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_SindaOptionsData_PrintPageLineFeeds"></a> PrintPageLineFeeds
+### PrintPageLineFeeds
 
 ```csharp
 public bool PrintPageLineFeeds { get; set; }
@@ -84,7 +84,7 @@ public bool PrintPageLineFeeds { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_SindaOptionsData_REDB"></a> REDB
+### REDB
 
 ```csharp
 public string REDB { get; set; }
@@ -94,7 +94,7 @@ public string REDB { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_SindaOptionsData_RsiFilename"></a> RsiFilename
+### RsiFilename
 
 ```csharp
 public string RsiFilename { get; set; }
@@ -104,7 +104,7 @@ public string RsiFilename { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_SindaOptionsData_RsoFilename"></a> RsoFilename
+### RsoFilename
 
 ```csharp
 public string RsoFilename { get; set; }
@@ -114,7 +114,7 @@ public string RsoFilename { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_SindaOptionsData_SaveFilename"></a> SaveFilename
+### SaveFilename
 
 ```csharp
 public string SaveFilename { get; set; }
@@ -124,7 +124,7 @@ public string SaveFilename { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_SindaOptionsData_User1FileActive"></a> User1FileActive
+### User1FileActive
 
 ```csharp
 public bool User1FileActive { get; set; }
@@ -134,7 +134,7 @@ public bool User1FileActive { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_SindaOptionsData_User1Filename"></a> User1Filename
+### User1Filename
 
 ```csharp
 public string User1Filename { get; set; }
@@ -144,7 +144,7 @@ public string User1Filename { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_SindaOptionsData_User2FileActive"></a> User2FileActive
+### User2FileActive
 
 ```csharp
 public bool User2FileActive { get; set; }
@@ -154,7 +154,7 @@ public bool User2FileActive { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_SindaOptionsData_User2Filename"></a> User2Filename
+### User2Filename
 
 ```csharp
 public string User2Filename { get; set; }
@@ -164,7 +164,7 @@ public string User2Filename { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_SindaOptionsData_User3FileActive"></a> User3FileActive
+### User3FileActive
 
 ```csharp
 public bool User3FileActive { get; set; }
@@ -174,7 +174,7 @@ public bool User3FileActive { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_SindaOptionsData_User3Filename"></a> User3Filename
+### User3Filename
 
 ```csharp
 public string User3Filename { get; set; }
@@ -184,7 +184,7 @@ public string User3Filename { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_SindaOptionsData_User4FileActive"></a> User4FileActive
+### User4FileActive
 
 ```csharp
 public bool User4FileActive { get; set; }
@@ -194,7 +194,7 @@ public bool User4FileActive { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_SindaOptionsData_User4Filename"></a> User4Filename
+### User4Filename
 
 ```csharp
 public string User4Filename { get; set; }
@@ -204,7 +204,7 @@ public string User4Filename { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_SindaOptionsData_User5FileActive"></a> User5FileActive
+### User5FileActive
 
 ```csharp
 public bool User5FileActive { get; set; }
@@ -214,7 +214,7 @@ public bool User5FileActive { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_SindaOptionsData_User5Filename"></a> User5Filename
+### User5Filename
 
 ```csharp
 public string User5Filename { get; set; }
@@ -227,4 +227,5 @@ public string User5Filename { get; set; }
 ## See Also
 
 [CaseSet](OpenTD.CaseSet.md)
+
 

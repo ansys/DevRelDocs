@@ -1,4 +1,4 @@
-# <a id="OpenTD_Polyline3d"></a> Class Polyline3d
+# Class Polyline3d
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,10 +6,11 @@ Assembly: OpenTD.dll
 Client-side representation of an AutoCAD Polyline (3dPoly) entity in a TD instance.
 
 ```csharp
+[MessagePackObject(true)]
 public class Polyline3d : TdDbEntityData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -17,11 +18,11 @@ public class Polyline3d : TdDbEntityData, IUpdatable
 [TdDbEntityData](OpenTD.TdDbEntityData.md) ← 
 [Polyline3d](OpenTD.Polyline3d.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [TdDbEntityData.SetFrom\(TdDbEntityData\)](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_SetFrom\_OpenTD\_TdDbEntityData\_), 
 [TdDbEntityData.Layer](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_Layer), 
@@ -53,7 +54,7 @@ public class Polyline3d : TdDbEntityData, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_Polyline3d__ctor"></a> Polyline3d\(\)
+### Polyline3d\(\)
 
 ```csharp
 public Polyline3d()
@@ -61,7 +62,7 @@ public Polyline3d()
 
 ## Properties
 
-### <a id="OpenTD_Polyline3d_Closed"></a> Closed
+### Closed
 
 Gets or sets a value indicating whether this <xref href="OpenTD.Polyline3d" data-throw-if-not-resolved="false"></xref>
 is a closed curve.
@@ -74,7 +75,7 @@ public bool Closed { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Polyline3d_Vertices"></a> Vertices
+### Vertices
 
 3-D points defining the Polyline3d.
 
@@ -88,7 +89,7 @@ public List<Point3d> Vertices { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Polyline3d_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -100,7 +101,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_Polyline3d_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -111,4 +112,5 @@ public override void Update()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

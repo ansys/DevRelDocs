@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FEM_RcSolidElement"></a> Class RcSolidElement
+# Class RcSolidElement
 
 Namespace: [OpenTD.RadCAD.FEM](OpenTD.RadCAD.FEM.md)  
 Assembly: OpenTD.dll  
@@ -10,7 +10,7 @@ Base class for solid finite elements.
 public class RcSolidElement : TdDbEntityData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -29,11 +29,11 @@ public class RcSolidElement : TdDbEntityData, IUpdatable
 [QuadraticTet](OpenTD.RadCAD.FEM.QuadraticTet.md), 
 [QuadraticWedge](OpenTD.RadCAD.FEM.QuadraticWedge.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [TdDbEntityData.SetFrom\(TdDbEntityData\)](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_SetFrom\_OpenTD\_TdDbEntityData\_), 
 [TdDbEntityData.Layer](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_Layer), 
@@ -65,7 +65,7 @@ public class RcSolidElement : TdDbEntityData, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_FEM_RcSolidElement__ctor"></a> RcSolidElement\(\)
+### RcSolidElement\(\)
 
 ```csharp
 public RcSolidElement()
@@ -73,7 +73,7 @@ public RcSolidElement()
 
 ## Properties
 
-### <a id="OpenTD_RadCAD_FEM_RcSolidElement_AnalysisGroupsVolumetric"></a> AnalysisGroupsVolumetric
+### AnalysisGroupsVolumetric
 
 ```csharp
 [DataMember]
@@ -84,7 +84,7 @@ public UniqueItemList<AnalysisGroupVolumetricInfo> AnalysisGroupsVolumetric { ge
 
  [UniqueItemList](OpenTD.Utility.UniqueItemList\-1.md)<[AnalysisGroupVolumetricInfo](OpenTD.RadCAD.AnalysisGroupVolumetricInfo.md)\>
 
-### <a id="OpenTD_RadCAD_FEM_RcSolidElement_AttachedNodeHandles"></a> AttachedNodeHandles
+### AttachedNodeHandles
 
 ```csharp
 [DataMember]
@@ -95,7 +95,7 @@ public List<string> AttachedNodeHandles { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_FEM_RcSolidElement_Comment"></a> Comment
+### Comment
 
 ```csharp
 [DataMember]
@@ -106,7 +106,7 @@ public string Comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_FEM_RcSolidElement_CondSubmodel"></a> CondSubmodel
+### CondSubmodel
 
 ```csharp
 [DataMember]
@@ -117,7 +117,7 @@ public string CondSubmodel { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_FEM_RcSolidElement_DensityMult"></a> DensityMult
+### DensityMult
 
 ```csharp
 [DataMember]
@@ -128,7 +128,7 @@ public double DensityMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_FEM_RcSolidElement_DensityMultExp"></a> DensityMultExp
+### DensityMultExp
 
 ```csharp
 [DataMember]
@@ -139,7 +139,7 @@ public ExpressionData DensityMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FEM_RcSolidElement_FaceVisibility"></a> FaceVisibility
+### FaceVisibility
 
 ```csharp
 [DataMember]
@@ -150,7 +150,7 @@ public int FaceVisibility { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_FEM_RcSolidElement_GenerateCondCap"></a> GenerateCondCap
+### GenerateCondCap
 
 ```csharp
 [DataMember]
@@ -161,7 +161,7 @@ public int GenerateCondCap { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_FEM_RcSolidElement_GenerateCondCapExp"></a> GenerateCondCapExp
+### GenerateCondCapExp
 
 ```csharp
 [DataMember]
@@ -172,7 +172,7 @@ public ExpressionData GenerateCondCapExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FEM_RcSolidElement_KuMult"></a> KuMult
+### KuMult
 
 ```csharp
 [DataMember]
@@ -183,7 +183,7 @@ public double KuMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_FEM_RcSolidElement_KuMultExp"></a> KuMultExp
+### KuMultExp
 
 ```csharp
 [DataMember]
@@ -194,7 +194,7 @@ public ExpressionData KuMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FEM_RcSolidElement_KvMult"></a> KvMult
+### KvMult
 
 ```csharp
 [DataMember]
@@ -205,7 +205,7 @@ public double KvMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_FEM_RcSolidElement_KvMultExp"></a> KvMultExp
+### KvMultExp
 
 ```csharp
 [DataMember]
@@ -216,7 +216,7 @@ public ExpressionData KvMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FEM_RcSolidElement_KwMult"></a> KwMult
+### KwMult
 
 ```csharp
 [DataMember]
@@ -227,7 +227,7 @@ public double KwMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_FEM_RcSolidElement_KwMultExp"></a> KwMultExp
+### KwMultExp
 
 ```csharp
 [DataMember]
@@ -238,7 +238,7 @@ public ExpressionData KwMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FEM_RcSolidElement_OrienterName"></a> OrienterName
+### OrienterName
 
 ```csharp
 [DataMember]
@@ -249,7 +249,7 @@ public string OrienterName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_FEM_RcSolidElement_SolidOrienters"></a> SolidOrienters
+### SolidOrienters
 
 ```csharp
 [DataMember]
@@ -260,7 +260,7 @@ public List<Quaternion> SolidOrienters { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Quaternion](OpenTD.Quaternion.md)\>
 
-### <a id="OpenTD_RadCAD_FEM_RcSolidElement_ThermoMaterial"></a> ThermoMaterial
+### ThermoMaterial
 
 ```csharp
 [DataMember]
@@ -273,7 +273,7 @@ public string ThermoMaterial { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_RadCAD_FEM_RcSolidElement_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -286,4 +286,5 @@ public override string ToString()
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 A string that represents the current object.
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FEModel_Domain"></a> Class Domain
+# Class Domain
 
 Namespace: [OpenTD.RadCAD.FEModel](OpenTD.RadCAD.FEModel.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ mesh using an FEMeshImporter only.
 public class Domain
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Domain](OpenTD.RadCAD.FEModel.Domain.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -27,7 +27,7 @@ public class Domain
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_FEModel_Domain__ctor"></a> Domain\(\)
+### Domain\(\)
 
 ```csharp
 public Domain()
@@ -35,7 +35,7 @@ public Domain()
 
 ## Fields
 
-### <a id="OpenTD_RadCAD_FEModel_Domain_Nodes"></a> Nodes
+### Nodes
 
 ```csharp
 public IdDomain Nodes
@@ -45,7 +45,7 @@ public IdDomain Nodes
 
  [IdDomain](OpenTD.RadCAD.FEModel.IdDomain.md)
 
-### <a id="OpenTD_RadCAD_FEModel_Domain_SolidElements"></a> SolidElements
+### SolidElements
 
 ```csharp
 public IdDomain SolidElements
@@ -55,7 +55,7 @@ public IdDomain SolidElements
 
  [IdDomain](OpenTD.RadCAD.FEModel.IdDomain.md)
 
-### <a id="OpenTD_RadCAD_FEModel_Domain_SurfaceElementEdges"></a> SurfaceElementEdges
+### SurfaceElementEdges
 
 ```csharp
 public EdgeDomain SurfaceElementEdges
@@ -65,7 +65,7 @@ public EdgeDomain SurfaceElementEdges
 
  [EdgeDomain](OpenTD.RadCAD.FEModel.EdgeDomain.md)
 
-### <a id="OpenTD_RadCAD_FEModel_Domain_SurfaceElementFaces"></a> SurfaceElementFaces
+### SurfaceElementFaces
 
 ```csharp
 public FaceDomain SurfaceElementFaces
@@ -74,4 +74,5 @@ public FaceDomain SurfaceElementFaces
 #### Field Value
 
  [FaceDomain](OpenTD.RadCAD.FEModel.FaceDomain.md)
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_AutocadConfig"></a> Class AutocadConfig
+# Class AutocadConfig
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -9,12 +9,12 @@ Controls how AutoCAD will be launched.
 public class AutocadConfig
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AutocadConfig](OpenTD.AutocadConfig.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,13 +26,13 @@ public class AutocadConfig
 
 ## Constructors
 
-### <a id="OpenTD_AutocadConfig__ctor"></a> AutocadConfig\(\)
+### AutocadConfig\(\)
 
 ```csharp
 public AutocadConfig()
 ```
 
-### <a id="OpenTD_AutocadConfig__ctor_OpenTD_TdConnectConfig_"></a> AutocadConfig\(TdConnectConfig\)
+### AutocadConfig\(TdConnectConfig\)
 
 ```csharp
 public AutocadConfig(TdConnectConfig config)
@@ -44,7 +44,7 @@ public AutocadConfig(TdConnectConfig config)
 
 ## Properties
 
-### <a id="OpenTD_AutocadConfig_AdditionalCommandline"></a> AdditionalCommandline
+### AdditionalCommandline
 
 A string containing commandline switches to be addded to the acad.exe command.
 
@@ -56,7 +56,7 @@ public string AdditionalCommandline { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_AutocadConfig_DwgPathname"></a> DwgPathname
+### DwgPathname
 
 Path to a dwg file to attempt to open when AutoCAD launches.
 
@@ -68,7 +68,7 @@ public RootedPathname DwgPathname { get; set; }
 
  [RootedPathname](OpenTD.Utility.RootedPathname.md)
 
-### <a id="OpenTD_AutocadConfig_ExePathForStart"></a> ExePathForStart
+### ExePathForStart
 
 Path to acad.exe. Leave blank to use the default.
 
@@ -80,7 +80,7 @@ public string ExePathForStart { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_AutocadConfig_ShowSplashScreen"></a> ShowSplashScreen
+### ShowSplashScreen
 
 Controls whether the AutoCAD splash screen will be displayed during startup.
 
@@ -92,7 +92,7 @@ public bool ShowSplashScreen { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_AutocadConfig_StartDirectory"></a> StartDirectory
+### StartDirectory
 
 Path to the initial working directory.
 
@@ -104,7 +104,7 @@ public string StartDirectory { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_AutocadConfig_Visible"></a> Visible
+### Visible
 
 Controls whether the AutoCAD window will be visible.
 
@@ -115,4 +115,5 @@ public bool Visible { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

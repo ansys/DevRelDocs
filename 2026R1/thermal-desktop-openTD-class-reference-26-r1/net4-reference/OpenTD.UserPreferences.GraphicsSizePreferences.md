@@ -1,4 +1,4 @@
-# <a id="OpenTD_UserPreferences_GraphicsSizePreferences"></a> Class GraphicsSizePreferences
+# Class GraphicsSizePreferences
 
 Namespace: [OpenTD.UserPreferences](OpenTD.UserPreferences.md)  
 Assembly: OpenTD.dll  
@@ -10,18 +10,18 @@ Use to set the global dwg graphics size preferences.
 public class GraphicsSizePreferences : Preferences, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 TdConnected ← 
 Preferences ← 
 [GraphicsSizePreferences](OpenTD.UserPreferences.GraphicsSizePreferences.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -33,13 +33,13 @@ Preferences ←
 
 ## Constructors
 
-### <a id="OpenTD_UserPreferences_GraphicsSizePreferences__ctor"></a> GraphicsSizePreferences\(\)
+### GraphicsSizePreferences\(\)
 
 ```csharp
 public GraphicsSizePreferences()
 ```
 
-### <a id="OpenTD_UserPreferences_GraphicsSizePreferences__ctor_OpenTD_ThermalDesktop_"></a> GraphicsSizePreferences\(ThermalDesktop\)
+### GraphicsSizePreferences\(ThermalDesktop\)
 
 ```csharp
 public GraphicsSizePreferences(ThermalDesktop _td)
@@ -51,7 +51,7 @@ public GraphicsSizePreferences(ThermalDesktop _td)
 
 ## Properties
 
-### <a id="OpenTD_UserPreferences_GraphicsSizePreferences_arrowSize"></a> arrowSize
+### arrowSize
 
 ```csharp
 [DataMember]
@@ -62,7 +62,7 @@ public Dimensional<ModelLength> arrowSize { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_UserPreferences_GraphicsSizePreferences_condScale"></a> condScale
+### condScale
 
 ```csharp
 [DataMember]
@@ -73,7 +73,7 @@ public double condScale { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsSizePreferences_hxScale"></a> hxScale
+### hxScale
 
 ```csharp
 [DataMember]
@@ -84,7 +84,7 @@ public double hxScale { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsSizePreferences_lumpSize"></a> lumpSize
+### lumpSize
 
 ```csharp
 [DataMember]
@@ -95,7 +95,7 @@ public Dimensional<ModelLength> lumpSize { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_UserPreferences_GraphicsSizePreferences_nodeSize"></a> nodeSize
+### nodeSize
 
 ```csharp
 [DataMember]
@@ -106,7 +106,7 @@ public Dimensional<ModelLength> nodeSize { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_UserPreferences_GraphicsSizePreferences_numTieDraw"></a> numTieDraw
+### numTieDraw
 
 ```csharp
 [DataMember]
@@ -117,7 +117,7 @@ public int numTieDraw { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsSizePreferences_pathScale"></a> pathScale
+### pathScale
 
 ```csharp
 [DataMember]
@@ -128,7 +128,7 @@ public double pathScale { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsSizePreferences_primitiveAxesLengthPercent"></a> primitiveAxesLengthPercent
+### primitiveAxesLengthPercent
 
 ```csharp
 [DataMember]
@@ -139,7 +139,7 @@ public double primitiveAxesLengthPercent { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsSizePreferences_screenArrowPercent"></a> screenArrowPercent
+### screenArrowPercent
 
 ```csharp
 [DataMember]
@@ -150,7 +150,7 @@ public double screenArrowPercent { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsSizePreferences_screenHXPercent"></a> screenHXPercent
+### screenHXPercent
 
 ```csharp
 [DataMember]
@@ -161,7 +161,7 @@ public double screenHXPercent { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsSizePreferences_screenLumpPercent"></a> screenLumpPercent
+### screenLumpPercent
 
 ```csharp
 [DataMember]
@@ -172,7 +172,7 @@ public double screenLumpPercent { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsSizePreferences_screenNodePercent"></a> screenNodePercent
+### screenNodePercent
 
 ```csharp
 [DataMember]
@@ -183,7 +183,7 @@ public double screenNodePercent { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsSizePreferences_screenTiePercent"></a> screenTiePercent
+### screenTiePercent
 
 ```csharp
 [DataMember]
@@ -194,7 +194,7 @@ public double screenTiePercent { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsSizePreferences_tieSize"></a> tieSize
+### tieSize
 
 ```csharp
 [DataMember]
@@ -205,7 +205,7 @@ public Dimensional<ModelLength> tieSize { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_UserPreferences_GraphicsSizePreferences_usePathDiameter"></a> usePathDiameter
+### usePathDiameter
 
 ```csharp
 [DataMember]
@@ -216,7 +216,7 @@ public bool usePathDiameter { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsSizePreferences_useScreenArrowPercent"></a> useScreenArrowPercent
+### useScreenArrowPercent
 
 ```csharp
 [DataMember]
@@ -227,7 +227,7 @@ public bool useScreenArrowPercent { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsSizePreferences_useScreenHXPercent"></a> useScreenHXPercent
+### useScreenHXPercent
 
 ```csharp
 [DataMember]
@@ -238,7 +238,7 @@ public bool useScreenHXPercent { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsSizePreferences_useScreenLumpPercent"></a> useScreenLumpPercent
+### useScreenLumpPercent
 
 ```csharp
 [DataMember]
@@ -249,7 +249,7 @@ public bool useScreenLumpPercent { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsSizePreferences_useScreenNodePercent"></a> useScreenNodePercent
+### useScreenNodePercent
 
 ```csharp
 [DataMember]
@@ -260,7 +260,7 @@ public bool useScreenNodePercent { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsSizePreferences_useScreenTiePercent"></a> useScreenTiePercent
+### useScreenTiePercent
 
 ```csharp
 [DataMember]
@@ -273,7 +273,7 @@ public bool useScreenTiePercent { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_UserPreferences_GraphicsSizePreferences_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -281,11 +281,12 @@ Updates the TD entity with the latest client data.
 public void Update()
 ```
 
-### <a id="OpenTD_UserPreferences_GraphicsSizePreferences_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
 ```csharp
 public void UpdateFromTD()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_CaseSet"></a> Class CaseSet
+# Class CaseSet
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -9,18 +9,18 @@ Client-side representation of a Case Set in a TD instance.
 public class CaseSet : CaseSetData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
 CaseSetData ← 
 [CaseSet](OpenTD.CaseSet.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [OpenTDObject.SetFrom\(OpenTDObject\)](OpenTD.OpenTDObject.md\#OpenTD\_OpenTDObject\_SetFrom\_OpenTD\_OpenTDObject\_), 
 [OpenTDObject.Update\(\)](OpenTD.OpenTDObject.md\#OpenTD\_OpenTDObject\_Update), 
@@ -38,7 +38,7 @@ CaseSetData ←
 
 ## Methods
 
-### <a id="OpenTD_CaseSet_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -50,7 +50,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_CaseSet_Rename_System_String_System_String_"></a> Rename\(string, string\)
+### Rename\(string, string\)
 
 Renames both this client-side instance and the TD entity.
 
@@ -64,7 +64,7 @@ public void Rename(string newName, string newGroupName = "")
 
 `newGroupName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_CaseSet_ReplaceFilenames_System_String_System_String_"></a> ReplaceFilenames\(string, string\)
+### ReplaceFilenames\(string, string\)
 
 ```csharp
 public void ReplaceFilenames(string oldSubstring, string newSubstring)
@@ -76,7 +76,7 @@ public void ReplaceFilenames(string oldSubstring, string newSubstring)
 
 `newSubstring` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_CaseSet_Run_System_Boolean_"></a> Run\(bool\)
+### Run\(bool\)
 
 Attempts to run the case set from within its TD instance.
 Set useOldMethod to true for a less-verbose run method that
@@ -90,7 +90,7 @@ public void Run(bool useOldMethod = false)
 
 `useOldMethod` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_CaseSet_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -98,7 +98,7 @@ Updates the TD entity with the latest client data.
 public override void Update()
 ```
 
-### <a id="OpenTD_CaseSet_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -109,4 +109,5 @@ public override void UpdateFromTD()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

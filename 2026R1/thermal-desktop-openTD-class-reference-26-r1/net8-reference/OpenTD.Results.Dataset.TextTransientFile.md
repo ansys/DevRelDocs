@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_TextTransientFile"></a> Class TextTransientFile
+# Class TextTransientFile
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -13,19 +13,19 @@ Implements the <xref href="OpenTD.Results.Dataset.IDataset" data-throw-if-not-re
 public class TextTransientFile : SimpleDataset, ISimpleDataset, IDataset
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Dataset](OpenTD.Results.Dataset.Dataset.md) ← 
 [SimpleDataset](OpenTD.Results.Dataset.SimpleDataset.md) ← 
 [TextTransientFile](OpenTD.Results.Dataset.TextTransientFile.md)
 
-#### Implements
+## Implements
 
 [ISimpleDataset](OpenTD.Results.Dataset.ISimpleDataset.md), 
 [IDataset](OpenTD.Results.Dataset.IDataset.md)
 
-#### Inherited Members
+## Inherited Members
 
 [SimpleDataset.GetAllData\(bool\)](OpenTD.Results.Dataset.SimpleDataset.md\#OpenTD\_Results\_Dataset\_SimpleDataset\_GetAllData\_System\_Boolean\_), 
 [SimpleDataset.GetData\(DataItemIdentifierCollection\)](OpenTD.Results.Dataset.SimpleDataset.md\#OpenTD\_Results\_Dataset\_SimpleDataset\_GetData\_OpenTD\_Results\_Dataset\_DataItemIdentifierCollection\_), 
@@ -99,7 +99,7 @@ public class TextTransientFile : SimpleDataset, ISimpleDataset, IDataset
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile__ctor_System_String_OpenTD_Results_Dataset_DataSubtype_OpenTD_UnitsData_"></a> TextTransientFile\(string, DataSubtype, UnitsData\)
+### TextTransientFile\(string, DataSubtype, UnitsData\)
 
 ```csharp
 public TextTransientFile(string pathname, DataSubtype dataSubtype = null, UnitsData units = null)
@@ -115,7 +115,7 @@ public TextTransientFile(string pathname, DataSubtype dataSubtype = null, UnitsD
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_DataType"></a> DataType
+### DataType
 
 ```csharp
 public DataTypes DataType { get; }
@@ -125,7 +125,7 @@ public DataTypes DataType { get; }
 
  [DataTypes](OpenTD.Results.Dataset.DataTypes.md)
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_DataTypeFamily"></a> DataTypeFamily
+### DataTypeFamily
 
 ```csharp
 public DataTypeFamilies DataTypeFamily { get; }
@@ -135,7 +135,7 @@ public DataTypeFamilies DataTypeFamily { get; }
 
  [DataTypeFamilies](OpenTD.Results.Dataset.DataTypeFamilies.md)
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_Label"></a> Label
+### Label
 
 ```csharp
 public string Label { get; }
@@ -145,7 +145,7 @@ public string Label { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_Pathname"></a> Pathname
+### Pathname
 
 ```csharp
 public string Pathname { get; }
@@ -155,7 +155,7 @@ public string Pathname { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_Subtype"></a> Subtype
+### Subtype
 
 ```csharp
 public DataSubtype Subtype { get; }
@@ -167,7 +167,7 @@ public DataSubtype Subtype { get; }
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetAbszro"></a> GetAbszro\(\)
+### GetAbszro\(\)
 
 ```csharp
 public override Dimensional<Temp> GetAbszro()
@@ -177,7 +177,7 @@ public override Dimensional<Temp> GetAbszro()
 
  Dimensional<Temp\>
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetAllData_System_Boolean_"></a> GetAllData\(bool\)
+### GetAllData\(bool\)
 
 ```csharp
 public override DataArrayCollection GetAllData(bool includeXDataAsFirstArray = true)
@@ -191,7 +191,7 @@ public override DataArrayCollection GetAllData(bool includeXDataAsFirstArray = t
 
  [DataArrayCollection](OpenTD.Results.Dataset.DataArrayCollection.md)
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetConductorIds_System_String_"></a> GetConductorIds\(string\)
+### GetConductorIds\(string\)
 
 ```csharp
 public override List<long> GetConductorIds(string submodel)
@@ -205,7 +205,7 @@ public override List<long> GetConductorIds(string submodel)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[long](https://learn.microsoft.com/dotnet/api/system.int64)\>
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetConstraintData_System_Int64_OpenTD_Results_Dataset_DataSubtype_OpenTD_UnitsData_"></a> GetConstraintData\(long, DataSubtype, UnitsData\)
+### GetConstraintData\(long, DataSubtype, UnitsData\)
 
 ```csharp
 public override DataArray GetConstraintData(long constraintNumber, DataSubtype subtype = null, UnitsData units = null)
@@ -223,7 +223,7 @@ public override DataArray GetConstraintData(long constraintNumber, DataSubtype s
 
  [DataArray](OpenTD.Results.Dataset.DataArray.md)
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetData_System_String_System_Int64_"></a> GetData\(string, long\)
+### GetData\(string, long\)
 
 ```csharp
 public DataArray GetData(string submodel, long id)
@@ -239,7 +239,7 @@ public DataArray GetData(string submodel, long id)
 
  [DataArray](OpenTD.Results.Dataset.DataArray.md)
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetDataAtRecord_OpenTD_Results_Dataset_DataSubtype_System_Int64_"></a> GetDataAtRecord\(DataSubtype, long\)
+### GetDataAtRecord\(DataSubtype, long\)
 
 Gets all data for a given subtype at a single record. If recordNum is invalid,
 or if no data of the given subtype exists at the record, will return an empty
@@ -266,7 +266,7 @@ public override DataArray GetDataAtRecord(DataSubtype subtype, long recordNum)
 Thrown if the <code>DataSubtype</code>
     represents a character UDFA.
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetFluidSubmodels"></a> GetFluidSubmodels\(\)
+### GetFluidSubmodels\(\)
 
 ```csharp
 public override List<string> GetFluidSubmodels()
@@ -276,7 +276,7 @@ public override List<string> GetFluidSubmodels()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetFtieIds_System_String_"></a> GetFtieIds\(string\)
+### GetFtieIds\(string\)
 
 ```csharp
 public override List<long> GetFtieIds(string submodel)
@@ -290,7 +290,7 @@ public override List<long> GetFtieIds(string submodel)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[long](https://learn.microsoft.com/dotnet/api/system.int64)\>
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetIfaceIds_System_String_"></a> GetIfaceIds\(string\)
+### GetIfaceIds\(string\)
 
 ```csharp
 public override List<long> GetIfaceIds(string submodel)
@@ -304,7 +304,7 @@ public override List<long> GetIfaceIds(string submodel)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[long](https://learn.microsoft.com/dotnet/api/system.int64)\>
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetInternalIndex_OpenTD_Results_Dataset_DataTypes_System_String_System_Int64_"></a> GetInternalIndex\(DataTypes, string, long\)
+### GetInternalIndex\(DataTypes, string, long\)
 
 The 0-indexed position of the given Sinda entity in arrays
 returned by GetDataAtRecord. Returns -1 if entity can't be found.
@@ -329,7 +329,7 @@ public override long GetInternalIndex(DataTypes dataType, string submodel, long 
 
 [Dataset](OpenTD.Results.Dataset.Dataset.md).[GetDataAtRecord](OpenTD.Results.Dataset.Dataset.md\#OpenTD\_Results\_Dataset\_Dataset\_GetDataAtRecord\_OpenTD\_Results\_Dataset\_DataSubtype\_System\_Int64\_)\([DataSubtype](OpenTD.Results.Dataset.DataSubtype.md), [long](https://learn.microsoft.com/dotnet/api/system.int64)\)
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetLoopcoData"></a> GetLoopcoData\(\)
+### GetLoopcoData\(\)
 
 ```csharp
 public override List<long> GetLoopcoData()
@@ -339,7 +339,7 @@ public override List<long> GetLoopcoData()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[long](https://learn.microsoft.com/dotnet/api/system.int64)\>
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetLoopctData"></a> GetLoopctData\(\)
+### GetLoopctData\(\)
 
 ```csharp
 public override List<long> GetLoopctData()
@@ -349,7 +349,7 @@ public override List<long> GetLoopctData()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[long](https://learn.microsoft.com/dotnet/api/system.int64)\>
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetLumpIds_System_String_"></a> GetLumpIds\(string\)
+### GetLumpIds\(string\)
 
 ```csharp
 public override List<long> GetLumpIds(string submodel)
@@ -363,7 +363,7 @@ public override List<long> GetLumpIds(string submodel)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[long](https://learn.microsoft.com/dotnet/api/system.int64)\>
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetNamedInt_System_String_"></a> GetNamedInt\(string\)
+### GetNamedInt\(string\)
 
 ```csharp
 public override long GetNamedInt(string name)
@@ -377,7 +377,7 @@ public override long GetNamedInt(string name)
 
  [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetNamedIntArray_System_String_"></a> GetNamedIntArray\(string\)
+### GetNamedIntArray\(string\)
 
 ```csharp
 public override List<long> GetNamedIntArray(string name)
@@ -391,7 +391,7 @@ public override List<long> GetNamedIntArray(string name)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[long](https://learn.microsoft.com/dotnet/api/system.int64)\>
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetNodeIds_System_String_"></a> GetNodeIds\(string\)
+### GetNodeIds\(string\)
 
 ```csharp
 public override List<long> GetNodeIds(string submodel)
@@ -405,7 +405,7 @@ public override List<long> GetNodeIds(string submodel)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[long](https://learn.microsoft.com/dotnet/api/system.int64)\>
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetNpcsrec_System_Int64_"></a> GetNpcsrec\(long\)
+### GetNpcsrec\(long\)
 
 ```csharp
 public override long GetNpcsrec(long recordNum)
@@ -419,7 +419,7 @@ public override long GetNpcsrec(long recordNum)
 
  [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetNsol_System_Int64_"></a> GetNsol\(long\)
+### GetNsol\(long\)
 
 ```csharp
 public override long GetNsol(long recordNum)
@@ -433,7 +433,7 @@ public override long GetNsol(long recordNum)
 
  [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetPathIds_System_String_"></a> GetPathIds\(string\)
+### GetPathIds\(string\)
 
 ```csharp
 public override List<long> GetPathIds(string submodel)
@@ -447,7 +447,7 @@ public override List<long> GetPathIds(string submodel)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[long](https://learn.microsoft.com/dotnet/api/system.int64)\>
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetPatmos"></a> GetPatmos\(\)
+### GetPatmos\(\)
 
 ```csharp
 public override Dimensional<Pressure> GetPatmos()
@@ -457,7 +457,7 @@ public override Dimensional<Pressure> GetPatmos()
 
  Dimensional<Pressure\>
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetRecordNames"></a> GetRecordNames\(\)
+### GetRecordNames\(\)
 
 ```csharp
 public override List<string> GetRecordNames()
@@ -467,7 +467,7 @@ public override List<string> GetRecordNames()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetRecordNumbers"></a> GetRecordNumbers\(\)
+### GetRecordNumbers\(\)
 
 Text Transient files don't have record numbers, so this
 returns a list of sequential integers starting at 0.
@@ -480,7 +480,7 @@ public override List<long> GetRecordNumbers()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[long](https://learn.microsoft.com/dotnet/api/system.int64)\>
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetRegisterData_System_String_OpenTD_Results_Dataset_DataSubtype_OpenTD_UnitsData_"></a> GetRegisterData\(string, DataSubtype, UnitsData\)
+### GetRegisterData\(string, DataSubtype, UnitsData\)
 
 Gets all data for a register across all records. If data
 doesn't exist at a record, NaN will be returned instead.
@@ -501,7 +501,7 @@ public override DataArray GetRegisterData(string registerName, DataSubtype subty
 
  [DataArray](OpenTD.Results.Dataset.DataArray.md)
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetRegisterDataAtRecord_System_Int64_OpenTD_Results_Dataset_DataSubtype_OpenTD_UnitsData_"></a> GetRegisterDataAtRecord\(long, DataSubtype, UnitsData\)
+### GetRegisterDataAtRecord\(long, DataSubtype, UnitsData\)
 
 Gets all register data at a single record. Use GetRegisterNames to get
 a list of register names in the same order as the data returned from this
@@ -530,7 +530,7 @@ public override DataArray GetRegisterDataAtRecord(long recordNum, DataSubtype su
 [Dataset](OpenTD.Results.Dataset.Dataset.md).[GetRegisterNames](OpenTD.Results.Dataset.Dataset.md\#OpenTD\_Results\_Dataset\_Dataset\_GetRegisterNames)\(\), 
 [Dataset](OpenTD.Results.Dataset.Dataset.md).[GetInternalIndex](OpenTD.Results.Dataset.Dataset.md\#OpenTD\_Results\_Dataset\_Dataset\_GetInternalIndex\_OpenTD\_Results\_Dataset\_DataTypes\_System\_String\_System\_Int64\_)\([DataTypes](OpenTD.Results.Dataset.DataTypes.md), [string](https://learn.microsoft.com/dotnet/api/system.string), [long](https://learn.microsoft.com/dotnet/api/system.int64)\)
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetRegisterNames"></a> GetRegisterNames\(\)
+### GetRegisterNames\(\)
 
 ```csharp
 public override List<string> GetRegisterNames()
@@ -540,7 +540,7 @@ public override List<string> GetRegisterNames()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetReliabilityData_System_Int64_OpenTD_Results_Dataset_DataSubtype_OpenTD_UnitsData_"></a> GetReliabilityData\(long, DataSubtype, UnitsData\)
+### GetReliabilityData\(long, DataSubtype, UnitsData\)
 
 ```csharp
 public override DataArray GetReliabilityData(long reliabilityNumber, DataSubtype subtype = null, UnitsData units = null)
@@ -558,7 +558,7 @@ public override DataArray GetReliabilityData(long reliabilityNumber, DataSubtype
 
  [DataArray](OpenTD.Results.Dataset.DataArray.md)
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetSelfSuggestedName"></a> GetSelfSuggestedName\(\)
+### GetSelfSuggestedName\(\)
 
 ```csharp
 protected override string GetSelfSuggestedName()
@@ -568,7 +568,7 @@ protected override string GetSelfSuggestedName()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetSigma"></a> GetSigma\(\)
+### GetSigma\(\)
 
 ```csharp
 public override Dimensional<StefanBoltzmann> GetSigma()
@@ -578,7 +578,7 @@ public override Dimensional<StefanBoltzmann> GetSigma()
 
  Dimensional<StefanBoltzmann\>
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetThermalSubmodels"></a> GetThermalSubmodels\(\)
+### GetThermalSubmodels\(\)
 
 ```csharp
 public override List<string> GetThermalSubmodels()
@@ -588,7 +588,7 @@ public override List<string> GetThermalSubmodels()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetTieIds_System_String_"></a> GetTieIds\(string\)
+### GetTieIds\(string\)
 
 ```csharp
 public override List<long> GetTieIds(string submodel)
@@ -602,7 +602,7 @@ public override List<long> GetTieIds(string submodel)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[long](https://learn.microsoft.com/dotnet/api/system.int64)\>
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetTimes"></a> GetTimes\(\)
+### GetTimes\(\)
 
 ```csharp
 public override DataArray GetTimes()
@@ -612,7 +612,7 @@ public override DataArray GetTimes()
 
  [DataArray](OpenTD.Results.Dataset.DataArray.md)
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetUdcaDataAtRecord_OpenTD_Results_Dataset_DataSubtype_System_Int64_"></a> GetUdcaDataAtRecord\(DataSubtype, long\)
+### GetUdcaDataAtRecord\(DataSubtype, long\)
 
 Gets the UDFA of strings represented by a <code>DataSubtype</code> at a given record
 
@@ -641,7 +641,7 @@ A list of character UDFA values.
 Thrown if the <code>DataSubtype</code>
    represents a noncharacter UDFA.
 
-### <a id="OpenTD_Results_Dataset_TextTransientFile_GetUdfasAtRecord_System_Int64_"></a> GetUdfasAtRecord\(long\)
+### GetUdfasAtRecord\(long\)
 
 Gets <code>DataSubtypes</code> UDFA at the given record number.
 
@@ -666,4 +666,5 @@ A list of <code>DataSubtype</code> objects.
 [SimpleDataset](OpenTD.Results.Dataset.SimpleDataset.md), 
 [ISimpleDataset](OpenTD.Results.Dataset.ISimpleDataset.md), 
 [IDataset](OpenTD.Results.Dataset.IDataset.md)
+
 

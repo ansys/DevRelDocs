@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Plot_DefaultStyles"></a> Class DefaultStyles
+# Class DefaultStyles
 
 Namespace: [OpenTD.Results.Plot](OpenTD.Results.Plot.md)  
 Assembly: OpenTD.Results.dll  
@@ -7,12 +7,12 @@ Assembly: OpenTD.Results.dll
 public static class DefaultStyles
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [DefaultStyles](OpenTD.Results.Plot.DefaultStyles.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -24,7 +24,7 @@ public static class DefaultStyles
 
 ## Fields
 
-### <a id="OpenTD_Results_Plot_DefaultStyles_DefaultCustomPalette"></a> DefaultCustomPalette
+### DefaultCustomPalette
 
 ```csharp
 public static Color[] DefaultCustomPalette
@@ -36,7 +36,7 @@ public static Color[] DefaultCustomPalette
 
 ## Properties
 
-### <a id="OpenTD_Results_Plot_DefaultStyles_DefaultPlot2dStyle"></a> DefaultPlot2dStyle
+### DefaultPlot2dStyle
 
 ```csharp
 public static Plot2dStyle DefaultPlot2dStyle { get; set; }
@@ -46,7 +46,7 @@ public static Plot2dStyle DefaultPlot2dStyle { get; set; }
 
  [Plot2dStyle](OpenTD.Results.Plot.Plot2dStyle.md)
 
-### <a id="OpenTD_Results_Plot_DefaultStyles_DefaultSeriesPalette"></a> DefaultSeriesPalette
+### DefaultSeriesPalette
 
 ```csharp
 public static ChartColorPalette DefaultSeriesPalette { get; }
@@ -55,4 +55,5 @@ public static ChartColorPalette DefaultSeriesPalette { get; }
 #### Property Value
 
  [ChartColorPalette](https://github.com/kirsan31/winforms\-datavisualization/blob/3229fd69de931778b8e872dc2d5ecab468ab24dd/src/WinForms.DataVisualization.Utilities/ColorPalette.cs)
+
 

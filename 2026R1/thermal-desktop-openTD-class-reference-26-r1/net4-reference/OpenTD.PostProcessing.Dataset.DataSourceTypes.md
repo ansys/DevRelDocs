@@ -1,4 +1,4 @@
-# <a id="OpenTD_PostProcessing_Dataset_DataSourceTypes"></a> Enum Dataset.DataSourceTypes
+# Enum Dataset.DataSourceTypes
 
 Namespace: [OpenTD.PostProcessing](OpenTD.PostProcessing.md)  
 Assembly: OpenTD.dll  
@@ -24,4 +24,5 @@ public enum Dataset.DataSourceTypes
 `TEXT = 2` 
 
 `TEXTTRANSIENT = 4` 
+
 

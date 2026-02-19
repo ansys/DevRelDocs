@@ -1,4 +1,4 @@
-# <a id="OpenTD_UnitsData_OrbitLength"></a> Enum UnitsData.OrbitLength
+# Enum UnitsData.OrbitLength
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -20,4 +20,5 @@ public enum UnitsData.OrbitLength
 `MILE = 3` 
 
 `NM = 4` 
+
 

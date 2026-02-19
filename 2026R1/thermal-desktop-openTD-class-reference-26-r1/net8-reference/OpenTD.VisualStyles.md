@@ -1,4 +1,4 @@
-# <a id="OpenTD_VisualStyles"></a> Enum VisualStyles
+# Enum VisualStyles
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -34,4 +34,5 @@ public enum VisualStyles
 `WIRE_2D = 0` 
 
 `XRAY = 11` 
+
 

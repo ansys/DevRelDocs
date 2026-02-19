@@ -1,4 +1,4 @@
-# <a id="OpenTD_UserPreferences_UnitsPreferences"></a> Class UnitsPreferences
+# Class UnitsPreferences
 
 Namespace: [OpenTD.UserPreferences](OpenTD.UserPreferences.md)  
 Assembly: OpenTD.dll  
@@ -9,18 +9,18 @@ Use to set the global units preferences.
 public class UnitsPreferences : Preferences, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 TdConnected ← 
 Preferences ← 
 [UnitsPreferences](OpenTD.UserPreferences.UnitsPreferences.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -32,7 +32,7 @@ Preferences ←
 
 ## Constructors
 
-### <a id="OpenTD_UserPreferences_UnitsPreferences__ctor"></a> UnitsPreferences\(\)
+### UnitsPreferences\(\)
 
 Do not use.
 
@@ -40,7 +40,7 @@ Do not use.
 public UnitsPreferences()
 ```
 
-### <a id="OpenTD_UserPreferences_UnitsPreferences__ctor_OpenTD_ThermalDesktop_"></a> UnitsPreferences\(ThermalDesktop\)
+### UnitsPreferences\(ThermalDesktop\)
 
 ```csharp
 public UnitsPreferences(ThermalDesktop _td)
@@ -52,7 +52,7 @@ public UnitsPreferences(ThermalDesktop _td)
 
 ## Properties
 
-### <a id="OpenTD_UserPreferences_UnitsPreferences_DoNotScaleModelOnNextUpdate"></a> DoNotScaleModelOnNextUpdate
+### DoNotScaleModelOnNextUpdate
 
 ```csharp
 public bool DoNotScaleModelOnNextUpdate { get; set; }
@@ -62,7 +62,7 @@ public bool DoNotScaleModelOnNextUpdate { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_UnitsPreferences_EngUnitsPressurePSIAorGaugeIndex"></a> EngUnitsPressurePSIAorGaugeIndex
+### EngUnitsPressurePSIAorGaugeIndex
 
 ```csharp
 public int EngUnitsPressurePSIAorGaugeIndex { get; set; }
@@ -72,7 +72,7 @@ public int EngUnitsPressurePSIAorGaugeIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_UnitsPreferences_EngUnitsTemperatureIndex"></a> EngUnitsTemperatureIndex
+### EngUnitsTemperatureIndex
 
 ```csharp
 public int EngUnitsTemperatureIndex { get; set; }
@@ -82,7 +82,7 @@ public int EngUnitsTemperatureIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_UnitsPreferences_SiUnitsTemperatureIndex"></a> SiUnitsTemperatureIndex
+### SiUnitsTemperatureIndex
 
 ```csharp
 public int SiUnitsTemperatureIndex { get; set; }
@@ -92,7 +92,7 @@ public int SiUnitsTemperatureIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_UnitsPreferences_Units"></a> Units
+### Units
 
 ```csharp
 public UnitsData Units { get; set; }
@@ -102,7 +102,7 @@ public UnitsData Units { get; set; }
 
  [UnitsData](OpenTD.UnitsData.md)
 
-### <a id="OpenTD_UserPreferences_UnitsPreferences_UnitsThermalOnlyInterfaceOrENG_SI_controlled"></a> UnitsThermalOnlyInterfaceOrENG\_SI\_controlled
+### UnitsThermalOnlyInterfaceOrENG\_SI\_controlled
 
 ```csharp
 public int UnitsThermalOnlyInterfaceOrENG_SI_controlled { get; set; }
@@ -112,7 +112,7 @@ public int UnitsThermalOnlyInterfaceOrENG_SI_controlled { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_UnitsPreferences_calculationOutputUnits"></a> calculationOutputUnits
+### calculationOutputUnits
 
 ```csharp
 public int calculationOutputUnits { get; set; }
@@ -124,7 +124,7 @@ public int calculationOutputUnits { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_UserPreferences_UnitsPreferences_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -132,11 +132,12 @@ Updates the TD entity with the latest client data.
 public void Update()
 ```
 
-### <a id="OpenTD_UserPreferences_UnitsPreferences_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
 ```csharp
 public void UpdateFromTD()
 ```
+
 

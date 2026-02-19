@@ -1,4 +1,4 @@
-# <a id="OpenTD_ThermoPropAliasManager"></a> Class ThermoPropAliasManager
+# Class ThermoPropAliasManager
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ Each ThermalDesktop object includes a ThermoPropAliasManager.
 public class ThermoPropAliasManager
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ThermoPropAliasManager](OpenTD.ThermoPropAliasManager.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,7 +27,7 @@ public class ThermoPropAliasManager
 
 ## Methods
 
-### <a id="OpenTD_ThermoPropAliasManager_CreateOrUpdateAlias_System_String_System_String_"></a> CreateOrUpdateAlias\(string, string\)
+### CreateOrUpdateAlias\(string, string\)
 
 ```csharp
 public void CreateOrUpdateAlias(string aliasName, string materialName)
@@ -39,7 +39,7 @@ public void CreateOrUpdateAlias(string aliasName, string materialName)
 
 `materialName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_ThermoPropAliasManager_DeleteAlias_System_String_"></a> DeleteAlias\(string\)
+### DeleteAlias\(string\)
 
 ```csharp
 public void DeleteAlias(string name)
@@ -49,7 +49,7 @@ public void DeleteAlias(string name)
 
 `name` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_ThermoPropAliasManager_GetAlias_System_String_"></a> GetAlias\(string\)
+### GetAlias\(string\)
 
 ```csharp
 public Tuple<string, string> GetAlias(string name)
@@ -63,7 +63,7 @@ public Tuple<string, string> GetAlias(string name)
 
  [Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_ThermoPropAliasManager_GetAliases"></a> GetAliases\(\)
+### GetAliases\(\)
 
 ```csharp
 public List<Tuple<string, string>> GetAliases()
@@ -73,7 +73,7 @@ public List<Tuple<string, string>> GetAliases()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>\>
 
-### <a id="OpenTD_ThermoPropAliasManager_RenameAlias_System_String_System_String_"></a> RenameAlias\(string, string\)
+### RenameAlias\(string, string\)
 
 ```csharp
 public void RenameAlias(string oldname, string newname)
@@ -84,4 +84,5 @@ public void RenameAlias(string oldname, string newname)
 `oldname` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 `newname` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

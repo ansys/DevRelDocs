@@ -1,4 +1,4 @@
-# <a id="OpenTD_FloCAD_PipeTie"></a> Class PipeTie
+# Class PipeTie
 
 Namespace: [OpenTD.FloCAD](OpenTD.FloCAD.md)  
 Assembly: OpenTD.dll  
@@ -6,15 +6,16 @@ Assembly: OpenTD.dll
 Describes a tie defined by a pipe.
 
 ```csharp
+[MessagePackObject(true)]
 public class PipeTie
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [PipeTie](OpenTD.FloCAD.PipeTie.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +27,7 @@ public class PipeTie
 
 ## Constructors
 
-### <a id="OpenTD_FloCAD_PipeTie__ctor"></a> PipeTie\(\)
+### PipeTie\(\)
 
 ```csharp
 public PipeTie()
@@ -34,7 +35,7 @@ public PipeTie()
 
 ## Properties
 
-### <a id="OpenTD_FloCAD_PipeTie_Comment"></a> Comment
+### Comment
 
 ```csharp
 public string Comment { get; set; }
@@ -44,7 +45,7 @@ public string Comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FloCAD_PipeTie_GenerateTie"></a> GenerateTie
+### GenerateTie
 
 ```csharp
 public bool GenerateTie { get; set; }
@@ -54,7 +55,7 @@ public bool GenerateTie { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_FloCAD_PipeTie_WallLocation"></a> WallLocation
+### WallLocation
 
 ```csharp
 public PipeTie.WallLocations WallLocation { get; set; }
@@ -64,7 +65,7 @@ public PipeTie.WallLocations WallLocation { get; set; }
 
  [PipeTie](OpenTD.FloCAD.PipeTie.md).[WallLocations](OpenTD.FloCAD.PipeTie.WallLocations.md)
 
-### <a id="OpenTD_FloCAD_PipeTie_Walls"></a> Walls
+### Walls
 
 ```csharp
 public List<Connection> Walls { get; set; }
@@ -76,7 +77,7 @@ public List<Connection> Walls { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_FloCAD_PipeTie_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -94,4 +95,5 @@ A string that represents the current object.
 
 [Pipe](OpenTD.FloCAD.Pipe.md), 
 [Tie](OpenTD.FloCAD.Tie.md)
+
 

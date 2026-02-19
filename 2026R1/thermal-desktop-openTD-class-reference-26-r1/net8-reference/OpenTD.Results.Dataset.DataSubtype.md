@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_DataSubtype"></a> Class DataSubtype
+# Class DataSubtype
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -11,16 +11,16 @@ to a DataSubtype. This also works with a FullStandardDataSubtype.
 public class DataSubtype : IEquatable<DataSubtype>
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [DataSubtype](OpenTD.Results.Dataset.DataSubtype.md)
 
-#### Implements
+## Implements
 
 [IEquatable<DataSubtype\>](https://learn.microsoft.com/dotnet/api/system.iequatable\-1)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -32,7 +32,7 @@ public class DataSubtype : IEquatable<DataSubtype>
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_DataSubtype__ctor_OpenTD_Results_Dataset_StandardDataSubtypes_"></a> DataSubtype\(StandardDataSubtypes\)
+### DataSubtype\(StandardDataSubtypes\)
 
 ```csharp
 public DataSubtype(StandardDataSubtypes stdDataSubtype)
@@ -42,7 +42,7 @@ public DataSubtype(StandardDataSubtypes stdDataSubtype)
 
 `stdDataSubtype` [StandardDataSubtypes](OpenTD.Results.Dataset.StandardDataSubtypes.md)
 
-### <a id="OpenTD_Results_Dataset_DataSubtype__ctor_OpenTD_Results_Dataset_StandardDataSubtypes_OpenTD_Results_Dataset_FluidConstituents_"></a> DataSubtype\(StandardDataSubtypes, FluidConstituents\)
+### DataSubtype\(StandardDataSubtypes, FluidConstituents\)
 
 ```csharp
 public DataSubtype(StandardDataSubtypes stdDataSubtype, FluidConstituents fluidConstituent)
@@ -54,7 +54,7 @@ public DataSubtype(StandardDataSubtypes stdDataSubtype, FluidConstituents fluidC
 
 `fluidConstituent` [FluidConstituents](OpenTD.Results.Dataset.FluidConstituents.md)
 
-### <a id="OpenTD_Results_Dataset_DataSubtype__ctor_OpenTD_Results_Dataset_FullStandardDataSubtype_"></a> DataSubtype\(FullStandardDataSubtype\)
+### DataSubtype\(FullStandardDataSubtype\)
 
 ```csharp
 public DataSubtype(FullStandardDataSubtype stdDataSubtypeWithFluid)
@@ -64,7 +64,7 @@ public DataSubtype(FullStandardDataSubtype stdDataSubtypeWithFluid)
 
 `stdDataSubtypeWithFluid` [FullStandardDataSubtype](OpenTD.Results.Dataset.FullStandardDataSubtype.md)
 
-### <a id="OpenTD_Results_Dataset_DataSubtype__ctor_OpenTD_UnitsData_UnitsType_System_Boolean_System_String_System_String_OpenTD_Results_Dataset_DataTypes_OpenTD_Results_Dataset_FluidConstituents_"></a> DataSubtype\(UnitsType, bool, string, string, DataTypes, FluidConstituents\)
+### DataSubtype\(UnitsType, bool, string, string, DataTypes, FluidConstituents\)
 
 ```csharp
 public DataSubtype(UnitsData.UnitsType dimension, bool isDimensionalOnlyIfPositive, string description, string baseSindaDesignator, DataTypes dataType, FluidConstituents fluidConstituent = FluidConstituents.NOT_SET)
@@ -84,7 +84,7 @@ public DataSubtype(UnitsData.UnitsType dimension, bool isDimensionalOnlyIfPositi
 
 `fluidConstituent` [FluidConstituents](OpenTD.Results.Dataset.FluidConstituents.md)
 
-### <a id="OpenTD_Results_Dataset_DataSubtype__ctor_System_String_OpenTD_Results_Dataset_DataTypes_OpenTD_Results_Dataset_DataSubtype_ValueTypes_"></a> DataSubtype\(string, DataTypes, ValueTypes\)
+### DataSubtype\(string, DataTypes, ValueTypes\)
 
 ```csharp
 public DataSubtype(string udfaName, DataTypes dataType, DataSubtype.ValueTypes valueType)
@@ -98,7 +98,7 @@ public DataSubtype(string udfaName, DataTypes dataType, DataSubtype.ValueTypes v
 
 `valueType` [DataSubtype](OpenTD.Results.Dataset.DataSubtype.md).[ValueTypes](OpenTD.Results.Dataset.DataSubtype.ValueTypes.md)
 
-### <a id="OpenTD_Results_Dataset_DataSubtype__ctor_OpenTD_UnitsData_UnitsType_System_String_OpenTD_Results_Dataset_DataTypes_"></a> DataSubtype\(UnitsType, string, DataTypes\)
+### DataSubtype\(UnitsType, string, DataTypes\)
 
 ```csharp
 public DataSubtype(UnitsData.UnitsType dimension, string description, DataTypes dataType = DataTypes.NOT_SET)
@@ -112,7 +112,7 @@ public DataSubtype(UnitsData.UnitsType dimension, string description, DataTypes 
 
 `dataType` [DataTypes](OpenTD.Results.Dataset.DataTypes.md)
 
-### <a id="OpenTD_Results_Dataset_DataSubtype__ctor_OpenTD_Results_Dataset_DataSubtype_OpenTD_Results_Dataset_FluidConstituents_"></a> DataSubtype\(DataSubtype, FluidConstituents\)
+### DataSubtype\(DataSubtype, FluidConstituents\)
 
 ```csharp
 public DataSubtype(DataSubtype source, FluidConstituents fluidConstituent)
@@ -126,7 +126,7 @@ public DataSubtype(DataSubtype source, FluidConstituents fluidConstituent)
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_DataSubtype_BaseSindaDesignator"></a> BaseSindaDesignator
+### BaseSindaDesignator
 
 The short string used by Sinda to identify this subtype, e.g., "TL".
 Stored and returned as all uppercase.
@@ -139,7 +139,7 @@ public string BaseSindaDesignator { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_DataSubtype_DataType"></a> DataType
+### DataType
 
 The DataTypes enum (node, lump, etc.) associated with this subtype.
 
@@ -151,7 +151,7 @@ public DataTypes DataType { get; }
 
  [DataTypes](OpenTD.Results.Dataset.DataTypes.md)
 
-### <a id="OpenTD_Results_Dataset_DataSubtype_DataTypeFamily"></a> DataTypeFamily
+### DataTypeFamily
 
 The DataTypeFamilies enum (thermal, fluid, other) associated with this subtype.
 
@@ -163,7 +163,7 @@ public DataTypeFamilies DataTypeFamily { get; }
 
  [DataTypeFamilies](OpenTD.Results.Dataset.DataTypeFamilies.md)
 
-### <a id="OpenTD_Results_Dataset_DataSubtype_Description"></a> Description
+### Description
 
 A short description of this subtype, e.g. "lump temperature".
 
@@ -175,7 +175,7 @@ public string Description { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_DataSubtype_Dimension"></a> Dimension
+### Dimension
 
 The physical dimension of this subtype, e.g., temperature.
 
@@ -187,7 +187,7 @@ public UnitsData.UnitsType Dimension { get; }
 
  UnitsData.UnitsType
 
-### <a id="OpenTD_Results_Dataset_DataSubtype_FluidConstituent"></a> FluidConstituent
+### FluidConstituent
 
 For multispecies subtypes, this is the fluid constituent. For non-multispecies
 subtypes, this should be set to NOT_SET.
@@ -200,7 +200,7 @@ public FluidConstituents FluidConstituent { get; }
 
  [FluidConstituents](OpenTD.Results.Dataset.FluidConstituents.md)
 
-### <a id="OpenTD_Results_Dataset_DataSubtype_IsDimensionalOnlyIfPositive"></a> IsDimensionalOnlyIfPositive
+### IsDimensionalOnlyIfPositive
 
 Determines whether this subtype behaves dimensionally only when positive.
 (Some Sinda variables are dimensional if positive and just flags if negative.)
@@ -213,7 +213,7 @@ public bool IsDimensionalOnlyIfPositive { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Dataset_DataSubtype_IsUDFA"></a> IsUDFA
+### IsUDFA
 
 Determines whether this subtype describes a UDFA.
 
@@ -225,7 +225,7 @@ public bool IsUDFA { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Dataset_DataSubtype_SindaDesignator"></a> SindaDesignator
+### SindaDesignator
 
 The short string used by Sinda to identify this subtype, combined with
 a fluid constituent letter for multispecies subtypes.
@@ -238,7 +238,7 @@ public string SindaDesignator { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_DataSubtype_StandardDataSubtype"></a> StandardDataSubtype
+### StandardDataSubtype
 
 Gets the StandardDataSubtypes enum associated with this subtype.
 
@@ -250,7 +250,7 @@ public StandardDataSubtypes StandardDataSubtype { get; }
 
  [StandardDataSubtypes](OpenTD.Results.Dataset.StandardDataSubtypes.md)
 
-### <a id="OpenTD_Results_Dataset_DataSubtype_SupportedStandardDataSubtypes"></a> SupportedStandardDataSubtypes
+### SupportedStandardDataSubtypes
 
 ```csharp
 public static IEnumerable<StandardDataSubtypes> SupportedStandardDataSubtypes { get; }
@@ -260,7 +260,7 @@ public static IEnumerable<StandardDataSubtypes> SupportedStandardDataSubtypes { 
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[StandardDataSubtypes](OpenTD.Results.Dataset.StandardDataSubtypes.md)\>
 
-### <a id="OpenTD_Results_Dataset_DataSubtype_ValueType"></a> ValueType
+### ValueType
 
 The type of value that this subtype represents.
 
@@ -274,7 +274,7 @@ public DataSubtype.ValueTypes ValueType { get; }
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_DataSubtype_Equals_OpenTD_Results_Dataset_DataSubtype_"></a> Equals\(DataSubtype\)
+### Equals\(DataSubtype\)
 
 Indicates whether the current object is equal to another object of the same type.
 
@@ -290,9 +290,9 @@ public bool Equals(DataSubtype x)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+[true](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool) if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, [false](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool).
 
-### <a id="OpenTD_Results_Dataset_DataSubtype_Equals_System_Object_"></a> Equals\(object\)
+### Equals\(object\)
 
 Determines whether the specified object is equal to the current object.
 
@@ -310,9 +310,9 @@ The object to compare with the current object.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+[true](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool) if the specified object  is equal to the current object; otherwise, [false](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool).
 
-### <a id="OpenTD_Results_Dataset_DataSubtype_GetFullStandardDataSubtype"></a> GetFullStandardDataSubtype\(\)
+### GetFullStandardDataSubtype\(\)
 
 Gets the FullStandardDataSubtype associated with this subtype.
 
@@ -324,7 +324,7 @@ public FullStandardDataSubtype GetFullStandardDataSubtype()
 
  [FullStandardDataSubtype](OpenTD.Results.Dataset.FullStandardDataSubtype.md)
 
-### <a id="OpenTD_Results_Dataset_DataSubtype_GetHashCode"></a> GetHashCode\(\)
+### GetHashCode\(\)
 
 Serves as the default hash function.
 
@@ -338,7 +338,7 @@ public override int GetHashCode()
 
 A hash code for the current object.
 
-### <a id="OpenTD_Results_Dataset_DataSubtype_SetFrom_OpenTD_Results_Dataset_DataSubtype_"></a> SetFrom\(DataSubtype\)
+### SetFrom\(DataSubtype\)
 
 ```csharp
 public void SetFrom(DataSubtype x)
@@ -348,7 +348,7 @@ public void SetFrom(DataSubtype x)
 
 `x` [DataSubtype](OpenTD.Results.Dataset.DataSubtype.md)
 
-### <a id="OpenTD_Results_Dataset_DataSubtype_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -364,7 +364,7 @@ A string that represents the current object.
 
 ## Operators
 
-### <a id="OpenTD_Results_Dataset_DataSubtype_op_Equality_OpenTD_Results_Dataset_DataSubtype_OpenTD_Results_Dataset_DataSubtype_"></a> operator ==\(DataSubtype, DataSubtype\)
+### operator ==\(DataSubtype, DataSubtype\)
 
 ```csharp
 public static bool operator ==(DataSubtype x1, DataSubtype x2)
@@ -380,7 +380,7 @@ public static bool operator ==(DataSubtype x1, DataSubtype x2)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Dataset_DataSubtype_op_Implicit_OpenTD_Results_Dataset_StandardDataSubtypes__OpenTD_Results_Dataset_DataSubtype"></a> implicit operator DataSubtype\(StandardDataSubtypes\)
+### implicit operator DataSubtype\(StandardDataSubtypes\)
 
 ```csharp
 public static implicit operator DataSubtype(StandardDataSubtypes x)
@@ -394,7 +394,7 @@ public static implicit operator DataSubtype(StandardDataSubtypes x)
 
  [DataSubtype](OpenTD.Results.Dataset.DataSubtype.md)
 
-### <a id="OpenTD_Results_Dataset_DataSubtype_op_Implicit_OpenTD_Results_Dataset_FullStandardDataSubtype__OpenTD_Results_Dataset_DataSubtype"></a> implicit operator DataSubtype\(FullStandardDataSubtype\)
+### implicit operator DataSubtype\(FullStandardDataSubtype\)
 
 ```csharp
 public static implicit operator DataSubtype(FullStandardDataSubtype x)
@@ -408,7 +408,7 @@ public static implicit operator DataSubtype(FullStandardDataSubtype x)
 
  [DataSubtype](OpenTD.Results.Dataset.DataSubtype.md)
 
-### <a id="OpenTD_Results_Dataset_DataSubtype_op_Inequality_OpenTD_Results_Dataset_DataSubtype_OpenTD_Results_Dataset_DataSubtype_"></a> operator \!=\(DataSubtype, DataSubtype\)
+### operator \!=\(DataSubtype, DataSubtype\)
 
 ```csharp
 public static bool operator !=(DataSubtype x1, DataSubtype x2)
@@ -428,4 +428,5 @@ public static bool operator !=(DataSubtype x1, DataSubtype x2)
 
 [StandardDataSubtypes](OpenTD.Results.Dataset.StandardDataSubtypes.md), 
 [FullStandardDataSubtype](OpenTD.Results.Dataset.FullStandardDataSubtype.md)
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_SindaCyclicData"></a> Class SindaCyclicData
+# Class SindaCyclicData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,15 +6,16 @@ Assembly: OpenTD.dll
 Sinda cyclic run data. Used in Case Set.
 
 ```csharp
+[MessagePackObject(true)]
 public class SindaCyclicData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [SindaCyclicData](OpenTD.SindaCyclicData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +27,7 @@ public class SindaCyclicData
 
 ## Constructors
 
-### <a id="OpenTD_SindaCyclicData__ctor"></a> SindaCyclicData\(\)
+### SindaCyclicData\(\)
 
 ```csharp
 public SindaCyclicData()
@@ -34,7 +35,7 @@ public SindaCyclicData()
 
 ## Properties
 
-### <a id="OpenTD_SindaCyclicData_AngleCyc"></a> AngleCyc
+### AngleCyc
 
 ```csharp
 public double AngleCyc { get; set; }
@@ -44,7 +45,7 @@ public double AngleCyc { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SindaCyclicData_AngleCycExp"></a> AngleCycExp
+### AngleCycExp
 
 ```csharp
 public ExpressionData AngleCycExp { get; set; }
@@ -54,7 +55,7 @@ public ExpressionData AngleCycExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaCyclicData_ConvTolCyc"></a> ConvTolCyc
+### ConvTolCyc
 
 ```csharp
 public double ConvTolCyc { get; set; }
@@ -64,7 +65,7 @@ public double ConvTolCyc { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SindaCyclicData_ConvTolCycExp"></a> ConvTolCycExp
+### ConvTolCycExp
 
 ```csharp
 public ExpressionData ConvTolCycExp { get; set; }
@@ -74,7 +75,7 @@ public ExpressionData ConvTolCycExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaCyclicData_CyclicMode"></a> CyclicMode
+### CyclicMode
 
 ```csharp
 public int CyclicMode { get; set; }
@@ -84,7 +85,7 @@ public int CyclicMode { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_SindaCyclicData_DampCyc"></a> DampCyc
+### DampCyc
 
 ```csharp
 public double DampCyc { get; set; }
@@ -94,7 +95,7 @@ public double DampCyc { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SindaCyclicData_DampCycExp"></a> DampCycExp
+### DampCycExp
 
 ```csharp
 public ExpressionData DampCycExp { get; set; }
@@ -104,7 +105,7 @@ public ExpressionData DampCycExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaCyclicData_DisableOutputSave"></a> DisableOutputSave
+### DisableOutputSave
 
 ```csharp
 public bool DisableOutputSave { get; set; }
@@ -114,7 +115,7 @@ public bool DisableOutputSave { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_SindaCyclicData_NloopsCyc"></a> NloopsCyc
+### NloopsCyc
 
 ```csharp
 public int NloopsCyc { get; set; }
@@ -124,7 +125,7 @@ public int NloopsCyc { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_SindaCyclicData_NloopsCycExp"></a> NloopsCycExp
+### NloopsCycExp
 
 ```csharp
 public ExpressionData NloopsCycExp { get; set; }
@@ -134,7 +135,7 @@ public ExpressionData NloopsCycExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaCyclicData_PerformFinalLoop"></a> PerformFinalLoop
+### PerformFinalLoop
 
 ```csharp
 public int PerformFinalLoop { get; set; }
@@ -144,7 +145,7 @@ public int PerformFinalLoop { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_SindaCyclicData_PeriodCyc"></a> PeriodCyc
+### PeriodCyc
 
 ```csharp
 public double PeriodCyc { get; set; }
@@ -154,7 +155,7 @@ public double PeriodCyc { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SindaCyclicData_PeriodCycExp"></a> PeriodCycExp
+### PeriodCycExp
 
 ```csharp
 public ExpressionData PeriodCycExp { get; set; }
@@ -167,4 +168,5 @@ public ExpressionData PeriodCycExp { get; set; }
 ## See Also
 
 [CaseSet](OpenTD.CaseSet.md)
+
 

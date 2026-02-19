@@ -1,4 +1,4 @@
-# <a id="OpenTD_Dimension"></a> Namespace OpenTD.Dimension
+# Namespace OpenTD.Dimension
 
 ### Classes
 
@@ -136,4 +136,5 @@ act like doubles.
  [IDimension](OpenTD.Dimension.IDimension.md)
 
 Represents a physical dimension, e.g., density
+
 

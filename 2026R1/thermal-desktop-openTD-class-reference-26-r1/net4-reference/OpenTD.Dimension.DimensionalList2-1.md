@@ -1,4 +1,4 @@
-# <a id="OpenTD_Dimension_DimensionalList2_1"></a> Class DimensionalList2<T\>
+# Class DimensionalList2<T\>
 
 Namespace: [OpenTD.Dimension](OpenTD.Dimension.md)  
 Assembly: OpenTD.dll  
@@ -13,13 +13,13 @@ public class DimensionalList2<T> : List<DimensionalList<T>>, IList<DimensionalLi
 
 `T` 
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [List<DimensionalList<T\>\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1) ← 
 [DimensionalList2<T\>](OpenTD.Dimension.DimensionalList2\-1.md)
 
-#### Implements
+## Implements
 
 [IList<DimensionalList<T\>\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1), 
 [ICollection<DimensionalList<T\>\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1), 
@@ -30,7 +30,7 @@ public class DimensionalList2<T> : List<DimensionalList<T>>, IList<DimensionalLi
 [IEnumerable<DimensionalList<T\>\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1), 
 [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
 
-#### Inherited Members
+## Inherited Members
 
 [List<DimensionalList<T\>\>.Add\(DimensionalList<T\>\)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1.add), 
 [List<DimensionalList<T\>\>.AddRange\(IEnumerable<DimensionalList<T\>\>\)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1.addrange), 
@@ -91,7 +91,7 @@ public class DimensionalList2<T> : List<DimensionalList<T>>, IList<DimensionalLi
 
 ## Methods
 
-### <a id="OpenTD_Dimension_DimensionalList2_1_GetValuesSI"></a> GetValuesSI\(\)
+### GetValuesSI\(\)
 
 ```csharp
 public List<List<double>> GetValuesSI()
@@ -103,7 +103,7 @@ public List<List<double>> GetValuesSI()
 
 ## Operators
 
-### <a id="OpenTD_Dimension_DimensionalList2_1_op_Implicit_System_Collections_Generic_List_System_Collections_Generic_List_System_Double____OpenTD_Dimension_DimensionalList2__0_"></a> implicit operator DimensionalList2<T\>\(List<List<double\>\>\)
+### implicit operator DimensionalList2<T\>\(List<List<double\>\>\)
 
 ```csharp
 public static implicit operator DimensionalList2<T>(List<List<double>> x)
@@ -117,7 +117,7 @@ public static implicit operator DimensionalList2<T>(List<List<double>> x)
 
  [DimensionalList2](OpenTD.Dimension.DimensionalList2\-1.md)<T\>
 
-### <a id="OpenTD_Dimension_DimensionalList2_1_op_Implicit_OpenTD_Dimension_DimensionalList2__0___System_Collections_Generic_List_System_Collections_Generic_List_System_Double__"></a> implicit operator List<List<double\>\>\(DimensionalList2<T\>\)
+### implicit operator List<List<double\>\>\(DimensionalList2<T\>\)
 
 ```csharp
 public static implicit operator List<List<double>>(DimensionalList2<T> x)
@@ -134,4 +134,5 @@ public static implicit operator List<List<double>>(DimensionalList2<T> x)
 ## See Also
 
 [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<T\>
+
 

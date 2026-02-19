@@ -1,4 +1,4 @@
-# <a id="OpenTD_TdConnectConfig_TimeoutProperties"></a> Class TdConnectConfig.TimeoutProperties
+# Class TdConnectConfig.TimeoutProperties
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -9,12 +9,12 @@ Data used to decide when to timeout an operation.
 public class TdConnectConfig.TimeoutProperties
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [TdConnectConfig.TimeoutProperties](OpenTD.TdConnectConfig.TimeoutProperties.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -26,7 +26,7 @@ public class TdConnectConfig.TimeoutProperties
 
 ## Properties
 
-### <a id="OpenTD_TdConnectConfig_TimeoutProperties_DelayMs"></a> DelayMs
+### DelayMs
 
 The delay in ms between tries.
 
@@ -38,7 +38,7 @@ public int DelayMs { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_TdConnectConfig_TimeoutProperties_NumberOfTries"></a> NumberOfTries
+### NumberOfTries
 
 The number of tries before timing out.
 
@@ -49,4 +49,5 @@ public int NumberOfTries { get; set; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 

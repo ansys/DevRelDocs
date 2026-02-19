@@ -1,4 +1,4 @@
-# <a id="OpenTD_SolverControlData_GoalType"></a> Enum SolverControlData.GoalType
+# Enum SolverControlData.GoalType
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -16,4 +16,5 @@ public enum SolverControlData.GoalType
 `MINIMIZE = 0` 
 
 `USERVALUE = 2` 
+
 

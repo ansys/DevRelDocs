@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_Exceedance"></a> Struct Exceedance
+# Struct Exceedance
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -9,7 +9,7 @@ Contains information about an item that exceeds a tolerance.
 public struct Exceedance
 ```
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -20,7 +20,7 @@ public struct Exceedance
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_Exceedance__ctor_System_String_System_Double_System_Double_System_Int64_System_Int64_System_Double_System_Double_System_Int32_System_Double_"></a> Exceedance\(string, double, double, long, long, double, double, int, double\)
+### Exceedance\(string, double, double, long, long, double, double, int, double\)
 
 ```csharp
 public Exceedance(string name, double timeA, double timeB, long recA, long recB, double A, double B, int index, double percentDiff)
@@ -48,7 +48,7 @@ public Exceedance(string name, double timeA, double timeB, long recA, long recB,
 
 ## Fields
 
-### <a id="OpenTD_Results_Dataset_Exceedance_Index"></a> Index
+### Index
 
 ```csharp
 public int Index
@@ -58,7 +58,7 @@ public int Index
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Results_Dataset_Exceedance_Name"></a> Name
+### Name
 
 Sinda name, for example, "MAIN.1"
 
@@ -70,7 +70,7 @@ public string Name
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_Exceedance_PercentDifference"></a> PercentDifference
+### PercentDifference
 
 ```csharp
 public double PercentDifference
@@ -80,7 +80,7 @@ public double PercentDifference
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Results_Dataset_Exceedance_RecA"></a> RecA
+### RecA
 
 ```csharp
 public long RecA
@@ -90,7 +90,7 @@ public long RecA
 
  [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
-### <a id="OpenTD_Results_Dataset_Exceedance_RecB"></a> RecB
+### RecB
 
 ```csharp
 public long RecB
@@ -100,7 +100,7 @@ public long RecB
 
  [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
-### <a id="OpenTD_Results_Dataset_Exceedance_TimeA"></a> TimeA
+### TimeA
 
 ```csharp
 public double TimeA
@@ -110,7 +110,7 @@ public double TimeA
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Results_Dataset_Exceedance_TimeB"></a> TimeB
+### TimeB
 
 ```csharp
 public double TimeB
@@ -120,7 +120,7 @@ public double TimeB
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Results_Dataset_Exceedance_ValueA"></a> ValueA
+### ValueA
 
 ```csharp
 public double ValueA
@@ -130,7 +130,7 @@ public double ValueA
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Results_Dataset_Exceedance_ValueB"></a> ValueB
+### ValueB
 
 ```csharp
 public double ValueB
@@ -142,7 +142,7 @@ public double ValueB
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_Exceedance_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns the fully qualified type name of this instance.
 
@@ -155,4 +155,5 @@ public override string ToString()
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The fully qualified type name.
+
 

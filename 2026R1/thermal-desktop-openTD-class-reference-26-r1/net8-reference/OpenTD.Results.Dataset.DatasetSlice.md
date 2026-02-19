@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_DatasetSlice"></a> Class DatasetSlice
+# Class DatasetSlice
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -11,7 +11,7 @@ certain time slice within your results.
 public class DatasetSlice : DerivedDataset, IDataset
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Dataset](OpenTD.Results.Dataset.Dataset.md) ← 
@@ -19,11 +19,11 @@ RecordFocusedDataset ←
 [DerivedDataset](OpenTD.Results.Dataset.DerivedDataset.md) ← 
 [DatasetSlice](OpenTD.Results.Dataset.DatasetSlice.md)
 
-#### Implements
+## Implements
 
 [IDataset](OpenTD.Results.Dataset.IDataset.md)
 
-#### Inherited Members
+## Inherited Members
 
 [DerivedDataset.InputDatasets](OpenTD.Results.Dataset.DerivedDataset.md\#OpenTD\_Results\_Dataset\_DerivedDataset\_InputDatasets), 
 [DerivedDataset.Source](OpenTD.Results.Dataset.DerivedDataset.md\#OpenTD\_Results\_Dataset\_DerivedDataset\_Source), 
@@ -107,13 +107,13 @@ RecordFocusedDataset ←
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_DatasetSlice__ctor"></a> DatasetSlice\(\)
+### DatasetSlice\(\)
 
 ```csharp
 public DatasetSlice()
 ```
 
-### <a id="OpenTD_Results_Dataset_DatasetSlice__ctor_OpenTD_Results_Dataset_IDataset_System_Double_System_Double_"></a> DatasetSlice\(IDataset, double, double\)
+### DatasetSlice\(IDataset, double, double\)
 
 ```csharp
 public DatasetSlice(IDataset inputDataset, double beginTime, double endTime)
@@ -129,7 +129,7 @@ public DatasetSlice(IDataset inputDataset, double beginTime, double endTime)
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_DatasetSlice_BeginTime"></a> BeginTime
+### BeginTime
 
 The start time (in WorkingUnits) for the slice. If no record equals this time,
 the DatasetSlice chooses a record immediately before it.
@@ -142,7 +142,7 @@ public Dimensional<Time> BeginTime { get; set; }
 
  Dimensional<Time\>
 
-### <a id="OpenTD_Results_Dataset_DatasetSlice_EndTime"></a> EndTime
+### EndTime
 
 The end time (in WorkingUnits) for the slice. If no record equals this time,
 the DatasetSlice chooses a record immediately after it.
@@ -155,7 +155,7 @@ public Dimensional<Time> EndTime { get; set; }
 
  Dimensional<Time\>
 
-### <a id="OpenTD_Results_Dataset_DatasetSlice_Source"></a> Source
+### Source
 
 If the InputDatasets have a common source, it will be returned here.
 
@@ -175,13 +175,13 @@ Cannot set DerivedDataArray.SourceDataset directly. It will be derived from Inpu
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_DatasetSlice_CheckInputDatasets"></a> CheckInputDatasets\(\)
+### CheckInputDatasets\(\)
 
 ```csharp
 protected override void CheckInputDatasets()
 ```
 
-### <a id="OpenTD_Results_Dataset_DatasetSlice_GetAbszro"></a> GetAbszro\(\)
+### GetAbszro\(\)
 
 ```csharp
 public override Dimensional<Temp> GetAbszro()
@@ -191,7 +191,7 @@ public override Dimensional<Temp> GetAbszro()
 
  Dimensional<Temp\>
 
-### <a id="OpenTD_Results_Dataset_DatasetSlice_GetConstraintData_System_Int64_OpenTD_Results_Dataset_DataSubtype_OpenTD_UnitsData_"></a> GetConstraintData\(long, DataSubtype, UnitsData\)
+### GetConstraintData\(long, DataSubtype, UnitsData\)
 
 ```csharp
 public override DataArray GetConstraintData(long constraintNumber, DataSubtype subtype = null, UnitsData units = null)
@@ -209,7 +209,7 @@ public override DataArray GetConstraintData(long constraintNumber, DataSubtype s
 
  [DataArray](OpenTD.Results.Dataset.DataArray.md)
 
-### <a id="OpenTD_Results_Dataset_DatasetSlice_GetDataAtRecord_OpenTD_Results_Dataset_DataSubtype_System_Int64_"></a> GetDataAtRecord\(DataSubtype, long\)
+### GetDataAtRecord\(DataSubtype, long\)
 
 Gets all data for a given subtype at a single record. If recordNum is invalid,
 or if no data of the given subtype exists at the record, will return an empty
@@ -236,7 +236,7 @@ public override DataArray GetDataAtRecord(DataSubtype subtype, long recordNum)
 Thrown if the <code>DataSubtype</code>
     represents a character UDFA.
 
-### <a id="OpenTD_Results_Dataset_DatasetSlice_GetInternalIndex_OpenTD_Results_Dataset_DataTypes_System_String_System_Int64_"></a> GetInternalIndex\(DataTypes, string, long\)
+### GetInternalIndex\(DataTypes, string, long\)
 
 The 0-indexed position of the given Sinda entity in arrays
 returned by GetDataAtRecord. Returns -1 if entity can't be found.
@@ -261,7 +261,7 @@ public override long GetInternalIndex(DataTypes dataType, string submodel, long 
 
 [Dataset](OpenTD.Results.Dataset.Dataset.md).[GetDataAtRecord](OpenTD.Results.Dataset.Dataset.md\#OpenTD\_Results\_Dataset\_Dataset\_GetDataAtRecord\_OpenTD\_Results\_Dataset\_DataSubtype\_System\_Int64\_)\([DataSubtype](OpenTD.Results.Dataset.DataSubtype.md), [long](https://learn.microsoft.com/dotnet/api/system.int64)\)
 
-### <a id="OpenTD_Results_Dataset_DatasetSlice_GetLoopcoData"></a> GetLoopcoData\(\)
+### GetLoopcoData\(\)
 
 ```csharp
 public override List<long> GetLoopcoData()
@@ -271,7 +271,7 @@ public override List<long> GetLoopcoData()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[long](https://learn.microsoft.com/dotnet/api/system.int64)\>
 
-### <a id="OpenTD_Results_Dataset_DatasetSlice_GetLoopctData"></a> GetLoopctData\(\)
+### GetLoopctData\(\)
 
 ```csharp
 public override List<long> GetLoopctData()
@@ -281,7 +281,7 @@ public override List<long> GetLoopctData()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[long](https://learn.microsoft.com/dotnet/api/system.int64)\>
 
-### <a id="OpenTD_Results_Dataset_DatasetSlice_GetNamedInt_System_String_"></a> GetNamedInt\(string\)
+### GetNamedInt\(string\)
 
 ```csharp
 public override long GetNamedInt(string name)
@@ -295,7 +295,7 @@ public override long GetNamedInt(string name)
 
  [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
-### <a id="OpenTD_Results_Dataset_DatasetSlice_GetNamedIntArray_System_String_"></a> GetNamedIntArray\(string\)
+### GetNamedIntArray\(string\)
 
 ```csharp
 public override List<long> GetNamedIntArray(string name)
@@ -309,7 +309,7 @@ public override List<long> GetNamedIntArray(string name)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[long](https://learn.microsoft.com/dotnet/api/system.int64)\>
 
-### <a id="OpenTD_Results_Dataset_DatasetSlice_GetNpcsrec_System_Int64_"></a> GetNpcsrec\(long\)
+### GetNpcsrec\(long\)
 
 ```csharp
 public override long GetNpcsrec(long recordNum)
@@ -323,7 +323,7 @@ public override long GetNpcsrec(long recordNum)
 
  [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
-### <a id="OpenTD_Results_Dataset_DatasetSlice_GetNsol_System_Int64_"></a> GetNsol\(long\)
+### GetNsol\(long\)
 
 ```csharp
 public override long GetNsol(long recordNum)
@@ -337,7 +337,7 @@ public override long GetNsol(long recordNum)
 
  [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
-### <a id="OpenTD_Results_Dataset_DatasetSlice_GetPatmos"></a> GetPatmos\(\)
+### GetPatmos\(\)
 
 ```csharp
 public override Dimensional<Pressure> GetPatmos()
@@ -347,7 +347,7 @@ public override Dimensional<Pressure> GetPatmos()
 
  Dimensional<Pressure\>
 
-### <a id="OpenTD_Results_Dataset_DatasetSlice_GetRecordNames"></a> GetRecordNames\(\)
+### GetRecordNames\(\)
 
 ```csharp
 public override List<string> GetRecordNames()
@@ -357,7 +357,7 @@ public override List<string> GetRecordNames()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_Results_Dataset_DatasetSlice_GetRecordNumbers"></a> GetRecordNumbers\(\)
+### GetRecordNumbers\(\)
 
 ```csharp
 public override List<long> GetRecordNumbers()
@@ -367,7 +367,7 @@ public override List<long> GetRecordNumbers()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[long](https://learn.microsoft.com/dotnet/api/system.int64)\>
 
-### <a id="OpenTD_Results_Dataset_DatasetSlice_GetRegisterDataAtRecord_System_Int64_OpenTD_Results_Dataset_DataSubtype_OpenTD_UnitsData_"></a> GetRegisterDataAtRecord\(long, DataSubtype, UnitsData\)
+### GetRegisterDataAtRecord\(long, DataSubtype, UnitsData\)
 
 Gets all register data at a single record. Use GetRegisterNames to get
 a list of register names in the same order as the data returned from this
@@ -396,7 +396,7 @@ public override DataArray GetRegisterDataAtRecord(long recordNum, DataSubtype su
 [Dataset](OpenTD.Results.Dataset.Dataset.md).[GetRegisterNames](OpenTD.Results.Dataset.Dataset.md\#OpenTD\_Results\_Dataset\_Dataset\_GetRegisterNames)\(\), 
 [Dataset](OpenTD.Results.Dataset.Dataset.md).[GetInternalIndex](OpenTD.Results.Dataset.Dataset.md\#OpenTD\_Results\_Dataset\_Dataset\_GetInternalIndex\_OpenTD\_Results\_Dataset\_DataTypes\_System\_String\_System\_Int64\_)\([DataTypes](OpenTD.Results.Dataset.DataTypes.md), [string](https://learn.microsoft.com/dotnet/api/system.string), [long](https://learn.microsoft.com/dotnet/api/system.int64)\)
 
-### <a id="OpenTD_Results_Dataset_DatasetSlice_GetReliabilityData_System_Int64_OpenTD_Results_Dataset_DataSubtype_OpenTD_UnitsData_"></a> GetReliabilityData\(long, DataSubtype, UnitsData\)
+### GetReliabilityData\(long, DataSubtype, UnitsData\)
 
 ```csharp
 public override DataArray GetReliabilityData(long reliabilityNumber, DataSubtype subtype = null, UnitsData units = null)
@@ -414,7 +414,7 @@ public override DataArray GetReliabilityData(long reliabilityNumber, DataSubtype
 
  [DataArray](OpenTD.Results.Dataset.DataArray.md)
 
-### <a id="OpenTD_Results_Dataset_DatasetSlice_GetSigma"></a> GetSigma\(\)
+### GetSigma\(\)
 
 ```csharp
 public override Dimensional<StefanBoltzmann> GetSigma()
@@ -424,7 +424,7 @@ public override Dimensional<StefanBoltzmann> GetSigma()
 
  Dimensional<StefanBoltzmann\>
 
-### <a id="OpenTD_Results_Dataset_DatasetSlice_GetTimes"></a> GetTimes\(\)
+### GetTimes\(\)
 
 ```csharp
 public override DataArray GetTimes()
@@ -434,7 +434,7 @@ public override DataArray GetTimes()
 
  [DataArray](OpenTD.Results.Dataset.DataArray.md)
 
-### <a id="OpenTD_Results_Dataset_DatasetSlice_GetUdcaDataAtRecord_OpenTD_Results_Dataset_DataSubtype_System_Int64_"></a> GetUdcaDataAtRecord\(DataSubtype, long\)
+### GetUdcaDataAtRecord\(DataSubtype, long\)
 
 Gets the UDFA of strings represented by a <code>DataSubtype</code> at a given record
 
@@ -463,7 +463,7 @@ A list of character UDFA values.
 Thrown if the <code>DataSubtype</code>
    represents a noncharacter UDFA.
 
-### <a id="OpenTD_Results_Dataset_DatasetSlice_GetUdfasAtRecord_System_Int64_"></a> GetUdfasAtRecord\(long\)
+### GetUdfasAtRecord\(long\)
 
 Gets <code>DataSubtypes</code> UDFA at the given record number.
 
@@ -486,4 +486,5 @@ A list of <code>DataSubtype</code> objects.
 ## See Also
 
 [DerivedDataset](OpenTD.Results.Dataset.DerivedDataset.md)
+
 

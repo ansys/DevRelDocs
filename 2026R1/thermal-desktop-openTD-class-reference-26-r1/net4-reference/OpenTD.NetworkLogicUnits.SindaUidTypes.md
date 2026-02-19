@@ -1,4 +1,4 @@
-# <a id="OpenTD_NetworkLogicUnits_SindaUidTypes"></a> Enum NetworkLogicUnits.SindaUidTypes
+# Enum NetworkLogicUnits.SindaUidTypes
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -18,4 +18,5 @@ public enum NetworkLogicUnits.SindaUidTypes
 `NOT_SET = 0` 
 
 `SI = 1` 
+
 

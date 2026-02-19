@@ -1,4 +1,4 @@
-# <a id="OpenTD_IsoViews"></a> Enum IsoViews
+# Enum IsoViews
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -18,4 +18,5 @@ public enum IsoViews
 `SE = 1` 
 
 `SW = 0` 
+
 

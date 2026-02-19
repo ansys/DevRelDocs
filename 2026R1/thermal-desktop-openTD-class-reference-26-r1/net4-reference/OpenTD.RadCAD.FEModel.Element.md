@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FEModel_Element"></a> Class Element
+# Class Element
 
 Namespace: [OpenTD.RadCAD.FEModel](OpenTD.RadCAD.FEModel.md)  
 Assembly: OpenTD.dll  
@@ -10,7 +10,7 @@ mesh using an FEMeshImporter only.
 public class Element
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Element](OpenTD.RadCAD.FEModel.Element.md)
@@ -20,7 +20,7 @@ public class Element
 [SolidElement](OpenTD.RadCAD.FEModel.SolidElement.md), 
 [SurfaceElement](OpenTD.RadCAD.FEModel.SurfaceElement.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -32,7 +32,7 @@ public class Element
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_FEModel_Element__ctor"></a> Element\(\)
+### Element\(\)
 
 ```csharp
 public Element()
@@ -40,7 +40,7 @@ public Element()
 
 ## Fields
 
-### <a id="OpenTD_RadCAD_FEModel_Element_Cx"></a> Cx
+### Cx
 
 ```csharp
 public double Cx
@@ -50,7 +50,7 @@ public double Cx
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_FEModel_Element_Cy"></a> Cy
+### Cy
 
 ```csharp
 public double Cy
@@ -60,7 +60,7 @@ public double Cy
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_FEModel_Element_Cz"></a> Cz
+### Cz
 
 ```csharp
 public double Cz
@@ -70,7 +70,7 @@ public double Cz
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_FEModel_Element_Xx"></a> Xx
+### Xx
 
 ```csharp
 public double Xx
@@ -80,7 +80,7 @@ public double Xx
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_FEModel_Element_Xy"></a> Xy
+### Xy
 
 ```csharp
 public double Xy
@@ -90,7 +90,7 @@ public double Xy
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_FEModel_Element_Xz"></a> Xz
+### Xz
 
 ```csharp
 public double Xz
@@ -100,7 +100,7 @@ public double Xz
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_FEModel_Element_Yx"></a> Yx
+### Yx
 
 ```csharp
 public double Yx
@@ -110,7 +110,7 @@ public double Yx
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_FEModel_Element_Yy"></a> Yy
+### Yy
 
 ```csharp
 public double Yy
@@ -120,7 +120,7 @@ public double Yy
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_FEModel_Element_Yz"></a> Yz
+### Yz
 
 ```csharp
 public double Yz
@@ -130,7 +130,7 @@ public double Yz
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_FEModel_Element_Zx"></a> Zx
+### Zx
 
 ```csharp
 public double Zx
@@ -140,7 +140,7 @@ public double Zx
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_FEModel_Element_Zy"></a> Zy
+### Zy
 
 ```csharp
 public double Zy
@@ -150,7 +150,7 @@ public double Zy
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_FEModel_Element_Zz"></a> Zz
+### Zz
 
 ```csharp
 public double Zz
@@ -160,7 +160,7 @@ public double Zz
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_FEModel_Element_id"></a> id
+### id
 
 ```csharp
 public int id
@@ -170,7 +170,7 @@ public int id
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_FEModel_Element_layer"></a> layer
+### layer
 
 ```csharp
 public string layer
@@ -180,7 +180,7 @@ public string layer
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_FEModel_Element_material"></a> material
+### material
 
 ```csharp
 public string material
@@ -190,7 +190,7 @@ public string material
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_FEModel_Element_midSideNodeIds"></a> midSideNodeIds
+### midSideNodeIds
 
 ```csharp
 public List<int> midSideNodeIds
@@ -200,7 +200,7 @@ public List<int> midSideNodeIds
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### <a id="OpenTD_RadCAD_FEModel_Element_nodeIds"></a> nodeIds
+### nodeIds
 
 ```csharp
 public List<int> nodeIds
@@ -210,7 +210,7 @@ public List<int> nodeIds
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### <a id="OpenTD_RadCAD_FEModel_Element_numNodes"></a> numNodes
+### numNodes
 
 ```csharp
 public int numNodes
@@ -220,7 +220,7 @@ public int numNodes
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_FEModel_Element_order"></a> order
+### order
 
 ```csharp
 public int order
@@ -230,7 +230,7 @@ public int order
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_FEModel_Element_orienter"></a> orienter
+### orienter
 
 ```csharp
 public string orienter
@@ -240,7 +240,7 @@ public string orienter
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_FEModel_Element_submodel"></a> submodel
+### submodel
 
 ```csharp
 public string submodel
@@ -249,4 +249,5 @@ public string submodel
 #### Field Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

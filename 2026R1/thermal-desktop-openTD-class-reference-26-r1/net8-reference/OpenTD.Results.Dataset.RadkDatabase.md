@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_RadkDatabase"></a> Class RadkDatabase
+# Class RadkDatabase
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -9,16 +9,16 @@ Dataset representing data stored in a radk database.
 public sealed class RadkDatabase : IDisposable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [RadkDatabase](OpenTD.Results.Dataset.RadkDatabase.md)
 
-#### Implements
+## Implements
 
 [IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -29,7 +29,7 @@ public sealed class RadkDatabase : IDisposable
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_RadkDatabase__ctor_System_String_System_UInt32_System_Nullable_System_Int32__"></a> RadkDatabase\(string, uint, int?\)
+### RadkDatabase\(string, uint, int?\)
 
 ```csharp
 public RadkDatabase(string radkPathName, uint position = 0, int? band = null)
@@ -45,7 +45,7 @@ public RadkDatabase(string radkPathName, uint position = 0, int? band = null)
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_RadkDatabase_Band"></a> Band
+### Band
 
 ```csharp
 public int? Band { get; set; }
@@ -55,7 +55,7 @@ public int? Band { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)?
 
-### <a id="OpenTD_Results_Dataset_RadkDatabase_Position"></a> Position
+### Position
 
 ```csharp
 public uint Position { get; set; }
@@ -67,7 +67,7 @@ public uint Position { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_RadkDatabase_Dispose"></a> Dispose\(\)
+### Dispose\(\)
 
 Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
@@ -75,13 +75,13 @@ Performs application-defined tasks associated with freeing, releasing, or resett
 public void Dispose()
 ```
 
-### <a id="OpenTD_Results_Dataset_RadkDatabase_Finalize"></a> \~RadkDatabase\(\)
+### \~RadkDatabase\(\)
 
 ```csharp
 protected ~RadkDatabase()
 ```
 
-### <a id="OpenTD_Results_Dataset_RadkDatabase_GetBijFromNode_System_String_System_Collections_Generic_IEnumerable_System_String__"></a> GetBijFromNode\(string, IEnumerable<string\>\)
+### GetBijFromNode\(string, IEnumerable<string\>\)
 
 The radk (Bij) result from one node (i) to multiple nodes (j) declared
 
@@ -105,7 +105,7 @@ The target nodes (j) for the exchange factors
 
 DataArray of values in the order of the toNode names provided
 
-### <a id="OpenTD_Results_Dataset_RadkDatabase_GetBijInactiveSum_System_Collections_Generic_IEnumerable_System_String__"></a> GetBijInactiveSum\(IEnumerable<string\>\)
+### GetBijInactiveSum\(IEnumerable<string\>\)
 
 The sum of all radks for each inactive node name provided
 
@@ -125,7 +125,7 @@ array of nodes names to get the results for
 
 DataArray of values in the order of the node names provided
 
-### <a id="OpenTD_Results_Dataset_RadkDatabase_GetBijSum_System_Collections_Generic_IEnumerable_System_String__"></a> GetBijSum\(IEnumerable<string\>\)
+### GetBijSum\(IEnumerable<string\>\)
 
 The sum of all radks for each node name provided
 
@@ -145,7 +145,7 @@ array of nodes names to get the results for
 
 DataArray of values in the order of the node names provided
 
-### <a id="OpenTD_Results_Dataset_RadkDatabase_GetBijToSpace_System_Collections_Generic_IEnumerable_System_String__"></a> GetBijToSpace\(IEnumerable<string\>\)
+### GetBijToSpace\(IEnumerable<string\>\)
 
 The Bij (radk) to space per volume for the nodes provided
 
@@ -165,7 +165,7 @@ array of nodes names to get the results for
 
 DataArray of values in the order of the node names provided
 
-### <a id="OpenTD_Results_Dataset_RadkDatabase_GetExchangeFactorFromNode_System_String_System_Collections_Generic_IEnumerable_System_String__"></a> GetExchangeFactorFromNode\(string, IEnumerable<string\>\)
+### GetExchangeFactorFromNode\(string, IEnumerable<string\>\)
 
 The exchange factor from one node (i) to multiple nodes (j) declared
 
@@ -189,7 +189,7 @@ The target nodes (j) for the exchange factors
 
 DataArray of values in the order of the toNode names provided
 
-### <a id="OpenTD_Results_Dataset_RadkDatabase_GetExchangeFactorFromNodePerAreaJ_System_String_System_Collections_Generic_IEnumerable_System_String__"></a> GetExchangeFactorFromNodePerAreaJ\(string, IEnumerable<string\>\)
+### GetExchangeFactorFromNodePerAreaJ\(string, IEnumerable<string\>\)
 
 The exchange factor per area from one node (i) to multiple nodes (j) declared
 
@@ -213,7 +213,7 @@ The target nodes (j) for the exchange factors
 
 DataArray of values in the order of the toNode names provided
 
-### <a id="OpenTD_Results_Dataset_RadkDatabase_GetExchangeFactorFromNodePerVolume_System_String_System_Collections_Generic_IEnumerable_System_String__"></a> GetExchangeFactorFromNodePerVolume\(string, IEnumerable<string\>\)
+### GetExchangeFactorFromNodePerVolume\(string, IEnumerable<string\>\)
 
 The exchange factor per volume from one node (i) to multiple nodes (j) declared
 
@@ -237,7 +237,7 @@ The target nodes (j) for the exchange factors
 
 DataArray of values in the order of the toNode names provided
 
-### <a id="OpenTD_Results_Dataset_RadkDatabase_GetExchangeFactorToSpace_System_Collections_Generic_IEnumerable_System_String__"></a> GetExchangeFactorToSpace\(IEnumerable<string\>\)
+### GetExchangeFactorToSpace\(IEnumerable<string\>\)
 
 The Exchange Factors (Xij) to space value for the nodes provided
 
@@ -257,7 +257,7 @@ array of nodes names to get the results for
 
 DataArray of values in the order of the node names provided
 
-### <a id="OpenTD_Results_Dataset_RadkDatabase_GetExchangeFactorToSpacePerVolume_System_Collections_Generic_IEnumerable_System_String__"></a> GetExchangeFactorToSpacePerVolume\(IEnumerable<string\>\)
+### GetExchangeFactorToSpacePerVolume\(IEnumerable<string\>\)
 
 The Exchange Factor (Xij) to space per volume for the nodes provided
 
@@ -277,7 +277,7 @@ array of nodes names to get the results for
 
 DataArray of values in the order of the node names provided
 
-### <a id="OpenTD_Results_Dataset_RadkDatabase_GetHeatFluxFromNode_System_String_System_Collections_Generic_IEnumerable_System_String__"></a> GetHeatFluxFromNode\(string, IEnumerable<string\>\)
+### GetHeatFluxFromNode\(string, IEnumerable<string\>\)
 
 The radk as heat flux result from one node (i) to multiple nodes (j) declared
 
@@ -301,7 +301,7 @@ The target nodes (j) for the exchange factors
 
 DataArray of values in the order of the toNode names provided
 
-### <a id="OpenTD_Results_Dataset_RadkDatabase_GetHeatPerVolumeFromNode_System_String_System_Collections_Generic_IEnumerable_System_String__"></a> GetHeatPerVolumeFromNode\(string, IEnumerable<string\>\)
+### GetHeatPerVolumeFromNode\(string, IEnumerable<string\>\)
 
 The radk as heat rate per volume result from one node (i) to multiple nodes (j) declared
 
@@ -325,7 +325,7 @@ The target nodes (j) for the exchange factors
 
 DataArray of values in the order of the toNode names provided
 
-### <a id="OpenTD_Results_Dataset_RadkDatabase_GetHeatRateFromNode_System_String_System_Collections_Generic_IEnumerable_System_String__"></a> GetHeatRateFromNode\(string, IEnumerable<string\>\)
+### GetHeatRateFromNode\(string, IEnumerable<string\>\)
 
 The radk as heatrate result from one node (i) to multiple nodes (j) declared
 
@@ -349,7 +349,7 @@ The target nodes (j) for the exchange factors
 
 DataArray of values in the order of the toNode names provided
 
-### <a id="OpenTD_Results_Dataset_RadkDatabase_GetHemisphericalEmissivity_System_Collections_Generic_IEnumerable_System_String__"></a> GetHemisphericalEmissivity\(IEnumerable<string\>\)
+### GetHemisphericalEmissivity\(IEnumerable<string\>\)
 
 The Hemispherical Emissivity of the node names provided
 
@@ -369,7 +369,7 @@ array of nodes names to get the results for
 
 DataArray of values in the order of the node names provided
 
-### <a id="OpenTD_Results_Dataset_RadkDatabase_GetNumOfRays_System_Collections_Generic_IEnumerable_System_String__"></a> GetNumOfRays\(IEnumerable<string\>\)
+### GetNumOfRays\(IEnumerable<string\>\)
 
 The number of rays shot for each node name provided
 
@@ -389,7 +389,7 @@ array of nodes names to get the results for
 
 DataArray of values in the order of the node names provided
 
-### <a id="OpenTD_Results_Dataset_RadkDatabase_GetRadkNodeNames"></a> GetRadkNodeNames\(\)
+### GetRadkNodeNames\(\)
 
 Returns all node names in SINDA order, could be useful?
 
@@ -401,7 +401,7 @@ public List<string> GetRadkNodeNames()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_Results_Dataset_RadkDatabase_GetWeightedError_System_Collections_Generic_IEnumerable_System_String__"></a> GetWeightedError\(IEnumerable<string\>\)
+### GetWeightedError\(IEnumerable<string\>\)
 
 THe weighted error for each node name provided
 
@@ -420,4 +420,5 @@ array of nodes names to get the results for
  [DataArray](OpenTD.Results.Dataset.DataArray.md)
 
 DataArray of values in the order of the node names provided
+
 

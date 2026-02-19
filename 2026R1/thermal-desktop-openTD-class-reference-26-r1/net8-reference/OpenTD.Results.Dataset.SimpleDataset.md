@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_SimpleDataset"></a> Class SimpleDataset
+# Class SimpleDataset
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -13,7 +13,7 @@ Implements the <xref href="OpenTD.Results.Dataset.IDataset" data-throw-if-not-re
 public abstract class SimpleDataset : Dataset, ISimpleDataset, IDataset
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Dataset](OpenTD.Results.Dataset.Dataset.md) ← 
@@ -24,12 +24,12 @@ public abstract class SimpleDataset : Dataset, ISimpleDataset, IDataset
 [SpreadsheetDataFile](OpenTD.Results.Dataset.SpreadsheetDataFile.md), 
 [TextTransientFile](OpenTD.Results.Dataset.TextTransientFile.md)
 
-#### Implements
+## Implements
 
 [ISimpleDataset](OpenTD.Results.Dataset.ISimpleDataset.md), 
 [IDataset](OpenTD.Results.Dataset.IDataset.md)
 
-#### Inherited Members
+## Inherited Members
 
 [Dataset.GetData\(DataItemIdentifierCollection\)](OpenTD.Results.Dataset.Dataset.md\#OpenTD\_Results\_Dataset\_Dataset\_GetData\_OpenTD\_Results\_Dataset\_DataItemIdentifierCollection\_), 
 [Dataset.GetUdcaData\(DataItemIdentifierCollection\)](OpenTD.Results.Dataset.Dataset.md\#OpenTD\_Results\_Dataset\_Dataset\_GetUdcaData\_OpenTD\_Results\_Dataset\_DataItemIdentifierCollection\_), 
@@ -98,13 +98,13 @@ public abstract class SimpleDataset : Dataset, ISimpleDataset, IDataset
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_SimpleDataset_Close"></a> Close\(\)
+### Close\(\)
 
 ```csharp
 public override void Close()
 ```
 
-### <a id="OpenTD_Results_Dataset_SimpleDataset_GetAllData_System_Boolean_"></a> GetAllData\(bool\)
+### GetAllData\(bool\)
 
 ```csharp
 public abstract DataArrayCollection GetAllData(bool includeXDataAsFirstArray = true)
@@ -118,7 +118,7 @@ public abstract DataArrayCollection GetAllData(bool includeXDataAsFirstArray = t
 
  [DataArrayCollection](OpenTD.Results.Dataset.DataArrayCollection.md)
 
-### <a id="OpenTD_Results_Dataset_SimpleDataset_GetData_OpenTD_Results_Dataset_DataItemIdentifierCollection_"></a> GetData\(DataItemIdentifierCollection\)
+### GetData\(DataItemIdentifierCollection\)
 
 Gets data for a collection of data items (e.g., "MAIN.T10", "FLOW.TL40", etc.).
 
@@ -136,7 +136,7 @@ public override DataArrayCollection GetData(DataItemIdentifierCollection dataIte
 
 A <code>DataArrayCollection</code> for the requested dataItems.
 
-### <a id="OpenTD_Results_Dataset_SimpleDataset_GetUdcaData_OpenTD_Results_Dataset_DataItemIdentifierCollection_"></a> GetUdcaData\(DataItemIdentifierCollection\)
+### GetUdcaData\(DataItemIdentifierCollection\)
 
 Gets data for a collection of data items representing character UDFAs.
 
@@ -161,7 +161,7 @@ A <code>DataArrayCollection</code> for the requested dataItems.
 Thrown if any of items in dataItems
     do not specify character UDFAs
 
-### <a id="OpenTD_Results_Dataset_SimpleDataset_ReOpen"></a> ReOpen\(\)
+### ReOpen\(\)
 
 ```csharp
 public override void ReOpen()
@@ -172,4 +172,5 @@ public override void ReOpen()
 [Dataset](OpenTD.Results.Dataset.Dataset.md), 
 [ISimpleDataset](OpenTD.Results.Dataset.ISimpleDataset.md), 
 [IDataset](OpenTD.Results.Dataset.IDataset.md)
+
 

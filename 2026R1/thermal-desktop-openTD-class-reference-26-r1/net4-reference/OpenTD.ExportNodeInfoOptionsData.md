@@ -1,4 +1,4 @@
-# <a id="OpenTD_ExportNodeInfoOptionsData"></a> Class ExportNodeInfoOptionsData
+# Class ExportNodeInfoOptionsData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -12,12 +12,12 @@ write node info to the screen or to a file.
 public class ExportNodeInfoOptionsData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ExportNodeInfoOptionsData](OpenTD.ExportNodeInfoOptionsData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -29,7 +29,7 @@ public class ExportNodeInfoOptionsData
 
 ## Constructors
 
-### <a id="OpenTD_ExportNodeInfoOptionsData__ctor"></a> ExportNodeInfoOptionsData\(\)
+### ExportNodeInfoOptionsData\(\)
 
 ```csharp
 public ExportNodeInfoOptionsData()
@@ -37,7 +37,7 @@ public ExportNodeInfoOptionsData()
 
 ## Properties
 
-### <a id="OpenTD_ExportNodeInfoOptionsData_Filename"></a> Filename
+### Filename
 
 ```csharp
 [DataMember]
@@ -48,7 +48,7 @@ public RootedPathname Filename { get; set; }
 
  [RootedPathname](OpenTD.Utility.RootedPathname.md)
 
-### <a id="OpenTD_ExportNodeInfoOptionsData_Format"></a> Format
+### Format
 
 ```csharp
 [DataMember]
@@ -59,7 +59,7 @@ public string Format { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_ExportNodeInfoOptionsData_OutputComments"></a> OutputComments
+### OutputComments
 
 ```csharp
 [DataMember]
@@ -70,7 +70,7 @@ public bool OutputComments { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_ExportNodeInfoOptionsData_OutputDestination"></a> OutputDestination
+### OutputDestination
 
 ```csharp
 [DataMember]
@@ -81,7 +81,7 @@ public ExportNodeInfoOptionsData.Destinations OutputDestination { get; set; }
 
  [ExportNodeInfoOptionsData](OpenTD.ExportNodeInfoOptionsData.md).[Destinations](OpenTD.ExportNodeInfoOptionsData.Destinations.md)
 
-### <a id="OpenTD_ExportNodeInfoOptionsData_OutputLocation"></a> OutputLocation
+### OutputLocation
 
 ```csharp
 [DataMember]
@@ -92,7 +92,7 @@ public ExportNodeInfoOptionsData.Locations OutputLocation { get; set; }
 
  [ExportNodeInfoOptionsData](OpenTD.ExportNodeInfoOptionsData.md).[Locations](OpenTD.ExportNodeInfoOptionsData.Locations.md)
 
-### <a id="OpenTD_ExportNodeInfoOptionsData_OutputMeasureLocation"></a> OutputMeasureLocation
+### OutputMeasureLocation
 
 ```csharp
 public bool OutputMeasureLocation { get; set; }
@@ -102,7 +102,7 @@ public bool OutputMeasureLocation { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_ExportNodeInfoOptionsData_OutputPostProcessedData"></a> OutputPostProcessedData
+### OutputPostProcessedData
 
 ```csharp
 [DataMember]
@@ -113,7 +113,7 @@ public ExportNodeInfoOptionsData.Datasets OutputPostProcessedData { get; set; }
 
  [ExportNodeInfoOptionsData](OpenTD.ExportNodeInfoOptionsData.md).[Datasets](OpenTD.ExportNodeInfoOptionsData.Datasets.md)
 
-### <a id="OpenTD_ExportNodeInfoOptionsData_OutputSurfaceArea"></a> OutputSurfaceArea
+### OutputSurfaceArea
 
 ```csharp
 [DataMember]
@@ -127,4 +127,5 @@ public bool OutputSurfaceArea { get; set; }
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md).[ExportNodeInfo](OpenTD.ThermalDesktop.md\#OpenTD\_ThermalDesktop\_ExportNodeInfo\_OpenTD\_ExportNodeInfoOptionsData\_)\([ExportNodeInfoOptionsData](OpenTD.ExportNodeInfoOptionsData.md)\)
+
 

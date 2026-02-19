@@ -1,4 +1,4 @@
-# <a id="OpenTD_MeasureMappingTolerances"></a> Class MeasureMappingTolerances
+# Class MeasureMappingTolerances
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,17 +10,17 @@ Use to get and set mapping tolerances for Measures.
 public class MeasureMappingTolerances : OpenTDObject, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
 [MeasureMappingTolerances](OpenTD.MeasureMappingTolerances.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [OpenTDObject.SetFrom\(OpenTDObject\)](OpenTD.OpenTDObject.md\#OpenTD\_OpenTDObject\_SetFrom\_OpenTD\_OpenTDObject\_), 
 [OpenTDObject.Update\(\)](OpenTD.OpenTDObject.md\#OpenTD\_OpenTDObject\_Update), 
@@ -38,7 +38,7 @@ public class MeasureMappingTolerances : OpenTDObject, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_MeasureMappingTolerances__ctor"></a> MeasureMappingTolerances\(\)
+### MeasureMappingTolerances\(\)
 
 ```csharp
 public MeasureMappingTolerances()
@@ -46,7 +46,7 @@ public MeasureMappingTolerances()
 
 ## Properties
 
-### <a id="OpenTD_MeasureMappingTolerances_IgnoreThicknessForMappingIfGenCondCapOff"></a> IgnoreThicknessForMappingIfGenCondCapOff
+### IgnoreThicknessForMappingIfGenCondCapOff
 
 ```csharp
 [DataMember]
@@ -57,7 +57,7 @@ public int IgnoreThicknessForMappingIfGenCondCapOff { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_MeasureMappingTolerances_Tolerances"></a> Tolerances
+### Tolerances
 
 ```csharp
 [DataMember]
@@ -68,7 +68,7 @@ public DimensionalList<ModelLength> Tolerances { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_MeasureMappingTolerances_UseAdvancedMapMethod"></a> UseAdvancedMapMethod
+### UseAdvancedMapMethod
 
 ```csharp
 [DataMember]
@@ -81,7 +81,7 @@ public int UseAdvancedMapMethod { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_MeasureMappingTolerances_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -93,7 +93,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_MeasureMappingTolerances_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -101,7 +101,7 @@ Updates the TD entity with the latest client data.
 public override void Update()
 ```
 
-### <a id="OpenTD_MeasureMappingTolerances_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -113,4 +113,5 @@ public override void UpdateFromTD()
 
 [Measure](OpenTD.Measure.md), 
 [ThermalDesktop](OpenTD.ThermalDesktop.md).[GetMeasureMappingTolerances](OpenTD.ThermalDesktop.md\#OpenTD\_ThermalDesktop\_GetMeasureMappingTolerances)\(\)
+
 

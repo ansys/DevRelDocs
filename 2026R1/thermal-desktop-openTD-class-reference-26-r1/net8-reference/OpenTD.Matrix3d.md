@@ -1,4 +1,4 @@
-# <a id="OpenTD_Matrix3d"></a> Class Matrix3d
+# Class Matrix3d
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,10 +6,11 @@ Assembly: OpenTD.dll
 A 4x4 matrix.
 
 ```csharp
+[MessagePackObject(true)]
 public class Matrix3d
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Matrix3d](OpenTD.Matrix3d.md)
@@ -18,7 +19,7 @@ public class Matrix3d
 
 [UCS](OpenTD.UCS.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -30,13 +31,13 @@ public class Matrix3d
 
 ## Constructors
 
-### <a id="OpenTD_Matrix3d__ctor"></a> Matrix3d\(\)
+### Matrix3d\(\)
 
 ```csharp
 public Matrix3d()
 ```
 
-### <a id="OpenTD_Matrix3d__ctor_OpenTD_Matrix3d_"></a> Matrix3d\(Matrix3d\)
+### Matrix3d\(Matrix3d\)
 
 ```csharp
 public Matrix3d(Matrix3d x)
@@ -48,7 +49,7 @@ public Matrix3d(Matrix3d x)
 
 ## Properties
 
-### <a id="OpenTD_Matrix3d_entry"></a> entry
+### entry
 
 ```csharp
 public double[][] entry { get; set; }
@@ -60,7 +61,7 @@ public double[][] entry { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Matrix3d_GetCoordSystem_OpenTD_Point3d_OpenTD_Vector3d_OpenTD_Vector3d_OpenTD_Vector3d_"></a> GetCoordSystem\(Point3d, Vector3d, Vector3d, Vector3d\)
+### GetCoordSystem\(Point3d, Vector3d, Vector3d, Vector3d\)
 
 ```csharp
 public void GetCoordSystem(Point3d origin, Vector3d x, Vector3d y, Vector3d z)
@@ -76,7 +77,7 @@ public void GetCoordSystem(Point3d origin, Vector3d x, Vector3d y, Vector3d z)
 
 `z` [Vector3d](OpenTD.Vector3d.md)
 
-### <a id="OpenTD_Matrix3d_GetOrigin"></a> GetOrigin\(\)
+### GetOrigin\(\)
 
 ```csharp
 public Point3d GetOrigin()
@@ -86,7 +87,7 @@ public Point3d GetOrigin()
 
  [Point3d](OpenTD.Point3d.md)
 
-### <a id="OpenTD_Matrix3d_Inverse"></a> Inverse\(\)
+### Inverse\(\)
 
 ```csharp
 public Matrix3d Inverse()
@@ -96,7 +97,7 @@ public Matrix3d Inverse()
 
  [Matrix3d](OpenTD.Matrix3d.md)
 
-### <a id="OpenTD_Matrix3d_Invert"></a> Invert\(\)
+### Invert\(\)
 
 ```csharp
 public Matrix3d Invert()
@@ -106,7 +107,7 @@ public Matrix3d Invert()
 
  [Matrix3d](OpenTD.Matrix3d.md)
 
-### <a id="OpenTD_Matrix3d_PostMultBy_OpenTD_Matrix3d_"></a> PostMultBy\(Matrix3d\)
+### PostMultBy\(Matrix3d\)
 
 ```csharp
 public Matrix3d PostMultBy(Matrix3d m)
@@ -120,7 +121,7 @@ public Matrix3d PostMultBy(Matrix3d m)
 
  [Matrix3d](OpenTD.Matrix3d.md)
 
-### <a id="OpenTD_Matrix3d_SetCoordSystem_OpenTD_Point3d_OpenTD_Vector3d_OpenTD_Vector3d_OpenTD_Vector3d_"></a> SetCoordSystem\(Point3d, Vector3d, Vector3d, Vector3d\)
+### SetCoordSystem\(Point3d, Vector3d, Vector3d, Vector3d\)
 
 ```csharp
 public Matrix3d SetCoordSystem(Point3d origin, Vector3d x, Vector3d y, Vector3d z)
@@ -140,7 +141,7 @@ public Matrix3d SetCoordSystem(Point3d origin, Vector3d x, Vector3d y, Vector3d 
 
  [Matrix3d](OpenTD.Matrix3d.md)
 
-### <a id="OpenTD_Matrix3d_SetFrom_OpenTD_Matrix3d_"></a> SetFrom\(Matrix3d\)
+### SetFrom\(Matrix3d\)
 
 ```csharp
 public Matrix3d SetFrom(Matrix3d m)
@@ -154,7 +155,7 @@ public Matrix3d SetFrom(Matrix3d m)
 
  [Matrix3d](OpenTD.Matrix3d.md)
 
-### <a id="OpenTD_Matrix3d_SetOrigin_OpenTD_Point3d_"></a> SetOrigin\(Point3d\)
+### SetOrigin\(Point3d\)
 
 ```csharp
 public Matrix3d SetOrigin(Point3d value)
@@ -168,7 +169,7 @@ public Matrix3d SetOrigin(Point3d value)
 
  [Matrix3d](OpenTD.Matrix3d.md)
 
-### <a id="OpenTD_Matrix3d_SetToIdentity_System_Boolean_"></a> SetToIdentity\(bool\)
+### SetToIdentity\(bool\)
 
 ```csharp
 public Matrix3d SetToIdentity(bool noCheck = false)
@@ -182,7 +183,7 @@ public Matrix3d SetToIdentity(bool noCheck = false)
 
  [Matrix3d](OpenTD.Matrix3d.md)
 
-### <a id="OpenTD_Matrix3d_SetToRotX_OpenTD_Dimension_Dimensional_OpenTD_Dimension_Angle__"></a> SetToRotX\(Dimensional<Angle\>\)
+### SetToRotX\(Dimensional<Angle\>\)
 
 ```csharp
 public Matrix3d SetToRotX(Dimensional<Angle> ang)
@@ -196,7 +197,7 @@ public Matrix3d SetToRotX(Dimensional<Angle> ang)
 
  [Matrix3d](OpenTD.Matrix3d.md)
 
-### <a id="OpenTD_Matrix3d_SetToRotY_OpenTD_Dimension_Dimensional_OpenTD_Dimension_Angle__"></a> SetToRotY\(Dimensional<Angle\>\)
+### SetToRotY\(Dimensional<Angle\>\)
 
 ```csharp
 public Matrix3d SetToRotY(Dimensional<Angle> ang)
@@ -210,7 +211,7 @@ public Matrix3d SetToRotY(Dimensional<Angle> ang)
 
  [Matrix3d](OpenTD.Matrix3d.md)
 
-### <a id="OpenTD_Matrix3d_SetToRotZ_OpenTD_Dimension_Dimensional_OpenTD_Dimension_Angle__"></a> SetToRotZ\(Dimensional<Angle\>\)
+### SetToRotZ\(Dimensional<Angle\>\)
 
 ```csharp
 public Matrix3d SetToRotZ(Dimensional<Angle> ang)
@@ -224,7 +225,7 @@ public Matrix3d SetToRotZ(Dimensional<Angle> ang)
 
  [Matrix3d](OpenTD.Matrix3d.md)
 
-### <a id="OpenTD_Matrix3d_SetToRotation_OpenTD_Dimension_Dimensional_OpenTD_Dimension_Angle__OpenTD_Vector3d_OpenTD_Point3d_"></a> SetToRotation\(Dimensional<Angle\>, Vector3d, Point3d\)
+### SetToRotation\(Dimensional<Angle\>, Vector3d, Point3d\)
 
 ```csharp
 public Matrix3d SetToRotation(Dimensional<Angle> ang, Vector3d _axis, Point3d center)
@@ -242,7 +243,7 @@ public Matrix3d SetToRotation(Dimensional<Angle> ang, Vector3d _axis, Point3d ce
 
  [Matrix3d](OpenTD.Matrix3d.md)
 
-### <a id="OpenTD_Matrix3d_SetToZero_System_Boolean_"></a> SetToZero\(bool\)
+### SetToZero\(bool\)
 
 ```csharp
 public Matrix3d SetToZero(bool noCheck = false)
@@ -256,7 +257,7 @@ public Matrix3d SetToZero(bool noCheck = false)
 
  [Matrix3d](OpenTD.Matrix3d.md)
 
-### <a id="OpenTD_Matrix3d_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -272,7 +273,7 @@ A string that represents the current object.
 
 ## Operators
 
-### <a id="OpenTD_Matrix3d_op_Multiply_OpenTD_Matrix3d_OpenTD_Vector3d_"></a> operator \*\(Matrix3d, Vector3d\)
+### operator \*\(Matrix3d, Vector3d\)
 
 ```csharp
 public static Vector3d operator *(Matrix3d m, Vector3d v)
@@ -288,7 +289,7 @@ public static Vector3d operator *(Matrix3d m, Vector3d v)
 
  [Vector3d](OpenTD.Vector3d.md)
 
-### <a id="OpenTD_Matrix3d_op_Multiply_OpenTD_Matrix3d_OpenTD_Point3d_"></a> operator \*\(Matrix3d, Point3d\)
+### operator \*\(Matrix3d, Point3d\)
 
 ```csharp
 public static Point3d operator *(Matrix3d m, Point3d p)
@@ -304,7 +305,7 @@ public static Point3d operator *(Matrix3d m, Point3d p)
 
  [Point3d](OpenTD.Point3d.md)
 
-### <a id="OpenTD_Matrix3d_op_Multiply_OpenTD_Matrix3d_OpenTD_Matrix3d_"></a> operator \*\(Matrix3d, Matrix3d\)
+### operator \*\(Matrix3d, Matrix3d\)
 
 ```csharp
 public static Matrix3d operator *(Matrix3d a, Matrix3d b)
@@ -319,4 +320,5 @@ public static Matrix3d operator *(Matrix3d a, Matrix3d b)
 #### Returns
 
  [Matrix3d](OpenTD.Matrix3d.md)
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_Quaternion"></a> Class Quaternion
+# Class Quaternion
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -7,15 +7,16 @@ Describes a mathematical quaternion. Used, for example, to describe material
 orientation in solid finite elements.
 
 ```csharp
+[MessagePackObject(true)]
 public class Quaternion
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Quaternion](OpenTD.Quaternion.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -27,13 +28,13 @@ public class Quaternion
 
 ## Constructors
 
-### <a id="OpenTD_Quaternion__ctor"></a> Quaternion\(\)
+### Quaternion\(\)
 
 ```csharp
 public Quaternion()
 ```
 
-### <a id="OpenTD_Quaternion__ctor_System_Double_"></a> Quaternion\(double\)
+### Quaternion\(double\)
 
 ```csharp
 public Quaternion(double _s)
@@ -43,7 +44,7 @@ public Quaternion(double _s)
 
 `_s` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Quaternion__ctor_System_Double_System_Double_System_Double_System_Double_"></a> Quaternion\(double, double, double, double\)
+### Quaternion\(double, double, double, double\)
 
 ```csharp
 public Quaternion(double _s, double x, double y, double z)
@@ -59,7 +60,7 @@ public Quaternion(double _s, double x, double y, double z)
 
 `z` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Quaternion__ctor_System_Double_OpenTD_Vector3d_"></a> Quaternion\(double, Vector3d\)
+### Quaternion\(double, Vector3d\)
 
 ```csharp
 public Quaternion(double _s, Vector3d _v)
@@ -71,7 +72,7 @@ public Quaternion(double _s, Vector3d _v)
 
 `_v` [Vector3d](OpenTD.Vector3d.md)
 
-### <a id="OpenTD_Quaternion__ctor_OpenTD_Quaternion_"></a> Quaternion\(Quaternion\)
+### Quaternion\(Quaternion\)
 
 ```csharp
 public Quaternion(Quaternion q)
@@ -81,7 +82,7 @@ public Quaternion(Quaternion q)
 
 `q` [Quaternion](OpenTD.Quaternion.md)
 
-### <a id="OpenTD_Quaternion__ctor_OpenTD_Matrix3d_"></a> Quaternion\(Matrix3d\)
+### Quaternion\(Matrix3d\)
 
 ```csharp
 public Quaternion(Matrix3d m)
@@ -93,7 +94,7 @@ public Quaternion(Matrix3d m)
 
 ## Properties
 
-### <a id="OpenTD_Quaternion_s"></a> s
+### s
 
 ```csharp
 public Dimensional<ModelLength> s { get; set; }
@@ -103,7 +104,7 @@ public Dimensional<ModelLength> s { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_Quaternion_v"></a> v
+### v
 
 ```csharp
 public Vector3d v { get; set; }
@@ -115,7 +116,7 @@ public Vector3d v { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Quaternion_Average_System_Collections_Generic_List_System_Double__System_Collections_Generic_List_OpenTD_Quaternion__"></a> Average\(List<double\>, List<Quaternion\>\)
+### Average\(List<double\>, List<Quaternion\>\)
 
 ```csharp
 public static Quaternion Average(List<double> w, List<Quaternion> q)
@@ -131,7 +132,7 @@ public static Quaternion Average(List<double> w, List<Quaternion> q)
 
  [Quaternion](OpenTD.Quaternion.md)
 
-### <a id="OpenTD_Quaternion_Conjugate"></a> Conjugate\(\)
+### Conjugate\(\)
 
 ```csharp
 public Quaternion Conjugate()
@@ -141,7 +142,7 @@ public Quaternion Conjugate()
 
  [Quaternion](OpenTD.Quaternion.md)
 
-### <a id="OpenTD_Quaternion_DotProduct_OpenTD_Quaternion_"></a> DotProduct\(Quaternion\)
+### DotProduct\(Quaternion\)
 
 ```csharp
 public double DotProduct(Quaternion q)
@@ -155,7 +156,7 @@ public double DotProduct(Quaternion q)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Quaternion_Exp_OpenTD_Quaternion_"></a> Exp\(Quaternion\)
+### Exp\(Quaternion\)
 
 ```csharp
 public static Quaternion Exp(Quaternion q)
@@ -169,7 +170,7 @@ public static Quaternion Exp(Quaternion q)
 
  [Quaternion](OpenTD.Quaternion.md)
 
-### <a id="OpenTD_Quaternion_Inverse"></a> Inverse\(\)
+### Inverse\(\)
 
 ```csharp
 public Quaternion Inverse()
@@ -179,7 +180,7 @@ public Quaternion Inverse()
 
  [Quaternion](OpenTD.Quaternion.md)
 
-### <a id="OpenTD_Quaternion_Ln_OpenTD_Quaternion_"></a> Ln\(Quaternion\)
+### Ln\(Quaternion\)
 
 ```csharp
 public static Quaternion Ln(Quaternion q)
@@ -193,7 +194,7 @@ public static Quaternion Ln(Quaternion q)
 
  [Quaternion](OpenTD.Quaternion.md)
 
-### <a id="OpenTD_Quaternion_Norm"></a> Norm\(\)
+### Norm\(\)
 
 ```csharp
 public double Norm()
@@ -203,13 +204,13 @@ public double Norm()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Quaternion_Normalize"></a> Normalize\(\)
+### Normalize\(\)
 
 ```csharp
 public void Normalize()
 ```
 
-### <a id="OpenTD_Quaternion_Pow_OpenTD_Quaternion_System_Double_"></a> Pow\(Quaternion, double\)
+### Pow\(Quaternion, double\)
 
 ```csharp
 public static Quaternion Pow(Quaternion b, double exponent)
@@ -225,7 +226,7 @@ public static Quaternion Pow(Quaternion b, double exponent)
 
  [Quaternion](OpenTD.Quaternion.md)
 
-### <a id="OpenTD_Quaternion_Slerp_OpenTD_Quaternion_OpenTD_Quaternion_System_Double_"></a> Slerp\(Quaternion, Quaternion, double\)
+### Slerp\(Quaternion, Quaternion, double\)
 
 ```csharp
 public static Quaternion Slerp(Quaternion q0, Quaternion q1, double t)
@@ -245,7 +246,7 @@ public static Quaternion Slerp(Quaternion q0, Quaternion q1, double t)
 
 ## Operators
 
-### <a id="OpenTD_Quaternion_op_Addition_OpenTD_Quaternion_OpenTD_Quaternion_"></a> operator \+\(Quaternion, Quaternion\)
+### operator \+\(Quaternion, Quaternion\)
 
 ```csharp
 public static Quaternion operator +(Quaternion p, Quaternion q)
@@ -261,7 +262,7 @@ public static Quaternion operator +(Quaternion p, Quaternion q)
 
  [Quaternion](OpenTD.Quaternion.md)
 
-### <a id="OpenTD_Quaternion_op_Division_OpenTD_Quaternion_System_Double_"></a> operator /\(Quaternion, double\)
+### operator /\(Quaternion, double\)
 
 ```csharp
 public static Quaternion operator /(Quaternion p, double r)
@@ -277,7 +278,7 @@ public static Quaternion operator /(Quaternion p, double r)
 
  [Quaternion](OpenTD.Quaternion.md)
 
-### <a id="OpenTD_Quaternion_op_Implicit_OpenTD_Quaternion__OpenTD_Matrix3d"></a> implicit operator Matrix3d\(Quaternion\)
+### implicit operator Matrix3d\(Quaternion\)
 
 ```csharp
 public static implicit operator Matrix3d(Quaternion q)
@@ -291,7 +292,7 @@ public static implicit operator Matrix3d(Quaternion q)
 
  [Matrix3d](OpenTD.Matrix3d.md)
 
-### <a id="OpenTD_Quaternion_op_Multiply_OpenTD_Quaternion_OpenTD_Quaternion_"></a> operator \*\(Quaternion, Quaternion\)
+### operator \*\(Quaternion, Quaternion\)
 
 ```csharp
 public static Quaternion operator *(Quaternion p, Quaternion q)
@@ -307,7 +308,7 @@ public static Quaternion operator *(Quaternion p, Quaternion q)
 
  [Quaternion](OpenTD.Quaternion.md)
 
-### <a id="OpenTD_Quaternion_op_Multiply_OpenTD_Quaternion_System_Double_"></a> operator \*\(Quaternion, double\)
+### operator \*\(Quaternion, double\)
 
 ```csharp
 public static Quaternion operator *(Quaternion p, double r)
@@ -323,7 +324,7 @@ public static Quaternion operator *(Quaternion p, double r)
 
  [Quaternion](OpenTD.Quaternion.md)
 
-### <a id="OpenTD_Quaternion_op_Subtraction_OpenTD_Quaternion_OpenTD_Quaternion_"></a> operator \-\(Quaternion, Quaternion\)
+### operator \-\(Quaternion, Quaternion\)
 
 ```csharp
 public static Quaternion operator -(Quaternion p, Quaternion q)
@@ -339,7 +340,7 @@ public static Quaternion operator -(Quaternion p, Quaternion q)
 
  [Quaternion](OpenTD.Quaternion.md)
 
-### <a id="OpenTD_Quaternion_op_UnaryNegation_OpenTD_Quaternion_"></a> operator \-\(Quaternion\)
+### operator \-\(Quaternion\)
 
 ```csharp
 public static Quaternion operator -(Quaternion q)
@@ -356,4 +357,5 @@ public static Quaternion operator -(Quaternion q)
 ## See Also
 
 [FEMeshImporter](OpenTD.RadCAD.FEMeshImporter.md)
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadiationTaskData"></a> Class RadiationTaskData
+# Class RadiationTaskData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ Data describing a radiation task.
 public class RadiationTaskData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [RadiationTaskData](OpenTD.RadiationTaskData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,7 +27,7 @@ public class RadiationTaskData
 
 ## Constructors
 
-### <a id="OpenTD_RadiationTaskData__ctor"></a> RadiationTaskData\(\)
+### RadiationTaskData\(\)
 
 ```csharp
 public RadiationTaskData()
@@ -35,7 +35,7 @@ public RadiationTaskData()
 
 ## Properties
 
-### <a id="OpenTD_RadiationTaskData_AddAnalPropList"></a> AddAnalPropList
+### AddAnalPropList
 
 ```csharp
 [DataMember]
@@ -46,7 +46,7 @@ public List<AdditionalRadiationTaskData> AddAnalPropList { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[AdditionalRadiationTaskData](OpenTD.AdditionalRadiationTaskData.md)\>
 
-### <a id="OpenTD_RadiationTaskData_AddNoneOutputFileNameOrCaseNameToDatabaseName"></a> AddNoneOutputFileNameOrCaseNameToDatabaseName
+### AddNoneOutputFileNameOrCaseNameToDatabaseName
 
 ```csharp
 [DataMember]
@@ -57,7 +57,7 @@ public int AddNoneOutputFileNameOrCaseNameToDatabaseName { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_AdditionalBijSum"></a> AdditionalBijSum
+### AdditionalBijSum
 
 ```csharp
 [DataMember]
@@ -68,7 +68,7 @@ public double AdditionalBijSum { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadiationTaskData_AdditionalBijSumExp"></a> AdditionalBijSumExp
+### AdditionalBijSumExp
 
 ```csharp
 [DataMember]
@@ -79,7 +79,7 @@ public ExpressionData AdditionalBijSumExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadiationTaskData_AnalGroup"></a> AnalGroup
+### AnalGroup
 
 ```csharp
 [DataMember]
@@ -90,7 +90,7 @@ public string AnalGroup { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadiationTaskData_ApplyReciprocity"></a> ApplyReciprocity
+### ApplyReciprocity
 
 ```csharp
 [DataMember]
@@ -101,7 +101,7 @@ public int ApplyReciprocity { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_AverageRayLengthFilename"></a> AverageRayLengthFilename
+### AverageRayLengthFilename
 
 ```csharp
 [DataMember]
@@ -112,7 +112,7 @@ public string AverageRayLengthFilename { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadiationTaskData_BijCutoff"></a> BijCutoff
+### BijCutoff
 
 ```csharp
 [DataMember]
@@ -123,7 +123,7 @@ public double BijCutoff { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadiationTaskData_BijCutoffExp"></a> BijCutoffExp
+### BijCutoffExp
 
 ```csharp
 [DataMember]
@@ -134,7 +134,7 @@ public ExpressionData BijCutoffExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadiationTaskData_BijSumRemainderNode"></a> BijSumRemainderNode
+### BijSumRemainderNode
 
 ```csharp
 [DataMember]
@@ -145,7 +145,7 @@ public string BijSumRemainderNode { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadiationTaskData_CalcNodesType"></a> CalcNodesType
+### CalcNodesType
 
 ```csharp
 [DataMember]
@@ -156,7 +156,7 @@ public int CalcNodesType { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_CalcPosType"></a> CalcPosType
+### CalcPosType
 
 ```csharp
 [DataMember]
@@ -167,7 +167,7 @@ public int CalcPosType { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_CellSubdivisions"></a> CellSubdivisions
+### CellSubdivisions
 
 ```csharp
 [DataMember]
@@ -178,7 +178,7 @@ public int CellSubdivisions { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_CellSubdivisionsExp"></a> CellSubdivisionsExp
+### CellSubdivisionsExp
 
 ```csharp
 [DataMember]
@@ -189,7 +189,7 @@ public ExpressionData CellSubdivisionsExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadiationTaskData_CellSurfaces"></a> CellSurfaces
+### CellSurfaces
 
 ```csharp
 [DataMember]
@@ -200,7 +200,7 @@ public int CellSurfaces { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_CellSurfacesExp"></a> CellSurfacesExp
+### CellSurfacesExp
 
 ```csharp
 [DataMember]
@@ -211,7 +211,7 @@ public ExpressionData CellSurfacesExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadiationTaskData_CombineArray"></a> CombineArray
+### CombineArray
 
 ```csharp
 [DataMember]
@@ -222,7 +222,7 @@ public int CombineArray { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_DeleteDatabaseAfterOutputIsGenerated"></a> DeleteDatabaseAfterOutputIsGenerated
+### DeleteDatabaseAfterOutputIsGenerated
 
 ```csharp
 [DataMember]
@@ -233,7 +233,7 @@ public int DeleteDatabaseAfterOutputIsGenerated { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_DisabledTrackerHandles"></a> DisabledTrackerHandles
+### DisabledTrackerHandles
 
 ```csharp
 [DataMember]
@@ -244,7 +244,7 @@ public List<string> DisabledTrackerHandles { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadiationTaskData_DoOverlapSurfaceCheck"></a> DoOverlapSurfaceCheck
+### DoOverlapSurfaceCheck
 
 ```csharp
 [DataMember]
@@ -255,7 +255,7 @@ public int DoOverlapSurfaceCheck { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_EnableWaveLengthDepCalcs"></a> EnableWaveLengthDepCalcs
+### EnableWaveLengthDepCalcs
 
 ```csharp
 [DataMember]
@@ -266,7 +266,7 @@ public int EnableWaveLengthDepCalcs { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_FastSpin"></a> FastSpin
+### FastSpin
 
 ```csharp
 [DataMember]
@@ -277,7 +277,7 @@ public int FastSpin { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_FastSpinInclusive"></a> FastSpinInclusive
+### FastSpinInclusive
 
 ```csharp
 [DataMember]
@@ -288,7 +288,7 @@ public int FastSpinInclusive { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_FastSpinIncrement"></a> FastSpinIncrement
+### FastSpinIncrement
 
 ```csharp
 [DataMember]
@@ -299,7 +299,7 @@ public int FastSpinIncrement { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_FastSpinIncrementExp"></a> FastSpinIncrementExp
+### FastSpinIncrementExp
 
 ```csharp
 [DataMember]
@@ -310,7 +310,7 @@ public ExpressionData FastSpinIncrementExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadiationTaskData_FastSpinStart"></a> FastSpinStart
+### FastSpinStart
 
 ```csharp
 [DataMember]
@@ -321,7 +321,7 @@ public double FastSpinStart { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadiationTaskData_FastSpinStartExp"></a> FastSpinStartExp
+### FastSpinStartExp
 
 ```csharp
 [DataMember]
@@ -332,7 +332,7 @@ public ExpressionData FastSpinStartExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadiationTaskData_FastSpinStop"></a> FastSpinStop
+### FastSpinStop
 
 ```csharp
 [DataMember]
@@ -343,7 +343,7 @@ public double FastSpinStop { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadiationTaskData_FastSpinStopExp"></a> FastSpinStopExp
+### FastSpinStopExp
 
 ```csharp
 [DataMember]
@@ -354,7 +354,7 @@ public ExpressionData FastSpinStopExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadiationTaskData_FastSpinSymbol"></a> FastSpinSymbol
+### FastSpinSymbol
 
 ```csharp
 [DataMember]
@@ -365,7 +365,7 @@ public string FastSpinSymbol { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadiationTaskData_FastSpinUserList"></a> FastSpinUserList
+### FastSpinUserList
 
 ```csharp
 [DataMember]
@@ -376,7 +376,7 @@ public List<double> FastSpinUserList { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="OpenTD_RadiationTaskData_FfFilename"></a> FfFilename
+### FfFilename
 
 ```csharp
 [DataMember]
@@ -387,7 +387,7 @@ public string FfFilename { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadiationTaskData_FreeMolecularDataArray"></a> FreeMolecularDataArray
+### FreeMolecularDataArray
 
 ```csharp
 [DataMember]
@@ -398,7 +398,7 @@ public DimensionalList<CondPerArea> FreeMolecularDataArray { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[CondPerArea](OpenTD.Dimension.CondPerArea.md)\>
 
-### <a id="OpenTD_RadiationTaskData_FreeMolecularDataArrayMult"></a> FreeMolecularDataArrayMult
+### FreeMolecularDataArrayMult
 
 ```csharp
 [DataMember]
@@ -409,7 +409,7 @@ public double FreeMolecularDataArrayMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadiationTaskData_FreeMolecularDataArrayMultExp"></a> FreeMolecularDataArrayMultExp
+### FreeMolecularDataArrayMultExp
 
 ```csharp
 [DataMember]
@@ -420,7 +420,7 @@ public ExpressionData FreeMolecularDataArrayMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadiationTaskData_FreeMolecularMult"></a> FreeMolecularMult
+### FreeMolecularMult
 
 ```csharp
 [DataMember]
@@ -431,7 +431,7 @@ public Dimensional<CondPerArea> FreeMolecularMult { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[CondPerArea](OpenTD.Dimension.CondPerArea.md)\>
 
-### <a id="OpenTD_RadiationTaskData_FreeMolecularMultExp"></a> FreeMolecularMultExp
+### FreeMolecularMultExp
 
 ```csharp
 [DataMember]
@@ -442,7 +442,7 @@ public ExpressionData FreeMolecularMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadiationTaskData_FreeMolecularOpticalProp"></a> FreeMolecularOpticalProp
+### FreeMolecularOpticalProp
 
 ```csharp
 [DataMember]
@@ -453,7 +453,7 @@ public string FreeMolecularOpticalProp { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadiationTaskData_FreeMolecularTimeArray"></a> FreeMolecularTimeArray
+### FreeMolecularTimeArray
 
 ```csharp
 [DataMember]
@@ -464,7 +464,7 @@ public DimensionalList<Time> FreeMolecularTimeArray { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_RadiationTaskData_FreeMolecularUseTimeVary"></a> FreeMolecularUseTimeVary
+### FreeMolecularUseTimeVary
 
 ```csharp
 [DataMember]
@@ -475,7 +475,7 @@ public int FreeMolecularUseTimeVary { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_HeatrateAbsoluteOrFlux"></a> HeatrateAbsoluteOrFlux
+### HeatrateAbsoluteOrFlux
 
 ```csharp
 [DataMember]
@@ -486,7 +486,7 @@ public int HeatrateAbsoluteOrFlux { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_HeatrateSourceNode"></a> HeatrateSourceNode
+### HeatrateSourceNode
 
 ```csharp
 [DataMember]
@@ -497,7 +497,7 @@ public string HeatrateSourceNode { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadiationTaskData_HeatrateTimeArray"></a> HeatrateTimeArray
+### HeatrateTimeArray
 
 ```csharp
 [DataMember]
@@ -508,7 +508,7 @@ public DimensionalList<Time> HeatrateTimeArray { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_RadiationTaskData_HeatrateValue"></a> HeatrateValue
+### HeatrateValue
 
 ```csharp
 [DataMember]
@@ -519,7 +519,7 @@ public Dimensional<HeatRate> HeatrateValue { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[HeatRate](OpenTD.Dimension.HeatRate.md)\>
 
-### <a id="OpenTD_RadiationTaskData_HeatrateValueArray"></a> HeatrateValueArray
+### HeatrateValueArray
 
 ```csharp
 [DataMember]
@@ -530,7 +530,7 @@ public DimensionalList<HeatRate> HeatrateValueArray { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[HeatRate](OpenTD.Dimension.HeatRate.md)\>
 
-### <a id="OpenTD_RadiationTaskData_HeatrateValueExp"></a> HeatrateValueExp
+### HeatrateValueExp
 
 ```csharp
 [DataMember]
@@ -541,7 +541,7 @@ public ExpressionData HeatrateValueExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadiationTaskData_HrAID"></a> HrAID
+### HrAID
 
 ```csharp
 [DataMember]
@@ -552,7 +552,7 @@ public int HrAID { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_HrAIDExp"></a> HrAIDExp
+### HrAIDExp
 
 ```csharp
 [DataMember]
@@ -563,7 +563,7 @@ public ExpressionData HrAIDExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadiationTaskData_HrFilename"></a> HrFilename
+### HrFilename
 
 ```csharp
 [DataMember]
@@ -574,7 +574,7 @@ public string HrFilename { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadiationTaskData_HrPostLogic"></a> HrPostLogic
+### HrPostLogic
 
 ```csharp
 [DataMember]
@@ -585,7 +585,7 @@ public string HrPostLogic { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadiationTaskData_HrPreLogic"></a> HrPreLogic
+### HrPreLogic
 
 ```csharp
 [DataMember]
@@ -596,7 +596,7 @@ public string HrPreLogic { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadiationTaskData_HrSubmodel"></a> HrSubmodel
+### HrSubmodel
 
 ```csharp
 [DataMember]
@@ -607,7 +607,7 @@ public string HrSubmodel { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadiationTaskData_HrTimeOffset"></a> HrTimeOffset
+### HrTimeOffset
 
 ```csharp
 [DataMember]
@@ -618,7 +618,7 @@ public Dimensional<Time> HrTimeOffset { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_RadiationTaskData_HrTimeOffsetExp"></a> HrTimeOffsetExp
+### HrTimeOffsetExp
 
 ```csharp
 [DataMember]
@@ -629,7 +629,7 @@ public ExpressionData HrTimeOffsetExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadiationTaskData_HrTimeStart"></a> HrTimeStart
+### HrTimeStart
 
 ```csharp
 [DataMember]
@@ -640,7 +640,7 @@ public Dimensional<Time> HrTimeStart { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_RadiationTaskData_HrTimeStartExp"></a> HrTimeStartExp
+### HrTimeStartExp
 
 ```csharp
 [DataMember]
@@ -651,7 +651,7 @@ public ExpressionData HrTimeStartExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadiationTaskData_HrTimeStop"></a> HrTimeStop
+### HrTimeStop
 
 ```csharp
 [DataMember]
@@ -662,7 +662,7 @@ public Dimensional<Time> HrTimeStop { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_RadiationTaskData_HrTimeStopExp"></a> HrTimeStopExp
+### HrTimeStopExp
 
 ```csharp
 [DataMember]
@@ -673,7 +673,7 @@ public ExpressionData HrTimeStopExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadiationTaskData_HrUseTimeStartStop"></a> HrUseTimeStartStop
+### HrUseTimeStartStop
 
 ```csharp
 [DataMember]
@@ -684,7 +684,7 @@ public int HrUseTimeStartStop { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_ListSummary"></a> ListSummary
+### ListSummary
 
 ```csharp
 [DataMember]
@@ -695,7 +695,7 @@ public double ListSummary { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadiationTaskData_ListSummaryExp"></a> ListSummaryExp
+### ListSummaryExp
 
 ```csharp
 [DataMember]
@@ -706,7 +706,7 @@ public ExpressionData ListSummaryExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadiationTaskData_LoadQHeatingRatesBinaryOrAscii"></a> LoadQHeatingRatesBinaryOrAscii
+### LoadQHeatingRatesBinaryOrAscii
 
 ```csharp
 [DataMember]
@@ -717,7 +717,7 @@ public int LoadQHeatingRatesBinaryOrAscii { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_LoadRadksBinaryOrAscii"></a> LoadRadksBinaryOrAscii
+### LoadRadksBinaryOrAscii
 
 ```csharp
 [DataMember]
@@ -728,7 +728,7 @@ public int LoadRadksBinaryOrAscii { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_LoadgsFileRelativeOrAbsolute"></a> LoadgsFileRelativeOrAbsolute
+### LoadgsFileRelativeOrAbsolute
 
 ```csharp
 [DataMember]
@@ -739,7 +739,7 @@ public int LoadgsFileRelativeOrAbsolute { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_MaxRaysToPlot"></a> MaxRaysToPlot
+### MaxRaysToPlot
 
 ```csharp
 [DataMember]
@@ -750,7 +750,7 @@ public int MaxRaysToPlot { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_MethodCalc"></a> MethodCalc
+### MethodCalc
 
 ```csharp
 [DataMember]
@@ -761,7 +761,7 @@ public RadiationTaskData.calcMethod MethodCalc { get; set; }
 
  [RadiationTaskData](OpenTD.RadiationTaskData.md).[calcMethod](OpenTD.RadiationTaskData.calcMethod.md)
 
-### <a id="OpenTD_RadiationTaskData_NodeNameMode"></a> NodeNameMode
+### NodeNameMode
 
 ```csharp
 [DataMember]
@@ -772,7 +772,7 @@ public RadiationTaskData.NodeNameTypes NodeNameMode { get; set; }
 
  [RadiationTaskData](OpenTD.RadiationTaskData.md).[NodeNameTypes](OpenTD.RadiationTaskData.NodeNameTypes.md)
 
-### <a id="OpenTD_RadiationTaskData_OrbitName"></a> OrbitName
+### OrbitName
 
 ```csharp
 [DataMember]
@@ -783,7 +783,7 @@ public string OrbitName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadiationTaskData_OutputAdditionalBij"></a> OutputAdditionalBij
+### OutputAdditionalBij
 
 ```csharp
 [DataMember]
@@ -794,7 +794,7 @@ public int OutputAdditionalBij { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_OutputAfter"></a> OutputAfter
+### OutputAfter
 
 ```csharp
 [DataMember]
@@ -805,7 +805,7 @@ public int OutputAfter { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_OutputAlbedo"></a> OutputAlbedo
+### OutputAlbedo
 
 ```csharp
 [DataMember]
@@ -816,7 +816,7 @@ public int OutputAlbedo { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_OutputAverageRayLength"></a> OutputAverageRayLength
+### OutputAverageRayLength
 
 ```csharp
 [DataMember]
@@ -827,7 +827,7 @@ public int OutputAverageRayLength { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_OutputBijSumRemainder"></a> OutputBijSumRemainder
+### OutputBijSumRemainder
 
 ```csharp
 [DataMember]
@@ -838,7 +838,7 @@ public int OutputBijSumRemainder { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_OutputDA11MCCalls"></a> OutputDA11MCCalls
+### OutputDA11MCCalls
 
 ```csharp
 [DataMember]
@@ -849,7 +849,7 @@ public int OutputDA11MCCalls { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_OutputDiffuseSkyAlbedo"></a> OutputDiffuseSkyAlbedo
+### OutputDiffuseSkyAlbedo
 
 ```csharp
 [DataMember]
@@ -860,7 +860,7 @@ public int OutputDiffuseSkyAlbedo { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_OutputDiffuseSkyIR"></a> OutputDiffuseSkyIR
+### OutputDiffuseSkyIR
 
 ```csharp
 [DataMember]
@@ -871,7 +871,7 @@ public int OutputDiffuseSkyIR { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_OutputDiffuseSkySolar"></a> OutputDiffuseSkySolar
+### OutputDiffuseSkySolar
 
 ```csharp
 [DataMember]
@@ -882,7 +882,7 @@ public int OutputDiffuseSkySolar { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_OutputFlux"></a> OutputFlux
+### OutputFlux
 
 ```csharp
 [DataMember]
@@ -893,7 +893,7 @@ public int OutputFlux { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_OutputHrSymbolsToSinda"></a> OutputHrSymbolsToSinda
+### OutputHrSymbolsToSinda
 
 ```csharp
 [DataMember]
@@ -904,7 +904,7 @@ public int OutputHrSymbolsToSinda { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_OutputPlanet"></a> OutputPlanet
+### OutputPlanet
 
 ```csharp
 [DataMember]
@@ -915,7 +915,7 @@ public int OutputPlanet { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_OutputRadkAsHeatrate"></a> OutputRadkAsHeatrate
+### OutputRadkAsHeatrate
 
 ```csharp
 [DataMember]
@@ -926,7 +926,7 @@ public int OutputRadkAsHeatrate { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_OutputRadksAllSurfacesOnlySpaceOnly"></a> OutputRadksAllSurfacesOnlySpaceOnly
+### OutputRadksAllSurfacesOnlySpaceOnly
 
 ```csharp
 [DataMember]
@@ -937,7 +937,7 @@ public int OutputRadksAllSurfacesOnlySpaceOnly { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_OutputSolar"></a> OutputSolar
+### OutputSolar
 
 ```csharp
 [DataMember]
@@ -948,7 +948,7 @@ public int OutputSolar { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_OutputTrackerData"></a> OutputTrackerData
+### OutputTrackerData
 
 ```csharp
 [DataMember]
@@ -959,7 +959,7 @@ public int OutputTrackerData { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_OutputTrackerDataFile"></a> OutputTrackerDataFile
+### OutputTrackerDataFile
 
 ```csharp
 [DataMember]
@@ -970,7 +970,7 @@ public string OutputTrackerDataFile { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadiationTaskData_OutputVarRadksBinOrAscii"></a> OutputVarRadksBinOrAscii
+### OutputVarRadksBinOrAscii
 
 ```csharp
 [DataMember]
@@ -981,7 +981,7 @@ public int OutputVarRadksBinOrAscii { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_OverlapIntegrationInterval"></a> OverlapIntegrationInterval
+### OverlapIntegrationInterval
 
 ```csharp
 [DataMember]
@@ -992,7 +992,7 @@ public int OverlapIntegrationInterval { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_OverlapTolerance"></a> OverlapTolerance
+### OverlapTolerance
 
 ```csharp
 [DataMember]
@@ -1003,7 +1003,7 @@ public double OverlapTolerance { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadiationTaskData_OverlapWarnPer"></a> OverlapWarnPer
+### OverlapWarnPer
 
 ```csharp
 [DataMember]
@@ -1014,7 +1014,7 @@ public double OverlapWarnPer { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadiationTaskData_PlotHitRays"></a> PlotHitRays
+### PlotHitRays
 
 ```csharp
 [DataMember]
@@ -1025,7 +1025,7 @@ public int PlotHitRays { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_PlotRayLength"></a> PlotRayLength
+### PlotRayLength
 
 ```csharp
 [DataMember]
@@ -1036,7 +1036,7 @@ public double PlotRayLength { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadiationTaskData_PlotRaysHitSurface"></a> PlotRaysHitSurface
+### PlotRaysHitSurface
 
 ```csharp
 [DataMember]
@@ -1047,7 +1047,7 @@ public string PlotRaysHitSurface { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadiationTaskData_PlotSourceRays"></a> PlotSourceRays
+### PlotSourceRays
 
 ```csharp
 [DataMember]
@@ -1058,7 +1058,7 @@ public int PlotSourceRays { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_PlotSpaceRays"></a> PlotSpaceRays
+### PlotSpaceRays
 
 ```csharp
 [DataMember]
@@ -1069,7 +1069,7 @@ public int PlotSpaceRays { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_PlotWhichRays"></a> PlotWhichRays
+### PlotWhichRays
 
 ```csharp
 [DataMember]
@@ -1080,7 +1080,7 @@ public int PlotWhichRays { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_RadkCalcSpectrum"></a> RadkCalcSpectrum
+### RadkCalcSpectrum
 
 ```csharp
 [DataMember]
@@ -1091,7 +1091,7 @@ public int RadkCalcSpectrum { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_ResetSeed"></a> ResetSeed
+### ResetSeed
 
 ```csharp
 [DataMember]
@@ -1102,7 +1102,7 @@ public int ResetSeed { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_RkAID"></a> RkAID
+### RkAID
 
 ```csharp
 [DataMember]
@@ -1113,7 +1113,7 @@ public int RkAID { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_RkAIDExp"></a> RkAIDExp
+### RkAIDExp
 
 ```csharp
 [DataMember]
@@ -1124,7 +1124,7 @@ public ExpressionData RkAIDExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadiationTaskData_RkFilename"></a> RkFilename
+### RkFilename
 
 ```csharp
 [DataMember]
@@ -1135,7 +1135,7 @@ public string RkFilename { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadiationTaskData_RkGID"></a> RkGID
+### RkGID
 
 ```csharp
 [DataMember]
@@ -1146,7 +1146,7 @@ public int RkGID { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_RkGIDExp"></a> RkGIDExp
+### RkGIDExp
 
 ```csharp
 [DataMember]
@@ -1157,7 +1157,7 @@ public ExpressionData RkGIDExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadiationTaskData_RkPostLogic"></a> RkPostLogic
+### RkPostLogic
 
 ```csharp
 [DataMember]
@@ -1168,7 +1168,7 @@ public string RkPostLogic { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadiationTaskData_RkPreLogic"></a> RkPreLogic
+### RkPreLogic
 
 ```csharp
 [DataMember]
@@ -1179,7 +1179,7 @@ public string RkPreLogic { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadiationTaskData_RkSubmodel"></a> RkSubmodel
+### RkSubmodel
 
 ```csharp
 [DataMember]
@@ -1190,7 +1190,7 @@ public string RkSubmodel { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadiationTaskData_RkTimeOffset"></a> RkTimeOffset
+### RkTimeOffset
 
 ```csharp
 [DataMember]
@@ -1201,7 +1201,7 @@ public Dimensional<Time> RkTimeOffset { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_RadiationTaskData_RkTimeOffsetExp"></a> RkTimeOffsetExp
+### RkTimeOffsetExp
 
 ```csharp
 [DataMember]
@@ -1212,7 +1212,7 @@ public ExpressionData RkTimeOffsetExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadiationTaskData_RkTimeStart"></a> RkTimeStart
+### RkTimeStart
 
 ```csharp
 [DataMember]
@@ -1223,7 +1223,7 @@ public Dimensional<Time> RkTimeStart { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_RadiationTaskData_RkTimeStartExp"></a> RkTimeStartExp
+### RkTimeStartExp
 
 ```csharp
 [DataMember]
@@ -1234,7 +1234,7 @@ public ExpressionData RkTimeStartExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadiationTaskData_RkTimeStop"></a> RkTimeStop
+### RkTimeStop
 
 ```csharp
 [DataMember]
@@ -1245,7 +1245,7 @@ public Dimensional<Time> RkTimeStop { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_RadiationTaskData_RkTimeStopExp"></a> RkTimeStopExp
+### RkTimeStopExp
 
 ```csharp
 [DataMember]
@@ -1256,7 +1256,7 @@ public ExpressionData RkTimeStopExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadiationTaskData_RkUseTimeStartStop"></a> RkUseTimeStartStop
+### RkUseTimeStartStop
 
 ```csharp
 [DataMember]
@@ -1267,7 +1267,7 @@ public int RkUseTimeStartStop { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_SaveHeatrateReceiveFile"></a> SaveHeatrateReceiveFile
+### SaveHeatrateReceiveFile
 
 ```csharp
 [DataMember]
@@ -1278,7 +1278,7 @@ public int SaveHeatrateReceiveFile { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_SolarDirectIncidentOutput"></a> SolarDirectIncidentOutput
+### SolarDirectIncidentOutput
 
 ```csharp
 [DataMember]
@@ -1289,7 +1289,7 @@ public int SolarDirectIncidentOutput { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_SolarDirectIncidentOutputArrayId"></a> SolarDirectIncidentOutputArrayId
+### SolarDirectIncidentOutputArrayId
 
 ```csharp
 [DataMember]
@@ -1300,7 +1300,7 @@ public int SolarDirectIncidentOutputArrayId { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_SolarDirectIncidentOutputArraySubmodel"></a> SolarDirectIncidentOutputArraySubmodel
+### SolarDirectIncidentOutputArraySubmodel
 
 ```csharp
 [DataMember]
@@ -1311,7 +1311,7 @@ public string SolarDirectIncidentOutputArraySubmodel { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadiationTaskData_SolarDirectIncidentOutputNodeNames"></a> SolarDirectIncidentOutputNodeNames
+### SolarDirectIncidentOutputNodeNames
 
 ```csharp
 [DataMember]
@@ -1322,7 +1322,7 @@ public List<string> SolarDirectIncidentOutputNodeNames { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadiationTaskData_SpaceNode"></a> SpaceNode
+### SpaceNode
 
 ```csharp
 [DataMember]
@@ -1333,7 +1333,7 @@ public string SpaceNode { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadiationTaskData_SpaceTemp"></a> SpaceTemp
+### SpaceTemp
 
 ```csharp
 [DataMember]
@@ -1344,7 +1344,7 @@ public Dimensional<Temp> SpaceTemp { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Temp](OpenTD.Dimension.Temp.md)\>
 
-### <a id="OpenTD_RadiationTaskData_SpaceTempExp"></a> SpaceTempExp
+### SpaceTempExp
 
 ```csharp
 [DataMember]
@@ -1355,7 +1355,7 @@ public ExpressionData SpaceTempExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadiationTaskData_TempDepControlChange"></a> TempDepControlChange
+### TempDepControlChange
 
 ```csharp
 [DataMember]
@@ -1366,7 +1366,7 @@ public Dimensional<TempAbs> TempDepControlChange { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[TempAbs](OpenTD.Dimension.TempAbs.md)\>
 
-### <a id="OpenTD_RadiationTaskData_TempDepControlChangeExp"></a> TempDepControlChangeExp
+### TempDepControlChangeExp
 
 ```csharp
 [DataMember]
@@ -1377,7 +1377,7 @@ public ExpressionData TempDepControlChangeExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadiationTaskData_TypeCalc"></a> TypeCalc
+### TypeCalc
 
 ```csharp
 [DataMember]
@@ -1388,7 +1388,7 @@ public RadiationTaskData.calcType TypeCalc { get; set; }
 
  [RadiationTaskData](OpenTD.RadiationTaskData.md).[calcType](OpenTD.RadiationTaskData.calcType.md)
 
-### <a id="OpenTD_RadiationTaskData_UseFastSpinIncrementOrList"></a> UseFastSpinIncrementOrList
+### UseFastSpinIncrementOrList
 
 ```csharp
 [DataMember]
@@ -1399,7 +1399,7 @@ public int UseFastSpinIncrementOrList { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_UseHeatrateVsTime"></a> UseHeatrateVsTime
+### UseHeatrateVsTime
 
 ```csharp
 [DataMember]
@@ -1410,7 +1410,7 @@ public int UseHeatrateVsTime { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_UseOctCells"></a> UseOctCells
+### UseOctCells
 
 ```csharp
 [DataMember]
@@ -1421,7 +1421,7 @@ public int UseOctCells { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_VarRadk"></a> VarRadk
+### VarRadk
 
 ```csharp
 [DataMember]
@@ -1432,7 +1432,7 @@ public double VarRadk { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadiationTaskData_VarRadkExp"></a> VarRadkExp
+### VarRadkExp
 
 ```csharp
 [DataMember]
@@ -1443,7 +1443,7 @@ public ExpressionData VarRadkExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadiationTaskData_WaveLengthIncOrList"></a> WaveLengthIncOrList
+### WaveLengthIncOrList
 
 ```csharp
 [DataMember]
@@ -1454,7 +1454,7 @@ public int WaveLengthIncOrList { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_WaveLengthIncrements"></a> WaveLengthIncrements
+### WaveLengthIncrements
 
 ```csharp
 [DataMember]
@@ -1465,7 +1465,7 @@ public int WaveLengthIncrements { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadiationTaskData_WaveLengthIncrementsExp"></a> WaveLengthIncrementsExp
+### WaveLengthIncrementsExp
 
 ```csharp
 [DataMember]
@@ -1476,7 +1476,7 @@ public ExpressionData WaveLengthIncrementsExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadiationTaskData_WaveLengthList"></a> WaveLengthList
+### WaveLengthList
 
 ```csharp
 [DataMember]
@@ -1487,7 +1487,7 @@ public List<double> WaveLengthList { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="OpenTD_RadiationTaskData_WaveLengthMax"></a> WaveLengthMax
+### WaveLengthMax
 
 ```csharp
 [DataMember]
@@ -1498,7 +1498,7 @@ public double WaveLengthMax { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadiationTaskData_WaveLengthMaxExp"></a> WaveLengthMaxExp
+### WaveLengthMaxExp
 
 ```csharp
 [DataMember]
@@ -1509,7 +1509,7 @@ public ExpressionData WaveLengthMaxExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadiationTaskData_WaveLengthMin"></a> WaveLengthMin
+### WaveLengthMin
 
 ```csharp
 [DataMember]
@@ -1520,7 +1520,7 @@ public double WaveLengthMin { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadiationTaskData_WaveLengthMinExp"></a> WaveLengthMinExp
+### WaveLengthMinExp
 
 ```csharp
 [DataMember]
@@ -1533,9 +1533,10 @@ public ExpressionData WaveLengthMinExp { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_RadiationTaskData_CheckData"></a> CheckData\(\)
+### CheckData\(\)
 
 ```csharp
 public void CheckData()
 ```
+
 

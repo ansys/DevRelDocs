@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_ExceedancePlot"></a> Struct ExceedancePlot
+# Struct ExceedancePlot
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -9,7 +9,7 @@ Contains information about a plot that displays an Exceedance.
 public struct ExceedancePlot
 ```
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -20,7 +20,7 @@ public struct ExceedancePlot
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_ExceedancePlot__ctor_OpenTD_Results_Dataset_DataSubtype_System_Int32_OpenTD_Results_Dataset_DataItemIdentifier_OpenTD_Results_Plot_Plot2d_System_Double_"></a> ExceedancePlot\(DataSubtype, int, DataItemIdentifier, Plot2d, double\)
+### ExceedancePlot\(DataSubtype, int, DataItemIdentifier, Plot2d, double\)
 
 ```csharp
 public ExceedancePlot(DataSubtype subtype, int index, DataItemIdentifier dataItemId, Plot2d plot, double percentDiff)
@@ -40,7 +40,7 @@ public ExceedancePlot(DataSubtype subtype, int index, DataItemIdentifier dataIte
 
 ## Fields
 
-### <a id="OpenTD_Results_Dataset_ExceedancePlot_DataItemId"></a> DataItemId
+### DataItemId
 
 ```csharp
 public DataItemIdentifier DataItemId
@@ -50,7 +50,7 @@ public DataItemIdentifier DataItemId
 
  [DataItemIdentifier](OpenTD.Results.Dataset.DataItemIdentifier.md)
 
-### <a id="OpenTD_Results_Dataset_ExceedancePlot_Index"></a> Index
+### Index
 
 ```csharp
 public int Index
@@ -60,7 +60,7 @@ public int Index
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Results_Dataset_ExceedancePlot_PercentDifference"></a> PercentDifference
+### PercentDifference
 
 ```csharp
 public double PercentDifference
@@ -70,7 +70,7 @@ public double PercentDifference
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Results_Dataset_ExceedancePlot_Plot"></a> Plot
+### Plot
 
 ```csharp
 public Plot2d Plot
@@ -80,7 +80,7 @@ public Plot2d Plot
 
  [Plot2d](OpenTD.Results.Plot.Plot2d.md)
 
-### <a id="OpenTD_Results_Dataset_ExceedancePlot_Subtype"></a> Subtype
+### Subtype
 
 ```csharp
 public DataSubtype Subtype
@@ -93,4 +93,5 @@ public DataSubtype Subtype
 ## See Also
 
 [Exceedance](OpenTD.Results.Dataset.Exceedance.md)
+
 
