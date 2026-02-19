@@ -1,5 +1,24 @@
 # Changelog
 
+## v3 2026 R1
+
+This section lists the changes introduced in Asset Preparation API version 3 delivered in 2026 R1 compared to version v3 delivered in 2025 R1 and 2025 R2.
+
+### Changes to Resource Preparation Service
+
+Service robustness enhanced when trying to download resources as file using the **DownloadResourceAsFileRequest** method with incorrect inputs (empty `FilePath`, `FilePath` without extension, or wrong type).
+
+#### resource_description.proto
+
+[Non-breaking changes] Return file extension in ResourceIdentity
+
+### Changes to Material Preparation Service
+
+#### material_description.proto
+
+[Non-breaking changes] The `texture_normalization_2` and `texture_normalization_3` fields have been added to the **SurfaceOpticalProperties** message so that the texture normalization can now be set per layer.
+The already existing `texture_normalization` field now applies to the first layer only when the new `texture_normalization_2` and `texture_normalization_3` fields are set.
+
 ## v3 2025 R2
 
 No change has been made to the Asset Preparation API version 3 delivered in 2025 R2 compared to version v3 delivered in 2025 R1.
