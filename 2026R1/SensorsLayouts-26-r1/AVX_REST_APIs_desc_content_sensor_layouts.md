@@ -27,8 +27,6 @@ To operate Sensors REST API and Sensor Layouts REST API use TCP ports.
 -   Sensor Editor: TCP 5104
 -   Sensor Layout Editor: TCP 5105
 
-To use Sensor Layouts REST API, you have to select the **AVxcelerate Sensor Labs** feature when you install the AVxcelerate Sensors package.
-
 To access the Sensor Layouts REST API, start the server using the script provided in the *Sensor\_Labs\_API* folder:
 
 -   on Windows: `sensor-labs-api.ps1`
@@ -56,7 +54,7 @@ Once created, a Sensor layout can be downloaded as a packed file \(.sencfgx\) so
 
 Using Sensor Layouts REST API you can develop applications for batch creation of sensor layouts or Sensor Layout Library management automation.
 
-In this API, each sensor layout has a unique identifier that is automatically generated and not editable. To read or update a sensor layout, the sensor layout's identifier is a required input parameter. To get the identifier \(ID\) of all the sensor layouts in your library, you can use the method **GET /avx-sensorlabs/v1/sensorlayouts**. When creating a new sensor layout, the identifier of the created layout is provided in the response.
+In this API, each sensor layout has a unique identifier that is automatically generated and not editable. To read or update a sensor layout, the sensor layout's identifier is a required input parameter. To get the identifier \(ID\) of all the sensor layouts in your library, you can use the method **GET /avx-sensorlabs/v3/sensorlayouts**. When creating a new sensor layout, the identifier of the created layout is provided in the response.
 
 Both Sensors and Sensor Layouts REST APIs rely on the same server and micro-services.
 
@@ -74,13 +72,13 @@ Curl
 
 ```
 curl -X 'GET' \
-  'http://localhost:5127/avx-sensorlabs/v1/sensorlayouts' \
+  'http://localhost:5127/avx-sensorlabs/v3/sensorlayouts' \
   -H 'accept: application/json'
 ```
 
 Postman
 
-**GET** `http://localhost:5127/avx-sensorlabs/v1/sensorlayouts`
+**GET** `http://localhost:5127/avx-sensorlabs/v3/sensorlayouts`
 
 **POST request**
 
@@ -90,7 +88,7 @@ Curl
 
 ```
 curl -X 'POST' \
-    'http://localhost:5127/avx-sensorlabs/v1/sensorlayouts' \
+    'http://localhost:5127/avx-sensorlabs/v3/sensorlayouts' \
     -H 'accept: application/json' \
     -H 'Content-Type: application/json' \
     -d '{
@@ -100,7 +98,7 @@ curl -X 'POST' \
 
 Postman
 
-**POST** `http://localhost:5127/avx-sensorlabs/v1/sensorlayouts`
+**POST** `http://localhost:5127/avx-sensorlabs/v3/sensorlayouts`
 
 In the request body, select **Raw \> json**, then define the name of the sensor layout to create, for example:
 
@@ -118,7 +116,7 @@ Curl
 
 ```
 curl -X 'PUT' \
-    'http://localhost:5127/avx-sensorlabs/v1/sensorlayouts/b81927e9-d712-41f8-81f1-15d63a541e37' \
+    'http://localhost:5127/avx-sensorlabs/v3/sensorlayouts/b81927e9-d712-41f8-81f1-15d63a541e37' \
     -H 'accept: application/json' \
     -H 'Content-Type: application/json' \
     -d '{
@@ -168,7 +166,7 @@ curl -X 'PUT' \
 
 Postman
 
-**PUT** `http://localhost:5127/avx-sensorlabs/v1/sensorlayouts/b81927e9-d712-41f8-81f1-15d63a541e37`
+**PUT** `http://localhost:5127/avx-sensorlabs/v3/sensorlayouts/b81927e9-d712-41f8-81f1-15d63a541e37`
 
 In the request body, select **Raw \> json**, then define all properties of the sensor layout, for example:
 
@@ -177,7 +175,7 @@ In the request body, select **Raw \> json**, then define all properties of the s
     "metadata": {
         "name": "MyLayout",
         "manufacturer": "",
-        "version": "1.0",
+        "version": "2.0",
         "comment": "1 camera",
         "vehicleModel": ""
     },
@@ -226,13 +224,13 @@ Curl
 
 ```
 curl -X 'DELETE' \
-  'http://localhost:5127/avx-sensorlabs/v1/sensorlayouts/5fc0f2f8-bf84-4bfe-8f70-e6b209377b47' \
+  'http://localhost:5127/avx-sensorlabs/v3/sensorlayouts/5fc0f2f8-bf84-4bfe-8f70-e6b209377b47' \
   -H 'accept: application/json'
 ```
 
 Postman
 
-**DELETE** `http://localhost:5127/avx-sensorlabs/v1/sensorlayouts/5fc0f2f8-bf84-4bfe-8f70-e6b209377b47`
+**DELETE** `http://localhost:5127/avx-sensorlabs/v3/sensorlayouts/5fc0f2f8-bf84-4bfe-8f70-e6b209377b47`
 
 ## Responses
 

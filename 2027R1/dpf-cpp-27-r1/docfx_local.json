@@ -1,0 +1,82 @@
+{
+  "metadata": [],
+  "build": {
+    "globalMetadata": {
+      "title": "DPF Cpp API (Local)",
+      "summary": "",
+      "version": "2027 R1",
+      "product": "DPF",
+      "programming language": "C++",
+      "product collection": "Structures",
+      "physics": "Structures",
+      "_appFooter": "Copyright \u00a9 2027 ANSYS, Inc. All rights reserved.",
+      "_enableSearch": true,
+      "_disableContribution": true,
+      "_appTitle": "DPF Cpp API 2027 R1"
+    },
+    "content": [
+      {
+        "files": [
+          "*.md",
+          "toc.yml"
+        ],
+        "src": ".",
+        "dest": "."
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/toc.yml"
+        ],
+        "src": "api-reference",
+        "dest": "api-reference"
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/toc.yml"
+        ],
+        "src": "examples",
+        "dest": "examples"
+      },
+      {
+        "files": [
+          "**/*.md"
+        ],
+        "src": "user-guide",
+        "dest": "user-guide"
+      },
+      {
+        "files": [
+          "**/*"
+        ],
+        "src": "images",
+        "dest": "images"
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.jpeg",
+          "**/*.gif",
+          "**/*.svg"
+        ]
+      }
+    ],
+    "fileMetadata": {
+      "_tocRel": {
+        "api-reference/**": "../toc.yml"
+      }
+    },
+    "template": [
+      "default",
+      "modern"
+    ],
+    "dest": "_site",
+    "xrefService": [
+      "https://xref.docs.microsoft.com/query?uid={uid}"
+    ]
+  }
+}

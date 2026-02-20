@@ -1,0 +1,1030 @@
+### YamlMime:TableOfContent
+- name: OpenTD
+  href: OpenTD.md
+  items:
+  - name: Classes
+  - name: AcEllipse
+    href: OpenTD.AcEllipse.md
+  - name: AdditionalRadiationTaskData
+    href: OpenTD.AdditionalRadiationTaskData.md
+  - name: AggregateComponentData
+    href: OpenTD.AggregateComponentData.md
+  - name: AggregateData
+    href: OpenTD.AggregateData.md
+  - name: Arc
+    href: OpenTD.Arc.md
+  - name: ArrayInterpolation
+    href: OpenTD.ArrayInterpolation.md
+  - name: ArxContext
+    href: OpenTD.ArxContext.md
+  - name: AutocadConfig
+    href: OpenTD.AutocadConfig.md
+  - name: AutocadLauncher
+    href: OpenTD.AutocadLauncher.md
+  - name: AutocadVariableData
+    href: OpenTD.AutocadVariableData.md
+  - name: BadDataException
+    href: OpenTD.BadDataException.md
+  - name: BatchControl
+    href: OpenTD.BatchControl.md
+  - name: BivariateArrayData
+    href: OpenTD.BivariateArrayData.md
+  - name: CaseSet
+    href: OpenTD.CaseSet.md
+  - name: CaseSetManager
+    href: OpenTD.CaseSetManager.md
+  - name: CaseSetManagerOptions
+    href: OpenTD.CaseSetManagerOptions.md
+  - name: Circle
+    href: OpenTD.Circle.md
+  - name: Conductor
+    href: OpenTD.Conductor.md
+  - name: Connection
+    href: OpenTD.Connection.md
+  - name: Contactor
+    href: OpenTD.Contactor.md
+  - name: DbObject
+    href: OpenTD.DbObject.md
+  - name: DimensionlessVector3d
+    href: OpenTD.DimensionlessVector3d.md
+  - name: Domains
+    href: OpenTD.Domains.md
+  - name: DynamicSindaStatus
+    href: OpenTD.DynamicSindaStatus.md
+  - name: ExportNodeInfoOptionsData
+    href: OpenTD.ExportNodeInfoOptionsData.md
+  - name: ExpressionArrayClass2Data
+    href: OpenTD.ExpressionArrayClass2Data.md
+  - name: ExpressionArrayClassData
+    href: OpenTD.ExpressionArrayClassData.md
+  - name: ExpressionData
+    href: OpenTD.ExpressionData.md
+  - name: FluintLogicData
+    href: OpenTD.FluintLogicData.md
+  - name: HeatLoad
+    href: OpenTD.HeatLoad.md
+  - name: Heater
+    href: OpenTD.Heater.md
+  - name: Helix
+    href: OpenTD.Helix.md
+  - name: KickerData
+    href: OpenTD.KickerData.md
+  - name: Layer
+    href: OpenTD.Layer.md
+  - name: Line
+    href: OpenTD.Line.md
+  - name: ListSI
+    href: OpenTD.ListSI.md
+  - name: ListSIFormatter
+    href: OpenTD.ListSIFormatter.md
+  - name: LogicObject
+    href: OpenTD.LogicObject.md
+  - name: LogicObjects
+    href: OpenTD.LogicObjects.md
+  - name: MaterialStack
+    href: OpenTD.MaterialStack.md
+  - name: MaterialStackLayerData
+    href: OpenTD.MaterialStackLayerData.md
+  - name: Matrix3d
+    href: OpenTD.Matrix3d.md
+  - name: Measure
+    href: OpenTD.Measure.md
+  - name: MeasureMappingTolerances
+    href: OpenTD.MeasureMappingTolerances.md
+  - name: MergeNodesOptionsData
+    href: OpenTD.MergeNodesOptionsData.md
+  - name: MeshDisplayer
+    href: OpenTD.MeshDisplayer.md
+  - name: Model
+    href: OpenTD.Model.md
+  - name: NameData
+    href: OpenTD.NameData.md
+  - name: NetworkLogicData
+    href: OpenTD.NetworkLogicData.md
+  - name: NetworkLogicUnits
+    href: OpenTD.NetworkLogicUnits.md
+  - name: Node
+    href: OpenTD.Node.md
+  - name: NodeBreakdownData
+    href: OpenTD.NodeBreakdownData.md
+  - name: Notes
+    href: OpenTD.Notes.md
+  - name: NurbsData
+    href: OpenTD.NurbsData.md
+  - name: OpenTDException
+    href: OpenTD.OpenTDException.md
+  - name: OpenTDObject
+    href: OpenTD.OpenTDObject.md
+  - name: OpticalPropAliasManager
+    href: OpenTD.OpticalPropAliasManager.md
+  - name: PID
+    href: OpenTD.PID.md
+  - name: Point2d
+    href: OpenTD.Point2d.md
+  - name: Point3d
+    href: OpenTD.Point3d.md
+  - name: Polyline
+    href: OpenTD.Polyline.md
+  - name: Polyline3d
+    href: OpenTD.Polyline3d.md
+  - name: PolylineVertex
+    href: OpenTD.PolylineVertex.md
+  - name: PressureLoad
+    href: OpenTD.PressureLoad.md
+  - name: Quaternion
+    href: OpenTD.Quaternion.md
+  - name: RadiationTaskData
+    href: OpenTD.RadiationTaskData.md
+  - name: RcHeaterSenseData
+    href: OpenTD.RcHeaterSenseData.md
+  - name: RegisterData
+    href: OpenTD.RegisterData.md
+  - name: Script
+    href: OpenTD.Script.md
+  - name: SelectionOptions
+    href: OpenTD.SelectionOptions.md
+  - name: SindaControlData
+    href: OpenTD.SindaControlData.md
+  - name: SindaCyclicData
+    href: OpenTD.SindaCyclicData.md
+  - name: SindaOptionsData
+    href: OpenTD.SindaOptionsData.md
+  - name: SolverControlData
+    href: OpenTD.SolverControlData.md
+  - name: SolverDesignData
+    href: OpenTD.SolverDesignData.md
+  - name: Spline
+    href: OpenTD.Spline.md
+  - name: StackAliasManager
+    href: OpenTD.StackAliasManager.md
+  - name: Submodel
+    href: OpenTD.Submodel.md
+  - name: SubmodelNameData
+    href: OpenTD.SubmodelNameData.md
+  - name: Symbol
+    href: OpenTD.Symbol.md
+  - name: TdConnectConfig
+    href: OpenTD.TdConnectConfig.md
+  - name: TdDbEntityData
+    href: OpenTD.TdDbEntityData.md
+  - name: Tec
+    href: OpenTD.Tec.md
+  - name: Text
+    href: OpenTD.Text.md
+  - name: ThermalDesktop
+    href: OpenTD.ThermalDesktop.md
+  - name: ThermalDesktopExtensions
+    href: OpenTD.ThermalDesktopExtensions.md
+  - name: ThermalLogicData
+    href: OpenTD.ThermalLogicData.md
+  - name: ThermoPropAliasManager
+    href: OpenTD.ThermoPropAliasManager.md
+  - name: ThermoProps
+    href: OpenTD.ThermoProps.md
+  - name: TimeoutProperties
+    href: OpenTD.TimeoutProperties.md
+  - name: Transformation
+    href: OpenTD.Transformation.md
+  - name: UCS
+    href: OpenTD.UCS.md
+  - name: UDFA
+    href: OpenTD.UDFA.md
+  - name: UDFACollection
+    href: OpenTD.UDFACollection.md
+  - name: UniqueNameObject
+    href: OpenTD.UniqueNameObject.md
+  - name: Units
+    href: OpenTD.Units.md
+  - name: UnitsData
+    href: OpenTD.UnitsData.md
+  - name: UnitsDefData
+    href: OpenTD.UnitsDefData.md
+  - name: UserArray
+    href: OpenTD.UserArray.md
+  - name: UserCode
+    href: OpenTD.UserCode.md
+  - name: Vector3d
+    href: OpenTD.Vector3d.md
+  - name: VisibilityManager
+    href: OpenTD.VisibilityManager.md
+  - name: XrefInfo
+    href: OpenTD.XrefInfo.md
+  - name: Structs
+  - name: EntityDescriptor
+    href: OpenTD.EntityDescriptor.md
+  - name: Interfaces
+  - name: IDbIterator
+    href: OpenTD.IDbIterator.md
+  - name: IDomainManager
+    href: OpenTD.IDomainManager.md
+  - name: ITdConsole
+    href: OpenTD.ITdConsole.md
+  - name: IUpdatable
+    href: OpenTD.IUpdatable.md
+  - name: Enums
+  - name: AggregateData.WeightTypes
+    href: OpenTD.AggregateData.WeightTypes.md
+  - name: AutocadVariableData.Types
+    href: OpenTD.AutocadVariableData.Types.md
+  - name: CaseSetManagerOptions.DuplicateNodes
+    href: OpenTD.CaseSetManagerOptions.DuplicateNodes.md
+  - name: DomainType
+    href: OpenTD.DomainType.md
+  - name: ExportNodeInfoOptionsData.Datasets
+    href: OpenTD.ExportNodeInfoOptionsData.Datasets.md
+  - name: ExportNodeInfoOptionsData.Destinations
+    href: OpenTD.ExportNodeInfoOptionsData.Destinations.md
+  - name: ExportNodeInfoOptionsData.Locations
+    href: OpenTD.ExportNodeInfoOptionsData.Locations.md
+  - name: IsoViews
+    href: OpenTD.IsoViews.md
+  - name: LogicObject.LogicType
+    href: OpenTD.LogicObject.LogicType.md
+  - name: LogicObjectRoutineTypes
+    href: OpenTD.LogicObjectRoutineTypes.md
+  - name: MergeNodesOptionsData.KeepMethods
+    href: OpenTD.MergeNodesOptionsData.KeepMethods.md
+  - name: MeshDisplayerGraphicsMode
+    href: OpenTD.MeshDisplayerGraphicsMode.md
+  - name: NetworkLogicUnits.AbzroTypes
+    href: OpenTD.NetworkLogicUnits.AbzroTypes.md
+  - name: NetworkLogicUnits.PatmosTypes
+    href: OpenTD.NetworkLogicUnits.PatmosTypes.md
+  - name: NetworkLogicUnits.SindaUidTypes
+    href: OpenTD.NetworkLogicUnits.SindaUidTypes.md
+  - name: NetworkLogicUnits.UnitSystemTypes
+    href: OpenTD.NetworkLogicUnits.UnitSystemTypes.md
+  - name: NodeBreakdownData.SpacingType
+    href: OpenTD.NodeBreakdownData.SpacingType.md
+  - name: OrthoViews
+    href: OpenTD.OrthoViews.md
+  - name: PressureLoad.PressureTypes
+    href: OpenTD.PressureLoad.PressureTypes.md
+  - name: RadiationTaskData.NodeNameTypes
+    href: OpenTD.RadiationTaskData.NodeNameTypes.md
+  - name: RadiationTaskData.calcMethod
+    href: OpenTD.RadiationTaskData.calcMethod.md
+  - name: RadiationTaskData.calcType
+    href: OpenTD.RadiationTaskData.calcType.md
+  - name: RcHeaterSenseData.HeaterSenseTypes
+    href: OpenTD.RcHeaterSenseData.HeaterSenseTypes.md
+  - name: RegisterData.ValueType
+    href: OpenTD.RegisterData.ValueType.md
+  - name: SindaControlData.SolutionType
+    href: OpenTD.SindaControlData.SolutionType.md
+  - name: SolverControlData.GoalType
+    href: OpenTD.SolverControlData.GoalType.md
+  - name: TdConnectConfig.Types
+    href: OpenTD.TdConnectConfig.Types.md
+  - name: UDFA.UdfaInitType
+    href: OpenTD.UDFA.UdfaInitType.md
+  - name: UDFA.UdfaType
+    href: OpenTD.UDFA.UdfaType.md
+  - name: UDFA.ValueType
+    href: OpenTD.UDFA.ValueType.md
+  - name: UnitsData.Angle
+    href: OpenTD.UnitsData.Angle.md
+  - name: UnitsData.Current
+    href: OpenTD.UnitsData.Current.md
+  - name: UnitsData.Energy
+    href: OpenTD.UnitsData.Energy.md
+  - name: UnitsData.FlocadOutputUnitsType
+    href: OpenTD.UnitsData.FlocadOutputUnitsType.md
+  - name: UnitsData.Force
+    href: OpenTD.UnitsData.Force.md
+  - name: UnitsData.Mass
+    href: OpenTD.UnitsData.Mass.md
+  - name: UnitsData.ModelLength
+    href: OpenTD.UnitsData.ModelLength.md
+  - name: UnitsData.OrbitLength
+    href: OpenTD.UnitsData.OrbitLength.md
+  - name: UnitsData.Pressure
+    href: OpenTD.UnitsData.Pressure.md
+  - name: UnitsData.Resistance
+    href: OpenTD.UnitsData.Resistance.md
+  - name: UnitsData.Temp
+    href: OpenTD.UnitsData.Temp.md
+  - name: UnitsData.Time
+    href: OpenTD.UnitsData.Time.md
+  - name: UnitsData.UnitsType
+    href: OpenTD.UnitsData.UnitsType.md
+  - name: UnitsData.Voltage
+    href: OpenTD.UnitsData.Voltage.md
+  - name: VisualStyles
+    href: OpenTD.VisualStyles.md
+- name: OpenTD.AddIn
+  href: OpenTD.AddIn.md
+  items:
+  - name: Classes
+  - name: ProgressBar
+    href: OpenTD.AddIn.ProgressBar.md
+- name: OpenTD.Dimension
+  href: OpenTD.Dimension.md
+  items:
+  - name: Classes
+  - name: Angle
+    href: OpenTD.Dimension.Angle.md
+  - name: Area
+    href: OpenTD.Dimension.Area.md
+  - name: CondPerArea
+    href: OpenTD.Dimension.CondPerArea.md
+  - name: CondPerLength
+    href: OpenTD.Dimension.CondPerLength.md
+  - name: Conductance
+    href: OpenTD.Dimension.Conductance.md
+  - name: Current
+    href: OpenTD.Dimension.Current.md
+  - name: Density
+    href: OpenTD.Dimension.Density.md
+  - name: DimensionalIfPositiveList<T>
+    href: OpenTD.Dimension.DimensionalIfPositiveList-1.md
+  - name: DimensionalList2<T>
+    href: OpenTD.Dimension.DimensionalList2-1.md
+  - name: DimensionalList<T>
+    href: OpenTD.Dimension.DimensionalList-1.md
+  - name: Dimensionless
+    href: OpenTD.Dimension.Dimensionless.md
+  - name: DynamicViscosity
+    href: OpenTD.Dimension.DynamicViscosity.md
+  - name: Energy
+    href: OpenTD.Dimension.Energy.md
+  - name: EnergyPerArea
+    href: OpenTD.Dimension.EnergyPerArea.md
+  - name: EnergyPerLength
+    href: OpenTD.Dimension.EnergyPerLength.md
+  - name: EnergyPerMass
+    href: OpenTD.Dimension.EnergyPerMass.md
+  - name: Enthalpy
+    href: OpenTD.Dimension.Enthalpy.md
+  - name: Entropy
+    href: OpenTD.Dimension.Entropy.md
+  - name: Flux
+    href: OpenTD.Dimension.Flux.md
+  - name: Force
+    href: OpenTD.Dimension.Force.md
+  - name: Gravity
+    href: OpenTD.Dimension.Gravity.md
+  - name: HeatRate
+    href: OpenTD.Dimension.HeatRate.md
+  - name: HeatRatePerVolume
+    href: OpenTD.Dimension.HeatRatePerVolume.md
+  - name: Inertial
+    href: OpenTD.Dimension.Inertial.md
+  - name: InversePressure
+    href: OpenTD.Dimension.InversePressure.md
+  - name: InverseVolume
+    href: OpenTD.Dimension.InverseVolume.md
+  - name: Mass
+    href: OpenTD.Dimension.Mass.md
+  - name: MassFlowRate
+    href: OpenTD.Dimension.MassFlowRate.md
+  - name: MassFlowratePerEnthalpy
+    href: OpenTD.Dimension.MassFlowratePerEnthalpy.md
+  - name: MassFlowratePerPressure
+    href: OpenTD.Dimension.MassFlowratePerPressure.md
+  - name: MassFlux
+    href: OpenTD.Dimension.MassFlux.md
+  - name: MassPerLength
+    href: OpenTD.Dimension.MassPerLength.md
+  - name: ModelLength
+    href: OpenTD.Dimension.ModelLength.md
+  - name: MomentOfInertia
+    href: OpenTD.Dimension.MomentOfInertia.md
+  - name: OrbitLength
+    href: OpenTD.Dimension.OrbitLength.md
+  - name: OrbitVelocity
+    href: OpenTD.Dimension.OrbitVelocity.md
+  - name: Pressure
+    href: OpenTD.Dimension.Pressure.md
+  - name: PressurePerVolume
+    href: OpenTD.Dimension.PressurePerVolume.md
+  - name: Resistivity
+    href: OpenTD.Dimension.Resistivity.md
+  - name: Rotation
+    href: OpenTD.Dimension.Rotation.md
+  - name: SpecificHeat
+    href: OpenTD.Dimension.SpecificHeat.md
+  - name: StefanBoltzmann
+    href: OpenTD.Dimension.StefanBoltzmann.md
+  - name: SurfaceTension
+    href: OpenTD.Dimension.SurfaceTension.md
+  - name: Temp
+    href: OpenTD.Dimension.Temp.md
+  - name: TempAbs
+    href: OpenTD.Dimension.TempAbs.md
+  - name: ThermalMass
+    href: OpenTD.Dimension.ThermalMass.md
+  - name: Time
+    href: OpenTD.Dimension.Time.md
+  - name: Torque
+    href: OpenTD.Dimension.Torque.md
+  - name: Unknown
+    href: OpenTD.Dimension.Unknown.md
+  - name: Velocity
+    href: OpenTD.Dimension.Velocity.md
+  - name: Voltage
+    href: OpenTD.Dimension.Voltage.md
+  - name: VoltsPerTemp
+    href: OpenTD.Dimension.VoltsPerTemp.md
+  - name: Volume
+    href: OpenTD.Dimension.Volume.md
+  - name: VolumeFlowRate
+    href: OpenTD.Dimension.VolumeFlowRate.md
+  - name: Structs
+  - name: Dimensional<T>
+    href: OpenTD.Dimension.Dimensional-1.md
+  - name: DimensionalIfPositive<T>
+    href: OpenTD.Dimension.DimensionalIfPositive-1.md
+  - name: Interfaces
+  - name: IDimension
+    href: OpenTD.Dimension.IDimension.md
+- name: OpenTD.FloCAD
+  href: OpenTD.FloCAD.md
+  items:
+  - name: Classes
+  - name: Bay
+    href: OpenTD.FloCAD.Bay.md
+  - name: Cappmp
+    href: OpenTD.FloCAD.Cappmp.md
+  - name: Compartment
+    href: OpenTD.FloCAD.Compartment.md
+  - name: CompartmentTie
+    href: OpenTD.FloCAD.CompartmentTie.md
+  - name: FTie
+    href: OpenTD.FloCAD.FTie.md
+  - name: FkLocator
+    href: OpenTD.FloCAD.FkLocator.md
+  - name: FluidSubmodel
+    href: OpenTD.FloCAD.FluidSubmodel.md
+  - name: IFace
+    href: OpenTD.FloCAD.IFace.md
+  - name: Lump
+    href: OpenTD.FloCAD.Lump.md
+  - name: Path
+    href: OpenTD.FloCAD.Path.md
+  - name: Pipe
+    href: OpenTD.FloCAD.Pipe.md
+  - name: PipeStdSignatureData
+    href: OpenTD.FloCAD.PipeStdSignatureData.md
+  - name: PipeStdUtility
+    href: OpenTD.FloCAD.PipeStdUtility.md
+  - name: PipeTie
+    href: OpenTD.FloCAD.PipeTie.md
+  - name: Port
+    href: OpenTD.FloCAD.Port.md
+  - name: Tee
+    href: OpenTD.FloCAD.Tee.md
+  - name: Tie
+    href: OpenTD.FloCAD.Tie.md
+  - name: Enums
+  - name: PipeTie.WallLocations
+    href: OpenTD.FloCAD.PipeTie.WallLocations.md
+- name: OpenTD.Internal.Communication
+  href: OpenTD.Internal.Communication.md
+  items:
+  - name: Classes
+  - name: AdditionalUnitsSettings
+    href: OpenTD.Internal.Communication.AdditionalUnitsSettings.md
+  - name: OpenTDPipeServer
+    href: OpenTD.Internal.Communication.OpenTDPipeServer.md
+  - name: StatusData
+    href: OpenTD.Internal.Communication.StatusData.md
+  - name: TdData
+    href: OpenTD.Internal.Communication.TdData.md
+  - name: TdRequest
+    href: OpenTD.Internal.Communication.TdRequest.md
+  - name: TdResponse
+    href: OpenTD.Internal.Communication.TdResponse.md
+  - name: Enums
+  - name: OpenTDPipeServer.States
+    href: OpenTD.Internal.Communication.OpenTDPipeServer.States.md
+- name: OpenTD.Logging
+  href: OpenTD.Logging.md
+  items:
+  - name: Classes
+  - name: Logger
+    href: OpenTD.Logging.Logger.md
+  - name: LoggerFactory
+    href: OpenTD.Logging.LoggerFactory.md
+- name: OpenTD.PostProcessing
+  href: OpenTD.PostProcessing.md
+  items:
+  - name: Classes
+  - name: AdditionalCompareInfo
+    href: OpenTD.PostProcessing.AdditionalCompareInfo.md
+  - name: AdditionalDatasetInfo
+    href: OpenTD.PostProcessing.AdditionalDatasetInfo.md
+  - name: AdditionalHeatFlowInfo
+    href: OpenTD.PostProcessing.AdditionalHeatFlowInfo.md
+  - name: AdditionalHeatFlowMapInfo
+    href: OpenTD.PostProcessing.AdditionalHeatFlowMapInfo.md
+  - name: AdditionalHeatrateInfo
+    href: OpenTD.PostProcessing.AdditionalHeatrateInfo.md
+  - name: AdditionalRadkInfo
+    href: OpenTD.PostProcessing.AdditionalRadkInfo.md
+  - name: AdditionalSindaInfo
+    href: OpenTD.PostProcessing.AdditionalSindaInfo.md
+  - name: AdditionalTextInfo
+    href: OpenTD.PostProcessing.AdditionalTextInfo.md
+  - name: AdditionalTextTransientInfo
+    href: OpenTD.PostProcessing.AdditionalTextTransientInfo.md
+  - name: DataMapper
+    href: OpenTD.PostProcessing.DataMapper.md
+  - name: Dataset
+    href: OpenTD.PostProcessing.Dataset.md
+  - name: DatasetManager
+    href: OpenTD.PostProcessing.DatasetManager.md
+  - name: StressThermalGroupAssociation
+    href: OpenTD.PostProcessing.StressThermalGroupAssociation.md
+  - name: Enums
+  - name: AdditionalHeatrateInfo.SourceTypes
+    href: OpenTD.PostProcessing.AdditionalHeatrateInfo.SourceTypes.md
+  - name: AdditionalRadkInfo.DisplayTypes
+    href: OpenTD.PostProcessing.AdditionalRadkInfo.DisplayTypes.md
+  - name: AdditionalSindaInfo.MultiTimeSelectOptions
+    href: OpenTD.PostProcessing.AdditionalSindaInfo.MultiTimeSelectOptions.md
+  - name: DataMapper.FileFormats
+    href: OpenTD.PostProcessing.DataMapper.FileFormats.md
+  - name: DataMapper.MapObjectsOptions
+    href: OpenTD.PostProcessing.DataMapper.MapObjectsOptions.md
+  - name: Dataset.DataSourceTypes
+    href: OpenTD.PostProcessing.Dataset.DataSourceTypes.md
+  - name: Dataset.PlotMliNodes
+    href: OpenTD.PostProcessing.Dataset.PlotMliNodes.md
+- name: OpenTD.RadCAD
+  href: OpenTD.RadCAD.md
+  items:
+  - name: Classes
+  - name: AnalysisGroupSurfaceInfo
+    href: OpenTD.RadCAD.AnalysisGroupSurfaceInfo.md
+  - name: AnalysisGroupVolumetricInfo
+    href: OpenTD.RadCAD.AnalysisGroupVolumetricInfo.md
+  - name: Assembly
+    href: OpenTD.RadCAD.Assembly.md
+  - name: Cone
+    href: OpenTD.RadCAD.Cone.md
+  - name: Cylinder
+    href: OpenTD.RadCAD.Cylinder.md
+  - name: Disk
+    href: OpenTD.RadCAD.Disk.md
+  - name: Ellipse
+    href: OpenTD.RadCAD.Ellipse.md
+  - name: Ellipsoid
+    href: OpenTD.RadCAD.Ellipsoid.md
+  - name: EllipticCone
+    href: OpenTD.RadCAD.EllipticCone.md
+  - name: EllipticCylinder
+    href: OpenTD.RadCAD.EllipticCylinder.md
+  - name: FEMeshImporter
+    href: OpenTD.RadCAD.FEMeshImporter.md
+  - name: Face
+    href: OpenTD.RadCAD.Face.md
+  - name: GlobalContact
+    href: OpenTD.RadCAD.GlobalContact.md
+  - name: MeshFD
+    href: OpenTD.RadCAD.MeshFD.md
+  - name: OffsetParaboloid
+    href: OpenTD.RadCAD.OffsetParaboloid.md
+  - name: Ogive
+    href: OpenTD.RadCAD.Ogive.md
+  - name: OpticalProps
+    href: OpenTD.RadCAD.OpticalProps.md
+  - name: Orbit
+    href: OpenTD.RadCAD.Orbit.md
+  - name: OrbitDateTime
+    href: OpenTD.RadCAD.OrbitDateTime.md
+  - name: OrbitParameters
+    href: OpenTD.RadCAD.OrbitParameters.md
+  - name: ParabolicTrough
+    href: OpenTD.RadCAD.ParabolicTrough.md
+  - name: Paraboloid
+    href: OpenTD.RadCAD.Paraboloid.md
+  - name: PlanetParameters
+    href: OpenTD.RadCAD.PlanetParameters.md
+  - name: Polygon
+    href: OpenTD.RadCAD.Polygon.md
+  - name: RadiationAnalysisGroupManager
+    href: OpenTD.RadCAD.RadiationAnalysisGroupManager.md
+  - name: RcConicData
+    href: OpenTD.RadCAD.RcConicData.md
+  - name: RcEntityData
+    href: OpenTD.RadCAD.RcEntityData.md
+  - name: Rectangle
+    href: OpenTD.RadCAD.Rectangle.md
+  - name: ScarfedCone
+    href: OpenTD.RadCAD.ScarfedCone.md
+  - name: ScarfedCylinder
+    href: OpenTD.RadCAD.ScarfedCylinder.md
+  - name: Sphere
+    href: OpenTD.RadCAD.Sphere.md
+  - name: TempVsWaveLengthData
+    href: OpenTD.RadCAD.TempVsWaveLengthData.md
+  - name: Torus
+    href: OpenTD.RadCAD.Torus.md
+  - name: Tracker
+    href: OpenTD.RadCAD.Tracker.md
+  - name: Enums
+  - name: FEMeshImporter.ImporterFiletype
+    href: OpenTD.RadCAD.FEMeshImporter.ImporterFiletype.md
+  - name: InsulationNodeSubmodelIdOptions
+    href: OpenTD.RadCAD.InsulationNodeSubmodelIdOptions.md
+  - name: Orbit.OrbitTypes
+    href: OpenTD.RadCAD.Orbit.OrbitTypes.md
+  - name: Orbit.OrientTypes
+    href: OpenTD.RadCAD.Orbit.OrientTypes.md
+  - name: Orbit.Planets
+    href: OpenTD.RadCAD.Orbit.Planets.md
+  - name: OrbitParameters.ShapeTypes
+    href: OpenTD.RadCAD.OrbitParameters.ShapeTypes.md
+  - name: RcEntityData.Active
+    href: OpenTD.RadCAD.RcEntityData.Active.md
+  - name: RcEntityData.IdType
+    href: OpenTD.RadCAD.RcEntityData.IdType.md
+  - name: RcEntityData.InsulationNodeSubmodelIdOption
+    href: OpenTD.RadCAD.RcEntityData.InsulationNodeSubmodelIdOption.md
+  - name: RcEntityData.NodePositionsType
+    href: OpenTD.RadCAD.RcEntityData.NodePositionsType.md
+  - name: RcEntityData.VolumetricParticipation
+    href: OpenTD.RadCAD.RcEntityData.VolumetricParticipation.md
+- name: OpenTD.RadCAD.FEM
+  href: OpenTD.RadCAD.FEM.md
+  items:
+  - name: Classes
+  - name: LinearBrick
+    href: OpenTD.RadCAD.FEM.LinearBrick.md
+  - name: LinearPyramid
+    href: OpenTD.RadCAD.FEM.LinearPyramid.md
+  - name: LinearQuad
+    href: OpenTD.RadCAD.FEM.LinearQuad.md
+  - name: LinearTet
+    href: OpenTD.RadCAD.FEM.LinearTet.md
+  - name: LinearTri
+    href: OpenTD.RadCAD.FEM.LinearTri.md
+  - name: LinearWedge
+    href: OpenTD.RadCAD.FEM.LinearWedge.md
+  - name: QuadraticBrick
+    href: OpenTD.RadCAD.FEM.QuadraticBrick.md
+  - name: QuadraticPyramid
+    href: OpenTD.RadCAD.FEM.QuadraticPyramid.md
+  - name: QuadraticQuad
+    href: OpenTD.RadCAD.FEM.QuadraticQuad.md
+  - name: QuadraticTet
+    href: OpenTD.RadCAD.FEM.QuadraticTet.md
+  - name: QuadraticTri
+    href: OpenTD.RadCAD.FEM.QuadraticTri.md
+  - name: QuadraticWedge
+    href: OpenTD.RadCAD.FEM.QuadraticWedge.md
+  - name: RcSolidElement
+    href: OpenTD.RadCAD.FEM.RcSolidElement.md
+  - name: RcSurfaceElement
+    href: OpenTD.RadCAD.FEM.RcSurfaceElement.md
+- name: OpenTD.RadCAD.FEModel
+  href: OpenTD.RadCAD.FEModel.md
+  items:
+  - name: Classes
+  - name: CoordinateSystem
+    href: OpenTD.RadCAD.FEModel.CoordinateSystem.md
+  - name: Domain
+    href: OpenTD.RadCAD.FEModel.Domain.md
+  - name: EdgeDomain
+    href: OpenTD.RadCAD.FEModel.EdgeDomain.md
+  - name: EdgeSpec
+    href: OpenTD.RadCAD.FEModel.EdgeSpec.md
+  - name: Element
+    href: OpenTD.RadCAD.FEModel.Element.md
+  - name: FEMesh
+    href: OpenTD.RadCAD.FEModel.FEMesh.md
+  - name: FaceDomain
+    href: OpenTD.RadCAD.FEModel.FaceDomain.md
+  - name: FaceSpec
+    href: OpenTD.RadCAD.FEModel.FaceSpec.md
+  - name: IdDomain
+    href: OpenTD.RadCAD.FEModel.IdDomain.md
+  - name: LayerData
+    href: OpenTD.RadCAD.FEModel.LayerData.md
+  - name: Node
+    href: OpenTD.RadCAD.FEModel.Node.md
+  - name: Quaternion
+    href: OpenTD.RadCAD.FEModel.Quaternion.md
+  - name: SolidElement
+    href: OpenTD.RadCAD.FEModel.SolidElement.md
+  - name: SurfaceElement
+    href: OpenTD.RadCAD.FEModel.SurfaceElement.md
+- name: OpenTD.RadCAD.FdSolid
+  href: OpenTD.RadCAD.FdSolid.md
+  items:
+  - name: Classes
+  - name: AnalysisGroupSolidInfo
+    href: OpenTD.RadCAD.FdSolid.AnalysisGroupSolidInfo.md
+  - name: RcFdSolidData
+    href: OpenTD.RadCAD.FdSolid.RcFdSolidData.md
+  - name: SolidBrick
+    href: OpenTD.RadCAD.FdSolid.SolidBrick.md
+  - name: SolidCone
+    href: OpenTD.RadCAD.FdSolid.SolidCone.md
+  - name: SolidCylinder
+    href: OpenTD.RadCAD.FdSolid.SolidCylinder.md
+  - name: SolidEllipsoid
+    href: OpenTD.RadCAD.FdSolid.SolidEllipsoid.md
+  - name: SolidSphere
+    href: OpenTD.RadCAD.FdSolid.SolidSphere.md
+  - name: Enums
+  - name: RcFdSolidData.Active
+    href: OpenTD.RadCAD.FdSolid.RcFdSolidData.Active.md
+  - name: RcFdSolidData.MliNodeTypes
+    href: OpenTD.RadCAD.FdSolid.RcFdSolidData.MliNodeTypes.md
+  - name: RcFdSolidData.NodePositionsType
+    href: OpenTD.RadCAD.FdSolid.RcFdSolidData.NodePositionsType.md
+- name: OpenTD.Results
+  href: OpenTD.Results.md
+  items:
+  - name: Classes
+  - name: Class1
+    href: OpenTD.Results.Class1.md
+- name: OpenTD.Results.Dataset
+  href: OpenTD.Results.Dataset.md
+  items:
+  - name: Classes
+  - name: AverageDataArray
+    href: OpenTD.Results.Dataset.AverageDataArray.md
+  - name: Browser
+    href: OpenTD.Results.Dataset.Browser.md
+  - name: CSR
+    href: OpenTD.Results.Dataset.CSR.md
+  - name: CompareAssertion
+    href: OpenTD.Results.Dataset.CompareAssertion.md
+  - name: CompareData
+    href: OpenTD.Results.Dataset.CompareData.md
+  - name: CompareSuite
+    href: OpenTD.Results.Dataset.CompareSuite.md
+  - name: Comparer
+    href: OpenTD.Results.Dataset.Comparer.md
+  - name: ConcatenatedDataset
+    href: OpenTD.Results.Dataset.ConcatenatedDataset.md
+  - name: ConductorHeat
+    href: OpenTD.Results.Dataset.ConductorHeat.md
+  - name: DataArray
+    href: OpenTD.Results.Dataset.DataArray.md
+  - name: DataArrayCollection
+    href: OpenTD.Results.Dataset.DataArrayCollection.md
+  - name: DataArrayEnumerator
+    href: OpenTD.Results.Dataset.DataArrayEnumerator.md
+  - name: DataItemIdentifier
+    href: OpenTD.Results.Dataset.DataItemIdentifier.md
+  - name: DataItemIdentifierCollection
+    href: OpenTD.Results.Dataset.DataItemIdentifierCollection.md
+  - name: DataSubtype
+    href: OpenTD.Results.Dataset.DataSubtype.md
+  - name: Dataset
+    href: OpenTD.Results.Dataset.Dataset.md
+  - name: DatasetFactory
+    href: OpenTD.Results.Dataset.DatasetFactory.md
+  - name: DatasetSlice
+    href: OpenTD.Results.Dataset.DatasetSlice.md
+  - name: DerivedDataArray
+    href: OpenTD.Results.Dataset.DerivedDataArray.md
+  - name: DerivedDataset
+    href: OpenTD.Results.Dataset.DerivedDataset.md
+  - name: FormulaDataArray
+    href: OpenTD.Results.Dataset.FormulaDataArray.md
+  - name: HeatratesBetween
+    href: OpenTD.Results.Dataset.HeatratesBetween.md
+  - name: ItemIdentifier
+    href: OpenTD.Results.Dataset.ItemIdentifier.md
+  - name: ItemIdentifierCollection
+    href: OpenTD.Results.Dataset.ItemIdentifierCollection.md
+  - name: MaxDataArray
+    href: OpenTD.Results.Dataset.MaxDataArray.md
+  - name: MinDataArray
+    href: OpenTD.Results.Dataset.MinDataArray.md
+  - name: NodeConductorHeatrates
+    href: OpenTD.Results.Dataset.NodeConductorHeatrates.md
+  - name: NodeHeatrates
+    href: OpenTD.Results.Dataset.NodeHeatrates.md
+  - name: NodeTieHeatrates
+    href: OpenTD.Results.Dataset.NodeTieHeatrates.md
+  - name: OneSubtypeDerivedDataArray
+    href: OpenTD.Results.Dataset.OneSubtypeDerivedDataArray.md
+  - name: PercentDifferenceCompareData
+    href: OpenTD.Results.Dataset.PercentDifferenceCompareData.md
+  - name: RadkDatabase
+    href: OpenTD.Results.Dataset.RadkDatabase.md
+  - name: SaveFile
+    href: OpenTD.Results.Dataset.SaveFile.md
+  - name: SaveXFile
+    href: OpenTD.Results.Dataset.SaveXFile.md
+  - name: SelectMaxDataArray
+    href: OpenTD.Results.Dataset.SelectMaxDataArray.md
+  - name: SelectMinDataArray
+    href: OpenTD.Results.Dataset.SelectMinDataArray.md
+  - name: SelectOneDataArray
+    href: OpenTD.Results.Dataset.SelectOneDataArray.md
+  - name: SimpleDataset
+    href: OpenTD.Results.Dataset.SimpleDataset.md
+  - name: SpreadsheetDataFile
+    href: OpenTD.Results.Dataset.SpreadsheetDataFile.md
+  - name: SumDataArray
+    href: OpenTD.Results.Dataset.SumDataArray.md
+  - name: TextTransientFile
+    href: OpenTD.Results.Dataset.TextTransientFile.md
+  - name: TieHeat
+    href: OpenTD.Results.Dataset.TieHeat.md
+  - name: UDFADescriptor
+    href: OpenTD.Results.Dataset.UDFADescriptor.md
+  - name: WeightedAverageDataArray
+    href: OpenTD.Results.Dataset.WeightedAverageDataArray.md
+  - name: Structs
+  - name: Exceedance
+    href: OpenTD.Results.Dataset.Exceedance.md
+  - name: ExceedancePlot
+    href: OpenTD.Results.Dataset.ExceedancePlot.md
+  - name: FullStandardDataSubtype
+    href: OpenTD.Results.Dataset.FullStandardDataSubtype.md
+  - name: Interfaces
+  - name: IBasicDataset
+    href: OpenTD.Results.Dataset.IBasicDataset.md
+  - name: IBrowser
+    href: OpenTD.Results.Dataset.IBrowser.md
+  - name: ICompareData
+    href: OpenTD.Results.Dataset.ICompareData.md
+  - name: IComparerInput
+    href: OpenTD.Results.Dataset.IComparerInput.md
+  - name: IComparerOutput
+    href: OpenTD.Results.Dataset.IComparerOutput.md
+  - name: IDataset
+    href: OpenTD.Results.Dataset.IDataset.md
+  - name: ISimpleDataset
+    href: OpenTD.Results.Dataset.ISimpleDataset.md
+  - name: Enums
+  - name: ArrayIntegerNames
+    href: OpenTD.Results.Dataset.ArrayIntegerNames.md
+  - name: DataSubtype.ValueTypes
+    href: OpenTD.Results.Dataset.DataSubtype.ValueTypes.md
+  - name: DataTypeFamilies
+    href: OpenTD.Results.Dataset.DataTypeFamilies.md
+  - name: DataTypes
+    href: OpenTD.Results.Dataset.DataTypes.md
+  - name: FluidConstituents
+    href: OpenTD.Results.Dataset.FluidConstituents.md
+  - name: IntegerNames
+    href: OpenTD.Results.Dataset.IntegerNames.md
+  - name: ItemIdentifier.Types
+    href: OpenTD.Results.Dataset.ItemIdentifier.Types.md
+  - name: StandardDataSubtypes
+    href: OpenTD.Results.Dataset.StandardDataSubtypes.md
+  - name: UDFAType
+    href: OpenTD.Results.Dataset.UDFAType.md
+- name: OpenTD.Results.Dataset.Topology
+  href: OpenTD.Results.Dataset.Topology.md
+  items:
+  - name: Classes
+  - name: DatasetTopology
+    href: OpenTD.Results.Dataset.Topology.DatasetTopology.md
+  - name: IFaceInfo
+    href: OpenTD.Results.Dataset.Topology.IFaceInfo.md
+  - name: ObjectInfoBase
+    href: OpenTD.Results.Dataset.Topology.ObjectInfoBase.md
+  - name: PathInfo
+    href: OpenTD.Results.Dataset.Topology.PathInfo.md
+  - name: SindaName
+    href: OpenTD.Results.Dataset.Topology.SindaName.md
+  - name: Interfaces
+  - name: IConductorInfo
+    href: OpenTD.Results.Dataset.Topology.IConductorInfo.md
+  - name: IDatasetTopology
+    href: OpenTD.Results.Dataset.Topology.IDatasetTopology.md
+  - name: IFTieInfo
+    href: OpenTD.Results.Dataset.Topology.IFTieInfo.md
+  - name: IIFaceInfo
+    href: OpenTD.Results.Dataset.Topology.IIFaceInfo.md
+  - name: ILumpInfo
+    href: OpenTD.Results.Dataset.Topology.ILumpInfo.md
+  - name: INodeInfo
+    href: OpenTD.Results.Dataset.Topology.INodeInfo.md
+  - name: IObjectInfoBase
+    href: OpenTD.Results.Dataset.Topology.IObjectInfoBase.md
+  - name: IPathInfo
+    href: OpenTD.Results.Dataset.Topology.IPathInfo.md
+  - name: ITieInfo
+    href: OpenTD.Results.Dataset.Topology.ITieInfo.md
+  - name: Enums
+  - name: FTieType
+    href: OpenTD.Results.Dataset.Topology.FTieType.md
+  - name: IFaceType
+    href: OpenTD.Results.Dataset.Topology.IFaceType.md
+  - name: LumpType
+    href: OpenTD.Results.Dataset.Topology.LumpType.md
+  - name: NodeType
+    href: OpenTD.Results.Dataset.Topology.NodeType.md
+  - name: PathType
+    href: OpenTD.Results.Dataset.Topology.PathType.md
+  - name: TieType
+    href: OpenTD.Results.Dataset.Topology.TieType.md
+- name: OpenTD.Results.Plot
+  href: OpenTD.Results.Plot.md
+  items:
+  - name: Classes
+  - name: Axis
+    href: OpenTD.Results.Plot.Axis.md
+  - name: AxisStyle
+    href: OpenTD.Results.Plot.AxisStyle.md
+  - name: DefaultStyles
+    href: OpenTD.Results.Plot.DefaultStyles.md
+  - name: Grid
+    href: OpenTD.Results.Plot.Grid.md
+  - name: Legend
+    href: OpenTD.Results.Plot.Legend.md
+  - name: LegendStyle
+    href: OpenTD.Results.Plot.LegendStyle.md
+  - name: Plot2d
+    href: OpenTD.Results.Plot.Plot2d.md
+  - name: Plot2dStyle
+    href: OpenTD.Results.Plot.Plot2dStyle.md
+  - name: Series2d
+    href: OpenTD.Results.Plot.Series2d.md
+  - name: Series2dCollection
+    href: OpenTD.Results.Plot.Series2dCollection.md
+  - name: Series2dStyle
+    href: OpenTD.Results.Plot.Series2dStyle.md
+  - name: SimplePlot
+    href: OpenTD.Results.Plot.SimplePlot.md
+  - name: Enums
+  - name: Axis.Positions
+    href: OpenTD.Results.Plot.Axis.Positions.md
+- name: OpenTD.Results.Plot.Internal
+  href: OpenTD.Results.Plot.Internal.md
+  items:
+  - name: Classes
+  - name: SimplePlotDialog
+    href: OpenTD.Results.Plot.Internal.SimplePlotDialog.md
+- name: OpenTD.Results.Utility
+  href: OpenTD.Results.Utility.md
+  items:
+  - name: Classes
+  - name: BinaryFileReader<T>
+    href: OpenTD.Results.Utility.BinaryFileReader-1.md
+- name: OpenTD.UserInterface
+  href: OpenTD.UserInterface.md
+  items:
+  - name: Classes
+  - name: StandardOutput
+    href: OpenTD.UserInterface.StandardOutput.md
+  - name: WriteEventArgs
+    href: OpenTD.UserInterface.WriteEventArgs.md
+- name: OpenTD.UserInterface.Forms
+  href: OpenTD.UserInterface.Forms.md
+  items:
+  - name: Classes
+  - name: OutputBox
+    href: OpenTD.UserInterface.Forms.OutputBox.md
+  - name: OutputDialog
+    href: OpenTD.UserInterface.Forms.OutputDialog.md
+- name: OpenTD.UserPreferences
+  href: OpenTD.UserPreferences.md
+  items:
+  - name: Classes
+  - name: Acceleration
+    href: OpenTD.UserPreferences.Acceleration.md
+  - name: AdvancedPreferences
+    href: OpenTD.UserPreferences.AdvancedPreferences.md
+  - name: CalculationsPreferences
+    href: OpenTD.UserPreferences.CalculationsPreferences.md
+  - name: GraphicsResolutionPreferences
+    href: OpenTD.UserPreferences.GraphicsResolutionPreferences.md
+  - name: GraphicsSizePreferences
+    href: OpenTD.UserPreferences.GraphicsSizePreferences.md
+  - name: GraphicsTextPreferences
+    href: OpenTD.UserPreferences.GraphicsTextPreferences.md
+  - name: GraphicsVisibilityPreferences
+    href: OpenTD.UserPreferences.GraphicsVisibilityPreferences.md
+  - name: SindaPreferences
+    href: OpenTD.UserPreferences.SindaPreferences.md
+  - name: UnitsPreferences
+    href: OpenTD.UserPreferences.UnitsPreferences.md
+  - name: UserPreferences
+    href: OpenTD.UserPreferences.UserPreferences.md
+- name: OpenTD.Utility
+  href: OpenTD.Utility.md
+  items:
+  - name: Classes
+  - name: DoubleUtility
+    href: OpenTD.Utility.DoubleUtility.md
+  - name: FileUtility
+    href: OpenTD.Utility.FileUtility.md
+  - name: FileWatcher
+    href: OpenTD.Utility.FileWatcher.md
+  - name: ListUtility
+    href: OpenTD.Utility.ListUtility.md
+  - name: ObjectMapper
+    href: OpenTD.Utility.ObjectMapper.md
+  - name: PropertyMap
+    href: OpenTD.Utility.PropertyMap.md
+  - name: StringExtensions
+    href: OpenTD.Utility.StringExtensions.md
+  - name: StringUtility
+    href: OpenTD.Utility.StringUtility.md
+  - name: UniqueItemList<T>
+    href: OpenTD.Utility.UniqueItemList-1.md
+  - name: Structs
+  - name: RootedPathname
+    href: OpenTD.Utility.RootedPathname.md

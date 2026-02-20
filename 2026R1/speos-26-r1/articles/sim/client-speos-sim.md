@@ -15,25 +15,27 @@ GetSpeosObjectsInActivePart | Get the Speos objects contained in the active Part
 GetErrorStatus | Get the error status of the given object | `string GetErrorStatus(object docObject)`
 IsUpToDate | Ask if the given object was modified since its last successful computation | `bool IsUpToDate(object docObject)`
 Compute | Perform the computation of an array of objects | `void Compute(System.Object[] selectedObjects)`
-Compute | Perform the computation of an array of DocObjects | `void Compute(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Compute | Perform the computation of an array of DocObjects | `void Compute(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Compute | Perform the computation of an array of script objects | `void Compute(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
 ComputeOnActiveSelection | Perform the computation of the active selection | `void ComputeOnActiveSelection()`
 HpcCompute | Perform the HPC computation of an array of objects | `void HpcCompute(System.Object[] selectedObjects)`
-HpcCompute | Perform the HPC computation of an array of DocObjects | `void HpcCompute(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+HpcCompute | Perform the HPC computation of an array of DocObjects | `void HpcCompute(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 HpcCompute | Perform the HPC computation of an array of script objects | `void HpcCompute(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
 HpcComputeOnActiveSelection | Perform the HPC computation of the active selection | `void HpcComputeOnActiveSelection()`
 GpuCompute | Perform the GPU computation of an array of objects | `void GpuCompute(System.Object[] selectedObjects)`
-GpuCompute | Perform the GPU computation of an array of DocObjects | `void GpuCompute(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+GpuCompute | Perform the GPU computation of an array of DocObjects | `void GpuCompute(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 GpuCompute | Perform the GPU computation of an array of script objects | `void GpuCompute(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
 GpuComputeOnActiveSelection | Perform the GPU computation of the active selection | `void GpuComputeOnActiveSelection()`
 PreviewCompute | Perform the Preview computation of an array of objects | `void PreviewCompute(System.Object[] selectedObjects)`
-PreviewCompute | Perform the Preview computation of an array of DocObjects | `void PreviewCompute(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+PreviewCompute | Perform the Preview computation of an array of DocObjects | `void PreviewCompute(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 PreviewCompute | Perform the Preview computation of an array of script objects | `void PreviewCompute(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
 PreviewComputeOnActiveSelection | Perform the Preview computation of the active selection | `void PreviewComputeOnActiveSelection()`
+UpdatePreviewCompute | Perform update for the active preview compute | `void UpdatePreviewCompute()`
 GetOutputFolder | Get the Speos output files directory path for the active context | `string GetOutputFolder()`
 GetInputFolder | Get the Speos input files directory path for the active context | `string GetInputFolder()`
 ImportGltf | Imports the specified glTF file | `void ImportGltf(string path)`
 ImportGltf | Imports the specified glTF files | `void ImportGltf(System.String[] paths)`
+ExportVolumicResultHoa | This command can take either the HOA Simulation object to export all EyeBox volumic results, or it can take in an EyeBox object to export just one | `void ExportVolumicResultHoa(System.Object[] selectedObjects)`
 ExportFileReferences | Export all Speos file references found in the active document to an Excel file (.xlsx). | `void ExportFileReferences(string xlsxFilePath)`
 
 ## Coefficient
@@ -59,7 +61,7 @@ ValueText | Number attribute (as text) | `string ValueText`
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.Component> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.Component> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.Component Find(string objectName)`
 
 ### Method
@@ -67,10 +69,10 @@ Find | Returns the object whose name matches exactly the specified string. Or, i
 Name | Description | Syntax
 --- | --- | ---
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -82,7 +84,7 @@ ExportToPreset | Export the current object configuration to a Preset file. Note:
 
 Name | Description | Syntax
 --- | --- | ---
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -102,10 +104,10 @@ SetGeometrySettings | Set the geometry settings (meshing behavior) | `void SetGe
 Clone | Create a copy of this object in the active context | `SpeosSim.Component3DTexture Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.Component3DTexture CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -117,7 +119,7 @@ ExportToPreset | Export the current object configuration to a Preset file. Note:
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.Component3DTexture> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.Component3DTexture> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.Component3DTexture Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.Component3DTexture Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.Component3DTexture Create()`
@@ -207,7 +209,7 @@ PreviewSizeZ | Number attribute | `double PreviewSizeZ`
 PreviewSizeZText | Number attribute (as text) | `string PreviewSizeZText`
 MaxNumberOfPatterns | Number attribute | `int MaxNumberOfPatterns`
 MaxNumberOfPatternsText | Number attribute (as text) | `string MaxNumberOfPatternsText`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -221,7 +223,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -229,7 +231,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### `Component3DTexture.Component3DTextureXDirection`
 
@@ -238,7 +240,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -246,7 +248,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### Component3DTexture.Component3DTextureYDirection
 
@@ -255,7 +257,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -263,7 +265,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### Component3DTexture.Component3DTextureSupportGeometry
 
@@ -272,7 +274,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -280,7 +282,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### Component3DTexture.Component3DTextureXPitchCurve
 
@@ -289,7 +291,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -297,7 +299,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### Component3DTexture.Component3DTextureYPitchCurve
 
@@ -306,7 +308,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -314,7 +316,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### Component3DTexture.Component3DTextureLimitingSurface
 
@@ -323,7 +325,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -331,7 +333,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### Component3DTexture.Component3DTextureOffsetSurface
 
@@ -340,7 +342,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -348,7 +350,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### Component3DTexture.Component3DTextureXScaleSurface
 
@@ -357,7 +359,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -365,7 +367,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### Component3DTexture.Component3DTextureYScaleSurface
 
@@ -374,7 +376,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -382,7 +384,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### Component3DTexture.Component3DTextureZScaleSurface
 
@@ -391,7 +393,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -399,7 +401,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## ComponentExport
 
@@ -407,7 +409,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.ComponentExport> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.ComponentExport> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.ComponentExport Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.ComponentExport Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.ComponentExport Create()`
@@ -422,10 +424,10 @@ GetResultFilePath | Get the list of paths of all computation resulting files | `
 GetGeometrySettings | Get the geometry settings (meshing behavior) | `SpeosSim.SimulationSettings GetGeometrySettings()`
 SetGeometrySettings | Set the geometry settings (meshing behavior) | `void SetGeometrySettings(SpeosSim.SimulationSettings simulationSettings)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -445,7 +447,7 @@ YDirectionReverse | boolean attribute | `bool YDirectionReverse`
 Sources | Links attribute | `SpeosSim.ComponentExport.ComponentExportSources Sources`
 Geometries | Children attribute | `SpeosSim.ComponentExport.ComponentExportGeometries Geometries`
 IsBlackBox | boolean attribute | `bool IsBlackBox`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -459,7 +461,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -467,7 +469,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### ComponentExport.ComponentExportXDirection
 
@@ -476,7 +478,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -484,7 +486,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### ComponentExport.ComponentExportYDirection
 
@@ -493,7 +495,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -501,7 +503,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### ComponentExport.ComponentExportSources
 
@@ -510,7 +512,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -519,8 +521,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ### ComponentExport.ComponentExportGeometries
@@ -530,7 +532,7 @@ Count | Links attribute: Get the links count | `int Count`
 Name | Description | Syntax
 --- | --- | ---
 Set | Children attribute: Set from an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Children attribute: Set from an array of objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 GetEnumerator | Children attribute: Get children enumeration | `IEnumerator<SpeosSim.FTGEnabledGeometry> GetEnumerator()`
 Add | Children attribute: Add an object to the children list | `void Add(SpeosSim.FTGEnabledGeometry childObject)`
@@ -542,7 +544,7 @@ SelectAll | Children attribute: Create children for all objects that are compati
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
+LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
 Count | Children attribute: Get children count | `int Count`
 List | Children attribute: Get children collection | `IReadOnlyCollection<SpeosSim.FTGEnabledGeometry> List`
 Item | Children attribute: Get child by index | `SpeosSim.FTGEnabledGeometry Item`
@@ -553,7 +555,7 @@ Item | Children attribute: Get child by index | `SpeosSim.FTGEnabledGeometry Ite
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.ComponentImport> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.ComponentImport> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.ComponentImport Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.ComponentImport Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.ComponentImport Create()`
@@ -565,10 +567,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.ComponentImport Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.ComponentImport CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -591,7 +593,7 @@ ImportFile | File attribute | `string ImportFile`
 ImportFileFullPath | File attribute (absolute full path) | `string ImportFileFullPath`
 LightBoxPreviewType | Enum attribute | `SpeosSim.ComponentImport.EnumLightBoxPreviewType LightBoxPreviewType`
 LightBoxPreviewTypeIndex | Enum attribute (as index) | `int LightBoxPreviewTypeIndex`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -605,7 +607,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -613,7 +615,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### ComponentImport.ComponentImportXDirection
 
@@ -622,7 +624,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -630,7 +632,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### ComponentImport.ComponentImportYDirection
 
@@ -639,7 +641,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -647,7 +649,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## ComponentOpticStudio
 
@@ -655,7 +657,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.ComponentOpticStudio> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.ComponentOpticStudio> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.ComponentOpticStudio Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.ComponentOpticStudio Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.ComponentOpticStudio Create()`
@@ -667,10 +669,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.ComponentOpticStudio Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.ComponentOpticStudio CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -692,9 +694,12 @@ ComponentFileFullPath | File attribute (absolute full path) | `string ComponentF
 UpdateMaterialsOnly | Boolean attribute | `bool UpdateMaterialsOnly`
 SortedGeometricComponents | Children attribute | `SpeosSim.ComponentOpticStudio.ComponentOpticStudioSortedGeometricComponents SortedGeometricComponents`
 Lenses | Children attribute | `SpeosSim.ComponentOpticStudio.ComponentOpticStudioLenses Lenses`
+SolidBodies | Children attribute | `SpeosSim.ComponentOpticStudio.ComponentOpticStudioSolidBodies SolidBodies`
+SourceBodies | Children attribute | `SpeosSim.ComponentOpticStudio.ComponentOpticStudioSourceBodies SourceBodies`
 Surfaces | Children attribute | `SpeosSim.ComponentOpticStudio.ComponentOpticStudioSurfaces Surfaces`
 Detectors | Links attribute | `SpeosSim.ComponentOpticStudio.ComponentOpticStudioDetectors Detectors`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Sources | Links attribute | `SpeosSim.ComponentOpticStudio.ComponentOpticStudioSources Sources`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -708,7 +713,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -716,7 +721,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### ComponentOpticStudio.ComponentOpticStudioXDirection
 
@@ -725,7 +730,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -733,7 +738,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### ComponentOpticStudio.ComponentOpticStudioYDirection
 
@@ -742,7 +747,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -750,7 +755,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### ComponentOpticStudio.ComponentOpticStudioSortedGeometricComponents
 
@@ -764,7 +769,7 @@ GetEnumerator | Children attribute: Get children enumeration | `IEnumerator<Speo
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
+LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
 Count | Children attribute: Get children count | `int Count`
 List | Children attribute: Get children collection | `IReadOnlyCollection<SpeosSim.GeometryOpticsStudio> List`
 Item | Children attribute: Get child by index | `SpeosSim.GeometryOpticsStudio Item`
@@ -787,6 +792,40 @@ Count | Children attribute: Get children count | `int Count`
 List | Children attribute: Get children collection | `IReadOnlyCollection List`
 Item | Children attribute: Get child by index | `SpeosSim.Lenses Item`
 
+### ComponentOpticStudio.ComponentOpticStudioSolidBodies
+
+### Method
+
+Name | Description | Syntax
+--- | --- | ---
+GetEnumerator | Children attribute: Get children enumeration | `IEnumerator GetEnumerator()`
+
+### Property
+
+Name | Description | Syntax
+--- | --- | ---
+LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection LinkedObjects`
+Count | Children attribute: Get children count | `int Count`
+List | Children attribute: Get children collection | `IReadOnlyCollection List`
+Item | Children attribute: Get child by index | `SpeosSim.SolidBodies Item`
+  
+### ComponentOpticStudio.ComponentOpticStudioSourceBodies
+
+### Method
+
+Name | Description | Syntax
+--- | --- | ---
+GetEnumerator | Children attribute: Get children enumeration | `IEnumerator GetEnumerator()`
+
+### Property
+
+Name | Description | Syntax
+--- | --- | ---
+LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection LinkedObjects`
+Count | Children attribute: Get children count | `int Count`
+List | Children attribute: Get children collection | `IReadOnlyCollection List`
+Item | Children attribute: Get child by index | `SpeosSim.GeometryOpticsStudioSourceBody Item`
+
 ### ComponentOpticStudio.ComponentOpticStudioSurfaces
 
 ### Method
@@ -794,6 +833,9 @@ Item | Children attribute: Get child by index | `SpeosSim.Lenses Item`
 Name | Description | Syntax
 --- | --- | ---
 GetEnumerator | Children attribute: Get children enumeration | `IEnumerator GetEnumerator()`
+Add | Children attribute: Add an object to the children list | `void Add(SpeosSim.Surfaces childObject)`
+Delete | Children attribute: Delete a child object by index | `bool Delete(int index)`
+Clear | Children attribute: Empty the list | `void Clear()`
 
 ### Property
 
@@ -810,8 +852,18 @@ Item | Children attribute: Get child by index | `SpeosSim.Surfaces Item`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
+Count | Links attribute: Get the links count | `int Count`
+
+### ComponentOpticStudio.ComponentOpticStudioSources
+
+### Property
+
+Name | Description | Syntax
+--- | --- | ---
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ## ComponentSpeosPattern
@@ -820,7 +872,7 @@ Count | Links attribute: Get the links count | `int Count`
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.ComponentSpeosPattern> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.ComponentSpeosPattern> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.ComponentSpeosPattern Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.ComponentSpeosPattern Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.ComponentSpeosPattern Create()`
@@ -833,10 +885,10 @@ Clone | Create a copy of this object in the active context | `SpeosSim.Component
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.ComponentSpeosPattern CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 OptimizeRayFile | Call the 'Ray file optimization' command. Returns 'false' if this action is unavailable in the current state of the object. | `bool OptimizeRayFile()`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -874,7 +926,7 @@ SpectrumValueTemperature | Number attribute | `double SpectrumValueTemperature`
 SpectrumValueTemperatureText | Number attribute (as text) | `string SpectrumValueTemperatureText`
 SpectrumValueLibrary | File attribute | `Speos.Foundation.Utils.File.FilePath SpectrumValueLibrary`
 SpectrumValueLibraryFullPath | File attribute (absolute full path) | `string SpectrumValueLibraryFullPath`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -888,7 +940,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -897,8 +949,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ## EyeboxConfiguration
@@ -952,7 +1004,7 @@ FTGGeometry | Link attribute | `SpeosSim.FTGEnabledGeometry.FTGEnabledGeometryFT
 
 Name | Description | Syntax
 --- | --- | ---
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -960,7 +1012,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## GeometryOpticsStudio
 
@@ -983,7 +1035,31 @@ Body | Links attribute | `SpeosSim.GeometryOpticsStudio.GeometryOpticsStudioBody
 Name | Description | Syntax
 --- | --- | ---
 LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
+Count | Links attribute: Get the links count | `int Count`
+
+## GeometryOpticsStudioSourceBody
+
+### Method
+
+Name | Description | Syntax
+--- | --- | ---
+ToString |  | `string ToString()`
+
+### Property
+
+Name | Description | Syntax
+--- | --- | ---
+Body | Links attribute | `SpeosSim.GeometryOpticsStudioSourceBody.GeometryOpticsStudioSourceBodyBody Body`
+
+### GeometryOpticsStudioSourceBody.GeometryOpticsStudioSourceBodyBody
+
+### Property
+
+Name | Description | Syntax
+--- | --- | ---
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ## HoaEyeBox
@@ -992,7 +1068,7 @@ Count | Links attribute: Get the links count | `int Count`
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.HoaEyeBox> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.HoaEyeBox> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.HoaEyeBox Find(string objectName)`
 
 ### Method
@@ -1000,10 +1076,10 @@ Find | Returns the object whose name matches exactly the specified string. Or, i
 Name | Description | Syntax
 --- | --- | ---
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -1050,7 +1126,7 @@ EBMultiEyebox | boolean attribute | `bool EBMultiEyebox`
 EyeboxConfigPositionDirectionType | Enum attribute | `SpeosSim.HoaEyeBox.EnumEyeboxConfigPositionDirectionType EyeboxConfigPositionDirectionType`
 EyeboxConfigPositionDirectionTypeIndex | Enum attribute (as index) | `int EyeboxConfigPositionDirectionTypeIndex`
 EBConfigurations | Children attribute | `SpeosSim.HoaEyeBox.HoaEyeBoxEBConfigurations EBConfigurations`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -1064,7 +1140,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -1072,7 +1148,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### HoaEyeBox.HoaEyeBoxEBConfigurations
 
@@ -1081,7 +1157,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Children attribute: Set from an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Children attribute: Set from an array of objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 GetEnumerator | Children attribute: Get children enumeration | `IEnumerator<SpeosSim.EyeboxConfiguration> GetEnumerator()`
 AddNew | Children attribute: Create a new child object | `SpeosSim.EyeboxConfiguration AddNew(int insertIndex)`
@@ -1093,7 +1169,7 @@ SelectAll | Children attribute: Create children for all objects that are compati
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
+LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
 Count | Children attribute: Get children count | `int Count`
 List | Children attribute: Get children collection | `IReadOnlyCollection<SpeosSim.EyeboxConfiguration> List`
 Item | Children attribute: Get child by index | `SpeosSim.EyeboxConfiguration Item`
@@ -1104,7 +1180,7 @@ Item | Children attribute: Get child by index | `SpeosSim.EyeboxConfiguration It
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.HoaMirrors> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.HoaMirrors> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.HoaMirrors Find(string objectName)`
 
 ### Method
@@ -1113,10 +1189,10 @@ Name | Description | Syntax
 --- | --- | ---
 GetMultiEyeBoxMirrorPossibleValues | string list attribute: List possible values | `IEnumerable<string> GetMultiEyeBoxMirrorPossibleValues()`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -1133,7 +1209,7 @@ MultiEyeBoxMirror | string list selection attribute | `string MultiEyeBoxMirror`
 TiltRotationAxis | Link attribute | `SpeosSim.HoaMirrors.HoaMirrorsTiltRotationAxis TiltRotationAxis`
 TiltRotationAxisReverse | boolean attribute | `bool TiltRotationAxisReverse`
 EBMirrorConfigurations | Children attribute | `SpeosSim.HoaMirrors.HoaMirrorsEBMirrorConfigurations EBMirrorConfigurations`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -1147,7 +1223,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -1156,8 +1232,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ### HoaMirrors.HoaMirrorsTiltRotationAxis
@@ -1167,7 +1243,7 @@ Count | Links attribute: Get the links count | `int Count`
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -1175,7 +1251,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### HoaMirrors.HoaMirrorsEBMirrorConfigurations
 
@@ -1184,7 +1260,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Children attribute: Set from an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Children attribute: Set from an array of objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 GetEnumerator | Children attribute: Get children enumeration | `IEnumerator<SpeosSim.EyeboxConfiguration> GetEnumerator()`
 SelectAll | Children attribute: Create children for all objects that are compatible with link selection. | `void SelectAll()`
@@ -1193,7 +1269,7 @@ SelectAll | Children attribute: Create children for all objects that are compati
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
+LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
 Count | Children attribute: Get children count | `int Count`
 List | Children attribute: Get children collection | `IReadOnlyCollection<SpeosSim.EyeboxConfiguration> List`
 Item | Children attribute: Get child by index | `SpeosSim.EyeboxConfiguration Item`
@@ -1204,7 +1280,7 @@ Item | Children attribute: Get child by index | `SpeosSim.EyeboxConfiguration It
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.HoaPGU> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.HoaPGU> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.HoaPGU Find(string objectName)`
 
 ### Method
@@ -1212,10 +1288,10 @@ Find | Returns the object whose name matches exactly the specified string. Or, i
 Name | Description | Syntax
 --- | --- | ---
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -1246,7 +1322,7 @@ XDirection | Link attribute | `SpeosSim.HoaPGU.HoaPGUXDirection XDirection`
 XDirectionReverse | boolean attribute | `bool XDirectionReverse`
 YDirection | Link attribute | `SpeosSim.HoaPGU.HoaPGUYDirection YDirection`
 YDirectionReverse | boolean attribute | `bool YDirectionReverse`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -1260,7 +1336,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -1268,7 +1344,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### HoaPGU.HoaPGUXDirection
 
@@ -1277,7 +1353,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -1285,7 +1361,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### HoaPGU.HoaPGUYDirection
 
@@ -1294,7 +1370,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -1302,7 +1378,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## HoaReport
 
@@ -1310,7 +1386,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.HoaReport> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.HoaReport> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.HoaReport Find(string objectName)`
 
 ### Method
@@ -1319,10 +1395,10 @@ Name | Description | Syntax
 --- | --- | ---
 GetPluginTestsPossibleValues | string list attribute: List possible values | `IEnumerable<string> GetPluginTestsPossibleValues()`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -1335,7 +1411,7 @@ ExportToPreset | Export the current object configuration to a Preset file. Note:
 Name | Description | Syntax
 --- | --- | ---
 PluginTests | string list with multiple selection attribute | `IEnumerable<string> PluginTests`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -1348,7 +1424,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.HoaTargetImage> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.HoaTargetImage> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.HoaTargetImage Find(string objectName)`
 
 ### Method
@@ -1356,10 +1432,10 @@ Find | Returns the object whose name matches exactly the specified string. Or, i
 Name | Description | Syntax
 --- | --- | ---
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -1387,7 +1463,7 @@ TIHorizontalFOV | Number attribute | `double TIHorizontalFOV`
 TIHorizontalFOVText | Number attribute (as text) | `string TIHorizontalFOVText`
 TIVerticalFOV | Number attribute | `double TIVerticalFOV`
 TIVerticalFOVText | Number attribute (as text) | `string TIVerticalFOVText`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -1400,7 +1476,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.HoaWarping> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.HoaWarping> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.HoaWarping Find(string objectName)`
 
 ### Method
@@ -1409,10 +1485,10 @@ Name | Description | Syntax
 --- | --- | ---
 GetAlgorithmPossibleValues | string list attribute: List possible values | `IEnumerable<string> GetAlgorithmPossibleValues()`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -1451,7 +1527,7 @@ TiltResolution | Number attribute | `double TiltResolution`
 TiltResolutionText | Number attribute (as text) | `string TiltResolutionText`
 OffsetResolution | Number attribute | `double OffsetResolution`
 OffsetResolutionText | Number attribute (as text) | `string OffsetResolutionText`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -1464,7 +1540,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.HoaWindshield> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.HoaWindshield> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.HoaWindshield Find(string objectName)`
 
 ### Method
@@ -1472,10 +1548,10 @@ Find | Returns the object whose name matches exactly the specified string. Or, i
 Name | Description | Syntax
 --- | --- | ---
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -1492,7 +1568,7 @@ WindshieldOuterSurface | Link attribute | `SpeosSim.HoaWindshield.HoaWindshieldW
 WindshieldRefractiveIndex | Number attribute | `double WindshieldRefractiveIndex`
 WindshieldRefractiveIndexText | Number attribute (as text) | `string WindshieldRefractiveIndexText`
 CoverLensOuterSurface | Link attribute | `SpeosSim.HoaWindshield.HoaWindshieldCoverLensOuterSurface CoverLensOuterSurface`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -1506,7 +1582,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -1514,7 +1590,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### HoaWindshield.HoaWindshieldWindshieldOuterSurface
 
@@ -1523,7 +1599,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -1531,7 +1607,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### HoaWindshield.HoaWindshieldCoverLensOuterSurface
 
@@ -1540,7 +1616,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -1548,7 +1624,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## ImportedFeature
 
@@ -1556,7 +1632,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.ImportedFeature> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.ImportedFeature> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.ImportedFeature Find(string objectName)`
 
 ### Method
@@ -1564,10 +1640,10 @@ Find | Returns the object whose name matches exactly the specified string. Or, i
 Name | Description | Syntax
 --- | --- | ---
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -1581,7 +1657,7 @@ Name | Description | Syntax
 --- | --- | ---
 ImportedObjectType | Enum attribute | `SpeosSim.ImportedFeature.EnumImportedObjectType ImportedObjectType`
 ImportedObjectTypeIndex | Enum attribute (as index) | `int ImportedObjectTypeIndex`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -1615,7 +1691,7 @@ Body | Links attribute | `SpeosSim.Lenses.LensesBody Body`
 Name | Description | Syntax
 --- | --- | ---
 LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ## LocalMeshing
@@ -1624,7 +1700,7 @@ Count | Links attribute: Get the links count | `int Count`
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.LocalMeshing> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.LocalMeshing> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.LocalMeshing Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.LocalMeshing Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.LocalMeshing Create()`
@@ -1636,10 +1712,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.LocalMeshing Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.LocalMeshing CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -1670,7 +1746,7 @@ MeshingStepLengthValueText | Number attribute (as text) | `string MeshingStepLen
 MeshingAngle | Number attribute | `double MeshingAngle`
 MeshingAngleText | Number attribute (as text) | `string MeshingAngleText`
 Geometries | Links attribute | `SpeosSim.LocalMeshing.LocalMeshingGeometries Geometries`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -1684,7 +1760,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -1693,8 +1769,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ## LXPEnabledSensor
@@ -1724,7 +1800,7 @@ LXPSensor | Link attribute | `SpeosSim.LXPEnabledSensor.LXPEnabledSensorLXPSenso
 
 Name | Description | Syntax
 --- | --- | ---
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -1732,7 +1808,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## Material
 
@@ -1740,7 +1816,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.Material> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.Material> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.Material Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.Material Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.Material Create()`
@@ -1752,10 +1828,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.Material Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.Material CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -1807,7 +1883,7 @@ XDirection | Link attribute | `SpeosSim.Material.MaterialXDirection XDirection`
 XDirectionReverse | boolean attribute | `bool XDirectionReverse`
 YDirection | Link attribute | `SpeosSim.Material.MaterialYDirection YDirection`
 YDirectionReverse | boolean attribute | `bool YDirectionReverse`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -1821,7 +1897,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -1830,8 +1906,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ### Material.MaterialOrientedFaces
@@ -1841,7 +1917,7 @@ Count | Links attribute: Get the links count | `int Count`
 Name | Description | Syntax
 --- | --- | ---
 Set | Children attribute: Set from an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Children attribute: Set from an array of objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 GetEnumerator | Children attribute: Get children enumeration | `IEnumerator<SpeosSim.OrientedFace> GetEnumerator()`
 Add | Children attribute: Add an object to the children list | `void Add(SpeosSim.OrientedFace childObject)`
@@ -1853,7 +1929,7 @@ SelectAll | Children attribute: Create children for all objects that are compati
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
+LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
 Count | Children attribute: Get children count | `int Count`
 List | Children attribute: Get children collection | `IReadOnlyCollection<SpeosSim.OrientedFace> List`
 Item | Children attribute: Get child by index | `SpeosSim.OrientedFace Item`
@@ -1865,7 +1941,7 @@ Item | Children attribute: Get child by index | `SpeosSim.OrientedFace Item`
 Name | Description | Syntax
 --- | --- | ---
 Set | Children attribute: Set from an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Children attribute: Set from an array of objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 GetEnumerator | Children attribute: Get children enumeration | `IEnumerator<SpeosSim.SurfaceLayer> GetEnumerator()`
 AddNew | Children attribute: Create a new child object | `SpeosSim.SurfaceLayer AddNew(int insertIndex)`
@@ -1877,7 +1953,7 @@ SelectAll | Children attribute: Create children for all objects that are compati
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
+LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
 Count | Children attribute: Get children count | `int Count`
 List | Children attribute: Get children collection | `IReadOnlyCollection<SpeosSim.SurfaceLayer> List`
 Item | Children attribute: Get child by index | `SpeosSim.SurfaceLayer Item`
@@ -1890,7 +1966,7 @@ Item | Children attribute: Get child by index | `SpeosSim.SurfaceLayer Item`
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -1898,7 +1974,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### Material.MaterialXDirection
 
@@ -1907,7 +1983,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -1915,7 +1991,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### Material.MaterialYDirection
 
@@ -1924,7 +2000,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -1932,7 +2008,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## Node
 
@@ -1940,7 +2016,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.Node> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.Node> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.Node Find(string objectName)`
 
 ### Method
@@ -1948,10 +2024,10 @@ Find | Returns the object whose name matches exactly the specified string. Or, i
 Name | Description | Syntax
 --- | --- | ---
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -1963,7 +2039,7 @@ ExportToPreset | Export the current object configuration to a Preset file. Note:
 
 Name | Description | Syntax
 --- | --- | ---
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -1997,7 +2073,7 @@ Face | Link attribute | `SpeosSim.OrientedFace.OrientedFaceFace Face`
 
 Name | Description | Syntax
 --- | --- | ---
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -2005,7 +2081,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## ResultLXP
 
@@ -2013,7 +2089,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.ResultLXP> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.ResultLXP> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.ResultLXP Find(string objectName)`
 
 ### Method
@@ -2029,10 +2105,10 @@ CreateAreaEllipse | Creates an elliptical measure area | `void CreateAreaEllipse
 CreateAreaPolygon | Creates a polygon measure area | `void CreateAreaPolygon(int viewerId, System.Double[] xPoints, System.Double[] yPoints)`
 GetMeasureValue | Gets the measure value from a defined type. Refer to [GetMeasureValue Enum List](resultlxp_getmeasurevalue_list_enum.md) for the possible values to be used.| `double GetMeasureValue(int viewerId, int measureId)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -2053,7 +2129,11 @@ RaysPassingByIndex | Enum attribute (as index) | `int RaysPassingByIndex`
 FilteredRaysOnly | boolean attribute | `bool FilteredRaysOnly`
 RayNumber | Number attribute | `uint RayNumber`
 RayNumberText | Number attribute (as text) | `string RayNumberText`
-RayLength | Number attribute | `double RayLength`
+RayLengthType | Enum attribute | `SpeosSim.ResultLXP.EnumRayLengthType RayLengthType`
+RayLengthTypeIndex | Enum attribute (as index) | `int RayLengthTypeIndex`
+RayLengthRelative | Number attribute | `double RayLengthRelative`
+RayLengthRelativeText | Number attribute (as text) | `string RayLengthRelativeText`
+RayLength | Enum attribute | `double RayLength`
 RayLengthText | Number attribute (as text) | `string RayLengthText`
 RotationViewDistance | Number attribute | `double RotationViewDistance`
 RotationViewDistanceText | Number attribute (as text) | `string RotationViewDistanceText`
@@ -2063,8 +2143,16 @@ RaysDrawType | Enum attribute | `SpeosSim.ResultLXP.EnumRaysDrawType RaysDrawTyp
 RaysDrawTypeIndex | Enum attribute (as index) | `int RaysDrawTypeIndex`
 DrawThickness | Number attribute | `int DrawThickness`
 DrawThicknessText | Number attribute (as text) | `string DrawThicknessText`
+AnimationDuration | Time duration attribute : can either be defined by a Double or a TimeSpan value | `Speos.Foundation.Utils.TimeDuration AnimationDuration`
+AnimationDurationText | Number attribute (as text) | `string AnimationDurationText`
+AnimationFramesPerSecond | Number attribute | `int AnimationFramesPerSecond`
+AnimationFramesPerSecondText | Number attribute (as text) | `string AnimationFramesPerSecondText`
+AnimationMode | Enum attribute | `SpeosSim.ResultLXP.EnumAnimationMode AnimationMode`
+AnimationModeIndex | Enum attribute (as index) | `int AnimationModeIndex`
+SegmentLength | Number attribute | `double SegmentLength`
+SegmentLengthText | Number attribute (as text) | `string SegmentLengthText`
 FullPath | Get the result file full path | `string FullPath`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -2078,7 +2166,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -2087,8 +2175,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ### ResultLXP.ResultLXPRejectedFaces
@@ -2098,7 +2186,7 @@ Count | Links attribute: Get the links count | `int Count`
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -2107,8 +2195,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ## ResultProjectedGrid
@@ -2117,7 +2205,7 @@ Count | Links attribute: Get the links count | `int Count`
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.ResultProjectedGrid> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.ResultProjectedGrid> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.ResultProjectedGrid Find(string objectName)`
 
 ### Method
@@ -2126,10 +2214,10 @@ Name | Description | Syntax
 --- | --- | ---
 ExportProjectedGridAsGeometry | Export the projected grid as geometry | `void ExportProjectedGridAsGeometry()`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -2165,7 +2253,7 @@ YDisplaySecond | Number attribute | `int YDisplaySecond`
 YDisplaySecondText | Number attribute (as text) | `string YDisplaySecondText`
 CloseBoundaries | boolean attribute | `bool CloseBoundaries`
 FullPath | Get the result file full path | `string FullPath`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -2178,7 +2266,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.Sensor3DED> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.Sensor3DED> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.Sensor3DED Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.Sensor3DED Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.Sensor3DED Create()`
@@ -2190,10 +2278,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.Sensor3DED Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.Sensor3DED CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -2231,7 +2319,7 @@ XDirection | Link attribute | `SpeosSim.Sensor3DED.Sensor3DEDXDirection XDirecti
 XDirectionReverse | boolean attribute | `bool XDirectionReverse`
 YDirection | Link attribute | `SpeosSim.Sensor3DED.Sensor3DEDYDirection YDirection`
 YDirectionReverse | boolean attribute | `bool YDirectionReverse`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -2245,7 +2333,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -2254,8 +2342,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ### Sensor3DED.Sensor3DEDOriginPoint
@@ -2265,7 +2353,7 @@ Count | Links attribute: Get the links count | `int Count`
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -2273,7 +2361,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### Sensor3DED.Sensor3DEDXDirection
 
@@ -2282,7 +2370,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -2290,7 +2378,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### Sensor3DED.Sensor3DEDYDirection
 
@@ -2299,7 +2387,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -2307,7 +2395,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## Sensor3DIrradiance
 
@@ -2315,7 +2403,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.Sensor3DIrradiance> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.Sensor3DIrradiance> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.Sensor3DIrradiance Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.Sensor3DIrradiance Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.Sensor3DIrradiance Create()`
@@ -2327,10 +2415,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.Sensor3DIrradiance Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.Sensor3DIrradiance CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -2360,7 +2448,7 @@ WavelengthStart | Number attribute | `double WavelengthStart`
 WavelengthStartText | Number attribute (as text) | `string WavelengthStartText`
 WavelengthEnd | Number attribute | `double WavelengthEnd`
 WavelengthEndText | Number attribute (as text) | `string WavelengthEndText`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -2374,7 +2462,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -2383,8 +2471,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ## SensorCamera
@@ -2393,7 +2481,7 @@ Count | Links attribute: Get the links count | `int Count`
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SensorCamera> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SensorCamera> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SensorCamera Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SensorCamera Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SensorCamera Create()`
@@ -2405,10 +2493,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.SensorCamera Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.SensorCamera CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -2498,7 +2586,11 @@ DisplayObjectField | boolean attribute | `bool DisplayObjectField`
 DisplayPupil | boolean attribute | `bool DisplayPupil`
 ObjectFieldVisuRadius | Number attribute | `double ObjectFieldVisuRadius`
 ObjectFieldVisuRadiusText | Number attribute (as text) | `string ObjectFieldVisuRadiusText`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+XmpTemplateFile | File attribute | `string XmpTemplateFile`
+XmpTemplateFileFullPath | File attribute (absolute full path) | `string XmpTemplateFileFullPath`
+DimensionFromFile | Boolean attribute | `bool DimensionFromFile`
+DisplayPropertiesFromFile | Boolean attribute | `bool DisplayPropertiesFromFile`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -2512,7 +2604,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -2520,7 +2612,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorCamera.SensorCameraXDirection
 
@@ -2529,7 +2621,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -2537,7 +2629,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### `SensorCamera.SensorCameraYDirection`
 
@@ -2546,7 +2638,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -2554,7 +2646,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## SensorEye
 
@@ -2562,7 +2654,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SensorEye> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SensorEye> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SensorEye Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SensorEye Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SensorEye Create()`
@@ -2574,10 +2666,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.SensorEye Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.SensorEye CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -2640,7 +2732,7 @@ WavelengthSampling | Number attribute | `uint WavelengthSampling`
 WavelengthSamplingText | Number attribute (as text) | `string WavelengthSamplingText`
 WavelengthResolution | Number attribute | `double WavelengthResolution`
 WavelengthResolutionText | Number attribute (as text) | `string WavelengthResolutionText`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -2654,7 +2746,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -2662,7 +2754,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorEye.SensorEyeTargetPoint
 
@@ -2671,7 +2763,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -2679,7 +2771,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorEye.SensorEyeTopDirection
 
@@ -2688,7 +2780,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -2696,7 +2788,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## SensorImmersive
 
@@ -2704,7 +2796,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SensorImmersive> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SensorImmersive> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SensorImmersive Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SensorImmersive Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SensorImmersive Create()`
@@ -2716,10 +2808,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.SensorImmersive Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.SensorImmersive CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -2765,7 +2857,7 @@ TopDirection | Link attribute | `SpeosSim.SensorImmersive.SensorImmersiveTopDire
 TopDirectionReverse | boolean attribute | `bool TopDirectionReverse`
 AutoFramingFaceSelection | Enum attribute | `SpeosSim.SensorImmersive.EnumAutoFramingFaceSelection AutoFramingFaceSelection`
 AutoFramingFaceSelectionIndex | Enum attribute (as index) | `int AutoFramingFaceSelectionIndex`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -2779,7 +2871,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -2787,7 +2879,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorImmersive.SensorImmersiveFrontDirection
 
@@ -2796,7 +2888,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -2804,7 +2896,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorImmersive.SensorImmersiveTopDirection
 
@@ -2813,7 +2905,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -2821,7 +2913,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## SensorIntensity
 
@@ -2829,7 +2921,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SensorIntensity> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SensorIntensity> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SensorIntensity Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SensorIntensity Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SensorIntensity Create()`
@@ -2841,10 +2933,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.SensorIntensity Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.SensorIntensity CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -2934,7 +3026,7 @@ XMPTemplateFile | File attribute | `string XMPTemplateFile`
 XMPTemplateFileFullPath | File attribute (absolute full path) | `string XMPTemplateFileFullPath`
 DimensionFromFile | boolean attribute | `bool DimensionFromFile`
 DisplayPropertiesFromFile | boolean attribute | `bool DisplayPropertiesFromFile`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -2948,7 +3040,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -2956,7 +3048,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorIntensity.SensorIntensityXDirection
 
@@ -2965,7 +3057,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -2973,7 +3065,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorIntensity.SensorIntensityYDirection
 
@@ -2982,7 +3074,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -2990,7 +3082,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorIntensity.SensorIntensityFaceFiltering
 
@@ -2999,7 +3091,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -3008,8 +3100,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ## SensorIrradiance
@@ -3018,7 +3110,7 @@ Count | Links attribute: Get the links count | `int Count`
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SensorIrradiance> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SensorIrradiance> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SensorIrradiance Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SensorIrradiance Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SensorIrradiance Create()`
@@ -3030,10 +3122,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.SensorIrradiance Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.SensorIrradiance CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -3111,7 +3203,7 @@ StepX | Number attribute | `double StepX`
 StepXText | Number attribute (as text) | `string StepXText`
 StepY | Number attribute | `double StepY`
 StepYText | Number attribute (as text) | `string StepYText`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -3125,7 +3217,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -3133,7 +3225,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorIrradiance.SensorIrradianceXDirection
 
@@ -3142,7 +3234,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -3150,7 +3242,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorIrradiance.SensorIrradianceYDirection
 
@@ -3159,7 +3251,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -3167,7 +3259,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorIrradiance.SensorIrradianceIntegrationDirection
 
@@ -3176,7 +3268,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -3184,7 +3276,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorIrradiance.SensorIrradianceFaceFiltering
 
@@ -3193,7 +3285,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -3202,8 +3294,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ### SensorIrradiance.SensorIrradianceOutputFaces
@@ -3213,7 +3305,7 @@ Count | Links attribute: Get the links count | `int Count`
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -3222,8 +3314,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ## SensorLidar
@@ -3232,7 +3324,7 @@ Count | Links attribute: Get the links count | `int Count`
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SensorLidar> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SensorLidar> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SensorLidar Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SensorLidar Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SensorLidar Create()`
@@ -3244,10 +3336,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.SensorLidar Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.SensorLidar CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -3358,7 +3450,7 @@ ColorScaleFile | File attribute | `string ColorScaleFile`
 ColorScaleFileFullPath | File attribute (absolute full path) | `string ColorScaleFileFullPath`
 PointThickness | Number attribute | `double PointThickness`
 PointThicknessText | Number attribute (as text) | `string PointThicknessText`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -3372,7 +3464,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -3380,7 +3472,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorLidar.SensorLidarSystemXDirection
 
@@ -3389,7 +3481,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -3397,7 +3489,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorLidar.SensorLidarSystemYDirection
 
@@ -3406,7 +3498,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -3414,7 +3506,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorLidar.SensorLidarSourceOriginPoint
 
@@ -3423,7 +3515,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -3431,7 +3523,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorLidar.SensorLidarSourceXDirection
 
@@ -3440,7 +3532,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -3448,7 +3540,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorLidar.SensorLidarSourceYDirection
 
@@ -3457,7 +3549,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -3465,7 +3557,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorLidar.SensorLidarSensorOriginPoint
 
@@ -3474,7 +3566,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -3482,7 +3574,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorLidar.SensorLidarSensorXDirection
 
@@ -3491,7 +3583,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -3499,7 +3591,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorLidar.SensorLidarSensorYDirection
 
@@ -3508,7 +3600,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -3516,7 +3608,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorLidar.SensorLidarAimingAreaOriginPoint
 
@@ -3525,7 +3617,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -3533,7 +3625,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorLidar.SensorLidarAimingAreaXDirection
 
@@ -3542,7 +3634,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -3550,7 +3642,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorLidar.SensorLidarAimingAreaYDirection
 
@@ -3559,7 +3651,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -3567,7 +3659,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## SensorLightExpertGroup
 
@@ -3575,7 +3667,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SensorLightExpertGroup> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SensorLightExpertGroup> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SensorLightExpertGroup Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SensorLightExpertGroup Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SensorLightExpertGroup Create()`
@@ -3587,10 +3679,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.SensorLightExpertGroup Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.SensorLightExpertGroup CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -3603,7 +3695,7 @@ ExportToPreset | Export the current object configuration to a Preset file. Note:
 Name | Description | Syntax
 --- | --- | ---
 Sensors | Links attribute | `SpeosSim.SensorLightExpertGroup.SensorLightExpertGroupSensors Sensors`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -3617,7 +3709,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -3626,8 +3718,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ## SensorLightField
@@ -3636,7 +3728,7 @@ Count | Links attribute: Get the links count | `int Count`
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SensorLightField> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SensorLightField> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SensorLightField Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SensorLightField Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SensorLightField Create()`
@@ -3648,10 +3740,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.SensorLightField Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.SensorLightField CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -3695,7 +3787,7 @@ WavelengthNbSamples | Number attribute | `uint WavelengthNbSamples`
 WavelengthNbSamplesText | Number attribute (as text) | `string WavelengthNbSamplesText`
 WavelengthResolution | Number attribute | `double WavelengthResolution`
 WavelengthResolutionText | Number attribute (as text) | `string WavelengthResolutionText`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -3709,7 +3801,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -3717,7 +3809,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorLightField.SensorLightFieldXDirection
 
@@ -3726,7 +3818,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -3734,7 +3826,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorLightField.SensorLightFieldYDirection
 
@@ -3743,7 +3835,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -3751,7 +3843,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorLightField.SensorLightFieldOrientedFaces
 
@@ -3760,7 +3852,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Children attribute: Set from an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Children attribute: Set from an array of objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 GetEnumerator | Children attribute: Get children enumeration | `IEnumerator<SpeosSim.OrientedFace> GetEnumerator()`
 Add | Children attribute: Add an object to the children list | `void Add(SpeosSim.OrientedFace childObject)`
@@ -3772,7 +3864,7 @@ SelectAll | Children attribute: Create children for all objects that are compati
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
+LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
 Count | Children attribute: Get children count | `int Count`
 List | Children attribute: Get children collection | `IReadOnlyCollection<SpeosSim.OrientedFace> List`
 Item | Children attribute: Get child by index | `SpeosSim.OrientedFace Item`
@@ -3783,7 +3875,7 @@ Item | Children attribute: Get child by index | `SpeosSim.OrientedFace Item`
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SensorObserver> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SensorObserver> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SensorObserver Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SensorObserver Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SensorObserver Create()`
@@ -3795,10 +3887,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.SensorObserver Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.SensorObserver CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -3875,7 +3967,7 @@ HorizontalDirection | Link attribute | `SpeosSim.SensorObserver.SensorObserverHo
 HorizontalDirectionReverse | boolean attribute | `bool HorizontalDirectionReverse`
 VerticalDirection | Link attribute | `SpeosSim.SensorObserver.SensorObserverVerticalDirection VerticalDirection`
 VerticalDirectionReverse | boolean attribute | `bool VerticalDirectionReverse`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -3889,7 +3981,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -3897,7 +3989,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorObserver.SensorObserverHorizontalDirection
 
@@ -3906,7 +3998,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -3914,7 +4006,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorObserver.SensorObserverVerticalDirection
 
@@ -3923,7 +4015,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -3931,7 +4023,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## SensorPhysicalCamera
 
@@ -3939,7 +4031,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SensorPhysicalCamera> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SensorPhysicalCamera> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SensorPhysicalCamera Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SensorPhysicalCamera Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SensorPhysicalCamera Create()`
@@ -3951,10 +4043,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.SensorPhysicalCamera Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.SensorPhysicalCamera CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -3982,7 +4074,7 @@ RayTracerPrecision | Enum attribute | `SpeosSim.SensorPhysicalCamera.EnumRayTrac
 RayTracerPrecisionIndex | Enum attribute (as index) | `int RayTracerPrecisionIndex`
 PreviewType | Enum attribute | `SpeosSim.SensorPhysicalCamera.EnumPreviewType PreviewType`
 PreviewTypeIndex | Enum attribute (as index) | `int PreviewTypeIndex`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -3996,7 +4088,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -4004,7 +4096,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorPhysicalCamera.SensorPhysicalCameraXDirection
 
@@ -4013,7 +4105,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -4021,7 +4113,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorPhysicalCamera.SensorPhysicalCameraYDirection
 
@@ -4030,7 +4122,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -4038,7 +4130,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorPhysicalCamera.SensorPhysicalCameraSensorIrradiance
 
@@ -4047,7 +4139,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -4055,7 +4147,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## SensorRadiance
 
@@ -4063,7 +4155,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SensorRadiance> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SensorRadiance> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SensorRadiance Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SensorRadiance Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SensorRadiance Create()`
@@ -4075,10 +4167,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.SensorRadiance Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.SensorRadiance CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -4172,7 +4264,7 @@ StepX | Number attribute | `double StepX`
 StepXText | Number attribute (as text) | `string StepXText`
 StepY | Number attribute | `double StepY`
 StepYText | Number attribute (as text) | `string StepYText`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -4186,7 +4278,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V252.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -4194,7 +4286,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V252.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorRadiance.SensorRadianceFaceFiltering
 
@@ -4203,7 +4295,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V252.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -4212,8 +4304,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ### SensorRadiance.SensorRadianceOriginPoint
@@ -4223,7 +4315,7 @@ Count | Links attribute: Get the links count | `int Count`
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -4231,7 +4323,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorRadiance.SensorRadianceXDirection
 
@@ -4240,7 +4332,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -4248,7 +4340,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorRadiance.SensorRadianceYDirection
 
@@ -4257,7 +4349,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -4265,7 +4357,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorRadiance.SensorRadianceObserverPoint
 
@@ -4274,7 +4366,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -4282,7 +4374,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorRadiance.SensorRadianceFocalPoint
 
@@ -4291,7 +4383,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -4299,7 +4391,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorRadiance.SensorRadianceFrontDirection
 
@@ -4308,7 +4400,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -4316,7 +4408,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorRadiance.SensorRadianceTopDirection
 
@@ -4325,7 +4417,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -4333,7 +4425,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## SensorRotatingLidar
 
@@ -4341,7 +4433,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SensorRotatingLidar> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SensorRotatingLidar> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SensorRotatingLidar Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SensorRotatingLidar Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SensorRotatingLidar Create()`
@@ -4353,10 +4445,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.SensorRotatingLidar Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.SensorRotatingLidar CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -4392,7 +4484,7 @@ RangeMaxText | Number attribute (as text) | `string RangeMaxText`
 PointCloud | boolean attribute | `bool PointCloud`
 PointThickness | Number attribute | `double PointThickness`
 PointThicknessText | Number attribute (as text) | `string PointThicknessText`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -4406,7 +4498,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -4414,7 +4506,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorRotatingLidar.SensorRotatingLidarHorizontalDirection
 
@@ -4423,7 +4515,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -4431,7 +4523,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SensorRotatingLidar.SensorRotatingLidarVerticalDirection
 
@@ -4440,7 +4532,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -4448,7 +4540,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## SimulationDirect
 
@@ -4456,7 +4548,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SimulationDirect> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SimulationDirect> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SimulationDirect Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SimulationDirect Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SimulationDirect Create()`
@@ -4480,10 +4572,10 @@ GpuCompute | Run the GPU Compute command | `void GpuCompute()`
 GetEstimatedRam | Get an estimate of the RAM (memory in bytes) that will be required for the simulation results. Returns 'None/Null' if the estimate is not available. | `uint64? GetEstimatedRam()`
 DoesRulesSucceed | Will check all rules of all XMP If zero rules found, return false If at least one rule fail, return false | `bool DoesRulesSucceed()`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -4511,7 +4603,7 @@ DurationLimit | Time duration attribute : can either be defined by a Double or a
 DurationLimitText | Number attribute (as text) | `string DurationLimitText`
 AmbientMaterial | File attribute | `string AmbientMaterial`
 AmbientMaterialFullPath | File attribute (absolute full path) | `string AmbientMaterialFullPath`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -4525,7 +4617,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Children attribute: Set from an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Children attribute: Set from an array of objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 GetEnumerator | Children attribute: Get children enumeration | `IEnumerator<SpeosSim.FTGEnabledGeometry> GetEnumerator()`
 Add | Children attribute: Add an object to the children list | `void Add(SpeosSim.FTGEnabledGeometry childObject)`
@@ -4537,7 +4629,7 @@ SelectAll | Children attribute: Create children for all objects that are compati
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
+LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
 Count | Children attribute: Get children count | `int Count`
 List | Children attribute: Get children collection | `IReadOnlyCollection<SpeosSim.FTGEnabledGeometry> List`
 Item | Children attribute: Get child by index | `SpeosSim.FTGEnabledGeometry Item`
@@ -4549,7 +4641,7 @@ Item | Children attribute: Get child by index | `SpeosSim.FTGEnabledGeometry Ite
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -4558,8 +4650,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ### SimulationDirect.SimulationDirectSensors
@@ -4569,7 +4661,7 @@ Count | Links attribute: Get the links count | `int Count`
 Name | Description | Syntax
 --- | --- | ---
 Set | Children attribute: Set from an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Children attribute: Set from an array of objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 GetEnumerator | Children attribute: Get children enumeration | `IEnumerator<SpeosSim.LXPEnabledSensor> GetEnumerator()`
 Add | Children attribute: Add an object to the children list | `void Add(SpeosSim.LXPEnabledSensor childObject)`
@@ -4581,7 +4673,7 @@ SelectAll | Children attribute: Create children for all objects that are compati
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
+LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
 Count | Children attribute: Get children count | `int Count`
 List | Children attribute: Get children collection | `IReadOnlyCollection<SpeosSim.LXPEnabledSensor> List`
 Item | Children attribute: Get child by index | `SpeosSim.LXPEnabledSensor Item`
@@ -4592,7 +4684,7 @@ Item | Children attribute: Get child by index | `SpeosSim.LXPEnabledSensor Item`
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SimulationHoa> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SimulationHoa> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SimulationHoa Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SimulationHoa Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SimulationHoa Create()`
@@ -4605,10 +4697,10 @@ Clone | Create a copy of this object in the active context | `SpeosSim.Simulatio
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.SimulationHoa CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 GetResultFilePaths | Get the list of paths of all computation resulting files | System.String[] GetResultFilePaths()`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -4644,7 +4736,7 @@ VerticalSample | Number attribute | `int VerticalSample`
 VerticalSampleText | Number attribute (as text) | `string VerticalSampleText`
 AdaptiveSample | Number attribute | `int AdaptiveSample`
 AdaptiveSampleText | Number attribute (as text) | `string AdaptiveSampleText`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -4658,7 +4750,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -4666,7 +4758,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SimulationHoa.SimulationHoaTopAxis
 
@@ -4675,7 +4767,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -4683,7 +4775,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## SimulationInteractive
 
@@ -4691,7 +4783,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SimulationInteractive> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SimulationInteractive> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SimulationInteractive Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SimulationInteractive Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SimulationInteractive Create()`
@@ -4709,10 +4801,10 @@ SetSimulationSettings | Set the simulation common settings | `void SetSimulation
 SetInteractiveSimulationSettings | Set the interactive simulation specific settings | `void SetInteractiveSimulationSettings(bool DrawRays, bool DrawImpacts, bool ReportImpact)`
 GetInteractiveSimulationSettings | Get the interactive simulation specific settings | `void GetInteractiveSimulationSettings(ref System.Boolean& DrawRays, ref System.Boolean& DrawImpacts, ref System.Boolean& ReportImpact)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -4726,13 +4818,27 @@ Name | Description | Syntax
 --- | --- | ---
 RaysThickness | Number attribute | `int RaysThickness`
 RaysThicknessText | Number attribute (as text) | `string RaysThicknessText`
+RayLengthType | Enum attribute | `SpeosSim.SimulationInteractive.EnumRayLengthType RayLengthType`
+RayLengthTypeIndex | Enum attribute (as index) | `int RayLengthTypeIndex`
+RayLengthRelative | Number attribute | `double RayLengthRelative`
+RayLengthRelativeText | Number attribute (as text) | `string RayLengthRelativeText`
+RayLengthAbsolute | Number attribute | `double RayLengthAbsolute`
+RayLengthAbsoluteText | Number attribute (as text) | `string RayLengthAbsoluteText`
 FlagLXPActivation | boolean attribute | `bool FlagLXPActivation`
 AmbientMaterial | File attribute | `string AmbientMaterial`
 AmbientMaterialFullPath | File attribute (absolute full path) | `string AmbientMaterialFullPath`
+AnimationDuration | Time duration attribute : can either be defined by a Double or a TimeSpan value | `Speos.Foundation.Utils.TimeDuration AnimationDuration`
+AnimationDurationText | Number attribute (as text) | `string AnimationDurationText`
+AnimationFramesPerSecond | Number attribute | `int AnimationFramesPerSecond`
+AnimationFramesPerSecondText | Number attribute (as text) | `string AnimationFramesPerSecondText`
+AnimationMode | Enum attribute | `SpeosSim.SimulationInteractive.EnumAnimationMode AnimationMode`
+AnimationModeIndex | Enum attribute (as index) | `int AnimationModeIndex`
+SegmentLength | Number attribute | `double SegmentLength`
+SegmentLengthText | Number attribute (as text) | `string SegmentLengthText`
 Geometries | Links attribute | `SpeosSim.SimulationInteractive.SimulationInteractiveGeometries Geometries`
 Sources | Links attribute | `SpeosSim.SimulationInteractive.SimulationInteractiveSources Sources`
 Sensors | Links attribute | `SpeosSim.SimulationInteractive.SimulationInteractiveSensors Sensors`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -4746,7 +4852,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -4755,8 +4861,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ### SimulationInteractive.SimulationInteractiveSources
@@ -4766,7 +4872,7 @@ Count | Links attribute: Get the links count | `int Count`
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -4775,8 +4881,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ### SimulationInteractive.SimulationInteractiveSensors
@@ -4786,7 +4892,7 @@ Count | Links attribute: Get the links count | `int Count`
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -4795,8 +4901,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ## SimulationInverse
@@ -4805,7 +4911,7 @@ Count | Links attribute: Get the links count | `int Count`
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SimulationInverse> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SimulationInverse> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SimulationInverse Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SimulationInverse Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SimulationInverse Create()`
@@ -4827,10 +4933,10 @@ SetInverseSimulationSettings | Set the inverse simulation specific settings | `v
 GpuCompute | Run the GPU Compute command | `void GpuCompute()`
 GetEstimatedRam | Get an estimate of the RAM (memory in bytes) that will be required for the simulation results. Returns 'None/Null' if the estimate is not available. | `uint64? GetEstimatedRam()`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -4865,7 +4971,7 @@ RelativeStop | Number attribute | `System.Int64 RelativeStop`
 RelativeStopText | Number attribute (as text) | `string RelativeStopText`
 AbsoluteStop | Number attribute | `System.Int64 AbsoluteStop`
 AbsoluteStopText | Number attribute (as text) | `string AbsoluteStopText`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -4879,7 +4985,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Children attribute: Set from an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Children attribute: Set from an array of objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 GetEnumerator | Children attribute: Get children enumeration | `IEnumerator<SpeosSim.FTGEnabledGeometry> GetEnumerator()`
 Add | Children attribute: Add an object to the children list | `void Add(SpeosSim.FTGEnabledGeometry childObject)`
@@ -4891,7 +4997,7 @@ SelectAll | Children attribute: Create children for all objects that are compati
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
+LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
 Count | Children attribute: Get children count | `int Count`
 List | Children attribute: Get children collection | `IReadOnlyCollection<SpeosSim.FTGEnabledGeometry> List`
 Item | Children attribute: Get child by index | `SpeosSim.FTGEnabledGeometry Item`
@@ -4903,7 +5009,7 @@ Item | Children attribute: Get child by index | `SpeosSim.FTGEnabledGeometry Ite
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -4912,8 +5018,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ### SimulationInverse.SimulationInverseSensors
@@ -4923,7 +5029,7 @@ Count | Links attribute: Get the links count | `int Count`
 Name | Description | Syntax
 --- | --- | ---
 Set | Children attribute: Set from an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Children attribute: Set from an array of objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 GetEnumerator | Children attribute: Get children enumeration | `IEnumerator<SpeosSim.LXPEnabledSensor> GetEnumerator()`
 Add | Children attribute: Add an object to the children list | `void Add(SpeosSim.LXPEnabledSensor childObject)`
@@ -4935,7 +5041,7 @@ SelectAll | Children attribute: Create children for all objects that are compati
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
+LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
 Count | Children attribute: Get children count | `int Count`
 List | Children attribute: Get children collection | `IReadOnlyCollection<SpeosSim.LXPEnabledSensor> List`
 Item | Children attribute: Get child by index | `SpeosSim.LXPEnabledSensor Item`
@@ -4947,7 +5053,7 @@ Item | Children attribute: Get child by index | `SpeosSim.LXPEnabledSensor Item`
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -4956,8 +5062,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ### SimulationInverse.SimulationInverseOutputSources
@@ -4967,7 +5073,7 @@ Count | Links attribute: Get the links count | `int Count`
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -4976,8 +5082,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ## SimulationIsolated
@@ -4986,7 +5092,7 @@ Count | Links attribute: Get the links count | `int Count`
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SimulationIsolated> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SimulationIsolated> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SimulationIsolated Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SimulationIsolated Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SimulationIsolated Create()`
@@ -4998,10 +5104,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.SimulationIsolated Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.SimulationIsolated CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -5013,7 +5119,9 @@ ExportToPreset | Export the current object configuration to a Preset file. Note:
 
 Name | Description | Syntax
 --- | --- | ---
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+ExportFolder | File attribute | `string ExportFolder`
+ExportFolderFullPath | File attribute (absolute full path) | `string ExportFolderFullPath`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -5026,7 +5134,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SimulationLidar> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SimulationLidar> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SimulationLidar Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SimulationLidar Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SimulationLidar Create()`
@@ -5044,10 +5152,10 @@ GetResultFilePaths | Get the list of paths of all computation resulting files | 
 GetSimulationSettings | Get the simulation common settings | `SpeosSim.SimulationSettings GetSimulationSettings()`
 SetSimulationSettings | Set the simulation common settings | `void SetSimulationSettings(SpeosSim.SimulationSettings simulationSettings)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -5083,7 +5191,7 @@ TimelineStart | Time duration attribute : can either be defined by a Double or a
 TimelineStartText | Number attribute (as text) | `string TimelineStartText`
 TimelineEnd | Time duration attribute : can either be defined by a Double or a TimeSpan value | `Speos.Foundation.Utils.TimeDuration TimelineEnd`
 TimelineEndText | Number attribute (as text) | `string TimelineEndText`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -5097,7 +5205,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -5106,8 +5214,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ### SimulationLidar.SimulationLidarSensors
@@ -5117,7 +5225,7 @@ Count | Links attribute: Get the links count | `int Count`
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -5126,8 +5234,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ## SimulationLinkedExport
@@ -5136,7 +5244,7 @@ Count | Links attribute: Get the links count | `int Count`
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SimulationLinkedExport> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SimulationLinkedExport> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SimulationLinkedExport Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SimulationLinkedExport Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SimulationLinkedExport Create()`
@@ -5148,10 +5256,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.SimulationLinkedExport Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.SimulationLinkedExport CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -5165,7 +5273,7 @@ Name | Description | Syntax
 --- | --- | ---
 SpeosSimulationFile | File attribute | `string SpeosSimulationFile
 SpeosSimulationFileFullPath | File attribute (absolute full path) | `string SpeosSimulationFileFullPath
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -5178,7 +5286,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SimulationRotatingLidar> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SimulationRotatingLidar> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SimulationRotatingLidar Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SimulationRotatingLidar Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SimulationRotatingLidar Create()`
@@ -5193,10 +5301,10 @@ GetResultFilePaths | Get the list of paths of all computation resulting files | 
 GetSimulationSettings | Get the simulation common settings | `SpeosSim.SimulationSettings GetSimulationSettings()`
 SetSimulationSettings | Set the simulation common settings | `void SetSimulationSettings(SpeosSim.SimulationSettings simulationSettings)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -5212,7 +5320,7 @@ Geometries | Links attribute | `SpeosSim.SimulationRotatingLidar.SimulationRotat
 Sensors | Links attribute | `SpeosSim.SimulationRotatingLidar.SimulationRotatingLidarSensors Sensors`
 Visualization | Enum attribute | `SpeosSim.SimulationRotatingLidar.EnumVisualization Visualization`
 VisualizationIndex | Enum attribute (as index) | `int VisualizationIndex`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -5226,7 +5334,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -5235,8 +5343,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ### SimulationRotatingLidar.SimulationRotatingLidarSensors
@@ -5246,7 +5354,7 @@ Count | Links attribute: Get the links count | `int Count`
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -5255,10 +5363,55 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
+## SolidBodies
+
+### Method
+
+Name | Description | Syntax
+--- | --- | ---
+ToString |  | ``string ToString()``
+
+### Property
+
+Name | Description | Syntax
+--- | --- | ---
+SolidBodySurfaces | Children attribute | ``SpeosSim.SolidBodies.SolidBodiesSolidBodySurfaces SolidBodySurfaces``
+Body | Links attribute | ``SpeosSim.SolidBodies.SolidBodiesBody Body``
+
+### SolidBodies.SolidBodiesSolidBodySurfaces
+
+### Method
+
+Name | Description | Syntax
+--- | --- | ---
+Set | Children attribute: Set from an array of script objects | ``bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)``
+Set | Children attribute: Set from an array of document objects | ``bool Set(SpaceClaim.Api.V261.IDocObject[] selectedObjects)``
+Set | Children attribute: Set from an array of objects (IDocObject type from unspecified version) | ``bool Set(System.Object[] docObjectsFromPreviousVersion)``
+GetEnumerator | Children attribute: Get children enumeration | ``IEnumerator GetEnumerator()``
+SelectAll | Children attribute: Create children for all objects that are compatible with link selection. | ``void SelectAll()``
+
+### Property
+
+Name | Description | Syntax
+--- | --- | ---
+LinkedObjects | Children attribute: Get linked objects | ``IReadOnlyCollection LinkedObjects``
+Count | Children attribute: Get children count | ``int Count``
+List | Children attribute: Get children collection | ``IReadOnlyCollection List``
+Item | Children attribute: Get child by index | ``SpeosSim.Surfaces Item``
+
+### SolidBodies.SolidBodiesBody
+
+### Property
+
+Name | Description | Syntax
+--- | --- | ---
+LinkedObjects | Links attribute: Get the pointed document objects | ``IReadOnlyCollection LinkedObjects``
+Item | Links attribute: Get a pointed document object by index | ``SpaceClaim.Api.V261.IDocObject Item``
+Count | Links attribute: Get the links count | ``int Count``
 
 ## SourceAmbientCIEGeneral
 
@@ -5266,7 +5419,7 @@ Count | Links attribute: Get the links count | `int Count`
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SourceAmbientCIEGeneral> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SourceAmbientCIEGeneral> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SourceAmbientCIEGeneral Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SourceAmbientCIEGeneral Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SourceAmbientCIEGeneral Create()`
@@ -5280,10 +5433,10 @@ CopyTo | Create a copy of this object and paste it to the specified destination 
 GetLocationPossibleValues | string list attribute: List possible values | `IEnumerable<string> GetLocationPossibleValues()`
 GetTimeZonePossibleValues | string list attribute: List possible values | `IEnumerable<string> GetTimeZonePossibleValues()`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -5321,7 +5474,7 @@ Latitude | Number attribute | `double Latitude`
 LatitudeText | Number attribute (as text) | `string LatitudeText`
 DateTime | Number attribute | `System.DateTime DateTime`
 DateTimeText | Number attribute (as text) | `string DateTimeText`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -5335,7 +5488,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -5343,7 +5496,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SourceAmbientCIEGeneral.SourceAmbientCIEGeneralNorthDirection
 
@@ -5352,7 +5505,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -5360,7 +5513,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SourceAmbientCIEGeneral.SourceAmbientCIEGeneralSunDirection
 
@@ -5369,7 +5522,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -5377,7 +5530,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## SourceAmbientCIEOvercast
 
@@ -5385,7 +5538,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SourceAmbientCIEOvercast> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SourceAmbientCIEOvercast> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SourceAmbientCIEOvercast Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SourceAmbientCIEOvercast Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SourceAmbientCIEOvercast Create()`
@@ -5397,10 +5550,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.SourceAmbientCIEOvercast Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.SourceAmbientCIEOvercast CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -5424,7 +5577,7 @@ SpectrumValueTemperature | Number attribute | `double SpectrumValueTemperature`
 SpectrumValueTemperatureText | Number attribute (as text) | `string SpectrumValueTemperatureText`
 SpectrumValueLibrary | File attribute | `string SpectrumValueLibrary`
 SpectrumValueLibraryFullPath | File attribute (absolute full path) | `string SpectrumValueLibraryFullPath`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -5438,7 +5591,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -5446,7 +5599,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## SourceAmbientEnvironment
 
@@ -5454,7 +5607,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SourceAmbientEnvironment> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SourceAmbientEnvironment> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SourceAmbientEnvironment Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SourceAmbientEnvironment Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SourceAmbientEnvironment Create()`
@@ -5466,10 +5619,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.SourceAmbientEnvironment Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.SourceAmbientEnvironment CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -5508,7 +5661,7 @@ BlueSpectrumValueLibraryFullPath | File attribute (absolute full path) | `string
 GroundPlaneOriginPoint | Link attribute | `SpeosSim.SourceAmbientEnvironment.SourceAmbientEnvironmentGroundPlaneOriginPoint GroundPlaneOriginPoint`
 GroundPlaneHeight | Number attribute | `double GroundPlaneHeight`
 GroundPlaneHeightText | Number attribute (as text) | `string GroundPlaneHeightText`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -5522,7 +5675,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -5530,7 +5683,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SourceAmbientEnvironment.SourceAmbientEnvironmentNorthDirection
 
@@ -5539,7 +5692,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -5547,7 +5700,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SourceAmbientEnvironment.SourceAmbientEnvironmentGroundPlaneOriginPoint
 
@@ -5556,7 +5709,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -5564,7 +5717,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## SourceAmbientModtran
 
@@ -5584,7 +5737,7 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.SourceAmbientModtran Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.SourceAmbientModtran CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V252.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V252.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
 GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable GetChildSubjects()`
@@ -5616,7 +5769,7 @@ PreviewSize | Number attribute | `double PreviewSize`
 PreviewSizeText | Number attribute (as text) | `string PreviewSizeText`
 KeepIntermediateInputFiles | Boolean attribute | `bool KeepIntermediateInputFiles`
 KeepIntermediateOutputFiles | Boolean attribute | `bool KeepIntermediateOutputFiles`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V252.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -5630,7 +5783,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V252.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -5638,7 +5791,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V252.IDocObject LinkedObject`è`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`è`
 
 ### SourceAmbientModtran.SourceAmbientModtranNorthDirection
 
@@ -5647,7 +5800,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V252.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V252.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -5655,7 +5808,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V252.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SourceAmbientModtran.SourceAmbientModtranGroundPlaneOriginPoint
 
@@ -5664,7 +5817,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V252.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V252.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -5672,7 +5825,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V252.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## SourceAmbientNaturalLight
 
@@ -5680,7 +5833,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V252.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SourceAmbientNaturalLight> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SourceAmbientNaturalLight> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SourceAmbientNaturalLight Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SourceAmbientNaturalLight Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SourceAmbientNaturalLight Create()`
@@ -5694,10 +5847,10 @@ CopyTo | Create a copy of this object and paste it to the specified destination 
 GetLocationPossibleValues | string list attribute: List possible values | `IEnumerable<string> GetLocationPossibleValues()`
 GetTimeZonePossibleValues | string list attribute: List possible values | `IEnumerable<string> GetTimeZonePossibleValues()`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -5734,7 +5887,7 @@ Latitude | Number attribute | `double Latitude`
 LatitudeText | Number attribute (as text) | `string LatitudeText`
 DateTime | Number attribute | `System.DateTime DateTime`
 DateTimeText | Number attribute (as text) | `string DateTimeText`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -5748,7 +5901,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -5756,7 +5909,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SourceAmbientNaturalLight.SourceAmbientNaturalLightNorthDirection
 
@@ -5765,7 +5918,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -5773,7 +5926,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SourceAmbientNaturalLight.SourceAmbientNaturalLightSunDirection
 
@@ -5782,7 +5935,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -5790,7 +5943,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## SourceAmbientUniform
 
@@ -5798,7 +5951,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SourceAmbientUniform> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SourceAmbientUniform> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SourceAmbientUniform Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SourceAmbientUniform Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SourceAmbientUniform Create()`
@@ -5810,10 +5963,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.SourceAmbientUniform Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.SourceAmbientUniform CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -5845,7 +5998,7 @@ SpectrumValueTemperature | Number attribute | `double SpectrumValueTemperature`
 SpectrumValueTemperatureText | Number attribute (as text) | `string SpectrumValueTemperatureText`
 SpectrumValueLibrary | File attribute | `string SpectrumValueLibrary`
 SpectrumValueLibraryFullPath | File attribute (absolute full path) | `string SpectrumValueLibraryFullPath`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -5859,7 +6012,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -5867,7 +6020,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SourceAmbientUniform.SourceAmbientUniformSunDirection
 
@@ -5876,7 +6029,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -5884,7 +6037,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## SourceAmbientUS1976
 
@@ -5892,7 +6045,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SourceAmbientUS1976> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SourceAmbientUS1976> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SourceAmbientUS1976 Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SourceAmbientUS1976 Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SourceAmbientUS1976 Create()`
@@ -5906,10 +6059,10 @@ CopyTo | Create a copy of this object and paste it to the specified destination 
 GetLocationPossibleValues | string list attribute: List possible values | `IEnumerable<string> GetLocationPossibleValues()`
 GetTimeZonePossibleValues | string list attribute: List possible values | `IEnumerable<string> GetTimeZonePossibleValues()`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -5943,7 +6096,7 @@ Latitude | Number attribute | `double Latitude`
 LatitudeText | Number attribute (as text) | `string LatitudeText`
 DateTime | Number attribute | `System.DateTime DateTime`
 DateTimeText | Number attribute (as text) | `string DateTimeText`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -5957,7 +6110,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -5965,7 +6118,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SourceAmbientUS1976.SourceAmbientUS1976NorthDirection
 
@@ -5974,7 +6127,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -5982,7 +6135,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SourceAmbientUS1976.SourceAmbientUS1976SunDirection
 
@@ -5991,7 +6144,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -5999,7 +6152,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## SourceDisplay
 
@@ -6007,7 +6160,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SourceDisplay> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SourceDisplay> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SourceDisplay Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SourceDisplay Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SourceDisplay Create()`
@@ -6019,10 +6172,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.SourceDisplay Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.SourceDisplay CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -6092,7 +6245,7 @@ GreenSpectrumValueLibrary | File attribute | `string GreenSpectrumValueLibrary`
 GreenSpectrumValueLibraryFullPath | File attribute (absolute full path) | `string GreenSpectrumValueLibraryFullPath`
 BlueSpectrumValueLibrary | File attribute | `string BlueSpectrumValueLibrary`
 BlueSpectrumValueLibraryFullPath | File attribute (absolute full path) | `string BlueSpectrumValueLibraryFullPath`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -6106,7 +6259,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -6114,7 +6267,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SourceDisplay.SourceDisplayXDirection
 
@@ -6123,7 +6276,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -6131,7 +6284,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SourceDisplay.SourceDisplayYDirection
 
@@ -6140,7 +6293,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -6148,7 +6301,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SourceDisplay.SourceDisplayIntensityXDirection
 
@@ -6157,7 +6310,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -6165,7 +6318,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SourceDisplay.SourceDisplayIntensityYDirection
 
@@ -6174,7 +6327,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -6182,7 +6335,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## SourceInteractive
 
@@ -6190,7 +6343,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SourceInteractive> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SourceInteractive> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SourceInteractive Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SourceInteractive Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SourceInteractive Create()`
@@ -6202,10 +6355,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.SourceInteractive Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.SourceInteractive CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -6241,7 +6394,7 @@ EndXSamplingText | Number attribute (as text) | `string EndXSamplingText`
 EndYSampling | Number attribute | `uint EndYSampling`
 EndYSamplingText | Number attribute (as text) | `string EndYSamplingText`
 ReverseDirection | boolean attribute | `bool ReverseDirection`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -6255,7 +6408,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -6264,8 +6417,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ### SourceInteractive.SourceInteractiveStartCurveGeometries
@@ -6275,7 +6428,7 @@ Count | Links attribute: Get the links count | `int Count`
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -6284,8 +6437,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ### SourceInteractive.SourceInteractiveStartFaceGeometries
@@ -6295,7 +6448,7 @@ Count | Links attribute: Get the links count | `int Count`
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -6304,8 +6457,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ### SourceInteractive.SourceInteractiveEndGeometries
@@ -6315,7 +6468,7 @@ Count | Links attribute: Get the links count | `int Count`
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -6324,8 +6477,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ### SourceInteractive.SourceInteractiveEndCurveGeometries
@@ -6335,7 +6488,7 @@ Count | Links attribute: Get the links count | `int Count`
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -6344,8 +6497,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ### SourceInteractive.SourceInteractiveEndDirectionGeometries
@@ -6355,7 +6508,7 @@ Count | Links attribute: Get the links count | `int Count`
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -6364,8 +6517,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ### SourceInteractive.SourceInteractiveEndFaceGeometries
@@ -6375,7 +6528,7 @@ Count | Links attribute: Get the links count | `int Count`
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -6384,8 +6537,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ## SourceLightField
@@ -6394,7 +6547,7 @@ Count | Links attribute: Get the links count | `int Count`
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SourceLightField> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SourceLightField> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SourceLightField Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SourceLightField Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SourceLightField Create()`
@@ -6406,10 +6559,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.SourceLightField Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.SourceLightField CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -6436,7 +6589,7 @@ LightFieldFile | File attribute | `string LightFieldFile`
 LightFieldFileFullPath | File attribute (absolute full path) | `string LightFieldFileFullPath`
 SpectrumFile | File attribute | `string SpectrumFile`
 SpectrumFileFullPath | File attribute (absolute full path) | `string SpectrumFileFullPath`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -6450,7 +6603,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -6458,7 +6611,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SourceLightField.SourceLightFieldXDirection
 
@@ -6467,7 +6620,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -6475,7 +6628,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SourceLightField.SourceLightFieldYDirection
 
@@ -6484,7 +6637,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -6492,7 +6645,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## SourceLuminaire
 
@@ -6500,7 +6653,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SourceLuminaire> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SourceLuminaire> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SourceLuminaire Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SourceLuminaire Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SourceLuminaire Create()`
@@ -6512,10 +6665,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.SourceLuminaire Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.SourceLuminaire CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -6555,7 +6708,7 @@ XDirection | Link attribute | `SpeosSim.SourceLuminaire.SourceLuminaireXDirectio
 XDirectionReverse | boolean attribute | `bool XDirectionReverse`
 YDirection | Link attribute | `SpeosSim.SourceLuminaire.SourceLuminaireYDirection YDirection`
 YDirectionReverse | boolean attribute | `bool YDirectionReverse`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -6569,7 +6722,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -6577,7 +6730,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SourceLuminaire.SourceLuminaireXDirection
 
@@ -6586,7 +6739,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -6594,7 +6747,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SourceLuminaire.SourceLuminaireYDirection
 
@@ -6603,7 +6756,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -6611,7 +6764,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## SourceRayFile
 
@@ -6619,7 +6772,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SourceRayFile> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SourceRayFile> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SourceRayFile Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SourceRayFile Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SourceRayFile Create()`
@@ -6632,10 +6785,10 @@ Clone | Create a copy of this object in the active context | `SpeosSim.SourceRay
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.SourceRayFile CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 OptimizeRayFile | Call the 'Ray file optimization' command. Returns 'false' if this action is unavailable in the current state of the object. | `bool OptimizeRayFile()`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -6674,7 +6827,7 @@ XDirection | Link attribute | `SpeosSim.SourceRayFile.SourceRayFileXDirection XD
 XDirectionReverse | boolean attribute | `bool XDirectionReverse`
 YDirection | Link attribute | `SpeosSim.SourceRayFile.SourceRayFileYDirection YDirection`
 YDirectionReverse | boolean attribute | `bool YDirectionReverse`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -6688,7 +6841,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -6697,8 +6850,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ### SourceRayFile.SourceRayFileOriginPoint
@@ -6708,7 +6861,7 @@ Count | Links attribute: Get the links count | `int Count`
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -6716,7 +6869,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SourceRayFile.SourceRayFileXDirection
 
@@ -6725,7 +6878,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -6733,7 +6886,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SourceRayFile.SourceRayFileYDirection
 
@@ -6742,7 +6895,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -6750,7 +6903,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## SourceSurface
 
@@ -6758,7 +6911,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SourceSurface> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SourceSurface> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SourceSurface Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SourceSurface Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SourceSurface Create()`
@@ -6770,10 +6923,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.SourceSurface Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.SourceSurface CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -6845,7 +6998,7 @@ FluxVariationPath | File attribute | `Speos.Foundation.Utils.File.FilePath FluxV
 FluxVariationPathFullPath | File attribute (absolute full path) | `string FluxVariationPathFullPath`
 RelativeLag | Number attribute | `double RelativeLag`
 RelativeLagText | Number attribute (as text) | `string RelativeLagText`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -6859,7 +7012,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Children attribute: Set from an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Children attribute: Set from an array of objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 GetEnumerator | Children attribute: Get children enumeration | `IEnumerator<SpeosSim.OrientedFace> GetEnumerator()`
 Add | Children attribute: Add an object to the children list | `void Add(SpeosSim.OrientedFace childObject)`
@@ -6871,7 +7024,7 @@ SelectAll | Children attribute: Create children for all objects that are compati
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
+LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
 Count | Children attribute: Get children count | `int Count`
 List | Children attribute: Get children collection | `IReadOnlyCollection<SpeosSim.OrientedFace> List`
 Item | Children attribute: Get child by index | `SpeosSim.OrientedFace Item`
@@ -6883,7 +7036,7 @@ Item | Children attribute: Get child by index | `SpeosSim.OrientedFace Item`
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -6891,7 +7044,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SourceSurface.SourceSurfaceExitanceXDirection
 
@@ -6900,7 +7053,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -6908,7 +7061,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SourceSurface.SourceSurfaceExitanceYDirection
 
@@ -6917,7 +7070,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -6925,7 +7078,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SourceSurface.SourceSurfaceIntensityXDirection
 
@@ -6934,7 +7087,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -6942,7 +7095,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SourceSurface.SourceSurfaceIntensityYDirection
 
@@ -6951,7 +7104,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -6959,7 +7112,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SourceSurface.SourceSurfaceExitGeometry
 
@@ -6968,7 +7121,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -6977,8 +7130,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ## SourceThermic
@@ -6987,7 +7140,7 @@ Count | Links attribute: Get the links count | `int Count`
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SourceThermic> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.SourceThermic> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.SourceThermic Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.SourceThermic Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.SourceThermic Create()`
@@ -6999,10 +7152,10 @@ Name | Description | Syntax
 Clone | Create a copy of this object in the active context | `SpeosSim.SourceThermic Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.SourceThermic CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -7052,7 +7205,7 @@ IntensityType | Enum attribute | `SpeosSim.SourceThermic.EnumIntensityType Inten
 IntensityTypeIndex | Enum attribute (as index) | `int IntensityTypeIndex`
 IntensityN | Number attribute | `double IntensityN`
 IntensityNText | Number attribute (as text) | `string IntensityNText`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -7066,7 +7219,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Children attribute: Set from an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Children attribute: Set from an array of objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 GetEnumerator | Children attribute: Get children enumeration | `IEnumerator<SpeosSim.OrientedFace> GetEnumerator()`
 Add | Children attribute: Add an object to the children list | `void Add(SpeosSim.OrientedFace childObject)`
@@ -7078,7 +7231,7 @@ SelectAll | Children attribute: Create children for all objects that are compati
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
+LinkedObjects | Children attribute: Get linked objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
 Count | Children attribute: Get children count | `int Count`
 List | Children attribute: Get children collection | `IReadOnlyCollection<SpeosSim.OrientedFace> List`
 Item | Children attribute: Get child by index | `SpeosSim.OrientedFace Item`
@@ -7090,7 +7243,7 @@ Item | Children attribute: Get child by index | `SpeosSim.OrientedFace Item`
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -7098,7 +7251,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SourceThermic.SourceThermicXDirection
 
@@ -7107,7 +7260,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -7115,7 +7268,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### SourceThermic.SourceThermicYDirection
 
@@ -7124,7 +7277,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -7132,7 +7285,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## SurfaceAperture
 
@@ -7225,9 +7378,17 @@ ToString |  | `string ToString()`
 
 Name | Description | Syntax
 --- | --- | ---
-SpeosOpticStudioSurfaceAperture | Children attribute | `SpeosSim.SurfaceAperture SpeosOpticStudioSurfaceAperture`
+SurfaceAperture | Children attribute | `SpeosSim.SurfaceAperture SurfaceAperture`
 SurfaceType | Enum attribute | `SpeosSim.Surfaces.EnumSurfaceType SurfaceType`
 SurfaceTypeIndex | Enum attribute (as index) | `int SurfaceTypeIndex`
+MaxHalfWidthX | Number attribute | double MaxHalfWidthX
+MaxHalfWidthXText | Number attribute (as text) | `string MaxHalfWidthXText`
+MinHalfWidthX | Number attribute | `double MinHalfWidthX`
+MinHalfWidthXText | Number attribute (as text) | `string MinHalfWidthXText`
+MaxHalfWidthY | Number attribute | `double MaxHalfWidthY`
+MaxHalfWidthYText | Number attribute (as text) | `string MaxHalfWidthYText`
+MinHalfWidthY | Number attribute | `double MinHalfWidthY`
+MinHalfWidthYText | Number attribute (as text) | `string MinHalfWidthYText`
 Radius | Number attribute | `double Radius`
 RadiusText | Number attribute (as text) | `string RadiusText`
 RadiusX | Number attribute | `double RadiusX`
@@ -7270,6 +7431,9 @@ DecenterX | Number attribute | `double DecenterX`
 DecenterXText | Number attribute (as text) | `string DecenterXText`
 DecenterY | Number attribute | `double DecenterY`
 DecenterYText | Number attribute (as text) | `string DecenterYText`
+OriginPoint | Link attribute | `SpeosSim.Surfaces.SurfacesOriginPoint OriginPoint`
+XDirection | Link attribute | `SpeosSim.Surfaces.SurfacesXDirection XDirection`
+YDirection | Link attribute | `SpeosSim.Surfaces.SurfacesYDirection YDirection`
 Body | Links attribute | `SpeosSim.Surfaces.SurfacesBody Body`
 
 ### Surfaces.SurfacesAsphericCoefficientsX
@@ -7279,7 +7443,7 @@ Body | Links attribute | `SpeosSim.Surfaces.SurfacesBody Body`
 Name | Description | Syntax
 --- | --- | ---
 Set | Children attribute: Set from an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Children attribute: Set from an array of objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 GetEnumerator | Children attribute: Get children enumeration | `IEnumerator GetEnumerator()`
 SelectAll | Children attribute: Create children for all objects that are compatible with link selection. | `void SelectAll()`
@@ -7301,7 +7465,7 @@ Item | Children attribute: Get child by index | `SpeosSim.Coefficient Item`
 Name | Description | Syntax
 --- | --- | ---
 Set | Children attribute: Set from an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Children attribute: Set from an array of objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 GetEnumerator | Children attribute: Get children enumeration | `IEnumerator GetEnumerator()`
 SelectAll | Children attribute: Create children for all objects that are compatible with link selection. | `void SelectAll()`
@@ -7323,7 +7487,7 @@ Item | Children attribute: Get child by index | `SpeosSim.Coefficient Item`
 Name | Description | Syntax
 --- | --- | ---
 Set | Children attribute: Set from an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Children attribute: Set from an array of objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 GetEnumerator | Children attribute: Get children enumeration | `IEnumerator GetEnumerator()`
 SelectAll | Children attribute: Create children for all objects that are compatible with link selection. | `void SelectAll()`
@@ -7345,7 +7509,7 @@ Item | Children attribute: Get child by index | `SpeosSim.Coefficient Item`
 Name | Description | Syntax
 --- | --- | ---
 Set | Children attribute: Set from an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Children attribute: Set from an array of objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 GetEnumerator | Children attribute: Get children enumeration | `IEnumerator GetEnumerator()`
 SelectAll | Children attribute: Create children for all objects that are compatible with link selection. | `void SelectAll()`
@@ -7367,7 +7531,7 @@ Item | Children attribute: Get child by index | `SpeosSim.Coefficient Item`
 Name | Description | Syntax
 --- | --- | ---
 Set | Children attribute: Set from an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Children attribute: Set from an array of objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 GetEnumerator | Children attribute: Get children enumeration | `IEnumerator GetEnumerator()`
 SelectAll | Children attribute: Create children for all objects that are compatible with link selection. | `void SelectAll()`
@@ -7389,7 +7553,7 @@ Item | Children attribute: Get child by index | `SpeosSim.Coefficient Item`
 Name | Description | Syntax
 --- | --- | ---
 Set | Children attribute: Set from an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Children attribute: Set from an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Children attribute: Set from an array of objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 GetEnumerator | Children attribute: Get children enumeration | `IEnumerator GetEnumerator()`
 SelectAll | Children attribute: Create children for all objects that are compatible with link selection. | `void SelectAll()`
@@ -7404,6 +7568,54 @@ List | Children attribute: Get children collection | `IReadOnlyCollection List`
 Item | Children attribute: Get child by index | `SpeosSim.Coefficient Item`
 Item | Children attribute: Get child by index | `SpeosSim.Coefficient Item`
 
+### Surfaces.SurfacesOriginPoint
+
+### Method
+
+Name | Description | Syntax
+--- | --- | ---
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V261.IDocObject selectedObject)`
+Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
+Clear | Link attribute: Clear the link | `void Clear()`
+
+### Property
+
+Name | Description | Syntax
+--- | --- | ---
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V261.IDocObject LinkedObject`
+
+### Surfaces.SurfacesXDirection
+
+### Method
+
+Name | Description | Syntax
+--- | --- | ---
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V261.IDocObject selectedObject)`
+Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
+Clear | Link attribute: Clear the link | `void Clear()`
+
+### Property
+
+Name | Description | Syntax
+--- | --- | ---
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V261.IDocObject LinkedObject`
+
+### Surfaces.SurfacesYDirection
+
+### Method
+
+Name | Description | Syntax
+--- | --- | ---
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V261.IDocObject selectedObject)`
+Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
+Clear | Link attribute: Clear the link | `void Clear()`
+
+### Property
+
+Name | Description | Syntax
+--- | --- | ---
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V261.IDocObject LinkedObject`
+
 ### Surfaces.SurfacesBody
 
 ### Property
@@ -7411,7 +7623,7 @@ Item | Children attribute: Get child by index | `SpeosSim.Coefficient Item`
 Name | Description | Syntax
 --- | --- | ---
 LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ## UVMap
@@ -7420,7 +7632,7 @@ Count | Links attribute: Get the links count | `int Count`
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.UVMap> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.UVMap> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.UVMap Find(string objectName)`
 
 ### Method
@@ -7428,10 +7640,10 @@ Find | Returns the object whose name matches exactly the specified string. Or, i
 Name | Description | Syntax
 --- | --- | ---
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -7467,7 +7679,7 @@ Rotate | Number attribute | `double Rotate`
 RotateText | Number attribute (as text) | `string RotateText`
 Perimeter | Number attribute | `double Perimeter`
 PerimeterText | Number attribute (as text) | `string PerimeterText`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -7481,7 +7693,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -7489,7 +7701,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### UVMap.UVMapProjectionDirection
 
@@ -7498,7 +7710,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -7506,7 +7718,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ### UVMap.UVMapOrientationDirection
 
@@ -7515,7 +7727,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 Name | Description | Syntax
 --- | --- | ---
 Set | Link attribute: Set the link to a script object | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject selectedObject)`
-Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.V251.IDocObject selectedObject)`
+Set | Link attribute: Set the link to a DocObject | `bool Set(SpaceClaim.Api.v261.IDocObject selectedObject)`
 Set | Link attribute: Set the link to an object (IDocObject type from unspecified version) | `bool Set(object docObjectFromPreviousVersion)`
 Clear | Link attribute: Clear the link | `void Clear()`
 
@@ -7523,7 +7735,7 @@ Clear | Link attribute: Clear the link | `void Clear()`
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDocObject LinkedObject`
+LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v261.IDocObject LinkedObject`
 
 ## UVMapping
 
@@ -7531,7 +7743,7 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.V251.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.UVMapping> FromSelection(IEnumerable<SpaceClaim.Api.V251.IDocObject> selectionItems)`
+FromSelection | Convert Items of a ScriptSelection to a list of Speos objects when their type is matching. | `IEnumerable<SpeosSim.UVMapping> FromSelection(IEnumerable<SpaceClaim.Api.v261.IDocObject> selectionItems)`
 Find | Returns the object whose name matches exactly the specified string. Or, if the exact name is not found, the first object whose name matches the string as a regular expression. Example: Find("StartOfName.*") | `SpeosSim.UVMapping Find(string objectName)`
 Create | Create a new object of this type under the specified parent component | `SpeosSim.UVMapping Create(object parent)`
 Create | Create a new object in the active context | `SpeosSim.UVMapping Create()`
@@ -7544,10 +7756,10 @@ Clone | Create a copy of this object in the active context | `SpeosSim.UVMapping
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosSim.UVMapping CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 AddUvMap | Add an UV Map layer object | `SpeosSim.UVMap AddUvMap()`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
-FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.V251.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.V251.IDocObject contextObject)`
+FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v261.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v261.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
 Delete | Delete this object | `bool Delete()`
-GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.V251.CustomObject> GetChildSubjects()`
+GetChildSubjects | Retrieve all children as DocObjects | `IEnumerable<SpaceClaim.Api.v261.CustomObject> GetChildSubjects()`
 GetChildren | Retrieve all direct children of a given type | `IEnumerable<TSpecificApiType> GetChildren<TSpecificApiType>()`
 Compute | Execute the Compute command on the object | `void Compute()`
 PublishParameter | Publish or un-publish a number attribute as driving parameter | `void PublishParameter(string fieldName, bool trueToPublish)`
@@ -7562,7 +7774,7 @@ Name | Description | Syntax
 Description | string attribute | `string Description`
 Geometries | Links attribute | `SpeosSim.UVMapping.UVMappingGeometries Geometries`
 Layers | Children CustomObjects attribute | `SpeosSim.UVMapping.UVMappingLayers Layers`
-Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.V251.CustomObject Subject`
+Subject | Deprecated : Use 'Occurrence' property instead Get the underlying CustomObject, associated to the API object wrapper | `SpaceClaim.Api.v261.CustomObject Subject`
 Occurrence | Get the underlying CustomObject occurrence, associated to the API object wrapper in current API version | `object Occurrence`
 Name | Get or Set the name of the object | `string Name`
 Visible | Change the visibility status (same behavior as checking/unchecking on the tree view item) | `bool Visible`
@@ -7576,7 +7788,7 @@ IsUpToDate | Ask if the object was modified since its last successful computatio
 Name | Description | Syntax
 --- | --- | ---
 Set | Links attribute: Link to an array of script objects | `bool Set(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
-Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.V251.IDocObject[] selectedObjects)`
+Set | Links attribute: Link to an array of document objects | `bool Set(SpaceClaim.Api.v261.IDocObject[] selectedObjects)`
 Set | Links attribute: Link to an array of document objects (IDocObject type from unspecified version) | `bool Set(System.Object[] docObjectsFromPreviousVersion)`
 Clear | Links attribute: Clear the list of links | `void Clear()`
 SelectAll | Links attribute: Link to all compatible objects in the active context | `void SelectAll()`
@@ -7585,8 +7797,8 @@ SelectAll | Links attribute: Link to all compatible objects in the active contex
 
 Name | Description | Syntax
 --- | --- | ---
-LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.V251.IDocObject> LinkedObjects`
-Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.V251.IDocObject Item`
+LinkedObjects | Links attribute: Get the pointed document objects | `IReadOnlyCollection<SpaceClaim.Api.v261.IDocObject> LinkedObjects`
+Item | Links attribute: Get a pointed document object by index | `SpaceClaim.Api.v261.IDocObject Item`
 Count | Links attribute: Get the links count | `int Count`
 
 ### UVMapping.UVMappingLayers
@@ -7620,6 +7832,7 @@ PrecisionOther |  | `int PrecisionOther`
 ResultsAutomaticLaunchWhenSimulationEnds |  | `bool ResultsAutomaticLaunchWhenSimulationEnds`
 ResultsDraw |  | `bool ResultsDraw`
 ResultsDrawNullValuesAsTransparent |  | `bool ResultsDrawNullValuesAsTransparent`
+ResultsTransparencyLevel |  | `int ResultsTransparencyLevel`
 ActivateImageMeshing |  | `bool ActivateImageMeshing`
 LineColorPreviewMeshing |  | `System.Drawing.Color LineColorPreviewMeshing`
 CustomColorsForPicker |  | `System.Int32[] CustomColorsForPicker`
@@ -7630,6 +7843,7 @@ Colorimetry |  | `Dom.Optics.ColorimetryStandard Colorimetry`
 IntensityResultViewingDirection |  | `Dom.Optics.PropagationDirection IntensityResultViewingDirection`
 CopySelectedInputFilesUnderDocumentFolder |  | `bool CopySelectedInputFilesUnderDocumentFolder`
 PresetsCustomFolder |  | `string PresetsCustomFolder`
+MaterialLibraryFolder |  | `string MaterialLibraryFolder`
 NoInteropHealing |  | `bool NoInteropHealing`
 
 ## Options

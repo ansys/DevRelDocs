@@ -1,4 +1,4 @@
-# File test\_dvs\_client\_simple.py
+# File test_dvs_client_simple.py
 
 <a id="test__dvs__client__simple_8py"></a>
 

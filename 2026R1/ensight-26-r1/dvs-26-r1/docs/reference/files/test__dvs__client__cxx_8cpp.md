@@ -1,4 +1,4 @@
-# File test\_dvs\_client\_cxx.cpp
+# File test_dvs_client_cxx.cpp
 
 <a id="test__dvs__client__cxx_8cpp"></a>
 
@@ -178,7 +178,7 @@ click 1 "test__dvs__client__cxx_8cpp.md#test__dvs__client__cxx_8cpp"
 ## Functions
 
 <a id="test__dvs__client__cxx_8cpp_1aae64bd0c132a92bc351c373dba929ec5"></a>
-### Function logging\_function
+### Function logging_function
 
 ![][public]
 ![][static]

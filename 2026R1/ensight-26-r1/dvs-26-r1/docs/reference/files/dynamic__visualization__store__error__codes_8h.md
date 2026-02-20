@@ -1,4 +1,4 @@
-# File dynamic\_visualization\_store\_error\_codes.h
+# File dynamic_visualization_store_error_codes.h
 
 <a id="dynamic__visualization__store__error__codes_8h"></a>
 
@@ -142,7 +142,7 @@ click 8 "test__dvs__server_8cpp.md#test__dvs__server_8cpp"
 ## Macros
 
 <a id="dynamic__visualization__store__error__codes_8h_1a38e0cdcf6ce1713fb9eb13576fef3eaf"></a>
-### Macro DVS\_PARAM\_NULL
+### Macro DVS_PARAM_NULL
 
 ![][public]
 
@@ -159,7 +159,7 @@ Param passed into method was NULL when it should not be.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1acdcc465d26d012c099863c9f4e5bdfa9"></a>
-### Macro DVS\_PARAM\_INVALID\_SIZE
+### Macro DVS_PARAM_INVALID_SIZE
 
 ![][public]
 
@@ -176,7 +176,7 @@ Param passed in was of invalid size.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1acc7d005f0fc92ff0c35281bd426ce3cc"></a>
-### Macro DVS\_PARAM\_OUT\_OF\_BOUNDS
+### Macro DVS_PARAM_OUT_OF_BOUNDS
 
 ![][public]
 
@@ -193,7 +193,7 @@ A parameter index was out of bounds.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a38f8936157ddbc1944daa2ba3136bfa4"></a>
-### Macro DVS\_INVALID\_ID
+### Macro DVS_INVALID_ID
 
 ![][public]
 
@@ -210,7 +210,7 @@ Invalid ID passed in.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a253b6d1c4b726be2c671a0cf2a429950"></a>
-### Macro DVS\_PARAM\_INVALID\_VAR
+### Macro DVS_PARAM_INVALID_VAR
 
 ![][public]
 
@@ -227,7 +227,7 @@ Invalid variable passed in.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1af9fb37f098533ab13657a90681315b90"></a>
-### Macro DVS\_PARAM\_INVALID\_VAR\_LOC
+### Macro DVS_PARAM_INVALID_VAR_LOC
 
 ![][public]
 
@@ -244,7 +244,7 @@ Invalid variable location passed in.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a59583df111e112de252fde42cff5ce6e"></a>
-### Macro DVS\_PARAM\_INVALID\_OBJECT
+### Macro DVS_PARAM_INVALID_OBJECT
 
 ![][public]
 
@@ -261,7 +261,7 @@ Invalid object passed in.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1adb11c8275b7f0a0522fa12b5344c94b1"></a>
-### Macro DVS\_PARAM\_INVALID\_OBJECT\_TYPE
+### Macro DVS_PARAM_INVALID_OBJECT_TYPE
 
 ![][public]
 
@@ -278,7 +278,7 @@ Invalid object type passed in.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a7471160feb84da63d95d6c477c1c112d"></a>
-### Macro DVS\_PARAM\_INVALID\_TIME
+### Macro DVS_PARAM_INVALID_TIME
 
 ![][public]
 
@@ -295,7 +295,7 @@ Invalid time passed in.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1af18b10f6c4b2d71a5bd73cc978dc207f"></a>
-### Macro DVS\_PARAM\_OBJECT\_DATASET\_MISMATCH
+### Macro DVS_PARAM_OBJECT_DATASET_MISMATCH
 
 ![][public]
 
@@ -312,7 +312,7 @@ Objects passed in belong to different datasets.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a991ff842def08fb7aeb3e96765465843"></a>
-### Macro DVS\_PARAM\_INVALID
+### Macro DVS_PARAM_INVALID
 
 ![][public]
 
@@ -329,7 +329,7 @@ Parameter invalid, see error messages.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a9490d96aea47ae93002e2164f3388e2c"></a>
-### Macro DVS\_INVALID\_NAME
+### Macro DVS_INVALID_NAME
 
 ![][public]
 
@@ -346,7 +346,7 @@ Invalid part name.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1ac0b6f1bfe9fa4babbe75a5dcfe6692ac"></a>
-### Macro DVS\_DUPLICATE\_ELEM\_BLOCK\_TYPE
+### Macro DVS_DUPLICATE_ELEM_BLOCK_TYPE
 
 ![][public]
 
@@ -363,7 +363,7 @@ Duplicate element block of same type added, only one element block should be add
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a3aeabbfca5c162d24036dc433739d1b1"></a>
-### Macro DVS\_TRANSPORT\_NULL\_INVALID\_SERVER
+### Macro DVS_TRANSPORT_NULL_INVALID_SERVER
 
 ![][public]
 
@@ -380,7 +380,7 @@ Internal error, server failed to be instantiated.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a8f9cead720b698834ce60756a8245ab0"></a>
-### Macro DVS\_TRANSPORT\_SERVICE\_UNAVAILABLE
+### Macro DVS_TRANSPORT_SERVICE_UNAVAILABLE
 
 ![][public]
 
@@ -397,7 +397,7 @@ Service is unavailable. Potentially increase number of retries and backoff timer
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a5278bf30fbc14f0471243a9b186708a5"></a>
-### Macro DVS\_TRANSPORT\_SERVICE\_FAILURE
+### Macro DVS_TRANSPORT_SERVICE_FAILURE
 
 ![][public]
 
@@ -414,7 +414,7 @@ Unrecoverable error, turn on verbose logging to get more information, might be f
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1ace505cba0aaf23efa56f27ef0b5f8dfc"></a>
-### Macro DVS\_ID\_INVALID
+### Macro DVS_ID_INVALID
 
 ![][public]
 
@@ -431,7 +431,7 @@ Server or client ID is not valid.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a60a028020e32066ebc2abbbbe6695bee"></a>
-### Macro DVS\_ID\_INVALID\_TYPE
+### Macro DVS_ID_INVALID_TYPE
 
 ![][public]
 
@@ -448,7 +448,7 @@ Client ID used for Server ID or Server ID used for Client ID.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1ae8fbab61e536e8b2ee7218a038cf8ece"></a>
-### Macro DVS\_ID\_NO\_VALID\_SERVER
+### Macro DVS_ID_NO_VALID_SERVER
 
 ![][public]
 
@@ -465,7 +465,7 @@ Server ID is not valid or server instance no longer valid.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1affa3bea2b7e9157b78d9c1d5689093c4"></a>
-### Macro DVS\_ID\_NO\_VALID\_SESSION
+### Macro DVS_ID_NO_VALID_SESSION
 
 ![][public]
 
@@ -482,7 +482,7 @@ Session ID for client is not valid or client instance no longer valid.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a1ed031d8a21d42fa6bac0d2584050c93"></a>
-### Macro DVS\_ID\_OUT\_OF\_IDS
+### Macro DVS_ID_OUT_OF_IDS
 
 ![][public]
 
@@ -499,7 +499,7 @@ Maximum number of clients 1,048,575 reached.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1ac371b997ba2d3e8625d2b03e7eeffbfb"></a>
-### Macro DVS\_SERVER\_START\_FAILED
+### Macro DVS_SERVER_START_FAILED
 
 ![][public]
 
@@ -516,7 +516,7 @@ Internal error, server failed to start.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1ab5eb980bd5a675198578c2d70bb628f8"></a>
-### Macro DVS\_SERVER\_ALREADY\_STARTED
+### Macro DVS_SERVER_ALREADY_STARTED
 
 ![][public]
 
@@ -533,7 +533,7 @@ Server was already previously started.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1ae6698f7ca4f01e0588183b3081f31e67"></a>
-### Macro DVS\_SERVER\_NOT\_STARTED
+### Macro DVS_SERVER_NOT_STARTED
 
 ![][public]
 
@@ -550,7 +550,7 @@ DVS server terminating.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1abb787175fdb1c48324d6fa5d21338aa3"></a>
-### Macro DVS\_SERVER\_FAILED\_INIT
+### Macro DVS_SERVER_FAILED_INIT
 
 ![][public]
 
@@ -567,7 +567,7 @@ DVS server failed to initialize.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a6aab715fe03138335d33c51734c5df13"></a>
-### Macro DVS\_SERVER\_FAILED\_SYNC\_RANKS
+### Macro DVS_SERVER_FAILED_SYNC_RANKS
 
 ![][public]
 
@@ -584,7 +584,7 @@ DVS server failed syncing ranks, servers disagree on number of ranks.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a2619e1d7638ffd5e6b2606e62be8c242"></a>
-### Macro DVS\_SERVER\_FAILED\_DEFINITIONS\_MERGE
+### Macro DVS_SERVER_FAILED_DEFINITIONS_MERGE
 
 ![][public]
 
@@ -601,7 +601,7 @@ Merging definitions across server failed, definitions across servers do not matc
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a09d9cbd7bcfd9f5a6098e40e4c1ade42"></a>
-### Macro DVS\_SERVER\_FAILED\_TIMELINE\_SYNC
+### Macro DVS_SERVER_FAILED_TIMELINE_SYNC
 
 ![][public]
 
@@ -618,7 +618,7 @@ Syncing timelines between servers failed.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1ace7a1f90d90090c38a5f1a5067dac384"></a>
-### Macro DVS\_SERVER\_FAILED\_READER\_CREATE
+### Macro DVS_SERVER_FAILED_READER_CREATE
 
 ![][public]
 
@@ -635,7 +635,7 @@ Internal error for fatal error.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a19cf1e588b91f501534311012bf428c9"></a>
-### Macro DVS\_SERVER\_WAIT\_TIMEOUT
+### Macro DVS_SERVER_WAIT_TIMEOUT
 
 ![][public]
 
@@ -652,7 +652,7 @@ Timeout occured, increase wait time if unintended.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a863800ad689e30effa651705e8ff7278"></a>
-### Macro DVS\_SERVER\_CACHE\_NOT\_ACCESSIBLE
+### Macro DVS_SERVER_CACHE_NOT_ACCESSIBLE
 
 ![][public]
 
@@ -669,7 +669,7 @@ The cache is not available for write.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1ad7bc3686b4c5f1a6721efa8a7f576f38"></a>
-### Macro DVS\_SERVER\_QUERY\_FAILED
+### Macro DVS_SERVER_QUERY_FAILED
 
 ![][public]
 
@@ -686,7 +686,7 @@ The server query cannot be created yet.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a56c80c7209e07a53580486c5b7c462ac"></a>
-### Macro DVS\_SERVER\_TERMINATING
+### Macro DVS_SERVER_TERMINATING
 
 ![][public]
 
@@ -703,7 +703,7 @@ DVS server terminating.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a1a9fe3336207ecb452fd955aaff81194"></a>
-### Macro DVS\_CLIENT\_INVALID\_TRANSPORT
+### Macro DVS_CLIENT_INVALID_TRANSPORT
 
 ![][public]
 
@@ -720,7 +720,7 @@ Internal error, tranport layer failed to instantiate.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1aecac61d1237916452e3778780ceecda1"></a>
-### Macro DVS\_CLIENT\_WAIT\_TIMEOUT
+### Macro DVS_CLIENT_WAIT_TIMEOUT
 
 ![][public]
 
@@ -737,7 +737,7 @@ Timeout waiting for client to connect to server, increase timeout if unintended.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1afb514fe908555095153fa0c06137aefc"></a>
-### Macro DVS\_DATASET\_NAME\_EMPTY
+### Macro DVS_DATASET_NAME_EMPTY
 
 ![][public]
 
@@ -754,7 +754,7 @@ Dataset name passed in is empty.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1af81828d5fc96eec8fc603ed7f7bf8940"></a>
-### Macro DVS\_NO\_DATA
+### Macro DVS_NO_DATA
 
 ![][public]
 
@@ -771,7 +771,7 @@ This object has no data.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a66733044e74ab242ce6ecf94072f06ec"></a>
-### Macro DVS\_METADATA\_NO\_HASH\_OFFSET\_TABLE
+### Macro DVS_METADATA_NO_HASH_OFFSET_TABLE
 
 ![][public]
 
@@ -788,7 +788,7 @@ Internal error in case of table not available. Needed for backward compatibility
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a7c587fcdbc8d28afaf9823c351ca4cc8"></a>
-### Macro DVS\_METADATA\_HASH\_OFFSET\_TABLE\_BACKCOMPAT
+### Macro DVS_METADATA_HASH_OFFSET_TABLE_BACKCOMPAT
 
 ![][public]
 
@@ -805,7 +805,7 @@ Internal error in case of table avaiable but with negative values. Needed for ba
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1afdc4afc773568bcac998c26ba93e91a6"></a>
-### Macro DVS\_INVALID\_STRUCTURED\_DATA
+### Macro DVS_INVALID_STRUCTURED_DATA
 
 ![][public]
 
@@ -822,7 +822,7 @@ Internal error, structured data structure is invalid.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a54a8b7818996b5ec66ac6d97f4dd6061"></a>
-### Macro DVS\_INVALID\_ELEMENT\_TYPE
+### Macro DVS_INVALID_ELEMENT_TYPE
 
 ![][public]
 
@@ -839,7 +839,7 @@ The element type is invalid for this method.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a28a95357eedffd7749f76e93b7b71358"></a>
-### Macro DVS\_INVALID\_MESH\_TYPE
+### Macro DVS_INVALID_MESH_TYPE
 
 ![][public]
 
@@ -856,7 +856,7 @@ Invalid mesh type for this method.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1abc6389f4e500de0977a65f626545ba65"></a>
-### Macro DVS\_INVALID\_CONNECTIVITY\_RANGE
+### Macro DVS_INVALID_CONNECTIVITY_RANGE
 
 ![][public]
 
@@ -873,7 +873,7 @@ Connectivity index higher than number of nodes (should be zero based).
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a066dc9db3f56d47d76bf9691a60afce4"></a>
-### Macro DVS\_TYPE\_MISMATCH
+### Macro DVS_TYPE_MISMATCH
 
 ![][public]
 
@@ -890,7 +890,7 @@ Mismatched DVS data types.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1adc4e96717d505d0ef3abc6f8c5aab584"></a>
-### Macro DVS\_VERSION\_MISMATCH
+### Macro DVS_VERSION_MISMATCH
 
 ![][public]
 
@@ -907,7 +907,7 @@ Invalid version, please update client and server to match.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1aa868448478d42e79c26830f67bf89081"></a>
-### Macro DVS\_VERSION\_UNKNOWN
+### Macro DVS_VERSION_UNKNOWN
 
 ![][public]
 
@@ -924,7 +924,7 @@ Unknown version, please update client and server to match.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a48a521ee0d0edb67897912b3921ded0b"></a>
-### Macro DVS\_QUERY\_INVALID\_FILTER
+### Macro DVS_QUERY_INVALID_FILTER
 
 ![][public]
 
@@ -941,7 +941,7 @@ Filter is incorrectly formed.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a198e7ec145a9d81ee152f94ebcf58f54"></a>
-### Macro DVS\_QUERY\_INVALID\_URI
+### Macro DVS_QUERY_INVALID_URI
 
 ![][public]
 
@@ -958,7 +958,7 @@ URI is incorrectly formed.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a49abd540100e9f2db6b3caf62634569c"></a>
-### Macro DVS\_QUERY\_HAS\_CHILDREN
+### Macro DVS_QUERY_HAS_CHILDREN
 
 ![][public]
 
@@ -975,7 +975,7 @@ A query cannot be modified if it still has child chained queries.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1aeee185bd2fe3d398c376ceb33f54e5fd"></a>
-### Macro DVS\_HASH\_NOT\_FOUND
+### Macro DVS_HASH_NOT_FOUND
 
 ![][public]
 
@@ -992,7 +992,7 @@ Hash not found in cache when it should be, data invalid.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a0faf5ec02d2b9244d5ee0953a9d2ff84"></a>
-### Macro DVS\_METADATA\_ERROR
+### Macro DVS_METADATA_ERROR
 
 ![][public]
 
@@ -1009,7 +1009,7 @@ Error loading metadata.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a9a42eabb8d4e1e16fd689aee51e2c11f"></a>
-### Macro DVS\_CACHE\_EMPTY
+### Macro DVS_CACHE_EMPTY
 
 ![][public]
 
@@ -1026,7 +1026,7 @@ No server folders in cache.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1aff3fd07ec1db2e1b2eb0775fe05beedb"></a>
-### Macro DVS\_CACHE\_MISSING\_SERVERS
+### Macro DVS_CACHE_MISSING_SERVERS
 
 ![][public]
 
@@ -1043,7 +1043,7 @@ Gaps in number of servers, data corrupt?
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a266a56a3c0d6f1a9a7de28a0ed986c69"></a>
-### Macro DVS\_INVALID\_HASH
+### Macro DVS_INVALID_HASH
 
 ![][public]
 
@@ -1060,7 +1060,7 @@ Object hash is invalid, should not happen.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1ae730e5a16b76d31e581c531b5fa5b0d9"></a>
-### Macro DVS\_DATA\_FAILED\_LOAD
+### Macro DVS_DATA_FAILED_LOAD
 
 ![][public]
 
@@ -1077,7 +1077,7 @@ Data failed to load from the cache, potentially doesn't exist.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a7f10de9937c1df1f714d697915784ac4"></a>
-### Macro DVS\_INVALID\_CACHE
+### Macro DVS_INVALID_CACHE
 
 ![][public]
 
@@ -1094,7 +1094,7 @@ There was an error creating/accessing the cache, might not exist or not readable
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1afa18e57baf3bff24155a96ada7c8127b"></a>
-### Macro DVS\_UNKNOWN
+### Macro DVS_UNKNOWN
 
 ![][public]
 
@@ -1111,7 +1111,7 @@ Unknown error, notify developers.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a83b88ce16159d34fe5ce63e7024462a7"></a>
-### Macro DVS\_NONE
+### Macro DVS_NONE
 
 ![][public]
 
@@ -1128,7 +1128,7 @@ No detected error has occurred.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1ab0b92e44aa87f8c0492a192a04547a36"></a>
-### Macro DVS\_RANK\_NOT\_INITIALIZED
+### Macro DVS_RANK_NOT_INITIALIZED
 
 ![][public]
 
@@ -1145,7 +1145,7 @@ Begin update or delete item called on unintialized rank, call begin/end init seq
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a6f9ee61e5c6d85f42d2e21796d217b44"></a>
-### Macro DVS\_OTHER\_RANKS\_NOT\_INITIALIZED
+### Macro DVS_OTHER_RANKS_NOT_INITIALIZED
 
 ![][public]
 
@@ -1162,7 +1162,7 @@ Other ranks on server have not yet called begin/end init sequence.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1ad04b5c3cbfdbb5d3cfebbfcc41ec7292"></a>
-### Macro DVS\_RANK\_REINITIALIZING
+### Macro DVS_RANK_REINITIALIZING
 
 ![][public]
 
@@ -1179,7 +1179,7 @@ Waiting for reinitializing to occur, other ranks may not have called it yet.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a43a46aafb7336ede05d111ef65aa877c"></a>
-### Macro DVS\_RANK\_NOT\_REINITIALIZED
+### Macro DVS_RANK_NOT_REINITIALIZED
 
 ![][public]
 
@@ -1196,7 +1196,7 @@ Other ranks have started reinitializing but this one did not, call begin/end ini
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1aab49d592787b55e73cd074a7030d0217"></a>
-### Macro DVS\_RANK\_ALREADY\_REINITIALIZED
+### Macro DVS_RANK_ALREADY_REINITIALIZED
 
 ![][public]
 
@@ -1213,7 +1213,7 @@ Begin init already called but server has not finished reinitializing yet.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a01f7d7bd785a44fe33885b89f86f248d"></a>
-### Macro DVS\_REINITIALIZE\_WAITING\_MERGE
+### Macro DVS_REINITIALIZE_WAITING_MERGE
 
 ![][public]
 
@@ -1230,7 +1230,7 @@ Waiting on merge of definitions to occur.
 
 
 <a id="dynamic__visualization__store__error__codes_8h_1a5665df8b7c763378dd7eed3cd11b9797"></a>
-### Macro DVS\_DELETE\_BAD\_QUERY
+### Macro DVS_DELETE_BAD_QUERY
 
 ![][public]
 
@@ -1249,7 +1249,7 @@ A bad filter has been given to the delete_item call.
 ## Typedefs
 
 <a id="dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1"></a>
-### Typedef dvs\_ret
+### Typedef dvs_ret
 
 ![][public]
 
