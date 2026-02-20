@@ -42,7 +42,6 @@ The following table shows which components have updates in each category.
 | prime | [3 items](#Features_prime) | |
 | pydpf |  |[1 item](#Fixes_pydpf) |
 | rbd |  |[1 item](#Fixes_rbd) |
-| refactor | [1 item](#Features_refactor) | |
 | rotation |  |[1 item](#Fixes_rotation) |
 | workflows |  |[1 item](#Fixes_workflows) |
 
@@ -1817,21 +1816,6 @@ The following table shows which components have updates in each category.
 ### <a id="Fixes_rbd"></a> Fixes
 
 - Create first version of ResultInfo to avoid crash:
-  >
-## refactor
-### <a id="Features_refactor"></a> Features
-
-- Refactor for ApdlElements unit testing:
-  >
-  >
-  > We need more tests for the class ApdlElementDescriptor as we will now rely more and more on it.
-  >
-  > I will add a way to create manually a "descriptor" object and some way to create tests for each element descriptor individually.
-  >
-  > We need to be able to test the various atributes of the element descriptors and of the elementDetails generated based on the different keyopts. We need to test also that the nodeMapping obtained is correct and have tests in place for the degenerated elements.
-  >
-  >
-  >
   >
 
 ## rotation
