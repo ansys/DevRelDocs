@@ -13,7 +13,6 @@ The following table shows which components have updates in each category.
 | cff | [2 items](#Features_cff) |[4 items](#Fixes_cff) |
 | cgns | [1 item](#Features_cgns) | |
 | changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
-| ci | [1 item](#Features_ci) |[1 item](#Fixes_ci) |
 | compression | [2 items](#Features_compression) |[1 item](#Fixes_compression) |
 | core |  |[1 item](#Fixes_core) |
 | cyclic | [1 item](#Features_cyclic) | |
@@ -141,28 +140,7 @@ The following table shows which components have updates in each category.
   >
   >
   >
-## ci
-### <a id="Features_ci"></a> Features
 
-- Add SCA scan for DPF:
-  >
-  >
-  > Monthly scan of DPF repo for Software Composition Analysis which scan identifies and manages open-source software components using mend tool.
-  >
-  >
-
-### <a id="Fixes_ci"></a> Fixes
-
-- Ensure backwards compatibility in invariants and eigenvalues source operators:
-  >
-  >
-  >
-  >
-  > Add back the `bool_rotate_to_global` input pins to the invariants and eigenvalues source operators to ensure backwards compatibility of the DPF API.
-  >
-  >
-  >
-  >
 ## compression
 ### <a id="Features_compression"></a> Features
 
