@@ -1263,8 +1263,8 @@ The following table shows which components have updates in each category.
   >
   >
 
-- Cplx division operator has to high tolerance:
-  > Change the tolerance for cplx division from 1e-10 to 1e-15.
+- Reduce the threshold for detection of division by zero in the complex division operator:
+  > Change the tolerance for complex division from 1e-10 to 1e-15.
 
 ## mechanical
 ### <a id="Features_mechanical"></a> Features
