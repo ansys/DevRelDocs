@@ -9,7 +9,7 @@ The following table shows which components have updates in each category.
 | Component | Features | Fixes |
 |-----------|----------|----------|
 | c# | [1 item](#Features_c#) | |
-| cff | [2 items](#Features_cff) |[4 items](#Fixes_cff) |
+| cff | [2 items](#Features_cff) |[3 items](#Fixes_cff) |
 | cgns | [1 item](#Features_cgns) | |
 | changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
 | compression | [2 items](#Features_compression) |[1 item](#Fixes_compression) |
@@ -80,11 +80,6 @@ The following table shows which components have updates in each category.
 - Ensure that gRPC servers are running on 1 thread:
   >
 
-- Adapt User-Defined memory behavior to FBU feedback:
-  >
-  >
-  >
-
 - Fix out of bounds issue in units handling:
   >
   >
@@ -94,6 +89,7 @@ The following table shows which components have updates in each category.
   >
   >
   >
+
 ## cgns
 ### <a id="Features_cgns"></a> Features
 
