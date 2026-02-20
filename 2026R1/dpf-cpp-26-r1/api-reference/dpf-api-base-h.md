@@ -117,3 +117,7 @@ click 1 "dpf__api__base_8h.md#dpf__api__base_8h"
 
 * [dpf/include/dpf_api.h](dpf-api-h.md#dpf-api-h)
 
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[const]: https://img.shields.io/badge/-const-lightblue (const)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
+[static]: https://img.shields.io/badge/-static-lightgrey (static)
