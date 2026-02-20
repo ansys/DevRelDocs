@@ -12,7 +12,7 @@ The following table shows which components have updates in each category.
 | cff | [2 items](#Features_cff) |[3 items](#Fixes_cff) |
 | cgns | [1 item](#Features_cgns) | |
 | changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
-| compression | [2 items](#Features_compression) |[1 item](#Fixes_compression) |
+| compression | [2 items](#Features_compression) | |
 | core |  |[1 item](#Fixes_core) |
 | cyclic | [1 item](#Features_cyclic) | |
 | doc | [2 items](#Features_doc) |[1 item](#Fixes_doc) |
@@ -132,17 +132,9 @@ The following table shows which components have updates in each category.
   >
   >
 
-- Scale and Round Operator:
-  >
+- New [quantization](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/compression/quantization.md) and [quantization_fc](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/compression/quantization_fc.md) operator:
+  > Scales a field to a given precision threshold, then rounds all the values to the unit.
 
-### <a id="Fixes_compression"></a> Fixes
-
-- Quantization loss of performance:
-  > The quantization ("quantization") operator has became super slow since its last modification.
-  >
-  >
-  >
-  >
 ## core
 
 ### <a id="Fixes_core"></a> Fixes
