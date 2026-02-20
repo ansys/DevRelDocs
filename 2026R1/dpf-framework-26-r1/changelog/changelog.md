@@ -342,14 +342,14 @@ The following table shows which components have updates in each category.
 - Fix header copy in Field copy:
   >
   >
-  > The Field Header was not deep-copied in a deep-copy operation of the Field, which caused issues when it was modifed downstream. This is now fixed.
+  > The Field Header was not deep-copied in a deep-copy operation of the Field, which caused issues when it was modified downstream. This is now fixed.
   >
   >
   >
   >
 
 - Remove nodal_moment operator:
-  > The ``nodal_moment`` operator currently has no plugin implementing it int he standard installation, resulting in user confusion as to what file type is supported. The choice is made to remove it from recorded result operators until an official plugin supports it.
+  > The ``nodal_moment`` operator currently has no plugin implementing it in the standard installation, resulting in user confusion as to what file type is supported. The choice is made to remove it from recorded result operators until an official plugin supports it.
   >
   >
 
@@ -788,7 +788,7 @@ The following table shows which components have updates in each category.
 - Fix mapdl::rst::mesh_property_provider in composite with a mesh scoping (or scoping mismatch):
   >
   >
-  > Fix mapdl::rst::mesh_property_provider building incorect fields with a scoping mismatch or in composite
+  > Fix mapdl::rst::mesh_property_provider building incorrect fields with a scoping mismatch or in composite
   >
   >
   >
@@ -1107,7 +1107,7 @@ The following table shows which components have updates in each category.
   >
   >
 
-- Pluggin stream name db_live need to be in GetFirstStream:
+- Plugin stream name db_live need to be in GetFirstStream:
   > add db_live to GetFirstStream for generic operators
   >
   >
@@ -1329,7 +1329,7 @@ The following table shows which components have updates in each category.
   >
   >
   >
-  > Headers are supported as valid properties to forward in the `field::get_attribute` operator. The `propertyfield::get_attribute` and `customtypefield::get_attribute` operatos are created mimicking the behavior of the other one.
+  > Headers are supported as valid properties to forward in the `field::get_attribute` operator. The `propertyfield::get_attribute` and `customtypefield::get_attribute` operators are created mimicking the behavior of the other one.
   >
   >
   >
@@ -1463,7 +1463,7 @@ The following table shows which components have updates in each category.
   >
   >
 
-- Proper itialization of variable in skin operator:
+- Proper initialization of variable in skin operator:
   >
 
 - Fix connectivity of Line3 elements in skin mesh:
@@ -1471,7 +1471,7 @@ The following table shows which components have updates in each category.
   >
   >
   >
-  > With a previous change, Line3 elements were shipped with only 2 nodes after a skin exraction operation. They now have the 3 nodes they are expected to have (2 corner nodes and the midside node).
+  > With a previous change, Line3 elements were shipped with only 2 nodes after a skin extraction operation. They now have the 3 nodes they are expected to have (2 corner nodes and the midside node).
   >
   >
   >
@@ -1718,7 +1718,7 @@ The following table shows which components have updates in each category.
   >
   >
 
-- Scafolds of the new morphing operator:
+- Scaffolds of the new morphing operator:
   >
   >
   >
@@ -2251,7 +2251,7 @@ The following table shows which components have updates in each category.
 
   > 0.2.0: Improving performance for ElementalNodal and Elemental locations.
 
-  > 0.2.1: Removing unnedeed output hidden pin.
+  > 0.2.1: Removing unneeded output hidden pin.
 
   > 0.2.2: Fixed issue with shell layers calculation in the results field while having mid-side nodes on some elements.
 
@@ -2954,7 +2954,7 @@ The following table shows which components have updates in each category.
 
   > 0.1.0: Addition of events to monitor the status of the operator.
 
-  > 0.2.0: Moving event of progress bar at the beggining of the loop and changing input stream.
+  > 0.2.0: Moving event of progress bar at the beginning of the loop and changing input stream.
 
 
 
