@@ -30,7 +30,6 @@ The following table shows which components have updates in each category.
 | h5dpf | [2 items](#Features_h5dpf) |[4 items](#Fixes_h5dpf) |
 | hdf5 | [6 items](#Features_hdf5) |[7 items](#Fixes_hdf5) |
 | hgp | [3 items](#Features_hgp) |[3 items](#Fixes_hgp) |
-| hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [2 items](#Features_kernel) |[3 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
 | mapdl | [14 items](#Features_mapdl) |[51 items](#Fixes_mapdl) |
@@ -710,14 +709,7 @@ The following table shows which components have updates in each category.
   >
   >
   >
-## hgptests
 
-### <a id="Fixes_hgptests"></a> Fixes
-
-- Ensure no hacks in cyclic tests:
-  >
-  >
-  >
 ## kernel
 ### <a id="Features_kernel"></a> Features
 
