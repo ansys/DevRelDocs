@@ -8,7 +8,7 @@ The following table shows which components have updates in each category.
 
 | Component | Features | Fixes |
 |-----------|----------|----------|
-| c# | [1 item](#Features_c#) | |
+| c# | [1 item](#Features_csharp) | |
 | cff | [2 items](#Features_cff) |[3 items](#Fixes_cff) |
 | cgns | [1 item](#Features_cgns) | |
 | changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
@@ -42,7 +42,7 @@ The following table shows which components have updates in each category.
 | workflows |  |[1 item](#Fixes_workflows) |
 
 ## c#
-### <a id="Features_c#"></a> Features
+### <a id="Features_csharp"></a> Features
 
 - Enable C# wrapping of DPF C++ plugins:
   > Add the capability to expose any DPF C++ plugin in C# using DPF_Plugin_CSharp_Wrapper.exe.
