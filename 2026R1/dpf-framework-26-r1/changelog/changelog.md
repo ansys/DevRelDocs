@@ -2132,14 +2132,14 @@ The following table shows which components have updates in each category.
   >
   > Example:
   > - Fields Container 1:
-  > 	- Field1 with components: { UX, UY, UZ }
-  > 	- Field2 with components: { VX, VY, VZ }
+  >   - Field1 with components: { UX, UY, UZ }
+  >   - Field2 with components: { VX, VY, VZ }
   > - Fields Container 2:
-  > 	- Field1 with components: { RX, RY, RZ }
-  > 	- Field2 with components: { AX, AY, AZ }
+  >   - Field1 with components: { RX, RY, RZ }
+  >   - Field2 with components: { AX, AY, AZ }
   > - Output Fields Container:
-  > 	- Field1 with components: { UX, UY, UZ, RX, RY, RZ }
-  > 	- Field2 with components: { VX, VY, VZ, AX, AY, AZ }
+  >   - Field1 with components: { UX, UY, UZ, RX, RY, RZ }
+  >   - Field2 with components: { VX, VY, VZ, AX, AY, AZ }
 
 - [customtypefield_get_attribute](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/utility/customtypefield_get_attribute.md):
   > Gets a property from an input field/field container. A CustomTypeFieldin pin 0, a property name (string) in pin 1 are expected as inputs
