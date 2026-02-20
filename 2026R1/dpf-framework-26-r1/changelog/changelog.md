@@ -30,8 +30,7 @@ The following table shows which components have updates in each category.
 | hgp | [3 items](#Features_hgp) |[3 items](#Fixes_hgp) |
 | kernel | [2 items](#Features_kernel) |[3 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
-| mapdl | [14 items](#Features_mapdl) |[51 items](#Fixes_mapdl) |
-| mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
+| mapdl | [14 items](#Features_mapdl) |[52 items](#Fixes_mapdl) |
 | math | [7 items](#Features_math) |[2 items](#Fixes_math) |
 | mechanical | [1 item](#Features_mechanical) |[3 items](#Fixes_mechanical) |
 | mesh |  |[2 items](#Fixes_mesh) |
@@ -1194,9 +1193,6 @@ The following table shows which components have updates in each category.
   >
   >
   >
-## mapdlpluggin
-
-### <a id="Fixes_mapdlpluggin"></a> Fixes
 
 - Pluggin stream name db_live need to be in GetFirstStream:
   > add db_live to GetFirstStream for generic operators
@@ -1204,6 +1200,7 @@ The following table shows which components have updates in each category.
   >
   >
   >
+
 ## math
 ### <a id="Features_math"></a> Features
 
