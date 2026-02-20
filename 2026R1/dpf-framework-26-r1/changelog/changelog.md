@@ -172,8 +172,8 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_eng_mat"></a> Fixes
 
-- Evaluation of temperature dependent material property field from rst was not working properly.:
-  > Correction of ans_mat_from_materials_data, was not working properly when reading temperature dependent material properties from rst file.
+- Evaluation of temperature dependent material property field from rst was not working properly:
+  > Correction of **ans_mat_from_materials_data**, was not working properly when reading temperature dependent material properties from rst file.
   >
   >
   >
@@ -212,7 +212,7 @@ The following table shows which components have updates in each category.
 - Performance issues on Nodal Extend To Mid Nodes:
   >
 
-- Correction for averaged midside nodes from corner nodes when having multiple shell layers.:
+- Correction for averaged midside nodes from corner nodes when having multiple shell layers:
   > Correction of size for averaging operators when having multiple shell layers and skin elements.
   >
   >
@@ -704,7 +704,7 @@ The following table shows which components have updates in each category.
   >
   >
 
-- Change default reading method of rst f...:
+- Change default reading method of rst f:
   >
   >
   >
@@ -808,7 +808,7 @@ The following table shows which components have updates in each category.
   >
   >
 
-- Filter::mesh operator fix of indeces of property fields.:
+- Filter::mesh operator fix of indeces of property fields:
   >
 
 - Out of bound fix for unfilter operator unit tests:
@@ -904,7 +904,7 @@ The following table shows which components have updates in each category.
   >
   >
 
-- MAPDLOperators cache to be refreshed if the file changes.:
+- MAPDLOperators cache to be refreshed if the file changes:
   > MAPDLOperators cache to be refreshed if the file changes.
   >
   >
@@ -951,7 +951,7 @@ The following table shows which components have updates in each category.
   >
   >
 
-- Fix reading complex results from complex mode file.:
+- Fix reading complex results from complex mode file:
   > Fix reading complex results from complex mode file.
   >
   >
@@ -970,7 +970,7 @@ The following table shows which components have updates in each category.
   >
   >
 
-- Correction on plies/position logic for BFE filter.:
+- Correction on plies/position logic for BFE filter:
   > Correction on plies/position logic for BFE filter.
   >
   >
@@ -1441,7 +1441,7 @@ The following table shows which components have updates in each category.
   >
   >
 
-- Support heterogeneous shell layer fields in the elemental_to_nodal operator.:
+- Support heterogeneous shell layer fields in the elemental_to_nodal operator:
   >
   >
   >
@@ -1563,7 +1563,7 @@ The following table shows which components have updates in each category.
   >
   >
 
-- Clarify documentation for bool_rotate_to_global pin.:
+- Clarify documentation for bool_rotate_to_global pin:
   >
 
 - Csv to field doesn't handle empty field:
@@ -1578,14 +1578,14 @@ The following table shows which components have updates in each category.
   >
   >
 
-- Fix bool_rotate_to_global specification of operators.:
+- Fix bool_rotate_to_global specification of operators:
   > Fix bool_rotate_to_global specification of operators.
   >
   >
   >
   >
 
-- Fix elementary data selector when no dataptr is available.:
+- Fix elementary data selector when no dataptr is available:
   > Fix elementary data selector when no dataptr is available.
   >
   >
@@ -1673,7 +1673,7 @@ The following table shows which components have updates in each category.
   > Remove the **bool_rotate_to_global** pin from operators such as **raw_displacement** and **raw_reaction_force**.
   >
 
-- Improve rotation handling on Invariant Source operators.:
+- Improve rotation handling on Invariant Source operators:
   > Improve rotation handling on Invariant operators.
 
 ## perf
