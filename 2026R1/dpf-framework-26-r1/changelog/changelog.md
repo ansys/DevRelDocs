@@ -13,7 +13,6 @@ The following table shows which components have updates in each category.
 | cgns | [1 item](#Features_cgns) | |
 | changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
 | compression | [2 items](#Features_compression) | |
-| core |  |[1 item](#Fixes_core) |
 | cyclic | [1 item](#Features_cyclic) | |
 | doc | [2 items](#Features_doc) |[1 item](#Fixes_doc) |
 | documentation | [1 item](#Features_documentation) |[1 item](#Fixes_documentation) |
@@ -135,18 +134,6 @@ The following table shows which components have updates in each category.
 - New [quantization](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/compression/quantization.md) and [quantization_fc](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/compression/quantization_fc.md) operator:
   > Scales a field to a given precision threshold, then rounds all the values to the unit.
 
-## core
-
-### <a id="Fixes_core"></a> Fixes
-
-- Avoid spawning too many threads:
-  >
-  >
-  > Following up on OpenMP replacement in the core, many threads were needlessly spawned, thus incurring an important overhead.
-  >
-  >
-  >
-  >
 ## cyclic
 ### <a id="Features_cyclic"></a> Features
 
