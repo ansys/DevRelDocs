@@ -57,7 +57,10 @@
         -   [Outputting Values](UDA/add_api/architecture/units/output_vals.md)
         -   [Inputting Values](UDA/add_api/architecture/units/input_vals.md)
         -   [Custom Conversions](UDA/add_api/architecture/units/custom_conversion.md)
--   [Release Notes](UDA/add_api/release_notes/c_disco_api_addin_release_notes.md)
-    -   [V24.2](UDA/add_api/release_notes/V24.2.md)
+-   [Release Notes](UDA/add_api/changelog/c_disco_api_addin_changelog.md)
+    -   [V26.1](UDA/add_api/changelog/V26-r1.md)
+    -   [V25.2](UDA/add_api/changelog/V25-r2.md)
+    -   [V25.1](UDA/add_api/changelog/V25-r1.md)
+    -   [V24.2](UDA/add_api/changelog/V24-r2.md)
 <!-- -   [Copyright and Trademark Information](shared/c_legal_frontmatter.md) -->
 
