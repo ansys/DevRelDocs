@@ -37,72 +37,67 @@ various common actions related to simulations:
 **Methods:**
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [`CanResumeSimulation`](#generated.RAStudy.CanResumeSimulation)()                                        | Whether the simulation can be resumed.                                                                                                                                          |
-| [`CreateContinuousInjection`](#generated.RAStudy.CreateContinuousInjection)(entry_point, particle)       | Create a particle input with the given entry_point and particle.                                                                                                                |
-| [`CreateFeedConveyor`](#generated.RAStudy.CreateFeedConveyor)()                                          | Creates a new feed conveyor and add it to the project.                                                                                                                          |
-| [`CreateInlet`](#generated.RAStudy.CreateInlet)()                                                        | Create a new inlet and add it to the project.                                                                                                                                   |
-| [`CreateMaterialAndRelatedInteractions`](#generated.RAStudy.CreateMaterialAndRelatedInteractions)([...]) | Deprecated: Use `CreateSolidMaterialAndRelatedInteractions()` instead.                                                                                                          |
-| [`CreateOutlet`](#generated.RAStudy.CreateOutlet)(exit_point)                                            | Create an outlet with the given exit point.                                                                                                                                     |
-| [`CreateParticle`](#generated.RAStudy.CreateParticle)()                                                  | Create a particle in the study with default values.                                                                                                                             |
-| [`CreateParticleInlet`](#generated.RAStudy.CreateParticleInlet)(entry_point, particle)                   | Create a particle inlet with the given entry_point and particle.                                                                                                                |
-| [`CreateReceivingConveyor`](#generated.RAStudy.CreateReceivingConveyor)()                                | Creates a new receiving conveyor and add it to the project.                                                                                                                     |
-| [`CreateVolumeFill`](#generated.RAStudy.CreateVolumeFill)([particle, name, mass, ...])                   | Creates a volume fill with the given properties.                                                                                                                                |
-| [`CreateVolumetricInlet`](#generated.RAStudy.CreateVolumetricInlet)([particle, name, ...])               | Creates a volumetric inlet with the given properties.                                                                                                                           |
-| [`DeleteResults`](#generated.RAStudy.DeleteResults)()                                                    | Called to delete any results we currently have from a simulation.                                                                                                               |
-| [`ExtendSimulation`](#generated.RAStudy.ExtendSimulation)([extension_amount, time, ...])                 | Extend the simulation: either its duration, the duration of an inlet in the study or the duration of a periodic motion frame.                                                   |
-| [`GetAirFlow`](#generated.RAStudy.GetAirFlow)()                                                          | Get the RAAirFlow object (if applicable).                                                                                                                                       |
-| [`GetCFDCoupling`](#generated.RAStudy.GetCFDCoupling)()                                                  | Get the current CFD coupling object.                                                                                                                                            |
-| [`GetCalculations`](#generated.RAStudy.GetCalculations)()                                                | Get the project's Calculations.                                                                                                                                                 |
-| [`GetCollectForcesForFemAnalysis`](#generated.RAStudy.GetCollectForcesForFemAnalysis)()                  | Checks wheter the Collision Statistics modules are colecting FEM Forces for analysis                                                                                            |
-| [`GetContactData`](#generated.RAStudy.GetContactData)()                                                  | Get the RAContactData object.                                                                                                                                                   |
-| [`GetCustomerName`](#generated.RAStudy.GetCustomerName)()                                                | Get the study customer name.                                                                                                                                                    |
-| [`GetDescription`](#generated.RAStudy.GetDescription)()                                                  | Get the study description.                                                                                                                                                      |
-| [`GetDomainSettings`](#generated.RAStudy.GetDomainSettings)()                                            | Get the study's Domain Settings.                                                                                                                                                |
-| [`GetElementCurve`](#generated.RAStudy.GetElementCurve)(element_name, curve_name[, ...])                 | Get the curve matching a given element name and curve name.                                                                                                                     |
-| [`GetExportToolkit`](#generated.RAStudy.GetExportToolkit)()                                              | Get a RAExportToolkit object related to this RAStudy.                                                                                                                           |
-| [`GetFEMForcesAnalysisModules`](#generated.RAStudy.GetFEMForcesAnalysisModules)(module_collection)       | Get the name and the FEM Forces property for all available Boundary Collision Statistics modules                                                                                |
-| [`GetGeometry`](#generated.RAStudy.GetGeometry)(geometry_name)                                           | Get the geometry with the given name                                                                                                                                            |
-| [`GetGeometryCollection`](#generated.RAStudy.GetGeometryCollection)()                                    | Get the study's Geometry Collection.                                                                                                                                            |
-| [`GetInletsOutletsCollection`](#generated.RAStudy.GetInletsOutletsCollection)()                          | Get the study's Inlets and Outlets Collection.                                                                                                                                  |
-| [`GetIntraParticleCollisionStatistics`](#generated.RAStudy.GetIntraParticleCollisionStatistics)()        | Get whether the Intra Particle Collision Statistics Module is enabled.                                                                                                          |
-| [`GetJointsData`](#generated.RAStudy.GetJointsData)()                                                    | Get the RAParticleJointsData object.                                                                                                                                            |
-| [`GetMaterialCollection`](#generated.RAStudy.GetMaterialCollection)()                                    | Get the study's Material Collection.                                                                                                                                            |
-| [`GetMaterialsInteractionCollection`](#generated.RAStudy.GetMaterialsInteractionCollection)()            | Deprecated: Use [`RAMaterialCollection.GetMaterialsInteractionCollection()`](RAMaterialCollection.md#generated.RAMaterialCollection.GetMaterialsInteractionCollection) instead. |
-| [`GetMeshedParticlesUpscalingEnabled`](#generated.RAStudy.GetMeshedParticlesUpscalingEnabled)()          | Get the Meshed Particles Upscaling value.                                                                                                                                       |
-| [`GetModuleCollection`](#generated.RAStudy.GetModuleCollection)()                                        | Get the study's Module Collection.                                                                                                                                              |
-| [`GetMotionFrameSource`](#generated.RAStudy.GetMotionFrameSource)()                                      | Get the study's Motion Frame Source.                                                                                                                                            |
-| [`GetParticleCollection`](#generated.RAStudy.GetParticleCollection)()                                    | Get the study's Particle Collection.                                                                                                                                            |
-| [`GetParticleInput`](#generated.RAStudy.GetParticleInput)(input_name)                                    | Get the particle input with the given name.                                                                                                                                     |
-| [`GetParticles`](#generated.RAStudy.GetParticles)()                                                      | Get the process that contains the simulated particles.                                                                                                                          |
-| [`GetPhysics`](#generated.RAStudy.GetPhysics)()                                                          | Get the study's Physics object.                                                                                                                                                 |
-| [`GetPointCloudCollection`](#generated.RAStudy.GetPointCloudCollection)()                                | Get the study's Point Cloud Collection.                                                                                                                                         |
-| [`GetProgress`](#generated.RAStudy.GetProgress)()                                                        | Get the current simulation progress [0.00, 100.00] or None if no simulation is running.                                                                                         |
-| [`GetSimulatorRun`](#generated.RAStudy.GetSimulatorRun)()                                                | Get the PrePost Scripting wrapper for simulation-related parameters.                                                                                                            |
-| [`GetSolver`](#generated.RAStudy.GetSolver)()                                                            | Synonym for [`GetSimulatorRun()`](#generated.RAStudy.GetSimulatorRun).                                                                                                          |
-| [`GetStatus`](#generated.RAStudy.GetStatus)([include_opengl_messages])                                   | Check the current Study status                                                                                                                                                  |
-| [`GetSurfaceFromFilename`](#generated.RAStudy.GetSurfaceFromFilename)(filename)                          | Given a filename finds all imported geometries created from it.                                                                                                                 |
-| [`GetTimeSet`](#generated.RAStudy.GetTimeSet)()                                                          | Get the study's timeset.                                                                                                                                                        |
-| [`GetWallFromFilename`](#generated.RAStudy.GetWallFromFilename)(filename)                                | Given a filename finds all imported geometries created from it.                                                                                                                 |
-| [`HasCalculatedHTC`](#generated.RAStudy.HasCalculatedHTC)()                                              | Checks whether HTC is being calculated.                                                                                                                                         |
-| [`HasResults`](#generated.RAStudy.HasResults)()                                                          | Whether we have results from a previous simulation.                                                                                                                             |
-| [`ImportSurface`](#generated.RAStudy.ImportSurface)(custom_filename[, ...])                              | Import a custom surface file and create one or more corresponding geometries in the study.                                                                                      |
-| [`ImportSystemCouplingWall`](#generated.RAStudy.ImportSystemCouplingWall)(custom_filename[, ...])        | Import a geometry file and create one or more corresponding geometries in the study.                                                                                            |
-| [`ImportWall`](#generated.RAStudy.ImportWall)(custom_filename[, import_scale, ...])                      | Import a geometry file and create one or more corresponding geometries in the study.                                                                                            |
-| [`IsSimulating`](#generated.RAStudy.IsSimulating)()                                                      | Whether we're currently simulating something.                                                                                                                                   |
-| [`RefreshResults`](#generated.RAStudy.RefreshResults)()                                                  | Called to refresh the results we currently have from a simulation.                                                                                                              |
-| [`RemoveMaterialAndRelatedInteractions`](#generated.RAStudy.RemoveMaterialAndRelatedInteractions)(...)   | Deprecated: Use `RemoveSolidMaterialAndRelatedInteractions()` instead.                                                                                                          |
-| [`RemoveSurface`](#generated.RAStudy.RemoveSurface)(filename)                                            | Remove custom surfaces associated with the given filename.                                                                                                                      |
-| [`RemoveWall`](#generated.RAStudy.RemoveWall)(filename)                                                  | Remove walls associated with the given filename.                                                                                                                                |
-| [`ReplaceWallTriangles`](#generated.RAStudy.ReplaceWallTriangles)(new_filename[, ...])                   | Replace the existing triangles of a geometry with new triangles.                                                                                                                |
-| [`SetCollectForcesForFemAnalysis`](#generated.RAStudy.SetCollectForcesForFemAnalysis)(value)             | Enable the Boundary Collision Statistics modules and enable/disable the FEM Forces analysis                                                                                     |
-| [`SetCustomerName`](#generated.RAStudy.SetCustomerName)(customer_name)                                   | Change the study customer's name                                                                                                                                                |
-| [`SetDescription`](#generated.RAStudy.SetDescription)(description)                                       | Change the study description                                                                                                                                                    |
-| [`SetHTCCalculatorEnabled`](#generated.RAStudy.SetHTCCalculatorEnabled)(value)                           | Enable/disable the SPH HTC Calculator module.                                                                                                                                   |
-| [`SetIntraParticleCollisionStatistics`](#generated.RAStudy.SetIntraParticleCollisionStatistics)(value)   | Enable/disable the Intra Particle Collision Statistics Module.                                                                                                                  |
-| [`SetVariable`](#generated.RAStudy.SetVariable)(name, value)                                             | Sets the values the given parametric variable                                                                                                                                   |
-| [`StartSimulation`](#generated.RAStudy.StartSimulation)([skip_summary, ...])                             | Start the simulation.                                                                                                                                                           |
-| [`StopSimulation`](#generated.RAStudy.StopSimulation)()                                                  | Stops a currently running simulation.                                                                                                                                           |
+|--------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`CanResumeSimulation`](#generated.RAStudy.CanResumeSimulation)()                                      | Whether the simulation can be resumed.                                                                                                                                          |
+| [`CreateFeedConveyor`](#generated.RAStudy.CreateFeedConveyor)()                                        | Creates a new feed conveyor and add it to the project.                                                                                                                          |
+| [`CreateOutlet`](#generated.RAStudy.CreateOutlet)(exit_point)                                          | Create an outlet with the given exit point.                                                                                                                                     |
+| [`CreateParticle`](#generated.RAStudy.CreateParticle)()                                                | Create a particle in the study with default values.                                                                                                                             |
+| [`CreateParticleInlet`](#generated.RAStudy.CreateParticleInlet)(entry_point, particle)                 | Create a particle inlet with the given entry_point and particle.                                                                                                                |
+| [`CreateReceivingConveyor`](#generated.RAStudy.CreateReceivingConveyor)()                              | Creates a new receiving conveyor and add it to the project.                                                                                                                     |
+| [`CreateVolumetricInlet`](#generated.RAStudy.CreateVolumetricInlet)([particle, name, ...])             | Creates a volumetric inlet with the given properties.                                                                                                                           |
+| [`DeleteResults`](#generated.RAStudy.DeleteResults)()                                                  | Called to delete any results we currently have from a simulation.                                                                                                               |
+| [`ExtendSimulation`](#generated.RAStudy.ExtendSimulation)([extension_amount, time, ...])               | Extend the simulation: either its duration, the duration of an inlet in the study or the duration of a periodic motion frame.                                                   |
+| [`GetAirFlow`](#generated.RAStudy.GetAirFlow)()                                                        | Get the RAAirFlow object (if applicable).                                                                                                                                       |
+| [`GetCFDCoupling`](#generated.RAStudy.GetCFDCoupling)()                                                | Get the current CFD coupling object.                                                                                                                                            |
+| [`GetCalculations`](#generated.RAStudy.GetCalculations)()                                              | Get the project's Calculations.                                                                                                                                                 |
+| [`GetCollectForcesForFemAnalysis`](#generated.RAStudy.GetCollectForcesForFemAnalysis)()                | Checks wheter the Collision Statistics modules are colecting FEM Forces for analysis                                                                                            |
+| [`GetContactData`](#generated.RAStudy.GetContactData)()                                                | Get the RAContactData object.                                                                                                                                                   |
+| [`GetCustomerName`](#generated.RAStudy.GetCustomerName)()                                              | Get the study customer name.                                                                                                                                                    |
+| [`GetDescription`](#generated.RAStudy.GetDescription)()                                                | Get the study description.                                                                                                                                                      |
+| [`GetDomainSettings`](#generated.RAStudy.GetDomainSettings)()                                          | Get the study's Domain Settings.                                                                                                                                                |
+| [`GetElementCurve`](#generated.RAStudy.GetElementCurve)(element_name, curve_name[, ...])               | Get the curve matching a given element name and curve name.                                                                                                                     |
+| [`GetExportToolkit`](#generated.RAStudy.GetExportToolkit)()                                            | Get a RAExportToolkit object related to this RAStudy.                                                                                                                           |
+| [`GetFEMForcesAnalysisModules`](#generated.RAStudy.GetFEMForcesAnalysisModules)(module_collection)     | Get the name and the FEM Forces property for all available Boundary Collision Statistics modules                                                                                |
+| [`GetGeometry`](#generated.RAStudy.GetGeometry)(geometry_name)                                         | Get the geometry with the given name                                                                                                                                            |
+| [`GetGeometryCollection`](#generated.RAStudy.GetGeometryCollection)()                                  | Get the study's Geometry Collection.                                                                                                                                            |
+| [`GetInletsOutletsCollection`](#generated.RAStudy.GetInletsOutletsCollection)()                        | Get the study's Inlets and Outlets Collection.                                                                                                                                  |
+| [`GetIntraParticleCollisionStatistics`](#generated.RAStudy.GetIntraParticleCollisionStatistics)()      | Get whether the Intra Particle Collision Statistics Module is enabled.                                                                                                          |
+| [`GetJointsData`](#generated.RAStudy.GetJointsData)()                                                  | Get the RAParticleJointsData object.                                                                                                                                            |
+| [`GetMaterialCollection`](#generated.RAStudy.GetMaterialCollection)()                                  | Get the study's Material Collection.                                                                                                                                            |
+| [`GetMaterialsInteractionCollection`](#generated.RAStudy.GetMaterialsInteractionCollection)()          | Deprecated: Use [`RAMaterialCollection.GetMaterialsInteractionCollection()`](RAMaterialCollection.md#generated.RAMaterialCollection.GetMaterialsInteractionCollection) instead. |
+| [`GetMeshedParticlesUpscalingEnabled`](#generated.RAStudy.GetMeshedParticlesUpscalingEnabled)()        | Get the Meshed Particles Upscaling value.                                                                                                                                       |
+| [`GetModuleCollection`](#generated.RAStudy.GetModuleCollection)()                                      | Get the study's Module Collection.                                                                                                                                              |
+| [`GetMotionFrameSource`](#generated.RAStudy.GetMotionFrameSource)()                                    | Get the study's Motion Frame Source.                                                                                                                                            |
+| [`GetParticleCollection`](#generated.RAStudy.GetParticleCollection)()                                  | Get the study's Particle Collection.                                                                                                                                            |
+| [`GetParticleInput`](#generated.RAStudy.GetParticleInput)(input_name)                                  | Get the particle input with the given name.                                                                                                                                     |
+| [`GetParticles`](#generated.RAStudy.GetParticles)()                                                    | Get the process that contains the simulated particles.                                                                                                                          |
+| [`GetPhysics`](#generated.RAStudy.GetPhysics)()                                                        | Get the study's Physics object.                                                                                                                                                 |
+| [`GetPointCloudCollection`](#generated.RAStudy.GetPointCloudCollection)()                              | Get the study's Point Cloud Collection.                                                                                                                                         |
+| [`GetProgress`](#generated.RAStudy.GetProgress)()                                                      | Get the current simulation progress [0.00, 100.00] or None if no simulation is running.                                                                                         |
+| [`GetSimulatorRun`](#generated.RAStudy.GetSimulatorRun)()                                              | Get the PrePost Scripting wrapper for simulation-related parameters.                                                                                                            |
+| [`GetSolver`](#generated.RAStudy.GetSolver)()                                                          | Synonym for [`GetSimulatorRun()`](#generated.RAStudy.GetSimulatorRun).                                                                                                          |
+| [`GetStatus`](#generated.RAStudy.GetStatus)([include_opengl_messages])                                 | Check the current Study status                                                                                                                                                  |
+| [`GetSurfaceFromFilename`](#generated.RAStudy.GetSurfaceFromFilename)(filename)                        | Given a filename finds all imported geometries created from it.                                                                                                                 |
+| [`GetTimeSet`](#generated.RAStudy.GetTimeSet)()                                                        | Get the study's timeset.                                                                                                                                                        |
+| [`GetWallFromFilename`](#generated.RAStudy.GetWallFromFilename)(filename)                              | Given a filename finds all imported geometries created from it.                                                                                                                 |
+| [`HasCalculatedHTC`](#generated.RAStudy.HasCalculatedHTC)()                                            | Checks whether HTC is being calculated.                                                                                                                                         |
+| [`HasResults`](#generated.RAStudy.HasResults)()                                                        | Whether we have results from a previous simulation.                                                                                                                             |
+| [`ImportSurface`](#generated.RAStudy.ImportSurface)(custom_filename[, ...])                            | Import a custom surface file and create one or more corresponding geometries in the study.                                                                                      |
+| [`ImportSystemCouplingWall`](#generated.RAStudy.ImportSystemCouplingWall)(custom_filename[, ...])      | Import a geometry file and create one or more corresponding geometries in the study.                                                                                            |
+| [`ImportWall`](#generated.RAStudy.ImportWall)(custom_filename[, import_scale, ...])                    | Import a geometry file and create one or more corresponding geometries in the study.                                                                                            |
+| [`IsSimulating`](#generated.RAStudy.IsSimulating)()                                                    | Whether we're currently simulating something.                                                                                                                                   |
+| [`RefreshResults`](#generated.RAStudy.RefreshResults)()                                                | Called to refresh the results we currently have from a simulation.                                                                                                              |
+| [`RemoveSurface`](#generated.RAStudy.RemoveSurface)(filename)                                          | Remove custom surfaces associated with the given filename.                                                                                                                      |
+| [`RemoveWall`](#generated.RAStudy.RemoveWall)(filename)                                                | Remove walls associated with the given filename.                                                                                                                                |
+| [`ReplaceWallTriangles`](#generated.RAStudy.ReplaceWallTriangles)(new_filename[, ...])                 | Replace the existing triangles of a geometry with new triangles.                                                                                                                |
+| [`SetCollectForcesForFemAnalysis`](#generated.RAStudy.SetCollectForcesForFemAnalysis)(value)           | Enable the Boundary Collision Statistics modules and enable/disable the FEM Forces analysis                                                                                     |
+| [`SetCustomerName`](#generated.RAStudy.SetCustomerName)(customer_name)                                 | Change the study customer's name                                                                                                                                                |
+| [`SetDescription`](#generated.RAStudy.SetDescription)(description)                                     | Change the study description                                                                                                                                                    |
+| [`SetHTCCalculatorEnabled`](#generated.RAStudy.SetHTCCalculatorEnabled)(value)                         | Enable/disable the SPH HTC Calculator module.                                                                                                                                   |
+| [`SetIntraParticleCollisionStatistics`](#generated.RAStudy.SetIntraParticleCollisionStatistics)(value) | Enable/disable the Intra Particle Collision Statistics Module.                                                                                                                  |
+| [`SetVariable`](#generated.RAStudy.SetVariable)(name, value)                                           | Sets the values the given parametric variable                                                                                                                                   |
+| [`StartSimulation`](#generated.RAStudy.StartSimulation)([skip_summary, ...])                           | Start the simulation.                                                                                                                                                           |
+| [`StopSimulation`](#generated.RAStudy.StopSimulation)()                                                | Stops a currently running simulation.                                                                                                                                           |
 
 **Attributes:**
 
@@ -117,33 +112,11 @@ various common actions related to simulations:
 
 Whether the simulation can be resumed.
 
-<a id="generated.RAStudy.CreateContinuousInjection"></a>
-
-#### CreateContinuousInjection(entry_point: RAFeedConveyor | RAInletGeometry, particle: RAParticle)
-
-Create a particle input with the given entry_point and particle.
-
-* **Parameters:**
-  * **entry_point** – The input’s entry point - either a FeedConveyor or an Inlet.
-  * **particle** – The particle that will enter through this input.
-
 <a id="generated.RAStudy.CreateFeedConveyor"></a>
 
 #### CreateFeedConveyor()
 
 Creates a new feed conveyor and add it to the project.
-
-<a id="generated.RAStudy.CreateInlet"></a>
-
-#### CreateInlet()
-
-Create a new inlet and add it to the project.
-
-<a id="generated.RAStudy.CreateMaterialAndRelatedInteractions"></a>
-
-#### CreateMaterialAndRelatedInteractions(material_name: str | None = None)
-
-Deprecated: Use `CreateSolidMaterialAndRelatedInteractions()` instead.
 
 <a id="generated.RAStudy.CreateOutlet"></a>
 
@@ -162,7 +135,7 @@ Create a particle in the study with default values.
 
 <a id="generated.RAStudy.CreateParticleInlet"></a>
 
-#### CreateParticleInlet(entry_point: RAFeedConveyor | RAInletGeometry | RASurface, particle: RAParticle)
+#### CreateParticleInlet(entry_point: RAFeedConveyor | RAInletGeometry | RARectangularSurface | RACircularSurface | RASurface, particle: RAParticle)
 
 Create a particle inlet with the given entry_point and particle.
 
@@ -176,25 +149,9 @@ Create a particle inlet with the given entry_point and particle.
 
 Creates a new receiving conveyor and add it to the project.
 
-<a id="generated.RAStudy.CreateVolumeFill"></a>
-
-#### CreateVolumeFill(particle: RAParticle | None = None, name: str | None = None, mass: float = 100.0, seed_coordinates: tuple[float, float, float] | None = None, geometries: list[str | RAWall] | None = None, use_geometries_to_compute: bool = False, box_center: tuple[float, float, float] | None = None, box_dimensions: tuple[float, float, float] | None = None)
-
-Creates a volume fill with the given properties.
-
-* **Parameters:**
-  * **name** – The name which will be used for the volume fill.
-  * **seed_coordinates** – A point (x, y, z) in meters that will be the reference to start the filling process.
-  * **geometries** – A list of names or RAWall selected in RAVolumetricInlet. The names or RAWall list must match the
-    existent geometries.
-  * **use_geometries_to_compute** – If true: the limits of the filling process will be the selected boundaries.
-    If false: a cube must be defined to be the limits of the filling process.
-  * **box_center** – A point (x, y, z) that will be the center of the limit cube.
-  * **dimensions** – The dimensions (length, width, height) of the limit cube.
-
 <a id="generated.RAStudy.CreateVolumetricInlet"></a>
 
-#### CreateVolumetricInlet(particle: RAParticle | None = None, name: str | None = None, mass: float = 100.0, seed_coordinates: tuple[float, float, float] | None = None, geometries: list[str | RAWall] | None = None, use_geometries_to_compute: bool = False, box_center: tuple[float, float, float] | None = None, box_dimensions: tuple[float, float, float] | None = None)
+#### CreateVolumetricInlet(particle: RAParticle | None = None, name: str | None = None, mass: float = 100.0, seed_coordinates: tuple[float, float, float] | None = None, geometries: list[str | RAWall] | None = None, use_geometries_to_compute: bool = False, box_center: tuple[float, float, float] | None = None, box_dimensions: tuple[float, float, float] | None = None, use_box_center_as_seed_point=False)
 
 Creates a volumetric inlet with the given properties.
 
@@ -208,6 +165,7 @@ Creates a volumetric inlet with the given properties.
   * **box_center** – A point (x, y, z) that will be the center of the limit cube.
   * **dimensions** – The dimensions (length, width, height) of the limit cube.
   * **box_dimensions** – The dimensions (lenght, width, height) of the limit cube.
+  * **use_box_center_as_seed_point** – If true, the seed point will be set to the box center.
 
 <a id="generated.RAStudy.DeleteResults"></a>
 
@@ -551,12 +509,6 @@ Whether we’re currently simulating something.
 
 Called to refresh the results we currently have from a simulation.
 
-<a id="generated.RAStudy.RemoveMaterialAndRelatedInteractions"></a>
-
-#### RemoveMaterialAndRelatedInteractions(material_or_name: RASolidMaterial | str)
-
-Deprecated: Use `RemoveSolidMaterialAndRelatedInteractions()` instead.
-
 <a id="generated.RAStudy.RemoveSurface"></a>
 
 #### RemoveSurface(filename: str)
@@ -662,8 +614,7 @@ DeleteResults() first.
     presented to the user (True).
   * **delete_results** (*bool*) – True if the simulation results should be deleted, False otherwise.
     If there are no simulation results, this flag is ignored
-  * **non_blocking** (*bool*) – If True, start the simulation asynchronously. If not on batch mode, it will prevent
-    the UI to show the global progress bar.
+  * **non_blocking** (*bool*) – If True, start the simulation asynchronously. Only works in headless mode (raises an error if otherwise).
 
 :return bool
 : Returns True if the simulation has started successfully, False otherwise.

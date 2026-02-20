@@ -25,8 +25,9 @@ time_series_rotation = motion_1.GetTypeObject()
 
 **Methods:**
 
-| [`ImportTimeSeriesMotion`](#generated.RATimeSeriesRotation.ImportTimeSeriesMotion)(file_path)   | Generate the Time Series Motion Frame described on the contents of the file.   |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| [`ImportTimeSeriesMotion`](#generated.RATimeSeriesRotation.ImportTimeSeriesMotion)(file_path)   | Generate the Time Series Motion Frame described on the contents of the file.   |
 
 <a id="generated.RATimeSeriesRotation.ImportTimeSeriesMotion"></a>
 

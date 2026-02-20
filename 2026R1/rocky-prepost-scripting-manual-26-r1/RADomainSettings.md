@@ -23,41 +23,39 @@ domain_settings = study.GetDomainSettings()
 **Methods:**
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| [`DisablePeriodicAtGeometryLimits`](#generated.RADomainSettings.DisablePeriodicAtGeometryLimits)()                         | Set the value of "Periodic At Geometry Limits" to False.                 |
-| [`DisableUseBoundaryLimits`](#generated.RADomainSettings.DisableUseBoundaryLimits)()                                       | Set the value of "Use Boundary Limits" to False.                         |
-| [`EnablePeriodicAtGeometryLimits`](#generated.RADomainSettings.EnablePeriodicAtGeometryLimits)()                           | Set the value of "Periodic At Geometry Limits" to True.                  |
-| [`EnableUseBoundaryLimits`](#generated.RADomainSettings.EnableUseBoundaryLimits)()                                         | Set the value of "Use Boundary Limits" to True.                          |
-| [`GetBoundariesDirections`](#generated.RADomainSettings.GetBoundariesDirections)()                                         | Deprecated: use GetCartesianPeriodicDirections() instead.                |
-| [`GetCartesianPeriodicDirections`](#generated.RADomainSettings.GetCartesianPeriodicDirections)()                           | Get "Cartesian Periodic Directions" as a string.                         |
-| [`GetCoordinateLimitsMaxValues`](#generated.RADomainSettings.GetCoordinateLimitsMaxValues)([unit])                         | Get the value of "Coordinate Limits Max Values".                         |
-| [`GetCoordinateLimitsMinValues`](#generated.RADomainSettings.GetCoordinateLimitsMinValues)([unit])                         | Get the value of "Coordinate Limits Min Values".                         |
-| [`GetCylindricalPeriodicDirections`](#generated.RADomainSettings.GetCylindricalPeriodicDirections)()                       | Get "Cylindrical Periodic Directions" as a string.                       |
-| [`GetDomainType`](#generated.RADomainSettings.GetDomainType)()                                                             | Get "Domain Type" as a string.                                           |
-| [`GetInitialAngle`](#generated.RADomainSettings.GetInitialAngle)([unit])                                                   | Get the value of "Initial Angle".                                        |
-| [`GetNumberOfDivisions`](#generated.RADomainSettings.GetNumberOfDivisions)()                                               | Get the value of "Number of Divisions".                                  |
-| [`GetPeriodicAtGeometryLimits`](#generated.RADomainSettings.GetPeriodicAtGeometryLimits)()                                 | Get the value of "Periodic At Geometry Limits".                          |
-| [`GetPeriodicLimitsMaxCoordinates`](#generated.RADomainSettings.GetPeriodicLimitsMaxCoordinates)([unit])                   | Get the value of "Periodic Limits Max Coordinates".                      |
-| [`GetPeriodicLimitsMinCoordinates`](#generated.RADomainSettings.GetPeriodicLimitsMinCoordinates)([unit])                   | Get the value of "Periodic Limits Min Coordinates".                      |
-| [`GetUseBoundaryLimits`](#generated.RADomainSettings.GetUseBoundaryLimits)()                                               | Get the value of "Use Boundary Limits".                                  |
-| [`GetValidBoundariesDirectionsValues`](#generated.RADomainSettings.GetValidBoundariesDirectionsValues)()                   | Deprecated: use GetValidPeriodicDirectionsValues() instead.              |
-| [`GetValidCartesianPeriodicDirectionsValues`](#generated.RADomainSettings.GetValidCartesianPeriodicDirectionsValues)()     | Get a list of all possible values for "Cartesian Periodic Directions".   |
-| [`GetValidCylindricalPeriodicDirectionsValues`](#generated.RADomainSettings.GetValidCylindricalPeriodicDirectionsValues)() | Get a list of all possible values for "Cylindrical Periodic Directions". |
-| [`GetValidDomainTypeValues`](#generated.RADomainSettings.GetValidDomainTypeValues)()                                       | Get a list of all possible values for "Domain Type".                     |
-| [`IsPeriodicAtGeometryLimitsEnabled`](#generated.RADomainSettings.IsPeriodicAtGeometryLimitsEnabled)()                     | Check if the "Periodic At Geometry Limits" is enabled.                   |
-| [`IsUseBoundaryLimitsEnabled`](#generated.RADomainSettings.IsUseBoundaryLimitsEnabled)()                                   | Check if the "Use Boundary Limits" is enabled.                           |
-| [`SetBoundariesDirections`](#generated.RADomainSettings.SetBoundariesDirections)(value)                                    | Deprecated: use SetCartesianPeriodicDirections(value) instead.           |
-| [`SetCartesianPeriodicDirections`](#generated.RADomainSettings.SetCartesianPeriodicDirections)(value)                      | Set the value of "Cartesian Periodic Directions".                        |
-| [`SetCoordinateLimitsMaxValues`](#generated.RADomainSettings.SetCoordinateLimitsMaxValues)(values[, unit])                 | Set the values of "Coordinate Limits Max Values".                        |
-| [`SetCoordinateLimitsMinValues`](#generated.RADomainSettings.SetCoordinateLimitsMinValues)(values[, unit])                 | Set the values of "Coordinate Limits Min Values".                        |
-| [`SetCylindricalPeriodicDirections`](#generated.RADomainSettings.SetCylindricalPeriodicDirections)(value)                  | Set the value of "Cylindrical Periodic Directions".                      |
-| [`SetDomainType`](#generated.RADomainSettings.SetDomainType)(value)                                                        | Set the value of "Domain Type".                                          |
-| [`SetInitialAngle`](#generated.RADomainSettings.SetInitialAngle)(value[, unit])                                            | Set the value of "Initial Angle".                                        |
-| [`SetNumberOfDivisions`](#generated.RADomainSettings.SetNumberOfDivisions)(value)                                          | Set the value of "Number of Divisions".                                  |
-| [`SetPeriodicAtGeometryLimits`](#generated.RADomainSettings.SetPeriodicAtGeometryLimits)(value)                            | Set the value of "Periodic At Geometry Limits".                          |
-| [`SetPeriodicLimitsMaxCoordinates`](#generated.RADomainSettings.SetPeriodicLimitsMaxCoordinates)(values[, unit])           | Set the values of "Periodic Limits Max Coordinates".                     |
-| [`SetPeriodicLimitsMinCoordinates`](#generated.RADomainSettings.SetPeriodicLimitsMinCoordinates)(values[, unit])           | Set the values of "Periodic Limits Min Coordinates".                     |
-| [`SetUseBoundaryLimits`](#generated.RADomainSettings.SetUseBoundaryLimits)(value)                                          | Set the value of "Use Boundary Limits".                                  |
+|----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| [`DisablePeriodicAtGeometryLimits`](#generated.RADomainSettings.DisablePeriodicAtGeometryLimits)()                         | Set the value of "Periodic At Geometry Limits" to False.                        |
+| [`DisableUseBoundaryLimits`](#generated.RADomainSettings.DisableUseBoundaryLimits)()                                       | Set the value of "Use Boundary Limits" to False.                                |
+| [`EnablePeriodicAtGeometryLimits`](#generated.RADomainSettings.EnablePeriodicAtGeometryLimits)()                           | Set the value of "Periodic At Geometry Limits" to True.                         |
+| [`EnableUseBoundaryLimits`](#generated.RADomainSettings.EnableUseBoundaryLimits)()                                         | Set the value of "Use Boundary Limits" to True.                                 |
+| [`GetCartesianPeriodicDirections`](#generated.RADomainSettings.GetCartesianPeriodicDirections)()                           | Get "Cartesian Periodic Directions" as a string.                                |
+| [`GetCoordinateLimitsMaxValues`](#generated.RADomainSettings.GetCoordinateLimitsMaxValues)([unit])                         | Get the value of "Coordinate Limits Max Values".                                |
+| [`GetCoordinateLimitsMinValues`](#generated.RADomainSettings.GetCoordinateLimitsMinValues)([unit])                         | Get the value of "Coordinate Limits Min Values".                                |
+| [`GetCylindricalPeriodicDirections`](#generated.RADomainSettings.GetCylindricalPeriodicDirections)()                       | Get "Cylindrical Periodic Directions" as a string.                              |
+| [`GetDomainType`](#generated.RADomainSettings.GetDomainType)()                                                             | Get "Domain Type" as a string.                                                  |
+| [`GetInitialAngle`](#generated.RADomainSettings.GetInitialAngle)([unit])                                                   | Get the value of "Initial Angle".                                               |
+| [`GetNumberOfDivisions`](#generated.RADomainSettings.GetNumberOfDivisions)()                                               | Get the value of "Number of Divisions".                                         |
+| [`GetPeriodicAtGeometryLimits`](#generated.RADomainSettings.GetPeriodicAtGeometryLimits)()                                 | Get the value of "Periodic At Geometry Limits".                                 |
+| [`GetPeriodicLimitsMaxCoordinates`](#generated.RADomainSettings.GetPeriodicLimitsMaxCoordinates)([unit])                   | Get the value of "Periodic Limits Max Coordinates".                             |
+| [`GetPeriodicLimitsMinCoordinates`](#generated.RADomainSettings.GetPeriodicLimitsMinCoordinates)([unit])                   | Get the value of "Periodic Limits Min Coordinates".                             |
+| [`GetUseBoundaryLimits`](#generated.RADomainSettings.GetUseBoundaryLimits)()                                               | Get the value of "Use Boundary Limits".                                         |
+| [`GetValidCartesianPeriodicDirectionsValues`](#generated.RADomainSettings.GetValidCartesianPeriodicDirectionsValues)()     | Get a list of all possible values for "Cartesian Periodic Directions".          |
+| [`GetValidCylindricalPeriodicDirectionsValues`](#generated.RADomainSettings.GetValidCylindricalPeriodicDirectionsValues)() | Get a list of all possible values for "Cylindrical Periodic Directions".        |
+| [`GetValidDomainTypeValues`](#generated.RADomainSettings.GetValidDomainTypeValues)()                                       | Get a list of all possible values for "Domain Type".                            |
+| [`IsPeriodicAtGeometryLimitsEnabled`](#generated.RADomainSettings.IsPeriodicAtGeometryLimitsEnabled)()                     | Check if the "Periodic At Geometry Limits" is enabled.                          |
+| [`IsUseBoundaryLimitsEnabled`](#generated.RADomainSettings.IsUseBoundaryLimitsEnabled)()                                   | Check if the "Use Boundary Limits" is enabled.                                  |
+| [`ResetDomainToGeometriesLimits`](#generated.RADomainSettings.ResetDomainToGeometriesLimits)()                             | Reset the domain settings coordinate limits based on the geometry bounding box. |
+| [`SetCartesianPeriodicDirections`](#generated.RADomainSettings.SetCartesianPeriodicDirections)(value)                      | Set the value of "Cartesian Periodic Directions".                               |
+| [`SetCoordinateLimitsMaxValues`](#generated.RADomainSettings.SetCoordinateLimitsMaxValues)(values[, unit])                 | Set the values of "Coordinate Limits Max Values".                               |
+| [`SetCoordinateLimitsMinValues`](#generated.RADomainSettings.SetCoordinateLimitsMinValues)(values[, unit])                 | Set the values of "Coordinate Limits Min Values".                               |
+| [`SetCylindricalPeriodicDirections`](#generated.RADomainSettings.SetCylindricalPeriodicDirections)(value)                  | Set the value of "Cylindrical Periodic Directions".                             |
+| [`SetDomainType`](#generated.RADomainSettings.SetDomainType)(value)                                                        | Set the value of "Domain Type".                                                 |
+| [`SetInitialAngle`](#generated.RADomainSettings.SetInitialAngle)(value[, unit])                                            | Set the value of "Initial Angle".                                               |
+| [`SetNumberOfDivisions`](#generated.RADomainSettings.SetNumberOfDivisions)(value)                                          | Set the value of "Number of Divisions".                                         |
+| [`SetPeriodicAtGeometryLimits`](#generated.RADomainSettings.SetPeriodicAtGeometryLimits)(value)                            | Set the value of "Periodic At Geometry Limits".                                 |
+| [`SetPeriodicLimitsMaxCoordinates`](#generated.RADomainSettings.SetPeriodicLimitsMaxCoordinates)(values[, unit])           | Set the values of "Periodic Limits Max Coordinates".                            |
+| [`SetPeriodicLimitsMinCoordinates`](#generated.RADomainSettings.SetPeriodicLimitsMinCoordinates)(values[, unit])           | Set the values of "Periodic Limits Min Coordinates".                            |
+| [`SetUseBoundaryLimits`](#generated.RADomainSettings.SetUseBoundaryLimits)(value)                                          | Set the value of "Use Boundary Limits".                                         |
 
 <a id="generated.RADomainSettings.DisablePeriodicAtGeometryLimits"></a>
 
@@ -82,12 +80,6 @@ Set the value of “Periodic At Geometry Limits” to True.
 #### EnableUseBoundaryLimits()
 
 Set the value of “Use Boundary Limits” to True.
-
-<a id="generated.RADomainSettings.GetBoundariesDirections"></a>
-
-#### GetBoundariesDirections()
-
-Deprecated: use GetCartesianPeriodicDirections() instead.
 
 <a id="generated.RADomainSettings.GetCartesianPeriodicDirections"></a>
 
@@ -179,12 +171,6 @@ Get the value of “Periodic Limits Min Coordinates”.
 
 Get the value of “Use Boundary Limits”.
 
-<a id="generated.RADomainSettings.GetValidBoundariesDirectionsValues"></a>
-
-#### GetValidBoundariesDirectionsValues()
-
-Deprecated: use GetValidPeriodicDirectionsValues() instead.
-
 <a id="generated.RADomainSettings.GetValidCartesianPeriodicDirectionsValues"></a>
 
 #### GetValidCartesianPeriodicDirectionsValues()
@@ -224,11 +210,11 @@ Check if the “Periodic At Geometry Limits” is enabled.
 
 Check if the “Use Boundary Limits” is enabled.
 
-<a id="generated.RADomainSettings.SetBoundariesDirections"></a>
+<a id="generated.RADomainSettings.ResetDomainToGeometriesLimits"></a>
 
-#### SetBoundariesDirections(value)
+#### ResetDomainToGeometriesLimits()
 
-Deprecated: use SetCartesianPeriodicDirections(value) instead.
+Reset the domain settings coordinate limits based on the geometry bounding box.
 
 <a id="generated.RADomainSettings.SetCartesianPeriodicDirections"></a>
 

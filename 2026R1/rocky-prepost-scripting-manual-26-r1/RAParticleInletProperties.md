@@ -25,20 +25,18 @@ input_properties_1.SetMassFlowRate(100, 't/h')
 **Methods:**
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| [`GetAvailableParticles`](#generated.RAParticleInletProperties.GetAvailableParticles)()                                    | Get all available Particles.                                                                         |
-| [`GetMassFlowRate`](#generated.RAParticleInletProperties.GetMassFlowRate)([unit])                                          | Get the value of "Mass Flow Rate".                                                                   |
-| [`GetModuleProperties`](#generated.RAParticleInletProperties.GetModuleProperties)()                                        | Get the names of the module properties.                                                              |
-| [`GetModuleProperty`](#generated.RAParticleInletProperties.GetModuleProperty)(property_name[, unit])                       | Get the value of a module property.                                                                  |
-| [`GetParticle`](#generated.RAParticleInletProperties.GetParticle)()                                                        | Get the "Particle".                                                                                  |
-| [`GetTemperature`](#generated.RAParticleInletProperties.GetTemperature)([unit])                                            | Get the value of "Temperature".                                                                      |
-| [`GetTonnage`](#generated.RAParticleInletProperties.GetTonnage)([unit])                                                    | Deprecated: Use [`GetMassFlowRate()`](#generated.RAParticleInletProperties.GetMassFlowRate) instead. |
-| [`GetValidOptionsForModuleProperty`](#generated.RAParticleInletProperties.GetValidOptionsForModuleProperty)(property_name) | Get all valid options only for properties that have a list of possible options.                      |
-| [`SetMassFlowRate`](#generated.RAParticleInletProperties.SetMassFlowRate)(value[, unit])                                   | Set the value of "Mass Flow Rate".                                                                   |
-| [`SetModuleProperty`](#generated.RAParticleInletProperties.SetModuleProperty)(property_name, value[, unit])                | Set the value of a module property.                                                                  |
-| [`SetParticle`](#generated.RAParticleInletProperties.SetParticle)(value)                                                   | Set the "Particle".                                                                                  |
-| [`SetTemperature`](#generated.RAParticleInletProperties.SetTemperature)(value[, unit])                                     | Set the value of "Temperature".                                                                      |
-| [`SetTonnage`](#generated.RAParticleInletProperties.SetTonnage)(value[, unit])                                             | Deprecated: Use [`SetMassFlowRate()`](#generated.RAParticleInletProperties.SetMassFlowRate) instead. |
+|----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| [`GetAvailableParticles`](#generated.RAParticleInletProperties.GetAvailableParticles)()                                    | Get all available Particles.                                                    |
+| [`GetMassFlowRate`](#generated.RAParticleInletProperties.GetMassFlowRate)([unit])                                          | Get the value of "Mass Flow Rate".                                              |
+| [`GetModuleProperties`](#generated.RAParticleInletProperties.GetModuleProperties)()                                        | Get the names of the module properties.                                         |
+| [`GetModuleProperty`](#generated.RAParticleInletProperties.GetModuleProperty)(property_name[, unit])                       | Get the value of a module property.                                             |
+| [`GetParticle`](#generated.RAParticleInletProperties.GetParticle)()                                                        | Get the "Particle".                                                             |
+| [`GetTemperature`](#generated.RAParticleInletProperties.GetTemperature)([unit])                                            | Get the value of "Temperature".                                                 |
+| [`GetValidOptionsForModuleProperty`](#generated.RAParticleInletProperties.GetValidOptionsForModuleProperty)(property_name) | Get all valid options only for properties that have a list of possible options. |
+| [`SetMassFlowRate`](#generated.RAParticleInletProperties.SetMassFlowRate)(value[, unit])                                   | Set the value of "Mass Flow Rate".                                              |
+| [`SetModuleProperty`](#generated.RAParticleInletProperties.SetModuleProperty)(property_name, value[, unit])                | Set the value of a module property.                                             |
+| [`SetParticle`](#generated.RAParticleInletProperties.SetParticle)(value)                                                   | Set the "Particle".                                                             |
+| [`SetTemperature`](#generated.RAParticleInletProperties.SetTemperature)(value[, unit])                                     | Set the value of "Temperature".                                                 |
 
 <a id="generated.RAParticleInletProperties.GetAvailableParticles"></a>
 
@@ -105,15 +103,6 @@ Get the value of “Temperature”.
 * **Parameters:**
   **unit** – The unit for the returned value. If no unit is provided, the returned value will be in “K”.
 
-<a id="generated.RAParticleInletProperties.GetTonnage"></a>
-
-#### GetTonnage(unit: str | None = None)
-
-Deprecated: Use [`GetMassFlowRate()`](#generated.RAParticleInletProperties.GetMassFlowRate) instead.
-
-* **Parameters:**
-  **unit** – The unit for the returned value. If no unit is provided, the returned value will be in “t/h”.
-
 <a id="generated.RAParticleInletProperties.GetValidOptionsForModuleProperty"></a>
 
 #### GetValidOptionsForModuleProperty(property_name)
@@ -166,13 +155,3 @@ Set the value of “Temperature”.
 * **Parameters:**
   * **value** – The value to set. This value can be an expression with input variables or float type.
   * **unit** – The unit for value. If no unit is provided, value is assumed to be in “K”.
-
-<a id="generated.RAParticleInletProperties.SetTonnage"></a>
-
-#### SetTonnage(value: float, unit: str | None = None)
-
-Deprecated: Use [`SetMassFlowRate()`](#generated.RAParticleInletProperties.SetMassFlowRate) instead.
-
-* **Parameters:**
-  * **value** – The value to set.
-  * **unit** – The unit for value. If no unit is provided, value is assumed to be in “t/h”.

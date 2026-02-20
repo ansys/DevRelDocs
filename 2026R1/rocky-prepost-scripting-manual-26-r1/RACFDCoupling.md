@@ -24,29 +24,16 @@ two_way_process = cfd_coupling.GetCouplingProcess()
 **Methods:**
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
-| [`GetAirFlow`](#generated.RACFDCoupling.GetAirFlow)()                                                       | Deprecated: Use GetOneWayLBM instead.                       |
-| [`GetCouplingMode`](#generated.RACFDCoupling.GetCouplingMode)()                                             |                                                             |
-| [`GetCouplingProcess`](#generated.RACFDCoupling.GetCouplingProcess)()                                       |                                                             |
-| [`GetOneWayLBM`](#generated.RACFDCoupling.GetOneWayLBM)()                                                   | Get the PrePost Scripting wrapper for 1-Way LBM properties. |
-| [`SetupAirFlow`](#generated.RACFDCoupling.SetupAirFlow)()                                                   | Deprecated: Use SetupOneWayLBM instead.                     |
-| [`SetupCFDConstantOneWayCouplingProcess`](#generated.RACFDCoupling.SetupCFDConstantOneWayCouplingProcess)() | Deprecated: Use SetupOneWayConstant instead.                |
-| [`SetupConstantOneWay`](#generated.RACFDCoupling.SetupConstantOneWay)()                                     | Deprecated: Use SetupOneWayConstant instead.                |
-| [`SetupFluentOneWaySteadyState`](#generated.RACFDCoupling.SetupFluentOneWaySteadyState)(f2r_filename)       | Deprecated: Use SetupOneWayFluent instead.                  |
-| [`SetupFluentTwoWay`](#generated.RACFDCoupling.SetupFluentTwoWay)(cas_filename)                             | Deprecated: Use SetupTwoWayFluent instead.                  |
-| [`SetupFluentTwoWaySemiResolved`](#generated.RACFDCoupling.SetupFluentTwoWaySemiResolved)(cas_filename)     | Configure the project to use Fluent Two-Way Semi Resolved.  |
-| [`SetupNoCoupling`](#generated.RACFDCoupling.SetupNoCoupling)()                                             | Configure the project to use no CFD coupling.               |
-| [`SetupOneWayConstant`](#generated.RACFDCoupling.SetupOneWayConstant)()                                     | Configure the project to use 1-Way Constant.                |
-| [`SetupOneWayFluent`](#generated.RACFDCoupling.SetupOneWayFluent)(f2r_filename)                             | Configure the project to use 1-Way Fluent.                  |
-| [`SetupOneWayFluentSteadyState`](#generated.RACFDCoupling.SetupOneWayFluentSteadyState)(f2r_filename)       | Deprecated: Use SetupOneWayFluent instead.                  |
-| [`SetupOneWayLBM`](#generated.RACFDCoupling.SetupOneWayLBM)()                                               | Configure the project to use 1-Way LBM.                     |
-| [`SetupTwoWayFluent`](#generated.RACFDCoupling.SetupTwoWayFluent)(cas_filename)                             | Configure the project to use 2-Way Fluent.                  |
-
-<a id="generated.RACFDCoupling.GetAirFlow"></a>
-
-#### GetAirFlow()
-
-Deprecated: Use GetOneWayLBM instead.
+|---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| [`GetCouplingMode`](#generated.RACFDCoupling.GetCouplingMode)()                                         |                                                             |
+| [`GetCouplingProcess`](#generated.RACFDCoupling.GetCouplingProcess)()                                   |                                                             |
+| [`GetOneWayLBM`](#generated.RACFDCoupling.GetOneWayLBM)()                                               | Get the PrePost Scripting wrapper for 1-Way LBM properties. |
+| [`SetupFluentTwoWaySemiResolved`](#generated.RACFDCoupling.SetupFluentTwoWaySemiResolved)(cas_filename) | Configure the project to use Fluent Two-Way Semi Resolved.  |
+| [`SetupNoCoupling`](#generated.RACFDCoupling.SetupNoCoupling)()                                         | Configure the project to use no CFD coupling.               |
+| [`SetupOneWayConstant`](#generated.RACFDCoupling.SetupOneWayConstant)()                                 | Configure the project to use 1-Way Constant.                |
+| [`SetupOneWayFluent`](#generated.RACFDCoupling.SetupOneWayFluent)(f2r_filename)                         | Configure the project to use 1-Way Fluent.                  |
+| [`SetupOneWayLBM`](#generated.RACFDCoupling.SetupOneWayLBM)()                                           | Configure the project to use 1-Way LBM.                     |
+| [`SetupTwoWayFluent`](#generated.RACFDCoupling.SetupTwoWayFluent)(cas_filename)                         | Configure the project to use 2-Way Fluent.                  |
 
 <a id="generated.RACFDCoupling.GetCouplingMode"></a>
 
@@ -74,36 +61,6 @@ Returns None if the current CFD coupling mode isn’t Air Flow.
 
 * **Return type:**
   [RAAirFlow](RAAirFlow.md#generated.RAAirFlow)
-
-<a id="generated.RACFDCoupling.SetupAirFlow"></a>
-
-#### SetupAirFlow()
-
-Deprecated: Use SetupOneWayLBM instead.
-
-<a id="generated.RACFDCoupling.SetupCFDConstantOneWayCouplingProcess"></a>
-
-#### SetupCFDConstantOneWayCouplingProcess()
-
-Deprecated: Use SetupOneWayConstant instead.
-
-<a id="generated.RACFDCoupling.SetupConstantOneWay"></a>
-
-#### SetupConstantOneWay()
-
-Deprecated: Use SetupOneWayConstant instead.
-
-<a id="generated.RACFDCoupling.SetupFluentOneWaySteadyState"></a>
-
-#### SetupFluentOneWaySteadyState(f2r_filename: str)
-
-Deprecated: Use SetupOneWayFluent instead.
-
-<a id="generated.RACFDCoupling.SetupFluentTwoWay"></a>
-
-#### SetupFluentTwoWay(cas_filename: str)
-
-Deprecated: Use SetupTwoWayFluent instead.
 
 <a id="generated.RACFDCoupling.SetupFluentTwoWaySemiResolved"></a>
 
@@ -135,12 +92,6 @@ Configure the project to use 1-Way Fluent.
 * **Parameters:**
   **f2r_filename** – str
   The exported file name describing the Fluent simulation
-
-<a id="generated.RACFDCoupling.SetupOneWayFluentSteadyState"></a>
-
-#### SetupOneWayFluentSteadyState(f2r_filename: str)
-
-Deprecated: Use SetupOneWayFluent instead.
 
 <a id="generated.RACFDCoupling.SetupOneWayLBM"></a>
 

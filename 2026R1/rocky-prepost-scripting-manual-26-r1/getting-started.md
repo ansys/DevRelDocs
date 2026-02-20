@@ -44,9 +44,9 @@ inter_1.SetAdhesiveDistance(10, 'cm')
 Create and configure custom geometries and surfaces:
 
 ```python
-custom = study.ImportCustomGeometries('my_geometry.stl')[0]
+custom = study.ImportWall('my_geometry.stl')[0]
 custom.SetBoundaryMass(100, 'kg')
-custom.SetVerticalOffset(-10, 'cm')
+custom.SetTranslation([0.0, -10, 0.0], 'cm')
 custom.SetMaterial('My Material')
 
 surface = study.CreateCircularSurface()
@@ -66,7 +66,7 @@ particle.SetNumberOfCorners(14)
 particle.SetName('My Particle')
 particle.SetBreakageModel('ab_t10')
 
-inlets = study.GetParticleInputCollection()
+inlets = study.GetInletsOutletsCollection()
 inlet_1 = inlets.AddParticleInlet()
 inlet_1.SetName('My Particle Inlet')
 inlet_1.SetEntryPoint('My Surface')
@@ -85,7 +85,7 @@ domain_settings = study.GetDomainSettings()
 domain_settings.SetUseBoundaryLimits(False)
 domain_settings.SetCoordinateLimitsMinValues([-2, -2, -2], 'm')
 domain_settings.SetCoordinateLimitsMaxValues([2, 2, 2], 'm')
-domain_settings.SetBoundariesDirections('XYZ')
+domain_settings.SetCartesianPeriodicDirections('XYZ')
 domain_settings.SetPeriodicAtGeometryLimits(True)
 ```
 

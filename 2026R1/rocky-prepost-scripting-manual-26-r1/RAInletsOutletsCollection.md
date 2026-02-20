@@ -17,7 +17,7 @@ This wrapper corresponds to the “Inputs” item in the project’s data tree. 
 [`RAInletsOutletsCollection`](#generated.RAInletsOutletsCollection) from a [`RAStudy`](RAStudy.md#generated.RAStudy), use:
 
 ```python
-input_collection = study.GetParticleInputCollection()
+input_collection = study.GetInletsOutletsCollection()
 ```
 
 Instances of the [`RAInletsOutletsCollection`](#generated.RAInletsOutletsCollection) class act as regular Python lists, and can be
@@ -36,24 +36,17 @@ Items in this list are of type [`RAParticleInlet`](RAParticleInlet.md#generated.
 **Methods:**
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------|---------------------------------------------|
-| [`AddContinuousInjection`](#generated.RAInletsOutletsCollection.AddContinuousInjection)()   | Add a new ContinuousInjection.              |
-| [`AddCustomInput`](#generated.RAInletsOutletsCollection.AddCustomInput)()                   | Add a new CustomInput.                      |
-| [`AddFluidInlet`](#generated.RAInletsOutletsCollection.AddFluidInlet)()                     | Add a new SPHInlet.                         |
-| [`AddOutlet`](#generated.RAInletsOutletsCollection.AddOutlet)()                             | Add a new Outlet.                           |
-| [`AddParticleInlet`](#generated.RAInletsOutletsCollection.AddParticleInlet)()               | Add a new ParticleInlet.                    |
-| [`AddVolumetricInlet`](#generated.RAInletsOutletsCollection.AddVolumetricInlet)()           | Add a new VolumeFill.                       |
-| [`Clear`](#generated.RAInletsOutletsCollection.Clear)()                                     | Remove all items from the list.             |
-| [`GetParticleInput`](#generated.RAInletsOutletsCollection.GetParticleInput)(input_name)     | Get the particle input with the given name. |
-| [`GetParticleInputNames`](#generated.RAInletsOutletsCollection.GetParticleInputNames)()     | Get the names of all particle inputs.       |
-| [`New`](#generated.RAInletsOutletsCollection.New)()                                         | Add a new item.                             |
-| [`Remove`](#generated.RAInletsOutletsCollection.Remove)(item)                               | Remove an item from the list.               |
-
-<a id="generated.RAInletsOutletsCollection.AddContinuousInjection"></a>
-
-#### AddContinuousInjection()
-
-Add a new ContinuousInjection. Returns the newly created item.
+|-----------------------------------------------------------------------------------------|---------------------------------------------|
+| [`AddCustomInput`](#generated.RAInletsOutletsCollection.AddCustomInput)()               | Add a new CustomInput.                      |
+| [`AddFluidInlet`](#generated.RAInletsOutletsCollection.AddFluidInlet)()                 | Add a new SPHInlet.                         |
+| [`AddOutlet`](#generated.RAInletsOutletsCollection.AddOutlet)()                         | Add a new Outlet.                           |
+| [`AddParticleInlet`](#generated.RAInletsOutletsCollection.AddParticleInlet)()           | Add a new ParticleInlet.                    |
+| [`AddVolumetricInlet`](#generated.RAInletsOutletsCollection.AddVolumetricInlet)()       | Add a new VolumeFill.                       |
+| [`Clear`](#generated.RAInletsOutletsCollection.Clear)()                                 | Remove all items from the list.             |
+| [`GetParticleInput`](#generated.RAInletsOutletsCollection.GetParticleInput)(input_name) | Get the particle input with the given name. |
+| [`GetParticleInputNames`](#generated.RAInletsOutletsCollection.GetParticleInputNames)() | Get the names of all particle inputs.       |
+| [`New`](#generated.RAInletsOutletsCollection.New)()                                     | Add a new item.                             |
+| [`Remove`](#generated.RAInletsOutletsCollection.Remove)(item)                           | Remove an item from the list.               |
 
 <a id="generated.RAInletsOutletsCollection.AddCustomInput"></a>
 

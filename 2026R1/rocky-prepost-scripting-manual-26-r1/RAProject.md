@@ -43,6 +43,7 @@ project.SaveProjectForRestart('my_restart_project.rocky', timestep_or_index=10)
 | [`GetStudy`](#generated.RAProject.GetStudy)([study_name])                              | Get the project's Study.                                                         |
 | [`GetTimeFilter`](#generated.RAProject.GetTimeFilter)()                                | Utility function to return the api object representing the project's time filter |
 | [`GetUserProcessCollection`](#generated.RAProject.GetUserProcessCollection)()          | Get the project's collection of User Processes.                                  |
+| [`HasUnsavedChanges`](#generated.RAProject.HasUnsavedChanges)()                        | Check if the current project has unsaved changes.                                |
 | [`RemoveProcess`](#generated.RAProject.RemoveProcess)(process)                         | Removes the given process from the project.                                      |
 | [`SaveProject`](#generated.RAProject.SaveProject)([filename])                          | Save the currently opened project.                                               |
 | [`SaveProjectForRestart`](#generated.RAProject.SaveProjectForRestart)(filename[, ...]) | Create a new restart project from the current project.                           |
@@ -131,6 +132,15 @@ Utility function to return the api object representing the project’s time filt
 #### GetUserProcessCollection()
 
 Get the project’s collection of User Processes.
+
+<a id="generated.RAProject.HasUnsavedChanges"></a>
+
+#### HasUnsavedChanges()
+
+Check if the current project has unsaved changes.
+
+* **Returns:**
+  True if the project is modified (unsaved changes), False otherwise.
 
 <a id="generated.RAProject.RemoveProcess"></a>
 
