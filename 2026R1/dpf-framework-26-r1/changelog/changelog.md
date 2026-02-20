@@ -40,7 +40,6 @@ The following table shows which components have updates in each category.
 | native |  |[18 items](#Fixes_native) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [3 items](#Features_prime) | |
-| pydpf |  |[1 item](#Fixes_pydpf) |
 | rbd |  |[1 item](#Fixes_rbd) |
 | rotation |  |[1 item](#Fixes_rotation) |
 | workflows |  |[1 item](#Fixes_workflows) |
@@ -1801,16 +1800,6 @@ The following table shows which components have updates in each category.
   >
   >
 
-## pydpf
-
-### <a id="Fixes_pydpf"></a> Fixes
-
-- Fix 22R2 setSupport on pyDPF:
-  >  Fix 22R2 setSupport on pyDPF
-  >
-  >
-  >
-  >
 ## rbd
 
 ### <a id="Fixes_rbd"></a> Fixes
