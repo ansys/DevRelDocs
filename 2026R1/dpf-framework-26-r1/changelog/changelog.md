@@ -33,7 +33,7 @@ The following table shows which components have updates in each category.
 | mapdl | [14 items](#Features_mapdl) |[51 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | math | [7 items](#Features_math) |[2 items](#Fixes_math) |
-| mechanical | [2 items](#Features_mechanical) |[3 items](#Fixes_mechanical) |
+| mechanical | [1 item](#Features_mechanical) |[3 items](#Fixes_mechanical) |
 | mesh |  |[2 items](#Fixes_mesh) |
 | misc | [11 items](#Features_misc) |[19 items](#Fixes_misc) |
 | multiphysicsmapper |  |[5 items](#Fixes_multiphysicsmapper) |
@@ -1268,11 +1268,6 @@ The following table shows which components have updates in each category.
 
 ## mechanical
 ### <a id="Features_mechanical"></a> Features
-
-- Adding feedback from the Mechanical Team:
-  > Moving event of progress bar at the beginning of the loop and changing input stream.
-  >
-  >
 
 - Addition of events to monitor the status of producer_consumer_for_each operator:
   > Addition of events to monitor the status of producer_consumer_for_each operator.
