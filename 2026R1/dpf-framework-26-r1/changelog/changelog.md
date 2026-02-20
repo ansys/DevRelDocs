@@ -14,7 +14,7 @@ The following table shows which components have updates in each category.
 | changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
 | compression | [2 items](#Features_compression) | |
 | cyclic | [1 item](#Features_cyclic) | |
-| doc | [2 items](#Features_doc) |[1 item](#Fixes_doc) |
+| doc | [2 items](#Features_doc) | |
 | documentation | [1 item](#Features_documentation) |[1 item](#Fixes_documentation) |
 | dpf | [3 items](#Features_dpf) |[1 item](#Fixes_dpf) |
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
@@ -36,7 +36,7 @@ The following table shows which components have updates in each category.
 | misc | [11 items](#Features_misc) |[19 items](#Fixes_misc) |
 | multiphysicsmapper |  |[5 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native |  |[18 items](#Fixes_native) |
+| native |  |[19 items](#Fixes_native) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [3 items](#Features_prime) | |
 | rbd |  |[1 item](#Fixes_rbd) |
@@ -152,7 +152,7 @@ The following table shows which components have updates in each category.
   >
   > The html_doc operator now generates the html operator documentation with the operator version and its changelog displayed.
   >
-  > Also adds to the HGP ansys::dpf::Changelog.toMap().
+  > Also adds to the HGP `ansys::dpf::Changelog.toMap()`.
   >
   >
   >
@@ -163,22 +163,14 @@ The following table shows which components have updates in each category.
   >
   >
   >
-  > Operator "html_doc" now displays information about supported file types if available.
+  > Operator **html_doc** now displays information about supported file types if available.
   >
-  > new operator "info::router_discovery" allows to access information through DataTree.
+  > New operator **info::router_discovery** allows to access information through DataTree.
   >
   >
   >
   >
 
-### <a id="Fixes_doc"></a> Fixes
-
-- Update documentation of raw_operators to remove bool_rotate_to_global pin.:
-  > Update documentation of raw_operators to remove bool_rotate_to_global pin.
-  >
-  >
-  >
-  >
 ## documentation
 ### <a id="Features_documentation"></a> Features
 
@@ -1728,6 +1720,11 @@ The following table shows which components have updates in each category.
   >
   >
   >
+
+- Remove the **bool_rotate_to_global** pin from **raw_operators**:
+  > Remove the **bool_rotate_to_global** pin from operators such as **raw_displacement** and **raw_reaction_force**.
+  >
+
 ## perf
 ### <a id="Features_perf"></a> Features
 
