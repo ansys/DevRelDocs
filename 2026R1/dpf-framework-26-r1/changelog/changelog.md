@@ -8,7 +8,6 @@ The following table shows which components have updates in each category.
 
 | Component | Features | Fixes |
 |-----------|----------|----------|
-| 1297620 |  |[1 item](#Fixes_1297620) |
 | c# | [1 item](#Features_c#) | |
 | cff | [2 items](#Features_cff) |[4 items](#Fixes_cff) |
 | cgns | [1 item](#Features_cgns) | |
@@ -33,7 +32,7 @@ The following table shows which components have updates in each category.
 | lsdyna | [1 item](#Features_lsdyna) | |
 | mapdl | [14 items](#Features_mapdl) |[51 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
-| math | [7 items](#Features_math) |[1 item](#Fixes_math) |
+| math | [7 items](#Features_math) |[2 items](#Fixes_math) |
 | mechanical | [2 items](#Features_mechanical) |[3 items](#Fixes_mechanical) |
 | mesh |  |[2 items](#Fixes_mesh) |
 | misc | [11 items](#Features_misc) |[19 items](#Fixes_misc) |
@@ -48,17 +47,6 @@ The following table shows which components have updates in each category.
 | rotation |  |[1 item](#Fixes_rotation) |
 | workflows |  |[1 item](#Fixes_workflows) |
 
-
-## 1297620
-
-### <a id="Fixes_1297620"></a> Fixes
-
-- Cplx division operator has to high tolerance:
-  > Change the tolerance for cplx division from 1e-10 to 1e-15.
-  >
-  >
-  >
-  >
 ## c#
 ### <a id="Features_c#"></a> Features
 
@@ -1274,6 +1262,10 @@ The following table shows which components have updates in each category.
   >
   >
   >
+
+- Cplx division operator has to high tolerance:
+  > Change the tolerance for cplx division from 1e-10 to 1e-15.
+
 ## mechanical
 ### <a id="Features_mechanical"></a> Features
 
