@@ -1,4 +1,4 @@
-# Structure ansys::dpf::core::path\_utilities
+# Structure ansys::dpf::core::path_utilities
 
 <a id="structansys-dpf-core-path-utilities"></a>
 

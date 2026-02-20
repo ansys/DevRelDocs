@@ -1,4 +1,4 @@
-# Structure ansys::dpf::param\_helpers
+# Structure ansys::dpf::param_helpers
 
 <a id="structansys-dpf-param-helpers"></a>
 
@@ -35,7 +35,7 @@ static DataTree ansys::dpf::param_helpers::createParamTree(Client const *const c
 
 **Parameters**:
 
-* [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client** = nullptr 
+* [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client** = nullptr
 
 **Return type**: [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree)
 

@@ -96,7 +96,6 @@
 * [getCopy](classansys-dpf-workflow.md#classansys-dpf-workflow-1a850d7aa707b7b9017bd679defc9d2845)
 * [getCustomOutput](classansys-dpf-workflow.md#classansys-dpf-workflow-1a3d181c629d1808c570ac90e485a6c5f9)
 * [getHash](classansys-dpf-workflow.md#classansys-dpf-workflow-1abd60834d5d8fb9b037f9546f80d1cb0f)
-* [getHashableKey](classansys-dpf-workflow.md#classansys-dpf-workflow-1ac8940321454536d9bad23508d29b8e3e)
 * [getOperators](classansys-dpf-workflow.md#classansys-dpf-workflow-1ab1855fcc04e3d0bafedc9f8c6b644082)
 * [getOutput](classansys-dpf-workflow.md#classansys-dpf-workflow-1a312d744b2c8174b3cd5e1d102ff6ae7b)
 * [getOutputAsAny](classansys-dpf-workflow.md#classansys-dpf-workflow-1a5340e6ab9473e5615e62223509d473c2)
@@ -188,7 +187,6 @@
 * [RemoteWorkflow](classansys-dpf-remoteworkflow.md#classansys-dpf-remoteworkflow-1a7fe3018d374672149e4568929736729f)
 * [renameInputPin](classansys-dpf-workflow.md#classansys-dpf-workflow-1a22fba3c96a8a6e9eda279fd1c4b5358f)
 * [renameOutputPin](classansys-dpf-workflow.md#classansys-dpf-workflow-1abff62660096b06dd09667061c8e3d8a6)
-* [setHashableKey](classansys-dpf-workflow.md#classansys-dpf-workflow-1aafb16d5c9e5dc71d79126339b8a08a1a)
 * [tryReplaceWorkflowInRegistry](classansys-dpf-workflow.md#classansys-dpf-workflow-1a478c1be621d4c49916771b42d4b10ba9)
 * [Workflow](classansys-dpf-workflow.md#classansys-dpf-workflow-1a808195b2d92b18f8f3a362e4bd701f39)
 * [Workflow](classansys-dpf-workflow.md#classansys-dpf-workflow-1a8a36b36629bde25afe03b12b0ed5a958)
@@ -427,7 +425,7 @@ dp_id ansys::dpf::RemoteWorkflow::getRemoteWorkflowId() const
 
 
 
-**Return type**: [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e)
+**Return type**: [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e)
 
 <!--
 **TODO**:

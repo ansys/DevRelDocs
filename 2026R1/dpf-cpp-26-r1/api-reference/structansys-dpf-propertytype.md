@@ -7,14 +7,13 @@
 
 User defined property type.
 
-Allows for the definition of a new property types. Many property types are predefined. 
+Allows for the definition of a new property types. Many property types are predefined.
 
-**See also**: [property\_types](structansys-dpf-property-types.md#structansys-dpf-property-types)
+**See also**: [property_types](structansys-dpf-property-types.md#structansys-dpf-property-types)
 
 ## Members
 
-* [c\_str](structansys-dpf-propertytype.md#structansys-dpf-propertytype-1aaf60552ef91b8bc28eccb40557199dba)
-* [operator std::string](structansys-dpf-propertytype.md#structansys-dpf-propertytype-1a3d5716d1801fda4f945a6a89b4cdf0e3)
+* [c_str](structansys-dpf-propertytype.md#structansys-dpf-propertytype-1aaf60552ef91b8bc28eccb40557199dba)
 * [operator!=](structansys-dpf-propertytype.md#structansys-dpf-propertytype-1a0c8f3b3685ac28b6fa46a263a561e5b0)
 * [operator\<](structansys-dpf-propertytype.md#structansys-dpf-propertytype-1a836bd074dd3614d5f70d8e362e058802)
 * [operator\<=](structansys-dpf-propertytype.md#structansys-dpf-propertytype-1ad74f013eccde6dad34abf8e9743e085c)
@@ -46,7 +45,7 @@ Create new property type.
 
 * std::string const & **name**: [in] Name of property type.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -75,7 +74,7 @@ ansys::dpf::PropertyType::PropertyType(PropertyType const &)=default
 
 * PropertyType const &
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -100,7 +99,7 @@ ansys::dpf::PropertyType::PropertyType()=default
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -228,34 +227,8 @@ bool ansys::dpf::PropertyType::operator!=(PropertyType const &) const
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropertyType::operator!="}]}`
 -->
 
-<a id="structansys-dpf-propertytype-1a3d5716d1801fda4f945a6a89b4cdf0e3"></a>
-### Function operator std::string
-
-![][public]
-![][const]
-
-
-```cpp
-ansys::dpf::PropertyType::operator std::string() const
-```
-
-
-
-
-Name of property type.
-
-
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropertyType::string"}]}`
--->
-
 <a id="structansys-dpf-propertytype-1aaf60552ef91b8bc28eccb40557199dba"></a>
-### Function c\_str
+### Function c_str
 
 ![][public]
 ![][const]
@@ -268,7 +241,7 @@ const char * ansys::dpf::PropertyType::c_str() const
 
 
 
-Gets name of property type. 
+Gets name of property type.
 **Returns**:
 
 Name of property type.

@@ -241,7 +241,7 @@ FieldsContainer for given time/frequency index.
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **iSet**: [in] Index of [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport).
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **iSet**: [in] Index of [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport).
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
 **Return type**: [FieldsContainer](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer)
@@ -274,8 +274,8 @@ FieldsContainer for given step and substep index.
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **iStep**: [in] Grouping index.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **iSubStep**: [in] Subgrouping index.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **iStep**: [in] Grouping index.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **iSubStep**: [in] Subgrouping index.
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
 **Return type**: [FieldsContainer](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer)

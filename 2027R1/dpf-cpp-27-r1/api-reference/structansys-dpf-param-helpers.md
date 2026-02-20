@@ -1,4 +1,4 @@
-# Structure ansys::dpf::param\_helpers
+# Structure ansys::dpf::param_helpers
 
 <a id="structansys-dpf-param-helpers"></a>
 

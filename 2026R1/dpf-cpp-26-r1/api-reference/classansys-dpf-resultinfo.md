@@ -25,7 +25,7 @@ Provides information on all available results
 * [addProperties](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a8d15940ba2e8825a0eae2239a65f2311)
 * [addResult](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a8b68b2bf88b1ef946ad7b559e187d179)
 * [addResult](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1aaa7f97f22a08851e10f4f8a1294077c7)
-* [analysis\_type](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a7242b85e3d035f0953356a1146e742ae)
+* [analysis_type](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a7242b85e3d035f0953356a1146e742ae)
 * [analysisType](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a9cbdb503d903b0a8212cc32a952c1ad2)
 * [analysisTypeName](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1ac0f80a2ea905a13dccc274790ef6cbc7)
 * [availableQualifierLabels](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a5bc76572a71debbc4c0c5386e39c7470)
@@ -63,9 +63,9 @@ Provides information on all available results
 * [hasInternalObject](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1ae198f89868d85c7db6dc1a934a1d3c15)
 * [isOnCommonAPI](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a9f9789ff61cc9d400a2a344830706b73)
 * [isSameObject](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1aa64d5f8fcd7d85ad6ebf708494dbefd7)
-* [job\_name](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1ae6ed610647bdabcc9baab02b19462f99)
+* [job_name](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1ae6ed610647bdabcc9baab02b19462f99)
 * [location](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a34c2142d20b7121084cd42874f99560d)
-* [main\_title](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a8071bc87922ee65107a63fc2f1eefd3d)
+* [main_title](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a8071bc87922ee65107a63fc2f1eefd3d)
 * [nature](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1ab47931a377a99ccb9bc6727bb6187d74)
 * [numberOfComponents](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a33fc997e9f5a93b23afac8ca753d0c25)
 * [numberOfResults](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a69427d3a5823aa23acfc59b891fa662a)
@@ -74,10 +74,10 @@ Provides information on all available results
 * [operator=](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a72181c28d7f4ab143b62bcc98df77f58)
 * [operatorName](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1aa090d77720a048d0dbe0f6230ba7500c)
 * [operatorNameIsAvailable](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1ad8d61b8875d35dd7812d83b63ae68da9)
-* [physics\_type](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a4c9d8d076df7a3899011b1b2195dfaba)
+* [physics_type](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a4c9d8d076df7a3899011b1b2195dfaba)
 * [physicsType](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1abc776e636cedf999ab85007904f110a9)
 * [physicsTypeName](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a4400684a038c4fd6dbae406e828c94f2)
-* [product\_name](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a8b1146409fe3f14fda0b331faf1bf9fe)
+* [product_name](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a8b1146409fe3f14fda0b331faf1bf9fe)
 * [qualifiers](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1ae952c70bd96103690e5f1daf92f7f724)
 * [qualifierTypeSupport](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1ae978521e336dac2cc7dddc3d2e8a46fa)
 * [ResultInfo](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a8e106b476f6790938ef80d10fa0705c3)
@@ -87,21 +87,21 @@ Provides information on all available results
 * [scriptingName](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1ac476a3cc0d4c1bb7c5c02377244c413b)
 * [setQualifierLabelSupport](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1adc9dde21342797e91d4c3b4c7c66b532)
 * [setUnitSystem](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1ad25053c5a68986f3948256228aad6cea)
-* [solve\_date\_time](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a52ed9fdb1a2a92a7ada0fed534c200b5)
-* [solver\_version](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a0d2b564f1b52afc97ef5be1d4e4661f9)
+* [solve_date_time](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a52ed9fdb1a2a92a7ada0fed534c200b5)
+* [solver_version](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a0d2b564f1b52afc97ef5be1d4e4661f9)
 * [subResultDescription](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a09bb53667b42b70d13356395437cfe77)
 * [subResultOperatorName](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1ad028bbf71ecc484170d725499ab7efbd)
 * [unit](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1ac2db59f4a0d95572d00c5093e3914246)
 * [unitSystem](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a62c992acfa6ffc5b73de0f75f57f7e58)
 * [unitSystemName](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1ae358df95bebd891adf15148f5b26d21d)
-* [user\_name](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1ac3786ae43ac33386010794e990a31146)
+* [user_name](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1ac3786ae43ac33386010794e990a31146)
 * [~DpfTypes](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1ab7c83b6ea160c2b115e056f6c312112f)
 * [~ResultInfo](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a99a27115c627ec31921667eec75c6176)
 
 ## Public types
 
 <a id="classansys-dpf-resultinfo-1a7242b85e3d035f0953356a1146e742ae"></a>
-### Enumeration type analysis\_type
+### Enumeration type analysis_type
 
 ![][public]
 
@@ -213,7 +213,7 @@ PSD.
 -->
 
 <a id="classansys-dpf-resultinfo-1a4c9d8d076df7a3899011b1b2195dfaba"></a>
-### Enumeration type physics\_type
+### Enumeration type physics_type
 
 ![][public]
 
@@ -307,10 +307,10 @@ ansys::dpf::ResultInfo::ResultInfo(analysis_type const &analysis_type=analysis_t
 
 **Parameters**:
 
-* [analysis\_type](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a7242b85e3d035f0953356a1146e742ae) const & **analysis_type** = [analysis\_type::eUnknownAnalysis](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a7242b85e3d035f0953356a1146e742aea533f3644550f70cbfc2a2892f9aba9c5) 
-* [physics\_type](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a4c9d8d076df7a3899011b1b2195dfaba) const & **physics_type** = [physics\_type::eUnknownPhysics](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a4c9d8d076df7a3899011b1b2195dfabaad00f4b71e4db56a56048bc9ecd1786f3) 
+* [analysis_type](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a7242b85e3d035f0953356a1146e742ae) const & **analysis_type** = [analysis_type::eUnknownAnalysis](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a7242b85e3d035f0953356a1146e742aea533f3644550f70cbfc2a2892f9aba9c5)
+* [physics_type](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a4c9d8d076df7a3899011b1b2195dfaba) const & **physics_type** = [physics_type::eUnknownPhysics](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a4c9d8d076df7a3899011b1b2195dfabaad00f4b71e4db56a56048bc9ecd1786f3)
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -335,7 +335,7 @@ virtual ansys::dpf::ResultInfo::~ResultInfo()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -364,7 +364,7 @@ ansys::dpf::ResultInfo::ResultInfo(ResultInfo const &)
 
 * ResultInfo const &
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -393,7 +393,7 @@ ansys::dpf::ResultInfo::ResultInfo(ResultInfo &&) noexcept
 
 * ResultInfo &&
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -479,7 +479,7 @@ Analysis type for all results.
 
 
 
-**Return type**: [analysis\_type](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a7242b85e3d035f0953356a1146e742ae)
+**Return type**: [analysis_type](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a7242b85e3d035f0953356a1146e742ae)
 
 <!--
 **TODO**:
@@ -507,7 +507,7 @@ Phyiscs type for all results.
 
 
 
-**Return type**: [physics\_type](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a4c9d8d076df7a3899011b1b2195dfaba)
+**Return type**: [physics_type](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a4c9d8d076df7a3899011b1b2195dfaba)
 
 <!--
 **TODO**:
@@ -647,7 +647,7 @@ Number of results.
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -669,7 +669,7 @@ std::set< std::string > ansys::dpf::ResultInfo::availableResults() const
 
 
 
-The result name might be something like temperature. 
+The result name might be something like temperature.
 **Returns**:
 
 Set of names for all results.
@@ -698,7 +698,7 @@ std::string ansys::dpf::ResultInfo::resultNameByOperatorName(std::string const &
 
 
 
-For a result name like Temperature, the operator name might be something like TEMP. 
+For a result name like Temperature, the operator name might be something like TEMP.
 **Returns**:
 
 Name of result
@@ -731,7 +731,7 @@ std::string ansys::dpf::ResultInfo::operatorName(std::string const &res_name) co
 
 
 
-The operator name might be something like TEMP, where the result name is Temperature. 
+The operator name might be something like TEMP, where the result name is Temperature.
 **Returns**:
 
 [Operator](classansys-dpf-operator.md#classansys-dpf-operator) name
@@ -764,7 +764,7 @@ std::string ansys::dpf::ResultInfo::scriptingName(std::string const &res_name) c
 
 
 
-The operator scripting name is used to instantiate the operator in scripting, ex: displacement, elastic_strain... 
+The operator scripting name is used to instantiate the operator in scripting, ex: displacement, elastic_strain...
 **Returns**:
 
 [Operator](classansys-dpf-operator.md#classansys-dpf-operator) scripting name
@@ -839,7 +839,7 @@ Number of components for given result name.
 
 * std::string const & **res_name**: [in] [Result](classansys-dpf-result.md#classansys-dpf-result) name.
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -997,7 +997,7 @@ Number of subresults for given result name.
 
 * std::string const & **res_name**: [in] [Result](classansys-dpf-result.md#classansys-dpf-result) name.
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -1136,7 +1136,7 @@ Indication that operator is available within results and subresults.
 -->
 
 <a id="classansys-dpf-resultinfo-1a0d2b564f1b52afc97ef5be1d4e4661f9"></a>
-### Function solver\_version
+### Function solver_version
 
 ![][public]
 ![][const]
@@ -1167,7 +1167,7 @@ Gets solver version.
 -->
 
 <a id="classansys-dpf-resultinfo-1a52ed9fdb1a2a92a7ada0fed534c200b5"></a>
-### Function solve\_date\_time
+### Function solve_date_time
 
 ![][public]
 ![][const]
@@ -1198,7 +1198,7 @@ Gets solver date and time.
 -->
 
 <a id="classansys-dpf-resultinfo-1ac3786ae43ac33386010794e990a31146"></a>
-### Function user\_name
+### Function user_name
 
 ![][public]
 ![][const]
@@ -1226,7 +1226,7 @@ User name.
 -->
 
 <a id="classansys-dpf-resultinfo-1ae6ed610647bdabcc9baab02b19462f99"></a>
-### Function job\_name
+### Function job_name
 
 ![][public]
 ![][const]
@@ -1254,7 +1254,7 @@ Job name.
 -->
 
 <a id="classansys-dpf-resultinfo-1a8b1146409fe3f14fda0b331faf1bf9fe"></a>
-### Function product\_name
+### Function product_name
 
 ![][public]
 ![][const]
@@ -1282,7 +1282,7 @@ Product name.
 -->
 
 <a id="classansys-dpf-resultinfo-1a8071bc87922ee65107a63fc2f1eefd3d"></a>
-### Function main\_title
+### Function main_title
 
 ![][public]
 ![][const]

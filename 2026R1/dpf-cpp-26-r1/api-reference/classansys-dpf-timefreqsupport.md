@@ -17,7 +17,7 @@ The time freq support describes an analysis' temporal or frequential space. For 
 
 * [boundingCumulativeIndecesOfTimeFreq](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport-1ab4822e8cee3be5c03badce0e4cea3991)
 * [callAPI](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1aea34d37e0c080126eff70db34bf46597)
-* [deep\_copy](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport-1a3addff6333f65b2ea810d7033315ac1c)
+* [deep_copy](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport-1a3addff6333f65b2ea810d7033315ac1c)
 * [describe](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a9977945710983bc03d2940fa007847b2)
 * [empty](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a39cd546c42518e2332be8f287db95459)
 * [emptyTimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport-1a7e75bb0b6e75fce04a882b70f9a48c17)
@@ -79,7 +79,7 @@ ansys::dpf::TimeFreqSupport::TimeFreqSupport()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -108,7 +108,7 @@ Create a new [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-
 
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -138,7 +138,7 @@ Retrieve an existing instance of [TimeFreqSupport](classansys-dpf-timefreqsuppor
 * int **id**: [in] Id of the [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport) object on the server's database.
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -163,7 +163,7 @@ virtual ansys::dpf::TimeFreqSupport::~TimeFreqSupport()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -192,7 +192,7 @@ ansys::dpf::TimeFreqSupport::TimeFreqSupport(TimeFreqSupport const &)
 
 * TimeFreqSupport const &
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -221,7 +221,7 @@ ansys::dpf::TimeFreqSupport::TimeFreqSupport(TimeFreqSupport &&) noexcept
 
 * TimeFreqSupport &&
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -307,7 +307,7 @@ Number of time frequency sets.
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -335,7 +335,7 @@ Number of steps.
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -365,9 +365,9 @@ Number of sub steps for a given step index (0 based).
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **stepIndex**
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **stepIndex**
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -397,9 +397,9 @@ Number of sub steps for a given step id.
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **stepId**
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **stepId**
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -429,10 +429,10 @@ set index (0 based) at a given step index and substep index.
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **step**
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **sub_step**
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **step**
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **sub_step**
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -462,10 +462,10 @@ imaginary frequency at a given step index and substep indices.
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **step**: [in] step index (0 based).
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **sub_step**: [in] sub_step index (0 based).
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **step**: [in] step index (0 based).
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **sub_step**: [in] sub_step index (0 based).
 
-**Return type**: [dp\_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790)
+**Return type**: [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790)
 
 <!--
 **TODO**:
@@ -495,10 +495,10 @@ time frequency at a given step index and substep indices.
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **step**: [in] step index (0 based).
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **sub_step**: [in] sub_step index (0 based).
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **step**: [in] step index (0 based).
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **sub_step**: [in] sub_step index (0 based).
 
-**Return type**: [dp\_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790)
+**Return type**: [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790)
 
 <!--
 **TODO**:
@@ -528,9 +528,9 @@ set index (0 based) for given imaginary frequency.
 
 **Parameters**:
 
-* [dp\_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) **frequency**
+* [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) **frequency**
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -560,9 +560,9 @@ set index (0 based) for given time frequency.
 
 **Parameters**:
 
-* [dp\_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) **frequency**
+* [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) **frequency**
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -594,7 +594,7 @@ step index and substep at a given set index (0 based).
 
 * int **cumulative_index**
 
-**Return type**: std::pair< [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e), [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) >
+**Return type**: std::pair< [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e), [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) >
 
 <!--
 **TODO**:
@@ -708,7 +708,7 @@ Harmonic indices associated with time frequency.
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **stage** = 0 
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **stage** = 0
 
 **Return type**: Field
 
@@ -794,7 +794,7 @@ Number of unique time frequency entries.
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -909,7 +909,7 @@ Set harmonic indices of time frequency support from given field for a specified 
 **Parameters**:
 
 * Field **field**: [in] [Field](classansys-dpf-field.md#classansys-dpf-field) from which to set imaginary part of time frequency.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **stage** = 0 : [in] Optional stage number (default is 0).
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **stage** = 0 : [in] Optional stage number (default is 0).
 
 **Return type**: void
 
@@ -944,7 +944,7 @@ Bounding indices for given time time frequency and load step.
 * double **time_freq**: [in] Time frequency for which to find bounding indices.
 * int **loadstep** = 0 : [in] Optional load step.
 
-**Return type**: std::pair< [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0), [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) >
+**Return type**: std::pair< [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0), [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) >
 
 <!--
 **TODO**:
@@ -974,10 +974,10 @@ Time/Frequency for given index.
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **cumul_index**: [in] Index for which to get time frequency.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **complex_id** = 0 : [in] Optional non-zero indicates to get imaginary part of time frequency.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **cumul_index**: [in] Index for which to get time frequency.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **complex_id** = 0 : [in] Optional non-zero indicates to get imaginary part of time frequency.
 
-**Return type**: [dp\_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790)
+**Return type**: [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790)
 
 <!--
 **TODO**:
@@ -986,7 +986,7 @@ Time/Frequency for given index.
 -->
 
 <a id="classansys-dpf-timefreqsupport-1a3addff6333f65b2ea810d7033315ac1c"></a>
-### Function deep\_copy
+### Function deep_copy
 
 ![][public]
 ![][const]

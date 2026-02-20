@@ -1,4 +1,4 @@
-# Structure ansys::dpf::reflect\< size\_t \>
+# Structure ansys::dpf::reflect\< size_t \>
 
 <a id="structansys-dpf-reflect-size-t-4"></a>
 
@@ -13,12 +13,12 @@
 
 ## Members
 
-* [type\_name](structansys-dpf-reflect-size-t.md#structansys-dpf-reflect-size-t-4-1a93a3eb7ab21c60a9571c17c5cbc13569)
+* [type_name](structansys-dpf-reflect-size-t.md#structansys-dpf-reflect-size-t-4-1a93a3eb7ab21c60a9571c17c5cbc13569)
 
 ## Public static functions
 
 <a id="structansys-dpf-reflect-size-t-4-1a93a3eb7ab21c60a9571c17c5cbc13569"></a>
-### Function type\_name
+### Function type_name
 
 ![][public]
 ![][static]

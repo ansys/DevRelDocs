@@ -43,13 +43,12 @@ Generally, a defined [ScopingsContainer](classansys-dpf-scopingscontainer.md#cla
 * [at](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer-1a857bbd814a0a207fd94bd93ad2fe745c)
 * [callAPI](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1aea34d37e0c080126eff70db34bf46597)
 * [createSubScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer-1a937781f3a15cc04f81d38e290eb348e3)
-* [deep\_copy](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer-1a223fbc11c3fb729488a5f33772b2b2cf)
+* [deep_copy](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer-1a223fbc11c3fb729488a5f33772b2b2cf)
 * [describe](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a9977945710983bc03d2940fa007847b2)
 * [empty](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a39cd546c42518e2332be8f287db95459)
 * [emptyScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer-1a915d28f8d3b7869182ca79f9c4269b4c)
 * [getClient](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a968afd9daa0b0f13b65a2ac61369d73a)
 * [getHash](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer-1a455cf417503bd6ea107755cd4d630512)
-* [getHashableKey](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer-1a2f5c40470b1d6b9b98c6056a24187a46)
 * [getLabelSpace](classansys-dpf-collectionbase.md#classansys-dpf-collectionbase-1a66d62492d07889a95a5d10f9d827cd11)
 * [getMatchingScoping](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer-1abcd0e3f3ff053fcf22c15469b0a00e78)
 * [getMatchingScopingIndices](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer-1a66a78cea272641bd538028e9d63cb3fe)
@@ -78,7 +77,6 @@ Generally, a defined [ScopingsContainer](classansys-dpf-scopingscontainer.md#cla
 * [ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer-1aed23cb82bda6642f331cfe841701525a)
 * [ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer-1a7d11bd51f92baa443d303095b7e432c3)
 * [ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer-1a62fa8d44f5d7faf885ed3fad4c4c4c97)
-* [setHashableKey](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer-1a08d196ad815b72f5de7c8524d490d170)
 * [setId](classansys-dpf-collectionbase.md#classansys-dpf-collectionbase-1a93ebbfe9396dd1c4f447e799db6cbf3b)
 * [setName](classansys-dpf-collectionbase.md#classansys-dpf-collectionbase-1a44394f964c6130dcbaed446cec3b0197)
 * [setSupport](classansys-dpf-collectionbase.md#classansys-dpf-collectionbase-1ae6f7683496d153ed944856d42b97dc82)
@@ -399,7 +397,7 @@ Scoping ansys::dpf::ScopingsContainer::operator[](dp_int index)
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**: [in] Index of scoping.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**: [in] Index of scoping.
 
 **Return type**: [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping)
 
@@ -430,7 +428,7 @@ Scoping ansys::dpf::ScopingsContainer::at(dp_index index)
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of scoping to get.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of scoping to get.
 
 **Return type**: [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping)
 
@@ -462,7 +460,7 @@ const Scoping ansys::dpf::ScopingsContainer::at(dp_index index) const
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of scoping to get.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of scoping to get.
 
 **Return type**: const [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping)
 
@@ -492,7 +490,7 @@ Update [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping) at given inde
 **Parameters**:
 
 * [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping) & **f**: [in] New scoping.
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of scoping to update.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of scoping to update.
 
 **Return type**: void
 
@@ -589,7 +587,7 @@ std::vector< dp_index > ansys::dpf::ScopingsContainer::getScopingsIndices(LabelS
 
 * [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) const & **lab_space**: [in] [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) defining scopings for which to get indices.
 
-**Return type**: std::vector< [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) >
+**Return type**: std::vector< [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) >
 
 <!--
 **TODO**:
@@ -685,7 +683,7 @@ Vector of matching [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping) t
 
 * [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) const & **label_space**: [in] [Label](structansys-dpf-label.md#structansys-dpf-label) space for which to get entries.
 
-**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) >
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) >
 
 <!--
 **TODO**:
@@ -724,7 +722,7 @@ Create a new [ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-
 -->
 
 <a id="classansys-dpf-scopingscontainer-1a223fbc11c3fb729488a5f33772b2b2cf"></a>
-### Function deep\_copy
+### Function deep_copy
 
 ![][public]
 ![][const]
@@ -751,62 +749,6 @@ Create a new [ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ScopingsContainer::deep_copy"}]}`
--->
-
-<a id="classansys-dpf-scopingscontainer-1a2f5c40470b1d6b9b98c6056a24187a46"></a>
-### Function getHashableKey
-
-![][public]
-![][const]
-
-
-```cpp
-std::string ansys::dpf::ScopingsContainer::getHashableKey() const
-```
-
-
-
-
-Set and get an simpler hashable entity (here a topoloy identifier) instead of the full scoppings container to save time
-
-
-
-**Return type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ScopingsContainer::getHashableKey"}]}`
--->
-
-<a id="classansys-dpf-scopingscontainer-1a08d196ad815b72f5de7c8524d490d170"></a>
-### Function setHashableKey
-
-![][public]
-![][const]
-
-
-```cpp
-void ansys::dpf::ScopingsContainer::setHashableKey(const std::string &unique_identifier) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* const std::string & **unique_identifier**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ScopingsContainer::setHashableKey"}]}`
 -->
 
 <a id="classansys-dpf-scopingscontainer-1a455cf417503bd6ea107755cd4d630512"></a>

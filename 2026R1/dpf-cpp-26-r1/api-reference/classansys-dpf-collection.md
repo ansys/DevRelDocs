@@ -7,7 +7,7 @@
 
 
 
-Contains a group of entries of same type. The AnyCollection is designed as a set of entries ordered through labels and ids. Labels identify how the entries are filtered. 
+Contains a group of entries of same type. The AnyCollection is designed as a set of entries ordered through labels and ids. Labels identify how the entries are filtered.
 
 **See also**: [Any](classansys-dpf-any.md#classansys-dpf-any)
 
@@ -93,7 +93,7 @@ ansys::dpf::Collection< DataT >::Collection()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -118,7 +118,7 @@ virtual ansys::dpf::Collection< DataT >::~Collection()=default
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -147,7 +147,7 @@ ansys::dpf::Collection< DataT >::Collection(Collection< DataT > const &)
 
 * rhsCollection< DataT > const &
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -176,7 +176,7 @@ ansys::dpf::Collection< DataT >::Collection(Collection< DataT > &&) noexcept
 
 * rhsCollection< DataT > &&
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -205,7 +205,7 @@ Create container for a group of entries with the given labels.
 
 * std::vector< std::string > const & **labels**: [in] Labels for group of entries.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -234,7 +234,7 @@ Create a new collection on a server.
 
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -264,7 +264,7 @@ Create a collection with the given labels on a server.
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 * std::vector< std::string > const & **labels**: [in] Labels for meshes.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -294,7 +294,7 @@ Retrieve an existing instance of [Collection](classansys-dpf-collection.md#class
 * int **id**: [in] Id of the [Collection](classansys-dpf-collection.md#classansys-dpf-collection) object on the server's database.
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -381,7 +381,7 @@ DataT ansys::dpf::Collection< DataT >::operator[](dp_int index)
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**: [in] Index of entries within container.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**: [in] Index of entries within container.
 
 **Return type**: DataT
 
@@ -412,7 +412,7 @@ DataT for given index.
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of [Any](classansys-dpf-any.md#classansys-dpf-any) to get.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of [Any](classansys-dpf-any.md#classansys-dpf-any) to get.
 
 **Return type**: DataT
 
@@ -444,7 +444,7 @@ DataT for given index.
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of [Any](classansys-dpf-any.md#classansys-dpf-any) to get.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of [Any](classansys-dpf-any.md#classansys-dpf-any) to get.
 
 **Return type**: const DataT
 
@@ -474,7 +474,7 @@ Update a [Any](classansys-dpf-any.md#classansys-dpf-any) at index.
 **Parameters**:
 
 * DataT & **f**: [in] New [Any](classansys-dpf-any.md#classansys-dpf-any).
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of [Any](classansys-dpf-any.md#classansys-dpf-any) to update.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of [Any](classansys-dpf-any.md#classansys-dpf-any) to update.
 
 **Return type**: void
 
@@ -601,7 +601,7 @@ std::vector< dp_index > ansys::dpf::Collection< DataT >::getEntriesIndices(Label
 
 * [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) const & **lab_space**
 
-**Return type**: std::vector< [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) >
+**Return type**: std::vector< [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) >
 
 <!--
 **TODO**:
@@ -633,7 +633,7 @@ Vector of matching entries to the given label space.
 
 * [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) const & **label_space**: [in] [Label](structansys-dpf-label.md#structansys-dpf-label) space for which to get entries.
 
-**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) >
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) >
 
 <!--
 **TODO**:
@@ -719,7 +719,7 @@ Collection< DataT > ansys::dpf::Collection< DataT >::emptyCollection()
 
 
 
-Create an empty container. 
+Create an empty container.
 **Returns**:
 
 Empty container.

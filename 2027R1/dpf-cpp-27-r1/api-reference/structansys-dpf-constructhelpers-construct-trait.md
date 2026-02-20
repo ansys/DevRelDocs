@@ -1,4 +1,4 @@
-# Structure ansys::dpf::ConstructHelpers::construct\_trait
+# Structure ansys::dpf::ConstructHelpers::construct_trait
 
 <a id="structansys-dpf-constructhelpers-construct-trait"></a>
 

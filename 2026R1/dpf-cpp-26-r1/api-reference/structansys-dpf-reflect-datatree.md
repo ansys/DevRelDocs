@@ -13,12 +13,12 @@
 
 ## Members
 
-* [type\_name](structansys-dpf-reflect-datatree.md#structansys-dpf-reflect-datatree-4-1acb88ffe0e64b6f1b194d525d0ffe32e8)
+* [type_name](structansys-dpf-reflect-datatree.md#structansys-dpf-reflect-datatree-4-1acb88ffe0e64b6f1b194d525d0ffe32e8)
 
 ## Public static functions
 
 <a id="structansys-dpf-reflect-datatree-4-1acb88ffe0e64b6f1b194d525d0ffe32e8"></a>
-### Function type\_name
+### Function type_name
 
 ![][public]
 ![][static]

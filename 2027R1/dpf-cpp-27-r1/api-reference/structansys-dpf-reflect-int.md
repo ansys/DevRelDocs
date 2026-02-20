@@ -13,12 +13,12 @@
 
 ## Members
 
-* [type\_name](structansys-dpf-reflect-int.md#structansys-dpf-reflect-int-4-1aeef39fe7ccc2b7e36748a1102bc174de)
+* [type_name](structansys-dpf-reflect-int.md#structansys-dpf-reflect-int-4-1aeef39fe7ccc2b7e36748a1102bc174de)
 
 ## Public static functions
 
 <a id="structansys-dpf-reflect-int-4-1aeef39fe7ccc2b7e36748a1102bc174de"></a>
-### Function type\_name
+### Function type_name
 
 ![][public]
 ![][static]

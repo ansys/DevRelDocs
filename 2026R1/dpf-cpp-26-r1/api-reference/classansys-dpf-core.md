@@ -13,7 +13,7 @@ Groups all DataProcessingFramework core controls and utilities, like loading the
 
 * [ansys::dpf::core::FbsServerData](structansys-dpf-core-fbsserverdata.md#structansys-dpf-core-fbsserverdata)
 * [ansys::dpf::core::trace](structansys-dpf-core-trace.md#structansys-dpf-core-trace)
-* [ansys::dpf::core::path\_utilities](structansys-dpf-core-path-utilities.md#structansys-dpf-core-path-utilities)
+* [ansys::dpf::core::path_utilities](structansys-dpf-core-path-utilities.md#structansys-dpf-core-path-utilities)
 * [ansys::dpf::core::logging](structansys-dpf-core-logging.md#structansys-dpf-core-logging)
 
 ## Members
@@ -82,7 +82,7 @@ ansys::dpf::core::core()=delete
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -106,7 +106,7 @@ static DpfError ansys::dpf::core::applyContext(Context const &context)
 
 
 
-Defines the settings that will be used to load DPF's plugins. A DPF xml file can be used. 
+Defines the settings that will be used to load DPF's plugins. A DPF xml file can be used.
 **Returns**:
 
 Status of call.
@@ -139,7 +139,7 @@ static DpfError ansys::dpf::core::releaseDpf()
 
 
 
-Clears the available Operators and Releases licenses when necessary. 
+Clears the available Operators and Releases licenses when necessary.
 **Returns**:
 
 Status of call.
@@ -168,7 +168,7 @@ static DpfError ansys::dpf::core::releaseDpf(Client const *const client)
 
 
 
-Clears the available Operators and Releases licenses when necessary. 
+Clears the available Operators and Releases licenses when necessary.
 **Returns**:
 
 Status of call.
@@ -201,7 +201,7 @@ static DpfError ansys::dpf::core::applyContext(Context const &context, Client co
 
 
 
-Defines the settings that will be used to load DPF's plugins. A DPF xml file can be used. 
+Defines the settings that will be used to load DPF's plugins. A DPF xml file can be used.
 **Returns**:
 
 Status of call.
@@ -235,7 +235,7 @@ static DpfError ansys::dpf::core::loadDpfPlugin(std::string const &plugin_path, 
 
 
 
-Loads specified DPF plugin. 
+Loads specified DPF plugin.
 **Returns**:
 
 Status of call.
@@ -270,7 +270,7 @@ static DpfError ansys::dpf::core::loadDpfPlugin(std::string const &plugin_path, 
 
 
 
-Loads specified DPF plugin. 
+Loads specified DPF plugin.
 **Returns**:
 
 Status of call.
@@ -305,7 +305,7 @@ static DpfError ansys::dpf::core::loadDpfPlugin(std::string const &plugin_path, 
 
 
 
-Loads specified DPF plugin. 
+Loads specified DPF plugin.
 **Returns**:
 
 Status of call.
@@ -543,7 +543,7 @@ Record a new operator.
 
 * OperatorMainFunction **f**: [in] Function to perform operator.
 * std::string const & **operator_identifier**: [in] Unique identifier for operator.
-* AbstractCore * **core** = nullptr 
+* AbstractCore * **core** = nullptr
 
 **Return type**: void
 
@@ -576,7 +576,7 @@ Record a new operator.
 * OperatorMainFunction **f**: [in] Function to perform operator.
 * std::string const & **operator_identifier**: [in] Unique identifier for operator.
 * [OperatorSpecification](classansys-dpf-operatorspecification.md#classansys-dpf-operatorspecification) const & **spec**: [in] Definition of inputs and outputs.
-* AbstractCore * = nullptr 
+* AbstractCore * = nullptr
 
 **Return type**: void
 
@@ -610,7 +610,7 @@ Record a new operator.
 * OperatorDerivateFunction **deriv**
 * std::string const & **operator_identifier**: < [in] Function to derivate operator [in] Unique identifier for operator.
 * [OperatorSpecification](classansys-dpf-operatorspecification.md#classansys-dpf-operatorspecification) const & **spec**: [in] Definition of inputs and outputs.
-* AbstractCore * = nullptr 
+* AbstractCore * = nullptr
 
 **Return type**: void
 
@@ -758,7 +758,7 @@ Duplicates the record of the [Operator](classansys-dpf-operator.md#classansys-dp
 
 * std::string const & **exising_identifier**: [in] existing unique identifier for operator.
 * std::string const & **new_identifier**: [in] Unique identifier for operator.
-* AbstractCore * = nullptr 
+* AbstractCore * = nullptr
 
 **Return type**: void
 
@@ -1126,9 +1126,9 @@ suppress the entity from the server's database.
 
 **Parameters**:
 
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **id**: [in] its Id on the server.
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **id**: [in] its Id on the server.
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
-* bool **async** = false 
+* bool **async** = false
 
 **Return type**: void
 
@@ -1158,7 +1158,7 @@ Retrieves the object from the database, deletes it from the database and returns
 
 **Parameters**:
 
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **id**: [in] Id of the object on the server's database.
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **id**: [in] Id of the object on the server's database.
 * databaseIdentifier **db_id**
 
 **Return type**: [ansys::dpf::Any](classansys-dpf-any.md#classansys-dpf-any)
@@ -1277,9 +1277,9 @@ Starts a fbs server in this process or in the process targeted by "client".
 
 **Parameters**:
 
-* std::string const & **ip** = "" 
-* int **port** = 0 
-* const [Client](classansys-dpf-client.md#classansys-dpf-client) * **client** = nullptr 
+* std::string const & **ip** = ""
+* int **port** = 0
+* const [Client](classansys-dpf-client.md#classansys-dpf-client) * **client** = nullptr
 
 **Return type**: FbsServerData
 
@@ -1309,9 +1309,9 @@ Starts a fbs server in this process or in the process targeted by "client". If a
 
 **Parameters**:
 
-* std::string const & **ip** = "" 
-* int **port** = 0 
-* const [Client](classansys-dpf-client.md#classansys-dpf-client) * **client** = nullptr 
+* std::string const & **ip** = ""
+* int **port** = 0
+* const [Client](classansys-dpf-client.md#classansys-dpf-client) * **client** = nullptr
 
 **Return type**: FbsServerData
 

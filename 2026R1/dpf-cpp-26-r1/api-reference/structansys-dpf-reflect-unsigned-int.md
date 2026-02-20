@@ -13,12 +13,12 @@
 
 ## Members
 
-* [type\_name](structansys-dpf-reflect-unsigned-int.md#structansys-dpf-reflect-unsigned-int-4-1a0cc16baffdd60d0b02c53d737f44d280)
+* [type_name](structansys-dpf-reflect-unsigned-int.md#structansys-dpf-reflect-unsigned-int-4-1a0cc16baffdd60d0b02c53d737f44d280)
 
 ## Public static functions
 
 <a id="structansys-dpf-reflect-unsigned-int-4-1a0cc16baffdd60d0b02c53d737f44d280"></a>
-### Function type\_name
+### Function type_name
 
 ![][public]
 ![][static]

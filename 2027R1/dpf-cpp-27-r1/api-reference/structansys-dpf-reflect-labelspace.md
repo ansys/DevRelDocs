@@ -13,12 +13,12 @@
 
 ## Members
 
-* [type\_name](structansys-dpf-reflect-labelspace.md#structansys-dpf-reflect-labelspace-4-1af92df638704a64e0e01c85d0fdc63d4b)
+* [type_name](structansys-dpf-reflect-labelspace.md#structansys-dpf-reflect-labelspace-4-1af92df638704a64e0e01c85d0fdc63d4b)
 
 ## Public static functions
 
 <a id="structansys-dpf-reflect-labelspace-4-1af92df638704a64e0e01c85d0fdc63d4b"></a>
-### Function type\_name
+### Function type_name
 
 ![][public]
 ![][static]

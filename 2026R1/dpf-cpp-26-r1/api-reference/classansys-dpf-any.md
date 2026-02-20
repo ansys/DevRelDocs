@@ -20,7 +20,7 @@
 * [Any](classansys-dpf-any.md#classansys-dpf-any-1a3570cea5938292c99e277fef602eb60f)
 * [callAPI](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1aea34d37e0c080126eff70db34bf46597)
 * [createFromFbsReference](classansys-dpf-any.md#classansys-dpf-any-1a1b66e1daab041b4e72e729e1ae3f108d)
-* [deep\_copy](classansys-dpf-any.md#classansys-dpf-any-1ae7764836c250415dc742260c3ef5f24f)
+* [deep_copy](classansys-dpf-any.md#classansys-dpf-any-1ae7764836c250415dc742260c3ef5f24f)
 * [describe](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a9977945710983bc03d2940fa007847b2)
 * [empty](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a39cd546c42518e2332be8f287db95459)
 * [emptyAny](classansys-dpf-any.md#classansys-dpf-any-1a4e7350ee3446b0e8ad3c1aca88fee463)
@@ -67,7 +67,7 @@
 ## Friends
 
 <a id="classansys-dpf-any-1adf19ceee88ba644aceacffbd1495909b"></a>
-### Friend ConstructHelpers::construct\_trait
+### Friend ConstructHelpers::construct_trait
 
 ![][C++]
 ![][public]
@@ -108,7 +108,7 @@ virtual ansys::dpf::Any::~Any()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -136,9 +136,9 @@ ansys::dpf::Any::Any(const DataT &value, Client const *const client=nullptr)
 **Parameters**:
 
 * const DataT & **value**
-* [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client** = nullptr 
+* [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client** = nullptr
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -168,7 +168,7 @@ ansys::dpf::Any::Any(Any const &)
 
 * Any const &
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -197,7 +197,7 @@ ansys::dpf::Any::Any(Any &&) noexcept
 
 * Any &&
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -376,7 +376,7 @@ Int held in the [Any](classansys-dpf-any.md#classansys-dpf-any) object.
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -1211,7 +1211,7 @@ void ansys::dpf::Any::getAsFbsReference(opaque::FbsChannel *&client, std::string
 -->
 
 <a id="classansys-dpf-any-1ae7764836c250415dc742260c3ef5f24f"></a>
-### Function deep\_copy
+### Function deep_copy
 
 ![][public]
 ![][const]
@@ -1266,7 +1266,7 @@ static Any ansys::dpf::Any::createFromFbsReference(const opaque::FbsChannel *cha
 * std::string const & **address**
 * const opaque::FbsSlice * **req_slice**
 * size_t **req_offset**
-* const [ansys::dpf::Client](classansys-dpf-client.md#classansys-dpf-client) * **client** = nullptr 
+* const [ansys::dpf::Client](classansys-dpf-client.md#classansys-dpf-client) * **client** = nullptr
 
 **Return type**: Any
 

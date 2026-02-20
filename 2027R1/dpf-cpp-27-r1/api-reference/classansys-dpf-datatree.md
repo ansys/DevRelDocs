@@ -20,7 +20,7 @@ Define a DOM (Document-Object-Model) tree.
 * [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree-1a1c47166bd00e9a3168a9f045f6de1e0e)
 * [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree-1a45794f55475843de36a620e6bf8a24a6)
 * [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree-1ac1f6ad1c7025ca6ac20082a530e9dd06)
-* [deep\_copy](classansys-dpf-datatree.md#classansys-dpf-datatree-1a746e4dbff0a937ee9c71564d6674987a)
+* [deep_copy](classansys-dpf-datatree.md#classansys-dpf-datatree-1a746e4dbff0a937ee9c71564d6674987a)
 * [describe](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a9977945710983bc03d2940fa007847b2)
 * [empty](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a39cd546c42518e2332be8f287db95459)
 * [emptyDataTree](classansys-dpf-datatree.md#classansys-dpf-datatree-1afb0171dc88164d841e4d8d1d14c8dc92)
@@ -1499,7 +1499,7 @@ true if a subtree exists.
 -->
 
 <a id="classansys-dpf-datatree-1a746e4dbff0a937ee9c71564d6674987a"></a>
-### Function deep\_copy
+### Function deep_copy
 
 ![][public]
 ![][const]

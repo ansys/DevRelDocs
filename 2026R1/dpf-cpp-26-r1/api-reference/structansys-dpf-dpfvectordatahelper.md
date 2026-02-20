@@ -40,7 +40,7 @@ static opaque::DpfVector * ansys::dpf::DpfVectorDataHelper::initDpfVector(opaque
 
 **Parameters**:
 
-* opaque::DpfObject const * **object** = nullptr 
+* opaque::DpfObject const * **object** = nullptr
 
 **Return type**: opaque::DpfVector *
 
@@ -132,7 +132,7 @@ static void ansys::dpf::DpfVectorDataHelper::releaseCharVector(opaque::DpfVector
 
 * opaque::DpfVector * **vector**
 * char * **data**
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size**
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size**
 * bool **modified**
 
 **Return type**: void
@@ -165,7 +165,7 @@ static void ansys::dpf::DpfVectorDataHelper::commitCharVector(opaque::DpfVector 
 
 * opaque::DpfVector * **vector**
 * char * **data**
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size**
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size**
 * bool **modified**
 
 **Return type**: void
@@ -198,10 +198,10 @@ static void ansys::dpf::DpfVectorDataHelper::setAsSubVecCharVector(opaque::DpfVe
 
 * opaque::DpfVector * **vector**
 * char * **data**
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size**
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size**
 * opaque::DpfVector * **vector_out**
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **starting_index**
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size_out**
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **starting_index**
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size_out**
 * char ** **dataout**
 
 **Return type**: void

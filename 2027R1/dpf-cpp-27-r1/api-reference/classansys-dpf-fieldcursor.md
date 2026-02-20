@@ -12,11 +12,11 @@ Represents a complete entity data (id, size, num elementary data).
 ## Members
 
 * [data](classansys-dpf-fieldcursor.md#classansys-dpf-fieldcursor-1a815f0d760f113116cb5ed55b9ec9f584)
-* [data\_first\_index](classansys-dpf-fieldcursor.md#classansys-dpf-fieldcursor-1aac74361ccc8826b47e26aff3215038a7)
+* [data_first_index](classansys-dpf-fieldcursor.md#classansys-dpf-fieldcursor-1aac74361ccc8826b47e26aff3215038a7)
 * [defined](classansys-dpf-fieldcursor.md#classansys-dpf-fieldcursor-1afb033c6e098f2aebf9b8c6da12608891)
 * [id](classansys-dpf-fieldcursor.md#classansys-dpf-fieldcursor-1a4a87616f5f17ac420f0499170efcf454)
-* [n\_component](classansys-dpf-fieldcursor.md#classansys-dpf-fieldcursor-1a907fd15815ec3ffbd89cdc3a5b2ba5ca)
-* [n\_elementary\_data](classansys-dpf-fieldcursor.md#classansys-dpf-fieldcursor-1a546e38c5c0b76a50350946e11718a9d3)
+* [n_component](classansys-dpf-fieldcursor.md#classansys-dpf-fieldcursor-1a907fd15815ec3ffbd89cdc3a5b2ba5ca)
+* [n_elementary_data](classansys-dpf-fieldcursor.md#classansys-dpf-fieldcursor-1a546e38c5c0b76a50350946e11718a9d3)
 * [operator[]](classansys-dpf-fieldcursor.md#classansys-dpf-fieldcursor-1a00beb09a53d6fd59dcd80dd21f698895)
 * [size](classansys-dpf-fieldcursor.md#classansys-dpf-fieldcursor-1a088f17f2b7eec6cd4470ece35f0dc01a)
 
@@ -66,7 +66,7 @@ Pointer to field data.
 
 
 
-**Return type**: [dp\_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) *
+**Return type**: [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) *
 
 <!--
 **TODO**:
@@ -96,9 +96,9 @@ dp_double & ansys::dpf::FieldCursor::operator[](dp_int index) const
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**: [in] Index of data within field.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**: [in] Index of data within field.
 
-**Return type**: [dp\_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) &
+**Return type**: [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) &
 
 <!--
 **TODO**:
@@ -126,7 +126,7 @@ Size of field data.
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -154,7 +154,7 @@ Id of field.
 
 
 
-**Return type**: [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e)
+**Return type**: [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e)
 
 <!--
 **TODO**:
@@ -163,7 +163,7 @@ Id of field.
 -->
 
 <a id="classansys-dpf-fieldcursor-1a907fd15815ec3ffbd89cdc3a5b2ba5ca"></a>
-### Function n\_component
+### Function n_component
 
 ![][public]
 ![][const]
@@ -182,7 +182,7 @@ Number of components in field data.
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -191,7 +191,7 @@ Number of components in field data.
 -->
 
 <a id="classansys-dpf-fieldcursor-1a546e38c5c0b76a50350946e11718a9d3"></a>
-### Function n\_elementary\_data
+### Function n_elementary_data
 
 ![][public]
 ![][const]
@@ -210,7 +210,7 @@ Number of entries in field data.
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -219,7 +219,7 @@ Number of entries in field data.
 -->
 
 <a id="classansys-dpf-fieldcursor-1aac74361ccc8826b47e26aff3215038a7"></a>
-### Function data\_first\_index
+### Function data_first_index
 
 ![][public]
 ![][const]
@@ -238,7 +238,7 @@ Index of first entry in field data.
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:

@@ -9,6 +9,6 @@ This section gathers pages related to what a developer should know to start usin
 > **_NOTE:_**
 > This documentation focuses on the C++ API for DPF.
 >
-> Check the [DPF Framework documentation](https://developer.ansys.com/docs/dpf-framework-2027-r1/index.md) to learn more about DPF and its capabilities.
+> Check the [DPF Framework documentation](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/index.md) to learn more about DPF and its capabilities.
 >
-> Check the [DPF page](https://developer.ansys.com/docs/dpf) on the Developer Portal to review all available developer documentation.
+> Check the [DPF page](https://ansys-a.devportal.io/docs/dpf) on the Developer Portal to review all available developer documentation.

@@ -44,7 +44,7 @@
 ## Friends
 
 <a id="classansys-dpf-genericdatacontainer-1ab2e4916b9d046a72d197238993a71433"></a>
-### Friend internal::set\_prop
+### Friend internal::set_prop
 
 ![][C++]
 ![][public]

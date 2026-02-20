@@ -13,12 +13,12 @@
 
 ## Members
 
-* [type\_name](structansys-dpf-reflect-meshedregion.md#structansys-dpf-reflect-meshedregion-4-1a398873194aec5d45fe4be9534524d0bb)
+* [type_name](structansys-dpf-reflect-meshedregion.md#structansys-dpf-reflect-meshedregion-4-1a398873194aec5d45fe4be9534524d0bb)
 
 ## Public static functions
 
 <a id="structansys-dpf-reflect-meshedregion-4-1a398873194aec5d45fe4be9534524d0bb"></a>
-### Function type\_name
+### Function type_name
 
 ![][public]
 ![][static]

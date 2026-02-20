@@ -17,14 +17,13 @@ The scoping is entities ids representing a subset of the model's support. Typica
 
 * [at](classansys-dpf-scoping.md#classansys-dpf-scoping-1a0fc75ac65a5b13727b77e2c155828ccd)
 * [callAPI](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1aea34d37e0c080126eff70db34bf46597)
-* [deep\_copy](classansys-dpf-scoping.md#classansys-dpf-scoping-1a6abd0899c21554c8babd5985710edadc)
+* [deep_copy](classansys-dpf-scoping.md#classansys-dpf-scoping-1a6abd0899c21554c8babd5985710edadc)
 * [describe](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a9977945710983bc03d2940fa007847b2)
 * [emplace](classansys-dpf-scoping.md#classansys-dpf-scoping-1a94f0dd35d07efdc472ef072b42f9cfda)
 * [empty](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a39cd546c42518e2332be8f287db95459)
 * [emptyScoping](classansys-dpf-scoping.md#classansys-dpf-scoping-1a5c2fcf31c8714d27cec3455a94552650)
 * [getClient](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a968afd9daa0b0f13b65a2ac61369d73a)
 * [getHash](classansys-dpf-scoping.md#classansys-dpf-scoping-1a860cdcd91dc058236d1769fa6b880533)
-* [getHashableKey](classansys-dpf-scoping.md#classansys-dpf-scoping-1a7081b6456a9fadb2031fa2f65028c123)
 * [getIds](classansys-dpf-scoping.md#classansys-dpf-scoping-1a7377823a48ee69e439a8589627c5e6c0)
 * [hasBeenMovedLocally](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a1a5634202c15404b6b24e8f50e51cb66)
 * [hashIds](classansys-dpf-scoping.md#classansys-dpf-scoping-1a0b2cb58e52e98cd3e3a97c5fd8889e8b)
@@ -48,7 +47,6 @@ The scoping is entities ids representing a subset of the model's support. Typica
 * [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping-1ae1d319d0e8a3704e26556a8b11da2273)
 * [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping-1a95d3c08798fc15fb9daf34de74972518)
 * [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping-1a6ba7035c72a55f1213134becfdcca71a)
-* [setHashableKey](classansys-dpf-scoping.md#classansys-dpf-scoping-1a0415713e75068c4b5ba8a57cc2497fa2)
 * [setIds](classansys-dpf-scoping.md#classansys-dpf-scoping-1a021a022f87287b786ff9b3c92deb0e69)
 * [setIds](classansys-dpf-scoping.md#classansys-dpf-scoping-1aad7349f7505d953324c71900cf3d020c)
 * [setLocation](classansys-dpf-scoping.md#classansys-dpf-scoping-1abfc7b7b2376db292a67d05e9b7828367)
@@ -104,7 +102,7 @@ Create a scoping of [ids](classansys-dpf-scoping.md#classansys-dpf-scoping-1acf2
 
 **Parameters**:
 
-* std::vector< [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) > const & **ids**: [in] Vector of [ids](classansys-dpf-scoping.md#classansys-dpf-scoping-1acf26749e29d9f23de6c70806ccfaea6b).
+* std::vector< [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) > const & **ids**: [in] Vector of [ids](classansys-dpf-scoping.md#classansys-dpf-scoping-1acf26749e29d9f23de6c70806ccfaea6b).
 * [ansys::dpf::Location](structansys-dpf-location.md#structansys-dpf-location) **location**: [in] [Location](structansys-dpf-location.md#structansys-dpf-location) of scoping.
 
 **Return type**: 
@@ -134,7 +132,7 @@ Create a scoping of [ids](classansys-dpf-scoping.md#classansys-dpf-scoping-1acf2
 
 **Parameters**:
 
-* std::vector< [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) > const & **ids**: [in] Vector of [ids](classansys-dpf-scoping.md#classansys-dpf-scoping-1acf26749e29d9f23de6c70806ccfaea6b).
+* std::vector< [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) > const & **ids**: [in] Vector of [ids](classansys-dpf-scoping.md#classansys-dpf-scoping-1acf26749e29d9f23de6c70806ccfaea6b).
 * [ansys::dpf::Location](structansys-dpf-location.md#structansys-dpf-location) **location**: [in] [Location](structansys-dpf-location.md#structansys-dpf-location) of scoping.
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
@@ -422,7 +420,7 @@ Update scoping to vector of new [ids](classansys-dpf-scoping.md#classansys-dpf-s
 
 **Parameters**:
 
-* std::vector< [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) > const & **ids**: [in] New [ids](classansys-dpf-scoping.md#classansys-dpf-scoping-1acf26749e29d9f23de6c70806ccfaea6b).
+* std::vector< [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) > const & **ids**: [in] New [ids](classansys-dpf-scoping.md#classansys-dpf-scoping-1acf26749e29d9f23de6c70806ccfaea6b).
 
 **Return type**: void
 
@@ -451,8 +449,8 @@ Update scoping to list of new [ids](classansys-dpf-scoping.md#classansys-dpf-sco
 
 **Parameters**:
 
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) * **ids**: [in] List of [ids](classansys-dpf-scoping.md#classansys-dpf-scoping-1acf26749e29d9f23de6c70806ccfaea6b).
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size**: [in] Number of [ids](classansys-dpf-scoping.md#classansys-dpf-scoping-1acf26749e29d9f23de6c70806ccfaea6b).
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) * **ids**: [in] List of [ids](classansys-dpf-scoping.md#classansys-dpf-scoping-1acf26749e29d9f23de6c70806ccfaea6b).
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size**: [in] Number of [ids](classansys-dpf-scoping.md#classansys-dpf-scoping-1acf26749e29d9f23de6c70806ccfaea6b).
 
 **Return type**: void
 
@@ -512,7 +510,7 @@ Number of entries in scoping.
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -542,9 +540,9 @@ Id at index offset into vector of [ids](classansys-dpf-scoping.md#classansys-dpf
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**: [in] index into vector of [ids](classansys-dpf-scoping.md#classansys-dpf-scoping-1acf26749e29d9f23de6c70806ccfaea6b).
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**: [in] index into vector of [ids](classansys-dpf-scoping.md#classansys-dpf-scoping-1acf26749e29d9f23de6c70806ccfaea6b).
 
-**Return type**: [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e)
+**Return type**: [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e)
 
 <!--
 **TODO**:
@@ -579,9 +577,9 @@ Index of id within vector of [ids](classansys-dpf-scoping.md#classansys-dpf-scop
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **id**: [in] id.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **id**: [in] id.
 
-**Return type**: [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920)
+**Return type**: [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920)
 
 <!--
 **TODO**:
@@ -611,9 +609,9 @@ Id at index offset into vector of [ids](classansys-dpf-scoping.md#classansys-dpf
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**
 
-**Return type**: [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e)
+**Return type**: [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e)
 
 <!--
 **TODO**:
@@ -643,9 +641,9 @@ Pointer to list of [ids](classansys-dpf-scoping.md#classansys-dpf-scoping-1acf26
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) & **size**: [out] Length of list.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) & **size**: [out] Length of list.
 
-**Return type**: const [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) *
+**Return type**: const [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) *
 
 <!--
 **TODO**:
@@ -701,7 +699,7 @@ Update ids_to_fill with scoping [ids](classansys-dpf-scoping.md#classansys-dpf-s
 
 **Parameters**:
 
-* std::vector< [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) > & **ids_to_fill**: [out] vector of [ids](classansys-dpf-scoping.md#classansys-dpf-scoping-1acf26749e29d9f23de6c70806ccfaea6b).
+* std::vector< [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) > & **ids_to_fill**: [out] vector of [ids](classansys-dpf-scoping.md#classansys-dpf-scoping-1acf26749e29d9f23de6c70806ccfaea6b).
 
 **Return type**: void
 
@@ -730,8 +728,8 @@ Set offset index into scoping to new id.
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] [Location](structansys-dpf-location.md#structansys-dpf-location) for new id.
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **id**: [in] New id.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] [Location](structansys-dpf-location.md#structansys-dpf-location) for new id.
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **id**: [in] New id.
 
 **Return type**: void
 
@@ -786,7 +784,7 @@ Reserve the container of ids.
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size**
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size**
 
 **Return type**: void
 
@@ -815,7 +813,7 @@ Resize the container of ids.
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size**
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size**
 
 **Return type**: void
 
@@ -823,62 +821,6 @@ Resize the container of ids.
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Scoping::resize"}]}`
--->
-
-<a id="classansys-dpf-scoping-1a7081b6456a9fadb2031fa2f65028c123"></a>
-### Function getHashableKey
-
-![][public]
-![][const]
-
-
-```cpp
-std::string ansys::dpf::Scoping::getHashableKey() const
-```
-
-
-
-
-Set and get an simpler hashable entity (here topology identifiers) instead of the full FE [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping) to save time
-
-
-
-**Return type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Scoping::getHashableKey"}]}`
--->
-
-<a id="classansys-dpf-scoping-1a0415713e75068c4b5ba8a57cc2497fa2"></a>
-### Function setHashableKey
-
-![][public]
-![][const]
-
-
-```cpp
-void ansys::dpf::Scoping::setHashableKey(const std::string &unique_identifier) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* const std::string & **unique_identifier**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Scoping::setHashableKey"}]}`
 -->
 
 <a id="classansys-dpf-scoping-1a860cdcd91dc058236d1769fa6b880533"></a>
@@ -908,7 +850,7 @@ Compute and get the hash of a scoping
 -->
 
 <a id="classansys-dpf-scoping-1a6abd0899c21554c8babd5985710edadc"></a>
-### Function deep\_copy
+### Function deep_copy
 
 ![][public]
 ![][const]

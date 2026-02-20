@@ -43,7 +43,7 @@ Generally, a defined [ScopingsContainer](classansys-dpf-scopingscontainer.md#cla
 * [at](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer-1a857bbd814a0a207fd94bd93ad2fe745c)
 * [callAPI](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1aea34d37e0c080126eff70db34bf46597)
 * [createSubScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer-1a937781f3a15cc04f81d38e290eb348e3)
-* [deep\_copy](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer-1a223fbc11c3fb729488a5f33772b2b2cf)
+* [deep_copy](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer-1a223fbc11c3fb729488a5f33772b2b2cf)
 * [describe](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a9977945710983bc03d2940fa007847b2)
 * [empty](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a39cd546c42518e2332be8f287db95459)
 * [emptyScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer-1a915d28f8d3b7869182ca79f9c4269b4c)
@@ -111,7 +111,7 @@ ansys::dpf::ScopingsContainer::ScopingsContainer()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -136,7 +136,7 @@ virtual ansys::dpf::ScopingsContainer::~ScopingsContainer()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -165,7 +165,7 @@ ansys::dpf::ScopingsContainer::ScopingsContainer(ScopingsContainer const &)
 
 * ScopingsContainer const &
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -194,7 +194,7 @@ ansys::dpf::ScopingsContainer::ScopingsContainer(ScopingsContainer &&) noexcept
 
 * ScopingsContainer &&
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -223,7 +223,7 @@ Create a new scopings container on a server.
 
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -253,7 +253,7 @@ Create a group of scopings with the given labels on a server.
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 * std::vector< std::string > const & **labels**: [in] Labels for group of scopings.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -283,7 +283,7 @@ Retrieve an existing instance of [ScopingsContainer](classansys-dpf-scopingscont
 * int **id**: [in] Id of the [ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer) object on the server's database.
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -312,7 +312,7 @@ Create a group of scopings with the given labels.
 
 * std::vector< std::string > const & **labels**: [in] Labels for group of scopings.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -399,7 +399,7 @@ Scoping ansys::dpf::ScopingsContainer::operator[](dp_int index)
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**: [in] Index of scoping.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**: [in] Index of scoping.
 
 **Return type**: [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping)
 
@@ -430,7 +430,7 @@ Scoping ansys::dpf::ScopingsContainer::at(dp_index index)
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of scoping to get.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of scoping to get.
 
 **Return type**: [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping)
 
@@ -462,7 +462,7 @@ const Scoping ansys::dpf::ScopingsContainer::at(dp_index index) const
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of scoping to get.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of scoping to get.
 
 **Return type**: const [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping)
 
@@ -492,7 +492,7 @@ Update [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping) at given inde
 **Parameters**:
 
 * [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping) & **f**: [in] New scoping.
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of scoping to update.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of scoping to update.
 
 **Return type**: void
 
@@ -589,7 +589,7 @@ std::vector< dp_index > ansys::dpf::ScopingsContainer::getScopingsIndices(LabelS
 
 * [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) const & **lab_space**: [in] [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) defining scopings for which to get indices.
 
-**Return type**: std::vector< [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) >
+**Return type**: std::vector< [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) >
 
 <!--
 **TODO**:
@@ -685,7 +685,7 @@ Vector of matching [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping) t
 
 * [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) const & **label_space**: [in] [Label](structansys-dpf-label.md#structansys-dpf-label) space for which to get entries.
 
-**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) >
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) >
 
 <!--
 **TODO**:
@@ -724,7 +724,7 @@ Create a new [ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-
 -->
 
 <a id="classansys-dpf-scopingscontainer-1a223fbc11c3fb729488a5f33772b2b2cf"></a>
-### Function deep\_copy
+### Function deep_copy
 
 ![][public]
 ![][const]
@@ -851,7 +851,7 @@ static ScopingsContainer ansys::dpf::ScopingsContainer::emptyScopingsContainer()
 
 
 
-Create an empty scopings container. 
+Create an empty scopings container.
 **Returns**:
 
 Empty [ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer).
