@@ -4,4 +4,4 @@
 
 #### *property* LookUpTable1D.is_list_item
 
-Specifies whether the object is an item of a list
+Specifies wether the object is an item of a list

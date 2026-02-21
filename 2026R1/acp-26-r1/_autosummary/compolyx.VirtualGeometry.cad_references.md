@@ -4,4 +4,4 @@
 
 #### *property* VirtualGeometry.cad_references
 
-Dictionary of all CAD references.
+Dictionary of all cad references.

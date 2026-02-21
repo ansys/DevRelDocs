@@ -2,9 +2,9 @@
 
 <a id="compolyx.MaterialData.export_matml"></a>
 
-#### MaterialData.export_matml(path, unit_system=None)
+#### MaterialData.export_matml(path: str, unit_system=None)
 
-Export materials to ANSYS Engineering Data MatML format.
+Export materials to ANSYS Engineering Data MatML format
 
 * **Parameters:**
   - path: Path to file to write.

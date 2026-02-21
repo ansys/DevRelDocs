@@ -4,4 +4,4 @@
 
 #### *property* Fabric.ignore_for_postprocessing
 
-Flag if this material is not postprocessed.
+Flag if this material is NOT post-processed.

@@ -4,4 +4,4 @@
 
 #### *property* ImportedSolidModel.ext_id
 
-ID of corresponding Mechanical Model within WB arhcive (ComponentID).
+Id of corresponding Mechanical Model within WB arhcive (ComponentID).

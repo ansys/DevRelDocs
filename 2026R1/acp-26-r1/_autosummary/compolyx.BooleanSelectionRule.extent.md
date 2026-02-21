@@ -4,4 +4,4 @@
 
 #### *property* BooleanSelectionRule.extent
 
-Extent of the rule
+extent of the rule

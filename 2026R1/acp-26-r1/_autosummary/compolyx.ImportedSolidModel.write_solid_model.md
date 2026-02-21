@@ -7,4 +7,4 @@
 Export solid model as FE model for ANSYS.
 
 * **Parameters:**
-  - path: Out file path (supported formats are `.cdb` or `.h5`).
+  - path: Out file path (current supported formats are .cdb or .h5).

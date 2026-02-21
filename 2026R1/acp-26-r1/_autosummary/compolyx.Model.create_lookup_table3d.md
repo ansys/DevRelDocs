@@ -11,7 +11,7 @@ Create a new 3D look-up table object.
   - id : ID
   - tabular_data: data points and values of the look-up table
   - algorithm_type: specify which algorithm type is used for the interpolation
-  - use_default_search_radius: force the program to use the default search radius. Used for the algorithm weighted_nearest_neighbor.
+  - use_default_search_radius: force the program to use the default search radius. Used for the algorithm weighted_nearest_neighbor”.
   - search_radius: set a custom search radius. Used if use_default_search_radius is false. Used for the algorithm weighted_nearest_neighbor.
   - dimensions: list of the dimensions of the columns (e.g. length for coordinates)
   - use_global_coordinate_system: Boolean telling if we want to use the global coordinate system or not. It is possible to pass a Rosette but still use the global one.

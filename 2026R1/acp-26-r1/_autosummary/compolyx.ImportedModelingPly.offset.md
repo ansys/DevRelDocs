@@ -4,4 +4,4 @@
 
 #### *property* ImportedModelingPly.offset
 
-Defines whether the imported mesh defines the bottom, middle, or top surface of the ply.
+Defines whether the imported mesh defines the bottom, middle or top surface of the ply.

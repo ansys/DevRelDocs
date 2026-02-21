@@ -4,4 +4,4 @@
 
 #### *property* CADFace.active
 
-Active status of object
+active status of object

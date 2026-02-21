@@ -4,4 +4,4 @@
 
 #### *property* ModelingPly.thickness_field_type
 
-The type of the Thickness field `absolute` or `relative`
+The type of the Thickness field ‘absolute’ or ‘relative’

@@ -7,7 +7,7 @@
 Remove 1 entity to the Data Scope of a plot.
 
 * **Parameters:**
-  - entity: Entity to be removed. Applicable are `Element Set`, `Oriented Selection Set`, `Modeling Ply`, `Production Ply`, `Analysis Ply`, and `Sampling Point`.
+  - entity: Entity to be removed. Applicable are Element Set, Oriented Selection Set, Modeling Ply, Production Ply, Analysis Ply, and Sampling Point
 
 **Example:**
 : Remove the Element Set “My_ESet” from my_plot:

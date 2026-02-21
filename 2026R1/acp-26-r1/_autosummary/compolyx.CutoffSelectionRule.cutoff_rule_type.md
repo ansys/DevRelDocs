@@ -4,4 +4,4 @@
 
 #### *property* CutoffSelectionRule.cutoff_rule_type
 
-Cutoff rule type. Available options: `geometry`, `taper`, `variable_taper`
+Cutoff rule type, valid values geometry,taper,variable_taper

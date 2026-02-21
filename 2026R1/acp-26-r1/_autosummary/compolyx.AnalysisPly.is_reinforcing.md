@@ -6,5 +6,5 @@
 
 True if the AnalysisPly is a reinforcing ply.
 
-For instance, if linked to a Layup Mapping object of type `reinforcing` or
-to an Imported Solid Model via a Mapping Object of type `reinforcing`.
+For instance, if linked to a Layup Mapping object of type “reinforcing” or
+to an Imported Solid Model via a Mapping Object of type “reinforcing”.

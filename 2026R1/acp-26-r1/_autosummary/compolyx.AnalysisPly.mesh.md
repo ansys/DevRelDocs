@@ -4,4 +4,4 @@
 
 #### *property* AnalysisPly.mesh
 
-Mesh. Only available if analysis ply is reinforced.
+Mesh. Only available if analysis plyis reinforcement

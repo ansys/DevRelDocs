@@ -4,4 +4,4 @@
 
 #### *property* LookUpTableBase.column_types
 
-a list of column types (`scalar` or `direction`)
+a list of column types (‘scalar’, or ‘direction’)

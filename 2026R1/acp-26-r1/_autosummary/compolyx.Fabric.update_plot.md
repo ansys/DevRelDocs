@@ -6,4 +6,4 @@
 
 Updates the 2D plot.
 
-Note that the coupling effect is always neglected (which is anyways 0 for a single fabric).
+Note: The coupling effect is always neglected (which is anyway 0 for a single fabric).

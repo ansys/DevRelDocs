@@ -4,7 +4,7 @@
 
 #### PropertySet.query(variables=None, environment_point=None)
 
-Query PropertySet data.
+Query PropertySet data
 
 The available property names on this PropertySet can be retrieved through property_names.
 

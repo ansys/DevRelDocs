@@ -1,17 +1,8 @@
-# Introduction
+# The ACP scripting interface
 
-The Ansys Composite Prep™ (ACP) application is a preprocessor that enables engineers to define and visualize layered composite structures. It lets you create complex layups by providing the ability to model thin structures as shells and advanced solid modeling capabilities, such as extruding shell models to solid models and mapping layup information onto existing solid models. The preprocessor uses a ply-based approach, meaning the layup definition is independent of small geometry and mesh changes. ACP can be used with many third-party applications through the Composite CAE H5 interface.
+The ACP scripting interface provides programmable control of the ACP application.
 
-The ACP APIs (from the scripting interface) enable you to easily perform the following tasks:
-
-* Automate layup definitions
-* Parameterize the layup model
-* Interact with third-party Python packages
-
-To use the key features of ACP through its APIs, begin with [Getting started](getting_started_acp.md).
-
-Table of contents:
-
+* [Introduction]()
 * [Getting started](getting_started_acp.md)
   * [Basic scripting](getting_started_acp.md#basic-scripting)
   * [Advanced scripting](getting_started_acp.md#advanced-scripting)

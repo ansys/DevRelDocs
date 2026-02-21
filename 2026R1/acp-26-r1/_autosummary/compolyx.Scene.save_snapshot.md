@@ -10,4 +10,4 @@ Create a snapshot of the scene.
   - path: File path.
   - width: Width in pixels of the snapshot.
   - height: Height in pixels of the snapshot.
-  - draw_background: Boolean for whether to draw the background. If `False`, the background is white.
+  - draw_background: Boolean for whether to draw the background. If ‘False’, the background is white.

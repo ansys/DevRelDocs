@@ -15,10 +15,10 @@ Create a new oriented selection set.
   - geometries: Virtual geometries.
   - rosettes: Rosettes for the oriented selection set.
   - rosette_selection_method: Method to calculate element orientation
-    : (`minimum_angle`, `maximum_angle`, `minimum_distance`,
-      `minimum_angle_superposed`, `minimum_distance_superposed`,
-      `maximum_angle_superposed`, `ansys_classic`, or
-      `tabular_values`).
+    : (‘minimum_angle’, ‘maximum_angle’, ‘minimum_distance’,
+      ‘minimum_angle_superposed’, ‘minimum_distance_superposed’,
+      ‘maximum_angle_superposed’, ‘ansys_classic’, or
+      ‘tabular_values’).
   - reference_direction_field: Table column used to compute reference directions.
   - draping: Draping enabled.
   - draping_seed_point: Seed point used to start draping.
@@ -26,7 +26,7 @@ Create a new oriented selection set.
   - auto_draping_direction: Generate direction for draping.
   - draping_mesh_size: Mesh size for draping.
   - use_default_draping_mesh_size: Enable this property to use the default size for the draping mesh. The default is the average element size of the shell mesh.
-  - draping_material_model: Material model for draping, either `woven` or `unidirectional`.
+  - draping_material_model: Material model for draping, either ‘woven’ or ‘unidirectional’.
   - draping_ud_coefficient: Coefficient for the unidirectional draping material model.
   - rotation_angle: Angle to rotate the reference directions around the orientation directions (in degree).
 * **Returns:**
