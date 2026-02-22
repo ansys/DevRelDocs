@@ -1,4 +1,4 @@
-# <a id="OpenTD_PostProcessing_AdditionalDatasetInfo"></a> Class AdditionalDatasetInfo
+# Class AdditionalDatasetInfo
 
 Namespace: [OpenTD.PostProcessing](OpenTD.PostProcessing.md)  
 Assembly: OpenTD.dll  
@@ -6,10 +6,18 @@ Assembly: OpenTD.dll
 Abstract class for data specific to each type of Dataset.
 
 ```csharp
+[Union(0, typeof(AdditionalCompareInfo))]
+[Union(1, typeof(AdditionalHeatFlowInfo))]
+[Union(2, typeof(AdditionalHeatFlowMapInfo))]
+[Union(3, typeof(AdditionalHeatrateInfo))]
+[Union(4, typeof(AdditionalRadkInfo))]
+[Union(5, typeof(AdditionalSindaInfo))]
+[Union(6, typeof(AdditionalTextInfo))]
+[Union(7, typeof(AdditionalTextTransientInfo))]
 public abstract class AdditionalDatasetInfo
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AdditionalDatasetInfo](OpenTD.PostProcessing.AdditionalDatasetInfo.md)
@@ -25,7 +33,7 @@ public abstract class AdditionalDatasetInfo
 [AdditionalTextInfo](OpenTD.PostProcessing.AdditionalTextInfo.md), 
 [AdditionalTextTransientInfo](OpenTD.PostProcessing.AdditionalTextTransientInfo.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -37,7 +45,7 @@ public abstract class AdditionalDatasetInfo
 
 ## Constructors
 
-### <a id="OpenTD_PostProcessing_AdditionalDatasetInfo__ctor"></a> AdditionalDatasetInfo\(\)
+### AdditionalDatasetInfo\(\)
 
 ```csharp
 public AdditionalDatasetInfo()
@@ -45,9 +53,10 @@ public AdditionalDatasetInfo()
 
 ## Properties
 
-### <a id="OpenTD_PostProcessing_AdditionalDatasetInfo_Pathname"></a> Pathname
+### Pathname
 
 ```csharp
+[IgnoreMember]
 public string Pathname { get; }
 ```
 
@@ -55,7 +64,7 @@ public string Pathname { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_AdditionalDatasetInfo__pathname"></a> \_pathname
+### \_pathname
 
 Do not use.
 
@@ -70,4 +79,5 @@ public string _pathname { get; set; }
 ## See Also
 
 [Dataset](OpenTD.PostProcessing.Dataset.md)
+
 

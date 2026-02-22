@@ -1,4 +1,4 @@
-# <a id="OpenTD_Measure"></a> Class Measure
+# Class Measure
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,10 +6,11 @@ Assembly: OpenTD.dll
 Client-side representation of a TD Measure object.
 
 ```csharp
+[MessagePackObject(true)]
 public class Measure : TdDbEntityData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -17,11 +18,11 @@ public class Measure : TdDbEntityData, IUpdatable
 [TdDbEntityData](OpenTD.TdDbEntityData.md) ← 
 [Measure](OpenTD.Measure.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [TdDbEntityData.SetFrom\(TdDbEntityData\)](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_SetFrom\_OpenTD\_TdDbEntityData\_), 
 [TdDbEntityData.Layer](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_Layer), 
@@ -53,7 +54,7 @@ public class Measure : TdDbEntityData, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_Measure__ctor"></a> Measure\(\)
+### Measure\(\)
 
 ```csharp
 public Measure()
@@ -61,7 +62,7 @@ public Measure()
 
 ## Properties
 
-### <a id="OpenTD_Measure_AllowMappingToXrefDomain"></a> AllowMappingToXrefDomain
+### AllowMappingToXrefDomain
 
 ```csharp
 public bool AllowMappingToXrefDomain { get; set; }
@@ -71,7 +72,7 @@ public bool AllowMappingToXrefDomain { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Measure_Comment"></a> Comment
+### Comment
 
 ```csharp
 public string Comment { get; set; }
@@ -81,7 +82,7 @@ public string Comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Measure_Cond"></a> Cond
+### Cond
 
 ```csharp
 public Dimensional<Conductance> Cond { get; set; }
@@ -91,7 +92,7 @@ public Dimensional<Conductance> Cond { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Conductance](OpenTD.Dimension.Conductance.md)\>
 
-### <a id="OpenTD_Measure_CondExp"></a> CondExp
+### CondExp
 
 ```csharp
 public ExpressionData CondExp { get; set; }
@@ -101,7 +102,7 @@ public ExpressionData CondExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_Measure_DrawName"></a> DrawName
+### DrawName
 
 ```csharp
 public bool DrawName { get; set; }
@@ -111,7 +112,7 @@ public bool DrawName { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Measure_Enabled"></a> Enabled
+### Enabled
 
 ```csharp
 public int Enabled { get; set; }
@@ -121,7 +122,7 @@ public int Enabled { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Measure_EnabledExp"></a> EnabledExp
+### EnabledExp
 
 ```csharp
 public ExpressionData EnabledExp { get; set; }
@@ -131,7 +132,7 @@ public ExpressionData EnabledExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_Measure_GroupName"></a> GroupName
+### GroupName
 
 ```csharp
 public string GroupName { get; set; }
@@ -141,7 +142,7 @@ public string GroupName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Measure_MapOption"></a> MapOption
+### MapOption
 
 ```csharp
 public int MapOption { get; set; }
@@ -151,7 +152,7 @@ public int MapOption { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Measure_Name"></a> Name
+### Name
 
 ```csharp
 public string Name { get; set; }
@@ -161,7 +162,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Measure_NodeId"></a> NodeId
+### NodeId
 
 ```csharp
 public int NodeId { get; set; }
@@ -171,7 +172,7 @@ public int NodeId { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Measure_Origin"></a> Origin
+### Origin
 
 ```csharp
 public Point3d Origin { get; set; }
@@ -181,7 +182,7 @@ public Point3d Origin { get; set; }
 
  [Point3d](OpenTD.Point3d.md)
 
-### <a id="OpenTD_Measure_OutputNode"></a> OutputNode
+### OutputNode
 
 ```csharp
 public bool OutputNode { get; set; }
@@ -191,7 +192,7 @@ public bool OutputNode { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Measure_OutputRegister"></a> OutputRegister
+### OutputRegister
 
 ```csharp
 public bool OutputRegister { get; set; }
@@ -201,7 +202,7 @@ public bool OutputRegister { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Measure_RegisterName"></a> RegisterName
+### RegisterName
 
 ```csharp
 public string RegisterName { get; set; }
@@ -211,7 +212,7 @@ public string RegisterName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Measure_Size"></a> Size
+### Size
 
 ```csharp
 public Dimensional<ModelLength> Size { get; set; }
@@ -221,7 +222,7 @@ public Dimensional<ModelLength> Size { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_Measure_Submodel"></a> Submodel
+### Submodel
 
 ```csharp
 public string Submodel { get; set; }
@@ -231,7 +232,7 @@ public string Submodel { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Measure_ThermalMass"></a> ThermalMass
+### ThermalMass
 
 ```csharp
 public Dimensional<ThermalMass> ThermalMass { get; set; }
@@ -241,7 +242,7 @@ public Dimensional<ThermalMass> ThermalMass { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ThermalMass](OpenTD.Dimension.ThermalMass.md)\>
 
-### <a id="OpenTD_Measure_ThermalMassExp"></a> ThermalMassExp
+### ThermalMassExp
 
 ```csharp
 public ExpressionData ThermalMassExp { get; set; }
@@ -251,7 +252,7 @@ public ExpressionData ThermalMassExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_Measure_UseContactAndMass"></a> UseContactAndMass
+### UseContactAndMass
 
 ```csharp
 public bool UseContactAndMass { get; set; }
@@ -261,7 +262,7 @@ public bool UseContactAndMass { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Measure_UseMLI"></a> UseMLI
+### UseMLI
 
 ```csharp
 public bool UseMLI { get; set; }
@@ -271,9 +272,10 @@ public bool UseMLI { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Measure_ZAxis"></a> ZAxis
+### ZAxis
 
 ```csharp
+[IgnoreMember]
 public DimensionlessVector3d ZAxis { get; set; }
 ```
 
@@ -281,7 +283,7 @@ public DimensionlessVector3d ZAxis { get; set; }
 
  [DimensionlessVector3d](OpenTD.DimensionlessVector3d.md)
 
-### <a id="OpenTD_Measure__ZAxis"></a> \_ZAxis
+### \_ZAxis
 
 Do not use.
 
@@ -295,7 +297,7 @@ public Vector3d _ZAxis { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Measure_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -307,7 +309,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_Measure_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -315,11 +317,12 @@ Updates the TD entity with the latest client data.
 public override void Update()
 ```
 
-### <a id="OpenTD_Measure_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
 ```csharp
 public override void UpdateFromTD()
 ```
+
 

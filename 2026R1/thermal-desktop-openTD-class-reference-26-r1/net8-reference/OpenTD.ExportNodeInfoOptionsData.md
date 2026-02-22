@@ -1,4 +1,4 @@
-# <a id="OpenTD_ExportNodeInfoOptionsData"></a> Class ExportNodeInfoOptionsData
+# Class ExportNodeInfoOptionsData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -8,15 +8,16 @@ which can be used to get node info as a list (the default) or
 write node info to the screen or to a file.
 
 ```csharp
+[MessagePackObject(true)]
 public class ExportNodeInfoOptionsData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ExportNodeInfoOptionsData](OpenTD.ExportNodeInfoOptionsData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -28,7 +29,7 @@ public class ExportNodeInfoOptionsData
 
 ## Constructors
 
-### <a id="OpenTD_ExportNodeInfoOptionsData__ctor"></a> ExportNodeInfoOptionsData\(\)
+### ExportNodeInfoOptionsData\(\)
 
 ```csharp
 public ExportNodeInfoOptionsData()
@@ -36,7 +37,7 @@ public ExportNodeInfoOptionsData()
 
 ## Properties
 
-### <a id="OpenTD_ExportNodeInfoOptionsData_Filename"></a> Filename
+### Filename
 
 ```csharp
 public RootedPathname Filename { get; set; }
@@ -46,7 +47,7 @@ public RootedPathname Filename { get; set; }
 
  [RootedPathname](OpenTD.Utility.RootedPathname.md)
 
-### <a id="OpenTD_ExportNodeInfoOptionsData_Format"></a> Format
+### Format
 
 ```csharp
 public string Format { get; set; }
@@ -56,7 +57,7 @@ public string Format { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_ExportNodeInfoOptionsData_OutputComments"></a> OutputComments
+### OutputComments
 
 ```csharp
 public bool OutputComments { get; set; }
@@ -66,7 +67,7 @@ public bool OutputComments { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_ExportNodeInfoOptionsData_OutputDestination"></a> OutputDestination
+### OutputDestination
 
 ```csharp
 public ExportNodeInfoOptionsData.Destinations OutputDestination { get; set; }
@@ -76,7 +77,7 @@ public ExportNodeInfoOptionsData.Destinations OutputDestination { get; set; }
 
  [ExportNodeInfoOptionsData](OpenTD.ExportNodeInfoOptionsData.md).[Destinations](OpenTD.ExportNodeInfoOptionsData.Destinations.md)
 
-### <a id="OpenTD_ExportNodeInfoOptionsData_OutputLocation"></a> OutputLocation
+### OutputLocation
 
 ```csharp
 public ExportNodeInfoOptionsData.Locations OutputLocation { get; set; }
@@ -86,9 +87,10 @@ public ExportNodeInfoOptionsData.Locations OutputLocation { get; set; }
 
  [ExportNodeInfoOptionsData](OpenTD.ExportNodeInfoOptionsData.md).[Locations](OpenTD.ExportNodeInfoOptionsData.Locations.md)
 
-### <a id="OpenTD_ExportNodeInfoOptionsData_OutputMeasureLocation"></a> OutputMeasureLocation
+### OutputMeasureLocation
 
 ```csharp
+[IgnoreMember]
 public bool OutputMeasureLocation { get; set; }
 ```
 
@@ -96,7 +98,7 @@ public bool OutputMeasureLocation { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_ExportNodeInfoOptionsData_OutputPostProcessedData"></a> OutputPostProcessedData
+### OutputPostProcessedData
 
 ```csharp
 public ExportNodeInfoOptionsData.Datasets OutputPostProcessedData { get; set; }
@@ -106,7 +108,7 @@ public ExportNodeInfoOptionsData.Datasets OutputPostProcessedData { get; set; }
 
  [ExportNodeInfoOptionsData](OpenTD.ExportNodeInfoOptionsData.md).[Datasets](OpenTD.ExportNodeInfoOptionsData.Datasets.md)
 
-### <a id="OpenTD_ExportNodeInfoOptionsData_OutputSurfaceArea"></a> OutputSurfaceArea
+### OutputSurfaceArea
 
 ```csharp
 public bool OutputSurfaceArea { get; set; }
@@ -119,4 +121,5 @@ public bool OutputSurfaceArea { get; set; }
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md).[ExportNodeInfo](OpenTD.ThermalDesktop.md\#OpenTD\_ThermalDesktop\_ExportNodeInfo\_OpenTD\_ExportNodeInfoOptionsData\_)\([ExportNodeInfoOptionsData](OpenTD.ExportNodeInfoOptionsData.md)\)
+
 

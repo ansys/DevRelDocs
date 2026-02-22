@@ -1,4 +1,4 @@
-# <a id="OpenTD_AdditionalRadiationTaskData"></a> Class AdditionalRadiationTaskData
+# Class AdditionalRadiationTaskData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,15 +6,16 @@ Assembly: OpenTD.dll
 Represents one Radiation Analysis Data Control item
 
 ```csharp
+[MessagePackObject(true)]
 public class AdditionalRadiationTaskData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AdditionalRadiationTaskData](OpenTD.AdditionalRadiationTaskData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +27,7 @@ public class AdditionalRadiationTaskData
 
 ## Constructors
 
-### <a id="OpenTD_AdditionalRadiationTaskData__ctor"></a> AdditionalRadiationTaskData\(\)
+### AdditionalRadiationTaskData\(\)
 
 ```csharp
 public AdditionalRadiationTaskData()
@@ -34,7 +35,7 @@ public AdditionalRadiationTaskData()
 
 ## Properties
 
-### <a id="OpenTD_AdditionalRadiationTaskData_CalcAlbedo"></a> CalcAlbedo
+### CalcAlbedo
 
 ```csharp
 public int CalcAlbedo { get; set; }
@@ -44,7 +45,7 @@ public int CalcAlbedo { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_CalcDiffuseSkyAlbedo"></a> CalcDiffuseSkyAlbedo
+### CalcDiffuseSkyAlbedo
 
 ```csharp
 public int CalcDiffuseSkyAlbedo { get; set; }
@@ -54,7 +55,7 @@ public int CalcDiffuseSkyAlbedo { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_CalcDiffuseSkyIR"></a> CalcDiffuseSkyIR
+### CalcDiffuseSkyIR
 
 ```csharp
 public int CalcDiffuseSkyIR { get; set; }
@@ -64,7 +65,7 @@ public int CalcDiffuseSkyIR { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_CalcDiffuseSkySolar"></a> CalcDiffuseSkySolar
+### CalcDiffuseSkySolar
 
 ```csharp
 public int CalcDiffuseSkySolar { get; set; }
@@ -74,7 +75,7 @@ public int CalcDiffuseSkySolar { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_CalcNodes"></a> CalcNodes
+### CalcNodes
 
 ```csharp
 public List<string> CalcNodes { get; set; }
@@ -84,7 +85,7 @@ public List<string> CalcNodes { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_AdditionalRadiationTaskData_CalcNodesType"></a> CalcNodesType
+### CalcNodesType
 
 ```csharp
 public int CalcNodesType { get; set; }
@@ -94,7 +95,7 @@ public int CalcNodesType { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_CalcPlanet"></a> CalcPlanet
+### CalcPlanet
 
 ```csharp
 public int CalcPlanet { get; set; }
@@ -104,7 +105,7 @@ public int CalcPlanet { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_CalcPos"></a> CalcPos
+### CalcPos
 
 ```csharp
 public List<int> CalcPos { get; set; }
@@ -114,7 +115,7 @@ public List<int> CalcPos { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### <a id="OpenTD_AdditionalRadiationTaskData_CalcPosType"></a> CalcPosType
+### CalcPosType
 
 ```csharp
 public int CalcPosType { get; set; }
@@ -124,7 +125,7 @@ public int CalcPosType { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_CalcSolar"></a> CalcSolar
+### CalcSolar
 
 ```csharp
 public int CalcSolar { get; set; }
@@ -134,7 +135,7 @@ public int CalcSolar { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_DhError"></a> DhError
+### DhError
 
 ```csharp
 public double DhError { get; set; }
@@ -144,7 +145,7 @@ public double DhError { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_DhErrorExp"></a> DhErrorExp
+### DhErrorExp
 
 ```csharp
 public ExpressionData DhErrorExp { get; set; }
@@ -154,7 +155,7 @@ public ExpressionData DhErrorExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_DhRaysError"></a> DhRaysError
+### DhRaysError
 
 ```csharp
 public ulong DhRaysError { get; set; }
@@ -164,7 +165,7 @@ public ulong DhRaysError { get; set; }
 
  [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_DhRaysErrorExp"></a> DhRaysErrorExp
+### DhRaysErrorExp
 
 ```csharp
 public ExpressionData DhRaysErrorExp { get; set; }
@@ -174,7 +175,7 @@ public ExpressionData DhRaysErrorExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_EnergyCutoffFraction"></a> EnergyCutoffFraction
+### EnergyCutoffFraction
 
 ```csharp
 public double EnergyCutoffFraction { get; set; }
@@ -184,7 +185,7 @@ public double EnergyCutoffFraction { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_EnergyCutoffFractionExp"></a> EnergyCutoffFractionExp
+### EnergyCutoffFractionExp
 
 ```csharp
 public ExpressionData EnergyCutoffFractionExp { get; set; }
@@ -194,7 +195,7 @@ public ExpressionData EnergyCutoffFractionExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_RaysPerNode"></a> RaysPerNode
+### RaysPerNode
 
 ```csharp
 public ulong RaysPerNode { get; set; }
@@ -204,7 +205,7 @@ public ulong RaysPerNode { get; set; }
 
  [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-### <a id="OpenTD_AdditionalRadiationTaskData_RaysPerNodeExp"></a> RaysPerNodeExp
+### RaysPerNodeExp
 
 ```csharp
 public ExpressionData RaysPerNodeExp { get; set; }
@@ -213,4 +214,5 @@ public ExpressionData RaysPerNodeExp { get; set; }
 #### Property Value
 
  [ExpressionData](OpenTD.ExpressionData.md)
+
 

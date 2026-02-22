@@ -1,4 +1,4 @@
-# <a id="OpenTD_FloCAD_Tee"></a> Class Tee
+# Class Tee
 
 Namespace: [OpenTD.FloCAD](OpenTD.FloCAD.md)  
 Assembly: OpenTD.dll  
@@ -10,7 +10,7 @@ Client-side representation of a tee entity in a TD instance.
 public class Tee : Port, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -20,11 +20,11 @@ RcPortData ←
 [Port](OpenTD.FloCAD.Port.md) ← 
 [Tee](OpenTD.FloCAD.Tee.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [Port.Update\(\)](OpenTD.FloCAD.Port.md\#OpenTD\_FloCAD\_Port\_Update), 
 [Port.CreateIn\(ThermalDesktop\)](OpenTD.FloCAD.Port.md\#OpenTD\_FloCAD\_Port\_CreateIn\_OpenTD\_ThermalDesktop\_), 
@@ -58,7 +58,7 @@ RcPortData ←
 
 ## Constructors
 
-### <a id="OpenTD_FloCAD_Tee__ctor"></a> Tee\(\)
+### Tee\(\)
 
 ```csharp
 public Tee()
@@ -66,7 +66,7 @@ public Tee()
 
 ## Properties
 
-### <a id="OpenTD_FloCAD_Tee_BranchPath"></a> BranchPath
+### BranchPath
 
 ```csharp
 [DataMember]
@@ -77,7 +77,7 @@ public Connection BranchPath { get; set; }
 
  [Connection](OpenTD.Connection.md)
 
-### <a id="OpenTD_FloCAD_Tee_Damp"></a> Damp
+### Damp
 
 ```csharp
 [DataMember]
@@ -88,7 +88,7 @@ public double Damp { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_FloCAD_Tee_DampExp"></a> DampExp
+### DampExp
 
 ```csharp
 [DataMember]
@@ -99,7 +99,7 @@ public ExpressionData DampExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_FloCAD_Tee_Mbranch"></a> Mbranch
+### Mbranch
 
 ```csharp
 [DataMember]
@@ -110,7 +110,7 @@ public int Mbranch { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_FloCAD_Tee_MbranchExp"></a> MbranchExp
+### MbranchExp
 
 ```csharp
 [DataMember]
@@ -121,7 +121,7 @@ public ExpressionData MbranchExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_FloCAD_Tee_Mrun"></a> Mrun
+### Mrun
 
 ```csharp
 [DataMember]
@@ -132,7 +132,7 @@ public int Mrun { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_FloCAD_Tee_MrunExp"></a> MrunExp
+### MrunExp
 
 ```csharp
 [DataMember]
@@ -143,7 +143,7 @@ public ExpressionData MrunExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_FloCAD_Tee_Rd"></a> Rd
+### Rd
 
 ```csharp
 [DataMember]
@@ -154,7 +154,7 @@ public double Rd { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_FloCAD_Tee_RdExp"></a> RdExp
+### RdExp
 
 ```csharp
 [DataMember]
@@ -165,7 +165,7 @@ public ExpressionData RdExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_FloCAD_Tee_TeeLump"></a> TeeLump
+### TeeLump
 
 ```csharp
 [DataMember]
@@ -178,7 +178,7 @@ public Connection TeeLump { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_FloCAD_Tee_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -190,7 +190,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_FloCAD_Tee_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -201,4 +201,5 @@ public override void Update()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

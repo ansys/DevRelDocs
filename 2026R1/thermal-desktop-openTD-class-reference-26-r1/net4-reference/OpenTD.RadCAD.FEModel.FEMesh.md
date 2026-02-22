@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FEModel_FEMesh"></a> Class FEMesh
+# Class FEMesh
 
 Namespace: [OpenTD.RadCAD.FEModel](OpenTD.RadCAD.FEModel.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ mesh using an FEMeshImporter only.
 public class FEMesh
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [FEMesh](OpenTD.RadCAD.FEModel.FEMesh.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,7 +27,7 @@ public class FEMesh
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_FEModel_FEMesh__ctor"></a> FEMesh\(\)
+### FEMesh\(\)
 
 ```csharp
 public FEMesh()
@@ -35,7 +35,7 @@ public FEMesh()
 
 ## Fields
 
-### <a id="OpenTD_RadCAD_FEModel_FEMesh_domains"></a> domains
+### domains
 
 ```csharp
 public Dictionary<string, Domain> domains
@@ -45,7 +45,7 @@ public Dictionary<string, Domain> domains
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [Domain](OpenTD.RadCAD.FEModel.Domain.md)\>
 
-### <a id="OpenTD_RadCAD_FEModel_FEMesh_layers"></a> layers
+### layers
 
 ```csharp
 public List<LayerData> layers
@@ -55,7 +55,7 @@ public List<LayerData> layers
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[LayerData](OpenTD.RadCAD.FEModel.LayerData.md)\>
 
-### <a id="OpenTD_RadCAD_FEModel_FEMesh_nodes"></a> nodes
+### nodes
 
 ```csharp
 public List<Node> nodes
@@ -65,7 +65,7 @@ public List<Node> nodes
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Node](OpenTD.RadCAD.FEModel.Node.md)\>
 
-### <a id="OpenTD_RadCAD_FEModel_FEMesh_radiationAnalysisGroups"></a> radiationAnalysisGroups
+### radiationAnalysisGroups
 
 ```csharp
 public Dictionary<string, FaceDomain> radiationAnalysisGroups
@@ -75,7 +75,7 @@ public Dictionary<string, FaceDomain> radiationAnalysisGroups
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [FaceDomain](OpenTD.RadCAD.FEModel.FaceDomain.md)\>
 
-### <a id="OpenTD_RadCAD_FEModel_FEMesh_solidElements"></a> solidElements
+### solidElements
 
 ```csharp
 public List<SolidElement> solidElements
@@ -85,7 +85,7 @@ public List<SolidElement> solidElements
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[SolidElement](OpenTD.RadCAD.FEModel.SolidElement.md)\>
 
-### <a id="OpenTD_RadCAD_FEModel_FEMesh_surfaceElements"></a> surfaceElements
+### surfaceElements
 
 ```csharp
 public List<SurfaceElement> surfaceElements
@@ -97,7 +97,7 @@ public List<SurfaceElement> surfaceElements
 
 ## Methods
 
-### <a id="OpenTD_RadCAD_FEModel_FEMesh_AddEdgeSpecToDomain_System_String_OpenTD_RadCAD_FEModel_EdgeSpec_"></a> AddEdgeSpecToDomain\(string, EdgeSpec\)
+### AddEdgeSpecToDomain\(string, EdgeSpec\)
 
 ```csharp
 public void AddEdgeSpecToDomain(string domainName, EdgeSpec edgeSpec)
@@ -109,7 +109,7 @@ public void AddEdgeSpecToDomain(string domainName, EdgeSpec edgeSpec)
 
 `edgeSpec` [EdgeSpec](OpenTD.RadCAD.FEModel.EdgeSpec.md)
 
-### <a id="OpenTD_RadCAD_FEModel_FEMesh_AddFaceSpecToDomain_System_String_OpenTD_RadCAD_FEModel_FaceSpec_"></a> AddFaceSpecToDomain\(string, FaceSpec\)
+### AddFaceSpecToDomain\(string, FaceSpec\)
 
 ```csharp
 public void AddFaceSpecToDomain(string domainName, FaceSpec faceSpec)
@@ -121,7 +121,7 @@ public void AddFaceSpecToDomain(string domainName, FaceSpec faceSpec)
 
 `faceSpec` [FaceSpec](OpenTD.RadCAD.FEModel.FaceSpec.md)
 
-### <a id="OpenTD_RadCAD_FEModel_FEMesh_AddNodeToDomain_System_String_System_Int32_"></a> AddNodeToDomain\(string, int\)
+### AddNodeToDomain\(string, int\)
 
 ```csharp
 public void AddNodeToDomain(string domainName, int nodeId)
@@ -133,7 +133,7 @@ public void AddNodeToDomain(string domainName, int nodeId)
 
 `nodeId` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_FEModel_FEMesh_AddSolidElementToDomain_System_String_System_Int32_"></a> AddSolidElementToDomain\(string, int\)
+### AddSolidElementToDomain\(string, int\)
 
 ```csharp
 public void AddSolidElementToDomain(string domainName, int elementId)
@@ -145,9 +145,10 @@ public void AddSolidElementToDomain(string domainName, int elementId)
 
 `elementId` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_FEModel_FEMesh_Check"></a> Check\(\)
+### Check\(\)
 
 ```csharp
 public void Check()
 ```
+
 

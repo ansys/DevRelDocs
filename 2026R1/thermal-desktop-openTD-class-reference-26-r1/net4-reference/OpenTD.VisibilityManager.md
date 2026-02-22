@@ -1,4 +1,4 @@
-# <a id="OpenTD_VisibilityManager"></a> Class VisibilityManager
+# Class VisibilityManager
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -7,12 +7,12 @@ Assembly: OpenTD.dll
 public class VisibilityManager
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [VisibilityManager](OpenTD.VisibilityManager.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -24,7 +24,7 @@ public class VisibilityManager
 
 ## Methods
 
-### <a id="OpenTD_VisibilityManager_DisplayAll"></a> DisplayAll\(\)
+### DisplayAll\(\)
 
 Turn visibility on for all objects. Does not affect layers or global type controls.
 
@@ -32,7 +32,7 @@ Turn visibility on for all objects. Does not affect layers or global type contro
 public void DisplayAll()
 ```
 
-### <a id="OpenTD_VisibilityManager_DisplayOnly_System_Collections_Generic_IEnumerable_System_String__"></a> DisplayOnly\(IEnumerable<string\>\)
+### DisplayOnly\(IEnumerable<string\>\)
 
 Turn visibility on for objects identified by handles. Turn off visibility for all other others. Does not affect layers or global type controls.
 
@@ -44,7 +44,7 @@ public void DisplayOnly(IEnumerable<string> handles)
 
 `handles` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_VisibilityManager_DisplayOnly_System_String_"></a> DisplayOnly\(string\)
+### DisplayOnly\(string\)
 
 Turn visibility one for object identified by handle. Turn off visibility for all other others. Does not affect layers or global type controls.
 
@@ -56,7 +56,7 @@ public void DisplayOnly(string handle)
 
 `handle` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_VisibilityManager_GetIdVisibility_System_Collections_Generic_IEnumerable_System_String__"></a> GetIdVisibility\(IEnumerable<string\>\)
+### GetIdVisibility\(IEnumerable<string\>\)
 
 Get list of bools for whether IDs for objects selected by handles are visible. Does not account for layers or global type controls. 
 Objects that cannot have IDs displayed will always return false.
@@ -73,7 +73,7 @@ public List<bool> GetIdVisibility(IEnumerable<string> handles)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 
-### <a id="OpenTD_VisibilityManager_GetIdVisibility_System_String_"></a> GetIdVisibility\(string\)
+### GetIdVisibility\(string\)
 
 Get bool for whether ID single object selected by handle is visible. Does not account for layers or global type controls. 
 Objects that cannot have IDs displayed will always return false.
@@ -90,7 +90,7 @@ public bool GetIdVisibility(string handle)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_VisibilityManager_GetVisibility_System_Collections_Generic_IEnumerable_System_String__"></a> GetVisibility\(IEnumerable<string\>\)
+### GetVisibility\(IEnumerable<string\>\)
 
 Get list of bools for whether objects selected by handles are set to visible. Does not account for layers or global type controls.
 
@@ -106,7 +106,7 @@ public List<bool> GetVisibility(IEnumerable<string> handles)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 
-### <a id="OpenTD_VisibilityManager_GetVisibility_System_String_"></a> GetVisibility\(string\)
+### GetVisibility\(string\)
 
 Get bool for single object selected by handle is set to visible. Does not account for layers or global type controls.
 
@@ -122,7 +122,7 @@ public bool GetVisibility(string handle)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_VisibilityManager_SetIdsOff_System_Collections_Generic_IEnumerable_System_String__"></a> SetIdsOff\(IEnumerable<string\>\)
+### SetIdsOff\(IEnumerable<string\>\)
 
 Turn off ID for objects identified by handles. Not all object types can display tags. Does not affect layers or global type controls.
 
@@ -134,7 +134,7 @@ public void SetIdsOff(IEnumerable<string> handles)
 
 `handles` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_VisibilityManager_SetIdsOff_System_String_"></a> SetIdsOff\(string\)
+### SetIdsOff\(string\)
 
 Turn off ID for one object identified by handle. Not all object types can display tags. Does not affect layers or global type controls.
 
@@ -146,7 +146,7 @@ public void SetIdsOff(string handle)
 
 `handle` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_VisibilityManager_SetIdsOn_System_Collections_Generic_IEnumerable_System_String__"></a> SetIdsOn\(IEnumerable<string\>\)
+### SetIdsOn\(IEnumerable<string\>\)
 
 Turn on ID for objects identified by handles. Not all object types can display tags. Does not affect layers or global type controls.
 
@@ -158,7 +158,7 @@ public void SetIdsOn(IEnumerable<string> handles)
 
 `handles` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_VisibilityManager_SetIdsOn_System_String_"></a> SetIdsOn\(string\)
+### SetIdsOn\(string\)
 
 Turn on ID for one object identified by handle. Not all object types can display tags. Does not affect layers or global type controls.
 
@@ -170,7 +170,7 @@ public void SetIdsOn(string handle)
 
 `handle` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_VisibilityManager_SetVisibilityOff_System_Collections_Generic_IEnumerable_System_String__"></a> SetVisibilityOff\(IEnumerable<string\>\)
+### SetVisibilityOff\(IEnumerable<string\>\)
 
 Turn off visibility for objects identified by handles. Does not affect layers or global type controls.
 
@@ -182,7 +182,7 @@ public void SetVisibilityOff(IEnumerable<string> handles)
 
 `handles` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_VisibilityManager_SetVisibilityOff_System_String_"></a> SetVisibilityOff\(string\)
+### SetVisibilityOff\(string\)
 
 Turn off visibility for one object identified by handle. Does not affect layers or global type controls.
 
@@ -194,7 +194,7 @@ public void SetVisibilityOff(string handle)
 
 `handle` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_VisibilityManager_SetVisibilityOn_System_Collections_Generic_IEnumerable_System_String__"></a> SetVisibilityOn\(IEnumerable<string\>\)
+### SetVisibilityOn\(IEnumerable<string\>\)
 
 Turn on visibility for objects identified by handles. Does not affect layers or global type controls.
 
@@ -206,7 +206,7 @@ public void SetVisibilityOn(IEnumerable<string> handles)
 
 `handles` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_VisibilityManager_SetVisibilityOn_System_String_"></a> SetVisibilityOn\(string\)
+### SetVisibilityOn\(string\)
 
 Turn on visibility for one object identified by handle. Does not affect layers or global type controls.
 
@@ -217,4 +217,5 @@ public void SetVisibilityOn(string handle)
 #### Parameters
 
 `handle` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

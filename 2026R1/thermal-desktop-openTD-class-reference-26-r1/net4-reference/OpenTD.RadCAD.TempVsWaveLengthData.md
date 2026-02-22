@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_TempVsWaveLengthData"></a> Class TempVsWaveLengthData
+# Class TempVsWaveLengthData
 
 Namespace: [OpenTD.RadCAD](OpenTD.RadCAD.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ List of temperatures vs wavelengths.
 public class TempVsWaveLengthData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [TempVsWaveLengthData](OpenTD.RadCAD.TempVsWaveLengthData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,7 +27,7 @@ public class TempVsWaveLengthData
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_TempVsWaveLengthData__ctor"></a> TempVsWaveLengthData\(\)
+### TempVsWaveLengthData\(\)
 
 ```csharp
 public TempVsWaveLengthData()
@@ -35,7 +35,7 @@ public TempVsWaveLengthData()
 
 ## Properties
 
-### <a id="OpenTD_RadCAD_TempVsWaveLengthData_data"></a> data
+### data
 
 ```csharp
 [DataMember]
@@ -46,7 +46,7 @@ public List<double> data { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="OpenTD_RadCAD_TempVsWaveLengthData_offOrOn"></a> offOrOn
+### offOrOn
 
 ```csharp
 [DataMember]
@@ -57,7 +57,7 @@ public int offOrOn { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_TempVsWaveLengthData_temperatures"></a> temperatures
+### temperatures
 
 ```csharp
 [DataMember]
@@ -68,7 +68,7 @@ public DimensionalList<Temp> temperatures { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[Temp](OpenTD.Dimension.Temp.md)\>
 
-### <a id="OpenTD_RadCAD_TempVsWaveLengthData_waveLengths"></a> waveLengths
+### waveLengths
 
 ```csharp
 [DataMember]
@@ -78,4 +78,5 @@ public DimensionalList<ModelLength> waveLengths { get; set; }
 #### Property Value
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
+
 

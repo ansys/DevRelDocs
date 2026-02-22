@@ -1,4 +1,4 @@
-# <a id="OpenTD_MergeNodesOptionsData_KeepMethods"></a> Enum MergeNodesOptionsData.KeepMethods
+# Enum MergeNodesOptionsData.KeepMethods
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -20,4 +20,5 @@ public enum MergeNodesOptionsData.KeepMethods
 `LESSER_SUBMODEL = 3` 
 
 `SMALLEST_NODE_ID = 1` 
+
 

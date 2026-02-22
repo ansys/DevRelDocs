@@ -1,4 +1,4 @@
-# <a id="OpenTD_AggregateData_WeightTypes"></a> Enum AggregateData.WeightTypes
+# Enum AggregateData.WeightTypes
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -14,4 +14,5 @@ public enum AggregateData.WeightTypes
 `MASS_WEIGHT = 0` 
 
 `VOLUME_WEIGHT = 1` 
+
 

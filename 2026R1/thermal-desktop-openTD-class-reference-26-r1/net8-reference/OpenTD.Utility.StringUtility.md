@@ -1,4 +1,4 @@
-# <a id="OpenTD_Utility_StringUtility"></a> Class StringUtility
+# Class StringUtility
 
 Namespace: [OpenTD.Utility](OpenTD.Utility.md)  
 Assembly: OpenTD.dll  
@@ -9,12 +9,12 @@ Utility methods for working with doubles.
 public static class StringUtility
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [StringUtility](OpenTD.Utility.StringUtility.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +26,7 @@ public static class StringUtility
 
 ## Methods
 
-### <a id="OpenTD_Utility_StringUtility_AppendToFilename_System_String_System_String_"></a> AppendToFilename\(string, string\)
+### AppendToFilename\(string, string\)
 
 Appends a string to a pathname, without changing the extension.
 
@@ -50,7 +50,7 @@ The string to append at the end, but before the extension.
 
 System.String.
 
-### <a id="OpenTD_Utility_StringUtility_AppendToStringWithDelimiter_System_String_System_String_System_String_"></a> AppendToStringWithDelimiter\(string, string, string\)
+### AppendToStringWithDelimiter\(string, string, string\)
 
 Appends a string to a string with a delimiter.
 If the original string is empty or whitespace, just returns the append string.
@@ -89,7 +89,7 @@ Append string is null.
 or
 Delimiter string is null.
 
-### <a id="OpenTD_Utility_StringUtility_GetHash_System_String_"></a> GetHash\(string\)
+### GetHash\(string\)
 
 Gets a string representing the integer hash the CLR generates for the input string.
 
@@ -109,7 +109,7 @@ The input string.
 
 System.String.
 
-### <a id="OpenTD_Utility_StringUtility_GetRecursiveMessage_System_Exception_"></a> GetRecursiveMessage\(Exception\)
+### GetRecursiveMessage\(Exception\)
 
 Recursively walks through successive inner exceptions to generate a single exception message.
 
@@ -129,7 +129,7 @@ The exception.
 
 System.String.
 
-### <a id="OpenTD_Utility_StringUtility_GetRecursiveStackTrace_System_Exception_"></a> GetRecursiveStackTrace\(Exception\)
+### GetRecursiveStackTrace\(Exception\)
 
 Recursively walks through successive inner exceptions to generate a single stack trace.
 
@@ -148,4 +148,5 @@ The ex.
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 System.String.
+
 

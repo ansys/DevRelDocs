@@ -1,4 +1,4 @@
-# <a id="OpenTD_Vector3d"></a> Class Vector3d
+# Class Vector3d
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -11,12 +11,12 @@ OpenTD WorkingUnits ModelLength.
 public class Vector3d
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Vector3d](OpenTD.Vector3d.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -28,7 +28,7 @@ public class Vector3d
 
 ## Constructors
 
-### <a id="OpenTD_Vector3d__ctor"></a> Vector3d\(\)
+### Vector3d\(\)
 
 Initializes a new instance of the <xref href="OpenTD.Vector3d" data-throw-if-not-resolved="false"></xref> class.
 
@@ -36,7 +36,7 @@ Initializes a new instance of the <xref href="OpenTD.Vector3d" data-throw-if-not
 public Vector3d()
 ```
 
-### <a id="OpenTD_Vector3d__ctor_System_Double_System_Double_System_Double_"></a> Vector3d\(double, double, double\)
+### Vector3d\(double, double, double\)
 
 Initializes a new instance of the <xref href="OpenTD.Vector3d" data-throw-if-not-resolved="false"></xref> class.
 
@@ -58,7 +58,7 @@ The y coordinate.
 
 The z coordinate.
 
-### <a id="OpenTD_Vector3d__ctor_OpenTD_Vector3d_"></a> Vector3d\(Vector3d\)
+### Vector3d\(Vector3d\)
 
 Initializes a new instance of the <xref href="OpenTD.Vector3d" data-throw-if-not-resolved="false"></xref> class.
 Copy constructor.
@@ -71,7 +71,7 @@ public Vector3d(Vector3d v)
 
 `v` [Vector3d](OpenTD.Vector3d.md)
 
-### <a id="OpenTD_Vector3d__ctor_OpenTD_DimensionlessVector3d_"></a> Vector3d\(DimensionlessVector3d\)
+### Vector3d\(DimensionlessVector3d\)
 
 ```csharp
 public Vector3d(DimensionlessVector3d v)
@@ -83,7 +83,7 @@ public Vector3d(DimensionlessVector3d v)
 
 ## Properties
 
-### <a id="OpenTD_Vector3d_X"></a> X
+### X
 
 ```csharp
 [DataMember]
@@ -94,7 +94,7 @@ public Dimensional<ModelLength> X { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_Vector3d_Y"></a> Y
+### Y
 
 ```csharp
 [DataMember]
@@ -105,7 +105,7 @@ public Dimensional<ModelLength> Y { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_Vector3d_Z"></a> Z
+### Z
 
 ```csharp
 [DataMember]
@@ -118,7 +118,7 @@ public Dimensional<ModelLength> Z { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Vector3d_CrossProduct_OpenTD_Vector3d_"></a> CrossProduct\(Vector3d\)
+### CrossProduct\(Vector3d\)
 
 ```csharp
 public Vector3d CrossProduct(Vector3d vv)
@@ -132,7 +132,7 @@ public Vector3d CrossProduct(Vector3d vv)
 
  [Vector3d](OpenTD.Vector3d.md)
 
-### <a id="OpenTD_Vector3d_DotProduct_OpenTD_Vector3d_"></a> DotProduct\(Vector3d\)
+### DotProduct\(Vector3d\)
 
 ```csharp
 public double DotProduct(Vector3d v)
@@ -146,7 +146,7 @@ public double DotProduct(Vector3d v)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Vector3d_Equals_System_Object_"></a> Equals\(object\)
+### Equals\(object\)
 
 Determines whether the specified object is equal to the current object.
 
@@ -164,9 +164,9 @@ The object to compare with the current object.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+[true](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool) if the specified object  is equal to the current object; otherwise, [false](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool).
 
-### <a id="OpenTD_Vector3d_GetHashCode"></a> GetHashCode\(\)
+### GetHashCode\(\)
 
 Serves as the default hash function.
 
@@ -180,7 +180,7 @@ public override int GetHashCode()
 
 A hash code for the current object.
 
-### <a id="OpenTD_Vector3d_Length"></a> Length\(\)
+### Length\(\)
 
 ```csharp
 public double Length()
@@ -190,7 +190,7 @@ public double Length()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Vector3d_LengthSqrd"></a> LengthSqrd\(\)
+### LengthSqrd\(\)
 
 ```csharp
 public double LengthSqrd()
@@ -200,7 +200,7 @@ public double LengthSqrd()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Vector3d_Mag"></a> Mag\(\)
+### Mag\(\)
 
 ```csharp
 public double Mag()
@@ -210,7 +210,7 @@ public double Mag()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Vector3d_Normal"></a> Normal\(\)
+### Normal\(\)
 
 ```csharp
 public Vector3d Normal()
@@ -220,13 +220,13 @@ public Vector3d Normal()
 
  [Vector3d](OpenTD.Vector3d.md)
 
-### <a id="OpenTD_Vector3d_Normalize"></a> Normalize\(\)
+### Normalize\(\)
 
 ```csharp
 public void Normalize()
 ```
 
-### <a id="OpenTD_Vector3d_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -240,7 +240,7 @@ public override string ToString()
 
 A string that represents the current object.
 
-### <a id="OpenTD_Vector3d_set_System_Double_System_Double_System_Double_"></a> set\(double, double, double\)
+### set\(double, double, double\)
 
 ```csharp
 public void set(double v1, double v2, double v3)
@@ -256,7 +256,7 @@ public void set(double v1, double v2, double v3)
 
 ## Operators
 
-### <a id="OpenTD_Vector3d_op_Addition_OpenTD_Vector3d_OpenTD_Vector3d_"></a> operator \+\(Vector3d, Vector3d\)
+### operator \+\(Vector3d, Vector3d\)
 
 ```csharp
 public static Vector3d operator +(Vector3d a, Vector3d b)
@@ -272,7 +272,7 @@ public static Vector3d operator +(Vector3d a, Vector3d b)
 
  [Vector3d](OpenTD.Vector3d.md)
 
-### <a id="OpenTD_Vector3d_op_Division_OpenTD_Vector3d_System_Double_"></a> operator /\(Vector3d, double\)
+### operator /\(Vector3d, double\)
 
 ```csharp
 public static Vector3d operator /(Vector3d v, double s)
@@ -288,7 +288,7 @@ public static Vector3d operator /(Vector3d v, double s)
 
  [Vector3d](OpenTD.Vector3d.md)
 
-### <a id="OpenTD_Vector3d_op_Equality_OpenTD_Vector3d_OpenTD_Vector3d_"></a> operator ==\(Vector3d, Vector3d\)
+### operator ==\(Vector3d, Vector3d\)
 
 ```csharp
 public static bool operator ==(Vector3d first, Vector3d second)
@@ -304,7 +304,7 @@ public static bool operator ==(Vector3d first, Vector3d second)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Vector3d_op_Inequality_OpenTD_Vector3d_OpenTD_Vector3d_"></a> operator \!=\(Vector3d, Vector3d\)
+### operator \!=\(Vector3d, Vector3d\)
 
 ```csharp
 public static bool operator !=(Vector3d first, Vector3d second)
@@ -320,7 +320,7 @@ public static bool operator !=(Vector3d first, Vector3d second)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Vector3d_op_Modulus_OpenTD_Vector3d_OpenTD_Vector3d_"></a> operator %\(Vector3d, Vector3d\)
+### operator %\(Vector3d, Vector3d\)
 
 ```csharp
 public static Vector3d operator %(Vector3d u, Vector3d v)
@@ -336,7 +336,7 @@ public static Vector3d operator %(Vector3d u, Vector3d v)
 
  [Vector3d](OpenTD.Vector3d.md)
 
-### <a id="OpenTD_Vector3d_op_Multiply_OpenTD_Vector3d_OpenTD_Vector3d_"></a> operator \*\(Vector3d, Vector3d\)
+### operator \*\(Vector3d, Vector3d\)
 
 ```csharp
 public static double operator *(Vector3d a, Vector3d b)
@@ -352,7 +352,7 @@ public static double operator *(Vector3d a, Vector3d b)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Vector3d_op_Multiply_System_Double_OpenTD_Vector3d_"></a> operator \*\(double, Vector3d\)
+### operator \*\(double, Vector3d\)
 
 ```csharp
 public static Vector3d operator *(double s, Vector3d v)
@@ -368,7 +368,7 @@ public static Vector3d operator *(double s, Vector3d v)
 
  [Vector3d](OpenTD.Vector3d.md)
 
-### <a id="OpenTD_Vector3d_op_Multiply_OpenTD_Vector3d_System_Double_"></a> operator \*\(Vector3d, double\)
+### operator \*\(Vector3d, double\)
 
 ```csharp
 public static Vector3d operator *(Vector3d v, double s)
@@ -384,7 +384,7 @@ public static Vector3d operator *(Vector3d v, double s)
 
  [Vector3d](OpenTD.Vector3d.md)
 
-### <a id="OpenTD_Vector3d_op_Subtraction_OpenTD_Vector3d_OpenTD_Vector3d_"></a> operator \-\(Vector3d, Vector3d\)
+### operator \-\(Vector3d, Vector3d\)
 
 ```csharp
 public static Vector3d operator -(Vector3d a, Vector3d b)
@@ -400,7 +400,7 @@ public static Vector3d operator -(Vector3d a, Vector3d b)
 
  [Vector3d](OpenTD.Vector3d.md)
 
-### <a id="OpenTD_Vector3d_op_UnaryNegation_OpenTD_Vector3d_"></a> operator \-\(Vector3d\)
+### operator \-\(Vector3d\)
 
 ```csharp
 public static Vector3d operator -(Vector3d a)
@@ -413,4 +413,5 @@ public static Vector3d operator -(Vector3d a)
 #### Returns
 
  [Vector3d](OpenTD.Vector3d.md)
+
 

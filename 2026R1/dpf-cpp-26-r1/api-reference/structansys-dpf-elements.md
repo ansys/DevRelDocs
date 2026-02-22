@@ -74,7 +74,7 @@ Predefined [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-
 * [quadratics](structansys-dpf-elements.md#structansys-dpf-elements-1a3c236de96ce4dddc85a57bab6a32bc83)
 * [quadShell4](structansys-dpf-elements.md#structansys-dpf-elements-1ac9194bac632c648b744f96a2306b428b)
 * [quadShell8](structansys-dpf-elements.md#structansys-dpf-elements-1a93a4e8340f6e8aa6c8eaddc53f4f597d)
-* [solid\_elements](structansys-dpf-elements.md#structansys-dpf-elements-1a4abe6329bb8b96b9a4b7f3ecd8fc7f2e)
+* [solid_elements](structansys-dpf-elements.md#structansys-dpf-elements-1a4abe6329bb8b96b9a4b7f3ecd8fc7f2e)
 * [tet10](structansys-dpf-elements.md#structansys-dpf-elements-1a7f276f248180559409b323fdedb70582)
 * [tet4](structansys-dpf-elements.md#structansys-dpf-elements-1a05d59369acd4f4ac6819645f2413ee22)
 * [tri3](structansys-dpf-elements.md#structansys-dpf-elements-1ac6ff34f1a725f25b7e0a095aff779136)
@@ -1175,7 +1175,7 @@ Vector of those elements with mid-side nodes (excluding shell elements).
 -->
 
 <a id="structansys-dpf-elements-1a4abe6329bb8b96b9a4b7f3ecd8fc7f2e"></a>
-### Variable solid\_elements
+### Variable solid_elements
 
 ![][public]
 ![][static]
@@ -1224,7 +1224,7 @@ static ElementDescriptor const  & ansys::dpf::elements::descriptor(dp_index elem
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **element_index**
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **element_index**
 
 **Return type**: [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor) const &
 

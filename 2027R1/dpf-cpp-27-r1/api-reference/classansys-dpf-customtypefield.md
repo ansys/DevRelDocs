@@ -30,7 +30,7 @@ Holds data located on given entities (the [Field](classansys-dpf-field.md#classa
 * [data](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1a0cfbce21104bd69617abc711be0ab2da)
 * [dataPointer](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1a58c899e74917dcbc48d90c9ed9d4a499)
 * [dataSize](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1a6563cb6e8c2c18961279c483e978d086)
-* [deep\_copy](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1a918343f671097069e91390acc73a9e83)
+* [deep_copy](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1a918343f671097069e91390acc73a9e83)
 * [describe](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a9977945710983bc03d2940fa007847b2)
 * [empty](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a39cd546c42518e2332be8f287db95459)
 * [emptyCustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1aeff7d3639c760d711ebbc4d8deb9dceb)
@@ -53,8 +53,8 @@ Holds data located on given entities (the [Field](classansys-dpf-field.md#classa
 * [numberOfEntities](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1aa9e1da353050b2c8680bb16905093bbe)
 * [operator=](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1a1b45c053c45379dcbda125fd584bdf77)
 * [operator=](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1a8435711e90293d60fc13e45ff9775bb2)
-* [push\_back](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1a570a1b90c94c38350e28270376cfe840)
-* [push\_back](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1ae709fae553fd2913b51bb0c27e18539c)
+* [push_back](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1a570a1b90c94c38350e28270376cfe840)
+* [push_back](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1ae709fae553fd2913b51bb0c27e18539c)
 * [reserve](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1a0387f74d0adb7e718e07311a05ac1e2d)
 * [resize](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1ab8ae09255c5fb3b3ed8aa7e8c0c835cd)
 * [resizeDataPointer](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1a32ea47aaddf00c00a2d243567e3f2495)
@@ -152,8 +152,8 @@ Create an empty custom type field with a client. The unitary data type will be U
 
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) to create the custom property field on.
 * UnitaryDataType *
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **reserved_number_of_entities** = 0 : [in] Number of entities to reserve in the scoping.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **reserved_num_unitary_data** = 0 : [in] Reserved size of data=reserved_num_unitary_data*unitary_data_num_bytes.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **reserved_number_of_entities** = 0 : [in] Number of entities to reserve in the scoping.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **reserved_num_unitary_data** = 0 : [in] Reserved size of data=reserved_num_unitary_data*unitary_data_num_bytes.
 
 **Return type**: 
 
@@ -184,8 +184,8 @@ Create a property with number of entities and data size. The unitary data type w
 **Parameters**:
 
 * UnitaryDataType *
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **reserved_number_of_entities** = 0 : [in] Number of entities to reserve in the scoping.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **reserved_num_unitary_data** = 0 : [in] Reserved size of data=reserved_num_unitary_data*unitary_data_num_bytes.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **reserved_number_of_entities** = 0 : [in] Number of entities to reserve in the scoping.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **reserved_num_unitary_data** = 0 : [in] Reserved size of data=reserved_num_unitary_data*unitary_data_num_bytes.
 
 **Return type**: 
 
@@ -216,9 +216,9 @@ Create an empty custom type field with a client. The unitary data type will be o
 **Parameters**:
 
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) to create the custom property field on.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **unitary_data_num_bytes**: [in] Num bytes by unitary data.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **reserved_number_of_entities** = 0 : [in] Number of entities to reserve in the scoping.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **reserved_num_unitary_data** = 0 : [in] Reserved size of data=reserved_num_unitary_data*unitary_data_num_bytes.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **unitary_data_num_bytes**: [in] Num bytes by unitary data.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **reserved_number_of_entities** = 0 : [in] Number of entities to reserve in the scoping.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **reserved_num_unitary_data** = 0 : [in] Reserved size of data=reserved_num_unitary_data*unitary_data_num_bytes.
 
 **Return type**: 
 
@@ -247,9 +247,9 @@ Create a property with number of entities and data size. The unitary data type w
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **unitary_data_num_bytes**: [in] Num bytes by unitary data.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **reserved_number_of_entities** = 0 : [in] Number of entities to reserve in the scoping.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **reserved_num_unitary_data** = 0 : [in] Reserved size of data=reserved_num_unitary_data*unitary_data_num_bytes.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **unitary_data_num_bytes**: [in] Num bytes by unitary data.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **reserved_number_of_entities** = 0 : [in] Number of entities to reserve in the scoping.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **reserved_num_unitary_data** = 0 : [in] Reserved size of data=reserved_num_unitary_data*unitary_data_num_bytes.
 
 **Return type**: 
 
@@ -540,7 +540,7 @@ Size of the data container.
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -568,7 +568,7 @@ Number of components in the property data.
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -596,7 +596,7 @@ Number of entities in the [Field](classansys-dpf-field.md#classansys-dpf-field) 
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -624,7 +624,7 @@ Number of elementary data (size = number of components) contained in the [Custom
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -633,7 +633,7 @@ Number of elementary data (size = number of components) contained in the [Custom
 -->
 
 <a id="classansys-dpf-customtypefield-1a570a1b90c94c38350e28270376cfe840"></a>
-### Function push\_back
+### Function push_back
 
 ![][public]
 
@@ -651,7 +651,7 @@ Push back the entity data. The unitary data type should be UnitaryDataType.
 
 **Parameters**:
 
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**: [in] Id of entity for which to push data.
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**: [in] Id of entity for which to push data.
 * std::vector< UnitaryDataType > const & **values**: [in] Vector of data for entity.
 
 **Return type**: void
@@ -664,7 +664,7 @@ Push back the entity data. The unitary data type should be UnitaryDataType.
 -->
 
 <a id="classansys-dpf-customtypefield-1ae709fae553fd2913b51bb0c27e18539c"></a>
-### Function push\_back
+### Function push_back
 
 ![][public]
 
@@ -682,9 +682,9 @@ Push back the entity data. The unitary data type should be UnitaryDataType.
 
 **Parameters**:
 
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**: [in] Index of entity for which to push data.
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**: [in] Index of entity for which to push data.
 * const UnitaryDataType * **values**: [in] Ptr on data for entity.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size**: [in] Number of entities.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size**: [in] Number of entities.
 
 **Return type**: void
 
@@ -781,7 +781,7 @@ Set the data pointer of the custom type field.
 
 **Parameters**:
 
-* std::vector< [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) > const & **data**: [in] Vector of data.
+* std::vector< [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) > const & **data**: [in] Vector of data.
 
 **Return type**: void
 
@@ -810,7 +810,7 @@ Set the data pointer of the custom type field.
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) const *const **data**: [in] List of data.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) const *const **data**: [in] List of data.
 * int **size**: [in] Size of list.
 
 **Return type**: void
@@ -1024,7 +1024,7 @@ void ansys::dpf::CustomTypeField::entityData(dp_index entity_index, DpfVector< U
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **entity_index**: [in] Index of entity for which to get data.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **entity_index**: [in] Index of entity for which to get data.
 * DpfVector< UnitaryDataType > & **data**: [out] Pointer to the data.
 
 **Return type**: void
@@ -1058,7 +1058,7 @@ void ansys::dpf::CustomTypeField::entityDataById(dp_id entity_id, DpfVector< Uni
 
 **Parameters**:
 
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**: [in] Id of entity for which to get data.
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**: [in] Id of entity for which to get data.
 * DpfVector< UnitaryDataType > & **data**: [out] Pointer to the data.
 
 **Return type**: void
@@ -1089,8 +1089,8 @@ Reserve the [Field](classansys-dpf-field.md#classansys-dpf-field). Only implemen
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **number_of_entities**: [in] Number of entities.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **overall_size** = 0 : [in] Total size of entity data.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **number_of_entities**: [in] Number of entities.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **overall_size** = 0 : [in] Total size of entity data.
 
 **Return type**: void
 
@@ -1119,8 +1119,8 @@ Reserve the [Field](classansys-dpf-field.md#classansys-dpf-field).
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **number_of_entities**: [in] Number of entities.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **overall_size**: [in] Total size of entity data.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **number_of_entities**: [in] Number of entities.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **overall_size**: [in] Total size of entity data.
 
 **Return type**: void
 
@@ -1149,7 +1149,7 @@ Resize the dataPointer array.
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **number_of_entities**
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **number_of_entities**
 
 **Return type**: void
 
@@ -1514,7 +1514,7 @@ Set the header of the [CustomTypeField](classansys-dpf-customtypefield.md#classa
 -->
 
 <a id="classansys-dpf-customtypefield-1a918343f671097069e91390acc73a9e83"></a>
-### Function deep\_copy
+### Function deep_copy
 
 ![][public]
 ![][const]

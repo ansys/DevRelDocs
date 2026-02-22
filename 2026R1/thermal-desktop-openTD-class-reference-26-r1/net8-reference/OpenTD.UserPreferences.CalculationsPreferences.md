@@ -1,4 +1,4 @@
-# <a id="OpenTD_UserPreferences_CalculationsPreferences"></a> Class CalculationsPreferences
+# Class CalculationsPreferences
 
 Namespace: [OpenTD.UserPreferences](OpenTD.UserPreferences.md)  
 Assembly: OpenTD.dll  
@@ -6,21 +6,22 @@ Assembly: OpenTD.dll
 Use to set the global calculations preferences.
 
 ```csharp
+[MessagePackObject(true)]
 public class CalculationsPreferences : Preferences, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 TdConnected ← 
 Preferences ← 
 [CalculationsPreferences](OpenTD.UserPreferences.CalculationsPreferences.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -32,13 +33,13 @@ Preferences ←
 
 ## Constructors
 
-### <a id="OpenTD_UserPreferences_CalculationsPreferences__ctor"></a> CalculationsPreferences\(\)
+### CalculationsPreferences\(\)
 
 ```csharp
 public CalculationsPreferences()
 ```
 
-### <a id="OpenTD_UserPreferences_CalculationsPreferences__ctor_OpenTD_ThermalDesktop_"></a> CalculationsPreferences\(ThermalDesktop\)
+### CalculationsPreferences\(ThermalDesktop\)
 
 ```csharp
 public CalculationsPreferences(ThermalDesktop _td)
@@ -50,7 +51,7 @@ public CalculationsPreferences(ThermalDesktop _td)
 
 ## Properties
 
-### <a id="OpenTD_UserPreferences_CalculationsPreferences_checkElementQualityAndErrorOffOfRun"></a> checkElementQualityAndErrorOffOfRun
+### checkElementQualityAndErrorOffOfRun
 
 ```csharp
 public int checkElementQualityAndErrorOffOfRun { get; set; }
@@ -60,7 +61,7 @@ public int checkElementQualityAndErrorOffOfRun { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_CalculationsPreferences_checkUnits"></a> checkUnits
+### checkUnits
 
 ```csharp
 public int checkUnits { get; set; }
@@ -70,7 +71,7 @@ public int checkUnits { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_CalculationsPreferences_condCapFile"></a> condCapFile
+### condCapFile
 
 ```csharp
 public string condCapFile { get; set; }
@@ -80,7 +81,7 @@ public string condCapFile { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UserPreferences_CalculationsPreferences_conductorCutoff"></a> conductorCutoff
+### conductorCutoff
 
 ```csharp
 public double conductorCutoff { get; set; }
@@ -90,7 +91,7 @@ public double conductorCutoff { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_CalculationsPreferences_contactorLinearTriSpreading"></a> contactorLinearTriSpreading
+### contactorLinearTriSpreading
 
 ```csharp
 public int contactorLinearTriSpreading { get; set; }
@@ -100,7 +101,7 @@ public int contactorLinearTriSpreading { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_CalculationsPreferences_contactorRestarts"></a> contactorRestarts
+### contactorRestarts
 
 ```csharp
 public int contactorRestarts { get; set; }
@@ -110,7 +111,7 @@ public int contactorRestarts { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_CalculationsPreferences_curvedElementRadiationMethod"></a> curvedElementRadiationMethod
+### curvedElementRadiationMethod
 
 ```csharp
 public int curvedElementRadiationMethod { get; set; }
@@ -120,7 +121,7 @@ public int curvedElementRadiationMethod { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_CalculationsPreferences_elementInsulationDisplacement"></a> elementInsulationDisplacement
+### elementInsulationDisplacement
 
 ```csharp
 public int elementInsulationDisplacement { get; set; }
@@ -130,7 +131,7 @@ public int elementInsulationDisplacement { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_CalculationsPreferences_listAllRadkCalcStatus"></a> listAllRadkCalcStatus
+### listAllRadkCalcStatus
 
 ```csharp
 public int listAllRadkCalcStatus { get; set; }
@@ -140,7 +141,7 @@ public int listAllRadkCalcStatus { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_CalculationsPreferences_loadExternalReferences"></a> loadExternalReferences
+### loadExternalReferences
 
 ```csharp
 public int loadExternalReferences { get; set; }
@@ -150,7 +151,7 @@ public int loadExternalReferences { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_CalculationsPreferences_maxCurvedElementFacetsPerFullCircle"></a> maxCurvedElementFacetsPerFullCircle
+### maxCurvedElementFacetsPerFullCircle
 
 ```csharp
 public int maxCurvedElementFacetsPerFullCircle { get; set; }
@@ -160,7 +161,7 @@ public int maxCurvedElementFacetsPerFullCircle { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_CalculationsPreferences_maxSkew"></a> maxSkew
+### maxSkew
 
 ```csharp
 public double maxSkew { get; set; }
@@ -170,7 +171,7 @@ public double maxSkew { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_CalculationsPreferences_planarElementMaxAngleDeg"></a> planarElementMaxAngleDeg
+### planarElementMaxAngleDeg
 
 ```csharp
 public double planarElementMaxAngleDeg { get; set; }
@@ -180,7 +181,7 @@ public double planarElementMaxAngleDeg { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_CalculationsPreferences_planarElementMinAngleDeg"></a> planarElementMinAngleDeg
+### planarElementMinAngleDeg
 
 ```csharp
 public double planarElementMinAngleDeg { get; set; }
@@ -190,7 +191,7 @@ public double planarElementMinAngleDeg { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_CalculationsPreferences_radcadCompressionIndex"></a> radcadCompressionIndex
+### radcadCompressionIndex
 
 ```csharp
 public int radcadCompressionIndex { get; set; }
@@ -200,7 +201,7 @@ public int radcadCompressionIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_CalculationsPreferences_showCurvedElementFacets"></a> showCurvedElementFacets
+### showCurvedElementFacets
 
 ```csharp
 public int showCurvedElementFacets { get; set; }
@@ -210,7 +211,7 @@ public int showCurvedElementFacets { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_CalculationsPreferences_solidLateralCondAspectRatio"></a> solidLateralCondAspectRatio
+### solidLateralCondAspectRatio
 
 ```csharp
 public double solidLateralCondAspectRatio { get; set; }
@@ -220,7 +221,7 @@ public double solidLateralCondAspectRatio { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_CalculationsPreferences_useSuperNetwork"></a> useSuperNetwork
+### useSuperNetwork
 
 ```csharp
 public int useSuperNetwork { get; set; }
@@ -230,7 +231,7 @@ public int useSuperNetwork { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_CalculationsPreferences_useSuperNetworkExp"></a> useSuperNetworkExp
+### useSuperNetworkExp
 
 ```csharp
 public ExpressionData useSuperNetworkExp { get; set; }
@@ -242,7 +243,7 @@ public ExpressionData useSuperNetworkExp { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_UserPreferences_CalculationsPreferences_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -250,11 +251,12 @@ Updates the TD entity with the latest client data.
 public void Update()
 ```
 
-### <a id="OpenTD_UserPreferences_CalculationsPreferences_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
 ```csharp
 public void UpdateFromTD()
 ```
+
 

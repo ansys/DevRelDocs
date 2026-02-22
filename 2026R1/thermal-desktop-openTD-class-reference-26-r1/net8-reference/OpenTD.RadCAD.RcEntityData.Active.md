@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_RcEntityData_Active"></a> Enum RcEntityData.Active
+# Enum RcEntityData.Active
 
 Namespace: [OpenTD.RadCAD](OpenTD.RadCAD.md)  
 Assembly: OpenTD.dll  
@@ -18,4 +18,5 @@ public enum RcEntityData.Active
 `NOTINCONFIG = 4` 
 
 `TOP = 0` 
+
 

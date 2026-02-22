@@ -1,4 +1,4 @@
-# <a id="OpenTD_FloCAD_CompartmentTie"></a> Class CompartmentTie
+# Class CompartmentTie
 
 Namespace: [OpenTD.FloCAD](OpenTD.FloCAD.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ Used to describe ties to extra surfaces within a compartment, such as baffles.
 public class CompartmentTie
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [CompartmentTie](OpenTD.FloCAD.CompartmentTie.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,7 +27,7 @@ public class CompartmentTie
 
 ## Constructors
 
-### <a id="OpenTD_FloCAD_CompartmentTie__ctor"></a> CompartmentTie\(\)
+### CompartmentTie\(\)
 
 ```csharp
 public CompartmentTie()
@@ -35,7 +35,7 @@ public CompartmentTie()
 
 ## Properties
 
-### <a id="OpenTD_FloCAD_CompartmentTie_AttachedSurfaces"></a> AttachedSurfaces
+### AttachedSurfaces
 
 ```csharp
 [DataMember]
@@ -46,7 +46,7 @@ public List<Connection> AttachedSurfaces { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Connection](OpenTD.Connection.md)\>
 
-### <a id="OpenTD_FloCAD_CompartmentTie_CoolMult"></a> CoolMult
+### CoolMult
 
 ```csharp
 [DataMember]
@@ -57,7 +57,7 @@ public double CoolMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_FloCAD_CompartmentTie_CoolMultExp"></a> CoolMultExp
+### CoolMultExp
 
 ```csharp
 [DataMember]
@@ -68,7 +68,7 @@ public ExpressionData CoolMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_FloCAD_CompartmentTie_HeatMult"></a> HeatMult
+### HeatMult
 
 ```csharp
 [DataMember]
@@ -79,7 +79,7 @@ public double HeatMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_FloCAD_CompartmentTie_HeatMultExp"></a> HeatMultExp
+### HeatMultExp
 
 ```csharp
 [DataMember]
@@ -90,7 +90,7 @@ public ExpressionData HeatMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_FloCAD_CompartmentTie_LiqAugMult"></a> LiqAugMult
+### LiqAugMult
 
 ```csharp
 [DataMember]
@@ -101,7 +101,7 @@ public double LiqAugMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_FloCAD_CompartmentTie_LiqAugMultExp"></a> LiqAugMultExp
+### LiqAugMultExp
 
 ```csharp
 [DataMember]
@@ -112,7 +112,7 @@ public ExpressionData LiqAugMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_FloCAD_CompartmentTie_LiqDegMult"></a> LiqDegMult
+### LiqDegMult
 
 ```csharp
 [DataMember]
@@ -123,7 +123,7 @@ public double LiqDegMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_FloCAD_CompartmentTie_LiqDegMultExp"></a> LiqDegMultExp
+### LiqDegMultExp
 
 ```csharp
 [DataMember]
@@ -134,7 +134,7 @@ public ExpressionData LiqDegMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_FloCAD_CompartmentTie_OverallMult"></a> OverallMult
+### OverallMult
 
 ```csharp
 [DataMember]
@@ -145,7 +145,7 @@ public double OverallMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_FloCAD_CompartmentTie_OverallMultExp"></a> OverallMultExp
+### OverallMultExp
 
 ```csharp
 [DataMember]
@@ -156,7 +156,7 @@ public ExpressionData OverallMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_FloCAD_CompartmentTie_RegisterDesignator"></a> RegisterDesignator
+### RegisterDesignator
 
 ```csharp
 [DataMember]
@@ -167,7 +167,7 @@ public string RegisterDesignator { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FloCAD_CompartmentTie_VapAugMult"></a> VapAugMult
+### VapAugMult
 
 ```csharp
 [DataMember]
@@ -178,7 +178,7 @@ public double VapAugMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_FloCAD_CompartmentTie_VapAugMultExp"></a> VapAugMultExp
+### VapAugMultExp
 
 ```csharp
 [DataMember]
@@ -189,7 +189,7 @@ public ExpressionData VapAugMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_FloCAD_CompartmentTie_VapDegMult"></a> VapDegMult
+### VapDegMult
 
 ```csharp
 [DataMember]
@@ -200,7 +200,7 @@ public double VapDegMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_FloCAD_CompartmentTie_VapDegMultExp"></a> VapDegMultExp
+### VapDegMultExp
 
 ```csharp
 [DataMember]
@@ -214,4 +214,5 @@ public ExpressionData VapDegMultExp { get; set; }
 ## See Also
 
 [Compartment](OpenTD.FloCAD.Compartment.md)
+
 

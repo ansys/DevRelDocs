@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FEMeshImporter"></a> Class FEMeshImporter
+# Class FEMeshImporter
 
 Namespace: [OpenTD.RadCAD](OpenTD.RadCAD.md)  
 Assembly: OpenTD.dll  
@@ -6,10 +6,11 @@ Assembly: OpenTD.dll
 Finite-element mesh importer.
 
 ```csharp
+[MessagePackObject(true)]
 public class FEMeshImporter : MeshDisplayer, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -18,11 +19,11 @@ public class FEMeshImporter : MeshDisplayer, IUpdatable
 [MeshDisplayer](OpenTD.MeshDisplayer.md) ← 
 [FEMeshImporter](OpenTD.RadCAD.FEMeshImporter.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [MeshDisplayer.LocalToWorldTransformation](OpenTD.MeshDisplayer.md\#OpenTD\_MeshDisplayer\_LocalToWorldTransformation), 
 [MeshDisplayer.TransformBy\(Matrix3d\)](OpenTD.MeshDisplayer.md\#OpenTD\_MeshDisplayer\_TransformBy\_OpenTD\_Matrix3d\_), 
@@ -64,7 +65,7 @@ public class FEMeshImporter : MeshDisplayer, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_FEMeshImporter__ctor"></a> FEMeshImporter\(\)
+### FEMeshImporter\(\)
 
 Do not use
 
@@ -72,7 +73,7 @@ Do not use
 public FEMeshImporter()
 ```
 
-### <a id="OpenTD_RadCAD_FEMeshImporter__ctor_OpenTD_Internal_Communication_ITdCommander_System_String_System_Boolean_"></a> FEMeshImporter\(ITdCommander, string, bool\)
+### FEMeshImporter\(ITdCommander, string, bool\)
 
 ```csharp
 public FEMeshImporter(ITdCommander TdProxy, string name, bool useCurrentUCS)
@@ -86,7 +87,7 @@ public FEMeshImporter(ITdCommander TdProxy, string name, bool useCurrentUCS)
 
 `useCurrentUCS` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_RadCAD_FEMeshImporter__ctor_OpenTD_Internal_Communication_ITdCommander_System_String_"></a> FEMeshImporter\(ITdCommander, string\)
+### FEMeshImporter\(ITdCommander, string\)
 
 ```csharp
 public FEMeshImporter(ITdCommander TdProxy, string handle)
@@ -100,7 +101,7 @@ public FEMeshImporter(ITdCommander TdProxy, string handle)
 
 ## Methods
 
-### <a id="OpenTD_RadCAD_FEMeshImporter_ReadMeshDataFile_System_String_OpenTD_RadCAD_FEMeshImporter_ImporterFiletype_System_Int32_System_Boolean_System_Boolean_"></a> ReadMeshDataFile\(string, ImporterFiletype, int, bool, bool\)
+### ReadMeshDataFile\(string, ImporterFiletype, int, bool, bool\)
 
 Read an external mesh data file to create a TD FEM.
 Set inputModelLengthUnits to an integer corresponding to the Units.ModelLength enum.
@@ -130,7 +131,7 @@ public void ReadMeshDataFile(string filename, FEMeshImporter.ImporterFiletype fi
 [UnitsData](OpenTD.UnitsData.md).[ModelLength](OpenTD.UnitsData.ModelLength.md), 
 [Units](OpenTD.Units.md).[WorkingUnits](OpenTD.Units.md\#OpenTD\_Units\_WorkingUnits)
 
-### <a id="OpenTD_RadCAD_FEMeshImporter_SetMesh_OpenTD_RadCAD_FEModel_FEMesh_"></a> SetMesh\(FEMesh\)
+### SetMesh\(FEMesh\)
 
 ```csharp
 public void SetMesh(FEMesh mesh)
@@ -140,7 +141,7 @@ public void SetMesh(FEMesh mesh)
 
 `mesh` [FEMesh](OpenTD.RadCAD.FEModel.FEMesh.md)
 
-### <a id="OpenTD_RadCAD_FEMeshImporter_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -148,7 +149,7 @@ Updates the TD entity with the latest client data.
 public override void Update()
 ```
 
-### <a id="OpenTD_RadCAD_FEMeshImporter_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -159,4 +160,5 @@ public override void UpdateFromTD()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

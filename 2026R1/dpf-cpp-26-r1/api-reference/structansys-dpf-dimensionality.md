@@ -7,7 +7,7 @@
 
 
 
-Entity to describe the dimensionality. 
+Entity to describe the dimensionality.
 
 **See also**: [dimensionalities](structansys-dpf-dimensionalities.md#structansys-dpf-dimensionalities)
 
@@ -207,7 +207,7 @@ ansys::dpf::Dimensionality::Dimensionality()=delete
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -237,7 +237,7 @@ ansys::dpf::Dimensionality::Dimensionality(ENature innature, std::vector< int > 
 * [ENature](structansys-dpf-dimensionality.md#structansys-dpf-dimensionality-1af4666dee615e27f2fe603240631b932f) **innature**
 * std::vector< int > const & **incomponents**: [in] [ENature](structansys-dpf-dimensionality.md#structansys-dpf-dimensionality-1af4666dee615e27f2fe603240631b932f) enum value to describe the dimension of the entity.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -266,7 +266,7 @@ The number of components of the described entity.
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:

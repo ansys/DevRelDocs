@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_DerivedDataset"></a> Class DerivedDataset
+# Class DerivedDataset
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -11,7 +11,7 @@ ConcatenatedDataset stitches together all of the data from its input datasets.
 public abstract class DerivedDataset : RecordFocusedDataset, IDataset
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Dataset](OpenTD.Results.Dataset.Dataset.md) ← 
@@ -23,11 +23,11 @@ RecordFocusedDataset ←
 [ConcatenatedDataset](OpenTD.Results.Dataset.ConcatenatedDataset.md), 
 [DatasetSlice](OpenTD.Results.Dataset.DatasetSlice.md)
 
-#### Implements
+## Implements
 
 [IDataset](OpenTD.Results.Dataset.IDataset.md)
 
-#### Inherited Members
+## Inherited Members
 
 [Dataset.GetData\(DataItemIdentifierCollection\)](OpenTD.Results.Dataset.Dataset.md\#OpenTD\_Results\_Dataset\_Dataset\_GetData\_OpenTD\_Results\_Dataset\_DataItemIdentifierCollection\_), 
 [Dataset.GetUdcaData\(DataItemIdentifierCollection\)](OpenTD.Results.Dataset.Dataset.md\#OpenTD\_Results\_Dataset\_Dataset\_GetUdcaData\_OpenTD\_Results\_Dataset\_DataItemIdentifierCollection\_), 
@@ -96,7 +96,7 @@ RecordFocusedDataset ←
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_DerivedDataset__ctor"></a> DerivedDataset\(\)
+### DerivedDataset\(\)
 
 ```csharp
 public DerivedDataset()
@@ -104,7 +104,7 @@ public DerivedDataset()
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_DerivedDataset_InputDatasets"></a> InputDatasets
+### InputDatasets
 
 The list of Datasets this derives its data from.
 
@@ -120,7 +120,7 @@ public List<IDataset> InputDatasets { get; set; }
 
 [Dataset](OpenTD.Results.Dataset.Dataset.md)
 
-### <a id="OpenTD_Results_Dataset_DerivedDataset_Source"></a> Source
+### Source
 
 If the InputDatasets have a common source, it will be returned here.
 
@@ -140,19 +140,19 @@ Cannot set DerivedDataArray.SourceDataset directly. It will be derived from Inpu
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_DerivedDataset_CheckInputDatasets"></a> CheckInputDatasets\(\)
+### CheckInputDatasets\(\)
 
 ```csharp
 protected virtual void CheckInputDatasets()
 ```
 
-### <a id="OpenTD_Results_Dataset_DerivedDataset_Close"></a> Close\(\)
+### Close\(\)
 
 ```csharp
 public override void Close()
 ```
 
-### <a id="OpenTD_Results_Dataset_DerivedDataset_GetConductorIds_System_String_"></a> GetConductorIds\(string\)
+### GetConductorIds\(string\)
 
 Gets all unique conductor numbers from InputDatasets for a given submodel.
 
@@ -172,7 +172,7 @@ The submodel name.
 
 List&lt;System.Int64&gt;.
 
-### <a id="OpenTD_Results_Dataset_DerivedDataset_GetFluidSubmodels"></a> GetFluidSubmodels\(\)
+### GetFluidSubmodels\(\)
 
 Gets all unique fluid submodel names from InputDatasets.
 
@@ -186,7 +186,7 @@ public override List<string> GetFluidSubmodels()
 
 List&lt;System.String&gt;.
 
-### <a id="OpenTD_Results_Dataset_DerivedDataset_GetFtieIds_System_String_"></a> GetFtieIds\(string\)
+### GetFtieIds\(string\)
 
 Gets all unique FTie numbers from InputDatasets for a given submodel.
 
@@ -206,7 +206,7 @@ The submodel name.
 
 List&lt;System.Int64&gt;.
 
-### <a id="OpenTD_Results_Dataset_DerivedDataset_GetIfaceIds_System_String_"></a> GetIfaceIds\(string\)
+### GetIfaceIds\(string\)
 
 Gets all unique IFace numbers from InputDatasets for a given submodel.
 
@@ -226,7 +226,7 @@ The submodel name.
 
 List&lt;System.Int64&gt;.
 
-### <a id="OpenTD_Results_Dataset_DerivedDataset_GetLumpIds_System_String_"></a> GetLumpIds\(string\)
+### GetLumpIds\(string\)
 
 Gets all unique lump numbers from InputDatasets for a given submodel.
 
@@ -246,7 +246,7 @@ The submodel name.
 
 List&lt;System.Int64&gt;.
 
-### <a id="OpenTD_Results_Dataset_DerivedDataset_GetNodeIds_System_String_"></a> GetNodeIds\(string\)
+### GetNodeIds\(string\)
 
 Gets all unique node numbers from InputDatasets for a given submodel.
 
@@ -266,7 +266,7 @@ The submodel name.
 
 List&lt;System.Int64&gt;.
 
-### <a id="OpenTD_Results_Dataset_DerivedDataset_GetPathIds_System_String_"></a> GetPathIds\(string\)
+### GetPathIds\(string\)
 
 Gets all unique path numbers from InputDatasets for a given submodel.
 
@@ -286,7 +286,7 @@ The submodel name.
 
 List&lt;System.Int64&gt;.
 
-### <a id="OpenTD_Results_Dataset_DerivedDataset_GetRegisterNames"></a> GetRegisterNames\(\)
+### GetRegisterNames\(\)
 
 Gets all unique register names from InputDatasets.
 
@@ -300,7 +300,7 @@ public override List<string> GetRegisterNames()
 
 List&lt;System.String&gt;.
 
-### <a id="OpenTD_Results_Dataset_DerivedDataset_GetThermalSubmodels"></a> GetThermalSubmodels\(\)
+### GetThermalSubmodels\(\)
 
 Gets all unique thermal submodel names from InputDatasets.
 
@@ -314,7 +314,7 @@ public override List<string> GetThermalSubmodels()
 
 List&lt;System.String&gt;.
 
-### <a id="OpenTD_Results_Dataset_DerivedDataset_GetTieIds_System_String_"></a> GetTieIds\(string\)
+### GetTieIds\(string\)
 
 Gets all unique tie numbers from InputDatasets for a given submodel.
 
@@ -334,7 +334,7 @@ The submodel name.
 
 List&lt;System.Int64&gt;.
 
-### <a id="OpenTD_Results_Dataset_DerivedDataset_ReOpen"></a> ReOpen\(\)
+### ReOpen\(\)
 
 ```csharp
 public override void ReOpen()
@@ -344,4 +344,5 @@ public override void ReOpen()
 
 [Dataset](OpenTD.Results.Dataset.Dataset.md), 
 [ConcatenatedDataset](OpenTD.Results.Dataset.ConcatenatedDataset.md)
+
 

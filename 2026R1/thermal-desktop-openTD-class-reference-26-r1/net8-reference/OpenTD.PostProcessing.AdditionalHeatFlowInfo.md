@@ -1,4 +1,4 @@
-# <a id="OpenTD_PostProcessing_AdditionalHeatFlowInfo"></a> Class AdditionalHeatFlowInfo
+# Class AdditionalHeatFlowInfo
 
 Namespace: [OpenTD.PostProcessing](OpenTD.PostProcessing.md)  
 Assembly: OpenTD.dll  
@@ -7,16 +7,17 @@ Information specific to Heat Flow type Datasets.
 Implements the <xref href="OpenTD.PostProcessing.AdditionalDatasetInfo" data-throw-if-not-resolved="false"></xref>
 
 ```csharp
+[MessagePackObject(true)]
 public class AdditionalHeatFlowInfo : AdditionalDatasetInfo
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AdditionalDatasetInfo](OpenTD.PostProcessing.AdditionalDatasetInfo.md) ← 
 [AdditionalHeatFlowInfo](OpenTD.PostProcessing.AdditionalHeatFlowInfo.md)
 
-#### Inherited Members
+## Inherited Members
 
 [AdditionalDatasetInfo.Pathname](OpenTD.PostProcessing.AdditionalDatasetInfo.md\#OpenTD\_PostProcessing\_AdditionalDatasetInfo\_Pathname), 
 [AdditionalDatasetInfo.\_pathname](OpenTD.PostProcessing.AdditionalDatasetInfo.md\#OpenTD\_PostProcessing\_AdditionalDatasetInfo\_\_pathname), 
@@ -30,7 +31,7 @@ public class AdditionalHeatFlowInfo : AdditionalDatasetInfo
 
 ## Constructors
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowInfo__ctor"></a> AdditionalHeatFlowInfo\(\)
+### AdditionalHeatFlowInfo\(\)
 
 ```csharp
 public AdditionalHeatFlowInfo()
@@ -38,7 +39,7 @@ public AdditionalHeatFlowInfo()
 
 ## Properties
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowInfo_DivideByArea"></a> DivideByArea
+### DivideByArea
 
 ```csharp
 public int DivideByArea { get; set; }
@@ -48,7 +49,7 @@ public int DivideByArea { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowInfo_DivideByAreaFile"></a> DivideByAreaFile
+### DivideByAreaFile
 
 ```csharp
 public string DivideByAreaFile { get; set; }
@@ -58,7 +59,7 @@ public string DivideByAreaFile { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowInfo_From"></a> From
+### From
 
 ```csharp
 public List<string> From { get; set; }
@@ -68,7 +69,7 @@ public List<string> From { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowInfo_Linear"></a> Linear
+### Linear
 
 ```csharp
 public int Linear { get; set; }
@@ -78,7 +79,7 @@ public int Linear { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowInfo_Radiation"></a> Radiation
+### Radiation
 
 ```csharp
 public int Radiation { get; set; }
@@ -88,7 +89,7 @@ public int Radiation { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowInfo_ReverseSignFrom"></a> ReverseSignFrom
+### ReverseSignFrom
 
 ```csharp
 public int ReverseSignFrom { get; set; }
@@ -98,7 +99,7 @@ public int ReverseSignFrom { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowInfo_ReverseSignTo"></a> ReverseSignTo
+### ReverseSignTo
 
 ```csharp
 public int ReverseSignTo { get; set; }
@@ -108,7 +109,7 @@ public int ReverseSignTo { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowInfo_ShowFrom"></a> ShowFrom
+### ShowFrom
 
 ```csharp
 public int ShowFrom { get; set; }
@@ -118,7 +119,7 @@ public int ShowFrom { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowInfo_ShowTo"></a> ShowTo
+### ShowTo
 
 ```csharp
 public int ShowTo { get; set; }
@@ -128,7 +129,7 @@ public int ShowTo { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowInfo_Ties"></a> Ties
+### Ties
 
 ```csharp
 public int Ties { get; set; }
@@ -138,7 +139,7 @@ public int Ties { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowInfo_To"></a> To
+### To
 
 ```csharp
 public List<string> To { get; set; }
@@ -152,4 +153,5 @@ public List<string> To { get; set; }
 
 [AdditionalDatasetInfo](OpenTD.PostProcessing.AdditionalDatasetInfo.md), 
 [Dataset](OpenTD.PostProcessing.Dataset.md)
+
 

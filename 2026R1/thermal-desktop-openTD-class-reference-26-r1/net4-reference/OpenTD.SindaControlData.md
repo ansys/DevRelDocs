@@ -1,4 +1,4 @@
-# <a id="OpenTD_SindaControlData"></a> Class SindaControlData
+# Class SindaControlData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ Sinda control constants. Used in Case Set.
 public class SindaControlData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [SindaControlData](OpenTD.SindaControlData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,7 +27,7 @@ public class SindaControlData
 
 ## Constructors
 
-### <a id="OpenTD_SindaControlData__ctor"></a> SindaControlData\(\)
+### SindaControlData\(\)
 
 ```csharp
 public SindaControlData()
@@ -35,7 +35,7 @@ public SindaControlData()
 
 ## Properties
 
-### <a id="OpenTD_SindaControlData_AdditionalUserInput"></a> AdditionalUserInput
+### AdditionalUserInput
 
 ```csharp
 [DataMember]
@@ -46,7 +46,7 @@ public string AdditionalUserInput { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_SindaControlData_abszro"></a> abszro
+### abszro
 
 ```csharp
 [DataMember]
@@ -57,7 +57,7 @@ public Dimensional<Temp> abszro { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Temp](OpenTD.Dimension.Temp.md)\>
 
-### <a id="OpenTD_SindaControlData_accelFromPreferences"></a> accelFromPreferences
+### accelFromPreferences
 
 ```csharp
 [DataMember]
@@ -68,7 +68,7 @@ public bool accelFromPreferences { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_SindaControlData_accelx"></a> accelx
+### accelx
 
 ```csharp
 [DataMember]
@@ -79,7 +79,7 @@ public Dimensional<Gravity> accelx { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Gravity](OpenTD.Dimension.Gravity.md)\>
 
-### <a id="OpenTD_SindaControlData_accelxExp"></a> accelxExp
+### accelxExp
 
 ```csharp
 [DataMember]
@@ -90,7 +90,7 @@ public ExpressionData accelxExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_accely"></a> accely
+### accely
 
 ```csharp
 [DataMember]
@@ -101,7 +101,7 @@ public Dimensional<Gravity> accely { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Gravity](OpenTD.Dimension.Gravity.md)\>
 
-### <a id="OpenTD_SindaControlData_accelyExp"></a> accelyExp
+### accelyExp
 
 ```csharp
 [DataMember]
@@ -112,7 +112,7 @@ public ExpressionData accelyExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_accelz"></a> accelz
+### accelz
 
 ```csharp
 [DataMember]
@@ -123,7 +123,7 @@ public Dimensional<Gravity> accelz { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Gravity](OpenTD.Dimension.Gravity.md)\>
 
-### <a id="OpenTD_SindaControlData_accelzExp"></a> accelzExp
+### accelzExp
 
 ```csharp
 [DataMember]
@@ -134,7 +134,7 @@ public ExpressionData accelzExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_arlxca"></a> arlxca
+### arlxca
 
 ```csharp
 [DataMember]
@@ -145,7 +145,7 @@ public double arlxca { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SindaControlData_arlxcaExp"></a> arlxcaExp
+### arlxcaExp
 
 ```csharp
 [DataMember]
@@ -156,7 +156,7 @@ public ExpressionData arlxcaExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_atmpca"></a> atmpca
+### atmpca
 
 ```csharp
 [DataMember]
@@ -167,7 +167,7 @@ public double atmpca { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SindaControlData_atmpcaExp"></a> atmpcaExp
+### atmpcaExp
 
 ```csharp
 [DataMember]
@@ -178,7 +178,7 @@ public ExpressionData atmpcaExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_csgfac"></a> csgfac
+### csgfac
 
 ```csharp
 [DataMember]
@@ -189,7 +189,7 @@ public double csgfac { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SindaControlData_csgfacExp"></a> csgfacExp
+### csgfacExp
 
 ```csharp
 [DataMember]
@@ -200,7 +200,7 @@ public ExpressionData csgfacExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_dtimeh"></a> dtimeh
+### dtimeh
 
 ```csharp
 [DataMember]
@@ -211,7 +211,7 @@ public Dimensional<Time> dtimeh { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_SindaControlData_dtimehExp"></a> dtimehExp
+### dtimehExp
 
 ```csharp
 [DataMember]
@@ -222,7 +222,7 @@ public ExpressionData dtimehExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_dtimei"></a> dtimei
+### dtimei
 
 ```csharp
 [DataMember]
@@ -233,7 +233,7 @@ public Dimensional<Time> dtimei { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_SindaControlData_dtimeiExp"></a> dtimeiExp
+### dtimeiExp
 
 ```csharp
 [DataMember]
@@ -244,7 +244,7 @@ public ExpressionData dtimeiExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_dtimel"></a> dtimel
+### dtimel
 
 ```csharp
 [DataMember]
@@ -255,7 +255,7 @@ public Dimensional<Time> dtimel { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_SindaControlData_dtimelExp"></a> dtimelExp
+### dtimelExp
 
 ```csharp
 [DataMember]
@@ -266,7 +266,7 @@ public ExpressionData dtimelExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_dtimes"></a> dtimes
+### dtimes
 
 ```csharp
 [DataMember]
@@ -277,7 +277,7 @@ public Dimensional<Time> dtimes { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_SindaControlData_dtimesExp"></a> dtimesExp
+### dtimesExp
 
 ```csharp
 [DataMember]
@@ -288,7 +288,7 @@ public ExpressionData dtimesExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_dtmaxf"></a> dtmaxf
+### dtmaxf
 
 ```csharp
 [DataMember]
@@ -299,7 +299,7 @@ public Dimensional<Time> dtmaxf { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_SindaControlData_dtmaxfExp"></a> dtmaxfExp
+### dtmaxfExp
 
 ```csharp
 [DataMember]
@@ -310,7 +310,7 @@ public ExpressionData dtmaxfExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_dtminf"></a> dtminf
+### dtminf
 
 ```csharp
 [DataMember]
@@ -321,7 +321,7 @@ public Dimensional<Time> dtminf { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_SindaControlData_dtminfExp"></a> dtminfExp
+### dtminfExp
 
 ```csharp
 [DataMember]
@@ -332,7 +332,7 @@ public ExpressionData dtminfExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_dtmpca"></a> dtmpca
+### dtmpca
 
 ```csharp
 [DataMember]
@@ -343,7 +343,7 @@ public double dtmpca { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SindaControlData_dtmpcaExp"></a> dtmpcaExp
+### dtmpcaExp
 
 ```csharp
 [DataMember]
@@ -354,7 +354,7 @@ public ExpressionData dtmpcaExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_dtsizf"></a> dtsizf
+### dtsizf
 
 ```csharp
 [DataMember]
@@ -365,7 +365,7 @@ public double dtsizf { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SindaControlData_dtsizfExp"></a> dtsizfExp
+### dtsizfExp
 
 ```csharp
 [DataMember]
@@ -376,7 +376,7 @@ public ExpressionData dtsizfExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_dttubf"></a> dttubf
+### dttubf
 
 ```csharp
 [DataMember]
@@ -387,7 +387,7 @@ public double dttubf { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SindaControlData_dttubfExp"></a> dttubfExp
+### dttubfExp
 
 ```csharp
 [DataMember]
@@ -398,7 +398,7 @@ public ExpressionData dttubfExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_ebalna"></a> ebalna
+### ebalna
 
 ```csharp
 [DataMember]
@@ -409,7 +409,7 @@ public double ebalna { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SindaControlData_ebalnaExp"></a> ebalnaExp
+### ebalnaExp
 
 ```csharp
 [DataMember]
@@ -420,7 +420,7 @@ public ExpressionData ebalnaExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_ebalsa"></a> ebalsa
+### ebalsa
 
 ```csharp
 [DataMember]
@@ -431,7 +431,7 @@ public double ebalsa { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SindaControlData_ebalsaExp"></a> ebalsaExp
+### ebalsaExp
 
 ```csharp
 [DataMember]
@@ -442,7 +442,7 @@ public ExpressionData ebalsaExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_extlim"></a> extlim
+### extlim
 
 ```csharp
 [DataMember]
@@ -453,7 +453,7 @@ public double extlim { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SindaControlData_extlimExp"></a> extlimExp
+### extlimExp
 
 ```csharp
 [DataMember]
@@ -464,7 +464,7 @@ public ExpressionData extlimExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_fbebala"></a> fbebala
+### fbebala
 
 ```csharp
 [DataMember]
@@ -475,7 +475,7 @@ public double fbebala { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SindaControlData_fbebalaExp"></a> fbebalaExp
+### fbebalaExp
 
 ```csharp
 [DataMember]
@@ -486,7 +486,7 @@ public ExpressionData fbebalaExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_fraver"></a> fraver
+### fraver
 
 ```csharp
 [DataMember]
@@ -497,7 +497,7 @@ public Dimensional<MassFlowRate> fraver { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[MassFlowRate](OpenTD.Dimension.MassFlowRate.md)\>
 
-### <a id="OpenTD_SindaControlData_fraverExp"></a> fraverExp
+### fraverExp
 
 ```csharp
 [DataMember]
@@ -508,7 +508,7 @@ public ExpressionData fraverExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_iterot"></a> iterot
+### iterot
 
 ```csharp
 [DataMember]
@@ -519,7 +519,7 @@ public int iterot { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_SindaControlData_iterotExp"></a> iterotExp
+### iterotExp
 
 ```csharp
 [DataMember]
@@ -530,7 +530,7 @@ public ExpressionData iterotExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_iterxt"></a> iterxt
+### iterxt
 
 ```csharp
 [DataMember]
@@ -541,7 +541,7 @@ public int iterxt { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_SindaControlData_iterxtExp"></a> iterxtExp
+### iterxtExp
 
 ```csharp
 [DataMember]
@@ -552,7 +552,7 @@ public ExpressionData iterxtExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_ithldf"></a> ithldf
+### ithldf
 
 ```csharp
 [DataMember]
@@ -563,7 +563,7 @@ public int ithldf { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_SindaControlData_ithldfExp"></a> ithldfExp
+### ithldfExp
 
 ```csharp
 [DataMember]
@@ -574,7 +574,7 @@ public ExpressionData ithldfExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_ithold"></a> ithold
+### ithold
 
 ```csharp
 [DataMember]
@@ -585,7 +585,7 @@ public int ithold { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_SindaControlData_itholdExp"></a> itholdExp
+### itholdExp
 
 ```csharp
 [DataMember]
@@ -596,7 +596,7 @@ public ExpressionData itholdExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_itrotf"></a> itrotf
+### itrotf
 
 ```csharp
 [DataMember]
@@ -607,7 +607,7 @@ public int itrotf { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_SindaControlData_itrotfExp"></a> itrotfExp
+### itrotfExp
 
 ```csharp
 [DataMember]
@@ -618,7 +618,7 @@ public ExpressionData itrotfExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_nloops"></a> nloops
+### nloops
 
 ```csharp
 [DataMember]
@@ -629,7 +629,7 @@ public int nloops { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_SindaControlData_nloopsExp"></a> nloopsExp
+### nloopsExp
 
 ```csharp
 [DataMember]
@@ -640,7 +640,7 @@ public ExpressionData nloopsExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_nloopt"></a> nloopt
+### nloopt
 
 ```csharp
 [DataMember]
@@ -651,7 +651,7 @@ public int nloopt { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_SindaControlData_nlooptExp"></a> nlooptExp
+### nlooptExp
 
 ```csharp
 [DataMember]
@@ -662,7 +662,7 @@ public ExpressionData nlooptExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_nvarb1"></a> nvarb1
+### nvarb1
 
 ```csharp
 [DataMember]
@@ -673,7 +673,7 @@ public int nvarb1 { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_SindaControlData_opeitr"></a> opeitr
+### opeitr
 
 ```csharp
 [DataMember]
@@ -684,7 +684,7 @@ public int opeitr { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_SindaControlData_opeitrExp"></a> opeitrExp
+### opeitrExp
 
 ```csharp
 [DataMember]
@@ -695,7 +695,7 @@ public ExpressionData opeitrExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_opitrf"></a> opitrf
+### opitrf
 
 ```csharp
 [DataMember]
@@ -706,7 +706,7 @@ public int opitrf { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_SindaControlData_opitrfExp"></a> opitrfExp
+### opitrfExp
 
 ```csharp
 [DataMember]
@@ -717,7 +717,7 @@ public ExpressionData opitrfExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_outptf"></a> outptf
+### outptf
 
 ```csharp
 [DataMember]
@@ -728,7 +728,7 @@ public Dimensional<Time> outptf { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_SindaControlData_outptfExp"></a> outptfExp
+### outptfExp
 
 ```csharp
 [DataMember]
@@ -739,7 +739,7 @@ public ExpressionData outptfExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_output"></a> output
+### output
 
 ```csharp
 [DataMember]
@@ -750,7 +750,7 @@ public Dimensional<Time> output { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_SindaControlData_outputExp"></a> outputExp
+### outputExp
 
 ```csharp
 [DataMember]
@@ -761,7 +761,7 @@ public ExpressionData outputExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_outputOff"></a> outputOff
+### outputOff
 
 ```csharp
 [DataMember]
@@ -772,7 +772,7 @@ public string outputOff { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_SindaControlData_outputOffControl"></a> outputOffControl
+### outputOffControl
 
 ```csharp
 [DataMember]
@@ -783,7 +783,7 @@ public bool outputOffControl { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_SindaControlData_patmos"></a> patmos
+### patmos
 
 ```csharp
 [DataMember]
@@ -794,7 +794,7 @@ public Dimensional<Pressure> patmos { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Pressure](OpenTD.Dimension.Pressure.md)\>
 
-### <a id="OpenTD_SindaControlData_patmosExp"></a> patmosExp
+### patmosExp
 
 ```csharp
 [DataMember]
@@ -805,7 +805,7 @@ public ExpressionData patmosExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_rebalf"></a> rebalf
+### rebalf
 
 ```csharp
 [DataMember]
@@ -816,7 +816,7 @@ public double rebalf { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SindaControlData_rebalfExp"></a> rebalfExp
+### rebalfExp
 
 ```csharp
 [DataMember]
@@ -827,7 +827,7 @@ public ExpressionData rebalfExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_rerrf"></a> rerrf
+### rerrf
 
 ```csharp
 [DataMember]
@@ -838,7 +838,7 @@ public double rerrf { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SindaControlData_rerrfExp"></a> rerrfExp
+### rerrfExp
 
 ```csharp
 [DataMember]
@@ -849,7 +849,7 @@ public ExpressionData rerrfExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_rmfrac"></a> rmfrac
+### rmfrac
 
 ```csharp
 [DataMember]
@@ -860,7 +860,7 @@ public double rmfrac { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SindaControlData_rmfracExp"></a> rmfracExp
+### rmfracExp
 
 ```csharp
 [DataMember]
@@ -871,7 +871,7 @@ public ExpressionData rmfracExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_rmrate"></a> rmrate
+### rmrate
 
 ```csharp
 [DataMember]
@@ -882,7 +882,7 @@ public Dimensional<Time> rmrate { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_SindaControlData_rmrateExp"></a> rmrateExp
+### rmrateExp
 
 ```csharp
 [DataMember]
@@ -893,7 +893,7 @@ public ExpressionData rmrateExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_rmsplt"></a> rmsplt
+### rmsplt
 
 ```csharp
 [DataMember]
@@ -904,7 +904,7 @@ public double rmsplt { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SindaControlData_rmspltExp"></a> rmspltExp
+### rmspltExp
 
 ```csharp
 [DataMember]
@@ -915,7 +915,7 @@ public ExpressionData rmspltExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_rsmaxf"></a> rsmaxf
+### rsmaxf
 
 ```csharp
 [DataMember]
@@ -926,7 +926,7 @@ public Dimensional<Time> rsmaxf { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_SindaControlData_rsmaxfExp"></a> rsmaxfExp
+### rsmaxfExp
 
 ```csharp
 [DataMember]
@@ -937,7 +937,7 @@ public ExpressionData rsmaxfExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_rssizf"></a> rssizf
+### rssizf
 
 ```csharp
 [DataMember]
@@ -948,7 +948,7 @@ public double rssizf { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SindaControlData_rssizfExp"></a> rssizfExp
+### rssizfExp
 
 ```csharp
 [DataMember]
@@ -959,7 +959,7 @@ public ExpressionData rssizfExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_rstubf"></a> rstubf
+### rstubf
 
 ```csharp
 [DataMember]
@@ -970,7 +970,7 @@ public double rstubf { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SindaControlData_rstubfExp"></a> rstubfExp
+### rstubfExp
 
 ```csharp
 [DataMember]
@@ -981,7 +981,7 @@ public ExpressionData rstubfExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_saveOff"></a> saveOff
+### saveOff
 
 ```csharp
 [DataMember]
@@ -992,7 +992,7 @@ public string saveOff { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_SindaControlData_saveOffControl"></a> saveOffControl
+### saveOffControl
 
 ```csharp
 [DataMember]
@@ -1003,7 +1003,7 @@ public bool saveOffControl { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_SindaControlData_sigma"></a> sigma
+### sigma
 
 ```csharp
 [DataMember]
@@ -1014,7 +1014,7 @@ public Dimensional<StefanBoltzmann> sigma { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[StefanBoltzmann](OpenTD.Dimension.StefanBoltzmann.md)\>
 
-### <a id="OpenTD_SindaControlData_solutionType"></a> solutionType
+### solutionType
 
 ```csharp
 [DataMember]
@@ -1025,7 +1025,7 @@ public SindaControlData.SolutionType solutionType { get; set; }
 
  [SindaControlData](OpenTD.SindaControlData.md).[SolutionType](OpenTD.SindaControlData.SolutionType.md)
 
-### <a id="OpenTD_SindaControlData_sparseg"></a> sparseg
+### sparseg
 
 ```csharp
 [DataMember]
@@ -1036,7 +1036,7 @@ public double sparseg { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_SindaControlData_sparsegExp"></a> sparsegExp
+### sparsegExp
 
 ```csharp
 [DataMember]
@@ -1047,7 +1047,7 @@ public ExpressionData sparsegExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_timend"></a> timend
+### timend
 
 ```csharp
 [DataMember]
@@ -1058,7 +1058,7 @@ public Dimensional<Time> timend { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_SindaControlData_timendExp"></a> timendExp
+### timendExp
 
 ```csharp
 [DataMember]
@@ -1069,7 +1069,7 @@ public ExpressionData timendExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_timeo"></a> timeo
+### timeo
 
 ```csharp
 [DataMember]
@@ -1080,7 +1080,7 @@ public Dimensional<Time> timeo { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_SindaControlData_timeoExp"></a> timeoExp
+### timeoExp
 
 ```csharp
 [DataMember]
@@ -1091,7 +1091,7 @@ public ExpressionData timeoExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SindaControlData_warnOff"></a> warnOff
+### warnOff
 
 ```csharp
 [DataMember]
@@ -1102,7 +1102,7 @@ public string warnOff { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_SindaControlData_warnOffControl"></a> warnOffControl
+### warnOffControl
 
 ```csharp
 [DataMember]
@@ -1116,4 +1116,5 @@ public bool warnOffControl { get; set; }
 ## See Also
 
 [CaseSet](OpenTD.CaseSet.md)
+
 

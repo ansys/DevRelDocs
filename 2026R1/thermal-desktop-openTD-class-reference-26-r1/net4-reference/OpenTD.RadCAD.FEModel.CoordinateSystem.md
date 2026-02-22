@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FEModel_CoordinateSystem"></a> Class CoordinateSystem
+# Class CoordinateSystem
 
 Namespace: [OpenTD.RadCAD.FEModel](OpenTD.RadCAD.FEModel.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ mesh using an FEMeshImporter only.
 public class CoordinateSystem
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [CoordinateSystem](OpenTD.RadCAD.FEModel.CoordinateSystem.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,7 +27,7 @@ public class CoordinateSystem
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_FEModel_CoordinateSystem__ctor"></a> CoordinateSystem\(\)
+### CoordinateSystem\(\)
 
 ```csharp
 public CoordinateSystem()
@@ -35,7 +35,7 @@ public CoordinateSystem()
 
 ## Fields
 
-### <a id="OpenTD_RadCAD_FEModel_CoordinateSystem_dirX"></a> dirX
+### dirX
 
 ```csharp
 public Vector3d dirX
@@ -45,7 +45,7 @@ public Vector3d dirX
 
  [Vector3d](OpenTD.Vector3d.md)
 
-### <a id="OpenTD_RadCAD_FEModel_CoordinateSystem_dirY"></a> dirY
+### dirY
 
 ```csharp
 public Vector3d dirY
@@ -55,7 +55,7 @@ public Vector3d dirY
 
  [Vector3d](OpenTD.Vector3d.md)
 
-### <a id="OpenTD_RadCAD_FEModel_CoordinateSystem_dirZ"></a> dirZ
+### dirZ
 
 ```csharp
 public Vector3d dirZ
@@ -65,7 +65,7 @@ public Vector3d dirZ
 
  [Vector3d](OpenTD.Vector3d.md)
 
-### <a id="OpenTD_RadCAD_FEModel_CoordinateSystem_origin"></a> origin
+### origin
 
 ```csharp
 public Point3d origin
@@ -74,4 +74,5 @@ public Point3d origin
 #### Field Value
 
  [Point3d](OpenTD.Point3d.md)
+
 

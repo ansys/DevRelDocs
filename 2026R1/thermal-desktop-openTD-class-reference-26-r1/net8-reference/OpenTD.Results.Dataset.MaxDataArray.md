@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_MaxDataArray"></a> Class MaxDataArray
+# Class MaxDataArray
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -11,7 +11,7 @@ and have the same data subtype.
 public class MaxDataArray : OneSubtypeDerivedDataArray, IEnumerable<double>, IEnumerable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [DataArray](OpenTD.Results.Dataset.DataArray.md) ← 
@@ -19,12 +19,12 @@ public class MaxDataArray : OneSubtypeDerivedDataArray, IEnumerable<double>, IEn
 [OneSubtypeDerivedDataArray](OpenTD.Results.Dataset.OneSubtypeDerivedDataArray.md) ← 
 [MaxDataArray](OpenTD.Results.Dataset.MaxDataArray.md)
 
-#### Implements
+## Implements
 
 [IEnumerable<double\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1), 
 [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
 
-#### Inherited Members
+## Inherited Members
 
 [OneSubtypeDerivedDataArray.SetDerivedData\(\)](OpenTD.Results.Dataset.OneSubtypeDerivedDataArray.md\#OpenTD\_Results\_Dataset\_OneSubtypeDerivedDataArray\_SetDerivedData), 
 [OneSubtypeDerivedDataArray.CheckData\(\)](OpenTD.Results.Dataset.OneSubtypeDerivedDataArray.md\#OpenTD\_Results\_Dataset\_OneSubtypeDerivedDataArray\_CheckData), 
@@ -71,7 +71,7 @@ public class MaxDataArray : OneSubtypeDerivedDataArray, IEnumerable<double>, IEn
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_MaxDataArray__ctor_OpenTD_Results_Dataset_DataArrayCollection_"></a> MaxDataArray\(DataArrayCollection\)
+### MaxDataArray\(DataArrayCollection\)
 
 ```csharp
 public MaxDataArray(DataArrayCollection inputCollection)
@@ -81,7 +81,7 @@ public MaxDataArray(DataArrayCollection inputCollection)
 
 `inputCollection` [DataArrayCollection](OpenTD.Results.Dataset.DataArrayCollection.md)
 
-### <a id="OpenTD_Results_Dataset_MaxDataArray__ctor"></a> MaxDataArray\(\)
+### MaxDataArray\(\)
 
 ```csharp
 public MaxDataArray()
@@ -89,13 +89,13 @@ public MaxDataArray()
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_MaxDataArray_CheckData"></a> CheckData\(\)
+### CheckData\(\)
 
 ```csharp
 protected override void CheckData()
 ```
 
-### <a id="OpenTD_Results_Dataset_MaxDataArray_GetSelfSuggestedName"></a> GetSelfSuggestedName\(\)
+### GetSelfSuggestedName\(\)
 
 ```csharp
 protected override string GetSelfSuggestedName()
@@ -105,7 +105,7 @@ protected override string GetSelfSuggestedName()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_MaxDataArray_SetDerivedData"></a> SetDerivedData\(\)
+### SetDerivedData\(\)
 
 For setting ValuesSI, any other derived data
 
@@ -117,4 +117,5 @@ protected override void SetDerivedData()
 
 [OneSubtypeDerivedDataArray](OpenTD.Results.Dataset.OneSubtypeDerivedDataArray.md), 
 [DerivedDataArray](OpenTD.Results.Dataset.DerivedDataArray.md)
+
 

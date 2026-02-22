@@ -13,12 +13,12 @@
 
 ## Members
 
-* [type\_name](structansys-dpf-reflect-bool.md#structansys-dpf-reflect-bool-4-1a49190d9984d4e8b70292f08b87a3df92)
+* [type_name](structansys-dpf-reflect-bool.md#structansys-dpf-reflect-bool-4-1a49190d9984d4e8b70292f08b87a3df92)
 
 ## Public static functions
 
 <a id="structansys-dpf-reflect-bool-4-1a49190d9984d4e8b70292f08b87a3df92"></a>
-### Function type\_name
+### Function type_name
 
 ![][public]
 ![][static]

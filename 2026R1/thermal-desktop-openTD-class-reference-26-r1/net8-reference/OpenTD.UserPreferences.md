@@ -1,4 +1,4 @@
-# <a id="OpenTD_UserPreferences"></a> Namespace OpenTD.UserPreferences
+# Namespace OpenTD.UserPreferences
 
 ### Classes
 
@@ -42,4 +42,5 @@ Use to set the global units preferences.
  [UserPreferences](OpenTD.UserPreferences.UserPreferences.md)
 
 Provides access to the global user preferences for a dwg.
+
 

@@ -12,8 +12,8 @@
 
 ## Files
 
-* [dpf\_api.h](dpf-api-h.md#dpf-api-h)
-* [dpf\_api\_base.h](dpf-api-base-h.md#dpf-api-base-h)
+* [dpf_api.h](dpf-api-h.md#dpf-api-h)
+* [dpf_api_base.h](dpf-api-base-h.md#dpf-api-base-h)
 
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [const]: https://img.shields.io/badge/-const-lightblue (const)

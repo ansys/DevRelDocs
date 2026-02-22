@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_OneSubtypeDerivedDataArray"></a> Class OneSubtypeDerivedDataArray
+# Class OneSubtypeDerivedDataArray
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -10,7 +10,7 @@ same subtype, e.g., they are all arrays of TL data.
 public abstract class OneSubtypeDerivedDataArray : DerivedDataArray, IEnumerable<double>, IEnumerable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [DataArray](OpenTD.Results.Dataset.DataArray.md) ← 
@@ -25,12 +25,12 @@ public abstract class OneSubtypeDerivedDataArray : DerivedDataArray, IEnumerable
 [SumDataArray](OpenTD.Results.Dataset.SumDataArray.md), 
 [WeightedAverageDataArray](OpenTD.Results.Dataset.WeightedAverageDataArray.md)
 
-#### Implements
+## Implements
 
 [IEnumerable<double\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1), 
 [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
 
-#### Inherited Members
+## Inherited Members
 
 [DerivedDataArray.InputCollection](OpenTD.Results.Dataset.DerivedDataArray.md\#OpenTD\_Results\_Dataset\_DerivedDataArray\_InputCollection), 
 [DerivedDataArray.IgnoreNaNInCalculations](OpenTD.Results.Dataset.DerivedDataArray.md\#OpenTD\_Results\_Dataset\_DerivedDataArray\_IgnoreNaNInCalculations), 
@@ -75,7 +75,7 @@ public abstract class OneSubtypeDerivedDataArray : DerivedDataArray, IEnumerable
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_OneSubtypeDerivedDataArray__ctor_OpenTD_Results_Dataset_DataArrayCollection_"></a> OneSubtypeDerivedDataArray\(DataArrayCollection\)
+### OneSubtypeDerivedDataArray\(DataArrayCollection\)
 
 ```csharp
 public OneSubtypeDerivedDataArray(DataArrayCollection inputCollection)
@@ -85,7 +85,7 @@ public OneSubtypeDerivedDataArray(DataArrayCollection inputCollection)
 
 `inputCollection` [DataArrayCollection](OpenTD.Results.Dataset.DataArrayCollection.md)
 
-### <a id="OpenTD_Results_Dataset_OneSubtypeDerivedDataArray__ctor"></a> OneSubtypeDerivedDataArray\(\)
+### OneSubtypeDerivedDataArray\(\)
 
 ```csharp
 public OneSubtypeDerivedDataArray()
@@ -93,13 +93,13 @@ public OneSubtypeDerivedDataArray()
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_OneSubtypeDerivedDataArray_CheckData"></a> CheckData\(\)
+### CheckData\(\)
 
 ```csharp
 protected override void CheckData()
 ```
 
-### <a id="OpenTD_Results_Dataset_OneSubtypeDerivedDataArray_SetDerivedData"></a> SetDerivedData\(\)
+### SetDerivedData\(\)
 
 For setting ValuesSI, any other derived data
 
@@ -110,4 +110,5 @@ protected override void SetDerivedData()
 ## See Also
 
 [DerivedDataArray](OpenTD.Results.Dataset.DerivedDataArray.md)
+
 

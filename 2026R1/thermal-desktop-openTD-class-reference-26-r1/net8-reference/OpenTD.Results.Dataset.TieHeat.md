@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_TieHeat"></a> Class TieHeat
+# Class TieHeat
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -9,12 +9,12 @@ Represents heatrate data for a tie connection.
 public class TieHeat
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [TieHeat](OpenTD.Results.Dataset.TieHeat.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +26,7 @@ public class TieHeat
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_TieHeat_DUPN"></a> DUPN
+### DUPN
 
 ```csharp
 public Dimensional<Dimensionless> DUPN { get; }
@@ -36,7 +36,7 @@ public Dimensional<Dimensionless> DUPN { get; }
 
  Dimensional<Dimensionless\>
 
-### <a id="OpenTD_Results_Dataset_TieHeat_Heatrate"></a> Heatrate
+### Heatrate
 
 ```csharp
 public Dimensional<HeatRate> Heatrate { get; }
@@ -46,7 +46,7 @@ public Dimensional<HeatRate> Heatrate { get; }
 
  Dimensional<HeatRate\>
 
-### <a id="OpenTD_Results_Dataset_TieHeat_QTIE"></a> QTIE
+### QTIE
 
 ```csharp
 public Dimensional<HeatRate> QTIE { get; }
@@ -56,7 +56,7 @@ public Dimensional<HeatRate> QTIE { get; }
 
  Dimensional<HeatRate\>
 
-### <a id="OpenTD_Results_Dataset_TieHeat_TieInfo"></a> TieInfo
+### TieInfo
 
 ```csharp
 public ITieInfo TieInfo { get; }
@@ -65,4 +65,5 @@ public ITieInfo TieInfo { get; }
 #### Property Value
 
  [ITieInfo](OpenTD.Results.Dataset.Topology.ITieInfo.md)
+
 

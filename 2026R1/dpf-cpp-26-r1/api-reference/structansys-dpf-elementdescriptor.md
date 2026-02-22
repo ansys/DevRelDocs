@@ -7,7 +7,7 @@
 
 
 
-Description of element. 
+Description of element.
 
 **See also**: [elements](structansys-dpf-elements.md#structansys-dpf-elements)
 
@@ -17,13 +17,13 @@ Description of element.
 * [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor-1ab19bfe010b78317bd83e6d1d2b9b1ebf)
 * [id](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor-1ad24353ec6b433aef168406c95f38fb0e)
 * [name](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor-1a49e5f9c938d56155ba253b08ba8b75ff)
-* [number\_of\_corner\_nodes](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor-1af6486768e61885edb5d670b09425c510)
-* [number\_of\_mid\_nodes](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor-1a2a0d6d6af10d5db16cc378f78b4db3ab)
-* [number\_of\_nodes](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor-1ad05e65f705b96d0cbc9162de07d21af3)
+* [number_of_corner_nodes](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor-1af6486768e61885edb5d670b09425c510)
+* [number_of_mid_nodes](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor-1a2a0d6d6af10d5db16cc378f78b4db3ab)
+* [number_of_nodes](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor-1ad05e65f705b96d0cbc9162de07d21af3)
 * [operator==](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor-1aa39ac1e62dfbedc388b633dcf743b8b9)
 * [quadratic](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor-1a46568f0ab450482f62299052f34e2c17)
 * [shell](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor-1aec1affe701814f76ea99c13730f4ee78)
-* [short\_name](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor-1a906c009a859169fa2a003c06f9053c47)
+* [short_name](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor-1a906c009a859169fa2a003c06f9053c47)
 * [solid](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor-1a55af041295e3f9d83373e649289f1b35)
 * [unknownNumNodes](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor-1a4b8bd6d9d01868d7984b58551deb8507)
 
@@ -80,7 +80,7 @@ Full name of element.
 -->
 
 <a id="structansys-dpf-elementdescriptor-1a906c009a859169fa2a003c06f9053c47"></a>
-### Variable short\_name
+### Variable short_name
 
 ![][public]
 
@@ -105,7 +105,7 @@ std::string ansys::dpf::ElementDescriptor::short_name
 -->
 
 <a id="structansys-dpf-elementdescriptor-1af6486768e61885edb5d670b09425c510"></a>
-### Variable number\_of\_corner\_nodes
+### Variable number_of_corner_nodes
 
 ![][public]
 
@@ -121,7 +121,7 @@ dp_int ansys::dpf::ElementDescriptor::number_of_corner_nodes
 
 
 
-**Type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -130,7 +130,7 @@ dp_int ansys::dpf::ElementDescriptor::number_of_corner_nodes
 -->
 
 <a id="structansys-dpf-elementdescriptor-1a2a0d6d6af10d5db16cc378f78b4db3ab"></a>
-### Variable number\_of\_mid\_nodes
+### Variable number_of_mid_nodes
 
 ![][public]
 
@@ -146,7 +146,7 @@ dp_int ansys::dpf::ElementDescriptor::number_of_mid_nodes
 
 
 
-**Type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -155,7 +155,7 @@ dp_int ansys::dpf::ElementDescriptor::number_of_mid_nodes
 -->
 
 <a id="structansys-dpf-elementdescriptor-1ad05e65f705b96d0cbc9162de07d21af3"></a>
-### Variable number\_of\_nodes
+### Variable number_of_nodes
 
 ![][public]
 
@@ -171,7 +171,7 @@ dp_int ansys::dpf::ElementDescriptor::number_of_nodes
 
 
 
-**Type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -300,17 +300,17 @@ Create element descriptor
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **id**: [in] Id of element.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **id**: [in] Id of element.
 * std::string const & **name**: [in] Full name of element.
 * std::string const & **short_name**: [in] Short name of element.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **corner**: [in] Number of corner nodes.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **mid**: [in] Number of mid-side nodes.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **all**: [in] Total number of nodes.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **corner**: [in] Number of corner nodes.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **mid**: [in] Number of mid-side nodes.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **all**: [in] Total number of nodes.
 * bool **is_solid**: [in] Is solid/volume element.
 * bool **is_shell**: [in] Is shell/surface element.
 * bool **is_beam**: [in] Is beam/line element
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:

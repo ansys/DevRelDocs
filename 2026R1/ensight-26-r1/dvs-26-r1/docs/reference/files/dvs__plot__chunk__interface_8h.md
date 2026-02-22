@@ -1,4 +1,4 @@
-# File dvs\_plot\_chunk\_interface.h
+# File dvs_plot_chunk_interface.h
 
 <a id="dvs__plot__chunk__interface_8h"></a>
 

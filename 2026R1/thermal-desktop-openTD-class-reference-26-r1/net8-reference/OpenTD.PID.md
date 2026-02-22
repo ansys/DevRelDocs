@@ -1,4 +1,4 @@
-# <a id="OpenTD_PID"></a> Class PID
+# Class PID
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,10 +6,11 @@ Assembly: OpenTD.dll
 Client-side representation of a Logic Object PID in a TD instance.
 
 ```csharp
+[MessagePackObject(true)]
 public class PID : RcPIDData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -17,11 +18,11 @@ public class PID : RcPIDData, IUpdatable
 RcPIDData ← 
 [PID](OpenTD.PID.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [LogicObject.Update\(\)](OpenTD.LogicObject.md\#OpenTD\_LogicObject\_Update), 
 [LogicObject.UpdateFromTD\(\)](OpenTD.LogicObject.md\#OpenTD\_LogicObject\_UpdateFromTD), 
@@ -49,7 +50,7 @@ RcPIDData ←
 
 ## Methods
 
-### <a id="OpenTD_PID_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -61,7 +62,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_PID_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -72,4 +73,5 @@ public override void Update()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

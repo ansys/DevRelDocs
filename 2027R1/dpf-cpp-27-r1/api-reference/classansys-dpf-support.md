@@ -20,7 +20,7 @@ Define an abstract support notion.
 ## Members
 
 * [callAPI](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1aea34d37e0c080126eff70db34bf46597)
-* [deep\_copy](classansys-dpf-support.md#classansys-dpf-support-1a3b4233346825454e052a9de678d9ef0a)
+* [deep_copy](classansys-dpf-support.md#classansys-dpf-support-1a3b4233346825454e052a9de678d9ef0a)
 * [describe](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a9977945710983bc03d2940fa007847b2)
 * [empty](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a39cd546c42518e2332be8f287db95459)
 * [emptySupport](classansys-dpf-support.md#classansys-dpf-support-1ad5b62f0bc3fc29380461006280edf89b)
@@ -732,7 +732,7 @@ the list of available properties returning a [PropertyField](classansys-dpf-prop
 -->
 
 <a id="classansys-dpf-support-1a3b4233346825454e052a9de678d9ef0a"></a>
-### Function deep\_copy
+### Function deep_copy
 
 ![][public]
 ![][const]

@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_Orbit"></a> Class Orbit
+# Class Orbit
 
 Namespace: [OpenTD.RadCAD](OpenTD.RadCAD.md)  
 Assembly: OpenTD.dll  
@@ -6,21 +6,22 @@ Assembly: OpenTD.dll
 Client-side representation of an orbit in a TD instance.
 
 ```csharp
+[MessagePackObject(true)]
 public class Orbit : DbObject, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
 [DbObject](OpenTD.DbObject.md) ← 
 [Orbit](OpenTD.RadCAD.Orbit.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [DbObject.SetFrom\(DbObject\)](OpenTD.DbObject.md\#OpenTD\_DbObject\_SetFrom\_OpenTD\_DbObject\_), 
 [DbObject.Update\(\)](OpenTD.DbObject.md\#OpenTD\_DbObject\_Update), 
@@ -46,7 +47,7 @@ public class Orbit : DbObject, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_Orbit__ctor"></a> Orbit\(\)
+### Orbit\(\)
 
 ```csharp
 public Orbit()
@@ -54,7 +55,7 @@ public Orbit()
 
 ## Properties
 
-### <a id="OpenTD_RadCAD_Orbit_AlbedoArray"></a> AlbedoArray
+### AlbedoArray
 
 ```csharp
 public List<double> AlbedoArray { get; set; }
@@ -64,7 +65,7 @@ public List<double> AlbedoArray { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="OpenTD_RadCAD_Orbit_AlbedoExp"></a> AlbedoExp
+### AlbedoExp
 
 ```csharp
 public ExpressionData AlbedoExp { get; set; }
@@ -74,7 +75,7 @@ public ExpressionData AlbedoExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_Orbit_AlbedoLatLongData"></a> AlbedoLatLongData
+### AlbedoLatLongData
 
 ```csharp
 public List<double> AlbedoLatLongData { get; set; }
@@ -84,7 +85,7 @@ public List<double> AlbedoLatLongData { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="OpenTD_RadCAD_Orbit_AlbedoLatitudeDeg"></a> AlbedoLatitudeDeg
+### AlbedoLatitudeDeg
 
 ```csharp
 public List<double> AlbedoLatitudeDeg { get; set; }
@@ -94,7 +95,7 @@ public List<double> AlbedoLatitudeDeg { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="OpenTD_RadCAD_Orbit_AlbedoLongitudeDeg"></a> AlbedoLongitudeDeg
+### AlbedoLongitudeDeg
 
 ```csharp
 public List<double> AlbedoLongitudeDeg { get; set; }
@@ -104,7 +105,7 @@ public List<double> AlbedoLongitudeDeg { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="OpenTD_RadCAD_Orbit_AlbedoOption"></a> AlbedoOption
+### AlbedoOption
 
 ```csharp
 public int AlbedoOption { get; set; }
@@ -114,7 +115,7 @@ public int AlbedoOption { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_Orbit_AlbedoTimeArray"></a> AlbedoTimeArray
+### AlbedoTimeArray
 
 ```csharp
 public DimensionalList<Time> AlbedoTimeArray { get; set; }
@@ -124,7 +125,7 @@ public DimensionalList<Time> AlbedoTimeArray { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_AlignToCCS"></a> AlignToCCS
+### AlignToCCS
 
 ```csharp
 public bool AlignToCCS { get; set; }
@@ -134,7 +135,7 @@ public bool AlignToCCS { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_RadCAD_Orbit_AtmosphericAttenuation"></a> AtmosphericAttenuation
+### AtmosphericAttenuation
 
 ```csharp
 public double AtmosphericAttenuation { get; set; }
@@ -144,7 +145,7 @@ public double AtmosphericAttenuation { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_Orbit_AtmosphericAttenuationExp"></a> AtmosphericAttenuationExp
+### AtmosphericAttenuationExp
 
 ```csharp
 public ExpressionData AtmosphericAttenuationExp { get; set; }
@@ -154,7 +155,7 @@ public ExpressionData AtmosphericAttenuationExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_Orbit_CelestRot1Array"></a> CelestRot1Array
+### CelestRot1Array
 
 ```csharp
 public DimensionalList<Angle> CelestRot1Array { get; set; }
@@ -164,7 +165,7 @@ public DimensionalList<Angle> CelestRot1Array { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_CelestRot1Axis"></a> CelestRot1Axis
+### CelestRot1Axis
 
 ```csharp
 public int CelestRot1Axis { get; set; }
@@ -174,7 +175,7 @@ public int CelestRot1Axis { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_Orbit_CelestRot2Array"></a> CelestRot2Array
+### CelestRot2Array
 
 ```csharp
 public DimensionalList<Angle> CelestRot2Array { get; set; }
@@ -184,7 +185,7 @@ public DimensionalList<Angle> CelestRot2Array { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_CelestRot2Axis"></a> CelestRot2Axis
+### CelestRot2Axis
 
 ```csharp
 public int CelestRot2Axis { get; set; }
@@ -194,7 +195,7 @@ public int CelestRot2Axis { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_Orbit_CelestRot3Array"></a> CelestRot3Array
+### CelestRot3Array
 
 ```csharp
 public DimensionalList<Angle> CelestRot3Array { get; set; }
@@ -204,7 +205,7 @@ public DimensionalList<Angle> CelestRot3Array { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_CelestRot3Axis"></a> CelestRot3Axis
+### CelestRot3Axis
 
 ```csharp
 public int CelestRot3Axis { get; set; }
@@ -214,7 +215,7 @@ public int CelestRot3Axis { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_Orbit_CelestTimeArray"></a> CelestTimeArray
+### CelestTimeArray
 
 ```csharp
 public DimensionalList<Time> CelestTimeArray { get; set; }
@@ -224,7 +225,7 @@ public DimensionalList<Time> CelestTimeArray { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_CelestXArray"></a> CelestXArray
+### CelestXArray
 
 ```csharp
 public DimensionalList<OrbitLength> CelestXArray { get; set; }
@@ -234,7 +235,7 @@ public DimensionalList<OrbitLength> CelestXArray { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[OrbitLength](OpenTD.Dimension.OrbitLength.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_CelestYArray"></a> CelestYArray
+### CelestYArray
 
 ```csharp
 public DimensionalList<OrbitLength> CelestYArray { get; set; }
@@ -244,7 +245,7 @@ public DimensionalList<OrbitLength> CelestYArray { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[OrbitLength](OpenTD.Dimension.OrbitLength.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_CelestZArray"></a> CelestZArray
+### CelestZArray
 
 ```csharp
 public DimensionalList<OrbitLength> CelestZArray { get; set; }
@@ -254,7 +255,7 @@ public DimensionalList<OrbitLength> CelestZArray { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[OrbitLength](OpenTD.Dimension.OrbitLength.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_CloudinessFactor"></a> CloudinessFactor
+### CloudinessFactor
 
 ```csharp
 public double CloudinessFactor { get; set; }
@@ -264,7 +265,7 @@ public double CloudinessFactor { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_Orbit_CloudinessFactorExp"></a> CloudinessFactorExp
+### CloudinessFactorExp
 
 ```csharp
 public ExpressionData CloudinessFactorExp { get; set; }
@@ -274,7 +275,7 @@ public ExpressionData CloudinessFactorExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_Orbit_Comment"></a> Comment
+### Comment
 
 ```csharp
 public string Comment { get; set; }
@@ -284,7 +285,7 @@ public string Comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_Orbit_ConstraintAxis"></a> ConstraintAxis
+### ConstraintAxis
 
 ```csharp
 public int ConstraintAxis { get; set; }
@@ -294,7 +295,7 @@ public int ConstraintAxis { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_Orbit_ConstraintStarDec"></a> ConstraintStarDec
+### ConstraintStarDec
 
 ```csharp
 public Dimensional<Angle> ConstraintStarDec { get; set; }
@@ -304,7 +305,7 @@ public Dimensional<Angle> ConstraintStarDec { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_ConstraintStarDecExp"></a> ConstraintStarDecExp
+### ConstraintStarDecExp
 
 ```csharp
 public ExpressionData ConstraintStarDecExp { get; set; }
@@ -314,7 +315,7 @@ public ExpressionData ConstraintStarDecExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_Orbit_ConstraintStarRA"></a> ConstraintStarRA
+### ConstraintStarRA
 
 ```csharp
 public Dimensional<Angle> ConstraintStarRA { get; set; }
@@ -324,7 +325,7 @@ public Dimensional<Angle> ConstraintStarRA { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_ConstraintStarRAExp"></a> ConstraintStarRAExp
+### ConstraintStarRAExp
 
 ```csharp
 public ExpressionData ConstraintStarRAExp { get; set; }
@@ -334,7 +335,7 @@ public ExpressionData ConstraintStarRAExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_Orbit_ConstraintType"></a> ConstraintType
+### ConstraintType
 
 ```csharp
 public Orbit.OrientTypes ConstraintType { get; set; }
@@ -344,7 +345,7 @@ public Orbit.OrientTypes ConstraintType { get; set; }
 
  [Orbit](OpenTD.RadCAD.Orbit.md).[OrientTypes](OpenTD.RadCAD.Orbit.OrientTypes.md)
 
-### <a id="OpenTD_RadCAD_Orbit_DarkSideTempExp"></a> DarkSideTempExp
+### DarkSideTempExp
 
 ```csharp
 public ExpressionData DarkSideTempExp { get; set; }
@@ -354,7 +355,7 @@ public ExpressionData DarkSideTempExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_Orbit_DiffuseSkyIRArray"></a> DiffuseSkyIRArray
+### DiffuseSkyIRArray
 
 In previous versions of OpenTD, this was erroneously identified as a
 list of fluxes. It is actually a list of temperatures.
@@ -367,7 +368,7 @@ public DimensionalList<Temp> DiffuseSkyIRArray { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[Temp](OpenTD.Dimension.Temp.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_DiffuseSkyIRTemp"></a> DiffuseSkyIRTemp
+### DiffuseSkyIRTemp
 
 ```csharp
 public Dimensional<Temp> DiffuseSkyIRTemp { get; set; }
@@ -377,7 +378,7 @@ public Dimensional<Temp> DiffuseSkyIRTemp { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Temp](OpenTD.Dimension.Temp.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_DiffuseSkyIRTempExp"></a> DiffuseSkyIRTempExp
+### DiffuseSkyIRTempExp
 
 ```csharp
 public ExpressionData DiffuseSkyIRTempExp { get; set; }
@@ -387,7 +388,7 @@ public ExpressionData DiffuseSkyIRTempExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_Orbit_DiffuseSkyIRTimeArray"></a> DiffuseSkyIRTimeArray
+### DiffuseSkyIRTimeArray
 
 ```csharp
 public DimensionalList<Time> DiffuseSkyIRTimeArray { get; set; }
@@ -397,7 +398,7 @@ public DimensionalList<Time> DiffuseSkyIRTimeArray { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_DiffuseSkySolarScatteringFraction"></a> DiffuseSkySolarScatteringFraction
+### DiffuseSkySolarScatteringFraction
 
 ```csharp
 public double DiffuseSkySolarScatteringFraction { get; set; }
@@ -407,7 +408,7 @@ public double DiffuseSkySolarScatteringFraction { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_Orbit_DiffuseSkySolarScatteringFractionExp"></a> DiffuseSkySolarScatteringFractionExp
+### DiffuseSkySolarScatteringFractionExp
 
 ```csharp
 public ExpressionData DiffuseSkySolarScatteringFractionExp { get; set; }
@@ -417,7 +418,7 @@ public ExpressionData DiffuseSkySolarScatteringFractionExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_Orbit_DiffuseSolarArray"></a> DiffuseSolarArray
+### DiffuseSolarArray
 
 ```csharp
 public DimensionalList<Flux> DiffuseSolarArray { get; set; }
@@ -427,7 +428,7 @@ public DimensionalList<Flux> DiffuseSolarArray { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[Flux](OpenTD.Dimension.Flux.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_DiffuseSolarFlux"></a> DiffuseSolarFlux
+### DiffuseSolarFlux
 
 ```csharp
 public Dimensional<Flux> DiffuseSolarFlux { get; set; }
@@ -437,7 +438,7 @@ public Dimensional<Flux> DiffuseSolarFlux { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Flux](OpenTD.Dimension.Flux.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_DiffuseSolarFluxExp"></a> DiffuseSolarFluxExp
+### DiffuseSolarFluxExp
 
 ```csharp
 public ExpressionData DiffuseSolarFluxExp { get; set; }
@@ -447,7 +448,7 @@ public ExpressionData DiffuseSolarFluxExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_Orbit_DiffuseSolarTimeArray"></a> DiffuseSolarTimeArray
+### DiffuseSolarTimeArray
 
 ```csharp
 public DimensionalList<Time> DiffuseSolarTimeArray { get; set; }
@@ -457,7 +458,7 @@ public DimensionalList<Time> DiffuseSolarTimeArray { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_DisplayPlanetTempOrFlux"></a> DisplayPlanetTempOrFlux
+### DisplayPlanetTempOrFlux
 
 ```csharp
 public int DisplayPlanetTempOrFlux { get; set; }
@@ -467,7 +468,7 @@ public int DisplayPlanetTempOrFlux { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_Orbit_DisplaySkyIRTempOrFlux"></a> DisplaySkyIRTempOrFlux
+### DisplaySkyIRTempOrFlux
 
 ```csharp
 public int DisplaySkyIRTempOrFlux { get; set; }
@@ -477,7 +478,7 @@ public int DisplaySkyIRTempOrFlux { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_Orbit_EndAnomaly"></a> EndAnomaly
+### EndAnomaly
 
 ```csharp
 public Dimensional<Angle> EndAnomaly { get; set; }
@@ -487,7 +488,7 @@ public Dimensional<Angle> EndAnomaly { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_EndAnomalyExp"></a> EndAnomalyExp
+### EndAnomalyExp
 
 ```csharp
 public ExpressionData EndAnomalyExp { get; set; }
@@ -497,7 +498,7 @@ public ExpressionData EndAnomalyExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_Orbit_GroundEmissivity"></a> GroundEmissivity
+### GroundEmissivity
 
 ```csharp
 public double GroundEmissivity { get; set; }
@@ -507,7 +508,7 @@ public double GroundEmissivity { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_Orbit_GroundTemperatureMode"></a> GroundTemperatureMode
+### GroundTemperatureMode
 
 ```csharp
 public int GroundTemperatureMode { get; set; }
@@ -517,7 +518,7 @@ public int GroundTemperatureMode { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_Orbit_HrOrbitRadiusArray"></a> HrOrbitRadiusArray
+### HrOrbitRadiusArray
 
 ```csharp
 public List<double> HrOrbitRadiusArray { get; set; }
@@ -527,7 +528,7 @@ public List<double> HrOrbitRadiusArray { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="OpenTD_RadCAD_Orbit_HrPlanetVecArray"></a> HrPlanetVecArray
+### HrPlanetVecArray
 
 ```csharp
 public List<Vector3d> HrPlanetVecArray { get; set; }
@@ -537,7 +538,7 @@ public List<Vector3d> HrPlanetVecArray { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Vector3d](OpenTD.Vector3d.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_HrSpeedArray"></a> HrSpeedArray
+### HrSpeedArray
 
 ```csharp
 public DimensionalList<OrbitVelocity> HrSpeedArray { get; set; }
@@ -547,7 +548,7 @@ public DimensionalList<OrbitVelocity> HrSpeedArray { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[OrbitVelocity](OpenTD.Dimension.OrbitVelocity.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_HrSunVecArray"></a> HrSunVecArray
+### HrSunVecArray
 
 ```csharp
 public List<Vector3d> HrSunVecArray { get; set; }
@@ -557,7 +558,7 @@ public List<Vector3d> HrSunVecArray { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Vector3d](OpenTD.Vector3d.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_HrTimeArray"></a> HrTimeArray
+### HrTimeArray
 
 ```csharp
 public DimensionalList<Time> HrTimeArray { get; set; }
@@ -567,7 +568,7 @@ public DimensionalList<Time> HrTimeArray { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_HrVelocityVecArray"></a> HrVelocityVecArray
+### HrVelocityVecArray
 
 ```csharp
 public List<Vector3d> HrVelocityVecArray { get; set; }
@@ -577,7 +578,7 @@ public List<Vector3d> HrVelocityVecArray { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Vector3d](OpenTD.Vector3d.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_IncludeShadows"></a> IncludeShadows
+### IncludeShadows
 
 ```csharp
 public int IncludeShadows { get; set; }
@@ -587,7 +588,7 @@ public int IncludeShadows { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_Orbit_LinkedOrbitName"></a> LinkedOrbitName
+### LinkedOrbitName
 
 ```csharp
 public string LinkedOrbitName { get; set; }
@@ -597,7 +598,7 @@ public string LinkedOrbitName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_Orbit_Name"></a> Name
+### Name
 
 ```csharp
 public string Name { get; set; }
@@ -607,7 +608,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_Orbit_OrbitData"></a> OrbitData
+### OrbitData
 
 ```csharp
 public OrbitParameters OrbitData { get; set; }
@@ -617,7 +618,7 @@ public OrbitParameters OrbitData { get; set; }
 
  [OrbitParameters](OpenTD.RadCAD.OrbitParameters.md)
 
-### <a id="OpenTD_RadCAD_Orbit_OrbitDateTime"></a> OrbitDateTime
+### OrbitDateTime
 
 ```csharp
 public OrbitDateTime OrbitDateTime { get; set; }
@@ -627,7 +628,7 @@ public OrbitDateTime OrbitDateTime { get; set; }
 
  [OrbitDateTime](OpenTD.RadCAD.OrbitDateTime.md)
 
-### <a id="OpenTD_RadCAD_Orbit_OrbitIncrements"></a> OrbitIncrements
+### OrbitIncrements
 
 ```csharp
 public int OrbitIncrements { get; set; }
@@ -637,7 +638,7 @@ public int OrbitIncrements { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_Orbit_OrbitIncrementsExp"></a> OrbitIncrementsExp
+### OrbitIncrementsExp
 
 ```csharp
 public ExpressionData OrbitIncrementsExp { get; set; }
@@ -647,7 +648,7 @@ public ExpressionData OrbitIncrementsExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_Orbit_OrbitPosInTrueAnom"></a> OrbitPosInTrueAnom
+### OrbitPosInTrueAnom
 
 ```csharp
 public int OrbitPosInTrueAnom { get; set; }
@@ -657,7 +658,7 @@ public int OrbitPosInTrueAnom { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_Orbit_OrbitPositions"></a> OrbitPositions
+### OrbitPositions
 
 ```csharp
 public DimensionalList<Angle> OrbitPositions { get; set; }
@@ -667,7 +668,7 @@ public DimensionalList<Angle> OrbitPositions { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_OrbitType"></a> OrbitType
+### OrbitType
 
 ```csharp
 public Orbit.OrbitTypes OrbitType { get; set; }
@@ -677,7 +678,7 @@ public Orbit.OrbitTypes OrbitType { get; set; }
 
  [Orbit](OpenTD.RadCAD.Orbit.md).[OrbitTypes](OpenTD.RadCAD.Orbit.OrbitTypes.md)
 
-### <a id="OpenTD_RadCAD_Orbit_OrientType"></a> OrientType
+### OrientType
 
 ```csharp
 public Orbit.OrientTypes OrientType { get; set; }
@@ -687,7 +688,7 @@ public Orbit.OrientTypes OrientType { get; set; }
 
  [Orbit](OpenTD.RadCAD.Orbit.md).[OrientTypes](OpenTD.RadCAD.Orbit.OrientTypes.md)
 
-### <a id="OpenTD_RadCAD_Orbit_Planet"></a> Planet
+### Planet
 
 Starting in OpenTD 6.3, changing this value will update the parameters in PlanetData.
 
@@ -699,7 +700,7 @@ public Orbit.Planets Planet { get; set; }
 
  [Orbit](OpenTD.RadCAD.Orbit.md).[Planets](OpenTD.RadCAD.Orbit.Planets.md)
 
-### <a id="OpenTD_RadCAD_Orbit_PlanetData"></a> PlanetData
+### PlanetData
 
 ```csharp
 public PlanetParameters PlanetData { get; set; }
@@ -709,7 +710,7 @@ public PlanetParameters PlanetData { get; set; }
 
  [PlanetParameters](OpenTD.RadCAD.PlanetParameters.md)
 
-### <a id="OpenTD_RadCAD_Orbit_PlanetTempArray"></a> PlanetTempArray
+### PlanetTempArray
 
 ```csharp
 public DimensionalList<Temp> PlanetTempArray { get; set; }
@@ -719,7 +720,7 @@ public DimensionalList<Temp> PlanetTempArray { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[Temp](OpenTD.Dimension.Temp.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_PlanetTimeArray"></a> PlanetTimeArray
+### PlanetTimeArray
 
 ```csharp
 public DimensionalList<Time> PlanetTimeArray { get; set; }
@@ -729,7 +730,7 @@ public DimensionalList<Time> PlanetTimeArray { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_PlanetshineCS"></a> PlanetshineCS
+### PlanetshineCS
 
 ```csharp
 public int PlanetshineCS { get; set; }
@@ -739,7 +740,7 @@ public int PlanetshineCS { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_Orbit_PlanetshineLatLongData"></a> PlanetshineLatLongData
+### PlanetshineLatLongData
 
 ```csharp
 public DimensionalList<Temp> PlanetshineLatLongData { get; set; }
@@ -749,7 +750,7 @@ public DimensionalList<Temp> PlanetshineLatLongData { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[Temp](OpenTD.Dimension.Temp.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_PlanetshineLatitudeDeg"></a> PlanetshineLatitudeDeg
+### PlanetshineLatitudeDeg
 
 ```csharp
 public List<double> PlanetshineLatitudeDeg { get; set; }
@@ -759,7 +760,7 @@ public List<double> PlanetshineLatitudeDeg { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="OpenTD_RadCAD_Orbit_PlanetshineLongitudeDeg"></a> PlanetshineLongitudeDeg
+### PlanetshineLongitudeDeg
 
 ```csharp
 public List<double> PlanetshineLongitudeDeg { get; set; }
@@ -769,7 +770,7 @@ public List<double> PlanetshineLongitudeDeg { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="OpenTD_RadCAD_Orbit_PlanetshineOption"></a> PlanetshineOption
+### PlanetshineOption
 
 ```csharp
 public int PlanetshineOption { get; set; }
@@ -779,7 +780,7 @@ public int PlanetshineOption { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_Orbit_PointingAxis"></a> PointingAxis
+### PointingAxis
 
 ```csharp
 public int PointingAxis { get; set; }
@@ -789,7 +790,7 @@ public int PointingAxis { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_Orbit_Rot1"></a> Rot1
+### Rot1
 
 ```csharp
 public Dimensional<Angle> Rot1 { get; set; }
@@ -799,7 +800,7 @@ public Dimensional<Angle> Rot1 { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_Rot1Axis"></a> Rot1Axis
+### Rot1Axis
 
 ```csharp
 public int Rot1Axis { get; set; }
@@ -809,7 +810,7 @@ public int Rot1Axis { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_Orbit_Rot1Exp"></a> Rot1Exp
+### Rot1Exp
 
 ```csharp
 public ExpressionData Rot1Exp { get; set; }
@@ -819,7 +820,7 @@ public ExpressionData Rot1Exp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_Orbit_Rot2"></a> Rot2
+### Rot2
 
 ```csharp
 public Dimensional<Angle> Rot2 { get; set; }
@@ -829,7 +830,7 @@ public Dimensional<Angle> Rot2 { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_Rot2Axis"></a> Rot2Axis
+### Rot2Axis
 
 ```csharp
 public int Rot2Axis { get; set; }
@@ -839,7 +840,7 @@ public int Rot2Axis { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_Orbit_Rot2Exp"></a> Rot2Exp
+### Rot2Exp
 
 ```csharp
 public ExpressionData Rot2Exp { get; set; }
@@ -849,7 +850,7 @@ public ExpressionData Rot2Exp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_Orbit_Rot3"></a> Rot3
+### Rot3
 
 ```csharp
 public Dimensional<Angle> Rot3 { get; set; }
@@ -859,7 +860,7 @@ public Dimensional<Angle> Rot3 { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_Rot3Axis"></a> Rot3Axis
+### Rot3Axis
 
 ```csharp
 public int Rot3Axis { get; set; }
@@ -869,7 +870,7 @@ public int Rot3Axis { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_Orbit_Rot3Exp"></a> Rot3Exp
+### Rot3Exp
 
 ```csharp
 public ExpressionData Rot3Exp { get; set; }
@@ -879,7 +880,7 @@ public ExpressionData Rot3Exp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_Orbit_SolarAngle"></a> SolarAngle
+### SolarAngle
 
 ```csharp
 public Dimensional<Angle> SolarAngle { get; set; }
@@ -889,7 +890,7 @@ public Dimensional<Angle> SolarAngle { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_SolarAngleExp"></a> SolarAngleExp
+### SolarAngleExp
 
 ```csharp
 public ExpressionData SolarAngleExp { get; set; }
@@ -899,7 +900,7 @@ public ExpressionData SolarAngleExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_Orbit_SolarArray"></a> SolarArray
+### SolarArray
 
 ```csharp
 public DimensionalList<Flux> SolarArray { get; set; }
@@ -909,7 +910,7 @@ public DimensionalList<Flux> SolarArray { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[Flux](OpenTD.Dimension.Flux.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_SolarFluxExp"></a> SolarFluxExp
+### SolarFluxExp
 
 ```csharp
 public ExpressionData SolarFluxExp { get; set; }
@@ -919,7 +920,7 @@ public ExpressionData SolarFluxExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_Orbit_SolarTimeArray"></a> SolarTimeArray
+### SolarTimeArray
 
 ```csharp
 public DimensionalList<Time> SolarTimeArray { get; set; }
@@ -929,7 +930,7 @@ public DimensionalList<Time> SolarTimeArray { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_SpinAxis"></a> SpinAxis
+### SpinAxis
 
 ```csharp
 public Vector3d SpinAxis { get; set; }
@@ -939,7 +940,7 @@ public Vector3d SpinAxis { get; set; }
 
  [Vector3d](OpenTD.Vector3d.md)
 
-### <a id="OpenTD_RadCAD_Orbit_SpinVehicle"></a> SpinVehicle
+### SpinVehicle
 
 ```csharp
 public int SpinVehicle { get; set; }
@@ -949,7 +950,7 @@ public int SpinVehicle { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_Orbit_StarDec"></a> StarDec
+### StarDec
 
 ```csharp
 public Dimensional<Angle> StarDec { get; set; }
@@ -959,7 +960,7 @@ public Dimensional<Angle> StarDec { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_StarDecExp"></a> StarDecExp
+### StarDecExp
 
 ```csharp
 public ExpressionData StarDecExp { get; set; }
@@ -969,7 +970,7 @@ public ExpressionData StarDecExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_Orbit_StarRA"></a> StarRA
+### StarRA
 
 ```csharp
 public Dimensional<Angle> StarRA { get; set; }
@@ -979,7 +980,7 @@ public Dimensional<Angle> StarRA { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_StarRAExp"></a> StarRAExp
+### StarRAExp
 
 ```csharp
 public ExpressionData StarRAExp { get; set; }
@@ -989,7 +990,7 @@ public ExpressionData StarRAExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_Orbit_StartAnomaly"></a> StartAnomaly
+### StartAnomaly
 
 ```csharp
 public Dimensional<Angle> StartAnomaly { get; set; }
@@ -999,7 +1000,7 @@ public Dimensional<Angle> StartAnomaly { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_StartAnomalyExp"></a> StartAnomalyExp
+### StartAnomalyExp
 
 ```csharp
 public ExpressionData StartAnomalyExp { get; set; }
@@ -1009,7 +1010,7 @@ public ExpressionData StartAnomalyExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_Orbit_SunSideTempExp"></a> SunSideTempExp
+### SunSideTempExp
 
 ```csharp
 public ExpressionData SunSideTempExp { get; set; }
@@ -1019,7 +1020,7 @@ public ExpressionData SunSideTempExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_Orbit_TerrAltArray"></a> TerrAltArray
+### TerrAltArray
 
 ```csharp
 public DimensionalList<OrbitLength> TerrAltArray { get; set; }
@@ -1029,7 +1030,7 @@ public DimensionalList<OrbitLength> TerrAltArray { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[OrbitLength](OpenTD.Dimension.OrbitLength.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_TerrLatArrayDeg"></a> TerrLatArrayDeg
+### TerrLatArrayDeg
 
 ```csharp
 public List<double> TerrLatArrayDeg { get; set; }
@@ -1039,7 +1040,7 @@ public List<double> TerrLatArrayDeg { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="OpenTD_RadCAD_Orbit_TerrLongArrayDeg"></a> TerrLongArrayDeg
+### TerrLongArrayDeg
 
 ```csharp
 public List<double> TerrLongArrayDeg { get; set; }
@@ -1049,7 +1050,7 @@ public List<double> TerrLongArrayDeg { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="OpenTD_RadCAD_Orbit_TerrTimeArray"></a> TerrTimeArray
+### TerrTimeArray
 
 ```csharp
 public DimensionalList<Time> TerrTimeArray { get; set; }
@@ -1059,7 +1060,7 @@ public DimensionalList<Time> TerrTimeArray { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[Time](OpenTD.Dimension.Time.md)\>
 
-### <a id="OpenTD_RadCAD_Orbit_TerrZrotArrayDeg"></a> TerrZrotArrayDeg
+### TerrZrotArrayDeg
 
 ```csharp
 public List<double> TerrZrotArrayDeg { get; set; }
@@ -1069,7 +1070,7 @@ public List<double> TerrZrotArrayDeg { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="OpenTD_RadCAD_Orbit_UseAtmosphericAttenuation"></a> UseAtmosphericAttenuation
+### UseAtmosphericAttenuation
 
 ```csharp
 public int UseAtmosphericAttenuation { get; set; }
@@ -1079,7 +1080,7 @@ public int UseAtmosphericAttenuation { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_Orbit_UseDarkAndSunSide"></a> UseDarkAndSunSide
+### UseDarkAndSunSide
 
 ```csharp
 public int UseDarkAndSunSide { get; set; }
@@ -1089,7 +1090,7 @@ public int UseDarkAndSunSide { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_Orbit_UseEqualInc"></a> UseEqualInc
+### UseEqualInc
 
 ```csharp
 public int UseEqualInc { get; set; }
@@ -1099,7 +1100,7 @@ public int UseEqualInc { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_Orbit_UseRightAscensionsOrCalculateFromDate"></a> UseRightAscensionsOrCalculateFromDate
+### UseRightAscensionsOrCalculateFromDate
 
 ```csharp
 public int UseRightAscensionsOrCalculateFromDate { get; set; }
@@ -1109,7 +1110,7 @@ public int UseRightAscensionsOrCalculateFromDate { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_Orbit_UseTimeVaryDiffuseSkyIR"></a> UseTimeVaryDiffuseSkyIR
+### UseTimeVaryDiffuseSkyIR
 
 ```csharp
 public int UseTimeVaryDiffuseSkyIR { get; set; }
@@ -1119,7 +1120,7 @@ public int UseTimeVaryDiffuseSkyIR { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_Orbit_UseTimeVaryDiffuseSolar"></a> UseTimeVaryDiffuseSolar
+### UseTimeVaryDiffuseSolar
 
 ```csharp
 public int UseTimeVaryDiffuseSolar { get; set; }
@@ -1129,7 +1130,7 @@ public int UseTimeVaryDiffuseSolar { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_Orbit_UseTimeVarySolar"></a> UseTimeVarySolar
+### UseTimeVarySolar
 
 ```csharp
 public int UseTimeVarySolar { get; set; }
@@ -1139,7 +1140,7 @@ public int UseTimeVarySolar { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_Orbit__Planet"></a> \_Planet
+### \_Planet
 
 Do not use.
 
@@ -1153,13 +1154,13 @@ public Orbit.Planets _Planet { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_RadCAD_Orbit_CheckData"></a> CheckData\(\)
+### CheckData\(\)
 
 ```csharp
 public void CheckData()
 ```
 
-### <a id="OpenTD_RadCAD_Orbit_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -1171,7 +1172,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_RadCAD_Orbit_Rename_System_String_"></a> Rename\(string\)
+### Rename\(string\)
 
 Renames both this client-side instance and the TD entity.
 
@@ -1183,7 +1184,7 @@ public void Rename(string to)
 
 `to` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_Orbit_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -1197,7 +1198,7 @@ public override string ToString()
 
 A string that represents the current object.
 
-### <a id="OpenTD_RadCAD_Orbit_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -1208,4 +1209,5 @@ public override void Update()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

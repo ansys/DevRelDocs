@@ -1,4 +1,4 @@
-# <a id="OpenTD_UnitsData_Resistance"></a> Enum UnitsData.Resistance
+# Enum UnitsData.Resistance
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -16,4 +16,5 @@ public enum UnitsData.Resistance
 `MILLI_OHM = 1` 
 
 `OHM = 0` 
+
 

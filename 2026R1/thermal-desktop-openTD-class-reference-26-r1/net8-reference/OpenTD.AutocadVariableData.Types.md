@@ -1,4 +1,4 @@
-# <a id="OpenTD_AutocadVariableData_Types"></a> Enum AutocadVariableData.Types
+# Enum AutocadVariableData.Types
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -19,4 +19,5 @@ public enum AutocadVariableData.Types
 `STRING = 3` 
 
 `UNKONWN = 0` 
+
 

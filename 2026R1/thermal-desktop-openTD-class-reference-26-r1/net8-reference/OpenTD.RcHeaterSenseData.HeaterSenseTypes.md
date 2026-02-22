@@ -1,4 +1,4 @@
-# <a id="OpenTD_RcHeaterSenseData_HeaterSenseTypes"></a> Enum RcHeaterSenseData.HeaterSenseTypes
+# Enum RcHeaterSenseData.HeaterSenseTypes
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -18,4 +18,5 @@ public enum RcHeaterSenseData.HeaterSenseTypes
 `MINIMUM_TEMPERATURE = 2` 
 
 `USER_INPUT_LOGIC = 3` 
+
 

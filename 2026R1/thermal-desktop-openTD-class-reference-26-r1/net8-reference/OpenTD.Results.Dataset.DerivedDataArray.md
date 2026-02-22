@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_DerivedDataArray"></a> Class DerivedDataArray
+# Class DerivedDataArray
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -13,7 +13,7 @@ this class and override at least the SetDerivedData() method.
 public abstract class DerivedDataArray : DataArray, IEnumerable<double>, IEnumerable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [DataArray](OpenTD.Results.Dataset.DataArray.md) ← 
@@ -25,12 +25,12 @@ public abstract class DerivedDataArray : DataArray, IEnumerable<double>, IEnumer
 [OneSubtypeDerivedDataArray](OpenTD.Results.Dataset.OneSubtypeDerivedDataArray.md), 
 [SelectOneDataArray](OpenTD.Results.Dataset.SelectOneDataArray.md)
 
-#### Implements
+## Implements
 
 [IEnumerable<double\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1), 
 [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
 
-#### Inherited Members
+## Inherited Members
 
 [DataArray.SetValues\(IEnumerable<double\>, DataSubtype, UnitsData, ItemIdentifier\)](OpenTD.Results.Dataset.DataArray.md\#OpenTD\_Results\_Dataset\_DataArray\_SetValues\_System\_Collections\_Generic\_IEnumerable\_System\_Double\_\_OpenTD\_Results\_Dataset\_DataSubtype\_OpenTD\_UnitsData\_OpenTD\_Results\_Dataset\_ItemIdentifier\_), 
 [DataArray.SourceDataset](OpenTD.Results.Dataset.DataArray.md\#OpenTD\_Results\_Dataset\_DataArray\_SourceDataset), 
@@ -65,7 +65,7 @@ public abstract class DerivedDataArray : DataArray, IEnumerable<double>, IEnumer
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_DerivedDataArray__ctor_OpenTD_Results_Dataset_DataArrayCollection_"></a> DerivedDataArray\(DataArrayCollection\)
+### DerivedDataArray\(DataArrayCollection\)
 
 ```csharp
 public DerivedDataArray(DataArrayCollection inputCollection)
@@ -75,7 +75,7 @@ public DerivedDataArray(DataArrayCollection inputCollection)
 
 `inputCollection` [DataArrayCollection](OpenTD.Results.Dataset.DataArrayCollection.md)
 
-### <a id="OpenTD_Results_Dataset_DerivedDataArray__ctor"></a> DerivedDataArray\(\)
+### DerivedDataArray\(\)
 
 ```csharp
 public DerivedDataArray()
@@ -83,7 +83,7 @@ public DerivedDataArray()
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_DerivedDataArray_Count"></a> Count
+### Count
 
 The number of items in this DataArray.
 
@@ -95,7 +95,7 @@ public override int Count { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Results_Dataset_DerivedDataArray_IgnoreNaNInCalculations"></a> IgnoreNaNInCalculations
+### IgnoreNaNInCalculations
 
 ```csharp
 public bool IgnoreNaNInCalculations { get; set; }
@@ -105,7 +105,7 @@ public bool IgnoreNaNInCalculations { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Dataset_DerivedDataArray_InputCollection"></a> InputCollection
+### InputCollection
 
 The collection of DataArrays operated upon to derive data.
 
@@ -117,7 +117,7 @@ public DataArrayCollection InputCollection { get; set; }
 
  [DataArrayCollection](OpenTD.Results.Dataset.DataArrayCollection.md)
 
-### <a id="OpenTD_Results_Dataset_DerivedDataArray_SourceDataset"></a> SourceDataset
+### SourceDataset
 
 The source Dataset for the InputCollection.
 
@@ -135,7 +135,7 @@ public override IDataset SourceDataset { get; }
 
 Cannot set DerivedDataArray.SourceDataset directly. It will be derived from InputArrays.
 
-### <a id="OpenTD_Results_Dataset_DerivedDataArray_SourceItem"></a> SourceItem
+### SourceItem
 
 The SourceItem for the InputCollection.
 
@@ -153,7 +153,7 @@ public override ItemIdentifier SourceItem { get; }
 
 Cannot set DerivedDataArray.SourceItem directly. It will be derived from InputArrays.
 
-### <a id="OpenTD_Results_Dataset_DerivedDataArray_Item_System_Int32_"></a> this\[int\]
+### this\[int\]
 
 ```csharp
 public override double this[int index] { get; set; }
@@ -165,13 +165,13 @@ public override double this[int index] { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_DerivedDataArray_CheckData"></a> CheckData\(\)
+### CheckData\(\)
 
 ```csharp
 protected override void CheckData()
 ```
 
-### <a id="OpenTD_Results_Dataset_DerivedDataArray_GetSelfSuggestedName"></a> GetSelfSuggestedName\(\)
+### GetSelfSuggestedName\(\)
 
 ```csharp
 protected override string GetSelfSuggestedName()
@@ -181,7 +181,7 @@ protected override string GetSelfSuggestedName()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_DerivedDataArray_GetValues_OpenTD_UnitsData_"></a> GetValues\(UnitsData\)
+### GetValues\(UnitsData\)
 
 Gets the data in the units provided.
 
@@ -201,7 +201,7 @@ The units to return the data in.
 
 List&lt;System.Double&gt;.
 
-### <a id="OpenTD_Results_Dataset_DerivedDataArray_SetDerivedData"></a> SetDerivedData\(\)
+### SetDerivedData\(\)
 
 For setting ValuesSI, any other derived data
 
@@ -214,4 +214,5 @@ protected virtual void SetDerivedData()
 [DataArray](OpenTD.Results.Dataset.DataArray.md), 
 [SelectMaxDataArray](OpenTD.Results.Dataset.SelectMaxDataArray.md), 
 [AverageDataArray](OpenTD.Results.Dataset.AverageDataArray.md)
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_Comparer"></a> Class Comparer
+# Class Comparer
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -9,17 +9,17 @@ Use to compare two Datasets.
 public class Comparer : IComparerInput, IComparerOutput
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Comparer](OpenTD.Results.Dataset.Comparer.md)
 
-#### Implements
+## Implements
 
 [IComparerInput](OpenTD.Results.Dataset.IComparerInput.md), 
 [IComparerOutput](OpenTD.Results.Dataset.IComparerOutput.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -31,7 +31,7 @@ public class Comparer : IComparerInput, IComparerOutput
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_Comparer__ctor_OpenTD_Results_Dataset_IDataset_OpenTD_Results_Dataset_IDataset_"></a> Comparer\(IDataset, IDataset\)
+### Comparer\(IDataset, IDataset\)
 
 Initializes a new instance of the <xref href="OpenTD.Results.Dataset.Comparer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -51,7 +51,7 @@ Dataset B
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_Comparer_CompareConductorNames"></a> CompareConductorNames
+### CompareConductorNames
 
 Determines whether Run() will compare the ID's of conductors in common
 thermal submodels.
@@ -64,7 +64,7 @@ public bool CompareConductorNames { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Dataset_Comparer_CompareFTieNames"></a> CompareFTieNames
+### CompareFTieNames
 
 Determines whether Run() will compare the ID's of FTies in common
 fluid submodels.
@@ -77,7 +77,7 @@ public bool CompareFTieNames { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Dataset_Comparer_CompareFluidSubmodels"></a> CompareFluidSubmodels
+### CompareFluidSubmodels
 
 Determines whether Run() will compare the names of the fluid submodels.
 
@@ -89,7 +89,7 @@ public bool CompareFluidSubmodels { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Dataset_Comparer_CompareIFaceNames"></a> CompareIFaceNames
+### CompareIFaceNames
 
 Determines whether Run() will compare the ID's of IFaces in common
 fluid submodels.
@@ -102,7 +102,7 @@ public bool CompareIFaceNames { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Dataset_Comparer_CompareJustFinalRecord"></a> CompareJustFinalRecord
+### CompareJustFinalRecord
 
 Determines whether Run() will compare just the final data values
 in each dataset. If true, will also ignore differences in number
@@ -116,7 +116,7 @@ public bool CompareJustFinalRecord { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Dataset_Comparer_CompareLumpNames"></a> CompareLumpNames
+### CompareLumpNames
 
 Determines whether Run() will compare the ID's of lumps in common
 fluid submodels.
@@ -129,7 +129,7 @@ public bool CompareLumpNames { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Dataset_Comparer_CompareNodeNames"></a> CompareNodeNames
+### CompareNodeNames
 
 Determines whether Run() will compare the ID's of nodes in common
 thermal submodels.
@@ -142,7 +142,7 @@ public bool CompareNodeNames { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Dataset_Comparer_ComparePathNames"></a> ComparePathNames
+### ComparePathNames
 
 Determines whether Run() will compare the ID's of paths in common
 fluid submodels.
@@ -155,7 +155,7 @@ public bool ComparePathNames { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Dataset_Comparer_CompareRecords"></a> CompareRecords
+### CompareRecords
 
 Determines whether Run() will compare the number of records.
 
@@ -167,7 +167,7 @@ public bool CompareRecords { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Dataset_Comparer_CompareRegisterNames"></a> CompareRegisterNames
+### CompareRegisterNames
 
 Determines whether Run() will compare the names of registers.
 
@@ -179,7 +179,7 @@ public bool CompareRegisterNames { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Dataset_Comparer_CompareThermalSubmodels"></a> CompareThermalSubmodels
+### CompareThermalSubmodels
 
 Determines whether Run() will compare the names of the thermal submodels.
 
@@ -191,7 +191,7 @@ public bool CompareThermalSubmodels { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Dataset_Comparer_CompareTieNames"></a> CompareTieNames
+### CompareTieNames
 
 Determines whether Run() will compare the ID's of ties in common
 fluid submodels.
@@ -204,7 +204,7 @@ public bool CompareTieNames { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Dataset_Comparer_CompareTimes"></a> CompareTimes
+### CompareTimes
 
 Determines whether Run() will compare the max and min times.
 
@@ -216,7 +216,7 @@ public bool CompareTimes { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Dataset_Comparer_ComparisonMethods"></a> ComparisonMethods
+### ComparisonMethods
 
 This dispatch table determines what comparison methods will be used for each
 StandardDataSubtype (T, TL, etc.). All others not listed will use the
@@ -236,7 +236,7 @@ public Dictionary<StandardDataSubtypes, ICompareData> ComparisonMethods { get; s
 [Comparer](OpenTD.Results.Dataset.Comparer.md).[DefaultComparisonMethod](OpenTD.Results.Dataset.Comparer.md\#OpenTD\_Results\_Dataset\_Comparer\_DefaultComparisonMethod), 
 [StandardDataSubtypes](OpenTD.Results.Dataset.StandardDataSubtypes.md)
 
-### <a id="OpenTD_Results_Dataset_Comparer_DataToCompare"></a> DataToCompare
+### DataToCompare
 
 List of FullStandardDataSubtype (T, TL, PL, etc.) to compare for all common-name entities.
 For example, if TL is in the list, then Run() will find all the lump
@@ -255,7 +255,7 @@ public List<FullStandardDataSubtype> DataToCompare { get; set; }
 
 [FullStandardDataSubtype](OpenTD.Results.Dataset.FullStandardDataSubtype.md)
 
-### <a id="OpenTD_Results_Dataset_Comparer_DatasetA"></a> DatasetA
+### DatasetA
 
 One of the datasets to compare.
 
@@ -267,7 +267,7 @@ public IDataset DatasetA { get; }
 
  [IDataset](OpenTD.Results.Dataset.IDataset.md)
 
-### <a id="OpenTD_Results_Dataset_Comparer_DatasetB"></a> DatasetB
+### DatasetB
 
 One of the datasets to compare.
 
@@ -279,7 +279,7 @@ public IDataset DatasetB { get; }
 
  [IDataset](OpenTD.Results.Dataset.IDataset.md)
 
-### <a id="OpenTD_Results_Dataset_Comparer_DefaultComparisonMethod"></a> DefaultComparisonMethod
+### DefaultComparisonMethod
 
 For StandardDataSubtypes (T, TL, etc.) not listed in the ComparisonMethods
 dispatch table, use this comparison algorithm.
@@ -298,7 +298,7 @@ public ICompareData DefaultComparisonMethod { get; set; }
 [Comparer](OpenTD.Results.Dataset.Comparer.md).[ComparisonMethods](OpenTD.Results.Dataset.Comparer.md\#OpenTD\_Results\_Dataset\_Comparer\_ComparisonMethods), 
 [StandardDataSubtypes](OpenTD.Results.Dataset.StandardDataSubtypes.md)
 
-### <a id="OpenTD_Results_Dataset_Comparer_Exceedances"></a> Exceedances
+### Exceedances
 
 After calling Run(), contains information about data items that exceeded the
 allowable percent tolerance. Contains a dictionary with one entry for each
@@ -318,7 +318,7 @@ public Dictionary<DataSubtype, List<Exceedance>> Exceedances { get; }
 [FullStandardDataSubtype](OpenTD.Results.Dataset.FullStandardDataSubtype.md), 
 [Exceedance](OpenTD.Results.Dataset.Exceedance.md)
 
-### <a id="OpenTD_Results_Dataset_Comparer_Message"></a> Message
+### Message
 
 Run() outputs a report to this string.
 
@@ -330,7 +330,7 @@ public string Message { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_Comparer_RecNumsA"></a> RecNumsA
+### RecNumsA
 
 A list of the record numbers in DatasetA.
 
@@ -342,7 +342,7 @@ public List<long> RecNumsA { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[long](https://learn.microsoft.com/dotnet/api/system.int64)\>
 
-### <a id="OpenTD_Results_Dataset_Comparer_RecNumsB"></a> RecNumsB
+### RecNumsB
 
 A list of the record numbers in DatasetB.
 
@@ -354,7 +354,7 @@ public List<long> RecNumsB { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[long](https://learn.microsoft.com/dotnet/api/system.int64)\>
 
-### <a id="OpenTD_Results_Dataset_Comparer_RegisterDataToCompare"></a> RegisterDataToCompare
+### RegisterDataToCompare
 
 List of registers to compare, if common between datasets.
 If list is empty, will compare data for all common registers.
@@ -367,7 +367,7 @@ public List<string> RegisterDataToCompare { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_Results_Dataset_Comparer_TimePercentTol"></a> TimePercentTol
+### TimePercentTol
 
 Tolerance for comparison of time series.
 
@@ -379,7 +379,7 @@ public double TimePercentTol { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Results_Dataset_Comparer_TimesA"></a> TimesA
+### TimesA
 
 A list of the times in DatasetA.
 
@@ -391,7 +391,7 @@ public List<double> TimesA { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="OpenTD_Results_Dataset_Comparer_TimesB"></a> TimesB
+### TimesB
 
 A list of the times in DatasetB.
 
@@ -405,13 +405,13 @@ public List<double> TimesB { get; }
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_Comparer_CloseDatasets"></a> CloseDatasets\(\)
+### CloseDatasets\(\)
 
 ```csharp
 public void CloseDatasets()
 ```
 
-### <a id="OpenTD_Results_Dataset_Comparer_GetExceedancePlots_System_Int32_System_Collections_Generic_IEnumerable_OpenTD_Results_Dataset_DataSubtype__"></a> GetExceedancePlots\(int, IEnumerable<DataSubtype\>\)
+### GetExceedancePlots\(int, IEnumerable<DataSubtype\>\)
 
 ```csharp
 public List<ExceedancePlot> GetExceedancePlots(int maxPerSubtype = 1, IEnumerable<DataSubtype> subtypes = null)
@@ -427,7 +427,7 @@ public List<ExceedancePlot> GetExceedancePlots(int maxPerSubtype = 1, IEnumerabl
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ExceedancePlot](OpenTD.Results.Dataset.ExceedancePlot.md)\>
 
-### <a id="OpenTD_Results_Dataset_Comparer_PlotExceedances_System_Int32_System_Collections_Generic_IEnumerable_OpenTD_Results_Dataset_DataSubtype__"></a> PlotExceedances\(int, IEnumerable<DataSubtype\>\)
+### PlotExceedances\(int, IEnumerable<DataSubtype\>\)
 
 ```csharp
 public List<ExceedancePlot> PlotExceedances(int maxPerSubtype = 1, IEnumerable<DataSubtype> subtypes = null)
@@ -443,13 +443,13 @@ public List<ExceedancePlot> PlotExceedances(int maxPerSubtype = 1, IEnumerable<D
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ExceedancePlot](OpenTD.Results.Dataset.ExceedancePlot.md)\>
 
-### <a id="OpenTD_Results_Dataset_Comparer_ReOpenDatasets"></a> ReOpenDatasets\(\)
+### ReOpenDatasets\(\)
 
 ```csharp
 public void ReOpenDatasets()
 ```
 
-### <a id="OpenTD_Results_Dataset_Comparer_Run"></a> Run\(\)
+### Run\(\)
 
 Compares the datasets. Writes a report to the string Message. Returns true if the
 Datasets are found to be equal for all of the tests performed.
@@ -468,7 +468,7 @@ public bool Run()
 
 [Comparer](OpenTD.Results.Dataset.Comparer.md).[Message](OpenTD.Results.Dataset.Comparer.md\#OpenTD\_Results\_Dataset\_Comparer\_Message)
 
-### <a id="OpenTD_Results_Dataset_Comparer_SaveExceedancePlots_System_String_System_String__System_String_System_Int32_System_Collections_Generic_IEnumerable_OpenTD_Results_Dataset_DataSubtype__"></a> SaveExceedancePlots\(string, out string, string, int, IEnumerable<DataSubtype\>\)
+### SaveExceedancePlots\(string, out string, string, int, IEnumerable<DataSubtype\>\)
 
 ```csharp
 public bool SaveExceedancePlots(string directoryPath, out string resultMsg, string prefix = "", int maxPerSubtype = 1, IEnumerable<DataSubtype> subtypes = null)
@@ -490,7 +490,7 @@ public bool SaveExceedancePlots(string directoryPath, out string resultMsg, stri
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Dataset_Comparer_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -504,7 +504,7 @@ public override string ToString()
 
 A string that represents the current object.
 
-### <a id="OpenTD_Results_Dataset_Comparer__markdiff_System_String_"></a> \_markdiff\(string\)
+### \_markdiff\(string\)
 
 Do not use.
 
@@ -516,7 +516,7 @@ public void _markdiff(string msg)
 
 `msg` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_Comparer__writeline_System_String_"></a> \_writeline\(string\)
+### \_writeline\(string\)
 
 Do not use.
 
@@ -528,7 +528,7 @@ public void _writeline(string msg)
 
 `msg` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_Comparer__writesuccess_System_String_"></a> \_writesuccess\(string\)
+### \_writesuccess\(string\)
 
 Do not use.
 
@@ -543,4 +543,5 @@ public void _writesuccess(string msg)
 ## See Also
 
 [Dataset](OpenTD.Results.Dataset.Dataset.md)
+
 

@@ -1,59 +1,137 @@
 # Changelog
 
-This document lists all the changes introduced in AVX Sensors Simulator API version 2025 R2 compared to version 2025 R1.
+This document lists the changes introduced in AVxcelerate Sensors Simulator API v1 delivered in 2026 R1 compared to the AVxcelerate Sensors Simulator API delivered in 2025 R2.
 
-## Changes to tag_colors.proto
+## Change to the AVxcelerate Sensors Simulator internal gRPC server
 
-[Non-breaking change] The **Color** message has been removed from the `tag_colors.proto` file. This message, which is used as field for other messages of the API, is now in the new `colors.proto` file.
+The AVxcelerate Sensors Simulator internal gRPC server now offers the following communication configuration options:
 
-## Changes in Sensor Data
+- Unix Domain Socket (UDS), which is the default transport mode,
+- Mutual Transport Layer Security (mutual TLS)
 
-- [Non-breaking change] The **BoundingBox3D** message has been added to the `camera_output_data.proto` file.
+Alternatively, you may use the insecure transport mode.
 
-- [Non-breaking change] The `bounding_box_3d` field has been added to the **CameraDataEntry** message in to the `sensor_data.proto` file.
+For more details, refer to [**Transport modes** in the API description section](../desc/api-description.md#transport-modes) of the documentation.
+
+Any client application that will communicate with the AVxcelerate Sensor Simulator internal gRPC server over a gRPC channel must be configured with the same transport mode that the one set when launching AVxcelerate Sensors Simulator.
 
 ## Changes to the Simulation service
 
 ### simulation_parameters.proto
 
-- [Binary breaking change] The `generate_temperature_map` field has been removed from the **ThermalCameraSimulation** message.
+#### Changes for the CPU DDMA new feature
 
-- [Non-breaking change] The `enable_surface_smoothing` field has been added to the **LidarSimulation** message.
+- The **DataAccessSettings** message has been updated with the following changes and additions:
 
-- [Non-breaking changes] The following field and message have been added so that the parameters of the Light Propagation Engine can be set for camera sensors.
+  - [Breaking change] The **DataAccessSettings** message now includes the optional `RecordingFormat` field as well as the new `memory_access` field that allows you to activate either the Shared Memory Access or the Data Direct Memory Access. It is no longer possible to active simultaneously both Shared Memory Access and Data Direct Memory Access. When **DataAccessSettings** are not defined, only the Shared Memory Access is activated.
+  - [Behavior breaking change] The new field `data_direct_memory_access` has been added to the **DataAccessSettings** message.
+  - [Behavior breaking change] The new **DataDirectMemoryAccess** message has been added, it includes the **DataDirectMemoryAccessTarget** enum to define the target memory domain for Data Direct Memory Access: **CPU** or **GPU**.
 
-    - The `lpe_parameters` field has been added to the `oneof specific_parameters` field in the **RenderingParameters** message.
-    - The **LightPropagationEngineSimulationParameters** message has been added.
+#### Changes for new features in LPE
+
+##### Raytraced Ambient Occlusion
+
+There are now two possibilities for the ambient occlusion with LPE: Screen Space Ambient Occlusion or Ray Traced Ambient Occlusion.
+
+- The **LightPropagationEngineSimulationParameters** message has been updated with the following changes and additions:
+
+  - [Breaking change] `screen_space_ambient_occlusion` is now a oneof field.
+  - [Breaking changes] The name of the fields in the **ScreenSpaceAmbientOcclusion** message have been renamed as follows:
+    - `ssao_activation` to `activation`
+    - `ambient_occlusion_amount` to `amount`
+    - `ambient_occlusion_radius` to `radius`
+    - `ambient_occlusion_power_exponent` to `power_exponent`
+    - `ambient_occlusion_surface_bias` to `surface_bias`
+
+- [Non-breaking change] The **RaytracedAmbientOcclusion** message has been added to the API, as well as its associated `raytraced_ambient_occlusion` oneof field in the **LightPropagationEngineSimulationParameters** message.
+
+##### Raytraced Scene Renderer
+
+- [Non-breaking change] The boolean field `raytraced_scene_renderer` has been added to the **LightPropagationEngineSimulationParameters** message.
+
+##### Raytraced reflections
+
+- [Non-breaking change] The boolean field `raytraced_reflections` has been added to the **LightPropagationEngineSimulationParameters** message.
+
+#### Changes for the radar curvature consideration new feature
+
+- [Non-breaking change] The new boolean field `use_curvature` has been added to the **RadarSimulation** message.
+
+#### Deprecated fields removed
+
+[Breaking changes] The below-listed deprecated fields have been removed.
+
+- `recording_format` removed from the **SensorParameters** message. Use the oneof field `recording_format` in the **DataAccessSettings** message instead.
+
+- `camera_ground_truth_parameters` removed from the **PbCameraSimulation** message. Instead, use the `RenderingParameters` field, the **RealTimeParameters** message and its `CameraGroundTruthParameters` field.
+
+- `ray_density` removed from **RadarSimulation** message. Use the `grid_sampling` field instead.
+
+- `number_of_ray_batches` removed from the **ManualBatching** message.
+
+- The following fields have been removed from the **RenderingParameters** message:
+  - `camera_near_plane`
+  - `camera_far_plane`
+  - `shadow_quality`
+  - `texture_quality`
+  - `antialiasing_factor`
+  
+  Instead, use he fields of the **RealTimeParameters** message.
+
+#### Other change
+
+In the **LightingSystemParameters** message, the `sampling_rate` field is now optional.
 
 ### world_update.proto
 
-- [Non-breaking change] The `weather` field has been added to the `oneof value` field in the **EnvironmentUpdate** message.
-- [Non-breaking change] The **Weather** and **Fog** messages have been added.
+#### Changes for the Rain new feature in LPE
 
-## Changes to the LightingSystemControl service
+[Non breaking changes] The **Rain** and **Wind** messages have been added to the API, as well as the associated `rain`and `wind` fields added to the **Weather** message.
 
-### lighting_system_state.proto.proto
+#### Fields renamed
 
-It is now possible to update only some properties of a lamp (using the **Set** method of the *LightingSystemControl*) thanks to the following changes made to the **LampState** message:
+[Breaking changes] The field  `streetLightsState` in the **EnvironmentUpdate** message has been renamed to `street_lights_state`.
 
-- [Non-breaking change] the `flux` field is now optional,
-- [Binary breaking changes] the `light_functions` field has been deprecated and replaced with the new `light_functions_tags` field. The type of this field is the new **LightFunctionTags** message.
-  > The return of the **Get** method of the *LightingSystemControl* service now includes both the `light_functions` field and the `light_functions_tags` field.
-  When updating a lamp using the **Set** method of the *LightingSystemControl*, you must set only one of those two fields, preferably the new `light_functions_tags` field.
+### configuration.proto
 
-[Non-breaking change] The `pixel_beam_state` field has been added to the **ModuleState** message. The type of this field is the new **PixelBeamState** message.
-  > Pixel beam is delivered as a beta feature in this release.
+[Breaking changes] The following deprecated fields have been removed from the **Configuration** message:
 
-## Changes to the FeedbackControl service
+- `deploy_parameters`, use the `deploy_configuration` field instead.
+- `lighting_system`, use the `lighting_system_configuration` field instead.
 
-### feedback_control_radar_parameters.proto
+### deploy_parameters.proto
 
-[Non-breaking changes] The following changes have been made so that the phase noise of FMCW radars (System or Performance) can be updated through feedback control:
+[Breaking changes] The deprecated **EndPointRange** message has been removed. Use the **DeployConfiguration** message instead. The parameters previously set using the fields `host`, `min_port` and `max_port` of the **EndPointRange** message must now be set using to the `local_nodes` fields in the **DeployConfiguration** message and the fields of the associated **LocalNodes** message: `min_port` and `max_port`.
 
-- The `phase_noise` field has been added to the **Mode** message, it can be set using either the `pedestal_parametric_phase_noise` or the `piecewise_linear_phase_noise` field.
-- The corresponding **PedestalParametricPhaseNoise** and **PiecewiseLinearPhaseNoise** messages have also been added.
+### upload_data.proto
 
-[Non-breaking changes] The following changes have been made so that range filters can be updated through feedback control:
+[Breaking changes] The deprecated field `resource_identifier` has been removed from the **UploadMetaData** message. Use the `values` map field instead.
 
-- The `range_filter_1` and `range_filter_2` fields have been added to the **Mode** message.
-- The associated **RangeFilter** and **RollOffPoint** messages have also been added.
+## Changes to the Data Access service
+
+### sensor_data_description.proto
+
+[Breaking changes]  The following deprecated fields have been removed from the **SensorDataDescription** message:
+
+- `data_id`
+- `metadata`
+
+Instead, use the `data_by_identifiers` repeated field and the **SensorDataInfo** message which includes the `data_id` and `metadata` fields.
+
+## Changes to the Feedback Control service
+
+### feedback_control_camera_parameters.proto
+
+[Breaking changes] The deprecated field `focal_length` has been removed from the **Lens** message. Use one of the following fields instead: `simple_chromatic_aberration` or `advanced_chromatic_aberration` field.
+
+## Changes to the Lighting System Control service
+
+### lighting_system_state.proto
+
+[Breaking changes] The deprecated field `light_functions` has been removed from the **LampState** message. Use the `light_functions_tags` field instead.
+
+## Changes to the Sensor Data
+
+### camera_output_data.proto
+
+[Non breaking changes] The `tag_name` field has been added to the **BoundingBox3D** message.

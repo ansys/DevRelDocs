@@ -1,4 +1,4 @@
-# <a id="OpenTD_PressureLoad_PressureTypes"></a> Enum PressureLoad.PressureTypes
+# Enum PressureLoad.PressureTypes
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -16,4 +16,5 @@ public enum PressureLoad.PressureTypes
 `FILE = 2` 
 
 `TIME = 1` 
+
 

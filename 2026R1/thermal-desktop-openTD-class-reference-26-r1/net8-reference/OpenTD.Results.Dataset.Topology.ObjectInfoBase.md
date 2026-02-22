@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_Topology_ObjectInfoBase"></a> Class ObjectInfoBase
+# Class ObjectInfoBase
 
 Namespace: [OpenTD.Results.Dataset.Topology](OpenTD.Results.Dataset.Topology.md)  
 Assembly: OpenTD.Results.dll  
@@ -10,7 +10,7 @@ Implements the <xref href="OpenTD.Results.Dataset.Topology.IObjectInfoBase" data
 public class ObjectInfoBase : IObjectInfoBase
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ObjectInfoBase](OpenTD.Results.Dataset.Topology.ObjectInfoBase.md)
@@ -20,11 +20,11 @@ public class ObjectInfoBase : IObjectInfoBase
 [IFaceInfo](OpenTD.Results.Dataset.Topology.IFaceInfo.md), 
 [PathInfo](OpenTD.Results.Dataset.Topology.PathInfo.md)
 
-#### Implements
+## Implements
 
 [IObjectInfoBase](OpenTD.Results.Dataset.Topology.IObjectInfoBase.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -36,7 +36,7 @@ public class ObjectInfoBase : IObjectInfoBase
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_Topology_ObjectInfoBase__ctor_OpenTD_Results_Dataset_Topology_SindaName_"></a> ObjectInfoBase\(SindaName\)
+### ObjectInfoBase\(SindaName\)
 
 ```csharp
 public ObjectInfoBase(SindaName sindaName)
@@ -48,7 +48,7 @@ public ObjectInfoBase(SindaName sindaName)
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_Topology_ObjectInfoBase_ItemIdentifier"></a> ItemIdentifier
+### ItemIdentifier
 
 ```csharp
 public ItemIdentifier ItemIdentifier { get; }
@@ -62,7 +62,7 @@ public ItemIdentifier ItemIdentifier { get; }
 
 [ItemIdentifier](OpenTD.Results.Dataset.ItemIdentifier.md)
 
-### <a id="OpenTD_Results_Dataset_Topology_ObjectInfoBase_SindaName"></a> SindaName
+### SindaName
 
 ```csharp
 public SindaName SindaName { get; }
@@ -79,4 +79,5 @@ public SindaName SindaName { get; }
 ## See Also
 
 [IObjectInfoBase](OpenTD.Results.Dataset.Topology.IObjectInfoBase.md)
+
 

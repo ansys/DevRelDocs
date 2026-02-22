@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Plot_Legend"></a> Class Legend
+# Class Legend
 
 Namespace: [OpenTD.Results.Plot](OpenTD.Results.Plot.md)  
 Assembly: OpenTD.Results.dll  
@@ -9,12 +9,12 @@ Represents a plot legend.
 public class Legend
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Legend](OpenTD.Results.Plot.Legend.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +26,7 @@ public class Legend
 
 ## Constructors
 
-### <a id="OpenTD_Results_Plot_Legend__ctor"></a> Legend\(\)
+### Legend\(\)
 
 ```csharp
 public Legend()
@@ -34,7 +34,7 @@ public Legend()
 
 ## Properties
 
-### <a id="OpenTD_Results_Plot_Legend_Enabled"></a> Enabled
+### Enabled
 
 ```csharp
 public bool Enabled { get; set; }
@@ -44,7 +44,7 @@ public bool Enabled { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Plot_Legend_LegendStyle"></a> LegendStyle
+### LegendStyle
 
 ```csharp
 public LegendStyle LegendStyle { get; set; }
@@ -54,7 +54,7 @@ public LegendStyle LegendStyle { get; set; }
 
  [LegendStyle](OpenTD.Results.Plot.LegendStyle.md)
 
-### <a id="OpenTD_Results_Plot_Legend_Title"></a> Title
+### Title
 
 ```csharp
 public string Title { get; set; }
@@ -66,7 +66,7 @@ public string Title { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Results_Plot_Legend_GetLegendStyle"></a> GetLegendStyle\(\)
+### GetLegendStyle\(\)
 
 ```csharp
 public LegendStyle GetLegendStyle()
@@ -76,7 +76,7 @@ public LegendStyle GetLegendStyle()
 
  [LegendStyle](OpenTD.Results.Plot.LegendStyle.md)
 
-### <a id="OpenTD_Results_Plot_Legend_SetLegendStyle_OpenTD_Results_Plot_LegendStyle_"></a> SetLegendStyle\(LegendStyle\)
+### SetLegendStyle\(LegendStyle\)
 
 ```csharp
 public void SetLegendStyle(LegendStyle ls)
@@ -85,4 +85,5 @@ public void SetLegendStyle(LegendStyle ls)
 #### Parameters
 
 `ls` [LegendStyle](OpenTD.Results.Plot.LegendStyle.md)
+
 

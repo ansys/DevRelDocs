@@ -1,4 +1,4 @@
-# <a id="OpenTD_PolylineVertex"></a> Class PolylineVertex
+# Class PolylineVertex
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,15 +6,16 @@ Assembly: OpenTD.dll
 Describes a vertex and attached line segment in a Polyline.
 
 ```csharp
+[MessagePackObject(true)]
 public class PolylineVertex
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [PolylineVertex](OpenTD.PolylineVertex.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +27,7 @@ public class PolylineVertex
 
 ## Constructors
 
-### <a id="OpenTD_PolylineVertex__ctor_System_Double_System_Double_System_Double_System_Double_System_Double_System_Int32_"></a> PolylineVertex\(double, double, double, double, double, int\)
+### PolylineVertex\(double, double, double, double, double, int\)
 
 ```csharp
 public PolylineVertex(double x, double y, double bulge = 0, double startWidth = 0, double endWidth = 0, int vertexIdentifier = 0)
@@ -46,7 +47,7 @@ public PolylineVertex(double x, double y, double bulge = 0, double startWidth = 
 
 `vertexIdentifier` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PolylineVertex__ctor"></a> PolylineVertex\(\)
+### PolylineVertex\(\)
 
 ```csharp
 public PolylineVertex()
@@ -54,7 +55,7 @@ public PolylineVertex()
 
 ## Properties
 
-### <a id="OpenTD_PolylineVertex_Bulge"></a> Bulge
+### Bulge
 
 Tangent of 1/4 of the included angle of the arc. Positive for arcs
 that go counter-clockwise from the start point to end point. Straight
@@ -68,7 +69,7 @@ public double Bulge { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_PolylineVertex_EndWidth"></a> EndWidth
+### EndWidth
 
 The ending width of the line segment, in-plane with the polyline.
 
@@ -80,7 +81,7 @@ public DimensionalIfPositive<ModelLength> EndWidth { get; set; }
 
  [DimensionalIfPositive](OpenTD.Dimension.DimensionalIfPositive\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_PolylineVertex_Location"></a> Location
+### Location
 
 ```csharp
 public Point2d Location { get; set; }
@@ -90,7 +91,7 @@ public Point2d Location { get; set; }
 
  [Point2d](OpenTD.Point2d.md)
 
-### <a id="OpenTD_PolylineVertex_StartWidth"></a> StartWidth
+### StartWidth
 
 The starting width of the line segment, in-plane with the polyline.
 
@@ -102,7 +103,7 @@ public DimensionalIfPositive<ModelLength> StartWidth { get; set; }
 
  [DimensionalIfPositive](OpenTD.Dimension.DimensionalIfPositive\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_PolylineVertex_VertexIdentifier"></a> VertexIdentifier
+### VertexIdentifier
 
 Added for completeness. Do not use in most cases.
 
@@ -117,4 +118,5 @@ public int VertexIdentifier { get; set; }
 ## See Also
 
 [Polyline](OpenTD.Polyline.md)
+
 

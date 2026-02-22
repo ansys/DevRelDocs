@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_RcEntityData_InsulationNodeSubmodelIdOption"></a> Enum RcEntityData.InsulationNodeSubmodelIdOption
+# Enum RcEntityData.InsulationNodeSubmodelIdOption
 
 Namespace: [OpenTD.RadCAD](OpenTD.RadCAD.md)  
 Assembly: OpenTD.dll  
@@ -14,4 +14,5 @@ public enum RcEntityData.InsulationNodeSubmodelIdOption
 `ID_OFFSET_ONLY = 0` 
 
 `SINGLE_SUBMODEL_ONLY = 1` 
+
 

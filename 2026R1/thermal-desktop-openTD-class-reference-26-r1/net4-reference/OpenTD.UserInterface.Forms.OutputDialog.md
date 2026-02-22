@@ -1,4 +1,4 @@
-# <a id="OpenTD_UserInterface_Forms_OutputDialog"></a> Class OutputDialog
+# Class OutputDialog
 
 Namespace: [OpenTD.UserInterface.Forms](OpenTD.UserInterface.Forms.md)  
 Assembly: OpenTD.dll  
@@ -10,7 +10,7 @@ Uses an OutputBox.
 public class OutputDialog : Form, IDropTarget, ISynchronizeInvoke, IWin32Window, IBindableComponent, IComponent, IDisposable, IContainerControl
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [MarshalByRefObject](https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject) ← 
@@ -21,7 +21,7 @@ public class OutputDialog : Form, IDropTarget, ISynchronizeInvoke, IWin32Window,
 [Form](https://learn.microsoft.com/dotnet/api/system.windows.forms.form) ← 
 [OutputDialog](OpenTD.UserInterface.Forms.OutputDialog.md)
 
-#### Implements
+## Implements
 
 [IDropTarget](https://learn.microsoft.com/dotnet/api/system.windows.forms.idroptarget), 
 [ISynchronizeInvoke](https://learn.microsoft.com/dotnet/api/system.componentmodel.isynchronizeinvoke), 
@@ -31,7 +31,7 @@ public class OutputDialog : Form, IDropTarget, ISynchronizeInvoke, IWin32Window,
 [IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable), 
 [IContainerControl](https://learn.microsoft.com/dotnet/api/system.windows.forms.icontainercontrol)
 
-#### Inherited Members
+## Inherited Members
 
 [Form.SetVisibleCore\(bool\)](https://learn.microsoft.com/dotnet/api/system.windows.forms.form.setvisiblecore), 
 [Form.Activate\(\)](https://learn.microsoft.com/dotnet/api/system.windows.forms.form.activate), 
@@ -621,7 +621,7 @@ public class OutputDialog : Form, IDropTarget, ISynchronizeInvoke, IWin32Window,
 
 ## Constructors
 
-### <a id="OpenTD_UserInterface_Forms_OutputDialog__ctor"></a> OutputDialog\(\)
+### OutputDialog\(\)
 
 ```csharp
 public OutputDialog()
@@ -629,7 +629,7 @@ public OutputDialog()
 
 ## Properties
 
-### <a id="OpenTD_UserInterface_Forms_OutputDialog_Caption"></a> Caption
+### Caption
 
 ```csharp
 public string Caption { get; set; }
@@ -639,7 +639,7 @@ public string Caption { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UserInterface_Forms_OutputDialog_Caption2"></a> Caption2
+### Caption2
 
 ```csharp
 public string Caption2 { get; set; }
@@ -649,7 +649,7 @@ public string Caption2 { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UserInterface_Forms_OutputDialog_CopyButtonEnabled"></a> CopyButtonEnabled
+### CopyButtonEnabled
 
 ```csharp
 public bool CopyButtonEnabled { get; set; }
@@ -659,7 +659,7 @@ public bool CopyButtonEnabled { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserInterface_Forms_OutputDialog_OutputText"></a> OutputText
+### OutputText
 
 ```csharp
 public string OutputText { get; }
@@ -669,7 +669,7 @@ public string OutputText { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UserInterface_Forms_OutputDialog_SaveButtonEnabled"></a> SaveButtonEnabled
+### SaveButtonEnabled
 
 ```csharp
 public bool SaveButtonEnabled { get; set; }
@@ -681,7 +681,7 @@ public bool SaveButtonEnabled { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_UserInterface_Forms_OutputDialog_Dispose_System_Boolean_"></a> Dispose\(bool\)
+### Dispose\(bool\)
 
 Clean up any resources being used.
 
@@ -695,7 +695,7 @@ protected override void Dispose(bool disposing)
 
 true if managed resources should be disposed; otherwise, false.
 
-### <a id="OpenTD_UserInterface_Forms_OutputDialog_Write_System_Object_OpenTD_UserInterface_WriteEventArgs_"></a> Write\(object, WriteEventArgs\)
+### Write\(object, WriteEventArgs\)
 
 ```csharp
 public void Write(object sender, WriteEventArgs e)
@@ -707,7 +707,7 @@ public void Write(object sender, WriteEventArgs e)
 
 `e` [WriteEventArgs](OpenTD.UserInterface.WriteEventArgs.md)
 
-### <a id="OpenTD_UserInterface_Forms_OutputDialog_Write_System_String_"></a> Write\(string\)
+### Write\(string\)
 
 ```csharp
 public void Write(string msg)
@@ -717,7 +717,7 @@ public void Write(string msg)
 
 `msg` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UserInterface_Forms_OutputDialog_WriteLine_System_String_"></a> WriteLine\(string\)
+### WriteLine\(string\)
 
 ```csharp
 public void WriteLine(string msg)
@@ -731,4 +731,5 @@ public void WriteLine(string msg)
 
 [Form](https://learn.microsoft.com/dotnet/api/system.windows.forms.form), 
 [OutputBox](OpenTD.UserInterface.Forms.OutputBox.md)
+
 

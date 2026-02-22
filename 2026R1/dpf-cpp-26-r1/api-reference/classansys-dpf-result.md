@@ -51,7 +51,7 @@ Create a new result from res_name using given stream and timefreq.
 * [Operator](classansys-dpf-operator.md#classansys-dpf-operator) & **stream_provider**: [in] Stream from which to create result.
 * [Operator](classansys-dpf-operator.md#classansys-dpf-operator) & **timefreq_support_provider**: [in] Time/frequency from which to create result.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -83,7 +83,7 @@ Create a new result from res_name using given stream, timefreq, and scoping.
 * [Operator](classansys-dpf-operator.md#classansys-dpf-operator) & **timefreq_support_provider**: [in] Time/frequency from which to create result.
 * [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping) **meshScoping**: [in] [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping) from which to create result.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -117,7 +117,7 @@ Create a new result from res_name using given stream, timefreq, scoping, and loc
 * [Location](structansys-dpf-location.md#structansys-dpf-location) **requested_location**: [in] Location on which to create result.
 * int **cs_id**: [in] Not used.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -153,7 +153,7 @@ Create a new result from res_name using given stream, timefreq, mesh, named_sele
 * bool **bInclusive**: [in] If named_selection is a nodal region and location is elemental, this flag indicates to include full/partial contained elements in named_selection.
 * int **cs_id**: [in] Not used.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -178,7 +178,7 @@ virtual ansys::dpf::Result::~Result()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -199,7 +199,7 @@ FieldsContainer ansys::dpf::Result::EvaluateAtGivenTime(double dTime, DpfError &
 
 
 
-Get the fields associated with results at a given time. 
+Get the fields associated with results at a given time.
 **Returns**:
 
 FieldsContainer for given time.
@@ -232,7 +232,7 @@ FieldsContainer ansys::dpf::Result::EvaluateAtGivenTimeIndex(dp_int iSet, DpfErr
 
 
 
-Get the fields associated with results at given [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport) index. 
+Get the fields associated with results at given [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport) index.
 **Returns**:
 
 FieldsContainer for given time/frequency index.
@@ -241,7 +241,7 @@ FieldsContainer for given time/frequency index.
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **iSet**: [in] Index of [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport).
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **iSet**: [in] Index of [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport).
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
 **Return type**: [FieldsContainer](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer)
@@ -265,7 +265,7 @@ FieldsContainer ansys::dpf::Result::EvaluateAtGivenStepIndexAndSubStep(dp_int iS
 
 
 
-Results are evaluated for at a given [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport). This is arranged in [TimeFreqSupport::numberOfSteps](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport-1a6b3cc037c0283450ac0234dadeddd1b6) groups of size [TimeFreqSupport::numberOfSubStepsByStepIndex](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport-1a4333cdbfac1c49f802a9c33a18970ed5). 
+Results are evaluated for at a given [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport). This is arranged in [TimeFreqSupport::numberOfSteps](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport-1a6b3cc037c0283450ac0234dadeddd1b6) groups of size [TimeFreqSupport::numberOfSubStepsByStepIndex](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport-1a4333cdbfac1c49f802a9c33a18970ed5).
 **Returns**:
 
 FieldsContainer for given step and substep index.
@@ -274,8 +274,8 @@ FieldsContainer for given step and substep index.
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **iStep**: [in] Grouping index.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **iSubStep**: [in] Subgrouping index.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **iStep**: [in] Grouping index.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **iSubStep**: [in] Subgrouping index.
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
 **Return type**: [FieldsContainer](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer)
@@ -299,7 +299,7 @@ FieldsContainer ansys::dpf::Result::EvaluateAmplitudeAtGivenTime(double dTime, D
 
 
 
-Get the amplitude of the real and imaginary part of results at a given time. 
+Get the amplitude of the real and imaginary part of results at a given time.
 **Returns**:
 
 FieldsContainer for given time.
@@ -332,7 +332,7 @@ FieldsContainer ansys::dpf::Result::EvaluateAmplitudeAtGivenTimeIndex(int iSet, 
 
 
 
-Get the amplitude of the real and imaginary part of results of given [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport) index. 
+Get the amplitude of the real and imaginary part of results of given [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport) index.
 **Returns**:
 
 [FieldsContainer](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer) for given [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport) index.
@@ -365,7 +365,7 @@ FieldsContainer ansys::dpf::Result::EvaluateAmplitudeAtGivenStepIndexAndSubStep(
 
 
 
-Get the amplitude of the real and imaginary part of results of given [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport). Results are evaluated at a given [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport). This is arranged in [TimeFreqSupport::numberOfSteps](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport-1a6b3cc037c0283450ac0234dadeddd1b6) groups of size [TimeFreqSupport::numberOfSubStepsByStepIndex](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport-1a4333cdbfac1c49f802a9c33a18970ed5). 
+Get the amplitude of the real and imaginary part of results of given [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport). Results are evaluated at a given [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport). This is arranged in [TimeFreqSupport::numberOfSteps](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport-1a6b3cc037c0283450ac0234dadeddd1b6) groups of size [TimeFreqSupport::numberOfSubStepsByStepIndex](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport-1a4333cdbfac1c49f802a9c33a18970ed5).
 **Returns**:
 
 FieldsContainer for given step and substep index.
@@ -399,7 +399,7 @@ FieldsContainer ansys::dpf::Result::EvaluateWithPhaseAtGivenTime(double dTime, d
 
 
 
-Get the sweeping phase at a given time and phase. 
+Get the sweeping phase at a given time and phase.
 **Returns**:
 
 FieldsContainer for given time and phase.
@@ -433,7 +433,7 @@ FieldsContainer ansys::dpf::Result::EvaluateWithPhaseAtGivenTimeIndex(int iSet, 
 
 
 
-Get the sweeping phase at given [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport) index and phase 
+Get the sweeping phase at given [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport) index and phase
 **Returns**:
 
 [FieldsContainer](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer) for given [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport) index and phase.
@@ -467,7 +467,7 @@ FieldsContainer ansys::dpf::Result::EvaluateWithPhaseAtGivenStepIndexAndSubStep(
 
 
 
-Get the sweeping phase at given [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport) and phase. Results are evaluated at a given [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport). This is arranged in [TimeFreqSupport::numberOfSteps](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport-1a6b3cc037c0283450ac0234dadeddd1b6) groups of size [TimeFreqSupport::numberOfSubStepsByStepIndex](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport-1a4333cdbfac1c49f802a9c33a18970ed5). 
+Get the sweeping phase at given [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport) and phase. Results are evaluated at a given [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport). This is arranged in [TimeFreqSupport::numberOfSteps](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport-1a6b3cc037c0283450ac0234dadeddd1b6) groups of size [TimeFreqSupport::numberOfSubStepsByStepIndex](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport-1a4333cdbfac1c49f802a9c33a18970ed5).
 **Returns**:
 
 FieldsContainer for given step and substep index and phase.

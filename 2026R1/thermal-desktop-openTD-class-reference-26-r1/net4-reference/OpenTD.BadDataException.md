@@ -1,4 +1,4 @@
-# <a id="OpenTD_BadDataException"></a> Class BadDataException
+# Class BadDataException
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,19 +10,19 @@ Thrown when OpenTD encounters bad input data.
 public class BadDataException : OpenTDException, ISerializable, _Exception
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Exception](https://learn.microsoft.com/dotnet/api/system.exception) ← 
 [OpenTDException](OpenTD.OpenTDException.md) ← 
 [BadDataException](OpenTD.BadDataException.md)
 
-#### Implements
+## Implements
 
 [ISerializable](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.iserializable), 
 [\_Exception](https://learn.microsoft.com/dotnet/api/system.runtime.interopservices.\_exception)
 
-#### Inherited Members
+## Inherited Members
 
 [OpenTDException.statusData](OpenTD.OpenTDException.md\#OpenTD\_OpenTDException\_statusData), 
 [OpenTDException.Show\(\)](OpenTD.OpenTDException.md\#OpenTD\_OpenTDException\_Show), 
@@ -49,7 +49,7 @@ public class BadDataException : OpenTDException, ISerializable, _Exception
 
 ## Constructors
 
-### <a id="OpenTD_BadDataException__ctor_System_String_"></a> BadDataException\(string\)
+### BadDataException\(string\)
 
 ```csharp
 public BadDataException(string msg)
@@ -62,4 +62,5 @@ public BadDataException(string msg)
 ## See Also
 
 [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+
 

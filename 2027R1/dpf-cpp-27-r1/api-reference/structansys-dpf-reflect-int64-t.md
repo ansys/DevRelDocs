@@ -1,4 +1,4 @@
-# Structure ansys::dpf::reflect\< int64\_t \>
+# Structure ansys::dpf::reflect\< int64_t \>
 
 <a id="structansys-dpf-reflect-int64-t-4"></a>
 
@@ -13,12 +13,12 @@
 
 ## Members
 
-* [type\_name](structansys-dpf-reflect-int64-t.md#structansys-dpf-reflect-int64-t-4-1a7eb173ea3ba302ac30238b03b4114413)
+* [type_name](structansys-dpf-reflect-int64-t.md#structansys-dpf-reflect-int64-t-4-1a7eb173ea3ba302ac30238b03b4114413)
 
 ## Public static functions
 
 <a id="structansys-dpf-reflect-int64-t-4-1a7eb173ea3ba302ac30238b03b4114413"></a>
-### Function type\_name
+### Function type_name
 
 ![][public]
 ![][static]

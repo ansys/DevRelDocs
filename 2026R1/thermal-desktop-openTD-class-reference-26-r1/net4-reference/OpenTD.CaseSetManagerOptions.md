@@ -1,4 +1,4 @@
-# <a id="OpenTD_CaseSetManagerOptions"></a> Class CaseSetManagerOptions
+# Class CaseSetManagerOptions
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,17 +10,17 @@ Client-side representation of Case Set Manager options in a TD instance.
 public class CaseSetManagerOptions : TdConnected, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 TdConnected ← 
 [CaseSetManagerOptions](OpenTD.CaseSetManagerOptions.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -32,13 +32,13 @@ TdConnected ←
 
 ## Constructors
 
-### <a id="OpenTD_CaseSetManagerOptions__ctor"></a> CaseSetManagerOptions\(\)
+### CaseSetManagerOptions\(\)
 
 ```csharp
 public CaseSetManagerOptions()
 ```
 
-### <a id="OpenTD_CaseSetManagerOptions__ctor_OpenTD_ThermalDesktop_"></a> CaseSetManagerOptions\(ThermalDesktop\)
+### CaseSetManagerOptions\(ThermalDesktop\)
 
 ```csharp
 public CaseSetManagerOptions(ThermalDesktop _td)
@@ -50,7 +50,7 @@ public CaseSetManagerOptions(ThermalDesktop _td)
 
 ## Properties
 
-### <a id="OpenTD_CaseSetManagerOptions_BatchControl"></a> BatchControl
+### BatchControl
 
 ```csharp
 [DataMember]
@@ -61,7 +61,7 @@ public BatchControl BatchControl { get; set; }
 
  [BatchControl](OpenTD.BatchControl.md)
 
-### <a id="OpenTD_CaseSetManagerOptions_ExpectedDupNodes"></a> ExpectedDupNodes
+### ExpectedDupNodes
 
 ```csharp
 [DataMember]
@@ -72,7 +72,7 @@ public List<string> ExpectedDupNodes { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_CaseSetManagerOptions_LowerPriority"></a> LowerPriority
+### LowerPriority
 
 ```csharp
 [DataMember]
@@ -83,7 +83,7 @@ public bool LowerPriority { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_CaseSetManagerOptions_ResetSymbolsUponCompletion"></a> ResetSymbolsUponCompletion
+### ResetSymbolsUponCompletion
 
 ```csharp
 [DataMember]
@@ -94,7 +94,7 @@ public int ResetSymbolsUponCompletion { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_CaseSetManagerOptions_RunBatch"></a> RunBatch
+### RunBatch
 
 ```csharp
 [DataMember]
@@ -105,7 +105,7 @@ public int RunBatch { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_CaseSetManagerOptions_SaveDwg"></a> SaveDwg
+### SaveDwg
 
 ```csharp
 [DataMember]
@@ -116,7 +116,7 @@ public bool SaveDwg { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_CaseSetManagerOptions_ShowTextScreenDuringRun"></a> ShowTextScreenDuringRun
+### ShowTextScreenDuringRun
 
 ```csharp
 [DataMember]
@@ -127,7 +127,7 @@ public bool ShowTextScreenDuringRun { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_CaseSetManagerOptions_duplicateNodes"></a> duplicateNodes
+### duplicateNodes
 
 ```csharp
 [DataMember]
@@ -140,7 +140,7 @@ public CaseSetManagerOptions.DuplicateNodes duplicateNodes { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_CaseSetManagerOptions_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -148,7 +148,7 @@ Updates the TD entity with the latest client data.
 public void Update()
 ```
 
-### <a id="OpenTD_CaseSetManagerOptions_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -159,4 +159,5 @@ public void UpdateFromTD()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

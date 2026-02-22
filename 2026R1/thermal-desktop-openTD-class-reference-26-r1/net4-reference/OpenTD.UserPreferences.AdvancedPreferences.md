@@ -1,4 +1,4 @@
-# <a id="OpenTD_UserPreferences_AdvancedPreferences"></a> Class AdvancedPreferences
+# Class AdvancedPreferences
 
 Namespace: [OpenTD.UserPreferences](OpenTD.UserPreferences.md)  
 Assembly: OpenTD.dll  
@@ -10,18 +10,18 @@ Use to set the global advanced preferences.
 public class AdvancedPreferences : Preferences, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 TdConnected ← 
 Preferences ← 
 [AdvancedPreferences](OpenTD.UserPreferences.AdvancedPreferences.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -33,13 +33,13 @@ Preferences ←
 
 ## Constructors
 
-### <a id="OpenTD_UserPreferences_AdvancedPreferences__ctor"></a> AdvancedPreferences\(\)
+### AdvancedPreferences\(\)
 
 ```csharp
 public AdvancedPreferences()
 ```
 
-### <a id="OpenTD_UserPreferences_AdvancedPreferences__ctor_OpenTD_ThermalDesktop_"></a> AdvancedPreferences\(ThermalDesktop\)
+### AdvancedPreferences\(ThermalDesktop\)
 
 ```csharp
 public AdvancedPreferences(ThermalDesktop _td)
@@ -51,7 +51,7 @@ public AdvancedPreferences(ThermalDesktop _td)
 
 ## Properties
 
-### <a id="OpenTD_UserPreferences_AdvancedPreferences_TURN_ON_BC_OBJECT_VIS_CREATE"></a> TURN\_ON\_BC\_OBJECT\_VIS\_CREATE
+### TURN\_ON\_BC\_OBJECT\_VIS\_CREATE
 
 ```csharp
 [DataMember]
@@ -62,7 +62,7 @@ public int TURN_ON_BC_OBJECT_VIS_CREATE { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_AdvancedPreferences_automaticRegens"></a> automaticRegens
+### automaticRegens
 
 ```csharp
 [DataMember]
@@ -73,7 +73,7 @@ public int automaticRegens { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_AdvancedPreferences_bmpPngGifIndex"></a> bmpPngGifIndex
+### bmpPngGifIndex
 
 ```csharp
 [DataMember]
@@ -84,7 +84,7 @@ public int bmpPngGifIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_AdvancedPreferences_clearMarkersBeforeShowContactorMarkers"></a> clearMarkersBeforeShowContactorMarkers
+### clearMarkersBeforeShowContactorMarkers
 
 ```csharp
 [DataMember]
@@ -95,7 +95,7 @@ public int clearMarkersBeforeShowContactorMarkers { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_AdvancedPreferences_disableDragDrop"></a> disableDragDrop
+### disableDragDrop
 
 ```csharp
 [DataMember]
@@ -106,7 +106,7 @@ public int disableDragDrop { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_AdvancedPreferences_disableHardwareGraphicsDuringCalcs"></a> disableHardwareGraphicsDuringCalcs
+### disableHardwareGraphicsDuringCalcs
 
 ```csharp
 [DataMember]
@@ -117,7 +117,7 @@ public int disableHardwareGraphicsDuringCalcs { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_AdvancedPreferences_disableHighlightUponStartup"></a> disableHighlightUponStartup
+### disableHighlightUponStartup
 
 ```csharp
 [DataMember]
@@ -128,7 +128,7 @@ public int disableHighlightUponStartup { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_AdvancedPreferences_disableUndoUponStartup"></a> disableUndoUponStartup
+### disableUndoUponStartup
 
 ```csharp
 [DataMember]
@@ -139,7 +139,7 @@ public int disableUndoUponStartup { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_AdvancedPreferences_doubleClickEdit"></a> doubleClickEdit
+### doubleClickEdit
 
 ```csharp
 [DataMember]
@@ -150,7 +150,7 @@ public int doubleClickEdit { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_AdvancedPreferences_editorIndex"></a> editorIndex
+### editorIndex
 
 ```csharp
 [DataMember]
@@ -161,7 +161,7 @@ public int editorIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_AdvancedPreferences_enableLighting"></a> enableLighting
+### enableLighting
 
 ```csharp
 [DataMember]
@@ -172,7 +172,7 @@ public int enableLighting { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_AdvancedPreferences_enableSystemConfig"></a> enableSystemConfig
+### enableSystemConfig
 
 ```csharp
 [DataMember]
@@ -183,7 +183,7 @@ public int enableSystemConfig { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_AdvancedPreferences_initACADSettings"></a> initACADSettings
+### initACADSettings
 
 ```csharp
 [DataMember]
@@ -194,7 +194,7 @@ public int initACADSettings { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_AdvancedPreferences_invalidateObjectThreshold"></a> invalidateObjectThreshold
+### invalidateObjectThreshold
 
 ```csharp
 [DataMember]
@@ -205,7 +205,7 @@ public int invalidateObjectThreshold { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_AdvancedPreferences_legendLabelsIndex"></a> legendLabelsIndex
+### legendLabelsIndex
 
 ```csharp
 [DataMember]
@@ -216,7 +216,7 @@ public int legendLabelsIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_AdvancedPreferences_maxLegendLength"></a> maxLegendLength
+### maxLegendLength
 
 ```csharp
 [DataMember]
@@ -227,7 +227,7 @@ public int maxLegendLength { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_AdvancedPreferences_ppViewportAmbient"></a> ppViewportAmbient
+### ppViewportAmbient
 
 ```csharp
 [DataMember]
@@ -238,7 +238,7 @@ public int ppViewportAmbient { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_AdvancedPreferences_showContactPages"></a> showContactPages
+### showContactPages
 
 ```csharp
 [DataMember]
@@ -249,7 +249,7 @@ public int showContactPages { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_AdvancedPreferences_showMessageWindow2"></a> showMessageWindow2
+### showMessageWindow2
 
 ```csharp
 [DataMember]
@@ -260,7 +260,7 @@ public int showMessageWindow2 { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_AdvancedPreferences_smallForms"></a> smallForms
+### smallForms
 
 ```csharp
 [DataMember]
@@ -271,7 +271,7 @@ public int smallForms { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_AdvancedPreferences_userEditorText"></a> userEditorText
+### userEditorText
 
 ```csharp
 [DataMember]
@@ -284,7 +284,7 @@ public string userEditorText { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_UserPreferences_AdvancedPreferences_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -292,11 +292,12 @@ Updates the TD entity with the latest client data.
 public void Update()
 ```
 
-### <a id="OpenTD_UserPreferences_AdvancedPreferences_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
 ```csharp
 public void UpdateFromTD()
 ```
+
 

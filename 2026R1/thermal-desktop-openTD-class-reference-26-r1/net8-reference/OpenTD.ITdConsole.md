@@ -1,4 +1,4 @@
-# <a id="OpenTD_ITdConsole"></a> Interface ITdConsole
+# Interface ITdConsole
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -11,13 +11,13 @@ public interface ITdConsole
 
 ## Methods
 
-### <a id="OpenTD_ITdConsole_BringToFront"></a> BringToFront\(\)
+### BringToFront\(\)
 
 ```csharp
 void BringToFront()
 ```
 
-### <a id="OpenTD_ITdConsole_GetUserBreak"></a> GetUserBreak\(\)
+### GetUserBreak\(\)
 
 ```csharp
 IUserBreak GetUserBreak()
@@ -27,13 +27,13 @@ IUserBreak GetUserBreak()
 
  IUserBreak
 
-### <a id="OpenTD_ITdConsole_HideProgress"></a> HideProgress\(\)
+### HideProgress\(\)
 
 ```csharp
 void HideProgress()
 ```
 
-### <a id="OpenTD_ITdConsole_Print_System_String_"></a> Print\(string\)
+### Print\(string\)
 
 ```csharp
 void Print(string text)
@@ -43,7 +43,7 @@ void Print(string text)
 
 `text` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_ITdConsole_SetProgress_System_Int32_"></a> SetProgress\(int\)
+### SetProgress\(int\)
 
 ```csharp
 void SetProgress(int progressPercent)
@@ -53,7 +53,7 @@ void SetProgress(int progressPercent)
 
 `progressPercent` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_ITdConsole_SetProgressTitle_System_String_"></a> SetProgressTitle\(string\)
+### SetProgressTitle\(string\)
 
 ```csharp
 void SetProgressTitle(string title)
@@ -63,9 +63,10 @@ void SetProgressTitle(string title)
 
 `title` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_ITdConsole_ShowProgress"></a> ShowProgress\(\)
+### ShowProgress\(\)
 
 ```csharp
 void ShowProgress()
 ```
+
 

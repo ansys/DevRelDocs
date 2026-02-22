@@ -1,4 +1,4 @@
-# <a id="OpenTD_PostProcessing_AdditionalHeatrateInfo_SourceTypes"></a> Enum AdditionalHeatrateInfo.SourceTypes
+# Enum AdditionalHeatrateInfo.SourceTypes
 
 Namespace: [OpenTD.PostProcessing](OpenTD.PostProcessing.md)  
 Assembly: OpenTD.dll  
@@ -24,4 +24,5 @@ public enum AdditionalHeatrateInfo.SourceTypes
 `TIME_AVG_TOTAL_ABS = 3` 
 
 `TOTAL_ABS = 0` 
+
 

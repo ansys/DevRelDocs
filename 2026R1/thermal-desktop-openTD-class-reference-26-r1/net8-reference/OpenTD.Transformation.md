@@ -1,4 +1,4 @@
-# <a id="OpenTD_Transformation"></a> Class Transformation
+# Class Transformation
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,15 +6,16 @@ Assembly: OpenTD.dll
 A 3D transformation, described as translation plus up to 3 sequential rotations.
 
 ```csharp
+[MessagePackObject(true)]
 public class Transformation
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Transformation](OpenTD.Transformation.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,13 +27,13 @@ public class Transformation
 
 ## Constructors
 
-### <a id="OpenTD_Transformation__ctor"></a> Transformation\(\)
+### Transformation\(\)
 
 ```csharp
 public Transformation()
 ```
 
-### <a id="OpenTD_Transformation__ctor_OpenTD_Transformation_"></a> Transformation\(Transformation\)
+### Transformation\(Transformation\)
 
 ```csharp
 public Transformation(Transformation x)
@@ -44,7 +45,7 @@ public Transformation(Transformation x)
 
 ## Fields
 
-### <a id="OpenTD_Transformation_Axis1"></a> Axis1
+### Axis1
 
 ```csharp
 public int Axis1
@@ -54,7 +55,7 @@ public int Axis1
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Transformation_Axis2"></a> Axis2
+### Axis2
 
 ```csharp
 public int Axis2
@@ -64,7 +65,7 @@ public int Axis2
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Transformation_Axis3"></a> Axis3
+### Axis3
 
 ```csharp
 public int Axis3
@@ -74,7 +75,7 @@ public int Axis3
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_Transformation_Rot1"></a> Rot1
+### Rot1
 
 ```csharp
 public Dimensional<Angle> Rot1
@@ -84,7 +85,7 @@ public Dimensional<Angle> Rot1
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_Transformation_Rot2"></a> Rot2
+### Rot2
 
 ```csharp
 public Dimensional<Angle> Rot2
@@ -94,7 +95,7 @@ public Dimensional<Angle> Rot2
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_Transformation_Rot3"></a> Rot3
+### Rot3
 
 ```csharp
 public Dimensional<Angle> Rot3
@@ -104,7 +105,7 @@ public Dimensional<Angle> Rot3
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_Transformation_Tx"></a> Tx
+### Tx
 
 ```csharp
 public Dimensional<ModelLength> Tx
@@ -114,7 +115,7 @@ public Dimensional<ModelLength> Tx
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_Transformation_Ty"></a> Ty
+### Ty
 
 ```csharp
 public Dimensional<ModelLength> Ty
@@ -124,7 +125,7 @@ public Dimensional<ModelLength> Ty
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_Transformation_Tz"></a> Tz
+### Tz
 
 ```csharp
 public Dimensional<ModelLength> Tz
@@ -136,7 +137,7 @@ public Dimensional<ModelLength> Tz
 
 ## Properties
 
-### <a id="OpenTD_Transformation_Rot1Exp"></a> Rot1Exp
+### Rot1Exp
 
 ```csharp
 public ExpressionData Rot1Exp { get; set; }
@@ -146,7 +147,7 @@ public ExpressionData Rot1Exp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_Transformation_Rot2Exp"></a> Rot2Exp
+### Rot2Exp
 
 ```csharp
 public ExpressionData Rot2Exp { get; set; }
@@ -156,7 +157,7 @@ public ExpressionData Rot2Exp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_Transformation_Rot3Exp"></a> Rot3Exp
+### Rot3Exp
 
 ```csharp
 public ExpressionData Rot3Exp { get; set; }
@@ -166,7 +167,7 @@ public ExpressionData Rot3Exp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_Transformation_TxExp"></a> TxExp
+### TxExp
 
 ```csharp
 public ExpressionData TxExp { get; set; }
@@ -176,7 +177,7 @@ public ExpressionData TxExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_Transformation_TyExp"></a> TyExp
+### TyExp
 
 ```csharp
 public ExpressionData TyExp { get; set; }
@@ -186,7 +187,7 @@ public ExpressionData TyExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_Transformation_TzExp"></a> TzExp
+### TzExp
 
 ```csharp
 public ExpressionData TzExp { get; set; }
@@ -195,4 +196,5 @@ public ExpressionData TzExp { get; set; }
 #### Property Value
 
  [ExpressionData](OpenTD.ExpressionData.md)
+
 

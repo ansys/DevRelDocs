@@ -1,4 +1,4 @@
-# <a id="OpenTD_UnitsData_FlocadOutputUnitsType"></a> Enum UnitsData.FlocadOutputUnitsType
+# Enum UnitsData.FlocadOutputUnitsType
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -14,4 +14,5 @@ public enum UnitsData.FlocadOutputUnitsType
 `ENG = 1` 
 
 `SI = 0` 
+
 

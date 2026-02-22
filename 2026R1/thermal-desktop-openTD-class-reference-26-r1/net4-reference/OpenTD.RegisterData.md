@@ -1,4 +1,4 @@
-# <a id="OpenTD_RegisterData"></a> Class RegisterData
+# Class RegisterData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,12 +10,12 @@ Represents a Sinda register, used in a Case Set.
 public class RegisterData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [RegisterData](OpenTD.RegisterData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -27,7 +27,7 @@ public class RegisterData
 
 ## Constructors
 
-### <a id="OpenTD_RegisterData__ctor"></a> RegisterData\(\)
+### RegisterData\(\)
 
 ```csharp
 public RegisterData()
@@ -35,7 +35,7 @@ public RegisterData()
 
 ## Properties
 
-### <a id="OpenTD_RegisterData_Comment"></a> Comment
+### Comment
 
 ```csharp
 [DataMember]
@@ -46,7 +46,7 @@ public string Comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RegisterData_Disabled"></a> Disabled
+### Disabled
 
 ```csharp
 [DataMember]
@@ -57,7 +57,7 @@ public bool Disabled { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_RegisterData_Integer"></a> Integer
+### Integer
 
 ```csharp
 [DataMember]
@@ -68,7 +68,7 @@ public bool Integer { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_RegisterData_Name"></a> Name
+### Name
 
 ```csharp
 [DataMember]
@@ -79,7 +79,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RegisterData_UserValue"></a> UserValue
+### UserValue
 
 ```csharp
 [DataMember]
@@ -90,7 +90,7 @@ public string UserValue { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RegisterData_valueType"></a> valueType
+### valueType
 
 ```csharp
 [DataMember]
@@ -104,4 +104,5 @@ public RegisterData.ValueType valueType { get; set; }
 ## See Also
 
 [CaseSet](OpenTD.CaseSet.md)
+
 

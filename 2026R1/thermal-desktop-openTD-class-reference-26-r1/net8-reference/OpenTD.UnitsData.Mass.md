@@ -1,4 +1,4 @@
-# <a id="OpenTD_UnitsData_Mass"></a> Enum UnitsData.Mass
+# Enum UnitsData.Mass
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -18,4 +18,5 @@ public enum UnitsData.Mass
 `LBM = 2` 
 
 `SLUG = 3` 
+
 

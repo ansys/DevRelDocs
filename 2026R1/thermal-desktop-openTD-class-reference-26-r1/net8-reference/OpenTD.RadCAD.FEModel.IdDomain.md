@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FEModel_IdDomain"></a> Class IdDomain
+# Class IdDomain
 
 Namespace: [OpenTD.RadCAD.FEModel](OpenTD.RadCAD.FEModel.md)  
 Assembly: OpenTD.dll  
@@ -6,15 +6,16 @@ Assembly: OpenTD.dll
 Lightweight domain ID holder for use with FEMeshImporter only.
 
 ```csharp
+[MessagePackObject(true)]
 public class IdDomain
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [IdDomain](OpenTD.RadCAD.FEModel.IdDomain.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +27,7 @@ public class IdDomain
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_FEModel_IdDomain__ctor"></a> IdDomain\(\)
+### IdDomain\(\)
 
 ```csharp
 public IdDomain()
@@ -34,7 +35,7 @@ public IdDomain()
 
 ## Fields
 
-### <a id="OpenTD_RadCAD_FEModel_IdDomain_ids"></a> ids
+### ids
 
 ```csharp
 public SortedDictionary<int, int> ids
@@ -46,7 +47,7 @@ public SortedDictionary<int, int> ids
 
 ## Properties
 
-### <a id="OpenTD_RadCAD_FEModel_IdDomain_Ids"></a> Ids
+### Ids
 
 ```csharp
 public ICollection<int> Ids { get; }
@@ -58,7 +59,7 @@ public ICollection<int> Ids { get; }
 
 ## Methods
 
-### <a id="OpenTD_RadCAD_FEModel_IdDomain_Add_System_Int32_"></a> Add\(int\)
+### Add\(int\)
 
 ```csharp
 public void Add(int id)
@@ -68,7 +69,7 @@ public void Add(int id)
 
 `id` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_FEModel_IdDomain_Delete_System_Int32_"></a> Delete\(int\)
+### Delete\(int\)
 
 ```csharp
 public void Delete(int id)
@@ -78,7 +79,7 @@ public void Delete(int id)
 
 `id` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_FEModel_IdDomain_Replace_System_Int32_System_Int32_"></a> Replace\(int, int\)
+### Replace\(int, int\)
 
 ```csharp
 public void Replace(int sourceId, int destinationId)
@@ -89,4 +90,5 @@ public void Replace(int sourceId, int destinationId)
 `sourceId` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 `destinationId` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 

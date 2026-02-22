@@ -1,4 +1,4 @@
-# <a id="OpenTD_UserPreferences_GraphicsTextPreferences"></a> Class GraphicsTextPreferences
+# Class GraphicsTextPreferences
 
 Namespace: [OpenTD.UserPreferences](OpenTD.UserPreferences.md)  
 Assembly: OpenTD.dll  
@@ -10,18 +10,18 @@ Use to set the global dwg text preferences.
 public class GraphicsTextPreferences : Preferences, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 TdConnected ← 
 Preferences ← 
 [GraphicsTextPreferences](OpenTD.UserPreferences.GraphicsTextPreferences.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -33,13 +33,13 @@ Preferences ←
 
 ## Constructors
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences__ctor"></a> GraphicsTextPreferences\(\)
+### GraphicsTextPreferences\(\)
 
 ```csharp
 public GraphicsTextPreferences()
 ```
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences__ctor_OpenTD_ThermalDesktop_"></a> GraphicsTextPreferences\(ThermalDesktop\)
+### GraphicsTextPreferences\(ThermalDesktop\)
 
 ```csharp
 public GraphicsTextPreferences(ThermalDesktop _td)
@@ -51,7 +51,7 @@ public GraphicsTextPreferences(ThermalDesktop _td)
 
 ## Properties
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_compartmentTextColor"></a> compartmentTextColor
+### compartmentTextColor
 
 ```csharp
 [DataMember]
@@ -62,7 +62,7 @@ public int compartmentTextColor { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_compartmentTextScale"></a> compartmentTextScale
+### compartmentTextScale
 
 ```csharp
 [DataMember]
@@ -73,7 +73,7 @@ public double compartmentTextScale { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_compartmentTextShow"></a> compartmentTextShow
+### compartmentTextShow
 
 ```csharp
 [DataMember]
@@ -84,7 +84,7 @@ public bool compartmentTextShow { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_compartmentTextStringIndex"></a> compartmentTextStringIndex
+### compartmentTextStringIndex
 
 ```csharp
 [DataMember]
@@ -95,7 +95,7 @@ public int compartmentTextStringIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_fklocTextColor"></a> fklocTextColor
+### fklocTextColor
 
 ```csharp
 [DataMember]
@@ -106,7 +106,7 @@ public int fklocTextColor { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_fklocTextScale"></a> fklocTextScale
+### fklocTextScale
 
 ```csharp
 [DataMember]
@@ -117,7 +117,7 @@ public double fklocTextScale { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_fklocTextShow"></a> fklocTextShow
+### fklocTextShow
 
 ```csharp
 [DataMember]
@@ -128,7 +128,7 @@ public bool fklocTextShow { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_fklocTextStringIndex"></a> fklocTextStringIndex
+### fklocTextStringIndex
 
 ```csharp
 [DataMember]
@@ -139,7 +139,7 @@ public int fklocTextStringIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_fontName"></a> fontName
+### fontName
 
 ```csharp
 [DataMember]
@@ -150,7 +150,7 @@ public string fontName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_lumpTextColor"></a> lumpTextColor
+### lumpTextColor
 
 ```csharp
 [DataMember]
@@ -161,7 +161,7 @@ public int lumpTextColor { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_lumpTextScale"></a> lumpTextScale
+### lumpTextScale
 
 ```csharp
 [DataMember]
@@ -172,7 +172,7 @@ public double lumpTextScale { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_lumpTextShow"></a> lumpTextShow
+### lumpTextShow
 
 ```csharp
 [DataMember]
@@ -183,7 +183,7 @@ public bool lumpTextShow { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_lumpTextStringIndex"></a> lumpTextStringIndex
+### lumpTextStringIndex
 
 ```csharp
 [DataMember]
@@ -194,7 +194,7 @@ public int lumpTextStringIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_nodeTextColor"></a> nodeTextColor
+### nodeTextColor
 
 ```csharp
 [DataMember]
@@ -205,7 +205,7 @@ public int nodeTextColor { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_nodeTextScale"></a> nodeTextScale
+### nodeTextScale
 
 ```csharp
 [DataMember]
@@ -216,7 +216,7 @@ public double nodeTextScale { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_nodeTextShow"></a> nodeTextShow
+### nodeTextShow
 
 ```csharp
 [DataMember]
@@ -227,7 +227,7 @@ public bool nodeTextShow { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_nodeTextStringIndex"></a> nodeTextStringIndex
+### nodeTextStringIndex
 
 ```csharp
 [DataMember]
@@ -238,7 +238,7 @@ public int nodeTextStringIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_numbersSize"></a> numbersSize
+### numbersSize
 
 ```csharp
 [DataMember]
@@ -249,7 +249,7 @@ public Dimensional<ModelLength> numbersSize { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_pathTextColor"></a> pathTextColor
+### pathTextColor
 
 ```csharp
 [DataMember]
@@ -260,7 +260,7 @@ public int pathTextColor { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_pathTextScale"></a> pathTextScale
+### pathTextScale
 
 ```csharp
 [DataMember]
@@ -271,7 +271,7 @@ public double pathTextScale { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_pathTextShow"></a> pathTextShow
+### pathTextShow
 
 ```csharp
 [DataMember]
@@ -282,7 +282,7 @@ public bool pathTextShow { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_pathTextStringIndex"></a> pathTextStringIndex
+### pathTextStringIndex
 
 ```csharp
 [DataMember]
@@ -293,7 +293,7 @@ public int pathTextStringIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_pipeTextColor"></a> pipeTextColor
+### pipeTextColor
 
 ```csharp
 [DataMember]
@@ -304,7 +304,7 @@ public int pipeTextColor { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_pipeTextScale"></a> pipeTextScale
+### pipeTextScale
 
 ```csharp
 [DataMember]
@@ -315,7 +315,7 @@ public double pipeTextScale { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_pipeTextShow"></a> pipeTextShow
+### pipeTextShow
 
 ```csharp
 [DataMember]
@@ -326,7 +326,7 @@ public bool pipeTextShow { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_pipeTextStringIndex"></a> pipeTextStringIndex
+### pipeTextStringIndex
 
 ```csharp
 [DataMember]
@@ -337,7 +337,7 @@ public int pipeTextStringIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_portTextColor"></a> portTextColor
+### portTextColor
 
 ```csharp
 [DataMember]
@@ -348,7 +348,7 @@ public int portTextColor { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_portTextScale"></a> portTextScale
+### portTextScale
 
 ```csharp
 [DataMember]
@@ -359,7 +359,7 @@ public double portTextScale { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_portTextShow"></a> portTextShow
+### portTextShow
 
 ```csharp
 [DataMember]
@@ -370,7 +370,7 @@ public bool portTextShow { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_portTextStringIndex"></a> portTextStringIndex
+### portTextStringIndex
 
 ```csharp
 [DataMember]
@@ -381,7 +381,7 @@ public int portTextStringIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_screenNumberPercent"></a> screenNumberPercent
+### screenNumberPercent
 
 ```csharp
 [DataMember]
@@ -392,7 +392,7 @@ public double screenNumberPercent { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_showFluidSubmodelNames"></a> showFluidSubmodelNames
+### showFluidSubmodelNames
 
 ```csharp
 [DataMember]
@@ -403,7 +403,7 @@ public bool showFluidSubmodelNames { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_showNodeSubmodelNames"></a> showNodeSubmodelNames
+### showNodeSubmodelNames
 
 ```csharp
 [DataMember]
@@ -414,7 +414,7 @@ public bool showNodeSubmodelNames { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_teeTextColor"></a> teeTextColor
+### teeTextColor
 
 ```csharp
 [DataMember]
@@ -425,7 +425,7 @@ public int teeTextColor { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_teeTextScale"></a> teeTextScale
+### teeTextScale
 
 ```csharp
 [DataMember]
@@ -436,7 +436,7 @@ public double teeTextScale { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_teeTextShow"></a> teeTextShow
+### teeTextShow
 
 ```csharp
 [DataMember]
@@ -447,7 +447,7 @@ public bool teeTextShow { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_teeTextStringIndex"></a> teeTextStringIndex
+### teeTextStringIndex
 
 ```csharp
 [DataMember]
@@ -458,7 +458,7 @@ public int teeTextStringIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_tieTextColor"></a> tieTextColor
+### tieTextColor
 
 ```csharp
 [DataMember]
@@ -469,7 +469,7 @@ public int tieTextColor { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_tieTextScale"></a> tieTextScale
+### tieTextScale
 
 ```csharp
 [DataMember]
@@ -480,7 +480,7 @@ public double tieTextScale { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_tieTextShow"></a> tieTextShow
+### tieTextShow
 
 ```csharp
 [DataMember]
@@ -491,7 +491,7 @@ public bool tieTextShow { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_tieTextStringIndex"></a> tieTextStringIndex
+### tieTextStringIndex
 
 ```csharp
 [DataMember]
@@ -502,7 +502,7 @@ public int tieTextStringIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_useScreenNumberPercent"></a> useScreenNumberPercent
+### useScreenNumberPercent
 
 ```csharp
 [DataMember]
@@ -515,7 +515,7 @@ public bool useScreenNumberPercent { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -523,11 +523,12 @@ Updates the TD entity with the latest client data.
 public void Update()
 ```
 
-### <a id="OpenTD_UserPreferences_GraphicsTextPreferences_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
 ```csharp
 public void UpdateFromTD()
 ```
+
 

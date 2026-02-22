@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FdSolid_SolidCylinder"></a> Class SolidCylinder
+# Class SolidCylinder
 
 Namespace: [OpenTD.RadCAD.FdSolid](OpenTD.RadCAD.FdSolid.md)  
 Assembly: OpenTD.dll  
@@ -6,10 +6,11 @@ Assembly: OpenTD.dll
 Client-side representation of a SolidCylinder entity in a TD instance.
 
 ```csharp
+[MessagePackObject(true)]
 public class SolidCylinder : RcFdSolidData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -18,11 +19,11 @@ public class SolidCylinder : RcFdSolidData, IUpdatable
 [RcFdSolidData](OpenTD.RadCAD.FdSolid.RcFdSolidData.md) ← 
 [SolidCylinder](OpenTD.RadCAD.FdSolid.SolidCylinder.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [RcFdSolidData.AnalysisGroups](OpenTD.RadCAD.FdSolid.RcFdSolidData.md\#OpenTD\_RadCAD\_FdSolid\_RcFdSolidData\_AnalysisGroups), 
 [RcFdSolidData.Comment](OpenTD.RadCAD.FdSolid.RcFdSolidData.md\#OpenTD\_RadCAD\_FdSolid\_RcFdSolidData\_Comment), 
@@ -108,7 +109,7 @@ public class SolidCylinder : RcFdSolidData, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCylinder__ctor"></a> SolidCylinder\(\)
+### SolidCylinder\(\)
 
 ```csharp
 public SolidCylinder()
@@ -116,7 +117,7 @@ public SolidCylinder()
 
 ## Properties
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCylinder_EndAngle"></a> EndAngle
+### EndAngle
 
 ```csharp
 public Dimensional<Angle> EndAngle { get; set; }
@@ -126,7 +127,7 @@ public Dimensional<Angle> EndAngle { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCylinder_EndAngleExp"></a> EndAngleExp
+### EndAngleExp
 
 ```csharp
 public ExpressionData EndAngleExp { get; set; }
@@ -136,7 +137,7 @@ public ExpressionData EndAngleExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCylinder_Height"></a> Height
+### Height
 
 ```csharp
 public Dimensional<ModelLength> Height { get; set; }
@@ -146,7 +147,7 @@ public Dimensional<ModelLength> Height { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCylinder_HeightExp"></a> HeightExp
+### HeightExp
 
 ```csharp
 public ExpressionData HeightExp { get; set; }
@@ -156,7 +157,7 @@ public ExpressionData HeightExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCylinder_Rmax"></a> Rmax
+### Rmax
 
 ```csharp
 public Dimensional<ModelLength> Rmax { get; set; }
@@ -166,7 +167,7 @@ public Dimensional<ModelLength> Rmax { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCylinder_RmaxExp"></a> RmaxExp
+### RmaxExp
 
 ```csharp
 public ExpressionData RmaxExp { get; set; }
@@ -176,7 +177,7 @@ public ExpressionData RmaxExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCylinder_Rmin"></a> Rmin
+### Rmin
 
 ```csharp
 public Dimensional<ModelLength> Rmin { get; set; }
@@ -186,7 +187,7 @@ public Dimensional<ModelLength> Rmin { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCylinder_RminExp"></a> RminExp
+### RminExp
 
 ```csharp
 public ExpressionData RminExp { get; set; }
@@ -196,7 +197,7 @@ public ExpressionData RminExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCylinder_StartAngle"></a> StartAngle
+### StartAngle
 
 ```csharp
 public Dimensional<Angle> StartAngle { get; set; }
@@ -206,7 +207,7 @@ public Dimensional<Angle> StartAngle { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCylinder_StartAngleExp"></a> StartAngleExp
+### StartAngleExp
 
 ```csharp
 public ExpressionData StartAngleExp { get; set; }
@@ -218,7 +219,7 @@ public ExpressionData StartAngleExp { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCylinder_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -230,7 +231,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCylinder_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -238,7 +239,7 @@ Updates the TD entity with the latest client data.
 public override void Update()
 ```
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCylinder_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -249,4 +250,5 @@ public override void UpdateFromTD()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

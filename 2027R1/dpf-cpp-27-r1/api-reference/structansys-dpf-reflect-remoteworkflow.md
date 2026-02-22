@@ -13,12 +13,12 @@
 
 ## Members
 
-* [type\_name](structansys-dpf-reflect-remoteworkflow.md#structansys-dpf-reflect-remoteworkflow-4-1a4ebb2100c6ade8127e0b06a5e7c828e0)
+* [type_name](structansys-dpf-reflect-remoteworkflow.md#structansys-dpf-reflect-remoteworkflow-4-1a4ebb2100c6ade8127e0b06a5e7c828e0)
 
 ## Public static functions
 
 <a id="structansys-dpf-reflect-remoteworkflow-4-1a4ebb2100c6ade8127e0b06a5e7c828e0"></a>
-### Function type\_name
+### Function type_name
 
 ![][public]
 ![][static]

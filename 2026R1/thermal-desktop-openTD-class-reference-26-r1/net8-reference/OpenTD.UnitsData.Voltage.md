@@ -1,4 +1,4 @@
-# <a id="OpenTD_UnitsData_Voltage"></a> Enum UnitsData.Voltage
+# Enum UnitsData.Voltage
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -16,4 +16,5 @@ public enum UnitsData.Voltage
 `MILLI_VOLTS = 1` 
 
 `VOLTS = 0` 
+
 

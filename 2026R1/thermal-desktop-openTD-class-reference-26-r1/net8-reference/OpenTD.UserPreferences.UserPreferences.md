@@ -1,4 +1,4 @@
-# <a id="OpenTD_UserPreferences_UserPreferences"></a> Class UserPreferences
+# Class UserPreferences
 
 Namespace: [OpenTD.UserPreferences](OpenTD.UserPreferences.md)  
 Assembly: OpenTD.dll  
@@ -9,18 +9,18 @@ Provides access to the global user preferences for a dwg.
 public class UserPreferences : Preferences, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 TdConnected ← 
 Preferences ← 
 [UserPreferences](OpenTD.UserPreferences.UserPreferences.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -32,7 +32,7 @@ Preferences ←
 
 ## Constructors
 
-### <a id="OpenTD_UserPreferences_UserPreferences__ctor"></a> UserPreferences\(\)
+### UserPreferences\(\)
 
 Do not use.
 
@@ -40,7 +40,7 @@ Do not use.
 public UserPreferences()
 ```
 
-### <a id="OpenTD_UserPreferences_UserPreferences__ctor_OpenTD_ThermalDesktop_"></a> UserPreferences\(ThermalDesktop\)
+### UserPreferences\(ThermalDesktop\)
 
 ```csharp
 public UserPreferences(ThermalDesktop _td)
@@ -52,7 +52,7 @@ public UserPreferences(ThermalDesktop _td)
 
 ## Properties
 
-### <a id="OpenTD_UserPreferences_UserPreferences_Acceleration"></a> Acceleration
+### Acceleration
 
 Global acceleration preferences for the dwg.
 
@@ -64,7 +64,7 @@ public Acceleration Acceleration { get; }
 
  [Acceleration](OpenTD.UserPreferences.Acceleration.md)
 
-### <a id="OpenTD_UserPreferences_UserPreferences_Advanced"></a> Advanced
+### Advanced
 
 Global advanced preferences for the dwg.
 
@@ -76,7 +76,7 @@ public AdvancedPreferences Advanced { get; }
 
  [AdvancedPreferences](OpenTD.UserPreferences.AdvancedPreferences.md)
 
-### <a id="OpenTD_UserPreferences_UserPreferences_Calculations"></a> Calculations
+### Calculations
 
 Global calculations preferences for the dwg.
 
@@ -88,7 +88,7 @@ public CalculationsPreferences Calculations { get; }
 
  [CalculationsPreferences](OpenTD.UserPreferences.CalculationsPreferences.md)
 
-### <a id="OpenTD_UserPreferences_UserPreferences_GraphicsResolution"></a> GraphicsResolution
+### GraphicsResolution
 
 Global graphics resolution preferences for the dwg.
 
@@ -100,7 +100,7 @@ public GraphicsResolutionPreferences GraphicsResolution { get; }
 
  [GraphicsResolutionPreferences](OpenTD.UserPreferences.GraphicsResolutionPreferences.md)
 
-### <a id="OpenTD_UserPreferences_UserPreferences_GraphicsSize"></a> GraphicsSize
+### GraphicsSize
 
 Global graphics size preferences for the dwg.
 
@@ -112,7 +112,7 @@ public GraphicsSizePreferences GraphicsSize { get; }
 
  [GraphicsSizePreferences](OpenTD.UserPreferences.GraphicsSizePreferences.md)
 
-### <a id="OpenTD_UserPreferences_UserPreferences_GraphicsText"></a> GraphicsText
+### GraphicsText
 
 Global text preferences for the dwg.
 
@@ -124,7 +124,7 @@ public GraphicsTextPreferences GraphicsText { get; }
 
  [GraphicsTextPreferences](OpenTD.UserPreferences.GraphicsTextPreferences.md)
 
-### <a id="OpenTD_UserPreferences_UserPreferences_GraphicsVisibility"></a> GraphicsVisibility
+### GraphicsVisibility
 
 Global graphics visibility preferences for the dwg.
 
@@ -136,7 +136,7 @@ public GraphicsVisibilityPreferences GraphicsVisibility { get; }
 
  [GraphicsVisibilityPreferences](OpenTD.UserPreferences.GraphicsVisibilityPreferences.md)
 
-### <a id="OpenTD_UserPreferences_UserPreferences_Sinda"></a> Sinda
+### Sinda
 
 Global Sinda preferences for the dwg.
 
@@ -148,7 +148,7 @@ public SindaPreferences Sinda { get; }
 
  [SindaPreferences](OpenTD.UserPreferences.SindaPreferences.md)
 
-### <a id="OpenTD_UserPreferences_UserPreferences_Units"></a> Units
+### Units
 
 Global units preferences for the dwg.
 
@@ -162,7 +162,7 @@ public UnitsPreferences Units { get; }
 
 ## Methods
 
-### <a id="OpenTD_UserPreferences_UserPreferences_GetAcceleration"></a> GetAcceleration\(\)
+### GetAcceleration\(\)
 
 Deprecated. Use Acceleration member instead.
 
@@ -178,7 +178,7 @@ public Acceleration GetAcceleration()
 
 [UserPreferences](OpenTD.UserPreferences.UserPreferences.md).[Acceleration](OpenTD.UserPreferences.UserPreferences.md\#OpenTD\_UserPreferences\_UserPreferences\_Acceleration)
 
-### <a id="OpenTD_UserPreferences_UserPreferences_GetDwgUnits"></a> GetDwgUnits\(\)
+### GetDwgUnits\(\)
 
 Deprecated. Use Units member instead.
 
@@ -194,7 +194,7 @@ public UnitsPreferences GetDwgUnits()
 
 [UserPreferences](OpenTD.UserPreferences.UserPreferences.md).[Units](OpenTD.UserPreferences.UserPreferences.md\#OpenTD\_UserPreferences\_UserPreferences\_Units)
 
-### <a id="OpenTD_UserPreferences_UserPreferences_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -202,11 +202,12 @@ Updates the TD entity with the latest client data.
 public void Update()
 ```
 
-### <a id="OpenTD_UserPreferences_UserPreferences_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
 ```csharp
 public void UpdateFromTD()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_Circle"></a> Class Circle
+# Class Circle
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,10 +6,11 @@ Assembly: OpenTD.dll
 Client-side representation of an AutoCAD Circle entity in a TD instance.
 
 ```csharp
+[MessagePackObject(true)]
 public class Circle : TdDbEntityData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -17,11 +18,11 @@ public class Circle : TdDbEntityData, IUpdatable
 [TdDbEntityData](OpenTD.TdDbEntityData.md) ← 
 [Circle](OpenTD.Circle.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [TdDbEntityData.SetFrom\(TdDbEntityData\)](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_SetFrom\_OpenTD\_TdDbEntityData\_), 
 [TdDbEntityData.Layer](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_Layer), 
@@ -53,7 +54,7 @@ public class Circle : TdDbEntityData, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_Circle__ctor"></a> Circle\(\)
+### Circle\(\)
 
 ```csharp
 public Circle()
@@ -61,7 +62,7 @@ public Circle()
 
 ## Properties
 
-### <a id="OpenTD_Circle_Center"></a> Center
+### Center
 
 ```csharp
 public Point3d Center { get; set; }
@@ -71,7 +72,7 @@ public Point3d Center { get; set; }
 
  [Point3d](OpenTD.Point3d.md)
 
-### <a id="OpenTD_Circle_Normal"></a> Normal
+### Normal
 
 ```csharp
 public Vector3d Normal { get; set; }
@@ -81,7 +82,7 @@ public Vector3d Normal { get; set; }
 
  [Vector3d](OpenTD.Vector3d.md)
 
-### <a id="OpenTD_Circle_Radius"></a> Radius
+### Radius
 
 ```csharp
 public Dimensional<ModelLength> Radius { get; set; }
@@ -91,7 +92,7 @@ public Dimensional<ModelLength> Radius { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_Circle_Thickness"></a> Thickness
+### Thickness
 
 ```csharp
 public double Thickness { get; set; }
@@ -103,7 +104,7 @@ public double Thickness { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Circle_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -115,7 +116,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_Circle_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -126,4 +127,5 @@ public override void Update()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

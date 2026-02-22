@@ -1,4 +1,4 @@
-# <a id="OpenTD_AcEllipse"></a> Class AcEllipse
+# Class AcEllipse
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -10,7 +10,7 @@ Client-side representation of an AutoCAD Ellipse entity in a TD instance.
 public class AcEllipse : TdDbEntityData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -18,11 +18,11 @@ public class AcEllipse : TdDbEntityData, IUpdatable
 [TdDbEntityData](OpenTD.TdDbEntityData.md) ← 
 [AcEllipse](OpenTD.AcEllipse.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [TdDbEntityData.SetFrom\(TdDbEntityData\)](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_SetFrom\_OpenTD\_TdDbEntityData\_), 
 [TdDbEntityData.Layer](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_Layer), 
@@ -54,7 +54,7 @@ public class AcEllipse : TdDbEntityData, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_AcEllipse__ctor"></a> AcEllipse\(\)
+### AcEllipse\(\)
 
 ```csharp
 public AcEllipse()
@@ -62,7 +62,7 @@ public AcEllipse()
 
 ## Properties
 
-### <a id="OpenTD_AcEllipse_Center"></a> Center
+### Center
 
 ```csharp
 [DataMember]
@@ -73,7 +73,7 @@ public Point3d Center { get; set; }
 
  [Point3d](OpenTD.Point3d.md)
 
-### <a id="OpenTD_AcEllipse_EndAngle"></a> EndAngle
+### EndAngle
 
 Measured from major axis.
 
@@ -86,7 +86,7 @@ public Dimensional<Angle> EndAngle { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_AcEllipse_MajorAxis"></a> MajorAxis
+### MajorAxis
 
 Vector from the Ellipse's center point to its start point.
 The major axis vector's magnitude represents 1/2 the length
@@ -101,7 +101,7 @@ public Vector3d MajorAxis { get; set; }
 
  [Vector3d](OpenTD.Vector3d.md)
 
-### <a id="OpenTD_AcEllipse_Normal"></a> Normal
+### Normal
 
 Must be perpendicular to MajorAxis.
 
@@ -114,7 +114,7 @@ public Vector3d Normal { get; set; }
 
  [Vector3d](OpenTD.Vector3d.md)
 
-### <a id="OpenTD_AcEllipse_RadiusRatio"></a> RadiusRatio
+### RadiusRatio
 
 Major axis length / minor axis length.
 Must be between 1e-6 and 1.0.
@@ -128,7 +128,7 @@ public double RadiusRatio { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_AcEllipse_StartAngle"></a> StartAngle
+### StartAngle
 
 Measured from major axis.
 
@@ -143,7 +143,7 @@ public Dimensional<Angle> StartAngle { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_AcEllipse_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -155,7 +155,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_AcEllipse_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -166,4 +166,5 @@ public override void Update()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

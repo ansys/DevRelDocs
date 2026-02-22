@@ -1,4 +1,4 @@
-# <a id="OpenTD_IDbIterator"></a> Interface IDbIterator
+# Interface IDbIterator
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -12,7 +12,7 @@ public interface IDbIterator
 
 ## Methods
 
-### <a id="OpenTD_IDbIterator_DbObject"></a> DbObject\(\)
+### DbObject\(\)
 
 Returns the object at the current database position.
 
@@ -24,7 +24,7 @@ dynamic DbObject()
 
  dynamic
 
-### <a id="OpenTD_IDbIterator_Done"></a> Done\(\)
+### Done\(\)
 
 Returns true at the end of the database.
 
@@ -36,11 +36,12 @@ bool Done()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_IDbIterator_Step"></a> Step\(\)
+### Step\(\)
 
 Steps the pointer to the next position in the database.
 
 ```csharp
 void Step()
 ```
+
 

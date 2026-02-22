@@ -85,7 +85,7 @@
 * [connectWith](classansys-dpf-workflow.md#classansys-dpf-workflow-1a4175b5645453c094e5ab3da2bc0b139e)
 * [connectWith](classansys-dpf-workflow.md#classansys-dpf-workflow-1a01626b04d4825b54d4a967c72c942fec)
 * [construct](classansys-dpf-workflow.md#classansys-dpf-workflow-1afcba4a4c6cdf406b9de2aba1a39a7a0e)
-* [CONSTRUCTION\_STRATEGY](classansys-dpf-workflow.md#classansys-dpf-workflow-1a356892d58829b4556ea3d763bbe79ed9)
+* [CONSTRUCTION_STRATEGY](classansys-dpf-workflow.md#classansys-dpf-workflow-1a356892d58829b4556ea3d763bbe79ed9)
 * [describe](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a9977945710983bc03d2940fa007847b2)
 * [discoverAllOperators](classansys-dpf-workflow.md#classansys-dpf-workflow-1a38fb29d1a8d18b4bc08f40b657179735)
 * [empty](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a39cd546c42518e2332be8f287db95459)
@@ -240,7 +240,7 @@ ansys::dpf::RemoteWorkflow::RemoteWorkflow(Streams &streams, ansys::dpf::Workflo
 * [Streams](classansys-dpf-streams.md#classansys-dpf-streams) & **streams**
 * ansys::dpf::Workflow const & **remote_workflow**
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -265,7 +265,7 @@ virtual ansys::dpf::RemoteWorkflow::~RemoteWorkflow()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -294,7 +294,7 @@ ansys::dpf::RemoteWorkflow::RemoteWorkflow(RemoteWorkflow const &)
 
 * RemoteWorkflow const &
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -323,7 +323,7 @@ ansys::dpf::RemoteWorkflow::RemoteWorkflow(Workflow const &)
 
 * Workflow const &
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -352,7 +352,7 @@ ansys::dpf::RemoteWorkflow::RemoteWorkflow(RemoteWorkflow &&) noexcept
 
 * RemoteWorkflow &&
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -436,7 +436,7 @@ dp_id ansys::dpf::RemoteWorkflow::getRemoteWorkflowId() const
 
 
 
-**Return type**: [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e)
+**Return type**: [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e)
 
 <!--
 **TODO**:
@@ -486,7 +486,7 @@ static RemoteWorkflow ansys::dpf::RemoteWorkflow::emptyRemoteWorkflow()
 
 
 
-Create an empty remote workflow. 
+Create an empty remote workflow.
 **Returns**:
 
 Empty RemoteWorkflow.

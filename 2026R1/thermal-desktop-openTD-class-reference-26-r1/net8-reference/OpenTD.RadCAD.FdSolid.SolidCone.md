@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FdSolid_SolidCone"></a> Class SolidCone
+# Class SolidCone
 
 Namespace: [OpenTD.RadCAD.FdSolid](OpenTD.RadCAD.FdSolid.md)  
 Assembly: OpenTD.dll  
@@ -6,10 +6,11 @@ Assembly: OpenTD.dll
 Client-side representation of a SolidCone entity in a TD instance.
 
 ```csharp
+[MessagePackObject(true)]
 public class SolidCone : RcFdSolidData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -18,11 +19,11 @@ public class SolidCone : RcFdSolidData, IUpdatable
 [RcFdSolidData](OpenTD.RadCAD.FdSolid.RcFdSolidData.md) ← 
 [SolidCone](OpenTD.RadCAD.FdSolid.SolidCone.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [RcFdSolidData.AnalysisGroups](OpenTD.RadCAD.FdSolid.RcFdSolidData.md\#OpenTD\_RadCAD\_FdSolid\_RcFdSolidData\_AnalysisGroups), 
 [RcFdSolidData.Comment](OpenTD.RadCAD.FdSolid.RcFdSolidData.md\#OpenTD\_RadCAD\_FdSolid\_RcFdSolidData\_Comment), 
@@ -108,7 +109,7 @@ public class SolidCone : RcFdSolidData, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCone__ctor"></a> SolidCone\(\)
+### SolidCone\(\)
 
 ```csharp
 public SolidCone()
@@ -116,7 +117,7 @@ public SolidCone()
 
 ## Properties
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCone_BaseRmax"></a> BaseRmax
+### BaseRmax
 
 ```csharp
 public Dimensional<ModelLength> BaseRmax { get; set; }
@@ -126,7 +127,7 @@ public Dimensional<ModelLength> BaseRmax { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCone_BaseRmaxExp"></a> BaseRmaxExp
+### BaseRmaxExp
 
 ```csharp
 public ExpressionData BaseRmaxExp { get; set; }
@@ -136,7 +137,7 @@ public ExpressionData BaseRmaxExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCone_BaseRmin"></a> BaseRmin
+### BaseRmin
 
 ```csharp
 public Dimensional<ModelLength> BaseRmin { get; set; }
@@ -146,7 +147,7 @@ public Dimensional<ModelLength> BaseRmin { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCone_BaseRminExp"></a> BaseRminExp
+### BaseRminExp
 
 ```csharp
 public ExpressionData BaseRminExp { get; set; }
@@ -156,7 +157,7 @@ public ExpressionData BaseRminExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCone_EndAngle"></a> EndAngle
+### EndAngle
 
 ```csharp
 public Dimensional<Angle> EndAngle { get; set; }
@@ -166,7 +167,7 @@ public Dimensional<Angle> EndAngle { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCone_EndAngleExp"></a> EndAngleExp
+### EndAngleExp
 
 ```csharp
 public ExpressionData EndAngleExp { get; set; }
@@ -176,7 +177,7 @@ public ExpressionData EndAngleExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCone_Height"></a> Height
+### Height
 
 ```csharp
 public Dimensional<ModelLength> Height { get; set; }
@@ -186,7 +187,7 @@ public Dimensional<ModelLength> Height { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCone_HeightExp"></a> HeightExp
+### HeightExp
 
 ```csharp
 public ExpressionData HeightExp { get; set; }
@@ -196,7 +197,7 @@ public ExpressionData HeightExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCone_StartAngle"></a> StartAngle
+### StartAngle
 
 ```csharp
 public Dimensional<Angle> StartAngle { get; set; }
@@ -206,7 +207,7 @@ public Dimensional<Angle> StartAngle { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[Angle](OpenTD.Dimension.Angle.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCone_StartAngleExp"></a> StartAngleExp
+### StartAngleExp
 
 ```csharp
 public ExpressionData StartAngleExp { get; set; }
@@ -216,7 +217,7 @@ public ExpressionData StartAngleExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCone_TopRmax"></a> TopRmax
+### TopRmax
 
 ```csharp
 public Dimensional<ModelLength> TopRmax { get; set; }
@@ -226,7 +227,7 @@ public Dimensional<ModelLength> TopRmax { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCone_TopRmaxExp"></a> TopRmaxExp
+### TopRmaxExp
 
 ```csharp
 public ExpressionData TopRmaxExp { get; set; }
@@ -236,7 +237,7 @@ public ExpressionData TopRmaxExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCone_TopRmin"></a> TopRmin
+### TopRmin
 
 ```csharp
 public Dimensional<ModelLength> TopRmin { get; set; }
@@ -246,7 +247,7 @@ public Dimensional<ModelLength> TopRmin { get; set; }
 
  [Dimensional](OpenTD.Dimension.Dimensional\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCone_TopRminExp"></a> TopRminExp
+### TopRminExp
 
 ```csharp
 public ExpressionData TopRminExp { get; set; }
@@ -258,7 +259,7 @@ public ExpressionData TopRminExp { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCone_CreateIn_OpenTD_ThermalDesktop_"></a> CreateIn\(ThermalDesktop\)
+### CreateIn\(ThermalDesktop\)
 
 Creates the TD entity in the specified TD instance.
 
@@ -270,7 +271,7 @@ public override void CreateIn(ThermalDesktop td)
 
 `td` [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCone_Update"></a> Update\(\)
+### Update\(\)
 
 Updates the TD entity with the latest client data.
 
@@ -278,7 +279,7 @@ Updates the TD entity with the latest client data.
 public override void Update()
 ```
 
-### <a id="OpenTD_RadCAD_FdSolid_SolidCone_UpdateFromTD"></a> UpdateFromTD\(\)
+### UpdateFromTD\(\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -289,4 +290,5 @@ public override void UpdateFromTD()
 ## See Also
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md)
+
 

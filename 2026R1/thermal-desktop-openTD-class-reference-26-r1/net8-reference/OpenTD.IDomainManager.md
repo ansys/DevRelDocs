@@ -1,4 +1,4 @@
-# <a id="OpenTD_IDomainManager"></a> Interface IDomainManager
+# Interface IDomainManager
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -12,7 +12,7 @@ public interface IDomainManager
 
 ## Methods
 
-### <a id="OpenTD_IDomainManager_CreateDomain_System_String_OpenTD_DomainType_System_Collections_Generic_IEnumerable_OpenTD_Connection__"></a> CreateDomain\(string, DomainType, IEnumerable<Connection\>\)
+### CreateDomain\(string, DomainType, IEnumerable<Connection\>\)
 
 ```csharp
 void CreateDomain(string domainName, DomainType type, IEnumerable<Connection> items)
@@ -26,7 +26,7 @@ void CreateDomain(string domainName, DomainType type, IEnumerable<Connection> it
 
 `items` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Connection](OpenTD.Connection.md)\>
 
-### <a id="OpenTD_IDomainManager_DeleteDomain_System_String_"></a> DeleteDomain\(string\)
+### DeleteDomain\(string\)
 
 ```csharp
 void DeleteDomain(string domainName)
@@ -36,7 +36,7 @@ void DeleteDomain(string domainName)
 
 `domainName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_IDomainManager_GetAnysetDomain_System_String_"></a> GetAnysetDomain\(string\)
+### GetAnysetDomain\(string\)
 
 ```csharp
 List<EntityDescriptor> GetAnysetDomain(string domainName)
@@ -50,7 +50,7 @@ List<EntityDescriptor> GetAnysetDomain(string domainName)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[EntityDescriptor](OpenTD.EntityDescriptor.md)\>
 
-### <a id="OpenTD_IDomainManager_GetDomain_System_String_"></a> GetDomain\(string\)
+### GetDomain\(string\)
 
 ```csharp
 List<EntityDescriptor> GetDomain(string domainName)
@@ -64,7 +64,7 @@ List<EntityDescriptor> GetDomain(string domainName)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[EntityDescriptor](OpenTD.EntityDescriptor.md)\>
 
-### <a id="OpenTD_IDomainManager_GetDomainNames_System_Collections_Generic_List_System_String___System_Collections_Generic_List_System_String___System_Collections_Generic_List_OpenTD_DomainType___"></a> GetDomainNames\(out List<string\>, out List<string\>, out List<DomainType\>\)
+### GetDomainNames\(out List<string\>, out List<string\>, out List<DomainType\>\)
 
 ```csharp
 void GetDomainNames(out List<string> domainNames, out List<string> dbNames, out List<DomainType> domainTypes)
@@ -78,7 +78,7 @@ void GetDomainNames(out List<string> domainNames, out List<string> dbNames, out 
 
 `domainTypes` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[DomainType](OpenTD.DomainType.md)\>
 
-### <a id="OpenTD_IDomainManager_GetDomainNodes_System_String_"></a> GetDomainNodes\(string\)
+### GetDomainNodes\(string\)
 
 ```csharp
 List<Node> GetDomainNodes(string domainName)
@@ -92,7 +92,7 @@ List<Node> GetDomainNodes(string domainName)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Node](OpenTD.Node.md)\>
 
-### <a id="OpenTD_IDomainManager_GetEdgeDomain_System_String_"></a> GetEdgeDomain\(string\)
+### GetEdgeDomain\(string\)
 
 ```csharp
 List<Connection> GetEdgeDomain(string domainName)
@@ -106,7 +106,7 @@ List<Connection> GetEdgeDomain(string domainName)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Connection](OpenTD.Connection.md)\>
 
-### <a id="OpenTD_IDomainManager_GetLumpDomain_System_String_"></a> GetLumpDomain\(string\)
+### GetLumpDomain\(string\)
 
 ```csharp
 List<Connection> GetLumpDomain(string domainName)
@@ -120,7 +120,7 @@ List<Connection> GetLumpDomain(string domainName)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Connection](OpenTD.Connection.md)\>
 
-### <a id="OpenTD_IDomainManager_GetNodeDomain_System_String_"></a> GetNodeDomain\(string\)
+### GetNodeDomain\(string\)
 
 ```csharp
 List<Connection> GetNodeDomain(string domainName)
@@ -134,7 +134,7 @@ List<Connection> GetNodeDomain(string domainName)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Connection](OpenTD.Connection.md)\>
 
-### <a id="OpenTD_IDomainManager_GetPathDomain_System_String_"></a> GetPathDomain\(string\)
+### GetPathDomain\(string\)
 
 ```csharp
 List<Connection> GetPathDomain(string domainName)
@@ -148,7 +148,7 @@ List<Connection> GetPathDomain(string domainName)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Connection](OpenTD.Connection.md)\>
 
-### <a id="OpenTD_IDomainManager_GetSolidDomain_System_String_"></a> GetSolidDomain\(string\)
+### GetSolidDomain\(string\)
 
 ```csharp
 List<Connection> GetSolidDomain(string domainName)
@@ -162,7 +162,7 @@ List<Connection> GetSolidDomain(string domainName)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Connection](OpenTD.Connection.md)\>
 
-### <a id="OpenTD_IDomainManager_GetSurfaceDomain_System_String_"></a> GetSurfaceDomain\(string\)
+### GetSurfaceDomain\(string\)
 
 ```csharp
 List<Connection> GetSurfaceDomain(string domainName)
@@ -176,7 +176,7 @@ List<Connection> GetSurfaceDomain(string domainName)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Connection](OpenTD.Connection.md)\>
 
-### <a id="OpenTD_IDomainManager_RenameDomain_System_String_System_String_"></a> RenameDomain\(string, string\)
+### RenameDomain\(string, string\)
 
 ```csharp
 void RenameDomain(string oldName, string newName)
@@ -188,7 +188,7 @@ void RenameDomain(string oldName, string newName)
 
 `newName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_IDomainManager_SetDomain_System_String_OpenTD_DomainType_System_Collections_Generic_IEnumerable_OpenTD_Connection__"></a> SetDomain\(string, DomainType, IEnumerable<Connection\>\)
+### SetDomain\(string, DomainType, IEnumerable<Connection\>\)
 
 ```csharp
 void SetDomain(string domainName, DomainType type, IEnumerable<Connection> items)
@@ -206,4 +206,5 @@ void SetDomain(string domainName, DomainType type, IEnumerable<Connection> items
 
 [ThermalDesktop](OpenTD.ThermalDesktop.md), 
 [ThermalDesktop](OpenTD.ThermalDesktop.md).[GetDomainManager](OpenTD.ThermalDesktop.md\#OpenTD\_ThermalDesktop\_GetDomainManager)\(\)
+
 

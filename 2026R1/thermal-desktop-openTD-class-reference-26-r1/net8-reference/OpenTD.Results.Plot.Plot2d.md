@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Plot_Plot2d"></a> Class Plot2d
+# Class Plot2d
 
 Namespace: [OpenTD.Results.Plot](OpenTD.Results.Plot.md)  
 Assembly: OpenTD.Results.dll  
@@ -13,7 +13,7 @@ output it as a table of data.
 public abstract class Plot2d
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Plot2d](OpenTD.Results.Plot.Plot2d.md)
@@ -22,7 +22,7 @@ public abstract class Plot2d
 
 [SimplePlot](OpenTD.Results.Plot.SimplePlot.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -34,7 +34,7 @@ public abstract class Plot2d
 
 ## Constructors
 
-### <a id="OpenTD_Results_Plot_Plot2d__ctor_System_String_"></a> Plot2d\(string\)
+### Plot2d\(string\)
 
 ```csharp
 public Plot2d(string title)
@@ -44,7 +44,7 @@ public Plot2d(string title)
 
 `title` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Plot_Plot2d__ctor"></a> Plot2d\(\)
+### Plot2d\(\)
 
 ```csharp
 public Plot2d()
@@ -52,7 +52,7 @@ public Plot2d()
 
 ## Properties
 
-### <a id="OpenTD_Results_Plot_Plot2d_AutoCommenter"></a> AutoCommenter
+### AutoCommenter
 
 ```csharp
 protected AutoCommenter AutoCommenter { get; set; }
@@ -62,7 +62,7 @@ protected AutoCommenter AutoCommenter { get; set; }
 
  AutoCommenter
 
-### <a id="OpenTD_Results_Plot_Plot2d_AutoNamer"></a> AutoNamer
+### AutoNamer
 
 ```csharp
 protected AutoNamer AutoNamer { get; set; }
@@ -72,7 +72,7 @@ protected AutoNamer AutoNamer { get; set; }
 
  AutoNamer
 
-### <a id="OpenTD_Results_Plot_Plot2d_AutoScaleAxesMarginPercent"></a> AutoScaleAxesMarginPercent
+### AutoScaleAxesMarginPercent
 
 For axes that are autoscaled, this is the amount that each axis will be grown beyond
 the range of the data, as a percentage of the total range. Exceptions: if the
@@ -88,7 +88,7 @@ public double AutoScaleAxesMarginPercent { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_Results_Plot_Plot2d_AutoUseMarkersForNonContinuousSeries"></a> AutoUseMarkersForNonContinuousSeries
+### AutoUseMarkersForNonContinuousSeries
 
 If true, series that are detected to be non-continuous (because one or more
 y-values is NaN, for example) will have markers turned on automatically,
@@ -103,7 +103,7 @@ public bool AutoUseMarkersForNonContinuousSeries { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Plot_Plot2d_Comment"></a> Comment
+### Comment
 
 ```csharp
 public string Comment { get; set; }
@@ -113,7 +113,7 @@ public string Comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Plot_Plot2d_InternalSuggestedComment"></a> InternalSuggestedComment
+### InternalSuggestedComment
 
 ```csharp
 public string InternalSuggestedComment { get; set; }
@@ -123,7 +123,7 @@ public string InternalSuggestedComment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Plot_Plot2d_InternalSuggestedName"></a> InternalSuggestedName
+### InternalSuggestedName
 
 ```csharp
 public string InternalSuggestedName { get; set; }
@@ -133,7 +133,7 @@ public string InternalSuggestedName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Plot_Plot2d_Legend"></a> Legend
+### Legend
 
 ```csharp
 public Legend Legend { get; set; }
@@ -143,7 +143,7 @@ public Legend Legend { get; set; }
 
  [Legend](OpenTD.Results.Plot.Legend.md)
 
-### <a id="OpenTD_Results_Plot_Plot2d_Name"></a> Name
+### Name
 
 ```csharp
 public string Name { get; set; }
@@ -153,7 +153,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Plot_Plot2d_Plot2dStyle"></a> Plot2dStyle
+### Plot2dStyle
 
 ```csharp
 public Plot2dStyle Plot2dStyle { get; set; }
@@ -163,7 +163,7 @@ public Plot2dStyle Plot2dStyle { get; set; }
 
  [Plot2dStyle](OpenTD.Results.Plot.Plot2dStyle.md)
 
-### <a id="OpenTD_Results_Plot_Plot2d_Series"></a> Series
+### Series
 
 ```csharp
 public Series2dCollection Series { get; set; }
@@ -173,7 +173,7 @@ public Series2dCollection Series { get; set; }
 
  [Series2dCollection](OpenTD.Results.Plot.Series2dCollection.md)
 
-### <a id="OpenTD_Results_Plot_Plot2d_Title"></a> Title
+### Title
 
 ```csharp
 public string Title { get; set; }
@@ -183,7 +183,7 @@ public string Title { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Plot_Plot2d_TryToNameYAxesBasedOnSeriesSubtype"></a> TryToNameYAxesBasedOnSeriesSubtype
+### TryToNameYAxesBasedOnSeriesSubtype
 
 Normally, Y axes are named based on their dimension, e.g., "Temperature".
 If this member is true, the plot will attempt to name them based on the subtype
@@ -198,7 +198,7 @@ public bool TryToNameYAxesBasedOnSeriesSubtype { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Plot_Plot2d_XAxes"></a> XAxes
+### XAxes
 
 ```csharp
 public List<Axis> XAxes { get; set; }
@@ -208,7 +208,7 @@ public List<Axis> XAxes { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Axis](OpenTD.Results.Plot.Axis.md)\>
 
-### <a id="OpenTD_Results_Plot_Plot2d_YAxes"></a> YAxes
+### YAxes
 
 ```csharp
 public List<Axis> YAxes { get; set; }
@@ -220,7 +220,7 @@ public List<Axis> YAxes { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Results_Plot_Plot2d_AddSeries_OpenTD_Results_Plot_Series2d_"></a> AddSeries\(Series2d\)
+### AddSeries\(Series2d\)
 
 ```csharp
 public void AddSeries(Series2d series)
@@ -230,7 +230,7 @@ public void AddSeries(Series2d series)
 
 `series` [Series2d](OpenTD.Results.Plot.Series2d.md)
 
-### <a id="OpenTD_Results_Plot_Plot2d_AddSeries_OpenTD_Results_Dataset_DataArray_OpenTD_Results_Dataset_DataArray_"></a> AddSeries\(DataArray, DataArray\)
+### AddSeries\(DataArray, DataArray\)
 
 ```csharp
 public void AddSeries(DataArray xData, DataArray yData)
@@ -242,7 +242,7 @@ public void AddSeries(DataArray xData, DataArray yData)
 
 `yData` [DataArray](OpenTD.Results.Dataset.DataArray.md)
 
-### <a id="OpenTD_Results_Plot_Plot2d_AddSeries_OpenTD_Results_Dataset_DataArray_"></a> AddSeries\(DataArray\)
+### AddSeries\(DataArray\)
 
 ```csharp
 public void AddSeries(DataArray yData)
@@ -252,7 +252,7 @@ public void AddSeries(DataArray yData)
 
 `yData` [DataArray](OpenTD.Results.Dataset.DataArray.md)
 
-### <a id="OpenTD_Results_Plot_Plot2d_AddSeries_OpenTD_Results_Dataset_DataArrayCollection_System_Boolean_"></a> AddSeries\(DataArrayCollection, bool\)
+### AddSeries\(DataArrayCollection, bool\)
 
 ```csharp
 public void AddSeries(DataArrayCollection dataCollection, bool useFirstArrayAsXData = false)
@@ -264,7 +264,7 @@ public void AddSeries(DataArrayCollection dataCollection, bool useFirstArrayAsXD
 
 `useFirstArrayAsXData` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Plot_Plot2d_AddSeries_OpenTD_Results_Dataset_DataSubtype_System_Collections_Generic_IEnumerable_System_Double__OpenTD_UnitsData_OpenTD_Results_Dataset_ItemIdentifier_"></a> AddSeries\(DataSubtype, IEnumerable<double\>, UnitsData, ItemIdentifier\)
+### AddSeries\(DataSubtype, IEnumerable<double\>, UnitsData, ItemIdentifier\)
 
 ```csharp
 public void AddSeries(DataSubtype subtype, IEnumerable<double> values, UnitsData units = null, ItemIdentifier item = null)
@@ -280,7 +280,7 @@ public void AddSeries(DataSubtype subtype, IEnumerable<double> values, UnitsData
 
 `item` [ItemIdentifier](OpenTD.Results.Dataset.ItemIdentifier.md)
 
-### <a id="OpenTD_Results_Plot_Plot2d_AddSeries_System_Collections_Generic_IEnumerable_System_Double__"></a> AddSeries\(IEnumerable<double\>\)
+### AddSeries\(IEnumerable<double\>\)
 
 ```csharp
 public void AddSeries(IEnumerable<double> xData)
@@ -290,19 +290,19 @@ public void AddSeries(IEnumerable<double> xData)
 
 `xData` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="OpenTD_Results_Plot_Plot2d_AutoNameXAxes"></a> AutoNameXAxes\(\)
+### AutoNameXAxes\(\)
 
 ```csharp
 public void AutoNameXAxes()
 ```
 
-### <a id="OpenTD_Results_Plot_Plot2d_AutoNameYAxesBasedOnSubtype"></a> AutoNameYAxesBasedOnSubtype\(\)
+### AutoNameYAxesBasedOnSubtype\(\)
 
 ```csharp
 public void AutoNameYAxesBasedOnSubtype()
 ```
 
-### <a id="OpenTD_Results_Plot_Plot2d_AutoScaleAxes"></a> AutoScaleAxes\(\)
+### AutoScaleAxes\(\)
 
 Scales each axis based on the series attached to it.
 
@@ -316,7 +316,7 @@ public void AutoScaleAxes()
 
 AutoScaleNumIntervals must be positive.
 
-### <a id="OpenTD_Results_Plot_Plot2d_AutoSetAxes"></a> AutoSetAxes\(\)
+### AutoSetAxes\(\)
 
 Makes sure each series is assigned to an axis with the correct dimension.
 Throws away unused axes.
@@ -325,19 +325,19 @@ Throws away unused axes.
 public void AutoSetAxes()
 ```
 
-### <a id="OpenTD_Results_Plot_Plot2d_AutoSetLegend"></a> AutoSetLegend\(\)
+### AutoSetLegend\(\)
 
 ```csharp
 protected void AutoSetLegend()
 ```
 
-### <a id="OpenTD_Results_Plot_Plot2d_AutoSetMarkers"></a> AutoSetMarkers\(\)
+### AutoSetMarkers\(\)
 
 ```csharp
 public void AutoSetMarkers()
 ```
 
-### <a id="OpenTD_Results_Plot_Plot2d_GetAsImage"></a> GetAsImage\(\)
+### GetAsImage\(\)
 
 ```csharp
 public virtual Bitmap GetAsImage()
@@ -347,7 +347,7 @@ public virtual Bitmap GetAsImage()
 
  [Bitmap](https://learn.microsoft.com/dotnet/api/system.drawing.bitmap)
 
-### <a id="OpenTD_Results_Plot_Plot2d_GetAsTable_System_String_System_Boolean_"></a> GetAsTable\(string, bool\)
+### GetAsTable\(string, bool\)
 
 ```csharp
 public string GetAsTable(string delimiter = ",", bool consolidateXData = true)
@@ -363,7 +363,7 @@ public string GetAsTable(string delimiter = ",", bool consolidateXData = true)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Plot_Plot2d_GetPlotStyle"></a> GetPlotStyle\(\)
+### GetPlotStyle\(\)
 
 ```csharp
 public Plot2dStyle GetPlotStyle()
@@ -373,13 +373,13 @@ public Plot2dStyle GetPlotStyle()
 
  [Plot2dStyle](OpenTD.Results.Plot.Plot2dStyle.md)
 
-### <a id="OpenTD_Results_Plot_Plot2d_GetReadyToOutput"></a> GetReadyToOutput\(\)
+### GetReadyToOutput\(\)
 
 ```csharp
 protected virtual void GetReadyToOutput()
 ```
 
-### <a id="OpenTD_Results_Plot_Plot2d_GetSelfSuggestedComment"></a> GetSelfSuggestedComment\(\)
+### GetSelfSuggestedComment\(\)
 
 ```csharp
 protected virtual string GetSelfSuggestedComment()
@@ -389,7 +389,7 @@ protected virtual string GetSelfSuggestedComment()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Plot_Plot2d_GetSelfSuggestedName"></a> GetSelfSuggestedName\(\)
+### GetSelfSuggestedName\(\)
 
 ```csharp
 protected virtual string GetSelfSuggestedName()
@@ -399,7 +399,7 @@ protected virtual string GetSelfSuggestedName()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Plot_Plot2d_GetSeriesOnAxis_OpenTD_Results_Plot_Axis_"></a> GetSeriesOnAxis\(Axis\)
+### GetSeriesOnAxis\(Axis\)
 
 ```csharp
 public List<Series2d> GetSeriesOnAxis(Axis a)
@@ -413,7 +413,7 @@ public List<Series2d> GetSeriesOnAxis(Axis a)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Series2d](OpenTD.Results.Plot.Series2d.md)\>
 
-### <a id="OpenTD_Results_Plot_Plot2d_SaveAsImage_System_String_"></a> SaveAsImage\(string\)
+### SaveAsImage\(string\)
 
 ```csharp
 public void SaveAsImage(string pathname)
@@ -423,7 +423,7 @@ public void SaveAsImage(string pathname)
 
 `pathname` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Plot_Plot2d_SaveAsTable_System_String_System_String_System_Boolean_"></a> SaveAsTable\(string, string, bool\)
+### SaveAsTable\(string, string, bool\)
 
 Saves the plot as a tabular data.
 
@@ -447,7 +447,7 @@ if set to <code>true</code>, Will attempt to combine series x-values into the fe
 columns. Will only combine x-values if they point to exactly the same source, i.e., it
 tests equality by reference, not by value.
 
-### <a id="OpenTD_Results_Plot_Plot2d_SetPlotStyle_OpenTD_Results_Plot_Plot2dStyle_"></a> SetPlotStyle\(Plot2dStyle\)
+### SetPlotStyle\(Plot2dStyle\)
 
 ```csharp
 public void SetPlotStyle(Plot2dStyle ps)
@@ -457,7 +457,7 @@ public void SetPlotStyle(Plot2dStyle ps)
 
 `ps` [Plot2dStyle](OpenTD.Results.Plot.Plot2dStyle.md)
 
-### <a id="OpenTD_Results_Plot_Plot2d_SetSeriesPaletteColor_System_Int32_System_Drawing_Color_"></a> SetSeriesPaletteColor\(int, Color\)
+### SetSeriesPaletteColor\(int, Color\)
 
 ```csharp
 public void SetSeriesPaletteColor(int index, Color color)
@@ -469,13 +469,13 @@ public void SetSeriesPaletteColor(int index, Color color)
 
 `color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="OpenTD_Results_Plot_Plot2d_Show"></a> Show\(\)
+### Show\(\)
 
 ```csharp
 public virtual void Show()
 ```
 
-### <a id="OpenTD_Results_Plot_Plot2d_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -493,4 +493,5 @@ A string that represents the current object.
 
 [SimplePlot](OpenTD.Results.Plot.SimplePlot.md), 
 IAutoName
+
 

@@ -1,4 +1,4 @@
-# <a id="OpenTD_FluintLogicData"></a> Class FluintLogicData
+# Class FluintLogicData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,15 +6,16 @@ Assembly: OpenTD.dll
 User logic for a fluid submodel.
 
 ```csharp
+[MessagePackObject(true)]
 public class FluintLogicData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [FluintLogicData](OpenTD.FluintLogicData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +27,7 @@ public class FluintLogicData
 
 ## Constructors
 
-### <a id="OpenTD_FluintLogicData__ctor"></a> FluintLogicData\(\)
+### FluintLogicData\(\)
 
 ```csharp
 public FluintLogicData()
@@ -34,7 +35,7 @@ public FluintLogicData()
 
 ## Properties
 
-### <a id="OpenTD_FluintLogicData_Array"></a> Array
+### Array
 
 ```csharp
 public string Array { get; set; }
@@ -44,7 +45,7 @@ public string Array { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FluintLogicData_Carray"></a> Carray
+### Carray
 
 ```csharp
 public string Carray { get; set; }
@@ -54,7 +55,7 @@ public string Carray { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FluintLogicData_Control"></a> Control
+### Control
 
 ```csharp
 public string Control { get; set; }
@@ -64,7 +65,7 @@ public string Control { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FluintLogicData_Flogic0"></a> Flogic0
+### Flogic0
 
 ```csharp
 public string Flogic0 { get; set; }
@@ -74,7 +75,7 @@ public string Flogic0 { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FluintLogicData_Flogic1"></a> Flogic1
+### Flogic1
 
 ```csharp
 public string Flogic1 { get; set; }
@@ -84,7 +85,7 @@ public string Flogic1 { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FluintLogicData_Flogic2"></a> Flogic2
+### Flogic2
 
 ```csharp
 public string Flogic2 { get; set; }
@@ -94,7 +95,7 @@ public string Flogic2 { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FluintLogicData_Flow"></a> Flow
+### Flow
 
 ```csharp
 public string Flow { get; set; }
@@ -104,7 +105,7 @@ public string Flow { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_FluintLogicData_Output"></a> Output
+### Output
 
 ```csharp
 public string Output { get; set; }
@@ -113,4 +114,5 @@ public string Output { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

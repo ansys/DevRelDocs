@@ -1,4 +1,4 @@
-# <a id="OpenTD_PostProcessing_AdditionalRadkInfo"></a> Class AdditionalRadkInfo
+# Class AdditionalRadkInfo
 
 Namespace: [OpenTD.PostProcessing](OpenTD.PostProcessing.md)  
 Assembly: OpenTD.dll  
@@ -7,16 +7,17 @@ Information specific to RADK type Datasets.
 Implements the <xref href="OpenTD.PostProcessing.AdditionalDatasetInfo" data-throw-if-not-resolved="false"></xref>
 
 ```csharp
+[MessagePackObject(true)]
 public class AdditionalRadkInfo : AdditionalDatasetInfo
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AdditionalDatasetInfo](OpenTD.PostProcessing.AdditionalDatasetInfo.md) ← 
 [AdditionalRadkInfo](OpenTD.PostProcessing.AdditionalRadkInfo.md)
 
-#### Inherited Members
+## Inherited Members
 
 [AdditionalDatasetInfo.Pathname](OpenTD.PostProcessing.AdditionalDatasetInfo.md\#OpenTD\_PostProcessing\_AdditionalDatasetInfo\_Pathname), 
 [AdditionalDatasetInfo.\_pathname](OpenTD.PostProcessing.AdditionalDatasetInfo.md\#OpenTD\_PostProcessing\_AdditionalDatasetInfo\_\_pathname), 
@@ -30,7 +31,7 @@ public class AdditionalRadkInfo : AdditionalDatasetInfo
 
 ## Constructors
 
-### <a id="OpenTD_PostProcessing_AdditionalRadkInfo__ctor"></a> AdditionalRadkInfo\(\)
+### AdditionalRadkInfo\(\)
 
 ```csharp
 public AdditionalRadkInfo()
@@ -38,7 +39,7 @@ public AdditionalRadkInfo()
 
 ## Properties
 
-### <a id="OpenTD_PostProcessing_AdditionalRadkInfo_DbName"></a> DbName
+### DbName
 
 ```csharp
 public string DbName { get; set; }
@@ -48,7 +49,7 @@ public string DbName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_PostProcessing_AdditionalRadkInfo_DisplayType"></a> DisplayType
+### DisplayType
 
 ```csharp
 public AdditionalRadkInfo.DisplayTypes DisplayType { get; set; }
@@ -58,7 +59,7 @@ public AdditionalRadkInfo.DisplayTypes DisplayType { get; set; }
 
  [AdditionalRadkInfo](OpenTD.PostProcessing.AdditionalRadkInfo.md).[DisplayTypes](OpenTD.PostProcessing.AdditionalRadkInfo.DisplayTypes.md)
 
-### <a id="OpenTD_PostProcessing_AdditionalRadkInfo_NodeName"></a> NodeName
+### NodeName
 
 ```csharp
 public string NodeName { get; set; }
@@ -72,4 +73,5 @@ public string NodeName { get; set; }
 
 [AdditionalDatasetInfo](OpenTD.PostProcessing.AdditionalDatasetInfo.md), 
 [Dataset](OpenTD.PostProcessing.Dataset.md)
+
 

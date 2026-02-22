@@ -17,6 +17,7 @@ The OpenTD API is organized into the following namespaces:
 - [OpenTD.RadCAD.FEM](OpenTD.RadCAD.FEM.md) - Finite element mesh components for radiation
 - [OpenTD.RadCAD.FEModel](OpenTD.RadCAD.FEModel.md) - Finite element model structures
 - [OpenTD.RadCAD.FdSolid](OpenTD.RadCAD.FdSolid.md) - Finite difference solid modeling
+- [OpenTD.Results](OpenTD.Results) - Read save, CSR, and savex files
 - [OpenTD.UserInterface](OpenTD.UserInterface.md) - User interface components
 - [OpenTD.UserInterface.Forms](OpenTD.UserInterface.Forms.md) - User interface forms and dialogs
 - [OpenTD.UserPreferences](OpenTD.UserPreferences.md) - User preferences and settings

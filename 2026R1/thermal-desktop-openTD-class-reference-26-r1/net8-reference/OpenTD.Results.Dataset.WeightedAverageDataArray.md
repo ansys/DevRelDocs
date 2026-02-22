@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_WeightedAverageDataArray"></a> Class WeightedAverageDataArray
+# Class WeightedAverageDataArray
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -12,7 +12,7 @@ Note: if IgnoreNaNInCalculations is true, NaN in input and weighting arrays will
 public class WeightedAverageDataArray : OneSubtypeDerivedDataArray, IEnumerable<double>, IEnumerable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [DataArray](OpenTD.Results.Dataset.DataArray.md) ← 
@@ -20,12 +20,12 @@ public class WeightedAverageDataArray : OneSubtypeDerivedDataArray, IEnumerable<
 [OneSubtypeDerivedDataArray](OpenTD.Results.Dataset.OneSubtypeDerivedDataArray.md) ← 
 [WeightedAverageDataArray](OpenTD.Results.Dataset.WeightedAverageDataArray.md)
 
-#### Implements
+## Implements
 
 [IEnumerable<double\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1), 
 [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
 
-#### Inherited Members
+## Inherited Members
 
 [OneSubtypeDerivedDataArray.SetDerivedData\(\)](OpenTD.Results.Dataset.OneSubtypeDerivedDataArray.md\#OpenTD\_Results\_Dataset\_OneSubtypeDerivedDataArray\_SetDerivedData), 
 [OneSubtypeDerivedDataArray.CheckData\(\)](OpenTD.Results.Dataset.OneSubtypeDerivedDataArray.md\#OpenTD\_Results\_Dataset\_OneSubtypeDerivedDataArray\_CheckData), 
@@ -72,7 +72,7 @@ public class WeightedAverageDataArray : OneSubtypeDerivedDataArray, IEnumerable<
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_WeightedAverageDataArray__ctor_OpenTD_Results_Dataset_DataSubtype_OpenTD_Results_Dataset_DataSubtype_OpenTD_Results_Dataset_ItemIdentifierCollection_OpenTD_Results_Dataset_IDataset_"></a> WeightedAverageDataArray\(DataSubtype, DataSubtype, ItemIdentifierCollection, IDataset\)
+### WeightedAverageDataArray\(DataSubtype, DataSubtype, ItemIdentifierCollection, IDataset\)
 
 Create a new WeightedAverageDataArray using data and weighting data from a single dataset.
 The weighting arrays will be read at each record.
@@ -91,7 +91,7 @@ public WeightedAverageDataArray(DataSubtype dataSubtype, DataSubtype weightingSu
 
 `dataset` [IDataset](OpenTD.Results.Dataset.IDataset.md)
 
-### <a id="OpenTD_Results_Dataset_WeightedAverageDataArray__ctor_OpenTD_Results_Dataset_DataArrayCollection_"></a> WeightedAverageDataArray\(DataArrayCollection\)
+### WeightedAverageDataArray\(DataArrayCollection\)
 
 ```csharp
 public WeightedAverageDataArray(DataArrayCollection inputCollection)
@@ -101,7 +101,7 @@ public WeightedAverageDataArray(DataArrayCollection inputCollection)
 
 `inputCollection` [DataArrayCollection](OpenTD.Results.Dataset.DataArrayCollection.md)
 
-### <a id="OpenTD_Results_Dataset_WeightedAverageDataArray__ctor"></a> WeightedAverageDataArray\(\)
+### WeightedAverageDataArray\(\)
 
 ```csharp
 public WeightedAverageDataArray()
@@ -109,7 +109,7 @@ public WeightedAverageDataArray()
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_WeightedAverageDataArray_MultipleWeightingArrays"></a> MultipleWeightingArrays
+### MultipleWeightingArrays
 
 One weighting array per record. Set UseMultipleWeightingArrays to true
 to use these. Default is false.
@@ -122,7 +122,7 @@ public DataArrayCollection MultipleWeightingArrays { get; set; }
 
  [DataArrayCollection](OpenTD.Results.Dataset.DataArrayCollection.md)
 
-### <a id="OpenTD_Results_Dataset_WeightedAverageDataArray_UseMultipleWeightingArrays"></a> UseMultipleWeightingArrays
+### UseMultipleWeightingArrays
 
 ```csharp
 public bool UseMultipleWeightingArrays { get; set; }
@@ -132,7 +132,7 @@ public bool UseMultipleWeightingArrays { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Results_Dataset_WeightedAverageDataArray_WeightingArray"></a> WeightingArray
+### WeightingArray
 
 One weighting array for all records.
 
@@ -146,13 +146,13 @@ public DataArray WeightingArray { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_WeightedAverageDataArray_CheckData"></a> CheckData\(\)
+### CheckData\(\)
 
 ```csharp
 protected override void CheckData()
 ```
 
-### <a id="OpenTD_Results_Dataset_WeightedAverageDataArray_GetSelfSuggestedName"></a> GetSelfSuggestedName\(\)
+### GetSelfSuggestedName\(\)
 
 ```csharp
 protected override string GetSelfSuggestedName()
@@ -162,7 +162,7 @@ protected override string GetSelfSuggestedName()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Results_Dataset_WeightedAverageDataArray_SetDerivedData"></a> SetDerivedData\(\)
+### SetDerivedData\(\)
 
 For setting ValuesSI, any other derived data
 
@@ -174,4 +174,5 @@ protected override void SetDerivedData()
 
 [OneSubtypeDerivedDataArray](OpenTD.Results.Dataset.OneSubtypeDerivedDataArray.md), 
 [DerivedDataArray](OpenTD.Results.Dataset.DerivedDataArray.md)
+
 

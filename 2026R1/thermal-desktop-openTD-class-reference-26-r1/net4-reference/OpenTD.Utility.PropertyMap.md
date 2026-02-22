@@ -1,4 +1,4 @@
-# <a id="OpenTD_Utility_PropertyMap"></a> Class PropertyMap
+# Class PropertyMap
 
 Namespace: [OpenTD.Utility](OpenTD.Utility.md)  
 Assembly: OpenTD.dll  
@@ -9,12 +9,12 @@ Used by the ObjectMapper to find matching properties between two objects.
 public class PropertyMap
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [PropertyMap](OpenTD.Utility.PropertyMap.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.ToString\(\)](https://learn.microsoft.com/dotnet/api/system.object.tostring), 
 [object.Equals\(object\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
@@ -26,7 +26,7 @@ public class PropertyMap
 
 ## Properties
 
-### <a id="OpenTD_Utility_PropertyMap_SourceProperty"></a> SourceProperty
+### SourceProperty
 
 ```csharp
 public PropertyInfo SourceProperty { get; set; }
@@ -36,7 +36,7 @@ public PropertyInfo SourceProperty { get; set; }
 
  [PropertyInfo](https://learn.microsoft.com/dotnet/api/system.reflection.propertyinfo)
 
-### <a id="OpenTD_Utility_PropertyMap_TargetProperty"></a> TargetProperty
+### TargetProperty
 
 ```csharp
 public PropertyInfo TargetProperty { get; set; }
@@ -48,7 +48,7 @@ public PropertyInfo TargetProperty { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_Utility_PropertyMap_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -65,4 +65,5 @@ A string that represents the current object.
 ## See Also
 
 [ObjectMapper](OpenTD.Utility.ObjectMapper.md)
+
 

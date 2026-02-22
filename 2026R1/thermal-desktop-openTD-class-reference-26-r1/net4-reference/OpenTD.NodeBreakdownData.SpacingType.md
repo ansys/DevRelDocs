@@ -1,4 +1,4 @@
-# <a id="OpenTD_NodeBreakdownData_SpacingType"></a> Enum NodeBreakdownData.SpacingType
+# Enum NodeBreakdownData.SpacingType
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -14,4 +14,5 @@ public enum NodeBreakdownData.SpacingType
 `EQUAL = 0` 
 
 `UNEQUAL = 1` 
+
 

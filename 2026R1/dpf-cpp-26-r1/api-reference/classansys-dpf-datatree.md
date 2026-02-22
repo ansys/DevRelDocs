@@ -20,7 +20,7 @@ Define a DOM (Document-Object-Model) tree.
 * [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree-1a1c47166bd00e9a3168a9f045f6de1e0e)
 * [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree-1a45794f55475843de36a620e6bf8a24a6)
 * [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree-1ac1f6ad1c7025ca6ac20082a530e9dd06)
-* [deep\_copy](classansys-dpf-datatree.md#classansys-dpf-datatree-1a746e4dbff0a937ee9c71564d6674987a)
+* [deep_copy](classansys-dpf-datatree.md#classansys-dpf-datatree-1a746e4dbff0a937ee9c71564d6674987a)
 * [describe](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a9977945710983bc03d2940fa007847b2)
 * [empty](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a39cd546c42518e2332be8f287db95459)
 * [emptyDataTree](classansys-dpf-datatree.md#classansys-dpf-datatree-1afb0171dc88164d841e4d8d1d14c8dc92)
@@ -90,7 +90,7 @@ ansys::dpf::DataTree::DataTree()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -119,7 +119,7 @@ ansys::dpf::DataTree::DataTree(Client const *const client)
 
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -144,7 +144,7 @@ ansys::dpf::DataTree::~DataTree()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -173,7 +173,7 @@ ansys::dpf::DataTree::DataTree(DataTree const &)
 
 * DataTree const &
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -202,7 +202,7 @@ ansys::dpf::DataTree::DataTree(DataTree &&) noexcept
 
 * DataTree &&
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -505,7 +505,7 @@ an attribute by its name.
 **Parameters**:
 
 * std::string const & **name**
-* int **default_value** = 0 
+* int **default_value** = 0
 
 **Return type**: int
 
@@ -529,7 +529,7 @@ bool ansys::dpf::DataTree::tryGetIntAttribute(std::string const &name, int &valu
 
 Get an attribute by its name.
 
-Available since Ansys 2025R2. 
+Available since Ansys 2025R2.
 **Parameters**:
 
 * **Name**: of the attribute.
@@ -584,7 +584,7 @@ an attribute by its name.
 **Parameters**:
 
 * std::string const & **name**
-* bool **default_value** = false 
+* bool **default_value** = false
 
 **Return type**: bool
 
@@ -608,7 +608,7 @@ bool ansys::dpf::DataTree::tryGetBoolAttribute(std::string const &name, bool &va
 
 Get an attribute by its name.
 
-Available since Ansys 2025R2. 
+Available since Ansys 2025R2.
 **Parameters**:
 
 * **Name**: of the attribute.
@@ -663,7 +663,7 @@ an attribute by its name.
 **Parameters**:
 
 * std::string const & **name**
-* unsigned int **default_value** = 0 
+* unsigned int **default_value** = 0
 
 **Return type**: unsigned int
 
@@ -691,7 +691,7 @@ bool ansys::dpf::DataTree::tryGetUnsignedIntAttribute(std::string const &name, u
 
 an attribute by its name.
 
-Available since Ansys 2025R2. 
+Available since Ansys 2025R2.
 **Parameters**:
 
 * **Name**: of the attribute.
@@ -746,7 +746,7 @@ an attribute by its name.
 **Parameters**:
 
 * std::string const & **name**
-* double **default_value** = 0.0 
+* double **default_value** = 0.0
 
 **Return type**: double
 
@@ -774,7 +774,7 @@ bool ansys::dpf::DataTree::tryGetDoubleAttribute(std::string const &name, double
 
 an attribute by its name.
 
-Available since Ansys 2025R2. 
+Available since Ansys 2025R2.
 **Parameters**:
 
 * **Name**: of the attribute.
@@ -829,7 +829,7 @@ an attribute by its name.
 **Parameters**:
 
 * std::string const & **name**
-* std::string = "" 
+* std::string = ""
 
 **Return type**: std::string
 
@@ -857,7 +857,7 @@ bool ansys::dpf::DataTree::tryGetStringAttribute(std::string const &name, std::s
 
 an attribute by its name.
 
-Available since Ansys 2025R2. 
+Available since Ansys 2025R2.
 **Parameters**:
 
 * **Name**: of the attribute.
@@ -912,7 +912,7 @@ an attribute by its name
 **Parameters**:
 
 * std::string const & **name**
-* std::vector< int > **default_value** = {} 
+* std::vector< int > **default_value** = {}
 
 **Return type**: std::vector< int >
 
@@ -940,7 +940,7 @@ bool ansys::dpf::DataTree::tryGetVectIntAttribute(std::string const &name, std::
 
 an attribute by its name.
 
-Available since Ansys 2025R2. 
+Available since Ansys 2025R2.
 **Parameters**:
 
 * **Name**: of the attribute.
@@ -995,7 +995,7 @@ an attribute by its name.
 **Parameters**:
 
 * std::string const & **name**
-* std::vector< double > **default_value** = {} 
+* std::vector< double > **default_value** = {}
 
 **Return type**: std::vector< double >
 
@@ -1023,7 +1023,7 @@ bool ansys::dpf::DataTree::tryGetVectDoubleAttribute(std::string const &name, st
 
 an attribute by its name.
 
-Available since Ansys 2025R2. 
+Available since Ansys 2025R2.
 **Parameters**:
 
 * **Name**: of the attribute.
@@ -1078,7 +1078,7 @@ an attribute by its name.
 **Parameters**:
 
 * std::string const & **name**
-* std::vector< std::string > **default_value** = {} 
+* std::vector< std::string > **default_value** = {}
 
 **Return type**: std::vector< std::string >
 
@@ -1106,7 +1106,7 @@ bool ansys::dpf::DataTree::tryGetVectStringAttribute(std::string const &name, st
 
 an attribute by its name.
 
-Available since Ansys 2025R2. 
+Available since Ansys 2025R2.
 **Parameters**:
 
 * **Name**: of the attribute.
@@ -1385,7 +1385,7 @@ DataTree ansys::dpf::DataTree::makeSub(std::string const &name)
 
 
 
-create a subtree with a name. If the substree already exists, it is returned. 
+create a subtree with a name. If the substree already exists, it is returned.
 **Returns**:
 
 the created subtree to fill it.
@@ -1499,7 +1499,7 @@ true if a subtree exists.
 -->
 
 <a id="classansys-dpf-datatree-1a746e4dbff0a937ee9c71564d6674987a"></a>
-### Function deep\_copy
+### Function deep_copy
 
 ![][public]
 ![][const]
@@ -1544,7 +1544,7 @@ static DataTree ansys::dpf::DataTree::emptyDataTree()
 
 
 
-Create an empty [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree). 
+Create an empty [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree).
 **Returns**:
 
 Empty [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree).

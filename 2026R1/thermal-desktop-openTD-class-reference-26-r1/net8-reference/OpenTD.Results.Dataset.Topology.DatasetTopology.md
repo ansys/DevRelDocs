@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_Topology_DatasetTopology"></a> Class DatasetTopology
+# Class DatasetTopology
 
 Namespace: [OpenTD.Results.Dataset.Topology](OpenTD.Results.Dataset.Topology.md)  
 Assembly: OpenTD.Results.dll  
@@ -9,12 +9,12 @@ Factory for creating Dataset topologies.
 public static class DatasetTopology
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [DatasetTopology](OpenTD.Results.Dataset.Topology.DatasetTopology.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +26,7 @@ public static class DatasetTopology
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_Topology_DatasetTopology_Load_OpenTD_Results_Dataset_IDataset_System_Int64_System_String_"></a> Load\(IDataset, long, string\)
+### Load\(IDataset, long, string\)
 
 Loads an IDatasetTopology.
 
@@ -59,4 +59,5 @@ An IDatasetTopology object
  OpenTDException
 
 Unable to parse or read PCS file.
+
 

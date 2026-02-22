@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_FullStandardDataSubtype"></a> Struct FullStandardDataSubtype
+# Struct FullStandardDataSubtype
 
 Namespace: [OpenTD.Results.Dataset](OpenTD.Results.Dataset.md)  
 Assembly: OpenTD.Results.dll  
@@ -9,7 +9,7 @@ Represents a StandardDataSubtype (XG, XMDOT, etc.) and a fluid constituent (A, W
 public struct FullStandardDataSubtype
 ```
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -20,7 +20,7 @@ public struct FullStandardDataSubtype
 
 ## Constructors
 
-### <a id="OpenTD_Results_Dataset_FullStandardDataSubtype__ctor_OpenTD_Results_Dataset_StandardDataSubtypes_OpenTD_Results_Dataset_FluidConstituents_"></a> FullStandardDataSubtype\(StandardDataSubtypes, FluidConstituents\)
+### FullStandardDataSubtype\(StandardDataSubtypes, FluidConstituents\)
 
 ```csharp
 public FullStandardDataSubtype(StandardDataSubtypes subtype, FluidConstituents fluidConstituent)
@@ -32,7 +32,7 @@ public FullStandardDataSubtype(StandardDataSubtypes subtype, FluidConstituents f
 
 `fluidConstituent` [FluidConstituents](OpenTD.Results.Dataset.FluidConstituents.md)
 
-### <a id="OpenTD_Results_Dataset_FullStandardDataSubtype__ctor_OpenTD_Results_Dataset_StandardDataSubtypes_"></a> FullStandardDataSubtype\(StandardDataSubtypes\)
+### FullStandardDataSubtype\(StandardDataSubtypes\)
 
 ```csharp
 public FullStandardDataSubtype(StandardDataSubtypes subtype)
@@ -42,7 +42,7 @@ public FullStandardDataSubtype(StandardDataSubtypes subtype)
 
 `subtype` [StandardDataSubtypes](OpenTD.Results.Dataset.StandardDataSubtypes.md)
 
-### <a id="OpenTD_Results_Dataset_FullStandardDataSubtype__ctor_System_String_"></a> FullStandardDataSubtype\(string\)
+### FullStandardDataSubtype\(string\)
 
 ```csharp
 public FullStandardDataSubtype(string fullStdSubtype)
@@ -54,7 +54,7 @@ public FullStandardDataSubtype(string fullStdSubtype)
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_FullStandardDataSubtype_FluidConstituent"></a> FluidConstituent
+### FluidConstituent
 
 ```csharp
 public readonly FluidConstituents FluidConstituent { get; }
@@ -64,7 +64,7 @@ public readonly FluidConstituents FluidConstituent { get; }
 
  [FluidConstituents](OpenTD.Results.Dataset.FluidConstituents.md)
 
-### <a id="OpenTD_Results_Dataset_FullStandardDataSubtype_Subtype"></a> Subtype
+### Subtype
 
 ```csharp
 public readonly StandardDataSubtypes Subtype { get; }
@@ -76,7 +76,7 @@ public readonly StandardDataSubtypes Subtype { get; }
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_FullStandardDataSubtype_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns the fully qualified type name of this instance.
 
@@ -89,4 +89,5 @@ public override string ToString()
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The fully qualified type name.
+
 

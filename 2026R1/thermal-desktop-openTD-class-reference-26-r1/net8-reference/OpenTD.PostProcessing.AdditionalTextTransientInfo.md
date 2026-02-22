@@ -1,4 +1,4 @@
-# <a id="OpenTD_PostProcessing_AdditionalTextTransientInfo"></a> Class AdditionalTextTransientInfo
+# Class AdditionalTextTransientInfo
 
 Namespace: [OpenTD.PostProcessing](OpenTD.PostProcessing.md)  
 Assembly: OpenTD.dll  
@@ -7,16 +7,17 @@ Information specific to transient text file type Datasets.
 Implements the <xref href="OpenTD.PostProcessing.AdditionalDatasetInfo" data-throw-if-not-resolved="false"></xref>
 
 ```csharp
+[MessagePackObject(true)]
 public class AdditionalTextTransientInfo : AdditionalDatasetInfo
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AdditionalDatasetInfo](OpenTD.PostProcessing.AdditionalDatasetInfo.md) ← 
 [AdditionalTextTransientInfo](OpenTD.PostProcessing.AdditionalTextTransientInfo.md)
 
-#### Inherited Members
+## Inherited Members
 
 [AdditionalDatasetInfo.Pathname](OpenTD.PostProcessing.AdditionalDatasetInfo.md\#OpenTD\_PostProcessing\_AdditionalDatasetInfo\_Pathname), 
 [AdditionalDatasetInfo.\_pathname](OpenTD.PostProcessing.AdditionalDatasetInfo.md\#OpenTD\_PostProcessing\_AdditionalDatasetInfo\_\_pathname), 
@@ -30,7 +31,7 @@ public class AdditionalTextTransientInfo : AdditionalDatasetInfo
 
 ## Constructors
 
-### <a id="OpenTD_PostProcessing_AdditionalTextTransientInfo__ctor"></a> AdditionalTextTransientInfo\(\)
+### AdditionalTextTransientInfo\(\)
 
 ```csharp
 public AdditionalTextTransientInfo()
@@ -40,4 +41,5 @@ public AdditionalTextTransientInfo()
 
 [AdditionalDatasetInfo](OpenTD.PostProcessing.AdditionalDatasetInfo.md), 
 [Dataset](OpenTD.PostProcessing.Dataset.md)
+
 

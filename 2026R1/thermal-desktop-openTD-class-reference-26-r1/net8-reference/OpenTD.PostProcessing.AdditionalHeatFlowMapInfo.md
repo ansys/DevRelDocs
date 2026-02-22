@@ -1,4 +1,4 @@
-# <a id="OpenTD_PostProcessing_AdditionalHeatFlowMapInfo"></a> Class AdditionalHeatFlowMapInfo
+# Class AdditionalHeatFlowMapInfo
 
 Namespace: [OpenTD.PostProcessing](OpenTD.PostProcessing.md)  
 Assembly: OpenTD.dll  
@@ -7,16 +7,17 @@ Information specific to Heat Flow Map type Datasets.
 Implements the <xref href="OpenTD.PostProcessing.AdditionalDatasetInfo" data-throw-if-not-resolved="false"></xref>
 
 ```csharp
+[MessagePackObject(true)]
 public class AdditionalHeatFlowMapInfo : AdditionalDatasetInfo
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AdditionalDatasetInfo](OpenTD.PostProcessing.AdditionalDatasetInfo.md) ← 
 [AdditionalHeatFlowMapInfo](OpenTD.PostProcessing.AdditionalHeatFlowMapInfo.md)
 
-#### Inherited Members
+## Inherited Members
 
 [AdditionalDatasetInfo.Pathname](OpenTD.PostProcessing.AdditionalDatasetInfo.md\#OpenTD\_PostProcessing\_AdditionalDatasetInfo\_Pathname), 
 [AdditionalDatasetInfo.\_pathname](OpenTD.PostProcessing.AdditionalDatasetInfo.md\#OpenTD\_PostProcessing\_AdditionalDatasetInfo\_\_pathname), 
@@ -30,7 +31,7 @@ public class AdditionalHeatFlowMapInfo : AdditionalDatasetInfo
 
 ## Constructors
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowMapInfo__ctor"></a> AdditionalHeatFlowMapInfo\(\)
+### AdditionalHeatFlowMapInfo\(\)
 
 ```csharp
 public AdditionalHeatFlowMapInfo()
@@ -38,7 +39,7 @@ public AdditionalHeatFlowMapInfo()
 
 ## Properties
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowMapInfo_Linear"></a> Linear
+### Linear
 
 ```csharp
 public int Linear { get; set; }
@@ -48,7 +49,7 @@ public int Linear { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowMapInfo_Radiation"></a> Radiation
+### Radiation
 
 ```csharp
 public int Radiation { get; set; }
@@ -58,7 +59,7 @@ public int Radiation { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatFlowMapInfo_Ties"></a> Ties
+### Ties
 
 ```csharp
 public int Ties { get; set; }
@@ -72,4 +73,5 @@ public int Ties { get; set; }
 
 [AdditionalDatasetInfo](OpenTD.PostProcessing.AdditionalDatasetInfo.md), 
 [Dataset](OpenTD.PostProcessing.Dataset.md)
+
 

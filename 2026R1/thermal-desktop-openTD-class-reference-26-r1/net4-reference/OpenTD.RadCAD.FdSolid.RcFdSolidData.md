@@ -1,4 +1,4 @@
-# <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData"></a> Class RcFdSolidData
+# Class RcFdSolidData
 
 Namespace: [OpenTD.RadCAD.FdSolid](OpenTD.RadCAD.FdSolid.md)  
 Assembly: OpenTD.dll  
@@ -10,7 +10,7 @@ Base class for finite-difference (FD) solids.
 public class RcFdSolidData : TdDbEntityData, IUpdatable
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OpenTDObject](OpenTD.OpenTDObject.md) ← 
@@ -26,11 +26,11 @@ public class RcFdSolidData : TdDbEntityData, IUpdatable
 [SolidEllipsoid](OpenTD.RadCAD.FdSolid.SolidEllipsoid.md), 
 [SolidSphere](OpenTD.RadCAD.FdSolid.SolidSphere.md)
 
-#### Implements
+## Implements
 
 [IUpdatable](OpenTD.IUpdatable.md)
 
-#### Inherited Members
+## Inherited Members
 
 [TdDbEntityData.SetFrom\(TdDbEntityData\)](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_SetFrom\_OpenTD\_TdDbEntityData\_), 
 [TdDbEntityData.Layer](OpenTD.TdDbEntityData.md\#OpenTD\_TdDbEntityData\_Layer), 
@@ -62,7 +62,7 @@ public class RcFdSolidData : TdDbEntityData, IUpdatable
 
 ## Constructors
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData__ctor"></a> RcFdSolidData\(\)
+### RcFdSolidData\(\)
 
 ```csharp
 public RcFdSolidData()
@@ -70,7 +70,7 @@ public RcFdSolidData()
 
 ## Properties
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_AnalysisGroups"></a> AnalysisGroups
+### AnalysisGroups
 
 ```csharp
 [DataMember]
@@ -81,7 +81,7 @@ public UniqueItemList<AnalysisGroupSolidInfo> AnalysisGroups { get; set; }
 
  [UniqueItemList](OpenTD.Utility.UniqueItemList\-1.md)<[AnalysisGroupSolidInfo](OpenTD.RadCAD.FdSolid.AnalysisGroupSolidInfo.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_AnalysisGroupsVolumetric"></a> AnalysisGroupsVolumetric
+### AnalysisGroupsVolumetric
 
 ```csharp
 [DataMember]
@@ -92,7 +92,7 @@ public UniqueItemList<AnalysisGroupVolumetricInfo> AnalysisGroupsVolumetric { ge
 
  [UniqueItemList](OpenTD.Utility.UniqueItemList\-1.md)<[AnalysisGroupVolumetricInfo](OpenTD.RadCAD.AnalysisGroupVolumetricInfo.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_AreaContactAbsolute"></a> AreaContactAbsolute
+### AreaContactAbsolute
 
 ```csharp
 [DataMember]
@@ -103,7 +103,7 @@ public List<int> AreaContactAbsolute { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_AttachedNodeHandles"></a> AttachedNodeHandles
+### AttachedNodeHandles
 
 ```csharp
 [DataMember]
@@ -114,7 +114,7 @@ public List<string> AttachedNodeHandles { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_BaseTrans"></a> BaseTrans
+### BaseTrans
 
 Transformation from Base to World Coordinate System (WCS)
 
@@ -127,7 +127,7 @@ public Matrix3d BaseTrans { get; set; }
 
  [Matrix3d](OpenTD.Matrix3d.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_BreakdownU"></a> BreakdownU
+### BreakdownU
 
 ```csharp
 [DataMember]
@@ -138,7 +138,7 @@ public NodeBreakdownData BreakdownU { get; set; }
 
  [NodeBreakdownData](OpenTD.NodeBreakdownData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_BreakdownV"></a> BreakdownV
+### BreakdownV
 
 ```csharp
 [DataMember]
@@ -149,7 +149,7 @@ public NodeBreakdownData BreakdownV { get; set; }
 
  [NodeBreakdownData](OpenTD.NodeBreakdownData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_BreakdownW"></a> BreakdownW
+### BreakdownW
 
 ```csharp
 [DataMember]
@@ -160,7 +160,7 @@ public NodeBreakdownData BreakdownW { get; set; }
 
  [NodeBreakdownData](OpenTD.NodeBreakdownData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_Comment"></a> Comment
+### Comment
 
 ```csharp
 [DataMember]
@@ -171,7 +171,7 @@ public string Comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_CondSubmodel"></a> CondSubmodel
+### CondSubmodel
 
 ```csharp
 [DataMember]
@@ -182,7 +182,7 @@ public SubmodelNameData CondSubmodel { get; set; }
 
  [SubmodelNameData](OpenTD.SubmodelNameData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_DensityMult"></a> DensityMult
+### DensityMult
 
 ```csharp
 [DataMember]
@@ -193,7 +193,7 @@ public double DensityMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_DensityMultExp"></a> DensityMultExp
+### DensityMultExp
 
 ```csharp
 [DataMember]
@@ -204,7 +204,7 @@ public ExpressionData DensityMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_FaceContactExp"></a> FaceContactExp
+### FaceContactExp
 
 ```csharp
 [DataMember]
@@ -215,7 +215,7 @@ public List<ExpressionData> FaceContactExp { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ExpressionData](OpenTD.ExpressionData.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_FaceContactValue"></a> FaceContactValue
+### FaceContactValue
 
 ```csharp
 [DataMember]
@@ -226,7 +226,7 @@ public DimensionalList<CondPerArea> FaceContactValue { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[CondPerArea](OpenTD.Dimension.CondPerArea.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_GenerateCondCap"></a> GenerateCondCap
+### GenerateCondCap
 
 ```csharp
 [DataMember]
@@ -237,7 +237,7 @@ public int GenerateCondCap { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_GenerateCondCapExp"></a> GenerateCondCapExp
+### GenerateCondCapExp
 
 ```csharp
 [DataMember]
@@ -248,7 +248,7 @@ public ExpressionData GenerateCondCapExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_IdType"></a> IdType
+### IdType
 
 ```csharp
 [DataMember]
@@ -259,7 +259,7 @@ public RcEntityData.IdType IdType { get; set; }
 
  [RcEntityData](OpenTD.RadCAD.RcEntityData.md).[IdType](OpenTD.RadCAD.RcEntityData.IdType.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_InsideFmcOpticalProperties"></a> InsideFmcOpticalProperties
+### InsideFmcOpticalProperties
 
 ```csharp
 [DataMember]
@@ -270,7 +270,7 @@ public List<string> InsideFmcOpticalProperties { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_InsideOpticalProperties"></a> InsideOpticalProperties
+### InsideOpticalProperties
 
 ```csharp
 [DataMember]
@@ -281,7 +281,7 @@ public List<string> InsideOpticalProperties { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_KuMult"></a> KuMult
+### KuMult
 
 ```csharp
 [DataMember]
@@ -292,7 +292,7 @@ public double KuMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_KuMultExp"></a> KuMultExp
+### KuMultExp
 
 ```csharp
 [DataMember]
@@ -303,7 +303,7 @@ public ExpressionData KuMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_KvMult"></a> KvMult
+### KvMult
 
 ```csharp
 [DataMember]
@@ -314,7 +314,7 @@ public double KvMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_KvMultExp"></a> KvMultExp
+### KvMultExp
 
 ```csharp
 [DataMember]
@@ -325,7 +325,7 @@ public ExpressionData KvMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_KwMult"></a> KwMult
+### KwMult
 
 ```csharp
 [DataMember]
@@ -336,7 +336,7 @@ public double KwMult { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_KwMultExp"></a> KwMultExp
+### KwMultExp
 
 ```csharp
 [DataMember]
@@ -347,7 +347,7 @@ public ExpressionData KwMultExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_LocalTrans"></a> LocalTrans
+### LocalTrans
 
 Transformation from Local to Base coordinate system
 
@@ -360,7 +360,7 @@ public Transformation LocalTrans { get; set; }
 
  [Transformation](OpenTD.Transformation.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_MliInitialTemp"></a> MliInitialTemp
+### MliInitialTemp
 
 ```csharp
 [DataMember]
@@ -371,7 +371,7 @@ public DimensionalList<Temp> MliInitialTemp { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[Temp](OpenTD.Dimension.Temp.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_MliInitialTempExp"></a> MliInitialTempExp
+### MliInitialTempExp
 
 ```csharp
 [DataMember]
@@ -382,7 +382,7 @@ public List<ExpressionData> MliInitialTempExp { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ExpressionData](OpenTD.ExpressionData.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_MliInsulationNodeSubmodelIdOption"></a> MliInsulationNodeSubmodelIdOption
+### MliInsulationNodeSubmodelIdOption
 
 ```csharp
 [DataMember]
@@ -393,7 +393,7 @@ public List<InsulationNodeSubmodelIdOptions> MliInsulationNodeSubmodelIdOption {
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[InsulationNodeSubmodelIdOptions](OpenTD.RadCAD.InsulationNodeSubmodelIdOptions.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_MliMaterial"></a> MliMaterial
+### MliMaterial
 
 ```csharp
 [DataMember]
@@ -404,7 +404,7 @@ public List<string> MliMaterial { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_MliMaterialStackNameArray"></a> MliMaterialStackNameArray
+### MliMaterialStackNameArray
 
 ```csharp
 [DataMember]
@@ -415,7 +415,7 @@ public List<string> MliMaterialStackNameArray { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_MliNodeLayers"></a> MliNodeLayers
+### MliNodeLayers
 
 ```csharp
 [DataMember]
@@ -426,7 +426,7 @@ public List<int> MliNodeLayers { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_MliNodeType"></a> MliNodeType
+### MliNodeType
 
 ```csharp
 [DataMember]
@@ -437,7 +437,7 @@ public List<RcFdSolidData.MliNodeTypes> MliNodeType { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[RcFdSolidData](OpenTD.RadCAD.FdSolid.RcFdSolidData.md).[MliNodeTypes](OpenTD.RadCAD.FdSolid.RcFdSolidData.MliNodeTypes.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_MliOffset"></a> MliOffset
+### MliOffset
 
 ```csharp
 [DataMember]
@@ -448,7 +448,7 @@ public List<int> MliOffset { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_MliOverrides"></a> MliOverrides
+### MliOverrides
 
 ```csharp
 [DataMember]
@@ -459,7 +459,7 @@ public List<List<string>> MliOverrides { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>\>
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_MliSubmodelNames"></a> MliSubmodelNames
+### MliSubmodelNames
 
 ```csharp
 [DataMember]
@@ -470,7 +470,7 @@ public List<string> MliSubmodelNames { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_MliThickness"></a> MliThickness
+### MliThickness
 
 ```csharp
 [DataMember]
@@ -481,7 +481,7 @@ public DimensionalList<ModelLength> MliThickness { get; set; }
 
  [DimensionalList](OpenTD.Dimension.DimensionalList\-1.md)<[ModelLength](OpenTD.Dimension.ModelLength.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_MliThicknessExp"></a> MliThicknessExp
+### MliThicknessExp
 
 ```csharp
 [DataMember]
@@ -492,7 +492,7 @@ public List<ExpressionData> MliThicknessExp { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ExpressionData](OpenTD.ExpressionData.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_NodeNames"></a> NodeNames
+### NodeNames
 
 ```csharp
 [DataMember]
@@ -503,7 +503,7 @@ public List<string> NodeNames { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_NodeType"></a> NodeType
+### NodeType
 
 ```csharp
 [DataMember]
@@ -514,7 +514,7 @@ public RcFdSolidData.NodePositionsType NodeType { get; set; }
 
  [RcFdSolidData](OpenTD.RadCAD.FdSolid.RcFdSolidData.md).[NodePositionsType](OpenTD.RadCAD.FdSolid.RcFdSolidData.NodePositionsType.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_OpticOverride"></a> OpticOverride
+### OpticOverride
 
 ```csharp
 [DataMember]
@@ -525,7 +525,7 @@ public List<Dictionary<string, string>> OpticOverride { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>\>
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_OutputNodesAsArithmetic"></a> OutputNodesAsArithmetic
+### OutputNodesAsArithmetic
 
 ```csharp
 [DataMember]
@@ -536,7 +536,7 @@ public int OutputNodesAsArithmetic { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_OutsideFmcOpticalProperties"></a> OutsideFmcOpticalProperties
+### OutsideFmcOpticalProperties
 
 ```csharp
 [DataMember]
@@ -547,7 +547,7 @@ public List<string> OutsideFmcOpticalProperties { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_OutsideOpticalProperties"></a> OutsideOpticalProperties
+### OutsideOpticalProperties
 
 ```csharp
 [DataMember]
@@ -558,7 +558,7 @@ public List<string> OutsideOpticalProperties { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_ShowArrow"></a> ShowArrow
+### ShowArrow
 
 ```csharp
 [DataMember]
@@ -569,7 +569,7 @@ public int ShowArrow { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_StartId"></a> StartId
+### StartId
 
 ```csharp
 [DataMember]
@@ -580,7 +580,7 @@ public int StartId { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_StartSubmodel"></a> StartSubmodel
+### StartSubmodel
 
 ```csharp
 [DataMember]
@@ -591,7 +591,7 @@ public SubmodelNameData StartSubmodel { get; set; }
 
  [SubmodelNameData](OpenTD.SubmodelNameData.md)
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_ThermoMaterial"></a> ThermoMaterial
+### ThermoMaterial
 
 ```csharp
 [DataMember]
@@ -602,7 +602,7 @@ public string ThermoMaterial { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_UseFaceContact"></a> UseFaceContact
+### UseFaceContact
 
 ```csharp
 [DataMember]
@@ -613,7 +613,7 @@ public List<int> UseFaceContact { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_UseFaceMli"></a> UseFaceMli
+### UseFaceMli
 
 ```csharp
 [DataMember]
@@ -624,7 +624,7 @@ public List<int> UseFaceMli { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_UseFaceMliExp"></a> UseFaceMliExp
+### UseFaceMliExp
 
 ```csharp
 [DataMember]
@@ -635,7 +635,7 @@ public List<ExpressionData> UseFaceMliExp { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ExpressionData](OpenTD.ExpressionData.md)\>
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_UseMliMaterialStack"></a> UseMliMaterialStack
+### UseMliMaterialStack
 
 ```csharp
 [DataMember]
@@ -648,13 +648,13 @@ public List<int> UseMliMaterialStack { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_CheckData"></a> CheckData\(\)
+### CheckData\(\)
 
 ```csharp
 public void CheckData()
 ```
 
-### <a id="OpenTD_RadCAD_FdSolid_RcFdSolidData_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -667,4 +667,5 @@ public override string ToString()
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 A string that represents the current object.
+
 

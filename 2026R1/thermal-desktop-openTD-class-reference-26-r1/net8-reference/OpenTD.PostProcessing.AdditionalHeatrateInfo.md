@@ -1,4 +1,4 @@
-# <a id="OpenTD_PostProcessing_AdditionalHeatrateInfo"></a> Class AdditionalHeatrateInfo
+# Class AdditionalHeatrateInfo
 
 Namespace: [OpenTD.PostProcessing](OpenTD.PostProcessing.md)  
 Assembly: OpenTD.dll  
@@ -7,16 +7,17 @@ Information specific to Heatrate (orbit) type Datasets.
 Implements the <xref href="OpenTD.PostProcessing.AdditionalDatasetInfo" data-throw-if-not-resolved="false"></xref>
 
 ```csharp
+[MessagePackObject(true)]
 public class AdditionalHeatrateInfo : AdditionalDatasetInfo
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [AdditionalDatasetInfo](OpenTD.PostProcessing.AdditionalDatasetInfo.md) ← 
 [AdditionalHeatrateInfo](OpenTD.PostProcessing.AdditionalHeatrateInfo.md)
 
-#### Inherited Members
+## Inherited Members
 
 [AdditionalDatasetInfo.Pathname](OpenTD.PostProcessing.AdditionalDatasetInfo.md\#OpenTD\_PostProcessing\_AdditionalDatasetInfo\_Pathname), 
 [AdditionalDatasetInfo.\_pathname](OpenTD.PostProcessing.AdditionalDatasetInfo.md\#OpenTD\_PostProcessing\_AdditionalDatasetInfo\_\_pathname), 
@@ -30,7 +31,7 @@ public class AdditionalHeatrateInfo : AdditionalDatasetInfo
 
 ## Constructors
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatrateInfo__ctor"></a> AdditionalHeatrateInfo\(\)
+### AdditionalHeatrateInfo\(\)
 
 ```csharp
 public AdditionalHeatrateInfo()
@@ -38,7 +39,7 @@ public AdditionalHeatrateInfo()
 
 ## Properties
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatrateInfo_Albedo"></a> Albedo
+### Albedo
 
 ```csharp
 public bool Albedo { get; set; }
@@ -48,7 +49,7 @@ public bool Albedo { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatrateInfo_DiffuseSkyAlbedo"></a> DiffuseSkyAlbedo
+### DiffuseSkyAlbedo
 
 ```csharp
 public bool DiffuseSkyAlbedo { get; set; }
@@ -58,7 +59,7 @@ public bool DiffuseSkyAlbedo { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatrateInfo_DiffuseSkyIR"></a> DiffuseSkyIR
+### DiffuseSkyIR
 
 ```csharp
 public bool DiffuseSkyIR { get; set; }
@@ -68,7 +69,7 @@ public bool DiffuseSkyIR { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatrateInfo_DiffuseSkySolar"></a> DiffuseSkySolar
+### DiffuseSkySolar
 
 ```csharp
 public bool DiffuseSkySolar { get; set; }
@@ -78,7 +79,7 @@ public bool DiffuseSkySolar { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatrateInfo_DivideByArea"></a> DivideByArea
+### DivideByArea
 
 ```csharp
 public bool DivideByArea { get; set; }
@@ -88,7 +89,7 @@ public bool DivideByArea { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatrateInfo_Planetshine"></a> Planetshine
+### Planetshine
 
 ```csharp
 public bool Planetshine { get; set; }
@@ -98,7 +99,7 @@ public bool Planetshine { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatrateInfo_Solar"></a> Solar
+### Solar
 
 ```csharp
 public bool Solar { get; set; }
@@ -108,7 +109,7 @@ public bool Solar { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_PostProcessing_AdditionalHeatrateInfo_SourceType"></a> SourceType
+### SourceType
 
 ```csharp
 public AdditionalHeatrateInfo.SourceTypes SourceType { get; set; }
@@ -122,4 +123,5 @@ public AdditionalHeatrateInfo.SourceTypes SourceType { get; set; }
 
 [AdditionalDatasetInfo](OpenTD.PostProcessing.AdditionalDatasetInfo.md), 
 [Dataset](OpenTD.PostProcessing.Dataset.md)
+
 

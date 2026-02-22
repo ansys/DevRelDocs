@@ -1,4 +1,4 @@
-# <a id="OpenTD_Results_Dataset_Topology_PathInfo"></a> Class PathInfo
+# Class PathInfo
 
 Namespace: [OpenTD.Results.Dataset.Topology](OpenTD.Results.Dataset.Topology.md)  
 Assembly: OpenTD.Results.dll  
@@ -11,18 +11,18 @@ Implements the <xref href="OpenTD.Results.Dataset.Topology.IPathInfo" data-throw
 public class PathInfo : ObjectInfoBase, IPathInfo, IObjectInfoBase
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ObjectInfoBase](OpenTD.Results.Dataset.Topology.ObjectInfoBase.md) ← 
 [PathInfo](OpenTD.Results.Dataset.Topology.PathInfo.md)
 
-#### Implements
+## Implements
 
 [IPathInfo](OpenTD.Results.Dataset.Topology.IPathInfo.md), 
 [IObjectInfoBase](OpenTD.Results.Dataset.Topology.IObjectInfoBase.md)
 
-#### Inherited Members
+## Inherited Members
 
 [ObjectInfoBase.SindaName](OpenTD.Results.Dataset.Topology.ObjectInfoBase.md\#OpenTD\_Results\_Dataset\_Topology\_ObjectInfoBase\_SindaName), 
 [ObjectInfoBase.ItemIdentifier](OpenTD.Results.Dataset.Topology.ObjectInfoBase.md\#OpenTD\_Results\_Dataset\_Topology\_ObjectInfoBase\_ItemIdentifier), 
@@ -36,7 +36,7 @@ public class PathInfo : ObjectInfoBase, IPathInfo, IObjectInfoBase
 
 ## Properties
 
-### <a id="OpenTD_Results_Dataset_Topology_PathInfo_FromLump"></a> FromLump
+### FromLump
 
 ```csharp
 public ILumpInfo FromLump { get; }
@@ -46,7 +46,7 @@ public ILumpInfo FromLump { get; }
 
  [ILumpInfo](OpenTD.Results.Dataset.Topology.ILumpInfo.md)
 
-### <a id="OpenTD_Results_Dataset_Topology_PathInfo_PathType"></a> PathType
+### PathType
 
 ```csharp
 public PathType PathType { get; }
@@ -56,7 +56,7 @@ public PathType PathType { get; }
 
  [PathType](OpenTD.Results.Dataset.Topology.PathType.md)
 
-### <a id="OpenTD_Results_Dataset_Topology_PathInfo_ToLump"></a> ToLump
+### ToLump
 
 ```csharp
 public ILumpInfo ToLump { get; }
@@ -68,7 +68,7 @@ public ILumpInfo ToLump { get; }
 
 ## Methods
 
-### <a id="OpenTD_Results_Dataset_Topology_PathInfo_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current object.
 
@@ -86,4 +86,5 @@ A string that represents the current object.
 
 [ObjectInfoBase](OpenTD.Results.Dataset.Topology.ObjectInfoBase.md), 
 [IPathInfo](OpenTD.Results.Dataset.Topology.IPathInfo.md)
+
 

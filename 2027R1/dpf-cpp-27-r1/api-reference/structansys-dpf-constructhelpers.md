@@ -11,11 +11,7 @@
 
 ## Inner classes
 
-* [ansys::dpf::ConstructHelpers::construct\_trait](structansys-dpf-constructhelpers-construct-trait.md#structansys-dpf-constructhelpers-construct-trait)
-* [ansys::dpf::ConstructHelpers::construct\_trait\< DataT, std::false\_type \>](structansys-dpf-constructhelpers-construct-trait-datat-std-false-type.md#structansys-dpf-constructhelpers-construct-trait-datat-std-false-type-4)
-* [ansys::dpf::ConstructHelpers::construct\_trait\< DataT, std::true\_type \>](structansys-dpf-constructhelpers-construct-trait-datat-std-true-type.md#structansys-dpf-constructhelpers-construct-trait-datat-std-true-type-4)
-* [ansys::dpf::ConstructHelpers::construct\_trait\< Collection\< DataT \>, std::false\_type \>](structansys-dpf-constructhelpers-construct-trait-collection-datat-4-std-false-type.md#structansys-dpf-constructhelpers-construct-trait-collection-datat-4-std-false-type-4)
-* [ansys::dpf::ConstructHelpers::construct\_trait\< Any, std::true\_type \>](structansys-dpf-constructhelpers-construct-trait-any-std-true-type.md#structansys-dpf-constructhelpers-construct-trait-any-std-true-type-4)
+* [ansys::dpf::ConstructHelpers::construct_trait](structansys-dpf-constructhelpers-construct-trait.md#structansys-dpf-constructhelpers-construct-trait)
 
 ## Members
 

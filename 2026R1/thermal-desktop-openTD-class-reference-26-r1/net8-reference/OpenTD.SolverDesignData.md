@@ -1,4 +1,4 @@
-# <a id="OpenTD_SolverDesignData"></a> Class SolverDesignData
+# Class SolverDesignData
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,15 +6,16 @@ Assembly: OpenTD.dll
 A Sinda solver (optimization) design or constraint variable. Used in Case Set.
 
 ```csharp
+[MessagePackObject(true)]
 public class SolverDesignData
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [SolverDesignData](OpenTD.SolverDesignData.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,7 +27,7 @@ public class SolverDesignData
 
 ## Constructors
 
-### <a id="OpenTD_SolverDesignData__ctor"></a> SolverDesignData\(\)
+### SolverDesignData\(\)
 
 ```csharp
 public SolverDesignData()
@@ -34,7 +35,7 @@ public SolverDesignData()
 
 ## Properties
 
-### <a id="OpenTD_SolverDesignData_comment"></a> comment
+### comment
 
 ```csharp
 public string comment { get; set; }
@@ -44,7 +45,7 @@ public string comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_SolverDesignData_disabled"></a> disabled
+### disabled
 
 ```csharp
 public int disabled { get; set; }
@@ -54,7 +55,7 @@ public int disabled { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_SolverDesignData_maxValue"></a> maxValue
+### maxValue
 
 ```csharp
 public string maxValue { get; set; }
@@ -64,7 +65,7 @@ public string maxValue { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_SolverDesignData_maxValueExp"></a> maxValueExp
+### maxValueExp
 
 ```csharp
 public ExpressionData maxValueExp { get; set; }
@@ -74,7 +75,7 @@ public ExpressionData maxValueExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SolverDesignData_minValue"></a> minValue
+### minValue
 
 ```csharp
 public string minValue { get; set; }
@@ -84,7 +85,7 @@ public string minValue { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_SolverDesignData_minValueExp"></a> minValueExp
+### minValueExp
 
 ```csharp
 public ExpressionData minValueExp { get; set; }
@@ -94,7 +95,7 @@ public ExpressionData minValueExp { get; set; }
 
  [ExpressionData](OpenTD.ExpressionData.md)
 
-### <a id="OpenTD_SolverDesignData_name"></a> name
+### name
 
 ```csharp
 public string name { get; set; }
@@ -104,7 +105,7 @@ public string name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_SolverDesignData_useMax"></a> useMax
+### useMax
 
 ```csharp
 public int useMax { get; set; }
@@ -114,7 +115,7 @@ public int useMax { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="OpenTD_SolverDesignData_useMin"></a> useMin
+### useMin
 
 ```csharp
 public int useMin { get; set; }
@@ -127,4 +128,5 @@ public int useMin { get; set; }
 ## See Also
 
 [CaseSet](OpenTD.CaseSet.md)
+
 

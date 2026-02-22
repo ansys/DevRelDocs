@@ -1,4 +1,4 @@
-# <a id="OpenTD_LogicObjects"></a> Class LogicObjects
+# Class LogicObjects
 
 Namespace: [OpenTD](OpenTD.md)  
 Assembly: OpenTD.dll  
@@ -6,15 +6,16 @@ Assembly: OpenTD.dll
 Use to get all logic objects within a TD instance.
 
 ```csharp
+[MessagePackObject(true)]
 public class LogicObjects
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [LogicObjects](OpenTD.LogicObjects.md)
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -26,13 +27,13 @@ public class LogicObjects
 
 ## Constructors
 
-### <a id="OpenTD_LogicObjects__ctor"></a> LogicObjects\(\)
+### LogicObjects\(\)
 
 ```csharp
 public LogicObjects()
 ```
 
-### <a id="OpenTD_LogicObjects__ctor_OpenTD_ThermalDesktop_System_Boolean_"></a> LogicObjects\(ThermalDesktop, bool\)
+### LogicObjects\(ThermalDesktop, bool\)
 
 ```csharp
 public LogicObjects(ThermalDesktop tdInstance, bool searchXREFS = false)
@@ -46,7 +47,7 @@ public LogicObjects(ThermalDesktop tdInstance, bool searchXREFS = false)
 
 ## Properties
 
-### <a id="OpenTD_LogicObjects_ArrayInterpolations"></a> ArrayInterpolations
+### ArrayInterpolations
 
 ```csharp
 public List<ArrayInterpolation> ArrayInterpolations { get; set; }
@@ -56,7 +57,7 @@ public List<ArrayInterpolation> ArrayInterpolations { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ArrayInterpolation](OpenTD.ArrayInterpolation.md)\>
 
-### <a id="OpenTD_LogicObjects_FortranArrays"></a> FortranArrays
+### FortranArrays
 
 ```csharp
 public List<UDFACollection> FortranArrays { get; set; }
@@ -66,7 +67,7 @@ public List<UDFACollection> FortranArrays { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[UDFACollection](OpenTD.UDFACollection.md)\>
 
-### <a id="OpenTD_LogicObjects_PIDs"></a> PIDs
+### PIDs
 
 ```csharp
 public List<PID> PIDs { get; set; }
@@ -76,9 +77,10 @@ public List<PID> PIDs { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[PID](OpenTD.PID.md)\>
 
-### <a id="OpenTD_LogicObjects_TD"></a> TD
+### TD
 
 ```csharp
+[IgnoreMember]
 public ThermalDesktop TD { get; set; }
 ```
 
@@ -86,7 +88,7 @@ public ThermalDesktop TD { get; set; }
 
  [ThermalDesktop](OpenTD.ThermalDesktop.md)
 
-### <a id="OpenTD_LogicObjects_UserArrays"></a> UserArrays
+### UserArrays
 
 ```csharp
 public List<UserArray> UserArrays { get; set; }
@@ -96,7 +98,7 @@ public List<UserArray> UserArrays { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[UserArray](OpenTD.UserArray.md)\>
 
-### <a id="OpenTD_LogicObjects_UserCodes"></a> UserCodes
+### UserCodes
 
 ```csharp
 public List<UserCode> UserCodes { get; set; }
@@ -108,7 +110,7 @@ public List<UserCode> UserCodes { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_LogicObjects_UpdateFromTD_System_Boolean_"></a> UpdateFromTD\(bool\)
+### UpdateFromTD\(bool\)
 
 Updates the client-side instance with the latest data from the TD entity.
 
@@ -119,4 +121,5 @@ public void UpdateFromTD(bool searchXREFs = false)
 #### Parameters
 
 `searchXREFs` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

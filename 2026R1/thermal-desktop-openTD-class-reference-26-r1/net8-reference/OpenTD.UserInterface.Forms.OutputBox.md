@@ -1,4 +1,4 @@
-# <a id="OpenTD_UserInterface_Forms_OutputBox"></a> Class OutputBox
+# Class OutputBox
 
 Namespace: [OpenTD.UserInterface.Forms](OpenTD.UserInterface.Forms.md)  
 Assembly: OpenTD.dll  
@@ -9,7 +9,7 @@ A custom control for displaying output text, with optional buttons for copying a
 public class OutputBox : UserControl, IDropTarget, ISynchronizeInvoke, IWin32Window, IBindableComponent, IComponent, IDisposable, IContainerControl
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [MarshalByRefObject](https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject) ← 
@@ -20,7 +20,7 @@ public class OutputBox : UserControl, IDropTarget, ISynchronizeInvoke, IWin32Win
 [UserControl](https://learn.microsoft.com/dotnet/api/system.windows.forms.usercontrol) ← 
 [OutputBox](OpenTD.UserInterface.Forms.OutputBox.md)
 
-#### Implements
+## Implements
 
 [IDropTarget](https://learn.microsoft.com/dotnet/api/system.windows.forms.idroptarget), 
 [ISynchronizeInvoke](https://learn.microsoft.com/dotnet/api/system.componentmodel.isynchronizeinvoke), 
@@ -30,7 +30,7 @@ public class OutputBox : UserControl, IDropTarget, ISynchronizeInvoke, IWin32Win
 [IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable), 
 [IContainerControl](https://learn.microsoft.com/dotnet/api/system.windows.forms.icontainercontrol)
 
-#### Inherited Members
+## Inherited Members
 
 [UserControl.ValidateChildren\(\)](https://learn.microsoft.com/dotnet/api/system.windows.forms.usercontrol.validatechildren\#system\-windows\-forms\-usercontrol\-validatechildren), 
 [UserControl.ValidateChildren\(ValidationConstraints\)](https://learn.microsoft.com/dotnet/api/system.windows.forms.usercontrol.validatechildren\#system\-windows\-forms\-usercontrol\-validatechildren\(system\-windows\-forms\-validationconstraints\)), 
@@ -500,7 +500,7 @@ public class OutputBox : UserControl, IDropTarget, ISynchronizeInvoke, IWin32Win
 
 ## Constructors
 
-### <a id="OpenTD_UserInterface_Forms_OutputBox__ctor"></a> OutputBox\(\)
+### OutputBox\(\)
 
 ```csharp
 public OutputBox()
@@ -508,7 +508,7 @@ public OutputBox()
 
 ## Properties
 
-### <a id="OpenTD_UserInterface_Forms_OutputBox_Caption"></a> Caption
+### Caption
 
 ```csharp
 public string Caption { get; set; }
@@ -518,7 +518,7 @@ public string Caption { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UserInterface_Forms_OutputBox_CopyButtonEnabled"></a> CopyButtonEnabled
+### CopyButtonEnabled
 
 ```csharp
 public bool CopyButtonEnabled { get; set; }
@@ -528,7 +528,7 @@ public bool CopyButtonEnabled { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_UserInterface_Forms_OutputBox_OutputText"></a> OutputText
+### OutputText
 
 ```csharp
 public string OutputText { get; }
@@ -538,7 +538,7 @@ public string OutputText { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UserInterface_Forms_OutputBox_SaveButtonEnabled"></a> SaveButtonEnabled
+### SaveButtonEnabled
 
 ```csharp
 public bool SaveButtonEnabled { get; set; }
@@ -550,7 +550,7 @@ public bool SaveButtonEnabled { get; set; }
 
 ## Methods
 
-### <a id="OpenTD_UserInterface_Forms_OutputBox_Dispose_System_Boolean_"></a> Dispose\(bool\)
+### Dispose\(bool\)
 
 Clean up any resources being used.
 
@@ -564,7 +564,7 @@ protected override void Dispose(bool disposing)
 
 true if managed resources should be disposed; otherwise, false.
 
-### <a id="OpenTD_UserInterface_Forms_OutputBox_Write_System_String_"></a> Write\(string\)
+### Write\(string\)
 
 ```csharp
 public void Write(string msg)
@@ -574,7 +574,7 @@ public void Write(string msg)
 
 `msg` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_UserInterface_Forms_OutputBox_WriteLine_System_String_"></a> WriteLine\(string\)
+### WriteLine\(string\)
 
 ```csharp
 public void WriteLine(string msg)
@@ -587,4 +587,5 @@ public void WriteLine(string msg)
 ## See Also
 
 [UserControl](https://learn.microsoft.com/dotnet/api/system.windows.forms.usercontrol)
+
 

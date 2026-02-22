@@ -1,4 +1,4 @@
-# <a id="OpenTD_Logging_Logger"></a> Class Logger
+# Class Logger
 
 Namespace: [OpenTD.Logging](OpenTD.Logging.md)  
 Assembly: OpenTD.dll  
@@ -10,16 +10,16 @@ Use LoggerFactory to generate new loggers.
 public class Logger : ICRLogger
 ```
 
-#### Inheritance
+## Inheritance
 
 [object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [Logger](OpenTD.Logging.Logger.md)
 
-#### Implements
+## Implements
 
 ICRLogger
 
-#### Inherited Members
+## Inherited Members
 
 [object.Equals\(object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\)), 
 [object.Equals\(object?, object?\)](https://learn.microsoft.com/dotnet/api/system.object.equals\#system\-object\-equals\(system\-object\-system\-object\)), 
@@ -31,13 +31,13 @@ ICRLogger
 
 ## Methods
 
-### <a id="OpenTD_Logging_Logger_Close"></a> Close\(\)
+### Close\(\)
 
 ```csharp
 public void Close()
 ```
 
-### <a id="OpenTD_Logging_Logger_IsErrorEnabled"></a> IsErrorEnabled\(\)
+### IsErrorEnabled\(\)
 
 ```csharp
 public bool IsErrorEnabled()
@@ -47,7 +47,7 @@ public bool IsErrorEnabled()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Logging_Logger_IsInfoEnabled"></a> IsInfoEnabled\(\)
+### IsInfoEnabled\(\)
 
 ```csharp
 public bool IsInfoEnabled()
@@ -57,7 +57,7 @@ public bool IsInfoEnabled()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Logging_Logger_IsVerboseEnabled"></a> IsVerboseEnabled\(\)
+### IsVerboseEnabled\(\)
 
 ```csharp
 public bool IsVerboseEnabled()
@@ -67,7 +67,7 @@ public bool IsVerboseEnabled()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Logging_Logger_IsWarnEnabled"></a> IsWarnEnabled\(\)
+### IsWarnEnabled\(\)
 
 ```csharp
 public bool IsWarnEnabled()
@@ -77,7 +77,7 @@ public bool IsWarnEnabled()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="OpenTD_Logging_Logger_Log_System_Diagnostics_TraceEventType_System_String_"></a> Log\(TraceEventType, string\)
+### Log\(TraceEventType, string\)
 
 ```csharp
 public void Log(TraceEventType level, string message)
@@ -89,7 +89,7 @@ public void Log(TraceEventType level, string message)
 
 `message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Logging_Logger_LogError_System_String_"></a> LogError\(string\)
+### LogError\(string\)
 
 ```csharp
 public void LogError(string message)
@@ -99,7 +99,7 @@ public void LogError(string message)
 
 `message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Logging_Logger_LogError_System_String_System_Object___"></a> LogError\(string, params object\[\]\)
+### LogError\(string, params object\[\]\)
 
 ```csharp
 public void LogError(string format, params object[] strParams)
@@ -111,7 +111,7 @@ public void LogError(string format, params object[] strParams)
 
 `strParams` [object](https://learn.microsoft.com/dotnet/api/system.object)\[\]
 
-### <a id="OpenTD_Logging_Logger_LogInfo_System_String_"></a> LogInfo\(string\)
+### LogInfo\(string\)
 
 ```csharp
 public void LogInfo(string message)
@@ -121,7 +121,7 @@ public void LogInfo(string message)
 
 `message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Logging_Logger_LogInfo_System_String_System_Object___"></a> LogInfo\(string, params object\[\]\)
+### LogInfo\(string, params object\[\]\)
 
 ```csharp
 public void LogInfo(string format, params object[] strParams)
@@ -133,7 +133,7 @@ public void LogInfo(string format, params object[] strParams)
 
 `strParams` [object](https://learn.microsoft.com/dotnet/api/system.object)\[\]
 
-### <a id="OpenTD_Logging_Logger_LogVerbose_System_String_"></a> LogVerbose\(string\)
+### LogVerbose\(string\)
 
 ```csharp
 public void LogVerbose(string message)
@@ -143,7 +143,7 @@ public void LogVerbose(string message)
 
 `message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Logging_Logger_LogVerbose_System_String_System_Object___"></a> LogVerbose\(string, params object\[\]\)
+### LogVerbose\(string, params object\[\]\)
 
 ```csharp
 public void LogVerbose(string format, params object[] strParams)
@@ -155,7 +155,7 @@ public void LogVerbose(string format, params object[] strParams)
 
 `strParams` [object](https://learn.microsoft.com/dotnet/api/system.object)\[\]
 
-### <a id="OpenTD_Logging_Logger_LogWarn_System_String_"></a> LogWarn\(string\)
+### LogWarn\(string\)
 
 ```csharp
 public void LogWarn(string message)
@@ -165,7 +165,7 @@ public void LogWarn(string message)
 
 `message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="OpenTD_Logging_Logger_LogWarn_System_String_System_Object___"></a> LogWarn\(string, params object\[\]\)
+### LogWarn\(string, params object\[\]\)
 
 ```csharp
 public void LogWarn(string format, params object[] strParams)
@@ -180,4 +180,5 @@ public void LogWarn(string format, params object[] strParams)
 ## See Also
 
 [LoggerFactory](OpenTD.Logging.LoggerFactory.md)
+
 
