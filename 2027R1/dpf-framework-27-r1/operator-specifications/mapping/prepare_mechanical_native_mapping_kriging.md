@@ -10,7 +10,22 @@ license: any_dpf_supported_increments
 
 ## Description
 
-Prepare mapping of source data from source mesh to target mesh by operating the source_mesh/target_mesh weights computation. This operator will use a point kriging algorithm. This operator needs to be used with the apply mechanical native mapping associated one.
+Prepare mapping of source data from source mesh to target mesh by operating the source_mesh/target_mesh weights computation.
+
+This operator will use a point kriging algorithm. Kriging is a regression-based interpolation technique that assigns weights to surrounding source points according to their spatial covariance values.
+
+The algorithm combines the Kriging model with a polynomial model to capture local and global deviations:
+- The Kriging model interpolates the source points based on their localized deviations.
+- The polynomial model globally approximates the source space.
+
+Note:
+- By default, the Kriging technique uses an adaptive algorithm and ensures that the interpolated values do not exceed specific limits
+.- The adaptive algorithm starts by using the higher-order Cross Quadratic polynomial to interpolate data. If the interpolated value of each target point is outside the extrapolation limit you specified, the algorithm re-interpolates data by reducing the polynomial order and the number of source points.
+- Target nodes whose values are outside the limits when the lowest polynomial type is used are not assigned a value.
+- The Kriging algorithm, when used with the higher-order Cross Quadratic or Pure Quadratic polynomial, may fail to correctly interpolate data for a target point if multiple source points are spaced close to one another or if the target point is outside the region enclosed by the source points that are selected for interpolation. This may introduce gross errors in the estimation of the target value and manifests itself mostly when mapping data on surface or edge geometries.
+- In such cases, you should change the Polynomial Type to Constant or Linear and, if necessary, reduce the number of source points to be included for the interpolation.
+
+This operator needs to be used with the apply mechanical native mapping associated one.
 
 ## Inputs
 
