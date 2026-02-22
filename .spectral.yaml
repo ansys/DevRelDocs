@@ -1,0 +1,30 @@
+extends: ["spectral:oas"]
+
+rules:
+  operation-summary-required:
+    description: "Every operation must have a summary."
+    given: "$.paths[*][*]"
+    then:
+      field: summary
+      function: truthy
+
+  operation-description-required:
+    description: "Every operation must have a description."
+    given: "$.paths[*][*]"
+    then:
+      field: description
+      function: truthy
+
+  response-description-required:
+    description: "Every response must have a description."
+    given: "$.paths[*][*].responses[*]"
+    then:
+      field: description
+      function: truthy
+
+  response-examples-required:
+    description: "Responses should have examples."
+    given: "$.paths[*][*].responses[*].content.*"
+    then:
+      field: example
+      function: truthy
