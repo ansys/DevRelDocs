@@ -4,4 +4,4 @@
 
 #### *property* CADGeometry.visible_sub_shapes
 
-Ids of CAD sub shapes to be displayed, stored per-scene id
+IDs of CAD sub shapes to be displayed, stored per-scene id

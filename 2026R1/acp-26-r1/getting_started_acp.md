@@ -74,7 +74,7 @@ element_label_with_max_thickness = labels[index_of_max]
 model = db.active_model
 # get first solution
 solution = model.solutions.values()[0]
-# get the failure criterion definition
+# Returns the failure criterion definition
 fc_definition = model.definitions['FailureCriteria.MaxStrain_Core']
 # get element labels
 labels = model.mesh_query(name='labels',position='centroid',selection='all')
@@ -82,9 +82,9 @@ labels = model.mesh_query(name='labels',position='centroid',selection='all')
 irfs = list(solution.query(definition=fc_definition,position='centroid',selection='all',component='irf'))
 # get failure modes of all elements
 failure_modes = solution.query(definition=fc_definition,position='centroid',selection='all',component='fm')
-# get the maximum IRF value
+# Returns the maximum IRF value
 max_irf = max(irfs)
-# get the index of maximum IRF
+# Returns the index of maximum IRF
 index_of_max = irfs.index(max_irf)
 # get failure mode corresponding to maximum IRF
 critical_failure_mode = failure_modes[index_of_max]

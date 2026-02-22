@@ -8,6 +8,6 @@ Open an ACPH5 file.
 
 * **Parameters:**
   - path: File path to the ACPH5 file.
-  - pre_db: Specifies whether a pre-database is opened from within a
+  - pre_db: Indicates whether a pre-database is opened from within a
     : post-database. Used for Workbench application integration 14.
   - unit_system_type: Defines the unit system of the main/downstream ACP file.

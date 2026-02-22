@@ -4,8 +4,7 @@
 
 #### AnalysisPly.visit(visitor)
 
-Walk through the tree and let the visitor perform action on every
-descendant node.
+Walk through the tree and applies the visitor to every descendant node.
 
 * **Parameters:**
 

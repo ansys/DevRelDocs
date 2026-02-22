@@ -4,4 +4,4 @@
 
 #### *property* InterfaceLayer.active
 
-Sequence Entity is active
+Indicates whether the sequence entity is active

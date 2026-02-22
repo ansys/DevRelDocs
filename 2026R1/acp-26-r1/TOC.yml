@@ -12,7 +12,7 @@
 - name: Classes
   href: classes.md
   items:
-  - name: Database
+  - name: Database class
     href: db_database.md
     items:
     - name: DB

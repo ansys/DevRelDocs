@@ -4,4 +4,4 @@
 
 #### *property* ImportedAnalysisPly.name
 
-Name of object
+Name of the object

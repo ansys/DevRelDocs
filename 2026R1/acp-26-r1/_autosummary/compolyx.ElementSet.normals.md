@@ -4,4 +4,4 @@
 
 #### *property* ElementSet.normals
 
-Get the Normals of the Element Set
+Returns the Normals of the Element Set

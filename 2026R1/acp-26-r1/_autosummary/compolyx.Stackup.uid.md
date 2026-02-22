@@ -4,4 +4,4 @@
 
 #### *property* Stackup.uid
 
-UID of object
+UID of the object

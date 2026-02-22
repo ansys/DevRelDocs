@@ -4,4 +4,4 @@
 
 #### *property* AnalysisPly.status_changed
 
-Boolean flag which is set to true in C++ when up-to-date status of object changes.
+True (boolean) when the C++ layer updates the object’s status

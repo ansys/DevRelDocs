@@ -4,4 +4,4 @@
 
 #### *property* BooleanSelectionRule.parent
 
-Parent object in tree
+Parent object in the tree

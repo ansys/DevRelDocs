@@ -4,4 +4,4 @@
 
 #### *property* AnalysisPly.thickness
 
-Thickness of the Analysis Ply
+Thickness of the analysis ply  

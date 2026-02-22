@@ -4,4 +4,4 @@
 
 #### *property* CADShell.sub_shapes
 
-Sub faces of the CAD Shell.
+Sub faces of the CAD shell.

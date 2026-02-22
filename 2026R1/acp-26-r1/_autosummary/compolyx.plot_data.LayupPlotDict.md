@@ -10,15 +10,15 @@ Container for Layup Plots
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| [`LayupPlotDict.enabled`](compolyx.plot_data.LayupPlotDict.enabled.md#compolyx.plot_data.LayupPlotDict.enabled)                | Whether this object is currently enabled or not.                           |
-| [`LayupPlotDict.is_dict_item`](compolyx.plot_data.LayupPlotDict.is_dict_item.md#compolyx.plot_data.LayupPlotDict.is_dict_item) | Specifies wether the object is an item of a dict                           |
-| [`LayupPlotDict.is_list_item`](compolyx.plot_data.LayupPlotDict.is_list_item.md#compolyx.plot_data.LayupPlotDict.is_list_item) | Specifies wether the object is an item of a list                           |
+| [`LayupPlotDict.enabled`](compolyx.plot_data.LayupPlotDict.enabled.md#compolyx.plot_data.LayupPlotDict.enabled)                | Indicates whether the object is enabled.                           |
+| [`LayupPlotDict.is_dict_item`](compolyx.plot_data.LayupPlotDict.is_dict_item.md#compolyx.plot_data.LayupPlotDict.is_dict_item) | Indicates whether the object is an item in a dictionary                           |
+| [`LayupPlotDict.is_list_item`](compolyx.plot_data.LayupPlotDict.is_list_item.md#compolyx.plot_data.LayupPlotDict.is_list_item) | Indicates whether the object is an item of a list                           |
 | [`LayupPlotDict.item_type`](compolyx.plot_data.LayupPlotDict.item_type.md#compolyx.plot_data.LayupPlotDict.item_type)          | Type of items stored in this UIDict                                        |
 | [`LayupPlotDict.key_attr`](compolyx.plot_data.LayupPlotDict.key_attr.md#compolyx.plot_data.LayupPlotDict.key_attr)             | Name of attribute of item objects which is mapped to the key of the UIDict |
 | [`LayupPlotDict.label`](compolyx.plot_data.LayupPlotDict.label.md#compolyx.plot_data.LayupPlotDict.label)                      |                                                                            |
 | [`LayupPlotDict.link_path`](compolyx.plot_data.LayupPlotDict.link_path.md#compolyx.plot_data.LayupPlotDict.link_path)          | Root path of the current node in the tree for links to this object         |
-| [`LayupPlotDict.name`](compolyx.plot_data.LayupPlotDict.name.md#compolyx.plot_data.LayupPlotDict.name)                         | Name of object                                                             |
-| [`LayupPlotDict.parent`](compolyx.plot_data.LayupPlotDict.parent.md#compolyx.plot_data.LayupPlotDict.parent)                   | Parent object in tree                                                      |
+| [`LayupPlotDict.name`](compolyx.plot_data.LayupPlotDict.name.md#compolyx.plot_data.LayupPlotDict.name)                         | Name of the object                                                             |
+| [`LayupPlotDict.parent`](compolyx.plot_data.LayupPlotDict.parent.md#compolyx.plot_data.LayupPlotDict.parent)                   | Parent object in the tree                                                      |
 | [`LayupPlotDict.root_path`](compolyx.plot_data.LayupPlotDict.root_path.md#compolyx.plot_data.LayupPlotDict.root_path)          | Root path of the current node in the tree                                  |
 
 ### Methods
@@ -39,7 +39,7 @@ Container for Layup Plots
 | [`LayupPlotDict.extend`](compolyx.plot_data.LayupPlotDict.extend.md#compolyx.plot_data.LayupPlotDict.extend)(values)                                                                  | Extend the UIDict with multiple items at once.                                              |
 | [`LayupPlotDict.find`](compolyx.plot_data.LayupPlotDict.find.md#compolyx.plot_data.LayupPlotDict.find)(func)                                                                          | Return the value of the first value in dict where func(value) == True.                      |
 | [`LayupPlotDict.find_key`](compolyx.plot_data.LayupPlotDict.find_key.md#compolyx.plot_data.LayupPlotDict.find_key)(func)                                                              | Return the key of the first value in dict where func(value) == True.                        |
-| [`LayupPlotDict.find_parent`](compolyx.plot_data.LayupPlotDict.find_parent.md#compolyx.plot_data.LayupPlotDict.find_parent)(type)                                                     | Function steps up the tree and returns the first parent with given type.                    |
+| [`LayupPlotDict.find_parent`](compolyx.plot_data.LayupPlotDict.find_parent.md#compolyx.plot_data.LayupPlotDict.find_parent)(type)                                                     | Steps up the tree and returns the first parent with given type.                    |
 | [`LayupPlotDict.get`](compolyx.plot_data.LayupPlotDict.get.md#compolyx.plot_data.LayupPlotDict.get)(key[, default])                                                                   |                                                                                             |
 | [`LayupPlotDict.index`](compolyx.plot_data.LayupPlotDict.index.md#compolyx.plot_data.LayupPlotDict.index)(key)                                                                        |                                                                                             |
 | [`LayupPlotDict.items`](compolyx.plot_data.LayupPlotDict.items.md#compolyx.plot_data.LayupPlotDict.items)()                                                                           | Return ordered list with (key,value) pairs                                                  |

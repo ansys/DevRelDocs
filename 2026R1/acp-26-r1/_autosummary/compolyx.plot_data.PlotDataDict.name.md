@@ -4,4 +4,4 @@
 
 #### *property* PlotDataDict.name
 
-Name of object
+Name of the object

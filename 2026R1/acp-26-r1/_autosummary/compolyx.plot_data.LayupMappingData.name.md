@@ -4,4 +4,4 @@
 
 #### *property* LayupMappingData.name
 
-Name of object
+Name of the object

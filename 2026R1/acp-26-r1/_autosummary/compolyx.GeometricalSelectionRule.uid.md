@@ -4,4 +4,4 @@
 
 #### *property* GeometricalSelectionRule.uid
 
-UID of object
+UID of the object

@@ -4,4 +4,4 @@
 
 #### *property* Material.id
 
-ID of object
+ID of the object

@@ -4,4 +4,4 @@
 
 #### CADShell.update()
 
-Update the CadComponent.
+Update the CAD component.

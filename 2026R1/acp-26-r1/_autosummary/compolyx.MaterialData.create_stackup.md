@@ -13,7 +13,7 @@ Create a new stackup
   - symmetry: Symmetry of the stackup. Available options: ‘No Symmetry’, ‘Even Symmetry’, and ‘Odd Symmetry’.
   - layup_sequence: Layup sequence of the stackup. Available options: ‘Top-Down’ and ‘Bottom-Up’.
   - drop_off_material_handling: Type defining how drop-off material is used in drop-off areas of the stackup.
-  - cut_off_material_handling: Type defining how cut-off material is used in cut-off areas of the stackup.
+  - cut_off_material_handling: Defines how cut‑off material is used in cut‑off areas of the stackup.
   - drop_off_material: Material to use for ‘Custom’ drop-off material handling.
   - cut_off_material: Material to use for ‘Custom’ cut-off material handling.
   - draping_material_model: Material model for draping, either ‘woven’ or ‘unidirectional’.

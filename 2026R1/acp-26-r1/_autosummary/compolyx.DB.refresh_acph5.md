@@ -18,6 +18,6 @@ Refresh an .acph5 database (Workbench application mode only)
       > - Values for ‘solutions’ are dicts with fields  [‘name’, ‘path’, ‘external_id’, ‘modified’, ‘renumbering_mapping_paths’] where
       > renumbering_mapping_paths is a list of file paths.
   - input_parameters: A dict of pairs (name, value) of the Workbench application input parameters.
-  - initialize: Specifies whether the .acph5 database needs to be initialized (for example if the file does not
+  - initialize: Indicates whether the .acph5 database needs to be initialized (for example if the file does not
     : yet exist).
   - unit_system_type: Defines the unit system of the main/downstream ACP file.

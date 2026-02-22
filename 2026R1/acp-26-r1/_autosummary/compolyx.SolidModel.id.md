@@ -4,4 +4,4 @@
 
 #### *property* SolidModel.id
 
-ID of object
+ID of the object

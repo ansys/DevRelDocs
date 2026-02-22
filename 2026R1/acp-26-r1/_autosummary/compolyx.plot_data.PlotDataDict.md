@@ -8,15 +8,15 @@
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| [`PlotDataDict.enabled`](compolyx.plot_data.PlotDataDict.enabled.md#compolyx.plot_data.PlotDataDict.enabled)                | Whether this object is currently enabled or not.                           |
-| [`PlotDataDict.is_dict_item`](compolyx.plot_data.PlotDataDict.is_dict_item.md#compolyx.plot_data.PlotDataDict.is_dict_item) | Specifies wether the object is an item of a dict                           |
-| [`PlotDataDict.is_list_item`](compolyx.plot_data.PlotDataDict.is_list_item.md#compolyx.plot_data.PlotDataDict.is_list_item) | Specifies wether the object is an item of a list                           |
+| [`PlotDataDict.enabled`](compolyx.plot_data.PlotDataDict.enabled.md#compolyx.plot_data.PlotDataDict.enabled)                | Indicates whether the object is enabled.                           |
+| [`PlotDataDict.is_dict_item`](compolyx.plot_data.PlotDataDict.is_dict_item.md#compolyx.plot_data.PlotDataDict.is_dict_item) | Indicates whether the object is an item in a dictionary                           |
+| [`PlotDataDict.is_list_item`](compolyx.plot_data.PlotDataDict.is_list_item.md#compolyx.plot_data.PlotDataDict.is_list_item) | Indicates whether the object is an item of a list                           |
 | [`PlotDataDict.item_type`](compolyx.plot_data.PlotDataDict.item_type.md#compolyx.plot_data.PlotDataDict.item_type)          | Type of items stored in this UIDict                                        |
 | [`PlotDataDict.key_attr`](compolyx.plot_data.PlotDataDict.key_attr.md#compolyx.plot_data.PlotDataDict.key_attr)             | Name of attribute of item objects which is mapped to the key of the UIDict |
 | [`PlotDataDict.label`](compolyx.plot_data.PlotDataDict.label.md#compolyx.plot_data.PlotDataDict.label)                      |                                                                            |
 | [`PlotDataDict.link_path`](compolyx.plot_data.PlotDataDict.link_path.md#compolyx.plot_data.PlotDataDict.link_path)          | Root path of the current node in the tree for links to this object         |
-| [`PlotDataDict.name`](compolyx.plot_data.PlotDataDict.name.md#compolyx.plot_data.PlotDataDict.name)                         | Name of object                                                             |
-| [`PlotDataDict.parent`](compolyx.plot_data.PlotDataDict.parent.md#compolyx.plot_data.PlotDataDict.parent)                   | Parent object in tree                                                      |
+| [`PlotDataDict.name`](compolyx.plot_data.PlotDataDict.name.md#compolyx.plot_data.PlotDataDict.name)                         | Name of the object                                                             |
+| [`PlotDataDict.parent`](compolyx.plot_data.PlotDataDict.parent.md#compolyx.plot_data.PlotDataDict.parent)                   | Parent object in the tree                                                      |
 | [`PlotDataDict.root_path`](compolyx.plot_data.PlotDataDict.root_path.md#compolyx.plot_data.PlotDataDict.root_path)          | Root path of the current node in the tree                                  |
 
 ### Methods
@@ -29,7 +29,7 @@
 | [`PlotDataDict.extend`](compolyx.plot_data.PlotDataDict.extend.md#compolyx.plot_data.PlotDataDict.extend)(values)              | Extend the UIDict with multiple items at once.                                              |
 | [`PlotDataDict.find`](compolyx.plot_data.PlotDataDict.find.md#compolyx.plot_data.PlotDataDict.find)(func)                      | Return the value of the first value in dict where func(value) == True.                      |
 | [`PlotDataDict.find_key`](compolyx.plot_data.PlotDataDict.find_key.md#compolyx.plot_data.PlotDataDict.find_key)(func)          | Return the key of the first value in dict where func(value) == True.                        |
-| [`PlotDataDict.find_parent`](compolyx.plot_data.PlotDataDict.find_parent.md#compolyx.plot_data.PlotDataDict.find_parent)(type) | Function steps up the tree and returns the first parent with given type.                    |
+| [`PlotDataDict.find_parent`](compolyx.plot_data.PlotDataDict.find_parent.md#compolyx.plot_data.PlotDataDict.find_parent)(type) | Steps up the tree and returns the first parent with given type.                    |
 | [`PlotDataDict.get`](compolyx.plot_data.PlotDataDict.get.md#compolyx.plot_data.PlotDataDict.get)(key[, default])               |                                                                                             |
 | [`PlotDataDict.index`](compolyx.plot_data.PlotDataDict.index.md#compolyx.plot_data.PlotDataDict.index)(key)                    |                                                                                             |
 | [`PlotDataDict.items`](compolyx.plot_data.PlotDataDict.items.md#compolyx.plot_data.PlotDataDict.items)()                       | Return ordered list with (key,value) pairs                                                  |

@@ -4,4 +4,4 @@
 
 #### *property* FieldDefinition.scalar_field
 
-Look-up table column used with this field definition.
+Lookup‑table column used with this field definition.

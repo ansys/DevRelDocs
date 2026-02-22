@@ -8,7 +8,7 @@ Split modeling plies into separate modeling plies for each production material.
 
 For each given modeling ply which has a sub laminate as ply material,
 the modeling ply is replaced by the corresponding modeling plies defined
-by the production materials (fabrics or stack-ups).
+by the production materials (fabrics or stackups).
 
 Note that this is supported only for modeling plies which have
 nominal thickness definition and no taper edges. Otherwise,
