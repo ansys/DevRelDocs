@@ -11,7 +11,7 @@ There are several ways to create a new VENV:
 * **Using the Ansys-delivered Python:**
 
   Navigate to the delivered Ansys Python that is in the 
-subfolder of `<WB root dir>\commonfiles\CPython` and call the venv module.
+subfolder of `<WB root dir>\commonfiles\CPython` and call the VENV module.
 
   ```pycon
   python.exe -m venv C:\my_ansys_python_env
