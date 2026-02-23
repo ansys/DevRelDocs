@@ -10,22 +10,22 @@ Represents a VirtualGeometry.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| [`VirtualGeometry.active`](compolyx.VirtualGeometry.active.md#compolyx.VirtualGeometry.active)                         | Active status of the object                                                            |
+| [`VirtualGeometry.active`](compolyx.VirtualGeometry.active.md#compolyx.VirtualGeometry.active)                         | Active status of the object.                                                            |
 | [`VirtualGeometry.cad_geometry`](compolyx.VirtualGeometry.cad_geometry.md#compolyx.VirtualGeometry.cad_geometry)       | Returns the linked CADGeometry.                                                    |
 | [`VirtualGeometry.cad_references`](compolyx.VirtualGeometry.cad_references.md#compolyx.VirtualGeometry.cad_references) | Dictionary of all CAD references.                                                  |
 | [`VirtualGeometry.dimension`](compolyx.VirtualGeometry.dimension.md#compolyx.VirtualGeometry.dimension)                | Highest dimension of all CAD references.                                           |
 | [`VirtualGeometry.enabled`](compolyx.VirtualGeometry.enabled.md#compolyx.VirtualGeometry.enabled)                      | Indicates whether the object is enabled.                                   |
-| [`VirtualGeometry.id`](compolyx.VirtualGeometry.id.md#compolyx.VirtualGeometry.id)                                     | ID of the object                                                                       |
-| [`VirtualGeometry.is_dict_item`](compolyx.VirtualGeometry.is_dict_item.md#compolyx.VirtualGeometry.is_dict_item)       | Indicates whether the object is an item in a dictionary                                   |
-| [`VirtualGeometry.is_list_item`](compolyx.VirtualGeometry.is_list_item.md#compolyx.VirtualGeometry.is_list_item)       | Indicates whether the object is an item of a list                                   |
-| [`VirtualGeometry.link_path`](compolyx.VirtualGeometry.link_path.md#compolyx.VirtualGeometry.link_path)                | Root path of the current node in the tree for links to this object                 |
-| [`VirtualGeometry.name`](compolyx.VirtualGeometry.name.md#compolyx.VirtualGeometry.name)                               | Name of the object                                                                     |
-| [`VirtualGeometry.parent`](compolyx.VirtualGeometry.parent.md#compolyx.VirtualGeometry.parent)                         | Parent object in the tree                                                              |
-| [`VirtualGeometry.root_path`](compolyx.VirtualGeometry.root_path.md#compolyx.VirtualGeometry.root_path)                | Root path of the current node in the tree                                          |
-| [`VirtualGeometry.status`](compolyx.VirtualGeometry.status.md#compolyx.VirtualGeometry.status)                         | Status of the object                                                               |
+| [`VirtualGeometry.id`](compolyx.VirtualGeometry.id.md#compolyx.VirtualGeometry.id)                                     | ID of the object.                                                                       |
+| [`VirtualGeometry.is_dict_item`](compolyx.VirtualGeometry.is_dict_item.md#compolyx.VirtualGeometry.is_dict_item)       | Indicates whether the object is an item in a dictionary.                                   |
+| [`VirtualGeometry.is_list_item`](compolyx.VirtualGeometry.is_list_item.md#compolyx.VirtualGeometry.is_list_item)       | Indicates whether the object is an item of a list.                                   |
+| [`VirtualGeometry.link_path`](compolyx.VirtualGeometry.link_path.md#compolyx.VirtualGeometry.link_path)                | Root path of the current node in the tree for links to this object.                 |
+| [`VirtualGeometry.name`](compolyx.VirtualGeometry.name.md#compolyx.VirtualGeometry.name)                               | Name of the object.                                                                     |
+| [`VirtualGeometry.parent`](compolyx.VirtualGeometry.parent.md#compolyx.VirtualGeometry.parent)                         | Parent object in the tree.                                                              |
+| [`VirtualGeometry.root_path`](compolyx.VirtualGeometry.root_path.md#compolyx.VirtualGeometry.root_path)                | Root path of the current node in the tree.                                          |
+| [`VirtualGeometry.status`](compolyx.VirtualGeometry.status.md#compolyx.VirtualGeometry.status)                         | Status of the object.                                                               |
 | [`VirtualGeometry.status_changed`](compolyx.VirtualGeometry.status_changed.md#compolyx.VirtualGeometry.status_changed) | Boolean flag which is set to true in C++ when up-to-date status of object changes. |
 | [`VirtualGeometry.sub_shapes`](compolyx.VirtualGeometry.sub_shapes.md#compolyx.VirtualGeometry.sub_shapes)             | Sub components of the VirtualGeometry.                                             |
-| [`VirtualGeometry.uid`](compolyx.VirtualGeometry.uid.md#compolyx.VirtualGeometry.uid)                                  | UID of the object                                                                      |
+| [`VirtualGeometry.uid`](compolyx.VirtualGeometry.uid.md#compolyx.VirtualGeometry.uid)                                  | UID of the object.                                                                      |
 | [`VirtualGeometry.vertex`](compolyx.VirtualGeometry.vertex.md#compolyx.VirtualGeometry.vertex)                         | Raises an error if the object has been removed from the graph.            |
 
 ### Methods

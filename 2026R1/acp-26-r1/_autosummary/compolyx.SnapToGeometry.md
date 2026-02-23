@@ -10,22 +10,22 @@ SnapToGeometry guide class
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| [`SnapToGeometry.active`](compolyx.SnapToGeometry.active.md#compolyx.SnapToGeometry.active)                                                 | Snap-To Geometry active                                                            |
+| [`SnapToGeometry.active`](compolyx.SnapToGeometry.active.md#compolyx.SnapToGeometry.active)                                                 | Snap-To Geometry active.                                                            |
 | [`SnapToGeometry.cad_geometry`](compolyx.SnapToGeometry.cad_geometry.md#compolyx.SnapToGeometry.cad_geometry)                               | Associated Geometry.                                                               |
-| [`SnapToGeometry.elements`](compolyx.SnapToGeometry.elements.md#compolyx.SnapToGeometry.elements)                                           | List of affected shell elements                                                    |
+| [`SnapToGeometry.elements`](compolyx.SnapToGeometry.elements.md#compolyx.SnapToGeometry.elements)                                           | List of affected shell elements.                                                    |
 | [`SnapToGeometry.enabled`](compolyx.SnapToGeometry.enabled.md#compolyx.SnapToGeometry.enabled)                                              | Indicates whether the object is enabled.                                   |
-| [`SnapToGeometry.id`](compolyx.SnapToGeometry.id.md#compolyx.SnapToGeometry.id)                                                             | ID of the object                                                                       |
-| [`SnapToGeometry.is_dict_item`](compolyx.SnapToGeometry.is_dict_item.md#compolyx.SnapToGeometry.is_dict_item)                               | Indicates whether the object is an item in a dictionary                                   |
-| [`SnapToGeometry.is_list_item`](compolyx.SnapToGeometry.is_list_item.md#compolyx.SnapToGeometry.is_list_item)                               | Indicates whether the object is an item of a list                                   |
-| [`SnapToGeometry.link_path`](compolyx.SnapToGeometry.link_path.md#compolyx.SnapToGeometry.link_path)                                        | Root path of the current node in the tree for links to this object                 |
-| [`SnapToGeometry.name`](compolyx.SnapToGeometry.name.md#compolyx.SnapToGeometry.name)                                                       | Name of the object                                                                     |
+| [`SnapToGeometry.id`](compolyx.SnapToGeometry.id.md#compolyx.SnapToGeometry.id)                                                             | ID of the object.                                                                       |
+| [`SnapToGeometry.is_dict_item`](compolyx.SnapToGeometry.is_dict_item.md#compolyx.SnapToGeometry.is_dict_item)                               | Indicates whether the object is an item in a dictionary.                                   |
+| [`SnapToGeometry.is_list_item`](compolyx.SnapToGeometry.is_list_item.md#compolyx.SnapToGeometry.is_list_item)                               | Indicates whether the object is an item of a list.                                   |
+| [`SnapToGeometry.link_path`](compolyx.SnapToGeometry.link_path.md#compolyx.SnapToGeometry.link_path)                                        | Root path of the current node in the tree for links to this object.                 |
+| [`SnapToGeometry.name`](compolyx.SnapToGeometry.name.md#compolyx.SnapToGeometry.name)                                                       | Name of the object.                                                                     |
 | [`SnapToGeometry.orientation`](compolyx.SnapToGeometry.orientation.md#compolyx.SnapToGeometry.orientation)                                  | Orientation.                                                                       |
 | [`SnapToGeometry.oriented_selection_set`](compolyx.SnapToGeometry.oriented_selection_set.md#compolyx.SnapToGeometry.oriented_selection_set) |                                                                                    |
-| [`SnapToGeometry.parent`](compolyx.SnapToGeometry.parent.md#compolyx.SnapToGeometry.parent)                                                 | Parent object in the tree                                                              |
-| [`SnapToGeometry.root_path`](compolyx.SnapToGeometry.root_path.md#compolyx.SnapToGeometry.root_path)                                        | Root path of the current node in the tree                                          |
-| [`SnapToGeometry.status`](compolyx.SnapToGeometry.status.md#compolyx.SnapToGeometry.status)                                                 | Status of the object                                                               |
+| [`SnapToGeometry.parent`](compolyx.SnapToGeometry.parent.md#compolyx.SnapToGeometry.parent)                                                 | Parent object in the tree.                                                              |
+| [`SnapToGeometry.root_path`](compolyx.SnapToGeometry.root_path.md#compolyx.SnapToGeometry.root_path)                                        | Root path of the current node in the tree.                                          |
+| [`SnapToGeometry.status`](compolyx.SnapToGeometry.status.md#compolyx.SnapToGeometry.status)                                                 | Status of the object.                                                               |
 | [`SnapToGeometry.status_changed`](compolyx.SnapToGeometry.status_changed.md#compolyx.SnapToGeometry.status_changed)                         | Boolean flag which is set to true in C++ when up-to-date status of object changes. |
-| [`SnapToGeometry.uid`](compolyx.SnapToGeometry.uid.md#compolyx.SnapToGeometry.uid)                                                          | UID of the object                                                                      |
+| [`SnapToGeometry.uid`](compolyx.SnapToGeometry.uid.md#compolyx.SnapToGeometry.uid)                                                          | UID of the object.                                                                      |
 | [`SnapToGeometry.vertex`](compolyx.SnapToGeometry.vertex.md#compolyx.SnapToGeometry.vertex)                                                 | Raises an error if the object has been removed from the graph.            |
 
 ### Methods

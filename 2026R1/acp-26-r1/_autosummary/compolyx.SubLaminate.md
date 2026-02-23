@@ -10,25 +10,25 @@ Represents sublaminate.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| [`SubLaminate.active`](compolyx.SubLaminate.active.md#compolyx.SubLaminate.active)                         | Active status of the object                                                              |
-| [`SubLaminate.area_price`](compolyx.SubLaminate.area_price.md#compolyx.SubLaminate.area_price)             | Price per area of the Sub Laminate                                                   |
-| [`SubLaminate.area_weight`](compolyx.SubLaminate.area_weight.md#compolyx.SubLaminate.area_weight)          | Area weight of the Sub Laminate                                                      |
+| [`SubLaminate.active`](compolyx.SubLaminate.active.md#compolyx.SubLaminate.active)                         | Active status of the object.                                                              |
+| [`SubLaminate.area_price`](compolyx.SubLaminate.area_price.md#compolyx.SubLaminate.area_price)             | Price per area of the Sub Laminate.                                                   |
+| [`SubLaminate.area_weight`](compolyx.SubLaminate.area_weight.md#compolyx.SubLaminate.area_weight)          | Area weight of the Sub Laminate.                                                      |
 | [`SubLaminate.enabled`](compolyx.SubLaminate.enabled.md#compolyx.SubLaminate.enabled)                      | Indicates whether the object is enabled.                                     |
-| [`SubLaminate.fabrics`](compolyx.SubLaminate.fabrics.md#compolyx.SubLaminate.fabrics)                      | Fabrics property of the Sub Laminate                                                 |
+| [`SubLaminate.fabrics`](compolyx.SubLaminate.fabrics.md#compolyx.SubLaminate.fabrics)                      | Fabrics property of the Sub Laminate.                                                 |
 | [`SubLaminate.graph_plot`](compolyx.SubLaminate.graph_plot.md#compolyx.SubLaminate.graph_plot)             | Graph Plot object used to configure 2D plots.                                        |
-| [`SubLaminate.id`](compolyx.SubLaminate.id.md#compolyx.SubLaminate.id)                                     | ID of the object                                                                         |
-| [`SubLaminate.is_dict_item`](compolyx.SubLaminate.is_dict_item.md#compolyx.SubLaminate.is_dict_item)       | Indicates whether the object is an item in a dictionary                                     |
-| [`SubLaminate.is_list_item`](compolyx.SubLaminate.is_list_item.md#compolyx.SubLaminate.is_list_item)       | Indicates whether the object is an item of a list                                     |
-| [`SubLaminate.layup_sequence`](compolyx.SubLaminate.layup_sequence.md#compolyx.SubLaminate.layup_sequence) | Layup Sequence of the Sub Laminate can be 'Top-Down' or 'Bottom-Up'                  |
-| [`SubLaminate.link_path`](compolyx.SubLaminate.link_path.md#compolyx.SubLaminate.link_path)                | Root path of the current node in the tree for links to this object                   |
-| [`SubLaminate.name`](compolyx.SubLaminate.name.md#compolyx.SubLaminate.name)                               | Name of the object                                                                       |
-| [`SubLaminate.parent`](compolyx.SubLaminate.parent.md#compolyx.SubLaminate.parent)                         | Parent object in the tree                                                                |
-| [`SubLaminate.root_path`](compolyx.SubLaminate.root_path.md#compolyx.SubLaminate.root_path)                | Root path of the current node in the tree                                            |
-| [`SubLaminate.status`](compolyx.SubLaminate.status.md#compolyx.SubLaminate.status)                         | Status of the object                                                                 |
+| [`SubLaminate.id`](compolyx.SubLaminate.id.md#compolyx.SubLaminate.id)                                     | ID of the object.                                                                         |
+| [`SubLaminate.is_dict_item`](compolyx.SubLaminate.is_dict_item.md#compolyx.SubLaminate.is_dict_item)       | Indicates whether the object is an item in a dictionary.                                     |
+| [`SubLaminate.is_list_item`](compolyx.SubLaminate.is_list_item.md#compolyx.SubLaminate.is_list_item)       | Indicates whether the object is an item of a list.                                     |
+| [`SubLaminate.layup_sequence`](compolyx.SubLaminate.layup_sequence.md#compolyx.SubLaminate.layup_sequence) | Layup Sequence of the Sub Laminate can be 'Top-Down' or 'Bottom-Up'.                  |
+| [`SubLaminate.link_path`](compolyx.SubLaminate.link_path.md#compolyx.SubLaminate.link_path)                | Root path of the current node in the tree for links to this object.                   |
+| [`SubLaminate.name`](compolyx.SubLaminate.name.md#compolyx.SubLaminate.name)                               | Name of the object.                                                                       |
+| [`SubLaminate.parent`](compolyx.SubLaminate.parent.md#compolyx.SubLaminate.parent)                         | Parent object in the tree.                                                                |
+| [`SubLaminate.root_path`](compolyx.SubLaminate.root_path.md#compolyx.SubLaminate.root_path)                | Root path of the current node in the tree.                                            |
+| [`SubLaminate.status`](compolyx.SubLaminate.status.md#compolyx.SubLaminate.status)                         | Status of the object.                                                                 |
 | [`SubLaminate.status_changed`](compolyx.SubLaminate.status_changed.md#compolyx.SubLaminate.status_changed) | Boolean flag which is set to true in C++ when up-to-date status of object changes.   |
-| [`SubLaminate.symmetry`](compolyx.SubLaminate.symmetry.md#compolyx.SubLaminate.symmetry)                   | Symmetry of the Sub Laminate can be 'No Symmetry', 'Even Symmetry' or 'Odd Symmetry' |
-| [`SubLaminate.thickness`](compolyx.SubLaminate.thickness.md#compolyx.SubLaminate.thickness)                | Thickness of the Sub Laminate                                                        |
-| [`SubLaminate.uid`](compolyx.SubLaminate.uid.md#compolyx.SubLaminate.uid)                                  | UID of the object                                                                        |
+| [`SubLaminate.symmetry`](compolyx.SubLaminate.symmetry.md#compolyx.SubLaminate.symmetry)                   | Symmetry of the Sub Laminate can be 'No Symmetry', 'Even Symmetry' or 'Odd Symmetry'. |
+| [`SubLaminate.thickness`](compolyx.SubLaminate.thickness.md#compolyx.SubLaminate.thickness)                | Thickness of the Sub Laminate.                                                        |
+| [`SubLaminate.uid`](compolyx.SubLaminate.uid.md#compolyx.SubLaminate.uid)                                  | UID of the object.                                                                        |
 | [`SubLaminate.vertex`](compolyx.SubLaminate.vertex.md#compolyx.SubLaminate.vertex)                         | Raises an error if the object has been removed from the graph.              |
 
 ### Methods

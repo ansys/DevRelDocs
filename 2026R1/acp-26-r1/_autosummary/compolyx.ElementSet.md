@@ -20,26 +20,26 @@ Element set class.
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| [`ElementSet.active`](compolyx.ElementSet.active.md#compolyx.ElementSet.active)                         | Active status of the object                                                            |
-| [`ElementSet.boundaries`](compolyx.ElementSet.boundaries.md#compolyx.ElementSet.boundaries)             | Returns the boundaries of the Element Set                                              |
+| [`ElementSet.active`](compolyx.ElementSet.active.md#compolyx.ElementSet.active)                         | Active status of the object.                                                            |
+| [`ElementSet.boundaries`](compolyx.ElementSet.boundaries.md#compolyx.ElementSet.boundaries)             | Returns the boundaries of the Element Set.                                              |
 | [`ElementSet.element_labels`](compolyx.ElementSet.element_labels.md#compolyx.ElementSet.element_labels) |                                                                                    |
 | [`ElementSet.enabled`](compolyx.ElementSet.enabled.md#compolyx.ElementSet.enabled)                      | Indicates whether the object is enabled.                                   |
-| [`ElementSet.id`](compolyx.ElementSet.id.md#compolyx.ElementSet.id)                                     | ID of the object                                                                       |
-| [`ElementSet.is_dict_item`](compolyx.ElementSet.is_dict_item.md#compolyx.ElementSet.is_dict_item)       | Indicates whether the object is an item in a dictionary                                   |
-| [`ElementSet.is_list_item`](compolyx.ElementSet.is_list_item.md#compolyx.ElementSet.is_list_item)       | Indicates whether the object is an item of a list                                   |
-| [`ElementSet.link_path`](compolyx.ElementSet.link_path.md#compolyx.ElementSet.link_path)                | Root path of the current node in the tree for links to this object                 |
+| [`ElementSet.id`](compolyx.ElementSet.id.md#compolyx.ElementSet.id)                                     | ID of the object.                                                                       |
+| [`ElementSet.is_dict_item`](compolyx.ElementSet.is_dict_item.md#compolyx.ElementSet.is_dict_item)       | Indicates whether the object is an item in a dictionary.                                   |
+| [`ElementSet.is_list_item`](compolyx.ElementSet.is_list_item.md#compolyx.ElementSet.is_list_item)       | Indicates whether the object is an item of a list.                                   |
+| [`ElementSet.link_path`](compolyx.ElementSet.link_path.md#compolyx.ElementSet.link_path)                | Root path of the current node in the tree for links to this object.                 |
 | [`ElementSet.locked`](compolyx.ElementSet.locked.md#compolyx.ElementSet.locked)                         | Element Set is imported and cannot be changed.                                     |
-| [`ElementSet.middle_offset`](compolyx.ElementSet.middle_offset.md#compolyx.ElementSet.middle_offset)    | Middle offset flag                                                                 |
-| [`ElementSet.name`](compolyx.ElementSet.name.md#compolyx.ElementSet.name)                               | Name of the object                                                                     |
-| [`ElementSet.normals`](compolyx.ElementSet.normals.md#compolyx.ElementSet.normals)                      | Returns the Normals of the Element Set                                                 |
-| [`ElementSet.orientable`](compolyx.ElementSet.orientable.md#compolyx.ElementSet.orientable)             | True if the Element Set has an orientable topology                                 |
-| [`ElementSet.parent`](compolyx.ElementSet.parent.md#compolyx.ElementSet.parent)                         | Parent object in the tree                                                              |
-| [`ElementSet.planar`](compolyx.ElementSet.planar.md#compolyx.ElementSet.planar)                         | True if the Element Set has a planar topology                                      |
-| [`ElementSet.root_path`](compolyx.ElementSet.root_path.md#compolyx.ElementSet.root_path)                | Root path of the current node in the tree                                          |
-| [`ElementSet.size`](compolyx.ElementSet.size.md#compolyx.ElementSet.size)                               | Number of entities                                                                 |
-| [`ElementSet.status`](compolyx.ElementSet.status.md#compolyx.ElementSet.status)                         | Status of the object                                                               |
+| [`ElementSet.middle_offset`](compolyx.ElementSet.middle_offset.md#compolyx.ElementSet.middle_offset)    | Middle offset flag.                                                                 |
+| [`ElementSet.name`](compolyx.ElementSet.name.md#compolyx.ElementSet.name)                               | Name of the object.                                                                     |
+| [`ElementSet.normals`](compolyx.ElementSet.normals.md#compolyx.ElementSet.normals)                      | Returns the Normals of the Element Set.                                                 |
+| [`ElementSet.orientable`](compolyx.ElementSet.orientable.md#compolyx.ElementSet.orientable)             | True if the Element Set has an orientable topology.                                 |
+| [`ElementSet.parent`](compolyx.ElementSet.parent.md#compolyx.ElementSet.parent)                         | Parent object in the tree.                                                              |
+| [`ElementSet.planar`](compolyx.ElementSet.planar.md#compolyx.ElementSet.planar)                         | True if the Element Set has a planar topology.                                      |
+| [`ElementSet.root_path`](compolyx.ElementSet.root_path.md#compolyx.ElementSet.root_path)                | Root path of the current node in the tree.                                          |
+| [`ElementSet.size`](compolyx.ElementSet.size.md#compolyx.ElementSet.size)                               | Number of entities.                                                                 |
+| [`ElementSet.status`](compolyx.ElementSet.status.md#compolyx.ElementSet.status)                         | Status of the object.                                                               |
 | [`ElementSet.status_changed`](compolyx.ElementSet.status_changed.md#compolyx.ElementSet.status_changed) | Boolean flag which is set to true in C++ when up-to-date status of object changes. |
-| [`ElementSet.uid`](compolyx.ElementSet.uid.md#compolyx.ElementSet.uid)                                  | UID of the object                                                                      |
+| [`ElementSet.uid`](compolyx.ElementSet.uid.md#compolyx.ElementSet.uid)                                  | UID of the object.                                                                      |
 | [`ElementSet.vertex`](compolyx.ElementSet.vertex.md#compolyx.ElementSet.vertex)                         | Raises an error if the object has been removed from the graph.            |
 
 ### Methods

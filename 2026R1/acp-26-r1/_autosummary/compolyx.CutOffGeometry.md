@@ -10,21 +10,21 @@ CutOffGeometry guide class
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| [`CutOffGeometry.active`](compolyx.CutOffGeometry.active.md#compolyx.CutOffGeometry.active)                                        | Cut-Off Geometry active                                                            |
+| [`CutOffGeometry.active`](compolyx.CutOffGeometry.active.md#compolyx.CutOffGeometry.active)                                        | Cut-Off Geometry active.                                                            |
 | [`CutOffGeometry.cad_geometry`](compolyx.CutOffGeometry.cad_geometry.md#compolyx.CutOffGeometry.cad_geometry)                      | Associated CADGeometry.                                                            |
 | [`CutOffGeometry.enabled`](compolyx.CutOffGeometry.enabled.md#compolyx.CutOffGeometry.enabled)                                     | Indicates whether the object is enabled.                                   |
-| [`CutOffGeometry.id`](compolyx.CutOffGeometry.id.md#compolyx.CutOffGeometry.id)                                                    | ID of the object                                                                       |
-| [`CutOffGeometry.is_dict_item`](compolyx.CutOffGeometry.is_dict_item.md#compolyx.CutOffGeometry.is_dict_item)                      | Indicates whether the object is an item in a dictionary                                   |
-| [`CutOffGeometry.is_list_item`](compolyx.CutOffGeometry.is_list_item.md#compolyx.CutOffGeometry.is_list_item)                      | Indicates whether the object is an item of a list                                   |
-| [`CutOffGeometry.link_path`](compolyx.CutOffGeometry.link_path.md#compolyx.CutOffGeometry.link_path)                               | Root path of the current node in the tree for links to this object                 |
-| [`CutOffGeometry.name`](compolyx.CutOffGeometry.name.md#compolyx.CutOffGeometry.name)                                              | Name of the object                                                                     |
+| [`CutOffGeometry.id`](compolyx.CutOffGeometry.id.md#compolyx.CutOffGeometry.id)                                                    | ID of the object.                                                                       |
+| [`CutOffGeometry.is_dict_item`](compolyx.CutOffGeometry.is_dict_item.md#compolyx.CutOffGeometry.is_dict_item)                      | Indicates whether the object is an item in a dictionary.                                   |
+| [`CutOffGeometry.is_list_item`](compolyx.CutOffGeometry.is_list_item.md#compolyx.CutOffGeometry.is_list_item)                      | Indicates whether the object is an item of a list.                                   |
+| [`CutOffGeometry.link_path`](compolyx.CutOffGeometry.link_path.md#compolyx.CutOffGeometry.link_path)                               | Root path of the current node in the tree for links to this object.                 |
+| [`CutOffGeometry.name`](compolyx.CutOffGeometry.name.md#compolyx.CutOffGeometry.name)                                              | Name of the object.                                                                     |
 | [`CutOffGeometry.orientation`](compolyx.CutOffGeometry.orientation.md#compolyx.CutOffGeometry.orientation)                         | Orientation.                                                                       |
-| [`CutOffGeometry.parent`](compolyx.CutOffGeometry.parent.md#compolyx.CutOffGeometry.parent)                                        | Parent object in the tree                                                              |
-| [`CutOffGeometry.rel_merge_tolerance`](compolyx.CutOffGeometry.rel_merge_tolerance.md#compolyx.CutOffGeometry.rel_merge_tolerance) | Relative Merge Tolerance                                                           |
-| [`CutOffGeometry.root_path`](compolyx.CutOffGeometry.root_path.md#compolyx.CutOffGeometry.root_path)                               | Root path of the current node in the tree                                          |
-| [`CutOffGeometry.status`](compolyx.CutOffGeometry.status.md#compolyx.CutOffGeometry.status)                                        | Status of the object                                                               |
+| [`CutOffGeometry.parent`](compolyx.CutOffGeometry.parent.md#compolyx.CutOffGeometry.parent)                                        | Parent object in the tree.                                                              |
+| [`CutOffGeometry.rel_merge_tolerance`](compolyx.CutOffGeometry.rel_merge_tolerance.md#compolyx.CutOffGeometry.rel_merge_tolerance) | Relative Merge Tolerance.                                                           |
+| [`CutOffGeometry.root_path`](compolyx.CutOffGeometry.root_path.md#compolyx.CutOffGeometry.root_path)                               | Root path of the current node in the tree.                                          |
+| [`CutOffGeometry.status`](compolyx.CutOffGeometry.status.md#compolyx.CutOffGeometry.status)                                        | Status of the object.                                                               |
 | [`CutOffGeometry.status_changed`](compolyx.CutOffGeometry.status_changed.md#compolyx.CutOffGeometry.status_changed)                | Boolean flag which is set to true in C++ when up-to-date status of object changes. |
-| [`CutOffGeometry.uid`](compolyx.CutOffGeometry.uid.md#compolyx.CutOffGeometry.uid)                                                 | UID of the object                                                                      |
+| [`CutOffGeometry.uid`](compolyx.CutOffGeometry.uid.md#compolyx.CutOffGeometry.uid)                                                 | UID of the object.                                                                      |
 | [`CutOffGeometry.vertex`](compolyx.CutOffGeometry.vertex.md#compolyx.CutOffGeometry.vertex)                                        | Raises an error if the object has been removed from the graph.            |
 
 ### Methods

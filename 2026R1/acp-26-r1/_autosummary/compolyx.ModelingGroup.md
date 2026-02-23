@@ -28,20 +28,20 @@ Creation:
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| [`ModelingGroup.active`](compolyx.ModelingGroup.active.md#compolyx.ModelingGroup.active)                         | Active status of the object                                                            |
+| [`ModelingGroup.active`](compolyx.ModelingGroup.active.md#compolyx.ModelingGroup.active)                         | Active status of the object.                                                            |
 | [`ModelingGroup.enabled`](compolyx.ModelingGroup.enabled.md#compolyx.ModelingGroup.enabled)                      | Indicates whether the object is enabled.                                   |
-| [`ModelingGroup.id`](compolyx.ModelingGroup.id.md#compolyx.ModelingGroup.id)                                     | ID of the object                                                                       |
-| [`ModelingGroup.is_dict_item`](compolyx.ModelingGroup.is_dict_item.md#compolyx.ModelingGroup.is_dict_item)       | Indicates whether the object is an item in a dictionary                                   |
-| [`ModelingGroup.is_list_item`](compolyx.ModelingGroup.is_list_item.md#compolyx.ModelingGroup.is_list_item)       | Indicates whether the object is an item of a list                                   |
-| [`ModelingGroup.link_path`](compolyx.ModelingGroup.link_path.md#compolyx.ModelingGroup.link_path)                | Root path of the current node in the tree for links to this object                 |
-| [`ModelingGroup.name`](compolyx.ModelingGroup.name.md#compolyx.ModelingGroup.name)                               | Name of the object                                                                     |
-| [`ModelingGroup.parent`](compolyx.ModelingGroup.parent.md#compolyx.ModelingGroup.parent)                         | Parent object in the tree                                                              |
-| [`ModelingGroup.plies`](compolyx.ModelingGroup.plies.md#compolyx.ModelingGroup.plies)                            | Modeling Plies of the Modeling Group                                               |
-| [`ModelingGroup.root_path`](compolyx.ModelingGroup.root_path.md#compolyx.ModelingGroup.root_path)                | Root path of the current node in the tree                                          |
-| [`ModelingGroup.size`](compolyx.ModelingGroup.size.md#compolyx.ModelingGroup.size)                               | Number of entities                                                                 |
-| [`ModelingGroup.status`](compolyx.ModelingGroup.status.md#compolyx.ModelingGroup.status)                         | Status of the object                                                               |
+| [`ModelingGroup.id`](compolyx.ModelingGroup.id.md#compolyx.ModelingGroup.id)                                     | ID of the object.                                                                       |
+| [`ModelingGroup.is_dict_item`](compolyx.ModelingGroup.is_dict_item.md#compolyx.ModelingGroup.is_dict_item)       | Indicates whether the object is an item in a dictionary.                                   |
+| [`ModelingGroup.is_list_item`](compolyx.ModelingGroup.is_list_item.md#compolyx.ModelingGroup.is_list_item)       | Indicates whether the object is an item of a list.                                   |
+| [`ModelingGroup.link_path`](compolyx.ModelingGroup.link_path.md#compolyx.ModelingGroup.link_path)                | Root path of the current node in the tree for links to this object.                 |
+| [`ModelingGroup.name`](compolyx.ModelingGroup.name.md#compolyx.ModelingGroup.name)                               | Name of the object.                                                                     |
+| [`ModelingGroup.parent`](compolyx.ModelingGroup.parent.md#compolyx.ModelingGroup.parent)                         | Parent object in the tree.                                                              |
+| [`ModelingGroup.plies`](compolyx.ModelingGroup.plies.md#compolyx.ModelingGroup.plies)                            | Modeling Plies of the Modeling Group.                                               |
+| [`ModelingGroup.root_path`](compolyx.ModelingGroup.root_path.md#compolyx.ModelingGroup.root_path)                | Root path of the current node in the tree.                                          |
+| [`ModelingGroup.size`](compolyx.ModelingGroup.size.md#compolyx.ModelingGroup.size)                               | Number of entities.                                                                 |
+| [`ModelingGroup.status`](compolyx.ModelingGroup.status.md#compolyx.ModelingGroup.status)                         | Status of the object.                                                               |
 | [`ModelingGroup.status_changed`](compolyx.ModelingGroup.status_changed.md#compolyx.ModelingGroup.status_changed) | Boolean flag which is set to true in C++ when up-to-date status of object changes. |
-| [`ModelingGroup.uid`](compolyx.ModelingGroup.uid.md#compolyx.ModelingGroup.uid)                                  | UID of the object                                                                      |
+| [`ModelingGroup.uid`](compolyx.ModelingGroup.uid.md#compolyx.ModelingGroup.uid)                                  | UID of the object.                                                                      |
 | [`ModelingGroup.vertex`](compolyx.ModelingGroup.vertex.md#compolyx.ModelingGroup.vertex)                         | Raises an error if the object has been removed from the graph.            |
 
 ### Methods

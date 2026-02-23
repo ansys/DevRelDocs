@@ -35,5 +35,5 @@ This class wraps GIL-functionality and adds Python-UI utilities to all material 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------|------------------------------------------|
 | [`PropertySet.get`](compolyx.PropertySet.get.md#compolyx.PropertySet.get)([variables])                          | Get raw PropertySet data.                |
-| [`PropertySet.query`](compolyx.PropertySet.query.md#compolyx.PropertySet.query)([variables, environment_point]) | Query PropertySet data                   |
+| [`PropertySet.query`](compolyx.PropertySet.query.md#compolyx.PropertySet.query)([variables, environment_point]) | Query PropertySet data.                   |
 | [`PropertySet.set`](compolyx.PropertySet.set.md#compolyx.PropertySet.set)([props])                              | Set constant and variable material data. |

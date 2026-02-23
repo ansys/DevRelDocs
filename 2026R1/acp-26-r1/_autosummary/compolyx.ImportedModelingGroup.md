@@ -8,20 +8,20 @@
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| [`ImportedModelingGroup.active`](compolyx.ImportedModelingGroup.active.md#compolyx.ImportedModelingGroup.active)                         | Active status of the object                                                            |
+| [`ImportedModelingGroup.active`](compolyx.ImportedModelingGroup.active.md#compolyx.ImportedModelingGroup.active)                         | Active status of the object.                                                            |
 | [`ImportedModelingGroup.enabled`](compolyx.ImportedModelingGroup.enabled.md#compolyx.ImportedModelingGroup.enabled)                      | Indicates whether the object is enabled.                                   |
-| [`ImportedModelingGroup.id`](compolyx.ImportedModelingGroup.id.md#compolyx.ImportedModelingGroup.id)                                     | ID of the object                                                                       |
-| [`ImportedModelingGroup.is_dict_item`](compolyx.ImportedModelingGroup.is_dict_item.md#compolyx.ImportedModelingGroup.is_dict_item)       | Indicates whether the object is an item in a dictionary                                   |
-| [`ImportedModelingGroup.is_list_item`](compolyx.ImportedModelingGroup.is_list_item.md#compolyx.ImportedModelingGroup.is_list_item)       | Indicates whether the object is an item of a list                                   |
-| [`ImportedModelingGroup.link_path`](compolyx.ImportedModelingGroup.link_path.md#compolyx.ImportedModelingGroup.link_path)                | Root path of the current node in the tree for links to this object                 |
-| [`ImportedModelingGroup.name`](compolyx.ImportedModelingGroup.name.md#compolyx.ImportedModelingGroup.name)                               | Name of the object                                                                     |
-| [`ImportedModelingGroup.parent`](compolyx.ImportedModelingGroup.parent.md#compolyx.ImportedModelingGroup.parent)                         | Parent object in the tree                                                              |
-| [`ImportedModelingGroup.plies`](compolyx.ImportedModelingGroup.plies.md#compolyx.ImportedModelingGroup.plies)                            | Modeling Plies of the Modeling Group                                               |
-| [`ImportedModelingGroup.root_path`](compolyx.ImportedModelingGroup.root_path.md#compolyx.ImportedModelingGroup.root_path)                | Root path of the current node in the tree                                          |
-| [`ImportedModelingGroup.size`](compolyx.ImportedModelingGroup.size.md#compolyx.ImportedModelingGroup.size)                               | Number of entities                                                                 |
-| [`ImportedModelingGroup.status`](compolyx.ImportedModelingGroup.status.md#compolyx.ImportedModelingGroup.status)                         | Status of the object                                                               |
+| [`ImportedModelingGroup.id`](compolyx.ImportedModelingGroup.id.md#compolyx.ImportedModelingGroup.id)                                     | ID of the object.                                                                       |
+| [`ImportedModelingGroup.is_dict_item`](compolyx.ImportedModelingGroup.is_dict_item.md#compolyx.ImportedModelingGroup.is_dict_item)       | Indicates whether the object is an item in a dictionary.                                   |
+| [`ImportedModelingGroup.is_list_item`](compolyx.ImportedModelingGroup.is_list_item.md#compolyx.ImportedModelingGroup.is_list_item)       | Indicates whether the object is an item of a list.                                   |
+| [`ImportedModelingGroup.link_path`](compolyx.ImportedModelingGroup.link_path.md#compolyx.ImportedModelingGroup.link_path)                | Root path of the current node in the tree for links to this object.                 |
+| [`ImportedModelingGroup.name`](compolyx.ImportedModelingGroup.name.md#compolyx.ImportedModelingGroup.name)                               | Name of the object.                                                                     |
+| [`ImportedModelingGroup.parent`](compolyx.ImportedModelingGroup.parent.md#compolyx.ImportedModelingGroup.parent)                         | Parent object in the tree.                                                              |
+| [`ImportedModelingGroup.plies`](compolyx.ImportedModelingGroup.plies.md#compolyx.ImportedModelingGroup.plies)                            | Modeling Plies of the Modeling Group.                                               |
+| [`ImportedModelingGroup.root_path`](compolyx.ImportedModelingGroup.root_path.md#compolyx.ImportedModelingGroup.root_path)                | Root path of the current node in the tree.                                          |
+| [`ImportedModelingGroup.size`](compolyx.ImportedModelingGroup.size.md#compolyx.ImportedModelingGroup.size)                               | Number of entities.                                                                 |
+| [`ImportedModelingGroup.status`](compolyx.ImportedModelingGroup.status.md#compolyx.ImportedModelingGroup.status)                         | Status of the object.                                                               |
 | [`ImportedModelingGroup.status_changed`](compolyx.ImportedModelingGroup.status_changed.md#compolyx.ImportedModelingGroup.status_changed) | Boolean flag which is set to true in C++ when up-to-date status of object changes. |
-| [`ImportedModelingGroup.uid`](compolyx.ImportedModelingGroup.uid.md#compolyx.ImportedModelingGroup.uid)                                  | UID of the object                                                                      |
+| [`ImportedModelingGroup.uid`](compolyx.ImportedModelingGroup.uid.md#compolyx.ImportedModelingGroup.uid)                                  | UID of the object.                                                                      |
 | [`ImportedModelingGroup.vertex`](compolyx.ImportedModelingGroup.vertex.md#compolyx.ImportedModelingGroup.vertex)                         | Raises an error if the object has been removed from the graph.            |
 
 ### Methods

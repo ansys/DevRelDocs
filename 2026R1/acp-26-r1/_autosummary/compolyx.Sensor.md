@@ -11,27 +11,27 @@ Sensor object for meassuring areas, prices, weights, and centers of gravity.
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | [`Sensor.active`](compolyx.Sensor.active.md#compolyx.Sensor.active)                                        | Whether the sensor is computed on update or not.                                   |
-| [`Sensor.area`](compolyx.Sensor.area.md#compolyx.Sensor.area)                                              | Area covered by all Entities of the Sensor                                         |
-| [`Sensor.center_of_gravity`](compolyx.Sensor.center_of_gravity.md#compolyx.Sensor.center_of_gravity)       | Center of Gravity over all Entities of the Sensor                                  |
+| [`Sensor.area`](compolyx.Sensor.area.md#compolyx.Sensor.area)                                              | Area covered by all Entities of the Sensor.                                         |
+| [`Sensor.center_of_gravity`](compolyx.Sensor.center_of_gravity.md#compolyx.Sensor.center_of_gravity)       | Center of Gravity over all Entities of the Sensor.                                  |
 | [`Sensor.enabled`](compolyx.Sensor.enabled.md#compolyx.Sensor.enabled)                                     | Indicates whether the object is enabled.                                   |
-| [`Sensor.entities`](compolyx.Sensor.entities.md#compolyx.Sensor.entities)                                  | Entities of the Sensor                                                             |
-| [`Sensor.id`](compolyx.Sensor.id.md#compolyx.Sensor.id)                                                    | ID of the object                                                                       |
-| [`Sensor.is_dict_item`](compolyx.Sensor.is_dict_item.md#compolyx.Sensor.is_dict_item)                      | Indicates whether the object is an item in a dictionary                                   |
-| [`Sensor.is_list_item`](compolyx.Sensor.is_list_item.md#compolyx.Sensor.is_list_item)                      | Indicates whether the object is an item of a list                                   |
-| [`Sensor.link_path`](compolyx.Sensor.link_path.md#compolyx.Sensor.link_path)                               | Root path of the current node in the tree for links to this object                 |
+| [`Sensor.entities`](compolyx.Sensor.entities.md#compolyx.Sensor.entities)                                  | Entities of the Sensor.                                                             |
+| [`Sensor.id`](compolyx.Sensor.id.md#compolyx.Sensor.id)                                                    | ID of the object.                                                                       |
+| [`Sensor.is_dict_item`](compolyx.Sensor.is_dict_item.md#compolyx.Sensor.is_dict_item)                      | Indicates whether the object is an item in a dictionary.                                   |
+| [`Sensor.is_list_item`](compolyx.Sensor.is_list_item.md#compolyx.Sensor.is_list_item)                      | Indicates whether the object is an item of a list.                                   |
+| [`Sensor.link_path`](compolyx.Sensor.link_path.md#compolyx.Sensor.link_path)                               | Root path of the current node in the tree for links to this object.                 |
 | [`Sensor.locked`](compolyx.Sensor.locked.md#compolyx.Sensor.locked)                                        | Sensor cut was imported and cannot be changed.                                     |
-| [`Sensor.modeling_ply_area`](compolyx.Sensor.modeling_ply_area.md#compolyx.Sensor.modeling_ply_area)       | Cumulated area of all modeling-plies involved                                      |
-| [`Sensor.name`](compolyx.Sensor.name.md#compolyx.Sensor.name)                                              | Name of the object                                                                     |
-| [`Sensor.parent`](compolyx.Sensor.parent.md#compolyx.Sensor.parent)                                        | Parent object in the tree                                                              |
-| [`Sensor.price`](compolyx.Sensor.price.md#compolyx.Sensor.price)                                           | Price over all Entities of the Sensor                                              |
-| [`Sensor.production_ply_area`](compolyx.Sensor.production_ply_area.md#compolyx.Sensor.production_ply_area) | Cumulated area of all production-plies involved                                    |
-| [`Sensor.root_path`](compolyx.Sensor.root_path.md#compolyx.Sensor.root_path)                               | Root path of the current node in the tree                                          |
+| [`Sensor.modeling_ply_area`](compolyx.Sensor.modeling_ply_area.md#compolyx.Sensor.modeling_ply_area)       | Cumulated area of all modeling-plies involved.                                      |
+| [`Sensor.name`](compolyx.Sensor.name.md#compolyx.Sensor.name)                                              | Name of the object.                                                                     |
+| [`Sensor.parent`](compolyx.Sensor.parent.md#compolyx.Sensor.parent)                                        | Parent object in the tree.                                                              |
+| [`Sensor.price`](compolyx.Sensor.price.md#compolyx.Sensor.price)                                           | Price over all Entities of the Sensor.                                              |
+| [`Sensor.production_ply_area`](compolyx.Sensor.production_ply_area.md#compolyx.Sensor.production_ply_area) | Cumulated area of all production-plies involved.                                    |
+| [`Sensor.root_path`](compolyx.Sensor.root_path.md#compolyx.Sensor.root_path)                               | Root path of the current node in the tree.                                          |
 | [`Sensor.sensor_type`](compolyx.Sensor.sensor_type.md#compolyx.Sensor.sensor_type)                         | Sensor type.                                                                       |
-| [`Sensor.status`](compolyx.Sensor.status.md#compolyx.Sensor.status)                                        | Status of the object                                                               |
+| [`Sensor.status`](compolyx.Sensor.status.md#compolyx.Sensor.status)                                        | Status of the object.                                                               |
 | [`Sensor.status_changed`](compolyx.Sensor.status_changed.md#compolyx.Sensor.status_changed)                | Boolean flag which is set to true in C++ when up-to-date status of object changes. |
-| [`Sensor.uid`](compolyx.Sensor.uid.md#compolyx.Sensor.uid)                                                 | UID of the object                                                                      |
+| [`Sensor.uid`](compolyx.Sensor.uid.md#compolyx.Sensor.uid)                                                 | UID of the object.                                                                      |
 | [`Sensor.vertex`](compolyx.Sensor.vertex.md#compolyx.Sensor.vertex)                                        | Raises an error if the object has been removed from the graph.            |
-| [`Sensor.weight`](compolyx.Sensor.weight.md#compolyx.Sensor.weight)                                        | Weight over all Entities of the Sensor                                             |
+| [`Sensor.weight`](compolyx.Sensor.weight.md#compolyx.Sensor.weight)                                        | Weight over all Entities of the Sensor.                                             |
 
 ### Methods
 

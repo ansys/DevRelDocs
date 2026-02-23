@@ -10,23 +10,23 @@ Represents a CADShell.
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| [`CADShell.active`](compolyx.CADShell.active.md#compolyx.CADShell.active)                         | Active status of the object                                                            |
+| [`CADShell.active`](compolyx.CADShell.active.md#compolyx.CADShell.active)                         | Active status of the object.                                                            |
 | [`CADShell.enabled`](compolyx.CADShell.enabled.md#compolyx.CADShell.enabled)                      | Indicates whether the object is enabled.                                   |
-| [`CADShell.id`](compolyx.CADShell.id.md#compolyx.CADShell.id)                                     | ID of the object                                                                       |
-| [`CADShell.is_dict_item`](compolyx.CADShell.is_dict_item.md#compolyx.CADShell.is_dict_item)       | Indicates whether the object is an item in a dictionary                                   |
+| [`CADShell.id`](compolyx.CADShell.id.md#compolyx.CADShell.id)                                     | ID of the object.                                                                       |
+| [`CADShell.is_dict_item`](compolyx.CADShell.is_dict_item.md#compolyx.CADShell.is_dict_item)       | Indicates whether the object is an item in a dictionary.                                   |
 | [`CADShell.is_free`](compolyx.CADShell.is_free.md#compolyx.CADShell.is_free)                      | Boolean that indicates whether the shape is free..                                          |
-| [`CADShell.is_list_item`](compolyx.CADShell.is_list_item.md#compolyx.CADShell.is_list_item)       | Indicates whether the object is an item of a list                                   |
-| [`CADShell.link_path`](compolyx.CADShell.link_path.md#compolyx.CADShell.link_path)                | Root path of the current node in the tree for links to this object                 |
-| [`CADShell.locked`](compolyx.CADShell.locked.md#compolyx.CADShell.locked)                         | Locked status of the CAD Component                                                 |
-| [`CADShell.map_index`](compolyx.CADShell.map_index.md#compolyx.CADShell.map_index)                | Map index of the shape                                                             |
-| [`CADShell.name`](compolyx.CADShell.name.md#compolyx.CADShell.name)                               | Name of the object                                                                     |
-| [`CADShell.parent`](compolyx.CADShell.parent.md#compolyx.CADShell.parent)                         | Parent object in the tree                                                              |
+| [`CADShell.is_list_item`](compolyx.CADShell.is_list_item.md#compolyx.CADShell.is_list_item)       | Indicates whether the object is an item of a list.                                   |
+| [`CADShell.link_path`](compolyx.CADShell.link_path.md#compolyx.CADShell.link_path)                | Root path of the current node in the tree for links to this object.                 |
+| [`CADShell.locked`](compolyx.CADShell.locked.md#compolyx.CADShell.locked)                         | Locked status of the CAD Component.                                                 |
+| [`CADShell.map_index`](compolyx.CADShell.map_index.md#compolyx.CADShell.map_index)                | Map index of the shape.                                                             |
+| [`CADShell.name`](compolyx.CADShell.name.md#compolyx.CADShell.name)                               | Name of the object.                                                                     |
+| [`CADShell.parent`](compolyx.CADShell.parent.md#compolyx.CADShell.parent)                         | Parent object in the tree.                                                              |
 | [`CADShell.path`](compolyx.CADShell.path.md#compolyx.CADShell.path)                               | Returns the topology path of the CAD component.                                         |
-| [`CADShell.root_path`](compolyx.CADShell.root_path.md#compolyx.CADShell.root_path)                | Root path of the current node in the tree                                          |
-| [`CADShell.status`](compolyx.CADShell.status.md#compolyx.CADShell.status)                         | Status of the object                                                               |
+| [`CADShell.root_path`](compolyx.CADShell.root_path.md#compolyx.CADShell.root_path)                | Root path of the current node in the tree.                                          |
+| [`CADShell.status`](compolyx.CADShell.status.md#compolyx.CADShell.status)                         | Status of the object.                                                               |
 | [`CADShell.status_changed`](compolyx.CADShell.status_changed.md#compolyx.CADShell.status_changed) | Boolean flag which is set to true in C++ when up-to-date status of object changes. |
 | [`CADShell.sub_shapes`](compolyx.CADShell.sub_shapes.md#compolyx.CADShell.sub_shapes)             | Sub faces of the CAD shell.                                                        |
-| [`CADShell.uid`](compolyx.CADShell.uid.md#compolyx.CADShell.uid)                                  | UID of the object                                                                      |
+| [`CADShell.uid`](compolyx.CADShell.uid.md#compolyx.CADShell.uid)                                  | UID of the object.                                                                      |
 | [`CADShell.vertex`](compolyx.CADShell.vertex.md#compolyx.CADShell.vertex)                         | Raises an error if the object has been removed from the graph.            |
 
 ### Methods
