@@ -30,7 +30,10 @@ To nest a TOC within another TOC, set the href property to point to the ```toc.y
 
 ## Metadata
 ### Mandatory metadata
-The mandatory [```docfx.json```](https://dotnet.github.io/docfx/docs/config.html#metadata) file is the configuration file for the entire documentation package. For global metadata, i.e. metadata attributes that are consistent across the set of content, use the ```globalMetadata``` property in ```docfx.json``` to apply the same metadata to all MarkDown pages. See below for allowed and supported key/value pairs. In particular, ```title```, ```summary```, and ```version``` must be present.
+The mandatory [```docfx.json```](https://dotnet.github.io/docfx/docs/config.html#metadata) file is the configuration file for the entire documentation package. For global metadata, i.e. metadata attributes that are consistent across the set of content, use the ```globalMetadata``` property in ```docfx.json``` to apply the same metadata to all MarkDown pages. See below for allowed and supported key/value pairs. In particular, ```title```, ```summary```, and ```version``` must be present. 
+
+For REST APIs, ```"restapi": "true"``` must also be present. If the restapi flag is not set to true or missing, a MarkDown migration is assumed. In addition for REST APIs, ```physics``` and ```product``` tags are also mandatory. Also note the required directory structure below.
+
 A minimal ```docfx.json``` file:
 ```
 {
@@ -39,6 +42,7 @@ A minimal ```docfx.json``` file:
       "title": "My Title",
       "summary": "a text summary goes here",
       "version": "Version_string",
+      "restapi": "true/false",
     }
   }
 }
@@ -68,6 +72,9 @@ programming language: term(s)
 physics: term(s)
 –––
 ```
+## REST API content structure (for now, will change in the future)
+The API specification always lives in the main directory. The API Description MarkDown file is inside a description subdirectory. The Chnagelog MarkDown file is inside a changelog subdirectory. This ensures proper data mapping and tab order. Also note the required metadata above.
+
 ### Supported metadata keys in the global docjs.json and individual MarkDown frontmatter
 #### title (required in docfx.json)
 The title for the content. If not provided will be derived from the first found H1 MarkDown heading.
