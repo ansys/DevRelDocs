@@ -4,4 +4,4 @@
 
 #### AnalysisPly.obj_exists()
 
-True if \_\_obj references the C++ object (i.e. has not been reset to None by `self._delete`) and still exists in the graph 
+True if \_\_obj references the C++ object (i.e. has not been reset to None by `self._delete`) and still exists in the graph.

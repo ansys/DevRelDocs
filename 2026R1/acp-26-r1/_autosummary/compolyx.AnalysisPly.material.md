@@ -4,4 +4,4 @@
 
 #### *property* AnalysisPly.material
 
-Material assigned to the analysis ply
+Material assigned to the analysis ply.

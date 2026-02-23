@@ -4,4 +4,4 @@
 
 #### *property* AnalysisPly.status_changed
 
-True (boolean) when the C++ layer updates the object’s status
+True (boolean) when the C++ layer updates the object’s status.

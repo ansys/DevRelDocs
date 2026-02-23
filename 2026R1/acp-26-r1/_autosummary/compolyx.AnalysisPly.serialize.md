@@ -4,4 +4,4 @@
 
 #### AnalysisPly.serialize()
 
-erializes the object     
+erializes the object.

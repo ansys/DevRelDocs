@@ -4,7 +4,7 @@
 
 #### AnalysisPly.write_boundaries(filename, format=None, offset_type='no_offset', with_direction_arrows=False, arrow_length=None, arrow_type='standard_arrow')
 
-Writes boundaries in IGES/STEP format  
+Writes boundaries in IGES/STEP format.
 
 * **Parameters:**
   - filename: Output file.
