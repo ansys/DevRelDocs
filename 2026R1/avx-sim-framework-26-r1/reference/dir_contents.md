@@ -4,6 +4,8 @@
   * [cli](dir_e2eb8e450ccbd2c34a9553a09bc9e3c4.md#dir_e2eb8e450ccbd2c34a9553a09bc9e3c4)
     * [cli_provider](dir_bddad0293b39a25854791189aec5114a.md#dir_bddad0293b39a25854791189aec5114a)
   * [communication](dir_66b2c59343c3c2cfb2f0e96d3bd45b6f.md#dir_66b2c59343c3c2cfb2f0e96d3bd45b6f)
+    * [messages](dir_21f17c8d157f579f3dd39842ef4d2b29.md#dir_21f17c8d157f579f3dd39842ef4d2b29)
+      * [vehicle_control_input_msg](dir_895c25a5e1dcf4d49664decd11986170.md#dir_895c25a5e1dcf4d49664decd11986170)
     * [topic_registry](dir_cdc3077048e919c89975214ef7541aa3.md#dir_cdc3077048e919c89975214ef7541aa3)
     * [utils](dir_3b310f94ed32c1bdfdb5f637d261db80.md#dir_3b310f94ed32c1bdfdb5f637d261db80)
   * [evaluator](dir_487e7b49de963d23ebb8a14c1589bc0e.md#dir_487e7b49de963d23ebb8a14c1589bc0e)
