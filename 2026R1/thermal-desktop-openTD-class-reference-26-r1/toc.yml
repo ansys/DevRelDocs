@@ -818,7 +818,7 @@
         href: net4-reference/OpenTD.Results.Dataset.ItemIdentifierCollection.md
       - name: "MaxDataArray"
         href: net4-reference/OpenTD.Results.Dataset.MaxDataArray.md
-      - name: MinDataArray
+      - name: "MinDataArray"
         href: net4-reference/OpenTD.Results.Dataset.MinDataArray.md
       - name: "NodeConductorHeatrates"
         href: net4-reference/OpenTD.Results.Dataset.NodeConductorHeatrates.md
