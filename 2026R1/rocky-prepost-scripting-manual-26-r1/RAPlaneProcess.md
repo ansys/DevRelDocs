@@ -13,78 +13,78 @@ generally aren't instantiated by the user). -->
 
 **Methods:**
 
-| Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [`AddCurve`](#generated.RAPlaneProcess.AddCurve)(curve_name, timesteps, values, unit)                                   | Add a curve to the element with a time-steps domain                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| [`AddCustomCurve`](#generated.RAPlaneProcess.AddCustomCurve)(name[, curve_type, ...])                                   | Add a custom curve in the database. :param name:     The name of the curve to be set. :param curve_type:     The type of the custom curve to be added. :param output_unit:     The output unit, in which case the unit database will be queried for a quantity that makes sense. If None, the quantity is considered unknown. :param scope:     The scope to be set. :param sources:     A dict pointing the variable used to the curve association it represents and a     string indicating in which unit the input data should be gotten. :param expression:     The expression to be set. |
-| [`AddCustomProperty`](#generated.RAPlaneProcess.AddCustomProperty)(name[, property_type, ...])                          | Add a custom property to the database                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| [`AddGridFunction`](#generated.RAPlaneProcess.AddGridFunction)(grid_function_name, ...[, ...])                          | Adds a grid function to the grid.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| [`CreateCurveOutputVariable`](#generated.RAPlaneProcess.CreateCurveOutputVariable)(curve_name[, ...])                   | Used to create an output variable based on a curve which doesn't change at each new timestep (i.e.: a curve with a single value for each time).                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| [`CreateGridFunction`](#generated.RAPlaneProcess.CreateGridFunction)(values[, location, time_step])                     | Create a grid function from the given values, location and time-step.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| [`CreateGridFunctionArrayOnCells`](#generated.RAPlaneProcess.CreateGridFunctionArrayOnCells)([time_step])               | Creates a numpy array with the number of elements based on the cells and returns it.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| [`CreateGridFunctionStatisticOutputVariable`](#generated.RAPlaneProcess.CreateGridFunctionStatisticOutputVariable)(...) | Used to create an output variable based on a grid function statistic (i.e.: will get a grid function, compute its statistic based on statistic_operation and then based on the statistic values will apply the operation to get a single scalar).                                                                                                                                                                                                                                                                                                                                             |
-| [`CreateTransientCurveOutputVariable`](#generated.RAPlaneProcess.CreateTransientCurveOutputVariable)(curve_name)        | Used to create an output variable based on a curve for which there's a completely new representation for each time step -- such as Power : Impact X Belt Width (i.e.: will get the curve multiple times based on the time range, compute a value for each time based on the operation, to convert the multiple curves into a single curve and then will apply the time_operation to get a single scalar from those values).                                                                                                                                                                   |
-| [`EditCustomCurve`](#generated.RAPlaneProcess.EditCustomCurve)(edit_curve[, new_name, ...])                             | Edit a custom curve saved in the database. :param edit_curve:     The name of the curve to be edited. :param new_name:     The new name of the curve to be set. :param sources:     A dict pointing the variable used to the curve association it represents and a     string indicating in which unit the input data should be gotten. :param expression:     The expression to be set.                                                                                                                                                                                                      |
-| [`EditCustomProperty`](#generated.RAPlaneProcess.EditCustomProperty)(edit_property[, ...])                              | Edit a custom property saved in the database. :param edit_property:     The name of the property to be edited. :param new_name:     The new name of the property to be set. :param sources:     A dict pointing the variable used to the property association it represents and a     string indicating in which unit the input data should be gotten. :param expression:     The expression to be set.                                                                                                                                                                                       |
-| [`GetActivesArray`](#generated.RAPlaneProcess.GetActivesArray)([time_step])                                             | Get an array representing the cells' "active" status.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| [`GetBoundingBox`](#generated.RAPlaneProcess.GetBoundingBox)([unit, time_step])                                         | Get the element's bounding box.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| [`GetCellAreaAsArray`](#generated.RAPlaneProcess.GetCellAreaAsArray)([time_step])                                       | Get an array containing the area of each cell.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| [`GetCellCenterAsArray`](#generated.RAPlaneProcess.GetCellCenterAsArray)([time_step])                                   | Get an array containing the center coordinates of each cell.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| [`GetCellDzAsArray`](#generated.RAPlaneProcess.GetCellDzAsArray)([time_step])                                           | Get an array containing the thickness (in Z) of each cell.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| [`GetCellFromIJK`](#generated.RAPlaneProcess.GetCellFromIJK)(i, j, k[, time_step])                                      | Creates a grid cell handle from the current I, J, K indexes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| [`GetCellIJK`](#generated.RAPlaneProcess.GetCellIJK)(cell_handle[, time_step])                                          | Converts the given cell handle to it's I, J, K indexes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| [`GetCellNumberOfVertices`](#generated.RAPlaneProcess.GetCellNumberOfVertices)(cell[, time_step])                       | Get an array containing the number of vertices of each cell.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| [`GetCellPointsAsFunction`](#generated.RAPlaneProcess.GetCellPointsAsFunction)([time_step])                             | Get a function for the points (vertices) of each cell.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| [`GetCellVolumeAsArray`](#generated.RAPlaneProcess.GetCellVolumeAsArray)([time_step])                                   | Get an array with the volume of each cell.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| [`GetCurve`](#generated.RAPlaneProcess.GetCurve)(curve_name[, simulation_name, ...])                                    | Override base class method to check for a request of a grid function statistic.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| [`GetCurveNames`](#generated.RAPlaneProcess.GetCurveNames)([simulation_name])                                           | @param simulation_name: unicode                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| [`GetCurveNamesAssociation`](#generated.RAPlaneProcess.GetCurveNamesAssociation)([simulation_name])                     | Get this element's curve names.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| [`GetElementCurve`](#generated.RAPlaneProcess.GetElementCurve)(element_name, curve_name[, ...])                         | Return the curves for the given element and name.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| [`GetGeometryQuantity`](#generated.RAPlaneProcess.GetGeometryQuantity)()                                                | Get the quantity corresponding to the grid's geometry.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| [`GetGeometryUnit`](#generated.RAPlaneProcess.GetGeometryUnit)()                                                        | Get the grid's geometry's unit.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| [`GetGridFunction`](#generated.RAPlaneProcess.GetGridFunction)(grid_function_name[, ...])                               | Gets a grid function given its name.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| [`GetGridFunctionNames`](#generated.RAPlaneProcess.GetGridFunctionNames)([translated, context])                         | Get a list of the available grid functions for this grid.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| [`GetMeshColoring`](#generated.RAPlaneProcess.GetMeshColoring)(window)                                                  | Get the RAMeshColoring related to the current object and a window.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| [`GetMode`](#generated.RAPlaneProcess.GetMode)()                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| [`GetNormal`](#generated.RAPlaneProcess.GetNormal)()                                                                    | Returns the X, Y and Z plane normal                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| [`GetNumberOfCells`](#generated.RAPlaneProcess.GetNumberOfCells)([time_step])                                           | Get the total number of cells.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| [`GetNumberOfNodes`](#generated.RAPlaneProcess.GetNumberOfNodes)([time_step])                                           | Get the total number of nodes (vertices).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| [`GetNumberOfParticles`](#generated.RAPlaneProcess.GetNumberOfParticles)(time_step)                                     | Get the total number of particles in this selection.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| [`GetNumpyCurve`](#generated.RAPlaneProcess.GetNumpyCurve)(curve_name[, unit, realization])                             | Returns a curve as a tuple of numpy arrays (time, property) for the given element and name.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| [`GetOrientation`](#generated.RAPlaneProcess.GetOrientation)([unit])                                                    | Get the orientation angles.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| [`GetOrientationFromAngleAndVector`](#generated.RAPlaneProcess.GetOrientationFromAngleAndVector)([unit])                | Get the current orientation in the form of an angle and a vector.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| [`GetOrientationFromAngles`](#generated.RAPlaneProcess.GetOrientationFromAngles)([unit])                                | Get the current orientation in the form of angles.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| [`GetOrientationFromBasisVector`](#generated.RAPlaneProcess.GetOrientationFromBasisVector)()                            | Get the current orientation in the form of three basis vectors.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| [`GetOrigin`](#generated.RAPlaneProcess.GetOrigin)()                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| [`GetOutputVariableValue`](#generated.RAPlaneProcess.GetOutputVariableValue)(variable_name)                             | Get the value of a previously-created output variable.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| [`GetPlaneNormal`](#generated.RAPlaneProcess.GetPlaneNormal)()                                                          | Deprecated: Use GetNormal instead                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| [`GetPlaneOrigin`](#generated.RAPlaneProcess.GetPlaneOrigin)()                                                          | Deprecated: Use GetOrigin instead                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| [`GetTimeSet`](#generated.RAPlaneProcess.GetTimeSet)()                                                                  | Get the list of time-steps associated to the grid.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| [`GetTimeStatistics`](#generated.RAPlaneProcess.GetTimeStatistics)()                                                    | Get the object responsible for handling time-statistics grid functions for this process.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| [`GetTimeStep`](#generated.RAPlaneProcess.GetTimeStep)(time_step[, accept_global])                                      | Get the timestep corresponding to the given time.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| [`GetTopologyShape`](#generated.RAPlaneProcess.GetTopologyShape)([time_step])                                           | Get the shape of the topology (similar to the shape of numpy arrays).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| [`GetType`](#generated.RAPlaneProcess.GetType)()                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| [`HasGridFunction`](#generated.RAPlaneProcess.HasGridFunction)(grid_function_name)                                      | Whether the grid has the given grid function.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| [`IsCellActive`](#generated.RAPlaneProcess.IsCellActive)(i, j, k[, time_step])                                          | Checks if the given cell is active or not                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| [`IterCellVertices`](#generated.RAPlaneProcess.IterCellVertices)(cell[, time_step])                                     | Iterate on the vertices of active grid cells at the given time.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| [`IterCells`](#generated.RAPlaneProcess.IterCells)([time_step])                                                         | Iterate on the active grid cells at the given time.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| [`IterParticles`](#generated.RAPlaneProcess.IterParticles)(time_step)                                                   | Iterate on particles in this selection at the given time.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| [`Modified`](#generated.RAPlaneProcess.Modified)(\*args, \*\*kwargs)                                                    | Resets all the cache information after a change in the subject being tracked.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| [`RemoveCustomCurve`](#generated.RAPlaneProcess.RemoveCustomCurve)(name)                                                | Remove the curve from the database :param name:     The name of the curve to be removed.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| [`RemoveCustomProperty`](#generated.RAPlaneProcess.RemoveCustomProperty)(name)                                          | Remove the property from the database :param name:     The name of the property to be removed.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| [`RemoveOutputVariable`](#generated.RAPlaneProcess.RemoveOutputVariable)(variable_name)                                 | Removes some output variable.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| [`RemoveProcess`](#generated.RAPlaneProcess.RemoveProcess)()                                                            | Removes the process from the project.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| [`SetCurrentTimeStep`](#generated.RAPlaneProcess.SetCurrentTimeStep)(time_step)                                         | Sets the current time step.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| [`SetMode`](#generated.RAPlaneProcess.SetMode)(plane_mode)                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| [`SetNormal`](#generated.RAPlaneProcess.SetNormal)(x, y, z)                                                             | Set the X, Y and Z parameters of the plane normal                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| [`SetOrientation`](#generated.RAPlaneProcess.SetOrientation)(rotation[, unit])                                          | The rotation is the angles in x, y and z of the rotation in the given unit.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| [`SetOrientationFromAngleAndVector`](#generated.RAPlaneProcess.SetOrientationFromAngleAndVector)(angle, vector)         | The rotation uses the angle and a vector, using unit and changes the orientation mode to Angle and Vector.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| [`SetOrientationFromAngles`](#generated.RAPlaneProcess.SetOrientationFromAngles)(rotation[, unit, ...])                 | The rotation is the angles in x, y and z of the rotation.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| [`SetOrientationFromBasisVector`](#generated.RAPlaneProcess.SetOrientationFromBasisVector)(vector_x, ...)               | Sets the rotation using three basis vector and changes the orientation mode to Basis Vector.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| [`SetOrigin`](#generated.RAPlaneProcess.SetOrigin)(x, y, z)                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| [`SetPlaneNormal`](#generated.RAPlaneProcess.SetPlaneNormal)(x, y, z)                                                   | Deprecated: Use SetNormal instead                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| [`SetPlaneOrigin`](#generated.RAPlaneProcess.SetPlaneOrigin)(x, y, z)                                                   | Deprecated: Use SetOrigin instead                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| [`SetType`](#generated.RAPlaneProcess.SetType)(plane_type)                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Name |
+| ------------------------------------------------------------------------------------------------------------------------- |
+| [`AddCurve`](#generated.RAPlaneProcess.AddCurve)(curve_name, timesteps, values, unit) |
+| [`AddCustomCurve`](#generated.RAPlaneProcess.AddCustomCurve)(name[, curve_type, ...]) |
+| [`AddCustomProperty`](#generated.RAPlaneProcess.AddCustomProperty)(name[, property_type, ...]) |
+| [`AddGridFunction`](#generated.RAPlaneProcess.AddGridFunction)(grid_function_name, ...[, ...]) |
+| [`CreateCurveOutputVariable`](#generated.RAPlaneProcess.CreateCurveOutputVariable)(curve_name[, ...]) |
+| [`CreateGridFunction`](#generated.RAPlaneProcess.CreateGridFunction)(values[, location, time_step]) |
+| [`CreateGridFunctionArrayOnCells`](#generated.RAPlaneProcess.CreateGridFunctionArrayOnCells)([time_step]) |
+| [`CreateGridFunctionStatisticOutputVariable`](#generated.RAPlaneProcess.CreateGridFunctionStatisticOutputVariable)(...) |
+| [`CreateTransientCurveOutputVariable`](#generated.RAPlaneProcess.CreateTransientCurveOutputVariable)(curve_name) |
+| [`EditCustomCurve`](#generated.RAPlaneProcess.EditCustomCurve)(edit_curve[, new_name, ...]) |
+| [`EditCustomProperty`](#generated.RAPlaneProcess.EditCustomProperty)(edit_property[, ...]) |
+| [`GetActivesArray`](#generated.RAPlaneProcess.GetActivesArray)([time_step]) |
+| [`GetBoundingBox`](#generated.RAPlaneProcess.GetBoundingBox)([unit, time_step]) |
+| [`GetCellAreaAsArray`](#generated.RAPlaneProcess.GetCellAreaAsArray)([time_step]) |
+| [`GetCellCenterAsArray`](#generated.RAPlaneProcess.GetCellCenterAsArray)([time_step]) |
+| [`GetCellDzAsArray`](#generated.RAPlaneProcess.GetCellDzAsArray)([time_step]) |
+| [`GetCellFromIJK`](#generated.RAPlaneProcess.GetCellFromIJK)(i, j, k[, time_step]) |
+| [`GetCellIJK`](#generated.RAPlaneProcess.GetCellIJK)(cell_handle[, time_step]) |
+| [`GetCellNumberOfVertices`](#generated.RAPlaneProcess.GetCellNumberOfVertices)(cell[, time_step]) |
+| [`GetCellPointsAsFunction`](#generated.RAPlaneProcess.GetCellPointsAsFunction)([time_step]) |
+| [`GetCellVolumeAsArray`](#generated.RAPlaneProcess.GetCellVolumeAsArray)([time_step]) |
+| [`GetCurve`](#generated.RAPlaneProcess.GetCurve)(curve_name[, simulation_name, ...]) |
+| [`GetCurveNames`](#generated.RAPlaneProcess.GetCurveNames)([simulation_name]) |
+| [`GetCurveNamesAssociation`](#generated.RAPlaneProcess.GetCurveNamesAssociation)([simulation_name]) |
+| [`GetElementCurve`](#generated.RAPlaneProcess.GetElementCurve)(element_name, curve_name[, ...]) |
+| [`GetFacePositions`](#generated.RAPlaneProcess.GetFacePositions)([time_step]) |
+| [`GetFaceVertices`](#generated.RAPlaneProcess.GetFaceVertices)([time_step]) |
+| [`GetGeometryQuantity`](#generated.RAPlaneProcess.GetGeometryQuantity)() |
+| [`GetGeometryTransform`](#generated.RAPlaneProcess.GetGeometryTransform)([time_step]) |
+| [`GetGeometryUnit`](#generated.RAPlaneProcess.GetGeometryUnit)() |
+| [`GetGridFunction`](#generated.RAPlaneProcess.GetGridFunction)(grid_function_name[, ...]) |
+| [`GetGridFunctionNames`](#generated.RAPlaneProcess.GetGridFunctionNames)([translated, context]) |
+| [`GetMeshColoring`](#generated.RAPlaneProcess.GetMeshColoring)(window) |
+| [`GetMode`](#generated.RAPlaneProcess.GetMode)() |
+| [`GetNumberOfCells`](#generated.RAPlaneProcess.GetNumberOfCells)([time_step]) |
+| [`GetNumberOfNodes`](#generated.RAPlaneProcess.GetNumberOfNodes)([time_step]) |
+| [`GetNumberOfParticles`](#generated.RAPlaneProcess.GetNumberOfParticles)(time_step) |
+| [`GetNumpyCurve`](#generated.RAPlaneProcess.GetNumpyCurve)(curve_name[, unit, realization]) |
+| [`GetOrientation`](#generated.RAPlaneProcess.GetOrientation)([unit]) |
+| [`GetOrientationFromAngleAndVector`](#generated.RAPlaneProcess.GetOrientationFromAngleAndVector)([unit]) |
+| [`GetOrientationFromAngles`](#generated.RAPlaneProcess.GetOrientationFromAngles)([unit]) |
+| [`GetOrientationFromBasisVector`](#generated.RAPlaneProcess.GetOrientationFromBasisVector)() |
+| [`GetOrigin`](#generated.RAPlaneProcess.GetOrigin)([unit]) |
+| [`GetOutputVariableValue`](#generated.RAPlaneProcess.GetOutputVariableValue)(variable_name) |
+| [`GetRelativeRotationVector`](#generated.RAPlaneProcess.GetRelativeRotationVector)() |
+| [`GetTimeSet`](#generated.RAPlaneProcess.GetTimeSet)() |
+| [`GetTimeStatistics`](#generated.RAPlaneProcess.GetTimeStatistics)() |
+| [`GetTimeStep`](#generated.RAPlaneProcess.GetTimeStep)(time_step[, accept_global]) |
+| [`GetTopologyShape`](#generated.RAPlaneProcess.GetTopologyShape)([time_step]) |
+| [`GetType`](#generated.RAPlaneProcess.GetType)() |
+| [`GetVertices`](#generated.RAPlaneProcess.GetVertices)([time_step]) |
+| [`HasGridFunction`](#generated.RAPlaneProcess.HasGridFunction)(grid_function_name) |
+| [`IsCellActive`](#generated.RAPlaneProcess.IsCellActive)(i, j, k[, time_step]) |
+| [`IterCellVertices`](#generated.RAPlaneProcess.IterCellVertices)(cell[, time_step]) |
+| [`IterCells`](#generated.RAPlaneProcess.IterCells)([time_step]) |
+| [`IterParticles`](#generated.RAPlaneProcess.IterParticles)(time_step) |
+| [`Modified`](#generated.RAPlaneProcess.Modified)(\*args, \*\*kwargs) |
+| [`RemoveCustomCurve`](#generated.RAPlaneProcess.RemoveCustomCurve)(name) |
+| [`RemoveCustomProperty`](#generated.RAPlaneProcess.RemoveCustomProperty)(name) |
+| [`RemoveOutputVariable`](#generated.RAPlaneProcess.RemoveOutputVariable)(variable_name) |
+| [`RemoveProcess`](#generated.RAPlaneProcess.RemoveProcess)() |
+| [`SetCurrentTimeStep`](#generated.RAPlaneProcess.SetCurrentTimeStep)(time_step) |
+| [`SetMode`](#generated.RAPlaneProcess.SetMode)(plane_mode) |
+| [`SetOrientation`](#generated.RAPlaneProcess.SetOrientation)(rotation[, unit]) |
+| [`SetOrientationFromAngleAndVector`](#generated.RAPlaneProcess.SetOrientationFromAngleAndVector)(angle, vector) |
+| [`SetOrientationFromAngles`](#generated.RAPlaneProcess.SetOrientationFromAngles)(rotation[, unit, ...]) |
+| [`SetOrientationFromBasisVector`](#generated.RAPlaneProcess.SetOrientationFromBasisVector)(vector_x, ...) |
+| [`SetOrigin`](#generated.RAPlaneProcess.SetOrigin)(x, y, z) |
+| [`SetRelativeRotationVector`](#generated.RAPlaneProcess.SetRelativeRotationVector)(x, y, z) |
+| [`SetType`](#generated.RAPlaneProcess.SetType)(plane_type) |
 
 <a id="generated.RAPlaneProcess.AddCurve"></a>
 
@@ -143,7 +143,7 @@ Add a custom property to the database
 
 <a id="generated.RAPlaneProcess.AddGridFunction"></a>
 
-#### AddGridFunction(grid_function_name, grid_function, unit='<unknown>', location='cell', realization='user_generated', time_step=None)
+#### AddGridFunction(grid_function_name, grid_function, unit: str | IQuantity = '<unknown>', location: str = 'cell', realization: str = 'user_generated', time_step: str | int | ITimeStep | None = None)
 
 Adds a grid function to the grid.
 
@@ -155,7 +155,7 @@ Adds a grid function to the grid.
   * **location** (*unicode*) – The location of the grid function (currently only ‘cell’ is accepted).
   * **realization** (*unicode*) – The realization used to identify the grid function among other grid functions. If None,
     this information is ignored.
-  * **time_step** (*None* *,* *unicode* *,* *ITimeStep* *or* *int*) – if None if given a static grid function will be created otherwise a transient grid
+  * **time_step** – if None if given a static grid function will be created otherwise a transient grid
     function is created and the given array associated with this time-step
 
 #### SEE ALSO
@@ -222,30 +222,28 @@ Used to create an output variable based on a curve which doesn’t change at eac
 
 <a id="generated.RAPlaneProcess.CreateGridFunction"></a>
 
-#### CreateGridFunction(values, location='cell', time_step='current')
+#### CreateGridFunction(values: list[float] | ndarray, location: str = 'cell', time_step: str | int | ITimeStep = 'current')
 
 Create a grid function from the given values, location and time-step.
 
 * **Parameters:**
-  * **values** (*list* *(**double* *) or* *numpy array*) – The values of the grid function to be added.
-  * **time_step**
-
-#### SEE ALSO
-KAContextDependentElement.GetTimeStep
+  * **values** – The values of the grid function to be added.
+  * **time_step** – if None if given a static grid function will be created otherwise a transient grid
+    function is created and the given array associated with this time-step
+* **Returns:**
+  The created grid function.
 
 <a id="generated.RAPlaneProcess.CreateGridFunctionArrayOnCells"></a>
 
-#### CreateGridFunctionArrayOnCells(time_step='current')
+#### CreateGridFunctionArrayOnCells(time_step: str | int | ITimeStep = 'current')
 
 Creates a numpy array with the number of elements based on the cells and returns it. A
 different time may be specified to create the grid function based on a different time.
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to create the array
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  numpy.array
 * **Returns:**
   Returns a numpy float32 array with the number of elements equal to the number of cells.
 
@@ -438,99 +436,87 @@ Edit a custom property saved in the database.
 
 <a id="generated.RAPlaneProcess.GetActivesArray"></a>
 
-#### GetActivesArray(time_step='current')
+#### GetActivesArray(time_step: str | int | ITimeStep = 'current')
 
 Get an array representing the cells’ “active” status.
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to get the actives array
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  numpy array
 * **Returns:**
   Returns a numpy array with booleans where True means the cell is active and False
   means it’s not active.
 
 <a id="generated.RAPlaneProcess.GetBoundingBox"></a>
 
-#### GetBoundingBox(unit=None, time_step='current')
+#### GetBoundingBox(unit: str | None = None, time_step: str | int | ITimeStep = 'current')
 
 Get the element’s bounding box.
 
 * **Parameters:**
-  * **unit** (*unicode*) – The unit in which the bounding box should be gotten (by default it uses the same
+  * **unit** – The unit in which the bounding box should be gotten (by default it uses the same
     unit of the geometry).
-  * **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  * **time_step** – Either a ‘current’ string with meaning the current time step
     or an ITimeStep identifying the time to get the bounding box
     or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  tuple(tuple(float, float, float), tuple(float, float, float))
 * **Returns:**
-  THe minimum and maximum geometry coordinates of the grid or None if the
+  The minimum and maximum geometry coordinates of the grid or None if the
   time step is not available at the requested time.
 
 <a id="generated.RAPlaneProcess.GetCellAreaAsArray"></a>
 
-#### GetCellAreaAsArray(time_step='current')
+#### GetCellAreaAsArray(time_step: str | int | ITimeStep = 'current')
 
 Get an array containing the area of each cell.
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to get the cell volume
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  numpy.array
 * **Returns:**
   An array with the cell area (the unit will be the geometry unit \*\* 2)
 
 <a id="generated.RAPlaneProcess.GetCellCenterAsArray"></a>
 
-#### GetCellCenterAsArray(time_step='current')
+#### GetCellCenterAsArray(time_step: str | int | ITimeStep = 'current')
 
 Get an array containing the center coordinates of each cell.
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to get the cell center
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  numpy.array
 * **Returns:**
   An array with the cell center coordinates (each element will be a point to the center of
   the cell).
 
 <a id="generated.RAPlaneProcess.GetCellDzAsArray"></a>
 
-#### GetCellDzAsArray(time_step='current')
+#### GetCellDzAsArray(time_step: str | int | ITimeStep = 'current')
 
 Get an array containing the thickness (in Z) of each cell.
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to get the cell dz
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  numpy.array
 * **Returns:**
   An array with cell thicknesses computed in the Z direction.
 
 <a id="generated.RAPlaneProcess.GetCellFromIJK"></a>
 
-#### GetCellFromIJK(i, j, k, time_step='current')
+#### GetCellFromIJK(i: int, j: int, k: int, time_step: str | int | ITimeStep = 'current')
 
 Creates a grid cell handle from the current I, J, K indexes
 
 * **Parameters:**
-  * **i** (*int*) – The topological I cell index
-  * **j** (*int*) – The topological J cell index
-  * **k** (*int*) – The topological K cell index
-  * **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  * **i** – The topological I cell index
+  * **j** – The topological J cell index
+  * **k** – The topological K cell index
+  * **time_step** – Either a ‘current’ string with meaning the current time step
     or an ITimeStep identifying the time to get the cell from the i, j, k
     or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  int or None
 * **Returns:**
   Returns the cell handle to be used for the given I, J, K indexes.
   Or None if the given I, J and K indexes are invalid or refer to an inactive cell
@@ -539,39 +525,35 @@ Creates a grid cell handle from the current I, J, K indexes
 
 <a id="generated.RAPlaneProcess.GetCellIJK"></a>
 
-#### GetCellIJK(cell_handle, time_step='current')
+#### GetCellIJK(cell_handle: int, time_step: str | int | ITimeStep = 'current')
 
 Converts the given cell handle to it’s I, J, K indexes
 
 * **Parameters:**
-  * **cell_handle** (*int*) – The cell handle
-  * **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  * **cell_handle** – The cell handle
+  * **time_step** – Either a ‘current’ string with meaning the current time step
     or an ITimeStep identifying the time to get the i, j, k from the cell.
     or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  tuple( i, j, k )
 * **Returns:**
   The cell I, J, K indexes
 
 <a id="generated.RAPlaneProcess.GetCellNumberOfVertices"></a>
 
-#### GetCellNumberOfVertices(cell, time_step='current')
+#### GetCellNumberOfVertices(cell: int, time_step: str | int | ITimeStep = 'current')
 
 Get an array containing the number of vertices of each cell.
 
 * **Parameters:**
-  * **cell_handle** (*int*) – The cell handle
-  * **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  * **cell_handle** – The cell handle
+  * **time_step** – Either a ‘current’ string with meaning the current time step
     or an ITimeStep identifying the time to get the number of vertices for the given cell
     or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  int
 * **Returns:**
   The total number of vertices on the given cell
 
 <a id="generated.RAPlaneProcess.GetCellPointsAsFunction"></a>
 
-#### GetCellPointsAsFunction(time_step='current')
+#### GetCellPointsAsFunction(time_step: str | int | ITimeStep = 'current')
 
 Get a function for the points (vertices) of each cell.
 
@@ -605,22 +587,20 @@ for vertex in grid.IterCellVertices(cell):
 
 <a id="generated.RAPlaneProcess.GetCellVolumeAsArray"></a>
 
-#### GetCellVolumeAsArray(time_step='current')
+#### GetCellVolumeAsArray(time_step: str | int | ITimeStep = 'current')
 
 Get an array with the volume of each cell.
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to get the cell volume
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  numpy.array
 * **Returns:**
   An array with the cell volume (the unit will be the geometry unit \*\* 3)
 
 <a id="generated.RAPlaneProcess.GetCurve"></a>
 
-#### GetCurve(curve_name, simulation_name=None, realization=None, time_step=None)
+#### GetCurve(curve_name, simulation_name=None, realization=None, time_step: str | int | ITimeStep | None = None)
 
 Override base class method to check for a request of a grid function statistic.
 
@@ -662,16 +642,58 @@ Return the curves for the given element and name.
   * **realization** (*unicode*) – An additional keyword to identify the curve realization
   * **time_step** (*TimeStep*) – For transient curves a time-step must be given.
 
+<a id="generated.RAPlaneProcess.GetFacePositions"></a>
+
+#### GetFacePositions(time_step: str | int | ITimeStep = 'current')
+
+Get the index of the faces. Use this in conjunction with GetFaceVertices to obtain
+the index of vertices in each face.
+
+* **Parameters:**
+  **time_step** – Either a ‘current’ string with meaning the current time step
+  or an ITimeStep identifying the time to get the geometry transform
+  or an int identifying the time step index to be used based on the global time set
+* **Returns:**
+  a numpy array with the face index of the grid at the given time step.
+
+<a id="generated.RAPlaneProcess.GetFaceVertices"></a>
+
+#### GetFaceVertices(time_step: str | int | ITimeStep = 'current')
+
+Get the index of the vertices for all faces. Use this in conjunction with GetFacePositions
+to obtain the index of vertices in each face. The index is related to the vertices obtained
+via GetVertices.
+
+* **Parameters:**
+  **time_step** – Either a ‘current’ string with meaning the current time step
+  or an ITimeStep identifying the time to get the geometry transform
+  or an int identifying the time step index to be used based on the global time set
+* **Returns:**
+  a numpy array with the vertices index of the grid at the given time step.
+
 <a id="generated.RAPlaneProcess.GetGeometryQuantity"></a>
 
 #### GetGeometryQuantity()
 
 Get the quantity corresponding to the grid’s geometry.
 
-* **Return type:**
-  IQuantity
 * **Returns:**
   The grid geometry quantity
+
+<a id="generated.RAPlaneProcess.GetGeometryTransform"></a>
+
+#### GetGeometryTransform(time_step: str | int | ITimeStep = 'current')
+
+Get the geometry transform for the grid at the given time step. This should be used in
+conjunction with GetVertices to obtain the transformed vertices of the grid.
+
+* **Parameters:**
+  **time_step** – Either a ‘current’ string with meaning the current time step
+  or an ITimeStep identifying the time to get the geometry transform
+  or an int identifying the time step index to be used based on the global time set
+* **Returns:**
+  The geometry transform as a tuple of (translation, rotation) or None if the
+  object has no motion frame associated to it.
 
 <a id="generated.RAPlaneProcess.GetGeometryUnit"></a>
 
@@ -679,8 +701,6 @@ Get the quantity corresponding to the grid’s geometry.
 
 Get the grid’s geometry’s unit.
 
-* **Return type:**
-  unicode
 * **Returns:**
   The unit for the grid geometry
 
@@ -702,13 +722,11 @@ grid.GetGridFunction('Temperature').GetArray(unit='degC', time_step=time_set[10]
 if it’s used without a time parameter, it’ll get the array at the current application time.
 
 * **Parameters:**
-  * **grid_function_name** (*unicode*) – The name of the grid function to be gotten in this grid.
-  * **simulation_name** (*unicode*) – An optional parameter for defining the simulation to get the grid function from.
-  * **translated** (*bool*) – If False, the internal names of the grid functions will be returned, otherwise, the
+  * **grid_function_name** – The name of the grid function to be gotten in this grid.
+  * **simulation_name** – An optional parameter for defining the simulation to get the grid function from.
+  * **translated** – If False, the internal names of the grid functions will be returned, otherwise, the
     name returned will be the translated name (based on the settings chosen on how
     to see grid functions – i.e.: Cognitive, ECLIPSE, IMEX).
-* **Return type:**
-  KAGridFunction
 * **Returns:**
   The grid function found
 * **Raises:**
@@ -716,26 +734,13 @@ if it’s used without a time parameter, it’ll get the array at the current ap
 
 <a id="generated.RAPlaneProcess.GetGridFunctionNames"></a>
 
-#### GetGridFunctionNames(translated=False, context=None)
+#### GetGridFunctionNames(translated: bool = False, context: str | None = None)
 
-Get a list of the available grid functions for this grid.
-
-* **Parameters:**
-  * **translated** (*bool*) – If False, the internal names of the grid functions will be returned, otherwise, the
-    name returned will be the translated name (based on the settings chosen on how
-    to see grid functions – i.e.: Cognitive, ECLIPSE, IMEX).
-  * **context** ( *'all'* *,*  *'static'* *or*  *'transient'*) – Which names should be returned
-    ‘all’ all grid function names
-    ‘static’ only the static grid function names
-    ‘transient’ only the transient grid function names
-* **Return type:**
-  list(unicode)
-* **Returns:**
-  Returns a list with the grid functions available.
+Overridden to filter out deprecated property names.
 
 <a id="generated.RAPlaneProcess.GetMeshColoring"></a>
 
-#### GetMeshColoring(window: str | type[KAWorkspaceWindow])
+#### GetMeshColoring(window: str | KAWorkspaceWindow)
 
 Get the RAMeshColoring related to the current object and a window.
 
@@ -753,39 +758,29 @@ Get the RAMeshColoring related to the current object and a window.
 * **Returns:**
   ‘Exact’ or ‘Select’, whether the plane process is selecting or cutting the cell’s from the input process.
 
-<a id="generated.RAPlaneProcess.GetNormal"></a>
-
-#### GetNormal()
-
-Returns the X, Y and Z plane normal
-
 <a id="generated.RAPlaneProcess.GetNumberOfCells"></a>
 
-#### GetNumberOfCells(time_step='current')
+#### GetNumberOfCells(time_step: str | int | ITimeStep = 'current')
 
 Get the total number of cells.
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to get the number of cells
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  int
 * **Returns:**
   The total number of cells
 
 <a id="generated.RAPlaneProcess.GetNumberOfNodes"></a>
 
-#### GetNumberOfNodes(time_step='current')
+#### GetNumberOfNodes(time_step: str | int | ITimeStep = 'current')
 
 Get the total number of nodes (vertices).
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to get the number of cells
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  int
 * **Returns:**
   The total number of nodes/vertices
 
@@ -837,7 +832,7 @@ Get the current orientation in the form of three basis vectors.
 
 <a id="generated.RAPlaneProcess.GetOrigin"></a>
 
-#### GetOrigin()
+#### GetOrigin(unit=None)
 
 * **Returns:**
   Returns the X, Y and Z plane origin
@@ -854,17 +849,11 @@ Get the value of a previously-created output variable.
   Returns a scalar with the value and unit for the given variable_name or None if no
   variable was found with the given name or if it couldn’t be computed.
 
-<a id="generated.RAPlaneProcess.GetPlaneNormal"></a>
+<a id="generated.RAPlaneProcess.GetRelativeRotationVector"></a>
 
-#### GetPlaneNormal()
+#### GetRelativeRotationVector()
 
-Deprecated: Use GetNormal instead
-
-<a id="generated.RAPlaneProcess.GetPlaneOrigin"></a>
-
-#### GetPlaneOrigin()
-
-Deprecated: Use GetOrigin instead
+Returns the X, Y and Z plane normal
 
 <a id="generated.RAPlaneProcess.GetTimeSet"></a>
 
@@ -872,8 +861,6 @@ Deprecated: Use GetOrigin instead
 
 Get the list of time-steps associated to the grid.
 
-* **Return type:**
-  ITimeSet
 * **Returns:**
   The list of time-steps associated to the grid
 
@@ -911,16 +898,14 @@ Get the timestep corresponding to the given time.
 
 <a id="generated.RAPlaneProcess.GetTopologyShape"></a>
 
-#### GetTopologyShape(time_step='current')
+#### GetTopologyShape(time_step: str | int | ITimeStep = 'current')
 
 Get the shape of the topology (similar to the shape of numpy arrays).
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to get the topology shape
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  tuple of ints
 * **Returns:**
   The grid shape as a tuple of the grid size in each topological dimension.
 
@@ -931,46 +916,57 @@ Get the shape of the topology (similar to the shape of numpy arrays).
 * **Returns:**
   ‘Cut’ or ‘Clip’, whether the plane process is cutting or clipping the input process.
 
+<a id="generated.RAPlaneProcess.GetVertices"></a>
+
+#### GetVertices(time_step: str | int | ITimeStep = 'current')
+
+Get the geometry vertices of the grid at the given time step. This should be used in
+conjunction with GetGeometryTransform to obtain the transformed vertices of the grid
+at a given time_step, otherwise it may return the vertices without any transformation.
+
+* **Parameters:**
+  **time_step** – Either a ‘current’ string with meaning the current time step
+  or an ITimeStep identifying the time to get the geometry transform
+  or an int identifying the time step index to be used based on the global time set
+* **Returns:**
+  a numpy array with the vertices of the grid at the given time step.
+
 <a id="generated.RAPlaneProcess.HasGridFunction"></a>
 
-#### HasGridFunction(grid_function_name)
+#### HasGridFunction(grid_function_name: str)
 
 Whether the grid has the given grid function.
 
 * **Parameters:**
-  **grid_function_name** (*unicode*) – The name of the grid function to be checked.
-* **Return type:**
-  bool
+  **grid_function_name** – The name of the grid function to be checked.
 * **Returns:**
   Returns True if the grid function exists and False otherwise.
 
 <a id="generated.RAPlaneProcess.IsCellActive"></a>
 
-#### IsCellActive(i, j, k, time_step='current')
+#### IsCellActive(i: int, j: int, k: int, time_step: str | int | ITimeStep = 'current')
 
 Checks if the given cell is active or not
 
-@param i, j, k: int
+@param i, j, k:
 : The cell i, j, k
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to get if the cell is active
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  bool
 * **Returns:**
   True if the cell is active
 
 <a id="generated.RAPlaneProcess.IterCellVertices"></a>
 
-#### IterCellVertices(cell, time_step='current')
+#### IterCellVertices(cell: int, time_step: str | int | ITimeStep = 'current')
 
 Iterate on the vertices of active grid cells at the given time.
 
 * **Parameters:**
-  * **cell_handle** (*int*) – The cell handle
-  * **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  * **cell_handle** – The cell handle
+  * **time_step** – Either a ‘current’ string with meaning the current time step
     or an ITimeStep identifying the time to iterate the vertices of a cell
     or an int identifying the time step index to be used based on the global time set
 * **Return type:**
@@ -980,12 +976,12 @@ Iterate on the vertices of active grid cells at the given time.
 
 <a id="generated.RAPlaneProcess.IterCells"></a>
 
-#### IterCells(time_step='current')
+#### IterCells(time_step: str | int | ITimeStep = 'current')
 
 Iterate on the active grid cells at the given time.
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to iterate the cells
   or an int identifying the time step index to be used based on the global time set
 * **Return type:**
@@ -1068,12 +1064,6 @@ Sets the current time step.
   **plane_mode** – ‘Exact’ or ‘Select’
   Sets whether the plane process is selecting or cutting the cell’s from the input process
 
-<a id="generated.RAPlaneProcess.SetNormal"></a>
-
-#### SetNormal(x: float, y: float, z: float)
-
-Set the X, Y and Z parameters of the plane normal
-
 <a id="generated.RAPlaneProcess.SetOrientation"></a>
 
 #### SetOrientation(rotation: tuple[float, float, float], unit: str = 'dega')
@@ -1111,17 +1101,11 @@ Sets the rotation using three basis vector and changes the orientation mode to B
   * **y**
   * **z**
 
-<a id="generated.RAPlaneProcess.SetPlaneNormal"></a>
+<a id="generated.RAPlaneProcess.SetRelativeRotationVector"></a>
 
-#### SetPlaneNormal(x: float, y: float, z: float)
+#### SetRelativeRotationVector(x: float, y: float, z: float)
 
-Deprecated: Use SetNormal instead
-
-<a id="generated.RAPlaneProcess.SetPlaneOrigin"></a>
-
-#### SetPlaneOrigin(x: float, y: float, z: float)
-
-Deprecated: Use SetOrigin instead
+Set the X, Y and Z parameters of the plane normal
 
 <a id="generated.RAPlaneProcess.SetType"></a>
 
