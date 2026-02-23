@@ -4,4 +4,4 @@
 
 #### *property* Model.scenes
 
-Scenes
+Scenes.

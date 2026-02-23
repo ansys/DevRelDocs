@@ -4,4 +4,4 @@
 
 #### *property* SamplingPoint.direction
 
-Sampling Point Direction
+Sampling Point Direction.

@@ -4,4 +4,4 @@
 
 #### *property* SectionCut.scale_factor
 
-Scale factor used for visualization of section cuts
+Scale factor used for visualization of section cuts.

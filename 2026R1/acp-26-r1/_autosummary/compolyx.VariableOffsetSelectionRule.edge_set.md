@@ -4,4 +4,4 @@
 
 #### *property* VariableOffsetSelectionRule.edge_set
 
-Link to edge set
+Link to edge set.

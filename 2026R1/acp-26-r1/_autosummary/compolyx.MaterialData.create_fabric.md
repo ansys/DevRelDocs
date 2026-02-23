@@ -4,7 +4,7 @@
 
 #### MaterialData.create_fabric(name, id=None, material=None, thickness=0.0, area_price=0.0, ignore_for_postprocessing=False, drop_off_material_handling='Global', cut_off_material_handling='Computed', drop_off_material=None, cut_off_material=None, draping_material_model='woven', draping_ud_coefficient=0.0)
 
-Create a new fabric
+Create a new fabric.
 
 * **Parameters:**
   - name: Name for the fabric.

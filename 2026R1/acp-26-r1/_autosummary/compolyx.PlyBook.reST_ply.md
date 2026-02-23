@@ -4,4 +4,4 @@
 
 #### *property* PlyBook.reST_ply
 
-reST ply template
+reST ply template.

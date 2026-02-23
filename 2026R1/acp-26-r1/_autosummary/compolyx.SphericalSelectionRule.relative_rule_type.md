@@ -4,4 +4,4 @@
 
 #### *property* SphericalSelectionRule.relative_rule_type
 
-relative type
+relative type.

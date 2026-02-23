@@ -4,4 +4,4 @@
 
 #### *property* Model.selection
 
-Selected objects of this model
+Selected objects of this model.

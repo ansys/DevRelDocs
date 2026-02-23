@@ -4,4 +4,4 @@
 
 #### *property* LookUpTableBase.empty
 
-True if table is empty
+True if table is empty.

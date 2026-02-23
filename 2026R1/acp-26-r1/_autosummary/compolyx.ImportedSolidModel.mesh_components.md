@@ -4,4 +4,4 @@
 
 #### *property* ImportedSolidModel.mesh_components
 
-Element Sets of the solid mesh
+Element Sets of the solid mesh.

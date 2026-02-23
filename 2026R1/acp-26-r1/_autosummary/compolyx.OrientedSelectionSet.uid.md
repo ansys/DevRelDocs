@@ -4,4 +4,4 @@
 
 #### *property* OrientedSelectionSet.uid
 
-UID of the object
+UID of the object.

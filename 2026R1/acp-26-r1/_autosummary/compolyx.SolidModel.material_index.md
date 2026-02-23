@@ -4,4 +4,4 @@
 
 #### *property* SolidModel.material_index
 
-Material index
+Material index.

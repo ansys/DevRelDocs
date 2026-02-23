@@ -4,7 +4,7 @@
 
 #### MaterialData.export_matml(path: str, unit_system=None)
 
-Export materials to ANSYS Engineering Data MatML format
+Export materials to ANSYS Engineering Data MatML format.
 
 * **Parameters:**
   - path: Path to file to write.

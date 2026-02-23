@@ -4,4 +4,4 @@
 
 #### *property* SnapToGeometry.active
 
-Snap-To Geometry active
+Snap-To Geometry active.

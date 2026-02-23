@@ -4,4 +4,4 @@
 
 #### *property* SectionCut.elastic_measures
 
-Cross-sectional Measures of Elasticity
+Cross-sectional Measures of Elasticity.

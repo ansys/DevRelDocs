@@ -4,4 +4,4 @@
 
 #### *property* OrientedSelectionSet.draping
 
-Flag for using draping or not
+Flag for using draping or not.

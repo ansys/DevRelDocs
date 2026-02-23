@@ -4,4 +4,4 @@
 
 #### *property* CADReference.name
 
-Name of the object
+Name of the object.

@@ -4,4 +4,4 @@
 
 #### *property* View.orientation
 
-Get/set the view orientation
+Get/set the view orientation.

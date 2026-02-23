@@ -4,4 +4,4 @@
 
 #### *property* ImportedModelingGroup.plies
 
-Modeling Plies of the Modeling Group
+Modeling Plies of the Modeling Group.

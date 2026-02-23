@@ -4,4 +4,4 @@
 
 #### *property* Sensor.weight
 
-Weight over all Entities of the Sensor
+Weight over all Entities of the Sensor.

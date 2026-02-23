@@ -4,4 +4,4 @@
 
 #### *property* SolidElementSet.id
 
-ID of the object
+ID of the object.

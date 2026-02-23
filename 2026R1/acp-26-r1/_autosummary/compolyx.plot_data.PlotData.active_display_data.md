@@ -4,4 +4,4 @@
 
 #### *property* PlotData.active_display_data
 
-Returns a dictionary containing display data for this plot owned by the active scene
+Returns a dictionary containing display data for this plot owned by the active scene.

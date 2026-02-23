@@ -4,4 +4,4 @@
 
 #### *property* SolidElementSet.size
 
-Number of entities
+Number of entities.

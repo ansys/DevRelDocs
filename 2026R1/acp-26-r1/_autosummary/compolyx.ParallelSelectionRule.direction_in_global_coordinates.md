@@ -4,4 +4,4 @@
 
 #### *property* ParallelSelectionRule.direction_in_global_coordinates
 
-Direction of the rule in global coordinates
+Direction of the rule in global coordinates.

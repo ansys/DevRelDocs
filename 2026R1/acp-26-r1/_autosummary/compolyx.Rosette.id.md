@@ -4,4 +4,4 @@
 
 #### *property* Rosette.id
 
-ID of the object
+ID of the object.

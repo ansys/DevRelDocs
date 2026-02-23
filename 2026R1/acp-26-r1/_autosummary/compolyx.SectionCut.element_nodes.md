@@ -4,4 +4,4 @@
 
 #### *property* SectionCut.element_nodes
 
-Coincidence list
+Coincidence list.

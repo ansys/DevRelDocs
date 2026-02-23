@@ -4,4 +4,4 @@
 
 #### *property* Stackup.area_weight
 
-Area weight of the Stackup
+Area weight of the Stackup.

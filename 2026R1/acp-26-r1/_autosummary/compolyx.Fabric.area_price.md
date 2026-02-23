@@ -4,4 +4,4 @@
 
 #### *property* Fabric.area_price
 
-Area price of the fabric
+Area price of the fabric.

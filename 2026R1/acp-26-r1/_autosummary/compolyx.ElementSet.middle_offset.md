@@ -4,4 +4,4 @@
 
 #### *property* ElementSet.middle_offset
 
-Middle offset flag
+Middle offset flag.

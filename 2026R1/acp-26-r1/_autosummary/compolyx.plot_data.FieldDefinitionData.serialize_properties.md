@@ -4,4 +4,4 @@
 
 #### FieldDefinitionData.serialize_properties()
 
-Serialize to Python string
+Serialize to Python string.

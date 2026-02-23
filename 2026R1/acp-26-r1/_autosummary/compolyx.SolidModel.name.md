@@ -4,4 +4,4 @@
 
 #### *property* SolidModel.name
 
-Name of the object
+Name of the object.

@@ -4,4 +4,4 @@
 
 #### *property* ModelingPly.core_geometry
 
-Assigned Core Geometry
+Assigned Core Geometry.

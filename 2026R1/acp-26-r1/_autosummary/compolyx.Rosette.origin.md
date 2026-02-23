@@ -4,4 +4,4 @@
 
 #### *property* Rosette.origin
 
-Origin of the Rosette
+Origin of the Rosette.

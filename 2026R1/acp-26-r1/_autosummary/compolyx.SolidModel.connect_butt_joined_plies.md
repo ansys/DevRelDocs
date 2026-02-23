@@ -4,4 +4,4 @@
 
 #### *property* SolidModel.connect_butt_joined_plies
 
-Do not make drop-offs between butt-joined plies if set to True
+Do not make drop-offs between butt-joined plies if set to True.

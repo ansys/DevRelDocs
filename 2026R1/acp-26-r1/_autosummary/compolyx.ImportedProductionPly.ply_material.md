@@ -4,4 +4,4 @@
 
 #### *property* ImportedProductionPly.ply_material
 
-Ply Material of the Production Ply
+Ply Material of the Production Ply.

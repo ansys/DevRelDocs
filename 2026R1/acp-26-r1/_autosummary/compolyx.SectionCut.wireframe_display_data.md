@@ -4,4 +4,4 @@
 
 #### *property* SectionCut.wireframe_display_data
 
-Section cut wireframe plot
+Section cut wireframe plot.

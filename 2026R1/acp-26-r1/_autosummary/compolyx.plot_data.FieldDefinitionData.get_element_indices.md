@@ -4,7 +4,7 @@
 
 #### FieldDefinitionData.get_element_indices(visible=None, selected=None)
 
-Get element indices (ACP internal element numbers starting from 0) of plot
+Get element indices (ACP internal element numbers starting from 0) of plot.
 
 * **Parameters:**
   - visible: Object(s) defining visible scope

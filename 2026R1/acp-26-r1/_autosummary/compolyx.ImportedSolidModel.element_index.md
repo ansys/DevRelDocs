@@ -4,4 +4,4 @@
 
 #### *property* ImportedSolidModel.element_index
 
-Element offset index
+Element offset index.

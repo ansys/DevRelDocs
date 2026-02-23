@@ -4,4 +4,4 @@
 
 #### *property* CADSolid.locked
 
-Locked status of the CAD Component
+Locked status of the CAD Component.

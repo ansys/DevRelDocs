@@ -4,4 +4,4 @@
 
 #### *property* Sensor.name
 
-Name of the object
+Name of the object.

@@ -4,4 +4,4 @@
 
 #### *property* SectionCut.geometric_measures
 
-Cross-sectional Measures of Geometry
+Cross-sectional Measures of Geometry.

@@ -4,4 +4,4 @@
 
 #### *property* PublishedParameter.category
 
-Should be one of: input, unbound_input, output or expression_output
+Should be one of: input, unbound_input, output or expression_output.

@@ -4,4 +4,4 @@
 
 #### *property* ElementSet.orientable
 
-True if the Element Set has an orientable topology
+True if the Element Set has an orientable topology.

@@ -4,4 +4,4 @@
 
 #### *property* LookUpTableBase.num_cols
 
-Number of rows
+Number of rows.

@@ -4,4 +4,4 @@
 
 #### *property* Scene.fit_to_window
 
-Reset the zoom of the window
+Reset the zoom of the window.

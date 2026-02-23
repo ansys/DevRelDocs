@@ -4,4 +4,4 @@
 
 #### *property* ModelingPly.draping_obj
 
-Draping properties of the Modeling Ply
+Draping properties of the Modeling Ply.

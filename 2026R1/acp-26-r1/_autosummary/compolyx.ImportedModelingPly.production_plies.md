@@ -4,4 +4,4 @@
 
 #### *property* ImportedModelingPly.production_plies
 
-Attached imported production plies
+Attached imported production plies.

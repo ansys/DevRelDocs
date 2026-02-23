@@ -4,4 +4,4 @@
 
 #### *property* ModelingPly.production_plies
 
-Production Plies of the Modeling Ply
+Production Plies of the Modeling Ply.

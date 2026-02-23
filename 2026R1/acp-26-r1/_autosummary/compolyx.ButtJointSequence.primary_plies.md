@@ -4,4 +4,4 @@
 
 #### *property* ButtJointSequence.primary_plies
 
-Primary plies of the butt joint squence
+Primary plies of the butt joint squence.

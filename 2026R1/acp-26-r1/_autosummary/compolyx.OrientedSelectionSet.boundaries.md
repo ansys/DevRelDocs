@@ -4,4 +4,4 @@
 
 #### *property* OrientedSelectionSet.boundaries
 
-Returns the boundaries of the Oriented Selection Set
+Returns the boundaries of the Oriented Selection Set.

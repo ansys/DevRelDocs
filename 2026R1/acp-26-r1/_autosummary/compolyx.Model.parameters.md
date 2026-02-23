@@ -4,4 +4,4 @@
 
 #### *property* Model.parameters
 
-List of parameters visible to the workbench
+List of parameters visible to the workbench.

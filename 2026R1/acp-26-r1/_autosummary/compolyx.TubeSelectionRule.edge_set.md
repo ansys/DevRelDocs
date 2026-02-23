@@ -4,4 +4,4 @@
 
 #### *property* TubeSelectionRule.edge_set
 
-Edge Set for the Tube Selection Rule
+Edge Set for the Tube Selection Rule.

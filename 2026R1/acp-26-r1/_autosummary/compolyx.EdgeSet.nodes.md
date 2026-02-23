@@ -4,4 +4,4 @@
 
 #### *property* EdgeSet.nodes
 
-Node indexes/labels of the Edge Set
+Node indexes/labels of the Edge Set.

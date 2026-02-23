@@ -4,7 +4,7 @@
 
 #### MaterialData.create_stackup(name, id=None, fabrics=None, area_price=0.0, symmetry='No Symmetry', layup_sequence='Top-Down', drop_off_material_handling='Global', cut_off_material_handling='Computed', drop_off_material=None, cut_off_material=None, draping_material_model='woven', draping_ud_coefficient=0.0)
 
-Create a new stackup
+Create a new stackup.
 
 * **Parameters:**
   - name: Name for the stackup.

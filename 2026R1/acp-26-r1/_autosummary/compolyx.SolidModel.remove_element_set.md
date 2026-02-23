@@ -4,4 +4,4 @@
 
 #### SolidModel.remove_element_set(element_set)
 
-Remove Element Set from the solid model
+Remove Element Set from the solid model.

@@ -4,4 +4,4 @@
 
 #### *property* TubeSelectionRule.mesh
 
-The mesh of the tube rule
+The mesh of the tube rule.

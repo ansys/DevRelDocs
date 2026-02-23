@@ -4,4 +4,4 @@
 
 #### *property* LayupMappingObject.analysis_plies
 
-Analysis Plies of the Mapping Object
+Analysis Plies of the Mapping Object.

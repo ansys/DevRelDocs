@@ -4,4 +4,4 @@
 
 #### *property* Sensor.production_ply_area
 
-Cumulated area of all production-plies involved
+Cumulated area of all production-plies involved.

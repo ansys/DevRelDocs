@@ -4,4 +4,4 @@
 
 #### *property* Script.parent
 
-Parent object in the tree
+Parent object in the tree.

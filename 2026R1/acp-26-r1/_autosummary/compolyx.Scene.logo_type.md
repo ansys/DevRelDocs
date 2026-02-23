@@ -4,4 +4,4 @@
 
 #### *property* Scene.logo_type
 
-Logo type (“default” or “black”)
+Logo type (“default” or “black”).

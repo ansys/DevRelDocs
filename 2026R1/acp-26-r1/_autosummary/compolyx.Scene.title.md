@@ -4,4 +4,4 @@
 
 #### *property* Scene.title
 
-Scene title
+Scene title.

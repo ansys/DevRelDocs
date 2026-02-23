@@ -4,4 +4,4 @@
 
 #### *property* SectionCut.origin
 
-Get/set the plane origin
+Get/set the plane origin.

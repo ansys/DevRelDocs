@@ -4,4 +4,4 @@
 
 #### *property* SamplingPoint.plies
 
-Plies of the Sampling Point
+Plies of the Sampling Point.

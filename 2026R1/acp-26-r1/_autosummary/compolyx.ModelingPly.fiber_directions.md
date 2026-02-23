@@ -4,4 +4,4 @@
 
 #### *property* ModelingPly.fiber_directions
 
-Returns the Fiber Directions of the Modeling Ply
+Returns the Fiber Directions of the Modeling Ply.

@@ -4,4 +4,4 @@
 
 #### *property* Scene.camera
 
-Camera settings
+Camera settings.

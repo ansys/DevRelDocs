@@ -4,4 +4,4 @@
 
 #### *property* Stackup.draping_ud_coefficient
 
-UD Draping Coefficient
+UD Draping Coefficient.

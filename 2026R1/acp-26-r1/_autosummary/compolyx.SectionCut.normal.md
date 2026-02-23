@@ -4,4 +4,4 @@
 
 #### *property* SectionCut.normal
 
-Get/set the plane normal
+Get/set the plane normal.

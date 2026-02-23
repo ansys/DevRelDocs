@@ -4,4 +4,4 @@
 
 #### *property* VariableOffsetSelectionRule.radius_direction
 
-Direction for offset value interpolations
+Direction for offset value interpolations.

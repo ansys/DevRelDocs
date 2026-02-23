@@ -4,4 +4,4 @@
 
 #### *property* LayupPlotDict.parent
 
-Parent object in the tree
+Parent object in the tree.

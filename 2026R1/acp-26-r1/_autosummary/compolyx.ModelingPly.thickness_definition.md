@@ -4,4 +4,4 @@
 
 #### *property* ModelingPly.thickness_definition
 
-Type of thickness-definition to be used
+Type of thickness-definition to be used.

@@ -4,4 +4,4 @@
 
 #### *property* Sensor.center_of_gravity
 
-Center of Gravity over all Entities of the Sensor
+Center of Gravity over all Entities of the Sensor.

@@ -4,4 +4,4 @@
 
 #### *property* Model.active_scene
 
-Active Scene
+Active Scene.

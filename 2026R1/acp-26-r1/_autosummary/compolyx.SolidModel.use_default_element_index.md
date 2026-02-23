@@ -4,4 +4,4 @@
 
 #### *property* SolidModel.use_default_element_index
 
-Use consecutive element numbering
+Use consecutive element numbering.

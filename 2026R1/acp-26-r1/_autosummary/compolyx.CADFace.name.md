@@ -4,4 +4,4 @@
 
 #### *property* CADFace.name
 
-Name of the object
+Name of the object.

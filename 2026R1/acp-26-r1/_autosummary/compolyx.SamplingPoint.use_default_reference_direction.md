@@ -4,4 +4,4 @@
 
 #### *property* SamplingPoint.use_default_reference_direction
 
-Flag to use default reference direction
+Flag to use default reference direction.

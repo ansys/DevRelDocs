@@ -4,4 +4,4 @@
 
 #### *property* VirtualGeometry.dimension
 
-Highest dimension of all CAD references. 3=solid, 2=surface, 1=curve
+Highest dimension of all CAD references. 3=solid, 2=surface, 1=curve.

@@ -4,4 +4,4 @@
 
 #### *property* Chapter.ply_entities
 
-Plies/PlyGroups for the chapter
+Plies/PlyGroups for the chapter.

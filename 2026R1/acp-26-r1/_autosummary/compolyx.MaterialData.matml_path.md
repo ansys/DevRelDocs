@@ -4,4 +4,4 @@
 
 #### *property* MaterialData.matml_path
 
-Path to MatML file as provided by Workbench EngineeringData
+Path to MatML file as provided by Workbench EngineeringData.

@@ -4,4 +4,4 @@
 
 #### *property* Rosette.dir1
 
-Direction 1 of the Rosette
+Direction 1 of the Rosette.

@@ -4,4 +4,4 @@
 
 #### *property* ImportedModelingGroup.size
 
-Number of entities
+Number of entities.

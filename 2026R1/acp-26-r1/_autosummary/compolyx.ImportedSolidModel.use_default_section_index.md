@@ -4,4 +4,4 @@
 
 #### *property* ImportedSolidModel.use_default_section_index
 
-Use consecutive section numbering
+Use consecutive section numbering.

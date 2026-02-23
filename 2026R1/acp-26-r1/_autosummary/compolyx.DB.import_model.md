@@ -4,7 +4,7 @@
 
 #### DB.import_model(name, path, format, ignored_entities=None, convert_section_data=None, unit_system_type=None, reference_surface_input_unit_system_type=None)
 
-Create a model from file
+Create a model from file.
 
 * **Parameters:**
   - name: Custom name of the model.

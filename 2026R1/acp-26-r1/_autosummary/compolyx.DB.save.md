@@ -4,7 +4,7 @@
 
 #### DB.save(path=None, model=None, cache_data=None)
 
-Save active model
+Save active model.
 
 * **Parameters:**
   - path: File path

@@ -4,4 +4,4 @@
 
 #### *property* ImportedProductionPly.analysis_plies
 
-Analysis Plies of the Production Ply
+Analysis Plies of the Production Ply.

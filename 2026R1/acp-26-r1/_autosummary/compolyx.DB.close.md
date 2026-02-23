@@ -4,7 +4,7 @@
 
 #### DB.close(model=None)
 
-Closes the model
+Closes the model.
 
 * **Parameters:**
   - model: Model to close (optional). if no model is given, then all models are closed.

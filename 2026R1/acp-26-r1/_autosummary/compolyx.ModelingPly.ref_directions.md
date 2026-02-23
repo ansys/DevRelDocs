@@ -4,4 +4,4 @@
 
 #### *property* ModelingPly.ref_directions
 
-Returns the Reference Directions of the Modeling Ply
+Returns the Reference Directions of the Modeling Ply.

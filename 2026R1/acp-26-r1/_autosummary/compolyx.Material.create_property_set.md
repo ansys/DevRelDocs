@@ -4,7 +4,7 @@
 
 #### Material.create_property_set(property_name, \*\*kwargs)
 
-Function to create a specific property set
+Function to create a specific property set.
 
 * **Parameters:**
   - property_name: A string defining the PropertySet to be created.

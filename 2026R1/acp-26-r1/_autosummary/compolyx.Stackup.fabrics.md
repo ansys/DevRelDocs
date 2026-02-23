@@ -4,4 +4,4 @@
 
 #### *property* Stackup.fabrics
 
-Fabrics property of the Stackup
+Fabrics property of the Stackup.

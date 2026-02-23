@@ -4,4 +4,4 @@
 
 #### *property* EdgeSet.edge_set_type
 
-Edge Set Types can be: “By Reference”, “By Nodes”
+Edge Set Types can be: “By Reference”, “By Nodes.”

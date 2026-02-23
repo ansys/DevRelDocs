@@ -4,4 +4,4 @@
 
 #### *property* InterfaceLayer.oriented_selection_sets
 
-Oriented Selection Sets of the Interface Layer
+Oriented Selection Sets of the Interface Layer.

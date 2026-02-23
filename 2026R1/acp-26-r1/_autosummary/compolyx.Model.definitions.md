@@ -4,4 +4,4 @@
 
 #### *property* Model.definitions
 
-Definitions
+Definitions.

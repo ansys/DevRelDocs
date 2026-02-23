@@ -4,4 +4,4 @@
 
 #### *property* DB.active_model
 
-Active model
+Active model.

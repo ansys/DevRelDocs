@@ -4,7 +4,7 @@
 
 #### SolidModel.copy_snap_to_geometry_obj(source)
 
-Copy a Snap-To Geometry
+Copy a Snap-To Geometry.
 
 * **Parameters:**
   - source: Source object to copy

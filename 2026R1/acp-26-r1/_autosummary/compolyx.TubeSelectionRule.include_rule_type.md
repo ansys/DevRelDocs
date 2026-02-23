@@ -4,4 +4,4 @@
 
 #### *property* TubeSelectionRule.include_rule_type
 
-include type
+include type.

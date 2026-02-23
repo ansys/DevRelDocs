@@ -4,4 +4,4 @@
 
 #### *property* SubLaminate.thickness
 
-Thickness of the Sub Laminate
+Thickness of the Sub Laminate.

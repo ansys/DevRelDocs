@@ -4,4 +4,4 @@
 
 #### *property* Rosette.edge_set
 
-Edge Set for Rosette
+Edge Set for Rosette.

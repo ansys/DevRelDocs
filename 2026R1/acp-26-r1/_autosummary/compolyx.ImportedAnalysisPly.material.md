@@ -4,4 +4,4 @@
 
 #### *property* ImportedAnalysisPly.material
 
-Ply material
+Ply material.

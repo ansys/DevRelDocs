@@ -4,4 +4,4 @@
 
 #### *property* Sensor.price
 
-Price over all Entities of the Sensor
+Price over all Entities of the Sensor.

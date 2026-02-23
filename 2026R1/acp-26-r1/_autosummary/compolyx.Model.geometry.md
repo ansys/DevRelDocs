@@ -4,4 +4,4 @@
 
 #### *property* Model.geometry
 
-Geometry node
+Geometry node.

@@ -4,4 +4,4 @@
 
 #### *property* ImportedSolidModel.format
 
-File format of the imported mesh
+File format of the imported mesh.

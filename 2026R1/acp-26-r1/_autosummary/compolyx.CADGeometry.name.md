@@ -4,4 +4,4 @@
 
 #### *property* CADGeometry.name
 
-Name of the object
+Name of the object.

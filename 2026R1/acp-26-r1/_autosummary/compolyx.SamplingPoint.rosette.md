@@ -4,4 +4,4 @@
 
 #### *property* SamplingPoint.rosette
 
-Rosette of the Sampling Point
+Rosette of the Sampling Point.

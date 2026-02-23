@@ -4,4 +4,4 @@
 
 #### *property* ModelingPly.ply_angle
 
-Ply Angle of the Modeling Ply
+Ply Angle of the Modeling Ply.

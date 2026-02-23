@@ -4,4 +4,4 @@
 
 #### *property* ElementSet.planar
 
-True if the Element Set has a planar topology
+True if the Element Set has a planar topology.

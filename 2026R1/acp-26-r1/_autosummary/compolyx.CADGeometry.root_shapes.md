@@ -4,4 +4,4 @@
 
 #### *property* CADGeometry.root_shapes
 
-Dictonary with all free shapes of the CAD Geometry
+Dictonary with all free shapes of the CAD Geometry.

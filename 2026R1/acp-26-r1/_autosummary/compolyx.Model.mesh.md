@@ -4,4 +4,4 @@
 
 #### *property* Model.mesh
 
-Mesh of this model
+Mesh of this model.

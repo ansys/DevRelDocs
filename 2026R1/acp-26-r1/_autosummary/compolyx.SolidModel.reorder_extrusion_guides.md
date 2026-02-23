@@ -4,7 +4,7 @@
 
 #### SolidModel.reorder_extrusion_guides(source, target, option='after')
 
-Reorders the extrusion guides
+Reorders the extrusion guides.
 
 * **Parameters:**
   - source: Extrusion guide to be reordered.

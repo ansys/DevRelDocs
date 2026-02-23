@@ -4,4 +4,4 @@
 
 #### *property* LookUpTable1D.origin
 
-The Origin of the Look Up Table
+The Origin of the Look Up Table.

@@ -4,4 +4,4 @@
 
 #### *property* ImportedSolidModel.analysis_plies
 
-Analysis Plies of the Solid Model
+Analysis Plies of the Solid Model.

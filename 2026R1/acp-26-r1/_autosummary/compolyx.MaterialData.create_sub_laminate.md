@@ -4,7 +4,7 @@
 
 #### MaterialData.create_sub_laminate(name, id=None, fabrics=None, symmetry='No Symmetry', layup_sequence='Top-Down')
 
-Create a new sublaminate
+Create a new sublaminate.
 
 * **Parameters:**
   - name: Name for the sublaminate.

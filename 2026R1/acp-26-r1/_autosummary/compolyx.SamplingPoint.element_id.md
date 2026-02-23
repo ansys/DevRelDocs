@@ -4,4 +4,4 @@
 
 #### *property* SamplingPoint.element_id
 
-Element ID (label) of the Sampling Point
+Element ID (label) of the Sampling Point.

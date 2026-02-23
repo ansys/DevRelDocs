@@ -4,4 +4,4 @@
 
 #### *property* ExtrusionGuide.radius
 
-radius up to which nodal guide translations are propagated through the mesh
+radius up to which nodal guide translations are propagated through the mesh.

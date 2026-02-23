@@ -4,4 +4,4 @@
 
 #### *property* PublishedParameter.acp_type
 
-ACP parameter type. Can be one of: ‘int’, ‘float’, ‘float_list’, ‘bool’, ‘string’ or None
+ACP parameter type. Can be one of: ‘int’, ‘float’, ‘float_list’, ‘bool’, ‘string’ or None.

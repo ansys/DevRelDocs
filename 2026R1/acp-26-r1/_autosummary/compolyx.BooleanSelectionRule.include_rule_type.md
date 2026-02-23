@@ -4,4 +4,4 @@
 
 #### *property* BooleanSelectionRule.include_rule_type
 
-include type
+include type.

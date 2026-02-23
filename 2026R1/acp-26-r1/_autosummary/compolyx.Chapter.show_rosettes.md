@@ -4,4 +4,4 @@
 
 #### *property* Chapter.show_rosettes
 
-Show the rosettes linked to a ply in snapshots
+Show the rosettes linked to a ply in snapshots.

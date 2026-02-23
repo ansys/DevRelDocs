@@ -4,7 +4,7 @@
 
 #### DB.refresh_acph5(path, external_sources, input_parameters=None, initialize=False, unit_system_type=None)
 
-Refresh an .acph5 database (Workbench application mode only)
+Refresh an .acph5 database (Workbench application mode only).
 
 * **Parameters:**
   - path: File path to the .acph5 file.
