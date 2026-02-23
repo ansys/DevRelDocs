@@ -95,99 +95,6 @@
       href: operator-specifications/averaging/to_nodal.md
     - name: to nodal fc
       href: operator-specifications/averaging/to_nodal_fc.md
-  - name: composite
-    href: operator-specifications/composite/composite_category.md
-    items:
-    - name: add default data
-      href: operator-specifications/composite/add_default_data.md
-    - name: composite failure operator
-      href: operator-specifications/composite/composite_failure_operator.md
-    - name: composite field variable operator
-      href: operator-specifications/composite/composite_field_variable_operator.md
-    - name: composite scoping operator
-      href: operator-specifications/composite/composite_scoping_operator.md
-    - name: convert sampling point to json
-      href: operator-specifications/composite/convert_sampling_point_to_json.md
-    - name: core shear operator
-      href: operator-specifications/composite/core_shear_operator.md
-    - name: cuntze operator
-      href: operator-specifications/composite/cuntze_operator.md
-    - name: evaluate failure criterion per scope
-      href: operator-specifications/composite/evaluate_failure_criterion_per_scope.md
-    - name: evaluate sampling point
-      href: operator-specifications/composite/evaluate_sampling_point.md
-    - name: face sheet wrinkling operator
-      href: operator-specifications/composite/face_sheet_wrinkling_operator.md
-    - name: failure measure converter
-      href: operator-specifications/composite/failure_measure_converter.md
-    - name: filter ply data operator
-      href: operator-specifications/composite/filter_ply_data_operator.md
-    - name: get field properties operator
-      href: operator-specifications/composite/get_field_properties_operator.md
-    - name: hashin operator
-      href: operator-specifications/composite/hashin_operator.md
-    - name: hill operator
-      href: operator-specifications/composite/hill_operator.md
-    - name: hoffman operator
-      href: operator-specifications/composite/hoffman_operator.md
-    - name: inistate field variable operator
-      href: operator-specifications/composite/inistate_field_variable_operator.md
-    - name: interlaminar normal stress operator
-      href: operator-specifications/composite/interlaminar_normal_stress_operator.md
-    - name: larc operator
-      href: operator-specifications/composite/larc_operator.md
-    - name: layup provider operator
-      href: operator-specifications/composite/layup_provider_operator.md
-    - name: ls dyna keyword parser
-      href: operator-specifications/composite/ls_dyna_keyword_parser.md
-    - name: ls dyna material support provider
-      href: operator-specifications/composite/ls_dyna_material_support_provider.md
-    - name: ls dyna preparing results
-      href: operator-specifications/composite/ls_dyna_preparing_results.md
-    - name: map to reference surface operator
-      href: operator-specifications/composite/map_to_reference_surface_operator.md
-    - name: max over multiple failure criteria operator
-      href: operator-specifications/composite/max_over_multiple_failure_criteria_operator.md
-    - name: max strain operator
-      href: operator-specifications/composite/max_strain_operator.md
-    - name: mechanical sampling point operator
-      href: operator-specifications/composite/mechanical_sampling_point_operator.md
-    - name: minmax per element operator
-      href: operator-specifications/composite/minmax_per_element_operator.md
-    - name: multiple failure criteria operator
-      href: operator-specifications/composite/multiple_failure_criteria_operator.md
-    - name: nearest neighbor operator
-      href: operator-specifications/composite/nearest_neighbor_operator.md
-    - name: puck operator
-      href: operator-specifications/composite/puck_operator.md
-    - name: reference surface operator
-      href: operator-specifications/composite/reference_surface_operator.md
-    - name: result definition
-      href: operator-specifications/composite/result_definition.md
-    - name: run mapdl operator
-      href: operator-specifications/composite/run_mapdl_operator.md
-    - name: scope config reader
-      href: operator-specifications/composite/scope_config_reader.md
-    - name: scope generator
-      href: operator-specifications/composite/scope_generator.md
-    - name: shear crimping operator
-      href: operator-specifications/composite/shear_crimping_operator.md
-    - name: short fiber failure criterion evaluator
-      href: operator-specifications/composite/short_fiber_failure_criterion_evaluator.md
-    - name: short fiber fatigue equivalent stress operator
-      href: operator-specifications/composite/short_fiber_fatigue_equivalent_stress_operator.md
-    - name: short fiber lifetime operator
-      href: operator-specifications/composite/short_fiber_lifetime_operator.md
-    - name: string container
-      href: operator-specifications/composite/string_container.md
-    - name: tsai hill operator
-      href: operator-specifications/composite/tsai_hill_operator.md
-    - name: tsai wu operator
-      href: operator-specifications/composite/tsai_wu_operator.md
-    - name: unit system default
-      href: operator-specifications/composite/unit_system_default.md
-    - name: von mises operator
-      href: operator-specifications/composite/von_mises_operator.md
   - name: compression
     href: operator-specifications/compression/compression_category.md
     items:
@@ -376,8 +283,6 @@
       href: operator-specifications/logic/identical_string_fields.md
     - name: included fields
       href: operator-specifications/logic/included_fields.md
-    - name: merge solid shell fields
-      href: operator-specifications/logic/merge_solid_shell_fields.md
     - name: solid shell fields
       href: operator-specifications/logic/solid_shell_fields.md
     - name: split data sources
@@ -1056,14 +961,6 @@
       href: operator-specifications/result/euler_nodes.md
     - name: fluid velocity
       href: operator-specifications/result/fluid_velocity.md
-    - name: gasket deformation
-      href: operator-specifications/result/gasket_deformation.md
-    - name: gasket deformation X
-      href: operator-specifications/result/gasket_deformation_X.md
-    - name: gasket deformation XY
-      href: operator-specifications/result/gasket_deformation_XY.md
-    - name: gasket deformation XZ
-      href: operator-specifications/result/gasket_deformation_XZ.md
     - name: gasket inelastic closure
       href: operator-specifications/result/gasket_inelastic_closure.md
     - name: gasket inelastic closure X
@@ -1254,8 +1151,6 @@
       href: operator-specifications/result/nmisc.md
     - name: nodal force
       href: operator-specifications/result/nodal_force.md
-    - name: nodal moment
-      href: operator-specifications/result/nodal_moment.md
     - name: nodal rotation
       href: operator-specifications/result/nodal_rotation.md
     - name: nodal rotational acceleration
@@ -1316,8 +1211,6 @@
       href: operator-specifications/result/part_momentum.md
     - name: part rigid body velocity
       href: operator-specifications/result/part_rigid_body_velocity.md
-    - name: PL2
-      href: operator-specifications/result/PL2.md
     - name: plastic state variable
       href: operator-specifications/result/plastic_state_variable.md
     - name: plastic strain
@@ -1639,145 +1532,6 @@
       href: operator-specifications/server/grpc_shutdown_server.md
     - name: grpc start server
       href: operator-specifications/server/grpc_start_server.md
-  - name: sound
-    href: operator-specifications/sound/sound_category.md
-    items:
-    - name: append zeros to signal
-      href: operator-specifications/sound/append_zeros_to_signal.md
-    - name: apply gain
-      href: operator-specifications/sound/apply_gain.md
-    - name: compute fluctuation strength
-      href: operator-specifications/sound/compute_fluctuation_strength.md
-    - name: compute istft
-      href: operator-specifications/sound/compute_istft.md
-    - name: compute level over time
-      href: operator-specifications/sound/compute_level_over_time.md
-    - name: compute loudness ansi s3 4
-      href: operator-specifications/sound/compute_loudness_ansi_s3_4.md
-    - name: compute loudness iso532 1
-      href: operator-specifications/sound/compute_loudness_iso532_1.md
-    - name: compute loudness iso532 1 frequency input
-      href: operator-specifications/sound/compute_loudness_iso532_1_frequency_input.md
-    - name: compute loudness iso532 1 vs time
-      href: operator-specifications/sound/compute_loudness_iso532_1_vs_time.md
-    - name: compute loudness iso532 2
-      href: operator-specifications/sound/compute_loudness_iso532_2.md
-    - name: compute octave levels from psd
-      href: operator-specifications/sound/compute_octave_levels_from_psd.md
-    - name: compute octave levels from psd ansi s1 11 1986
-      href: operator-specifications/sound/compute_octave_levels_from_psd_ansi_s1_11_1986.md
-    - name: compute octave levels from signal
-      href: operator-specifications/sound/compute_octave_levels_from_signal.md
-    - name: compute one third octave levels from psd
-      href: operator-specifications/sound/compute_one_third_octave_levels_from_psd.md
-    - name: compute one third octave levels from psd ansi s1 11 1986
-      href: operator-specifications/sound/compute_one_third_octave_levels_from_psd_ansi_s1_11_1986.md
-    - name: compute one third octave levels from signal
-      href: operator-specifications/sound/compute_one_third_octave_levels_from_signal.md
-    - name: compute overall level
-      href: operator-specifications/sound/compute_overall_level.md
-    - name: compute power spectral density
-      href: operator-specifications/sound/compute_power_spectral_density.md
-    - name: compute PR
-      href: operator-specifications/sound/compute_PR.md
-    - name: compute prominence ratio for orders over time
-      href: operator-specifications/sound/compute_prominence_ratio_for_orders_over_time.md
-    - name: compute roughness
-      href: operator-specifications/sound/compute_roughness.md
-    - name: compute sharpness
-      href: operator-specifications/sound/compute_sharpness.md
-    - name: compute sharpness din45692
-      href: operator-specifications/sound/compute_sharpness_din45692.md
-    - name: compute sharpness frequency input
-      href: operator-specifications/sound/compute_sharpness_frequency_input.md
-    - name: compute sharpness over time
-      href: operator-specifications/sound/compute_sharpness_over_time.md
-    - name: compute sound power level iso3744
-      href: operator-specifications/sound/compute_sound_power_level_iso3744.md
-    - name: compute spectral centroid
-      href: operator-specifications/sound/compute_spectral_centroid.md
-    - name: compute stft
-      href: operator-specifications/sound/compute_stft.md
-    - name: compute TNR
-      href: operator-specifications/sound/compute_TNR.md
-    - name: compute tonality aures
-      href: operator-specifications/sound/compute_tonality_aures.md
-    - name: compute tonality din45681
-      href: operator-specifications/sound/compute_tonality_din45681.md
-    - name: compute tonality ecma418 2
-      href: operator-specifications/sound/compute_tonality_ecma418_2.md
-    - name: compute tonality iso1996 2
-      href: operator-specifications/sound/compute_tonality_iso1996_2.md
-    - name: compute tonality iso1996 2 over time
-      href: operator-specifications/sound/compute_tonality_iso1996_2_over_time.md
-    - name: compute tonality isots 20065
-      href: operator-specifications/sound/compute_tonality_isots_20065.md
-    - name: compute tone to noise ratio for orders over time
-      href: operator-specifications/sound/compute_tone_to_noise_ratio_for_orders_over_time.md
-    - name: create field from vector
-      href: operator-specifications/sound/create_field_from_vector.md
-    - name: create noise profile from automatic estimation
-      href: operator-specifications/sound/create_noise_profile_from_automatic_estimation.md
-    - name: create noise profile from noise samples
-      href: operator-specifications/sound/create_noise_profile_from_noise_samples.md
-    - name: create noise profile from white noise power
-      href: operator-specifications/sound/create_noise_profile_from_white_noise_power.md
-    - name: filter design minimum phase FIR filter from FRF
-      href: operator-specifications/sound/filter_design_minimum_phase_FIR_filter_from_FRF.md
-    - name: filter signal
-      href: operator-specifications/sound/filter_signal.md
-    - name: get cropped signal
-      href: operator-specifications/sound/get_cropped_signal.md
-    - name: get frequency weighting
-      href: operator-specifications/sound/get_frequency_weighting.md
-    - name: isolate orders
-      href: operator-specifications/sound/isolate_orders.md
-    - name: load FRF from txt
-      href: operator-specifications/sound/load_FRF_from_txt.md
-    - name: load project sound power level iso3744
-      href: operator-specifications/sound/load_project_sound_power_level_iso3744.md
-    - name: load sound samples from txt
-      href: operator-specifications/sound/load_sound_samples_from_txt.md
-    - name: load wav sas
-      href: operator-specifications/sound/load_wav_sas.md
-    - name: resample
-      href: operator-specifications/sound/resample.md
-    - name: sound composer generate sound bbn
-      href: operator-specifications/sound/sound_composer_generate_sound_bbn.md
-    - name: sound composer generate sound bbn two parameters
-      href: operator-specifications/sound/sound_composer_generate_sound_bbn_two_parameters.md
-    - name: sound composer generate sound harmonics
-      href: operator-specifications/sound/sound_composer_generate_sound_harmonics.md
-    - name: sound composer generate sound harmonics two parameters
-      href: operator-specifications/sound/sound_composer_generate_sound_harmonics_two_parameters.md
-    - name: sound composer generate sound spectrum
-      href: operator-specifications/sound/sound_composer_generate_sound_spectrum.md
-    - name: sound composer load project
-      href: operator-specifications/sound/sound_composer_load_project.md
-    - name: sound composer load source bbn
-      href: operator-specifications/sound/sound_composer_load_source_bbn.md
-    - name: sound composer load source bbn two parameters
-      href: operator-specifications/sound/sound_composer_load_source_bbn_two_parameters.md
-    - name: sound composer load source harmonics
-      href: operator-specifications/sound/sound_composer_load_source_harmonics.md
-    - name: sound composer load source harmonics two parameters
-      href: operator-specifications/sound/sound_composer_load_source_harmonics_two_parameters.md
-    - name: sound composer load source spectrum
-      href: operator-specifications/sound/sound_composer_load_source_spectrum.md
-    - name: sound composer save project
-      href: operator-specifications/sound/sound_composer_save_project.md
-    - name: sum signals
-      href: operator-specifications/sound/sum_signals.md
-    - name: write wav sas
-      href: operator-specifications/sound/write_wav_sas.md
-    - name: xtract
-      href: operator-specifications/sound/xtract.md
-    - name: xtract denoiser
-      href: operator-specifications/sound/xtract_denoiser.md
-    - name: xtract tonal
-      href: operator-specifications/sound/xtract_tonal.md
-    - name: xtract transient
-      href: operator-specifications/sound/xtract_transient.md
   - name: utility
     href: operator-specifications/utility/utility_category.md
     items:
@@ -1855,16 +1609,6 @@
       href: operator-specifications/utility/html_doc.md
     - name: incremental concatenate as fc
       href: operator-specifications/utility/incremental_concatenate_as_fc.md
-    - name: incremental merge field
-      href: operator-specifications/utility/incremental_merge_field.md
-    - name: incremental merge fields container
-      href: operator-specifications/utility/incremental_merge_fields_container.md
-    - name: incremental merge mesh
-      href: operator-specifications/utility/incremental_merge_mesh.md
-    - name: incremental merge meshes container
-      href: operator-specifications/utility/incremental_merge_meshes_container.md
-    - name: incremental merge property field
-      href: operator-specifications/utility/incremental_merge_property_field.md
     - name: ints to scoping
       href: operator-specifications/utility/ints_to_scoping.md
     - name: make for each range
@@ -1967,6 +1711,6 @@
       href: operator-specifications/utility/unitary_field.md
     - name: weighted merge fields by label
       href: operator-specifications/utility/weighted_merge_fields_by_label.md
-
+  
 - name: Changelog
   href: changelog/changelog.md
