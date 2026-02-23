@@ -2,12 +2,12 @@
 
 This documentation contains the API reference for OpenTD, providing a comprehensive overview of all available types and methods. For an introduction to key concepts and a getting started tutorial, please consult the "Getting started" section.
 
-## API References
+## API references
 
 OpenTD provides API documentation for the following .NET frameworks:
 
-- [.NET 4 Reference](net4-reference/index.md) - OpenTD API reference for .NET Framework 4
-- [.NET 8 Reference](net8-reference/index.md) - OpenTD API reference for .NET Framework 8
+- [.NET 4 reference](net4-reference/index.md) - OpenTD API reference for .NET Framework 4
+- [.NET 8 reference](net8-reference/index.md) - OpenTD API reference for .NET Framework 8
 
 ## Namespaces
 
