@@ -4,4 +4,4 @@
 
 #### *property* CutoffSelectionRule.origin
 
-Origin of the offset and angle interpolation for `variable_taper` cutoff rules
+Origin of the offset and angle interpolation for ‘variable_taper’ cutoff rules

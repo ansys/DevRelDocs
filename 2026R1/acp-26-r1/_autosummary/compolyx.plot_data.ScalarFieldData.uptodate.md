@@ -4,4 +4,4 @@
 
 #### *property* ScalarFieldData.uptodate
 
-Whether the plot is up-to-date.
+Whether the plot is uptodate.

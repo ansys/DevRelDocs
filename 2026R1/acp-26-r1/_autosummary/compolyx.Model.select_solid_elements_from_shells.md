@@ -7,6 +7,6 @@
 Selects the solid element within given selection and deselects the shell elements.
 
 * **Parameters:**
-  - selection: The selection to update. Can be given as string `sel0`-`sel5`.
+  - selection: The selection to update. Can be given as string ‘sel0’-‘sel5’.
 * **Return:**
   Number of selected solid elements.

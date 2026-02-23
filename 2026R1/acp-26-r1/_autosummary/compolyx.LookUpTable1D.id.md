@@ -4,4 +4,4 @@
 
 #### *property* LookUpTable1D.id
 
-ID of object
+ID of the object

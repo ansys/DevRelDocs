@@ -4,4 +4,4 @@
 
 #### *property* SolidModel.enabled
 
-Whether this object is currently enabled or not. Solid Models are are enabled in pre and shared mode.
+Indicates whether the object is enabled. Solid Models are are enabled in pre and shared mode.

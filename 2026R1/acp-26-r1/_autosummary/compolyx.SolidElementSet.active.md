@@ -4,4 +4,4 @@
 
 #### *property* SolidElementSet.active
 
-active status of object
+Active status of the object

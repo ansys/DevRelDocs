@@ -4,4 +4,4 @@
 
 #### *property* ModelingPly.active
 
-Sequence Entity is active
+Indicates whether the sequence entity is active

@@ -4,4 +4,4 @@
 
 #### *property* View.locked
 
-A View which is imported from an other source can not be modified.
+A View which is imported from another source cannot be modified.

@@ -4,4 +4,4 @@
 
 #### *property* PlyBook.name
 
-Name of object
+Name of the object

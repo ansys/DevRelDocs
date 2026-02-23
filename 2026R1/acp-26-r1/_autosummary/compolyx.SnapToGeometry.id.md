@@ -4,4 +4,4 @@
 
 #### *property* SnapToGeometry.id
 
-ID of object
+ID of the object

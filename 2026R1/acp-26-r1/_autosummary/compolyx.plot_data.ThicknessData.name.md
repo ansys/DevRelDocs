@@ -4,4 +4,4 @@
 
 #### *property* ThicknessData.name
 
-Name of object
+Name of the object

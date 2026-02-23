@@ -4,4 +4,4 @@
 
 #### *property* EdgeSet.uid
 
-UID of object
+UID of the object

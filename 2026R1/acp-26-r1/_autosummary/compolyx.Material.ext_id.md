@@ -4,4 +4,4 @@
 
 #### *property* Material.ext_id
 
-Id of corresponding Material in external source.
+ID of corresponding Material in external source.

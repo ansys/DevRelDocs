@@ -4,4 +4,4 @@
 
 #### *property* SphericalSelectionRule.changed
 
-Triggers Observable to dispatch changed message
+Triggers an observable to dispatch a change notification

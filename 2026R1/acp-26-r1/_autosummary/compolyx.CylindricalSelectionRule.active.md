@@ -4,4 +4,4 @@
 
 #### *property* CylindricalSelectionRule.active
 
-Active status of object
+Active status of the object

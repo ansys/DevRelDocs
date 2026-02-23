@@ -4,4 +4,4 @@
 
 #### *property* CADCompound.is_free
 
-Boolean whether the shape is free or not.
+Boolean that indicates whether the shape is free..

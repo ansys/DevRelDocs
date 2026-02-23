@@ -4,4 +4,4 @@
 
 #### *property* BooleanSelectionRule.id
 
-ID of object
+ID of the object

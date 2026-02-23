@@ -4,4 +4,4 @@
 
 #### *property* FieldDefinition.active
 
-Field Definition is active
+Indicates whether the field definition is active

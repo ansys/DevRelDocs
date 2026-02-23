@@ -4,4 +4,4 @@
 
 #### *property* Script.uptodate
 
-Whether the script execution is up-to-date.
+Whether the script execution is up to date.

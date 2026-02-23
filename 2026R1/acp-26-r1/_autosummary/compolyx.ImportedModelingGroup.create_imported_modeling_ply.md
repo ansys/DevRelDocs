@@ -13,19 +13,20 @@ Create modeling ply.
   - offset: whether the mesh defines the bottom, middle, or top surface of the ply.
   - ply_material: Ply material (fabric).
   - ply_angle: Angle of the ply material.
-  - mesh_import_type: The source of the imported mesh (`from_h5_composite_cae` or `from_geometry`).
+  - mesh_import_type: The source of the imported mesh (‘from_h5_composite_cae’ or ‘from_geometry’).
   - mesh_geometry: If mesh_import_type is from_geometry, then this geometry defines the surface of the ply.
-  - rosette_selection_method: Method to calculate element orientation. Available options: `minimum_angle`, `maximum_angle`, `minimum_distance`, `minimum_angle_superposed`, `minimum_distance_superposed`,
-      `maximum_angle_superposed`, `ansys_classic`, and
-      `tabular_values`.
+  - rosette_selection_method: Method to calculate element orientation. Valid options: ‘minimum_angle’, ‘maximum_angle’, ‘minimum_distance’,
+    : ‘minimum_angle_superposed’, ‘minimum_distance_superposed’,
+      ‘maximum_angle_superposed’, ‘ansys_classic’, and
+      ‘tabular_values’.
   - rosettes: Rosettes for the imported modeling ply.
-  - reference_direction_field: Table column used to compute reference directions. Only needed if rosette_selection_method is `tabular_values`.
+  - reference_direction_field: Table column used to compute reference directions. Only needed if rosette_selection_method is tabular_values.
   - thickness_definition: Enum that describes the method used for thickness definition (the default is nominal).
-  - thickness_field: Lookup table column with scalar values for thickness sampling (optional).
-  - thickness_field_type: The type of thickness field (`absolute` or `relative`).
-  - draping: The type of draping to be used (`no_draping` or `tabular_values`).
-  - angle_1_field: Lookup table column with scalar values for angle 1.
-  - angle_2_field: Lookup table column with scalar values for angle 2.
+  - thickness_field: Look-Up table column with scalar values for thickness sampling (optional).
+  - thickness_field_type: The type of thickness field (‘absolute’ or ‘relative’).
+  - draping: The type of draping to be used (“no_draping” or “tabular_values”).
+  - angle_1_field: Look-Up table column with scalar values for angle 1.
+  - angle_2_field: Look-Up table column with scalar values for angle 2.
   - rotation_angle: Angle to rotate the reference directions (in degree).
 * **Returns:**
   The created imported modeling ply.

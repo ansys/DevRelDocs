@@ -4,4 +4,4 @@
 
 #### *property* ElementSelectionRule.extent
 
-extent of the rule
+Extent of the rule

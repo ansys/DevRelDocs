@@ -4,7 +4,7 @@
 
 #### MaterialData.copy_sub_laminate(source, on_duplicate_name='keep_both', memo=None)
 
-Copy a sublamiante.
+Copy a sublaminate
 
 * **Parameters:**
   - source: Source object to copy.

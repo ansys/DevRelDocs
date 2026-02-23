@@ -4,4 +4,4 @@
 
 #### *property* ElementSet.boundaries
 
-Get the boundaries of the Element Set
+Returns the boundaries of the Element Set

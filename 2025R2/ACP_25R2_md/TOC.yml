@@ -7,6 +7,8 @@
     href: getting_started_acp.md#basic-scripting
   - name: Advanced scripting
     href: getting_started_acp.md#advanced-scripting
+- name: Extending the Python environment
+  href: extending_python_environment.md
 - name: The Python object tree
   href: python_object_tree.md
 - name: Classes

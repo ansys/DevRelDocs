@@ -4,4 +4,4 @@
 
 #### *property* CADSolid.uid
 
-UID of object
+UID of the object

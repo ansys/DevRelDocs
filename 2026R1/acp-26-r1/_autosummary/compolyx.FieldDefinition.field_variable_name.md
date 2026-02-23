@@ -4,4 +4,4 @@
 
 #### *property* FieldDefinition.field_variable_name
 
-The name of the field variable defined.
+Name of the field variable.

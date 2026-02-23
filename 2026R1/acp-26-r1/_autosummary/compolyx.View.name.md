@@ -4,4 +4,4 @@
 
 #### *property* View.name
 
-Name of object
+Name of the object

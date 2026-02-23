@@ -1,5 +1,7 @@
 # Classes
 
+The following sections group the ComPoLyX Python API classes by topic.
+
 * [Database](db_database.md)
 * [Material classes](classes_materialdata.md)
 * [Model classes](classes_model.md)

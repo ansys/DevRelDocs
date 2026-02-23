@@ -17,7 +17,7 @@ Create new slab offset rule.
   - element_set: Preselection of elements in the form of an element set where the rule is applied on.
   - include_rule_type: Boolean whether to select the element inside or outside the variable tube.
   - use_offset_correction: Boolean whether to evaluate the radius/offset along the surface.
-  - distance_along_edge: Boolean whether to evaluate the distance along the edge or direction of the rule. Default is `False`.
-  - inherit_from_lookup_table: Boolean whether to inherit origin and direction from the attached lookup table. Default is `False`.
+  - distance_along_edge: Boolean whether to evaluate the distance along the edge or direction of the rule. Default is ‘False’.
+  - inherit_from_lookup_table: Boolean whether to inherit origin and direction from the attached lookup table. Default is ‘False’.
 * **Returns:**
   The created rule.

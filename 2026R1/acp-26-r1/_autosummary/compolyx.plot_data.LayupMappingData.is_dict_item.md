@@ -4,4 +4,4 @@
 
 #### *property* LayupMappingData.is_dict_item
 
-Specifies whether the object is an item of a dict
+Indicates whether the object is an item in a dictionary

@@ -4,4 +4,4 @@
 
 #### AnalysisPly.update()
 
-Update the analysis ply.
+Updates the analysis ply  
