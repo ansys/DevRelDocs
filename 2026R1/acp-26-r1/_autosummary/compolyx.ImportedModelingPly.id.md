@@ -4,4 +4,4 @@
 
 #### *property* ImportedModelingPly.id
 
-ID of object
+ID of the object

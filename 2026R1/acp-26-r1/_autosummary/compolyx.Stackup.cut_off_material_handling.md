@@ -4,4 +4,4 @@
 
 #### *property* Stackup.cut_off_material_handling
 
-Type defining how cut-off material is used in cut-off areas of this stackup. Types: [‘Computed’, ‘Global’, ‘Custom’]
+Defines how cut‑off material is used in cut‑off areas of this stackup. Types: [‘Computed’, ‘Global’, ‘Custom’]

@@ -32,8 +32,8 @@ Holds string data describing a Property located on given entities (the [StringFi
 * [location](classansys-dpf-stringfield.md#classansys-dpf-stringfield-1a36498c54c9f757124419a3bc56218339)
 * [operator=](classansys-dpf-stringfield.md#classansys-dpf-stringfield-1a8c5b159bd81a9ed0479e5a7552230d9d)
 * [operator=](classansys-dpf-stringfield.md#classansys-dpf-stringfield-1ac803950756f1fbf53ad35e02604fb9b6)
-* [push\_back](classansys-dpf-stringfield.md#classansys-dpf-stringfield-1a06eaa63c638cbe234067442096a3318a)
-* [push\_back](classansys-dpf-stringfield.md#classansys-dpf-stringfield-1a9371a94961b517ac01791fff526a00d1)
+* [push_back](classansys-dpf-stringfield.md#classansys-dpf-stringfield-1a06eaa63c638cbe234067442096a3318a)
+* [push_back](classansys-dpf-stringfield.md#classansys-dpf-stringfield-1a9371a94961b517ac01791fff526a00d1)
 * [reserve](classansys-dpf-stringfield.md#classansys-dpf-stringfield-1a87afeb83d4e137acc852fcc620ce232c)
 * [resize](classansys-dpf-stringfield.md#classansys-dpf-stringfield-1aec82d7162816699fa809d59547545b76)
 * [scoping](classansys-dpf-stringfield.md#classansys-dpf-stringfield-1aeeb9940f52222c264618d0788360300a)
@@ -124,8 +124,8 @@ Create an empty property field with a client.
 **Parameters**:
 
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) to create the property field on.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **number_of_entities** = 0 : [in] Number of entities reserved.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **data_size** = 0 : [in] Reserved size of data.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **number_of_entities** = 0 : [in] Number of entities reserved.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **data_size** = 0 : [in] Reserved size of data.
 
 **Return type**: 
 
@@ -184,8 +184,8 @@ Create a property with number of entities and data size.
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **number_of_entities** = 0 : [in] Number of entities reserved.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **data_size** = 0 : [in] Reserved size of data.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **number_of_entities** = 0 : [in] Number of entities reserved.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **data_size** = 0 : [in] Reserved size of data.
 
 **Return type**: 
 
@@ -387,7 +387,7 @@ Size of the data container.
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -396,7 +396,7 @@ Size of the data container.
 -->
 
 <a id="classansys-dpf-stringfield-1a06eaa63c638cbe234067442096a3318a"></a>
-### Function push\_back
+### Function push_back
 
 ![][public]
 
@@ -414,7 +414,7 @@ Push back the entity data.
 
 **Parameters**:
 
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**: [in] Id of entity for which to push data.
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**: [in] Id of entity for which to push data.
 * std::vector< std::string > const & **values**: [in] Vector of data for entity.
 
 **Return type**: void
@@ -426,7 +426,7 @@ Push back the entity data.
 -->
 
 <a id="classansys-dpf-stringfield-1a9371a94961b517ac01791fff526a00d1"></a>
-### Function push\_back
+### Function push_back
 
 ![][public]
 
@@ -444,9 +444,9 @@ Push back the entity data.
 
 **Parameters**:
 
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**: [in] Id of entity for which to push data.
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**: [in] Id of entity for which to push data.
 * const std::string * **values**: [in] Vector of data for entity.
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **size**: [in] Number of entities.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **size**: [in] Number of entities.
 
 **Return type**: void
 
@@ -594,7 +594,7 @@ void ansys::dpf::StringField::entityData(dp_index entity_index, DpfVector< std::
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **entity_index**: [in] Index of entity for which to get data.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **entity_index**: [in] Index of entity for which to get data.
 * DpfVector< std::string > & **data**: [out] Pointer to the data.
 
 **Return type**: void
@@ -627,7 +627,7 @@ void ansys::dpf::StringField::entityDataById(dp_id entity_id, DpfVector< std::st
 
 **Parameters**:
 
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**: [in] Id of entity for which to get data.
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**: [in] Id of entity for which to get data.
 * DpfVector< std::string > & **data**: [out] Pointer to the data.
 
 **Return type**: void
@@ -657,8 +657,8 @@ Reserve the [Field](classansys-dpf-field.md#classansys-dpf-field). Only implemen
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **number_of_entities**: [in] Number of entities.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **overall_size** = 0 : [in] Total size of entity data.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **number_of_entities**: [in] Number of entities.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **overall_size** = 0 : [in] Total size of entity data.
 
 **Return type**: void
 
@@ -687,8 +687,8 @@ Reserve the [Field](classansys-dpf-field.md#classansys-dpf-field).
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **number_of_entities**: [in] Number of entities.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **overall_size**: [in] Total size of entity data.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **number_of_entities**: [in] Number of entities.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **overall_size**: [in] Total size of entity data.
 
 **Return type**: void
 

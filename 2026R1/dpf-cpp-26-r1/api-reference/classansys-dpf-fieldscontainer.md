@@ -29,7 +29,7 @@ The fields container is designed as a set of fields ordered through labels and i
 * [at](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer-1a475eafcf1caa61c8113d4ea4dbcaa881)
 * [callAPI](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1aea34d37e0c080126eff70db34bf46597)
 * [createSubFieldsContainer](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer-1a218a256c1ff051e4c3b9e979f1af3599)
-* [deep\_copy](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer-1a7292a30f43f3d0276829f2a704569304)
+* [deep_copy](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer-1a7292a30f43f3d0276829f2a704569304)
 * [describe](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a9977945710983bc03d2940fa007847b2)
 * [empty](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a39cd546c42518e2332be8f287db95459)
 * [emptyFieldsContainer](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer-1af4bcbf19662088a80192c4306e76eab9)
@@ -95,7 +95,7 @@ ansys::dpf::FieldsContainer::FieldsContainer()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -124,7 +124,7 @@ Create a new fields container on a server.
 
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -154,7 +154,7 @@ Create a collection of fields with the given labels on a server.
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 * std::vector< std::string > const & **labels**: [in] Labels for fields.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -184,7 +184,7 @@ Retrieve an existing instance of [FieldsContainer](classansys-dpf-fieldscontaine
 * int **id**: [in] Id of the [FieldsContainer](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer) object on the server's database.
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -213,7 +213,7 @@ Create a collection of fields with the given labels.
 
 * const std::vector< std::string > & **labels**: [in] Labels for fields.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -238,7 +238,7 @@ virtual ansys::dpf::FieldsContainer::~FieldsContainer()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -267,7 +267,7 @@ ansys::dpf::FieldsContainer::FieldsContainer(FieldsContainer const &)
 
 * FieldsContainer const &
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -296,7 +296,7 @@ ansys::dpf::FieldsContainer::FieldsContainer(FieldsContainer &&) noexcept
 
 * FieldsContainer &&
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -375,7 +375,7 @@ Field ansys::dpf::FieldsContainer::operator[](dp_int index)
 
 
 
-Get field at index. 
+Get field at index.
 **Returns**:
 
 [Field](classansys-dpf-field.md#classansys-dpf-field) given by index.
@@ -384,7 +384,7 @@ Get field at index.
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**: [in] Index of field within container.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**: [in] Index of field within container.
 
 **Return type**: [Field](classansys-dpf-field.md#classansys-dpf-field)
 
@@ -407,7 +407,7 @@ Field ansys::dpf::FieldsContainer::at(dp_index index)
 
 
 
-Get field at index. 
+Get field at index.
 **Returns**:
 
 [Field](classansys-dpf-field.md#classansys-dpf-field) given by index.
@@ -416,7 +416,7 @@ Get field at index.
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of field within container.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of field within container.
 
 **Return type**: [Field](classansys-dpf-field.md#classansys-dpf-field)
 
@@ -440,7 +440,7 @@ const Field ansys::dpf::FieldsContainer::at(dp_index index) const
 
 
 
-Get field at index. 
+Get field at index.
 **Returns**:
 
 [Field](classansys-dpf-field.md#classansys-dpf-field) given by index.
@@ -449,7 +449,7 @@ Get field at index.
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of field.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of field.
 
 **Return type**: const [Field](classansys-dpf-field.md#classansys-dpf-field)
 
@@ -479,7 +479,7 @@ Update [Field](classansys-dpf-field.md#classansys-dpf-field) at index
 **Parameters**:
 
 * [Field](classansys-dpf-field.md#classansys-dpf-field) & **f**: [in] New field data.
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of field within container.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of field within container.
 
 **Return type**: void
 
@@ -672,7 +672,7 @@ Vector of matching [Field](classansys-dpf-field.md#classansys-dpf-field) to the 
 
 * [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) const & **label_space**: [in] [Label](structansys-dpf-label.md#structansys-dpf-label) space for which to get entries.
 
-**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) >
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) >
 
 <!--
 **TODO**:
@@ -702,8 +702,8 @@ Real or imaginary (by default real) Fields at given time set.
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **time_id**: [in] Time Set Id (1 to # of time sets).
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **complex_id** = 0 : [in] Flag indicating to return imaginary part of result (0 = real part, 1 = imaginary part).
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **time_id**: [in] Time Set Id (1 to # of time sets).
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **complex_id** = 0 : [in] Flag indicating to return imaginary part of result (0 = real part, 1 = imaginary part).
 
 **Return type**: std::vector< [Field](classansys-dpf-field.md#classansys-dpf-field) >
 
@@ -727,7 +727,7 @@ FieldsContainer ansys::dpf::FieldsContainer::createSubFieldsContainer(LabelSpace
 
 
 
-Create a new fields container with all the fields corresponding to the label space in input. 
+Create a new fields container with all the fields corresponding to the label space in input.
 **Returns**:
 
 Created fields container.
@@ -747,7 +747,7 @@ Created fields container.
 -->
 
 <a id="classansys-dpf-fieldscontainer-1a7292a30f43f3d0276829f2a704569304"></a>
-### Function deep\_copy
+### Function deep_copy
 
 ![][public]
 ![][const]
@@ -792,7 +792,7 @@ static FieldsContainer ansys::dpf::FieldsContainer::emptyFieldsContainer()
 
 
 
-Create an empty fields container. 
+Create an empty fields container.
 **Returns**:
 
 Empty [FieldsContainer](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer).

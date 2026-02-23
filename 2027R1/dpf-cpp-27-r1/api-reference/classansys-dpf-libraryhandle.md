@@ -48,7 +48,7 @@ Must be the first call made to DPF API.
 
 * std::string const & **key** = "common" : [in] Key used to identify the API (e.g. common, remote...).
 * std::string const & **shared_object_root_name** = "DataProcessingCore" : [in] Library name of the DPF API to load (e.g. DataProcessingCore that implements the core DPF symbols, Ans.Dpf.GrpcClient that implements the remote gRPC DPF symbols...).
-* [LoadType](namespaceansys-dpf.md#namespaceansys-dpf-1ac4f1380f00170887891b5cf54d8c94b3) **load_type** = [LoadType::try\_load](namespaceansys-dpf.md#namespaceansys-dpf-1ac4f1380f00170887891b5cf54d8c94b3a6d450e9598ea0dffeaff74fbcccb116f) : [in] Enum that provides settings at API loading step.
+* [LoadType](namespaceansys-dpf.md#namespaceansys-dpf-1ac4f1380f00170887891b5cf54d8c94b3) **load_type** = [LoadType::try_load](namespaceansys-dpf.md#namespaceansys-dpf-1ac4f1380f00170887891b5cf54d8c94b3a6d450e9598ea0dffeaff74fbcccb116f) : [in] Enum that provides settings at API loading step.
 * std::string const & **dpf_client_api** = "DPFClientAPI" 
 
 **Return type**: 
@@ -81,7 +81,7 @@ Must be the first call made to DPF API. Using a [Context](classansys-dpf-context
 * [Context](classansys-dpf-context.md#classansys-dpf-context) const & **context**: [in] [Context](classansys-dpf-context.md#classansys-dpf-context) object that defines settings to load the DPF APIs.
 * std::string const & **key** = "common" : [in] Key used to identify the API (e.g. common, remote...).
 * std::string const & **shared_object_root_name** = "DataProcessingCore" : [in] Library name of the DPF API to load (e.g. DataProcessingCore that implements the core DPF symbols, Ans.Dpf.GrpcClient that implements the remote gRPC DPF symbols...).
-* [LoadType](namespaceansys-dpf.md#namespaceansys-dpf-1ac4f1380f00170887891b5cf54d8c94b3) **load_type** = [LoadType::try\_load](namespaceansys-dpf.md#namespaceansys-dpf-1ac4f1380f00170887891b5cf54d8c94b3a6d450e9598ea0dffeaff74fbcccb116f) : [in] Enum that provides settings at API loading step.
+* [LoadType](namespaceansys-dpf.md#namespaceansys-dpf-1ac4f1380f00170887891b5cf54d8c94b3) **load_type** = [LoadType::try_load](namespaceansys-dpf.md#namespaceansys-dpf-1ac4f1380f00170887891b5cf54d8c94b3a6d450e9598ea0dffeaff74fbcccb116f) : [in] Enum that provides settings at API loading step.
 * std::string const & **dpf_client_api** = "DPFClientAPI" 
 
 **Return type**: 
@@ -115,7 +115,7 @@ Must be the first call made to DPF API. Using a [Context](classansys-dpf-context
 * [Context](classansys-dpf-context.md#classansys-dpf-context) const & **context**: [in] [Context](classansys-dpf-context.md#classansys-dpf-context) object that defines settings to load the DPF APIs.
 * std::string const & **key** = "common" : [in] Key used to identify the API (e.g. common, remote...).
 * std::string const & **shared_object_root_name** = "DataProcessingCore" : [in] Library name of the DPF API to load (e.g. DataProcessingCore that implements the core DPF symbols, Ans.Dpf.GrpcClient that implements the remote gRPC DPF symbols...).
-* [LoadType](namespaceansys-dpf.md#namespaceansys-dpf-1ac4f1380f00170887891b5cf54d8c94b3) **load_type** = [LoadType::try\_load](namespaceansys-dpf.md#namespaceansys-dpf-1ac4f1380f00170887891b5cf54d8c94b3a6d450e9598ea0dffeaff74fbcccb116f) : [in] Enum that provides settings at API loading step.
+* [LoadType](namespaceansys-dpf.md#namespaceansys-dpf-1ac4f1380f00170887891b5cf54d8c94b3) **load_type** = [LoadType::try_load](namespaceansys-dpf.md#namespaceansys-dpf-1ac4f1380f00170887891b5cf54d8c94b3a6d450e9598ea0dffeaff74fbcccb116f) : [in] Enum that provides settings at API loading step.
 * std::string const & **path_to_dpf_client_api** = "" : [in] path to DPFClientAPI.dll or libDPFClientAPI.so, takes path_to_shared_object by default.
 * std::string const & **dpf_client_api** = "DPFClientAPI" 
 
@@ -151,7 +151,7 @@ This call is deprecated. usage is not maintained.
 * std::string const & **key**
 * std::string const & **shared_object_root_name**
 * [ApiType](namespaceansys-dpf.md#namespaceansys-dpf-1a318ab16f856ec8d2ef6e13af94a6dc56) **api_type**
-* [LoadType](namespaceansys-dpf.md#namespaceansys-dpf-1ac4f1380f00170887891b5cf54d8c94b3) **load_type** = [LoadType::try\_load](namespaceansys-dpf.md#namespaceansys-dpf-1ac4f1380f00170887891b5cf54d8c94b3a6d450e9598ea0dffeaff74fbcccb116f) 
+* [LoadType](namespaceansys-dpf.md#namespaceansys-dpf-1ac4f1380f00170887891b5cf54d8c94b3) **load_type** = [LoadType::try_load](namespaceansys-dpf.md#namespaceansys-dpf-1ac4f1380f00170887891b5cf54d8c94b3a6d450e9598ea0dffeaff74fbcccb116f) 
 * std::string const & **dpf_client_api** = "DPFClientAPI" 
 
 **Return type**: 

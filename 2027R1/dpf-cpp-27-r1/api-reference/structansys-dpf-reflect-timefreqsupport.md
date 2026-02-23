@@ -13,12 +13,12 @@
 
 ## Members
 
-* [type\_name](structansys-dpf-reflect-timefreqsupport.md#structansys-dpf-reflect-timefreqsupport-4-1a1166df489c1e304419bf908dce3ad699)
+* [type_name](structansys-dpf-reflect-timefreqsupport.md#structansys-dpf-reflect-timefreqsupport-4-1a1166df489c1e304419bf908dce3ad699)
 
 ## Public static functions
 
 <a id="structansys-dpf-reflect-timefreqsupport-4-1a1166df489c1e304419bf908dce3ad699"></a>
-### Function type\_name
+### Function type_name
 
 ![][public]
 ![][static]

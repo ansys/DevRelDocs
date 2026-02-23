@@ -25,7 +25,7 @@ The field is the main simulation data container. In numerical simulations, resul
 * [data](classansys-dpf-field.md#classansys-dpf-field-1ad435429e8f1b152c7b4dad665665d9a4)
 * [dataPointer](classansys-dpf-field.md#classansys-dpf-field-1a47656e1ead80a6f2cac7c21266429212)
 * [dataSize](classansys-dpf-field.md#classansys-dpf-field-1a9bb7ac154ee6720cbb98b1c09e056942)
-* [deep\_copy](classansys-dpf-field.md#classansys-dpf-field-1ad91f3c235727ec55359488edd877ba9f)
+* [deep_copy](classansys-dpf-field.md#classansys-dpf-field-1ad91f3c235727ec55359488edd877ba9f)
 * [describe](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a9977945710983bc03d2940fa007847b2)
 * [empty](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a39cd546c42518e2332be8f287db95459)
 * [emptyField](classansys-dpf-field.md#classansys-dpf-field-1a5b60dee96313f0f9791c11e1c7f58d5b)
@@ -58,9 +58,9 @@ The field is the main simulation data container. In numerical simulations, resul
 * [numberOfEntities](classansys-dpf-field.md#classansys-dpf-field-1aad1f933384be1117a1338c0563cdefc0)
 * [operator=](classansys-dpf-field.md#classansys-dpf-field-1a3cedbbb5ad9cf1e8ee8a99ddb537c5c1)
 * [operator=](classansys-dpf-field.md#classansys-dpf-field-1a19e14878bec337b8a2ae8b5dcfc6b108)
-* [push\_back](classansys-dpf-field.md#classansys-dpf-field-1a5b717ed309ddf287134905f71ada833b)
-* [push\_back](classansys-dpf-field.md#classansys-dpf-field-1aae349d3de14b42f8b238f194db139fbc)
-* [push\_back](classansys-dpf-field.md#classansys-dpf-field-1ab387a8da1a2dc0ea0f94ba7c9cc4419f)
+* [push_back](classansys-dpf-field.md#classansys-dpf-field-1a5b717ed309ddf287134905f71ada833b)
+* [push_back](classansys-dpf-field.md#classansys-dpf-field-1aae349d3de14b42f8b238f194db139fbc)
+* [push_back](classansys-dpf-field.md#classansys-dpf-field-1ab387a8da1a2dc0ea0f94ba7c9cc4419f)
 * [reserve](classansys-dpf-field.md#classansys-dpf-field-1a3ac63a716581db77e88fa898befb1139)
 * [resize](classansys-dpf-field.md#classansys-dpf-field-1a83962ecd81cbcbf54fde2d101ec01106)
 * [resizeDataPointer](classansys-dpf-field.md#classansys-dpf-field-1a0f6abc999f38f54dfeaa144e996d3830)
@@ -368,7 +368,7 @@ Number of components in the elementary data.
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -396,7 +396,7 @@ Number of entities in the [Field](classansys-dpf-field.md#classansys-dpf-field).
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -424,7 +424,7 @@ Number of elementary data (size = number of components) contained in the [Field]
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -454,9 +454,9 @@ Number of elementary data by entity index.
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **entityIndex**
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **entityIndex**
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -486,9 +486,9 @@ Number of elementary data by entity id.
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **entityId**
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **entityId**
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -516,7 +516,7 @@ Size of the data container.
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -669,7 +669,7 @@ Pointer to data array.
 
 * int & **size**: [out] Size of returned data array.
 
-**Return type**: [dp\_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) *const
+**Return type**: [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) *const
 
 <!--
 **TODO**:
@@ -753,7 +753,7 @@ Copy the data for all entities in a vector of double.
 
 **Parameters**:
 
-* std::vector< [dp\_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) > & **data_to_fill**: [out] Vector of data for all entities.
+* std::vector< [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) > & **data_to_fill**: [out] Vector of data for all entities.
 
 **Return type**: void
 
@@ -785,10 +785,10 @@ Pointer to data array of an entity, by index.
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **entity_index**: [in] Index of entity for which to get data.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) & **size**: [out] Size of returned data array.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **entity_index**: [in] Index of entity for which to get data.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) & **size**: [out] Size of returned data array.
 
-**Return type**: [dp\_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) *const
+**Return type**: [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) *const
 
 <!--
 **TODO**:
@@ -818,7 +818,7 @@ void ansys::dpf::Field::entityData(dp_index entity_index, DpfVector< double > &d
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **entity_index**: [in] Index of entity for which to get data.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **entity_index**: [in] Index of entity for which to get data.
 * DpfVector< double > & **data**: [out] Pointer to the data.
 
 **Return type**: void
@@ -851,10 +851,10 @@ Pointer to data array of an entity, by id.
 
 **Parameters**:
 
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**: [in] Id of entity for which to get data.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) & **size**: [out] Size of returned data array.
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**: [in] Id of entity for which to get data.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) & **size**: [out] Size of returned data array.
 
-**Return type**: [dp\_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) *const
+**Return type**: [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) *const
 
 <!--
 **TODO**:
@@ -884,7 +884,7 @@ void ansys::dpf::Field::entityDataById(dp_id entity_id, DpfVector< double > &dat
 
 **Parameters**:
 
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**: [in] Id of entity for which to get data.
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**: [in] Id of entity for which to get data.
 * DpfVector< double > & **data**: [out] Pointer to the data.
 
 **Return type**: void
@@ -917,9 +917,9 @@ Entity id corresponding to a given entity index
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **entity_index**: [in] Index of entity for which to get Id.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **entity_index**: [in] Index of entity for which to get Id.
 
-**Return type**: [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e)
+**Return type**: [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e)
 
 <!--
 **TODO**:
@@ -1295,8 +1295,8 @@ Reserve the [Field](classansys-dpf-field.md#classansys-dpf-field). Only implemen
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **number_of_entities**: [in] Number of entities.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **overall_size** = 0 : [in] Total size of entity data.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **number_of_entities**: [in] Number of entities.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **overall_size** = 0 : [in] Total size of entity data.
 
 **Return type**: void
 
@@ -1325,8 +1325,8 @@ Reserve the [Field](classansys-dpf-field.md#classansys-dpf-field).
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **number_of_entities**: [in] Number of entities.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **overall_size**: [in] Total size of entity data.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **number_of_entities**: [in] Number of entities.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **overall_size**: [in] Total size of entity data.
 
 **Return type**: void
 
@@ -1355,7 +1355,7 @@ Resize the dataPointer array.
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **number_of_entities**
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **number_of_entities**
 
 **Return type**: void
 
@@ -1385,7 +1385,7 @@ Get data at a given index.
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of entity for which to get data.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of entity for which to get data.
 * [FieldCursor](classansys-dpf-fieldcursor.md#classansys-dpf-fieldcursor) & **f**: [out] [FieldCursor](classansys-dpf-fieldcursor.md#classansys-dpf-fieldcursor) with which to contain data.
 
 **Return type**: void
@@ -1397,7 +1397,7 @@ Get data at a given index.
 -->
 
 <a id="classansys-dpf-field-1a5b717ed309ddf287134905f71ada833b"></a>
-### Function push\_back
+### Function push_back
 
 ![][public]
 
@@ -1415,8 +1415,8 @@ Push back the entity data.
 
 **Parameters**:
 
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**: [in] Index of entity for which to push data.
-* std::vector< [dp\_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) > const & **values**: [in] Vector of data for entity.
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**: [in] Index of entity for which to push data.
+* std::vector< [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) > const & **values**: [in] Vector of data for entity.
 
 **Return type**: void
 
@@ -1427,7 +1427,7 @@ Push back the entity data.
 -->
 
 <a id="classansys-dpf-field-1aae349d3de14b42f8b238f194db139fbc"></a>
-### Function push\_back
+### Function push_back
 
 ![][public]
 
@@ -1445,8 +1445,8 @@ Push back the entity data.
 
 **Parameters**:
 
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**: [in] Index of entity for which to push data.
-* const [dp\_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) * **values**: [in] Ptr on data for entity.
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**: [in] Index of entity for which to push data.
+* const [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) * **values**: [in] Ptr on data for entity.
 * int **size**: [in] Number of entities.
 
 **Return type**: void
@@ -1458,7 +1458,7 @@ Push back the entity data.
 -->
 
 <a id="classansys-dpf-field-1ab387a8da1a2dc0ea0f94ba7c9cc4419f"></a>
-### Function push\_back
+### Function push_back
 
 ![][public]
 
@@ -1476,8 +1476,8 @@ Push back the entity data.
 
 **Parameters**:
 
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**: [in] Index of entity for which to push data.
-* [dp\_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) * **values**: [in] Ptr on data for entity.
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**: [in] Index of entity for which to push data.
+* [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) * **values**: [in] Ptr on data for entity.
 * int **size**: [in] Number of entities.
 
 **Return type**: void
@@ -1489,7 +1489,7 @@ Push back the entity data.
 -->
 
 <a id="classansys-dpf-field-1ad91f3c235727ec55359488edd877ba9f"></a>
-### Function deep\_copy
+### Function deep_copy
 
 ![][public]
 ![][const]

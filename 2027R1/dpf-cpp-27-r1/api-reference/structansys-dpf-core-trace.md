@@ -13,7 +13,7 @@
 
 * [activate](structansys-dpf-core-trace.md#structansys-dpf-core-trace-1add2263cd8184d586605b459ac0705d44)
 * [deactivate](structansys-dpf-core-trace.md#structansys-dpf-core-trace-1ab84add5ff01fc31dd418d1d5ffefc75b)
-* [make\_section](structansys-dpf-core-trace.md#structansys-dpf-core-trace-1aa3354ae4927e3a29aa0a4315e7f32ef4)
+* [make_section](structansys-dpf-core-trace.md#structansys-dpf-core-trace-1aa3354ae4927e3a29aa0a4315e7f32ef4)
 
 ## Public static functions
 
@@ -74,7 +74,7 @@ static void ansys::dpf::core::trace::deactivate()
 -->
 
 <a id="structansys-dpf-core-trace-1aa3354ae4927e3a29aa0a4315e7f32ef4"></a>
-### Function make\_section
+### Function make_section
 
 ![][public]
 ![][static]

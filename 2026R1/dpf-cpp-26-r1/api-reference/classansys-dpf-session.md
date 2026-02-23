@@ -59,7 +59,7 @@ ansys::dpf::Session::Session()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -84,7 +84,7 @@ ansys::dpf::Session::~Session()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -113,7 +113,7 @@ Create a new [Session](classansys-dpf-session.md#classansys-dpf-session) on a se
 
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -142,7 +142,7 @@ ansys::dpf::Session::Session(Session const &)
 
 * Session const &
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -171,7 +171,7 @@ ansys::dpf::Session::Session(Session &&)=delete
 
 * Session &&
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -308,7 +308,7 @@ std::string ansys::dpf::Session::add(Workflow &wf)
 
 
 
-Add workflow to session. 
+Add workflow to session.
 **Returns**:
 
 Identifier for workflow.
@@ -379,7 +379,7 @@ Workflow given by index.
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of workflow.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of workflow.
 
 **Return type**: Workflow
 
@@ -409,7 +409,7 @@ Number of workflows in session.
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:

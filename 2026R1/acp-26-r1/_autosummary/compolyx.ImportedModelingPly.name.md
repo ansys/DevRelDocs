@@ -4,4 +4,4 @@
 
 #### *property* ImportedModelingPly.name
 
-Name of object
+Name of the object

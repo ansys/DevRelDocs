@@ -35,14 +35,13 @@ Container of files on which the analysis results can be found.
 * [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources-1ab607a7dd632e40f18baa9bdc44631011)
 * [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources-1a85e10756d54a7164a7c47fde17426ce8)
 * [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources-1a187861f11263eda7b619c769b5ff83a5)
-* [deep\_copy](classansys-dpf-datasources.md#classansys-dpf-datasources-1a98fc4cd5c063eef368734854b30b63c2)
+* [deep_copy](classansys-dpf-datasources.md#classansys-dpf-datasources-1a98fc4cd5c063eef368734854b30b63c2)
 * [describe](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a9977945710983bc03d2940fa007847b2)
 * [empty](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a39cd546c42518e2332be8f287db95459)
 * [emptyDataSources](classansys-dpf-datasources.md#classansys-dpf-datasources-1a014bb2c064ff1dce21325a012a57a4c8)
 * [filePaths](classansys-dpf-datasources.md#classansys-dpf-datasources-1ab406fd24d91af8256c82faee8d962c17)
 * [getClient](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a968afd9daa0b0f13b65a2ac61369d73a)
 * [getHash](classansys-dpf-datasources.md#classansys-dpf-datasources-1a27af11a7f6a10abb4ce707e338065420)
-* [getHashableKey](classansys-dpf-datasources.md#classansys-dpf-datasources-1a5847c55b3f521ae84f106f3413888a95)
 * [hasBeenMovedLocally](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a1a5634202c15404b6b24e8f50e51cb66)
 * [hasInternalObject](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1ae198f89868d85c7db6dc1a934a1d3c15)
 * [identifierbyIndex](classansys-dpf-datasources.md#classansys-dpf-datasources-1a8803654ff5e770591c1c866271f436f6)
@@ -58,7 +57,6 @@ Container of files on which the analysis results can be found.
 * [resultFilePaths](classansys-dpf-datasources.md#classansys-dpf-datasources-1a4c0974ee4d72e7d7d2d5051796cf7de2)
 * [resultKey](classansys-dpf-datasources.md#classansys-dpf-datasources-1a7320cf9a8d0850e64fc8d337ee666178)
 * [resultNamespaceForKey](classansys-dpf-datasources.md#classansys-dpf-datasources-1adfa425b1477b6ebe977f11097b9fb7c9)
-* [setHashableKey](classansys-dpf-datasources.md#classansys-dpf-datasources-1a97dfdec6f9ba966084790215b8eb682e)
 * [~DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources-1aed25d8728c9a1a337adeb8131ef473ba)
 * [~DpfTypes](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1ab7c83b6ea160c2b115e056f6c312112f)
 
@@ -520,7 +518,7 @@ Define data source result file with key and domain.
 
 * std::string const & **file_path**: [in] [Result](classansys-dpf-result.md#classansys-dpf-result) file to use with data source container.
 * std::string const & **key**: [in] Key describing type of file.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **domain_id**: [in] Domain id of file.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **domain_id**: [in] Domain id of file.
 
 **Return type**: void
 
@@ -641,7 +639,7 @@ Add domain file with key and domain id to data sources.
 
 * std::string const & **file_path**: [in] File to use with data source container.
 * std::string const & **key**: [in] Key describing type of file.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **domain_id**: [in] Domain id of file.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **domain_id**: [in] Domain id of file.
 
 **Return type**: void
 
@@ -909,7 +907,7 @@ Path at given key and given index in data sources.
 **Parameters**:
 
 * std::string const & **key**
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**
 
 **Return type**: std::string
 
@@ -984,7 +982,7 @@ LabelSpace ansys::dpf::DataSources::identifierbyIndex(int index) const
 -->
 
 <a id="classansys-dpf-datasources-1a98fc4cd5c063eef368734854b30b63c2"></a>
-### Function deep\_copy
+### Function deep_copy
 
 ![][public]
 ![][const]
@@ -1011,62 +1009,6 @@ Create a new [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasour
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::deep_copy"}]}`
--->
-
-<a id="classansys-dpf-datasources-1a5847c55b3f521ae84f106f3413888a95"></a>
-### Function getHashableKey
-
-![][public]
-![][const]
-
-
-```cpp
-std::string ansys::dpf::DataSources::getHashableKey() const
-```
-
-
-
-
-Set and get an simpler hashable entity (here a file path) instead of the full [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources) to save time
-
-
-
-**Return type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::getHashableKey"}]}`
--->
-
-<a id="classansys-dpf-datasources-1a97dfdec6f9ba966084790215b8eb682e"></a>
-### Function setHashableKey
-
-![][public]
-![][const]
-
-
-```cpp
-void ansys::dpf::DataSources::setHashableKey(const std::string &unique_identifier) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* const std::string & **unique_identifier**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DataSources::setHashableKey"}]}`
 -->
 
 <a id="classansys-dpf-datasources-1a27af11a7f6a10abb4ce707e338065420"></a>

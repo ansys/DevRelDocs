@@ -4,7 +4,7 @@
 
 #### Scene.update_direction_display_data(entities)
 
-Function syncronizes the following direction plots with the added/removed entities given:
+Function synchronizes the following direction plots with the added/removed entities given:
 - “orientations”
 - “ref_directions”
 - “fiber_directions”

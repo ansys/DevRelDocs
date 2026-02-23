@@ -4,4 +4,4 @@
 
 #### *property* LayupMappingObject.element_technology
 
-Defines the element technology. Available string values: [`layered_element`, `reinforcing`].
+Defines the element technology. Allowed string values: [‘layered_element’, ‘reinforcing’]

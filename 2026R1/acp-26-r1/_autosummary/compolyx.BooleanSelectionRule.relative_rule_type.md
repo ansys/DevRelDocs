@@ -4,4 +4,4 @@
 
 #### *property* BooleanSelectionRule.relative_rule_type
 
-Relative type
+relative type

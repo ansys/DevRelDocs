@@ -4,9 +4,9 @@
 
 #### Model.copy_lookup_table(source)
 
-Copy a look-up table.
+Copy a lookup table.
 
 * **Parameters:**
   - source: Source object to copy.
 * **Returns:**
-  New instance of a look-up table.
+  New instance of a lookup table.

@@ -4,4 +4,4 @@
 
 #### *property* AnalysisPly.active_in_post_mode
 
-True if failure criteria will be processed for this ply.
+True if failure criteria are processed for this ply

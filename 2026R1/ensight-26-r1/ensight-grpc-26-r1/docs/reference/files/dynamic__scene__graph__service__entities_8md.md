@@ -1,4 +1,4 @@
-# File dynamic\_scene\_graph\_service\_entities.md
+# File dynamic_scene_graph_service_entities.md
 
 <a id="dynamic__scene__graph__service__entities_8md"></a>
 

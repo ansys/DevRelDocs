@@ -99,7 +99,6 @@
 * [getCopy](classansys-dpf-workflow.md#classansys-dpf-workflow-1a850d7aa707b7b9017bd679defc9d2845)
 * [getCustomOutput](classansys-dpf-workflow.md#classansys-dpf-workflow-1a3d181c629d1808c570ac90e485a6c5f9)
 * [getHash](classansys-dpf-workflow.md#classansys-dpf-workflow-1abd60834d5d8fb9b037f9546f80d1cb0f)
-* [getHashableKey](classansys-dpf-workflow.md#classansys-dpf-workflow-1ac8940321454536d9bad23508d29b8e3e)
 * [getOperators](classansys-dpf-workflow.md#classansys-dpf-workflow-1ab1855fcc04e3d0bafedc9f8c6b644082)
 * [getOutput](classansys-dpf-workflow.md#classansys-dpf-workflow-1a312d744b2c8174b3cd5e1d102ff6ae7b)
 * [getOutputAsAny](classansys-dpf-workflow.md#classansys-dpf-workflow-1a5340e6ab9473e5615e62223509d473c2)
@@ -183,7 +182,6 @@
 * [record](classansys-dpf-workflow.md#classansys-dpf-workflow-1a304ee206ac4927f7aa757c63b0ec00b5)
 * [renameInputPin](classansys-dpf-workflow.md#classansys-dpf-workflow-1a22fba3c96a8a6e9eda279fd1c4b5358f)
 * [renameOutputPin](classansys-dpf-workflow.md#classansys-dpf-workflow-1abff62660096b06dd09667061c8e3d8a6)
-* [setHashableKey](classansys-dpf-workflow.md#classansys-dpf-workflow-1aafb16d5c9e5dc71d79126339b8a08a1a)
 * [tryReplaceWorkflowInRegistry](classansys-dpf-workflow.md#classansys-dpf-workflow-1a478c1be621d4c49916771b42d4b10ba9)
 * [Workflow](classansys-dpf-workflow.md#classansys-dpf-workflow-1a808195b2d92b18f8f3a362e4bd701f39)
 * [Workflow](classansys-dpf-workflow.md#classansys-dpf-workflow-1a8a36b36629bde25afe03b12b0ed5a958)
@@ -400,7 +398,7 @@
 -->
 
 <a id="classansys-dpf-workflow-1adf19ceee88ba644aceacffbd1495909b"></a>
-### Friend ConstructHelpers::construct\_trait
+### Friend ConstructHelpers::construct_trait
 
 ![][C++]
 ![][public]
@@ -560,7 +558,7 @@ Retrieve an existing instance of Workflow on a server.
 
 **Parameters**:
 
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **id**
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **id**
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**
 
 **Return type**: 
@@ -1442,7 +1440,7 @@ Number of operators in workflow chain.
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -1472,7 +1470,7 @@ std::string ansys::dpf::Workflow::operatorNameByIndex(dp_int index) const
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**
 
 **Return type**: std::string
 
@@ -2207,7 +2205,7 @@ Integer result for given output pin.
 
 * std::string const & **pin_name**: [in] Output pin name.
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -2238,7 +2236,7 @@ Double result for given output pin.
 
 * std::string const & **pin_name**: [in] Output pin name.
 
-**Return type**: [dp\_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790)
+**Return type**: [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790)
 
 <!--
 **TODO**:
@@ -3097,7 +3095,7 @@ Integer result for given output pin.
 * std::string const & **pin_name**: [in] Output pin name.
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -3129,7 +3127,7 @@ Double result for given output pin.
 * std::string const & **pin_name**: [in] Output pin name.
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
-**Return type**: [dp\_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790)
+**Return type**: [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790)
 
 <!--
 **TODO**:
@@ -3321,7 +3319,7 @@ Connect integer to input pin.
 **Parameters**:
 
 * std::string const & **pin_name**: [in] Input pin name.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **f**: [in] Integer data.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **f**: [in] Integer data.
 
 **Return type**: void
 
@@ -3387,7 +3385,7 @@ Connect double to input pin.
 **Parameters**:
 
 * std::string const & **pin_name**: [in] Input pin name.
-* [dp\_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) **f**: [in] Double data.
+* [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) **f**: [in] Double data.
 
 **Return type**: void
 
@@ -3453,7 +3451,7 @@ Connect vector of doubles to input pin.
 **Parameters**:
 
 * std::string const & **pin_name**: [in] Input pin name.
-* std::vector< [dp\_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) > const & **f**: [in] Vector of doubles data.
+* std::vector< [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) > const & **f**: [in] Vector of doubles data.
 
 **Return type**: void
 
@@ -4247,7 +4245,7 @@ Connect operator output pin to input pin.
 
 * std::string const & **pin_name**: [in] Input pin name.
 * Operator const & **f**: [in] [Operator](classansys-dpf-operator.md#classansys-dpf-operator) from which to connect output pin.
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **output_pin**: [in] Output pin.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **output_pin**: [in] Output pin.
 
 **Return type**: void
 
@@ -4311,7 +4309,7 @@ Connect integer to input pin.
 **Parameters**:
 
 * std::string const & **pin_name**: [in] Input pin name.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **f**: [in] Integer data.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **f**: [in] Integer data.
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
 **Return type**: void
@@ -4373,7 +4371,7 @@ Connect double to input pin.
 **Parameters**:
 
 * std::string const & **pin_name**: [in] Input pin name.
-* [dp\_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) **f**: [in] Double data.
+* [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) **f**: [in] Double data.
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
 **Return type**: void
@@ -4466,7 +4464,7 @@ Connect vector of doubles to input pin.
 **Parameters**:
 
 * std::string const & **pin_name**: [in] Input pin name.
-* std::vector< [dp\_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) > const & **f**: [in] Vector of double data.
+* std::vector< [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) > const & **f**: [in] Vector of double data.
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
 **Return type**: void
@@ -5149,7 +5147,7 @@ Connect operator output pin to input pin.
 
 * std::string const & **pin_name**: [in] Input pin name.
 * Operator const & **f**: [in] [Operator](classansys-dpf-operator.md#classansys-dpf-operator) from which to connect output pin.
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **output_pin**: [in] Output pin.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **output_pin**: [in] Output pin.
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
 **Return type**: void
@@ -5420,7 +5418,7 @@ If the workflow is remote, returns its Id on the server.
 
 
 
-**Return type**: [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e)
+**Return type**: [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e)
 
 <!--
 **TODO**:
@@ -5515,62 +5513,6 @@ void ansys::dpf::Workflow::enableCache(bool b)
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::enableCache"}]}`
--->
-
-<a id="classansys-dpf-workflow-1ac8940321454536d9bad23508d29b8e3e"></a>
-### Function getHashableKey
-
-![][public]
-![][const]
-
-
-```cpp
-std::string ansys::dpf::Workflow::getHashableKey() const
-```
-
-
-
-
-Set and get an simpler hashable entity (here workflow identifier) instead of the full Workflow to save time
-
-
-
-**Return type**: std::string
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::getHashableKey"}]}`
--->
-
-<a id="classansys-dpf-workflow-1aafb16d5c9e5dc71d79126339b8a08a1a"></a>
-### Function setHashableKey
-
-![][public]
-![][const]
-
-
-```cpp
-void ansys::dpf::Workflow::setHashableKey(const std::string &unique_identifier) const
-```
-
-
-
-
-
-
-
-
-**Parameters**:
-
-* const std::string & **unique_identifier**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::setHashableKey"}]}`
 -->
 
 <a id="classansys-dpf-workflow-1abd60834d5d8fb9b037f9546f80d1cb0f"></a>

@@ -13,12 +13,12 @@
 
 ## Members
 
-* [type\_name](structansys-dpf-reflect-streams.md#structansys-dpf-reflect-streams-4-1a1474d1aa770528c4c202b9071ff305a8)
+* [type_name](structansys-dpf-reflect-streams.md#structansys-dpf-reflect-streams-4-1a1474d1aa770528c4c202b9071ff305a8)
 
 ## Public static functions
 
 <a id="structansys-dpf-reflect-streams-4-1a1474d1aa770528c4c202b9071ff305a8"></a>
-### Function type\_name
+### Function type_name
 
 ![][public]
 ![][static]

@@ -4,4 +4,4 @@
 
 #### *property* EntitySet.id
 
-ID of object
+ID of the object

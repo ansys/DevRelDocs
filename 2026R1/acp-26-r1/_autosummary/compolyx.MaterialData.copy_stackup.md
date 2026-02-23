@@ -4,7 +4,7 @@
 
 #### MaterialData.copy_stackup(source, on_duplicate_name='keep_both', memo=None)
 
-Copy a stackup.
+Copy a stackup
 
 * **Parameters:**
   - source: Source object to copy.

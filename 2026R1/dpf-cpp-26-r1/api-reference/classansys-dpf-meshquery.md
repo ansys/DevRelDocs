@@ -46,7 +46,7 @@ virtual ansys::dpf::MeshQuery::~MeshQuery()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -75,7 +75,7 @@ Create new mesh query object.
 
 * [Operator](classansys-dpf-operator.md#classansys-dpf-operator) & **mesh_provider**: [in] Mesh provider from which to create mesh query object.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -136,7 +136,7 @@ Scoping of nodes for material.
 
 **Parameters**:
 
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **materialId**: [in] Id of material for which to get nodes.
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **materialId**: [in] Id of material for which to get nodes.
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
 **Return type**: [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping)
@@ -265,7 +265,7 @@ Scoping of elements for material.
 
 **Parameters**:
 
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **materialId**: [in] Id of material for which to get elements.
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **materialId**: [in] Id of material for which to get elements.
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
 **Return type**: [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping)
@@ -321,7 +321,7 @@ Scoping ansys::dpf::MeshQuery::GetElementsBySolverElementType(int element_type, 
 
 
 
-Element type is given by APDLElementType. Example: 181 = 4 - Node Structural Shell, 186 = 3 - D 20 - Node Structural Solid. 
+Element type is given by APDLElementType. Example: 181 = 4 - Node Structural Shell, 186 = 3 - D 20 - Node Structural Solid.
 **Returns**:
 
 Scoping of elements for solver element.

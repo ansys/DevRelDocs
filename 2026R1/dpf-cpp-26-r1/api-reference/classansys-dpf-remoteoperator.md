@@ -210,7 +210,7 @@ ansys::dpf::RemoteOperator::RemoteOperator(Streams &streams, ansys::dpf::Operato
 * [Streams](classansys-dpf-streams.md#classansys-dpf-streams) & **streams**
 * [ansys::dpf::Operator](classansys-dpf-operator.md#classansys-dpf-operator) const & **remote_operator**
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -235,7 +235,7 @@ virtual ansys::dpf::RemoteOperator::~RemoteOperator()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -287,7 +287,7 @@ dp_id ansys::dpf::RemoteOperator::getRemoteOperatorId() const
 
 
 
-**Return type**: [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e)
+**Return type**: [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e)
 
 <!--
 **TODO**:

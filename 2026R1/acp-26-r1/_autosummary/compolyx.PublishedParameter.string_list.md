@@ -4,4 +4,4 @@
 
 #### *property* PublishedParameter.string_list
 
-A list of possible values. List of objects if the property type is object, else list of strings.
+A list of possible values. List of objects if the property type is object, else list of strings

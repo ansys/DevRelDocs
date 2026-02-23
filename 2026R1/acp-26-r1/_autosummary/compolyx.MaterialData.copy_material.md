@@ -4,7 +4,7 @@
 
 #### MaterialData.copy_material(source, on_duplicate_name='keep_both', memo=None)
 
-Copy a material.
+Copy a material
 
 * **Parameters:**
   - source: Source object to copy.

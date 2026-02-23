@@ -4,4 +4,4 @@
 
 #### *property* PlotData.id
 
-ID of object
+ID of the object

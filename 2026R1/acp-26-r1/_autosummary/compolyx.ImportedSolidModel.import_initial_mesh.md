@@ -8,4 +8,4 @@ Load the solid mesh without updating the layup mapping.
 The mesh is not refreshed if the solid model is already up-to-date.
 
 * **Parameters:**
-  - unit_system_type: the mesh is converted to the specified unit system. For instance, `mpa` or `bin`.
+  - unit_system_type: the mesh is converted to the specified unit system. For instance, “mpa” or “bin”

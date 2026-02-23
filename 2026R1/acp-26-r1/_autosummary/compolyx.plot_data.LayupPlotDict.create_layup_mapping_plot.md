@@ -10,8 +10,8 @@ Create a Layup Mapping Plot object.
   - name: Name of the plot.
   - id: ID for the plot.
   - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Imported Solid Model.
-  - ply_wise: `True` or `False` (default). Decides whether to return the thickness of the individual plies or of the whole stack of plies present at an element.
-  - show_on_solids: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
+  - ply_wise: ‘True’ or ‘False’ (default). Decides whether to return the thickness of the individual plies or of the whole stack of plies present at an element.
+  - show_on_solids: ‘True’ or ‘False’ (default). Whether to show the results on the shell or solid model (if present).
   - component: Specifies the active component.
   - show_on_solids: Whether to show the values of the solid element.
   - active: Whether the plot is active.

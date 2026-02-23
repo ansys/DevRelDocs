@@ -4,4 +4,4 @@
 
 #### *property* ButtJointSequence.id
 
-ID of object
+ID of the object

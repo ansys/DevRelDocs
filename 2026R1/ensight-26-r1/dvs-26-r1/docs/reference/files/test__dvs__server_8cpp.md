@@ -1,4 +1,4 @@
-# File test\_dvs\_server.cpp
+# File test_dvs_server.cpp
 
 <a id="test__dvs__server_8cpp"></a>
 
@@ -187,7 +187,7 @@ click 1 "test__dvs__server_8cpp.md#test__dvs__server_8cpp"
 ## Variables
 
 <a id="test__dvs__server_8cpp_1a8dd455a5b6ea0edf8a117ad9a057eb19"></a>
-### Variable s\_terminate
+### Variable s_terminate
 
 ![][public]
 ![][static]
@@ -208,7 +208,7 @@ std::atomic<bool> s_terminate {false}
 **Type**: std::atomic< bool >
 
 <a id="test__dvs__server_8cpp_1af9d34f3b474b525c422212514b40896b"></a>
-### Variable s\_server\_mutex
+### Variable s_server_mutex
 
 ![][public]
 ![][static]
@@ -229,7 +229,7 @@ std::mutex s_server_mutex
 **Type**: std::mutex
 
 <a id="test__dvs__server_8cpp_1af825fb3955acf6ace85703c966b9fc0d"></a>
-### Variable s\_server
+### Variable s_server
 
 ![][public]
 ![][static]
@@ -252,7 +252,7 @@ DVS::IServer* s_server {nullptr}
 ## Functions
 
 <a id="test__dvs__server_8cpp_1a89a8322bea357674e81ba9cbdefe0378"></a>
-### Function signal\_callback\_handler
+### Function signal_callback_handler
 
 ![][public]
 

@@ -23,7 +23,7 @@ The meshed region is an entity describing a mesh. Node and element scopings, ele
 * [availablePropertyFields](classansys-dpf-meshedregion.md#classansys-dpf-meshedregion-1ad4dd7e2fb551172b494c559e403d902a)
 * [callAPI](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1aea34d37e0c080126eff70db34bf46597)
 * [connectivity](classansys-dpf-meshedregion.md#classansys-dpf-meshedregion-1a2c75723ffc634c39b081eecd31d54309)
-* [deep\_copy](classansys-dpf-meshedregion.md#classansys-dpf-meshedregion-1a1506cd74943091c868e037cd9eafde94)
+* [deep_copy](classansys-dpf-meshedregion.md#classansys-dpf-meshedregion-1a1506cd74943091c868e037cd9eafde94)
 * [describe](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a9977945710983bc03d2940fa007847b2)
 * [elementDescriptorByElementId](classansys-dpf-meshedregion.md#classansys-dpf-meshedregion-1a5809c805cc972f4958fab4375be4f8cb)
 * [elementScoping](classansys-dpf-meshedregion.md#classansys-dpf-meshedregion-1a3056a0fc6d69ca8769e33de6be0cecf0)
@@ -328,7 +328,7 @@ Number of nodes in mesh.
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -356,7 +356,7 @@ Number of elements in mesh.
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -384,7 +384,7 @@ Number of faces in mesh.
 
 
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -528,7 +528,7 @@ std::vector< std::string > ansys::dpf::MeshedRegion::availablePropertyFields() c
 
 **Returns**:
 
-Vector of property fields withing mesh. See [property\_types](structansys-dpf-property-types.md#structansys-dpf-property-types) for examples of available types.
+Vector of property fields withing mesh. See [property_types](structansys-dpf-property-types.md#structansys-dpf-property-types) for examples of available types.
 
 
 
@@ -760,7 +760,7 @@ Get a cursor for given element.
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **element_index**: [in] Index of element within mesh for which to get cursor.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **element_index**: [in] Index of element within mesh for which to get cursor.
 * [ElementCursor](classansys-dpf-elementcursor.md#classansys-dpf-elementcursor) & **cursor**: [out] Cursor for given element.
 
 **Return type**: void
@@ -790,8 +790,8 @@ Allocate and reserve space for given number of nodes and elements. node scoping 
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **n_nodes**: [in] Expected number of nodes within mesh.
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **n_elements**: [in] Expected number of elements within mesh.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **n_nodes**: [in] Expected number of nodes within mesh.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **n_elements**: [in] Expected number of elements within mesh.
 
 **Return type**: void
 
@@ -820,8 +820,8 @@ Add node to mesh.
 
 **Parameters**:
 
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **node_id**: [in] Id of node.
-* std::array< [dp\_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790), 3 > const & **data**: [in] XYZ coordinates of node.
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **node_id**: [in] Id of node.
+* std::array< [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790), 3 > const & **data**: [in] XYZ coordinates of node.
 
 **Return type**: void
 
@@ -850,8 +850,8 @@ Add node to mesh.
 
 **Parameters**:
 
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **node_id**: [in] Id of node.
-* [dp\_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) *const **data**: [in] XYZ coordinates of node.
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **node_id**: [in] Id of node.
+* [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) *const **data**: [in] XYZ coordinates of node.
 
 **Return type**: void
 
@@ -881,8 +881,8 @@ Add element to mesh. Not available in remote, use the implementation with the el
 **Parameters**:
 
 * [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor) const & **descriptor**: [in] Description of element.
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **elem_id**: [in] Id of element.
-* std::vector< [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) > const & **node_indices**: [in] Vector of node ids of element.
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **elem_id**: [in] Id of element.
+* std::vector< [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) > const & **node_indices**: [in] Vector of node ids of element.
 
 **Return type**: void
 
@@ -912,8 +912,8 @@ Add element to mesh.
 **Parameters**:
 
 * ansys::dpf::elements::EShape **shape**: [in] Shape of the element.
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **elem_id**: [in] Id of element.
-* std::vector< [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) > const & **node_indices**: [in] Vector of node ids of element.
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **elem_id**: [in] Id of element.
+* std::vector< [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) > const & **node_indices**: [in] Vector of node ids of element.
 
 **Return type**: void
 
@@ -1457,7 +1457,7 @@ Get [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-ele
 
 **Parameters**:
 
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **element_id**
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **element_id**
 
 **Return type**: [ansys::dpf::ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor)
 
@@ -1487,7 +1487,7 @@ Get element shape.
 
 **Parameters**:
 
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **element_id**
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **element_id**
 
 **Return type**: ansys::dpf::elements::EShape
 
@@ -1517,7 +1517,7 @@ Get number of nodes for element at given index.
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **element_index**
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **element_index**
 
 **Return type**: int
 
@@ -1585,7 +1585,7 @@ Set mesh name.
 -->
 
 <a id="classansys-dpf-meshedregion-1a1506cd74943091c868e037cd9eafde94"></a>
-### Function deep\_copy
+### Function deep_copy
 
 ![][public]
 ![][const]

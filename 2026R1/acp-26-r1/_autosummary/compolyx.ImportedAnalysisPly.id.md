@@ -4,4 +4,4 @@
 
 #### *property* ImportedAnalysisPly.id
 
-ID of object
+ID of the object

@@ -4,4 +4,4 @@
 
 #### Chapter.generate_reST(reST_chapter_template, reST_ply_template, image_provider)
 
-Get the interpolated reST string for the chapter.
+Returns the interpolated reST string for the chapter.

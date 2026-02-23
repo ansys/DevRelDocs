@@ -4,4 +4,4 @@
 
 #### *property* OrientedSelectionSet.name
 
-Name of object
+Name of the object

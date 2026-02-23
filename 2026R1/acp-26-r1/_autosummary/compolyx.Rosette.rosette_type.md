@@ -4,4 +4,4 @@
 
 #### *property* Rosette.rosette_type
 
-Available Rosette types: `parallel`, `radial`, `cylindrical`, `spherical`, and `edge_wise`.
+Rosette Types can be: parallel,radial,cylindrical,spherical,edge_wise

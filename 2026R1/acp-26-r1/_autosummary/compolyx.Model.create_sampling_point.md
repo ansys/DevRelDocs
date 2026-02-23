@@ -13,7 +13,7 @@ Create a new sampling point.
   - use_default_reference_direction: Whether to use the default reference direction for the evaluation.
   - rosette: Rosette used for the evaluation of the reference direction.
   - offset_is_middle: Specifies the offset of the reference plane used for the CLT analyses.
-  - consider_coupling_effect: Specifies whether the laminate properties are evaluated considering the coupling effect (B matrix).
+  - consider_coupling_effect: Indicates whether the laminate properties are evaluated considering the coupling effect (B matrix).
   - solution_set: Specifies the solution and the set of the element-wise postprocessing. Note, this must be given as a tuple.
 * **Returns:**
   The created sampling point.

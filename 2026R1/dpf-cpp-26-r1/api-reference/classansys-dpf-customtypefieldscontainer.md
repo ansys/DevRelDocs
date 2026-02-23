@@ -7,7 +7,7 @@
 
 
 
-Contains a group of custom type fields. The [CustomTypeFieldsContainer](classansys-dpf-customtypefieldscontainer.md#classansys-dpf-customtypefieldscontainer) is designed as a set of custom type fields ordered through labels and ids. Labels identify how the fields are filtered. 
+Contains a group of custom type fields. The [CustomTypeFieldsContainer](classansys-dpf-customtypefieldscontainer.md#classansys-dpf-customtypefieldscontainer) is designed as a set of custom type fields ordered through labels and ids. Labels identify how the fields are filtered.
 
 **See also**: [CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield)
 
@@ -86,7 +86,7 @@ ansys::dpf::CustomTypeFieldsContainer::CustomTypeFieldsContainer()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -111,7 +111,7 @@ virtual ansys::dpf::CustomTypeFieldsContainer::~CustomTypeFieldsContainer()
 
 
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -140,7 +140,7 @@ ansys::dpf::CustomTypeFieldsContainer::CustomTypeFieldsContainer(CustomTypeField
 
 * CustomTypeFieldsContainer const &
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -169,7 +169,7 @@ ansys::dpf::CustomTypeFieldsContainer::CustomTypeFieldsContainer(CustomTypeField
 
 * CustomTypeFieldsContainer &&
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -198,7 +198,7 @@ Create container for a group of CustomTypeFields with the given labels.
 
 * std::vector< std::string > const & **labels**: [in] Labels for group of CustomTypeFields.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -285,7 +285,7 @@ CustomTypeField ansys::dpf::CustomTypeFieldsContainer::operator[](dp_int index)
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**: [in] Index of CustomTypeFields within container.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**: [in] Index of CustomTypeFields within container.
 
 **Return type**: [CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield)
 
@@ -316,7 +316,7 @@ CustomTypeFields for given index.
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of [CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield) to get.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of [CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield) to get.
 
 **Return type**: [CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield)
 
@@ -348,7 +348,7 @@ CustomTypeFields for given index.
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of [CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield) to get.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of [CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield) to get.
 
 **Return type**: const [CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield)
 
@@ -378,7 +378,7 @@ Update a [CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-cust
 **Parameters**:
 
 * [CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield) & **f**: [in] New [CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield).
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of [CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield) to update.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of [CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield) to update.
 
 **Return type**: void
 
@@ -443,7 +443,7 @@ Number of CustomTypeFields for given label space.
 
 * [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) const & **label_space**: [in] [Label](structansys-dpf-label.md#structansys-dpf-label) space for which to get number of entities.
 
-**Return type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -601,7 +601,7 @@ Vector of matching [CustomTypeField](classansys-dpf-customtypefield.md#classansy
 
 * [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) const & **label_space**: [in] [Label](structansys-dpf-label.md#structansys-dpf-label) space for which to get entries.
 
-**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) >
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) >
 
 <!--
 **TODO**:
@@ -655,7 +655,7 @@ static CustomTypeFieldsContainer ansys::dpf::CustomTypeFieldsContainer::emptyCus
 
 
 
-Create an empty container. 
+Create an empty container.
 **Returns**:
 
 Empty container.

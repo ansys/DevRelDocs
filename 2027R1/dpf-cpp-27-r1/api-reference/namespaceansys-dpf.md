@@ -8,12 +8,6 @@ This is the main namespace of the HGP API.
 
 This namespace encapsulates all of the HGP functionality.
 
-## Child namespaces
-
-* [ansys::dpf::internal](namespaceansys-dpf-internal.md#namespaceansys-dpf-internal)
-* [ansys::dpf::so](namespaceansys-dpf-so.md#namespaceansys-dpf-so)
-* [ansys::dpf::opaque](namespaceansys-dpf-opaque.md#namespaceansys-dpf-opaque)
-
 ## Classes
 
 * [ansys::dpf::Model](classansys-dpf-model.md#classansys-dpf-model)
@@ -22,8 +16,8 @@ This namespace encapsulates all of the HGP functionality.
 * [ansys::dpf::Collection](classansys-dpf-collection.md#classansys-dpf-collection)
 * [ansys::dpf::ExternalData](classansys-dpf-externaldata.md#classansys-dpf-externaldata)
 * [ansys::dpf::ExternalDataT](classansys-dpf-externaldatat.md#classansys-dpf-externaldatat)
-* [ansys::dpf::array\_to\_pointer\_decay](structansys-dpf-array-to-pointer-decay.md#structansys-dpf-array-to-pointer-decay)
-* [ansys::dpf::array\_to\_pointer\_decay\< T[N]\>](structansys-dpf-array-to-pointer-decay-t-fn-e.md#structansys-dpf-array-to-pointer-decay-t-fn-e-4)
+* [ansys::dpf::array_to_pointer_decay](structansys-dpf-array-to-pointer-decay.md#structansys-dpf-array-to-pointer-decay)
+* [ansys::dpf::array_to_pointer_decay\< T[N]\>](structansys-dpf-array-to-pointer-decay-t-fn-e.md#structansys-dpf-array-to-pointer-decay-t-fn-e-4)
 * [ansys::dpf::ConstructHelpers](structansys-dpf-constructhelpers.md#structansys-dpf-constructhelpers)
 * [ansys::dpf::SemanticVersion](classansys-dpf-semanticversion.md#classansys-dpf-semanticversion)
 * [ansys::dpf::Any](classansys-dpf-any.md#classansys-dpf-any)
@@ -100,17 +94,17 @@ This namespace encapsulates all of the HGP functionality.
 * [ansys::dpf::reflect\< CustomTypeFieldsContainer \>](structansys-dpf-reflect-customtypefieldscontainer.md#structansys-dpf-reflect-customtypefieldscontainer-4)
 * [ansys::dpf::LicenseContextManager](classansys-dpf-licensecontextmanager.md#classansys-dpf-licensecontextmanager)
 * [ansys::dpf::reflect](structansys-dpf-reflect.md#structansys-dpf-reflect)
-* [ansys::dpf::param\_helpers](structansys-dpf-param-helpers.md#structansys-dpf-param-helpers)
+* [ansys::dpf::param_helpers](structansys-dpf-param-helpers.md#structansys-dpf-param-helpers)
 * [ansys::dpf::QuantityType](structansys-dpf-quantitytype.md#structansys-dpf-quantitytype)
-* [ansys::dpf::quantity\_types](structansys-dpf-quantity-types.md#structansys-dpf-quantity-types)
+* [ansys::dpf::quantity_types](structansys-dpf-quantity-types.md#structansys-dpf-quantity-types)
 * [ansys::dpf::Location](structansys-dpf-location.md#structansys-dpf-location)
 * [ansys::dpf::locations](structansys-dpf-locations.md#structansys-dpf-locations)
 * [ansys::dpf::PropertyType](structansys-dpf-propertytype.md#structansys-dpf-propertytype)
-* [ansys::dpf::property\_types](structansys-dpf-property-types.md#structansys-dpf-property-types)
+* [ansys::dpf::property_types](structansys-dpf-property-types.md#structansys-dpf-property-types)
 * [ansys::dpf::Homogeneity](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity)
 * [ansys::dpf::homogeneities](structansys-dpf-homogeneities.md#structansys-dpf-homogeneities)
 * [ansys::dpf::UnitSystem](structansys-dpf-unitsystem.md#structansys-dpf-unitsystem)
-* [ansys::dpf::unit\_systems](structansys-dpf-unit-systems.md#structansys-dpf-unit-systems)
+* [ansys::dpf::unit_systems](structansys-dpf-unit-systems.md#structansys-dpf-unit-systems)
 * [ansys::dpf::Label](structansys-dpf-label.md#structansys-dpf-label)
 * [ansys::dpf::labels](structansys-dpf-labels.md#structansys-dpf-labels)
 * [ansys::dpf::ShellDescriptor](structansys-dpf-shelldescriptor.md#structansys-dpf-shelldescriptor)
@@ -128,26 +122,20 @@ This namespace encapsulates all of the HGP functionality.
 * [ansys::dpf::DpfVectorDataHelper](structansys-dpf-dpfvectordatahelper.md#structansys-dpf-dpfvectordatahelper)
 * [ansys::dpf::DpfVectorData](classansys-dpf-dpfvectordata.md#classansys-dpf-dpfvectordata)
 * [ansys::dpf::DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)
-* [ansys::dpf::DpfVector\< std::string \>](classansys-dpf-dpfvector-std-string.md#classansys-dpf-dpfvector-std-string-4)
 * [ansys::dpf::Context](classansys-dpf-context.md#classansys-dpf-context)
 * [ansys::dpf::LibraryHandle](classansys-dpf-libraryhandle.md#classansys-dpf-libraryhandle)
 * [ansys::dpf::LibraryHolder](classansys-dpf-libraryholder.md#classansys-dpf-libraryholder)
-* [ansys::dpf::reflect\< std::string \>](structansys-dpf-reflect-std-string.md#structansys-dpf-reflect-std-string-4)
 * [ansys::dpf::reflect\< int \>](structansys-dpf-reflect-int.md#structansys-dpf-reflect-int-4)
 * [ansys::dpf::reflect\< double \>](structansys-dpf-reflect-double.md#structansys-dpf-reflect-double-4)
 * [ansys::dpf::reflect\< bool \>](structansys-dpf-reflect-bool.md#structansys-dpf-reflect-bool-4)
-* [ansys::dpf::reflect\< size\_t \>](structansys-dpf-reflect-size-t.md#structansys-dpf-reflect-size-t-4)
-* [ansys::dpf::reflect\< int64\_t \>](structansys-dpf-reflect-int64-t.md#structansys-dpf-reflect-int64-t-4)
+* [ansys::dpf::reflect\< size_t \>](structansys-dpf-reflect-size-t.md#structansys-dpf-reflect-size-t-4)
+* [ansys::dpf::reflect\< int64_t \>](structansys-dpf-reflect-int64-t.md#structansys-dpf-reflect-int64-t-4)
 * [ansys::dpf::reflect\< char \>](structansys-dpf-reflect-char.md#structansys-dpf-reflect-char-4)
-* [ansys::dpf::reflect\< wchar\_t \>](structansys-dpf-reflect-wchar-t.md#structansys-dpf-reflect-wchar-t-4)
+* [ansys::dpf::reflect\< wchar_t \>](structansys-dpf-reflect-wchar-t.md#structansys-dpf-reflect-wchar-t-4)
 * [ansys::dpf::reflect\< float \>](structansys-dpf-reflect-float.md#structansys-dpf-reflect-float-4)
 * [ansys::dpf::reflect\< unsigned int \>](structansys-dpf-reflect-unsigned-int.md#structansys-dpf-reflect-unsigned-int-4)
 * [ansys::dpf::reflect\< short \>](structansys-dpf-reflect-short.md#structansys-dpf-reflect-short-4)
-* [ansys::dpf::reflect\< std::vector\< int \> \>](structansys-dpf-reflect-std-vector-int-4.md#structansys-dpf-reflect-std-vector-int-4-4)
-* [ansys::dpf::reflect\< std::vector\< double \> \>](structansys-dpf-reflect-std-vector-double-4.md#structansys-dpf-reflect-std-vector-double-4-4)
-* [ansys::dpf::reflect\< std::vector\< std::string \> \>](structansys-dpf-reflect-std-vector-std-string-4.md#structansys-dpf-reflect-std-vector-std-string-4-4)
-* [ansys::dpf::reflect\< int8\_t \>](structansys-dpf-reflect-int8-t.md#structansys-dpf-reflect-int8-t-4)
-* [ansys::dpf::reflect\< std::complex\< double \> \>](structansys-dpf-reflect-std-complex-double-4.md#structansys-dpf-reflect-std-complex-double-4-4)
+* [ansys::dpf::reflect\< int8_t \>](structansys-dpf-reflect-int8-t.md#structansys-dpf-reflect-int8-t-4)
 
 ## Enumeration types
 
@@ -679,14 +667,14 @@ Load type.
 
 
 <a id="namespaceansys-dpf-1ac4f1380f00170887891b5cf54d8c94b3a568e48779e3958b6d9c632b759bee1cb"></a>
-#### Enumerator assert\_load
+#### Enumerator assert_load
 
 
 
 Requests a fully successful load of all function's symbols of the DPF API.
 
 <a id="namespaceansys-dpf-1ac4f1380f00170887891b5cf54d8c94b3a6d450e9598ea0dffeaff74fbcccb116f"></a>
-#### Enumerator try\_load
+#### Enumerator try_load
 
 
 
@@ -1041,7 +1029,7 @@ typedef int ansys::dpf::dataIdentifierInDatabase
 -->
 
 <a id="namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0"></a>
-### Typedef dp\_int
+### Typedef dp_int
 
 ![][public]
 
@@ -1066,7 +1054,7 @@ DPF integer.
 -->
 
 <a id="namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e"></a>
-### Typedef dp\_id
+### Typedef dp_id
 
 ![][public]
 
@@ -1091,7 +1079,7 @@ DPF identifier.
 -->
 
 <a id="namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920"></a>
-### Typedef dp\_index
+### Typedef dp_index
 
 ![][public]
 
@@ -1116,7 +1104,7 @@ DPF index.
 -->
 
 <a id="namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790"></a>
-### Typedef dp\_double
+### Typedef dp_double
 
 ![][public]
 

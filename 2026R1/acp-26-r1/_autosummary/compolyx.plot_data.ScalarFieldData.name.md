@@ -4,4 +4,4 @@
 
 #### *property* ScalarFieldData.name
 
-Name of object
+Name of the object

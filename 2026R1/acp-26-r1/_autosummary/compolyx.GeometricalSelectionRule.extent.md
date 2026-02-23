@@ -4,4 +4,4 @@
 
 #### *property* GeometricalSelectionRule.extent
 
-extent of the rule
+Extent of the rule

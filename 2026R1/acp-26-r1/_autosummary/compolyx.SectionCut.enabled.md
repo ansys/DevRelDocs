@@ -4,4 +4,4 @@
 
 #### *property* SectionCut.enabled
 
-Whether this object is currently enabled or not. SectionCuts are always enabled.
+Indicates whether the object is enabled. SectionCuts are always enabled.

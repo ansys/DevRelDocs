@@ -7,17 +7,16 @@
 
 User defined physical measurement quantity.
 
-Allows for the definition of a new measurement quantity. Many measurements quantities are predefined. 
+Allows for the definition of a new measurement quantity. Many measurements quantities are predefined.
 
 **See also**: [homogeneities](structansys-dpf-homogeneities.md#structansys-dpf-homogeneities)
 
 ## Members
 
-* [c\_str](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity-1a74bcfe9b2ed50910f2da21944e3b7437)
+* [c_str](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity-1a74bcfe9b2ed50910f2da21944e3b7437)
 * [Homogeneity](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity-1a5ddd95a1b4667a297eb19531f722d27e)
 * [Homogeneity](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity-1a192f79a5c56ddd9304822227218b199e)
 * [Homogeneity](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity-1abab33dd46353450eb8b025e792a0c74f)
-* [operator std::string](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity-1a805990ee94e455ca6cfb4be2cb9fd1d3)
 * [operator!=](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity-1a10804e4a1554cd01621fceb38b77fdfe)
 * [operator=](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity-1a1cdc8c0da49ee50ab0111341f070322e)
 * [operator==](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity-1a04c1ddd43c0799283b283b6c65ee56ea)
@@ -45,7 +44,7 @@ Create new homogeneity.
 
 * std::string const & **name** = "Unknown" : [in] Optional name of homogeneity.
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -74,7 +73,7 @@ ansys::dpf::Homogeneity::Homogeneity(Homogeneity const &)=default
 
 * Homogeneity const &
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -103,7 +102,7 @@ ansys::dpf::Homogeneity::Homogeneity(Homogeneity &&)=default
 
 * Homogeneity &&
 
-**Return type**: 
+**Return type**:
 
 <!--
 **TODO**:
@@ -200,34 +199,8 @@ bool ansys::dpf::Homogeneity::operator!=(Homogeneity const &rhs) const
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Homogeneity::operator!="}]}`
 -->
 
-<a id="classansys-dpf-homogeneity-1a805990ee94e455ca6cfb4be2cb9fd1d3"></a>
-### Function operator std::string
-
-![][public]
-![][const]
-
-
-```cpp
-ansys::dpf::Homogeneity::operator std::string() const
-```
-
-
-
-
-Name of homogeneity.
-
-
-
-**Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Homogeneity::string"}]}`
--->
-
 <a id="classansys-dpf-homogeneity-1a74bcfe9b2ed50910f2da21944e3b7437"></a>
-### Function c\_str
+### Function c_str
 
 ![][public]
 ![][const]
@@ -240,7 +213,7 @@ const char * ansys::dpf::Homogeneity::c_str() const
 
 
 
-Gets name of homogeneity. 
+Gets name of homogeneity.
 **Returns**:
 
 Name of homogeneity.

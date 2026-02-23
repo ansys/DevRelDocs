@@ -8,9 +8,9 @@
 
 ## Files
 
-* [dpf\_meshQuery.h](dpf-meshquery-h.md#dpf-meshquery-h)
-* [dpf\_model.h](dpf-model-h.md#dpf-model-h)
-* [dpf\_result.h](dpf-result-h.md#dpf-result-h)
+* [dpf_meshQuery.h](dpf-meshquery-h.md#dpf-meshquery-h)
+* [dpf_model.h](dpf-model-h.md#dpf-model-h)
+* [dpf_result.h](dpf-result-h.md#dpf-result-h)
 
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [const]: https://img.shields.io/badge/-const-lightblue (const)

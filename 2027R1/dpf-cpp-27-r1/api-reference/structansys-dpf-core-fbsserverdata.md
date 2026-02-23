@@ -12,12 +12,12 @@
 ## Members
 
 * [address](structansys-dpf-core-fbsserverdata.md#structansys-dpf-core-fbsserverdata-1ad36a9cb79d2486e67b7eed1c272acbbd)
-* [server\_holder](structansys-dpf-core-fbsserverdata.md#structansys-dpf-core-fbsserverdata-1a32efed40bb7c74502949592fccc47d67)
+* [server_holder](structansys-dpf-core-fbsserverdata.md#structansys-dpf-core-fbsserverdata-1a32efed40bb7c74502949592fccc47d67)
 
 ## Public attributes
 
 <a id="structansys-dpf-core-fbsserverdata-1a32efed40bb7c74502949592fccc47d67"></a>
-### Variable server\_holder
+### Variable server_holder
 
 ![][public]
 

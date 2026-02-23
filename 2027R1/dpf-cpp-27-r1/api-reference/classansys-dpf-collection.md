@@ -381,7 +381,7 @@ DataT ansys::dpf::Collection< DataT >::operator[](dp_int index)
 
 **Parameters**:
 
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**: [in] Index of entries within container.
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**: [in] Index of entries within container.
 
 **Return type**: DataT
 
@@ -412,7 +412,7 @@ DataT for given index.
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of [Any](classansys-dpf-any.md#classansys-dpf-any) to get.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of [Any](classansys-dpf-any.md#classansys-dpf-any) to get.
 
 **Return type**: DataT
 
@@ -444,7 +444,7 @@ DataT for given index.
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of [Any](classansys-dpf-any.md#classansys-dpf-any) to get.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of [Any](classansys-dpf-any.md#classansys-dpf-any) to get.
 
 **Return type**: const DataT
 
@@ -474,7 +474,7 @@ Update a [Any](classansys-dpf-any.md#classansys-dpf-any) at index.
 **Parameters**:
 
 * DataT & **f**: [in] New [Any](classansys-dpf-any.md#classansys-dpf-any).
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of [Any](classansys-dpf-any.md#classansys-dpf-any) to update.
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **index**: [in] Index of [Any](classansys-dpf-any.md#classansys-dpf-any) to update.
 
 **Return type**: void
 
@@ -601,7 +601,7 @@ std::vector< dp_index > ansys::dpf::Collection< DataT >::getEntriesIndices(Label
 
 * [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) const & **lab_space**
 
-**Return type**: std::vector< [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) >
+**Return type**: std::vector< [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) >
 
 <!--
 **TODO**:
@@ -633,7 +633,7 @@ Vector of matching entries to the given label space.
 
 * [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) const & **label_space**: [in] [Label](structansys-dpf-label.md#structansys-dpf-label) space for which to get entries.
 
-**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) >
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) >
 
 <!--
 **TODO**:

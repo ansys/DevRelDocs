@@ -7,12 +7,14 @@
     href: getting_started_acp.md#basic-scripting
   - name: Advanced scripting
     href: getting_started_acp.md#advanced-scripting
+- name: Extending the Python environment
+  href: extending_python_environment.md
 - name: The Python object tree
   href: python_object_tree.md
 - name: Classes
   href: classes.md
   items:
-  - name: Database
+  - name: Database class
     href: db_database.md
     items:
     - name: DB
@@ -2201,10 +2203,10 @@
         href: _autosummary/compolyx.Model.create_variable_offset_selection_rule.md
       - name: create_view
         href: _autosummary/compolyx.Model.create_view.md
+      - name: default_vector_scale_and_ratio
+        href: _autosummary/compolyx.Model.default_vector_scale_and_ratio.md
       - name: element_normal
         href: _autosummary/compolyx.Model.element_normal.md
-      - name: export
-        href: _autosummary/compolyx.Model.export.md
       - name: export_composite_cae_h5
         href: _autosummary/compolyx.Model.export_composite_cae_h5.md
       - name: export_h5_composite_definitions
@@ -2231,8 +2233,6 @@
         href: _autosummary/compolyx.Model.graph_report.md
       - name: import_composite_cae_h5
         href: _autosummary/compolyx.Model.import_composite_cae_h5.md
-      - name: import_composite_definitions_from_acp_file
-        href: _autosummary/compolyx.Model.import_composite_definitions_from_acp_file.md
       - name: import_section_data_from_legacy_model
         href: _autosummary/compolyx.Model.import_section_data_from_legacy_model.md
       - name: mesh_query
@@ -2348,6 +2348,8 @@
         href: _autosummary/compolyx.ModelingGroup.serialize.md
       - name: serialize_name_and_id
         href: _autosummary/compolyx.ModelingGroup.serialize_name_and_id.md
+      - name: split_modeling_plies_by_production_material
+        href: _autosummary/compolyx.ModelingGroup.split_modeling_plies_by_production_material.md
       - name: sync_plies
         href: _autosummary/compolyx.ModelingGroup.sync_plies.md
       - name: update
@@ -3694,8 +3696,6 @@
         href: _autosummary/compolyx.ImportedSolidModel.visit.md
       - name: write_h5_and_cdb_file
         href: _autosummary/compolyx.ImportedSolidModel.write_h5_and_cdb_file.md
-      - name: write_lsdyna_solid_model
-        href: _autosummary/compolyx.ImportedSolidModel.write_lsdyna_solid_model.md
       - name: write_solid_model
         href: _autosummary/compolyx.ImportedSolidModel.write_solid_model.md
     - name: LayupMappingObject
@@ -4066,8 +4066,6 @@
         href: _autosummary/compolyx.SolidModel.visit.md
       - name: write_h5_and_cdb_file
         href: _autosummary/compolyx.SolidModel.write_h5_and_cdb_file.md
-      - name: write_lsdyna_solid_model
-        href: _autosummary/compolyx.SolidModel.write_lsdyna_solid_model.md
       - name: write_solid_model
         href: _autosummary/compolyx.SolidModel.write_solid_model.md
   - name: Scene classes

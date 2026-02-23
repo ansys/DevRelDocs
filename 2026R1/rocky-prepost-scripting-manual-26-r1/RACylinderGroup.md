@@ -263,7 +263,7 @@ Sets the internal hole radius factor of the external given by the size
 
 <a id="generated.RACylinderGroup.SetMotionFrame"></a>
 
-#### SetMotionFrame(motion_frame: [RAMotionFrame](RAMotionFrame.md#generated.RAMotionFrame) | str | None)
+#### SetMotionFrame(motion_frame: RAMotionFrame | str | None)
 
 Assign a Motion Frame to the process.
 

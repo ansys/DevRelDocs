@@ -4,4 +4,4 @@
 
 #### ImportedSolidModel.mapping_statistics()
 
-Returns the statistics of the layup mapping (number of elements, volumes, mass, etc.)
+Returns the statistics of the layup mapping (number of elements, volumes, mass etc.)

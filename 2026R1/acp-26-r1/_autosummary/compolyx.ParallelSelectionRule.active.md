@@ -4,4 +4,4 @@
 
 #### *property* ParallelSelectionRule.active
 
-active status of object
+Active status of the object

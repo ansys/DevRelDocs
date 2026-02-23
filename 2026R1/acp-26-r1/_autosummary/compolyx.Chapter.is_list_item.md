@@ -4,4 +4,4 @@
 
 #### *property* Chapter.is_list_item
 
-Specifies whether the object is an item of a list
+Indicates whether the object is an item of a list

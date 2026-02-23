@@ -13,7 +13,7 @@ Groups all DataProcessingFramework core controls and utilities, like loading the
 
 * [ansys::dpf::core::FbsServerData](structansys-dpf-core-fbsserverdata.md#structansys-dpf-core-fbsserverdata)
 * [ansys::dpf::core::trace](structansys-dpf-core-trace.md#structansys-dpf-core-trace)
-* [ansys::dpf::core::path\_utilities](structansys-dpf-core-path-utilities.md#structansys-dpf-core-path-utilities)
+* [ansys::dpf::core::path_utilities](structansys-dpf-core-path-utilities.md#structansys-dpf-core-path-utilities)
 * [ansys::dpf::core::logging](structansys-dpf-core-logging.md#structansys-dpf-core-logging)
 
 ## Members
@@ -1128,7 +1128,7 @@ suppress the entity from the server's database.
 
 **Parameters**:
 
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **id**: [in] its Id on the server.
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **id**: [in] its Id on the server.
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 * bool **async** = false 
 
@@ -1160,7 +1160,7 @@ Retrieves the object from the database, deletes it from the database and returns
 
 **Parameters**:
 
-* [dp\_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **id**: [in] Id of the object on the server's database.
+* [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **id**: [in] Id of the object on the server's database.
 * databaseIdentifier **db_id**
 
 **Return type**: [ansys::dpf::Any](classansys-dpf-any.md#classansys-dpf-any)

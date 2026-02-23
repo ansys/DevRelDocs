@@ -2,11 +2,12 @@
 
 <a id="compolyx.DB.open"></a>
 
-#### DB.open(path, replace_workbench_inputs=None, pre_db=None, unit_system_type=None, load_cached_data=False, apply_shared_commands=False)
+#### DB.open(path, \*, pre_db=None, unit_system_type=None, apply_shared_commands=False)
 
-Open ACP file and append the model to models container.
+Open an ACPH5 file.
 
 * **Parameters:**
-- path: Path to ACP file.
-- replace_mesh_kwargs: Optional keyword arguments to replace the mesh to load in db.import_model(…) upfront.
-- replace_workbench_inputs: Optional dictionary with Workbench application inputs to replace before executing the .acp file.
+  - path: File path to the ACPH5 file.
+  - pre_db: Indicates whether a pre-database is opened from within a
+    : post-database. Used for Workbench application integration 14.
+  - unit_system_type: Defines the unit system of the main/downstream ACP file.

@@ -13,12 +13,12 @@
 
 ## Members
 
-* [type\_name](structansys-dpf-reflect-scoping.md#structansys-dpf-reflect-scoping-4-1a94fc551d4b8e2c5ab22ee0cf9739176c)
+* [type_name](structansys-dpf-reflect-scoping.md#structansys-dpf-reflect-scoping-4-1a94fc551d4b8e2c5ab22ee0cf9739176c)
 
 ## Public static functions
 
 <a id="structansys-dpf-reflect-scoping-4-1a94fc551d4b8e2c5ab22ee0cf9739176c"></a>
-### Function type\_name
+### Function type_name
 
 ![][public]
 ![][static]

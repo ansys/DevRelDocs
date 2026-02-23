@@ -4,4 +4,4 @@
 
 #### *property* AnalysisPly.uid
 
-UID of object
+UID of the object     

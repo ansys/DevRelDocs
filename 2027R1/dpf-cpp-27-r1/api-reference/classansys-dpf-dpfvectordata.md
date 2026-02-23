@@ -15,12 +15,12 @@
 
 ## Members
 
-* [\_data](classansys-dpf-dpfvectordata.md#classansys-dpf-dpfvectordata-1ab6997f70bc65657235b4c237b0571a3f)
-* [\_handle\_as\_char](classansys-dpf-dpfvectordata.md#classansys-dpf-dpfvectordata-1a2b602162fdd57012d13a528c53d22e90)
-* [\_modified](classansys-dpf-dpfvectordata.md#classansys-dpf-dpfvectordata-1aa53d72c3000d7f20e2eaa8e8dcf2f5a4)
-* [\_size](classansys-dpf-dpfvectordata.md#classansys-dpf-dpfvectordata-1a0e33eb5238e95f7a2bb310579c5158a4)
-* [\_sizes](classansys-dpf-dpfvectordata.md#classansys-dpf-dpfvectordata-1aa77b48135a08ffd3770f21602e1c5720)
-* [\_vector](classansys-dpf-dpfvectordata.md#classansys-dpf-dpfvectordata-1a595cd69dcd1a59c21b7d61fb52544584)
+* [_data](classansys-dpf-dpfvectordata.md#classansys-dpf-dpfvectordata-1ab6997f70bc65657235b4c237b0571a3f)
+* [_handle_as_char](classansys-dpf-dpfvectordata.md#classansys-dpf-dpfvectordata-1a2b602162fdd57012d13a528c53d22e90)
+* [_modified](classansys-dpf-dpfvectordata.md#classansys-dpf-dpfvectordata-1aa53d72c3000d7f20e2eaa8e8dcf2f5a4)
+* [_size](classansys-dpf-dpfvectordata.md#classansys-dpf-dpfvectordata-1a0e33eb5238e95f7a2bb310579c5158a4)
+* [_sizes](classansys-dpf-dpfvectordata.md#classansys-dpf-dpfvectordata-1aa77b48135a08ffd3770f21602e1c5720)
+* [_vector](classansys-dpf-dpfvectordata.md#classansys-dpf-dpfvectordata-1a595cd69dcd1a59c21b7d61fb52544584)
 * [commit](classansys-dpf-dpfvectordata.md#classansys-dpf-dpfvectordata-1aadb33801fbe7da31383f234a4b710e78)
 * [commit](classansys-dpf-dpfvectordata.md#classansys-dpf-dpfvectordata-1af59021883c9a1252b6cd0c8fdf5f391b)
 * [commit](classansys-dpf-dpfvectordata.md#classansys-dpf-dpfvectordata-1a0a1712ea7520abdaf6a22de993f30701)
@@ -46,7 +46,7 @@
 ## Public attributes
 
 <a id="classansys-dpf-dpfvectordata-1a0e33eb5238e95f7a2bb310579c5158a4"></a>
-### Variable \_size
+### Variable _size
 
 ![][public]
 
@@ -62,7 +62,7 @@ dp_int ansys::dpf::DpfVectorData< T >::_size
 
 
 
-**Type**: [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+**Type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
 
 <!--
 **TODO**:
@@ -71,7 +71,7 @@ dp_int ansys::dpf::DpfVectorData< T >::_size
 -->
 
 <a id="classansys-dpf-dpfvectordata-1aa53d72c3000d7f20e2eaa8e8dcf2f5a4"></a>
-### Variable \_modified
+### Variable _modified
 
 ![][public]
 
@@ -96,7 +96,7 @@ bool ansys::dpf::DpfVectorData< T >::_modified
 -->
 
 <a id="classansys-dpf-dpfvectordata-1a2b602162fdd57012d13a528c53d22e90"></a>
-### Variable \_handle\_as\_char
+### Variable _handle_as_char
 
 ![][public]
 
@@ -121,7 +121,7 @@ bool ansys::dpf::DpfVectorData< T >::_handle_as_char
 -->
 
 <a id="classansys-dpf-dpfvectordata-1a595cd69dcd1a59c21b7d61fb52544584"></a>
-### Variable \_vector
+### Variable _vector
 
 ![][public]
 
@@ -146,7 +146,7 @@ opaque::DpfVector* ansys::dpf::DpfVectorData< T >::_vector
 -->
 
 <a id="classansys-dpf-dpfvectordata-1aa77b48135a08ffd3770f21602e1c5720"></a>
-### Variable \_sizes
+### Variable _sizes
 
 ![][public]
 
@@ -171,7 +171,7 @@ size_t* ansys::dpf::DpfVectorData< T >::_sizes = nullptr
 -->
 
 <a id="classansys-dpf-dpfvectordata-1ab6997f70bc65657235b4c237b0571a3f"></a>
-### Variable \_data
+### Variable _data
 
 ![][public]
 
@@ -380,7 +380,7 @@ T ansys::dpf::DpfVectorData< T >::operator[](dp_index i) const
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **i**
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **i**
 
 **Return type**: T
 
@@ -409,7 +409,7 @@ T & ansys::dpf::DpfVectorData< T >::operator[](dp_index i)
 
 **Parameters**:
 
-* [dp\_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **i**
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **i**
 
 **Return type**: T &
 
@@ -490,8 +490,8 @@ void ansys::dpf::DpfVectorData< T >::setAsSubVec(DpfVectorData< T > *data_in, dp
 **Parameters**:
 
 * DpfVectorData< T > * **data_in**
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size**
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size**
 
 **Return type**: void
 
@@ -608,8 +608,8 @@ void ansys::dpf::DpfVectorData< int >::setAsSubVec(DpfVectorData< int > *data_in
 **Parameters**:
 
 * DpfVectorData< int > * **data_in**
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size**
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size**
 
 **Return type**: void
 
@@ -639,8 +639,8 @@ void ansys::dpf::DpfVectorData< char >::setAsSubVec(DpfVectorData< char > *data_
 **Parameters**:
 
 * DpfVectorData< char > * **data_in**
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size**
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size**
 
 **Return type**: void
 
@@ -670,8 +670,8 @@ void ansys::dpf::DpfVectorData< double >::setAsSubVec(DpfVectorData< double > *d
 **Parameters**:
 
 * DpfVectorData< double > * **data_in**
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**
-* [dp\_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size**
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **index**
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **size**
 
 **Return type**: void
 

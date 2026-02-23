@@ -41,6 +41,7 @@ Rocky api Receiving Conveyor model.
 | [`GetBeltThickness`](#generated.RAReceivingConveyor.GetBeltThickness)([unit])                                                | Get the value of "Belt Thickness".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | [`GetBeltWidth`](#generated.RAReceivingConveyor.GetBeltWidth)([unit])                                                        | Get the value of "Belt Width".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | [`GetBoundingBox`](#generated.RAReceivingConveyor.GetBoundingBox)([unit, time_step])                                         | Get the element's bounding box.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| [`GetCapillaryFrictionCoefficient`](#generated.RAReceivingConveyor.GetCapillaryFrictionCoefficient)()                        | Get the value of "Capillary Friction Coefficient".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | [`GetCellAreaAsArray`](#generated.RAReceivingConveyor.GetCellAreaAsArray)([time_step])                                       | Get an array containing the area of each cell.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | [`GetCellCenterAsArray`](#generated.RAReceivingConveyor.GetCellCenterAsArray)([time_step])                                   | Get an array containing the center coordinates of each cell.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | [`GetCellDzAsArray`](#generated.RAReceivingConveyor.GetCellDzAsArray)([time_step])                                           | Get an array containing the thickness (in Z) of each cell.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -54,10 +55,13 @@ Rocky api Receiving Conveyor model.
 | [`GetCurveNamesAssociation`](#generated.RAReceivingConveyor.GetCurveNamesAssociation)([simulation_name])                     | Get this element's curve names.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | [`GetDecelerationPeriod`](#generated.RAReceivingConveyor.GetDecelerationPeriod)([unit])                                      | Get the value of "Deceleration Period".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | [`GetElementCurve`](#generated.RAReceivingConveyor.GetElementCurve)(element_name, curve_name[, ...])                         | Return the curves for the given element and name.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| [`GetFacePositions`](#generated.RAReceivingConveyor.GetFacePositions)([time_step])                                           | Get the index of the faces.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| [`GetFaceVertices`](#generated.RAReceivingConveyor.GetFaceVertices)([time_step])                                             | Get the index of the vertices for all faces.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | [`GetGeometryQuantity`](#generated.RAReceivingConveyor.GetGeometryQuantity)()                                                | Get the quantity corresponding to the grid's geometry.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| [`GetGeometryTransform`](#generated.RAReceivingConveyor.GetGeometryTransform)([time_step])                                   | Get the geometry transform for the grid at the given time step.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | [`GetGeometryUnit`](#generated.RAReceivingConveyor.GetGeometryUnit)()                                                        | Get the grid's geometry's unit.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | [`GetGridFunction`](#generated.RAReceivingConveyor.GetGridFunction)(grid_function_name[, ...])                               | Gets a grid function given its name.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| [`GetGridFunctionNames`](#generated.RAReceivingConveyor.GetGridFunctionNames)([translated, context])                         | Get a list of the available grid functions for this grid.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| [`GetGridFunctionNames`](#generated.RAReceivingConveyor.GetGridFunctionNames)([translated, context])                         | Overridden to filter out deprecated property names.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | [`GetHeightOffset`](#generated.RAReceivingConveyor.GetHeightOffset)([unit])                                                  | Get the value of "Height Offset".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | [`GetHorizontalOffset`](#generated.RAReceivingConveyor.GetHorizontalOffset)([unit])                                          | Get the value of "Horizontal Offset".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | [`GetLength`](#generated.RAReceivingConveyor.GetLength)([unit])                                                              | Get the value of "Length".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -88,6 +92,7 @@ Rocky api Receiving Conveyor model.
 | [`GetValidSphBoundaryTypeValues`](#generated.RAReceivingConveyor.GetValidSphBoundaryTypeValues)()                            | Get a list of all possible values for "Sph Boundary Type".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | [`GetValidThermalBoundaryConditionTypeValues`](#generated.RAReceivingConveyor.GetValidThermalBoundaryConditionTypeValues)()  | Get a list of all possible values for "Thermal Boundary Condition Type".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | [`GetVerticalOffset`](#generated.RAReceivingConveyor.GetVerticalOffset)([unit])                                              | Get the value of "Vertical Offset".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| [`GetVertices`](#generated.RAReceivingConveyor.GetVertices)([time_step])                                                     | Get the geometry vertices of the grid at the given time step.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | [`GetWidth`](#generated.RAReceivingConveyor.GetWidth)([unit])                                                                | Get the value of "Width".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | [`HasGridFunction`](#generated.RAReceivingConveyor.HasGridFunction)(grid_function_name)                                      | Whether the grid has the given grid function.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | [`IsCellActive`](#generated.RAReceivingConveyor.IsCellActive)(i, j, k[, time_step])                                          | Checks if the given cell is active or not                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
@@ -107,6 +112,7 @@ Rocky api Receiving Conveyor model.
 | [`SetBeltSpeed`](#generated.RAReceivingConveyor.SetBeltSpeed)(value[, unit])                                                 | Set the value of "Belt Speed".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | [`SetBeltThickness`](#generated.RAReceivingConveyor.SetBeltThickness)(value[, unit])                                         | Set the value of "Belt Thickness".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | [`SetBeltWidth`](#generated.RAReceivingConveyor.SetBeltWidth)(value[, unit])                                                 | Set the value of "Belt Width".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| [`SetCapillaryFrictionCoefficient`](#generated.RAReceivingConveyor.SetCapillaryFrictionCoefficient)(value)                   | Set the value of "Capillary Friction Coefficient".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | [`SetCurrentTimeStep`](#generated.RAReceivingConveyor.SetCurrentTimeStep)(time_step)                                         | Sets the current time step.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | [`SetDecelerationPeriod`](#generated.RAReceivingConveyor.SetDecelerationPeriod)(value[, unit])                               | Set the value of "Deceleration Period".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | [`SetHeightOffset`](#generated.RAReceivingConveyor.SetHeightOffset)(value[, unit])                                           | Set the value of "Height Offset".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -184,7 +190,7 @@ Add a custom property to the database
 
 <a id="generated.RAReceivingConveyor.AddGridFunction"></a>
 
-#### AddGridFunction(grid_function_name, grid_function, unit='<unknown>', location='cell', realization='user_generated', time_step=None)
+#### AddGridFunction(grid_function_name, grid_function, unit: str | IQuantity = '<unknown>', location: str = 'cell', realization: str = 'user_generated', time_step: str | int | ITimeStep | None = None)
 
 Adds a grid function to the grid.
 
@@ -196,7 +202,7 @@ Adds a grid function to the grid.
   * **location** (*unicode*) – The location of the grid function (currently only ‘cell’ is accepted).
   * **realization** (*unicode*) – The realization used to identify the grid function among other grid functions. If None,
     this information is ignored.
-  * **time_step** (*None* *,* *unicode* *,* *ITimeStep* *or* *int*) – if None if given a static grid function will be created otherwise a transient grid
+  * **time_step** – if None if given a static grid function will be created otherwise a transient grid
     function is created and the given array associated with this time-step
 
 #### SEE ALSO
@@ -263,30 +269,28 @@ Used to create an output variable based on a curve which doesn’t change at eac
 
 <a id="generated.RAReceivingConveyor.CreateGridFunction"></a>
 
-#### CreateGridFunction(values, location='cell', time_step='current')
+#### CreateGridFunction(values: list[float] | ndarray, location: str = 'cell', time_step: str | int | ITimeStep = 'current')
 
 Create a grid function from the given values, location and time-step.
 
 * **Parameters:**
-  * **values** (*list* *(**double* *) or* *numpy array*) – The values of the grid function to be added.
-  * **time_step**
-
-#### SEE ALSO
-KAContextDependentElement.GetTimeStep
+  * **values** – The values of the grid function to be added.
+  * **time_step** – if None if given a static grid function will be created otherwise a transient grid
+    function is created and the given array associated with this time-step
+* **Returns:**
+  The created grid function.
 
 <a id="generated.RAReceivingConveyor.CreateGridFunctionArrayOnCells"></a>
 
-#### CreateGridFunctionArrayOnCells(time_step='current')
+#### CreateGridFunctionArrayOnCells(time_step: str | int | ITimeStep = 'current')
 
 Creates a numpy array with the number of elements based on the cells and returns it. A
 different time may be specified to create the grid function based on a different time.
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to create the array
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  numpy.array
 * **Returns:**
   Returns a numpy float32 array with the number of elements equal to the number of cells.
 
@@ -488,16 +492,14 @@ Get the value of “Acceleration Period”.
 
 <a id="generated.RAReceivingConveyor.GetActivesArray"></a>
 
-#### GetActivesArray(time_step='current')
+#### GetActivesArray(time_step: str | int | ITimeStep = 'current')
 
 Get an array representing the cells’ “active” status.
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to get the actives array
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  numpy array
 * **Returns:**
   Returns a numpy array with booleans where True means the cell is active and False
   means it’s not active.
@@ -598,83 +600,79 @@ Get the value of “Belt Width”.
 
 <a id="generated.RAReceivingConveyor.GetBoundingBox"></a>
 
-#### GetBoundingBox(unit=None, time_step='current')
+#### GetBoundingBox(unit: str | None = None, time_step: str | int | ITimeStep = 'current')
 
 Get the element’s bounding box.
 
 * **Parameters:**
-  * **unit** (*unicode*) – The unit in which the bounding box should be gotten (by default it uses the same
+  * **unit** – The unit in which the bounding box should be gotten (by default it uses the same
     unit of the geometry).
-  * **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  * **time_step** – Either a ‘current’ string with meaning the current time step
     or an ITimeStep identifying the time to get the bounding box
     or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  tuple(tuple(float, float, float), tuple(float, float, float))
 * **Returns:**
-  THe minimum and maximum geometry coordinates of the grid or None if the
+  The minimum and maximum geometry coordinates of the grid or None if the
   time step is not available at the requested time.
+
+<a id="generated.RAReceivingConveyor.GetCapillaryFrictionCoefficient"></a>
+
+#### GetCapillaryFrictionCoefficient()
+
+Get the value of “Capillary Friction Coefficient”.
 
 <a id="generated.RAReceivingConveyor.GetCellAreaAsArray"></a>
 
-#### GetCellAreaAsArray(time_step='current')
+#### GetCellAreaAsArray(time_step: str | int | ITimeStep = 'current')
 
 Get an array containing the area of each cell.
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to get the cell volume
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  numpy.array
 * **Returns:**
   An array with the cell area (the unit will be the geometry unit \*\* 2)
 
 <a id="generated.RAReceivingConveyor.GetCellCenterAsArray"></a>
 
-#### GetCellCenterAsArray(time_step='current')
+#### GetCellCenterAsArray(time_step: str | int | ITimeStep = 'current')
 
 Get an array containing the center coordinates of each cell.
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to get the cell center
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  numpy.array
 * **Returns:**
   An array with the cell center coordinates (each element will be a point to the center of
   the cell).
 
 <a id="generated.RAReceivingConveyor.GetCellDzAsArray"></a>
 
-#### GetCellDzAsArray(time_step='current')
+#### GetCellDzAsArray(time_step: str | int | ITimeStep = 'current')
 
 Get an array containing the thickness (in Z) of each cell.
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to get the cell dz
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  numpy.array
 * **Returns:**
   An array with cell thicknesses computed in the Z direction.
 
 <a id="generated.RAReceivingConveyor.GetCellFromIJK"></a>
 
-#### GetCellFromIJK(i, j, k, time_step='current')
+#### GetCellFromIJK(i: int, j: int, k: int, time_step: str | int | ITimeStep = 'current')
 
 Creates a grid cell handle from the current I, J, K indexes
 
 * **Parameters:**
-  * **i** (*int*) – The topological I cell index
-  * **j** (*int*) – The topological J cell index
-  * **k** (*int*) – The topological K cell index
-  * **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  * **i** – The topological I cell index
+  * **j** – The topological J cell index
+  * **k** – The topological K cell index
+  * **time_step** – Either a ‘current’ string with meaning the current time step
     or an ITimeStep identifying the time to get the cell from the i, j, k
     or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  int or None
 * **Returns:**
   Returns the cell handle to be used for the given I, J, K indexes.
   Or None if the given I, J and K indexes are invalid or refer to an inactive cell
@@ -683,39 +681,35 @@ Creates a grid cell handle from the current I, J, K indexes
 
 <a id="generated.RAReceivingConveyor.GetCellIJK"></a>
 
-#### GetCellIJK(cell_handle, time_step='current')
+#### GetCellIJK(cell_handle: int, time_step: str | int | ITimeStep = 'current')
 
 Converts the given cell handle to it’s I, J, K indexes
 
 * **Parameters:**
-  * **cell_handle** (*int*) – The cell handle
-  * **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  * **cell_handle** – The cell handle
+  * **time_step** – Either a ‘current’ string with meaning the current time step
     or an ITimeStep identifying the time to get the i, j, k from the cell.
     or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  tuple( i, j, k )
 * **Returns:**
   The cell I, J, K indexes
 
 <a id="generated.RAReceivingConveyor.GetCellNumberOfVertices"></a>
 
-#### GetCellNumberOfVertices(cell, time_step='current')
+#### GetCellNumberOfVertices(cell: int, time_step: str | int | ITimeStep = 'current')
 
 Get an array containing the number of vertices of each cell.
 
 * **Parameters:**
-  * **cell_handle** (*int*) – The cell handle
-  * **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  * **cell_handle** – The cell handle
+  * **time_step** – Either a ‘current’ string with meaning the current time step
     or an ITimeStep identifying the time to get the number of vertices for the given cell
     or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  int
 * **Returns:**
   The total number of vertices on the given cell
 
 <a id="generated.RAReceivingConveyor.GetCellPointsAsFunction"></a>
 
-#### GetCellPointsAsFunction(time_step='current')
+#### GetCellPointsAsFunction(time_step: str | int | ITimeStep = 'current')
 
 Get a function for the points (vertices) of each cell.
 
@@ -749,22 +743,20 @@ for vertex in grid.IterCellVertices(cell):
 
 <a id="generated.RAReceivingConveyor.GetCellVolumeAsArray"></a>
 
-#### GetCellVolumeAsArray(time_step='current')
+#### GetCellVolumeAsArray(time_step: str | int | ITimeStep = 'current')
 
 Get an array with the volume of each cell.
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to get the cell volume
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  numpy.array
 * **Returns:**
   An array with the cell volume (the unit will be the geometry unit \*\* 3)
 
 <a id="generated.RAReceivingConveyor.GetCurve"></a>
 
-#### GetCurve(curve_name, simulation_name=None, realization=None, time_step=None)
+#### GetCurve(curve_name, simulation_name=None, realization=None, time_step: str | int | ITimeStep | None = None)
 
 Override base class method to check for a request of a grid function statistic.
 
@@ -815,16 +807,58 @@ Return the curves for the given element and name.
   * **realization** (*unicode*) – An additional keyword to identify the curve realization
   * **time_step** (*TimeStep*) – For transient curves a time-step must be given.
 
+<a id="generated.RAReceivingConveyor.GetFacePositions"></a>
+
+#### GetFacePositions(time_step: str | int | ITimeStep = 'current')
+
+Get the index of the faces. Use this in conjunction with GetFaceVertices to obtain
+the index of vertices in each face.
+
+* **Parameters:**
+  **time_step** – Either a ‘current’ string with meaning the current time step
+  or an ITimeStep identifying the time to get the geometry transform
+  or an int identifying the time step index to be used based on the global time set
+* **Returns:**
+  a numpy array with the face index of the grid at the given time step.
+
+<a id="generated.RAReceivingConveyor.GetFaceVertices"></a>
+
+#### GetFaceVertices(time_step: str | int | ITimeStep = 'current')
+
+Get the index of the vertices for all faces. Use this in conjunction with GetFacePositions
+to obtain the index of vertices in each face. The index is related to the vertices obtained
+via GetVertices.
+
+* **Parameters:**
+  **time_step** – Either a ‘current’ string with meaning the current time step
+  or an ITimeStep identifying the time to get the geometry transform
+  or an int identifying the time step index to be used based on the global time set
+* **Returns:**
+  a numpy array with the vertices index of the grid at the given time step.
+
 <a id="generated.RAReceivingConveyor.GetGeometryQuantity"></a>
 
 #### GetGeometryQuantity()
 
 Get the quantity corresponding to the grid’s geometry.
 
-* **Return type:**
-  IQuantity
 * **Returns:**
   The grid geometry quantity
+
+<a id="generated.RAReceivingConveyor.GetGeometryTransform"></a>
+
+#### GetGeometryTransform(time_step: str | int | ITimeStep = 'current')
+
+Get the geometry transform for the grid at the given time step. This should be used in
+conjunction with GetVertices to obtain the transformed vertices of the grid.
+
+* **Parameters:**
+  **time_step** – Either a ‘current’ string with meaning the current time step
+  or an ITimeStep identifying the time to get the geometry transform
+  or an int identifying the time step index to be used based on the global time set
+* **Returns:**
+  The geometry transform as a tuple of (translation, rotation) or None if the
+  object has no motion frame associated to it.
 
 <a id="generated.RAReceivingConveyor.GetGeometryUnit"></a>
 
@@ -832,8 +866,6 @@ Get the quantity corresponding to the grid’s geometry.
 
 Get the grid’s geometry’s unit.
 
-* **Return type:**
-  unicode
 * **Returns:**
   The unit for the grid geometry
 
@@ -855,13 +887,11 @@ grid.GetGridFunction('Temperature').GetArray(unit='degC', time_step=time_set[10]
 if it’s used without a time parameter, it’ll get the array at the current application time.
 
 * **Parameters:**
-  * **grid_function_name** (*unicode*) – The name of the grid function to be gotten in this grid.
-  * **simulation_name** (*unicode*) – An optional parameter for defining the simulation to get the grid function from.
-  * **translated** (*bool*) – If False, the internal names of the grid functions will be returned, otherwise, the
+  * **grid_function_name** – The name of the grid function to be gotten in this grid.
+  * **simulation_name** – An optional parameter for defining the simulation to get the grid function from.
+  * **translated** – If False, the internal names of the grid functions will be returned, otherwise, the
     name returned will be the translated name (based on the settings chosen on how
     to see grid functions – i.e.: Cognitive, ECLIPSE, IMEX).
-* **Return type:**
-  KAGridFunction
 * **Returns:**
   The grid function found
 * **Raises:**
@@ -869,22 +899,9 @@ if it’s used without a time parameter, it’ll get the array at the current ap
 
 <a id="generated.RAReceivingConveyor.GetGridFunctionNames"></a>
 
-#### GetGridFunctionNames(translated=False, context=None)
+#### GetGridFunctionNames(translated: bool = False, context: str | None = None)
 
-Get a list of the available grid functions for this grid.
-
-* **Parameters:**
-  * **translated** (*bool*) – If False, the internal names of the grid functions will be returned, otherwise, the
-    name returned will be the translated name (based on the settings chosen on how
-    to see grid functions – i.e.: Cognitive, ECLIPSE, IMEX).
-  * **context** ( *'all'* *,*  *'static'* *or*  *'transient'*) – Which names should be returned
-    ‘all’ all grid function names
-    ‘static’ only the static grid function names
-    ‘transient’ only the transient grid function names
-* **Return type:**
-  list(unicode)
-* **Returns:**
-  Returns a list with the grid functions available.
+Overridden to filter out deprecated property names.
 
 <a id="generated.RAReceivingConveyor.GetHeightOffset"></a>
 
@@ -933,7 +950,7 @@ Get the “Material”.
 
 <a id="generated.RAReceivingConveyor.GetMeshColoring"></a>
 
-#### GetMeshColoring(window: str | type[KAWorkspaceWindow])
+#### GetMeshColoring(window: str | KAWorkspaceWindow)
 
 Get the RAMeshColoring related to the current object and a window.
 
@@ -974,31 +991,27 @@ Get the value of a module property.
 
 <a id="generated.RAReceivingConveyor.GetNumberOfCells"></a>
 
-#### GetNumberOfCells(time_step='current')
+#### GetNumberOfCells(time_step: str | int | ITimeStep = 'current')
 
 Get the total number of cells.
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to get the number of cells
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  int
 * **Returns:**
   The total number of cells
 
 <a id="generated.RAReceivingConveyor.GetNumberOfNodes"></a>
 
-#### GetNumberOfNodes(time_step='current')
+#### GetNumberOfNodes(time_step: str | int | ITimeStep = 'current')
 
 Get the total number of nodes (vertices).
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to get the number of cells
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  int
 * **Returns:**
   The total number of nodes/vertices
 
@@ -1098,8 +1111,6 @@ Get “Thermal Boundary Condition Type” as a string.
 
 Get the list of time-steps associated to the grid.
 
-* **Return type:**
-  ITimeSet
 * **Returns:**
   The list of time-steps associated to the grid
 
@@ -1137,16 +1148,14 @@ Get the timestep corresponding to the given time.
 
 <a id="generated.RAReceivingConveyor.GetTopologyShape"></a>
 
-#### GetTopologyShape(time_step='current')
+#### GetTopologyShape(time_step: str | int | ITimeStep = 'current')
 
 Get the shape of the topology (similar to the shape of numpy arrays).
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to get the topology shape
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  tuple of ints
 * **Returns:**
   The grid shape as a tuple of the grid size in each topological dimension.
 
@@ -1208,6 +1217,21 @@ Get the value of “Vertical Offset”.
 * **Parameters:**
   **unit** – The unit for the returned value. If no unit is provided, the returned value will be in “m”.
 
+<a id="generated.RAReceivingConveyor.GetVertices"></a>
+
+#### GetVertices(time_step: str | int | ITimeStep = 'current')
+
+Get the geometry vertices of the grid at the given time step. This should be used in
+conjunction with GetGeometryTransform to obtain the transformed vertices of the grid
+at a given time_step, otherwise it may return the vertices without any transformation.
+
+* **Parameters:**
+  **time_step** – Either a ‘current’ string with meaning the current time step
+  or an ITimeStep identifying the time to get the geometry transform
+  or an int identifying the time step index to be used based on the global time set
+* **Returns:**
+  a numpy array with the vertices of the grid at the given time step.
+
 <a id="generated.RAReceivingConveyor.GetWidth"></a>
 
 #### GetWidth(unit: str | None = None)
@@ -1219,44 +1243,40 @@ Get the value of “Width”.
 
 <a id="generated.RAReceivingConveyor.HasGridFunction"></a>
 
-#### HasGridFunction(grid_function_name)
+#### HasGridFunction(grid_function_name: str)
 
 Whether the grid has the given grid function.
 
 * **Parameters:**
-  **grid_function_name** (*unicode*) – The name of the grid function to be checked.
-* **Return type:**
-  bool
+  **grid_function_name** – The name of the grid function to be checked.
 * **Returns:**
   Returns True if the grid function exists and False otherwise.
 
 <a id="generated.RAReceivingConveyor.IsCellActive"></a>
 
-#### IsCellActive(i, j, k, time_step='current')
+#### IsCellActive(i: int, j: int, k: int, time_step: str | int | ITimeStep = 'current')
 
 Checks if the given cell is active or not
 
-@param i, j, k: int
+@param i, j, k:
 : The cell i, j, k
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to get if the cell is active
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  bool
 * **Returns:**
   True if the cell is active
 
 <a id="generated.RAReceivingConveyor.IterCellVertices"></a>
 
-#### IterCellVertices(cell, time_step='current')
+#### IterCellVertices(cell: int, time_step: str | int | ITimeStep = 'current')
 
 Iterate on the vertices of active grid cells at the given time.
 
 * **Parameters:**
-  * **cell_handle** (*int*) – The cell handle
-  * **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  * **cell_handle** – The cell handle
+  * **time_step** – Either a ‘current’ string with meaning the current time step
     or an ITimeStep identifying the time to iterate the vertices of a cell
     or an int identifying the time step index to be used based on the global time set
 * **Return type:**
@@ -1266,12 +1286,12 @@ Iterate on the vertices of active grid cells at the given time.
 
 <a id="generated.RAReceivingConveyor.IterCells"></a>
 
-#### IterCells(time_step='current')
+#### IterCells(time_step: str | int | ITimeStep = 'current')
 
 Iterate on the active grid cells at the given time.
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to iterate the cells
   or an int identifying the time step index to be used based on the global time set
 * **Return type:**
@@ -1410,6 +1430,15 @@ Set the value of “Belt Width”.
 * **Parameters:**
   * **value** – The value to set. This value can be an expression with input variables or float type.
   * **unit** – The unit for value. If no unit is provided, value is assumed to be in “m”.
+
+<a id="generated.RAReceivingConveyor.SetCapillaryFrictionCoefficient"></a>
+
+#### SetCapillaryFrictionCoefficient(value: str | float)
+
+Set the value of “Capillary Friction Coefficient”.
+
+* **Parameters:**
+  **value** – The value to set. This value can be an expression with input variables or float type.
 
 <a id="generated.RAReceivingConveyor.SetCurrentTimeStep"></a>
 

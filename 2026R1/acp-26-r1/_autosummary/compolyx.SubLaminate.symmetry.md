@@ -4,4 +4,4 @@
 
 #### *property* SubLaminate.symmetry
 
-Symmetry of the Sub Laminate. Available options: ‘No Symmetry’, ‘Even Symmetry’ or ‘Odd Symmetry’
+Symmetry of the Sub Laminate can be ‘No Symmetry’, ‘Even Symmetry’ or ‘Odd Symmetry’
