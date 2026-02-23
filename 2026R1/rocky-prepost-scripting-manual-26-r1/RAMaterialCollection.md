@@ -35,18 +35,16 @@ Items in this list are of type [`RASolidMaterial`](RASolidMaterial.md#generated.
 **Methods:**
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| [`Clear`](#generated.RAMaterialCollection.Clear)()                                                         | Remove all items from the list.                                                                                   |
-| [`GetBulkSolidFraction`](#generated.RAMaterialCollection.GetBulkSolidFraction)()                           | Get the value of "Bulk Solid Fraction".                                                                           |
-| [`GetDefaultMaterials`](#generated.RAMaterialCollection.GetDefaultMaterials)()                             | Deprecated: Use [`GetDefaultSolidMaterials()`](#generated.RAMaterialCollection.GetDefaultSolidMaterials) instead. |
-| [`GetDefaultSolidMaterials`](#generated.RAMaterialCollection.GetDefaultSolidMaterials)()                   | Get a list with the default solid materials, in order of Particle, Belt and Boundary.                             |
-| [`GetFluidMaterial`](#generated.RAMaterialCollection.GetFluidMaterial)(material_name)                      | Get the fluid material with the given name.                                                                       |
-| [`GetMaterial`](#generated.RAMaterialCollection.GetMaterial)(material_name)                                | Deprecated: Use [`GetSolidMaterial()`](#generated.RAMaterialCollection.GetSolidMaterial) instead.                 |
-| [`GetMaterialsInteractionCollection`](#generated.RAMaterialCollection.GetMaterialsInteractionCollection)() | Get the study's Materials Interaction Collection.                                                                 |
-| [`GetSolidMaterial`](#generated.RAMaterialCollection.GetSolidMaterial)(material_name)                      | Get the solid material with the given name.                                                                       |
-| [`New`](#generated.RAMaterialCollection.New)()                                                             | Deprecated: Use `Add{Solid, Fluid}Material()` instead.                                                            |
-| [`Remove`](#generated.RAMaterialCollection.Remove)(item)                                                   | Remove an item from the list.                                                                                     |
-| [`SetBulkSolidFraction`](#generated.RAMaterialCollection.SetBulkSolidFraction)(value)                      | Set the value of "Bulk Solid Fraction".                                                                           |
+|------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| [`Clear`](#generated.RAMaterialCollection.Clear)()                                                         | Remove all items from the list.                                                       |
+| [`GetBulkSolidFraction`](#generated.RAMaterialCollection.GetBulkSolidFraction)()                           | Get the value of "Bulk Solid Fraction".                                               |
+| [`GetDefaultSolidMaterials`](#generated.RAMaterialCollection.GetDefaultSolidMaterials)()                   | Get a list with the default solid materials, in order of Particle, Belt and Boundary. |
+| [`GetFluidMaterial`](#generated.RAMaterialCollection.GetFluidMaterial)(material_name)                      | Get the fluid material with the given name.                                           |
+| [`GetMaterialsInteractionCollection`](#generated.RAMaterialCollection.GetMaterialsInteractionCollection)() | Get the study's Materials Interaction Collection.                                     |
+| [`GetSolidMaterial`](#generated.RAMaterialCollection.GetSolidMaterial)(material_name)                      | Get the solid material with the given name.                                           |
+| [`New`](#generated.RAMaterialCollection.New)()                                                             | Deprecated: Use `Add{Solid, Fluid}Material()` instead.                                |
+| [`Remove`](#generated.RAMaterialCollection.Remove)(item)                                                   | Remove an item from the list.                                                         |
+| [`SetBulkSolidFraction`](#generated.RAMaterialCollection.SetBulkSolidFraction)(value)                      | Set the value of "Bulk Solid Fraction".                                               |
 
 <a id="generated.RAMaterialCollection.Clear"></a>
 
@@ -60,12 +58,6 @@ Remove all items from the list.
 
 Get the value of “Bulk Solid Fraction”.
 
-<a id="generated.RAMaterialCollection.GetDefaultMaterials"></a>
-
-#### GetDefaultMaterials()
-
-Deprecated: Use [`GetDefaultSolidMaterials()`](#generated.RAMaterialCollection.GetDefaultSolidMaterials) instead.
-
 <a id="generated.RAMaterialCollection.GetDefaultSolidMaterials"></a>
 
 #### GetDefaultSolidMaterials()
@@ -77,12 +69,6 @@ Get a list with the default solid materials, in order of Particle, Belt and Boun
 #### GetFluidMaterial(material_name: str)
 
 Get the fluid material with the given name.
-
-<a id="generated.RAMaterialCollection.GetMaterial"></a>
-
-#### GetMaterial(material_name: str)
-
-Deprecated: Use [`GetSolidMaterial()`](#generated.RAMaterialCollection.GetSolidMaterial) instead.
 
 <a id="generated.RAMaterialCollection.GetMaterialsInteractionCollection"></a>
 
@@ -104,7 +90,7 @@ Deprecated: Use `Add{Solid, Fluid}Material()` instead.
 
 <a id="generated.RAMaterialCollection.Remove"></a>
 
-#### Remove(item: T)
+#### Remove(item: ApiElementItem)
 
 Remove an item from the list.
 

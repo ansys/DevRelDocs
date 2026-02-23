@@ -29,14 +29,12 @@ material_3 = material_collection[2]
 | [`GetDensity`](#generated.RAFluidMaterial.GetDensity)([unit])                                                    | Get the value of "Density".                                                     |
 | [`GetModuleProperties`](#generated.RAFluidMaterial.GetModuleProperties)()                                        | Get the names of the module properties.                                         |
 | [`GetModuleProperty`](#generated.RAFluidMaterial.GetModuleProperty)(property_name[, unit])                       | Get the value of a module property.                                             |
-| [`GetSoundSpeed`](#generated.RAFluidMaterial.GetSoundSpeed)([unit])                                              | Deprecated: Use this method from RASPHSettings instead                          |
 | [`GetSpecificHeat`](#generated.RAFluidMaterial.GetSpecificHeat)([unit])                                          | Get the value of "Specific Heat".                                               |
 | [`GetThermalConductivity`](#generated.RAFluidMaterial.GetThermalConductivity)([unit])                            | Get the value of "Thermal Conductivity".                                        |
 | [`GetValidOptionsForModuleProperty`](#generated.RAFluidMaterial.GetValidOptionsForModuleProperty)(property_name) | Get all valid options only for properties that have a list of possible options. |
 | [`GetViscosity`](#generated.RAFluidMaterial.GetViscosity)([unit])                                                | Get the value of "Viscosity".                                                   |
 | [`SetDensity`](#generated.RAFluidMaterial.SetDensity)(value[, unit])                                             | Set the value of "Density".                                                     |
 | [`SetModuleProperty`](#generated.RAFluidMaterial.SetModuleProperty)(property_name, value[, unit])                | Set the value of a module property.                                             |
-| [`SetSoundSpeed`](#generated.RAFluidMaterial.SetSoundSpeed)(value[, unit])                                       | Deprecated: Use this method from RASPHSettings instead                          |
 | [`SetSpecificHeat`](#generated.RAFluidMaterial.SetSpecificHeat)(value[, unit])                                   | Set the value of "Specific Heat".                                               |
 | [`SetThermalConductivity`](#generated.RAFluidMaterial.SetThermalConductivity)(value[, unit])                     | Set the value of "Thermal Conductivity".                                        |
 | [`SetViscosity`](#generated.RAFluidMaterial.SetViscosity)(value[, unit])                                         | Set the value of "Viscosity".                                                   |
@@ -77,12 +75,6 @@ Get the value of a module property.
   - For input files, the returned value is the string of the full path to the file
   - For properties that are lists of other properties, the returned value is a
     : [`RAModulePropertyList`](RAModulePropertyList.md#generated.RAModulePropertyList).
-
-<a id="generated.RAFluidMaterial.GetSoundSpeed"></a>
-
-#### GetSoundSpeed(unit: str | None = None)
-
-Deprecated: Use this method from RASPHSettings instead
 
 <a id="generated.RAFluidMaterial.GetSpecificHeat"></a>
 
@@ -144,12 +136,6 @@ Set the value of a module property.
     If the property_name references to an enum property then value must be an str value.
   * **unit** (*str*) – The unit for value, just for scalar properties. If no unit is provided,
     value is assumed to be the unit was set before.
-
-<a id="generated.RAFluidMaterial.SetSoundSpeed"></a>
-
-#### SetSoundSpeed(value: str | float, unit: str | None = None)
-
-Deprecated: Use this method from RASPHSettings instead
 
 <a id="generated.RAFluidMaterial.SetSpecificHeat"></a>
 
