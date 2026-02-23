@@ -3,14 +3,14 @@
 The System Coupling Participant (SCP) library provides interfaces that allow
 **participants** to perform a variety of coupling operations. These include:
 
-  - Take part in a **coupled analysis** (**co-simulation**) to solve various physics problems, such as fluid-structure interaction problems.
-  - **Mapping** of data across non-conformal mesh interfaces, either within one (distributed parallel) application,
-  or between multiple (distributed parallel) applications.
-  - **Data transfers** between processes of one (distributed parallel) application,
-  or between multiple (distributed parallel) applications.
+- Take part in a **coupled analysis** (**co-simulation**) to solve various physics problems, such as fluid-structure interaction problems.
+- **Mapping** of data across non-conformal mesh interfaces, either within one (distributed parallel) application,
+or between multiple (distributed parallel) applications.
+- **Data transfers** between processes of one (distributed parallel) application,
+or between multiple (distributed parallel) applications.
 
 Each participant (also referred to as "coupling participant," "participant solver," or "solver")
-is an instance of a standalone application. This application can be (but not limited to)
+is an instance of a standalone application. This application can be (but is not limited to)
 a physics solver that provides a solution to one or more physical models.
 
 A coupled analysis is the process in which the coupled participants are executed in a sequence 
