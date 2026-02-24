@@ -18,6 +18,12 @@ The top namespace for simulation framework.
 
 
 
+© 2023-2026 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
+
+
+
+
+
 © 2023-2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
@@ -72,6 +78,12 @@ The top namespace for simulation framework
 
 
 
+© 2024-2026 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. All rights reserved.
+
+
+
+
+
 © 2024-2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. All rights reserved.
 
 
@@ -79,6 +91,12 @@ The top namespace for simulation framework
 
 
 © 2023-2024 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. Acknowledge to Real-Time Innovations using their DDS technology. © 2005-2023 Copyright, Real-Time Innovations, Inc. All rights reserved.
+
+
+
+
+
+© 2023-2026 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. Acknowledge to Real-Time Innovations using their DDS technology. © 2005-2023 Copyright, Real-Time Innovations, Inc. All rights reserved.
 
 ## Child namespaces
 
@@ -91,5 +109,5 @@ The top namespace for simulation framework
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
-[static]: https://img.shields.io/badge/-static-lightgrey (static)
 [protected]: https://img.shields.io/badge/-protected-yellow (protected)
+[static]: https://img.shields.io/badge/-static-lightgrey (static)

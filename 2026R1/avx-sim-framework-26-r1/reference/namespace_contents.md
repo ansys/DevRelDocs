@@ -12,6 +12,7 @@
   * [simulation_framework::autonomy](namespacesimulation__framework_1_1autonomy.md#namespacesimulation__framework_1_1autonomy)
     * [simulation_framework::autonomy::cli](namespacesimulation__framework_1_1autonomy_1_1cli.md#namespacesimulation__framework_1_1autonomy_1_1cli)
     * [simulation_framework::autonomy::communication](namespacesimulation__framework_1_1autonomy_1_1communication.md#namespacesimulation__framework_1_1autonomy_1_1communication)
+      * [simulation_framework::autonomy::communication::messages](namespacesimulation__framework_1_1autonomy_1_1communication_1_1messages.md#namespacesimulation__framework_1_1autonomy_1_1communication_1_1messages)
       * [simulation_framework::autonomy::communication::utils](namespacesimulation__framework_1_1autonomy_1_1communication_1_1utils.md#namespacesimulation__framework_1_1autonomy_1_1communication_1_1utils)
     * [simulation_framework::autonomy::topic_registry](namespacesimulation__framework_1_1autonomy_1_1topic__registry.md#namespacesimulation__framework_1_1autonomy_1_1topic__registry)
     * [simulation_framework::autonomy::util](namespacesimulation__framework_1_1autonomy_1_1util.md#namespacesimulation__framework_1_1autonomy_1_1util)
@@ -26,7 +27,7 @@
     * [simulation_framework::core::time](namespacesimulation__framework_1_1core_1_1time.md#namespacesimulation__framework_1_1core_1_1time)
     * [simulation_framework::core::topic_registry](namespacesimulation__framework_1_1core_1_1topic__registry.md#namespacesimulation__framework_1_1core_1_1topic__registry)
   * [simulation_framework::evaluator](namespacesimulation__framework_1_1evaluator.md#namespacesimulation__framework_1_1evaluator)
-* [topic_registry](namespacetopic__registry.md#namespacetopic__registry): The namespace for topic registry in communication module under namespace simulation_framework::autonomy.
 * [time](namespacetime.md#namespacetime): The namespace for simulation time related implementation under namespace simulation_framework::core.
+* [topic_registry](namespacetopic__registry.md#namespacetopic__registry): The namespace for topic registry in communication module under namespace simulation_framework::autonomy.
 * [util](namespaceutil.md#namespaceutil): The namespace for utilities under autonomy.
 * [utils](namespaceutils.md#namespaceutils)
