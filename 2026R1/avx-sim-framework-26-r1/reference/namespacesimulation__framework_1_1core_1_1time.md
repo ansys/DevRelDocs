@@ -104,9 +104,39 @@ bool simulation_framework::core::time::operator==(const Timestamp &lhs, const Ti
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::time::operator=="}]}`
 -->
 
+<a id="timestamp_8h_1abd84aa885f0116e8f645ab004e7b1927"></a>
+### Function operator\<\<
+
+![][public]
+
+
+```cpp
+std::ostream & simulation_framework::core::time::operator<<(std::ostream &os, const Timestamp &timestamp)
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* std::ostream & **os**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) Timestamp & **timestamp**
+
+**Return type**: std::ostream &
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::time::operator<<"}]}`
+-->
+
 [private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
-[static]: https://img.shields.io/badge/-static-lightgrey (static)
 [protected]: https://img.shields.io/badge/-protected-yellow (protected)
+[static]: https://img.shields.io/badge/-static-lightgrey (static)

@@ -3,7 +3,7 @@
 ![][C++]
 ![][public]
 
-**Definition**: `core/time/i_clock/timestamp.h` (line 22)
+**Definition**: `core/time/i_clock/timestamp.h` (line 23)
 
 
 
@@ -22,7 +22,7 @@
 
 ![][public]
 
-**Definition**: `core/time/i_clock/timestamp.h` (line 24)
+**Definition**: `core/time/i_clock/timestamp.h` (line 25)
 
 
 ```cpp
@@ -49,7 +49,7 @@ uint32_t simulation_framework::core::time::Timestamp::seconds
 
 ![][public]
 
-**Definition**: `core/time/i_clock/timestamp.h` (line 25)
+**Definition**: `core/time/i_clock/timestamp.h` (line 26)
 
 
 ```cpp
@@ -103,5 +103,5 @@ std::string simulation_framework::core::time::Timestamp::DebugString() const
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
-[static]: https://img.shields.io/badge/-static-lightgrey (static)
 [protected]: https://img.shields.io/badge/-protected-yellow (protected)
+[static]: https://img.shields.io/badge/-static-lightgrey (static)

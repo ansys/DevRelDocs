@@ -529,22 +529,24 @@ To access the actual sensor data content, activities need to:
 Example data retrieval:
 
 ```cpp
-#include <avx/vss/data_access/sensor_data_access.shm.h>
+#include <ansys/api/avxcelerate/sensors/v1/data_access/sensor_data_access.shm.h>
 
 vss::data_access::DataAccessClient data_access_client(grpc_channel_);
 for (const auto& sensor_data_description : received_sensor_data_descriptions_)
 {
     // Retrieve actual sensor data
-    vss::data_access::SensorDataBuffer sd_buffer =
-        data_access_client.RequestDataQuery(sensor_data_description.data_id());
-    vss::sensor_data::SensorData sensor_data;
+    ansys::api::avxcelerate::sensors::v1::data_access::DataAccessClient data_access_client(
+        avx_vss_api_adapter_->GetGrpcChannel());
+    ansys::api::avxcelerate::sensors::v1::data_access::SensorDataBuffer sd_buffer =
+        data_access_client.RequestDataQuery(sensor_data_identifier.data_id());
+    ansys::api::avxcelerate::sensors::v1::sensor_data::SensorData sensor_data{};
     sensor_data.ParseFromString(sd_buffer.data());
     
     // Process the sensor data based on type
     if (sensor_data.has_camera_data())
     {
         // Handle camera data
-        vss::sensor_data::CameraData camera_data = sensor_data.camera_data();
+        auto camera_data = sensor_data.camera_data();
         // Process camera images...
     }
     else if (sensor_data.has_lidar_data())
