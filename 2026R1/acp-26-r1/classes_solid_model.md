@@ -1,6 +1,6 @@
 # Solid-model classes
 
-These classes represent solid-model geometry, guides, and element sets used within a ComPoLyX model.
+These classes represent solid-model geometry, guides, and element sets used within a compolyx model.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|

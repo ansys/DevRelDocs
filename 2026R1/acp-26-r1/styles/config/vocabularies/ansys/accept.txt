@@ -1,6 +1,6 @@
 [Pp]owerShell
 ACP
-ComPoLyX
+compolyx
 layup
 plies
 ply
@@ -411,7 +411,7 @@ copy_field_definition
 
 create_boolean_selection_rule
 create_combined_failure_criteria
-
+boolean
 analysis_model_path
 angle_tolerance
 
@@ -1335,3 +1335,6 @@ CADGeometry
 CADReference
 dropoff
 stiffesses
+parent_
+Solid-model
+solid-model

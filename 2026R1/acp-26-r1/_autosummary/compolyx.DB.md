@@ -4,7 +4,7 @@
 
 ### *class* compolyx.DB(\*args, \*\*kwargs)
 
-Represents the ComPoLyX database
+Represents the compolyx database
 
 Access:
 

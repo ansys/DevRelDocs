@@ -1,6 +1,6 @@
 # Material classes
 
-The following classes represent composite material data within a ComPoLyX model. Each class represents one specific type of material-related object, such as a material, fabric, stackup, sublaminate, or property set.
+The following classes represent composite material data within a compolyx model. Each class represents one specific type of material-related object, such as a material, fabric, stackup, sublaminate, or property set.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------|--------------------------------------------------|
