@@ -4,4 +4,4 @@
 
 #### *property* EdgeSet.origin
 
-Edge Set origin for createion of edge set by reference.
+Edge Set origin for creation of edge set by reference.
