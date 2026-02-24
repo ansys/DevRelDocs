@@ -32,7 +32,7 @@ To nest a TOC within another TOC, set the href property to point to the ```toc.y
 ### Mandatory metadata
 The mandatory [```docfx.json```](https://dotnet.github.io/docfx/docs/config.html#metadata) file is the configuration file for the entire documentation package. For global metadata, i.e. metadata attributes that are consistent across the set of content, use the ```globalMetadata``` property in ```docfx.json``` to apply the same metadata to all MarkDown pages. See below for allowed and supported key/value pairs. In particular, ```title```, ```summary```, and ```version``` must be present. 
 
-For REST APIs, ```"restapi": "true"``` must also be present. If the restapi flag is not set to true or missing, a MarkDown migration is assumed. In addition for REST APIs, ```physics``` and ```product``` tags are also mandatory. Also note the required directory structure below.
+For REST APIs, ```"doc_type": "restapi"``` must also be present. If the value is not set to "restapi" or missing, a MarkDown migration is assumed. In addition for REST APIs, a ```physics``` tag is also mandatory. The product name/tag is inferred from the API specification file. Also note the required directory structure below.
 
 A minimal ```docfx.json``` file:
 ```
@@ -42,7 +42,7 @@ A minimal ```docfx.json``` file:
       "title": "My Title",
       "summary": "a text summary goes here",
       "version": "Version_string",
-      "restapi": "true/false",
+      "doc_type": "markdown/restapi",
     }
   }
 }
