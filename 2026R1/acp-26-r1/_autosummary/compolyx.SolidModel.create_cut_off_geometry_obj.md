@@ -6,10 +6,10 @@
 
 Create a new cut-off geometry object.
 
-* **Parameters:**
+### Parameters:
   - name: The name of the object.
   - id: The ID of the object.
   - cad_geometry: A geometry to snap to.
   - orientation: Valid options: “up” and “down”.
-* **Returns:**
+### Returns:
   Cut-off geometry.

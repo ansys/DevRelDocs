@@ -6,7 +6,7 @@
 
 Element set class.
 
-* **Exemplary usage:**
+### Exemplary usage:
   ```pycon
   >>> m=db.models.values()[-1]
   >>> eset=m.element_sets['DECK']

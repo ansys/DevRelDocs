@@ -6,7 +6,7 @@
 
 Copy a sensor.
 
-* **Parameters:**
+### Parameters:
   - source: Source object to copy.
-* **Returns:**
+### Returns:
   New instance of a sensor.

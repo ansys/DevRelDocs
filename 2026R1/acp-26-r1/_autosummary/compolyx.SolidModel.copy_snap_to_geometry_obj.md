@@ -6,7 +6,7 @@
 
 Copy a Snap-To Geometry.
 
-* **Parameters:**
+### Parameters:
   - source: Source object to copy
-* **Returns:**
+### Returns:
   New instance of a Snap-To Geometry

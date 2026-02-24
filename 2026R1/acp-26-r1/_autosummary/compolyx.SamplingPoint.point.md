@@ -4,4 +4,4 @@
 
 #### *property* SamplingPoint.point
 
-Sampling point Point.
+Sampling point.

@@ -6,5 +6,5 @@
 
 Save LookUpTable to CSV file.
 
-* **Parameters:**
+### Parameters:
   - path: Path to output file.

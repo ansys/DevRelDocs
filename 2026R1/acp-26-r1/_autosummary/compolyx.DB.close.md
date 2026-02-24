@@ -6,5 +6,5 @@
 
 Closes the model.
 
-* **Parameters:**
+### Parameters:
   - model: Model to close (optional). if no model is given, then all models are closed.

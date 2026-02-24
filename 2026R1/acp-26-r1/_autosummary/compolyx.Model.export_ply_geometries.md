@@ -6,7 +6,7 @@
 
 Exports the surface, boundary, and/or fiber directions of modeling, production, and analysis ply to .igs or .step file.
 
-* **Parameters:**
+### Parameters:
   - filename: File path (available extensions are iges, igs, step, stp, and stl).
   - plies: List of plies (available options are modeling, production, and analysis plies).
   - boundary: Boolean whether to export the boundary. Default is ‘True’.

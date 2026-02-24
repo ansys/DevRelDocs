@@ -6,7 +6,7 @@
 
 Load a model from an .acph5 database.
 
-* **Parameters:**
+### Parameters:
   - path: The .acph5 file path.
   - cache_data: Boolean on whether to load the update results.
   - apply_shared_commands: Boolean to specify whether to load the Python commands from the ACP shared section of the .acph5 file.

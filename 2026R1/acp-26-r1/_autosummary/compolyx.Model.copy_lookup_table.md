@@ -6,7 +6,7 @@
 
 Copy a lookup table.
 
-* **Parameters:**
+### Parameters:
   - source: Source object to copy.
-* **Returns:**
+### Returns:
   New instance of a lookup table.

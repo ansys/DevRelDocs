@@ -6,8 +6,8 @@
 
 Create an envelope solution.
 
-* **Parameters:**
+### Parameters:
   - name: Name for the envelope solution.
   - solution_sets: List of solution sets that are combined.
-* **Returns:**
+### Returns:
   The new envelope solution object.

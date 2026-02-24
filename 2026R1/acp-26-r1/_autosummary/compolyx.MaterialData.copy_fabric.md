@@ -6,12 +6,12 @@
 
 Copy a fabric.
 
-* **Parameters:**
+### Parameters:
   - source: Source object to copy.
   - on_duplicate_name: Action to take if source.name is already contained in self.fabrics.
     - keep_both: Create a new instance with the same name (different ID).
     - overwrite: Replace first instance with equal name in self with source.
     - keep_existing: Ignore copy action. Returns first existing instance in self with equal name.
   - memo: A dict to collect copied items (for internal dependency tracking when copying stackups or sublaminates).
-* **Returns:**
+### Returns:
   New Instance of fabric.

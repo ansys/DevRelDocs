@@ -6,7 +6,7 @@
 
 Create a new layup mapping object.
 
-* **Parameters:**
+### Parameters:
   - name: The name of the solid model.
   - id: The ID of the solid model.
   - active : Active status of layup mapping object.
@@ -30,8 +30,8 @@ Create a new layup mapping object.
   - base_element_material_handling: Whether to remove the base material of the solids where the reinforcing intersect, or keep it.
   - reinforcing_stress_state: Specify the stress state of the reinforcing.
   - reinforcing_behavior: Select the mechanical behavior of the reinforcing.
-* **Returns:**
+### Returns:
   The created layup mapping object.
-* **Note:**
+### Note:
   - Base solid elements are the solid elements of a Lay-up Mapping object of type reinforcing which are intersected with the
     reinforcing surfaces.

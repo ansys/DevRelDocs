@@ -6,7 +6,7 @@
 
 Write boundaries in .iges/.step format.
 
-* **Parameters:**
+### Parameters:
 
 - filename: Output file.
 - format: ‘iges’, ‘step’, or ‘None’ (automatic format recognition).

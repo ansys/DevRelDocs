@@ -8,7 +8,7 @@ Python PropertySet class
 
 This class wraps GIL-functionality and adds Python-UI utilities to all material PropertySets (Engineering Constants, Stress Limits, etc.).
 
-* **Examples:**
+### Examples:
   ```pycon
   >>> model = db.active_model
   >>> Eglas = model.material_data.materials['E-Glas']

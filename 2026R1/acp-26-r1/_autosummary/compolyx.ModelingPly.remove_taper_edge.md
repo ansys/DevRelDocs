@@ -6,5 +6,5 @@
 
 Remove taper_edge from modeling ply.
 
-* **Parameters:**
+### Parameters:
   - taper_edge: The taper_edge to be removed from modeling ply.

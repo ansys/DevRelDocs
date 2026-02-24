@@ -4,9 +4,9 @@
 
 #### Model.add_solution(name, id='', path=None, path2=None, format='ansys:rst', subcase=(False, 0), set=-1, load_factor=(False, 0.0), read_stresses_strains=True, use_felyx_to_compute_pp_results=True, use_solid_results=True, recompute_iss_of_solids=False, renumbering_mapping_paths=[], ext_id='', active=True)
 
-Load a nodal solution from file(s) and add it to the model.
+Load a nodal solution from one or more files and add it to the model.
 
-* **Parameters:**
+### Parameters:
   - name: Custom name of the solution.
   - path: Path to the data file.
   - path2: Optional path to second result file. Useful for ANSYS PRNSOL solution, where nodal deformations and nodal rotations can be exported to different files only.
@@ -20,5 +20,5 @@ Load a nodal solution from file(s) and add it to the model.
   - recompute_iss_of_solids: For solids the interlaminar shear stresses are recalculated considering the laminate stacking.
   - renumbering_mapping_paths: List of paths of the assembly renumbering files used to map the results of composite assemblies.
   - active: Active/inactive flag.
-* **Returns:**
+### Returns:
   The new Solution instance just added to the model.

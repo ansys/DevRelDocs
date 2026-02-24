@@ -14,6 +14,6 @@ Note that this is supported only for modeling plies which have
 nominal thickness definition and no taper edges. Otherwise,
 the original modeling ply is retained and an error is logged.
 
-* **Parameters:**
+### Parameters:
   - source_plies: Modeling plies to replace. If None, all modeling plies
     of this modeling group are considered.

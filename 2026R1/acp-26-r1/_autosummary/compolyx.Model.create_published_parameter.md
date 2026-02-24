@@ -6,7 +6,7 @@
 
 Create a published parameter.
 
-* **Parameters:**
+### Parameters:
   - name: Name of the parameter.
   - source_object: Name of the object the parameter is linked to.
   - source_property: Property of the linked object the parameter controls.
@@ -20,5 +20,5 @@ Create a published parameter.
   - float_list: A list of possible values for a float.
   - string_list: A list of possible values. List of objects if the property type is object, else list of strings.
   - unbound_value: The value of the parameter, if category==”unbound_input”. In this case, the parameter is not linked to an existing object.
-* **Returns:**
+### Returns:
   The created PublishedParameter.

@@ -6,12 +6,12 @@
 
 Returns the properties of the classical laminate theory:
 
-* **Parameters:**
+### Parameters:
   - query: Result type.
-* **Options:**
+### Options:
   - laminate_properties: Young’s, flexural, and shear moduli of the laminate.
   - polar_properties: E1, E2, and G12 depending on the laminate orientation.
-* **Example:**
+### Example:
   ```pycon
   >>> fab.clt_query(query='polar_properties')
   ```

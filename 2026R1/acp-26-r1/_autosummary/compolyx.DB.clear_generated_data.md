@@ -11,7 +11,7 @@ Use the returned Model instance instead. Example code:
 
 `model = db.clear_generated_data(model)`
 
-* **Parameters:**
+### Parameters:
   -model: The ACP model to be cleared.
-* **Returns:**
+### Returns:
   the updated model after clearing the generated data.

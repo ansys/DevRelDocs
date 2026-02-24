@@ -6,7 +6,7 @@
 
 Add rule to modeling ply.
 
-* **Parameters:**
+### Parameters:
   - rule: The rule to be added to the modeling ply.
   - template_rule: Boolean.
   - rule_values: Parameters of the template rule.

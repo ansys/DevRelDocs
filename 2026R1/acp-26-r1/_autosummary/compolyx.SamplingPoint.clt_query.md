@@ -6,11 +6,11 @@
 
 Returns the properties of the classical laminate theory:
 
-* **Parameters:**
+### Parameters:
   - query: Query parameter (see below).
   - offset_is_middle: Whether to offset the reference surface to the mid-plane of the laminate. This has an influence on the laminate stiffness calculations.
   - consider_coupling_effect: Whether to consider the coupling effect or not (B-Matrix). It’s only of relevance for the laminate engineering constants.
-* **Options:**
+### Options:
   - layup: Returns the layup of the laminate (modeling, production, and analysis plies). This is the default.
   - laminate_properties: Young’s, flexural, and shear moduli of the laminate.
   - polar_properties: E1, E2, and G12 depending on the laminate orientation.

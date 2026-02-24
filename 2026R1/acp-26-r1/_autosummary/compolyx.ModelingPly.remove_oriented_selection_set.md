@@ -6,5 +6,5 @@
 
 Remove oriented selection set from modeling ply.
 
-* **Parameters:**
+### Parameters:
   - oriented_selection_set: The oriented selection set to be removed from ModelingPly.

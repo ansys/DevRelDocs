@@ -6,7 +6,7 @@
 
 Load layup from excel or .csv file.
 
-* **Parameters:**
+### Parameters:
   - mode: Valid options:
     : update_properties_only: Definitions are updated with properties given.
       update_entities: Definitions are updated, additional plies are generated and deleted.

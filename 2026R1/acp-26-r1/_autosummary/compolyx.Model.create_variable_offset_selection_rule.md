@@ -6,7 +6,7 @@
 
 Create new slab offset rule.
 
-* **Parameters:**
+### Parameters:
   - name: Name of the rule.
   - id: The unique ID of the rule.
   - radius_origin: Reference point of the 1D lookup table used for the offsets.
@@ -19,5 +19,5 @@ Create new slab offset rule.
   - use_offset_correction: Boolean whether to evaluate the radius/offset along the surface.
   - distance_along_edge: Boolean whether to evaluate the distance along the edge or direction of the rule. Default is ‘False’.
   - inherit_from_lookup_table: Boolean whether to inherit origin and direction from the attached lookup table. Default is ‘False’.
-* **Returns:**
+### Returns:
   The created rule.

@@ -6,7 +6,7 @@
 
 Creates a script object, which allows executing custom Python code.
 
-* **Parameters:**
+### Parameters:
   - name: The name of the script.
   - source: The code to be executed, as a string.
   - active: If False, the script will not be executed.
@@ -15,5 +15,5 @@ Creates a script object, which allows executing custom Python code.
     : out-of-date. Valid options: ‘manual’ (run only when manually
       triggered), ‘on_triggers’ (run when a parameter or the script
       itself changes), and ‘always’ (run with every update).
-* **Returns:**
+### Returns:
   The created script object.

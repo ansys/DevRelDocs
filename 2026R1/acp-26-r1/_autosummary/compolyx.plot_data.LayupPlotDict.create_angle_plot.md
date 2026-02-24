@@ -6,20 +6,20 @@
 
 Create a Angle Plot object.
 
-* **Parameters:**
+### Parameters:
   - name: Name of the plot.
   - id: ID for the plot.
   - scope_entire_model: If ‘True’, then the scope of this plot is the entire model. If not, then set to false and use the data_scope to specify a sub scope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned.
+  - data_scope: One or more objects defining the scope for which data is computed and returned.
     : Applicable are: element set, oriented selection set, modeling ply, sampling point.
   - show_on_solids: ‘True’ or ‘False’ (default). Whether to show the results on the shell or solid model (if present).
   - show_on_section_cuts: Whether to show the results on the surface section cuts as well. Default is ‘True’.
   - show_ply_offsets: ‘True’ or ‘False’ (default). Whether to display ply-wise visualizations with ply offsets.
   - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if show_ply_offsets=True.
-* **Returns:**
+### Returns:
   The plot object.
 
-**Example:**
+### Example:
 : Create a angle plot with Data Scope set to element set “All_Elements”:
   <br/>
   ```default

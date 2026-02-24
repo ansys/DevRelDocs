@@ -6,7 +6,7 @@
 
 Create a new fabric.
 
-* **Parameters:**
+### Parameters:
   - name: Name for the fabric.
   - material: Material of the fabric.
   - thickness: Thickness of the fabric.
@@ -18,9 +18,9 @@ Create a new fabric.
   - cut_off_material: Material to use for ‘Custom’ cut-off material handling.
   - draping_material_model: Material model for draping, either ‘woven’ or ‘unidirectional’.
   - draping_ud_coefficient: Coefficient for the unidirectional draping material model.
-* **Returns:**
+### Returns:
   The created fabric.
-* **Examples:**
+### Examples:
   ```pycon
   >>> material_data = db.models['beam'].material_data
   >>> fabric_1 = material_data.create_fabric(name='Fabric.1', material=material_data.materials['Material.1'], thickness=0.2)

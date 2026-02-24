@@ -4,7 +4,7 @@
 
 ### *class* compolyx.Sensor(graph, obj, parent=None)
 
-Sensor object for meassuring areas, prices, weights, and centers of gravity.
+Sensor object for measuring areas, prices, weights, and centers of gravity.
 
 ### Attributes
 

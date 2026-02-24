@@ -6,7 +6,7 @@
 
 Create a new 3D lookup table object.
 
-* **Parameters:**
+### Parameters:
   - name : Name
   - id : ID
   - tabular_data: data points and values of the lookup table
@@ -16,5 +16,5 @@ Create a new 3D lookup table object.
   - dimensions: list of the dimensions of the columns (for example length for coordinates)
   - use_global_coordinate_system: Boolean telling if we want to use the global coordinate system or not. It is possible to pass a Rosette but still use the global one.
   - ‘rosette’: optional Rosette that will be used as coordinate system for the table. Only Parallel Rosettes are supported.
-* **Returns:**
+### Returns:
   The created lookup table object.

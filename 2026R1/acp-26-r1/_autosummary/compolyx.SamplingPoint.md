@@ -17,7 +17,7 @@ Key features:
   - Analysis based on the Classical Laminate Theory (CLT).
   - Export to ESAComp, CSV file, etc.
 
-* **Usage:**
+### Usage:
   ```pycon
   >>> model.create_sampling_point(name='Sampling Point')
   ```
@@ -41,7 +41,7 @@ Key features:
 | [`SamplingPoint.offset_is_middle`](compolyx.SamplingPoint.offset_is_middle.md#compolyx.SamplingPoint.offset_is_middle)                                              | Whether to offset the reference surface to the mid-plane of the laminate.                                  |
 | [`SamplingPoint.parent`](compolyx.SamplingPoint.parent.md#compolyx.SamplingPoint.parent)                                                                            | Parent object in the tree.                                                                                      |
 | [`SamplingPoint.plies`](compolyx.SamplingPoint.plies.md#compolyx.SamplingPoint.plies)                                                                               | Plies of the sampling point.                                                                                |
-| [`SamplingPoint.point`](compolyx.SamplingPoint.point.md#compolyx.SamplingPoint.point)                                                                               | Sampling point Point.                                                                                       |
+| [`SamplingPoint.point`](compolyx.SamplingPoint.point.md#compolyx.SamplingPoint.point)                                                                               | Sampling point.                                                                                       |
 | [`SamplingPoint.reference_direction`](compolyx.SamplingPoint.reference_direction.md#compolyx.SamplingPoint.reference_direction)                                     | Reference direction.                                                                                        |
 | [`SamplingPoint.root_path`](compolyx.SamplingPoint.root_path.md#compolyx.SamplingPoint.root_path)                                                                   | Root path of the current node in the tree.                                                                  |
 | [`SamplingPoint.rosette`](compolyx.SamplingPoint.rosette.md#compolyx.SamplingPoint.rosette)                                                                         | Rosette of the sampling point.                                                                              |

@@ -6,7 +6,7 @@
 
 Copy a rule.
 
-* **Parameters:**
+### Parameters:
   - source: Source object to copy.
-* **Returns:**
+### Returns:
   New instance of rule.

@@ -6,5 +6,5 @@
 
 Returns the element normal (direction).
 
-* **Parameters:**
+### Parameters:
   - globalID: Element label.

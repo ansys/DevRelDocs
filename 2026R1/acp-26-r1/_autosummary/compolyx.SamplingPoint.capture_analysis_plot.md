@@ -10,6 +10,6 @@ Note that this function only works when executed from a GUI, or
 in batch mode with a hidden GUI. It does not work in full batch
 mode.
 
-* **Parameters:**
+### Parameters:
   - path: Path of the produced image file.
   - size: Pixel size of the plot.

@@ -6,7 +6,7 @@
 
 Transforms local coordinates into the global coordinate system.
 
-* **Parameters:**
+### Parameters:
   - local_coords: The local coordinates to be transformed (x, y, z).
 
 If local_coords is (x, y) only, then z is assumed to be 0.

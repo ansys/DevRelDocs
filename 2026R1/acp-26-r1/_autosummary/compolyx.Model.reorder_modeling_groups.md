@@ -6,11 +6,11 @@
 
 Reorders the modeling groups by placing source before or after the target.
 
-* **Parameters:**
+### Parameters:
   - source: List of modeling groups to insert at the new position.
   - target: A modeling group which defines the position to insert the source.
   - option: Whether to insert the source before or after the target.
-* **Usage:**
+### Usage:
   ```pycon
   >>> model.reorder_modeling_groups(source=[modelmodeling_groups['DECK']], target=modelmodeling_groups['HULL'], option='before')
   ```

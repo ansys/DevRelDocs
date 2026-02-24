@@ -6,7 +6,7 @@
 
 Returns the coordinates of the supporting points.
 
-* **Returns:**
+### Returns:
   Resulting n-dimensional array with the coordinates for each supporting point.
 
 Data is returned independent of update status of plot.

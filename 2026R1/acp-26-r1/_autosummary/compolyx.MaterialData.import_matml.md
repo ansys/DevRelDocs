@@ -7,7 +7,7 @@
 Import material data from MatML file as provided by Workbench
 Engineering Data
 
-* **Parameters:**
+### Parameters:
   - path: File to read from.
   - material_apdl_path: Specify the APDL file containing the
     ANSYS Engineering Data material definitions.

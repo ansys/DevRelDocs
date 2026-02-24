@@ -6,10 +6,10 @@
 
 Returns the offset between plies and reference surface.
 
-* **Parameters:**
-  - visible: Object(s) defining visible scope
-  - selected: Selected object(s) for ply-wise evaluations.
-* **Returns:**
+### Parameters:
+  - visible: One or more objects defining visible scope
+  - selected: Selected one or more objects for ply-wise evaluations.
+### Returns:
   Resulting n-dimensional array of arrays with the ply-offset vectors for each node within the object/ply-selection:
   [
   [array(float, float, float), array(float, float, float), …]
@@ -21,7 +21,7 @@ Returns the offset between plies and reference surface.
   > - visible_scope defined by visible
   > - selection_scope defined by selected
 
-**Example:**
+### Example:
 : Returns the ply-offsets for the current ply-wise plot with visible scope set to element set “All_Elements” and with ply1 and ply2 selected:
   <br/>
   ```default

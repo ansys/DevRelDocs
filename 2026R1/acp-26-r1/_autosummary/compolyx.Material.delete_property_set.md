@@ -6,5 +6,5 @@
 
 Function to delete a specific property set.
 
-* **Parameter:**
+### Parameter:
   - property_name: String defining the PropertySet to be deleted.

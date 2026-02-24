@@ -18,7 +18,7 @@ Element set of a solid model
 | [`SolidElementSet.is_dict_item`](compolyx.SolidElementSet.is_dict_item.md#compolyx.SolidElementSet.is_dict_item)       | Indicates whether the object is an item in a dictionary.                                   |
 | [`SolidElementSet.is_list_item`](compolyx.SolidElementSet.is_list_item.md#compolyx.SolidElementSet.is_list_item)       | Indicates whether the object is an item of a list.                                   |
 | [`SolidElementSet.link_path`](compolyx.SolidElementSet.link_path.md#compolyx.SolidElementSet.link_path)                | Root path of the current node in the tree for links to this object.                 |
-| [`SolidElementSet.locked`](compolyx.SolidElementSet.locked.md#compolyx.SolidElementSet.locked)                         | Returns true if the object is locked (nor editable, neither deletable).             |
+| [`SolidElementSet.locked`](compolyx.SolidElementSet.locked.md#compolyx.SolidElementSet.locked)                         | Returns true if the object is locked (not editable or deletable).          |
 | [`SolidElementSet.name`](compolyx.SolidElementSet.name.md#compolyx.SolidElementSet.name)                               | Name of the object.                                                                     |
 | [`SolidElementSet.parent`](compolyx.SolidElementSet.parent.md#compolyx.SolidElementSet.parent)                         | Parent object in the tree.                                                              |
 | [`SolidElementSet.root_path`](compolyx.SolidElementSet.root_path.md#compolyx.SolidElementSet.root_path)                | Root path of the current node in the tree.                                          |

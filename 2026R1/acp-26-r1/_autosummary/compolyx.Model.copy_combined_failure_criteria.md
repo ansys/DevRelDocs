@@ -6,7 +6,7 @@
 
 Copy a combined failure criteria definition.
 
-* **Parameters:**
+### Parameters:
   - source: Source object to copy.
-* **Returns:**
+### Returns:
   New instance of combined failure criteria definition.

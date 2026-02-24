@@ -6,13 +6,13 @@
 
 Create a Draping Plot object.
 
-* **Parameters:**
+### Parameters:
   - name: Name of the plot
   - id: ID for the plot
-* **Returns:**
+### Returns:
   the plot object
 
-**Example:**
+### Example:
 : Create a draping plot with Data Scope set to element set “All_Elements”:
   <br/>
   ```default

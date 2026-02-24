@@ -6,7 +6,7 @@
 
 Export materials to ANSYS Engineering Data MatML format.
 
-* **Parameters:**
+### Parameters:
   - path: Path to file to write.
   - unit_system: Convert all quantities into this unit system. The units
     will be stored in the file written. The default is the unit system of the model.

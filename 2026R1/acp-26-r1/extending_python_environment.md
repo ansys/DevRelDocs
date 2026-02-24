@@ -8,7 +8,7 @@ Before creating the virtual environment, make sure you use the same Python versi
 
 There are several ways to create a new VENV:
 
-* **Using the Ansys-delivered Python:**
+### Using the Ansys-delivered Python:
 
   Navigate to the delivered Ansys Python that is in the 
 subfolder of `<WB root dir>\commonfiles\CPython` and call the VENV module.
@@ -18,7 +18,7 @@ subfolder of `<WB root dir>\commonfiles\CPython` and call the VENV module.
   ```
 
   This creates a new environment in `C:\my_ansys_python_env`.
-* **Using a standard Python installation:**
+### Using a standard Python installation:
 
   After installing Python, run:
 
@@ -27,7 +27,7 @@ subfolder of `<WB root dir>\commonfiles\CPython` and call the VENV module.
     ```
 
   This creates a new environment in `C:\my_new_python_env`.
-* **Using another Python distribution:**
+### Using another Python distribution:
 
   Tools such as Anaconda also enable you to create virtual environments.
 
@@ -60,16 +60,15 @@ To make VENV-installed modules available in ACP, append the VENV paths to `sys.p
     sys.path.extend([….])
     ```
 
-Appending the VENV paths ensures that ACP uses its own Python first and then falls back to the VENV for additional modules.
-ven if they were built with the same or compatible compilers.
+Appending the VENV paths ensures that ACP uses its bundled Python before searching the VENV for additional modules, even when the modules are built with compatible compilers.
 
-**Note:** ACP uses the Python environment delivered with the Ansys Workbench application, located in `<installation dir>\commonfiles\CPython`. This Python build may differ from an official Python distribution (different compiler, different binary modules, or different bundled libraries). As a result, packages installed in your VENV may not be fully compatible with ACP’s Python, even if they share the same version number.
+### Note:** ACP uses the Python environment delivered with the Ansys Workbench application, located in `<installation dir>\commonfiles\CPython`. This Python build may differ from an official Python distribution (different compiler, different binary modules, or different bundled libraries). As a result, packages installed in your VENV may not be fully compatible with ACP’s Python, even if they share the same version number.
 
 ## Alternatives to extending ACP’s Python
 
 For data exchange (for example, dictionaries, NumPy arrays, and other objects), you can write data to disk and load it in another environment. One option is Python’s built‑in [pickle module](https://docs.python.org/3/library/pickle.html#module-pickle).
 
-**Example: Saving data with pickle**
+### Example: Saving data with pickle
 
 ```pycon
 import pickle
@@ -79,7 +78,7 @@ with open('test.pkl','wb') as f:
   pickle.dump(example_array, f)
 ```
 
-**Example: Loading data in another environment**
+### Example: Loading data in another environment
 
 ```pycon
 import pickle

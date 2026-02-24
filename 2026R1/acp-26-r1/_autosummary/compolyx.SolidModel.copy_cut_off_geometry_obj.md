@@ -6,7 +6,7 @@
 
 Copy a Cut-Off Geometry.
 
-* **Parameters:**
+### Parameters:
   - source: Source object to copy
-* **Returns:**
+### Returns:
   New instance of a Cut-Off Geometry

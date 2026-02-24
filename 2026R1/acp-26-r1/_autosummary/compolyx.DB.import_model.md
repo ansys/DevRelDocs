@@ -6,7 +6,7 @@
 
 Create a model from file.
 
-* **Parameters:**
+### Parameters:
   - name: Custom name of the model.
   - path: Path to the data file.
   - format: File format string. Available options: ‘abaqus:inp’,’ansys:cdb’, ‘ansys:dat’, ‘nastran:bdf’, and ‘ansys:h5’.
