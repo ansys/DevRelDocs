@@ -4,4 +4,4 @@
 
 #### *property* Model.sampling_points
 
-Sampling Point Container.
+Sampling point Container.

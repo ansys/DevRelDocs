@@ -4,4 +4,4 @@
 
 #### *property* ImportedAnalysisPly.angle
 
-Ply Angle.
+Ply angle.

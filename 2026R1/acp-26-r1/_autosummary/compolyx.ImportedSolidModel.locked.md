@@ -4,4 +4,4 @@
 
 #### *property* ImportedSolidModel.locked
 
-Solid Model is generated from an imported source and cannot be changed.
+Solid model is generated from an imported source and cannot be changed.

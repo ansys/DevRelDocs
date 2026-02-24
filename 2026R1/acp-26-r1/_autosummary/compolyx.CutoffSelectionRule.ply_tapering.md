@@ -4,4 +4,4 @@
 
 #### *property* CutoffSelectionRule.ply_tapering
 
-Use Ply Tapering Orientation.
+Use ply tapering orientation.

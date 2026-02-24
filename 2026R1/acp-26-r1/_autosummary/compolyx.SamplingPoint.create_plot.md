@@ -11,7 +11,7 @@ Generates 2D plots with the results of interest.
   - offset_is_middle: Whether to offset the reference surface to the mid-plane of the laminate. This has an influence on the laminate stiffness calculations.
   - consider_coupling_effect: Whether to consider the coupling effect (B-Matrix). It is only of relevance for the laminate engineering constants.
 * **Options:**
-  - layup: [‘mp’, ‘pp’, ‘ap’] Modeling Plies, Production Plies and Analysis Plies.
+  - layup: [‘mp’, ‘pp’, ‘ap’] Modeling plies, production plies, and analysis plies.
   - polar_properties: [‘E1’,’E2’,’G12’] Polar plot of laminate stiffesses.
   - strains: [‘e1’, ‘e2’, ‘e3’, ‘e12’, ‘e13’, ‘e23’, ‘eI’, ‘eII’, ‘eIII’] Strain definition name and component.
   - stresses: [‘s1’, ‘s2’, ‘s3’, ‘s12’, ‘s13’, ‘s23’, ‘sI’, ‘sII’, ‘sIII’] Stress definition name and component.

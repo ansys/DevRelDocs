@@ -4,4 +4,4 @@
 
 #### *property* ModelingPly.number_of_layers
 
-Number of layers of the Modeling Ply.
+Number of layers of the modeling ply.

@@ -4,4 +4,4 @@
 
 #### *property* ModelingPly.draped_fiber_directions
 
-Returns the Draped Fiber Directions of the Modeling Ply.
+Returns the Draped Fiber Directions of the modeling ply.

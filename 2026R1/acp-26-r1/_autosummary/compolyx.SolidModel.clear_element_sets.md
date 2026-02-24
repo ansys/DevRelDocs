@@ -4,4 +4,4 @@
 
 #### SolidModel.clear_element_sets()
 
-Clear Element Sets of Solid Model.
+Clear Element sets of solid model.

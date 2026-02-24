@@ -4,4 +4,4 @@
 
 #### *property* ModelingPly.area
 
-Area of the Modeling Ply.
+Area of the modeling ply.

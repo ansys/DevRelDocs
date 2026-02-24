@@ -4,4 +4,4 @@
 
 #### *property* ModelingPly.orientations
 
-Returns the oriented normals of the Modeling Ply.
+Returns the oriented normals of the modeling ply.

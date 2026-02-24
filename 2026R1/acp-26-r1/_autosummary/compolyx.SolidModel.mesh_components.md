@@ -4,4 +4,4 @@
 
 #### *property* SolidModel.mesh_components
 
-Element Sets of the solid mesh.
+Element sets of the solid mesh.

@@ -4,4 +4,4 @@
 
 #### *property* ModelingPly.price
 
-Price of the Modeling Ply.
+Price of the modeling ply.

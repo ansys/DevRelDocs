@@ -9,8 +9,8 @@
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | [`ImportedProductionPly.active`](compolyx.ImportedProductionPly.active.md#compolyx.ImportedProductionPly.active)                         | Active status of the object.                                                            |
-| [`ImportedProductionPly.analysis_plies`](compolyx.ImportedProductionPly.analysis_plies.md#compolyx.ImportedProductionPly.analysis_plies) | Analysis Plies of the Production Ply.                                               |
-| [`ImportedProductionPly.angle`](compolyx.ImportedProductionPly.angle.md#compolyx.ImportedProductionPly.angle)                            | Ply Angle of the Production Ply.                                                    |
+| [`ImportedProductionPly.analysis_plies`](compolyx.ImportedProductionPly.analysis_plies.md#compolyx.ImportedProductionPly.analysis_plies) | Analysis plies of the production ply.                                               |
+| [`ImportedProductionPly.angle`](compolyx.ImportedProductionPly.angle.md#compolyx.ImportedProductionPly.angle)                            | Ply angle of the production ply.                                                    |
 | [`ImportedProductionPly.enabled`](compolyx.ImportedProductionPly.enabled.md#compolyx.ImportedProductionPly.enabled)                      | Indicates whether the object is enabled.                                   |
 | [`ImportedProductionPly.id`](compolyx.ImportedProductionPly.id.md#compolyx.ImportedProductionPly.id)                                     | ID of the object.                                                                       |
 | [`ImportedProductionPly.is_dict_item`](compolyx.ImportedProductionPly.is_dict_item.md#compolyx.ImportedProductionPly.is_dict_item)       | Indicates whether the object is an item in a dictionary.                                   |
@@ -19,11 +19,11 @@
 | [`ImportedProductionPly.mesh`](compolyx.ImportedProductionPly.mesh.md#compolyx.ImportedProductionPly.mesh)                               |                                                                                    |
 | [`ImportedProductionPly.name`](compolyx.ImportedProductionPly.name.md#compolyx.ImportedProductionPly.name)                               | Name of the object.                                                                     |
 | [`ImportedProductionPly.parent`](compolyx.ImportedProductionPly.parent.md#compolyx.ImportedProductionPly.parent)                         | Parent object in the tree.                                                              |
-| [`ImportedProductionPly.ply_material`](compolyx.ImportedProductionPly.ply_material.md#compolyx.ImportedProductionPly.ply_material)       | Ply Material of the Production Ply.                                                 |
+| [`ImportedProductionPly.ply_material`](compolyx.ImportedProductionPly.ply_material.md#compolyx.ImportedProductionPly.ply_material)       | Ply Material of the production ply.                                                 |
 | [`ImportedProductionPly.root_path`](compolyx.ImportedProductionPly.root_path.md#compolyx.ImportedProductionPly.root_path)                | Root path of the current node in the tree.                                          |
 | [`ImportedProductionPly.status`](compolyx.ImportedProductionPly.status.md#compolyx.ImportedProductionPly.status)                         | Status of the object.                                                               |
 | [`ImportedProductionPly.status_changed`](compolyx.ImportedProductionPly.status_changed.md#compolyx.ImportedProductionPly.status_changed) | Boolean flag which is set to true in C++ when up-to-date status of object changes. |
-| [`ImportedProductionPly.thickness`](compolyx.ImportedProductionPly.thickness.md#compolyx.ImportedProductionPly.thickness)                | Thickness of the Production Ply.                                                    |
+| [`ImportedProductionPly.thickness`](compolyx.ImportedProductionPly.thickness.md#compolyx.ImportedProductionPly.thickness)                | Thickness of the production ply.                                                    |
 | [`ImportedProductionPly.uid`](compolyx.ImportedProductionPly.uid.md#compolyx.ImportedProductionPly.uid)                                  | UID of the object.                                                                      |
 | [`ImportedProductionPly.vertex`](compolyx.ImportedProductionPly.vertex.md#compolyx.ImportedProductionPly.vertex)                         | Raises an error if the object has been removed from the graph.            |
 

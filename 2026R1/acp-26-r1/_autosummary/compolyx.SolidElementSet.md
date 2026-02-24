@@ -5,7 +5,7 @@
 ### *class* compolyx.SolidElementSet(graph, obj=None, parent=None)
 
 Solid element set class
-Element Set of a solid model
+Element set of a solid model
 
 ### Attributes
 

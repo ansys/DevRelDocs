@@ -36,7 +36,7 @@ Creation:
 | [`ModelingGroup.link_path`](compolyx.ModelingGroup.link_path.md#compolyx.ModelingGroup.link_path)                | Root path of the current node in the tree for links to this object.                 |
 | [`ModelingGroup.name`](compolyx.ModelingGroup.name.md#compolyx.ModelingGroup.name)                               | Name of the object.                                                                     |
 | [`ModelingGroup.parent`](compolyx.ModelingGroup.parent.md#compolyx.ModelingGroup.parent)                         | Parent object in the tree.                                                              |
-| [`ModelingGroup.plies`](compolyx.ModelingGroup.plies.md#compolyx.ModelingGroup.plies)                            | Modeling Plies of the Modeling Group.                                               |
+| [`ModelingGroup.plies`](compolyx.ModelingGroup.plies.md#compolyx.ModelingGroup.plies)                            | Modeling plies of the Modeling Group.                                               |
 | [`ModelingGroup.root_path`](compolyx.ModelingGroup.root_path.md#compolyx.ModelingGroup.root_path)                | Root path of the current node in the tree.                                          |
 | [`ModelingGroup.size`](compolyx.ModelingGroup.size.md#compolyx.ModelingGroup.size)                               | Number of entities.                                                                 |
 | [`ModelingGroup.status`](compolyx.ModelingGroup.status.md#compolyx.ModelingGroup.status)                         | Status of the object.                                                               |

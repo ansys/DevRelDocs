@@ -4,4 +4,4 @@
 
 #### *property* GeometricalSelectionRule.element_sets
 
-Element Sets for the Geometrical Selection Rule.
+Element sets for the geometrical selection rule.

@@ -4,4 +4,4 @@
 
 #### *property* Model.element_sets
 
-Dictionary with all Element Sets defined.
+Dictionary with all element sets defined.

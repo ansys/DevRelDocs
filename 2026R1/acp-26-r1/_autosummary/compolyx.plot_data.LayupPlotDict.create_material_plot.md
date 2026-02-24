@@ -11,7 +11,7 @@ Create a Material Plot object.
   - id: ID for the plot.
   - active: Whether the plot is active.
   - scope_entire_model: If ‘True’, then the scope of this plot is the entire model. If not, then set to false and use the data_scope to specify a sub scope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point.
+  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: element set, oriented selection set, modeling ply, sampling point.
   - show_on_solids: ‘True’ or ‘False’ (default). Whether to show the results on the shell or solid model (if present).
   - show_ply_offsets: ‘True’ or ‘False’ (default). Whether to display ply-wise visualizations with ply offsets.
   - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if show_ply_offsets=True.
@@ -21,7 +21,7 @@ Create a Material Plot object.
   The plot object.
 
 **Example:**
-: Create a material plot with Data Scope set to Element Set “All_Elements” showing the Young Modulus E2:
+: Create a material plot with Data Scope set to element set “All_Elements” showing the Young Modulus E2:
   <br/>
   ```default
   >>> E2_plot = db.active_model.layup_plots.create_material_plot(name="E2_Plot", data_scope=[db.active_model.element_sets['All_Elements']], component = 'E2')

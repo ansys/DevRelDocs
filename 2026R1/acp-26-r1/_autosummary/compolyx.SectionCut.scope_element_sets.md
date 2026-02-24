@@ -4,4 +4,4 @@
 
 #### *property* SectionCut.scope_element_sets
 
-Element Sets to which the Section Cut is scoped. Only used if ‘scope_entire_model’ is False.
+Element sets to which the Section Cut is scoped. Only used if ‘scope_entire_model’ is False.

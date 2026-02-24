@@ -4,4 +4,4 @@
 
 #### *property* ImportedProductionPly.thickness
 
-Thickness of the Production Ply.
+Thickness of the production ply.

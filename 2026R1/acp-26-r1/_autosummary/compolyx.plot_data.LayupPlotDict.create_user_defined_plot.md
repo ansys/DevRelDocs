@@ -11,7 +11,7 @@ Create a User-defined Plot object.
   - id: ID for the plot.
   - active: Whether the plot is active.
   - scope_entire_model: If true, then the scope of this plot is the entire model. If not, then set to false and use the data_scope to specify a sub scope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point.
+  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: element set, oriented selection set, modeling ply, sampling point.
   - user_data: Retrieve or provide the user data, which must obey the order of the user_element_indices or user_element_labels, respectively.
   - user_text: Access to the user-defined text of the plot. Empty strings can be inserted when no labels are to be shown for certain elements.
   - user_script: The body of the script to be executed on update if user_script_enabled = True.
@@ -26,7 +26,7 @@ Create a User-defined Plot object.
   The plot object.
 
 **Example:**
-: Create a user-defined plot with Data Scope set to Element Set “All_Elements”:
+: Create a user-defined plot with Data Scope set to element set “All_Elements”:
   <br/>
   ```default
   >>> u_plot = db.active_model.layup_plots.create_user_defined_plot(self, name="MyPlot", data_scope=db.active_model.element_sets['All_Elements'])

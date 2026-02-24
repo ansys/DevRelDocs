@@ -4,4 +4,4 @@
 
 #### ImportedSolidModel.create_solid_element_set(name, id='', locked=False)
 
-For internal use only: Creates a Solid Element Set.
+For internal use only: Creates a solid element set.

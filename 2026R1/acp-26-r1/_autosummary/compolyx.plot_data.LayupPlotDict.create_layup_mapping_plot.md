@@ -9,7 +9,7 @@ Create a Layup Mapping Plot object.
 * **Parameters:**
   - name: Name of the plot.
   - id: ID for the plot.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Imported Solid Model.
+  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable: imported solid model.
   - ply_wise: ‘True’ or ‘False’ (default). Decides whether to return the thickness of the individual plies or of the whole stack of plies present at an element.
   - show_on_solids: ‘True’ or ‘False’ (default). Whether to show the results on the shell or solid model (if present).
   - component: Specifies the active component.
@@ -19,7 +19,7 @@ Create a Layup Mapping Plot object.
   The plot object.
 
 **Example:**
-: Create a thickness plot with Data Scope set to Element Set “All_Elements” in ply_wise mode:
+: Create a thickness plot with Data Scope set to element set “All_Elements” in ply_wise mode:
   <br/>
   ```default
   >>> thick_plot = db.active_model.layup_plots.create_layup_mapping_plot(self, name="MyPlot", data_scope=[db.active_model.solid_models['ImportedSolidModel'], ply_wise = True)

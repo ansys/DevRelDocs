@@ -4,4 +4,4 @@
 
 #### *property* OrientedSelectionSet.element_sets
 
-Element Sets of the oriented element set.
+Element sets of the oriented element set.

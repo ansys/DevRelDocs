@@ -4,4 +4,4 @@
 
 #### *property* OrientedSelectionSet.orientations
 
-Returns the oriented normals of the Oriented Selection Set.
+Returns the oriented normals of the oriented selection set.

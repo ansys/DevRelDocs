@@ -4,4 +4,4 @@
 
 #### *property* ModelingPly.oriented_selection_sets
 
-Oriented Selection Sets of the Modeling Ply.
+Oriented selection sets of the modeling ply.

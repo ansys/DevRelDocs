@@ -4,4 +4,4 @@
 
 #### *property* OrientedSelectionSet.rosettes
 
-Rosettes of the Oriented Selection Set.
+Rosettes of the oriented selection set.

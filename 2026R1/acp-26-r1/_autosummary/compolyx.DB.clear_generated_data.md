@@ -5,7 +5,7 @@
 #### DB.clear_generated_data(model=None)
 
 Function clears the eventually stored update results and deletes the generated data such as
-Production and Analysis Plies, Solid Models, etc.
+Production and analysis plies, solid models, etc.
 The passed `model` is invalidated. Continuing to use it will cause errors.
 Use the returned Model instance instead. Example code:
 

@@ -4,4 +4,4 @@
 
 #### *property* OrientedSelectionSet.elements
 
-Elements of the Oriented Selection Set.
+Elements of the oriented selection set.

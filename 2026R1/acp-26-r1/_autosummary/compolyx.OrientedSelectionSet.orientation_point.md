@@ -4,4 +4,4 @@
 
 #### *property* OrientedSelectionSet.orientation_point
 
-The Orientation Point of the Oriented Selection Set.
+The Orientation Point of the oriented selection set.
