@@ -6,6 +6,12 @@
 
 Function clears the eventually stored update results and deletes the generated data such as
 Production and Analysis Plies, Solid Models, etc.
+The passed `model` is invalidated. Continuing to use it will cause errors.
+Use the returned Model instance instead. Example code:
+
+`model = db.clear_generated_data(model)`
 
 * **Parameters:**
-  - model: The ACP model to be cleared.
+  -model: The ACP model to be cleared.
+* **Returns:**
+  the updated model after clearing the generated data.

@@ -7,4 +7,4 @@
 Reloads the mesh from the external source.
 
 * **Parameters:**
-  - enforce: enforce the reloading of external data for locked object in the new acph5 serialization format. This option should be used with care.
+  - enforce: enforce the reloading of external data for locked object in the new acph5 serialization format. This option should be used with care!

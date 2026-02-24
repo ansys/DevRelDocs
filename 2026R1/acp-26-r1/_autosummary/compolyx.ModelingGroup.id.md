@@ -4,4 +4,4 @@
 
 #### *property* ModelingGroup.id
 
-ID of object
+ID of the object

@@ -1,4 +1,4 @@
-# Introduction
+# OpenTD .NET 8 API reference
 
 This documentation contains the API reference for OpenTD .NET 8 framework, providing a comprehensive overview of all available types and methods. For an introduction to key concepts and a getting started tutorial, please consult the "Getting started" section.
 

@@ -9,13 +9,13 @@ Create a Angle Plot object.
 * **Parameters:**
   - name: Name of the plot.
   - id: ID for the plot.
-  - scope_entire_model: If  `True`, then the scope of this plot is the entire model. If not, then set to false and use the data_scope to specify a sub scope.
+  - scope_entire_model: If ‘True’, then the scope of this plot is the entire model. If not, then set to false and use the data_scope to specify a sub scope.
   - data_scope: Object(s) defining the scope for which data is computed and returned.
-    Applicable are: `Element Set`, `Oriented Selection Set`, `Modeling Ply`, `Sampling Point`.
-  - show_on_solids: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
-  - show_on_section_cuts: Whether to show the results on the surface section cuts as well. Default is `True`.
-  - show_ply_offsets: `True` or `False` (default). Whether to display ply-wise visualizations with ply offsets.
-  - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if show_ply_offsets=`True`.
+    : Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point.
+  - show_on_solids: ‘True’ or ‘False’ (default). Whether to show the results on the shell or solid model (if present).
+  - show_on_section_cuts: Whether to show the results on the surface section cuts as well. Default is ‘True’.
+  - show_ply_offsets: ‘True’ or ‘False’ (default). Whether to display ply-wise visualizations with ply offsets.
+  - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if show_ply_offsets=True.
 * **Returns:**
   The plot object.
 

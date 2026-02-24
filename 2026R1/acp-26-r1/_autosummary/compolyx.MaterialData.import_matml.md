@@ -5,7 +5,7 @@
 #### MaterialData.import_matml(path, material_apdl_path='')
 
 Import material data from MatML file as provided by Workbench
-Engineering Data.
+Engineering Data
 
 * **Parameters:**
   - path: File to read from.

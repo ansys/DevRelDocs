@@ -4,4 +4,4 @@
 
 #### *property* ImportedModelingPly.thickness_field_type
 
-The type of the Thickness field. Available options are `absolute` and `relative`.
+The type of the Thickness field ‘absolute’ or ‘relative’

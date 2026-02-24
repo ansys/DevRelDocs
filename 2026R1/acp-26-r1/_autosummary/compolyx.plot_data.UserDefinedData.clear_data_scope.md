@@ -4,4 +4,4 @@
 
 #### UserDefinedData.clear_data_scope()
 
-Clears the complete data scope of a plot, i.e. all scope entities are removed at once.
+Cleares the complete data scope of a plot, i.e. all scope entities are removed at once.

@@ -4,7 +4,7 @@
 
 #### VirtualGeometry.set(shapes)
 
-Clears the existing CAD References and creates a new one for each given shape.
+Clears the existing CAD references and creates a new one for each given shape.
 
 * **Parameters:**
   - shapes: A list of tuples. The first item is the shape object and the second the link path (root path) of the shape.

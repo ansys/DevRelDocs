@@ -4,4 +4,4 @@
 
 #### *property* UserDefinedData.uid
 
-UID of object
+UID of the object

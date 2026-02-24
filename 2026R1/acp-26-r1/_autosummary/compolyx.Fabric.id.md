@@ -4,4 +4,4 @@
 
 #### *property* Fabric.id
 
-ID of object
+ID of the object

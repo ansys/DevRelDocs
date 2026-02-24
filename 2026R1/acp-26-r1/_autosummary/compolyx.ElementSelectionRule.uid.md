@@ -4,4 +4,4 @@
 
 #### *property* ElementSelectionRule.uid
 
-UID of object
+UID of the object

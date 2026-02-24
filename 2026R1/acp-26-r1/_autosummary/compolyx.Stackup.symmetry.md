@@ -4,4 +4,4 @@
 
 #### *property* Stackup.symmetry
 
-Symmetry of the Stackup. Available options: ‘No Symmetry’, ‘Even Symmetry’ and ‘Odd Symmetry’.
+Symmetry of the Stackup can be ‘No Symmetry’, ‘Even Symmetry’ or ‘Odd Symmetry’

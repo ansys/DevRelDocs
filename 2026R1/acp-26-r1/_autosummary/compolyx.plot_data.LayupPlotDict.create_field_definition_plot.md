@@ -9,9 +9,9 @@ Create a FieldDefinition Plot object.
 * **Parameters:**
   - name: Name of the plot.
   - id: ID for the plot.
-  - scope_entire_model: If `True`, then the scope of this plot is the entire model. If not, then set to false and use the data_scope to specify a sub scope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: `Element Set`, `Oriented Selection Set`, `Modeling Ply`.
-  - show_on_solids: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
+  - scope_entire_model: If ‘True’, then the scope of this plot is the entire model. If not, then set to false and use the data_scope to specify a sub scope.
+  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply.
+  - show_on_solids: ‘True’ or ‘False’ (default). Whether to show the results on the shell or solid model (if present).
 * **Returns:**
   The plot object.
 

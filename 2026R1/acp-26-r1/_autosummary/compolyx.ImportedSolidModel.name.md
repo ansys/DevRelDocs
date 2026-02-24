@@ -4,4 +4,4 @@
 
 #### *property* ImportedSolidModel.name
 
-Name of object
+Name of the object

@@ -4,4 +4,4 @@
 
 #### *property* ModelingGroup.name
 
-Name of object
+Name of the object

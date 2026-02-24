@@ -4,4 +4,4 @@
 
 #### *property* LayupPlotDict.name
 
-Name of object
+Name of the object

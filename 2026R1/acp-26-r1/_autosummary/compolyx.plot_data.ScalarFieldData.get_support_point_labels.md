@@ -4,7 +4,7 @@
 
 #### ScalarFieldData.get_support_point_labels()
 
-Get the identifiers for the supporting points.
+Returns the identifiers for the supporting points.
 
 * **Returns:**
   Resulting n-dimensional array with the supporting point labels.
@@ -12,7 +12,7 @@ Get the identifiers for the supporting points.
 Labels are returned independent of update status of plot.
 
 Examples:
-: Get labels for supporting points defining look-up table plot:
+: Get labels for supporting points defining lookup table plot:
   <br/>
   ```default
   >>> coords = my_plot._get_support_point_labels()

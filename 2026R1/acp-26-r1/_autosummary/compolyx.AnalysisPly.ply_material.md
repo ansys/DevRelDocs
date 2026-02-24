@@ -4,4 +4,4 @@
 
 #### *property* AnalysisPly.ply_material
 
-Ply Material of the Analysis Ply
+Ply material of the analysis ply

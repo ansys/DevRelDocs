@@ -4,4 +4,4 @@
 
 #### *property* Rosette.active
 
-active status of object
+Active status of the object

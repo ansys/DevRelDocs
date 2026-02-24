@@ -4,4 +4,4 @@
 
 #### *property* CADReference.active
 
-Active status of object
+Active status of the object

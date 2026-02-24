@@ -4,7 +4,7 @@
 
 #### MaterialData.copy_fabric(source, on_duplicate_name='keep_both', memo=None)
 
-Copy a fabric.
+Copy a fabric
 
 * **Parameters:**
   - source: Source object to copy.

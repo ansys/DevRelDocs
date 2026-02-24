@@ -4,4 +4,4 @@
 
 #### *property* ButtJointSequence.name
 
-Name of object
+Name of the object

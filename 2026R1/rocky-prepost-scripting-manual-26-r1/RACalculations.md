@@ -20,7 +20,6 @@ Rocky api for particles calculations
 | [`CreateDivisionsTagging`](#generated.RACalculations.CreateDivisionsTagging)(selection)             | Create a Divisions Tagging calculator for the given particle-based selection process.   |
 | [`CreateSelectionFlipCount`](#generated.RACalculations.CreateSelectionFlipCount)(selection)         | Create a flip count grid function for the given selection process                       |
 | [`CreateSelectionResidenceTime`](#generated.RACalculations.CreateSelectionResidenceTime)(selection) | Create a residence time grid function for the given selection process                   |
-| [`CreateSelectionTagging`](#generated.RACalculations.CreateSelectionTagging)(selection)             | Deprecated: Use [`CreateTagging()`](#generated.RACalculations.CreateTagging) instead.   |
 | [`CreateTagging`](#generated.RACalculations.CreateTagging)(selection)                               | Create a Tagging calculator for the given particle-based selection process.             |
 | [`GetDivisionsTagging`](#generated.RACalculations.GetDivisionsTagging)(name)                        | Get the Divisions Tagging calculator with the given name.                               |
 | [`GetDivisionsTaggingNames`](#generated.RACalculations.GetDivisionsTaggingNames)()                  | Get a list of the names of all Divisions Taggings in Particles Calculations.            |
@@ -47,12 +46,6 @@ Create a flip count grid function for the given selection process
 #### CreateSelectionResidenceTime(selection: RAGridProcessElementItem | str)
 
 Create a residence time grid function for the given selection process
-
-<a id="generated.RACalculations.CreateSelectionTagging"></a>
-
-#### CreateSelectionTagging(selection: RAGridProcessElementItem)
-
-Deprecated: Use [`CreateTagging()`](#generated.RACalculations.CreateTagging) instead.
 
 <a id="generated.RACalculations.CreateTagging"></a>
 

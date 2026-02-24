@@ -6,7 +6,7 @@
 
 Exports the suface section cut to BECAS or ANSYS Mechanical APDL.
 
-* **Paramters:**
+* **Parameters:**
   - path: File path or directory depending on the export format.
   - format: Export format. Implemented are ‘becas:in’ (default) and ‘ansys:cdb’.
   - export_strength_limits: Whether to export the strength limits for BECAS (default is ‘True’). Ignored if the format is not ‘becas:in’.

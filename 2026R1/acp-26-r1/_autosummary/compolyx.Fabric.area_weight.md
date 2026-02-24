@@ -4,4 +4,4 @@
 
 #### *property* Fabric.area_weight
 
-Area weight of fabric
+Area weight of the fabric

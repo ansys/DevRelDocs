@@ -4,4 +4,4 @@
 
 #### *property* ModelingPly.ply_offsets
 
-Get the offsetted Modeling Ply
+Returns the offsetted Modeling Ply

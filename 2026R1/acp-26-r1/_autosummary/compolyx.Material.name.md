@@ -4,4 +4,4 @@
 
 #### *property* Material.name
 
-Name of object
+Name of the object

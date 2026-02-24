@@ -4,4 +4,4 @@
 
 #### *property* CADSolid.path
 
-Returns topology path of the CADComponent.
+Returns the topology path of the CAD component.

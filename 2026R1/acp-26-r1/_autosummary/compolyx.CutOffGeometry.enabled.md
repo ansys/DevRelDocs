@@ -4,4 +4,4 @@
 
 #### *property* CutOffGeometry.enabled
 
-Whether this object is currently enabled or not. It’s derived from the parent solid model.
+Indicates whether the object is enabled. It’s derived from the parent solid model.

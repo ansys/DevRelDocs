@@ -4,4 +4,4 @@
 
 #### *property* Scene.projection
 
-Projection method: `parallel` or `perspective`
+Projection method: ‘parallel’ or ‘perspective’

@@ -4,4 +4,4 @@
 
 #### *property* ScalarFieldData.uid
 
-UID of object
+UID of the object
