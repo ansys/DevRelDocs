@@ -35,7 +35,6 @@ The following table shows which components have updates in each category.
 | prime | [3 items](#Features_prime) | | |
 | rbd | | [1 item](#Fixes_rbd) | |
 | rotation | | [1 item](#Fixes_rotation) | |
-| workflows | | [1 item](#Fixes_workflows) | |
 
 ## c\#
 
@@ -852,13 +851,6 @@ The following table shows which components have updates in each category.
 
 - Fix of nested cms rotation with empty angles for harmonic msup:
   > Fix of nested cms rotation with empty angles for harmonic msup
-
-## workflows
-
-### <a id="Fixes_workflows"></a> Fixes
-
-- Change normalization of the residual vector in enhanced pod workflow:
-  > Normalization of the residual vector was made with respect to itself in the enhanced pod workflow (enhanced_pod_compression.swf), though it has to be done with respect to the inputs.
 
 ## Operator changes
 
