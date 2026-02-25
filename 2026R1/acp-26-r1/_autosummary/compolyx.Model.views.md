@@ -4,4 +4,4 @@
 
 #### *property* Model.views
 
-Views
+Views.

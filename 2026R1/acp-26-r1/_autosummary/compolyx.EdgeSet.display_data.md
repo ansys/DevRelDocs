@@ -4,4 +4,4 @@
 
 #### *property* EdgeSet.display_data
 
-The edge set mesh plot
+The edge set mesh plot.

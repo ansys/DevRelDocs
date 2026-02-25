@@ -4,4 +4,4 @@
 
 #### *property* VariableOffsetSelectionRule.use_offset_correction
 
-Use offset correction on mesh
+Use offset correction on mesh.

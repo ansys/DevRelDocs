@@ -4,4 +4,4 @@
 
 #### *property* CADGeometry.sub_shape_selection_display_data
 
-CAD face selection plot
+CAD face selection plot.

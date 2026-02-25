@@ -6,13 +6,13 @@
 
 Generates 2D plots with the results of interest.
 
-* **Parameters:**
+### Parameters:
   - query: Query arguments.
-* **Options:**
+### Options:
   - layup: [‘pp’] Production plies.
   - polar_properties: [‘E1’,’E2’,’G12’] Polar plot of laminate stiffess.
   - text_plot: [‘materials’, ‘angles’, ‘thicknesses’].
-* **Examples:**
+### Examples:
   ```pycon
   >>> query={'polar_properties':['E1', 'G12'], layup:['pp'], text_plot:['materials', 'angles', 'thicknesses']}
   ```

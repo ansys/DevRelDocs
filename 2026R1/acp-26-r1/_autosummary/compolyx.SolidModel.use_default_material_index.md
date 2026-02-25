@@ -4,4 +4,4 @@
 
 #### *property* SolidModel.use_default_material_index
 
-Use consecutive material numbering
+Use consecutive material numbering.

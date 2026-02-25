@@ -4,4 +4,4 @@
 
 #### *property* UserDefinedData.user_script_enabled
 
-Whether to run a custom script on update
+Whether to run a custom script on update.

@@ -4,4 +4,4 @@
 
 #### *property* Stackup.thickness
 
-Thickness of the Stackup
+Thickness of the Stackup.

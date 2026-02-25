@@ -4,4 +4,4 @@
 
 #### SolidModel.add_element_set(element_set)
 
-Add Element Set to Solid Model
+Add Element set to solid model.

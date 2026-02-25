@@ -4,4 +4,4 @@
 
 #### *property* SectionCut.surface_mesh
 
-Section cut line surface mesh
+Section cut line surface mesh.

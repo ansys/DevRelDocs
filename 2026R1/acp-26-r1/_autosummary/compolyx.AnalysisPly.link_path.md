@@ -4,4 +4,4 @@
 
 #### *property* AnalysisPly.link_path
 
-Root path of this node in the tree
+Root path of this node in the tree.

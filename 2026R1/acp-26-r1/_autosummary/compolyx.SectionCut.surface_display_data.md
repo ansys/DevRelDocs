@@ -4,4 +4,4 @@
 
 #### *property* SectionCut.surface_display_data
 
-Section cut surface plot
+Section cut surface plot.

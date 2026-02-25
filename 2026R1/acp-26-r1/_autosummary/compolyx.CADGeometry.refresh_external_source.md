@@ -6,5 +6,5 @@
 
 Reload the geometry from the external source.
 
-* **Parameters:**
+### Parameters:
   - enforce: Enforce the reloading of external data for locked object in the new acph5 serialization format. Pay attention when using this option.

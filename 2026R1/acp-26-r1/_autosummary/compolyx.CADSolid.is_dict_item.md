@@ -4,4 +4,4 @@
 
 #### *property* CADSolid.is_dict_item
 
-Indicates whether the object is an item in a dictionary
+Indicates whether the object is an item in a dictionary.

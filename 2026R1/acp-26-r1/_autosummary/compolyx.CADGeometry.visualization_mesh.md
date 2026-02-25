@@ -4,4 +4,4 @@
 
 #### *property* CADGeometry.visualization_mesh
 
-Visualization mesh of this geometry
+Visualization mesh of this geometry.

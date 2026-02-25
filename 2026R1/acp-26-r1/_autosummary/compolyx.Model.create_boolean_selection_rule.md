@@ -6,12 +6,12 @@
 
 Create a new boolean selection rule.
 
-* **Parameters:**
+### Parameters:
   - name: Name of the rule.
   - id: ID of the rule.
   - include_rule_type: Whether the rule is of include or exlude type.
   - selection_rules: list of tuples of attached rules, operation type, and template parameters.
-* **Returns:**
+### Returns:
   The created boolean selection rule.
-* **Example:**
+### Example:
   >> model.create_boolean_selection_rule(‘Boolean Rule 1’, include_rule_type=True, selection_rules=[(rule1, ‘intersect’, False, (0,1)), (rule2, ‘remove’, True, (20, 4))])

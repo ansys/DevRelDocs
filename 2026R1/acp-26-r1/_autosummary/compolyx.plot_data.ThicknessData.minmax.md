@@ -4,4 +4,4 @@
 
 #### *property* ThicknessData.minmax
 
-Min and max value of current data
+Min and max value of current data.

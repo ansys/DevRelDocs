@@ -4,9 +4,9 @@
 
 #### AnalysisPly.write_boundaries(filename, format=None, offset_type='no_offset', with_direction_arrows=False, arrow_length=None, arrow_type='standard_arrow')
 
-Writes boundaries in IGES/STEP format  
+Writes boundaries in IGES/STEP format.
 
-* **Parameters:**
+### Parameters:
   - filename: Output file.
   - format: ‘iges’, ‘step’, None (automatic format recognition).
   - offset_type: ‘no_offset’ (default), ‘bottom_offset’, ‘middle_offset’, ‘top_offset’.

@@ -4,4 +4,4 @@
 
 #### *property* CutoffSelectionRule.offset
 
-Cut-Off offset
+Cut-Off offset.

@@ -4,4 +4,4 @@
 
 #### *property* Fabric.thickness
 
-Thickness of fabric
+Thickness of fabric.

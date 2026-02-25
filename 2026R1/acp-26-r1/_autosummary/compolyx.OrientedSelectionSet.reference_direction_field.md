@@ -4,4 +4,4 @@
 
 #### *property* OrientedSelectionSet.reference_direction_field
 
-a lookup table column or None for external reference directions
+a lookup table column or None for external reference directions.

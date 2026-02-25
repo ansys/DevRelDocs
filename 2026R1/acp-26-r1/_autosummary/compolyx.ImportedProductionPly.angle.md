@@ -4,4 +4,4 @@
 
 #### *property* ImportedProductionPly.angle
 
-Ply Angle of the Production Ply
+Ply angle of the production ply.

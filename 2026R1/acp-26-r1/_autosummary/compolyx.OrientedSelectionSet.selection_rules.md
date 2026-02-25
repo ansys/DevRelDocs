@@ -4,4 +4,4 @@
 
 #### *property* OrientedSelectionSet.selection_rules
 
-Selection Rules of the Oriented Selection Set.
+Selection Rules of the oriented selection set.

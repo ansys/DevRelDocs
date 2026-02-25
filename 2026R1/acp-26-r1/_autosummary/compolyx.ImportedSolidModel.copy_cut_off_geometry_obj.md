@@ -4,9 +4,9 @@
 
 #### ImportedSolidModel.copy_cut_off_geometry_obj(source)
 
-Copy a Cut-Off Geometry
+Copy a Cut-Off Geometry.
 
-* **Parameters:**
+### Parameters:
   - source: Source object to copy
-* **Returns:**
+### Returns:
   New instance of a Cut-Off Geometry

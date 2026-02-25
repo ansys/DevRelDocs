@@ -4,4 +4,4 @@
 
 #### *property* CADReference.size
 
-Size of the linked cad shape
+Size of the linked cad shape.

@@ -4,4 +4,4 @@
 
 #### *property* ModelingPly.taper_edges
 
-Taper Edges of the Modeling Ply.
+Taper Edges of the modeling ply.

@@ -4,4 +4,4 @@
 
 #### *property* CutOffGeometry.name
 
-Name of the object
+Name of the object.

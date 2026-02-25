@@ -6,14 +6,14 @@
 
 Create a Draping Plot object.
 
-* **Parameters:**
+### Parameters:
   - name: Name of the plot
   - id: ID for the plot
-* **Returns:**
+### Returns:
   the plot object
 
-**Example:**
-: Create a draping plot with Data Scope set to Element Set “All_Elements”:
+### Example:
+: Create a draping plot with Data Scope set to element set “All_Elements”:
   <br/>
   ```default
   >>> draping_plot = db.active_model.layup_plots.create_draping_plot(self, name="MyPlot")

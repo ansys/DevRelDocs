@@ -4,4 +4,4 @@
 
 #### *property* Model.scripts
 
-List of user-defined scripts
+List of user-defined scripts.

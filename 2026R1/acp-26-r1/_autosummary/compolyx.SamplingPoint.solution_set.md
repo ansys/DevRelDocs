@@ -4,4 +4,4 @@
 
 #### *property* SamplingPoint.solution_set
 
-Solution and Set selection
+Solution and Set selection.

@@ -4,4 +4,4 @@
 
 #### *property* SolidModel.cut_off_geometry_objs
 
-Cut-Off Geometry objects
+Cut-Off Geometry objects.

@@ -4,4 +4,4 @@
 
 #### *property* CADGeometry.normals_display_data
 
-CAD geometry normals visualization
+CAD geometry normals visualization.

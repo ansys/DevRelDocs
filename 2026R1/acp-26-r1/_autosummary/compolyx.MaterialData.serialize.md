@@ -4,4 +4,4 @@
 
 #### MaterialData.serialize()
 
-Serialize to Python string
+Serialize to Python string.

@@ -4,4 +4,4 @@
 
 #### *property* SubLaminate.fabrics
 
-Fabrics property of the Sub Laminate
+Fabrics property of the Sub Laminate.

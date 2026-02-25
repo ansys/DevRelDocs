@@ -4,4 +4,4 @@
 
 #### *property* PlotDataDict.key_attr
 
-Name of attribute of item objects which is mapped to the key of the UIDict
+Name of attribute of item objects which is mapped to the key of the UIDict.

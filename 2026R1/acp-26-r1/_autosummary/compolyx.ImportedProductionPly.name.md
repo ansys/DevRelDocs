@@ -4,4 +4,4 @@
 
 #### *property* ImportedProductionPly.name
 
-Name of the object
+Name of the object.

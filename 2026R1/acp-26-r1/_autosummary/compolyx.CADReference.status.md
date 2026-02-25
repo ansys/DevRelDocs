@@ -4,4 +4,4 @@
 
 #### *property* CADReference.status
 
-Status of the CADReference
+Status of the CADReference.

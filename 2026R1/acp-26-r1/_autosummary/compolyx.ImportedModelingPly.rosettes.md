@@ -4,4 +4,4 @@
 
 #### *property* ImportedModelingPly.rosettes
 
-Rosettes of the Imported Modeling Ply.
+Rosettes of the imported modeling ply.

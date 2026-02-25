@@ -6,5 +6,5 @@
 
 Serialize to Python string.
 
-* **Parameters:**
+### Parameters:
   - butt_joints: Indicates whether butt-joints are serialized or everything else (modeling group, modeling plies, and interface layers).

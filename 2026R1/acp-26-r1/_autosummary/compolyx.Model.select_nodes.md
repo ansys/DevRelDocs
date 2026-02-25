@@ -6,7 +6,7 @@
 
 Function selects nodes in graph and marks the given selection as SELECTED.
 
-* **Parameters:**
+### Parameters:
   - selection: The selection to update.
     Can be given as string (‘sel0’-‘sel5’ or ‘all’)
     or ObjectSelection object such as

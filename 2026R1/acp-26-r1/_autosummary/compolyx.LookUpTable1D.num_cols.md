@@ -4,4 +4,4 @@
 
 #### *property* LookUpTable1D.num_cols
 
-Number of rows
+Number of rows.

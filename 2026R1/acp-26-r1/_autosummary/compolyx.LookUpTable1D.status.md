@@ -4,4 +4,4 @@
 
 #### *property* LookUpTable1D.status
 
-Status of the object
+Status of the object.

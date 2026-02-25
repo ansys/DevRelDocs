@@ -4,4 +4,4 @@
 
 #### *property* AngleData.spots
 
-Return the possible spot set on this plot type
+Return the possible spot set on this plot type.

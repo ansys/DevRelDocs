@@ -4,4 +4,4 @@
 
 #### *property* LayupPlotDict.item_type
 
-Type of items stored in this UIDict
+Type of items stored in this UIDict.

@@ -6,7 +6,7 @@
 
 Add a chapter to the ply book.
 
-* **Parameters:**
+### Parameters:
   - name: Name of the chapter to be added.
   - view: The view for snapshots of the chapter.
   - ply_entities: List of modeling plies and modeling groups for the chapter.

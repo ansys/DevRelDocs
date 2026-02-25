@@ -4,4 +4,4 @@
 
 #### *property* PublishedParameter.float_list
 
-A list of possible values for a float
+A list of possible values for a float.

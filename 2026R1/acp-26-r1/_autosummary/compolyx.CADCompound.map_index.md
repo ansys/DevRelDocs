@@ -4,4 +4,4 @@
 
 #### *property* CADCompound.map_index
 
-Map index of the shape
+Map index of the shape.

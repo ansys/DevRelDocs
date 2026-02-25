@@ -4,4 +4,4 @@
 
 #### *property* SolidModel.offset_type
 
-Offset type. Allowed string values: [‘shell_normal’, ‘surface_normal’]
+Offset type. Allowed string values: [‘shell_normal’, ‘surface_normal’].

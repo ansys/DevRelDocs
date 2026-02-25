@@ -4,4 +4,4 @@
 
 #### *property* Scene.show_selected_mesh
 
-Indicates whether to show/highlight currently selected Elements
+Indicates whether to show/highlight currently selected Elements.

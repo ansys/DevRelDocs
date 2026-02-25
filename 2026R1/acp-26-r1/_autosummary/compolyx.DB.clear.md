@@ -4,4 +4,4 @@
 
 #### DB.clear()
 
-Clears the database
+Clears the database.

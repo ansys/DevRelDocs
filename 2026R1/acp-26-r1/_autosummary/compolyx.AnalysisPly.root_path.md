@@ -4,4 +4,4 @@
 
 #### *property* AnalysisPly.root_path
 
-Root path of this node
+Root path of this node.

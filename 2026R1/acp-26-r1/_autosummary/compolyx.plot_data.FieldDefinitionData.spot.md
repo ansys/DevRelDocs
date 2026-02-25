@@ -4,4 +4,4 @@
 
 #### *property* FieldDefinitionData.spot
 
-Not applicable to a field definition plot
+Not applicable to a field definition plot.

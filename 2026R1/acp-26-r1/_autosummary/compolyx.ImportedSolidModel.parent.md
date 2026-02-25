@@ -4,4 +4,4 @@
 
 #### *property* ImportedSolidModel.parent
 
-Parent object in the tree
+Parent object in the tree.

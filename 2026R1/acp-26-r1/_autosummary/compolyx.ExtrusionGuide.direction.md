@@ -4,4 +4,4 @@
 
 #### *property* ExtrusionGuide.direction
 
-extrusion direction
+extrusion direction.

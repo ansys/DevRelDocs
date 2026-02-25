@@ -4,4 +4,4 @@
 
 #### *property* GeometricalSelectionRule.relative_rule_type
 
-relative type
+relative type.

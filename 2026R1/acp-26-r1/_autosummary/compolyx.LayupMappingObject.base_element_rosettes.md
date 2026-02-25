@@ -4,4 +4,4 @@
 
 #### *property* LayupMappingObject.base_element_rosettes
 
-List of rosettes used to orient the lost elements
+List of rosettes used to orient the lost elements.

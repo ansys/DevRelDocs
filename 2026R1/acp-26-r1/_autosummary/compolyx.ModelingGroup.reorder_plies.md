@@ -7,7 +7,7 @@
 Reorder the ply group. Take source plies and insert before/after target ply. If the ModelingGroup itself is
 specified as a target, then the modeling plies retain their original global ply number.
 
-* **Parameters:**
+### Parameters:
   - source: List of plies to insert at new position.
   - target: Position to insert plies. Valid options are modeling group and sequence entity.
   - option: Where to insert: after (default), before, end (for SequenceEntity targets), or keep (for

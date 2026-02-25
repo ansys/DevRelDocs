@@ -4,4 +4,4 @@
 
 #### *property* SectionCut.wireframe_mesh
 
-Section cut line wireframe mesh
+Section cut line wireframe mesh.

@@ -6,10 +6,10 @@
 
 Get data of plot.
 
-* **Parameters:**
-  - visible: Object(s) defining visible scope
-  - selected: Selected object(s) for ply-wise evaluations.
-* **Returns:**
+### Parameters:
+  - visible: One or more objects defining visible scope
+  - selected: Selected one or more objects for ply-wise evaluations.
+### Returns:
   Resulting n-dimensional array with plot data for each selected object.
   The scope of the data is evaluated identically as for get_element_xx functions as the intersection of
   - data_scope of plot

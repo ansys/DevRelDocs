@@ -4,4 +4,4 @@
 
 #### *property* ImportedSolidModel.active
 
-Solid Model is active
+Solid model is active.

@@ -4,4 +4,4 @@
 
 #### *property* GeometricalSelectionRule.in_plane_capture_tolerance
 
-In-plane capture tolerance
+In-plane capture tolerance.

@@ -4,4 +4,4 @@
 
 #### *property* Stackup.area_price
 
-Price per area of the Stackup
+Price per area of the Stackup.

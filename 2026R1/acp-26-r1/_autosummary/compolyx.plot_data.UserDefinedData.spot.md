@@ -4,4 +4,4 @@
 
 #### *property* UserDefinedData.spot
 
-Not applicable to a user-defined plot
+Not applicable to a user-defined plot.

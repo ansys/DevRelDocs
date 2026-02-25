@@ -7,7 +7,7 @@
 > Compute the equivalent beam properties of the section cut.
 
 > The section is exported to Mechanical APDL and solved based on G.L.Ghiringhelli’s paper
-> ‘LINEAR, STRAIGHT AND UNTWISTED ANISOTROPIC BEAM SECTION PROPERTIES
+> ‘LINEAR, STRAIGHT and UNTWISTED ANISOTROPIC BEAM SECTION PROPERTIES
 > FROM SOLID FINITE ELEMENTS’. For more details, see the ACP documentation.
 
 > * **Parameters:**

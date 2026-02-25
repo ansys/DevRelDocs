@@ -4,4 +4,4 @@
 
 #### *property* LayupMappingData.spot
 
-Not applicable to a layup mapping plot
+Not applicable to a layup mapping plot.

@@ -6,10 +6,10 @@
 
 Create new sensor.
 
-* **Parameters:**
+### Parameters:
   - name: Name of the rule.
   - active: Whether the sensor is active.
   - sensor_type: Type of sensor. Valid options: SENSOR_BY_AREA, SENSOR_BY_MATERIAL, and SENSOR_BY_PLIES.
   - entities: Entities of the sensor.
-* **Returns:**
+### Returns:
   The created sensor.

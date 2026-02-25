@@ -6,12 +6,12 @@
 
 Create a new field definition.
 
-* **Parameters:**
+### Parameters:
   - name: The name of the field definition.
   - id: The ID of the field definition.
   - field_variable: String identifier of the field.
   - scope_entities: A list of scope entities defining the region of definition.
   - scalar_field: Tabular scalar column defining the field.
   - full_mapping: Boolean for whether offsets are to be included during the interpolation process.
-* **Returns:**
+### Returns:
   The created field definition.

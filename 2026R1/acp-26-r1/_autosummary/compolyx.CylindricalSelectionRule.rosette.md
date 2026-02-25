@@ -4,4 +4,4 @@
 
 #### *property* CylindricalSelectionRule.rosette
 
-Rosette of the used for origin and direction
+Rosette of the used for origin and direction.

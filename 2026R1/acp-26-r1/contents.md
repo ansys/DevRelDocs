@@ -1,6 +1,6 @@
 # The ACP scripting interface
 
-The ACP scripting interface provides a Python API for accessing and using the ACP application.
+The ACP scripting interface provides a Python API that lets you access, automate, and extend the ACP application. Use this interface to build custom workflows, integrate ACP into larger pipelines, or modify models and materials using Python.
 
 * [Introduction]()
 * [Getting started](getting_started_acp.md)

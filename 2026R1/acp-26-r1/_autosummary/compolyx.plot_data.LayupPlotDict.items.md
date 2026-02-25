@@ -4,4 +4,4 @@
 
 #### LayupPlotDict.items()
 
-Return ordered list with (key,value) pairs
+Return ordered list with (key,value) pairs.

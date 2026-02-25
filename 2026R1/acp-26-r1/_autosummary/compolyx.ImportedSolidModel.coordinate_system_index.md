@@ -4,4 +4,4 @@
 
 #### *property* ImportedSolidModel.coordinate_system_index
 
-Coordinate System index
+Coordinate System index.

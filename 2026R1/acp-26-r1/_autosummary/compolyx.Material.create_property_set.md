@@ -4,14 +4,14 @@
 
 #### Material.create_property_set(property_name, \*\*kwargs)
 
-Function to create a specific property set
+Function to create a specific property set.
 
-* **Parameters:**
+### Parameters:
   - property_name: A string defining the PropertySet to be created.
 
 Keyword arguments can be passed to define the constant properties of the newly created PropertySet. If the property already exists, then it will be overwritten with the new data.
 
-* **Example:**
+### Example:
   ```pycon
   >>> m = db.active_model
   >>> mat = m.material_data.materials['Corecell_A450']

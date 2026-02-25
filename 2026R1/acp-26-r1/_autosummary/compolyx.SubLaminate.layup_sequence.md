@@ -4,4 +4,4 @@
 
 #### *property* SubLaminate.layup_sequence
 
-Layup Sequence of the Sub Laminate can be ‘Top-Down’ or ‘Bottom-Up’
+Layup Sequence of the Sub Laminate can be ‘Top-Down’ or ‘Bottom-Up’.

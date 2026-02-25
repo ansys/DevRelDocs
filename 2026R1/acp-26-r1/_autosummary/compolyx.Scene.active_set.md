@@ -4,4 +4,4 @@
 
 #### *property* Scene.active_set
 
-Set of active entities
+Set of active entities.

@@ -4,4 +4,4 @@
 
 #### *property* PlyBook.reST_title_page
 
-reST title page template
+reST title page template.

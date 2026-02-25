@@ -6,5 +6,5 @@
 
 Remove rule from modeling ply.
 
-* **Parameters:**
+### Parameters:
   - rule: The rule to be removed from modeling ply.

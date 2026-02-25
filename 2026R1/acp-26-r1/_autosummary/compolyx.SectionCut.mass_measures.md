@@ -4,4 +4,4 @@
 
 #### *property* SectionCut.mass_measures
 
-Cross-sectional Measures of Mass
+Cross-sectional Measures of Mass.

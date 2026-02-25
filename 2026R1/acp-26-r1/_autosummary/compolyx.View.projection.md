@@ -4,4 +4,4 @@
 
 #### *property* View.projection
 
-Get/set the projection method parallel or perspective
+Get/set the projection method parallel or perspective.

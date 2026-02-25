@@ -4,4 +4,4 @@
 
 #### *property* LookUpTableColumn.values
 
-numpy array containing the column values
+numpy array containing the column values.

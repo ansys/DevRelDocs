@@ -6,5 +6,5 @@
 
 Add oriented selection set.
 
-* **Parameters:**
+### Parameters:
   - oriented_selection_set: The oriented selection set to be assigned to ModelingPly.

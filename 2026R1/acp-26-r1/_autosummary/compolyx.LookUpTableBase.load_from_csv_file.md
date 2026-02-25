@@ -8,5 +8,5 @@ Load the table from .csv file in path.
 
 Load LookUpTable from CSV file.
 
-* **Parameters:**
+### Parameters:
   - path: Path to output file.

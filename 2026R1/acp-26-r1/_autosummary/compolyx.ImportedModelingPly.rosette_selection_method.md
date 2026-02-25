@@ -4,4 +4,4 @@
 
 #### *property* ImportedModelingPly.rosette_selection_method
 
-Defines the rosette selection method
+Defines the rosette selection method.

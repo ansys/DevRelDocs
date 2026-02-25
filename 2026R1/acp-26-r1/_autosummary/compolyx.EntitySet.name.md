@@ -4,4 +4,4 @@
 
 #### *property* EntitySet.name
 
-Name of the object
+Name of the object.

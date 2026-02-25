@@ -4,4 +4,4 @@
 
 #### *property* ElementSet.locked
 
-Element Set is imported and cannot be changed.
+Element set is imported and cannot be changed.

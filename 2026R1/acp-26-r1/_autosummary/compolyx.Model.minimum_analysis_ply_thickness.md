@@ -4,4 +4,4 @@
 
 #### *property* Model.minimum_analysis_ply_thickness
 
-Section computation minimum analysis ply thickness (in length unit of model)
+Section computation minimum analysis ply thickness (in length unit of model).

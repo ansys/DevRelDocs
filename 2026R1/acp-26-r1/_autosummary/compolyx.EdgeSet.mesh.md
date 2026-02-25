@@ -4,4 +4,4 @@
 
 #### *property* EdgeSet.mesh
 
-The edge set mesh
+The edge set mesh.

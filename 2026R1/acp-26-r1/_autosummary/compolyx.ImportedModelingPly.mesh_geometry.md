@@ -4,4 +4,4 @@
 
 #### *property* ImportedModelingPly.mesh_geometry
 
-Geometry that defines the mesh/surface of this ply
+Geometry that defines the mesh/surface of this ply.

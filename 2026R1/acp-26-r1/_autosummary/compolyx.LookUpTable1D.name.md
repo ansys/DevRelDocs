@@ -4,4 +4,4 @@
 
 #### *property* LookUpTable1D.name
 
-Name of the object
+Name of the object.

@@ -4,4 +4,4 @@
 
 #### *property* Model.section_cuts
 
-Section Cuts
+Section Cuts.

@@ -4,4 +4,4 @@
 
 #### *property* Scene.background
 
-Background color
+Background color.

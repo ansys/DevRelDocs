@@ -4,4 +4,4 @@
 
 #### *property* ElementSet.size
 
-Number of entities
+Number of entities.

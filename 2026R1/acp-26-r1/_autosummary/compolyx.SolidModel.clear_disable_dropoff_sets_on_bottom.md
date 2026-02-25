@@ -4,4 +4,4 @@
 
 #### SolidModel.clear_disable_dropoff_sets_on_bottom()
 
-Clear sets where the drop-offs on bottom are disabled
+Clear sets where the drop-offs on bottom are disabled.

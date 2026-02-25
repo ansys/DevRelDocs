@@ -4,4 +4,4 @@
 
 #### *property* LookUpTable1D.columns
 
-Dictionary with all columns
+Dictionary with all columns.

@@ -4,4 +4,4 @@
 
 #### *property* ModelingPly.selection_rules
 
-Element Selection Rule of the Modeling Ply.
+Element Selection Rule of the modeling ply.

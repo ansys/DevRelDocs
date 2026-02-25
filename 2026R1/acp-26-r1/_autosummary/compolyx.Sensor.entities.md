@@ -4,4 +4,4 @@
 
 #### *property* Sensor.entities
 
-Entities of the Sensor
+Entities of the Sensor.

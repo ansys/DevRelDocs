@@ -9,7 +9,7 @@ Convert the equivalent stiffness and mass matrix into an Ansys sectype command.
 The output (string) can be embedded into an Ansys input file to define a preintegrated
 composite beam section. It can also be used in the Mechanical application via a command snippet.
 
-* **Parameters:**
+### Parameters:
 
 - properties: All sectional properties of the equivalent beam properties calculation.
 - stiffness_matrix_position: The point to which the stiffness matrix is transformed. Valid options: “origin”, “center of gravity”, “shear center”, and “elastic center”.
@@ -18,7 +18,7 @@ composite beam section. It can also be used in the Mechanical application via a 
 - mass_matrix_axes_type: Output the matrix in this axes system: can be “global”, “elastic axes”, and “principal inertia axes”.
 - sectype_id: Defines the index of the section.
 
-* **Usage:**
+### Usage:
   ```pycon
   >>> result = section_cut.compute_equivalent_beam_properties(check_status=True)
   >>> command = section_cut.get_sectype_command_from_sectional_properties(

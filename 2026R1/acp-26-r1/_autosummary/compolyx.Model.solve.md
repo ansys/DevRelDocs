@@ -6,5 +6,5 @@
 
 Convenience function to directly solve the current model.
 
-* **Parameters:**
+### Parameters:
   - wait: Wait until solver process finishes computation.

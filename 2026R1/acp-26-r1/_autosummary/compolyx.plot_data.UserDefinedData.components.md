@@ -4,4 +4,4 @@
 
 #### *property* UserDefinedData.components
 
-Return the possible component set on this plot type
+Return the possible component set on this plot type.

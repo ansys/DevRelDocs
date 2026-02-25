@@ -4,4 +4,4 @@
 
 #### *property* PublishedParameter.wb_value
 
-The parameter value as it is represented in the ANSYS workbench
+The parameter value as it is represented in the ANSYS workbench.

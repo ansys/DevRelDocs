@@ -4,4 +4,4 @@
 
 #### *property* OrientedSelectionSet.draping_obj
 
-Draping representation
+Draping representation.

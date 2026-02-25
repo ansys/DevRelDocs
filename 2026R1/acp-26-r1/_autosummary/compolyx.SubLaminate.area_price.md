@@ -4,4 +4,4 @@
 
 #### *property* SubLaminate.area_price
 
-Price per area of the Sub Laminate
+Price per area of the Sub Laminate.

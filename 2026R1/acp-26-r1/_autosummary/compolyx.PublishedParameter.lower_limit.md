@@ -4,4 +4,4 @@
 
 #### *property* PublishedParameter.lower_limit
 
-The lower limit for numeric values
+The lower limit for numeric values.

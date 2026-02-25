@@ -4,4 +4,4 @@
 
 #### *property* VariableOffsetSelectionRule.angles
 
-Link to lookup table column with taper angles
+Link to lookup table column with taper angles.

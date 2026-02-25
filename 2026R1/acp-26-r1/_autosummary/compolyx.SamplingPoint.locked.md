@@ -4,4 +4,4 @@
 
 #### *property* SamplingPoint.locked
 
-Sampling Point is generated from an imported source and cannot be changed.
+Sampling point is generated from an imported source and cannot be changed.

@@ -4,4 +4,4 @@
 
 #### *property* TubeSelectionRule.outer_radius
 
-Outer tube-radius
+Outer tube-radius.

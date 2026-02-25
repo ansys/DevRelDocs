@@ -6,7 +6,7 @@
 
 Transforms global coordinates into the local coordinate system of the section cut.
 
-* **Parameters:**
+### Parameters:
   - global_coords: The global coordinates to be transformed (x, y, z).
 
 Example: section_cut.from_global_to_local((2.3, 1.2, 4.3))

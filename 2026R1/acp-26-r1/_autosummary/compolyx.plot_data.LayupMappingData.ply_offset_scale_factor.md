@@ -4,4 +4,4 @@
 
 #### *property* LayupMappingData.ply_offset_scale_factor
 
-Offset scale factor
+Offset scale factor.

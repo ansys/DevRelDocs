@@ -4,4 +4,4 @@
 
 #### *property* ScalarFieldData.minmax_last_query
 
-Min and max value of data of last query
+Min and max value of data of last query.

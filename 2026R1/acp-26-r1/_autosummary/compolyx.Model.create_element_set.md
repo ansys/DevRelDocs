@@ -6,7 +6,7 @@
 
 Create a new element set.
 
-* **Parameters:**
+### Parameters:
   - name: Name of the element set.
   - element_labels: Labels of elements to be assigned to the element set.
   - element_sets: Select elements of these sets.
@@ -15,7 +15,7 @@ Create a new element set.
   - z: Z-range to select.
   - op: Select operation. Valid options: all, new (default), add, remove, intersect, inverse, and none.
   - middle_offset: Boolean to enforce that the laminate mid-plane is moved onto the reference surface.
-* **Returns:**
+### Returns:
   The created element set.
 
 If element set already exists, it is updated depending on the operation given in op.

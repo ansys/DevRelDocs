@@ -4,4 +4,4 @@
 
 #### *property* SnapToGeometry.status
 
-Status of the object
+Status of the object.

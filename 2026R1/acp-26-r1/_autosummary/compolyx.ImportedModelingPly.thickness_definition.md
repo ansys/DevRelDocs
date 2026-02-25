@@ -4,4 +4,4 @@
 
 #### *property* ImportedModelingPly.thickness_definition
 
-Type of thickness-definition to be used (from table, nominal)
+Type of thickness-definition to be used (from table, nominal).

@@ -4,4 +4,4 @@
 
 #### *property* TubeSelectionRule.display_data
 
-The tube rule mesh plot
+The tube rule mesh plot.

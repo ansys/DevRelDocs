@@ -6,7 +6,7 @@
 
 Create modeling ply.
 
-* **Parameters:**
+### Parameters:
   - name: Name of the new modeling ply.
   - id: Optional ID of the new modeling ply.
   - ply_material: Ply Material (Fabric, Stackup, SubLaminate).
@@ -29,9 +29,9 @@ Create modeling ply.
   - thickness_field_type: The type of thickness field. Valid options: ‘absolute’ or ‘relative’.
   - angle_1_field: Look-Up table column with scalar values for angle 1.
   - angle_2_field: Look-Up table column with scalar values for angle 2.
-* **Returns:**
+### Returns:
   The created modeling ply.
-* **Example:**
+### Example:
   ```pycon
   >>> oes_1 = model.oriented_selection_sets['OrientedSelectionSet.1']
   >>> fabric_1 = model.material_data.fabrics['Fabric.1']

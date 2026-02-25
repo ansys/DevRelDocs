@@ -4,4 +4,4 @@
 
 #### *property* OrientedSelectionSet.active
 
-Active status of the object
+Active status of the object.

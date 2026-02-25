@@ -4,4 +4,4 @@
 
 #### *property* View.position
 
-Get/set the view position
+Get/set the view position.

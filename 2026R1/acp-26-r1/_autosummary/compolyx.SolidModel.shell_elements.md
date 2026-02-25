@@ -4,4 +4,4 @@
 
 #### SolidModel.shell_elements()
 
-Function returns the shell elements where this extrusion operates on
+Function returns the shell elements where this extrusion operates on.

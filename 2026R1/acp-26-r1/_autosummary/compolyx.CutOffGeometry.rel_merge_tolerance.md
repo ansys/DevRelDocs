@@ -4,4 +4,4 @@
 
 #### *property* CutOffGeometry.rel_merge_tolerance
 
-Relative Merge Tolerance
+Relative Merge Tolerance.

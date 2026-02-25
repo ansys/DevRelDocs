@@ -6,7 +6,7 @@
 
 Create modeling ply.
 
-* **Parameters:**
+### Parameters:
   - name: Name of the new imported modeling ply.
   - id: Optional ID of the new imported modeling ply.
   - active: Whether the ply is active.
@@ -28,9 +28,9 @@ Create modeling ply.
   - angle_1_field: Look-Up table column with scalar values for angle 1.
   - angle_2_field: Look-Up table column with scalar values for angle 2.
   - rotation_angle: Angle to rotate the reference directions (in degree).
-* **Returns:**
+### Returns:
   The created imported modeling ply.
-* **Example:**
+### Example:
   ```pycon
   >>> modeling_group = db.active_model.create_imported_modeling_group( name='ImportedModelingGroup' )
   >>> modeling_group.create_imported_modeling_ply(name='ImportedModelingPly.1', offset='middle', ply_angle=45)

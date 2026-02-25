@@ -4,12 +4,12 @@
 
 #### ContourData.get_element_indices(visible=None, selected=None)
 
-Get element indices (ACP internal element numbers starting from 0) of plot
+Get element indices (ACP internal element numbers starting from 0) of plot.
 
-* **Parameters:**
-  - visible: Object(s) defining visible scope
-  - selected: Selected object(s) for ply-wise evaluations.
-* **Returns:**
+### Parameters:
+  - visible: One or more objects defining visible scope
+  - selected: Selected one or more objects for ply-wise evaluations.
+### Returns:
   Resulting array with element indices from the intersection of
   - data_scope of plot
   - visible_scope defined by visible
@@ -17,7 +17,7 @@ Get element indices (ACP internal element numbers starting from 0) of plot
 
 Indices are returned independent of update status of plot, but only if results for the current plot configuration are available, else an empty array is returned.
 
-**Examples:**
+### Examples:
 : Get element indices for current plot with visible scope set to element set “All_Elements” and with ply1 and ply2 selected:
   <br/>
   ```default

@@ -6,7 +6,7 @@
 
 Write boundaries in iges/step format.
 
-* **Parameters:**
+### Parameters:
   - filename: Output file.
   - format: ‘iges’, ‘step’, None (automatic format recognition).
   - offset_type: ‘no_offset’ (default), ‘bottom_offset’, ‘middle_offset’, ‘top_offset’.

@@ -4,4 +4,4 @@
 
 #### *property* ModelingPly.on_sampling_point
 
-Flag if the modeling ply is on sampling point
+Flag if the modeling ply is on sampling point.

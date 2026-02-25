@@ -4,4 +4,4 @@
 
 #### *property* ButtJointSequence.active
 
-Indicates whether the sequence entity is active
+Indicates whether the sequence entity is active.

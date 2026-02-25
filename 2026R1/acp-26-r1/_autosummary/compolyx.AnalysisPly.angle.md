@@ -4,4 +4,4 @@
 
 #### *property* AnalysisPly.angle
 
-Angle of the analysis ply 
+Angle of the analysis ply.

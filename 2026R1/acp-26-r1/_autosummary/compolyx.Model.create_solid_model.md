@@ -6,7 +6,7 @@
 
 Create a new solid model.
 
-* **Parameters:**
+### Parameters:
   - name: The name of the solid model.
   - id: The ID of the solid model.
   - active: Active status of the solid model.
@@ -53,5 +53,5 @@ Create a new solid model.
   - warping_limit: Warping limit factor used to detect erroneous elements.
   - minimum_volume: Minimum volume of solid elements. Default is ‘0’. Elements equal or smaller than this limit are removed from the solid model.
   - drop_hanging_nodes: Hanging nodes are dropped (not exported) if set to true. Hanging nodes are mid-side nodes that are not shared by adjacent elements.
-* **Returns:**
+### Returns:
   The created solid model.

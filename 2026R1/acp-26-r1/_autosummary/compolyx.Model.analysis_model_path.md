@@ -4,4 +4,4 @@
 
 #### *property* Model.analysis_model_path
 
-Analysis model file path
+Analysis model file path.
