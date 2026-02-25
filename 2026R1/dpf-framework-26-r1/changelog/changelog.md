@@ -26,7 +26,7 @@ The following table shows which components have updates in each category.
 | mapdl | [14 items](#Features_mapdl) | [52 items](#Fixes_mapdl) | |
 | math | [7 items](#Features_math) | [2 items](#Fixes_math) | |
 | mechanical | [1 item](#Features_mechanical) | [3 items](#Fixes_mechanical) | |
-| mesh | | [2 items](#Fixes_mesh) | |
+| mesh | | [1 item](#Fixes_mesh) | |
 | misc | [11 items](#Features_misc) | [19 items](#Fixes_misc) | |
 | multiphysicsmapper | | [1 item](#Fixes_multiphysicsmapper) | |
 | native | | [20 items](#Fixes_native) | |
@@ -592,8 +592,6 @@ The following table shows which components have updates in each category.
 - Fix a crash in meshed_skin_sector with non elemental properties:
 
   > meshed_skin_sector: Fix a crash when the mesh includes non-elemental properties
-
-- Remove invalid dead code:
 
 ## misc
 
