@@ -20,7 +20,6 @@ The following table shows which components have updates in each category.
 | femutils | | [12 items](#Fixes_femutils) | [2 items](#Perf_femutils) |
 | framework | | [6 items](#Fixes_framework) | |
 | grpc | [1 item](#Features_grpc) | [3 items](#Fixes_grpc) | |
-| grpcclient | | [1 item](#Fixes_grpcclient) | |
 | h5dpf | [2 items](#Features_h5dpf) | [4 items](#Fixes_h5dpf) | |
 | hdf5 | [6 items](#Features_hdf5) | [7 items](#Fixes_hdf5) | |
 | hgp | [3 items](#Features_hgp) | [3 items](#Fixes_hgp) | |
@@ -229,17 +228,11 @@ The following table shows which components have updates in each category.
 
 - Fix non-matching versions of Kernel in DataProcessingCore and Ans.Dpf.GrpcClient:
 
-- Remotely copied grpc entities now references original server ip:
-  > Previously in specific contexts, connecting remote data to remote operator could lead to an infinite loop and consumption of memory on grpc server.
+- Entities copied remotely via gRPC now reference the IP of the original server:
+  > In some specific contexts, connecting remote data to a remote operator lead to an infinite loop and consumption of memory on the gRPC server.
 
 - Creation of Any from DataSources in gRPC:
-  > Fix creation of Any from DataSources in gRPC
-
-## grpcclient
-
-### <a id="Fixes_grpcclient"></a> Fixes
-
-- Fix undefined symbol on Linux:
+  > Fix creation of Any from DataSources in gRPC.
 
 ## h5dpf
 
