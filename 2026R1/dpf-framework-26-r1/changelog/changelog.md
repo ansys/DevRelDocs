@@ -16,7 +16,6 @@ The following table shows which components have updates in each category.
 | cyclic | [1 item](#Features_cyclic) | | |
 | documentation | [3 items](#Features_documentation) | [1 item](#Fixes_documentation) | |
 | engineeringdata | | [1 item](#Fixes_engineeringdata) | |
-| expansion | [1 item](#Features_expansion) | | |
 | femutils | | [12 items](#Fixes_femutils) | [3 items](#Perf_femutils) |
 | framework | [2 items](#Feat_framework) | [10 items](#Fixes_framework) | |
 | grpc | [1 item](#Features_grpc) | [3 items](#Fixes_grpc) | |
@@ -129,13 +128,6 @@ The following table shows which components have updates in each category.
 
 - Evaluation of temperature dependent material property field from rst was not working properly:
   > Correction of **ans_mat_from_materials_data**, which was not working properly when reading temperature dependent material properties from rst file.
-
-## expansion
-
-### <a id="Features_expansion"></a> Features
-
-- Addition of chunk option to modal superposition:
-  > Addition of mode chunking option to modal superposition workflow.
 
 ## femutils
 
@@ -342,6 +334,9 @@ The following table shows which components have updates in each category.
 ## mapdl
 
 ### <a id="Features_mapdl"></a> Features
+
+- Addition of chunking for modal superposition:
+  > Addition of mode chunking option to modal superposition workflow.
 
 - Operator to extract records from RST:
 
