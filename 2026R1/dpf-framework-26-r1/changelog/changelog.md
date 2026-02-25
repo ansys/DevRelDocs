@@ -32,7 +32,6 @@ The following table shows which components have updates in each category.
 | name | | [1 item](#Fixes_name) | |
 | native | | [20 items](#Fixes_native) | |
 | perf | [2 items](#Features_perf) | [1 item](#Fixes_perf) | |
-| prime | [3 items](#Features_prime) | | |
 | rbd | | [1 item](#Fixes_rbd) | |
 
 ## c\#
@@ -830,16 +829,6 @@ The following table shows which components have updates in each category.
 
 - Fix performance on averaging and filling fc for huge number of solutions on msup:
   > Fix performance on averaging and filling fc for huge number of solutions on msup
-
-## prime
-
-### <a id="Features_prime"></a> Features
-
-- Add TimeFreqSupport as input in morph_field_from_files operator:
-
-- Implement morph_field_from_files operator:
-
-- Scaffolds of the new morphing operator:
 
 ## rbd
 
