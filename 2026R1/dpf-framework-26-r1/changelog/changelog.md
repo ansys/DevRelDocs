@@ -18,7 +18,7 @@ The following table shows which components have updates in each category.
 | engineeringdata | | [1 item](#Fixes_engineeringdata) | |
 | expansion | [1 item](#Features_expansion) | | |
 | femutils | | [12 items](#Fixes_femutils) | [3 items](#Perf_femutils) |
-| framework | [2 items](#Feat_framework) | [9 items](#Fixes_framework) | |
+| framework | [2 items](#Feat_framework) | [10 items](#Fixes_framework) | |
 | grpc | [1 item](#Features_grpc) | [3 items](#Fixes_grpc) | |
 | hdf5 | [6 items](#Features_hdf5) | [7 items](#Fixes_hdf5) | [2 items](#Perf_hdf5) |
 | hgp | [5 items](#Features_hgp) | [3 items](#Fixes_hgp) | |
@@ -29,7 +29,6 @@ The following table shows which components have updates in each category.
 | mesh | | [2 items](#Fixes_mesh) | |
 | misc | [11 items](#Features_misc) | [19 items](#Fixes_misc) | |
 | multiphysicsmapper | | [5 items](#Fixes_multiphysicsmapper) | |
-| name | | [1 item](#Fixes_name) | |
 | native | | [20 items](#Fixes_native) | |
 | rbd | | [1 item](#Fixes_rbd) | |
 
@@ -231,6 +230,10 @@ The following table shows which components have updates in each category.
 
 - Fixing memory error in Scoping Iterators for empty scoping:
   > - This fix prevents memory exception errors arising during initialization of the scoping iterators for non-memory allocated scopings.
+
+- Fix the name associated to result PL2:
+  > Fix the name associated to the `square of the L2 norm of pressure over element volume`.
+  > It is now exposed as `squared_l2norm_pressure`.
 
 ## grpc
 
@@ -740,13 +743,6 @@ The following table shows which components have updates in each category.
 - Fix parallelization in Linux:
 
   > The `mechanical_native_mapping::apply` operator now runs properly in parallel in Linux.
-
-## name
-
-### <a id="Fixes_name"></a> Fixes
-
-- Fix name of PL2:
-  > Fix name of PL2
 
 ## native
 
