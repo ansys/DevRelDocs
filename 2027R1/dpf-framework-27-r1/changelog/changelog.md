@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-02-23).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-02-24).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -38,7 +38,7 @@ The following table shows which components have updates in each category.
 | mapdl | [14 items](#Features_mapdl) |[40 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | math | [10 items](#Features_math) |[1 item](#Fixes_math) |
-| mechanical | [2 items](#Features_mechanical) |[4 items](#Fixes_mechanical) |
+| mechanical | [2 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
 | mesh |  |[3 items](#Fixes_mesh) |
 | misc | [13 items](#Features_misc) |[19 items](#Fixes_misc) |
 | multiphysicsmapper |  |[4 items](#Fixes_multiphysicsmapper) |
@@ -1343,6 +1343,9 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mechanical"></a> Fixes
+
+- Fix documentation generation of mechanical::linearized_stress:
+  > 
 
 - Bugs with shell operators:
   > Fix various bugs in shell operators in Ans.Dpf.Mechanical plugin
