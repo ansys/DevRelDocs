@@ -11,7 +11,6 @@ The following table shows which components have updates in each category.
 | c# | [1 item](#Features_csharp) | | |
 | cff | [2 items](#Features_cff) | [3 items](#Fixes_cff) | |
 | cgns | [1 item](#Features_cgns) | | |
-| changelog | [2 items](#Features_changelog) | [1 item](#Fixes_changelog) | |
 | compression | [2 items](#Features_compression) | | |
 | cyclic | [1 item](#Features_cyclic) | | |
 | documentation | [3 items](#Features_documentation) | [1 item](#Fixes_documentation) | |
@@ -65,19 +64,6 @@ The following table shows which components have updates in each category.
 - Expose is_mesh_available operator:
 
   > Expose `is_mesh_available` for cgns and h5dpf files.
-
-## changelog
-
-### <a id="Features_changelog"></a> Features
-
-- Add operator changes to DPF changelog:
-  > Add tooling to track operator changes since the last DPF release and generate documentation sources for the DPF Changelog.
-
-- Add a changelog to all operators:
-
-### <a id="Fixes_changelog"></a> Fixes
-
-- Use scripting name in operator changelog:
 
 ## compression
 
