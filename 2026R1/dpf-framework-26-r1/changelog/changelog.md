@@ -195,26 +195,28 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_framework"></a> Fixes
 
-- Property field not available:
-  > Throw an error when the queried property field is not available.
+- Property field not available error:
+  > DPF now throws an explicit error when the queried property field is not available.
+  > This impacts operator such as `metadata.property_field_provider_by_name` or `metadata.mesh_property_provider`.
 
 - Expose PinSpecification.ellipsis to replace PinSpecification.ellispis:
+  > Prepare deprecation of the old method containing a typo by adding a new method with the correct name.
 
-- Fix header copy in Field copy:
-  > The Field Header was not deep-copied in a deep-copy operation of the Field, which caused issues when it was modified downstream. This is now fixed.
+- Fix header copy in `Field.deep_copy`:
+  > The Field header was not deep-copied in a deep-copy operation of the Field, which caused issues when it was modified downstream. This is now fixed.
 
-- Remove nodal_moment operator:
-  > The ``nodal_moment`` operator currently has no plugin implementing it in the standard installation, resulting in user confusion as to what file type is supported. The choice is made to remove it from recorded result operators until an official plugin supports it.
+- Remove `nodal_moment` operator:
+  > The `nodal_moment` result operator currently has no plugin implementing it in the standard installation, resulting in user confusion as to what file type is supported. The choice is made to remove it from result operators recorder at the framework level until an official plugin supports it.
 
-- Fix error message when using a wrong name for workflow input or output:
-  > Improve the error message when a unavailable name is used when connecting a workflow input or requesting a workflow output.
+- Fix the error message when using a wrong name for workflow input or output:
+  > Improve the error message when an unavailable name is used when connecting a workflow input or requesting a workflow output.
   >
   > The error message now mentions both the available workflow inputs and available workflow outputs.
 
-- ErrorAndNorm operator:
-  > Fields containers with multiple labels (not only time) are now allowed in ErrorAndNorm ("error_norm_calc") operator.
+- Fix `compute_residual_and_error` operator for inputs with generic labels:
+  > Input Fields containers with multiple labels (not only time) were not allowed in `compute_residual_and_error` operator.
   >
-  > The operator computes the norm and the error for each field of the FC, even if there are multiple fields at a time step.
+  > The operator now computes the norm and the error for each field in the collection, even if there are multiple fields associaed to a single time step.
 
 ## grpc
 
