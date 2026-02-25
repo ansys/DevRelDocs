@@ -20,8 +20,7 @@ The following table shows which components have updates in each category.
 | femutils | | [12 items](#Fixes_femutils) | [2 items](#Perf_femutils) |
 | framework | | [6 items](#Fixes_framework) | |
 | grpc | [1 item](#Features_grpc) | [3 items](#Fixes_grpc) | |
-| h5dpf | [2 items](#Features_h5dpf) | [4 items](#Fixes_h5dpf) | |
-| hdf5 | [6 items](#Features_hdf5) | [7 items](#Fixes_hdf5) | |
+| hdf5 | [8 items](#Features_hdf5) | [11 items](#Fixes_hdf5) | |
 | hgp | [3 items](#Features_hgp) | [3 items](#Fixes_hgp) | |
 | kernel | [2 items](#Features_kernel) | [3 items](#Fixes_kernel) | |
 | lsdyna | [1 item](#Features_lsdyna) | | |
@@ -234,30 +233,6 @@ The following table shows which components have updates in each category.
 - Creation of Any from DataSources in gRPC:
   > Fix creation of Any from DataSources in gRPC.
 
-## h5dpf
-
-### <a id="Features_h5dpf"></a> Features
-
-- Move rotations to SourceOperators to enable them from h5dpf datasources:
-  > Allow rotation to global from H5DPF result file.
-
-- Expose is_mesh_available operator:
-  > Expose `is_mesh_available` for cgns and h5dpf files.
-
-### <a id="Fixes_h5dpf"></a> Fixes
-
-- Migrate to export NAR results:
-  > Migrate to export NAR results by default
-
-- Only write support for collections if support is available:
-  > Only write support for collections if support is available
-
-- Correction of meshes_provider from h5dpf:
-  > Correction of meshes_provider from h5dpf to not split mesh.
-
-- Fix thickness extraction from SMISC/NMISC from h5dpf file:
-  > Fix thickness extraction from SMISC/NMISC from h5dpf file
-
 ## hdf5
 
 ### <a id="Features_hdf5"></a> Features
@@ -277,6 +252,12 @@ The following table shows which components have updates in each category.
 - Add hdf5 support of data tree and any collection:
   > Add support for data tree and any collection for hdf5 import and export.
 
+- Move rotations to SourceOperators to enable them from h5dpf datasources:
+  > Allow rotation to global from H5DPF result file.
+
+- Expose is_mesh_available operator:
+  > Expose `is_mesh_available` for cgns and h5dpf files.
+
 ### <a id="Fixes_hdf5"></a> Fixes
 
 - Performance improvements when splitting skin mesh by material:
@@ -294,6 +275,18 @@ The following table shows which components have updates in each category.
 
 - Correction of mesh detection in HDF5 mesh_property_provider:
   > In HDF5 version 6, the mesh section is located under the _Results_ section, which differs from its placement in previous versions. To ensure backward compatibility, additional code has been implemented.
+
+- Migrate to export NAR results:
+  > Migrate to export NAR results by default
+
+- Only write support for collections if support is available:
+  > Only write support for collections if support is available
+
+- Correction of meshes_provider from h5dpf:
+  > Correction of meshes_provider from h5dpf to not split mesh.
+
+- Fix thickness extraction from SMISC/NMISC from h5dpf file:
+  > Fix thickness extraction from SMISC/NMISC from h5dpf file
 
 ## hgp
 
