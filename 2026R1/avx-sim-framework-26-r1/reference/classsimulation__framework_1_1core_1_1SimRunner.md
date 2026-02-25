@@ -3,7 +3,7 @@
 ![][C++]
 ![][public]
 
-**Definition**: `core/service/sim_runner/sim_runner.h` (line 26)
+**Definition**: `core/service/sim_runner/sim_runner.h` (line 25)
 
 Simulation runner with external control logic.
 
@@ -17,8 +17,8 @@ The <code>[SimRunner](classsimulation__framework_1_1core_1_1SimRunner.md#classsi
 
 ## Members
 
-* [GetExecutedStepCount](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner_1ab7b56bf2aa50f1ca9b14b928268939eb)
-* [GetSimulationState](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner_1ab5f6d34b0bbd35000cfff95bcfeb901f)
+* [GetExecutedStepCount](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner_1adec7aec8d884742bb373d649e8a3e9c3)
+* [GetSimulationState](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner_1affd8a34918f2dbd7cd192f0351804055)
 * [Pause](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner_1a2008706db821aed76b79bee747a220ac)
 * [Resume](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner_1a0bc52ce914b51ce4fc709b0686d05475)
 * [Run](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner_1aa47196cb107ebc1c200ab5fd43fc22f9)
@@ -279,7 +279,7 @@ A <code>[StateFeedback](structsimulation__framework_1_1core_1_1StateFeedback.md#
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::SimRunner::Terminate"}]}`
 -->
 
-<a id="classsimulation__framework_1_1core_1_1SimRunner_1ab5f6d34b0bbd35000cfff95bcfeb901f"></a>
+<a id="classsimulation__framework_1_1core_1_1SimRunner_1affd8a34918f2dbd7cd192f0351804055"></a>
 ### Function GetSimulationState
 
 ![][public]
@@ -287,7 +287,7 @@ A <code>[StateFeedback](structsimulation__framework_1_1core_1_1StateFeedback.md#
 
 
 ```cpp
-SimState simulation_framework::core::SimRunner::GetSimulationState() const
+SimState simulation_framework::core::SimRunner::GetSimulationState() const override
 ```
 
 
@@ -309,7 +309,7 @@ The current simulation state as a <code>SimState</code> enum value.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::SimRunner::GetSimulationState"}]}`
 -->
 
-<a id="classsimulation__framework_1_1core_1_1SimRunner_1ab7b56bf2aa50f1ca9b14b928268939eb"></a>
+<a id="classsimulation__framework_1_1core_1_1SimRunner_1adec7aec8d884742bb373d649e8a3e9c3"></a>
 ### Function GetExecutedStepCount
 
 ![][public]
@@ -317,7 +317,7 @@ The current simulation state as a <code>SimState</code> enum value.
 
 
 ```cpp
-uint64_t simulation_framework::core::SimRunner::GetExecutedStepCount() const
+uint64_t simulation_framework::core::SimRunner::GetExecutedStepCount() const override
 ```
 
 
@@ -378,5 +378,5 @@ Runs the simulation until it ends without accepting further commands.
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
-[static]: https://img.shields.io/badge/-static-lightgrey (static)
 [protected]: https://img.shields.io/badge/-protected-yellow (protected)
+[static]: https://img.shields.io/badge/-static-lightgrey (static)

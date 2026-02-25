@@ -21,7 +21,6 @@ In Simulation Framework deployment, a bazel `WORKSPACE` is provided as default b
 | Ubuntu (Noble Numbat 24.04) Package | Zlib library                    | latest  | apt-get install zlib1g-dev                                                           |
 | Ubuntu (Noble Numbat 24.04) Package | ZSTD library                    | latest  | apt-get install libzstd-dev                                                          |
 
-
 ## System requirement
 
 Depending on how complex your simulation is, you might need different recommended CPU/memory resources.
@@ -58,6 +57,8 @@ The autonomy `simfwk_cli` stands as an exemplary application constructed with th
 | Dummy TPM Model                  | built-in   | "dummy_tpm_activity"             | TrafficUpdateTopic | SensorViewTopic    |
 | Dummy Driver Model               | built-in   | "dummy_driver_activity"          | DriverInputTopic   | SensorViewTopic    |
 | Standalone GroundTruth Generator | standalone | "standalone_gt_gen_activity"     | SensorViewTopic    | TrafficUpdateTopic |
+| Vehicle Model                    | built-in   | "vehicle_activity"               | TrafficUpdateTopic | SensorViewTopic, MotionRequestTopic |
+| Esmini                           | built-in   | "esmini_activity"                | SensorViewTopic    | TrafficUpdateTopic |
 
 The table above illustrates the names of default activities provided in the Simulation Framework Autonomy package, their type and configuration name strings, the topics they publish and subscribe to.
 
@@ -241,6 +242,318 @@ To view all available options:
 ```bash
 ./standalone_gt_gen_activity --help
 ```
+
+## Vehicle Model Activity
+
+The single-track (also called bicycle) kinematic model is a low-order vehicle representation commonly used for path tracking and motion planning where lateral and yaw dynamics are dominant but high-frequency tire dynamics can be neglected. It is compact, computationally cheap, and suitable for control and simulation.
+
+It is modelled as a builtin `vehicle_activity` within Simulation Framework.
+
+This activity needs `osi3::MotionRequest` and `osi3::SensorView` messages and will output `osi3::TrafficUpdate`.
+
+Files needed by this activity:
+
+- `config_file` — a vehicle configuration (controller gains, geometry and limits).
+
+### Example vehicle configuration
+
+An example test vehicle configuration:
+
+```json
+{
+    "vehicle_name": "test_vehicle",
+    "single_track": {
+        "lf": 1.234,
+        "lr": 1.234
+    },
+    "limits": {
+        "max_acceleration": 2.3,
+        "min_acceleration": -2.3,
+        "max_steering_angle": 0.654,
+        "min_steering_angle": -0.654
+    },
+    "controller_tuning": {
+        "sensitivity": {
+            "s_lon": 0.01,
+            "s_lat": 0.01,
+            "s_yaw": 0.01,
+            "s_vel": 0.01,
+            "s_jerk": 0.01,
+            "s_steering": 0.01
+        },
+        "tracking": {
+            "q_lon": 100.0,
+            "q_lat": 80.0,
+            "q_yaw": 2000.0,
+            "q_vel": 2000.0,
+            "q_steering": 2000.0
+        },
+        "restrictions": {
+            "r_jerk": 0.1
+        },
+        "optimisation": {
+            "prediction_horizon_steps": 2,
+            "max_iterations": 50
+        }
+    }
+}
+
+```
+
+### States and Inputs
+
+States (motion state):
+
+- x, y — global position of the vehicle reference point (usually centre of gravity).
+- psi — vehicle yaw (orientation).
+- v — absolute longitudinal speed.
+
+Inputs:
+
+- a — longitudinal acceleration (control input).
+- $\delta_f$ — steering angle at the front wheel (control input).
+
+We define the input vector u = [a, $\delta_f$].
+
+### Model Equations
+
+The continuous-time kinematic single-track model in activity is:
+
+$$
+\begin{aligned}
+\dot{x} &= v \cdot \cos(\psi + \beta_{CG})\\
+\dot{y} &= v \cdot \sin(\psi + \beta_{CG})\\
+\dot{\psi} &= \frac{v}{lr} \cdot \sin(\beta_{CG})\\
+\dot{v} &= a\\
+\end{aligned}
+$$
+
+where the slip angle at the centre of gravity is defined as: $$\beta_{CG} = \arctan\left(\frac{lr}{lf+lr}\cdot \tan(\delta_f)\right)$$
+
+Here $l_f$ and $l_r$ are the longitudinal distances from the centre of gravity to the front and rear axles respectively. The implementation in `vehicle_activity` uses these parameters from the vehicle configuration.
+
+##### Controller: cost and tuning
+
+The controller implemented with the single-track model that minimizes a weighted nonlinear least-squares cost:
+
+$$
+C(\boldsymbol{x}, \boldsymbol{u}) = \frac{1}{2} \sum_{i} W_i \left( y_i(\boldsymbol{x}, \boldsymbol{u}) - y_{i,\mathrm{ref}} \right)^2
+$$  
+
+Here, $C(\boldsymbol{x}, \boldsymbol{u})$ represents the weighted mean square error between the predicted outputs $\boldsymbol{y}(\boldsymbol{x}, \boldsymbol{u})$ and the reference outputs $\boldsymbol{y_{\mathrm{ref}}}$. Each term in the summation is scaled by a weight $W_i$, which adjusts the importance of minimizing the error for the corresponding output component $y_i$.
+
+$W_i = Q_i / (S_i * S_i)$
+
+This cost drives the predicted outputs (typically motion states x, y, $\psi$, v) towards a reference trajectory provided by the motion planner.
+
+### Controller Gains to minimise cost function
+
+- Tracking (`Q`) : The `Q` gains adjust the controller's tracking accuracy for respective motion state properties (`q_<property>`). Larger `Q` values result in higher accuracy and more aggressive minimization of tracking errors.
+- Sensitivity (`S`) : The `S` gains control the sensitivity of the controller to changes in respective motion state properties (`s_<property>`). Smaller `S` values make the controller more sensitive to incremental/decremental changes.
+- Restrictions (`R`) : The `R` gains limit the aggressiveness of the vehicle model inputs, such as the rate of change of acceleration. Smaller `R` values allow more aggressive behavior.
+
+### Optimization Parameters
+
+The optimization parameters control the solver behavior. The controller predicts its next state by considering its current state and possible future states which is sent as a list of points via motion planner to controller.
+
+**`prediction_horizon_steps`**: Determines how far into the future the controller considers when making decisions. Larger values result in more comprehensive predictions but may slow down the simulation. This value should always be greater than 1.
+
+**`max_iterations`**: Specifies the maximum number of iterations the solver can perform. This parameter ensures the solver has enough time to find a solution in worst-case scenarios and is generally not expected to be modified.
+
+```json
+"controller_tuning": {
+    "sensitivity": {
+        "s_lon": 0.01,
+        "s_lat": 0.01,
+        "s_yaw": 0.01,
+        "s_vel": 0.01,
+        "s_jerk": 0.01,
+        "s_steering": 0.01
+    },
+    "tracking": {
+        "q_lon": 100.0,
+        "q_lat": 80.0,
+        "q_yaw": 2000.0,
+        "q_vel": 2000.0,
+        "q_steering": 2000.0
+    },
+    "restrictions": {
+        "r_jerk": 0.1
+    },
+    "optimisation": {
+        "prediction_horizon_steps": 2,
+        "max_iterations": 50
+    }
+}
+```
+
+### Example of using vehicle_activity in simulation framework
+
+An example simulation configuration to use the builtin `vehicle_activity`:
+
+```json
+{
+  "simulation_parameters": {
+    "input_open_scenario": "<path to scenario>",
+    "input_user_settings": "<path to user settings>",
+    "output_directory": "sim_output",
+    "job_id": "vehicle_activity_example"
+  },
+  "simulation_scheduling": {
+    "sim_instance_name": "vehicle_activity_example",
+    "activities": [
+      {
+        "name": "groundtruth_generator_activity",
+        "is_primary_activity": true,
+        "topics_cycling_info": [
+          {
+            "topic_id": "__all__",
+            "topic_cycle_time_in_ms": 100
+          }
+        ],
+        "type": "built-in"
+      },
+      {
+        "name": "dummy_motion_planner",
+        "depends_on": [
+          "groundtruth_generator_activity"
+        ],
+        "type": "standalone"
+      },
+      {
+        "name": "vehicle_activity",
+        "depends_on": [
+          "dummy_motion_planner"
+        ],
+        "type": "built-in",
+        "vehicle_activity_settings": {
+          "config_file": "path_to/test_vehicle.json"
+        }
+      }
+    ]
+  }
+}
+
+```
+
+## esmini — Environment Simulator Minimalistic
+
+### Overview
+
+- esmini is a lightweight OpenSCENARIO runtime (OpenSCENARIO XML v1.0–v1.3, limited coverage) designed to simulate environment actors and scenarios.
+- In this framework it is integrated as an built-in activity module and can be used as an alternative ground-truth generator to **[GT-Gen](gt_gen_and_road_logic_suite.md)** .
+
+### Quick highlights
+
+- Supports OpenSCENARIO XML v1.0–v1.3 (feature coverage is partial and evolves), please refer [here](https://github.com/esmini/esmini/blob/master/osc_coverage.txt) for coverage details.
+
+### How to configure esmini as an activity within Simulation Framework
+
+```json
+{
+  "simulation_parameters": {
+    "input_open_scenario": "../path/to/scenario/simple_cut_in.xosc",
+    "output_directory": "sim_output",
+    "job_id": "esmini_example"
+  },
+  "simulation_scheduling": {
+    "sim_instance_name": "esmini_instance",
+    "activities": [
+      {
+        "name": "esmini_activity",
+        "is_primary_activity": true,
+        "topics_cycling_info": [
+          {
+            "topic_id": "__all__",
+            "topic_cycle_time_in_ms": 100
+          }
+        ],
+        "type": "built-in"
+      },
+      {
+        "name": "dummy_tpm_activity",
+        "depends_on": ["esmini_activity"],
+        "type": "built-in"
+      },
+      {
+        "name": "kpi_evaluator_activity",
+        "depends_on": ["esmini_activity"],
+        "type": "built-in"
+      },
+      {
+        "name": "kpi_logger_activity",
+        "depends_on": ["kpi_evaluator_activity"],
+        "type": "built-in"
+      }
+    ]
+  }
+}
+
+```
+
+In this example `esmini_activity` is used as the main GroundTruth Data Generator which is producing osi::Sensorview, the host within simulation is controlled via `dummy_tpm_activity`. KPIs are evaluated and logged using `kpi_evaluator_activity` and `kpi_logger_activity`.
+
+## Important features supported by this activity
+
+```json
+       {
+                "name": "esmini_activity",
+                "is_primary_activity": true,
+                "topics_cycling_info": [
+                    {
+                        "topic_id": "__all__",
+                        "topic_cycle_time_in_ms": 100
+                    }
+                ],
+                "enable_external_scenario_variables": true,
+                "disable_ctrls": true,
+                "control_mode":"STANDARD",
+                "max_longitudinal_distance" : 20.0,
+                "max_lateral_deviation" : 0.05,
+                "type": "built-in"
+            },
+```
+
+- `disable_ctrls` when true all external control is disabled to make esmini behave like gtgen when its control is with purely InternalController. If this is set to false (or in default case), esmini expects osi3::TrafficUpdate to control it
+
+- `control_mode` configures how esmini accepts external control (only effective when `disable_ctrls` is `false`):
+  - `STANDARD`value enables control via `osi3::TrafficUpdate` messages (default).
+  - `SIMPLE_VEHICLE_MODEL` enables control via `autonomy::communication::messages::VehicleControlInput` messages.
+    Esmini listens for `VehicleControlInput` messages published on the `VehicleControlInputTopic` and applies commands to a vehicle in the scenario. Three control modes are supported:
+
+    - `ACC_N_STEER` — provide acceleration (m/s^2) and steering angle (radians).
+    - `ANALOG` — provide continuous throttle and steering values. [-1.0,1.0].
+    - `BINARY` — provide discrete throttle/steering steps (-1, 0, 1).
+
+    The message used to control a vehicle is defined in `autonomy/communication/messages/vehicle_control_input_msg/vehicle_control_input_msg.h`
+
+    - BINARY
+      - `control_mode = VehicleControlMode::BINARY`
+      - `throttle` and `steering` use the `int` variant. Values are limited to -1, 0, 1.
+
+    - ANALOG
+      - `control_mode = VehicleControlMode::ANALOG`
+      - `throttle` and `steering` use the `double` variant.
+      - Throttle is a continuous value between [-1, 1], -1 being full brake and 1 being full throttle, 0 being not applied. Steering is expected in the range [-1, 1] (normalized steering command) -1 is full left and 1 is full right.
+
+    - ACC_N_STEER
+      - `control_mode = VehicleControlMode::ACC_N_STEER`
+      - `throttle` should be a `double` representing desired acceleration in m/s^2.
+      - `steering` should be a `double` representing steering angle in radians.
+
+    Detailed usage of this mode is mentioned in example `examples/autonomy/external_vehicle_control`
+
+- `enable_external_scenario_variables` when true , esmini will subscribe to ScenarioVariableTopic for scenario variable manipulation.
+
+- `max_longitudinal_distance` Maximum distance between OSI points in longitudinal direction default : 20.0
+
+- `max_lateral_deviation` Maximum distance between OSI points in lateral direction. It controls the resolution during curvature default : 0.05
+
+##### References
+
+- esmini User Guide: <https://esmini.github.io>
+- esmini Inner Workings: <https://github.com/esmini/esmini/blob/master/docs/InnerWorkings.md>
+- esmini repository: <https://github.com/esmini/esmini>
 
 ## GroundTruth KPI Evaluator
 
