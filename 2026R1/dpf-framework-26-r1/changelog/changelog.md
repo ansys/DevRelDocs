@@ -17,7 +17,7 @@ The following table shows which components have updates in each category.
 | documentation | [3 items](#Features_documentation) | [1 item](#Fixes_documentation) | |
 | engineeringdata | | [1 item](#Fixes_engineeringdata) | |
 | expansion | [1 item](#Features_expansion) | | |
-| femutils | | [13 items](#Fixes_femutils) | [1 item](#Perf_femutils) |
+| femutils | | [12 items](#Fixes_femutils) | [2 items](#Perf_femutils) |
 | framework | | [6 items](#Fixes_framework) | |
 | grpc | [1 item](#Features_grpc) | [3 items](#Fixes_grpc) | |
 | grpcclient | | [1 item](#Fixes_grpcclient) | |
@@ -149,47 +149,47 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_femutils"></a> Fixes
 
-- Performance issues on Nodal Extend To Mid Nodes:
-
 - Correction for averaged midside nodes from corner nodes when having multiple shell layers:
   > Correction of size for averaging operators when having multiple shell layers and skin elements.
 
 - Keep the input unit when computing torque and force summation:
-  > The torque and force summation operator now output moments matching the mesh and force units
+  > The torque and force summation operator now output moments matching the mesh and force units.
 
-- Seg fault in mapping solid to skin for heterogenous location:
-  > In case of mixed location (Elemental + Nodal for example), seg fault appears using mapping solid to skin op.
+- Seg fault in mapping `solid_to_skin` for heterogenous location:
+  > In case of mixed location (Elemental + Nodal for example), seg fault appeared using mapping `solid_to_skin` op.
 
 - Wrong initialization of tolerance in mapping operator:
-  > The tolerance initialization in mapping operator has been moved outside loops over input fields. This seems to cause a random bug as this tolerance is updated for each iteration of the loop. The randomness of the bug is certainly due to a if condition that use the tolerance.
+  > The tolerance initialization in mapping operator caused a random bug.
 
 - Memory allocation bug:
   > Fix a memory allocation bug in the `poynting_vector_surface` operator.
 
-- Incorrect number of data on the last id after nodal_to_elemental_nodal_fc:
+- Incorrect number of data on the last id after `nodal_to_elemental_nodal_fc`:
   > Fixing error of incorrect number of data on the last id after `nodal_to_elemental_nodal_fc`.
 
 - Issue with shell layers calculation in the results field while having mid-side nodes on some elements:
   > Fixed issue with shell layers calculation in the results field while having mid-side nodes on some elements where additional values were shown in the output.
 
 - Add support for contact element filtering in force summation operators:
-  > Force summation operators now filter contact elements by default, and account for the summation point unit
+  > Force summation operators now filter contact elements by default, and account for the summation point unit.
 
-- Missing results with mapping operator:
-  > Correcting behavior of the mapping operator as some nodes were not retrieved.
+- Missing results with `on_coordinates` mapping operator:
+  > Correcting behavior of the `on_coordinates` mapping operator as some nodes were not retrieved.
 
-- Fix incorrect normals for shells with normals_provider_nl:
+- Fix incorrect normals for shells with `normals_provider_nl`:
+  > Fix the incorrect calculation of normals for a model containing shell elements of `Quad8` shape described in length units other than meters.
+  >
+  > The proposed improvement fixes the normal calculations affecting node, element and face normals for shell elements.
 
-  > - This PR concerns fixing the incorrect calculation of normals for a model containing shell elements of kAnsQuad8 shape described in length units other than meters.
-  > - The proposed improvement fixes the normal calculations affecting node, element and face normals for shell elements.
-
-- Fix normals_provider_nl operator crash:
-  > The reported crash arose from a segmentation fault that occurred when the `normal_provider_nl` operator that is designed for a shell element is used on a solid element. The operator now checks if the input mesh contains a solid region and if so throws an error to prevent a crash.
+- Fix `normals_provider_nl` operator crash:
+  > A crash arose from a segmentation fault that occurred when the `normal_provider_nl` operator that is designed for a shell element was used on a solid element. The operator now throws a clear error if the input mesh contains a solid region.
 
 ### <a id="Perf_femutils"></a> Performance improvements
 
 - Performance improvement for split_fields:
   > Performance improvement for the `split_fields` operator when several meshes are the input.
+
+- Performance issues on Nodal Extend To Mid Nodes:
 
 ## framework
 
