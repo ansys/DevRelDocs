@@ -25,7 +25,7 @@ The following table shows which components have updates in each category.
 | lsdyna | [1 item](#Features_lsdyna) | | |
 | mapdl | [14 items](#Features_mapdl) | [52 items](#Fixes_mapdl) | |
 | math | [7 items](#Features_math) | [2 items](#Fixes_math) | |
-| mechanical | [1 item](#Features_mechanical) | [3 items](#Fixes_mechanical) | |
+| mechanical | [1 item](#Features_mechanical) | | |
 | mesh | | [1 item](#Fixes_mesh) | |
 | misc | [11 items](#Features_misc) | [19 items](#Fixes_misc) | |
 | multiphysicsmapper | | [1 item](#Fixes_multiphysicsmapper) | |
@@ -575,15 +575,6 @@ The following table shows which components have updates in each category.
 
 - Addition of events to monitor the status of producer_consumer_for_each operator:
   > Addition of events to monitor the status of producer_consumer_for_each operator.
-
-### <a id="Fixes_mechanical"></a> Fixes
-
-- Fix error with multiRPM cases and cutoff frequency:
-  > Fix error with multiRPM cases and cutoff frequency.
-
-- Fix issue with unordered source times in mechanical::time_freq:interpolation:
-
-- Fix error in mechanical::time_freq_interpolation:
 
 ## mesh
 
