@@ -288,11 +288,11 @@ The following table shows which components have updates in each category.
 
 ### <a id="Features_hgp"></a> Features
 
-- Custom type field int64:
-  > Allow to create CustomTypeField of int64_t in dpf c++ API.
+- CustomTypeField of int64:
+  > Allows to create a CustomTypeField of int64_t in the DPF C++ HGP API.
 
-- Allow user to get DPFClientAPI library dir:
-  > DPF c++ API: export LibraryHandle::libraryDir which returns the path to the directory where DPF is loaded.
+- Allow user to get the path to the DPFClientAPI library directory:
+  > Expose `LibraryHandle::libraryDir` which returns the path to the directory where DPF is loaded.
 
 - Add new hgp functions to copy without data into a new field/scoping:
   > Add new hgp functions to copy without data into a new field.
@@ -301,9 +301,9 @@ The following table shows which components have updates in each category.
 
 - Fix Streams constructor on the HgP:
 
-- Empty vector copy:
+- Fix the copy of an empty vector:
 
-- Improve error message for unsupported unit creation:
+- Improve the error message for unsupported unit creation:
   > Creating a unit in HGP using an unknown symbol generated a non-informative error.
   >
   > It now raises an ``std::invalid_argument`` error which message indicates a homogeneity must be given along with the custom unit symbol.
