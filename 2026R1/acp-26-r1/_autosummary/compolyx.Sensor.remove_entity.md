@@ -2,6 +2,6 @@
 
 <a id="compolyx.Sensor.remove_entity"></a>
 
-#### Sensor.remove_entity(entity)
+## Sensor.remove_entity(entity)
 
 Remove entity from sensor.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.Rosette.uid"></a>
 
-#### *property* Rosette.uid
+## *property* Rosette.uid
 
 UID of the object.

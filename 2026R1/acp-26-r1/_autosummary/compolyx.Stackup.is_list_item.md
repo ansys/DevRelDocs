@@ -2,6 +2,6 @@
 
 <a id="compolyx.Stackup.is_list_item"></a>
 
-#### *property* Stackup.is_list_item
+## *property* Stackup.is_list_item
 
 Indicates whether the object is an item of a list.

@@ -17,7 +17,7 @@ Key features:
   - Analysis based on the Classical Laminate Theory (CLT).
   - Export to ESAComp, CSV file, etc.
 
-### Usage:
+### Usage
   ```pycon
   >>> model.create_sampling_point(name='Sampling Point')
   ```

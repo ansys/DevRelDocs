@@ -2,6 +2,6 @@
 
 <a id="compolyx.VirtualGeometry.active"></a>
 
-#### *property* VirtualGeometry.active
+## *property* VirtualGeometry.active
 
 Active status of the object.

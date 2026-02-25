@@ -2,6 +2,6 @@
 
 <a id="compolyx.Model.geometry"></a>
 
-#### *property* Model.geometry
+## *property* Model.geometry
 
 Geometry node.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.CADGeometry.name"></a>
 
-#### *property* CADGeometry.name
+## *property* CADGeometry.name
 
 Name of the object.

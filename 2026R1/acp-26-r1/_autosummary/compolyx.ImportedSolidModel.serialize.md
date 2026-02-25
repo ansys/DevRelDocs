@@ -2,6 +2,6 @@
 
 <a id="compolyx.ImportedSolidModel.serialize"></a>
 
-#### ImportedSolidModel.serialize()
+## ImportedSolidModel.serialize()
 
 Returns the Python serialization string.

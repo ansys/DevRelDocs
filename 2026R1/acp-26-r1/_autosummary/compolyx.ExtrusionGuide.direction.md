@@ -2,6 +2,6 @@
 
 <a id="compolyx.ExtrusionGuide.direction"></a>
 
-#### *property* ExtrusionGuide.direction
+## *property* ExtrusionGuide.direction
 
 extrusion direction.

@@ -2,4 +2,4 @@
 
 <a id="compolyx.Scene.display_data"></a>
 
-#### *property* Scene.display_data
+## *property* Scene.display_data

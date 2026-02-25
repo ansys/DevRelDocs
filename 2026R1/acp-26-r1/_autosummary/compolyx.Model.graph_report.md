@@ -2,4 +2,4 @@
 
 <a id="compolyx.Model.graph_report"></a>
 
-#### Model.graph_report()
+## Model.graph_report()

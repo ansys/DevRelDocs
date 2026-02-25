@@ -2,6 +2,6 @@
 
 <a id="compolyx.LookUpTableBase.active"></a>
 
-#### *property* LookUpTableBase.active
+## *property* LookUpTableBase.active
 
 LookUpTable active.

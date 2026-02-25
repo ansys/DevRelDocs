@@ -2,6 +2,6 @@
 
 <a id="compolyx.TubeSelectionRule.extent"></a>
 
-#### *property* TubeSelectionRule.extent
+## *property* TubeSelectionRule.extent
 
 Extent of the rule.

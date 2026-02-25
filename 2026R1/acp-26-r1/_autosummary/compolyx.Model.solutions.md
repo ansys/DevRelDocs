@@ -2,6 +2,6 @@
 
 <a id="compolyx.Model.solutions"></a>
 
-#### *property* Model.solutions
+## *property* Model.solutions
 
 Solutions.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.BooleanSelectionRule.include_rule_type"></a>
 
-#### *property* BooleanSelectionRule.include_rule_type
+## *property* BooleanSelectionRule.include_rule_type
 
 include type.

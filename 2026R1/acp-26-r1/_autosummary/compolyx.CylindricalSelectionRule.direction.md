@@ -2,6 +2,6 @@
 
 <a id="compolyx.CylindricalSelectionRule.direction"></a>
 
-#### *property* CylindricalSelectionRule.direction
+## *property* CylindricalSelectionRule.direction
 
 Direction of the Cylinder.

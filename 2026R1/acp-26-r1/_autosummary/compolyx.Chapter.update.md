@@ -2,4 +2,4 @@
 
 <a id="compolyx.Chapter.update"></a>
 
-#### Chapter.update()
+## Chapter.update()

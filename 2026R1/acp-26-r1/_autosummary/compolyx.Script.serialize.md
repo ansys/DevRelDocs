@@ -2,6 +2,6 @@
 
 <a id="compolyx.Script.serialize"></a>
 
-#### Script.serialize()
+## Script.serialize()
 
 Serialize to Python string.

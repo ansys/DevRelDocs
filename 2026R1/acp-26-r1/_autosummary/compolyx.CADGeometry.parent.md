@@ -2,6 +2,6 @@
 
 <a id="compolyx.CADGeometry.parent"></a>
 
-#### *property* CADGeometry.parent
+## *property* CADGeometry.parent
 
 Parent object in the tree.

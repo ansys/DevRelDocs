@@ -2,6 +2,6 @@
 
 <a id="compolyx.Model.is_list_item"></a>
 
-#### *property* Model.is_list_item
+## *property* Model.is_list_item
 
 Indicates whether the object is an item of a list.

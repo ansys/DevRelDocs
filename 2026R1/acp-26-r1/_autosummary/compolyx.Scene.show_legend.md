@@ -2,4 +2,4 @@
 
 <a id="compolyx.Scene.show_legend"></a>
 
-#### *property* Scene.show_legend
+## *property* Scene.show_legend

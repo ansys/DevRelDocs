@@ -2,11 +2,11 @@
 
 <a id="compolyx.Model.export_ply_geometries"></a>
 
-#### Model.export_ply_geometries(filename, plies=[], boundary=True, surface=True, offset_type='middle_offset', direction_arrows=False, first_direction=True, second_direction=False, arrow_length=1.0, arrow_type='no_arrow')
+## Model.export_ply_geometries(filename, plies=[], boundary=True, surface=True, offset_type='middle_offset', direction_arrows=False, first_direction=True, second_direction=False, arrow_length=1.0, arrow_type='no_arrow')
 
 Exports the surface, boundary, and/or fiber directions of modeling, production, and analysis ply to .igs or .step file.
 
-### Parameters:
+### Parameters
   - filename: File path (available extensions are iges, igs, step, stp, and stl).
   - plies: List of plies (available options are modeling, production, and analysis plies).
   - boundary: Boolean whether to export the boundary. Default is ‘True’.

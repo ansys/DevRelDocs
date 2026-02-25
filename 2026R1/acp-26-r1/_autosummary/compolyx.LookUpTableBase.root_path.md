@@ -2,6 +2,6 @@
 
 <a id="compolyx.LookUpTableBase.root_path"></a>
 
-#### *property* LookUpTableBase.root_path
+## *property* LookUpTableBase.root_path
 
 Root path of the current node in the tree.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.Scene.show_silhouette"></a>
 
-#### *property* Scene.show_silhouette
+## *property* Scene.show_silhouette
 
 Whether to show the silhouette of currently selected elements.

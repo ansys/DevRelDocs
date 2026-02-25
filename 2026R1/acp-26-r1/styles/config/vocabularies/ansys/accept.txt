@@ -163,7 +163,7 @@ orientable
 plybook
 get_nodes
 is_closed
-createion   # <-- appears multiple times in logs (typo in docs, but if it's intentional API text, keep it)
+creation   # <-- appears multiple times in logs (typo in docs, but if it's intentional API text, keep it)
 planar
 orientable  # (already above but appears multiple times)
 element_sets
@@ -803,7 +803,7 @@ copy_interface_layer
 copy_modeling_ply
 create_butt_joint_sequence
 create_interface_layer
-iterface   # only if this is truly an API token — confirm
+interface   # only if this is truly an API token — confirm
 get_short_description
 is_imported
 create_modeling_ply
@@ -1334,7 +1334,7 @@ visible_scope
 CADGeometry
 CADReference
 dropoff
-stiffesses
+stiffnesses
 parent_
 Solid-model
 solid-model

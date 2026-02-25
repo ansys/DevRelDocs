@@ -2,6 +2,6 @@
 
 <a id="compolyx.Fabric.uid"></a>
 
-#### *property* Fabric.uid
+## *property* Fabric.uid
 
 UID of the object.

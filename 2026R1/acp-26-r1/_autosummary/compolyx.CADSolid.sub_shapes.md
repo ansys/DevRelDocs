@@ -2,6 +2,6 @@
 
 <a id="compolyx.CADSolid.sub_shapes"></a>
 
-#### *property* CADSolid.sub_shapes
+## *property* CADSolid.sub_shapes
 
 Sub faces of the CAD Solid.

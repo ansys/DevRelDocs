@@ -2,6 +2,6 @@
 
 <a id="compolyx.EdgeSet.nodes"></a>
 
-#### *property* EdgeSet.nodes
+## *property* EdgeSet.nodes
 
 Node indexes/labels of the Edge Set.

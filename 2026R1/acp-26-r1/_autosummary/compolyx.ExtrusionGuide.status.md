@@ -2,6 +2,6 @@
 
 <a id="compolyx.ExtrusionGuide.status"></a>
 
-#### *property* ExtrusionGuide.status
+## *property* ExtrusionGuide.status
 
 Status of the object.

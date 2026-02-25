@@ -2,6 +2,6 @@
 
 <a id="compolyx.Scene.serialize"></a>
 
-#### Scene.serialize()
+## Scene.serialize()
 
 Serialize to Python string.

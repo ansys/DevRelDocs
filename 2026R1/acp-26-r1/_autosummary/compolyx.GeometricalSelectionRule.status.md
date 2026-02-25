@@ -2,6 +2,6 @@
 
 <a id="compolyx.GeometricalSelectionRule.status"></a>
 
-#### *property* GeometricalSelectionRule.status
+## *property* GeometricalSelectionRule.status
 
 Status of the object.

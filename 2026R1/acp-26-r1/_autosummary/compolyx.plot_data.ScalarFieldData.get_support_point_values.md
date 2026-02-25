@@ -2,11 +2,11 @@
 
 <a id="compolyx.plot_data.ScalarFieldData.get_support_point_values"></a>
 
-#### ScalarFieldData.get_support_point_values()
+## ScalarFieldData.get_support_point_values()
 
 Returns the scalar values defined at the supporting points.
 
-### Returns:
+### Returns
   Resulting n-dimensional array with the scalar values as defined at the supporting points.
 
 Values are returned independent of update status of plot.

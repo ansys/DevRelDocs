@@ -2,6 +2,6 @@
 
 <a id="compolyx.SolidModel.name"></a>
 
-#### *property* SolidModel.name
+## *property* SolidModel.name
 
 Name of the object.

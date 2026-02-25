@@ -2,6 +2,6 @@
 
 <a id="compolyx.Chapter.root_path"></a>
 
-#### *property* Chapter.root_path
+## *property* Chapter.root_path
 
 Root path of the current node in the tree.

@@ -2,7 +2,7 @@
 
 <a id="compolyx.EdgeSet.find_parent"></a>
 
-#### EdgeSet.find_parent(type)
+## EdgeSet.find_parent(type)
 
 Steps up the tree and returns the first parent with given type.
 If no parent of that type exists, the function returns None.

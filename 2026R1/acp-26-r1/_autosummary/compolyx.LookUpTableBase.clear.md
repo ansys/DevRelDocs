@@ -2,6 +2,6 @@
 
 <a id="compolyx.LookUpTableBase.clear"></a>
 
-#### LookUpTableBase.clear()
+## LookUpTableBase.clear()
 
 Clear table data (rows and columns).

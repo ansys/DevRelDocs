@@ -2,4 +2,4 @@
 
 <a id="compolyx.CylindricalSelectionRule.get_short_description"></a>
 
-#### CylindricalSelectionRule.get_short_description()
+## CylindricalSelectionRule.get_short_description()

@@ -2,6 +2,6 @@
 
 <a id="compolyx.CylindricalSelectionRule.rosette"></a>
 
-#### *property* CylindricalSelectionRule.rosette
+## *property* CylindricalSelectionRule.rosette
 
 Rosette of the used for origin and direction.

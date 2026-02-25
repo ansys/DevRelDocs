@@ -8,7 +8,7 @@ Python PropertySet class
 
 This class wraps GIL-functionality and adds Python-UI utilities to all material PropertySets (Engineering Constants, Stress Limits, etc.).
 
-### Examples:
+### Examples
   ```pycon
   >>> model = db.active_model
   >>> Eglas = model.material_data.materials['E-Glas']
@@ -28,7 +28,7 @@ This class wraps GIL-functionality and adds Python-UI utilities to all material 
 |-----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | [`PropertySet.independent_names`](compolyx.PropertySet.independent_names.md#compolyx.PropertySet.independent_names)   | List of the independent variable names.                          |
 | [`PropertySet.is_constant`](compolyx.PropertySet.is_constant.md#compolyx.PropertySet.is_constant)                     | True if the Engineering Constants of this material are constant. |
-| [`PropertySet.property_names`](compolyx.PropertySet.property_names.md#compolyx.PropertySet.property_names)            | Propety name list.                                               |
+| [`PropertySet.property_names`](compolyx.PropertySet.property_names.md#compolyx.PropertySet.property_names)            | Property name list.                                               |
 
 ### Methods
 

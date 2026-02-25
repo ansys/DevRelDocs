@@ -2,13 +2,13 @@
 
 <a id="compolyx.Model.find_materials"></a>
 
-#### Model.find_materials(\*\*properties)
+## Model.find_materials(\*\*properties)
 
 Find materials with the given properties or property ranges.
 
-### Parameters:
+### Parameters
   - properties: Arbitrary material properties which must be matched. Note that a single property value can be given as string, number, or min-max range.
-### Returns:
+### Returns
   A list with materials which match the given properties. If nothing matches, then an empty list is returned.
 
 Examples:

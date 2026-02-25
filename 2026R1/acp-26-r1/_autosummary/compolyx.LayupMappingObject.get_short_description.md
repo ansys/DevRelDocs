@@ -2,4 +2,4 @@
 
 <a id="compolyx.LayupMappingObject.get_short_description"></a>
 
-#### LayupMappingObject.get_short_description()
+## LayupMappingObject.get_short_description()

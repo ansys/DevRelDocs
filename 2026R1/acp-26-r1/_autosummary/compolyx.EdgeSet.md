@@ -27,7 +27,7 @@ Edge Set class.
 | [`EdgeSet.name`](compolyx.EdgeSet.name.md#compolyx.EdgeSet.name)                               | Name of the object.                                                                     |
 | [`EdgeSet.node_labels`](compolyx.EdgeSet.node_labels.md#compolyx.EdgeSet.node_labels)          | Node labels defining the NodeSet (only if type='By Nodes').                         |
 | [`EdgeSet.nodes`](compolyx.EdgeSet.nodes.md#compolyx.EdgeSet.nodes)                            | Node indexes/labels of the Edge Set.                                                |
-| [`EdgeSet.origin`](compolyx.EdgeSet.origin.md#compolyx.EdgeSet.origin)                         | Edge Set origin for createion of edge set by reference.                             |
+| [`EdgeSet.origin`](compolyx.EdgeSet.origin.md#compolyx.EdgeSet.origin)                         | Edge Set origin for creation of edge set by reference.                             |
 | [`EdgeSet.parent`](compolyx.EdgeSet.parent.md#compolyx.EdgeSet.parent)                         | Parent object in the tree.                                                              |
 | [`EdgeSet.root_path`](compolyx.EdgeSet.root_path.md#compolyx.EdgeSet.root_path)                | Root path of the current node in the tree.                                          |
 | [`EdgeSet.status`](compolyx.EdgeSet.status.md#compolyx.EdgeSet.status)                         | Status of the object.                                                               |

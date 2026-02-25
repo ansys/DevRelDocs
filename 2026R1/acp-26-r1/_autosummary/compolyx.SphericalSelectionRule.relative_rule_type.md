@@ -2,6 +2,6 @@
 
 <a id="compolyx.SphericalSelectionRule.relative_rule_type"></a>
 
-#### *property* SphericalSelectionRule.relative_rule_type
+## *property* SphericalSelectionRule.relative_rule_type
 
 relative type.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.CutoffSelectionRule.name"></a>
 
-#### *property* CutoffSelectionRule.name
+## *property* CutoffSelectionRule.name
 
 Name of the object.

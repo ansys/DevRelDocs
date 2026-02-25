@@ -2,6 +2,6 @@
 
 <a id="compolyx.Stackup.clear_fabrics"></a>
 
-#### Stackup.clear_fabrics()
+## Stackup.clear_fabrics()
 
 Clear all fabrics.

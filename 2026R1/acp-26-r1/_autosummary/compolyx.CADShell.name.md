@@ -2,6 +2,6 @@
 
 <a id="compolyx.CADShell.name"></a>
 
-#### *property* CADShell.name
+## *property* CADShell.name
 
 Name of the object.

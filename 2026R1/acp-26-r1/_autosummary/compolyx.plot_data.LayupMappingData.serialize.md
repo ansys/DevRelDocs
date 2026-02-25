@@ -2,6 +2,6 @@
 
 <a id="compolyx.plot_data.LayupMappingData.serialize"></a>
 
-#### LayupMappingData.serialize()
+## LayupMappingData.serialize()
 
 Serialize to Python string.

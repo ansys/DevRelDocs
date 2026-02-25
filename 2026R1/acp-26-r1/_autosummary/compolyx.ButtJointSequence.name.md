@@ -2,6 +2,6 @@
 
 <a id="compolyx.ButtJointSequence.name"></a>
 
-#### *property* ButtJointSequence.name
+## *property* ButtJointSequence.name
 
 Name of the object.

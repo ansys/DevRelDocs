@@ -2,6 +2,6 @@
 
 <a id="compolyx.DB.clear"></a>
 
-#### DB.clear()
+## DB.clear()
 
 Clears the database.

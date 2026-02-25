@@ -2,6 +2,6 @@
 
 <a id="compolyx.SolidModel.active"></a>
 
-#### *property* SolidModel.active
+## *property* SolidModel.active
 
 Solid-Model active.

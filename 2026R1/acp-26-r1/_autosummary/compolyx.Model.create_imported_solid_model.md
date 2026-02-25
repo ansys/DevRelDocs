@@ -2,11 +2,11 @@
 
 <a id="compolyx.Model.create_imported_solid_model"></a>
 
-#### Model.create_imported_solid_model(name, id='', active=True, external_file_path=None, unit_system='undefined', format='ansys:cdb', ext_id='', use_default_element_index=True, element_index=0, use_default_node_index=True, node_index=0, use_default_section_index=True, section_index=0, use_default_material_index=True, material_index=0, use_default_coordinate_system_index=True, coordinate_system_index=0, use_solsh_elements=False, drop_hanging_nodes=True, use_solid_model_prefix=True, write_degenerated_elements=True, delete_bad_elements=True, warping_limit=0.4, minimum_volume=0.0, global_cut_off_material=None, transfer_all_sets=True, transferred_element_sets=[], transferred_edge_sets=[], locked=False, from_pre=False)
+## Model.create_imported_solid_model(name, id='', active=True, external_file_path=None, unit_system='undefined', format='ansys:cdb', ext_id='', use_default_element_index=True, element_index=0, use_default_node_index=True, node_index=0, use_default_section_index=True, section_index=0, use_default_material_index=True, material_index=0, use_default_coordinate_system_index=True, coordinate_system_index=0, use_solsh_elements=False, drop_hanging_nodes=True, use_solid_model_prefix=True, write_degenerated_elements=True, delete_bad_elements=True, warping_limit=0.4, minimum_volume=0.0, global_cut_off_material=None, transfer_all_sets=True, transferred_element_sets=[], transferred_edge_sets=[], locked=False, from_pre=False)
 
 Create a new solid model.
 
-### Parameters:
+### Parameters
   - name: The name of the solid model.
   - id: The ID of the solid model.
   - active: Active status of the solid model.
@@ -34,5 +34,5 @@ Create a new solid model.
   - transfer_all_sets: Defines whether all edge and element sets should be transferred to the solid model.
   - transferred_element_sets: Element sets to transfer to the solid model if transfer_all_sets is set to false.
   - transferred_edge_sets: Edge sets to transfer to the solid model if transfer_all_sets is set to false.
-### Returns:
+### Returns
   The created imported solid model.

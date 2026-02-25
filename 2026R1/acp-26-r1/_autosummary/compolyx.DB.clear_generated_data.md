@@ -2,7 +2,7 @@
 
 <a id="compolyx.DB.clear_generated_data"></a>
 
-#### DB.clear_generated_data(model=None)
+## DB.clear_generated_data(model=None)
 
 Function clears the eventually stored update results and deletes the generated data such as
 Production and analysis plies, solid models, etc.
@@ -11,7 +11,7 @@ Use the returned Model instance instead. Example code:
 
 `model = db.clear_generated_data(model)`
 
-### Parameters:
+### Parameters
   -model: The ACP model to be cleared.
-### Returns:
+### Returns
   the updated model after clearing the generated data.

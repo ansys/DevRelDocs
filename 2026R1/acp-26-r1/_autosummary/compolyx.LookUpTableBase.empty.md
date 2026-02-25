@@ -2,6 +2,6 @@
 
 <a id="compolyx.LookUpTableBase.empty"></a>
 
-#### *property* LookUpTableBase.empty
+## *property* LookUpTableBase.empty
 
 True if table is empty.

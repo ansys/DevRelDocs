@@ -2,11 +2,11 @@
 
 <a id="compolyx.Model.add_winding_entities"></a>
 
-#### Model.add_winding_entities(axial_direction, origin, reference_radius, layers, max_angle_with_thickness_correction=90.0, number_of_digits_angle=3)
+## Model.add_winding_entities(axial_direction, origin, reference_radius, layers, max_angle_with_thickness_correction=90.0, number_of_digits_angle=3)
 
 Generates a winding layup for an axisymmetric body.
 
-The function uses the origin (a point on the axis of symmtery),
+The function uses the origin (a point on the axis of symmetry),
 the axial_direction, and the reference radius
 to automatically generate a winding layup for an axisymmetric body.
 The radius is defined as the minimal distance from any point on the surface
@@ -30,7 +30,7 @@ Each layer is a dict with the following properties:
     that define the extent of the plies in axial direction.
     The “upper” and “lower” values are interpreted as distance from the origin along
     the axial_direction.
-  * add_mirrored_ply: If true, an addtional layer with the same properties but
+  * add_mirrored_ply: If true, an additional layer with the same properties but
     a negative angle is generated. This implies that the resulting thickness is
     twice the original thickness of the layer.
 
@@ -42,7 +42,7 @@ The function generates the following objects:
   - A template selection rule if limits are defined.
   - A modeling group with the plies.
 
-### Parameters:
+### Parameters
   - axial_direction: Direction vector for the axis of symmetry.
   - origin: Point on the axis of symmetry.
   - reference radius: Reference radius at which the plies are assumed to have the
@@ -54,7 +54,7 @@ The function generates the following objects:
         that define the extent of the plies in axial direction.
         The “upper” and “lower” values are interpreted as distance from the origin along
         the axial_direction.
-      - add_mirrored_ply: If True an addtional layer with the same properties but
+      - add_mirrored_ply: If True an additional layer with the same properties but
         a negative angle is generated. This implies that the resulting thickness is
         twice the original thickness of the layer.
   - number_of_digits_angle, optional, default: 3: Lookup tables for the angles are
@@ -65,7 +65,7 @@ The function generates the following objects:
     : max_angle_with_thickness_correction is not
       corrected. These layers always have the nominal
       layer thickness.
-### Usage:
+### Usage
   ```pycon
   >>> model.add_winding_entities(
                     axial_direction=(1.0, 0.0, 0.0),
@@ -82,5 +82,5 @@ The function generates the following objects:
                     }]
                 )
   ```
-### Returns:
+### Returns
   Dict of generated objects.

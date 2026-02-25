@@ -2,6 +2,6 @@
 
 <a id="compolyx.SamplingPoint.active"></a>
 
-#### *property* SamplingPoint.active
+## *property* SamplingPoint.active
 
 Active status of the object.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.ImportedSolidModel.format"></a>
 
-#### *property* ImportedSolidModel.format
+## *property* ImportedSolidModel.format
 
 File format of the imported mesh.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.ImportedSolidModel.status"></a>
 
-#### *property* ImportedSolidModel.status
+## *property* ImportedSolidModel.status
 
 Status of the object.

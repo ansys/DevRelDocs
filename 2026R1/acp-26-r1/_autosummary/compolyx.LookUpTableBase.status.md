@@ -2,6 +2,6 @@
 
 <a id="compolyx.LookUpTableBase.status"></a>
 
-#### *property* LookUpTableBase.status
+## *property* LookUpTableBase.status
 
 Status of the object.

@@ -2,11 +2,11 @@
 
 <a id="compolyx.VirtualGeometry.remove"></a>
 
-#### VirtualGeometry.remove(shape)
+## VirtualGeometry.remove(shape)
 
 Removes the CADReference object for the given shape.
 
-### Usage:
+### Usage
   ```pycon
   >>> cad = db.active_model.geometry.cad_geometries['CadGeometry.1']
   >>> db.active_model.geometry.virtual_geometries['RefGeom'].remove( (cad.root_shapes['top_surface'], "") )

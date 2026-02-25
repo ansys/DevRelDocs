@@ -2,6 +2,6 @@
 
 <a id="compolyx.EntitySet.uid"></a>
 
-#### *property* EntitySet.uid
+## *property* EntitySet.uid
 
 UID of the object.

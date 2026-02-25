@@ -2,6 +2,6 @@
 
 <a id="compolyx.GeometricalSelectionRule.name"></a>
 
-#### *property* GeometricalSelectionRule.name
+## *property* GeometricalSelectionRule.name
 
 Name of the object.

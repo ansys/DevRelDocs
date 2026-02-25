@@ -2,6 +2,6 @@
 
 <a id="compolyx.CutOffGeometry.active"></a>
 
-#### *property* CutOffGeometry.active
+## *property* CutOffGeometry.active
 
 Cut-Off Geometry active.

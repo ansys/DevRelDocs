@@ -2,6 +2,6 @@
 
 <a id="compolyx.EntitySet.status"></a>
 
-#### *property* EntitySet.status
+## *property* EntitySet.status
 
 Status of the object.

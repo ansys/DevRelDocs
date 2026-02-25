@@ -2,12 +2,12 @@
 
 <a id="compolyx.Stackup.visit"></a>
 
-#### Stackup.visit(visitor)
+## Stackup.visit(visitor)
 
 Walk through the tree and let the visitor perform action on every
 descendant node.
 
-### Parameters:
+### Parameters
 
 - visitor: A callable which accepts a TreeNode instance as parameter
 

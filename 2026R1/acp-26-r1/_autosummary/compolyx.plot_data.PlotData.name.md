@@ -2,6 +2,6 @@
 
 <a id="compolyx.plot_data.PlotData.name"></a>
 
-#### *property* PlotData.name
+## *property* PlotData.name
 
 Name of the object.

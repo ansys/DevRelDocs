@@ -2,6 +2,6 @@
 
 <a id="compolyx.EdgeSet.id"></a>
 
-#### *property* EdgeSet.id
+## *property* EdgeSet.id
 
 ID of the object.

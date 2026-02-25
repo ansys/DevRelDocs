@@ -2,6 +2,6 @@
 
 <a id="compolyx.ButtJointSequence.parent"></a>
 
-#### *property* ButtJointSequence.parent
+## *property* ButtJointSequence.parent
 
 Parent object in the tree.

@@ -2,11 +2,11 @@
 
 <a id="compolyx.ModelingPly.add_selection_rule"></a>
 
-#### ModelingPly.add_selection_rule(rule, template_rule=False, rule_values=(), operation_type='intersect')
+## ModelingPly.add_selection_rule(rule, template_rule=False, rule_values=(), operation_type='intersect')
 
 Add rule to modeling ply.
 
-### Parameters:
+### Parameters
   - rule: The rule to be added to the modeling ply.
   - template_rule: Boolean.
   - rule_values: Parameters of the template rule.

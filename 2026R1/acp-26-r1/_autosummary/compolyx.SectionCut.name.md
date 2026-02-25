@@ -2,6 +2,6 @@
 
 <a id="compolyx.SectionCut.name"></a>
 
-#### *property* SectionCut.name
+## *property* SectionCut.name
 
 Name of the object.

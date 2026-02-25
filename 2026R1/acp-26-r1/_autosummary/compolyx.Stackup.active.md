@@ -2,6 +2,6 @@
 
 <a id="compolyx.Stackup.active"></a>
 
-#### *property* Stackup.active
+## *property* Stackup.active
 
 Active status of the object.

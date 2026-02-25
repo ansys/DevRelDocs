@@ -2,6 +2,6 @@
 
 <a id="compolyx.CutOffGeometry.orientation"></a>
 
-#### *property* CutOffGeometry.orientation
+## *property* CutOffGeometry.orientation
 
 Orientation. Allowed string values: [‘up’, ‘down’].

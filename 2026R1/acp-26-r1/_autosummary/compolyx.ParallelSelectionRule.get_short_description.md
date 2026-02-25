@@ -2,4 +2,4 @@
 
 <a id="compolyx.ParallelSelectionRule.get_short_description"></a>
 
-#### ParallelSelectionRule.get_short_description()
+## ParallelSelectionRule.get_short_description()

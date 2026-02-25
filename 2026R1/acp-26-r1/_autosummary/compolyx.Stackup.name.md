@@ -2,6 +2,6 @@
 
 <a id="compolyx.Stackup.name"></a>
 
-#### *property* Stackup.name
+## *property* Stackup.name
 
 Name of the object.

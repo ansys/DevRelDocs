@@ -2,6 +2,6 @@
 
 <a id="compolyx.SamplingPoint.name"></a>
 
-#### *property* SamplingPoint.name
+## *property* SamplingPoint.name
 
 Name of the object.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.VirtualGeometry.name"></a>
 
-#### *property* VirtualGeometry.name
+## *property* VirtualGeometry.name
 
 Name of the object.

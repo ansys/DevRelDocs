@@ -2,6 +2,6 @@
 
 <a id="compolyx.ModelingPly.serialize"></a>
 
-#### ModelingPly.serialize()
+## ModelingPly.serialize()
 
 Serialize to Python string.

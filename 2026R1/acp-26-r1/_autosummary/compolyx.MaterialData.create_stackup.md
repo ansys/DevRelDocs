@@ -2,11 +2,11 @@
 
 <a id="compolyx.MaterialData.create_stackup"></a>
 
-#### MaterialData.create_stackup(name, id=None, fabrics=None, area_price=0.0, symmetry='No Symmetry', layup_sequence='Top-Down', drop_off_material_handling='Global', cut_off_material_handling='Computed', drop_off_material=None, cut_off_material=None, draping_material_model='woven', draping_ud_coefficient=0.0)
+## MaterialData.create_stackup(name, id=None, fabrics=None, area_price=0.0, symmetry='No Symmetry', layup_sequence='Top-Down', drop_off_material_handling='Global', cut_off_material_handling='Computed', drop_off_material=None, cut_off_material=None, draping_material_model='woven', draping_ud_coefficient=0.0)
 
 Create a new stackup.
 
-### Parameters:
+### Parameters
   - name: Name for the stackup.
   - fabrics: Fabrics of the stackup.
   - area_price: Area price of the stackup.
@@ -18,9 +18,9 @@ Create a new stackup.
   - cut_off_material: Material to use for ‘Custom’ cut-off material handling.
   - draping_material_model: Material model for draping, either ‘woven’ or ‘unidirectional’.
   - draping_ud_coefficient: Coefficient for the unidirectional draping material model.
-### Returns:
+### Returns
   The created stackup.
-### Examples:
+### Examples
   ```pycon
   >>> material_data = db.models['beam'].material_data
   >>> stackup_1 = material_data.create_stackup(name='Stackup.1', fabrics=(material_data.fabrics['Fabric.1'],), draping1=0.3, draping2=0.7)

@@ -2,4 +2,4 @@
 
 <a id="compolyx.Model.refresh_material_apdl_file"></a>
 
-#### Model.refresh_material_apdl_file(apdl_file_path)
+## Model.refresh_material_apdl_file(apdl_file_path)

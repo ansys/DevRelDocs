@@ -2,10 +2,10 @@
 
 <a id="compolyx.SolidModel.solid_elements"></a>
 
-#### SolidModel.solid_elements(include_solver_elements)
+## SolidModel.solid_elements(include_solver_elements)
 
-### Parameters:
+### Parameters
   - include_solver_elements
     : the solver elements are returned for layered elements which have them.
-### Returns:
+### Returns
   A list with solid element labels of current solid model

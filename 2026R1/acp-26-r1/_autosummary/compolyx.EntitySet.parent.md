@@ -2,6 +2,6 @@
 
 <a id="compolyx.EntitySet.parent"></a>
 
-#### *property* EntitySet.parent
+## *property* EntitySet.parent
 
 Parent object in the tree.

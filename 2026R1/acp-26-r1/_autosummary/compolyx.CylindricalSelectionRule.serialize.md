@@ -2,6 +2,6 @@
 
 <a id="compolyx.CylindricalSelectionRule.serialize"></a>
 
-#### CylindricalSelectionRule.serialize()
+## CylindricalSelectionRule.serialize()
 
 Serialize to Python string.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.CutoffSelectionRule.offset"></a>
 
-#### *property* CutoffSelectionRule.offset
+## *property* CutoffSelectionRule.offset
 
 Cut-Off offset.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.Model.scripts"></a>
 
-#### *property* Model.scripts
+## *property* Model.scripts
 
 List of user-defined scripts.

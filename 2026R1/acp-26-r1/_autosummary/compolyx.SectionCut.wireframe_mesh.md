@@ -2,6 +2,6 @@
 
 <a id="compolyx.SectionCut.wireframe_mesh"></a>
 
-#### *property* SectionCut.wireframe_mesh
+## *property* SectionCut.wireframe_mesh
 
 Section cut line wireframe mesh.

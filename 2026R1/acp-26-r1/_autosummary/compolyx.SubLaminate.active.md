@@ -2,6 +2,6 @@
 
 <a id="compolyx.SubLaminate.active"></a>
 
-#### *property* SubLaminate.active
+## *property* SubLaminate.active
 
 Active status of the object.

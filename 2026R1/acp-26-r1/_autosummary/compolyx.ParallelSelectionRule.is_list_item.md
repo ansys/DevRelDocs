@@ -2,6 +2,6 @@
 
 <a id="compolyx.ParallelSelectionRule.is_list_item"></a>
 
-#### *property* ParallelSelectionRule.is_list_item
+## *property* ParallelSelectionRule.is_list_item
 
 Indicates whether the object is an item of a list.

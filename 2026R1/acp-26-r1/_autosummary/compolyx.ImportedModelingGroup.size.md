@@ -2,6 +2,6 @@
 
 <a id="compolyx.ImportedModelingGroup.size"></a>
 
-#### *property* ImportedModelingGroup.size
+## *property* ImportedModelingGroup.size
 
 Number of entities.

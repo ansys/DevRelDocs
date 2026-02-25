@@ -2,7 +2,7 @@
 
 <a id="compolyx.Model.reload_mesh"></a>
 
-#### Model.reload_mesh(path=None, format=None)
+## Model.reload_mesh(path=None, format=None)
 
 Reloads the mesh (nodes, elements, and named selections).
 The following imported entities are ignored: materials and rosettes.

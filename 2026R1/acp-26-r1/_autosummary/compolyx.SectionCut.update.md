@@ -2,4 +2,4 @@
 
 <a id="compolyx.SectionCut.update"></a>
 
-#### SectionCut.update()
+## SectionCut.update()

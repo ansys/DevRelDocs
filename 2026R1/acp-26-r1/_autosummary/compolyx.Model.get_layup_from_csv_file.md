@@ -2,11 +2,11 @@
 
 <a id="compolyx.Model.get_layup_from_csv_file"></a>
 
-#### Model.get_layup_from_csv_file(path, objects=None, mode='update_entities', modeling_group=None)
+## Model.get_layup_from_csv_file(path, objects=None, mode='update_entities', modeling_group=None)
 
 Function that reads the layup data from a .csv file and adds the data to the graph.
 
-### Parameters:
+### Parameters
   - objects: List of objects to be synced.
   - path: The path to the file.
   - mode: Valid options:

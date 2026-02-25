@@ -2,6 +2,6 @@
 
 <a id="compolyx.Material.status"></a>
 
-#### *property* Material.status
+## *property* Material.status
 
 Status of the object.

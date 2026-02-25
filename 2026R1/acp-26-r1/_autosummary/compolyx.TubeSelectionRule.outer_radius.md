@@ -2,6 +2,6 @@
 
 <a id="compolyx.TubeSelectionRule.outer_radius"></a>
 
-#### *property* TubeSelectionRule.outer_radius
+## *property* TubeSelectionRule.outer_radius
 
 Outer tube-radius.

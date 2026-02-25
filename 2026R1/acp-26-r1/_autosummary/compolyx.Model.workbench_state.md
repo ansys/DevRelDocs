@@ -2,4 +2,4 @@
 
 <a id="compolyx.Model.workbench_state"></a>
 
-#### Model.workbench_state *= <traits.trait_types.Instance object>*
+## Model.workbench_state *= <traits.trait_types.Instance object>*

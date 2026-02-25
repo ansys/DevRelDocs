@@ -2,6 +2,6 @@
 
 <a id="compolyx.plot_data.ScalarFieldData.serialize"></a>
 
-#### ScalarFieldData.serialize()
+## ScalarFieldData.serialize()
 
 Serialize to Python string.

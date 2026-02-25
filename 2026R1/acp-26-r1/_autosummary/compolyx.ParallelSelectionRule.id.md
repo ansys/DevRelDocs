@@ -2,6 +2,6 @@
 
 <a id="compolyx.ParallelSelectionRule.id"></a>
 
-#### *property* ParallelSelectionRule.id
+## *property* ParallelSelectionRule.id
 
 ID of the object.

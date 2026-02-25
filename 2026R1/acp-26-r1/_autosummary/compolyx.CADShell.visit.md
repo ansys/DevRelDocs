@@ -2,12 +2,12 @@
 
 <a id="compolyx.CADShell.visit"></a>
 
-#### CADShell.visit(visitor)
+## CADShell.visit(visitor)
 
 Walk through the tree and let the visitor perform action on every
 descendant node.
 
-### Parameters:
+### Parameters
 
 - visitor: A callable which accepts a TreeNode instance as parameter
 

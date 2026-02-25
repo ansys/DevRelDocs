@@ -2,6 +2,6 @@
 
 <a id="compolyx.TubeSelectionRule.mesh"></a>
 
-#### *property* TubeSelectionRule.mesh
+## *property* TubeSelectionRule.mesh
 
 The mesh of the tube rule.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.ImportedSolidModel.section_index"></a>
 
-#### *property* ImportedSolidModel.section_index
+## *property* ImportedSolidModel.section_index
 
 Section offset index.

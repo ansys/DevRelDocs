@@ -2,6 +2,6 @@
 
 <a id="compolyx.VariableOffsetSelectionRule.offsets"></a>
 
-#### *property* VariableOffsetSelectionRule.offsets
+## *property* VariableOffsetSelectionRule.offsets
 
 Link to lookup table column with offsets.

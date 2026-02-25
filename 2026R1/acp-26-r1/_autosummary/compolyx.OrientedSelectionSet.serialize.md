@@ -2,6 +2,6 @@
 
 <a id="compolyx.OrientedSelectionSet.serialize"></a>
 
-#### OrientedSelectionSet.serialize()
+## OrientedSelectionSet.serialize()
 
 Serialize to Python string.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.CylindricalSelectionRule.active"></a>
 
-#### *property* CylindricalSelectionRule.active
+## *property* CylindricalSelectionRule.active
 
 Active status of the object.

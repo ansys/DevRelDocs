@@ -2,6 +2,6 @@
 
 <a id="compolyx.TubeSelectionRule.name"></a>
 
-#### *property* TubeSelectionRule.name
+## *property* TubeSelectionRule.name
 
 Name of the object.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.Fabric.serialize"></a>
 
-#### Fabric.serialize()
+## Fabric.serialize()
 
 Serialize to Python string.

@@ -2,4 +2,4 @@
 
 <a id="compolyx.EntitySet.update"></a>
 
-#### EntitySet.update()
+## EntitySet.update()

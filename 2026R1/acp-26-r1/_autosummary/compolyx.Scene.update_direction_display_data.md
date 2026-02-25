@@ -2,7 +2,7 @@
 
 <a id="compolyx.Scene.update_direction_display_data"></a>
 
-#### Scene.update_direction_display_data(entities)
+## Scene.update_direction_display_data(entities)
 
 Function synchronizes the following direction plots with the added/removed entities given:
 - “orientations”

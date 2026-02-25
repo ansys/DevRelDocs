@@ -2,6 +2,6 @@
 
 <a id="compolyx.Model.layup_plots"></a>
 
-#### *property* Model.layup_plots
+## *property* Model.layup_plots
 
 Plots.

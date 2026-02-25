@@ -2,11 +2,11 @@
 
 <a id="compolyx.ImportedSolidModel.copy_layup_mapping_object"></a>
 
-#### ImportedSolidModel.copy_layup_mapping_object(source)
+## ImportedSolidModel.copy_layup_mapping_object(source)
 
 Copy a Layup Mapping object.
 
-### Parameters:
+### Parameters
   - source: Source object to copy.
-### Returns:
+### Returns
   New instance of LayupMappingObject.

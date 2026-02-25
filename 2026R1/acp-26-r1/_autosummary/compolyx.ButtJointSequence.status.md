@@ -2,6 +2,6 @@
 
 <a id="compolyx.ButtJointSequence.status"></a>
 
-#### *property* ButtJointSequence.status
+## *property* ButtJointSequence.status
 
 Status of the object.

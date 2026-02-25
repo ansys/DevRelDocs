@@ -2,6 +2,6 @@
 
 <a id="compolyx.MaterialData.parent"></a>
 
-#### *property* MaterialData.parent
+## *property* MaterialData.parent
 
 Parent object in the tree.

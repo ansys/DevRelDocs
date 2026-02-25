@@ -2,6 +2,6 @@
 
 <a id="compolyx.VirtualGeometry.parent"></a>
 
-#### *property* VirtualGeometry.parent
+## *property* VirtualGeometry.parent
 
 Parent object in the tree.

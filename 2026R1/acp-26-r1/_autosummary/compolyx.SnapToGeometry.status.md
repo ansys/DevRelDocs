@@ -2,6 +2,6 @@
 
 <a id="compolyx.SnapToGeometry.status"></a>
 
-#### *property* SnapToGeometry.status
+## *property* SnapToGeometry.status
 
 Status of the object.

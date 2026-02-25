@@ -2,6 +2,6 @@
 
 <a id="compolyx.VariableOffsetSelectionRule.changed"></a>
 
-#### *property* VariableOffsetSelectionRule.changed
+## *property* VariableOffsetSelectionRule.changed
 
 Triggers an observable to dispatch a change notification.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.SubLaminate.serialize"></a>
 
-#### SubLaminate.serialize()
+## SubLaminate.serialize()
 
 Serialize to Python string.

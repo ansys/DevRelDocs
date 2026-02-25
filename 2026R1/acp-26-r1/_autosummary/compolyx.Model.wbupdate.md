@@ -2,7 +2,7 @@
 
 <a id="compolyx.Model.wbupdate"></a>
 
-#### Model.wbupdate(objects='all', relations_only=False)
+## Model.wbupdate(objects='all', relations_only=False)
 
 Generate all output files of ACP for the Workbench application.
 

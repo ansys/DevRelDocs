@@ -2,7 +2,7 @@
 
 <a id="compolyx.SectionCut.compute_equivalent_beam_properties"></a>
 
-#### SectionCut.compute_equivalent_beam_properties(check_status=True, solver_exe_path=None)
+## SectionCut.compute_equivalent_beam_properties(check_status=True, solver_exe_path=None)
 
 > Compute the equivalent beam properties of the section cut.
 

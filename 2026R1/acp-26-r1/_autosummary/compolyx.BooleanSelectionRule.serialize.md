@@ -2,6 +2,6 @@
 
 <a id="compolyx.BooleanSelectionRule.serialize"></a>
 
-#### BooleanSelectionRule.serialize()
+## BooleanSelectionRule.serialize()
 
 Serialize to Python string.

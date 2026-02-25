@@ -2,6 +2,6 @@
 
 <a id="compolyx.Rosette.edge_set"></a>
 
-#### *property* Rosette.edge_set
+## *property* Rosette.edge_set
 
 Edge Set for Rosette.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.CADGeometry.active"></a>
 
-#### *property* CADGeometry.active
+## *property* CADGeometry.active
 
 Active status of the object.

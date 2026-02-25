@@ -2,4 +2,4 @@
 
 <a id="compolyx.GeometricalSelectionRule.update"></a>
 
-#### GeometricalSelectionRule.update()
+## GeometricalSelectionRule.update()

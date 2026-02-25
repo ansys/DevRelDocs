@@ -2,6 +2,6 @@
 
 <a id="compolyx.SphericalSelectionRule.rosette"></a>
 
-#### *property* SphericalSelectionRule.rosette
+## *property* SphericalSelectionRule.rosette
 
 Rosette of the used for origin and direction.

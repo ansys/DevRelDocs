@@ -2,6 +2,6 @@
 
 <a id="compolyx.SectionCut.id"></a>
 
-#### *property* SectionCut.id
+## *property* SectionCut.id
 
 ID of the object.

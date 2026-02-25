@@ -2,6 +2,6 @@
 
 <a id="compolyx.ParallelSelectionRule.active"></a>
 
-#### *property* ParallelSelectionRule.active
+## *property* ParallelSelectionRule.active
 
 Active status of the object.

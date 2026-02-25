@@ -2,6 +2,6 @@
 
 <a id="compolyx.Fabric.material"></a>
 
-#### *property* Fabric.material
+## *property* Fabric.material
 
 Material of the fabric.

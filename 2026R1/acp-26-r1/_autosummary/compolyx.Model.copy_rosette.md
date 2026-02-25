@@ -2,11 +2,11 @@
 
 <a id="compolyx.Model.copy_rosette"></a>
 
-#### Model.copy_rosette(source)
+## Model.copy_rosette(source)
 
 Copy a rosette.
 
-### Parameters:
+### Parameters
   - source: Source object to copy.
-### Returns:
+### Returns
   New instance of rosette.

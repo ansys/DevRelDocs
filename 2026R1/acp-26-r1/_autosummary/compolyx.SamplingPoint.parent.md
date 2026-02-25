@@ -2,6 +2,6 @@
 
 <a id="compolyx.SamplingPoint.parent"></a>
 
-#### *property* SamplingPoint.parent
+## *property* SamplingPoint.parent
 
 Parent object in the tree.

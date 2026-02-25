@@ -2,20 +2,20 @@
 
 <a id="compolyx.ModelingGroup.create_interface_layer"></a>
 
-#### ModelingGroup.create_interface_layer(name=None, id=None, global_ply_nr=None, oriented_selection_sets=None, open_area_sets=None, active=True)
+## ModelingGroup.create_interface_layer(name=None, id=None, global_ply_nr=None, oriented_selection_sets=None, open_area_sets=None, active=True)
 
-Create an iterface layer.
+Create an interface layer.
 
-### Parameters:
-  - name: Name of the new iterface layer.
-  - id: Optional ID of the new iterface layer.
+### Parameters
+  - name: Name of the new interface layer.
+  - id: Optional ID of the new interface layer.
   - global_ply_nr: Ply number for stacking sequence.
-  - oriented_selection_sets: Oriented selection set for the expansion of the iterface layer.
+  - oriented_selection_sets: Oriented selection set for the expansion of the interface layer.
   - open_area_sets: Defines the initial crack of a VCCT layer (optional).
-  - active: Iterface layer active (default: ‘True’).
-### Returns:
-  The created iterface layer.
-### Example:
+  - active: interface layer active (default: ‘True’).
+### Returns
+  The created interface layer.
+### Example
   ```pycon
   >>> oes_1 = model.oriented_selection_sets['OrientedSelectionSet.1']
   >>> mpg = model.modeling_groups['PlyGroup.1']

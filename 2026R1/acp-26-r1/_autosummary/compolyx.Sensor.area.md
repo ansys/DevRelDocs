@@ -2,6 +2,6 @@
 
 <a id="compolyx.Sensor.area"></a>
 
-#### *property* Sensor.area
+## *property* Sensor.area
 
 Area covered by all Entities of the Sensor.
