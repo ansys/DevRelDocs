@@ -18,11 +18,10 @@ The following table shows which components have updates in each category.
 | engineeringdata | | [1 item](#Fixes_engineeringdata) | |
 | expansion | [1 item](#Features_expansion) | | |
 | femutils | | [12 items](#Fixes_femutils) | [3 items](#Perf_femutils) |
-| framework | | [6 items](#Fixes_framework) | |
+| framework | [2 items](#Feat_framework) | [9 items](#Fixes_framework) | |
 | grpc | [1 item](#Features_grpc) | [3 items](#Fixes_grpc) | |
 | hdf5 | [6 items](#Features_hdf5) | [7 items](#Fixes_hdf5) | [2 items](#Perf_hdf5) |
 | hgp | [3 items](#Features_hgp) | [3 items](#Fixes_hgp) | |
-| kernel | [2 items](#Features_kernel) | [3 items](#Fixes_kernel) | |
 | lsdyna | [1 item](#Features_lsdyna) | | |
 | mapdl | [14 items](#Features_mapdl) | [52 items](#Fixes_mapdl) | |
 | math | [7 items](#Features_math) | [2 items](#Fixes_math) | |
@@ -193,6 +192,16 @@ The following table shows which components have updates in each category.
 
 ## framework
 
+### <a id="Feat_framework"></a> Features
+
+- Add a Unit string to express British ton:
+  > The string `"ton"` in DPF units denotes the Metric Ton (1000 kg). The string `"tonuk"` now denotes the British ton (also known as Long ton, approximately 1016.05 kg or 2240 pounds of mass).
+
+- Establish thread safety and STL compliance for scopingIterators:
+  > - Test for thread safety when using scoping Iterators for read access within parallel regions (over fields, over scoping etc).
+  >
+  > - Promote STL algorithm compliance in scoping iterators so that scoping objects can be directly manipulated with them.
+
 ### <a id="Fixes_framework"></a> Fixes
 
 - Property field not available error:
@@ -217,6 +226,15 @@ The following table shows which components have updates in each category.
   > Input Fields containers with multiple labels (not only time) were not allowed in `compute_residual_and_error` operator.
   >
   > The operator now computes the norm and the error for each field in the collection, even if there are multiple fields associaed to a single time step.
+
+- Fix parallelization in several operators:
+  > Multithreading parallelization was not properly enforced in several operators (like merge_fields or generalized_inner_product).
+
+- Fixed issue with Qua4FindElementCoordinates for mapping and find_reduced_coordinates:
+  > Fix bug with interpolation points at corner node in the mapping operator.
+
+- Fixing memory error in Scoping Iterators for empty scoping:
+  > - This fix prevents memory exception errors arising during initialization of the scoping iterators for non-memory allocated scopings.
 
 ## grpc
 
@@ -307,29 +325,6 @@ The following table shows which components have updates in each category.
   > Creating a unit in HGP using an unknown symbol generated a non-informative error.
   >
   > It now raises an ``std::invalid_argument`` error which message indicates a homogeneity must be given along with the custom unit symbol.
-
-## kernel
-
-### <a id="Features_kernel"></a> Features
-
-- Add Unit string to express British ton:
-  > The string `"ton"` in DPF units denotes the Metric Ton (1000 kg). The string `"tonuk"` now denotes the British ton (also known as Long ton, approximately 1016.05 kg or 2240 pounds of mass).
-
-- Establish thread safety and STL compliance for scopingIterators:
-  > - Test for thread safety when using scoping Iterators for read access within parallel regions (over fields, over scoping etc).
-  >
-  > - Promote STL algorithm compliance in scoping iterators so that scoping objects can be directly manipulated with them.
-
-### <a id="Fixes_kernel"></a> Fixes
-
-- Fix parallelization in several operators:
-  > Multithreading parallelization was not properly enforced in several operators (like merge_fields or generalized_inner_product).
-
-- Fixed issue with Qua4FindElementCoordinates for mapping and find_reduced_coordinates:
-  > Fix bug with interpolation points at corner node in the mapping operator.
-
-- Fixing memory error in Scoping Iterators for empty scoping:
-  > - This fix prevents memory exception errors arising during initialization of the scoping iterators for non-memory allocated scopings.
 
 ## lsdyna
 
