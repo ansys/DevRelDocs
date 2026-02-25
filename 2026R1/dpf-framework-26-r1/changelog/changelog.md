@@ -17,10 +17,10 @@ The following table shows which components have updates in each category.
 | documentation | [3 items](#Features_documentation) | [1 item](#Fixes_documentation) | |
 | engineeringdata | | [1 item](#Fixes_engineeringdata) | |
 | expansion | [1 item](#Features_expansion) | | |
-| femutils | | [12 items](#Fixes_femutils) | [2 items](#Perf_femutils) |
+| femutils | | [12 items](#Fixes_femutils) | [3 items](#Perf_femutils) |
 | framework | | [6 items](#Fixes_framework) | |
 | grpc | [1 item](#Features_grpc) | [3 items](#Fixes_grpc) | |
-| hdf5 | [8 items](#Features_hdf5) | [11 items](#Fixes_hdf5) | |
+| hdf5 | [6 items](#Features_hdf5) | [7 items](#Fixes_hdf5) | [2 items](#Perf_hdf5) |
 | hgp | [3 items](#Features_hgp) | [3 items](#Fixes_hgp) | |
 | kernel | [2 items](#Features_kernel) | [3 items](#Fixes_kernel) | |
 | lsdyna | [1 item](#Features_lsdyna) | | |
@@ -189,6 +189,8 @@ The following table shows which components have updates in each category.
 
 - Performance issues on Nodal Extend To Mid Nodes:
 
+- Performance improvements when splitting skin mesh by material:
+
 ## framework
 
 ### <a id="Fixes_framework"></a> Fixes
@@ -237,56 +239,50 @@ The following table shows which components have updates in each category.
 
 ### <a id="Features_hdf5"></a> Features
 
-- Very quick implementation of h5dpf list operator:
-
-- Link Tfields And Change Labels Layout:
-
-- Enable reading fields with specific scoping via HDF5 API:
+- Provide links to fields and change the layout of labels for field containers in HDF5 files:
 
 - Initial HDF5 built-in link implementation for "support references" in a scoping object:
-  > This PR introduces the built-in HDF5 link mechanism to replace the mesh reference of a scoping object, the remaining references for each object will be added in next separate PRs..
+  > Introduces the built-in HDF5 link mechanism to replace the mesh reference of a scoping object.
 
-- HDF5 Writing to Use Explicit Dimensionality for Improved Visualization and Enable Chunking:
-  > This PR refactors the HDF5 data writing logic to explicitly use dimensionality (e.g., 2D layout instead of flat vectors) for improved data readability in visualization tools. It also enables **chunking**.
+- HDF5 writing to use explicit dimensionality for improved visualization and to enable chunking:
+  > Refactors the HDF5 data writing logic to explicitly use dimensionality (e.g., 2D layout instead of flat vectors) for improved data readability in visualization tools. It also enables **chunking**.
 
-- Add hdf5 support of data tree and any collection:
-  > Add support for data tree and any collection for hdf5 import and export.
+- Add HDF5 support for DataTree and AnyCollection:
+  > Add support for DataTree and AnyCollection for HDF5 import and export.
 
 - Move rotations to SourceOperators to enable them from h5dpf datasources:
   > Allow rotation to global from H5DPF result file.
 
-- Expose is_mesh_available operator:
+- Expose `is_mesh_available` operator:
   > Expose `is_mesh_available` for cgns and h5dpf files.
 
 ### <a id="Fixes_hdf5"></a> Fixes
 
-- Performance improvements when splitting skin mesh by material:
-
-- Improve Performance When Reading Large Numbers of Fields from H5DPF:
-
 - Expose missing solver version in hdf5:
 
-- Read mesh from input in solution provider:
+- The deprecation message for `serialize_to_hdf5` now mentions the new operator by its scripting name:
+  > The operator `serialize_to_hdf5` is marked as deprecated in its description but redirects to the internal name of the new operator to use. This changes the message to use the scripting name (`hdf5dpf_generate_result_file`).
 
-- Serialize_to_hdf5 deprecation message mentions new operator by scripting name:
-  > The operator serialize_to_hdf5 is marked as deprecated in its description but redirects to the internal name of the new operator to use. This changes the message to use the scripting name (hdf5dpf_generate_result_file).
-
-- Performance fix when reading Results By Scoping:
-
-- Correction of mesh detection in HDF5 mesh_property_provider:
+- Correction of mesh detection in `mesh_property_provider` for HDF5:
   > In HDF5 version 6, the mesh section is located under the _Results_ section, which differs from its placement in previous versions. To ensure backward compatibility, additional code has been implemented.
 
-- Migrate to export NAR results:
-  > Migrate to export NAR results by default
+- Operator `result.migrate_to_h5dpf` now exports NAR results:
+  > Operator `result.migrate_to_h5dpf` now export NAR results by default
 
 - Only write support for collections if support is available:
   > Only write support for collections if support is available
 
-- Correction of meshes_provider from h5dpf:
-  > Correction of meshes_provider from h5dpf to not split mesh.
+- Operator `meshes_provider` for HDF5 does not split the mesh anymore:
+  > Correction of `meshes_provider` for h5dpf to not split the mesh.
 
 - Fix thickness extraction from SMISC/NMISC from h5dpf file:
   > Fix thickness extraction from SMISC/NMISC from h5dpf file
+
+### <a id="Perf_hdf5"></a> Performance improvements
+
+- Improve performance when reading a large number of fields from H5DPF:
+
+- Improve performance when reading results using a scoping:
 
 ## hgp
 
