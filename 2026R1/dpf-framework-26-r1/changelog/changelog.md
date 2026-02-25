@@ -16,7 +16,7 @@ The following table shows which components have updates in each category.
 | documentation | [3 items](#Features_documentation) | [1 item](#Fixes_documentation) | |
 | engineeringdata | | [1 item](#Fixes_engineeringdata) | |
 | femutils | [1 item](#Feat_femutils) | [12 items](#Fixes_femutils) | [3 items](#Perf_femutils) |
-| framework | [2 items](#Feat_framework) | [10 items](#Fixes_framework) | |
+| framework | [2 items](#Feat_framework) | [11 items](#Fixes_framework) | |
 | grpc | [1 item](#Features_grpc) | [3 items](#Fixes_grpc) | |
 | hdf5 | [6 items](#Features_hdf5) | [7 items](#Fixes_hdf5) | [2 items](#Perf_hdf5) |
 | hgp | [6 items](#Features_hgp) | [3 items](#Fixes_hgp) | |
@@ -27,7 +27,7 @@ The following table shows which components have updates in each category.
 | mesh | | [1 item](#Fixes_mesh) | |
 | misc | [11 items](#Features_misc) | [19 items](#Fixes_misc) | |
 | multiphysicsmapper | | [1 item](#Fixes_multiphysicsmapper) | |
-| native | | [20 items](#Fixes_native) | |
+| native | | [16 items](#Fixes_native) | [1 item](#Perf_native) |
 | rbd | | [1 item](#Fixes_rbd) | |
 
 ## c\#
@@ -182,6 +182,10 @@ The following table shows which components have updates in each category.
   > - Promote STL algorithm compliance in scoping iterators so that scoping objects can be directly manipulated with them.
 
 ### <a id="Fixes_framework"></a> Fixes
+
+- Fix the names associated to some materials properties:
+  > - `Volumic Mass` is now exposed as `Mass Density`.
+  > - `Second Lame's coefficient` is now exposed as `Coefficient of friction`.
 
 - Property field not available error:
   > DPF now throws an explicit error when the queried property field is not available.
@@ -626,8 +630,6 @@ The following table shows which components have updates in each category.
 - Performance issue with transpose scoping:
   > Improving performance of the `transpose_scoping` operator for cases with multiple scopings at a specific ratio with the length of the mesh.
 
-- Fix materials properties names:
-
 - Performance issue with solid to skin operator with ElementalNodal and Elemental:
   > Improving performance of the `solid_to_skin_fc` operator for `Elemental` and `ElementalNodal` locations.
 
@@ -668,8 +670,6 @@ The following table shows which components have updates in each category.
 
   > Fields with heterogeneous shell layers (e.g. entities that have a different number of shell layers to the one reflected by the FieldDefinition ShellLayers) had a wrong behavior in different averaging operators. This is now fixed.
 
-- Proper initialization of variable in skin operator:
-
 - Fix connectivity of Line3 elements in skin mesh:
 
   > With a previous change, Line3 elements were shipped with only 2 nodes after a skin extraction operation. They now have the 3 nodes they are expected to have (2 corner nodes and the midside node).
@@ -702,61 +702,47 @@ The following table shows which components have updates in each category.
 
 - Avoid crashing when connecting streams or data sources to the wrong pin in Source Operators:
 
-- Enhance identical_fields documentation:
-  > Explain in the specification of the identical_fields operator the expected behavior.
+- Enhance the documentation of operator `logic.identical_fields`:
+  > Explain the behavior of the `logic.identical_fields` operator in its specification.
 
-- Clarify documentation for bool_rotate_to_global pin:
+- Clarify usage of the `bool_rotate_to_global` pin:
 
-- Csv to field doesn't handle empty field:
+- Operator `serialization.csv_to_field` now handles empty fields correctly:
 
-- Boundary_condition_provider operator crashes:
+- Clarify error for operator `boundary_condition_provider` when using the wrong input pins:
   > If using the operator _boundary_conditions_provider_ only with pins exposed in the documentation, it was crashing without a clear message.
   >
   > Now, all the available pins are exposed in the documentation, and the operator outputs an understandable message when using wrong inputs.
 
-- Fix bool_rotate_to_global specification of operators:
-  > Fix bool_rotate_to_global specification of operators.
+- Fix operator `logic.elementary_data_selector` when no data pointer is available:
+  > Fix operator `logic.elementary_data_selector` when no data pointer is available.
 
-- Fix elementary data selector when no dataptr is available:
-  > Fix elementary data selector when no dataptr is available.
-
-- Support fields with different scopings in concatenate_fields:
+- Support fields with different scopings in `concatenate_fields`:
   > Added the possibility to merge fields with different scopings in operators _concatenate_fields_ and _concatenate_fields_containers_, with the possibility to choose the scoping to keep for output.
   >
   > These operators are now public.
 
-- Fix timefreqsupport::get_attribute for of STFT wf:
+- Fix `solid_shell_fields` operator handling of empty fields:
+  > The operator `solid_shell_fields` is now able to handle fields containers with empty fields.
 
-- Fix solid_shell_fields operator:
-
-  > The operator solid_shell_fields is now able to handle fields containers with empty fields.
-
-- Improve transpose scoping operator performance 2:
-  > Refactoring of the transpose scoping operator for performance improvements
-
-- Improve transpose scoping operator performance':
-
-- Fix stream_provider error handling:
+- Fix stream_provider error handling of empty datasources:
   > Fix stream_provider returning an empty stream when the datasources is in input is empty. Throw instead.
   >
   > Fix the stream_provider returning a nullptr if a stream_provider is not found for this namespace. Throw instead.
   >
   > Also update the descriptions of the operator.
 
-- Improve transpose scoping operator performance:
-  > Refactoring of the transpose scoping operator for performance improvements
+- Fix an access violation crash in the `math.scale` operator:
+  > Program was crashing when not using the MKL to do the computation in the scale operator.
 
-- Access violation in scale operator:
-  > Program was crashing when not using the mkl to do the computation in CScale operator ("scale").
+- Fix issue with empty label and crash for `math.average_over_label_fc`:
+  > Fix a crash in `math.average_over_label_fc` in the case of an empty label input.
 
-- Fix issue with empty label and crash:
-  > Fix issue with empty label and crash.
+- Fix shell layers support for `scale_by_field` operator:
+  > The `scale_by_field` operator now supports fields with shell layers.
 
-- Fix shell layers support for scale_by_field operator:
-  > Scale_by_field operator supports now fields with shell layers.
-
-- Scaling factors for absolute normalization in ErrorAndNorm have a wrong size:
-  > Absolute normalization in ErrorAndNorm ("error_and_norm") operator was exporting scaling factors with a size of the original data instead of having only one unit value per field.
+- Scaling factors for absolute normalization in the `compute_residual_and_error` have a wrong size:
+  > Absolute normalization in the `compute_residual_and_error` operator was exporting scaling factors with a size of the original data instead of having only one unit value per field.
 
 - Remove the **bool_rotate_to_global** pin from **raw_operators**:
   > Remove the **bool_rotate_to_global** pin from operators such as **raw_displacement** and **raw_reaction_force**.
@@ -766,6 +752,11 @@ The following table shows which components have updates in each category.
 
 - Fix of nested cms rotation with empty angles for harmonic msup:
   > Fix of nested cms rotation with empty angles for harmonic msup
+
+### <a id="Perf_native"></a> Performance improvements
+
+- Improve `scoping.transpose` operator performance:
+  > Refactoring of the transpose scoping operator for performance improvements
 
 ## rbd
 
