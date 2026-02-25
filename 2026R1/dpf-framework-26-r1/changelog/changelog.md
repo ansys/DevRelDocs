@@ -21,7 +21,7 @@ The following table shows which components have updates in each category.
 | framework | [2 items](#Feat_framework) | [9 items](#Fixes_framework) | |
 | grpc | [1 item](#Features_grpc) | [3 items](#Fixes_grpc) | |
 | hdf5 | [6 items](#Features_hdf5) | [7 items](#Fixes_hdf5) | [2 items](#Perf_hdf5) |
-| hgp | [3 items](#Features_hgp) | [3 items](#Fixes_hgp) | |
+| hgp | [5 items](#Features_hgp) | [3 items](#Fixes_hgp) | |
 | lsdyna | [1 item](#Features_lsdyna) | | |
 | mapdl | [14 items](#Features_mapdl) | [52 items](#Fixes_mapdl) | |
 | math | [7 items](#Features_math) | [2 items](#Fixes_math) | |
@@ -31,7 +31,6 @@ The following table shows which components have updates in each category.
 | multiphysicsmapper | | [5 items](#Fixes_multiphysicsmapper) | |
 | name | | [1 item](#Fixes_name) | |
 | native | | [20 items](#Fixes_native) | |
-| perf | [2 items](#Features_perf) | [1 item](#Fixes_perf) | |
 | rbd | | [1 item](#Fixes_rbd) | |
 
 ## c\#
@@ -311,6 +310,13 @@ The following table shows which components have updates in each category.
 
 - Add new hgp functions to copy without data into a new field/scoping:
   > Add new hgp functions to copy without data into a new field.
+
+- New getMatching* API on Hgp:
+
+  > Exposure of getMatching* API on Hgp which allows to get the entry matching a LabelSpace in a Collection.
+
+- New `can_replace` parameter for `add` methods of Collections:
+  > To improve performance when creating fields containers with a large number of fields, such as when averaging a huge number of solutions on MSUP analyses, one can add an entity to a collection without checking first if the LabelSpace in question already exists in the collection.
 
 ### <a id="Fixes_hgp"></a> Fixes
 
@@ -812,23 +818,6 @@ The following table shows which components have updates in each category.
 
 - Fix of nested cms rotation with empty angles for harmonic msup:
   > Fix of nested cms rotation with empty angles for harmonic msup
-
-## perf
-
-### <a id="Features_perf"></a> Features
-
-- Exposure of New getMatching API on Hgp:
-
-  > Exposure of getMatching API on Hgp.
-
-- Build Scoping Index Tables Operator and filtering usage:
-
-  > Preprocessing scopings operator and filtering usage
-
-### <a id="Fixes_perf"></a> Fixes
-
-- Fix performance on averaging and filling fc for huge number of solutions on msup:
-  > Fix performance on averaging and filling fc for huge number of solutions on msup
 
 ## rbd
 
