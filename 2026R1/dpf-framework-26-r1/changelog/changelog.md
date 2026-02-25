@@ -845,7 +845,7 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_rbd"></a> Fixes
 
-- Create first version of ResultInfo to avoid crash:
+- Add support for `result_info_provider` for _mbd_ files:
 
 ## Operator changes
 
