@@ -15,14 +15,14 @@ The following table shows which components have updates in each category.
 | cyclic | [1 item](#Features_cyclic) | | |
 | documentation | [3 items](#Features_documentation) | [1 item](#Fixes_documentation) | |
 | engineeringdata | | [1 item](#Fixes_engineeringdata) | |
-| femutils | | [12 items](#Fixes_femutils) | [3 items](#Perf_femutils) |
+| femutils | [1 item](#Feat_femutils) | [12 items](#Fixes_femutils) | [3 items](#Perf_femutils) |
 | framework | [2 items](#Feat_framework) | [10 items](#Fixes_framework) | |
 | grpc | [1 item](#Features_grpc) | [3 items](#Fixes_grpc) | |
 | hdf5 | [6 items](#Features_hdf5) | [7 items](#Fixes_hdf5) | [2 items](#Perf_hdf5) |
-| hgp | [5 items](#Features_hgp) | [3 items](#Fixes_hgp) | |
+| hgp | [6 items](#Features_hgp) | [3 items](#Fixes_hgp) | |
 | lsdyna | [1 item](#Features_lsdyna) | | |
 | mapdl | [14 items](#Features_mapdl) | [52 items](#Fixes_mapdl) | |
-| math | [7 items](#Features_math) | [2 items](#Fixes_math) | |
+| math | | [2 items](#Fixes_math) | [1 item](#Perf_math) |
 | mechanical | [1 item](#Features_mechanical) | | |
 | mesh | | [1 item](#Fixes_mesh) | |
 | misc | [11 items](#Features_misc) | [19 items](#Fixes_misc) | |
@@ -116,6 +116,12 @@ The following table shows which components have updates in each category.
   > Correction of **ans_mat_from_materials_data**, which was not working properly when reading temperature dependent material properties from rst file.
 
 ## femutils
+
+### <a id="Feat_femutils"></a> Features
+
+- Support nodal/element scopings container and summation fields container in force summation operators:
+  > - Input mesh scopings container are now supported in force_summation and force_summation_psd operators
+  > - Input fields container for summation point are now supported in force_summation, torque and force_summation_psd operators
 
 ### <a id="Fixes_femutils"></a> Fixes
 
@@ -285,6 +291,9 @@ The following table shows which components have updates in each category.
 
 - CustomTypeField of int64:
   > Allows to create a CustomTypeField of int64_t in the DPF C++ HGP API.
+
+- Add CustomTypeField.deep_copy:
+  > Allows to make a deep copy of a CustomTypeField.
 
 - Allow user to get the path to the DPFClientAPI library directory:
   > Expose `LibraryHandle::libraryDir` which returns the path to the directory where DPF is loaded.
@@ -519,36 +528,17 @@ The following table shows which components have updates in each category.
 
 ## math
 
-### <a id="Features_math"></a> Features
-
-- Add new operator (matrices assembly) for Transfer Path Analysis:
-
-- Create new operator to do QR solve with fields containers:
-  > Create a new operator to perform QR solve with fields containers
-
-- Add input_dof_index support in make_tf_input+modal_solve workflow:
-
-- Support nodal/element scopings container and summation fields container in force summation operators:
-  > - Input mesh scopings container are now supported in force_summation and force_summation_psd operators
-  > - Input fields container for summation point are now supported in force_summation, torque and force_summation_psd operators
-
-- Add new operator (connectivity matrix) for Transfer Path Analysis:
-
-  > feat(math): Add new operator (connectivity matrix) for Transfer Path Analysis
-
-- Create a new wrapper for MKL QR solve (DGELS/ZGELS routines):
-
-- Create new wrappers for eigenvalue analysis:
-
-  > feat(math) - Create new wrappers for eigenvalue analysis
-
 ### <a id="Fixes_math"></a> Fixes
 
-- FFT Multiharmonic performance enhancements:
-  > FFT Multiharmonic performance enhancements
+- Fix handling of empty fields in mode shapes in `expansion_psd`
 
 - Reduce the threshold for detection of division by zero in the complex division operator:
   > Change the tolerance for complex division from 1e-10 to 1e-15.
+
+### <a id="Perf_math"></a> Performance improvements
+
+- Performance enhancements for `math.fft_multi_harmonic_minmax`:
+  > FFT Multiharmonic performance enhancements
 
 ## mechanical
 
