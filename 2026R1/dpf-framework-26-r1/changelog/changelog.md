@@ -30,11 +30,10 @@ The following table shows which components have updates in each category.
 | misc | [11 items](#Features_misc) | [19 items](#Fixes_misc) | |
 | multiphysicsmapper | | [5 items](#Fixes_multiphysicsmapper) | |
 | name | | [1 item](#Fixes_name) | |
-| native | | [19 items](#Fixes_native) | |
+| native | | [20 items](#Fixes_native) | |
 | perf | [2 items](#Features_perf) | [1 item](#Fixes_perf) | |
 | prime | [3 items](#Features_prime) | | |
 | rbd | | [1 item](#Fixes_rbd) | |
-| rotation | | [1 item](#Fixes_rotation) | |
 
 ## c\#
 
@@ -812,6 +811,9 @@ The following table shows which components have updates in each category.
 - Improve rotation handling on Invariant Source operators:
   > Improve rotation handling on Invariant operators.
 
+- Fix of nested cms rotation with empty angles for harmonic msup:
+  > Fix of nested cms rotation with empty angles for harmonic msup
+
 ## perf
 
 ### <a id="Features_perf"></a> Features
@@ -844,13 +846,6 @@ The following table shows which components have updates in each category.
 ### <a id="Fixes_rbd"></a> Fixes
 
 - Create first version of ResultInfo to avoid crash:
-
-## rotation
-
-### <a id="Fixes_rotation"></a> Fixes
-
-- Fix of nested cms rotation with empty angles for harmonic msup:
-  > Fix of nested cms rotation with empty angles for harmonic msup
 
 ## Operator changes
 
