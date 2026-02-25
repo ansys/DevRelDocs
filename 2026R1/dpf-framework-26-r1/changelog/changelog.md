@@ -28,7 +28,7 @@ The following table shows which components have updates in each category.
 | mechanical | [1 item](#Features_mechanical) | [3 items](#Fixes_mechanical) | |
 | mesh | | [2 items](#Fixes_mesh) | |
 | misc | [11 items](#Features_misc) | [19 items](#Fixes_misc) | |
-| multiphysicsmapper | | [5 items](#Fixes_multiphysicsmapper) | |
+| multiphysicsmapper | | [1 item](#Fixes_multiphysicsmapper) | |
 | native | | [20 items](#Fixes_native) | |
 | rbd | | [1 item](#Fixes_rbd) | |
 
@@ -732,17 +732,9 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_multiphysicsmapper"></a> Fixes
 
-- Pass num_threads and run_in_parallel to Rescope:
-
-- Ensure all fields have the same scoping in ApplyMapping:
-
-- Final performance improvements:
-
-- Ensure Linux thread safety of add_field:
-
 - Fix parallelization in Linux:
 
-  > The `mechanical_native_mapping::apply` operator now runs properly in parallel in Linux.
+  > The `mapping.apply_mechanical_native_mapping` operator now runs properly in parallel in Linux.
 
 ## native
 
