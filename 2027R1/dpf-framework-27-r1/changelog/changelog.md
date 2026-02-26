@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-02-24).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-02-25).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -9,11 +9,12 @@ The following table shows which components have updates in each category.
 | Component | Features | Fixes | 
 |-----------|----------|----------|
 | 1297620 |  |[1 item](#Fixes_1297620) |
+| averaging |  |[1 item](#Fixes_averaging) |
 | c# |  |[1 item](#Fixes_c#) |
 | cff | [2 items](#Features_cff) |[4 items](#Fixes_cff) |
 | cgns | [1 item](#Features_cgns) | |
 | changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
-| ci | [1 item](#Features_ci) |[1 item](#Fixes_ci) |
+| ci | [1 item](#Features_ci) |[2 items](#Fixes_ci) |
 | compression | [3 items](#Features_compression) |[1 item](#Fixes_compression) |
 | core |  |[1 item](#Fixes_core) |
 | cyclic | [1 item](#Features_cyclic) | |
@@ -35,7 +36,7 @@ The following table shows which components have updates in each category.
 | kernel | [2 items](#Features_kernel) |[8 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [14 items](#Features_mapdl) |[40 items](#Fixes_mapdl) |
+| mapdl | [14 items](#Features_mapdl) |[41 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | math | [10 items](#Features_math) |[1 item](#Fixes_math) |
 | mechanical | [2 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
@@ -59,6 +60,18 @@ The following table shows which components have updates in each category.
 
 - Cplx division operator has to high tolerance:
   > Change the tolerance for cplx division from 1e-10 to 1e-15.
+  >
+  > 
+  >
+  > 
+## averaging
+
+### <a id="Fixes_averaging"></a> Fixes
+
+- Adapt elemental_nodal_to_nodal to properly handle midside nodes:
+  > 
+  >
+  > The `elemental_nodal_to_nodal` averaging operators required to have all corner nodes corresponding to a midside node contained in the input nodal scoping if the result wanted to be obtained at that given midside node. This requirement is no longer present.
   >
   > 
   >
@@ -157,6 +170,15 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_ci"></a> Fixes
+
+- Fix Nuget tests:
+  > 
+  >
+  > Bring the changes from WorkflowMediumComplexityTest in CS_DataProcessingTests to NuGet.Cs.Ext.Test.
+  >
+  > 
+  >
+  > 
 
 - Ensure backwards compatibility in invariants and eigenvalues source operators:
   > 
@@ -962,6 +984,13 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Wrong update concerning shell layers:
+  > Wrong update is done while looping over elemental results concerning shell layer. We update the number of shell layer when this is not allowed regarding the post process that is done after reading the result.
+  >
+  > 
+  >
+  > 
 
 - Fix possible out of bounds when reading RST and DSUB files:
   > 
