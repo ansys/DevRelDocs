@@ -2,4 +2,4 @@
 
 <a id="compolyx.PlyBook.initialize_plybook"></a>
 
-#### PlyBook.initialize_plybook(\*\*kwargs)
+## PlyBook.initialize_plybook(\*\*kwargs)

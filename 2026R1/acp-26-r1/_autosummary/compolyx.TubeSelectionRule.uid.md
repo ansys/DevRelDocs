@@ -2,6 +2,6 @@
 
 <a id="compolyx.TubeSelectionRule.uid"></a>
 
-#### *property* TubeSelectionRule.uid
+## *property* TubeSelectionRule.uid
 
 UID of the object.

@@ -2,11 +2,11 @@
 
 <a id="compolyx.SolidModel.create_extrusion_guide"></a>
 
-#### SolidModel.create_extrusion_guide(name, edge_set=None, id='', cad_geometry=None, direction=(0.0, 0.0, 0.0), radius=None, depth=1.0, use_curvature_correction=False, active=True)
+## SolidModel.create_extrusion_guide(name, edge_set=None, id='', cad_geometry=None, direction=(0.0, 0.0, 0.0), radius=None, depth=1.0, use_curvature_correction=False, active=True)
 
 Create a new extrusion guide.
 
-### Parameters:
+### Parameters
   - name: The name of the extrusion guide.
   - edge_set: An edge set where this guide applies.
   - id: The ID of the extrusion guide.

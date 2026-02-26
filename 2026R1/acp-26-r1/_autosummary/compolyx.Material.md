@@ -8,7 +8,7 @@ Represents a material.
 
 Provides access to all material properties defined in the loaded finite element model.
 
-### Access:
+### Access
   ```pycon
   >>> import compolyx
   >>> db = compolyx.DB()

@@ -2,6 +2,6 @@
 
 <a id="compolyx.SphericalSelectionRule.serialize"></a>
 
-#### SphericalSelectionRule.serialize()
+## SphericalSelectionRule.serialize()
 
 Serialize to Python string.

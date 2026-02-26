@@ -2,6 +2,6 @@
 
 <a id="compolyx.ModelingPly.area"></a>
 
-#### *property* ModelingPly.area
+## *property* ModelingPly.area
 
 Area of the modeling ply.

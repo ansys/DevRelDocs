@@ -2,9 +2,9 @@
 
 <a id="compolyx.OrientedSelectionSet.save_flat_wrap"></a>
 
-#### OrientedSelectionSet.save_flat_wrap(filename)
+## OrientedSelectionSet.save_flat_wrap(filename)
 
 Write the flatwrap to .dxf, .iges, or .step file.
 
-### Parameters:
+### Parameters
   - filename: Path to the file to be written.

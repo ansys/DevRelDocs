@@ -2,6 +2,6 @@
 
 <a id="compolyx.SphericalSelectionRule.uid"></a>
 
-#### *property* SphericalSelectionRule.uid
+## *property* SphericalSelectionRule.uid
 
 UID of the object.

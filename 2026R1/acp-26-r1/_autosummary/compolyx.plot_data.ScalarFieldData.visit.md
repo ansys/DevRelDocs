@@ -2,12 +2,12 @@
 
 <a id="compolyx.plot_data.ScalarFieldData.visit"></a>
 
-#### ScalarFieldData.visit(visitor)
+## ScalarFieldData.visit(visitor)
 
 Walk through the tree and let the visitor perform action on every
 descendant node.
 
-### Parameters:
+### Parameters
 
 - visitor: A callable which accepts a TreeNode instance as parameter
 

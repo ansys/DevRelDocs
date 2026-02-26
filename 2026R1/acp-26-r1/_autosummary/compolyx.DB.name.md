@@ -2,6 +2,6 @@
 
 <a id="compolyx.DB.name"></a>
 
-#### *property* DB.name
+## *property* DB.name
 
 Name of the object.

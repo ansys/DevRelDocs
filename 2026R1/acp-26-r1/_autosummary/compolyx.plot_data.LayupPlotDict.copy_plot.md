@@ -2,16 +2,16 @@
 
 <a id="compolyx.plot_data.LayupPlotDict.copy_plot"></a>
 
-#### LayupPlotDict.copy_plot(source)
+## LayupPlotDict.copy_plot(source)
 
 Copy a plot object.
 
-### Parameters:
+### Parameters
   - source: Plot object to be copied.
-### Returns:
+### Returns
   Object of the plot duplicate.
 
-### Examples:
+### Examples
 : Make a copy of the thickness plot “My_Thickness_Plot”:
   <br/>
   ```default

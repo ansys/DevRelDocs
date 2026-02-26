@@ -2,11 +2,11 @@
 
 <a id="compolyx.Model.copy_oriented_selection_set"></a>
 
-#### Model.copy_oriented_selection_set(source)
+## Model.copy_oriented_selection_set(source)
 
 Copy an oriented element set.
 
-### Parameters:
+### Parameters
   - source: Source object to copy.
-### Returns:
+### Returns
   New instance of oriented element set.

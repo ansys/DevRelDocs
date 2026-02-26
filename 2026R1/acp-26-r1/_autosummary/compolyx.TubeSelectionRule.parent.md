@@ -2,6 +2,6 @@
 
 <a id="compolyx.TubeSelectionRule.parent"></a>
 
-#### *property* TubeSelectionRule.parent
+## *property* TubeSelectionRule.parent
 
 Parent object in the tree.

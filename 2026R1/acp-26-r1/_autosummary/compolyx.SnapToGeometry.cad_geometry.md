@@ -2,6 +2,6 @@
 
 <a id="compolyx.SnapToGeometry.cad_geometry"></a>
 
-#### *property* SnapToGeometry.cad_geometry
+## *property* SnapToGeometry.cad_geometry
 
 Associated Geometry.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.Stackup.serialize"></a>
 
-#### Stackup.serialize()
+## Stackup.serialize()
 
 Serialize to Python string.

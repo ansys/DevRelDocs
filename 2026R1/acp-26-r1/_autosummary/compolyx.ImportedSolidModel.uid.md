@@ -2,6 +2,6 @@
 
 <a id="compolyx.ImportedSolidModel.uid"></a>
 
-#### *property* ImportedSolidModel.uid
+## *property* ImportedSolidModel.uid
 
 UID of the object.

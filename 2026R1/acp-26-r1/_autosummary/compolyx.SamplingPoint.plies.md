@@ -2,6 +2,6 @@
 
 <a id="compolyx.SamplingPoint.plies"></a>
 
-#### *property* SamplingPoint.plies
+## *property* SamplingPoint.plies
 
 Plies of the sampling point.

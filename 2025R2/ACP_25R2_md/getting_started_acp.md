@@ -32,7 +32,7 @@ stress limits, Puck, and Tsai-Wu constants for the UD and core materials. A list
 
 These examples are provided as a guide to more involved commands in the shell view. They all refer to the example model Kiteboard.
 
-**Maximum layup thickness**
+### Maximum layup thickness
 
 ```python
 # get active model
@@ -48,7 +48,7 @@ index_of_max = thicknesses.index(max_thickness)
 element_label_with_max_thickness = labels[index_of_max]
 ```
 
-**Maximum ply thickness**
+### Maximum ply thickness
 
 ```python
 # get active model
@@ -67,7 +67,7 @@ index_of_max = thicknesses.index(max_thickness)
 element_label_with_max_thickness = labels[index_of_max]
 ```
 
-**Maximum inverse reserve factor and failure mode**
+### Maximum inverse reserve factor and failure mode
 
 ```python
 # get active model

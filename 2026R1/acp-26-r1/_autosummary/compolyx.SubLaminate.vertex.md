@@ -2,6 +2,6 @@
 
 <a id="compolyx.SubLaminate.vertex"></a>
 
-#### *property* SubLaminate.vertex
+## *property* SubLaminate.vertex
 
 Raises an error if the object has been removed from the graph.

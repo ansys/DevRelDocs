@@ -2,6 +2,6 @@
 
 <a id="compolyx.ModelingPly.orientations"></a>
 
-#### *property* ModelingPly.orientations
+## *property* ModelingPly.orientations
 
 Returns the oriented normals of the modeling ply.

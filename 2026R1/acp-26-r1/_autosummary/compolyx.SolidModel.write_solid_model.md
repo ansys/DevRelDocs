@@ -2,9 +2,9 @@
 
 <a id="compolyx.SolidModel.write_solid_model"></a>
 
-#### SolidModel.write_solid_model(path)
+## SolidModel.write_solid_model(path)
 
 Export solid model as FE model for ANSYS.
 
-### Parameters:
+### Parameters
   - path: Out file path (current supported formats are .cdb or .h5).

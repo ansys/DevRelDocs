@@ -2,6 +2,6 @@
 
 <a id="compolyx.EdgeSet.mesh"></a>
 
-#### *property* EdgeSet.mesh
+## *property* EdgeSet.mesh
 
 The edge set mesh.

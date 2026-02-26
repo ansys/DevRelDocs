@@ -2,6 +2,6 @@
 
 <a id="compolyx.VirtualGeometry.uid"></a>
 
-#### *property* VirtualGeometry.uid
+## *property* VirtualGeometry.uid
 
 UID of the object.

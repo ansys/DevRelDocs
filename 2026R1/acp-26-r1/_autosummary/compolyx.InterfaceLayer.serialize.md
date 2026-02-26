@@ -2,6 +2,6 @@
 
 <a id="compolyx.InterfaceLayer.serialize"></a>
 
-#### InterfaceLayer.serialize()
+## InterfaceLayer.serialize()
 
 Serialize to Python string.

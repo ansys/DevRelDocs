@@ -2,6 +2,6 @@
 
 <a id="compolyx.ImportedProductionPly.is_dict_item"></a>
 
-#### *property* ImportedProductionPly.is_dict_item
+## *property* ImportedProductionPly.is_dict_item
 
 Indicates whether the object is an item in a dictionary.

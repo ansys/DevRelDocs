@@ -2,6 +2,6 @@
 
 <a id="compolyx.AnalysisPly.update"></a>
 
-#### AnalysisPly.update()
+## AnalysisPly.update()
 
 Updates the analysis ply.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.PlyBook.reST_chapter"></a>
 
-#### *property* PlyBook.reST_chapter
+## *property* PlyBook.reST_chapter
 
 reST chapter template.

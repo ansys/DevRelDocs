@@ -2,6 +2,6 @@
 
 <a id="compolyx.FieldDefinition.serialize"></a>
 
-#### FieldDefinition.serialize()
+## FieldDefinition.serialize()
 
 Serialize to Python string.

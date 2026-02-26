@@ -2,6 +2,6 @@
 
 <a id="compolyx.ModelingGroup.plies"></a>
 
-#### *property* ModelingGroup.plies
+## *property* ModelingGroup.plies
 
 Modeling plies of the Modeling Group.

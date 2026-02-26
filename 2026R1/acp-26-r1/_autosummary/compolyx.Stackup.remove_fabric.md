@@ -2,9 +2,9 @@
 
 <a id="compolyx.Stackup.remove_fabric"></a>
 
-#### Stackup.remove_fabric(pos)
+## Stackup.remove_fabric(pos)
 
 Remove fabric from position.
 
-### Parameters:
+### Parameters
   - pos: Position of the fabric to remove.

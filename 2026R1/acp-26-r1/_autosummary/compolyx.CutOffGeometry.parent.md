@@ -2,6 +2,6 @@
 
 <a id="compolyx.CutOffGeometry.parent"></a>
 
-#### *property* CutOffGeometry.parent
+## *property* CutOffGeometry.parent
 
 Parent object in the tree.

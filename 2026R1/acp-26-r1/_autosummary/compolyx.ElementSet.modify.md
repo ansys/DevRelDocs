@@ -2,11 +2,11 @@
 
 <a id="compolyx.ElementSet.modify"></a>
 
-#### ElementSet.modify(op='new', element_labels=None, element_sets=None, x=None, y=None, z=None)
+## ElementSet.modify(op='new', element_labels=None, element_sets=None, x=None, y=None, z=None)
 
 General method to modify the elements in an element set.
 
-### Parameters:
+### Parameters
   - op: Selection method. Valid options: new, add, remove, intersect, and inverse.
   - element_labels: List of element IDs.
   - element_sets: List of element sets.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.OrientedSelectionSet.normal_from_id"></a>
 
-#### OrientedSelectionSet.normal_from_id(id)
+## OrientedSelectionSet.normal_from_id(id)
 
 Returns the element normal.

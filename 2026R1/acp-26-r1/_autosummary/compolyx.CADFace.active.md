@@ -2,6 +2,6 @@
 
 <a id="compolyx.CADFace.active"></a>
 
-#### *property* CADFace.active
+## *property* CADFace.active
 
 Active status of the object.

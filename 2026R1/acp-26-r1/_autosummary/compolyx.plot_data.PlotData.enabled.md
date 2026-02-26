@@ -2,6 +2,6 @@
 
 <a id="compolyx.plot_data.PlotData.enabled"></a>
 
-#### *property* PlotData.enabled
+## *property* PlotData.enabled
 
 Indicates whether the object is enabled. Mainly defined through the current application mode pre or post.

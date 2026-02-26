@@ -2,11 +2,11 @@
 
 <a id="compolyx.Model.export_solid_models"></a>
 
-#### Model.export_solid_models(directory=None, prefix='ACPSolidModel_', delete_existing=True, formats=['cdb', 'h5'], normalize_filename_for_cdb=False)
+## Model.export_solid_models(directory=None, prefix='ACPSolidModel_', delete_existing=True, formats=['cdb', 'h5'], normalize_filename_for_cdb=False)
 
 Save solid models to files. Function is used within the Workbench application updates.
 
-### Parameters:
+### Parameters
   - directory: Directory to save the models.
   - prefix: Prefix of the model. Default “
 

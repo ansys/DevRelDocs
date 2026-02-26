@@ -2,6 +2,6 @@
 
 <a id="compolyx.CutOffGeometry.uid"></a>
 
-#### *property* CutOffGeometry.uid
+## *property* CutOffGeometry.uid
 
 UID of the object.

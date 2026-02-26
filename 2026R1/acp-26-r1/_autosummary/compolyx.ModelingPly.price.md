@@ -2,6 +2,6 @@
 
 <a id="compolyx.ModelingPly.price"></a>
 
-#### *property* ModelingPly.price
+## *property* ModelingPly.price
 
 Price of the modeling ply.

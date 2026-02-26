@@ -2,11 +2,11 @@
 
 <a id="compolyx.ImportedModelingGroup.copy_imported_modeling_ply"></a>
 
-#### ImportedModelingGroup.copy_imported_modeling_ply(source)
+## ImportedModelingGroup.copy_imported_modeling_ply(source)
 
 Copy an imported modeling ply.
 
-### Parameters:
+### Parameters
   - source: Source object to copy.
-### Returns:
+### Returns
   New instance of imported modeling ply.

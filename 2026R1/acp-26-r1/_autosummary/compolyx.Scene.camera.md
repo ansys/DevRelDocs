@@ -2,6 +2,6 @@
 
 <a id="compolyx.Scene.camera"></a>
 
-#### *property* Scene.camera
+## *property* Scene.camera
 
 Camera settings.

@@ -2,4 +2,4 @@
 
 <a id="compolyx.Scene.show_orientations"></a>
 
-#### *property* Scene.show_orientations
+## *property* Scene.show_orientations

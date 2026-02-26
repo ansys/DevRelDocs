@@ -2,11 +2,11 @@
 
 <a id="compolyx.Model.create_section_cut"></a>
 
-#### Model.create_section_cut(name, id=None, active=True, origin=(0.0, 0.0, 0.0), normal=(0.0, 0.0, 1.0), in_plane_reference_direction1=(1.0, 0.0, 0.0), scale_factor=1.0, core_scale_factor=1.0, intersection_type='normal_to_surface', section_cut_type='modeling_ply_wise', extrusion_type='wire_frame', use_default_tolerance=True, tolerance=0.0, use_default_lut_settings=True, search_radius=0.0, number_of_interpolation_points=1, scope_entire_model=True, scope_element_sets=(), locked=False)
+## Model.create_section_cut(name, id=None, active=True, origin=(0.0, 0.0, 0.0), normal=(0.0, 0.0, 1.0), in_plane_reference_direction1=(1.0, 0.0, 0.0), scale_factor=1.0, core_scale_factor=1.0, intersection_type='normal_to_surface', section_cut_type='modeling_ply_wise', extrusion_type='wire_frame', use_default_tolerance=True, tolerance=0.0, use_default_lut_settings=True, search_radius=0.0, number_of_interpolation_points=1, scope_entire_model=True, scope_element_sets=(), locked=False)
 
 Creates a new section cut.
 
-### Parameters:
+### Parameters
   - name: The name of the section cut.
   - id: The ID of the section cut.
   - active: Whether the section cut is active.
@@ -26,5 +26,5 @@ Creates a new section cut.
   - scope_entire_model: Whether to scope the section cut to the entire model, or only selected element sets.
   - scope_element_sets: Element sets to which the section cut is scoped, if scope_entire_model=False.
 
-### Return:
+### Return
     The new section cut object.

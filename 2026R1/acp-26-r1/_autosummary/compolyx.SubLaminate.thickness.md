@@ -2,6 +2,6 @@
 
 <a id="compolyx.SubLaminate.thickness"></a>
 
-#### *property* SubLaminate.thickness
+## *property* SubLaminate.thickness
 
 Thickness of the Sub Laminate.

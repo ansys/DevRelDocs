@@ -2,11 +2,11 @@
 
 <a id="compolyx.AnalysisPly.visit"></a>
 
-#### AnalysisPly.visit(visitor)
+## AnalysisPly.visit(visitor)
 
 Walk through the tree and applies the visitor to every descendant node.
 
-### Parameters:
+### Parameters
 
 - visitor: A callable which accepts a TreeNode instance as parameter
 

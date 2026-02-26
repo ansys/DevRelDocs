@@ -2,6 +2,6 @@
 
 <a id="compolyx.Sensor.uid"></a>
 
-#### *property* Sensor.uid
+## *property* Sensor.uid
 
 UID of the object.

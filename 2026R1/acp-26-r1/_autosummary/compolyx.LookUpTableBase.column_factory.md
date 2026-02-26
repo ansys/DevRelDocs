@@ -2,4 +2,4 @@
 
 <a id="compolyx.LookUpTableBase.column_factory"></a>
 
-#### LookUpTableBase.column_factory *= None*
+## LookUpTableBase.column_factory *= None*

@@ -2,11 +2,11 @@
 
 <a id="compolyx.Model.copy_selection_rule"></a>
 
-#### Model.copy_selection_rule(source)
+## Model.copy_selection_rule(source)
 
 Copy a rule.
 
-### Parameters:
+### Parameters
   - source: Source object to copy.
-### Returns:
+### Returns
   New instance of rule.

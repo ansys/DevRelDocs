@@ -2,7 +2,7 @@
 
 <a id="compolyx.SnapToGeometry.obj_exists"></a>
 
-#### SnapToGeometry.obj_exists()
+## SnapToGeometry.obj_exists()
 
 Checks if \_\_obj still references the c++ object (has not been reset to None by self._delete) and
 exists in the graph.

@@ -2,11 +2,11 @@
 
 <a id="compolyx.VirtualGeometry.create_cad_reference"></a>
 
-#### VirtualGeometry.create_cad_reference(name='VirtualGeometry.1', id=None, path=None, size=None, cog=None, dimension=None, bounding_box_min=None, bounding_box_max=None)
+## VirtualGeometry.create_cad_reference(name='VirtualGeometry.1', id=None, path=None, size=None, cog=None, dimension=None, bounding_box_min=None, bounding_box_max=None)
 
 Creates a new CAD reference and links it with the virtual geometry.
 
-### Parameters:
+### Parameters
   - name: Name of the object.
   - id: ID of the object.
   - path: Path of the linked CAD component. For instance “CADGeometry.1//top_surface”.
@@ -15,5 +15,5 @@ Creates a new CAD reference and links it with the virtual geometry.
   - dimension: The shape type of the CAD component. Valid options: CADCompound, CADSolid, CADShell, and CADFace.
   - bounding_box_min: Minimum point of the bounding box.
   - bounding_box_max: Maximum point of the bounding box.
-### Return:
+### Return
   - The new CAD reference object.

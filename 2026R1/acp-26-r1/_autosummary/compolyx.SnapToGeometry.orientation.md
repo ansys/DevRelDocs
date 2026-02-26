@@ -2,6 +2,6 @@
 
 <a id="compolyx.SnapToGeometry.orientation"></a>
 
-#### *property* SnapToGeometry.orientation
+## *property* SnapToGeometry.orientation
 
 Orientation. Allowed string values: [‘top’, ‘bottom’, ‘undefined’].

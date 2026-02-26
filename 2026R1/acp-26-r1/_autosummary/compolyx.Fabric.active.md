@@ -2,6 +2,6 @@
 
 <a id="compolyx.Fabric.active"></a>
 
-#### *property* Fabric.active
+## *property* Fabric.active
 
 Active status of the object.

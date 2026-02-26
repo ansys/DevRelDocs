@@ -2,6 +2,6 @@
 
 <a id="compolyx.InterfaceLayer.ply_offsets"></a>
 
-#### *property* InterfaceLayer.ply_offsets
+## *property* InterfaceLayer.ply_offsets
 
-Returns the offsetted Interface Layer.
+Returns the offset Interface Layer.

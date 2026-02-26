@@ -2,6 +2,6 @@
 
 <a id="compolyx.Scene.background"></a>
 
-#### *property* Scene.background
+## *property* Scene.background
 
 Background color.

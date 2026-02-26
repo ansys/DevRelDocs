@@ -2,6 +2,6 @@
 
 <a id="compolyx.ImportedModelingPly.ply_material"></a>
 
-#### *property* ImportedModelingPly.ply_material
+## *property* ImportedModelingPly.ply_material
 
 Material of the modeling ply.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.InterfaceLayer.status"></a>
 
-#### *property* InterfaceLayer.status
+## *property* InterfaceLayer.status
 
 Status of the object.

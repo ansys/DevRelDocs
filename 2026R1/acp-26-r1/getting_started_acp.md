@@ -4,25 +4,21 @@
 
 ## Basic scripting
 
-The scripting language of ACP is Python which is an object oriented programming language. The user should have some
-basics experience in object oriented programming for the optimal use, but a basic script can easily be written by modifying an existing one or
-copy and paste from the History or Shell view.
+ACP uses Python as its scripting language. Because the API is object‑oriented, having basic experience with object‑oriented programming is helpful. However, you can often start by copying and adapting commands from the History or Shell views.
 
-An example of one command is given below. In this command, the density of the material Corecell_A450 is defined (or modified if already defined) as 90.
+The following example shows how to define or update the density of the material `Corecell_A450`:
 
 ```python
 db.models['class40.1'].material_data.materials['Corecell_A450'].rho = 90.0
 ```
 
-The easiest way to use scripting is to generate a script with the Graphical User Interface. Every action performed via the GUI is written to the
-History view. Use copy and paste to create your own scripts with a text editor. Save the scripts as \*.py file and use the Run Script…
-functionality in the File Menu to run your script. In the case of an error, check the Shell view for more details.
+A simple way to begin scripting is to generate commands through the graphical user interface (GUI). Every action you perform in the ACP GUI is recorded in the history view. You can copy these commands into a text editor, save them as a \*.py file, and run the script using *File > Run Script…*. If a script fails, check the Shell view for error details.
 
-The aforementioned approach may be limited when it comes to retrieving solution results or specific model information.
-The section [Advanced scripting](#advanced-python-code) lists several examples of to how to access such information via a script.
+This approach is useful for basic automation but limited for tasks such as querying solution results or retrieving detailed model information. For more advanced tasks, see the examples in [Advanced scripting](#advanced-python-code).
 
-Additionally, an example of a python script is given in the Class40 example folder in the ACP installation directory. The update_materials.py file defines
-stress limits, Puck and Tsai-Wu constants for the UD and core materials. A list of common commands used to retrieve or modify data is shown below.
+ACP also provides example scripts in the ACP installation directory. For instance, the update_materials.py script (in the Class40 example folder) defines stress limits and Puck and Tsai‑Wu constants for UD and core materials.
+
+Below are several commonly used scripting patterns for retrieving or modifying data.
 
 <a id="advanced-python-code"></a>
 
@@ -30,9 +26,9 @@ stress limits, Puck and Tsai-Wu constants for the UD and core materials. A list 
 
 ## Advanced scripting
 
-These examples are provided as a guide to more involved commands in the shell view. They all refer to the example model Kiteboard.
+These scripts illustrate more advanced operations using the example *Kiteboard* model. Each example shows how to query specific information from the active model.
 
-### Maximum Layup Thickness
+### Maximum layup thickness
 
 ```python
 # get active model
@@ -48,7 +44,7 @@ index_of_max = thicknesses.index(max_thickness)
 element_label_with_max_thickness = labels[index_of_max]
 ```
 
-### Maximum Ply Thickness
+### Maximum ply thickness
 
 ```python
 # get active model
@@ -67,7 +63,7 @@ index_of_max = thicknesses.index(max_thickness)
 element_label_with_max_thickness = labels[index_of_max]
 ```
 
-### Maximum Inverse Reserve Factor and Failure Mode
+### Maximum inverse reserve factor and failure mode
 
 ```python
 # get active model

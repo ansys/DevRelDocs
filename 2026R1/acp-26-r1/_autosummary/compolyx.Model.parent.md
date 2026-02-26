@@ -2,6 +2,6 @@
 
 <a id="compolyx.Model.parent"></a>
 
-#### *property* Model.parent
+## *property* Model.parent
 
 Parent object in the tree.

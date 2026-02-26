@@ -2,6 +2,6 @@
 
 <a id="compolyx.SamplingPoint.uid"></a>
 
-#### *property* SamplingPoint.uid
+## *property* SamplingPoint.uid
 
 UID of the object.

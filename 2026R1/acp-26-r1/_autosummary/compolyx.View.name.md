@@ -2,6 +2,6 @@
 
 <a id="compolyx.View.name"></a>
 
-#### *property* View.name
+## *property* View.name
 
 Name of the object.

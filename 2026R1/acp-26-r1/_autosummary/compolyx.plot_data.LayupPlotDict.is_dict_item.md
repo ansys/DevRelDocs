@@ -2,6 +2,6 @@
 
 <a id="compolyx.plot_data.LayupPlotDict.is_dict_item"></a>
 
-#### *property* LayupPlotDict.is_dict_item
+## *property* LayupPlotDict.is_dict_item
 
 Indicates whether the object is an item in a dictionary.

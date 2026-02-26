@@ -2,6 +2,6 @@
 
 <a id="compolyx.CutoffSelectionRule.parent"></a>
 
-#### *property* CutoffSelectionRule.parent
+## *property* CutoffSelectionRule.parent
 
 Parent object in the tree.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.Model.mesh"></a>
 
-#### *property* Model.mesh
+## *property* Model.mesh
 
 Mesh of this model.

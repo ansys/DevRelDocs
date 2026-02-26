@@ -2,9 +2,9 @@
 
 <a id="compolyx.Model.element_normal"></a>
 
-#### Model.element_normal(globalID)
+## Model.element_normal(globalID)
 
 Returns the element normal (direction).
 
-### Parameters:
+### Parameters
   - globalID: Element label.

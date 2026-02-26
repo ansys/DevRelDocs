@@ -2,11 +2,11 @@
 
 <a id="compolyx.SectionCut.export_surface_section_cut"></a>
 
-#### SectionCut.export_surface_section_cut(path, format='becas:in', export_strength_limits=True, mapdl_model_type='mesh_only')
+## SectionCut.export_surface_section_cut(path, format='becas:in', export_strength_limits=True, mapdl_model_type='mesh_only')
 
 Exports the surface section cut to BECAS or ANSYS Mechanical APDL.
 
-### Parameters:
+### Parameters
   - path: File path or directory depending on the export format.
   - format: Export format. Implemented are ‘becas:in’ (default) and ‘ansys:cdb’.
   - export_strength_limits: Whether to export the strength limits for BECAS (default is ‘True’). Ignored if the format is not ‘becas:in’.
@@ -18,12 +18,12 @@ Exports the surface section cut to BECAS or ANSYS Mechanical APDL.
       : In addition, the material properties are exported and the element coordinate systems
         are aligned with the fiber direction. This model can be used to compute the equivalent
         beam properties of the section cut.
-### Usage:
+### Usage
   ```pycon
   >>> section_cut.export_surface_section_cut(r'D:\tmp\section_cut.cdb', 'ansys:cdb', mapdl_model_type='mesh_only')
   >>> section_cut.export_surface_section_cut(r'D:\tmp\section_cut.cdb', 'ansys:cdb', mapdl_model_type='solid_model')
   >>> section_cut.export_surface_section_cut(path=r'D:\tmp', format='becas:in', export_strength_limits=False)
   ```
-### Output:
+### Output
   - mapdl: CDB file including the nodes and elements.
   - becas: BECAS IN input files: N2D, E2D, EMAT and MATPROPS. Optional FAILMAT.

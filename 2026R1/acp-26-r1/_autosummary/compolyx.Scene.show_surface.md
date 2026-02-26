@@ -2,4 +2,4 @@
 
 <a id="compolyx.Scene.show_surface"></a>
 
-#### *property* Scene.show_surface
+## *property* Scene.show_surface

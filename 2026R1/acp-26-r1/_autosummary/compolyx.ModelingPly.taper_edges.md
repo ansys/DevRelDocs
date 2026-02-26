@@ -2,6 +2,6 @@
 
 <a id="compolyx.ModelingPly.taper_edges"></a>
 
-#### *property* ModelingPly.taper_edges
+## *property* ModelingPly.taper_edges
 
 Taper Edges of the modeling ply.

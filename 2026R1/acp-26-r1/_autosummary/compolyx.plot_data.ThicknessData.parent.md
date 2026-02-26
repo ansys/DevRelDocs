@@ -2,6 +2,6 @@
 
 <a id="compolyx.plot_data.ThicknessData.parent"></a>
 
-#### *property* ThicknessData.parent
+## *property* ThicknessData.parent
 
 Parent object in the tree.

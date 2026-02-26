@@ -2,4 +2,4 @@
 
 <a id="compolyx.ImportedModelingGroup.clear"></a>
 
-#### ImportedModelingGroup.clear()
+## ImportedModelingGroup.clear()

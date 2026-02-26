@@ -2,11 +2,11 @@
 
 <a id="compolyx.plot_data.LayupPlotDict.create_user_defined_plot"></a>
 
-#### LayupPlotDict.create_user_defined_plot(name=None, id=None, active=True, scope_entire_model=True, data_scope=[], user_data=[], user_text=[], user_script=None, user_script_enabled=False, show_on_solids=False, show_user_text=False, text_threshold=0.0, text_threshold_type='show_all', show_ply_offsets=False, ply_offset_scale_factor=1.0, add_to_active_set=True, locked=False)
+## LayupPlotDict.create_user_defined_plot(name=None, id=None, active=True, scope_entire_model=True, data_scope=[], user_data=[], user_text=[], user_script=None, user_script_enabled=False, show_on_solids=False, show_user_text=False, text_threshold=0.0, text_threshold_type='show_all', show_ply_offsets=False, ply_offset_scale_factor=1.0, add_to_active_set=True, locked=False)
 
 Create a User-defined Plot object.
 
-### Parameters:
+### Parameters
   - name: Name of the plot.
   - id: ID for the plot.
   - active: Whether the plot is active.
@@ -22,10 +22,10 @@ Create a User-defined Plot object.
   - text_threshold: Threshold used for showing text if text_threshold_type is not “show_all”.
   - show_ply_offsets: ‘True’ or ‘False’ (default). Whether to display ply-wise visualizations with ply offsets.
   - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if show_ply_offsets=True.
-### Returns:
+### Returns
   The plot object.
 
-### Example:
+### Example
 : Create a user-defined plot with Data Scope set to element set “All_Elements”:
   <br/>
   ```default

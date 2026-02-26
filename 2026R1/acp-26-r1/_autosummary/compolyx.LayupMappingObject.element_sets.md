@@ -2,6 +2,6 @@
 
 <a id="compolyx.LayupMappingObject.element_sets"></a>
 
-#### *property* LayupMappingObject.element_sets
+## *property* LayupMappingObject.element_sets
 
 One or more element sets of the solid model.

@@ -2,11 +2,11 @@
 
 <a id="compolyx.plot_data.LayupPlotDict.create_layup_mapping_plot"></a>
 
-#### LayupPlotDict.create_layup_mapping_plot(name=None, id=None, data_scope=[], ply_wise=True, add_to_active_set=True, locked=False, component=None, show_on_solids=True, active=True)
+## LayupPlotDict.create_layup_mapping_plot(name=None, id=None, data_scope=[], ply_wise=True, add_to_active_set=True, locked=False, component=None, show_on_solids=True, active=True)
 
 Create a Layup Mapping Plot object.
 
-### Parameters:
+### Parameters
   - name: Name of the plot.
   - id: ID for the plot.
   - data_scope: One or more objects defining the scope for which data is computed and returned. Applicable: imported solid model.
@@ -15,10 +15,10 @@ Create a Layup Mapping Plot object.
   - component: Specifies the active component.
   - show_on_solids: Whether to show the values of the solid element.
   - active: Whether the plot is active.
-### Returns:
+### Returns
   The plot object.
 
-### Example:
+### Example
 : Create a thickness plot with Data Scope set to element set “All_Elements” in ply_wise mode:
   <br/>
   ```default

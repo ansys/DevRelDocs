@@ -2,6 +2,6 @@
 
 <a id="compolyx.OrientedSelectionSet.status"></a>
 
-#### *property* OrientedSelectionSet.status
+## *property* OrientedSelectionSet.status
 
 Status of the object.

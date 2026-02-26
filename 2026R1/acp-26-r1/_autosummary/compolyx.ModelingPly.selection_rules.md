@@ -2,6 +2,6 @@
 
 <a id="compolyx.ModelingPly.selection_rules"></a>
 
-#### *property* ModelingPly.selection_rules
+## *property* ModelingPly.selection_rules
 
 Element Selection Rule of the modeling ply.

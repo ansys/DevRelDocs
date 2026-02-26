@@ -2,6 +2,6 @@
 
 <a id="compolyx.EdgeSet.status"></a>
 
-#### *property* EdgeSet.status
+## *property* EdgeSet.status
 
 Status of the object.

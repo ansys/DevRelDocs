@@ -2,6 +2,6 @@
 
 <a id="compolyx.ImportedModelingGroup.id"></a>
 
-#### *property* ImportedModelingGroup.id
+## *property* ImportedModelingGroup.id
 
 ID of the object.

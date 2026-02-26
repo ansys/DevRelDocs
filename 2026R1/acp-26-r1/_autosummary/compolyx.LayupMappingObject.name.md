@@ -2,6 +2,6 @@
 
 <a id="compolyx.LayupMappingObject.name"></a>
 
-#### *property* LayupMappingObject.name
+## *property* LayupMappingObject.name
 
 Name of the object.

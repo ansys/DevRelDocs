@@ -2,6 +2,6 @@
 
 <a id="compolyx.Model.definitions"></a>
 
-#### *property* Model.definitions
+## *property* Model.definitions
 
 Definitions.

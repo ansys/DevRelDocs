@@ -2,6 +2,6 @@
 
 <a id="compolyx.ElementSelectionRule.active"></a>
 
-#### *property* ElementSelectionRule.active
+## *property* ElementSelectionRule.active
 
 Active status of the object.

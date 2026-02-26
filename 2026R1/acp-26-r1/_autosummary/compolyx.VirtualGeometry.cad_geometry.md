@@ -2,6 +2,6 @@
 
 <a id="compolyx.VirtualGeometry.cad_geometry"></a>
 
-#### *property* VirtualGeometry.cad_geometry
+## *property* VirtualGeometry.cad_geometry
 
 Returns the linked CADGeometry. Read only.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.Scene.mode"></a>
 
-#### *property* Scene.mode
+## *property* Scene.mode
 
 Current ACP mode (preprocessing).

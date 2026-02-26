@@ -2,6 +2,6 @@
 
 <a id="compolyx.ImportedModelingGroup.remove"></a>
 
-#### ImportedModelingGroup.remove(entity)
+## ImportedModelingGroup.remove(entity)
 
 Remove entity from the set.

@@ -2,11 +2,11 @@
 
 <a id="compolyx.Model.copy_sensor"></a>
 
-#### Model.copy_sensor(source)
+## Model.copy_sensor(source)
 
 Copy a sensor.
 
-### Parameters:
+### Parameters
   - source: Source object to copy.
-### Returns:
+### Returns
   New instance of a sensor.

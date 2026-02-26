@@ -2,6 +2,6 @@
 
 <a id="compolyx.LookUpTable1D.direction"></a>
 
-#### *property* LookUpTable1D.direction
+## *property* LookUpTable1D.direction
 
 The Direction of the Look Up Table.

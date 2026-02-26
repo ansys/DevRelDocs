@@ -2,11 +2,11 @@
 
 <a id="compolyx.SolidModel.copy_extrusion_guide"></a>
 
-#### SolidModel.copy_extrusion_guide(source)
+## SolidModel.copy_extrusion_guide(source)
 
 Copy a Extrusion Guide.
 
-### Parameters:
+### Parameters
   - source: Source object to copy
-### Returns:
+### Returns
   New instance of a Extrusion Guide

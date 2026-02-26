@@ -2,4 +2,4 @@
 
 <a id="compolyx.SphericalSelectionRule.get_short_description"></a>
 
-#### SphericalSelectionRule.get_short_description()
+## SphericalSelectionRule.get_short_description()

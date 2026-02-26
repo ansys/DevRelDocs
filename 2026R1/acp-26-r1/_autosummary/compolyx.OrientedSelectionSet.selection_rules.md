@@ -2,6 +2,6 @@
 
 <a id="compolyx.OrientedSelectionSet.selection_rules"></a>
 
-#### *property* OrientedSelectionSet.selection_rules
+## *property* OrientedSelectionSet.selection_rules
 
 Selection Rules of the oriented selection set.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.Chapter.parent"></a>
 
-#### *property* Chapter.parent
+## *property* Chapter.parent
 
 Parent object in the tree.

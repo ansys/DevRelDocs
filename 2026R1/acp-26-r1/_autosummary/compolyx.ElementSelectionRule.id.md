@@ -2,6 +2,6 @@
 
 <a id="compolyx.ElementSelectionRule.id"></a>
 
-#### *property* ElementSelectionRule.id
+## *property* ElementSelectionRule.id
 
 ID of the object.

@@ -2,14 +2,14 @@
 
 <a id="compolyx.plot_data.AngleData.get_element_labels"></a>
 
-#### AngleData.get_element_labels(visible=None, selected=None)
+## AngleData.get_element_labels(visible=None, selected=None)
 
 Get element labels (element numbers as read from / written to mesh files)  of plot.
 
-### Parameters:
+### Parameters
   - visible: One or more objects defining visible scope
   - selected: Selected one or more objects for ply-wise evaluations.
-### Returns:
+### Returns
   Resulting array with element labels from the intersection of
   - data_scope of plot
   - visible_scope defined by visible
@@ -17,7 +17,7 @@ Get element labels (element numbers as read from / written to mesh files)  of pl
 
 Labels are returned independent of update status of plot, but only if results for the current plot configuration are available, else an empty array is returned.
 
-### Examples:
+### Examples
 : Get element labels for current plot with visible scope set to element set “All_Elements” and with ply1 and ply2 selected:
   <br/>
   ```default

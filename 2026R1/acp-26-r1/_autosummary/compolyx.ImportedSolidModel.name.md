@@ -2,6 +2,6 @@
 
 <a id="compolyx.ImportedSolidModel.name"></a>
 
-#### *property* ImportedSolidModel.name
+## *property* ImportedSolidModel.name
 
 Name of the object.

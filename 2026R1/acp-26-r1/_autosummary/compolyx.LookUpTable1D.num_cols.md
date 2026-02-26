@@ -2,6 +2,6 @@
 
 <a id="compolyx.LookUpTable1D.num_cols"></a>
 
-#### *property* LookUpTable1D.num_cols
+## *property* LookUpTable1D.num_cols
 
 Number of rows.

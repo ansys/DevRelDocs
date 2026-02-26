@@ -2,11 +2,11 @@
 
 <a id="compolyx.Model.select_nodes"></a>
 
-#### Model.select_nodes(selection='sel0', op='new', labels=None, attached_to=None, x=None, y=None, z=None)
+## Model.select_nodes(selection='sel0', op='new', labels=None, attached_to=None, x=None, y=None, z=None)
 
 Function selects nodes in graph and marks the given selection as SELECTED.
 
-### Parameters:
+### Parameters
   - selection: The selection to update.
     Can be given as string (‘sel0’-‘sel5’ or ‘all’)
     or ObjectSelection object such as

@@ -2,6 +2,6 @@
 
 <a id="compolyx.ModelingPly.ply_offsets"></a>
 
-#### *property* ModelingPly.ply_offsets
+## *property* ModelingPly.ply_offsets
 
-Returns the offsetted modeling ply.
+Returns the offset modeling ply.

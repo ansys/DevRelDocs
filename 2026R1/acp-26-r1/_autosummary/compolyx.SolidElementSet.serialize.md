@@ -2,6 +2,6 @@
 
 <a id="compolyx.SolidElementSet.serialize"></a>
 
-#### SolidElementSet.serialize()
+## SolidElementSet.serialize()
 
 Serialize to Python string.

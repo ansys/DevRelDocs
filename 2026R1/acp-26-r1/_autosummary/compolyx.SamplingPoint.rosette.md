@@ -2,6 +2,6 @@
 
 <a id="compolyx.SamplingPoint.rosette"></a>
 
-#### *property* SamplingPoint.rosette
+## *property* SamplingPoint.rosette
 
 Rosette of the sampling point.

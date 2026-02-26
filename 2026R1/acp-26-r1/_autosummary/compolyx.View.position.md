@@ -2,6 +2,6 @@
 
 <a id="compolyx.View.position"></a>
 
-#### *property* View.position
+## *property* View.position
 
 Get/set the view position.

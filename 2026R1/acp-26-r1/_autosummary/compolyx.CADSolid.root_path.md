@@ -2,6 +2,6 @@
 
 <a id="compolyx.CADSolid.root_path"></a>
 
-#### *property* CADSolid.root_path
+## *property* CADSolid.root_path
 
 Root path of the current node in the tree.

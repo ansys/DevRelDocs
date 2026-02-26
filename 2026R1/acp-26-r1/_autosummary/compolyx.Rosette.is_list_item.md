@@ -2,6 +2,6 @@
 
 <a id="compolyx.Rosette.is_list_item"></a>
 
-#### *property* Rosette.is_list_item
+## *property* Rosette.is_list_item
 
 Indicates whether the object is an item of a list.

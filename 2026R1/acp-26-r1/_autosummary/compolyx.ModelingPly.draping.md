@@ -2,6 +2,6 @@
 
 <a id="compolyx.ModelingPly.draping"></a>
 
-#### *property* ModelingPly.draping
+## *property* ModelingPly.draping
 
 Type of draping to be used.

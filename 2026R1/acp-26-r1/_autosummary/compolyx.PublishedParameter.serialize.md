@@ -2,6 +2,6 @@
 
 <a id="compolyx.PublishedParameter.serialize"></a>
 
-#### PublishedParameter.serialize()
+## PublishedParameter.serialize()
 
 Serialize to Python string.

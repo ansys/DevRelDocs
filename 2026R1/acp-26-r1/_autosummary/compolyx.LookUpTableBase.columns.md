@@ -2,6 +2,6 @@
 
 <a id="compolyx.LookUpTableBase.columns"></a>
 
-#### *property* LookUpTableBase.columns
+## *property* LookUpTableBase.columns
 
 Dictionary with all columns.

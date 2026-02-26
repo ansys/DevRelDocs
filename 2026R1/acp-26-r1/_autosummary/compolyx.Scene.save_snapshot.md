@@ -2,11 +2,11 @@
 
 <a id="compolyx.Scene.save_snapshot"></a>
 
-#### Scene.save_snapshot(path, width=None, height=None, draw_background=False)
+## Scene.save_snapshot(path, width=None, height=None, draw_background=False)
 
 Create a snapshot of the scene.
 
-### Parameters:
+### Parameters
   - path: File path.
   - width: Width in pixels of the snapshot.
   - height: Height in pixels of the snapshot.

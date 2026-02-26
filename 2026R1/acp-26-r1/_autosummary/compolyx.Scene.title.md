@@ -2,6 +2,6 @@
 
 <a id="compolyx.Scene.title"></a>
 
-#### *property* Scene.title
+## *property* Scene.title
 
 Scene title.

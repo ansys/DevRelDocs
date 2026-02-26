@@ -2,11 +2,11 @@
 
 <a id="compolyx.PlyBook.create_chapter"></a>
 
-#### PlyBook.create_chapter(name, view=None, ply_entities=(), show_rosettes=True)
+## PlyBook.create_chapter(name, view=None, ply_entities=(), show_rosettes=True)
 
 Add a chapter to the ply book.
 
-### Parameters:
+### Parameters
   - name: Name of the chapter to be added.
   - view: The view for snapshots of the chapter.
   - ply_entities: List of modeling plies and modeling groups for the chapter.

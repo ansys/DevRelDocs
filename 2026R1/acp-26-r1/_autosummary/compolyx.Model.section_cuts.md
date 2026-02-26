@@ -2,6 +2,6 @@
 
 <a id="compolyx.Model.section_cuts"></a>
 
-#### *property* Model.section_cuts
+## *property* Model.section_cuts
 
 Section Cuts.

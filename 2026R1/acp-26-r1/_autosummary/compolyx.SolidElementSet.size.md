@@ -2,6 +2,6 @@
 
 <a id="compolyx.SolidElementSet.size"></a>
 
-#### *property* SolidElementSet.size
+## *property* SolidElementSet.size
 
 Number of entities.

@@ -2,4 +2,4 @@
 
 <a id="compolyx.EdgeSet.update"></a>
 
-#### EdgeSet.update()
+## EdgeSet.update()

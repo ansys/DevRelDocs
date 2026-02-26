@@ -2,11 +2,11 @@
 
 <a id="compolyx.Model.copy_solid_model"></a>
 
-#### Model.copy_solid_model(source)
+## Model.copy_solid_model(source)
 
 Copy a solid model.
 
-### Parameters:
+### Parameters
   - source: Source object to copy.
-### Returns:
+### Returns
   New instance of a solid model.

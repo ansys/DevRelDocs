@@ -2,14 +2,14 @@
 
 <a id="compolyx.plot_data.LayupMappingData.remove_data_scope_entity"></a>
 
-#### LayupMappingData.remove_data_scope_entity(entity)
+## LayupMappingData.remove_data_scope_entity(entity)
 
 Remove 1 entity to the Data Scope of a plot.
 
-### Parameters:
+### Parameters
   - entity: Entity to be removed. Applicable are element set, oriented selection set, modeling ply, production ply, analysis ply, and sampling point
 
-### Example:
+### Example
 : Remove the element set “My_ESet” from my_plot:
   <br/>
   ```default

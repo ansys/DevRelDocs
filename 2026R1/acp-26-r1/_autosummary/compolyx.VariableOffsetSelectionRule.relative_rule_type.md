@@ -2,6 +2,6 @@
 
 <a id="compolyx.VariableOffsetSelectionRule.relative_rule_type"></a>
 
-#### *property* VariableOffsetSelectionRule.relative_rule_type
+## *property* VariableOffsetSelectionRule.relative_rule_type
 
 relative type.

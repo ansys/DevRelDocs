@@ -2,4 +2,4 @@
 
 <a id="compolyx.SectionCut.color_table"></a>
 
-#### *property* SectionCut.color_table
+## *property* SectionCut.color_table

@@ -2,11 +2,11 @@
 
 <a id="compolyx.Model.import_composite_cae_h5"></a>
 
-#### Model.import_composite_cae_h5(path, mode='append', projection='shell', tol_thickness=None, tol_in_plane=None, tol_angle=None, small_hole_threshold=None, tol_min_angle=None, recompute_ref_directions=False, element_sets=None, offset='bottom_offset', coord_transform_inputs=None)
+## Model.import_composite_cae_h5(path, mode='append', projection='shell', tol_thickness=None, tol_in_plane=None, tol_angle=None, small_hole_threshold=None, tol_min_angle=None, recompute_ref_directions=False, element_sets=None, offset='bottom_offset', coord_transform_inputs=None)
 
 Import a composite layup definition from a .hdf5 file.
 
-### Parameters:
+### Parameters
   - path: Load path of the .h5 file.
   - mode: Specify how objects are imported.
     - append: Imported data/objects are appended to existing model/layup.

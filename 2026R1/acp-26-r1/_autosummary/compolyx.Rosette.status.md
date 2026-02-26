@@ -2,6 +2,6 @@
 
 <a id="compolyx.Rosette.status"></a>
 
-#### *property* Rosette.status
+## *property* Rosette.status
 
 Status of the object.

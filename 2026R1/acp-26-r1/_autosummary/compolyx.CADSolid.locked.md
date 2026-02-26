@@ -2,6 +2,6 @@
 
 <a id="compolyx.CADSolid.locked"></a>
 
-#### *property* CADSolid.locked
+## *property* CADSolid.locked
 
 Locked status of the CAD Component.

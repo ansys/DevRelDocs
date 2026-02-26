@@ -2,11 +2,11 @@
 
 <a id="compolyx.plot_data.LayupPlotDict.create_material_plot"></a>
 
-#### LayupPlotDict.create_material_plot(name=None, id=None, active=True, scope_entire_model=True, data_scope=[], show_on_solids=False, show_ply_offsets=False, ply_offset_scale_factor=1.0, add_to_active_set=True, locked=False, component='E1', use_all_available_fields=True, field_variable_names=[], shear_angle_enabled=False, temperature_enabled=False)
+## LayupPlotDict.create_material_plot(name=None, id=None, active=True, scope_entire_model=True, data_scope=[], show_on_solids=False, show_ply_offsets=False, ply_offset_scale_factor=1.0, add_to_active_set=True, locked=False, component='E1', use_all_available_fields=True, field_variable_names=[], shear_angle_enabled=False, temperature_enabled=False)
 
 Create a Material Plot object.
 
-### Parameters:
+### Parameters
   - name: Name of the plot.
   - id: ID for the plot.
   - active: Whether the plot is active.
@@ -17,10 +17,10 @@ Create a Material Plot object.
   - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if show_ply_offsets=True.
   - component: Specifies the component.
   - use_all_available_fields: ‘True’ (default) or ‘False’. Whether to enable all available field variables in the evaluation.
-### Returns:
+### Returns
   The plot object.
 
-### Example:
+### Example
 : Create a material plot with Data Scope set to element set “All_Elements” showing the Young Modulus E2:
   <br/>
   ```default

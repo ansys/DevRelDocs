@@ -2,7 +2,7 @@
 
 <a id="compolyx.Model.save_apdl_commands"></a>
 
-#### Model.save_apdl_commands(path)
+## Model.save_apdl_commands(path)
 
 Save APDL commands for composite definitions of actual model.
 

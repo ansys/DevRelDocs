@@ -2,6 +2,6 @@
 
 <a id="compolyx.Rosette.dir2"></a>
 
-#### *property* Rosette.dir2
+## *property* Rosette.dir2
 
 Direction 2 of the Rosette.

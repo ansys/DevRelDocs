@@ -2,6 +2,6 @@
 
 <a id="compolyx.LookUpTableBase.id"></a>
 
-#### *property* LookUpTableBase.id
+## *property* LookUpTableBase.id
 
 ID of the object.

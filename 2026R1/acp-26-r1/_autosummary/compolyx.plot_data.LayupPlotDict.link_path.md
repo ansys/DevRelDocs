@@ -2,6 +2,6 @@
 
 <a id="compolyx.plot_data.LayupPlotDict.link_path"></a>
 
-#### *property* LayupPlotDict.link_path
+## *property* LayupPlotDict.link_path
 
 Root path of the current node in the tree for links to this object.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.plot_data.LayupMappingData.uptodate"></a>
 
-#### *property* LayupMappingData.uptodate
+## *property* LayupMappingData.uptodate
 
 Whether the plot is uptodate.

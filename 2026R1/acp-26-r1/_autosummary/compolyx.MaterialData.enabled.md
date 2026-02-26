@@ -2,6 +2,6 @@
 
 <a id="compolyx.MaterialData.enabled"></a>
 
-#### *property* MaterialData.enabled
+## *property* MaterialData.enabled
 
 Whether MaterialData is currently enabled or not.

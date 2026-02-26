@@ -2,4 +2,4 @@
 
 <a id="compolyx.ModelingPly.boundaries"></a>
 
-#### ModelingPly.boundaries(offset_type='no_offset')
+## ModelingPly.boundaries(offset_type='no_offset')

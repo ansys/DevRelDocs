@@ -2,11 +2,11 @@
 
 <a id="compolyx.Rosette.get_local_vector_components"></a>
 
-#### Rosette.get_local_vector_components(vector)
+## Rosette.get_local_vector_components(vector)
 
 Returns local rosette vector components from global vector components.
 
-### Parameters:
+### Parameters
   - (x, y, z): Components in global (parallel) coordinates.
 
 :returns (x,y,z)
@@ -15,7 +15,7 @@ Returns local rosette vector components from global vector components.
   z = z for PARALLEL, CYLINDRICAL and RADIAL, and theta for SPHERICAL
   Coordinate system type: Give phi and theta in RAD.
 
-### Usage:
+### Usage
   ```pycon
   >>> rosette.get_local_vector_components((1.,2.,3.))
   ```

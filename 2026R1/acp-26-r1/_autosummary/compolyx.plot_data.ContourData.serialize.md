@@ -2,6 +2,6 @@
 
 <a id="compolyx.plot_data.ContourData.serialize"></a>
 
-#### ContourData.serialize()
+## ContourData.serialize()
 
 Serialize to Python string.

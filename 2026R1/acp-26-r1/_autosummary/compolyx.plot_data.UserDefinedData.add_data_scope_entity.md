@@ -2,14 +2,14 @@
 
 <a id="compolyx.plot_data.UserDefinedData.add_data_scope_entity"></a>
 
-#### UserDefinedData.add_data_scope_entity(entity)
+## UserDefinedData.add_data_scope_entity(entity)
 
 Add 1 entity to the Data Scope of a plot.
 
-### Parameters:
+### Parameters
   - entity: Entity to be added. Applicable are element set, oriented selection set, modeling ply, production ply, analysis ply, and sampling point
 
-### Example:
+### Example
 : Add the element set “My_ESet” to a my_plot:
   <br/>
   ```default

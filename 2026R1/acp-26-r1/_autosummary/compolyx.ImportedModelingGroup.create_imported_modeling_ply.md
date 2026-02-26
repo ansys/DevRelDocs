@@ -2,11 +2,11 @@
 
 <a id="compolyx.ImportedModelingGroup.create_imported_modeling_ply"></a>
 
-#### ImportedModelingGroup.create_imported_modeling_ply(name=None, id=None, active=True, offset='bottom', ply_material=None, ply_angle=0.0, mesh_import_type='from_geometry', mesh_geometry=None, rosette_selection_method='minimum_angle', rosettes=[], thickness_definition='nominal', thickness_field=None, thickness_field_type='absolute', draping='no_draping', angle_1_field=None, angle_2_field=None, rotation_angle=0.0)
+## ImportedModelingGroup.create_imported_modeling_ply(name=None, id=None, active=True, offset='bottom', ply_material=None, ply_angle=0.0, mesh_import_type='from_geometry', mesh_geometry=None, rosette_selection_method='minimum_angle', rosettes=[], thickness_definition='nominal', thickness_field=None, thickness_field_type='absolute', draping='no_draping', angle_1_field=None, angle_2_field=None, rotation_angle=0.0)
 
 Create modeling ply.
 
-### Parameters:
+### Parameters
   - name: Name of the new imported modeling ply.
   - id: Optional ID of the new imported modeling ply.
   - active: Whether the ply is active.
@@ -28,9 +28,9 @@ Create modeling ply.
   - angle_1_field: Look-Up table column with scalar values for angle 1.
   - angle_2_field: Look-Up table column with scalar values for angle 2.
   - rotation_angle: Angle to rotate the reference directions (in degree).
-### Returns:
+### Returns
   The created imported modeling ply.
-### Example:
+### Example
   ```pycon
   >>> modeling_group = db.active_model.create_imported_modeling_group( name='ImportedModelingGroup' )
   >>> modeling_group.create_imported_modeling_ply(name='ImportedModelingPly.1', offset='middle', ply_angle=45)

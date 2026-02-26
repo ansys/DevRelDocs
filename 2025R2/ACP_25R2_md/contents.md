@@ -1,14 +1,10 @@
 # Introduction
 
-The Ansys Composite Prep™ (ACP) application is a preprocessor that enables engineers to define and visualize layered composite structures. It lets you create complex layups by providing the ability to model thin structures as shells and advanced solid modeling capabilities, such as extruding shell models to solid models and mapping layup information onto existing solid models. The preprocessor uses a ply-based approach, meaning the layup definition is independent of small geometry and mesh changes. ACP can be used with many third-party applications through the Composite CAE H5 interface.
+The Ansys Composite Prep™ (ACP) application is a preprocessor for defining and visualizing layered composite structures. It lets you create complex layups by modeling thin structures as shells and by supporting advanced solid modeling operations such as extruding shell models to solid models and mapping layup information onto existing solid models. Because ACP uses a ply-based approach, the layup definition remains stable even when the geometry or mesh changes. ACP also integrates with many third-party applications through the Composite CAE H5 interface.
 
-The ACP APIs (from the scripting interface) enable you to easily perform the following tasks:
+The ACP scripting interface enables you to easily automate layup definitions, parameterize models, and interact with third-party Python packages.
 
-* Automate layup definitions
-* Parameterize the layup model
-* Interact with third-party Python packages
-
-To use the key features of ACP through its APIs, begin with [Getting started](getting_started_acp.md).
+To start using ACP through its Python API, see [Getting started](getting_started_acp.md).
 
 Table of contents:
 
@@ -18,7 +14,7 @@ Table of contents:
 * [Extending the Python environment](extending_python_environment.md)
 * [The Python object tree](python_object_tree.md)
 * [Classes](classes.md)
-  * [Database](db_database.md)
+  * [Database class](db_database.md)
   * [Material classes](classes_materialdata.md)
   * [Model classes](classes_model.md)
   * [Solid-model classes](classes_solid_model.md)

@@ -2,4 +2,4 @@
 
 <a id="compolyx.plot_data.LayupMappingData.show_ply_offsets"></a>
 
-#### *property* LayupMappingData.show_ply_offsets
+## *property* LayupMappingData.show_ply_offsets

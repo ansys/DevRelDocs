@@ -2,7 +2,7 @@
 
 <a id="compolyx.ImportedAnalysisPly.is_reinforcing"></a>
 
-#### ImportedAnalysisPly.is_reinforcing()
+## ImportedAnalysisPly.is_reinforcing()
 
 True if the analysis ply is a reinforcing ply.
 

@@ -2,11 +2,11 @@
 
 <a id="compolyx.Model.create_solid_model"></a>
 
-#### Model.create_solid_model(name, id='', active=True, element_sets=None, ex_type=None, drop_off_type=None, offset_type=None, max_thickness=None, ply_group_pointers=None, element_set=None, skip_elements_without_plies=False, use_default_element_index=True, element_index=0, use_default_node_index=True, node_index=0, use_default_section_index=True, section_index=0, use_default_material_index=True, material_index=0, use_default_coordinate_system_index=True, coordinate_system_index=0, connect_butt_joined_plies=True, write_degenerated_elements=True, use_solsh_elements=False, use_solid_model_prefix=True, global_drop_off_material=None, global_cut_off_material=None, transfer_all_sets=True, transferred_element_sets=[], transferred_edge_sets=[], delete_bad_elements=True, disable_dropoffs_on_top=False, disable_dropoffs_on_bottom=False, disable_dropoff_sets_on_top='all', disable_dropoff_sets_on_bottom='all', warping_limit=0.4, minimum_volume=0.0, drop_hanging_nodes=True, locked=False)
+## Model.create_solid_model(name, id='', active=True, element_sets=None, ex_type=None, drop_off_type=None, offset_type=None, max_thickness=None, ply_group_pointers=None, element_set=None, skip_elements_without_plies=False, use_default_element_index=True, element_index=0, use_default_node_index=True, node_index=0, use_default_section_index=True, section_index=0, use_default_material_index=True, material_index=0, use_default_coordinate_system_index=True, coordinate_system_index=0, connect_butt_joined_plies=True, write_degenerated_elements=True, use_solsh_elements=False, use_solid_model_prefix=True, global_drop_off_material=None, global_cut_off_material=None, transfer_all_sets=True, transferred_element_sets=[], transferred_edge_sets=[], delete_bad_elements=True, disable_dropoffs_on_top=False, disable_dropoffs_on_bottom=False, disable_dropoff_sets_on_top='all', disable_dropoff_sets_on_bottom='all', warping_limit=0.4, minimum_volume=0.0, drop_hanging_nodes=True, locked=False)
 
 Create a new solid model.
 
-### Parameters:
+### Parameters
   - name: The name of the solid model.
   - id: The ID of the solid model.
   - active: Active status of the solid model.
@@ -46,12 +46,12 @@ Create a new solid model.
   - transferred_element_sets: Element sets to transfer to the solid model if transfer_all_sets is set to false.
   - transferred_edge_sets: Edge sets to transfer to the solid model if transfer_all_sets is set to false.
   - delete_bad_elements: Boolean for whether to delete the erroneous elements.
-  - disable_dropoffs_on_top: Boolean for whether to disalbe the drop-off elements on the top surface of the laminate.
-  - disable_dropoffs_on_bottom: Boolean for whether to disalbe the drop-off elements on the bottom surface of the laminate.
+  - disable_dropoffs_on_top: Boolean for whether to disable the drop-off elements on the top surface of the laminate.
+  - disable_dropoffs_on_bottom: Boolean for whether to disable the drop-off elements on the bottom surface of the laminate.
   - disable_dropoff_sets_on_top: List of element or oriented selection sets defining the region where the drop-offs are disabled on the top skin of the laminate. Default is ‘all’.
   - disable_dropoff_sets_on_bottom: List of element or oriented selection sets defining the region where the drop-offs are disabled on the bottom skin of the laminate. Default is ‘all’.
   - warping_limit: Warping limit factor used to detect erroneous elements.
   - minimum_volume: Minimum volume of solid elements. Default is ‘0’. Elements equal or smaller than this limit are removed from the solid model.
   - drop_hanging_nodes: Hanging nodes are dropped (not exported) if set to true. Hanging nodes are mid-side nodes that are not shared by adjacent elements.
-### Returns:
+### Returns
   The created solid model.

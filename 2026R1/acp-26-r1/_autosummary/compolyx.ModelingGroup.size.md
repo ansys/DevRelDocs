@@ -2,6 +2,6 @@
 
 <a id="compolyx.ModelingGroup.size"></a>
 
-#### *property* ModelingGroup.size
+## *property* ModelingGroup.size
 
 Number of entities.

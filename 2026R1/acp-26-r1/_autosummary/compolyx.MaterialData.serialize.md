@@ -2,6 +2,6 @@
 
 <a id="compolyx.MaterialData.serialize"></a>
 
-#### MaterialData.serialize()
+## MaterialData.serialize()
 
 Serialize to Python string.

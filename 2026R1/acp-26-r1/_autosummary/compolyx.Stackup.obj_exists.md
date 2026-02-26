@@ -2,7 +2,7 @@
 
 <a id="compolyx.Stackup.obj_exists"></a>
 
-#### Stackup.obj_exists()
+## Stackup.obj_exists()
 
 Checks if \_\_obj still references the c++ object (has not been reset to None by self._delete) and
 exists in the graph.

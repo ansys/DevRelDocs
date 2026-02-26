@@ -2,4 +2,4 @@
 
 <a id="compolyx.Model.ratio_of_displayed_vectors"></a>
 
-#### *property* Model.ratio_of_displayed_vectors
+## *property* Model.ratio_of_displayed_vectors

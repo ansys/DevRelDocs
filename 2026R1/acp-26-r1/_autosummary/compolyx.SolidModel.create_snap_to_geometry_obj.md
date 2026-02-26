@@ -2,11 +2,11 @@
 
 <a id="compolyx.SolidModel.create_snap_to_geometry_obj"></a>
 
-#### SolidModel.create_snap_to_geometry_obj(name, cad_geometry=None, oriented_selection_set=None, orientation='top', active=True, id='')
+## SolidModel.create_snap_to_geometry_obj(name, cad_geometry=None, oriented_selection_set=None, orientation='top', active=True, id='')
 
 Create a new snap-to-geometry object.
 
-### Parameters:
+### Parameters
   - name: The name of the object.
   - id: The ID of the object.
   - active: Pass the active-flag of the object.

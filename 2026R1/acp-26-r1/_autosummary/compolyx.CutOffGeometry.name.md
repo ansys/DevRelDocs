@@ -2,6 +2,6 @@
 
 <a id="compolyx.CutOffGeometry.name"></a>
 
-#### *property* CutOffGeometry.name
+## *property* CutOffGeometry.name
 
 Name of the object.

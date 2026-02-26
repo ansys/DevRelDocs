@@ -2,4 +2,4 @@
 
 <a id="compolyx.Scene.get_display_data_for"></a>
 
-#### Scene.get_display_data_for(obj)
+## Scene.get_display_data_for(obj)

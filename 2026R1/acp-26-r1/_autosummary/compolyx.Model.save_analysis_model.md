@@ -2,7 +2,7 @@
 
 <a id="compolyx.Model.save_analysis_model"></a>
 
-#### Model.save_analysis_model(path)
+## Model.save_analysis_model(path)
 
 Save actual analysis model to disc.
 

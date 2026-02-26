@@ -2,6 +2,6 @@
 
 <a id="compolyx.Stackup.draping_ud_coefficient"></a>
 
-#### *property* Stackup.draping_ud_coefficient
+## *property* Stackup.draping_ud_coefficient
 
 UD Draping Coefficient.

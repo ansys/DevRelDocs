@@ -2,6 +2,6 @@
 
 <a id="compolyx.VariableOffsetSelectionRule.serialize"></a>
 
-#### VariableOffsetSelectionRule.serialize()
+## VariableOffsetSelectionRule.serialize()
 
 Serialize to Python string.

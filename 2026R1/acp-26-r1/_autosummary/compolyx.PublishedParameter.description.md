@@ -2,6 +2,6 @@
 
 <a id="compolyx.PublishedParameter.description"></a>
 
-#### *property* PublishedParameter.description
+## *property* PublishedParameter.description
 
 A human-readable description of the linked parameter.

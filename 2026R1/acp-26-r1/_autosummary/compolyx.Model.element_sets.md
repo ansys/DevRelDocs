@@ -2,6 +2,6 @@
 
 <a id="compolyx.Model.element_sets"></a>
 
-#### *property* Model.element_sets
+## *property* Model.element_sets
 
 Dictionary with all element sets defined.

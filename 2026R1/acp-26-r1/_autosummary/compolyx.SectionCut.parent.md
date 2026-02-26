@@ -2,6 +2,6 @@
 
 <a id="compolyx.SectionCut.parent"></a>
 
-#### *property* SectionCut.parent
+## *property* SectionCut.parent
 
 Parent object in the tree.

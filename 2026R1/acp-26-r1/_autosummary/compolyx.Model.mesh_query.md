@@ -2,11 +2,11 @@
 
 <a id="compolyx.Model.mesh_query"></a>
 
-#### Model.mesh_query(name, position, selection='all', entity=None, entities=None, simulate=False, component=None)
+## Model.mesh_query(name, position, selection='all', entity=None, entities=None, simulate=False, component=None)
 
 Query arbitrary data from the mesh of the model.
 
-### Parameters:
+### Parameters
   - name: Data type to query:
     - labels, indices
     - etypes

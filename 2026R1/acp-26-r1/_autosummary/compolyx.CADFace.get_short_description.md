@@ -2,4 +2,4 @@
 
 <a id="compolyx.CADFace.get_short_description"></a>
 
-#### CADFace.get_short_description()
+## CADFace.get_short_description()

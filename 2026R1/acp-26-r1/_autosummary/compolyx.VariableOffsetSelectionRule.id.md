@@ -2,6 +2,6 @@
 
 <a id="compolyx.VariableOffsetSelectionRule.id"></a>
 
-#### *property* VariableOffsetSelectionRule.id
+## *property* VariableOffsetSelectionRule.id
 
 ID of the object.

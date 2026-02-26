@@ -2,11 +2,11 @@
 
 <a id="compolyx.ModelingGroup.create_modeling_ply"></a>
 
-#### ModelingGroup.create_modeling_ply(name=None, id=None, ply_material=None, ply_angle=0.0, number_of_layers=1, global_ply_nr=None, oriented_selection_sets=None, selection_rules=None, draping='no_draping', draping_seed_point=None, auto_draping_direction=True, draping_thickness_correction=True, draping_direction=None, draping_mesh_size=0.0, use_default_draping_mesh_size=True, thickness_definition='nominal', core_geometry=None, active=True, taper_edges=None, thickness_field=None, thickness_field_type='absolute', angle_1_field=None, angle_2_field=None)
+## ModelingGroup.create_modeling_ply(name=None, id=None, ply_material=None, ply_angle=0.0, number_of_layers=1, global_ply_nr=None, oriented_selection_sets=None, selection_rules=None, draping='no_draping', draping_seed_point=None, auto_draping_direction=True, draping_thickness_correction=True, draping_direction=None, draping_mesh_size=0.0, use_default_draping_mesh_size=True, thickness_definition='nominal', core_geometry=None, active=True, taper_edges=None, thickness_field=None, thickness_field_type='absolute', angle_1_field=None, angle_2_field=None)
 
 Create modeling ply.
 
-### Parameters:
+### Parameters
   - name: Name of the new modeling ply.
   - id: Optional ID of the new modeling ply.
   - ply_material: Ply Material (Fabric, Stackup, SubLaminate).
@@ -29,9 +29,9 @@ Create modeling ply.
   - thickness_field_type: The type of thickness field. Valid options: ‘absolute’ or ‘relative’.
   - angle_1_field: Look-Up table column with scalar values for angle 1.
   - angle_2_field: Look-Up table column with scalar values for angle 2.
-### Returns:
+### Returns
   The created modeling ply.
-### Example:
+### Example
   ```pycon
   >>> oes_1 = model.oriented_selection_sets['OrientedSelectionSet.1']
   >>> fabric_1 = model.material_data.fabrics['Fabric.1']

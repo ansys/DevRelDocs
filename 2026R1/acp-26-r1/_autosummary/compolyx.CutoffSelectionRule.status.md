@@ -2,6 +2,6 @@
 
 <a id="compolyx.CutoffSelectionRule.status"></a>
 
-#### *property* CutoffSelectionRule.status
+## *property* CutoffSelectionRule.status
 
 Status of the object.

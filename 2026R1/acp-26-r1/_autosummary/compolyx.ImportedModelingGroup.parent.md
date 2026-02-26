@@ -2,6 +2,6 @@
 
 <a id="compolyx.ImportedModelingGroup.parent"></a>
 
-#### *property* ImportedModelingGroup.parent
+## *property* ImportedModelingGroup.parent
 
 Parent object in the tree.
