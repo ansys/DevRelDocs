@@ -4,4 +4,4 @@
 
 #### *property* ModelingPly.angle_2_field
 
-Angle 2 Correction field
+Angle 2 Correction field.

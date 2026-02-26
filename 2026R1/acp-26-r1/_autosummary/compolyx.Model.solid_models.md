@@ -4,4 +4,4 @@
 
 #### *property* Model.solid_models
 
-SolidModel
+SolidModel.

@@ -6,7 +6,7 @@
 
 Create a snapshot of the scene.
 
-* **Parameters:**
+### Parameters:
   - path: File path.
   - width: Width in pixels of the snapshot.
   - height: Height in pixels of the snapshot.

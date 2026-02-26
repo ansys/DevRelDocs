@@ -4,4 +4,4 @@
 
 #### *property* ScalarFieldData.all_display_data
 
-Returns a list of all display data classes in existence for this object
+Returns a list of all display data classes in existence for this object.

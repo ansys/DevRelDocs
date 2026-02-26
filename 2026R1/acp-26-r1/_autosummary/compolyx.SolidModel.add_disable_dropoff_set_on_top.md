@@ -4,4 +4,4 @@
 
 #### SolidModel.add_disable_dropoff_set_on_top(set)
 
-Add set where the drop-offs on top surface are disabled
+Add set where the drop-offs on top surface are disabled.

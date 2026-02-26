@@ -6,7 +6,7 @@
 
 Create a new extrusion guide.
 
-* **Parameters:**
+### Parameters:
   - name: The name of the extrusion guide.
   - edge_set: An edge set where this guide applies.
   - id: The ID of the extrusion guide.

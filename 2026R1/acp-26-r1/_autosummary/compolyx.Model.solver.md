@@ -4,4 +4,4 @@
 
 #### *property* Model.solver
 
-Solver instance
+Solver instance.

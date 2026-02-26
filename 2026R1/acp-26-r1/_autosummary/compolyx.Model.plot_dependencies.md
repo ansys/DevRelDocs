@@ -6,13 +6,13 @@
 
 Generates a graph with all dependencies. The output is a .dot, .png, and .pdf file.
 
-* **Parameters:**
+### Parameters:
   - path: File path without file extension.
   - parent: Parent object.
   - levels: Depth levels to look for children.
-* **Output:**
+### Output:
   A .dot file which can be opend with Graphviz.
-* **Usage:**
+### Usage:
   ```pycon
   >>> model.plot_dependencies(r'C:\tmp\hull_dependencies', model.element_sets['HULL'], 3)
   ```

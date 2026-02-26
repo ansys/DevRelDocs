@@ -4,4 +4,4 @@
 
 #### *property* PublishedParameter.description
 
-A human-readable description of the linked parameter
+A human-readable description of the linked parameter.

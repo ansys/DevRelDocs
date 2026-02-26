@@ -6,7 +6,7 @@
 
 Create a new parallel selection rule.
 
-* **Parameters:**
+### Parameters:
   - name: Name of the rule.
   - origin: Origin of the parallel selection rule.
   - direction: Direction of the parallel selection rule.
@@ -16,5 +16,5 @@ Create a new parallel selection rule.
   - use_global_coordinate_system: Use global coordinate system to define rule parameters.
   - rosette: Rosette used if use_global_coordinate_system is false.
   - include_rule_type: Include or exclude area in rule.
-* **Returns:**
+### Returns:
   The created parallel selection rule.

@@ -4,4 +4,4 @@
 
 #### *property* CutoffSelectionRule.angle
 
-Cut-Off angle
+Cut-Off angle.

@@ -4,4 +4,4 @@
 
 #### *property* ExtrusionGuide.active
 
-Extrusion Guide active
+Extrusion Guide active.

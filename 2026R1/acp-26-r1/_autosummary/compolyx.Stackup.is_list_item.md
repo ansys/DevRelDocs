@@ -4,4 +4,4 @@
 
 #### *property* Stackup.is_list_item
 
-Indicates whether the object is an item of a list
+Indicates whether the object is an item of a list.

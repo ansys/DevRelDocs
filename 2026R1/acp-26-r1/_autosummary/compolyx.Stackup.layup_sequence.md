@@ -4,4 +4,4 @@
 
 #### *property* Stackup.layup_sequence
 
-Layup Sequence of the Stackup can be ‘Top-Down’ or ‘Bottom-Up’
+Layup Sequence of the Stackup can be ‘Top-Down’ or ‘Bottom-Up’.

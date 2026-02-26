@@ -4,4 +4,4 @@
 
 #### *property* Scene.show_global_coordinate_system
 
-Toggle visibility of global coordinate system marker
+Toggle visibility of global coordinate system marker.

@@ -6,7 +6,7 @@
 
 Copy a sampling point.
 
-* **Parameters:**
+### Parameters:
   - source: Source object to copy.
-* **Returns:**
+### Returns:
   New instance of a sampling point.

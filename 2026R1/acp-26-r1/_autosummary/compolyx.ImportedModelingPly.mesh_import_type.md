@@ -4,4 +4,4 @@
 
 #### *property* ImportedModelingPly.mesh_import_type
 
-Defines the source of the imported mesh
+Defines the source of the imported mesh.

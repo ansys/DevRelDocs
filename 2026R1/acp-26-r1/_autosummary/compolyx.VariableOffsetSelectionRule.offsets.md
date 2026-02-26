@@ -4,4 +4,4 @@
 
 #### *property* VariableOffsetSelectionRule.offsets
 
-Link to lookup table column with offsets
+Link to lookup table column with offsets.

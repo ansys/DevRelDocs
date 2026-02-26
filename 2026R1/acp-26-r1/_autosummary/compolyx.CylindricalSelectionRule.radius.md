@@ -4,4 +4,4 @@
 
 #### *property* CylindricalSelectionRule.radius
 
-Radius of the Cylinder
+Radius of the Cylinder.

@@ -6,5 +6,5 @@
 
 Remove oriented selection set from interface layer.
 
-* **Parameters:**
+### Parameters:
   - oriented_selection_set: The oriented selection set to be removed from interface layer.

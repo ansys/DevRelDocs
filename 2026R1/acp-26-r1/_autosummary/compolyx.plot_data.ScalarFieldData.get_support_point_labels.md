@@ -6,7 +6,7 @@
 
 Returns the identifiers for the supporting points.
 
-* **Returns:**
+### Returns:
   Resulting n-dimensional array with the supporting point labels.
 
 Labels are returned independent of update status of plot.

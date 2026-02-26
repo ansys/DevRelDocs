@@ -4,4 +4,4 @@
 
 #### *property* SphericalSelectionRule.radius
 
-Sphere Radius
+Sphere Radius.

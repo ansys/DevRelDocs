@@ -4,4 +4,4 @@
 
 #### *property* OrientedSelectionSet.rosette_selection_method
 
-Selection Method for Rosettes of the Oriented Selection Set.
+Selection Method for Rosettes of the oriented selection set.

@@ -4,4 +4,4 @@
 
 #### *property* Sensor.modeling_ply_area
 
-Cumulated area of all modeling-plies involved
+Cumulated area of all modeling-plies involved.

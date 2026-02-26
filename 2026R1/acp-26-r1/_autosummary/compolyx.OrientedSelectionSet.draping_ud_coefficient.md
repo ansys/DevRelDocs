@@ -4,4 +4,4 @@
 
 #### *property* OrientedSelectionSet.draping_ud_coefficient
 
-UD draping coefficient
+UD draping coefficient.

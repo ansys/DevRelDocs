@@ -4,4 +4,4 @@
 
 #### *property* TubeSelectionRule.inner_radius
 
-Inner tube-radius
+Inner tube-radius.

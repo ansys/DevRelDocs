@@ -4,4 +4,4 @@
 
 #### *property* LookUpTable1D.active
 
-LookUpTable active
+LookUpTable active.

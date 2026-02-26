@@ -4,4 +4,4 @@
 
 #### *property* LayupMappingObject.element_sets
 
-Element Set(s) of the solid model.
+One or more element sets of the solid model.

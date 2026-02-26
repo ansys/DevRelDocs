@@ -6,6 +6,6 @@
 
 Generate the complete plybook.
 
-* **Parameters:**
+### Parameters:
   - filename: Output filename.
   - format: Valid options: pdf, html, odt, and txt.

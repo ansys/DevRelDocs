@@ -6,7 +6,7 @@
 
 Create a new tube selection rule.
 
-* **Parameters:**
+### Parameters:
   - name: Name of the rule.
   - outer_radius: The outer radius of the tube.
   - inner_radius: The inner radius of the tube.
@@ -17,5 +17,5 @@ Create a new tube selection rule.
   - head: The free end which is closer to this point becomes the head of the tube. It is only necessary if symmetrical_extension is disabled.
   - head_extension: Defines the length of the extension at the head of the tube. If symmetrical_extension is enabled, it defines both sides.
   - tail_extension: Defines the length of the extension at the tail of the tube if symmetrical_extension is disabled.
-* **Returns:**
+### Returns:
   The created rule.

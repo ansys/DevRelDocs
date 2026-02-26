@@ -4,4 +4,4 @@
 
 #### *property* SolidModel.extrusion_guides
 
-Extrusion Guides
+Extrusion Guides.

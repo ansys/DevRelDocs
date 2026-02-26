@@ -4,4 +4,4 @@
 
 #### *property* CADGeometry.display_data
 
-CAD geometry mesh surface plot
+CAD geometry mesh surface plot.

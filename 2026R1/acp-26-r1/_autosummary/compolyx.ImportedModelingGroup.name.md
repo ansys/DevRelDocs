@@ -4,4 +4,4 @@
 
 #### *property* ImportedModelingGroup.name
 
-Name of the object
+Name of the object.

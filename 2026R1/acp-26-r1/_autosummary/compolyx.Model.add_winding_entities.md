@@ -42,7 +42,7 @@ The function generates the following objects:
   - A template selection rule if limits are defined.
   - A modeling group with the plies.
 
-* **Parameters:**
+### Parameters:
   - axial_direction: Direction vector for the axis of symmetry.
   - origin: Point on the axis of symmetry.
   - reference radius: Reference radius at which the plies are assumed to have the
@@ -65,7 +65,7 @@ The function generates the following objects:
     : max_angle_with_thickness_correction is not
       corrected. These layers always have the nominal
       layer thickness.
-* **Usage:**
+### Usage:
   ```pycon
   >>> model.add_winding_entities(
                     axial_direction=(1.0, 0.0, 0.0),
@@ -82,5 +82,5 @@ The function generates the following objects:
                     }]
                 )
   ```
-* **Returns:**
+### Returns:
   Dict of generated objects.

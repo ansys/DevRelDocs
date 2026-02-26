@@ -4,4 +4,4 @@
 
 #### *property* Scene.show_labeled_bounding_box
 
-Toggle visibility of labeled bounding box
+Toggle visibility of labeled bounding box.

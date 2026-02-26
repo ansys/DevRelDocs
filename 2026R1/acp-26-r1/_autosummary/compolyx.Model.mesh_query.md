@@ -6,7 +6,7 @@
 
 Query arbitrary data from the mesh of the model.
 
-* **Parameters:**
+### Parameters:
   - name: Data type to query:
     - labels, indices
     - etypes

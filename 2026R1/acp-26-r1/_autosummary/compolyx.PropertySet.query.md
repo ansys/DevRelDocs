@@ -11,10 +11,10 @@ The available property names on this PropertySet can be retrieved through proper
 An empty query returns all properties at the default environment point in dictionary-form.
 If the PropertySet is not up-to-date, zeros are returned and a warning is thrown.
 
-* **Parameters:**
+### Parameters:
   - variables: String or list of strings that defines which properties to query for. If a list of properties is provided, the returned list of results retains the order of properties.
   - environment_point: Dictionary defining at which environment state the queried properties are requested. The dictionary takes the form {Var1 : value_1, …}. For unspecified environment variables, their default value is assumed. Unkown environment variables will be ignored.
-* **Examples:**
+### Examples:
   ```pycon
   >>> m = db._active_model()
   >>> mat = m.material_data.materials['Corecell_A450']

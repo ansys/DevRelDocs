@@ -6,6 +6,6 @@
 
 Function that saves the layup data to an excel file (Windows only).
 
-* **Parameters:**
+### Parameters:
   - path: The path to the file.
   - objects: An optional parameter, if enabled, then the entire layup is written to the file. If disabled, only the layup defined within modeling_groups is written to the file.

@@ -6,7 +6,7 @@
 
 Create a new solid model.
 
-* **Parameters:**
+### Parameters:
   - name: The name of the solid model.
   - id: The ID of the solid model.
   - active: Active status of the solid model.
@@ -34,5 +34,5 @@ Create a new solid model.
   - transfer_all_sets: Defines whether all edge and element sets should be transferred to the solid model.
   - transferred_element_sets: Element sets to transfer to the solid model if transfer_all_sets is set to false.
   - transferred_edge_sets: Edge sets to transfer to the solid model if transfer_all_sets is set to false.
-* **Returns:**
+### Returns:
   The created imported solid model.

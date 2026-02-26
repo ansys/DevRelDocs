@@ -4,4 +4,4 @@
 
 #### *property* DrapingData.name
 
-Name of the object
+Name of the object.

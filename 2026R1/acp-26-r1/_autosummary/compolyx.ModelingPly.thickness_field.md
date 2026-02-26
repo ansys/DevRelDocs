@@ -4,4 +4,4 @@
 
 #### *property* ModelingPly.thickness_field
 
-LookUpTable Column with tabular thicknesses or None
+LookUpTable Column with tabular thicknesses or None.

@@ -4,4 +4,4 @@
 
 #### *property* Sensor.area
 
-Area covered by all Entities of the Sensor
+Area covered by all Entities of the Sensor.

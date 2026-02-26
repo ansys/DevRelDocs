@@ -8,9 +8,9 @@ Set constant and variable material data.
 
 Constant properties can be given as keyword arguments.
 
-* **Parameters:**
+### Parameters:
   - props: A dictionary or tuple of two dictionaries defining the data.
-* **Examples:**
+### Examples:
   ```pycon
   >>> m = db._active_model()
   >>> mat = m.material_data.materials['Corecell_A450']

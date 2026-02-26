@@ -4,4 +4,4 @@
 
 #### AnalysisPly.get_short_description()
 
-Returns a short description                                                                  
+Returns a short description.

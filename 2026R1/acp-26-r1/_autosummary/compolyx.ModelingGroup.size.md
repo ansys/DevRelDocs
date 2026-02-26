@@ -4,4 +4,4 @@
 
 #### *property* ModelingGroup.size
 
-Number of entities
+Number of entities.

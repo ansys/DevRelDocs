@@ -4,4 +4,4 @@
 
 #### *property* ElementSelectionRule.relative_rule_type
 
-relative type
+relative type.

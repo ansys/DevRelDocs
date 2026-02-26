@@ -4,4 +4,4 @@
 
 #### *property* SectionCut.use_default_lut_settings
 
-Boolean whether to use the dault settings of the LookUp Table.
+Boolean whether to use the default settings of the LookUp Table.

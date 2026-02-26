@@ -6,5 +6,5 @@
 
 Returns the element label of the closest element with respect to the given point.
 
-* **Parameters:**
+### Parameters:
   -point: Tuple of the global coordinates.

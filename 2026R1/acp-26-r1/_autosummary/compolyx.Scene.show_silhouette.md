@@ -4,4 +4,4 @@
 
 #### *property* Scene.show_silhouette
 
-Whether to show the silhouette of currently selected elements
+Whether to show the silhouette of currently selected elements.

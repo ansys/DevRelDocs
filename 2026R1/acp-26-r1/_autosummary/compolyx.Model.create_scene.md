@@ -6,10 +6,10 @@
 
 Create a new scene.
 
-* **Parameter:**
+### Parameter:
   - name: Name of the scene.
   - show_deformed_mesh: Whether to show the deformed mesh.
   - show_undeformed_mesh: Whether to show the undeformed mesh.
   - scale_factor: Scale factor of the deformed mesh.
-* **Returns:**
+### Returns:
   New scene.

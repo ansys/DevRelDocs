@@ -4,4 +4,4 @@
 
 #### *property* ImportedSolidModel.node_index
 
-Node offset index
+Node offset index.

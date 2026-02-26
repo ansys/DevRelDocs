@@ -4,4 +4,4 @@
 
 #### *property* Model.angle_tolerance
 
-Section computation angle tolerance (in degree)
+Section computation angle tolerance (in degree).

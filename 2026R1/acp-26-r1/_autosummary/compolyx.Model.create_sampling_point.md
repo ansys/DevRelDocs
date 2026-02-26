@@ -6,7 +6,7 @@
 
 Create a new sampling point.
 
-* **Parameters:**
+### Parameters:
   - name: Name of the sampling point.
   - point: Sampling point.
   - direction: Sampling direction.
@@ -15,5 +15,5 @@ Create a new sampling point.
   - offset_is_middle: Specifies the offset of the reference plane used for the CLT analyses.
   - consider_coupling_effect: Indicates whether the laminate properties are evaluated considering the coupling effect (B matrix).
   - solution_set: Specifies the solution and the set of the element-wise postprocessing. Note, this must be given as a tuple.
-* **Returns:**
+### Returns:
   The created sampling point.

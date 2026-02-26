@@ -4,4 +4,4 @@
 
 #### *property* ImportedSolidModel.is_uptodate
 
-Update status of the object
+Update status of the object.

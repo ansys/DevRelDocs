@@ -4,4 +4,4 @@
 
 #### *property* SectionCut.id
 
-ID of the object
+ID of the object.

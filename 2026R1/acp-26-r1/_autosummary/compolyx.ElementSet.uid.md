@@ -4,4 +4,4 @@
 
 #### *property* ElementSet.uid
 
-UID of the object
+UID of the object.

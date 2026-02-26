@@ -6,7 +6,7 @@
 
 Copy a Layup Mapping object.
 
-* **Parameters:**
+### Parameters:
   - source: Source object to copy.
-* **Returns:**
+### Returns:
   New instance of LayupMappingObject.

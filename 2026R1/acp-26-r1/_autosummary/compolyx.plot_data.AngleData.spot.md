@@ -4,4 +4,4 @@
 
 #### *property* AngleData.spot
 
-Not applicable to an angle plot
+Not applicable to an angle plot.

@@ -4,4 +4,4 @@
 
 #### *property* Fabric.material
 
-Material of the fabric
+Material of the fabric.

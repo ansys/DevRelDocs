@@ -4,4 +4,4 @@
 
 #### *property* AnalysisPly.draping_obj
 
-Fiber directions of the analysis ply
+Fiber directions of the analysis ply.

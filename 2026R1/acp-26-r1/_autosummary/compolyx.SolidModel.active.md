@@ -4,4 +4,4 @@
 
 #### *property* SolidModel.active
 
-Solid-Model active
+Solid-Model active.

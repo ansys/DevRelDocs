@@ -4,4 +4,4 @@
 
 #### *property* LookUpTableColumn.type
 
-column type (scalar or direction)
+column type (scalar or direction).

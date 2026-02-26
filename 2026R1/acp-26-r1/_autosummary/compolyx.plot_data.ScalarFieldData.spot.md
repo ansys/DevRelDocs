@@ -4,4 +4,4 @@
 
 #### *property* ScalarFieldData.spot
 
-Not applicable to a scalar field plot
+Not applicable to a scalar field plot.

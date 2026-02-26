@@ -4,4 +4,4 @@
 
 #### *property* ImportedAnalysisPly.thickness
 
-Average ply thickness
+Average ply thickness.

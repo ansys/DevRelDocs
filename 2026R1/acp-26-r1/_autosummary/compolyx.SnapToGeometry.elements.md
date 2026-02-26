@@ -4,4 +4,4 @@
 
 #### *property* SnapToGeometry.elements
 
-List of affected shell elements
+List of affected shell elements.

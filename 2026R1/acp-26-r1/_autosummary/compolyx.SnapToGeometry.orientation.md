@@ -4,4 +4,4 @@
 
 #### *property* SnapToGeometry.orientation
 
-Orientation. Allowed string values: [‘top’, ‘bottom’, ‘undefined’]
+Orientation. Allowed string values: [‘top’, ‘bottom’, ‘undefined’].

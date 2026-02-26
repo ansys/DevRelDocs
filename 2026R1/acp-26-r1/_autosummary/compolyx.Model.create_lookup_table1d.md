@@ -6,8 +6,8 @@
 
 Create a new 1D lookup table object.
 
-* **Parameters:**
+### Parameters:
   - name: Name.
   - id: ID.
-* **Returns:**
+### Returns:
   The created lookup table object.

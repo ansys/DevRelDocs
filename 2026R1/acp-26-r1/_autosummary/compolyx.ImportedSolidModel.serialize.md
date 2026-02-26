@@ -4,4 +4,4 @@
 
 #### ImportedSolidModel.serialize()
 
-Returns the Python serialization string
+Returns the Python serialization string.

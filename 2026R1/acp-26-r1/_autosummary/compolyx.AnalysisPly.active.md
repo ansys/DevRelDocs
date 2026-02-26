@@ -4,4 +4,4 @@
 
 #### *property* AnalysisPly.active
 
-Indicates whether the sequence entity is active
+Indicates whether the sequence entity is active.

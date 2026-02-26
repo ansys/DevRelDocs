@@ -6,7 +6,7 @@
 
 Import a composite layup definition from a .hdf5 file.
 
-* **Parameters:**
+### Parameters:
   - path: Load path of the .h5 file.
   - mode: Specify how objects are imported.
     - append: Imported data/objects are appended to existing model/layup.

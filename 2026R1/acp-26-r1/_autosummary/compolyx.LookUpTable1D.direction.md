@@ -4,4 +4,4 @@
 
 #### *property* LookUpTable1D.direction
 
-The Direction of the Look Up Table
+The Direction of the Look Up Table.

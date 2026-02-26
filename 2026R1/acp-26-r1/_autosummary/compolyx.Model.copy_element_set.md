@@ -6,7 +6,7 @@
 
 Copy an element set.
 
-* **Parameters:**
+### Parameters:
   - source: Source object to copy.
-* **Returns:**
+### Returns:
   New instance of element set.

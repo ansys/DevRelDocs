@@ -4,4 +4,4 @@
 
 #### *property* Model.pre_path
 
-Save path of pre database linked to currently loaded post database
+Save path of pre database linked to currently loaded post database.

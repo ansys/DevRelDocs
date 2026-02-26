@@ -4,4 +4,4 @@
 
 #### *property* GeometricalSelectionRule.geometry
 
-Virtual Geometry for the Geometrical Selection Rule.
+Virtual Geometry for the geometrical selection rule.

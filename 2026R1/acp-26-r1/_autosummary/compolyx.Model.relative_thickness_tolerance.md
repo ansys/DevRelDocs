@@ -4,4 +4,4 @@
 
 #### *property* Model.relative_thickness_tolerance
 
-Section computation relative thickness tolerance
+Section computation relative thickness tolerance.

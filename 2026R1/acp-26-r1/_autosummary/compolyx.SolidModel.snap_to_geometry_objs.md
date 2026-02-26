@@ -4,4 +4,4 @@
 
 #### *property* SolidModel.snap_to_geometry_objs
 
-Snap to Geometry objects
+Snap to Geometry objects.

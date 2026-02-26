@@ -6,7 +6,7 @@
 
 Creates a new section cut.
 
-* **Parameters:**
+### Parameters:
   - name: The name of the section cut.
   - id: The ID of the section cut.
   - active: Whether the section cut is active.
@@ -26,5 +26,5 @@ Creates a new section cut.
   - scope_entire_model: Whether to scope the section cut to the entire model, or only selected element sets.
   - scope_element_sets: Element sets to which the section cut is scoped, if scope_entire_model=False.
 
-  * **Return:**
+### Return:
     The new section cut object.

@@ -4,4 +4,4 @@
 
 #### *property* SectionCut.in_plane_reference_direction1
 
-Reference direction for cross-sectional measures
+Reference direction for cross-sectional measures.

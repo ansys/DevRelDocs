@@ -4,4 +4,4 @@
 
 #### *property* Model.layup_plots
 
-Plots
+Plots.

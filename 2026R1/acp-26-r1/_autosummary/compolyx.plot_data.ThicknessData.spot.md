@@ -4,4 +4,4 @@
 
 #### *property* ThicknessData.spot
 
-Not applicable to a thickness plot
+Not applicable to a thickness plot.

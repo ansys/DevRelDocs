@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-02-21).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-02-24).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -38,12 +38,12 @@ The following table shows which components have updates in each category.
 | mapdl | [14 items](#Features_mapdl) |[40 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | math | [10 items](#Features_math) |[1 item](#Fixes_math) |
-| mechanical | [2 items](#Features_mechanical) |[4 items](#Fixes_mechanical) |
+| mechanical | [2 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
 | mesh |  |[3 items](#Fixes_mesh) |
 | misc | [13 items](#Features_misc) |[19 items](#Fixes_misc) |
 | multiphysicsmapper |  |[4 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [1 item](#Features_native) |[12 items](#Fixes_native) |
+| native | [1 item](#Features_native) |[13 items](#Fixes_native) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [3 items](#Features_prime) | |
 | pydpf |  |[1 item](#Fixes_pydpf) |
@@ -1344,6 +1344,9 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_mechanical"></a> Fixes
 
+- Fix documentation generation of mechanical::linearized_stress:
+  > 
+
 - Bugs with shell operators:
   > Fix various bugs in shell operators in Ans.Dpf.Mechanical plugin
   >
@@ -1749,6 +1752,13 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Allow loop_workflow_incremental to take CField output:
+  > loop_workflow_incremental now can take a Workflow returning a CField with an added `loop` label.
+  >
+  > 
+  >
+  > 
 
 - Scaling factor size in error and norm operator:
   > The size of the output pins 2 and 4 of the operator ErrorAndNorm ("error_norm_calc") was wrong and this has been fixed.

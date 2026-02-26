@@ -4,4 +4,4 @@
 
 #### *property* PlyBook.reST_chapter
 
-reST chapter template
+reST chapter template.

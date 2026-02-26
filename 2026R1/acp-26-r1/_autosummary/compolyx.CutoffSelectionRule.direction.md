@@ -4,4 +4,4 @@
 
 #### *property* CutoffSelectionRule.direction
 
-Direction of the offset and angle interpolation for ‘variable_taper’
+Direction of the offset and angle interpolation for ‘variable_taper’.

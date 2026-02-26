@@ -4,4 +4,4 @@
 
 #### *property* EdgeSet.limit_angle
 
-Edge Set limit angle for creation of edge set by reference
+Edge Set limit angle for creation of edge set by reference.

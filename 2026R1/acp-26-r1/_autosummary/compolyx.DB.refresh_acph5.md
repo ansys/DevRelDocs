@@ -4,9 +4,9 @@
 
 #### DB.refresh_acph5(path, external_sources, input_parameters=None, initialize=False, unit_system_type=None)
 
-Refresh an .acph5 database (Workbench application mode only)
+Refresh an .acph5 database (Workbench application mode only).
 
-* **Parameters:**
+### Parameters:
   - path: File path to the .acph5 file.
   - external_sources: Nested dict provided by the ACP Workbench application add-in containing all the
     : external source’s information (the file path, whether the source was modified, its ID, etc.).

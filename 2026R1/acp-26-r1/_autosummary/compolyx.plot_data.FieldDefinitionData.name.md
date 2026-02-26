@@ -4,4 +4,4 @@
 
 #### *property* FieldDefinitionData.name
 
-Name of the object
+Name of the object.

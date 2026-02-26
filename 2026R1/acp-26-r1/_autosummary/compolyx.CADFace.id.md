@@ -4,4 +4,4 @@
 
 #### *property* CADFace.id
 
-ID of the object
+ID of the object.

@@ -6,7 +6,7 @@
 
 Open an ACPH5 file.
 
-* **Parameters:**
+### Parameters:
   - path: File path to the ACPH5 file.
   - pre_db: Indicates whether a pre-database is opened from within a
     : post-database. Used for Workbench application integration 14.

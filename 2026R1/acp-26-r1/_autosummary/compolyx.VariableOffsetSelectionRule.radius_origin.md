@@ -4,4 +4,4 @@
 
 #### *property* VariableOffsetSelectionRule.radius_origin
 
-Origin for offset value interpolations
+Origin for offset value interpolations.

@@ -4,4 +4,4 @@
 
 #### *property* ModelingPly.weight
 
-Weight of the Modeling Ply
+Weight of the modeling ply.

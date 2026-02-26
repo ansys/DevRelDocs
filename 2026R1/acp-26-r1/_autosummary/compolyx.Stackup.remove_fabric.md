@@ -6,5 +6,5 @@
 
 Remove fabric from position.
 
-* **Parameters:**
+### Parameters:
   - pos: Position of the fabric to remove.

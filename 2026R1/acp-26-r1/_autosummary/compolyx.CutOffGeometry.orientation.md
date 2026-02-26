@@ -4,4 +4,4 @@
 
 #### *property* CutOffGeometry.orientation
 
-Orientation. Allowed string values: [‘up’, ‘down’]
+Orientation. Allowed string values: [‘up’, ‘down’].

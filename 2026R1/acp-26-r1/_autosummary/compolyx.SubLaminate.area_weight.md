@@ -4,4 +4,4 @@
 
 #### *property* SubLaminate.area_weight
 
-Area weight of the Sub Laminate
+Area weight of the Sub Laminate.

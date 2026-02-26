@@ -4,4 +4,4 @@
 
 #### *property* CutOffGeometry.active
 
-Cut-Off Geometry active
+Cut-Off Geometry active.

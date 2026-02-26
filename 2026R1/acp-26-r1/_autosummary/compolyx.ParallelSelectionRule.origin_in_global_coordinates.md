@@ -4,4 +4,4 @@
 
 #### *property* ParallelSelectionRule.origin_in_global_coordinates
 
-Origin of the rule in global coordinates
+Origin of the rule in global coordinates.

@@ -6,7 +6,7 @@
 
 Load layup from Excel File.
 
-* **Parameters:**
+### Parameters:
   - path: Path to file to load.
   - objects: Objects to be loaded and overwritten.
   - mode: Valid options:

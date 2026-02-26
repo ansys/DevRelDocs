@@ -4,4 +4,4 @@
 
 #### OrientedSelectionSet.normal_from_id(id)
 
-Returns the element normal
+Returns the element normal.

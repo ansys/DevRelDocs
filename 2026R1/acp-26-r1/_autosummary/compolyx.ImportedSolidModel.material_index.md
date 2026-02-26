@@ -4,4 +4,4 @@
 
 #### *property* ImportedSolidModel.material_index
 
-Material index
+Material index.

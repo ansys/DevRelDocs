@@ -4,4 +4,4 @@
 
 #### *property* ParallelSelectionRule.neg_distance
 
-Negative distance
+Negative distance.

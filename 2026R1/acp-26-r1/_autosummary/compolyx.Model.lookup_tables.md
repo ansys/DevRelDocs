@@ -4,4 +4,4 @@
 
 #### *property* Model.lookup_tables
 
-Dictionary with all Look-Up Tables
+Dictionary with all Look-Up Tables.

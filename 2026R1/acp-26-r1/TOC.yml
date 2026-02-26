@@ -116,7 +116,7 @@
         href: _autosummary/compolyx.Fabric.status_changed.md
       - name: thickness
         href: _autosummary/compolyx.Fabric.thickness.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.Fabric.uid.md
       - name: vertex
         href: _autosummary/compolyx.Fabric.vertex.md
@@ -181,7 +181,7 @@
         href: _autosummary/compolyx.Material.status.md
       - name: status_changed
         href: _autosummary/compolyx.Material.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.Material.uid.md
       - name: vertex
         href: _autosummary/compolyx.Material.vertex.md
@@ -328,7 +328,7 @@
         href: _autosummary/compolyx.Stackup.symmetry.md
       - name: thickness
         href: _autosummary/compolyx.Stackup.thickness.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.Stackup.uid.md
       - name: vertex
         href: _autosummary/compolyx.Stackup.vertex.md
@@ -403,7 +403,7 @@
         href: _autosummary/compolyx.SubLaminate.symmetry.md
       - name: thickness
         href: _autosummary/compolyx.SubLaminate.thickness.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.SubLaminate.uid.md
       - name: vertex
         href: _autosummary/compolyx.SubLaminate.vertex.md
@@ -483,7 +483,7 @@
         href: _autosummary/compolyx.AnalysisPly.status_changed.md
       - name: thickness
         href: _autosummary/compolyx.AnalysisPly.thickness.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.AnalysisPly.uid.md
       - name: vertex
         href: _autosummary/compolyx.AnalysisPly.vertex.md
@@ -544,7 +544,7 @@
         href: _autosummary/compolyx.BooleanSelectionRule.status.md
       - name: status_changed
         href: _autosummary/compolyx.BooleanSelectionRule.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.BooleanSelectionRule.uid.md
       - name: vertex
         href: _autosummary/compolyx.BooleanSelectionRule.vertex.md
@@ -597,7 +597,7 @@
         href: _autosummary/compolyx.ButtJointSequence.status.md
       - name: status_changed
         href: _autosummary/compolyx.ButtJointSequence.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.ButtJointSequence.uid.md
       - name: vertex
         href: _autosummary/compolyx.ButtJointSequence.vertex.md
@@ -648,7 +648,7 @@
         href: _autosummary/compolyx.CADCompound.status_changed.md
       - name: sub_shapes
         href: _autosummary/compolyx.CADCompound.sub_shapes.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.CADCompound.uid.md
       - name: vertex
         href: _autosummary/compolyx.CADCompound.vertex.md
@@ -697,7 +697,7 @@
         href: _autosummary/compolyx.CADFace.status.md
       - name: status_changed
         href: _autosummary/compolyx.CADFace.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.CADFace.uid.md
       - name: vertex
         href: _autosummary/compolyx.CADFace.vertex.md
@@ -776,7 +776,7 @@
         href: _autosummary/compolyx.CADGeometry.sub_shape_selection_display_data.md
       - name: sub_shapes
         href: _autosummary/compolyx.CADGeometry.sub_shapes.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.CADGeometry.uid.md
       - name: use_default_offset
         href: _autosummary/compolyx.CADGeometry.use_default_offset.md
@@ -859,7 +859,7 @@
         href: _autosummary/compolyx.CADReference.status.md
       - name: status_changed
         href: _autosummary/compolyx.CADReference.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.CADReference.uid.md
       - name: vertex
         href: _autosummary/compolyx.CADReference.vertex.md
@@ -912,7 +912,7 @@
         href: _autosummary/compolyx.CADShell.status_changed.md
       - name: sub_shapes
         href: _autosummary/compolyx.CADShell.sub_shapes.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.CADShell.uid.md
       - name: vertex
         href: _autosummary/compolyx.CADShell.vertex.md
@@ -963,7 +963,7 @@
         href: _autosummary/compolyx.CADSolid.status_changed.md
       - name: sub_shapes
         href: _autosummary/compolyx.CADSolid.sub_shapes.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.CADSolid.uid.md
       - name: vertex
         href: _autosummary/compolyx.CADSolid.vertex.md
@@ -1069,7 +1069,7 @@
         href: _autosummary/compolyx.CutoffSelectionRule.status.md
       - name: status_changed
         href: _autosummary/compolyx.CutoffSelectionRule.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.CutoffSelectionRule.uid.md
       - name: vertex
         href: _autosummary/compolyx.CutoffSelectionRule.vertex.md
@@ -1136,7 +1136,7 @@
         href: _autosummary/compolyx.CylindricalSelectionRule.status.md
       - name: status_changed
         href: _autosummary/compolyx.CylindricalSelectionRule.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.CylindricalSelectionRule.uid.md
       - name: use_global_coordinate_system
         href: _autosummary/compolyx.CylindricalSelectionRule.use_global_coordinate_system.md
@@ -1205,7 +1205,7 @@
         href: _autosummary/compolyx.EdgeSet.status.md
       - name: status_changed
         href: _autosummary/compolyx.EdgeSet.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.EdgeSet.uid.md
       - name: vertex
         href: _autosummary/compolyx.EdgeSet.vertex.md
@@ -1262,7 +1262,7 @@
         href: _autosummary/compolyx.ElementSelectionRule.status.md
       - name: status_changed
         href: _autosummary/compolyx.ElementSelectionRule.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.ElementSelectionRule.uid.md
       - name: vertex
         href: _autosummary/compolyx.ElementSelectionRule.vertex.md
@@ -1319,7 +1319,7 @@
         href: _autosummary/compolyx.ElementSet.status.md
       - name: status_changed
         href: _autosummary/compolyx.ElementSet.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.ElementSet.uid.md
       - name: vertex
         href: _autosummary/compolyx.ElementSet.vertex.md
@@ -1376,7 +1376,7 @@
         href: _autosummary/compolyx.EntitySet.status.md
       - name: status_changed
         href: _autosummary/compolyx.EntitySet.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.EntitySet.uid.md
       - name: vertex
         href: _autosummary/compolyx.EntitySet.vertex.md
@@ -1431,7 +1431,7 @@
         href: _autosummary/compolyx.FieldDefinition.status.md
       - name: status_changed
         href: _autosummary/compolyx.FieldDefinition.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.FieldDefinition.uid.md
       - name: vertex
         href: _autosummary/compolyx.FieldDefinition.vertex.md
@@ -1500,7 +1500,7 @@
         href: _autosummary/compolyx.GeometricalSelectionRule.status.md
       - name: status_changed
         href: _autosummary/compolyx.GeometricalSelectionRule.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.GeometricalSelectionRule.uid.md
       - name: use_defaults
         href: _autosummary/compolyx.GeometricalSelectionRule.use_defaults.md
@@ -1563,7 +1563,7 @@
         href: _autosummary/compolyx.ImportedAnalysisPly.status_changed.md
       - name: thickness
         href: _autosummary/compolyx.ImportedAnalysisPly.thickness.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.ImportedAnalysisPly.uid.md
       - name: vertex
         href: _autosummary/compolyx.ImportedAnalysisPly.vertex.md
@@ -1608,7 +1608,7 @@
         href: _autosummary/compolyx.ImportedModelingGroup.status.md
       - name: status_changed
         href: _autosummary/compolyx.ImportedModelingGroup.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.ImportedModelingGroup.uid.md
       - name: vertex
         href: _autosummary/compolyx.ImportedModelingGroup.vertex.md
@@ -1695,7 +1695,7 @@
         href: _autosummary/compolyx.ImportedModelingPly.thickness_field.md
       - name: thickness_field_type
         href: _autosummary/compolyx.ImportedModelingPly.thickness_field_type.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.ImportedModelingPly.uid.md
       - name: vertex
         href: _autosummary/compolyx.ImportedModelingPly.vertex.md
@@ -1746,7 +1746,7 @@
         href: _autosummary/compolyx.ImportedProductionPly.status_changed.md
       - name: thickness
         href: _autosummary/compolyx.ImportedProductionPly.thickness.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.ImportedProductionPly.uid.md
       - name: vertex
         href: _autosummary/compolyx.ImportedProductionPly.vertex.md
@@ -1793,7 +1793,7 @@
         href: _autosummary/compolyx.InterfaceLayer.status.md
       - name: status_changed
         href: _autosummary/compolyx.InterfaceLayer.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.InterfaceLayer.uid.md
       - name: vertex
         href: _autosummary/compolyx.InterfaceLayer.vertex.md
@@ -1866,7 +1866,7 @@
         href: _autosummary/compolyx.LookUpTable1D.status_changed.md
       - name: tabular_data
         href: _autosummary/compolyx.LookUpTable1D.tabular_data.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.LookUpTable1D.uid.md
       - name: vector_column_suffix
         href: _autosummary/compolyx.LookUpTable1D.vector_column_suffix.md
@@ -1937,7 +1937,7 @@
         href: _autosummary/compolyx.LookUpTableBase.status_changed.md
       - name: tabular_data
         href: _autosummary/compolyx.LookUpTableBase.tabular_data.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.LookUpTableBase.uid.md
       - name: vector_column_suffix
         href: _autosummary/compolyx.LookUpTableBase.vector_column_suffix.md
@@ -2308,7 +2308,7 @@
         href: _autosummary/compolyx.ModelingGroup.status.md
       - name: status_changed
         href: _autosummary/compolyx.ModelingGroup.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.ModelingGroup.uid.md
       - name: vertex
         href: _autosummary/compolyx.ModelingGroup.vertex.md
@@ -2439,7 +2439,7 @@
         href: _autosummary/compolyx.ModelingPly.thickness_field.md
       - name: thickness_field_type
         href: _autosummary/compolyx.ModelingPly.thickness_field_type.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.ModelingPly.uid.md
       - name: use_default_draping_mesh_size
         href: _autosummary/compolyx.ModelingPly.use_default_draping_mesh_size.md
@@ -2560,7 +2560,7 @@
         href: _autosummary/compolyx.OrientedSelectionSet.status.md
       - name: status_changed
         href: _autosummary/compolyx.OrientedSelectionSet.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.OrientedSelectionSet.uid.md
       - name: use_default_draping_mesh_size
         href: _autosummary/compolyx.OrientedSelectionSet.use_default_draping_mesh_size.md
@@ -2653,7 +2653,7 @@
         href: _autosummary/compolyx.ParallelSelectionRule.status.md
       - name: status_changed
         href: _autosummary/compolyx.ParallelSelectionRule.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.ParallelSelectionRule.uid.md
       - name: use_global_coordinate_system
         href: _autosummary/compolyx.ParallelSelectionRule.use_global_coordinate_system.md
@@ -2814,7 +2814,7 @@
         href: _autosummary/compolyx.Rosette.status.md
       - name: status_changed
         href: _autosummary/compolyx.Rosette.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.Rosette.uid.md
       - name: vertex
         href: _autosummary/compolyx.Rosette.vertex.md
@@ -2899,7 +2899,7 @@
         href: _autosummary/compolyx.SamplingPoint.status.md
       - name: status_changed
         href: _autosummary/compolyx.SamplingPoint.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.SamplingPoint.uid.md
       - name: use_default_reference_direction
         href: _autosummary/compolyx.SamplingPoint.use_default_reference_direction.md
@@ -3051,7 +3051,7 @@
         href: _autosummary/compolyx.SectionCut.surface_mesh.md
       - name: tolerance
         href: _autosummary/compolyx.SectionCut.tolerance.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.SectionCut.uid.md
       - name: use_default_lut_settings
         href: _autosummary/compolyx.SectionCut.use_default_lut_settings.md
@@ -3134,7 +3134,7 @@
         href: _autosummary/compolyx.Sensor.status.md
       - name: status_changed
         href: _autosummary/compolyx.Sensor.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.Sensor.uid.md
       - name: vertex
         href: _autosummary/compolyx.Sensor.vertex.md
@@ -3201,7 +3201,7 @@
         href: _autosummary/compolyx.SphericalSelectionRule.status.md
       - name: status_changed
         href: _autosummary/compolyx.SphericalSelectionRule.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.SphericalSelectionRule.uid.md
       - name: use_global_coordinate_system
         href: _autosummary/compolyx.SphericalSelectionRule.use_global_coordinate_system.md
@@ -3280,7 +3280,7 @@
         href: _autosummary/compolyx.TubeSelectionRule.symmetrical_extension.md
       - name: tail_extension
         href: _autosummary/compolyx.TubeSelectionRule.tail_extension.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.TubeSelectionRule.uid.md
       - name: vertex
         href: _autosummary/compolyx.TubeSelectionRule.vertex.md
@@ -3351,7 +3351,7 @@
         href: _autosummary/compolyx.VariableOffsetSelectionRule.status.md
       - name: status_changed
         href: _autosummary/compolyx.VariableOffsetSelectionRule.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.VariableOffsetSelectionRule.uid.md
       - name: use_offset_correction
         href: _autosummary/compolyx.VariableOffsetSelectionRule.use_offset_correction.md
@@ -3406,7 +3406,7 @@
         href: _autosummary/compolyx.VirtualGeometry.status_changed.md
       - name: sub_shapes
         href: _autosummary/compolyx.VirtualGeometry.sub_shapes.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.VirtualGeometry.uid.md
       - name: vertex
         href: _autosummary/compolyx.VirtualGeometry.vertex.md
@@ -3468,7 +3468,7 @@
         href: _autosummary/compolyx.CutOffGeometry.status.md
       - name: status_changed
         href: _autosummary/compolyx.CutOffGeometry.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.CutOffGeometry.uid.md
       - name: vertex
         href: _autosummary/compolyx.CutOffGeometry.vertex.md
@@ -3521,7 +3521,7 @@
         href: _autosummary/compolyx.ExtrusionGuide.status.md
       - name: status_changed
         href: _autosummary/compolyx.ExtrusionGuide.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.ExtrusionGuide.uid.md
       - name: use_curvature_correction
         href: _autosummary/compolyx.ExtrusionGuide.use_curvature_correction.md
@@ -3624,7 +3624,7 @@
         href: _autosummary/compolyx.ImportedSolidModel.transferred_edge_sets.md
       - name: transferred_element_sets
         href: _autosummary/compolyx.ImportedSolidModel.transferred_element_sets.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.ImportedSolidModel.uid.md
       - name: unit_system
         href: _autosummary/compolyx.ImportedSolidModel.unit_system.md
@@ -3761,7 +3761,7 @@
         href: _autosummary/compolyx.LayupMappingObject.status.md
       - name: status_changed
         href: _autosummary/compolyx.LayupMappingObject.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.LayupMappingObject.uid.md
       - name: use_imported_plies
         href: _autosummary/compolyx.LayupMappingObject.use_imported_plies.md
@@ -3816,7 +3816,7 @@
         href: _autosummary/compolyx.SnapToGeometry.status.md
       - name: status_changed
         href: _autosummary/compolyx.SnapToGeometry.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.SnapToGeometry.uid.md
       - name: vertex
         href: _autosummary/compolyx.SnapToGeometry.vertex.md
@@ -3865,7 +3865,7 @@
         href: _autosummary/compolyx.SolidElementSet.status.md
       - name: status_changed
         href: _autosummary/compolyx.SolidElementSet.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.SolidElementSet.uid.md
       - name: vertex
         href: _autosummary/compolyx.SolidElementSet.vertex.md
@@ -3988,7 +3988,7 @@
         href: _autosummary/compolyx.SolidModel.transferred_edge_sets.md
       - name: transferred_element_sets
         href: _autosummary/compolyx.SolidModel.transferred_element_sets.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.SolidModel.uid.md
       - name: use_default_coordinate_system_index
         href: _autosummary/compolyx.SolidModel.use_default_coordinate_system_index.md
@@ -4311,7 +4311,7 @@
         href: _autosummary/compolyx.plot_data.AngleData.status.md
       - name: status_changed
         href: _autosummary/compolyx.plot_data.AngleData.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.plot_data.AngleData.uid.md
       - name: updated
         href: _autosummary/compolyx.plot_data.AngleData.updated.md
@@ -4432,7 +4432,7 @@
         href: _autosummary/compolyx.plot_data.ContourData.status.md
       - name: status_changed
         href: _autosummary/compolyx.plot_data.ContourData.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.plot_data.ContourData.uid.md
       - name: updated
         href: _autosummary/compolyx.plot_data.ContourData.updated.md
@@ -4549,7 +4549,7 @@
         href: _autosummary/compolyx.plot_data.DrapingData.status.md
       - name: status_changed
         href: _autosummary/compolyx.plot_data.DrapingData.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.plot_data.DrapingData.uid.md
       - name: updated
         href: _autosummary/compolyx.plot_data.DrapingData.updated.md
@@ -4670,7 +4670,7 @@
         href: _autosummary/compolyx.plot_data.FieldDefinitionData.status.md
       - name: status_changed
         href: _autosummary/compolyx.plot_data.FieldDefinitionData.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.plot_data.FieldDefinitionData.uid.md
       - name: updated
         href: _autosummary/compolyx.plot_data.FieldDefinitionData.updated.md
@@ -4791,7 +4791,7 @@
         href: _autosummary/compolyx.plot_data.LayupMappingData.status.md
       - name: status_changed
         href: _autosummary/compolyx.plot_data.LayupMappingData.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.plot_data.LayupMappingData.uid.md
       - name: updated
         href: _autosummary/compolyx.plot_data.LayupMappingData.updated.md
@@ -4981,7 +4981,7 @@
         href: _autosummary/compolyx.plot_data.PlotData.status.md
       - name: status_changed
         href: _autosummary/compolyx.plot_data.PlotData.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.plot_data.PlotData.uid.md
       - name: updated
         href: _autosummary/compolyx.plot_data.PlotData.updated.md
@@ -5171,7 +5171,7 @@
         href: _autosummary/compolyx.plot_data.ScalarFieldData.status_changed.md
       - name: supporting_point_scale_factor
         href: _autosummary/compolyx.plot_data.ScalarFieldData.supporting_point_scale_factor.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.plot_data.ScalarFieldData.uid.md
       - name: updated
         href: _autosummary/compolyx.plot_data.ScalarFieldData.updated.md
@@ -5298,7 +5298,7 @@
         href: _autosummary/compolyx.plot_data.ThicknessData.status.md
       - name: status_changed
         href: _autosummary/compolyx.plot_data.ThicknessData.status_changed.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.plot_data.ThicknessData.uid.md
       - name: updated
         href: _autosummary/compolyx.plot_data.ThicknessData.updated.md
@@ -5425,7 +5425,7 @@
         href: _autosummary/compolyx.plot_data.UserDefinedData.text_threshold.md
       - name: text_threshold_type
         href: _autosummary/compolyx.plot_data.UserDefinedData.text_threshold_type.md
-      - name: uid
+      - name: UID
         href: _autosummary/compolyx.plot_data.UserDefinedData.uid.md
       - name: updated
         href: _autosummary/compolyx.plot_data.UserDefinedData.updated.md

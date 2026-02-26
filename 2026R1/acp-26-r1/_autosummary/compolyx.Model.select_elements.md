@@ -6,7 +6,7 @@
 
 Selects element within active model and marks the selection as SELECTED.
 
-* **Parameters:**
+### Parameters:
   - selection: The selection to update.
     Can be given as string (‘sel0’-‘sel5’ or ‘all’) or ObjectSelection object such as
     - model.selection

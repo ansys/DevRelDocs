@@ -4,4 +4,4 @@
 
 #### *property* ImportedModelingPly.draping
 
-Type of draping to be used
+Type of draping to be used.

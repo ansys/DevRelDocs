@@ -4,4 +4,4 @@
 
 #### *property* ContourData.component
 
-The requested result component for a specific plot, e.g. s1 for the stress in the 1-direction
+The requested result component for a specific plot, for example s1 for the stress in the 1-direction.

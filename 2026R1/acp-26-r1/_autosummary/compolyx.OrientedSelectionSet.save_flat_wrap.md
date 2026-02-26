@@ -6,5 +6,5 @@
 
 Write the flatwrap to .dxf, .iges, or .step file.
 
-* **Parameters:**
+### Parameters:
   - filename: Path to the file to be written.

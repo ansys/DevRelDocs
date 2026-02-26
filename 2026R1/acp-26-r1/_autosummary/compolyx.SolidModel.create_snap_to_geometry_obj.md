@@ -6,7 +6,7 @@
 
 Create a new snap-to-geometry object.
 
-* **Parameters:**
+### Parameters:
   - name: The name of the object.
   - id: The ID of the object.
   - active: Pass the active-flag of the object.

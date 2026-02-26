@@ -4,4 +4,4 @@
 
 #### *property* DB.material_data
 
-Material database
+Material database.

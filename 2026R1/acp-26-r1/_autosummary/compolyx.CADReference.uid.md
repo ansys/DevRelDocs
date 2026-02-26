@@ -4,4 +4,4 @@
 
 #### *property* CADReference.uid
 
-UID of the object
+UID of the object.

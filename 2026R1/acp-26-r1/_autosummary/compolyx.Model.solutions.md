@@ -4,4 +4,4 @@
 
 #### *property* Model.solutions
 
-Solutions
+Solutions.

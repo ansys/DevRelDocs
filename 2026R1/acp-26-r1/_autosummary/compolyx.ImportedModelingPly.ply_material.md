@@ -4,4 +4,4 @@
 
 #### *property* ImportedModelingPly.ply_material
 
-Material of the Modeling Ply
+Material of the modeling ply.

@@ -6,7 +6,7 @@
 
 Create a new oriented selection set.
 
-* **Parameters:**
+### Parameters:
   - name: The name of the oriented element set.
   - id: The ID of the oriented element set.
   - orientation_point: Orientation point for the oriented selection set.
@@ -29,5 +29,5 @@ Create a new oriented selection set.
   - draping_material_model: Material model for draping, either ‘woven’ or ‘unidirectional’.
   - draping_ud_coefficient: Coefficient for the unidirectional draping material model.
   - rotation_angle: Angle to rotate the reference directions around the orientation directions (in degree).
-* **Returns:**
+### Returns:
   The created oriented selection set.

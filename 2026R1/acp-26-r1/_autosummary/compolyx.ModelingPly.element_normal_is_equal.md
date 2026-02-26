@@ -6,6 +6,6 @@
 
 Returns 1 if the element normal is equal the orientation of the modeling ply, else -1.
 
-* **Parameters:**
+### Parameters:
   - element_id: Element label.
   - normal: Reference normal direction.

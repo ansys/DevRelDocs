@@ -6,7 +6,7 @@
 
 Add selection rule to boolean selection rule.
 
-* **Parameters:**
+### Parameters:
   - rule: The rule to be added.
   - template_rule: Whether this is a template rule.
   - rule_values: Parameters of the template rule (for instance, the upper and lower limits of a ParallelSelectionRule).

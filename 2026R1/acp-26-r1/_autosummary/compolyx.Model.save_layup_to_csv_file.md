@@ -6,6 +6,6 @@
 
 Function that saves the layup data to a .csv file.
 
-* **Parameters:**
+### Parameters:
   - path: The path to the file.
   - modeling_groups: An optional parameter, if enabled, then the entire layup is written to the file. If disabled, only the layup defined within modeling_groups is written to the file.

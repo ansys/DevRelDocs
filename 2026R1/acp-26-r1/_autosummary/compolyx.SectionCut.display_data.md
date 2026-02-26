@@ -4,4 +4,4 @@
 
 #### *property* SectionCut.display_data
 
-Section cut plots
+Section cut plots.

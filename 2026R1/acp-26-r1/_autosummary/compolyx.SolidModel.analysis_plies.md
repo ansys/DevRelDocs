@@ -4,4 +4,4 @@
 
 #### *property* SolidModel.analysis_plies
 
-Analysis Plies of the Solid Model
+Analysis plies of the solid model.

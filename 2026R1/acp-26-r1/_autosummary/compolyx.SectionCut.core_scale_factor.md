@@ -4,4 +4,4 @@
 
 #### *property* SectionCut.core_scale_factor
 
-Get/set the core scale factor
+Get/set the core scale factor.

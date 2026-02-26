@@ -4,4 +4,4 @@
 
 #### *property* InterfaceLayer.ply_offsets
 
-Returns the offsetted Interface Layer
+Returns the offsetted Interface Layer.

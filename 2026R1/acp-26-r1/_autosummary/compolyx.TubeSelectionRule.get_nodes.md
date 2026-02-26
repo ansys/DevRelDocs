@@ -4,5 +4,5 @@
 
 #### TubeSelectionRule.get_nodes()
 
-* **Return:**
+### Return:
   List of nodes that define the central line of the tube.

@@ -4,4 +4,4 @@
 
 #### *property* ParallelSelectionRule.extent
 
-Extent of the rule
+Extent of the rule.

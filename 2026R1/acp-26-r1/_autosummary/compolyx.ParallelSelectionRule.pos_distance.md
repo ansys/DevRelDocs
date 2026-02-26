@@ -4,4 +4,4 @@
 
 #### *property* ParallelSelectionRule.pos_distance
 
-Positive distance
+Positive distance.

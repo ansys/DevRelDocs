@@ -4,4 +4,4 @@
 
 #### *property* BooleanSelectionRule.changed
 
-Triggers an observable to dispatch a change notification
+Triggers an observable to dispatch a change notification.

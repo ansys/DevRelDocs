@@ -6,7 +6,7 @@
 
 Save solid models to files. Function is used within the Workbench application updates.
 
-* **Parameters:**
+### Parameters:
   - directory: Directory to save the models.
   - prefix: Prefix of the model. Default “
 

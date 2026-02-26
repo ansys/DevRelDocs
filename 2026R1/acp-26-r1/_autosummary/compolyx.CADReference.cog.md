@@ -4,4 +4,4 @@
 
 #### *property* CADReference.cog
 
-Center of gravity of the linked shape
+Center of gravity of the linked shape.

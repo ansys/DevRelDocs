@@ -4,4 +4,4 @@
 
 #### *property* PublishedParameter.cyclic
 
-Whether a float value is cyclic or not
+Whether a float value is cyclic or not.

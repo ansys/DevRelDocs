@@ -4,4 +4,4 @@
 
 #### *property* ContourData.eval_position
 
-The finite element position at which the results are given, e.g. centroid or nodal.
+The finite element position at which the results are given, for example centroid or nodal.

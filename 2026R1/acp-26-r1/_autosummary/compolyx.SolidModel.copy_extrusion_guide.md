@@ -4,9 +4,9 @@
 
 #### SolidModel.copy_extrusion_guide(source)
 
-Copy a Extrusion Guide
+Copy a Extrusion Guide.
 
-* **Parameters:**
+### Parameters:
   - source: Source object to copy
-* **Returns:**
+### Returns:
   New instance of a Extrusion Guide

@@ -4,4 +4,4 @@
 
 #### *property* MaterialData.unit_system
 
-Unit system of material data, propagated from model
+Unit system of material data, propagated from model.
