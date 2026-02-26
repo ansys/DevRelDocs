@@ -1526,7 +1526,7 @@
       href: reference/namespacesimulation__framework_1_1core_1_1time.md
     - name: "operator=="
       href: reference/namespacesimulation__framework_1_1core_1_1time.md
-    - name: "operator\<\<"
+    - name: "operator<<"
       href: reference/namespacesimulation__framework_1_1core_1_1time.md
     - name: "simulation_framework::core::topic_registry"
       href: reference/namespacesimulation__framework_1_1core_1_1topic__registry.md
