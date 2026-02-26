@@ -1,4 +1,4 @@
-# Change Logs
+# ChangeLog
 
 ## GtGen-Simulator  
 >

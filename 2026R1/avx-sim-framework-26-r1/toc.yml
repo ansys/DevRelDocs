@@ -1,7 +1,7 @@
 - name: "Introduction"
   href: index.md
-- name: "Change log"
-  href: change_log.md
+- name: "Changelog"
+  href: changelog.md
 - name: "Getting started"
   items:
   - name: "Overview"
