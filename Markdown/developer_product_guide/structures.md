@@ -48,6 +48,10 @@ Ansys Mechanical and MAPDL are essentially two sides of the same coin, being two
 * [Introduction to Ansys ACT Wizards (ALH)](https://www.ansys.com/training-center/course-catalog/structures/introduction-to-ansys-act-wizards)
 * [Create a report from a saved Mechanical session (.mechdb or .mechdat)](https://developer.ansys.com/blog/create-report-saved-mechanical-session-mechdb-or-mechdat)
 
+#### Learning Roadmaps
+
+* [PyMechanical Roadmap](<https://developer.ansys.com/docs/ansys-developer-product-guide/learning_roadmaps.md#ip-pymechanical>)
+
 ### Non-Ansys Mechanical and MAPDL training material
 
 * Using Ansys Scripting with pyMAPDL, pyDPF-Post, and More
