@@ -15,7 +15,7 @@ The following table shows which components have updates in each category.
 | cyclic | [1 item](#Features_cyclic) | | |
 | documentation | [3 items](#Features_documentation) | [1 item](#Fixes_documentation) | |
 | engineeringdata | | [1 item](#Fixes_engineeringdata) | |
-| femutils | [1 item](#Feat_femutils) | [12 items](#Fixes_femutils) | [3 items](#Perf_femutils) |
+| femutils | [2 item](#Feat_femutils) | [12 items](#Fixes_femutils) | [3 items](#Perf_femutils) |
 | framework | [2 items](#Feat_framework) | [11 items](#Fixes_framework) | |
 | grpc | [1 item](#Features_grpc) | [3 items](#Fixes_grpc) | |
 | hdf5 | [6 items](#Features_hdf5) | [7 items](#Fixes_hdf5) | [2 items](#Perf_hdf5) |
@@ -25,7 +25,7 @@ The following table shows which components have updates in each category.
 | math | | [2 items](#Fixes_math) | [1 item](#Perf_math) |
 | mechanical | [1 item](#Features_mechanical) | | |
 | mesh | | [1 item](#Fixes_mesh) | |
-| misc | [11 items](#Features_misc) | [19 items](#Fixes_misc) | |
+| misc | [11 items](#Features_misc) | [18 items](#Fixes_misc) | |
 | multiphysicsmapper | | [1 item](#Fixes_multiphysicsmapper) | |
 | native | | [16 items](#Fixes_native) | [1 item](#Perf_native) |
 | rbd | | [1 item](#Fixes_rbd) | |
@@ -122,6 +122,9 @@ The following table shows which components have updates in each category.
 - Support nodal/element scopings container and summation fields container in force summation operators:
   > - Input mesh scopings container are now supported in force_summation and force_summation_psd operators
   > - Input fields container for summation point are now supported in force_summation, torque and force_summation_psd operators
+
+- Change the licensing type of the `geo.normals_provider_nl` operator from Premium to Entry:
+  > The `geo.normals_provider_nl` is changed from Premium to Entry (it now only requires a license check and was previously requiring a checkout).
 
 ### <a id="Fixes_femutils"></a> Fixes
 
@@ -613,14 +616,6 @@ The following table shows which components have updates in each category.
 - Support header in field::get_attribute operator and expose propertyfield/customtypefield::get_attribute:
 
   > Headers are supported as valid properties to forward in the `field::get_attribute` operator. The `propertyfield::get_attribute` and `customtypefield::get_attribute` operators are created mimicking the behavior of the other one.
-
-- Change licensing behavior of normals_provider_nl operator (second round):
-
-  > The `normals_provider_nl` is changed to require a license check (it was previously requiring checkout).
-
-- Change licensing behavior of normals_provider_nl operator:
-
-  > The `normals_provider_nl` is changed to require a license check (it was previously requiring checkout).
 
 ### <a id="Fixes_misc"></a> Fixes
 
