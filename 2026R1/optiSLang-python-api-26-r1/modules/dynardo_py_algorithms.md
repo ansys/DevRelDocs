@@ -514,10 +514,6 @@
 
 #### CUSTOM_STOCHASTIC *= dynardo_py_algorithms.SupportedAlgorithms.CUSTOM_STOCHASTIC*
 
-<a id="dynardo_py_algorithms.SupportedAlgorithms.DUAL_MOP"></a>
-
-#### DUAL_MOP *= dynardo_py_algorithms.SupportedAlgorithms.DUAL_MOP*
-
 <a id="dynardo_py_algorithms.SupportedAlgorithms.EA"></a>
 
 #### EA *= dynardo_py_algorithms.SupportedAlgorithms.EA*

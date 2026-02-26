@@ -1,5 +1,5 @@
 # Wizards
-optiSLang allows you to extend the [solver wizard](https://ansysproducthelpqa.win.ansys.com/account/secured?returnurl=/Views/Secured/corp/v252/en/opti_ug/opti_ug_solver_wizard.html) by using common script interfaces or by enabling automatic support of Python-based integration nodes in the configuration.
+optiSLang allows you to extend the [solver wizard](https://ansysproducthelpqa.win.ansys.com/account/secured?returnurl=/Views/Secured/corp/v261/en/opti_ug/opti_ug_solver_wizard.html) by using common script interfaces or by enabling automatic support of Python-based integration nodes in the configuration.
 
 To use custom script wizards, the scripts must fulfill the naming conventions `*_cw.py` or `*_solverwizard.py` and must be placed in one of the following locations:
 
@@ -18,7 +18,7 @@ The following variables are predefined in the script:
 
 | Variable/Parameter | Description    |
 |--------|-----|
-| `wizard_system_name`| String containing the name of the [Parametric System](https://ansysproducthelpqa.win.ansys.com/Views/Secured/corp/v252/en/opti_ug/opti_ug_parametric_system.html)|
+| `wizard_system_name`| String containing the name of the [Parametric System](https://ansysproducthelpqa.win.ansys.com/Views/Secured/corp/v261/en/opti_ug/opti_ug_parametric_system.html)|
 | `create_in_parametric_system` | Indicates that the flow should be generated in the named system|
 | `type_of_script`| Type of script node to use (`"batch"`, `"bash"`, `"Python"`, `"perl"`)|
 | `project`| The current optiSLang project|
