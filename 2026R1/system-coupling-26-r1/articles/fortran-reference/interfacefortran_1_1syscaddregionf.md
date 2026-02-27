@@ -20,9 +20,11 @@ Provide an interface to add a region.
 
 ![][public]
 
+
 ```fortran
 type(syscerrorf) function syscaddregionf(reg)
 ```
+
 
 Provide a function to add a region to be used in a coupled analysis.
 
@@ -58,7 +60,7 @@ a <code>SyscErrorF</code> type for error checking.
 
 **Parameters**:
 
-* regreg
+* regtype([syscregionf](structfortran_1_1syscregionf.md#structfortran_1_1syscregionf)), intent(in)
 
 **Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
 

@@ -11,18 +11,20 @@ Provide an interface to get number of data transfers.
 
 ## Members
 
-* [sysccouplinginterfacegetnumdatatransfersf](interfacefortran_1_1sysccouplinginterfacegetnumdatatransfersf.md#interfacefortran_1_1sysccouplinginterfacegetnumdatatransfersf_1a3ad7cb0c600bc3aa73c2faeff0a1c3e9)
+* [sysccouplinginterfacegetnumdatatransfersf](interfacefortran_1_1sysccouplinginterfacegetnumdatatransfersf.md#interfacefortran_1_1sysccouplinginterfacegetnumdatatransfersf_1a57ec10107b49153576c110ee8072f232)
 
 ## Public functions
 
-<a id="interfacefortran_1_1sysccouplinginterfacegetnumdatatransfersf_1a3ad7cb0c600bc3aa73c2faeff0a1c3e9"></a>
+<a id="interfacefortran_1_1sysccouplinginterfacegetnumdatatransfersf_1a57ec10107b49153576c110ee8072f232"></a>
 ### Function sysccouplinginterfacegetnumdatatransfersf
 
 ![][public]
 
+
 ```fortran
-integer(kind=8) function sysccouplinginterfacegetnumdatatransfersf(couplingInterface)
+integer(kind=8) function sysccouplinginterfacegetnumdatatransfersf(couplinginterface)
 ```
+
 
 Get number of data transfers in a coupling interface.
 
@@ -32,7 +34,7 @@ Get number of data transfers in a coupling interface.
 
 **Parameters**:
 
-* couplingInterfacecouplingInterface
+* couplinginterfacetype([sysccouplinginterfacef](structfortran_1_1sysccouplinginterfacef.md#structfortran_1_1sysccouplinginterfacef)), intent(in)
 
 **Return type**: integer(kind=8) function
 

@@ -3,7 +3,7 @@
 ![][C++]
 ![][public]
 
-**Definition**: `CommonTypes.hpp` (line 187)
+**Definition**: `CommonTypes.hpp` (line 202)
 
 Provide a structure for writing System Coupling results files.
 
@@ -21,11 +21,13 @@ Provide a structure for writing System Coupling results files.
 
 ![][public]
 
-**Definition**: `CommonTypes.hpp` (line 188)
+**Definition**: `CommonTypes.hpp` (line 203)
+
 
 ```cpp
 std::string sysc::ResultsInfo::baseFileName
 ```
+
 
 
 
@@ -35,6 +37,10 @@ Base results file name.
 
 **Type**: std::string
 
+**Referenced by**:
+
+* [ResultsInfo](structsysc_1_1ResultsInfo.md#structsysc_1_1ResultsInfo_1a2e6c0a4ff62fde1317edd3df5752bc78)
+
 ## Public functions
 
 <a id="structsysc_1_1ResultsInfo_1a2e6c0a4ff62fde1317edd3df5752bc78"></a>
@@ -42,9 +48,11 @@ Base results file name.
 
 ![][public]
 
+
 ```cpp
 sysc::ResultsInfo::ResultsInfo(std::string baseFileName)
 ```
+
 
 Create results file info struct, given a base file name.
 
@@ -58,7 +66,11 @@ Create results file info struct, given a base file name.
 
 **Return type**: 
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+**References**:
+
+* [baseFileName](structsysc_1_1ResultsInfo.md#structsysc_1_1ResultsInfo_1acc2c96ab4d0c7b8bc630583a814cead4)
+
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

@@ -19,6 +19,7 @@ To create and/or initialize [SyscOutputIntegerData](structSyscOutputIntegerData.
 
 
 
+
 ```
  SyscOutputIntegerData oid = syscGetOutputIntegerDataDouble(array,
 arraySize); 
@@ -37,11 +38,13 @@ arraySize);
 
 ![][public]
 
-**Definition**: `syscOutputIntegerData.h` (line 98)
+**Definition**: `syscOutputIntegerData.h` (line 38)
+
 
 ```
 enum SyscPrimitiveType SyscOutputIntegerData::primitiveType
 ```
+
 
 
 
@@ -58,9 +61,11 @@ Primitive type.
 
 **Definition**: `syscOutputIntegerData.h` (line 39)
 
+
 ```
 const void* SyscOutputIntegerData::data
 ```
+
 
 
 
@@ -77,9 +82,11 @@ Pointer to the data array.
 
 **Definition**: `syscOutputIntegerData.h` (line 40)
 
+
 ```
 size_t SyscOutputIntegerData::size
 ```
+
 
 
 

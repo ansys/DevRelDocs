@@ -11,18 +11,20 @@ Provide an interface to add data transfer.
 
 ## Members
 
-* [syscadddatatransferf](interfacefortran_1_1syscadddatatransferf.md#interfacefortran_1_1syscadddatatransferf_1a21b444e439f1fde567611e565cd5e268)
+* [syscadddatatransferf](interfacefortran_1_1syscadddatatransferf.md#interfacefortran_1_1syscadddatatransferf_1a6848395ab0ad1cbe86aa5b0ea170bd28)
 
 ## Public functions
 
-<a id="interfacefortran_1_1syscadddatatransferf_1a21b444e439f1fde567611e565cd5e268"></a>
+<a id="interfacefortran_1_1syscadddatatransferf_1a6848395ab0ad1cbe86aa5b0ea170bd28"></a>
 ### Function syscadddatatransferf
 
 ![][public]
 
+
 ```fortran
-type(syscerrorf) function syscadddatatransferf(couplingInterface, dataTransfer)
+type(syscerrorf) function syscadddatatransferf(couplinginterface, datatransfer)
 ```
+
 
 Add data transfer to the coupling interface.
 
@@ -32,8 +34,8 @@ Add data transfer to the coupling interface.
 
 **Parameters**:
 
-* couplingInterfacecouplingInterface
-* dataTransferdataTransfer
+* couplinginterfacetype([sysccouplinginterfacef](structfortran_1_1sysccouplinginterfacef.md#structfortran_1_1sysccouplinginterfacef)), intent(in)
+* datatransfertype([syscdatatransferf](structfortran_1_1syscdatatransferf.md#structfortran_1_1syscdatatransferf)), intent(in)
 
 **Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
 

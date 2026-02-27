@@ -11,18 +11,20 @@ Provide function interface for access to input complex vector data.
 
 ## Members
 
-* [syscinputcomplexvectordataaccessf](interfacefortran_1_1syscinputcomplexvectordataaccessf.md#interfacefortran_1_1syscinputcomplexvectordataaccessf_1ae76b058e4cd2ea7a737a5dd3afc4a4c9)
+* [syscinputcomplexvectordataaccessf](interfacefortran_1_1syscinputcomplexvectordataaccessf.md#interfacefortran_1_1syscinputcomplexvectordataaccessf_1ae0547e919676dbc8004f23b405bbe988)
 
 ## Public functions
 
-<a id="interfacefortran_1_1syscinputcomplexvectordataaccessf_1ae76b058e4cd2ea7a737a5dd3afc4a4c9"></a>
+<a id="interfacefortran_1_1syscinputcomplexvectordataaccessf_1ae0547e919676dbc8004f23b405bbe988"></a>
 ### Function syscinputcomplexvectordataaccessf
 
 ![][public]
 
+
 ```fortran
-type(syscinputcomplexvectordataf) function syscinputcomplexvectordataaccessf(regionName, variableName)
+type(syscinputcomplexvectordataf) function syscinputcomplexvectordataaccessf(regionname, variablename)
 ```
+
 
 Provide a function for access to input complex vector data.
 
@@ -35,8 +37,8 @@ Provide a function for access to input complex vector data.
 
 **Parameters**:
 
-* regionNameregionName
-* variableNamevariableName
+* regionnamecharacter(len=syscstrlen), intent(in)
+* variablenamecharacter(len=syscstrlen), intent(in)
 
 **Return type**: type([syscinputcomplexvectordataf](structfortran_1_1syscinputcomplexvectordataf.md#structfortran_1_1syscinputcomplexvectordataf)) function
 

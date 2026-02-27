@@ -11,22 +11,24 @@ Provide an interface to get a System Coupling variable.
 
 ## Members
 
-* [syscgetvariablef](interfacefortran_1_1syscgetvariablef.md#interfacefortran_1_1syscgetvariablef_1a608cb70dd0a2392044f91c81fbfd3935)
-* [syscgetvariablef\_dtelqd](interfacefortran_1_1syscgetvariablef.md#interfacefortran_1_1syscgetvariablef_1a7ccf1db6c97ad5fbc08fc1a850a48343)
-* [syscgetvariablef\_q](interfacefortran_1_1syscgetvariablef.md#interfacefortran_1_1syscgetvariablef_1aa98302cabc43b69aba1ba8e4c4b25b25)
-* [syscgetvariablef\_te](interfacefortran_1_1syscgetvariablef.md#interfacefortran_1_1syscgetvariablef_1a500912aab7a473fba9e3b2ef73d0cdc2)
-* [syscgetvariablef\_teq](interfacefortran_1_1syscgetvariablef.md#interfacefortran_1_1syscgetvariablef_1a28db29bc33d8fa7aec1ee121dd156485)
+* [syscgetvariablef](interfacefortran_1_1syscgetvariablef.md#interfacefortran_1_1syscgetvariablef_1a8dd21e666858e69c69343a8a1145ceeb)
+* [syscgetvariablef\_dtelqd](interfacefortran_1_1syscgetvariablef.md#interfacefortran_1_1syscgetvariablef_1ad77ffe80eaeed67dcb5c207189543a80)
+* [syscgetvariablef\_q](interfacefortran_1_1syscgetvariablef.md#interfacefortran_1_1syscgetvariablef_1a0665e5454c9b7df4205539b6c07476e4)
+* [syscgetvariablef\_te](interfacefortran_1_1syscgetvariablef.md#interfacefortran_1_1syscgetvariablef_1a889fefd03b86f60b08c74a5a28475cf2)
+* [syscgetvariablef\_teq](interfacefortran_1_1syscgetvariablef.md#interfacefortran_1_1syscgetvariablef_1ae20d858d6873e2c82a6bd385c0f08a13)
 
 ## Public functions
 
-<a id="interfacefortran_1_1syscgetvariablef_1a608cb70dd0a2392044f91c81fbfd3935"></a>
+<a id="interfacefortran_1_1syscgetvariablef_1a8dd21e666858e69c69343a8a1145ceeb"></a>
 ### Function syscgetvariablef
 
 ![][public]
 
+
 ```fortran
-type(syscvariablef) function syscgetvariablef(variableName)
+type(syscvariablef) function syscgetvariablef(variablename)
 ```
+
 
 Create variable to be used in a coupled analysis.
 
@@ -73,18 +75,20 @@ a SyscVariableF type
 
 **Parameters**:
 
-* variableNamevariableName
+* variablenamecharacter(len=*), intent(in)
 
 **Return type**: type([syscvariablef](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef)) function
 
-<a id="interfacefortran_1_1syscgetvariablef_1a500912aab7a473fba9e3b2ef73d0cdc2"></a>
+<a id="interfacefortran_1_1syscgetvariablef_1a889fefd03b86f60b08c74a5a28475cf2"></a>
 ### Function syscgetvariablef\_te
 
 ![][public]
 
+
 ```fortran
-type(syscvariablef) function syscgetvariablef_te(variableName, tensorType, isExtensive, location)
+type(syscvariablef) function syscgetvariablef_te(variablename, tensortype, isextensive, location)
 ```
+
 
 Create variable to be used in a coupled analysis.
 
@@ -116,21 +120,23 @@ a SyscVariableF type
 
 **Parameters**:
 
-* variableNamevariableName
-* tensorTypetensorType
-* isExtensiveisExtensive
-* locationlocation
+* variablenamecharacter(len=*), intent(in)
+* tensortypeinteger(kind=4), intent(in)
+* isextensivelogical, intent(in)
+* locationinteger(kind=4), intent(in)
 
 **Return type**: type([syscvariablef](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef)) function
 
-<a id="interfacefortran_1_1syscgetvariablef_1aa98302cabc43b69aba1ba8e4c4b25b25"></a>
+<a id="interfacefortran_1_1syscgetvariablef_1a0665e5454c9b7df4205539b6c07476e4"></a>
 ### Function syscgetvariablef\_q
 
 ![][public]
 
+
 ```fortran
-type(syscvariablef) function syscgetvariablef_q(variableName, displayName, location, quantityType)
+type(syscvariablef) function syscgetvariablef_q(variablename, displayname, location, quantitytype)
 ```
+
 
 Create variable to be used in a coupled analysis.
 
@@ -147,16 +153,18 @@ The variable tensor type and is extensive properties will be inferred from the q
 
 
 
+
 ```fortran
-Quantity Type                     Tensor Type      Is Extensive
+quantity Type                     tensor Type      Is extensive
 ----------------------------------------------------------------
-Force                             Vector           True
-Incremental Displacement          Vector           False
-Temperature                       Scalar           False
-Heat Rate                         Scalar           True
-Heat Transfer Coefficient         Scalar           False
-Convection Reference Temperature  Scalar           False
+force                             vector           true
+incremental displacement          vector           false
+temperature                       scalar           false
+heat rate                         scalar           true
+heat transfer coefficient         scalar           false
+convection reference temperature  scalar           false
 ```
+
 
 
 
@@ -177,21 +185,23 @@ a SyscVariableF type
 
 **Parameters**:
 
-* variableNamevariableName
-* displayNamedisplayName
-* locationlocation
-* quantityTypequantityType
+* variablenamecharacter(len=*), intent(in)
+* displaynamecharacter(len=*), intent(in)
+* locationinteger(kind=4), intent(in)
+* quantitytypeinteger(kind=4), intent(in)
 
 **Return type**: type([syscvariablef](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef)) function
 
-<a id="interfacefortran_1_1syscgetvariablef_1a28db29bc33d8fa7aec1ee121dd156485"></a>
+<a id="interfacefortran_1_1syscgetvariablef_1ae20d858d6873e2c82a6bd385c0f08a13"></a>
 ### Function syscgetvariablef\_teq
 
 ![][public]
 
+
 ```fortran
-type(syscvariablef) function syscgetvariablef_teq(variableName, displayName, tensorType, isExtensive, location, quantityType)
+type(syscvariablef) function syscgetvariablef_teq(variablename, displayname, tensortype, isextensive, location, quantitytype)
 ```
+
 
 Create variable to be used in a coupled analysis.
 
@@ -213,23 +223,25 @@ a SyscVariableF type
 
 **Parameters**:
 
-* variableNamevariableName
-* displayNamedisplayName
-* tensorTypetensorType
-* isExtensiveisExtensive
-* locationlocation
-* quantityTypequantityType
+* variablenamecharacter(len=*), intent(in)
+* displaynamecharacter(len=*), intent(in)
+* tensortypeinteger(kind=4), intent(in)
+* isextensivelogical, intent(in)
+* locationinteger(kind=4), intent(in)
+* quantitytypeinteger(kind=4), intent(in)
 
 **Return type**: type([syscvariablef](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef)) function
 
-<a id="interfacefortran_1_1syscgetvariablef_1a7ccf1db6c97ad5fbc08fc1a850a48343"></a>
+<a id="interfacefortran_1_1syscgetvariablef_1ad77ffe80eaeed67dcb5c207189543a80"></a>
 ### Function syscgetvariablef\_dtelqd
 
 ![][public]
 
+
 ```fortran
-type(syscvariablef) function syscgetvariablef_dtelqd(variableName, displayName, tensorType, isExtensive, location, quantityType, dataType)
+type(syscvariablef) function syscgetvariablef_dtelqd(variablename, displayname, tensortype, isextensive, location, quantitytype, datatype)
 ```
+
 
 Create variable to be used in a coupled analysis.
 
@@ -252,13 +264,13 @@ a SyscVariableF type
 
 **Parameters**:
 
-* variableNamevariableName
-* displayNamedisplayName
-* tensorTypetensorType
-* isExtensiveisExtensive
-* locationlocation
-* quantityTypequantityType
-* dataTypedataType
+* variablenamecharacter(len=*), intent(in)
+* displaynamecharacter(len=*), intent(in)
+* tensortypeinteger(kind=4), intent(in)
+* isextensivelogical, intent(in)
+* locationinteger(kind=4), intent(in)
+* quantitytypeinteger(kind=4), intent(in)
+* datatypeinteger(kind=4), intent(in)
 
 **Return type**: type([syscvariablef](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef)) function
 

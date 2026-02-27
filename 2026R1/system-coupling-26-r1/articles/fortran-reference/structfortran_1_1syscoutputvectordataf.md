@@ -25,9 +25,10 @@ To create and/or initialize SyscOutputVectorDataF, it is highly recommended to u
 
 
 
+
 ```fortran
 type(SyscOutputVectorDataF) :: ovd
-ovd = syscGetOutputVectorDataSplitF(x, y, z, size)
+ovd = syscgetoutputvectordatasplitf(x, y, z, size)
 ```
 
 ## Members
@@ -48,9 +49,11 @@ ovd = syscGetOutputVectorDataSplitF(x, y, z, size)
 
 **Definition**: `syscOutputVectorDataF.fi` (line 32)
 
+
 ```fortran
 integer(kind=8) primitivetype
 ```
+
 
 Primitive type.
 
@@ -67,9 +70,11 @@ Primitive type.
 
 **Definition**: `syscOutputVectorDataF.fi` (line 33)
 
+
 ```fortran
 integer(kind=8) dataptr1
 ```
+
 
 Pointer to the first array.
 
@@ -86,9 +91,11 @@ Pointer to the first array.
 
 **Definition**: `syscOutputVectorDataF.fi` (line 34)
 
+
 ```fortran
 integer(kind=8) dataptr2
 ```
+
 
 Pointer to the second array.
 
@@ -105,9 +112,11 @@ Pointer to the second array.
 
 **Definition**: `syscOutputVectorDataF.fi` (line 35)
 
+
 ```fortran
 integer(kind=8) dataptr3
 ```
+
 
 Pointer to the third array.
 
@@ -124,9 +133,11 @@ Pointer to the third array.
 
 **Definition**: `syscOutputVectorDataF.fi` (line 36)
 
+
 ```fortran
 integer(kind=8) datasize
 ```
+
 
 Array size.
 
@@ -143,9 +154,11 @@ Array size.
 
 **Definition**: `syscOutputVectorDataF.fi` (line 37)
 
+
 ```fortran
 integer(kind=8) dimension
 ```
+
 
 Dimension.
 

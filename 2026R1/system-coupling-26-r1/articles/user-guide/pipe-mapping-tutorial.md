@@ -1,7 +1,7 @@
 # Pipe mapping tutorial
 
 This tutorial gives instructions on using System Coupling Participant Library
-APIs to transfer data between a non-conformal mesh interface, thereby using the
+APIs to transfer data across a non-conformal mesh interface, thereby using the
 participant library mapping capabilities.
 
 The tutorial also demonstrates how to use parallel processing capabilities
@@ -14,11 +14,12 @@ within the Participant Library using an MPI environment.
 
 ## Verify prerequisites
 
-Ensure that the following prerequisites are met. You've installed:
-
-- A compiler for one of the [supported languages](compiling-linking-executing.md)
+Ensure that the following prerequisites are met. You have the following:
 
 - Ansys installation, including System Coupling and EnSight.
+
+- A compiler for one of the [supported languages](compiling-linking-executing.md)
+  - This is only a requirement if you need to compile the application. Pre-compiled executables are provided, along with a Python script.
 
 ## Problem description and participant setup
 
@@ -36,10 +37,10 @@ _Figure 1: Default pipe meshes_
 
 On each side, we initialize the nodal
 solution data with a simple linear profile $f(x,y,z) = 1x + 2y + 3z + 4$. On the **quad** region, we initialize
-**linear1** variable, and on the **tri** region, we initialize the **linear2** variable.
+**quadProfile** variable, and on the **tri** region, we initialize the **triProfile** variable.
 
 We then use the mapping capabilities within the Participant Library to transfer
-**linear1** data from **quad** to **tri** region, and also to transfer **linear2** data
+**quadProfile** data from **quad** to **tri** region, and also to transfer **triProfile** data
 from **tri** to **quad** region.
 
 Finally, we make use of the `writeResults` API function to write the results
@@ -56,7 +57,8 @@ We provide the source code to generate a simple program that:
 
 The source code for each of the supported languages is provided
 with the tutorial package. A serial implementation is provided in Python,
-while parallel implementations are provided in C++, C, and Fortran.
+while parallel implementations are provided in C++, C, and Fortran. 
+C++ implementation provides some additional functionality, not available in other languages.
 
 The code to generate the mesh and to initialize the solution data
 is implemented in the separate file(s) and is called `PipeMeshGenerator` module.
@@ -103,6 +105,8 @@ are written, use the following command-line argument:
 
 `--write W` (W = 1 means write, W = 0 means do not write, default W = 1)
 
+`--elemdata E` (C++ only) (E = 0 means nodal data, E = 1 means element data, default E = 0)
+
 The Pipe Mapping program uses a wrapper script (`PipeMapping.bat` for Windows,
 `PipeMapping.sh` for Linux), that sets up the required environment variables and
 controls parallel execution. Th Pipe Mapping program that is written in Python
@@ -116,7 +120,7 @@ Python post-processing script are shown in subsequent sections of this tutorial.
 ## Get the necessary files
 
 Download the
-[SCP library tutorial package](https://github.com/ansys/DevRelPublic/raw/main/Downloads/SystemCoupling/syc_ParticipantLibrary_r2_25.zip)
+[SCP library tutorial package](https://github.com/ansys/DevRelPublic/raw/main/Downloads/SystemCoupling/syc_ParticipantLibrary_r1_26.zip)
 and
 extract it to a local directory. Inside the resulting directory, you will find a subdirectory called **PipeMapping**. This directory contains all the files needed for this tutorial. The contents of this subdirectory are:
 
@@ -287,7 +291,7 @@ Maximum error on tri: 1.2232e-03
 ## Visualize the results in Ansys EnSight
 
 Use Ansys EnSight to view the results produced by the Pipe Mapping program.
-You'll be able to visualize the pipe mesh and nodal profile of the **linear1** and **linear2**
+You'll be able to visualize the pipe mesh and nodal profile of the **quadProfile** and **triProfile**
 variables.
 
 1. **Open Ansys EnSight.**
@@ -310,27 +314,27 @@ variables.
 
     The mesh lines are shown in EnSight's viewer.
 
-3. **Plot the _linear2_ variable profile on the quad region**.
+3. **Plot the mapped _triProfile_ variable profile on the quad region**.
 
     a. In the **Parts** pane, de-select the **Show** check-box for `tri` and select the check-box for `quad`.
 
-    b. In the **Variables** pane, activate the **linear2** variable (enable the **Activate** checkbox).
+    b. In the **Variables** pane, activate the **triProfile** variable (enable the **Activate** checkbox).
 
-    c. In the **Variables** pane, right-click the **linear2** variable and select **Color parts > Selected**.
+    c. In the **Variables** pane, right-click the **triProfile** variable and select **Color parts > Selected**.
 
-    The profile of the mapped **linear2** variable on the **quad** region is shown in the viewer.
+    The profile of the mapped **triProfile** variable on the **quad** region is shown in the viewer.
 
-4. **Plot linear1 variable profile on the tri region**.
+4. **Plot the mapped _quadProfile_ variable profile on the tri region**.
 
     a. In the **Parts** pane, de-select the **Show** checkbox for `quad` and select the checkbox for `tri`.
 
-    b. In the **Variables** pane, activate the **linear1** variable (enable the **Activate** checkbox).
+    b. In the **Variables** pane, activate the **quadProfile** variable (enable the **Activate** checkbox).
 
-    c. In the **Variables** pane, right-click on the **linear1** variable and select **Color parts > Selected**.
+    c. In the **Variables** pane, right-click on the **quadProfile** variable and select **Color parts > Selected**.
 
-    The profile of the mapped **linear1** variable on the **tri** region is shown in the viewer.
+    The profile of the mapped **quadProfile** variable on the **tri** region is shown in the viewer.
 
-_Figure 3_ shows the resulting plots. Note that the contours of the linear
+_Figure 3_ shows the resulting plots. Note that the contours of the
 profiles are virtually identical in both regions.
 
 ![Figure 3: Nodal solution data profiles for the mapped variables.](./../images/PipeMappingTutorialFigure3.png)  
@@ -353,23 +357,6 @@ To refine the mesh on both **quad** and **tri** regions, re-run the pipe mapping
 
 ![Figure 4: Solution profiles on refined meshes.](./../images/PipeMappingTutorialFigure4.png)  
 _Figure 4: Solution profiles on refined meshes_
-
-### Axial fffsetting of the pipes
-
-To offset the pipe by 0.5 [m] in the axial (Z-axis) direction,
-re-run the pipe mapping as follows:
-
-```bash
-./PipeMapping.sh --offset 0.5
-```
-
-Figure 5 shows the resulting mesh and solution profiles in EnSight. Note
-that the solution profile in non-overlap section of the pipe is extrapolated
-from the nearby mapped sections, thus avoiding large discontinuities in the
-solution profile.
-
-![Figure 5: Solution profiles for axially offset regions.](./../images/PipeMappingTutorialFigure5.png)  
-_Figure 5: Solution profiles for axially offset regions_
 
 ### Parallel execution
 
@@ -406,3 +393,95 @@ follows:
 ```bash
 ./PipeMapping.sh -hostlist hostA:4,hostB:4
 ```
+
+### Order of accuracy calculation
+
+We can demonstrate that the mapping algorithm preserves 2nd order of accuracy of the
+mapped profile. We use C++ implementation to demonstrate the 2nd order accuracy is preserved
+when data is on nodes (default) and also when the data is on element centroids.
+
+Both source and target meshes are refined simultaneously. The element area is
+found by dividing the analytical area of the pipe by the number of elements.
+The element size is then determined by taking the square root of the element area.
+
+Plugging the pipe mapping program into the following Python script allows
+running multiple instances with with various levels of refinements. We then parse out
+the maximum error and calculate the slope of error vs. mesh size.
+We confirm that the slope of the logarithmic plot is approximately 2.0,
+which means that the mapping algorithms preserve 2nd order mapping accuracy.
+
+```python
+import math
+import subprocess
+import sys
+import scipy.stats
+
+
+def getExe():
+    ext = "bat"
+    if sys.platform != "win32":
+        ext = "sh"
+    return f"PipeMapping.{ext}"
+
+
+def getArgs(refine: int, isElem: bool):
+    args = f"--write 0 --quad {refine} --tri {refine}"
+    if isElem:
+        args += " --elemdata"
+    return args
+
+
+def getQuadError(output: tuple) -> float:
+    outputStr = str(output[0])
+    splitToken = r"\r\n"
+    if sys.platform != "win32":
+        splitToken = r"\n"
+    tokens = outputStr.split(splitToken)
+    quadErrorLine = [t for t in tokens if "Maximum error on quad" in t][0]
+    return float(quadErrorLine.split(": ")[1])
+
+
+def getSlope(refinements, quadErrors) -> float:
+    def getElemSize(refinement):
+        return math.sqrt(2.0 * math.pi * 0.05 / (refinement * refinement * 3.0))
+
+    elemSizes = [getElemSize(r) for r in refinements]
+    logSizes = [math.log10(elemSize) for elemSize in elemSizes]
+    logErrors = [math.log10(quadError) for quadError in quadErrors]
+    linRegrRes = scipy.stats.linregress(logSizes, logErrors)
+    return linRegrRes.slope
+
+
+refinements = [10, 20, 50, 100, 150]
+quadErrorsN = list()
+quadErrorsF = list()
+
+for refine in refinements:
+    p = subprocess.Popen(
+        getExe() + " " + getArgs(refine, False), stdout=subprocess.PIPE, shell=True
+    )
+    quadErrorsN.append(getQuadError(p.communicate()))
+    p = subprocess.Popen(
+        getExe() + " " + getArgs(refine, True), stdout=subprocess.PIPE, shell=True
+    )
+    quadErrorsF.append(getQuadError(p.communicate()))
+
+slopeN = getSlope(refinements, quadErrorsN)
+slopeF = getSlope(refinements, quadErrorsF)
+
+print(f"Node-to-node mapping slope: {slopeN}")
+print(f"Face-to-face mapping: {slopeF}")
+```
+
+Output:
+```
+Node-to-node mapping slope: 2.022017309682308
+Face-to-face mapping: 2.017480130042163
+```
+
+Plotting the max error vs. mesh size on a log-log plot confirms 2nd order accuracy, as shown in **Figure 5**:
+
+![Figure 5: Mapping error plots.](./../images/PipeMappingTutorialFigure5.png)  
+_Figure 5: Mapping error plots_
+
+

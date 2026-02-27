@@ -13,9 +13,10 @@ To create and/or initialize the SyscVariableF struct, it is highly recommended t
 
 
 
+
 ```fortran
 type(SyscVariableF) :: var
-var = syscGetVariableF("Temperature", SyscScalar, .FALSE., SyscNode)
+var = syscgetvariablef(, syscscalar, .false., syscnode)
 ```
 
 ## Members
@@ -37,9 +38,11 @@ var = syscGetVariableF("Temperature", SyscScalar, .FALSE., SyscNode)
 
 **Definition**: `syscVariableF.fi` (line 25)
 
+
 ```fortran
 character(len=syscstrlen) variablename
 ```
+
 
 Unique name for this variable.
 
@@ -56,9 +59,11 @@ Unique name for this variable.
 
 **Definition**: `syscVariableF.fi` (line 27)
 
+
 ```fortran
 integer(kind=4) quantitytype
 ```
+
 
 Quantity type (e.g. temperature).
 
@@ -75,9 +80,11 @@ Quantity type (e.g. temperature).
 
 **Definition**: `syscVariableF.fi` (line 29)
 
+
 ```fortran
 integer(kind=4) location
 ```
+
 
 Location (e.g element or node).
 
@@ -94,9 +101,11 @@ Location (e.g element or node).
 
 **Definition**: `syscVariableF.fi` (line 31)
 
+
 ```fortran
 character(len=syscstrlen) displayname
 ```
+
 
 User-friendly name.
 
@@ -113,9 +122,11 @@ User-friendly name.
 
 **Definition**: `syscVariableF.fi` (line 33)
 
+
 ```fortran
 integer(kind=4) tensortype
 ```
+
 
 Tensor type (e.g. scalar, vector).
 
@@ -132,9 +143,11 @@ Tensor type (e.g. scalar, vector).
 
 **Definition**: `syscVariableF.fi` (line 35)
 
+
 ```fortran
 logical isextensive
 ```
+
 
 Flag indicating whether it's an extensive property.
 
@@ -151,9 +164,11 @@ Flag indicating whether it's an extensive property.
 
 **Definition**: `syscVariableF.fi` (line 37)
 
+
 ```fortran
 integer(kind=4) datatype
 ```
+
 
 Data type (e.g. real or complex)
 

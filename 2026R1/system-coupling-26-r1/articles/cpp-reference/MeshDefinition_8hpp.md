@@ -10,6 +10,14 @@
 
 ## Classes
 
+* [sysc::InputElementIdData](structsysc_1_1InputElementIdData.md#structsysc_1_1InputElementIdData)
+* [sysc::InputElementTypeData](structsysc_1_1InputElementTypeData.md#structsysc_1_1InputElementTypeData)
+* [sysc::InputElementNodeCountData](structsysc_1_1InputElementNodeCountData.md#structsysc_1_1InputElementNodeCountData)
+* [sysc::InputElementNodeConnectivityData](structsysc_1_1InputElementNodeConnectivityData.md#structsysc_1_1InputElementNodeConnectivityData)
+* [sysc::InputFaceCellConnectivityData](structsysc_1_1InputFaceCellConnectivityData.md#structsysc_1_1InputFaceCellConnectivityData)
+* [sysc::InputNodeData](structsysc_1_1InputNodeData.md#structsysc_1_1InputNodeData)
+* [sysc::InputFaceData](structsysc_1_1InputFaceData.md#structsysc_1_1InputFaceData)
+* [sysc::InputCellData](structsysc_1_1InputCellData.md#structsysc_1_1InputCellData)
 * [sysc::ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData)
 * [sysc::ElementTypeData](structsysc_1_1ElementTypeData.md#structsysc_1_1ElementTypeData)
 * [sysc::ElementNodeCountData](structsysc_1_1ElementNodeCountData.md#structsysc_1_1ElementNodeCountData)
@@ -27,30 +35,37 @@
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
+* SystemCouplingParticipant/InputIntegerData.hpp
 * SystemCouplingParticipant/OutputIntegerData.hpp
 * SystemCouplingParticipant/OutputVectorData.hpp
 * <cstddef>
 
+
 ```mermaid
 graph LR
-3["SystemCouplingParticipant/OutputIntegerData.hpp"]
-
-4["SystemCouplingParticipant/OutputVectorData.hpp"]
-
-2["SystemCouplingParticipant/LibraryType.hpp"]
-
 1["MeshDefinition.hpp"]
 click 1 "MeshDefinition_8hpp.md#MeshDefinition_8hpp"
 1 --> 2
 1 --> 3
 1 --> 4
 1 --> 5
+1 --> 6
 
-5["cstddef"]
+3["SystemCouplingParticipant/InputIntegerData.hpp"]
+
+2["SystemCouplingParticipant/LibraryType.hpp"]
+
+4["SystemCouplingParticipant/OutputIntegerData.hpp"]
+
+5["SystemCouplingParticipant/OutputVectorData.hpp"]
+
+6["cstddef"]
 
 ```
 
+
 ## Source
+
 
 ```cpp
 /*
@@ -61,6 +76,7 @@ click 1 "MeshDefinition_8hpp.md#MeshDefinition_8hpp"
 
 #include "SystemCouplingParticipant/LibraryType.hpp"
 
+#include "SystemCouplingParticipant/InputIntegerData.hpp"
 #include "SystemCouplingParticipant/OutputIntegerData.hpp"
 #include "SystemCouplingParticipant/OutputVectorData.hpp"
 
@@ -68,8 +84,239 @@ click 1 "MeshDefinition_8hpp.md#MeshDefinition_8hpp"
 
 namespace sysc {
 
+
+struct InputElementIdData {
+  IntegerData elementIds;
+
+  InputElementIdData(
+    IntegerData elementIds) :
+      elementIds(elementIds)
+  {
+  }
+
+  InputElementIdData() = default;
+
+  InputElementIdData(const InputElementIdData&) = default;
+
+  InputElementIdData(InputElementIdData&&) = default;
+
+  InputElementIdData& operator=(const InputElementIdData&) = default;
+
+  InputElementIdData& operator=(InputElementIdData&&) = default;
+};
+
+struct InputElementTypeData {
+  IntegerData elementTypes;
+
+  InputElementTypeData(
+    IntegerData elementTypes) :
+      elementTypes(elementTypes)
+  {
+  }
+
+  InputElementTypeData() = default;
+
+  InputElementTypeData(const InputElementTypeData&) = default;
+
+  InputElementTypeData(InputElementTypeData&&) = default;
+
+  InputElementTypeData& operator=(const InputElementTypeData&) = default;
+
+  InputElementTypeData& operator=(InputElementTypeData&&) = default;
+};
+
+struct InputElementNodeCountData {
+  IntegerData elemNodeCounts; 
+
+  InputElementNodeCountData(
+    IntegerData elemNodeCounts) :
+      elemNodeCounts(elemNodeCounts)
+  {
+  }
+
+  InputElementNodeCountData() = default;
+
+  InputElementNodeCountData(const InputElementNodeCountData&) = default;
+
+  InputElementNodeCountData(InputElementNodeCountData&&) = default;
+
+  InputElementNodeCountData& operator=(const InputElementNodeCountData&) = default;
+
+  InputElementNodeCountData& operator=(InputElementNodeCountData&&) = default;
+};
+
+struct InputElementNodeConnectivityData {
+  IntegerData elemNodeIds; 
+
+  InputElementNodeConnectivityData(IntegerData elemNodeIds) :
+      elemNodeIds(elemNodeIds)
+  {
+  }
+
+  InputElementNodeConnectivityData() = default;
+
+  InputElementNodeConnectivityData(const InputElementNodeConnectivityData&) = default;
+
+  InputElementNodeConnectivityData(InputElementNodeConnectivityData&&) = default;
+
+  InputElementNodeConnectivityData& operator=(const InputElementNodeConnectivityData&) = default;
+
+  InputElementNodeConnectivityData& operator=(InputElementNodeConnectivityData&&) = default;
+};
+
+struct InputFaceCellConnectivityData {
+  IntegerData cell0Ids; 
+  IntegerData cell1Ids; 
+
+  InputFaceCellConnectivityData(IntegerData cell0Ids, IntegerData cell1Ids) :
+      cell0Ids(cell0Ids),
+      cell1Ids(cell1Ids) {}
+
+  InputFaceCellConnectivityData() = default;
+
+  InputFaceCellConnectivityData(const InputFaceCellConnectivityData&) = default;
+
+  InputFaceCellConnectivityData(InputFaceCellConnectivityData&&) = default;
+
+  InputFaceCellConnectivityData& operator=(const InputFaceCellConnectivityData&) = default;
+
+  InputFaceCellConnectivityData& operator=(InputFaceCellConnectivityData&&) = default;
+};
+
+struct InputNodeData {
+  IntegerData nodeIds;
+
+  VectorData nodeCoords;
+
+  InputNodeData(IntegerData nodeIds, VectorData nodeCoords) :
+      nodeIds(nodeIds),
+      nodeCoords(nodeCoords)
+  {
+  }
+
+  InputNodeData(VectorData nodeCoords) :
+      nodeCoords(nodeCoords) {}
+
+  InputNodeData() = default;
+
+  InputNodeData(const InputNodeData&) = default;
+
+  InputNodeData(InputNodeData&&) = default;
+
+  InputNodeData& operator=(const InputNodeData&) = default;
+
+  InputNodeData& operator=(InputNodeData&&) = default;
+
+  std::size_t size() const noexcept
+  {
+    return nodeCoords.size();
+  }
+};
+
+struct InputFaceData {
+  InputElementIdData faceIds;
+
+  InputElementTypeData faceTypes;
+
+  InputElementNodeCountData faceNodeCounts;
+
+  InputElementNodeConnectivityData faceNodeConnectivity;
+
+  InputFaceCellConnectivityData faceCellConnectivity;
+
+  InputFaceData(
+    InputElementIdData faceIds,
+    InputElementTypeData faceTypes,
+    InputElementNodeCountData faceNodeCounts,
+    InputElementNodeConnectivityData faceNodeConnectivity,
+    InputFaceCellConnectivityData faceCellConnectivity) :
+      faceIds(faceIds),
+      faceTypes(faceTypes),
+      faceNodeCounts(faceNodeCounts),
+      faceNodeConnectivity(faceNodeConnectivity),
+      faceCellConnectivity(faceCellConnectivity)
+  {
+  }
+
+  InputFaceData() = default;
+
+  InputFaceData(const InputFaceData&) = default;
+
+  InputFaceData(InputFaceData&&) = default;
+
+  InputFaceData& operator=(const InputFaceData&) = default;
+
+  InputFaceData& operator=(InputFaceData&&) = default;
+
+  std::size_t size() const
+  {
+    const std::size_t faceIdsSize = faceIds.elementIds.size();
+    const std::size_t faceTypesSize = faceTypes.elementTypes.size();
+    const std::size_t faceNodesSize = faceNodeCounts.elemNodeCounts.size();
+    std::size_t faceCount = faceTypesSize > faceNodesSize ? faceTypesSize : faceNodesSize;
+    faceCount = faceIdsSize > faceCount ? faceIdsSize : faceCount;
+    return faceCount;
+  }
+};
+
+struct InputCellData {
+  InputElementIdData cellIds;
+
+  InputElementTypeData cellTypes;
+
+  InputElementNodeConnectivityData cellNodeConnectivity;
+
+  InputCellData(
+    InputElementIdData cellIds,
+    InputElementTypeData cellTypes,
+    InputElementNodeConnectivityData cellNodeConnectivity) :
+      cellIds(cellIds),
+      cellTypes(cellTypes),
+      cellNodeConnectivity(cellNodeConnectivity)
+  {
+  }
+
+  InputCellData(InputElementIdData cellIds) :
+      cellIds(cellIds)
+  {
+  }
+
+  InputCellData(
+    InputElementTypeData cellTypes,
+    InputElementNodeConnectivityData cellNodeConnectivity) :
+      cellTypes(cellTypes),
+      cellNodeConnectivity(cellNodeConnectivity)
+  {
+  }
+
+  InputCellData() = default;
+
+  InputCellData(const InputCellData&) = default;
+
+  InputCellData(InputCellData&&) = default;
+
+  InputCellData& operator=(const InputCellData&) = default;
+
+  InputCellData& operator=(InputCellData&&) = default;
+
+  std::size_t size() const
+  {
+    const std::size_t cellIdsSize = cellIds.elementIds.size();
+    const std::size_t cellTypesSize = cellTypes.elementTypes.size();
+    const std::size_t cellCount = cellIdsSize > cellTypesSize ? cellIdsSize : cellTypesSize;
+    return cellCount;
+  }
+};
+
+// ===================
+
 struct ElementIdData {
   OutputIntegerData elementIds;
+
+  ElementIdData(InputElementIdData elemIdData) :
+      elementIds(elemIdData.elementIds)
+  {
+  }
 
   ElementIdData(
     OutputIntegerData elementIds) :
@@ -91,6 +338,11 @@ struct ElementIdData {
 struct ElementTypeData {
   OutputIntegerData elementTypes;
 
+  ElementTypeData(InputElementTypeData elemTypeData) :
+      elementTypes(elemTypeData.elementTypes)
+  {
+  }
+
   ElementTypeData(
     OutputIntegerData elementTypes) :
       elementTypes(elementTypes)
@@ -110,6 +362,12 @@ struct ElementTypeData {
 
 struct ElementNodeCountData {
   OutputIntegerData elemNodeCounts; 
+
+  ElementNodeCountData(InputElementNodeCountData inputData) :
+      elemNodeCounts(inputData.elemNodeCounts)
+  {
+  }
+
   ElementNodeCountData(
     OutputIntegerData elemNodeCounts) :
       elemNodeCounts(elemNodeCounts)
@@ -129,6 +387,12 @@ struct ElementNodeCountData {
 
 struct ElementNodeConnectivityData {
   OutputIntegerData elemNodeIds; 
+
+  ElementNodeConnectivityData(InputElementNodeConnectivityData inputData) :
+      elemNodeIds(inputData.elemNodeIds)
+  {
+  }
+
   ElementNodeConnectivityData(const OutputIntegerData& elemNodeIds) :
       elemNodeIds(elemNodeIds)
   {
@@ -148,6 +412,13 @@ struct ElementNodeConnectivityData {
 struct FaceCellConnectivityData {
   OutputIntegerData cell0Ids; 
   OutputIntegerData cell1Ids; 
+
+  FaceCellConnectivityData(InputFaceCellConnectivityData inputData) :
+      cell0Ids(inputData.cell0Ids),
+      cell1Ids(inputData.cell1Ids)
+  {
+  }
+
   FaceCellConnectivityData(OutputIntegerData cell0Ids, OutputIntegerData cell1Ids) :
       cell0Ids(cell0Ids),
       cell1Ids(cell1Ids) {}
@@ -206,6 +477,16 @@ struct NodeData {
   NodeData& operator=(const NodeData&) = default;
 
   NodeData& operator=(NodeData&&) = default;
+
+  NodeData(InputNodeData inputData) :
+      NodeData(inputData.nodeIds, inputData.nodeCoords)
+  {
+  }
+
+  std::size_t size() const noexcept
+  {
+    return nodeCoords.size();
+  }
 };
 
 struct FaceData {
@@ -218,6 +499,15 @@ struct FaceData {
   ElementNodeConnectivityData faceNodeConnectivity;
 
   FaceCellConnectivityData faceCellConnectivity;
+
+  FaceData(InputFaceData faceData) :
+      faceIds(faceData.faceIds),
+      faceTypes(faceData.faceTypes),
+      faceNodeCounts(faceData.faceNodeCounts),
+      faceNodeConnectivity(faceData.faceNodeConnectivity),
+      faceCellConnectivity(faceData.faceCellConnectivity)
+  {
+  }
 
   FaceData(
     ElementIdData faceIds,
@@ -322,6 +612,16 @@ struct FaceData {
   FaceData& operator=(const FaceData&) = default;
 
   FaceData& operator=(FaceData&&) = default;
+
+  std::size_t size() const
+  {
+    const std::size_t faceIdsSize = faceIds.elementIds.size();
+    const std::size_t faceTypesSize = faceTypes.elementTypes.size();
+    const std::size_t faceNodesSize = faceNodeCounts.elemNodeCounts.size();
+    std::size_t faceCount = faceTypesSize > faceNodesSize ? faceTypesSize : faceNodesSize;
+    faceCount = faceIdsSize > faceCount ? faceIdsSize : faceCount;
+    return faceCount;
+  }
 };
 
 struct CellData {
@@ -330,6 +630,13 @@ struct CellData {
   ElementTypeData cellTypes;
 
   ElementNodeConnectivityData cellNodeConnectivity;
+
+  CellData(InputCellData inputData) :
+      cellIds(inputData.cellIds),
+      cellTypes(inputData.cellTypes),
+      cellNodeConnectivity(inputData.cellNodeConnectivity)
+  {
+  }
 
   CellData(
     ElementIdData cellIds,
@@ -360,12 +667,22 @@ struct CellData {
   CellData& operator=(const CellData&) = default;
 
   CellData& operator=(CellData&&) = default;
+
+  std::size_t size() const
+  {
+    const std::size_t cellIdsSize = cellIds.elementIds.size();
+    const std::size_t cellTypesSize = cellTypes.elementTypes.size();
+    const std::size_t cellCount = cellIdsSize > cellTypesSize ? cellIdsSize : cellTypesSize;
+    return cellCount;
+  }
 };
+
 
 }  // namespace sysc
 ```
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

@@ -23,11 +23,13 @@ Output complex scalar data provides read-only access to an array of complex scal
 
 ![][public]
 
-**Definition**: `syscOutputComplexScalarData.h` (line 96)
+**Definition**: `syscOutputComplexScalarData.h` (line 30)
+
 
 ```
 enum SyscPrimitiveType SyscOutputComplexScalarData::primitiveType
 ```
+
 
 
 
@@ -44,9 +46,11 @@ Primitive type.
 
 **Definition**: `syscOutputComplexScalarData.h` (line 31)
 
+
 ```
 const void* SyscOutputComplexScalarData::data1
 ```
+
 
 
 
@@ -63,9 +67,11 @@ First data pointer.
 
 **Definition**: `syscOutputComplexScalarData.h` (line 32)
 
+
 ```
 const void* SyscOutputComplexScalarData::data2
 ```
+
 
 
 
@@ -82,9 +88,11 @@ Second data pointer.
 
 **Definition**: `syscOutputComplexScalarData.h` (line 33)
 
+
 ```
 size_t SyscOutputComplexScalarData::size
 ```
+
 
 
 

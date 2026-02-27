@@ -10,7 +10,7 @@
 
 ## Classes
 
-* [sysc::InputScalarData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData)
+* [sysc::InputScalarData](structsysc_1_1InputScalarData.md#structsysc_1_1InputScalarData)
 
 ## Namespaces
 
@@ -18,40 +18,37 @@
 
 ## Includes
 
-* SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/CommonTypes.hpp
 * <cstddef>
 * <vector>
 
+
 ```mermaid
 graph LR
-3["SystemCouplingParticipant/CommonTypes.hpp"]
-
 1["InputScalarData.hpp"]
 click 1 "InputScalarData_8hpp.md#InputScalarData_8hpp"
 1 --> 2
 1 --> 3
 1 --> 4
-1 --> 5
 
-5["vector"]
+2["SystemCouplingParticipant/CommonTypes.hpp"]
 
-2["SystemCouplingParticipant/LibraryType.hpp"]
+3["cstddef"]
 
-4["cstddef"]
+4["vector"]
 
 ```
 
+
 ## Source
+
 
 ```cpp
 /*
-* Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
-*/
+ * © 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
+ */
 
 #pragma once
-
-#include "SystemCouplingParticipant/LibraryType.hpp"
 
 #include "SystemCouplingParticipant/CommonTypes.hpp"
 
@@ -60,19 +57,34 @@ click 1 "InputScalarData_8hpp.md#InputScalarData_8hpp"
 
 namespace sysc {
 
-class SYSTEM_COUPLING_PARTICIPANT_DLL InputScalarData {
+struct InputScalarData {
 public:
   InputScalarData(
     double* data,
-    std::size_t size);
+    std::size_t size) :
+      m_data(data),
+      m_size(size)
+  {
+  }
 
   InputScalarData(
     float* data,
-    std::size_t size);
+    std::size_t size) :
+      m_dataType(sysc::Float),
+      m_data(data),
+      m_size(size)
+  {
+  }
 
-  InputScalarData(std::vector<double>& data);
+  InputScalarData(std::vector<double>& data) :
+      InputScalarData(data.data(), data.size())
+  {
+  }
 
-  InputScalarData(std::vector<float>& data);
+  InputScalarData(std::vector<float>& data) :
+      InputScalarData(data.data(), data.size())
+  {
+  }
 
   InputScalarData() = default;
 
@@ -84,13 +96,25 @@ public:
 
   InputScalarData& operator=(InputScalarData&&) = default;
 
-  std::size_t size() const noexcept;
+  std::size_t size() const noexcept
+  {
+    return m_size;
+  }
 
-  bool empty() const noexcept;
+  bool empty() const noexcept
+  {
+    return m_size == 0;
+  }
 
-  sysc::PrimitiveType getDataType() const noexcept;
+  sysc::PrimitiveType getDataType() const noexcept
+  {
+    return m_dataType;
+  }
 
-  void* getData() const noexcept;
+  void* getData() const noexcept
+  {
+    return m_data;
+  }
 
 private:
   sysc::PrimitiveType m_dataType{sysc::Double};
@@ -98,10 +122,13 @@ private:
   std::size_t m_size{0};
 };
 
+using ScalarData = InputScalarData;
+
 }  // namespace sysc
 ```
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

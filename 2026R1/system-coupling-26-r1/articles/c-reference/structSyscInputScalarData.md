@@ -19,6 +19,7 @@ To create and/or initialize [SyscInputScalarData](structSyscInputScalarData.md#s
 
 
 
+
 ```
 SyscInputScalarData isd = syscGetInputScalarDataDouble(array, arraySize);
 ```
@@ -36,11 +37,13 @@ SyscInputScalarData isd = syscGetInputScalarDataDouble(array, arraySize);
 
 ![][public]
 
-**Definition**: `syscInputScalarData.h` (line 77)
+**Definition**: `syscInputScalarData.h` (line 41)
+
 
 ```
 enum SyscPrimitiveType SyscInputScalarData::primitiveType
 ```
+
 
 
 
@@ -57,9 +60,11 @@ Primitive type.
 
 **Definition**: `syscInputScalarData.h` (line 42)
 
+
 ```
 void* SyscInputScalarData::data
 ```
+
 
 
 
@@ -76,9 +81,11 @@ Pointer to the data array.
 
 **Definition**: `syscInputScalarData.h` (line 43)
 
+
 ```
 size_t SyscInputScalarData::size
 ```
+
 
 
 

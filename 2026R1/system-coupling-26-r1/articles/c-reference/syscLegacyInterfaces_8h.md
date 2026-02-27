@@ -20,24 +20,9 @@
 * SystemCouplingParticipant/syscRegion.h
 * <stddef.h>
 
+
 ```mermaid
 graph LR
-5["SystemCouplingParticipant/syscInputVectorData.h"]
-
-3["SystemCouplingParticipant/syscCommonTypes.h"]
-
-10["stddef.h"]
-
-2["SystemCouplingParticipant/LibraryType.hpp"]
-
-9["SystemCouplingParticipant/syscRegion.h"]
-
-8["SystemCouplingParticipant/syscOutputVectorData.h"]
-
-4["SystemCouplingParticipant/syscInputScalarData.h"]
-
-6["SystemCouplingParticipant/syscOutputIntegerData.h"]
-
 1["syscLegacyInterfaces.h"]
 click 1 "syscLegacyInterfaces_8h.md#syscLegacyInterfaces_8h"
 1 --> 2
@@ -50,9 +35,26 @@ click 1 "syscLegacyInterfaces_8h.md#syscLegacyInterfaces_8h"
 1 --> 9
 1 --> 10
 
+2["SystemCouplingParticipant/LibraryType.hpp"]
+
+3["SystemCouplingParticipant/syscCommonTypes.h"]
+
+4["SystemCouplingParticipant/syscInputScalarData.h"]
+
+5["SystemCouplingParticipant/syscInputVectorData.h"]
+
+6["SystemCouplingParticipant/syscOutputIntegerData.h"]
+
 7["SystemCouplingParticipant/syscOutputScalarData.h"]
 
+8["SystemCouplingParticipant/syscOutputVectorData.h"]
+
+9["SystemCouplingParticipant/syscRegion.h"]
+
+10["stddef.h"]
+
 ```
+
 
 ## Typedefs
 
@@ -61,11 +63,13 @@ click 1 "syscLegacyInterfaces_8h.md#syscLegacyInterfaces_8h"
 
 ![][public]
 
-**Definition**: `syscLegacyInterfaces.h` (line 30)
+**Definition**: `syscLegacyInterfaces.h` (line 33)
+
 
 ```
 typedef SyscError(* SyscInputScalarVariableAccess) (const char *regionName, const char *variableName, SyscInputScalarData *varData)
 ```
+
 
 
 
@@ -80,11 +84,13 @@ typedef SyscError(* SyscInputScalarVariableAccess) (const char *regionName, cons
 
 ![][public]
 
-**Definition**: `syscLegacyInterfaces.h` (line 40)
+**Definition**: `syscLegacyInterfaces.h` (line 43)
+
 
 ```
 typedef SyscError(* SyscInputVectorVariableAccess) (const char *regionName, const char *variableName, SyscInputVectorData *varData)
 ```
+
 
 
 
@@ -99,11 +105,13 @@ typedef SyscError(* SyscInputVectorVariableAccess) (const char *regionName, cons
 
 ![][public]
 
-**Definition**: `syscLegacyInterfaces.h` (line 51)
+**Definition**: `syscLegacyInterfaces.h` (line 54)
+
 
 ```
 typedef SyscError(* SyscOutputScalarVariableAccess) (const char *regionName, const char *variableName, SyscOutputScalarData *varData)
 ```
+
 
 
 
@@ -118,11 +126,13 @@ typedef SyscError(* SyscOutputScalarVariableAccess) (const char *regionName, con
 
 ![][public]
 
-**Definition**: `syscLegacyInterfaces.h` (line 62)
+**Definition**: `syscLegacyInterfaces.h` (line 65)
+
 
 ```
 typedef SyscError(* SyscOutputVectorVariableAccess) (const char *regionName, const char *variableName, SyscOutputVectorData *varData)
 ```
+
 
 
 
@@ -139,9 +149,11 @@ typedef SyscError(* SyscOutputVectorVariableAccess) (const char *regionName, con
 
 ![][public]
 
+
 ```
 SyscError syscCompleteCouplingSetup()
 ```
+
 
 
 
@@ -156,9 +168,30 @@ SyscError syscCompleteCouplingSetup()
 
 ![][public]
 
+
 ```
 SyscError syscCompleteCouplingSetupTransient()
 ```
+
+
+
+
+
+
+
+
+**Return type**: [SyscError](structSyscError.md#structSyscError)
+
+<a id="syscLegacyInterfaces_8h_1af62218881e8ebb78f77289d87f7b917a"></a>
+### Function syscCompleteCouplingSetupMapping
+
+![][public]
+
+
+```
+SyscError syscCompleteCouplingSetupMapping()
+```
+
 
 
 
@@ -173,9 +206,11 @@ SyscError syscCompleteCouplingSetupTransient()
 
 ![][public]
 
+
 ```
 SyscError syscRegisterInputScalarVariableAccess(SyscInputScalarVariableAccess dataAccess)
 ```
+
 
 
 
@@ -194,9 +229,11 @@ SyscError syscRegisterInputScalarVariableAccess(SyscInputScalarVariableAccess da
 
 ![][public]
 
+
 ```
 SyscError syscRegisterInputVectorVariableAccess(SyscInputVectorVariableAccess dataAccess)
 ```
+
 
 
 
@@ -215,9 +252,11 @@ SyscError syscRegisterInputVectorVariableAccess(SyscInputVectorVariableAccess da
 
 ![][public]
 
+
 ```
 SyscError syscRegisterOutputScalarVariableAccess(SyscOutputScalarVariableAccess dataAccess)
 ```
+
 
 
 
@@ -236,9 +275,11 @@ SyscError syscRegisterOutputScalarVariableAccess(SyscOutputScalarVariableAccess 
 
 ![][public]
 
+
 ```
 SyscError syscRegisterOutputVectorVariableAccess(SyscOutputVectorVariableAccess dataAccess)
 ```
+
 
 
 
@@ -257,6 +298,7 @@ SyscError syscRegisterOutputVectorVariableAccess(SyscOutputVectorVariableAccess 
 
 ![][public]
 
+
 ```
 SyscVolumeMesh syscGetVolumeMesh()
 ```
@@ -267,9 +309,11 @@ SyscVolumeMesh syscGetVolumeMesh()
 
 
 
+
 **Return type**: [SyscVolumeMesh](structSyscVolumeMesh.md#structSyscVolumeMesh)
 
 ## Source
+
 
 ```
 /*
@@ -299,6 +343,9 @@ extern "C" {
 
 /* Deprecated - use syscCompleteSetup() */
  SyscError syscCompleteCouplingSetupTransient();
+
+/* Deprecated - use syscCompleteSetup() */
+ SyscError syscCompleteCouplingSetupMapping();
 
 /* Deprecated - use SyscInputScalarDataAccess. */
 typedef SyscError (*SyscInputScalarVariableAccess)(
@@ -351,6 +398,7 @@ SyscVolumeMesh syscGetVolumeMesh();
 }
 #endif
 ```
+
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C]: https://img.shields.io/badge/language-C-blue (C)

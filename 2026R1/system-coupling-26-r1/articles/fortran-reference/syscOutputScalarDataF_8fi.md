@@ -19,6 +19,7 @@
 
 ## Source
 
+
 ```fortran
 module fortran
 !
@@ -29,14 +30,29 @@ module fortran
 ! System Coupling Participant Library.
 !
 ! *********************************************************************
+!> \brief Provide an output scalar data access type.
+!!
+!! Output scalar data provides read-only access to an array of
+!! scalar data.
+!! To create and/or initialize SyscOutputScalarDataF, it is highly
+!! recommended to use one of the functions within 
+!! `syscGetOutputScalarDataF` interface. These functions will
+!! initialize all members to the correct values and will help to 
+!! avoid back-compatibility issues in the future. For example:
+!!
+!! \code
+!! type(SyscOutputScalarDataF) :: osd
+!! osd = syscGetOutputScalarDataF(array, arraySize)
+!! \endcode
 !
 type :: syscoutputscalardataf
-  integer(kind=8) :: primitivetype
-  integer(kind=8) :: dataptr
-  integer(kind=8) :: datasize
+  integer(kind=8) :: primitivetype !< Primitive type.
+  integer(kind=8) :: dataptr       !< Pointer to the data array.
+  integer(kind=8) :: datasize      !< Array size.
 end type syscoutputscalardataf
 !
 !**********************************************************************
+!> \brief Provide an interface to get output scalar data
 !**********************************************************************
 interface syscgetoutputscalardataf
 !
@@ -56,6 +72,10 @@ function syscgetoutputscalardataf() result (ret)
 end function syscgetoutputscalardataf
 !
 !**********************************************************************
+!> \brief Create an output scalar data access type.
+!!
+!! \param[in] data - 32-bit array of floating point data.
+!! \param[in] dataSize - number of elements in the array.
 !**********************************************************************
 function syscgetoutputscalardataf_r4(data, dataSize) result (ret)
 !
@@ -71,6 +91,10 @@ function syscgetoutputscalardataf_r4(data, dataSize) result (ret)
 end function syscgetoutputscalardataf_r4
 !
 !**********************************************************************
+!> \brief Create an output scalar data access type.
+!!
+!! \param[in] data - 64-bit array of floating point data.
+!! \param[in] dataSize - number of elements in the array.
 !**********************************************************************
 function syscgetoutputscalardataf_r8(data, dataSize) result (ret)
 !
@@ -86,6 +110,10 @@ function syscgetoutputscalardataf_r8(data, dataSize) result (ret)
 end function syscgetoutputscalardataf_r8
 !
 !**********************************************************************
+!> \brief Create an output scalar data access type.
+!!
+!! \param[in] data - 32-bit array of integer data.
+!! \param[in] dataSize - number of elements in the array.
 !**********************************************************************
 function syscgetoutputscalardataf_i4(data, dataSize) result (ret)
 !
@@ -101,6 +129,10 @@ function syscgetoutputscalardataf_i4(data, dataSize) result (ret)
 end function syscgetoutputscalardataf_i4
 !
 !**********************************************************************
+!> \brief Create an output scalar data access type.
+!!
+!! \param[in] data - 64-bit array of integer data.
+!! \param[in] dataSize - number of elements in the array.
 !**********************************************************************
 function syscgetoutputscalardataf_i8(data, dataSize) result (ret)
 !
@@ -120,5 +152,7 @@ end interface syscgetoutputscalardataf
 end module fortran
 ```
 
+
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)
+[Markdown]: https://img.shields.io/badge/language-Markdown-blue (Markdown)

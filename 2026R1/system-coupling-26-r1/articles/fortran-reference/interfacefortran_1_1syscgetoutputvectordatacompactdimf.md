@@ -11,21 +11,23 @@ Provide an interface to get output vector data with compact storage based on dim
 
 ## Members
 
-* [syscgetoutputvectordatacompactdimf\_r41d](interfacefortran_1_1syscgetoutputvectordatacompactdimf.md#interfacefortran_1_1syscgetoutputvectordatacompactdimf_1aad1f52de474bf1aeec885d57e4bd097d)
-* [syscgetoutputvectordatacompactdimf\_r42d](interfacefortran_1_1syscgetoutputvectordatacompactdimf.md#interfacefortran_1_1syscgetoutputvectordatacompactdimf_1ac97fc60c227f8db5e1a65611003247ee)
-* [syscgetoutputvectordatacompactdimf\_r81d](interfacefortran_1_1syscgetoutputvectordatacompactdimf.md#interfacefortran_1_1syscgetoutputvectordatacompactdimf_1ae280ff8ac7fd97c342989d70030340ef)
-* [syscgetoutputvectordatacompactdimf\_r82d](interfacefortran_1_1syscgetoutputvectordatacompactdimf.md#interfacefortran_1_1syscgetoutputvectordatacompactdimf_1aa55a92ae3afcc6aeb3bc18a86fd654a5)
+* [syscgetoutputvectordatacompactdimf\_r41d](interfacefortran_1_1syscgetoutputvectordatacompactdimf.md#interfacefortran_1_1syscgetoutputvectordatacompactdimf_1aedc8e83879293385707fa31ca60423c5)
+* [syscgetoutputvectordatacompactdimf\_r42d](interfacefortran_1_1syscgetoutputvectordatacompactdimf.md#interfacefortran_1_1syscgetoutputvectordatacompactdimf_1aa6f57fdac01afa8baf2fb4c65fff2105)
+* [syscgetoutputvectordatacompactdimf\_r81d](interfacefortran_1_1syscgetoutputvectordatacompactdimf.md#interfacefortran_1_1syscgetoutputvectordatacompactdimf_1ad755751b2c9488e37a4265918c065f34)
+* [syscgetoutputvectordatacompactdimf\_r82d](interfacefortran_1_1syscgetoutputvectordatacompactdimf.md#interfacefortran_1_1syscgetoutputvectordatacompactdimf_1ae3140b7ae63584f639143d6374aa9240)
 
 ## Public functions
 
-<a id="interfacefortran_1_1syscgetoutputvectordatacompactdimf_1aad1f52de474bf1aeec885d57e4bd097d"></a>
+<a id="interfacefortran_1_1syscgetoutputvectordatacompactdimf_1aedc8e83879293385707fa31ca60423c5"></a>
 ### Function syscgetoutputvectordatacompactdimf\_r41d
 
 ![][public]
 
+
 ```fortran
-type(syscoutputvectordataf) function syscgetoutputvectordatacompactdimf_r41d(data, dataSize, dimension)
+type(syscoutputvectordataf) function syscgetoutputvectordatacompactdimf_r41d(data, datasize, dimension)
 ```
+
 
 Create an output vector data access type with compact storage based on dimension.
 
@@ -39,20 +41,22 @@ Create an output vector data access type with compact storage based on dimension
 
 **Parameters**:
 
-* datadata
-* dataSizedataSize
-* dimensiondimension
+* datareal(kind=4), dimension(datasize * dimension), intent(in), target
+* datasizeinteger(kind=8), intent(in)
+* dimensioninteger(kind=8), intent(in)
 
 **Return type**: type([syscoutputvectordataf](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf)) function
 
-<a id="interfacefortran_1_1syscgetoutputvectordatacompactdimf_1ae280ff8ac7fd97c342989d70030340ef"></a>
+<a id="interfacefortran_1_1syscgetoutputvectordatacompactdimf_1ad755751b2c9488e37a4265918c065f34"></a>
 ### Function syscgetoutputvectordatacompactdimf\_r81d
 
 ![][public]
 
+
 ```fortran
-type(syscoutputvectordataf) function syscgetoutputvectordatacompactdimf_r81d(data, dataSize, dimension)
+type(syscoutputvectordataf) function syscgetoutputvectordatacompactdimf_r81d(data, datasize, dimension)
 ```
+
 
 Create an output vector data access type with compact storage based on dimension.
 
@@ -66,20 +70,22 @@ Create an output vector data access type with compact storage based on dimension
 
 **Parameters**:
 
-* datadata
-* dataSizedataSize
-* dimensiondimension
+* datareal(kind=8), dimension(datasize * dimension), intent(in), target
+* datasizeinteger(kind=8), intent(in)
+* dimensioninteger(kind=8), intent(in)
 
 **Return type**: type([syscoutputvectordataf](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf)) function
 
-<a id="interfacefortran_1_1syscgetoutputvectordatacompactdimf_1ac97fc60c227f8db5e1a65611003247ee"></a>
+<a id="interfacefortran_1_1syscgetoutputvectordatacompactdimf_1aa6f57fdac01afa8baf2fb4c65fff2105"></a>
 ### Function syscgetoutputvectordatacompactdimf\_r42d
 
 ![][public]
 
+
 ```fortran
-type(syscoutputvectordataf) function syscgetoutputvectordatacompactdimf_r42d(vals, nElems, dimension)
+type(syscoutputvectordataf) function syscgetoutputvectordatacompactdimf_r42d(vals, nelems, dimension)
 ```
+
 
 Create an output vector data access type with compact storage based on dimension.
 
@@ -93,20 +99,22 @@ Create an output vector data access type with compact storage based on dimension
 
 **Parameters**:
 
-* valsvals
-* nElemsnElems
-* dimensiondimension
+* valsreal(kind=4), dimension(dimension, nelems), intent(in), target
+* nelemsinteger(kind=8), intent(in)
+* dimensioninteger(kind=8), intent(in)
 
 **Return type**: type([syscoutputvectordataf](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf)) function
 
-<a id="interfacefortran_1_1syscgetoutputvectordatacompactdimf_1aa55a92ae3afcc6aeb3bc18a86fd654a5"></a>
+<a id="interfacefortran_1_1syscgetoutputvectordatacompactdimf_1ae3140b7ae63584f639143d6374aa9240"></a>
 ### Function syscgetoutputvectordatacompactdimf\_r82d
 
 ![][public]
 
+
 ```fortran
-type(syscoutputvectordataf) function syscgetoutputvectordatacompactdimf_r82d(vals, nElems, dimension)
+type(syscoutputvectordataf) function syscgetoutputvectordatacompactdimf_r82d(vals, nelems, dimension)
 ```
+
 
 Create an output vector data access type with compact storage based on dimension.
 
@@ -120,9 +128,9 @@ Create an output vector data access type with compact storage based on dimension
 
 **Parameters**:
 
-* valsvals
-* nElemsnElems
-* dimensiondimension
+* valsreal(kind=8), dimension(dimension, nelems), intent(in), target
+* nelemsinteger(kind=8), intent(in)
+* dimensioninteger(kind=8), intent(in)
 
 **Return type**: type([syscoutputvectordataf](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf)) function
 

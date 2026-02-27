@@ -18,18 +18,21 @@
 
 ## Source
 
+
 ```cpp
 /*
-* Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
-*/
+ * © 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
+ */
 
 #pragma once
 
 namespace sysc {
 
+
 enum AnalysisType {
   Steady = 0,
-  Transient = 1
+  Transient = 1,
+  Mapping = 2
 };
 
 enum class TimeIntegration {
@@ -135,13 +138,16 @@ enum class ParticipantType {
   SCDT_SRV = 12,
   THERMAL_DESKTOP = 13,
   LS_DYNA = 14,
-  ROCKY = 15
+  ROCKY = 15,
+  FILE = 16
 };
+
 
 }  // namespace sysc
 ```
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

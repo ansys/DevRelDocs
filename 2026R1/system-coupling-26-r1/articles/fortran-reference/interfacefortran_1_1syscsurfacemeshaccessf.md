@@ -11,20 +11,22 @@ Provide function interface for access to surface mesh.
 
 ## Members
 
-* [syscsurfacemeshaccessf](interfacefortran_1_1syscsurfacemeshaccessf.md#interfacefortran_1_1syscsurfacemeshaccessf_1a19025a012cb8056c8ee03a30f03f9471)
+* [syscsurfacemeshaccessf](interfacefortran_1_1syscsurfacemeshaccessf.md#interfacefortran_1_1syscsurfacemeshaccessf_1a7ba1201328606418ecbe3bf9f5cc823b)
 
 ## Public functions
 
-<a id="interfacefortran_1_1syscsurfacemeshaccessf_1a19025a012cb8056c8ee03a30f03f9471"></a>
+<a id="interfacefortran_1_1syscsurfacemeshaccessf_1a7ba1201328606418ecbe3bf9f5cc823b"></a>
 ### Function syscsurfacemeshaccessf
 
 ![][public]
 
+
 ```fortran
-type(syscsurfacemeshf) function syscsurfacemeshaccessf(regionName)
+type(syscsurfacemeshf) function syscsurfacemeshaccessf(regionname)
 ```
 
-Provide a function protototype for access to surface mesh.
+
+Provide a function prototype for access to surface mesh.
 
 **Parameters**:
 
@@ -34,7 +36,7 @@ Provide a function protototype for access to surface mesh.
 
 **Parameters**:
 
-* regionNameregionName
+* regionnamecharacter(len=syscstrlen), intent(in)
 
 **Return type**: type([syscsurfacemeshf](structfortran_1_1syscsurfacemeshf.md#structfortran_1_1syscsurfacemeshf)) function
 

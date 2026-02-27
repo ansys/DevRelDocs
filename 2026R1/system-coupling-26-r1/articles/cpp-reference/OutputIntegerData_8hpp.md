@@ -10,7 +10,7 @@
 
 ## Classes
 
-* [sysc::OutputIntegerData](classsysc_1_1OutputIntegerData.md#classsysc_1_1OutputIntegerData)
+* [sysc::OutputIntegerData](structsysc_1_1OutputIntegerData.md#structsysc_1_1OutputIntegerData)
 
 ## Namespaces
 
@@ -18,17 +18,16 @@
 
 ## Includes
 
-* SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/CommonTypes.hpp
+* SystemCouplingParticipant/InputIntegerData.hpp
 * SystemCouplingParticipant/OutputScalarData.hpp
 * <cstddef>
 * <cstdint>
 * <vector>
 
+
 ```mermaid
 graph LR
-6["cstdint"]
-
 1["OutputIntegerData.hpp"]
 click 1 "OutputIntegerData_8hpp.md#OutputIntegerData_8hpp"
 1 --> 2
@@ -38,30 +37,33 @@ click 1 "OutputIntegerData_8hpp.md#OutputIntegerData_8hpp"
 1 --> 6
 1 --> 7
 
-3["SystemCouplingParticipant/CommonTypes.hpp"]
+2["SystemCouplingParticipant/CommonTypes.hpp"]
+
+3["SystemCouplingParticipant/InputIntegerData.hpp"]
 
 4["SystemCouplingParticipant/OutputScalarData.hpp"]
 
-7["vector"]
-
-2["SystemCouplingParticipant/LibraryType.hpp"]
-
 5["cstddef"]
+
+6["cstdint"]
+
+7["vector"]
 
 ```
 
+
 ## Source
+
 
 ```cpp
 /*
-* Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
-*/
+ * © 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
+ */
 
 #pragma once
 
-#include "SystemCouplingParticipant/LibraryType.hpp"
-
 #include "SystemCouplingParticipant/CommonTypes.hpp"
+#include "SystemCouplingParticipant/InputIntegerData.hpp"
 #include "SystemCouplingParticipant/OutputScalarData.hpp"
 
 #include <cstddef>
@@ -70,33 +72,78 @@ click 1 "OutputIntegerData_8hpp.md#OutputIntegerData_8hpp"
 
 namespace sysc {
 
-class SYSTEM_COUPLING_PARTICIPANT_DLL OutputIntegerData {
+struct OutputIntegerData {
 public:
   OutputIntegerData(
     const std::uint16_t* data,
-    std::size_t size);
+    std::size_t size) :
+      m_dataType(sysc::UnsignedInt16),
+      m_data(data),
+      m_size(size)
+  {
+  }
 
-  OutputIntegerData(const std::vector<std::uint16_t>& data);
+  OutputIntegerData(const std::vector<std::uint16_t>& data) :
+      m_dataType(sysc::UnsignedInt16),
+      m_data(data.data()),
+      m_size(data.size())
+  {
+  }
 
   OutputIntegerData(
     const std::uint64_t* data,
-    std::size_t size);
+    std::size_t size) :
+      m_dataType(sysc::UnsignedInt64),
+      m_data(data),
+      m_size(size)
+  {
+  }
 
-  OutputIntegerData(const std::vector<std::uint64_t>& data);
+  OutputIntegerData(const std::vector<std::uint64_t>& data) :
+      m_dataType(sysc::UnsignedInt64),
+      m_data(data.data()),
+      m_size(data.size())
+  {
+  }
 
   OutputIntegerData(
     const std::int32_t* data,
-    std::size_t size);
+    std::size_t size) :
+      m_dataType(sysc::Int32),
+      m_data(data),
+      m_size(size)
+  {
+  }
 
-  OutputIntegerData(const std::vector<std::int32_t>& data);
+  OutputIntegerData(const std::vector<std::int32_t>& data) :
+      m_dataType(sysc::Int32),
+      m_data(data.data()),
+      m_size(data.size())
+  {
+  }
 
   OutputIntegerData(
     const std::int64_t* data,
-    std::size_t size);
+    std::size_t size) :
+      m_dataType(sysc::Int64),
+      m_data(data),
+      m_size(size)
+  {
+  }
 
-  OutputIntegerData(const std::vector<std::int64_t>& data);
+  OutputIntegerData(const std::vector<std::int64_t>& data) :
+      m_dataType(sysc::Int64),
+      m_data(data.data()),
+      m_size(data.size())
+  {
+  }
 
-  OutputIntegerData(const OutputScalarData& data);
+  OutputIntegerData(const OutputScalarData& data) :
+      m_dataType(data.getDataType()),
+      m_data(data.getData()),
+      m_size(data.size())
+  {
+  }
 
   OutputIntegerData() = default;
 
@@ -108,13 +155,32 @@ public:
 
   OutputIntegerData& operator=(OutputIntegerData&&) = default;
 
-  std::size_t size() const noexcept;
+  OutputIntegerData(InputIntegerData data) :
+      m_dataType(data.getDataType()),
+      m_data(data.getData()),
+      m_size(data.size())
+  {
+  }
 
-  bool empty() const noexcept;
+  std::size_t size() const noexcept
+  {
+    return m_size;
+  }
 
-  sysc::PrimitiveType getDataType() const noexcept;
+  bool empty() const noexcept
+  {
+    return m_size == 0;
+  }
 
-  const void* getData() const noexcept;
+  sysc::PrimitiveType getDataType() const noexcept
+  {
+    return m_dataType;
+  }
+
+  const void* getData() const noexcept
+  {
+    return m_data;
+  }
 
 private:
   sysc::PrimitiveType m_dataType{sysc::Int64};
@@ -125,7 +191,8 @@ private:
 }  // namespace sysc
 ```
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

@@ -13,9 +13,10 @@ Output integer data provides read-only access to an array of integers. To create
 
 
 
+
 ```fortran
 type(SyscOutputIntegerDataF) :: oid
-oid = syscGetOutputIntegerDataF(array, arraySize)
+oid = syscgetoutputintegerdataf(array, arraysize)
 ```
 
 ## Members
@@ -33,9 +34,11 @@ oid = syscGetOutputIntegerDataF(array, arraySize)
 
 **Definition**: `syscOutputIntegerDataF.fi` (line 30)
 
+
 ```fortran
 integer(kind=8) primitivetype
 ```
+
 
 Primitive type.
 
@@ -52,9 +55,11 @@ Primitive type.
 
 **Definition**: `syscOutputIntegerDataF.fi` (line 31)
 
+
 ```fortran
 integer(kind=8) dataptr
 ```
+
 
 Pointer to the data array.
 
@@ -71,9 +76,11 @@ Pointer to the data array.
 
 **Definition**: `syscOutputIntegerDataF.fi` (line 32)
 
+
 ```fortran
 integer(kind=8) datasize
 ```
+
 
 Array size.
 

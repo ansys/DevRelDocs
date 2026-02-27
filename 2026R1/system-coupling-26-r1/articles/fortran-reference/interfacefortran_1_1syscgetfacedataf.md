@@ -12,8 +12,8 @@
 ## Members
 
 * [syscgetfacedataf](interfacefortran_1_1syscgetfacedataf.md#interfacefortran_1_1syscgetfacedataf_1ae9a6152011424543a301b1091a863f5b)
-* [syscgetfacedataf\_cn](interfacefortran_1_1syscgetfacedataf.md#interfacefortran_1_1syscgetfacedataf_1a20801c611ee9d84e56a5ce3f1b179f5c)
-* [syscgetfacedataf\_itn](interfacefortran_1_1syscgetfacedataf.md#interfacefortran_1_1syscgetfacedataf_1a90367f1647e014b59ed7fbd5437500a9)
+* [syscgetfacedataf\_cn](interfacefortran_1_1syscgetfacedataf.md#interfacefortran_1_1syscgetfacedataf_1a6a82674e043b7d6ce5289152b6cdaf5b)
+* [syscgetfacedataf\_itn](interfacefortran_1_1syscgetfacedataf.md#interfacefortran_1_1syscgetfacedataf_1ac44052176ff2892bea55a1cf4151883a)
 
 ## Public functions
 
@@ -21,6 +21,7 @@
 ### Function syscgetfacedataf
 
 ![][public]
+
 
 ```fortran
 type(syscfacedataf) function syscgetfacedataf()
@@ -32,16 +33,19 @@ type(syscfacedataf) function syscgetfacedataf()
 
 
 
+
 **Return type**: type([syscfacedataf](structfortran_1_1syscfacedataf.md#structfortran_1_1syscfacedataf)) function
 
-<a id="interfacefortran_1_1syscgetfacedataf_1a90367f1647e014b59ed7fbd5437500a9"></a>
+<a id="interfacefortran_1_1syscgetfacedataf_1ac44052176ff2892bea55a1cf4151883a"></a>
 ### Function syscgetfacedataf\_itn
 
 ![][public]
 
+
 ```fortran
-type(syscfacedataf) function syscgetfacedataf_itn(faceIds, faceTypes, faceNodeConnectivity)
+type(syscfacedataf) function syscgetfacedataf_itn(faceids, facetypes, facenodeconnectivity)
 ```
+
 
 
 
@@ -51,20 +55,22 @@ type(syscfacedataf) function syscgetfacedataf_itn(faceIds, faceTypes, faceNodeCo
 
 **Parameters**:
 
-* faceIdsfaceIds
-* faceTypesfaceTypes
-* faceNodeConnectivityfaceNodeConnectivity
+* faceidstype([syscelementiddataf](structfortran_1_1syscelementiddataf.md#structfortran_1_1syscelementiddataf)), intent(in)
+* facetypestype([syscelementtypedataf](structfortran_1_1syscelementtypedataf.md#structfortran_1_1syscelementtypedataf)), intent(in)
+* facenodeconnectivitytype([syscelementnodeconnectivitydataf](structfortran_1_1syscelementnodeconnectivitydataf.md#structfortran_1_1syscelementnodeconnectivitydataf)), intent(in)
 
 **Return type**: type([syscfacedataf](structfortran_1_1syscfacedataf.md#structfortran_1_1syscfacedataf)) function
 
-<a id="interfacefortran_1_1syscgetfacedataf_1a20801c611ee9d84e56a5ce3f1b179f5c"></a>
+<a id="interfacefortran_1_1syscgetfacedataf_1a6a82674e043b7d6ce5289152b6cdaf5b"></a>
 ### Function syscgetfacedataf\_cn
 
 ![][public]
 
+
 ```fortran
-type(syscfacedataf) function syscgetfacedataf_cn(faceNodeCounts, faceNodeConnectivity)
+type(syscfacedataf) function syscgetfacedataf_cn(facenodecounts, facenodeconnectivity)
 ```
+
 
 
 
@@ -74,8 +80,8 @@ type(syscfacedataf) function syscgetfacedataf_cn(faceNodeCounts, faceNodeConnect
 
 **Parameters**:
 
-* faceNodeCountsfaceNodeCounts
-* faceNodeConnectivityfaceNodeConnectivity
+* facenodecountstype([syscelementnodecountdataf](structfortran_1_1syscelementnodecountdataf.md#structfortran_1_1syscelementnodecountdataf)), intent(in)
+* facenodeconnectivitytype([syscelementnodeconnectivitydataf](structfortran_1_1syscelementnodeconnectivitydataf.md#structfortran_1_1syscelementnodeconnectivitydataf)), intent(in)
 
 **Return type**: type([syscfacedataf](structfortran_1_1syscfacedataf.md#structfortran_1_1syscfacedataf)) function
 

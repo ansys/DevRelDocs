@@ -3,7 +3,7 @@
 ![][C++]
 ![][public]
 
-**Definition**: `CommonTypes.hpp` (line 222)
+**Definition**: `CommonTypes.hpp` (line 237)
 
 Provide a struct that contains information about mesh validity.
 
@@ -23,11 +23,13 @@ Provide a struct that contains information about mesh validity.
 
 ![][public]
 
-**Definition**: `CommonTypes.hpp` (line 223)
+**Definition**: `CommonTypes.hpp` (line 238)
+
 
 ```cpp
 bool sysc::MeshValidityStatus::isInvalid
 ```
+
 
 
 
@@ -37,16 +39,22 @@ Indicates whether the mesh is valid.
 
 **Type**: bool
 
+**Referenced by**:
+
+* [MeshValidityStatus](structsysc_1_1MeshValidityStatus.md#structsysc_1_1MeshValidityStatus_1ad75cfb4f98778300a21ac1d72efba379)
+
 <a id="structsysc_1_1MeshValidityStatus_1ab175079553f6cc1591dbb3d0e74c8ec4"></a>
 ### Variable message
 
 ![][public]
 
-**Definition**: `CommonTypes.hpp` (line 224)
+**Definition**: `CommonTypes.hpp` (line 239)
+
 
 ```cpp
 std::string sysc::MeshValidityStatus::message
 ```
+
 
 
 
@@ -56,6 +64,10 @@ Message explaining errors (if any).
 
 **Type**: std::string
 
+**Referenced by**:
+
+* [MeshValidityStatus](structsysc_1_1MeshValidityStatus.md#structsysc_1_1MeshValidityStatus_1ad75cfb4f98778300a21ac1d72efba379)
+
 ## Public functions
 
 <a id="structsysc_1_1MeshValidityStatus_1ad9c263935ed13d2ee2e5e97816c00ef3"></a>
@@ -63,9 +75,11 @@ Message explaining errors (if any).
 
 ![][public]
 
+
 ```cpp
 sysc::MeshValidityStatus::MeshValidityStatus()
 ```
+
 
 
 
@@ -80,9 +94,11 @@ sysc::MeshValidityStatus::MeshValidityStatus()
 
 ![][public]
 
+
 ```cpp
 sysc::MeshValidityStatus::MeshValidityStatus(bool isInvalid, std::string message)
 ```
+
 
 Provide a non-default constructor for [MeshValidityStatus](structsysc_1_1MeshValidityStatus.md#structsysc_1_1MeshValidityStatus).
 
@@ -100,7 +116,12 @@ Provide a non-default constructor for [MeshValidityStatus](structsysc_1_1MeshVal
 
 **Return type**: 
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+**References**:
+
+* [isInvalid](structsysc_1_1MeshValidityStatus.md#structsysc_1_1MeshValidityStatus_1a3ee3cb844b3594fb7c3be7fce89a4f62)
+* [message](structsysc_1_1MeshValidityStatus.md#structsysc_1_1MeshValidityStatus_1ab175079553f6cc1591dbb3d0e74c8ec4)
+
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

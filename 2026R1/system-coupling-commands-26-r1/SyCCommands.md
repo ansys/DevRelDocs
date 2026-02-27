@@ -1,6 +1,6 @@
-# System Coupling Commands
+# Documentation: System Coupling Commands
 
-This document provides detailed information on the commands you can use to interact with System Coupling from the command line, whether from System Coupling's command-line interface (CLI) or from the **Command Console** tab of its graphical user interface (GUI).
+This document provides detailed information on the commands you can use to interact with System Coupling whether from System Coupling's command-line interface (CLI) or from the **Command Console** tab of its graphical user interface (GUI).
 
 ---
 
@@ -8,7 +8,11 @@ This document provides detailed information on the commands you can use to inter
 
 ### Description
 
-Adds data transfer for each specified mode shape.
+Adds data transfers for all mode shapes available in the
+MECH-SRV participant for the given interface. If a list of mode shapes
+is provided, only those mode shapes will be transferred. If no mode
+shapes are provided, a data transfer will be created for each available
+mode shape.
 
 Returns the name of the Data Transfers created.
 

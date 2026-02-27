@@ -11,18 +11,20 @@ Provide an interface to register input scalar data access.
 
 ## Members
 
-* [syscregisterinputscalardataaccessf](interfacefortran_1_1syscregisterinputscalardataaccessf.md#interfacefortran_1_1syscregisterinputscalardataaccessf_1ac02c967ea25012baa1d0fa6c7f8b2f56)
+* [syscregisterinputscalardataaccessf](interfacefortran_1_1syscregisterinputscalardataaccessf.md#interfacefortran_1_1syscregisterinputscalardataaccessf_1ad15a524159de688be522c799ff8da3aa)
 
 ## Public functions
 
-<a id="interfacefortran_1_1syscregisterinputscalardataaccessf_1ac02c967ea25012baa1d0fa6c7f8b2f56"></a>
+<a id="interfacefortran_1_1syscregisterinputscalardataaccessf_1ad15a524159de688be522c799ff8da3aa"></a>
 ### Function syscregisterinputscalardataaccessf
 
 ![][public]
 
+
 ```fortran
-type(syscerrorf) function syscregisterinputscalardataaccessf(dataAccess)
+type(syscerrorf) function syscregisterinputscalardataaccessf(dataaccess)
 ```
+
 
 Provide a function to register input scalar data access.
 
@@ -39,7 +41,7 @@ a <code>SyscErrorF</code> type for error checking.
 
 **Parameters**:
 
-* dataAccessdataAccess
+* dataaccessprocedure([syscinputscalardataaccessf](interfacefortran_1_1syscinputscalardataaccessf.md#interfacefortran_1_1syscinputscalardataaccessf))
 
 **Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
 

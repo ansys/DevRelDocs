@@ -11,21 +11,23 @@ Provide an interface to get 2D input vector data.
 
 ## Members
 
-* [syscgetinput2dvectordatasplitf\_r42d](interfacefortran_1_1syscgetinput2dvectordatasplitf.md#interfacefortran_1_1syscgetinput2dvectordatasplitf_1afdd442b99555d504ed7ae6452f05d4ec)
-* [syscgetinput2dvectordatasplitf\_r43a](interfacefortran_1_1syscgetinput2dvectordatasplitf.md#interfacefortran_1_1syscgetinput2dvectordatasplitf_1ac3a4f638961a67225f5547f38ee4e409)
-* [syscgetinput2dvectordatasplitf\_r82d](interfacefortran_1_1syscgetinput2dvectordatasplitf.md#interfacefortran_1_1syscgetinput2dvectordatasplitf_1a6a314a0093b9fc2c5f2d5cac730d29b6)
-* [syscgetinput2dvectordatasplitf\_r83a](interfacefortran_1_1syscgetinput2dvectordatasplitf.md#interfacefortran_1_1syscgetinput2dvectordatasplitf_1a7412d1de460be591d377e347870e8b2d)
+* [syscgetinput2dvectordatasplitf\_r42d](interfacefortran_1_1syscgetinput2dvectordatasplitf.md#interfacefortran_1_1syscgetinput2dvectordatasplitf_1a38eef9d6b15010665dde7630173672bf)
+* [syscgetinput2dvectordatasplitf\_r43a](interfacefortran_1_1syscgetinput2dvectordatasplitf.md#interfacefortran_1_1syscgetinput2dvectordatasplitf_1aba1e34648b865818b790e9e3c3535515)
+* [syscgetinput2dvectordatasplitf\_r82d](interfacefortran_1_1syscgetinput2dvectordatasplitf.md#interfacefortran_1_1syscgetinput2dvectordatasplitf_1a47e703cd04fbd5529273cf4a00736c08)
+* [syscgetinput2dvectordatasplitf\_r83a](interfacefortran_1_1syscgetinput2dvectordatasplitf.md#interfacefortran_1_1syscgetinput2dvectordatasplitf_1a33060e24689c6802f7e1567a3b4675a8)
 
 ## Public functions
 
-<a id="interfacefortran_1_1syscgetinput2dvectordatasplitf_1ac3a4f638961a67225f5547f38ee4e409"></a>
+<a id="interfacefortran_1_1syscgetinput2dvectordatasplitf_1aba1e34648b865818b790e9e3c3535515"></a>
 ### Function syscgetinput2dvectordatasplitf\_r43a
 
 ![][public]
 
+
 ```fortran
-type(syscinputvectordataf) function syscgetinput2dvectordatasplitf_r43a(data0, data1, dataSize)
+type(syscinputvectordataf) function syscgetinput2dvectordatasplitf_r43a(data0, data1, datasize)
 ```
+
 
 Create an 2D input vector data access type with split storage.
 
@@ -39,20 +41,22 @@ Create an 2D input vector data access type with split storage.
 
 **Parameters**:
 
-* data0data0
-* data1data1
-* dataSizedataSize
+* data0real(kind=4), dimension(datasize), intent(in), target
+* data1real(kind=4), dimension(datasize), intent(in), target
+* datasizeinteger(kind=8), intent(in)
 
 **Return type**: type([syscinputvectordataf](structfortran_1_1syscinputvectordataf.md#structfortran_1_1syscinputvectordataf)) function
 
-<a id="interfacefortran_1_1syscgetinput2dvectordatasplitf_1a7412d1de460be591d377e347870e8b2d"></a>
+<a id="interfacefortran_1_1syscgetinput2dvectordatasplitf_1a33060e24689c6802f7e1567a3b4675a8"></a>
 ### Function syscgetinput2dvectordatasplitf\_r83a
 
 ![][public]
 
+
 ```fortran
-type(syscinputvectordataf) function syscgetinput2dvectordatasplitf_r83a(data0, data1, dataSize)
+type(syscinputvectordataf) function syscgetinput2dvectordatasplitf_r83a(data0, data1, datasize)
 ```
+
 
 Create an 2D input vector data access type with split storage.
 
@@ -66,20 +70,22 @@ Create an 2D input vector data access type with split storage.
 
 **Parameters**:
 
-* data0data0
-* data1data1
-* dataSizedataSize
+* data0real(kind=8), dimension(datasize), intent(in), target
+* data1real(kind=8), dimension(datasize), intent(in), target
+* datasizeinteger(kind=8), intent(in)
 
 **Return type**: type([syscinputvectordataf](structfortran_1_1syscinputvectordataf.md#structfortran_1_1syscinputvectordataf)) function
 
-<a id="interfacefortran_1_1syscgetinput2dvectordatasplitf_1afdd442b99555d504ed7ae6452f05d4ec"></a>
+<a id="interfacefortran_1_1syscgetinput2dvectordatasplitf_1a38eef9d6b15010665dde7630173672bf"></a>
 ### Function syscgetinput2dvectordatasplitf\_r42d
 
 ![][public]
 
+
 ```fortran
-type(syscinputvectordataf) function syscgetinput2dvectordatasplitf_r42d(data, dataSize)
+type(syscinputvectordataf) function syscgetinput2dvectordatasplitf_r42d(data, datasize)
 ```
+
 
 Create an 2D input vector data access type with split storage.
 
@@ -92,19 +98,21 @@ Create an 2D input vector data access type with split storage.
 
 **Parameters**:
 
-* datadata
-* dataSizedataSize
+* datareal(kind=4), dimension(datasize, 2), intent(in), target
+* datasizeinteger(kind=8), intent(in)
 
 **Return type**: type([syscinputvectordataf](structfortran_1_1syscinputvectordataf.md#structfortran_1_1syscinputvectordataf)) function
 
-<a id="interfacefortran_1_1syscgetinput2dvectordatasplitf_1a6a314a0093b9fc2c5f2d5cac730d29b6"></a>
+<a id="interfacefortran_1_1syscgetinput2dvectordatasplitf_1a47e703cd04fbd5529273cf4a00736c08"></a>
 ### Function syscgetinput2dvectordatasplitf\_r82d
 
 ![][public]
 
+
 ```fortran
-type(syscinputvectordataf) function syscgetinput2dvectordatasplitf_r82d(data, dataSize)
+type(syscinputvectordataf) function syscgetinput2dvectordatasplitf_r82d(data, datasize)
 ```
+
 
 Create an 2D input vector data access type with split storage.
 
@@ -117,8 +125,8 @@ Create an 2D input vector data access type with split storage.
 
 **Parameters**:
 
-* datadata
-* dataSizedataSize
+* datareal(kind=8), dimension(datasize, 2), intent(in), target
+* datasizeinteger(kind=8), intent(in)
 
 **Return type**: type([syscinputvectordataf](structfortran_1_1syscinputvectordataf.md#structfortran_1_1syscinputvectordataf)) function
 

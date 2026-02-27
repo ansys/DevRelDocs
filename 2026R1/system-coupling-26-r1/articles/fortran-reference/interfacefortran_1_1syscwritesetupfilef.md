@@ -11,18 +11,20 @@ Provide an interface to write the setup file.
 
 ## Members
 
-* [syscwritesetupfilef](interfacefortran_1_1syscwritesetupfilef.md#interfacefortran_1_1syscwritesetupfilef_1a1d34ce9930173c4e42050e52d940770b)
+* [syscwritesetupfilef](interfacefortran_1_1syscwritesetupfilef.md#interfacefortran_1_1syscwritesetupfilef_1a9de821a238753f360282640b90837f4a)
 
 ## Public functions
 
-<a id="interfacefortran_1_1syscwritesetupfilef_1a1d34ce9930173c4e42050e52d940770b"></a>
+<a id="interfacefortran_1_1syscwritesetupfilef_1a9de821a238753f360282640b90837f4a"></a>
 ### Function syscwritesetupfilef
 
 ![][public]
 
+
 ```fortran
-logical function syscwritesetupfilef(setupFileInfo)
+logical function syscwritesetupfilef(setupfileinfo)
 ```
+
 
 Provide a function to write the setup file.
 
@@ -46,7 +48,7 @@ true if the setup file was successfully written, and false otherwise.
 
 **Parameters**:
 
-* setupFileInfosetupFileInfo
+* setupfileinfotype([syscsetupfileinfof](structfortran_1_1syscsetupfileinfof.md#structfortran_1_1syscsetupfileinfof)), intent(in)
 
 **Return type**: logical function
 

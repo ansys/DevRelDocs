@@ -19,6 +19,7 @@
 
 ## Source
 
+
 ```fortran
 module fortran
 !
@@ -30,22 +31,37 @@ module fortran
 !
 ! *********************************************************************
 !
+!> \brief Provide a surface mesh access type.
+!!
+!! Provides read-only access to the surface mesh for a given region.
+!!
 type :: syscsurfacemeshf
   type(syscnodedataf) :: nodes
- 
+ !< Mesh nodes.
   type(syscelementtypedataf) :: elemtypes
-
+!< Element types.
   type(syscelementnodecountdataf) :: elemnodecounts
-
+!< Element node counts.
   type(syscelementnodeconnectivitydataf) :: elemnodeconnectivity
-
+!< Element-to-node connectivity.
+  integer(kind=8) :: connectivitystamp
+!< Connectivity stamp
+  integer(kind=8) :: coordinatesstamp
+!< Coordinates stamp
+  integer(kind=8) :: partitioningstamp
+!< Partitioning stamp
 end type syscsurfacemeshf
 !
 !**********************************************************************
+!> \brief Provide an interface to get surface mesh.
 !**********************************************************************
 interface syscgetsurfacemeshf
 !
 !**********************************************************************
+!> \brief Create a surface mesh access struct.
+!!
+!! Returns a type representing empty surface mesh.
+!! All members will be assigned default values.
 !**********************************************************************
 function syscgetsurfacemeshf() result (ret)
   import :: syscsurfacemeshf
@@ -56,6 +72,12 @@ function syscgetsurfacemeshf() result (ret)
 end function syscgetsurfacemeshf
 !
 !**********************************************************************
+!> \brief Create a surface mesh access struct.
+!!
+!! \param[in] nodes - mesh nodes
+!!
+!! \param[in] faces - mesh faces
+!!
 !**********************************************************************
 function syscgetsurfacemeshf_nf(nodes, faces) result (ret)
   import :: syscsurfacemeshf, syscnodedataf, syscfacedataf
@@ -68,6 +90,15 @@ function syscgetsurfacemeshf_nf(nodes, faces) result (ret)
 end function syscgetsurfacemeshf_nf
 !
 !**********************************************************************
+!> \brief Create a surface mesh access struct.
+!!
+!! \param[in] nodes - mesh nodes
+!!
+!! \param[in] elemTypes - element types
+!!
+!! \param[in] elemNodeCounts - element node counts
+!!
+!! \param[in] elemNodeConn - element-to-node connectivity
 !**********************************************************************
 function syscgetsurfacemeshf_ntci(&
   nodes,&
@@ -87,6 +118,13 @@ function syscgetsurfacemeshf_ntci(&
 end function syscgetsurfacemeshf_ntci
 !
 !**********************************************************************
+!> \brief Create a surface mesh access struct.
+!!
+!! \param[in] nodes - mesh nodes
+!!
+!! \param[in] elemNodeCounts - element node counts
+!!
+!! \param[in] elemNodeConn - element-to-node connectivity
 !**********************************************************************
 function syscgetsurfacemeshf_nci(&
   nodes,&
@@ -104,6 +142,13 @@ function syscgetsurfacemeshf_nci(&
 end function syscgetsurfacemeshf_nci
 !
 !**********************************************************************
+!> \brief Create a surface mesh access struct.
+!!
+!! \param[in] nodes - mesh nodes
+!!
+!! \param[in] elemTypes - element types
+!!
+!! \param[in] elemNodeConn - element-to-node connectivity
 !**********************************************************************
 function syscgetsurfacemeshf_nti(&
   nodes,&
@@ -121,6 +166,20 @@ function syscgetsurfacemeshf_nti(&
 end function syscgetsurfacemeshf_nti
 !
 !**********************************************************************
+!> \brief Create a surface mesh access struct.
+!!
+!! Note - this function is deprecated, use `syscGetSurfaceMeshF_NCI`
+!!
+!! \param[in] nodeIds - output scalar data access for node ids
+!!
+!! \param[in] nodeCoords - output vector data access for node 
+!! coordinates, provided in the same order as node ids
+!!
+!! \param[in] elemNodeCounts - output scalar data access for
+!!        element node counts
+!!
+!! \param[in] elemNodeIds - output scalar data access for element 
+!! node ids
 !**********************************************************************
 function syscgetsurfacemeshf_a(&
   nodeIds,&
@@ -141,6 +200,18 @@ function syscgetsurfacemeshf_a(&
 end function syscgetsurfacemeshf_a
 !
 !**********************************************************************
+!> \brief Create a surface mesh access struct.
+!!
+ !! Note - this function is deprecated, use `syscGetSurfaceMeshF_NCI`
+!!
+!! \param[in] nodeCoords - output vector data access for node 
+!! coordinates, provided in ascending node ids order
+!!
+!! \param[in] elemNodeCounts - output scalar data access for
+!! element node counts
+!!
+!! \param[in] elemNodeIds - output scalar data access for element 
+!! node ids
 !**********************************************************************
 function syscgetsurfacemeshf_b(&
   nodeCoords,&
@@ -163,5 +234,7 @@ end interface syscgetsurfacemeshf
 end module fortran
 ```
 
+
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)
+[Markdown]: https://img.shields.io/badge/language-Markdown-blue (Markdown)

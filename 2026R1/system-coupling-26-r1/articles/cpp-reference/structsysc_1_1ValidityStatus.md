@@ -3,7 +3,7 @@
 ![][C++]
 ![][public]
 
-**Definition**: `CommonTypes.hpp` (line 202)
+**Definition**: `CommonTypes.hpp` (line 217)
 
 Provide a struct that contains information about validity.
 
@@ -23,11 +23,13 @@ Provide a struct that contains information about validity.
 
 ![][public]
 
-**Definition**: `CommonTypes.hpp` (line 203)
+**Definition**: `CommonTypes.hpp` (line 218)
+
 
 ```cpp
 bool sysc::ValidityStatus::isValid
 ```
+
 
 
 
@@ -37,16 +39,22 @@ Validity status flag.
 
 **Type**: bool
 
+**Referenced by**:
+
+* [ValidityStatus](structsysc_1_1ValidityStatus.md#structsysc_1_1ValidityStatus_1a11dcd716f4542e1231c0e2ec25ff0d71)
+
 <a id="structsysc_1_1ValidityStatus_1ad78928b787427d9c0edf9e7a1e3d857c"></a>
 ### Variable message
 
 ![][public]
 
-**Definition**: `CommonTypes.hpp` (line 204)
+**Definition**: `CommonTypes.hpp` (line 219)
+
 
 ```cpp
 std::string sysc::ValidityStatus::message
 ```
+
 
 
 
@@ -56,6 +64,10 @@ Message explaining errors (if any).
 
 **Type**: std::string
 
+**Referenced by**:
+
+* [ValidityStatus](structsysc_1_1ValidityStatus.md#structsysc_1_1ValidityStatus_1a11dcd716f4542e1231c0e2ec25ff0d71)
+
 ## Public functions
 
 <a id="structsysc_1_1ValidityStatus_1a6f7ad1e877aa19ab835c1023164f9c65"></a>
@@ -63,9 +75,11 @@ Message explaining errors (if any).
 
 ![][public]
 
+
 ```cpp
 sysc::ValidityStatus::ValidityStatus()
 ```
+
 
 
 
@@ -80,9 +94,11 @@ sysc::ValidityStatus::ValidityStatus()
 
 ![][public]
 
+
 ```cpp
 sysc::ValidityStatus::ValidityStatus(bool isValid, std::string message)
 ```
+
 
 Provide a non-default constructor for [ValidityStatus](structsysc_1_1ValidityStatus.md#structsysc_1_1ValidityStatus).
 
@@ -100,7 +116,12 @@ Provide a non-default constructor for [ValidityStatus](structsysc_1_1ValiditySta
 
 **Return type**: 
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+**References**:
+
+* [isValid](structsysc_1_1ValidityStatus.md#structsysc_1_1ValidityStatus_1ac45ce7d05d6ab0126511da670f3e10a9)
+* [message](structsysc_1_1ValidityStatus.md#structsysc_1_1ValidityStatus_1ad78928b787427d9c0edf9e7a1e3d857c)
+
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

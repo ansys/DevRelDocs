@@ -25,9 +25,10 @@ To create and/or initialize SyscInputVectorDataF, it is highly recommended to us
 
 
 
+
 ```fortran
 type(SyscInputVectorDataF) :: ivd
-ivd = syscGetInputVectorDataSplitF(x, y, z, size)
+ivd = syscgetinputvectordatasplitf(x, y, z, size)
 ```
 
 ## Members
@@ -48,9 +49,11 @@ ivd = syscGetInputVectorDataSplitF(x, y, z, size)
 
 **Definition**: `syscInputVectorDataF.fi` (line 32)
 
+
 ```fortran
 integer(kind=8) primitivetype
 ```
+
 
 Primitive type.
 
@@ -67,9 +70,11 @@ Primitive type.
 
 **Definition**: `syscInputVectorDataF.fi` (line 33)
 
+
 ```fortran
 integer(kind=8) dataptr1
 ```
+
 
 Pointer to the first array.
 
@@ -86,9 +91,11 @@ Pointer to the first array.
 
 **Definition**: `syscInputVectorDataF.fi` (line 34)
 
+
 ```fortran
 integer(kind=8) dataptr2
 ```
+
 
 Pointer to the second array.
 
@@ -105,9 +112,11 @@ Pointer to the second array.
 
 **Definition**: `syscInputVectorDataF.fi` (line 35)
 
+
 ```fortran
 integer(kind=8) dataptr3
 ```
+
 
 Pointer to the third array.
 
@@ -124,9 +133,11 @@ Pointer to the third array.
 
 **Definition**: `syscInputVectorDataF.fi` (line 36)
 
+
 ```fortran
 integer(kind=8) datasize
 ```
+
 
 Array size.
 
@@ -143,9 +154,11 @@ Array size.
 
 **Definition**: `syscInputVectorDataF.fi` (line 37)
 
+
 ```fortran
 integer(kind=8) dimension
 ```
+
 
 Dimension.
 

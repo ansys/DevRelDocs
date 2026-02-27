@@ -13,9 +13,10 @@ Output scalar data provides read-only access to an array of scalar data. To crea
 
 
 
+
 ```fortran
 type(SyscOutputScalarDataF) :: osd
-osd = syscGetOutputScalarDataF(array, arraySize)
+osd = syscgetoutputscalardataf(array, arraysize)
 ```
 
 ## Members
@@ -33,9 +34,11 @@ osd = syscGetOutputScalarDataF(array, arraySize)
 
 **Definition**: `syscOutputScalarDataF.fi` (line 26)
 
+
 ```fortran
 integer(kind=8) primitivetype
 ```
+
 
 Primitive type.
 
@@ -52,9 +55,11 @@ Primitive type.
 
 **Definition**: `syscOutputScalarDataF.fi` (line 27)
 
+
 ```fortran
 integer(kind=8) dataptr
 ```
+
 
 Pointer to the data array.
 
@@ -71,9 +76,11 @@ Pointer to the data array.
 
 **Definition**: `syscOutputScalarDataF.fi` (line 28)
 
+
 ```fortran
 integer(kind=8) datasize
 ```
+
 
 Array size.
 

@@ -13,6 +13,7 @@ To create and/or initialize the [SyscVariable](structSyscVariable.md#structSyscV
 
 
 
+
 ```
 SyscVariable var = syscGetVariableTE(
   "Temperature", SyscScalar, 0, SyscNode);
@@ -37,9 +38,11 @@ SyscVariable var = syscGetVariableTE(
 
 **Definition**: `syscVariable.h` (line 38)
 
+
 ```
 char SyscVariable::name[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
+
 
 
 
@@ -54,11 +57,13 @@ Unique name for this variable.
 
 ![][public]
 
-**Definition**: `syscVariable.h` (line 38)
+**Definition**: `syscVariable.h` (line 39)
+
 
 ```
 enum SyscQuantityType SyscVariable::quantityType
 ```
+
 
 
 
@@ -73,11 +78,13 @@ Quantity type (e.g. temperature).
 
 ![][public]
 
-**Definition**: `syscVariable.h` (line 38)
+**Definition**: `syscVariable.h` (line 40)
+
 
 ```
 enum SyscLocation SyscVariable::location
 ```
+
 
 
 
@@ -94,9 +101,11 @@ Location (e.g element or node).
 
 **Definition**: `syscVariable.h` (line 41)
 
+
 ```
 char SyscVariable::displayName[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
+
 
 
 
@@ -111,11 +120,13 @@ User-friendly name.
 
 ![][public]
 
-**Definition**: `syscVariable.h` (line 41)
+**Definition**: `syscVariable.h` (line 42)
+
 
 ```
 enum SyscTensorType SyscVariable::tensorType
 ```
+
 
 
 
@@ -132,9 +143,11 @@ Tensor type (e.g. scalar, vector).
 
 **Definition**: `syscVariable.h` (line 43)
 
+
 ```
 int SyscVariable::isExtensive
 ```
+
 
 
 
@@ -149,11 +162,13 @@ Flag indicating whether it's an extensive property.
 
 ![][public]
 
-**Definition**: `syscVariable.h` (line 43)
+**Definition**: `syscVariable.h` (line 44)
+
 
 ```
 enum SyscDataType SyscVariable::dataType
 ```
+
 
 
 
