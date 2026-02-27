@@ -20,6 +20,7 @@ Provide an interface to add integer attribute to a variable.
 
 ![][public]
 
+
 ```fortran
 type(syscerrorf) function syscvariableaddintegerattributef(variable, attribute)
 ```
@@ -30,10 +31,11 @@ type(syscerrorf) function syscvariableaddintegerattributef(variable, attribute)
 
 
 
+
 **Parameters**:
 
-* variablevariable
-* attributeattribute
+* variabletype([syscvariablef](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef))
+* attributetype([syscintegerattributef](structfortran_1_1syscintegerattributef.md#structfortran_1_1syscintegerattributef))
 
 **Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
 

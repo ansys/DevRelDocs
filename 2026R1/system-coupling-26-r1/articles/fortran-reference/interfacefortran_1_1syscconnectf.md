@@ -11,19 +11,21 @@ Provide an interface to connect to System Coupling.
 
 ## Members
 
-* [syscconnectf](interfacefortran_1_1syscconnectf.md#interfacefortran_1_1syscconnectf_1af397378cdff4f98ef3c736cdda2dc2a0)
-* [syscconnectparallelf](interfacefortran_1_1syscconnectf.md#interfacefortran_1_1syscconnectf_1a15b29cc1bce67f869dea1b183de9c569)
+* [syscconnectf](interfacefortran_1_1syscconnectf.md#interfacefortran_1_1syscconnectf_1a556dda14cfe0b77561b9deff6e0c9cd5)
+* [syscconnectparallelf](interfacefortran_1_1syscconnectf.md#interfacefortran_1_1syscconnectf_1a8d918399632b17dc8e13486058566120)
 
 ## Public functions
 
-<a id="interfacefortran_1_1syscconnectf_1af397378cdff4f98ef3c736cdda2dc2a0"></a>
+<a id="interfacefortran_1_1syscconnectf_1a556dda14cfe0b77561b9deff6e0c9cd5"></a>
 ### Function syscconnectf
 
 ![][public]
 
+
 ```fortran
-type(syscerrorf) function syscconnectf(scHost, scPort, participantName, buildInformation)
+type(syscerrorf) function syscconnectf(schost, scport, participantname, buildinformation)
 ```
+
 
 Provide a function to establish connection to System Coupling.
 
@@ -56,21 +58,23 @@ a <code>SyscErrorF</code> type that can be checked for any errors.
 
 **Parameters**:
 
-* scHostscHost
-* scPortscPort
-* participantNameparticipantName
-* buildInformationbuildInformation
+* schostcharacter(*), intent(in)
+* scportinteger(kind=4), intent(in)
+* participantnamecharacter(*), intent(in)
+* buildinformationcharacter(*), intent(in), optional
 
 **Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
 
-<a id="interfacefortran_1_1syscconnectf_1a15b29cc1bce67f869dea1b183de9c569"></a>
+<a id="interfacefortran_1_1syscconnectf_1a8d918399632b17dc8e13486058566120"></a>
 ### Function syscconnectparallelf
 
 ![][public]
 
+
 ```fortran
-type(syscerrorf) function syscconnectparallelf(scHost, scPort, participantName, communicator, buildInformation)
+type(syscerrorf) function syscconnectparallelf(schost, scport, participantname, communicator, buildinformation)
 ```
+
 
 Provide a function to establish connection to System Coupling and pass a custom MPI communicator.
 
@@ -98,11 +102,11 @@ a <code>SyscErrorF</code> type that can be checked for any errors.
 
 **Parameters**:
 
-* scHostscHost
-* scPortscPort
-* participantNameparticipantName
-* communicatorcommunicator
-* buildInformationbuildInformation
+* schostcharacter(*), intent(in)
+* scportinteger(kind=4), intent(in)
+* participantnamecharacter(*), intent(in)
+* communicatorinteger(kind=4), intent(in)
+* buildinformationcharacter(*), intent(in), optional
 
 **Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
 

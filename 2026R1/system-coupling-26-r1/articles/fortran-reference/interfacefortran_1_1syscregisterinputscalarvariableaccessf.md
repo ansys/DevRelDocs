@@ -11,18 +11,20 @@
 
 ## Members
 
-* [syscregisterinputscalarvariableaccessf](interfacefortran_1_1syscregisterinputscalarvariableaccessf.md#interfacefortran_1_1syscregisterinputscalarvariableaccessf_1a781a38cbb1f09d5a1bcb0f05402165de)
+* [syscregisterinputscalarvariableaccessf](interfacefortran_1_1syscregisterinputscalarvariableaccessf.md#interfacefortran_1_1syscregisterinputscalarvariableaccessf_1a0d5747395b2bba82c3fec0b6c8c1d29f)
 
 ## Public functions
 
-<a id="interfacefortran_1_1syscregisterinputscalarvariableaccessf_1a781a38cbb1f09d5a1bcb0f05402165de"></a>
+<a id="interfacefortran_1_1syscregisterinputscalarvariableaccessf_1a0d5747395b2bba82c3fec0b6c8c1d29f"></a>
 ### Function syscregisterinputscalarvariableaccessf
 
 ![][public]
 
+
 ```fortran
-type(syscerrorf) function syscregisterinputscalarvariableaccessf(isvAccess)
+type(syscerrorf) function syscregisterinputscalarvariableaccessf(isvaccess)
 ```
+
 
 
 
@@ -32,7 +34,7 @@ type(syscerrorf) function syscregisterinputscalarvariableaccessf(isvAccess)
 
 **Parameters**:
 
-* isvAccessisvAccess
+* isvaccessprocedure([inputscalardataaccessintf](interfacefortran_1_1inputscalardataaccessintf.md#interfacefortran_1_1inputscalardataaccessintf))
 
 **Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
 

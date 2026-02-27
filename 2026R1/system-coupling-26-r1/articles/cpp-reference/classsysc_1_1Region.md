@@ -13,14 +13,14 @@ Participant can declare which regions can be used in the coupled analysis. Each 
 
 * [addInputVariable](classsysc_1_1Region.md#classsysc_1_1Region_1a018cbfef9eee8c3d2cd3b20084783390)
 * [addOutputVariable](classsysc_1_1Region.md#classsysc_1_1Region_1a96143a5b4d943e47d335d74fa1f827be)
-* [getDisplayName](classsysc_1_1Region.md#classsysc_1_1Region_1a11125400c1f87ced8251759d2ff84c1b)
-* [getInputVariable](classsysc_1_1Region.md#classsysc_1_1Region_1a724b202ad1c95f18e0c01e9b962c8eed)
-* [getInputVariable](classsysc_1_1Region.md#classsysc_1_1Region_1a15d47e3c4989a29033ba306b186e0c50)
-* [getName](classsysc_1_1Region.md#classsysc_1_1Region_1a027b247f71dca6060a9d4f8fe029b690)
+* [getDisplayName](classsysc_1_1Region.md#classsysc_1_1Region_1a540f90127c8c96d04b7ed4eeaaa25ef0)
+* [getInputVariable](classsysc_1_1Region.md#classsysc_1_1Region_1a5d6cb2b4910d0c45b8a0143015d4646c)
+* [getInputVariable](classsysc_1_1Region.md#classsysc_1_1Region_1ac65f50843c983cb16e166af21c2268af)
+* [getName](classsysc_1_1Region.md#classsysc_1_1Region_1aa388e994e2e4392035b92f1090bd5b5f)
 * [getNumInputVariables](classsysc_1_1Region.md#classsysc_1_1Region_1ac7632c3c0b045c7baf3aef7aaa7a4c86)
 * [getNumOutputVariables](classsysc_1_1Region.md#classsysc_1_1Region_1ada5d320ba7226a798ac5683fd878035a)
-* [getOutputVariable](classsysc_1_1Region.md#classsysc_1_1Region_1a7ebc9675c1f8e56560409233469e4932)
-* [getOutputVariable](classsysc_1_1Region.md#classsysc_1_1Region_1aabcde4869fae1d5f3bed4a4ee7277ef9)
+* [getOutputVariable](classsysc_1_1Region.md#classsysc_1_1Region_1affb8d00a64339c0c65e7db9c7d1d2797)
+* [getOutputVariable](classsysc_1_1Region.md#classsysc_1_1Region_1a732fe2faeab2833bfa77380703e0da79)
 * [getRegionDiscretizationType](classsysc_1_1Region.md#classsysc_1_1Region_1a25fc09a4236bf1cefbac4e5ff4b9736b)
 * [getTopology](classsysc_1_1Region.md#classsysc_1_1Region_1a55d078aeaec8518bbe4468e41a053c1c)
 * [m\_displayName](classsysc_1_1Region.md#classsysc_1_1Region_1a6460145dc80b90b3b03a82dec4638d50)
@@ -48,6 +48,7 @@ Participant can declare which regions can be used in the coupled analysis. Each 
 
 **Definition**: `Region.hpp` (line 206)
 
+
 ```cpp
 RegionName sysc::Region::m_name
 ```
@@ -58,7 +59,8 @@ RegionName sysc::Region::m_name
 
 
 
-**Type**: [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad700042fb75659f4591c4dae6560a62d)
+
+**Type**: [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga9bdc82c1ffda4e71e561435ff5743d80)
 
 <a id="classsysc_1_1Region_1af75329d37083b141a9414d0b52947ddb"></a>
 ### Variable m\_topology
@@ -67,9 +69,11 @@ RegionName sysc::Region::m_name
 
 **Definition**: `Region.hpp` (line 207)
 
+
 ```cpp
 Topology sysc::Region::m_topology
 ```
+
 
 
 
@@ -86,9 +90,11 @@ Topology sysc::Region::m_topology
 
 **Definition**: `Region.hpp` (line 208)
 
+
 ```cpp
 RegionDiscretizationType sysc::Region::m_regionDiscretizationType
 ```
+
 
 
 
@@ -105,6 +111,7 @@ RegionDiscretizationType sysc::Region::m_regionDiscretizationType
 
 **Definition**: `Region.hpp` (line 209)
 
+
 ```cpp
 DisplayName sysc::Region::m_displayName
 ```
@@ -115,7 +122,8 @@ DisplayName sysc::Region::m_displayName
 
 
 
-**Type**: [DisplayName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga708d69b0e949d6a42b6a0d7885eed90f)
+
+**Type**: [DisplayName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga796c7c19b4b350965c7e8249733dda29)
 
 <a id="classsysc_1_1Region_1ab94aeee1a7a34bc4fb209696d9c7cfe6"></a>
 ### Variable m\_side0Regions
@@ -124,9 +132,11 @@ DisplayName sysc::Region::m_displayName
 
 **Definition**: `Region.hpp` (line 211)
 
+
 ```cpp
 std::vector<Region> sysc::Region::m_side0Regions
 ```
+
 
 
 
@@ -143,9 +153,11 @@ std::vector<Region> sysc::Region::m_side0Regions
 
 **Definition**: `Region.hpp` (line 212)
 
+
 ```cpp
 std::vector<Region> sysc::Region::m_side1Regions
 ```
+
 
 
 
@@ -162,9 +174,11 @@ std::vector<Region> sysc::Region::m_side1Regions
 
 **Definition**: `Region.hpp` (line 214)
 
+
 ```cpp
 std::vector<Variable> sysc::Region::m_inputVariables
 ```
+
 
 
 
@@ -181,6 +195,7 @@ std::vector<Variable> sysc::Region::m_inputVariables
 
 **Definition**: `Region.hpp` (line 215)
 
+
 ```cpp
 std::map<VariableName, std::size_t> sysc::Region::m_inputVarNameToIndex
 ```
@@ -191,7 +206,8 @@ std::map<VariableName, std::size_t> sysc::Region::m_inputVarNameToIndex
 
 
 
-**Type**: std::map< [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga500337cdc8405b3e819ca3623bb44266), std::size_t >
+
+**Type**: std::map< [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gae0e04e97184eb0498ef2c5889482f226), std::size_t >
 
 <a id="classsysc_1_1Region_1aac4f111d98926f0310b10b2df3c3d0a0"></a>
 ### Variable m\_outputVariables
@@ -200,9 +216,11 @@ std::map<VariableName, std::size_t> sysc::Region::m_inputVarNameToIndex
 
 **Definition**: `Region.hpp` (line 217)
 
+
 ```cpp
 std::vector<Variable> sysc::Region::m_outputVariables
 ```
+
 
 
 
@@ -219,6 +237,7 @@ std::vector<Variable> sysc::Region::m_outputVariables
 
 **Definition**: `Region.hpp` (line 218)
 
+
 ```cpp
 std::map<VariableName, std::size_t> sysc::Region::m_outputVarNameToIndex
 ```
@@ -229,7 +248,8 @@ std::map<VariableName, std::size_t> sysc::Region::m_outputVarNameToIndex
 
 
 
-**Type**: std::map< [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga500337cdc8405b3e819ca3623bb44266), std::size_t >
+
+**Type**: std::map< [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gae0e04e97184eb0498ef2c5889482f226), std::size_t >
 
 ## Public functions
 
@@ -238,9 +258,11 @@ std::map<VariableName, std::size_t> sysc::Region::m_outputVarNameToIndex
 
 ![][public]
 
+
 ```cpp
 sysc::Region::Region(const RegionName &name)
 ```
+
 
 Create region to be used in a coupled analysis.
 
@@ -254,7 +276,7 @@ Display name will default to the same as name.
 
 
 
-Topology will default to surface.
+[Topology](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gadbbc75f28fce0c9b5b31fa64bb8b1e39) will default to surface.
 
 
 
@@ -266,18 +288,24 @@ Topology will default to surface.
 
 **Parameters**:
 
-* const [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad700042fb75659f4591c4dae6560a62d) & **name**
+* const [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga9bdc82c1ffda4e71e561435ff5743d80) & **name**
 
 **Return type**: 
+
+**Referenced by**:
+
+* [getInputVariable](classsysc_1_1Region.md#classsysc_1_1Region_1ac65f50843c983cb16e166af21c2268af)
 
 <a id="classsysc_1_1Region_1a2252ae93ab73cff96e3ba621d9e29171"></a>
 ### Function Region
 
 ![][public]
 
+
 ```cpp
 sysc::Region::Region(const RegionName &name, enum Topology topology)
 ```
+
 
 Create region to be used in a coupled analysis.
 
@@ -298,7 +326,7 @@ Display name will default to the same as name.
 
 **Parameters**:
 
-* const [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad700042fb75659f4591c4dae6560a62d) & **name**
+* const [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga9bdc82c1ffda4e71e561435ff5743d80) & **name**
 * enum [Topology](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gadbbc75f28fce0c9b5b31fa64bb8b1e39) **topology**
 
 **Return type**: 
@@ -308,9 +336,11 @@ Display name will default to the same as name.
 
 ![][public]
 
+
 ```cpp
 sysc::Region::Region(const RegionName &name, enum Topology topology, const DisplayName &displayName)
 ```
+
 
 Create region to be used in a coupled analysis.
 
@@ -326,9 +356,9 @@ Mesh type will default to mesh.
 
 **Parameters**:
 
-* const [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad700042fb75659f4591c4dae6560a62d) & **name**
+* const [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga9bdc82c1ffda4e71e561435ff5743d80) & **name**
 * enum [Topology](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gadbbc75f28fce0c9b5b31fa64bb8b1e39) **topology**
-* const [DisplayName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga708d69b0e949d6a42b6a0d7885eed90f) & **displayName**
+* const [DisplayName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga796c7c19b4b350965c7e8249733dda29) & **displayName**
 
 **Return type**: 
 
@@ -337,9 +367,11 @@ Mesh type will default to mesh.
 
 ![][public]
 
+
 ```cpp
 sysc::Region::Region(const RegionName &name, enum Topology topology, enum RegionDiscretizationType regionDiscretizationType)
 ```
+
 
 Create region to be used in a coupled analysis.
 
@@ -355,7 +387,7 @@ Display name will default to the same as name.
 
 **Parameters**:
 
-* const [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad700042fb75659f4591c4dae6560a62d) & **name**
+* const [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga9bdc82c1ffda4e71e561435ff5743d80) & **name**
 * enum [Topology](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gadbbc75f28fce0c9b5b31fa64bb8b1e39) **topology**
 * enum [RegionDiscretizationType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga59080d26b5838a6c678ee5f0d6ff63a4) **regionDiscretizationType**
 
@@ -366,9 +398,11 @@ Display name will default to the same as name.
 
 ![][public]
 
+
 ```cpp
 sysc::Region::Region(const RegionName &name, enum Topology topology, const DisplayName &displayName, enum RegionDiscretizationType regionDiscretizationType)
 ```
+
 
 Create region to be used in a coupled analysis.
 
@@ -383,9 +417,9 @@ Create region to be used in a coupled analysis.
 
 **Parameters**:
 
-* const [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad700042fb75659f4591c4dae6560a62d) & **name**
+* const [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga9bdc82c1ffda4e71e561435ff5743d80) & **name**
 * enum [Topology](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gadbbc75f28fce0c9b5b31fa64bb8b1e39) **topology**
-* const [DisplayName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga708d69b0e949d6a42b6a0d7885eed90f) & **displayName**
+* const [DisplayName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga796c7c19b4b350965c7e8249733dda29) & **displayName**
 * enum [RegionDiscretizationType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga59080d26b5838a6c678ee5f0d6ff63a4) **regionDiscretizationType**
 
 **Return type**: 
@@ -395,9 +429,11 @@ Create region to be used in a coupled analysis.
 
 ![][public]
 
+
 ```cpp
 void sysc::Region::addInputVariable(const Variable &variable)
 ```
+
 
 Provide a method to add an input variable to the region.
 
@@ -449,9 +485,11 @@ If the region discretization type is point cloud, then the location of the varia
 
 ![][public]
 
+
 ```cpp
 void sysc::Region::addOutputVariable(const Variable &variable)
 ```
+
 
 Provide a method to add an output variable to the region.
 
@@ -498,15 +536,17 @@ If the region discretization type is point cloud, then the location of the varia
 
 **Return type**: void
 
-<a id="classsysc_1_1Region_1a027b247f71dca6060a9d4f8fe029b690"></a>
+<a id="classsysc_1_1Region_1aa388e994e2e4392035b92f1090bd5b5f"></a>
 ### Function getName
 
 ![][public]
 ![][const]
 
+
 ```cpp
-const RegionName& sysc::Region::getName() const noexcept
+const RegionName & sysc::Region::getName() const noexcept
 ```
+
 
 Get the region's name.
 
@@ -516,7 +556,7 @@ Return value is the region's unique name (string).
 
 
 
-**Return type**: const [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad700042fb75659f4591c4dae6560a62d) &
+**Return type**: const [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga9bdc82c1ffda4e71e561435ff5743d80) &
 
 <a id="classsysc_1_1Region_1a55d078aeaec8518bbe4468e41a053c1c"></a>
 ### Function getTopology
@@ -524,9 +564,11 @@ Return value is the region's unique name (string).
 ![][public]
 ![][const]
 
+
 ```cpp
 Topology sysc::Region::getTopology() const noexcept
 ```
+
 
 Get the region's topology.
 
@@ -538,15 +580,25 @@ Return value is the topology of this region.
 
 **Return type**: [Topology](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gadbbc75f28fce0c9b5b31fa64bb8b1e39)
 
-<a id="classsysc_1_1Region_1a11125400c1f87ced8251759d2ff84c1b"></a>
+**References**:
+
+* [getTopology](classsysc_1_1Region.md#classsysc_1_1Region_1a55d078aeaec8518bbe4468e41a053c1c)
+
+**Referenced by**:
+
+* [getTopology](classsysc_1_1Region.md#classsysc_1_1Region_1a55d078aeaec8518bbe4468e41a053c1c)
+
+<a id="classsysc_1_1Region_1a540f90127c8c96d04b7ed4eeaaa25ef0"></a>
 ### Function getDisplayName
 
 ![][public]
 ![][const]
 
+
 ```cpp
-const DisplayName& sysc::Region::getDisplayName() const noexcept
+const DisplayName & sysc::Region::getDisplayName() const noexcept
 ```
+
 
 Get the region's display name.
 
@@ -556,7 +608,15 @@ Return value is the display name of this region.
 
 
 
-**Return type**: const [DisplayName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga708d69b0e949d6a42b6a0d7885eed90f) &
+**Return type**: const [DisplayName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga796c7c19b4b350965c7e8249733dda29) &
+
+**References**:
+
+* [getDisplayName](classsysc_1_1Region.md#classsysc_1_1Region_1a540f90127c8c96d04b7ed4eeaaa25ef0)
+
+**Referenced by**:
+
+* [getDisplayName](classsysc_1_1Region.md#classsysc_1_1Region_1a540f90127c8c96d04b7ed4eeaaa25ef0)
 
 <a id="classsysc_1_1Region_1a25fc09a4236bf1cefbac4e5ff4b9736b"></a>
 ### Function getRegionDiscretizationType
@@ -564,9 +624,11 @@ Return value is the display name of this region.
 ![][public]
 ![][const]
 
+
 ```cpp
 RegionDiscretizationType sysc::Region::getRegionDiscretizationType() const noexcept
 ```
+
 
 Get the region's mesh type.
 
@@ -578,15 +640,25 @@ Return value is the mesh type of this region.
 
 **Return type**: [RegionDiscretizationType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga59080d26b5838a6c678ee5f0d6ff63a4)
 
-<a id="classsysc_1_1Region_1a724b202ad1c95f18e0c01e9b962c8eed"></a>
+**References**:
+
+* [getRegionDiscretizationType](classsysc_1_1Region.md#classsysc_1_1Region_1a25fc09a4236bf1cefbac4e5ff4b9736b)
+
+**Referenced by**:
+
+* [getRegionDiscretizationType](classsysc_1_1Region.md#classsysc_1_1Region_1a25fc09a4236bf1cefbac4e5ff4b9736b)
+
+<a id="classsysc_1_1Region_1a5d6cb2b4910d0c45b8a0143015d4646c"></a>
 ### Function getInputVariable
 
 ![][public]
 ![][const]
 
+
 ```cpp
-const Variable& sysc::Region::getInputVariable(const VariableName &name) const
+const Variable & sysc::Region::getInputVariable(const VariableName &name) const
 ```
+
 
 Get the region's input variable by name.
 
@@ -603,19 +675,30 @@ Return is the [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) object 
 
 **Parameters**:
 
-* const [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga500337cdc8405b3e819ca3623bb44266) & **name**
+* const [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gae0e04e97184eb0498ef2c5889482f226) & **name**
 
 **Return type**: const [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) &
 
-<a id="classsysc_1_1Region_1a7ebc9675c1f8e56560409233469e4932"></a>
+**References**:
+
+* [getInputVariable](classsysc_1_1Region.md#classsysc_1_1Region_1a5d6cb2b4910d0c45b8a0143015d4646c)
+
+**Referenced by**:
+
+* [getInputVariable](classsysc_1_1Region.md#classsysc_1_1Region_1a5d6cb2b4910d0c45b8a0143015d4646c)
+* [getInputVariable](classsysc_1_1Region.md#classsysc_1_1Region_1ac65f50843c983cb16e166af21c2268af)
+
+<a id="classsysc_1_1Region_1affb8d00a64339c0c65e7db9c7d1d2797"></a>
 ### Function getOutputVariable
 
 ![][public]
 ![][const]
 
+
 ```cpp
-const Variable& sysc::Region::getOutputVariable(const VariableName &name) const
+const Variable & sysc::Region::getOutputVariable(const VariableName &name) const
 ```
+
 
 Get the region's output variable by name.
 
@@ -632,9 +715,18 @@ Return is the [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) object 
 
 **Parameters**:
 
-* const [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga500337cdc8405b3e819ca3623bb44266) & **name**
+* const [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gae0e04e97184eb0498ef2c5889482f226) & **name**
 
 **Return type**: const [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) &
+
+**References**:
+
+* [getOutputVariable](classsysc_1_1Region.md#classsysc_1_1Region_1affb8d00a64339c0c65e7db9c7d1d2797)
+
+**Referenced by**:
+
+* [getOutputVariable](classsysc_1_1Region.md#classsysc_1_1Region_1affb8d00a64339c0c65e7db9c7d1d2797)
+* [getOutputVariable](classsysc_1_1Region.md#classsysc_1_1Region_1a732fe2faeab2833bfa77380703e0da79)
 
 <a id="classsysc_1_1Region_1ada5d320ba7226a798ac5683fd878035a"></a>
 ### Function getNumOutputVariables
@@ -642,9 +734,11 @@ Return is the [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) object 
 ![][public]
 ![][const]
 
+
 ```cpp
 std::size_t sysc::Region::getNumOutputVariables() const noexcept
 ```
+
 
 Provide a method to get number of output variables for this region.
 
@@ -654,15 +748,25 @@ Provide a method to get number of output variables for this region.
 
 **Return type**: std::size_t
 
+**References**:
+
+* [getNumOutputVariables](classsysc_1_1Region.md#classsysc_1_1Region_1ada5d320ba7226a798ac5683fd878035a)
+
+**Referenced by**:
+
+* [getNumOutputVariables](classsysc_1_1Region.md#classsysc_1_1Region_1ada5d320ba7226a798ac5683fd878035a)
+
 <a id="classsysc_1_1Region_1ac7632c3c0b045c7baf3aef7aaa7a4c86"></a>
 ### Function getNumInputVariables
 
 ![][public]
 ![][const]
 
+
 ```cpp
 std::size_t sysc::Region::getNumInputVariables() const noexcept
 ```
+
 
 Provide a method to get number of input variables for this region.
 
@@ -672,15 +776,25 @@ Provide a method to get number of input variables for this region.
 
 **Return type**: std::size_t
 
-<a id="classsysc_1_1Region_1aabcde4869fae1d5f3bed4a4ee7277ef9"></a>
+**References**:
+
+* [getNumInputVariables](classsysc_1_1Region.md#classsysc_1_1Region_1ac7632c3c0b045c7baf3aef7aaa7a4c86)
+
+**Referenced by**:
+
+* [getNumInputVariables](classsysc_1_1Region.md#classsysc_1_1Region_1ac7632c3c0b045c7baf3aef7aaa7a4c86)
+
+<a id="classsysc_1_1Region_1a732fe2faeab2833bfa77380703e0da79"></a>
 ### Function getOutputVariable
 
 ![][public]
 ![][const]
 
+
 ```cpp
-const Variable& sysc::Region::getOutputVariable(std::size_t index) const
+const Variable & sysc::Region::getOutputVariable(std::size_t index) const
 ```
+
 
 Get the region's output variable by index.
 
@@ -694,15 +808,21 @@ Get the region's output variable by index.
 
 **Return type**: const [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) &
 
-<a id="classsysc_1_1Region_1a15d47e3c4989a29033ba306b186e0c50"></a>
+**References**:
+
+* [getOutputVariable](classsysc_1_1Region.md#classsysc_1_1Region_1affb8d00a64339c0c65e7db9c7d1d2797)
+
+<a id="classsysc_1_1Region_1ac65f50843c983cb16e166af21c2268af"></a>
 ### Function getInputVariable
 
 ![][public]
 ![][const]
 
+
 ```cpp
-const Variable& sysc::Region::getInputVariable(std::size_t index) const
+const Variable & sysc::Region::getInputVariable(std::size_t index) const
 ```
+
 
 Get the region's input variable by index.
 
@@ -716,7 +836,12 @@ Get the region's input variable by index.
 
 **Return type**: const [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) &
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+**References**:
+
+* [getInputVariable](classsysc_1_1Region.md#classsysc_1_1Region_1a5d6cb2b4910d0c45b8a0143015d4646c)
+* [Region](classsysc_1_1Region.md#classsysc_1_1Region_1a9a3643efd6eb393f07a5e0db931dc71d)
+
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

@@ -7,7 +7,7 @@
 
 Provide a struct for a coupling interface.
 
-Coupling interface can be used to set up the transfers of data between different regions within the same participant solver. Interface contains two sides and each side can contain one or more regions. Data transfers are automatically defined: if a variable is defined as an output on all regions on one side of the interface and as an input on all regions on the opposide side of the interface, then it will be mapped from the former side to the latter side.
+Coupling interface can be used to set up the transfers of data between different regions within the same participant solver. Interface contains two sides and each side can contain one or more regions. Data transfers are automatically defined: if a variable is defined as an output on all regions on one side of the interface and as an input on all regions on the opposite side of the interface, then it will be mapped from the former side to the latter side.
 
 
 
@@ -25,9 +25,10 @@ To create and/or initialize the SyscCouplingInterface struct, it is highly recom
 
 
 
+
 ```fortran
 type(SyscCouplingInterfaceF) :: interface
-interface = syscGetCouplingInterfaceF("FSI")
+interface = syscgetcouplinginterfacef()
 ```
 
 ## Members
@@ -43,9 +44,11 @@ interface = syscGetCouplingInterfaceF("FSI")
 
 **Definition**: `syscCouplingInterfaceF.fi` (line 35)
 
+
 ```fortran
 character(len=syscstrlen) name
 ```
+
 
 Unique name for the interface.
 

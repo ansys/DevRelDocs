@@ -15,17 +15,17 @@ Provide a class for a System Coupling variable.
 * [addRealAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1ab296b04988b750113600bcc4e302ae3c)
 * [addStringAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1a9ea91498c43af1c2f00d5009066179a0)
 * [getDataType](classsysc_1_1Variable.md#classsysc_1_1Variable_1aa65c2a0ffe7c327972721faf2bffc5b7)
-* [getDisplayName](classsysc_1_1Variable.md#classsysc_1_1Variable_1a37a842b3aa77535ddf81b3fb09c557e6)
-* [getIntegerAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1a7cbb6bced0257ebb7da8d709dbd05a30)
+* [getDisplayName](classsysc_1_1Variable.md#classsysc_1_1Variable_1a71d5ce55a120a9caf354f0a090310630)
+* [getIntegerAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1add13bbb2a118b3ccc422064306d0f699)
 * [getIsExtensive](classsysc_1_1Variable.md#classsysc_1_1Variable_1a2ecc01f958aa92f721ab45546581bb26)
 * [getLocation](classsysc_1_1Variable.md#classsysc_1_1Variable_1a3655299cf3b151d9fc30b4f5a47ca8fb)
-* [getName](classsysc_1_1Variable.md#classsysc_1_1Variable_1ab138ad8ce29f89d62b7b5c1a4c496e19)
+* [getName](classsysc_1_1Variable.md#classsysc_1_1Variable_1a2c37366f85390886d8ee750b4f7259cd)
 * [getNumIntegerAttributes](classsysc_1_1Variable.md#classsysc_1_1Variable_1a9a427e97dd6a88dae5e89ca7e640eba7)
 * [getNumRealAttributes](classsysc_1_1Variable.md#classsysc_1_1Variable_1ae04462134077986b650ee9c6df9e5151)
 * [getNumStringAttributes](classsysc_1_1Variable.md#classsysc_1_1Variable_1a4c25e6fa00d5fc8469516eb233c65910)
 * [getQuantityType](classsysc_1_1Variable.md#classsysc_1_1Variable_1a2fc80063d66ac8c7ed567e2e6ed3e568)
-* [getRealAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1adcebefb4b9e4c203ab09ee1114daad33)
-* [getStringAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1af48e1b411aad8440de1f391cc903b33c)
+* [getRealAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1a728789ac00c9d84c838f952d3d5c73b8)
+* [getStringAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1abcb59cef14944478be0294eb7b004532)
 * [getTensorType](classsysc_1_1Variable.md#classsysc_1_1Variable_1a3c019c1e2e4741e8ab87c8a8cd4f6d80)
 * [m\_dataType](classsysc_1_1Variable.md#classsysc_1_1Variable_1ac4eb02f9edaa4e49766aa9cb2e2774db)
 * [m\_displayName](classsysc_1_1Variable.md#classsysc_1_1Variable_1aae9c23878a85cd1118ab8dead6707585)
@@ -53,9 +53,11 @@ Provide a class for a System Coupling variable.
 
 **Definition**: `Variable.hpp` (line 236)
 
+
 ```cpp
 VariableName sysc::Variable::m_name
 ```
+
 
 
 
@@ -63,7 +65,7 @@ Unique name for this variable.
 
 
 
-**Type**: [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga500337cdc8405b3e819ca3623bb44266)
+**Type**: [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gae0e04e97184eb0498ef2c5889482f226)
 
 <a id="classsysc_1_1Variable_1a2bd0ba4f561b8d54176123bb0ef19f9c"></a>
 ### Variable m\_quantityType
@@ -72,9 +74,11 @@ Unique name for this variable.
 
 **Definition**: `Variable.hpp` (line 237)
 
+
 ```cpp
 QuantityType sysc::Variable::m_quantityType
 ```
+
 
 
 
@@ -91,13 +95,15 @@ Quantity type (e.g. temperature)
 
 **Definition**: `Variable.hpp` (line 238)
 
+
 ```cpp
 Location sysc::Variable::m_location
 ```
 
 
 
-Location (e.g element or node).
+
+[Location](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaced2664a481a6250f46140266dd38c2a) (e.g element or node).
 
 
 
@@ -110,9 +116,11 @@ Location (e.g element or node).
 
 **Definition**: `Variable.hpp` (line 239)
 
+
 ```cpp
 DisplayName sysc::Variable::m_displayName
 ```
+
 
 
 
@@ -120,7 +128,7 @@ User-friendly name.
 
 
 
-**Type**: [DisplayName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga708d69b0e949d6a42b6a0d7885eed90f)
+**Type**: [DisplayName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga796c7c19b4b350965c7e8249733dda29)
 
 <a id="classsysc_1_1Variable_1af2dde3c98eebacd5b74e684877fe8782"></a>
 ### Variable m\_tensorType
@@ -129,9 +137,11 @@ User-friendly name.
 
 **Definition**: `Variable.hpp` (line 240)
 
+
 ```cpp
 TensorType sysc::Variable::m_tensorType
 ```
+
 
 
 
@@ -148,9 +158,11 @@ Tensor type (e.g. scalar, vector).
 
 **Definition**: `Variable.hpp` (line 241)
 
+
 ```cpp
 bool sysc::Variable::m_isExtensive
 ```
+
 
 
 
@@ -167,9 +179,11 @@ Extensive property flag.
 
 **Definition**: `Variable.hpp` (line 242)
 
+
 ```cpp
 DataType sysc::Variable::m_dataType
 ```
+
 
 
 
@@ -186,9 +200,11 @@ Data type (e.g. real, complex).
 
 **Definition**: `Variable.hpp` (line 244)
 
+
 ```cpp
 std::vector<RealAttribute> sysc::Variable::m_realAttributes
 ```
+
 
 
 
@@ -205,9 +221,11 @@ std::vector<RealAttribute> sysc::Variable::m_realAttributes
 
 **Definition**: `Variable.hpp` (line 245)
 
+
 ```cpp
 std::vector<IntegerAttribute> sysc::Variable::m_integerAttributes
 ```
+
 
 
 
@@ -224,9 +242,11 @@ std::vector<IntegerAttribute> sysc::Variable::m_integerAttributes
 
 **Definition**: `Variable.hpp` (line 246)
 
+
 ```cpp
 std::vector<StringAttribute> sysc::Variable::m_stringAttributes
 ```
+
 
 
 
@@ -243,9 +263,11 @@ std::vector<StringAttribute> sysc::Variable::m_stringAttributes
 
 ![][public]
 
+
 ```cpp
 sysc::Variable::Variable(const VariableName &name)
 ```
+
 
 Provide a constructor for the [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) class.
 
@@ -271,7 +293,7 @@ Is extensive flag will default to false (to non-extensive).
 
 
 
-Location will default to nodes.
+[Location](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaced2664a481a6250f46140266dd38c2a) will default to nodes.
 
 
 
@@ -283,13 +305,13 @@ Quantity type will default to unspecified.
 
 
 
-DataType will default to real.
+[DataType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga8c2b9557240fd9b2f908c98e3b1b27d3) will default to real.
 
 
 
 **Parameters**:
 
-* const [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga500337cdc8405b3e819ca3623bb44266) & **name**
+* const [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gae0e04e97184eb0498ef2c5889482f226) & **name**
 
 **Return type**: 
 
@@ -298,9 +320,11 @@ DataType will default to real.
 
 ![][public]
 
+
 ```cpp
 sysc::Variable::Variable(const VariableName &name, enum TensorType tensorType, bool isExtensive, enum Location location)
 ```
+
 
 Provide a constructor for the [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) class.
 
@@ -323,13 +347,13 @@ Quantity type will default to unspecified.
 
 
 
-DataType will default to real.
+[DataType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga8c2b9557240fd9b2f908c98e3b1b27d3) will default to real.
 
 
 
 **Parameters**:
 
-* const [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga500337cdc8405b3e819ca3623bb44266) & **name**
+* const [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gae0e04e97184eb0498ef2c5889482f226) & **name**
 * enum [TensorType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga8f85e1fca4e3c3d086644ea6fb4b8fb7) **tensorType**
 * bool **isExtensive**
 * enum [Location](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaced2664a481a6250f46140266dd38c2a) **location**
@@ -341,9 +365,11 @@ DataType will default to real.
 
 ![][public]
 
+
 ```cpp
 sysc::Variable::Variable(const VariableName &name, enum TensorType tensorType, bool isExtensive, enum Location location, enum DataType dataType)
 ```
+
 
 Provide a constructor for the [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) class.
 
@@ -367,7 +393,7 @@ Quantity type will default to unspecified.
 
 **Parameters**:
 
-* const [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga500337cdc8405b3e819ca3623bb44266) & **name**
+* const [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gae0e04e97184eb0498ef2c5889482f226) & **name**
 * enum [TensorType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga8f85e1fca4e3c3d086644ea6fb4b8fb7) **tensorType**
 * bool **isExtensive**
 * enum [Location](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaced2664a481a6250f46140266dd38c2a) **location**
@@ -380,9 +406,11 @@ Quantity type will default to unspecified.
 
 ![][public]
 
+
 ```cpp
 sysc::Variable::Variable(const VariableName &name, const DisplayName &displayName, enum TensorType tensorType, bool isExtensive, enum Location location, enum QuantityType quantityType)
 ```
+
 
 Provide a constructor for the [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) class.
 
@@ -395,14 +423,14 @@ Provide a constructor for the [Variable](classsysc_1_1Variable.md#classsysc_1_1V
 * **location**: - variable location (e.g element or node).
 * **quantityType**: - Quantity type of this variable.
 
-DataType will default to real.
+[DataType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga8c2b9557240fd9b2f908c98e3b1b27d3) will default to real.
 
 
 
 **Parameters**:
 
-* const [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga500337cdc8405b3e819ca3623bb44266) & **name**
-* const [DisplayName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga708d69b0e949d6a42b6a0d7885eed90f) & **displayName**
+* const [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gae0e04e97184eb0498ef2c5889482f226) & **name**
+* const [DisplayName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga796c7c19b4b350965c7e8249733dda29) & **displayName**
 * enum [TensorType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga8f85e1fca4e3c3d086644ea6fb4b8fb7) **tensorType**
 * bool **isExtensive**
 * enum [Location](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaced2664a481a6250f46140266dd38c2a) **location**
@@ -415,9 +443,11 @@ DataType will default to real.
 
 ![][public]
 
+
 ```cpp
 sysc::Variable::Variable(const VariableName &name, const DisplayName &displayName, enum TensorType tensorType, bool isExtensive, enum Location location, enum QuantityType quantityType, enum DataType dataType)
 ```
+
 
 Provide a constructor for the [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) class.
 
@@ -435,8 +465,8 @@ Provide a constructor for the [Variable](classsysc_1_1Variable.md#classsysc_1_1V
 
 **Parameters**:
 
-* const [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga500337cdc8405b3e819ca3623bb44266) & **name**
-* const [DisplayName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga708d69b0e949d6a42b6a0d7885eed90f) & **displayName**
+* const [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gae0e04e97184eb0498ef2c5889482f226) & **name**
+* const [DisplayName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga796c7c19b4b350965c7e8249733dda29) & **displayName**
 * enum [TensorType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga8f85e1fca4e3c3d086644ea6fb4b8fb7) **tensorType**
 * bool **isExtensive**
 * enum [Location](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaced2664a481a6250f46140266dd38c2a) **location**
@@ -450,9 +480,11 @@ Provide a constructor for the [Variable](classsysc_1_1Variable.md#classsysc_1_1V
 
 ![][public]
 
+
 ```cpp
 sysc::Variable::Variable(const VariableName &name, enum QuantityType quantityType, enum Location location=Node, const DisplayName &displayName=DisplayName())
 ```
+
 
 Provide a constructor for the [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) class.
 
@@ -464,6 +496,7 @@ Provide a constructor for the [Variable](classsysc_1_1Variable.md#classsysc_1_1V
 * **displayName**: - variable display name. This parameter is optional - it will default to the same value as the variable's name.
 
 Note that provided quantity type will determine the value of the tensor type and is extensive parameters. The values will be inferred according to the following rules:
+
 
 
 
@@ -484,34 +517,37 @@ Convection Reference Temperature  Scalar           False
 
 
 
+
 For a more explicit control of tensor type and is extensive values, consider using another constructor.
 
 
 
 
 
-DataType will default to real.
+[DataType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga8c2b9557240fd9b2f908c98e3b1b27d3) will default to real.
 
 
 
 **Parameters**:
 
-* const [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga500337cdc8405b3e819ca3623bb44266) & **name**
+* const [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gae0e04e97184eb0498ef2c5889482f226) & **name**
 * enum [QuantityType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gab4cbdd3230a1cb38956f5b93f941f89b) **quantityType**
 * enum [Location](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaced2664a481a6250f46140266dd38c2a) **location** = Node 
-* const [DisplayName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga708d69b0e949d6a42b6a0d7885eed90f) & **displayName** = [DisplayName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga708d69b0e949d6a42b6a0d7885eed90f)() 
+* const [DisplayName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga796c7c19b4b350965c7e8249733dda29) & **displayName** = [DisplayName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga796c7c19b4b350965c7e8249733dda29)() 
 
 **Return type**: 
 
-<a id="classsysc_1_1Variable_1ab138ad8ce29f89d62b7b5c1a4c496e19"></a>
+<a id="classsysc_1_1Variable_1a2c37366f85390886d8ee750b4f7259cd"></a>
 ### Function getName
 
 ![][public]
 ![][const]
 
+
 ```cpp
-const VariableName& sysc::Variable::getName() const noexcept
+const VariableName & sysc::Variable::getName() const noexcept
 ```
+
 
 Get the variable's name.
 
@@ -521,7 +557,7 @@ Return is the name of this variable (string).
 
 
 
-**Return type**: const [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga500337cdc8405b3e819ca3623bb44266) &
+**Return type**: const [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gae0e04e97184eb0498ef2c5889482f226) &
 
 <a id="classsysc_1_1Variable_1a3c019c1e2e4741e8ab87c8a8cd4f6d80"></a>
 ### Function getTensorType
@@ -529,19 +565,29 @@ Return is the name of this variable (string).
 ![][public]
 ![][const]
 
+
 ```cpp
 enum TensorType sysc::Variable::getTensorType() const noexcept
 ```
+
 
 Get the variable's tensor type.
 
 **Returns**:
 
-Return is the TensorType enum.
+Return is the [TensorType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga8f85e1fca4e3c3d086644ea6fb4b8fb7) enum.
 
 
 
 **Return type**: enum [TensorType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga8f85e1fca4e3c3d086644ea6fb4b8fb7)
+
+**References**:
+
+* [getTensorType](classsysc_1_1Variable.md#classsysc_1_1Variable_1a3c019c1e2e4741e8ab87c8a8cd4f6d80)
+
+**Referenced by**:
+
+* [getTensorType](classsysc_1_1Variable.md#classsysc_1_1Variable_1a3c019c1e2e4741e8ab87c8a8cd4f6d80)
 
 <a id="classsysc_1_1Variable_1a2ecc01f958aa92f721ab45546581bb26"></a>
 ### Function getIsExtensive
@@ -549,9 +595,11 @@ Return is the TensorType enum.
 ![][public]
 ![][const]
 
+
 ```cpp
 bool sysc::Variable::getIsExtensive() const noexcept
 ```
+
 
 The the is extensive boolean for this variable.
 
@@ -563,25 +611,43 @@ Return is the boolean, true if variable is extensive, false otherwise.
 
 **Return type**: bool
 
+**References**:
+
+* [getIsExtensive](classsysc_1_1Variable.md#classsysc_1_1Variable_1a2ecc01f958aa92f721ab45546581bb26)
+
+**Referenced by**:
+
+* [getIsExtensive](classsysc_1_1Variable.md#classsysc_1_1Variable_1a2ecc01f958aa92f721ab45546581bb26)
+
 <a id="classsysc_1_1Variable_1a2fc80063d66ac8c7ed567e2e6ed3e568"></a>
 ### Function getQuantityType
 
 ![][public]
 ![][const]
 
+
 ```cpp
 enum QuantityType sysc::Variable::getQuantityType() const noexcept
 ```
+
 
 Get the variable's quantity type.
 
 **Returns**:
 
-Return is the QuantityType struct of this variable.
+Return is the [QuantityType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gab4cbdd3230a1cb38956f5b93f941f89b) struct of this variable.
 
 
 
 **Return type**: enum [QuantityType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gab4cbdd3230a1cb38956f5b93f941f89b)
+
+**References**:
+
+* [getQuantityType](classsysc_1_1Variable.md#classsysc_1_1Variable_1a2fc80063d66ac8c7ed567e2e6ed3e568)
+
+**Referenced by**:
+
+* [getQuantityType](classsysc_1_1Variable.md#classsysc_1_1Variable_1a2fc80063d66ac8c7ed567e2e6ed3e568)
 
 <a id="classsysc_1_1Variable_1a3655299cf3b151d9fc30b4f5a47ca8fb"></a>
 ### Function getLocation
@@ -589,29 +655,41 @@ Return is the QuantityType struct of this variable.
 ![][public]
 ![][const]
 
+
 ```cpp
 enum Location sysc::Variable::getLocation() const noexcept
 ```
+
 
 Get the variable's location.
 
 **Returns**:
 
-Return is Location of this variable.
+Return is [Location](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaced2664a481a6250f46140266dd38c2a) of this variable.
 
 
 
 **Return type**: enum [Location](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaced2664a481a6250f46140266dd38c2a)
 
-<a id="classsysc_1_1Variable_1a37a842b3aa77535ddf81b3fb09c557e6"></a>
+**References**:
+
+* [getLocation](classsysc_1_1Variable.md#classsysc_1_1Variable_1a3655299cf3b151d9fc30b4f5a47ca8fb)
+
+**Referenced by**:
+
+* [getLocation](classsysc_1_1Variable.md#classsysc_1_1Variable_1a3655299cf3b151d9fc30b4f5a47ca8fb)
+
+<a id="classsysc_1_1Variable_1a71d5ce55a120a9caf354f0a090310630"></a>
 ### Function getDisplayName
 
 ![][public]
 ![][const]
 
+
 ```cpp
-const DisplayName& sysc::Variable::getDisplayName() const noexcept
+const DisplayName & sysc::Variable::getDisplayName() const noexcept
 ```
+
 
 Get the variable's display name.
 
@@ -621,7 +699,15 @@ Return is the display name of this variable (string).
 
 
 
-**Return type**: const [DisplayName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga708d69b0e949d6a42b6a0d7885eed90f) &
+**Return type**: const [DisplayName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga796c7c19b4b350965c7e8249733dda29) &
+
+**References**:
+
+* [getDisplayName](classsysc_1_1Variable.md#classsysc_1_1Variable_1a71d5ce55a120a9caf354f0a090310630)
+
+**Referenced by**:
+
+* [getDisplayName](classsysc_1_1Variable.md#classsysc_1_1Variable_1a71d5ce55a120a9caf354f0a090310630)
 
 <a id="classsysc_1_1Variable_1aa65c2a0ffe7c327972721faf2bffc5b7"></a>
 ### Function getDataType
@@ -629,28 +715,40 @@ Return is the display name of this variable (string).
 ![][public]
 ![][const]
 
+
 ```cpp
 enum DataType sysc::Variable::getDataType() const noexcept
 ```
+
 
 Get the variable's data type.
 
 **Returns**:
 
-Return is the DataType enum.
+Return is the [DataType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga8c2b9557240fd9b2f908c98e3b1b27d3) enum.
 
 
 
 **Return type**: enum [DataType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga8c2b9557240fd9b2f908c98e3b1b27d3)
+
+**References**:
+
+* [getDataType](classsysc_1_1Variable.md#classsysc_1_1Variable_1aa65c2a0ffe7c327972721faf2bffc5b7)
+
+**Referenced by**:
+
+* [getDataType](classsysc_1_1Variable.md#classsysc_1_1Variable_1aa65c2a0ffe7c327972721faf2bffc5b7)
 
 <a id="classsysc_1_1Variable_1ab296b04988b750113600bcc4e302ae3c"></a>
 ### Function addRealAttribute
 
 ![][public]
 
+
 ```cpp
 void sysc::Variable::addRealAttribute(const RealAttribute &attribute)
 ```
+
 
 Add a real-valued attribute.
 
@@ -664,14 +762,24 @@ Add a real-valued attribute.
 
 **Return type**: void
 
+**References**:
+
+* [addRealAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1ab296b04988b750113600bcc4e302ae3c)
+
+**Referenced by**:
+
+* [addRealAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1ab296b04988b750113600bcc4e302ae3c)
+
 <a id="classsysc_1_1Variable_1ae6fed92c7d5f748b3e26898af932eb46"></a>
 ### Function addIntegerAttribute
 
 ![][public]
 
+
 ```cpp
 void sysc::Variable::addIntegerAttribute(const IntegerAttribute &attribute)
 ```
+
 
 Add an integer-valued attribute.
 
@@ -685,14 +793,24 @@ Add an integer-valued attribute.
 
 **Return type**: void
 
+**References**:
+
+* [addIntegerAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1ae6fed92c7d5f748b3e26898af932eb46)
+
+**Referenced by**:
+
+* [addIntegerAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1ae6fed92c7d5f748b3e26898af932eb46)
+
 <a id="classsysc_1_1Variable_1a9ea91498c43af1c2f00d5009066179a0"></a>
 ### Function addStringAttribute
 
 ![][public]
 
+
 ```cpp
 void sysc::Variable::addStringAttribute(const StringAttribute &attribute)
 ```
+
 
 Add a string-valued attribute.
 
@@ -706,15 +824,25 @@ Add a string-valued attribute.
 
 **Return type**: void
 
+**References**:
+
+* [addStringAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1a9ea91498c43af1c2f00d5009066179a0)
+
+**Referenced by**:
+
+* [addStringAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1a9ea91498c43af1c2f00d5009066179a0)
+
 <a id="classsysc_1_1Variable_1ae04462134077986b650ee9c6df9e5151"></a>
 ### Function getNumRealAttributes
 
 ![][public]
 ![][const]
 
+
 ```cpp
 std::size_t sysc::Variable::getNumRealAttributes() const noexcept
 ```
+
 
 Returns the number of real-valued attributes.
 
@@ -724,15 +852,25 @@ Returns the number of real-valued attributes.
 
 **Return type**: std::size_t
 
+**References**:
+
+* [getNumRealAttributes](classsysc_1_1Variable.md#classsysc_1_1Variable_1ae04462134077986b650ee9c6df9e5151)
+
+**Referenced by**:
+
+* [getNumRealAttributes](classsysc_1_1Variable.md#classsysc_1_1Variable_1ae04462134077986b650ee9c6df9e5151)
+
 <a id="classsysc_1_1Variable_1a9a427e97dd6a88dae5e89ca7e640eba7"></a>
 ### Function getNumIntegerAttributes
 
 ![][public]
 ![][const]
 
+
 ```cpp
 std::size_t sysc::Variable::getNumIntegerAttributes() const noexcept
 ```
+
 
 Returns the number of integer-valued attributes.
 
@@ -742,15 +880,25 @@ Returns the number of integer-valued attributes.
 
 **Return type**: std::size_t
 
+**References**:
+
+* [getNumIntegerAttributes](classsysc_1_1Variable.md#classsysc_1_1Variable_1a9a427e97dd6a88dae5e89ca7e640eba7)
+
+**Referenced by**:
+
+* [getNumIntegerAttributes](classsysc_1_1Variable.md#classsysc_1_1Variable_1a9a427e97dd6a88dae5e89ca7e640eba7)
+
 <a id="classsysc_1_1Variable_1a4c25e6fa00d5fc8469516eb233c65910"></a>
 ### Function getNumStringAttributes
 
 ![][public]
 ![][const]
 
+
 ```cpp
 std::size_t sysc::Variable::getNumStringAttributes() const noexcept
 ```
+
 
 Returns the number of string-valued attributes.
 
@@ -760,15 +908,25 @@ Returns the number of string-valued attributes.
 
 **Return type**: std::size_t
 
-<a id="classsysc_1_1Variable_1adcebefb4b9e4c203ab09ee1114daad33"></a>
+**References**:
+
+* [getNumStringAttributes](classsysc_1_1Variable.md#classsysc_1_1Variable_1a4c25e6fa00d5fc8469516eb233c65910)
+
+**Referenced by**:
+
+* [getNumStringAttributes](classsysc_1_1Variable.md#classsysc_1_1Variable_1a4c25e6fa00d5fc8469516eb233c65910)
+
+<a id="classsysc_1_1Variable_1a728789ac00c9d84c838f952d3d5c73b8"></a>
 ### Function getRealAttribute
 
 ![][public]
 ![][const]
 
+
 ```cpp
-const RealAttribute& sysc::Variable::getRealAttribute(std::size_t index) const
+const RealAttribute & sysc::Variable::getRealAttribute(std::size_t index) const
 ```
+
 
 Return the real-valued attribute at the given index.
 
@@ -782,15 +940,25 @@ Return the real-valued attribute at the given index.
 
 **Return type**: const [RealAttribute](classsysc_1_1RealAttribute.md#classsysc_1_1RealAttribute) &
 
-<a id="classsysc_1_1Variable_1a7cbb6bced0257ebb7da8d709dbd05a30"></a>
+**References**:
+
+* [getRealAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1a728789ac00c9d84c838f952d3d5c73b8)
+
+**Referenced by**:
+
+* [getRealAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1a728789ac00c9d84c838f952d3d5c73b8)
+
+<a id="classsysc_1_1Variable_1add13bbb2a118b3ccc422064306d0f699"></a>
 ### Function getIntegerAttribute
 
 ![][public]
 ![][const]
 
+
 ```cpp
-const IntegerAttribute& sysc::Variable::getIntegerAttribute(std::size_t index) const
+const IntegerAttribute & sysc::Variable::getIntegerAttribute(std::size_t index) const
 ```
+
 
 Return the integer-valued attribute at the given index.
 
@@ -804,15 +972,25 @@ Return the integer-valued attribute at the given index.
 
 **Return type**: const [IntegerAttribute](classsysc_1_1IntegerAttribute.md#classsysc_1_1IntegerAttribute) &
 
-<a id="classsysc_1_1Variable_1af48e1b411aad8440de1f391cc903b33c"></a>
+**References**:
+
+* [getIntegerAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1add13bbb2a118b3ccc422064306d0f699)
+
+**Referenced by**:
+
+* [getIntegerAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1add13bbb2a118b3ccc422064306d0f699)
+
+<a id="classsysc_1_1Variable_1abcb59cef14944478be0294eb7b004532"></a>
 ### Function getStringAttribute
 
 ![][public]
 ![][const]
 
+
 ```cpp
-const StringAttribute& sysc::Variable::getStringAttribute(std::size_t index) const
+const StringAttribute & sysc::Variable::getStringAttribute(std::size_t index) const
 ```
+
 
 Return the string-valued attribute at the given index.
 
@@ -826,7 +1004,15 @@ Return the string-valued attribute at the given index.
 
 **Return type**: const [StringAttribute](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute) &
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+**References**:
+
+* [getStringAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1abcb59cef14944478be0294eb7b004532)
+
+**Referenced by**:
+
+* [getStringAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1abcb59cef14944478be0294eb7b004532)
+
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

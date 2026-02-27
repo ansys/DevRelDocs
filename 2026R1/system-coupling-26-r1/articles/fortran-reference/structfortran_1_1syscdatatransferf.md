@@ -24,9 +24,11 @@ Provide a struct for a data transfer.
 
 **Definition**: `syscDataTransferF.fi` (line 13)
 
+
 ```fortran
 type(syscvariablef) sourcevariable
 ```
+
 
 Source variable.
 
@@ -43,9 +45,11 @@ Source variable.
 
 **Definition**: `syscDataTransferF.fi` (line 14)
 
+
 ```fortran
 type(syscvariablef) targetvariable
 ```
+
 
 Target variable.
 
@@ -62,9 +66,11 @@ Target variable.
 
 **Definition**: `syscDataTransferF.fi` (line 15)
 
+
 ```fortran
 integer(kind=4) targetside
 ```
+
 
 Target side.
 

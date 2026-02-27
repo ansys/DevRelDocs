@@ -20,9 +20,11 @@ Provide an interface to end the analysis and disconnect from System Coupling.
 
 ![][public]
 
+
 ```fortran
 type(syscerrorf) function syscdisconnectf()
 ```
+
 
 Provide a function to end the analysis and disconnect from System Coupling.
 

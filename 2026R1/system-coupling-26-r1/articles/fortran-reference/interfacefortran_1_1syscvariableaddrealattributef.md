@@ -20,6 +20,7 @@ Provide an interface to add real attribute to a variable.
 
 ![][public]
 
+
 ```fortran
 type(syscerrorf) function syscvariableaddrealattributef(variable, attribute)
 ```
@@ -30,10 +31,11 @@ type(syscerrorf) function syscvariableaddrealattributef(variable, attribute)
 
 
 
+
 **Parameters**:
 
-* variablevariable
-* attributeattribute
+* variabletype([syscvariablef](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef))
+* attributetype([syscrealattributef](structfortran_1_1syscrealattributef.md#structfortran_1_1syscrealattributef))
 
 **Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
 

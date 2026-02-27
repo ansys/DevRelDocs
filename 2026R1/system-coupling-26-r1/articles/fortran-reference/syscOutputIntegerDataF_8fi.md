@@ -19,6 +19,7 @@
 
 ## Source
 
+
 ```fortran
 module fortran
 !
@@ -33,14 +34,29 @@ module fortran
 ! *********************************************************************
 !
 ! *********************************************************************
+!> \brief Provide an output integer data access type.
+!!
+!! Output integer data provides read-only access to an array of
+!! integers.
+!! To create and/or initialize SyscOutputIntegerDataF, it is highly
+!! recommended to use one of the functions within 
+!! `syscGetOutputIntegerDataF` interface. These functions will
+!! initialize all members to the correct values and will help to 
+!! avoid back-compatibility issues in the future. For example:
+!!
+!! \code
+!! type(SyscOutputIntegerDataF) :: oid
+!! oid = syscGetOutputIntegerDataF(array, arraySize)
+!! \endcode
 !
 type :: syscoutputintegerdataf
-  integer(kind=8) :: primitivetype
-  integer(kind=8) :: dataptr
-  integer(kind=8) :: datasize
+  integer(kind=8) :: primitivetype !< Primitive type.
+  integer(kind=8) :: dataptr       !< Pointer to the data array.
+  integer(kind=8) :: datasize      !< Array size.
 end type syscoutputintegerdataf
 !
 !**********************************************************************
+!> \brief Provide an interface to get output integer data
 !**********************************************************************
 interface syscgetoutputintegerdataf
 !
@@ -60,6 +76,10 @@ function syscgetoutputintegerdataf() result (ret)
 end function syscgetoutputintegerdataf
 !
 !**********************************************************************
+!> \brief Create an output integer data access type.
+!!
+!! \param[in] data - 32-bit array of integer data.
+!! \param[in] dataSize - number of elements in the array.
 !**********************************************************************
 function syscgetoutputintegerdataf_i4(data, dataSize) result (ret)
 !
@@ -75,6 +95,10 @@ function syscgetoutputintegerdataf_i4(data, dataSize) result (ret)
 end function syscgetoutputintegerdataf_i4
 !
 !**********************************************************************
+!> \brief Create an output integer data access type.
+!!
+!! \param[in] data - 64-bit array of integer data.
+!! \param[in] dataSize - number of elements in the array.
 !**********************************************************************
 function syscgetoutputintegerdataf_i8(data, dataSize) result (ret)
 !
@@ -94,5 +118,7 @@ end interface syscgetoutputintegerdataf
 end module fortran
 ```
 
+
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)
+[Markdown]: https://img.shields.io/badge/language-Markdown-blue (Markdown)

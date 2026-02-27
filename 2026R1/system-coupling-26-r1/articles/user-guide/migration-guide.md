@@ -3,8 +3,27 @@
 Migration guide is provided to help migrate the APIs implementation
 between the releases.
 
+## Migration from pre-2026 R1 releases
+
+### Cannot use integer data to initialize OutputScalarData object (Python only)
+
+Beginning in 2026 R1 System Coupling release, it is no longer possible to put integer data
+into an `OutputScalarData` object when using Python interfaces. For example,
+
+```python
+nodeIds = numpy.array([1,2,3])
+
+# it is no longer possible to create OutputScalarData object using
+# the above nodeIds array
+scp.OutputScalarData(nodeIds)
+
+# instead, use OutputIntegerData object:
+scp.OutputIntegerData(nodeIds)
+```
+
 ## Migration from pre-2025 R2 releases
 
+### ABI=1 migration
 The participant library was updated to use ABI=1 in version 2025 R2 when compiling using the C++ APIs on linux using the G++ compiler.
 The previously required compiler flag, `-D_GLIBCXX_USE_CXX11_ABI=0`, is no longer
 needed. Either update the build command to use `-D_GLIBCXX_USE_CXX11_ABI=1` (the default value) or remove

@@ -11,18 +11,20 @@ Provide an interface to get output complex vector data.
 
 ## Members
 
-* [syscgetoutputcompactcomplexcompactvectordatadimf\_c82d](interfacefortran_1_1syscgetoutputcompactcomplexcompactvectordatadimf.md#interfacefortran_1_1syscgetoutputcompactcomplexcompactvectordatadimf_1ab98a86f80ffbfa887a403c5d6065b455)
+* [syscgetoutputcompactcomplexcompactvectordatadimf\_c82d](interfacefortran_1_1syscgetoutputcompactcomplexcompactvectordatadimf.md#interfacefortran_1_1syscgetoutputcompactcomplexcompactvectordatadimf_1a061060a94e2ecc98efc61e34c8aefde4)
 
 ## Public functions
 
-<a id="interfacefortran_1_1syscgetoutputcompactcomplexcompactvectordatadimf_1ab98a86f80ffbfa887a403c5d6065b455"></a>
+<a id="interfacefortran_1_1syscgetoutputcompactcomplexcompactvectordatadimf_1a061060a94e2ecc98efc61e34c8aefde4"></a>
 ### Function syscgetoutputcompactcomplexcompactvectordatadimf\_c82d
 
 ![][public]
 
+
 ```fortran
-type(syscoutputcomplexvectordataf) function syscgetoutputcompactcomplexcompactvectordatadimf_c82d(data, dataSize, dimension)
+type(syscoutputcomplexvectordataf) function syscgetoutputcompactcomplexcompactvectordatadimf_c82d(data, datasize, dimension)
 ```
+
 
 Create an output complex vector data access type with split storage based on dimension.
 
@@ -36,9 +38,9 @@ Create an output complex vector data access type with split storage based on dim
 
 **Parameters**:
 
-* datadata
-* dataSizedataSize
-* dimensiondimension
+* datacomplex(kind=8), dimension(dimension, datasize), intent(in), target
+* datasizeinteger(kind=8), intent(in)
+* dimensioninteger(kind=8), intent(in)
 
 **Return type**: type([syscoutputcomplexvectordataf](structfortran_1_1syscoutputcomplexvectordataf.md#structfortran_1_1syscoutputcomplexvectordataf)) function
 

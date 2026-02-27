@@ -3,7 +3,7 @@
 ![][C++]
 ![][public]
 
-**Definition**: `SyscComm.hpp` (line 23)
+**Definition**: `SyscComm.hpp` (line 24)
 
 Provide a structure for host and port for remote connections.
 
@@ -27,7 +27,8 @@ Provide a structure for host and port for remote connections.
 
 ![][public]
 
-**Definition**: `SyscComm.hpp` (line 32)
+**Definition**: `SyscComm.hpp` (line 33)
+
 
 ```cpp
 Host sysc::HostAndPort::host
@@ -39,14 +40,16 @@ Host sysc::HostAndPort::host
 
 
 
-**Type**: [Host](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga2738c290fa117dc95b32cc858abbb6af)
+
+**Type**: [Host](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gab30e3c61a7028c8f25acf9ae24062249)
 
 <a id="structsysc_1_1HostAndPort_1a3615321654401d527d930495ee7d9c08"></a>
 ### Variable port
 
 ![][public]
 
-**Definition**: `SyscComm.hpp` (line 33)
+**Definition**: `SyscComm.hpp` (line 34)
+
 
 ```cpp
 Port sysc::HostAndPort::port {0}
@@ -58,7 +61,8 @@ Port sysc::HostAndPort::port {0}
 
 
 
-**Type**: [Port](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga0c12006dc920d82ffa7185811c164f54)
+
+**Type**: [Port](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga447faf26b625c405b29e9650df671f3b)
 
 ## Public functions
 
@@ -67,9 +71,11 @@ Port sysc::HostAndPort::port {0}
 
 ![][public]
 
+
 ```cpp
 sysc::HostAndPort::HostAndPort()=default
 ```
+
 
 
 
@@ -84,6 +90,7 @@ sysc::HostAndPort::HostAndPort()=default
 
 ![][public]
 
+
 ```cpp
 sysc::HostAndPort::HostAndPort(Host host, Port port)
 ```
@@ -94,10 +101,11 @@ sysc::HostAndPort::HostAndPort(Host host, Port port)
 
 
 
+
 **Parameters**:
 
-* [Host](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga2738c290fa117dc95b32cc858abbb6af) **host**
-* [Port](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga0c12006dc920d82ffa7185811c164f54) **port**
+* [Host](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gab30e3c61a7028c8f25acf9ae24062249) **host**
+* [Port](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga447faf26b625c405b29e9650df671f3b) **port**
 
 **Return type**: 
 
@@ -105,6 +113,7 @@ sysc::HostAndPort::HostAndPort(Host host, Port port)
 ### Function HostAndPort
 
 ![][public]
+
 
 ```cpp
 sysc::HostAndPort::HostAndPort(Port port)
@@ -116,13 +125,14 @@ sysc::HostAndPort::HostAndPort(Port port)
 
 
 
+
 **Parameters**:
 
-* [Port](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga0c12006dc920d82ffa7185811c164f54) **port**
+* [Port](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga447faf26b625c405b29e9650df671f3b) **port**
 
 **Return type**: 
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

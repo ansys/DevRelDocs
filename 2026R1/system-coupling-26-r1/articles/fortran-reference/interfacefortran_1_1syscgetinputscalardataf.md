@@ -12,8 +12,8 @@ Provide an interface to get input scalar data.
 ## Members
 
 * [syscgetinputscalardataf](interfacefortran_1_1syscgetinputscalardataf.md#interfacefortran_1_1syscgetinputscalardataf_1adb06ffec7c3b3ec37a6f4b5f87786b12)
-* [syscgetinputscalardataf\_r4](interfacefortran_1_1syscgetinputscalardataf.md#interfacefortran_1_1syscgetinputscalardataf_1a5933417d37ccf309975ef2ff91c23048)
-* [syscgetinputscalardataf\_r8](interfacefortran_1_1syscgetinputscalardataf.md#interfacefortran_1_1syscgetinputscalardataf_1aa1f18e156b5e6b26be50fac64f48af8b)
+* [syscgetinputscalardataf\_r4](interfacefortran_1_1syscgetinputscalardataf.md#interfacefortran_1_1syscgetinputscalardataf_1a65b41b431fd0b3f4fa9e8d16819aa6a1)
+* [syscgetinputscalardataf\_r8](interfacefortran_1_1syscgetinputscalardataf.md#interfacefortran_1_1syscgetinputscalardataf_1a2f02a198f47a8b09900be803a7f5a033)
 
 ## Public functions
 
@@ -22,9 +22,11 @@ Provide an interface to get input scalar data.
 
 ![][public]
 
+
 ```fortran
 type(syscinputscalardataf) function syscgetinputscalardataf()
 ```
+
 
 Create an input scalar data access type.
 
@@ -34,14 +36,16 @@ Primitive type will default to double-precision (64-bit). Data size will be set 
 
 **Return type**: type([syscinputscalardataf](structfortran_1_1syscinputscalardataf.md#structfortran_1_1syscinputscalardataf)) function
 
-<a id="interfacefortran_1_1syscgetinputscalardataf_1a5933417d37ccf309975ef2ff91c23048"></a>
+<a id="interfacefortran_1_1syscgetinputscalardataf_1a65b41b431fd0b3f4fa9e8d16819aa6a1"></a>
 ### Function syscgetinputscalardataf\_r4
 
 ![][public]
 
+
 ```fortran
-type(syscinputscalardataf) function syscgetinputscalardataf_r4(data, dataSize)
+type(syscinputscalardataf) function syscgetinputscalardataf_r4(data, datasize)
 ```
+
 
 Create an input scalar data access type.
 
@@ -54,19 +58,21 @@ Create an input scalar data access type.
 
 **Parameters**:
 
-* datadata
-* dataSizedataSize
+* datareal(kind=4), dimension(datasize), intent(in), target
+* datasizeinteger(kind=8), intent(in)
 
 **Return type**: type([syscinputscalardataf](structfortran_1_1syscinputscalardataf.md#structfortran_1_1syscinputscalardataf)) function
 
-<a id="interfacefortran_1_1syscgetinputscalardataf_1aa1f18e156b5e6b26be50fac64f48af8b"></a>
+<a id="interfacefortran_1_1syscgetinputscalardataf_1a2f02a198f47a8b09900be803a7f5a033"></a>
 ### Function syscgetinputscalardataf\_r8
 
 ![][public]
 
+
 ```fortran
-type(syscinputscalardataf) function syscgetinputscalardataf_r8(data, dataSize)
+type(syscinputscalardataf) function syscgetinputscalardataf_r8(data, datasize)
 ```
+
 
 Create an input scalar data access type.
 
@@ -79,8 +85,8 @@ Create an input scalar data access type.
 
 **Parameters**:
 
-* datadata
-* dataSizedataSize
+* datareal(kind=8), dimension(datasize), intent(in), target
+* datasizeinteger(kind=8), intent(in)
 
 **Return type**: type([syscinputscalardataf](structfortran_1_1syscinputscalardataf.md#structfortran_1_1syscinputscalardataf)) function
 

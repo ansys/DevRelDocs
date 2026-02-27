@@ -11,18 +11,20 @@ Provide function interface for access to input vector data.
 
 ## Members
 
-* [syscinputvectordataaccessf](interfacefortran_1_1syscinputvectordataaccessf.md#interfacefortran_1_1syscinputvectordataaccessf_1a712060230fa9fd151677be39237363bb)
+* [syscinputvectordataaccessf](interfacefortran_1_1syscinputvectordataaccessf.md#interfacefortran_1_1syscinputvectordataaccessf_1ae4618413a4615086aee2433e7b4739b1)
 
 ## Public functions
 
-<a id="interfacefortran_1_1syscinputvectordataaccessf_1a712060230fa9fd151677be39237363bb"></a>
+<a id="interfacefortran_1_1syscinputvectordataaccessf_1ae4618413a4615086aee2433e7b4739b1"></a>
 ### Function syscinputvectordataaccessf
 
 ![][public]
 
+
 ```fortran
-type(syscinputvectordataf) function syscinputvectordataaccessf(regionName, variableName)
+type(syscinputvectordataf) function syscinputvectordataaccessf(regionname, variablename)
 ```
+
 
 Provide a function for access to input vector data.
 
@@ -35,8 +37,8 @@ Provide a function for access to input vector data.
 
 **Parameters**:
 
-* regionNameregionName
-* variableNamevariableName
+* regionnamecharacter(len=syscstrlen), intent(in)
+* variablenamecharacter(len=syscstrlen), intent(in)
 
 **Return type**: type([syscinputvectordataf](structfortran_1_1syscinputvectordataf.md#structfortran_1_1syscinputvectordataf)) function
 

@@ -24,9 +24,11 @@ Provide a struct for a real-valued attribute.
 
 **Definition**: `syscAttributeF.fi` (line 49)
 
+
 ```fortran
 character(len=syscstrlen) name
 ```
+
 
 
 
@@ -43,9 +45,11 @@ character(len=syscstrlen) name
 
 **Definition**: `syscAttributeF.fi` (line 50)
 
+
 ```fortran
 real(kind=8) value
 ```
+
 
 
 
@@ -62,9 +66,11 @@ real(kind=8) value
 
 **Definition**: `syscAttributeF.fi` (line 51)
 
+
 ```fortran
 type(syscdimensionalityf) dimensionality
 ```
+
 
 
 

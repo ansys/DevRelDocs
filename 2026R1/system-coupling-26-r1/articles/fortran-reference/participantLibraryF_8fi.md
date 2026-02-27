@@ -18,13 +18,26 @@
 
 ## Source
 
+
 ```fortran
 module fortran
 !**********************************************************************
+!> \brief Provide an interface to load system coupling participant library path
+!! and mpi wrapper path to system coupling participant proxy.
 !**********************************************************************
 !
 interface syscloadlibraryf
 !
+!> \brief Provide a function to load system coupling participant library path
+!! and mpi wrapper path to system coupling participant proxy.
+!!
+!!
+!! \param[in] syscPartLibPath  system coupling participant library path
+!!
+!! \param[in] mpiWrapperPath   mpi wrapper library path
+!!
+!! \return true if these two libraries are loaded successfully,
+!! otherwise it returns false.
 logical function syscloadlibraryf(syscPartLibPath, mpiWrapperPath)
 !
   character(*), intent(in) :: syscpartlibpath
@@ -40,6 +53,7 @@ end interface syscloadlibraryf
 !
 end module fortran
 ```
+
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

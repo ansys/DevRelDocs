@@ -11,18 +11,20 @@ Provide an interface to register output complex vector data access.
 
 ## Members
 
-* [syscregisteroutputcomplexvectordataaccessf](interfacefortran_1_1syscregisteroutputcomplexvectordataaccessf.md#interfacefortran_1_1syscregisteroutputcomplexvectordataaccessf_1a18475061cfe59cb773c5c88c7dc43a09)
+* [syscregisteroutputcomplexvectordataaccessf](interfacefortran_1_1syscregisteroutputcomplexvectordataaccessf.md#interfacefortran_1_1syscregisteroutputcomplexvectordataaccessf_1aacbe2f7f7b6d8ea64ab328f88e33516d)
 
 ## Public functions
 
-<a id="interfacefortran_1_1syscregisteroutputcomplexvectordataaccessf_1a18475061cfe59cb773c5c88c7dc43a09"></a>
+<a id="interfacefortran_1_1syscregisteroutputcomplexvectordataaccessf_1aacbe2f7f7b6d8ea64ab328f88e33516d"></a>
 ### Function syscregisteroutputcomplexvectordataaccessf
 
 ![][public]
 
+
 ```fortran
-type(syscerrorf) function syscregisteroutputcomplexvectordataaccessf(dataAccess)
+type(syscerrorf) function syscregisteroutputcomplexvectordataaccessf(dataaccess)
 ```
+
 
 Provide a function to register output complexvector data access.
 
@@ -39,7 +41,7 @@ a <code>SyscErrorF</code> type for error checking.
 
 **Parameters**:
 
-* dataAccessdataAccess
+* dataaccessprocedure([syscoutputcomplexvectordataaccessf](interfacefortran_1_1syscoutputcomplexvectordataaccessf.md#interfacefortran_1_1syscoutputcomplexvectordataaccessf))
 
 **Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
 

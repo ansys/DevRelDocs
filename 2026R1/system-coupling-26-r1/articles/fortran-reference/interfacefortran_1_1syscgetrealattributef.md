@@ -20,9 +20,11 @@ Provide an interface to get a real-valued attribute.
 
 ![][public]
 
+
 ```fortran
 type(syscrealattributef) function syscgetrealattributef(name, value, dimensionality)
 ```
+
 
 Get a real-valued attribute.
 
@@ -41,9 +43,9 @@ an integer attribute
 
 **Parameters**:
 
-* namename
-* valuevalue
-* dimensionalitydimensionality
+* namecharacter(len=*), intent(in)
+* valuereal(kind=8), intent(in)
+* dimensionalitytype([syscdimensionalityf](structfortran_1_1syscdimensionalityf.md#structfortran_1_1syscdimensionalityf)), intent(in)
 
 **Return type**: type([syscrealattributef](structfortran_1_1syscrealattributef.md#structfortran_1_1syscrealattributef)) function
 

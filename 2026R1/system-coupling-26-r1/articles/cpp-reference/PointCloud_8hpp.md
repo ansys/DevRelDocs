@@ -10,8 +10,8 @@
 
 ## Classes
 
-* [sysc::PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud)
 * [sysc::InputPointCloud](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud)
+* [sysc::PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud)
 
 ## Namespaces
 
@@ -27,22 +27,9 @@
 * SystemCouplingParticipant/OutputVectorData.hpp
 * <cstddef>
 
+
 ```mermaid
 graph LR
-4["SystemCouplingParticipant/InputIntegerData.hpp"]
-
-5["SystemCouplingParticipant/InputVectorData.hpp"]
-
-3["SystemCouplingParticipant/CommonTypes.hpp"]
-
-6["SystemCouplingParticipant/OutputIntegerData.hpp"]
-
-7["SystemCouplingParticipant/OutputVectorData.hpp"]
-
-2["SystemCouplingParticipant/LibraryType.hpp"]
-
-8["cstddef"]
-
 1["PointCloud.hpp"]
 click 1 "PointCloud_8hpp.md#PointCloud_8hpp"
 1 --> 2
@@ -53,9 +40,25 @@ click 1 "PointCloud_8hpp.md#PointCloud_8hpp"
 1 --> 7
 1 --> 8
 
+3["SystemCouplingParticipant/CommonTypes.hpp"]
+
+4["SystemCouplingParticipant/InputIntegerData.hpp"]
+
+5["SystemCouplingParticipant/InputVectorData.hpp"]
+
+2["SystemCouplingParticipant/LibraryType.hpp"]
+
+6["SystemCouplingParticipant/OutputIntegerData.hpp"]
+
+7["SystemCouplingParticipant/OutputVectorData.hpp"]
+
+8["cstddef"]
+
 ```
 
+
 ## Source
+
 
 ```cpp
 /*
@@ -76,6 +79,38 @@ click 1 "PointCloud_8hpp.md#PointCloud_8hpp"
 
 namespace sysc {
 
+struct InputPointCloud {
+public:
+  InputPointCloud(
+    InputIntegerData nodeIds,
+    InputVectorData nodeCoords) :
+      nodeIds(nodeIds),
+      nodeCoords(nodeCoords) {}
+
+  InputPointCloud() = default;
+
+  InputPointCloud(const InputPointCloud&) = default;
+
+  InputPointCloud(InputPointCloud&&) = default;
+
+  InputPointCloud& operator=(const InputPointCloud&) = default;
+
+  InputPointCloud& operator=(InputPointCloud&&) = default;
+
+  std::size_t getNumNodes() const noexcept
+  {
+    return nodeCoords.size();
+  }
+
+  std::size_t size() const noexcept
+  {
+    return getNumNodes();
+  }
+
+  InputIntegerData nodeIds;
+  InputVectorData nodeCoords;
+};
+
 class SYSTEM_COUPLING_PARTICIPANT_DLL PointCloud {
 public:
   std::int64_t connectivityStamp{0};
@@ -83,6 +118,8 @@ public:
   std::int64_t coordinatesStamp{0};
 
   std::int64_t partitioningStamp{0};
+
+  PointCloud(InputPointCloud);
 
   PointCloud(
     OutputIntegerData nodeIds,
@@ -106,37 +143,22 @@ public:
 
   ValidityStatus checkValidity() const;
 
+  std::size_t size() const noexcept
+  {
+    return getNumNodes();
+  }
+
 private:
   OutputIntegerData m_nodeIds;
   OutputVectorData m_nodeCoords;
 };
 
-struct InputPointCloud {
-public:
-  InputPointCloud(
-    InputIntegerData nodeIds,
-    InputVectorData nodeCoords) :
-      nodeIds(nodeIds),
-      nodeCoords(nodeCoords) {}
-
-  InputPointCloud() = default;
-
-  InputPointCloud(const InputPointCloud&) = default;
-
-  InputPointCloud(InputPointCloud&&) = default;
-
-  InputPointCloud& operator=(const InputPointCloud&) = default;
-
-  InputPointCloud& operator=(InputPointCloud&&) = default;
-
-  InputIntegerData nodeIds;
-  InputVectorData nodeCoords;
-};
-
 }  // namespace sysc
 ```
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[Markdown]: https://img.shields.io/badge/language-Markdown-blue (Markdown)

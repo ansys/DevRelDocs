@@ -11,21 +11,23 @@ Provide an interface to get output vector data with split storage.
 
 ## Members
 
-* [syscgetoutputvectordatasplitf\_r42d](interfacefortran_1_1syscgetoutputvectordatasplitf.md#interfacefortran_1_1syscgetoutputvectordatasplitf_1adf74c91be8f957f17695d7ce6f0cd283)
-* [syscgetoutputvectordatasplitf\_r43a](interfacefortran_1_1syscgetoutputvectordatasplitf.md#interfacefortran_1_1syscgetoutputvectordatasplitf_1a7c3c0f6b9e239fdc0ec4258ce854c92f)
-* [syscgetoutputvectordatasplitf\_r82d](interfacefortran_1_1syscgetoutputvectordatasplitf.md#interfacefortran_1_1syscgetoutputvectordatasplitf_1a5c4fdc29443558a0cdf0341af36eea73)
-* [syscgetoutputvectordatasplitf\_r83a](interfacefortran_1_1syscgetoutputvectordatasplitf.md#interfacefortran_1_1syscgetoutputvectordatasplitf_1a43e775dde9ec32a773813c2704ef7ad7)
+* [syscgetoutputvectordatasplitf\_r42d](interfacefortran_1_1syscgetoutputvectordatasplitf.md#interfacefortran_1_1syscgetoutputvectordatasplitf_1a8440f1e59e492db3e1749ad4f2f9b5e1)
+* [syscgetoutputvectordatasplitf\_r43a](interfacefortran_1_1syscgetoutputvectordatasplitf.md#interfacefortran_1_1syscgetoutputvectordatasplitf_1aa474027446856bef01fed2983d4a1d56)
+* [syscgetoutputvectordatasplitf\_r82d](interfacefortran_1_1syscgetoutputvectordatasplitf.md#interfacefortran_1_1syscgetoutputvectordatasplitf_1a12c383106114503e04be905d1bbd986e)
+* [syscgetoutputvectordatasplitf\_r83a](interfacefortran_1_1syscgetoutputvectordatasplitf.md#interfacefortran_1_1syscgetoutputvectordatasplitf_1a459ea501fed493e4ded1484f897b4a59)
 
 ## Public functions
 
-<a id="interfacefortran_1_1syscgetoutputvectordatasplitf_1a7c3c0f6b9e239fdc0ec4258ce854c92f"></a>
+<a id="interfacefortran_1_1syscgetoutputvectordatasplitf_1aa474027446856bef01fed2983d4a1d56"></a>
 ### Function syscgetoutputvectordatasplitf\_r43a
 
 ![][public]
 
+
 ```fortran
-type(syscoutputvectordataf) function syscgetoutputvectordatasplitf_r43a(data0, data1, data2, dataSize)
+type(syscoutputvectordataf) function syscgetoutputvectordatasplitf_r43a(data0, data1, data2, datasize)
 ```
+
 
 Create an output vector data access type with split storage.
 
@@ -40,21 +42,23 @@ Create an output vector data access type with split storage.
 
 **Parameters**:
 
-* data0data0
-* data1data1
-* data2data2
-* dataSizedataSize
+* data0real(kind=4), dimension(datasize), intent(in), target
+* data1real(kind=4), dimension(datasize), intent(in), target
+* data2real(kind=4), dimension(datasize), intent(in), target
+* datasizeinteger(kind=8), intent(in)
 
 **Return type**: type([syscoutputvectordataf](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf)) function
 
-<a id="interfacefortran_1_1syscgetoutputvectordatasplitf_1a43e775dde9ec32a773813c2704ef7ad7"></a>
+<a id="interfacefortran_1_1syscgetoutputvectordatasplitf_1a459ea501fed493e4ded1484f897b4a59"></a>
 ### Function syscgetoutputvectordatasplitf\_r83a
 
 ![][public]
 
+
 ```fortran
-type(syscoutputvectordataf) function syscgetoutputvectordatasplitf_r83a(data0, data1, data2, dataSize)
+type(syscoutputvectordataf) function syscgetoutputvectordatasplitf_r83a(data0, data1, data2, datasize)
 ```
+
 
 Create an output vector data access type with split storage.
 
@@ -69,21 +73,23 @@ Create an output vector data access type with split storage.
 
 **Parameters**:
 
-* data0data0
-* data1data1
-* data2data2
-* dataSizedataSize
+* data0real(kind=8), dimension(datasize), intent(in), target
+* data1real(kind=8), dimension(datasize), intent(in), target
+* data2real(kind=8), dimension(datasize), intent(in), target
+* datasizeinteger(kind=8), intent(in)
 
 **Return type**: type([syscoutputvectordataf](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf)) function
 
-<a id="interfacefortran_1_1syscgetoutputvectordatasplitf_1adf74c91be8f957f17695d7ce6f0cd283"></a>
+<a id="interfacefortran_1_1syscgetoutputvectordatasplitf_1a8440f1e59e492db3e1749ad4f2f9b5e1"></a>
 ### Function syscgetoutputvectordatasplitf\_r42d
 
 ![][public]
 
+
 ```fortran
-type(syscoutputvectordataf) function syscgetoutputvectordatasplitf_r42d(data, dataSize)
+type(syscoutputvectordataf) function syscgetoutputvectordatasplitf_r42d(data, datasize)
 ```
+
 
 Create an output vector data access type with split storage.
 
@@ -96,19 +102,21 @@ Create an output vector data access type with split storage.
 
 **Parameters**:
 
-* datadata
-* dataSizedataSize
+* datareal(kind=4), dimension(datasize, 3), intent(in), target
+* datasizeinteger(kind=8), intent(in)
 
 **Return type**: type([syscoutputvectordataf](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf)) function
 
-<a id="interfacefortran_1_1syscgetoutputvectordatasplitf_1a5c4fdc29443558a0cdf0341af36eea73"></a>
+<a id="interfacefortran_1_1syscgetoutputvectordatasplitf_1a12c383106114503e04be905d1bbd986e"></a>
 ### Function syscgetoutputvectordatasplitf\_r82d
 
 ![][public]
 
+
 ```fortran
-type(syscoutputvectordataf) function syscgetoutputvectordatasplitf_r82d(vals, nElems)
+type(syscoutputvectordataf) function syscgetoutputvectordatasplitf_r82d(vals, nelems)
 ```
+
 
 Create an output vector data access type with split storage.
 
@@ -121,8 +129,8 @@ Create an output vector data access type with split storage.
 
 **Parameters**:
 
-* valsvals
-* nElemsnElems
+* valsreal(kind=8), dimension(nelems, 3), intent(in), target
+* nelemsinteger(kind=8), intent(in)
 
 **Return type**: type([syscoutputvectordataf](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf)) function
 

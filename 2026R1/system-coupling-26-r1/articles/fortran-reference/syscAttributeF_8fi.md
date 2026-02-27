@@ -21,6 +21,7 @@
 
 ## Source
 
+
 ```fortran
 module fortran
 !
@@ -31,6 +32,7 @@ module fortran
 ! System Coupling Participant Library.
 !
 ! *********************************************************************
+!> \brief Provide a struct for an integer-valued attribute.
 ! *********************************************************************
 type :: syscintegerattributef
   character(len=SyscStrLen) :: name
@@ -39,9 +41,17 @@ end type syscintegerattributef
 !
 !**********************************************************************
 !
+!> \brief Provide an interface to get an integer-valued attribute.
 interface syscgetintegerattributef
 !
 !**********************************************************************
+!> \brief Get an integer-valued attribute.
+!!
+!! \param[in] name - attribute name.
+!!
+!! \param[in] value - attribute value.
+!!
+!! \return an integer attribute
 !**********************************************************************
 function syscgetintegerattributef(name, value) result(ret)
   import :: syscintegerattributef
@@ -58,6 +68,7 @@ end function syscgetintegerattributef
 end interface syscgetintegerattributef
 !
 ! *********************************************************************
+!> \brief Provide a struct for a real-valued attribute.
 ! *********************************************************************
 type :: syscrealattributef
   character(len=SyscStrLen) :: name
@@ -67,9 +78,19 @@ end type syscrealattributef
 !
 !**********************************************************************
 !
+!> \brief Provide an interface to get a real-valued attribute.
 interface syscgetrealattributef
 !
 !**********************************************************************
+!> \brief Get a real-valued attribute.
+!!
+!! \param[in] name - attribute name.
+!!
+!! \param[in] value - attribute value.
+!!
+!! \param[in] dimensionality - attribute dimensionality
+!!
+!! \return an integer attribute
 !**********************************************************************
 function syscgetrealattributef(name, value, dimensionality) result(ret)
   import :: syscrealattributef, syscdimensionalityf
@@ -88,6 +109,7 @@ end interface syscgetrealattributef
 !
 end module fortran
 ```
+
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

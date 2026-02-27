@@ -20,9 +20,11 @@ Provide an interface to return an input variable.
 
 ![][public]
 
+
 ```fortran
 type(syscvariablef) function syscgetinputvariablef(region, index)
 ```
+
 
 Return an input variable.
 
@@ -40,8 +42,8 @@ Variable at specified index.
 
 **Parameters**:
 
-* regionregion
-* indexindex
+* regiontype([syscregionf](structfortran_1_1syscregionf.md#structfortran_1_1syscregionf)), intent(in)
+* indexinteger(kind=8)
 
 **Return type**: type([syscvariablef](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef)) function
 

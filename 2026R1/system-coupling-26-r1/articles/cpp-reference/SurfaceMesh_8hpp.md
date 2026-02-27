@@ -26,20 +26,9 @@
 * <cstddef>
 * <string>
 
+
 ```mermaid
 graph LR
-8["string"]
-
-3["SystemCouplingParticipant/CommonTypes.hpp"]
-
-5["SystemCouplingParticipant/OutputIntegerData.hpp"]
-
-4["SystemCouplingParticipant/MeshDefinition.hpp"]
-
-6["SystemCouplingParticipant/OutputVectorData.hpp"]
-
-2["SystemCouplingParticipant/LibraryType.hpp"]
-
 1["SurfaceMesh.hpp"]
 click 1 "SurfaceMesh_8hpp.md#SurfaceMesh_8hpp"
 1 --> 2
@@ -50,11 +39,25 @@ click 1 "SurfaceMesh_8hpp.md#SurfaceMesh_8hpp"
 1 --> 7
 1 --> 8
 
+3["SystemCouplingParticipant/CommonTypes.hpp"]
+
+2["SystemCouplingParticipant/LibraryType.hpp"]
+
+4["SystemCouplingParticipant/MeshDefinition.hpp"]
+
+5["SystemCouplingParticipant/OutputIntegerData.hpp"]
+
+6["SystemCouplingParticipant/OutputVectorData.hpp"]
+
 7["cstddef"]
+
+8["string"]
 
 ```
 
+
 ## Source
+
 
 ```cpp
 /*
@@ -180,7 +183,9 @@ private:
 }  // namespace sysc
 ```
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[Markdown]: https://img.shields.io/badge/language-Markdown-blue (Markdown)

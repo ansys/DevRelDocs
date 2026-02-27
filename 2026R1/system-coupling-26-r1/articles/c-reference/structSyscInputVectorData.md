@@ -25,6 +25,7 @@ To create and/or initialize [SyscInputVectorData](structSyscInputVectorData.md#s
 
 
 
+
 ```
 SyscInputVectorData ivd = syscGetInputVectorDataSplitDouble(x, y, z, size);
 ```
@@ -45,11 +46,13 @@ SyscInputVectorData ivd = syscGetInputVectorDataSplitDouble(x, y, z, size);
 
 ![][public]
 
-**Definition**: `syscInputVectorData.h` (line 177)
+**Definition**: `syscInputVectorData.h` (line 43)
+
 
 ```
 enum SyscPrimitiveType SyscInputVectorData::primitiveType
 ```
+
 
 
 
@@ -66,9 +69,11 @@ Primitive type.
 
 **Definition**: `syscInputVectorData.h` (line 44)
 
+
 ```
 void* SyscInputVectorData::data0
 ```
+
 
 
 
@@ -85,9 +90,11 @@ Pointer to the first array.
 
 **Definition**: `syscInputVectorData.h` (line 45)
 
+
 ```
 void* SyscInputVectorData::data1
 ```
+
 
 
 
@@ -104,9 +111,11 @@ Pointer to the second array.
 
 **Definition**: `syscInputVectorData.h` (line 46)
 
+
 ```
 void* SyscInputVectorData::data2
 ```
+
 
 
 
@@ -123,9 +132,11 @@ Pointer to the third array.
 
 **Definition**: `syscInputVectorData.h` (line 47)
 
+
 ```
 size_t SyscInputVectorData::size
 ```
+
 
 
 
@@ -140,11 +151,13 @@ Array size.
 
 ![][public]
 
-**Definition**: `syscInputVectorData.h` (line 47)
+**Definition**: `syscInputVectorData.h` (line 48)
+
 
 ```
 enum SyscDimension SyscInputVectorData::dimension
 ```
+
 
 
 

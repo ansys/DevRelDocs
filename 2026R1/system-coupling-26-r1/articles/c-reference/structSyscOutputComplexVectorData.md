@@ -28,11 +28,13 @@ Output complex vector data provides read-only access to complex vector data.
 
 ![][public]
 
-**Definition**: `syscOutputComplexVectorData.h` (line 241)
+**Definition**: `syscOutputComplexVectorData.h` (line 29)
+
 
 ```
 enum SyscPrimitiveType SyscOutputComplexVectorData::primitiveType
 ```
+
 
 
 
@@ -49,9 +51,11 @@ Primitive type.
 
 **Definition**: `syscOutputComplexVectorData.h` (line 30)
 
+
 ```
 const void* SyscOutputComplexVectorData::data1
 ```
+
 
 
 
@@ -68,9 +72,11 @@ First data pointer.
 
 **Definition**: `syscOutputComplexVectorData.h` (line 31)
 
+
 ```
 const void* SyscOutputComplexVectorData::data2
 ```
+
 
 
 
@@ -87,9 +93,11 @@ Second data pointer.
 
 **Definition**: `syscOutputComplexVectorData.h` (line 32)
 
+
 ```
 const void* SyscOutputComplexVectorData::data3
 ```
+
 
 
 
@@ -106,9 +114,11 @@ Third data pointer.
 
 **Definition**: `syscOutputComplexVectorData.h` (line 33)
 
+
 ```
 const void* SyscOutputComplexVectorData::data4
 ```
+
 
 
 
@@ -125,9 +135,11 @@ Fourth data pointer.
 
 **Definition**: `syscOutputComplexVectorData.h` (line 34)
 
+
 ```
 const void* SyscOutputComplexVectorData::data5
 ```
+
 
 
 
@@ -144,9 +156,11 @@ Fifth data pointer.
 
 **Definition**: `syscOutputComplexVectorData.h` (line 35)
 
+
 ```
 const void* SyscOutputComplexVectorData::data6
 ```
+
 
 
 
@@ -163,9 +177,11 @@ Sixth data pointer.
 
 **Definition**: `syscOutputComplexVectorData.h` (line 36)
 
+
 ```
 size_t SyscOutputComplexVectorData::size
 ```
+
 
 
 
@@ -180,11 +196,13 @@ Data size.
 
 ![][public]
 
-**Definition**: `syscOutputComplexVectorData.h` (line 36)
+**Definition**: `syscOutputComplexVectorData.h` (line 37)
+
 
 ```
 enum SyscDimension SyscOutputComplexVectorData::dimension
 ```
+
 
 
 

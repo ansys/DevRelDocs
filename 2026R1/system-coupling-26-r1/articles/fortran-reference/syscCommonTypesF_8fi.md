@@ -27,6 +27,7 @@
 
 ## Source
 
+
 ```fortran
 module fortran
 !
@@ -82,11 +83,15 @@ type :: syscdimensionalityf
 end type syscdimensionalityf
 !
 !**********************************************************************
+!> \brief Provide an interface to get dimensionality.
 !**********************************************************************
 !
 interface syscgetdimensionalityf
 !
 !**********************************************************************
+!> \brief Provide a function to get dimensionality.
+!!
+!! \return a SyscDimensionalityF type
 !**********************************************************************
 function syscgetdimensionalityf() result(ret)
 !
@@ -135,6 +140,7 @@ integer(kind=4), parameter :: syscnotevaluated    = 3
 !
 integer(kind=4), parameter :: syscsteady = 0
 integer(kind=4), parameter :: sysctransient = 1
+integer(kind=4), parameter :: syscmapping = 2
 !
 ! ****** Parameters for dimension *************************************
 !
@@ -167,10 +173,11 @@ integer(kind=8), parameter :: syscrocky = 15
 !
 ! *********************************************************************
 !
+!> \brief Provide a time step type
 type :: sysctimestepf
-  integer(kind=8) :: timestepnumber
-  real(kind=8) :: starttime 
-  real(kind=8) :: timestepsize 
+  integer(kind=8) :: timestepnumber !< Time step number.
+  real(kind=8) :: starttime !< Time step start time.
+  real(kind=8) :: timestepsize !< Time step size (delta t).
 end type sysctimestepf
 !
 ! ****** Parameters for return codes **********************************
@@ -178,8 +185,11 @@ end type sysctimestepf
 integer(kind=4), parameter :: syscstatusok = 0
 integer(kind=4), parameter :: syscstatuserror = 1
 !
+!> \brief Provide an error type returned by the Fortran interface calls
 type :: syscerrorf
+!> Error code. Set to `SyscStatusOk` if no error.
   integer(kind=4) :: retcode
+!> Error message. Blank string if no error. 
   character(len=SyscStrLen) :: message
 end type syscerrorf
 !
@@ -191,21 +201,41 @@ integer(kind=4), parameter :: syscint4  = 2
 integer(kind=4), parameter :: syscint8  = 3
 !
 ! *********************************************************************
+!> \brief Provide a type for System Coupling setup information.
+!!
+!! To create and/or initialize the SyscSetupInfo struct, it is highly
+!! recommended to use one of the functions within the
+!! `syscGetSetupInfoF` interface. These functions will initialize all 
+!! members to the correct values and will help to avoid 
+!! back-compatibility issues in the future. For example:
+!!
+!! \code
+!! SyscSetupInfo setupInfo = syscGetSetupInfoF(SyscSteady);
+!! \endcode
 ! *********************************************************************
 type :: syscsetupinfof
-  integer(kind=8) :: analysistype
-  logical(kind=8) :: restartssupported
-  integer(kind=8) :: dimension
-  integer(kind=8) :: timeintegration
-  integer(kind=8) :: participanttype
+  integer(kind=8) :: analysistype !< Analysis type.
+  logical(kind=8) :: restartssupported    !< Restarts supported flag.
+  integer(kind=8) :: dimension !< Participant dimension.
+  integer(kind=8) :: timeintegration !< Time integration method.
+  integer(kind=8) :: participanttype !< Participant type.
 end type syscsetupinfof
 !
 !**********************************************************************
+!> \brief Provide an interface to get a setup info type
 !**********************************************************************
 !
 interface syscgetsetupinfof
 !
 !**********************************************************************
+!> \brief Provide a function to get a setup info type.
+!!
+!! Analysis type will be set to steady.
+!! Restarts supported flag will be set to false.
+!! Dimension will be set to 3.
+!! Time integration will be set to implicit.
+!!
+!! \return a SyscSetupInfoF type.
 !**********************************************************************
 function syscgetsetupinfof() result(ret)
 !
@@ -219,6 +249,15 @@ function syscgetsetupinfof() result(ret)
 end function syscgetsetupinfof
 !
 !**********************************************************************
+!> \brief Provide a function to get a setup info type.
+!!
+!! \param[in] analysisType - analysis type.
+!!
+!! Restarts supported flag will be set to false.
+!! Dimension will be set to 3.
+!! Time integration will be set to implicit.
+!!
+!! \return a SyscSetupInfoF type.
 !**********************************************************************
 function syscgetsetupinfof_a(analysisType) result(ret)
 !
@@ -233,6 +272,15 @@ function syscgetsetupinfof_a(analysisType) result(ret)
 end function syscgetsetupinfof_a
 !
 !**********************************************************************
+!> \brief Provide a function to get a setup info type.
+!!
+!! \param[in] analysisType - analysis type.
+!! \param[in] restartsSupported - restarts supported flag.
+!!
+!! Dimension will be set to 3.
+!! Time integration will be set to implicit.
+!!
+!! \return a SyscSetupInfoF type.
 !**********************************************************************
 function syscgetsetupinfof_ar(analysisType, &
   restartsSupported) result(ret)
@@ -249,6 +297,15 @@ function syscgetsetupinfof_ar(analysisType, &
   end function syscgetsetupinfof_ar
 !
 !**********************************************************************
+!> \brief Provide a function to get a setup info type.
+!!
+!! \param[in] analysisType - analysis type.
+!! \param[in] restartsSupported - restarts supported flag.
+!! \param[in] dimension - participant dimension.
+!!
+!! Time integration will be set to implicit.
+!!
+!! \return a SyscSetupInfoF type.
 !**********************************************************************
 function syscgetsetupinfof_ard(analysisType, &
   restartsSupported, dimension) result(ret)
@@ -266,6 +323,14 @@ function syscgetsetupinfof_ard(analysisType, &
   end function syscgetsetupinfof_ard
 !
 !**********************************************************************
+!> \brief Provide a function to get a setup info type.
+!!
+!! \param[in] analysisType - analysis type.
+!! \param[in] restartsSupported - restarts supported flag.
+!! \param[in] dimension - participant dimension.
+!! \param[in] timeIntegration - time integration method.
+!!
+!! \return a SyscSetupInfoF type.
 !**********************************************************************
 function syscgetsetupinfof_ardt(analysisType, &
   restartsSupported, dimension, timeIntegration) &
@@ -285,6 +350,15 @@ function syscgetsetupinfof_ardt(analysisType, &
   end function syscgetsetupinfof_ardt
 !
 !**********************************************************************
+!> \brief Provide a function to get a setup info type.
+!!
+!! \param[in] analysisType - analysis type.
+!! \param[in] restartsSupported - restarts supported flag.
+!! \param[in] dimension - participant dimension.
+!! \param[in] timeIntegration - time integration method.
+!! \param[in] participantType - participant type.
+!!
+!! \return a SyscSetupInfoF type.
 !**********************************************************************
 function syscgetsetupinfof_ardtp(analysisType, &
   restartsSupported, dimension, timeIntegration, participantType) &
@@ -307,18 +381,37 @@ function syscgetsetupinfof_ardtp(analysisType, &
 end interface syscgetsetupinfof
 !
 ! *********************************************************************
+!> \brief Provide a type for writing System Coupling setup files.
+!!
+!! To create and/or initialize the SyscSetupFileInfoF type, it is highly
+!! recommended to use `syscGetSetupFileInfoF` function.
+!! This function will initialize all members to
+!! the correct values and will help to avoid back-compatibility issues
+!! in the future. For example:
+!!
+!! \code
+!! type(SyscSetupFileInfoF) :: setupFileInfo
+!! setupFileInfo = syscGetSetupFileInfoF("setup.scp")
+!! \endcode
 ! *********************************************************************
 type :: syscsetupfileinfof
-  character(len=SyscFilePathLen) :: setupfilename
-  logical :: restartssupported
+  character(len=SyscFilePathLen) :: setupfilename !< Setup file name.
+  logical :: restartssupported !< Restarts support flag.
 end type syscsetupfileinfof
 !
 !**********************************************************************
+!> \brief Provide an interface to get a System Coupling setup file 
+!! info type.
 !**********************************************************************
 !
 interface syscgetsetupfileinfof
 !
 !**********************************************************************
+!> \brief Provide a function to create SetupFileInfoF type.
+!!
+!! \param[in] setupFileName Setup file name.
+!!
+!! \return a SyscSetupFileInfoF type
 !**********************************************************************
 function syscgetsetupfileinfof(setupFileName) result(ret)
 !
@@ -335,17 +428,25 @@ end function syscgetsetupfileinfof
 end interface syscgetsetupfileinfof
 !
 ! *********************************************************************
+!> \brief Provide a type for writing results files.
 ! *********************************************************************
 type :: syscresultsinfof
-  character(len=SyscFilePathLen) :: basefilename
+  character(len=SyscFilePathLen) :: basefilename !< Base file name.
 end type syscresultsinfof
 !
 !**********************************************************************
+!> \brief Provide an interface to get a System Coupling results 
+!! info type.
 !**********************************************************************
 !
 interface syscgetresultsinfof
 !
 !**********************************************************************
+!> \brief Provide a function to create SyscResultsInfoF type.
+!!
+!! \param[in] baseFileName - base file name.
+!!
+!! \return a SyscResultsInfoF type
 !**********************************************************************
 function syscgetresultsinfof(baseFileName) result(ret)
   import :: syscresultsinfof
@@ -362,5 +463,7 @@ end interface syscgetresultsinfof
 end module fortran
 ```
 
+
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)
+[Markdown]: https://img.shields.io/badge/language-Markdown-blue (Markdown)

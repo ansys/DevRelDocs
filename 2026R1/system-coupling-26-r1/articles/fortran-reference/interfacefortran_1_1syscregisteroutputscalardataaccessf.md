@@ -11,18 +11,20 @@ Provide an interface to register output scalar data.
 
 ## Members
 
-* [syscregisteroutputscalardataaccessf](interfacefortran_1_1syscregisteroutputscalardataaccessf.md#interfacefortran_1_1syscregisteroutputscalardataaccessf_1a384035d51e611d3465717cb4b3f23bb1)
+* [syscregisteroutputscalardataaccessf](interfacefortran_1_1syscregisteroutputscalardataaccessf.md#interfacefortran_1_1syscregisteroutputscalardataaccessf_1a6e600bba7913fad2d337e158fa783d79)
 
 ## Public functions
 
-<a id="interfacefortran_1_1syscregisteroutputscalardataaccessf_1a384035d51e611d3465717cb4b3f23bb1"></a>
+<a id="interfacefortran_1_1syscregisteroutputscalardataaccessf_1a6e600bba7913fad2d337e158fa783d79"></a>
 ### Function syscregisteroutputscalardataaccessf
 
 ![][public]
 
+
 ```fortran
-type(syscerrorf) function syscregisteroutputscalardataaccessf(dataAccess)
+type(syscerrorf) function syscregisteroutputscalardataaccessf(dataaccess)
 ```
+
 
 Provide a function to register output scalar data access.
 
@@ -39,7 +41,7 @@ a <code>SyscErrorF</code> type for error checking.
 
 **Parameters**:
 
-* dataAccessdataAccess
+* dataaccessprocedure([syscoutputscalardataaccessf](interfacefortran_1_1syscoutputscalardataaccessf.md#interfacefortran_1_1syscoutputscalardataaccessf))
 
 **Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
 

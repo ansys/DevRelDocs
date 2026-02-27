@@ -11,18 +11,20 @@ Provide an interface to perform simple mesh validity checks.
 
 ## Members
 
-* [syscchecksurfacemeshvalidityf](interfacefortran_1_1syscchecksurfacemeshvalidityf.md#interfacefortran_1_1syscchecksurfacemeshvalidityf_1aa47200db799a70e3ef5c5e15d2fa4de7)
+* [syscchecksurfacemeshvalidityf](interfacefortran_1_1syscchecksurfacemeshvalidityf.md#interfacefortran_1_1syscchecksurfacemeshvalidityf_1ae23b75c60f72bf607723e6ef7dce4add)
 
 ## Public functions
 
-<a id="interfacefortran_1_1syscchecksurfacemeshvalidityf_1aa47200db799a70e3ef5c5e15d2fa4de7"></a>
+<a id="interfacefortran_1_1syscchecksurfacemeshvalidityf_1ae23b75c60f72bf607723e6ef7dce4add"></a>
 ### Function syscchecksurfacemeshvalidityf
 
 ![][public]
 
+
 ```fortran
-type(syscerrorf) function syscchecksurfacemeshvalidityf(surfaceMesh)
+type(syscerrorf) function syscchecksurfacemeshvalidityf(surfacemesh)
 ```
+
 
 Provide a function to perform simple mesh validity checks.
 
@@ -52,7 +54,7 @@ Return value is SyscErrorF type. If mesh checks passed, then retcode will be 0. 
 
 **Parameters**:
 
-* surfaceMeshsurfaceMesh
+* surfacemeshtype([syscsurfacemeshf](structfortran_1_1syscsurfacemeshf.md#structfortran_1_1syscsurfacemeshf))
 
 **Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
 

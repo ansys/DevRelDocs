@@ -11,18 +11,20 @@ Provide an interface to get a data transfer from a coupling interface.
 
 ## Members
 
-* [sysccouplinginterfacegetdatatransferf](interfacefortran_1_1sysccouplinginterfacegetdatatransferf.md#interfacefortran_1_1sysccouplinginterfacegetdatatransferf_1a018899d40dfcec3633ad8aeb06d821ff)
+* [sysccouplinginterfacegetdatatransferf](interfacefortran_1_1sysccouplinginterfacegetdatatransferf.md#interfacefortran_1_1sysccouplinginterfacegetdatatransferf_1a64f4a6d41e2fa5bf6be37e13c0bebd34)
 
 ## Public functions
 
-<a id="interfacefortran_1_1sysccouplinginterfacegetdatatransferf_1a018899d40dfcec3633ad8aeb06d821ff"></a>
+<a id="interfacefortran_1_1sysccouplinginterfacegetdatatransferf_1a64f4a6d41e2fa5bf6be37e13c0bebd34"></a>
 ### Function sysccouplinginterfacegetdatatransferf
 
 ![][public]
 
+
 ```fortran
-type(syscdatatransferf) function sysccouplinginterfacegetdatatransferf(couplingInterface, index)
+type(syscdatatransferf) function sysccouplinginterfacegetdatatransferf(couplinginterface, index)
 ```
+
 
 Get a data transfer from a coupling interface.
 
@@ -32,8 +34,8 @@ Get a data transfer from a coupling interface.
 
 **Parameters**:
 
-* couplingInterfacecouplingInterface
-* indexindex
+* couplinginterfacetype([sysccouplinginterfacef](structfortran_1_1sysccouplinginterfacef.md#structfortran_1_1sysccouplinginterfacef)), intent(in)
+* indexinteger(kind=8), intent(in)
 
 **Return type**: type([syscdatatransferf](structfortran_1_1syscdatatransferf.md#structfortran_1_1syscdatatransferf)) function
 

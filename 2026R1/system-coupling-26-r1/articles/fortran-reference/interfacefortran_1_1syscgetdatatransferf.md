@@ -11,18 +11,20 @@ Provide an interface to get a data transfer.
 
 ## Members
 
-* [syscgetdatatransferf](interfacefortran_1_1syscgetdatatransferf.md#interfacefortran_1_1syscgetdatatransferf_1a7dfe2901d48eab20fe578ec65a3d1343)
+* [syscgetdatatransferf](interfacefortran_1_1syscgetdatatransferf.md#interfacefortran_1_1syscgetdatatransferf_1ac52f9b1a5b54382e682daa312d5babd2)
 
 ## Public functions
 
-<a id="interfacefortran_1_1syscgetdatatransferf_1a7dfe2901d48eab20fe578ec65a3d1343"></a>
+<a id="interfacefortran_1_1syscgetdatatransferf_1ac52f9b1a5b54382e682daa312d5babd2"></a>
 ### Function syscgetdatatransferf
 
 ![][public]
 
+
 ```fortran
-type(syscdatatransferf) function syscgetdatatransferf(sourceVariable, targetVariable, targetSide)
+type(syscdatatransferf) function syscgetdatatransferf(sourcevariable, targetvariable, targetside)
 ```
+
 
 Create a data transfer.
 
@@ -36,9 +38,9 @@ Create a data transfer.
 
 **Parameters**:
 
-* sourceVariablesourceVariable
-* targetVariabletargetVariable
-* targetSidetargetSide
+* sourcevariabletype([syscvariablef](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef)), intent(in)
+* targetvariabletype([syscvariablef](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef)), intent(in)
+* targetsideinteger(kind=4), intent(in)
 
 **Return type**: type([syscdatatransferf](structfortran_1_1syscdatatransferf.md#structfortran_1_1syscdatatransferf)) function
 

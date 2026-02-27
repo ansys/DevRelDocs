@@ -20,9 +20,11 @@ Provide an interface to get a coupling interface.
 
 ![][public]
 
+
 ```fortran
 type(sysccouplinginterfacef) function syscgetcouplinginterfacef(name)
 ```
+
 
 Create a coupling interface.
 
@@ -34,7 +36,7 @@ Create a coupling interface.
 
 **Parameters**:
 
-* namename
+* namecharacter(len=*), intent(in)
 
 **Return type**: type([sysccouplinginterfacef](structfortran_1_1sysccouplinginterfacef.md#structfortran_1_1sysccouplinginterfacef)) function
 

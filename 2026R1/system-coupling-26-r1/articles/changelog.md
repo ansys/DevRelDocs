@@ -1,5 +1,15 @@
 # Changelog
 
+## Release notes for 2026 R1
+
+### Analysis Type
+
+A new `AnalysisType` has been added to the participant library. This new analysis type, `Mapping`, may be used when the participant is expected to provide or consume constant data. This new type is in addition to the existing `Steady` and `Transient` analysis types.
+
+### Attribute Bounds
+
+Bounds for Real and Integer Attributes are now supported. These define the lower and/or upper bounds that an attribute supports. Note that bounds are available within the c++, c, and python interfaces. They are not supported in Fortran or on StringAttributes.
+
 ## Release notes for 2025 R2
 
 ### ABI change for C++ API on linux

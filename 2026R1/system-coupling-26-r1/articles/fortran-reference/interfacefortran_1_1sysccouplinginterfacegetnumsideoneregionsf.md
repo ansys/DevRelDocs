@@ -11,18 +11,20 @@ Provide an interface to get number of side one regions.
 
 ## Members
 
-* [sysccouplinginterfacegetnumsideoneregionsf](interfacefortran_1_1sysccouplinginterfacegetnumsideoneregionsf.md#interfacefortran_1_1sysccouplinginterfacegetnumsideoneregionsf_1a4b03d2962f76dc8cee7926b038d6e537)
+* [sysccouplinginterfacegetnumsideoneregionsf](interfacefortran_1_1sysccouplinginterfacegetnumsideoneregionsf.md#interfacefortran_1_1sysccouplinginterfacegetnumsideoneregionsf_1ad4acfcb9b205aba14b99e8c3371d76a1)
 
 ## Public functions
 
-<a id="interfacefortran_1_1sysccouplinginterfacegetnumsideoneregionsf_1a4b03d2962f76dc8cee7926b038d6e537"></a>
+<a id="interfacefortran_1_1sysccouplinginterfacegetnumsideoneregionsf_1ad4acfcb9b205aba14b99e8c3371d76a1"></a>
 ### Function sysccouplinginterfacegetnumsideoneregionsf
 
 ![][public]
 
+
 ```fortran
-integer(kind=8) function sysccouplinginterfacegetnumsideoneregionsf(couplingInterface)
+integer(kind=8) function sysccouplinginterfacegetnumsideoneregionsf(couplinginterface)
 ```
+
 
 Get number of side one regions in a coupling interface.
 
@@ -32,7 +34,7 @@ Get number of side one regions in a coupling interface.
 
 **Parameters**:
 
-* couplingInterfacecouplingInterface
+* couplinginterfacetype([sysccouplinginterfacef](structfortran_1_1sysccouplinginterfacef.md#structfortran_1_1sysccouplinginterfacef)), intent(in)
 
 **Return type**: integer(kind=8) function
 

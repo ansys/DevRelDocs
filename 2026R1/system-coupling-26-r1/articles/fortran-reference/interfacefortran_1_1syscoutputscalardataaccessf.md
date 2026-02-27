@@ -11,18 +11,20 @@ Provide function interface for access to output scalar data.
 
 ## Members
 
-* [syscoutputscalardataaccessf](interfacefortran_1_1syscoutputscalardataaccessf.md#interfacefortran_1_1syscoutputscalardataaccessf_1a78ffc31d9271bad59d186ef93ffa7d89)
+* [syscoutputscalardataaccessf](interfacefortran_1_1syscoutputscalardataaccessf.md#interfacefortran_1_1syscoutputscalardataaccessf_1aae5573f883509ef1dc4b7fbcbc929aea)
 
 ## Public functions
 
-<a id="interfacefortran_1_1syscoutputscalardataaccessf_1a78ffc31d9271bad59d186ef93ffa7d89"></a>
+<a id="interfacefortran_1_1syscoutputscalardataaccessf_1aae5573f883509ef1dc4b7fbcbc929aea"></a>
 ### Function syscoutputscalardataaccessf
 
 ![][public]
 
+
 ```fortran
-type(syscoutputscalardataf) function syscoutputscalardataaccessf(regionName, variableName)
+type(syscoutputscalardataf) function syscoutputscalardataaccessf(regionname, variablename)
 ```
+
 
 Provide a function for access to output scalar data.
 
@@ -35,8 +37,8 @@ Provide a function for access to output scalar data.
 
 **Parameters**:
 
-* regionNameregionName
-* variableNamevariableName
+* regionnamecharacter(len=syscstrlen), intent(in)
+* variablenamecharacter(len=syscstrlen), intent(in)
 
 **Return type**: type([syscoutputscalardataf](structfortran_1_1syscoutputscalardataf.md#structfortran_1_1syscoutputscalardataf)) function
 

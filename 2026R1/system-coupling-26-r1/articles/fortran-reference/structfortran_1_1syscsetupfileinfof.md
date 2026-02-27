@@ -3,7 +3,7 @@
 ![][Fortran]
 ![][public]
 
-**Definition**: `syscCommonTypesF.fi` (line 365)
+**Definition**: `syscCommonTypesF.fi` (line 366)
 
 Provide a type for writing System Coupling setup files.
 
@@ -13,9 +13,10 @@ To create and/or initialize the SyscSetupFileInfoF type, it is highly recommende
 
 
 
+
 ```fortran
 type(SyscSetupFileInfoF) :: setupFileInfo
-setupFileInfo = syscGetSetupFileInfoF("setup.scp")
+setupfileinfo = syscgetsetupfileinfof()
 ```
 
 ## Members
@@ -30,11 +31,13 @@ setupFileInfo = syscGetSetupFileInfoF("setup.scp")
 
 ![][public]
 
-**Definition**: `syscCommonTypesF.fi` (line 366)
+**Definition**: `syscCommonTypesF.fi` (line 367)
+
 
 ```fortran
 character(len=syscfilepathlen) setupfilename
 ```
+
 
 Setup file name.
 
@@ -49,11 +52,13 @@ Setup file name.
 
 ![][public]
 
-**Definition**: `syscCommonTypesF.fi` (line 367)
+**Definition**: `syscCommonTypesF.fi` (line 368)
+
 
 ```fortran
 logical restartssupported
 ```
+
 
 Restarts support flag.
 

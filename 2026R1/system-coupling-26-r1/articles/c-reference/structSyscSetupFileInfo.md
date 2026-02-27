@@ -3,11 +3,12 @@
 ![][C]
 ![][public]
 
-**Definition**: `syscCommonTypes.h` (line 294)
+**Definition**: `syscCommonTypes.h` (line 295)
 
 Provide a structure for writing System Coupling setup files.
 
 To create and/or initialize the [SyscSetupFileInfo](structSyscSetupFileInfo.md#structSyscSetupFileInfo) struct, it is highly recommended to use <code>syscGetSetupFileInfo</code> function. This function will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+
 
 
 
@@ -29,11 +30,13 @@ SyscSetupFileInfo setupFileInfo = syscGetSetupFileInfo("setup.scp");
 
 ![][public]
 
-**Definition**: `syscCommonTypes.h` (line 295)
+**Definition**: `syscCommonTypes.h` (line 296)
+
 
 ```
 char SyscSetupFileInfo::setupFileName[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
+
 
 
 
@@ -48,11 +51,13 @@ File name.
 
 ![][public]
 
-**Definition**: `syscCommonTypes.h` (line 296)
+**Definition**: `syscCommonTypes.h` (line 297)
+
 
 ```
 int SyscSetupFileInfo::restartsSupported
 ```
+
 
 
 

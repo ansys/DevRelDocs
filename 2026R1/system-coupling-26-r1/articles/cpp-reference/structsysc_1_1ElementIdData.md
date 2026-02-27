@@ -3,7 +3,7 @@
 ![][C++]
 ![][public]
 
-**Definition**: `MeshDefinition.hpp` (line 24)
+**Definition**: `MeshDefinition.hpp` (line 333)
 
 Element id access struct, provides read-only access to the mesh element ids.
 
@@ -11,13 +11,14 @@ Element id access struct, provides read-only access to the mesh element ids.
 
 ## Members
 
+* [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1a89beffa7a332b682987c50e09eb2c04b)
 * [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1a2bc3e191dedac4234791ebe8d2726efc)
 * [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1ad58ae6d869976ba9e7a110d49b6a47a2)
 * [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1a39cc1f753def252933c52a6b73b72785)
 * [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1a2d4efcc91449a330e8ce7e5ad14ca309)
 * [elementIds](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1ac98082ccca6778003a7785e4033fdcf7)
-* [operator=](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1a99704232b3630f88fa5a4f636f543f13)
-* [operator=](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1aac7e9e57ec1b24173a5cb3f5d67506ff)
+* [operator=](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1af4e14a9b2ab00bde4eb45d7996718dfe)
+* [operator=](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1a8069f94a877116f8c9d25f570898bdd7)
 
 ## Public attributes
 
@@ -26,11 +27,13 @@ Element id access struct, provides read-only access to the mesh element ids.
 
 ![][public]
 
-**Definition**: `MeshDefinition.hpp` (line 26)
+**Definition**: `MeshDefinition.hpp` (line 335)
+
 
 ```cpp
 OutputIntegerData sysc::ElementIdData::elementIds
 ```
+
 
 Element ids.
 
@@ -38,18 +41,59 @@ Element ids.
 
 
 
-**Type**: [OutputIntegerData](classsysc_1_1OutputIntegerData.md#classsysc_1_1OutputIntegerData)
+**Type**: [OutputIntegerData](structsysc_1_1OutputIntegerData.md#structsysc_1_1OutputIntegerData)
+
+**Referenced by**:
+
+* [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1a89beffa7a332b682987c50e09eb2c04b)
+* [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1a2bc3e191dedac4234791ebe8d2726efc)
 
 ## Public functions
+
+<a id="structsysc_1_1ElementIdData_1a89beffa7a332b682987c50e09eb2c04b"></a>
+### Function ElementIdData
+
+![][public]
+
+
+```cpp
+sysc::ElementIdData::ElementIdData(InputElementIdData elemIdData)
+```
+
+
+
+
+\breif Element ids constructor.
+
+
+
+**Parameters**:
+
+* [InputElementIdData](structsysc_1_1InputElementIdData.md#structsysc_1_1InputElementIdData) **elemIdData**
+
+**Return type**: 
+
+**References**:
+
+* [elementIds](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1ac98082ccca6778003a7785e4033fdcf7)
+
+**Referenced by**:
+
+* [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1a39cc1f753def252933c52a6b73b72785)
+* [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1a2d4efcc91449a330e8ce7e5ad14ca309)
+* [operator=](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1af4e14a9b2ab00bde4eb45d7996718dfe)
+* [operator=](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1a8069f94a877116f8c9d25f570898bdd7)
 
 <a id="structsysc_1_1ElementIdData_1a2bc3e191dedac4234791ebe8d2726efc"></a>
 ### Function ElementIdData
 
 ![][public]
 
+
 ```cpp
 sysc::ElementIdData::ElementIdData(OutputIntegerData elementIds)
 ```
+
 
 Constructor that takes cell ids.
 
@@ -59,18 +103,24 @@ Constructor that takes cell ids.
 
 **Parameters**:
 
-* [OutputIntegerData](classsysc_1_1OutputIntegerData.md#classsysc_1_1OutputIntegerData) **elementIds**
+* [OutputIntegerData](structsysc_1_1OutputIntegerData.md#structsysc_1_1OutputIntegerData) **elementIds**
 
 **Return type**: 
+
+**References**:
+
+* [elementIds](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1ac98082ccca6778003a7785e4033fdcf7)
 
 <a id="structsysc_1_1ElementIdData_1ad58ae6d869976ba9e7a110d49b6a47a2"></a>
 ### Function ElementIdData
 
 ![][public]
 
+
 ```cpp
 sysc::ElementIdData::ElementIdData()=default
 ```
+
 
 Default constructor.
 
@@ -85,9 +135,11 @@ Default constructor.
 
 ![][public]
 
+
 ```cpp
 sysc::ElementIdData::ElementIdData(const ElementIdData &)=default
 ```
+
 
 Copy constructor.
 
@@ -101,14 +153,20 @@ Copy constructor.
 
 **Return type**: 
 
+**References**:
+
+* [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1a89beffa7a332b682987c50e09eb2c04b)
+
 <a id="structsysc_1_1ElementIdData_1a2d4efcc91449a330e8ce7e5ad14ca309"></a>
 ### Function ElementIdData
 
 ![][public]
 
+
 ```cpp
 sysc::ElementIdData::ElementIdData(ElementIdData &&)=default
 ```
+
 
 Move constructor.
 
@@ -122,14 +180,20 @@ Move constructor.
 
 **Return type**: 
 
-<a id="structsysc_1_1ElementIdData_1a99704232b3630f88fa5a4f636f543f13"></a>
+**References**:
+
+* [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1a89beffa7a332b682987c50e09eb2c04b)
+
+<a id="structsysc_1_1ElementIdData_1af4e14a9b2ab00bde4eb45d7996718dfe"></a>
 ### Function operator=
 
 ![][public]
 
+
 ```cpp
-ElementIdData& sysc::ElementIdData::operator=(const ElementIdData &)=default
+ElementIdData & sysc::ElementIdData::operator=(const ElementIdData &)=default
 ```
+
 
 Copy-assign operator.
 
@@ -143,14 +207,20 @@ Copy-assign operator.
 
 **Return type**: [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData) &
 
-<a id="structsysc_1_1ElementIdData_1aac7e9e57ec1b24173a5cb3f5d67506ff"></a>
+**References**:
+
+* [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1a89beffa7a332b682987c50e09eb2c04b)
+
+<a id="structsysc_1_1ElementIdData_1a8069f94a877116f8c9d25f570898bdd7"></a>
 ### Function operator=
 
 ![][public]
 
+
 ```cpp
-ElementIdData& sysc::ElementIdData::operator=(ElementIdData &&)=default
+ElementIdData & sysc::ElementIdData::operator=(ElementIdData &&)=default
 ```
+
 
 Move-assign operator.
 
@@ -164,7 +234,11 @@ Move-assign operator.
 
 **Return type**: [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData) &
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+**References**:
+
+* [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1a89beffa7a332b682987c50e09eb2c04b)
+
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
