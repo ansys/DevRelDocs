@@ -441,6 +441,8 @@
       href: operator-specifications/math/invert_fc.md
     - name: kronecker prod
       href: operator-specifications/math/kronecker_prod.md
+    - name: linearized stress
+      href: operator-specifications/math/linearized_stress.md
     - name: linear combination
       href: operator-specifications/math/linear_combination.md
     - name: ln
@@ -1446,6 +1448,8 @@
       href: operator-specifications/scoping/connectivity_ids.md
     - name: elemental from mesh
       href: operator-specifications/scoping/elemental_from_mesh.md
+    - name: extend midside nodal scoping
+      href: operator-specifications/scoping/extend_midside_nodal_scoping.md
     - name: from mesh
       href: operator-specifications/scoping/from_mesh.md
     - name: intersect
