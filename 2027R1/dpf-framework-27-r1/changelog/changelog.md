@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-02-25).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-02-27).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -38,6 +38,7 @@ The following table shows which components have updates in each category.
 | mapd | [1 item](#Features_mapd) | |
 | mapdl | [14 items](#Features_mapdl) |[41 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
+| mapl |  |[1 item](#Fixes_mapl) |
 | math | [10 items](#Features_math) |[1 item](#Fixes_math) |
 | mechanical | [2 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
 | mesh |  |[3 items](#Fixes_mesh) |
@@ -1281,6 +1282,16 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
+## mapl
+
+### <a id="Fixes_mapl"></a> Fixes
+
+- Fix gasket results issue with dege keyopt2=0 gaskets:
+  > Fix bug with degenerated gasket elements with keyopt(2)=0
+  >
+  > 
+  >
+  > 
 ## math
 ### <a id="Features_math"></a> Features
 
@@ -2176,6 +2187,12 @@ The following table shows which components have updates in each category.
   > Prepares a workflow able to map data from an input mesh to a target mesh.
 
 
+#### math
+
+- [linearized_stress](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/linearized_stress.md):
+  > get linearized stress
+
+
 #### mesh
 
 - [morphed_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/morphed_field.md):
@@ -2387,6 +2404,12 @@ The following table shows which components have updates in each category.
   > Read/compute Square of the L2 norm of pressure over element volume by calling the readers defined by the datasources.
 
 
+#### scoping
+
+- [extend_midside_nodal_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/extend_midside_nodal_scoping.md):
+  > Extends the input nodal scoping with the neighbor corner nodes of every midside node in the input. For each midside node in the scoping, the two corner nodes that bound it on the element edge are added to the output scoping. 
+
+
 #### serialization
 
 - [export_mesh_with_prime](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/serialization/export_mesh_with_prime.md):
@@ -2441,6 +2464,8 @@ The following table shows which components have updates in each category.
 - [elemental_nodal_to_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_nodal_to_nodal.md)
 
   > 0.0.1: Fixed issue with semiparabolic elements.
+
+  > 0.0.2: Midside nodes included in the input scoping are now properly averaged regardless of the presence of its parent corner nodes.
 
 
 - [elemental_nodal_to_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_nodal_to_nodal_fc.md)
@@ -3265,6 +3290,8 @@ Upgraded documentation
   > 0.1.0: Improvement of performance
 
   > 0.1.1: Error with license
+
+  > 0.2.0: Added extend_midside_nodes input pin
 
 
 
