@@ -2,6 +2,6 @@
 
 <a id="compolyx.VariableOffsetSelectionRule.active"></a>
 
-#### *property* VariableOffsetSelectionRule.active
+## *property* VariableOffsetSelectionRule.active
 
-active status of object
+Active status of the object.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.ButtJointSequence.serialize"></a>
 
-#### ButtJointSequence.serialize()
+## ButtJointSequence.serialize()
 
 Serialize to Python string.

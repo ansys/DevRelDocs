@@ -2,6 +2,6 @@
 
 <a id="compolyx.Sensor.name"></a>
 
-#### *property* Sensor.name
+## *property* Sensor.name
 
-Name of object
+Name of the object.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.ImportedModelingGroup.active"></a>
 
-#### *property* ImportedModelingGroup.active
+## *property* ImportedModelingGroup.active
 
-active status of object
+Active status of the object.

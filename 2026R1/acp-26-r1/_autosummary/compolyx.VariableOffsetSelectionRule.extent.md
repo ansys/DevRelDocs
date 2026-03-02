@@ -2,6 +2,6 @@
 
 <a id="compolyx.VariableOffsetSelectionRule.extent"></a>
 
-#### *property* VariableOffsetSelectionRule.extent
+## *property* VariableOffsetSelectionRule.extent
 
-extent of the rule
+Extent of the rule.

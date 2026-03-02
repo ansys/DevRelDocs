@@ -2,6 +2,6 @@
 
 <a id="compolyx.TubeSelectionRule.serialize"></a>
 
-#### TubeSelectionRule.serialize()
+## TubeSelectionRule.serialize()
 
 Serialize to Python string.

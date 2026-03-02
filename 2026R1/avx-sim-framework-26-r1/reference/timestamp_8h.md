@@ -21,6 +21,8 @@
 ## Includes
 
 * <cstdint>
+* <iomanip>
+* <iostream>
 * <string>
 
 
@@ -44,8 +46,9 @@
 #pragma once
 
 #include <cstdint>
+#include <iomanip>
+#include <iostream>
 #include <string>
-
 namespace simulation_framework
 {
 namespace core
@@ -69,6 +72,13 @@ inline bool operator==(const Timestamp& lhs, const Timestamp& rhs)
     return (lhs.seconds == rhs.seconds) && (lhs.nanoseconds == rhs.nanoseconds);
 }
 
+inline std::ostream& operator<<(std::ostream& os, const Timestamp& timestamp)
+{
+    double formatted_time = timestamp.seconds + timestamp.nanoseconds * 1e-9;
+    os << std::right << std::setw(10) << std::fixed << std::setprecision(3) << formatted_time << " s";
+    return os;
+}
+
 }  // namespace time
 }  // namespace core
 }  // namespace simulation_framework
@@ -79,5 +89,5 @@ inline bool operator==(const Timestamp& lhs, const Timestamp& rhs)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
-[static]: https://img.shields.io/badge/-static-lightgrey (static)
 [protected]: https://img.shields.io/badge/-protected-yellow (protected)
+[static]: https://img.shields.io/badge/-static-lightgrey (static)

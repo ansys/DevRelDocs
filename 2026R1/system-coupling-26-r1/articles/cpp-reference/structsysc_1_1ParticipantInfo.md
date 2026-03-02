@@ -3,7 +3,7 @@
 ![][C++]
 ![][public]
 
-**Definition**: `CommonTypes.hpp` (line 288)
+**Definition**: `CommonTypes.hpp` (line 303)
 
 provide a structure for the participant information needed to connect to a System Coupling object
 
@@ -41,7 +41,8 @@ provide a structure for the participant information needed to connect to a Syste
 
 ![][public]
 
-**Definition**: `CommonTypes.hpp` (line 289)
+**Definition**: `CommonTypes.hpp` (line 304)
+
 
 ```cpp
 Host sysc::ParticipantInfo::scHost
@@ -53,14 +54,16 @@ Host sysc::ParticipantInfo::scHost
 
 
 
-**Type**: [Host](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga2738c290fa117dc95b32cc858abbb6af)
+
+**Type**: [Host](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gab30e3c61a7028c8f25acf9ae24062249)
 
 <a id="structsysc_1_1ParticipantInfo_1aec876f2e942c0b2db13547da778873d7"></a>
 ### Variable scPort
 
 ![][public]
 
-**Definition**: `CommonTypes.hpp` (line 290)
+**Definition**: `CommonTypes.hpp` (line 305)
+
 
 ```cpp
 Port sysc::ParticipantInfo::scPort {0}
@@ -72,18 +75,21 @@ Port sysc::ParticipantInfo::scPort {0}
 
 
 
-**Type**: [Port](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga0c12006dc920d82ffa7185811c164f54)
+
+**Type**: [Port](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga447faf26b625c405b29e9650df671f3b)
 
 <a id="structsysc_1_1ParticipantInfo_1ab9f7db7947123effd7b51a7c5be378e0"></a>
 ### Variable participantName
 
 ![][public]
 
-**Definition**: `CommonTypes.hpp` (line 291)
+**Definition**: `CommonTypes.hpp` (line 306)
+
 
 ```cpp
 std::string sysc::ParticipantInfo::participantName
 ```
+
 
 
 
@@ -98,11 +104,13 @@ std::string sysc::ParticipantInfo::participantName
 
 ![][public]
 
-**Definition**: `CommonTypes.hpp` (line 292)
+**Definition**: `CommonTypes.hpp` (line 307)
+
 
 ```cpp
 bool sysc::ParticipantInfo::isCosimulation {false}
 ```
+
 
 
 
@@ -117,11 +125,13 @@ bool sysc::ParticipantInfo::isCosimulation {false}
 
 ![][public]
 
-**Definition**: `CommonTypes.hpp` (line 293)
+**Definition**: `CommonTypes.hpp` (line 308)
+
 
 ```cpp
 std::string sysc::ParticipantInfo::buildInformation
 ```
+
 
 
 
@@ -136,11 +146,13 @@ std::string sysc::ParticipantInfo::buildInformation
 
 ![][public]
 
-**Definition**: `CommonTypes.hpp` (line 294)
+**Definition**: `CommonTypes.hpp` (line 309)
+
 
 ```cpp
 std::string sysc::ParticipantInfo::transcriptFilename
 ```
+
 
 
 
@@ -155,11 +167,13 @@ std::string sysc::ParticipantInfo::transcriptFilename
 
 ![][public]
 
-**Definition**: `CommonTypes.hpp` (line 296)
+**Definition**: `CommonTypes.hpp` (line 311)
+
 
 ```cpp
 std::size_t sysc::ParticipantInfo::numApps {0}
 ```
+
 
 
 
@@ -174,7 +188,8 @@ std::size_t sysc::ParticipantInfo::numApps {0}
 
 ![][public]
 
-**Definition**: `CommonTypes.hpp` (line 297)
+**Definition**: `CommonTypes.hpp` (line 312)
+
 
 ```cpp
 Host sysc::ParticipantInfo::myHostName
@@ -186,7 +201,8 @@ Host sysc::ParticipantInfo::myHostName
 
 
 
-**Type**: [Host](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga2738c290fa117dc95b32cc858abbb6af)
+
+**Type**: [Host](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gab30e3c61a7028c8f25acf9ae24062249)
 
 ## Public functions
 
@@ -195,9 +211,11 @@ Host sysc::ParticipantInfo::myHostName
 
 ![][public]
 
+
 ```cpp
 sysc::ParticipantInfo::ParticipantInfo()=default
 ```
+
 
 Provide a default constructor.
 
@@ -212,9 +230,11 @@ Provide a default constructor.
 
 ![][public]
 
+
 ```cpp
 sysc::ParticipantInfo::ParticipantInfo(Host scHost, Port scPort, std::string participantName, bool isCosimulation, std::string buildInformation, std::string transcriptFilename, std::size_t numApps, Host myHostName)
 ```
+
 
 Provide a non-default constructor.
 
@@ -224,14 +244,14 @@ Provide a non-default constructor.
 
 **Parameters**:
 
-* [Host](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga2738c290fa117dc95b32cc858abbb6af) **scHost**
-* [Port](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga0c12006dc920d82ffa7185811c164f54) **scPort**
+* [Host](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gab30e3c61a7028c8f25acf9ae24062249) **scHost**
+* [Port](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga447faf26b625c405b29e9650df671f3b) **scPort**
 * std::string **participantName**
 * bool **isCosimulation**
 * std::string **buildInformation**
 * std::string **transcriptFilename**
 * std::size_t **numApps**
-* [Host](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga2738c290fa117dc95b32cc858abbb6af) **myHostName**
+* [Host](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gab30e3c61a7028c8f25acf9ae24062249) **myHostName**
 
 **Return type**: 
 
@@ -240,9 +260,11 @@ Provide a non-default constructor.
 
 ![][public]
 
+
 ```cpp
 sysc::ParticipantInfo::ParticipantInfo(Host scHost, Port scPort, std::string participantName)
 ```
+
 
 Provide a non-default constructor.
 
@@ -252,8 +274,8 @@ Provide a non-default constructor.
 
 **Parameters**:
 
-* [Host](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga2738c290fa117dc95b32cc858abbb6af) **scHost**
-* [Port](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga0c12006dc920d82ffa7185811c164f54) **scPort**
+* [Host](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gab30e3c61a7028c8f25acf9ae24062249) **scHost**
+* [Port](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga447faf26b625c405b29e9650df671f3b) **scPort**
 * std::string **participantName**
 
 **Return type**: 
@@ -263,9 +285,11 @@ Provide a non-default constructor.
 
 ![][public]
 
+
 ```cpp
 sysc::ParticipantInfo::ParticipantInfo(Host scHost, Port scPort, std::string participantName, std::string buildInformation)
 ```
+
 
 Provide a non-default constructor.
 
@@ -275,8 +299,8 @@ Provide a non-default constructor.
 
 **Parameters**:
 
-* [Host](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga2738c290fa117dc95b32cc858abbb6af) **scHost**
-* [Port](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga0c12006dc920d82ffa7185811c164f54) **scPort**
+* [Host](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gab30e3c61a7028c8f25acf9ae24062249) **scHost**
+* [Port](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga447faf26b625c405b29e9650df671f3b) **scPort**
 * std::string **participantName**
 * std::string **buildInformation**
 
@@ -287,9 +311,11 @@ Provide a non-default constructor.
 
 ![][public]
 
+
 ```cpp
 sysc::ParticipantInfo::ParticipantInfo(Host scHost, Port scPort, std::string participantName, std::string buildInformation, std::string transcriptFilename)
 ```
+
 
 Provide a non-default constructor.
 
@@ -299,15 +325,15 @@ Provide a non-default constructor.
 
 **Parameters**:
 
-* [Host](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga2738c290fa117dc95b32cc858abbb6af) **scHost**
-* [Port](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga0c12006dc920d82ffa7185811c164f54) **scPort**
+* [Host](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gab30e3c61a7028c8f25acf9ae24062249) **scHost**
+* [Port](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga447faf26b625c405b29e9650df671f3b) **scPort**
 * std::string **participantName**
 * std::string **buildInformation**
 * std::string **transcriptFilename**
 
 **Return type**: 
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

@@ -1,4 +1,4 @@
-# File dvs\_query\_interface.h
+# File dvs_query_interface.h
 
 <a id="dvs__query__interface_8h"></a>
 

@@ -11,7 +11,7 @@
 
 ## Members
 
-* [syscgetelementiddataf](interfacefortran_1_1syscgetelementiddataf.md#interfacefortran_1_1syscgetelementiddataf_1a9ba1a48e16218548509b09cde54361f7)
+* [syscgetelementiddataf](interfacefortran_1_1syscgetelementiddataf.md#interfacefortran_1_1syscgetelementiddataf_1abc83c80a971a891dc176201dafb54b8c)
 * [syscgetelementiddataf\_empty](interfacefortran_1_1syscgetelementiddataf.md#interfacefortran_1_1syscgetelementiddataf_1a06d46b003d0cb5bb92ec4263f5a53feb)
 
 ## Public functions
@@ -20,6 +20,7 @@
 ### Function syscgetelementiddataf\_empty
 
 ![][public]
+
 
 ```fortran
 type(syscelementiddataf) function syscgetelementiddataf_empty()
@@ -31,16 +32,19 @@ type(syscelementiddataf) function syscgetelementiddataf_empty()
 
 
 
+
 **Return type**: type([syscelementiddataf](structfortran_1_1syscelementiddataf.md#structfortran_1_1syscelementiddataf)) function
 
-<a id="interfacefortran_1_1syscgetelementiddataf_1a9ba1a48e16218548509b09cde54361f7"></a>
+<a id="interfacefortran_1_1syscgetelementiddataf_1abc83c80a971a891dc176201dafb54b8c"></a>
 ### Function syscgetelementiddataf
 
 ![][public]
 
+
 ```fortran
-type(syscelementiddataf) function syscgetelementiddataf(elementIds)
+type(syscelementiddataf) function syscgetelementiddataf(elementids)
 ```
+
 
 
 
@@ -50,7 +54,7 @@ type(syscelementiddataf) function syscgetelementiddataf(elementIds)
 
 **Parameters**:
 
-* elementIdselementIds
+* elementidstype([syscoutputintegerdataf](structfortran_1_1syscoutputintegerdataf.md#structfortran_1_1syscoutputintegerdataf)), intent(in)
 
 **Return type**: type([syscelementiddataf](structfortran_1_1syscelementiddataf.md#structfortran_1_1syscelementiddataf)) function
 

@@ -2,6 +2,6 @@
 
 <a id="compolyx.PublishedParameter.category"></a>
 
-#### *property* PublishedParameter.category
+## *property* PublishedParameter.category
 
-Available options: `input`, `unbound_input`, `output`, and `expression_output`.
+Should be one of: input, unbound_input, output or expression_output.

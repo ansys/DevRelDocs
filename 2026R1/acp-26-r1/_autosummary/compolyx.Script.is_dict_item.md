@@ -2,6 +2,6 @@
 
 <a id="compolyx.Script.is_dict_item"></a>
 
-#### *property* Script.is_dict_item
+## *property* Script.is_dict_item
 
-Specifies whether the object is an item of a dict
+Indicates whether the object is an item in a dictionary.

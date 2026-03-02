@@ -2,12 +2,12 @@
 
 <a id="compolyx.Model.create_lookup_table1d"></a>
 
-#### Model.create_lookup_table1d(name, id='', tabular_data=None, origin=None, direction=None, dimensions=[])
+## Model.create_lookup_table1d(name, id='', tabular_data=None, origin=None, direction=None, dimensions=[])
 
-Create a new 1D look-up table object.
+Create a new 1D lookup table object.
 
-* **Parameters:**
+### Parameters
   - name: Name.
   - id: ID.
-* **Returns:**
-  The created look-up table object.
+### Returns
+  The created lookup table object.

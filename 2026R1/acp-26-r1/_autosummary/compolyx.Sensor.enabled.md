@@ -2,6 +2,6 @@
 
 <a id="compolyx.Sensor.enabled"></a>
 
-#### *property* Sensor.enabled
+## *property* Sensor.enabled
 
-Whether this object is currently enabled or not. Sensors are always enabled.
+Indicates whether the object is enabled. Sensors are always enabled.

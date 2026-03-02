@@ -2,4 +2,4 @@
 
 <a id="compolyx.Rosette.get_short_description"></a>
 
-#### Rosette.get_short_description()
+## Rosette.get_short_description()

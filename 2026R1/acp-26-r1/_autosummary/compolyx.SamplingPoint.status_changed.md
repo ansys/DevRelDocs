@@ -2,6 +2,6 @@
 
 <a id="compolyx.SamplingPoint.status_changed"></a>
 
-#### *property* SamplingPoint.status_changed
+## *property* SamplingPoint.status_changed
 
 Boolean flag which is set to true in C++ when up-to-date status of object changes.

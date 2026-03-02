@@ -2,6 +2,6 @@
 
 <a id="compolyx.OrientedSelectionSet.ref_directions"></a>
 
-#### *property* OrientedSelectionSet.ref_directions
+## *property* OrientedSelectionSet.ref_directions
 
-Get the Refernce Directions of the Oriented Selection Set
+Returns the Reference Directions of the oriented selection set.

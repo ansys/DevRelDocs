@@ -2,6 +2,6 @@
 
 <a id="compolyx.SamplingPoint.enabled"></a>
 
-#### *property* SamplingPoint.enabled
+## *property* SamplingPoint.enabled
 
 Whether this object is currently enabled. SamplingPoints are always enabled.

@@ -200,7 +200,7 @@ Sets the cube X, Y and Z center
 
 <a id="generated.RACubeGroup.SetMotionFrame"></a>
 
-#### SetMotionFrame(motion_frame: [RAMotionFrame](RAMotionFrame.md#generated.RAMotionFrame) | str | None)
+#### SetMotionFrame(motion_frame: RAMotionFrame | str | None)
 
 Assign a Motion Frame to the process.
 

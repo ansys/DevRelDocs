@@ -2,6 +2,6 @@
 
 <a id="compolyx.plot_data.FieldDefinitionData.vertex"></a>
 
-#### *property* FieldDefinitionData.vertex
+## *property* FieldDefinitionData.vertex
 
-This will throw an error if the object has been removed from the graph.
+Raises an error if the object has been removed from the graph.

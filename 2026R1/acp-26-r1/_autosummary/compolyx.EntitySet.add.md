@@ -2,6 +2,6 @@
 
 <a id="compolyx.EntitySet.add"></a>
 
-#### EntitySet.add(entity)
+## EntitySet.add(entity)
 
 Add entity to the set.

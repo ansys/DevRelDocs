@@ -2,6 +2,6 @@
 
 <a id="compolyx.AnalysisPly.material"></a>
 
-#### *property* AnalysisPly.material
+## *property* AnalysisPly.material
 
-Ply Material of the Analysis Ply
+Material assigned to the analysis ply.

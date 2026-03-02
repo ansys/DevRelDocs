@@ -2,6 +2,6 @@
 
 <a id="compolyx.Material.vertex"></a>
 
-#### *property* Material.vertex
+## *property* Material.vertex
 
-This will throw an error if the object has been removed from the graph.
+Raises an error if the object has been removed from the graph.

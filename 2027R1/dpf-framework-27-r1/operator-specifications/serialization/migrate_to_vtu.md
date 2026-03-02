@@ -10,7 +10,14 @@ license: None
 
 ## Description
 
-Extract all results from a datasources and exports them into vtu format. All the connected inputs are forwarded to the result providers operators.
+
+Extract results from data sources and export them to **VTU format**.
+
+If no specific results are connected to pin **result**, automatically discovers and exports all available mesh-located results (nodal, elemental, faces).
+Elemental-nodal results are converted to nodal via averaging.
+
+All connected inputs are forwarded to the result provider operators.
+
 
 ## Inputs
 

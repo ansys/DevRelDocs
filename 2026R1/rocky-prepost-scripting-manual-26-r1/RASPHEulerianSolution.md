@@ -51,7 +51,7 @@ Delegates the method to the project sph settings.
 
 <a id="generated.RASPHEulerianSolution.GetMeshColoring"></a>
 
-#### GetMeshColoring(window: str | type[KAWorkspaceWindow])
+#### GetMeshColoring(window: str | KAWorkspaceWindow)
 
 Get the RAMeshColoring related to the current object and a window.
 

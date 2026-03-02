@@ -2,6 +2,6 @@
 
 <a id="compolyx.Fabric.name"></a>
 
-#### *property* Fabric.name
+## *property* Fabric.name
 
-Name of object
+Name of the object.

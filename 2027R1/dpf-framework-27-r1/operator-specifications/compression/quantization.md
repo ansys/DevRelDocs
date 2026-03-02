@@ -12,6 +12,12 @@ license: any_dpf_supported_increments
 
 Scales a field to a given precision threshold, then rounds all the values to the unit.
 
+The output of the quantization operation is :
+$$ q(x) = \left\lfloor\frac{x}{2\varepsilon} + \frac{1}{2}\right\rfloor $$
+The truncated value in the original scale has to be computed by doing $ 2\varepsilon q(x) $.
+
+To truncate a number to $n$ decimal places, the threshold must be chosen as $10^{-n}$.
+
 ## Inputs
 
 This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.
@@ -39,11 +45,11 @@ Field to quantize.
 - **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types), [`field`](../../core-concepts/dpf-types.md#field)
 
 Precision threshold desired.
-Case double : the threshold is applied on all the input field.
-Case field with one value : the threshold is applied on all the input field.
-Case field with "numComp" values : each threhsold is applied to the corresponding component of the input field.
-Case field with the same number of values than the input field : quantization is performed component-wise.
 
+- Case double : the threshold is applied over all the input field.
+- Case field with one value : the threshold is applied over all the input field.
+- Case field with _numComp_ values : each threhsold is applied to the corresponding component of the input field.
+- Case field with the same number of values than the input field : quantization is performed component-wise.
 
 
 ## Outputs
@@ -62,7 +68,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-Scaled and rounded field
+Quantized field.
 
 
 ## Configurations

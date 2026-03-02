@@ -10,7 +10,12 @@ license: None
 
 ## Description
 
-Export DPF data into vtu format.
+
+Export DPF mesh and field data to **VTK Unstructured Grid (VTU)** format.
+
+Supports time-based data export (creates separate `.vtu` files per time step) and various output modes.
+Compatible with VTK/ParaView visualization tools.
+
 
 ## Inputs
 
@@ -92,7 +97,10 @@ Whether to also export faces as shell elements when the mesh contains cells. Def
 - **Required:** No
 - **Expected type(s):** [`vector<string>`](../../core-concepts/dpf-types.md#standard-types), [`string_field`](../../core-concepts/dpf-types.md#string-field)
 
-List of names of mesh properties to export.
+
+List of mesh property type names (e.g., `mat`, `elshape`) to export as integer fields in the VTU output.
+Only properties available in the mesh will be exported.
+
 
 
 ## Outputs

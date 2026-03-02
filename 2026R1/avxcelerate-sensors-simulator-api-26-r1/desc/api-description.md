@@ -1,5 +1,12 @@
 # API description
 
+> **Important Note:** You are reading the documentation for AVxcelerate Sensors Simulator API v1 delivered in 2026 R1.
+>
+> To consult the documentation of the API delivered in a previous release, go to the [Ansys Developer Portal](https://developer.ansys.com/).
+>
+> Please refer to the [Changelog](../changelog/changelog.md) to get the complete list of changes introduced in this version.
+>
+
 This document is intended for developers who need to develop client applications communicating with AVxcelerate Sensors Simulator internal services in order to:
 
 - integrate AVxcelerate Sensors Simulator (AVX) in their driving simulation application,
@@ -46,10 +53,10 @@ Six control procedures (corresponding to the six possible state transitions) are
 >
 >- **LOAD** > **INIT** > n **UPDATE** > **STOP** > **INIT** > n **UPDATE** > **STOP** > **UNLOAD** > **KILL**
 >
->   In this sequence, the simulation reset BETA feature is used. It consists in sending an **INIT** command after a **STOP** command, which allows you to perform consecutive simulations without having to reload all the resources.
+>   In this sequence, the simulation reset feature is used. It consists in sending an **INIT** command after a **STOP** command, which allows you to perform consecutive simulations without having to reload all the resources.
 >   In the current release, when a simulation is reset:
 >   - only sensors and advanced lighting systems are automatically reset to their initial loaded state at each **INIT** command,
->   - the last updates on an asset or track, for example asset positions, orientations, date and time, etc., is kept unless reset in the **INIT** command,
+>   - the last updates on an asset or track, for example asset positions, orientations, date and time, etc., are kept unless you redefine them in the WorldUpdate sent in the **INIT** command,
 >   - the simulation noise is not reset, therefore consecutive simulations with a simulation reset are not deterministic.
 
 > **Prerequisite:** When the track and/or assets are not files but byte streams, you must use the  *[Resource Uploader](#resource-uploader)* service to upload resources before being able to load them.
@@ -79,7 +86,7 @@ Six control procedures (corresponding to the six possible state transitions) are
     The **KILL** command can be applied from any state. It can be used for example to end the simulation if there is a blocking problem.
     For a new simulation, AVX must be launched again after a **KILL** command.
 
-For more information on the state transition commands, please refer to the [Simulation service](./../ref/reference-documentation.md#simulation). For an implementation example, refer to [Simulation control example](#simulation-control-example).
+For more information on the state transition commands, please refer to the [Simulation service](../ref/reference-documentation.md#simulation). For an implementation example, refer to [Simulation control example](#simulation-control-example).
 
 ### Resource Uploader
 
@@ -88,11 +95,11 @@ The *Resource Uploader* service (exposed in the *upload.proto* file) is an alter
 With the *ResourceUploader* service, using the **UPLOAD** command before executing the **LOAD** command, you upload those files and send their contents as a byte array using gRPC streaming capabilities.
 The *ResourceUploader* service allows you to upload simultaneously multiple sensor configurations, lighting systems, and assets.
 
-For more information, please refer to the [ResourceUploader service](./../ref/reference-documentation.md#resourceuploader). For an implementation example, refer to [Resource Uploader example](#resource-uploader-example).
+For more information, please refer to the [ResourceUploader service](../ref/reference-documentation.md#resourceuploader). For an implementation example, refer to [Resource Uploader example](#resource-uploader-example).
 
 ### Sensors Feedback Control
 
-The *Feedback Control* service (exposed in the *feedback_control.proto* file) allows you to update sensor parameters during the simulation. It can only be used when AVX is in **RUNNING** state and has been started with the `-fbc` [process argument](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v252/en/Optis_UG_VSS/Optis/UG_VSS/R_UG_VSS_simulation_arguments.html).
+The *Feedback Control* service (exposed in the *feedback_control.proto* file) allows you to update sensor parameters during the simulation. It can only be used when AVX is in **RUNNING** state and has been started with the `-fbc` [process argument](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v261/en/Optis_UG_VSS/Optis/UG_VSS/R_UG_VSS_simulation_arguments.html).
 
 The process (external software) you will develop will be running as a closed-loop simulation to update sensor parameters.
 It will retrieve sensor outputs, analyze them and if needed adjust them for the next output produced. The update of parameters sent to AVX will depend on your algorithms and defined thresholds.
@@ -102,16 +109,10 @@ It will retrieve sensor outputs, analyze them and if needed adjust them for the 
 > Only three parameters can be updated without requiring a sensor reload: the camera gain, exposure and time encoding.
 
 The Feedback Control is available for the following sensor parameters:
-
-- All Sensors
-  
-  Sensor Protection
-    
-  > **Note:** Once enabled, the protection of a sensor cannot be undone. 
   
 - Camera Sensor
   
-  Focal length | Wavelength of Focal length | Chromatic Dispersion presets | Focal Shift | Aperture values | Distortion values | Imager resolution | Exposure time | Readout noise values | Thermal noise values | Native bit depth | Gain | Output mode values | Time encoding
+  Focal length | Wavelength of Focal length | Chromatic Dispersion presets | Focal Shift | Aperture values | Distortion values | Imager resolution | Exposure time | Readout noise values | Thermal noise values | Native bit depth | Gain | Bit Depth Reduction (for demosaicing output) or Time encoding (for injection Output)
   
 - Lidar Sensor
   
@@ -125,19 +126,22 @@ The Feedback Control is available for the following sensor parameters:
   
   - Antenna Tx/Rx: Ids | Polarization | Horizontal and Vertical power beam width | Pattern identity (File) | Peak gain
   - Mode: Id | Multiplexing Type | Waveform | Center frequency | Transmission power | Type | Preset | Filter Type | Roll-off type
-    >**Note:** You can only apply feedback control to values that have been previously set in the sensor configuration. For example, you cannot add a Range filter during the simulation, nor can you set a Roll-off parameter if it does not correspond to the Roll-off type.
-  
-  The Feedback Control also allows you to activate or deactivate a radar mode during the simulation.
-  
-  > **Tips:** To know the modes IDs of the radars included in the sensor layout, you can [read the sensor configuration](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v252/en/Optis_UG_VSS/Optis/UG_VSS/T_UG_VSS_reading_a_sensor_configuration.html) or use the Sensor Labs.
 
-The complete list of available feedback control parameters can also directly be found in [FeedbackControl service](./../ref/reference-documentation.md#feedbackcontrol). For an implementation example, refer to [Sensor Feedback Control example](#sensor-feedback-control-example).
+    > **Note:** You can only apply feedback control to values that have been previously set in the sensor configuration. For example, you cannot add a Range filter during the simulation, nor can you set a Roll-off parameter if it does not correspond to the Roll-off type.
+  
+For radar sensors, the Feedback Control also allows you to:
+
+- activate or deactivate a radar mode during the simulation
+- enable IP protection on the radar so that all of its parameters are protected (no longer readable, nor editable from the Feedback Control service)
+  > **Note:** Enabling the protection using the feedback control service is irreversible.
+
+The complete list of available feedback control parameters can also directly be found in [FeedbackControl service](../ref/reference-documentation.md#feedbackcontrol). For an implementation example, refer to [Sensor Feedback Control example](#sensor-feedback-control-example).
 
 ### Lighting System Control
 
-The *Lighting System Control* service allows you to retrieve and update lighting system parameters during the simulation. This service can only be accessed when AVX is in **RUNNING** state, has been started with the `-lsc` [process argument](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v252/en/Optis_UG_VSS/Optis/UG_VSS/R_UG_VSS_simulation_arguments.html), and when a lighting system has been loaded during the simulation configuration.
+The *Lighting System Control* service allows you to retrieve and update lighting system parameters during the simulation. This service can only be accessed when AVX is in **RUNNING** state, has been started with the `-lsc` [process argument](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v261/en/Optis_UG_VSS/Optis/UG_VSS/R_UG_VSS_simulation_arguments.html), and when a lighting system has been loaded during the simulation configuration.
 
-For more information and a complete list of available lighting system control parameters, please refer to the [Lighting System Control service](./../ref/reference-documentation.md#lightingsystemcontrol). For an implementation example, refer to [Lighting System Control Example](#lighting-system-control-example).
+For more information and a complete list of available lighting system control parameters, please refer to the [Lighting System Control service](../ref/reference-documentation.md#lightingsystemcontrol). For an implementation example, refer to [Lighting System Control Example](#lighting-system-control-example).
 
 ### Sensor data access
 
@@ -150,7 +154,7 @@ During the simulation, sensors produce data according to their assigned frequenc
 
 Notifications are sent in a **SensorDataDescription** message which contains all the needed information to identify and acquire the data produced by a sensor during a simulation step.
 
-Depending on the `output_splitting` value in the [simulation parameters message](./../ref/reference-documentation.md#simulationparameters), a sensor can produce multiple data during one single simulation step. All unique data identifiers along with some metadata are stored in the repeated `data_by_identifiers` field. The metadata contains information about the publisher's host address, the data access server port if available, and the characteristics of the data. The metadata also allows identification and filtering to access only data of interest.
+Depending on the `output_splitting` value in the [simulation parameters message](../ref/reference-documentation.md#simulationparameters), a sensor can produce multiple data during one single simulation step. All unique data identifiers along with some metadata are stored in the repeated `data_by_identifiers` field. The metadata contains information about the publisher's host address, the data access server port if available, and the characteristics of the data. The metadata also allows identification and filtering to access only data of interest.
 
 > **Notes:**
 >
@@ -158,7 +162,7 @@ Depending on the `output_splitting` value in the [simulation parameters message]
 >
 > If `data_by_identifiers` does not provide the data access server port, this means that the data is only available via shared memory.
 
-For a complete description of this service, please refer to the [SensorDataNotifier service](./../ref/reference-documentation.md#sensordatanotifier). For an implementation example, refer to [Subscription to sensor data notifications example](#subscription-to-sensor-data-notifications-example).
+For a complete description of this service, please refer to the [SensorDataNotifier service](../ref/reference-documentation.md#sensordatanotifier). For an implementation example, refer to [Subscription to sensor data notifications example](#subscription-to-sensor-data-notifications-example).
 
 #### Sensor data acquisition
 
@@ -166,17 +170,17 @@ During a simulation, the data produced by the sensors are added to a data store 
 
 Three different methods can be used to acquire the sensor data produced in a simulation:
 
-- requesting it by calling the `RequestData` method of the [DataAccess Service](./../ref/reference-documentation.md#dataaccess),
-- requesting it through stream by calling the `RequestDataStream` method of the [DataAccess Service](./../ref/reference-documentation.md#dataaccess),
+- requesting it by calling the `RequestData` method of the [DataAccess Service](../ref/reference-documentation.md#dataaccess),
+- requesting it through stream by calling the `RequestDataStream` method of the [DataAccess Service](../ref/reference-documentation.md#dataaccess),
 - accessing it directly from the shared memory.
 
 Accessing the sensor data directly from the shared memory is more performant than accessing it from the RPC. However, to access the data directly from the shared memory, the external software and AVX must be executed on the same machine. Accessing the data from the RPC through stream allows the user to bypass the 2 gigabytes limit from proto.
 
-The AVxcelerate Sensors Simulator API contains some classes that implement the data access from the shared memory for Windows and Unix-based systems and for different programming languages (C#, C++, Python). This plugin allows you to use the same service definition for access from shared memory and access via RPC. For more details refer to [DataAccess Service](./../ref/reference-documentation.md#dataaccess). For an implementation example, refer to [Sensor data acquisition example](#sensor-data-acquisition-example).
+The AVxcelerate Sensors Simulator API contains some classes that implement the data access from the shared memory for Windows and Unix-based systems and for different programming languages (C#, C++, Python). This plugin allows you to use the same service definition for access from shared memory and access via RPC. For more details refer to [DataAccess Service](../ref/reference-documentation.md#dataaccess). For an implementation example, refer to [Sensor data acquisition example](#sensor-data-acquisition-example).
 
 #### Data retention
 
-The data produced by the sensors are held in the data store until it is released. Not all the data generated by the sensors for all the simulation steps are held in the shared memory for the whole duration of the simulation in order to avoid overloading the memory. For more information, refer to [Output Data in Shared Memory](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v252/en/Optis_UG_VSS/Optis/UG_VSS/C_UG_VSS_results_shared_memory.html).
+The data produced by the sensors are held in the data store until it is released. Not all the data generated by the sensors for all the simulation steps are held in the shared memory for the whole duration of the simulation in order to avoid overloading the memory. For more information, refer to [Output Data in Shared Memory](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v261/en/Optis_UG_VSS/Optis/UG_VSS/C_UG_VSS_results_shared_memory.html).
 
 By default, the data produced in shared memory is erased and rewritten at each **INIT** command. In addition, only the two last data blocks generated by each sensor are retained in the shared memory and accessible to the data consumer application. With this default behavior, when the data for the simulation step n is created, the data for the simulation step n-2 is erased. This behavior is equivalent to setting `maxStoredData` to `2`.
 
@@ -185,15 +189,15 @@ You can opt for one of the following two strategies for data retention:
 - defining the **amount of data blocks** that are stored in parallel for each sensor (by setting the `maxStoredData` parameter),
 - defining the lifetime for the data stored in the shared memory (by setting the `retentionTimeFrame` parameter).
 
-For more details, refer to [Data Retention Strategy](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v252/en/Optis_UG_VSS/Optis/UG_VSS/C_UG_VSS_data_retention_strategy.html) in AVxcelerate Sensors User's Guide.
+For more details, refer to [Data Retention Strategy](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v261/en/Optis_UG_VSS/Optis/UG_VSS/C_UG_VSS_data_retention_strategy.html) in AVxcelerate Sensors User's Guide.
 
-The data retention strategy can be modified in the *avxcelerate.sensorprocess.dll.config* configuration file located in the AVX installation directory in *VSS/VssSpawner*. Refer to [Configuring the Data Retention Strategy](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v252/en/Optis_UG_VSS/Optis/UG_VSS/T_UG_VSS_configuring_retention_strategy.html) in AVxcelerate Sensors User's Guide.
+The data retention strategy can be modified in the *avxcelerate.sensorprocess.dll.config* configuration file located in the AVX installation directory in *VSS/VssSpawner*. Refer to [Configuring the Data Retention Strategy](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v261/en/Optis_UG_VSS/Optis/UG_VSS/T_UG_VSS_configuring_retention_strategy.html) in AVxcelerate Sensors User's Guide.
 
 #### Data format
 
-The sensor data stored in the shared memory is serialized using the [SensorData message](./../ref/reference-documentation.md#sensordata). Therefore, the data buffer, received from the data request, must be parsed using this proto contract.
+The sensor data stored in the shared memory is serialized using the [SensorData message](../ref/reference-documentation.md#sensordata). Therefore, the data buffer, received from the data request, must be parsed using this proto contract.
 
-The Camera Output (Image) and Imager Output (Injection) of physics-based camera sensors can be stored unserialized by setting the sensor parameter `serialize_data` in the [simulation parameters](./../ref/reference-documentation.md#simulationparameters) to `false`.
+The Camera Output (Image) and Imager Output (Injection) of physics-based camera sensors can be stored unserialized by setting the sensor parameter `serialize_data` in the [simulation parameters](../ref/reference-documentation.md#simulationparameters) to `false`.
 
 By default, the sensor data contains all data produced by one single sensor during one simulation step. For example, the sensor data of a lidar sensor can contain point-cloud, waveform and contribution map data, depending on the simulation parameters provided during the loading phase. However, the data produced by a radar sensor can be split per mode or per transmitter, using the `output_splitting` field in the simulation parameters. In this case, the radar data are stored in shared memory as follows:
 
@@ -213,7 +217,7 @@ The *Ground Truth Data Helper* service (exposed in the *ground_truth_data_helper
 
 #### Contribution dictionary
 
- If a lidar sensor is loaded in the simulation, with the *contribution* simulation parameter set to *true*, a contribution dictionary can be requested using the *GetContributionDictionary* rpc method, with a sensor identifier as parameter. The returned data is a *ContributionDictionary*, see the [ContributionDictionary message](./../ref/reference-documentation.md#contributiondictionary).
+ If a lidar sensor is loaded in the simulation, with the *contribution* simulation parameter set to *true*, a contribution dictionary can be requested using the *GetContributionDictionary* rpc method, with a sensor identifier as parameter. The returned data is a *ContributionDictionary*, see the [ContributionDictionary message](../ref/reference-documentation.md#contributiondictionary).
 
 #### Pixel segmentation tag color map
 
@@ -221,7 +225,7 @@ The *Ground Truth Data Helper* service (exposed in the *ground_truth_data_helper
 
 > **Notes:**
 >
-> Same TagColorMap data can be used in SimulationParameters.PixelSegmentationMapping to freely assign tag/color associations. All tags that are not associated with a color by the user are automatically assigned with a unique color by AVxcelerate Sensors Simulator.
+> Same TagColorMap data can be used in SimulationParameters. PixelSegmentationMapping to freely assign tag/color associations. All tags that are not associated with a color by the user are automatically assigned with a unique color by AVxcelerate Sensors Simulator.
 >
 > The tag/color map is common to all camera sensors.
 
@@ -242,18 +246,262 @@ The following sections will give you guidance on how to use the different interf
 
 1. Compile all the needed protobuf contracts. Please follow the instructions on the Protocol Buffers and gRPC websites. There are several tutorials and documentation available.
 1. Include the generated code into your project.
+1. Launch AVxcelerate Sensors Simulator with the [simulation process arguments](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v261/en/Optis_UG_VSS/Optis/UG_VSS/R_UG_VSS_simulation_arguments.html) required for the [transport mode](#transport-modes) you want to use. Refer to:
+    - [Launching AVxcelerate Sensors Simulator with the UDS transport mode](#launching-avxcelerate-sensors-simulator-with-the-uds-transport-mode)
+    - [Launching AVxcelerate Sensors Simulator with the mTLS transport mode](#launching-avxcelerate-sensors-simulator-with-the-mtls-transport-mode)
+    - [Launching AVxcelerate Sensors Simulator with the insecure transport mode](#launching-avxcelerate-sensors-simulator-with-the-insecure-transport-mode)
+    > **Note**: Additional simulation process arguments are required for the Sensor Feedback Control service (`-fbc`), the Lighting System Control service (`-lsc`) and to start the Sensor Data Access server (`-d <PORT>`).
+1. Create a gRPC channel, see:
+    - [Creating a gRPC channel to communicate over UDS](#creating-a-grpc-channel-to-communicate-over-uds)
+    - [Creating a gRPC channel to communicate over mTLS](#creating-a-grpc-channel-to-communicate-over-mtls)
+    - [Creating a gRPC channel to communicate over gRPC/HTTP2](#creating-a-grpc-channel-to-communicate-over-grpchttp2)
+ 
+    > **Note:** A gRPC channel should be reused for multiple calls to the server to optimize performance and resource usage. For more details on best practices and additional configuration options, refer to the [gRPC for .NET documentation](https://docs.microsoft.com/en-us/aspnet/core/grpc/?view=aspnetcore-5.0).
 
 Then, you can start implementing your own logic.
 
 ### AVX internal gRPC server
 
-When AVxcelerate Sensors Simulator is launched with the `-p` and `-h` arguments specifying the port and host address of the server, the internal gRPC server listens for client requests on the specified host and port.
+#### Transport modes
 
-> **Note:** Ensure that the port is an integer, not currently in use, and not blocked by any firewall.
+Any client application that will communicate with the AVxcelerate Sensor Simulator internal gRPC server over a gRPC channel must be configured with the same transport mode that the one set when launching AVxcelerate Sensors Simulator.
 
-To interact with AVxcelerate Sensors Simulator using the gRPC services provided in the API, you need to implement a new gRPC client. This client will connect through a channel, which is an HTTP/2 connection established with the server.
+By default, the transport mode set for the AVX internal server is [Unix Domain System (UDS)](#uds-transport-mode). With this transport mode, the AVX internal gRPC server and the client applications must run on the same workstation.
 
-Here's how you can configure a gRPC .NET channel:
+Alternatively, you could either use [mutual Transport Layer security (mTLS)](#mtls-transport-mode) or the [insecure](#insecure-transport-mode) transport mode.
+
+#### UDS transport mode
+
+The Unix Domain Socket (UDS) transport mode is usable only when the client applications and AVxcelerate Sensors Simulator run on the same workstation. The UDS transport mode is therefore not suitable for co-simulation between AVxcelerate Sensors Simulator and CarMaker HiL.
+
+When the transport mode is set to UDS, a UDS socket file is automatically created when the AVX gRPC internal server is started. The default name of the socket file is vss.sock and its default location is *[USER_HOME_DIRECTORY]/.conn*.
+
+Optionally, you can define a custom location and/or an identifier for the socket file using the dedicated arguments `--uds-dir`and `--uds-id`. When an identifier is defined, the socket file is named *vss-<uds-id>.sock*.
+
+> **Note**: The maximum length of the full path to the socket file (file name included) is 107 characters on Linux and Windows. Space and special characters are not allowed in the directory path, nor in the identifier.
+
+The AVX internal server cannot start if the socket file is already in use by another application.
+
+#### Launching AVxcelerate Sensors Simulator with the UDS transport mode
+
+To use the UDS transport mode, you can launch AVxcelerate Sensors Simulator with no argument, since it is the default transport mode that is used when the `-t` | `--transport-mode` argument is not specified.
+
+You can specify the following optional arguments:
+
+- `--uds-dir` followed by the directory path in which the socket file will be created. This argument is optional, when not set, the socket file is created in *[USER_HOME_DIRECTORY]/.conn*.
+- `--uds-id` followed by the identifier for the socket file. This argument is optional, when not set, the name of the socket file is _vss.sock_.
+
+Example to start the server with the UDS transport mode and its default settings using PowerShell on Windows:
+
+```ps
+PS C:\Program Files\ANSYS Inc\v261\Autonomy\AVxcelerateSensors\VSS>.\avxcelerate.sensorssimulator.exe 
+```
+
+Example to start the server with the UDS transport mode and specific UDS settings using PowerShell on Windows:
+
+```ps
+PS C:\Program Files\ANSYS Inc\v261\Autonomy\AVxcelerateSensors\VSS>.\avxcelerate.sensorssimulator.exe --uds-dir "C:\ProgramData\uds_socket_files" --uds-id myUdsSocket
+```
+
+##### Creating a gRPC channel to communicate over UDS
+
+To be able to communicate with the AVX internal server, your custom client applications must use a gRPC channel configured for the UDS transport mode.
+
+The following example demonstrates how to create a gRPC channel in C# using Grpc.Net version 2.65.0 to communicate with the AVX internal server over UDS transport mode.
+
+```cs
+using System.Net.Http;
+using System.Net.Sockets;
+using Grpc.Net.Client;
+// Socket path created by the server:
+// - default (no flags): ~/.conn/vss.sock
+// - with --udsId=ID: ~/.conn/vss-<ID>.sock
+// - with --udsDir=/path: /path/vss.sock
+// - with both --udsDir and --udsId: /path/vss-<ID>.sock
+string socketPath = @"<absolute-path-to-socket>";
+// Create an HTTP handler that dials the Unix Domain Socket
+var httpHandler = new SocketsHttpHandler
+{
+ConnectCallback = async (_, cancellationToken) =>
+{
+var socket = new Socket(AddressFamily.Unix, SocketType.Stream,
+ProtocolType.Unspecified);
+await socket.ConnectAsync(new UnixDomainSocketEndPoint(socketPath),
+cancellationToken);
+return new NetworkStream(socket, ownsSocket: true);
+}
+};
+// Use a placeholder base address; transport is UDS via ConnectCallback
+var channel = GrpcChannel.ForAddress("http://localhost", new GrpcChannelOptions
+{
+HttpHandler = httpHandler,
+MaxReceiveMessageSize = null //No gRPC limit on the size of response messages
+(default is 4 MB)
+});
+await channel.ConnectAsync(TimeSpan.FromSeconds(5));
+```
+
+The gRPC channel you created can now be used to communicate with the AVX internal server.
+
+> **Tips**: After stopping the AVX internal gRPC server, make sure that socket files previously created
+have been properly deleted. If not, delete the file(s) manually to prevent issues.
+
+#### mTLS transport mode
+
+With the mTLS transport mode, you need TLS certificates on both the client side and the server side to secure the connection.
+
+##### Generating mTLS certificates
+
+The following certificate and key files are required:
+
+- *server.crt*: the server certificate file
+- *server.key*: the server key file
+- *client.crt*: the client certificate file
+- *client.key*: the client key file
+- *ca.crt*: the Certification Authority certificate file
+
+All the above-listed files must be saved on the workstation running AVxcelerate Sensors Simulator either:
+
+- In any folder, then you must define the path to the folder in which you saved the certificate and key files, using one of the two below-listed methods:
+    - Using the `-c` | `--certs-folder` argument when launching AVxcelerate Sensors Simulator followed by the path (for more details see below),
+    - In an environment variable named ANSYS_GRPC_CERTIFICATES,
+- In a sub-folder named certs located in the same repository as the AVxcelerate Sensors Simulator executable.
+
+Additionally, when the client application and AVxcelerate Sensors Simulator run on different workstations, the *client.crt*, *client.key* and *ca.crt* files must also be saved on the workstation on which the client application runs.
+
+> **Note**: Make sure that the certificates folder path does not include space characters, as such characters are not properly supported for co-simulation with CarMaker, nor for using the Track Exporter feature.
+
+##### Launching AVxcelerate Sensors Simulator with the mTLS transport mode
+
+To use the mTLS transport mode, launch AVxcelerate Sensors Simulator with the following arguments:
+
+- `-p` | `--port` followed by the TCP port on which the AVX internal server will listen for client requests
+    > **Note**: The value must be an integer in the range 1024 to 65535, the port must not be currently in use and not blocked by any firewall.
+- `-h` | `--host` followed by the host name – or IP address (IPv4) – of the workstation on which AVxcelerate Sensors Simulator will run. The default value for this argument is *localhost*.
+- `-t` | `--transport-mode` followed by `mtls`.
+- `-c` | `--certs-folder` followed by the path to the folder where the certificate files are saved. This argument is optional, when not set the path to the certificate files must be defined in the ANSYS_GRPC_CERTIFICATES environment variable, or the files must be saved in a certs sub-folder inside the software’s repository.
+
+Example to start the server with the mTLS transport mode and a custom location for the certificate and key files using PowerShell on Windows:
+
+```ps
+PS C:\Program Files\ANSYS Inc\v261\Autonomy\AVxcelerateSensors\VSS>.\avxcelerate.sensorssimulator.exe -p 5050 -h 192.168.120.006 -t mtls -c "C:\certs"
+```
+
+##### Loading the certificates
+
+If you use custom client applications to communicate with the AVX internal gRPC server, such as custom connectors for your driving simulator or feedback control applications, you must modify them so that they load the certificate and key files.
+
+The following example demonstrates how to load certificate and key files on the client’s side in C# using using Grpc.Net version 2.65.0.
+
+```cs
+using System.Security.Cryptography.X509Certificates;
+// Load client certificate (PEM cert + PEM key) cross-platform
+static X509Certificate2 LoadClientCertificateFromPem(string clientCrtPath, string
+clientKeyPath)
+{
+string certPem = File.ReadAllText(clientCrtPath);
+string keyPem = File.ReadAllText(clientKeyPath);
+// Combine cert + key from PEM
+var certWithKey = X509Certificate2.CreateFromPem(certPem, keyPem);
+// On Windows, export to PFX to avoid ephemeral key issues
+if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
+{
+using (certWithKey)
+{
+return new X509Certificate2(certWithKey.Export(X509ContentType.Pfx));
+}
+}
+return certWithKey;
+}
+// Paths to your existing certificate files
+string clientCrtPath = @"<path>/client.crt";
+string clientKeyPath = @"<path>/client.key";
+string caCrtPath = @"<path>/ca.crt";
+// Load client cert (with private key) and the CA cert
+X509Certificate2 clientCertificate = LoadClientCertificateFromPem(clientCrtPath,
+clientKeyPath);
+X509Certificate2 caCertificate = new X509Certificate2(caCrtPath);
+```
+
+##### Creating a gRPC channel to communicate over mTLS
+
+To be able to communicate with the AVX internal server, your custom client applications must use a gRPC channel configured for the mTLS transport mode.
+
+The following example demonstrates how to create a gRPC channel in C# using Grpc.Net version 2.65.0 to communicate with the AVX internal server over mTLS transport mode.
+
+```cs
+// Target AVX internal server (same host/port you used to launch it)
+string hostname = "<server-ip-or-hostname>";
+int port = 5050;
+var handler = new SocketsHttpHandler
+{
+SslOptions = new SslClientAuthenticationOptions
+{
+ClientCertificates = new X509CertificateCollection { clientCertificate },
+// Validate server cert against our CA
+RemoteCertificateValidationCallback = (_, serverCert, _, sslErrors) =>
+{
+if (serverCert is null)
+{
+return false;
+}
+var chain = new X509Chain
+{
+ChainPolicy =
+{
+RevocationMode = X509RevocationMode.NoCheck,
+VerificationFlags =
+X509VerificationFlags.AllowUnknownCertificateAuthority
+}
+};
+chain.ChainPolicy.ExtraStore.Add(caCertificate);
+bool isValid = chain.Build(new X509Certificate2(serverCert));
+bool trusted = chain.ChainElements.Any(e => e.Certificate.Thumbprint ==
+caCertificate.Thumbprint);
+return isValid && trusted;
+}
+}
+};
+var channel = GrpcChannel.ForAddress($"https://{hostname}:{port}", new
+GrpcChannelOptions
+{
+HttpHandler = handler,
+MaxReceiveMessageSize = null //No gRPC limit on the size of response messages
+(default is 4 MB)
+});
+await channel.ConnectAsync(TimeSpan.FromSeconds(5));
+```
+
+> **Note**: This example does not check every SSL error. If you want to add further checks, please refer to the Microsoft documentation [SslPolicyErrors Enum](https://learn.microsoft.com/en-us/dotnet/api/system.net.security.sslpolicyerrors?view=net-9.0).
+
+The gRPC channel you created can now be used to communicate with the AVX internal server.
+
+#### Insecure transport mode
+
+Alternatively to the mTLS or UDS transport mode, you may use the insecure transport mode to communicate with the AVX internal server.
+
+> **Important note**: Using the insecure transport mode is not recommended.
+
+##### Launching AVxcelerate Sensors Simulator with the insecure transport mode
+
+To use the insecure transport mode, you must launch AVxcelerate Sensors Simulator with the following arguments:
+
+- `-t` | `--transport-mode` `insecure`
+- `-p` | `--port` followed by the TCP port on which the AVX internal server will listen for client requests
+    > **Note**: The value must be an integer in the range 1024 to 65535, the port must not be currently in use and not blocked by any firewall.
+- `-h` | `--host` followed by the host name – or IP address (IPv4) – of the workstation on which AVxcelerate Sensors Simulator will run. This argument is optional; its default value is *localhost*.
+
+Example to start the server with the insecure transport mode using PowerShell on Windows:
+
+```ps
+PS C:\Program Files\ANSYS Inc\v261\Autonomy\AVxcelerateSensors\VSS>.\avxcelerate.sensorssimulator.exe -p 5050 -h 192.168.120.006 -t insecure
+```
+
+##### Creating a gRPC channel to communicate over gRPC/HTTP2
+
+With the insecure transport mode, the client application connects to the AVX internal server through a gRPC .NET channel.
+
+The following example demonstrates how to create a gRPC channel in C#:
 
 ```cs
 using Grpc.Net.Client;
@@ -276,25 +524,16 @@ catch (AggregateException e)
 ```
 
 - **GrpcChannel.ForAddress**: This method creates a channel that targets a specific server address. The connection uses HTTP/2 as per gRPC specifications.
+    > **Warning**: Specifying a hostname other than `localhost` or an IP address other than `127.0.0.1` enables remote access to this machine, which may expose it to unauthorized control and compromise sensitive data. To mitigate security risks, it is strongly advised to use these settings only within a trusted and secure network environment.
 - **GrpcChannelOptions**: This object allows you to configure various settings of the channel. Here, `MaxReceiveMessageSize` is set to `null` to remove any limit on the size of the messages that the client can receive. This setting is beneficial in scenarios where you expect to receive large data payloads that exceed the default size limits.
   > **Note:** By default, the maximum message size limit in gRPC is 4 MB. For more details, refer to the [Message size limits in gRPC](https://learn.microsoft.com/en-us/aspnet/core/grpc/security?view=aspnetcore-8.0#message-size-limits).
 - **ConnectAsync**: This method asynchronously starts the HTTP/2 connection to the server. It's recommended to handle potential timeouts or exceptions to ensure robust client behavior.
-  
-> **Note:** A gRPC channel should be reused for multiple calls to the server to optimize performance and resource usage. For more details on best practices and additional configuration options, refer to the [gRPC for .NET documentation](https://docs.microsoft.com/en-us/aspnet/core/grpc/?view=aspnetcore-5.0).
 
-This channel will be used in the following client implementation examples.
+The gRPC channel you created can now be used to communicate with the AVX internal server.
 
 ### Simulation control example
 
-#### Prerequisites
-
-- The [preliminary steps](#preliminary-steps) are done: *simulation.proto* is compiled and included in your project.
-- The gRPC channel is already [created](#avx-internal-grpc-server).
-- AVX is started with the following [process arguments](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v252/en/Optis_UG_VSS/Optis/UG_VSS/R_UG_VSS_simulation_arguments.html):
-  - `-p` followed by the port of the AVX internal gRPC server
-  - when the client application is running on another machine, `-h` followed by the IP address of the machine on which AVX internal gRCP server is running.
-
-#### Steps
+**Prerequisites**: The [preliminary steps](#preliminary-steps) are done. *simulation.proto* is compiled and included in your project.
 
 1. Instantiate the `Simulation.SimulationClient` class from the gRPC channel. The class `SimulationClient` is generated from the protobuf contract which defines the *Simulation* service.
 
@@ -319,24 +558,16 @@ This channel will be used in the following client implementation examples.
     // ...
     ```
 
-1. Implement your logic according to your needs. Refer to the [Simulation service](./../ref/reference-documentation.md#simulation).
+1. Implement your logic according to your needs. Refer to the [Simulation service](../ref/reference-documentation.md#simulation).
 1. At the end of the simulation close the channel and dispose of all objects.
 1. Implement an error processing that sends a **KILL** command to stop AVX properly if something goes wrong in your code, otherwise AVX processes will not be closed properly, thus preventing the application from restarting.
 
-> **Note:** **LOAD** must always be the first command sent to AVX, except if you use the **UPLOAD** command of the *ResourceUploader Service* prior to the **LOAD** command. For more information about using the the *ResourceUploader Service*, refer to [Resource Uploader example](#resource-uploader-example).
+> **Note:** **LOAD** must always be the first command sent to AVX, except if you use the **UPLOAD** command of the *ResourceUploader Service* prior to the **LOAD** command. For more information about using the *ResourceUploader Service*, refer to [Resource Uploader example](#resource-uploader-example).
 > **KILL** must be the last command sent to AVX.
 
 ### Resource Uploader example
 
-#### Prerequisites
-
-- The [preliminary steps](#preliminary-steps) are done: *upload.proto* is compiled and included in your project.
-- The gRPC channel is already [created](#avx-internal-grpc-server).
-- AVX is started with the following [process arguments](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v252/en/Optis_UG_VSS/Optis/UG_VSS/R_UG_VSS_simulation_arguments.html):
-  - `-p` followed by the port of the AVX internal gRPC server
-  - when the client application is running on another machine, `-h` followed by the IP address of the machine on which AVX internal gRCP server is running.
-
-#### Steps
+**Prerequisites**: The [preliminary steps](#preliminary-steps) are done. *upload.proto* is compiled and included in your project.
 
 1. Instantiate the `ResourceUploader.ResourceUploaderClient` class from the gRPC channel. The class `ResourceUploaderClient` is generated from the protobuf contract defining the *ResourceUploader* service.
 
@@ -423,16 +654,7 @@ This channel will be used in the following client implementation examples.
 
 ### Sensor Feedback Control example
 
-#### Prerequisites
-
-- The [preliminary steps](#preliminary-steps) are done: *feedback_control.proto* is compiled and included in your project.
-- The gRPC channel is already [created](#avx-internal-grpc-server).
-- AVX is started with the following [process arguments](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v252/en/Optis_UG_VSS/Optis/UG_VSS/R_UG_VSS_simulation_arguments.html):
-  - `-p` followed by the port of the AVX internal gRPC server
-  - when the client application is running on another machine, `-h` followed by the IP address of the machine on which AVX internal gRCP server is running.
-  - `-fbc`
-
-#### Steps
+**Prerequisites**: The [preliminary steps](#preliminary-steps) are done. *feedback_control.proto* is compiled and included in your project. AVxcelerate Sensors Simulator has been launched with the `-fbc` simulation process argument.
 
 1. Instantiate the `FeedbackControl.FeedbackControlClient` class from the gRPC channel. The class `FeedbackControlClient` is generated from the protobuf contract which defines the *FeedbackControl* service.
 
@@ -471,20 +693,11 @@ This channel will be used in the following client implementation examples.
     // status.Code == StatusCode.Success -> go on with your logic
     ```
 
-1. Implement your logic according to your needs. Refer to the [FeedbackControl service](./../ref/reference-documentation.md#feedbackcontrol).
+1. Implement your logic according to your needs. Refer to the [FeedbackControl service](../ref/reference-documentation.md#feedbackcontrol).
 
 ### Lighting System Control example
 
-#### Prerequisites
-
-- The [preliminary steps](#preliminary-steps) are done: *lighting_system_control.proto* is compiled and included in your project.
-- The gRPC channel is already [created](#avx-internal-grpc-server).
-- AVX is started with the following [process arguments](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v252/en/Optis_UG_VSS/Optis/UG_VSS/R_UG_VSS_simulation_arguments.html):
-  - `-p` followed by the port of the AVX internal gRPC server
-  - when the client application is running on another machine, `-h` followed by the IP address of the machine on which AVX internal gRCP server is running.
-  - `-lsc`
-
-#### Steps
+**Prerequisites**: The [preliminary steps](#preliminary-steps) are done. *lighting_system_control.proto* is compiled and included in your project. AVxcelerate Sensors Simulator has been launched with the `-lsc` simulation process argument.
 
 1. Instantiate the `LightingSystemControl.LightingSystemControlClient` class from the gRPC channel. The class `LightingSystemControlClient` is generated from the protobuf contract which defines the *LightingSystemControl* service.
 
@@ -498,16 +711,11 @@ This channel will be used in the following client implementation examples.
     - Set request to update lighting system parameters by calling the `LightingSystemControl.LightingSystemControlClient.Set()` method with appropriate parameters and get the feedback status.
     - Get request to retrieve the current lighting system state by calling the `LightingSystemControl.LightingSystemControlClient.Set()` method with appropriate parameters.
 
-1. Implement your logic according to your needs. Refer to the [Lighting System Control service](./../ref/reference-documentation.md#LightingSystemControl) service.
+1. Implement your logic according to your needs. Refer to the [Lighting System Control service](../ref/reference-documentation.md#LightingSystemControl).
 
 ### Subscription to sensor data notifications example
 
-#### Prerequisites
-
-- The [preliminary steps](#preliminary-steps) are done: *sensor_data_output_notification.proto* is compiled and included in your project.
-- The gRPC channel is already [created](#avx-internal-grpc-server).
-
-#### Steps
+**Prerequisites**: The [preliminary steps](#preliminary-steps) are done. *sensor_data_output_notification.proto* is compiled and included in your project.
 
 1. Instantiate the `SensorDataNotifier.SensorDataNotifierClient` class from the gRPC channel. The class `SensorDataNotifierClient` is generated from the protobuf contract which defines the *SensorDataNotifier* service.
 
@@ -555,7 +763,7 @@ You can access the sensor data in two different ways depending on your use case.
 
     You end up with an *xxx.shm.h*| *xxx.shm.cs* | *xxx.shm.py* file.
 
-    You can of course enrich an existing `protoc` command line (generating gRPC files) with `--shm_out` and `-plugin=protoc-gen-shm` options. Then you will end up with an extra xxx.shm.h|cs|py file, along with well-known generated ones ie *xxx.pb*, *xxx.grpc.pb* & *xxx.grpc.pb*.
+    You can of course enrich an existing `protoc` command line (generating gRPC files) with `--shm_out` and `-plugin=protoc-gen-shm` options. Then you will end up with an extra xxx.shm.h|cs|py file, along with well-known generated ones i.e. *xxx.pb*, *xxx.grpc.pb* & *xxx.grpc.pb*.
 
     > **Note:** The function signature in generated `.shm` files shall be compatible with gRPC function signature.
     > Thus, when you generate both `.shm` and gRPC files, it is recommended to use the same gRPC version that the Shm plugin version.
@@ -610,15 +818,7 @@ You can access the sensor data in two different ways depending on your use case.
 
 #### Accessing the sensor data using the RPC
 
-##### Prerequisites
-
-- The [preliminary steps](#preliminary-steps) are done: are done: *sensor_data_access.proto*, *sensor_data_buffer.proto* and *sensor_data.proto* are compiled and included in your project.
-- AVX is started with the following [process argument](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v252/en/Optis_UG_VSS/Optis/UG_VSS/R_UG_VSS_simulation_arguments.html):
-  - `-p` followed by the port of the AVX internal gRPC server
-  - when the client application is running on another machine, -h followed by the IP address of the machine on which AVX internal gRCP server is running.
-  - `-d`
-
-##### Steps
+**Prerequisites**: The [preliminary steps](#preliminary-steps) are done. *sensor_data_access.proto*, *sensor_data_buffer.proto* and *sensor_data.proto* are compiled and included in your project. AVxcelerate Sensors Simulator has been launched with the `-d <PORT>` simulation process argument.
 
 1. Create a gRPC channel to communicate with the **Data access server**.
 
@@ -632,6 +832,8 @@ You can access the sensor data in two different ways depending on your use case.
         MaxReceiveMessageSize = null,  //No gRPC limit on the size of response messages (default is 4 MB)
     });
     ```
+
+    > **Warning**: Specifying a hostname other than `localhost` or an IP address other than `127.0.0.1` enables remote access to this machine, which may expose it to unauthorized control and compromise sensitive data. To mitigate security risks, it is strongly advised to use these settings only within a trusted and secure network environment.
 
 1. Instantiate the `DataAccessClient` class from the gRPC channel. The class `DataAccessClient` is generated from the Protobuf contract which defines the *DataAccess* service.
 
@@ -705,12 +907,7 @@ You can access the sensor data in two different ways depending on your use case.
 
 ### Ground Truth Data Helper example
 
-#### Prerequisites
-
-- The [preliminary steps](#preliminary-steps) are done: *ground_truth_data_helper.proto* is compiled and included in your project.
-- The gRPC channel is already [created](#avx-internal-grpc-server).
-
-#### Steps
+**Prerequisites**: The [preliminary steps](#preliminary-steps) are done.  *ground_truth_data_helper.proto* is compiled and included in your project.
 
 1. Instantiate the `GroundTruthDataHelper.GroundTruthDataHelperClient` class from the gRPC channel. The class `GroundTruthDataHelperClient` is generated from the protobuf contract which defines the *GroundTruthDataHelper* service.
 
@@ -724,4 +921,4 @@ At any time in **Loaded** or **Running** state you can send a:
     - `GetContributionDictionary` request to retrieve the current contribution dictionary of a lidar by calling the `GroundTruthDataHelper.GroundTruthDataHelperClient.GetContributionDictionary(SensorIdentifier)` method with the wanted sensor identifier.
     - `GetPixelSegmentationTagColorMap` request to retrieve the tag/color map used in the camera pixel segmentation algorithm by calling the `GroundTruthDataHelper.GroundTruthDataHelperClient.GetPixelSegmentationTagColorMap (new Empty())`.
 
-1. Implement your logic according to your needs. Refer to the [GroundTruthDataHelper service](./../ref/reference-documentation.md#groundtruthdatahelper).
+1. Implement your logic according to your needs. Refer to the [GroundTruthDataHelper service](../ref/reference-documentation.md#groundtruthdatahelper).

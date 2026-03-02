@@ -2,6 +2,6 @@
 
 <a id="compolyx.ParallelSelectionRule.serialize"></a>
 
-#### ParallelSelectionRule.serialize()
+## ParallelSelectionRule.serialize()
 
 Serialize to Python string.

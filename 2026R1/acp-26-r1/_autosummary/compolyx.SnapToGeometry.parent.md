@@ -2,6 +2,6 @@
 
 <a id="compolyx.SnapToGeometry.parent"></a>
 
-#### *property* SnapToGeometry.parent
+## *property* SnapToGeometry.parent
 
-Parent object in tree
+Parent object in the tree.

@@ -3,6 +3,7 @@
 ## A
 
 * [activity_factory.h](activity__factory_8h.md#activity__factory_8h)
+* [autonomy_msg.h](autonomy__msg_8h.md#autonomy__msg_8h)
 * [autonomy_sim_instance_creator.h](autonomy__sim__instance__creator_8h.md#autonomy__sim__instance__creator_8h)
 * [autonomy/communication/topic_registry/topic_registry.h](autonomy_2communication_2topic__registry_2topic__registry_8h.md#autonomy_2communication_2topic__registry_2topic__registry_8h): © 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 * [avx_sensor_data_player.h](avx__sensor__data__player_8h.md#avx__sensor__data__player_8h)
@@ -25,6 +26,7 @@
 
 ## D
 
+* [dds_to_autonomy_msg_converter.h](dds__to__autonomy__msg__converter_8h.md#dds__to__autonomy__msg__converter_8h)
 * [distance_calculator.cpp](distance__calculator_8cpp.md#distance__calculator_8cpp)
 * [distance_calculator.h](distance__calculator_8h.md#distance__calculator_8h)
 * [distance_driven_evaluator.cpp](distance__driven__evaluator_8cpp.md#distance__driven__evaluator_8cpp)
@@ -106,4 +108,5 @@
 
 ## V
 
+* [vehicle_control_input_msg.h](vehicle__control__input__msg_8h.md#vehicle__control__input__msg_8h)
 * [version.h](version_8h.md#version_8h)

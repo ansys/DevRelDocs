@@ -1,0 +1,6 @@
+## Version 0.1.0: Initial release
+
+v0.1.0 of the AVxcelerate Resource Manager REST API has been officially released as part of the 2025 R2.2 release.
+
+The AVxcelerate Resource Manager REST API v0.1.0 is compatible with the AVX Architecture V2.
+

@@ -1,4 +1,4 @@
-# File logger\_verbose.h
+# File logger_verbose.h
 
 <a id="logger__verbose_8h"></a>
 

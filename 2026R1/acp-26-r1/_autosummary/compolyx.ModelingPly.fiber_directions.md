@@ -2,6 +2,6 @@
 
 <a id="compolyx.ModelingPly.fiber_directions"></a>
 
-#### *property* ModelingPly.fiber_directions
+## *property* ModelingPly.fiber_directions
 
-Get the Fiber Directions of the Modeling Ply
+Returns the Fiber Directions of the modeling ply.

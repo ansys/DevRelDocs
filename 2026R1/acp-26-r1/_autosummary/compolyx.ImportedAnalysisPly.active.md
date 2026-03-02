@@ -2,6 +2,6 @@
 
 <a id="compolyx.ImportedAnalysisPly.active"></a>
 
-#### *property* ImportedAnalysisPly.active
+## *property* ImportedAnalysisPly.active
 
-active status of object
+Active status of the object.

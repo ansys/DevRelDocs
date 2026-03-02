@@ -2,6 +2,6 @@
 
 <a id="compolyx.ImportedSolidModel.vertex"></a>
 
-#### *property* ImportedSolidModel.vertex
+## *property* ImportedSolidModel.vertex
 
-This will throw an error if the object has been removed from the graph.
+Raises an error if the object has been removed from the graph.

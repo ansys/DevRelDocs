@@ -13,9 +13,10 @@ Input scalar data provides read and write access to an array of scalar data. To 
 
 
 
+
 ```fortran
 type(SyscInputScalarDataF) :: isd
-isd = syscGetInputScalarDataF(array, arraySize)
+isd = syscgetinputscalardataf(array, arraysize)
 ```
 
 ## Members
@@ -33,9 +34,11 @@ isd = syscGetInputScalarDataF(array, arraySize)
 
 **Definition**: `syscInputScalarDataF.fi` (line 26)
 
+
 ```fortran
 integer(kind=8) primitivetype
 ```
+
 
 Primitive type.
 
@@ -52,9 +55,11 @@ Primitive type.
 
 **Definition**: `syscInputScalarDataF.fi` (line 27)
 
+
 ```fortran
 integer(kind=8) dataptr
 ```
+
 
 Pointer to the data array.
 
@@ -71,9 +76,11 @@ Pointer to the data array.
 
 **Definition**: `syscInputScalarDataF.fi` (line 28)
 
+
 ```fortran
 integer(kind=8) datasize
 ```
+
 
 Array size.
 

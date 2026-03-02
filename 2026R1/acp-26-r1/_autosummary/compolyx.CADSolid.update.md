@@ -2,6 +2,6 @@
 
 <a id="compolyx.CADSolid.update"></a>
 
-#### CADSolid.update()
+## CADSolid.update()
 
-Update the CadComponent.
+Update the CAD component.

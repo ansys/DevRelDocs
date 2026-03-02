@@ -11,18 +11,20 @@ Provide an interface to get side two region from a coupling interface.
 
 ## Members
 
-* [sysccouplinginterfacegetsidetworegionf](interfacefortran_1_1sysccouplinginterfacegetsidetworegionf.md#interfacefortran_1_1sysccouplinginterfacegetsidetworegionf_1afff5d4564fa194bbf1493b0505f910b4)
+* [sysccouplinginterfacegetsidetworegionf](interfacefortran_1_1sysccouplinginterfacegetsidetworegionf.md#interfacefortran_1_1sysccouplinginterfacegetsidetworegionf_1a6c0ec26d5adfd97fdf8423f16baa238d)
 
 ## Public functions
 
-<a id="interfacefortran_1_1sysccouplinginterfacegetsidetworegionf_1afff5d4564fa194bbf1493b0505f910b4"></a>
+<a id="interfacefortran_1_1sysccouplinginterfacegetsidetworegionf_1a6c0ec26d5adfd97fdf8423f16baa238d"></a>
 ### Function sysccouplinginterfacegetsidetworegionf
 
 ![][public]
 
+
 ```fortran
-type(syscregionf) function sysccouplinginterfacegetsidetworegionf(couplingInterface, index)
+type(syscregionf) function sysccouplinginterfacegetsidetworegionf(couplinginterface, index)
 ```
+
 
 Get side two region from a coupling interface.
 
@@ -32,8 +34,8 @@ Get side two region from a coupling interface.
 
 **Parameters**:
 
-* couplingInterfacecouplingInterface
-* indexindex
+* couplinginterfacetype([sysccouplinginterfacef](structfortran_1_1sysccouplinginterfacef.md#structfortran_1_1sysccouplinginterfacef)), intent(in)
+* indexinteger(kind=8), intent(in)
 
 **Return type**: type([syscregionf](structfortran_1_1syscregionf.md#structfortran_1_1syscregionf)) function
 

@@ -1,4 +1,4 @@
-# File dvs\_object\_interface.h
+# File dvs_object_interface.h
 
 <a id="dvs__object__interface_8h"></a>
 

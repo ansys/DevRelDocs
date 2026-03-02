@@ -2,6 +2,6 @@
 
 <a id="compolyx.SphericalSelectionRule.active"></a>
 
-#### *property* SphericalSelectionRule.active
+## *property* SphericalSelectionRule.active
 
-active status of object
+Active status of the object.

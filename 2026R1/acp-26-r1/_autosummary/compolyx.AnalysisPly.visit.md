@@ -2,14 +2,13 @@
 
 <a id="compolyx.AnalysisPly.visit"></a>
 
-#### AnalysisPly.visit(visitor)
+## AnalysisPly.visit(visitor)
 
-Walk through the tree and let the visitor perform action on every
-descendant node.
+Walk through the tree and applies the visitor to every descendant node.
 
-* **Parameters:**
+### Parameters
 
-    - visitor: A callable which accepts a TreeNode instance as parameter
-* **Returns:**
-    - True if the visitor returned True for at least one descendant/linked node.
+- visitor: A callable which accepts a TreeNode instance as parameter
+
+Returns True if the visitor returned True for at least one descendant/linked node.
 If this is the case, the tree traversal is pruned.

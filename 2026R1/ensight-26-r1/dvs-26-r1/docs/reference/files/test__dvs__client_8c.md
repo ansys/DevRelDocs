@@ -1,4 +1,4 @@
-# File test\_dvs\_client.c
+# File test_dvs_client.c
 
 <a id="test__dvs__client_8c"></a>
 
@@ -81,7 +81,7 @@ click 1 "test__dvs__client_8c.md#test__dvs__client_8c"
 ## Macros
 
 <a id="test__dvs__client_8c_1ae71449b1cc6e6250b91f539153a7a0d3"></a>
-### Macro M\_PI
+### Macro M_PI
 
 ![][public]
 
@@ -100,7 +100,7 @@ click 1 "test__dvs__client_8c.md#test__dvs__client_8c"
 ## Functions
 
 <a id="test__dvs__client_8c_1aae64bd0c132a92bc351c373dba929ec5"></a>
-### Function logging\_function
+### Function logging_function
 
 ![][public]
 ![][static]

@@ -2,6 +2,6 @@
 
 <a id="compolyx.Script.is_list_item"></a>
 
-#### *property* Script.is_list_item
+## *property* Script.is_list_item
 
-Specifies whether the object is an item of a list
+Indicates whether the object is an item of a list.

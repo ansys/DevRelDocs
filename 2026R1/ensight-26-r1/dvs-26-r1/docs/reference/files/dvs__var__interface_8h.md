@@ -1,4 +1,4 @@
-# File dvs\_var\_interface.h
+# File dvs_var_interface.h
 
 <a id="dvs__var__interface_8h"></a>
 

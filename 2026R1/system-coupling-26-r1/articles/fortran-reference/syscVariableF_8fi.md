@@ -25,6 +25,7 @@
 
 ## Source
 
+
 ```fortran
 module fortran
 !
@@ -35,23 +36,59 @@ module fortran
 ! System Coupling Participant Library.
 !
 ! *********************************************************************
+!> \brief Provide a struct for a System Coupling variable.
+!!
+!! To create and/or initialize the SyscVariableF struct, it is highly 
+!! recommended to use one of the functions within the
+!! `syscGetVariableF` interface . These functions will initialize all 
+!! members to the correct values and will help to avoid 
+!! back-compatibility issues in the future. For example:
+!!
+!! \code
+!! type(SyscVariableF) :: var
+!! var = syscGetVariableF("Temperature", SyscScalar, .FALSE., SyscNode)
+!! \endcode
 ! *********************************************************************
 type :: syscvariablef
+!> Unique name for this variable.
   character(len=SyscStrLen) :: variablename
+!> Quantity type (e.g. temperature).
   integer(kind=4) :: quantitytype
+!> Location (e.g element or node).
   integer(kind=4) :: location
+!> User-friendly name.
   character(len=SyscStrLen) :: displayname
+!> Tensor type (e.g. scalar, vector).
   integer(kind=4) :: tensortype
+!> Flag indicating whether it's an extensive property.
   logical :: isextensive
+!> Data type (e.g. real or complex)
   integer(kind=4) :: datatype
 end type syscvariablef
 !
 !**********************************************************************
+!> \brief Provide an interface to get a System Coupling variable.
 !**********************************************************************
 !
 interface syscgetvariablef
 !
 !**********************************************************************
+!> \brief Create variable to be used in a coupled analysis.
+!!
+!! \param[in] variableName - Unique name for this variable. String 
+!! length should not exceed SyscStrLen.
+!!
+!! Display name will default to the same as name.
+!!
+!! Tensor type will default to scalar.
+!!
+!! Is extensive flag will default to false (to non-extensive).
+!!
+!! Location will default to nodes.
+!!
+!! Quantity type will default to unspecified.
+!!
+!! \return a SyscVariableF type
 !**********************************************************************
 function syscgetvariablef(variableName) result(ret)
 !
@@ -66,6 +103,23 @@ function syscgetvariablef(variableName) result(ret)
 end function syscgetvariablef
 !
 !**********************************************************************
+!> \brief Create variable to be used in a coupled analysis.
+!!
+!! \param[in] variableName - Unique name for this variable. String 
+!! length should not exceed SyscStrLen.
+!!
+!! \param[in] tensorType - variable tensor type.
+!!
+!! \param[in] isExtensive - flag indicating if it's an extensive 
+!! property.
+!!
+!! \param[in] location - variable location (e.g element or node).
+!!
+!! Display name will default to the same as name.
+!!
+!! Quantity type will default to unspecified.
+!!
+!! \return a SyscVariableF type
 !**********************************************************************
 function syscgetvariablef_te(&
     variableName, tensorType, isExtensive,&
@@ -85,6 +139,36 @@ function syscgetvariablef_te(&
 end function syscgetvariablef_te
 !
 !**********************************************************************
+!> \brief Create variable to be used in a coupled analysis.
+!!
+!! \param[in] variableName - Unique name for this variable. String 
+!! length should not exceed SyscStrLen.
+!!
+!! \param[in] displayName - variable display name. String length 
+!! should not exceed SyscStrLen.
+!!
+!! \param[in] location - variable location (e.g element or node).
+!!
+!! \param[in] quantityType - variable quantity type.
+!!
+!! The variable tensor type and is extensive properties will be 
+!! inferred from the quantity type, according to the following rules:
+!! 
+!! \code
+!! Quantity Type                     Tensor Type      Is Extensive
+!! ----------------------------------------------------------------
+!! Force                             Vector           True
+!! Incremental Displacement          Vector           False
+!! Temperature                       Scalar           False
+!! Heat Rate                         Scalar           True
+!! Heat Transfer Coefficient         Scalar           False
+!! Convection Reference Temperature  Scalar           False
+!! \endcode
+!!
+!! If any other quantity type is specified, tensor type will be set to
+!! scalar and is extensive will be set to false.
+!!
+!! \return a SyscVariableF type
 !**********************************************************************
 function syscgetvariablef_q(&
     variableName, displayName, location, quantityType) result(ret)
@@ -103,6 +187,24 @@ function syscgetvariablef_q(&
 end function syscgetvariablef_q
 !
 !**********************************************************************
+!> \brief Create variable to be used in a coupled analysis.
+!!
+!! \param[in] variableName - Unique name for this variable. String 
+!! length should not exceed SyscStrLen.
+!!
+!! \param[in] displayName - variable display name. String length 
+!! should not exceed SyscStrLen.
+!!
+!! \param[in] tensorType - variable tensor type.
+!!
+!! \param[in] isExtensive - flag indicating if it's an extensive 
+!! property.
+!!
+!! \param[in] location - variable location (e.g element or node).
+!!
+!! \param[in] quantityType - variable quantity type.
+!!
+!! \return a SyscVariableF type
 !**********************************************************************
 function syscgetvariablef_teq(&
     variableName, displayName, tensorType, isExtensive,&
@@ -124,6 +226,27 @@ function syscgetvariablef_teq(&
 end function syscgetvariablef_teq
 !
 !**********************************************************************
+!> \brief Create variable to be used in a coupled analysis.
+!!
+!! \param[in] variableName - Unique name for this variable. String 
+!! length should not exceed SyscStrLen.
+!!
+!! \param[in] displayName - variable display name. String length 
+!! should not exceed SyscStrLen.
+!!
+!! \param[in] tensorType - variable tensor type.
+!!
+!! \param[in] isExtensive - flag indicating if it's an extensive 
+!! property.
+!!
+!! \param[in] location - variable location (e.g element or node).
+!!
+!! \param[in] quantityType - variable quantity type.
+!!
+!! \param[in] dataType - variable data type.
+!!
+!! \return a SyscVariableF type
+!!
 function syscgetvariablef_dtelqd(&
   variableName, displayName, tensorType, isExtensive,&
   location, quantityType, dataType) result(ret)
@@ -149,6 +272,7 @@ end function syscgetvariablef_dtelqd
 end interface syscgetvariablef
 !
 !**********************************************************************
+!> \brief Provide an interface to add real attribute to a variable.
 interface syscvariableaddrealattributef
 !
 function syscvariableaddrealattributef(variable, attribute) result(ret)
@@ -169,6 +293,7 @@ end function syscvariableaddrealattributef
 end interface syscvariableaddrealattributef
 !
 !**********************************************************************
+!> \brief Provide an interface to add integer attribute to a variable.
 interface syscvariableaddintegerattributef
 !
 function syscvariableaddintegerattributef(variable, attribute) &
@@ -190,6 +315,7 @@ end function syscvariableaddintegerattributef
 end interface syscvariableaddintegerattributef
 !
 !**********************************************************************
+!> \brief Provide an interface to get number of real attributes.
 interface syscvariablegetnumrealattributesf
 !
 function syscvariablegetnumrealattributesf(variable) result(ret)
@@ -207,6 +333,7 @@ end function syscvariablegetnumrealattributesf
 end interface syscvariablegetnumrealattributesf
 !
 !**********************************************************************
+!> \brief Provide an interface to get number of real attributes.
 interface syscvariablegetnumintegerattributesf
 !
 function syscvariablegetnumintegerattributesf(variable) result(ret)
@@ -224,6 +351,7 @@ end function syscvariablegetnumintegerattributesf
 end interface syscvariablegetnumintegerattributesf
 !
 !**********************************************************************
+!> \brief Provide an interface to get real attribute from variable.
 interface syscvariablegetrealattributef
 !
 function syscvariablegetrealattributef(variable, index) result(ret)
@@ -242,6 +370,7 @@ end function syscvariablegetrealattributef
 end interface syscvariablegetrealattributef
 !
 !**********************************************************************
+!> \brief Provide an interface to get integer attribute from variable.
 interface syscvariablegetintegerattributef
 !
 function syscvariablegetintegerattributef(variable, index) result(ret)
@@ -262,5 +391,7 @@ end interface syscvariablegetintegerattributef
 end module fortran
 ```
 
+
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)
+[Markdown]: https://img.shields.io/badge/language-Markdown-blue (Markdown)

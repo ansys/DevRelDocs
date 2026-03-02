@@ -3,7 +3,7 @@
 ![][C++]
 ![][public]
 
-**Definition**: `CommonTypes.hpp` (line 58)
+**Definition**: `CommonTypes.hpp` (line 59)
 
 Provide a structure containing solution control.
 
@@ -21,11 +21,13 @@ Provide a structure containing solution control.
 
 ![][public]
 
-**Definition**: `CommonTypes.hpp` (line 59)
+**Definition**: `CommonTypes.hpp` (line 60)
+
 
 ```cpp
 int sysc::SolutionControl::minimumIterations {0}
 ```
+
 
 
 
@@ -40,11 +42,13 @@ Min iterations (per time step, if transient).
 
 ![][public]
 
-**Definition**: `CommonTypes.hpp` (line 60)
+**Definition**: `CommonTypes.hpp` (line 61)
+
 
 ```cpp
 int sysc::SolutionControl::maximumIterations {0}
 ```
+
 
 
 
@@ -54,7 +58,7 @@ Max iterations (per time step, if transient).
 
 **Type**: int
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

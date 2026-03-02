@@ -2,6 +2,6 @@
 
 <a id="compolyx.LookUpTable1D.enabled"></a>
 
-#### *property* LookUpTable1D.enabled
+## *property* LookUpTable1D.enabled
 
-Whether this object is currently enabled or not. Mainly defined through the current application mode.
+Indicates whether the object is enabled. Mainly defined through the current application mode pre or post.

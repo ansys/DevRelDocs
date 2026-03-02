@@ -23,6 +23,7 @@ Each parameter is detailed in the sections that follow the table.
 | <strong>0</strong> | [mesh_scoping](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
 | <strong>1</strong> | [meshed_region](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
 | <strong>2</strong> | [inclusive](#input_2) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>3</strong> | [extend_midside_nodes](#input_3) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>9</strong> | [requested_location](#input_9) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
 
 
@@ -49,6 +50,14 @@ Scoping or scopings container (the input type is the output type)
 - **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
 
 if inclusive == 1 then all the elements/faces adjacent to the nodes/faces ids in input are added, if inclusive == 0, only the elements/faces which have all their nodes/faces in the scoping are included
+
+<a id="input_3"></a>
+### extend_midside_nodes (Pin 3)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+This pin only affects nodal to elemental transposition. If true, the neighbour corner nodes of every input midside node are also considered in the input scoping. As a result, the output scoping also contains the elements connected to corner nodes that may not be in the input scoping. It is false by default.
 
 <a id="input_9"></a>
 ### requested_location (Pin 9)
@@ -123,6 +132,7 @@ ansys::dpf::Operator op("transpose_scoping"); // operator instantiation
 op.connect(0, my_mesh_scoping);
 op.connect(1, my_meshed_region);
 op.connect(2, my_inclusive);
+op.connect(3, my_extend_midside_nodes);
 op.connect(9, my_requested_location);
 ansys::dpf::Scoping my_mesh_scoping = op.getOutput<ansys::dpf::Scoping>(0);
 ```
@@ -138,6 +148,7 @@ op = dpf.operators.scoping.transpose() # operator instantiation
 op.inputs.mesh_scoping.connect(my_mesh_scoping)
 op.inputs.meshed_region.connect(my_meshed_region)
 op.inputs.inclusive.connect(my_inclusive)
+op.inputs.extend_midside_nodes.connect(my_extend_midside_nodes)
 op.inputs.requested_location.connect(my_requested_location)
 my_mesh_scoping_as_scoping = op.outputs.mesh_scoping_as_scoping()
 ```
@@ -154,6 +165,7 @@ op = dpf.operators.scoping.transpose() # operator instantiation
 op.inputs.mesh_scoping.Connect(my_mesh_scoping)
 op.inputs.meshed_region.Connect(my_meshed_region)
 op.inputs.inclusive.Connect(my_inclusive)
+op.inputs.extend_midside_nodes.Connect(my_extend_midside_nodes)
 op.inputs.requested_location.Connect(my_requested_location)
 my_mesh_scoping = op.outputs.mesh_scoping.GetData()
 ```

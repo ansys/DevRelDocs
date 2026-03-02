@@ -2,4 +2,4 @@
 
 <a id="compolyx.OrientedSelectionSet.update"></a>
 
-#### OrientedSelectionSet.update()
+## OrientedSelectionSet.update()

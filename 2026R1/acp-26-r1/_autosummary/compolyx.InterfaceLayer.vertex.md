@@ -2,6 +2,6 @@
 
 <a id="compolyx.InterfaceLayer.vertex"></a>
 
-#### *property* InterfaceLayer.vertex
+## *property* InterfaceLayer.vertex
 
-This will throw an error if the object has been removed from the graph.
+Raises an error if the object has been removed from the graph.

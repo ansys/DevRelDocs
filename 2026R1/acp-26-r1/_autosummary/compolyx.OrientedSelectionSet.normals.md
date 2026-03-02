@@ -2,6 +2,6 @@
 
 <a id="compolyx.OrientedSelectionSet.normals"></a>
 
-#### *property* OrientedSelectionSet.normals
+## *property* OrientedSelectionSet.normals
 
-Get the Normals of the Oriented Selection Set
+Returns the Normals of the oriented selection set.

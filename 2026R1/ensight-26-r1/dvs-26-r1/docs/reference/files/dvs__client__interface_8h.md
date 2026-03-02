@@ -1,4 +1,4 @@
-# File dvs\_client\_interface.h
+# File dvs_client_interface.h
 
 <a id="dvs__client__interface_8h"></a>
 

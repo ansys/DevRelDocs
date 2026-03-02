@@ -2,6 +2,6 @@
 
 <a id="compolyx.Rosette.serialize"></a>
 
-#### Rosette.serialize()
+## Rosette.serialize()
 
 Serialize to Python string.

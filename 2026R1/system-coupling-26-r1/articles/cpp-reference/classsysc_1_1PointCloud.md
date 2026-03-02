@@ -3,7 +3,7 @@
 ![][C++]
 ![][public]
 
-**Definition**: `PointCloud.hpp` (line 27)
+**Definition**: `PointCloud.hpp` (line 82)
 
 Provide a point cloud access class.
 
@@ -19,13 +19,15 @@ Provides read-only access to the point cloud for a given region.
 * [getNumNodes](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1ad4a6bb5175f6fec7a5bfeaacfd2aea47)
 * [m\_nodeCoords](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a99024220a781ee1500a1c6ca3dd9d608)
 * [m\_nodeIds](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a29034e5e4d5516dd9fa3be286ecc98fe)
-* [operator=](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a3a501661406cd9a22eeeede4eb2f8484)
-* [operator=](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a9c050e9c72b97ec6079e06737d934895)
+* [operator=](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a78babf78bb0972dba58e1caade9eb15d)
+* [operator=](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a1849d96d82aea44c8c79c9938362e83e)
 * [partitioningStamp](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a1e32fdf88ff05b2af20659bfd94f5fc0)
+* [PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a85d0b2ad9ea6c162d588e94290a95e38)
 * [PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a1ced7091c7926176bf1cd0a0e3295056)
 * [PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1acc45998b6b9a302675bca9b60d329d9c)
 * [PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a070807ab97916c768bf33b3f70fff431)
 * [PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a3581e641adfc3a77d6e7fb1f896a23b7)
+* [size](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1ac7bcaef4683d4bdfdc8be2bee75883b6)
 
 ## Public attributes
 
@@ -34,13 +36,15 @@ Provides read-only access to the point cloud for a given region.
 
 ![][public]
 
-**Definition**: `PointCloud.hpp` (line 31)
+**Definition**: `PointCloud.hpp` (line 86)
+
 
 ```cpp
 std::int64_t sysc::PointCloud::connectivityStamp {0}
 ```
 
-Connectivity stamp. Update whenever point cloud properties, other than coordinates, are updated (e.g. number of points, points order). <br/>
+
+Connectivity stamp. Update whenever point cloud properties, other than coordinates, are updated (e.g. number of points, points order).
 
 
 
@@ -53,11 +57,13 @@ Connectivity stamp. Update whenever point cloud properties, other than coordinat
 
 ![][public]
 
-**Definition**: `PointCloud.hpp` (line 35)
+**Definition**: `PointCloud.hpp` (line 90)
+
 
 ```cpp
 std::int64_t sysc::PointCloud::coordinatesStamp {0}
 ```
+
 
 Nodal coordinates stamp. Update whenever coordinates get updated.
 
@@ -72,11 +78,13 @@ Nodal coordinates stamp. Update whenever coordinates get updated.
 
 ![][public]
 
-**Definition**: `PointCloud.hpp` (line 39)
+**Definition**: `PointCloud.hpp` (line 94)
+
 
 ```cpp
 std::int64_t sysc::PointCloud::partitioningStamp {0}
 ```
+
 
 Partitioning stamp. Update whenever the point cloud is re-partitioned.
 
@@ -93,7 +101,8 @@ Partitioning stamp. Update whenever the point cloud is re-partitioned.
 
 ![][private]
 
-**Definition**: `PointCloud.hpp` (line 83)
+**Definition**: `PointCloud.hpp` (line 147)
+
 
 ```cpp
 OutputIntegerData sysc::PointCloud::m_nodeIds
@@ -105,14 +114,16 @@ OutputIntegerData sysc::PointCloud::m_nodeIds
 
 
 
-**Type**: [OutputIntegerData](classsysc_1_1OutputIntegerData.md#classsysc_1_1OutputIntegerData)
+
+**Type**: [OutputIntegerData](structsysc_1_1OutputIntegerData.md#structsysc_1_1OutputIntegerData)
 
 <a id="classsysc_1_1PointCloud_1a99024220a781ee1500a1c6ca3dd9d608"></a>
 ### Variable m\_nodeCoords
 
 ![][private]
 
-**Definition**: `PointCloud.hpp` (line 84)
+**Definition**: `PointCloud.hpp` (line 148)
+
 
 ```cpp
 OutputVectorData sysc::PointCloud::m_nodeCoords
@@ -124,18 +135,51 @@ OutputVectorData sysc::PointCloud::m_nodeCoords
 
 
 
-**Type**: [OutputVectorData](classsysc_1_1OutputVectorData.md#classsysc_1_1OutputVectorData)
+
+**Type**: [OutputVectorData](structsysc_1_1OutputVectorData.md#structsysc_1_1OutputVectorData)
 
 ## Public functions
+
+<a id="classsysc_1_1PointCloud_1a85d0b2ad9ea6c162d588e94290a95e38"></a>
+### Function PointCloud
+
+![][public]
+
+
+```cpp
+sysc::PointCloud::PointCloud(InputPointCloud)
+```
+
+
+Construct [PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud) from [InputPointCloud](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud).
+
+
+
+
+
+**Parameters**:
+
+* [InputPointCloud](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud)
+
+**Return type**: 
+
+**Referenced by**:
+
+* [operator=](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a78babf78bb0972dba58e1caade9eb15d)
+* [operator=](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a1849d96d82aea44c8c79c9938362e83e)
+* [PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a070807ab97916c768bf33b3f70fff431)
+* [PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a3581e641adfc3a77d6e7fb1f896a23b7)
 
 <a id="classsysc_1_1PointCloud_1a1ced7091c7926176bf1cd0a0e3295056"></a>
 ### Function PointCloud
 
 ![][public]
 
+
 ```cpp
 sysc::PointCloud::PointCloud(OutputIntegerData nodeIds, OutputVectorData nodeCoords)
 ```
+
 
 Constructor for [PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud) class.
 
@@ -148,8 +192,8 @@ Constructor for [PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud)
 
 **Parameters**:
 
-* [OutputIntegerData](classsysc_1_1OutputIntegerData.md#classsysc_1_1OutputIntegerData) **nodeIds**
-* [OutputVectorData](classsysc_1_1OutputVectorData.md#classsysc_1_1OutputVectorData) **nodeCoords**
+* [OutputIntegerData](structsysc_1_1OutputIntegerData.md#structsysc_1_1OutputIntegerData) **nodeIds**
+* [OutputVectorData](structsysc_1_1OutputVectorData.md#structsysc_1_1OutputVectorData) **nodeCoords**
 
 **Return type**: 
 
@@ -158,9 +202,11 @@ Constructor for [PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud)
 
 ![][public]
 
+
 ```cpp
 sysc::PointCloud::PointCloud()=default
 ```
+
 
 Provide a default constructor.
 
@@ -175,9 +221,11 @@ Provide a default constructor.
 
 ![][public]
 
+
 ```cpp
 sysc::PointCloud::PointCloud(const PointCloud &)=default
 ```
+
 
 Provide a copy-constructor.
 
@@ -191,14 +239,20 @@ Provide a copy-constructor.
 
 **Return type**: 
 
+**References**:
+
+* [PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a85d0b2ad9ea6c162d588e94290a95e38)
+
 <a id="classsysc_1_1PointCloud_1a3581e641adfc3a77d6e7fb1f896a23b7"></a>
 ### Function PointCloud
 
 ![][public]
 
+
 ```cpp
 sysc::PointCloud::PointCloud(PointCloud &&)=default
 ```
+
 
 Provide a move-constructor.
 
@@ -212,14 +266,20 @@ Provide a move-constructor.
 
 **Return type**: 
 
-<a id="classsysc_1_1PointCloud_1a3a501661406cd9a22eeeede4eb2f8484"></a>
+**References**:
+
+* [PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a85d0b2ad9ea6c162d588e94290a95e38)
+
+<a id="classsysc_1_1PointCloud_1a78babf78bb0972dba58e1caade9eb15d"></a>
 ### Function operator=
 
 ![][public]
 
+
 ```cpp
-PointCloud& sysc::PointCloud::operator=(const PointCloud &)=default
+PointCloud & sysc::PointCloud::operator=(const PointCloud &)=default
 ```
+
 
 Provide a copy-assign operator.
 
@@ -233,14 +293,20 @@ Provide a copy-assign operator.
 
 **Return type**: [PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud) &
 
-<a id="classsysc_1_1PointCloud_1a9c050e9c72b97ec6079e06737d934895"></a>
+**References**:
+
+* [PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a85d0b2ad9ea6c162d588e94290a95e38)
+
+<a id="classsysc_1_1PointCloud_1a1849d96d82aea44c8c79c9938362e83e"></a>
 ### Function operator=
 
 ![][public]
 
+
 ```cpp
-PointCloud& sysc::PointCloud::operator=(PointCloud &&)=default
+PointCloud & sysc::PointCloud::operator=(PointCloud &&)=default
 ```
+
 
 Provide a move-assign operator.
 
@@ -254,15 +320,21 @@ Provide a move-assign operator.
 
 **Return type**: [PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud) &
 
+**References**:
+
+* [PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a85d0b2ad9ea6c162d588e94290a95e38)
+
 <a id="classsysc_1_1PointCloud_1ad4a6bb5175f6fec7a5bfeaacfd2aea47"></a>
 ### Function getNumNodes
 
 ![][public]
 ![][const]
 
+
 ```cpp
 std::size_t sysc::PointCloud::getNumNodes() const noexcept
 ```
+
 
 Provide a method to get the number of nodes for this mesh.
 
@@ -272,15 +344,21 @@ Provide a method to get the number of nodes for this mesh.
 
 **Return type**: std::size_t
 
+**Referenced by**:
+
+* [size](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1ac7bcaef4683d4bdfdc8be2bee75883b6)
+
 <a id="classsysc_1_1PointCloud_1a5c5385f2219f3807902dd0227ba344c4"></a>
 ### Function getNodeIds
 
 ![][public]
 ![][const]
 
+
 ```cpp
 OutputIntegerData sysc::PointCloud::getNodeIds() const
 ```
+
 
 Provide a method to access node ids array.
 
@@ -288,7 +366,15 @@ Provide a method to access node ids array.
 
 
 
-**Return type**: [OutputIntegerData](classsysc_1_1OutputIntegerData.md#classsysc_1_1OutputIntegerData)
+**Return type**: [OutputIntegerData](structsysc_1_1OutputIntegerData.md#structsysc_1_1OutputIntegerData)
+
+**References**:
+
+* [getNodeIds](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a5c5385f2219f3807902dd0227ba344c4)
+
+**Referenced by**:
+
+* [getNodeIds](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a5c5385f2219f3807902dd0227ba344c4)
 
 <a id="classsysc_1_1PointCloud_1a7af3e505ed55ed9e9ad01ffc1dbf03c0"></a>
 ### Function getNodeCoords
@@ -296,9 +382,11 @@ Provide a method to access node ids array.
 ![][public]
 ![][const]
 
+
 ```cpp
 OutputVectorData sysc::PointCloud::getNodeCoords() const
 ```
+
 
 Provide a method to access node coordinates array.
 
@@ -306,7 +394,15 @@ Provide a method to access node coordinates array.
 
 
 
-**Return type**: [OutputVectorData](classsysc_1_1OutputVectorData.md#classsysc_1_1OutputVectorData)
+**Return type**: [OutputVectorData](structsysc_1_1OutputVectorData.md#structsysc_1_1OutputVectorData)
+
+**References**:
+
+* [getNodeCoords](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a7af3e505ed55ed9e9ad01ffc1dbf03c0)
+
+**Referenced by**:
+
+* [getNodeCoords](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a7af3e505ed55ed9e9ad01ffc1dbf03c0)
 
 <a id="classsysc_1_1PointCloud_1a5624a75183bdf2f3783f135f69574872"></a>
 ### Function checkValidity
@@ -314,9 +410,11 @@ Provide a method to access node coordinates array.
 ![][public]
 ![][const]
 
+
 ```cpp
 ValidityStatus sysc::PointCloud::checkValidity() const
 ```
+
 
 Provide a method to perform simple validity checks.
 
@@ -326,7 +424,44 @@ Provide a method to perform simple validity checks.
 
 **Return type**: [ValidityStatus](structsysc_1_1ValidityStatus.md#structsysc_1_1ValidityStatus)
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+**References**:
+
+* [checkValidity](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a5624a75183bdf2f3783f135f69574872)
+
+**Referenced by**:
+
+* [checkValidity](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a5624a75183bdf2f3783f135f69574872)
+
+<a id="classsysc_1_1PointCloud_1ac7bcaef4683d4bdfdc8be2bee75883b6"></a>
+### Function size
+
+![][public]
+![][const]
+
+
+```cpp
+std::size_t sysc::PointCloud::size() const noexcept
+```
+
+
+Provide a method to get the number of nodes for this mesh.
+
+
+
+
+
+**Return type**: std::size_t
+
+**References**:
+
+* [getNumNodes](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1ad4a6bb5175f6fec7a5bfeaacfd2aea47)
+* [size](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1ac7bcaef4683d4bdfdc8be2bee75883b6)
+
+**Referenced by**:
+
+* [size](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1ac7bcaef4683d4bdfdc8be2bee75883b6)
+
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

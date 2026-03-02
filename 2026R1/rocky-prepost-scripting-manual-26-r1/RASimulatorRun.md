@@ -69,7 +69,6 @@ simulator_run = study.GetSimulatorRun()
 | [`GetCellNumberOfVertices`](#generated.RASimulatorRun.GetCellNumberOfVertices)(cell[, time_step])                                                               | Get an array containing the number of vertices of each cell.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | [`GetCellPointsAsFunction`](#generated.RASimulatorRun.GetCellPointsAsFunction)([time_step])                                                                     | Get a function for the points (vertices) of each cell.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | [`GetCellVolumeAsArray`](#generated.RASimulatorRun.GetCellVolumeAsArray)([time_step])                                                                           | Get an array with the volume of each cell.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| [`GetCollectForcesForFemAnalysis`](#generated.RASimulatorRun.GetCollectForcesForFemAnalysis)()                                                                  | Deprecated: Use this method from RAStudy instead                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | [`GetContactNeighboringDistanceBetweenParticles`](#generated.RASimulatorRun.GetContactNeighboringDistanceBetweenParticles)([unit])                              | Get the value of "Contact Neighboring Distance Between Particles".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | [`GetContactNeighboringDistanceBetweenParticlesAndTriangles`](#generated.RASimulatorRun.GetContactNeighboringDistanceBetweenParticlesAndTriangles)([unit])      | Get the value of "Contact Neighboring Distance Between Particles And Triangles".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | [`GetCurve`](#generated.RASimulatorRun.GetCurve)(curve_name[, simulation_name, ...])                                                                            | Override base class method to check for a request of a grid function statistic.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -79,12 +78,15 @@ simulator_run = study.GetSimulatorRun()
 | [`GetDisableTrianglesOnPeriodicBoundaries`](#generated.RASimulatorRun.GetDisableTrianglesOnPeriodicBoundaries)()                                                | Get the value of "Disable Triangles On Periodic Boundaries".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | [`GetDragLimiterFactor`](#generated.RASimulatorRun.GetDragLimiterFactor)()                                                                                      | Get the value of "Drag Limiter Factor".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | [`GetElementCurve`](#generated.RASimulatorRun.GetElementCurve)(element_name, curve_name[, ...])                                                                 | Return the curves for the given element and name.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| [`GetFacePositions`](#generated.RASimulatorRun.GetFacePositions)([time_step])                                                                                   | Get the index of the faces.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| [`GetFaceVertices`](#generated.RASimulatorRun.GetFaceVertices)([time_step])                                                                                     | Get the index of the vertices for all faces.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | [`GetFixedTimestep`](#generated.RASimulatorRun.GetFixedTimestep)([unit])                                                                                        | Get the value of "Fixed Timestep".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | [`GetFluentOutputsMultiplier`](#generated.RASimulatorRun.GetFluentOutputsMultiplier)()                                                                          | Get the value of "Fluent Outputs Multiplier".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | [`GetGeometryQuantity`](#generated.RASimulatorRun.GetGeometryQuantity)()                                                                                        | Get the quantity corresponding to the grid's geometry.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| [`GetGeometryTransform`](#generated.RASimulatorRun.GetGeometryTransform)([time_step])                                                                           | Get the geometry transform for the grid at the given time step.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | [`GetGeometryUnit`](#generated.RASimulatorRun.GetGeometryUnit)()                                                                                                | Get the grid's geometry's unit.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | [`GetGridFunction`](#generated.RASimulatorRun.GetGridFunction)(grid_function_name[, ...])                                                                       | Gets a grid function given its name.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| [`GetGridFunctionNames`](#generated.RASimulatorRun.GetGridFunctionNames)([translated, context])                                                                 | Get a list of the available grid functions for this grid.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| [`GetGridFunctionNames`](#generated.RASimulatorRun.GetGridFunctionNames)([translated, context])                                                                 | Overridden to filter out deprecated property names.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | [`GetJointElasticRatio`](#generated.RASimulatorRun.GetJointElasticRatio)()                                                                                      | Get the value of "Joint Elastic Ratio".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | [`GetLinearHystDamp`](#generated.RASimulatorRun.GetLinearHystDamp)()                                                                                            | Get the value of "Linear Hyst Damp".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | [`GetLoadingNSteps`](#generated.RASimulatorRun.GetLoadingNSteps)()                                                                                              | Get the value of "Loading N Steps".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
@@ -95,6 +97,12 @@ simulator_run = study.GetSimulatorRun()
 | [`GetModulesOutputPropertiesData`](#generated.RASimulatorRun.GetModulesOutputPropertiesData)()                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | [`GetModulesOutputPropertyEnabled`](#generated.RASimulatorRun.GetModulesOutputPropertyEnabled)(\*output_property)                                               | Retrieve enable state of given "Modules Output Property".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | [`GetMoveCfdCellsWithRockyBoundaries`](#generated.RASimulatorRun.GetMoveCfdCellsWithRockyBoundaries)()                                                          | Get the value of "Move Cfd Cells With Rocky Boundaries".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| [`GetMpiHeterogeneous`](#generated.RASimulatorRun.GetMpiHeterogeneous)()                                                                                        | Get the value of "Mpi Heterogeneous".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| [`GetMpiHostfile`](#generated.RASimulatorRun.GetMpiHostfile)()                                                                                                  | Get the value of "Mpi Hostfile".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| [`GetMpiHosts`](#generated.RASimulatorRun.GetMpiHosts)()                                                                                                        | Get the value of "Mpi Hosts".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| [`GetMpiNumberOfProcesses`](#generated.RASimulatorRun.GetMpiNumberOfProcesses)()                                                                                | Get the value of "Mpi Number of Processes".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| [`GetMpiNumberOfThreads`](#generated.RASimulatorRun.GetMpiNumberOfThreads)()                                                                                    | Get the value of "Mpi Number of Threads".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| [`GetMpiWithinScheduler`](#generated.RASimulatorRun.GetMpiWithinScheduler)()                                                                                    | Get the value of "Mpi Within Scheduler".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | [`GetMultiGpuSlicingDirection`](#generated.RASimulatorRun.GetMultiGpuSlicingDirection)()                                                                        | Get "Multi Gpu Slicing Direction" as a string.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | [`GetNegateInitialOverlaps`](#generated.RASimulatorRun.GetNegateInitialOverlaps)()                                                                              | Get the value of "Negate Initial Overlaps".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | [`GetNeighborSearchModel`](#generated.RASimulatorRun.GetNeighborSearchModel)()                                                                                  | Get "Neighbor Search Model" as a string.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
@@ -108,15 +116,13 @@ simulator_run = study.GetSimulatorRun()
 | [`GetOverRelaxationCoefficient`](#generated.RASimulatorRun.GetOverRelaxationCoefficient)()                                                                      | Get the value of "Over Relaxation Coefficient".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | [`GetOverlapParticlesDelay`](#generated.RASimulatorRun.GetOverlapParticlesDelay)([unit])                                                                        | Get the value of "Overlap Particles Delay".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | [`GetParticleSizeLimitForReordering`](#generated.RASimulatorRun.GetParticleSizeLimitForReordering)([unit])                                                      | Get the value of "Particle Size Limit For Reordering".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| [`GetProcessingUnit`](#generated.RASimulatorRun.GetProcessingUnit)()                                                                                            | Get "Processing Unit" as a string.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | [`GetRefineConcaveSearch`](#generated.RASimulatorRun.GetRefineConcaveSearch)()                                                                                  | Get the value of "Refine Concave Search".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | [`GetReleaseParticlesWithoutOverlapCheck`](#generated.RASimulatorRun.GetReleaseParticlesWithoutOverlapCheck)()                                                  | Get the value of "Release Particles Without Overlap Check".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | [`GetResetOnlyPhysicalContactsData`](#generated.RASimulatorRun.GetResetOnlyPhysicalContactsData)()                                                              | Get the value of "Reset Only Physical Contacts Data".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | [`GetResumeDataFrequency`](#generated.RASimulatorRun.GetResumeDataFrequency)()                                                                                  | Get the value of "Resume Data Frequency".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | [`GetSimulationDuration`](#generated.RASimulatorRun.GetSimulationDuration)([unit])                                                                              | Get the value of "Simulation Duration".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| [`GetSimulationOutputFrequency`](#generated.RASimulatorRun.GetSimulationOutputFrequency)([unit])                                                                | Deprecated: Use GetTimeInterval instead.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| [`GetSimulationTarget`](#generated.RASimulatorRun.GetSimulationTarget)()                                                                                        | Get "Simulation Target" as a string.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | [`GetSolverCurvesFrequency`](#generated.RASimulatorRun.GetSolverCurvesFrequency)()                                                                              | Get the value of "Solver Curves Frequency".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| [`GetSolverCurvesOutputFrequency`](#generated.RASimulatorRun.GetSolverCurvesOutputFrequency)()                                                                  | Deprecated: Use GetSolverCurvesFrequency instead.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | [`GetSortingDistanceFactor`](#generated.RASimulatorRun.GetSortingDistanceFactor)()                                                                              | Get the value of "Sorting Distance Factor".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | [`GetSpecialReorderingForWidePsd`](#generated.RASimulatorRun.GetSpecialReorderingForWidePsd)()                                                                  | Get the value of "Special Reordering For Wide Psd".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | [`GetStandardOutputPropertiesData`](#generated.RASimulatorRun.GetStandardOutputPropertiesData)()                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -141,16 +147,15 @@ simulator_run = study.GetSimulatorRun()
 | [`GetUseDpmBlockingEffectForSinglePhaseSimulations`](#generated.RASimulatorRun.GetUseDpmBlockingEffectForSinglePhaseSimulations)()                              | The "Use DPM Blocking Effect For Single Phase Simulations" parameter was removed from Rocky since 25R2.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | [`GetUseDragLimiterFactor`](#generated.RASimulatorRun.GetUseDragLimiterFactor)()                                                                                | Get the value of "Use Drag Limiter Factor".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | [`GetUseFixedTimestep`](#generated.RASimulatorRun.GetUseFixedTimestep)()                                                                                        | Get the value of "Use Fixed Timestep".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| [`GetUseMpi`](#generated.RASimulatorRun.GetUseMpi)()                                                                                                            | Get the value of "Use Mpi".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | [`GetUseNonRoundTorqueCorrection`](#generated.RASimulatorRun.GetUseNonRoundTorqueCorrection)()                                                                  | Get the value of "Use Non Round Torque Correction".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | [`GetUseSortingDistanceFactor`](#generated.RASimulatorRun.GetUseSortingDistanceFactor)()                                                                        | Get the value of "Use Sorting Distance Factor".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | [`GetValidDeformableMassMatrixTypeValues`](#generated.RASimulatorRun.GetValidDeformableMassMatrixTypeValues)()                                                  | Get a list of all possible values for "Deformable Mass Matrix Type".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | [`GetValidMultiGpuSlicingDirectionValues`](#generated.RASimulatorRun.GetValidMultiGpuSlicingDirectionValues)()                                                  | Get a list of all possible values for "Multi Gpu Slicing Direction".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | [`GetValidNeighborSearchModelValues`](#generated.RASimulatorRun.GetValidNeighborSearchModelValues)()                                                            | Get a list of all possible values for "Neighbor Search Model".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| [`GetValidSimulationTargetValues`](#generated.RASimulatorRun.GetValidSimulationTargetValues)()                                                                  | Get a list of all possible values for "Simulation Target".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| [`GetValidProcessingUnitValues`](#generated.RASimulatorRun.GetValidProcessingUnitValues)()                                                                      | Get a list of all possible values for "Processing Unit".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | [`GetValidTimestepModelValues`](#generated.RASimulatorRun.GetValidTimestepModelValues)()                                                                        | Get a list of all possible values for "Timestep Model".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| [`GetWearEnergySpectraBreakageDelayAfterRelease`](#generated.RASimulatorRun.GetWearEnergySpectraBreakageDelayAfterRelease)([unit])                              | Deprecated: Use GetEnergySpectraDelayAfterRelease or GetBreakageDelayAfterRelease instead.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| [`GetWearEnergySpectraBreakageStart`](#generated.RASimulatorRun.GetWearEnergySpectraBreakageStart)([unit])                                                      | Deprecated: Use GetWearStart or GetBreakageStart instead.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| [`GetWearGeometryUpdateFrequency`](#generated.RASimulatorRun.GetWearGeometryUpdateFrequency)([unit])                                                            | Deprecated: Use GetWearGeometryUpdateInterval instead.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| [`GetVertices`](#generated.RASimulatorRun.GetVertices)([time_step])                                                                                             | Get the geometry vertices of the grid at the given time step.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | [`GetWearGeometryUpdateInterval`](#generated.RASimulatorRun.GetWearGeometryUpdateInterval)([unit])                                                              | Get the value of "Wear Geometry Update Interval".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | [`GetWearStart`](#generated.RASimulatorRun.GetWearStart)([unit])                                                                                                | Get the value of "Wear Start".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | [`HasFEMForcesEnabled`](#generated.RASimulatorRun.HasFEMForcesEnabled)()                                                                                        | Whether the simulation is configured to collect forces for FEM analysis.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
@@ -175,7 +180,6 @@ simulator_run = study.GetSimulatorRun()
 | [`SetBreakageDelayAfterRelease`](#generated.RASimulatorRun.SetBreakageDelayAfterRelease)(value[, unit])                                                         | Set the value of "Breakage Delay After Release".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | [`SetBreakageOverlapFactor`](#generated.RASimulatorRun.SetBreakageOverlapFactor)(value)                                                                         | Set the value of "Breakage Overlap Factor".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | [`SetBreakageStart`](#generated.RASimulatorRun.SetBreakageStart)(value[, unit])                                                                                 | Set the value of "Breakage Start".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| [`SetCollectForcesForFemAnalysis`](#generated.RASimulatorRun.SetCollectForcesForFemAnalysis)(value)                                                             | Deprecated: Use this method from RAStudy instead                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | [`SetContactNeighboringDistanceBetweenParticles`](#generated.RASimulatorRun.SetContactNeighboringDistanceBetweenParticles)(value)                               | Set the value of "Contact Neighboring Distance Between Particles".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | [`SetContactNeighboringDistanceBetweenParticlesAndTriangles`](#generated.RASimulatorRun.SetContactNeighboringDistanceBetweenParticlesAndTriangles)(value)       | Set the value of "Contact Neighboring Distance Between Particles And Triangles".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | [`SetCurrentTimeStep`](#generated.RASimulatorRun.SetCurrentTimeStep)(time_step)                                                                                 | Sets the current time step.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
@@ -193,6 +197,12 @@ simulator_run = study.GetSimulatorRun()
 | [`SetModulesOutputPropertiesData`](#generated.RASimulatorRun.SetModulesOutputPropertiesData)(data_dict)                                                         | Set the current value of "Modules Output Properties".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | [`SetModulesOutputPropertyEnabled`](#generated.RASimulatorRun.SetModulesOutputPropertyEnabled)(...)                                                             | Set enable state of given "Modules Output Property".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | [`SetMoveCfdCellsWithRockyBoundaries`](#generated.RASimulatorRun.SetMoveCfdCellsWithRockyBoundaries)(value)                                                     | Set the value of "Move Cfd Cells With Rocky Boundaries".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| [`SetMpiHeterogeneous`](#generated.RASimulatorRun.SetMpiHeterogeneous)(value)                                                                                   | Set the value of "Mpi Heterogeneous".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| [`SetMpiHostfile`](#generated.RASimulatorRun.SetMpiHostfile)(value)                                                                                             | Set the value of "Mpi Hostfile".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| [`SetMpiHosts`](#generated.RASimulatorRun.SetMpiHosts)(value)                                                                                                   | Set the value of "Mpi Hosts".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| [`SetMpiNumberOfProcesses`](#generated.RASimulatorRun.SetMpiNumberOfProcesses)(value)                                                                           | Set the value of "Mpi Number of Processes".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| [`SetMpiNumberOfThreads`](#generated.RASimulatorRun.SetMpiNumberOfThreads)(value)                                                                               | Set the value of "Mpi Number of Threads".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| [`SetMpiWithinScheduler`](#generated.RASimulatorRun.SetMpiWithinScheduler)(value)                                                                               | Set the value of "Mpi Within Scheduler".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | [`SetMultiGpuSlicingDirection`](#generated.RASimulatorRun.SetMultiGpuSlicingDirection)(value)                                                                   | Set the value of "Multi Gpu Slicing Direction".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | [`SetNegateInitialOverlaps`](#generated.RASimulatorRun.SetNegateInitialOverlaps)(value)                                                                         | Set the value of "Negate Initial Overlaps".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | [`SetNeighborSearchModel`](#generated.RASimulatorRun.SetNeighborSearchModel)(value)                                                                             | Set the value of "Neighbor Search Model".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
@@ -202,15 +212,13 @@ simulator_run = study.GetSimulatorRun()
 | [`SetOverRelaxationCoefficient`](#generated.RASimulatorRun.SetOverRelaxationCoefficient)(value)                                                                 | Set the value of "Over Relaxation Coefficient".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | [`SetOverlapParticlesDelay`](#generated.RASimulatorRun.SetOverlapParticlesDelay)(value[, unit])                                                                 | Set the value of "Overlap Particles Delay".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | [`SetParticleSizeLimitForReordering`](#generated.RASimulatorRun.SetParticleSizeLimitForReordering)(value[, unit])                                               | Set the value of "Particle Size Limit For Reordering".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| [`SetProcessingUnit`](#generated.RASimulatorRun.SetProcessingUnit)(value)                                                                                       | Set the value of "Processing Unit".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | [`SetRefineConcaveSearch`](#generated.RASimulatorRun.SetRefineConcaveSearch)(value)                                                                             | Set the value of "Refine Concave Search".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | [`SetReleaseParticlesWithoutOverlapCheck`](#generated.RASimulatorRun.SetReleaseParticlesWithoutOverlapCheck)(value)                                             | Set the value of "Release Particles Without Overlap Check".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | [`SetResetOnlyPhysicalContactsData`](#generated.RASimulatorRun.SetResetOnlyPhysicalContactsData)(value)                                                         | Set the value of "Reset Only Physical Contacts Data".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | [`SetResumeDataFrequency`](#generated.RASimulatorRun.SetResumeDataFrequency)(value)                                                                             | Set the value of "Resume Data Frequency".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | [`SetSimulationDuration`](#generated.RASimulatorRun.SetSimulationDuration)(value[, unit])                                                                       | Set the value of "Simulation Duration".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| [`SetSimulationOutputFrequency`](#generated.RASimulatorRun.SetSimulationOutputFrequency)(value[, unit])                                                         | Deprecated: Use SetTimeInterval instead.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| [`SetSimulationTarget`](#generated.RASimulatorRun.SetSimulationTarget)(value)                                                                                   | Set the value of "Simulation Target".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | [`SetSolverCurvesFrequency`](#generated.RASimulatorRun.SetSolverCurvesFrequency)(value)                                                                         | Set the value of "Solver Curves Frequency".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| [`SetSolverCurvesOutputFrequency`](#generated.RASimulatorRun.SetSolverCurvesOutputFrequency)(value)                                                             | Deprecated: Use SetSolverCurvesFrequency instead.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | [`SetSortingDistanceFactor`](#generated.RASimulatorRun.SetSortingDistanceFactor)(value)                                                                         | Set the value of "Sorting Distance Factor".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | [`SetSpecialReorderingForWidePsd`](#generated.RASimulatorRun.SetSpecialReorderingForWidePsd)(value)                                                             | Set the value of "Special Reordering For Wide Psd".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | [`SetStandardOutputPropertiesData`](#generated.RASimulatorRun.SetStandardOutputPropertiesData)(data_dict)                                                       | Set the current value of "Standard Output Properties".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
@@ -232,11 +240,9 @@ simulator_run = study.GetSimulatorRun()
 | [`SetUseDpmBlockingEffectForSinglePhaseSimulations`](#generated.RASimulatorRun.SetUseDpmBlockingEffectForSinglePhaseSimulations)(value)                         | The "Use DPM Blocking Effect For Single Phase Simulations" parameter was removed from Rocky since 25R2.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | [`SetUseDragLimiterFactor`](#generated.RASimulatorRun.SetUseDragLimiterFactor)(value)                                                                           | Set the value of "Use Drag Limiter Factor".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | [`SetUseFixedTimestep`](#generated.RASimulatorRun.SetUseFixedTimestep)(value)                                                                                   | Set the value of "Use Fixed Timestep".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| [`SetUseMpi`](#generated.RASimulatorRun.SetUseMpi)(value)                                                                                                       | Set the value of "Use Mpi".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | [`SetUseNonRoundTorqueCorrection`](#generated.RASimulatorRun.SetUseNonRoundTorqueCorrection)(value)                                                             | Set the value of "Use Non Round Torque Correction".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | [`SetUseSortingDistanceFactor`](#generated.RASimulatorRun.SetUseSortingDistanceFactor)(value)                                                                   | Set the value of "Use Sorting Distance Factor".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| [`SetWearEnergySpectraBreakageDelayAfterRelease`](#generated.RASimulatorRun.SetWearEnergySpectraBreakageDelayAfterRelease)(value)                               | Deprecated: Use SetEnergySpectraDelayAfterRelease or SetBreakageDelayAfterRelease instead.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| [`SetWearEnergySpectraBreakageStart`](#generated.RASimulatorRun.SetWearEnergySpectraBreakageStart)(value[, unit])                                               | Deprecated: Use SetWearStart or SetBreakageStart instead.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| [`SetWearGeometryUpdateFrequency`](#generated.RASimulatorRun.SetWearGeometryUpdateFrequency)(value[, unit])                                                     | Deprecated: Use GetWearGeometryUpdateInterval instead.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | [`SetWearGeometryUpdateInterval`](#generated.RASimulatorRun.SetWearGeometryUpdateInterval)(value[, unit])                                                       | Set the value of "Wear Geometry Update Interval".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | [`SetWearStart`](#generated.RASimulatorRun.SetWearStart)(value[, unit])                                                                                         | Set the value of "Wear Start".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 
@@ -297,7 +303,7 @@ Add a custom property to the database
 
 <a id="generated.RASimulatorRun.AddGridFunction"></a>
 
-#### AddGridFunction(grid_function_name, grid_function, unit='<unknown>', location='cell', realization='user_generated', time_step=None)
+#### AddGridFunction(grid_function_name, grid_function, unit: str | IQuantity = '<unknown>', location: str = 'cell', realization: str = 'user_generated', time_step: str | int | ITimeStep | None = None)
 
 Adds a grid function to the grid.
 
@@ -309,7 +315,7 @@ Adds a grid function to the grid.
   * **location** (*unicode*) – The location of the grid function (currently only ‘cell’ is accepted).
   * **realization** (*unicode*) – The realization used to identify the grid function among other grid functions. If None,
     this information is ignored.
-  * **time_step** (*None* *,* *unicode* *,* *ITimeStep* *or* *int*) – if None if given a static grid function will be created otherwise a transient grid
+  * **time_step** – if None if given a static grid function will be created otherwise a transient grid
     function is created and the given array associated with this time-step
 
 #### SEE ALSO
@@ -376,30 +382,28 @@ Used to create an output variable based on a curve which doesn’t change at eac
 
 <a id="generated.RASimulatorRun.CreateGridFunction"></a>
 
-#### CreateGridFunction(values, location='cell', time_step='current')
+#### CreateGridFunction(values: list[float] | ndarray, location: str = 'cell', time_step: str | int | ITimeStep = 'current')
 
 Create a grid function from the given values, location and time-step.
 
 * **Parameters:**
-  * **values** (*list* *(**double* *) or* *numpy array*) – The values of the grid function to be added.
-  * **time_step**
-
-#### SEE ALSO
-KAContextDependentElement.GetTimeStep
+  * **values** – The values of the grid function to be added.
+  * **time_step** – if None if given a static grid function will be created otherwise a transient grid
+    function is created and the given array associated with this time-step
+* **Returns:**
+  The created grid function.
 
 <a id="generated.RASimulatorRun.CreateGridFunctionArrayOnCells"></a>
 
-#### CreateGridFunctionArrayOnCells(time_step='current')
+#### CreateGridFunctionArrayOnCells(time_step: str | int | ITimeStep = 'current')
 
 Creates a numpy array with the number of elements based on the cells and returns it. A
 different time may be specified to create the grid function based on a different time.
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to create the array
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  numpy.array
 * **Returns:**
   Returns a numpy float32 array with the number of elements equal to the number of cells.
 
@@ -690,16 +694,14 @@ Set the value of “Use 3Rd Power For Cfd Cgm” to True.
 
 <a id="generated.RASimulatorRun.GetActivesArray"></a>
 
-#### GetActivesArray(time_step='current')
+#### GetActivesArray(time_step: str | int | ITimeStep = 'current')
 
 Get an array representing the cells’ “active” status.
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to get the actives array
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  numpy array
 * **Returns:**
   Returns a numpy array with booleans where True means the cell is active and False
   means it’s not active.
@@ -738,20 +740,18 @@ Deprecated: Use GetAvailableStandardOutputProperties instead.
 
 <a id="generated.RASimulatorRun.GetBoundingBox"></a>
 
-#### GetBoundingBox(unit=None, time_step='current')
+#### GetBoundingBox(unit: str | None = None, time_step: str | int | ITimeStep = 'current')
 
 Get the element’s bounding box.
 
 * **Parameters:**
-  * **unit** (*unicode*) – The unit in which the bounding box should be gotten (by default it uses the same
+  * **unit** – The unit in which the bounding box should be gotten (by default it uses the same
     unit of the geometry).
-  * **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  * **time_step** – Either a ‘current’ string with meaning the current time step
     or an ITimeStep identifying the time to get the bounding box
     or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  tuple(tuple(float, float, float), tuple(float, float, float))
 * **Returns:**
-  THe minimum and maximum geometry coordinates of the grid or None if the
+  The minimum and maximum geometry coordinates of the grid or None if the
   time step is not available at the requested time.
 
 <a id="generated.RASimulatorRun.GetBreakageDelayAfterRelease"></a>
@@ -780,65 +780,57 @@ Get the value of “Breakage Start”.
 
 <a id="generated.RASimulatorRun.GetCellAreaAsArray"></a>
 
-#### GetCellAreaAsArray(time_step='current')
+#### GetCellAreaAsArray(time_step: str | int | ITimeStep = 'current')
 
 Get an array containing the area of each cell.
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to get the cell volume
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  numpy.array
 * **Returns:**
   An array with the cell area (the unit will be the geometry unit \*\* 2)
 
 <a id="generated.RASimulatorRun.GetCellCenterAsArray"></a>
 
-#### GetCellCenterAsArray(time_step='current')
+#### GetCellCenterAsArray(time_step: str | int | ITimeStep = 'current')
 
 Get an array containing the center coordinates of each cell.
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to get the cell center
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  numpy.array
 * **Returns:**
   An array with the cell center coordinates (each element will be a point to the center of
   the cell).
 
 <a id="generated.RASimulatorRun.GetCellDzAsArray"></a>
 
-#### GetCellDzAsArray(time_step='current')
+#### GetCellDzAsArray(time_step: str | int | ITimeStep = 'current')
 
 Get an array containing the thickness (in Z) of each cell.
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to get the cell dz
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  numpy.array
 * **Returns:**
   An array with cell thicknesses computed in the Z direction.
 
 <a id="generated.RASimulatorRun.GetCellFromIJK"></a>
 
-#### GetCellFromIJK(i, j, k, time_step='current')
+#### GetCellFromIJK(i: int, j: int, k: int, time_step: str | int | ITimeStep = 'current')
 
 Creates a grid cell handle from the current I, J, K indexes
 
 * **Parameters:**
-  * **i** (*int*) – The topological I cell index
-  * **j** (*int*) – The topological J cell index
-  * **k** (*int*) – The topological K cell index
-  * **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  * **i** – The topological I cell index
+  * **j** – The topological J cell index
+  * **k** – The topological K cell index
+  * **time_step** – Either a ‘current’ string with meaning the current time step
     or an ITimeStep identifying the time to get the cell from the i, j, k
     or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  int or None
 * **Returns:**
   Returns the cell handle to be used for the given I, J, K indexes.
   Or None if the given I, J and K indexes are invalid or refer to an inactive cell
@@ -847,39 +839,35 @@ Creates a grid cell handle from the current I, J, K indexes
 
 <a id="generated.RASimulatorRun.GetCellIJK"></a>
 
-#### GetCellIJK(cell_handle, time_step='current')
+#### GetCellIJK(cell_handle: int, time_step: str | int | ITimeStep = 'current')
 
 Converts the given cell handle to it’s I, J, K indexes
 
 * **Parameters:**
-  * **cell_handle** (*int*) – The cell handle
-  * **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  * **cell_handle** – The cell handle
+  * **time_step** – Either a ‘current’ string with meaning the current time step
     or an ITimeStep identifying the time to get the i, j, k from the cell.
     or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  tuple( i, j, k )
 * **Returns:**
   The cell I, J, K indexes
 
 <a id="generated.RASimulatorRun.GetCellNumberOfVertices"></a>
 
-#### GetCellNumberOfVertices(cell, time_step='current')
+#### GetCellNumberOfVertices(cell: int, time_step: str | int | ITimeStep = 'current')
 
 Get an array containing the number of vertices of each cell.
 
 * **Parameters:**
-  * **cell_handle** (*int*) – The cell handle
-  * **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  * **cell_handle** – The cell handle
+  * **time_step** – Either a ‘current’ string with meaning the current time step
     or an ITimeStep identifying the time to get the number of vertices for the given cell
     or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  int
 * **Returns:**
   The total number of vertices on the given cell
 
 <a id="generated.RASimulatorRun.GetCellPointsAsFunction"></a>
 
-#### GetCellPointsAsFunction(time_step='current')
+#### GetCellPointsAsFunction(time_step: str | int | ITimeStep = 'current')
 
 Get a function for the points (vertices) of each cell.
 
@@ -913,24 +901,16 @@ for vertex in grid.IterCellVertices(cell):
 
 <a id="generated.RASimulatorRun.GetCellVolumeAsArray"></a>
 
-#### GetCellVolumeAsArray(time_step='current')
+#### GetCellVolumeAsArray(time_step: str | int | ITimeStep = 'current')
 
 Get an array with the volume of each cell.
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to get the cell volume
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  numpy.array
 * **Returns:**
   An array with the cell volume (the unit will be the geometry unit \*\* 3)
-
-<a id="generated.RASimulatorRun.GetCollectForcesForFemAnalysis"></a>
-
-#### GetCollectForcesForFemAnalysis()
-
-Deprecated: Use this method from RAStudy instead
 
 <a id="generated.RASimulatorRun.GetContactNeighboringDistanceBetweenParticles"></a>
 
@@ -952,7 +932,7 @@ Get the value of “Contact Neighboring Distance Between Particles And Triangles
 
 <a id="generated.RASimulatorRun.GetCurve"></a>
 
-#### GetCurve(curve_name, simulation_name=None, realization=None, time_step=None)
+#### GetCurve(curve_name, simulation_name=None, realization=None, time_step: str | int | ITimeStep | None = None)
 
 Override base class method to check for a request of a grid function statistic.
 
@@ -1015,6 +995,35 @@ Return the curves for the given element and name.
   * **realization** (*unicode*) – An additional keyword to identify the curve realization
   * **time_step** (*TimeStep*) – For transient curves a time-step must be given.
 
+<a id="generated.RASimulatorRun.GetFacePositions"></a>
+
+#### GetFacePositions(time_step: str | int | ITimeStep = 'current')
+
+Get the index of the faces. Use this in conjunction with GetFaceVertices to obtain
+the index of vertices in each face.
+
+* **Parameters:**
+  **time_step** – Either a ‘current’ string with meaning the current time step
+  or an ITimeStep identifying the time to get the geometry transform
+  or an int identifying the time step index to be used based on the global time set
+* **Returns:**
+  a numpy array with the face index of the grid at the given time step.
+
+<a id="generated.RASimulatorRun.GetFaceVertices"></a>
+
+#### GetFaceVertices(time_step: str | int | ITimeStep = 'current')
+
+Get the index of the vertices for all faces. Use this in conjunction with GetFacePositions
+to obtain the index of vertices in each face. The index is related to the vertices obtained
+via GetVertices.
+
+* **Parameters:**
+  **time_step** – Either a ‘current’ string with meaning the current time step
+  or an ITimeStep identifying the time to get the geometry transform
+  or an int identifying the time step index to be used based on the global time set
+* **Returns:**
+  a numpy array with the vertices index of the grid at the given time step.
+
 <a id="generated.RASimulatorRun.GetFixedTimestep"></a>
 
 #### GetFixedTimestep(unit: str | None = None)
@@ -1036,10 +1045,23 @@ Get the value of “Fluent Outputs Multiplier”.
 
 Get the quantity corresponding to the grid’s geometry.
 
-* **Return type:**
-  IQuantity
 * **Returns:**
   The grid geometry quantity
+
+<a id="generated.RASimulatorRun.GetGeometryTransform"></a>
+
+#### GetGeometryTransform(time_step: str | int | ITimeStep = 'current')
+
+Get the geometry transform for the grid at the given time step. This should be used in
+conjunction with GetVertices to obtain the transformed vertices of the grid.
+
+* **Parameters:**
+  **time_step** – Either a ‘current’ string with meaning the current time step
+  or an ITimeStep identifying the time to get the geometry transform
+  or an int identifying the time step index to be used based on the global time set
+* **Returns:**
+  The geometry transform as a tuple of (translation, rotation) or None if the
+  object has no motion frame associated to it.
 
 <a id="generated.RASimulatorRun.GetGeometryUnit"></a>
 
@@ -1047,8 +1069,6 @@ Get the quantity corresponding to the grid’s geometry.
 
 Get the grid’s geometry’s unit.
 
-* **Return type:**
-  unicode
 * **Returns:**
   The unit for the grid geometry
 
@@ -1070,13 +1090,11 @@ grid.GetGridFunction('Temperature').GetArray(unit='degC', time_step=time_set[10]
 if it’s used without a time parameter, it’ll get the array at the current application time.
 
 * **Parameters:**
-  * **grid_function_name** (*unicode*) – The name of the grid function to be gotten in this grid.
-  * **simulation_name** (*unicode*) – An optional parameter for defining the simulation to get the grid function from.
-  * **translated** (*bool*) – If False, the internal names of the grid functions will be returned, otherwise, the
+  * **grid_function_name** – The name of the grid function to be gotten in this grid.
+  * **simulation_name** – An optional parameter for defining the simulation to get the grid function from.
+  * **translated** – If False, the internal names of the grid functions will be returned, otherwise, the
     name returned will be the translated name (based on the settings chosen on how
     to see grid functions – i.e.: Cognitive, ECLIPSE, IMEX).
-* **Return type:**
-  KAGridFunction
 * **Returns:**
   The grid function found
 * **Raises:**
@@ -1084,22 +1102,9 @@ if it’s used without a time parameter, it’ll get the array at the current ap
 
 <a id="generated.RASimulatorRun.GetGridFunctionNames"></a>
 
-#### GetGridFunctionNames(translated=False, context=None)
+#### GetGridFunctionNames(translated: bool = False, context: str | None = None)
 
-Get a list of the available grid functions for this grid.
-
-* **Parameters:**
-  * **translated** (*bool*) – If False, the internal names of the grid functions will be returned, otherwise, the
-    name returned will be the translated name (based on the settings chosen on how
-    to see grid functions – i.e.: Cognitive, ECLIPSE, IMEX).
-  * **context** ( *'all'* *,*  *'static'* *or*  *'transient'*) – Which names should be returned
-    ‘all’ all grid function names
-    ‘static’ only the static grid function names
-    ‘transient’ only the transient grid function names
-* **Return type:**
-  list(unicode)
-* **Returns:**
-  Returns a list with the grid functions available.
+Overridden to filter out deprecated property names.
 
 <a id="generated.RASimulatorRun.GetJointElasticRatio"></a>
 
@@ -1127,7 +1132,7 @@ Get the value of “Maximum Number of Iterations”.
 
 <a id="generated.RASimulatorRun.GetMeshColoring"></a>
 
-#### GetMeshColoring(window: str | type[KAWorkspaceWindow])
+#### GetMeshColoring(window: str | KAWorkspaceWindow)
 
 Get the RAMeshColoring related to the current object and a window.
 
@@ -1172,6 +1177,42 @@ Retrieve enable state of given “Modules Output Property”.
 
 Get the value of “Move Cfd Cells With Rocky Boundaries”.
 
+<a id="generated.RASimulatorRun.GetMpiHeterogeneous"></a>
+
+#### GetMpiHeterogeneous()
+
+Get the value of “Mpi Heterogeneous”.
+
+<a id="generated.RASimulatorRun.GetMpiHostfile"></a>
+
+#### GetMpiHostfile()
+
+Get the value of “Mpi Hostfile”.
+
+<a id="generated.RASimulatorRun.GetMpiHosts"></a>
+
+#### GetMpiHosts()
+
+Get the value of “Mpi Hosts”.
+
+<a id="generated.RASimulatorRun.GetMpiNumberOfProcesses"></a>
+
+#### GetMpiNumberOfProcesses()
+
+Get the value of “Mpi Number of Processes”.
+
+<a id="generated.RASimulatorRun.GetMpiNumberOfThreads"></a>
+
+#### GetMpiNumberOfThreads()
+
+Get the value of “Mpi Number of Threads”.
+
+<a id="generated.RASimulatorRun.GetMpiWithinScheduler"></a>
+
+#### GetMpiWithinScheduler()
+
+Get the value of “Mpi Within Scheduler”.
+
 <a id="generated.RASimulatorRun.GetMultiGpuSlicingDirection"></a>
 
 #### GetMultiGpuSlicingDirection()
@@ -1198,31 +1239,27 @@ Get “Neighbor Search Model” as a string.
 
 <a id="generated.RASimulatorRun.GetNumberOfCells"></a>
 
-#### GetNumberOfCells(time_step='current')
+#### GetNumberOfCells(time_step: str | int | ITimeStep = 'current')
 
 Get the total number of cells.
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to get the number of cells
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  int
 * **Returns:**
   The total number of cells
 
 <a id="generated.RASimulatorRun.GetNumberOfNodes"></a>
 
-#### GetNumberOfNodes(time_step='current')
+#### GetNumberOfNodes(time_step: str | int | ITimeStep = 'current')
 
 Get the total number of nodes (vertices).
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to get the number of cells
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  int
 * **Returns:**
   The total number of nodes/vertices
 
@@ -1286,6 +1323,15 @@ Get the value of “Particle Size Limit For Reordering”.
 * **Parameters:**
   **unit** – The unit for the returned value. If no unit is provided, the returned value will be in “m”.
 
+<a id="generated.RASimulatorRun.GetProcessingUnit"></a>
+
+#### GetProcessingUnit()
+
+Get “Processing Unit” as a string.
+
+* **Returns:**
+  The returned value will be one of [‘CPU’, ‘GPU’, ‘MULTI_GPU’].
+
 <a id="generated.RASimulatorRun.GetRefineConcaveSearch"></a>
 
 #### GetRefineConcaveSearch()
@@ -1319,32 +1365,11 @@ Get the value of “Simulation Duration”.
 * **Parameters:**
   **unit** – The unit for the returned value. If no unit is provided, the returned value will be in “s”.
 
-<a id="generated.RASimulatorRun.GetSimulationOutputFrequency"></a>
-
-#### GetSimulationOutputFrequency(unit: str | None = None)
-
-Deprecated: Use GetTimeInterval instead.
-
-<a id="generated.RASimulatorRun.GetSimulationTarget"></a>
-
-#### GetSimulationTarget()
-
-Get “Simulation Target” as a string.
-
-* **Returns:**
-  The returned value will be one of [‘CPU’, ‘GPU’, ‘MULTI_GPU’].
-
 <a id="generated.RASimulatorRun.GetSolverCurvesFrequency"></a>
 
 #### GetSolverCurvesFrequency()
 
 Get the value of “Solver Curves Frequency”.
-
-<a id="generated.RASimulatorRun.GetSolverCurvesOutputFrequency"></a>
-
-#### GetSolverCurvesOutputFrequency()
-
-Deprecated: Use GetSolverCurvesFrequency instead.
 
 <a id="generated.RASimulatorRun.GetSortingDistanceFactor"></a>
 
@@ -1408,8 +1433,6 @@ Get the value of “Time Interval”.
 
 Get the list of time-steps associated to the grid.
 
-* **Return type:**
-  ITimeSet
 * **Returns:**
   The list of time-steps associated to the grid
 
@@ -1456,16 +1479,14 @@ Get “Timestep Model” as a string.
 
 <a id="generated.RASimulatorRun.GetTopologyShape"></a>
 
-#### GetTopologyShape(time_step='current')
+#### GetTopologyShape(time_step: str | int | ITimeStep = 'current')
 
 Get the shape of the topology (similar to the shape of numpy arrays).
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to get the topology shape
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  tuple of ints
 * **Returns:**
   The grid shape as a tuple of the grid size in each topological dimension.
 
@@ -1536,6 +1557,12 @@ Get the value of “Use Drag Limiter Factor”.
 
 Get the value of “Use Fixed Timestep”.
 
+<a id="generated.RASimulatorRun.GetUseMpi"></a>
+
+#### GetUseMpi()
+
+Get the value of “Use Mpi”.
+
 <a id="generated.RASimulatorRun.GetUseNonRoundTorqueCorrection"></a>
 
 #### GetUseNonRoundTorqueCorrection()
@@ -1575,11 +1602,11 @@ Get a list of all possible values for “Neighbor Search Model”.
 * **Returns:**
   The returned list is [‘BVH’, ‘RegularGrid’, ‘SparseGrid’].
 
-<a id="generated.RASimulatorRun.GetValidSimulationTargetValues"></a>
+<a id="generated.RASimulatorRun.GetValidProcessingUnitValues"></a>
 
-#### GetValidSimulationTargetValues()
+#### GetValidProcessingUnitValues()
 
-Get a list of all possible values for “Simulation Target”.
+Get a list of all possible values for “Processing Unit”.
 
 * **Returns:**
   The returned list is [‘CPU’, ‘GPU’, ‘MULTI_GPU’].
@@ -1593,34 +1620,20 @@ Get a list of all possible values for “Timestep Model”.
 * **Returns:**
   The returned list is [‘constant’, ‘variable’].
 
-<a id="generated.RASimulatorRun.GetWearEnergySpectraBreakageDelayAfterRelease"></a>
+<a id="generated.RASimulatorRun.GetVertices"></a>
 
-#### GetWearEnergySpectraBreakageDelayAfterRelease(unit: str | None = None)
+#### GetVertices(time_step: str | int | ITimeStep = 'current')
 
-Deprecated: Use GetEnergySpectraDelayAfterRelease or GetBreakageDelayAfterRelease instead.
+Get the geometry vertices of the grid at the given time step. This should be used in
+conjunction with GetGeometryTransform to obtain the transformed vertices of the grid
+at a given time_step, otherwise it may return the vertices without any transformation.
 
-“Wear / Breakage Delay after Release” is now:
-: 1.Breakage Start
-
-The default value that is being return is the Breakage value.
-
-<a id="generated.RASimulatorRun.GetWearEnergySpectraBreakageStart"></a>
-
-#### GetWearEnergySpectraBreakageStart(unit: str | None = None)
-
-Deprecated: Use GetWearStart or GetBreakageStart instead.
-
-“Wear / Breakage Start Time” was broken into two:
-: 1.Wear Start
-  2.Breakage Start
-
-The default value that is being return is the Breakage value.
-
-<a id="generated.RASimulatorRun.GetWearGeometryUpdateFrequency"></a>
-
-#### GetWearGeometryUpdateFrequency(unit: str | None = None)
-
-Deprecated: Use GetWearGeometryUpdateInterval instead.
+* **Parameters:**
+  **time_step** – Either a ‘current’ string with meaning the current time step
+  or an ITimeStep identifying the time to get the geometry transform
+  or an int identifying the time step index to be used based on the global time set
+* **Returns:**
+  a numpy array with the vertices of the grid at the given time step.
 
 <a id="generated.RASimulatorRun.GetWearGeometryUpdateInterval"></a>
 
@@ -1648,14 +1661,12 @@ Whether the simulation is configured to collect forces for FEM analysis.
 
 <a id="generated.RASimulatorRun.HasGridFunction"></a>
 
-#### HasGridFunction(grid_function_name)
+#### HasGridFunction(grid_function_name: str)
 
 Whether the grid has the given grid function.
 
 * **Parameters:**
-  **grid_function_name** (*unicode*) – The name of the grid function to be checked.
-* **Return type:**
-  bool
+  **grid_function_name** – The name of the grid function to be checked.
 * **Returns:**
   Returns True if the grid function exists and False otherwise.
 
@@ -1667,19 +1678,17 @@ Whether the “HTC” is being calculated.
 
 <a id="generated.RASimulatorRun.IsCellActive"></a>
 
-#### IsCellActive(i, j, k, time_step='current')
+#### IsCellActive(i: int, j: int, k: int, time_step: str | int | ITimeStep = 'current')
 
 Checks if the given cell is active or not
 
-@param i, j, k: int
+@param i, j, k:
 : The cell i, j, k
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to get if the cell is active
   or an int identifying the time step index to be used based on the global time set
-* **Return type:**
-  bool
 * **Returns:**
   True if the cell is active
 
@@ -1722,13 +1731,13 @@ Check if the “Use 3Rd Power For Cfd Cgm” is enabled.
 
 <a id="generated.RASimulatorRun.IterCellVertices"></a>
 
-#### IterCellVertices(cell, time_step='current')
+#### IterCellVertices(cell: int, time_step: str | int | ITimeStep = 'current')
 
 Iterate on the vertices of active grid cells at the given time.
 
 * **Parameters:**
-  * **cell_handle** (*int*) – The cell handle
-  * **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  * **cell_handle** – The cell handle
+  * **time_step** – Either a ‘current’ string with meaning the current time step
     or an ITimeStep identifying the time to iterate the vertices of a cell
     or an int identifying the time step index to be used based on the global time set
 * **Return type:**
@@ -1738,12 +1747,12 @@ Iterate on the vertices of active grid cells at the given time.
 
 <a id="generated.RASimulatorRun.IterCells"></a>
 
-#### IterCells(time_step='current')
+#### IterCells(time_step: str | int | ITimeStep = 'current')
 
 Iterate on the active grid cells at the given time.
 
 * **Parameters:**
-  **time_step** (*unicode* *,* *ITimeStep* *or* *int*) – Either a ‘current’ string with meaning the current time step
+  **time_step** – Either a ‘current’ string with meaning the current time step
   or an ITimeStep identifying the time to iterate the cells
   or an int identifying the time step index to be used based on the global time set
 * **Return type:**
@@ -1834,12 +1843,6 @@ Set the value of “Breakage Start”.
 * **Parameters:**
   * **value** – The value to set. This value can be an expression with input variables or float type.
   * **unit** – The unit for value. If no unit is provided, value is assumed to be in “s”.
-
-<a id="generated.RASimulatorRun.SetCollectForcesForFemAnalysis"></a>
-
-#### SetCollectForcesForFemAnalysis(value: bool)
-
-Deprecated: Use this method from RAStudy instead
 
 <a id="generated.RASimulatorRun.SetContactNeighboringDistanceBetweenParticles"></a>
 
@@ -2000,6 +2003,60 @@ Set the value of “Move Cfd Cells With Rocky Boundaries”.
 * **Parameters:**
   **value** – The value to set.
 
+<a id="generated.RASimulatorRun.SetMpiHeterogeneous"></a>
+
+#### SetMpiHeterogeneous(value: bool)
+
+Set the value of “Mpi Heterogeneous”.
+
+* **Parameters:**
+  **value** – The value to set.
+
+<a id="generated.RASimulatorRun.SetMpiHostfile"></a>
+
+#### SetMpiHostfile(value: str)
+
+Set the value of “Mpi Hostfile”.
+
+* **Parameters:**
+  **value** – The value to set.
+
+<a id="generated.RASimulatorRun.SetMpiHosts"></a>
+
+#### SetMpiHosts(value: str)
+
+Set the value of “Mpi Hosts”.
+
+* **Parameters:**
+  **value** – The value to set.
+
+<a id="generated.RASimulatorRun.SetMpiNumberOfProcesses"></a>
+
+#### SetMpiNumberOfProcesses(value: str | int)
+
+Set the value of “Mpi Number of Processes”.
+
+* **Parameters:**
+  **value** – The value to set. This value can be an expression with input variables or int type.
+
+<a id="generated.RASimulatorRun.SetMpiNumberOfThreads"></a>
+
+#### SetMpiNumberOfThreads(value: str | int)
+
+Set the value of “Mpi Number of Threads”.
+
+* **Parameters:**
+  **value** – The value to set. This value can be an expression with input variables or int type.
+
+<a id="generated.RASimulatorRun.SetMpiWithinScheduler"></a>
+
+#### SetMpiWithinScheduler(value: bool)
+
+Set the value of “Mpi Within Scheduler”.
+
+* **Parameters:**
+  **value** – The value to set.
+
 <a id="generated.RASimulatorRun.SetMultiGpuSlicingDirection"></a>
 
 #### SetMultiGpuSlicingDirection(value: str)
@@ -2081,6 +2138,17 @@ Set the value of “Particle Size Limit For Reordering”.
   * **value** – The value to set. This value can be an expression with input variables or float type.
   * **unit** – The unit for value. If no unit is provided, value is assumed to be in “m”.
 
+<a id="generated.RASimulatorRun.SetProcessingUnit"></a>
+
+#### SetProcessingUnit(value: str)
+
+Set the value of “Processing Unit”.
+
+* **Parameters:**
+  **value** – The value to set. Must be one of [‘CPU’, ‘GPU’, ‘MULTI_GPU’].
+* **Raises:**
+  **RockyApiError** – If value is not a valid “Processing Unit” option.
+
 <a id="generated.RASimulatorRun.SetRefineConcaveSearch"></a>
 
 #### SetRefineConcaveSearch(value: bool)
@@ -2127,23 +2195,6 @@ Set the value of “Simulation Duration”.
   * **value** – The value to set. This value can be an expression with input variables or float type.
   * **unit** – The unit for value. If no unit is provided, value is assumed to be in “s”.
 
-<a id="generated.RASimulatorRun.SetSimulationOutputFrequency"></a>
-
-#### SetSimulationOutputFrequency(value: str | float, unit: str | None = None)
-
-Deprecated: Use SetTimeInterval instead.
-
-<a id="generated.RASimulatorRun.SetSimulationTarget"></a>
-
-#### SetSimulationTarget(value: str)
-
-Set the value of “Simulation Target”.
-
-* **Parameters:**
-  **value** – The value to set. Must be one of [‘CPU’, ‘GPU’, ‘MULTI_GPU’].
-* **Raises:**
-  **RockyApiError** – If value is not a valid “Simulation Target” option.
-
 <a id="generated.RASimulatorRun.SetSolverCurvesFrequency"></a>
 
 #### SetSolverCurvesFrequency(value: str | int)
@@ -2152,12 +2203,6 @@ Set the value of “Solver Curves Frequency”.
 
 * **Parameters:**
   **value** – The value to set. This value can be an expression with input variables or int type.
-
-<a id="generated.RASimulatorRun.SetSolverCurvesOutputFrequency"></a>
-
-#### SetSolverCurvesOutputFrequency(value: str | int)
-
-Deprecated: Use SetSolverCurvesFrequency instead.
 
 <a id="generated.RASimulatorRun.SetSortingDistanceFactor"></a>
 
@@ -2353,6 +2398,15 @@ Set the value of “Use Fixed Timestep”.
 * **Parameters:**
   **value** – The value to set.
 
+<a id="generated.RASimulatorRun.SetUseMpi"></a>
+
+#### SetUseMpi(value: bool)
+
+Set the value of “Use Mpi”.
+
+* **Parameters:**
+  **value** – The value to set.
+
 <a id="generated.RASimulatorRun.SetUseNonRoundTorqueCorrection"></a>
 
 #### SetUseNonRoundTorqueCorrection(value: bool)
@@ -2370,35 +2424,6 @@ Set the value of “Use Sorting Distance Factor”.
 
 * **Parameters:**
   **value** – The value to set.
-
-<a id="generated.RASimulatorRun.SetWearEnergySpectraBreakageDelayAfterRelease"></a>
-
-#### SetWearEnergySpectraBreakageDelayAfterRelease(value: str | float, unit: str | None = None)
-
-Deprecated: Use SetEnergySpectraDelayAfterRelease or SetBreakageDelayAfterRelease instead.
-
-“Wear / Breakage Delay after Release” is now:
-: 1.Breakage Start
-
-Wear doesn’t have Delay after Release anymore.
-
-<a id="generated.RASimulatorRun.SetWearEnergySpectraBreakageStart"></a>
-
-#### SetWearEnergySpectraBreakageStart(value: str | float, unit: str | None = None)
-
-Deprecated: Use SetWearStart or SetBreakageStart instead.
-
-“Wear / Breakage Start Time” was broken into two:
-: 1.Wear Start
-  2.Breakage Start
-
-All the three values are being set with the same received value.
-
-<a id="generated.RASimulatorRun.SetWearGeometryUpdateFrequency"></a>
-
-#### SetWearGeometryUpdateFrequency(value: str | float, unit: str | None = None)
-
-Deprecated: Use GetWearGeometryUpdateInterval instead.
 
 <a id="generated.RASimulatorRun.SetWearGeometryUpdateInterval"></a>
 
