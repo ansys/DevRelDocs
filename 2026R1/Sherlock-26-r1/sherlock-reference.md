@@ -6,7 +6,7 @@ Back to [Top](#table-of-contents)
  
 ## SherlockACTService.proto
  
-@Copyright 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
+@Copyright 2026 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 ### ExportFEAModelWithMaterialPartMappingRequest
  
@@ -749,7 +749,7 @@ Back to [Top](#table-of-contents)
  
 ## SherlockCommonService.proto
  
-Copyright 2023-2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
+Copyright 2023-2026 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 ### ExitRequest
  
@@ -831,7 +831,7 @@ Represents Sherlock version and configuration data.
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| releaseVersion | [string](#string) |  | The current version of Sherlock, formatted as: YYYY R# (Ex. "2025 R1"). |
+| releaseVersion | [string](#string) |  | The current version of Sherlock, formatted as: YYYY R# (Ex. "2026 R1"). |
 | defaultProjectDir | [string](#string) |  | The project directory currently used by Sherlock. |
 | isSingleProjectMode | [bool](#bool) |  | When true, indicates that Sherlock is in single-project mode. When false, indicates that Sherlock is in multi-project mode. |
 
@@ -2867,7 +2867,7 @@ Back to [Top](#table-of-contents)
  
 ## SherlockModelService.proto
  
-Copyright 2023-2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
+Copyright 2023-2026 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 ### DrillHoleModeling
  
@@ -3189,7 +3189,7 @@ Back to [Top](#table-of-contents)
  
 ## SherlockPartsService.proto
  
-Copyright 2023-2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
+Copyright 2023-2026 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 ### DeletePartsFromPartsListRequest
  
@@ -3635,7 +3635,7 @@ Back to [Top](#table-of-contents)
  
 ## SherlockProjectService.proto
  
-Copyright 2024-2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
+Copyright 2024-2026 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 ### AddCcaRequest
  
@@ -4682,7 +4682,7 @@ Back to [Top](#table-of-contents)
  
 ## SherlockStackupService.proto
  
-Copyright 2023-2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
+Copyright 2023-2026 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 ### GenStackupRequest
  
