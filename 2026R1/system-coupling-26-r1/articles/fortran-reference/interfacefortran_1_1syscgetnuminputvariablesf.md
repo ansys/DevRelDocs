@@ -20,9 +20,11 @@ Provide an interface to return the number of input variables.
 
 ![][public]
 
+
 ```fortran
 integer(kind=8) function syscgetnuminputvariablesf(region)
 ```
+
 
 Provide a function to return the number of input variables.
 
@@ -39,7 +41,7 @@ Number of input variables for the region
 
 **Parameters**:
 
-* regionregion
+* regiontype([syscregionf](structfortran_1_1syscregionf.md#structfortran_1_1syscregionf)), intent(in)
 
 **Return type**: integer(kind=8) function
 

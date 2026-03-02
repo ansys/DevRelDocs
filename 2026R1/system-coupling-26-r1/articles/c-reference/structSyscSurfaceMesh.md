@@ -28,9 +28,11 @@ Provides read-only access to the surface mesh for a given region.
 
 **Definition**: `syscSurfaceMesh.h` (line 33)
 
+
 ```
 SyscNodeData SyscSurfaceMesh::nodes
 ```
+
 
 
 
@@ -47,9 +49,11 @@ Mesh nodes.
 
 **Definition**: `syscSurfaceMesh.h` (line 36)
 
+
 ```
 SyscFaceData SyscSurfaceMesh::faces
 ```
+
 
 
 
@@ -66,9 +70,11 @@ Mesh faces.
 
 **Definition**: `syscSurfaceMesh.h` (line 39)
 
+
 ```
 char SyscSurfaceMesh::side0[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
+
 
 
 
@@ -85,9 +91,11 @@ Side 0.
 
 **Definition**: `syscSurfaceMesh.h` (line 42)
 
+
 ```
 char SyscSurfaceMesh::side1[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
+
 
 
 
@@ -104,9 +112,11 @@ Side 1.
 
 **Definition**: `syscSurfaceMesh.h` (line 45)
 
+
 ```
 int64_t SyscSurfaceMesh::connectivityStamp
 ```
+
 
 Mesh connectivity stamp. Update whenever re-meshing happens.
 
@@ -123,9 +133,11 @@ Mesh connectivity stamp. Update whenever re-meshing happens.
 
 **Definition**: `syscSurfaceMesh.h` (line 49)
 
+
 ```
 int64_t SyscSurfaceMesh::coordinatesStamp
 ```
+
 
 Nodal coordinates stamp. Update whenever nodal coordinates get updated.
 
@@ -142,9 +154,11 @@ Nodal coordinates stamp. Update whenever nodal coordinates get updated.
 
 **Definition**: `syscSurfaceMesh.h` (line 52)
 
+
 ```
 int64_t SyscSurfaceMesh::partitioningStamp
 ```
+
 
 Partitioning stamp. Update whenever the mesh is re-partitioned.
 

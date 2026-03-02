@@ -28,6 +28,7 @@
 
 ## Source
 
+
 ```fortran
 module fortran
 !
@@ -38,16 +39,44 @@ module fortran
 ! System Coupling Participant Library.
 !
 ! *********************************************************************
+!> \brief Provide a struct for a coupling interface.
+!!
+!! Coupling interface can be used to set up the transfers of data 
+!! between different regions within the same participant solver. 
+!! Interface contains two sides and each side can contain one or more 
+!! regions. Data transfers are automatically defined: if a variable is 
+!! defined as an output on all regions on one side of the interface and 
+!! as an input on all regions on the opposite side of the interface, 
+!! then it will be mapped from the former side to the latter side.
+!!
+!! All regions on one side of the interface must have the same 
+!! topology.
+!!
+!! To create and/or initialize the SyscCouplingInterface struct, it is 
+!! highly recommended to use the `syscGetCouplingInterface` function. 
+!! This function will initialize all members to the correct values and 
+!! will help to avoid back-compatibility issues in the future. For 
+!! example:
+!!
+!! \code
+!! type(SyscCouplingInterfaceF) :: interface
+!! interface = syscGetCouplingInterfaceF("FSI")
+!! \endcode
 ! *********************************************************************
 type :: sysccouplinginterfacef
-  character(len=SyscStrLen) :: name
+  character(len=SyscStrLen) :: name !< Unique name for the interface.
 end type sysccouplinginterfacef
 !
 !**********************************************************************
 !
+!> \brief Provide an interface to get a coupling interface
 interface syscgetcouplinginterfacef
 !
 !**********************************************************************
+!> \brief Create a coupling interface.
+!!
+!! \param[in] name - Unique name for this interface. String length 
+!!   should not exceed `SYSC_STRING_LENGTH`.
 !**********************************************************************
 function syscgetcouplinginterfacef(name) result(ret)
 !
@@ -65,9 +94,28 @@ end function syscgetcouplinginterfacef
 !
 end interface syscgetcouplinginterfacef
 !
+!> \brief Provide an interface to add side one region.
 interface syscaddsideoneregionf
 !
 !**********************************************************************
+!> \brief Add region to side one of the couping interface.
+!!
+!! If this region has already been added to the interface on side one, 
+!! then this call will have no effect.
+!!
+!! If a different region with the same name has already been added to 
+!! the interface on side one, then a runtime error will be thrown.
+!!
+!! If a region with the same name has already been added to the 
+!! interface on side two, then a runtime error will be thrown.
+!!
+!! If the region name contains invalid characters, a runtime error 
+!! will be thrown.
+!!
+!! \param[in] interface Coupling interface to which the output 
+!! variable is to be added.
+!!
+!! \param[in] region Region to be added to side one of the interface.
 !**********************************************************************
 !
 function syscaddsideoneregionf(interface, region) result (ret)
@@ -89,9 +137,28 @@ end interface syscaddsideoneregionf
 !
 !**********************************************************************
 !
+!> \brief Provide an interface to add side two region.
 interface syscaddsidetworegionf
 !
 !**********************************************************************
+!> \brief Add region to side two of the interface.
+!!
+!! If this region has already been added to the interface on side two, 
+!! then this call will have no effect.
+!!
+!! If a different region with the same name has already been added to 
+!! the interface on side two, then a runtime error will be thrown.
+!!
+!! If a region with the same name has already been added to the 
+!! interface on side one, then a runtime error will be thrown.
+!!
+!! If the region name contains invalid characters, a runtime error 
+!! will be thrown.
+!!
+!! \param[in] interface Coupling interface to which the output 
+!! variable is to be added.
+!!
+!! \param[in] region Region to be added to side two of the interface.
 !**********************************************************************
 !
 function syscaddsidetworegionf(interface, region) result (ret)
@@ -113,9 +180,11 @@ end interface syscaddsidetworegionf
 !
 !**********************************************************************
 !
+!> \brief Provide an interface to add data transfer.
 interface syscadddatatransferf
 !
 !**********************************************************************
+!> \brief Add data transfer to the coupling interface.
 !**********************************************************************
 !
 function syscadddatatransferf(couplingInterface, dataTransfer)&
@@ -138,9 +207,11 @@ end interface syscadddatatransferf
 !
 !**********************************************************************
 !
+!> \brief Provide an interface to get number of data transfers.
 interface sysccouplinginterfacegetnumdatatransfersf
 !
 !**********************************************************************
+!> \brief Get number of data transfers in a coupling interface.
 !**********************************************************************
 !
 function sysccouplinginterfacegetnumdatatransfersf(&
@@ -160,9 +231,11 @@ end interface sysccouplinginterfacegetnumdatatransfersf
 !
 !**********************************************************************
 !
+!> \brief Provide an interface to get number of side one regions.
 interface sysccouplinginterfacegetnumsideoneregionsf
 !
 !**********************************************************************
+!> \brief Get number of side one regions in a coupling interface.
 !**********************************************************************
 !
 function sysccouplinginterfacegetnumsideoneregionsf(&
@@ -182,9 +255,11 @@ end interface sysccouplinginterfacegetnumsideoneregionsf
 !
 !**********************************************************************
 !
+!> \brief Provide an interface to get number of side two regions.
 interface sysccouplinginterfacegetnumsidetworegionsf
 !
 !**********************************************************************
+!> \brief Get number of side two regions in a coupling interface.
 !**********************************************************************
 !
 function sysccouplinginterfacegetnumsidetworegionsf(&
@@ -204,10 +279,13 @@ end interface sysccouplinginterfacegetnumsidetworegionsf
 !
 !**********************************************************************
 !
+!> \brief Provide an interface to get a data transfer from a coupling
+!! interface.
 !
 interface sysccouplinginterfacegetdatatransferf
 !
 !**********************************************************************
+!> \brief Get a data transfer from a coupling interface.
 !**********************************************************************
 !
 function sysccouplinginterfacegetdatatransferf(&
@@ -228,10 +306,13 @@ end interface sysccouplinginterfacegetdatatransferf
 !
 !**********************************************************************
 !
+!> \brief Provide an interface to get side one region from a coupling
+!! interface.
 !
 interface sysccouplinginterfacegetsideoneregionf
 !
 !**********************************************************************
+!> \brief Get side one region from a coupling interface.
 !**********************************************************************
 !
 function sysccouplinginterfacegetsideoneregionf(&
@@ -252,10 +333,13 @@ end interface sysccouplinginterfacegetsideoneregionf
 !
 !**********************************************************************
 !
+!> \brief Provide an interface to get side two region from a coupling
+!! interface.
 !
 interface sysccouplinginterfacegetsidetworegionf
 !
 !**********************************************************************
+!> \brief Get side two region from a coupling interface.
 !**********************************************************************
 !
 function sysccouplinginterfacegetsidetworegionf(&
@@ -277,5 +361,7 @@ end interface sysccouplinginterfacegetsidetworegionf
 end module fortran
 ```
 
+
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)
+[Markdown]: https://img.shields.io/badge/language-Markdown-blue (Markdown)

@@ -13,6 +13,7 @@ To create and/or initialize [SyscElementTypeData](structSyscElementTypeData.md#s
 
 
 
+
 ```
 SyscElementTypeData elemTypeData = syscGetElementTypeData(elemTypes);
 ```
@@ -30,9 +31,11 @@ SyscElementTypeData elemTypeData = syscGetElementTypeData(elemTypes);
 
 **Definition**: `syscMeshDefinition.h` (line 89)
 
+
 ```
 SyscOutputIntegerData SyscElementTypeData::elementTypes
 ```
+
 
 Element types array access.
 

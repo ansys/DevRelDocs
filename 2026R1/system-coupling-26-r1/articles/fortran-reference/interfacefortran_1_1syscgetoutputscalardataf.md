@@ -12,10 +12,10 @@ Provide an interface to get output scalar data.
 ## Members
 
 * [syscgetoutputscalardataf](interfacefortran_1_1syscgetoutputscalardataf.md#interfacefortran_1_1syscgetoutputscalardataf_1a76a042a253abb91e8bcdc11ce3b8dd20)
-* [syscgetoutputscalardataf\_i4](interfacefortran_1_1syscgetoutputscalardataf.md#interfacefortran_1_1syscgetoutputscalardataf_1aba984631b55a3022f2868cf603110e2c)
-* [syscgetoutputscalardataf\_i8](interfacefortran_1_1syscgetoutputscalardataf.md#interfacefortran_1_1syscgetoutputscalardataf_1ac4fbf5afb57f3e177fa8aaffca76a482)
-* [syscgetoutputscalardataf\_r4](interfacefortran_1_1syscgetoutputscalardataf.md#interfacefortran_1_1syscgetoutputscalardataf_1aa0fc1202c9abbcc583566e27919afc2d)
-* [syscgetoutputscalardataf\_r8](interfacefortran_1_1syscgetoutputscalardataf.md#interfacefortran_1_1syscgetoutputscalardataf_1aea3e7515b6ad50dca7f13b8b459bf7a2)
+* [syscgetoutputscalardataf\_i4](interfacefortran_1_1syscgetoutputscalardataf.md#interfacefortran_1_1syscgetoutputscalardataf_1a22a59bdf1e1b2b68ef148b615bff516e)
+* [syscgetoutputscalardataf\_i8](interfacefortran_1_1syscgetoutputscalardataf.md#interfacefortran_1_1syscgetoutputscalardataf_1a83da63a913b5837f3904a03da11b8994)
+* [syscgetoutputscalardataf\_r4](interfacefortran_1_1syscgetoutputscalardataf.md#interfacefortran_1_1syscgetoutputscalardataf_1a30f49e0a3598cbcb0431d47c62f4422c)
+* [syscgetoutputscalardataf\_r8](interfacefortran_1_1syscgetoutputscalardataf.md#interfacefortran_1_1syscgetoutputscalardataf_1a8db12f1fb4a7ea7d8d1b670e169e3b69)
 
 ## Public functions
 
@@ -23,6 +23,7 @@ Provide an interface to get output scalar data.
 ### Function syscgetoutputscalardataf
 
 ![][public]
+
 
 ```fortran
 type(syscoutputscalardataf) function syscgetoutputscalardataf()
@@ -34,16 +35,19 @@ type(syscoutputscalardataf) function syscgetoutputscalardataf()
 
 
 
+
 **Return type**: type([syscoutputscalardataf](structfortran_1_1syscoutputscalardataf.md#structfortran_1_1syscoutputscalardataf)) function
 
-<a id="interfacefortran_1_1syscgetoutputscalardataf_1aa0fc1202c9abbcc583566e27919afc2d"></a>
+<a id="interfacefortran_1_1syscgetoutputscalardataf_1a30f49e0a3598cbcb0431d47c62f4422c"></a>
 ### Function syscgetoutputscalardataf\_r4
 
 ![][public]
 
+
 ```fortran
-type(syscoutputscalardataf) function syscgetoutputscalardataf_r4(data, dataSize)
+type(syscoutputscalardataf) function syscgetoutputscalardataf_r4(data, datasize)
 ```
+
 
 Create an output scalar data access type.
 
@@ -56,19 +60,21 @@ Create an output scalar data access type.
 
 **Parameters**:
 
-* datadata
-* dataSizedataSize
+* datareal(kind=4), dimension(datasize), intent(in), target
+* datasizeinteger(kind=8), intent(in)
 
 **Return type**: type([syscoutputscalardataf](structfortran_1_1syscoutputscalardataf.md#structfortran_1_1syscoutputscalardataf)) function
 
-<a id="interfacefortran_1_1syscgetoutputscalardataf_1aea3e7515b6ad50dca7f13b8b459bf7a2"></a>
+<a id="interfacefortran_1_1syscgetoutputscalardataf_1a8db12f1fb4a7ea7d8d1b670e169e3b69"></a>
 ### Function syscgetoutputscalardataf\_r8
 
 ![][public]
 
+
 ```fortran
-type(syscoutputscalardataf) function syscgetoutputscalardataf_r8(data, dataSize)
+type(syscoutputscalardataf) function syscgetoutputscalardataf_r8(data, datasize)
 ```
+
 
 Create an output scalar data access type.
 
@@ -81,19 +87,21 @@ Create an output scalar data access type.
 
 **Parameters**:
 
-* datadata
-* dataSizedataSize
+* datareal(kind=8), dimension(datasize), intent(in), target
+* datasizeinteger(kind=8), intent(in)
 
 **Return type**: type([syscoutputscalardataf](structfortran_1_1syscoutputscalardataf.md#structfortran_1_1syscoutputscalardataf)) function
 
-<a id="interfacefortran_1_1syscgetoutputscalardataf_1aba984631b55a3022f2868cf603110e2c"></a>
+<a id="interfacefortran_1_1syscgetoutputscalardataf_1a22a59bdf1e1b2b68ef148b615bff516e"></a>
 ### Function syscgetoutputscalardataf\_i4
 
 ![][public]
 
+
 ```fortran
-type(syscoutputscalardataf) function syscgetoutputscalardataf_i4(data, dataSize)
+type(syscoutputscalardataf) function syscgetoutputscalardataf_i4(data, datasize)
 ```
+
 
 Create an output scalar data access type.
 
@@ -106,19 +114,21 @@ Create an output scalar data access type.
 
 **Parameters**:
 
-* datadata
-* dataSizedataSize
+* datainteger(kind=4), dimension(datasize), intent(in), target
+* datasizeinteger(kind=8), intent(in)
 
 **Return type**: type([syscoutputscalardataf](structfortran_1_1syscoutputscalardataf.md#structfortran_1_1syscoutputscalardataf)) function
 
-<a id="interfacefortran_1_1syscgetoutputscalardataf_1ac4fbf5afb57f3e177fa8aaffca76a482"></a>
+<a id="interfacefortran_1_1syscgetoutputscalardataf_1a83da63a913b5837f3904a03da11b8994"></a>
 ### Function syscgetoutputscalardataf\_i8
 
 ![][public]
 
+
 ```fortran
-type(syscoutputscalardataf) function syscgetoutputscalardataf_i8(data, dataSize)
+type(syscoutputscalardataf) function syscgetoutputscalardataf_i8(data, datasize)
 ```
+
 
 Create an output scalar data access type.
 
@@ -131,8 +141,8 @@ Create an output scalar data access type.
 
 **Parameters**:
 
-* datadata
-* dataSizedataSize
+* datainteger(kind=8), dimension(datasize), intent(in), target
+* datasizeinteger(kind=8), intent(in)
 
 **Return type**: type([syscoutputscalardataf](structfortran_1_1syscoutputscalardataf.md#structfortran_1_1syscoutputscalardataf)) function
 

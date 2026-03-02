@@ -3,11 +3,12 @@
 ![][C]
 ![][public]
 
-**Definition**: `syscCommonTypes.h` (line 191)
+**Definition**: `syscCommonTypes.h` (line 192)
 
 Provide a structure for System Coupling setup information.
 
 To create and/or initialize the [SyscSetupInfo](structSyscSetupInfo.md#structSyscSetupInfo) struct, it is highly recommended to use one of the functions with names starting with <code>syscGetSetupInfo</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+
 
 
 
@@ -32,11 +33,13 @@ SyscSetupInfo setupInfo = syscGetSetupInfoA(SyscSteady);
 
 ![][public]
 
-**Definition**: `syscCommonTypes.h` (line 139)
+**Definition**: `syscCommonTypes.h` (line 193)
+
 
 ```
 enum SyscAnalysisType SyscSetupInfo::analysisType
 ```
+
 
 
 
@@ -51,11 +54,13 @@ Analysis type.
 
 ![][public]
 
-**Definition**: `syscCommonTypes.h` (line 193)
+**Definition**: `syscCommonTypes.h` (line 194)
+
 
 ```
 int SyscSetupInfo::restartsSupported
 ```
+
 
 
 
@@ -70,11 +75,13 @@ Flag indicating whether restarts are supported.
 
 ![][public]
 
-**Definition**: `syscCommonTypes.h` (line 193)
+**Definition**: `syscCommonTypes.h` (line 195)
+
 
 ```
 enum SyscDimension SyscSetupInfo::dimension
 ```
+
 
 
 
@@ -89,11 +96,13 @@ Participant dimension.
 
 ![][public]
 
-**Definition**: `syscCommonTypes.h` (line 193)
+**Definition**: `syscCommonTypes.h` (line 196)
+
 
 ```
 enum SyscTimeIntegration SyscSetupInfo::timeIntegration
 ```
+
 
 
 
@@ -108,11 +117,13 @@ Time integration method
 
 ![][public]
 
-**Definition**: `syscCommonTypes.h` (line 193)
+**Definition**: `syscCommonTypes.h` (line 197)
+
 
 ```
 enum SyscParticipantType SyscSetupInfo::participantType
 ```
+
 
 
 

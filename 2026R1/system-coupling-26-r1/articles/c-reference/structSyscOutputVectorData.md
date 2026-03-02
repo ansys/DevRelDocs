@@ -25,6 +25,7 @@ To create and/or initialize [SyscOutputVectorData](structSyscOutputVectorData.md
 
 
 
+
 ```
 SyscOutputVectorData isd = syscGetOutputVectorDataSplitDouble(
     x, y, z, size);
@@ -46,11 +47,13 @@ SyscOutputVectorData isd = syscGetOutputVectorDataSplitDouble(
 
 ![][public]
 
-**Definition**: `syscOutputVectorData.h` (line 168)
+**Definition**: `syscOutputVectorData.h` (line 43)
+
 
 ```
 enum SyscPrimitiveType SyscOutputVectorData::primitiveType
 ```
+
 
 
 
@@ -67,9 +70,11 @@ Primitive type.
 
 **Definition**: `syscOutputVectorData.h` (line 44)
 
+
 ```
 const void* SyscOutputVectorData::data0
 ```
+
 
 
 
@@ -86,9 +91,11 @@ Pointer to the first array.
 
 **Definition**: `syscOutputVectorData.h` (line 45)
 
+
 ```
 const void* SyscOutputVectorData::data1
 ```
+
 
 
 
@@ -105,9 +112,11 @@ Pointer to the second array.
 
 **Definition**: `syscOutputVectorData.h` (line 46)
 
+
 ```
 const void* SyscOutputVectorData::data2
 ```
+
 
 
 
@@ -124,9 +133,11 @@ Pointer to the third array.
 
 **Definition**: `syscOutputVectorData.h` (line 47)
 
+
 ```
 size_t SyscOutputVectorData::size
 ```
+
 
 
 
@@ -141,11 +152,13 @@ Array size.
 
 ![][public]
 
-**Definition**: `syscOutputVectorData.h` (line 47)
+**Definition**: `syscOutputVectorData.h` (line 48)
+
 
 ```
 enum SyscDimension SyscOutputVectorData::dimension
 ```
+
 
 
 

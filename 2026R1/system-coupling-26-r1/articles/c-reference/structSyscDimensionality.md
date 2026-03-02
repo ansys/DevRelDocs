@@ -29,9 +29,11 @@ Provide a structure for dimensionality.
 
 **Definition**: `syscCommonTypes.h` (line 69)
 
+
 ```
 double SyscDimensionality::length
 ```
+
 
 
 
@@ -48,9 +50,11 @@ Exponent of the length dimension.
 
 **Definition**: `syscCommonTypes.h` (line 70)
 
+
 ```
 double SyscDimensionality::time
 ```
+
 
 
 
@@ -67,9 +71,11 @@ Exponent of the time dimension.
 
 **Definition**: `syscCommonTypes.h` (line 71)
 
+
 ```
 double SyscDimensionality::mass
 ```
+
 
 
 
@@ -86,9 +92,11 @@ Exponent of the mass dimension.
 
 **Definition**: `syscCommonTypes.h` (line 72)
 
+
 ```
 double SyscDimensionality::temperature
 ```
+
 
 
 
@@ -105,9 +113,11 @@ Exponent of the temperature dimension.
 
 **Definition**: `syscCommonTypes.h` (line 73)
 
+
 ```
 double SyscDimensionality::amountOfSubstance
 ```
+
 
 
 
@@ -124,9 +134,11 @@ Exponent of the substance amount dimension.
 
 **Definition**: `syscCommonTypes.h` (line 74)
 
+
 ```
 double SyscDimensionality::current
 ```
+
 
 
 
@@ -143,9 +155,11 @@ Exponent of the current dimension.
 
 **Definition**: `syscCommonTypes.h` (line 75)
 
+
 ```
 double SyscDimensionality::luminousIntensity
 ```
+
 
 
 
@@ -162,9 +176,11 @@ Exponent of the luminosity dimension.
 
 **Definition**: `syscCommonTypes.h` (line 76)
 
+
 ```
 double SyscDimensionality::angle
 ```
+
 
 
 

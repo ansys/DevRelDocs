@@ -3,7 +3,7 @@
 ![][Fortran]
 ![][public]
 
-**Definition**: `syscCommonTypesF.fi` (line 375)
+**Definition**: `syscCommonTypesF.fi` (line 376)
 
 Provide an interface to get a System Coupling setup file info type.
 
@@ -11,18 +11,20 @@ Provide an interface to get a System Coupling setup file info type.
 
 ## Members
 
-* [syscgetsetupfileinfof](interfacefortran_1_1syscgetsetupfileinfof.md#interfacefortran_1_1syscgetsetupfileinfof_1abe48d99971ec8f83f367fdb7a87dfed3)
+* [syscgetsetupfileinfof](interfacefortran_1_1syscgetsetupfileinfof.md#interfacefortran_1_1syscgetsetupfileinfof_1a229b1f07d15719212cf4a6f65e0a016a)
 
 ## Public functions
 
-<a id="interfacefortran_1_1syscgetsetupfileinfof_1abe48d99971ec8f83f367fdb7a87dfed3"></a>
+<a id="interfacefortran_1_1syscgetsetupfileinfof_1a229b1f07d15719212cf4a6f65e0a016a"></a>
 ### Function syscgetsetupfileinfof
 
 ![][public]
 
+
 ```fortran
-type(syscsetupfileinfof) function syscgetsetupfileinfof(setupFileName)
+type(syscsetupfileinfof) function syscgetsetupfileinfof(setupfilename)
 ```
+
 
 Provide a function to create SetupFileInfoF type.
 
@@ -39,7 +41,7 @@ a SyscSetupFileInfoF type
 
 **Parameters**:
 
-* setupFileNamesetupFileName
+* setupfilenamecharacter(len=*), intent(in)
 
 **Return type**: type([syscsetupfileinfof](structfortran_1_1syscsetupfileinfof.md#structfortran_1_1syscsetupfileinfof)) function
 

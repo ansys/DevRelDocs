@@ -11,18 +11,20 @@ Provide an interface to load system coupling participant library path and mpi wr
 
 ## Members
 
-* [syscloadlibraryf](interfacefortran_1_1syscloadlibraryf.md#interfacefortran_1_1syscloadlibraryf_1ac333d28ca182a3fc6efa1ad1543c78d0)
+* [syscloadlibraryf](interfacefortran_1_1syscloadlibraryf.md#interfacefortran_1_1syscloadlibraryf_1a1e60775d8879f0b5257c919d1926d9c4)
 
 ## Public functions
 
-<a id="interfacefortran_1_1syscloadlibraryf_1ac333d28ca182a3fc6efa1ad1543c78d0"></a>
+<a id="interfacefortran_1_1syscloadlibraryf_1a1e60775d8879f0b5257c919d1926d9c4"></a>
 ### Function syscloadlibraryf
 
 ![][public]
 
+
 ```fortran
-logical function syscloadlibraryf(syscPartLibPath, mpiWrapperPath)
+logical function syscloadlibraryf(syscpartlibpath, mpiwrapperpath)
 ```
+
 
 Provide a function to load system coupling participant library path and mpi wrapper path to system coupling participant proxy.
 
@@ -40,8 +42,8 @@ true if these two libraries are loaded successfully, otherwise it returns false.
 
 **Parameters**:
 
-* syscPartLibPathsyscPartLibPath
-* mpiWrapperPathmpiWrapperPath
+* syscpartlibpathcharacter(*), intent(in)
+* mpiwrapperpathcharacter(*), intent(in)
 
 **Return type**: logical function
 

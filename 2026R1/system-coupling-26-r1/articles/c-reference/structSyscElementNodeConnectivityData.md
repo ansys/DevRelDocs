@@ -13,6 +13,7 @@ To create and/or initialize [SyscElementNodeConnectivityData](structSyscElementN
 
 
 
+
 ```
 SyscElementNodeConnectivityData elemNodeConn =
 syscGetElementNodeConnectivityData(elemNodeIds);
@@ -31,9 +32,11 @@ syscGetElementNodeConnectivityData(elemNodeIds);
 
 **Definition**: `syscMeshDefinition.h` (line 168)
 
+
 ```
 SyscOutputIntegerData SyscElementNodeConnectivityData::elementNodeIds
 ```
+
 
 Element-to-node connectivity array.
 
