@@ -24,7 +24,7 @@ subfolder of `<WB root dir>\commonfiles\CPython` and call the VENV module.
   After installing Python, run:
 
     ```pycon
-    python.exe -m venv C:\my_new_python_env`
+    python.exe -m venv C:\my_new_python_env
     ```
 
   This creates a new environment in `C:\my_new_python_env`.
@@ -59,7 +59,7 @@ To make VENV-installed modules available in ACP, append the VENV paths to `sys.p
 2. In ACP’s Python shell, extend the ACP path:
 
     ```pycon
-    sys.path.extend([….])
+    sys.path.extend([…])
     ```
 
 Appending the VENV paths ensures that ACP uses its bundled Python before searching the VENV for additional modules, even when the modules are built with compatible compilers.
