@@ -1,9 +1,9 @@
 {
   "build": {
     "globalMetadata": {
-      "title": "optiSLang interfaces and customizations 2026 R1",
+      "title": "optiSLang",
       "summary": "",
-      "version": "2025 R2",
+      "version": "2026 R1",
       "product": "optiSLang",
       "programming language": "python",
       "product collection": "Connect",
