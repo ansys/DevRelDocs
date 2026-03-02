@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-02-24).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-02-27).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -9,11 +9,12 @@ The following table shows which components have updates in each category.
 | Component | Features | Fixes | 
 |-----------|----------|----------|
 | 1297620 |  |[1 item](#Fixes_1297620) |
+| averaging |  |[1 item](#Fixes_averaging) |
 | c# |  |[1 item](#Fixes_c#) |
 | cff | [2 items](#Features_cff) |[4 items](#Fixes_cff) |
 | cgns | [1 item](#Features_cgns) | |
 | changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
-| ci | [1 item](#Features_ci) |[1 item](#Fixes_ci) |
+| ci | [1 item](#Features_ci) |[2 items](#Fixes_ci) |
 | compression | [3 items](#Features_compression) |[1 item](#Fixes_compression) |
 | core |  |[1 item](#Fixes_core) |
 | cyclic | [1 item](#Features_cyclic) | |
@@ -35,8 +36,9 @@ The following table shows which components have updates in each category.
 | kernel | [2 items](#Features_kernel) |[8 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [14 items](#Features_mapdl) |[40 items](#Fixes_mapdl) |
+| mapdl | [14 items](#Features_mapdl) |[41 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
+| mapl |  |[1 item](#Fixes_mapl) |
 | math | [10 items](#Features_math) |[1 item](#Fixes_math) |
 | mechanical | [2 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
 | mesh |  |[3 items](#Fixes_mesh) |
@@ -59,6 +61,18 @@ The following table shows which components have updates in each category.
 
 - Cplx division operator has to high tolerance:
   > Change the tolerance for cplx division from 1e-10 to 1e-15.
+  >
+  > 
+  >
+  > 
+## averaging
+
+### <a id="Fixes_averaging"></a> Fixes
+
+- Adapt elemental_nodal_to_nodal to properly handle midside nodes:
+  > 
+  >
+  > The `elemental_nodal_to_nodal` averaging operators required to have all corner nodes corresponding to a midside node contained in the input nodal scoping if the result wanted to be obtained at that given midside node. This requirement is no longer present.
   >
   > 
   >
@@ -157,6 +171,15 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_ci"></a> Fixes
+
+- Fix Nuget tests:
+  > 
+  >
+  > Bring the changes from WorkflowMediumComplexityTest in CS_DataProcessingTests to NuGet.Cs.Ext.Test.
+  >
+  > 
+  >
+  > 
 
 - Ensure backwards compatibility in invariants and eigenvalues source operators:
   > 
@@ -963,6 +986,13 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_mapdl"></a> Fixes
 
+- Wrong update concerning shell layers:
+  > Wrong update is done while looping over elemental results concerning shell layer. We update the number of shell layer when this is not allowed regarding the post process that is done after reading the result.
+  >
+  > 
+  >
+  > 
+
 - Fix possible out of bounds when reading RST and DSUB files:
   > 
   >
@@ -1248,6 +1278,16 @@ The following table shows which components have updates in each category.
 
 - Pluggin stream name db_live need to be in GetFirstStream:
   > add db_live to GetFirstStream for generic operators
+  >
+  > 
+  >
+  > 
+## mapl
+
+### <a id="Fixes_mapl"></a> Fixes
+
+- Fix gasket results issue with dege keyopt2=0 gaskets:
+  > Fix bug with degenerated gasket elements with keyopt(2)=0
   >
   > 
   >
@@ -2147,6 +2187,12 @@ The following table shows which components have updates in each category.
   > Prepares a workflow able to map data from an input mesh to a target mesh.
 
 
+#### math
+
+- [linearized_stress](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/linearized_stress.md):
+  > get linearized stress
+
+
 #### mesh
 
 - [morphed_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/morphed_field.md):
@@ -2358,6 +2404,12 @@ The following table shows which components have updates in each category.
   > Read/compute Square of the L2 norm of pressure over element volume by calling the readers defined by the datasources.
 
 
+#### scoping
+
+- [extend_midside_nodal_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/extend_midside_nodal_scoping.md):
+  > Extends the input nodal scoping with the neighbor corner nodes of every midside node in the input. For each midside node in the scoping, the two corner nodes that bound it on the element edge are added to the output scoping. 
+
+
 #### serialization
 
 - [export_mesh_with_prime](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/serialization/export_mesh_with_prime.md):
@@ -2412,6 +2464,8 @@ The following table shows which components have updates in each category.
 - [elemental_nodal_to_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_nodal_to_nodal.md)
 
   > 0.0.1: Fixed issue with semiparabolic elements.
+
+  > 0.0.2: Midside nodes included in the input scoping are now properly averaged regardless of the presence of its parent corner nodes.
 
 
 - [elemental_nodal_to_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_nodal_to_nodal_fc.md)
@@ -3236,6 +3290,8 @@ Upgraded documentation
   > 0.1.0: Improvement of performance
 
   > 0.1.1: Error with license
+
+  > 0.2.0: Added extend_midside_nodes input pin
 
 
 
