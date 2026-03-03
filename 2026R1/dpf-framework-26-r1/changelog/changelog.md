@@ -15,8 +15,8 @@ The following table shows which components have updates in each category.
 | cyclic | [1 item](#Features_cyclic) | | |
 | documentation | [3 items](#Features_documentation) | [1 item](#Fixes_documentation) | |
 | engineeringdata | | [1 item](#Fixes_engineeringdata) | |
-| femutils | [2 item](#Feat_femutils) | [12 items](#Fixes_femutils) | [3 items](#Perf_femutils) |
-| framework | [2 items](#Feat_framework) | [11 items](#Fixes_framework) | |
+| femutils | [2 item](#Feat_femutils) | [18 items](#Fixes_femutils) | [5 items](#Perf_femutils) |
+| framework | [2 items](#Feat_framework) | [15 items](#Fixes_framework) | |
 | grpc | [1 item](#Features_grpc) | [3 items](#Fixes_grpc) | |
 | hdf5 | [6 items](#Features_hdf5) | [7 items](#Fixes_hdf5) | [2 items](#Perf_hdf5) |
 | hgp | [6 items](#Features_hgp) | [3 items](#Fixes_hgp) | |
@@ -24,11 +24,12 @@ The following table shows which components have updates in each category.
 | mapdl | [14 items](#Features_mapdl) | [52 items](#Fixes_mapdl) | |
 | math | | [2 items](#Fixes_math) | [1 item](#Perf_math) |
 | mechanical | [1 item](#Features_mechanical) | | |
-| mesh | | [1 item](#Fixes_mesh) | |
-| misc | [11 items](#Features_misc) | [18 items](#Fixes_misc) | |
+| mesh | | [3 items](#Fixes_mesh) | |
+| misc | [11 items](#Features_misc) | | |
 | multiphysicsmapper | | [1 item](#Fixes_multiphysicsmapper) | |
-| native | | [16 items](#Fixes_native) | [1 item](#Perf_native) |
+| native | | [20 items](#Fixes_native) | [2 item](#Perf_native) |
 | rbd | | [1 item](#Fixes_rbd) | |
+| vtk | | [1 item](#Fixes_vtk) | |
 
 ## c\#
 
@@ -163,6 +164,24 @@ The following table shows which components have updates in each category.
 - Fix `normals_provider_nl` operator crash:
   > A crash arose from a segmentation fault that occurred when the `normal_provider_nl` operator that is designed for a shell element was used on a solid element. The operator now throws a clear error if the input mesh contains a solid region.
 
+- Support fields with a heterogeneous number of shell layers in all averaging operators:
+  > Fields with heterogeneous shell layers (e.g. entities that have a different number of shell layers to the one reflected by the FieldDefinition ShellLayers) had a wrong behavior in different averaging operators. This is now fixed.
+
+- Support fields with a heterogeneous number of shell layers in the `elemental_to_nodal` operator:
+  > Support heterogeneous shell layer fields in the `elemental_to_nodal` operator.
+
+- Fix support in `entity_average` of fields with a heterogeneous number of shell layers that have already undergone a `change_shell_layer` operation:
+  > Fixed the concatenation step of the `entity_average` operator for fields with a heterogeneous number of shell layers that have undergone a `change_shell_layer` operation.
+
+- Crash when querying skin mesh with `mesh.from_scopings` and `mesh.split_mesh`:
+  > Fixed an issue in mesh connectivity reconstruction for skin meshes with `mesh.from_scopings` and `mesh.split_mesh` that resulted in the wrong number of nodes.
+
+- Undefined behavior with custom property fields in mesh::by_scoping:
+  > Fixed undefined behavior with `mesh::by_scoping` when we create custom property fields.
+
+- Issue with empty fields in `mapping.solid_to_skin_fc` operator:
+  > Fix handling of empty fields in the `mapping.solid_to_skin_fc` operator.
+
 ### <a id="Perf_femutils"></a> Performance improvements
 
 - Performance improvement for split_fields:
@@ -171,6 +190,12 @@ The following table shows which components have updates in each category.
 - Performance issues on Nodal Extend To Mid Nodes:
 
 - Performance improvements when splitting skin mesh by material:
+
+- Performance issue of mapping solid to skin with Nodal locations:
+  > Improvement of performance of `solid_to_skin_fc` for Nodal results. Parallelization is now available for this operator.
+
+- Performance issue with solid to skin operator with ElementalNodal and Elemental:
+  > Improving performance of the `solid_to_skin_fc` operator for `Elemental` and `ElementalNodal` locations.
 
 ## framework
 
@@ -225,6 +250,19 @@ The following table shows which components have updates in each category.
 - Fix the name associated to result PL2:
   > Fix the name associated to the `square of the L2 norm of pressure over element volume`.
   > It is now exposed as `squared_l2norm_pressure`.
+
+- Make load library on local core possible after plugin already loaded:
+  > fix: possibility to load a plugin on a specific registry after loading it once
+
+- Fix the definition of Beam3 elements in the framework:
+  > Elements of type beam3 were treated the same as line3 elements.
+  > They now have their specific definition.
+
+- Support heterogeneous ShellLayers Fields in all averaging operators:
+  > Fields with heterogeneous shell layers (e.g. entities that have a different number of shell layers to the one reflected by the FieldDefinition ShellLayers) had a wrong behavior in different averaging operators. This is now fixed.
+
+- Fix the automatic creation of a `.ansys` folder in the home folder:
+  > fix: .ansys folder creation in home folder
 
 ## grpc
 
@@ -562,6 +600,16 @@ The following table shows which components have updates in each category.
 
   > meshed_skin_sector: Fix a crash when the mesh includes non-elemental properties
 
+- Fix support for Beam3 elements in skin and mesh_to_pyvista operators:
+
+  > The `"skin"` operator was only transferring Line2 and Line3 elements to the output mesh. Beam3 elements are supported now as well.
+  >
+  > Similarly, the `"mesh_to_pyvista"` operator was not handling Beam3 elements. They are now correctly treated.
+
+- Fix connectivity of Line3 elements in skin mesh:
+
+  > With a previous change, Line3 elements were shipped with only 2 nodes after a skin extraction operation. They now have the 3 nodes they are expected to have (2 corner nodes and the midside node).
+
 ## misc
 
 ### <a id="Features_misc"></a> Features
@@ -606,7 +654,8 @@ The following table shows which components have updates in each category.
 - Expose pressure and fluid velocity results:
   > Addition of operators to read fluid velocity and pressure (corresponding to the dofs VX, VY, VZ and PRES)
 
-- Creep strain results:
+- Support creep strain results:
+  > DPF and several plugins now support creep strain results (EPCR)
 
 - Refactor of Euler Angles Filter Functions using ApdlElementDescriptor:
   > - Modify the FilterElementResultsEUL so the function use the apdl_elements_library and get information about elements directly from it.
@@ -616,72 +665,6 @@ The following table shows which components have updates in each category.
 - Support header in field::get_attribute operator and expose propertyfield/customtypefield::get_attribute:
 
   > Headers are supported as valid properties to forward in the `field::get_attribute` operator. The `propertyfield::get_attribute` and `customtypefield::get_attribute` operators are created mimicking the behavior of the other one.
-
-### <a id="Fixes_misc"></a> Fixes
-
-- EShellLayerPin correct bool to int:
-  > Correct a bug from previous PR merge this pin is an int, not a bool
-
-- Performance issue with transpose scoping:
-  > Improving performance of the `transpose_scoping` operator for cases with multiple scopings at a specific ratio with the length of the mesh.
-
-- Performance issue with solid to skin operator with ElementalNodal and Elemental:
-  > Improving performance of the `solid_to_skin_fc` operator for `Elemental` and `ElementalNodal` locations.
-
-- Issue with empty fields in solid_to_skin_fc operator:
-  > Fix issue with empty fields in the solid_to_skin_fc operator.
-
-- Fix nodes and elements scoping from mesh operators, previously the location of the retrieved scoping was empty:
-  > fix: Fix nodes and elements scoping from mesh operators, previously the location of the retrieved scoping was empty
-
-- Performance issue of mapping solid to skin with Nodal locations:
-  > Improvement of performance of `solid_to_skin_fc` for Nodal results. Parallelization is now available for this operator.
-
-- Undefined behavior with custom property fields in mesh::by_scoping:
-  > Fixed undefined behavior with `mesh::by_scoping` when we create custom property fields.
-
-- Crash when querying skin mesh:
-  > Fix issue when querying skin mesh.
-
-- Updated specification of min_max_over_time_by_entity:
-
-  > Clarified the condition for output pins 2 & 3 presence.
-  >
-  > Explicitly wrote, compute_amplitude is only relevant for complex fields_container.
-
-- Support heterogeneous ShellLayer fields that have already undergone a change_shell_layer operation in entity_average:
-
-  > An issue was present in heterogeneous ShellLayer fields that have already undergone a `change_shell_layer` operation when then an `entity_average` operation is concatenated. This is now fixed.
-
-- .ansys folder creation in home folder:
-
-  > fix: .ansys folder creation in home folder
-
-- Support heterogeneous shell layer fields in the elemental_to_nodal operator:
-
-  > Support heterogeneous shell layer fields in the `elemental_to_nodal` operator.
-
-- Support heterogeneous ShellLayers Fields in all averaging operators:
-
-  > Fields with heterogeneous shell layers (e.g. entities that have a different number of shell layers to the one reflected by the FieldDefinition ShellLayers) had a wrong behavior in different averaging operators. This is now fixed.
-
-- Fix connectivity of Line3 elements in skin mesh:
-
-  > With a previous change, Line3 elements were shipped with only 2 nodes after a skin extraction operation. They now have the 3 nodes they are expected to have (2 corner nodes and the midside node).
-
-- Fix scripting names of merge::solid_shell_fields and incremental::merge operators:
-
-  > The operators `merge::solid_shell_fields` and `incremental::merge::xxx` had an inconsistent scripting name with the one generated in pydpf-core. This is now fixed.
-
-- Support Beam3 elements in skin and mesh_to_pyvista operators:
-
-  > The `"skin"` operator was only transferring Line2 and Line3 elements to the output mesh. Beam3 elements are supported now as well.
-  >
-  > Similarly, the `"mesh_to_pyvista"` operator was not handling Beam3 elements. They are now correctly treated.
-
-- Make load library on local core possible after plugin already loaded:
-
-  > fix: possibility to load a plugin on a specific registry after loading it once
 
 ## multiphysicsmapper
 
@@ -748,16 +731,45 @@ The following table shows which components have updates in each category.
 - Fix of nested cms rotation with empty angles for harmonic msup:
   > Fix of nested cms rotation with empty angles for harmonic msup
 
+- Fix scripting names of `merge::solid_shell_fields` and `incremental::merge` operators:
+  > The operators `merge::solid_shell_fields` and `incremental::merge::xxx` had an inconsistent scripting name with the one generated in pydpf-core. This is now fixed.
+
+- Support heterogeneous ShellLayers Fields in all averaging operators:
+  > Fields with heterogeneous shell layers (e.g. entities that have a different number of shell layers to the one reflected by the FieldDefinition ShellLayers) had a wrong behavior in different averaging operators. This is now fixed.
+
+- Updated specification of min_max_over_time_by_entity:
+  > Clarified the behavior for output pins 2 & 3 (`time_freq_of_min` and `time_freq_of_max`).
+  >
+  > Mention that input pin `compute_amplitude` is only relevant for complex fields.
+
+- Fix operators `scoping.elemental_from_mesh` and `scoping.nodal_from_mesh`:
+  > Fixed operators `scoping.elemental_from_mesh` and `scoping.nodal_from_mesh` returning scopings with an empty location property.
+
+- Fix the accepted type for `shell_layer` input pin in result operators:
+  > Correct the accepted value type for the `shell_layer` input pin in result operators such as `result.stress`. The accepted type is `int`, not `bool`.
+
 ### <a id="Perf_native"></a> Performance improvements
 
 - Improve `scoping.transpose` operator performance:
   > Refactoring of the transpose scoping operator for performance improvements
+
+- Performance issue with transpose scoping:
+  > Improving performance of the `transpose_scoping` operator for cases with multiple scopings at a specific ratio with the length of the mesh.
 
 ## rbd
 
 ### <a id="Fixes_rbd"></a> Fixes
 
 - Add support for `result_info_provider` for _mbd_ files:
+
+## vtk
+
+### <a id="Fixes_vtk"></a> Fixes
+
+- Fix support for Beam3 elements in skin and mesh_to_pyvista operators:
+  > The `"skin"` operator was only transferring Line2 and Line3 elements to the output mesh. Beam3 elements are supported now as well.
+  >
+  > Similarly, the `"mesh_to_pyvista"` operator was not handling Beam3 elements. They are now correctly treated.
 
 ## Operator changes
 
