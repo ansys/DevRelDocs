@@ -16,18 +16,17 @@ The following table shows which components have updates in each category.
 | documentation | [3 items](#Features_documentation) | [1 item](#Fixes_documentation) | |
 | engineeringdata | | [1 item](#Fixes_engineeringdata) | |
 | femutils | [2 item](#Feat_femutils) | [18 items](#Fixes_femutils) | [5 items](#Perf_femutils) |
-| framework | [2 items](#Feat_framework) | [15 items](#Fixes_framework) | |
+| framework | [5 items](#Feat_framework) | [15 items](#Fixes_framework) | |
 | grpc | [1 item](#Features_grpc) | [3 items](#Fixes_grpc) | |
-| hdf5 | [6 items](#Features_hdf5) | [7 items](#Fixes_hdf5) | [2 items](#Perf_hdf5) |
+| hdf5 | [8 items](#Features_hdf5) | [7 items](#Fixes_hdf5) | [2 items](#Perf_hdf5) |
 | hgp | [6 items](#Features_hgp) | [3 items](#Fixes_hgp) | |
 | lsdyna | [1 item](#Features_lsdyna) | | |
-| mapdl | [14 items](#Features_mapdl) | [52 items](#Fixes_mapdl) | |
+| mapdl | [19 items](#Features_mapdl) | [52 items](#Fixes_mapdl) | |
 | math | | [2 items](#Fixes_math) | [1 item](#Perf_math) |
 | mechanical | [1 item](#Features_mechanical) | | |
 | mesh | | [3 items](#Fixes_mesh) | |
-| misc | [11 items](#Features_misc) | | |
 | multiphysicsmapper | | [1 item](#Fixes_multiphysicsmapper) | |
-| native | | [20 items](#Fixes_native) | [2 item](#Perf_native) |
+| native | [3 items](#Feat_native) | [20 items](#Fixes_native) | [2 item](#Perf_native) |
 | rbd | | [1 item](#Fixes_rbd) | |
 | vtk | | [1 item](#Fixes_vtk) | |
 
@@ -209,6 +208,21 @@ The following table shows which components have updates in each category.
   >
   > - Promote STL algorithm compliance in scoping iterators so that scoping objects can be directly manipulated with them.
 
+- Support creep strain results:
+  > DPF and several plugins now support creep strain results (EPCR)
+
+- Support pressure and fluid velocity results:
+  > Addition of operators to read fluid velocity and pressure (corresponding to the dofs VX, VY, VZ and PRES)
+
+- Support new material properties:
+  > Add support for new material properties:
+  >
+  > enthalpy, dielectric loss tangent, major/minor Poisson's ratio, magnetic relative permeability, electric relative permittivity,
+  > magnetic coercive force, Seebeck coefficients, Sonic velocity, constant material damping coefficient, bulk viscosity, heat generation rate,
+  > reference temperature, instantaneous coefficient of thermal expansion, thermal strain, damping ratio, magnetic loss tangent, stiffness matrix multiplier for damping,
+  > mass matrix multiplier for damping, Hall coefficient, diffusivity coefficient, coefficient of diffusion expansion, saturated concentration, reference concentration,
+  > heat coefficient at constant volume per unit of mass, diffusivity of sound used in the Westervelt equation, coefficient of nonlinearity used in the Westervelt equation.
+
 ### <a id="Fixes_framework"></a> Fixes
 
 - Fix the names associated to some materials properties:
@@ -301,6 +315,12 @@ The following table shows which components have updates in each category.
 
 - Expose `is_mesh_available` operator:
   > Expose `is_mesh_available` for cgns and h5dpf files.
+
+- Support creep strain results:
+  > DPF and several plugins now support creep strain results (EPCR)
+
+- Support pressure and fluid velocity results:
+  > Addition of operators to read fluid velocity and pressure (corresponding to the dofs VX, VY, VZ and PRES)
 
 ### <a id="Fixes_hdf5"></a> Fixes
 
@@ -416,6 +436,33 @@ The following table shows which components have updates in each category.
 
 - Development of is_mesh_available operator:
   > Add a `is_mesh_available` operator to lightly inquire if the result file contains the mesh.
+
+- Support creep strain results:
+  > DPF and several plugins now support creep strain results (EPCR)
+
+- Support pressure and fluid velocity results:
+  > Addition of operators to read fluid velocity and pressure (corresponding to the dofs VX, VY, VZ and PRES)
+
+- Support adaptive meshes in mesh providers:
+  > When conducting Crack Growth analysis or an NLAD analysis, an adaptive remeshing process creates new meshes at some time steps.
+  >
+  > Mesh getters (`mesh_provider`, `meshes_provider`) now support models with adaptive meshing.
+
+- Support new material properties:
+  > Add support for new material properties:
+  >
+  > enthalpy, dielectric loss tangent, major/minor Poisson's ratio, magnetic relative permeability, electric relative permittivity,
+  > magnetic coercive force, Seebeck coefficients, Sonic velocity, constant material damping coefficient, bulk viscosity, heat generation rate,
+  > reference temperature, instantaneous coefficient of thermal expansion, thermal strain, damping ratio, magnetic loss tangent, stiffness matrix multiplier for damping,
+  > mass matrix multiplier for damping, Hall coefficient, diffusivity coefficient, coefficient of diffusion expansion, saturated concentration, reference concentration,
+  > heat coefficient at constant volume per unit of mass, diffusivity of sound used in the Westervelt equation, coefficient of nonlinearity used in the Westervelt equation.
+
+- Support shell layers in APDLElementDescriptor:
+  > Add management of shell layers to element descriptions.
+  >
+  > Add support for elements `SHELL43-63-93`, `SHELL131&132`, `SHELL181-281-208-209`, `SOLSH190`, `SHELL294`, `SOLID185-186`, `SOLID278-279`, `ELBOW290`.
+  >
+  > Add support for shell section data.
 
 ### <a id="Fixes_mapdl"></a> Fixes
 
@@ -610,62 +657,6 @@ The following table shows which components have updates in each category.
 
   > With a previous change, Line3 elements were shipped with only 2 nodes after a skin extraction operation. They now have the 3 nodes they are expected to have (2 corner nodes and the midside node).
 
-## misc
-
-### <a id="Features_misc"></a> Features
-
-- Adapt operator for Cyclic Modal StructOpt:
-  > Improve ints_to_scoping/"scopingify" with additional optional pin to define a range scoping to be created.
-  >
-  > Creation of cyclic_support_get_attribute/"cyclic_support::get_attribute" operator to retrieve element & node duplicate offset.
-  >
-  > Add new property name "step_id_from_harmonic_index" for time_freq_support_get_attribute/"timefreqsupport::get_attribute" operator, returning a int corresponding to the load step of a Harmonic Index.
-
-- Support of layers in APDLElementDescriptor:
-  > Add Management of ShellLayers to `ApdlElementDescriptor`
-  >
-  > Add Shell Layer functors to handle elements `SHELL43-63-93`, `SHELL131&132`, `SHELL181-281-208-209`, `SOLSH190`, `SHELL294`, `SOLID185-186`, `SOLID278-279`, `ELBOw290`
-  >
-  > Add corresponding element descriptors and new unit tests for those elements
-  >
-  > Add Testing of Shell layers in unit tests
-  >
-  > Refactor the ApdlElementDescriptorTest.cpp for better readability
-  >
-  > Add new class `APDLSectionDetails` in `ApdlElementDescriptor` to handle section data
-  >
-  > Add new struct `SectionTypeProperties`, `BeamSectionProperties`, `ShellSectionProperties` and `LayerProperties`  in MapdlCommonDefs.h to better handle section data
-  >
-  > Updated function isLayeredElement to use ApdlElementDescriptors.
-
-- Added support for more material properties:
-  > Add support for material properties
-  >
-  > Correct previous behavior of sending 0 if the material property wasn't found for a material Id.
-
-- Rework mesh providers to allow for adaptive meshes:
-  > When conducting Crack Growth analysis or some NLAD analysis, an adaptive remeshing process creates new meshes at some time steps.
-  >
-  > This PR aims to change mesh getters (readMeshes, MeshProvider, meshes_provider) to allow them to read the correct mesh(es).
-
-- Enable rotation of fluid velocities:
-  > Enable rotation of fluid velocities
-
-- Expose pressure and fluid velocity results:
-  > Addition of operators to read fluid velocity and pressure (corresponding to the dofs VX, VY, VZ and PRES)
-
-- Support creep strain results:
-  > DPF and several plugins now support creep strain results (EPCR)
-
-- Refactor of Euler Angles Filter Functions using ApdlElementDescriptor:
-  > - Modify the FilterElementResultsEUL so the function use the apdl_elements_library and get information about elements directly from it.
-  > - Instead of having plenty of if conditions, move the checks to the ApdlElementDescriptor Class to simplify
-  > - Use the node_mapping from ApdlElementDescriptor to simplify the iteration through degenerate elements
-
-- Support header in field::get_attribute operator and expose propertyfield/customtypefield::get_attribute:
-
-  > Headers are supported as valid properties to forward in the `field::get_attribute` operator. The `propertyfield::get_attribute` and `customtypefield::get_attribute` operators are created mimicking the behavior of the other one.
-
 ## multiphysicsmapper
 
 ### <a id="Fixes_multiphysicsmapper"></a> Fixes
@@ -675,6 +666,18 @@ The following table shows which components have updates in each category.
   > The `mapping.apply_mechanical_native_mapping` operator now runs properly in parallel in Linux.
 
 ## native
+
+### <a id="Feat_native"></a> Features
+
+- Support header in field::get_attribute operator and expose propertyfield/customtypefield::get_attribute:
+  > Headers are supported as valid properties to forward in the `field::get_attribute` operator. The `propertyfield::get_attribute` and `customtypefield::get_attribute` operators are created mimicking the behavior of the other one.
+
+- Add operator `utility.cyclic_support_get_attribute`:
+  > Operator `utility.cyclic_support_get_attribute` is now available to request either `element_duplicate_offset` or `node_duplicate_offset` properties from a CycliSupport.
+
+- Operator `metadata.time_freq_support_get_attribute` now supports property `step_id_from_harmonic_index`.
+
+- New input pin `upper_bound` for operator `utility.ints_to_scoping`.
 
 ### <a id="Fixes_native"></a> Fixes
 
