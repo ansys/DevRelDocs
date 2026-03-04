@@ -24,7 +24,7 @@ subfolder of `<WB root dir>\commonfiles\CPython` and call the VENV module.
   After installing Python, run:
 
   ```pycon
-    python.exe -m venv C:\my_new_python_env
+  python.exe -m venv C:\my_new_python_env
   ```
 
   This creates a new environment in `C:\my_new_python_env`.
