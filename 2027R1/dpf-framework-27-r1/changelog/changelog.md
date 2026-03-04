@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-02).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-03).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -31,7 +31,7 @@ The following table shows which components have updates in each category.
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[4 items](#Fixes_h5dpf) |
 | hdf5 | [6 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
-| hgp | [4 items](#Features_hgp) |[2 items](#Fixes_hgp) |
+| hgp | [5 items](#Features_hgp) |[2 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [2 items](#Features_kernel) |[9 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
@@ -719,6 +719,11 @@ The following table shows which components have updates in each category.
   > 
 ## hgp
 ### <a id="Features_hgp"></a> Features
+
+- Improving readability of the .natvis file for hgp:
+  > Improving readability of the .natvis file.
+  >
+  > 
 
 - Add span() getter to DpfVector:
   > 
