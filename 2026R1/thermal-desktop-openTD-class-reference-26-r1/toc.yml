@@ -368,11 +368,11 @@
         href: net4-reference/OpenTD.Dimension.Current.md
       - name: "Density"
         href: net4-reference/OpenTD.Dimension.Density.md
-      - name: "DimensionalIfPositiveList<T>"
+      - name: "DimensionalIfPositiveList-T-"
         href: net4-reference/OpenTD.Dimension.DimensionalIfPositiveList-1.md
-      - name: "DimensionalList2<T>"
+      - name: "DimensionalList2-T-"
         href: net4-reference/OpenTD.Dimension.DimensionalList2-1.md
-      - name: "DimensionalList<T>"
+      - name: "DimensionalList-T-"
         href: net4-reference/OpenTD.Dimension.DimensionalList-1.md
       - name: "Dimensionless"
         href: net4-reference/OpenTD.Dimension.Dimensionless.md
@@ -465,9 +465,9 @@
     - name: "Structs"
       href: net4-reference/OpenTD.Dimension.Dimensional-1.md
       items:
-      - name: "Dimensional<T>"
+      - name: "Dimensional-T-"
         href: net4-reference/OpenTD.Dimension.Dimensional-1.md
-      - name: "DimensionalIfPositive<T>"
+      - name: "DimensionalIfPositive-T-"
         href: net4-reference/OpenTD.Dimension.DimensionalIfPositive-1.md
     - name: "Interfaces"
       href: net4-reference/OpenTD.Dimension.IDimension.md
@@ -1084,7 +1084,7 @@
         href: net4-reference/OpenTD.Utility.StringExtensions.md
       - name: "StringUtility"
         href: net4-reference/OpenTD.Utility.StringUtility.md
-      - name: "UniqueItemList<T>"
+      - name: "UniqueItemList-T-"
         href: net4-reference/OpenTD.Utility.UniqueItemList-1.md
     - name: "Structs"
       href: net4-reference/OpenTD.Utility.RootedPathname.md
@@ -1441,11 +1441,11 @@
         href: net8-reference/OpenTD.Dimension.Current.md
       - name: "Density"
         href: net8-reference/OpenTD.Dimension.Density.md
-      - name: "DimensionalIfPositiveList<T>"
+      - name: "DimensionalIfPositiveList-T-"
         href: net8-reference/OpenTD.Dimension.DimensionalIfPositiveList-1.md
-      - name: "DimensionalList2<T>"
+      - name: "DimensionalList2-T-"
         href: net8-reference/OpenTD.Dimension.DimensionalList2-1.md
-      - name: "DimensionalList<T>"
+      - name: "DimensionalList-T-"
         href: net8-reference/OpenTD.Dimension.DimensionalList-1.md
       - name: "Dimensionless"
         href: net8-reference/OpenTD.Dimension.Dimensionless.md
@@ -1538,9 +1538,9 @@
     - name: "Structs"
       href: net8-reference/OpenTD.Dimension.Dimensional-1.md
       items:
-      - name: "Dimensional<T>"
+      - name: "Dimensional-T-"
         href: net8-reference/OpenTD.Dimension.Dimensional-1.md
-      - name: "DimensionalIfPositive<T>"
+      - name: "DimensionalIfPositive-T-"
         href: net8-reference/OpenTD.Dimension.DimensionalIfPositive-1.md
     - name: "Interfaces"
       href: net8-reference/OpenTD.Dimension.IDimension.md
@@ -2120,7 +2120,7 @@
     - name: "Classes"
       href: net8-reference/OpenTD.Results.Utility.BinaryFileReader-1.md
       items:
-      - name: "BinaryFileReader<T>"
+      - name: "BinaryFileReader-T-"
         href: net8-reference/OpenTD.Results.Utility.BinaryFileReader-1.md
   - name: "OpenTD.UserInterface"
     href: net8-reference/OpenTD.UserInterface.md
@@ -2190,7 +2190,7 @@
         href: net8-reference/OpenTD.Utility.StringExtensions.md
       - name: "StringUtility"
         href: net8-reference/OpenTD.Utility.StringUtility.md
-      - name: "UniqueItemList<T>"
+      - name: "UniqueItemList-T-"
         href: net8-reference/OpenTD.Utility.UniqueItemList-1.md
     - name: "Structs"
       href: net8-reference/OpenTD.Utility.RootedPathname.md
