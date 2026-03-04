@@ -50,6 +50,7 @@
 - [invert](invert.md)
 - [invert fc](invert_fc.md)
 - [kronecker prod](kronecker_prod.md)
+- [linearized stress](linearized_stress.md)
 - [linear combination](linear_combination.md)
 - [ln](ln.md)
 - [ln fc](ln_fc.md)

@@ -23,9 +23,11 @@ Provide a struct for an integer-valued attribute.
 
 **Definition**: `syscAttributeF.fi` (line 13)
 
+
 ```fortran
 character(len=syscstrlen) name
 ```
+
 
 
 
@@ -42,9 +44,11 @@ character(len=syscstrlen) name
 
 **Definition**: `syscAttributeF.fi` (line 14)
 
+
 ```fortran
 integer(kind=8) value
 ```
+
 
 
 

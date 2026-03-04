@@ -28,15 +28,13 @@
 * SystemCouplingParticipant/CommonSettings.hpp
 * SystemCouplingParticipant/ElementTypes.hpp
 * SystemCouplingParticipant/NonFatalError.hpp
+* <stdexcept>
 * <string>
 * <utility>
 
+
 ```mermaid
 graph LR
-5["string"]
-
-3["SystemCouplingParticipant/ElementTypes.hpp"]
-
 1["CommonTypes.hpp"]
 click 1 "CommonTypes_8hpp.md#CommonTypes_8hpp"
 1 --> 2
@@ -44,21 +42,30 @@ click 1 "CommonTypes_8hpp.md#CommonTypes_8hpp"
 1 --> 4
 1 --> 5
 1 --> 6
-
-6["utility"]
-
-4["SystemCouplingParticipant/NonFatalError.hpp"]
+1 --> 7
 
 2["SystemCouplingParticipant/CommonSettings.hpp"]
 
+3["SystemCouplingParticipant/ElementTypes.hpp"]
+
+4["SystemCouplingParticipant/NonFatalError.hpp"]
+
+5["stdexcept"]
+
+6["string"]
+
+7["utility"]
+
 ```
+
 
 ## Source
 
+
 ```cpp
 /*
-* Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
-*/
+ * © 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
+ */
 
 #pragma once
 
@@ -66,10 +73,12 @@ click 1 "CommonTypes_8hpp.md#CommonTypes_8hpp"
 #include "SystemCouplingParticipant/ElementTypes.hpp"
 #include "SystemCouplingParticipant/NonFatalError.hpp"
 
+#include <stdexcept>
 #include <string>
 #include <utility>
 
 namespace sysc {
+
 
 enum ConvergenceStatus {
   Diverging = -1,
@@ -88,12 +97,13 @@ struct TimeStep {
   int timeStepNumber{0};    
   double startTime{0.0};    
   double timeStepSize{0.0}; 
+
   TimeStep() = default;
 
   TimeStep(int timeStepNumber, double startTime, double timeStepSize) :
       timeStepNumber(timeStepNumber),
       startTime(startTime),
-      timeStepSize(timeStepSize){};
+      timeStepSize(timeStepSize) {};
 };
 
 struct SolutionControl {
@@ -107,13 +117,13 @@ struct SetupInfo {
 
   SetupInfo(
     enum AnalysisType analysisType) :
-      analysisType(analysisType){};
+      analysisType(analysisType) {};
 
   SetupInfo(
     enum AnalysisType analysisType,
     bool restartsSupported) :
       analysisType(analysisType),
-      restartsSupported(restartsSupported){};
+      restartsSupported(restartsSupported) {};
 
   SetupInfo(
     enum AnalysisType analysisType,
@@ -121,7 +131,7 @@ struct SetupInfo {
     enum Dimension dimension) :
       analysisType(analysisType),
       restartsSupported(restartsSupported),
-      dimension(dimension){};
+      dimension(dimension) {};
 
   SetupInfo(
     enum AnalysisType analysisType,
@@ -131,7 +141,7 @@ struct SetupInfo {
       analysisType(analysisType),
       restartsSupported(restartsSupported),
       dimension(dimension),
-      timeIntegration(timeIntegration){};
+      timeIntegration(timeIntegration) {};
 
   SetupInfo(
     enum AnalysisType analysisType,
@@ -143,7 +153,7 @@ struct SetupInfo {
       restartsSupported(restartsSupported),
       dimension(dimension),
       timeIntegration(timeIntegration),
-      participantType(participantType){};
+      participantType(participantType) {};
 
   AnalysisType analysisType{Steady}; 
   bool restartsSupported{false};
@@ -155,22 +165,30 @@ struct SetupInfo {
 struct SetupFileInfo {
   std::string setupFileName; 
   bool restartsSupported;    
+  std::string initialInput;  
+
   SetupFileInfo() :
-      restartsSupported(false){};
+      restartsSupported(false) {};
 
   SetupFileInfo(std::string setupFileName) :
       setupFileName(std::move(setupFileName)),
-      restartsSupported(false){};
+      restartsSupported(false) {};
 
   SetupFileInfo(std::string setupFileName, bool restartsSupported) :
       setupFileName(std::move(setupFileName)),
-      restartsSupported(restartsSupported){};
+      restartsSupported(restartsSupported) {};
+
+  SetupFileInfo(std::string setupFileName, bool restartsSupported, std::string initialInput) :
+      setupFileName(std::move(setupFileName)),
+      restartsSupported(restartsSupported),
+      initialInput(std::move(initialInput)) {};
 };
 
 struct ResultsInfo {
   std::string baseFileName; 
+
   ResultsInfo(std::string baseFileName) :
-      baseFileName(std::move(baseFileName)){};
+      baseFileName(std::move(baseFileName)) {};
 };
 
 enum Topology {
@@ -181,25 +199,27 @@ enum Topology {
 struct ValidityStatus {
   bool isValid;        
   std::string message; 
+
   /* \brief Provide a default constructor for ValidityStatus */
   ValidityStatus() :
-      isValid(true){};
+      isValid(true) {};
 
   ValidityStatus(bool isValid, std::string message) :
       isValid(isValid),
-      message(std::move(message)){};
+      message(std::move(message)) {};
 };
 
 struct MeshValidityStatus {
   bool isInvalid;      
   std::string message; 
+
   /* \brief Provide a default constructor for MeshValidityStatus */
   MeshValidityStatus() :
-      isInvalid(false){};
+      isInvalid(false) {};
 
   MeshValidityStatus(bool isInvalid, std::string message) :
       isInvalid(isInvalid),
-      message(std::move(message)){};
+      message(std::move(message)) {};
 };
 
 enum PrimitiveType {
@@ -212,6 +232,7 @@ enum PrimitiveType {
 };
 
 using OpaqueDataAccess = void*; 
+
 using RegionName = std::string;            
 using VariableName = std::string;          
 using CouplingInterfaceName = std::string; 
@@ -222,6 +243,8 @@ using AttributeName = std::string;
 using ParameterName = std::string;         
 using Port = unsigned short;               
 using Host = std::string;                  
+
+
 struct ParticipantInfo {
   Host scHost;
   Port scPort{0};
@@ -294,10 +317,22 @@ struct ParticipantInfo {
   }
 };
 
+/* \brief Return number of components of dimension, given dimension enum. */
+inline constexpr std::uint8_t getNumDimensions(enum sysc::Dimension dimension) noexcept
+{
+  if (dimension == sysc::Dimension::D3) {
+    return 3;
+  }
+  else {
+    return 2;
+  }
+}
+
 }  // namespace sysc
 ```
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

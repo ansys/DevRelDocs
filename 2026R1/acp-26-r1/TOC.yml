@@ -1,5 +1,5 @@
 - name: Introduction
-  href: contents.md
+  href: index.md
 - name: Getting started
   href: getting_started_acp.md
   items:

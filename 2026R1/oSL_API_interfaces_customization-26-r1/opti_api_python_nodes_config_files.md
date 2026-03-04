@@ -9,10 +9,10 @@ The following name-value pairs can be contained in the file:
 | Name                       | Specifies a distinct display name. |
 | Maturity                   | Specifies the level of development. Allowed values are `Beta`, `Stable`, and `Deprecated`. |
 | ScriptInterfaceVersion     | Specifies the version of the script interface. In the current optiSLang version, interface version 3 is the recommended choice for all node types. |
-| EnableParallel             | Allows parallel execution of multiple instances of the integration. Allowed values are `true` and `false`. |
-| EnableMultiDesignMode      | Enables multiple designs being passed to script at once. Allowed values are `true` and `false`. |
+| EnableParallel             | Allows parallel execution of multiple instances of the integration. Allowed values are `true` and `false`.<br>Related default property values can be `MaxParallel` for the number of processes to be started in parallel and `DelayBetweenExecutions` in `[ms]` for the time interval between process calls (see `DefaultPropertiesValues`). |
+| EnableMultiDesignMode      | Enables multiple designs being passed to script at once. Allowed values are `true` and `false`.<br>A related default property value can be `MultiDesignLaunchNum` for the number of designs sent to each process at once (see `DefaultPropertiesValues`). |
 | PythonPath                 | List of search directories. Separate different paths using `;` on Windows or `:` on Linux. |
-| PythonEnvironment          | Specifies the type of Python environment to use. The default value is optiSLang Python.<br>- You can choose between different Python environments installed on the system, for example, Python 3.5 64 bit or Anaconda 3.5 64 bit.<br>- Additional Python environments can be made available by adding the location to the PATH environment variable or to the `optiSLang.ini` file.<br>- optiSLang's own Python can be extended with [additional packages](https://ansysproducthelpqa.win.ansys.com/account/secured?returnurl=/Views/Secured/corp/v252/en/opti_inst_lic/opti_inst_lic_python_packages.html). |
+| PythonEnvironment          | Specifies the type of Python environment to use. The default value is optiSLang Python.<br>- You can choose between different Python environments installed on the system, for example, Python 3.5 64 bit or Anaconda 3.5 64 bit.<br>- Additional Python environments can be made available by adding the location to the PATH environment variable or to the `optiSLang.ini` file.<br>- optiSLang's own Python can be extended with [additional packages](https://ansysproducthelpqa.win.ansys.com/account/secured?returnurl=/Views/Secured/corp/v261/en/opti_inst_lic/opti_inst_lic_python_packages.html). |
 | AbortMode| Controls how `Stop` requests to custom integrations are handled.<br>- The default value is `KillProcessTree`, which terminates the process hosting the custom integration (as well as all processes it started).<br>- The other mode is `Exception`, which injects an exception into the running Python code.<br>- The plugin node has the `ExceptionTimeout` number of seconds to cleanly finish its processing before terminating processes. |
 | ExceptionTimeout| Used with `AbortMode`.<br>- Specifies the number of seconds (default of 30) for the plugin node to cleanly finish its processing before the process hosting the plugin node, and sub-processes, are terminated. |
 | InputSlots| Declares multiple slots by providing `{"name_1" : "slot_type_1", "name_2" : "slot_type_2", …}`.<br>See [Supported InputSlots/OutputSlots Types](#supported-inputslotsoutputslots-types) for the full list. |
@@ -25,7 +25,7 @@ The following name-value pairs can be contained in the file:
 | Documentation| Specifies a link/anchor to documentation for this plugin node.<br>Can be either an Ansys Product Help ID or a path to an HTML file.<br>The path must be specified either absolute or relative to the plugin node. |
 | EnableSolverWizard| Enables the automatic support of Python-based integration nodes in the solver wizard.<br>Defaults to `false`. |
 | Icon| Specifies the path to an icon which is used for the plugin node in Modules and Schematic. |
-| EnableReadMode| Enables `read mode` for [Node Plugins](opti_api_python_nodes_basic.md#table-1), [Integration Node Plugins](opti_api_python_nodes_integration.md#table-7), and [MOP Node Plugins](opti_api_python_nodes_mop.md#table-15). |
+| EnableReadMode| Enables read mode for [Node Plugins](opti_api_python_nodes_basic.md), [Integration Node Plugins](opti_api_python_nodes_integration.md), and [MOP Node Plugins](opti_api_python_nodes_mop.md). |
 | DefaultPropertiesValues    | Specifies a dict of node properties and values which override the default values for these properties. See example below. |
 | **Integration-specific** |
 | ShowInputs | Displays the input parameter registration in the plugin integration node edit dialog box.<br>Defaults to `true`. |
@@ -58,7 +58,8 @@ An example configuration might look like this:
     "EnableMaximumRuntime": true,
     "DefaultPropertiesValues": {
         "MultiDesignLaunchNum" : 5,
-        "MaxParallel" : 2
+        "MaxParallel" : 2,
+        "DelayBetweenExecutions" : 3000
     }
 }  
 ```

@@ -20,6 +20,7 @@ Provide an interface to get real attribute from variable.
 
 ![][public]
 
+
 ```fortran
 type(syscrealattributef) function syscvariablegetrealattributef(variable, index)
 ```
@@ -30,10 +31,11 @@ type(syscrealattributef) function syscvariablegetrealattributef(variable, index)
 
 
 
+
 **Parameters**:
 
-* variablevariable
-* indexindex
+* variabletype([syscvariablef](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef))
+* indexinteger(kind=8)
 
 **Return type**: type([syscrealattributef](structfortran_1_1syscrealattributef.md#structfortran_1_1syscrealattributef)) function
 

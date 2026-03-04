@@ -1,4 +1,5 @@
-#  Integration plugin demonstrators
+# Integration Plugin Demomstrators
+s
 optiSLang allows you to create integration nodes tailored for the needs, workflows, and specific use cases in your company, institution, team, or user community. Python programmers can easily create these integration nodes using the optiSLang framework for customized integration (CI) plugins.
 
 ![custom_toolchain.png](graphics/custom_toolchain.png)
@@ -36,8 +37,8 @@ For more information, see the following topics:
 - [File-based demos](#file-based-demos)
 - [Special demos](#special-demos)
 
-##  Introduction to integration plugin demonstrators
-If you are interested in developing your own Python-based integration node plugin, the best place to start is here. You can browse through the descriptions and codes of a large suite of smaller and larger plugin demonstrators. Hands-on experience is only a few mouse-clicks away, just create the nodes in the scenery and drop them into a parametric system of your choice. They will run out of the box with few prerequisits. Hands-on experimentation is highly recommended as the quickest way to learn and understand what the various functional parts of the code are made for.
+##  Introduction to Integration Plugin Demonstrators
+If you are interested in developing your own Python-based integration node plugin, the best place to start is here. You can browse through the descriptions and codes of a large suite of smaller and larger plugin demonstrators. Hands-on experience is only a few mouse-clicks away, just create the nodes in the scenery and drop them into a parametric system of your choice. They will run out of the box with few prerequisites. Hands-on experimentation is highly recommended as the quickest way to learn and understand what the various functional parts of the code are made for.
 
 The demo suite for integration node plugins is divided into three segments:
 1. mini demos
@@ -57,8 +58,8 @@ See the following topics:
 - [How to derive your own plugin node](#how-to-derive-your-own-plugin-node)
 
 
-### How to load, set up, and use the demo node
-[Download the demonstrator package.](https://ansyshelp.ansys.com/Views/Secured/Doc_Assets/Release/v251/optiSLang_integration_demos.zip)
+### How to Load, Set Up, and Use the Demo Node
+[Download the demonstrator package.](https://ansyshelp.ansys.com/Views/Secured/Doc_Assets/Release/v261/optiSLang_integration_demos.zip)
 
 After unpacking the demonstrator package into a convenient location, you need to put that folder on optiSLang’s scan list of integration plugins. This can be done by adding the folder path under **Customization – Alternative customized integration directories** in global settings. (This corresponds to the key `SC_AlternativeCIDirectories` in the optiSLang configuration file.) An alternative way to control the reach of the plugin scan exists via setting an environment variable `OSL_ALT_CI_SEARCH_DIRS`.
 
@@ -77,7 +78,7 @@ Using a node for running only one single design is always a weaker test than run
 
 Once a demo node has proven to be able to produce successful designs, you're invited to conduct further experiments. Some ideas: unregistering parameters, reregistering them as slots, increasing the degree of parallelism (DoP) or the multi-design group size, packing more nodes into the parametric system, creative wire connections, conditional execution options, computing derived output quantities in a calculator tab of a node edit window, and so on.
 
-### Additional steps for using file-based demo nodes
+### Additional Steps for Using File-Based Demo Nodes
 The additional steps have to do with putting in place a useful work folder structure with contents representing a "solved reference project with output data" to which a file-based node can be linked.
 
 For working with the demo nodes in the second series labeled "file-based", a possible folder structure with a freshly created optiSLang project besides the full reference folder can look like this:
@@ -90,8 +91,8 @@ The two files in the reference folder are representing a "solved project" with o
 
 Now you are ready to register parameters and responses (or also slot connections) and start experimenting with the demo nodes.
 
-### How to derive your own plugin node
-Once you add the line p`rint('Hello!')` anywhere in the code of a demo node, you become an optiSLang plugin developer. Taking one of the demo nodes and starting with incremental modifications is indeed an easy way to start developing own integration plugins.
+### How to Derive Your Own Plugin Node
+Once you add the line `print('Hello!')` anywhere in the code of a demo node, you become an optiSLang plugin developer. Taking one of the demo nodes and starting with incremental modifications is indeed an easy way to start developing own integration plugins.
 
 If you want to systematically derive your own plugin node from one of the demo nodes, the sequence of steps could begin with copying the files, renaming them, and setting up a dedicated new plugin folder for your work.
 

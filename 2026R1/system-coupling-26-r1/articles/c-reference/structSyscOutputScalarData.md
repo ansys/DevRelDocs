@@ -19,6 +19,7 @@ To create and/or initialize [SyscOutputScalarData](structSyscOutputScalarData.md
 
 
 
+
 ```
 SyscOutputScalarData osd = syscGetOutputScalarDataDouble(array, arraySize);
 ```
@@ -36,11 +37,13 @@ SyscOutputScalarData osd = syscGetOutputScalarDataDouble(array, arraySize);
 
 ![][public]
 
-**Definition**: `syscOutputScalarData.h` (line 115)
+**Definition**: `syscOutputScalarData.h` (line 38)
+
 
 ```
 enum SyscPrimitiveType SyscOutputScalarData::primitiveType
 ```
+
 
 
 
@@ -57,9 +60,11 @@ Primitive type.
 
 **Definition**: `syscOutputScalarData.h` (line 39)
 
+
 ```
 const void* SyscOutputScalarData::data
 ```
+
 
 
 
@@ -76,9 +81,11 @@ Pointer to the data array.
 
 **Definition**: `syscOutputScalarData.h` (line 40)
 
+
 ```
 size_t SyscOutputScalarData::size
 ```
+
 
 
 

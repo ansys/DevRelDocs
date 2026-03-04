@@ -3,7 +3,7 @@
 ![][Fortran]
 ![][public]
 
-**Definition**: `syscCommonTypesF.fi` (line 184)
+**Definition**: `syscCommonTypesF.fi` (line 185)
 
 Provide a type for System Coupling setup information.
 
@@ -13,8 +13,9 @@ To create and/or initialize the SyscSetupInfo struct, it is highly recommended t
 
 
 
+
 ```fortran
-SyscSetupInfo setupInfo = syscGetSetupInfoF(SyscSteady);
+syscsetupinfo setupinfo = syscgetsetupinfof(syscsteady);
 ```
 
 ## Members
@@ -32,11 +33,13 @@ SyscSetupInfo setupInfo = syscGetSetupInfoF(SyscSteady);
 
 ![][public]
 
-**Definition**: `syscCommonTypesF.fi` (line 185)
+**Definition**: `syscCommonTypesF.fi` (line 186)
+
 
 ```fortran
 integer(kind=8) analysistype
 ```
+
 
 Analysis type.
 
@@ -51,11 +54,13 @@ Analysis type.
 
 ![][public]
 
-**Definition**: `syscCommonTypesF.fi` (line 186)
+**Definition**: `syscCommonTypesF.fi` (line 187)
+
 
 ```fortran
 logical(kind=8) restartssupported
 ```
+
 
 Restarts supported flag.
 
@@ -70,11 +75,13 @@ Restarts supported flag.
 
 ![][public]
 
-**Definition**: `syscCommonTypesF.fi` (line 187)
+**Definition**: `syscCommonTypesF.fi` (line 188)
+
 
 ```fortran
 integer(kind=8) dimension
 ```
+
 
 Participant dimension.
 
@@ -89,11 +96,13 @@ Participant dimension.
 
 ![][public]
 
-**Definition**: `syscCommonTypesF.fi` (line 188)
+**Definition**: `syscCommonTypesF.fi` (line 189)
+
 
 ```fortran
 integer(kind=8) timeintegration
 ```
+
 
 Time integration method.
 
@@ -108,11 +117,13 @@ Time integration method.
 
 ![][public]
 
-**Definition**: `syscCommonTypesF.fi` (line 189)
+**Definition**: `syscCommonTypesF.fi` (line 190)
+
 
 ```fortran
 integer(kind=8) participanttype
 ```
+
 
 Participant type.
 

@@ -3,7 +3,7 @@
 ![][C]
 ![][public]
 
-**Definition**: `syscCommonTypes.h` (line 131)
+**Definition**: `syscCommonTypes.h` (line 132)
 
 Provide a structure containing solution control.
 
@@ -21,11 +21,13 @@ Provide a structure containing solution control.
 
 ![][public]
 
-**Definition**: `syscCommonTypes.h` (line 132)
+**Definition**: `syscCommonTypes.h` (line 133)
+
 
 ```
 int SyscSolutionControl::minimumIterations
 ```
+
 
 
 
@@ -40,11 +42,13 @@ Min iterations (per time step, if transient).
 
 ![][public]
 
-**Definition**: `syscCommonTypes.h` (line 133)
+**Definition**: `syscCommonTypes.h` (line 134)
+
 
 ```
 int SyscSolutionControl::maximumIterations
 ```
+
 
 
 
