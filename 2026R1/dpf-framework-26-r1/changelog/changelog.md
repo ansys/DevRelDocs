@@ -21,7 +21,7 @@ The following table shows which components have updates in each category.
 | hdf5 | [8 items](#Features_hdf5) | [7 items](#Fixes_hdf5) | [2 items](#Perf_hdf5) |
 | hgp | [6 items](#Features_hgp) | [3 items](#Fixes_hgp) | |
 | lsdyna | [1 item](#Features_lsdyna) | | |
-| mapdl | [13 items](#Features_mapdl) | [52 items](#Fixes_mapdl) | |
+| mapdl | [14 items](#Features_mapdl) | [51 items](#Fixes_mapdl) | |
 | math | | [2 items](#Fixes_math) | [1 item](#Perf_math) |
 | mechanical | [1 item](#Features_mechanical) | | |
 | mesh | | [3 items](#Fixes_mesh) | |
@@ -453,159 +453,119 @@ The following table shows which components have updates in each category.
   >
   > Add support for shell section data.
 
+- Support contact results from mode and RST files:
+  > Support reading ECT_STAT, ECT_PENE, ECT_GAP, ECT_CNOS, ECT_FRES, ECT_PRES, ECT_SFRIC, ECT_STOT, ECT_SLIDE, and ECT_FLUX from mode and rst files.
+
 ### <a id="Fixes_mapdl"></a> Fixes
 
 - Gradient and fluxes results incorrectly extracted:
-
-- Fix "incomplete connectivity" error when loading CompositeModel:
-  > Fix mesh loading failure for some quadratic elements with dropped nodes.
-
-- Physics type for RSTP files to be eMechanic:
-  > Physics type for RSTP files to be Mechanic
-
-- Generate doc for record_reader op:
-  > The documentation of the record_reader op was not generated. The fix consists on rewritting the spec with a const and the good order.
-
-- Fix number of plies detection on Filtering of Elemental Results:
-
-- Fix mapdl::rst::mesh_property_provider in composite with a mesh scoping (or scoping mismatch):
-  > Fix mapdl::rst::mesh_property_provider building incorrect fields with a scoping mismatch or in composite
+  > Gradient and fluxes results could be incorrectly extracted if only one of the following DOFS was on the file: VOLT, MAG, AZ, TEMP.
   >
-  > This operator was building corrupted fields when used with a distributed datasource and a specific scoping, or when a scoping was including elements outside of the result file
+  > If only one of these DOFs was in the file and we queried the flux (or gradient) of another DOF, incorrect data was retrieved.
 
-- Fix nodal averaging results hanging with a big number of scoping:
+- Fix a mesh loading failure for some degenerated quadratic elements:
+  > Fix an `incomplete connectivity` failure in the `meshes_provider` for some degenerated quadratic elements.
 
-- Add heat generation unit and fix JC:
-  > Fix results JC or EFD result not available for some elements
+- Fix physics type for models in RSTP files:
+  > The physics type for RSTP files is now set to `mechanical`.
 
-- Filter::mesh operator fix of indeces of property fields:
+- Fix documentation for operator `results.record_reader`:
+  > The documentation of operator `result.record_reader` is now properly exposed.
 
-- Out of bound fix for unfilter operator unit tests:
-  > Correction of out of bound issue with solids utot results in unfilter operator
+- Fix a bug in the detection of the number of plies detection when filtering elemental results:
+  > Fix the management of plies in shell elements when filtering elemental results.
+
+- Fix mapdl::rst::mesh_property_provider for specific input mesh scopings for ditributed files:
+  > Fix mapdl::rst::mesh_property_provider building incorrect fields due a pontential mismatch between input scoping and actual mesh scoping.
+  >
+  > This operator was building corrupted fields when used with a distributed datasource and a specific scoping, or when a scoping was including elements outside of the result file.
+
+- Add a heat generation unit and fix current and electric flux densities:
+  > Fix `result.current_density` (JC) and `result.electric_flux_density` (EFD) results not being available for some elements types.
 
 - Block unsupported files and fix multiple memory management issues:
+  > - Fix multiple memory management issues when using older or specific MAPDL result files.
+  > - **Block the reading of MAPDL result files created with the option /fsplit,1**.
+  > - **Deprecate the reading of MAPDL result file created before the release 14.5, this will be an error in 2027R1**.
 
-  > - Fix multiple memory management issues when using older or specific MAPDL result files
-  > - **Block the reading of MAPDL result files created with the option /fsplit,1**
-  > - **Deprecate the reading of MAPDL result file created before the release 14.5, this will be an error in 2027R1**
-
-- Fix filter_section_data for unsupported section types:
-
-- Add an option for unfiltered results and not support the files generated with split config:
-  > Add an option for unfiltered results
-
-- Heat Transfer Results for Link33:
-  > Add Heat Flux Result support for LINK33 Elements
-
-- ApdlElementDescriptor issues:
+- Fix support of heat transfer results for LINK33:
+  > Add Heat Flux result support for LINK33 elements.
 
 - Fix reading from RDSP and RFRQ files when outres is used with MXPAND,OFF:
-  > Fix reading from RDSP and RFRQ files when outres is used with MXPAND,OFF
+  > Allow reading rotations, displacements, velocities, and accelerations from RDSP and RFRQ files when `outres` is used with `MXPAND,OFF`.
 
-- SVAR Beam results filtering:
-  > Fix the reading of state variable result on BEAM elements
+- Fix the reading of state variables for BEAM elements:
+  > Fix the reading of state variable (SVAR) results on BEAM elements.
 
-- Improve performance of Cyclic ENF reading for Topo:
+- Fix missing available results in the result info for mode files:
+  > Fix available results in result info from result_info_provider operator when the available results are coming from the mode file.
+  > Only displacements results were listed before.
 
-- Fix missing available results in result info provider:
-  > Fix available results in result info from result_info_provider operator when the available results are coming from the mode file. Only displacements results were listed before.
-
-- Avoid unnecessary nodal filtering:
-  > Avoid going through the nodal filtering operation when it's not needed.
-
-- Add the effnu header on ETH fields too:
-  > Fix the missing "effnu" header when reading ETH fields
+- Fix calculation of combined thermal strain:
+  > The effective Poisson ratio was missing for thermal strain results.
 
 - Fix nodal result PRES filtering:
   > Fix a bug where Pressure was filtered out on midside nodes for acoustic elements with linear pressure behavior (FLUID220, FLUID221 & FLUID244 with KEYOPT(2) =5/6)
 
-- MAPDLOperators cache to be refreshed if the file changes:
-  > MAPDLOperators cache to be refreshed if the file changes.
+- Fix support of live monitoring of an MAPDL output result file:
+  > Refresh the result cache if the result file changes to allow live output monitoring.
 
-- Update rotation matrix documentation for coordinate system provider:
-  > Update rotation matrix documentation for coordinate system provider
+- Update rotation matrix documentation for coordinate_system_provider:
+  > Clarify that the rotation matrix generated is from the local to the global coordinate system.
 
-- Fix issues with handling of input/output dofs number in modal_solve with harmonic load:
-
-- Fix Scoping in mapdl_connectivity:
+- Fix the scoping location in MAPDL connectivity fields for degenerated elements:
   > Fix the location of the Scoping of the "degenerated_connectivity" PropertyField in MAPDL meshes.
 
-- Nodal Averaged Result operators return wrong values when setting a mesh scoping for midside nodes:
-  > Nodal Averaged Result operators return wrong values when setting a mesh scoping for midside nodes
+- Fix a bug in nodal averaging when requested for a nodal scoping of midside nodes only:
+  > Results averaged to nodes were incorrect when requested on a mesh scoping containing only midside nodes.
 
-- Avoid expanding mesh for higher harmonics of the same physical stage:
-
-- Read contact results from mode + rst datasource:
-  > Read contact results from mode + rst datasource
-
-- Fix reading complex results from complex mode file:
-  > Fix reading complex results from complex mode file.
-
-- Recover output pin for force summation psd:
+- Fix a bug when reading complex results from complex mode files for a Full Damped solver type:
+  > Fix a bug when reading complex results from complex mode files for a Full Damped solver type in analyses where the damped system mode-extraction method is used.
 
 - Include enforced motion into modal basis:
-  > Include enforced motion into modal basis
+  > Include enforced motion into modal basis.
 
-- Correction on plies/position logic for BFE filter:
-  > Correction on plies/position logic for BFE filter.
+- Fix the logic on plies/position for BFE filter:
+  > Fix the handling of plies/position for BFE filter.
 
 - Fix duplicate sector results sign when reading cyclic mode pairs and CYCOPT,MSUP,1:
   > Fix cyclic duplicate sectors results sign when reading non raw mechanical results (e.g. elements temperature or elements volume) of a cyclic mode pair from a result file written with CYCOPT,MSUP,1.
 
-- Add mutex to avoid concurrent threads:
-
 - Fix model title being truncated:
-  > Fix model title being truncated
+  > Titles from MAPDL models now take into account the full 80 characters allowed by the solver.
 
 - Fix crash caused by invalid iterator when reading shell data:
-  > Fix an access violation when reading shell elements in pres_to_field op.
+  > Fix an access violation when reading shell elements in operator `pres_to_field`.
 
-- Fix expansion of element nodal forces (ENF):
-  > Fix the expansion of inertial element nodal forces
+- Fix a bug in expansion of element nodal forces (ENF):
+  > Fix a bug in the expansion of inertial element nodal forces.
 
 - Avoid reading MCF at each chunk computation:
   > Bug fix to enhance performance on MCF requests.
 
-- Remove filtering for unsupported elements:
-  > Removal of unsupported elements from filtering functions.
+- Fix filtering of unsupported degenerated elements:
+  > Filtering functions were not correctly filtering-out unsupported elements if degenerated.
 
 - Fix MSUP expansion of results from distributed models where one domain is empty:
   > Fix MSUP expansion of results from distributed models where one domain is empty.
 
-- Use 0 levels to gather light record Information:
+- Fix a crash for cms expansion:
+  > Fix a crash for cms expansion on models with zero bodies.
 
-- Fix cms crash:
-  > Fix cms crash
-
-- Add missing TimeFreqSupport to modal result:
-  > Add missing TimeFreqSupport to modal result
-
-- Fix reading of RFTOT & UTOT for cyclic models:
+- Add missing TimeFreqSupport to modal results:
+  > Add missing TimeFreqSupport to modal results.
 
 - Fix gasket closure results:
   > Fix bugs concerning gasket results
-  > - GKD -> was returning GKDI -> now returns sum of GKTH and GKDI
-  > - GKDI -> was returning an error or wrong values -> works correctly now
-  > - GKS / GKTH / GKDI -> rotation of these results is now blocked to match APDL results
-
-- Fix reading of mesh(es) after cyclic expansion:
-  > Fix reading of mesh(es) after cyclic expansion
-
-- Fix cyclic mesh expansion:
-  > Fix cyclic mesh expansion on mesh_provider operator
+  > - GKD -> was returning GKDI -> now returns sum of GKTH and GKDI.
+  > - GKDI -> was returning an error or wrong values -> works correctly now.
+  > - GKS / GKTH / GKDI -> rotation of these results is now blocked to match APDL results.
 
 - Fix connectivity in linear CONTA177 elements:
+  > Previously a -1 was reported in the last node index, only 2 nodes are reported now.
 
-- TFS read from mode file fails:
-  > Correction of !592711
-
-- TFS read from mode file fails:
-  > Unable to solve the mechdat while performing Modal analysis for Bearing elements when on demand expansion option is ON and there is no output controls property set to Yes in Analysis Settings.
-  >
-  > Getting the DPF error - runtime error: dpf core function call; TimeFreqSupportProvider:18244<-composite::time_freq_support_provider:-1<-mapdl::mode::TimeFreqSupportProvider:18260<-Record "MODE::FRQ" is not a record of double.
-
-- Plugin stream name db_live need to be in GetFirstStream:
-  > add db_live to GetFirstStream for generic operators
+- Fix a performance issue for nodal averaged results requested on a large number of scopings on large meshes:
+  > Getting nodal averaged results on a large number of scopings with a large mesh was virtually impossible due to a performance issue which is now fixed.
 
 ## math
 
