@@ -16,17 +16,17 @@ The following table shows which components have updates in each category.
 | documentation | [3 items](#Features_documentation) | [1 item](#Fixes_documentation) | |
 | engineeringdata | | [1 item](#Fixes_engineeringdata) | |
 | femutils | [2 item](#Feat_femutils) | [18 items](#Fixes_femutils) | [5 items](#Perf_femutils) |
-| framework | [5 items](#Feat_framework) | [15 items](#Fixes_framework) | |
+| framework | [6 items](#Feat_framework) | [15 items](#Fixes_framework) | |
 | grpc | [1 item](#Features_grpc) | [3 items](#Fixes_grpc) | |
 | hdf5 | [8 items](#Features_hdf5) | [7 items](#Fixes_hdf5) | [2 items](#Perf_hdf5) |
 | hgp | [6 items](#Features_hgp) | [3 items](#Fixes_hgp) | |
 | lsdyna | [1 item](#Features_lsdyna) | | |
-| mapdl | [19 items](#Features_mapdl) | [52 items](#Fixes_mapdl) | |
+| mapdl | [13 items](#Features_mapdl) | [52 items](#Fixes_mapdl) | |
 | math | | [2 items](#Fixes_math) | [1 item](#Perf_math) |
 | mechanical | [1 item](#Features_mechanical) | | |
 | mesh | | [3 items](#Fixes_mesh) | |
 | multiphysicsmapper | | [1 item](#Fixes_multiphysicsmapper) | |
-| native | [3 items](#Feat_native) | [20 items](#Fixes_native) | [2 item](#Perf_native) |
+| native | [6 items](#Feat_native) | [20 items](#Fixes_native) | [2 item](#Perf_native) |
 | rbd | | [1 item](#Fixes_rbd) | |
 | vtk | | [1 item](#Fixes_vtk) | |
 
@@ -223,6 +223,9 @@ The following table shows which components have updates in each category.
   > mass matrix multiplier for damping, Hall coefficient, diffusivity coefficient, coefficient of diffusion expansion, saturated concentration, reference concentration,
   > heat coefficient at constant volume per unit of mass, diffusivity of sound used in the Westervelt equation, coefficient of nonlinearity used in the Westervelt equation.
 
+- Support new result for Nodal Orientations:
+  > Support Node Euler Angles results at the framework level for node orientations.
+
 ### <a id="Fixes_framework"></a> Fixes
 
 - Fix the names associated to some materials properties:
@@ -395,50 +398,36 @@ The following table shows which components have updates in each category.
 
 ### <a id="Features_mapdl"></a> Features
 
-- Addition of chunking for modal superposition:
-  > Addition of mode chunking option to modal superposition workflow.
-
-- Operator to extract records from RST:
+- New operator to extract records from RST files:
+  > Operator `record_reader` is now available to read results from an RST file based on MAPDL record names.
 
 - Source Operators for Acoustic Ops:
-  > Adding Source Operators for Acoustic Operators in complement of previous PR 630503
+  > Adding Source Operators for Acoustic Operators.
 
 - Adding new operator and result for Nodal Orientations:
   > Adding new operator and result for Nodal Orientations
 
-- Refactor ElementType handling to increase performance:
-  > Refactor the way ElementTypes are handled inside DPF mapdl Operators.
-
 - Nodal results on changing meshes:
-  > Allow to read nodal results on changing meshes (adaptive model with NLAD or SMART Crack growth)
+  > Allow to read nodal results on changing meshes (adaptive model with NLAD or SMART Crack growth).
 
 - Add ability to record all the skipped mesh elements:
-  > The mesh provider of MAPDL result file now has the ability to record any skipped element, and debug log will log skipped elements during result reading
-
-- Add eExtendMidNodesPin in Source Operator for ElementalNodal Operators:
-  > Add a pin `eExtendMidNodesPin` in source operators to allow to remove mid-nodes when averaging from `ElementalNodal` to `Nodal`
-
-- Enable back MMAP by default:
-
-- Change default reading method of rst f:
-
-- Change default reading method of rst files to MMAP:
-
-- Use 1 level to fill the rst file graph by default:
-  > Enhance the rst file reading process by using 1 level to fill the rst file graph.
+  > The `mesh_provider` for MAPDL result files now has the ability to record skipped elements during result reading, and log them in debug logs.
+  >
+  > The list of unsupported element types that were skipped when reading the MAPDL mesh is also available as a mesh property called `unsupported_apdl_element_type`.
 
 - Expose rotation, rotation velocity and rotation acceleration results:
   > Addition of operators to read rotation (ROT), rotation velocity (OMG) and rotation acceleration (DMG) results.
 
 - Expose MAPDL Beam Results:
   > - Expanding LS-Dyna Beam Result Operators to MAPDL Beam Results: Axial_Force `B_N`, Bending Moments Y and Z `B_M1` and `B_M2`, Torque `B_MT`, Shear Forces `B_T1` and `B_T2`, Axial Stress `B_SN` and Axial Strain `B_EL`.
-  > - Added a way to pass a vector of properties to the `scoping_provider_by_prop` operator.
 
-- Development of is_mesh_available operator:
-  > Add a `is_mesh_available` operator to lightly inquire if the result file contains the mesh.
+- Support operator `is_mesh_available` for rst, rfrq and rdsp file formats:
+  > The framework exposes a new operator `is_mesh_available` to check if the result file contains the mesh.
+  >
+  > The adds support for `rst`, `rfrq`, and `rdsp` file formats.
 
 - Support creep strain results:
-  > DPF and several plugins now support creep strain results (EPCR)
+  > DPF and several plugins now support creep strain results (EPCR).
 
 - Support pressure and fluid velocity results:
   > Addition of operators to read fluid velocity and pressure (corresponding to the dofs VX, VY, VZ and PRES)
@@ -678,6 +667,15 @@ The following table shows which components have updates in each category.
 - Operator `metadata.time_freq_support_get_attribute` now supports property `step_id_from_harmonic_index`.
 
 - New input pin `upper_bound` for operator `utility.ints_to_scoping`.
+
+- Add operator `is_mesh_available`:
+  > The new operator `is_mesh_available` checks if a result file contains a mesh.
+
+- Allow vector of properties as input for `scoping.on_property`:
+  > - The `property_id` input pin (2) now accepts a vector of property IDs.
+
+- Add an `extend_to_mid_nodes` input pin to result operators with default `elemental_nodal` location:
+  > Add an input pin `extend_to_mid_nodes` to source operators to allow not using mid-nodes during averaging from `elemental_nodal` to `nodal`.
 
 ### <a id="Fixes_native"></a> Fixes
 
