@@ -361,11 +361,11 @@
         href: net4-reference/OpenTD.Dimension.Current.md
       - name: "Density"
         href: net4-reference/OpenTD.Dimension.Density.md
-      - name: "DimensionalIfPositiveList<T>"
+      - name: "DimensionalIfPositiveListT"
         href: net4-reference/OpenTD.Dimension.DimensionalIfPositiveList-1.md
-      - name: "DimensionalList2<T>"
+      - name: "DimensionalList2T"
         href: net4-reference/OpenTD.Dimension.DimensionalList2-1.md
-      - name: "DimensionalList<T>"
+      - name: "DimensionalListT"
         href: net4-reference/OpenTD.Dimension.DimensionalList-1.md
       - name: "Dimensionless"
         href: net4-reference/OpenTD.Dimension.Dimensionless.md
@@ -457,9 +457,9 @@
         href: net4-reference/OpenTD.Dimension.VolumeFlowRate.md
     - name: "Structs"
       items:
-      - name: "Dimensional<T>"
+      - name: "DimensionalT"
         href: net4-reference/OpenTD.Dimension.Dimensional-1.md
-      - name: "DimensionalIfPositive<T>"
+      - name: "DimensionalIfPositiveT"
         href: net4-reference/OpenTD.Dimension.DimensionalIfPositive-1.md
     - name: "Interfaces"
       items:
@@ -1049,7 +1049,7 @@
         href: net4-reference/OpenTD.Utility.StringExtensions.md
       - name: "StringUtility"
         href: net4-reference/OpenTD.Utility.StringUtility.md
-      - name: "UniqueItemList<T>"
+      - name: "UniqueItemListT"
         href: net4-reference/OpenTD.Utility.UniqueItemList-1.md
     - name: "Structs"
       items:
