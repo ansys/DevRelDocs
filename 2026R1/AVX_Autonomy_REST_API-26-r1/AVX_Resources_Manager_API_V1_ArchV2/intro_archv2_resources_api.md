@@ -6,21 +6,15 @@ This REST API allows to perform CRUD (Create, Read, Update, and Delete) operatio
 
 ## Features
 
-### Queues
 
-* You can create queues with the required storages, resource limits and environment variables
-* Allowing to manage queues helps will help you configure different applications within resource limits and group the applications requiring same storage together.
-* You can adjust the maximum number of workers that can concurrently run on a queue using the parameter 'maximum_allowed_worker_instances'
 
 ### Plugins
 
  You can register a plugin with definition of container runtime.
 For example: Docker Engine / Kubernetes
 
-### Jobs
 
-* You can submit a resource-manager job by providing application details (name, version, image, environment variables, etc.) and track it to its completion.
-* You can also check the status of the job and clean the resources the job has acquired.
+
 
 ## Python helper
 
@@ -168,25 +162,8 @@ In the example below, only 3 workers are available, so the job that requires 4 w
 
 ![Alt text](/sites/default/files/2025-10/screen-2.png)
 
-## Download concrete scenario files
 
-It is possible to download the concrete scenario files of simulation jobs through the REST API. 
-
-To do this, you need to provides a list of *sample_ids* to generate concrete scenario files for those samples. 
-
-* If 'samples' is empty or not provided, no concrete file is included. 
-* If 'samples' is specified, than all the concrete files will be included for these samples in the zip.
-
-
-You can also specify what kind of documents you want to download:
-
-* Scenario files
-* Asset files
-
- If the parameter: *"filter_by_asset_declaration"* is empty or not provided, all the "common" asset data will be provided.
- * 
-
-## Getting a Token to Use the REST API 
+## Getting a Token to use the REST API 
 
 To use the REST API, you need to enter a Token
 
