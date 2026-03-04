@@ -1,13 +1,12 @@
 - name: "Introduction"
   href: index.md
 - name: "NET4 reference"
-  href: net4-reference/OpenTD.md
+  href: net4-reference/index.md
   items:
   - name: "OpenTD"
     href: net4-reference/OpenTD.md
     items:
     - name: "Classes"
-      href: net4-reference/OpenTD.AcEllipse.md
       items:
       - name: "AcEllipse"
         href: net4-reference/OpenTD.AcEllipse.md
@@ -212,12 +211,10 @@
       - name: "XrefInfo"
         href: net4-reference/OpenTD.XrefInfo.md
     - name: "Structs"
-      href: net4-reference/OpenTD.EntityDescriptor.md
       items:
       - name: "EntityDescriptor"
         href: net4-reference/OpenTD.EntityDescriptor.md
     - name: "Interfaces"
-      href: net4-reference/OpenTD.IDbIterator.md
       items:
       - name: "IDbIterator"
         href: net4-reference/OpenTD.IDbIterator.md
@@ -228,7 +225,6 @@
       - name: "IUpdatable"
         href: net4-reference/OpenTD.IUpdatable.md
     - name: "Enums"
-      href: net4-reference/OpenTD.AggregateData.WeightTypes.md
       items:
       - name: "AggregateData.WeightTypes"
         href: net4-reference/OpenTD.AggregateData.WeightTypes.md
@@ -324,7 +320,6 @@
     href: net4-reference/OpenTD.AddIn.md
     items:
     - name: "Classes"
-      href: net4-reference/OpenTD.AddIn.ProgressBar.md
       items:
       - name: "ProgressBar"
         href: net4-reference/OpenTD.AddIn.ProgressBar.md
@@ -332,7 +327,6 @@
     href: net4-reference/OpenTD.CoSolver.md
     items:
     - name: "Classes"
-      href: net4-reference/OpenTD.CoSolver.CoSolver.md
       items:
       - name: "CoSolver"
         href: net4-reference/OpenTD.CoSolver.CoSolver.md
@@ -352,7 +346,6 @@
     href: net4-reference/OpenTD.Dimension.md
     items:
     - name: "Classes"
-      href: net4-reference/OpenTD.Dimension.Angle.md
       items:
       - name: "Angle"
         href: net4-reference/OpenTD.Dimension.Angle.md
@@ -368,11 +361,11 @@
         href: net4-reference/OpenTD.Dimension.Current.md
       - name: "Density"
         href: net4-reference/OpenTD.Dimension.Density.md
-      - name: "DimensionalIfPositiveList-T-"
+      - name: "DimensionalIfPositiveList<T>"
         href: net4-reference/OpenTD.Dimension.DimensionalIfPositiveList-1.md
-      - name: "DimensionalList2-T-"
+      - name: "DimensionalList2<T>"
         href: net4-reference/OpenTD.Dimension.DimensionalList2-1.md
-      - name: "DimensionalList-T-"
+      - name: "DimensionalList<T>"
         href: net4-reference/OpenTD.Dimension.DimensionalList-1.md
       - name: "Dimensionless"
         href: net4-reference/OpenTD.Dimension.Dimensionless.md
@@ -463,14 +456,12 @@
       - name: "VolumeFlowRate"
         href: net4-reference/OpenTD.Dimension.VolumeFlowRate.md
     - name: "Structs"
-      href: net4-reference/OpenTD.Dimension.Dimensional-1.md
       items:
-      - name: "Dimensional-T-"
+      - name: "Dimensional<T>"
         href: net4-reference/OpenTD.Dimension.Dimensional-1.md
-      - name: "DimensionalIfPositive-T-"
+      - name: "DimensionalIfPositive<T>"
         href: net4-reference/OpenTD.Dimension.DimensionalIfPositive-1.md
     - name: "Interfaces"
-      href: net4-reference/OpenTD.Dimension.IDimension.md
       items:
       - name: "IDimension"
         href: net4-reference/OpenTD.Dimension.IDimension.md
@@ -478,7 +469,6 @@
     href: net4-reference/OpenTD.FloCAD.md
     items:
     - name: "Classes"
-      href: net4-reference/OpenTD.FloCAD.Bay.md
       items:
       - name: "Bay"
         href: net4-reference/OpenTD.FloCAD.Bay.md
@@ -515,7 +505,6 @@
       - name: "Tie"
         href: net4-reference/OpenTD.FloCAD.Tie.md
     - name: "Enums"
-      href: net4-reference/OpenTD.FloCAD.PipeTie.WallLocations.md
       items:
       - name: "PipeTie.WallLocations"
         href: net4-reference/OpenTD.FloCAD.PipeTie.WallLocations.md
@@ -523,7 +512,6 @@
     href: net4-reference/OpenTD.Internal.Communication.md
     items:
     - name: "Classes"
-      href: net4-reference/OpenTD.Internal.Communication.AdditionalUnitsSettings.md
       items:
       - name: "AdditionalUnitsSettings"
         href: net4-reference/OpenTD.Internal.Communication.AdditionalUnitsSettings.md
@@ -533,7 +521,6 @@
     href: net4-reference/OpenTD.Logging.md
     items:
     - name: "Classes"
-      href: net4-reference/OpenTD.Logging.Logger.md
       items:
       - name: "Logger"
         href: net4-reference/OpenTD.Logging.Logger.md
@@ -543,7 +530,6 @@
     href: net4-reference/OpenTD.PostProcessing.md
     items:
     - name: "Classes"
-      href: net4-reference/OpenTD.PostProcessing.AdditionalCompareInfo.md
       items:
       - name: "AdditionalCompareInfo"
         href: net4-reference/OpenTD.PostProcessing.AdditionalCompareInfo.md
@@ -572,7 +558,6 @@
       - name: "StressThermalGroupAssociation"
         href: net4-reference/OpenTD.PostProcessing.StressThermalGroupAssociation.md
     - name: "Enums"
-      href: net4-reference/OpenTD.PostProcessing.AdditionalHeatrateInfo.SourceTypes.md
       items:
       - name: "AdditionalHeatrateInfo.SourceTypes"
         href: net4-reference/OpenTD.PostProcessing.AdditionalHeatrateInfo.SourceTypes.md
@@ -592,7 +577,6 @@
     href: net4-reference/OpenTD.RadCAD.md
     items:
     - name: "Classes"
-      href: net4-reference/OpenTD.RadCAD.AnalysisGroupSurfaceInfo.md
       items:
       - name: "AnalysisGroupSurfaceInfo"
         href: net4-reference/OpenTD.RadCAD.AnalysisGroupSurfaceInfo.md
@@ -663,7 +647,6 @@
       - name: "Tracker"
         href: net4-reference/OpenTD.RadCAD.Tracker.md
     - name: "Enums"
-      href: net4-reference/OpenTD.RadCAD.FEMeshImporter.ImporterFiletype.md
       items:
       - name: "FEMeshImporter.ImporterFiletype"
         href: net4-reference/OpenTD.RadCAD.FEMeshImporter.ImporterFiletype.md
@@ -691,7 +674,6 @@
     href: net4-reference/OpenTD.RadCAD.FEM.md
     items:
     - name: "Classes"
-      href: net4-reference/OpenTD.RadCAD.FEM.LinearBrick.md
       items:
       - name: "LinearBrick"
         href: net4-reference/OpenTD.RadCAD.FEM.LinearBrick.md
@@ -725,7 +707,6 @@
     href: net4-reference/OpenTD.RadCAD.FEModel.md
     items:
     - name: "Classes"
-      href: net4-reference/OpenTD.RadCAD.FEModel.CoordinateSystem.md
       items:
       - name: "CoordinateSystem"
         href: net4-reference/OpenTD.RadCAD.FEModel.CoordinateSystem.md
@@ -759,7 +740,6 @@
     href: net4-reference/OpenTD.RadCAD.FdSolid.md
     items:
     - name: "Classes"
-      href: net4-reference/OpenTD.RadCAD.FdSolid.AnalysisGroupSolidInfo.md
       items:
       - name: "AnalysisGroupSolidInfo"
         href: net4-reference/OpenTD.RadCAD.FdSolid.AnalysisGroupSolidInfo.md
@@ -776,7 +756,6 @@
       - name: "SolidSphere"
         href: net4-reference/OpenTD.RadCAD.FdSolid.SolidSphere.md
     - name: "Enums"
-      href: net4-reference/OpenTD.RadCAD.FdSolid.RcFdSolidData.Active.md
       items:
       - name: "RcFdSolidData.Active"
         href: net4-reference/OpenTD.RadCAD.FdSolid.RcFdSolidData.Active.md
@@ -788,7 +767,6 @@
     href: net4-reference/OpenTD.Results.Dataset.md
     items:
     - name: "Classes"
-      href: net4-reference/OpenTD.Results.Dataset.AverageDataArray.md
       items:
       - name: "AverageDataArray"
         href: net4-reference/OpenTD.Results.Dataset.AverageDataArray.md
@@ -877,7 +855,6 @@
       - name: "WeightedAverageDataArray"
         href: net4-reference/OpenTD.Results.Dataset.WeightedAverageDataArray.md
     - name: "Structs"
-      href: net4-reference/OpenTD.Results.Dataset.Exceedance.md
       items:
       - name: "Exceedance"
         href: net4-reference/OpenTD.Results.Dataset.Exceedance.md
@@ -886,7 +863,6 @@
       - name: "FullStandardDataSubtype"
         href: net4-reference/OpenTD.Results.Dataset.FullStandardDataSubtype.md
     - name: "Interfaces"
-      href: net4-reference/OpenTD.Results.Dataset.IBrowser.md
       items:
       - name: "IBrowser"
         href: net4-reference/OpenTD.Results.Dataset.IBrowser.md
@@ -901,7 +877,6 @@
       - name: "ISimpleDataset"
         href: net4-reference/OpenTD.Results.Dataset.ISimpleDataset.md
     - name: "Enums"
-      href: net4-reference/OpenTD.Results.Dataset.ArrayIntegerNames.md
       items:
       - name: "ArrayIntegerNames"
         href: net4-reference/OpenTD.Results.Dataset.ArrayIntegerNames.md
@@ -925,7 +900,6 @@
     href: net4-reference/OpenTD.Results.Dataset.Topology.md
     items:
     - name: "Classes"
-      href: net4-reference/OpenTD.Results.Dataset.Topology.DatasetTopology.md
       items:
       - name: "DatasetTopology"
         href: net4-reference/OpenTD.Results.Dataset.Topology.DatasetTopology.md
@@ -938,7 +912,6 @@
       - name: "SindaName"
         href: net4-reference/OpenTD.Results.Dataset.Topology.SindaName.md
     - name: "Interfaces"
-      href: net4-reference/OpenTD.Results.Dataset.Topology.IConductorInfo.md
       items:
       - name: "IConductorInfo"
         href: net4-reference/OpenTD.Results.Dataset.Topology.IConductorInfo.md
@@ -959,7 +932,6 @@
       - name: "ITieInfo"
         href: net4-reference/OpenTD.Results.Dataset.Topology.ITieInfo.md
     - name: "Enums"
-      href: net4-reference/OpenTD.Results.Dataset.Topology.FTieType.md
       items:
       - name: "FTieType"
         href: net4-reference/OpenTD.Results.Dataset.Topology.FTieType.md
@@ -977,7 +949,6 @@
     href: net4-reference/OpenTD.Results.Plot.md
     items:
     - name: "Classes"
-      href: net4-reference/OpenTD.Results.Plot.Axis.md
       items:
       - name: "Axis"
         href: net4-reference/OpenTD.Results.Plot.Axis.md
@@ -1004,7 +975,6 @@
       - name: "SimplePlot"
         href: net4-reference/OpenTD.Results.Plot.SimplePlot.md
     - name: "Enums"
-      href: net4-reference/OpenTD.Results.Plot.Axis.Positions.md
       items:
       - name: "Axis.Positions"
         href: net4-reference/OpenTD.Results.Plot.Axis.Positions.md
@@ -1012,7 +982,6 @@
     href: net4-reference/OpenTD.Results.Plot.Internal.md
     items:
     - name: "Classes"
-      href: net4-reference/OpenTD.Results.Plot.Internal.SimplePlotDialog.md
       items:
       - name: "SimplePlotDialog"
         href: net4-reference/OpenTD.Results.Plot.Internal.SimplePlotDialog.md
@@ -1020,7 +989,6 @@
     href: net4-reference/OpenTD.UserInterface.md
     items:
     - name: "Classes"
-      href: net4-reference/OpenTD.UserInterface.StandardOutput.md
       items:
       - name: "StandardOutput"
         href: net4-reference/OpenTD.UserInterface.StandardOutput.md
@@ -1030,7 +998,6 @@
     href: net4-reference/OpenTD.UserInterface.Forms.md
     items:
     - name: "Classes"
-      href: net4-reference/OpenTD.UserInterface.Forms.OutputBox.md
       items:
       - name: "OutputBox"
         href: net4-reference/OpenTD.UserInterface.Forms.OutputBox.md
@@ -1040,7 +1007,6 @@
     href: net4-reference/OpenTD.UserPreferences.md
     items:
     - name: "Classes"
-      href: net4-reference/OpenTD.UserPreferences.Acceleration.md
       items:
       - name: "Acceleration"
         href: net4-reference/OpenTD.UserPreferences.Acceleration.md
@@ -1066,7 +1032,6 @@
     href: net4-reference/OpenTD.Utility.md
     items:
     - name: "Classes"
-      href: net4-reference/OpenTD.Utility.DoubleUtility.md
       items:
       - name: "DoubleUtility"
         href: net4-reference/OpenTD.Utility.DoubleUtility.md
@@ -1084,21 +1049,19 @@
         href: net4-reference/OpenTD.Utility.StringExtensions.md
       - name: "StringUtility"
         href: net4-reference/OpenTD.Utility.StringUtility.md
-      - name: "UniqueItemList-T-"
+      - name: "UniqueItemList<T>"
         href: net4-reference/OpenTD.Utility.UniqueItemList-1.md
     - name: "Structs"
-      href: net4-reference/OpenTD.Utility.RootedPathname.md
       items:
       - name: "RootedPathname"
         href: net4-reference/OpenTD.Utility.RootedPathname.md
 - name: "NET8 reference"
-  href: net8-reference/OpenTD.md
+  href: net8-reference/index.md
   items:
   - name: "OpenTD"
     href: net8-reference/OpenTD.md
     items:
     - name: "Classes"
-      href: net8-reference/OpenTD.AcEllipse.md
       items:
       - name: "AcEllipse"
         href: net8-reference/OpenTD.AcEllipse.md
@@ -1262,8 +1225,6 @@
         href: net8-reference/OpenTD.Symbol.md
       - name: "TdConnectConfig"
         href: net8-reference/OpenTD.TdConnectConfig.md
-      - name: "TdConnectConfig.TimeoutProperties"
-        href: net8-reference/OpenTD.TdConnectConfig.TimeoutProperties.md
       - name: "TdDbEntityData"
         href: net8-reference/OpenTD.TdDbEntityData.md
       - name: "Tec"
@@ -1272,12 +1233,16 @@
         href: net8-reference/OpenTD.Text.md
       - name: "ThermalDesktop"
         href: net8-reference/OpenTD.ThermalDesktop.md
+      - name: "ThermalDesktopExtensions"
+        href: net8-reference/OpenTD.ThermalDesktopExtensions.md
       - name: "ThermalLogicData"
         href: net8-reference/OpenTD.ThermalLogicData.md
       - name: "ThermoPropAliasManager"
         href: net8-reference/OpenTD.ThermoPropAliasManager.md
       - name: "ThermoProps"
         href: net8-reference/OpenTD.ThermoProps.md
+      - name: "TimeoutProperties"
+        href: net8-reference/OpenTD.TimeoutProperties.md
       - name: "Transformation"
         href: net8-reference/OpenTD.Transformation.md
       - name: "UCS"
@@ -1305,12 +1270,10 @@
       - name: "XrefInfo"
         href: net8-reference/OpenTD.XrefInfo.md
     - name: "Structs"
-      href: net8-reference/OpenTD.EntityDescriptor.md
       items:
       - name: "EntityDescriptor"
         href: net8-reference/OpenTD.EntityDescriptor.md
     - name: "Interfaces"
-      href: net8-reference/OpenTD.IDbIterator.md
       items:
       - name: "IDbIterator"
         href: net8-reference/OpenTD.IDbIterator.md
@@ -1321,7 +1284,6 @@
       - name: "IUpdatable"
         href: net8-reference/OpenTD.IUpdatable.md
     - name: "Enums"
-      href: net8-reference/OpenTD.AggregateData.WeightTypes.md
       items:
       - name: "AggregateData.WeightTypes"
         href: net8-reference/OpenTD.AggregateData.WeightTypes.md
@@ -1417,7 +1379,6 @@
     href: net8-reference/OpenTD.AddIn.md
     items:
     - name: "Classes"
-      href: net8-reference/OpenTD.AddIn.ProgressBar.md
       items:
       - name: "ProgressBar"
         href: net8-reference/OpenTD.AddIn.ProgressBar.md
@@ -1425,7 +1386,6 @@
     href: net8-reference/OpenTD.Dimension.md
     items:
     - name: "Classes"
-      href: net8-reference/OpenTD.Dimension.Angle.md
       items:
       - name: "Angle"
         href: net8-reference/OpenTD.Dimension.Angle.md
@@ -1441,11 +1401,11 @@
         href: net8-reference/OpenTD.Dimension.Current.md
       - name: "Density"
         href: net8-reference/OpenTD.Dimension.Density.md
-      - name: "DimensionalIfPositiveList-T-"
+      - name: "DimensionalIfPositiveList<T>"
         href: net8-reference/OpenTD.Dimension.DimensionalIfPositiveList-1.md
-      - name: "DimensionalList2-T-"
+      - name: "DimensionalList2<T>"
         href: net8-reference/OpenTD.Dimension.DimensionalList2-1.md
-      - name: "DimensionalList-T-"
+      - name: "DimensionalList<T>"
         href: net8-reference/OpenTD.Dimension.DimensionalList-1.md
       - name: "Dimensionless"
         href: net8-reference/OpenTD.Dimension.Dimensionless.md
@@ -1536,14 +1496,12 @@
       - name: "VolumeFlowRate"
         href: net8-reference/OpenTD.Dimension.VolumeFlowRate.md
     - name: "Structs"
-      href: net8-reference/OpenTD.Dimension.Dimensional-1.md
       items:
-      - name: "Dimensional-T-"
+      - name: "Dimensional<T>"
         href: net8-reference/OpenTD.Dimension.Dimensional-1.md
-      - name: "DimensionalIfPositive-T-"
+      - name: "DimensionalIfPositive<T>"
         href: net8-reference/OpenTD.Dimension.DimensionalIfPositive-1.md
     - name: "Interfaces"
-      href: net8-reference/OpenTD.Dimension.IDimension.md
       items:
       - name: "IDimension"
         href: net8-reference/OpenTD.Dimension.IDimension.md
@@ -1551,7 +1509,6 @@
     href: net8-reference/OpenTD.FloCAD.md
     items:
     - name: "Classes"
-      href: net8-reference/OpenTD.FloCAD.Bay.md
       items:
       - name: "Bay"
         href: net8-reference/OpenTD.FloCAD.Bay.md
@@ -1588,7 +1545,6 @@
       - name: "Tie"
         href: net8-reference/OpenTD.FloCAD.Tie.md
     - name: "Enums"
-      href: net8-reference/OpenTD.FloCAD.PipeTie.WallLocations.md
       items:
       - name: "PipeTie.WallLocations"
         href: net8-reference/OpenTD.FloCAD.PipeTie.WallLocations.md
@@ -1596,7 +1552,6 @@
     href: net8-reference/OpenTD.Internal.Communication.md
     items:
     - name: "Classes"
-      href: net8-reference/OpenTD.Internal.Communication.AdditionalUnitsSettings.md
       items:
       - name: "AdditionalUnitsSettings"
         href: net8-reference/OpenTD.Internal.Communication.AdditionalUnitsSettings.md
@@ -1611,7 +1566,6 @@
       - name: "TdResponse"
         href: net8-reference/OpenTD.Internal.Communication.TdResponse.md
     - name: "Enums"
-      href: net8-reference/OpenTD.Internal.Communication.OpenTDPipeServer.States.md
       items:
       - name: "OpenTDPipeServer.States"
         href: net8-reference/OpenTD.Internal.Communication.OpenTDPipeServer.States.md
@@ -1619,7 +1573,6 @@
     href: net8-reference/OpenTD.Logging.md
     items:
     - name: "Classes"
-      href: net8-reference/OpenTD.Logging.Logger.md
       items:
       - name: "Logger"
         href: net8-reference/OpenTD.Logging.Logger.md
@@ -1629,14 +1582,13 @@
     href: net8-reference/OpenTD.PostProcessing.md
     items:
     - name: "Classes"
-      href: net8-reference/OpenTD.PostProcessing.AdditionalCompareInfo.md
       items:
       - name: "AdditionalCompareInfo"
         href: net8-reference/OpenTD.PostProcessing.AdditionalCompareInfo.md
       - name: "AdditionalDatasetInfo"
         href: net8-reference/OpenTD.PostProcessing.AdditionalDatasetInfo.md
       - name: "AdditionalHeatFlowInfo"
-        href: net8-reference/OpenTD.PostProcessing.AdditionalHeatFlowMapInfo.md
+        href: net8-reference/OpenTD.PostProcessing.AdditionalHeatFlowInfo.md
       - name: "AdditionalHeatFlowMapInfo"
         href: net8-reference/OpenTD.PostProcessing.AdditionalHeatFlowMapInfo.md
       - name: "AdditionalHeatrateInfo"
@@ -1658,7 +1610,6 @@
       - name: "StressThermalGroupAssociation"
         href: net8-reference/OpenTD.PostProcessing.StressThermalGroupAssociation.md
     - name: "Enums"
-      href: net8-reference/OpenTD.PostProcessing.AdditionalHeatrateInfo.SourceTypes.md
       items:
       - name: "AdditionalHeatrateInfo.SourceTypes"
         href: net8-reference/OpenTD.PostProcessing.AdditionalHeatrateInfo.SourceTypes.md
@@ -1678,7 +1629,6 @@
     href: net8-reference/OpenTD.RadCAD.md
     items:
     - name: "Classes"
-      href: net8-reference/OpenTD.RadCAD.AnalysisGroupSurfaceInfo.md
       items:
       - name: "AnalysisGroupSurfaceInfo"
         href: net8-reference/OpenTD.RadCAD.AnalysisGroupSurfaceInfo.md
@@ -1749,7 +1699,6 @@
       - name: "Tracker"
         href: net8-reference/OpenTD.RadCAD.Tracker.md
     - name: "Enums"
-      href: net8-reference/OpenTD.RadCAD.FEMeshImporter.ImporterFiletype.md
       items:
       - name: "FEMeshImporter.ImporterFiletype"
         href: net8-reference/OpenTD.RadCAD.FEMeshImporter.ImporterFiletype.md
@@ -1777,7 +1726,6 @@
     href: net8-reference/OpenTD.RadCAD.FEM.md
     items:
     - name: "Classes"
-      href: net8-reference/OpenTD.RadCAD.FEM.LinearBrick.md
       items:
       - name: "LinearBrick"
         href: net8-reference/OpenTD.RadCAD.FEM.LinearBrick.md
@@ -1811,7 +1759,6 @@
     href: net8-reference/OpenTD.RadCAD.FEModel.md
     items:
     - name: "Classes"
-      href: net8-reference/OpenTD.RadCAD.FEModel.CoordinateSystem.md
       items:
       - name: "CoordinateSystem"
         href: net8-reference/OpenTD.RadCAD.FEModel.CoordinateSystem.md
@@ -1845,7 +1792,6 @@
     href: net8-reference/OpenTD.RadCAD.FdSolid.md
     items:
     - name: "Classes"
-      href: net8-reference/OpenTD.RadCAD.FdSolid.AnalysisGroupSolidInfo.md
       items:
       - name: "AnalysisGroupSolidInfo"
         href: net8-reference/OpenTD.RadCAD.FdSolid.AnalysisGroupSolidInfo.md
@@ -1862,7 +1808,6 @@
       - name: "SolidSphere"
         href: net8-reference/OpenTD.RadCAD.FdSolid.SolidSphere.md
     - name: "Enums"
-      href: net8-reference/OpenTD.RadCAD.FdSolid.RcFdSolidData.Active.md
       items:
       - name: "RcFdSolidData.Active"
         href: net8-reference/OpenTD.RadCAD.FdSolid.RcFdSolidData.Active.md
@@ -1874,7 +1819,6 @@
     href: net8-reference/OpenTD.Results.md
     items:
     - name: "Classes"
-      href: net8-reference/OpenTD.Results.Class1.md
       items:
       - name: "Class1"
         href: net8-reference/OpenTD.Results.Class1.md
@@ -1882,7 +1826,6 @@
     href: net8-reference/OpenTD.Results.Dataset.md
     items:
     - name: "Classes"
-      href: net8-reference/OpenTD.Results.Dataset.AverageDataArray.md
       items:
       - name: "AverageDataArray"
         href: net8-reference/OpenTD.Results.Dataset.AverageDataArray.md
@@ -1973,7 +1916,6 @@
       - name: "WeightedAverageDataArray"
         href: net8-reference/OpenTD.Results.Dataset.WeightedAverageDataArray.md
     - name: "Structs"
-      href: net8-reference/OpenTD.Results.Dataset.Exceedance.md
       items:
       - name: "Exceedance"
         href: net8-reference/OpenTD.Results.Dataset.Exceedance.md
@@ -1982,7 +1924,6 @@
       - name: "FullStandardDataSubtype"
         href: net8-reference/OpenTD.Results.Dataset.FullStandardDataSubtype.md
     - name: "Interfaces"
-      href: net8-reference/OpenTD.Results.Dataset.IBasicDataset.md
       items:
       - name: "IBasicDataset"
         href: net8-reference/OpenTD.Results.Dataset.IBasicDataset.md
@@ -1999,7 +1940,6 @@
       - name: "ISimpleDataset"
         href: net8-reference/OpenTD.Results.Dataset.ISimpleDataset.md
     - name: "Enums"
-      href: net8-reference/OpenTD.Results.Dataset.ArrayIntegerNames.md
       items:
       - name: "ArrayIntegerNames"
         href: net8-reference/OpenTD.Results.Dataset.ArrayIntegerNames.md
@@ -2023,7 +1963,6 @@
     href: net8-reference/OpenTD.Results.Dataset.Topology.md
     items:
     - name: "Classes"
-      href: net8-reference/OpenTD.Results.Dataset.Topology.DatasetTopology.md
       items:
       - name: "DatasetTopology"
         href: net8-reference/OpenTD.Results.Dataset.Topology.DatasetTopology.md
@@ -2036,7 +1975,6 @@
       - name: "SindaName"
         href: net8-reference/OpenTD.Results.Dataset.Topology.SindaName.md
     - name: "Interfaces"
-      href: net8-reference/OpenTD.Results.Dataset.Topology.IConductorInfo.md
       items:
       - name: "IConductorInfo"
         href: net8-reference/OpenTD.Results.Dataset.Topology.IConductorInfo.md
@@ -2057,7 +1995,6 @@
       - name: "ITieInfo"
         href: net8-reference/OpenTD.Results.Dataset.Topology.ITieInfo.md
     - name: "Enums"
-      href: net8-reference/OpenTD.Results.Dataset.Topology.FTieType.md
       items:
       - name: "FTieType"
         href: net8-reference/OpenTD.Results.Dataset.Topology.FTieType.md
@@ -2075,7 +2012,6 @@
     href: net8-reference/OpenTD.Results.Plot.md
     items:
     - name: "Classes"
-      href: net8-reference/OpenTD.Results.Plot.Axis.md
       items:
       - name: "Axis"
         href: net8-reference/OpenTD.Results.Plot.Axis.md
@@ -2102,7 +2038,6 @@
       - name: "SimplePlot"
         href: net8-reference/OpenTD.Results.Plot.SimplePlot.md
     - name: "Enums"
-      href: net8-reference/OpenTD.Results.Plot.Axis.Positions.md
       items:
       - name: "Axis.Positions"
         href: net8-reference/OpenTD.Results.Plot.Axis.Positions.md
@@ -2110,7 +2045,6 @@
     href: net8-reference/OpenTD.Results.Plot.Internal.md
     items:
     - name: "Classes"
-      href: net8-reference/OpenTD.Results.Plot.Internal.SimplePlotDialog.md
       items:
       - name: "SimplePlotDialog"
         href: net8-reference/OpenTD.Results.Plot.Internal.SimplePlotDialog.md
@@ -2118,15 +2052,13 @@
     href: net8-reference/OpenTD.Results.Utility.md
     items:
     - name: "Classes"
-      href: net8-reference/OpenTD.Results.Utility.BinaryFileReader-1.md
       items:
-      - name: "BinaryFileReader-T-"
+      - name: "BinaryFileReader<T>"
         href: net8-reference/OpenTD.Results.Utility.BinaryFileReader-1.md
   - name: "OpenTD.UserInterface"
     href: net8-reference/OpenTD.UserInterface.md
     items:
     - name: "Classes"
-      href: net8-reference/OpenTD.UserInterface.StandardOutput.md
       items:
       - name: "StandardOutput"
         href: net8-reference/OpenTD.UserInterface.StandardOutput.md
@@ -2136,7 +2068,6 @@
     href: net8-reference/OpenTD.UserInterface.Forms.md
     items:
     - name: "Classes"
-      href: net8-reference/OpenTD.UserInterface.Forms.OutputBox.md
       items:
       - name: "OutputBox"
         href: net8-reference/OpenTD.UserInterface.Forms.OutputBox.md
@@ -2146,7 +2077,6 @@
     href: net8-reference/OpenTD.UserPreferences.md
     items:
     - name: "Classes"
-      href: net8-reference/OpenTD.UserPreferences.Acceleration.md
       items:
       - name: "Acceleration"
         href: net8-reference/OpenTD.UserPreferences.Acceleration.md
@@ -2172,7 +2102,6 @@
     href: net8-reference/OpenTD.Utility.md
     items:
     - name: "Classes"
-      href: net8-reference/OpenTD.Utility.DoubleUtility.md
       items:
       - name: "DoubleUtility"
         href: net8-reference/OpenTD.Utility.DoubleUtility.md
@@ -2190,10 +2119,9 @@
         href: net8-reference/OpenTD.Utility.StringExtensions.md
       - name: "StringUtility"
         href: net8-reference/OpenTD.Utility.StringUtility.md
-      - name: "UniqueItemList-T-"
+      - name: "UniqueItemList<T>"
         href: net8-reference/OpenTD.Utility.UniqueItemList-1.md
     - name: "Structs"
-      href: net8-reference/OpenTD.Utility.RootedPathname.md
       items:
       - name: "RootedPathname"
         href: net8-reference/OpenTD.Utility.RootedPathname.md
