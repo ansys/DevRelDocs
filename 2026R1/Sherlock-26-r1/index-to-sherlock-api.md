@@ -18,6 +18,6 @@ which define [Scalar Value Types](sherlock-reference.md#scalar-value-types "gRPC
 [Project Service](sherlock-reference.md#sherlockprojectserviceproto)|  The APIs in this section perform project level functions such as generating reports and importing ECAD files. `SherlockProjectService.proto`
 [Service](sherlock-reference.md#sherlockserviceproto)|  The APIs in this service should only be used for Sherlock integration with Workbench. `SherlockService.proto`
 [Stackup Service](sherlock-reference.md#sherlockstackupserviceproto) |  The APIs in this section allow you to perform updates on laminate layers. `SherlockStackupService.proto`
-[Scalar Value Types](sherlock-reference.md#scalar-value-types)| <!--Add a description here--> |
+[Scalar Value Types](sherlock-reference.md#scalar-value-types)| Provides an overview of Protocol Buffers scalar value types, including their encoding behavior and how each .proto type maps to native types across major programming languages. It's useful for choosing the most efficient numeric representation (varint vs fixed, for example) and ensuring correct cross‑language compatibility. |
 
 
