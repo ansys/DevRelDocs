@@ -2,4 +2,4 @@
 
 <a id="compolyx.SolidModel.get_short_description"></a>
 
-#### SolidModel.get_short_description()
+## SolidModel.get_short_description()

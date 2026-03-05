@@ -2,4 +2,4 @@
 
 <a id="compolyx.LookUpTableBase.location_column_name"></a>
 
-#### *property* LookUpTableBase.location_column_name
+## *property* LookUpTableBase.location_column_name

@@ -2,4 +2,4 @@
 
 <a id="compolyx.ModelingGroup.sync_plies"></a>
 
-#### ModelingGroup.sync_plies()
+## ModelingGroup.sync_plies()

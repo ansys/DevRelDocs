@@ -1,32 +1,32 @@
-# Special demos
+# Special Demos
 While the other two demonstrator subseries are aimed at hosting mainly minimalistic and shallow demos, this series of demonstrators includes deep showcases around special topics.
 
-- [Special demo 1 (configuration file reference)](#special-demo-1-configuration-file-reference)
-- [Special demo 2 (QML reference)](#special-demo-2-qml-reference)
-- [Special demo 3 (dummy solver)](#special-demo-3-dummy-solver)
-    - [Node setup: parametrization based on present reference files](#node-setup-parametrization-based-on-present-reference-files)
-    - [Plugin in action: configuration time](#plugin-in-action-configuration-time)
-    - [Plugin in action: evaluation time (run time)](#plugin-in-action-evaluation-time-run-time)
-    - [Plugin in action: plugin code in context](#plugin-in-action-plugin-code-in-context)
+- [Special Demo 1 (configuration file reference)](#special-demo-1-configuration-file-reference)
+- [Special Demo 2 (QML reference)](#special-demo-2-qml-reference)
+- [Special Demo 3 (dummy solver)](#special-demo-3-dummy-solver)
+    - [Node Setup: Parametrization Based on Present Reference Files](#node-setup-parametrization-based-on-present-reference-files)
+    - [Plugin in Action: Configuration Time](#plugin-in-action-configuration-time)
+    - [Plugin in Action: Evaluation Time (run time)](#plugin-in-action-evaluation-time-run-time)
+    - [Plugin in Action: Plugin Code in Context](#plugin-in-action-plugin-code-in-context)
 
-## Special demo 1 (configuration file reference)
+## Special Demo 1 (configuration file reference)
 The relevant piece of this demo is the JSON configuration file. It is extended with a lot of comment text, the goal being that all flags and switches offered by the plugin interface are exhaustively listed and accompanied with a short description. In all other aspects the demo is identical with the [Mini demo 1](opti_api_python_nodes_integration_demos_mini.md).
 
 It should be noted that some flags in this extended config file are commented out and thus inactive, and that it is even impossible to make some flags active without ending up with errors and a dysfunctional plugin. It is impossible to maintain a plugin demo at low complexity and at the same time make all config flags active or even usefully switchable. Experimentation with the flags and switches is very much recommended, but some suitable demonstrator should be picked. For example, if you want to experiment with the slots declarations in the config file, the corresponding mini demo introducing extra slot connections is a much more suitable starting point.
 
-## Special demo 2 (QML reference)
+## Special Demo 2 (QML reference)
 The focus here is on the one hand to provide a comprehensive illustration of most commonly used GUI element types (like check boxes, radio buttons, drop-down lists, and so on) and on the other hand to showcase a suitcase full of tips and tricks that are deemed to be useful or are already usefully employed in productive plugin nodes.
 
-If you are looking for a starting point for your own QML widget, while you can start with the mini demo introducing QML and continue from there a in additive manner, you may use this comprehensive special demo and proceed in subtractive manner, erasing functionality that you do not need, in order to achieve a level of complexity and structure which you deem ideal for the GUI of your plugin.
+If you are looking for a starting point for your own QML widget, while you can start with the mini demo introducing QML and continue from there a in additive manner, you may use this comprehensive Special Demo and proceed in subtractive manner, erasing functionality that you do not need, in order to achieve a level of complexity and structure which you deem ideal for the GUI of your plugin.
 
-## Special demo 3 (dummy solver)
+## Special Demo 3 (dummy solver)
 The other demos in this suite are mostly following the approach of spotlighting features, functions, tips, and tricks in isolation and maximal abstraction. This will surely help in all situations where you want to learn in the quickest way how to achieve a specific desired effect most cleanly. But there may be the disadvantage felt by some readers that the motivating context is lacking for many implementation features, that questions of the kind "why is it done or should it be done like that?" very often have no answers.
 
 In contrast to other demos, this demo plugin based on a dummy solver is following a completely different approach, namely to show the various functionality elements in context, the consequences of one implementation detail motivating the way other code elements are designed. The goal is to put implementation details in context. This demo wants to be much closer to a real-world-worthy integration plugin in productive use.
 
 The dummy solver contributes its part by being more quirky, strange, and unreliable than seems necessary at first glance. It has weird file formats on the input and even more so on the output side, it can crash or hang up, or even do so after delivering a partial set of results. This quirkiness is programmed into the dummy solver on purpose, in order to motivate the level of complexity and number of safety catch layers a productive plugin will often turn out to exhibit when developers and users are dealing with a capable, versatile, heavy-duty numerical solver program suite to be automated for parametric studies in optiSLang.
 
-### Node setup: parametrization based on present reference files
+### Node Setup: Parametrization Based on Present Reference Files
 
 Any integration node configured as **file-based** can only display parametrizable input parameters and output quantities if linked to a reference file. In many cases it is a solver project file. A listing of available solver output data structures can often only be generated based on the reference project being already in a solved state with solution data present. The dummy solver integration demo is designed to be able to replicate this often encountered real-world pattern. You can provide a solved reference project in the reference folder or just a plain input deck by erasing (or not putting in place) the rest. Each time you trigger the reference project re-scan via the **load** button, you will be able to see the difference it makes: parametrizable input variables will always be listed if a valid input deck is referenced, but collectable output objects can only be listed if result data are present in the reference folder.
 
@@ -54,7 +54,7 @@ Let us summarize and compare the two approaches again. Copying the complete read
 
 Python takes milliseconds to run through a dummy solver project, but your taking the extra minutes and explicitly working through such preparation steps in order to come to a functioning setup while working through the tutorial can help you become better aware of what an integration plugin actually does. Better awareness and perspective can help you in making good design decisions later for your own plugin. Being able to adopt the different perspectives of solver user, optiSLang user, and plugin programmer will allow you to come up with the most elegant programming solutions for serving your plugin user community in the most helpful way and to avoid facing them with unnecessary frustration hurdles.
 
-### Plugin in action: configuration time
+### Plugin in Action: Configuration Time
 
 After having linked a node to its reference file, we can observe how the listings of parametrizable input and output objects are populated. Make sure that the tree view is activated in optiSLang global settings via **Edit > Settings > Customization > Customized integrations use treeview**, so you can see how this demo node supports the feature. Drop the node in a sensitivity system and register some or all detected input variables as parameters, and you can check in the parameter manager tab of the sensitivity system how the ready-made parameter space bounds have been picked up in the reference file and forwarded to become visible right here
 
@@ -66,7 +66,7 @@ With a glance at the dummy solver input deck we can see that it is not only cons
 
 Indeed, all this adds complexity to this demonstrator. The complexity drag is accepted in this special deep demo because it can provide a vast sandbox for anybody working on integration plugins. We would like to invite you to delve right into hands-on experiments, so, just go ahead, manipulate the files on both sides, solver and plugin, modify the values, and why refrain from breaking the patterns? Check out how the node edit dialog reacts when repeating the reference file reload. Instead of repairing a modified pattern by restoring the old scheme, why not modify and "repair" the plugin code parsing the file with the "new" pattern?
 
-### Plugin in action: evaluation time (run time)
+### Plugin in Action: Evaluation Time (run time)
 
 The next step is to complete the setup of the demo node inside the sensitivity system, and to run a few designs. As a new habit, set *Maximum in parallel* to "3" under **Additional options** or **Run options** of the node, set *Multi-designs* to "4" under **Advanced options** of the node, and check the box *Never auto-save under Project settings*. Save the project with **Ctrl+S**, start the evaluation run with **Ctrl+Shift+R**, and then watch:
 
@@ -76,7 +76,7 @@ See how the quirky instable dummy solver and the robust forgiving plugin are fil
 
 ![demo_plugin_eval_fig2.png](graphics/demo_plugin_eval_fig2.png)
 
-### Plugin in action: plugin code in context
+### Plugin in Action: Plugin Code in Context
 
 If we have a multi-design bundle size of four, and we do not want that one failed design destroys all four of its group, then we need to handle failed designs, e. g. with try-except, in the plugin code. If we want to challenge ourselves to make the plugin robust and forgiving, we let the dummy solver fail. And we have it fail in different ways: not doing any work, or yielding only some result files, or only some parts of some files. Enabling the maximum runtime enforcement in the configuration file lets the max runtime spinbox appear in the node edit dialog. Activating it there and at the same time increasing the time drag in the dummy solver or allowing infinite hang-up enables us watching those features of optiSLang and the plugin code in action. From designs where the max runtime enforcement kicked in before all computations were done, did the plugin conservatively collect partial results or nothing? How does it work in the code? How would we change the code if we wanted to see a different behavior?
 

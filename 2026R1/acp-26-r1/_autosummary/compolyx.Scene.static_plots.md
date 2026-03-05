@@ -2,4 +2,4 @@
 
 <a id="compolyx.Scene.static_plots"></a>
 
-#### *property* Scene.static_plots
+## *property* Scene.static_plots

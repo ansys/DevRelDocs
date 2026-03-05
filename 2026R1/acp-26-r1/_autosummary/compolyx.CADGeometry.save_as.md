@@ -2,7 +2,7 @@
 
 <a id="compolyx.CADGeometry.save_as"></a>
 
-#### CADGeometry.save_as(path)
+## CADGeometry.save_as(path)
 
 Save the initial geometry file to the specified path.
 

@@ -19,6 +19,7 @@ To create and/or initialize the [SyscRegion](structSyscRegion.md#structSyscRegio
 
 
 
+
 ```
 SyscRegion reg = syscGetRegionT("Wall", SyscSurface);
 ```
@@ -39,9 +40,11 @@ SyscRegion reg = syscGetRegionT("Wall", SyscSurface);
 
 **Definition**: `syscRegion.h` (line 43)
 
+
 ```
 char SyscRegion::name[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
+
 
 
 
@@ -56,11 +59,13 @@ Unique region name.
 
 ![][public]
 
-**Definition**: `syscRegion.h` (line 43)
+**Definition**: `syscRegion.h` (line 44)
+
 
 ```
 enum SyscTopology SyscRegion::topology
 ```
+
 
 
 
@@ -75,11 +80,13 @@ Region topology.
 
 ![][public]
 
-**Definition**: `syscRegion.h` (line 43)
+**Definition**: `syscRegion.h` (line 45)
+
 
 ```
 enum SyscRegionDiscretizationType SyscRegion::regionDiscretizationType
 ```
+
 
 
 
@@ -96,9 +103,11 @@ Reigon mesh type.
 
 **Definition**: `syscRegion.h` (line 46)
 
+
 ```
 char SyscRegion::displayName[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
+
 
 
 

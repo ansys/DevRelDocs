@@ -3,7 +3,7 @@
 ![][Fortran]
 ![][public]
 
-**Definition**: `syscCommonTypesF.fi` (line 157)
+**Definition**: `syscCommonTypesF.fi` (line 158)
 
 Provide an error type returned by the Fortran interface calls.
 
@@ -21,11 +21,13 @@ Provide an error type returned by the Fortran interface calls.
 
 ![][public]
 
-**Definition**: `syscCommonTypesF.fi` (line 159)
+**Definition**: `syscCommonTypesF.fi` (line 160)
+
 
 ```fortran
 integer(kind=4) retcode
 ```
+
 
 Error code. Set to <code>SyscStatusOk</code> if no error.
 
@@ -40,11 +42,13 @@ Error code. Set to <code>SyscStatusOk</code> if no error.
 
 ![][public]
 
-**Definition**: `syscCommonTypesF.fi` (line 161)
+**Definition**: `syscCommonTypesF.fi` (line 162)
+
 
 ```fortran
 character(len=syscstrlen) message
 ```
+
 
 Error message. Blank string if no error.
 

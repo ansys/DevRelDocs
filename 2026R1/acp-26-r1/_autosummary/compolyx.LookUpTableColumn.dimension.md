@@ -2,4 +2,4 @@
 
 <a id="compolyx.LookUpTableColumn.dimension"></a>
 
-#### *property* LookUpTableColumn.dimension
+## *property* LookUpTableColumn.dimension

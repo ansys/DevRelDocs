@@ -160,7 +160,8 @@ Create and register regions, variables, and parameters relevant to the coupled a
 In the following code example, two regions (region A and region B) are registered.
 Also, two variables (variable X and variable Y) are registered as inputs and outputs
 on regions A and B.
-Finally, three parameters are registered on the participant: one input parameter, and two output parameters (parameters defined for the c++ and python examples only).
+Next, three parameters are registered on the participant: one input parameter, and two output parameters (parameters defined for the c++ and python examples only).
+Finally, eight attributes are registered: three real attributes, three integer attributes, and two string attributes (attributes not defined in the fortran example).
 
 #### C++
 
@@ -209,15 +210,19 @@ sc.addOutputParameter(outParam2);
 sysc::Dimensionality attrDim(0,0,0,0,0,0,0,1);
 sysc::RealAttribute ra1("realAttribute1", 2.7182, attrDim);
 sysc::RealAttribute ra2("realAttribute2", 1.0, sysc::Dimensionality(), false);
+sysc::RealAttribute ra3("realAttribute3", 5.0, sysc::Dimensionality(), false, true, 0, false, 0);
 sysc::IntegerAttribute ia1("intAttribute1", 42);
 sysc::IntegerAttribute ia2("intAttribute2", -12, true);
+sysc::IntegerAttribute ia3("IntAttribute3", 3, false, true, 0, true, 5);
 sysc::StringAttribute sa1("strAttribute1", "modifiable attribute");
-sysc::StringAttribute sa2("strAttribute2", "non-modifiable attribute");
+sysc::StringAttribute sa2("strAttribute2", "non-modifiable attribute", false);
 
 sc.addRealAttribute(ra1);
 sc.addRealAttribute(ra2);
+sc.addRealAttribute(ra3);
 sc.addIntegerAttribute(ia1);
 sc.addIntegerAttribute(ia2);
+sc.addIntegerAttribute(ia3);
 sc.addStringAttribute(sa1);
 sc.addStringAttribute(sa2);
 ```
@@ -285,13 +290,17 @@ ret = syscAddOutputParameter(outParam2);
 syscDimensionality attrDim(0,0,0,0,0,0,0,1);
 syscRealAttribute ra1 = syscGetRealAttribute("realAttribute1", 2.7182, attrDim);
 syscRealAttribute ra2 = syscGetRealAttributeVDM("realAttribute2", 1.0, syscDimensionality(), false);
+syscRealAttribute ra3 = syscGetRealAttributeLB("realAttribute3", 1.0, syscDimensionality(), false, 0);
 syscIntegerAttribute ia1 = syscGetIntegerAttribute("intAttribute1", 42);
 syscIntegerAttribute ia2 = syscGetIntegerAttributeVM("intAttribute2", -12, true);
+syscIntegerAttribute ia3 = syscGetIntegerAttributeBnds("intAttribute4", -12, true, 0, 5);
 
 ret = syscAddRealAttribute(ra1);
 ret = syscAddRealAttribute(ra2);
+ret = syscAddRealAttribute(ra3);
 ret = syscAddIntegerAttribute(ia1);
 ret = syscAddIntegerAttribute(ia2);
+ret = syscAddIntegerAttribute(ia3);
 ```
 
 #### Fortran
@@ -386,16 +395,25 @@ sc.addOutputParameter(outParam1)
 sc.addOutputParameter(outParam2)
 
 # Add Attributes
-sysc.Dimensionality attrDim(0,0,0,0,0,0,0,1);
-sysc.RealAttribute ra1("realAttribute1", 2.7182, attrDim);
-sysc.RealAttribute ra2("realAttribute2", 1.0, sysc.Dimensionality(), false);
-sysc.IntegerAttribute ia1("intAttribute1", 42);
-sysc.IntegerAttribute ia2("intAttribute2", -12, true);
+sysc.Dimensionality attrDim(0,0,0,0,0,0,0,1)
+sysc.RealAttribute ra1("realAttribute1", 2.7182, attrDim)
+sysc.RealAttribute ra2("realAttribute2", 1.0, sysc.Dimensionality(), True)
+sysc.RealAttribute ra3("realAttribute3", 1.0, sysc.Dimensionality(), False, True, 0, False, 0)
+sysc.IntegerAttribute ia1("intAttribute1", 42)
+sysc.IntegerAttribute ia2("intAttribute2", -12, True)
+sysc.IntegerAttribute ia3("IntAttribute3", 3, False, True, 0, True, 5)
 
-sc.addRealAttribute(ra1);
-sc.addRealAttribute(ra2);
-sc.addIntegerAttribute(ia1);
-sc.addIntegerAttribute(ia2);
+sysc.StringAttribute sa1("strAttribute1", "modifiable attribute")
+sysc.StringAttribute sa2("strAttribute2", "non-modifiable attribute", False)
+
+sc.addRealAttribute(ra1)
+sc.addRealAttribute(ra2)
+sc.addRealAttribute(ra3)
+sc.addIntegerAttribute(ia1)
+sc.addIntegerAttribute(ia2)
+sc.addIntegerAttribute(ia3)
+sc.addStringAttribute(sa1)
+sc.addStringAttribute(sa2)
 ```
 
 ### Step 3: Complete setup
@@ -431,7 +449,7 @@ SyscError ret = syscCompleteSetup(setupInfo);
 
 ```fortran
 ! Complete coupling setup for a transient analysis.
-! Use SyscSteady or SyscTransient parameters to specify the analysis type.
+! Use SyscMapping, SyscSteady, or SyscTransient parameters to specify the analysis type.
 ! Use SyscD2 or SyscD3 to specify the dimension.
 ! Use SyscImplicit or SyscExplicit to specify the time integration.
 int(kind=4) :: analysisType

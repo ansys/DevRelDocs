@@ -2,6 +2,6 @@
 
 <a id="compolyx.SamplingPoint.serialize_name_and_id"></a>
 
-#### SamplingPoint.serialize_name_and_id()
+## SamplingPoint.serialize_name_and_id()
 
 Serializes the name and ID. ID is only serialized if different from name.

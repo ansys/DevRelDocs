@@ -20,9 +20,11 @@ Provide an interface to add an input variable.
 
 ![][public]
 
+
 ```fortran
 type(syscerrorf) function syscaddinputvariablef(reg, var)
 ```
+
 
 Provide a function to add an input variable to the region.
 
@@ -71,8 +73,8 @@ a <code>SyscErrorF</code> type for error checking.
 
 **Parameters**:
 
-* regreg
-* varvar
+* regtype([syscregionf](structfortran_1_1syscregionf.md#structfortran_1_1syscregionf)), intent(in)
+* vartype([syscvariablef](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef)), intent(in)
 
 **Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
 

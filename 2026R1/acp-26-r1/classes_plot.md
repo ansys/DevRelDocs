@@ -1,6 +1,6 @@
 # Plot classes
 
-The following classes provide access to plot and visualization data in a ComPoLyX model. Each class corresponds to a specific type of plot data, such as contour values, angles, thickness, and field results.
+The following classes provide access to plot and visualization data in a compolyx model. Each class corresponds to a specific type of plot data, such as contour values, angles, thickness, and field results.
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|

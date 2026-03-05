@@ -2,4 +2,4 @@
 
 <a id="compolyx.VariableOffsetSelectionRule.update"></a>
 
-#### VariableOffsetSelectionRule.update()
+## VariableOffsetSelectionRule.update()

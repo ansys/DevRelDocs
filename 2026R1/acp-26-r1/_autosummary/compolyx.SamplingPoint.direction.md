@@ -2,6 +2,6 @@
 
 <a id="compolyx.SamplingPoint.direction"></a>
 
-#### *property* SamplingPoint.direction
+## *property* SamplingPoint.direction
 
-Sampling Point Direction
+Sampling point Direction.

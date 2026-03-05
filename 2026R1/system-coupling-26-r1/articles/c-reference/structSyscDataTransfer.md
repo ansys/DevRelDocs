@@ -24,9 +24,11 @@ Data transfer specifies the source and target variables for mapping.
 
 **Definition**: `syscDataTransfer.h` (line 30)
 
+
 ```
 SyscVariable SyscDataTransfer::sourceVariable
 ```
+
 
 
 
@@ -43,9 +45,11 @@ SyscVariable SyscDataTransfer::sourceVariable
 
 **Definition**: `syscDataTransfer.h` (line 31)
 
+
 ```
 SyscVariable SyscDataTransfer::targetVariable
 ```
+
 
 
 
@@ -60,11 +64,13 @@ SyscVariable SyscDataTransfer::targetVariable
 
 ![][public]
 
-**Definition**: `syscDataTransfer.h` (line 31)
+**Definition**: `syscDataTransfer.h` (line 32)
+
 
 ```
 enum SyscInterfaceSide SyscDataTransfer::targetSide
 ```
+
 
 
 

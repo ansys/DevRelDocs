@@ -12,16 +12,18 @@
 
 * [NonFatalError.hpp](NonFatalError_8hpp.md#NonFatalError_8hpp)
 
+
 ```mermaid
 graph RL
-2["NonFatalError.hpp"]
-click 2 "NonFatalError_8hpp_source.md#NonFatalError_8hpp_source"
-
 1["LibraryType.hpp"]
 click 1 "LibraryType_8hpp.md#LibraryType_8hpp"
 2 --> 1
 
+2["NonFatalError.hpp"]
+click 2 "NonFatalError_8hpp_source.md#NonFatalError_8hpp_source"
+
 ```
+
 
 ## Macros
 
@@ -29,6 +31,7 @@ click 1 "LibraryType_8hpp.md#LibraryType_8hpp"
 ### Macro SYSTEM\_COUPLING\_PARTICIPANT\_DLL
 
 ![][public]
+
 
 ```cpp
 #define SYSTEM_COUPLING_PARTICIPANT_DLL __attribute__((visibility("default")))
@@ -40,7 +43,9 @@ click 1 "LibraryType_8hpp.md#LibraryType_8hpp"
 
 
 
+
 ## Source
+
 
 ```cpp
 /*
@@ -68,7 +73,8 @@ click 1 "LibraryType_8hpp.md#LibraryType_8hpp"
 #endif
 ```
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

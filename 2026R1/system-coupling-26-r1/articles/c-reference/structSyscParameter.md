@@ -23,9 +23,11 @@ Provide a struct for a System Coupling parameter.
 
 **Definition**: `syscParameter.h` (line 27)
 
+
 ```
 char SyscParameter::name[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
+
 
 
 
@@ -42,9 +44,11 @@ Unique name for this variable.
 
 **Definition**: `syscParameter.h` (line 28)
 
+
 ```
 char SyscParameter::displayName[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
+
 
 
 

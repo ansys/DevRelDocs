@@ -2,7 +2,7 @@
 
 <a id="compolyx.Model.export_composite_cae_h5"></a>
 
-#### Model.export_composite_cae_h5(path, remove_midside_nodes=True, layup_representation_3d=False, offset_type='bottom_offset', element_sets=None, modeling_plies=None, ascii_encoding=False)
+## Model.export_composite_cae_h5(path, remove_midside_nodes=True, layup_representation_3d=False, offset_type='bottom_offset', element_sets=None, modeling_plies=None, ascii_encoding=False)
 
 Export layup to composite CAE .hdf5 file.
 

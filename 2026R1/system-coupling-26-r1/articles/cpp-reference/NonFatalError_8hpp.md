@@ -22,24 +22,27 @@
 * <exception>
 * <string>
 
+
 ```mermaid
 graph LR
+2["LibraryType.hpp"]
+click 2 "LibraryType_8hpp_source.md#LibraryType_8hpp_source"
+
 1["NonFatalError.hpp"]
 click 1 "NonFatalError_8hpp.md#NonFatalError_8hpp"
 1 --> 2
 1 --> 3
 1 --> 4
 
-4["string"]
-
 3["exception"]
 
-2["LibraryType.hpp"]
-click 2 "LibraryType_8hpp_source.md#LibraryType_8hpp_source"
+4["string"]
 
 ```
 
+
 ## Source
+
 
 ```cpp
 
@@ -73,7 +76,8 @@ void SYSTEM_COUPLING_PARTICIPANT_DLL throwNonFatalError(const std::string& error
 }  // namespace sysc
 ```
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

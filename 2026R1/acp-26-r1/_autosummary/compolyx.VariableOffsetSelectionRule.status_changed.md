@@ -2,6 +2,6 @@
 
 <a id="compolyx.VariableOffsetSelectionRule.status_changed"></a>
 
-#### *property* VariableOffsetSelectionRule.status_changed
+## *property* VariableOffsetSelectionRule.status_changed
 
 Boolean flag which is set to true in C++ when up-to-date status of object changes.

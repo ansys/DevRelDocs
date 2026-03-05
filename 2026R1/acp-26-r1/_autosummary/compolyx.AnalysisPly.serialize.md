@@ -2,6 +2,6 @@
 
 <a id="compolyx.AnalysisPly.serialize"></a>
 
-#### AnalysisPly.serialize()
+## AnalysisPly.serialize()
 
-erializes the object     
+Serializes the object.

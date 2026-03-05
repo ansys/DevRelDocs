@@ -20,6 +20,7 @@ Provide an interface to get integer attribute from variable.
 
 ![][public]
 
+
 ```fortran
 type(syscintegerattributef) function syscvariablegetintegerattributef(variable, index)
 ```
@@ -30,10 +31,11 @@ type(syscintegerattributef) function syscvariablegetintegerattributef(variable, 
 
 
 
+
 **Parameters**:
 
-* variablevariable
-* indexindex
+* variabletype([syscvariablef](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef))
+* indexinteger(kind=8)
 
 **Return type**: type([syscintegerattributef](structfortran_1_1syscintegerattributef.md#structfortran_1_1syscintegerattributef)) function
 

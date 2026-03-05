@@ -17,20 +17,23 @@
 * <cstdint>
 * <type_traits>
 
+
 ```mermaid
 graph LR
-2["cstdint"]
-
 1["ElementTypes.hpp"]
 click 1 "ElementTypes_8hpp.md#ElementTypes_8hpp"
 1 --> 2
 1 --> 3
 
+2["cstdint"]
+
 3["type_traits"]
 
 ```
 
+
 ## Source
+
 
 ```cpp
 /*
@@ -65,7 +68,8 @@ using ElementTypeUnderlyingType = typename std::underlying_type<ElementTypes>::t
 }  // namespace sysc
 ```
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

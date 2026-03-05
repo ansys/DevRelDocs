@@ -2,7 +2,7 @@
 
 <a id="compolyx.plot_data.UserDefinedData.get_deformations"></a>
 
-#### UserDefinedData.get_deformations(visible=None, selected=None)
+## UserDefinedData.get_deformations(visible=None, selected=None)
 
 Function used internally to query matching nodal deformations for a given plot.
 To query deformations in a script it is recommended to create a separate deformations plot and query its data using

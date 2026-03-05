@@ -11,18 +11,20 @@ Provide an interface to get input complex vector data with compact storage for c
 
 ## Members
 
-* [syscgetinputcompactcomplexcompactvectordataf\_c82d](interfacefortran_1_1syscgetinputcompactcomplexcompactvectordataf.md#interfacefortran_1_1syscgetinputcompactcomplexcompactvectordataf_1a9c00860a0e9a7ba103aab9b5c71b1666)
+* [syscgetinputcompactcomplexcompactvectordataf\_c82d](interfacefortran_1_1syscgetinputcompactcomplexcompactvectordataf.md#interfacefortran_1_1syscgetinputcompactcomplexcompactvectordataf_1ac7fc75a8887a8ad9ac27847995a8250a)
 
 ## Public functions
 
-<a id="interfacefortran_1_1syscgetinputcompactcomplexcompactvectordataf_1a9c00860a0e9a7ba103aab9b5c71b1666"></a>
+<a id="interfacefortran_1_1syscgetinputcompactcomplexcompactvectordataf_1ac7fc75a8887a8ad9ac27847995a8250a"></a>
 ### Function syscgetinputcompactcomplexcompactvectordataf\_c82d
 
 ![][public]
 
+
 ```fortran
-type(syscinputcomplexvectordataf) function syscgetinputcompactcomplexcompactvectordataf_c82d(data, dataSize)
+type(syscinputcomplexvectordataf) function syscgetinputcompactcomplexcompactvectordataf_c82d(data, datasize)
 ```
+
 
 Create an input vector data access type with split storage.
 
@@ -35,8 +37,8 @@ Create an input vector data access type with split storage.
 
 **Parameters**:
 
-* datadata
-* dataSizedataSize
+* datacomplex(kind=8), dimension(3, datasize), intent(in), target
+* datasizeinteger(kind=8), intent(in)
 
 **Return type**: type([syscinputcomplexvectordataf](structfortran_1_1syscinputcomplexvectordataf.md#structfortran_1_1syscinputcomplexvectordataf)) function
 

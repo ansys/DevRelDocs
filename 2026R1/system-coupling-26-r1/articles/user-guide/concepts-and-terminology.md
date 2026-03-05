@@ -27,11 +27,11 @@ Note that currently System Coupling can only work in SI unit system.
 
 ## Attributes
 
-An **attribute** is single-valued property that can be added to either the
-participant or a variable. The value of the attribute is fixed at the time of
-setup and, in contrast to parameters, does not change during the coupled analysis
-or mapping. Attributes can be used to communicate some setup information about
-the participant or variable.
+**Attributes** can be used to communicate some setup information about the
+participant or variable. An attribute is single-valued property that can be
+added to either the participant or a variable. Attribute values are assigned at
+the time of setup and usually do not change over the course of the coupled
+analysis.
 
 To represent different attribute types, attributes may store either an integer, real, or string value.
 
@@ -39,12 +39,20 @@ The attributes have the following properties:
 
 - **Name**: a unique identifier for the attribute.
 
-- **Value**: scalar value of (signed) int (for an **IntegerAttribute**), double (for a **RealAttribute**), or string (for a **StringAttibute**).
+- **Value**: scalar value of (signed) int (for an **IntegerAttribute**), double (for a **RealAttribute**), or string (for a **StringAttribute**).
 
 - **Dimensionality**: base quantities of an attribute (**RealAttribute** only).
 
 - **Modifiable**: a flag which specifies whether the attribute may be modified
 during the setup phase (if the flag is true) or if the attribute is fixed (if the flag is false).
+
+- **HasLowerBound**: denotes that the attribute has a lower bound (valid for **RealAttribute** and **IntegerAttribute**).
+
+- **HasUpperBound**: denotes that the attribute has an upper bound (valid for **RealAttribute** and **IntegerAttribute**).
+
+- **LowerBound**: The lower bound of a real or integer attribute.
+
+- **UpperBound**: The upper bound of a real or integer attribute.
 
 ## Variables
 
@@ -106,7 +114,7 @@ Each region can declare **input variables** and **output variables**.
 
 ## Parameters
 
-Parameters are single-valued variables that are associated not with a region,
+**Parameters** are single-valued variables that are associated not with a region,
 but the solver itself. Instead of having a value for each location on a mesh,
 they have a single value and are defined on the participant. Currently, they
 are scalar and real-valued.
@@ -124,7 +132,7 @@ The participant may define a parameter as either an **input parameter** or **out
 
 ## Coupling interfaces and data transfers
 
-**Coupling interface** connects two disjoint sets of regions,
+A **coupling interface** connects two disjoint sets of regions,
 one set for each side of the interface, for the purpose of
 transferring variables between these two sides.
 The two sides of the coupling interface are called **side one** and **side two**.
@@ -170,13 +178,13 @@ See [Access to heavyweight data](heavyweight-data-access.md) for more informatio
 
 ### Volume meshes
 
-Volume mesh represents the mesh of a volume region.
+A volume mesh represents the mesh of a volume region.
 The volume mesh must be communicated using one of the supported volume mesh formats - see
 [Mesh And Point Cloud Data Access](mesh-data-access.md) for more information.
 
 ### Surface meshes
 
-Surface mesh represents the mesh of a surface region.
+A surface mesh represents the mesh of a surface region.
 The surface mesh must be communicated using one of the supported surface mesh formats.
 Surface mesh can be connected to one or two volume meshes, that is it can be a bounding surface of a volume mesh.
 This kind of connectivity describes the **mesh model**.
@@ -185,7 +193,7 @@ See [Mesh And Point Cloud Data Access](mesh-data-access.md) for more information
 
 ### Point clouds
 
-Point cloud is an alternative option for discretizing
+A point cloud is an alternative option for discretizing
 the computational domain. It describes a set of
 disconnected points in space and can be useful in some applications.
 
