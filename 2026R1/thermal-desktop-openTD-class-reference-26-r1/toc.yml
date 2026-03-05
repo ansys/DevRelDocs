@@ -1,4 +1,4 @@
-﻿- name: "Introduction"
+- name: "Introduction"
   href: index.md
 - name: "NET4 reference"
   href: net4-reference/index.md
