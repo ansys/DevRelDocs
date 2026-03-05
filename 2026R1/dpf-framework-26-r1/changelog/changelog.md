@@ -20,7 +20,7 @@ The following table shows which components have updates in each category.
 | hdf5 | [8 items](#Features_hdf5) | [7 items](#Fixes_hdf5) | [2 items](#Perf_hdf5) |
 | hgp | [6 items](#Features_hgp) | [3 items](#Fixes_hgp) | |
 | lsdyna | [1 item](#Features_lsdyna) | | |
-| mapdl | [15 items](#Features_mapdl) | [31 items](#Fixes_mapdl) | |
+| mapdl | [16 items](#Features_mapdl) | [30 items](#Fixes_mapdl) | |
 | math | | [2 items](#Fixes_math) | [1 item](#Perf_math) |
 | mechanical | [1 item](#Features_mechanical) | | |
 | mesh | | [3 items](#Fixes_mesh) | |
@@ -455,6 +455,9 @@ The following table shows which components have updates in each category.
 - Allow reading from RDSP and RFRQ files when outres is used with MXPAND,OFF:
   > Allow reading rotations, displacements, velocities, and accelerations from RDSP and RFRQ files when `outres` is used with `MXPAND,OFF`.
 
+- Support live monitoring of an MAPDL output result file:
+  > Refresh the result cache if the result file changes to allow live output monitoring.
+
 ### <a id="Fixes_mapdl"></a> Fixes
 
 - Gradient and fluxes results incorrectly extracted:
@@ -499,9 +502,6 @@ The following table shows which components have updates in each category.
 
 - Fix nodal result PRES filtering:
   > Fix a bug where Pressure was filtered out on midside nodes for acoustic elements with linear pressure behavior (FLUID220, FLUID221 & FLUID244 with KEYOPT(2) =5/6)
-
-- Fix support of live monitoring of an MAPDL output result file:
-  > Refresh the result cache if the result file changes to allow live output monitoring.
 
 - Update rotation matrix documentation for coordinate_system_provider:
   > Clarify that the rotation matrix generated is from the local to the global coordinate system.
