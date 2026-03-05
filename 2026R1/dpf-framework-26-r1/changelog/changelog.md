@@ -12,10 +12,9 @@ The following table shows which components have updates in each category.
 | cff | [2 items](#Features_cff) | [3 items](#Fixes_cff) | |
 | cgns | [1 item](#Features_cgns) | | |
 | compression | [2 items](#Features_compression) | | |
-| cyclic | [1 item](#Features_cyclic) | | |
 | documentation | [3 items](#Features_documentation) | [1 item](#Fixes_documentation) | |
 | engineeringdata | | [1 item](#Fixes_engineeringdata) | |
-| femutils | [2 item](#Feat_femutils) | [18 items](#Fixes_femutils) | [5 items](#Perf_femutils) |
+| femutils | [3 items](#Feat_femutils) | [18 items](#Fixes_femutils) | [5 items](#Perf_femutils) |
 | framework | [6 items](#Feat_framework) | [15 items](#Fixes_framework) | |
 | grpc | [1 item](#Features_grpc) | [3 items](#Fixes_grpc) | |
 | hdf5 | [8 items](#Features_hdf5) | [7 items](#Fixes_hdf5) | [2 items](#Perf_hdf5) |
@@ -26,7 +25,7 @@ The following table shows which components have updates in each category.
 | mechanical | [1 item](#Features_mechanical) | | |
 | mesh | | [3 items](#Fixes_mesh) | |
 | multiphysicsmapper | | [1 item](#Fixes_multiphysicsmapper) | |
-| native | [6 items](#Feat_native) | [20 items](#Fixes_native) | [2 item](#Perf_native) |
+| native | [7 items](#Feat_native) | [20 items](#Fixes_native) | [2 item](#Perf_native) |
 | rbd | | [1 item](#Fixes_rbd) | |
 | vtk | | [1 item](#Fixes_vtk) | |
 
@@ -75,13 +74,6 @@ The following table shows which components have updates in each category.
 - New [quantization](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/compression/quantization.md) and [quantization_fc](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/compression/quantization_fc.md) operator:
   > Scales a field to a given precision threshold, then rounds all the values to the unit.
 
-## cyclic
-
-### <a id="Features_cyclic"></a> Features
-
-- Cyclic constant expansion for volume and NMISC:
-  > Cyclic constant expansion for volume and NMISC
-
 ## documentation
 
 ### <a id="Features_documentation"></a> Features
@@ -125,6 +117,10 @@ The following table shows which components have updates in each category.
 
 - Change the licensing type of the `geo.normals_provider_nl` operator from Premium to Entry:
   > The `geo.normals_provider_nl` is changed from Premium to Entry (it now only requires a license check and was previously requiring a checkout).
+
+- Allow for cyclic constant expansion in `result.recombine_harmonic_indeces_cyclic`:
+  > Add a new `is_constant` input pin to `result.recombine_harmonic_indeces_cyclic` to let it know the result is constant across sectors.
+  > If the result is constant, the operator only uses the result at the first sector.
 
 ### <a id="Fixes_femutils"></a> Fixes
 
