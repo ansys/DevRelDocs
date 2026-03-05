@@ -20,7 +20,7 @@ The following table shows which components have updates in each category.
 | hdf5 | [8 items](#Features_hdf5) | [7 items](#Fixes_hdf5) | [2 items](#Perf_hdf5) |
 | hgp | [6 items](#Features_hgp) | [3 items](#Fixes_hgp) | |
 | lsdyna | [1 item](#Features_lsdyna) | | |
-| mapdl | [14 items](#Features_mapdl) | [32 items](#Fixes_mapdl) | |
+| mapdl | [15 items](#Features_mapdl) | [31 items](#Fixes_mapdl) | |
 | math | | [2 items](#Fixes_math) | [1 item](#Perf_math) |
 | mechanical | [1 item](#Features_mechanical) | | |
 | mesh | | [3 items](#Fixes_mesh) | |
@@ -452,6 +452,9 @@ The following table shows which components have updates in each category.
 - Support contact results from mode and RST files:
   > Support reading ECT_STAT, ECT_PENE, ECT_GAP, ECT_CNOS, ECT_FRES, ECT_PRES, ECT_SFRIC, ECT_STOT, ECT_SLIDE, and ECT_FLUX from mode and rst files.
 
+- Allow reading from RDSP and RFRQ files when outres is used with MXPAND,OFF:
+  > Allow reading rotations, displacements, velocities, and accelerations from RDSP and RFRQ files when `outres` is used with `MXPAND,OFF`.
+
 ### <a id="Fixes_mapdl"></a> Fixes
 
 - Gradient and fluxes results incorrectly extracted:
@@ -483,9 +486,6 @@ The following table shows which components have updates in each category.
 
 - Fix support of heat transfer results for LINK33:
   > Add Heat Flux result support for LINK33 elements.
-
-- Fix reading from RDSP and RFRQ files when outres is used with MXPAND,OFF:
-  > Allow reading rotations, displacements, velocities, and accelerations from RDSP and RFRQ files when `outres` is used with `MXPAND,OFF`.
 
 - Fix the reading of state variables for BEAM elements:
   > Fix the reading of state variable (SVAR) results on BEAM elements.
