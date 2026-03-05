@@ -527,8 +527,8 @@ The following table shows which components have updates in each category.
 - Fix crash caused by invalid iterator when reading shell data:
   > Fix an access violation when reading shell elements in operator `pres_to_field`.
 
-- Fix a bug in expansion of element nodal forces (ENF):
-  > Fix a bug in the expansion of inertial element nodal forces.
+- Fix a bug in Modal Superposition Harmonic expansion of element nodal forces (ENF):
+  > Fix a bug in the Modal Superposition Harmonic expansion of inertial element nodal forces.
 
 - Avoid reading MCF at each chunk computation:
   > Bug fix to enhance performance on MCF requests.
