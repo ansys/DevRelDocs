@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-03).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-04).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -39,7 +39,7 @@ The following table shows which components have updates in each category.
 | mapdl | [14 items](#Features_mapdl) |[41 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
-| math | [10 items](#Features_math) |[1 item](#Fixes_math) |
+| math | [11 items](#Features_math) |[1 item](#Fixes_math) |
 | mechanical | [2 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
 | mesh |  |[3 items](#Fixes_mesh) |
 | misc | [13 items](#Features_misc) |[19 items](#Fixes_misc) |
@@ -1303,6 +1303,9 @@ The following table shows which components have updates in each category.
 ## math
 ### <a id="Features_math"></a> Features
 
+- Create a new operator to merge FRF matrices and supports for TPA workflow:
+  > 
+
 - Create a new operator to compute modal loads for MSUP workflow:
   > 
 
@@ -2463,6 +2466,9 @@ The following table shows which components have updates in each category.
 - [cyclic_support_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/cyclic_support_get_attribute.md):
   > A CyclicSupport in pin 0 and a property name (string) in pin 1 are expected in input.
 
+- [generic_support_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/generic_support_get_attribute.md):
+  > Uses the GenericSupport APIs to return a given attribute of the generic support in input.
+
 - [get_operators](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/get_operators.md):
   > Getter on operators inside a workflow.
 
@@ -3330,6 +3336,11 @@ Upgraded documentation
 - [extract_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/extract_scoping.md)
 
   > 0.0.1: Error with license
+
+
+- [fc_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/fc_get_attribute.md)
+
+  > 0.1.0: Add new supported property name 'generic_support' returning a generic support.
 
 
 - [html_doc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/html_doc.md)
