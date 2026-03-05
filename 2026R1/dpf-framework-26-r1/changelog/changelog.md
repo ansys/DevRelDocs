@@ -20,7 +20,7 @@ The following table shows which components have updates in each category.
 | hdf5 | [8 items](#Features_hdf5) | [7 items](#Fixes_hdf5) | [2 items](#Perf_hdf5) |
 | hgp | [6 items](#Features_hgp) | [3 items](#Fixes_hgp) | |
 | lsdyna | [1 item](#Features_lsdyna) | | |
-| mapdl | [14 items](#Features_mapdl) | [33 items](#Fixes_mapdl) | |
+| mapdl | [14 items](#Features_mapdl) | [32 items](#Fixes_mapdl) | |
 | math | | [2 items](#Fixes_math) | [1 item](#Perf_math) |
 | mechanical | [1 item](#Features_mechanical) | | |
 | mesh | | [3 items](#Fixes_mesh) | |
@@ -464,9 +464,6 @@ The following table shows which components have updates in each category.
 
 - Fix physics type for models in RSTP files:
   > The physics type for RSTP files is now set to `mechanical`.
-
-- Fix documentation for operator `results.record_reader`:
-  > The documentation of operator `result.record_reader` is now properly exposed.
 
 - Fix a bug in the detection of the number of plies detection when filtering elemental results:
   > Fix the management of plies in shell elements when filtering elemental results.
