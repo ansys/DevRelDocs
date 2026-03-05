@@ -1,7 +1,5 @@
 - name: "Introduction"
   href: index.md
-- name: "Changelog"
-  href: changelog.md
 - name: "Getting started"
   items:
   - name: "Overview"
@@ -328,4 +326,5 @@
       href: reference/i__simulation__completion__checker_8h.md
     - name: "version.h"
       href: reference/version_8h.md
-
+- name: "Changelog"
+  href: changelog.md
