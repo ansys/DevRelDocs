@@ -1605,6 +1605,8 @@
       href: operator-specifications/utility/forward_meshes_container.md
     - name: for each
       href: operator-specifications/utility/for_each.md
+    - name: generic support get attribute
+      href: operator-specifications/utility/generic_support_get_attribute.md
     - name: get operators
       href: operator-specifications/utility/get_operators.md
     - name: hdf5dpf workglow provider
