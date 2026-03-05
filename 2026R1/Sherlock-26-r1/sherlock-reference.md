@@ -3252,20 +3252,6 @@ Represents a list of valid board sides.
 | returnCode | [ReturnCode](#returncode) |  | Status code of response. |
 | boardSides | [string](#string) | repeated | Board sides. |
 
-### GetPartLocationUnitsRequest
- 
-Request to list valid location units.
- 
-
-### GetPartLocationUnitsResponse
- 
-Represents a list of valid location units.
- 
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| returnCode | [ReturnCode](#returncode) |  | Status code of response. |
-| units | [string](#string) | repeated | Location units. |
 
 ### GetPartsListPropertiesRequest
  

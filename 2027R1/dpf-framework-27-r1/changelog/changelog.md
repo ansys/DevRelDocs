@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-02-27).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-04).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -31,21 +31,21 @@ The following table shows which components have updates in each category.
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[4 items](#Fixes_h5dpf) |
 | hdf5 | [6 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
-| hgp | [4 items](#Features_hgp) |[2 items](#Fixes_hgp) |
+| hgp | [5 items](#Features_hgp) |[2 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
-| kernel | [2 items](#Features_kernel) |[8 items](#Fixes_kernel) |
+| kernel | [2 items](#Features_kernel) |[9 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
 | mapd | [1 item](#Features_mapd) | |
 | mapdl | [14 items](#Features_mapdl) |[41 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
-| math | [10 items](#Features_math) |[1 item](#Fixes_math) |
+| math | [11 items](#Features_math) |[1 item](#Fixes_math) |
 | mechanical | [2 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
 | mesh |  |[3 items](#Fixes_mesh) |
 | misc | [13 items](#Features_misc) |[19 items](#Fixes_misc) |
 | multiphysicsmapper |  |[4 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [1 item](#Features_native) |[13 items](#Fixes_native) |
+| native | [2 items](#Features_native) |[13 items](#Fixes_native) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [3 items](#Features_prime) | |
 | pydpf |  |[1 item](#Fixes_pydpf) |
@@ -720,6 +720,11 @@ The following table shows which components have updates in each category.
 ## hgp
 ### <a id="Features_hgp"></a> Features
 
+- Improving readability of the .natvis file for hgp:
+  > Improving readability of the .natvis file.
+  >
+  > 
+
 - Add span() getter to DpfVector:
   > 
   >
@@ -799,6 +804,9 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_kernel"></a> Fixes
+
+- Speed-up hasEntity API:
+  > 
 
 - Follow-up on units:
   > 
@@ -1295,6 +1303,9 @@ The following table shows which components have updates in each category.
 ## math
 ### <a id="Features_math"></a> Features
 
+- Create a new operator to merge FRF matrices and supports for TPA workflow:
+  > 
+
 - Create a new operator to compute modal loads for MSUP workflow:
   > 
 
@@ -1783,6 +1794,15 @@ The following table shows which components have updates in each category.
   > 
 ## native
 ### <a id="Features_native"></a> Features
+
+- Supported GenericSupport in GetFieldsContainerAttribute and added GenericSupportAttribute API:
+  > - Added a new property_name, "generic_support", to "fieldscontainer::get_attribute" to extract Generic Support
+  >
+  > - Added a new API, "generic_support::get_attribute", to extract Field, Field Property or String Field associated with Generic Support
+  >
+  > 
+  >
+  > 
 
 - Option to extend to midside on nodal_to_elemental_nodal:
   > Option to extend to midside on nodal_to_elemental_nodal
@@ -2445,6 +2465,9 @@ The following table shows which components have updates in each category.
 
 - [cyclic_support_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/cyclic_support_get_attribute.md):
   > A CyclicSupport in pin 0 and a property name (string) in pin 1 are expected in input.
+
+- [generic_support_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/generic_support_get_attribute.md):
+  > Uses the GenericSupport APIs to return a given attribute of the generic support in input.
 
 - [get_operators](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/get_operators.md):
   > Getter on operators inside a workflow.
@@ -3313,6 +3336,11 @@ Upgraded documentation
 - [extract_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/extract_scoping.md)
 
   > 0.0.1: Error with license
+
+
+- [fc_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/fc_get_attribute.md)
+
+  > 0.1.0: Add new supported property name 'generic_support' returning a generic support.
 
 
 - [html_doc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/html_doc.md)
