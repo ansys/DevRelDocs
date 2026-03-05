@@ -20,7 +20,7 @@ The following table shows which components have updates in each category.
 | hdf5 | [8 items](#Features_hdf5) | [7 items](#Fixes_hdf5) | [2 items](#Perf_hdf5) |
 | hgp | [6 items](#Features_hgp) | [3 items](#Fixes_hgp) | |
 | lsdyna | [1 item](#Features_lsdyna) | | |
-| mapdl | [16 items](#Features_mapdl) | [30 items](#Fixes_mapdl) | |
+| mapdl | [16 items](#Features_mapdl) | [29 items](#Fixes_mapdl) | |
 | math | | [2 items](#Fixes_math) | [1 item](#Perf_math) |
 | mechanical | [1 item](#Features_mechanical) | | |
 | mesh | | [3 items](#Fixes_mesh) | |
@@ -505,9 +505,6 @@ The following table shows which components have updates in each category.
 
 - Update rotation matrix documentation for coordinate_system_provider:
   > Clarify that the rotation matrix generated is from the local to the global coordinate system.
-
-- Fix the scoping location in MAPDL connectivity fields for degenerated elements:
-  > Fix the location of the Scoping of the "degenerated_connectivity" PropertyField in MAPDL meshes.
 
 - Fix a bug in nodal averaging when requested for a nodal scoping of midside nodes only:
   > Results averaged to nodes were incorrect when requested on a mesh scoping containing only midside nodes.
