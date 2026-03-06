@@ -8,7 +8,7 @@ The OpenTD API is organized into the following namespaces:
 
 - [OpenTD](OpenTD.md) - Core classes, structs, interfaces, and enums for OpenTD functionality
 - [OpenTD.AddIn](OpenTD.AddIn.md) - Add-in development utilities
-- [OpenTD.CoSolver] (OpenTD.CoSolver) - Cosimulation with Sinda
+- [OpenTD.CoSolver](OpenTD.CoSolver) - Cosimulation with Sinda
 - [OpenTD.Dimension](OpenTD.Dimension.md) - Dimensional analysis and unit handling
 - [OpenTD.FloCAD](OpenTD.FloCAD.md) - Fluid modeling components
 - [OpenTD.Internal.Communication](OpenTD.Internal.Communication.md) - Internal communication interfaces
