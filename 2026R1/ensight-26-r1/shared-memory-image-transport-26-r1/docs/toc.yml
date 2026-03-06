@@ -4,7 +4,7 @@
   items:
   - name: Classes
     items:
-    - name: Structure \_SharedMemoryFrame
+    - name: Structure _SharedMemoryFrame
       href: Reference/classes/struct___shared_memory_frame.md
   - name: Files
     items:

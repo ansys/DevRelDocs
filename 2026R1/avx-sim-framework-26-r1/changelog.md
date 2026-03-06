@@ -1,59 +1,62 @@
-# Changelog 2026R1
+# 2026 R1 Changelog
 
+## Framework (Core Simulation Backbone)
 
-# 1. Framework (Core Simulation Backbone)
+### Runtime
 
-
-## 1.1 Runtime
 - **Automatic Activity Detection**: Standalone Activities are now detected automatically during simulation startup
 - **Finalize() API**: Added `Finalize()` lifecycle method for Activities to perform custom cleanup or final steps before simulation exit
 - **Debug Mode Enhancement**: Framework can now pause execution when Breakpoints are triggered, improving debugging efficiency
 - **Generic Variant Topic**: Added dedicated `VariantMapTopicType` for supporting any customized topic type as `Variant` data structure with utility functions
 - **VariantData Alias**: Added alias `VariantData` for `FmuData`, providing semantic `Variant` naming while retaining full compatibility with FMU message structure
 
+### Fixes
 
-## 1.2 Fixes
 - Improved installation script to avoid possible inaccessible `anslic_client` by copying
 
 ---
 
-# 2. Activities
+## Activities
 
-## 2.1 GTGen Simulator Activity `groundtruth_generator_activity`
+### GTGen Simulator Activity `groundtruth_generator_activity`
 
 **Updated GtGen Simulator**: Version upgraded from v17.0.0 to v21.2.0
 
 ### New Features
+
 - **Inelastic Collision Dynamics**: Added support for inelastic collision behavior for realistic crash simulations
 - **Traffic Actions**: Added support for relative lane position (`ds`), `TrafficAreaAction` (limited), `variable-based conditions`, `SetVariableAction`, and `TrafficSignalCondition`
 - **Configurable `ScenarioVariableTopic`**: Introduced configurable Topic allowing additional subscriber for updating scenario variables at runtime
 - Can **set `model_references`** traffic signs and traffic lights
 
-
 ### Improvements
+
 - **Traffic Light Parsing Control**: Added `include_traffic_lights` to Map structure under User Settings
 - **Extended Cyclic Outputs**: Cyclics now includes ODR `LaneID` and brake light state
 - **Guardrail Inclusion Setting**: Added user setting to include or exclude guardrails as stationary objects
 
 ### Fixes
+
 - **TeleportAction Orientation**: defaults to relative context with `Heading = Pitch = Roll = 0` if missing
 - **Collision Checks**: Road markings no longer considered; guardrails removed from direct collision checks; entities allowed to leave lane after collision
 - **LaneOffset Handling**: Fixed conversion from `LanePosition` to `WorldPosition` when map contains `laneOffset`
 - **Geometry Heading Angle**: Fixed incorrect heading angles for road and lane geometries (arc and paramPoly3) during map conversion
 
-## 2.2 Esmini Activity `esmini_activity` (NEW)
+### Esmini Activity `esmini_activity`
 
 **Esmini Integration**: Added Esmini (**v2.56.2**)  as an alternative built-in ground truth generator
 
 ### New Features
+
 - **Full TrafficUpdate Control Mode**: Enables control via `osi3::TrafficUpdate` messages (default mode)
 - **Simple Vehicle Model Support**: External controllers can directly control entities using acceleration and steering commands in Esmini's simple vehicle model mode
 - **Configurable ScenarioVariableTopic**: Allows runtime scenario variable updates (same as GtGen)
 - **Known Limitation**: Esmini doesn't support manipulation of unsigned type variables in scenarios
 
-## 2.3 Vehicle Model Activity `vehicle_activity` (NEW)
+### Vehicle Model Activity `vehicle_activity`
 
 ### New Features
+
 - **Built-in Bicycle Dynamics Model**: Ready-to-use bicycle dynamics model for lightweight testing
 - Accepts `osi3::MotionRequest` and produces `osi3::TrafficUpdate`
 - **Known Limitations**:
@@ -62,24 +65,25 @@
   - `osi3::MotionRequest.desired_trajectory.trajectory_point.orientation.roll` is repurposed and mapped to acceleration request from planner
 - New **Vehicle Control Messages**: `VehicleControlInputMsg` supporting multiple control paradigms (`ACC_N_STEER`, `ANALOG`, `BINARY` modes)
 
-## 2.4 AVxcelerate Sensor Co-simulation
+### AVxcelerate Sensor Co-simulation
 
 Updated AVx Sensors Version to **v261**
 
-
 ### New Features
+
 - **OSI3 Simulation API**: Added option in simulation config to configure co-sim to use OSI3 Simulation API
 - **VSS SensorData Access**: Added API to access VSS SensorData from shared memory via configurable Topic
 - **MCAP Recording & Playback**: Added `AvxSensorDataRecorder` for recording sensor data to MCAP files and `AvxSensorDataPlayer` for playback
 
-
 ### Improvements
+
 - **gRPC Transport Mode**: Added TransportMode options (`kInsecure`, `kMTransportLayerSecurity`, `kUnixDomainSocke`) with configurable UDS socket ID and custom path
 - **Enhanced API Adapter**: Unix Domain Socket support, configurable transport modes, better timeout handling
 
-## 2.5 NCAP KPI Evaluation `collision_kpi` (NEW)
+### NCAP KPI Evaluation `collision_kpi`
 
 ### New Features
+
 - **Collision Detection**: Bounding box-based collision detection for host vehicle with per-collision statistics (`v_impact`, `v_rel_impact`, `impact_location`)
 - **Impact Speed Reduction**: Calculator tracking deceleration events with speed reduction statistics and JSON output
 - **Default KPIs for Euro NCAP**: Built-in KPIs for collision detection and speed reduction tracking
@@ -87,32 +91,35 @@ Updated AVx Sensors Version to **v261**
 
 ---
 
-# 3. Cross-Cutting Changes
+## Cross-Cutting Changes
 
-## Autonomy Communication Framework (NEW)
+### Autonomy Communication Framework
+
 - **New Message System**: Base class `AutonomyMsg` with custom serialization, providing efficient fixed-size serialization without protobuf overhead
 - **Topic Registry**: Autonomy-specific topic registry documenting mapping of topic IDs to Topic types
 - **Converters**: DDS-to-Autonomy and OSI-to-DDS conversion utilities
 
-## Lichtblick Visualization
+### Lichtblick Visualization
+
 - **More Topic Support**: Visualization config refactored to support broader set of Topics
 - **New Timestamp Topic**: Added `/sim/simulation_time` for easier plot plug-in usage and synchronization
 
-## Logging Improvements
+### Logging Improvements
+
 - **Timestamps**: All log messages now include timestamps (`YYYY-MM-DD HH:MM:SS.mmm`)
 - **Color Coding**: TTY detection for colored output (Debug: `Cyan`, Info: `Green`, Warning: `Yellow`, Error: `Red`)
 
-## Debugger Enhancements
+### Debugger Enhancements
+
 - **Breakpoint Support**: JSON-based breakpoint configuration with value change and conditional breakpoints
 - **DataValue Extension**: Added `int8_t` support for complete integer type coverage
 - **Configuration**: New `SimulationParameters::breakpoints_file_path` field
 
-
 ---
 
-# 4. Breaking Changes
+## Breaking Changes
 
-## 4.1 AvxSensorSetting Header Location Change
+### AvxSensorSetting Header Location Change
 
 Description: `AvxSensorSetting` header file moved from `autonomy/simulation/` to `co_sim/avx_sensor/` directory.
 
@@ -121,14 +128,14 @@ Impact: Medium
 Action Required: Yes
 
 Migration:
+
 - **Old**: `#include "autonomy/simulation/avx_sensor_setting/avx_sensor_setting.h"`
 - **New**: `#include "co_sim/avx_sensor/avx_sensor_setting/avx_sensor_setting.h"`
 - Update include paths in all files using `AvxSensorSetting`
 
-
 ---
 
-## 4.2 `IWorldSimulator` Interface Removed
+### `IWorldSimulator` Interface Removed
 
 Description: `autonomy/world_simulator/i_world_simulator/i_world_simulator.h` has been deleted. Interface refactored or deprecated.
 
@@ -137,6 +144,7 @@ Impact: Medium
 Action Required: Yes
 
 Migration:
+
 - Check if your code uses `IWorldSimulator` interface
 - Migrate to concrete world simulator injection
 
@@ -144,7 +152,7 @@ Removal Version: N/A (immediate removal)
 
 ---
 
-## 4.3 Standalone Activity Recompilation Required
+### Standalone Activity Recompilation Required
 
 Description: All standalone activity executables built with previous versions of simfwk must be recompiled using current simfwk library.
 
@@ -153,6 +161,7 @@ Impact: **High**
 Action Required: Yes
 
 Migration:
+
 - Recompile all standalone activities with 26R1 simfwk library
 - Failing to do so may result in simulations not running, unexpected behavior, or incorrect connectivity
 
@@ -160,9 +169,7 @@ Removal Version: N/A
 
 ---
 
-# 5. API Changes
-
-## 5.1 Added
+## API Changes
 
 ### Activity Lifecycle
 
@@ -176,6 +183,7 @@ class IActivity {
   virtual void Shutdown() = 0;
 };
 ```
+
 - Impact: Additional finalization logic separated from shutdown
   - Default implementation in BaseActivity is empty (no-op)
   - Call order: Init() → Step() (loop) → Finalize() → Shutdown()
@@ -319,7 +327,7 @@ bool IsPauseRequested() const;
 
 ---
 
-## 5.2 Modified
+### Modified
 
 ### Topic Registry Namespace
 
@@ -341,16 +349,15 @@ autonomy::topic_registry::GetExistingTopicById(...)
 
 ---
 
-## 5.3 Deprecated
+### Deprecated
 
 No APIs deprecated in this release.
 
 ---
 
+## Known Issues
 
-# 6. Known Issues
-
-* **Bicycle Vehicle Model Activity**: Internal Vehicle Controller might cause vehicle to halt on tight turns or circular trajectories
-* **Bicycle Vehicle Model Activity**: `osi3::MotionRequest` orientation fields (pitch/roll) are repurposed for velocity/acceleration requests
-* **Esmini Simulator**: Does not support manipulation of unsigned type variables in scenario
-* **GtGen TrafficAreaAction**: Only limited/initial support available
+- **Bicycle Vehicle Model Activity**: Internal Vehicle Controller might cause vehicle to halt on tight turns or circular trajectories
+- **Bicycle Vehicle Model Activity**: `osi3::MotionRequest` orientation fields (pitch/roll) are repurposed for velocity/acceleration requests
+- **Esmini Simulator**: Does not support manipulation of unsigned type variables in scenario
+- **GtGen TrafficAreaAction**: Only limited/initial support available

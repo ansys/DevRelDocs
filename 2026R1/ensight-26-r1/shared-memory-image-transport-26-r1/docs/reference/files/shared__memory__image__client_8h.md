@@ -1,4 +1,4 @@
-# File shared\_memory\_image\_client.h
+# File shared_memory_image_client.h
 
 <a id="shared__memory__image__client_8h"></a>
 
