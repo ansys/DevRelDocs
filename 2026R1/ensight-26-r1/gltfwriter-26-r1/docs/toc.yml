@@ -155,3 +155,5 @@
     href: ./examples/_test013_8cpp-example.md
   - name: Test014.cpp
     href: ./examples/_test014_8cpp-example.md
+- name: Changelog
+- href: changelog.md
