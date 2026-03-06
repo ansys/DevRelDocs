@@ -23,10 +23,35 @@ The data array ordering follows a nested loop structure from coarse to fine:
 3. **Layer** (for shell elements): Iterate through shell layers (bottom, top, mid)
 4. **Component** (innermost loop): Iterate through vector/tensor components
 
-**Example data array for 2 nodes with 3-component vectors (displacement)**:
+**Example — 2 nodes, 3-component vector (displacement, no shell layers)**:
 ```
 data = [X_node1, Y_node1, Z_node1, X_node2, Y_node2, Z_node2]
 ```
+
+**Example — 1 shell element, 6-component stress tensor, `topbottom` layers**:
+```
+data = [
+    # Element 1 – bottom layer
+    σx_bot, σy_bot, σz_bot, τxy_bot, τyz_bot, τxz_bot,
+    # Element 1 – top layer
+    σx_top, σy_top, σz_top, τxy_top, τyz_top, τxz_top
+]
+```
+Total length: 1 element × 2 layers × 6 components = 12 values.
+
+**Example — 1 shell element (4 nodes), `ElementalNodal` stress, `topbottom` layers**:
+```
+data = [
+    # Element 1, Node 1
+    σx_n1_bot, σy_n1_bot, σz_n1_bot, τxy_n1_bot, τyz_n1_bot, τxz_n1_bot,  # bottom
+    σx_n1_top, σy_n1_top, σz_n1_top, τxy_n1_top, τyz_n1_top, τxz_n1_top,  # top
+    # Element 1, Node 2
+    σx_n2_bot, ..., τxz_n2_bot,
+    σx_n2_top, ..., τxz_n2_top,
+    # … Node 3, Node 4 (same pattern)
+]
+```
+Total length: 1 element × 4 nodes × 2 layers × 6 components = 48 values.
 
 ### Elementary data
 
@@ -95,20 +120,47 @@ The **field definition** aggregates metadata properties about the field: its dim
 
 ### Shell layers
 
-For shell elements (elements with thickness), the **shell_layers** property defines which layers through the thickness contain data. Results can be computed at different positions through the shell thickness.
+Shell elements model thin-walled structures (plates, sheet metal, composite panels) by collapsing physical thickness into a 2D surface mesh. Because stresses and strains vary through the thickness, results can be stored at several positions — called **layers** — through the wall. The `shell_layers` property on a field records which of those positions are present.
 
 **Shell layer options**:
 
 | Value | Description | Use case |
 |-------|-------------|----------|
-| `layerindependent` | No layer information | Solid elements, nodal results |
+| `layerindependent` | No layer information | Solid elements, or results that do not vary through thickness (e.g. displacement) |
 | `bottom` | Bottom surface only | Single-sided result |
 | `top` | Top surface only | Single-sided result |
 | `topbottom` | Bottom and top surfaces | Standard shell stress/strain |
-| `mid` | Mid-surface only | Membrane behavior |
+| `mid` | Mid-surface only | Membrane behaviour |
 | `topbottommid` | Bottom, top, and mid surfaces | Detailed through-thickness analysis |
 
-The shell layers affect the data array ordering: when present, data is organized by entity → layer → component.
+#### Effect on the data array
+
+When layers are present, the flat data array gains an extra nesting level. The ordering rules are:
+
+- **Nodal / Elemental location**: `entity → layer → component`
+- **ElementalNodal location**: `entity (element) → node → layer → component`
+
+For a field with `layerindependent` (or for solid-element results), the layer loop collapses to a single pass, so the ordering reduces to the standard `entity → component` (or `entity → node → component` for ElementalNodal).
+
+**Elementary data size**:
+- Nodal / Elemental with layers: `components × number_of_layers`
+- ElementalNodal with layers: `nodes_per_element × components × number_of_layers`
+
+#### Return shape from entity-level access
+
+When layers are present, `get_entity_data()` and `get_entity_data_by_id()` return a **2D array** shaped `(number_of_layers, components)` rather than a 1D array. The layer order in the returned array matches the order declared by `shell_layers` (typically bottom → top → mid for `topbottommid`).
+
+**Example — 6-component stress tensor, `topbottommid` layers, entity ID 100**:
+```
+# Returned shape: (3, 6)
+[
+  [σx_bot, σy_bot, σz_bot, τxy_bot, τyz_bot, τxz_bot],   # row 0: bottom
+  [σx_top, σy_top, σz_top, τxy_top, τyz_top, τxz_top],   # row 1: top
+  [σx_mid, σy_mid, σz_mid, τxy_mid, τyz_mid, τxz_mid]    # row 2: mid
+]
+```
+
+For a scalar field (`layerindependent`), the return is always a 1D array with a single value `[value]`, unchanged from the no-layer case.
 
 ### Name
 
@@ -144,32 +196,57 @@ All field variants follow the same organizational structure (data, scoping, supp
 
 ## Data access patterns
 
-Fields provide methods to query data efficiently:
+How you read field data efficiently depends on two factors: what scope of data you need (a handful of entities vs. the whole field) and where the DPF server is running relative to your client code.
 
-### Entity data access
+### Entity-by-entity access
 
-**`get_entity_data(index)`**: Retrieve data by position (0-based index) in the scoping
-- Use when iterating sequentially through all entities
+Two methods let you query data for a single entity at a time:
 
-**`get_entity_data_by_id(id)`**: Retrieve data by entity ID (actual node/element ID)
-- Use when querying specific known entities
+**`get_entity_data(index)`**: Retrieve data by position (0-based index) in the scoping.
+- The *index* is the ordinal position in the scoping list, not the entity ID.
+- Use when iterating sequentially through all entities — though see the loop warning below.
+
+**`get_entity_data_by_id(id)`**: Retrieve data by entity ID (the actual node or element ID from the mesh).
+- The *id* is the entity identifier from the support (1-based, potentially non-sequential).
+- Use when you need data for a small set of known entities.
+
+**Index vs. ID**: Because scoping IDs are not necessarily sequential (e.g., scoping `[10, 25, 100]` has index 0 → ID 10, index 1 → ID 25), the two methods serve distinct needs. Conversions are available through the scoping object (`scoping.id(index)` and `scoping.index(id)`).
 
 **Return shape**: The returned array is automatically shaped based on the field's component count and shell layers:
 - Scalar field (1 component): `[value]`
 - Vector field (3 components): `[X, Y, Z]`
 - Tensor field with layers (6 components, 3 layers): `[[σx_bot, ...], [σx_top, ...], [σx_mid, ...]]`
 
+**Loop anti-pattern**: Do not call entity-by-entity methods inside a loop over many entities. Each call is a round-trip to the DPF server. With thousands of entities this becomes prohibitively slow, regardless of whether the server is local or remote. Use bulk access instead (see below).
+
 ### Bulk data access
 
-**`field.data`**: Access the complete data array
-- **Local server**: Returns a pointer to the memory (no copy, very fast)
-- **Remote server**: Transfers the entire array over the network (one-time cost)
+**`field.data`**: Returns the complete flat data array.
+- On a **local server**, this returns a direct pointer to server memory — no data is copied, making it the fastest option for any field size.
+- On a **remote server**, this transfers the entire array over the network in a single operation.
 
-**`as_local_field()`**: Transfer field from remote server to local memory for processing
-- Use when working with large fields on remote servers
-- Enables efficient local processing after initial transfer
+**`as_local_field()`**: Downloads the field from a remote server into local memory and wraps it in a context manager. All subsequent `get_entity_data()` calls within the context block operate on the local copy (local array indexing, no further network traffic). This approach also ensures proper resource cleanup when the context exits.
 
-**Performance consideration**: Avoid calling entity data methods inside loops over thousands of entities. Each call is a server request. Instead, use bulk access methods and parse the data array directly.
+### Choosing the right approach
+
+The table below summarises which pattern to use based on server topology and field size:
+
+| Scenario | Recommended approach | Rationale |
+|----------|----------------------|-----------|
+| Local server, any field size | `field.data` + manual index arithmetic | Direct memory pointer, zero copy overhead |
+| Remote server, small-to-medium field | `field.data` or `as_local_field()` | Single network transfer, then local operations |
+| Remote server, large field (> ~100 MB) | `as_local_field()` | Controlled download with explicit cleanup |
+| Remote server, very large field (> ~1 GB) | Filter server-side first, then download the subset | Avoids transferring data that will not be used |
+| Only a few specific entities needed | `get_entity_data()` or `get_entity_data_by_id()` | Sufficient for small query counts; avoid in tight loops |
+
+### Filtering server-side before downloading
+
+When only a subset of entities is needed from a large field on a remote server, the most efficient pattern is to reduce the data on the server first — before any network transfer occurs. Two common mechanisms are:
+
+- **Mesh scoping**: Provide a scoping to the result operator (or to a rescope operator) so that only data for the relevant nodes or elements is evaluated and returned.
+- **Time/frequency scoping**: Request only the time sets or frequencies you need rather than all sets.
+
+This server-side filtering can reduce a gigabyte-scale transfer to a megabyte-scale one, after which the normal `field.data` or `as_local_field()` patterns apply to the smaller result.
 
 ## Properties summary
 
