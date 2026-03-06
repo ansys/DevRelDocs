@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-04).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-05).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -36,7 +36,7 @@ The following table shows which components have updates in each category.
 | kernel | [2 items](#Features_kernel) |[9 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [14 items](#Features_mapdl) |[41 items](#Fixes_mapdl) |
+| mapdl | [15 items](#Features_mapdl) |[41 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [11 items](#Features_math) |[1 item](#Fixes_math) |
@@ -45,7 +45,7 @@ The following table shows which components have updates in each category.
 | misc | [13 items](#Features_misc) |[19 items](#Fixes_misc) |
 | multiphysicsmapper |  |[4 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [2 items](#Features_native) |[13 items](#Fixes_native) |
+| native | [2 items](#Features_native) |[14 items](#Fixes_native) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [3 items](#Features_prime) | |
 | pydpf |  |[1 item](#Fixes_pydpf) |
@@ -885,6 +885,11 @@ The following table shows which components have updates in each category.
 
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
+
+- Freeing license of mapdl_section_properties:
+  > Freeing license of `mapdl_section_properties`.
+  >
+  > 
 
 - Operator to extract records from RST:
   > 
@@ -1812,6 +1817,15 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Fixed error introduced by PR 667338:
+  > - Marked "generic_support_get_attribute" as private operator
+  >
+  > - Undocumented the fact that "fieldscontainer::get_attribute" can produce GenericSupport
+  >
+  > 
+  >
+  > 
 
 - Allow loop_workflow_incremental to take CField output:
   > loop_workflow_incremental now can take a Workflow returning a CField with an added `loop` label.
