@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-05).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-07).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -45,7 +45,7 @@ The following table shows which components have updates in each category.
 | misc | [13 items](#Features_misc) |[19 items](#Fixes_misc) |
 | multiphysicsmapper |  |[4 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [2 items](#Features_native) |[14 items](#Fixes_native) |
+| native | [2 items](#Features_native) |[15 items](#Fixes_native) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [3 items](#Features_prime) | |
 | pydpf |  |[1 item](#Fixes_pydpf) |
@@ -1817,6 +1817,21 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Inconsistency with elshape treatment  in scoping::by_property op.:
+  > When we have shell, solid and skin elements in mesh and perform a scoping::by_property, we observed inconsistency in the way we expose elshape depending if:
+  >
+  > - we merge skin and shell
+  >
+  > - we merge shell and solid
+  >
+  > - we merge nothing
+  >
+  > 
+  >
+  > The idea is to find a way to make this treatment consistent and homogenous.
+  >
+  > 
 
 - Fixed error introduced by PR 667338:
   > - Marked "generic_support_get_attribute" as private operator
