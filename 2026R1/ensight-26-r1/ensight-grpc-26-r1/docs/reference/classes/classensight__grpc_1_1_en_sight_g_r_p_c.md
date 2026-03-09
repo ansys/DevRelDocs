@@ -1,4 +1,4 @@
-# Class ensight\_grpc::EnSightGRPC
+# Class ensight_grpc::EnSightGRPC
 
 <a id="classensight__grpc_1_1_en_sight_g_r_p_c"></a>
 

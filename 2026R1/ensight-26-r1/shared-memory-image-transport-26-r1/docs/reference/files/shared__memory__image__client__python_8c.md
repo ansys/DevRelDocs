@@ -1,4 +1,4 @@
-# File shared\_memory\_image\_client\_python.c
+# File shared_memory_image_client_python.c
 
 <a id="shared__memory__image__client__python_8c"></a>
 
