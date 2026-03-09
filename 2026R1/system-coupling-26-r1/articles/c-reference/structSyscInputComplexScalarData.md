@@ -23,11 +23,13 @@ Input complex scalar data provides read-and-write access to complex scalar data.
 
 ![][public]
 
-**Definition**: `syscInputComplexScalarData.h` (line 96)
+**Definition**: `syscInputComplexScalarData.h` (line 30)
+
 
 ```
 enum SyscPrimitiveType SyscInputComplexScalarData::primitiveType
 ```
+
 
 
 
@@ -44,9 +46,11 @@ Primitive type.
 
 **Definition**: `syscInputComplexScalarData.h` (line 31)
 
+
 ```
 void* SyscInputComplexScalarData::data1
 ```
+
 
 
 
@@ -63,9 +67,11 @@ First data pointer.
 
 **Definition**: `syscInputComplexScalarData.h` (line 32)
 
+
 ```
 void* SyscInputComplexScalarData::data2
 ```
+
 
 
 
@@ -82,9 +88,11 @@ Second data pointer.
 
 **Definition**: `syscInputComplexScalarData.h` (line 33)
 
+
 ```
 size_t SyscInputComplexScalarData::size
 ```
+
 
 
 

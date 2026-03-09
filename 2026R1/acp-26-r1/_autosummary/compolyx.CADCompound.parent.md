@@ -2,6 +2,6 @@
 
 <a id="compolyx.CADCompound.parent"></a>
 
-#### *property* CADCompound.parent
+## *property* CADCompound.parent
 
-Parent object in tree
+Parent object in the tree.

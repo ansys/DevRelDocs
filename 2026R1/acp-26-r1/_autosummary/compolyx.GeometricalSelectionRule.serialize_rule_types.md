@@ -2,4 +2,4 @@
 
 <a id="compolyx.GeometricalSelectionRule.serialize_rule_types"></a>
 
-#### GeometricalSelectionRule.serialize_rule_types()
+## GeometricalSelectionRule.serialize_rule_types()

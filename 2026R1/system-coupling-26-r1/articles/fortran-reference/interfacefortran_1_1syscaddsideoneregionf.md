@@ -20,9 +20,11 @@ Provide an interface to add side one region.
 
 ![][public]
 
+
 ```fortran
 type(syscerrorf) function syscaddsideoneregionf(interface, region)
 ```
+
 
 Add region to side one of the couping interface.
 
@@ -60,8 +62,8 @@ If the region name contains invalid characters, a runtime error will be thrown.
 
 **Parameters**:
 
-* interfaceinterface
-* regionregion
+* interfacetype([sysccouplinginterfacef](structfortran_1_1sysccouplinginterfacef.md#structfortran_1_1sysccouplinginterfacef)), intent(in)
+* regiontype([syscregionf](structfortran_1_1syscregionf.md#structfortran_1_1syscregionf)), intent(in)
 
 **Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
 

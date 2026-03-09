@@ -2,6 +2,6 @@
 
 <a id="compolyx.AnalysisPly.draping_obj"></a>
 
-#### *property* AnalysisPly.draping_obj
+## *property* AnalysisPly.draping_obj
 
-Get the Fiber Directions of the Analysis Ply
+Fiber directions of the analysis ply.

@@ -20,9 +20,11 @@ Provide an interface to get an integer-valued attribute.
 
 ![][public]
 
+
 ```fortran
 type(syscintegerattributef) function syscgetintegerattributef(name, value)
 ```
+
 
 Get an integer-valued attribute.
 
@@ -40,8 +42,8 @@ an integer attribute
 
 **Parameters**:
 
-* namename
-* valuevalue
+* namecharacter(len=*), intent(in)
+* valueinteger(kind=8), intent(in)
 
 **Return type**: type([syscintegerattributef](structfortran_1_1syscintegerattributef.md#structfortran_1_1syscintegerattributef)) function
 

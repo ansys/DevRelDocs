@@ -34,6 +34,7 @@ int main()
 
 ## Members
 
+* [RequestStop](classsimulation__framework_1_1core_1_1StandaloneActivityService.md#classsimulation__framework_1_1core_1_1StandaloneActivityService_1ae2daa43d709b4330ef874396bc6bc30a)
 * [Run](classsimulation__framework_1_1core_1_1StandaloneActivityService.md#classsimulation__framework_1_1core_1_1StandaloneActivityService_1a421e29a06e115be20823def55afaede1)
 * [StandaloneActivityService](classsimulation__framework_1_1core_1_1StandaloneActivityService.md#classsimulation__framework_1_1core_1_1StandaloneActivityService_1a2b5fef164520062893b4ba86072763ae)
 * [~StandaloneActivityService](classsimulation__framework_1_1core_1_1StandaloneActivityService.md#classsimulation__framework_1_1core_1_1StandaloneActivityService_1a2d96ab83e3bae2d6c557f8a55428c966)
@@ -125,6 +126,31 @@ Programm return code which indicates whether the Standalone Activity is healthy
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::StandaloneActivityService::Run"}]}`
 -->
 
+<a id="classsimulation__framework_1_1core_1_1StandaloneActivityService_1ae2daa43d709b4330ef874396bc6bc30a"></a>
+### Function RequestStop
+
+![][public]
+
+
+```cpp
+void simulation_framework::core::StandaloneActivityService::RequestStop()
+```
+
+
+Request the runner to exit [Run()](classsimulation__framework_1_1core_1_1StandaloneActivityService.md#classsimulation__framework_1_1core_1_1StandaloneActivityService_1a421e29a06e115be20823def55afaede1) on the next loop iteration (e.g. for test teardown so the thread can be joined before destroying the service).
+
+
+
+
+
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::core::StandaloneActivityService::RequestStop"}]}`
+-->
+
 <!--
 **TODO**:
 
@@ -135,5 +161,5 @@ Programm return code which indicates whether the Standalone Activity is healthy
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
-[static]: https://img.shields.io/badge/-static-lightgrey (static)
 [protected]: https://img.shields.io/badge/-protected-yellow (protected)
+[static]: https://img.shields.io/badge/-static-lightgrey (static)

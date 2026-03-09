@@ -2,6 +2,6 @@
 
 <a id="compolyx.CADCompound.name"></a>
 
-#### *property* CADCompound.name
+## *property* CADCompound.name
 
-Name of object
+Name of the object.

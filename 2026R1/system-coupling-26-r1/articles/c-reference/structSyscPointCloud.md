@@ -13,6 +13,7 @@ To create and/or initialize [SyscPointCloud](structSyscPointCloud.md#structSyscP
 
 
 
+
 ```
 SyscPointCloud pointCloud = syscGetPointCloud(nodeIds, nodeCoords);
 ```
@@ -34,9 +35,11 @@ SyscPointCloud pointCloud = syscGetPointCloud(nodeIds, nodeCoords);
 
 **Definition**: `syscPointCloud.h` (line 42)
 
+
 ```
 SyscOutputIntegerData SyscPointCloud::nodeIds
 ```
+
 
 
 
@@ -53,9 +56,11 @@ Access to node ids array.
 
 **Definition**: `syscPointCloud.h` (line 43)
 
+
 ```
 SyscOutputVectorData SyscPointCloud::nodeCoords
 ```
+
 
 
 
@@ -72,9 +77,11 @@ Access to node coordinates array(s).
 
 **Definition**: `syscPointCloud.h` (line 46)
 
+
 ```
 int64_t SyscPointCloud::connectivityStamp
 ```
+
 
 Mesh connectivity stamp. Update whenever re-meshing happens.
 
@@ -91,9 +98,11 @@ Mesh connectivity stamp. Update whenever re-meshing happens.
 
 **Definition**: `syscPointCloud.h` (line 50)
 
+
 ```
 int64_t SyscPointCloud::coordinatesStamp
 ```
+
 
 Nodal coordinates stamp. Update whenever nodal coordinates get updated.
 
@@ -110,9 +119,11 @@ Nodal coordinates stamp. Update whenever nodal coordinates get updated.
 
 **Definition**: `syscPointCloud.h` (line 53)
 
+
 ```
 int64_t SyscPointCloud::partitioningStamp
 ```
+
 
 Partitioning stamp. Update whenever the mesh is re-partitioned.
 

@@ -2,7 +2,7 @@
 
 ![][C++]
 
-**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 20)
+**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 21)
 
 
 
@@ -27,7 +27,7 @@
 
 ![][public]
 
-**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 23)
+**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 24)
 
 
 ```cpp
@@ -54,7 +54,7 @@ using simulation_framework::core::lifecycle::FmuInOutType = typedef std::variant
 
 ![][public]
 
-**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 24)
+**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 25)
 
 
 ```cpp
@@ -81,7 +81,7 @@ using simulation_framework::core::lifecycle::FmuInOutMap = typedef std::map<std:
 
 ![][public]
 
-**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 25)
+**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 26)
 
 
 ```cpp
@@ -108,7 +108,7 @@ using simulation_framework::core::lifecycle::FmuTopicToVarNames = typedef std::m
 
 ![][public]
 
-**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 26)
+**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 27)
 
 
 ```cpp
@@ -135,7 +135,7 @@ using simulation_framework::core::lifecycle::FmuTopicToVarMap = typedef std::map
 
 ![][public]
 
-**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 27)
+**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 28)
 
 
 ```cpp
@@ -162,7 +162,7 @@ using simulation_framework::core::lifecycle::FmuMessageToVarNames = typedef std:
 
 ![][public]
 
-**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 28)
+**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 29)
 
 
 ```cpp
@@ -188,5 +188,5 @@ using simulation_framework::core::lifecycle::FmuVarToMessageNames = typedef std:
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
-[static]: https://img.shields.io/badge/-static-lightgrey (static)
 [protected]: https://img.shields.io/badge/-protected-yellow (protected)
+[static]: https://img.shields.io/badge/-static-lightgrey (static)

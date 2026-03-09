@@ -2,6 +2,6 @@
 
 <a id="compolyx.ExtrusionGuide.name"></a>
 
-#### *property* ExtrusionGuide.name
+## *property* ExtrusionGuide.name
 
-Name of object
+Name of the object.

@@ -2,4 +2,4 @@
 
 <a id="compolyx.ElementSet.get_short_description"></a>
 
-#### ElementSet.get_short_description()
+## ElementSet.get_short_description()

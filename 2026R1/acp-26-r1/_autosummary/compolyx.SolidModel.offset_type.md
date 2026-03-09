@@ -2,6 +2,6 @@
 
 <a id="compolyx.SolidModel.offset_type"></a>
 
-#### *property* SolidModel.offset_type
+## *property* SolidModel.offset_type
 
-Offset type. Available string values: [‘shell_normal’, ‘surface_normal’]
+Offset type. Allowed string values: [‘shell_normal’, ‘surface_normal’].

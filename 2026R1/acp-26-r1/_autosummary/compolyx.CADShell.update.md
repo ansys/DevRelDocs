@@ -2,6 +2,6 @@
 
 <a id="compolyx.CADShell.update"></a>
 
-#### CADShell.update()
+## CADShell.update()
 
-Update the CadComponent.
+Update the CAD component.

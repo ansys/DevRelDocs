@@ -2,6 +2,6 @@
 
 <a id="compolyx.OrientedSelectionSet.boundaries"></a>
 
-#### *property* OrientedSelectionSet.boundaries
+## *property* OrientedSelectionSet.boundaries
 
-Get the boundaries of the Oriented Selection Set
+Returns the boundaries of the oriented selection set.

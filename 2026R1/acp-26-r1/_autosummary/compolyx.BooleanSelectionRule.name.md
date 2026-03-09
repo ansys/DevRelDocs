@@ -2,6 +2,6 @@
 
 <a id="compolyx.BooleanSelectionRule.name"></a>
 
-#### *property* BooleanSelectionRule.name
+## *property* BooleanSelectionRule.name
 
-Name of object
+Name of the object.

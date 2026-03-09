@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-02-10).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-04).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -9,11 +9,13 @@ The following table shows which components have updates in each category.
 | Component | Features | Fixes | 
 |-----------|----------|----------|
 | 1297620 |  |[1 item](#Fixes_1297620) |
+| averaging |  |[1 item](#Fixes_averaging) |
+| c# |  |[1 item](#Fixes_c#) |
 | cff | [2 items](#Features_cff) |[4 items](#Fixes_cff) |
 | cgns | [1 item](#Features_cgns) | |
 | changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
-| ci | [1 item](#Features_ci) |[1 item](#Fixes_ci) |
-| compression | [2 items](#Features_compression) |[1 item](#Fixes_compression) |
+| ci | [1 item](#Features_ci) |[2 items](#Fixes_ci) |
+| compression | [3 items](#Features_compression) |[1 item](#Fixes_compression) |
 | core |  |[1 item](#Fixes_core) |
 | cyclic | [1 item](#Features_cyclic) | |
 | doc | [2 items](#Features_doc) |[1 item](#Fixes_doc) |
@@ -22,33 +24,35 @@ The following table shows which components have updates in each category.
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils | [1 item](#Features_femutils) |[12 items](#Fixes_femutils) |
+| femutils | [2 items](#Features_femutils) |[13 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
 | framework | [2 items](#Features_framework) |[5 items](#Fixes_framework) |
 | grpc | [1 item](#Features_grpc) |[3 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[4 items](#Fixes_h5dpf) |
 | hdf5 | [6 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
-| hgp | [3 items](#Features_hgp) |[2 items](#Fixes_hgp) |
+| hgp | [5 items](#Features_hgp) |[2 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
-| kernel | [2 items](#Features_kernel) |[8 items](#Fixes_kernel) |
+| kernel | [2 items](#Features_kernel) |[9 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [14 items](#Features_mapdl) |[40 items](#Fixes_mapdl) |
+| mapdl | [14 items](#Features_mapdl) |[41 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
-| math | [10 items](#Features_math) |[1 item](#Fixes_math) |
-| mechanical | [2 items](#Features_mechanical) |[4 items](#Fixes_mechanical) |
+| mapl |  |[1 item](#Fixes_mapl) |
+| math | [11 items](#Features_math) |[1 item](#Fixes_math) |
+| mechanical | [2 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
 | mesh |  |[3 items](#Fixes_mesh) |
 | misc | [13 items](#Features_misc) |[19 items](#Fixes_misc) |
-| multiphysicsmapper |  |[3 items](#Fixes_multiphysicsmapper) |
+| multiphysicsmapper |  |[4 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [1 item](#Features_native) |[12 items](#Fixes_native) |
+| native | [2 items](#Features_native) |[13 items](#Fixes_native) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [3 items](#Features_prime) | |
 | pydpf |  |[1 item](#Fixes_pydpf) |
 | refactor | [1 item](#Features_refactor) | |
 | rotation |  |[1 item](#Fixes_rotation) |
-| workflows | [1 item](#Features_workflows) |[2 items](#Fixes_workflows) |
+| vtk |  |[1 item](#Fixes_vtk) |
+| workflows | [2 items](#Features_workflows) |[2 items](#Fixes_workflows) |
 
 
 ## 1297620
@@ -58,6 +62,26 @@ The following table shows which components have updates in each category.
 - Cplx division operator has to high tolerance:
   > Change the tolerance for cplx division from 1e-10 to 1e-15.
   >
+  > 
+  >
+  > 
+## averaging
+
+### <a id="Fixes_averaging"></a> Fixes
+
+- Adapt elemental_nodal_to_nodal to properly handle midside nodes:
+  > 
+  >
+  > The `elemental_nodal_to_nodal` averaging operators required to have all corner nodes corresponding to a midside node contained in the input nodal scoping if the result wanted to be obtained at that given midside node. This requirement is no longer present.
+  >
+  > 
+  >
+  > 
+## c#
+
+### <a id="Fixes_c#"></a> Fixes
+
+- Expose the MultiPhysicsMapper plugin in C#:
   > 
   >
   > 
@@ -148,6 +172,15 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_ci"></a> Fixes
 
+- Fix Nuget tests:
+  > 
+  >
+  > Bring the changes from WorkflowMediumComplexityTest in CS_DataProcessingTests to NuGet.Cs.Ext.Test.
+  >
+  > 
+  >
+  > 
+
 - Ensure backwards compatibility in invariants and eigenvalues source operators:
   > 
   >
@@ -160,6 +193,15 @@ The following table shows which components have updates in each category.
   > 
 ## compression
 ### <a id="Features_compression"></a> Features
+
+- Quantization operator enhancements:
+  > - Added parallelization in _quantization_fc_
+  >
+  > - The loss of precision was at maximum half of the threshold, therefore computations has been changed to be just at the threshold in the worst case.
+  >
+  > 
+  >
+  > 
 
 - Support threshold by number of components in quantization operator:
   > It is now possible to apply a different threshold on each component in the operators **Quantization** ("quantization_fc") and **QuantizationFC** ("quantization_fc").
@@ -339,12 +381,22 @@ The following table shows which components have updates in each category.
 ## femutils
 ### <a id="Features_femutils"></a> Features
 
+- Switch from_scoping to entry:
+  > Switch mesh::by_scopings op to public
+  >
+  > 
+
 - Implementing build_scoping_build_index_tables in split_mesh and meshes::by_scopings and refactoring:
   > Improvement in the performance for `split_mesh`, `meshes::by_scopings` and `mesh::by_scoping` operators for cases with non-shared scoping between property fields and mesh.
   >
   > 
 
 ### <a id="Fixes_femutils"></a> Fixes
+
+- Issue with semiparabolic elements in elemental_nodal_To_nodal operators:
+  > Fixing issue with semiparabolic elements in `elemental_nodal_To_nodal` operators.
+  >
+  > 
 
 - Bug 1398238 Fail to extract structural temperature at multiple time steps:
   > Fix random failure in multistep transient simulation
@@ -668,6 +720,20 @@ The following table shows which components have updates in each category.
 ## hgp
 ### <a id="Features_hgp"></a> Features
 
+- Improving readability of the .natvis file for hgp:
+  > Improving readability of the .natvis file.
+  >
+  > 
+
+- Add span() getter to DpfVector:
+  > 
+  >
+  > - The HGP API now exposes direct std::span accessors when building the C++20 standard
+  >
+  > 
+  >
+  > 
+
 - Custom type field int64:
   > 
   >
@@ -738,6 +804,9 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_kernel"></a> Fixes
+
+- Speed-up hasEntity API:
+  > 
 
 - Follow-up on units:
   > 
@@ -924,6 +993,13 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Wrong update concerning shell layers:
+  > Wrong update is done while looping over elemental results concerning shell layer. We update the number of shell layer when this is not allowed regarding the post process that is done after reading the result.
+  >
+  > 
+  >
+  > 
 
 - Fix possible out of bounds when reading RST and DSUB files:
   > 
@@ -1214,8 +1290,21 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
+## mapl
+
+### <a id="Fixes_mapl"></a> Fixes
+
+- Fix gasket results issue with dege keyopt2=0 gaskets:
+  > Fix bug with degenerated gasket elements with keyopt(2)=0
+  >
+  > 
+  >
+  > 
 ## math
 ### <a id="Features_math"></a> Features
+
+- Create a new operator to merge FRF matrices and supports for TPA workflow:
+  > 
 
 - Create a new operator to compute modal loads for MSUP workflow:
   > 
@@ -1305,6 +1394,9 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mechanical"></a> Fixes
+
+- Fix documentation generation of mechanical::linearized_stress:
+  > 
 
 - Bugs with shell operators:
   > Fix various bugs in shell operators in Ans.Dpf.Mechanical plugin
@@ -1663,6 +1755,11 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_multiphysicsmapper"></a> Fixes
 
+- Clarifying documentation:
+  > Clarification of documentation.
+  >
+  > 
+
 - Fix random Linux crash in mechanical_native_mapping::apply:
   > 
   >
@@ -1698,6 +1795,15 @@ The following table shows which components have updates in each category.
 ## native
 ### <a id="Features_native"></a> Features
 
+- Supported GenericSupport in GetFieldsContainerAttribute and added GenericSupportAttribute API:
+  > - Added a new property_name, "generic_support", to "fieldscontainer::get_attribute" to extract Generic Support
+  >
+  > - Added a new API, "generic_support::get_attribute", to extract Field, Field Property or String Field associated with Generic Support
+  >
+  > 
+  >
+  > 
+
 - Option to extend to midside on nodal_to_elemental_nodal:
   > Option to extend to midside on nodal_to_elemental_nodal
   >
@@ -1706,6 +1812,13 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Allow loop_workflow_incremental to take CField output:
+  > loop_workflow_incremental now can take a Workflow returning a CField with an added `loop` label.
+  >
+  > 
+  >
+  > 
 
 - Scaling factor size in error and norm operator:
   > The size of the output pins 2 and 4 of the operator ErrorAndNorm ("error_norm_calc") was wrong and this has been fixed.
@@ -1875,8 +1988,25 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
+## vtk
+
+### <a id="Fixes_vtk"></a> Fixes
+
+- Fix the face node ordering for reversed faces:
+  > Fix face orientation during export to VTK for fluid meshes.
+  >
+  > 
+  >
+  > 
 ## workflows
 ### <a id="Features_workflows"></a> Features
+
+- Adaptation of dequantization to the new threshold in quantization operator:
+  > Fix in the quantization workflow due to changes in _quantization_ and _quantization_fc_ operators.
+  >
+  > 
+  >
+  > 
 
 - Setup a shared live migration to hdf5 workflow:
   > 
@@ -1910,9 +2040,21 @@ The following table shows which components have updates in each category.
 
 - [quantization](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/compression/quantization.md):
   > Scales a field to a given precision threshold, then rounds all the values to the unit.
+  > 
+  > The output of the quantization operation is :
+  > \\[ q(x) = \left\lfloor\frac{x}{2\varepsilon} + \frac{1}{2}\right\rfloor \\]
+  > The truncated value in the original scale has to be computed by doing \\( 2\varepsilon q(x) \\).
+  > 
+  > To truncate a number to \\(n\\) decimal places, the threshold must be chosen as \\(10^{-n}\\).
 
 - [quantization_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/compression/quantization_fc.md):
   > Scales all the fields of a fields container to a given precision threshold, then rounds all the values to the unit.
+  > 
+  > The output of the quantization operation is :
+  > \\[q(x) = \left\lfloor\frac{x}{2\varepsilon} + \frac{1}{2}\right\rfloor \\]
+  > The truncated value in the original scale has to be computed by doing \\(2\varepsilon q(x) \\).
+  > 
+  > To truncate a number to \\(n\\) decimal places, the threshold must be chosen as \\(10^{-n}\\).
 
 
 #### info
@@ -2029,7 +2171,22 @@ The following table shows which components have updates in each category.
   > Prepare mapping of source data from source mesh to target mesh by operating the source_mesh/target_mesh weights computation. This operator needs to be used with the apply mechanical native mapping associated one. At least one of the optional DataTree inputs need to be set, in order to chose the mapping algorithm and set the mapping options.
 
 - [prepare_mechanical_native_mapping_kriging](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/prepare_mechanical_native_mapping_kriging.md):
-  > Prepare mapping of source data from source mesh to target mesh by operating the source_mesh/target_mesh weights computation. This operator will use a point kriging algorithm. This operator needs to be used with the apply mechanical native mapping associated one.
+  > Prepare mapping of source data from source mesh to target mesh by operating the source_mesh/target_mesh weights computation.
+  > 
+  > This operator will use a point kriging algorithm. Kriging is a regression-based interpolation technique that assigns weights to surrounding source points according to their spatial covariance values.
+  > 
+  > The algorithm combines the Kriging model with a polynomial model to capture local and global deviations:
+  > - The Kriging model interpolates the source points based on their localized deviations.
+  > - The polynomial model globally approximates the source space.
+  > 
+  > Note:
+  > - By default, the Kriging technique uses an adaptive algorithm and ensures that the interpolated values do not exceed specific limits
+  > .- The adaptive algorithm starts by using the higher-order Cross Quadratic polynomial to interpolate data. If the interpolated value of each target point is outside the extrapolation limit you specified, the algorithm re-interpolates data by reducing the polynomial order and the number of source points.
+  > - Target nodes whose values are outside the limits when the lowest polynomial type is used are not assigned a value.
+  > - The Kriging algorithm, when used with the higher-order Cross Quadratic or Pure Quadratic polynomial, may fail to correctly interpolate data for a target point if multiple source points are spaced close to one another or if the target point is outside the region enclosed by the source points that are selected for interpolation. This may introduce gross errors in the estimation of the target value and manifests itself mostly when mapping data on surface or edge geometries.
+  > - In such cases, you should change the Polynomial Type to Constant or Linear and, if necessary, reduce the number of source points to be included for the interpolation.
+  > 
+  > This operator needs to be used with the apply mechanical native mapping associated one.
 
 - [prepare_mechanical_native_mapping_point_cloud](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/prepare_mechanical_native_mapping_point_cloud.md):
   > Prepare mapping of source data from source mesh to target mesh by operating the source_mesh/target_mesh weights computation. This operator will use a point cloud based algorithm. This operator needs to be used with the apply mechanical native mapping associated one.
@@ -2048,6 +2205,12 @@ The following table shows which components have updates in each category.
 
 - [sysc_shape_function_wf](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/sysc_shape_function_wf.md):
   > Prepares a workflow able to map data from an input mesh to a target mesh.
+
+
+#### math
+
+- [linearized_stress](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/linearized_stress.md):
+  > get linearized stress
 
 
 #### mesh
@@ -2261,6 +2424,12 @@ The following table shows which components have updates in each category.
   > Read/compute Square of the L2 norm of pressure over element volume by calling the readers defined by the datasources.
 
 
+#### scoping
+
+- [extend_midside_nodal_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/extend_midside_nodal_scoping.md):
+  > Extends the input nodal scoping with the neighbor corner nodes of every midside node in the input. For each midside node in the scoping, the two corner nodes that bound it on the element edge are added to the output scoping. 
+
+
 #### serialization
 
 - [export_mesh_with_prime](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/serialization/export_mesh_with_prime.md):
@@ -2297,6 +2466,9 @@ The following table shows which components have updates in each category.
 - [cyclic_support_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/cyclic_support_get_attribute.md):
   > A CyclicSupport in pin 0 and a property name (string) in pin 1 are expected in input.
 
+- [generic_support_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/generic_support_get_attribute.md):
+  > Uses the GenericSupport APIs to return a given attribute of the generic support in input.
+
 - [get_operators](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/get_operators.md):
   > Getter on operators inside a workflow.
 
@@ -2311,6 +2483,23 @@ The following table shows which components have updates in each category.
 ### Changed operators
 
 #### averaging
+
+- [elemental_nodal_to_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_nodal_to_nodal.md)
+
+  > 0.0.1: Fixed issue with semiparabolic elements.
+
+  > 0.0.2: Midside nodes included in the input scoping are now properly averaged regardless of the presence of its parent corner nodes.
+
+
+- [elemental_nodal_to_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_nodal_to_nodal_fc.md)
+
+  > 0.0.1: Fixed issue with semiparabolic elements.
+
+
+- [elemental_to_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_to_nodal_fc.md)
+
+  > 0.0.1: Fixed shell management issue.
+
 
 - [force_summation](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/force_summation.md)
 
@@ -2526,6 +2715,10 @@ Upgraded documentation
 
   > 0.2.0: Improvement in the performance for cases with non shared scoping between property fields and mesh.
 
+  > 0.2.1: Minor improvements in performance.
+
+  > 0.3.0: From premium to entry.
+
 
 - [from_scopings](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/from_scopings.md)
 
@@ -2539,6 +2732,11 @@ Upgraded documentation
 - [mesh_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/mesh_provider.md)
 
   > 0.1.0: Update the effect of the permissive configuration.
+
+
+- [mesh_to_pyvista](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/mesh_to_pyvista.md)
+
+  > 0.0.1: Fix node ordering for face connectivity of fluid cell faces marked as reversed.
 
 
 - [meshes_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/meshes_provider.md)
@@ -3116,6 +3314,8 @@ Upgraded documentation
 
   > 0.1.1: Error with license
 
+  > 0.2.0: Added extend_midside_nodes input pin
+
 
 
 #### serialization
@@ -3136,6 +3336,11 @@ Upgraded documentation
 - [extract_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/extract_scoping.md)
 
   > 0.0.1: Error with license
+
+
+- [fc_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/fc_get_attribute.md)
+
+  > 0.1.0: Add new supported property name 'generic_support' returning a generic support.
 
 
 - [html_doc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/html_doc.md)

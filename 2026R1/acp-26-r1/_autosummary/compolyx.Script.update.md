@@ -2,4 +2,4 @@
 
 <a id="compolyx.Script.update"></a>
 
-#### Script.update()
+## Script.update()

@@ -2,4 +2,4 @@
 
 <a id="compolyx.CutOffGeometry.serialize"></a>
 
-#### CutOffGeometry.serialize()
+## CutOffGeometry.serialize()

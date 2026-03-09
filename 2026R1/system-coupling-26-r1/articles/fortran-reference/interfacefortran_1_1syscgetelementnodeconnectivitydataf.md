@@ -11,7 +11,7 @@
 
 ## Members
 
-* [syscgetelementnodeconnectivitydataf](interfacefortran_1_1syscgetelementnodeconnectivitydataf.md#interfacefortran_1_1syscgetelementnodeconnectivitydataf_1a039faf94bf2187ab9c1fdcd69bf9e16d)
+* [syscgetelementnodeconnectivitydataf](interfacefortran_1_1syscgetelementnodeconnectivitydataf.md#interfacefortran_1_1syscgetelementnodeconnectivitydataf_1affa4bba5db8c80d430069372d013f4f3)
 * [syscgetelementnodeconnectivitydataf\_empty](interfacefortran_1_1syscgetelementnodeconnectivitydataf.md#interfacefortran_1_1syscgetelementnodeconnectivitydataf_1ae162150e9bff4d53f2e7a0fa8fe3859b)
 
 ## Public functions
@@ -20,6 +20,7 @@
 ### Function syscgetelementnodeconnectivitydataf\_empty
 
 ![][public]
+
 
 ```fortran
 type(syscelementnodeconnectivitydataf) function syscgetelementnodeconnectivitydataf_empty()
@@ -31,16 +32,19 @@ type(syscelementnodeconnectivitydataf) function syscgetelementnodeconnectivityda
 
 
 
+
 **Return type**: type([syscelementnodeconnectivitydataf](structfortran_1_1syscelementnodeconnectivitydataf.md#structfortran_1_1syscelementnodeconnectivitydataf)) function
 
-<a id="interfacefortran_1_1syscgetelementnodeconnectivitydataf_1a039faf94bf2187ab9c1fdcd69bf9e16d"></a>
+<a id="interfacefortran_1_1syscgetelementnodeconnectivitydataf_1affa4bba5db8c80d430069372d013f4f3"></a>
 ### Function syscgetelementnodeconnectivitydataf
 
 ![][public]
 
+
 ```fortran
-type(syscelementnodeconnectivitydataf) function syscgetelementnodeconnectivitydataf(elemNodeConn)
+type(syscelementnodeconnectivitydataf) function syscgetelementnodeconnectivitydataf(elemnodeconn)
 ```
+
 
 
 
@@ -50,7 +54,7 @@ type(syscelementnodeconnectivitydataf) function syscgetelementnodeconnectivityda
 
 **Parameters**:
 
-* elemNodeConnelemNodeConn
+* elemnodeconntype([syscoutputintegerdataf](structfortran_1_1syscoutputintegerdataf.md#structfortran_1_1syscoutputintegerdataf)), intent(in)
 
 **Return type**: type([syscelementnodeconnectivitydataf](structfortran_1_1syscelementnodeconnectivitydataf.md#structfortran_1_1syscelementnodeconnectivitydataf)) function
 

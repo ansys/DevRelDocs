@@ -2,4 +2,4 @@
 
 <a id="compolyx.ModelingGroup.update"></a>
 
-#### ModelingGroup.update()
+## ModelingGroup.update()

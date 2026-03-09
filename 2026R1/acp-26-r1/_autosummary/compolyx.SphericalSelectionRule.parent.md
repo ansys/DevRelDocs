@@ -2,6 +2,6 @@
 
 <a id="compolyx.SphericalSelectionRule.parent"></a>
 
-#### *property* SphericalSelectionRule.parent
+## *property* SphericalSelectionRule.parent
 
-Parent object in tree
+Parent object in the tree.

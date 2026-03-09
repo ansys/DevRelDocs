@@ -3,7 +3,7 @@
 ![][C++]
 ![][public]
 
-**Definition**: `core/service/standalone_activity_service/standalone_init_data/standalone_init_data.h` (line 19)
+**Definition**: `core/service/standalone_activity_service/standalone_init_data/standalone_init_data.h` (line 17)
 
 
 
@@ -21,7 +21,7 @@
 
 ![][public]
 
-**Definition**: `core/service/standalone_activity_service/standalone_init_data/standalone_init_data.h` (line 22)
+**Definition**: `core/service/standalone_activity_service/standalone_init_data/standalone_init_data.h` (line 20)
 
 
 ```cpp
@@ -48,7 +48,7 @@ A stream which is parsed from input file.
 
 ![][public]
 
-**Definition**: `core/service/standalone_activity_service/standalone_init_data/standalone_init_data.h` (line 25)
+**Definition**: `core/service/standalone_activity_service/standalone_init_data/standalone_init_data.h` (line 23)
 
 
 ```cpp
@@ -74,5 +74,5 @@ The base cycle time for complete simulation.
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
-[static]: https://img.shields.io/badge/-static-lightgrey (static)
 [protected]: https://img.shields.io/badge/-protected-yellow (protected)
+[static]: https://img.shields.io/badge/-static-lightgrey (static)

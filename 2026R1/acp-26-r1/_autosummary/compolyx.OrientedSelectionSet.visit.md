@@ -2,15 +2,14 @@
 
 <a id="compolyx.OrientedSelectionSet.visit"></a>
 
-#### OrientedSelectionSet.visit(visitor)
+## OrientedSelectionSet.visit(visitor)
 
 Walk through the tree and let the visitor perform action on every
 descendant node.
 
-* **Parameters:**
+### Parameters
 
-    - visitor: A callable which accepts a TreeNode instance as parameter
+- visitor: A callable which accepts a TreeNode instance as parameter
 
-* **Returns:**
-    - True if the visitor returned True for at least one descendant/linked node.
+Returns True if the visitor returned True for at least one descendant/linked node.
 If this is the case, the tree traversal is pruned.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.GeometricalSelectionRule.is_dict_item"></a>
 
-#### *property* GeometricalSelectionRule.is_dict_item
+## *property* GeometricalSelectionRule.is_dict_item
 
-Specifies whether the object is an item of a dict
+Indicates whether the object is an item in a dictionary.

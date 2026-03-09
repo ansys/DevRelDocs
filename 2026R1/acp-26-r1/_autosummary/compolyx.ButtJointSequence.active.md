@@ -2,6 +2,6 @@
 
 <a id="compolyx.ButtJointSequence.active"></a>
 
-#### *property* ButtJointSequence.active
+## *property* ButtJointSequence.active
 
-Sequence Entity is active
+Indicates whether the sequence entity is active.

@@ -1,4 +1,4 @@
-# File dynamic\_visualization\_store\_api.h
+# File dynamic_visualization_store_api.h
 
 <a id="dynamic__visualization__store__api_8h"></a>
 
@@ -142,7 +142,7 @@ click 8 "test__dvs__server_8cpp.md"
 ## Typedefs
 
 <a id="dynamic__visualization__store__api_8h_1a80c7c60e9cd61fcc0a0aacac09d66947"></a>
-### Typedef dvs\_log\_func
+### Typedef dvs_log_func
 
 ![][public]
 
@@ -164,7 +164,7 @@ void* param is for data to be sent back to logging method, might be NULL
 ## Functions
 
 <a id="dynamic__visualization__store__api_8h_1ab96812d4412a9af10e7e7924c572a7c9"></a>
-### Function dvs\_connect
+### Function dvs_connect
 
 ![][public]
 
@@ -207,7 +207,7 @@ This call will connect to a server that has been created using [dvs\_server\_cre
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#typedef-dvs_ret)
 
 <a id="dynamic__visualization__store__api_8h_1aca9b6d6040443c3adf4d873dd1afbb4f"></a>
-### Function dvs\_client\_set\_option
+### Function dvs_client_set_option
 
 ![][public]
 
@@ -254,7 +254,7 @@ See [dynamic\_visualization\_store\_error\_codes.h](dynamic__visualization__stor
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#typedef-dvs_ret)
 
 <a id="dynamic__visualization__store__api_8h_1ae57cf8cf0b10421aace6df32a98c60ae"></a>
-### Function dvs\_register\_log\_func
+### Function dvs_register_log_func
 
 ![][public]
 
@@ -297,7 +297,7 @@ Will not see any logging messages if not registered
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#typedef-dvs_ret)
 
 <a id="dynamic__visualization__store__api_8h_1ab8e85aad9b7ec78976db76017803a6b6"></a>
-### Function dvs\_get\_version
+### Function dvs_get_version
 
 ![][public]
 
@@ -331,7 +331,7 @@ const* the current version of the built library
 **Return type**: DVS_DLL_EXPORT const char *
 
 <a id="dynamic__visualization__store__api_8h_1a3744408f15cd4a36d19880d24d442a0d"></a>
-### Function dvs\_begin\_init
+### Function dvs_begin_init
 
 ![][public]
 
@@ -369,7 +369,7 @@ begin setup of rank
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#typedef-dvs_ret)
 
 <a id="dynamic__visualization__store__api_8h_1a14b52ceff846429259cab42ee11579f0"></a>
-### Function dvs\_set\_unit\_system
+### Function dvs_set_unit_system
 
 ![][public]
 
@@ -408,7 +408,7 @@ Note: This cannot be changed once [dvs\_end\_init()](dynamic__visualization__sto
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#typedef-dvs_ret)
 
 <a id="dynamic__visualization__store__api_8h_1ac5c67fdc3806bf89eebbe49e6daea5c2"></a>
-### Function dvs\_add\_metadata
+### Function dvs_add_metadata
 
 ![][public]
 
@@ -466,7 +466,7 @@ Errors:
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1a4e8a904ae19fd7f2b0c300543bc42576"></a>
-### Function dvs\_add\_part\_info
+### Function dvs_add_part_info
 
 ![][public]
 
@@ -507,7 +507,7 @@ Note: These cannot be changed once [dvs\_end\_init()](dynamic__visualization__st
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1a0b9bbed0db0a5f3e91af8a02aed48e1e"></a>
-### Function dvs\_add\_var\_info
+### Function dvs_add_var_info
 
 ![][public]
 
@@ -548,7 +548,7 @@ Note: These cannot be changed once [dvs\_end\_init()](dynamic__visualization__st
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1afe298f932fd909b7caabd6f430489b16"></a>
-### Function dvs\_add\_plot\_info
+### Function dvs_add_plot_info
 
 ![][public]
 
@@ -589,7 +589,7 @@ NOTE: These cannot be changed once end_init() is called.
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1a5a6cd68f61a53bce6780d3ef95038277"></a>
-### Function dvs\_get\_num\_part\_info
+### Function dvs_get_num_part_info
 
 ![][public]
 
@@ -626,7 +626,7 @@ uint32_t number of [dvs\_part\_info](../structures/structdvs__part__info.md) obj
 **Return type**: DVS_DLL_EXPORT uint32_t
 
 <a id="dynamic__visualization__store__api_8h_1ad75625cedecbcd365c868c9893c6c2d8"></a>
-### Function dvs\_get\_num\_var\_info
+### Function dvs_get_num_var_info
 
 ![][public]
 
@@ -663,7 +663,7 @@ uint32_t number of [dvs\_var\_info](../structures/structdvs__part__info.md) obje
 **Return type**: DVS_DLL_EXPORT uint32_t
 
 <a id="dynamic__visualization__store__api_8h_1aa44dcb6596c7833d2b9fe2a0435bb4c4"></a>
-### Function dvs\_get\_num\_plot\_info
+### Function dvs_get_num_plot_info
 
 ![][public]
 
@@ -700,7 +700,7 @@ uint32_t number of [dvs\_plot\_info](../structures/structdvs__plot__info.md) obj
 **Return type**: DVS_DLL_EXPORT uint32_t
 
 <a id="dynamic__visualization__store__api_8h_1a5b5a64e37bd6830f518947e7a0f7985e"></a>
-### Function dvs\_get\_part\_info
+### Function dvs_get_part_info
 
 ![][public]
 
@@ -739,7 +739,7 @@ const dvs_part_info* object found or NULL on not found or error
 **Return type**: DVS_DLL_EXPORT const struct [dvs\_part\_info](../structures/structdvs__part__info.md) *
 
 <a id="dynamic__visualization__store__api_8h_1aefeb5e79919700a670799d9f3e8f0e2c"></a>
-### Function dvs\_get\_part\_id
+### Function dvs_get_part_id
 
 ![][public]
 
@@ -780,7 +780,7 @@ DVS_NONE on success, else see method description
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1a8992f4a5e6c36c5e4da67968b170313c"></a>
-### Function dvs\_get\_var\_info
+### Function dvs_get_var_info
 
 ![][public]
 
@@ -819,7 +819,7 @@ const dvs_var_info* object found or NULL on not found or error
 **Return type**: DVS_DLL_EXPORT const struct [dvs\_var\_info](../structures/structdvs__part__info.md) *
 
 <a id="dynamic__visualization__store__api_8h_1a355c95f11b171a15755f748da3349e67"></a>
-### Function dvs\_get\_var\_id
+### Function dvs_get_var_id
 
 ![][public]
 
@@ -860,7 +860,7 @@ DVS_NONE on success, else see method description
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1ac3fca7087e8b4366686cef98a95f241f"></a>
-### Function dvs\_get\_plot\_info
+### Function dvs_get_plot_info
 
 ![][public]
 
@@ -899,7 +899,7 @@ const dvs_plot_info* object found or NULL on not found or error
 **Return type**: DVS_DLL_EXPORT const struct [dvs\_plot\_info](../structures/structdvs__plot__info.md) *
 
 <a id="dynamic__visualization__store__api_8h_1a3ae625f138573f6fa9904f0609ca1eb1"></a>
-### Function dvs\_get\_plot\_id
+### Function dvs_get_plot_id
 
 ![][public]
 
@@ -940,7 +940,7 @@ DVS_NONE on success, else see method description
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1ac4d82529053c964b76bd42916c51835e"></a>
-### Function dvs\_end\_init
+### Function dvs_end_init
 
 ![][public]
 
@@ -977,7 +977,7 @@ This must be called to let server know initialization for this rank is complete
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1aaac598618be531e8aa2b72ad41e18537"></a>
-### Function dvs\_begin\_update
+### Function dvs_begin_update
 
 ![][public]
 
@@ -1015,7 +1015,7 @@ Method to begin an update.
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1af2223790199210c6fd1f5ac5ade6c60a"></a>
-### Function dvs\_update\_copy\_previous\_part
+### Function dvs_update_copy_previous_part
 
 ![][public]
 
@@ -1056,7 +1056,7 @@ Currently we only support the options of empty string, mesh or mesh.vars empty s
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1a7fdc956a0712ef2a60195fa013e59222"></a>
-### Function dvs\_update\_nodes
+### Function dvs_update_nodes
 
 ![][public]
 
@@ -1096,7 +1096,7 @@ Update nodes for a specific part.
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1a0d0312c5143eb8de2e08a903c929d8c3"></a>
-### Function dvs\_update\_nodes\_parallelepiped
+### Function dvs_update_nodes_parallelepiped
 
 ![][public]
 
@@ -1191,7 +1191,7 @@ IJK Vals: These specify the absolute distance from the XYZ origin in each IJK di
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1af69daaa5a2ac63f7ce31a2e8e3d66332"></a>
-### Function dvs\_update\_nodes\_curvilinear
+### Function dvs_update_nodes_curvilinear
 
 ![][public]
 
@@ -1266,7 +1266,7 @@ IJK Vals: These specify the actual XYZ location for each IJK value in the grid. 
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1a05061077e83272567bbc43367c0b8e74"></a>
-### Function dvs\_update\_elements
+### Function dvs_update_elements
 
 ![][public]
 
@@ -1311,7 +1311,7 @@ ret_val TODO
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1a763afb059b0301ba18fefe3cd126ce79"></a>
-### Function dvs\_update\_elements\_polygon
+### Function dvs_update_elements_polygon
 
 ![][public]
 
@@ -1360,7 +1360,7 @@ This method will send over a list of arbitrarily sized polygons. The nodes_per_p
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1aff070e9087ba34f41200ff0cd1d3002e"></a>
-### Function dvs\_update\_elements\_polyhedral
+### Function dvs_update_elements_polyhedral
 
 ![][public]
 
@@ -1406,7 +1406,7 @@ Update N-FACED Elements.
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1ad97de401448e85da8cb13d3e45cfb227"></a>
-### Function dvs\_update\_var\_case\_scalar
+### Function dvs_update_var_case_scalar
 
 ![][public]
 
@@ -1440,7 +1440,7 @@ Update value of case scalar.
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1a853ed7ef2608619b82dd51055cee3f60"></a>
-### Function dvs\_update\_var\_part\_scalar
+### Function dvs_update_var_part_scalar
 
 ![][public]
 
@@ -1476,7 +1476,7 @@ Update value of part scalar.
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1ab4e0ac12018e08551d6b8121971fea7e"></a>
-### Function dvs\_update\_var\_case\_vector
+### Function dvs_update_var_case_vector
 
 ![][public]
 
@@ -1510,7 +1510,7 @@ Update value of case vector.
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1a0b8da4c016b09b93b3fcf71afe384b21"></a>
-### Function dvs\_update\_var\_part\_vector
+### Function dvs_update_var_part_vector
 
 ![][public]
 
@@ -1546,7 +1546,7 @@ Update value of part scalar.
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1aae3c0a5237c193d05266fba6e6798a4c"></a>
-### Function dvs\_update\_var\_element\_scalar
+### Function dvs_update_var_element_scalar
 
 ![][public]
 
@@ -1586,7 +1586,7 @@ Update a field of scalars on elements.
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1a008017a6bb9e8c8488e392d3cf58f7ad"></a>
-### Function dvs\_update\_var\_element\_scalar\_int64
+### Function dvs_update_var_element_scalar_int64
 
 ![][public]
 
@@ -1626,7 +1626,7 @@ Update a field of int64 scalars on elements.
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1aea17a7bbdc6ac8c2cdd4e6c35c1a8578"></a>
-### Function dvs\_update\_var\_node\_scalar
+### Function dvs_update_var_node_scalar
 
 ![][public]
 
@@ -1664,7 +1664,7 @@ Update a field of scalars on nodes.
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1a7c130a702347b1baa7e884303f3ce9d5"></a>
-### Function dvs\_update\_var\_node\_scalar\_int64
+### Function dvs_update_var_node_scalar_int64
 
 ![][public]
 
@@ -1702,7 +1702,7 @@ Update a field of int64 scalars on nodes.
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1af3cd5ecfd626ca40b1273634734f38d5"></a>
-### Function dvs\_update\_var\_element\_vector
+### Function dvs_update_var_element_vector
 
 ![][public]
 
@@ -1749,7 +1749,7 @@ Updates a field of vectors on elements, the size of all coordinate arrays must b
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1a9086155711ed76c6141bdde2291f140a"></a>
-### Function dvs\_update\_var\_node\_vector
+### Function dvs_update_var_node_vector
 
 ![][public]
 
@@ -1794,7 +1794,7 @@ Updates a field of vectors on nodes, the size of all coordinate arrays must be t
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1a433ce5100e551dca71dee92b0afe1563"></a>
-### Function dvs\_update\_plot
+### Function dvs_update_plot
 
 ![][public]
 
@@ -1839,7 +1839,7 @@ Update the data for a plot, the size of the x_values and y_values should match a
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1ae75177bf47fcb28313e79840bf778c75"></a>
-### Function dvs\_end\_update
+### Function dvs_end_update
 
 ![][public]
 
@@ -1869,7 +1869,7 @@ Call to end the update for this timestep/rank/chunk.
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1a5237ada583b0cb7817d12d1135f9349e"></a>
-### Function dvs\_delete\_item
+### Function dvs_delete_item
 
 ![][public]
 
@@ -1930,7 +1930,7 @@ Note: The update number should be monotonically increasing with the begin_update
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1a345e9b656b994a3e1677b354077b2fff"></a>
-### Function dvs\_print\_stats
+### Function dvs_print_stats
 
 ![][public]
 
@@ -1955,7 +1955,7 @@ This will be deprecated, just placeholder for printing out stats that the client
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1abf84206bdff4c0d6f00ada37f6eadf55"></a>
-### Function dvs\_session\_shutdown
+### Function dvs_session_shutdown
 
 ![][public]
 
@@ -1985,7 +1985,7 @@ Shutdown session.
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1adc2aa26177a1b4a487b3c8f3f7b7b23d"></a>
-### Function dvs\_session\_shutdown\_all
+### Function dvs_session_shutdown_all
 
 ![][public]
 
@@ -2004,7 +2004,7 @@ All previously returned session_id's from dvs_connect will be invalid once this 
 **Return type**: DVS_DLL_EXPORT void
 
 <a id="dynamic__visualization__store__api_8h_1a815bb1d2251e35e3bfd3c44a4a338052"></a>
-### Function dvs\_shutdown
+### Function dvs_shutdown
 
 ![][public]
 
@@ -2023,7 +2023,7 @@ Shuts down the api, performing any necessary cleanup, also calls [dvs\_server\_s
 **Return type**: DVS_DLL_EXPORT void
 
 <a id="dynamic__visualization__store__api_8h_1a06196ff56fe7f270172239c1be4ce0cd"></a>
-### Function dvs\_server\_create
+### Function dvs_server_create
 
 ![][public]
 
@@ -2055,7 +2055,7 @@ Create a Dynamic Visualization Store server instance for the client to connect.
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#typedef-dvs_ret)
 
 <a id="dynamic__visualization__store__api_8h_1ae8abdb8455cea44bbd9f509c1a063516"></a>
-### Function dvs\_server\_set\_option
+### Function dvs_server_set_option
 
 ![][public]
 
@@ -2096,7 +2096,7 @@ These options are used on server startup. Setting an option after a server is st
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1aa5722a5316ee73bdd998c9a327e8cb3d"></a>
-### Function dvs\_server\_start
+### Function dvs_server_start
 
 ![][public]
 
@@ -2143,7 +2143,7 @@ local_ranks is used to determine how many clients will be connecting to this ser
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1a996a1d0e1696ad7f991e44357d78a422"></a>
-### Function dvs\_server\_started
+### Function dvs_server_started
 
 ![][public]
 
@@ -2175,7 +2175,7 @@ Check to see if a server was started with this server_num.
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1adeb64f5db63b08a79f2a59a85c5d9683"></a>
-### Function dvs\_server\_timestep\_count
+### Function dvs_server_timestep_count
 
 ![][public]
 
@@ -2209,7 +2209,7 @@ Query a Dynamic Visualization Store server as to the number of timesteps it cont
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1ad16ba277108c7187b0a11f461b1477ca"></a>
-### Function dvs\_server\_shutdown
+### Function dvs_server_shutdown
 
 ![][public]
 
@@ -2239,7 +2239,7 @@ Shutdown this server thread.
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1ac16a3c06bb1968ddba06d83f5e2a1f56"></a>
-### Function dvs\_server\_shutdown\_all
+### Function dvs_server_shutdown_all
 
 ![][public]
 
@@ -2258,7 +2258,7 @@ Shutdown all server threads.
 **Return type**: DVS_DLL_EXPORT void
 
 <a id="dynamic__visualization__store__api_8h_1a11887bd000ddab30ababc765e244b094"></a>
-### Function dvs\_server\_get\_uri
+### Function dvs_server_get_uri
 
 ![][public]
 
@@ -2308,7 +2308,7 @@ DVS_NONE if the server is running and a port is allocated.
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1ab768f6a1427178b8dd5e8888f19da0d4"></a>
-### Function dvs\_add\_part\_rigid\_body\_motion
+### Function dvs_add_part_rigid_body_motion
 
 ![][public]
 
@@ -2347,7 +2347,7 @@ DVS_NONE if the update was successful
 **Return type**: DVS_DLL_EXPORT [dvs\_ret](dynamic__visualization__store__error__codes_8h.md#dynamic__visualization__store__error__codes_8h_1a1d7466ae72e89fe36cbf2408b4f7d9c1)
 
 <a id="dynamic__visualization__store__api_8h_1a21864240d89612eb1fb81fdceb829d1e"></a>
-### Function dvs\_convert\_rotation\_to\_quaternion
+### Function dvs_convert_rotation_to_quaternion
 
 ![][public]
 

@@ -37,6 +37,8 @@ Use these Topic types when adding publishers/subscribers for the listed IDs.
 
 * "ScenarioVariableTopic" -> <code>VariantMapTopicType</code> (uses <code>rtidds::VariantMap</code>)
 
+* "VehicleControlInputTopic" -> <code>GenericBytesTopicType</code> (uses <code>rtidds::GenericBytesMessage</code>)
+
 
 
 
@@ -110,12 +112,29 @@ AddSubscriber<core::topic_registry::VariantMapTopicType>(
 
 * For the C++ native <code>VariantMap</code> API and bi-directional conversion helpers, see <code>core/communication/utils/variant_map.h</code> and <code>core/communication/utils/variant_map_converter.h</code>.
 
+5) VehicleControlInput I/O (<code>VehicleControlInputTopic</code>) 
+```cpp
+AddPublisher<core::Topic<rtidds::GenericBytesMessage>>(
+    "VehicleControlInputTopic", [&]() {
+  autonomy::communication::messages::VehicleControlInput msg;
+  return autonomy::communication::utils::ConvertAutonomyMsgToGenericBytes(frame_counter, header_name, msg); //
+rtidds::GenericBytesMessage
+}
+);
+
+AddSubscriber<core::Topic<rtidds::GenericBytesMessage>>(
+    "VehicleControlInputTopic", [&](const rtidds::GenericBytesMessage& msg) {
+  autonomy::communication::messages::VehicleControlInput inputs;
+  autonomy::communication::utils::ConvertGenericBytesToAutonomyMsg(msg,inputs);}
+);
+```
+
 <a id="autonomy_2communication_2topic__registry_2topic__registry_8h_1abc5d170dec018a5f04fd69307316a25a"></a>
 ### Typedef ScenarioVariableTopicType
 
 ![][public]
 
-**Definition**: `autonomy/communication/topic_registry/topic_registry.h` (line 118)
+**Definition**: `autonomy/communication/topic_registry/topic_registry.h` (line 136)
 
 
 ```cpp
@@ -156,7 +175,7 @@ Return a concrete Topic instance for a known Autonomy Topic ID.
 
 **Parameters**:
 
-* **topic_id**: One of: "KpiLoggerTopic", "DriverInputTopic", "SensorViewTopic", "SensorDataTopic", "TrafficUpdateTopic", "TrafficCommandTopic", "MotionRequestTopic", "FmuInput", "FmuOutput", "ScenarioVariableTopic".
+* **topic_id**: One of: "KpiLoggerTopic", "DriverInputTopic", "SensorViewTopic", "SensorDataTopic", "TrafficUpdateTopic", "TrafficCommandTopic", "MotionRequestTopic", "FmuInput", "FmuOutput", "ScenarioVariableTopic", "VehicleControlInputTopic".
 
 
 **Returns**:
@@ -181,5 +200,5 @@ A <code>std::shared_ptr<[core::ITopic](classsimulation__framework_1_1core_1_1ITo
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
-[static]: https://img.shields.io/badge/-static-lightgrey (static)
 [protected]: https://img.shields.io/badge/-protected-yellow (protected)
+[static]: https://img.shields.io/badge/-static-lightgrey (static)

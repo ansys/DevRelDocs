@@ -2,4 +2,4 @@
 
 <a id="compolyx.plot_data.PlotData.serialize_create_function"></a>
 
-#### PlotData.serialize_create_function()
+## PlotData.serialize_create_function()

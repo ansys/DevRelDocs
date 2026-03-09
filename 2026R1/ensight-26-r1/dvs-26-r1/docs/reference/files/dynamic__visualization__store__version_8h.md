@@ -1,4 +1,4 @@
-# File dynamic\_visualization\_store\_version.h
+# File dynamic_visualization_store_version.h
 
 <a id="dynamic__visualization__store__version_8h"></a>
 
@@ -67,7 +67,7 @@ click 9 "test__dvs__server_8cpp.md#test__dvs__server_8cpp"
 ## Macros
 
 <a id="dynamic__visualization__store__version_8h_1ad6da902b33396e8306b60564e95d66e5"></a>
-### Macro DVS\_CURRENT\_API\_VERSION
+### Macro DVS_CURRENT_API_VERSION
 
 ![][public]
 

@@ -2,6 +2,6 @@
 
 <a id="compolyx.CADGeometry.uid"></a>
 
-#### *property* CADGeometry.uid
+## *property* CADGeometry.uid
 
-UID of object
+UID of the object.

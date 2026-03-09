@@ -1,6 +1,6 @@
 # Further reading
 
-- Also installed with TD is a file called “OpenTD Class Reference.chm”. This contains a complete list of all public types, members, and methods in OpenTD. You can find it in the TD installation directory, usually in the same location as this guide.
+- The Thermal Desktop section of the Ansys Developer Portal includes the OpenTD Class Reference. This contains a complete list of all public types, members, and methods in OpenTD. 
 
 - The TD user forum ([http://www.crtech.com/forum](http://www.crtech.com/forum)) contains more OpenTD demos, written in C#, MATLAB, and Python. Two boards are especially useful:
 

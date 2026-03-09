@@ -2,6 +2,6 @@
 
 <a id="compolyx.PlyBook.name"></a>
 
-#### *property* PlyBook.name
+## *property* PlyBook.name
 
-Name of object
+Name of the object.

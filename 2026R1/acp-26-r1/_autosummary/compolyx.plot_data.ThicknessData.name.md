@@ -2,6 +2,6 @@
 
 <a id="compolyx.plot_data.ThicknessData.name"></a>
 
-#### *property* ThicknessData.name
+## *property* ThicknessData.name
 
-Name of object
+Name of the object.

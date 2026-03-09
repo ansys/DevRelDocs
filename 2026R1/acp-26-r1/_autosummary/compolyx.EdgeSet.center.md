@@ -2,4 +2,4 @@
 
 <a id="compolyx.EdgeSet.center"></a>
 
-#### EdgeSet.center()
+## EdgeSet.center()

@@ -272,7 +272,7 @@ The current simulation state as a <code>SimState</code> enum value.
 
 **Reimplemented by**:
 
-* [GetSimulationState](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner_1ab5f6d34b0bbd35000cfff95bcfeb901f)
+* [GetSimulationState](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner_1affd8a34918f2dbd7cd192f0351804055)
 
 <!--
 **TODO**:
@@ -304,7 +304,7 @@ The total number of steps executed as a 64-bit unsigned integer.
 
 **Reimplemented by**:
 
-* [GetExecutedStepCount](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner_1ab7b56bf2aa50f1ca9b14b928268939eb)
+* [GetExecutedStepCount](classsimulation__framework_1_1core_1_1SimRunner.md#classsimulation__framework_1_1core_1_1SimRunner_1adec7aec8d884742bb373d649e8a3e9c3)
 
 <!--
 **TODO**:
@@ -351,3 +351,5 @@ Runs any remaining parts of the simulation to completion.
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[protected]: https://img.shields.io/badge/-protected-yellow (protected)
+[static]: https://img.shields.io/badge/-static-lightgrey (static)

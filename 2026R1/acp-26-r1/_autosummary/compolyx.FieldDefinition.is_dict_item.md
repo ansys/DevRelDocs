@@ -2,6 +2,6 @@
 
 <a id="compolyx.FieldDefinition.is_dict_item"></a>
 
-#### *property* FieldDefinition.is_dict_item
+## *property* FieldDefinition.is_dict_item
 
-Specifies whether the object is an item of a dict
+Indicates whether the object is an item in a dictionary.

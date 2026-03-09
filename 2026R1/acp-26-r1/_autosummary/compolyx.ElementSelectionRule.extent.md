@@ -2,6 +2,6 @@
 
 <a id="compolyx.ElementSelectionRule.extent"></a>
 
-#### *property* ElementSelectionRule.extent
+## *property* ElementSelectionRule.extent
 
-extent of the rule
+Extent of the rule.

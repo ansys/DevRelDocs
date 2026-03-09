@@ -2,6 +2,6 @@
 
 <a id="compolyx.EdgeSet.serialize"></a>
 
-#### EdgeSet.serialize()
+## EdgeSet.serialize()
 
 Serialize to Python string.

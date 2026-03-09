@@ -2,6 +2,6 @@
 
 <a id="compolyx.plot_data.LayupMappingData.description_changed"></a>
 
-#### *property* LayupMappingData.description_changed
+## *property* LayupMappingData.description_changed
 
 Status boolean. Set to true if the object’s description has been changed. Write only property.

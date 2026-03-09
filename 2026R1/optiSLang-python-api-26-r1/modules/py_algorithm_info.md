@@ -8,12 +8,6 @@
 
 #### \_\_init_\_(arg2: [SupportedAlgorithms](dynardo_py_algorithms.md#dynardo_py_algorithms.SupportedAlgorithms))
 
-<a id="py_algorithm_info.AlgorithmInfo.add_detailed_info"></a>
-
-#### add_detailed_info(detailed: DetailedAlgorithmInfo info)
-
-Adds detailed info.
-
 <a id="py_algorithm_info.AlgorithmInfo.add_signal_info"></a>
 
 #### add_signal_info(signal: str name, abscissa: list)
@@ -92,12 +86,6 @@ Returns whether the detailed info is of type AdaptiveMOP info.
 
 Returns whether the deterministic parameters were varied in this algorithm.
 
-<a id="py_algorithm_info.AlgorithmInfo.is_dual_mop_info"></a>
-
-#### is_dual_mop_info() → bool
-
-Returns whether the detailed info is of type dual MOP (MOP and MOP3).
-
 <a id="py_algorithm_info.AlgorithmInfo.is_mop3_info"></a>
 
 #### is_mop3_info() → bool
@@ -109,18 +97,6 @@ Returns whether the detailed info is of type MOP3 info.
 #### is_mop_info() → bool
 
 Returns whether the detailed info is of type MOP info.
-
-<a id="py_algorithm_info.AlgorithmInfo.is_only_mop3_info"></a>
-
-#### is_only_mop3_info() → bool
-
-Returns whether the detailed info is of type MOP3 info only.
-
-<a id="py_algorithm_info.AlgorithmInfo.is_only_mop_info"></a>
-
-#### is_only_mop_info() → bool
-
-Returns whether the detailed info is of type MOP info only.
 
 <a id="py_algorithm_info.AlgorithmInfo.is_optimization_info"></a>
 
@@ -151,12 +127,6 @@ Returns whether the detailed info is of type Sensitivity info.
 #### is_stochastic_sampling() → bool
 
 Returns whether the stochastic parameters were varied in this algorithm.
-
-<a id="py_algorithm_info.AlgorithmInfo.set_algo_info_type"></a>
-
-#### set_algo_info_type(algorithm: SupportedAlgorithms type, reset: bool detailed info)
-
-Sets the algorithm info type.
 
 <a id="py_algorithm_info.DetailedAlgorithmInfo"></a>
 

@@ -1,4 +1,4 @@
-# File dynamic\_scene\_graph.proto
+# File dynamic_scene_graph.proto
 
 <a id="dynamic__scene__graph_8proto"></a>
 

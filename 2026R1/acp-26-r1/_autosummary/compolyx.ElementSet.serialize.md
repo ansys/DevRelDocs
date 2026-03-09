@@ -2,6 +2,6 @@
 
 <a id="compolyx.ElementSet.serialize"></a>
 
-#### ElementSet.serialize()
+## ElementSet.serialize()
 
 Serialize to Python string.

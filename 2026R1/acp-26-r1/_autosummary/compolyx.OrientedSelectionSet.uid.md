@@ -2,6 +2,6 @@
 
 <a id="compolyx.OrientedSelectionSet.uid"></a>
 
-#### *property* OrientedSelectionSet.uid
+## *property* OrientedSelectionSet.uid
 
-UID of object
+UID of the object.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.plot_data.ScalarFieldData.status_changed"></a>
 
-#### *property* ScalarFieldData.status_changed
+## *property* ScalarFieldData.status_changed
 
 Boolean flag which is set to true in C++ when up-to-date status of object changes.

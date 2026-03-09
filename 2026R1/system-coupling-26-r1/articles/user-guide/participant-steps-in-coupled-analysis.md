@@ -10,14 +10,25 @@ It is important that these steps are traversed in this exact sequence as shown b
 
 ## Flowchart diagrams for participant steps in a coupled analysis
 
+### Participant steps in a mapping coupled analysis
+
+This sequence of steps is required for a participant which is doing a mapping analysis.
+Note that in comparison with the other analyses described below, a participant which has
+an analysis type of mapping does not call `updateInputs()` or `updateOutputs()`. The data
+are mapped to/from the participant during `initializeAnalysis()` and may not be changed after
+this time. It must traverse this sequence of steps.
+
+![Figure 1: Sequence of participant steps for a mapping analysis](./../images/ParticipantStepsInCoupledAnalysisFigure1.png)  
+*Figure 1: Sequence of participant steps for a mapping analysis*
+
 ### Participant steps in a steady coupled analysis
 
 This sequence of steps is required for the participant which is doing a steady analysis.
 Note that the coupled analysis type may or may not be steady. The important part is that
 if this participant is steady, it must traverse this sequence of steps.
 
-![Figure 1: Sequence of participant steps for a steady analysis](./../images/ParticipantStepsInCoupledAnalysisFigure1.png)  
-*Figure 1: Sequence of participant steps for a steady analysis*
+![Figure 2: Sequence of participant steps for a steady analysis](./../images/ParticipantStepsInCoupledAnalysisFigure2.png)  
+*Figure 2: Sequence of participant steps for a steady analysis*
 
 ### Participant steps in a transient coupled analysis with iterations
 
@@ -31,8 +42,8 @@ will correspond to the time value at the end of the current coupling time step. 
 this participant should produce outputs that correspond to the time
 value at the end of the current coupling time step.
 
-![Figure 2: Sequence of participant steps for a transient analysis with iterations](./../images/ParticipantStepsInCoupledAnalysisFigure2.png)  
-*Figure 2: Sequence of participant steps for a transient analysis with iterations*
+![Figure 3: Sequence of participant steps for a transient analysis with iterations](./../images/ParticipantStepsInCoupledAnalysisFigure3.png)  
+*Figure 3: Sequence of participant steps for a transient analysis with iterations*
 
 ### Participant steps in a transient coupled analysis without iterations
 
@@ -43,8 +54,8 @@ to the time value at the beginning of the current coupling time step, and after 
 the participant should produce outputs that correspond to the time value at the
 end of the current coupling time step.
 
-![Figure 3: Sequence of participant steps for a transient analysis without iterations](./../images/ParticipantStepsInCoupledAnalysisFigure3.png)  
-*Figure 3: Sequence of participant steps for a transient analysis without iterations*
+![Figure 4: Sequence of participant steps for a transient analysis without iterations](./../images/ParticipantStepsInCoupledAnalysisFigure4.png)  
+*Figure 4: Sequence of participant steps for a transient analysis without iterations*
 
 ## Connect to System Coupling
 
@@ -195,6 +206,10 @@ sc.initializeAnalysis()
 Enter a coupled analysis loop until the analysis is complete.
 This step is different, depending on whether the analysis
 is steady or transient.
+
+* For mapping analysis, there is no **coupling time step loop** or **coupling iteration loop**.
+The participant should not enter the coupling time step or iteration loops. Note that calling
+either **Update Inputs** or **Update Outputs** in a mapping participant will throw an error.
 
 * For steady analysis, there is the **coupling iteration loop**.
 The participant should enter the coupling iteration loop

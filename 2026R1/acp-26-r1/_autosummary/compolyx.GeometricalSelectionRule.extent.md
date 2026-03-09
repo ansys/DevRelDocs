@@ -2,6 +2,6 @@
 
 <a id="compolyx.GeometricalSelectionRule.extent"></a>
 
-#### *property* GeometricalSelectionRule.extent
+## *property* GeometricalSelectionRule.extent
 
-extent of the rule
+Extent of the rule.

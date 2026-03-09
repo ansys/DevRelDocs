@@ -2,4 +2,4 @@
 
 <a id="compolyx.ParallelSelectionRule.serialize_rule_types"></a>
 
-#### ParallelSelectionRule.serialize_rule_types()
+## ParallelSelectionRule.serialize_rule_types()

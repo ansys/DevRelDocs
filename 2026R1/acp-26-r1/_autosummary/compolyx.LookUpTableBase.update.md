@@ -2,4 +2,4 @@
 
 <a id="compolyx.LookUpTableBase.update"></a>
 
-#### LookUpTableBase.update()
+## LookUpTableBase.update()

@@ -2,6 +2,6 @@
 
 <a id="compolyx.CADGeometry.precision"></a>
 
-#### *property* CADGeometry.precision
+## *property* CADGeometry.precision
 
-Precision of geometrical operations (intersection points, thickness sampling, etc.).
+Precision of geometrical operations (intersection points, thickness sampling, …).

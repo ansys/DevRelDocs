@@ -2,6 +2,6 @@
 
 <a id="compolyx.SphericalSelectionRule.extent"></a>
 
-#### *property* SphericalSelectionRule.extent
+## *property* SphericalSelectionRule.extent
 
-extent of the rule
+Extent of the rule.

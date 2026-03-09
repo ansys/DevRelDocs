@@ -1,4 +1,4 @@
-# File dvs\_dataset\_interface.h
+# File dvs_dataset_interface.h
 
 <a id="dvs__dataset__interface_8h"></a>
 

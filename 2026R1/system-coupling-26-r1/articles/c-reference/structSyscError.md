@@ -3,7 +3,7 @@
 ![][C]
 ![][public]
 
-**Definition**: `syscCommonTypes.h` (line 137)
+**Definition**: `syscCommonTypes.h` (line 138)
 
 Provide a struct for detecting errors from the interface calls.
 
@@ -21,11 +21,13 @@ Provide a struct for detecting errors from the interface calls.
 
 ![][public]
 
-**Definition**: `syscCommonTypes.h` (line 138)
+**Definition**: `syscCommonTypes.h` (line 139)
+
 
 ```
 int SyscError::retcode
 ```
+
 
 
 
@@ -40,11 +42,13 @@ Error code. Set to 0 if no error.
 
 ![][public]
 
-**Definition**: `syscCommonTypes.h` (line 139)
+**Definition**: `syscCommonTypes.h` (line 140)
+
 
 ```
 char SyscError::message[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
+
 
 
 

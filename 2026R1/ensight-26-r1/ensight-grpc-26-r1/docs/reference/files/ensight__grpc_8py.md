@@ -1,4 +1,4 @@
-# File ensight\_grpc.py
+# File ensight_grpc.py
 
 <a id="ensight__grpc_8py"></a>
 

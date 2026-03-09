@@ -2,6 +2,6 @@
 
 <a id="compolyx.LookUpTable1D.enabled"></a>
 
-#### *property* LookUpTable1D.enabled
+## *property* LookUpTable1D.enabled
 
-Whether this object is currently enabled or not. Mainly defined through the current application mode.
+Internal read-only flag. When `False`, the ACP GUI disables certain editing operations. The `enabled` state depends on the application mode (ACP Pre or Shared) and the object’s `locked` state.

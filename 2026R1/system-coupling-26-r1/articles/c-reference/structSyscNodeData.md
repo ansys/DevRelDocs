@@ -13,6 +13,7 @@ To create and/or initialize [SyscNodeData](structSyscNodeData.md#structSyscNodeD
 
 
 
+
 ```
 SyscNodeData nodeData = syscGetNodeDataC(nodeCoords);
 ```
@@ -31,9 +32,11 @@ SyscNodeData nodeData = syscGetNodeDataC(nodeCoords);
 
 **Definition**: `syscMeshDefinition.h` (line 42)
 
+
 ```
 SyscOutputIntegerData SyscNodeData::nodeIds
 ```
+
 
 
 
@@ -50,9 +53,11 @@ Node ids array access.
 
 **Definition**: `syscMeshDefinition.h` (line 43)
 
+
 ```
 SyscOutputVectorData SyscNodeData::nodeCoords
 ```
+
 
 
 

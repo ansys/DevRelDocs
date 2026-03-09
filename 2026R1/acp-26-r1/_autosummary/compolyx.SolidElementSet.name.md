@@ -2,6 +2,6 @@
 
 <a id="compolyx.SolidElementSet.name"></a>
 
-#### *property* SolidElementSet.name
+## *property* SolidElementSet.name
 
-Name of object
+Name of the object.

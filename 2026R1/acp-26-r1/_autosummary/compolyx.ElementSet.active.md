@@ -2,6 +2,6 @@
 
 <a id="compolyx.ElementSet.active"></a>
 
-#### *property* ElementSet.active
+## *property* ElementSet.active
 
-active status of object
+Active status of the object.

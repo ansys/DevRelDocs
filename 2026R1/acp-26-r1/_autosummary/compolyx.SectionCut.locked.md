@@ -2,6 +2,6 @@
 
 <a id="compolyx.SectionCut.locked"></a>
 
-#### *property* SectionCut.locked
+## *property* SectionCut.locked
 
 Section cut was imported and cannot be changed.

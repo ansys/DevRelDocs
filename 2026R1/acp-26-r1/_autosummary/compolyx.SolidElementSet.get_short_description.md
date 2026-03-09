@@ -2,4 +2,4 @@
 
 <a id="compolyx.SolidElementSet.get_short_description"></a>
 
-#### SolidElementSet.get_short_description()
+## SolidElementSet.get_short_description()

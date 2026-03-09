@@ -2,6 +2,6 @@
 
 <a id="compolyx.AnalysisPly.mesh"></a>
 
-#### *property* AnalysisPly.mesh
+## *property* AnalysisPly.mesh
 
-Mesh. Only available if analysis ply is reinforced.
+Mesh associated with the ply. Available only when the analysis ply is reinforcing.

@@ -2,6 +2,6 @@
 
 <a id="compolyx.ImportedProductionPly.angle"></a>
 
-#### *property* ImportedProductionPly.angle
+## *property* ImportedProductionPly.angle
 
-Ply Angle of the Production Ply
+Ply angle of the production ply.

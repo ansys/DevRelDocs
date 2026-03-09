@@ -34,7 +34,7 @@
           href: opti_api_python_nodes_integration_demos_special.md
     - name: MOP Node
       href: opti_api_python_nodes_mop.md
-    - name: Generating Encryped File Sets 
+    - name: Generating Encrypted File Sets 
       href: opti_api_python_nodes_encrypted.md
   - name: Post-Processing
     href: opti_api_python_postprocessing.md
@@ -52,4 +52,4 @@
     - name: Surrogates
       href: opti_api_python_qml_surrogates.md
 - name: Changelog
-  href: Changelog.md
+  href: changelog.md

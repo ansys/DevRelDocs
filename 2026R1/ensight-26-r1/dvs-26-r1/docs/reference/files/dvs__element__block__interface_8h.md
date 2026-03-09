@@ -1,4 +1,4 @@
-# File dvs\_element\_block\_interface.h
+# File dvs_element_block_interface.h
 
 <a id="dvs__element__block__interface_8h"></a>
 

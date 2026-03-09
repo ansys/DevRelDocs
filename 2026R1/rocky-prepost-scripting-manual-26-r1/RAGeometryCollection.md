@@ -37,27 +37,37 @@ To create the different kind of geometries (conveyors, inlets and custom geometr
 **Methods:**
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| [`GetBoundingBox`](#generated.RAGeometryCollection.GetBoundingBox)(time_step[, force_load])   | Get the bounding box containing all geometries in this collection, at the given time.                   |
-| [`GetGeometry`](#generated.RAGeometryCollection.GetGeometry)(geometry_name)                   | Get a geometry from its name.                                                                           |
-| [`GetGeometryNames`](#generated.RAGeometryCollection.GetGeometryNames)()                      | Get the names of the geometries in this collection.                                                     |
-| [`IterInletGeometries`](#generated.RAGeometryCollection.IterInletGeometries)()                | Iterate over the inlet geometries.                                                                      |
-| [`IterInputGeometries`](#generated.RAGeometryCollection.IterInputGeometries)()                | Deprecated: Use [`IterInletGeometries()`](#generated.RAGeometryCollection.IterInletGeometries) instead. |
-| [`IterSurfaces`](#generated.RAGeometryCollection.IterSurfaces)()                              | Iterate over the surface geometries.                                                                    |
-| [`IterSystemCouplingWalls`](#generated.RAGeometryCollection.IterSystemCouplingWalls)()        | Iterate over the System Coupling walls geometries.                                                      |
-| [`IterWalls`](#generated.RAGeometryCollection.IterWalls)()                                    | Iterate over the walls geometries.                                                                      |
-| [`RemoveGeometry`](#generated.RAGeometryCollection.RemoveGeometry)(geometry)                  | Remove the given geometry from the project.                                                             |
+|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| [`Clear`](#generated.RAGeometryCollection.Clear)()                                               | Remove all items from the list.                                                       |
+| [`GetBoundingBox`](#generated.RAGeometryCollection.GetBoundingBox)(time_step[, force_load, ...]) | Get the bounding box containing all geometries in this collection, at the given time. |
+| [`GetGeometry`](#generated.RAGeometryCollection.GetGeometry)(geometry_name)                      | Get a geometry from its name.                                                         |
+| [`GetGeometryNames`](#generated.RAGeometryCollection.GetGeometryNames)()                         | Get the names of the geometries in this collection.                                   |
+| [`IterInletGeometries`](#generated.RAGeometryCollection.IterInletGeometries)()                   | Iterate over the inlet geometries.                                                    |
+| [`IterSurfaces`](#generated.RAGeometryCollection.IterSurfaces)()                                 | Iterate over the surface geometries.                                                  |
+| [`IterSystemCouplingWalls`](#generated.RAGeometryCollection.IterSystemCouplingWalls)()           | Iterate over the System Coupling walls geometries.                                    |
+| [`IterWalls`](#generated.RAGeometryCollection.IterWalls)()                                       | Iterate over the walls geometries.                                                    |
+| [`New`](#generated.RAGeometryCollection.New)()                                                   | Add a new item.                                                                       |
+| [`Remove`](#generated.RAGeometryCollection.Remove)(item)                                         | Remove an item from the list.                                                         |
+| [`RemoveGeometry`](#generated.RAGeometryCollection.RemoveGeometry)(geometry)                     | Remove the given geometry from the project.                                           |
+
+<a id="generated.RAGeometryCollection.Clear"></a>
+
+#### Clear()
+
+Remove all items from the list.
 
 <a id="generated.RAGeometryCollection.GetBoundingBox"></a>
 
-#### GetBoundingBox(time_step: ITimeStep | None, force_load: bool = False)
+#### GetBoundingBox(time_step: ITimeStep | None, force_load: bool = False, force_orthogonal: bool = True)
 
 Get the bounding box containing all geometries in this collection, at the given time.
 
 * **Parameters:**
-  * **time_step** (*ITimeStep*)
-  * **force_load** (*bool*)
-* **Rtype (FixedArray, FixedArray):**
+  * **time_step** – The time step for which the bounding box should be computed.
+  * **force_load** – If True, the bounding box will be computed by loading the geometries from the project.
+    If False, the bounding box will only be returned if it was already computed.
+  * **force_orthogonal** – If True, the bounding box will be computed in an orthogonal coordinate system.
+    If False, the bounding box will be computed in the original coordinate system of the geometries.
 * **Returns:**
   The bounding box of all the geometries in the passed time step, or None if the box
   could not be computed.
@@ -83,12 +93,6 @@ Get the names of the geometries in this collection.
 
 Iterate over the inlet geometries.
 
-<a id="generated.RAGeometryCollection.IterInputGeometries"></a>
-
-#### IterInputGeometries()
-
-Deprecated: Use [`IterInletGeometries()`](#generated.RAGeometryCollection.IterInletGeometries) instead.
-
 <a id="generated.RAGeometryCollection.IterSurfaces"></a>
 
 #### IterSurfaces()
@@ -106,6 +110,18 @@ Iterate over the System Coupling walls geometries.
 #### IterWalls()
 
 Iterate over the walls geometries.
+
+<a id="generated.RAGeometryCollection.New"></a>
+
+#### New()
+
+Add a new item. Returns the newly created item.
+
+<a id="generated.RAGeometryCollection.Remove"></a>
+
+#### Remove(item: T)
+
+Remove an item from the list.
 
 <a id="generated.RAGeometryCollection.RemoveGeometry"></a>
 

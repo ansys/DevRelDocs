@@ -2,6 +2,6 @@
 
 <a id="compolyx.SubLaminate.name"></a>
 
-#### *property* SubLaminate.name
+## *property* SubLaminate.name
 
-Name of object
+Name of the object.
