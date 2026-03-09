@@ -1,5 +1,5 @@
 # Changelog
 
-## Version 2025 R2
+## Version 2026 R1
 
-- Text changes for Discovery 2025R2.
+- No changes for this release.

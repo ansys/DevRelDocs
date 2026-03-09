@@ -1,0 +1,12 @@
+{ 
+    "build": { 
+      "globalMetadata": { 
+        "title": "Zemax OpticStudio ZOS-API 2026 R1", 
+        "summary": "Build your interface using the API references and examples to interact with Ansys Zemax OpticStudio.", 
+        "version": "2026 R1", 
+        "product": "Zemax OpticStudio", 
+        "product collection": "Optics", 
+        "physics": "Optics" 
+      } 
+    } 
+ } 
