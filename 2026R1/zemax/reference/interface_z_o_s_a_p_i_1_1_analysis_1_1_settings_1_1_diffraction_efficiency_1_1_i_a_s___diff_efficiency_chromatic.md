@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Analysis::Settings::DiffractionEfficiency::IAS\_DiffEfficiencyChromatic
+# Interface ZOSAPI::Analysis::Settings::DiffractionEfficiency::IAS_DiffEfficiencyChromatic
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_diffraction_efficiency_1_1_i_a_s___diff_efficiency_chromatic"></a>
 

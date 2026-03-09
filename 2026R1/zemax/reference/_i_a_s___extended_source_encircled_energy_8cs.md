@@ -1,4 +1,4 @@
-# File IAS\_ExtendedSourceEncircledEnergy.cs
+# File IAS_ExtendedSourceEncircledEnergy.cs
 
 <a id="_i_a_s___extended_source_encircled_energy_8cs"></a>
 

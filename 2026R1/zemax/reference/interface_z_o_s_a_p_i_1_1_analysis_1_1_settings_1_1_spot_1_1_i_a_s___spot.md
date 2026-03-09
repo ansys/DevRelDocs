@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Analysis::Settings::Spot::IAS\_Spot
+# Interface ZOSAPI::Analysis::Settings::Spot::IAS_Spot
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_spot_1_1_i_a_s___spot"></a>
 

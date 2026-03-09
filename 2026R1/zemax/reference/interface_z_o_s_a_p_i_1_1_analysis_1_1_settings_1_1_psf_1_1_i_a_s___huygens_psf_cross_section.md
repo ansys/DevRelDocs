@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Analysis::Settings::Psf::IAS\_HuygensPsfCrossSection
+# Interface ZOSAPI::Analysis::Settings::Psf::IAS_HuygensPsfCrossSection
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_psf_1_1_i_a_s___huygens_psf_cross_section"></a>
 

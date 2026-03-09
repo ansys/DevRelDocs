@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Analysis::Settings::DiffractionEfficiency::IAS\_DiffEfficiencyAngular
+# Interface ZOSAPI::Analysis::Settings::DiffractionEfficiency::IAS_DiffEfficiencyAngular
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_diffraction_efficiency_1_1_i_a_s___diff_efficiency_angular"></a>
 

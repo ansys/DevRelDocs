@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Editors::NCE::IIMS\_GRIN
+# Interface ZOSAPI::Editors::NCE::IIMS_GRIN
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_i_m_s___g_r_i_n"></a>
 

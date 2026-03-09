@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Analysis::Settings::Mtf::IAS\_GeometricThroughFocusMtf
+# Interface ZOSAPI::Analysis::Settings::Mtf::IAS_GeometricThroughFocusMtf
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1_1_i_a_s___geometric_through_focus_mtf"></a>
 

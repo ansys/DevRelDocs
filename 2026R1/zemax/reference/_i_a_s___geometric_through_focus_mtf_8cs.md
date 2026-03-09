@@ -1,4 +1,4 @@
-# File IAS\_GeometricThroughFocusMtf.cs
+# File IAS_GeometricThroughFocusMtf.cs
 
 <a id="_i_a_s___geometric_through_focus_mtf_8cs"></a>
 

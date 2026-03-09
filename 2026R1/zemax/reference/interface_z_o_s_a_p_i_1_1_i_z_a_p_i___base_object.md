@@ -1,4 +1,4 @@
-# Interface ZOSAPI::IZAPI\_BaseObject
+# Interface ZOSAPI::IZAPI_BaseObject
 
 <a id="interface_z_o_s_a_p_i_1_1_i_z_a_p_i___base_object"></a>
 

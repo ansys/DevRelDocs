@@ -1,4 +1,4 @@
-# Interface ZOSAPI::IZOSAPI\_Application
+# Interface ZOSAPI::IZOSAPI_Application
 
 <a id="interface_z_o_s_a_p_i_1_1_i_z_o_s_a_p_i___application"></a>
 

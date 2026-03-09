@@ -1,4 +1,4 @@
-# File IAS\_GrinProfile.cs
+# File IAS_GrinProfile.cs
 
 <a id="_i_a_s___grin_profile_8cs"></a>
 

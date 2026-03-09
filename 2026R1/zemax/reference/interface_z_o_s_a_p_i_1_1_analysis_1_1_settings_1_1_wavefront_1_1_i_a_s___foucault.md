@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Analysis::Settings::Wavefront::IAS\_Foucault
+# Interface ZOSAPI::Analysis::Settings::Wavefront::IAS_Foucault
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_wavefront_1_1_i_a_s___foucault"></a>
 

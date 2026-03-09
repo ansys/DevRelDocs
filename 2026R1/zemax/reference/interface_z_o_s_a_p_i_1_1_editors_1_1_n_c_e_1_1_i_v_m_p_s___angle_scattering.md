@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Editors::NCE::IVMPS\_AngleScattering
+# Interface ZOSAPI::Editors::NCE::IVMPS_AngleScattering
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_v_m_p_s___angle_scattering"></a>
 

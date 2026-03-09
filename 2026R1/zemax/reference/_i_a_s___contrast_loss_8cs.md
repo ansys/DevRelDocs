@@ -1,4 +1,4 @@
-# File IAS\_ContrastLoss.cs
+# File IAS_ContrastLoss.cs
 
 <a id="_i_a_s___contrast_loss_8cs"></a>
 

@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Analysis::Settings::Psf::IAS\_FftPsfCrossSection
+# Interface ZOSAPI::Analysis::Settings::Psf::IAS_FftPsfCrossSection
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_psf_1_1_i_a_s___fft_psf_cross_section"></a>
 

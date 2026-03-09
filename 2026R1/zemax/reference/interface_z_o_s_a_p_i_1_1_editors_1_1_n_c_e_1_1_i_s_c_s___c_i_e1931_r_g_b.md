@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Editors::NCE::ISCS\_CIE1931RGB
+# Interface ZOSAPI::Editors::NCE::ISCS_CIE1931RGB
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_s_c_s___c_i_e1931_r_g_b"></a>
 

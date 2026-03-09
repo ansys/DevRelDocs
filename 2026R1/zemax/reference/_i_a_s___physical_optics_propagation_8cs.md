@@ -1,4 +1,4 @@
-# File IAS\_PhysicalOpticsPropagation.cs
+# File IAS_PhysicalOpticsPropagation.cs
 
 <a id="_i_a_s___physical_optics_propagation_8cs"></a>
 

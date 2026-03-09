@@ -1,4 +1,4 @@
-# File IAS\_SeidelCoefficients.cs
+# File IAS_SeidelCoefficients.cs
 
 <a id="_i_a_s___seidel_coefficients_8cs"></a>
 

@@ -1,4 +1,4 @@
-# File IAS\_FileComparator.cs
+# File IAS_FileComparator.cs
 
 <a id="_i_a_s___file_comparator_8cs"></a>
 

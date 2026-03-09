@@ -1,4 +1,4 @@
-# File IAS\_GeometricImageAnalysis.cs
+# File IAS_GeometricImageAnalysis.cs
 
 <a id="_i_a_s___geometric_image_analysis_8cs"></a>
 

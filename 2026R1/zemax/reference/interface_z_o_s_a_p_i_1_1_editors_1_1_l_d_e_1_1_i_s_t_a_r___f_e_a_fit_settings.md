@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Editors::LDE::ISTAR\_FEAFitSettings
+# Interface ZOSAPI::Editors::LDE::ISTAR_FEAFitSettings
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___f_e_a_fit_settings"></a>
 

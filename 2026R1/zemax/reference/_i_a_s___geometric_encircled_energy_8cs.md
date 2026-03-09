@@ -1,4 +1,4 @@
-# File IAS\_GeometricEncircledEnergy.cs
+# File IAS_GeometricEncircledEnergy.cs
 
 <a id="_i_a_s___geometric_encircled_energy_8cs"></a>
 

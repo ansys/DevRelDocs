@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Analysis::Tolerancing::IAS\_TolerancingYield
+# Interface ZOSAPI::Analysis::Tolerancing::IAS_TolerancingYield
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_tolerancing_1_1_i_a_s___tolerancing_yield"></a>
 

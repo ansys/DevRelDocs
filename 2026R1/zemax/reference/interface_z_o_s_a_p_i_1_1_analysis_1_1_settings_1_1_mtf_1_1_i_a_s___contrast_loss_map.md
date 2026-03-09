@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Analysis::Settings::Mtf::IAS\_ContrastLossMap
+# Interface ZOSAPI::Analysis::Settings::Mtf::IAS_ContrastLossMap
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1_1_i_a_s___contrast_loss_map"></a>
 

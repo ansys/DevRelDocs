@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Analysis::Settings::EncircledEnergy::IAS\_ExtendedSourceEncircledEnergy
+# Interface ZOSAPI::Analysis::Settings::EncircledEnergy::IAS_ExtendedSourceEncircledEnergy
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_encircled_energy_1_1_i_a_s___extended_source_encircled_energy"></a>
 

@@ -1,4 +1,4 @@
-# File IAS\_GeometricLineEdgeSpread.cs
+# File IAS_GeometricLineEdgeSpread.cs
 
 <a id="_i_a_s___geometric_line_edge_spread_8cs"></a>
 

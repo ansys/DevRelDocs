@@ -1,4 +1,4 @@
-# File IAS\_DiffEfficiencyChromatic.cs
+# File IAS_DiffEfficiencyChromatic.cs
 
 <a id="_i_a_s___diff_efficiency_chromatic_8cs"></a>
 

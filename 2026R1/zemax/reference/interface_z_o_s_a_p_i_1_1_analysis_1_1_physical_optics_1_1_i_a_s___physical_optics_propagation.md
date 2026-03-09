@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Analysis::PhysicalOptics::IAS\_PhysicalOpticsPropagation
+# Interface ZOSAPI::Analysis::PhysicalOptics::IAS_PhysicalOpticsPropagation
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_physical_optics_1_1_i_a_s___physical_optics_propagation"></a>
 

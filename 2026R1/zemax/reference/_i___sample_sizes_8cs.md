@@ -1,4 +1,4 @@
-# File I\_SampleSizes.cs
+# File I_SampleSizes.cs
 
 <a id="_i___sample_sizes_8cs"></a>
 

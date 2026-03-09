@@ -1,4 +1,4 @@
-# Class ZOSAPI::ZOSAPI\_Connection
+# Class ZOSAPI::ZOSAPI_Connection
 
 <a id="class_z_o_s_a_p_i_1_1_z_o_s_a_p_i___connection"></a>
 

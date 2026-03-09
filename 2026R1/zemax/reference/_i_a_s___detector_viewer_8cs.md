@@ -1,4 +1,4 @@
-# File IAS\_DetectorViewer.cs
+# File IAS_DetectorViewer.cs
 
 <a id="_i_a_s___detector_viewer_8cs"></a>
 

@@ -1,4 +1,4 @@
-# File IAS\_GeometricMtf.cs
+# File IAS_GeometricMtf.cs
 
 <a id="_i_a_s___geometric_mtf_8cs"></a>
 

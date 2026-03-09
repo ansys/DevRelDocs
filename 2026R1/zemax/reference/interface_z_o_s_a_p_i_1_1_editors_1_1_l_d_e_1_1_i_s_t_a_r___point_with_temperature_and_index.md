@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Editors::LDE::ISTAR\_PointWithTemperatureAndIndex
+# Interface ZOSAPI::Editors::LDE::ISTAR_PointWithTemperatureAndIndex
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___point_with_temperature_and_index"></a>
 

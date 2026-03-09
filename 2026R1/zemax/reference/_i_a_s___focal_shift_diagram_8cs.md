@@ -1,4 +1,4 @@
-# File IAS\_FocalShiftDiagram.cs
+# File IAS_FocalShiftDiagram.cs
 
 <a id="_i_a_s___focal_shift_diagram_8cs"></a>
 

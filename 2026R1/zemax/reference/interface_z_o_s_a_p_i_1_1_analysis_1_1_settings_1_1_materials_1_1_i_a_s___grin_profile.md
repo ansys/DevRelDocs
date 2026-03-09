@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Analysis::Settings::Materials::IAS\_GrinProfile
+# Interface ZOSAPI::Analysis::Settings::Materials::IAS_GrinProfile
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_materials_1_1_i_a_s___grin_profile"></a>
 

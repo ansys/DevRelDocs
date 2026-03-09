@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Analysis::Settings::Surface::IAS\_SurfacePhaseCross
+# Interface ZOSAPI::Analysis::Settings::Surface::IAS_SurfacePhaseCross
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_surface_1_1_i_a_s___surface_phase_cross"></a>
 

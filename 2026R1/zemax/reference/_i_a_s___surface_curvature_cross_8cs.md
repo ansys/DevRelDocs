@@ -1,4 +1,4 @@
-# File IAS\_SurfaceCurvatureCross.cs
+# File IAS_SurfaceCurvatureCross.cs
 
 <a id="_i_a_s___surface_curvature_cross_8cs"></a>
 

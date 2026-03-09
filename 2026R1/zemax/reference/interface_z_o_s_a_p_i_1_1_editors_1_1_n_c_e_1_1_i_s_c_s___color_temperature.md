@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Editors::NCE::ISCS\_ColorTemperature
+# Interface ZOSAPI::Editors::NCE::ISCS_ColorTemperature
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_s_c_s___color_temperature"></a>
 

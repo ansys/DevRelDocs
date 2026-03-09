@@ -1,4 +1,4 @@
-# File main\_page.dox
+# File main_page.dox
 
 <a id="main__page_8dox"></a>
 

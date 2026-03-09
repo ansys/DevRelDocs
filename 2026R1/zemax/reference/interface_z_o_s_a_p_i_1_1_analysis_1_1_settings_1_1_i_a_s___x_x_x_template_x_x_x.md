@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Analysis::Settings::IAS\_XXXTemplateXXX
+# Interface ZOSAPI::Analysis::Settings::IAS_XXXTemplateXXX
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_i_a_s___x_x_x_template_x_x_x"></a>
 

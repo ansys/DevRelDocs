@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Editors::LDE::ISurfaceCoeff\_P\_NthPower
+# Interface ZOSAPI::Editors::LDE::ISurfaceCoeff_P_NthPower
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___p___nth_power"></a>
 

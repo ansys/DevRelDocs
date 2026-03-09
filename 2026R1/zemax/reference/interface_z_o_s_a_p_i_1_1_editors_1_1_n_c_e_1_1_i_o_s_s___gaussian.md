@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Editors::NCE::IOSS\_Gaussian
+# Interface ZOSAPI::Editors::NCE::IOSS_Gaussian
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_o_s_s___gaussian"></a>
 

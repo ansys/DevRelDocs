@@ -1,4 +1,4 @@
-# File IAS\_SeidelDiagram.cs
+# File IAS_SeidelDiagram.cs
 
 <a id="_i_a_s___seidel_diagram_8cs"></a>
 

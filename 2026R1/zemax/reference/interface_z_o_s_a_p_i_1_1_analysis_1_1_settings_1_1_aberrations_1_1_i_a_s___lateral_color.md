@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Analysis::Settings::Aberrations::IAS\_LateralColor
+# Interface ZOSAPI::Analysis::Settings::Aberrations::IAS_LateralColor
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_aberrations_1_1_i_a_s___lateral_color"></a>
 

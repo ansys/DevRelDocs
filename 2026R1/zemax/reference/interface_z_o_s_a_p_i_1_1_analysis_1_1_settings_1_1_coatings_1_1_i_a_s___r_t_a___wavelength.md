@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Analysis::Settings::Coatings::IAS\_RTA\_Wavelength
+# Interface ZOSAPI::Analysis::Settings::Coatings::IAS_RTA_Wavelength
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_coatings_1_1_i_a_s___r_t_a___wavelength"></a>
 

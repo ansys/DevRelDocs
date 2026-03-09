@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Editors::NCE::IVPMS\_None
+# Interface ZOSAPI::Editors::NCE::IVPMS_None
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_v_p_m_s___none"></a>
 

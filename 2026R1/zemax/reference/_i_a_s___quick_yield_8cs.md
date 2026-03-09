@@ -1,4 +1,4 @@
-# File IAS\_QuickYield.cs
+# File IAS_QuickYield.cs
 
 <a id="_i_a_s___quick_yield_8cs"></a>
 

@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Analysis::Data::IAR\_DataScatterPointsRgb
+# Interface ZOSAPI::Analysis::Data::IAR_DataScatterPointsRgb
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_data_1_1_i_a_r___data_scatter_points_rgb"></a>
 

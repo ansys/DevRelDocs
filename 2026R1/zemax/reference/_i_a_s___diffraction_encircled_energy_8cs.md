@@ -1,4 +1,4 @@
-# File IAS\_DiffractionEncircledEnergy.cs
+# File IAS_DiffractionEncircledEnergy.cs
 
 <a id="_i_a_s___diffraction_encircled_energy_8cs"></a>
 

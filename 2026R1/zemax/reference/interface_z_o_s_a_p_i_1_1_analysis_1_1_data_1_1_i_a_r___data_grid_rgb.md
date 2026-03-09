@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Analysis::Data::IAR\_DataGridRgb
+# Interface ZOSAPI::Analysis::Data::IAR_DataGridRgb
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_data_1_1_i_a_r___data_grid_rgb"></a>
 

@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Analysis::Settings::RayTracing::IAS\_NSCSingleRayTrace
+# Interface ZOSAPI::Analysis::Settings::RayTracing::IAS_NSCSingleRayTrace
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_ray_tracing_1_1_i_a_s___n_s_c_single_ray_trace"></a>
 

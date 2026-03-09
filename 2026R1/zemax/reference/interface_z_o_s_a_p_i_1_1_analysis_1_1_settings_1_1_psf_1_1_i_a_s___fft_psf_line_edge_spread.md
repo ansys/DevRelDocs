@@ -1,4 +1,4 @@
-# Interface ZOSAPI::Analysis::Settings::Psf::IAS\_FftPsfLineEdgeSpread
+# Interface ZOSAPI::Analysis::Settings::Psf::IAS_FftPsfLineEdgeSpread
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_psf_1_1_i_a_s___fft_psf_line_edge_spread"></a>
 

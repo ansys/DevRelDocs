@@ -1,4 +1,4 @@
-# File IAS\_CriticalRayTracer.cs
+# File IAS_CriticalRayTracer.cs
 
 <a id="_i_a_s___critical_ray_tracer_8cs"></a>
 

@@ -1,7 +1,9 @@
 # Changelog
+
   Updates and fixes to the ZOS-API by OpticStudio release.
 
 ## 26 R1
+
   - Updates
     - Added support for the new Mueller Matrix [surface](reference/interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_mueller_matrix.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_mueller_matrix) and [object](reference/interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_mueller_matrix.md#interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_mueller_matrix). 
 	  - See also [ILensDataEditor.SetMuellerMatrixData](reference/interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_lens_data_editor.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_lens_data_editor_1ac4d4286b2d7433e2b32cff2f01ec4d42) and [INonSeqEditor.SetMuellerMatrixData](reference/interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_non_seq_editor.md#interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_non_seq_editor_1a2dc17de6539829dea83c43e046c7c63d).
@@ -9,6 +11,7 @@
 	  - Also added support for the accompanying [MeritOperandType.RSNC](reference/namespace_z_o_s_a_p_i_1_1_editors_1_1_m_f_e.md#namespace_z_o_s_a_p_i_1_1_editors_1_1_m_f_e_1aa186922480921b908b329f1655025fe4a10eb8446f37be4a5bf6236b7172dfdd6) operand.
   
 ## 25 R2.04
+
   - Updates
     - Added support for the new [INSCQuickFocus](reference/interface_z_o_s_a_p_i_1_1_tools_1_1_optimization_1_1_i_n_s_c_quick_focus.md#interface_z_o_s_a_p_i_1_1_tools_1_1_optimization_1_1_i_n_s_c_quick_focus) tool, accessed via [IOpticalSystemTools.OpenNSCQuickFocus](reference/interface_z_o_s_a_p_i_1_1_tools_1_1_i_optical_system_tools.md#interface_z_o_s_a_p_i_1_1_tools_1_1_i_optical_system_tools_1a183548e42a856a5b1d24218e052a0759)
     - Added support for the new [IToleranceNest](reference/interface_z_o_s_a_p_i_1_1_tools_1_1_tolerancing_1_1_i_tolerance_nest.md#interface_z_o_s_a_p_i_1_1_tools_1_1_tolerancing_1_1_i_tolerance_nest) tool, accessed via [IOpticalSystemTools.OpenNEST](reference/interface_z_o_s_a_p_i_1_1_tools_1_1_i_optical_system_tools.md#interface_z_o_s_a_p_i_1_1_tools_1_1_i_optical_system_tools_1ac9062dea336aeb69eec64a23c296f9e5)
@@ -20,6 +23,7 @@
     - [SequenceElement.DiffractionOrderY](reference/class_z_o_s_a_p_i_1_1_tools_1_1_sequences_1_1_sequence_element.md#class_z_o_s_a_p_i_1_1_tools_1_1_sequences_1_1_sequence_element_1a3e3b56c58adfdc63c4f27ddc867b2f73): use [SequenceElement.DiffOrderY](reference/class_z_o_s_a_p_i_1_1_tools_1_1_sequences_1_1_sequence_element.md#class_z_o_s_a_p_i_1_1_tools_1_1_sequences_1_1_sequence_element_1a86f3ba8038554fcf1d3ea38653944ab5) and [SequenceElement::HasDiffractionY](@ref ZOSAPI::Tools::Sequences::SequenceElement::HasDiffractionY) instead
 	
 ## 25 R2
+
   - Updates
     - Added support for the new [ISequenceSelector](reference/interface_z_o_s_a_p_i_1_1_tools_1_1_sequences_1_1_i_sequence_selector.md#interface_z_o_s_a_p_i_1_1_tools_1_1_sequences_1_1_i_sequence_selector) tool, accessed via [IOpticalSystemTools.OpenSequenceSelector](reference/interface_z_o_s_a_p_i_1_1_tools_1_1_i_optical_system_tools.md#interface_z_o_s_a_p_i_1_1_tools_1_1_i_optical_system_tools_1aeb9644084e959c5a97daea87372bc9cc)
 	- Added high fidelity conversion options to [IConvertToNSCGroup](reference/interface_z_o_s_a_p_i_1_1_tools_1_1_i_convert_to_n_s_c_group.md#interface_z_o_s_a_p_i_1_1_tools_1_1_i_convert_to_n_s_c_group)
@@ -30,10 +34,12 @@
     - [ISTAR_StressFEAData.ImportStress](reference/interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___stress_f_e_a_data.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___stress_f_e_a_data_1a50812de68099ff8854f31d94ef24b404): use [ImportStress_1](reference/interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___stress_f_e_a_data.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___stress_f_e_a_data_1ac4e403f348e06d16d34f9d2d55b60178) instead
 	
 ## 25 R1.01
+
   - Fixes
     - Fixed a bug in the [IZRDReader](reference/interface_z_o_s_a_p_i_1_1_tools_1_1_ray_trace_1_1_i_z_r_d_reader.md#interface_z_o_s_a_p_i_1_1_tools_1_1_ray_trace_1_1_i_z_r_d_reader) causing incorrect data for all segments except the first
 	
 ## 25 R1
+
   - Updates
     - Added the [MPVT](reference/namespace_z_o_s_a_p_i_1_1_editors_1_1_t_d_e.md#namespace_z_o_s_a_p_i_1_1_editors_1_1_t_d_e_1a66c8f2427d3a13328e9e87d248ac7d7da57cc8294091fbfb6cdace7d038f57603) operand
     - Added chief ray export and ray filter support to [IExportCAD](reference/interface_z_o_s_a_p_i_1_1_tools_1_1_general_1_1_i_export_c_a_d.md#interface_z_o_s_a_p_i_1_1_tools_1_1_general_1_1_i_export_c_a_d)
