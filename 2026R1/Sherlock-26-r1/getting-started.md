@@ -55,16 +55,19 @@ files. Currently, the `.proto` files included with Sherlock are:
 
 In preparation for using Sherlock's APIs, do the following:
 
-  - For **Windows** users, open your computer's command-line interface and enter the command below (you can copy and paste the text) and press Enter. This will change the active directory to the location of your Sherlock installation. If you installed your Ansys software in a non-default location, modify the command-line accordingly.
+  - For **Windows**, open your computer's command-line interface and enter the command below (you can copy and paste the text) and press Enter. This will change the active directory to the location of your Sherlock installation. If you installed your Ansys software in a non-default location, modify the command-line accordingly.
 
           cd "C:\Program Files\ANSYS Inc\261\sherlock"
 
-  - For **Linux** users, make sure you have updated all users' login startup files as described in the [Post-Installation Procedures](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/installation/unix_post_mech.html#linux_postinst_sherlock_01) for Sherlock in Ansys' **Linux Installation Guide**, *5.1.7. Post-Installation Procedures for Ansys Sherlock.*
+  - For **Linux**, make sure you have updated all users' login startup files as described in the [Post-Installation Procedures](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/installation/unix_post_mech.html#linux_postinst_sherlock_01) for Sherlock in Ansys' **Linux Installation Guide**, *5.1.7. Post-Installation Procedures for Ansys Sherlock.*
 
  Now you are ready to connect to the gRPC server using one of the methods described below.
 
 
 ## Securing gRPC Connections
+**Note**
+A project must exist in the Sherlock client for the APIs to operate on the
+project.  
 
 With the release of Ansys product service packs adding enhanced security to gRPC communication, you now have various transport modes for securing gRPC connections. (In the examples shown, port 9090 is selected, but you may specify any of your computer's available communications ports.)
 
@@ -116,7 +119,7 @@ With the release of Ansys product service packs adding enhanced security to gRPC
     ```console  
     ./runSherlock -grpcPort=9090 --transport-mode=insecure  
     ```
-## Summary of Commands and Parameters ##
+### Summary of Commands and Parameters ###
 ```console
 USAGE: SherlockApp [-console] [-sherlockDir dir] [-no3dInit] [-noGUI] [-noUserInit] [-grpcPort=<port>] [-grpcHost=<host>] [--transport-mode=<insecure|mtls|wnua|uds> [--certs-dir=<path_to_certs_dir>] [--uds-dir=<socket_dir>] [--uds-id=<uds_id>] [-wbWorkingDir=<dir>] [project]
 gRPC Options:
@@ -136,11 +139,7 @@ If connection is successful, Sherlock will launch and the Sherlock Client Consol
 ![](./../graphics/gRPC/sherlock_ug_gRPC_3.png)
 
 
-
-**Note**
-A project must exist in the Sherlock client for the APIs to operate on the
-project.
-## Environment Variables ##
+### Environment Variables ###
 - This setting makes Workbench use insecure instead of mTLS for Sherlock worfklow:  
 `ANSYS_GRPC_INSECURE_CONNECTION=1`
 - This environment variable points to a certificate directory besides the default expected at `v261\sherlock\certs`:  
@@ -155,15 +154,7 @@ option can be helpful if you wish, for example, to run a batch of analyses
 quickly.
 
 To suppress Sherlock's user interface, simply add **`-noGUI`** to the command
-line when launching Sherlock as described earlier in the previous section. For example:
-
-Windows:
-
-    SherlockClient.exe -grpcPort=9090 -noGUI
-
-Linux:
-
-    runSherlock -grpcPort=9090 -noGUI
+line when launching Sherlock.
 
 Although the console will not be displayed, Sherlock continues to write
 console logs to `AppData/Roaming/Sherlock/logs` (Windows) or the
@@ -177,7 +168,7 @@ the following:
 
  1. Verify the following software is installed on your computer:
 
-    **Python:** Ansys recommends Python version 3.6 or later. If you need to upgrade, download the latest version from [python.org/downloads](https://www.python.org/downloads/) and install according to the instructions on the website. 
+    **Python:** Ansys recommends Python version 3.10 or later. If you need to upgrade, download the latest version from [python.org/downloads](https://www.python.org/downloads/) and install according to the instructions on the website. 
 
     **grpcio** and **grpcio-tools** (versions 1.39.0 or later) and **protobuf** (3.17.3 or later). Install them using the pip command in Python. In the Windows command prompt, enter the following:
 
