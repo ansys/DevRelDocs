@@ -53,62 +53,108 @@ files. Currently, the `.proto` files included with Sherlock are:
 
 ## Connecting to the Sherlock gRPC Server
 
-To use Sherlock's API's, you must connect to the gRPC server. To connect, do
-the following:
+In preparation for using Sherlock's APIs, do the following:
 
-  For Windows users, open your computer's command-line interface and enter the command below (you can copy and paste the text) and press Enter. This will change the active directory to the location of your Sherlock installation. If you installed your Ansys software in a non-default location, modify the command-line accordingly.
+  - For **Windows**, open your computer's command-line interface and enter the command below (you can copy and paste the text) and press Enter. This will change the active directory to the location of your Sherlock installation. If you installed your Ansys software in a non-default location, modify the command-line accordingly.
 
           cd "C:\Program Files\ANSYS Inc\261\sherlock"
 
-  For Linux users, make sure you have updated all users' login startup files as described in the [Post-Installation Procedures](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/installation/unix_post_mech.html#linux_postinst_sherlock_01) for Sherlock in Ansys' **Linux Installation Guide**, *5.1.7. Post-Installation Procedures for Ansys Sherlock.*
+  - For **Linux**, make sure you have updated all users' login startup files as described in the [Post-Installation Procedures](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/installation/unix_post_mech.html#linux_postinst_sherlock_01) for Sherlock in Ansys' **Linux Installation Guide**, *5.1.7. Post-Installation Procedures for Ansys Sherlock.*
 
- Once you have changed directory (Windows), enter the command below. (In the examples shown, port 9090 is selected, but you may specify any of your computer's available communications ports.)
+ Now you are ready to connect to the gRPC server using one of the methods described below.
 
-Windows:
 
+## Securing gRPC Connections
+**Note**
+A project must exist in the Sherlock client for the APIs to operate on the
+project.  
+
+With the release of Ansys product service packs adding enhanced security to gRPC communication, you now have various transport modes for securing gRPC connections. (In the examples shown, port 9090 is selected, but you may specify any of your computer's available communications ports.)
+
+### Supported transport modes
+
+- **Mutual TLS (mTLS).**  
+  This mode, which works both locally and over the network, allows secure
+  connections using TLS encryption and client/server certificates. It is
+  recommended for production use, especially when transmitting sensitive data. It is the default option if no transport mode is specified. If the optional parameter `--certs-dir` is not specified, it will expect a certs folder in the `v261/sherlock` folder.
+  - **Windows**:  
+    ```console
+    SherlockClient.exe -grpcPort=9090 
+    ```
+    or  
+    ```console
+    SherlockClient.exe -grpcPort=9090 --transport-mode=mtls --certs-dir='path/to/certs/folders'
+    ```
+  - **Linux**:  
+    ```console
+    ./runSherlock -grpcPort=9090  
+    ```
+    or  
+    ```console
+    ./runSherlock -grpcPort=9090 --transport-mode=mtls  
+    ```
+- **Unix Domain Sockets (UDS).**  
+  **Linux** only. This mode allows connections over a local socket file. UDS is only supported for local inter-process communication (IPC) on a machine running
+  Linux. Optional parameters: `--uds-id` and `--uds-dir`  
+    ```console
+  ./runSherlock --transport-mode=uds --uds-id=test --uds-dir=/home/temp
+    ```
+
+- **Windows Named User Authentication (WNUA).**  
+  This mode allows secure local connections on Windows machines through user
+  authentication. It is only supported in Windows. It is the default option in Workbench-Sherlock.  
+  ```console
+  SherlockClient.exe -grpcPort=9090 --transport-mode=wnua
+  ```
+
+- **Insecure.**  
+  This mode allows connections without any encryption or authentication.
+  It is **not recommended** for production use but can be useful for testing or
+  development purposes.  
+  - **Windows:**  
+    ```console
+    SherlockClient.exe -grpcPort=9090 --transport-mode=insecure  
+    ```
+  - **Linux:**
+    ```console  
+    ./runSherlock -grpcPort=9090 --transport-mode=insecure  
+    ```
+### Summary of Commands and Parameters ###
 ```console
-SherlockClient.exe -grpcPort=9090
+USAGE: SherlockApp [-console] [-sherlockDir dir] [-no3dInit] [-noGUI] [-noUserInit] [-grpcPort=<port>] [-grpcHost=<host>] [--transport-mode=<insecure|mtls|wnua|uds> [--certs-dir=<path_to_certs_dir>] [--uds-dir=<socket_dir>] [--uds-id=<uds_id>] [-wbWorkingDir=<dir>] [project]
+gRPC Options:
+  -grpcPort        : gRPC port number (required for insecure, mtls, and wnua transport modes)
+  -grpcHost        : gRPC host name or IP address (default is localhost; only valid for insecure, mtls, and wnua transport modes)
+  --transport-mode : gRPC transport mode (default is mtls)
+                     insecure : Unencrypted, unauthenticated communication
+                     mtls     : Encrypted, authenticated communication using mutual TLS
+                     wnua     : Windows Named User Authentication (Windows only)
+                     uds      : Unix Domain Sockets (Linux only)
+  --certs-dir      : Directory containing the mTLS certificates (default is ./certs or the directory specified by the ANSYS_GRPC_CERTIFICATES environment variable)
+  --uds-dir        : Directory to contain the UDS socket file (default is $HOME/.conn)
+  --uds-id         : Identifier to use in the UDS socket file name (default is no identifier)
 ```
-
-Linux:
-
-```console
-runSherlock -grpcPort=9090
-```
-
-**Tip**
-
-You can run API's in Sherlock without launching Sherlock's user interface. See the section below **Running API's without the Sherlock User Interface**.
-
-If successful, Sherlock will launch and the Sherlock Client Console appears (Windows), confirming the gRPC server is running on port 9090 or whichever port you selected. For Linux users, the gRPC status appears in the terminal window.
+If connection is successful, Sherlock will launch and the Sherlock Client Console appears (Windows), confirming the gRPC server is running on port 9090 or whichever port you selected. For Linux users, the gRPC status appears in the terminal window.
 
 ![](./../graphics/gRPC/sherlock_ug_gRPC_3.png)
 
-Closing Sherlock or the Sherlock Client Console terminates the connection to
-the gRPC server. You will need to repeat the above procedure to reconnect.
 
-**Note**
-A project must exist in the Sherlock client for the APIs to operate on the
-project.
+### Environment Variables ###
+- This setting makes Workbench use insecure instead of mTLS for Sherlock worfklow:  
+`ANSYS_GRPC_INSECURE_CONNECTION=1`
+- This environment variable points to a certificate directory besides the default expected at `v261\sherlock\certs`:  
+`ANSYS_GRPC_CERTIFICATES=C:\WB_INSTALL\v261\sherlock\certs`
 
-## Running API's without the Sherlock User Interface
+## Running APIs without the Sherlock User Interface
 
-Sherlock allows you to run API's without launching the Sherlock user
+Sherlock allows you to run APIs without launching the Sherlock user
 interface. With this option enabled, Sherlock displays no splash screens,
 progress dialogs, nor console output. Only error dialogs are displayed. This
 option can be helpful if you wish, for example, to run a batch of analyses
 quickly.
 
 To suppress Sherlock's user interface, simply add **`-noGUI`** to the command
-line when launching Sherlock as described earlier in the previous section. For example:
-
-Windows:
-
-    SherlockClient.exe -grpcPort=9090 -noGUI
-
-Linux:
-
-    runSherlock -grpcPort=9090 -noGUI
+line when launching Sherlock.
 
 Although the console will not be displayed, Sherlock continues to write
 console logs to `AppData/Roaming/Sherlock/logs` (Windows) or the
@@ -117,13 +163,12 @@ the [ExitRequest](sherlock-reference.md#sherlockcommonserviceproto "ExitRequest"
 
 ## Pre-Generated Python Scripts
 
-Starting with Sherlock 22.2, Python client-side scripts have been generated
-and included with the Sherlock installation. To begin using the scripts, do
+Python client-side scripts have been generated and included with the Sherlock installation. To begin using the scripts, do
 the following:
 
  1. Verify the following software is installed on your computer:
 
-    **Python:** Ansys recommends Python version 3.6 or later. If you need to upgrade, download the latest version from [python.org/downloads](https://www.python.org/downloads/) and install according to the instructions on the website. 
+    **Python:** Ansys recommends Python version 3.10 or later. If you need to upgrade, download the latest version from [python.org/downloads](https://www.python.org/downloads/) and install according to the instructions on the website. 
 
     **grpcio** and **grpcio-tools** (versions 1.39.0 or later) and **protobuf** (3.17.3 or later). Install them using the pip command in Python. In the Windows command prompt, enter the following:
 

@@ -1,4 +1,4 @@
-# Structure \_SharedMemoryFrame
+# Structure _SharedMemoryFrame
 
 <a id="struct___shared_memory_frame"></a>
 

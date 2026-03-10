@@ -3,3 +3,11 @@
 v0.1.0 of the AVxcelerate Asset Manager REST API has been officially released as part of the 2025 R2.2 release.
 
 The AVxcelerate Resource Manager REST API v0.1.0 is compatible with the AVX Architecture V2.
+
+## Version 0.1.0: 2026 R1 release
+
+New features:
+
+* Delete Asset versions
+* Unlink Asset Child from an other Asset
+* Python helper: The AVxcelerate python APIs are hosted as a python package on a cluster as part of the Explore service deployment. You can install the package using pip and it can be used to call AVx autonomy APIs without needing to make raw REST calls.
