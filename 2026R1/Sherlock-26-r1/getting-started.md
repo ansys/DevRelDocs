@@ -168,9 +168,9 @@ the following:
 
  1. Verify the following software is installed on your computer:
 
-    **Python:** Ansys recommends Python version 3.10 or later. If you need to upgrade, download the latest version from [python.org/downloads](https://www.python.org/downloads/) and install according to the instructions on the website. 
+    - **Python:** Ansys recommends Python version 3.10 or later. If you need to upgrade, download the latest version from [python.org/downloads](https://www.python.org/downloads/) and install according to the instructions on the website. 
 
-    **grpcio** and **grpcio-tools** (versions 1.39.0 or later) and **protobuf** (3.17.3 or later). Install them using the pip command in Python. In the Windows command prompt, enter the following:
+    - **grpcio** and **grpcio-tools** (versions 1.39.0 or later) and **protobuf** (3.17.3 or later). Install them using the pip command in Python. In the Windows command prompt, enter the following:
 
     ```console
     pip install grpcio-tools
