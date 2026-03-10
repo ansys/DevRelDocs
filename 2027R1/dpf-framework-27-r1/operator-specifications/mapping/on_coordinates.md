@@ -10,7 +10,43 @@ license: None
 
 ## Description
 
-Evaluates a result on specified coordinates (interpolates results inside elements with shape functions).
+
+Evaluates field values at arbitrary physical coordinates by performing element search and shape function interpolation in a single optimized operation. Coordinates for which no element can be found are omitted from the output.
+
+##### Mathematical formulation
+
+For each query point $\mathbf{x}_q$ and field $\mathbf{u}(\mathbf{x})$, this operator computes the interpolated value:
+
+$$\mathbf{u}(\mathbf{x}_q) = \sum_{i=1}^{N_{nodes}} N_i(\boldsymbol{\xi}_q) \cdot \mathbf{u}_i$$
+
+where:
+- $\mathbf{x}_q$ is the physical coordinate where interpolation is requested
+- $\boldsymbol{\xi}_q$ are the reduced coordinates of $\mathbf{x}_q$ within its containing element (computed internally)
+- $N_i(\boldsymbol{\xi})$ are the element shape functions evaluated at $\boldsymbol{\xi}_q$
+- $\mathbf{u}_i$ are the field values at element nodes
+
+##### Comparison with two-step workflow
+
+This operator provides a convenient all-in-one solution for field interpolation. For more control over the interpolation process, use the two-step workflow:
+1. `find_reduced_coordinates` — locates the element containing each coordinate and returns its parametric coordinates
+2. `on_reduced_coordinates` — interpolates field values at those parametric coordinates
+
+Key differences from the two-step approach:
+- **Tolerance**: Uses a progressively relaxed tolerance when no element is found, vs. fixed tolerance in `find_reduced_coordinates`
+- **Performance**: More efficient when intermediate reduced coordinates are not needed
+
+Both approaches omit output entries for coordinates where no element can be found.
+
+##### Field location handling
+
+- **Nodal fields**: Interpolates using nodal values and standard shape functions. Automatically detects whether quadratic (midside) nodes have data.
+- **Elemental fields**: Uses element-averaged values with shape function evaluation at the query coordinates.
+- **Shell layers**: Interpolates through shell thickness layers independently, preserving layer structure in output.
+
+##### Output structure
+
+The output fields container preserves the label structure of input fields and coordinates. When both inputs have labels (e.g., time steps), outputs are generated for all label combinations. Output fields have nodal location with scoping corresponding to successfully interpolated coordinates.
+
 
 ## Inputs
 
@@ -35,7 +71,12 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
+Fields container with field values to interpolate. Fields can have nodal or elemental location.
 
+**Nodal fields**: Field values defined at mesh nodes. Interpolation uses shape functions with nodal values.
+**Elemental fields**: Field values defined at element centers. Interpolation evaluates shape functions at query coordinates using element-averaged data.
+
+The fields container can have labels (e.g., time steps, frequencies) that will be matched with coordinate and mesh labels to determine which combinations to process.
 
 <a id="input_1"></a>
 ### coordinates (Pin 1)
@@ -43,7 +84,13 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container), [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container)
 
+Physical (global) coordinates where field values should be evaluated. Each coordinate is a 3D vector ($x$, $y$, $z$).
 
+**Supported input types**:
+- **Field**: Single field containing coordinate vectors. The field's support mesh defines the search domain if the `mesh` pin is not provided.
+- **FieldsContainer**: Multiple coordinate fields, typically organized by time step or spatial region. Fields are processed independently, and outputs are generated for matching labels.
+- **MeshedRegion**: Node coordinates of the mesh are used as evaluation points.
+- **MeshesContainer**: Multiple meshes whose node coordinates are used as evaluation points.
 
 <a id="input_2"></a>
 ### create_support (Pin 2)
@@ -51,7 +98,10 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-if this pin is set to true, then, a support associated to the fields consisting of points is created
+Controls whether output fields have a mesh support consisting of point elements at the evaluation coordinates.
+
+**Default**: `false` (no support mesh created)
+**When `true`**: Creates a point mesh support with one point element per evaluation coordinate, enabling visualization of interpolated results as a point cloud.
 
 <a id="input_3"></a>
 ### mapping_on_scoping (Pin 3)
@@ -59,7 +109,12 @@ if this pin is set to true, then, a support associated to the fields consisting 
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-if this pin is set to true, then the mapping between the coordinates and the fields is created only on the first field scoping
+Optimizes element search by restricting the spatial domain to the scoping of the first input field.
+
+**Default**: `false` (searches entire mesh)
+**When `true`**: Restricts the search to elements or nodes in the first field's scoping, improving performance when interpolating fields with limited spatial extent (e.g., results only on a subset of the mesh). This optimization only takes effect when a single coordinate set and a single mesh are provided; it has no effect in multi-mesh or multi-coordinate scenarios.
+
+This optimization is most effective when coordinates and fields cover the same spatial region of interest.
 
 <a id="input_5"></a>
 ### tolerance (Pin 5)
@@ -67,7 +122,11 @@ if this pin is set to true, then the mapping between the coordinates and the fie
 - **Required:** No
 - **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
 
-Tolerance used in the iterative algorithm to locate coordinates inside the mesh. Default value: 5e-5.
+Tolerance used when locating query coordinates within elements.
+
+**Default**: $5 \times 10^{-5}$
+
+Lower values provide more accurate coordinate location but may fail for points near element boundaries. If no element is found at the specified tolerance, the tolerance is progressively relaxed up to a maximum of $0.1$.
 
 <a id="input_7"></a>
 ### mesh (Pin 7)
@@ -75,7 +134,11 @@ Tolerance used in the iterative algorithm to locate coordinates inside the mesh.
 - **Required:** No
 - **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container)
 
-if the first field in input has no mesh in support, then the mesh in this pin is expected (default is false), if a meshes container with several meshes is set, it should be on the same label spaces as the coordinates fields container
+Mesh(es) defining the finite element domain for interpolation.
+
+If not provided, the mesh is automatically extracted from the input fields' supports. When using a `MeshesContainer` with multiple meshes, label matching is applied: meshes and fields with corresponding labels are paired for interpolation.
+
+**Label matching**: When fields container, coordinates, and meshes all have labels, the operator processes all matching label combinations (e.g., interpolating field at time $t_1$ using mesh at time $t_1$ and coordinates at spatial location $s_1$).
 
 <a id="input_200"></a>
 ### use_quadratic_elements (Pin 200)
@@ -83,7 +146,12 @@ if the first field in input has no mesh in support, then the mesh in this pin is
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-If this pin is set to true, the element search for each coordinate is computed on the quadratic element if the element is quadratic (more precise but less performant). Default is false.
+Controls whether quadratic (second-order) nodes are included in element search and interpolation.
+
+**Default**: `false` (uses only corner nodes)
+**When `true`**: Includes midside nodes in element geometry and field interpolation when available, improving accuracy for curved elements and quadratic shape functions.
+
+The operator automatically detects whether field data exists on quadratic nodes. If the mesh has quadratic elements but the field only has corner node data, interpolation uses corner nodes only.
 
 
 ## Outputs
@@ -102,7 +170,15 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
+Interpolated field values at the requested coordinates.
 
+Each output field contains the interpolated field values with:
+- **Location**: Nodal (regardless of input field location)
+- **Scoping**: IDs correspond to successfully interpolated coordinates. Coordinates where no containing element was found are omitted.
+- **Components**: Same as input fields (scalar, vector, tensor, etc.)
+- **Shell layers**: Preserved from input fields when present
+
+The output container structure reflects the combined labels from input fields and coordinates. For example, if fields have time labels and coordinates have spatial labels, outputs are generated for all time-space combinations.
 
 
 ## Configurations
