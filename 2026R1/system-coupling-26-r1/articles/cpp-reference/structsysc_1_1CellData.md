@@ -3,7 +3,7 @@
 ![][C++]
 ![][public]
 
-**Definition**: `MeshDefinition.hpp` (line 369)
+**Definition**: `MeshDefinition.hpp` (line 739)
 
 Cell data access struct, provides read-only access to the mesh cells.
 
@@ -11,6 +11,7 @@ Cell data access struct, provides read-only access to the mesh cells.
 
 ## Members
 
+* [CellData](structsysc_1_1CellData.md#structsysc_1_1CellData_1a26b225c3623dcfd4884c8a217ff4ca49)
 * [CellData](structsysc_1_1CellData.md#structsysc_1_1CellData_1a92b78b14f0147d6176e35a87d3836600)
 * [CellData](structsysc_1_1CellData.md#structsysc_1_1CellData_1ae620829629d1f36255d95213e4637a25)
 * [CellData](structsysc_1_1CellData.md#structsysc_1_1CellData_1a71a24078547f71fa4114df3e7f423db4)
@@ -20,8 +21,9 @@ Cell data access struct, provides read-only access to the mesh cells.
 * [cellIds](structsysc_1_1CellData.md#structsysc_1_1CellData_1a9e6712d1905400a6c9f08b4acd8a9551)
 * [cellNodeConnectivity](structsysc_1_1CellData.md#structsysc_1_1CellData_1a136335289879bf97aa1bb3cc5076ece7)
 * [cellTypes](structsysc_1_1CellData.md#structsysc_1_1CellData_1ac6f3b7e05380a1a02c25ed7cd3bac3dd)
-* [operator=](structsysc_1_1CellData.md#structsysc_1_1CellData_1a9ddae34c80c5fe86ea28432266f90ebf)
-* [operator=](structsysc_1_1CellData.md#structsysc_1_1CellData_1acc8f43d644f86c19404dae7b6443f01f)
+* [operator=](structsysc_1_1CellData.md#structsysc_1_1CellData_1a64f911316aca90b9362927d0412f7554)
+* [operator=](structsysc_1_1CellData.md#structsysc_1_1CellData_1a241637a342055e471270c6271a69d5f6)
+* [size](structsysc_1_1CellData.md#structsysc_1_1CellData_1a9d515776d599ff20ddf0021d0c0c4663)
 
 ## Public attributes
 
@@ -30,11 +32,13 @@ Cell data access struct, provides read-only access to the mesh cells.
 
 ![][public]
 
-**Definition**: `MeshDefinition.hpp` (line 371)
+**Definition**: `MeshDefinition.hpp` (line 741)
+
 
 ```cpp
 ElementIdData sysc::CellData::cellIds
 ```
+
 
 Cell ids.
 
@@ -44,16 +48,24 @@ Cell ids.
 
 **Type**: [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData)
 
+**Referenced by**:
+
+* [CellData](structsysc_1_1CellData.md#structsysc_1_1CellData_1ae620829629d1f36255d95213e4637a25)
+* [CellData](structsysc_1_1CellData.md#structsysc_1_1CellData_1a92b78b14f0147d6176e35a87d3836600)
+* [operator=](structsysc_1_1CellData.md#structsysc_1_1CellData_1a241637a342055e471270c6271a69d5f6)
+
 <a id="structsysc_1_1CellData_1ac6f3b7e05380a1a02c25ed7cd3bac3dd"></a>
 ### Variable cellTypes
 
 ![][public]
 
-**Definition**: `MeshDefinition.hpp` (line 374)
+**Definition**: `MeshDefinition.hpp` (line 744)
+
 
 ```cpp
 ElementTypeData sysc::CellData::cellTypes
 ```
+
 
 Face ids.
 
@@ -63,16 +75,24 @@ Face ids.
 
 **Type**: [ElementTypeData](structsysc_1_1ElementTypeData.md#structsysc_1_1ElementTypeData)
 
+**Referenced by**:
+
+* [CellData](structsysc_1_1CellData.md#structsysc_1_1CellData_1a92b78b14f0147d6176e35a87d3836600)
+* [CellData](structsysc_1_1CellData.md#structsysc_1_1CellData_1a71a24078547f71fa4114df3e7f423db4)
+* [operator=](structsysc_1_1CellData.md#structsysc_1_1CellData_1a241637a342055e471270c6271a69d5f6)
+
 <a id="structsysc_1_1CellData_1a136335289879bf97aa1bb3cc5076ece7"></a>
 ### Variable cellNodeConnectivity
 
 ![][public]
 
-**Definition**: `MeshDefinition.hpp` (line 377)
+**Definition**: `MeshDefinition.hpp` (line 747)
+
 
 ```cpp
 ElementNodeConnectivityData sysc::CellData::cellNodeConnectivity
 ```
+
 
 Cell-to-node connectivity.
 
@@ -82,16 +102,46 @@ Cell-to-node connectivity.
 
 **Type**: [ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData)
 
+**Referenced by**:
+
+* [CellData](structsysc_1_1CellData.md#structsysc_1_1CellData_1a92b78b14f0147d6176e35a87d3836600)
+* [CellData](structsysc_1_1CellData.md#structsysc_1_1CellData_1a71a24078547f71fa4114df3e7f423db4)
+
 ## Public functions
+
+<a id="structsysc_1_1CellData_1a26b225c3623dcfd4884c8a217ff4ca49"></a>
+### Function CellData
+
+![][public]
+
+
+```cpp
+sysc::CellData::CellData(InputCellData inputData)
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* [InputCellData](structsysc_1_1InputCellData.md#structsysc_1_1InputCellData) **inputData**
+
+**Return type**: 
 
 <a id="structsysc_1_1CellData_1a92b78b14f0147d6176e35a87d3836600"></a>
 ### Function CellData
 
 ![][public]
 
+
 ```cpp
 sysc::CellData::CellData(ElementIdData cellIds, ElementTypeData cellTypes, ElementNodeConnectivityData cellNodeConnectivity)
 ```
+
 
 Cell data constructor.
 
@@ -106,15 +156,23 @@ Cell data constructor.
 * [ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData) **cellNodeConnectivity**
 
 **Return type**: 
+
+**References**:
+
+* [cellIds](structsysc_1_1CellData.md#structsysc_1_1CellData_1a9e6712d1905400a6c9f08b4acd8a9551)
+* [cellNodeConnectivity](structsysc_1_1CellData.md#structsysc_1_1CellData_1a136335289879bf97aa1bb3cc5076ece7)
+* [cellTypes](structsysc_1_1CellData.md#structsysc_1_1CellData_1ac6f3b7e05380a1a02c25ed7cd3bac3dd)
 
 <a id="structsysc_1_1CellData_1ae620829629d1f36255d95213e4637a25"></a>
 ### Function CellData
 
 ![][public]
 
+
 ```cpp
 sysc::CellData::CellData(ElementIdData cellIds)
 ```
+
 
 Cell data constructor.
 
@@ -128,14 +186,20 @@ Cell data constructor.
 
 **Return type**: 
 
+**References**:
+
+* [cellIds](structsysc_1_1CellData.md#structsysc_1_1CellData_1a9e6712d1905400a6c9f08b4acd8a9551)
+
 <a id="structsysc_1_1CellData_1a71a24078547f71fa4114df3e7f423db4"></a>
 ### Function CellData
 
 ![][public]
 
+
 ```cpp
 sysc::CellData::CellData(ElementTypeData cellTypes, ElementNodeConnectivityData cellNodeConnectivity)
 ```
+
 
 Cell data constructor.
 
@@ -150,14 +214,21 @@ Cell data constructor.
 
 **Return type**: 
 
+**References**:
+
+* [cellNodeConnectivity](structsysc_1_1CellData.md#structsysc_1_1CellData_1a136335289879bf97aa1bb3cc5076ece7)
+* [cellTypes](structsysc_1_1CellData.md#structsysc_1_1CellData_1ac6f3b7e05380a1a02c25ed7cd3bac3dd)
+
 <a id="structsysc_1_1CellData_1a7cb85447c31134ae8c15c11f19ed0735"></a>
 ### Function CellData
 
 ![][public]
 
+
 ```cpp
 sysc::CellData::CellData()=default
 ```
+
 
 Default constructor.
 
@@ -172,9 +243,11 @@ Default constructor.
 
 ![][public]
 
+
 ```cpp
 sysc::CellData::CellData(const CellData &)=default
 ```
+
 
 Copy constructor.
 
@@ -193,9 +266,11 @@ Copy constructor.
 
 ![][public]
 
+
 ```cpp
 sysc::CellData::CellData(CellData &&)=default
 ```
+
 
 Move constructor.
 
@@ -209,14 +284,16 @@ Move constructor.
 
 **Return type**: 
 
-<a id="structsysc_1_1CellData_1a9ddae34c80c5fe86ea28432266f90ebf"></a>
+<a id="structsysc_1_1CellData_1a64f911316aca90b9362927d0412f7554"></a>
 ### Function operator=
 
 ![][public]
 
+
 ```cpp
-CellData& sysc::CellData::operator=(const CellData &)=default
+CellData & sysc::CellData::operator=(const CellData &)=default
 ```
+
 
 Copy-assign operator.
 
@@ -230,14 +307,16 @@ Copy-assign operator.
 
 **Return type**: [CellData](structsysc_1_1CellData.md#structsysc_1_1CellData) &
 
-<a id="structsysc_1_1CellData_1acc8f43d644f86c19404dae7b6443f01f"></a>
+<a id="structsysc_1_1CellData_1a241637a342055e471270c6271a69d5f6"></a>
 ### Function operator=
 
 ![][public]
 
+
 ```cpp
-CellData& sysc::CellData::operator=(CellData &&)=default
+CellData & sysc::CellData::operator=(CellData &&)=default
 ```
+
 
 Move-assign operator.
 
@@ -251,5 +330,32 @@ Move-assign operator.
 
 **Return type**: [CellData](structsysc_1_1CellData.md#structsysc_1_1CellData) &
 
+**References**:
+
+* [cellIds](structsysc_1_1CellData.md#structsysc_1_1CellData_1a9e6712d1905400a6c9f08b4acd8a9551)
+* [cellTypes](structsysc_1_1CellData.md#structsysc_1_1CellData_1ac6f3b7e05380a1a02c25ed7cd3bac3dd)
+
+<a id="structsysc_1_1CellData_1a9d515776d599ff20ddf0021d0c0c4663"></a>
+### Function size
+
+![][public]
+![][const]
+
+
+```cpp
+std::size_t sysc::CellData::size() const
+```
+
+
+
+
+
+
+
+
+**Return type**: std::size_t
+
+[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
+[const]: https://img.shields.io/badge/-const-lightblue (const)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

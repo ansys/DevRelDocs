@@ -2,4 +2,4 @@
 
 <a id="compolyx.LookUpTable1D.dimensions"></a>
 
-#### *property* LookUpTable1D.dimensions
+## *property* LookUpTable1D.dimensions

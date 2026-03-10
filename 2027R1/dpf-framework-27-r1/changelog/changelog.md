@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-02-21).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-09).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -9,11 +9,12 @@ The following table shows which components have updates in each category.
 | Component | Features | Fixes | 
 |-----------|----------|----------|
 | 1297620 |  |[1 item](#Fixes_1297620) |
+| averaging |  |[1 item](#Fixes_averaging) |
 | c# |  |[1 item](#Fixes_c#) |
 | cff | [2 items](#Features_cff) |[4 items](#Fixes_cff) |
 | cgns | [1 item](#Features_cgns) | |
 | changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
-| ci | [1 item](#Features_ci) |[1 item](#Fixes_ci) |
+| ci | [1 item](#Features_ci) |[2 items](#Fixes_ci) |
 | compression | [3 items](#Features_compression) |[1 item](#Fixes_compression) |
 | core |  |[1 item](#Fixes_core) |
 | cyclic | [1 item](#Features_cyclic) | |
@@ -30,20 +31,22 @@ The following table shows which components have updates in each category.
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[4 items](#Fixes_h5dpf) |
 | hdf5 | [6 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
-| hgp | [4 items](#Features_hgp) |[2 items](#Fixes_hgp) |
+| hgp | [5 items](#Features_hgp) |[2 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
-| kernel | [2 items](#Features_kernel) |[8 items](#Fixes_kernel) |
+| kernel | [2 items](#Features_kernel) |[9 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [14 items](#Features_mapdl) |[40 items](#Fixes_mapdl) |
+| mapdl | [15 items](#Features_mapdl) |[41 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
-| math | [10 items](#Features_math) |[1 item](#Fixes_math) |
-| mechanical | [2 items](#Features_mechanical) |[4 items](#Fixes_mechanical) |
+| mapl |  |[1 item](#Fixes_mapl) |
+| math | [11 items](#Features_math) |[1 item](#Fixes_math) |
+| mechanical | [2 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
 | mesh |  |[3 items](#Fixes_mesh) |
 | misc | [13 items](#Features_misc) |[19 items](#Fixes_misc) |
-| multiphysicsmapper |  |[4 items](#Fixes_multiphysicsmapper) |
+| multiphysicsmapper |  |[5 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [1 item](#Features_native) |[12 items](#Fixes_native) |
+| native | [2 items](#Features_native) |[15 items](#Fixes_native) |
+| nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [3 items](#Features_prime) | |
 | pydpf |  |[1 item](#Fixes_pydpf) |
@@ -59,6 +62,18 @@ The following table shows which components have updates in each category.
 
 - Cplx division operator has to high tolerance:
   > Change the tolerance for cplx division from 1e-10 to 1e-15.
+  >
+  > 
+  >
+  > 
+## averaging
+
+### <a id="Fixes_averaging"></a> Fixes
+
+- Adapt elemental_nodal_to_nodal to properly handle midside nodes:
+  > 
+  >
+  > The `elemental_nodal_to_nodal` averaging operators required to have all corner nodes corresponding to a midside node contained in the input nodal scoping if the result wanted to be obtained at that given midside node. This requirement is no longer present.
   >
   > 
   >
@@ -157,6 +172,15 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_ci"></a> Fixes
+
+- Fix Nuget tests:
+  > 
+  >
+  > Bring the changes from WorkflowMediumComplexityTest in CS_DataProcessingTests to NuGet.Cs.Ext.Test.
+  >
+  > 
+  >
+  > 
 
 - Ensure backwards compatibility in invariants and eigenvalues source operators:
   > 
@@ -697,6 +721,11 @@ The following table shows which components have updates in each category.
 ## hgp
 ### <a id="Features_hgp"></a> Features
 
+- Improving readability of the .natvis file for hgp:
+  > Improving readability of the .natvis file.
+  >
+  > 
+
 - Add span() getter to DpfVector:
   > 
   >
@@ -777,6 +806,9 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_kernel"></a> Fixes
 
+- Speed-up hasEntity API:
+  > 
+
 - Follow-up on units:
   > 
 
@@ -854,6 +886,11 @@ The following table shows which components have updates in each category.
 
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
+
+- Freeing license of mapdl_section_properties:
+  > Freeing license of `mapdl_section_properties`.
+  >
+  > 
 
 - Operator to extract records from RST:
   > 
@@ -962,6 +999,13 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Wrong update concerning shell layers:
+  > Wrong update is done while looping over elemental results concerning shell layer. We update the number of shell layer when this is not allowed regarding the post process that is done after reading the result.
+  >
+  > 
+  >
+  > 
 
 - Fix possible out of bounds when reading RST and DSUB files:
   > 
@@ -1252,8 +1296,21 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
+## mapl
+
+### <a id="Fixes_mapl"></a> Fixes
+
+- Fix gasket results issue with dege keyopt2=0 gaskets:
+  > Fix bug with degenerated gasket elements with keyopt(2)=0
+  >
+  > 
+  >
+  > 
 ## math
 ### <a id="Features_math"></a> Features
+
+- Create a new operator to merge FRF matrices and supports for TPA workflow:
+  > 
 
 - Create a new operator to compute modal loads for MSUP workflow:
   > 
@@ -1343,6 +1400,9 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mechanical"></a> Fixes
+
+- Fix documentation generation of mechanical::linearized_stress:
+  > 
 
 - Bugs with shell operators:
   > Fix various bugs in shell operators in Ans.Dpf.Mechanical plugin
@@ -1701,6 +1761,13 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_multiphysicsmapper"></a> Fixes
 
+- Fix the effect of input pin pinball_key in operator prepare_mechanical_native_mapping_shape_functions_for_surfaces:
+  > Fix the effect of input pin `pinball_key` on the algorithm of operator prepare_mechanical_native_mapping_shape_functions_for_surfaces.
+  >
+  > 
+  >
+  > 
+
 - Clarifying documentation:
   > Clarification of documentation.
   >
@@ -1741,6 +1808,15 @@ The following table shows which components have updates in each category.
 ## native
 ### <a id="Features_native"></a> Features
 
+- Supported GenericSupport in GetFieldsContainerAttribute and added GenericSupportAttribute API:
+  > - Added a new property_name, "generic_support", to "fieldscontainer::get_attribute" to extract Generic Support
+  >
+  > - Added a new API, "generic_support::get_attribute", to extract Field, Field Property or String Field associated with Generic Support
+  >
+  > 
+  >
+  > 
+
 - Option to extend to midside on nodal_to_elemental_nodal:
   > Option to extend to midside on nodal_to_elemental_nodal
   >
@@ -1749,6 +1825,37 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Inconsistency with elshape treatment  in scoping::by_property op.:
+  > When we have shell, solid and skin elements in mesh and perform a scoping::by_property, we observed inconsistency in the way we expose elshape depending if:
+  >
+  > - we merge skin and shell
+  >
+  > - we merge shell and solid
+  >
+  > - we merge nothing
+  >
+  > 
+  >
+  > The idea is to find a way to make this treatment consistent and homogenous.
+  >
+  > 
+
+- Fixed error introduced by PR 667338:
+  > - Marked "generic_support_get_attribute" as private operator
+  >
+  > - Undocumented the fact that "fieldscontainer::get_attribute" can produce GenericSupport
+  >
+  > 
+  >
+  > 
+
+- Allow loop_workflow_incremental to take CField output:
+  > loop_workflow_incremental now can take a Workflow returning a CField with an added `loop` label.
+  >
+  > 
+  >
+  > 
 
 - Scaling factor size in error and norm operator:
   > The size of the output pins 2 and 4 of the operator ErrorAndNorm ("error_norm_calc") was wrong and this has been fixed.
@@ -1832,6 +1939,14 @@ The following table shows which components have updates in each category.
 - Scaling factors for absolute normalization in ErrorAndNorm have a wrong size:
   > Absolute normalization in ErrorAndNorm ("error_and_norm") operator was exporting scaling factors with a size of the original data instead of having only one unit value per field.
   >
+  > 
+  >
+  > 
+## nuget
+
+### <a id="Fixes_nuget"></a> Fixes
+
+- Update unit test:
   > 
   >
   > 
@@ -2137,6 +2252,12 @@ The following table shows which components have updates in each category.
   > Prepares a workflow able to map data from an input mesh to a target mesh.
 
 
+#### math
+
+- [linearized_stress](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/linearized_stress.md):
+  > get linearized stress
+
+
 #### mesh
 
 - [morphed_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/morphed_field.md):
@@ -2348,6 +2469,12 @@ The following table shows which components have updates in each category.
   > Read/compute Square of the L2 norm of pressure over element volume by calling the readers defined by the datasources.
 
 
+#### scoping
+
+- [extend_midside_nodal_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/extend_midside_nodal_scoping.md):
+  > Extends the input nodal scoping with the neighbor corner nodes of every midside node in the input. For each midside node in the scoping, the two corner nodes that bound it on the element edge are added to the output scoping. 
+
+
 #### serialization
 
 - [export_mesh_with_prime](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/serialization/export_mesh_with_prime.md):
@@ -2402,6 +2529,8 @@ The following table shows which components have updates in each category.
 - [elemental_nodal_to_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_nodal_to_nodal.md)
 
   > 0.0.1: Fixed issue with semiparabolic elements.
+
+  > 0.0.2: Midside nodes included in the input scoping are now properly averaged regardless of the presence of its parent corner nodes.
 
 
 - [elemental_nodal_to_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_nodal_to_nodal_fc.md)
@@ -2504,6 +2633,8 @@ The following table shows which components have updates in each category.
 
   > 0.1.0: Fix bug with interpolation points at corner nodes.
 
+  > 0.1.1: Update the operator and pin descriptions.
+
 
 - [on_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/on_coordinates.md)
 
@@ -2512,6 +2643,18 @@ The following table shows which components have updates in each category.
   > 0.2.0: Fix bug with interpolation points at corner nodes.
 
   > 0.3.0: Fix bug with missing results and use_quadratic_elements pin.
+
+  > 0.3.1: Update the operator and pin descriptions.
+
+
+- [on_reduced_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/on_reduced_coordinates.md)
+
+  > 0.0.1: Update the operator and pin descriptions.
+
+
+- [prepare_mapping_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/prepare_mapping_workflow.md)
+
+  > 0.0.1: Update the operator and pin descriptions.
 
 
 - [solid_to_skin](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/solid_to_skin.md)
@@ -2523,6 +2666,8 @@ The following table shows which components have updates in each category.
   > 0.2.1: Removing unnedeed output hidden pin.
 
   > 0.2.2: Fixed issue with shell layers calculation in the results field while having mid-side nodes on some elements.
+
+  > 0.2.3: Improve the operator and pin descriptions.
 
 
 - [solid_to_skin_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/solid_to_skin_fc.md)
@@ -2538,6 +2683,8 @@ The following table shows which components have updates in each category.
   > 0.2.2: Fixed issue with shell layers calculation in the results field while having mid-side nodes on some elements.
 
   > 0.2.3: Fixed issue with fields container with mixed location.
+
+  > 0.2.4: Improve pin 0, pin 1, pin 2, and output pin 0 descriptions to match the solid_to_skin operator.
 
 
 
@@ -2981,6 +3128,11 @@ Upgraded documentation
   > 0.0.1: Fix crash caused by invalid iterator when reading shell data.
 
 
+- [mapdl_section](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/mapdl_section.md)
+
+  > 0.0.1: Making the operator license-free.
+
+
 - [nmisc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/nmisc.md)
 
   > 1.0.0: num_components input pin is removed, please use the item_index pin with a vector of indexes.
@@ -3201,6 +3353,11 @@ Upgraded documentation
 
 #### scoping
 
+- [on_property](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/on_property.md)
+
+  > 1.0.0: Remove pin "inclusive"
+
+
 - [rescope](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/rescope.md)
 
   > 0.1.0: Performance improvement.
@@ -3226,6 +3383,8 @@ Upgraded documentation
   > 0.1.0: Improvement of performance
 
   > 0.1.1: Error with license
+
+  > 0.2.0: Added extend_midside_nodes input pin
 
 
 

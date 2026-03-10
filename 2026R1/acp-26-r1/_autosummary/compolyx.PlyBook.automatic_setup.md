@@ -2,4 +2,4 @@
 
 <a id="compolyx.PlyBook.automatic_setup"></a>
 
-#### PlyBook.automatic_setup()
+## PlyBook.automatic_setup()

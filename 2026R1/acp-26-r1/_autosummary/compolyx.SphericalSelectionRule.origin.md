@@ -2,6 +2,6 @@
 
 <a id="compolyx.SphericalSelectionRule.origin"></a>
 
-#### *property* SphericalSelectionRule.origin
+## *property* SphericalSelectionRule.origin
 
 Origin of the Sphere.

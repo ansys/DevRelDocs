@@ -18,17 +18,17 @@ Access:
 
 | Name | Description |
 |---------------------------------------------------------------------------------------|--------------------------------------------------------------------|
-| [`View.is_dict_item`](compolyx.View.is_dict_item.md#compolyx.View.is_dict_item)       | Indicates whether the object is an item in a dictionary                   |
-| [`View.is_list_item`](compolyx.View.is_list_item.md#compolyx.View.is_list_item)       | Indicates whether the object is an item of a list                   |
-| [`View.link_path`](compolyx.View.link_path.md#compolyx.View.link_path)                | Root path of the current node in the tree for links to this object |
+| [`View.is_dict_item`](compolyx.View.is_dict_item.md#compolyx.View.is_dict_item)       | Indicates whether the object is an item in a dictionary.                   |
+| [`View.is_list_item`](compolyx.View.is_list_item.md#compolyx.View.is_list_item)       | Indicates whether the object is an item of a list.                   |
+| [`View.link_path`](compolyx.View.link_path.md#compolyx.View.link_path)                | Root path of the current node in the tree for links to this object. |
 | [`View.locked`](compolyx.View.locked.md#compolyx.View.locked)                         | A View which is imported from another source cannot be modified. |
-| [`View.name`](compolyx.View.name.md#compolyx.View.name)                               | Name of the object                                                     |
-| [`View.orientation`](compolyx.View.orientation.md#compolyx.View.orientation)          | Get/set the view orientation                                       |
+| [`View.name`](compolyx.View.name.md#compolyx.View.name)                               | Name of the object.                                                     |
+| [`View.orientation`](compolyx.View.orientation.md#compolyx.View.orientation)          | Get/set the view orientation.                                       |
 | [`View.parallel_scale`](compolyx.View.parallel_scale.md#compolyx.View.parallel_scale) | Get/set the view parallel‑perspective scale factor.                |
-| [`View.parent`](compolyx.View.parent.md#compolyx.View.parent)                         | Parent object in the tree                                              |
-| [`View.position`](compolyx.View.position.md#compolyx.View.position)                   | Get/set the view position                                          |
-| [`View.projection`](compolyx.View.projection.md#compolyx.View.projection)             | Get/set the projection method parallel or perspective              |
-| [`View.root_path`](compolyx.View.root_path.md#compolyx.View.root_path)                | Root path of the current node in the tree                          |
+| [`View.parent`](compolyx.View.parent.md#compolyx.View.parent)                         | Parent object in the tree.                                              |
+| [`View.position`](compolyx.View.position.md#compolyx.View.position)                   | Get/set the view position.                                          |
+| [`View.projection`](compolyx.View.projection.md#compolyx.View.projection)             | Get/set the projection method parallel or perspective.              |
+| [`View.root_path`](compolyx.View.root_path.md#compolyx.View.root_path)                | Root path of the current node in the tree.                          |
 | [`View.rotation_point`](compolyx.View.rotation_point.md#compolyx.View.rotation_point) | Get/set the view rotation point.                                   |
 
 ### Methods

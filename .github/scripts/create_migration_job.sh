@@ -19,12 +19,17 @@
 # USA.
 ################################################################################
 
-################################################################################
+########################################
+# The default product documentation type if none is specified in docfx.json.
+########################################
+readonly DEFAULT_DOC_TYPE='markdown'
+
+########################################
 # Regular expression to identify product version directories.
 #
 # Constraints:
 #   1. Must NOT be in the repository root.
-#   2. Must NOT be in the first directory level. 
+#   2. Must NOT be in the first directory level.
 #   2. Matches paths containing: /versions/YYYY.RX.SPXX
 #
 # Examples:
@@ -32,7 +37,7 @@
 #   - docs/some_dir/another_dir/versions/2026.R1.SP00 (Match)
 #   - docs/versions/2026.R1.SP00                      (No Match)
 #   - versions/2026.R1.SP00                           (No Match)
-################################################################################
+########################################
 readonly PRODUCT_VERSION_DIR_REGEX='^([^/]+/){2,}versions/[0-9]{4}\.R[0-9]\.SP[0-9]{2}'
 
 ########################################
@@ -145,6 +150,12 @@ extract_product_documentation_metadata() {
   for prop in "${_docfx_properties[@]}"; do
     local _value
     _value=$(jq -r ".build.globalMetadata.${prop} // empty" "${_docfx_path}")
+    # Check whether doc_type is specified. If not, fall back to a default value.
+    if [[ "${prop}" == "doc_type" && -z "${_value}" ]]; then
+      echo "Metadata doc_type is not specified or it's empty. Using '${DEFAULT_DOC_TYPE}' as a default value."
+      _value="${DEFAULT_DOC_TYPE}"
+    fi
+    # Make sure that the property value is not empty.
     if [ -z "${_value}" ]; then
       _docfx_errors+=("'${prop}' is missing or empty")
     else
@@ -359,7 +370,7 @@ main() {
     exit 1
   fi
 
-  echo "::group::Product documentation metadata"
+  echo "::group::Extracted product metadata (summary)"
   echo "Source path: ${_source_path}"
   echo "Documentation type: ${_doc_type}"
   echo "Product name: ${_product_name}"

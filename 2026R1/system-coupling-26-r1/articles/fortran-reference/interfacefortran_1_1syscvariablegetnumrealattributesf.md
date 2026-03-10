@@ -20,6 +20,7 @@ Provide an interface to get number of real attributes.
 
 ![][public]
 
+
 ```fortran
 integer(kind=8) function syscvariablegetnumrealattributesf(variable)
 ```
@@ -30,9 +31,10 @@ integer(kind=8) function syscvariablegetnumrealattributesf(variable)
 
 
 
+
 **Parameters**:
 
-* variablevariable
+* variabletype([syscvariablef](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef))
 
 **Return type**: integer(kind=8) function
 

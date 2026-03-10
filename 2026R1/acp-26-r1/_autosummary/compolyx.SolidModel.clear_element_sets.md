@@ -2,6 +2,6 @@
 
 <a id="compolyx.SolidModel.clear_element_sets"></a>
 
-#### SolidModel.clear_element_sets()
+## SolidModel.clear_element_sets()
 
-Clear Element Sets of Solid Model
+Clear Element sets of solid model.

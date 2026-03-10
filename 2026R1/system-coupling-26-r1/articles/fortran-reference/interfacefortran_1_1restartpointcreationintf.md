@@ -20,9 +20,11 @@ This function may be called only during outputs update, and is expected to retur
 
 ![][public]
 
+
 ```fortran
 character(len=syscfilepathlen) function restartpointcreationintf()
 ```
+
 
 Provide a function prototype for creating restart points.
 

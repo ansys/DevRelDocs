@@ -11,15 +11,15 @@ Represents a ply book.
 | Name | Description |
 |---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
 | [`PlyBook.chapters`](compolyx.PlyBook.chapters.md#compolyx.PlyBook.chapters)                      | Dictionary with all chapters defined.                              |
-| [`PlyBook.is_dict_item`](compolyx.PlyBook.is_dict_item.md#compolyx.PlyBook.is_dict_item)          | Indicates whether the object is an item in a dictionary                   |
-| [`PlyBook.is_list_item`](compolyx.PlyBook.is_list_item.md#compolyx.PlyBook.is_list_item)          | Indicates whether the object is an item of a list                   |
-| [`PlyBook.link_path`](compolyx.PlyBook.link_path.md#compolyx.PlyBook.link_path)                   | Root path of the current node in the tree for links to this object |
-| [`PlyBook.name`](compolyx.PlyBook.name.md#compolyx.PlyBook.name)                                  | Name of the object                                                     |
-| [`PlyBook.parent`](compolyx.PlyBook.parent.md#compolyx.PlyBook.parent)                            | Parent object in the tree                                              |
-| [`PlyBook.reST_chapter`](compolyx.PlyBook.reST_chapter.md#compolyx.PlyBook.reST_chapter)          | reST chapter template                                              |
-| [`PlyBook.reST_ply`](compolyx.PlyBook.reST_ply.md#compolyx.PlyBook.reST_ply)                      | reST ply template                                                  |
-| [`PlyBook.reST_title_page`](compolyx.PlyBook.reST_title_page.md#compolyx.PlyBook.reST_title_page) | reST title page template                                           |
-| [`PlyBook.root_path`](compolyx.PlyBook.root_path.md#compolyx.PlyBook.root_path)                   | Root path of the current node in the tree                          |
+| [`PlyBook.is_dict_item`](compolyx.PlyBook.is_dict_item.md#compolyx.PlyBook.is_dict_item)          | Indicates whether the object is an item in a dictionary.                   |
+| [`PlyBook.is_list_item`](compolyx.PlyBook.is_list_item.md#compolyx.PlyBook.is_list_item)          | Indicates whether the object is an item of a list.                   |
+| [`PlyBook.link_path`](compolyx.PlyBook.link_path.md#compolyx.PlyBook.link_path)                   | Root path of the current node in the tree for links to this object. |
+| [`PlyBook.name`](compolyx.PlyBook.name.md#compolyx.PlyBook.name)                                  | Name of the object.                                                     |
+| [`PlyBook.parent`](compolyx.PlyBook.parent.md#compolyx.PlyBook.parent)                            | Parent object in the tree.                                              |
+| [`PlyBook.reST_chapter`](compolyx.PlyBook.reST_chapter.md#compolyx.PlyBook.reST_chapter)          | reST chapter template.                                              |
+| [`PlyBook.reST_ply`](compolyx.PlyBook.reST_ply.md#compolyx.PlyBook.reST_ply)                      | reST ply template.                                                  |
+| [`PlyBook.reST_title_page`](compolyx.PlyBook.reST_title_page.md#compolyx.PlyBook.reST_title_page) | reST title page template.                                           |
+| [`PlyBook.root_path`](compolyx.PlyBook.root_path.md#compolyx.PlyBook.root_path)                   | Root path of the current node in the tree.                          |
 | [`PlyBook.scene`](compolyx.PlyBook.scene.md#compolyx.PlyBook.scene)                               |                                                                    |
 
 ### Methods

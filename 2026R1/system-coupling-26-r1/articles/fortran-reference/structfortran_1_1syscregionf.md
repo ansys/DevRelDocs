@@ -19,9 +19,10 @@ To create and/or initialize the SyscRegionF struct, it is highly recommended to 
 
 
 
+
 ```fortran
 type(SyscRegionF) :: reg
-reg = syscGetRegionF("Wall", SyscSurface)
+reg = syscgetregionf(, syscsurface)
 ```
 
 ## Members
@@ -40,9 +41,11 @@ reg = syscGetRegionF("Wall", SyscSurface)
 
 **Definition**: `syscRegionF.fi` (line 31)
 
+
 ```fortran
 character(len=syscstrlen) regionname
 ```
+
 
 Unique region name.
 
@@ -59,9 +62,11 @@ Unique region name.
 
 **Definition**: `syscRegionF.fi` (line 33)
 
+
 ```fortran
 integer(kind=4) topology
 ```
+
 
 Region topology.
 
@@ -78,9 +83,11 @@ Region topology.
 
 **Definition**: `syscRegionF.fi` (line 35)
 
+
 ```fortran
 integer(kind=4) regiondiscretizationtype
 ```
+
 
 Region discretization type.
 
@@ -97,9 +104,11 @@ Region discretization type.
 
 **Definition**: `syscRegionF.fi` (line 37)
 
+
 ```fortran
 character(len=syscstrlen) displayname
 ```
+
 
 User-friendly region name.
 

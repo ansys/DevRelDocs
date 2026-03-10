@@ -2,4 +2,4 @@
 
 <a id="compolyx.TubeSelectionRule.serialize_rule_types"></a>
 
-#### TubeSelectionRule.serialize_rule_types()
+## TubeSelectionRule.serialize_rule_types()

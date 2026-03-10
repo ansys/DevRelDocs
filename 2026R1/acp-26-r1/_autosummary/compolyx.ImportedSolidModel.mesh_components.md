@@ -2,6 +2,6 @@
 
 <a id="compolyx.ImportedSolidModel.mesh_components"></a>
 
-#### *property* ImportedSolidModel.mesh_components
+## *property* ImportedSolidModel.mesh_components
 
-Element Sets of the solid mesh
+Element sets of the solid mesh.

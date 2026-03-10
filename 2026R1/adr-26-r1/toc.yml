@@ -14,3 +14,5 @@
   href: http-server.md
 - name: REST API
   href: rest-api.md
+- name: Changelog
+  href: changelog.md

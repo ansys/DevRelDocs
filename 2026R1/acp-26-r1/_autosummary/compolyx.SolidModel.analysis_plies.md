@@ -2,6 +2,6 @@
 
 <a id="compolyx.SolidModel.analysis_plies"></a>
 
-#### *property* SolidModel.analysis_plies
+## *property* SolidModel.analysis_plies
 
-Analysis Plies of the Solid Model
+Analysis plies of the solid model.

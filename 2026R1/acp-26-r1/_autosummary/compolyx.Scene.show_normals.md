@@ -2,4 +2,4 @@
 
 <a id="compolyx.Scene.show_normals"></a>
 
-#### *property* Scene.show_normals
+## *property* Scene.show_normals

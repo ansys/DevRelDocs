@@ -2,6 +2,6 @@
 
 <a id="compolyx.Material.is_constant"></a>
 
-#### *property* Material.is_constant
+## *property* Material.is_constant
 
 True if engineering constants are constant.

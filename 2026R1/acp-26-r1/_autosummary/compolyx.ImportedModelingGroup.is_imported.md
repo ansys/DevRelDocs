@@ -2,4 +2,4 @@
 
 <a id="compolyx.ImportedModelingGroup.is_imported"></a>
 
-#### *classmethod* ImportedModelingGroup.is_imported()
+## *classmethod* ImportedModelingGroup.is_imported()

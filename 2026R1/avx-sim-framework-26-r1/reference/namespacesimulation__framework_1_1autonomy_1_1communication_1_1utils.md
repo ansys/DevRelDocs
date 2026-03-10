@@ -114,9 +114,92 @@ Converts a DDS GenericBytesMessage back to an OSI proto message.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::autonomy::communication::utils::ParseOsiProtoFromDdsMessage"}]}`
 -->
 
+<a id="dds__to__autonomy__msg__converter_8h_1a0967119b1b769497de4974ad7684290b"></a>
+### Function ConvertAutonomyMsgToGenericBytes
+
+![][public]
+
+
+```cpp
+rtidds::GenericBytesMessage simulation_framework::autonomy::communication::utils::ConvertAutonomyMsgToGenericBytes(const int frame_counter, const std::string &header_name, const messages::AutonomyMsg &msg)
+```
+
+
+Convert an Autonomy message to a DDS GenericBytesMessage.
+
+**Parameters**:
+
+* **frame_counter**: Frame counter to store in the DDS header.
+* **header_name**: Header name for the DDS message.
+* **msg**: The AutonomyMsg message to serialize into the GenericBytesMessage.
+
+
+**Returns**:
+
+A rtidds::GenericBytesMessage containing the serialized autonomy message.
+
+
+**Exceptions**:
+
+* **std::runtime_error**: If serialization fails (e.g., buffer overflow).
+
+
+
+**Parameters**:
+
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [int](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) **frame_counter**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) std::string & **header_name**
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) [messages::AutonomyMsg](classsimulation__framework_1_1autonomy_1_1communication_1_1messages_1_1AutonomyMsg.md#classsimulation__framework_1_1autonomy_1_1communication_1_1messages_1_1AutonomyMsg) & **msg**
+
+**Return type**: rtidds::GenericBytesMessage
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::autonomy::communication::utils::ConvertAutonomyMsgToGenericBytes"}]}`
+-->
+
+<a id="dds__to__autonomy__msg__converter_8h_1af6f0d0ad4a6587785f054cbdabc726e2"></a>
+### Function ConvertGenericBytesToAutonomyMsg
+
+![][public]
+
+
+```cpp
+void simulation_framework::autonomy::communication::utils::ConvertGenericBytesToAutonomyMsg(const rtidds::GenericBytesMessage &dds_msg, messages::AutonomyMsg &msg)
+```
+
+
+Parse an Autonomy message from a DDS GenericBytesMessage.
+
+**Parameters**:
+
+* **dds_msg**: The DDS GenericBytesMessage containing serialized bytes.
+* **msg**: Reference to the message object to populate.
+
+
+**Exceptions**:
+
+* **std::runtime_error**: If parsing fails (e.g., buffer underflow or malformed data).
+
+
+
+**Parameters**:
+
+* [const](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic) rtidds::GenericBytesMessage & **dds_msg**
+* [messages::AutonomyMsg](classsimulation__framework_1_1autonomy_1_1communication_1_1messages_1_1AutonomyMsg.md#classsimulation__framework_1_1autonomy_1_1communication_1_1messages_1_1AutonomyMsg) & **msg**
+
+**Return type**: [void](classsimulation__framework_1_1core_1_1Topic.md#classsimulation__framework_1_1core_1_1Topic)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"simulation_framework::autonomy::communication::utils::ConvertGenericBytesToAutonomyMsg"}]}`
+-->
+
 [private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
-[static]: https://img.shields.io/badge/-static-lightgrey (static)
 [protected]: https://img.shields.io/badge/-protected-yellow (protected)
+[static]: https://img.shields.io/badge/-static-lightgrey (static)

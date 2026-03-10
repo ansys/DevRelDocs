@@ -2,6 +2,6 @@
 
 <a id="compolyx.Chapter.generate_reST"></a>
 
-#### Chapter.generate_reST(reST_chapter_template, reST_ply_template, image_provider)
+## Chapter.generate_reST(reST_chapter_template, reST_ply_template, image_provider)
 
 Returns the interpolated reST string for the chapter.

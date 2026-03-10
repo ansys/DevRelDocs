@@ -23,9 +23,11 @@ Describes face-to-cell connectivity.
 
 **Definition**: `syscMeshDefinition.h` (line 192)
 
+
 ```
 SyscOutputIntegerData SyscFaceCellConnectivityData::cell0Ids
 ```
+
 
 
 
@@ -42,9 +44,11 @@ cell ids on side 0.
 
 **Definition**: `syscMeshDefinition.h` (line 193)
 
+
 ```
 SyscOutputIntegerData SyscFaceCellConnectivityData::cell1Ids
 ```
+
 
 
 

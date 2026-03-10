@@ -14,10 +14,13 @@ Provide a volume mesh access type.
 * [cellids](structfortran_1_1syscvolumemeshf.md#structfortran_1_1syscvolumemeshf_1a951c6d0afd7b7c9755fbafe582a2302a)
 * [cellnodeconnectivity](structfortran_1_1syscvolumemeshf.md#structfortran_1_1syscvolumemeshf_1afe81e5f19dbe8088d8f63e8ccb6ec3c4)
 * [celltypes](structfortran_1_1syscvolumemeshf.md#structfortran_1_1syscvolumemeshf_1a53b9beb7b95f41d2958d1ad46365475b)
+* [connectivitystamp](structfortran_1_1syscvolumemeshf.md#structfortran_1_1syscvolumemeshf_1a4b3938b5f803cc4193e011bf7dc56377)
+* [coordinatesstamp](structfortran_1_1syscvolumemeshf.md#structfortran_1_1syscvolumemeshf_1aa66a6cff733b4f5ea50326c17bfafb1d)
 * [facecellconnectivity](structfortran_1_1syscvolumemeshf.md#structfortran_1_1syscvolumemeshf_1a60fd49965317a12753680728055cddcf)
 * [facenodeconnectivity](structfortran_1_1syscvolumemeshf.md#structfortran_1_1syscvolumemeshf_1a62c5148ef54c724d306a1d2ed512ccf1)
 * [facenodecounts](structfortran_1_1syscvolumemeshf.md#structfortran_1_1syscvolumemeshf_1a2abe8c3dbc5763c1d6a59c79a2e14e79)
 * [nodes](structfortran_1_1syscvolumemeshf.md#structfortran_1_1syscvolumemeshf_1a9ce996d7ce626bd972c2fe728972b2bd)
+* [partitioningstamp](structfortran_1_1syscvolumemeshf.md#structfortran_1_1syscvolumemeshf_1afadcd8d9371a4040bd30a5d07c1f4027)
 
 ## Public attributes
 
@@ -28,9 +31,11 @@ Provide a volume mesh access type.
 
 **Definition**: `syscVolumeMeshF.fi` (line 13)
 
+
 ```fortran
 type(syscnodedataf) nodes
 ```
+
 
 Mesh nodes.
 
@@ -47,9 +52,11 @@ Mesh nodes.
 
 **Definition**: `syscVolumeMeshF.fi` (line 15)
 
+
 ```fortran
 type(syscelementnodecountdataf) facenodecounts
 ```
+
 
 Face node counts.
 
@@ -66,9 +73,11 @@ Face node counts.
 
 **Definition**: `syscVolumeMeshF.fi` (line 17)
 
+
 ```fortran
 type(syscelementnodeconnectivitydataf) facenodeconnectivity
 ```
+
 
 Face-to-node connectivity.
 
@@ -85,9 +94,11 @@ Face-to-node connectivity.
 
 **Definition**: `syscVolumeMeshF.fi` (line 19)
 
+
 ```fortran
 type(syscfacecellconnectivitydataf) facecellconnectivity
 ```
+
 
 Face-to-cell connectivity.
 
@@ -104,9 +115,11 @@ Face-to-cell connectivity.
 
 **Definition**: `syscVolumeMeshF.fi` (line 21)
 
+
 ```fortran
 type(sysccelliddataf) cellids
 ```
+
 
 Cell ids.
 
@@ -123,9 +136,11 @@ Cell ids.
 
 **Definition**: `syscVolumeMeshF.fi` (line 23)
 
+
 ```fortran
 type(syscelementtypedataf) celltypes
 ```
+
 
 Cell types.
 
@@ -142,9 +157,11 @@ Cell types.
 
 **Definition**: `syscVolumeMeshF.fi` (line 25)
 
+
 ```fortran
 type(syscelementnodeconnectivitydataf) cellnodeconnectivity
 ```
+
 
 Cell-to-node connectivity.
 
@@ -153,6 +170,69 @@ Cell-to-node connectivity.
 
 
 **Type**: type([syscelementnodeconnectivitydataf](structfortran_1_1syscelementnodeconnectivitydataf.md#structfortran_1_1syscelementnodeconnectivitydataf))
+
+<a id="structfortran_1_1syscvolumemeshf_1a4b3938b5f803cc4193e011bf7dc56377"></a>
+### Variable connectivitystamp
+
+![][public]
+
+**Definition**: `syscVolumeMeshF.fi` (line 27)
+
+
+```fortran
+integer(kind=8) connectivitystamp
+```
+
+
+Connectivity stamp.
+
+
+
+
+
+**Type**: integer(kind=8)
+
+<a id="structfortran_1_1syscvolumemeshf_1aa66a6cff733b4f5ea50326c17bfafb1d"></a>
+### Variable coordinatesstamp
+
+![][public]
+
+**Definition**: `syscVolumeMeshF.fi` (line 29)
+
+
+```fortran
+integer(kind=8) coordinatesstamp
+```
+
+
+Coordinates stamp.
+
+
+
+
+
+**Type**: integer(kind=8)
+
+<a id="structfortran_1_1syscvolumemeshf_1afadcd8d9371a4040bd30a5d07c1f4027"></a>
+### Variable partitioningstamp
+
+![][public]
+
+**Definition**: `syscVolumeMeshF.fi` (line 31)
+
+
+```fortran
+integer(kind=8) partitioningstamp
+```
+
+
+Partitioning stamp.
+
+
+
+
+
+**Type**: integer(kind=8)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

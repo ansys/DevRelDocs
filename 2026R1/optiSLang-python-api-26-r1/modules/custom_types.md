@@ -84,12 +84,6 @@ String. The nodes working directory.
 
 Parameter values of a specific HId.
 
-<a id="custom_types.HidSpecificInputDataIntegrations.reference_file_path"></a>
-
-#### *property* reference_file_path
-
-RelativeSplittedPath to the reference file.
-
 <a id="custom_types.HidSpecificOutputData"></a>
 
 ## *class* custom_types.HidSpecificOutputData

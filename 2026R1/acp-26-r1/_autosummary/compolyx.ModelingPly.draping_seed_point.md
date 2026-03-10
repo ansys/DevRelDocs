@@ -2,6 +2,6 @@
 
 <a id="compolyx.ModelingPly.draping_seed_point"></a>
 
-#### *property* ModelingPly.draping_seed_point
+## *property* ModelingPly.draping_seed_point
 
 The seed point where the draping starts.

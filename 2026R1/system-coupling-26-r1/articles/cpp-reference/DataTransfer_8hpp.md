@@ -22,23 +22,26 @@
 * SystemCouplingParticipant/CommonTypes.hpp
 * SystemCouplingParticipant/Variable.hpp
 
+
 ```mermaid
 graph LR
-3["SystemCouplingParticipant/CommonTypes.hpp"]
-
-4["SystemCouplingParticipant/Variable.hpp"]
-
 1["DataTransfer.hpp"]
 click 1 "DataTransfer_8hpp.md#DataTransfer_8hpp"
 1 --> 2
 1 --> 3
 1 --> 4
 
+3["SystemCouplingParticipant/CommonTypes.hpp"]
+
 2["SystemCouplingParticipant/LibraryType.hpp"]
+
+4["SystemCouplingParticipant/Variable.hpp"]
 
 ```
 
+
 ## Source
+
 
 ```cpp
 /*
@@ -82,7 +85,8 @@ private:
 }  // namespace sysc
 ```
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

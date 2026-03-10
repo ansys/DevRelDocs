@@ -2,6 +2,6 @@
 
 <a id="compolyx.CADSolid.path"></a>
 
-#### *property* CADSolid.path
+## *property* CADSolid.path
 
 Returns the topology path of the CAD component.

@@ -4,9 +4,78 @@
 
 Back to [Top](#table-of-contents)
  
+## SherlockACTService.proto
+ 
+@Copyright 2026 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
+
+### ExportFEAModelWithMaterialPartMappingRequest
+ 
+Request to export FEA model with material mapping
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| project | [string](#string) |  | Sherlock project name. |
+| ccaName | [string](#string) |  | CCA name. |
+| exportFilePath | [string](#string) |  | Location where to output the FEA model and material files. |
+
+### ExportFEAModelWithMaterialPartMappingResponse
+ 
+Response to the export FEA model with material mapping request
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| returnStatus | [ReturnCode](#returncode) |  | Return code that specifies of there was an issue. |
+| partMaterials | [PartMaterialMapping](#partmaterialmapping) | repeated | List of parts with assigned materials. |
+
+### OpenLayerViewerRequest
+ 
+Request to open the layer viewer for a specific project and cca.
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| project | [string](#string) |  | Sherlock project name |
+| ccaName | [string](#string) |  | The CCA name. |
+
+### PartMaterialMapping
+ 
+Holds the data for a part and what material that part has.
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| partName | [string](#string) |  | The part name that gets assigned materialName. |
+| materialName | [string](#string) |  | The material the gets assigned to the partName. |
+
+### SherlockShowGUIRequest
+ 
+Request to hide or show GUI.
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| showGUI | [bool](#bool) |  | Flag for hiding or un-hiding GUI. |
+
+
+
+### SherlockACTService
+ 
+
+ 
+| Method Name | Request Type | Response Type | Description |
+| ----------- | ------------ | ------------- | ------------|
+| openLayerViewer | [.OpenLayerViewerRequest](#openlayerviewerrequest) | [.ReturnCode](#returncode) | Open the layer viewer. |
+| showGUI | [.SherlockShowGUIRequest](#sherlockshowguirequest) | [.ReturnCode](#returncode) | Show or hide the Sherlock GUI. |
+| exportFEAModelWithMaterialMapping | [.ExportFEAModelWithMaterialPartMappingRequest](#exportfeamodelwithmaterialpartmappingrequest) | [.ExportFEAModelWithMaterialPartMappingResponse](#exportfeamodelwithmaterialpartmappingresponse) | Export FEA model while returning material mapping |
+
+
+Back to [Top](#table-of-contents)
+ 
 ## SherlockAnalysisService.proto
  
-@Copyright 2023-2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
+@Copyright 2023-2026 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 ### GetHarmonicVibeInputFieldsRequest
  
@@ -580,7 +649,6 @@ Enumeration defining the types of supported element orders.
 | MechanicalShock | 4 | Enum for the Mechanical Shock analysis. |
 | RandomVibe | 5 | Enum for the Random Vibe analysis. |
 | ComponentFailureMode | 7 | Enum for the Component Failure Mechanism analysis. |
-| DFMEAModule | 8 | Enum for the DFMEA analysis. |
 | PTHFatigue | 9 | Enum for the PTH Fatigue analysis. |
 | PartValidation | 10 | Enum for the Part Validation analysis. |
 | SemiconductorWearout | 11 | Enum for the Semiconductor Wearout analysis. |
@@ -681,7 +749,7 @@ Back to [Top](#table-of-contents)
  
 ## SherlockCommonService.proto
  
-Copyright 2023-2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
+Copyright 2023-2026 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 ### ExitRequest
  
@@ -691,20 +759,6 @@ Request to exit the gRPC connection.
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | closeSherlockClient | [bool](#bool) |  | If set to true, exits the Sherlock client if it is opened. Otherwise, just closes the gRPC connection. |
-
-### GetSoldersRequest
- 
-Request for a list of valid solder materials.
- 
-
-### GetSoldersResponse
- 
-Represents a list of valid solder materials.
- 
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| solderName | [string](#string) | repeated | List of valid solder materials. |
 
 ### HealthCheckRequest
  
@@ -777,7 +831,7 @@ Represents Sherlock version and configuration data.
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| releaseVersion | [string](#string) |  | The current version of Sherlock, formatted as: YYYY R# (Ex. "2025 R2"). |
+| releaseVersion | [string](#string) |  | The current version of Sherlock, formatted as: YYYY R# (Ex. "2026 R1"). |
 | defaultProjectDir | [string](#string) |  | The project directory currently used by Sherlock. |
 | isSingleProjectMode | [bool](#bool) |  | When true, indicates that Sherlock is in single-project mode. When false, indicates that Sherlock is in multi-project mode. |
 
@@ -930,7 +984,6 @@ Types of delimiters that can be used for exporting tables.
 | exit | [.ExitRequest](#exitrequest) | [.ReturnCode](#returncode) | Signals for gRPC connection to shutdown. |
 | isSherlockClientLoading | [.IsSherlockClientLoadingRequest](#issherlockclientloadingrequest) | [.ReturnCode](#returncode) | Check if the Sherlock client is still loading. |
 | listUnits | [.ListUnitsRequest](#listunitsrequest) | [.ListUnitsResponse](#listunitsresponse) | Returns a list of valid units of the provided unit type. |
-| getSolders | [.GetSoldersRequest](#getsoldersrequest) | [.GetSoldersResponse](#getsoldersresponse) | Returns a list of valid solder materials. This is deprecated as of 25R2. |
 | getSolderInfo | [.SolderInfoRequest](#solderinforequest) | [.SolderInfoResponse](#solderinforesponse) | Returns a list of valid solder material information. |
 | getSherlockInfo | [.SherlockInfoRequest](#sherlockinforequest) | [.SherlockInfoResponse](#sherlockinforesponse) | Returns meta data about Sherlock. |
 
@@ -939,7 +992,7 @@ Back to [Top](#table-of-contents)
  
 ## SherlockLayerService.proto
  
-Copyright 2023-2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
+Copyright 2023-2026 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 ### AddModelingRegionRequest
  
@@ -1187,6 +1240,27 @@ Contains the status of the export as well as all the export error and informatio
 | returnCode | [ReturnCode](#returncode) |  | Status code of response. |
 | exportMessages | [string](#string) | repeated | Informational and error messages about the export. |
 
+### GetICTFixturesPropertiesRequest
+ 
+Request to list the valid ICT fixture properties.
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| project | [string](#string) |  | Sherlock project name. |
+| ccaName | [string](#string) |  | The CCA name. |
+| ICTFixtureIDs | [string](#string) |  | A comma separated list of ICT fixture ids, or an ICT fixture id for one part. |
+
+### GetICTFixturesPropertiesResponse
+ 
+Represents a list of valid ICT fixture properties.
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| returnCode | [ReturnCode](#returncode) |  | Status code of response. |
+| ICTFixtureProperties | [ICTFixtureProperties](#ictfixtureproperties) | repeated | ICT fixture properties. |
+
 ### GetMountPointBoundariesRequest
  
 Request to list the valid mount point boundaries.
@@ -1322,6 +1396,33 @@ Represents the test point properties for a specific test point id.
 | ----- | ---- | ----- | ----------- |
 | returnCode | [ReturnCode](#returncode) |  | Status code of response. |
 | testPointProperties | [TestPointProperties](#testpointproperties) |  | The test point properties for a given test point id. |
+
+### ICTFixtureProperties
+ 
+Properties of ICT fixture, the properties may vary depending on the fixture type and fixture shape.
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| ID | [string](#string) |  | Fixture ID. |
+| type | [string](#string) |  | Fixture type. |
+| units | [string](#string) |  | Fixture units. |
+| side | [string](#string) |  | Fixture side. |
+| height | [string](#string) |  | Fixture height. |
+| material | [string](#string) |  | Fixture material. |
+| state | [string](#string) |  | Fixture state. |
+| shape | [string](#string) |  | Shape type. |
+| x | [string](#string) |  | Center X. |
+| y | [string](#string) |  | Center Y. |
+| length | [string](#string) |  | Length. |
+| width | [string](#string) |  | Width. |
+| diameter | [string](#string) |  | Circle diameter. |
+| nodes | [string](#string) |  | # of nodes. |
+| rotation | [string](#string) |  | Rotation (degrees). |
+| polygon | [string](#string) |  | Coordinates of points. |
+| boundary | [string](#string) |  | Boundary Pt(s). |
+| constraints | [string](#string) |  | FEA constraints. |
+| chassisMaterial | [string](#string) |  | Chassis material. |
 
 ### LayerInfo
  
@@ -1524,6 +1625,17 @@ Request to update ICT fixtures properties of a CCA from a CSV formatted file.
 | ccaName | [string](#string) |  | The CCA name. |
 | filePath | [string](#string) |  | The filepath of the CSV file containing the ICT fixtures properties. |
 
+### UpdateICTFixturesRequest
+ 
+Request to update ICT fixtures properties of a CCA from input parameters.
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| project | [string](#string) |  | Sherlock project name. |
+| ccaName | [string](#string) |  | The CCA name. |
+| ICTFixtureProperties | [ICTFixtureProperties](#ictfixtureproperties) | repeated | ICT Fixture properties. |
+
 ### UpdateICTFixturesResponse
  
 Contains the status of the update as well as all the update error messages.
@@ -1557,7 +1669,7 @@ Request to update mount points properties of a CCA from a CSV formatted file.
 
 ### UpdateMountPointsRequest
  
-Request to update mount points properties of a CCA from a CSV formatted file.
+Request to update mount points properties of a CCA from input parameters.
  
 
 | Field | Type | Label | Description |
@@ -1607,6 +1719,17 @@ Request to update test points properties of a CCA from a CSV formatted file.
 | ccaName | [string](#string) |  | The CCA name. |
 | filePath | [string](#string) |  | The filepath of the CSV file containing the test points properties. |
 
+### UpdateTestPointsRequest
+ 
+Request to update test points properties of a CCA from input parameters.
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| project | [string](#string) |  | Sherlock project name. |
+| ccaName | [string](#string) |  | The CCA name. |
+| testPointProperties | [TestPointProperties](#testpointproperties) | repeated | List of data needed to update each test point. |
+
 ### UpdateTestPointsResponse
  
 Contains the status of the update as well as all the update error messages.
@@ -1627,8 +1750,6 @@ Contains the status of the update as well as all the update error messages.
 | Unknown | 0 |  |
 | Components | 1 |  |
 | Copper_Layers | 2 |  |
-| DFMEA_Bot | 3 |  |
-| DFMEA_Top | 4 |  |
 | Drill_Holes | 5 |  |
 | Harmonic_Vibe | 6 |  |
 | Heat_Sinks | 7 |  |
@@ -1725,14 +1846,17 @@ Contains the status of the update as well as all the update error messages.
 | getMountPointBoundaries | [.GetMountPointBoundariesRequest](#getmountpointboundariesrequest) | [.GetMountPointBoundariesResponse](#getmountpointboundariesresponse) | Get a list of valid mount point boundaries. |
 | getMountPointChassisMaterials | [.GetMountPointChassisMaterialsRequest](#getmountpointchassismaterialsrequest) | [.GetMountPointChassisMaterialsResponse](#getmountpointchassismaterialsresponse) | Get a list of valid mount point chassis materials. |
 | getMountPointsProperties | [.GetMountPointsPropertiesRequest](#getmountpointspropertiesrequest) | [.GetMountPointsPropertiesResponse](#getmountpointspropertiesresponse) | Get a list of valid mount point properties. |
+| getICTFixturesProperties | [.GetICTFixturesPropertiesRequest](#getictfixturespropertiesrequest) | [.GetICTFixturesPropertiesResponse](#getictfixturespropertiesresponse) | Get a list of valid ICT fixture properties. |
 | getMountPointShapeTypes | [.GetMountPointShapeTypesRequest](#getmountpointshapetypesrequest) | [.GetMountPointShapeTypesResponse](#getmountpointshapetypesresponse) | Get a list of valid mount point shape type values. |
 | getMountPointSides | [.GetMountPointSidesRequest](#getmountpointsidesrequest) | [.GetMountPointSidesResponse](#getmountpointsidesresponse) | Get a list of valid mount point sides. |
 | getMountPointTypes | [.GetMountPointTypesRequest](#getmountpointtypesrequest) | [.GetMountPointTypesResponse](#getmountpointtypesresponse) | Get a list of valid mount point type values. |
 | getMountPointUnits | [.GetMountPointUnitsRequest](#getmountpointunitsrequest) | [.GetMountPointUnitsResponse](#getmountpointunitsresponse) | Get a list of valid mount point units. |
 | getTestPointProperties | [.GetTestPointPropertiesRequest](#gettestpointpropertiesrequest) | [.GetTestPointPropertiesResponse](#gettestpointpropertiesresponse) stream | Get a series of valid test point properties. |
+| updateICTFixtures | [.UpdateICTFixturesRequest](#updateictfixturesrequest) | [.UpdateICTFixturesResponse](#updateictfixturesresponse) | Update the ICT fixtures properties of a CCA using input parameters.<br>If the ID specified already exists, then the properties for that ICT fixture will be updated.<br>If the ID specified does not already exist, or if the field is empty, then a new ICT fixture will be added with the specified properties. |
 | updateICTFixturesByFile | [.UpdateICTFixturesByFileRequest](#updateictfixturesbyfilerequest) | [.UpdateICTFixturesResponse](#updateictfixturesresponse) | Update the ICT fixtures properties of a CCA from a CSV formatted file. This API could be used to add new ICT fixtures or update existing ones depending on the file contents.<br>If the ID specified already exists, then the properties for that ICT fixture will be updated.<br>If the ID specified does not already exist, or if the field is empty, then a new ICT fixture will be added with the specified properties.<br>The file format should be the same as the one produced from CCA -> Export ICT Fixtures. |
-| updateMountPoints | [.UpdateMountPointsRequest](#updatemountpointsrequest) | [.UpdateMountPointsResponse](#updatemountpointsresponse) | Update mount points with specified properties. |
+| updateMountPoints | [.UpdateMountPointsRequest](#updatemountpointsrequest) | [.UpdateMountPointsResponse](#updatemountpointsresponse) | Update mount points with specified properties.<br>If the ID specified already exists, then the properties for that mount point will be updated.<br>If the ID specified does not already exist, or if the field is empty, then a new mount point will be added with the specified properties. |
 | updateMountPointsByFile | [.UpdateMountPointsByFileRequest](#updatemountpointsbyfilerequest) | [.UpdateMountPointsResponse](#updatemountpointsresponse) | Update the mount points properties of a CCA from a CSV formatted file. This API could be used to add new mount points or update existing ones depending on the file contents.<br>If the ID specified already exists, then the properties for that mount point will be updated.<br>If the ID specified does not already exist, or if the field is empty, then a new mount point will be added with the specified properties.<br>The file format should be the same as the one produced from CCA -> Export Mount Points. |
+| updateTestPoints | [.UpdateTestPointsRequest](#updatetestpointsrequest) | [.UpdateTestPointsResponse](#updatetestpointsresponse) | Update the test points properties of a CCA from input parameters. <br>If the ID specified already exists, then the properties for that test point will be updated.<br>If the ID specified does not already exist, or if the field is empty, then a new test point will be added with the specified properties. |
 | updateTestPointsByFile | [.UpdateTestPointsByFileRequest](#updatetestpointsbyfilerequest) | [.UpdateTestPointsResponse](#updatetestpointsresponse) | Update the test points properties of a CCA from a CSV formatted file. This API could be used to add new test points or update existing ones depending on the file contents.<br>If the ID specified already exists, then the properties for that test point will be updated.<br>If the ID specified does not already exist, or if the field is empty, then a new test point will be added with the specified properties.<br>The file format should be the same as the one produced from CCA -> Export Test Points. |
 | addModelingRegion | [.AddModelingRegionRequest](#addmodelingregionrequest) | [.ReturnCode](#returncode) | Add one or more modeling regions with the specified shapes and properties. |
 | updateModelingRegion | [.UpdateModelingRegionRequest](#updatemodelingregionrequest) | [.ReturnCode](#returncode) | Update one or more modeling regions with the specified shapes and properties. |
@@ -1746,7 +1870,7 @@ Back to [Top](#table-of-contents)
  
 ## SherlockLifeCycleService.proto
  
-Copyright 2023-2024 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
+Copyright 2023-2026 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 ### AddHarmonicEventRequest
  
@@ -2110,14 +2234,50 @@ Represents an event.
 | phaseName | [string](#string) |  | The name of the life cycle phase this event is associated. |
 | eventName | [string](#string) |  | Event name. |
 
+### ImportThermalSignalRequest
+ 
+Request for importing a thermal signal file.
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| thermalSignalFile | [string](#string) |  | The full path to the CSV thermal signal file to be imported. |
+| project | [string](#string) |  | Sherlock project name in which the thermal signal is imported. |
+| phaseName | [string](#string) |  | The name of the life cycle phase this thermal signal is associated. |
+| fileProperties | [ImportThermalSignalRequest.ThermalSignalFileProperties](#importthermalsignalrequestthermalsignalfileproperties) |  | Thermal signal CSV file properties. |
+| timeRemoval | [bool](#bool) |  | Option to indicate that time results with shorter half-cycle durations are removed. |
+| loadRangePercentage | [double](#double) |  | Defines the fraction of the range near peaks and valleys considered as a dwell region. |
+| numberOfRangeBins | [int32](#int32) |  | Number of range bins for binning cycles, 0 for no range binning, (a single range bin is still generated if other parameters are binned). |
+| numberOfMeanBins | [int32](#int32) |  | Number of mean bins for binning cycles, 0 for no mean binning, (a single mean bin is still generated if other parameters are binned). |
+| numberOfDwellBins | [int32](#int32) |  | Number of dwell bins for binning cycles, 0 for no dwell binning, (a single dwell bin is still generated if other parameters are binned). |
+| temperatureRangeFilteringLimit | [double](#double) |  | Minimum cycle range to include in results, 0 for no filtering. |
+| timeFilteringLimit | [double](#double) |  | Maximum cycle time to include in results, default is 72 hours. |
+| timeFilteringLimitUnits | [string](#string) |  | Time filtering limit units. |
+| generatedCyclesLabel | [string](#string) |  | Label used to define the name of all generated thermal events. |
+
+### ImportThermalSignalRequest.ThermalSignalFileProperties
+ 
+
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| headerRowCount | [int32](#int32) |  | Number of rows before the column header in the file. |
+| numericFormat | [string](#string) |  | Numeric format for values. |
+| columnDelimiter | [string](#string) |  | Delimiter to separate the columns. |
+| timeColumn | [string](#string) |  | Time column name. |
+| timeUnits | [string](#string) |  | Time units column name. |
+| temperatureColumn | [string](#string) |  | Temperature column name. |
+| temperatureUnits | [string](#string) |  | Temperature units column name. |
+
 ### ListAmplUnitsRequest
  
-Request for a list of amplitude units.
+Request for a list of amplitude units. This is deprecated as of 26R1.
  
 
 ### ListAmplUnitsResponse
  
-Represents a list of amplitude units.
+Represents a list of amplitude units. This is deprecated as of 26R1.
  
 
 | Field | Type | Label | Description |
@@ -2142,12 +2302,12 @@ Represents a list of duration units for event settings in life cycle.
 
 ### ListFreqUnitsRequest
  
-Request for a list of frequency units.
+Request for a list of frequency units. This is deprecated as of 26R1.
  
 
 ### ListFreqUnitsResponse
  
-Represents a list of frequency units.
+Represents a list of frequency units. This is deprecated as of 26R1.
  
 
 | Field | Type | Label | Description |
@@ -2315,12 +2475,12 @@ Represents a list of shock events defined for a project.
 
 ### ListShockLoadUnitsRequest
  
-Request for a list of shock load units.
+Request for a list of shock load units. This is deprecated as of 26R1.
  
 
 ### ListShockLoadUnitsResponse
  
-Represents a list of shock load units.
+Represents a list of shock load units. This is deprecated as of 26R1.
  
 
 | Field | Type | Label | Description |
@@ -2345,12 +2505,12 @@ Represents a list of shock Pulses.
 
 ### ListTempUnitsRequest
  
-Request for a list of temperature units.
+Request for a list of temperature units. This is deprecated as of 26R1.
  
 
 ### ListTempUnitsResponse
  
-Represents a list of temperature units.
+Represents a list of temperature units. This is deprecated as of 26R1.
  
 
 | Field | Type | Label | Description |
@@ -2562,6 +2722,99 @@ Response from loading a thermal profile from a .dat or .csv file.
 | returnCode | [ReturnCode](#returncode) |  | Status code of response. |
 | errors | [string](#string) | repeated | List of validation errors. |
 
+### SaveHarmonicProfileRequest
+ 
+Request to save a harmonic life cycle event profile to a .dat or .csv file.
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| project | [string](#string) |  | Sherlock project name. |
+| phaseName | [string](#string) |  | The name of the life cycle phase this event is associated with. |
+| eventName | [string](#string) |  | Harmonic event name. |
+| triaxialAxis | [string](#string) |  | If the harmonic profile type is "Triaxial", the axis this profile should be assigned to. Valid values are: x, y, z. |
+| filePath | [string](#string) |  | Full destination path for the .dat or .csv file. |
+
+### SaveLifeCycleRequest
+ 
+Request to save the current life cycle in a specific project to a .dfr-lc file.
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| project | [string](#string) |  | Sherlock project name. |
+| filePath | [string](#string) |  | Full directory path + file name for where the life cycle file should be saved. The file name should include the .dfr-lc extension. |
+| overwriteFile | [bool](#bool) |  | If true and the file already exists, then it will be overwritten. If false and the file exists, then an error will be returned. |
+
+### SaveRandomVibeProfileRequest
+ 
+Request to save a random vibe profile to a .dat or .csv file.
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| project | [string](#string) |  | Sherlock project name. |
+| phaseName | [string](#string) |  | The name of the life cycle phase this event is associated with. |
+| eventName | [string](#string) |  | Random vibe event name. |
+| filePath | [string](#string) |  | Full destination path for the .dat or .csv file. |
+
+### SaveShockPulseProfileRequest
+ 
+Request to save a pulse shock profile to a .dat or .csv file.
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| project | [string](#string) |  | Sherlock project name. |
+| phaseName | [string](#string) |  | The name of the life cycle phase this event is associated with. |
+| eventName | [string](#string) |  | Shock event name. |
+| filePath | [string](#string) |  | Full destination path for the .dat or .csv file. |
+
+### SaveThermalProfileRequest
+ 
+Request to save a thermal profile to a .dat or .csv file.
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| project | [string](#string) |  | Sherlock project name. |
+| phaseName | [string](#string) |  | The name of the life cycle phase this event is associated with. |
+| eventName | [string](#string) |  | Thermal event name. |
+| filePath | [string](#string) |  | Full destination path for the .dat or .csv file. |
+
+### UpdateLifeCycleRequest
+ 
+Request for updating the life cycle in a specified project.
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| project | [string](#string) |  | The name of the project which contains the life cycle to update. |
+| newName | [string](#string) | optional | The new name of the life cycle. |
+| newDescription | [string](#string) | optional | The new description of the life cycle. |
+| newReliabilityMetric | [double](#double) | optional | The new reliability metric value. |
+| newReliabilityMetricUnits | [string](#string) | optional | The new reliability metric units. |
+| newServiceLife | [double](#double) | optional | The new service life value. |
+| newServiceLifeUnits | [string](#string) | optional | The new service life units. |
+| resultArchiveFileName | [string](#string) | optional | File name for saved results. File names will be overwritten. Sub-Assembly results will be saved. |
+
+### UpdateLifePhaseRequest
+ 
+Request for updating an existing life phase in a specified project's life cycle.
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| project | [string](#string) |  | Sherlock project name. |
+| phaseName | [string](#string) |  | Name of life phase to update. |
+| newPhaseName | [string](#string) | optional | Updated name of life phase. |
+| newDescription | [string](#string) | optional | Updated description of life phase. |
+| newDuration | [double](#double) | optional | Updated event duration length. |
+| newDurationUnits | [string](#string) | optional | Updated event duration length units. |
+| newNumOfCycles | [double](#double) | optional | Updated number of cycles defined for life phase. |
+| newCycleType | [string](#string) | optional | Updated cycle type. Acceptable values are "COUNT", "DUTY CYCLE", "PER YEAR", "PER DAY", "PER HOUR" "PER MIN", and "PER SEC" |
+| resultArchiveFileName | [string](#string) | optional | File name for saving analysis results and life cycle data, including any sub-assembly results. Any existing results will be overwritten. If this file name is omitted, then analysis results will not be saved during the update. |
+
 
 
 ### SherlockLifeCycleService
@@ -2579,10 +2832,11 @@ Response from loading a thermal profile from a .dat or .csv file.
 | addThermalEvent | [.AddThermalEventRequest](#addthermaleventrequest) | [.AddThermalEventResponse](#addthermaleventresponse) | Define and add a new thermal life cycle event. |
 | addThermalProfiles | [.AddThermalProfilesRequest](#addthermalprofilesrequest) | [.AddThermalProfilesResponse](#addthermalprofilesresponse) | Define and add new thermal life cycle event profiles. |
 | createLifePhase | [.CreateLifePhaseRequest](#createlifephaserequest) | [.CreateLifePhaseResponse](#createlifephaseresponse) | Define and add a new life phase. |
+| updateLifePhase | [.UpdateLifePhaseRequest](#updatelifephaserequest) | [.ReturnCode](#returncode) | Update an existing life phase. |
 | deleteEvent | [.DeleteEventRequest](#deleteeventrequest) | [.ReturnCode](#returncode) | Delete a life cycle event. |
-| listAmplUnits | [.ListAmplUnitsRequest](#listamplunitsrequest) | [.ListAmplUnitsResponse](#listamplunitsresponse) | Returns a list of amplitude units when adding a random vibe profile. |
+| listAmplUnits | [.ListAmplUnitsRequest](#listamplunitsrequest) | [.ListAmplUnitsResponse](#listamplunitsresponse) | Returns a list of amplitude units when adding a random vibe profile. This is deprecated as of 26R1. |
 | listDurationUnits | [.ListDurationUnitsRequest](#listdurationunitsrequest) | [.ListDurationUnitsResponse](#listdurationunitsresponse) | Returns a list of duration units when adding a life cycle event. |
-| listFreqUnits | [.ListFreqUnitsRequest](#listfrequnitsrequest) | [.ListFreqUnitsResponse](#listfrequnitsresponse) | Returns a list of frequency units. |
+| listFreqUnits | [.ListFreqUnitsRequest](#listfrequnitsrequest) | [.ListFreqUnitsResponse](#listfrequnitsresponse) | Returns a list of frequency units. This is deprecated as of 26R1. |
 | listHarmonicEvents | [.ListHarmonicEventsRequest](#listharmoniceventsrequest) | [.ListHarmonicEventsResponse](#listharmoniceventsresponse) | Returns a list of harmonic events defined for a project. |
 | listHarmonicProfileTypes | [.ListHarmonicProfileTypesRequest](#listharmonicprofiletypesrequest) | [.ListHarmonicProfileTypesResponse](#listharmonicprofiletypesresponse) | Returns a list of harmonic load Profile types. |
 | listLifeCycleEvents | [.ListLCEventsRequest](#listlceventsrequest) | [.ListLCEventsResponse](#listlceventsresponse) | Returns a list of life cycle phases and their events given a Sherlock project directory. |
@@ -2591,22 +2845,29 @@ Response from loading a thermal profile from a .dat or .csv file.
 | listRandomVibeProfileTypes | [.ListRandomVibeProfileTypesRequest](#listrandomvibeprofiletypesrequest) | [.ListRandomVibeProfileTypesResponse](#listrandomvibeprofiletypesresponse) | Returns a list of random vibe profile types. |
 | listRandomVibeEvents | [.ListRandomVibeEventsRequest](#listrandomvibeeventsrequest) | [.ListRandomVibeEventsResponse](#listrandomvibeeventsresponse) | Returns a list of random vibe events defined for a project. |
 | listShockEvents | [.ListShockEventsRequest](#listshockeventsrequest) | [.ListShockEventsResponse](#listshockeventsresponse) | Returns a list of shock events defined for a project. |
-| listShockLoadUnits | [.ListShockLoadUnitsRequest](#listshockloadunitsrequest) | [.ListShockLoadUnitsResponse](#listshockloadunitsresponse) | Returns a list of shock load units. |
+| listShockLoadUnits | [.ListShockLoadUnitsRequest](#listshockloadunitsrequest) | [.ListShockLoadUnitsResponse](#listshockloadunitsresponse) | Returns a list of shock load units. This is deprecated as of 26R1. |
 | listShockPulses | [.ListShockPulsesRequest](#listshockpulsesrequest) | [.ListShockPulsesResponse](#listshockpulsesresponse) | Returns a list of shock pulses. |
-| listTempUnits | [.ListTempUnitsRequest](#listtempunitsrequest) | [.ListTempUnitsResponse](#listtempunitsresponse) | Returns a list of temperature units. |
+| listTempUnits | [.ListTempUnitsRequest](#listtempunitsrequest) | [.ListTempUnitsResponse](#listtempunitsresponse) | Returns a list of temperature units. This is deprecated as of 26R1. |
 | loadHarmonicProfile | [.LoadHarmonicProfileRequest](#loadharmonicprofilerequest) | [.LoadHarmonicProfileResponse](#loadharmonicprofileresponse) | Loads a harmonic profile from a .dat or .csv file. |
 | loadRandomVibeProfile | [.LoadRandomVibeProfileRequest](#loadrandomvibeprofilerequest) | [.LoadRandomVibeProfileResponse](#loadrandomvibeprofileresponse) | Loads a random vibe profile from a .dat or .csv file. |
 | loadShockProfileDataset | [.LoadShockProfileDatasetRequest](#loadshockprofiledatasetrequest) | [.LoadShockProfileDatasetResponse](#loadshockprofiledatasetresponse) | Loads a shock profile using dataset from a .dat or .csv file. |
 | loadShockProfilePulses | [.LoadShockProfilePulsesRequest](#loadshockprofilepulsesrequest) | [.LoadShockProfilePulsesResponse](#loadshockprofilepulsesresponse) | Loads a shock profile using pulses from a .dat or .csv file. |
 | loadThermalProfile | [.LoadThermalProfileRequest](#loadthermalprofilerequest) | [.LoadThermalProfileResponse](#loadthermalprofileresponse) | Loads a thermal profile from a .dat or .csv file. |
 | deletePhase | [.DeletePhaseRequest](#deletephaserequest) | [.ReturnCode](#returncode) | Delete a life phase for a project. |
+| importThermalSignal | [.ImportThermalSignalRequest](#importthermalsignalrequest) | [.ReturnCode](#returncode) | Import thermal signal from a CSV file. |
+| updateLifeCycle | [.UpdateLifeCycleRequest](#updatelifecyclerequest) | [.ReturnCode](#returncode) | Update existing life cycle. |
+| saveLifeCycle | [.SaveLifeCycleRequest](#savelifecyclerequest) | [.ReturnCode](#returncode) | Save a project's life cycle to a .dfr-lc file. |
+| saveHarmonicProfile | [.SaveHarmonicProfileRequest](#saveharmonicprofilerequest) | [.ReturnCode](#returncode) | Save harmonic profile to a .csv or a .dat file. |
+| saveRandomVibeProfile | [.SaveRandomVibeProfileRequest](#saverandomvibeprofilerequest) | [.ReturnCode](#returncode) | Save random vibe profile to a .csv or a .dat file. |
+| saveShockPulseProfile | [.SaveShockPulseProfileRequest](#saveshockpulseprofilerequest) | [.ReturnCode](#returncode) | Save shock pulse profile to a .csv or a .dat file. |
+| saveThermalProfile | [.SaveThermalProfileRequest](#savethermalprofilerequest) | [.ReturnCode](#returncode) | Save thermal profile to a .csv or a .dat file. |
 
 
 Back to [Top](#table-of-contents)
  
 ## SherlockModelService.proto
  
-Copyright 2023-2024 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
+Copyright 2023-2026 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 ### DrillHoleModeling
  
@@ -2650,6 +2911,7 @@ Request to export an FEA model.
 | clearFEADatabase | [bool](#bool) |  | Clear FEA Database before defining model. |
 | useFEAModelID | [bool](#bool) |  | Use FEA Model ID. |
 | coordinateUnits | [string](#string) |  | Units of exported model coordinates, valid values are "in", "mm", "m", "mil", "micron", "nm". |
+| pcbMaterialElasticity | [PcbMaterialElasticity](#pcbmaterialelasticity) |  | The PCB material elasticity. For WBJN export only. |
 
 ### ExportFEAModelRequest.DrillHoleParam
  
@@ -2693,8 +2955,8 @@ Request to export an FEA model.
 | leadElemOrder | [string](#string) |  | Element order, valid values are "First Order (Linear)", "Second Order (Quadratic)", or "Solid Shell". |
 | maxMeshSize | [ExportFEAModelRequest.LeadModelParam.MaxMeshSize](#exportfeamodelrequestleadmodelparammaxmeshsize) |  | Max mesh size info for a lead model param. |
 | verticalMeshSize | [ExportFEAModelRequest.LeadModelParam.VerticalMeshSize](#exportfeamodelrequestleadmodelparamverticalmeshsize) |  | Vertical mesh size info for a lead model param. |
-| thicknessCount | [int32](#int32) |  | The number of elements through the lead thickness that will be created per lead. |
-| aspectRatio | [int32](#int32) |  | The aspect ratio is multiplied by the lead thickness divided by the through thickness count to give the lead element height. |
+| thicknessCount | [int32](#int32) |  | The number of elements through the lead thickness that will be created per lead. The default value is 3 and the maximum is 5. Only used when the advanced lead mesh setting is enabled. |
+| aspectRatio | [int32](#int32) |  | The aspect ratio is multiplied by the lead thickness divided by the through thickness count to give the lead element height. The default value is 2 and the maximum is 10. Only used when the advanced lead mesh setting is enabled. |
 
 ### ExportFEAModelRequest.LeadModelParam.MaxMeshSize
  
@@ -2889,6 +3151,16 @@ Different ways meshes are created. The options
 | BONDED | 1 | Defines meshed elements generated by Sherlock. |
 | SWEEP | 2 | Defines geometric volumes along with commands to mesh the volumes depending on the file type. |
 
+### PcbMaterialElasticity
+ 
+
+ 
+| Name | Number | Description |
+| ---- | ------ | ----------- |
+| UnknownElasticity | 0 | Default enum to catch invalid elasticity. |
+| Isotropic | 1 | Isotropic elasticity. |
+| Orthotropic | 2 | Orthotropic elasticity. |
+
 ### TraceOutputType
  
 Indicates which trace regions to include in the 3D model.
@@ -2917,7 +3189,7 @@ Back to [Top](#table-of-contents)
  
 ## SherlockPartsService.proto
  
-Copyright 2023-2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
+Copyright 2023-2026 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 ### DeletePartsFromPartsListRequest
  
@@ -2980,57 +3252,6 @@ Represents a list of valid board sides.
 | returnCode | [ReturnCode](#returncode) |  | Status code of response. |
 | boardSides | [string](#string) | repeated | Board sides. |
 
-### GetPartLocationRequest
- 
-Request to get a part's location.
- 
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| project | [string](#string) |  | Sherlock project name. |
-| ccaName | [string](#string) |  | The CCA name. |
-| refDes | [string](#string) |  | A comma separated list of reference designators for a list of parts, or a Ref Des for one part. |
-| locationUnits | [string](#string) |  | Unit of length for the part location. Supported values are IN, MM, M, MIL, MICRON, and NM. |
-
-### GetPartLocationResponse
- 
-Represents one or multiple parts' location properties.
- 
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| returnCode | [ReturnCode](#returncode) |  | Status code of response. |
-| locationData | [GetPartLocationResponse.LocationData](#getpartlocationresponselocationdata) | repeated | List of location data for a part or list of parts in a specified project and CCA. |
-
-### GetPartLocationResponse.LocationData
- 
-
- 
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| x | [double](#double) |  | Location of the part along the X axis. |
-| y | [double](#double) |  | Location of the part along the Y axis. |
-| rotation | [double](#double) |  | Rotation of the part on the board in degrees. |
-| locationUnits | [string](#string) |  | Unit of length for the part location. |
-| boardSide | [string](#string) |  | Side of board on which the component exists. |
-| mirrored | [bool](#bool) |  | Indicates if the component is mirrored across the Y-axis. |
-| refDes | [string](#string) |  | Ref Des for the corresponding part. |
-
-### GetPartLocationUnitsRequest
- 
-Request to list valid location units.
- 
-
-### GetPartLocationUnitsResponse
- 
-Represents a list of valid location units.
- 
-
-| Field | Type | Label | Description |
-| ----- | ---- | ----- | ----------- |
-| returnCode | [ReturnCode](#returncode) |  | Status code of response. |
-| units | [string](#string) | repeated | Location units. |
 
 ### GetPartsListPropertiesRequest
  
@@ -3075,6 +3296,16 @@ Request to import a parts list for a project CCA.
 | ccaName | [string](#string) |  | The CCA name. |
 | importFile | [string](#string) |  | Full file path to the parts list .csv file. |
 | importAsUserSrc | [bool](#bool) |  | If true, set the data source of the properties to "User". Otherwise, set the data source to the name of the importFile. |
+
+### ImportPartsToAVLRequest
+ 
+Request to import parts into the AVL (Approved Vendor List).
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| importFile | [string](#string) |  | Full file path to the AVL file. |
+| importType | [AVLImportType](#avlimporttype) |  | Import mode to use for AVL data. |
 
 ### ListPartsLibrariesRequest
  
@@ -3329,6 +3560,16 @@ will be updated by the AVL.
 | AssignApprovedDescription | 0 | Assign approved description. |
 | DoNotChangeDescription | 1 | Do not change description. |
 
+### AVLImportType
+ 
+Defines the supported AVL (Approved Vendor List) import modes.
+ 
+| Name | Number | Description |
+| ---- | ------ | ----------- |
+| Replace | 0 | Replace Existing AVL By File Contents. |
+| Update | 1 | Add New Parts & Update Existing Parts. |
+| Add | 2 | Add New Parts Only. |
+
 ### AVLPartNum
  
 Determines what fields in the part list will get updated by the AVL.
@@ -3369,18 +3610,18 @@ against parts in the AVL or Part Library.
 | updatePartsLocationsByFile | [.UpdatePartsLocationsByFileRequest](#updatepartslocationsbyfilerequest) | [.UpdatePartsLocationsByFileResponse](#updatepartslocationsbyfileresponse) | Update one or more parts' locations using a CSV file. |
 | getPartLocationUnits | [.GetPartLocationUnitsRequest](#getpartlocationunitsrequest) | [.GetPartLocationUnitsResponse](#getpartlocationunitsresponse) | Get a list of valid part location units. |
 | getBoardSides | [.GetBoardSidesRequest](#getboardsidesrequest) | [.GetBoardSidesResponse](#getboardsidesresponse) | Get a list of valid board side values. |
-| getPartLocation | [.GetPartLocationRequest](#getpartlocationrequest) | [.GetPartLocationResponse](#getpartlocationresponse) | Get the location properties for a part. This is deprecated as of 25R2. |
 | getPartsListProperties | [.GetPartsListPropertiesRequest](#getpartslistpropertiesrequest) | [.GetPartsListPropertiesResponse](#getpartslistpropertiesresponse) stream | Get the properties for a list of parts |
 | exportNetList | [.ExportNetListRequest](#exportnetlistrequest) | [.ReturnCode](#returncode) | Export the net list to a file |
 | updatePadProperties | [.UpdatePadPropertiesRequest](#updatepadpropertiesrequest) | [.UpdatePadPropertiesResponse](#updatepadpropertiesresponse) stream | Updates the pad properties for one or more parts for a given project's CCA. |
 | deletePartsFromPartsList | [.DeletePartsFromPartsListRequest](#deletepartsfrompartslistrequest) | [.DeletePartsFromPartsListResponse](#deletepartsfrompartslistresponse) stream | Delete parts from the parts list for a given project's CCA. |
+| importPartsToAVL | [.ImportPartsToAVLRequest](#importpartstoavlrequest) | [.ReturnCode](#returncode) | Import a support file containing parts to be added to the Approved Vendor List (AVL). |
 
 
 Back to [Top](#table-of-contents)
  
 ## SherlockProjectService.proto
  
-Copyright 2024-2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
+Copyright 2024-2026 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 ### AddCcaRequest
  
@@ -3547,6 +3788,42 @@ Response from adding thermal map files.
 | defaultPartTempRiseUnits | [string](#string) | optional | Default part temp rise units. |
 | guessPartPropertiesEnabled | [bool](#bool) | optional | Whether to enable guess part properties. |
 
+### CopperFile
+ 
+Defines a copper file and its properties to add to a Sherlock project.
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| gerberFile | [CopperFile.GerberFile](#copperfilegerberfile) |  | Additional properties for Gerber files. |
+| imageFile | [CopperFile.ImageFile](#copperfileimagefile) |  | Additional properties for Image files. |
+| fileName | [string](#string) |  | The name of the copper file to import. |
+| fileType | [CopperFile.FileType](#copperfilefiletype) |  | Type of Copper file. |
+| fileComment | [string](#string) |  | Comment or description of the file. |
+| copperLayer | [string](#string) |  | Name of the copper layer. |
+| polarity | [CopperFile.Polarity](#copperfilepolarity) |  | Polarity of the copper layer. |
+| layerSnapshotEnabled | [bool](#bool) |  | Whether a layer snapshot is enabled. |
+| cca | [string](#string) | repeated | Project CCA Name. |
+
+### CopperFile.GerberFile
+ 
+
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| parseDecimalFirstEnabled | [bool](#bool) |  | Whether to parse decimal first is enabled. |
+
+### CopperFile.ImageFile
+ 
+
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| imageType | [CopperFile.ImageType](#copperfileimagetype) |  | Background or Foreground image. |
+| imageColor | [string](#string) |  | Color of the image. |
+
 ### CreateCcaFromModelingRegionRequest
  
 Request for creating CCA from a specified modeling region.
@@ -3647,6 +3924,36 @@ Streams the project report in chunks.
 | size | [int32](#int32) |  | Size of the chunk returned. |
 | returnCode | [ReturnCode](#returncode) |  | Status code of response. |
 
+### ImportCopperFilesRequest
+ 
+Request to import copper layer files to a Sherlock project.
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| project | [string](#string) |  | Sherlock project name. |
+| copperFiles | [ImportCopperFilesRequest.ImportCopperFile](#importcopperfilesrequestimportcopperfile) | repeated | Copper files and associated properties to be imported. |
+
+### ImportCopperFilesRequest.ImportCopperFile
+ 
+
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| copperFile | [string](#string) |  | Full path to the Copper file to be imported. |
+| copperFileProperties | [CopperFile](#copperfile) |  | Copper file properties. |
+
+### ImportCopperFilesResponse
+ 
+Response from importing Copper files.
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| returnCode | [ReturnCode](#returncode) |  | Status code of response. |
+| fileName | [string](#string) |  | The name of the copper file to import. |
+
 ### ImportGDSIIRequest
  
 Request for importing a GDSII project file and any optional config files.
@@ -3698,6 +4005,27 @@ Request for importing an ODB++ archive.
 | polylineSimplification | [bool](#bool) |  | Option to enable polyline simplification. |
 | polylineTolerance | [double](#double) |  | Polyline simplification tolerance. |
 | polylineToleranceUnits | [string](#string) |  | Polyline simplification tolerance units. |
+
+### ImportODBSingleProjectModeRequest
+ 
+Request for importing an ODB++ archive in single project mode.
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| archiveFile | [string](#string) |  | Full path to the ODB++ archive file to be imported. |
+| project | [string](#string) |  | Sherlock project name. If empty, the filename will be used for the project name. |
+| ccaName | [string](#string) |  | Project CCA name. If empty, the filename will be used for the CCA name. |
+| processLayerThickness | [bool](#bool) |  | Option to assign stackup thickness. |
+| includeOtherLayers | [bool](#bool) |  | Option to include other layers. |
+| processCutoutFile | [bool](#bool) |  | Option to process cutouts. |
+| guessPartProperties | [bool](#bool) |  | Option to guess part properties. |
+| imsStackup | [bool](#bool) |  | Option to generate IMS stackup. |
+| polylineSimplification | [bool](#bool) |  | Option to enable polyline simplification. |
+| polylineTolerance | [double](#double) |  | Polyline simplification tolerance. |
+| polylineToleranceUnits | [string](#string) |  | Polyline simplification tolerance units. |
+| projectDir | [string](#string) |  | Location where the Sherlock project will be created. |
+| overwrite | [bool](#bool) |  | Flag to overwrite project if a project with the same name already exists. |
 
 ### ImportProjectZipRequest
  
@@ -3988,6 +4316,38 @@ Response from updating thermal map files.
 | Horizontal | 0 | Horizontal legend orientation. |
 | Vertical | 1 | Vertical legend orientation. |
 
+### CopperFile.FileType
+ 
+
+ 
+| Name | Number | Description |
+| ---- | ------ | ----------- |
+| EDB | 0 | Copper Layer EDB file. |
+| Gerber | 1 | Copper Layer GERBER file. |
+| IPC2581 | 2 | Copper Layer IPC2581 file. |
+| Image | 3 | Copper Layer IMAGE file. |
+| ODB_XML | 4 | Copper Layer ODB XML file. |
+| ODB_PLUS | 5 | Copper Layer ODB++ file. |
+| Trace | 6 | Copper Layer TRACE file. |
+
+### CopperFile.ImageType
+ 
+
+ 
+| Name | Number | Description |
+| ---- | ------ | ----------- |
+| Background | 0 | Background image. |
+| Foreground | 1 | Foreground image. |
+
+### CopperFile.Polarity
+ 
+
+ 
+| Name | Number | Description |
+| ---- | ------ | ----------- |
+| Positive | 0 | Positive polarity. |
+| Negative | 1 | Negative polarity. |
+
 ### OutlineFile.FileType
  
 
@@ -4039,6 +4399,7 @@ Response from updating thermal map files.
 | genReport | [.GenReportRequest](#genreportrequest) | [.GenReportResponse](#genreportresponse) stream | Generates the project report and return it via streaming. |
 | genCCAReport | [.GenCCAReportRequest](#genccareportrequest) | [.GenCCAReportResponse](#genccareportresponse) stream | Generates the project CCA report and return it via streaming. |
 | importODBArchive | [.ImportODBRequest](#importodbrequest) | [.ReturnCode](#returncode) | Imports an ODB++ archive. |
+| importODBArchiveSingleMode | [.ImportODBSingleProjectModeRequest](#importodbsingleprojectmoderequest) | [.ReturnCode](#returncode) | Imports an ODB++ archive -- single project mode. |
 | importIPC2581Archive | [.ImportIPC2581Request](#importipc2581request) | [.ReturnCode](#returncode) | Imports an IPC-2581 archive. |
 | importProjectZipArchive | [.ImportProjectZipRequest](#importprojectziprequest) | [.ReturnCode](#returncode) | Imports a zipped project archive -- multiple project mode. |
 | importProjectZipArchiveSingleMode | [.ImportProjectZipSingleModeRequest](#importprojectzipsinglemoderequest) | [.ReturnCode](#returncode) | Imports a zipped project archive -- single project mode. |
@@ -4055,6 +4416,7 @@ Response from updating thermal map files.
 | exportProject | [.ExportProjectRequest](#exportprojectrequest) | [.ReturnCode](#returncode) | Exports project to a zipped archive file. |
 | createCCAFromModelingRegion | [.CreateCcaFromModelingRegionRequest](#createccafrommodelingregionrequest) | [.ReturnCode](#returncode) | Creates a CCA from a given modeling region |
 | addOutlineFiles | [.AddOutlineFileRequest](#addoutlinefilerequest) | [.ReturnCode](#returncode) stream | Add outline files to Sherlock project CCA's. |
+| importCopperFiles | [.ImportCopperFilesRequest](#importcopperfilesrequest) | [.ImportCopperFilesResponse](#importcopperfilesresponse) stream | Import copper files to a Sherlock project. |
 
 
 Back to [Top](#table-of-contents)
@@ -4306,7 +4668,7 @@ Back to [Top](#table-of-contents)
  
 ## SherlockStackupService.proto
  
-Copyright 2023-2024 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
+Copyright 2023-2026 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 ### GenStackupRequest
  
@@ -4377,6 +4739,7 @@ Represents a summary of the stackup properties.
 | ctEz | [string](#string) |  | CTEz. |
 | exy | [string](#string) |  | Exy. |
 | ez | [string](#string) |  | Ez. |
+| improveStackupModelEnabled | [bool](#bool) |  | Indicator signaling whether or not the improved stacking model is applied. |
 
 ### GetTotalConductorThicknessRequest
  
@@ -4550,12 +4913,12 @@ Represents a grade and the materials with this grade.
 
 ### ListLaminateThicknessUnitsRequest
  
-Request to list valid laminate thickness units.
+Request to list valid laminate thickness units. This is deprecated as of 26R1.
  
 
 ### ListLaminateThicknessUnitsResponse
  
-Represents a list of valid laminate thickness units.
+Represents a list of valid laminate thickness units. This is deprecated as of 26R1.
  
 
 | Field | Type | Label | Description |
@@ -4694,7 +5057,7 @@ Represents the layers with a glass construction.
 | ----------- | ------------ | ------------- | ------------|
 | listLaminates | [.ListLaminatesRequest](#listlaminatesrequest) | [.ListLaminatesResponse](#listlaminatesresponse) | Returns a list of project's CCAs and their laminates. |
 | updateLaminate | [.UpdateLaminateRequest](#updatelaminaterequest) | [.ReturnCode](#returncode) | Update properties for a given laminate layer. |
-| listLaminateThicknessUnits | [.ListLaminateThicknessUnitsRequest](#listlaminatethicknessunitsrequest) | [.ListLaminateThicknessUnitsResponse](#listlaminatethicknessunitsresponse) | List all the supported laminate layer thickness units. |
+| listLaminateThicknessUnits | [.ListLaminateThicknessUnitsRequest](#listlaminatethicknessunitsrequest) | [.ListLaminateThicknessUnitsResponse](#listlaminatethicknessunitsresponse) | List all the supported laminate layer thickness units. This is deprecated as of 26R1. |
 | listConductorMaterials | [.ListConductorMaterialsRequest](#listconductormaterialsrequest) | [.ListConductorMaterialsResponse](#listconductormaterialsresponse) | List all conductor materials. |
 | listFiberMaterials | [.ListFiberMaterialsRequest](#listfibermaterialsrequest) | [.ListFiberMaterialsResponse](#listfibermaterialsresponse) | List all fiber materials. |
 | listLaminateMaterialsManufacturers | [.ListLaminateMaterialsManufacturersRequest](#listlaminatematerialsmanufacturersrequest) | [.ListLaminateMaterialsManufacturersResponse](#listlaminatematerialsmanufacturersresponse) | List all laminate materials manufacturers. |

@@ -2,4 +2,4 @@
 
 <a id="compolyx.GeometricalSelectionRule.get_short_description"></a>
 
-#### GeometricalSelectionRule.get_short_description()
+## GeometricalSelectionRule.get_short_description()

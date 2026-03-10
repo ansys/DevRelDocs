@@ -3,7 +3,7 @@
 ![][C++]
 ![][public]
 
-**Definition**: `Attribute.hpp` (line 130)
+**Definition**: `Attribute.hpp` (line 219)
 
 Provide a class for a string-valued attribute.
 
@@ -11,7 +11,7 @@ Provide a class for a string-valued attribute.
 
 ## Members
 
-* [getName](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute_1a33aeab216103cc03b94fc47a5b86a46d)
+* [getName](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute_1a42e98f93a541d7983787e289246d1e83)
 * [getValue](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute_1adbe87236601b9b9a63feb0a875498d7e)
 * [isModifiable](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute_1afb8acdca0d571ae39e54091fd9d28f52)
 * [m\_modifiable](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute_1afea355b26d47d73a6a957afd1ac1deae)
@@ -27,7 +27,8 @@ Provide a class for a string-valued attribute.
 
 ![][private]
 
-**Definition**: `Attribute.hpp` (line 165)
+**Definition**: `Attribute.hpp` (line 254)
+
 
 ```cpp
 AttributeName sysc::StringAttribute::m_name
@@ -39,18 +40,21 @@ AttributeName sysc::StringAttribute::m_name
 
 
 
-**Type**: [AttributeName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gadb06eacf4ed0787d18e8ddbf0612c83c)
+
+**Type**: [AttributeName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gadd7264f1feec4bb8bcba956857090025)
 
 <a id="classsysc_1_1StringAttribute_1a8a7b21a53592e456b6bfcc5a2cb04166"></a>
 ### Variable m\_value
 
 ![][private]
 
-**Definition**: `Attribute.hpp` (line 166)
+**Definition**: `Attribute.hpp` (line 255)
+
 
 ```cpp
 std::string sysc::StringAttribute::m_value {0}
 ```
+
 
 
 
@@ -65,11 +69,13 @@ std::string sysc::StringAttribute::m_value {0}
 
 ![][private]
 
-**Definition**: `Attribute.hpp` (line 167)
+**Definition**: `Attribute.hpp` (line 256)
+
 
 ```cpp
 bool sysc::StringAttribute::m_modifiable {true}
 ```
+
 
 
 
@@ -86,9 +92,11 @@ bool sysc::StringAttribute::m_modifiable {true}
 
 ![][public]
 
+
 ```cpp
 sysc::StringAttribute::StringAttribute(AttributeName name, std::string value)
 ```
+
 
 Provide a constructor for the [StringAttribute](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute) class.
 
@@ -101,7 +109,7 @@ Provide a constructor for the [StringAttribute](classsysc_1_1StringAttribute.md#
 
 **Parameters**:
 
-* [AttributeName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gadb06eacf4ed0787d18e8ddbf0612c83c) **name**
+* [AttributeName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gadd7264f1feec4bb8bcba956857090025) **name**
 * std::string **value**
 
 **Return type**: 
@@ -111,9 +119,11 @@ Provide a constructor for the [StringAttribute](classsysc_1_1StringAttribute.md#
 
 ![][public]
 
+
 ```cpp
 sysc::StringAttribute::StringAttribute(AttributeName name, std::string value, bool modifiable)
 ```
+
 
 Provide a constructor for the [StringAttribute](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute) class.
 
@@ -132,20 +142,21 @@ Provide a constructor for the [StringAttribute](classsysc_1_1StringAttribute.md#
 
 **Parameters**:
 
-* [AttributeName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gadb06eacf4ed0787d18e8ddbf0612c83c) **name**
+* [AttributeName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gadd7264f1feec4bb8bcba956857090025) **name**
 * std::string **value**
 * bool **modifiable**
 
 **Return type**: 
 
-<a id="classsysc_1_1StringAttribute_1a33aeab216103cc03b94fc47a5b86a46d"></a>
+<a id="classsysc_1_1StringAttribute_1a42e98f93a541d7983787e289246d1e83"></a>
 ### Function getName
 
 ![][public]
 ![][const]
 
+
 ```cpp
-const AttributeName& sysc::StringAttribute::getName() const noexcept
+const AttributeName & sysc::StringAttribute::getName() const noexcept
 ```
 
 
@@ -154,7 +165,8 @@ const AttributeName& sysc::StringAttribute::getName() const noexcept
 
 
 
-**Return type**: const [AttributeName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gadb06eacf4ed0787d18e8ddbf0612c83c) &
+
+**Return type**: const [AttributeName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gadd7264f1feec4bb8bcba956857090025) &
 
 <a id="classsysc_1_1StringAttribute_1adbe87236601b9b9a63feb0a875498d7e"></a>
 ### Function getValue
@@ -162,9 +174,11 @@ const AttributeName& sysc::StringAttribute::getName() const noexcept
 ![][public]
 ![][const]
 
+
 ```cpp
 std::string sysc::StringAttribute::getValue() const
 ```
+
 
 
 
@@ -180,6 +194,7 @@ std::string sysc::StringAttribute::getValue() const
 ![][public]
 ![][const]
 
+
 ```cpp
 bool sysc::StringAttribute::isModifiable() const noexcept
 ```
@@ -190,9 +205,10 @@ bool sysc::StringAttribute::isModifiable() const noexcept
 
 
 
+
 **Return type**: bool
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

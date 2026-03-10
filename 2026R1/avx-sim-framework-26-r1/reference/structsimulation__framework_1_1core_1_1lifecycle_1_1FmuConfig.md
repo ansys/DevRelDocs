@@ -3,7 +3,7 @@
 ![][C++]
 ![][public]
 
-**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 32)
+**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 33)
 
 A helper struct to pass necessary information to create [FmuBaseActivity](classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity.md#classsimulation__framework_1_1core_1_1lifecycle_1_1FmuBaseActivity).
 
@@ -27,7 +27,7 @@ A helper struct to pass necessary information to create [FmuBaseActivity](classs
 
 ![][public]
 
-**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 34)
+**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 35)
 
 
 ```cpp
@@ -71,7 +71,7 @@ enum MessageType {
 
 ![][public]
 
-**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 41)
+**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 42)
 
 
 ```cpp
@@ -98,7 +98,7 @@ The path to the FMU file.
 
 ![][public]
 
-**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 44)
+**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 45)
 
 
 ```cpp
@@ -125,7 +125,7 @@ A map where the keys are input topics and the values are names of FMU variable a
 
 ![][public]
 
-**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 48)
+**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 49)
 
 
 ```cpp
@@ -152,7 +152,7 @@ A map where the keys are init param topics and the values are names of FMU varia
 
 ![][public]
 
-**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 51)
+**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 52)
 
 
 ```cpp
@@ -179,7 +179,7 @@ A map where the keys are output topics and the values are names of FMU variable 
 
 ![][public]
 
-**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 56)
+**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 57)
 
 
 ```cpp
@@ -206,7 +206,7 @@ This is needed when connecting multiple FMUs when the FMU variable names do not 
 
 ![][public]
 
-**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 61)
+**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 62)
 
 
 ```cpp
@@ -233,7 +233,7 @@ This is needed for connecting multiple FMUs when the FMU variable names do not m
 
 ![][public]
 
-**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 64)
+**Definition**: `core/lifecycle/fmu_activity/fmu_config.h` (line 65)
 
 
 ```cpp
@@ -259,4 +259,5 @@ A map used to store the message type for each topic.
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)

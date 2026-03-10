@@ -1,4 +1,4 @@
-# Namespace ensight\_grpc
+# Namespace ensight_grpc
 
 <a id="namespaceensight__grpc"></a>
 

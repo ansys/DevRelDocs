@@ -2,6 +2,6 @@
 
 <a id="compolyx.Scene.scale_factor"></a>
 
-#### *property* Scene.scale_factor
+## *property* Scene.scale_factor
 
 Scale factor of the deformed mesh.

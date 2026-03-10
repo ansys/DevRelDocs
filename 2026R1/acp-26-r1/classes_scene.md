@@ -1,6 +1,6 @@
 # Scene classes
 
-These classes represent scene and view data used for visualization within a ComPoLyX model.
+These classes represent scene and view data used for visualization within a compolyx model.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------|--------------------------------------------|

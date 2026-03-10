@@ -26,9 +26,11 @@ Face data struct.
 
 **Definition**: `syscMeshDefinition.h` (line 240)
 
+
 ```
 SyscElementIdData SyscFaceData::faceIds
 ```
+
 
 
 
@@ -45,9 +47,11 @@ face ids.
 
 **Definition**: `syscMeshDefinition.h` (line 241)
 
+
 ```
 SyscElementTypeData SyscFaceData::faceTypes
 ```
+
 
 
 
@@ -64,9 +68,11 @@ face types.
 
 **Definition**: `syscMeshDefinition.h` (line 242)
 
+
 ```
 SyscElementNodeCountData SyscFaceData::faceNodeCounts
 ```
+
 
 
 
@@ -83,9 +89,11 @@ face node counts.
 
 **Definition**: `syscMeshDefinition.h` (line 243)
 
+
 ```
 SyscElementNodeConnectivityData SyscFaceData::faceNodeConnectivity
 ```
+
 
 
 
@@ -102,9 +110,11 @@ face-to-node connectivity.
 
 **Definition**: `syscMeshDefinition.h` (line 244)
 
+
 ```
 SyscFaceCellConnectivityData SyscFaceData::faceCellConnectivity
 ```
+
 
 
 

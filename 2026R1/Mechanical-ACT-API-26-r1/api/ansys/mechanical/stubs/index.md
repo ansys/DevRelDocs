@@ -8,8 +8,7 @@
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------|---------------------------------|
-| [`v251`](v251/index.md#module-ansys.mechanical.stubs.v251)                                 | Ansys Mechanical v251 module.   |
-| [`v252`](v252/index.md#module-ansys.mechanical.stubs.v252)                                 | Ansys Mechanical v252 module.   |
+| [`v261`](v261/index.md#module-ansys.mechanical.stubs.v261)                                 | Ansys Mechanical v261 module.   |
 
 ### Attributes
 

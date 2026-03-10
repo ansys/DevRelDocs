@@ -2,6 +2,6 @@
 
 <a id="compolyx.SnapToGeometry.id"></a>
 
-#### *property* SnapToGeometry.id
+## *property* SnapToGeometry.id
 
-ID of the object
+ID of the object.

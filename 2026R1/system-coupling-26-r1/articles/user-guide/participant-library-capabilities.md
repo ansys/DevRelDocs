@@ -5,6 +5,7 @@
 - Standalone mapping across multiple, possibly distributed parallel, applications [1].
 - Data transfers across multiple, possibly distributed parallel, applications [1].
 - Co-simulation analysis type options
+  - Mapping coupled analysis
   - Steady coupled analysis
   - Transient coupled analysis
 - Co-simulation restarts
@@ -36,6 +37,9 @@
 - Real-valued participant attributes with specified dimensionality [2]
 - Integer-valued variable attributes
 - Real-valued variable attributes with specified dimensionality
+- Lower and/or Upper Attribute Bounds [2]
+  - Integer attributes
+  - Real attributes
 - Single-valued parameters [2]
 - N:M mapping (that is, mapping between different numbers of regions on source and on target)
 - Mapping of variables with different properties:

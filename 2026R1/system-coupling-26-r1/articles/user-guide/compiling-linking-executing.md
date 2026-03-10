@@ -385,17 +385,17 @@ cl /EHsc /MD /I"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include" <
 
 #### Proxy Fortran
 
-First generate `DynamicLibrary.staticrt.obj` and `ParticipantLibrary.staticrt.obj` using following command.
+First generate `DynamicLibrary.obj` and `ParticipantLibrary.obj` using following command.
 
 ```bat
-cl /EHsc /MT /FoDynamicLibrary.staticrt.obj /c /I"%SYSC_ROOT%\runTime\winx64\include" /I. <ANSYSInstallationPath>\SystemCoupling\runTime\winx64include\SystemCouplingParticipant\ProxyDynamicLibrary.cpp  /std:c++17
-cl /EHsc /MT /FoParticipantLibrary.staticrt.obj /c /I"%SYSC_ROOT%\runTime\winx64\include" /I. <ANSYSInstallationPath>\SystemCoupling\runTime\winx64include\SystemCouplingParticipant\ParticipantLibrary.cpp  /std:c++17
+cl /EHsc /MT /FoDynamicLibrary.obj /c /I"%SYSC_ROOT%\runTime\winx64\include" /I. <ANSYSInstallationPath>\SystemCoupling\runTime\winx64include\SystemCouplingParticipant\ProxyDynamicLibrary.cpp  /std:c++17
+cl /EHsc /MT /FoParticipantLibrary.obj /c /I"%SYSC_ROOT%\runTime\winx64\include" /I. <ANSYSInstallationPath>\SystemCoupling\runTime\winx64include\SystemCouplingParticipant\ParticipantLibrary.cpp  /std:c++17
 ```
 
 Then pass these two objects file to ifort together with other fortran source files and then compile.
 
 ```bat
-ifort -I"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include\SystemCouplingParticipant\FortranFreeForm" /FeProxyTesterFortranFreeForm.exe "<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include\SystemCouplingParticipant\Fortran\syscPartLibFortranC.f90" "<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include\SystemCouplingParticipant\Proxy\Fortran\ParticipantLibraryFortranC.f90" "<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include\SystemCouplingParticipant\Fortran\*F.f90" "<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include\SystemCouplingParticipant\Fortran\*Fortran.f90" "<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include\SystemCouplingParticipant\Proxy\Fortran\*Fortran.f90" "<ANSYSInstallationPath>\SystemCoupling\runTime\winx64include\SystemCouplingParticipant\Proxy\ProxyTesterFortranFreeForm.f90" DynamicLibrary.staticrt.obj" ParticipantLibrary.staticrt.obj"  /link /subsystem:console user32.lib
+ifort -I"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include\SystemCouplingParticipant\FortranFreeForm" /FeProxyTesterFortranFreeForm.exe "<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include\SystemCouplingParticipant\Fortran\syscPartLibFortranC.f90" "<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include\SystemCouplingParticipant\Proxy\Fortran\ParticipantLibraryFortranC.f90" "<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include\SystemCouplingParticipant\Fortran\*F.f90" "<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include\SystemCouplingParticipant\Fortran\*Fortran.f90" "<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include\SystemCouplingParticipant\Proxy\Fortran\*Fortran.f90" "<ANSYSInstallationPath>\SystemCoupling\runTime\winx64include\SystemCouplingParticipant\Proxy\ProxyTesterFortranFreeForm.f90" DynamicLibrary.obj" ParticipantLibrary.obj"  /link /subsystem:console user32.lib
 ```
 
 #### Executing in standalone mode

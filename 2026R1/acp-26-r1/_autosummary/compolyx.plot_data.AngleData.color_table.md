@@ -2,4 +2,4 @@
 
 <a id="compolyx.plot_data.AngleData.color_table"></a>
 
-#### *property* AngleData.color_table
+## *property* AngleData.color_table

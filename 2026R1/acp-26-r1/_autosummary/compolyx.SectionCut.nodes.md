@@ -2,6 +2,6 @@
 
 <a id="compolyx.SectionCut.nodes"></a>
 
-#### *property* SectionCut.nodes
+## *property* SectionCut.nodes
 
 Returns nodes of this mesh as nx3 array.

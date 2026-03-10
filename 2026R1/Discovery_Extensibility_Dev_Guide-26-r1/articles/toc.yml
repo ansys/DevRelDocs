@@ -1,5 +1,5 @@
 - name: Introduction
-  href: UDA/add_api/introduction/topics/disco_api_intro.md
+  href: index.md
 - name: Creating Add-in applications
   href: UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md
   items:
@@ -125,15 +125,15 @@
     - name: Custom conversions
       href: UDA/add_api/architecture/units/custom_conversion.md
 - name: Changelog
-  href: UDA/add_api/changelog/c_disco_api_addin_changelog.md
+  href: changelog/changelog.md
   items:
   - name: Version 2026 R1
-    href: UDA/add_api/changelog/V26-r1.md
+    href: changelog/V26-r1.md
   - name: Version 2025 R2
-    href: UDA/add_api/changelog/V25-r2.md
+    href: changelog/V25-r2.md
   - name: Version 2025 R1
-    href: UDA/add_api/changelog/V25-r1.md
+    href: changelog/V25-r1.md
   - name: Version 2024 R2
-    href: UDA/add_api/changelog/V24-r2.md
+    href: changelog/V24-r2.md
 # -  name: Copyright and trademark information
   # href: shared/c_legal_frontmatter.md

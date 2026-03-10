@@ -3,7 +3,7 @@
 ![][Fortran]
 ![][public]
 
-**Definition**: `syscCommonTypesF.fi` (line 410)
+**Definition**: `syscCommonTypesF.fi` (line 411)
 
 Provide an interface to get a System Coupling results info type.
 
@@ -11,18 +11,20 @@ Provide an interface to get a System Coupling results info type.
 
 ## Members
 
-* [syscgetresultsinfof](interfacefortran_1_1syscgetresultsinfof.md#interfacefortran_1_1syscgetresultsinfof_1a0f2168e1376a79a7ccfc251f63f008d2)
+* [syscgetresultsinfof](interfacefortran_1_1syscgetresultsinfof.md#interfacefortran_1_1syscgetresultsinfof_1aedf7568887b92f0cfe772a39febbccac)
 
 ## Public functions
 
-<a id="interfacefortran_1_1syscgetresultsinfof_1a0f2168e1376a79a7ccfc251f63f008d2"></a>
+<a id="interfacefortran_1_1syscgetresultsinfof_1aedf7568887b92f0cfe772a39febbccac"></a>
 ### Function syscgetresultsinfof
 
 ![][public]
 
+
 ```fortran
-type(syscresultsinfof) function syscgetresultsinfof(baseFileName)
+type(syscresultsinfof) function syscgetresultsinfof(basefilename)
 ```
+
 
 Provide a function to create SyscResultsInfoF type.
 
@@ -39,7 +41,7 @@ a SyscResultsInfoF type
 
 **Parameters**:
 
-* baseFileNamebaseFileName
+* basefilenamecharacter(len=*), intent(in)
 
 **Return type**: type([syscresultsinfof](structfortran_1_1syscresultsinfof.md#structfortran_1_1syscresultsinfof)) function
 

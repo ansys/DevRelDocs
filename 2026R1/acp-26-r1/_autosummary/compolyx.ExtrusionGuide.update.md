@@ -2,4 +2,4 @@
 
 <a id="compolyx.ExtrusionGuide.update"></a>
 
-#### ExtrusionGuide.update()
+## ExtrusionGuide.update()

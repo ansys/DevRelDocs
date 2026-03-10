@@ -39,13 +39,13 @@ Note that the specified traffic vehicle speed only serves sound source synthesis
 |KEYWORD (Address Pattern)|TYPE   |Comments|
 |-------------------------|-------|--------|
 |TRAFIC_INIT|Slot index \(int\)<br> Vehicle type (int)<br> Distance (float in m)<br> Azimuth (in rad) <br> Absolute speed (float in m/s)|Traffic synthesis initialization at slot index.<br>\(1<=slot index<=8\)<br> Type: <ul><li>0 = unknown</li><li>1 = car</li><li>2 = truck/bus</li><li>3 = motorbike</li></ul>|
-|TRAFIC\_STOP|slot index \(int\)|Traffic sound synthesis stopped at slot index \(1<=slot index<=8\)|
+|TRAFIC\_STOP|Slot index \(int\)|Traffic sound synthesis stopped at slot index \(1<=slot index<=8\)|
 
 #### Messages sent regularly
 
 |KEYWORD (Address Pattern)|TYPE   |Comments|
 |-------------------------|-------|--------|
-|TRAFIC\_UPDATE|Slot \(int\)<br> Distance \(float, in m\)<br> Azimut\(float, in rad\)<br> Vitesse \(float, in m/s\)|Update of the traffic vehicle characteristics \(distance, azimuth, speed\) at slot index<br>\(1<=slot index<=8\).|
+|TRAFIC\_UPDATE|Slot \(int\)<br> Distance \(float, in m\)<br> Azimuth \(float, in rad\)<br> Speed \(float, in m/s\)|Update of the traffic vehicle characteristics \(distance, azimuth, speed\) at slot index<br>\(1<=slot index<=8\).|
 
 
 ## Harmonic sources management
@@ -89,13 +89,13 @@ Tire noise has to be updated for each wheel by providing information about the c
                     </thead>
                     <tbody>
                         <tr>
-                            <td>GROUND_INDEX</td>
-                            <td>int (0-3)</td>
+                            <td><p>GROUND_INDEX</p></td>
+                            <td><p>int (0-3)</p></td>
                             <td><p>0 = asphalt, 1 = concrete, 2 = grass, 3 = cobblestone</p></td>
                         </tr>
                         <tr>
-                        <td rowspan="3">SCREECH</td>
-                        <td rowspan="3">float x8</td>
+                        <td rowspan="3"><p>SCREECH</p></td>
+                        <td rowspan="3"><p>float x8</p></td>
                         <td>
                             <p>4 x wheel slipping intensity between -1 and 1.</p>
                             <p>(float in this order : front left, front right, rear left, rear
@@ -104,7 +104,7 @@ Tire noise has to be updated for each wheel by providing information about the c
                     </tr>
                         <tr>
                         <td>
-                            <p>4 x wheel slipping angle of each wheel in radians (2*pi-periodic)</p>
+                            <p>4 x slipping angle of each wheel in radians (2*pi-periodic)</p>
                             <p>(float in this order : front left, front right, rear left, rear
                                 right)</p>
                         </td>
@@ -115,8 +115,8 @@ Tire noise has to be updated for each wheel by providing information about the c
                         </td>
                     </tr>
                         <tr>
-                        <td rowspan="3">WHEEL_ ADHERENCE</td>
-                        <td rowspan="3">int + float x4</td>
+                        <td rowspan="3"><p>WHEEL_ ADHERENCE</p></td>
+                        <td rowspan="3"><p>int + float x4</p></td>
                         <td>
                             <p>4 pairs composed of an int (wheel index) and a float (wheel stickiness coefficient)</p>
                             <p>Wheel indexes are 0, 1, 2, and 3, for front-left, front-right, rear-left, and rear-right wheels, respectively.</p>
@@ -204,16 +204,15 @@ Notes:
                         <td>File name (string)</td>
                     </tr>
                         <tr>
-                        <td rowspan="4">SOUND_PLAY</td>
+                        <td rowspan="8">SOUND_PLAY</td>
                         <td>Slot index (int)</td>
-                        <td rowspan="4">
-                            <p>Starts playing the sound &lt;Sound #id&gt; at slot &lt;#Slot index&gt;.</p>
+                        <td rowspan="8">
+                            <p>Starts playing the sound &lt;Sound id&gt; at slot &lt;Slot index&gt;.</p>
                             <p>TypeSpat: 0 = not localized, 1=attached to a vehicle, 2 = attached to
                                 a point.</p>
                             <p>Gain is linear (directly multiplied with the signal).</p>
                             <p>Azimuth in radians, Distance and DistanceMax in meters. DistanceMax
-                                corresponds to the distance from the source where it can</p>
-                            <p>no longer be heard.</p>
+                                corresponds to the distance from the source where it can no longer be heard.</p>
                         </td>
                     </tr>
                         <tr>
@@ -223,11 +222,19 @@ Notes:
                         <td>Play in loop (1 or 0)</td>
                     </tr>
                         <tr>
-                        <td>
-                            <p>Gain (float) TypeSpat (int) Azimuth (float, in rad) Distance (float,
-                                in m)</p>
-                            <p>DistanceMax (float, in m)</p>
-                        </td>
+                        <td>Gain (float)</td>
+                    </tr>
+                        <tr>
+                        <td>TypeSpat (int)</td>
+                    </tr>
+                        <tr>
+                        <td>Azimuth (float, in rad)</td>
+                    </tr>
+                        <tr>
+                        <td>Distance (float, in m)</td>
+                    </tr>
+                        <tr>
+                        <td>DistanceMax (float, in m)</td>
                     </tr>
                         <tr>
                         <td>SOUND_STOP</td>
@@ -256,7 +263,7 @@ Notes:
                         <tr>
                         <td rowspan="3">SOUND_UPDATE_POSITION</td>
                         <td>Slot index (int)</td>
-                        <td rowspan="3">Updates the position of the sound at slot &lt;#Slot index&gt;.</td>
+                        <td rowspan="3">Updates the position of the sound at slot &lt;Slot index&gt;.</td>
                     </tr>
                     <tr>
                         <td>Azimuth (float, in rad)</td>
@@ -316,7 +323,7 @@ Message sent to locate the position of the listener's head for head-tracked bina
                             <p>Position of the listener's head in space.</p>
                             <p>Distances are in meters, angles in radians.</p>
                             <p>X points to the front.</p>
-                            <p>Y points to the right Z points below.</p>
+                            <p>Y points to the right, Z points below.</p>
                             <p>The azimuth angle is then rotZ, with a positive angle when the
                                 listener turns their head to the right.</p>
                             <p>Elevation angle is then rotY with a positive angle when the listener

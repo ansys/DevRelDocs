@@ -2,6 +2,6 @@
 
 <a id="compolyx.ElementSet.orientable"></a>
 
-#### *property* ElementSet.orientable
+## *property* ElementSet.orientable
 
-True if the Element Set has an orientable topology
+True if the element set has an orientable topology.

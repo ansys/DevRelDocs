@@ -2,6 +2,6 @@
 
 <a id="compolyx.CADReference.serialize_name_and_id"></a>
 
-#### CADReference.serialize_name_and_id()
+## CADReference.serialize_name_and_id()
 
 Serializes the name and ID. ID is only serialized if different from name.

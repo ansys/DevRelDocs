@@ -2,4 +2,4 @@
 
 <a id="compolyx.ElementSelectionRule.update"></a>
 
-#### ElementSelectionRule.update()
+## ElementSelectionRule.update()

@@ -5,6 +5,7 @@
 - [compute element centroids](compute_element_centroids.md)
 - [connectivity ids](connectivity_ids.md)
 - [elemental from mesh](elemental_from_mesh.md)
+- [extend midside nodal scoping](extend_midside_nodal_scoping.md)
 - [from mesh](from_mesh.md)
 - [intersect](intersect.md)
 - [nodal from mesh](nodal_from_mesh.md)

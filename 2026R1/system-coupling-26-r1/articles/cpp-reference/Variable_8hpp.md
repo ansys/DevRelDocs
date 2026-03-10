@@ -23,16 +23,9 @@
 * SystemCouplingParticipant/CommonTypes.hpp
 * vector
 
+
 ```mermaid
 graph LR
-4["SystemCouplingParticipant/CommonTypes.hpp"]
-
-5["vector"]
-
-2["SystemCouplingParticipant/LibraryType.hpp"]
-
-3["SystemCouplingParticipant/Attribute.hpp"]
-
 1["Variable.hpp"]
 click 1 "Variable_8hpp.md#Variable_8hpp"
 1 --> 2
@@ -40,9 +33,19 @@ click 1 "Variable_8hpp.md#Variable_8hpp"
 1 --> 4
 1 --> 5
 
+3["SystemCouplingParticipant/Attribute.hpp"]
+
+4["SystemCouplingParticipant/CommonTypes.hpp"]
+
+2["SystemCouplingParticipant/LibraryType.hpp"]
+
+5["vector"]
+
 ```
 
+
 ## Source
+
 
 ```cpp
 /*
@@ -135,6 +138,7 @@ private:
   TensorType m_tensorType;     
   bool m_isExtensive;          
   DataType m_dataType;         
+
   std::vector<RealAttribute> m_realAttributes;
   std::vector<IntegerAttribute> m_integerAttributes;
   std::vector<StringAttribute> m_stringAttributes;
@@ -143,7 +147,9 @@ private:
 }  // namespace sysc
 ```
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[Markdown]: https://img.shields.io/badge/language-Markdown-blue (Markdown)
