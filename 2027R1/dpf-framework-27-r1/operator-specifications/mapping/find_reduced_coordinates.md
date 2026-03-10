@@ -10,7 +10,29 @@ license: None
 
 ## Description
 
-Finds the elements corresponding to the given coordinates in input and computes their reduced coordinates in those elements.
+
+Performs the inverse isoparametric mapping from physical (global) coordinates to reduced (natural/parametric) coordinates within finite elements.
+This is the first stage in field interpolation workflows, determining which element contains each query point and computing its local coordinates within that element.
+
+##### Mathematical formulation
+
+For a query point $\mathbf{x}_q$ in physical space, this operator finds the element $e$ containing the point and solves the inverse mapping:
+
+$$\mathbf{x}_q = \sum_{i=1}^{N_{nodes}} N_i(\boldsymbol{\xi}) \cdot \mathbf{x}_i^{(e)}$$
+
+to compute the reduced coordinates $\boldsymbol{\xi} = (\xi, \eta, \zeta)$ where:
+- $N_i(\boldsymbol{\xi})$ are the element shape functions
+- $\mathbf{x}_i^{(e)}$ are the nodal coordinates of element $e$
+- $\boldsymbol{\xi}$ are the parametric coordinates in the reference element space (typically $[-1, 1]$ for most elements)
+
+##### Output format
+
+The operator produces two synchronized outputs:
+- **Reduced coordinates**: 3D vectors in parametric space, stored with the same labels/scoping structure as input coordinates
+- **Element IDs**: Corresponding element identifiers, enabling subsequent interpolation operations
+
+This operator is typically paired with `on_reduced_coordinates` to complete field interpolation: first find where points are located (`find_reduced_coordinates`), then evaluate field values at those locations (`on_reduced_coordinates`).
+
 
 ## Inputs
 
@@ -31,7 +53,13 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container), [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container)
 
+Physical (global) coordinates at which reduced coordinates and element associations should be computed. Each coordinate is a 3D vector ($x$, $y$, $z$).
 
+**Supported input types**:
+- **Field**: Single field containing coordinate vectors. Field location is ignored; the field is treated as a set of query points. The field's support mesh defines the search domain if the `mesh` pin is not provided.
+- **FieldsContainer**: Multiple coordinate fields, typically organized by time step or spatial region. Each field is processed independently.
+- **MeshedRegion**: Node coordinates of the mesh are used as query points. Useful for evaluating fields at mesh nodes.
+- **MeshesContainer**: Multiple meshes whose node coordinates are used as query points.
 
 <a id="input_7"></a>
 ### mesh (Pin 7)
@@ -39,7 +67,14 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** No
 - **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container)
 
-If the first field in input has no mesh in support, then the mesh in this pin is expected (default is false). If a meshes container with several meshes is set, it should be on the same label spaces as the coordinates fields container.
+Mesh(es) defining the finite element domain where elements are searched. The operator searches for elements containing the query coordinates within this mesh.
+
+If not provided, the mesh is automatically extracted from:
+- Field support (if input is a Field)
+- Field supports of the Fields in the FieldsContainer (if input is a FieldsContainer)
+- The mesh itself (if input is a MeshedRegion or MeshesContainer)
+
+**Label matching**: When both `coordinates` and `mesh` have labels (e.g., time steps), the operator matches fields to meshes with corresponding labels. If a mesh label doesn't exist in `coordinates`, it's added to the output structure.
 
 <a id="input_200"></a>
 ### use_quadratic_elements (Pin 200)
@@ -47,7 +82,11 @@ If the first field in input has no mesh in support, then the mesh in this pin is
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-If this pin is set to true, reduced coordinates are computed on the quadratic element if the element is quadratic (more precise but less performant). Default is false.
+Controls whether quadratic (second-order) nodes are included in the element search and coordinate transformation.
+
+**Default**: `false` (uses only corner nodes)
+**When `true`**: Includes midside nodes in the element geometry, improving accuracy for curved elements and quadratic shape functions at the price of lower performance.
+
 
 
 ## Outputs
@@ -67,14 +106,24 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-coordinates in the reference elements
+Reduced (natural/parametric) coordinates $\boldsymbol{\xi} = (\xi, \eta, \zeta)$ for each query point in its containing element's reference frame.
+
+Each output field contains 3D vectors representing the local coordinates within the reference element. The range of valid reduced coordinates depends on element type:
+- **Hexahedra/Quadrilaterals**: $-1 \leq \xi, \eta, \zeta \leq 1$
+- **Tetrahedra/Triangles**: $0 \leq \xi, \eta, \zeta$ and $\xi + \eta + \zeta \leq 1$
+
+The output structure (labels, field count) matches the input coordinates structure. The number of entities in each output field may be less than the number of input coordinates: query points that do not lie within or sufficiently close to any element in the mesh are omitted from the output. Points near element boundaries are included with permissive tolerance.
 
 <a id="output_1"></a>
 ### element_ids (Pin 1)
 
 - **Expected type(s):** [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container)
 
-Ids of the elements where each set of reduced coordinates is found
+Element IDs corresponding to each successfully located query coordinate, identifying the element associated with each point.
+
+The scoping container structure matches the input coordinates structure. Each scoping is parallel to the corresponding field in `reduced_coordinates`: `element_ids[i]` is the element containing the point whose parametric location is `reduced_coordinates[i]`.
+
+These element IDs are required by the `on_reduced_coordinates` operator to perform the actual field interpolation.
 
 
 ## Configurations

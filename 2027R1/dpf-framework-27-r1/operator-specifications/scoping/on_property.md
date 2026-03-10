@@ -25,7 +25,6 @@ Each parameter is detailed in the sections that follow the table.
 | <strong>2</strong> | [property_id](#input_2) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<string>`](../../core-concepts/dpf-types.md#standard-types), [`int32`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>3</strong> | [streams_container](#input_3) |  |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
 | <strong>4</strong> | [data_sources](#input_4) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
-| <strong>5</strong> | [inclusive](#input_5) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
 
 
 <a id="input_0"></a>
@@ -67,14 +66,6 @@ property_id or vector of property ids
 - **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
 
 
-
-<a id="input_5"></a>
-### inclusive (Pin 5)
-
-- **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
-
-If element scoping is requested on a nodal named selection, if inclusive == 1 then all the elements/faces adjacent to the nodes/faces ids in input are added, if inclusive == 0, only the elements/faces which have all their nodes/faces in the scoping are included
 
 
 ## Outputs
@@ -143,7 +134,6 @@ op.connect(1, my_property_name);
 op.connect(2, my_property_id);
 op.connect(3, my_streams_container);
 op.connect(4, my_data_sources);
-op.connect(5, my_inclusive);
 ansys::dpf::Scoping my_mesh_scoping = op.getOutput<ansys::dpf::Scoping>(0);
 ```
 </details>
@@ -160,7 +150,6 @@ op.inputs.property_name.connect(my_property_name)
 op.inputs.property_id.connect(my_property_id)
 op.inputs.streams_container.connect(my_streams_container)
 op.inputs.data_sources.connect(my_data_sources)
-op.inputs.inclusive.connect(my_inclusive)
 my_mesh_scoping = op.outputs.mesh_scoping()
 ```
 </details>
@@ -178,7 +167,6 @@ op.inputs.property_name.Connect(my_property_name)
 op.inputs.property_id.Connect(my_property_id)
 op.inputs.streams_container.Connect(my_streams_container)
 op.inputs.data_sources.Connect(my_data_sources)
-op.inputs.inclusive.Connect(my_inclusive)
 my_mesh_scoping = op.outputs.mesh_scoping.GetData()
 ```
 </details>

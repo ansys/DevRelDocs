@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-04).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-09).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -36,16 +36,17 @@ The following table shows which components have updates in each category.
 | kernel | [2 items](#Features_kernel) |[9 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [14 items](#Features_mapdl) |[41 items](#Fixes_mapdl) |
+| mapdl | [15 items](#Features_mapdl) |[41 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [11 items](#Features_math) |[1 item](#Fixes_math) |
 | mechanical | [2 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
 | mesh |  |[3 items](#Fixes_mesh) |
 | misc | [13 items](#Features_misc) |[19 items](#Fixes_misc) |
-| multiphysicsmapper |  |[4 items](#Fixes_multiphysicsmapper) |
+| multiphysicsmapper |  |[5 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [2 items](#Features_native) |[13 items](#Fixes_native) |
+| native | [2 items](#Features_native) |[15 items](#Fixes_native) |
+| nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [3 items](#Features_prime) | |
 | pydpf |  |[1 item](#Fixes_pydpf) |
@@ -885,6 +886,11 @@ The following table shows which components have updates in each category.
 
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
+
+- Freeing license of mapdl_section_properties:
+  > Freeing license of `mapdl_section_properties`.
+  >
+  > 
 
 - Operator to extract records from RST:
   > 
@@ -1755,6 +1761,13 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_multiphysicsmapper"></a> Fixes
 
+- Fix the effect of input pin pinball_key in operator prepare_mechanical_native_mapping_shape_functions_for_surfaces:
+  > Fix the effect of input pin `pinball_key` on the algorithm of operator prepare_mechanical_native_mapping_shape_functions_for_surfaces.
+  >
+  > 
+  >
+  > 
+
 - Clarifying documentation:
   > Clarification of documentation.
   >
@@ -1812,6 +1825,30 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Inconsistency with elshape treatment  in scoping::by_property op.:
+  > When we have shell, solid and skin elements in mesh and perform a scoping::by_property, we observed inconsistency in the way we expose elshape depending if:
+  >
+  > - we merge skin and shell
+  >
+  > - we merge shell and solid
+  >
+  > - we merge nothing
+  >
+  > 
+  >
+  > The idea is to find a way to make this treatment consistent and homogenous.
+  >
+  > 
+
+- Fixed error introduced by PR 667338:
+  > - Marked "generic_support_get_attribute" as private operator
+  >
+  > - Undocumented the fact that "fieldscontainer::get_attribute" can produce GenericSupport
+  >
+  > 
+  >
+  > 
 
 - Allow loop_workflow_incremental to take CField output:
   > loop_workflow_incremental now can take a Workflow returning a CField with an added `loop` label.
@@ -1902,6 +1939,14 @@ The following table shows which components have updates in each category.
 - Scaling factors for absolute normalization in ErrorAndNorm have a wrong size:
   > Absolute normalization in ErrorAndNorm ("error_and_norm") operator was exporting scaling factors with a size of the original data instead of having only one unit value per field.
   >
+  > 
+  >
+  > 
+## nuget
+
+### <a id="Fixes_nuget"></a> Fixes
+
+- Update unit test:
   > 
   >
   > 
@@ -2466,9 +2511,6 @@ The following table shows which components have updates in each category.
 - [cyclic_support_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/cyclic_support_get_attribute.md):
   > A CyclicSupport in pin 0 and a property name (string) in pin 1 are expected in input.
 
-- [generic_support_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/generic_support_get_attribute.md):
-  > Uses the GenericSupport APIs to return a given attribute of the generic support in input.
-
 - [get_operators](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/get_operators.md):
   > Getter on operators inside a workflow.
 
@@ -2591,6 +2633,8 @@ The following table shows which components have updates in each category.
 
   > 0.1.0: Fix bug with interpolation points at corner nodes.
 
+  > 0.1.1: Update the operator and pin descriptions.
+
 
 - [on_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/on_coordinates.md)
 
@@ -2599,6 +2643,18 @@ The following table shows which components have updates in each category.
   > 0.2.0: Fix bug with interpolation points at corner nodes.
 
   > 0.3.0: Fix bug with missing results and use_quadratic_elements pin.
+
+  > 0.3.1: Update the operator and pin descriptions.
+
+
+- [on_reduced_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/on_reduced_coordinates.md)
+
+  > 0.0.1: Update the operator and pin descriptions.
+
+
+- [prepare_mapping_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/prepare_mapping_workflow.md)
+
+  > 0.0.1: Update the operator and pin descriptions.
 
 
 - [solid_to_skin](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/solid_to_skin.md)
@@ -2610,6 +2666,8 @@ The following table shows which components have updates in each category.
   > 0.2.1: Removing unnedeed output hidden pin.
 
   > 0.2.2: Fixed issue with shell layers calculation in the results field while having mid-side nodes on some elements.
+
+  > 0.2.3: Improve the operator and pin descriptions.
 
 
 - [solid_to_skin_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/solid_to_skin_fc.md)
@@ -2625,6 +2683,8 @@ The following table shows which components have updates in each category.
   > 0.2.2: Fixed issue with shell layers calculation in the results field while having mid-side nodes on some elements.
 
   > 0.2.3: Fixed issue with fields container with mixed location.
+
+  > 0.2.4: Improve pin 0, pin 1, pin 2, and output pin 0 descriptions to match the solid_to_skin operator.
 
 
 
@@ -3068,6 +3128,11 @@ Upgraded documentation
   > 0.0.1: Fix crash caused by invalid iterator when reading shell data.
 
 
+- [mapdl_section](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/mapdl_section.md)
+
+  > 0.0.1: Making the operator license-free.
+
+
 - [nmisc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/nmisc.md)
 
   > 1.0.0: num_components input pin is removed, please use the item_index pin with a vector of indexes.
@@ -3288,6 +3353,11 @@ Upgraded documentation
 
 #### scoping
 
+- [on_property](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/on_property.md)
+
+  > 1.0.0: Remove pin "inclusive"
+
+
 - [rescope](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/rescope.md)
 
   > 0.1.0: Performance improvement.
@@ -3336,11 +3406,6 @@ Upgraded documentation
 - [extract_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/extract_scoping.md)
 
   > 0.0.1: Error with license
-
-
-- [fc_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/fc_get_attribute.md)
-
-  > 0.1.0: Add new supported property name 'generic_support' returning a generic support.
 
 
 - [html_doc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/html_doc.md)
