@@ -6,21 +6,15 @@ This REST API allows to perform CRUD (Create, Read, Update, and Delete) operatio
 
 ## Features
 
-### Queues
 
-* You can create queues with the required storages, resource limits and environment variables
-* Allowing to manage queues helps will help you configure different applications within resource limits and group the applications requiring same storage together.
-* You can adjust the maximum number of workers that can concurrently run on a queue using the parameter 'maximum_allowed_worker_instances'
 
 ### Plugins
 
  You can register a plugin with definition of container runtime.
 For example: Docker Engine / Kubernetes
 
-### Jobs
 
-* You can submit a resource-manager job by providing application details (name, version, image, environment variables, etc.) and track it to its completion.
-* You can also check the status of the job and clean the resources the job has acquired.
+
 
 ## Python helper
 
@@ -160,33 +154,16 @@ Set a limit to the following parameter:
 
 See below screenshot as an example:
 
-![Alt text](/sites/default/files/2025-10/screen-1.png)
+![Alt text](/sites/default/files/2026-03/screen-1.png)
 
 Note: The resource manager allocates the job that has the requested amount of workers or less. 
 
 In the example below, only 3 workers are available, so the job that requires 4 workers, appears as 'pending'
 
-![Alt text](/sites/default/files/2025-10/screen-2.png)
-
-## Download concrete scenario files
-
-It is possible to download the concrete scenario files of simulation jobs through the REST API. 
-
-To do this, you need to provides a list of *sample_ids* to generate concrete scenario files for those samples. 
-
-* If 'samples' is empty or not provided, no concrete file is included. 
-* If 'samples' is specified, than all the concrete files will be included for these samples in the zip.
+![Alt text](/sites/default/files/2026-03/screen-2.png)
 
 
-You can also specify what kind of documents you want to download:
-
-* Scenario files
-* Asset files
-
- If the parameter: *"filter_by_asset_declaration"* is empty or not provided, all the "common" asset data will be provided.
- * 
-
-## Getting a Token to Use the REST API 
+## Getting a Token to use the REST API 
 
 To use the REST API, you need to enter a Token
 
@@ -243,7 +220,7 @@ https://explore.{{ domain }}/api/resources/v1/queues endpoint
 
 2. Click **Execute**. A Queue ID will be generated.
 
-![Alt text](/sites/default/files/2025-10/create-queue-1.png)
+![Alt text](/sites/default/files/2026-03/create-queue-1.png)
 
 
 Update the queue to add the following attributes in the request body
@@ -279,9 +256,9 @@ To get this, click **Execute** on the GET/Applications command (below) on the Re
 https://explore.{{ domain }}/api/resources/v1/applications
 ```
 
-![Alt text](/sites/default/files/2025-10/app-id-1.png)
+![Alt text](/sites/default/files/2026-03/app-id-1.png)
 
-![Alt text](/sites/default/files/2025-10/app-id-2.png)
+![Alt text](/sites/default/files/2026-03/app-id-2.png)
 
 Now map the above generated **Queue ID** with the **Application ID** for the app-runtime-config by making a POST call.
 
@@ -290,6 +267,6 @@ POST https://explore.{{ domain }}/api/resources/v1/app-runtime-config/{queue_id}
 ```
 You must specify the image path and working directory in the request body
 
-![Alt text](/sites/default/files/2025-10/create-queue-2.png)
+![Alt text](/sites/default/files/2026-03/create-queue-2.png)
 
 Once the queue is created and configured it will be available to select in the Explore & Analyze simulation job configuration template. 
