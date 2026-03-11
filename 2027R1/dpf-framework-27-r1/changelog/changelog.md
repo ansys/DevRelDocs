@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-09).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-10).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -33,7 +33,7 @@ The following table shows which components have updates in each category.
 | hdf5 | [6 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
 | hgp | [5 items](#Features_hgp) |[2 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
-| kernel | [2 items](#Features_kernel) |[9 items](#Fixes_kernel) |
+| kernel | [3 items](#Features_kernel) |[9 items](#Fixes_kernel) |
 | lsdyna | [1 item](#Features_lsdyna) | |
 | mapd | [1 item](#Features_mapd) | |
 | mapdl | [15 items](#Features_mapdl) |[41 items](#Fixes_mapdl) |
@@ -787,6 +787,15 @@ The following table shows which components have updates in each category.
   > 
 ## kernel
 ### <a id="Features_kernel"></a> Features
+
+- Implement Random Access in ScopingIterators:
+  > 
+  >
+  > Implement STL-compliant Ramdom Access Iterators in ScopingIterators.
+  >
+  > 
+  >
+  > 
 
 - Add Unit string to express British ton:
   > 
