@@ -2,6 +2,8 @@
   href: index.md
 - name: Glossary
   href: glossary.md
+- name: Learning Roadmaps
+  href: learning_roadmaps.md
 - name: Product collections
   items:
   - name: 3D Design
