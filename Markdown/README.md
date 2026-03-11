@@ -237,6 +237,8 @@ The following table describes the metadata fields that can be defined in the glo
 | **Author Email**           | Optional                             | Author email address. If not provided or if no matching Dev Portal user with content editor rights is found, defaults to the Ansys developer account. | Yes | Yes | Not implemented | No request |
 | **Date**                   | Optional                             | Creation date in ISO-8601 format (yyyy-mm-dd). If not provided, uses the import date. Last updated date is automatically derived from GitHub APIs. | Yes | Yes | Not implemented | No request |
 | **Keywords**               | Optional                             | Keywords for the documentation package to enhance AI and SEO discoverability. | Yes | Yes | Not implemented | Implement and serve as `<meta name="keywords">` |
+| **Audience**               | Optional                             | This defines who the content is for to enhance AI and SEO discoverability. | Yes | Yes | Not implemented | Implement and serve as `<meta name="audience">` |
+| **Context**               | Optional                             | This describes in what situation the content is meant to be used (to enhance AI and SEO discoverability.).  | Yes | Yes | Not implemented | Implement and serve as `<meta name="context">` |
 
 #### Proposed Markdown documentation example
 
