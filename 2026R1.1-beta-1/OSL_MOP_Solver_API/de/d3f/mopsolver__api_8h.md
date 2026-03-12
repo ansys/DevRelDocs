@@ -2,7 +2,7 @@
 
 ![][C++]
 
-**Location**: `mopsolver\_api.h`
+**Location**: `mopsolver_api.h`
 
 
 
@@ -29,7 +29,7 @@ click 2 "d8/df9/mopsolver__api__shared_8h_source.md#d8/df9/mopsolver__api__share
 ## Functions
 
 <a id="de/d3f/mopsolver__api_8h_1a25df2ddd6172194afab9ed8ee0b36387"></a>
-### Function dmop\_hasSurrogate
+### Function dmop_hasSurrogate
 
 ![][public]
 
@@ -60,7 +60,7 @@ zero if Surrogate is found
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a05681e0a24f0aa4edde06acfc34830a5"></a>
-### Function dmop\_getDimensions
+### Function dmop_getDimensions
 
 ![][public]
 
@@ -95,7 +95,7 @@ zero if the dimensions could be determined
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a0fa8a013f592ec0bad8b5fb3a6e95b0b"></a>
-### Function dmop\_solve\_extrapolate
+### Function dmop_solve_extrapolate
 
 ![][public]
 
@@ -134,7 +134,7 @@ zero if the aproximation succeeded
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a265f1dcd9f39d4123da745a42bf07dc9"></a>
-### Function dmop\_solve
+### Function dmop_solve
 
 ![][public]
 
@@ -171,7 +171,7 @@ zero if the approximation succeeded
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1ab816352747ec004979bdb233db495669"></a>
-### Function dmop\_gradients\_per\_response\_extrapolate
+### Function dmop_gradients_per_response_extrapolate
 
 ![][public]
 
@@ -212,7 +212,7 @@ zero if the calculation succeeded
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1ad230a17d9e463faf2f05950871ca9809"></a>
-### Function dmop\_gradients\_per\_response
+### Function dmop_gradients_per_response
 
 ![][public]
 
@@ -251,7 +251,7 @@ zero if the calculation succeeded
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1ad58195cba96bfbdd71b064f691fa25be"></a>
-### Function dmop\_errors\_per\_response\_extrapolate
+### Function dmop_errors_per_response_extrapolate
 
 ![][public]
 
@@ -292,7 +292,7 @@ zero if the calculation succeeded
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1acc93f43c201bd74d26e24647600600b7"></a>
-### Function dmop\_errors\_per\_response
+### Function dmop_errors_per_response
 
 ![][public]
 
@@ -331,7 +331,7 @@ zero if the calculation succeeded
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a7a7a61f3064296a1c57b130fb2ba1cb8"></a>
-### Function dmop\_density\_per\_response\_extrapolate
+### Function dmop_density_per_response_extrapolate
 
 ![][public]
 
@@ -374,7 +374,7 @@ zero if the calculation succeeded
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1aff6e88ab02e69ca95e341b65e7d12246"></a>
-### Function dmop\_density\_per\_response
+### Function dmop_density_per_response
 
 ![][public]
 
@@ -415,7 +415,7 @@ zero if the calculation succeeded
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a0d9c56750bbf39ef6e01feeeaf568b37"></a>
-### Function dmop\_getInputNames
+### Function dmop_getInputNames
 
 ![][public]
 
@@ -427,7 +427,7 @@ DYNARDO_MOPSOLVER_API int dmop_getInputNames(const char *_omdbfile, char **_inpu
 
 
 
-retrieves the names of all active, scalar inputs. The array sizes depend on the number of inputs determined in [dmop\_getDimensions](de/d3f/mopsolver__api_8h.md#de/d3f/mopsolver__api_8h_1a05681e0a24f0aa4edde06acfc34830a5) 
+retrieves the names of all active, scalar inputs. The array sizes depend on the number of inputs determined in [dmop_getDimensions](de/d3f/mopsolver__api_8h.md#de/d3f/mopsolver__api_8h_1a05681e0a24f0aa4edde06acfc34830a5) 
 **Parameters**:
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
@@ -448,7 +448,7 @@ zero if the name arrays were created and filled
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a5e1f4c22ed4444a6a456da441e63286a"></a>
-### Function dmop\_getInputNamesWithDelimiter
+### Function dmop_getInputNamesWithDelimiter
 
 ![][public]
 
@@ -460,7 +460,7 @@ DYNARDO_MOPSOLVER_API int dmop_getInputNamesWithDelimiter(const char *_omdbfile,
 
 
 
-retrieves the names of all active, scalar inputs. The array sizes depend on the number of inputs determined in [dmop\_getDimensions](de/d3f/mopsolver__api_8h.md#de/d3f/mopsolver__api_8h_1a05681e0a24f0aa4edde06acfc34830a5) 
+retrieves the names of all active, scalar inputs. The array sizes depend on the number of inputs determined in [dmop_getDimensions](de/d3f/mopsolver__api_8h.md#de/d3f/mopsolver__api_8h_1a05681e0a24f0aa4edde06acfc34830a5) 
 **Parameters**:
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
@@ -483,7 +483,7 @@ zero if the name arrays were created and filled
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a293a88f3b04524c4f57558c35e1c9154"></a>
-### Function dmop\_getOutputNames
+### Function dmop_getOutputNames
 
 ![][public]
 
@@ -495,7 +495,7 @@ DYNARDO_MOPSOLVER_API int dmop_getOutputNames(const char *_omdbfile, char **_res
 
 
 
-retrieves the names of all responses. The array sizes depend on the number of inputs and responses determined in [dmop\_getDimensions](de/d3f/mopsolver__api_8h.md#de/d3f/mopsolver__api_8h_1a05681e0a24f0aa4edde06acfc34830a5) 
+retrieves the names of all responses. The array sizes depend on the number of inputs and responses determined in [dmop_getDimensions](de/d3f/mopsolver__api_8h.md#de/d3f/mopsolver__api_8h_1a05681e0a24f0aa4edde06acfc34830a5) 
 **Parameters**:
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
@@ -516,7 +516,7 @@ zero if the name arrays were created and filled
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1ac35cea243a38a73791305f2cdf3b7885"></a>
-### Function dmop\_getOutputNamesWithDelimiter
+### Function dmop_getOutputNamesWithDelimiter
 
 ![][public]
 
@@ -528,7 +528,7 @@ DYNARDO_MOPSOLVER_API int dmop_getOutputNamesWithDelimiter(const char *_omdbfile
 
 
 
-retrieves the names of all responses. The array sizes depend on the number of responses determined in [dmop\_getDimensions](de/d3f/mopsolver__api_8h.md#de/d3f/mopsolver__api_8h_1a05681e0a24f0aa4edde06acfc34830a5) 
+retrieves the names of all responses. The array sizes depend on the number of responses determined in [dmop_getDimensions](de/d3f/mopsolver__api_8h.md#de/d3f/mopsolver__api_8h_1a05681e0a24f0aa4edde06acfc34830a5) 
 **Parameters**:
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
@@ -551,7 +551,7 @@ zero if the name arrays were created and filled
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1aa49bc13d0597df9c099ec27f26a8533c"></a>
-### Function dmop\_getInputBounds
+### Function dmop_getInputBounds
 
 ![][public]
 
@@ -584,7 +584,7 @@ zero if the name arrays were created and filled
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1ae52a44cc51e99fdae284c3832243b5e8"></a>
-### Function dmop\_getInputBoundsPerParameter
+### Function dmop_getInputBoundsPerParameter
 
 ![][public]
 
@@ -619,7 +619,7 @@ zero if the name arrays were created and filled
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a550899662f7dcd4551a98ce6ad7b9bf7"></a>
-### Function dmop\_getReferenceValuePerParameter
+### Function dmop_getReferenceValuePerParameter
 
 ![][public]
 
@@ -654,7 +654,7 @@ zero if the name arrays were created and filled
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a5a651f6f7ad0cc305eb95da2bae241da"></a>
-### Function dmop\_getCoPValuesPerResponse
+### Function dmop_getCoPValuesPerResponse
 
 ![][public]
 
@@ -689,7 +689,7 @@ zero if the name arrays were created and filled
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1ae4303398502f14c096bd4f7995f824c0"></a>
-### Function dmop\_getFilteredStatesPerResponse
+### Function dmop_getFilteredStatesPerResponse
 
 ![][public]
 
@@ -724,7 +724,7 @@ zero if the name arrays were created and filled
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1afd899e90ed1d65bc3d4a6877e2b24600"></a>
-### Function dmop\_getLastError
+### Function dmop_getLastError
 
 ![][public]
 
@@ -746,7 +746,7 @@ String describing last error or <code>nullptr</code> if no error occured.
 **Return type**: DYNARDO_MOPSOLVER_API const char *
 
 <a id="de/d3f/mopsolver__api_8h_1aafb7d0650e3a68f467e6a4146967bcb2"></a>
-### Function dmop\_allocate\_and\_getInputBounds
+### Function dmop_allocate_and_getInputBounds
 
 ![][public]
 
@@ -758,7 +758,7 @@ DYNARDO_MOPSOLVER_API int dmop_allocate_and_getInputBounds(const char *_omdbfile
 
 
 
-some functionalities also exist with the possibility of internal memory allocation management data put to given pointer is valid up to next call of any dmop_ function (except a call of [dmop\_getLastError()](de/d3f/mopsolver__api_8h.md#de/d3f/mopsolver__api_8h_1afd899e90ed1d65bc3d4a6877e2b24600))
+some functionalities also exist with the possibility of internal memory allocation management data put to given pointer is valid up to next call of any dmop_ function (except a call of [dmop_getLastError()](de/d3f/mopsolver__api_8h.md#de/d3f/mopsolver__api_8h_1afd899e90ed1d65bc3d4a6877e2b24600))
 
 
 
@@ -770,7 +770,7 @@ some functionalities also exist with the possibility of internal memory allocati
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a9217ae7682d9333a548261003f1ae8f9"></a>
-### Function dmop\_allocate\_and\_getInputBoundsPerParameter
+### Function dmop_allocate_and_getInputBoundsPerParameter
 
 ![][public]
 
@@ -795,7 +795,7 @@ DYNARDO_MOPSOLVER_API int dmop_allocate_and_getInputBoundsPerParameter(const cha
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a8f30162e2626e077e8b8fcde803e2a08"></a>
-### Function dmop\_allocate\_and\_getCoPValuesPerResponse
+### Function dmop_allocate_and_getCoPValuesPerResponse
 
 ![][public]
 
@@ -820,7 +820,7 @@ DYNARDO_MOPSOLVER_API int dmop_allocate_and_getCoPValuesPerResponse(const char *
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a3f097648135b5bfcba00dfd49b24d1db"></a>
-### Function dmop\_allocate\_and\_getFilteredStatesPerResponse
+### Function dmop_allocate_and_getFilteredStatesPerResponse
 
 ![][public]
 
@@ -845,7 +845,7 @@ DYNARDO_MOPSOLVER_API int dmop_allocate_and_getFilteredStatesPerResponse(const c
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a0d34573f1b2ba0561fe1c07edc019116"></a>
-### Function dmop\_allocate\_and\_solve\_extrapolate
+### Function dmop_allocate_and_solve_extrapolate
 
 ![][public]
 
@@ -872,7 +872,7 @@ DYNARDO_MOPSOLVER_API int dmop_allocate_and_solve_extrapolate(const char *_omdbf
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a32575949d201fca2f20bfa959ab410e8"></a>
-### Function dmop\_allocate\_and\_solve
+### Function dmop_allocate_and_solve
 
 ![][public]
 
@@ -898,7 +898,7 @@ DYNARDO_MOPSOLVER_API int dmop_allocate_and_solve(const char *_omdbfile, unsigne
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a9ff389215cf9d81a1540e2711af36d5b"></a>
-### Function dmop\_hasSurrogate\_hash
+### Function dmop_hasSurrogate_hash
 
 ![][public]
 
@@ -922,7 +922,7 @@ each functionality which needs a file path also exists with a signature check of
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1adabde23250f94b7b08c88b3646c09b9c"></a>
-### Function dmop\_getDimensions\_hash
+### Function dmop_getDimensions_hash
 
 ![][public]
 
@@ -948,7 +948,7 @@ DYNARDO_MOPSOLVER_API int dmop_getDimensions_hash(const char *_omdbfile, int *_n
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a587bfe84c7f6e6ba9b15ca6e73ee790f"></a>
-### Function dmop\_solve\_extrapolate\_hash
+### Function dmop_solve_extrapolate_hash
 
 ![][public]
 
@@ -976,7 +976,7 @@ DYNARDO_MOPSOLVER_API int dmop_solve_extrapolate_hash(const char *_omdbfile, uns
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a96eca0fbc5c04f37751e006694aaecb8"></a>
-### Function dmop\_allocate\_and\_solve\_extrapolate\_hash
+### Function dmop_allocate_and_solve_extrapolate_hash
 
 ![][public]
 
@@ -1004,7 +1004,7 @@ DYNARDO_MOPSOLVER_API int dmop_allocate_and_solve_extrapolate_hash(const char *_
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a88eacb01722b4ae4adf9c2d5fdd7b8f0"></a>
-### Function dmop\_solve\_hash
+### Function dmop_solve_hash
 
 ![][public]
 
@@ -1031,7 +1031,7 @@ DYNARDO_MOPSOLVER_API int dmop_solve_hash(const char *_omdbfile, unsigned int _n
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1af36f31c31d060b2fa1cc97503dad95b2"></a>
-### Function dmop\_gradients\_per\_response\_extrapolate\_hash
+### Function dmop_gradients_per_response_extrapolate_hash
 
 ![][public]
 
@@ -1060,7 +1060,7 @@ DYNARDO_MOPSOLVER_API int dmop_gradients_per_response_extrapolate_hash(const cha
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a1130ac08987bb1c86a8dee2df31507c3"></a>
-### Function dmop\_gradients\_per\_response\_hash
+### Function dmop_gradients_per_response_hash
 
 ![][public]
 
@@ -1088,7 +1088,7 @@ DYNARDO_MOPSOLVER_API int dmop_gradients_per_response_hash(const char *_omdbfile
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a22c9684d49d498d7e0be12ec59ba7d18"></a>
-### Function dmop\_errors\_per\_response\_extrapolate\_hash
+### Function dmop_errors_per_response_extrapolate_hash
 
 ![][public]
 
@@ -1117,7 +1117,7 @@ DYNARDO_MOPSOLVER_API int dmop_errors_per_response_extrapolate_hash(const char *
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a6d14d88c3fde7c3d0576af2a7936990f"></a>
-### Function dmop\_errors\_per\_response\_hash
+### Function dmop_errors_per_response_hash
 
 ![][public]
 
@@ -1145,7 +1145,7 @@ DYNARDO_MOPSOLVER_API int dmop_errors_per_response_hash(const char *_omdbfile, u
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1acabdf65edc2a5d46ccd202e3d79c7848"></a>
-### Function dmop\_density\_per\_response\_extrapolate\_hash
+### Function dmop_density_per_response_extrapolate_hash
 
 ![][public]
 
@@ -1175,7 +1175,7 @@ DYNARDO_MOPSOLVER_API int dmop_density_per_response_extrapolate_hash(const char 
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a2bb700eec918a77ecd60181200c18e79"></a>
-### Function dmop\_density\_per\_response\_hash
+### Function dmop_density_per_response_hash
 
 ![][public]
 
@@ -1204,7 +1204,7 @@ DYNARDO_MOPSOLVER_API int dmop_density_per_response_hash(const char *_omdbfile, 
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1afba1cda3a266910ff3ce49d523692df3"></a>
-### Function dmop\_allocate\_and\_solve\_hash
+### Function dmop_allocate_and_solve_hash
 
 ![][public]
 
@@ -1231,7 +1231,7 @@ DYNARDO_MOPSOLVER_API int dmop_allocate_and_solve_hash(const char *_omdbfile, un
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a4d43819bb6fe2611f97de169262ea541"></a>
-### Function dmop\_getInputNames\_hash
+### Function dmop_getInputNames_hash
 
 ![][public]
 
@@ -1256,7 +1256,7 @@ DYNARDO_MOPSOLVER_API int dmop_getInputNames_hash(const char *_omdbfile, char **
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1ac7db2ff3adac1eca0b7767b37d7e2600"></a>
-### Function dmop\_getInputNamesWithDelimiter\_hash
+### Function dmop_getInputNamesWithDelimiter_hash
 
 ![][public]
 
@@ -1282,7 +1282,7 @@ DYNARDO_MOPSOLVER_API int dmop_getInputNamesWithDelimiter_hash(const char *_omdb
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a80e483d65b2ffb202c38e95e566a732f"></a>
-### Function dmop\_getOutputNames\_hash
+### Function dmop_getOutputNames_hash
 
 ![][public]
 
@@ -1307,7 +1307,7 @@ DYNARDO_MOPSOLVER_API int dmop_getOutputNames_hash(const char *_omdbfile, char *
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1af7dd3ea32b93e4ab854858dd835f8097"></a>
-### Function dmop\_getOutputNamesWithDelimiter\_hash
+### Function dmop_getOutputNamesWithDelimiter_hash
 
 ![][public]
 
@@ -1333,7 +1333,7 @@ DYNARDO_MOPSOLVER_API int dmop_getOutputNamesWithDelimiter_hash(const char *_omd
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1ac4618243a4f378b33de8e09aea790543"></a>
-### Function dmop\_getInputBounds\_hash
+### Function dmop_getInputBounds_hash
 
 ![][public]
 
@@ -1358,7 +1358,7 @@ DYNARDO_MOPSOLVER_API int dmop_getInputBounds_hash(const char *_omdbfile, double
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a2053e29441f535e67f0d94458fe8c9c1"></a>
-### Function dmop\_allocate\_and\_getInputBounds\_hash
+### Function dmop_allocate_and_getInputBounds_hash
 
 ![][public]
 
@@ -1383,7 +1383,7 @@ DYNARDO_MOPSOLVER_API int dmop_allocate_and_getInputBounds_hash(const char *_omd
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a48c0b28a2f04728fc8d75aa082f94a14"></a>
-### Function dmop\_getInputBoundsPerParameter\_hash
+### Function dmop_getInputBoundsPerParameter_hash
 
 ![][public]
 
@@ -1409,7 +1409,7 @@ DYNARDO_MOPSOLVER_API int dmop_getInputBoundsPerParameter_hash(const char *_omdb
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1abdc08855de99fd9f30c59dbf04e68f39"></a>
-### Function dmop\_allocate\_and\_getInputBoundsPerParameter\_hash
+### Function dmop_allocate_and_getInputBoundsPerParameter_hash
 
 ![][public]
 
@@ -1435,7 +1435,7 @@ DYNARDO_MOPSOLVER_API int dmop_allocate_and_getInputBoundsPerParameter_hash(cons
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a0ab53c49bf6192ca121dddf91f8c09bd"></a>
-### Function dmop\_getReferenceValuePerParameter\_hash
+### Function dmop_getReferenceValuePerParameter_hash
 
 ![][public]
 
@@ -1461,7 +1461,7 @@ DYNARDO_MOPSOLVER_API int dmop_getReferenceValuePerParameter_hash(const char *_o
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1ab4984ba8b9f61f2d5f1bd6c9e7b8dcb1"></a>
-### Function dmop\_getCoPValuesPerResponse\_hash
+### Function dmop_getCoPValuesPerResponse_hash
 
 ![][public]
 
@@ -1487,7 +1487,7 @@ DYNARDO_MOPSOLVER_API int dmop_getCoPValuesPerResponse_hash(const char *_omdbfil
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a4fac367a01c492d231e68da091280cd7"></a>
-### Function dmop\_allocate\_and\_getCoPValuesPerResponse\_hash
+### Function dmop_allocate_and_getCoPValuesPerResponse_hash
 
 ![][public]
 
@@ -1513,7 +1513,7 @@ DYNARDO_MOPSOLVER_API int dmop_allocate_and_getCoPValuesPerResponse_hash(const c
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1ade2a06892d291b1e6504507e32661fe8"></a>
-### Function dmop\_getFilteredStatesPerResponse\_hash
+### Function dmop_getFilteredStatesPerResponse_hash
 
 ![][public]
 
@@ -1539,7 +1539,7 @@ DYNARDO_MOPSOLVER_API int dmop_getFilteredStatesPerResponse_hash(const char *_om
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a4541a9707aa0d7b64c0d49aec961d50c"></a>
-### Function dmop\_allocate\_and\_getFilteredStatesPerResponse\_hash
+### Function dmop_allocate_and_getFilteredStatesPerResponse_hash
 
 ![][public]
 
@@ -1565,7 +1565,7 @@ DYNARDO_MOPSOLVER_API int dmop_allocate_and_getFilteredStatesPerResponse_hash(co
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1aef089009bf01e630485b835d28339b23"></a>
-### Function dmop\_get\_version\_str
+### Function dmop_get_version_str
 
 ![][public]
 
@@ -1587,7 +1587,7 @@ version info as string
 **Return type**: DYNARDO_MOPSOLVER_API const char *
 
 <a id="de/d3f/mopsolver__api_8h_1a1e20adf4d59744ee53958b84f6061f0c"></a>
-### Function dmop\_cleanup
+### Function dmop_cleanup
 
 ![][public]
 
@@ -1609,7 +1609,7 @@ zero
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="de/d3f/mopsolver__api_8h_1a2efd4dcee48cfca4046498c55fb44dde"></a>
-### Function dmop\_set\_paths\_for\_custom\_interface
+### Function dmop_set_paths_for_custom_interface
 
 ![][public]
 

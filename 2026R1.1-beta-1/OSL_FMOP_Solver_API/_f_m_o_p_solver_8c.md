@@ -5,9 +5,6 @@
 **Location**: `doc/FMOPSolver.c`
 
 
-
-
-
 ## Includes
 
 * <stdlib.h>
@@ -52,13 +49,6 @@ click 1 "_f_m_o_p_solver_8c.md#_f_m_o_p_solver_8c"
 #define REF_NUM_PARAMS 6
 ```
 
-
-
-
-
-
-
-
 ## Functions
 
 <a id="_f_m_o_p_solver_8c_1af3ed9c200de85b53c94cd18764b246a2"></a>
@@ -75,66 +65,9 @@ int main(int argc, char *const argv[])
 FMOPSolver interface example using the sos_demo database provided with your oSP3D installation.
 
 **copyright**\
-2019, DYNARDO Austria GmbH
+2026, Ansys Austria GmbH
 
-Additional absolute license search path, e.g. the users home directory, or the executable home path (optional)
-
-
-
-
-
-Path to the input database
-
-
-
-
-
-The FMOP ident to query
-
-
-
-
-
-The input parameters to evaluate the FMOP at
-
-
-
-
-
-The requested feature
-
-
-
-
-
-The database handle
-
-
-
-
-
-The FMOP handle
-
-
-
-
-
-Prepend the content of the SOS_PUBLIC_DIR environment variable if defined
-
-**Parameters**:
-
-* int **argc**
-* char *const **argv**<!--
-**TODO**:
-
-* `array {"type":"element","name":"array","attributes":{},"children":[{"type":"text","text":"[]"}]}`
--->
-
-**Return type**: int
-
-## Source
-
-
+## Example
 ```cpp
 
 #include <stdlib.h>
@@ -579,7 +512,7 @@ int main ( int argc, char* const argv[] )
     return num_errors;
 }
 
-// (c) 2019, DYNARDO Austria GmbH (proprietary license)
+// (c) 2019, Ansys Austria GmbH (proprietary license)
 ```
 
 

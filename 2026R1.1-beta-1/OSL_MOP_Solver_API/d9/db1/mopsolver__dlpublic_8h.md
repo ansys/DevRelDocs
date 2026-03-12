@@ -2,7 +2,7 @@
 
 ![][C++]
 
-**Location**: `mopsolver\_dlpublic.h`
+**Location**: `mopsolver_dlpublic.h`
 
 
 
@@ -27,7 +27,7 @@ click 1 "d9/db1/mopsolver__dlpublic_8h.md#d9/db1/mopsolver__dlpublic_8h"
 ## Macros
 
 <a id="d9/db1/mopsolver__dlpublic_8h_1a20ec90e10cc7c073f025376fbcf54710"></a>
-### Macro DYNARDO\_MOPSOLVER\_INTERNAL\_DLPUBLIC
+### Macro DYNARDO_MOPSOLVER_INTERNAL_DLPUBLIC
 
 ![][public]
 

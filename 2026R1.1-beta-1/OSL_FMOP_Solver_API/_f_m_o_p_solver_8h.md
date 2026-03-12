@@ -5,9 +5,6 @@
 **Location**: `FMOPSolver.h`
 
 
-
-
-
 ## Includes
 
 * [fmop_solver.h](index.md#fmop__solver_8h)
@@ -46,6 +43,3 @@ click 4 "sos__capi__script_8h.md#sos__capi__script_8h"
 #include "sos_capi_script.h"
 
 ```
-
-
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

@@ -2,7 +2,7 @@
 
 ![][C++]
 
-**Location**: `mopsolver\_api\_shared.h`
+**Location**: `mopsolver_api_shared.h`
 
 
 
@@ -41,7 +41,7 @@ click 1 "d8/df9/mopsolver__api__shared_8h.md#d8/df9/mopsolver__api__shared_8h"
 ## Macros
 
 <a id="d8/df9/mopsolver__api__shared_8h_1ae979a0ff1bc860330a2fa37a6a14ea0c"></a>
-### Macro DYNARDO\_DLPUBLIC\_SHARED\_EXPORT
+### Macro DYNARDO_DLPUBLIC_SHARED_EXPORT
 
 ![][public]
 
@@ -58,7 +58,7 @@ click 1 "d8/df9/mopsolver__api__shared_8h.md#d8/df9/mopsolver__api__shared_8h"
 
 
 <a id="d8/df9/mopsolver__api__shared_8h_1ab8539bb97d05941714dca90767399a6f"></a>
-### Macro DYNARDO\_DLPUBLIC\_SHARED\_IMPORT
+### Macro DYNARDO_DLPUBLIC_SHARED_IMPORT
 
 ![][public]
 
@@ -75,7 +75,7 @@ click 1 "d8/df9/mopsolver__api__shared_8h.md#d8/df9/mopsolver__api__shared_8h"
 
 
 <a id="d8/df9/mopsolver__api__shared_8h_1a773ff27005f9085333e0c17ea06c55ec"></a>
-### Macro DYNARDO\_MOPSOLVER\_DLPUBLIC
+### Macro DYNARDO_MOPSOLVER_DLPUBLIC
 
 ![][public]
 
@@ -92,7 +92,7 @@ click 1 "d8/df9/mopsolver__api__shared_8h.md#d8/df9/mopsolver__api__shared_8h"
 
 
 <a id="d8/df9/mopsolver__api__shared_8h_1a79ee3a37f5ec39e0aea4b02170bee65f"></a>
-### Macro DYNARDO\_MOPSOLVER\_API
+### Macro DYNARDO_MOPSOLVER_API
 
 ![][public]
 

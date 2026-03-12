@@ -529,7 +529,7 @@ Returns the cartesian data point coordinates for each data point.
 * 2... asks for z-coordinates only
 
 * 3... asks for x-, y- and z-coordinates
-* **coors**: An already initialized array of size `formula {"type":"element","name":"formula","attributes":{"id":"0"},"children":[{"type":"text","text":"$ ( 1 + \\lfloor \\frac{\\mathit{axis}}{3} \\rfloor ) * \\mathit{num\_mesh\_items} $"}]}`. Call [FMOP_getModelDim()](index.md#fmop__solver_8h_1a24e43563d67cc64bffb7bccddbaada65) to get _num_mesh_items_. On output contains the following coordinate values:
+* **coors**: An already initialized array of size `formula {"type":"element","name":"formula","attributes":{"id":"0"},"children":[{"type":"text","text":"$ ( 1 + \\lfloor \\frac{\\mathit{axis}}{3} \\rfloor ) * \\mathit{num_mesh_items} $"}]}`. Call [FMOP_getModelDim()](index.md#fmop__solver_8h_1a24e43563d67cc64bffb7bccddbaada65) to get _num_mesh_items_. On output contains the following coordinate values:
 * finite element nodes for an FMOP of type [fmop_node_data](sos__capi__common_8h.md#sos__capi__common_8h_1a69eb42c1b3b49f22b9e73c6c9869cb75aaf0fb275c161febc56c4f10e62987049)
 
 * finite elements using their center coordinate in space for an FMOP of type [fmop_element_data](sos__capi__common_8h.md#sos__capi__common_8h_1a69eb42c1b3b49f22b9e73c6c9869cb75a1ec31fe31f3b8a9fd9dd902b014499ef)
@@ -1753,7 +1753,7 @@ DYNARDO_FMOP_API fmop_error_t FMOP_approxFieldExtrapolate
 
 #endif // DYNARDO_FMOP_H
 
-// (c) 2017, DYNARDO Austria GmbH (proprietary license)
+// (c) 2017, Ansys Austria GmbH (proprietary license)
 ```
 
 

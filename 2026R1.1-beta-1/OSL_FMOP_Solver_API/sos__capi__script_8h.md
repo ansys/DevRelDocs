@@ -7,7 +7,7 @@
 C-API to run oSP3D scripts and exchange basic data.
 
 **copyright**\
-DYNARDO Austria GmbH
+Ansys Austria GmbH
 
 
 
@@ -520,7 +520,7 @@ DYNARDO_FMOP_API bool FMOP_script_identExists(fmop_script_handle_t context, cons
 
 #endif // DYNARDO_SOS_SCRIPT_H
 
-// (c) 2018, DYNARDO Austria GmbH (proprietary license)
+// (c) 2018, Ansys Austria GmbH (proprietary license)
 ```
 
 

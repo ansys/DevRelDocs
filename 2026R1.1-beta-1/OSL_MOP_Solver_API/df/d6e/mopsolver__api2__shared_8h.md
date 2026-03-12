@@ -2,7 +2,7 @@
 
 ![][C++]
 
-**Location**: `mopsolver\_api2\_shared.h`
+**Location**: `mopsolver_api2_shared.h`
 
 
 
@@ -51,11 +51,11 @@ click 1 "df/d6e/mopsolver__api2__shared_8h.md#df/d6e/mopsolver__api2__shared_8h"
 ## Enumeration types
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1a9d02108e77fa0ce32247bd4478fa2b0b"></a>
-### Enumeration type DMOP2\_SOLVE\_FLAG
+### Enumeration type DMOP2_SOLVE_FLAG
 
 ![][public]
 
-**Definition**: `mopsolver\_api2\_shared.h` (line 13)
+**Definition**: `mopsolver_api2_shared.h` (line 13)
 
 
 ```cpp
@@ -76,46 +76,46 @@ Enum containing the flags to control the behaviour of the solve method
 
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1a9d02108e77fa0ce32247bd4478fa2b0babdf84129bd1eddedb34a7cb60847a038"></a>
-#### Enumerator SOLVE\_EXTRAPOLATE
+#### Enumerator SOLVE_EXTRAPOLATE
 
 if set, extrapolation is activated
 
 
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1a9d02108e77fa0ce32247bd4478fa2b0bab5ca18a75197776540aecf4572c1d5fe"></a>
-#### Enumerator SOLVE\_RESPONSES
+#### Enumerator SOLVE_RESPONSES
 
 if set, the response values are written to the output array
 
 
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1a9d02108e77fa0ce32247bd4478fa2b0bae833c1cfeacab058c7651d5f52a331a3"></a>
-#### Enumerator SOLVE\_CRITERIA
+#### Enumerator SOLVE_CRITERIA
 
 if set, the criteria values are written to the output array
 
 
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1a9d02108e77fa0ce32247bd4478fa2b0ba0f075abe0480ae5dba49361542105e93"></a>
-#### Enumerator SOLVE\_DENSITIES
+#### Enumerator SOLVE_DENSITIES
 
 if set, the density values are written to the output array
 
 
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1a9d02108e77fa0ce32247bd4478fa2b0ba4d0e54817eeefe0b4d3c80da29954879"></a>
-#### Enumerator SOLVE\_ERRORS
+#### Enumerator SOLVE_ERRORS
 
 if set, the error values (CoP, RMSE, error, absolute error) are written to the output array
 
 
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1ae71ebc38d8f28e122d564249414ea519"></a>
-### Enumeration type DMOP2\_DIMENSION\_FLAG
+### Enumeration type DMOP2_DIMENSION_FLAG
 
 ![][public]
 
-**Definition**: `mopsolver\_api2\_shared.h` (line 28)
+**Definition**: `mopsolver_api2_shared.h` (line 28)
 
 
 ```cpp
@@ -134,32 +134,32 @@ Enum containing the flags to control the behaviour of the getDimensions method
 
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1ae71ebc38d8f28e122d564249414ea519adb23389bbc1ccb64fa2bfda339aa782d"></a>
-#### Enumerator DIM\_INPUTS
+#### Enumerator DIM_INPUTS
 
 if set, the number of inputs is written to the output array
 
 
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1ae71ebc38d8f28e122d564249414ea519a4cbae4944616299dfcc52ddf1e490b61"></a>
-#### Enumerator DIM\_RESPONSES
+#### Enumerator DIM_RESPONSES
 
 if set, the number of responses is written to the output array
 
 
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1ae71ebc38d8f28e122d564249414ea519a205872b5445eefc8aab6dfd4588ddd52"></a>
-#### Enumerator DIM\_CRITERIA
+#### Enumerator DIM_CRITERIA
 
 if set, the number of criteria is written to the output array
 
 
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1a919e4b2e211e2d3c06a2cd81f75a5993"></a>
-### Enumeration type DMOP2\_NAME\_FLAG
+### Enumeration type DMOP2_NAME_FLAG
 
 ![][public]
 
-**Definition**: `mopsolver\_api2\_shared.h` (line 39)
+**Definition**: `mopsolver_api2_shared.h` (line 39)
 
 
 ```cpp
@@ -178,32 +178,32 @@ Enum containing the flags to control the behaviour of the getNames method
 
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1a919e4b2e211e2d3c06a2cd81f75a5993a79c10bd78049e47bfed6b564d27b62ad"></a>
-#### Enumerator NAME\_INPUTS
+#### Enumerator NAME_INPUTS
 
 if set, the names of the inputs are returned
 
 
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1a919e4b2e211e2d3c06a2cd81f75a5993a7b78423d9c98ddad4e690a2c3b9f8f47"></a>
-#### Enumerator NAME\_RESPONSES
+#### Enumerator NAME_RESPONSES
 
 if set, the names of the outputs are returned
 
 
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1a919e4b2e211e2d3c06a2cd81f75a5993a3d616f3b9eac8bbf7945fce33b42d0d8"></a>
-#### Enumerator NAME\_CRITERIA
+#### Enumerator NAME_CRITERIA
 
 if set, the names of the criteria are returned
 
 
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1a5d50d64a9e5bf93f7e479f274f39a2e8"></a>
-### Enumeration type DMOP2\_PER\_RESPONSE\_FLAG
+### Enumeration type DMOP2_PER_RESPONSE_FLAG
 
 ![][public]
 
-**Definition**: `mopsolver\_api2\_shared.h` (line 50)
+**Definition**: `mopsolver_api2_shared.h` (line 50)
 
 
 ```cpp
@@ -223,39 +223,39 @@ Enum containing the flags to control the behaviour of the get_per_response metho
 
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1a5d50d64a9e5bf93f7e479f274f39a2e8a2bf0649346449ad52f658321010a4356"></a>
-#### Enumerator RESP\_EXTRAPOLATE
+#### Enumerator RESP_EXTRAPOLATE
 
 if set, extrapolation is activated
 
 
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1a5d50d64a9e5bf93f7e479f274f39a2e8a7acef09112df0227f429ceacc6d64b34"></a>
-#### Enumerator RESP\_GRADIENTS
+#### Enumerator RESP_GRADIENTS
 
 if set, the gradient values of the response are written to the output array
 
 
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1a5d50d64a9e5bf93f7e479f274f39a2e8afb1a9998534e839d59740c5d98655f57"></a>
-#### Enumerator RESP\_DENSITIES
+#### Enumerator RESP_DENSITIES
 
 if set, the density value of the response is written to the output array
 
 
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1a5d50d64a9e5bf93f7e479f274f39a2e8ac7007812a879e80f3b9e14d93e715dea"></a>
-#### Enumerator RESP\_ERRORS
+#### Enumerator RESP_ERRORS
 
 if set, the errors of the response are written to the output array
 
 
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1afc0920966340b6d1cc6122f8c44b689f"></a>
-### Enumeration type DMOP2\_RETURN\_CODES
+### Enumeration type DMOP2_RETURN_CODES
 
 ![][public]
 
-**Definition**: `mopsolver\_api2\_shared.h` (line 63)
+**Definition**: `mopsolver_api2_shared.h` (line 63)
 
 
 ```cpp
@@ -276,35 +276,35 @@ Enum containing the return codes used by the dmop2 methods, similar to the mop_a
 
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1afc0920966340b6d1cc6122f8c44b689facfba8e56f39398ccadc2b2a8d1db2a8e"></a>
-#### Enumerator dmop2\_success
+#### Enumerator dmop2_success
 
 
 
 
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1afc0920966340b6d1cc6122f8c44b689fa00555fcc07f262400fc44e8e2438140a"></a>
-#### Enumerator dmop2\_error
+#### Enumerator dmop2_error
 
 
 
 
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1afc0920966340b6d1cc6122f8c44b689fa72e28da48cbaeb44c40f51a78be00317"></a>
-#### Enumerator dmop2\_exception\_occured
+#### Enumerator dmop2_exception_occured
 
 
 
 
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1afc0920966340b6d1cc6122f8c44b689fa804da28b825cdd5a7ccd869542a9d749"></a>
-#### Enumerator dmop2\_custom\_interface\_not\_enabled
+#### Enumerator dmop2_custom_interface_not_enabled
 
 
 
 
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1afc0920966340b6d1cc6122f8c44b689fa75b6d5d3ced1b9b9ec0ee9f96d67b4aa"></a>
-#### Enumerator dmop2\_wrong\_input\_argument
+#### Enumerator dmop2_wrong_input_argument
 
 
 
@@ -313,7 +313,7 @@ Enum containing the return codes used by the dmop2 methods, similar to the mop_a
 ## Functions
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1abd7972e7a1687d4b1708bc9fac570aa1"></a>
-### Function dmop2\_getLastError
+### Function dmop2_getLastError
 
 ![][public]
 
@@ -335,7 +335,7 @@ String describing last error or <code>nullptr</code> if no error occured.
 **Return type**: DYNARDO_MOPSOLVER_API const char *
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1a932cf054e78fd8f1069a1ea8d9a88cbe"></a>
-### Function dmop2\_free
+### Function dmop2_free
 
 ![][public]
 
@@ -366,7 +366,7 @@ zero if the memory was successfully freed
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1a3de6521ea7642d7979ad944643edea2b"></a>
-### Function dmop2\_get\_version\_str
+### Function dmop2_get_version_str
 
 ![][public]
 
@@ -388,7 +388,7 @@ String containing the current OptiSLang version
 **Return type**: DYNARDO_MOPSOLVER_API const char *
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1abaaf6eb148aeb3e5368597475f6b7a75"></a>
-### Function dmop2\_cleanup
+### Function dmop2_cleanup
 
 ![][public]
 
@@ -410,7 +410,7 @@ zero
 **Return type**: DYNARDO_MOPSOLVER_API int
 
 <a id="df/d6e/mopsolver__api2__shared_8h_1a3b7b35bbecdf38a33b2eb150e61add8f"></a>
-### Function dmop2\_set\_paths\_for\_custom\_interface
+### Function dmop2_set_paths_for_custom_interface
 
 ![][public]
 

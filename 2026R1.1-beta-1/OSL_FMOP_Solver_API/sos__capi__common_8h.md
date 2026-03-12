@@ -7,7 +7,7 @@
 C-API for utility functions (load/unload library, license management, error handling)
 
 **copyright**\
-DYNARDO Austria GmbH
+Ansys Austria GmbH
 
 ## Included by
 
@@ -783,7 +783,7 @@ DYNARDO_FMOP_API fmop_error_t FMOP_unloadLibrary();
 
 #endif // DYNARDO_SOS_CAPI_COMMON_H
 
-// (c) 2017, DYNARDO Austria GmbH (proprietary license)
+// (c) 2017, Ansys Austria GmbH (proprietary license)
 ```
 
 
