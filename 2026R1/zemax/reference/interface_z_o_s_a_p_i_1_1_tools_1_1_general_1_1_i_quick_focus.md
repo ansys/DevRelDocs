@@ -9,7 +9,7 @@
 
 Interfaces and methods for running the Quick Focus tool. This interface can be accessed via the IOpticalSystemTools interface.
 
-Usage (see [Example 15](page_ex15.md#page_ex15) for a full sample)
+Usage (see [Example 15](../apiexamples/example_15.md) for a full sample)
 
 
 C# 
@@ -125,7 +125,7 @@ QuickFocusCriterion ZOSAPI.Tools.General.IQuickFocus.Criterion
 ```
 
 
-Usage (see [Example 01](page_ex01.md#page_ex01) for a full sample)
+Usage (see [Example 01](../apiexamples/example_01.md) for a full sample)
 
 
 C# 
@@ -175,7 +175,5 @@ C#
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Tools.General.IQuickFocus.Criterion"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

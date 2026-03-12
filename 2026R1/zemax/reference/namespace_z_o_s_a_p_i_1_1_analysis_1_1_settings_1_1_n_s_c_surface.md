@@ -66,12 +66,12 @@ enum NSCSagShowAs {
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_n_s_c_surface_1a5506190e454f1caa2f6d5f65d800362aa28f8d40e579b2808c44974521fcdd3a4"></a>
 
 
-#### Enumerator X\_CrossSection
+#### Enumerator X_CrossSection
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_n_s_c_surface_1a5506190e454f1caa2f6d5f65d800362aa474d32678e7db1908377cd44fec1b570"></a>
 
 
-#### Enumerator Y\_CrossSection
+#### Enumerator Y_CrossSection
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_n_s_c_surface_1a5506190e454f1caa2f6d5f65d800362aa98d2f90a1c2e4206244d686a8396f998"></a>
 
@@ -133,9 +133,8 @@ enum NSCSagRemoveOptions {
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.NSCSurface.NSCSagRemoveOptions"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+[private]: https://img.shields.io/badge/-private-red (private)
 [package]: https://img.shields.io/badge/-package-blueviolet (package)

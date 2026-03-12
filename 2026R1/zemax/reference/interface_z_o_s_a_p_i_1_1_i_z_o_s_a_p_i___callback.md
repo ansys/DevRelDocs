@@ -14,7 +14,7 @@
 
 **Inherited by**:
 
-* [ZOSAPI.APINetCallback](class_z_o_s_a_p_i_1_1_a_p_i_net_callback.md#class_z_o_s_a_p_i_1_1_a_p_i_net_callback)
+* ZOSAPI.APINetCallback
 
 ## Members
 
@@ -43,15 +43,10 @@ string ZOSAPI.IZOSAPI_Callback.Name
 
 **Return type**: string
 
-**Referenced by**:
-
-* [ZOSAPI.APINetCallback.LoadInServer](class_z_o_s_a_p_i_1_1_a_p_i_net_callback.md#class_z_o_s_a_p_i_1_1_a_p_i_net_callback_1a6ba27507386fe92cc77d0229a23c30f9)
-
 <!--
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.IZOSAPI_Callback.Name"}]}`
-* `reimplementedby {"type":"element","name":"reimplementedby","attributes":{"refid":"class_z_o_s_a_p_i_1_1_a_p_i_net_callback_1aafb432fc05687bcb2cc4fbe23a2ac372"},"children":[{"type":"text","text":"Name"}]}`
 -->
 
 ### Property IsLocal
@@ -74,7 +69,6 @@ bool ZOSAPI.IZOSAPI_Callback.IsLocal
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.IZOSAPI_Callback.IsLocal"}]}`
-* `reimplementedby {"type":"element","name":"reimplementedby","attributes":{"refid":"class_z_o_s_a_p_i_1_1_a_p_i_net_callback_1af3358254e9a66961fc9d5244e3ecd1a4"},"children":[{"type":"text","text":"IsLocal"}]}`
 -->
 
 ### Property Settings
@@ -97,7 +91,6 @@ ISettingsData ZOSAPI.IZOSAPI_Callback.Settings
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.IZOSAPI_Callback.Settings"}]}`
-* `reimplementedby {"type":"element","name":"reimplementedby","attributes":{"refid":"class_z_o_s_a_p_i_1_1_a_p_i_net_callback_1a5f3064e07b73e3b4bbcbac69b694d073"},"children":[{"type":"text","text":"Settings"}]}`
 -->
 
 ### Property TheApp
@@ -120,7 +113,6 @@ IZOSAPI_Application ZOSAPI.IZOSAPI_Callback.TheApp
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.IZOSAPI_Callback.TheApp"}]}`
-* `reimplementedby {"type":"element","name":"reimplementedby","attributes":{"refid":"class_z_o_s_a_p_i_1_1_a_p_i_net_callback_1a571bded41e98978fd42cd691271daa12"},"children":[{"type":"text","text":"TheApp"}]}`
 -->
 
 ## Public functions
@@ -138,10 +130,6 @@ int ZOSAPI.IZOSAPI_Callback.Execute()
 
 
 **Return type**: int
-
-**Reimplemented by**:
-
-* [Execute](class_z_o_s_a_p_i_1_1_a_p_i_net_callback.md#class_z_o_s_a_p_i_1_1_a_p_i_net_callback_1a7181d3985332fa668d9e19ff01c2688c)
 
 <!--
 **TODO**:
@@ -167,17 +155,11 @@ IZOSAPI_Callback ZOSAPI.IZOSAPI_Callback.Copy(IZOSAPI_Application app)
 
 **Return type**: [IZOSAPI\_Callback](interface_z_o_s_a_p_i_1_1_i_z_o_s_a_p_i___callback.md#interface_z_o_s_a_p_i_1_1_i_z_o_s_a_p_i___callback)
 
-**Reimplemented by**:
-
-* [Copy](class_z_o_s_a_p_i_1_1_a_p_i_net_callback.md#class_z_o_s_a_p_i_1_1_a_p_i_net_callback_1a490621bbd53873533492c8d7c001e8fd)
-
 <!--
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.IZOSAPI_Callback.Copy"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

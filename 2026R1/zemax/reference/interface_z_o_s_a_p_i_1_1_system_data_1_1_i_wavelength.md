@@ -101,7 +101,7 @@ double ZOSAPI.SystemData.IWavelength.Wavelength
 ```
 
 
-Usage (see [Example 19](page_ex19.md#page_ex19) for a full sample)
+Usage (see [Example 19](../apiexamples/example_19.md) for a full sample)
 
 
 C# 
@@ -194,7 +194,5 @@ void ZOSAPI.SystemData.IWavelength.MakePrimary()
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.SystemData.IWavelength.MakePrimary"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

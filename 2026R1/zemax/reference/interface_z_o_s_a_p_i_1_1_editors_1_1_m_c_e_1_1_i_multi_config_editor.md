@@ -236,7 +236,7 @@ bool ZOSAPI.Editors.MCE.IMultiConfigEditor.SetCurrentConfiguration(int Configura
 
 Sets the currently active configuration for the system (1 to NumberOfConfigurations).
 
-Usage (see [Example 18](page_ex18.md#page_ex18) for a full sample)
+Usage (see [Example 18](../apiexamples/example_18.md) for a full sample)
 
 
 C# 
@@ -418,7 +418,7 @@ bool ZOSAPI.Editors.MCE.IMultiConfigEditor.AddConfiguration(bool withPickups)
 
 Adds a new, last configuration.
 
-Usage (see [Example 18](page_ex18.md#page_ex18) for a full sample)
+Usage (see [Example 18](../apiexamples/example_18.md) for a full sample)
 
 
 C# 
@@ -598,7 +598,7 @@ Gets the specified operand data.
 **Returns**:
 
 
-Usage (see [Example 18](page_ex18.md#page_ex18) for a full sample)
+Usage (see [Example 18](../apiexamples/example_18.md) for a full sample)
 
 
 C# 
@@ -702,7 +702,7 @@ Adds a new operand to the end of the editor.
 **Returns**:
 
 
-Usage (see [Example 18](page_ex18.md#page_ex18) for a full sample)
+Usage (see [Example 18](../apiexamples/example_18.md) for a full sample)
 
 
 C# 
@@ -938,7 +938,7 @@ The number of operands actually copied.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.MCE.IMultiConfigEditor.CopyOperandsFrom"}]}`
 -->
 
-### Function RunTool\_MakeThermal
+### Function RunTool_MakeThermal
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_m_c_e_1_1_i_multi_config_editor_1a898795a5b3f12eb17605deb9b3116e0a"></a>
 
@@ -975,7 +975,7 @@ void ZOSAPI.Editors.MCE.IMultiConfigEditor.RunTool_MakeThermal(int existingConfi
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.MCE.IMultiConfigEditor.RunTool_MakeThermal"}]}`
 -->
 
-### Function RunTool\_MakeConjugate
+### Function RunTool_MakeConjugate
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_m_c_e_1_1_i_multi_config_editor_1af0678635568c4914008d1a7185dd9cfd"></a>
 
@@ -1017,7 +1017,7 @@ Error message if any occurs.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.MCE.IMultiConfigEditor.RunTool_MakeConjugate"}]}`
 -->
 
-### Function RunTool\_AddAllData
+### Function RunTool_AddAllData
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_m_c_e_1_1_i_multi_config_editor_1aa0b7bf140b957051768610c70404dec0"></a>
 
@@ -1063,7 +1063,5 @@ Error message if any occurs.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.MCE.IMultiConfigEditor.RunTool_AddAllData"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

@@ -8,7 +8,7 @@
 **Definition**:
 
 
-Usage (see [Example 02](page_ex02.md#page_ex02) for a full sample)
+Usage (see [Example 02](../apiexamples/example_02.md) for a full sample)
 
 
 C# 
@@ -163,7 +163,5 @@ int ZOSAPI.Editors.NCE.IObjectDetector.GetDetectorSize()
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectDetector.GetDetectorSize"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

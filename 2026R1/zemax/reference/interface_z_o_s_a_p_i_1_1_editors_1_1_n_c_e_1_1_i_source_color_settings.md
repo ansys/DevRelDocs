@@ -84,7 +84,7 @@ bool ZOSAPI.Editors.NCE.ISourceColorSettings.IsValid
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.ISourceColorSettings.IsValid"}]}`
 -->
 
-### Property \_S\_SystemWavelengths
+### Property _S_SystemWavelengths
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_source_color_settings_1a2db7f0040ffbeea9e03f5f718a1336e7"></a>
 
@@ -106,7 +106,7 @@ ISCS_SystemWavelengths ZOSAPI.Editors.NCE.ISourceColorSettings._S_SystemWaveleng
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.ISourceColorSettings._S_SystemWavelengths"}]}`
 -->
 
-### Property \_S\_CIE1931Tristimulus
+### Property _S_CIE1931Tristimulus
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_source_color_settings_1a8fe23a4cead8da56de46f123cdced3df"></a>
 
@@ -128,7 +128,7 @@ ISCS_CIE1931Tristimulus ZOSAPI.Editors.NCE.ISourceColorSettings._S_CIE1931Tristi
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.ISourceColorSettings._S_CIE1931Tristimulus"}]}`
 -->
 
-### Property \_S\_CIE1931Chromaticity
+### Property _S_CIE1931Chromaticity
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_source_color_settings_1a31773130dad21880b838349dd6eb2c49"></a>
 
@@ -150,7 +150,7 @@ ISCS_CIE1931Chromaticity ZOSAPI.Editors.NCE.ISourceColorSettings._S_CIE1931Chrom
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.ISourceColorSettings._S_CIE1931Chromaticity"}]}`
 -->
 
-### Property \_S\_CIE1931RGB
+### Property _S_CIE1931RGB
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_source_color_settings_1a99a24e219d75761400b35d291ab85a0d"></a>
 
@@ -172,7 +172,7 @@ ISCS_CIE1931RGB ZOSAPI.Editors.NCE.ISourceColorSettings._S_CIE1931RGB
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.ISourceColorSettings._S_CIE1931RGB"}]}`
 -->
 
-### Property \_S\_UniformPowerSpectrum
+### Property _S_UniformPowerSpectrum
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_source_color_settings_1a633d901fee026a38e1d2bab97b672e2e"></a>
 
@@ -194,7 +194,7 @@ ISCS_UniformPowerSpectrum ZOSAPI.Editors.NCE.ISourceColorSettings._S_UniformPowe
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.ISourceColorSettings._S_UniformPowerSpectrum"}]}`
 -->
 
-### Property \_S\_D65White
+### Property _S_D65White
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_source_color_settings_1a576f5020d8e422236f60b4028e061e76"></a>
 
@@ -216,7 +216,7 @@ ISCS_D65White ZOSAPI.Editors.NCE.ISourceColorSettings._S_D65White
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.ISourceColorSettings._S_D65White"}]}`
 -->
 
-### Property \_S\_ColorTemperature
+### Property _S_ColorTemperature
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_source_color_settings_1a5357f6f44fb6a4d79db8da3b5605a7c9"></a>
 
@@ -238,7 +238,7 @@ ISCS_ColorTemperature ZOSAPI.Editors.NCE.ISourceColorSettings._S_ColorTemperatur
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.ISourceColorSettings._S_ColorTemperature"}]}`
 -->
 
-### Property \_S\_BlackBodySpectrum
+### Property _S_BlackBodySpectrum
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_source_color_settings_1a1a917872c01d94541671d621c7a97a3a"></a>
 
@@ -260,7 +260,7 @@ ISCS_BlackBodySpectrum ZOSAPI.Editors.NCE.ISourceColorSettings._S_BlackBodySpect
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.ISourceColorSettings._S_BlackBodySpectrum"}]}`
 -->
 
-### Property \_S\_SpectrumFile
+### Property _S_SpectrumFile
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_source_color_settings_1ac7c8ec53eba2a8b0df2c891fbcdd163c"></a>
 
@@ -282,7 +282,7 @@ ISCS_SpectrumFile ZOSAPI.Editors.NCE.ISourceColorSettings._S_SpectrumFile
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.ISourceColorSettings._S_SpectrumFile"}]}`
 -->
 
-### Property \_S\_CIE1976
+### Property _S_CIE1976
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_source_color_settings_1a60c3b417edd7e3ba6be54a2da0e58ec9"></a>
 
@@ -304,7 +304,5 @@ ISCS_CIE1976 ZOSAPI.Editors.NCE.ISourceColorSettings._S_CIE1976
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.ISourceColorSettings._S_CIE1976"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

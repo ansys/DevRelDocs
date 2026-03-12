@@ -37,7 +37,7 @@
 
 ## Properties
 
-### Property Ar\_Cell
+### Property Ar_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_jones_matrix_1a959638a2caa3aff30cc841aac12a0882"></a>
 
@@ -59,7 +59,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceJonesMatrix.Ar_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceJonesMatrix.Ar_Cell"}]}`
 -->
 
-### Property Ai\_Cell
+### Property Ai_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_jones_matrix_1acee2f6a03387247f6294b8770e202b6f"></a>
 
@@ -81,7 +81,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceJonesMatrix.Ai_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceJonesMatrix.Ai_Cell"}]}`
 -->
 
-### Property Br\_Cell
+### Property Br_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_jones_matrix_1aa3b7c58b16968cf9b0e08ddace11d49c"></a>
 
@@ -103,7 +103,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceJonesMatrix.Br_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceJonesMatrix.Br_Cell"}]}`
 -->
 
-### Property Bi\_Cell
+### Property Bi_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_jones_matrix_1a8379a5388b49b661551e90515330207e"></a>
 
@@ -125,7 +125,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceJonesMatrix.Bi_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceJonesMatrix.Bi_Cell"}]}`
 -->
 
-### Property Cr\_Cell
+### Property Cr_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_jones_matrix_1aa4422867c61cc496ef20453a242f382d"></a>
 
@@ -147,7 +147,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceJonesMatrix.Cr_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceJonesMatrix.Cr_Cell"}]}`
 -->
 
-### Property Ci\_Cell
+### Property Ci_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_jones_matrix_1ad875f042284c2cd2dc40e2d767245ccc"></a>
 
@@ -169,7 +169,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceJonesMatrix.Ci_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceJonesMatrix.Ci_Cell"}]}`
 -->
 
-### Property Dr\_Cell
+### Property Dr_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_jones_matrix_1abe1c1e74b2fba175eafabc86e3859999"></a>
 
@@ -191,7 +191,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceJonesMatrix.Dr_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceJonesMatrix.Dr_Cell"}]}`
 -->
 
-### Property Di\_Cell
+### Property Di_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_jones_matrix_1a7fdde68fe74fa3973688a1c4d41c7dd1"></a>
 
@@ -389,7 +389,5 @@ double ZOSAPI.Editors.LDE.ISurfaceJonesMatrix.Di
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceJonesMatrix.Di"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

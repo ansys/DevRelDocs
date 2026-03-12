@@ -55,7 +55,7 @@ VolumePhysicsModelType ZOSAPI.Editors.NCE.INCEVolumePhysicsData.Model
 ```
 
 
-Usage (see [Example 17](page_ex17.md#page_ex17) for a full sample)
+Usage (see [Example 17](../apiexamples/example_17.md) for a full sample)
 
 
 C# 
@@ -205,7 +205,5 @@ string ZOSAPI.Editors.NCE.INCEVolumePhysicsData.WavelengthShift
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.INCEVolumePhysicsData.WavelengthShift"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

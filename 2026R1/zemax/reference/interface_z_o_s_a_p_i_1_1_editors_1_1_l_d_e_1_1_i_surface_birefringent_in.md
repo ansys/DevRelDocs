@@ -123,7 +123,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceBirefringentIn.ModeCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceBirefringentIn.ModeCell"}]}`
 -->
 
-### Property X\_CosineCell
+### Property X_CosineCell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_birefringent_in_1a100ee2611680e9956df935ee2a023dda"></a>
 
@@ -145,7 +145,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceBirefringentIn.X_CosineCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceBirefringentIn.X_CosineCell"}]}`
 -->
 
-### Property Y\_CosineCell
+### Property Y_CosineCell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_birefringent_in_1a41bb9f377d8235818b0faad69bd0e393"></a>
 
@@ -167,7 +167,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceBirefringentIn.Y_CosineCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceBirefringentIn.Y_CosineCell"}]}`
 -->
 
-### Property Z\_CosineCell
+### Property Z_CosineCell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_birefringent_in_1a6f235bd78f62f964040b32e7efe0dcee"></a>
 
@@ -497,7 +497,7 @@ int ZOSAPI.Editors.LDE.ISurfaceBirefringentIn.Mode
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceBirefringentIn.Mode"}]}`
 -->
 
-### Property X\_Cosine
+### Property X_Cosine
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_birefringent_in_1a709623539c7a9d299062bcefbfade35d"></a>
 
@@ -519,7 +519,7 @@ double ZOSAPI.Editors.LDE.ISurfaceBirefringentIn.X_Cosine
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceBirefringentIn.X_Cosine"}]}`
 -->
 
-### Property Y\_Cosine
+### Property Y_Cosine
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_birefringent_in_1a804e70dd14499f1336592ed3d366a0e3"></a>
 
@@ -541,7 +541,7 @@ double ZOSAPI.Editors.LDE.ISurfaceBirefringentIn.Y_Cosine
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceBirefringentIn.Y_Cosine"}]}`
 -->
 
-### Property Z\_Cosine
+### Property Z_Cosine
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_birefringent_in_1a95d938a1698a6273c1dec59a67ea13e1"></a>
 
@@ -1267,7 +1267,7 @@ void ZOSAPI.Editors.LDE.ISurfaceBirefringentIn.SetPhi(int n, double Value)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceBirefringentIn.SetPhi"}]}`
 -->
 
-### Function Get\_a
+### Function Get_a
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_birefringent_in_1a796273b410dc63500c383a9ede54e16d"></a>
 
@@ -1291,7 +1291,7 @@ double ZOSAPI.Editors.LDE.ISurfaceBirefringentIn.Get_a(int n)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceBirefringentIn.Get_a"}]}`
 -->
 
-### Function Set\_a
+### Function Set_a
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_birefringent_in_1a8976fcb119b47e74c98922fa23b0c2ef"></a>
 
@@ -1416,7 +1416,5 @@ void ZOSAPI.Editors.LDE.ISurfaceBirefringentIn.SetCmn(int m, int n, double Value
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceBirefringentIn.SetCmn"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

@@ -9,7 +9,7 @@
 
 Interfaces and methods for running a non-sequential ray trace. This interface can be accessed via the IOpticalSystemTools interface. NOTE - due to architectural limitations, currently only one INSCRayTrace instance can be used at a time, across all IOpticalSystem instances. The first call to IOpticalSystemTools.OpenNSCRayTrace will succeed, while all further calls will return <code>null</code> until the the single INSCRayTrace instance is closed. It is anticipated that this limiation will be removed in future versions of the API.
 
-Usage (see [Example 17](page_ex17.md#page_ex17) for a full sample)
+Usage (see [Example 17](../apiexamples/example_17.md) for a full sample)
 
 
 C# 
@@ -204,7 +204,7 @@ bool ZOSAPI.Tools.RayTrace.INSCRayTrace.IgnoreErrors
 ```
 
 
-Usage (see [Example 02](page_ex02.md#page_ex02) for a full sample)
+Usage (see [Example 02](../apiexamples/example_02.md) for a full sample)
 
 
 C# 
@@ -333,7 +333,7 @@ bool ZOSAPI.Tools.RayTrace.INSCRayTrace.SaveRays
 ```
 
 
-Usage (see [Example 06](page_ex06.md#page_ex06) for a full sample)
+Usage (see [Example 06](../apiexamples/example_06.md) for a full sample)
 
 
 C# 
@@ -780,7 +780,7 @@ ErrorType ZOSAPI.Tools.RayTrace.INSCRayTrace.ClearDetectors(int DetectorNumber)
 
 Clears the specified detectors.
 
-Usage (see [Example 02](page_ex02.md#page_ex02) for a full sample)
+Usage (see [Example 02](../apiexamples/example_02.md) for a full sample)
 
 
 C# 
@@ -1011,7 +1011,5 @@ bool ZOSAPI.Tools.RayTrace.INSCRayTrace.EstimateHPCTime()
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Tools.RayTrace.INSCRayTrace.EstimateHPCTime"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

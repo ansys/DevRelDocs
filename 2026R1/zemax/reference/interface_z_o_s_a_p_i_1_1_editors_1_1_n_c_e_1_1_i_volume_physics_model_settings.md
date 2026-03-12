@@ -72,7 +72,7 @@ bool ZOSAPI.Editors.NCE.IVolumePhysicsModelSettings.IsValid
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IVolumePhysicsModelSettings.IsValid"}]}`
 -->
 
-### Property \_S\_None
+### Property _S_None
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_volume_physics_model_settings_1a2637b01347f773302d2c2f4d75fc3458"></a>
 
@@ -94,7 +94,7 @@ IVPMS_None ZOSAPI.Editors.NCE.IVolumePhysicsModelSettings._S_None
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IVolumePhysicsModelSettings._S_None"}]}`
 -->
 
-### Property \_S\_AngleScattering
+### Property _S_AngleScattering
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_volume_physics_model_settings_1a0d6315e8c4490ccb8a2cf5ce52475f7c"></a>
 
@@ -116,7 +116,7 @@ IVMPS_AngleScattering ZOSAPI.Editors.NCE.IVolumePhysicsModelSettings._S_AngleSca
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IVolumePhysicsModelSettings._S_AngleScattering"}]}`
 -->
 
-### Property \_S\_DLLDefinedScattering
+### Property _S_DLLDefinedScattering
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_volume_physics_model_settings_1a91d7f75ed8ff7548eda882ad739bcef5"></a>
 
@@ -138,7 +138,7 @@ IVMPS_DLLDefinedScattering ZOSAPI.Editors.NCE.IVolumePhysicsModelSettings._S_DLL
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IVolumePhysicsModelSettings._S_DLLDefinedScattering"}]}`
 -->
 
-### Property \_S\_PhotoluminescenceModel
+### Property _S_PhotoluminescenceModel
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_volume_physics_model_settings_1a1abfcd38f597d1840ad99c41824bbab0"></a>
 
@@ -160,7 +160,5 @@ IVMPS_PhotoluminscenceModel ZOSAPI.Editors.NCE.IVolumePhysicsModelSettings._S_Ph
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IVolumePhysicsModelSettings._S_PhotoluminescenceModel"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

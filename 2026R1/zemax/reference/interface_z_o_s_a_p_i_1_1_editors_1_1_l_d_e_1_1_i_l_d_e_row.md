@@ -561,7 +561,7 @@ string ZOSAPI.Editors.LDE.ILDERow.Comment
 ```
 
 
-Usage (see [Example 01](page_ex01.md#page_ex01) for a full sample)
+Usage (see [Example 01](../apiexamples/example_01.md) for a full sample)
 
 
 C# 
@@ -649,7 +649,7 @@ double ZOSAPI.Editors.LDE.ILDERow.Radius
 ```
 
 
-Usage (see [Example 01](page_ex01.md#page_ex01) for a full sample)
+Usage (see [Example 01](../apiexamples/example_01.md) for a full sample)
 
 
 C# 
@@ -744,7 +744,7 @@ double ZOSAPI.Editors.LDE.ILDERow.Thickness
 
 Gets or sets the surface thickness.
 
-Usage (see [Example 15](page_ex15.md#page_ex15) for a full sample)
+Usage (see [Example 15](../apiexamples/example_15.md) for a full sample)
 
 
 C# 
@@ -846,7 +846,7 @@ string ZOSAPI.Editors.LDE.ILDERow.Material
 ```
 
 
-Usage (see [Example 19](page_ex19.md#page_ex19) for a full sample)
+Usage (see [Example 19](../apiexamples/example_19.md) for a full sample)
 
 
 C# 
@@ -1342,7 +1342,7 @@ ISurfaceTypeSettings ZOSAPI.Editors.LDE.ILDERow.GetSurfaceTypeSettings(SurfaceTy
 
 Create the settings for the specified type. Use this method to specify any extra data required to change to the appropriate surface type (i.e. external files).
 
-Usage (see [Example 19](page_ex19.md#page_ex19) for a full sample)
+Usage (see [Example 19](../apiexamples/example_19.md) for a full sample)
 
 
 C# 
@@ -1406,7 +1406,7 @@ bool ZOSAPI.Editors.LDE.ILDERow.ChangeType(ISurfaceTypeSettings settings)
 
 Changes the current surface to the specified type. Use GetSurfaceTypeSettings to get the relevant settings.
 
-Usage (see [Example 19](page_ex19.md#page_ex19) for a full sample)
+Usage (see [Example 19](../apiexamples/example_19.md) for a full sample)
 
 
 C# 
@@ -1498,7 +1498,5 @@ ICoatingPerformanceData ZOSAPI.Editors.LDE.ILDERow.GetCoatingPerformanceData()
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ILDERow.GetCoatingPerformanceData"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

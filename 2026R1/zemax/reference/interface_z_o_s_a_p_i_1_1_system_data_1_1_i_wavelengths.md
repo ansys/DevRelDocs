@@ -37,7 +37,7 @@ int ZOSAPI.SystemData.IWavelengths.NumberOfWavelengths
 
 Gets the number of wavelengths currently defined in the system.
 
-Usage (see [Example 22](page_ex22.md#page_ex22) for a full sample)
+Usage (see [Example 22](../apiexamples/example_22.md) for a full sample)
 
 
 C# 
@@ -101,7 +101,7 @@ IWavelength ZOSAPI.SystemData.IWavelengths.GetWavelength(int position)
 
 Gets the specified wavelength."/>.
 
-Usage (see [Example 19](page_ex19.md#page_ex19) for a full sample)
+Usage (see [Example 19](../apiexamples/example_19.md) for a full sample)
 
 
 C# 
@@ -265,7 +265,7 @@ bool ZOSAPI.SystemData.IWavelengths.SelectWavelengthPreset(WavelengthPreset pres
 
 Replaces all system wavelengths with a preset definition.
 
-Usage (see [Example 15](page_ex15.md#page_ex15) for a full sample)
+Usage (see [Example 15](../apiexamples/example_15.md) for a full sample)
 
 
 C# 
@@ -325,7 +325,7 @@ bool ZOSAPI.SystemData.IWavelengths.GaussianQuadrature(double minWave, double ma
 
 Generates a new set of system wavelengths based on a Gaussian Quadrature method.
 
-Usage (see [Example 12](page_ex12.md#page_ex12) for a full sample)
+Usage (see [Example 12](../apiexamples/example_12.md) for a full sample)
 
 
 C# 
@@ -381,7 +381,5 @@ C#
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.SystemData.IWavelengths.GaussianQuadrature"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

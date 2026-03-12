@@ -103,7 +103,7 @@ LicenseStatusType ZOSAPI.IZOSAPI_Application.LicenseStatus
 
 Gets the license status. Note that this displays the license edition if successful, or an error code if unsucessful.
 
-Usage (see [Example 10](page_ex10.md#page_ex10) for a full sample)
+Usage (see [Example 10](../apiexamples/example_10.md) for a full sample)
 
 
 C# 
@@ -545,7 +545,7 @@ string ZOSAPI.IZOSAPI_Application.ObjectsDir
 
 Gets the Objects directory (e.g. C:\Users\John.Doe\My Documents\Zemax\OBJECTS).
 
-Usage (see [Example 09](page_ex09.md#page_ex09) for a full sample)
+Usage (see [Example 09](../apiexamples/example_09.md) for a full sample)
 
 
 C# 
@@ -938,7 +938,7 @@ string ZOSAPI.IZOSAPI_Application.SamplesDir
 
 Gets the full path for the current user's samples directory (in the My Documents\Zemax\Samples\ folder by default).
 
-Usage (see [Example 14](page_ex14.md#page_ex14) for a full sample)
+Usage (see [Example 14](../apiexamples/example_14.md) for a full sample)
 
 
 C# 
@@ -999,7 +999,7 @@ string ZOSAPI.IZOSAPI_Application.ZemaxDataDir
 
 Gets the full path for the current user's Zemax directory (in the My Documents\Zemax\ folder by default).
 
-Usage (see [Example 11](page_ex11.md#page_ex11) for a full sample)
+Usage (see [Example 11](../apiexamples/example_11.md) for a full sample)
 
 
 C# 
@@ -1108,7 +1108,7 @@ IVectorData ZOSAPI.IZOSAPI_Application.OperandResults
 
 In Operand mode, used to set the output data.
 
-Usage (see [Example 16](page_ex16.md#page_ex16) for a full sample)
+Usage (see [Example 16](../apiexamples/example_16.md) for a full sample)
 
 
 C# 
@@ -1177,7 +1177,7 @@ double ZOSAPI.IZOSAPI_Application.OperandArgument1
 
 Argument 1 - Hx.
 
-Usage (see [Example 16](page_ex16.md#page_ex16) for a full sample)
+Usage (see [Example 16](../apiexamples/example_16.md) for a full sample)
 
 
 C# 
@@ -1222,7 +1222,7 @@ double ZOSAPI.IZOSAPI_Application.OperandArgument2
 
 Argument 2 - Hy.
 
-Usage (see [Example 16](page_ex16.md#page_ex16) for a full sample)
+Usage (see [Example 16](../apiexamples/example_16.md) for a full sample)
 
 
 C# 
@@ -1835,7 +1835,7 @@ IOpticalSystem ZOSAPI.IZOSAPI_Application.CreateNewSystem(SystemType mode)
 
 Creates a new empty optical system, in the specified mode.
 
-Usage (see [Example 06](page_ex06.md#page_ex06) for a full sample)
+Usage (see [Example 06](../apiexamples/example_06.md) for a full sample)
 
 
 C# 
@@ -2143,10 +2143,6 @@ IZOSAPI_Callback ZOSAPI.IZOSAPI_Application.LoadNETCallback(string fromAssembly,
 
 **Return type**: [IZOSAPI\_Callback](interface_z_o_s_a_p_i_1_1_i_z_o_s_a_p_i___callback.md#interface_z_o_s_a_p_i_1_1_i_z_o_s_a_p_i___callback)
 
-**Referenced by**:
-
-* [ZOSAPI.APINetCallback.LoadInServer](class_z_o_s_a_p_i_1_1_a_p_i_net_callback.md#class_z_o_s_a_p_i_1_1_a_p_i_net_callback_1a6ba27507386fe92cc77d0229a23c30f9)
-
 <!--
 **TODO**:
 
@@ -2172,10 +2168,6 @@ IMessage ZOSAPI.IZOSAPI_Application.RegisterNETOperandCallback(string fromAssemb
 * [ISettingsData](interface_z_o_s_a_p_i_1_1_common_1_1_i_settings_data.md#interface_z_o_s_a_p_i_1_1_common_1_1_i_settings_data) **settings**
 
 **Return type**: [IMessage](interface_z_o_s_a_p_i_1_1_analysis_1_1_i_message.md#interface_z_o_s_a_p_i_1_1_analysis_1_1_i_message)
-
-**Referenced by**:
-
-* [ZOSAPI.APINetCallback.RegisterUDOCCallback](class_z_o_s_a_p_i_1_1_a_p_i_net_callback.md#class_z_o_s_a_p_i_1_1_a_p_i_net_callback_1a0073bbb01aeed153fec6b6072119c5ff)
 
 <!--
 **TODO**:
@@ -2245,10 +2237,6 @@ ISettingsData ZOSAPI.IZOSAPI_Application.CreateSettingsFromParent(IZAPI_BaseObje
 * [IZAPI\_BaseObject](interface_z_o_s_a_p_i_1_1_i_z_a_p_i___base_object.md#interface_z_o_s_a_p_i_1_1_i_z_a_p_i___base_object) **parent**
 
 **Return type**: [ISettingsData](interface_z_o_s_a_p_i_1_1_common_1_1_i_settings_data.md#interface_z_o_s_a_p_i_1_1_common_1_1_i_settings_data)
-
-**Referenced by**:
-
-* [ZOSAPI.APINetCallback.APINetCallback](class_z_o_s_a_p_i_1_1_a_p_i_net_callback.md#class_z_o_s_a_p_i_1_1_a_p_i_net_callback_1a3356ac9d1486de2267617567414f5849)
 
 <!--
 **TODO**:
@@ -2345,9 +2333,8 @@ For internal debugging purposes only.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.IZOSAPI_Application.RunCommand"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+[private]: https://img.shields.io/badge/-private-red (private)
 [package]: https://img.shields.io/badge/-package-blueviolet (package)

@@ -242,7 +242,7 @@ double ZOSAPI.Analysis.Settings.Materials.IAS_GrinProfile.MaximumZ
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Materials.IAS_GrinProfile.MaximumZ"}]}`
 -->
 
-### Property X\_Value
+### Property X_Value
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_materials_1_1_i_a_s___grin_profile_1a5bdf4b473a9ebfaa4b61158e4aa1551e"></a>
 
@@ -267,7 +267,7 @@ X value.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Materials.IAS_GrinProfile.X_Value"}]}`
 -->
 
-### Property Y\_Value
+### Property Y_Value
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_materials_1_1_i_a_s___grin_profile_1a3231eaba85804bb73972f307aef75fc5"></a>
 
@@ -292,7 +292,7 @@ Y value.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Materials.IAS_GrinProfile.Y_Value"}]}`
 -->
 
-### Property Z\_Value
+### Property Z_Value
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_materials_1_1_i_a_s___grin_profile_1af88674e721a7d575893ced33d606f686"></a>
 
@@ -369,7 +369,5 @@ Maximum index value.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Materials.IAS_GrinProfile.MaximumIndex"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

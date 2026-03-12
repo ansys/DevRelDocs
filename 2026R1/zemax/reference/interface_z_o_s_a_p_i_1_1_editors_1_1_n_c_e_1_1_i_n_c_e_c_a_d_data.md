@@ -9,7 +9,7 @@
 
 Object properties CAD tab. This interface can be accessed via the INCERow interface.
 
-Usage (see [Example 09](page_ex09.md#page_ex09) for a full sample)
+Usage (see [Example 09](../apiexamples/example_09.md) for a full sample)
 
 
 C# 
@@ -273,7 +273,7 @@ int ZOSAPI.Editors.NCE.INCECADData.FaceMode
 ```
 
 
-Usage (see [Example 09](page_ex09.md#page_ex09) for a full sample)
+Usage (see [Example 09](../apiexamples/example_09.md) for a full sample)
 
 
 C# 
@@ -410,7 +410,7 @@ bool ZOSAPI.Editors.NCE.INCECADData.HasFaceData
 ```
 
 
-Usage (see [Example 09](page_ex09.md#page_ex09) for a full sample)
+Usage (see [Example 09](../apiexamples/example_09.md) for a full sample)
 
 
 C# 
@@ -737,7 +737,7 @@ bool ZOSAPI.Editors.NCE.INCECADData.SetSurfaceFace(int surfaceIdx, int face)
 
 Sets the face assigned to the specified surface.
 
-Usage (see [Example 09](page_ex09.md#page_ex09) for a full sample)
+Usage (see [Example 09](../apiexamples/example_09.md) for a full sample)
 
 
 C# 
@@ -1053,7 +1053,5 @@ bool ZOSAPI.Editors.NCE.INCECADData.SetAllPartsExposed(bool exposed)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.INCECADData.SetAllPartsExposed"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

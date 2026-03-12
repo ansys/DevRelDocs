@@ -28,7 +28,7 @@
 
 ## Public functions
 
-### Function Coeff\_X\_NthEvenPowerCell
+### Function Coeff_X_NthEvenPowerCell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___x___nth_even_power__8_1a0c97947e5eb0af526a4e58bb703f00c0"></a>
 
@@ -52,7 +52,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceCoeff_X_NthEvenPower_8.Coeff_X_NthEvenPow
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceCoeff_X_NthEvenPower_8.Coeff_X_NthEvenPowerCell"}]}`
 -->
 
-### Function GetCoeff\_X\_NthEvenPower
+### Function GetCoeff_X_NthEvenPower
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___x___nth_even_power__8_1a3b4f1f270f71d85e7a4c8f1bf2f9c67e"></a>
 
@@ -76,7 +76,7 @@ double ZOSAPI.Editors.LDE.ISurfaceCoeff_X_NthEvenPower_8.GetCoeff_X_NthEvenPower
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceCoeff_X_NthEvenPower_8.GetCoeff_X_NthEvenPower"}]}`
 -->
 
-### Function SetCoeff\_X\_NthEvenPower
+### Function SetCoeff_X_NthEvenPower
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___x___nth_even_power__8_1a9490b87267121a0fa836969d8e018c42"></a>
 
@@ -101,7 +101,5 @@ void ZOSAPI.Editors.LDE.ISurfaceCoeff_X_NthEvenPower_8.SetCoeff_X_NthEvenPower(i
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceCoeff_X_NthEvenPower_8.SetCoeff_X_NthEvenPower"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

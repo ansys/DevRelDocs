@@ -395,7 +395,7 @@ enum SolveType {
 
 All solve types available. Note that only a portion of the types are available for any given IEditorCell.
 
-Usage (see [Example 18](page_ex18.md#page_ex18) for a full sample)
+Usage (see [Example 18](../apiexamples/example_18.md) for a full sample)
 
 
 C# 
@@ -793,12 +793,12 @@ Multiple Configuration Editor pickup solve.
 <a id="namespace_z_o_s_a_p_i_1_1_editors_1a0e4579c2bd01e606f5ba9e7f7ad1b0eca429437da3850d0d706f117960a79df10"></a>
 
 
-#### Enumerator CA\_fill
+#### Enumerator CA_fill
 
 <a id="namespace_z_o_s_a_p_i_1_1_editors_1a0e4579c2bd01e606f5ba9e7f7ad1b0ecab5da6a2abfa1f28d5648df260aac5b73"></a>
 
 
-#### Enumerator DIA\_fill
+#### Enumerator DIA_fill
 
 <a id="namespace_z_o_s_a_p_i_1_1_editors_1a0e4579c2bd01e606f5ba9e7f7ad1b0ecaa5ba6afee7a3c92f10d5944885b35e36"></a>
 
@@ -867,9 +867,8 @@ enum DirectionOfRayTravel {
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.DirectionOfRayTravel"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+[private]: https://img.shields.io/badge/-private-red (private)
 [package]: https://img.shields.io/badge/-package-blueviolet (package)

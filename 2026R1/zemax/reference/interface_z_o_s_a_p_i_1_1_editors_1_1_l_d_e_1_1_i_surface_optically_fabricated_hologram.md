@@ -689,7 +689,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceOpticallyFabricatedHologram.ConicCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceOpticallyFabricatedHologram.ConicCell"}]}`
 -->
 
-### Property Rotation\_R\_Cell
+### Property Rotation_R_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_optically_fabricated_hologram_1af4f42b90cc939b8119d0e706e4304eee"></a>
 
@@ -931,7 +931,7 @@ double ZOSAPI.Editors.LDE.ISurfaceOpticallyFabricatedHologram.Conic
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceOpticallyFabricatedHologram.Conic"}]}`
 -->
 
-### Property Rotation\_R
+### Property Rotation_R
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_optically_fabricated_hologram_1a80971a204709dbfd7ad5298b31de5e23"></a>
 
@@ -1305,7 +1305,5 @@ int ZOSAPI.Editors.LDE.ISurfaceOpticallyFabricatedHologram.ConsiderFresnel
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceOpticallyFabricatedHologram.ConsiderFresnel"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

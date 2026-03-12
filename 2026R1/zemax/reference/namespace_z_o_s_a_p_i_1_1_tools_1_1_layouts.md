@@ -84,27 +84,27 @@ enum RealPupilOptions {
 ```
 
 
-#### Enumerator Pupils\_Off
+#### Enumerator Pupils_Off
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_layouts_1a94e4acd7945eceb7d03bff6a0236b6bdac1c6505a1505f17cd7491b1fb178da14"></a>
 
 
-#### Enumerator Pupils\_4
+#### Enumerator Pupils_4
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_layouts_1a94e4acd7945eceb7d03bff6a0236b6bda42f06cf2197c999cda5719445c3f56dc"></a>
 
 
-#### Enumerator Pupils\_8
+#### Enumerator Pupils_8
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_layouts_1a94e4acd7945eceb7d03bff6a0236b6bda351d6110eb2aca5c18f463492633384e"></a>
 
 
-#### Enumerator Pupils\_16
+#### Enumerator Pupils_16
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_layouts_1a94e4acd7945eceb7d03bff6a0236b6bdaa79737ec4829dd3a8e2b40eeba845ba0"></a>
 
 
-#### Enumerator Pupils\_32
+#### Enumerator Pupils_32
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_layouts_1a94e4acd7945eceb7d03bff6a0236b6bdaeccf537c27b2702e710fa1e1e269bd12"></a>
 
@@ -786,27 +786,27 @@ enum NumberSegmentsOptions {
 ```
 
 
-#### Enumerator S\_8
+#### Enumerator S_8
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_layouts_1aa7ea9ef6d3fe484e2939bc8d972902e3a19f5714b750b80517cdc6f9c63fbdc28"></a>
 
 
-#### Enumerator S\_16
+#### Enumerator S_16
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_layouts_1aa7ea9ef6d3fe484e2939bc8d972902e3a85dc52a34eef4bb46b47d8f271e81aae"></a>
 
 
-#### Enumerator S\_32
+#### Enumerator S_32
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_layouts_1aa7ea9ef6d3fe484e2939bc8d972902e3a25429be65b4936b6e443ccedefb54e5e"></a>
 
 
-#### Enumerator S\_64
+#### Enumerator S_64
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_layouts_1aa7ea9ef6d3fe484e2939bc8d972902e3af679ccecb7a0fde4f7192606ecfdf627"></a>
 
 
-#### Enumerator S\_128
+#### Enumerator S_128
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_layouts_1aa7ea9ef6d3fe484e2939bc8d972902e3a53e5002d69fcafda348b0692b5a7f74b"></a>
 
@@ -943,9 +943,8 @@ enum ColorRaysByOptions {
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Tools.Layouts.ColorRaysByOptions"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+[private]: https://img.shields.io/badge/-private-red (private)
 [package]: https://img.shields.io/badge/-package-blueviolet (package)

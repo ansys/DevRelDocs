@@ -9,7 +9,7 @@
 
 Interfaces and methods for running a Local Optimization. This interface can be accessed via the IOpticalSystemTools interface.
 
-Usage (see [Example 03](page_ex03.md#page_ex03) for a full sample)
+Usage (see [Example 03](../apiexamples/example_03.md) for a full sample)
 
 
 C# 
@@ -124,7 +124,7 @@ int ZOSAPI.Tools.Optimization.ILocalOptimization.NumberOfCores
 ```
 
 
-Usage (see [Example 15](page_ex15.md#page_ex15) for a full sample)
+Usage (see [Example 15](../apiexamples/example_15.md) for a full sample)
 
 
 C# 
@@ -364,7 +364,5 @@ double ZOSAPI.Tools.Optimization.ILocalOptimization.CurrentMeritFunction
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Tools.Optimization.ILocalOptimization.CurrentMeritFunction"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

@@ -53,7 +53,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceVariableLineSpaceGrating.DiffractOrderCel
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceVariableLineSpaceGrating.DiffractOrderCell"}]}`
 -->
 
-### Property FocalRadius\_L\_Cell
+### Property FocalRadius_L_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_variable_line_space_grating_1af5bcbf8a07b9806a478a6694b1747a62"></a>
 
@@ -163,7 +163,7 @@ double ZOSAPI.Editors.LDE.ISurfaceVariableLineSpaceGrating.DiffractOrder
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceVariableLineSpaceGrating.DiffractOrder"}]}`
 -->
 
-### Property FocalRadius\_L
+### Property FocalRadius_L
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_variable_line_space_grating_1a3a5d3761ae307a0ceb4ce9abc987f8eb"></a>
 
@@ -251,7 +251,5 @@ double ZOSAPI.Editors.LDE.ISurfaceVariableLineSpaceGrating.LambdaZero
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceVariableLineSpaceGrating.LambdaZero"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

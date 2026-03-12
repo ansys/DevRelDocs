@@ -70,7 +70,7 @@ bool ZOSAPI.Editors.NCE.IIndexModelSettings.IsValid
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IIndexModelSettings.IsValid"}]}`
 -->
 
-### Property \_S\_Isotropic
+### Property _S_Isotropic
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_index_model_settings_1a8e297b491b6fa3f904e9cf0adb5289f9"></a>
 
@@ -92,7 +92,7 @@ IIMS_Isotropic ZOSAPI.Editors.NCE.IIndexModelSettings._S_Isotropic
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IIndexModelSettings._S_Isotropic"}]}`
 -->
 
-### Property \_S\_Birefringent
+### Property _S_Birefringent
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_index_model_settings_1ae986b80a48a2284c014daf5a53253a35"></a>
 
@@ -114,7 +114,7 @@ IIMS_Birefringent ZOSAPI.Editors.NCE.IIndexModelSettings._S_Birefringent
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IIndexModelSettings._S_Birefringent"}]}`
 -->
 
-### Property \_S\_GRIN
+### Property _S_GRIN
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_index_model_settings_1a952de466387e9f237e44c61269b21538"></a>
 
@@ -136,7 +136,5 @@ IIMS_GRIN ZOSAPI.Editors.NCE.IIndexModelSettings._S_GRIN
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IIndexModelSettings._S_GRIN"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

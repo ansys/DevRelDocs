@@ -9,7 +9,7 @@
 
 Methods to run various system-wide tools. This interface can be accessed via the IOpticalSystem interface. Note that only one ISystemTool can be open at a time; the previous tool must be closed using ISystemTool.Close before a new one can be opened.
 
-Usage (see [Example 15](page_ex15.md#page_ex15) for a full sample)
+Usage (see [Example 15](../apiexamples/example_15.md) for a full sample)
 
 
 C# 
@@ -298,7 +298,7 @@ IBatchRayTrace ZOSAPI.Tools.IOpticalSystemTools.OpenBatchRayTrace()
 
 Opens the Batch Ray Trace tool.
 
-Usage (see [Example 22](page_ex22.md#page_ex22) for a full sample)
+Usage (see [Example 22](../apiexamples/example_22.md) for a full sample)
 
 
 C# 
@@ -361,7 +361,7 @@ INSCRayTrace ZOSAPI.Tools.IOpticalSystemTools.OpenNSCRayTrace()
 
 Creates a new NSC Ray Trace instance. Note &ndash only one instance of this tool can be open at a time. See the INSCRayTrace documentation for more information.
 
-Usage (see [Example 02](page_ex02.md#page_ex02) for a full sample)
+Usage (see [Example 02](../apiexamples/example_02.md) for a full sample)
 
 
 C# 
@@ -475,7 +475,7 @@ IQuickFocus ZOSAPI.Tools.IOpticalSystemTools.OpenQuickFocus()
 
 Opens the Quick Focus tool.
 
-Usage (see [Example 15](page_ex15.md#page_ex15) for a full sample)
+Usage (see [Example 15](../apiexamples/example_15.md) for a full sample)
 
 
 C# 
@@ -630,7 +630,7 @@ ILocalOptimization ZOSAPI.Tools.IOpticalSystemTools.OpenLocalOptimization()
 
 Opens the Local Optimization tool.
 
-Usage (see [Example 03](page_ex03.md#page_ex03) for a full sample)
+Usage (see [Example 03](../apiexamples/example_03.md) for a full sample)
 
 
 C# 
@@ -728,7 +728,7 @@ IHammerOptimization ZOSAPI.Tools.IOpticalSystemTools.OpenHammerOptimization()
 
 Opens the Hammer Optimization tool.
 
-Usage (see [Example 03](page_ex03.md#page_ex03) for a full sample)
+Usage (see [Example 03](../apiexamples/example_03.md) for a full sample)
 
 
 C# 
@@ -799,7 +799,7 @@ ITolerancing ZOSAPI.Tools.IOpticalSystemTools.OpenTolerancing()
 
 Opens the Tolerancing tool.
 
-Usage (see [Example 14](page_ex14.md#page_ex14) for a full sample)
+Usage (see [Example 14](../apiexamples/example_14.md) for a full sample)
 
 
 C# 
@@ -997,7 +997,7 @@ IExportCAD ZOSAPI.Tools.IOpticalSystemTools.OpenExportCAD()
 
 Opens the Export to Cad tool.
 
-Usage (see [Example 20](page_ex20.md#page_ex20) for a full sample)
+Usage (see [Example 20](../apiexamples/example_20.md) for a full sample)
 
 
 C# 
@@ -1048,7 +1048,7 @@ IScale ZOSAPI.Tools.IOpticalSystemTools.OpenScale()
 
 Opens the Scale Lens tool.
 
-Usage (see [Example 11](page_ex11.md#page_ex11) for a full sample)
+Usage (see [Example 11](../apiexamples/example_11.md) for a full sample)
 
 
 C# 
@@ -1179,7 +1179,7 @@ IConvertToNSCGroup ZOSAPI.Tools.IOpticalSystemTools.OpenConvertToNSCGroup()
 
 Opens the Convert to NSC Group tool.
 
-Usage (see [Example 14](page_ex14.md#page_ex14) for a full sample)
+Usage (see [Example 14](../apiexamples/example_14.md) for a full sample)
 
 
 C# 
@@ -1380,7 +1380,7 @@ int ZOSAPI.Tools.IOpticalSystemTools.SetAllRadiiVariable()
 
 Makes all radii in the system variable.
 
-Usage (see [Example 15](page_ex15.md#page_ex15) for a full sample)
+Usage (see [Example 15](../apiexamples/example_15.md) for a full sample)
 
 
 C# 
@@ -1803,7 +1803,7 @@ IHPCSettings ZOSAPI.Tools.IOpticalSystemTools.GetHPCSettingsCustom(int nodeCount
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Tools.IOpticalSystemTools.GetHPCSettingsCustom"}]}`
 -->
 
-### Function OpenNSCRayTrace\_HPC
+### Function OpenNSCRayTrace_HPC
 
 <a id="interface_z_o_s_a_p_i_1_1_tools_1_1_i_optical_system_tools_1ac17b14caf73f287d31ba80332cc95113"></a>
 
@@ -1827,7 +1827,7 @@ INSCRayTrace ZOSAPI.Tools.IOpticalSystemTools.OpenNSCRayTrace_HPC(IHPCSettings h
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Tools.IOpticalSystemTools.OpenNSCRayTrace_HPC"}]}`
 -->
 
-### Function OpenTolerancing\_HPC
+### Function OpenTolerancing_HPC
 
 <a id="interface_z_o_s_a_p_i_1_1_tools_1_1_i_optical_system_tools_1a2f860d04d928cdef3dfacac2e73ba6b0"></a>
 
@@ -1851,7 +1851,7 @@ ITolerancing ZOSAPI.Tools.IOpticalSystemTools.OpenTolerancing_HPC(IHPCSettings h
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Tools.IOpticalSystemTools.OpenTolerancing_HPC"}]}`
 -->
 
-### Function OpenGlobalOptimization\_HPC
+### Function OpenGlobalOptimization_HPC
 
 <a id="interface_z_o_s_a_p_i_1_1_tools_1_1_i_optical_system_tools_1adf1a8098bb1038c60efefd9f3c467f0c"></a>
 
@@ -1875,7 +1875,7 @@ IGlobalOptimization ZOSAPI.Tools.IOpticalSystemTools.OpenGlobalOptimization_HPC(
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Tools.IOpticalSystemTools.OpenGlobalOptimization_HPC"}]}`
 -->
 
-### Function OpenHammerOptimization\_HPC
+### Function OpenHammerOptimization_HPC
 
 <a id="interface_z_o_s_a_p_i_1_1_tools_1_1_i_optical_system_tools_1a32b632c45c930f3a14662069f715ba66"></a>
 
@@ -2059,7 +2059,5 @@ IToleranceNest ZOSAPI.Tools.IOpticalSystemTools.OpenNEST()
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Tools.IOpticalSystemTools.OpenNEST"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

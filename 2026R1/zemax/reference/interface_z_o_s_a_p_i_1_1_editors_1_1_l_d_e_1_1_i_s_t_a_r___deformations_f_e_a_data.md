@@ -165,7 +165,7 @@ void ZOSAPI.Editors.LDE.ISTAR_DeformationsFEAData.ImportDeformations(string file
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISTAR_DeformationsFEAData.ImportDeformations"}]}`
 -->
 
-### Function ImportDeformations\_1
+### Function ImportDeformations_1
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___deformations_f_e_a_data_1a7eebca7b93d7c23cc3f2a100553c0b19"></a>
 
@@ -424,7 +424,5 @@ Returns points after applying the selected transform. This version does not requ
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISTAR_DeformationsFEAData.GetTransformedFEAPointsNoImportRequired"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

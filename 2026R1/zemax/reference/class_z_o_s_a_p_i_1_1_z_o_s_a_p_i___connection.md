@@ -139,7 +139,6 @@ IZOSAPI_Application ZOSAPI.ZOSAPI_Connection.TheApp
 
 **Referenced by**:
 
-* [ZOSAPI.APINetCallback.APINetCallback](class_z_o_s_a_p_i_1_1_a_p_i_net_callback.md#class_z_o_s_a_p_i_1_1_a_p_i_net_callback_1a3356ac9d1486de2267617567414f5849)
 * [ZOSAPI.ZOSAPI\_Connection.ConnectAsExtension](class_z_o_s_a_p_i_1_1_z_o_s_a_p_i___connection.md#class_z_o_s_a_p_i_1_1_z_o_s_a_p_i___connection_1acc229ae487281fc0aae93e470d9012e3)
 * [ZOSAPI.ZOSAPI\_Connection.ConnectToApplication](class_z_o_s_a_p_i_1_1_z_o_s_a_p_i___connection.md#class_z_o_s_a_p_i_1_1_z_o_s_a_p_i___connection_1aeb9010dade0f9685d455425d7eb7d8f5)
 * [ZOSAPI.ZOSAPI\_Connection.CreateNewApplication](class_z_o_s_a_p_i_1_1_z_o_s_a_p_i___connection.md#class_z_o_s_a_p_i_1_1_z_o_s_a_p_i___connection_1aadc54af7d7415a765592acf23d3a08ef)
@@ -510,7 +509,7 @@ List<int> ZOSAPI.ZOSAPI_Connection.InitProgress = new List<int>()
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.ZOSAPI_Connection.InitProgress"}]}`
 -->
 
-### Variable \_TimeoutSeconds
+### Variable _TimeoutSeconds
 
 <a id="class_z_o_s_a_p_i_1_1_z_o_s_a_p_i___connection_1aec7635dc5f21ccfd34e065d856364cca"></a>
 
@@ -532,7 +531,7 @@ double ZOSAPI.ZOSAPI_Connection._TimeoutSeconds = 10.0 * 60
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.ZOSAPI_Connection._TimeoutSeconds"}]}`
 -->
 
-### Variable \_ConfigSettings
+### Variable _ConfigSettings
 
 <a id="class_z_o_s_a_p_i_1_1_z_o_s_a_p_i___connection_1a1b69b87ab584d06f34858aadb13afccb"></a>
 
@@ -637,7 +636,7 @@ void ZOSAPI.ZOSAPI_Connection.OnSystemStatusChanged(int systemID, string status)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.ZOSAPI_Connection.OnSystemStatusChanged"}]}`
 -->
 
-### Function CurrentDomain\_AssemblyResolve
+### Function CurrentDomain_AssemblyResolve
 
 <a id="class_z_o_s_a_p_i_1_1_z_o_s_a_p_i___connection_1ad63d92ab87c569c3f138585764d87e3f"></a>
 
@@ -1017,7 +1016,7 @@ static void ZOSAPI.ZOSAPI_Connection.RegisterServer(int processId)
 
 ## Public functions
 
-### Function ZOSAPI\_Connection
+### Function ZOSAPI_Connection
 
 <a id="class_z_o_s_a_p_i_1_1_z_o_s_a_p_i___connection_1ae6a7ccfa18e85b299e7b8deb53784412"></a>
 
@@ -1370,9 +1369,8 @@ void ZOSAPI.ZOSAPI_Connection.SetCreoInstallPath(string path)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.ZOSAPI_Connection.SetCreoInstallPath"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+[private]: https://img.shields.io/badge/-private-red (private)
 [package]: https://img.shields.io/badge/-package-blueviolet (package)

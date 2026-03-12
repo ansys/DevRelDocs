@@ -9,7 +9,7 @@
 
 Interfaces and methods for exporting the current system to various CAD formats. This interface can be accessed via the IOpticalSystemTools interface.
 
-Usage (see [Example 20](page_ex20.md#page_ex20) for a full sample)
+Usage (see [Example 20](../apiexamples/example_20.md) for a full sample)
 
 
 C# 
@@ -702,7 +702,7 @@ bool ZOSAPI.Tools.General.IExportCAD.ScatterNSCRays
 ```
 
 
-Usage (see [Example 20](page_ex20.md#page_ex20) for a full sample)
+Usage (see [Example 20](../apiexamples/example_20.md) for a full sample)
 
 
 C# 
@@ -809,7 +809,7 @@ string ZOSAPI.Tools.General.IExportCAD.OutputFileName
 ```
 
 
-Usage (see [Example 20](page_ex20.md#page_ex20) for a full sample)
+Usage (see [Example 20](../apiexamples/example_20.md) for a full sample)
 
 
 C# 
@@ -1127,7 +1127,5 @@ void ZOSAPI.Tools.General.IExportCAD.SetConfigurationAllAtOnce()
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Tools.General.IExportCAD.SetConfigurationAllAtOnce"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

@@ -84,7 +84,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceToroidalHologram.RadiusOfRotationCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceToroidalHologram.RadiusOfRotationCell"}]}`
 -->
 
-### Property Const\_X1\_Cell
+### Property Const_X1_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal_hologram_1a6267cab713f4936977ca38aa4b884101"></a>
 
@@ -106,7 +106,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceToroidalHologram.Const_X1_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceToroidalHologram.Const_X1_Cell"}]}`
 -->
 
-### Property Const\_Y1\_Cell
+### Property Const_Y1_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal_hologram_1a15cf7d04d0d5cd8e819400a2b32582a3"></a>
 
@@ -128,7 +128,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceToroidalHologram.Const_Y1_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceToroidalHologram.Const_Y1_Cell"}]}`
 -->
 
-### Property Const\_Z1\_Cell
+### Property Const_Z1_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal_hologram_1a6d0e632c3f6935586b42f06c3902d429"></a>
 
@@ -150,7 +150,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceToroidalHologram.Const_Z1_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceToroidalHologram.Const_Z1_Cell"}]}`
 -->
 
-### Property Const\_X2\_Cell
+### Property Const_X2_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal_hologram_1a48ef729e8663af5c340f9bb3a7a016dd"></a>
 
@@ -172,7 +172,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceToroidalHologram.Const_X2_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceToroidalHologram.Const_X2_Cell"}]}`
 -->
 
-### Property Const\_Y2\_Cell
+### Property Const_Y2_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal_hologram_1a1c2c215a59c5ecb35378fb4c3478c975"></a>
 
@@ -194,7 +194,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceToroidalHologram.Const_Y2_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceToroidalHologram.Const_Y2_Cell"}]}`
 -->
 
-### Property Const\_Z2\_Cell
+### Property Const_Z2_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal_hologram_1aff0bac9dbbc1d400ee8b0218e67f6be5"></a>
 
@@ -304,7 +304,7 @@ double ZOSAPI.Editors.LDE.ISurfaceToroidalHologram.RadiusOfRotation
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceToroidalHologram.RadiusOfRotation"}]}`
 -->
 
-### Property Const\_X1
+### Property Const_X1
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal_hologram_1a208f102a898cd4fb917312eb61226e2b"></a>
 
@@ -326,7 +326,7 @@ double ZOSAPI.Editors.LDE.ISurfaceToroidalHologram.Const_X1
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceToroidalHologram.Const_X1"}]}`
 -->
 
-### Property Const\_Y1
+### Property Const_Y1
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal_hologram_1ad14712bb8b8becadb27ade8cad7db9ff"></a>
 
@@ -348,7 +348,7 @@ double ZOSAPI.Editors.LDE.ISurfaceToroidalHologram.Const_Y1
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceToroidalHologram.Const_Y1"}]}`
 -->
 
-### Property Const\_Z1
+### Property Const_Z1
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal_hologram_1aa1c16ef47408ff014e682efa912595f7"></a>
 
@@ -370,7 +370,7 @@ double ZOSAPI.Editors.LDE.ISurfaceToroidalHologram.Const_Z1
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceToroidalHologram.Const_Z1"}]}`
 -->
 
-### Property Const\_X2
+### Property Const_X2
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal_hologram_1a0ee0bf4707f2bce11f6410b6e9cf1358"></a>
 
@@ -392,7 +392,7 @@ double ZOSAPI.Editors.LDE.ISurfaceToroidalHologram.Const_X2
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceToroidalHologram.Const_X2"}]}`
 -->
 
-### Property Const\_Y2
+### Property Const_Y2
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal_hologram_1adcfb4c9883fb54031672270ee358e8d2"></a>
 
@@ -414,7 +414,7 @@ double ZOSAPI.Editors.LDE.ISurfaceToroidalHologram.Const_Y2
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceToroidalHologram.Const_Y2"}]}`
 -->
 
-### Property Const\_Z2
+### Property Const_Z2
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal_hologram_1ab795ea61e831d9a9014d4a07c4194e0a"></a>
 
@@ -898,7 +898,5 @@ int ZOSAPI.Editors.LDE.ISurfaceToroidalHologram.ConsiderFresnel
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceToroidalHologram.ConsiderFresnel"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

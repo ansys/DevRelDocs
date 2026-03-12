@@ -7,7 +7,7 @@
 **Definition**:
 
 
-Usage (see [Example 15](page_ex15.md#page_ex15) for a full sample)
+Usage (see [Example 15](../apiexamples/example_15.md) for a full sample)
 
 
 C# 
@@ -206,17 +206,17 @@ enum CriticalRayType {
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1a8bbc6b3e36c64d13ead926a2f451bb05ad4db177c94738b72bf9ce61e988ab1f1"></a>
 
 
-#### Enumerator Y\_Fan
+#### Enumerator Y_Fan
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1a8bbc6b3e36c64d13ead926a2f451bb05a21cec96214ef315cf04d733fb2c38a95"></a>
 
 
-#### Enumerator X\_Fan
+#### Enumerator X_Fan
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1a8bbc6b3e36c64d13ead926a2f451bb05a44b132c5df4f4bf73c698844900313b6"></a>
 
 
-#### Enumerator XY\_Fan
+#### Enumerator XY_Fan
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1a8bbc6b3e36c64d13ead926a2f451bb05ae5d84fd236078441fa0e561be2f79b44"></a>
 
@@ -639,10 +639,8 @@ An invalid timeout value was specified.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Tools.RunStatus"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+[private]: https://img.shields.io/badge/-private-red (private)
 [package]: https://img.shields.io/badge/-package-blueviolet (package)
-[Markdown]: https://img.shields.io/badge/language-Markdown-blue (Markdown)

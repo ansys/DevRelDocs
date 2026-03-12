@@ -9,7 +9,7 @@
 
 Interface for the Merit Function, Sequential Optimization Wizard These settings can be retrieved from the [ZOSAPI.Editors.MFE.IMeritFunctionEditor](interface_z_o_s_a_p_i_1_1_editors_1_1_m_f_e_1_1_i_merit_function_editor.md#interface_z_o_s_a_p_i_1_1_editors_1_1_m_f_e_1_1_i_merit_function_editor) interface. Note that this wizard is obsolete and you should use ISEQOptimizationWizard2 instead.
 
-Usage (see [Example 15](page_ex15.md#page_ex15) for a full sample)
+Usage (see [Example 15](../apiexamples/example_15.md) for a full sample)
 
 
 C# 
@@ -1153,7 +1153,5 @@ string ZOSAPI.Wizards.ISEQOptimizationWizard.GetConfigurationAt(int idx)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Wizards.ISEQOptimizationWizard.GetConfigurationAt"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

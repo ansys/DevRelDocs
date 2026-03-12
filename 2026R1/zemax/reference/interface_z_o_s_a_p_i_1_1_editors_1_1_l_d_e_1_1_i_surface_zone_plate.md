@@ -54,7 +54,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceZonePlate.ModeCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceZonePlate.ModeCell"}]}`
 -->
 
-### Property Delta\_R\_Cell
+### Property Delta_R_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_zone_plate_1a69d3a3c4fea5f1689f77c9939dd8f2b8"></a>
 
@@ -120,7 +120,7 @@ double ZOSAPI.Editors.LDE.ISurfaceZonePlate.Mode
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceZonePlate.Mode"}]}`
 -->
 
-### Property Delta\_R
+### Property Delta_R
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_zone_plate_1a838981548244c6fb0551b5b41540bbc7"></a>
 
@@ -164,7 +164,5 @@ double ZOSAPI.Editors.LDE.ISurfaceZonePlate.ReferenceWave
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceZonePlate.ReferenceWave"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

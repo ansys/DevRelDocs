@@ -95,7 +95,7 @@ IEditorCell ZOSAPI.Editors.NCE.IObjectBoolean.ModeCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectBoolean.ModeCell"}]}`
 -->
 
-### Property NumberXminusVoxels\_Cell
+### Property NumberXminusVoxels_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_boolean_1a679acdc34aeda5f6e352e56c0b61338c"></a>
 
@@ -117,7 +117,7 @@ IEditorCell ZOSAPI.Editors.NCE.IObjectBoolean.NumberXminusVoxels_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectBoolean.NumberXminusVoxels_Cell"}]}`
 -->
 
-### Property NumberYminusVoxels\_Cell
+### Property NumberYminusVoxels_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_boolean_1a209d7826da22f4a30b096809eeb058aa"></a>
 
@@ -139,7 +139,7 @@ IEditorCell ZOSAPI.Editors.NCE.IObjectBoolean.NumberYminusVoxels_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectBoolean.NumberYminusVoxels_Cell"}]}`
 -->
 
-### Property NumberZminusVoxels\_Cell
+### Property NumberZminusVoxels_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_boolean_1a86d361e90d6f9684990a6ac2599cc30f"></a>
 
@@ -711,7 +711,5 @@ int ZOSAPI.Editors.NCE.IObjectBoolean.ObjectJ
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectBoolean.ObjectJ"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

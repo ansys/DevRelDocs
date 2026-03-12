@@ -80,7 +80,7 @@ IAS_Wavelength ZOSAPI.Analysis.Settings.Mtf.IAS_FftMtfMap.Wavelength
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Mtf.IAS_FftMtfMap.Wavelength"}]}`
 -->
 
-### Property MTF\_DataType
+### Property MTF_DataType
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1_1_i_a_s___fft_mtf_map_1a7ef05927e8cc11fd4551226376332c9d"></a>
 
@@ -212,7 +212,7 @@ double ZOSAPI.Analysis.Settings.Mtf.IAS_FftMtfMap.Frequency
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Mtf.IAS_FftMtfMap.Frequency"}]}`
 -->
 
-### Property X\_Field\_Width
+### Property X_Field_Width
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1_1_i_a_s___fft_mtf_map_1a8b7aa3e5e7a1017feb1a4fa72972e069"></a>
 
@@ -234,7 +234,7 @@ double ZOSAPI.Analysis.Settings.Mtf.IAS_FftMtfMap.X_Field_Width
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Mtf.IAS_FftMtfMap.X_Field_Width"}]}`
 -->
 
-### Property Y\_Field\_Width
+### Property Y_Field_Width
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1_1_i_a_s___fft_mtf_map_1a475730af86bfc191917fe1435d5571af"></a>
 
@@ -256,7 +256,7 @@ double ZOSAPI.Analysis.Settings.Mtf.IAS_FftMtfMap.Y_Field_Width
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Mtf.IAS_FftMtfMap.Y_Field_Width"}]}`
 -->
 
-### Property X\_Pixels
+### Property X_Pixels
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1_1_i_a_s___fft_mtf_map_1a755c2a5de28f05b24bb8deb0f8a29c18"></a>
 
@@ -278,7 +278,7 @@ int ZOSAPI.Analysis.Settings.Mtf.IAS_FftMtfMap.X_Pixels
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Mtf.IAS_FftMtfMap.X_Pixels"}]}`
 -->
 
-### Property Y\_Pixels
+### Property Y_Pixels
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1_1_i_a_s___fft_mtf_map_1ad4a61c541740779d7787afe282d7d263"></a>
 
@@ -300,7 +300,5 @@ int ZOSAPI.Analysis.Settings.Mtf.IAS_FftMtfMap.Y_Pixels
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Mtf.IAS_FftMtfMap.Y_Pixels"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

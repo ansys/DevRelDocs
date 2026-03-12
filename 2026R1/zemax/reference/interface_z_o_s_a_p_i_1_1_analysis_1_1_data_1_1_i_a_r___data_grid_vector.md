@@ -265,7 +265,7 @@ double [,] ZOSAPI.Analysis.Data.IAR_DataGridVector.DeltaXValues
 ```
 
 
-Usage (see [Example 24](page_ex24.md#page_ex24) for a full sample)
+Usage (see [Example 24](../apiexamples/example_24.md) for a full sample)
 
 
 C# 
@@ -515,7 +515,5 @@ double ZOSAPI.Analysis.Data.IAR_DataGridVector.DeltaY(int rowX, int colY)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_DataGridVector.DeltaY"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

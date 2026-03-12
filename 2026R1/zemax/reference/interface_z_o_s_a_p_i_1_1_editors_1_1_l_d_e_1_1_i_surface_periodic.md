@@ -49,7 +49,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfacePeriodic.AmplitudeCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfacePeriodic.AmplitudeCell"}]}`
 -->
 
-### Property X\_FrequencyCell
+### Property X_FrequencyCell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_periodic_1afa83c70094aa00d2a52f69bfb4fc221d"></a>
 
@@ -71,7 +71,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfacePeriodic.X_FrequencyCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfacePeriodic.X_FrequencyCell"}]}`
 -->
 
-### Property Y\_FrequencyCell
+### Property Y_FrequencyCell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_periodic_1acff8957c3dea540477913619839d7ecd"></a>
 
@@ -115,7 +115,7 @@ double ZOSAPI.Editors.LDE.ISurfacePeriodic.Amplitude
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfacePeriodic.Amplitude"}]}`
 -->
 
-### Property X\_Frequency
+### Property X_Frequency
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_periodic_1abc8ee0e3aee5357c7a1b64f45a629d9a"></a>
 
@@ -137,7 +137,7 @@ double ZOSAPI.Editors.LDE.ISurfacePeriodic.X_Frequency
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfacePeriodic.X_Frequency"}]}`
 -->
 
-### Property Y\_Frequency
+### Property Y_Frequency
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_periodic_1ad26b2a63e8cf83a7893024f578f73952"></a>
 
@@ -159,7 +159,5 @@ double ZOSAPI.Editors.LDE.ISurfacePeriodic.Y_Frequency
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfacePeriodic.Y_Frequency"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

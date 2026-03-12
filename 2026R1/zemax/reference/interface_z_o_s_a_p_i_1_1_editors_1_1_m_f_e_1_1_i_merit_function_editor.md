@@ -234,7 +234,7 @@ ISEQOptimizationWizard ZOSAPI.Editors.MFE.IMeritFunctionEditor.SEQOptimizationWi
 
 Get the Sequential Optimization Wizard; note that this wizard is obsolete and you should use SEQOptimizationWizard2 instead.
 
-Usage (see [Example 15](page_ex15.md#page_ex15) for a full sample)
+Usage (see [Example 15](../apiexamples/example_15.md) for a full sample)
 
 
 C# 
@@ -949,7 +949,5 @@ The number of operands actually copied.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.MFE.IMeritFunctionEditor.CopyOperandsFrom"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

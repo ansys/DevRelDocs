@@ -9,7 +9,7 @@
 
 Base interface for all solve types. This interface can be accesed via the IEditorCell interface. Note that the _S_ properties are for convenience only and merely cast this interface to the appropriate derived interface. See the OpticStudio documentation for details on the various solve types.
 
-Usage (see [Example 15](page_ex15.md#page_ex15) for a full sample)
+Usage (see [Example 15](../apiexamples/example_15.md) for a full sample)
 
 
 C# 
@@ -197,7 +197,7 @@ The instance solve type.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData.Type"}]}`
 -->
 
-### Property \_S\_None
+### Property _S_None
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1a4b604deb8b54bf0ca0a210d813897c54"></a>
 
@@ -219,7 +219,7 @@ ISolveNone ZOSAPI.Editors.ISolveData._S_None
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_None"}]}`
 -->
 
-### Property \_S\_Fixed
+### Property _S_Fixed
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1a15ba4eb0bb5e03db08ed356115aa48f2"></a>
 
@@ -241,7 +241,7 @@ ISolveFixed ZOSAPI.Editors.ISolveData._S_Fixed
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_Fixed"}]}`
 -->
 
-### Property \_S\_Variable
+### Property _S_Variable
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1a45eac22a37a3f4559e51ad8c649e7f8a"></a>
 
@@ -263,7 +263,7 @@ ISolveVariable ZOSAPI.Editors.ISolveData._S_Variable
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_Variable"}]}`
 -->
 
-### Property \_S\_SurfacePickup
+### Property _S_SurfacePickup
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1af7d2c55aebf1c6d10bb4bcd7aaff46b3"></a>
 
@@ -277,7 +277,7 @@ ISolveSurfacePickup ZOSAPI.Editors.ISolveData._S_SurfacePickup
 ```
 
 
-Usage (see [Example 15](page_ex15.md#page_ex15) for a full sample)
+Usage (see [Example 15](../apiexamples/example_15.md) for a full sample)
 
 
 C# 
@@ -338,7 +338,7 @@ C#
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_SurfacePickup"}]}`
 -->
 
-### Property \_S\_ZPLMacro
+### Property _S_ZPLMacro
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1ad0f3218cbdd65ec22f2f40e92479f256"></a>
 
@@ -360,7 +360,7 @@ ISolveZPLMacro ZOSAPI.Editors.ISolveData._S_ZPLMacro
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_ZPLMacro"}]}`
 -->
 
-### Property \_S\_MarginalRayAngle
+### Property _S_MarginalRayAngle
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1a70b995b9e8a01d9bd08c0f993e3fcc8d"></a>
 
@@ -382,7 +382,7 @@ ISolveMarginalRayAngle ZOSAPI.Editors.ISolveData._S_MarginalRayAngle
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_MarginalRayAngle"}]}`
 -->
 
-### Property \_S\_MarginalRayHeight
+### Property _S_MarginalRayHeight
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1aea6d8a6d2c492cfe2728f39013d6a5fb"></a>
 
@@ -404,7 +404,7 @@ ISolveMarginalRayHeight ZOSAPI.Editors.ISolveData._S_MarginalRayHeight
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_MarginalRayHeight"}]}`
 -->
 
-### Property \_S\_ChiefRayAngle
+### Property _S_ChiefRayAngle
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1af7cdfab4c0d01a609ab5080db53d8d2b"></a>
 
@@ -426,7 +426,7 @@ ISolveChiefRayAngle ZOSAPI.Editors.ISolveData._S_ChiefRayAngle
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_ChiefRayAngle"}]}`
 -->
 
-### Property \_S\_MarginalRayNormal
+### Property _S_MarginalRayNormal
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1a0b876c203e467931bdc4c19dccc54187"></a>
 
@@ -448,7 +448,7 @@ ISolveMarginalRayNormal ZOSAPI.Editors.ISolveData._S_MarginalRayNormal
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_MarginalRayNormal"}]}`
 -->
 
-### Property \_S\_ChiefRayNormal
+### Property _S_ChiefRayNormal
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1a1057dd580a40801cd51b9cd709f4f53e"></a>
 
@@ -470,7 +470,7 @@ ISolveChiefRayNormal ZOSAPI.Editors.ISolveData._S_ChiefRayNormal
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_ChiefRayNormal"}]}`
 -->
 
-### Property \_S\_Aplanatic
+### Property _S_Aplanatic
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1a90609641fcadaa39e68e87b34fa68005"></a>
 
@@ -492,7 +492,7 @@ ISolveAplanatic ZOSAPI.Editors.ISolveData._S_Aplanatic
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_Aplanatic"}]}`
 -->
 
-### Property \_S\_ElementPower
+### Property _S_ElementPower
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1a8a666fad8c2ad4fdba9a0922b27f7394"></a>
 
@@ -514,7 +514,7 @@ ISolveElementPower ZOSAPI.Editors.ISolveData._S_ElementPower
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_ElementPower"}]}`
 -->
 
-### Property \_S\_CocentricSurface
+### Property _S_CocentricSurface
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1a2037b4957a27b90b883fdc387496368a"></a>
 
@@ -536,7 +536,7 @@ ISolveCocentricSurface ZOSAPI.Editors.ISolveData._S_CocentricSurface
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_CocentricSurface"}]}`
 -->
 
-### Property \_S\_CocentricRadius
+### Property _S_CocentricRadius
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1aaa36c9f04370edfc72f54a6ba5a55d46"></a>
 
@@ -558,7 +558,7 @@ ISolveCocentricRadius ZOSAPI.Editors.ISolveData._S_CocentricRadius
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_CocentricRadius"}]}`
 -->
 
-### Property \_S\_FNumber
+### Property _S_FNumber
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1a76c74eb6130514e82ab2d3754cd31564"></a>
 
@@ -572,7 +572,7 @@ ISolveFNumber ZOSAPI.Editors.ISolveData._S_FNumber
 ```
 
 
-Usage (see [Example 01](page_ex01.md#page_ex01) for a full sample)
+Usage (see [Example 01](../apiexamples/example_01.md) for a full sample)
 
 
 C# 
@@ -614,7 +614,7 @@ C#
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_FNumber"}]}`
 -->
 
-### Property \_S\_ChiefRayHeight
+### Property _S_ChiefRayHeight
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1a709428eefc13193aa5e034635c6952d9"></a>
 
@@ -636,7 +636,7 @@ ISolveChiefRayHeight ZOSAPI.Editors.ISolveData._S_ChiefRayHeight
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_ChiefRayHeight"}]}`
 -->
 
-### Property \_S\_EdgeThickness
+### Property _S_EdgeThickness
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1a29d46ce41b6d2e564eb9bcfd8c65441a"></a>
 
@@ -658,7 +658,7 @@ ISolveEdgeThickness ZOSAPI.Editors.ISolveData._S_EdgeThickness
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_EdgeThickness"}]}`
 -->
 
-### Property \_S\_OpticalPathDifference
+### Property _S_OpticalPathDifference
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1adb2ea9440f79a3fd9ac535820c6edd54"></a>
 
@@ -680,7 +680,7 @@ ISolveOpticalPathDifference ZOSAPI.Editors.ISolveData._S_OpticalPathDifference
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_OpticalPathDifference"}]}`
 -->
 
-### Property \_S\_Position
+### Property _S_Position
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1af40d79fe5f6dce6bb43da020b8ced940"></a>
 
@@ -702,7 +702,7 @@ ISolvePosition ZOSAPI.Editors.ISolveData._S_Position
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_Position"}]}`
 -->
 
-### Property \_S\_Compensator
+### Property _S_Compensator
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1a33eb7e3688170660dcbefcedd7e7bd05"></a>
 
@@ -724,7 +724,7 @@ ISolveCompensator ZOSAPI.Editors.ISolveData._S_Compensator
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_Compensator"}]}`
 -->
 
-### Property \_S\_CenterOfCurvature
+### Property _S_CenterOfCurvature
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1aabe477bca37c936a9edef4a6320bea77"></a>
 
@@ -746,7 +746,7 @@ ISolveCenterOfCurvature ZOSAPI.Editors.ISolveData._S_CenterOfCurvature
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_CenterOfCurvature"}]}`
 -->
 
-### Property \_S\_PupilPosition
+### Property _S_PupilPosition
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1ae78739332b233338576faf29a115a18a"></a>
 
@@ -768,7 +768,7 @@ ISolvePupilPosition ZOSAPI.Editors.ISolveData._S_PupilPosition
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_PupilPosition"}]}`
 -->
 
-### Property \_S\_MaterialModel
+### Property _S_MaterialModel
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1adf311da0bb1b53d3d872e98ebc7b0193"></a>
 
@@ -790,7 +790,7 @@ ISolveMaterialModel ZOSAPI.Editors.ISolveData._S_MaterialModel
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_MaterialModel"}]}`
 -->
 
-### Property \_S\_MaterialSubstitute
+### Property _S_MaterialSubstitute
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1a6039d2c3b07488f8cf54fc8627fd0789"></a>
 
@@ -812,7 +812,7 @@ ISolveMaterialSubstitute ZOSAPI.Editors.ISolveData._S_MaterialSubstitute
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_MaterialSubstitute"}]}`
 -->
 
-### Property \_S\_MaterialOffset
+### Property _S_MaterialOffset
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1a29da10db11f83a6877c7c39f96ced4e9"></a>
 
@@ -834,7 +834,7 @@ ISolveMaterialOffset ZOSAPI.Editors.ISolveData._S_MaterialOffset
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_MaterialOffset"}]}`
 -->
 
-### Property \_S\_Automatic
+### Property _S_Automatic
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1afcee8a1b16739c10441b5b379613541f"></a>
 
@@ -856,7 +856,7 @@ ISolveAutomatic ZOSAPI.Editors.ISolveData._S_Automatic
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_Automatic"}]}`
 -->
 
-### Property \_S\_Maximum
+### Property _S_Maximum
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1af3e4675d14cf8500dffc22bc1b5bbc6a"></a>
 
@@ -878,7 +878,7 @@ ISolveMaximum ZOSAPI.Editors.ISolveData._S_Maximum
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_Maximum"}]}`
 -->
 
-### Property \_S\_PickupChiefRay
+### Property _S_PickupChiefRay
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1a7e8434d85e49c90d4e94e67c13d00258"></a>
 
@@ -900,7 +900,7 @@ ISolvePickupChiefRay ZOSAPI.Editors.ISolveData._S_PickupChiefRay
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_PickupChiefRay"}]}`
 -->
 
-### Property \_S\_ObjectPickup
+### Property _S_ObjectPickup
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1a769442579bb68b3ae2c19287301c316a"></a>
 
@@ -922,7 +922,7 @@ ISolveObjectPickup ZOSAPI.Editors.ISolveData._S_ObjectPickup
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_ObjectPickup"}]}`
 -->
 
-### Property \_S\_ConfigPickup
+### Property _S_ConfigPickup
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1a4a0433cc25d7854d5237b9225d767020"></a>
 
@@ -936,7 +936,7 @@ ISolveConfigPickup ZOSAPI.Editors.ISolveData._S_ConfigPickup
 ```
 
 
-Usage (see [Example 18](page_ex18.md#page_ex18) for a full sample)
+Usage (see [Example 18](../apiexamples/example_18.md) for a full sample)
 
 
 C# 
@@ -1176,7 +1176,7 @@ C#
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_ConfigPickup"}]}`
 -->
 
-### Property \_S\_ThermalPickup
+### Property _S_ThermalPickup
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1abac10262e7f848954cb257bb19e954c3"></a>
 
@@ -1198,7 +1198,7 @@ ISolveThermalPickup ZOSAPI.Editors.ISolveData._S_ThermalPickup
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_ThermalPickup"}]}`
 -->
 
-### Property \_S\_FieldPickup
+### Property _S_FieldPickup
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1a5778c8270843c4c95c52e5dc2379757e"></a>
 
@@ -1220,7 +1220,7 @@ ISolveFieldPickup ZOSAPI.Editors.ISolveData._S_FieldPickup
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_FieldPickup"}]}`
 -->
 
-### Property \_S\_DuplicateSag
+### Property _S_DuplicateSag
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1ac2300137c383f13962f91396d008b370"></a>
 
@@ -1242,7 +1242,7 @@ ISolveDuplicateSag ZOSAPI.Editors.ISolveData._S_DuplicateSag
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_DuplicateSag"}]}`
 -->
 
-### Property \_S\_InvertSag
+### Property _S_InvertSag
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1a2c3ec486e9221419023940cc837eb2be"></a>
 
@@ -1264,7 +1264,5 @@ ISolveInvertSag ZOSAPI.Editors.ISolveData._S_InvertSag
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.ISolveData._S_InvertSag"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

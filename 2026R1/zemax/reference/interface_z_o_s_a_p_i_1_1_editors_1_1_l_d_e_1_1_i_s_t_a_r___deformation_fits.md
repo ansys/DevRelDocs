@@ -373,7 +373,7 @@ void ZOSAPI.Editors.LDE.ISTAR_DeformationFits.Refit()
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISTAR_DeformationFits.Refit"}]}`
 -->
 
-### Function GetFittedDeformation\_1
+### Function GetFittedDeformation_1
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___deformation_fits_1a8d417c1cf4a7a71045f70dbf42ccfe6f"></a>
 
@@ -399,7 +399,7 @@ ISTAR_PointWithDeformation ZOSAPI.Editors.LDE.ISTAR_DeformationFits.GetFittedDef
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISTAR_DeformationFits.GetFittedDeformation_1"}]}`
 -->
 
-### Function MeshFittedDeformationSafe\_1
+### Function MeshFittedDeformationSafe_1
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___deformation_fits_1adfd2d4d5ded9a4158bfe185031290a43"></a>
 
@@ -429,7 +429,7 @@ ISTAR_PointWithDeformation[] ZOSAPI.Editors.LDE.ISTAR_DeformationFits.MeshFitted
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISTAR_DeformationFits.MeshFittedDeformationSafe_1"}]}`
 -->
 
-### Function ListFittedDeformationSafe\_1
+### Function ListFittedDeformationSafe_1
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___deformation_fits_1a1d9e88d9ebee47b91f712732c7f90558"></a>
 
@@ -455,7 +455,5 @@ ISTAR_PointWithDeformation[] ZOSAPI.Editors.LDE.ISTAR_DeformationFits.ListFitted
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISTAR_DeformationFits.ListFittedDeformationSafe_1"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

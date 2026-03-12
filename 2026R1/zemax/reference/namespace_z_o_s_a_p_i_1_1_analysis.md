@@ -1478,237 +1478,237 @@ enum POPSampling {
 ```
 
 
-#### Enumerator S\_32
+#### Enumerator S_32
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a25429be65b4936b6e443ccedefb54e5e"></a>
 
 
-#### Enumerator S\_64
+#### Enumerator S_64
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30af679ccecb7a0fde4f7192606ecfdf627"></a>
 
 
-#### Enumerator S\_128
+#### Enumerator S_128
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a53e5002d69fcafda348b0692b5a7f74b"></a>
 
 
-#### Enumerator S\_256
+#### Enumerator S_256
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30aefc443dc28f7c64eed692c259f96fe16"></a>
 
 
-#### Enumerator S\_512
+#### Enumerator S_512
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30ac5bb40176d4e63282d5bacdb09b028d4"></a>
 
 
-#### Enumerator S\_1024
+#### Enumerator S_1024
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30ae8a936af0a41bff7821e6aef841f6328"></a>
 
 
-#### Enumerator S\_2048
+#### Enumerator S_2048
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30ad14521249205f66a8756e4041de6f8a1"></a>
 
 
-#### Enumerator S\_4096
+#### Enumerator S_4096
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a9dadee187ce82ba4de4b49da98f92dd4"></a>
 
 
-#### Enumerator S\_8192
+#### Enumerator S_8192
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30ae6a592afa83cc541c655169ccc4958fb"></a>
 
 
-#### Enumerator S\_16384
+#### Enumerator S_16384
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a2fb58826fa55eea675f3171724f241d9"></a>
 
 
-#### Enumerator S\_32768
+#### Enumerator S_32768
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30ab83a960dca53f3543aa779475a6217fe"></a>
 
 
-#### Enumerator S\_65536
+#### Enumerator S_65536
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a94b99a7ebf653ac3f4f60db23e6f801c"></a>
 
 
-#### Enumerator S\_131072
+#### Enumerator S_131072
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a04d8a77d7a67f878269550c84c99a74d"></a>
 
 
-#### Enumerator S\_262144
+#### Enumerator S_262144
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a077427b85023e243f8fe66d38d7cf15b"></a>
 
 
-#### Enumerator S\_524288
+#### Enumerator S_524288
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a5e5bf9d2a83c51c851b9c2ded3050fd4"></a>
 
 
-#### Enumerator S\_1048576
+#### Enumerator S_1048576
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30ae346078502dee0024bf73a19780aab15"></a>
 
 
-#### Enumerator S\_2097152
+#### Enumerator S_2097152
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30abb43608060c6cca76715efe53021e652"></a>
 
 
-#### Enumerator S\_4194304
+#### Enumerator S_4194304
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a6226486f2e02c7ec303f5fd49e311650"></a>
 
 
-#### Enumerator S\_8388608
+#### Enumerator S_8388608
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30ad250e09782753e8358c58db214cd1ed5"></a>
 
 
-#### Enumerator S\_16777216
+#### Enumerator S_16777216
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30ad6252ff70738472eab223d6f855b1962"></a>
 
 
-#### Enumerator S\_33554432
+#### Enumerator S_33554432
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a575c855d86abeaf1445c25a35d63e0c2"></a>
 
 
-#### Enumerator S\_67108864
+#### Enumerator S_67108864
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a17770ba03bb57d8d24b0d1845aa2f5d6"></a>
 
 
-#### Enumerator S\_134217728
+#### Enumerator S_134217728
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a130c919e5b40bdb875e60fc82d9a100a"></a>
 
 
-#### Enumerator S\_268435456
+#### Enumerator S_268435456
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30ad13c7c2680698d72983c464398f6e5d4"></a>
 
 
-#### Enumerator S\_536870912
+#### Enumerator S_536870912
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a7ba973c5ac51beb8c61c7ad6558f3bbe"></a>
 
 
-#### Enumerator S\_1073741824
+#### Enumerator S_1073741824
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a54ce1fd54e364fc12bfa6eb934ef1976"></a>
 
 
-#### Enumerator S\_1K
+#### Enumerator S_1K
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30aeeeb02e9ed63e854189d35bbcceefe69"></a>
 
 
-#### Enumerator S\_2K
+#### Enumerator S_2K
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a3f222f144fd5a20aed59d2d241caaf34"></a>
 
 
-#### Enumerator S\_4K
+#### Enumerator S_4K
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a5773d1eeea74072bbb318d825a9c7658"></a>
 
 
-#### Enumerator S\_8K
+#### Enumerator S_8K
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a399a2eac0cedf263e140f29ee0bf5b13"></a>
 
 
-#### Enumerator S\_16K
+#### Enumerator S_16K
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30af27ea9055046c13619475956917c3050"></a>
 
 
-#### Enumerator S\_32K
+#### Enumerator S_32K
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a628c971767b6979b78adb68bfd70234e"></a>
 
 
-#### Enumerator S\_64K
+#### Enumerator S_64K
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a113a0ffdb846bef18f39d75639ec4ef8"></a>
 
 
-#### Enumerator S\_128K
+#### Enumerator S_128K
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a8162aa916e20a7736935bf013fedfc6b"></a>
 
 
-#### Enumerator S\_256K
+#### Enumerator S_256K
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a53692bd79d826a04f1e2876ab106839d"></a>
 
 
-#### Enumerator S\_512K
+#### Enumerator S_512K
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a932b98e189e5a2789ef873c4aad3e918"></a>
 
 
-#### Enumerator S\_1M
+#### Enumerator S_1M
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30ae1d043cc56631ae882ce6731140802aa"></a>
 
 
-#### Enumerator S\_2M
+#### Enumerator S_2M
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30ab0a196f7f8bbba65da0cf19c698ab623"></a>
 
 
-#### Enumerator S\_4M
+#### Enumerator S_4M
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a8cbb632b29ce0ab156950d329c050f2a"></a>
 
 
-#### Enumerator S\_8M
+#### Enumerator S_8M
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30abeaf1d821cd7bea7e7b6dce0fd33ae9e"></a>
 
 
-#### Enumerator S\_16M
+#### Enumerator S_16M
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a28f6e869767ffc9bc16aeede1560e71b"></a>
 
 
-#### Enumerator S\_32M
+#### Enumerator S_32M
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a4b9eecf7cb91ab13b2a90a42b92d1fd3"></a>
 
 
-#### Enumerator S\_64M
+#### Enumerator S_64M
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a00688417c28170abf8d8e5d1ce69de95"></a>
 
 
-#### Enumerator S\_128M
+#### Enumerator S_128M
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a54ee50345f99a274395719e46029ec40"></a>
 
 
-#### Enumerator S\_256M
+#### Enumerator S_256M
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a4c52bce996107be26dc9e11a018f837c"></a>
 
 
-#### Enumerator S\_512M
+#### Enumerator S_512M
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30ac6e51af178e7e53f9cc0023822f169ba"></a>
 
 
-#### Enumerator S\_1G
+#### Enumerator S_1G
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a622562e1263fe2de96714491fea4bc30a57549333e9b608d02887cfa2306848d2"></a>
 
@@ -1855,12 +1855,12 @@ enum SurfaceCurvatureData {
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a2ddb7555297492fe47046c2063af2565a1aaa57d73a324e8c2f21db642682d830"></a>
 
 
-#### Enumerator X\_Curvature
+#### Enumerator X_Curvature
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a2ddb7555297492fe47046c2063af2565a8ec9b1741e74619bff90c965fcf81e09"></a>
 
 
-#### Enumerator Y\_Curvature
+#### Enumerator Y_Curvature
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a2ddb7555297492fe47046c2063af2565ac907d972bb1e135b8fced77e4f5e3718"></a>
 
@@ -1912,12 +1912,12 @@ enum SurfaceCurvatureCrossData {
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1ab04a8a4346d19550ef3e4ab1628f6ef7a1aaa57d73a324e8c2f21db642682d830"></a>
 
 
-#### Enumerator X\_Curvature
+#### Enumerator X_Curvature
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1ab04a8a4346d19550ef3e4ab1628f6ef7a8ec9b1741e74619bff90c965fcf81e09"></a>
 
 
-#### Enumerator Y\_Curvature
+#### Enumerator Y_Curvature
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1ab04a8a4346d19550ef3e4ab1628f6ef7ac907d972bb1e135b8fced77e4f5e3718"></a>
 
@@ -2341,52 +2341,52 @@ enum SampleSizes {
 ```
 
 
-#### Enumerator S\_32x32
+#### Enumerator S_32x32
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a479044c3e49c63d5670e891fccffe840aae42a51ee23adf91d98b75a905e49eeb"></a>
 
 
-#### Enumerator S\_64x64
+#### Enumerator S_64x64
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a479044c3e49c63d5670e891fccffe840a5ca76342332942b411111802f2b23aff"></a>
 
 
-#### Enumerator S\_128x128
+#### Enumerator S_128x128
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a479044c3e49c63d5670e891fccffe840a68ce54663cb92cf891da530bd7db8933"></a>
 
 
-#### Enumerator S\_256x256
+#### Enumerator S_256x256
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a479044c3e49c63d5670e891fccffe840ad35d25eac454ef55c12832a138b25d9f"></a>
 
 
-#### Enumerator S\_512x512
+#### Enumerator S_512x512
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a479044c3e49c63d5670e891fccffe840a4daad0878a7ef83e1a8ad61b888d4f0b"></a>
 
 
-#### Enumerator S\_1024x1024
+#### Enumerator S_1024x1024
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a479044c3e49c63d5670e891fccffe840a7dbabc7f365500e9c48acaa2f83945dd"></a>
 
 
-#### Enumerator S\_2048x2048
+#### Enumerator S_2048x2048
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a479044c3e49c63d5670e891fccffe840a3e17a1a1a16430fc03758198aae4401f"></a>
 
 
-#### Enumerator S\_4096x4096
+#### Enumerator S_4096x4096
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a479044c3e49c63d5670e891fccffe840a785dbba9750b75e285d37a50ac6fd424"></a>
 
 
-#### Enumerator S\_8192x8192
+#### Enumerator S_8192x8192
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a479044c3e49c63d5670e891fccffe840ab04add790598c7ef71d7a89e6ae76ea9"></a>
 
 
-#### Enumerator S\_16384x16384
+#### Enumerator S_16384x16384
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a479044c3e49c63d5670e891fccffe840ad5a40426cab35f02f5ab9c52bd19bfc4"></a>
 
@@ -2397,7 +2397,7 @@ enum SampleSizes {
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.SampleSizes"}]}`
 -->
 
-### Enumeration type SampleSizes\_Pow2Plus1
+### Enumeration type SampleSizes_Pow2Plus1
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a20069a5f808c1a84e52213a6e6def327"></a>
 
@@ -2421,47 +2421,47 @@ enum SampleSizes_Pow2Plus1 {
 ```
 
 
-#### Enumerator S\_33
+#### Enumerator S_33
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a20069a5f808c1a84e52213a6e6def327a1878cdf4b8c35f671c27edc4a4a0565f"></a>
 
 
-#### Enumerator S\_65
+#### Enumerator S_65
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a20069a5f808c1a84e52213a6e6def327ab3878e5a4f8b547d7d6add9ad694a324"></a>
 
 
-#### Enumerator S\_129
+#### Enumerator S_129
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a20069a5f808c1a84e52213a6e6def327a1541f7a0f25acfe576e388f7b7b0296f"></a>
 
 
-#### Enumerator S\_257
+#### Enumerator S_257
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a20069a5f808c1a84e52213a6e6def327abe4edffbbcd5b08d1150d7caf12ab4a5"></a>
 
 
-#### Enumerator S\_513
+#### Enumerator S_513
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a20069a5f808c1a84e52213a6e6def327aac677de1227ed2796fc38555fa0977d7"></a>
 
 
-#### Enumerator S\_1025
+#### Enumerator S_1025
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a20069a5f808c1a84e52213a6e6def327a2eb1a981e1e2efa5febabd1266a98517"></a>
 
 
-#### Enumerator S\_2049
+#### Enumerator S_2049
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a20069a5f808c1a84e52213a6e6def327a968cd0c44f09be8c7fac0ed1a56d4fe2"></a>
 
 
-#### Enumerator S\_4097
+#### Enumerator S_4097
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a20069a5f808c1a84e52213a6e6def327a26400f4cd9d5edef2d466b94be58cf69"></a>
 
 
-#### Enumerator S\_8193
+#### Enumerator S_8193
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a20069a5f808c1a84e52213a6e6def327a287577805ff17425920266e657db603e"></a>
 
@@ -2472,7 +2472,7 @@ enum SampleSizes_Pow2Plus1 {
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.SampleSizes_Pow2Plus1"}]}`
 -->
 
-### Enumeration type SampleSizes\_Pow2Plus1\_X
+### Enumeration type SampleSizes_Pow2Plus1_X
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a6f19b9fad0c80c31e74ce7f318c478c6"></a>
 
@@ -2496,47 +2496,47 @@ enum SampleSizes_Pow2Plus1_X {
 ```
 
 
-#### Enumerator S\_33x33
+#### Enumerator S_33x33
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a6f19b9fad0c80c31e74ce7f318c478c6a4c00ecde032ee8eeeede03ea8d1af57e"></a>
 
 
-#### Enumerator S\_65x65
+#### Enumerator S_65x65
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a6f19b9fad0c80c31e74ce7f318c478c6ad4f7bbff0d1a9fff9d303c7daf37f4b9"></a>
 
 
-#### Enumerator S\_129x129
+#### Enumerator S_129x129
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a6f19b9fad0c80c31e74ce7f318c478c6a53ee7e4fbdc906d22a3b59bfe16a21bb"></a>
 
 
-#### Enumerator S\_257x257
+#### Enumerator S_257x257
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a6f19b9fad0c80c31e74ce7f318c478c6a156be57683ecf86571b8655634820a41"></a>
 
 
-#### Enumerator S\_513x513
+#### Enumerator S_513x513
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a6f19b9fad0c80c31e74ce7f318c478c6a20959f553bbe2ee9e00d99fbc47f47f0"></a>
 
 
-#### Enumerator S\_1025x1025
+#### Enumerator S_1025x1025
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a6f19b9fad0c80c31e74ce7f318c478c6ad1419401c613693613be22678fe34d49"></a>
 
 
-#### Enumerator S\_2049x2049
+#### Enumerator S_2049x2049
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a6f19b9fad0c80c31e74ce7f318c478c6a64f692aea0885987ebb1a9f4c9a3701f"></a>
 
 
-#### Enumerator S\_4097x4097
+#### Enumerator S_4097x4097
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a6f19b9fad0c80c31e74ce7f318c478c6a29adc35e01d625838020a37b76e94f6b"></a>
 
 
-#### Enumerator S\_8193x8193
+#### Enumerator S_8193x8193
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a6f19b9fad0c80c31e74ce7f318c478c6a0d5bd591eb036d86eae46503f4d81189"></a>
 
@@ -2547,7 +2547,7 @@ enum SampleSizes_Pow2Plus1_X {
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.SampleSizes_Pow2Plus1_X"}]}`
 -->
 
-### Enumeration type SampleSizes\_ContrastLoss
+### Enumeration type SampleSizes_ContrastLoss
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9"></a>
 
@@ -2603,207 +2603,207 @@ enum SampleSizes_ContrastLoss {
 ```
 
 
-#### Enumerator S\_3x3
+#### Enumerator S_3x3
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9ae43e179514ca0f501d4a40e6644ac166"></a>
 
 
-#### Enumerator S\_5x5
+#### Enumerator S_5x5
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9aa278b6b435e1afab329bf281eb1c8fa6"></a>
 
 
-#### Enumerator S\_7x7
+#### Enumerator S_7x7
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9a3fb9935d84ddf13068f5da3aa80a15f9"></a>
 
 
-#### Enumerator S\_9x9
+#### Enumerator S_9x9
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9a9520ef11010278ea0e311f8015974ba7"></a>
 
 
-#### Enumerator S\_11x11
+#### Enumerator S_11x11
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9ab73a656a34309a8da4b9423ef5a5e1ee"></a>
 
 
-#### Enumerator S\_13x13
+#### Enumerator S_13x13
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9ae1a72b686491d40377a40b45aa2b46f0"></a>
 
 
-#### Enumerator S\_15x15
+#### Enumerator S_15x15
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9ac33cbfa59c8b491650d8e1f1c77bddab"></a>
 
 
-#### Enumerator S\_17x17
+#### Enumerator S_17x17
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9a01fa5ad34faee487199b852d2d7c2ac6"></a>
 
 
-#### Enumerator S\_19x19
+#### Enumerator S_19x19
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9a9d322f61754cbc64a2d6e427b8cc1894"></a>
 
 
-#### Enumerator S\_21x21
+#### Enumerator S_21x21
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9a2355e5de1248b88a419c8628ecb3e846"></a>
 
 
-#### Enumerator S\_23x23
+#### Enumerator S_23x23
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9ac71fb577ae5a819937acc7a8502bc3d8"></a>
 
 
-#### Enumerator S\_25x25
+#### Enumerator S_25x25
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9a79b420cb8133e5dbcd8b5f8b02ca13b1"></a>
 
 
-#### Enumerator S\_27x27
+#### Enumerator S_27x27
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9a81142e0ca2e2200dac0c877b36bd75e0"></a>
 
 
-#### Enumerator S\_29x29
+#### Enumerator S_29x29
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9a2c659db914b872b8180614eeae0cb67b"></a>
 
 
-#### Enumerator S\_31x31
+#### Enumerator S_31x31
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9a680a16e8586a2e22c31218263b5c8a8c"></a>
 
 
-#### Enumerator S\_33x33
+#### Enumerator S_33x33
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9a4c00ecde032ee8eeeede03ea8d1af57e"></a>
 
 
-#### Enumerator S\_35x35
+#### Enumerator S_35x35
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9a0b1a325b59720ec313faeff1f12d69b6"></a>
 
 
-#### Enumerator S\_37x37
+#### Enumerator S_37x37
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9aef738464859da81fd19d2f76afde0928"></a>
 
 
-#### Enumerator S\_39x39
+#### Enumerator S_39x39
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9a44fde7dc0c2819dd75d997f0c36402f0"></a>
 
 
-#### Enumerator S\_41x41
+#### Enumerator S_41x41
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9a85cffbb2571b82c76fcaedb9171baa07"></a>
 
 
-#### Enumerator S\_43x43
+#### Enumerator S_43x43
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9aae4cecd6a4e779938a9129ee8ef59db9"></a>
 
 
-#### Enumerator S\_45x45
+#### Enumerator S_45x45
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9a4a292f7397d12de21692b8460ad6f9dc"></a>
 
 
-#### Enumerator S\_47x47
+#### Enumerator S_47x47
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9af954d5ecd0ddd53b251a6cec10f34cc2"></a>
 
 
-#### Enumerator S\_49x49
+#### Enumerator S_49x49
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9aedf6976bb98cd8402bc4cc709cff4ea2"></a>
 
 
-#### Enumerator S\_51x51
+#### Enumerator S_51x51
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9a1dd83d2602d855abf21874aeae0ae888"></a>
 
 
-#### Enumerator S\_53x53
+#### Enumerator S_53x53
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9aa93c1a8a0442d727412110ed666d7bec"></a>
 
 
-#### Enumerator S\_55x55
+#### Enumerator S_55x55
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9ab1aa8ad4fdb47e87a9b2a6f60d42b7bf"></a>
 
 
-#### Enumerator S\_57x57
+#### Enumerator S_57x57
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9a4beedb6bf6455ebc8ceb1a1f144a9850"></a>
 
 
-#### Enumerator S\_59x59
+#### Enumerator S_59x59
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9a3213ff7d890c51d64b466a7e06c09660"></a>
 
 
-#### Enumerator S\_61x61
+#### Enumerator S_61x61
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9af861f465e6903962d0fe62c36ac02850"></a>
 
 
-#### Enumerator S\_63x63
+#### Enumerator S_63x63
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9a3a21af8b660f413c751a98a421d9f3b4"></a>
 
 
-#### Enumerator S\_65x65
+#### Enumerator S_65x65
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9ad4f7bbff0d1a9fff9d303c7daf37f4b9"></a>
 
 
-#### Enumerator S\_67x67
+#### Enumerator S_67x67
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9a9e1420c55b09efbe3963bad7f6fabd47"></a>
 
 
-#### Enumerator S\_69x69
+#### Enumerator S_69x69
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9a06e022abc8205d32a418747fbbcb3a9c"></a>
 
 
-#### Enumerator S\_71x71
+#### Enumerator S_71x71
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9a09a7ed4c1b08439a40efb86e6fdad358"></a>
 
 
-#### Enumerator S\_73x73
+#### Enumerator S_73x73
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9a7a23c896b646dadcee281cce1afa5621"></a>
 
 
-#### Enumerator S\_75x75
+#### Enumerator S_75x75
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9a6136dbbeaaa98ab3311353b6da12a9a1"></a>
 
 
-#### Enumerator S\_77x77
+#### Enumerator S_77x77
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9ad453f4933779e3086b0a1c7df1b741c4"></a>
 
 
-#### Enumerator S\_79x79
+#### Enumerator S_79x79
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9ada5c0404816bd14225598acafb600c20"></a>
 
 
-#### Enumerator S\_81x81
+#### Enumerator S_81x81
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9abb3b9ce10d03124cbd1c0a1059103fda"></a>
 
 
-#### Enumerator S\_83x83
+#### Enumerator S_83x83
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7f1e5576980c9cbc0f35123fe3951ef9a5fdb0234db161c234207b0036b03e1c5"></a>
 
@@ -2905,7 +2905,7 @@ enum DetectorViewerShowAsTypes {
 ```
 
 
-Usage (see [Example 10](page_ex10.md#page_ex10) for a full sample)
+Usage (see [Example 10](../apiexamples/example_10.md) for a full sample)
 
 
 C# 
@@ -2964,12 +2964,12 @@ C#
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7adc1716b350c3c4f7508aec5d624e88a9c9c629d5b358508e20999c0e4fa89dd"></a>
 
 
-#### Enumerator Text\_CrossSection\_Row
+#### Enumerator Text_CrossSection_Row
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7adc1716b350c3c4f7508aec5d624e88a29a9f3d4b94526f2269693a85ce87c94"></a>
 
 
-#### Enumerator Text\_CrossSection\_Column
+#### Enumerator Text_CrossSection_Column
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7adc1716b350c3c4f7508aec5d624e88a72f851b6f9121029d04377830df74d22"></a>
 
@@ -2984,7 +2984,7 @@ C#
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7adc1716b350c3c4f7508aec5d624e88ac056039d8df8a5a3744c509dc9bedb7c"></a>
 
 
-#### Enumerator GreyScale\_Inverted
+#### Enumerator GreyScale_Inverted
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7adc1716b350c3c4f7508aec5d624e88a44e0f544bee6576665a6d00a7da29b48"></a>
 
@@ -2994,7 +2994,7 @@ C#
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7adc1716b350c3c4f7508aec5d624e88a3b3314e69620db4b63df409526d034dd"></a>
 
 
-#### Enumerator FalseColor\_Inverted
+#### Enumerator FalseColor_Inverted
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7adc1716b350c3c4f7508aec5d624e88a43865037497945163ee3356a87da02de"></a>
 
@@ -3004,17 +3004,17 @@ C#
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7adc1716b350c3c4f7508aec5d624e88a0b74faffabc9d82835257c5da69b9c10"></a>
 
 
-#### Enumerator Color\_CrossSection\_Row
+#### Enumerator Color_CrossSection_Row
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7adc1716b350c3c4f7508aec5d624e88a1a432e16b7e7997ab39a3dbbc60e640e"></a>
 
 
-#### Enumerator Color\_CrossSection\_Column
+#### Enumerator Color_CrossSection_Column
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7adc1716b350c3c4f7508aec5d624e88a8c0b6e7a2f54b4c5df448c01fd18080c"></a>
 
 
-#### Enumerator Color\_FluxVsWavelength
+#### Enumerator Color_FluxVsWavelength
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7adc1716b350c3c4f7508aec5d624e88a2c3726385c07628834d81942de578e76"></a>
 
@@ -3024,22 +3024,22 @@ C#
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7adc1716b350c3c4f7508aec5d624e88a01558f38ee0590b11fd9284029626849"></a>
 
 
-#### Enumerator Directivity\_Full
+#### Enumerator Directivity_Full
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7adc1716b350c3c4f7508aec5d624e88ae368374e794990458d784a81b3bb312d"></a>
 
 
-#### Enumerator Directivity\_Half
+#### Enumerator Directivity_Half
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7adc1716b350c3c4f7508aec5d624e88a01851404f31b554c5ae9cef7b0288e40"></a>
 
 
-#### Enumerator CrossSection\_Row
+#### Enumerator CrossSection_Row
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7adc1716b350c3c4f7508aec5d624e88a2b3e90d70fc7432aca5c467d22a9132f"></a>
 
 
-#### Enumerator CrossSection\_Column
+#### Enumerator CrossSection_Column
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a7adc1716b350c3c4f7508aec5d624e88afafe77422aa5f3379c5ed27d7a58986e"></a>
 
@@ -3114,7 +3114,7 @@ enum DetectorViewerShowDataTypes {
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1afe0671bed30b0a4f68c0f5a44e4a6966ac4953f665d19041052352d727a7d2309"></a>
 
 
-#### Enumerator Polar\_AngleSpace
+#### Enumerator Polar_AngleSpace
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1afe0671bed30b0a4f68c0f5a44e4a6966a3d42413dbb1c0daae76486f9a88d7025"></a>
 
@@ -3339,102 +3339,102 @@ enum Beam {
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a635b82092e278025aa1b6f7d2aa36351a63d5049791d9d79d86e9a108b0a999ca"></a>
 
 
-#### Enumerator Configuration\_1
+#### Enumerator Configuration_1
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a635b82092e278025aa1b6f7d2aa36351a16e28a69748ab456cf0e4686973bbf10"></a>
 
 
-#### Enumerator Configuration\_2
+#### Enumerator Configuration_2
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a635b82092e278025aa1b6f7d2aa36351a276d9f0bdb163bc7b115892cbe5b9272"></a>
 
 
-#### Enumerator Configuration\_3
+#### Enumerator Configuration_3
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a635b82092e278025aa1b6f7d2aa36351a196c874a3a68acaba448b106d53a4c95"></a>
 
 
-#### Enumerator Configuration\_4
+#### Enumerator Configuration_4
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a635b82092e278025aa1b6f7d2aa36351aa731e4e7534fcd75c4d7a128b2641628"></a>
 
 
-#### Enumerator Configuration\_5
+#### Enumerator Configuration_5
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a635b82092e278025aa1b6f7d2aa36351a698f0b8f0dcacc6826ee2172680545e8"></a>
 
 
-#### Enumerator Configuration\_6
+#### Enumerator Configuration_6
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a635b82092e278025aa1b6f7d2aa36351aac601bb92b7f7b21ff2b31e1d21f8fa7"></a>
 
 
-#### Enumerator Configuration\_7
+#### Enumerator Configuration_7
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a635b82092e278025aa1b6f7d2aa36351a0083b2d7511c0798732cd92a4f5a332d"></a>
 
 
-#### Enumerator Configuration\_8
+#### Enumerator Configuration_8
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a635b82092e278025aa1b6f7d2aa36351ae97b2d5cb7c1cd4cc03be83108439fc2"></a>
 
 
-#### Enumerator Configuration\_9
+#### Enumerator Configuration_9
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a635b82092e278025aa1b6f7d2aa36351a1a9ae9e1065bb8c24e8217c3f528d107"></a>
 
 
-#### Enumerator Configuration\_10
+#### Enumerator Configuration_10
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a635b82092e278025aa1b6f7d2aa36351a1c7f8b3fab7d25237db21989a86b0458"></a>
 
 
-#### Enumerator Configuration\_11
+#### Enumerator Configuration_11
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a635b82092e278025aa1b6f7d2aa36351a36c4fbab64796547264cae54480d4fbe"></a>
 
 
-#### Enumerator Configuration\_12
+#### Enumerator Configuration_12
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a635b82092e278025aa1b6f7d2aa36351a030ed8983ed61ff5125ce5099b717b49"></a>
 
 
-#### Enumerator Configuration\_13
+#### Enumerator Configuration_13
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a635b82092e278025aa1b6f7d2aa36351a6481e5104249912933e682e6fd6b4df7"></a>
 
 
-#### Enumerator Configuration\_14
+#### Enumerator Configuration_14
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a635b82092e278025aa1b6f7d2aa36351a7ab7f4febc2f55d2f852695863ca986f"></a>
 
 
-#### Enumerator Configuration\_15
+#### Enumerator Configuration_15
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a635b82092e278025aa1b6f7d2aa36351a059a830f03e384beacb4f2d6e40fc80b"></a>
 
 
-#### Enumerator Configuration\_16
+#### Enumerator Configuration_16
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a635b82092e278025aa1b6f7d2aa36351aec65f84f62728c9d875916a4d0905868"></a>
 
 
-#### Enumerator Configuration\_17
+#### Enumerator Configuration_17
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a635b82092e278025aa1b6f7d2aa36351aeb693a826c8021b42993c8d7c4dd551a"></a>
 
 
-#### Enumerator Configuration\_18
+#### Enumerator Configuration_18
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a635b82092e278025aa1b6f7d2aa36351a85d76a8b357aaeff034152d2d715a281"></a>
 
 
-#### Enumerator Configuration\_19
+#### Enumerator Configuration_19
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a635b82092e278025aa1b6f7d2aa36351a95014f7b27ccbcec495fd074bbf69363"></a>
 
 
-#### Enumerator Configuration\_20
+#### Enumerator Configuration_20
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1a635b82092e278025aa1b6f7d2aa36351a12a0d62e7c7d71e38a67d8ab7ed5e199"></a>
 
@@ -3628,9 +3628,8 @@ enum GridPlotType {
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.GridPlotType"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+[private]: https://img.shields.io/badge/-private-red (private)
 [package]: https://img.shields.io/badge/-package-blueviolet (package)

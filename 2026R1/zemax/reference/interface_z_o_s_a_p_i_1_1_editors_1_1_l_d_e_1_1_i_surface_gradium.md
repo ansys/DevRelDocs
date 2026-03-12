@@ -105,7 +105,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceGradium.DeltaZCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceGradium.DeltaZCell"}]}`
 -->
 
-### Property Ref\_n\_Cell
+### Property Ref_n_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradium_1a82d4f82b1482b02e5d4fa599ed655b06"></a>
 
@@ -127,7 +127,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceGradium.Ref_n_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceGradium.Ref_n_Cell"}]}`
 -->
 
-### Property Dec\_x\_Cell
+### Property Dec_x_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradium_1abf6a2e31fe120b8a5716b8afc7f5ff68"></a>
 
@@ -149,7 +149,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceGradium.Dec_x_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceGradium.Dec_x_Cell"}]}`
 -->
 
-### Property Dec\_y\_Cell
+### Property Dec_y_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradium_1a67cc9be022f0fc9b99f2bb388a905fa0"></a>
 
@@ -171,7 +171,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceGradium.Dec_y_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceGradium.Dec_y_Cell"}]}`
 -->
 
-### Property Tilt\_x\_Cell
+### Property Tilt_x_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradium_1a0805aea4296eccbd3a9981511ca834a4"></a>
 
@@ -193,7 +193,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceGradium.Tilt_x_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceGradium.Tilt_x_Cell"}]}`
 -->
 
-### Property Tilt\_y\_Cell
+### Property Tilt_y_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradium_1ab34659b75ccf6b598b45acdbb9f56963"></a>
 
@@ -303,7 +303,7 @@ double ZOSAPI.Editors.LDE.ISurfaceGradium.DeltaZ
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceGradium.DeltaZ"}]}`
 -->
 
-### Property Ref\_n
+### Property Ref_n
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradium_1a530c276ea5e6e10a003625d0f09e71d0"></a>
 
@@ -325,7 +325,7 @@ double ZOSAPI.Editors.LDE.ISurfaceGradium.Ref_n
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceGradium.Ref_n"}]}`
 -->
 
-### Property Dec\_x
+### Property Dec_x
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradium_1a90a264108cd598d6a5656f19a763fdd2"></a>
 
@@ -347,7 +347,7 @@ double ZOSAPI.Editors.LDE.ISurfaceGradium.Dec_x
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceGradium.Dec_x"}]}`
 -->
 
-### Property Dec\_y
+### Property Dec_y
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradium_1a3c7066443202eeb973f75f6f94acef2b"></a>
 
@@ -369,7 +369,7 @@ double ZOSAPI.Editors.LDE.ISurfaceGradium.Dec_y
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceGradium.Dec_y"}]}`
 -->
 
-### Property Tilt\_x
+### Property Tilt_x
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradium_1ac9a8ab0afcbc339b8fea01ea59476248"></a>
 
@@ -391,7 +391,7 @@ double ZOSAPI.Editors.LDE.ISurfaceGradium.Tilt_x
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceGradium.Tilt_x"}]}`
 -->
 
-### Property Tilt\_y
+### Property Tilt_y
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradium_1a6f7eb27f4533adb06c817d5e3942d09a"></a>
 
@@ -435,7 +435,5 @@ double ZOSAPI.Editors.LDE.ISurfaceGradium.Capping
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceGradium.Capping"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

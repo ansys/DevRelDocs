@@ -30,7 +30,5 @@ Aperture Type - Floating Aperture. This interface can be retrieved from a ILDEAp
 * [IsReadOnly](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_type.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_type_1ad179ddbace72e5ddbc188138f2793d61)
 * [Type](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_type.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_type_1a2ba4db1052563f4ff2b27488ffedc0c2)
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

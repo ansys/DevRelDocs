@@ -145,7 +145,7 @@ Indicates how many segments this ray is away from the source ray
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_RayInfo.Level"}]}`
 -->
 
-### Property In\_object
+### Property In_object
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_data_1_1_i_a_r___ray_info_1a0d82b1f877ca143e9a5f128411e2cd80"></a>
 
@@ -172,7 +172,7 @@ Indicates which object the segment is traveling through
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_RayInfo.In_object"}]}`
 -->
 
-### Property Hit\_object
+### Property Hit_object
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_data_1_1_i_a_r___ray_info_1a77f0c8d59d6dca4ecd4a7ee02d78ca53"></a>
 
@@ -199,7 +199,7 @@ Indicates which object the segment struck (if 0, the ray missed all objects and 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_RayInfo.Hit_object"}]}`
 -->
 
-### Property Hit\_face
+### Property Hit_face
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_data_1_1_i_a_r___ray_info_1a99849359a696c319df5fbb44f365aaf6"></a>
 
@@ -685,7 +685,5 @@ int ZOSAPI.Analysis.Data.IAR_RayInfo.Error
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_RayInfo.Error"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)
