@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-10).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-11).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -24,7 +24,7 @@ The following table shows which components have updates in each category.
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils | [2 items](#Features_femutils) |[13 items](#Fixes_femutils) |
+| femutils | [2 items](#Features_femutils) |[14 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
 | framework | [2 items](#Features_framework) |[5 items](#Fixes_framework) |
 | grpc | [1 item](#Features_grpc) |[3 items](#Fixes_grpc) |
@@ -39,13 +39,13 @@ The following table shows which components have updates in each category.
 | mapdl | [15 items](#Features_mapdl) |[41 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
-| math | [11 items](#Features_math) |[1 item](#Fixes_math) |
+| math | [12 items](#Features_math) |[1 item](#Fixes_math) |
 | mechanical | [2 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
 | mesh |  |[3 items](#Fixes_mesh) |
 | misc | [13 items](#Features_misc) |[19 items](#Fixes_misc) |
 | multiphysicsmapper |  |[5 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [2 items](#Features_native) |[15 items](#Fixes_native) |
+| native | [3 items](#Features_native) |[15 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [3 items](#Features_prime) | |
@@ -393,6 +393,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_femutils"></a> Fixes
+
+- Fixing memory overhead with ElementalNodal to Nodal results:
+  > Improved memory management of the `elemental_nodal_To_nodal_fc` operator.
+  >
+  > 
 
 - Issue with semiparabolic elements in elemental_nodal_To_nodal operators:
   > Fixing issue with semiparabolic elements in `elemental_nodal_To_nodal` operators.
@@ -1318,6 +1323,9 @@ The following table shows which components have updates in each category.
 ## math
 ### <a id="Features_math"></a> Features
 
+- Create TPA objects to streamline TPA workflow:
+  > 
+
 - Create a new operator to merge FRF matrices and supports for TPA workflow:
   > 
 
@@ -1817,6 +1825,9 @@ The following table shows which components have updates in each category.
 ## native
 ### <a id="Features_native"></a> Features
 
+- Make generic support comparison operator private:
+  > 
+
 - Supported GenericSupport in GetFieldsContainerAttribute and added GenericSupportAttribute API:
   > - Added a new property_name, "generic_support", to "fieldscontainer::get_attribute" to extract Generic Support
   >
@@ -2199,6 +2210,12 @@ The following table shows which components have updates in each category.
   > An equation on its own using square bracket delimiters:
   > \\[x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}.\\]
   > 
+
+
+#### logic
+
+- [identical_generic_supports](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/logic/identical_generic_supports.md):
+  > Takes two supports or generic supports and compares them. 
 
 
 #### mapping
