@@ -267,6 +267,8 @@
       href: operator-specifications/logic/identical_fields.md
     - name: identical generic data containers
       href: operator-specifications/logic/identical_generic_data_containers.md
+    - name: identical generic supports
+      href: operator-specifications/logic/identical_generic_supports.md
     - name: identical mc
       href: operator-specifications/logic/identical_mc.md
     - name: identical meshes
