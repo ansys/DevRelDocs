@@ -32,7 +32,7 @@
 
 ## Properties
 
-### Property NumberOf\_X\_OrdersCell
+### Property NumberOf_X_OrdersCell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_cheby_shv_1a65d8b5dede3d0bfe6283e87ac68a4d17"></a>
 
@@ -54,7 +54,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceChebyShv.NumberOf_X_OrdersCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceChebyShv.NumberOf_X_OrdersCell"}]}`
 -->
 
-### Property NumberOf\_Y\_OrdersCell
+### Property NumberOf_Y_OrdersCell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_cheby_shv_1a67b96a60643cf0159788007d64e07713"></a>
 
@@ -76,7 +76,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceChebyShv.NumberOf_Y_OrdersCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceChebyShv.NumberOf_Y_OrdersCell"}]}`
 -->
 
-### Property Norm\_X\_LengthCell
+### Property Norm_X_LengthCell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_cheby_shv_1aae03c69ba603a97ce8b56790c997db70"></a>
 
@@ -98,7 +98,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceChebyShv.Norm_X_LengthCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceChebyShv.Norm_X_LengthCell"}]}`
 -->
 
-### Property Norm\_Y\_LengthCell
+### Property Norm_Y_LengthCell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_cheby_shv_1a50db6a0c362029872b69fd5dd589386d"></a>
 
@@ -120,7 +120,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceChebyShv.Norm_Y_LengthCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceChebyShv.Norm_Y_LengthCell"}]}`
 -->
 
-### Property NumberOf\_X\_Orders
+### Property NumberOf_X_Orders
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_cheby_shv_1a67376ec1cf8f5710b7fcc0861336a25e"></a>
 
@@ -142,7 +142,7 @@ int ZOSAPI.Editors.LDE.ISurfaceChebyShv.NumberOf_X_Orders
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceChebyShv.NumberOf_X_Orders"}]}`
 -->
 
-### Property NumberOf\_Y\_Orders
+### Property NumberOf_Y_Orders
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_cheby_shv_1af167e60db9da6172b6df74ae52ef93df"></a>
 
@@ -164,7 +164,7 @@ int ZOSAPI.Editors.LDE.ISurfaceChebyShv.NumberOf_Y_Orders
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceChebyShv.NumberOf_Y_Orders"}]}`
 -->
 
-### Property Norm\_X\_Length
+### Property Norm_X_Length
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_cheby_shv_1a554f635fd0d0feed095afd069a454c92"></a>
 
@@ -186,7 +186,7 @@ double ZOSAPI.Editors.LDE.ISurfaceChebyShv.Norm_X_Length
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceChebyShv.Norm_X_Length"}]}`
 -->
 
-### Property Norm\_Y\_Length
+### Property Norm_Y_Length
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_cheby_shv_1a9cc74f0ebb56203b0f9cbbe3ecc4ef61"></a>
 
@@ -299,7 +299,5 @@ void ZOSAPI.Editors.LDE.ISurfaceChebyShv.SetCxy(int orderX, int orderY, double V
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceChebyShv.SetCxy"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

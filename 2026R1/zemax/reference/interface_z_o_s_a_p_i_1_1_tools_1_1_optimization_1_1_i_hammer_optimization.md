@@ -9,7 +9,7 @@
 
 Interfaces and methods for running a Hammer Optimization. This interface can be accessed via the IOpticalSystemTools interface.
 
-Usage (see [Example 03](page_ex03.md#page_ex03) for a full sample)
+Usage (see [Example 03](../apiexamples/example_03.md) for a full sample)
 
 
 C# 
@@ -492,7 +492,5 @@ bool ZOSAPI.Tools.Optimization.IHammerOptimization.EstimateHPCTime()
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Tools.Optimization.IHammerOptimization.EstimateHPCTime"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

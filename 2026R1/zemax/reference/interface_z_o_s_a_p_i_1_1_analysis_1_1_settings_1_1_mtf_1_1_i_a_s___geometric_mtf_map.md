@@ -81,7 +81,7 @@ IAS_Wavelength ZOSAPI.Analysis.Settings.Mtf.IAS_GeometricMtfMap.Wavelength
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Mtf.IAS_GeometricMtfMap.Wavelength"}]}`
 -->
 
-### Property MTF\_DataType
+### Property MTF_DataType
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1_1_i_a_s___geometric_mtf_map_1a1fd91d807ae35e43fc5330a7f028bee1"></a>
 
@@ -235,7 +235,7 @@ double ZOSAPI.Analysis.Settings.Mtf.IAS_GeometricMtfMap.Frequency
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Mtf.IAS_GeometricMtfMap.Frequency"}]}`
 -->
 
-### Property X\_Field\_Width
+### Property X_Field_Width
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1_1_i_a_s___geometric_mtf_map_1a5488a1b168e814cf0cab81fe817995bd"></a>
 
@@ -257,7 +257,7 @@ double ZOSAPI.Analysis.Settings.Mtf.IAS_GeometricMtfMap.X_Field_Width
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Mtf.IAS_GeometricMtfMap.X_Field_Width"}]}`
 -->
 
-### Property Y\_Field\_Width
+### Property Y_Field_Width
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1_1_i_a_s___geometric_mtf_map_1ada99b5cd95c434f7ea248d4321075b46"></a>
 
@@ -279,7 +279,7 @@ double ZOSAPI.Analysis.Settings.Mtf.IAS_GeometricMtfMap.Y_Field_Width
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Mtf.IAS_GeometricMtfMap.Y_Field_Width"}]}`
 -->
 
-### Property X\_Pixels
+### Property X_Pixels
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1_1_i_a_s___geometric_mtf_map_1ab7aa68d82aa48f65362d9e76c00074a4"></a>
 
@@ -301,7 +301,7 @@ int ZOSAPI.Analysis.Settings.Mtf.IAS_GeometricMtfMap.X_Pixels
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Mtf.IAS_GeometricMtfMap.X_Pixels"}]}`
 -->
 
-### Property Y\_Pixels
+### Property Y_Pixels
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1_1_i_a_s___geometric_mtf_map_1adee05a75920daddc842796441b1a1a30"></a>
 
@@ -323,7 +323,5 @@ int ZOSAPI.Analysis.Settings.Mtf.IAS_GeometricMtfMap.Y_Pixels
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Mtf.IAS_GeometricMtfMap.Y_Pixels"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

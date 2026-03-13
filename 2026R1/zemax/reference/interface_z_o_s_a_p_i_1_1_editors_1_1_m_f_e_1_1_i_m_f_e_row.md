@@ -180,7 +180,7 @@ double ZOSAPI.Editors.MFE.IMFERow.Target
 ```
 
 
-Usage (see [Example 03](page_ex03.md#page_ex03) for a full sample)
+Usage (see [Example 03](../apiexamples/example_03.md) for a full sample)
 
 
 C# 
@@ -265,7 +265,7 @@ double ZOSAPI.Editors.MFE.IMFERow.Weight
 ```
 
 
-Usage (see [Example 03](page_ex03.md#page_ex03) for a full sample)
+Usage (see [Example 03](../apiexamples/example_03.md) for a full sample)
 
 
 C# 
@@ -514,7 +514,5 @@ Changes to the specified operand type.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.MFE.IMFERow.ChangeType"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

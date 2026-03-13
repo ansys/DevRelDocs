@@ -25,7 +25,7 @@
 
 ## Properties
 
-### Property X\_PowerCell
+### Property X_PowerCell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_paraxial_x_y_1aa154ec7d5ab087343d137b38708e45db"></a>
 
@@ -47,7 +47,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceParaxialXY.X_PowerCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceParaxialXY.X_PowerCell"}]}`
 -->
 
-### Property Y\_PowerCell
+### Property Y_PowerCell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_paraxial_x_y_1a00580685e6771b31fde6283734ace670"></a>
 
@@ -69,7 +69,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceParaxialXY.Y_PowerCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceParaxialXY.Y_PowerCell"}]}`
 -->
 
-### Property X\_Power
+### Property X_Power
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_paraxial_x_y_1ad3044c16213638c6c84002e7c20706da"></a>
 
@@ -91,7 +91,7 @@ double ZOSAPI.Editors.LDE.ISurfaceParaxialXY.X_Power
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceParaxialXY.X_Power"}]}`
 -->
 
-### Property Y\_Power
+### Property Y_Power
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_paraxial_x_y_1a8c77c065bafe7b477c753840e5a044e9"></a>
 
@@ -113,7 +113,5 @@ double ZOSAPI.Editors.LDE.ISurfaceParaxialXY.Y_Power
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceParaxialXY.Y_Power"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

@@ -8,7 +8,7 @@
 **Definition**:
 
 
-Usage (see [Example 06](page_ex06.md#page_ex06) for a full sample)
+Usage (see [Example 06](../apiexamples/example_06.md) for a full sample)
 
 
 C# 
@@ -133,7 +133,5 @@ double ZOSAPI.Editors.NCE.IObjectSourcePoint.ConeAngle
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectSourcePoint.ConeAngle"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

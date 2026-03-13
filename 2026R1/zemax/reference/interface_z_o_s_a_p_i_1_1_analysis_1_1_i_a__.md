@@ -9,7 +9,7 @@
 
 Base interface for all analysis windows. This interface can be accessed via the I_Analyses interface.
 
-Usage (see [Example 15](page_ex15.md#page_ex15) for a full sample)
+Usage (see [Example 15](../apiexamples/example_15.md) for a full sample)
 
 
 C# 
@@ -240,7 +240,7 @@ bool ZOSAPI.Analysis.IA_.HasAnalysisSpecificSettings
 
 Gets a value indicating whether this instance has a fully-implemented settings interface available. If <code>false</code>, the analysis settings can only be changed via [IAS\_.ModifySettings](interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_i_a_s__.md#interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_i_a_s___1a0bd90efa9aecf2f0f3dc7f8e9ad6f309).
 
-Usage (see [Example 11](page_ex11.md#page_ex11) for a full sample)
+Usage (see [Example 11](../apiexamples/example_11.md) for a full sample)
 
 
 C# 
@@ -310,7 +310,7 @@ IAS_ ZOSAPI.Analysis.IA_.GetSettings()
 
 Gets the settings for the current analysis.
 
-Usage (see [Example 17](page_ex17.md#page_ex17) for a full sample)
+Usage (see [Example 17](../apiexamples/example_17.md) for a full sample)
 
 
 C# 
@@ -502,7 +502,7 @@ IMessage ZOSAPI.Analysis.IA_.ApplyAndWaitForCompletion()
 
 Re-runs the analysis with the current settings and waits for it to finish calculating.
 
-Usage (see [Example 11](page_ex11.md#page_ex11) for a full sample)
+Usage (see [Example 11](../apiexamples/example_11.md) for a full sample)
 
 
 C# 
@@ -676,7 +676,5 @@ void ZOSAPI.Analysis.IA_.ToFile(String Filename, bool showSettings=false, bool v
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.IA_.ToFile"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

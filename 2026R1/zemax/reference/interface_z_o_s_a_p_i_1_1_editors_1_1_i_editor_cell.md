@@ -228,7 +228,7 @@ int ZOSAPI.Editors.IEditorCell.IntegerValue
 
 Gets or sets the integer value of this cell. Note that if DataType is not CellDataType.Integer, attempting to get or set a value in this way will result in an exception.
 
-Usage (see [Example 21](page_ex21.md#page_ex21) for a full sample)
+Usage (see [Example 21](../apiexamples/example_21.md) for a full sample)
 
 
 C# 
@@ -318,7 +318,7 @@ double ZOSAPI.Editors.IEditorCell.DoubleValue
 
 Gets or sets the double precision value of this cell. Note that if DataType is not CellDataType.Double, attempting to get or set a value in this way will result in an exception.
 
-Usage (see [Example 21](page_ex21.md#page_ex21) for a full sample)
+Usage (see [Example 21](../apiexamples/example_21.md) for a full sample)
 
 
 C# 
@@ -408,7 +408,7 @@ string ZOSAPI.Editors.IEditorCell.Value
 
 Gets or sets the value of this cell. Note that this method can be used regardless of the DataType.
 
-Usage (see [Example 21](page_ex21.md#page_ex21) for a full sample)
+Usage (see [Example 21](../apiexamples/example_21.md) for a full sample)
 
 
 C# 
@@ -664,7 +664,7 @@ ISolveData ZOSAPI.Editors.IEditorCell.CreateSolveType(SolveType type)
 
 Creates the solve type settings for the specified solve type. Note that SetSolveData must be used to actually update the system with the solve settings.
 
-Usage (see [Example 15](page_ex15.md#page_ex15) for a full sample)
+Usage (see [Example 15](../apiexamples/example_15.md) for a full sample)
 
 
 C# 
@@ -758,7 +758,7 @@ SolveStatus ZOSAPI.Editors.IEditorCell.SetSolveData(ISolveData Data)
 
 Updates the system with the new solve type settings (see also CreateSolveType and GetSolveData).
 
-Usage (see [Example 15](page_ex15.md#page_ex15) for a full sample)
+Usage (see [Example 15](../apiexamples/example_15.md) for a full sample)
 
 
 C# 
@@ -854,7 +854,7 @@ bool ZOSAPI.Editors.IEditorCell.MakeSolveVariable()
 
 Sets the solve type to SolveType.Variable.
 
-Usage (see [Example 15](page_ex15.md#page_ex15) for a full sample)
+Usage (see [Example 15](../apiexamples/example_15.md) for a full sample)
 
 
 C# 
@@ -936,7 +936,5 @@ Sets the solve type to SolveType.Fixed.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.IEditorCell.MakeSolveFixed"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

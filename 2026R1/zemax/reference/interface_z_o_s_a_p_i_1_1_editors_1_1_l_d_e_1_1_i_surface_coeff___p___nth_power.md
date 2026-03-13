@@ -77,7 +77,7 @@ int ZOSAPI.Editors.LDE.ISurfaceCoeff_P_NthPower.NumberOfTerms
 
 ## Public functions
 
-### Function Coeff\_P\_NthPowerCell
+### Function Coeff_P_NthPowerCell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___p___nth_power_1acf499d389014800d85886c79314195da"></a>
 
@@ -101,7 +101,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceCoeff_P_NthPower.Coeff_P_NthPowerCell(int
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceCoeff_P_NthPower.Coeff_P_NthPowerCell"}]}`
 -->
 
-### Function GetCoeff\_P\_NthPower
+### Function GetCoeff_P_NthPower
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___p___nth_power_1af0e115ceafc37f15fa1182e55f9680c8"></a>
 
@@ -125,7 +125,7 @@ double ZOSAPI.Editors.LDE.ISurfaceCoeff_P_NthPower.GetCoeff_P_NthPower(int n)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceCoeff_P_NthPower.GetCoeff_P_NthPower"}]}`
 -->
 
-### Function SetCoeff\_P\_NthPower
+### Function SetCoeff_P_NthPower
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___p___nth_power_1af70128f043dc7451569a0cb2737708d6"></a>
 
@@ -150,7 +150,5 @@ void ZOSAPI.Editors.LDE.ISurfaceCoeff_P_NthPower.SetCoeff_P_NthPower(int n, doub
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceCoeff_P_NthPower.SetCoeff_P_NthPower"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

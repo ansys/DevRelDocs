@@ -9,7 +9,7 @@
 
 Base interface for settings specific to a SurfaceApertureTypes. This interface can be retrieved from a ILDEApertureData interface. Note that the "_S_" properties are convenience methods for retrieving the derived interface for the appropriate aperture type settings.
 
-Usage (see [Example 11](page_ex11.md#page_ex11) for a full sample)
+Usage (see [Example 11](../apiexamples/example_11.md) for a full sample)
 
 
 C# 
@@ -138,7 +138,7 @@ bool ZOSAPI.Editors.LDE.ISurfaceApertureType.IsReadOnly
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceApertureType.IsReadOnly"}]}`
 -->
 
-### Property \_S\_None
+### Property _S_None
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_type_1a8393381e491d65ad1f9417530dfe7fb2"></a>
 
@@ -160,7 +160,7 @@ ISurfaceApertureNone ZOSAPI.Editors.LDE.ISurfaceApertureType._S_None
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceApertureType._S_None"}]}`
 -->
 
-### Property \_S\_CircularAperture
+### Property _S_CircularAperture
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_type_1a439f659dc8b447aa2364331272bab3f8"></a>
 
@@ -182,7 +182,7 @@ ISurfaceApertureCircular ZOSAPI.Editors.LDE.ISurfaceApertureType._S_CircularAper
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceApertureType._S_CircularAperture"}]}`
 -->
 
-### Property \_S\_CircularObscuration
+### Property _S_CircularObscuration
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_type_1a72f7b1a973ffb930e44a0bb3f4c303d6"></a>
 
@@ -204,7 +204,7 @@ ISurfaceApertureCircular ZOSAPI.Editors.LDE.ISurfaceApertureType._S_CircularObsc
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceApertureType._S_CircularObscuration"}]}`
 -->
 
-### Property \_S\_Spider
+### Property _S_Spider
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_type_1a62a972d32de630a4614f41ed7a3c1e93"></a>
 
@@ -226,7 +226,7 @@ ISurfaceApertureSpider ZOSAPI.Editors.LDE.ISurfaceApertureType._S_Spider
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceApertureType._S_Spider"}]}`
 -->
 
-### Property \_S\_RectangularAperture
+### Property _S_RectangularAperture
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_type_1a1d1e419402700e0edec105a4ecd2f74b"></a>
 
@@ -248,7 +248,7 @@ ISurfaceApertureRectangular ZOSAPI.Editors.LDE.ISurfaceApertureType._S_Rectangul
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceApertureType._S_RectangularAperture"}]}`
 -->
 
-### Property \_S\_RectangularObscuration
+### Property _S_RectangularObscuration
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_type_1aacca3dac48ca8b6158e930c337a76c01"></a>
 
@@ -270,7 +270,7 @@ ISurfaceApertureRectangular ZOSAPI.Editors.LDE.ISurfaceApertureType._S_Rectangul
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceApertureType._S_RectangularObscuration"}]}`
 -->
 
-### Property \_S\_EllipticalAperture
+### Property _S_EllipticalAperture
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_type_1a8bf0bd56f4ef3bd17e93e5f75d31321a"></a>
 
@@ -292,7 +292,7 @@ ISurfaceApertureElliptical ZOSAPI.Editors.LDE.ISurfaceApertureType._S_Elliptical
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceApertureType._S_EllipticalAperture"}]}`
 -->
 
-### Property \_S\_EllipticalObscuration
+### Property _S_EllipticalObscuration
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_type_1a7cc88fc8d4813432e34ba60574ea45e0"></a>
 
@@ -314,7 +314,7 @@ ISurfaceApertureElliptical ZOSAPI.Editors.LDE.ISurfaceApertureType._S_Elliptical
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceApertureType._S_EllipticalObscuration"}]}`
 -->
 
-### Property \_S\_UserAperture
+### Property _S_UserAperture
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_type_1aa6deb3086d0296399f9f5a0b4d2bc25b"></a>
 
@@ -336,7 +336,7 @@ ISurfaceApertureUser ZOSAPI.Editors.LDE.ISurfaceApertureType._S_UserAperture
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceApertureType._S_UserAperture"}]}`
 -->
 
-### Property \_S\_UserObscuration
+### Property _S_UserObscuration
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_type_1a2d9f9e4546901ab0c695a5934f41c3da"></a>
 
@@ -358,7 +358,7 @@ ISurfaceApertureUser ZOSAPI.Editors.LDE.ISurfaceApertureType._S_UserObscuration
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceApertureType._S_UserObscuration"}]}`
 -->
 
-### Property \_S\_FloatingAperture
+### Property _S_FloatingAperture
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_type_1a7658d2c1d3184eba37ec2c48649cd22f"></a>
 
@@ -380,7 +380,5 @@ ISurfaceApertureFloating ZOSAPI.Editors.LDE.ISurfaceApertureType._S_FloatingAper
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceApertureType._S_FloatingAperture"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

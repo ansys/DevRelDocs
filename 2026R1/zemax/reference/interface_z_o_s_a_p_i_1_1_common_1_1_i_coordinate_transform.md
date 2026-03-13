@@ -502,7 +502,7 @@ double ZOSAPI.Common.ICoordinateTransform.CentroidZ
 
 ## Public functions
 
-### Function GetMatrix\_4x4
+### Function GetMatrix_4x4
 
 <a id="interface_z_o_s_a_p_i_1_1_common_1_1_i_coordinate_transform_1ad756eb156af5c073d2838e0ffb220f89"></a>
 
@@ -522,7 +522,7 @@ double[,] ZOSAPI.Common.ICoordinateTransform.GetMatrix_4x4()
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Common.ICoordinateTransform.GetMatrix_4x4"}]}`
 -->
 
-### Function GetMatrix\_3x3
+### Function GetMatrix_3x3
 
 <a id="interface_z_o_s_a_p_i_1_1_common_1_1_i_coordinate_transform_1a76d4b77903c2614cdf27df6e58bc8201"></a>
 
@@ -582,7 +582,5 @@ double[] ZOSAPI.Common.ICoordinateTransform.GetAngleSet()
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Common.ICoordinateTransform.GetAngleSet"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

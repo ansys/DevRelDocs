@@ -278,7 +278,7 @@ enum SurfaceType {
 
 All available surface types.
 
-Usage (see [Example 19](page_ex19.md#page_ex19) for a full sample)
+Usage (see [Example 19](../apiexamples/example_19.md) for a full sample)
 
 
 C# 
@@ -2464,27 +2464,27 @@ enum CoordinateConversionResult {
 <a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a9a46f77deea1ea585a25d6efd7ec24cca505a83f220c02df2f85c3810cd9ceb38"></a>
 
 
-#### Enumerator Error\_InvalidRange
+#### Enumerator Error_InvalidRange
 
 <a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a9a46f77deea1ea585a25d6efd7ec24cca8d62cceeeb77a4cd6d35a244a9987778"></a>
 
 
-#### Enumerator Error\_CoordianteBreak
+#### Enumerator Error_CoordianteBreak
 
 <a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a9a46f77deea1ea585a25d6efd7ec24cca029a11118f5aeb9018108d76c15d320d"></a>
 
 
-#### Enumerator Error\_IgnoredSurface
+#### Enumerator Error_IgnoredSurface
 
 <a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a9a46f77deea1ea585a25d6efd7ec24ccafaae8295b7e0c87b179a16d1f587c1b0"></a>
 
 
-#### Enumerator Error\_TiltDecenter
+#### Enumerator Error_TiltDecenter
 
 <a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a9a46f77deea1ea585a25d6efd7ec24cca5561dd825eff0bd0278857722ab5e362"></a>
 
 
-#### Enumerator Error\_MultiConfig
+#### Enumerator Error_MultiConfig
 
 <a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a9a46f77deea1ea585a25d6efd7ec24cca4106eba966cb6fe28afb4c719686c30c"></a>
 
@@ -2845,7 +2845,7 @@ enum SurfaceApertureTypes {
 ```
 
 
-Usage (see [Example 19](page_ex19.md#page_ex19) for a full sample)
+Usage (see [Example 19](../apiexamples/example_19.md) for a full sample)
 
 
 C# 
@@ -3033,12 +3033,12 @@ enum TiltDecenterOrderType {
 ```
 
 
-#### Enumerator Decenter\_Tilt
+#### Enumerator Decenter_Tilt
 
 <a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a7de46ca15ac43175ee1671ef0ad03dd0a9a69fdf3d2fc750fa698cf8b82956e1d"></a>
 
 
-#### Enumerator Tilt\_Decenter
+#### Enumerator Tilt_Decenter
 
 <a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a7de46ca15ac43175ee1671ef0ad03dd0a641c48b272b66a79720f55df6f10ee18"></a>
 
@@ -3316,9 +3316,9 @@ enum CoatingStatusType {
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.CoatingStatusType"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+[private]: https://img.shields.io/badge/-private-red (private)
 [package]: https://img.shields.io/badge/-package-blueviolet (package)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

@@ -25,7 +25,7 @@
 
 ## Properties
 
-### Property X\_TangentCell
+### Property X_TangentCell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_tilted_1a5faf2bf5a5482588d219ec153513de9a"></a>
 
@@ -47,7 +47,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceTilted.X_TangentCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceTilted.X_TangentCell"}]}`
 -->
 
-### Property Y\_TangentCell
+### Property Y_TangentCell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_tilted_1a95a98249a5ce9bbf4d2318452c69f107"></a>
 
@@ -69,7 +69,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceTilted.Y_TangentCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceTilted.Y_TangentCell"}]}`
 -->
 
-### Property X\_Tangent
+### Property X_Tangent
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_tilted_1a2ee03bb64bc2b1a1ee54473d31481332"></a>
 
@@ -91,7 +91,7 @@ double ZOSAPI.Editors.LDE.ISurfaceTilted.X_Tangent
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceTilted.X_Tangent"}]}`
 -->
 
-### Property Y\_Tangent
+### Property Y_Tangent
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_tilted_1ad6098c991976fad93ca833b51e1dc669"></a>
 
@@ -113,7 +113,5 @@ double ZOSAPI.Editors.LDE.ISurfaceTilted.Y_Tangent
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceTilted.Y_Tangent"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

@@ -9,7 +9,7 @@
 
 Interfaces and methods for converting the sequential surfaces to a non-sequential group. This interface can be accessed via the IOpticalSystemTools interface.
 
-Usage (see [Example 14](page_ex14.md#page_ex14) for a full sample)
+Usage (see [Example 14](../apiexamples/example_14.md) for a full sample)
 
 
 C# 
@@ -388,7 +388,5 @@ IF HighFidelityConversion is set to true, this sets the resolution used in the G
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Tools.IConvertToNSCGroup.HighFidelityResolution"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

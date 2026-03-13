@@ -140,7 +140,7 @@ enum QuickFocusCriterion {
 ```
 
 
-Usage (see [Example 15](page_ex15.md#page_ex15) for a full sample)
+Usage (see [Example 15](../apiexamples/example_15.md) for a full sample)
 
 
 C# 
@@ -355,32 +355,32 @@ enum SplineSegmentsType {
 ```
 
 
-#### Enumerator N\_016
+#### Enumerator N_016
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_general_1ac7bc92335d84b37013503e1b92a28e22a041daad1ef5acde3acb1d87a7d704a03"></a>
 
 
-#### Enumerator N\_032
+#### Enumerator N_032
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_general_1ac7bc92335d84b37013503e1b92a28e22a70e50cf53919933c1e137f57a4adc917"></a>
 
 
-#### Enumerator N\_064
+#### Enumerator N_064
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_general_1ac7bc92335d84b37013503e1b92a28e22ae908e72a4cf3c677e4c26ac72471b3f3"></a>
 
 
-#### Enumerator N\_128
+#### Enumerator N_128
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_general_1ac7bc92335d84b37013503e1b92a28e22a630347fcc5d0b5a022db459f76ee5bb7"></a>
 
 
-#### Enumerator N\_256
+#### Enumerator N_256
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_general_1ac7bc92335d84b37013503e1b92a28e22a4ed6bf55a0ea113a5e49de4bca2a9f84"></a>
 
 
-#### Enumerator N\_512
+#### Enumerator N_512
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_general_1ac7bc92335d84b37013503e1b92a28e22af681ede98f14fb6d621d1a6fcc2f909c"></a>
 
@@ -551,22 +551,22 @@ enum CADToleranceType {
 ```
 
 
-#### Enumerator N\_TenEMinus4
+#### Enumerator N_TenEMinus4
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_general_1aa99cc7ff7bdef0cc7700d4da164b2668a58cc6ee090ca65d7b481ca1789c93ba2"></a>
 
 
-#### Enumerator N\_TenEMinus5
+#### Enumerator N_TenEMinus5
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_general_1aa99cc7ff7bdef0cc7700d4da164b2668a697efbef226a0336bd5dc48b1f7b8cb1"></a>
 
 
-#### Enumerator N\_TenEMinus6
+#### Enumerator N_TenEMinus6
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_general_1aa99cc7ff7bdef0cc7700d4da164b2668a4d70308d832307725302b22e23acacea"></a>
 
 
-#### Enumerator N\_TenEMinus7
+#### Enumerator N_TenEMinus7
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_general_1aa99cc7ff7bdef0cc7700d4da164b2668a93dc508a183b99be01e87bdd3e33048d"></a>
 
@@ -1039,9 +1039,8 @@ enum DataTypes {
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Tools.General.DataTypes"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+[private]: https://img.shields.io/badge/-private-red (private)
 [package]: https://img.shields.io/badge/-package-blueviolet (package)

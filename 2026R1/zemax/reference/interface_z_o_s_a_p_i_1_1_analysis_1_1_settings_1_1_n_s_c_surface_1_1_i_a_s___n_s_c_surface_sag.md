@@ -241,7 +241,7 @@ double ZOSAPI.Analysis.Settings.NSCSurface.IAS_NSCSurfaceSag.Rotation
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.NSCSurface.IAS_NSCSurfaceSag.Rotation"}]}`
 -->
 
-### Property Decenter\_X
+### Property Decenter_X
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_n_s_c_surface_1_1_i_a_s___n_s_c_surface_sag_1a369a8bb7617b1ac6dd1e3ed3b3285ea8"></a>
 
@@ -263,7 +263,7 @@ double ZOSAPI.Analysis.Settings.NSCSurface.IAS_NSCSurfaceSag.Decenter_X
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.NSCSurface.IAS_NSCSurfaceSag.Decenter_X"}]}`
 -->
 
-### Property Decenter\_Y
+### Property Decenter_Y
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_n_s_c_surface_1_1_i_a_s___n_s_c_surface_sag_1aba06d0d1c221d20d25d11ff6dd2274de"></a>
 
@@ -461,7 +461,5 @@ string ZOSAPI.Analysis.Settings.NSCSurface.IAS_NSCSurfaceSag.ZRDFilename
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.NSCSurface.IAS_NSCSurfaceSag.ZRDFilename"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

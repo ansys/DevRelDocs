@@ -40,12 +40,12 @@ enum EncircledEnergyTypes {
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_encircled_energy_1a782844576696526dc51e62ff6acecb21a46510131c093d632cdc30a193c8a65da"></a>
 
 
-#### Enumerator X\_Only
+#### Enumerator X_Only
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_encircled_energy_1a782844576696526dc51e62ff6acecb21a0605d6e70cacceeb5fabe3ecf4d0efca"></a>
 
 
-#### Enumerator Y\_Only
+#### Enumerator Y_Only
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_encircled_energy_1a782844576696526dc51e62ff6acecb21a500a7f06ba04c1e2887109e303d0bc37"></a>
 
@@ -126,12 +126,12 @@ enum ExtendedSourceTypes {
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_encircled_energy_1a0f29e2b2f1fc62eb281095c54518b716a46510131c093d632cdc30a193c8a65da"></a>
 
 
-#### Enumerator X\_Only
+#### Enumerator X_Only
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_encircled_energy_1a0f29e2b2f1fc62eb281095c54518b716a0605d6e70cacceeb5fabe3ecf4d0efca"></a>
 
 
-#### Enumerator Y\_Only
+#### Enumerator Y_Only
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_encircled_energy_1a0f29e2b2f1fc62eb281095c54518b716a500a7f06ba04c1e2887109e303d0bc37"></a>
 
@@ -141,12 +141,12 @@ enum ExtendedSourceTypes {
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_encircled_energy_1a0f29e2b2f1fc62eb281095c54518b716a0b5e91fb01cf07b9fd11d3e4bf25bee2"></a>
 
 
-#### Enumerator X\_Distrib
+#### Enumerator X_Distrib
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_encircled_energy_1a0f29e2b2f1fc62eb281095c54518b716a8edd095587464c273f81299e307be47a"></a>
 
 
-#### Enumerator Y\_Distrib
+#### Enumerator Y_Distrib
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_encircled_energy_1a0f29e2b2f1fc62eb281095c54518b716ad5dd1bda177415ab5b31a68312e9736e"></a>
 
@@ -196,9 +196,6 @@ enum GeometricLineEdgeSpreadTypes {
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.EncircledEnergy.GeometricLineEdgeSpreadTypes"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-[package]: https://img.shields.io/badge/-package-blueviolet (package)

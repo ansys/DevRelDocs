@@ -282,7 +282,7 @@ double ZOSAPI.Analysis.Settings.IAS_WavefrontMap.Scale
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.IAS_WavefrontMap.Scale"}]}`
 -->
 
-### Property Subaperture\_X
+### Property Subaperture_X
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_i_a_s___wavefront_map_1a13c95c268aef032b00943a2b6153e226"></a>
 
@@ -304,7 +304,7 @@ double ZOSAPI.Analysis.Settings.IAS_WavefrontMap.Subaperture_X
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.IAS_WavefrontMap.Subaperture_X"}]}`
 -->
 
-### Property Subaperture\_Y
+### Property Subaperture_Y
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_i_a_s___wavefront_map_1a6af019508b80c665f7dfac472ea7d4dd"></a>
 
@@ -326,7 +326,7 @@ double ZOSAPI.Analysis.Settings.IAS_WavefrontMap.Subaperture_Y
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.IAS_WavefrontMap.Subaperture_Y"}]}`
 -->
 
-### Property Subaperture\_R
+### Property Subaperture_R
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_i_a_s___wavefront_map_1adfe3802a1f85e9372c28fed2b467d56e"></a>
 
@@ -392,7 +392,5 @@ STAREffectsOptions ZOSAPI.Analysis.Settings.IAS_WavefrontMap.STAREffects
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.IAS_WavefrontMap.STAREffects"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

@@ -178,7 +178,7 @@ int ZOSAPI.Editors.MCE.IMCERow.Param1
 ```
 
 
-Usage (see [Example 18](page_ex18.md#page_ex18) for a full sample)
+Usage (see [Example 18](../apiexamples/example_18.md) for a full sample)
 
 
 C# 
@@ -255,7 +255,7 @@ int ZOSAPI.Editors.MCE.IMCERow.Param2
 ```
 
 
-Usage (see [Example 25](page_ex25.md#page_ex25) for a full sample)
+Usage (see [Example 25](../apiexamples/example_25.md) for a full sample)
 
 
 C# 
@@ -348,7 +348,7 @@ int ZOSAPI.Editors.MCE.IMCERow.Param3
 ```
 
 
-Usage (see [Example 25](page_ex25.md#page_ex25) for a full sample)
+Usage (see [Example 25](../apiexamples/example_25.md) for a full sample)
 
 
 C# 
@@ -444,7 +444,7 @@ IEditorCell ZOSAPI.Editors.MCE.IMCERow.GetOperandCell(int configuration)
 <br/>
  Gets the specified operand cell data.
 
-Usage (see [Example 18](page_ex18.md#page_ex18) for a full sample)
+Usage (see [Example 18](../apiexamples/example_18.md) for a full sample)
 
 
 C# 
@@ -532,7 +532,7 @@ bool ZOSAPI.Editors.MCE.IMCERow.ChangeType(MultiConfigOperandType type)
 
 Changes to the specified operand type.
 
-Usage (see [Example 18](page_ex18.md#page_ex18) for a full sample)
+Usage (see [Example 18](../apiexamples/example_18.md) for a full sample)
 
 
 C# 
@@ -596,7 +596,5 @@ C#
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.MCE.IMCERow.ChangeType"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

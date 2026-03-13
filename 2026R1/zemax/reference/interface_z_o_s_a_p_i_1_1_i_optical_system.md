@@ -221,7 +221,7 @@ ISystemData ZOSAPI.IOpticalSystem.SystemData
 
 Data for configuring everything in the System Explorer.
 
-Usage (see [Example 15](page_ex15.md#page_ex15) for a full sample)
+Usage (see [Example 15](../apiexamples/example_15.md) for a full sample)
 
 
 C# 
@@ -286,7 +286,7 @@ ILensDataEditor ZOSAPI.IOpticalSystem.LDE
 
 Gets the lens data editor.
 
-Usage (see [Example 15](page_ex15.md#page_ex15) for a full sample)
+Usage (see [Example 15](../apiexamples/example_15.md) for a full sample)
 
 
 C# 
@@ -373,7 +373,7 @@ INonSeqEditor ZOSAPI.IOpticalSystem.NCE
 
 Gets the non-sequential component editor.
 
-Usage (see [Example 17](page_ex17.md#page_ex17) for a full sample)
+Usage (see [Example 17](../apiexamples/example_17.md) for a full sample)
 
 
 C# 
@@ -467,7 +467,7 @@ IMeritFunctionEditor ZOSAPI.IOpticalSystem.MFE
 
 Gets the merit function editor.
 
-Usage (see [Example 03](page_ex03.md#page_ex03) for a full sample)
+Usage (see [Example 03](../apiexamples/example_03.md) for a full sample)
 
 
 C# 
@@ -817,7 +817,7 @@ bool ZOSAPI.IOpticalSystem.MakeNonSequential()
 
 Makes the system non-sequential if it is not already. Note that any sequential data will be lost.
 
-Usage (see [Example 17](page_ex17.md#page_ex17) for a full sample)
+Usage (see [Example 17](../apiexamples/example_17.md) for a full sample)
 
 
 C# 
@@ -872,7 +872,7 @@ bool ZOSAPI.IOpticalSystem.LoadFile(string LensFile, bool saveIfNeeded)
 
 Replaces the current system with data from the specified file.
 
-Usage (see [Example 14](page_ex14.md#page_ex14) for a full sample)
+Usage (see [Example 14](../apiexamples/example_14.md) for a full sample)
 
 
 C# 
@@ -942,7 +942,7 @@ void ZOSAPI.IOpticalSystem.New(bool saveIfNeeded)
 
 Clears all data in the current system and resets it to a default state.
 
-Usage (see [Example 17](page_ex17.md#page_ex17) for a full sample)
+Usage (see [Example 17](../apiexamples/example_17.md) for a full sample)
 
 
 C# 
@@ -1026,7 +1026,7 @@ void ZOSAPI.IOpticalSystem.SaveAs(string fileName)
 
 Saves the current system to the specified file. All future calls to Save will use the same file.
 
-Usage (see [Example 14](page_ex14.md#page_ex14) for a full sample)
+Usage (see [Example 14](../apiexamples/example_14.md) for a full sample)
 
 
 C# 
@@ -1234,7 +1234,5 @@ IMetadata ZOSAPI.IOpticalSystem.GetMetadata()
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.IOpticalSystem.GetMetadata"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

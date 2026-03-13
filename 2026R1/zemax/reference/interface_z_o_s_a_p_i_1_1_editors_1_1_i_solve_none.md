@@ -53,7 +53,5 @@ This solve type is only used for cells that do not support any type of solve. Fo
 * [IsValid](interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data.md#interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1a7fdead3ee138309d1c9b29249157c738)
 * [Type](interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data.md#interface_z_o_s_a_p_i_1_1_editors_1_1_i_solve_data_1ae0bd87fef51453cbcedd740329d36674)
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

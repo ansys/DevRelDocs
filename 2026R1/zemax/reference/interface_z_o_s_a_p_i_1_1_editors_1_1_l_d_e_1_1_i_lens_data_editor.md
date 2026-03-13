@@ -9,7 +9,7 @@
 
 This interface defines all properties and methods needed to interact with the Lens Data Editor. This interface can be accessed via the IOpticalSystem interface.
 
-Usage (see [Example 15](page_ex15.md#page_ex15) for a full sample)
+Usage (see [Example 15](../apiexamples/example_15.md) for a full sample)
 
 
 C# 
@@ -181,7 +181,7 @@ int ZOSAPI.Editors.LDE.ILensDataEditor.NumberOfSurfaces
 
 Gets the number of surfaces in the current system.
 
-Usage (see [Example 22](page_ex22.md#page_ex22) for a full sample)
+Usage (see [Example 22](../apiexamples/example_22.md) for a full sample)
 
 
 C# 
@@ -354,7 +354,7 @@ ILDERow ZOSAPI.Editors.LDE.ILensDataEditor.GetSurfaceAt(int SurfaceNumber)
 
 Gets the data for the specified surface.
 
-Usage (see [Example 15](page_ex15.md#page_ex15) for a full sample)
+Usage (see [Example 15](../apiexamples/example_15.md) for a full sample)
 
 
 C# 
@@ -442,7 +442,7 @@ ILDERow ZOSAPI.Editors.LDE.ILensDataEditor.InsertNewSurfaceAt(int SurfaceNumber)
 
 Inserts a new surface at the specified position.
 
-Usage (see [Example 19](page_ex19.md#page_ex19) for a full sample)
+Usage (see [Example 19](../apiexamples/example_19.md) for a full sample)
 
 
 C# 
@@ -673,7 +673,7 @@ Closes this editor in the UI. Note that this only has an effect if the IOpticalS
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ILensDataEditor.HideLDE"}]}`
 -->
 
-### Function GetTool\_AddCoatingsToAllSurfaces
+### Function GetTool_AddCoatingsToAllSurfaces
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_lens_data_editor_1a71253220b727af3c1dd29ad262fc06f3"></a>
 
@@ -698,7 +698,7 @@ Gets the settings for the Add Coatings to All Surfaces tool.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ILensDataEditor.GetTool_AddCoatingsToAllSurfaces"}]}`
 -->
 
-### Function RunTool\_AddCoatingsToAllSurfaces
+### Function RunTool_AddCoatingsToAllSurfaces
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_lens_data_editor_1aad74a0431fd2fd1ffa1f31f413b2eee3"></a>
 
@@ -729,7 +729,7 @@ Runs the Add Coatings to All Surfaces tool with the specified settings (GetTool_
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ILensDataEditor.RunTool_AddCoatingsToAllSurfaces"}]}`
 -->
 
-### Function RunTool\_RemoveAllApertures
+### Function RunTool_RemoveAllApertures
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_lens_data_editor_1a6a01986d45e8892e9c1c15441ce2a996"></a>
 
@@ -752,7 +752,7 @@ Remove All Apertures.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ILensDataEditor.RunTool_RemoveAllApertures"}]}`
 -->
 
-### Function RunTool\_ConvertSemiDiametersToCircularApertures
+### Function RunTool_ConvertSemiDiametersToCircularApertures
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_lens_data_editor_1a229b415be6dcb511d56b45c6be31305e"></a>
 
@@ -775,7 +775,7 @@ Convert Semi-Diameters to Circular Apertures.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ILensDataEditor.RunTool_ConvertSemiDiametersToCircularApertures"}]}`
 -->
 
-### Function RunTool\_ConvertSemiDiametersToFloatingApertures
+### Function RunTool_ConvertSemiDiametersToFloatingApertures
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_lens_data_editor_1ab1ad314ba62b356c7193d68425cac4e6"></a>
 
@@ -798,7 +798,7 @@ Convert Semi-Diameters to Floating Apertures.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ILensDataEditor.RunTool_ConvertSemiDiametersToFloatingApertures"}]}`
 -->
 
-### Function RunTool\_ConvertSemiDiametersToMaximumApertures
+### Function RunTool_ConvertSemiDiametersToMaximumApertures
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_lens_data_editor_1ab533e608ce5ab650f0ce681b01b3ad3e"></a>
 
@@ -821,7 +821,7 @@ Convert Semi-Diameters to Maximum Apertures.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ILensDataEditor.RunTool_ConvertSemiDiametersToMaximumApertures"}]}`
 -->
 
-### Function RunTool\_ReplaceVignettingWithApertures
+### Function RunTool_ReplaceVignettingWithApertures
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_lens_data_editor_1a936bd169713a0eabe78e1bd66ab98da6"></a>
 
@@ -844,7 +844,7 @@ Replace Vignetting with Apertures.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ILensDataEditor.RunTool_ReplaceVignettingWithApertures"}]}`
 -->
 
-### Function RunTool\_ConvertGlobalToLocalCoordinates
+### Function RunTool_ConvertGlobalToLocalCoordinates
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_lens_data_editor_1a6edb7490aecc68244e0c0d8c56eac70a"></a>
 
@@ -858,7 +858,7 @@ CoordinateConversionResult ZOSAPI.Editors.LDE.ILensDataEditor.RunTool_ConvertGlo
 
 Converts Global to Local coordinates.
 
-Usage (see [Example 19](page_ex19.md#page_ex19) for a full sample)
+Usage (see [Example 19](../apiexamples/example_19.md) for a full sample)
 
 
 C# 
@@ -912,7 +912,7 @@ C#
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ILensDataEditor.RunTool_ConvertGlobalToLocalCoordinates"}]}`
 -->
 
-### Function RunTool\_ConvertLocalToGlobalCoordinates
+### Function RunTool_ConvertLocalToGlobalCoordinates
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_lens_data_editor_1a12a8490ebb2b82b8458bf6cd4a80cf72"></a>
 
@@ -926,7 +926,7 @@ CoordinateConversionResult ZOSAPI.Editors.LDE.ILensDataEditor.RunTool_ConvertLoc
 
 Converts Local to Global coordinates.
 
-Usage (see [Example 19](page_ex19.md#page_ex19) for a full sample)
+Usage (see [Example 19](../apiexamples/example_19.md) for a full sample)
 
 
 C# 
@@ -1419,7 +1419,7 @@ int ZOSAPI.Editors.LDE.ILensDataEditor.CopySurfaces(int fromSurfaceNumber, int N
 Copy and paste the specified number of surfaces from one location to another. <br/>
  Note that it is okay for the source and destination to overlap.
 
-Usage (see [Example 19](page_ex19.md#page_ex19) for a full sample)
+Usage (see [Example 19](../apiexamples/example_19.md) for a full sample)
 
 
 C# 
@@ -1531,7 +1531,7 @@ The number of surfaces actually copied.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ILensDataEditor.CopySurfacesFrom"}]}`
 -->
 
-### Function RunTool\_ReverseElements
+### Function RunTool_ReverseElements
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_lens_data_editor_1ab6d0a54f42598ffcc8ec3fddf31aecb8"></a>
 
@@ -1569,7 +1569,7 @@ Reverses a lens element or group.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ILensDataEditor.RunTool_ReverseElements"}]}`
 -->
 
-### Function RunTool\_AddFoldMirror
+### Function RunTool_AddFoldMirror
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_lens_data_editor_1acd432a69bd39fa1bc7cb3bb87e2e94d4"></a>
 
@@ -1609,7 +1609,7 @@ Make the specified surface a fold mirror and inserts the required coordinate bre
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ILensDataEditor.RunTool_AddFoldMirror"}]}`
 -->
 
-### Function RunTool\_DeleteFoldMirror
+### Function RunTool_DeleteFoldMirror
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_lens_data_editor_1a644568b406115dad5c6bb8d8fabc365e"></a>
 
@@ -1645,7 +1645,7 @@ Deletes an existing fold mirror, including any neighboring coordinate breaks.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ILensDataEditor.RunTool_DeleteFoldMirror"}]}`
 -->
 
-### Function RunTool\_MakeDoublePass
+### Function RunTool_MakeDoublePass
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_lens_data_editor_1a9a1741c5d27414b57823379f2f9a118e"></a>
 
@@ -1681,7 +1681,7 @@ Create a second pass through the specified surfaces that represents a reflection
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ILensDataEditor.RunTool_MakeDoublePass"}]}`
 -->
 
-### Function RunTool\_MakeFocal
+### Function RunTool_MakeFocal
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_lens_data_editor_1a7faaaa761ebf52d34228a817b0b26d2d"></a>
 
@@ -1753,7 +1753,7 @@ True if surface can be converted, False otherwise.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ILensDataEditor.CanConvertSurfaceToFreeform"}]}`
 -->
 
-### Function RunTool\_ConvertSurfaceToFreeform
+### Function RunTool_ConvertSurfaceToFreeform
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_lens_data_editor_1a7c766394c25dce7ab7bfb26ac9d40f62"></a>
 
@@ -1797,7 +1797,7 @@ Converts one sag-based surface into a TrueFreeForm surface on another row.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ILensDataEditor.RunTool_ConvertSurfaceToFreeform"}]}`
 -->
 
-### Function RunTool\_ConvertSurfaceInPlaceToFreeform
+### Function RunTool_ConvertSurfaceInPlaceToFreeform
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_lens_data_editor_1a224aa85ed26d35b8cd6f7a2f62d7adc9"></a>
 
@@ -1880,7 +1880,7 @@ True if surface can be exported, False otherwise.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ILensDataEditor.CanExportPointCloud"}]}`
 -->
 
-### Function RunTool\_ExportPointCloudFile
+### Function RunTool_ExportPointCloudFile
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_lens_data_editor_1ae9f7c19c9e7947506579dfdf83423803"></a>
 
@@ -2010,7 +2010,7 @@ The identifier of the surface.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ILensDataEditor.GetId"}]}`
 -->
 
-### Function GetTool\_TiltDecenterElements
+### Function GetTool_TiltDecenterElements
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_lens_data_editor_1a578a1a3e495f95f6218d14b4f4f5ec86"></a>
 
@@ -2033,7 +2033,7 @@ Gets the settings for the Tilt/Decenter Element tool.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ILensDataEditor.GetTool_TiltDecenterElements"}]}`
 -->
 
-### Function RunTool\_TiltDecenterElements
+### Function RunTool_TiltDecenterElements
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_lens_data_editor_1a194665e9bc01ba37df8fdf63537c609e"></a>
 
@@ -2126,7 +2126,5 @@ void ZOSAPI.Editors.LDE.ILensDataEditor.SetMuellerMatrixData(int surface, bool i
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ILensDataEditor.SetMuellerMatrixData"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

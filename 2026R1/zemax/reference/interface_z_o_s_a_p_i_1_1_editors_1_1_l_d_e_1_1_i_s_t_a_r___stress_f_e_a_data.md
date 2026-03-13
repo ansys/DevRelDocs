@@ -165,7 +165,7 @@ void ZOSAPI.Editors.LDE.ISTAR_StressFEAData.ImportStress(string filename)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISTAR_StressFEAData.ImportStress"}]}`
 -->
 
-### Function ImportStress\_1
+### Function ImportStress_1
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___stress_f_e_a_data_1ac4e403f348e06d16d34f9d2d55b60178"></a>
 
@@ -370,7 +370,5 @@ bool ZOSAPI.Editors.LDE.ISTAR_StressFEAData.IsStressTensorApplied()
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISTAR_StressFEAData.IsStressTensorApplied"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

@@ -32,7 +32,7 @@ bool ZOSAPI.SystemData.ISDEnvironmentData.AdjustIndexToEnvironment
 ```
 
 
-Usage (see [Example 18](page_ex18.md#page_ex18) for a full sample)
+Usage (see [Example 18](../apiexamples/example_18.md) for a full sample)
 
 
 C# 
@@ -316,7 +316,5 @@ double ZOSAPI.SystemData.ISDEnvironmentData.Pressure
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.SystemData.ISDEnvironmentData.Pressure"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

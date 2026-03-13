@@ -62,7 +62,7 @@ The scattering type.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceScatteringType.Type"}]}`
 -->
 
-### Property \_S\_None
+### Property _S_None
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_type_1a35f99775accf4b94b87cad45321907d7"></a>
 
@@ -84,7 +84,7 @@ ISurfaceScatteringNone ZOSAPI.Editors.LDE.ISurfaceScatteringType._S_None
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceScatteringType._S_None"}]}`
 -->
 
-### Property \_S\_Lambertian
+### Property _S_Lambertian
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_type_1ae50da8aaa3b0b2dfb270392e7488ef6e"></a>
 
@@ -106,7 +106,7 @@ ISurfaceScatteringLambertian ZOSAPI.Editors.LDE.ISurfaceScatteringType._S_Lamber
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceScatteringType._S_Lambertian"}]}`
 -->
 
-### Property \_S\_Gaussian
+### Property _S_Gaussian
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_type_1afb720db3b0095d55b33fd0f30d69d946"></a>
 
@@ -128,7 +128,7 @@ ISurfaceScatteringGaussian ZOSAPI.Editors.LDE.ISurfaceScatteringType._S_Gaussian
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceScatteringType._S_Gaussian"}]}`
 -->
 
-### Property \_S\_ABg
+### Property _S_ABg
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_type_1a60f527db4c93bc373848dea4087c9fe1"></a>
 
@@ -150,7 +150,7 @@ ISurfaceScatteringABg ZOSAPI.Editors.LDE.ISurfaceScatteringType._S_ABg
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceScatteringType._S_ABg"}]}`
 -->
 
-### Property \_S\_ABgFile
+### Property _S_ABgFile
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_type_1a5959912b10da999bb3826f485566e2ce"></a>
 
@@ -172,7 +172,7 @@ ISurfaceScatteringABgFile ZOSAPI.Editors.LDE.ISurfaceScatteringType._S_ABgFile
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceScatteringType._S_ABgFile"}]}`
 -->
 
-### Property \_S\_BSDF
+### Property _S_BSDF
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_type_1a7871a4c33c8389be47f16c146ff6c9b0"></a>
 
@@ -194,7 +194,7 @@ ISurfaceScatteringBSDF ZOSAPI.Editors.LDE.ISurfaceScatteringType._S_BSDF
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceScatteringType._S_BSDF"}]}`
 -->
 
-### Property \_S\_User
+### Property _S_User
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_type_1ad5ab726bef7c89086a96d358eaeb1fff"></a>
 
@@ -216,7 +216,7 @@ ISurfaceScatteringUser ZOSAPI.Editors.LDE.ISurfaceScatteringType._S_User
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceScatteringType._S_User"}]}`
 -->
 
-### Property \_S\_Catalog
+### Property _S_Catalog
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_type_1a460cc29aca79c49f69c4b9c4c2612bbc"></a>
 
@@ -238,7 +238,5 @@ ISurfaceScatteringCatalog ZOSAPI.Editors.LDE.ISurfaceScatteringType._S_Catalog
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceScatteringType._S_Catalog"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

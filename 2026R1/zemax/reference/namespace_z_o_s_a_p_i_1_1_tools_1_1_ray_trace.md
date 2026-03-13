@@ -83,32 +83,32 @@ enum LTRaySampling {
 ```
 
 
-#### Enumerator S\_1X\_Low
+#### Enumerator S_1X_Low
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_ray_trace_1a1bd3ea2a91ce2841c603e79af6cac143a2287710e81fa535eaad194e6bbfcf97c"></a>
 
 
-#### Enumerator S\_4X
+#### Enumerator S_4X
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_ray_trace_1a1bd3ea2a91ce2841c603e79af6cac143a8a42ac08e88c815910040ea9d7e66134"></a>
 
 
-#### Enumerator S\_16X
+#### Enumerator S_16X
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_ray_trace_1a1bd3ea2a91ce2841c603e79af6cac143a3d32798c6bd46b54cf9b3c2fe3a2cb6a"></a>
 
 
-#### Enumerator S\_64X
+#### Enumerator S_64X
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_ray_trace_1a1bd3ea2a91ce2841c603e79af6cac143abf3c464a49f3902cb41ee476b7d04783"></a>
 
 
-#### Enumerator S\_256X
+#### Enumerator S_256X
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_ray_trace_1a1bd3ea2a91ce2841c603e79af6cac143aace07c0b7af3b2b72ddbe241209d9e7d"></a>
 
 
-#### Enumerator S\_1024X
+#### Enumerator S_1024X
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_ray_trace_1a1bd3ea2a91ce2841c603e79af6cac143aa973f3ca16117a1e4dedbb1abfdc5b37"></a>
 
@@ -139,27 +139,27 @@ enum LTEdgeSasmpling {
 ```
 
 
-#### Enumerator S\_1X\_Low
+#### Enumerator S_1X_Low
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_ray_trace_1a56f5f78b56ea85b669b22ff98995ca46a2287710e81fa535eaad194e6bbfcf97c"></a>
 
 
-#### Enumerator S\_4X
+#### Enumerator S_4X
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_ray_trace_1a56f5f78b56ea85b669b22ff98995ca46a8a42ac08e88c815910040ea9d7e66134"></a>
 
 
-#### Enumerator S\_16X
+#### Enumerator S_16X
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_ray_trace_1a56f5f78b56ea85b669b22ff98995ca46a3d32798c6bd46b54cf9b3c2fe3a2cb6a"></a>
 
 
-#### Enumerator S\_64X
+#### Enumerator S_64X
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_ray_trace_1a56f5f78b56ea85b669b22ff98995ca46abf3c464a49f3902cb41ee476b7d04783"></a>
 
 
-#### Enumerator S\_256X
+#### Enumerator S_256X
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_ray_trace_1a56f5f78b56ea85b669b22ff98995ca46aace07c0b7af3b2b72ddbe241209d9e7d"></a>
 
@@ -221,7 +221,7 @@ enum OPDMode {
 ```
 
 
-Usage (see [Example 23](page_ex23.md#page_ex23) for a full sample)
+Usage (see [Example 23](../apiexamples/example_23.md) for a full sample)
 
 
 C# 
@@ -504,10 +504,9 @@ enum RayStatus {
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Tools.RayTrace.RayStatus"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+[private]: https://img.shields.io/badge/-private-red (private)
 [package]: https://img.shields.io/badge/-package-blueviolet (package)
-[Markdown]: https://img.shields.io/badge/language-Markdown-blue (Markdown)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

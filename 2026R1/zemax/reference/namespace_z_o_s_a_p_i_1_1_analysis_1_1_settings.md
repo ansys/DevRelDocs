@@ -75,27 +75,27 @@ enum HuygensPsfTypes {
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1a0dde1d3ca46e256f36ca97defdcd46eca32a843da6ea40ab3b17a3421ccdf671b"></a>
 
 
-#### Enumerator Log\_Minus\_1
+#### Enumerator Log_Minus_1
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1a0dde1d3ca46e256f36ca97defdcd46eca7b17399d50a72973d8a117d8b8e0e207"></a>
 
 
-#### Enumerator Log\_Minus\_2
+#### Enumerator Log_Minus_2
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1a0dde1d3ca46e256f36ca97defdcd46ecaa590a1fc1d904e999dcd22fc7e8c6de4"></a>
 
 
-#### Enumerator Log\_Minus\_3
+#### Enumerator Log_Minus_3
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1a0dde1d3ca46e256f36ca97defdcd46eca8258f5848dac2ea7141f966d7f6027d0"></a>
 
 
-#### Enumerator Log\_Minus\_4
+#### Enumerator Log_Minus_4
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1a0dde1d3ca46e256f36ca97defdcd46eca931276910191540507859e3b203eb50f"></a>
 
 
-#### Enumerator Log\_Minus\_5
+#### Enumerator Log_Minus_5
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1a0dde1d3ca46e256f36ca97defdcd46ecafe0a6990e4852712c7ad0222a8e51007"></a>
 
@@ -146,7 +146,7 @@ enum DetectorViewerScaleTypes {
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1aed28df3cd5d8c66babc3da0f30efaa86a32a843da6ea40ab3b17a3421ccdf671b"></a>
 
 
-#### Enumerator Log\_Minus\_5
+#### Enumerator Log_Minus_5
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1aed28df3cd5d8c66babc3da0f30efaa86afe0a6990e4852712c7ad0222a8e51007"></a>
 
@@ -156,12 +156,12 @@ enum DetectorViewerScaleTypes {
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1aed28df3cd5d8c66babc3da0f30efaa86a66b28fcf83c9f24cd5b4d7bdc8f8ba0e"></a>
 
 
-#### Enumerator Log\_Minus\_10
+#### Enumerator Log_Minus_10
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1aed28df3cd5d8c66babc3da0f30efaa86acf1e3b9b35b12816f0e0afb7b26a51e5"></a>
 
 
-#### Enumerator Log\_Minus\_15
+#### Enumerator Log_Minus_15
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1aed28df3cd5d8c66babc3da0f30efaa86a74f280695bee2053c0e5823d031f0c17"></a>
 
@@ -197,52 +197,52 @@ enum PsfTypes {
 ```
 
 
-#### Enumerator X\_Linear
+#### Enumerator X_Linear
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1a36cd0a348d40135028aa227b3097b3f9a49baef28f21e34221943fa0479f5383d"></a>
 
 
-#### Enumerator Y\_Linear
+#### Enumerator Y_Linear
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1a36cd0a348d40135028aa227b3097b3f9a82920f545ed2a6deaa9a36f240316719"></a>
 
 
-#### Enumerator X\_Logarithmic
+#### Enumerator X_Logarithmic
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1a36cd0a348d40135028aa227b3097b3f9a1087cc9ddb651ead475a3ad6ca9cbe2b"></a>
 
 
-#### Enumerator Y\_Logarithmic
+#### Enumerator Y_Logarithmic
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1a36cd0a348d40135028aa227b3097b3f9a2c29091edaee23e9fffc2010c7e74946"></a>
 
 
-#### Enumerator X\_Phase
+#### Enumerator X_Phase
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1a36cd0a348d40135028aa227b3097b3f9aeb5f127f71934c56d1edbb4ae1141f16"></a>
 
 
-#### Enumerator Y\_Phase
+#### Enumerator Y_Phase
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1a36cd0a348d40135028aa227b3097b3f9a36ec9cccdd07a389b845c8a18f732c24"></a>
 
 
-#### Enumerator X\_RealPart
+#### Enumerator X_RealPart
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1a36cd0a348d40135028aa227b3097b3f9adc08166ac535893f100fd925caa684fd"></a>
 
 
-#### Enumerator Y\_RealPart
+#### Enumerator Y_RealPart
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1a36cd0a348d40135028aa227b3097b3f9a6bd4add651dd02f5d3426a5452ada6ea"></a>
 
 
-#### Enumerator X\_ImaginaryPart
+#### Enumerator X_ImaginaryPart
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1a36cd0a348d40135028aa227b3097b3f9a495595de8d8abdf208e5036fd97752cb"></a>
 
 
-#### Enumerator Y\_ImaginaryPart
+#### Enumerator Y_ImaginaryPart
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1a36cd0a348d40135028aa227b3097b3f9a0f539263afdb92c150e54597f6153b77"></a>
 
@@ -305,22 +305,22 @@ enum Rotations {
 ```
 
 
-#### Enumerator Rotate\_0
+#### Enumerator Rotate_0
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1a05d6bd336a1919868931d60c81909c79a8edcb3101c9a367654292b3d3a65f358"></a>
 
 
-#### Enumerator Rotate\_90
+#### Enumerator Rotate_90
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1a05d6bd336a1919868931d60c81909c79a6d9e88e083751898b2e3c92e2110cb5c"></a>
 
 
-#### Enumerator Rotate\_180
+#### Enumerator Rotate_180
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1a05d6bd336a1919868931d60c81909c79aa4108b82007a70b7b824a538645b1b98"></a>
 
 
-#### Enumerator Rotate\_270
+#### Enumerator Rotate_270
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1a05d6bd336a1919868931d60c81909c79acd0f69e3e36afeb4d097e0488994c88b"></a>
 
@@ -395,22 +395,22 @@ enum ScanTypes {
 ```
 
 
-#### Enumerator Plus\_Y
+#### Enumerator Plus_Y
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1a272fe1584c38c9e5cda414b8b874d8f0a1eab11b7a1ada8f1dac89046e796b587"></a>
 
 
-#### Enumerator Plus\_X
+#### Enumerator Plus_X
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1a272fe1584c38c9e5cda414b8b874d8f0ad435e9dc7d8efa70f554777467a849c6"></a>
 
 
-#### Enumerator Minus\_Y
+#### Enumerator Minus_Y
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1a272fe1584c38c9e5cda414b8b874d8f0ae8675dc13adb958ec6e6b9cc59d0141c"></a>
 
 
-#### Enumerator Minus\_X
+#### Enumerator Minus_X
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1a272fe1584c38c9e5cda414b8b874d8f0a1b48579d82fe194199b2495a33956cd6"></a>
 
@@ -643,9 +643,6 @@ enum STAREffectsOptions {
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.STAREffectsOptions"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
-[package]: https://img.shields.io/badge/-package-blueviolet (package)

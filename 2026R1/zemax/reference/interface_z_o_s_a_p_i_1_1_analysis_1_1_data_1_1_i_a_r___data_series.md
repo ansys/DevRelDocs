@@ -8,7 +8,7 @@
 **Definition**:
 
 
-Usage (see [Example 23](page_ex23.md#page_ex23) for a full sample)
+Usage (see [Example 23](../apiexamples/example_23.md) for a full sample)
 
 
 C# 
@@ -129,7 +129,7 @@ IVectorData ZOSAPI.Analysis.Data.IAR_DataSeries.XData
 ```
 
 
-Usage (see [Example 04](page_ex04.md#page_ex04) for a full sample)
+Usage (see [Example 04](../apiexamples/example_04.md) for a full sample)
 
 
 C# 
@@ -311,7 +311,5 @@ IAR_DataSeriesRgb ZOSAPI.Analysis.Data.IAR_DataSeries.ConvertToRGB(IColorTransla
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_DataSeries.ConvertToRGB"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

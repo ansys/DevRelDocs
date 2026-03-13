@@ -37,7 +37,7 @@
 
 ## Properties
 
-### Property Decenter\_X\_Cell
+### Property Decenter_X_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_irregular_1a81baa23639b2db0b02be8cc73c835242"></a>
 
@@ -59,7 +59,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceIrregular.Decenter_X_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceIrregular.Decenter_X_Cell"}]}`
 -->
 
-### Property Decenter\_Y\_Cell
+### Property Decenter_Y_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_irregular_1a41b8127aea69ca660714598e78f584d7"></a>
 
@@ -81,7 +81,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceIrregular.Decenter_Y_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceIrregular.Decenter_Y_Cell"}]}`
 -->
 
-### Property TiltAbout\_X\_Cell
+### Property TiltAbout_X_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_irregular_1a67f398e568e8609740e68d88181edd5e"></a>
 
@@ -103,7 +103,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceIrregular.TiltAbout_X_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceIrregular.TiltAbout_X_Cell"}]}`
 -->
 
-### Property TiltAbout\_Y\_Cell
+### Property TiltAbout_Y_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_irregular_1aa969b9e38c54a3b5296ed2235950d1ea"></a>
 
@@ -213,7 +213,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceIrregular.AngleCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceIrregular.AngleCell"}]}`
 -->
 
-### Property Decenter\_X
+### Property Decenter_X
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_irregular_1a280cbb9cc4d0b8c5449a76dc1d9ffa62"></a>
 
@@ -235,7 +235,7 @@ double ZOSAPI.Editors.LDE.ISurfaceIrregular.Decenter_X
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceIrregular.Decenter_X"}]}`
 -->
 
-### Property Decenter\_Y
+### Property Decenter_Y
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_irregular_1a92e96b2c0543cccfd6bc0a2cf3c22705"></a>
 
@@ -257,7 +257,7 @@ double ZOSAPI.Editors.LDE.ISurfaceIrregular.Decenter_Y
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceIrregular.Decenter_Y"}]}`
 -->
 
-### Property TiltAbout\_X
+### Property TiltAbout_X
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_irregular_1a7dcb2f24e5b3159b823bf04095ea5e0f"></a>
 
@@ -279,7 +279,7 @@ double ZOSAPI.Editors.LDE.ISurfaceIrregular.TiltAbout_X
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceIrregular.TiltAbout_X"}]}`
 -->
 
-### Property TiltAbout\_Y
+### Property TiltAbout_Y
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_irregular_1a07851aefb3116f740efe0d4ff507afe3"></a>
 
@@ -389,7 +389,5 @@ double ZOSAPI.Editors.LDE.ISurfaceIrregular.Angle
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceIrregular.Angle"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

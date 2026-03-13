@@ -61,7 +61,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceNonSequential.DrawPortsCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceNonSequential.DrawPortsCell"}]}`
 -->
 
-### Property ExitLocation\_X\_Cell
+### Property ExitLocation_X_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_non_sequential_1a64646e0dc268c3c1b695a4959ebc06d4"></a>
 
@@ -83,7 +83,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceNonSequential.ExitLocation_X_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceNonSequential.ExitLocation_X_Cell"}]}`
 -->
 
-### Property ExitLocation\_Y\_Cell
+### Property ExitLocation_Y_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_non_sequential_1aec16453dd9b84e06a93d77c88e3434cc"></a>
 
@@ -105,7 +105,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceNonSequential.ExitLocation_Y_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceNonSequential.ExitLocation_Y_Cell"}]}`
 -->
 
-### Property ExitLocation\_Z\_Cell
+### Property ExitLocation_Z_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_non_sequential_1a72ff2e20f625a6542b5951a1d5384a6d"></a>
 
@@ -127,7 +127,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceNonSequential.ExitLocation_Z_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceNonSequential.ExitLocation_Z_Cell"}]}`
 -->
 
-### Property ExitTilt\_X\_Cell
+### Property ExitTilt_X_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_non_sequential_1ad3ce443439c5fa2ecd935a526d20fa59"></a>
 
@@ -149,7 +149,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceNonSequential.ExitTilt_X_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceNonSequential.ExitTilt_X_Cell"}]}`
 -->
 
-### Property ExitTilt\_Y\_Cell
+### Property ExitTilt_Y_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_non_sequential_1a4516be3cef0d136175621cd0fe9e93e3"></a>
 
@@ -171,7 +171,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceNonSequential.ExitTilt_Y_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceNonSequential.ExitTilt_Y_Cell"}]}`
 -->
 
-### Property ExitTilt\_Z\_Cell
+### Property ExitTilt_Z_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_non_sequential_1a9316f6af64264e2dbdd6d1dd8a1621a4"></a>
 
@@ -259,7 +259,7 @@ int ZOSAPI.Editors.LDE.ISurfaceNonSequential.DrawPorts
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceNonSequential.DrawPorts"}]}`
 -->
 
-### Property ExitLocation\_X
+### Property ExitLocation_X
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_non_sequential_1abb8908b1321b18e23eb5837a6e9490a6"></a>
 
@@ -281,7 +281,7 @@ double ZOSAPI.Editors.LDE.ISurfaceNonSequential.ExitLocation_X
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceNonSequential.ExitLocation_X"}]}`
 -->
 
-### Property ExitLocation\_Y
+### Property ExitLocation_Y
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_non_sequential_1af346c76cd4281989a38e54b415e4a958"></a>
 
@@ -303,7 +303,7 @@ double ZOSAPI.Editors.LDE.ISurfaceNonSequential.ExitLocation_Y
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceNonSequential.ExitLocation_Y"}]}`
 -->
 
-### Property ExitLocation\_Z
+### Property ExitLocation_Z
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_non_sequential_1a02e1dac56a43d43124641d2c5944763f"></a>
 
@@ -325,7 +325,7 @@ double ZOSAPI.Editors.LDE.ISurfaceNonSequential.ExitLocation_Z
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceNonSequential.ExitLocation_Z"}]}`
 -->
 
-### Property ExitTilt\_X
+### Property ExitTilt_X
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_non_sequential_1ac8edde943c706702c90249adada35f76"></a>
 
@@ -347,7 +347,7 @@ double ZOSAPI.Editors.LDE.ISurfaceNonSequential.ExitTilt_X
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceNonSequential.ExitTilt_X"}]}`
 -->
 
-### Property ExitTilt\_Y
+### Property ExitTilt_Y
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_non_sequential_1a5ad8f5510024d9751b551b40ee69ebb1"></a>
 
@@ -369,7 +369,7 @@ double ZOSAPI.Editors.LDE.ISurfaceNonSequential.ExitTilt_Y
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceNonSequential.ExitTilt_Y"}]}`
 -->
 
-### Property ExitTilt\_Z
+### Property ExitTilt_Z
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_non_sequential_1afc80b8a8e80479a07929848db91286aa"></a>
 
@@ -435,7 +435,5 @@ int ZOSAPI.Editors.LDE.ISurfaceNonSequential.ReverseRays
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceNonSequential.ReverseRays"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

@@ -47,7 +47,7 @@ int ZOSAPI.SystemData.IFields.NumberOfFields
 
 Gets the number of fields currently defined in the system.
 
-Usage (see [Example 22](page_ex22.md#page_ex22) for a full sample)
+Usage (see [Example 22](../apiexamples/example_22.md) for a full sample)
 
 
 C# 
@@ -133,7 +133,7 @@ IField ZOSAPI.SystemData.IFields.GetField(int position)
 
 Gets the specified field.
 
-Usage (see [Example 12](page_ex12.md#page_ex12) for a full sample)
+Usage (see [Example 12](../apiexamples/example_12.md) for a full sample)
 
 
 C# 
@@ -203,7 +203,7 @@ IField ZOSAPI.SystemData.IFields.AddField(double X, double Y, double Weight)
 
 Add a new field, after all the current fields.
 
-Usage (see [Example 01](page_ex01.md#page_ex01) for a full sample)
+Usage (see [Example 01](../apiexamples/example_01.md) for a full sample)
 
 
 C# 
@@ -381,7 +381,7 @@ void ZOSAPI.SystemData.IFields.SetFieldType(FieldType type)
 
 Sets the field type definition for all fields.
 
-Usage (see [Example 12](page_ex12.md#page_ex12) for a full sample)
+Usage (see [Example 12](../apiexamples/example_12.md) for a full sample)
 
 
 C# 
@@ -442,7 +442,7 @@ bool ZOSAPI.SystemData.IFields.MakeEqualAreaFields(int numberOfFields, double ma
 
 Replaces the existing system fields with new fields spread over an equal area.
 
-Usage (see [Example 15](page_ex15.md#page_ex15) for a full sample)
+Usage (see [Example 15](../apiexamples/example_15.md) for a full sample)
 
 
 C# 
@@ -669,7 +669,5 @@ IMessage ZOSAPI.SystemData.IFields.ConvertToFieldType(FieldType type)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.SystemData.IFields.ConvertToFieldType"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

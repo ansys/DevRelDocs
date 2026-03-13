@@ -9,7 +9,7 @@
 
 Volume Physics Model - Angle Scattering. This interface can be accessed via the INCEVolumePhysicsData interface.
 
-Usage (see [Example 17](page_ex17.md#page_ex17) for a full sample)
+Usage (see [Example 17](../apiexamples/example_17.md) for a full sample)
 
 
 C# 
@@ -162,8 +162,5 @@ double ZOSAPI.Editors.NCE.IVMPS_AngleScattering.Angle
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IVMPS_AngleScattering.Angle"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)
-[static]: https://img.shields.io/badge/-static-lightgrey (static)

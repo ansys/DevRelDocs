@@ -42,52 +42,52 @@ enum PsfSampling {
 ```
 
 
-#### Enumerator PsfS\_32x32
+#### Enumerator PsfS_32x32
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_psf_1a6c2424d511ddc42e2f3c0ff769ecfeb6a3e42513372d580d890552f0e517593bc"></a>
 
 
-#### Enumerator PsfS\_64x64
+#### Enumerator PsfS_64x64
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_psf_1a6c2424d511ddc42e2f3c0ff769ecfeb6ac9a69fb1759117b9f07ec92da73547a3"></a>
 
 
-#### Enumerator PsfS\_128x128
+#### Enumerator PsfS_128x128
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_psf_1a6c2424d511ddc42e2f3c0ff769ecfeb6ab770602b79fe85a56bb6d662803afde2"></a>
 
 
-#### Enumerator PsfS\_256x256
+#### Enumerator PsfS_256x256
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_psf_1a6c2424d511ddc42e2f3c0ff769ecfeb6a5905d4f190667753974bab2687dd1489"></a>
 
 
-#### Enumerator PsfS\_512x512
+#### Enumerator PsfS_512x512
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_psf_1a6c2424d511ddc42e2f3c0ff769ecfeb6a017d3d4bba2f585124a28deedd3e64d7"></a>
 
 
-#### Enumerator PsfS\_1024x1024
+#### Enumerator PsfS_1024x1024
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_psf_1a6c2424d511ddc42e2f3c0ff769ecfeb6ac8531cad46ed0bc939e9eb0473fa055b"></a>
 
 
-#### Enumerator PsfS\_2048x2048
+#### Enumerator PsfS_2048x2048
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_psf_1a6c2424d511ddc42e2f3c0ff769ecfeb6a171b022224fa87576fa6dcac89540fe3"></a>
 
 
-#### Enumerator PsfS\_4096x4096
+#### Enumerator PsfS_4096x4096
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_psf_1a6c2424d511ddc42e2f3c0ff769ecfeb6aa918b8256ab877d969e22fceaf62325e"></a>
 
 
-#### Enumerator PsfS\_8192x8192
+#### Enumerator PsfS_8192x8192
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_psf_1a6c2424d511ddc42e2f3c0ff769ecfeb6a13f40064b64dfc4b7f94344dc6038d54"></a>
 
 
-#### Enumerator PsfS\_16384x16384
+#### Enumerator PsfS_16384x16384
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_psf_1a6c2424d511ddc42e2f3c0ff769ecfeb6a3963dd3331ae3892b145f5d9eba9c2fc"></a>
 
@@ -194,9 +194,8 @@ enum FftPsfType {
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Psf.FftPsfType"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+[private]: https://img.shields.io/badge/-private-red (private)
 [package]: https://img.shields.io/badge/-package-blueviolet (package)

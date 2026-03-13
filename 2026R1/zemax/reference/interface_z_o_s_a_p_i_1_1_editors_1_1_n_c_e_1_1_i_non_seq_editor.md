@@ -446,7 +446,7 @@ INCERow ZOSAPI.Editors.NCE.INonSeqEditor.GetObjectAt(int ObjectNumber)
 
 Gets the object at the specified position.
 
-Usage (see [Example 17](page_ex17.md#page_ex17) for a full sample)
+Usage (see [Example 17](../apiexamples/example_17.md) for a full sample)
 
 
 C# 
@@ -520,7 +520,7 @@ INCERow ZOSAPI.Editors.NCE.INonSeqEditor.InsertNewObjectAt(int ObjectNumber)
 
 Inserts a new object at the specified position.
 
-Usage (see [Example 17](page_ex17.md#page_ex17) for a full sample)
+Usage (see [Example 17](../apiexamples/example_17.md) for a full sample)
 
 
 C# 
@@ -594,7 +594,7 @@ INCERow ZOSAPI.Editors.NCE.INonSeqEditor.AddObject()
 
 Adds a new object as the last object in the system.
 
-Usage (see [Example 21](page_ex21.md#page_ex21) for a full sample)
+Usage (see [Example 21](../apiexamples/example_21.md) for a full sample)
 
 
 C# 
@@ -661,7 +661,7 @@ bool ZOSAPI.Editors.NCE.INonSeqEditor.RemoveObjectAt(int ObjectNumber)
 
 Removes the object at the specified location.
 
-Usage (see [Example 08](page_ex08.md#page_ex08) for a full sample)
+Usage (see [Example 08](../apiexamples/example_08.md) for a full sample)
 
 
 C# 
@@ -889,7 +889,7 @@ bool ZOSAPI.Editors.NCE.INonSeqEditor.GetMatrix(int ObjectNumber, out double R11
 
 Get the rotation and position matrices for NSC objects relative to the NSC surface origin.
 
-Usage (see [Example 08](page_ex08.md#page_ex08) for a full sample)
+Usage (see [Example 08](../apiexamples/example_08.md) for a full sample)
 
 
 C# 
@@ -1007,7 +1007,7 @@ bool ZOSAPI.Editors.NCE.INonSeqEditor.GetDetectorDimensions(int ObjectNumber, ou
 
 Gets the dimensions of the specified detector.
 
-Usage (see [Example 10](page_ex10.md#page_ex10) for a full sample)
+Usage (see [Example 10](../apiexamples/example_10.md) for a full sample)
 
 
 C# 
@@ -1127,7 +1127,7 @@ bool ZOSAPI.Editors.NCE.INonSeqEditor.GetCoherentData(int ObjectNumber, int pixe
 
 Gets data from a NSC detector.
 
-Usage (see [Example 08](page_ex08.md#page_ex08) for a full sample)
+Usage (see [Example 08](../apiexamples/example_08.md) for a full sample)
 
 
 C# 
@@ -1212,7 +1212,7 @@ double[,] ZOSAPI.Editors.NCE.INonSeqEditor.GetAllCoherentDataSafe(int ObjectNumb
 
 Gets data from a NSC detector for all pixels.
 
-Usage (see [Example 24](page_ex24.md#page_ex24) for a full sample)
+Usage (see [Example 24](../apiexamples/example_24.md) for a full sample)
 
 
 C# 
@@ -1276,7 +1276,7 @@ bool ZOSAPI.Editors.NCE.INonSeqEditor.GetAllCoherentData(int ObjectNumber, Detec
 
 Gets data from a NSC detector for all pixels.
 
-Usage (see [Example 08](page_ex08.md#page_ex08) for a full sample)
+Usage (see [Example 08](../apiexamples/example_08.md) for a full sample)
 
 
 C++ 
@@ -1369,7 +1369,7 @@ bool ZOSAPI.Editors.NCE.INonSeqEditor.GetDetectorData(int ObjectNumber, int pixe
 
 Gets data from a NSC detector.
 
-Usage (see [Example 10](page_ex10.md#page_ex10) for a full sample)
+Usage (see [Example 10](../apiexamples/example_10.md) for a full sample)
 
 
 C# 
@@ -1590,7 +1590,7 @@ bool ZOSAPI.Editors.NCE.INonSeqEditor.GetAllDetectorData(int ObjectNumber, int D
 
 Similar to GetDetectorData, but retrieves data for all pixels at once.
 
-Usage (see [Example 02](page_ex02.md#page_ex02) for a full sample)
+Usage (see [Example 02](../apiexamples/example_02.md) for a full sample)
 
 
 C# 
@@ -1725,7 +1725,7 @@ bool ZOSAPI.Editors.NCE.INonSeqEditor.GetPolarDetectorData(int ObjectNumber, int
 
 Gets data from a NSC detector.
 
-Usage (see [Example 08](page_ex08.md#page_ex08) for a full sample)
+Usage (see [Example 08](../apiexamples/example_08.md) for a full sample)
 
 
 C++ 
@@ -1874,7 +1874,7 @@ bool ZOSAPI.Editors.NCE.INonSeqEditor.GetAllPolarDetectorData(int ObjectNumber, 
 
 Similar to GetDetectorData, but retrieves data for all pixels at once.
 
-Usage (see [Example 08](page_ex08.md#page_ex08) for a full sample)
+Usage (see [Example 08](../apiexamples/example_08.md) for a full sample)
 
 
 C# 
@@ -1979,7 +1979,7 @@ double[,] ZOSAPI.Editors.NCE.INonSeqEditor.GetAllPolarDetectorDataSafe(int Objec
 
 Similar to GetDetectorData, but retrieves data for all pixels at once.
 
-Usage (see [Example 08](page_ex08.md#page_ex08) for a full sample)
+Usage (see [Example 08](../apiexamples/example_08.md) for a full sample)
 
 
 C# 
@@ -2061,7 +2061,7 @@ bool ZOSAPI.Editors.NCE.INonSeqEditor.LoadDetector(int ObjectNumber, string file
 
 Loads the data saved in a file to an NSC Detector Rectangle, Detector Color, Detector Polar, or Detector Volume object.
 
-Usage (see [Example 08](page_ex08.md#page_ex08) for a full sample)
+Usage (see [Example 08](../apiexamples/example_08.md) for a full sample)
 
 
 C# 
@@ -2150,7 +2150,7 @@ bool ZOSAPI.Editors.NCE.INonSeqEditor.SaveDetector(int ObjectNumber, string file
 
 Saves the data currently on an NSC Detector Rectangle, Detector Color, Detector Polar, or Detector Volume object to a file.
 
-Usage (see [Example 08](page_ex08.md#page_ex08) for a full sample)
+Usage (see [Example 08](../apiexamples/example_08.md) for a full sample)
 
 
 C# 
@@ -2815,7 +2815,5 @@ void ZOSAPI.Editors.NCE.INonSeqEditor.SetMuellerMatrixData(int obj, bool isRetar
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.INonSeqEditor.SetMuellerMatrixData"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

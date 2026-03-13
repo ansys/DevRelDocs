@@ -170,7 +170,7 @@ bool ZOSAPI.Analysis.Settings.Mtf.IAS_HuygensMtfvsField.UsePolarization
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Mtf.IAS_HuygensMtfvsField.UsePolarization"}]}`
 -->
 
-### Property Freq\_1
+### Property Freq_1
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1_1_i_a_s___huygens_mtfvs_field_1af534617421cbf164d91e706efc3ff5f0"></a>
 
@@ -192,7 +192,7 @@ double ZOSAPI.Analysis.Settings.Mtf.IAS_HuygensMtfvsField.Freq_1
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Mtf.IAS_HuygensMtfvsField.Freq_1"}]}`
 -->
 
-### Property Freq\_2
+### Property Freq_2
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1_1_i_a_s___huygens_mtfvs_field_1a106a2557c101eafdbbd2ee52e5fc79a1"></a>
 
@@ -214,7 +214,7 @@ double ZOSAPI.Analysis.Settings.Mtf.IAS_HuygensMtfvsField.Freq_2
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Mtf.IAS_HuygensMtfvsField.Freq_2"}]}`
 -->
 
-### Property Freq\_3
+### Property Freq_3
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1_1_i_a_s___huygens_mtfvs_field_1a67d0d414e81efcf4cf1abb5a3f9014db"></a>
 
@@ -236,7 +236,7 @@ double ZOSAPI.Analysis.Settings.Mtf.IAS_HuygensMtfvsField.Freq_3
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Mtf.IAS_HuygensMtfvsField.Freq_3"}]}`
 -->
 
-### Property Freq\_4
+### Property Freq_4
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1_1_i_a_s___huygens_mtfvs_field_1ad4e864f302163c8025ca2b013e0a3b0b"></a>
 
@@ -258,7 +258,7 @@ double ZOSAPI.Analysis.Settings.Mtf.IAS_HuygensMtfvsField.Freq_4
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Mtf.IAS_HuygensMtfvsField.Freq_4"}]}`
 -->
 
-### Property Freq\_5
+### Property Freq_5
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1_1_i_a_s___huygens_mtfvs_field_1a5d41291f710ae1e0c580202629676c46"></a>
 
@@ -280,7 +280,7 @@ double ZOSAPI.Analysis.Settings.Mtf.IAS_HuygensMtfvsField.Freq_5
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Mtf.IAS_HuygensMtfvsField.Freq_5"}]}`
 -->
 
-### Property Freq\_6
+### Property Freq_6
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1_1_i_a_s___huygens_mtfvs_field_1a66e29856138e9e578abe91326cdedb4f"></a>
 
@@ -346,7 +346,5 @@ double ZOSAPI.Analysis.Settings.Mtf.IAS_HuygensMtfvsField.ImageDelta
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Mtf.IAS_HuygensMtfvsField.ImageDelta"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

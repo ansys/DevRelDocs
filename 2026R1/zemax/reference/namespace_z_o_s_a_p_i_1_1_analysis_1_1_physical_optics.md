@@ -307,17 +307,17 @@ enum POPScaleTypes {
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_physical_optics_1aa93bf9b40b23578a6b2200bc655be1fda32a843da6ea40ab3b17a3421ccdf671b"></a>
 
 
-#### Enumerator Log\_Minus\_5
+#### Enumerator Log_Minus_5
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_physical_optics_1aa93bf9b40b23578a6b2200bc655be1fdafe0a6990e4852712c7ad0222a8e51007"></a>
 
 
-#### Enumerator Log\_Minus\_10
+#### Enumerator Log_Minus_10
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_physical_optics_1aa93bf9b40b23578a6b2200bc655be1fdacf1e3b9b35b12816f0e0afb7b26a51e5"></a>
 
 
-#### Enumerator Log\_Minus\_15
+#### Enumerator Log_Minus_15
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_physical_optics_1aa93bf9b40b23578a6b2200bc655be1fda74f280695bee2053c0e5823d031f0c17"></a>
 
@@ -475,9 +475,8 @@ enum POPFiberPositions {
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.PhysicalOptics.POPFiberPositions"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+[private]: https://img.shields.io/badge/-private-red (private)
 [package]: https://img.shields.io/badge/-package-blueviolet (package)

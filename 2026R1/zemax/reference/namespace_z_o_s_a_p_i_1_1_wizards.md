@@ -300,22 +300,22 @@ enum PupilArmsCount {
 ```
 
 
-#### Enumerator Arms\_6
+#### Enumerator Arms_6
 
 <a id="namespace_z_o_s_a_p_i_1_1_wizards_1af829f590cfa48258a75ca3b619027d69a9d3c1d17b91ae375fdaca18345921a49"></a>
 
 
-#### Enumerator Arms\_8
+#### Enumerator Arms_8
 
 <a id="namespace_z_o_s_a_p_i_1_1_wizards_1af829f590cfa48258a75ca3b619027d69a789cd69c7c4272ff15fc94ba2de5f69e"></a>
 
 
-#### Enumerator Arms\_10
+#### Enumerator Arms_10
 
 <a id="namespace_z_o_s_a_p_i_1_1_wizards_1af829f590cfa48258a75ca3b619027d69ae02e760b251d688ae952d75b974b125c"></a>
 
 
-#### Enumerator Arms\_12
+#### Enumerator Arms_12
 
 <a id="namespace_z_o_s_a_p_i_1_1_wizards_1af829f590cfa48258a75ca3b619027d69a563b9ed4292f3986149e93bbb6ab46a6"></a>
 
@@ -422,11 +422,9 @@ enum ToleranceGrade {
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Wizards.ToleranceGrade"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+[private]: https://img.shields.io/badge/-private-red (private)
 [package]: https://img.shields.io/badge/-package-blueviolet (package)
-[Markdown]: https://img.shields.io/badge/language-Markdown-blue (Markdown)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

@@ -233,7 +233,7 @@ false
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.CloseAnalysis"}]}`
 -->
 
-### Function Get\_AnalysisAtIndex
+### Function Get_AnalysisAtIndex
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a22ffe134f0f76ae7fab7355593135321"></a>
 
@@ -273,7 +273,7 @@ null
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.Get_AnalysisAtIndex"}]}`
 -->
 
-### Function New\_Analysis
+### Function New_Analysis
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a86872ffd3aac96e807ce237410dfbac5"></a>
 
@@ -287,7 +287,7 @@ IA_ ZOSAPI.Analysis.I_Analyses.New_Analysis(AnalysisIDM AnalysisType)
 
 Create a new analysis of the specified type.
 
-Usage (see [Example 15](page_ex15.md#page_ex15) for a full sample)
+Usage (see [Example 15](../apiexamples/example_15.md) for a full sample)
 
 
 C# 
@@ -422,7 +422,7 @@ null
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_Analysis"}]}`
 -->
 
-### Function New\_Analysis\_SettingsFirst
+### Function New_Analysis_SettingsFirst
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a7f9227ad7b968a6a82a33288f724e988"></a>
 
@@ -462,7 +462,7 @@ null
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_Analysis_SettingsFirst"}]}`
 -->
 
-### Function New\_XXXTemplateXXX
+### Function New_XXXTemplateXXX
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a7840baacf09a1bb28264488e128706d3"></a>
 
@@ -482,7 +482,7 @@ IA_ ZOSAPI.Analysis.I_Analyses.New_XXXTemplateXXX()
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_XXXTemplateXXX"}]}`
 -->
 
-### Function New\_RayFan
+### Function New_RayFan
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a714b8f110c5dab5bee745ed40ba21c92"></a>
 
@@ -507,7 +507,7 @@ Open a new Ray Fan window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_RayFan"}]}`
 -->
 
-### Function New\_OpticalPathFan
+### Function New_OpticalPathFan
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1ac2d0cfd984f2a6085f85faffe3047b89"></a>
 
@@ -532,7 +532,7 @@ Open a new OPD Fan window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_OpticalPathFan"}]}`
 -->
 
-### Function New\_PupilAberrationFan
+### Function New_PupilAberrationFan
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1af253b0695feb58d506876b53ef8258d7"></a>
 
@@ -557,7 +557,7 @@ Open a new Pupil Aberration Fan window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_PupilAberrationFan"}]}`
 -->
 
-### Function New\_FieldCurvatureAndDistortion
+### Function New_FieldCurvatureAndDistortion
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1adfb653907f157b8601ed4cbb6e06d206"></a>
 
@@ -582,7 +582,7 @@ Open a new Field Curv/Dist window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_FieldCurvatureAndDistortion"}]}`
 -->
 
-### Function New\_FocalShiftDiagram
+### Function New_FocalShiftDiagram
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1adaa14ff72700d15da4ec46457fe870e3"></a>
 
@@ -607,7 +607,7 @@ Open a new Focal Shift window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_FocalShiftDiagram"}]}`
 -->
 
-### Function New\_GridDistortion
+### Function New_GridDistortion
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1aa6a91a94496c9e10d2a886091c497d0e"></a>
 
@@ -632,7 +632,7 @@ Open a new Grid Distortion window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_GridDistortion"}]}`
 -->
 
-### Function New\_LateralColor
+### Function New_LateralColor
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a6e57824647a01c8487d7dcae67a8698d"></a>
 
@@ -657,7 +657,7 @@ Open a new Lateral Color window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_LateralColor"}]}`
 -->
 
-### Function New\_LongitudinalAberration
+### Function New_LongitudinalAberration
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1afee82ee22ebe123a9796abde9727604a"></a>
 
@@ -682,7 +682,7 @@ Open a new Longitudinal Aberration window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_LongitudinalAberration"}]}`
 -->
 
-### Function New\_RayTrace
+### Function New_RayTrace
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a7ac3f925d62a065178889eddab50a078"></a>
 
@@ -707,7 +707,7 @@ Open a new Single Ray Trace window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_RayTrace"}]}`
 -->
 
-### Function New\_SeidelCoefficients
+### Function New_SeidelCoefficients
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a384b3dbdca46cbc4a3888856e0e37bf0"></a>
 
@@ -732,7 +732,7 @@ Open a new Seidel Coefficients window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_SeidelCoefficients"}]}`
 -->
 
-### Function New\_SeidelDiagram
+### Function New_SeidelDiagram
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a53633c428c29b77be5045e11ed140d6b"></a>
 
@@ -757,7 +757,7 @@ Open a new Seidel Diagram window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_SeidelDiagram"}]}`
 -->
 
-### Function New\_ZernikeAnnularCoefficients
+### Function New_ZernikeAnnularCoefficients
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a43ad70b3b49bbdd46a1d2e17ebf1d863"></a>
 
@@ -782,7 +782,7 @@ Open a new Zernike Annular Coefficients window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_ZernikeAnnularCoefficients"}]}`
 -->
 
-### Function New\_ZernikeCoefficientsVsField
+### Function New_ZernikeCoefficientsVsField
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a948d0bd3974809be8ef264b292ef7c50"></a>
 
@@ -807,7 +807,7 @@ Open a new Zernike Coefficients vs. Field window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_ZernikeCoefficientsVsField"}]}`
 -->
 
-### Function New\_ZernikeFringeCoefficients
+### Function New_ZernikeFringeCoefficients
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a4133dc59e3b93410f81e4dbf8ac01f15"></a>
 
@@ -832,7 +832,7 @@ Open a new Zernike Fringe Coefficients window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_ZernikeFringeCoefficients"}]}`
 -->
 
-### Function New\_ZernikeStandardCoefficients
+### Function New_ZernikeStandardCoefficients
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a07930571d03efabe2ae52cfabf5a5910"></a>
 
@@ -857,7 +857,7 @@ Open a new Zernike Standard Coefficients window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_ZernikeStandardCoefficients"}]}`
 -->
 
-### Function New\_FullFieldAberration
+### Function New_FullFieldAberration
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a9821f62027d4078f2c61908cd7378a18"></a>
 
@@ -882,7 +882,7 @@ Open a new Full-Field Aberration window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_FullFieldAberration"}]}`
 -->
 
-### Function New\_ContrastLossMap
+### Function New_ContrastLossMap
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a10677f31ac581f7f85d4c3bfe3d6390e"></a>
 
@@ -896,7 +896,7 @@ IA_ ZOSAPI.Analysis.I_Analyses.New_ContrastLossMap()
 
 Open a new Contrast Loss Map window.
 
-Usage (see [Example 04](page_ex04.md#page_ex04) for a full sample)
+Usage (see [Example 04](../apiexamples/example_04.md) for a full sample)
 
 
 C# 
@@ -935,7 +935,7 @@ C#
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_ContrastLossMap"}]}`
 -->
 
-### Function New\_FftMtf
+### Function New_FftMtf
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a78731104a587d94298c07e0e93fee469"></a>
 
@@ -960,7 +960,7 @@ Open a new FFT MTF window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_FftMtf"}]}`
 -->
 
-### Function New\_FftThroughFocusMtf
+### Function New_FftThroughFocusMtf
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a396fa73b66242418517da91a8071dbba"></a>
 
@@ -985,7 +985,7 @@ Open a new FFT Through Focus MTF window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_FftThroughFocusMtf"}]}`
 -->
 
-### Function New\_GeometricThroughFocusMtf
+### Function New_GeometricThroughFocusMtf
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a2ef507fa557f40cca380ad67f29876fe"></a>
 
@@ -1010,7 +1010,7 @@ Open a new Through Focus Geometric MTF window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_GeometricThroughFocusMtf"}]}`
 -->
 
-### Function New\_GeometricMtf
+### Function New_GeometricMtf
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1ada5929b27659383f908d55e89fc66bf9"></a>
 
@@ -1035,7 +1035,7 @@ Open a new Geometric MTF window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_GeometricMtf"}]}`
 -->
 
-### Function New\_NSCGeometricMtf
+### Function New_NSCGeometricMtf
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a315c97e4b1e7140fe99165bbaf4fc524"></a>
 
@@ -1060,7 +1060,7 @@ Open a new Non-Sequential Geometric MTF window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_NSCGeometricMtf"}]}`
 -->
 
-### Function New\_FftMtfMap
+### Function New_FftMtfMap
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a1504424afa53ed59f8d13c56aa4fab4a"></a>
 
@@ -1085,7 +1085,7 @@ Open a new FFT MTF Map window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_FftMtfMap"}]}`
 -->
 
-### Function New\_GeometricMtfMap
+### Function New_GeometricMtfMap
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a67201568f117ea45fbe9cd8c6b2a2456"></a>
 
@@ -1110,7 +1110,7 @@ Open a new Geometric MTF Map window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_GeometricMtfMap"}]}`
 -->
 
-### Function New\_FftSurfaceMtf
+### Function New_FftSurfaceMtf
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1afad0cccfe7d37e820a5223b417dd9af1"></a>
 
@@ -1135,7 +1135,7 @@ Open a new FFT Surface MTF window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_FftSurfaceMtf"}]}`
 -->
 
-### Function New\_FftMtfvsField
+### Function New_FftMtfvsField
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a239f1ec4fbedede10e924fb9b8d6ddb6"></a>
 
@@ -1160,7 +1160,7 @@ Open a new FFT MTF vs. Field window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_FftMtfvsField"}]}`
 -->
 
-### Function New\_GeometricMtfvsField
+### Function New_GeometricMtfvsField
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a3abeef5253d7688e3b295b8f13f38097"></a>
 
@@ -1185,7 +1185,7 @@ Open a new Geometric MTF vs. Field window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_GeometricMtfvsField"}]}`
 -->
 
-### Function New\_HuygensMtfvsField
+### Function New_HuygensMtfvsField
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a2ce61743af16c5b1b002de4495b0a3ec"></a>
 
@@ -1210,7 +1210,7 @@ Open a new Huygens MTF vs. Field window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_HuygensMtfvsField"}]}`
 -->
 
-### Function New\_HuygensMtf
+### Function New_HuygensMtf
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a02c190ba4508a5796d0632ef6321476e"></a>
 
@@ -1235,7 +1235,7 @@ Open a new Huygens MTF window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_HuygensMtf"}]}`
 -->
 
-### Function New\_HuygensSurfaceMtf
+### Function New_HuygensSurfaceMtf
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a78b5af8faf5f428162ed7c0c4fab25e2"></a>
 
@@ -1260,7 +1260,7 @@ Open a new Huygens Surface MTF window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_HuygensSurfaceMtf"}]}`
 -->
 
-### Function New\_HuygensThroughFocusMtf
+### Function New_HuygensThroughFocusMtf
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1af47fa1df166529617a9293ac19c9f0c3"></a>
 
@@ -1285,7 +1285,7 @@ Open a new Huygens Through Focus MTF window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_HuygensThroughFocusMtf"}]}`
 -->
 
-### Function New\_FftPsf
+### Function New_FftPsf
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1afeb38d19e7c4dbc7974a60d3afad09ad"></a>
 
@@ -1310,7 +1310,7 @@ Open a new FFT PSF window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_FftPsf"}]}`
 -->
 
-### Function New\_FftPsfCrossSection
+### Function New_FftPsfCrossSection
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1aacb112942bbfa149db3da3f580597fec"></a>
 
@@ -1335,7 +1335,7 @@ Open a new FFT PSF Cross Section window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_FftPsfCrossSection"}]}`
 -->
 
-### Function New\_FftPsfLineEdgeSpread
+### Function New_FftPsfLineEdgeSpread
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a33033ae3ef70004da156f52c9f1111bc"></a>
 
@@ -1360,7 +1360,7 @@ Open a new FFT Line/Edge Spread window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_FftPsfLineEdgeSpread"}]}`
 -->
 
-### Function New\_HuygensPsfCrossSection
+### Function New_HuygensPsfCrossSection
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a2f4632a93654c0db030c47439e993c44"></a>
 
@@ -1385,7 +1385,7 @@ Open a new Huygens PSF Cross Section window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_HuygensPsfCrossSection"}]}`
 -->
 
-### Function New\_HuygensPsf
+### Function New_HuygensPsf
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a89a8ba82766666eaaa0d685298980221"></a>
 
@@ -1410,7 +1410,7 @@ Open a new Huygens PSF window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_HuygensPsf"}]}`
 -->
 
-### Function New\_DiffractionEncircledEnergy
+### Function New_DiffractionEncircledEnergy
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a3f223f35f2c7b24766d4ae678848816f"></a>
 
@@ -1435,7 +1435,7 @@ Open a new Diffraction Encircled Energy window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_DiffractionEncircledEnergy"}]}`
 -->
 
-### Function New\_GeometricEncircledEnergy
+### Function New_GeometricEncircledEnergy
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1aacdcca0feaf627e072a04011542102ca"></a>
 
@@ -1460,7 +1460,7 @@ Open a new Geometric Encircled Energy window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_GeometricEncircledEnergy"}]}`
 -->
 
-### Function New\_GeometricLineEdgeSpread
+### Function New_GeometricLineEdgeSpread
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1aaabbad433291fc149550dd9653bfbcae"></a>
 
@@ -1485,7 +1485,7 @@ Open a new Line/Edge Spread window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_GeometricLineEdgeSpread"}]}`
 -->
 
-### Function New\_ExtendedSourceEncircledEnergy
+### Function New_ExtendedSourceEncircledEnergy
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a4f07d9c71c49004924193149f912879e"></a>
 
@@ -1510,7 +1510,7 @@ Open a new Extended Source Encircled Energy window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_ExtendedSourceEncircledEnergy"}]}`
 -->
 
-### Function New\_SurfaceCurvatureCross
+### Function New_SurfaceCurvatureCross
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a93557152974d3a8575486c4db56b854d"></a>
 
@@ -1535,7 +1535,7 @@ Open a new Surface Curvature Cross Section window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_SurfaceCurvatureCross"}]}`
 -->
 
-### Function New\_SurfacePhaseCross
+### Function New_SurfacePhaseCross
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a057349eeb08b229f20919d9f3c06879a"></a>
 
@@ -1560,7 +1560,7 @@ Open a new Surface Phase Cross Section window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_SurfacePhaseCross"}]}`
 -->
 
-### Function New\_SurfaceSagCross
+### Function New_SurfaceSagCross
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a18bbc17de2f1537196f8cfb2f12a57d3"></a>
 
@@ -1585,7 +1585,7 @@ Open a new Surface Sag Cross Section window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_SurfaceSagCross"}]}`
 -->
 
-### Function New\_SurfaceCurvature
+### Function New_SurfaceCurvature
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a9b50b678e63fd1b48b5c45a42f3f47e4"></a>
 
@@ -1610,7 +1610,7 @@ Open a new Surface Curvature window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_SurfaceCurvature"}]}`
 -->
 
-### Function New\_SurfacePhase
+### Function New_SurfacePhase
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a0271f99e042813eb820540689326c975"></a>
 
@@ -1635,7 +1635,7 @@ Open a new Surface Phase window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_SurfacePhase"}]}`
 -->
 
-### Function New\_SurfaceSag
+### Function New_SurfaceSag
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1ac1764513e9b5dd5e13db4a450cb3d58f"></a>
 
@@ -1660,7 +1660,7 @@ Open a new Surface Sag window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_SurfaceSag"}]}`
 -->
 
-### Function New\_NSCSurfaceSag
+### Function New_NSCSurfaceSag
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a4adbc1cc99308739c1beb3d6e291cb46"></a>
 
@@ -1680,7 +1680,7 @@ IA_ ZOSAPI.Analysis.I_Analyses.New_NSCSurfaceSag()
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_NSCSurfaceSag"}]}`
 -->
 
-### Function New\_NSCSpotStandardNative
+### Function New_NSCSpotStandardNative
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1aea0b261c52170ebb709ae675d221f144"></a>
 
@@ -1705,7 +1705,7 @@ Open a new NSC Standard Native Spot Diagram window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_NSCSpotStandardNative"}]}`
 -->
 
-### Function New\_StandardSpot
+### Function New_StandardSpot
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a4e5e2ee795c6c537df342ede15357ea4"></a>
 
@@ -1719,7 +1719,7 @@ IA_ ZOSAPI.Analysis.I_Analyses.New_StandardSpot()
 
 Open a new Spot Diagram window.
 
-Usage (see [Example 11](page_ex11.md#page_ex11) for a full sample)
+Usage (see [Example 11](../apiexamples/example_11.md) for a full sample)
 
 
 C# 
@@ -1773,7 +1773,7 @@ C#
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_StandardSpot"}]}`
 -->
 
-### Function New\_ThroughFocusSpot
+### Function New_ThroughFocusSpot
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a25a2aa49e819246d4826cb3ee82701f9"></a>
 
@@ -1798,7 +1798,7 @@ Open a new Through Focus Spot Diagram window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_ThroughFocusSpot"}]}`
 -->
 
-### Function New\_FullFieldSpot
+### Function New_FullFieldSpot
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a983273c73fba288a5fffa6d048698533"></a>
 
@@ -1823,7 +1823,7 @@ Open a new Full Field Spot Diagram window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_FullFieldSpot"}]}`
 -->
 
-### Function New\_MatrixSpot
+### Function New_MatrixSpot
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a10bc2ff180013ee18a60369816954f3b"></a>
 
@@ -1848,7 +1848,7 @@ Open a new Matrix Spot Diagram window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_MatrixSpot"}]}`
 -->
 
-### Function New\_ConfigurationMatrixSpot
+### Function New_ConfigurationMatrixSpot
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a5411242abd9012bdc82453bfee9cacf2"></a>
 
@@ -1873,7 +1873,7 @@ Open a new Configuration Matrix Spot Diagram window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_ConfigurationMatrixSpot"}]}`
 -->
 
-### Function New\_RMSField
+### Function New_RMSField
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a0f05343c9d7e2143b7da5413ba57f35a"></a>
 
@@ -1898,7 +1898,7 @@ Open a new RMS vs. Field window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_RMSField"}]}`
 -->
 
-### Function New\_RMSFieldMap
+### Function New_RMSFieldMap
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1ac65995fee03b1847bfb8c46ada642c1b"></a>
 
@@ -1923,7 +1923,7 @@ Open a new RMS Field Map window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_RMSFieldMap"}]}`
 -->
 
-### Function New\_RMSLambdaDiagram
+### Function New_RMSLambdaDiagram
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a01266e5336bc28cd59ff4bb8528dbbb3"></a>
 
@@ -1948,7 +1948,7 @@ Open a new RMS vs. Wavelength window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_RMSLambdaDiagram"}]}`
 -->
 
-### Function New\_RMSFocus
+### Function New_RMSFocus
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1ab441cf5318d6a72b19dd0650d9936080"></a>
 
@@ -1973,7 +1973,7 @@ Open a new RMS vs. Focus window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_RMSFocus"}]}`
 -->
 
-### Function New\_Foucault
+### Function New_Foucault
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a1afcbca4155bf281570c10f07e59ee10"></a>
 
@@ -1998,7 +1998,7 @@ Open a new Foucault Analysis window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_Foucault"}]}`
 -->
 
-### Function New\_Interferogram
+### Function New_Interferogram
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a01031c7db1a67d2a37ef64b66555d68f"></a>
 
@@ -2023,7 +2023,7 @@ Open a new Interferogram window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_Interferogram"}]}`
 -->
 
-### Function New\_WavefrontMap
+### Function New_WavefrontMap
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a25ac6f5325355f88382d34e9d2a2a40c"></a>
 
@@ -2048,7 +2048,7 @@ Open a new Wavefront Map window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_WavefrontMap"}]}`
 -->
 
-### Function New\_DetectorViewer
+### Function New_DetectorViewer
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a33d79db26b92873ab0850900b02ca1c2"></a>
 
@@ -2062,7 +2062,7 @@ IA_ ZOSAPI.Analysis.I_Analyses.New_DetectorViewer()
 
 Open a new Detector Viewer window.
 
-Usage (see [Example 10](page_ex10.md#page_ex10) for a full sample)
+Usage (see [Example 10](../apiexamples/example_10.md) for a full sample)
 
 
 C# 
@@ -2123,7 +2123,7 @@ C#
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_DetectorViewer"}]}`
 -->
 
-### Function New\_CriticalRayTracer
+### Function New_CriticalRayTracer
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a486b44890a602b97754ebcd1608de97b"></a>
 
@@ -2148,7 +2148,7 @@ Open a new Critical Ray Tracer window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_CriticalRayTracer"}]}`
 -->
 
-### Function New\_PathAnalysis
+### Function New_PathAnalysis
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a11ed96cb0c8a8b785011192864a44fc9"></a>
 
@@ -2173,7 +2173,7 @@ Open a new Path Analysis window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_PathAnalysis"}]}`
 -->
 
-### Function New\_NSCSingleRayTrace
+### Function New_NSCSingleRayTrace
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a699f240165673e39e7acd65154642605"></a>
 
@@ -2198,7 +2198,7 @@ Open a new Full-Field Aberration window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_NSCSingleRayTrace"}]}`
 -->
 
-### Function New\_FileComparator
+### Function New_FileComparator
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a16c0903837d580503ce707a3b406fe67"></a>
 
@@ -2223,7 +2223,7 @@ Open a new File Comparator window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_FileComparator"}]}`
 -->
 
-### Function New\_GrinProfile
+### Function New_GrinProfile
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1af1d75b319627dc4b985c4071f77dd094"></a>
 
@@ -2248,7 +2248,7 @@ Opens a new Grin Profile window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_GrinProfile"}]}`
 -->
 
-### Function New\_GeometricImageAnalysis
+### Function New_GeometricImageAnalysis
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1ac178c5f348739ba84777913590a57c6e"></a>
 
@@ -2427,7 +2427,7 @@ Generates output from a POP analysis at higher sampling than normally allowed.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.RunHighSamplingPOP"}]}`
 -->
 
-### Function New\_QuickYield
+### Function New_QuickYield
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a98b6df842b70427be84bd322c3db93dd"></a>
 
@@ -2452,7 +2452,7 @@ Opens a new Quick Yield window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_QuickYield"}]}`
 -->
 
-### Function New\_SurfaceSlope
+### Function New_SurfaceSlope
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a627a907eb956bd6a6f7b5f56785ed333"></a>
 
@@ -2477,7 +2477,7 @@ Opens a new Surface Slope window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_SurfaceSlope"}]}`
 -->
 
-### Function New\_SurfaceSlopeCross
+### Function New_SurfaceSlopeCross
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1abda0ac8450da0d64223ca86f09aae9bd"></a>
 
@@ -2502,7 +2502,7 @@ Opens a new Surface Slope Cross Section window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_SurfaceSlopeCross"}]}`
 -->
 
-### Function New\_SurfacePhaseSlope
+### Function New_SurfacePhaseSlope
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1ab6e0de32c2ee6b6de3aaface47e9fd95"></a>
 
@@ -2527,7 +2527,7 @@ Opens a new Surface Phase Slope window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_SurfacePhaseSlope"}]}`
 -->
 
-### Function New\_SurfacePhaseSlopeCross
+### Function New_SurfacePhaseSlopeCross
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a4c45a9d7936a435b956f93c2f5fb5a71"></a>
 
@@ -2552,7 +2552,7 @@ Opens a new Surface Phase Slope Cross Section window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_SurfacePhaseSlopeCross"}]}`
 -->
 
-### Function New\_ReflectionVsAngle
+### Function New_ReflectionVsAngle
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a002a5d024ea92083b6d9e6ea4a5597c4"></a>
 
@@ -2577,7 +2577,7 @@ Opens a new Reflection Vs. Angle window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_ReflectionVsAngle"}]}`
 -->
 
-### Function New\_TransmissionVsAngle
+### Function New_TransmissionVsAngle
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1ac8b8a196102ee40a2eee1d1c13344c41"></a>
 
@@ -2602,7 +2602,7 @@ Opens a new Transmission Vs. Angle window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_TransmissionVsAngle"}]}`
 -->
 
-### Function New\_AbsorptionVsAngle
+### Function New_AbsorptionVsAngle
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1ae94ad7858e654072ea79367c8a6447b0"></a>
 
@@ -2627,7 +2627,7 @@ Opens a new Absorption Vs. Angle window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_AbsorptionVsAngle"}]}`
 -->
 
-### Function New\_DiattenuationVsAngle
+### Function New_DiattenuationVsAngle
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a567255fad166eaffb70c7a277430b41a"></a>
 
@@ -2652,7 +2652,7 @@ Opens a new Diattenuation Vs. Angle window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_DiattenuationVsAngle"}]}`
 -->
 
-### Function New\_PhaseVsAngle
+### Function New_PhaseVsAngle
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1abf918164b48b6e2802decb702fe07d05"></a>
 
@@ -2677,7 +2677,7 @@ Opens a new Phase Vs. Angle window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_PhaseVsAngle"}]}`
 -->
 
-### Function New\_RetardanceVsAngle
+### Function New_RetardanceVsAngle
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1afbbf081215516830f29a26e78cffa8c4"></a>
 
@@ -2702,7 +2702,7 @@ Opens a new Retardance Vs. Angle window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_RetardanceVsAngle"}]}`
 -->
 
-### Function New\_ReflectionVsWavelength
+### Function New_ReflectionVsWavelength
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a951fdcd33507758dab8b10b2da578647"></a>
 
@@ -2727,7 +2727,7 @@ Opens a new Reflection Vs. Wavelength window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_ReflectionVsWavelength"}]}`
 -->
 
-### Function New\_TransmissionVsWavelength
+### Function New_TransmissionVsWavelength
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1acaee96f7bae68145b83b54592ebfdd36"></a>
 
@@ -2752,7 +2752,7 @@ Opens a new Transmission Vs. Wavelength window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_TransmissionVsWavelength"}]}`
 -->
 
-### Function New\_AbsorptionVsWavelength
+### Function New_AbsorptionVsWavelength
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a0b3811e8b3bf69583f9c7ad5ecaf95f1"></a>
 
@@ -2777,7 +2777,7 @@ Opens a new Absorption Vs. Wavelength window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_AbsorptionVsWavelength"}]}`
 -->
 
-### Function New\_DiattenuationVsWavelength
+### Function New_DiattenuationVsWavelength
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a5055e45c5282f337f6d3edd5b8c49fc9"></a>
 
@@ -2802,7 +2802,7 @@ Opens a new Diattenuation Vs. Wavelength window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_DiattenuationVsWavelength"}]}`
 -->
 
-### Function New\_PhaseVsWavelength
+### Function New_PhaseVsWavelength
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a023bf2fba1a1093f73dce2ede45a45df"></a>
 
@@ -2827,7 +2827,7 @@ Opens a new Phase Vs. Wavelength window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_PhaseVsWavelength"}]}`
 -->
 
-### Function New\_RetardanceVsWavelength
+### Function New_RetardanceVsWavelength
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1ad3c1a931168e569b43a7e84fb46d4fda"></a>
 
@@ -2852,7 +2852,7 @@ Opens a new Retardance Vs. Wavelength window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_RetardanceVsWavelength"}]}`
 -->
 
-### Function New\_ImageSimulation
+### Function New_ImageSimulation
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1acb46a683ee7da639accd69b38f5bedf4"></a>
 
@@ -2877,7 +2877,7 @@ Opens a new Image Simulation window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_ImageSimulation"}]}`
 -->
 
-### Function New\_RelativeIllumination
+### Function New_RelativeIllumination
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1aa4606e584a1e421c15d4af4c38eedc1b"></a>
 
@@ -2902,7 +2902,7 @@ Opens a new Relative Illumination window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_RelativeIllumination"}]}`
 -->
 
-### Function New\_TolerancingYield
+### Function New_TolerancingYield
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1abbfa9d1571a3c46ca95da29a9a70046b"></a>
 
@@ -2927,7 +2927,7 @@ Opens a new Tolerancing Yield window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_TolerancingYield"}]}`
 -->
 
-### Function New\_TolerancingHistogram
+### Function New_TolerancingHistogram
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a416080e4971dc07ea73d158b34f8c9f1"></a>
 
@@ -2952,7 +2952,7 @@ Opens a new Tolerancing Histogram window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_TolerancingHistogram"}]}`
 -->
 
-### Function New\_InternalTransmissionvsWavelength
+### Function New_InternalTransmissionvsWavelength
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_i___analyses_1a9644d2632e52249fb9216403eef591c5"></a>
 
@@ -2977,7 +2977,5 @@ Opens a new Internal Transmission vs Wavelength window.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.I_Analyses.New_InternalTransmissionvsWavelength"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

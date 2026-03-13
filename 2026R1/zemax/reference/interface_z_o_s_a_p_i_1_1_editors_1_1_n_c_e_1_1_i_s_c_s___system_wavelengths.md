@@ -29,7 +29,5 @@ Source Color Mode - System Wavelengths. This interface can be accessed via the I
 * [IsValid](interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_source_color_settings.md#interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_source_color_settings_1a7bc81ddad0da90bb5adbab01b4080378)
 * [Mode](interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_source_color_settings.md#interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_source_color_settings_1aa2ca6252701018d673516cf1cc33dead)
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

@@ -9,7 +9,7 @@
 
 System field data. This interface can be accessed via the IFields interface.
 
-Usage (see [Example 12](page_ex12.md#page_ex12) for a full example)
+Usage (see [Example 12](../apiexamples/example_12.md) for a full example)
 
 
 C# 
@@ -154,7 +154,7 @@ double ZOSAPI.SystemData.IField.Y
 ```
 
 
-Usage (see [Example 22](page_ex22.md#page_ex22) for a full sample)
+Usage (see [Example 22](../apiexamples/example_22.md) for a full sample)
 
 
 C# 
@@ -659,7 +659,5 @@ SolveStatus ZOSAPI.SystemData.IField.SetFixed(FieldColumn forColumn)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.SystemData.IField.SetFixed"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

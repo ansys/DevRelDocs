@@ -103,7 +103,7 @@ IEditorCell ZOSAPI.Editors.NCE.IObjectMuellerMatrix.YHalfWidthCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectMuellerMatrix.YHalfWidthCell"}]}`
 -->
 
-### Property Depolarize\_Cell
+### Property Depolarize_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_mueller_matrix_1a97168f9863d03a2044a8d74726989e45"></a>
 
@@ -125,7 +125,7 @@ IEditorCell ZOSAPI.Editors.NCE.IObjectMuellerMatrix.Depolarize_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectMuellerMatrix.Depolarize_Cell"}]}`
 -->
 
-### Property M00\_Cell
+### Property M00_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_mueller_matrix_1a63894136fcc6c695cba6b776fdaa6082"></a>
 
@@ -147,7 +147,7 @@ IEditorCell ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M00_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M00_Cell"}]}`
 -->
 
-### Property M01\_Cell
+### Property M01_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_mueller_matrix_1afe98350cd01ad4fa13f93161d77e4818"></a>
 
@@ -169,7 +169,7 @@ IEditorCell ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M01_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M01_Cell"}]}`
 -->
 
-### Property M02\_Cell
+### Property M02_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_mueller_matrix_1a956f45909a18d9d479e69a951b66c26d"></a>
 
@@ -191,7 +191,7 @@ IEditorCell ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M02_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M02_Cell"}]}`
 -->
 
-### Property M03\_Cell
+### Property M03_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_mueller_matrix_1aaa299a12bb559192b94c4a4f1c4991e0"></a>
 
@@ -213,7 +213,7 @@ IEditorCell ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M03_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M03_Cell"}]}`
 -->
 
-### Property M10\_Cell
+### Property M10_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_mueller_matrix_1accbaa3c5ce4c56c65b96c888076fd9b1"></a>
 
@@ -235,7 +235,7 @@ IEditorCell ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M10_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M10_Cell"}]}`
 -->
 
-### Property M11\_Cell
+### Property M11_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_mueller_matrix_1a8937c893ae89ae571e72fdee565a3c07"></a>
 
@@ -257,7 +257,7 @@ IEditorCell ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M11_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M11_Cell"}]}`
 -->
 
-### Property M12\_Cell
+### Property M12_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_mueller_matrix_1a152ee26f370d7d1a2deec9e1ec60e634"></a>
 
@@ -279,7 +279,7 @@ IEditorCell ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M12_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M12_Cell"}]}`
 -->
 
-### Property M13\_Cell
+### Property M13_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_mueller_matrix_1afc3553cf4d8b4fe91a85e7975333f7dd"></a>
 
@@ -301,7 +301,7 @@ IEditorCell ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M13_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M13_Cell"}]}`
 -->
 
-### Property M20\_Cell
+### Property M20_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_mueller_matrix_1a04124f6dc467b481d94333e0bb908a88"></a>
 
@@ -323,7 +323,7 @@ IEditorCell ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M20_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M20_Cell"}]}`
 -->
 
-### Property M21\_Cell
+### Property M21_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_mueller_matrix_1ac244e6b62a6fbf3804d759d75471a47a"></a>
 
@@ -345,7 +345,7 @@ IEditorCell ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M21_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M21_Cell"}]}`
 -->
 
-### Property M22\_Cell
+### Property M22_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_mueller_matrix_1a0b2a8bebd46ec8eb61b807ff9f634a6b"></a>
 
@@ -367,7 +367,7 @@ IEditorCell ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M22_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M22_Cell"}]}`
 -->
 
-### Property M23\_Cell
+### Property M23_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_mueller_matrix_1aed6965c91d89c8778f7cb9d0e33c4516"></a>
 
@@ -389,7 +389,7 @@ IEditorCell ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M23_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M23_Cell"}]}`
 -->
 
-### Property M30\_Cell
+### Property M30_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_mueller_matrix_1adbf4ed8574cdf4df7bb8649465ed88b9"></a>
 
@@ -411,7 +411,7 @@ IEditorCell ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M30_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M30_Cell"}]}`
 -->
 
-### Property M31\_Cell
+### Property M31_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_mueller_matrix_1af8df906c920f3d8b17ba38ecd0732b4c"></a>
 
@@ -433,7 +433,7 @@ IEditorCell ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M31_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M31_Cell"}]}`
 -->
 
-### Property M32\_Cell
+### Property M32_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_mueller_matrix_1a7c5e105112d60f45e664be14c67b1b14"></a>
 
@@ -455,7 +455,7 @@ IEditorCell ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M32_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M32_Cell"}]}`
 -->
 
-### Property M33\_Cell
+### Property M33_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_mueller_matrix_1a41fa664568409a0efb1b5a56408c64c2"></a>
 
@@ -895,7 +895,5 @@ double ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M33
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectMuellerMatrix.M33"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

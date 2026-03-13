@@ -251,7 +251,7 @@ RaysIgnoreObjectType ZOSAPI.Editors.NCE.INCETypeData.RaysIgnoreObject
 ```
 
 
-Usage (see [Example 21](page_ex21.md#page_ex21) for a full sample)
+Usage (see [Example 21](../apiexamples/example_21.md) for a full sample)
 
 
 C# 
@@ -412,7 +412,7 @@ bool ZOSAPI.Editors.NCE.INCETypeData.UsePixelInterpolation
 ```
 
 
-Usage (see [Example 24](page_ex24.md#page_ex24) for a full sample)
+Usage (see [Example 24](../apiexamples/example_24.md) for a full sample)
 
 
 C# 
@@ -619,7 +619,5 @@ string ZOSAPI.Editors.NCE.INCETypeData.GetUDAFileFullPath()
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.INCETypeData.GetUDAFileFullPath"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

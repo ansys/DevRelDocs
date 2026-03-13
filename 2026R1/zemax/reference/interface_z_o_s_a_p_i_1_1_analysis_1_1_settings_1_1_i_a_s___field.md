@@ -48,7 +48,7 @@ IMessage ZOSAPI.Analysis.Settings.IAS_Field.SetFieldNumber(int N)
 ```
 
 
-Usage (see [Example 22](page_ex22.md#page_ex22) for a full sample)
+Usage (see [Example 22](../apiexamples/example_22.md) for a full sample)
 
 
 C# 
@@ -113,7 +113,7 @@ IMessage ZOSAPI.Analysis.Settings.IAS_Field.UseAllFields()
 ```
 
 
-Usage (see [Example 23](page_ex23.md#page_ex23) for a full sample)
+Usage (see [Example 23](../apiexamples/example_23.md) for a full sample)
 
 
 C# 
@@ -198,7 +198,5 @@ C#
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.IAS_Field.UseAllFields"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)
