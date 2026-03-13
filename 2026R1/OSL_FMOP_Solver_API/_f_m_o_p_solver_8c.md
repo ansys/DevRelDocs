@@ -1,6 +1,5 @@
 # File FMOPSolver.c
 
-![][C++]
 
 **Location**: `doc/FMOPSolver.c`
 

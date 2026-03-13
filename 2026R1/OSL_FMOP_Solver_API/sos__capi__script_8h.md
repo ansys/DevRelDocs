@@ -90,7 +90,7 @@ Get the handle to the global script engine from the initialized library. The rou
 **Returns**:
 
 
-* [fmop_handle_t](index.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) if the FMOP library was previously initialized with [FMOP_initializeLibrary()](sos__capi__common_8h.md#sos__capi__common_8h_1a9c8f0f808d3f27c57a3a57d5f9cf4834)
+* [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) if the FMOP library was previously initialized with [FMOP_initializeLibrary()](sos__capi__common_8h.md#sos__capi__common_8h_1a9c8f0f808d3f27c57a3a57d5f9cf4834)
 
 * [fmop_invalid_handle](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacef5c059b0dd649f97d5404db95c3ccf) if the global script engine is unavailable
 
