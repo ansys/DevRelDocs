@@ -66,14 +66,14 @@ fmop_error_t FMOP_getModel(fmop_db_handle_t database, fmop_dataobject_types data
 ```
 
 
-Loads a [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object from the database given.
+Loads a [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object from the database given.
 
 **Parameters**:
 
 * **database**: The already initialized database handle
 * **data_type**: The data type in question
 * **fmop_ident**: The FMOP ident to be loaded from the database given
-* **fmop**: On input _*fmop_ must point to NULL. Returns an initialized fmop handle to the requested _fmop_ident_ on output. Pointer ownership is up to the caller after return. Call FMOP_releaseModel ([fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) *) at the end of lifetime.
+* **fmop**: On input _*fmop_ must point to NULL. Returns an initialized fmop handle to the requested _fmop_ident_ on output. Pointer ownership is up to the caller after return. Call FMOP_releaseModel ([fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) *) at the end of lifetime.
 
 
 **Returns**:
@@ -106,10 +106,10 @@ A success indicator. Call FMOP_getErrnoString to get a human readable representa
 
 **Parameters**:
 
-* [fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) **database**
+* [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) **database**
 * [fmop_dataobject_types](sos__capi__common_8h.md#sos__capi__common_8h_1a69eb42c1b3b49f22b9e73c6c9869cb75) **data_type**
 * const char *const **fmop_ident**
-* [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) * **fmop**
+* [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) * **fmop**
 
 **Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
@@ -124,7 +124,7 @@ fmop_error_t FMOP_loadDbBuf(fmop_db_handle_t *database, const char *buffer, size
 ```
 
 
-Initializes a [fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) object from a previously saved optiSLang Postprocessing 3D (oSP3D) database array.
+Initializes a [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) object from a previously saved optiSLang Postprocessing 3D (oSP3D) database array.
 
 > **Warning** \
 Draft only. CURRENTLY NOT IMPLEMENTED. Returns fmop_not_implemented
@@ -132,7 +132,7 @@ Draft only. CURRENTLY NOT IMPLEMENTED. Returns fmop_not_implemented
 
 **Parameters**:
 
-* **database**: On input _*database_ must point to NULL. Returns an initialized handle to the loaded database on ouptut. The database of the returned handle has been set to the buffer content given. Pointer ownership is up to the caller after return. Call FMOP_releaseDb ([fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) *) at the end of lifetime.
+* **database**: On input _*database_ must point to NULL. Returns an initialized handle to the loaded database on ouptut. The database of the returned handle has been set to the buffer content given. Pointer ownership is up to the caller after return. Call FMOP_releaseDb ([fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) *) at the end of lifetime.
 * **buffer**: A character array
 * **length**: The length of the character array
 
@@ -159,7 +159,7 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 **Parameters**:
 
-* [fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) * **database**
+* [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) * **database**
 * const char * **buffer**
 * size_t **length**
 
@@ -176,7 +176,7 @@ fmop_error_t FMOP_loadDbBufWMesh(fmop_db_handle_t *database, const char *buffer,
 ```
 
 
-Initializes a [fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) object from a previously saved optiSLang Postprocessing 3D (oSP3D) database array This function also builds up all internal data structures needed to represent FEM meshes. Hence it may need more CPU time and RAM.
+Initializes a [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) object from a previously saved optiSLang Postprocessing 3D (oSP3D) database array This function also builds up all internal data structures needed to represent FEM meshes. Hence it may need more CPU time and RAM.
 
 > **Warning** \
 Draft only. CURRENTLY NOT IMPLEMENTED. Returns fmop_not_implemented
@@ -184,7 +184,7 @@ Draft only. CURRENTLY NOT IMPLEMENTED. Returns fmop_not_implemented
 
 **Parameters**:
 
-* **database**: On input _*database_ must point to NULL. Returns an initialized handle to the loaded database on ouptut. The database of the returned handle has been set to the buffer content given. Pointer ownership is up to the caller after return. Call FMOP_releaseDb ([fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) *) at the end of lifetime.
+* **database**: On input _*database_ must point to NULL. Returns an initialized handle to the loaded database on ouptut. The database of the returned handle has been set to the buffer content given. Pointer ownership is up to the caller after return. Call FMOP_releaseDb ([fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) *) at the end of lifetime.
 * **buffer**: A character array
 * **length**: The length of the character array
 
@@ -211,7 +211,7 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 **Parameters**:
 
-* [fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) * **database**
+* [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) * **database**
 * const char * **buffer**
 * size_t **length**
 
@@ -228,11 +228,11 @@ fmop_error_t FMOP_loadDbFile(fmop_db_handle_t *database, const char *path)
 ```
 
 
-Initializes a [fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) object from a previously saved optiSLang Postprocessing 3D (oSP3D) database.
+Initializes a [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) object from a previously saved optiSLang Postprocessing 3D (oSP3D) database.
 
 **Parameters**:
 
-* **database**: On input _*database_ must point to NULL. Returns an initialized handle to the loaded database on ouptut. The database of the returned handle has been set to the content of the file path given. Pointer ownership is up to the caller after return. Call FMOP_releaseDb ([fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) *) at the end of lifetime.
+* **database**: On input _*database_ must point to NULL. Returns an initialized handle to the loaded database on ouptut. The database of the returned handle has been set to the content of the file path given. Pointer ownership is up to the caller after return. Call FMOP_releaseDb ([fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) *) at the end of lifetime.
 * **path**: The path to the oSP3D database file as a NULL terminated character array
 
 
@@ -247,7 +247,7 @@ Initializes a [fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b91
 
 * [fmop_exception_occurred](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becadac3d9086cdab852d265dc924070c198) if any other failure get invoked
 
-* [fmop_success](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca41a0a2e83b0ac20d414f4b015522ce55) if the [fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) has been initialized successfully
+* [fmop_success](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca41a0a2e83b0ac20d414f4b015522ce55) if the [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) has been initialized successfully
 
 
 **Returns**:
@@ -258,7 +258,7 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 **Parameters**:
 
-* [fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) * **database**
+* [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) * **database**
 * const char * **path**
 
 **Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
@@ -274,11 +274,11 @@ fmop_error_t FMOP_loadDbFileWMesh(fmop_db_handle_t *database, const char *path)
 ```
 
 
-Initializes a [fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) object from a previously saved optiSLang Postprocessing 3D (oSP3D) database This function also builds up all internal data structures needed to represent FEM meshes. Hence it may need more CPU time and RAM.
+Initializes a [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) object from a previously saved optiSLang Postprocessing 3D (oSP3D) database This function also builds up all internal data structures needed to represent FEM meshes. Hence it may need more CPU time and RAM.
 
 **Parameters**:
 
-* **database**: On input _*database_ must point to NULL. Returns an initialized handle to the loaded database on ouptut. The database of the returned handle has been set to the content of the file path given. Pointer ownership is up to the caller after return. Call FMOP_releaseDb ([fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) *) at the end of lifetime.
+* **database**: On input _*database_ must point to NULL. Returns an initialized handle to the loaded database on ouptut. The database of the returned handle has been set to the content of the file path given. Pointer ownership is up to the caller after return. Call FMOP_releaseDb ([fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) *) at the end of lifetime.
 * **path**: The path to the oSP3D database file as a NULL terminated character array
 
 
@@ -293,7 +293,7 @@ Initializes a [fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b91
 
 * [fmop_exception_occurred](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becadac3d9086cdab852d265dc924070c198) if any other failure get invoked
 
-* [fmop_success](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca41a0a2e83b0ac20d414f4b015522ce55) if the [fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) has been initialized successfully
+* [fmop_success](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca41a0a2e83b0ac20d414f4b015522ce55) if the [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) has been initialized successfully
 
 
 **Returns**:
@@ -304,7 +304,7 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 **Parameters**:
 
-* [fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) * **database**
+* [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) * **database**
 * const char * **path**
 
 **Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
@@ -320,11 +320,11 @@ fmop_error_t FMOP_releaseDb(fmop_db_handle_t *database)
 ```
 
 
-Releases a [fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) object and dedicated memory.
+Releases a [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) object and dedicated memory.
 
 **Parameters**:
 
-* **database**: The [fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) to be released. Set to NULLptr on return.
+* **database**: The [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) to be released. Set to NULLptr on return.
 
 
 **Returns**:
@@ -345,7 +345,7 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 **Parameters**:
 
-* [fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) * **database**
+* [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) * **database**
 
 **Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
@@ -406,11 +406,11 @@ fmop_error_t FMOP_releaseModel(fmop_handle_t *fmop)
 ```
 
 
-Releases a [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) object and dedicated memory.
+Releases a [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) object and dedicated memory.
 
 **Parameters**:
 
-* **fmop**: The [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) to be released. Set to NULLptr on return.
+* **fmop**: The [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) to be released. Set to NULLptr on return.
 
 
 **Returns**:
@@ -431,7 +431,7 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 **Parameters**:
 
-* [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) * **fmop**
+* [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) * **fmop**
 
 **Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
@@ -454,7 +454,7 @@ Returns the size of the FCoP vector, aka the number of mesh items.
 
 **Parameters**:
 
-* **database**: A successfully initialized [fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) data object
+* **database**: A successfully initialized [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) data object
 * **data_type**: The data type to be queried (node, element, scalar)
 * **num_mesh_items**: An already initialized scalar data object. Contains the size of the data vectors for the givvemn data type on return
 
@@ -484,7 +484,7 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 **Parameters**:
 
-* const [fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) **database**
+* const [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) **database**
 * [fmop_dataobject_types](sos__capi__common_8h.md#sos__capi__common_8h_1a69eb42c1b3b49f22b9e73c6c9869cb75) **data_type**
 * size_t * **num_mesh_items**
 
@@ -505,7 +505,7 @@ Returns the cartesian data point coordinates for each data point.
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
 * **axis**: Controls coordinate output. The following integers are accepted:
 * 0... asks for x-coordinates only
 
@@ -514,14 +514,14 @@ Returns the cartesian data point coordinates for each data point.
 * 2... asks for z-coordinates only
 
 * 3... asks for x-, y- and z-coordinates
-* **coors**: An already initialized array of size `formula {"type":"element","name":"formula","attributes":{"id":"0"},"children":[{"type":"text","text":"$ ( 1 + \\lfloor \\frac{\\mathit{axis}}{3} \\rfloor ) * \\mathit{num_mesh_items} $"}]}`. Call [FMOP_getModelDim()](mop_solver.md#fmop__solver_8h_1a24e43563d67cc64bffb7bccddbaada65) to get _num_mesh_items_. On output contains the following coordinate values:
+* **coors**: An already initialized array of size `formula {"type":"element","name":"formula","attributes":{"id":"0"},"children":[{"type":"text","text":"$ ( 1 + \\lfloor \\frac{\\mathit{axis}}{3} \\rfloor ) * \\mathit{num_mesh_items} $"}]}`. Call [FMOP_getModelDim()](fmop_solver.md#fmop__solver_8h_1a24e43563d67cc64bffb7bccddbaada65) to get _num_mesh_items_. On output contains the following coordinate values:
 * finite element nodes for an FMOP of type [fmop_node_data](sos__capi__common_8h.md#sos__capi__common_8h_1a69eb42c1b3b49f22b9e73c6c9869cb75aaf0fb275c161febc56c4f10e62987049)
 
 * finite elements using their center coordinate in space for an FMOP of type [fmop_element_data](sos__capi__common_8h.md#sos__capi__common_8h_1a69eb42c1b3b49f22b9e73c6c9869cb75a1ec31fe31f3b8a9fd9dd902b014499ef)
 
 * an FMOP of type [fmop_scalar_data](sos__capi__common_8h.md#sos__capi__common_8h_1a69eb42c1b3b49f22b9e73c6c9869cb75a16a14aa0d55901638e165fb3a39b3870) invokes an [fmop_exception_occurred](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becadac3d9086cdab852d265dc924070c198) error Follows the scheme: `formula {"type":"element","name":"formula","attributes":{"id":"1"},"children":[{"type":"text","text":"$ \\mathit{coors} \\lbrack k+ \\mathit{axis} \\bmod 3 \\rbrack $"}]}` with <br/>
  k...internal mesh item ident, e.g. internal signal position, internal element number <br/>
- Call [FMOP_getDataPointIndices()](mop_solver.md#fmop__solver_8h_1add2527ad2ad1bf1df141e5fa5b4c2e31) to map internal to external numbering scheme
+ Call [FMOP_getDataPointIndices()](fmop_solver.md#fmop__solver_8h_1add2527ad2ad1bf1df141e5fa5b4c2e31) to map internal to external numbering scheme
 
 
 **Returns**:
@@ -543,7 +543,7 @@ Returns the cartesian data point coordinates for each data point.
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](mop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 > **Warning** \
@@ -553,7 +553,7 @@ Calling this function for FMOP models of type [fmop_element_data](sos__capi__com
 
 **Parameters**:
 
-* [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * char **axis**
 * double * **coors**
 
@@ -574,14 +574,14 @@ Maps internal node/element numbering to the external scheme consisting of part a
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
-* **part_ids**: Either an already initialized array of size num_mesh_items as returned by [FMOP_getModelDim()](mop_solver.md#fmop__solver_8h_1a24e43563d67cc64bffb7bccddbaada65), or a NULL pointer. Note, most of the meshes consists of a single part only, e.g. signals. If the argument is initialized, it contains the external part IDs on output. A NULL pointer otherwise<br/>
+* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **part_ids**: Either an already initialized array of size num_mesh_items as returned by [FMOP_getModelDim()](fmop_solver.md#fmop__solver_8h_1a24e43563d67cc64bffb7bccddbaada65), or a NULL pointer. Note, most of the meshes consists of a single part only, e.g. signals. If the argument is initialized, it contains the external part IDs on output. A NULL pointer otherwise<br/>
  
 ```cpp
 external( internal[k] ) = PART_ID [k], item_id [k] 
 ```
  k...mesh item, e.g. signal position, element number
-* **item_ids**: An already initialized array of size num_mesh_items as returned by [FMOP_getModelDim()](mop_solver.md#fmop__solver_8h_1a24e43563d67cc64bffb7bccddbaada65). On output contains the external node/element ID <br/>
+* **item_ids**: An already initialized array of size num_mesh_items as returned by [FMOP_getModelDim()](fmop_solver.md#fmop__solver_8h_1a24e43563d67cc64bffb7bccddbaada65). On output contains the external node/element ID <br/>
  
 ```cpp
 external( internal[k] ) = part_id [k], ITEM_ID [k] 
@@ -608,13 +608,13 @@ external( internal[k] ) = part_id [k], ITEM_ID [k]
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](mop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * unsigned int * **part_ids**
 * unsigned int * **item_ids**
 
@@ -635,9 +635,9 @@ Identifies the elements connected to a given node.
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
 * **node_idx**: the node index (0.. numNodes). This node index refers to the index in the FMOP data vectors.
-* **elements**: An already initialized array of size as returned by [FMOP_getNumElementsAtNode()](mop_solver.md#fmop__solver_8h_1a4413f3e2bc5f893b9030631aceb03c54). On output contains the internal element ID that are connected to the given node.
+* **elements**: An already initialized array of size as returned by [FMOP_getNumElementsAtNode()](fmop_solver.md#fmop__solver_8h_1a4413f3e2bc5f893b9030631aceb03c54). On output contains the internal element ID that are connected to the given node.
 
 
 **Returns**:
@@ -659,13 +659,13 @@ Identifies the elements connected to a given node.
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](mop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * unsigned int **node_idx**
 * unsigned int * **elements**
 
@@ -686,7 +686,7 @@ Identifies the element type ident of a given element.
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
 * **element_idx**: the element index (0.. numElements). This element index refers to the index in the FMOP data vectors.
 
 
@@ -709,13 +709,13 @@ On success the element type identifier at array position num_ident from the data
 * [fmop_success](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca41a0a2e83b0ac20d414f4b015522ce55) elsewise. Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](mop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * unsigned int **element_idx**
 
 **Return type**: const char *
@@ -735,7 +735,7 @@ Returns the Field Coefficients of Prognosis per active scalar input parameter.
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
 * **fcops**: An already initialized array of size num_params as returned by FMOP_getModelNumParams() On output contains the average Field Coefficient of Prognosis per active scalar input parameter Follows the scheme: fcops[i] (i..i'th active scalar input parameter).
 
 
@@ -758,13 +758,13 @@ Returns the Field Coefficients of Prognosis per active scalar input parameter.
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](mop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* const [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* const [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * double * **fcops**
 
 **Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
@@ -784,7 +784,7 @@ Returns the size of the FCoP vector, aka the number of mesh items.
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
 * **num_mesh_items**: An already initialized scalar data object. Contains the size of the FCoP vector on return
 
 
@@ -807,13 +807,13 @@ Returns the size of the FCoP vector, aka the number of mesh items.
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](mop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* const [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* const [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * size_t * **num_mesh_items**
 
 **Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
@@ -829,11 +829,11 @@ const char * FMOP_getModelIdent(const fmop_db_handle_t database, fmop_dataobject
 ```
 
 
-Returns the n-th known FMOP identifier from the [fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) given.
+Returns the n-th known FMOP identifier from the [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) given.
 
 **Parameters**:
 
-* **database**: A successfully initialized [fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) data object
+* **database**: A successfully initialized [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) data object
 * **data_type**: The data type in question
 * **num_ident**: Defines the position in the fmop_idents char* array []. Notice that the first element has a position of 0
 
@@ -857,13 +857,13 @@ On succes the FMOP identifier at array position num_ident from the database give
 * [fmop_success](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca41a0a2e83b0ac20d414f4b015522ce55) elsewise. Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](mop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* const [fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) **database**
+* const [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) **database**
 * [fmop_dataobject_types](sos__capi__common_8h.md#sos__capi__common_8h_1a69eb42c1b3b49f22b9e73c6c9869cb75) **data_type**
 * size_t **num_ident**
 
@@ -880,13 +880,13 @@ fmop_error_t FMOP_getModelIdents(const fmop_db_handle_t database, fmop_dataobjec
 ```
 
 
-Returns all known FMOP identifier from the [fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) given.
+Returns all known FMOP identifier from the [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) given.
 
 **Parameters**:
 
-* **database**: A successfully initialized [fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) data object
+* **database**: A successfully initialized [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) data object
 * **data_type**: The data type in question
-* **fmop_idents**: On input _*fmop_idents_ must point to NULL. On return contains all known FMOP identifier from the database given. Pointer ownership is up to the caller after return. Call [FMOP_releaseIdents()](mop_solver.md#fmop__solver_8h_1a37bdee678571cd855ac0bb10675b1d8c) at the end of life
+* **fmop_idents**: On input _*fmop_idents_ must point to NULL. On return contains all known FMOP identifier from the database given. Pointer ownership is up to the caller after return. Call [FMOP_releaseIdents()](fmop_solver.md#fmop__solver_8h_1a37bdee678571cd855ac0bb10675b1d8c) at the end of life
 * **num_idents**: An already initialized scalar data object. Contains the number of FMOP idents, aka the size of the fmop_idents char* array []
 
 
@@ -911,16 +911,16 @@ Returns all known FMOP identifier from the [fmop_db_handle_t](mop_solver.md#fmop
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](mop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
-> Many languages offers the possiblity to call functions from an external C-library, e.g. Java, python and Matlab. If you are running in some limitations due to our tripple pointer requirement, please use the wrapper functions [FMOP_getModelIdentsDim()](mop_solver.md#fmop__solver_8h_1a600dca69efae1f2eafc63f9f6a0067fc) followed by [FMOP_getModelIdent()](mop_solver.md#fmop__solver_8h_1a9b6e5c7baeb1353a17f5efde188d0d8f) to query known idents one by one
+> Many languages offers the possiblity to call functions from an external C-library, e.g. Java, python and Matlab. If you are running in some limitations due to our tripple pointer requirement, please use the wrapper functions [FMOP_getModelIdentsDim()](fmop_solver.md#fmop__solver_8h_1a600dca69efae1f2eafc63f9f6a0067fc) followed by [FMOP_getModelIdent()](fmop_solver.md#fmop__solver_8h_1a9b6e5c7baeb1353a17f5efde188d0d8f) to query known idents one by one
 
 
 
 **Parameters**:
 
-* const [fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) **database**
+* const [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) **database**
 * [fmop_dataobject_types](sos__capi__common_8h.md#sos__capi__common_8h_1a69eb42c1b3b49f22b9e73c6c9869cb75) **data_type**
 * char ***const **fmop_idents**
 * size_t * **num_idents**
@@ -938,11 +938,11 @@ fmop_error_t FMOP_getModelIdentsDim(const fmop_db_handle_t database, fmop_dataob
 ```
 
 
-Returns the total number of known FMOP identifiers from the [fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) given.
+Returns the total number of known FMOP identifiers from the [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) given.
 
 **Parameters**:
 
-* **database**: A successfully initialized [fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) data object
+* **database**: A successfully initialized [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) data object
 * **data_type**: The data type in question
 * **num_idents**: An already initialized scalar data object. Contains the number of FMOP idents, aka the size of the fmop_idents char* array []
 
@@ -966,13 +966,13 @@ Returns the total number of known FMOP identifiers from the [fmop_db_handle_t](m
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](mop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* const [fmop_db_handle_t](mop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) **database**
+* const [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) **database**
 * [fmop_dataobject_types](sos__capi__common_8h.md#sos__capi__common_8h_1a69eb42c1b3b49f22b9e73c6c9869cb75) **data_type**
 * size_t * **num_idents**
 
@@ -993,7 +993,7 @@ Returns the n-th active parameter identifier from the fmop handle given.
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
 * **num_param**: Defines the position in the fmop_idents char* array []. Notice that the first element has a position of 0
 
 
@@ -1016,13 +1016,13 @@ On success the parameter identifier at array position num_ident from the databas
 * [fmop_success](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca41a0a2e83b0ac20d414f4b015522ce55) elsewise. Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](mop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* const [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* const [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * size_t **num_param**
 
 **Return type**: const char *
@@ -1042,8 +1042,8 @@ Returns all active scalar inputer parameters for the fmop handle given.
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
-* **param_idents**: Requires a NULL pointer on input. On return contains all active scalar input parameters used in the fmop handle given. Pointer ownership is up to the caller after return. Call [FMOP_releaseIdents()](mop_solver.md#fmop__solver_8h_1a37bdee678571cd855ac0bb10675b1d8c) at the end of life
+* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **param_idents**: Requires a NULL pointer on input. On return contains all active scalar input parameters used in the fmop handle given. Pointer ownership is up to the caller after return. Call [FMOP_releaseIdents()](fmop_solver.md#fmop__solver_8h_1a37bdee678571cd855ac0bb10675b1d8c) at the end of life
 * **num_params**: An already initialized scalar data object. Contains the number of active scalar input parameters used in the fmop handle given, aka the size of the param_idents char* array []
 
 
@@ -1068,16 +1068,16 @@ Returns all active scalar inputer parameters for the fmop handle given.
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](mop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
-> Many languages offers the possiblity to call functions from an external C-library, e.g. Java, python and Matlab. If you are running in some limitations due to our tripple pointer requirement, please use the wrapper functions [FMOP_getModelParamIdentsDim()](mop_solver.md#fmop__solver_8h_1adabef430a391d15eb077fe30e134f368) followed by [FMOP_getModelParamIdent()](mop_solver.md#fmop__solver_8h_1ae2ab3659b0419a9ab56ba3d7722708fb) to query known idents one by one
+> Many languages offers the possiblity to call functions from an external C-library, e.g. Java, python and Matlab. If you are running in some limitations due to our tripple pointer requirement, please use the wrapper functions [FMOP_getModelParamIdentsDim()](fmop_solver.md#fmop__solver_8h_1adabef430a391d15eb077fe30e134f368) followed by [FMOP_getModelParamIdent()](fmop_solver.md#fmop__solver_8h_1ae2ab3659b0419a9ab56ba3d7722708fb) to query known idents one by one
 
 
 
 **Parameters**:
 
-* const [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* const [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * char ***const **param_idents**
 * size_t * **num_params**
 
@@ -1098,7 +1098,7 @@ Returns the total number of active parameter identifiers from the fmop handle gi
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
 * **num_params**: An already initialized scalar data object. Contains the number of active scalar input parameters used in the fmop handle given, aka the size of the param_idents char* array []
 
 
@@ -1121,13 +1121,13 @@ Returns the total number of active parameter identifiers from the fmop handle gi
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](mop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* const [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* const [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * size_t * **num_params**
 
 **Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
@@ -1147,7 +1147,7 @@ Returns the total average Field Coefficient of Prognosis for the fmop handle giv
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
 * **fcop**: An already initialized scalar data object on input. On output contains the total average Field Coefficient of Prognosis
 
 
@@ -1170,13 +1170,13 @@ Returns the total average Field Coefficient of Prognosis for the fmop handle giv
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](mop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* const [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* const [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * double * **fcop**
 
 **Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
@@ -1196,9 +1196,9 @@ Identifies the nodes connected to a given element.
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
 * **element_idx**: the element index (0.. numElements). This element index refers to the index in the FMOP data vectors.
-* **nodes**: An already initialized array of size as returned by [FMOP_getNumNodesAtElement()](mop_solver.md#fmop__solver_8h_1a031be0f125c4fbeb450f03bb960e207d). On output contains the internal node ID that are connected to the given element.
+* **nodes**: An already initialized array of size as returned by [FMOP_getNumNodesAtElement()](fmop_solver.md#fmop__solver_8h_1a031be0f125c4fbeb450f03bb960e207d). On output contains the internal node ID that are connected to the given element.
 
 
 **Returns**:
@@ -1220,13 +1220,13 @@ Identifies the nodes connected to a given element.
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](mop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * unsigned int **element_idx**
 * unsigned int * **nodes**
 
@@ -1247,7 +1247,7 @@ Identifies the elements connected to a given node.
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
 * **node_idx**: the node index (0.. numNodes). This node index refers to the index in the FMOP data vectors.
 * **num_elements**: a pointer to an unsigned integer number. On output it will contain the number of connected elements.
 
@@ -1271,13 +1271,13 @@ Identifies the elements connected to a given node.
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](mop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * unsigned int **node_idx**
 * unsigned int * **num_elements**
 
@@ -1298,7 +1298,7 @@ Identifies the nodes connected to a given element.
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
 * **element_idx**: the element index (0.. numElements). This element index refers to the index in the FMOP data vectors.
 * **num_nodes**: a pointer to an unsigned integer number. On output it will contain the number of connected nodes.
 
@@ -1322,13 +1322,13 @@ Identifies the nodes connected to a given element.
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](mop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * unsigned int **element_idx**
 * unsigned int * **num_nodes**
 
@@ -1349,8 +1349,8 @@ Returns lower bound values of input parameters used to train the FMOP, aka the l
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
-* **lower_bounds**: An already initialized array of size num_params as returned by [FMOP_getModelParamIdents()](mop_solver.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f) On output contains the vector of lower bound values of all active scalar input parameters used to train the FMOP, e.g. lower_bounds[j] (j..index of the active scalar input parameter).
+* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **lower_bounds**: An already initialized array of size num_params as returned by [FMOP_getModelParamIdents()](fmop_solver.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f) On output contains the vector of lower bound values of all active scalar input parameters used to train the FMOP, e.g. lower_bounds[j] (j..index of the active scalar input parameter).
 
 
 **Returns**:
@@ -1372,13 +1372,13 @@ Returns lower bound values of input parameters used to train the FMOP, aka the l
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](mop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* const [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* const [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * double * **lower_bounds**
 
 **Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
@@ -1398,8 +1398,8 @@ Returns upper bound values of input parameters used to train the FMOP, aka the u
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
-* **upper_bounds**: An already initialized array of size num_params as returned by [FMOP_getModelParamIdents()](mop_solver.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f) On output contains the vector of upper bound values of all active scalar input parameters used to train the FMOP, e.g. upper_bounds[j] (j..index of the active scalar input parameter).
+* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **upper_bounds**: An already initialized array of size num_params as returned by [FMOP_getModelParamIdents()](fmop_solver.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f) On output contains the vector of upper bound values of all active scalar input parameters used to train the FMOP, e.g. upper_bounds[j] (j..index of the active scalar input parameter).
 
 
 **Returns**:
@@ -1421,13 +1421,13 @@ Returns upper bound values of input parameters used to train the FMOP, aka the u
 Call FMOP_getErrnoString to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](mop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* const [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* const [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * double * **upper_bounds**
 
 **Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
@@ -1447,7 +1447,7 @@ Identifies if the given node is on the surface.
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
 * **node_idx**: the node index (0.. numNodes). This node index refers to the index in the FMOP data vectors.
 * **is_part_of_boundary**: a pointer to an unsigned integer number. On output it will contain
 * 1 if the node is on the boundary
@@ -1477,7 +1477,7 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 **Parameters**:
 
-* [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * unsigned int **node_idx**
 * unsigned int * **is_part_of_boundary**
 
@@ -1502,14 +1502,14 @@ Approximates a field response based on a vector of given active scalar input par
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
-* **param_values**: Vector of a single sample of all active scalar input parameters. Size and parameter order are defined by the return values of [FMOP_getModelParamIdents()](mop_solver.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f)<br/>
- param_values [j]... the index j matches the parameter input name position returned in the param_idents argument of [FMOP_getModelParamIdents()](mop_solver.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f) <br/>
- sizeof ( param_values ) ... must match the num_params argument of [FMOP_getModelParamIdents()](mop_solver.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f) The values must not be located outside the initial sampling bounds.
-* **field**: An already initialized array of size num_mesh_items as returned by [FMOP_getModelDim()](mop_solver.md#fmop__solver_8h_1a24e43563d67cc64bffb7bccddbaada65) On output contains the approximated field response. <br/>
+* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **param_values**: Vector of a single sample of all active scalar input parameters. Size and parameter order are defined by the return values of [FMOP_getModelParamIdents()](fmop_solver.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f)<br/>
+ param_values [j]... the index j matches the parameter input name position returned in the param_idents argument of [FMOP_getModelParamIdents()](fmop_solver.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f) <br/>
+ sizeof ( param_values ) ... must match the num_params argument of [FMOP_getModelParamIdents()](fmop_solver.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f) The values must not be located outside the initial sampling bounds.
+* **field**: An already initialized array of size num_mesh_items as returned by [FMOP_getModelDim()](fmop_solver.md#fmop__solver_8h_1a24e43563d67cc64bffb7bccddbaada65) On output contains the approximated field response. <br/>
  Follows the scheme: `formula {"type":"element","name":"formula","attributes":{"id":"2"},"children":[{"type":"text","text":"$ field[k] $"}]}` <br/>
  k...internal mesh item ident, e.g. internal signal position, internal element number <br/>
- Call [FMOP_getDataPointIndices()](mop_solver.md#fmop__solver_8h_1add2527ad2ad1bf1df141e5fa5b4c2e31) to map internal to external numbering scheme
+ Call [FMOP_getDataPointIndices()](fmop_solver.md#fmop__solver_8h_1add2527ad2ad1bf1df141e5fa5b4c2e31) to map internal to external numbering scheme
 
 
 **Returns**:
@@ -1534,7 +1534,7 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 **Parameters**:
 
-* const [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* const [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * const double * **param_values**
 * double * **field**
 
@@ -1555,14 +1555,14 @@ Approximates a field response based on a vector of given active scalar input par
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
-* **param_values**: Vector of a single sample of all active scalar input parameters. Size and parameter order are defined by the return values of [FMOP_getModelParamIdents()](mop_solver.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f)<br/>
- param_values [j]... the index j matches the parameter input name position returned in the param_idents argument of [FMOP_getModelParamIdents()](mop_solver.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f) <br/>
- sizeof ( param_values ) ... must match the num_params argument of [FMOP_getModelParamIdents()](mop_solver.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f) The values may be located outside the initial sampling bounds.
-* **field**: An already initialized array of size num_mesh_items as returned by [FMOP_getModelDim()](mop_solver.md#fmop__solver_8h_1a24e43563d67cc64bffb7bccddbaada65) On output contains the approximated field response. <br/>
+* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **param_values**: Vector of a single sample of all active scalar input parameters. Size and parameter order are defined by the return values of [FMOP_getModelParamIdents()](fmop_solver.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f)<br/>
+ param_values [j]... the index j matches the parameter input name position returned in the param_idents argument of [FMOP_getModelParamIdents()](fmop_solver.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f) <br/>
+ sizeof ( param_values ) ... must match the num_params argument of [FMOP_getModelParamIdents()](fmop_solver.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f) The values may be located outside the initial sampling bounds.
+* **field**: An already initialized array of size num_mesh_items as returned by [FMOP_getModelDim()](fmop_solver.md#fmop__solver_8h_1a24e43563d67cc64bffb7bccddbaada65) On output contains the approximated field response. <br/>
  Follows the scheme: `formula {"type":"element","name":"formula","attributes":{"id":"2"},"children":[{"type":"text","text":"$ field[k] $"}]}` <br/>
  k...internal mesh item ident, e.g. internal signal position, internal element number <br/>
- Call [FMOP_getDataPointIndices()](mop_solver.md#fmop__solver_8h_1add2527ad2ad1bf1df141e5fa5b4c2e31) to map internal to external numbering scheme
+ Call [FMOP_getDataPointIndices()](fmop_solver.md#fmop__solver_8h_1add2527ad2ad1bf1df141e5fa5b4c2e31) to map internal to external numbering scheme
 
 
 **Returns**:
@@ -1587,7 +1587,7 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 **Parameters**:
 
-* const [fmop_handle_t](mop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* const [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * const double * **param_values**
 * double * **field**
 

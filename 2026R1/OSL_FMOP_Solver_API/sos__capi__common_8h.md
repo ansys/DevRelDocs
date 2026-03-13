@@ -12,7 +12,7 @@ Ansys Austria GmbH
 ## Included by
 
 * [FMOPSolver.h](_f_m_o_p_solver_8h.md#_f_m_o_p_solver_8h)
-* [fmop_solver.h](mop_solver.md#fmop__solver_8h)
+* [fmop_solver.h](fmop_solver.md#fmop__solver_8h)
 * [sos_capi_script.h](sos__capi__script_8h.md#sos__capi__script_8h)
 
 

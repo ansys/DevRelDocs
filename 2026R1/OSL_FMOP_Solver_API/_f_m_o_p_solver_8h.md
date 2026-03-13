@@ -6,7 +6,7 @@
 
 ## Includes
 
-* [fmop_solver.h](mop_solver.md#fmop__solver_8h)
+* [fmop_solver.h](fmop_solver.md#fmop__solver_8h)
 * [sos_capi_common.h](sos__capi__common_8h.md#sos__capi__common_8h)
 * [sos_capi_script.h](sos__capi__script_8h.md#sos__capi__script_8h)
 
