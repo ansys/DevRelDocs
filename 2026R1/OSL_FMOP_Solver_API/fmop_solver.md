@@ -1737,13 +1737,8 @@ fmop_error_t FMOP_approxFieldExtrapolate
 #endif
 
 #endif // DYNARDO_FMOP_H
-
-// (c) 2017, Ansys Austria GmbH (proprietary license)
 ```
 
 **copyright**
 
 Copyright © 2026 Synopsys, Inc. and ANSYS, Inc. All rights reserved.
-
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
-[public]: https://img.shields.io/badge/-public-brightgreen (public)

@@ -278,12 +278,3 @@ cl /I../include /I. /DDYNARDO_MOPSOLVER_SHARED ms_api2_sample01_cpp.cpp mopsolve
 ### Linux
 
 g++ -I../include -I. -DDYNARDO_MOPSOLVER_SHARED ms_api2_sample01_cpp.cpp -o ms_api2_sample01 libmopsolver_dll.so
-
-<!--
-**TODO**:
-
-* `location  {"type":"element","name":"location","attributes":{"file":"mopsolver_api2.h"},"children":[]}`
--->
-
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
