@@ -1,22 +1,10 @@
 # Introduction
 
-## Contents pages
-
-* [Global contents](global_contents.md)
-* [Files](file_contents.md)
-
-## Index pages
-
-* [Global index](global_index.md)
-* [Files](file_index.md)
 
 **Location**: `fmop_solver.h`
 
 C-API to evaluate a Field Meta model of Optimal Prognosis (FMOP)
 
-**copyright**
-
-Ansys Austria GmbH
 
 * This API follows the _Basic_ exception safety _rule_. If any of the operations fail, the original data, e.g. the fmop_handle*_t, might have been overwritten, but there should be no resource leak.
 
@@ -1757,6 +1745,9 @@ DYNARDO_FMOP_API fmop_error_t FMOP_approxFieldExtrapolate
 // (c) 2017, Ansys Austria GmbH (proprietary license)
 ```
 
+**copyright**
+
+Copyright © 2026 Synopsys, Inc. and ANSYS, Inc. All rights reserved.
 
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

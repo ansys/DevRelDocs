@@ -6,13 +6,9 @@
       href: global_contents.md
     - name: Files
       href: file_contents.md
-    - name: Pages
-      href: page_contents.md
 - name: Index pages
   items:
     - name: Global index
       href: global_index.md
     - name: Files
       href: file_index.md
-    - name: Pages
-      href: page_index.md
