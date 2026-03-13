@@ -11,18 +11,20 @@ Provide an interface to complete the setup.
 
 ## Members
 
-* [sysccompletesetupf](interfacefortran_1_1sysccompletesetupf.md#interfacefortran_1_1sysccompletesetupf_1af8bf55bb3a923b4824f53281231ca18f)
+* [sysccompletesetupf](interfacefortran_1_1sysccompletesetupf.md#interfacefortran_1_1sysccompletesetupf_1a320cf53efbc6f8615763a47dbbf287f4)
 
 ## Public functions
 
-<a id="interfacefortran_1_1sysccompletesetupf_1af8bf55bb3a923b4824f53281231ca18f"></a>
+<a id="interfacefortran_1_1sysccompletesetupf_1a320cf53efbc6f8615763a47dbbf287f4"></a>
 ### Function sysccompletesetupf
 
 ![][public]
 
+
 ```fortran
-type(syscerrorf) function sysccompletesetupf(setupInfo)
+type(syscerrorf) function sysccompletesetupf(setupinfo)
 ```
+
 
 Provide a function to notify System Coupling that setup can be completed.
 
@@ -52,7 +54,7 @@ a <code>SyscErrorF</code> type for error checking.
 
 **Parameters**:
 
-* setupInfosetupInfo
+* setupinfotype([syscsetupinfof](structfortran_1_1syscsetupinfof.md#structfortran_1_1syscsetupinfof)), intent(in)
 
 **Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
 

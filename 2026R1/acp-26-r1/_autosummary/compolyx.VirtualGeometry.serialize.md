@@ -2,6 +2,6 @@
 
 <a id="compolyx.VirtualGeometry.serialize"></a>
 
-#### VirtualGeometry.serialize()
+## VirtualGeometry.serialize()
 
 Serialize to Python string.

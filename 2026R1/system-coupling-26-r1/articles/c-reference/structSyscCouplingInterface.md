@@ -25,6 +25,7 @@ To create and/or initialize the [SyscCouplingInterface](structSyscCouplingInterf
 
 
 
+
 ```
 SyscCouplingInterface reg = syscGetCouplingInterface("FSI"); 
 ```
@@ -42,9 +43,11 @@ SyscCouplingInterface reg = syscGetCouplingInterface("FSI");
 
 **Definition**: `syscCouplingInterface.h` (line 46)
 
+
 ```
 char SyscCouplingInterface::name[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
+
 
 
 

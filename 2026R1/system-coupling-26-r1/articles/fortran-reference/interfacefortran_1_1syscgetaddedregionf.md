@@ -20,6 +20,7 @@
 
 ![][public]
 
+
 ```fortran
 type(syscregionf) function syscgetaddedregionf(index)
 ```
@@ -30,9 +31,10 @@ type(syscregionf) function syscgetaddedregionf(index)
 
 
 
+
 **Parameters**:
 
-* indexindex
+* indexinteger(kind=8)
 
 **Return type**: type([syscregionf](structfortran_1_1syscregionf.md#structfortran_1_1syscregionf)) function
 

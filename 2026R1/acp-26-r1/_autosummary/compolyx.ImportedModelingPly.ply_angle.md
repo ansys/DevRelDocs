@@ -2,6 +2,6 @@
 
 <a id="compolyx.ImportedModelingPly.ply_angle"></a>
 
-#### *property* ImportedModelingPly.ply_angle
+## *property* ImportedModelingPly.ply_angle
 
-Ply Angle of the Imported Modeling Ply
+Ply angle of the imported modeling ply.

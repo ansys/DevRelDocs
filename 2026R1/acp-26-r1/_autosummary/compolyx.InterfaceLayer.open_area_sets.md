@@ -2,6 +2,6 @@
 
 <a id="compolyx.InterfaceLayer.open_area_sets"></a>
 
-#### *property* InterfaceLayer.open_area_sets
+## *property* InterfaceLayer.open_area_sets
 
-Open area set(s) of the Interface Layer
+One or more area sets of the Interface Layer.

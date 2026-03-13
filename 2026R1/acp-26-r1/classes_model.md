@@ -1,6 +1,6 @@
 # Model classes
 
-The following classes represent model, geometry, ply, selection, and analysis data within a ComPoLyX model. Each class corresponds to a specific object type and provides access to that data.
+The following classes represent model, geometry, ply, selection, and analysis data within a compolyx model. Each class corresponds to a specific object type and provides access to that data.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|

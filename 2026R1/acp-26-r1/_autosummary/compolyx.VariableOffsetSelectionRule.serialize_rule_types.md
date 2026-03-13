@@ -2,4 +2,4 @@
 
 <a id="compolyx.VariableOffsetSelectionRule.serialize_rule_types"></a>
 
-#### VariableOffsetSelectionRule.serialize_rule_types()
+## VariableOffsetSelectionRule.serialize_rule_types()

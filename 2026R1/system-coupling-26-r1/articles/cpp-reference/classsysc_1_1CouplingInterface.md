@@ -21,13 +21,13 @@ All regions on one side of the interface must have the same topology.
 * [addSideOneRegion](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1ab7a385065f0fde034baa88a88f274946)
 * [addSideTwoRegion](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a5afdb8ffa5c06d66fe30e6f150230b67)
 * [CouplingInterface](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a606ddfa3113e3e0bf1ee7eee2b58793d)
-* [getDataTransfer](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a712f091ef0bb543a6539c32fd6762fa8)
-* [getName](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a16898e4f25dd40d0e8bc2efec9c4db1d)
+* [getDataTransfer](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1aeff28058491eb4a52d5833f38b4214c7)
+* [getName](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1ac9975e59d9c18d893af5b153211e2635)
 * [getNumDataTransfers](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a9ac1bf66c466b9567e26fdf5c2108c05)
 * [getNumSideOneRegions](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a84873c1535d70a88096d44242c97a1b7)
 * [getNumSideTwoRegions](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a03a32678f212092a83149ea2b0c54f20)
-* [getSideOneRegion](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a1191a096450bd4569325be7bef6cb1f6)
-* [getSideTwoRegion](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a2809a5c10d6fc48e7c079fb09deaccd3)
+* [getSideOneRegion](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a540b82fcd3f5aa6c5e3726e429960d35)
+* [getSideTwoRegion](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a824ed032106d36fd0202a8b6f92a8a20)
 * [m\_dataTransfers](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a72a7d21e64692ba517f920301d7bc6ff)
 * [m\_name](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1aafbe3ef2afb0e2f496d4bb7d90998063)
 * [m\_sideOneRegions](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a0f56f6e8ae5eb0d6836e0fceef8db94e)
@@ -44,6 +44,7 @@ All regions on one side of the interface must have the same topology.
 
 **Definition**: `CouplingInterface.hpp` (line 101)
 
+
 ```cpp
 CouplingInterfaceName sysc::CouplingInterface::m_name
 ```
@@ -54,7 +55,8 @@ CouplingInterfaceName sysc::CouplingInterface::m_name
 
 
 
-**Type**: [CouplingInterfaceName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga8a62847c55d192b835faff927dbf41a3)
+
+**Type**: [CouplingInterfaceName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga5dfb2720e04b5892c7174b54825e4a4c)
 
 <a id="classsysc_1_1CouplingInterface_1a0f56f6e8ae5eb0d6836e0fceef8db94e"></a>
 ### Variable m\_sideOneRegions
@@ -63,9 +65,11 @@ CouplingInterfaceName sysc::CouplingInterface::m_name
 
 **Definition**: `CouplingInterface.hpp` (line 103)
 
+
 ```cpp
 std::vector<Region> sysc::CouplingInterface::m_sideOneRegions
 ```
+
 
 
 
@@ -82,6 +86,7 @@ std::vector<Region> sysc::CouplingInterface::m_sideOneRegions
 
 **Definition**: `CouplingInterface.hpp` (line 104)
 
+
 ```cpp
 std::map<RegionName, std::size_t> sysc::CouplingInterface::m_sideOneRegionsNameToIndex
 ```
@@ -92,7 +97,8 @@ std::map<RegionName, std::size_t> sysc::CouplingInterface::m_sideOneRegionsNameT
 
 
 
-**Type**: std::map< [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad700042fb75659f4591c4dae6560a62d), std::size_t >
+
+**Type**: std::map< [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga9bdc82c1ffda4e71e561435ff5743d80), std::size_t >
 
 <a id="classsysc_1_1CouplingInterface_1af448ebfbacdc9ebf704c1823ad07ad36"></a>
 ### Variable m\_sideTwoRegions
@@ -101,9 +107,11 @@ std::map<RegionName, std::size_t> sysc::CouplingInterface::m_sideOneRegionsNameT
 
 **Definition**: `CouplingInterface.hpp` (line 106)
 
+
 ```cpp
 std::vector<Region> sysc::CouplingInterface::m_sideTwoRegions
 ```
+
 
 
 
@@ -120,6 +128,7 @@ std::vector<Region> sysc::CouplingInterface::m_sideTwoRegions
 
 **Definition**: `CouplingInterface.hpp` (line 107)
 
+
 ```cpp
 std::map<RegionName, std::size_t> sysc::CouplingInterface::m_sideTwoRegionsNameToIndex
 ```
@@ -130,7 +139,8 @@ std::map<RegionName, std::size_t> sysc::CouplingInterface::m_sideTwoRegionsNameT
 
 
 
-**Type**: std::map< [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad700042fb75659f4591c4dae6560a62d), std::size_t >
+
+**Type**: std::map< [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga9bdc82c1ffda4e71e561435ff5743d80), std::size_t >
 
 <a id="classsysc_1_1CouplingInterface_1a72a7d21e64692ba517f920301d7bc6ff"></a>
 ### Variable m\_dataTransfers
@@ -139,9 +149,11 @@ std::map<RegionName, std::size_t> sysc::CouplingInterface::m_sideTwoRegionsNameT
 
 **Definition**: `CouplingInterface.hpp` (line 109)
 
+
 ```cpp
 std::vector<DataTransfer> sysc::CouplingInterface::m_dataTransfers
 ```
+
 
 
 
@@ -158,9 +170,11 @@ std::vector<DataTransfer> sysc::CouplingInterface::m_dataTransfers
 
 ![][public]
 
+
 ```cpp
 sysc::CouplingInterface::CouplingInterface(CouplingInterfaceName interfaceName)
 ```
+
 
 Provide a constructor for the [CouplingInterface](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface) class.
 
@@ -172,7 +186,7 @@ Provide a constructor for the [CouplingInterface](classsysc_1_1CouplingInterface
 
 **Parameters**:
 
-* [CouplingInterfaceName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga8a62847c55d192b835faff927dbf41a3) **interfaceName**
+* [CouplingInterfaceName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga5dfb2720e04b5892c7174b54825e4a4c) **interfaceName**
 
 **Return type**: 
 
@@ -181,9 +195,11 @@ Provide a constructor for the [CouplingInterface](classsysc_1_1CouplingInterface
 
 ![][public]
 
+
 ```cpp
 void sysc::CouplingInterface::addSideOneRegion(const Region &region)
 ```
+
 
 Add region to side one of the interface.
 
@@ -229,9 +245,11 @@ If the region name contains invalid characters, a runtime error will be thrown.
 
 ![][public]
 
+
 ```cpp
 void sysc::CouplingInterface::addSideTwoRegion(const Region &region)
 ```
+
 
 Add region to side two of the interface.
 
@@ -272,15 +290,17 @@ If the region name contains invalid characters, a runtime error will be thrown.
 
 **Return type**: void
 
-<a id="classsysc_1_1CouplingInterface_1a16898e4f25dd40d0e8bc2efec9c4db1d"></a>
+<a id="classsysc_1_1CouplingInterface_1ac9975e59d9c18d893af5b153211e2635"></a>
 ### Function getName
 
 ![][public]
 ![][const]
 
+
 ```cpp
-const CouplingInterfaceName& sysc::CouplingInterface::getName() const
+const CouplingInterfaceName & sysc::CouplingInterface::getName() const
 ```
+
 
 Get coupling interface name.
 
@@ -288,7 +308,7 @@ Get coupling interface name.
 
 
 
-**Return type**: const [CouplingInterfaceName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga8a62847c55d192b835faff927dbf41a3) &
+**Return type**: const [CouplingInterfaceName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga5dfb2720e04b5892c7174b54825e4a4c) &
 
 <a id="classsysc_1_1CouplingInterface_1a84873c1535d70a88096d44242c97a1b7"></a>
 ### Function getNumSideOneRegions
@@ -296,9 +316,11 @@ Get coupling interface name.
 ![][public]
 ![][const]
 
+
 ```cpp
 std::size_t sysc::CouplingInterface::getNumSideOneRegions() const
 ```
+
 
 Get the number of regions on side one of the interface.
 
@@ -314,9 +336,11 @@ Get the number of regions on side one of the interface.
 ![][public]
 ![][const]
 
+
 ```cpp
 std::size_t sysc::CouplingInterface::getNumSideTwoRegions() const
 ```
+
 
 Get the number of regions on side two of the interface.
 
@@ -326,15 +350,17 @@ Get the number of regions on side two of the interface.
 
 **Return type**: std::size_t
 
-<a id="classsysc_1_1CouplingInterface_1a1191a096450bd4569325be7bef6cb1f6"></a>
+<a id="classsysc_1_1CouplingInterface_1a540b82fcd3f5aa6c5e3726e429960d35"></a>
 ### Function getSideOneRegion
 
 ![][public]
 ![][const]
 
+
 ```cpp
-const Region& sysc::CouplingInterface::getSideOneRegion(std::size_t index) const
+const Region & sysc::CouplingInterface::getSideOneRegion(std::size_t index) const
 ```
+
 
 Get the region on side one, given an index.
 
@@ -348,15 +374,17 @@ Get the region on side one, given an index.
 
 **Return type**: const [Region](classsysc_1_1Region.md#classsysc_1_1Region) &
 
-<a id="classsysc_1_1CouplingInterface_1a2809a5c10d6fc48e7c079fb09deaccd3"></a>
+<a id="classsysc_1_1CouplingInterface_1a824ed032106d36fd0202a8b6f92a8a20"></a>
 ### Function getSideTwoRegion
 
 ![][public]
 ![][const]
 
+
 ```cpp
-const Region& sysc::CouplingInterface::getSideTwoRegion(std::size_t index) const
+const Region & sysc::CouplingInterface::getSideTwoRegion(std::size_t index) const
 ```
+
 
 Get the region on side two, given an index.
 
@@ -375,9 +403,11 @@ Get the region on side two, given an index.
 
 ![][public]
 
+
 ```cpp
 void sysc::CouplingInterface::addDataTransfer(const DataTransfer &dataTransfer)
 ```
+
 
 Add a data transfer.
 
@@ -397,9 +427,11 @@ Add a data transfer.
 ![][public]
 ![][const]
 
+
 ```cpp
 std::size_t sysc::CouplingInterface::getNumDataTransfers() const noexcept
 ```
+
 
 Get the number of data transfers.
 
@@ -409,15 +441,17 @@ Get the number of data transfers.
 
 **Return type**: std::size_t
 
-<a id="classsysc_1_1CouplingInterface_1a712f091ef0bb543a6539c32fd6762fa8"></a>
+<a id="classsysc_1_1CouplingInterface_1aeff28058491eb4a52d5833f38b4214c7"></a>
 ### Function getDataTransfer
 
 ![][public]
 ![][const]
 
+
 ```cpp
-const DataTransfer& sysc::CouplingInterface::getDataTransfer(std::size_t index) const
+const DataTransfer & sysc::CouplingInterface::getDataTransfer(std::size_t index) const
 ```
+
 
 Get the data transfer, given an index.
 
@@ -431,7 +465,15 @@ Get the data transfer, given an index.
 
 **Return type**: const [DataTransfer](classsysc_1_1DataTransfer.md#classsysc_1_1DataTransfer) &
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+**References**:
+
+* [getDataTransfer](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1aeff28058491eb4a52d5833f38b4214c7)
+
+**Referenced by**:
+
+* [getDataTransfer](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1aeff28058491eb4a52d5833f38b4214c7)
+
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

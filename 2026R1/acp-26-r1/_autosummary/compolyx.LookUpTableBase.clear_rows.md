@@ -2,6 +2,6 @@
 
 <a id="compolyx.LookUpTableBase.clear_rows"></a>
 
-#### LookUpTableBase.clear_rows()
+## LookUpTableBase.clear_rows()
 
 Clear table rows (keep columns).

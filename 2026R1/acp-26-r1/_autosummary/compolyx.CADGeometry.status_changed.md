@@ -2,6 +2,6 @@
 
 <a id="compolyx.CADGeometry.status_changed"></a>
 
-#### *property* CADGeometry.status_changed
+## *property* CADGeometry.status_changed
 
 Boolean flag which is set to true in C++ when up-to-date status of object changes.

@@ -2,7 +2,7 @@
 
 ## 2026 R1
 
-- moved com/phoenix_int/aserver/util/scriptWrapper to the [ModelCenter Remote Execution ScriptWrapper API](https://developer.ansys.com/docs/modelcenter) document
+- no changes
 
 ## 2025 R2
 

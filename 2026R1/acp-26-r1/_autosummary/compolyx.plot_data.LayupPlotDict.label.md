@@ -2,4 +2,4 @@
 
 <a id="compolyx.plot_data.LayupPlotDict.label"></a>
 
-#### LayupPlotDict.label *= None*
+## LayupPlotDict.label *= None*

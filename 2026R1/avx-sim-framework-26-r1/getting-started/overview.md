@@ -2,11 +2,11 @@
 
 For detailed instructions, refer to the **installation** guide.
 
-# Environment dependencies
+## Environment dependencies
 
 If you install Simulation Framework locally in `ubuntu 24.04 machine` or inside `ubuntu 24.04 VM` , all build and runtime dependencies will be installed during the installation script above. Alternatively, a `Dockerfile` containing all required dependencies is also provided, if you need to build or test in virtual environment for cloud deployment.
 
-## Build dependencies
+### Build dependencies
 
 In Simulation Framework deployment, a bazel `WORKSPACE` is provided as default build system. You can run example or build your own activity application based on that. However, Simulation Framework is not restricted to any build system.
 
@@ -21,7 +21,7 @@ In Simulation Framework deployment, a bazel `WORKSPACE` is provided as default b
 | Ubuntu (Noble Numbat 24.04) Package | Zlib library                    | latest  | apt-get install zlib1g-dev                                                           |
 | Ubuntu (Noble Numbat 24.04) Package | ZSTD library                    | latest  | apt-get install libzstd-dev                                                          |
 
-## System requirement
+### System requirement
 
 Depending on how complex your simulation is, you might need different recommended CPU/memory resources.
 For execution of the [reference simulation](#reference-simulation), following requirements shall be considered:
@@ -31,7 +31,7 @@ For execution of the [reference simulation](#reference-simulation), following re
 | Workstation or VM | 2.5 GHz processor, 4 cores | 8GB                 | 30 GB                   |
 | k8s Cluster       | 300m                       | 400Mi               | 30 GB                   |
 
-# Run example
+## Run example
 
 Within the deployment, an example code is provided to show how to use APIs of Simulation Framework and how to do customization.
 Before running the example, please make sure you have valid license setup and be able to connect with Ansys License Manager. More hint please see [setup License](setup_license.md)
@@ -43,7 +43,7 @@ cd simulation_framework/example
 
 This script compiles automatically the example `my_activity` and triggers the simulation using `my_activity` by means of [command line tool](command_line_tool.md) provided by Simulation Framework. It provides a basic example using bazel to show how Simulation Framework is used as lib. If the test works, you should see some simulation logs and then the evaluated `min_ttc` result in json format prints in console.
 
-# Built-in and default standalone Activities
+## Built-in and default standalone Activities
 
 The autonomy `simfwk_cli` stands as an exemplary application constructed with the Simulation Framework library, offering four predefined activities as references. Users have the flexibility to use these activities to initiate the default simulation application or seamlessly integrate them into a customized simulation. These activities, implemented in the `simfwk-autonomy`, can be selected as `built-in` activities based on their specified `type` in the configuration, contributing to the adaptability of the simulation at any given point. Details about config please refer to [schedule your simulation](simulation_scheduling.md).
 
@@ -64,14 +64,14 @@ The table above illustrates the names of default activities provided in the Simu
 
 These built-in activities are provided within the Simulation Framework Autonomy binary, and their source code is not included. The exception is the source code for the KPI implementation used by the KPI Evaluator. This implementation provides four KPIs: `min_ttc`, `predictive_min_ttc`, `driven_dist` and `collision_detector`. They are based on a simple generic mathematical model and are included in the package under `./include/autonomy/evaluator`. Please verify the logic and use the default KPI Evaluator at your own risk.
 
-## Foxglove Activity
+### Foxglove Activity
 
 This activity supports visualization by starting a Foxglove websocket server on a default host and port.
 A `Lichtblick Client(A Visualization Tool)` can connect to the server and consume OSI groundtruth data via a streaming websocket in order to visualize.
 The default host and port used are `localhost:8679`. The host and port can be configured by the user by setting values as given in
 `Enabling Visualization using Lichtblick` section.
 
-### Enabling Visualization using Lichtblick/Foxglove
+#### Enabling Visualization using Lichtblick/Foxglove
 
 The user needs to add the below config setting json node as a child of `simulation_scheduling` in the `solver_setting_configuration.json` in order to enable visualization using Lichtblick/Foxglove Studio.
 
@@ -115,7 +115,7 @@ The user needs to add the below config setting json node as a child of `simulati
 
 **Note:** You can subscribe to any combination of the supported topics based on your visualization needs. All topics use OSI protobuf format except `KpiLoggerTopic` which uses JSON format.
 
-### Visualization Plots for GroundTruth wrt time from GroundTruth using Lichtblick
+#### Visualization Plots for GroundTruth wrt time from GroundTruth using Lichtblick
 
 **Using live streaming:**
 
@@ -135,14 +135,14 @@ The user needs to add the below config setting json node as a child of `simulati
     Refer settings at ![Lichtblick settings for live streaming](../images/lichtblick_settings_mcap_file.png)
 - The plot will be drawn for the mcap file selected.
 
-## GroundTruth Generator (GT Gen)
+### GroundTruth Generator (GT Gen)
 
 GT Gen serves as the default world simulator in Autonomy and provides ground truth information for the entire simulation based on input `OpenScenario` and `OpenDRIVE` files. Depending on the configuration, it can operate in two modes: `ExternalMovement` and `InternalMovement`.
 
 - **InternalMovement**: This open-loop mode provides simulation ground truth based on a predefined trajectory in the open scenario and map.
 - **ExternalMovement (Closed-loop)**: This mode receives `TrafficUpdate` from an external driver and follows its movement commands for closed-loop behavior.
 
-### Subscribing to OSC Variable References
+#### Subscribing to OSC Variable References
 
 GT Gen can optionally subscribe to `ScenarioVariableTopic` to receive dynamic variable updates during simulation. This feature enables runtime control of OpenScenario variable conditions (e.g., `CarSpeedChangeCondition`) from external activities. To enable this feature, add the `enable_external_scenario_variables` parameter to the `groundtruth_generator_activity` configuration:
 
@@ -161,7 +161,7 @@ GT Gen can optionally subscribe to `ScenarioVariableTopic` to receive dynamic va
 
 When enabled, GT Gen will subscribe to `ScenarioVariableTopic` and update simulation variables based on messages received from publishers. The default value is `false` if the parameter is not specified.
 
-## Mcap Trace Writer
+### Mcap Trace Writer
 
 This activity writes the GroundTruth (OSI) data into a trace file in MCAP format. After the simulation finishes successfully, the trace file `simout_trace.mcap` will be available in the specified output directory.
 To enable creation of the trace file, user needs to add and enable the below field `save_mcap` as below in the config `solver_setting_configuration.json`.
@@ -213,19 +213,19 @@ To enable creation of the trace file, user needs to add and enable the below fie
 }
 ```
 
-## Dummy TPM Model
+### Dummy TPM Model
 
 The Dummy Traffic Participant (TPM) model uses the ground truth information generated by GT Gen to control the host vehicle's movement. It relies on a simple mathematical model to publish `TrafficUpdateTopic`.
 
-## Dummy Driver Model
+### Dummy Driver Model
 
 The Dummy Driver Model mimics driver behavior based on GroundTruth and publishes a driver input topic that contains log data (in KPI format) of the driver's behavior.
 
-## Standalone GroundTruth Generator
+### Standalone GroundTruth Generator
 
 The Standalone GroundTruth Generator functions similarly to the built-in GroundTruth Generator. The difference is that it is a separate executable using the Simulation Framework standalone activity service.
 
-### Command-Line Options
+#### Command-Line Options
 
 The standalone GT Gen activity supports the following command-line options:
 
@@ -243,7 +243,7 @@ To view all available options:
 ./standalone_gt_gen_activity --help
 ```
 
-## Vehicle Model Activity
+### Vehicle Model Activity
 
 The single-track (also called bicycle) kinematic model is a low-order vehicle representation commonly used for path tracking and motion planning where lateral and yaw dynamics are dominant but high-frequency tire dynamics can be neglected. It is compact, computationally cheap, and suitable for control and simulation.
 
@@ -255,7 +255,7 @@ Files needed by this activity:
 
 - `config_file` — a vehicle configuration (controller gains, geometry and limits).
 
-### Example vehicle configuration
+#### Example vehicle configuration
 
 An example test vehicle configuration:
 
@@ -300,7 +300,7 @@ An example test vehicle configuration:
 
 ```
 
-### States and Inputs
+#### States and Inputs
 
 States (motion state):
 
@@ -315,7 +315,7 @@ Inputs:
 
 We define the input vector u = [a, $\delta_f$].
 
-### Model Equations
+#### Model Equations
 
 The continuous-time kinematic single-track model in activity is:
 
@@ -346,13 +346,13 @@ $W_i = Q_i / (S_i * S_i)$
 
 This cost drives the predicted outputs (typically motion states x, y, $\psi$, v) towards a reference trajectory provided by the motion planner.
 
-### Controller Gains to minimise cost function
+#### Controller Gains to minimise cost function
 
 - Tracking (`Q`) : The `Q` gains adjust the controller's tracking accuracy for respective motion state properties (`q_<property>`). Larger `Q` values result in higher accuracy and more aggressive minimization of tracking errors.
 - Sensitivity (`S`) : The `S` gains control the sensitivity of the controller to changes in respective motion state properties (`s_<property>`). Smaller `S` values make the controller more sensitive to incremental/decremental changes.
 - Restrictions (`R`) : The `R` gains limit the aggressiveness of the vehicle model inputs, such as the rate of change of acceleration. Smaller `R` values allow more aggressive behavior.
 
-### Optimization Parameters
+#### Optimization Parameters
 
 The optimization parameters control the solver behavior. The controller predicts its next state by considering its current state and possible future states which is sent as a list of points via motion planner to controller.
 
@@ -387,7 +387,7 @@ The optimization parameters control the solver behavior. The controller predicts
 }
 ```
 
-### Example of using vehicle_activity in simulation framework
+#### Example of using vehicle_activity in simulation framework
 
 An example simulation configuration to use the builtin `vehicle_activity`:
 
@@ -436,18 +436,18 @@ An example simulation configuration to use the builtin `vehicle_activity`:
 
 ```
 
-## esmini — Environment Simulator Minimalistic
+### esmini — Environment Simulator Minimalistic
 
-### Overview
+#### Overview
 
 - esmini is a lightweight OpenSCENARIO runtime (OpenSCENARIO XML v1.0–v1.3, limited coverage) designed to simulate environment actors and scenarios.
 - In this framework it is integrated as an built-in activity module and can be used as an alternative ground-truth generator to **[GT-Gen](gt_gen_and_road_logic_suite.md)** .
 
-### Quick highlights
+#### Quick highlights
 
 - Supports OpenSCENARIO XML v1.0–v1.3 (feature coverage is partial and evolves), please refer [here](https://github.com/esmini/esmini/blob/master/osc_coverage.txt) for coverage details.
 
-### How to configure esmini as an activity within Simulation Framework
+#### How to configure esmini as an activity within Simulation Framework
 
 ```json
 {
@@ -493,7 +493,7 @@ An example simulation configuration to use the builtin `vehicle_activity`:
 
 In this example `esmini_activity` is used as the main GroundTruth Data Generator which is producing osi::Sensorview, the host within simulation is controlled via `dummy_tpm_activity`. KPIs are evaluated and logged using `kpi_evaluator_activity` and `kpi_logger_activity`.
 
-## Important features supported by this activity
+### Important features supported by this activity
 
 ```json
        {
@@ -549,13 +549,13 @@ In this example `esmini_activity` is used as the main GroundTruth Data Generator
 
 - `max_lateral_deviation` Maximum distance between OSI points in lateral direction. It controls the resolution during curvature default : 0.05
 
-##### References
+#### References
 
 - esmini User Guide: <https://esmini.github.io>
 - esmini Inner Workings: <https://github.com/esmini/esmini/blob/master/docs/InnerWorkings.md>
 - esmini repository: <https://github.com/esmini/esmini>
 
-## GroundTruth KPI Evaluator
+### GroundTruth KPI Evaluator
 
 The KPI Evaluator calculates four KPIs based on GroundTruth:
 
@@ -576,7 +576,7 @@ The KPI Evaluator calculates four KPIs based on GroundTruth:
 
 To add more KPIs to the simulation, please refer to the [customized KPI chapter](../user-guide/customized_kpi_evaluator.md).
 
-## Default KPI logger
+### Default KPI logger
 
 The KPI logger captures the evaluated KPI data in `KpiLoggerTopic`, sent from KPI Evaluator, and stores them in JSON output for analyzing your simulation later. If you use the default `GroundTruth KPI Evaluator`, the final KPI file `kpi_results.json` could consist of the following fields:
 
@@ -638,7 +638,7 @@ The KPI logger captures the evaluated KPI data in `KpiLoggerTopic`, sent from KP
 }
 ```
 
-## How to safely utilize the KPI logger
+### How to safely utilize the KPI logger
 
 As outlined above, the KPI logger subscribes to KPI messages and records them in a JSON file. To effectively use the KPI logger, follow these steps:
 
@@ -653,13 +653,13 @@ As outlined above, the KPI logger subscribes to KPI messages and records them in
 
 By following these guidelines, you can ensure the safe and effective use of the KPI logger in your simulation. By verifying the field `latest_timestamp_in_ms` into your KPI analysis, you can enhance the reliability of your simulation results and foster a more robust safety protocol for your application.
 
-## Customization
+### Customization
 
 The Simulation Framework Autonomy not only offers users the capability to extend or customize the default simulation setup but also empowers them to bring their own logic into specific activities and seamlessly communicate with other activities through the introduction of new topics. Additionally, users can incorporate new KPIs, which will be automatically logged by the Simulation Framework.
 
 For detailed instructions on implementing and using customized activities, refer to [how to implement and use customized Activity](../user-guide/customized_activity.md). Furthermore, guidance on adding and utilizing customized KPIs can be found in [how to add and use customized KPIs](../user-guide/customized_kpi_evaluator.md).
 
-# Simulation domain ID
+## Simulation domain ID
 
 The connection between standalone activities, built-in activities and simfwk core is achieved through [RTIDDS communication](https://www.rti.com/products/dds-standard) using the domain ID (in type of uint16). By default, the binaries in the deployment package use the same domain `147` as default and can communicate with each other.
 
@@ -683,11 +683,11 @@ export SIMFWK_DDS_DOMAIN_ID=407
 
 Note that please be careful to use this feature because two same processes in the same domain might interfere with each other and results in unexpected behavior, e.g. two `simfwk_cli` run in same domain will received events from other and simulation ends up with wrong scheduling or abortion. Please make sure the processes are isolated correctly if you use this feature and no unexpected hidden process running in background within the same domain, while testing your customized activity.
 
-# Troubleshooting
+## Troubleshooting
 
 If simulation or setup faced critical error and can not proceed, Simulation Framework will terminate the simulation or throw exceptions with proper messages to indicate a solution or root causes.
 
-## Licensing error
+### Licensing error
 
 **Unset of `ANSYSLMD_LICENSE_FILE`**
 
@@ -703,7 +703,7 @@ If simulation or setup faced critical error and can not proceed, Simulation Fram
 [Licensing] License check with Ansys License Manager at <your-ansys-license-domain> failed! Please verify address or contact customer support!
 ```
 
-## Path error
+### Path error
 
 **Can not access simulation config**
 
@@ -715,7 +715,7 @@ terminate called after throwing an instance of 'std::runtime_error'
   what():  [Scheduling] Error in scheduling configuration!
 ```
 
-## Scheduling error
+### Scheduling error
 
 **Wrong definition in config**
 Any wrong definitions, e.g. missing mandatory field or wrongly defined parameter, name or dependency, exception will be thrown immediately.
@@ -754,7 +754,7 @@ Executing original terminate handler...terminate called after throwing an instan
 
 The root cause of this issue could be that the environment where your simulation applicaiont runs does not have enough resouces, e.g. the CPU was stressed or memory is not enough. Other possible reason is that you have another application process built with Simulation Framework running in the same simulation domain. Please refer to the documentation of [Simulation domain ID section in lifecycle](lifecycle.md)
 
-## Communication error
+### Communication error
 
 **Multiple publisher for same Topic**
 
@@ -804,7 +804,7 @@ Terminating due to an unhandled exception:
     what(): [Communication] Awaiting publisher/subscriber failed.
 ```
 
-# Security consideration
+## Security consideration
 
 By prioritizing these security measures, Simulation Framework aims to provide a secure environment for the user to RTI DDS communication as middleware and mitigate risks associated with third-party integrations.
 

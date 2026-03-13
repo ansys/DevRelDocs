@@ -1,0 +1,3324 @@
+# Namespace ZOSAPI::Editors::LDE
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e"></a>
+
+![][C#]
+
+**Definition**:
+
+
+## Classes
+
+* [ZOSAPI::Editors::LDE::ICoatingPerformanceData](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_coating_performance_data.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_coating_performance_data)
+* [ZOSAPI::Editors::LDE::ILDEApertureData](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_aperture_data.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_aperture_data)
+* [ZOSAPI::Editors::LDE::ILDECoatingData](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_coating_data.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_coating_data)
+* [ZOSAPI::Editors::LDE::ILDECoatingSettings](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_coating_settings.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_coating_settings)
+* [ZOSAPI::Editors::LDE::ILDECompositeData](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_composite_data.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_composite_data)
+* [ZOSAPI::Editors::LDE::ILDEDrawData](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_draw_data.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_draw_data)
+* [ZOSAPI::Editors::LDE::ILDEImportData](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_import_data.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_import_data)
+* [ZOSAPI::Editors::LDE::ILDEPhysicalOpticsData](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_physical_optics_data.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_physical_optics_data)
+* [ZOSAPI::Editors::LDE::ILDERow](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_row.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_row)
+* [ZOSAPI::Editors::LDE::ILDEScatteringData](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_scattering_data.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_scattering_data)
+* [ZOSAPI::Editors::LDE::ILDETiltDecenterData](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_tilt_decenter_data.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_tilt_decenter_data)
+* [ZOSAPI::Editors::LDE::ILDETool\_AddCoatingsToAllSurfaces](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_tool___add_coatings_to_all_surfaces.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_tool___add_coatings_to_all_surfaces)
+* [ZOSAPI::Editors::LDE::ILDETool\_TiltDecenterElements](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_tool___tilt_decenter_elements.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_tool___tilt_decenter_elements)
+* [ZOSAPI::Editors::LDE::ILDETypeData](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_type_data.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_type_data)
+* [ZOSAPI::Editors::LDE::ILensDataEditor](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_lens_data_editor.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_lens_data_editor)
+* [ZOSAPI::Editors::LDE::ISTAR\_ComponentRBMs](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___component_r_b_ms.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___component_r_b_ms)
+* [ZOSAPI::Editors::LDE::ISTAR\_CoordinateTransform](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___coordinate_transform.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___coordinate_transform)
+* [ZOSAPI::Editors::LDE::ISTAR\_Data](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___data.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___data)
+* [ZOSAPI::Editors::LDE::ISTAR\_Decenters](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___decenters.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___decenters)
+* [ZOSAPI::Editors::LDE::ISTAR\_Deformation](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___deformation.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___deformation)
+* [ZOSAPI::Editors::LDE::ISTAR\_DeformationFits](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___deformation_fits.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___deformation_fits)
+* [ZOSAPI::Editors::LDE::ISTAR\_Deformations](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___deformations.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___deformations)
+* [ZOSAPI::Editors::LDE::ISTAR\_DeformationsFEAData](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___deformations_f_e_a_data.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___deformations_f_e_a_data)
+* [ZOSAPI::Editors::LDE::ISTAR\_DirectIndex](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___direct_index.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___direct_index)
+* [ZOSAPI::Editors::LDE::ISTAR\_DirectIndexFEAData](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___direct_index_f_e_a_data.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___direct_index_f_e_a_data)
+* [ZOSAPI::Editors::LDE::ISTAR\_DirectIndexFits](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___direct_index_fits.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___direct_index_fits)
+* [ZOSAPI::Editors::LDE::ISTAR\_FEAFitResults](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___f_e_a_fit_results.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___f_e_a_fit_results)
+* [ZOSAPI::Editors::LDE::ISTAR\_FEAFitSettings](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___f_e_a_fit_settings.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___f_e_a_fit_settings)
+* [ZOSAPI::Editors::LDE::ISTAR\_PointWithDeformation](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___point_with_deformation.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___point_with_deformation)
+* [ZOSAPI::Editors::LDE::ISTAR\_PointWithDeformationAndWeight](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___point_with_deformation_and_weight.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___point_with_deformation_and_weight)
+* [ZOSAPI::Editors::LDE::ISTAR\_PointWithIndex](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___point_with_index.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___point_with_index)
+* [ZOSAPI::Editors::LDE::ISTAR\_PointWithIndexAndRetardance](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___point_with_index_and_retardance.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___point_with_index_and_retardance)
+* [ZOSAPI::Editors::LDE::ISTAR\_PointWithRetardance](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___point_with_retardance.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___point_with_retardance)
+* [ZOSAPI::Editors::LDE::ISTAR\_PointWithStress](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___point_with_stress.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___point_with_stress)
+* [ZOSAPI::Editors::LDE::ISTAR\_PointWithTemperature](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___point_with_temperature.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___point_with_temperature)
+* [ZOSAPI::Editors::LDE::ISTAR\_PointWithTemperatureAndIndex](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___point_with_temperature_and_index.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___point_with_temperature_and_index)
+* [ZOSAPI::Editors::LDE::ISTAR\_RBM\_Centroid](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___r_b_m___centroid.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___r_b_m___centroid)
+* [ZOSAPI::Editors::LDE::ISTAR\_RBM\_ReferencePoint](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___r_b_m___reference_point.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___r_b_m___reference_point)
+* [ZOSAPI::Editors::LDE::ISTAR\_RBMs](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___r_b_ms.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___r_b_ms)
+* [ZOSAPI::Editors::LDE::ISTAR\_RotationAngles](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___rotation_angles.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___rotation_angles)
+* [ZOSAPI::Editors::LDE::ISTAR\_Rotations](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___rotations.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___rotations)
+* [ZOSAPI::Editors::LDE::ISTAR\_RotationValues](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___rotation_values.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___rotation_values)
+* [ZOSAPI::Editors::LDE::ISTAR\_Stress](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___stress.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___stress)
+* [ZOSAPI::Editors::LDE::ISTAR\_StressFEAData](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___stress_f_e_a_data.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___stress_f_e_a_data)
+* [ZOSAPI::Editors::LDE::ISTAR\_StressFits](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___stress_fits.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___stress_fits)
+* [ZOSAPI::Editors::LDE::ISTAR\_Temperatures](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___temperatures.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___temperatures)
+* [ZOSAPI::Editors::LDE::ISTAR\_TemperaturesFEAData](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___temperatures_f_e_a_data.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___temperatures_f_e_a_data)
+* [ZOSAPI::Editors::LDE::ISTAR\_TemperaturesFits](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___temperatures_fits.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___temperatures_fits)
+* [ZOSAPI::Editors::LDE::ISurface](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface)
+* [ZOSAPI::Editors::LDE::ISurfaceABCD](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_a_b_c_d.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_a_b_c_d)
+* [ZOSAPI::Editors::LDE::ISurfaceAlternateEven](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_alternate_even.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_alternate_even)
+* [ZOSAPI::Editors::LDE::ISurfaceAlternateOdd](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_alternate_odd.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_alternate_odd)
+* [ZOSAPI::Editors::LDE::ISurfaceAnnularZernikeSag](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_annular_zernike_sag.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_annular_zernike_sag)
+* [ZOSAPI::Editors::LDE::ISurfaceAPBC](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_a_p_b_c.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_a_p_b_c)
+* [ZOSAPI::Editors::LDE::ISurfaceApertureCircular](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_circular.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_circular)
+* [ZOSAPI::Editors::LDE::ISurfaceApertureElliptical](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_elliptical.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_elliptical)
+* [ZOSAPI::Editors::LDE::ISurfaceApertureFloating](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_floating.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_floating)
+* [ZOSAPI::Editors::LDE::ISurfaceApertureNone](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_none.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_none)
+* [ZOSAPI::Editors::LDE::ISurfaceApertureRectangular](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_rectangular.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_rectangular)
+* [ZOSAPI::Editors::LDE::ISurfaceApertureSpider](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_spider.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_spider)
+* [ZOSAPI::Editors::LDE::ISurfaceApertureType](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_type.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_type)
+* [ZOSAPI::Editors::LDE::ISurfaceApertureUser](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_user.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_aperture_user)
+* [ZOSAPI::Editors::LDE::ISurfaceAtmospheric](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_atmospheric.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_atmospheric)
+* [ZOSAPI::Editors::LDE::ISurfaceBiconic](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_biconic.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_biconic)
+* [ZOSAPI::Editors::LDE::ISurfaceBiconicZernike](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_biconic_zernike.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_biconic_zernike)
+* [ZOSAPI::Editors::LDE::ISurfaceBinary1](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_binary1.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_binary1)
+* [ZOSAPI::Editors::LDE::ISurfaceBinary2](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_binary2.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_binary2)
+* [ZOSAPI::Editors::LDE::ISurfaceBinary3](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_binary3.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_binary3)
+* [ZOSAPI::Editors::LDE::ISurfaceBinary4](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_binary4.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_binary4)
+* [ZOSAPI::Editors::LDE::ISurfaceBirefringentIn](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_birefringent_in.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_birefringent_in)
+* [ZOSAPI::Editors::LDE::ISurfaceBirefringentOut](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_birefringent_out.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_birefringent_out)
+* [ZOSAPI::Editors::LDE::ISurfaceBlackBoxLens](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_black_box_lens.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_black_box_lens)
+* [ZOSAPI::Editors::LDE::ISurfaceChebyShv](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_cheby_shv.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_cheby_shv)
+* [ZOSAPI::Editors::LDE::ISurfaceCoeff\_P\_NthEvenPower](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___p___nth_even_power.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___p___nth_even_power)
+* [ZOSAPI::Editors::LDE::ISurfaceCoeff\_P\_NthPower](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___p___nth_power.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___p___nth_power)
+* [ZOSAPI::Editors::LDE::ISurfaceCoeff\_R\_NthEvenPower](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___r___nth_even_power.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___r___nth_even_power)
+* [ZOSAPI::Editors::LDE::ISurfaceCoeff\_R\_NthPower](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___r___nth_power.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___r___nth_power)
+* [ZOSAPI::Editors::LDE::ISurfaceCoeff\_X1P1X2P2\_NthEvenPower](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___x1_p1_x2_p2___nth_even_power.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___x1_p1_x2_p2___nth_even_power)
+* [ZOSAPI::Editors::LDE::ISurfaceCoeff\_X\_NthEvenPower](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___x___nth_even_power.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___x___nth_even_power)
+* [ZOSAPI::Editors::LDE::ISurfaceCoeff\_X\_NthEvenPower\_8](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___x___nth_even_power__8.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___x___nth_even_power__8)
+* [ZOSAPI::Editors::LDE::ISurfaceCoeff\_Y\_NthEvenPower](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___y___nth_even_power.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___y___nth_even_power)
+* [ZOSAPI::Editors::LDE::ISurfaceCoeff\_Y\_NthEvenPower\_8](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___y___nth_even_power__8.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___y___nth_even_power__8)
+* [ZOSAPI::Editors::LDE::ISurfaceConjugate](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_conjugate.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_conjugate)
+* [ZOSAPI::Editors::LDE::ISurfaceCoordinateBreak](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coordinate_break.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coordinate_break)
+* [ZOSAPI::Editors::LDE::ISurfaceCubicSpline](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_cubic_spline.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_cubic_spline)
+* [ZOSAPI::Editors::LDE::ISurfaceCylinderFrensel](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_cylinder_frensel.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_cylinder_frensel)
+* [ZOSAPI::Editors::LDE::ISurfaceCylinderFresnel](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_cylinder_fresnel.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_cylinder_fresnel)
+* [ZOSAPI::Editors::LDE::ISurfaceData](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_data.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_data)
+* [ZOSAPI::Editors::LDE::ISurfaceDiffractionGrating](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_diffraction_grating.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_diffraction_grating)
+* [ZOSAPI::Editors::LDE::ISurfaceEllipticalGrating1](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_elliptical_grating1.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_elliptical_grating1)
+* [ZOSAPI::Editors::LDE::ISurfaceEllipticalGrating2](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_elliptical_grating2.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_elliptical_grating2)
+* [ZOSAPI::Editors::LDE::ISurfaceEvenAspheric](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_even_aspheric.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_even_aspheric)
+* [ZOSAPI::Editors::LDE::ISurfaceExtendedAsphere](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_extended_asphere.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_extended_asphere)
+* [ZOSAPI::Editors::LDE::ISurfaceExtendedCubicSpline](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_extended_cubic_spline.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_extended_cubic_spline)
+* [ZOSAPI::Editors::LDE::ISurfaceExtendedFresnel](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_extended_fresnel.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_extended_fresnel)
+* [ZOSAPI::Editors::LDE::ISurfaceExtendedOddAsphere](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_extended_odd_asphere.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_extended_odd_asphere)
+* [ZOSAPI::Editors::LDE::ISurfaceExtendedPolynomial](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_extended_polynomial.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_extended_polynomial)
+* [ZOSAPI::Editors::LDE::ISurfaceExtendedToroidalGrating](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_extended_toroidal_grating.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_extended_toroidal_grating)
+* [ZOSAPI::Editors::LDE::ISurfaceFreeformNthZernike](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_freeform_nth_zernike.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_freeform_nth_zernike)
+* [ZOSAPI::Editors::LDE::ISurfaceFreeformXYPolynomial](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_freeform_x_y_polynomial.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_freeform_x_y_polynomial)
+* [ZOSAPI::Editors::LDE::ISurfaceFresnel](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_fresnel.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_fresnel)
+* [ZOSAPI::Editors::LDE::ISurfaceGeneralizedFresnel](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_generalized_fresnel.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_generalized_fresnel)
+* [ZOSAPI::Editors::LDE::ISurfaceGradient1](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient1.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient1)
+* [ZOSAPI::Editors::LDE::ISurfaceGradient10](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient10.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient10)
+* [ZOSAPI::Editors::LDE::ISurfaceGradient12](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient12.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient12)
+* [ZOSAPI::Editors::LDE::ISurfaceGradient2](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient2.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient2)
+* [ZOSAPI::Editors::LDE::ISurfaceGradient3](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient3.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient3)
+* [ZOSAPI::Editors::LDE::ISurfaceGradient4](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient4.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient4)
+* [ZOSAPI::Editors::LDE::ISurfaceGradient5](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient5.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient5)
+* [ZOSAPI::Editors::LDE::ISurfaceGradient6](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient6.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient6)
+* [ZOSAPI::Editors::LDE::ISurfaceGradient7](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient7.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient7)
+* [ZOSAPI::Editors::LDE::ISurfaceGradient9](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient9.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient9)
+* [ZOSAPI::Editors::LDE::ISurfaceGradium](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradium.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradium)
+* [ZOSAPI::Editors::LDE::ISurfaceGridGradient](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_grid_gradient.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_grid_gradient)
+* [ZOSAPI::Editors::LDE::ISurfaceGridPhase](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_grid_phase.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_grid_phase)
+* [ZOSAPI::Editors::LDE::ISurfaceGridSag](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_grid_sag.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_grid_sag)
+* [ZOSAPI::Editors::LDE::ISurfaceHologram1](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_hologram1.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_hologram1)
+* [ZOSAPI::Editors::LDE::ISurfaceHologram2](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_hologram2.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_hologram2)
+* [ZOSAPI::Editors::LDE::ISurfaceIrregular](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_irregular.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_irregular)
+* [ZOSAPI::Editors::LDE::ISurfaceJonesMatrix](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_jones_matrix.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_jones_matrix)
+* [ZOSAPI::Editors::LDE::ISurfaceMuellerMatrix](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_mueller_matrix.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_mueller_matrix)
+* [ZOSAPI::Editors::LDE::ISurfaceNonSequential](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_non_sequential.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_non_sequential)
+* [ZOSAPI::Editors::LDE::ISurfaceNthEvenOrderTerms](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_nth_even_order_terms.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_nth_even_order_terms)
+* [ZOSAPI::Editors::LDE::ISurfaceNthOrderTerms](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_nth_order_terms.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_nth_order_terms)
+* [ZOSAPI::Editors::LDE::ISurfaceNthThickness](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_nth_thickness.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_nth_thickness)
+* [ZOSAPI::Editors::LDE::ISurfaceNthZernike](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_nth_zernike.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_nth_zernike)
+* [ZOSAPI::Editors::LDE::ISurfaceOddAsphere](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_odd_asphere.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_odd_asphere)
+* [ZOSAPI::Editors::LDE::ISurfaceOddCosine](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_odd_cosine.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_odd_cosine)
+* [ZOSAPI::Editors::LDE::ISurfaceOffAxisConicFreeform](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_off_axis_conic_freeform.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_off_axis_conic_freeform)
+* [ZOSAPI::Editors::LDE::ISurfaceOpticallyFabricatedHologram](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_optically_fabricated_hologram.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_optically_fabricated_hologram)
+* [ZOSAPI::Editors::LDE::ISurfaceParaxial](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_paraxial.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_paraxial)
+* [ZOSAPI::Editors::LDE::ISurfaceParaxialXY](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_paraxial_x_y.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_paraxial_x_y)
+* [ZOSAPI::Editors::LDE::ISurfacePeriodic](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_periodic.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_periodic)
+* [ZOSAPI::Editors::LDE::ISurfacePolynomial](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_polynomial.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_polynomial)
+* [ZOSAPI::Editors::LDE::ISurfaceQTypeAsphere](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_q_type_asphere.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_q_type_asphere)
+* [ZOSAPI::Editors::LDE::ISurfaceQTypeFreeform](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_q_type_freeform.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_q_type_freeform)
+* [ZOSAPI::Editors::LDE::ISurfaceRadialGrating](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_radial_grating.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_radial_grating)
+* [ZOSAPI::Editors::LDE::ISurfaceRadialNurbs](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_radial_nurbs.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_radial_nurbs)
+* [ZOSAPI::Editors::LDE::ISurfaceRetroReflect](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_retro_reflect.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_retro_reflect)
+* [ZOSAPI::Editors::LDE::ISurfaceScatteringABg](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_a_bg.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_a_bg)
+* [ZOSAPI::Editors::LDE::ISurfaceScatteringABgFile](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_a_bg_file.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_a_bg_file)
+* [ZOSAPI::Editors::LDE::ISurfaceScatteringBSDF](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_b_s_d_f.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_b_s_d_f)
+* [ZOSAPI::Editors::LDE::ISurfaceScatteringCatalog](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_catalog.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_catalog)
+* [ZOSAPI::Editors::LDE::ISurfaceScatteringGaussian](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_gaussian.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_gaussian)
+* [ZOSAPI::Editors::LDE::ISurfaceScatteringLambertian](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_lambertian.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_lambertian)
+* [ZOSAPI::Editors::LDE::ISurfaceScatteringNone](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_none.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_none)
+* [ZOSAPI::Editors::LDE::ISurfaceScatteringType](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_type.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_type)
+* [ZOSAPI::Editors::LDE::ISurfaceScatteringUser](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_user.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_user)
+* [ZOSAPI::Editors::LDE::ISurfaceSlide](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_slide.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_slide)
+* [ZOSAPI::Editors::LDE::ISurfaceStandard](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_standard.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_standard)
+* [ZOSAPI::Editors::LDE::ISurfaceSuperconic](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_superconic.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_superconic)
+* [ZOSAPI::Editors::LDE::ISurfaceTilted](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_tilted.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_tilted)
+* [ZOSAPI::Editors::LDE::ISurfaceToroidal](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal)
+* [ZOSAPI::Editors::LDE::ISurfaceToroidalGrat](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal_grat.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal_grat)
+* [ZOSAPI::Editors::LDE::ISurfaceToroidalHologram](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal_hologram.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal_hologram)
+* [ZOSAPI::Editors::LDE::ISurfaceToroidalNurbs](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal_nurbs.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal_nurbs)
+* [ZOSAPI::Editors::LDE::ISurfaceTrueFreeform](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_true_freeform.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_true_freeform)
+* [ZOSAPI::Editors::LDE::ISurfaceTypeSettings](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_type_settings.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_type_settings)
+* [ZOSAPI::Editors::LDE::ISurfaceVariableLineSpaceGrating](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_variable_line_space_grating.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_variable_line_space_grating)
+* [ZOSAPI::Editors::LDE::ISurfaceXYPolynomial](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_x_y_polynomial.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_x_y_polynomial)
+* [ZOSAPI::Editors::LDE::ISurfaceZernikeAnnularPhase](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_zernike_annular_phase.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_zernike_annular_phase)
+* [ZOSAPI::Editors::LDE::ISurfaceZernikeFringePhase](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_zernike_fringe_phase.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_zernike_fringe_phase)
+* [ZOSAPI::Editors::LDE::ISurfaceZernikeFringeSag](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_zernike_fringe_sag.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_zernike_fringe_sag)
+* [ZOSAPI::Editors::LDE::ISurfaceZernikeStandardPhase](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_zernike_standard_phase.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_zernike_standard_phase)
+* [ZOSAPI::Editors::LDE::ISurfaceZernikeStandardSag](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_zernike_standard_sag.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_zernike_standard_sag)
+* [ZOSAPI::Editors::LDE::ISurfaceZonePlate](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_zone_plate.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_zone_plate)
+
+## Enumeration types
+
+### Enumeration type SurfaceType
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ad"></a>
+
+![][public]
+
+**Definition**:
+
+
+```csharp
+enum SurfaceType {
+  ABCD,
+  AlternateEven,
+  AlternateOdd,
+  AnnularZernikeSag,
+  Atmospheric,
+  Biconic,
+  BiconicZernike,
+  Binary1,
+  Binary2,
+  Binary3,
+  Binary4,
+  BirefringentIn,
+  BirefringentOut,
+  BlackBoxLens,
+  ChebyShv,
+  Conjugate,
+  CoordinateBreak,
+  CubicSpline,
+  CylinderFrensel,
+  CylinderFresnel = CylinderFrensel,
+  Data,
+  DiffractionGrating,
+  EllipticalGrating1,
+  EllipticalGrating2,
+  EvenAspheric,
+  ExtendedToroidalGrating,
+  ExtendedAsphere,
+  ExtendedCubicSpline,
+  ExtendedFresnel,
+  ExtendedOddAsphere,
+  ExtendedPolynomial,
+  Fresnel,
+  GeneralizedFresnel,
+  Gradient1,
+  Gradient2,
+  Gradient3,
+  Gradient4,
+  Gradient5,
+  Gradient6,
+  Gradient7,
+  Gradient9,
+  Gradient10,
+  Gradient12,
+  Gradium,
+  GridGradient,
+  GridPhase,
+  GridSag,
+  Hologram1,
+  Hologram2,
+  Irregular,
+  JonesMatrix,
+  NonSequential,
+  OddAsphere,
+  OddCosine,
+  OffAxisConicFreeform,
+  OpticallyFabricatedHologram,
+  Paraxial,
+  ParaxialXY,
+  Periodic,
+  Polynomial,
+  QTypeAsphere,
+  QTypeFreeform,
+  RadialGrating,
+  RadialNurbs,
+  RetroReflect,
+  SlideSurface,
+  Standard,
+  Superconic,
+  Tilted,
+  Toroidal,
+  ToroidalGrat,
+  ToroidalHologram,
+  ToroidalNurbs,
+  UserDefined,
+  VariableLineSpaceGrating,
+  ZernikeAnnularPhase,
+  ZernikeFringePhase,
+  ZernikeFringeSag,
+  ZernikeStandardPhase,
+  ZernikeStandardSag,
+  ZonePlate,
+  Freeform,
+  MuellerMatrix
+}
+```
+
+
+All available surface types.
+
+Usage (see [Example 19](../apiexamples/example_19.md) for a full sample)
+
+
+C# 
+```csharp
+            // To change surface type, we need to first get an ISurfaceTypesettings and then assign it.
+            ISurfaceTypeSettings SurfaceType_CB = TheLDE.GetSurfaceAt(4).GetSurfaceTypeSettings(SurfaceType.CoordinateBreak);
+            TheLDE.GetSurfaceAt(4).ChangeType(SurfaceType_CB);
+```
+ C++ 
+```csharp
+    // To change surface type, we need to first get an ISurfaceTypesettings and then assign it.
+    ISurfaceTypeSettingsPtr SurfaceType_CB = TheLDE->GetSurfaceAt(4)->GetSurfaceTypeSettings(SurfaceType_CoordinateBreak);
+    TheLDE->GetSurfaceAt(4)->ChangeType(SurfaceType_CB);
+```
+ Matlab 
+```csharp
+    % To change surface type, we need to first get an ISurfaceTypesettings and then assign it.
+    SurfaceType_CB = TheLDE.GetSurfaceAt(4).GetSurfaceTypeSettings(ZOSAPI.Editors.LDE.SurfaceType.CoordinateBreak);
+    TheLDE.GetSurfaceAt(4).ChangeType(SurfaceType_CB);
+```
+ Python 
+```csharp
+    # To change surface type, we need to first get an ISurfaceTypesettings and then assign it.
+    SurfaceType_CB = TheLDE.GetSurfaceAt(4).GetSurfaceTypeSettings(ZOSAPI.Editors.LDE.SurfaceType.CoordinateBreak)
+    TheLDE.GetSurfaceAt(4).ChangeType(SurfaceType_CB)
+```
+
+
+#### Enumerator ABCD
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adacb08ca4a7bb5f9683c19133a84872ca7"></a>
+
+
+#### Enumerator AlternateEven
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada6d7b340bbee247d65240ef857fe8351d"></a>
+
+
+#### Enumerator AlternateOdd
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adaf057562093e5af74d7a44978f5d0599b"></a>
+
+
+#### Enumerator AnnularZernikeSag
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada4d1fed64e1308fe8c84b008d1046d21e"></a>
+
+
+#### Enumerator Atmospheric
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada129124fbaed68cc33f62388d57d84ebd"></a>
+
+
+#### Enumerator Biconic
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada1ac6b65b0d529c2efcf9ccb4c4406a5d"></a>
+
+
+#### Enumerator BiconicZernike
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada93ba6293b4fe1ab578edcc7e886a9739"></a>
+
+
+#### Enumerator Binary1
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada88d7b7c4e9bdf043d10f03b9b9bc5b65"></a>
+
+
+#### Enumerator Binary2
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adaaa3f8a656316c49eec8c5f25f462b107"></a>
+
+
+#### Enumerator Binary3
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada98a1b929c119bdb32cb32d2d726d85d5"></a>
+
+
+#### Enumerator Binary4
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adac60315d8964a7b5e7fa967f3033c66d6"></a>
+
+
+#### Enumerator BirefringentIn
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada87c9e20e9d8efc814cfe4dc7eb79d763"></a>
+
+
+#### Enumerator BirefringentOut
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adac1b74fc37cfd2a5c80ec2b6846c600b1"></a>
+
+
+#### Enumerator BlackBoxLens
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adaf5e5b0a6bd74072e8fe1b888b37b56b2"></a>
+
+
+#### Enumerator ChebyShv
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada7049eddbbc4a1d22fa52ecf1580111a7"></a>
+
+
+#### Enumerator Conjugate
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada3f0bc1b9dd5d41af7f4455a291aa4e9b"></a>
+
+
+#### Enumerator CoordinateBreak
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adafa96348bd659f3ab4c8a73d4e36a4bc8"></a>
+
+
+#### Enumerator CubicSpline
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adabc050383dcd36a2e1f9481e562332cfa"></a>
+
+
+#### Enumerator CylinderFrensel
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada36e86e7d22e3b4ab2f9fb9e82a6be559"></a>
+
+
+#### Enumerator CylinderFresnel
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada656ff47d39013474e598a2143a7d9c1f"></a>
+
+
+#### Enumerator Data
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adaf6068daa29dbb05a7ead1e3b5a48bbee"></a>
+
+
+#### Enumerator DiffractionGrating
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adaf57d8be7c86bdb465d4355d05dd3606e"></a>
+
+
+#### Enumerator EllipticalGrating1
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adac8876b401736d34016ae8654dd8616b1"></a>
+
+
+#### Enumerator EllipticalGrating2
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adaa015ca70bbfd7a2cb01576a37efb03ee"></a>
+
+
+#### Enumerator EvenAspheric
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada522b410f62b99abf596294aa058854cf"></a>
+
+
+#### Enumerator ExtendedToroidalGrating
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adadcac934944dc7874c9ebfbd99071b61c"></a>
+
+
+#### Enumerator ExtendedAsphere
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adac873d1d1e5afda852fb79b4b08dd2857"></a>
+
+
+#### Enumerator ExtendedCubicSpline
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adaf8599565d3eadd8c7c63569bfa4efe38"></a>
+
+
+#### Enumerator ExtendedFresnel
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada13360e4fb2529f55f8a7ebc28fab4692"></a>
+
+
+#### Enumerator ExtendedOddAsphere
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada532655c0a7e212c8d0d9b55f2984c7b1"></a>
+
+
+#### Enumerator ExtendedPolynomial
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada545a805d1c95b807209165f867776e26"></a>
+
+
+#### Enumerator Fresnel
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada6e7d0b31c37cc48998ab1819dc44a6ac"></a>
+
+
+#### Enumerator GeneralizedFresnel
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada8521dc3054c2af0322970784d41b5013"></a>
+
+
+#### Enumerator Gradient1
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada2492f6938cc29832cb4828285b58ed1d"></a>
+
+
+#### Enumerator Gradient2
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adae92c0571d6aca18caec84331bf27d37c"></a>
+
+
+#### Enumerator Gradient3
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada383eedaf64c1f14b26b2a2a88a60f183"></a>
+
+
+#### Enumerator Gradient4
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada04095302d3ab82f1c2a78b8413d14927"></a>
+
+
+#### Enumerator Gradient5
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adaa3f5a841ec162b5269afcdafb2a909fa"></a>
+
+
+#### Enumerator Gradient6
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada99ea9111060759a2ba8d2391f59fde3e"></a>
+
+
+#### Enumerator Gradient7
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada5f1ea8b05a330f36a81d65d27722df94"></a>
+
+
+#### Enumerator Gradient9
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada3fadee2f2c388924cad6ac8dadee4e0a"></a>
+
+
+#### Enumerator Gradient10
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adae102ae954f44b6f6ad3ce3456aac23e8"></a>
+
+
+#### Enumerator Gradient12
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada24137e820116a63ace7c0fb0958318d3"></a>
+
+
+#### Enumerator Gradium
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada7a50182bf0807011aa530811b49c4f73"></a>
+
+
+#### Enumerator GridGradient
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adace6040487aa3b0f434baa659522457c7"></a>
+
+
+#### Enumerator GridPhase
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada61cbb35e1291693380b133fd84e59bf7"></a>
+
+
+#### Enumerator GridSag
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adae0ea33bb3efa7d35d417e48e9f1eb378"></a>
+
+
+#### Enumerator Hologram1
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada32500fb70707874cec7d82ce1788abfb"></a>
+
+
+#### Enumerator Hologram2
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adada341fc9a6353ed828bd4bf5668c95e7"></a>
+
+
+#### Enumerator Irregular
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adac6b4bec53be2557af51b96c52c9206e8"></a>
+
+
+#### Enumerator JonesMatrix
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada244d3569ad1d8fdfdc3a723569009174"></a>
+
+
+#### Enumerator NonSequential
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada12d3de3f72d530905c690c2750951117"></a>
+
+
+#### Enumerator OddAsphere
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada3c8a13e33d717904d7ac6cc53b3de9b1"></a>
+
+
+#### Enumerator OddCosine
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adaaa5fccec0ada3a2d0a4286d0cd38129e"></a>
+
+
+#### Enumerator OffAxisConicFreeform
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada791c831a7a04e35f9166ce4502397c1d"></a>
+
+
+#### Enumerator OpticallyFabricatedHologram
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adab20a4cec7d20dab01fef9da30dcde85b"></a>
+
+
+#### Enumerator Paraxial
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada4d1e0dc13a68dd70bdd172c880844a31"></a>
+
+
+#### Enumerator ParaxialXY
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada9aef399656e202e244519cb9d96e4b05"></a>
+
+
+#### Enumerator Periodic
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adacdcc32a064503184053bd2018d1c0e7e"></a>
+
+
+#### Enumerator Polynomial
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada24ecfbe376a82f09ad48bffc6b8d6a87"></a>
+
+
+#### Enumerator QTypeAsphere
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada4ac3b888f8d31a96bce1a7cc0d313ddb"></a>
+
+
+#### Enumerator QTypeFreeform
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada04e0133f3e5a203cfa2ed3b4f5736327"></a>
+
+
+#### Enumerator RadialGrating
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adaf43c2b21c697357dde24732796867a54"></a>
+
+
+#### Enumerator RadialNurbs
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adaa25cb7bcdc15ad8e00406229df16e11b"></a>
+
+
+#### Enumerator RetroReflect
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada486ed05b03e71a1e14a4c4e8e4276b05"></a>
+
+
+#### Enumerator SlideSurface
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada1920b3c744541c8a05870c00b5595c65"></a>
+
+
+#### Enumerator Standard
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adaeb6d8ae6f20283755b339c0dc273988b"></a>
+
+
+#### Enumerator Superconic
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada3a2f4e669345148f57e92c7098fa767b"></a>
+
+
+#### Enumerator Tilted
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adaf1f1ded78737789b8a48294188f41efc"></a>
+
+
+#### Enumerator Toroidal
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada874a7a737684caab9a6eca27dff2e950"></a>
+
+
+#### Enumerator ToroidalGrat
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adab15700577fab4a566ea3d77b11d1711f"></a>
+
+
+#### Enumerator ToroidalHologram
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada51817d82f694a17654d138adef5b14e7"></a>
+
+
+#### Enumerator ToroidalNurbs
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adad67d8615c0c1008a8ad712ac4752ca28"></a>
+
+
+#### Enumerator UserDefined
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adac90d702da275c4b81b75a6a0163bc2bf"></a>
+
+
+#### Enumerator VariableLineSpaceGrating
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada1c461a50fab0ea6eb7fae2b51cd49645"></a>
+
+
+#### Enumerator ZernikeAnnularPhase
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25adafa512f104c2e493d8e6ecb4212673d29"></a>
+
+
+#### Enumerator ZernikeFringePhase
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada3dc141d0c3ef1336b8a0426e2c3d4f77"></a>
+
+
+#### Enumerator ZernikeFringeSag
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada985020921ae369fa930faa27d164826a"></a>
+
+
+#### Enumerator ZernikeStandardPhase
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada9d430b296b8586758e8e0a836b3b8c0b"></a>
+
+
+#### Enumerator ZernikeStandardSag
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada7318bc9637d0ef18d89c60dfdcd97832"></a>
+
+
+#### Enumerator ZonePlate
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada2e272a0ac937fcbe7c2cad3002168867"></a>
+
+
+#### Enumerator Freeform
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada7ddf961bfa9275c2054f28adccc8ab56"></a>
+
+
+#### Enumerator MuellerMatrix
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ada5a322966691a1250b0ad92cf84eaf679"></a>
+
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.SurfaceType"}]}`
+-->
+
+### Enumeration type SurfaceColumn
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412"></a>
+
+![][public]
+
+**Definition**:
+
+
+```csharp
+enum SurfaceColumn {
+  Comment = 1,
+  Radius,
+  Thickness,
+  Material,
+  Coating,
+  SemiDiameter,
+  ChipZone,
+  MechanicalSemiDiameter,
+  Conic,
+  TCE,
+  Par0,
+  Par1,
+  Par2,
+  Par3,
+  Par4,
+  Par5,
+  Par6,
+  Par7,
+  Par8,
+  Par9,
+  Par10,
+  Par11,
+  Par12,
+  Par13,
+  Par14,
+  Par15,
+  Par16,
+  Par17,
+  Par18,
+  Par19,
+  Par20,
+  Par21,
+  Par22,
+  Par23,
+  Par24,
+  Par25,
+  Par26,
+  Par27,
+  Par28,
+  Par29,
+  Par30,
+  Par31,
+  Par32,
+  Par33,
+  Par34,
+  Par35,
+  Par36,
+  Par37,
+  Par38,
+  Par39,
+  Par40,
+  Par41,
+  Par42,
+  Par43,
+  Par44,
+  Par45,
+  Par46,
+  Par47,
+  Par48,
+  Par49,
+  Par50,
+  Par51,
+  Par52,
+  Par53,
+  Par54,
+  Par55,
+  Par56,
+  Par57,
+  Par58,
+  Par59,
+  Par60,
+  Par61,
+  Par62,
+  Par63,
+  Par64,
+  Par65,
+  Par66,
+  Par67,
+  Par68,
+  Par69,
+  Par70,
+  Par71,
+  Par72,
+  Par73,
+  Par74,
+  Par75,
+  Par76,
+  Par77,
+  Par78,
+  Par79,
+  Par80,
+  Par81,
+  Par82,
+  Par83,
+  Par84,
+  Par85,
+  Par86,
+  Par87,
+  Par88,
+  Par89,
+  Par90,
+  Par91,
+  Par92,
+  Par93,
+  Par94,
+  Par95,
+  Par96,
+  Par97,
+  Par98,
+  Par99,
+  Par100,
+  Par101,
+  Par102,
+  Par103,
+  Par104,
+  Par105,
+  Par106,
+  Par107,
+  Par108,
+  Par109,
+  Par110,
+  Par111,
+  Par112,
+  Par113,
+  Par114,
+  Par115,
+  Par116,
+  Par117,
+  Par118,
+  Par119,
+  Par120,
+  Par121,
+  Par122,
+  Par123,
+  Par124,
+  Par125,
+  Par126,
+  Par127,
+  Par128,
+  Par129,
+  Par130,
+  Par131,
+  Par132,
+  Par133,
+  Par134,
+  Par135,
+  Par136,
+  Par137,
+  Par138,
+  Par139,
+  Par140,
+  Par141,
+  Par142,
+  Par143,
+  Par144,
+  Par145,
+  Par146,
+  Par147,
+  Par148,
+  Par149,
+  Par150,
+  Par151,
+  Par152,
+  Par153,
+  Par154,
+  Par155,
+  Par156,
+  Par157,
+  Par158,
+  Par159,
+  Par160,
+  Par161,
+  Par162,
+  Par163,
+  Par164,
+  Par165,
+  Par166,
+  Par167,
+  Par168,
+  Par169,
+  Par170,
+  Par171,
+  Par172,
+  Par173,
+  Par174,
+  Par175,
+  Par176,
+  Par177,
+  Par178,
+  Par179,
+  Par180,
+  Par181,
+  Par182,
+  Par183,
+  Par184,
+  Par185,
+  Par186,
+  Par187,
+  Par188,
+  Par189,
+  Par190,
+  Par191,
+  Par192,
+  Par193,
+  Par194,
+  Par195,
+  Par196,
+  Par197,
+  Par198,
+  Par199,
+  Par200,
+  Par201,
+  Par202,
+  Par203,
+  Par204,
+  Par205,
+  Par206,
+  Par207,
+  Par208,
+  Par209,
+  Par210,
+  Par211,
+  Par212,
+  Par213,
+  Par214,
+  Par215,
+  Par216,
+  Par217,
+  Par218,
+  Par219,
+  Par220,
+  Par221,
+  Par222,
+  Par223,
+  Par224,
+  Par225,
+  Par226,
+  Par227,
+  Par228,
+  Par229,
+  Par230,
+  Par231,
+  Par232,
+  Par233,
+  Par234,
+  Par235,
+  Par236,
+  Par237,
+  Par238,
+  Par239,
+  Par240,
+  Par241,
+  Par242,
+  Par243,
+  Par244,
+  Par245,
+  Par246,
+  Par247,
+  Par248,
+  Par249,
+  Par250,
+  Par251,
+  Par252,
+  Par253,
+  Par254
+}
+```
+
+
+#### Enumerator Comment
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a0be8406951cdfda82f00f79328cf4efc"></a>
+
+
+#### Enumerator Radius
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ad1106ccca74e98877ed6d7890c70bb2c"></a>
+
+
+#### Enumerator Thickness
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a2431eae3d1fb711c3a6f44a48ad7da5e"></a>
+
+
+#### Enumerator Material
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ad92a8333dd3ccb895cc65f7455b71206"></a>
+
+
+#### Enumerator Coating
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ab111b2d7adee31f6687b08a60c879c72"></a>
+
+
+#### Enumerator SemiDiameter
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ae275fb0473693135275850774c7ec0c5"></a>
+
+
+#### Enumerator ChipZone
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412adb07d056b87c528685a62d439cde9a26"></a>
+
+
+#### Enumerator MechanicalSemiDiameter
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a20136077aa26b0f08ba0c6abfa2e9a57"></a>
+
+
+#### Enumerator Conic
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412abb51a132161f50b4daf4badef28dfbaa"></a>
+
+
+#### Enumerator TCE
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aa93108959b74bc7abe4ffb1344be0769"></a>
+
+
+#### Enumerator Par0
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a6593d328178c05f755273da8af6ae285"></a>
+
+
+#### Enumerator Par1
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aaf4aa595dbdcbbcda709bf1be9e9a5a3"></a>
+
+
+#### Enumerator Par2
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a3cd3ecca66ca102bae0b2e046140f651"></a>
+
+
+#### Enumerator Par3
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ac46a9fd72e133c39abb053aeb78b7d8b"></a>
+
+
+#### Enumerator Par4
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ad0b5d6a68bb80b043aa90d5fd834c99e"></a>
+
+
+#### Enumerator Par5
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a0cc733c1ca529542de87c13af17f8e9b"></a>
+
+
+#### Enumerator Par6
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a71953e458ed78ea888ee73cce8bcae7d"></a>
+
+
+#### Enumerator Par7
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a6a7e1ba57af9970cfd13bc0e28fccb10"></a>
+
+
+#### Enumerator Par8
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ae7dacc8dbb96781deaca4b4976d1cb44"></a>
+
+
+#### Enumerator Par9
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a164108ef6bbcd6dfccda2606230e8a9e"></a>
+
+
+#### Enumerator Par10
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ae3ff7fccc44daba40d4f7bae6770c328"></a>
+
+
+#### Enumerator Par11
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a74201315baabd06c6dc0c158eb46d34f"></a>
+
+
+#### Enumerator Par12
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a52de8668efc22198b5fd67250750ab3c"></a>
+
+
+#### Enumerator Par13
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a0c909269d961a4e8f33c5a1e1419acbe"></a>
+
+
+#### Enumerator Par14
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a138e325c096420158e34a5045ad80239"></a>
+
+
+#### Enumerator Par15
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a7945eadf6173e805aecff49967f9a473"></a>
+
+
+#### Enumerator Par16
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412abb1e2523e91708c65cda6baa33d8a2e1"></a>
+
+
+#### Enumerator Par17
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a2c564696836fad7ac808d6403573999d"></a>
+
+
+#### Enumerator Par18
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a9c249e4f67b3bc8c27a0df0993fbc11a"></a>
+
+
+#### Enumerator Par19
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a030e5c5905a50ee2b37e78c7c1df59e8"></a>
+
+
+#### Enumerator Par20
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a2afbfc37be6f8bc31121c3bdc5b8dc52"></a>
+
+
+#### Enumerator Par21
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412afc9971f2360e327ac29b14777a0d4bc6"></a>
+
+
+#### Enumerator Par22
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a6613905aa53aff7401792da1d91d3104"></a>
+
+
+#### Enumerator Par23
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ac09ad542032eb1263b1b9e5511873585"></a>
+
+
+#### Enumerator Par24
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a0f751d40fdcb70fb886fee9dc4f9c9eb"></a>
+
+
+#### Enumerator Par25
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a38f4609cf77444e2a8e3879afa304b9a"></a>
+
+
+#### Enumerator Par26
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a65e2f24dbe24a140a6990fed234d42b0"></a>
+
+
+#### Enumerator Par27
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a4b4153877eb8fe3b43dd70b4f6eb8331"></a>
+
+
+#### Enumerator Par28
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a01a2825fd4e4a78a57bff55bcb0cb70c"></a>
+
+
+#### Enumerator Par29
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a79de2372c62d75010382d1eb720609cd"></a>
+
+
+#### Enumerator Par30
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ac8c63871d7d2a4ac37147bf591becdf8"></a>
+
+
+#### Enumerator Par31
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a701434c30e598e9dd7da1b67240dc67e"></a>
+
+
+#### Enumerator Par32
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ab8e19ff0271eba21df5c5874158ad4b4"></a>
+
+
+#### Enumerator Par33
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ae485465cd816afe87b30424ec01257d2"></a>
+
+
+#### Enumerator Par34
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aab493386bf722da5259b7263091c71e5"></a>
+
+
+#### Enumerator Par35
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a678e8c569fb0c6ffff06bc25996e9072"></a>
+
+
+#### Enumerator Par36
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a9ce7dd31782d650ebf7890c76e19c04e"></a>
+
+
+#### Enumerator Par37
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aab7a3b1eae59df7a8966a51183b44278"></a>
+
+
+#### Enumerator Par38
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412af6f549953d757b34c2a113b5dc0a61db"></a>
+
+
+#### Enumerator Par39
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aef19f4cad8eea9cbc336d4f75284ff0a"></a>
+
+
+#### Enumerator Par40
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a8df9996dfe5ed257c545f86f0aa95b2f"></a>
+
+
+#### Enumerator Par41
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ac85428097fa342f33802c26d67b895a3"></a>
+
+
+#### Enumerator Par42
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a9dc7ecb5930716c1fa5e2b5d2d7df7e3"></a>
+
+
+#### Enumerator Par43
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a7aa6fbdaf03a1089e1528c7ddcb47bcd"></a>
+
+
+#### Enumerator Par44
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a320c71589a4ceea01b0c1c0e02be9a16"></a>
+
+
+#### Enumerator Par45
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a328ec2b91c926846c4c0d7bc54d82b0b"></a>
+
+
+#### Enumerator Par46
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a6e71b378b5bd3cb264390014eec0bb2d"></a>
+
+
+#### Enumerator Par47
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a5f013cc25408ce5939e1ac01b99bd746"></a>
+
+
+#### Enumerator Par48
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ad41f1274d4a3a08e71cd9669d6ff9d09"></a>
+
+
+#### Enumerator Par49
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aaefcb33844b7237ba12596ca6aa81413"></a>
+
+
+#### Enumerator Par50
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a0e34d30569d0fc7842a84da0f718869d"></a>
+
+
+#### Enumerator Par51
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ae8130db89194a43b7350ec03910300e3"></a>
+
+
+#### Enumerator Par52
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412abc664e97fe97654d054d3ba341b1f314"></a>
+
+
+#### Enumerator Par53
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a3fd99cf0099fbea38b1dadfe27bbe63e"></a>
+
+
+#### Enumerator Par54
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a3162efa35d8c0500b7e9827bc853770f"></a>
+
+
+#### Enumerator Par55
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412af9d3edc4045f4815f96710657b946412"></a>
+
+
+#### Enumerator Par56
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ab948c0070afd64d770c38cc89132eae4"></a>
+
+
+#### Enumerator Par57
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412adbfd3f8e1692ccd421ee8098c157fd5e"></a>
+
+
+#### Enumerator Par58
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a08bedf60005b2f0583ab71dac79d3e71"></a>
+
+
+#### Enumerator Par59
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a7638ed655ae7c1962723502c1039aefc"></a>
+
+
+#### Enumerator Par60
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a01afcb4478f2408b45a8ea3316731315"></a>
+
+
+#### Enumerator Par61
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a3e444be14fa77369a98e470c7912bc95"></a>
+
+
+#### Enumerator Par62
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412af1ed37c4dc43d27d143c77877f8f147f"></a>
+
+
+#### Enumerator Par63
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aded960797506070797fd91363472410e"></a>
+
+
+#### Enumerator Par64
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a57c166a3ae04c0e7719c5457cff977dd"></a>
+
+
+#### Enumerator Par65
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a210eeb8a0bf17f6268fe5a89acce4a7d"></a>
+
+
+#### Enumerator Par66
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a328837ce57da478c30226bb78e7dd069"></a>
+
+
+#### Enumerator Par67
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a064bbfdf83c535235afb0c2ba502610c"></a>
+
+
+#### Enumerator Par68
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ace5ba404cc2b74bde3a44081558e2d97"></a>
+
+
+#### Enumerator Par69
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a8e0f51a1d6e18eef420aca83fb5ef7c6"></a>
+
+
+#### Enumerator Par70
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a3f37393052ed1e292526a0abfb55e09e"></a>
+
+
+#### Enumerator Par71
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a8484a7661b7dd570b81c4203c4d6cb2d"></a>
+
+
+#### Enumerator Par72
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a7d74f58f556847da3f534f6e73f08bcc"></a>
+
+
+#### Enumerator Par73
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ad24af97b0a58286ff18a2f1f4e6dd51f"></a>
+
+
+#### Enumerator Par74
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a0d2278b65ccece3bf8724dd0876fb4dd"></a>
+
+
+#### Enumerator Par75
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ab665e6c10b5cfbfcb1fccf304d6b6cad"></a>
+
+
+#### Enumerator Par76
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aa002e943f95c78fa1b36a2eafa643e51"></a>
+
+
+#### Enumerator Par77
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a498333a9055ae820ac5685ccf49f2cd0"></a>
+
+
+#### Enumerator Par78
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a79c9909b43385609e560d8691c611521"></a>
+
+
+#### Enumerator Par79
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a3c439d4f20e9e9d4438360f59622a451"></a>
+
+
+#### Enumerator Par80
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aa5cacc82b3a91d6552f58820a7c0b1cc"></a>
+
+
+#### Enumerator Par81
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a2412c81601dbcae3f410557f726e7658"></a>
+
+
+#### Enumerator Par82
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a70bafe092d6a4f3987ad83d61962c0f1"></a>
+
+
+#### Enumerator Par83
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a1974755eecbb850cbbe329218743c4ef"></a>
+
+
+#### Enumerator Par84
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a3fbeb4c75a8c4fe8b18305e96a00334e"></a>
+
+
+#### Enumerator Par85
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412afb0d5d8b57df9c351a97d65c00921d75"></a>
+
+
+#### Enumerator Par86
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a82ed823e29290ff4e1ac16abddf6a41f"></a>
+
+
+#### Enumerator Par87
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a44ee1ee20172317e7b4bcff0b370e52f"></a>
+
+
+#### Enumerator Par88
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a773602924fc160e526d01d9080cb2d1a"></a>
+
+
+#### Enumerator Par89
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ac1c385cc45206e94901dff0a627fd369"></a>
+
+
+#### Enumerator Par90
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a535079ef9db7107d102937ccc23ba15c"></a>
+
+
+#### Enumerator Par91
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a0f739c9df54149ce0f9498ef2b04df68"></a>
+
+
+#### Enumerator Par92
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a147b8e673aa1478720d772fdce47a8f8"></a>
+
+
+#### Enumerator Par93
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ab36b523b6649716c04cc9c4e79b29599"></a>
+
+
+#### Enumerator Par94
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a0ba978628c42d19fa5ac221f8d5bbd32"></a>
+
+
+#### Enumerator Par95
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412af7194cce5a8820f45f552e9ef2e17d7d"></a>
+
+
+#### Enumerator Par96
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a889938d482f0997bf8b5a01fb8935fa2"></a>
+
+
+#### Enumerator Par97
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a2379531bcefdb1bcde252b5b3394f88c"></a>
+
+
+#### Enumerator Par98
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ab3746139c693734ce8154bb51e39b897"></a>
+
+
+#### Enumerator Par99
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a7049a3b0fdcf9016c90783ed488a7772"></a>
+
+
+#### Enumerator Par100
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ac892fa7aeb7a9adc47681fddfb866ee2"></a>
+
+
+#### Enumerator Par101
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a6a041dd5bac9bd74ffd129be577c44bd"></a>
+
+
+#### Enumerator Par102
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412af5b7b233ec75f99ebb9b18e202f8d74a"></a>
+
+
+#### Enumerator Par103
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412af62167a8dd22c5def691361a5190cae5"></a>
+
+
+#### Enumerator Par104
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412abd72098900582f2ad67a121113413d24"></a>
+
+
+#### Enumerator Par105
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a216a79fceb5e73e3c20e2748af7f23a9"></a>
+
+
+#### Enumerator Par106
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aaf277d30cc39bfeafb7b27bfd187baf4"></a>
+
+
+#### Enumerator Par107
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aacbadacef99592d0b1d498788023e891"></a>
+
+
+#### Enumerator Par108
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a277906d35d83de0f3915c60193e00312"></a>
+
+
+#### Enumerator Par109
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a6fe85717f2924f6d0a76e3358bb8e77c"></a>
+
+
+#### Enumerator Par110
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a9002b1a84afeb24c2c18b03bf02f876c"></a>
+
+
+#### Enumerator Par111
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412acd5ebd18e2b4e40ac02589b76a3acd12"></a>
+
+
+#### Enumerator Par112
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412afe45d524373d9dbe98381a7c289945bd"></a>
+
+
+#### Enumerator Par113
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a4b0cc1883c9e56702838280c1ed2cdfc"></a>
+
+
+#### Enumerator Par114
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a3a7f1f9e33a977e31ab7df84750172f4"></a>
+
+
+#### Enumerator Par115
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aa3e4179c77763e8c947d427502bcba00"></a>
+
+
+#### Enumerator Par116
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a5b728e0bb6c4d33ddb0dab8a4feda0ad"></a>
+
+
+#### Enumerator Par117
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a5abd8ecfe1339e325864a588d8043baa"></a>
+
+
+#### Enumerator Par118
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a056432a9f054c8af23d629253cd92cfb"></a>
+
+
+#### Enumerator Par119
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a19bcf0f3633c0f4406c9a35b0a689217"></a>
+
+
+#### Enumerator Par120
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a351f90786a07f1e0b92684b5a10b2c01"></a>
+
+
+#### Enumerator Par121
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a9c64c21733ab412e4f2021ed8bc4151a"></a>
+
+
+#### Enumerator Par122
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412affd863f90b433788fffd95eaea5d38ba"></a>
+
+
+#### Enumerator Par123
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a1efff7cb653041ff6f9f9de1a01d7e82"></a>
+
+
+#### Enumerator Par124
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a96c8c96d0228e8c66e74131d2da4824d"></a>
+
+
+#### Enumerator Par125
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a2c0266f2e27cdb9732ed38c1363a405c"></a>
+
+
+#### Enumerator Par126
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412af528cb273269bb999321255817c49dd6"></a>
+
+
+#### Enumerator Par127
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a476d7c46dc2359a91f47bd80d7ab8a38"></a>
+
+
+#### Enumerator Par128
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a4ad2964a1f604dc510ff0fb0d34c0817"></a>
+
+
+#### Enumerator Par129
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aef78727b7f653e1da9370f6d7535b9cc"></a>
+
+
+#### Enumerator Par130
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ab4ca9ca82a60b9b81b482054118f4ef4"></a>
+
+
+#### Enumerator Par131
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a75001fbc722c1ed3e2a766c06cb9196d"></a>
+
+
+#### Enumerator Par132
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a8cb0ed9bf6e7e1bb0ea58af4233068c5"></a>
+
+
+#### Enumerator Par133
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a69a77cf35b45883f7e5277890c8feea1"></a>
+
+
+#### Enumerator Par134
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aa1e3148e9d927450b0e601676da89d13"></a>
+
+
+#### Enumerator Par135
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a0442d82d11a165493f9f7a613fccd31e"></a>
+
+
+#### Enumerator Par136
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a883c7cf84c71b7a6ed475ae8077eb0ab"></a>
+
+
+#### Enumerator Par137
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412af5e30117d11002683ff879e8f78a5c52"></a>
+
+
+#### Enumerator Par138
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ac66956e14367cf5a31cb14c6c3a0eee7"></a>
+
+
+#### Enumerator Par139
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a3ca8c6a08a62639a1148197823aea96e"></a>
+
+
+#### Enumerator Par140
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aa072d5d06c5834073c37c5a467819a8a"></a>
+
+
+#### Enumerator Par141
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ac845d33934a74c1d0c715ce8153e1007"></a>
+
+
+#### Enumerator Par142
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412af627ee1e1e9f7e937b8bde4d35db7117"></a>
+
+
+#### Enumerator Par143
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a969a5aeb09f656317f6fcbafbbaa370d"></a>
+
+
+#### Enumerator Par144
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412afb364946a9d682a144f53ecc7fc6a89e"></a>
+
+
+#### Enumerator Par145
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ac69654181519c671cab3b68e476fd0e4"></a>
+
+
+#### Enumerator Par146
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a98be6c4c0cdf0b3cd9b4ee8fc02dc8fc"></a>
+
+
+#### Enumerator Par147
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a2110dcf13f32195e06a750730c52d461"></a>
+
+
+#### Enumerator Par148
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412af7424eb005fb22c3c2de38571d6c24c3"></a>
+
+
+#### Enumerator Par149
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ae81ea60d46959d30104fc221c4998294"></a>
+
+
+#### Enumerator Par150
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ab3856e93d04eab9750447f4f8e1aa4b0"></a>
+
+
+#### Enumerator Par151
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412af39a82c54200863660ae09bc50eacf57"></a>
+
+
+#### Enumerator Par152
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a9a18c809bfe74e018962fe76686aaac9"></a>
+
+
+#### Enumerator Par153
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aab3bc7a5cb2586df9a6899a3bdeb3b93"></a>
+
+
+#### Enumerator Par154
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aae68449511520d75d6eef97b23b1eea6"></a>
+
+
+#### Enumerator Par155
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a8946a280b0c6cb97365f9e5670b1e2dd"></a>
+
+
+#### Enumerator Par156
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aabbd7e6a0b7e15c7f1ad97d2b99829ce"></a>
+
+
+#### Enumerator Par157
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a307806a295da2b7501e4a9a07590a2c4"></a>
+
+
+#### Enumerator Par158
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a6753a02ecf68a65056c6e92c32e4742f"></a>
+
+
+#### Enumerator Par159
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ad59c2cbbf4a39adc4bf611680ff6fca0"></a>
+
+
+#### Enumerator Par160
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ac680e5cb8468c7f18319015974f8a092"></a>
+
+
+#### Enumerator Par161
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a50faa3578361455c032c001163a8c2b2"></a>
+
+
+#### Enumerator Par162
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a95e11e2e8d2e967bb9d6f15f359245bc"></a>
+
+
+#### Enumerator Par163
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aff6d7f98b5258ae272b988e65e254254"></a>
+
+
+#### Enumerator Par164
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a6510caf273cef199d2d7865301776559"></a>
+
+
+#### Enumerator Par165
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412abf91ec8e90585533bc915158e40ab6d5"></a>
+
+
+#### Enumerator Par166
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a7e5ee5553cb471f5cefc57d852c172f5"></a>
+
+
+#### Enumerator Par167
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ae2ba3dc026f704b25b0ad4e21803b522"></a>
+
+
+#### Enumerator Par168
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a6565f54fcd6dce1e7aeef4285c32b47e"></a>
+
+
+#### Enumerator Par169
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a2b0aa2b2243d757888e3189b21b01598"></a>
+
+
+#### Enumerator Par170
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ad8ef2a17e70ea50e11491364766c1220"></a>
+
+
+#### Enumerator Par171
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ad12286b9912935a17b5a05999eaea7f2"></a>
+
+
+#### Enumerator Par172
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a0dda8f5fe0bb97baa57d08ec79234d52"></a>
+
+
+#### Enumerator Par173
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a19f48534784ffd560c4d7238e0933b25"></a>
+
+
+#### Enumerator Par174
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a8202fa470bff8a9e3bf63ebd7cddffa8"></a>
+
+
+#### Enumerator Par175
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a179145173cb7ea39634371b1cb338f1b"></a>
+
+
+#### Enumerator Par176
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a42887b1d3989e8ef276ecf170a2cec15"></a>
+
+
+#### Enumerator Par177
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a610313f815a5df1fe85e518925b5c511"></a>
+
+
+#### Enumerator Par178
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a2973dece579b7f8815ea0bda7eea29e5"></a>
+
+
+#### Enumerator Par179
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412acc7e3ae42cf7234f22ae148fd1190e6f"></a>
+
+
+#### Enumerator Par180
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aaf7be11a6996e572fe2aac188dfa5050"></a>
+
+
+#### Enumerator Par181
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a8a5babdec888ab5ffe284fe9c0b12e0d"></a>
+
+
+#### Enumerator Par182
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a7fff45b3418303efdf205cae19c9927c"></a>
+
+
+#### Enumerator Par183
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ae477fc83620dd552b0f82bdfb1a4cbb7"></a>
+
+
+#### Enumerator Par184
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ac788601c5aecca6851bcd1b247314435"></a>
+
+
+#### Enumerator Par185
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a2e8adaf333d4a940f1c41a922ca00d55"></a>
+
+
+#### Enumerator Par186
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a0a8634447d943d853bc46610564f1b7f"></a>
+
+
+#### Enumerator Par187
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a6c214aa155846edbe6123f2f7a259851"></a>
+
+
+#### Enumerator Par188
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a4315a36ceff3f0ea9243b10dab273dbc"></a>
+
+
+#### Enumerator Par189
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ac24309e67c54c4d02bcfa58d46d12fb1"></a>
+
+
+#### Enumerator Par190
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a696f7785ea7c8db198414a2d13cf83af"></a>
+
+
+#### Enumerator Par191
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aa3d72f3981d7fe7cf1220bf9f591f05f"></a>
+
+
+#### Enumerator Par192
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ab8acd50a2d393a7c0c315a805b81e578"></a>
+
+
+#### Enumerator Par193
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a52832a986e60033b8efde23f657dab93"></a>
+
+
+#### Enumerator Par194
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a611730ab6aa17ed37dbcd27df8e42133"></a>
+
+
+#### Enumerator Par195
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a8242d22949ad1df7c6eefd882f595b1a"></a>
+
+
+#### Enumerator Par196
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a56e696f2949e0b55aeabba2f08684a91"></a>
+
+
+#### Enumerator Par197
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412afa3ad681e1c330d4d090932e3127511b"></a>
+
+
+#### Enumerator Par198
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412af8cb31741537ab311e20e8c59faa240b"></a>
+
+
+#### Enumerator Par199
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a15f3bc0f6519b7db3f7345004f8e3c22"></a>
+
+
+#### Enumerator Par200
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ac7f6fb4dbe4f5aee7d23596fa8433a2a"></a>
+
+
+#### Enumerator Par201
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a764725532be2ec18c79cb1f1f124dc91"></a>
+
+
+#### Enumerator Par202
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a235d80d8e299ac1b1dc1fabb33594dad"></a>
+
+
+#### Enumerator Par203
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aacf85ae9f788e1294d4dbab6f578fce6"></a>
+
+
+#### Enumerator Par204
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a254fb629c4b2ef7754d26311904465e6"></a>
+
+
+#### Enumerator Par205
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a0c769d4fbf9ea5a47e93eea03a5a8281"></a>
+
+
+#### Enumerator Par206
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a875953e6ced723c119f76c64c4a4031d"></a>
+
+
+#### Enumerator Par207
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a786e5d8e0adf4439aa3083b3bb046f71"></a>
+
+
+#### Enumerator Par208
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a8efef1807e580c86fab122f8241311a9"></a>
+
+
+#### Enumerator Par209
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a7d8293bc4d4680454c4be266bbc9dd39"></a>
+
+
+#### Enumerator Par210
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a8404c63b3468b04be3c550790a2408ec"></a>
+
+
+#### Enumerator Par211
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aa83e15e1c0465197c9ac754d6a109c08"></a>
+
+
+#### Enumerator Par212
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a02b3d3846412a1a852e95d014fd5ab31"></a>
+
+
+#### Enumerator Par213
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ae5228120fbfd6571a5ae94b596e761fd"></a>
+
+
+#### Enumerator Par214
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a44ebe20ce26976f5b6b0ec51a71dcf88"></a>
+
+
+#### Enumerator Par215
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a8071f7e0244a0d8a5297e3643c1368dc"></a>
+
+
+#### Enumerator Par216
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a66716bc1984c9ecd34bdb2d5417a3e22"></a>
+
+
+#### Enumerator Par217
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a92dcc64de2ca9af5e3ff3634b7774774"></a>
+
+
+#### Enumerator Par218
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a6d1cff20de403878d95d35f02714c24a"></a>
+
+
+#### Enumerator Par219
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aba0be3f7ffe65772c86d19c5f5a48929"></a>
+
+
+#### Enumerator Par220
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a227371e425f7a6eac6272bbe2e2c7e5f"></a>
+
+
+#### Enumerator Par221
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aacc5483c79a6c43e33bb80fb77048df9"></a>
+
+
+#### Enumerator Par222
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a3624acb2c7e4468bf4f4b4437be11c64"></a>
+
+
+#### Enumerator Par223
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ace23eabaa8d5db56a023d9c7292c6469"></a>
+
+
+#### Enumerator Par224
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ad716609028a85aeca26eedbb6aa7c8c3"></a>
+
+
+#### Enumerator Par225
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412afd750495142ab991d62d4d5d0b1dc1a5"></a>
+
+
+#### Enumerator Par226
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a352f0fec64f1af4a6a548a6c6f531393"></a>
+
+
+#### Enumerator Par227
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a0631b44df53e39b4a5f847b32bd86ce0"></a>
+
+
+#### Enumerator Par228
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a667b370abf4ea7df3d3f428cbde742cd"></a>
+
+
+#### Enumerator Par229
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ae6c88ba603c165d91808f16f6781e8da"></a>
+
+
+#### Enumerator Par230
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a006a080d32cde020a21319e505ca31ca"></a>
+
+
+#### Enumerator Par231
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ad61d4155c213a7b15e79077637910a47"></a>
+
+
+#### Enumerator Par232
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a192b28e6eda2a7a9ae7fcaab6fe5b55f"></a>
+
+
+#### Enumerator Par233
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412af858ee940fc7c528d7ff29b3c80703ed"></a>
+
+
+#### Enumerator Par234
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aa0c8f5f2e6300602fca1c82da704dc18"></a>
+
+
+#### Enumerator Par235
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a6a82511fc516778fef67efd9c7615a4e"></a>
+
+
+#### Enumerator Par236
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aec9ac8e2542de01c8de06415432a7c3c"></a>
+
+
+#### Enumerator Par237
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aaeababda18141e2033800b4a0cb1d6f1"></a>
+
+
+#### Enumerator Par238
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a3bba90fe28a0acfcf0a33d4580d7d5d8"></a>
+
+
+#### Enumerator Par239
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a66d65cc0a8a706ee8e88964b681f4d43"></a>
+
+
+#### Enumerator Par240
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a04d1dc35ead6e3685694e9fb6f7ed2a6"></a>
+
+
+#### Enumerator Par241
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aea7d95f66c74b53b2dec0321877f5e16"></a>
+
+
+#### Enumerator Par242
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a41fe15f5afae8dc0d6fd87029ffac0ff"></a>
+
+
+#### Enumerator Par243
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412abc0ead8a72d47afffb322f8413ef8c69"></a>
+
+
+#### Enumerator Par244
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412aee93da1c47a988f1bdae5b27ece5f318"></a>
+
+
+#### Enumerator Par245
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412abb9f7a25843a380a45efa1f9612eb4fb"></a>
+
+
+#### Enumerator Par246
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412af0b0689aa8df912bb8d1c6ba8e444115"></a>
+
+
+#### Enumerator Par247
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a86fce4f7920bb12b4d5d378fbb70e0dc"></a>
+
+
+#### Enumerator Par248
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ad41c590215538dc42ebd645dd1e54448"></a>
+
+
+#### Enumerator Par249
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ac0644db9cb75ed8b0b607a41a548466f"></a>
+
+
+#### Enumerator Par250
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a837f613664ef2faf3ba07b0acb4a782b"></a>
+
+
+#### Enumerator Par251
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412ab3f22a88b737f069e40ee07abcbd43f2"></a>
+
+
+#### Enumerator Par252
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a91cd22339dae74d97a4dc1ed7a533bc2"></a>
+
+
+#### Enumerator Par253
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412a3597fcff655a8a4f87b28a08cddbe0ec"></a>
+
+
+#### Enumerator Par254
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ad5f58db223456ac24920f46ac6d62412af222785852c95f52a6015e177ccf6d9c"></a>
+
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.SurfaceColumn"}]}`
+-->
+
+### Enumeration type ConversionOrder
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a0dc91052ccc9b3186cf64dbced7b779d"></a>
+
+![][public]
+
+**Definition**:
+
+
+```csharp
+enum ConversionOrder {
+  Forward = 0,
+  Reverse
+}
+```
+
+
+#### Enumerator Forward
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a0dc91052ccc9b3186cf64dbced7b779da67d2f6740a8eaebf4d5c6f79be8da481"></a>
+
+
+#### Enumerator Reverse
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a0dc91052ccc9b3186cf64dbced7b779da67f115c1fddc4ce1aeb1c754001585bc"></a>
+
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ConversionOrder"}]}`
+-->
+
+### Enumeration type InterpolationMethod
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a50d2d36f38d3db89b0bde35b7d572ccc"></a>
+
+![][public]
+
+**Definition**:
+
+
+```csharp
+enum InterpolationMethod {
+  BicubicSpline = 0,
+  Linear
+}
+```
+
+
+#### Enumerator BicubicSpline
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a50d2d36f38d3db89b0bde35b7d572cccaa4cb51dd6606f08f606a24a28c6146a5"></a>
+
+
+#### Enumerator Linear
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a50d2d36f38d3db89b0bde35b7d572ccca32a843da6ea40ab3b17a3421ccdf671b"></a>
+
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.InterpolationMethod"}]}`
+-->
+
+### Enumeration type QTypes
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1aadb2815b56cab37951a1ea4a2b0adac5"></a>
+
+![][public]
+
+**Definition**:
+
+
+```csharp
+enum QTypes {
+  Qbfs = 0,
+  Qcon
+}
+```
+
+
+#### Enumerator Qbfs
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1aadb2815b56cab37951a1ea4a2b0adac5a04e34b759ec56b24d8e77bc7e81339c1"></a>
+
+
+#### Enumerator Qcon
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1aadb2815b56cab37951a1ea4a2b0adac5a227f18449131d70978485e668f08ec9b"></a>
+
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.QTypes"}]}`
+-->
+
+### Enumeration type CoordinateConversionResult
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a9a46f77deea1ea585a25d6efd7ec24cc"></a>
+
+![][public]
+
+**Definition**:
+
+
+```csharp
+enum CoordinateConversionResult {
+  Success = 0,
+  Error_InvalidRange = -1,
+  Error_CoordianteBreak = -2,
+  Error_IgnoredSurface = -3,
+  Error_TiltDecenter = -4,
+  Error_MultiConfig = -5
+}
+```
+
+
+#### Enumerator Success
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a9a46f77deea1ea585a25d6efd7ec24cca505a83f220c02df2f85c3810cd9ceb38"></a>
+
+
+#### Enumerator Error_InvalidRange
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a9a46f77deea1ea585a25d6efd7ec24cca8d62cceeeb77a4cd6d35a244a9987778"></a>
+
+
+#### Enumerator Error_CoordianteBreak
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a9a46f77deea1ea585a25d6efd7ec24cca029a11118f5aeb9018108d76c15d320d"></a>
+
+
+#### Enumerator Error_IgnoredSurface
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a9a46f77deea1ea585a25d6efd7ec24ccafaae8295b7e0c87b179a16d1f587c1b0"></a>
+
+
+#### Enumerator Error_TiltDecenter
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a9a46f77deea1ea585a25d6efd7ec24cca5561dd825eff0bd0278857722ab5e362"></a>
+
+
+#### Enumerator Error_MultiConfig
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a9a46f77deea1ea585a25d6efd7ec24cca4106eba966cb6fe28afb4c719686c30c"></a>
+
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.CoordinateConversionResult"}]}`
+-->
+
+### Enumeration type PupilApodizationType
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a338d8221124df4c25bdc9aeb71d59bd0"></a>
+
+![][public]
+
+**Definition**:
+
+
+```csharp
+enum PupilApodizationType {
+  None = 0,
+  Gaussian,
+  Tangential
+}
+```
+
+
+#### Enumerator None
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a338d8221124df4c25bdc9aeb71d59bd0a6adf97f83acf6453d4a6a4b1070f3754"></a>
+
+
+#### Enumerator Gaussian
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a338d8221124df4c25bdc9aeb71d59bd0afedf7ba6075fb5526a7ace0b9385528d"></a>
+
+
+#### Enumerator Tangential
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a338d8221124df4c25bdc9aeb71d59bd0adccb15cf4ac967e5e08804e8a8d2fc3f"></a>
+
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.PupilApodizationType"}]}`
+-->
+
+### Enumeration type TiltType
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a3fae9abe6634f0ece3a4b851207ae627"></a>
+
+![][public]
+
+**Definition**:
+
+
+```csharp
+enum TiltType {
+  XTilt = 0,
+  YTilt = 1
+}
+```
+
+
+#### Enumerator XTilt
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a3fae9abe6634f0ece3a4b851207ae627a058b82b5868ba42314a7e13f3a3b3d33"></a>
+
+
+#### Enumerator YTilt
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a3fae9abe6634f0ece3a4b851207ae627a05d0d5efe0536033d8d1f8cd73297f5f"></a>
+
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.TiltType"}]}`
+-->
+
+### Enumeration type PointCloudFileFormat
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a12a8e36dddc227d9cae68532ca946bc7"></a>
+
+![][public]
+
+**Definition**:
+
+
+```csharp
+enum PointCloudFileFormat {
+  ASCII,
+  Binary,
+  CompressedBinary
+}
+```
+
+
+#### Enumerator ASCII
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a12a8e36dddc227d9cae68532ca946bc7ad2cd8253361a9c732d21ca1d336599cc"></a>
+
+
+#### Enumerator Binary
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a12a8e36dddc227d9cae68532ca946bc7a6ce976e8f061b2b5cfe4d0c50c3405dd"></a>
+
+
+#### Enumerator CompressedBinary
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a12a8e36dddc227d9cae68532ca946bc7a9ed1310c2f518a4736aa3fcbd822ec67"></a>
+
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.PointCloudFileFormat"}]}`
+-->
+
+### Enumeration type NodesDataType
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a8daac9ccc8f89f0622b5eae054b07254"></a>
+
+![][public]
+
+**Definition**:
+
+
+```csharp
+enum NodesDataType {
+  SurfaceDeformationNoRBM = 1,
+  RefractiveIndex,
+  TemperatureAndRefractiveIndex,
+  SurfaceDeformation
+}
+```
+
+
+#### Enumerator SurfaceDeformationNoRBM
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a8daac9ccc8f89f0622b5eae054b07254a9b09f6961d867fe14226456af079d0c7"></a>
+
+
+#### Enumerator RefractiveIndex
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a8daac9ccc8f89f0622b5eae054b07254a015702f658c71406afb7b5eb5e7e690f"></a>
+
+
+#### Enumerator TemperatureAndRefractiveIndex
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a8daac9ccc8f89f0622b5eae054b07254af83867b8c861a6863b0d610b8e9f6c1d"></a>
+
+
+#### Enumerator SurfaceDeformation
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a8daac9ccc8f89f0622b5eae054b07254a81343dd9b2c0388d5785be026a908311"></a>
+
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.NodesDataType"}]}`
+-->
+
+### Enumeration type IndexDataType
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a72ef33eba4cf6ffc52957201b71f0bf4"></a>
+
+![][public]
+
+**Definition**:
+
+
+```csharp
+enum IndexDataType {
+  Unknown = -1,
+  None = 0,
+  PhysicsBasedIndex,
+  DirectRefractiveIndex
+}
+```
+
+
+#### Enumerator Unknown
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a72ef33eba4cf6ffc52957201b71f0bf4a88183b946cc5f0e8c96b2e66e1c74a7e"></a>
+
+
+#### Enumerator None
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a72ef33eba4cf6ffc52957201b71f0bf4a6adf97f83acf6453d4a6a4b1070f3754"></a>
+
+
+#### Enumerator PhysicsBasedIndex
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a72ef33eba4cf6ffc52957201b71f0bf4ad2c97c62a217c516b29efe45a60046a1"></a>
+
+
+#### Enumerator DirectRefractiveIndex
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a72ef33eba4cf6ffc52957201b71f0bf4a4b9b4781b1483b49dc7e23dd3894bb34"></a>
+
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.IndexDataType"}]}`
+-->
+
+### Enumeration type STARDeformationOption
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1abb94f9cb02cef5fa7608973a59f0d2b3"></a>
+
+![][public]
+
+**Definition**:
+
+
+```csharp
+enum STARDeformationOption {
+  DeformationWithRBMs = 0,
+  DeformationWithoutRBMs = 1,
+  OnlyRBMs = 2,
+  NoDeformation = 3
+}
+```
+
+
+#### Enumerator DeformationWithRBMs
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1abb94f9cb02cef5fa7608973a59f0d2b3a121d79902168b2836f95f1526c7e96ef"></a>
+
+
+#### Enumerator DeformationWithoutRBMs
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1abb94f9cb02cef5fa7608973a59f0d2b3a3fd65f016d2c7ed2e7f0bf7d7f1580dc"></a>
+
+
+#### Enumerator OnlyRBMs
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1abb94f9cb02cef5fa7608973a59f0d2b3a3acd7e84750e70c5dbd5f6a3686d0537"></a>
+
+
+#### Enumerator NoDeformation
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1abb94f9cb02cef5fa7608973a59f0d2b3a3011b435435de04e4cbf371d39be5dd3"></a>
+
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.STARDeformationOption"}]}`
+-->
+
+### Enumeration type SurfaceEdgeDraw
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1acc6723e0ee736adc8fbdcc6f0a3822f3"></a>
+
+![][public]
+
+**Definition**:
+
+
+```csharp
+enum SurfaceEdgeDraw {
+  Squared = 0,
+  Tapered = 1,
+  Flat = 2
+}
+```
+
+
+#### Enumerator Squared
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1acc6723e0ee736adc8fbdcc6f0a3822f3a78c292a97a97d823610fa2722e8a980b"></a>
+
+
+#### Enumerator Tapered
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1acc6723e0ee736adc8fbdcc6f0a3822f3a29586a373357a6d13ce51193e97b69f5"></a>
+
+
+#### Enumerator Flat
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1acc6723e0ee736adc8fbdcc6f0a3822f3a745e3db6a7ffd50e1a72b39482f0882d"></a>
+
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.SurfaceEdgeDraw"}]}`
+-->
+
+### Enumeration type SubstrateType
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a0a0f75eb8925c32fd4dbe6fef35f4775"></a>
+
+![][public]
+
+**Definition**:
+
+
+```csharp
+enum SubstrateType {
+  None = 0,
+  Flat = 1,
+  Curved = 2
+}
+```
+
+
+#### Enumerator None
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a0a0f75eb8925c32fd4dbe6fef35f4775a6adf97f83acf6453d4a6a4b1070f3754"></a>
+
+
+#### Enumerator Flat
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a0a0f75eb8925c32fd4dbe6fef35f4775a745e3db6a7ffd50e1a72b39482f0882d"></a>
+
+
+#### Enumerator Curved
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a0a0f75eb8925c32fd4dbe6fef35f4775a1e0e0b1e4554e27d30a562a079215f33"></a>
+
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.SubstrateType"}]}`
+-->
+
+### Enumeration type SurfaceApertureTypes
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a15ca451182bc7f44b720da80d58d9830"></a>
+
+![][public]
+
+**Definition**:
+
+
+```csharp
+enum SurfaceApertureTypes {
+  None = 0,
+  CircularAperture = 1,
+  CircularObscuration = 2,
+  Spider = 3,
+  RectangularAperture = 4,
+  RectangularObscuration = 5,
+  EllipticalAperture = 6,
+  EllipticalObscuration = 7,
+  UserAperture = 8,
+  UserObscuration = 9,
+  FloatingAperture = 10
+}
+```
+
+
+Usage (see [Example 19](../apiexamples/example_19.md) for a full sample)
+
+
+C# 
+```csharp
+            // To specify an aperture to a surface, we need to first create an ISurfaceApertureType and then assign it.
+            ISurfaceApertureType Rect_Aper = TheLDE.GetSurfaceAt(2).ApertureData.CreateApertureTypeSettings(SurfaceApertureTypes.RectangularAperture);
+            Rect_Aper._S_RectangularAperture.XHalfWidth = 10;
+            Rect_Aper._S_RectangularAperture.YHalfWidth = 10;
+            TheLDE.GetSurfaceAt(2).ApertureData.ChangeApertureTypeSettings(Rect_Aper);
+            TheLDE.GetSurfaceAt(3).ApertureData.PickupFrom = 2;
+```
+ C++ 
+```csharp
+    // To specify an aperture to a surface, we need to first create an ISurfaceApertureType and then assign it.
+    ISurfaceApertureTypePtr Rect_Aper = TheLDE->GetSurfaceAt(2)->ApertureData->CreateApertureTypeSettings(SurfaceApertureTypes_RectangularAperture);
+    Rect_Aper->_S_RectangularAperture->XHalfWidth = 10;
+    Rect_Aper->_S_RectangularAperture->YHalfWidth = 10;
+    TheLDE->GetSurfaceAt(2)->ApertureData->ChangeApertureTypeSettings(Rect_Aper);
+    TheLDE->GetSurfaceAt(3)->ApertureData->PickupFrom = 2;
+```
+ Matlab 
+```csharp
+    % To specify an aperture to a surface, we need to first create an ISurfaceApertureType and then assign it.
+    Rect_Aper = TheLDE.GetSurfaceAt(2).ApertureData.CreateApertureTypeSettings(ZOSAPI.Editors.LDE.SurfaceApertureTypes.RectangularAperture);
+    Rect_Aper.S_RectangularAperture_.XHalfWidth = 10;
+    Rect_Aper.S_RectangularAperture_.YHalfWidth = 10;
+    TheLDE.GetSurfaceAt(2).ApertureData.ChangeApertureTypeSettings(Rect_Aper);
+    TheLDE.GetSurfaceAt(3).ApertureData.PickupFrom = 2;
+```
+ Python 
+```csharp
+    # To specify an aperture to a surface, we need to first create an ISurfaceApertureType and then assign it.
+    Rect_Aper = TheLDE.GetSurfaceAt(2).ApertureData.CreateApertureTypeSettings(ZOSAPI.Editors.LDE.SurfaceApertureTypes.RectangularAperture)
+    Rect_Aper._S_RectangularAperture.XHalfWidth = 10
+    Rect_Aper._S_RectangularAperture.YHalfWidth = 10
+    TheLDE.GetSurfaceAt(2).ApertureData.ChangeApertureTypeSettings(Rect_Aper)
+    TheLDE.GetSurfaceAt(3).ApertureData.PickupFrom = 2
+```
+
+
+#### Enumerator None
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a15ca451182bc7f44b720da80d58d9830a6adf97f83acf6453d4a6a4b1070f3754"></a>
+
+
+#### Enumerator CircularAperture
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a15ca451182bc7f44b720da80d58d9830aec37fa205afbbd31e889d48e87aae480"></a>
+
+
+#### Enumerator CircularObscuration
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a15ca451182bc7f44b720da80d58d9830a6548f745bc9f4afdce2e76f379f11e4c"></a>
+
+
+#### Enumerator Spider
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a15ca451182bc7f44b720da80d58d9830ab4d68660c4a56181cd886fe5ecc08f71"></a>
+
+
+#### Enumerator RectangularAperture
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a15ca451182bc7f44b720da80d58d9830a38ff635b86c4da18db61f0b0712afb5f"></a>
+
+
+#### Enumerator RectangularObscuration
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a15ca451182bc7f44b720da80d58d9830a9c5fd6a34d56ee5bd4f7d4720cbe6253"></a>
+
+
+#### Enumerator EllipticalAperture
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a15ca451182bc7f44b720da80d58d9830a4174858ad0d6e49879adb4924a757c06"></a>
+
+
+#### Enumerator EllipticalObscuration
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a15ca451182bc7f44b720da80d58d9830ae5beac2af3484a11962b2cab49b8df61"></a>
+
+
+#### Enumerator UserAperture
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a15ca451182bc7f44b720da80d58d9830a47f2aeb52de8281ebcf991a10a89dd1a"></a>
+
+
+#### Enumerator UserObscuration
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a15ca451182bc7f44b720da80d58d9830a7458c6d0788ddb30b9b9b64b3ed08d6a"></a>
+
+
+#### Enumerator FloatingAperture
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a15ca451182bc7f44b720da80d58d9830aedff65f0f19922fcd4fc845e5326c1c6"></a>
+
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.SurfaceApertureTypes"}]}`
+-->
+
+### Enumeration type SurfaceScatteringTypes
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a5be8a34c0ad68745dffc321a8a332e65"></a>
+
+![][public]
+
+**Definition**:
+
+
+```csharp
+enum SurfaceScatteringTypes {
+  None = 0,
+  Lambertian = 1,
+  Gaussian = 2,
+  ABg = 3,
+  ABgFile = 4,
+  BSDF = 5,
+  User = 6,
+  ISScatterCatalog = 7
+}
+```
+
+
+#### Enumerator None
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a5be8a34c0ad68745dffc321a8a332e65a6adf97f83acf6453d4a6a4b1070f3754"></a>
+
+
+#### Enumerator Lambertian
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a5be8a34c0ad68745dffc321a8a332e65a5bab3b0b38800aae982d01ad209a49f7"></a>
+
+
+#### Enumerator Gaussian
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a5be8a34c0ad68745dffc321a8a332e65afedf7ba6075fb5526a7ace0b9385528d"></a>
+
+
+#### Enumerator ABg
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a5be8a34c0ad68745dffc321a8a332e65ae44d0faa674d376c59f2fff34f7c1eed"></a>
+
+
+#### Enumerator ABgFile
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a5be8a34c0ad68745dffc321a8a332e65aa17b6843742ae9f19e1b7f5d2fafb5da"></a>
+
+
+#### Enumerator BSDF
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a5be8a34c0ad68745dffc321a8a332e65aa5d08bf980fb336d665cedd18773eeac"></a>
+
+
+#### Enumerator User
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a5be8a34c0ad68745dffc321a8a332e65a8f9bfe9d1345237cb3b2b205864da075"></a>
+
+
+#### Enumerator ISScatterCatalog
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a5be8a34c0ad68745dffc321a8a332e65af4087ca5d688ee4bbe2a4d58053feb3f"></a>
+
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.SurfaceScatteringTypes"}]}`
+-->
+
+### Enumeration type TiltDecenterOrderType
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a7de46ca15ac43175ee1671ef0ad03dd0"></a>
+
+![][public]
+
+**Definition**:
+
+
+```csharp
+enum TiltDecenterOrderType {
+  Decenter_Tilt = 0,
+  Tilt_Decenter = 1
+}
+```
+
+
+#### Enumerator Decenter_Tilt
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a7de46ca15ac43175ee1671ef0ad03dd0a9a69fdf3d2fc750fa698cf8b82956e1d"></a>
+
+
+#### Enumerator Tilt_Decenter
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a7de46ca15ac43175ee1671ef0ad03dd0a641c48b272b66a79720f55df6f10ee18"></a>
+
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.TiltDecenterOrderType"}]}`
+-->
+
+### Enumeration type TiltDecenterPickupType
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a6664053c37241e711453427deaa0089f"></a>
+
+![][public]
+
+**Definition**:
+
+
+```csharp
+enum TiltDecenterPickupType {
+  Explicit,
+  PickupSurface,
+  ReverseSurface
+}
+```
+
+
+#### Enumerator Explicit
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a6664053c37241e711453427deaa0089fa9d71760e2dd451db2df354d0fd29cd7f"></a>
+
+
+#### Enumerator PickupSurface
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a6664053c37241e711453427deaa0089facf4a4b2912763c217c0776a4be4053bb"></a>
+
+
+#### Enumerator ReverseSurface
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a6664053c37241e711453427deaa0089fa6afa46d6770f28db90c784d75a8ebe11"></a>
+
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.TiltDecenterPickupType"}]}`
+-->
+
+### Enumeration type CoordinateReturnType
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a835dcb9b2c6034a31062bb5dd4703ab3"></a>
+
+![][public]
+
+**Definition**:
+
+
+```csharp
+enum CoordinateReturnType {
+  None = 0,
+  OrientationOnly,
+  OrientationXY,
+  OrientationXYZ
+}
+```
+
+
+#### Enumerator None
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a835dcb9b2c6034a31062bb5dd4703ab3a6adf97f83acf6453d4a6a4b1070f3754"></a>
+
+
+#### Enumerator OrientationOnly
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a835dcb9b2c6034a31062bb5dd4703ab3a1b0a38de458af4626ce2e04f03354c30"></a>
+
+
+#### Enumerator OrientationXY
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a835dcb9b2c6034a31062bb5dd4703ab3aff8e00f92d4ff157e4fac03b1fa8cbe5"></a>
+
+
+#### Enumerator OrientationXYZ
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a835dcb9b2c6034a31062bb5dd4703ab3a9bf2d764b2723236efb1f59d4e060f87"></a>
+
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.CoordinateReturnType"}]}`
+-->
+
+### Enumeration type PilotRadiusMode
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a8b67101e4a988ddfc2625cdac97a68f6"></a>
+
+![][public]
+
+**Definition**:
+
+
+```csharp
+enum PilotRadiusMode {
+  BestFit = 0,
+  Shorter = 1,
+  Longer = 2,
+  X = 3,
+  Y = 4,
+  Plane = 5,
+  User = 6
+}
+```
+
+
+#### Enumerator BestFit
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a8b67101e4a988ddfc2625cdac97a68f6a3be09308e76c7409a4e21584527d7f6e"></a>
+
+
+#### Enumerator Shorter
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a8b67101e4a988ddfc2625cdac97a68f6a37cb307edcae8add36f99ee143989319"></a>
+
+
+#### Enumerator Longer
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a8b67101e4a988ddfc2625cdac97a68f6a48c73af7b43a3598c9304ad85ab28997"></a>
+
+
+#### Enumerator X
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a8b67101e4a988ddfc2625cdac97a68f6a02129bb861061d1a052c592e2dc6b383"></a>
+
+
+#### Enumerator Y
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a8b67101e4a988ddfc2625cdac97a68f6a57cec4137b614c87cb4e24a3d003a3e0"></a>
+
+
+#### Enumerator Plane
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a8b67101e4a988ddfc2625cdac97a68f6a0d3adee051531c15b3509b4d4d75ce7b"></a>
+
+
+#### Enumerator User
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a8b67101e4a988ddfc2625cdac97a68f6a8f9bfe9d1345237cb3b2b205864da075"></a>
+
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.PilotRadiusMode"}]}`
+-->
+
+### Enumeration type XYSampling
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ae8dfb1630728d169f5d09b9aaceb8e7e"></a>
+
+![][public]
+
+**Definition**:
+
+
+```csharp
+enum XYSampling {
+  S32 = 0,
+  S64 = 1,
+  S128 = 2,
+  S256 = 3,
+  S512 = 4,
+  S1024 = 5,
+  S2048 = 6,
+  S4096 = 7,
+  S8192 = 8,
+  S16384 = 9
+}
+```
+
+
+#### Enumerator S32
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ae8dfb1630728d169f5d09b9aaceb8e7eaa1e28eee0339658d39a8b4d325b56e9c"></a>
+
+
+#### Enumerator S64
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ae8dfb1630728d169f5d09b9aaceb8e7ea115dca124dc6423c7a400b8a8a0270cc"></a>
+
+
+#### Enumerator S128
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ae8dfb1630728d169f5d09b9aaceb8e7ea7a27c30b22d51ae47719108c6c8c6d52"></a>
+
+
+#### Enumerator S256
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ae8dfb1630728d169f5d09b9aaceb8e7ea7ca319cc5e5c9f8ff9e469e306923271"></a>
+
+
+#### Enumerator S512
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ae8dfb1630728d169f5d09b9aaceb8e7ea99703592988a4bdf235ed04a4b051ab6"></a>
+
+
+#### Enumerator S1024
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ae8dfb1630728d169f5d09b9aaceb8e7ead513f3910b5c9f3dd5d31845482a1fd7"></a>
+
+
+#### Enumerator S2048
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ae8dfb1630728d169f5d09b9aaceb8e7eada0749ab3f22771d357027e8e98dc64d"></a>
+
+
+#### Enumerator S4096
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ae8dfb1630728d169f5d09b9aaceb8e7eab60f21e9824c484f05e06439e7621b45"></a>
+
+
+#### Enumerator S8192
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ae8dfb1630728d169f5d09b9aaceb8e7ea1c188ea3752146d82c47001d1229d592"></a>
+
+
+#### Enumerator S16384
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1ae8dfb1630728d169f5d09b9aaceb8e7eaa7d5875cc8ff0fc3cebf8a8e28fda2a7"></a>
+
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.XYSampling"}]}`
+-->
+
+### Enumeration type CoatingStatusType
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1aad010af153ed68e38b5fe69e4495ff6c"></a>
+
+![][public]
+
+**Definition**:
+
+
+```csharp
+enum CoatingStatusType {
+  Fixed,
+  Variable,
+  Pickup
+}
+```
+
+
+#### Enumerator Fixed
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1aad010af153ed68e38b5fe69e4495ff6ca4457d440870ad6d42bab9082d9bf9b61"></a>
+
+
+#### Enumerator Variable
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1aad010af153ed68e38b5fe69e4495ff6ca47c14840d8e15331fa420b9b2f757cd9"></a>
+
+
+#### Enumerator Pickup
+
+<a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1aad010af153ed68e38b5fe69e4495ff6ca96fd07f8244c1d8b9a38930ea4bdec97"></a>
+
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.CoatingStatusType"}]}`
+-->
+
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
+[C#]: https://img.shields.io/badge/language-C%23-blue (C#)
+[static]: https://img.shields.io/badge/-static-lightgrey (static)
+[private]: https://img.shields.io/badge/-private-red (private)
+[package]: https://img.shields.io/badge/-package-blueviolet (package)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

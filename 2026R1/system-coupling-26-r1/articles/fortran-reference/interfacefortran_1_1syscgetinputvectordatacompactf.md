@@ -11,21 +11,23 @@ Provide an interface to get input vector data with compact storage.
 
 ## Members
 
-* [syscgetinputvectordatacompactf\_r41d](interfacefortran_1_1syscgetinputvectordatacompactf.md#interfacefortran_1_1syscgetinputvectordatacompactf_1abba0d92f6ea7ac6452bc8af2ca0b5de5)
-* [syscgetinputvectordatacompactf\_r42d](interfacefortran_1_1syscgetinputvectordatacompactf.md#interfacefortran_1_1syscgetinputvectordatacompactf_1af4264f8d072aab82c3ad384e94227cab)
-* [syscgetinputvectordatacompactf\_r81d](interfacefortran_1_1syscgetinputvectordatacompactf.md#interfacefortran_1_1syscgetinputvectordatacompactf_1a61ff5c0acf1426bdb2a2f3632438de88)
-* [syscgetinputvectordatacompactf\_r82d](interfacefortran_1_1syscgetinputvectordatacompactf.md#interfacefortran_1_1syscgetinputvectordatacompactf_1a1e742cf1102a13eab00b4488c2174e9d)
+* [syscgetinputvectordatacompactf\_r41d](interfacefortran_1_1syscgetinputvectordatacompactf.md#interfacefortran_1_1syscgetinputvectordatacompactf_1ae9d747913812dcf757fca97fbb845cd8)
+* [syscgetinputvectordatacompactf\_r42d](interfacefortran_1_1syscgetinputvectordatacompactf.md#interfacefortran_1_1syscgetinputvectordatacompactf_1af593ebb3f385f62adf8bc81ff28d387d)
+* [syscgetinputvectordatacompactf\_r81d](interfacefortran_1_1syscgetinputvectordatacompactf.md#interfacefortran_1_1syscgetinputvectordatacompactf_1af629a769e6956c978c9edd7db599a25c)
+* [syscgetinputvectordatacompactf\_r82d](interfacefortran_1_1syscgetinputvectordatacompactf.md#interfacefortran_1_1syscgetinputvectordatacompactf_1af11c22469f252a6f1ae2d211c822722b)
 
 ## Public functions
 
-<a id="interfacefortran_1_1syscgetinputvectordatacompactf_1abba0d92f6ea7ac6452bc8af2ca0b5de5"></a>
+<a id="interfacefortran_1_1syscgetinputvectordatacompactf_1ae9d747913812dcf757fca97fbb845cd8"></a>
 ### Function syscgetinputvectordatacompactf\_r41d
 
 ![][public]
 
+
 ```fortran
-type(syscinputvectordataf) function syscgetinputvectordatacompactf_r41d(data, dataSize)
+type(syscinputvectordataf) function syscgetinputvectordatacompactf_r41d(data, datasize)
 ```
+
 
 Create an input vector data access type with compact storage.
 
@@ -38,19 +40,21 @@ Create an input vector data access type with compact storage.
 
 **Parameters**:
 
-* datadata
-* dataSizedataSize
+* datareal(kind=4), dimension(datasize * 3), intent(in), target
+* datasizeinteger(kind=8), intent(in)
 
 **Return type**: type([syscinputvectordataf](structfortran_1_1syscinputvectordataf.md#structfortran_1_1syscinputvectordataf)) function
 
-<a id="interfacefortran_1_1syscgetinputvectordatacompactf_1a61ff5c0acf1426bdb2a2f3632438de88"></a>
+<a id="interfacefortran_1_1syscgetinputvectordatacompactf_1af629a769e6956c978c9edd7db599a25c"></a>
 ### Function syscgetinputvectordatacompactf\_r81d
 
 ![][public]
 
+
 ```fortran
-type(syscinputvectordataf) function syscgetinputvectordatacompactf_r81d(data, dataSize)
+type(syscinputvectordataf) function syscgetinputvectordatacompactf_r81d(data, datasize)
 ```
+
 
 Create an input vector data access type with compact storage.
 
@@ -63,19 +67,21 @@ Create an input vector data access type with compact storage.
 
 **Parameters**:
 
-* datadata
-* dataSizedataSize
+* datareal(kind=8), dimension(datasize * 3), intent(in), target
+* datasizeinteger(kind=8), intent(in)
 
 **Return type**: type([syscinputvectordataf](structfortran_1_1syscinputvectordataf.md#structfortran_1_1syscinputvectordataf)) function
 
-<a id="interfacefortran_1_1syscgetinputvectordatacompactf_1af4264f8d072aab82c3ad384e94227cab"></a>
+<a id="interfacefortran_1_1syscgetinputvectordatacompactf_1af593ebb3f385f62adf8bc81ff28d387d"></a>
 ### Function syscgetinputvectordatacompactf\_r42d
 
 ![][public]
 
+
 ```fortran
-type(syscinputvectordataf) function syscgetinputvectordatacompactf_r42d(data, dataSize)
+type(syscinputvectordataf) function syscgetinputvectordatacompactf_r42d(data, datasize)
 ```
+
 
 Create an input vector data access type with compact storage.
 
@@ -88,19 +94,21 @@ Create an input vector data access type with compact storage.
 
 **Parameters**:
 
-* datadata
-* dataSizedataSize
+* datareal(kind=4), dimension(3, datasize), intent(in), target
+* datasizeinteger(kind=8), intent(in)
 
 **Return type**: type([syscinputvectordataf](structfortran_1_1syscinputvectordataf.md#structfortran_1_1syscinputvectordataf)) function
 
-<a id="interfacefortran_1_1syscgetinputvectordatacompactf_1a1e742cf1102a13eab00b4488c2174e9d"></a>
+<a id="interfacefortran_1_1syscgetinputvectordatacompactf_1af11c22469f252a6f1ae2d211c822722b"></a>
 ### Function syscgetinputvectordatacompactf\_r82d
 
 ![][public]
 
+
 ```fortran
-type(syscinputvectordataf) function syscgetinputvectordatacompactf_r82d(data, dataSize)
+type(syscinputvectordataf) function syscgetinputvectordatacompactf_r82d(data, datasize)
 ```
+
 
 Create an input vector data access type with compact storage.
 
@@ -113,8 +121,8 @@ Create an input vector data access type with compact storage.
 
 **Parameters**:
 
-* datadata
-* dataSizedataSize
+* datareal(kind=8), dimension(3, datasize), intent(in), target
+* datasizeinteger(kind=8), intent(in)
 
 **Return type**: type([syscinputvectordataf](structfortran_1_1syscinputvectordataf.md#structfortran_1_1syscinputvectordataf)) function
 

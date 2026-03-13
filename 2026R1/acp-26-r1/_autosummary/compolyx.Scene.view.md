@@ -2,6 +2,6 @@
 
 <a id="compolyx.Scene.view"></a>
 
-#### *property* Scene.view
+## *property* Scene.view
 
 Apply a view to the scene.

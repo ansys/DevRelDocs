@@ -2,4 +2,4 @@
 
 <a id="compolyx.Scene.show_measure"></a>
 
-#### *property* Scene.show_measure
+## *property* Scene.show_measure

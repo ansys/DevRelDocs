@@ -2,6 +2,6 @@
 
 <a id="compolyx.ImportedAnalysisPly.angle"></a>
 
-#### *property* ImportedAnalysisPly.angle
+## *property* ImportedAnalysisPly.angle
 
-Ply Angle
+Ply angle.

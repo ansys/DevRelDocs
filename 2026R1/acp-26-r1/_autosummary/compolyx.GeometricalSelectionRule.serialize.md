@@ -2,6 +2,6 @@
 
 <a id="compolyx.GeometricalSelectionRule.serialize"></a>
 
-#### GeometricalSelectionRule.serialize()
+## GeometricalSelectionRule.serialize()
 
 Serialize to Python string.

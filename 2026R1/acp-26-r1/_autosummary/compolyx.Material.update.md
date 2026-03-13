@@ -2,4 +2,4 @@
 
 <a id="compolyx.Material.update"></a>
 
-#### Material.update()
+## Material.update()

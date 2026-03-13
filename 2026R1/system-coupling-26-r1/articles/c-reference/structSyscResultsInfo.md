@@ -3,7 +3,7 @@
 ![][C]
 ![][public]
 
-**Definition**: `syscCommonTypes.h` (line 314)
+**Definition**: `syscCommonTypes.h` (line 315)
 
 Provide a structure for writing results files.
 
@@ -20,11 +20,13 @@ Provide a structure for writing results files.
 
 ![][public]
 
-**Definition**: `syscCommonTypes.h` (line 315)
+**Definition**: `syscCommonTypes.h` (line 316)
+
 
 ```
 char SyscResultsInfo::baseFileName[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
+
 
 
 

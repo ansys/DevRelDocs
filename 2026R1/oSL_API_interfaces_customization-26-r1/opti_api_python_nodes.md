@@ -1,4 +1,4 @@
-# Nodes and Configuration Files
+# Nodes
 
 - [Configuration Files for Nodes](opti_api_python_nodes_config_files.md)
 - [Basic Node](opti_api_python_nodes_basic.md)

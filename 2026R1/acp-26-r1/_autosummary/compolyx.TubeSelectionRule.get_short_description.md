@@ -2,4 +2,4 @@
 
 <a id="compolyx.TubeSelectionRule.get_short_description"></a>
 
-#### TubeSelectionRule.get_short_description()
+## TubeSelectionRule.get_short_description()

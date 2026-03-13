@@ -2,4 +2,4 @@
 
 <a id="compolyx.CADGeometry.serialize"></a>
 
-#### CADGeometry.serialize()
+## CADGeometry.serialize()

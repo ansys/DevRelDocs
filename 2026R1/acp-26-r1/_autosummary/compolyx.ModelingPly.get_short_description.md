@@ -2,4 +2,4 @@
 
 <a id="compolyx.ModelingPly.get_short_description"></a>
 
-#### ModelingPly.get_short_description()
+## ModelingPly.get_short_description()

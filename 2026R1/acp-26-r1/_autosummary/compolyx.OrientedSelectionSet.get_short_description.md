@@ -2,4 +2,4 @@
 
 <a id="compolyx.OrientedSelectionSet.get_short_description"></a>
 
-#### OrientedSelectionSet.get_short_description()
+## OrientedSelectionSet.get_short_description()

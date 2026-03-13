@@ -21,6 +21,7 @@
 * <stddef.h>
 * <stdint.h>
 
+
 ```mermaid
 graph LR
 1["syscPointCloud.h"]
@@ -32,65 +33,31 @@ click 1 "syscPointCloud_8h.md#syscPointCloud_8h"
 1 --> 6
 1 --> 7
 
-7["stdint.h"]
+2["SystemCouplingParticipant/LibraryType.hpp"]
 
 3["SystemCouplingParticipant/syscCommonTypes.h"]
 
-6["stddef.h"]
-
-2["SystemCouplingParticipant/LibraryType.hpp"]
+4["SystemCouplingParticipant/syscOutputIntegerData.h"]
 
 5["SystemCouplingParticipant/syscOutputVectorData.h"]
 
-4["SystemCouplingParticipant/syscOutputIntegerData.h"]
+6["stddef.h"]
+
+7["stdint.h"]
 
 ```
+
 
 ## Functions
 
 <a id="group__SyscParticipantLibraryCAPI_1ga256e2f74a04a52d19232bd163921131c"></a>
 ### Function syscGetPointCloudEmpty
 
-![][public]
-
-```
-SyscPointCloud syscGetPointCloudEmpty()
-```
-
-Create a point cloud access struct.
-
-Returns a struct representing empty point cloud. All member will be assigned default values.
-
-
-
-**Return type**: [SyscPointCloud](structSyscPointCloud.md#structSyscPointCloud)
-
 <a id="group__SyscParticipantLibraryCAPI_1ga0a8b0fe8c0c57374a3ef69d1f678fdab"></a>
 ### Function syscGetPointCloud
 
-![][public]
-
-```
-SyscPointCloud syscGetPointCloud(SyscOutputIntegerData nodeIds, SyscOutputVectorData nodeCoords)
-```
-
-Create a point cloud access struct.
-
-**Parameters**:
-
-* **nodeIds**: - output integer data access for node ids
-* **nodeCoords**: - output vector data access for node coordinates, provided in the same order as node ids
-
-
-
-**Parameters**:
-
-* [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData) **nodeIds**
-* [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData) **nodeCoords**
-
-**Return type**: [SyscPointCloud](structSyscPointCloud.md#structSyscPointCloud)
-
 ## Source
+
 
 ```
 /*
@@ -112,11 +79,13 @@ Create a point cloud access struct.
 extern "C" {
 #endif
 
+
 /* *********** Point cloud ************************************************ */
 
 typedef struct {
   SyscOutputIntegerData nodeIds;   
   SyscOutputVectorData nodeCoords; 
+
   int64_t connectivityStamp;
 
   int64_t coordinatesStamp;
@@ -125,16 +94,20 @@ typedef struct {
 
 } SyscPointCloud;
 
+
 SyscPointCloud syscGetPointCloudEmpty();
+
 
 SyscPointCloud syscGetPointCloud(
   SyscOutputIntegerData nodeIds,
   SyscOutputVectorData nodeCoords);
 
+
 #ifdef __cplusplus
 }
 #endif
 ```
+
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C]: https://img.shields.io/badge/language-C-blue (C)

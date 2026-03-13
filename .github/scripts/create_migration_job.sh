@@ -81,14 +81,14 @@ validate_envs() {
 }
 
 ########################################
-# Detects product documentation changes and extracts metadata from docfx.json.
+# Detects product documentation changes and gets metadata.
 #
-# Scans the Git diff to identify a unique product version directory. If found,
-# it validates the presence of docfx.json and extracts specific metadata
-# properties using jq, assigning them back to the caller's variables.
+# Scans the Git diff to identify a product version directory. If found,
+# it validates and collects required metadata and assigns them back to the
+# caller's variables.
 #
 # Globals:
-#   None (Uses local namerefs to modify caller variables).
+#   None.
 # Arguments:
 #   $1 - (Nameref) To be updated with the identified source path.
 #   $2 - (Nameref) To be updated with 'doc_type' from metadata.
@@ -104,11 +104,11 @@ validate_envs() {
 #     metadata is invalid.
 #   2 if no product documentation changes are detected.
 ########################################
-extract_product_documentation_metadata() {
+get_product_documentation_metadata() {
   local -n _ref_source_path=$1
   local -n _ref_doc_type=$2
-  local -n _ref_title=$3
-  local -n _ref_version=$4
+  local -n _ref_product_name=$3
+  local -n _ref_product_version=$4
   local -n _ref_physics=$5
 
   # Identify affected product version directories.
@@ -137,30 +137,92 @@ extract_product_documentation_metadata() {
   # Locate docfx.json.
   local _docfx_path="${_ref_source_path}/docfx.json"
   if [ ! -f "${_docfx_path}" ]; then
-    echo "::error::No docfx.json file found in ${_docfx_path}." >&2
+    echo "::error::No docfx.json file found in ${_docfx_path}" >&2
     return 1
   fi
 
   echo "Found docfx.json at ${_docfx_path}"
   echo "Validating metadata in ${_docfx_path}"
 
-  # Validate and extract metadata properties from docfx.json.
+  # Check the doc_type metadata property in docfx.json.
+  local _doc_type_value
+  _doc_type_value=$(jq -r ".build.globalMetadata.doc_type // empty" "${_docfx_path}")
+  # If doc_type is not specified, fall back to a default value.
+  if [[ -z "${_doc_type_value}" ]]; then
+    echo "Metadata doc_type is not specified or it's empty. Using '${DEFAULT_DOC_TYPE}' as a default value."
+    _doc_type_value="${DEFAULT_DOC_TYPE}"
+  fi
+
+  # Collect metadata for Markdown type migration.
+  if [[ "${_doc_type_value}" == "markdown" ]]; then
+    echo "Identified documentation type: Markdown (markdown)."
+    local _return_code=0
+    get_metadata_for_markdown_migration \
+      "${_docfx_path}" \
+      _ref_product_name \
+      _ref_product_version \
+      _ref_physics || _return_code=$?
+
+    if [[ ${_return_code} -ne 0 ]]; then
+      return 1
+    fi
+  # Collect metadata for REST API type migration.
+  elif [[ "${_doc_type_value}" == "rest_api" ]]; then
+    echo "Identified documentation type: REST API (rest_api)."
+    local _return_code=0
+    get_metadata_for_rest_api_migration \
+      "${_ref_source_path}" \
+      "${_docfx_path}" \
+      _ref_product_name \
+      _ref_product_version \
+      _ref_physics || _return_code=$?
+
+    if [[ ${_return_code} -ne 0 ]]; then
+      return 1
+    fi
+  else
+    echo "::error::Metadata validation failed in ${_docfx_path}: unknown doc_type '${_doc_type_value}'" >&2
+    return 1
+  fi
+
+  _ref_doc_type="${_doc_type_value}"
+
+  return 0
+}
+
+########################################
+# Gets metadata for Markdown migration.
+#
+# Globals:
+#   None.
+# Arguments:
+#   $1 - The global metadata (docfx.json) file path.
+#   $2 - (Nameref) To be updated with 'title' from metadata.
+#   $3 - (Nameref) To be updated with 'version' from metadata.
+#   $4 - (Nameref) To be updated with 'physics' from metadata.
+# Outputs:
+#   STDERR: Prints error messages on any failure.
+# Returns:
+#   0 if metadata is valid and successfully extracted.
+#   1 if metadata is invalid.
+########################################
+get_metadata_for_markdown_migration() {
+  local _docfx_path=$1
+  local -n _r_title=$2
+  local -n _r_version=$3
+  local -n _r_physics=$4
+
   local _docfx_errors=()
-  local _docfx_properties=("doc_type" "title" "version" "physics")
+  local _docfx_properties=("title" "version" "physics")
   for prop in "${_docfx_properties[@]}"; do
     local _value
     _value=$(jq -r ".build.globalMetadata.${prop} // empty" "${_docfx_path}")
-    # Check whether doc_type is specified. If not, fall back to a default value.
-    if [[ "${prop}" == "doc_type" && -z "${_value}" ]]; then
-      echo "Metadata doc_type is not specified or it's empty. Using '${DEFAULT_DOC_TYPE}' as a default value."
-      _value="${DEFAULT_DOC_TYPE}"
-    fi
     # Make sure that the property value is not empty.
     if [ -z "${_value}" ]; then
-      _docfx_errors+=("'${prop}' is missing or empty")
+      _docfx_errors+=("'${prop}' is missing or empty.")
     else
       # Create a reference to the target variable and assign the value.
-      declare -n target_var="_ref_${prop}"
+      declare -n target_var="_r_${prop}"
       target_var="${_value}"
       unset -n target_var
     fi
@@ -170,6 +232,95 @@ extract_product_documentation_metadata() {
     local _error_msg
     _error_msg=$(IFS='; '; echo "${_docfx_errors[*]}")
     echo "::error::Metadata validation failed in ${_docfx_path}: ${_error_msg}" >&2
+    return 1
+  fi
+
+  return 0
+}
+
+########################################
+# Gets metadata for REST API migration.
+#
+# Globals:
+#   GITHUB_WORKSPACE - Absolute path of the checked out working directory.
+# Arguments:
+#   $1 - The documentation source path in the repository.
+#   $2 - The global metadata (docfx.json) file path.
+#   $2 - (Nameref) To be updated with 'product' from metadata.
+#   $3 - (Nameref) To be updated with 'version' from metadata.
+#   $4 - (Nameref) To be updated with 'physics' from metadata.
+# Outputs:
+#   STDERR: Prints error messages on any failure.
+#   STDOUT: Prints status messages about the action steps.
+# Returns:
+#   0 if metadata is valid and successfully extracted.
+#   1 if metadata is invalid.
+########################################
+get_metadata_for_rest_api_migration() {
+  local _source_path=$1
+  local _docfx_path=$2
+  local -n _r_product=$3
+  local -n _r_version=$4
+  local -n _r_physics=$5
+
+  # Extract product name and physics from docfx.json.
+  local _docfx_errors=()
+  local _docfx_properties=("product" "physics")
+  for prop in "${_docfx_properties[@]}"; do
+    local _value
+    _value=$(jq -r ".build.globalMetadata.${prop} // empty" "${_docfx_path}")
+    # Make sure that the property value is not empty.
+    if [ -z "${_value}" ]; then
+      _docfx_errors+=("'${prop}' is missing or empty.")
+    else
+      declare -n target_var="_r_${prop}"
+      target_var="${_value}"
+      unset -n target_var
+    fi
+  done
+
+  if [ ${#_docfx_errors[@]} -ne 0 ]; then
+    local _error_msg
+    _error_msg=$(IFS='; '; echo "${_docfx_errors[*]}")
+    echo "::error::Metadata validation failed in ${_docfx_path}: ${_error_msg}" >&2
+    return 1
+  fi
+
+  # Extract product version from the REST API specification file. We need an
+  # absolute directory path to search for specification files.
+  local _search_path="${GITHUB_WORKSPACE:-.}/${_source_path}"
+
+  local _files
+  shopt -s nullglob
+  _files=("${_search_path}"/*.yml "${_search_path}"/*.yaml "${_search_path}"/*.json)
+  shopt -u nullglob
+
+  local _api_spec_files=()
+  # Ensure that docfx.json is not part of the discovered files.
+  for _file in "${_files[@]}"; do
+    if [[ "$(basename "${_file}")" != "docfx.json" ]]; then
+      _api_spec_files+=("${_file}")
+    fi
+  done
+
+  if [[ ${#_api_spec_files[@]} -eq 0 ]]; then
+    echo "::error::No REST API specification file found in ${_search_path}" >&2
+    return 1
+  elif [[ ${#_api_spec_files[@]} -gt 1 ]]; then
+    echo "::error::Multiple REST API specification files found in ${_search_path}" >&2
+    return 1
+  fi
+
+  local _api_spec_full_path="${_api_spec_files[0]}"
+  local _api_spec_path="${_api_spec_full_path#"${GITHUB_WORKSPACE}/"}"
+
+  echo "Found REST API specification at ${_api_spec_path}"
+  echo "Validating REST API specification in ${_api_spec_path}"
+
+  _r_version=$(yq -r '.info.version | select(. != null)' "${_api_spec_full_path}")
+  # Make sure that version is specified.
+  if [ -z "${_r_version}" ]; then
+    echo "::error::Missing or empty 'info.version' in REST API specification ${_api_spec_path}" >&2
     return 1
   fi
 
@@ -355,7 +506,8 @@ main() {
 
   echo "Detecting product documentation changes..."
   local _return_code=0
-  extract_product_documentation_metadata \
+  local _source_path _doc_type _product_name _product_version _physics
+  get_product_documentation_metadata \
     _source_path \
     _doc_type \
     _product_name \

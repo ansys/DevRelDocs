@@ -2,6 +2,6 @@
 
 <a id="compolyx.SolidModel.vertex"></a>
 
-#### *property* SolidModel.vertex
+## *property* SolidModel.vertex
 
 Raises an error if the object has been removed from the graph.
