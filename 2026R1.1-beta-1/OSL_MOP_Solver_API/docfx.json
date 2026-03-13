@@ -1,0 +1,12 @@
+{
+    "build": {
+        "globalMetadata": {
+            "title": "optiSLang MOPSolver API",
+            "summary": "",
+            "version": "2026 R1",
+            "product": "optiSLang",
+            "programming language": "C/C++",
+            "physics": "Connect"
+        }
+    }
+}
