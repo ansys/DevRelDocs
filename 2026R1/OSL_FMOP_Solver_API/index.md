@@ -1,11 +1,11 @@
-# oSP3D FMOP Solver
+# Introduction
 
-# Contents pages
+## Contents pages
 
 * [Global contents](global_contents.md)
 * [Files](file_contents.md)
 
-# Index pages
+## Index pages
 
 * [Global index](global_index.md)
 * [Files](file_index.md)
@@ -15,6 +15,7 @@
 C-API to evaluate a Field Meta model of Optimal Prognosis (FMOP)
 
 **copyright**
+
 Ansys Austria GmbH
 
 * This API follows the _Basic_ exception safety _rule_. If any of the operations fail, the original data, e.g. the fmop_handle*_t, might have been overwritten, but there should be no resource leak.

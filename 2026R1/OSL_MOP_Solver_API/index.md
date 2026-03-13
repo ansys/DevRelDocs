@@ -1,4 +1,4 @@
-# MOPSolver API
+# Introduction
 
 ## Content pages
 
@@ -14,6 +14,7 @@
 ## Brief description
 
 C-API to approximate response values based on their best metamodel using an optiSLang monitoring database file (*.omdb). From the .omdb file, the following information can be extracted:
+
 * Names and number of the input parameters
 
 * Names and number of the response parameters
@@ -36,11 +37,7 @@ C-API to approximate response values based on their best metamodel using an opti
 
 * Gradient values, density value and errors per response parameter
 
-
-
-
 ## Usage example (using a C++ compiler)
-
 
 ```cpp
 #include <cstdlib>

@@ -8,7 +8,7 @@
       href: file_contents.md
     - name: Pages
       href: page_contents.md
-- name: Index Pages
+- name: Index pages
   items:
     - name: Global index
       href: global_index.md
