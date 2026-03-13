@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-11).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-12).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -26,11 +26,11 @@ The following table shows which components have updates in each category.
 | fbs | [2 items](#Features_fbs) | |
 | femutils | [2 items](#Features_femutils) |[14 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
-| framework | [2 items](#Features_framework) |[5 items](#Fixes_framework) |
+| framework | [2 items](#Features_framework) |[6 items](#Fixes_framework) |
 | grpc | [1 item](#Features_grpc) |[3 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[4 items](#Fixes_h5dpf) |
-| hdf5 | [6 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
+| hdf5 | [7 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
 | hgp | [5 items](#Features_hgp) |[2 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [3 items](#Features_kernel) |[9 items](#Fixes_kernel) |
@@ -524,6 +524,9 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_framework"></a> Fixes
 
+- Add ellipsis property to forward operator pins:
+  > 
+
 - Expose PinSpecification.ellipsis to replace PinSpecification.ellispis:
   > 
   >
@@ -654,6 +657,11 @@ The following table shows which components have updates in each category.
   > 
 ## hdf5
 ### <a id="Features_hdf5"></a> Features
+
+- Add Support for Live Monitoring:
+  > Support live monitoring for h5 files with mapdl::run
+  >
+  > 
 
 - Very quick implementation of h5dpf list operator:
   > 
@@ -2212,12 +2220,6 @@ The following table shows which components have updates in each category.
   > 
 
 
-#### logic
-
-- [identical_generic_supports](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/logic/identical_generic_supports.md):
-  > Takes two supports or generic supports and compares them. 
-
-
 #### mapping
 
 - [apply_mechanical_native_mapping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/apply_mechanical_native_mapping.md):
@@ -2558,10 +2560,16 @@ The following table shows which components have updates in each category.
 
   > 0.0.2: Midside nodes included in the input scoping are now properly averaged regardless of the presence of its parent corner nodes.
 
+  > 0.0.3: Improving memory management.
+
 
 - [elemental_nodal_to_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_nodal_to_nodal_fc.md)
 
   > 0.0.1: Fixed issue with semiparabolic elements.
+
+  > 0.0.2: Midside nodes included in the input scoping are now properly averaged regardless of the presence of its parent corner nodes.
+
+  > 0.0.3: Improving memory management.
 
 
 - [elemental_to_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_to_nodal_fc.md)
@@ -3432,6 +3440,11 @@ Upgraded documentation
 - [extract_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/extract_scoping.md)
 
   > 0.0.1: Error with license
+
+
+- [forward](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/forward.md)
+
+  > 0.0.1: Add elipsis property to pins.
 
 
 - [html_doc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/html_doc.md)
