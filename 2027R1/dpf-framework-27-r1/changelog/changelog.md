@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-12).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-14).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -45,7 +45,7 @@ The following table shows which components have updates in each category.
 | misc | [13 items](#Features_misc) |[19 items](#Fixes_misc) |
 | multiphysicsmapper |  |[5 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [3 items](#Features_native) |[15 items](#Fixes_native) |
+| native | [4 items](#Features_native) |[15 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [3 items](#Features_prime) | |
@@ -1833,6 +1833,15 @@ The following table shows which components have updates in each category.
 ## native
 ### <a id="Features_native"></a> Features
 
+- Extract mesh to rescope property fields & mesh to be read on nodal results from RST.:
+  > Nodal result read from RST files now have an associated mesh support
+  >
+  > The mesh extraction operator now forward the input mesh property fields
+  >
+  > 
+  >
+  > 
+
 - Make generic support comparison operator private:
   > 
 
@@ -2821,6 +2830,11 @@ Upgraded documentation
   > 0.0.2: Fixing issue with connectivity.
 
   > 0.1.0: Improvement in the performance for cases with non shared scoping between property fields and mesh.
+
+
+- [mesh_extraction](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/mesh_extraction.md)
+
+  > 1.0.0: Property fields associated to the mesh are rescoped on the selection and associated to the new mesh.
 
 
 - [mesh_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/mesh_provider.md)
