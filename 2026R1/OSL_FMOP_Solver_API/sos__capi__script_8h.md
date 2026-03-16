@@ -61,7 +61,7 @@ click 1 "sos__capi__script_8h.md#sos__capi__script_8h"
 ```mermaid
 graph RL
 2["FMOPSolver.h"]
-click 2 "_f_m_o_p_solver_8h_source.md#_f_m_o_p_solver_8h_source"
+click 2 "_f_m_o_p_solver_8h.md#source"
 
 1["sos_capi_script.h"]
 click 1 "sos__capi__script_8h.md#sos__capi__script_8h"

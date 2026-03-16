@@ -20,7 +20,7 @@ click 1 "_f_m_o_p_solver_8h.md#_f_m_o_p_solver_8h"
 1 --> 4
 
 2["fmop_solver.h"]
-click 2 "mop_solver.md#fmop__solver_8h"
+click 2 "fmop_solver.md#fmop__solver_8h"
 2 --> 3
 
 3["sos_capi_common.h"]
