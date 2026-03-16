@@ -11,28 +11,28 @@ $Rev$
 
 ## Includes
 
-* [mopsolver_api2_shared.h](df/d6e/mopsolver__api2__shared_8h.md#df/d6e/mopsolver__api2__shared_8h)
+* [mopsolver_api2_shared.h](mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h)
 
 
 ```mermaid
 graph LR
 1["mopsolver_api2.h"]
-click 1 "d7/df7/mopsolver__api2_8h.md#d7/df7/mopsolver__api2_8h"
+click 1 "mopsolver__api2_8h.md#mopsolver__api2_8h"
 1 --> 2
 
 2["mopsolver_api2_shared.h"]
-click 2 "df/d6e/mopsolver__api2__shared_8h.md#df/d6e/mopsolver__api2__shared_8h"
+click 2 "mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h"
 2 --> 3
 
 3["mopsolver_api_shared.h"]
-click 3 "d8/df9/mopsolver__api__shared_8h_source.md#d8/df9/mopsolver__api__shared_8h_source"
+click 3 "mopsolver__api__shared_8h_source.md#mopsolver__api__shared_8h_source"
 
 ```
 
 
 ## Functions
 
-<a id="d7/df7/mopsolver__api2_8h_1aeb725607d79714dac00a68915c3b0173"></a>
+<a id="mopsolver__api2_8h_1aeb725607d79714dac00a68915c3b0173"></a>
 ### Function dmop2_hasSurrogate
 
 ![][public]
@@ -63,7 +63,7 @@ zero if Surrogate is found
 
 **Return type**: DYNARDO_MOPSOLVER_API int
 
-<a id="d7/df7/mopsolver__api2_8h_1ac1280ce7eec776cb615b9021dde4b49c"></a>
+<a id="mopsolver__api2_8h_1ac1280ce7eec776cb615b9021dde4b49c"></a>
 ### Function dmop2_getDimensions
 
 ![][public]
@@ -100,7 +100,7 @@ zero if the dimensions could be determined
 
 **Return type**: DYNARDO_MOPSOLVER_API int
 
-<a id="d7/df7/mopsolver__api2_8h_1a4edf6d82a0e1c63e8cdc4f2f56982791"></a>
+<a id="mopsolver__api2_8h_1a4edf6d82a0e1c63e8cdc4f2f56982791"></a>
 ### Function dmop2_solve
 
 ![][public]
@@ -143,7 +143,7 @@ zero if the approximation succeeded
 
 **Return type**: DYNARDO_MOPSOLVER_API int
 
-<a id="d7/df7/mopsolver__api2_8h_1a15b7852cc667da87359ab69d62073526"></a>
+<a id="mopsolver__api2_8h_1a15b7852cc667da87359ab69d62073526"></a>
 ### Function dmop2_get_per_response
 
 ![][public]
@@ -188,7 +188,7 @@ zero if the approximation succeeded
 
 **Return type**: DYNARDO_MOPSOLVER_API int
 
-<a id="d7/df7/mopsolver__api2_8h_1af195ed8a6a545eb166ccf2cb3320c8d8"></a>
+<a id="mopsolver__api2_8h_1af195ed8a6a545eb166ccf2cb3320c8d8"></a>
 ### Function dmop2_getNames
 
 ![][public]
@@ -201,7 +201,7 @@ DYNARDO_MOPSOLVER_API int dmop2_getNames(const char *_omdbfile, DMOP2_NAME_FLAG 
 
 
 
-retrieves the names of all criteria. The array sizes depend on the number of criteria determined in [dmop_getDimensions](de/d3f/mopsolver__api_8h.md#de/d3f/mopsolver__api_8h_1a05681e0a24f0aa4edde06acfc34830a5) 
+retrieves the names of all criteria. The array sizes depend on the number of criteria determined in [dmop_getDimensions](mopsolver__api_8h.md#mopsolver__api_8h_1a05681e0a24f0aa4edde06acfc34830a5) 
 **Parameters**:
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
@@ -218,12 +218,12 @@ zero if the name arrays were created and filled
 **Parameters**:
 
 * const char * **_omdbfile**
-* [DMOP2_NAME_FLAG](df/d6e/mopsolver__api2__shared_8h.md#df/d6e/mopsolver__api2__shared_8h_1a919e4b2e211e2d3c06a2cd81f75a5993) **_flag**
+* [DMOP2_NAME_FLAG](mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h_1a919e4b2e211e2d3c06a2cd81f75a5993) **_flag**
 * char ** **_names**
 
 **Return type**: DYNARDO_MOPSOLVER_API int
 
-<a id="d7/df7/mopsolver__api2_8h_1a2e758e198d50d7222cf8bdf407a2b4e7"></a>
+<a id="mopsolver__api2_8h_1a2e758e198d50d7222cf8bdf407a2b4e7"></a>
 ### Function dmop2_getNamesWithDelimiter
 
 ![][public]
@@ -236,7 +236,7 @@ DYNARDO_MOPSOLVER_API int dmop2_getNamesWithDelimiter(const char *_omdbfile, DMO
 
 
 
-retrieves the names of all criteria. The array sizes depend on the number of criteria determined in [dmop_getDimensions](de/d3f/mopsolver__api_8h.md#de/d3f/mopsolver__api_8h_1a05681e0a24f0aa4edde06acfc34830a5) 
+retrieves the names of all criteria. The array sizes depend on the number of criteria determined in [dmop_getDimensions](mopsolver__api_8h.md#mopsolver__api_8h_1a05681e0a24f0aa4edde06acfc34830a5) 
 **Parameters**:
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
@@ -254,13 +254,13 @@ zero if the name arrays were created and filled
 **Parameters**:
 
 * const char * **_omdbfile**
-* [DMOP2_NAME_FLAG](df/d6e/mopsolver__api2__shared_8h.md#df/d6e/mopsolver__api2__shared_8h_1a919e4b2e211e2d3c06a2cd81f75a5993) **_flag**
+* [DMOP2_NAME_FLAG](mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h_1a919e4b2e211e2d3c06a2cd81f75a5993) **_flag**
 * char ** **_names**
 * const char * **_delimiter**
 
 **Return type**: DYNARDO_MOPSOLVER_API int
 
-<a id="d7/df7/mopsolver__api2_8h_1af68dc3d377e7a0cfa185d7def65a242f"></a>
+<a id="mopsolver__api2_8h_1af68dc3d377e7a0cfa185d7def65a242f"></a>
 ### Function dmop2_getInputBounds
 
 ![][public]
@@ -293,7 +293,7 @@ zero if the name arrays were created and filled
 
 **Return type**: DYNARDO_MOPSOLVER_API int
 
-<a id="d7/df7/mopsolver__api2_8h_1a3250031d1d4f5aac7d55245edb398f63"></a>
+<a id="mopsolver__api2_8h_1a3250031d1d4f5aac7d55245edb398f63"></a>
 ### Function dmop2_getInputBoundsPerParameter
 
 ![][public]
@@ -328,7 +328,7 @@ zero if the name arrays were created and filled
 
 **Return type**: DYNARDO_MOPSOLVER_API int
 
-<a id="d7/df7/mopsolver__api2_8h_1aa37255246161c9b90c89f8fd546c801e"></a>
+<a id="mopsolver__api2_8h_1aa37255246161c9b90c89f8fd546c801e"></a>
 ### Function dmop2_getReferenceValuePerParameter
 
 ![][public]
@@ -363,7 +363,7 @@ zero if the name arrays were created and filled
 
 **Return type**: DYNARDO_MOPSOLVER_API int
 
-<a id="d7/df7/mopsolver__api2_8h_1a7812100fa3283c0d8a99ec20d7f150e3"></a>
+<a id="mopsolver__api2_8h_1a7812100fa3283c0d8a99ec20d7f150e3"></a>
 ### Function dmop2_getCoPValuesPerResponse
 
 ![][public]
@@ -398,7 +398,7 @@ zero if the name arrays were created and filled
 
 **Return type**: DYNARDO_MOPSOLVER_API int
 
-<a id="d7/df7/mopsolver__api2_8h_1a95cb0c5d1a7b4f7c9f2099525c843c1a"></a>
+<a id="mopsolver__api2_8h_1a95cb0c5d1a7b4f7c9f2099525c843c1a"></a>
 ### Function dmop2_getFilteredStatesPerResponse
 
 ![][public]

@@ -16,7 +16,7 @@
 ```mermaid
 graph LR
 1["mopsolver_dlpublic.h"]
-click 1 "d9/db1/mopsolver__dlpublic_8h.md#d9/db1/mopsolver__dlpublic_8h"
+click 1 "mopsolver__dlpublic_8h.md#mopsolver__dlpublic_8h"
 1 --> 2
 
 2["dlvisibility.h"]
@@ -26,7 +26,7 @@ click 1 "d9/db1/mopsolver__dlpublic_8h.md#d9/db1/mopsolver__dlpublic_8h"
 
 ## Macros
 
-<a id="d9/db1/mopsolver__dlpublic_8h_1a20ec90e10cc7c073f025376fbcf54710"></a>
+<a id="mopsolver__dlpublic_8h_1a20ec90e10cc7c073f025376fbcf54710"></a>
 ### Macro DYNARDO_MOPSOLVER_INTERNAL_DLPUBLIC
 
 ![][public]
