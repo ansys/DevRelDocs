@@ -24,7 +24,7 @@ click 2 "mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h"
 2 --> 3
 
 3["mopsolver_api_shared.h"]
-click 3 "mopsolver__api__shared_8h_source.md#mopsolver__api__shared_8h_source"
+click 3 "mopsolver__api__shared_8h.md#source"
 
 ```
 
