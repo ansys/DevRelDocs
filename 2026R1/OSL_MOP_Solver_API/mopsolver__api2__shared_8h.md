@@ -348,7 +348,9 @@ DYNARDO_MOPSOLVER_API int dmop2_free(void *_pointer)
 
 
 Frees the memory allocated at the specified pointer 
+ 
 **Parameters**:
+
 
 * **_pointer**: Pointer to the memory that should be freed
 
@@ -359,7 +361,9 @@ zero if the memory was successfully freed
 
 
 
+ 
 **Parameters**:
+
 
 * void * **_pointer**
 
@@ -426,7 +430,9 @@ set up custom interface application-wide
 
 
 
+ 
 **Parameters**:
+
 
 * const char * **_program_path**
 * const char * **_python_home**
