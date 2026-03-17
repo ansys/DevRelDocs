@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-14).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-16).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -34,7 +34,7 @@ The following table shows which components have updates in each category.
 | hgp | [5 items](#Features_hgp) |[2 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [3 items](#Features_kernel) |[9 items](#Fixes_kernel) |
-| lsdyna | [1 item](#Features_lsdyna) | |
+| lsdyna | [2 items](#Features_lsdyna) | |
 | mapd | [1 item](#Features_mapd) | |
 | mapdl | [15 items](#Features_mapdl) |[41 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
@@ -45,13 +45,14 @@ The following table shows which components have updates in each category.
 | misc | [13 items](#Features_misc) |[19 items](#Fixes_misc) |
 | multiphysicsmapper |  |[5 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [4 items](#Features_native) |[15 items](#Fixes_native) |
+| native | [5 items](#Features_native) |[15 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [3 items](#Features_prime) | |
 | pydpf |  |[1 item](#Fixes_pydpf) |
 | refactor | [1 item](#Features_refactor) | |
 | rotation |  |[1 item](#Fixes_rotation) |
+| utilities |  |[1 item](#Fixes_utilities) |
 | vtk |  |[1 item](#Fixes_vtk) |
 | workflows | [2 items](#Features_workflows) |[2 items](#Fixes_workflows) |
 
@@ -892,6 +893,9 @@ The following table shows which components have updates in each category.
   >
   > 
   >
+  > 
+
+- Add mesh scoping input for nodout operators (#257):
   > 
 
 ## mapd
@@ -1833,6 +1837,17 @@ The following table shows which components have updates in each category.
 ## native
 ### <a id="Features_native"></a> Features
 
+- Added "generic_data_container::get_attribute" and "generic_data_container::set_attribute":
+  > Added the following APIs for Generic Data Container
+  >
+  > - "generic_data_container::get_attribute": returns a given attribute of the generic data container in input
+  >
+  > - "generic_data_container::set_attribute": creates a new generic data container or modifies the one in input
+  >
+  > 
+  >
+  > 
+
 - Extract mesh to rescope property fields & mesh to be read on nodal results from RST.:
   > Nodal result read from RST files now have an associated mesh support
   >
@@ -2069,6 +2084,12 @@ The following table shows which components have updates in each category.
   >
   > 
   >
+  > 
+## utilities
+
+### <a id="Fixes_utilities"></a> Fixes
+
+- Fix breaking change in forward operator:
   > 
 ## vtk
 
