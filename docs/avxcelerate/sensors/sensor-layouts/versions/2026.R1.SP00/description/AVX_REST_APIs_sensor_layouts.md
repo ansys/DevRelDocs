@@ -1,8 +1,10 @@
-# Sensor Layouts REST API Description
+# Sensor Layouts REST API description test 17-03
 
 ## Introduction
 
-The Sensor Layouts REST API allows you to manage your Sensor Layout Library.
+The Sensor Layouts REST API allows you to manage your Sensor Layout Library. 
+
+Test 17-03
 
 This API offers the same capabilities as the Sensor Layout section of the Sensor Labs desktop application, namely:
 
@@ -50,7 +52,7 @@ The sensor models created using Sensors REST API are the inputs for the creation
 
 Once created, a Sensor layout can be downloaded as a packed file \(.sencfgx\) so that it can be set as a resource for simulation in AVxcelerate Sensors Simulator.
 
-![](images/Sensor_Layouts_API.png)
+![](images/Sensor_Layouts_API-test.png)
 
 Using Sensor Layouts REST API you can develop applications for batch creation of sensor layouts or Sensor Layout Library management automation.
 
