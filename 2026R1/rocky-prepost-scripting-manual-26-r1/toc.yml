@@ -12,6 +12,8 @@
 - name: Class Reference
   href: prepost-scripting-reference.md
   items:
+  - name: RA3DWindow
+    href: RA3DWindow.md
   - name: RAAirFlow
     href: RAAirFlow.md
   - name: RACFDCoupling
@@ -40,6 +42,8 @@
     href: RACubeGroup.md
   - name: RACubeProcess
     href: RACubeProcess.md
+  - name: RACurve
+    href: RACurve.md
   - name: RACustomInput
     href: RACustomInput.md
   - name: RACylinderGroup
@@ -76,6 +80,8 @@
     href: RAFreeBodyTranslation.md
   - name: RAGeometryCollection
     href: RAGeometryCollection.md
+  - name: RAGridFunction
+    href: RAGridFunction.md
   - name: RAInletGeometry
     href: RAInletGeometry.md
   - name: RAInletsOutletsCollection
@@ -150,6 +156,8 @@
     href: RAPendulum.md
   - name: RAPhysics
     href: RAPhysics.md
+  - name: RAPlaneGroup
+    href: RAPlaneGroup.md
   - name: RAPlaneProcess
     href: RAPlaneProcess.md
   - name: RAPointCloud
@@ -206,6 +214,8 @@
     href: RATagging.md
   - name: RAThreeRollsBeltProfile
     href: RAThreeRollsBeltProfile.md
+  - name: RATimePlotWindow
+    href: RATimePlotWindow.md
   - name: RATimeRangeFilter
     href: RATimeRangeFilter.md
   - name: RATimeSeriesRotation
