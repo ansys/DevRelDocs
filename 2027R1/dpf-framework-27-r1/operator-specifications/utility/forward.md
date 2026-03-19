@@ -112,7 +112,8 @@ ansys::dpf::Any my_any = op.getOutput<ansys::dpf::Any>(0);
 import ansys.dpf.core as dpf
 
 op = dpf.operators.utility.forward() # operator instantiation
-op.inputs.any.connect(my_any)
+op.inputs.any1.connect(my_any1)
+op.inputs.any2.connect(my_any2)
 my_any = op.outputs.any()
 ```
 </details>
