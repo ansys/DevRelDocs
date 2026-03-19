@@ -64,12 +64,16 @@
       href: modules/reliability.md
 - name: Postprocessing
   items:
-    - name: py_monitoring_gui
-      href: modules/py_monitoring_gui.md
-    - name: py_monitoring_kernel
-      href: modules/py_monitoring_kernel.md
-    - name: py_osl3binfile
-      href: modules/py_osl3binfile.md
+    - name: Introduction
+      href: modules/postprocessing-python-scripting.md
+    - name: Modules 
+      items
+      - name: py_monitoring_gui
+        href: modules/py_monitoring_gui.md
+      - name: py_monitoring_kernel
+        href: modules/py_monitoring_kernel.md
+      - name: py_osl3binfile
+        href: modules/py_osl3binfile.md
 - name: Kernel
   items:
     - name: _optiSLang_Actors
