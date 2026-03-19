@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-09).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-16).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -24,34 +24,35 @@ The following table shows which components have updates in each category.
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils | [2 items](#Features_femutils) |[13 items](#Fixes_femutils) |
+| femutils | [2 items](#Features_femutils) |[14 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
-| framework | [2 items](#Features_framework) |[5 items](#Fixes_framework) |
+| framework | [2 items](#Features_framework) |[6 items](#Fixes_framework) |
 | grpc | [1 item](#Features_grpc) |[3 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[4 items](#Fixes_h5dpf) |
-| hdf5 | [6 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
+| hdf5 | [7 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
 | hgp | [5 items](#Features_hgp) |[2 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
-| kernel | [2 items](#Features_kernel) |[9 items](#Fixes_kernel) |
-| lsdyna | [1 item](#Features_lsdyna) | |
+| kernel | [3 items](#Features_kernel) |[9 items](#Fixes_kernel) |
+| lsdyna | [2 items](#Features_lsdyna) | |
 | mapd | [1 item](#Features_mapd) | |
 | mapdl | [15 items](#Features_mapdl) |[41 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
-| math | [11 items](#Features_math) |[1 item](#Fixes_math) |
+| math | [12 items](#Features_math) |[1 item](#Fixes_math) |
 | mechanical | [2 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
 | mesh |  |[3 items](#Fixes_mesh) |
 | misc | [13 items](#Features_misc) |[19 items](#Fixes_misc) |
 | multiphysicsmapper |  |[5 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [2 items](#Features_native) |[15 items](#Fixes_native) |
+| native | [5 items](#Features_native) |[15 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [3 items](#Features_prime) | |
 | pydpf |  |[1 item](#Fixes_pydpf) |
 | refactor | [1 item](#Features_refactor) | |
 | rotation |  |[1 item](#Fixes_rotation) |
+| utilities |  |[1 item](#Fixes_utilities) |
 | vtk |  |[1 item](#Fixes_vtk) |
 | workflows | [2 items](#Features_workflows) |[2 items](#Fixes_workflows) |
 
@@ -394,6 +395,11 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_femutils"></a> Fixes
 
+- Fixing memory overhead with ElementalNodal to Nodal results:
+  > Improved memory management of the `elemental_nodal_To_nodal_fc` operator.
+  >
+  > 
+
 - Issue with semiparabolic elements in elemental_nodal_To_nodal operators:
   > Fixing issue with semiparabolic elements in `elemental_nodal_To_nodal` operators.
   >
@@ -518,6 +524,9 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_framework"></a> Fixes
+
+- Add ellipsis property to forward operator pins:
+  > 
 
 - Expose PinSpecification.ellipsis to replace PinSpecification.ellispis:
   > 
@@ -649,6 +658,11 @@ The following table shows which components have updates in each category.
   > 
 ## hdf5
 ### <a id="Features_hdf5"></a> Features
+
+- Add Support for Live Monitoring:
+  > Support live monitoring for h5 files with mapdl::run
+  >
+  > 
 
 - Very quick implementation of h5dpf list operator:
   > 
@@ -788,6 +802,15 @@ The following table shows which components have updates in each category.
 ## kernel
 ### <a id="Features_kernel"></a> Features
 
+- Implement Random Access in ScopingIterators:
+  > 
+  >
+  > Implement STL-compliant Ramdom Access Iterators in ScopingIterators.
+  >
+  > 
+  >
+  > 
+
 - Add Unit string to express British ton:
   > 
   >
@@ -870,6 +893,9 @@ The following table shows which components have updates in each category.
   >
   > 
   >
+  > 
+
+- Add mesh scoping input for nodout operators (#257):
   > 
 
 ## mapd
@@ -1308,6 +1334,9 @@ The following table shows which components have updates in each category.
   > 
 ## math
 ### <a id="Features_math"></a> Features
+
+- Create TPA objects to streamline TPA workflow:
+  > 
 
 - Create a new operator to merge FRF matrices and supports for TPA workflow:
   > 
@@ -1808,6 +1837,29 @@ The following table shows which components have updates in each category.
 ## native
 ### <a id="Features_native"></a> Features
 
+- Added "generic_data_container::get_attribute" and "generic_data_container::set_attribute":
+  > Added the following APIs for Generic Data Container
+  >
+  > - "generic_data_container::get_attribute": returns a given attribute of the generic data container in input
+  >
+  > - "generic_data_container::set_attribute": creates a new generic data container or modifies the one in input
+  >
+  > 
+  >
+  > 
+
+- Extract mesh to rescope property fields & mesh to be read on nodal results from RST.:
+  > Nodal result read from RST files now have an associated mesh support
+  >
+  > The mesh extraction operator now forward the input mesh property fields
+  >
+  > 
+  >
+  > 
+
+- Make generic support comparison operator private:
+  > 
+
 - Supported GenericSupport in GetFieldsContainerAttribute and added GenericSupportAttribute API:
   > - Added a new property_name, "generic_support", to "fieldscontainer::get_attribute" to extract Generic Support
   >
@@ -2032,6 +2084,12 @@ The following table shows which components have updates in each category.
   >
   > 
   >
+  > 
+## utilities
+
+### <a id="Fixes_utilities"></a> Fixes
+
+- Fix breaking change in forward operator:
   > 
 ## vtk
 
@@ -2532,10 +2590,16 @@ The following table shows which components have updates in each category.
 
   > 0.0.2: Midside nodes included in the input scoping are now properly averaged regardless of the presence of its parent corner nodes.
 
+  > 0.0.3: Improving memory management.
+
 
 - [elemental_nodal_to_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_nodal_to_nodal_fc.md)
 
   > 0.0.1: Fixed issue with semiparabolic elements.
+
+  > 0.0.2: Midside nodes included in the input scoping are now properly averaged regardless of the presence of its parent corner nodes.
+
+  > 0.0.3: Improving memory management.
 
 
 - [elemental_to_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_to_nodal_fc.md)
@@ -2787,6 +2851,11 @@ Upgraded documentation
   > 0.0.2: Fixing issue with connectivity.
 
   > 0.1.0: Improvement in the performance for cases with non shared scoping between property fields and mesh.
+
+
+- [mesh_extraction](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/mesh_extraction.md)
+
+  > 1.0.0: Property fields associated to the mesh are rescoped on the selection and associated to the new mesh.
 
 
 - [mesh_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/mesh_provider.md)
@@ -3406,6 +3475,11 @@ Upgraded documentation
 - [extract_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/extract_scoping.md)
 
   > 0.0.1: Error with license
+
+
+- [forward](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/forward.md)
+
+  > 0.0.1: Add elipsis property to pins.
 
 
 - [html_doc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/html_doc.md)

@@ -2,8 +2,6 @@
 
 This file lists the changes introduced in the Sensors API v3 released in 2026 R1 compared to v2 released in 2025 R2.
 
-Test 17-03
-
 ## Backward Compatibility
 
 Sensor Layouts API v3 discontinues support for:

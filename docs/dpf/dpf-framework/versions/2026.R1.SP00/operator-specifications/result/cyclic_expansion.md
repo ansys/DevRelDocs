@@ -14,34 +14,157 @@ Expand cyclic results from a fieldsContainer for given sets, sectors and scoping
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong>|  time_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 1</strong>|  mesh_scoping |[`scopings_container`](../../core-concepts/dpf-types.md#scopings-container), [`scoping`](../../core-concepts/dpf-types.md#scoping), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | field container with the base and duplicate sectors |
-| <strong>Pin 3</strong>|  harmonic_index |[`int32`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 5</strong>|  bool_rotate_to_global |[`bool`](../../core-concepts/dpf-types.md#standard-types) | default is true |
-| <strong>Pin 6</strong>|  map_size_scoping_out |`umap<int32,int32>` | map provider by scoping adapter |
-| <strong>Pin 7</strong>|  normalization_factor |[`double`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 14</strong>|  merge_stages |[`bool`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 16</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  cyclic_support |[`cyclic_support`](../../core-concepts/dpf-types.md#cyclic-support) |  |
-| <strong>Pin 18</strong>|  sectors_to_expand |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types), [`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) | sectors to expand (start at 0), for multistage: use scopings container with 'stage' label. |
-| <strong>Pin 19</strong>|  phi |[`double`](../../core-concepts/dpf-types.md#standard-types) | angle phi in degrees (default value 0.0) |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong>|  [time_scoping](#input_0) |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>1</strong>|  [mesh_scoping](#input_1) |[`scopings_container`](../../core-concepts/dpf-types.md#scopings-container), [`scoping`](../../core-concepts/dpf-types.md#scoping), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>2</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [fields_container](#input_2) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+| <strong>3</strong>|  [harmonic_index](#input_3) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>5</strong>|  [bool_rotate_to_global](#input_5) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>6</strong>|  [map_size_scoping_out](#input_6) |`umap<int32,int32>` |
+| <strong>7</strong>|  [normalization_factor](#input_7) |[`double`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>14</strong>|  [merge_stages](#input_14) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>16</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [cyclic_support](#input_16) |[`cyclic_support`](../../core-concepts/dpf-types.md#cyclic-support) |
+| <strong>18</strong>|  [sectors_to_expand](#input_18) |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types), [`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
+| <strong>19</strong>|  [phi](#input_19) |[`double`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### time_scoping (Pin 0)
+
+- **Required:** No
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_1"></a>
+### mesh_scoping (Pin 1)
+
+- **Required:** No
+- **Expected type(s):** [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container), [`scoping`](../../core-concepts/dpf-types.md#scoping), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_2"></a>
+### fields_container (Pin 2)
+
+- **Required:** Yes
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+field container with the base and duplicate sectors
+
+<a id="input_3"></a>
+### harmonic_index (Pin 3)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_5"></a>
+### bool_rotate_to_global (Pin 5)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+default is true
+
+<a id="input_6"></a>
+### map_size_scoping_out (Pin 6)
+
+- **Required:** No
+- **Expected type(s):** `umap<int32,int32>`
+
+map provider by scoping adapter
+
+<a id="input_7"></a>
+### normalization_factor (Pin 7)
+
+- **Required:** No
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_14"></a>
+### merge_stages (Pin 14)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_16"></a>
+### cyclic_support (Pin 16)
+
+- **Required:** Yes
+- **Expected type(s):** [`cyclic_support`](../../core-concepts/dpf-types.md#cyclic-support)
+
+
+
+<a id="input_18"></a>
+### sectors_to_expand (Pin 18)
+
+- **Required:** No
+- **Expected type(s):** [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types), [`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container)
+
+sectors to expand (start at 0), for multistage: use scopings container with 'stage' label.
+
+<a id="input_19"></a>
+### phi (Pin 19)
+
+- **Required:** No
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+
+angle phi in degrees (default value 0.0)
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| fields_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | FieldsContainer filled in |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [fields_container](#output_0) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+
+
+<a id="output_0"></a>
+### fields_container (Pin 0)
+
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+FieldsContainer filled in
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
-| **num_threads** |[`int32`](../../core-concepts/dpf-types.md#standard-types) | 0 | Number of threads to use to run in parallel |
-| **run_in_parallel** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | true | Loops are allowed to run in parallel if the value of this config is set to true. |
-| **use_cache** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | true | Some intermediate data is put in cache if this config is set to true. This option can reduce computation time after the first run. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+### num_threads
+
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** 0
+
+Number of threads to use to run in parallel
+
+### run_in_parallel
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** true
+
+Loops are allowed to run in parallel if the value of this config is set to true.
+
+### use_cache
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** true
+
+Some intermediate data is put in cache if this config is set to true. This option can reduce computation time after the first run.
+
+
 
 ## Scripting
 

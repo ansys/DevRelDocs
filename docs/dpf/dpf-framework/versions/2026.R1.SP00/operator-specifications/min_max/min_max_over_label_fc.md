@@ -14,27 +14,95 @@ Create two fields (0 min 1 max) by looping over the fields container in input an
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  label |[`string`](../../core-concepts/dpf-types.md#standard-types) | label name from the fields container |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [fields_container](#input_0) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+| <strong>1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [label](#input_1) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### fields_container (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+
+
+<a id="input_1"></a>
+### label (Pin 1)
+
+- **Required:** Yes
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+label name from the fields container
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| field_min |[`field`](../../core-concepts/dpf-types.md#field) |  |
-|  **Pin 1**| field_max |[`field`](../../core-concepts/dpf-types.md#field) |  |
-|  **Pin 2**| domain_ids_min |[`scoping`](../../core-concepts/dpf-types.md#scoping) |  |
-|  **Pin 3**| domain_ids_max |[`scoping`](../../core-concepts/dpf-types.md#scoping) |  |
-|  **Pin 4**| scoping_ids_min |[`scoping`](../../core-concepts/dpf-types.md#scoping) |  |
-|  **Pin 5**| scoping_ids_max |[`scoping`](../../core-concepts/dpf-types.md#scoping) |  |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [field_min](#output_0) |[`field`](../../core-concepts/dpf-types.md#field) |
+|  **1**| [field_max](#output_1) |[`field`](../../core-concepts/dpf-types.md#field) |
+|  **2**| [domain_ids_min](#output_2) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+|  **3**| [domain_ids_max](#output_3) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+|  **4**| [scoping_ids_min](#output_4) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+|  **5**| [scoping_ids_max](#output_5) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+
+
+<a id="output_0"></a>
+### field_min (Pin 0)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
+<a id="output_1"></a>
+### field_max (Pin 1)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
+<a id="output_2"></a>
+### domain_ids_min (Pin 2)
+
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+
+
+
+<a id="output_3"></a>
+### domain_ids_max (Pin 3)
+
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+
+
+
+<a id="output_4"></a>
+### scoping_ids_min (Pin 4)
+
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+
+
+
+<a id="output_5"></a>
+### scoping_ids_max (Pin 5)
+
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+
+
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

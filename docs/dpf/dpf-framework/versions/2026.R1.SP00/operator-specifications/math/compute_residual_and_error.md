@@ -18,29 +18,119 @@ Computes the Lp-norm of a field or a field container.
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  field_or_fields_container1 |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) | field or fields container - compulsory |
-| <strong>Pin 1</strong>|  normalization_type |[`int32`](../../core-concepts/dpf-types.md#standard-types) | type of normalization applied to the residuals and norm  calculation (optional, defaut: absolute): <br>														0 for absolute, <br>														1 for relative to the first entry, <br>														2 for normalized by the max of each field of the first entry or residuals depending on the reference field option, <br>														3 for normalized by the max over all fields of the first entry or residuals depending on the reference field option |
-| <strong>Pin 2</strong>|  norm_calculation_type |[`int32`](../../core-concepts/dpf-types.md#standard-types) | type for norm calculation (optional, default: L2) - It is normalized depending on Pin2 selection<br>														1 for L1, ie sum(abs(xi)), <br>														2 for L2, ie sqrt(sum((xi^2)) |
-| <strong>Pin 3</strong>|  field_reference |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Field reference for the normalization step, default: 0 for entry 1, 1 for residuals - optional |
-| <strong>Pin 4</strong>|  field_or_fields_container2 |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) | field or fields container of same dimensionality as entry 1 - optional |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [field_or_fields_container1](#input_0) |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+| <strong>1</strong>|  [normalization_type](#input_1) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>2</strong>|  [norm_calculation_type](#input_2) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>3</strong>|  [field_reference](#input_3) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>4</strong>|  [field_or_fields_container2](#input_4) |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+
+
+<a id="input_0"></a>
+### field_or_fields_container1 (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+field or fields container - compulsory
+
+<a id="input_1"></a>
+### normalization_type (Pin 1)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+type of normalization applied to the residuals and norm  calculation (optional, defaut: absolute): 
+														0 for absolute, 
+														1 for relative to the first entry, 
+														2 for normalized by the max of each field of the first entry or residuals depending on the reference field option, 
+														3 for normalized by the max over all fields of the first entry or residuals depending on the reference field option
+
+<a id="input_2"></a>
+### norm_calculation_type (Pin 2)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+type for norm calculation (optional, default: L2) - It is normalized depending on Pin2 selection
+														1 for L1, ie sum(abs(xi)), 
+														2 for L2, ie sqrt(sum((xi^2))
+
+<a id="input_3"></a>
+### field_reference (Pin 3)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Field reference for the normalization step, default: 0 for entry 1, 1 for residuals - optional
+
+<a id="input_4"></a>
+### field_or_fields_container2 (Pin 4)
+
+- **Required:** No
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+field or fields container of same dimensionality as entry 1 - optional
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| residuals |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) | 0: normalized residuals (aka field 1 - field 2) as a field or field container, normalized depending on the normalization type |
-|  **Pin 1**| error |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) | 1: error as a field or a field container depending on the entry's type. |
-|  **Pin 2**| residuals_normalization_factor |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) | 2: factor used for residual normalization |
-|  **Pin 3**| error_normalization_factor |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) | 3: factor used for error norm normalization |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [residuals](#output_0) |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **1**| [error](#output_1) |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **2**| [residuals_normalization_factor](#output_2) |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **3**| [error_normalization_factor](#output_3) |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+
+
+<a id="output_0"></a>
+### residuals (Pin 0)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+0: normalized residuals (aka field 1 - field 2) as a field or field container, normalized depending on the normalization type
+
+<a id="output_1"></a>
+### error (Pin 1)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+1: error as a field or a field container depending on the entry's type.
+
+<a id="output_2"></a>
+### residuals_normalization_factor (Pin 2)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+2: factor used for residual normalization
+
+<a id="output_3"></a>
+### error_normalization_factor (Pin 3)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+3: factor used for error norm normalization
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
-| **permissive** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | true | If this option is set to true, warning checks (like unit or data sizes) won't be done. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+### permissive
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** true
+
+If this option is set to true, warning checks (like unit or data sizes) won't be done.
+
+
 
 ## Scripting
 

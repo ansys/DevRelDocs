@@ -14,25 +14,82 @@ Splits a given scoping or the mesh scoping (nodal or elemental) on given propert
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 1</strong>|  mesh_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) | Scoping |
-| <strong>Pin 7</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | mesh region |
-| <strong>Pin 9</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  requested_location |[`string`](../../core-concepts/dpf-types.md#standard-types) | location (default is elemental) |
-| <strong>Pin 12</strong>|  skin_case |[`int32`](../../core-concepts/dpf-types.md#standard-types) | set to 0: to have skin elements in their own group, 1: merge skin and solid elements, 2: merge skin and shell elements (default) |
-| <strong>Pin 13</strong>|  label |[`string`](../../core-concepts/dpf-types.md#standard-types), [`vector<string>`](../../core-concepts/dpf-types.md#standard-types) | properties to apply the filtering 'mat' and/or 'elshape' (since 2025R1 it supports any property name contained in the mesh property fields) (default is 'elshape') |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>1</strong>|  [mesh_scoping](#input_1) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+| <strong>7</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [mesh](#input_7) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+| <strong>9</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [requested_location](#input_9) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>12</strong>|  [skin_case](#input_12) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>13</strong>|  [label](#input_13) |[`string`](../../core-concepts/dpf-types.md#standard-types), [`vector<string>`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_1"></a>
+### mesh_scoping (Pin 1)
+
+- **Required:** No
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+
+Scoping
+
+<a id="input_7"></a>
+### mesh (Pin 7)
+
+- **Required:** Yes
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+
+mesh region
+
+<a id="input_9"></a>
+### requested_location (Pin 9)
+
+- **Required:** Yes
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+location (default is elemental)
+
+<a id="input_12"></a>
+### skin_case (Pin 12)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+set to 0: to have skin elements in their own group, 1: merge skin and solid elements, 2: merge skin and shell elements (default)
+
+<a id="input_13"></a>
+### label (Pin 13)
+
+- **Required:** No
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types), [`vector<string>`](../../core-concepts/dpf-types.md#standard-types)
+
+properties to apply the filtering 'mat' and/or 'elshape' (since 2025R1 it supports any property name contained in the mesh property fields) (default is 'elshape')
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| mesh_scoping |[`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) | Scoping |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [mesh_scoping](#output_0) |[`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
+
+
+<a id="output_0"></a>
+### mesh_scoping (Pin 0)
+
+- **Expected type(s):** [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container)
+
+Scoping
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

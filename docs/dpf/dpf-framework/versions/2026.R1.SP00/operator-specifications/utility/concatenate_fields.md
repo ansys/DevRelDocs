@@ -19,25 +19,81 @@ Example:
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin -3</strong>|  rescoping_value |[`double`](../../core-concepts/dpf-types.md#standard-types) | Value used to fill the missing values when scopings are different. Default is 0. |
-| <strong>Pin -2</strong>|  reference_scoping_index |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Pin of the field of which to take the scoping for the output field.<br>If -1 all scopings will be merged, if -2 all scopings will be intersected. Default is -1 |
-| <strong>Pin -1</strong>|  field_support |`abstract_field_support` | Support of the output field. |
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields |[`vector<field>`](../../core-concepts/dpf-types.md#vector<field>) | A vector of fields to merge from pin 0 to ... |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>-3</strong>|  [rescoping_value](#input_-3) |[`double`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>-2</strong>|  [reference_scoping_index](#input_-2) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>-1</strong>|  [field_support](#input_-1) |`abstract_field_support` |
+| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [fields](#input_0) |[`vector<field>`](../../core-concepts/dpf-types.md#vector<field>) |
+
+
+<a id="input_-3"></a>
+### rescoping_value (Pin -3)
+
+- **Required:** No
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+
+Value used to fill the missing values when scopings are different. Default is 0.
+
+<a id="input_-2"></a>
+### reference_scoping_index (Pin -2)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Pin of the field of which to take the scoping for the output field.
+If -1 all scopings will be merged, if -2 all scopings will be intersected. Default is -1
+
+<a id="input_-1"></a>
+### field_support (Pin -1)
+
+- **Required:** No
+- **Expected type(s):** `abstract_field_support`
+
+Support of the output field.
+
+<a id="input_0"></a>
+### fields (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`vector<field>`](../../core-concepts/dpf-types.md#vector<field>)
+
+A vector of fields to merge from pin 0 to ...
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| merged_fields |[`field`](../../core-concepts/dpf-types.md#field) | Field which has as many components as the sum of all the input fields' numbers of components. |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [merged_fields](#output_0) |[`field`](../../core-concepts/dpf-types.md#field) |
+
+
+<a id="output_0"></a>
+### merged_fields (Pin 0)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+Field which has as many components as the sum of all the input fields' numbers of components.
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
-| **read_inputs_in_parallel** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the operator's inputs will be evaluated in parallel. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+### read_inputs_in_parallel
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the operator's inputs will be evaluated in parallel.
+
+
 
 ## Scripting
 

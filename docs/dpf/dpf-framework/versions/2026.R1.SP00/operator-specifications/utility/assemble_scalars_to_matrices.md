@@ -14,30 +14,127 @@ Take nine scalar fields and assemble them as a 3x3 matrix field. If the 'symmetr
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong>|  xx |[`field`](../../core-concepts/dpf-types.md#field) |  |
-| <strong>Pin 1</strong>|  yy |[`field`](../../core-concepts/dpf-types.md#field) |  |
-| <strong>Pin 2</strong>|  zz |[`field`](../../core-concepts/dpf-types.md#field) |  |
-| <strong>Pin 3</strong>|  xy |[`field`](../../core-concepts/dpf-types.md#field) |  |
-| <strong>Pin 4</strong>|  yz |[`field`](../../core-concepts/dpf-types.md#field) |  |
-| <strong>Pin 5</strong>|  xz |[`field`](../../core-concepts/dpf-types.md#field) |  |
-| <strong>Pin 6</strong>|  yx |[`field`](../../core-concepts/dpf-types.md#field) |  |
-| <strong>Pin 7</strong>|  zy |[`field`](../../core-concepts/dpf-types.md#field) |  |
-| <strong>Pin 8</strong>|  zx |[`field`](../../core-concepts/dpf-types.md#field) |  |
-| <strong>Pin 60</strong>|  symmetrical |[`bool`](../../core-concepts/dpf-types.md#standard-types) |  |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong>|  [xx](#input_0) |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>1</strong>|  [yy](#input_1) |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>2</strong>|  [zz](#input_2) |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>3</strong>|  [xy](#input_3) |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>4</strong>|  [yz](#input_4) |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>5</strong>|  [xz](#input_5) |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>6</strong>|  [yx](#input_6) |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>7</strong>|  [zy](#input_7) |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>8</strong>|  [zx](#input_8) |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>60</strong>|  [symmetrical](#input_60) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### xx (Pin 0)
+
+- **Required:** No
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
+<a id="input_1"></a>
+### yy (Pin 1)
+
+- **Required:** No
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
+<a id="input_2"></a>
+### zz (Pin 2)
+
+- **Required:** No
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
+<a id="input_3"></a>
+### xy (Pin 3)
+
+- **Required:** No
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
+<a id="input_4"></a>
+### yz (Pin 4)
+
+- **Required:** No
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
+<a id="input_5"></a>
+### xz (Pin 5)
+
+- **Required:** No
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
+<a id="input_6"></a>
+### yx (Pin 6)
+
+- **Required:** No
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
+<a id="input_7"></a>
+### zy (Pin 7)
+
+- **Required:** No
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
+<a id="input_8"></a>
+### zx (Pin 8)
+
+- **Required:** No
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
+<a id="input_60"></a>
+### symmetrical (Pin 60)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) |  |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [field](#output_0) |[`field`](../../core-concepts/dpf-types.md#field) |
+
+
+<a id="output_0"></a>
+### field (Pin 0)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

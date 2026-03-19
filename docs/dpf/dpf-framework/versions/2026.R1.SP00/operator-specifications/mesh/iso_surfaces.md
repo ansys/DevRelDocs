@@ -14,26 +14,90 @@ Extract multiple iso-contours from mesh_cut operator and set it into a meshes co
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  field |[`field`](../../core-concepts/dpf-types.md#field) | Field containing the values for the iso-surface computation. The mesh can be retrieved from this field's support or through pin 2. |
-| <strong>Pin 1</strong>|  num_surfaces |[`int32`](../../core-concepts/dpf-types.md#standard-types) | If provided, iso_values are linearly computed between the min and the max of the field of results. If not, iso_values must be provided by the user through pin 4 |
-| <strong>Pin 2</strong>|  mesh |[`meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | Mesh to compute the iso-surface from. Used when not given through the support of the field in pin 0. |
-| <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  slice_surfaces |[`bool`](../../core-concepts/dpf-types.md#standard-types) | True: slicing will also take into account shell and skin elements. False: slicing will ignore shell and skin elements. The default is true. |
-| <strong>Pin 4</strong>|  vector_iso_values |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) | If provided, user defined iso_values to compute. If not provided, iso_values are linearly compute between the min and the max of the field of results. |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [field](#input_0) |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>1</strong>|  [num_surfaces](#input_1) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>2</strong>|  [mesh](#input_2) |[`meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+| <strong>3</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [slice_surfaces](#input_3) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>4</strong>|  [vector_iso_values](#input_4) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### field (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+Field containing the values for the iso-surface computation. The mesh can be retrieved from this field's support or through pin 2.
+
+<a id="input_1"></a>
+### num_surfaces (Pin 1)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+If provided, iso_values are linearly computed between the min and the max of the field of results. If not, iso_values must be provided by the user through pin 4
+
+<a id="input_2"></a>
+### mesh (Pin 2)
+
+- **Required:** No
+- **Expected type(s):** [`meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+
+Mesh to compute the iso-surface from. Used when not given through the support of the field in pin 0.
+
+<a id="input_3"></a>
+### slice_surfaces (Pin 3)
+
+- **Required:** Yes
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+True: slicing will also take into account shell and skin elements. False: slicing will ignore shell and skin elements. The default is true.
+
+<a id="input_4"></a>
+### vector_iso_values (Pin 4)
+
+- **Required:** No
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+If provided, user defined iso_values to compute. If not provided, iso_values are linearly compute between the min and the max of the field of results.
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| meshes |[`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |  |
-|  **Pin 1**| fields_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [meshes](#output_0) |[`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
+|  **1**| [fields_container](#output_1) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+
+
+<a id="output_0"></a>
+### meshes (Pin 0)
+
+- **Expected type(s):** [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container)
+
+
+
+<a id="output_1"></a>
+### fields_container (Pin 1)
+
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

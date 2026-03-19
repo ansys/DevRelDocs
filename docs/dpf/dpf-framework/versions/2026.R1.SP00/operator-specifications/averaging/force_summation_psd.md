@@ -14,30 +14,124 @@ Computes the sum of elemental forces contribution on a set of nodes in Global Co
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 1</strong>|  nodal_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) | Nodal scoping or scopings container with a single label. Set of nodes in which elemental contribution forces will be accumulated. Defaults to all nodes. |
-| <strong>Pin 2</strong>|  elemental_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) | Elemental scoping or scopings container with a single label. Set of elements contributing to the force calculation. Defaults to all elements. |
-| <strong>Pin 3</strong>|  streams |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) | Streams container for RST and PSD files (optional if using data sources). The operator supports both a single RST file and two separate RST files. See data sources pin specifications for details on how to define the streams for both cases. |
-| <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_sources |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) | Data sources containing RST and PSD files (optional if using a streams container). The operator supports both a single RST file (containing both modal and PSD results) and two separate RST files (one for modal and one for PSD analyses).The data source containing modal results must be defined as an upstream data source.If using a single RST file for PSD and modal analysis, the RST file must be in an upstream data source.If using two separate RST files, only the modal RST must be in an upstream data source. |
-| <strong>Pin 6</strong>|  spoint |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Field or fields container of the coordinates of the point used for moment summations. Defaults to (0,0,0). If unitless, it is assumed to be in meters. |
-| <strong>Pin 7</strong>|  abs_rel_key |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Key to select the type of response: 0 for relative response (default) or 1 for absolute response. |
-| <strong>Pin 8</strong>|  signif |[`double`](../../core-concepts/dpf-types.md#standard-types) | Significance threshold, defaults to 0.0001. Any mode with a significance level above this value will be included in the combination.The significance level is defined as the modal covariance matrix term, divided by the maximum modal covariance matrix term. |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>1</strong>|  [nodal_scoping](#input_1) |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
+| <strong>2</strong>|  [elemental_scoping](#input_2) |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
+| <strong>3</strong>|  [streams](#input_3) |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
+| <strong>4</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [data_sources](#input_4) |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
+| <strong>6</strong>|  [spoint](#input_6) |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+| <strong>7</strong>|  [abs_rel_key](#input_7) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>8</strong>|  [signif](#input_8) |[`double`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_1"></a>
+### nodal_scoping (Pin 1)
+
+- **Required:** No
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container)
+
+Nodal scoping or scopings container with a single label. Set of nodes in which elemental contribution forces will be accumulated. Defaults to all nodes.
+
+<a id="input_2"></a>
+### elemental_scoping (Pin 2)
+
+- **Required:** No
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container)
+
+Elemental scoping or scopings container with a single label. Set of elements contributing to the force calculation. Defaults to all elements.
+
+<a id="input_3"></a>
+### streams (Pin 3)
+
+- **Required:** No
+- **Expected type(s):** [`streams_container`](../../core-concepts/dpf-types.md#streams-container)
+
+Streams container for RST and PSD files (optional if using data sources). The operator supports both a single RST file and two separate RST files. See data sources pin specifications for details on how to define the streams for both cases.
+
+<a id="input_4"></a>
+### data_sources (Pin 4)
+
+- **Required:** Yes
+- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
+
+Data sources containing RST and PSD files (optional if using a streams container). The operator supports both a single RST file (containing both modal and PSD results) and two separate RST files (one for modal and one for PSD analyses).The data source containing modal results must be defined as an upstream data source.If using a single RST file for PSD and modal analysis, the RST file must be in an upstream data source.If using two separate RST files, only the modal RST must be in an upstream data source.
+
+<a id="input_6"></a>
+### spoint (Pin 6)
+
+- **Required:** No
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+Field or fields container of the coordinates of the point used for moment summations. Defaults to (0,0,0). If unitless, it is assumed to be in meters.
+
+<a id="input_7"></a>
+### abs_rel_key (Pin 7)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Key to select the type of response: 0 for relative response (default) or 1 for absolute response.
+
+<a id="input_8"></a>
+### signif (Pin 8)
+
+- **Required:** No
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+
+Significance threshold, defaults to 0.0001. Any mode with a significance level above this value will be included in the combination.The significance level is defined as the modal covariance matrix term, divided by the maximum modal covariance matrix term.
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| force_accumulation |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Returns the sum of forces for the 1-sigma displacement solution on the scoped nodes/elements. |
-|  **Pin 1**| moment_accumulation |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Returns the sum of moments for the 1-sigma displacement solution on the scoped nodes/elements. |
-|  **Pin 10**| forces_on_nodes |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Returns the nodal forces for the 1-sigma displacement solution on the scoped nodes/elements. |
-|  **Pin 11**| moments_on_nodes |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Returns the nodal moments for the 1-sigma displacement solution on the scoped nodes/elements. |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [force_accumulation](#output_0) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **1**| [moment_accumulation](#output_1) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **10**| [forces_on_nodes](#output_10) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **11**| [moments_on_nodes](#output_11) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+
+
+<a id="output_0"></a>
+### force_accumulation (Pin 0)
+
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+Returns the sum of forces for the 1-sigma displacement solution on the scoped nodes/elements.
+
+<a id="output_1"></a>
+### moment_accumulation (Pin 1)
+
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+Returns the sum of moments for the 1-sigma displacement solution on the scoped nodes/elements.
+
+<a id="output_10"></a>
+### forces_on_nodes (Pin 10)
+
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+Returns the nodal forces for the 1-sigma displacement solution on the scoped nodes/elements.
+
+<a id="output_11"></a>
+### moments_on_nodes (Pin 11)
+
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+Returns the nodal moments for the 1-sigma displacement solution on the scoped nodes/elements.
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

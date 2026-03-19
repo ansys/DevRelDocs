@@ -14,24 +14,72 @@ Read required information from a subfile.
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_sources |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) | Data_sources (must contain at least one subfile). |
-| <strong>Pin 200</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  cms_subfile_data |[`bool`](../../core-concepts/dpf-types.md#standard-types) | If this pin i set to true, data are return in a field. |
-| <strong>Pin 300</strong>|  output_maxdof_on_masternodes |[`bool`](../../core-concepts/dpf-types.md#standard-types) | If this pin is set to true, compute and add field with max degrees of freedom on master nodes |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>4</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [data_sources](#input_4) |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
+| <strong>200</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [cms_subfile_data](#input_200) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>300</strong>|  [output_maxdof_on_masternodes](#input_300) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_4"></a>
+### data_sources (Pin 4)
+
+- **Required:** Yes
+- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
+
+Data_sources (must contain at least one subfile).
+
+<a id="input_200"></a>
+### cms_subfile_data (Pin 200)
+
+- **Required:** Yes
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+If this pin i set to true, data are return in a field.
+
+<a id="input_300"></a>
+### output_maxdof_on_masternodes (Pin 300)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+If this pin is set to true, compute and add field with max degrees of freedom on master nodes
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| int32 |[`int32`](../../core-concepts/dpf-types.md#standard-types) | returns integer values in the order : unit system used, stiffness matrix present key, damping matrix present key, mass matrix present key, number of master nodes, number of virtual nodes |
-|  **Pin 1**| field |[`property_field`](../../core-concepts/dpf-types.md#property-field) | returns integer values in the order : number of load vectors (nvects), number of nodes (nnod), number of virtual nodes (nvnodes), number of modes (nvmodes) |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [int32](#output_0) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+|  **1**| [field](#output_1) |[`property_field`](../../core-concepts/dpf-types.md#property-field) |
+
+
+<a id="output_0"></a>
+### int32 (Pin 0)
+
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+returns integer values in the order : unit system used, stiffness matrix present key, damping matrix present key, mass matrix present key, number of master nodes, number of virtual nodes
+
+<a id="output_1"></a>
+### field (Pin 1)
+
+- **Expected type(s):** [`property_field`](../../core-concepts/dpf-types.md#property-field)
+
+returns integer values in the order : number of load vectors (nvects), number of nodes (nnod), number of virtual nodes (nvnodes), number of modes (nvmodes)
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

@@ -14,26 +14,91 @@ Creates a scalar or vector field from numeric data. Converts scalar values or ve
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong>|  double_or_vector_double |[`double`](../../core-concepts/dpf-types.md#standard-types), [`vector<double>`](../../core-concepts/dpf-types.md#standard-types) | Data of the field. Default is 0-field. Specify a double to create a field with uniform values, or a vector for explicit data per entity |
-| <strong>Pin 1</strong>|  unit |[`string`](../../core-concepts/dpf-types.md#standard-types) | Unit symbol (m, Hz, kg, ...). Default is dimensionless |
-| <strong>Pin 2</strong>|  location |[`string`](../../core-concepts/dpf-types.md#standard-types) | Location of the field: 'Nodal', 'ElementalNodal', 'Elemental', etc. Default is 'numeric' |
-| <strong>Pin 3</strong>|  num_entities |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Number of field entities. Default is 1, or the size of the scoping if provided |
-| <strong>Pin 4</strong>|  num_components |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Number of field components per entity. Default is 1 for scalar, >1 for vector |
-| <strong>Pin 5</strong>|  scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) | Scoping defining entity IDs and locations. If provided, overrides num_entities |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong>|  [double_or_vector_double](#input_0) |[`double`](../../core-concepts/dpf-types.md#standard-types), [`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>1</strong>|  [unit](#input_1) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>2</strong>|  [location](#input_2) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>3</strong>|  [num_entities](#input_3) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>4</strong>|  [num_components](#input_4) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>5</strong>|  [scoping](#input_5) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+
+
+<a id="input_0"></a>
+### double_or_vector_double (Pin 0)
+
+- **Required:** No
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types), [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+Data of the field. Default is 0-field. Specify a double to create a field with uniform values, or a vector for explicit data per entity
+
+<a id="input_1"></a>
+### unit (Pin 1)
+
+- **Required:** No
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+Unit symbol (m, Hz, kg, ...). Default is dimensionless
+
+<a id="input_2"></a>
+### location (Pin 2)
+
+- **Required:** No
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+Location of the field: 'Nodal', 'ElementalNodal', 'Elemental', etc. Default is 'numeric'
+
+<a id="input_3"></a>
+### num_entities (Pin 3)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Number of field entities. Default is 1, or the size of the scoping if provided
+
+<a id="input_4"></a>
+### num_components (Pin 4)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Number of field components per entity. Default is 1 for scalar, >1 for vector
+
+<a id="input_5"></a>
+### scoping (Pin 5)
+
+- **Required:** No
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+
+Scoping defining entity IDs and locations. If provided, overrides num_entities
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) | Generated field with specified data and properties |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [field](#output_0) |[`field`](../../core-concepts/dpf-types.md#field) |
+
+
+<a id="output_0"></a>
+### field (Pin 0)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+Generated field with specified data and properties
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

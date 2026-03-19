@@ -1,4 +1,4 @@
-# Sensor Layouts REST API description test 17-03
+# Sensor Layouts REST API description
 
 ## Introduction
 

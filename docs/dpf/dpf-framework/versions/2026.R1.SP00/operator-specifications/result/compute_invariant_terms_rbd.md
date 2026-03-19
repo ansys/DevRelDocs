@@ -14,52 +14,303 @@ Set the required data for the invariant terms computation (reduced matrices, lum
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  rom_matrices |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | FieldsContainers containing the reduced matrices |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mode_shapes |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | FieldsContainers containing the mode shapes, which are CST and NOR for the cms method |
-| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  lumped_mass |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | FieldsContainers containing the lumped mass |
-| <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  model_data |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | data describing the finite element model |
-| <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  center_of_mass |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
-| <strong>Pin 5</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  inertia_relief |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | inertia matrix |
-| <strong>Pin 6</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  model_size |[`double`](../../core-concepts/dpf-types.md#standard-types) | model size |
-| <strong>Pin 7</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  field_coordinates |[`field`](../../core-concepts/dpf-types.md#field) | coordinates of all nodes |
-| <strong>Pin 8</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  nod |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 9</strong>|  constraint_mode_check |[`bool`](../../core-concepts/dpf-types.md#standard-types) | if true, the orthogonality of the constraint modes are checked. Default is false. |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [rom_matrices](#input_0) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+| <strong>1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [mode_shapes](#input_1) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+| <strong>2</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [lumped_mass](#input_2) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+| <strong>3</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [model_data](#input_3) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+| <strong>4</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [center_of_mass](#input_4) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+| <strong>5</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [inertia_relief](#input_5) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+| <strong>6</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [model_size](#input_6) |[`double`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>7</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [field_coordinates](#input_7) |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>8</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [nod](#input_8) |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>9</strong>|  [constraint_mode_check](#input_9) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### rom_matrices (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+FieldsContainers containing the reduced matrices
+
+<a id="input_1"></a>
+### mode_shapes (Pin 1)
+
+- **Required:** Yes
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+FieldsContainers containing the mode shapes, which are CST and NOR for the cms method
+
+<a id="input_2"></a>
+### lumped_mass (Pin 2)
+
+- **Required:** Yes
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+FieldsContainers containing the lumped mass
+
+<a id="input_3"></a>
+### model_data (Pin 3)
+
+- **Required:** Yes
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+data describing the finite element model
+
+<a id="input_4"></a>
+### center_of_mass (Pin 4)
+
+- **Required:** Yes
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+
+
+<a id="input_5"></a>
+### inertia_relief (Pin 5)
+
+- **Required:** Yes
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+inertia matrix
+
+<a id="input_6"></a>
+### model_size (Pin 6)
+
+- **Required:** Yes
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+
+model size
+
+<a id="input_7"></a>
+### field_coordinates (Pin 7)
+
+- **Required:** Yes
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+coordinates of all nodes
+
+<a id="input_8"></a>
+### nod (Pin 8)
+
+- **Required:** Yes
+- **Expected type(s):** [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_9"></a>
+### constraint_mode_check (Pin 9)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+if true, the orthogonality of the constraint modes are checked. Default is false.
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| model_data |[`property_field`](../../core-concepts/dpf-types.md#property-field) | data describing the finite element model |
-|  **Pin 1**| center_of_mass |[`field`](../../core-concepts/dpf-types.md#field) | center of mass of the body |
-|  **Pin 2**| inertia_relief |[`field`](../../core-concepts/dpf-types.md#field) | inertia matrix |
-|  **Pin 3**| model_size |[`property_field`](../../core-concepts/dpf-types.md#property-field) |  |
-|  **Pin 4**| master_node_coordinates |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
-|  **Pin 5**| v_trsf |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) | translational and rotational shape functions |
-|  **Pin 6**| k_mat |[`field`](../../core-concepts/dpf-types.md#field) |  |
-|  **Pin 7**| mass_mat |[`field`](../../core-concepts/dpf-types.md#field) |  |
-|  **Pin 8**| c_mat |[`field`](../../core-concepts/dpf-types.md#field) |  |
-|  **Pin 9**| rhs |[`field`](../../core-concepts/dpf-types.md#field) |  |
-|  **Pin 10**| dn |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
-|  **Pin 11**| dr_cross_n |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
-|  **Pin 12**| drn |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
-|  **Pin 13**| dn_cross_n |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
-|  **Pin 14**| dnx_y |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
-|  **Pin 15**| dny_y |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
-|  **Pin 16**| dnz_y |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
-|  **Pin 17**| dyx_n |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
-|  **Pin 18**| dyy_n |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
-|  **Pin 19**| dyz_n |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
-|  **Pin 20**| dnxn |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
-|  **Pin 21**| dnyn |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
-|  **Pin 22**| dnzn |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |  |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [model_data](#output_0) |[`property_field`](../../core-concepts/dpf-types.md#property-field) |
+|  **1**| [center_of_mass](#output_1) |[`field`](../../core-concepts/dpf-types.md#field) |
+|  **2**| [inertia_relief](#output_2) |[`field`](../../core-concepts/dpf-types.md#field) |
+|  **3**| [model_size](#output_3) |[`property_field`](../../core-concepts/dpf-types.md#property-field) |
+|  **4**| [master_node_coordinates](#output_4) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+|  **5**| [v_trsf](#output_5) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+|  **6**| [k_mat](#output_6) |[`field`](../../core-concepts/dpf-types.md#field) |
+|  **7**| [mass_mat](#output_7) |[`field`](../../core-concepts/dpf-types.md#field) |
+|  **8**| [c_mat](#output_8) |[`field`](../../core-concepts/dpf-types.md#field) |
+|  **9**| [rhs](#output_9) |[`field`](../../core-concepts/dpf-types.md#field) |
+|  **10**| [dn](#output_10) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+|  **11**| [dr_cross_n](#output_11) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+|  **12**| [drn](#output_12) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+|  **13**| [dn_cross_n](#output_13) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+|  **14**| [dnx_y](#output_14) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+|  **15**| [dny_y](#output_15) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+|  **16**| [dnz_y](#output_16) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+|  **17**| [dyx_n](#output_17) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+|  **18**| [dyy_n](#output_18) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+|  **19**| [dyz_n](#output_19) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+|  **20**| [dnxn](#output_20) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+|  **21**| [dnyn](#output_21) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+|  **22**| [dnzn](#output_22) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="output_0"></a>
+### model_data (Pin 0)
+
+- **Expected type(s):** [`property_field`](../../core-concepts/dpf-types.md#property-field)
+
+data describing the finite element model
+
+<a id="output_1"></a>
+### center_of_mass (Pin 1)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+center of mass of the body
+
+<a id="output_2"></a>
+### inertia_relief (Pin 2)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+inertia matrix
+
+<a id="output_3"></a>
+### model_size (Pin 3)
+
+- **Expected type(s):** [`property_field`](../../core-concepts/dpf-types.md#property-field)
+
+
+
+<a id="output_4"></a>
+### master_node_coordinates (Pin 4)
+
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="output_5"></a>
+### v_trsf (Pin 5)
+
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+translational and rotational shape functions
+
+<a id="output_6"></a>
+### k_mat (Pin 6)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
+<a id="output_7"></a>
+### mass_mat (Pin 7)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
+<a id="output_8"></a>
+### c_mat (Pin 8)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
+<a id="output_9"></a>
+### rhs (Pin 9)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
+<a id="output_10"></a>
+### dn (Pin 10)
+
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="output_11"></a>
+### dr_cross_n (Pin 11)
+
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="output_12"></a>
+### drn (Pin 12)
+
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="output_13"></a>
+### dn_cross_n (Pin 13)
+
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="output_14"></a>
+### dnx_y (Pin 14)
+
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="output_15"></a>
+### dny_y (Pin 15)
+
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="output_16"></a>
+### dnz_y (Pin 16)
+
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="output_17"></a>
+### dyx_n (Pin 17)
+
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="output_18"></a>
+### dyy_n (Pin 18)
+
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="output_19"></a>
+### dyz_n (Pin 19)
+
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="output_20"></a>
+### dnxn (Pin 20)
+
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="output_21"></a>
+### dnyn (Pin 21)
+
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="output_22"></a>
+### dnzn (Pin 22)
+
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

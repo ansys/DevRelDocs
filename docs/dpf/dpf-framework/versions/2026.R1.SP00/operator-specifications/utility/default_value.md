@@ -14,22 +14,55 @@ Returns the value from pin 0 if provided, otherwise returns the default value fr
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong>|  forced_value | | Primary value to return if provided. Can be any type |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  default_value | | Default value to return if pin 0 is not connected. Must be the same type as pin 0 |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong>|  [forced_value](#input_0) | |
+| <strong>1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [default_value](#input_1) | |
+
+
+<a id="input_0"></a>
+### forced_value (Pin 0)
+
+- **Required:** No
+- **Expected type(s):** 
+
+Primary value to return if provided. Can be any type
+
+<a id="input_1"></a>
+### default_value (Pin 1)
+
+- **Required:** Yes
+- **Expected type(s):** 
+
+Default value to return if pin 0 is not connected. Must be the same type as pin 0
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| output | | Returns primary_value if provided, otherwise default_value |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [output](#output_0) | |
+
+
+<a id="output_0"></a>
+### output (Pin 0)
+
+- **Expected type(s):** 
+
+Returns primary_value if provided, otherwise default_value
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 
