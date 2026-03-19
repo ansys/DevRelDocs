@@ -67,7 +67,7 @@
     - name: Introduction
       href: modules/postprocessing-python-scripting.md
     - name: Modules 
-      items
+      items:
       - name: py_monitoring_gui
         href: modules/py_monitoring_gui.md
       - name: py_monitoring_kernel
