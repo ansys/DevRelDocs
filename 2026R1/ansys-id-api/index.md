@@ -44,9 +44,9 @@ Below is a simplified representation of the PAT Authentication process with summ
 3. PAT is validated by Ansys ID SSO
 4. Ansys ID SSO returns an Access Token, which is used for API calls
 
-![alt text](/sites/default/files/2026-03/high_level_digram_1.png)
+![High level flow diagram 1](images/high_level_digram_1.png)
 
-![alt text](/sites/default/files/2026-03/high_level_digram_2.png)
+![High level flow diagram 2](images/high_level_digram_2.png)
 
 ---
 
@@ -143,7 +143,7 @@ You will need a PAT if:
 
 4. Click on profile icon and select the **Personal access token**
 
-![alt text](/sites/default/files/2026-03/id_portal_ui_1.png)
+![Select account](images/id_portal_ui_1.png)
 
 5. Click on **Create Token** button
 
@@ -155,11 +155,11 @@ You will need a PAT if:
 
 7. Click **Create** button
 
-![alt text](/sites/default/files/2026-03/id_portal_ui_2.png)
+![Create token](images/id_portal_ui_2.png)
 
 8. Copy the generated PAT
 
-![alt text](/sites/default/files/2026-03/id_portal_ui_3.png)
+![Copy PAT](images/id_portal_ui_3.png)
 
 Provide the PAT to your application or to the helper script for Ansys ID SSO token generation.
 
@@ -251,7 +251,7 @@ Applications use the `access_token` to call Ansys APIs.
 
 The Ansys ID Portal API allows developers and users to manage accounts, users, and groups programmatically. This is helpful for automation and integrations operations.
 
-![alt text](/sites/default/files/2026-03/id_portal_api_1.png)
+![Ansys ID Portal API](images/id_portal_api_1.png)
 
 ---
 
