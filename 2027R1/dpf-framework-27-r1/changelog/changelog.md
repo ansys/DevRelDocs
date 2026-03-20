@@ -2608,7 +2608,7 @@ The following table shows which components have updates in each category.
 
 - [prepare_mechanical_native_mapping_point_cloud](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/prepare_mechanical_native_mapping_point_cloud.md):
   > 
-  > Prepares field data mapping from source mesh to target mesh using **point cloud interpolation** — a scattered-data
+  > Prepares field data mapping from source mesh to target mesh using **point cloud interpolation** ï¿½ a scattered-data
   > approximation method that constructs interpolation weights from spatial proximity relationships without requiring mesh
   > connectivity. Use it together with `apply_mechanical_native_mapping`.
   > 
