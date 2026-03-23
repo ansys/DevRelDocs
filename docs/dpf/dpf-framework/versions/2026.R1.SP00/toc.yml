@@ -4,10 +4,10 @@
   items:
   - name: Installation
     href: getting-started/installation.md
-  - name: Licensing
-    href: getting-started/licensing.md
   - name: Configuration
     href: getting-started/configuration.md
+  - name: Licensing
+    href: getting-started/licensing.md
 - name: User guide
   items:
   - name: The server context
