@@ -6,23 +6,27 @@
 
 Gets search information regarding registered face elements of provided zonelets using a register id.
 
-* **Parameters:**
+**Parameters:**
 
   **face_zonelets**
-  : Ids of the face zonelets to search in.
+
+  Ids of the face zonelets to search in.
 
   **register_id**
-  : An integer register id.
+
+  An integer register id.
 
   **params**
-  : Parameters for retrieveing information on registered faces.
 
-* **Returns:**
+  Parameters for retrieveing information on registered faces.
 
-  [`SearchInfoByRegisterIdResults`](ansys.meshing.prime.SearchInfoByRegisterIdResults.md#ansys.meshing.prime.SearchInfoByRegisterIdResults)
-  : Returns the SearchInfoByRegisterIdResults.
+**Returns:**
 
-* **Return type:**
+  **[`SearchInfoByRegisterIdResults`](ansys.meshing.prime.SearchInfoByRegisterIdResults.md#ansys.meshing.prime.SearchInfoByRegisterIdResults)**
+
+  Returns the SearchInfoByRegisterIdResults.
+
+**Return type:**
 
   [`SearchInfoByRegisterIdResults`](ansys.meshing.prime.SearchInfoByRegisterIdResults.md#ansys.meshing.prime.SearchInfoByRegisterIdResults)
 

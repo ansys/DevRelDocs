@@ -6,16 +6,19 @@
 
 Results associated with the remove label operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `RemoveLabelResults` object with default parameters.
+
+  Model to create a `RemoveLabelResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the remove label operation.
+
+  Error code associated with the remove label operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `RemoveLabelResults` object with provided parameters.
+
+  JSON dictionary to create a `RemoveLabelResults` object with provided parameters.
 
 ### Examples
 

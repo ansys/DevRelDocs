@@ -6,12 +6,13 @@
 
 Get all the volume zones of the part.
 
-* **Returns:**
+
+**Returns:**
 
   `Iterable`[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
-  : Return ids of volume zones.
+  Return ids of volume zones.
 
-* **Return type:**
+**Return type:**
 
   [`Iterable`](https://docs.python.org/3.11/library/typing.html#typing.Iterable)[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
 

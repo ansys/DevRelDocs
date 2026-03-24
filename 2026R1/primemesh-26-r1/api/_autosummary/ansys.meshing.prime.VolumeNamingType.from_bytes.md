@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.VolumeNamingType.from_bytes"></a>
 
-#### VolumeNamingType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* VolumeNamingType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

@@ -1,11 +1,9 @@
-<a id="surface-wrapping"></a>
-
 # Surface wrapping
 
 Geometries migrated from various CAD packages often contain gaps and overlaps between the surfaces due to algorithm and tolerance differences of the CAD packages.
 Surface wrapping provides the ability to create reliable meshes for such geometries without extensive manual clean up and reduces the time required for preprocessing.
 
-The [`Wrapper`](./../api/_autosummary/ansys.meshing.prime.Wrapper.md#ansys.meshing.prime.Wrapper) class allows you to extract a closed watertight surface used to create a volume mesh from geometry where the inputs:
+The [`Wrapper`](../api/_autosummary/ansys.meshing.prime.Wrapper.md#ansys.meshing.prime.Wrapper) class allows you to extract a closed watertight surface used to create a volume mesh from geometry where the inputs:
 
 - Are not connected with overlaps
 - Have holes, leaks, or gaps
@@ -22,9 +20,7 @@ representing the input geometry. The edges are imprinted on the wrapped zones, a
 
 The wrapper surface quality is improved by post-wrapping operations. Surfaces are remeshed based on size functions or the size field.
 
-![Wrapper Schematic](./../images/wrapper_schematic.png)
-
-**Schematic representation of wrapping process**
+![image](../images/wrapper_schematic.png)
 
 The basic PyPrimeMesh wrapper-based workflow follows these steps:
 
@@ -37,7 +33,7 @@ file_io = prime.FileIO(model)
 file_io.read_pmdat(input_file, prime.FileReadParams(model=model))
 ```
 
-2. Define global sizing parameters and size controls with curvature refinement. Sizes are used for wrapper Octree construction.
+1. Define global sizing parameters and size controls with curvature refinement. Sizes are used for wrapper Octree construction.
 
 ```python
 model.set_global_sizing_params(
@@ -54,7 +50,7 @@ size_control.set_suggested_name("curv_global")
 size_control.set_scope(prime.ScopeDefinition(model=model, part_expression="*"))
 ```
 
-3. Define the material points. Material points are used to define fluid regions or seal regions
+1. Define the material points. Material points are used to define fluid regions or seal regions
    depending on whether the status is `LIVE` or `DEAD`. A 3D coordinate describes the
    position of the material point.
 
@@ -68,7 +64,7 @@ model.material_point_data.create_material_point(
 )
 ```
 
-4. Create the wrapper control. The scope refers to which entities should be wrapped.
+1. Create the wrapper control. The scope refers to which entities should be wrapped.
 
 ```python
 wrapper_control = model.control_data.create_wrapper_control()
@@ -84,7 +80,7 @@ wrapper_control.set_geometry_scope(
 wrapper_control.set_live_material_points(["Mpt"])
 ```
 
-5. Extract features with angle and face zonelets boundary for feature capture.
+1. Extract features with angle and face zonelets boundary for feature capture.
 
 ```python
 features = prime.FeatureExtraction(model)
@@ -103,7 +99,7 @@ for item in face_zonelets_prime_array:
     )
 ```
 
-6. Add feature recovery control.
+1. Add feature recovery control.
 
 ```python
 feature_params = prime.FeatureRecoveryParams(
@@ -115,7 +111,7 @@ feature_params = prime.FeatureRecoveryParams(
 wrapper_control.set_feature_recoveries([feature_params])
 ```
 
-7. Wrap the model.
+1. Wrap the model.
 
 ```python
 wrapper = prime.Wrapper(model=model)
@@ -124,9 +120,9 @@ res = wrapper.wrap(wrapper_control_id=wrapper_control.id, params=wrap_params)
 wrapper_part = model.get_part(res.id)
 ```
 
-8. Apply diagnostics to compute free edges, multi edges, self-intersections,
+1. Apply diagnostics to compute free edges, multi edges, self-intersections,
    and duplicate faces after wrap. For more information, see [Mesh diagnostics](mesh_diagnostics.md).
-9. Remesh the model. For more information, see [Surface meshing](surfer.md).
+2. Remesh the model. For more information, see [Surface meshing](surfer.md).
 
 #### NOTE
 You can import Fluent Meshing’s size field file for remesh. For more information, see [Reading and writing files](fileio.md).
@@ -164,7 +160,7 @@ rem1.remesh_face_zonelets(
 )
 ```
 
-10. Improve surface quality and resolve connectivity issues.
+1. Improve surface quality and resolve connectivity issues.
 
 ```python
 wrapper.improve_quality(
@@ -179,11 +175,11 @@ wrapper.improve_quality(
 
 *This is a beta feature. API behavior and implementation might change in the future.*
 
-The [`Patch Flow Region`](./../api/_autosummary/ansys.meshing.prime.Wrapper.patch_flow_regions.md#ansys.meshing.prime.Wrapper.patch_flow_regions) class creates
+The [`Patch Flow Region`](../api/_autosummary/ansys.meshing.prime.Wrapper.patch_flow_regions.md#ansys.meshing.prime.Wrapper.patch_flow_regions) class creates
 patching face zonelets for holes below a specified size
 that exist between regions defined by live and dead material points. You can define
 multiple dead regions but only one live region can be defined.
-The [`WrapperPatchFlowRegionsParams`](./../api/_autosummary/ansys.meshing.prime.WrapperPatchFlowRegionsParams.md#ansys.meshing.prime.WrapperPatchFlowRegionsParams) class allows you to specify the base size and dead regions to create the patched surface.
+The [`WrapperPatchFlowRegionsParams`](../api/_autosummary/ansys.meshing.prime.WrapperPatchFlowRegionsParams.md#ansys.meshing.prime.WrapperPatchFlowRegionsParams) class allows you to specify the base size and dead regions to create the patched surface.
 When you do not provide the base size, the global minimum size value is used.
 The patched surface is created towards the dead material point region.
 When you create a patched surface, the mesh created is non-conformal.
@@ -203,7 +199,8 @@ g()
 set_num_of_threads = model.set_num_threads(8)
 ```
 
-2. Set the global sizing parameters. If you do not specify the base size, the value for the global minimum size is used.
+![image](../images/patchflow_model.png)
+1. Set the global sizing parameters. If you do not specify the base size, the value for the global minimum size is used.
 
 ```python
 model.set_global_sizing_params(
@@ -217,7 +214,7 @@ model.set_global_sizing_params(
 sfparams = model.get_global_sizing_params()
 ```
 
-3. Create the material points and define the type.
+1. Create the material points and define the type.
 
 ```python
 model.material_point_data.create_material_point(
@@ -246,11 +243,11 @@ model.material_point_data.create_material_point(
 )
 ```
 
-4. Define the scope, dead region, live region and specify the hole size, base size to be patched to perform patching.
+1. Define the scope, dead region, live region and specify the hole size, base size to be patched to perform patching.
 
    The following image shows the defined dead material points and live material points in the model.
-  
-   ![Patch flow demo](./../images/patchflow_demo.png)
+
+![image](../images/patchflow_demo.png)
 
 **Case 1**: scope Dead_1, LIVE material points and specify the hole size to perform patching.
 
@@ -282,7 +279,7 @@ patch_result = wrapper.patch_flow_regions(
 )
 ```
 
-![Patchflowmodelex1](./../images/patchflow_modelex1.png)
+![image](../images/patchflow_modelex1.png)
 
 **Case 2**: scope Dead_2, LIVE material points and specify the hole size and base size to perform patching.
 
@@ -315,7 +312,7 @@ patch_result = wrapper.patch_flow_regions(
 )
 ```
 
-![Patchflowmodelex2](./../images/patchflow_modelex2.png)
+![image](../images/patchflow_modelex2.png)
 
 **Case 3**: scope Dead_1, Dead_2 and LIVE material points and specify the hole size and base size to perform patching.
 
@@ -348,4 +345,4 @@ patch_result = wrapper.patch_flow_regions(
 )
 ```
 
-![Patchflowmodelex3](./../images/patchflow_modelex3.png)
+![image](../images/patchflow_modelex3.png)

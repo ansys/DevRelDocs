@@ -14,9 +14,10 @@ This method supports writing and exporting these file formats:
 * Exporting MAPDL’s CDB files.
 * Exporting STL files.
 
-* **Parameters:**
+**Parameters:**
 
   **file_name**
-  : Path of the file to write or export.
+
+  Path of the file to write or export.
 
 <!-- !! processed by numpydoc !! -->

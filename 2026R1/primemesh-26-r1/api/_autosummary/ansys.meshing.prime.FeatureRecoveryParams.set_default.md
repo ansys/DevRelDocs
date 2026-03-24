@@ -6,15 +6,18 @@
 
 Set the default values of the `FeatureRecoveryParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **scope: ScopeDefinition, optional**
-  : Scope used for feature recovery control.
+
+  Scope used for feature recovery control.
 
   **enable_feature_octree_refinement: bool, optional**
-  : Checks whether to perform octree refinement at feature edges.
+
+  Checks whether to perform octree refinement at feature edges.
 
   **size_at_features: float, optional**
-  : Refinement size at features.
+
+  Refinement size at features.
 
 <!-- !! processed by numpydoc !! -->

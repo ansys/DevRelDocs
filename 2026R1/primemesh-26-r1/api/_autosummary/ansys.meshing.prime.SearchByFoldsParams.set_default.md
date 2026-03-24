@@ -6,9 +6,10 @@
 
 Set the default values of the `SearchByFoldsParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **critical_angle: float, optional**
-  : Threshold angle for fold detection.
+
+  Threshold angle for fold detection.
 
 <!-- !! processed by numpydoc !! -->

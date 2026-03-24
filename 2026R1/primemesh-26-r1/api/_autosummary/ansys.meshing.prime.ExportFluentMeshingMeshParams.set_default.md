@@ -6,9 +6,10 @@
 
 Set the default values of the `ExportFluentMeshingMeshParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **cff_format: bool, optional**
-  : Option to specify whether to export Fluent mesh file in CFF format (.msh.h5) or legacy format (.msh, .msh.gz).
+
+  Option to specify whether to export Fluent mesh file in CFF format (.msh.h5) or legacy format (.msh, .msh.gz).
 
 <!-- !! processed by numpydoc !! -->

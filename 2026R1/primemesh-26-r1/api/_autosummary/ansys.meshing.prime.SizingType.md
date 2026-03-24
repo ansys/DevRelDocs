@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.SizingType"></a>
 
-### *class* ansys.meshing.prime.SizingType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.SizingType(\*values)
 
 Sizing type decides the type of size control.
 

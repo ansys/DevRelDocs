@@ -6,28 +6,33 @@
 
 DeadRegion defines a dead region for patch flow regions operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `DeadRegion` object with default parameters.
+
+  Model to create a `DeadRegion` object with default parameters.
 
   **face_zonelet_ids: Iterable[int], optional**
-  : Face zonelets enclosing dead region.
+
+  Face zonelets enclosing dead region.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **dead_material_points: List[str], optional**
-  : Material points to identify dead region.
+
+  Material points to identify dead region.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **hole_size: float, optional**
-  : Maximum hole size used for patching.
+
+  Maximum hole size used for patching.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `DeadRegion` object with provided parameters.
+
+  JSON dictionary to create a `DeadRegion` object with provided parameters.
 
 ### Examples
 

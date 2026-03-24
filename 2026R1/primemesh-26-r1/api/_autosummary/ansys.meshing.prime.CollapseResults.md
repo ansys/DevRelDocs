@@ -6,22 +6,27 @@
 
 Results associated with collapse face elements.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `CollapseResults` object with default parameters.
+
+  Model to create a `CollapseResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the failure of operation.
+
+  Error code associated with the failure of operation.
 
   **n_collapsed: int, optional**
-  : Number of face elements collapsed.
+
+  Number of face elements collapsed.
 
   **n_splits: int, optional**
-  : Number of face elements split.
+
+  Number of face elements split.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `CollapseResults` object with provided parameters.
+
+  JSON dictionary to create a `CollapseResults` object with provided parameters.
 
 ### Examples
 

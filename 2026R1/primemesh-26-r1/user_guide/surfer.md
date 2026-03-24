@@ -1,8 +1,6 @@
-<a id="surface-meshing"></a>
-
 # Surface meshing
 
-The [`Surfer`](./../api/_autosummary/ansys.meshing.prime.Surfer.md#ansys.meshing.prime.Surfer) class enables you to perform surface meshing using
+The [`Surfer`](../api/_autosummary/ansys.meshing.prime.Surfer.md#ansys.meshing.prime.Surfer) class enables you to perform surface meshing using
 different surface meshing algorithms on *TopoFaces* or face zonelets. Surface meshing considers many
 parameters, such as size field type, minimum size, maximum size, growth rate, and transition type,
 while meshing *TopoFaces* or face zonelets.
@@ -39,10 +37,7 @@ display(update=True)
 part = model.get_part_by_name("simple-bracket-holes")
 ```
 
-![Simple Bracket Holes scdoc](./../images/simple-bracket-holes_scdoc.png)
-
-**CAD geometry imported**
-
+![image](../images/simple-bracket-holes_scdoc.png)
 
 Initialize surfer parameters and generate surface mesh on TopoFaces:
 
@@ -54,9 +49,7 @@ surfer_result = prime.Surfer(model).mesh_topo_faces(
 )
 ```
 
-![Simple Brackey holes Mesh 3](./../images/simple-bracket-holes_mesh3.png)
-
-**Surface mesh displayed**
+![image](../images/simple-bracket-holes_mesh3.png)
 
 <a id="remesh-surfaces"></a>
 
@@ -66,7 +59,7 @@ This example shows you to perform these steps:
 
 * Import a faceted geometry (STL) file and visualize the model.
 * Create curvature size control and compute a volumetric size field. (For more information,
-  see [Sizing](sizing.md))
+  see [Sizing](sizing.md).)
 * Remesh the STL surface mesh.
 
 Start the PyPrimeMesh client and import the faceted geometry (STL) file:
@@ -98,9 +91,7 @@ part = model.get_part_by_name("simple-bracket-holes")
 part_summary_res = part.get_summary(prime.PartSummaryParams(model=model))
 ```
 
-![Simple bracket holes stl](./../images/simple-bracket-holes_stl.png)
-
-**Faceted geometry imported**
+![image](../images/simple-bracket-holes_stl.png)
 
 Print the results of part summary:
 
@@ -173,6 +164,4 @@ surfer_result = prime.Surfer(model).remesh_face_zonelets(
 )
 ```
 
-![simple bracket holes mesh1](./../images/simple-bracket-holes_mesh1.png)
-
-**Surface mesh displayed**
+![image](../images/simple-bracket-holes_mesh1.png)

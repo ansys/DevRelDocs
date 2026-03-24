@@ -6,18 +6,22 @@
 
 Set the default values of the `ExportLSDynaResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **summary_log: str, optional**
-  : Summary log for the import operation in json format.
+
+  Summary log for the import operation in json format.
 
   **zone_mesh_results: List[ZoneMeshResult], optional**
-  : Zone-wise mesh information for elements in the exported model.
+
+  Zone-wise mesh information for elements in the exported model.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with failure of operation.
+
+  Error code associated with failure of operation.
 
   **warning_codes: List[WarningCode], optional**
-  : Warning codes associated with the operation.
+
+  Warning codes associated with the operation.
 
 <!-- !! processed by numpydoc !! -->

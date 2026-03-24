@@ -6,18 +6,19 @@
 
 Set the unique name for the wrapper control based on a suggested name.
 
-* **Parameters:**
+**Parameters:**
 
   **name**
-  : Suggested name for the wrapper control.
 
-* **Returns:**
+  Suggested name for the wrapper control.
 
+**Returns:**
 
-  [`SetNameResults`](ansys.meshing.prime.SetNameResults.md#ansys.meshing.prime.SetNameResults)
-  : Newly assigned name of the wrapper control.
+  **[`SetNameResults`](ansys.meshing.prime.SetNameResults.md#ansys.meshing.prime.SetNameResults)**
 
-* **Return type:**
+  Newly assigned name of the wrapper control.
+
+**Return type:**
 
   [`SetNameResults`](ansys.meshing.prime.SetNameResults.md#ansys.meshing.prime.SetNameResults)
 

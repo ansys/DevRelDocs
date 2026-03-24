@@ -6,13 +6,15 @@
 
 Parameters used to get size control summary.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `PeriodicControlSummaryParams` object with default parameters.
+
+  Model to create a `PeriodicControlSummaryParams` object with default parameters.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `PeriodicControlSummaryParams` object with provided parameters.
+
+  JSON dictionary to create a `PeriodicControlSummaryParams` object with provided parameters.
 
 ### Examples
 

@@ -8,10 +8,11 @@ BoundaryFittedSpline helps you to create splines for structured hex-mesh model.
 
 BoundaryFittedSpline allows you to perform H and P refinement.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create BoundaryFittedSpline object.
+
+  Server model to create BoundaryFittedSpline object.
 
 <!-- !! processed by numpydoc !! -->
 

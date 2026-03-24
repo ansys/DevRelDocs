@@ -6,12 +6,14 @@
 
 Get global sizing parameters.
 
-* **Returns:**
 
-  [`GlobalSizingParams`](ansys.meshing.prime.GlobalSizingParams.md#ansys.meshing.prime.GlobalSizingParams)
-  : Global sizing parameters.
+**Returns:**
 
-* **Return type:**
+  **[`GlobalSizingParams`](ansys.meshing.prime.GlobalSizingParams.md#ansys.meshing.prime.GlobalSizingParams)**
+
+  Global sizing parameters.
+
+**Return type:**
 
   [`GlobalSizingParams`](ansys.meshing.prime.GlobalSizingParams.md#ansys.meshing.prime.GlobalSizingParams)
 

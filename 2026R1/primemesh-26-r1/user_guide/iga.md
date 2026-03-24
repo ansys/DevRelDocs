@@ -22,9 +22,9 @@ IGA Quad to Spline performs the following:
 > - When you provide Ignore Features, ignores all the features while converting the input geometry to spline.
 > - When you provide Use Angle, captures the provided angle while creating the spline for the input geometry.
 > - When you provide Use Edges, uses the provided edges while creating spline for the input geometry.
-2. Checks if any Negative Jacobian values are present while creating splines.
-3. Export Splines as LS-DYNA IGA K file if no Negative Jacobian values are present in the input geometry.
-4. Provides the file to the LS-DYNA IGA solver.
+1. Checks if any Negative Jacobian values are present while creating splines.
+2. Export Splines as LS-DYNA IGA K file if no Negative Jacobian values are present in the input geometry.
+3. Provides the file to the LS-DYNA IGA solver.
 
 The below example shows IGA Quad to spline conversion:
 
@@ -37,9 +37,8 @@ g = Graphics(model)
 g()
 ```
 
-![Model IGA](./../images/model_iga.png)
-
-2. Check whether the model is a topology or mesh part.
+![image](../images/model_iga.png)
+1. Check whether the model is a topology or mesh part.
 
 ```python
 cad_mesh_part = model.parts
@@ -74,7 +73,7 @@ for part in cad_mesh_part:
 Geometry Part
 ```
 
-3. Define the input scope for the geometry or mesh part.
+1. Define the input scope for the geometry or mesh part.
 
 ```python
 input_scope = prime.ScopeDefinition(model, part_expression=mesh_part.name)
@@ -82,7 +81,7 @@ geom_topofaces = geom_part.get_topo_faces()
 geom_topoedges = geom_part.get_topo_edges()
 ```
 
-4. Initialize QuadToSpline and provide the required parameters in QuadToSplineParams to perform the quad to spline conversion.
+1. Initialize QuadToSpline and provide the required parameters in QuadToSplineParams to perform the quad to spline conversion.
 
 ```python
 zone_name_1 = "zone1_thk_0.8"
@@ -117,7 +116,7 @@ warning_code :  WarningCode.NOWARNING
 spline_ids :  []
 ```
 
-5. Get the unstructured spline created.
+1. Get the unstructured spline created.
 
 ```python
 spline1 = unstructured_spline_fitting.spline_ids
@@ -141,7 +140,7 @@ elements_count :  2194
 shell_thickness :  0.0001
 ```
 
-6. Check the quality of the created spline.
+1. Check the quality of the created spline.
 
 ```python
 negative_jacobian = unstructured_spline_surface.invalid_jacobian_elements_count
@@ -164,7 +163,7 @@ Spline points count:  78984.0
 Max Deviation:  1.27418
 ```
 
-7. Write the created .k file to the specified location and export to LS-DYNA.
+1. Write the created .k file to the specified location and export to LS-DYNA.
 
 ```python
 lsdyna_iga_export_result = prime.FileIO(model).export_lsdyna_iga_keyword_file(

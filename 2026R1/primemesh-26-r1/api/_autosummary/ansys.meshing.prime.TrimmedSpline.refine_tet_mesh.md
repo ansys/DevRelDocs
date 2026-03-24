@@ -6,20 +6,23 @@
 
 Refines tetrahedral mesh.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : Part on which mesh refinement is performed.
+
+  Part on which mesh refinement is performed.
 
   **refine_params**
-  : Parameters to configure mesh refinement.
 
-* **Returns:**
+  Parameters to configure mesh refinement.
 
-  [`TrimmedSplineResults`](ansys.meshing.prime.TrimmedSplineResults.md#ansys.meshing.prime.TrimmedSplineResults)
-  : Returns the TrimmedSplineResults.
+**Returns:**
 
-* **Return type:**
+  **[`TrimmedSplineResults`](ansys.meshing.prime.TrimmedSplineResults.md#ansys.meshing.prime.TrimmedSplineResults)**
+
+  Returns the TrimmedSplineResults.
+
+**Return type:**
 
   [`TrimmedSplineResults`](ansys.meshing.prime.TrimmedSplineResults.md#ansys.meshing.prime.TrimmedSplineResults)
 

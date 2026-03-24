@@ -6,17 +6,19 @@
 
 Removes zone on the given volumes.
 
-* **Parameters:**
+**Parameters:**
 
   **volumes**
-  : Volume ids whose zone is to be removed.
 
-* **Returns:**
+  Volume ids whose zone is to be removed.
 
-  [`RemoveZoneResults`](ansys.meshing.prime.RemoveZoneResults.md#ansys.meshing.prime.RemoveZoneResults)
-  : Returns the RemoveZoneResults.
+**Returns:**
 
-* **Return type:**
+  **[`RemoveZoneResults`](ansys.meshing.prime.RemoveZoneResults.md#ansys.meshing.prime.RemoveZoneResults)**
+
+  Returns the RemoveZoneResults.
+
+**Return type:**
 
   [`RemoveZoneResults`](ansys.meshing.prime.RemoveZoneResults.md#ansys.meshing.prime.RemoveZoneResults)
 

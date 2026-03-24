@@ -6,23 +6,27 @@
 
 Parameters used to project topoface nodes on associated geometry.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ProjectOnGeometryParams` object with default parameters.
+
+  Model to create a `ProjectOnGeometryParams` object with default parameters.
 
   **project_only_mid_nodes: bool, optional**
-  : Option to project only the mid nodes.
+
+  Option to project only the mid nodes.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **project_on_facets_if_cadnot_found: bool, optional**
-  : Option to project on facet if geometry is not found.
+
+  Option to project on facet if geometry is not found.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ProjectOnGeometryParams` object with provided parameters.
+
+  JSON dictionary to create a `ProjectOnGeometryParams` object with provided parameters.
 
 ### Examples
 

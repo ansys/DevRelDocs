@@ -6,25 +6,31 @@
 
 Parameters to compute volumes.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ComputeVolumesParams` object with default parameters.
+
+  Model to create a `ComputeVolumesParams` object with default parameters.
 
   **volume_naming_type: VolumeNamingType, optional**
-  : Indicates source type used to compute zone name for volumes.
+
+  Indicates source type used to compute zone name for volumes.
 
   **create_zones_type: CreateVolumeZonesType, optional**
-  : Option to control volume zone creation for volumes.
+
+  Option to control volume zone creation for volumes.
 
   **priority_ordered_names: List[str], optional**
-  : Zone names for volumes are identified based on the priority in the list. Position index of name in the list determines its priority. Lower the index, higher the priority. Name with highest priority among names from volumeNamingType of face zonelets is identified as zone name for volume. Lowest priority is assigned to all names that are not in the list. When all names identified are of lowest priority, names having higher surface area of faces zonelets are identified as zone name for volume.
+
+  Zone names for volumes are identified based on the priority in the list. Position index of name in the list determines its priority. Lower the index, higher the priority. Name with highest priority among names from volumeNamingType of face zonelets is identified as zone name for volume. Lowest priority is assigned to all names that are not in the list. When all names identified are of lowest priority, names having higher surface area of faces zonelets are identified as zone name for volume.
 
   **material_point_names: List[str], optional**
-  : Material point names provided to identify volumes. Material point names will have precedence over the volume names.
+
+  Material point names provided to identify volumes. Material point names will have precedence over the volume names.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ComputeVolumesParams` object with provided parameters.
+
+  JSON dictionary to create a `ComputeVolumesParams` object with provided parameters.
 
 ### Examples
 

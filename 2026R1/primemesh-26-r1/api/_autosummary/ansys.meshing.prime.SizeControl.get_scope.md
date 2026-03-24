@@ -6,12 +6,14 @@
 
 Get the scope used by size control to evaluate entities.
 
-* **Returns:**
 
-  [`ScopeDefinition`](ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition)
-  : Return the ScopeDefinition.
+**Returns:**
 
-* **Return type:**
+  **[`ScopeDefinition`](ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition)**
+
+  Return the ScopeDefinition.
+
+**Return type:**
 
   [`ScopeDefinition`](ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition)
 

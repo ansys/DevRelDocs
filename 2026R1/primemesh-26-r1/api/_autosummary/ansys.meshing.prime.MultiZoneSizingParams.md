@@ -6,33 +6,39 @@
 
 Parameters for MultiZone meshing.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `MultiZoneSizingParams` object with default parameters.
+
+  Model to create a `MultiZoneSizingParams` object with default parameters.
 
   **max_size: float, optional**
-  : Defines global maximum mesh size.
+
+  Defines global maximum mesh size.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **min_size: float, optional**
-  : Defines global minimum mesh size.
+
+  Defines global minimum mesh size.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **growth_rate: float, optional**
-  : Defines growth rate.
+
+  Defines growth rate.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **use_volumetric_size_field: bool, optional**
-  : Defines whether to use size field for MultiZone meshing.
+
+  Defines whether to use size field for MultiZone meshing.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `MultiZoneSizingParams` object with provided parameters.
+
+  JSON dictionary to create a `MultiZoneSizingParams` object with provided parameters.
 
 ### Examples
 

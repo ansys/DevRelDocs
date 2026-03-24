@@ -6,10 +6,11 @@
 
 Sets thin volume mesh parameters for thin volume control.
 
-* **Parameters:**
+**Parameters:**
 
   **thin_volume_mesh_params**
-  : Parameters to set thin volume control growth.
+
+  Parameters to set thin volume control growth.
 
 ### Examples
 

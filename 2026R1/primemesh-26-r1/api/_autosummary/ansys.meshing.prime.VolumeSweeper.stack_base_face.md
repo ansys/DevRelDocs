@@ -10,26 +10,31 @@ This method generates volume mesh by stacking a meshed face, layer by layer, alo
 the given direction. It calculates the stack layers using size controls and global
 size parameters.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : ID of the part.
+
+  ID of the part.
 
   **base_face_ids: Iterable[int]**
-  : IDs of the base faces to stack.
+
+  IDs of the base faces to stack.
 
   **topo_volume_ids**
-  : IDs of the volumes to mesh.
+
+  IDs of the volumes to mesh.
 
   **params**
-  : Mesh stacker parameters.
 
-* **Returns:**
+  Mesh stacker parameters.
 
-  [`MeshStackerResults`](ansys.meshing.prime.MeshStackerResults.md#ansys.meshing.prime.MeshStackerResults)
-  : Results from generating the volume mesh.
+**Returns:**
 
-* **Return type:**
+  **[`MeshStackerResults`](ansys.meshing.prime.MeshStackerResults.md#ansys.meshing.prime.MeshStackerResults)**
+
+  Results from generating the volume mesh.
+
+**Return type:**
 
   [`MeshStackerResults`](ansys.meshing.prime.MeshStackerResults.md#ansys.meshing.prime.MeshStackerResults)
 

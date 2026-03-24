@@ -6,12 +6,14 @@
 
 Create a periodic control.
 
-* **Returns:**
 
-  [`PeriodicControl`](ansys.meshing.prime.PeriodicControl.md#ansys.meshing.prime.PeriodicControl)
-  : Periodic control.
+**Returns:**
 
-* **Return type:**
+  **[`PeriodicControl`](ansys.meshing.prime.PeriodicControl.md#ansys.meshing.prime.PeriodicControl)**
+
+  Periodic control.
+
+**Return type:**
 
   `PeriodicControl`
 

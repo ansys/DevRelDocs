@@ -1,12 +1,8 @@
-<!-- vale off -->
-
-<a id="splinefeaturecapturetype"></a>
-
 # SplineFeatureCaptureType
 
 <a id="ansys.meshing.prime.SplineFeatureCaptureType"></a>
 
-### *class* ansys.meshing.prime.SplineFeatureCaptureType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.SplineFeatureCaptureType(\*values)
 
 Options to capture features in spline.
 

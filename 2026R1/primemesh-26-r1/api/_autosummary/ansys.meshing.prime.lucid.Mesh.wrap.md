@@ -23,98 +23,124 @@ is generated with the provided size.
 If neither minimum size or maximum size is provided, global minimum and
 maximum settings are used to generate a variable size mesh based on curvature.
 
-* **Parameters:**
+**Parameters:**
 
   **min_size**
-  : Minimum edge length of the mesh. The default is `None`.
+
+  Minimum edge length of the mesh. The default is `None`.
 
   **max_size**
-  : Maximum edge length of the mesh. The default is `None`.
+
+  Maximum edge length of the mesh. The default is `None`.
 
   **growth_rate**
-  : Growth rate. The default is `1.2`.
+
+  Growth rate. The default is `1.2`.
 
   **elements_per_gap**
-  : Global proximity size control elements per gap with self proximity.
+
+  Global proximity size control elements per gap with self proximity.
     The default is `None`.
 
   **normal_angle**
-  : Global curvature size control normal angle. The default is `18.0`.
+
+  Global curvature size control normal angle. The default is `18.0`.
 
   **input_parts**
-  : Parts to wrap. The default is `"*"`.
+
+  Parts to wrap. The default is `"*"`.
 
   **input_labels**
-  : Labels to wrap. The default is `"*"`.
+
+  Labels to wrap. The default is `"*"`.
 
   **keep_inputs**
-  : Whether to retain inputs. The default is `False`.
+
+  Whether to retain inputs. The default is `False`.
 
   **region_extract**
-  : Region to wrap. The default is `prime.WrapRegion.EXTERNAL`.
+
+  Region to wrap. The default is `prime.WrapRegion.EXTERNAL`.
 
   **material_point**
-  : Material point if the region extraction method is set to
+
+  Material point if the region extraction method is set to
     material point. The default is `None`.
 
   **extract_features**
-  : Whether to extract feature edges using the feature angle. The
+
+  Whether to extract feature edges using the feature angle. The
     default is `True`.
 
   **create_intersection_loops**
-  : Whether to create intersection loops between all parts.
+
+  Whether to create intersection loops between all parts.
     The default is `False`.
 
   **use_existing_features**
-  : Whether to maintain existing features on parts. The
+
+  Whether to maintain existing features on parts. The
     default is `False`.
 
   **enable_feature_octree_refinement: bool, optional**
-  : Whether to apply refinement to feature edges during the wrap.
+
+  Whether to apply refinement to feature edges during the wrap.
     The default is `True`.
 
   **feature_angle**
-  : Angle to use for extracting features. The default is `40.0`.
+
+  Angle to use for extracting features. The default is `40.0`.
 
   **contact_prevention_size**
-  : Global proximity size controls between all parts.
+
+  Global proximity size controls between all parts.
     The default is `None`.
 
   **number_of_threads**
-  : Number of threads. The default is `None`.
+
+  Number of threads. The default is `None`.
 
   **remesh_postwrap**
-  : Whether to remesh the wrap. The default is `True`.
+
+  Whether to remesh the wrap. The default is `True`.
 
   **recompute_remesh_sizes**
-  : Whether to recompute sizes from global controls using
+
+  Whether to recompute sizes from global controls using
     the wrap surface. The default is `False`.
 
   **use_existing_size_fields**
-  : Whether to use precomputed size fields. The default is `False`.
+
+  Whether to use precomputed size fields. The default is `False`.
 
   **size_fields**
-  : List of size fields to use. The default is `None`.
+
+  List of size fields to use. The default is `None`.
 
   **wrap_size_controls**
-  : List of wrap size controls to use. The default is `None`.
+
+  List of wrap size controls to use. The default is `None`.
 
   **remesh_size_controls**
-  : List of remesh size controls to use. The default is `None`.
+
+  List of remesh size controls to use. The default is `None`.
 
   **feature_recovery_params**
-  : List of feature recovery parameters to use. The default is `None`.
+
+  List of feature recovery parameters to use. The default is `None`.
 
   **contact_prevention_params**
-  : List of contact prevention parameters to use. The default is `None`.
+
+  List of contact prevention parameters to use. The default is `None`.
 
   **leak_prevention_params**
-  : List of leak prevention parameters to use.  The default is `None`.
-* **Returns:**
-  :
+
+  List of leak prevention parameters to use.  The default is `None`.
+
+**Returns:**
 
   `Wrapped` `part`
-  : Returns Part.
+  Returns Part.
 
 ### Examples
 

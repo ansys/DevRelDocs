@@ -6,17 +6,19 @@
 
 Get the wrapper control by name.
 
-* **Parameters:**
+**Parameters:**
 
   **name**
-  : Name of the wrapper control.
 
-* **Returns:**
+  Name of the wrapper control.
 
-  [`WrapperControl`](ansys.meshing.prime.WrapperControl.md#ansys.meshing.prime.WrapperControl)
-  : Wrapper control.
+**Returns:**
 
-* **Return type:**
+  **[`WrapperControl`](ansys.meshing.prime.WrapperControl.md#ansys.meshing.prime.WrapperControl)**
+
+  Wrapper control.
+
+**Return type:**
 
   [`WrapperControl`](ansys.meshing.prime.WrapperControl.md#ansys.meshing.prime.WrapperControl)
 

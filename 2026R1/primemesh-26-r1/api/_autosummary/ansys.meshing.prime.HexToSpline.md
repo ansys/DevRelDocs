@@ -6,10 +6,11 @@
 
 Converts all-hex mesh to spline.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create HexToSpline object.
+
+  Server model to create HexToSpline object.
 
 <!-- !! processed by numpydoc !! -->
 

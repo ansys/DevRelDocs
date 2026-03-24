@@ -6,22 +6,27 @@
 
 Settings related to scaling of surface mesh size for hexcore refinement.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SurfaceMeshSizeScaling` object with default parameters.
+
+  Model to create a `SurfaceMeshSizeScaling` object with default parameters.
 
   **factor: float, optional**
-  : Value by which size should be multiplied when the size falls within a certain range. Applicable only when size field type is set to Geometric in AutoMeshParams structure.
+
+  Value by which size should be multiplied when the size falls within a certain range. Applicable only when size field type is set to Geometric in AutoMeshParams structure.
 
   **size_range_min: float, optional**
-  : Minimum size required to apply scaling. Applicable only when size field type is set to Geometric in AutoMeshParams structure.
+
+  Minimum size required to apply scaling. Applicable only when size field type is set to Geometric in AutoMeshParams structure.
 
   **size_range_max: float, optional**
-  : Maximum size required to apply scaling. Applicable only when size field type is set to Geometric in AutoMeshParams structure.
+
+  Maximum size required to apply scaling. Applicable only when size field type is set to Geometric in AutoMeshParams structure.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SurfaceMeshSizeScaling` object with provided parameters.
+
+  JSON dictionary to create a `SurfaceMeshSizeScaling` object with provided parameters.
 
 ### Examples
 

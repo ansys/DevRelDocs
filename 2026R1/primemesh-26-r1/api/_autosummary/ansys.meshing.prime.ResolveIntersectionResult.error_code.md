@@ -4,6 +4,6 @@
 
 #### *property* ResolveIntersectionResult.error_code *: [ErrorCode](ansys.meshing.prime.ErrorCode.md#ansys.meshing.prime.ErrorCode)*
 
-Errror code associated with a resolve intersections operation.
+Error code associated with a resolve intersections operation.
 
 <!-- !! processed by numpydoc !! -->

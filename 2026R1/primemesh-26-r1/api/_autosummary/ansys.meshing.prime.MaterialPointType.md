@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.MaterialPointType"></a>
 
-### *class* ansys.meshing.prime.MaterialPointType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.MaterialPointType(\*values)
 
 Defines define type of material point.
 

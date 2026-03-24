@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.FlowDirection"></a>
 
-### *class* ansys.meshing.prime.FlowDirection(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.FlowDirection(\*values)
 
 Flow or wake direction for BOI creation.
 

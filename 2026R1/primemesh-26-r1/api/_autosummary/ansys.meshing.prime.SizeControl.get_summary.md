@@ -6,17 +6,19 @@
 
 Get the size control summary along with the evaluated scope for the provided parameters..
 
-* **Parameters:**
+**Parameters:**
 
   **params**
-  : Size control summary parameters.
 
-* **Returns:**
-  
-  [`SizeControlSummaryResult`](ansys.meshing.prime.SizeControlSummaryResult.md#ansys.meshing.prime.SizeControlSummaryResult)
-  : Return the SizeControlSummaryResult.
+  Size control summary parameters.
 
-* **Return type:**
+**Returns:**
+
+  **[`SizeControlSummaryResult`](ansys.meshing.prime.SizeControlSummaryResult.md#ansys.meshing.prime.SizeControlSummaryResult)**
+
+  Return the SizeControlSummaryResult.
+
+**Return type:**
 
   [`SizeControlSummaryResult`](ansys.meshing.prime.SizeControlSummaryResult.md#ansys.meshing.prime.SizeControlSummaryResult)
 

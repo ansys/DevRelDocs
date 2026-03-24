@@ -6,17 +6,18 @@
 
 Get the scope definition of the scope.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : PyPrimeMesh model.
 
-* **Returns:**
+  PyPrimeMesh model.
+
+**Returns:**
 
   `ScopeDefinition`
-  : Returns the scope definition.
+  Returns the scope definition.
 
-* **Return type:**
+**Return type:**
 
   [`ScopeDefinition`](ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition)
 

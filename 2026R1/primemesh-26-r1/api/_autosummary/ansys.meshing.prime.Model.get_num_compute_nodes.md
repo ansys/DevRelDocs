@@ -6,12 +6,14 @@
 
 Get the number of compute nodes.
 
-* **Returns:**
 
-  [`int`](https://docs.python.org/3.11/library/functions.html#int)
-  : Returns the number of compute nodes.
+**Returns:**
 
-* **Return type:**
+  **[`int`](https://docs.python.org/3.11/library/functions.html#int)**
+
+  Returns the number of compute nodes.
+
+**Return type:**
 
   [`int`](https://docs.python.org/3.11/library/functions.html#int)
 

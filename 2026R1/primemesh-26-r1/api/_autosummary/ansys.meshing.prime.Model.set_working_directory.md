@@ -8,10 +8,11 @@ Set working directory.
 
 Set the working directory to be considered for file i/o when the file paths are relative.
 
-* **Parameters:**
+**Parameters:**
 
   **path**
-  : Path to the directory.
+
+  Path to the directory.
 
 ### Notes
 

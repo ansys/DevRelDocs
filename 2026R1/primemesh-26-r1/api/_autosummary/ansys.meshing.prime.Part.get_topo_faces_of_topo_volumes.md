@@ -6,17 +6,18 @@
 
 Gets the topofaces of given topovolumes.
 
-* **Parameters:**
+**Parameters:**
 
   **volumes**
-  : Ids of topovolumes.
 
-* **Returns:**
+  Ids of topovolumes.
+
+**Returns:**
 
   `Iterable`[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
-  : Returns the ids of topofaces.
+  Returns the ids of topofaces.
 
-* **Return type:**
+**Return type:**
 
   [`Iterable`](https://docs.python.org/3.11/library/typing.html#typing.Iterable)[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
 

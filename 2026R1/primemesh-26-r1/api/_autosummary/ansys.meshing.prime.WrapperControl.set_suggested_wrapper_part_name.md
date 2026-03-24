@@ -6,10 +6,11 @@
 
 Sets the given name for the created wrapper part  after wrapping with the wrapper control.
 
-* **Parameters:**
+**Parameters:**
 
   **name**
-  : Suggested name of the wrapper part to be created.
+
+  Suggested name of the wrapper part to be created.
 
 ### Examples
 

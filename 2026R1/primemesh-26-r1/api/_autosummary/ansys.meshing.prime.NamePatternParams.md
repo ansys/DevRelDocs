@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="namepatternparams"></a>
-
 # NamePatternParams
 
 <a id="ansys.meshing.prime.NamePatternParams"></a>
@@ -10,13 +6,15 @@
 
 Parameters to be used to match name pattern with names.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `NamePatternParams` object with default parameters.
+
+  Model to create a `NamePatternParams` object with default parameters.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `NamePatternParams` object with provided parameters.
+
+  JSON dictionary to create a `NamePatternParams` object with provided parameters.
 
 ### Examples
 

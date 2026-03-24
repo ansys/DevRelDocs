@@ -6,9 +6,10 @@
 
 Set the default values of the `DeleteUnwettedResult` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code associated with delete unwetted surfaces operation.
+
+  Error code associated with delete unwetted surfaces operation.
 
 <!-- !! processed by numpydoc !! -->

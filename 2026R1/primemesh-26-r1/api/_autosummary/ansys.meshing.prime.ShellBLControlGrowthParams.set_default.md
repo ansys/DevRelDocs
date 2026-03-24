@@ -6,18 +6,22 @@
 
 Set the default values of the `ShellBLControlGrowthParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **n_layers: int, optional**
-  : Number of layers to be generated.
+
+  Number of layers to be generated.
 
   **offset_type: ShellBLOffsetType, optional**
-  : Offset type for ShellBL.
+
+  Offset type for ShellBL.
 
   **growth_rate: float, optional**
-  : Ratio of height of the current layer to the previous layer.
+
+  Ratio of height of the current layer to the previous layer.
 
   **first_height: float, optional**
-  : Height of first layer of ShellBL.
+
+  Height of first layer of ShellBL.
 
 <!-- !! processed by numpydoc !! -->

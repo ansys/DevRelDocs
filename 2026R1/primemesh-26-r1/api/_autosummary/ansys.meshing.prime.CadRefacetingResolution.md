@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.CadRefacetingResolution"></a>
 
-### *class* ansys.meshing.prime.CadRefacetingResolution(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.CadRefacetingResolution(\*values)
 
 Levels of CAD faceting refinement.
 

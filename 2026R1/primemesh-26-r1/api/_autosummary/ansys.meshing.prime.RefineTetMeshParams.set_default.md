@@ -6,18 +6,22 @@
 
 Set the default values of the `RefineTetMeshParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **nisr: int, optional**
-  : Interpolation elements in the local r-direction.
+
+  Interpolation elements in the local r-direction.
 
   **niss: int, optional**
-  : Interpolation elements in the local s-direction.
+
+  Interpolation elements in the local s-direction.
 
   **nist: int, optional**
-  : Interpolation elements in the local t-direction.
+
+  Interpolation elements in the local t-direction.
 
   **tolerance: float, optional**
-  : Tolerance for boundary refinement.
+
+  Tolerance for boundary refinement.
 
 <!-- !! processed by numpydoc !! -->

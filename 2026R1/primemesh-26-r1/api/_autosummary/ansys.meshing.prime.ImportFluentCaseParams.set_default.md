@@ -6,9 +6,10 @@
 
 Set the default values of the `ImportFluentCaseParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **append: bool, optional**
-  : Option to append imported case instead of resetting model to imported case.
+
+  Option to append imported case instead of resetting model to imported case.
 
 <!-- !! processed by numpydoc !! -->

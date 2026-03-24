@@ -6,19 +6,23 @@
 
 Results structure associated with search invalid normals operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SearchByInvalidNormalsResults` object with default parameters.
+
+  Model to create a `SearchByInvalidNormalsResults` object with default parameters.
 
   **n_found: int, optional**
-  : Number of invalid normals identified.
+
+  Number of invalid normals identified.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with search invalid normals operation.
+
+  Error code associated with search invalid normals operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SearchByInvalidNormalsResults` object with provided parameters.
+
+  JSON dictionary to create a `SearchByInvalidNormalsResults` object with provided parameters.
 
 ### Examples
 

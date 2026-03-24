@@ -6,16 +6,19 @@
 
 Results associated with delete topoentities.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `DeleteTopoEntitiesResults` object with default parameters.
+
+  Model to create a `DeleteTopoEntitiesResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with delete topoentities.
+
+  Error code associated with delete topoentities.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `DeleteTopoEntitiesResults` object with provided parameters.
+
+  JSON dictionary to create a `DeleteTopoEntitiesResults` object with provided parameters.
 
 ### Examples
 

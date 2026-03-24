@@ -6,19 +6,23 @@
 
 Parameters to control prism stairsteping.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `PrismStairStep` object with default parameters.
+
+  Model to create a `PrismStairStep` object with default parameters.
 
   **check_proximity: bool, optional**
-  : Check whether to enable or disable stairstepping at prisms within proximity of boundary or prism cap.
+
+  Check whether to enable or disable stairstepping at prisms within proximity of boundary or prism cap.
 
   **gap_factor_scale: float, optional**
-  : Scale factor for prism proximity detection gap factor.
+
+  Scale factor for prism proximity detection gap factor.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `PrismStairStep` object with provided parameters.
+
+  JSON dictionary to create a `PrismStairStep` object with provided parameters.
 
 ### Examples
 

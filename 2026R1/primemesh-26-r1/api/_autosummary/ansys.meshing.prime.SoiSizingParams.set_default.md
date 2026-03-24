@@ -6,18 +6,22 @@
 
 Set the default values of the `SoiSizingParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **centers: Iterable[float], optional**
-  : Centers of the spheres within which the size is limited to the specified max value.
+
+  Centers of the spheres within which the size is limited to the specified max value.
 
   **radius: float, optional**
-  : Radius of the sphere within which the size is limited to the specified max value.
+
+  Radius of the sphere within which the size is limited to the specified max value.
 
   **max: float, optional**
-  : Maximum size within the sphere.
+
+  Maximum size within the sphere.
 
   **growth_rate: float, optional**
-  : The rate at which size grows outwards from the sphere boundary.
+
+  The rate at which size grows outwards from the sphere boundary.
 
 <!-- !! processed by numpydoc !! -->

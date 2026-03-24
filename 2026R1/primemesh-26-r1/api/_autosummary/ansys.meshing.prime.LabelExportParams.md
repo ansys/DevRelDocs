@@ -6,18 +6,21 @@
 
 Parameters to control the export of labels as Nodal or Element Components in CDB. By default, all the labels are exported as Element Components.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `LabelExportParams` object with default parameters.
+
+  Model to create a `LabelExportParams` object with default parameters.
 
   **label_expression_for_nodal_components: str, optional**
-  : Label expression to export matching labels as Nodal Components in CDB. Non-matching labels will be exported as Element Components.
+
+  Label expression to export matching labels as Nodal Components in CDB. Non-matching labels will be exported as Element Components.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `LabelExportParams` object with provided parameters.
+
+  JSON dictionary to create a `LabelExportParams` object with provided parameters.
 
 ### Examples
 

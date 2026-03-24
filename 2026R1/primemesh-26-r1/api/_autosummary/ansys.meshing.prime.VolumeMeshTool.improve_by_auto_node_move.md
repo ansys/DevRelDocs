@@ -6,26 +6,31 @@
 
 Improve volume mesh by auto node move.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : Id of a part.
+
+  Id of a part.
 
   **cell_zonelets**
-  : Ids of cell zonelets to be improved.
+
+  Ids of cell zonelets to be improved.
 
   **boundary_zonelets**
-  : Ids of boundary face zonelets.
+
+  Ids of boundary face zonelets.
 
   **params**
-  : Auto node move parameters.
 
-* **Returns:**
+  Auto node move parameters.
 
-  [`VolumeMeshToolResults`](ansys.meshing.prime.VolumeMeshToolResults.md#ansys.meshing.prime.VolumeMeshToolResults)
-  : Return the VolumeMeshToolResults.
+**Returns:**
 
-* **Return type:**
+  **[`VolumeMeshToolResults`](ansys.meshing.prime.VolumeMeshToolResults.md#ansys.meshing.prime.VolumeMeshToolResults)**
+
+  Return the VolumeMeshToolResults.
+
+**Return type:**
 
   [`VolumeMeshToolResults`](ansys.meshing.prime.VolumeMeshToolResults.md#ansys.meshing.prime.VolumeMeshToolResults)
 

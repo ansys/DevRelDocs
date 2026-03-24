@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.LSDynaFileFormatType.from_bytes"></a>
 
-#### LSDynaFileFormatType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* LSDynaFileFormatType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

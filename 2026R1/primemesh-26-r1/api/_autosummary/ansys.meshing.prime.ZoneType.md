@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.ZoneType"></a>
 
-### *class* ansys.meshing.prime.ZoneType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.ZoneType(\*values)
 
 ZoneType decides the type of zone.
 

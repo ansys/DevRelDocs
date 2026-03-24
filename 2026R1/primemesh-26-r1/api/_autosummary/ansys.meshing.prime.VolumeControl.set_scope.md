@@ -8,17 +8,19 @@ Sets the scope for volume control to evaluate.
 
 Volume control uses scope to evaluate entities for which volume mesh needs to be generated.
 
-* **Parameters:**
+**Parameters:**
 
   **scope**
-  : ScopeDefinition to scope entities for volume mesh generation.
 
-* **Returns:**
+  ScopeDefinition to scope entities for volume mesh generation.
 
-  [`SetScopeResults`](ansys.meshing.prime.SetScopeResults.md#ansys.meshing.prime.SetScopeResults)
-  : Returns a SetScopeResults.
+**Returns:**
 
-* **Return type:**
+  **[`SetScopeResults`](ansys.meshing.prime.SetScopeResults.md#ansys.meshing.prime.SetScopeResults)**
+
+  Returns a SetScopeResults.
+
+**Return type:**
 
   [`SetScopeResults`](ansys.meshing.prime.SetScopeResults.md#ansys.meshing.prime.SetScopeResults)
 

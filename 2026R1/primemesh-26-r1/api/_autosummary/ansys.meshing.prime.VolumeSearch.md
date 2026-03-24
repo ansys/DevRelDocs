@@ -8,10 +8,11 @@ VolumeSearch allows you to check volume mesh quality.
 
 VolumeSearch performs volume mesh quality check based on different cell quality measures.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create VolumeSearch object.
+
+  Server model to create VolumeSearch object.
 
 <!-- !! processed by numpydoc !! -->
 

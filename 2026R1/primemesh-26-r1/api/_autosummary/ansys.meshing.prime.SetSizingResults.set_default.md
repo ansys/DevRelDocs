@@ -6,12 +6,14 @@
 
 Set the default values of the `SetSizingResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **warning_codes: List[WarningCode], optional**
-  : Warning codes associated with the set sizing parameters.
+
+  Warning codes associated with the set sizing parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the set sizing parameters.
+
+  Error code associated with the set sizing parameters.
 
 <!-- !! processed by numpydoc !! -->

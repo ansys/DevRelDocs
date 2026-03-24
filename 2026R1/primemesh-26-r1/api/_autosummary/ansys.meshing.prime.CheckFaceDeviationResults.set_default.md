@@ -6,12 +6,14 @@
 
 Set the default values of the `CheckFaceDeviationResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **n_deviated: int, optional**
-  : Number of faces with deviation.
+
+  Number of faces with deviation.
 
   **maximum_deviation: float, optional**
-  : Maximum deviation found.
+
+  Maximum deviation found.
 
 <!-- !! processed by numpydoc !! -->

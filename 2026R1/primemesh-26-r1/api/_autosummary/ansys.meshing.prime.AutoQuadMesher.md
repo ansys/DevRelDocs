@@ -6,10 +6,11 @@
 
 Generate full quad mesh.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create AutoQuadMesher object.
+
+  Server model to create AutoQuadMesher object.
 
 <!-- !! processed by numpydoc !! -->
 

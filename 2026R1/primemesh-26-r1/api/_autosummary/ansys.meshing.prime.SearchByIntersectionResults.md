@@ -6,19 +6,23 @@
 
 Results associated with search by face element intersection (face elements interfering with each other).
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SearchByIntersectionResults` object with default parameters.
+
+  Model to create a `SearchByIntersectionResults` object with default parameters.
 
   **n_found: int, optional**
-  : Number of face elements identified by intersection(face elements interfering with each other).
+
+  Number of face elements identified by intersection(face elements interfering with each other).
 
   **error_code: ErrorCode, optional**
-  : Error code associated with search intersection operation.
+
+  Error code associated with search intersection operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SearchByIntersectionResults` object with provided parameters.
+
+  JSON dictionary to create a `SearchByIntersectionResults` object with provided parameters.
 
 ### Examples
 

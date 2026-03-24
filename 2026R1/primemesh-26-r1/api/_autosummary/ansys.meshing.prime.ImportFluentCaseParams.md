@@ -6,16 +6,19 @@
 
 Parameters to import fluent case file.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ImportFluentCaseParams` object with default parameters.
+
+  Model to create a `ImportFluentCaseParams` object with default parameters.
 
   **append: bool, optional**
-  : Option to append imported case instead of resetting model to imported case.
+
+  Option to append imported case instead of resetting model to imported case.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ImportFluentCaseParams` object with provided parameters.
+
+  JSON dictionary to create a `ImportFluentCaseParams` object with provided parameters.
 
 ### Examples
 

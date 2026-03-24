@@ -6,14 +6,16 @@
 
 Create flow volume by the face labels defining the boundary of the volume.
 
-* **Parameters:**
+**Parameters:**
 
   **flow_volume_zone_name**
-  : Name for the volume zone of the created flow volume. The default is
+
+  Name for the volume zone of the created flow volume. The default is
     `"flow_volume"`.
 
   **cap_scope**
-  : Scope defining the face zonelets where the cap for flow volume must
+
+  Scope defining the face zonelets where the cap for flow volume must
     be created.
 
 <!-- !! processed by numpydoc !! -->

@@ -6,9 +6,10 @@
 
 Provides the runtime warning for PyPrimeMesh.
 
-* **Parameters:**
+**Parameters:**
 
   **message**
-  : Message to show.
+
+  Message to show.
 
 <!-- !! processed by numpydoc !! -->

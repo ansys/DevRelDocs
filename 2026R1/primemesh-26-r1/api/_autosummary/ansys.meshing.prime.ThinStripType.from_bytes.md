@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.ThinStripType.from_bytes"></a>
 
-#### ThinStripType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* ThinStripType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

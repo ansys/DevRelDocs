@@ -6,23 +6,27 @@
 
 Create caps on the given face zonelets.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : Id of part to associate face zonelets created to cap.
+
+  Id of part to associate face zonelets created to cap.
 
   **face_zonelets**
-  : Ids of face zonelets to be used to find caps.
+
+  Ids of face zonelets to be used to find caps.
 
   **params**
-  : Parameters to create caps.
 
-* **Returns:**
+  Parameters to create caps.
 
-  [`CreateCapResults`](ansys.meshing.prime.CreateCapResults.md#ansys.meshing.prime.CreateCapResults)
-  : Returns the CreateCapResults.
+**Returns:**
 
-* **Return type:**
+  **[`CreateCapResults`](ansys.meshing.prime.CreateCapResults.md#ansys.meshing.prime.CreateCapResults)**
+
+  Returns the CreateCapResults.
+
+**Return type:**
 
   [`CreateCapResults`](ansys.meshing.prime.CreateCapResults.md#ansys.meshing.prime.CreateCapResults)
 

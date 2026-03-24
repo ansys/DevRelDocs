@@ -6,17 +6,19 @@
 
 Sets the surface control scope.
 
-* **Parameters:**
+**Parameters:**
 
   **entities**
-  : Scope definition entities.
 
-* **Returns:**
+  Scope definition entities.
 
-  [`SetScopeResults`](ansys.meshing.prime.SetScopeResults.md#ansys.meshing.prime.SetScopeResults)
-  : Returns SetScopeResults.
+**Returns:**
 
-* **Return type:**
+  **[`SetScopeResults`](ansys.meshing.prime.SetScopeResults.md#ansys.meshing.prime.SetScopeResults)**
+
+  Returns SetScopeResults.
+
+**Return type:**
 
   [`SetScopeResults`](ansys.meshing.prime.SetScopeResults.md#ansys.meshing.prime.SetScopeResults)
 

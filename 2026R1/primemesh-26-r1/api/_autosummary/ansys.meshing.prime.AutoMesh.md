@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="automesh"></a>
-
 # AutoMesh
 
 <a id="ansys.meshing.prime.AutoMesh"></a>
@@ -13,10 +9,11 @@ Generates volume mesh.
 Performs volume meshing using various volume meshing algorithms.
 For example, with prisms.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create AutoMesh object.
+
+  Server model to create AutoMesh object.
 
 <!-- !! processed by numpydoc !! -->
 

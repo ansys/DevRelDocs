@@ -4,6 +4,6 @@
 
 #### *property* JoinParams.overlap_zone_name *: [str](https://docs.python.org/3.11/library/stdtypes.html#str)*
 
-Zone id to be assigned to overlap zonelets belonging to different zones.
+Name of face zone to which the overlap zonelets are assigned.
 
 <!-- !! processed by numpydoc !! -->

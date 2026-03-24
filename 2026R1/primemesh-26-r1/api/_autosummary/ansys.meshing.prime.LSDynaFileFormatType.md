@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.LSDynaFileFormatType"></a>
 
-### *class* ansys.meshing.prime.LSDynaFileFormatType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.LSDynaFileFormatType(\*values)
 
 Provides the format type to write the LS-DYNA file.
 

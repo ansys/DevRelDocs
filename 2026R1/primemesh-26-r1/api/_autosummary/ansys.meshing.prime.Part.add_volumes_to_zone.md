@@ -6,20 +6,23 @@
 
 Add volumes to zone.
 
-* **Parameters:**
+**Parameters:**
 
   **zone_id**
-  : Id of a zone .
+
+  Id of a zone .
 
   **volumes**
-  : Ids of volumes to be added.
 
-* **Returns:**
+  Ids of volumes to be added.
 
-  [`AddToZoneResults`](ansys.meshing.prime.AddToZoneResults.md#ansys.meshing.prime.AddToZoneResults)
-  : Returns the AddToZoneResults.
-  
-* **Return type:**
+**Returns:**
+
+  **[`AddToZoneResults`](ansys.meshing.prime.AddToZoneResults.md#ansys.meshing.prime.AddToZoneResults)**
+
+  Returns the AddToZoneResults.
+
+**Return type:**
 
   [`AddToZoneResults`](ansys.meshing.prime.AddToZoneResults.md#ansys.meshing.prime.AddToZoneResults)
 

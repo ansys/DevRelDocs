@@ -6,9 +6,10 @@
 
 Run a recipe on the server.
 
-* **Parameters:**
+**Parameters:**
 
   **recipe: str**
-  : Recipe to run. This must be a valid Python script.
+
+  Recipe to run. This must be a valid Python script.
 
 <!-- !! processed by numpydoc !! -->

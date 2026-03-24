@@ -6,15 +6,18 @@
 
 Set the default values of the `VolumeQualitySummaryParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **cell_quality_measures: List[CellQualityMeasure], optional**
-  : List of cell quality measures for volume quality diagnostics.
+
+  List of cell quality measures for volume quality diagnostics.
 
   **scope: ScopeDefinition, optional**
-  : Scope of the cell zonelets for volume quality diagnostics.
+
+  Scope of the cell zonelets for volume quality diagnostics.
 
   **quality_limit: Iterable[float], optional**
-  : Quality limit per cell quality measure. If the quality limit is not specified, the default quality limit is used.
+
+  Quality limit per cell quality measure. If the quality limit is not specified, the default quality limit is used.
 
 <!-- !! processed by numpydoc !! -->

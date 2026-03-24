@@ -6,19 +6,23 @@
 
 Results associated with set feature recoveries.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SetFeatureRecoveriesResults` object with default parameters.
+
+  Model to create a `SetFeatureRecoveriesResults` object with default parameters.
 
   **ids: Iterable[int], optional**
-  : Ids of added feature recovery controls.
+
+  Ids of added feature recovery controls.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the set feature recoveries.
+
+  Error code associated with the set feature recoveries.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SetFeatureRecoveriesResults` object with provided parameters.
+
+  JSON dictionary to create a `SetFeatureRecoveriesResults` object with provided parameters.
 
 ### Examples
 

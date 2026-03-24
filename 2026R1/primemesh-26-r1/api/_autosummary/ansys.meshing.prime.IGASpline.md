@@ -6,16 +6,19 @@
 
 Information of the spline.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `IGASpline` object with default parameters.
+
+  Model to create a `IGASpline` object with default parameters.
 
   **id: int, optional**
-  : Unique id of the spline.
+
+  Unique id of the spline.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `IGASpline` object with provided parameters.
+
+  JSON dictionary to create a `IGASpline` object with provided parameters.
 
 ### Examples
 

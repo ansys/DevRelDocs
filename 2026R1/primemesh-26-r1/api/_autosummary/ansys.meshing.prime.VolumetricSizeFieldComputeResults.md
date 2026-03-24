@@ -6,19 +6,23 @@
 
 Results associated with the compute volumetric size field operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `VolumetricSizeFieldComputeResults` object with default parameters.
+
+  Model to create a `VolumetricSizeFieldComputeResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the compute volumetric size field operation.
+
+  Error code associated with the compute volumetric size field operation.
 
   **size_field_id: int, optional**
-  : Id of the computed size field.
+
+  Id of the computed size field.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `VolumetricSizeFieldComputeResults` object with provided parameters.
+
+  JSON dictionary to create a `VolumetricSizeFieldComputeResults` object with provided parameters.
 
 ### Examples
 

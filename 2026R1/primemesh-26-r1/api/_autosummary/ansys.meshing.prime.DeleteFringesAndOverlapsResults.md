@@ -6,19 +6,23 @@
 
 Results associated with the delete fringes and overlapping faces operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `DeleteFringesAndOverlapsResults` object with default parameters.
+
+  Model to create a `DeleteFringesAndOverlapsResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the failure of operation.
+
+  Error code associated with the failure of operation.
 
   **n_deleted: int, optional**
-  : Number of face elements deleted.
+
+  Number of face elements deleted.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `DeleteFringesAndOverlapsResults` object with provided parameters.
+
+  JSON dictionary to create a `DeleteFringesAndOverlapsResults` object with provided parameters.
 
 ### Examples
 

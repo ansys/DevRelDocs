@@ -8,26 +8,31 @@ Search face zonelets to identify spikes.
 
 Search face zonelets to identify spikes with provided spike parameters
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : Id of part.
+
+  Id of part.
 
   **face_zonelets**
-  : Ids of face zonelets.
+
+  Ids of face zonelets.
 
   **register_id**
-  : Id of register.
+
+  Id of register.
 
   **params**
-  : Parameters used to identify spikes.
 
-* **Returns:**
-  
-  [`SearchBySpikeResults`](ansys.meshing.prime.SearchBySpikeResults.md#ansys.meshing.prime.SearchBySpikeResults)
-  : Returns the SearchBySpikeResults.
+  Parameters used to identify spikes.
 
-* **Return type:**
+**Returns:**
+
+  **[`SearchBySpikeResults`](ansys.meshing.prime.SearchBySpikeResults.md#ansys.meshing.prime.SearchBySpikeResults)**
+
+  Returns the SearchBySpikeResults.
+
+**Return type:**
 
   [`SearchBySpikeResults`](ansys.meshing.prime.SearchBySpikeResults.md#ansys.meshing.prime.SearchBySpikeResults)
 

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="cadrefacetingparams"></a>
-
 # CadRefacetingParams
 
 <a id="ansys.meshing.prime.CadRefacetingParams"></a>
@@ -10,31 +6,39 @@
 
 Parameters to refacet CAD during import.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `CadRefacetingParams` object with default parameters.
+
+  Model to create a `CadRefacetingParams` object with default parameters.
 
   **cad_faceter: CadFaceter, optional**
-  : Specify the available choices for faceter. The available option is Parasolid. (Note: ACIS faceter is being deprecated from 25R1).
+
+  Specify the available choices for faceter. The available option is Parasolid. (Note: ACIS faceter is being deprecated from 25R1).
 
   **faceting_resolution: CadRefacetingResolution, optional**
-  : Set the faceting resolution.
+
+  Set the faceting resolution.
 
   **custom_surface_deviation_tolerance: float, optional**
-  : Set custom tolerance for surface deviation in specified length unit.
+
+  Set custom tolerance for surface deviation in specified length unit.
 
   **custom_normal_angle_tolerance: float, optional**
-  : Set custom tolerance for normal angle in degree.
+
+  Set custom tolerance for normal angle in degree.
 
   **max_edge_size_limit: CadRefacetingMaxEdgeSizeLimit, optional**
-  : Specify maximum edge size limit for faceting.
+
+  Specify maximum edge size limit for faceting.
 
   **max_edge_size: float, optional**
-  : Set maximum edge size of the facets.
+
+  Set maximum edge size of the facets.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `CadRefacetingParams` object with provided parameters.
+
+  JSON dictionary to create a `CadRefacetingParams` object with provided parameters.
 
 ### Examples
 

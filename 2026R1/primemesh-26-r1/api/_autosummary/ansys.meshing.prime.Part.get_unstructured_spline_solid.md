@@ -6,12 +6,14 @@
 
 Gets the unstructured solid spline for the part.
 
-* **Returns:**
 
-  [`IGAUnstructuredSplineSolid`](ansys.meshing.prime.IGAUnstructuredSplineSolid.md#ansys.meshing.prime.IGAUnstructuredSplineSolid)
-  : Returns the solid spline structure.
+**Returns:**
 
-* **Return type:**
+  **[`IGAUnstructuredSplineSolid`](ansys.meshing.prime.IGAUnstructuredSplineSolid.md#ansys.meshing.prime.IGAUnstructuredSplineSolid)**
+
+  Returns the solid spline structure.
+
+**Return type:**
 
   [`IGAUnstructuredSplineSolid`](ansys.meshing.prime.IGAUnstructuredSplineSolid.md#ansys.meshing.prime.IGAUnstructuredSplineSolid)
 

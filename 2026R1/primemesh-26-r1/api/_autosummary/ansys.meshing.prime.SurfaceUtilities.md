@@ -8,10 +8,11 @@ Performs various general surface utilities algorithms.
 
 For example, copy zonelets, resolve surface intersections.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create SurfaceUtilities object.
+
+  Server model to create SurfaceUtilities object.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -6,17 +6,19 @@
 
 Get the name of given zone.
 
-* **Parameters:**
+**Parameters:**
 
   **id**
-  : Id of zone.
 
-* **Returns:**
-  
-  [`str`](https://docs.python.org/3.11/library/stdtypes.html#str)
-  : Return the zone name. Return empty name if the id is invalid.
+  Id of zone.
 
-* **Return type:**
+**Returns:**
+
+  **[`str`](https://docs.python.org/3.11/library/stdtypes.html#str)**
+
+  Return the zone name. Return empty name if the id is invalid.
+
+**Return type:**
 
   [`str`](https://docs.python.org/3.11/library/stdtypes.html#str)
 

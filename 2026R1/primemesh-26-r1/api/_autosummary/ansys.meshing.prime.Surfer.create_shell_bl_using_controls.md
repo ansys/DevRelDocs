@@ -6,22 +6,27 @@
 
 Create ShellBL using data stored in controls.
 
-* **Parameters:**
+**Parameters:**
+
   **part_id**
-  : Id of the part.
+
+  Id of the part.
 
   **shell_bl_control_ids**
-  : Ids of ShellBL control.
+
+  Ids of ShellBL control.
 
   **shell_bl_params**
-  : Parameters related to ShellBL.
 
-* **Returns:**
+  Parameters related to ShellBL.
 
-  [`CreateShellBLResults`](ansys.meshing.prime.CreateShellBLResults.md#ansys.meshing.prime.CreateShellBLResults)
-  : Returns the CreateShellBLResults.
+**Returns:**
 
-* **Return type:**
+  **[`CreateShellBLResults`](ansys.meshing.prime.CreateShellBLResults.md#ansys.meshing.prime.CreateShellBLResults)**
+
+  Returns the CreateShellBLResults.
+
+**Return type:**
 
   [`CreateShellBLResults`](ansys.meshing.prime.CreateShellBLResults.md#ansys.meshing.prime.CreateShellBLResults)
 

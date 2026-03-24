@@ -6,25 +6,27 @@
 
 Download the SCDOC file for the mixing elbow example.
 
-* **Parameters:**
+**Parameters:**
 
   **destination**
-  : Path to download the example file to. The default
+
+  Path to download the example file to. The default
     is `None`, in which case the default path for app data
     is used.
 
   **force**
-  : Whether to download the example file. The default is
+
+  Whether to download the example file. The default is
     `False`, in which case if the example file is cached, it
     is reused.
 
-* **Returns:**
-  
+**Returns:**
 
-  [`str`](https://docs.python.org/3.11/library/stdtypes.html#str)
-  : Local path to the downloaded example file.
-  
-* **Return type:**
+  **[`str`](https://docs.python.org/3.11/library/stdtypes.html#str)**
+
+  Local path to the downloaded example file.
+
+**Return type:**
 
   [`Union`](https://docs.python.org/3.11/library/typing.html#typing.Union)[[`str`](https://docs.python.org/3.11/library/stdtypes.html#str), [`PathLike`](https://docs.python.org/3.11/library/os.html#os.PathLike)]
 

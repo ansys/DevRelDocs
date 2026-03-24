@@ -6,16 +6,19 @@
 
 Defines parameters to create material point.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `CreateMaterialPointParams` object with default parameters.
+
+  Model to create a `CreateMaterialPointParams` object with default parameters.
 
   **type: MaterialPointType, optional**
-  : Defines the type of material point.
+
+  Defines the type of material point.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `CreateMaterialPointParams` object with provided parameters.
+
+  JSON dictionary to create a `CreateMaterialPointParams` object with provided parameters.
 
 ### Examples
 

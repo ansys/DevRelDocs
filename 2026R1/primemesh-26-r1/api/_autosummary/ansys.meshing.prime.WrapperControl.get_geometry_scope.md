@@ -6,12 +6,14 @@
 
 Gets geometry scope of wrapper control.
 
-* **Returns:**
 
-  [`ScopeDefinition`](ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition)
-  : Returns ScopeDefinition to scope entities from wrapper control.
+**Returns:**
 
-* **Return type:**
+  **[`ScopeDefinition`](ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition)**
+
+  Returns ScopeDefinition to scope entities from wrapper control.
+
+**Return type:**
 
   [`ScopeDefinition`](ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.HexCoreTransitionLayerType"></a>
 
-### *class* ansys.meshing.prime.HexCoreTransitionLayerType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.HexCoreTransitionLayerType(\*values)
 
 Handle size transition of hex cells.
 

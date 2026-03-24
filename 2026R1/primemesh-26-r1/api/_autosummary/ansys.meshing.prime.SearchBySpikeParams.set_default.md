@@ -6,9 +6,10 @@
 
 Set the default values of the `SearchBySpikeParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **spike_angle: float, optional**
-  : Threshold angle for spike detection.
+
+  Threshold angle for spike detection.
 
 <!-- !! processed by numpydoc !! -->

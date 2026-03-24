@@ -8,19 +8,23 @@ Size field computed using hard size control enables you to maintain a uniform si
 
 The hard sizing will override any other specified size.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `HardSizingParams` object with default parameters.
+
+  Model to create a `HardSizingParams` object with default parameters.
 
   **min: float, optional**
-  : Minimum size used for computing edge and face size using hard size control.
+
+  Minimum size used for computing edge and face size using hard size control.
 
   **growth_rate: float, optional**
-  : Growth rate used for transitioning from one element size to neighbor element size.
+
+  Growth rate used for transitioning from one element size to neighbor element size.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `HardSizingParams` object with provided parameters.
+
+  JSON dictionary to create a `HardSizingParams` object with provided parameters.
 
 ### Examples
 

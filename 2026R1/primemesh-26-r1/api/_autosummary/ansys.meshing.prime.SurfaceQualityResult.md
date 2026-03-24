@@ -6,31 +6,39 @@
 
 Result of surface quality.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SurfaceQualityResult` object with default parameters.
+
+  Model to create a `SurfaceQualityResult` object with default parameters.
 
   **face_quality_measure: FaceQualityMeasure, optional**
-  : Type of the face quality measure.
+
+  Type of the face quality measure.
 
   **measure_name: str, optional**
-  : Name of the face quality measure.
+
+  Name of the face quality measure.
 
   **quality_limit: float, optional**
-  : Target quality limit used to find failures.
+
+  Target quality limit used to find failures.
 
   **n_found: int, optional**
-  : Number of failed faces.
+
+  Number of failed faces.
 
   **max_quality: float, optional**
-  : Maximum value of quality measure.
+
+  Maximum value of quality measure.
 
   **min_quality: float, optional**
-  : Minimum value of quality measure.
+
+  Minimum value of quality measure.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SurfaceQualityResult` object with provided parameters.
+
+  JSON dictionary to create a `SurfaceQualityResult` object with provided parameters.
 
 ### Examples
 

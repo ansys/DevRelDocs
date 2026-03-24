@@ -6,12 +6,14 @@
 
 Set the default values of the `MergeVolumesParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **merge_to_neighbor_volume: bool, optional**
-  : Option to merge given volumes to their neighbor volume.
+
+  Option to merge given volumes to their neighbor volume.
 
   **neighbor_volumes: Iterable[int], optional**
-  : Ids of volume that are neighbors to given volumes for merging.
+
+  Ids of volume that are neighbors to given volumes for merging.
 
 <!-- !! processed by numpydoc !! -->

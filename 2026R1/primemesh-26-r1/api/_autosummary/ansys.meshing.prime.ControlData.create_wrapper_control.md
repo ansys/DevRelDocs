@@ -6,12 +6,14 @@
 
 Create a wrapper control with default values.
 
-* **Returns:**
 
-  [`WrapperControl`](ansys.meshing.prime.WrapperControl.md#ansys.meshing.prime.WrapperControl)
-  : Wrapper control.
+**Returns:**
 
-* **Return type:**
+  **[`WrapperControl`](ansys.meshing.prime.WrapperControl.md#ansys.meshing.prime.WrapperControl)**
+
+  Wrapper control.
+
+**Return type:**
 
   [`WrapperControl`](ansys.meshing.prime.WrapperControl.md#ansys.meshing.prime.WrapperControl)
 

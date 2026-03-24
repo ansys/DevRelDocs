@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="boundaryfittedsplineparams"></a>
-
 # BoundaryFittedSplineParams
 
 <a id="ansys.meshing.prime.BoundaryFittedSplineParams"></a>
@@ -10,46 +6,59 @@
 
 Boundary fitted spline fitting parameters.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `BoundaryFittedSplineParams` object with default parameters.
+
+  Model to create a `BoundaryFittedSplineParams` object with default parameters.
 
   **degree_u: int, optional**
-  : Degree of spline in u direction.
+
+  Degree of spline in u direction.
 
   **degree_v: int, optional**
-  : Degree of spline in v direction.
+
+  Degree of spline in v direction.
 
   **degree_w: int, optional**
-  : Degree of spline in w direction.
+
+  Degree of spline in w direction.
 
   **refinement_fraction_u: float, optional**
-  : Fraction of input mesh size that sets the control points size in u direction. This is used in program controlled control points selection mode.
+
+  Fraction of input mesh size that sets the control points size in u direction. This is used in program controlled control points selection mode.
 
   **refinement_fraction_v: float, optional**
-  : Fraction of input mesh size that sets the control points size in v direction. This is used in program controlled control points selection mode.
+
+  Fraction of input mesh size that sets the control points size in v direction. This is used in program controlled control points selection mode.
 
   **refinement_fraction_w: float, optional**
-  : Fraction of input mesh size that sets the control points size in w direction. This is used in program controlled control points selection mode.
+
+  Fraction of input mesh size that sets the control points size in w direction. This is used in program controlled control points selection mode.
 
   **control_points_count_u: int, optional**
-  : Spline control points count in U direction. Used in manual control points selection mode.
+
+  Spline control points count in U direction. Used in manual control points selection mode.
 
   **control_points_count_v: int, optional**
-  : Spline control points count in V direction. Used in manual control points selection mode.
+
+  Spline control points count in V direction. Used in manual control points selection mode.
 
   **control_points_count_w: int, optional**
-  : Spline control points count in W direction. Used in manual control points selection mode.
+
+  Spline control points count in W direction. Used in manual control points selection mode.
 
   **n_refine: int, optional**
-  : Spline refinement level for rendering.
+
+  Spline refinement level for rendering.
 
   **control_point_selection_type: ControlPointSelection, optional**
-  : Spline control points selection type.
+
+  Spline control points selection type.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `BoundaryFittedSplineParams` object with provided parameters.
+
+  JSON dictionary to create a `BoundaryFittedSplineParams` object with provided parameters.
 
 ### Examples
 

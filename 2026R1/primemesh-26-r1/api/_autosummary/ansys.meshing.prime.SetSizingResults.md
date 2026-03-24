@@ -6,19 +6,23 @@
 
 Result associated with the different set sizing parameters.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SetSizingResults` object with default parameters.
+
+  Model to create a `SetSizingResults` object with default parameters.
 
   **warning_codes: List[WarningCode], optional**
-  : Warning codes associated with the set sizing parameters.
+
+  Warning codes associated with the set sizing parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the set sizing parameters.
+
+  Error code associated with the set sizing parameters.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SetSizingResults` object with provided parameters.
+
+  JSON dictionary to create a `SetSizingResults` object with provided parameters.
 
 ### Examples
 

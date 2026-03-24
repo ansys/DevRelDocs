@@ -8,19 +8,23 @@ ThinVolumeControl allows you to generate prisms in the space between surfaces.
 
 ThinVolumeControl allows you to control generation of prisms in the thin space between surfaces. Controls include setting the source face scope, target face scope and thin volume mesh parameters.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create ThinVolumeControl object.
+
+  Server model to create ThinVolumeControl object.
 
   **id**
-  : Id of the ThinVolumeControl.
+
+  Id of the ThinVolumeControl.
 
   **object_id**
-  : Object id of the ThinVolumeControl.
+
+  Object id of the ThinVolumeControl.
 
   **name**
-  : Name of the ThinVolumeControl.
+
+  Name of the ThinVolumeControl.
 
 <!-- !! processed by numpydoc !! -->
 

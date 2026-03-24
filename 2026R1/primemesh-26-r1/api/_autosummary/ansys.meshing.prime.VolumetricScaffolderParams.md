@@ -6,19 +6,23 @@
 
 Parameters to control delete shadowed topofaces operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `VolumetricScaffolderParams` object with default parameters.
+
+  Model to create a `VolumetricScaffolderParams` object with default parameters.
 
   **absolute_dist_tol: float, optional**
-  : Specify distance tolerance between overlapping faces.
+
+  Specify distance tolerance between overlapping faces.
 
   **only_check_exact_overlaps: bool, optional**
-  : Check only for fully overlapping topofaces when true.
+
+  Check only for fully overlapping topofaces when true.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `VolumetricScaffolderParams` object with provided parameters.
+
+  JSON dictionary to create a `VolumetricScaffolderParams` object with provided parameters.
 
 ### Examples
 

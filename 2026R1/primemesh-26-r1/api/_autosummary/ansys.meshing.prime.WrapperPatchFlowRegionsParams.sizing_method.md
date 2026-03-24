@@ -4,7 +4,7 @@
 
 #### *property* WrapperPatchFlowRegionsParams.sizing_method *: [SizeFieldType](ansys.meshing.prime.SizeFieldType.md#ansys.meshing.prime.SizeFieldType)*
 
-Used to define sizing method for patching.
+Method used to define sizing method for patching.
 
 **This is a beta parameter**. **The behavior and name may change in the future**.
 

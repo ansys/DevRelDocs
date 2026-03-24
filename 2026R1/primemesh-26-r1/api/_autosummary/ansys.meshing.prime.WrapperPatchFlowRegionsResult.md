@@ -6,33 +6,39 @@
 
 Result structure associated with patch holes operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `WrapperPatchFlowRegionsResult` object with default parameters.
+
+  Model to create a `WrapperPatchFlowRegionsResult` object with default parameters.
 
   **warning_codes: List[WarningCode], optional**
-  : Warning codes associated with the patch holes operation.
+
+  Warning codes associated with the patch holes operation.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with a patch holes operation.
+
+  Error code associated with a patch holes operation.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **id: int, optional**
-  : Id of part created with hole patches.
+
+  Id of part created with hole patches.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **name: str, optional**
-  : Name of part created with hole patches.
+
+  Name of part created with hole patches.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `WrapperPatchFlowRegionsResult` object with provided parameters.
+
+  JSON dictionary to create a `WrapperPatchFlowRegionsResult` object with provided parameters.
 
 ### Examples
 

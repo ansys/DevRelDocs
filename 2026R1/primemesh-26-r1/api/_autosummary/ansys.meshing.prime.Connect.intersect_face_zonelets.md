@@ -6,26 +6,31 @@
 
 Perform intersection between specified face zonelets of the part with the given intersect parameters.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : Id of the part.
+
+  Id of the part.
 
   **face_zonelet_ids**
-  : Face zonelets to be intersected.
+
+  Face zonelets to be intersected.
 
   **with_face_zonelet_ids**
-  : Face zonelets to be intersected with.
+
+  Face zonelets to be intersected with.
 
   **params**
-  : Parameters for intersection.
 
-* **Returns:**
+  Parameters for intersection.
 
-  [`ConnectResults`](ansys.meshing.prime.ConnectResults.md#ansys.meshing.prime.ConnectResults)
-  : Returns the ConnectResults.
+**Returns:**
 
-* **Return type:**
+  **[`ConnectResults`](ansys.meshing.prime.ConnectResults.md#ansys.meshing.prime.ConnectResults)**
+
+  Returns the ConnectResults.
+
+**Return type:**
 
   [`ConnectResults`](ansys.meshing.prime.ConnectResults.md#ansys.meshing.prime.ConnectResults)
 

@@ -6,13 +6,15 @@
 
 VolumeSweeper class provide functions to volume mesh a given set of topovolumes by sweeping or stacking a set of face and edge zonelets. Provide operations to generate volume mesh using stacker technology.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create VolumeSweeper object.
+
+  Server model to create VolumeSweeper object.
 
   **part_id**
-  : Id of the part.
+
+  Id of the part.
 
 <!-- !! processed by numpydoc !! -->
 

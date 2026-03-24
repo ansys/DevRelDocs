@@ -6,22 +6,27 @@
 
 MorphBCParams contains the input parameters for calculating the boundary conditions for a morphing problem.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `MorphBCParams` object with default parameters.
+
+  Model to create a `MorphBCParams` object with default parameters.
 
   **morph_region_method: BCsVolumetricModality, optional**
-  : Indicate options to identify morphable regions in the input volumetric mesh.
+
+  Indicate options to identify morphable regions in the input volumetric mesh.
 
   **morphable_layers: int, optional**
-  : Number of layers around defined boundary.
+
+  Number of layers around defined boundary.
 
   **morph_region_box_extension: float, optional**
-  : Percentage extension for the volumetric box.
+
+  Percentage extension for the volumetric box.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `MorphBCParams` object with provided parameters.
+
+  JSON dictionary to create a `MorphBCParams` object with provided parameters.
 
 ### Examples
 

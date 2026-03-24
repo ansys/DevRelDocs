@@ -6,19 +6,23 @@
 
 Parameters to control MAPDL CDB import settings.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ImportMapdlCdbParams` object with default parameters.
+
+  Model to create a `ImportMapdlCdbParams` object with default parameters.
 
   **drop_mid_nodes: bool, optional**
-  : Option to import quadratic mesh elements as linear by skipping mid nodes.
+
+  Option to import quadratic mesh elements as linear by skipping mid nodes.
 
   **append: bool, optional**
-  : Option to append imported cdb into existing model.
+
+  Option to append imported cdb into existing model.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ImportMapdlCdbParams` object with provided parameters.
+
+  JSON dictionary to create a `ImportMapdlCdbParams` object with provided parameters.
 
 ### Examples
 

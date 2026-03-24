@@ -6,16 +6,19 @@
 
 ResolveIntersectionsParams define parameters for resolve intersections.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ResolveIntersectionsParams` object with default parameters.
+
+  Model to create a `ResolveIntersectionsParams` object with default parameters.
 
   **number_of_threads: int, optional**
-  : Number of threads for resolve intersections multithreaded operation.
+
+  Number of threads for resolve intersections multithreaded operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ResolveIntersectionsParams` object with provided parameters.
+
+  JSON dictionary to create a `ResolveIntersectionsParams` object with provided parameters.
 
 ### Examples
 

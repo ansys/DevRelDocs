@@ -6,88 +6,105 @@
 
 Parameters for detect and treat holes operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `DetectAndTreatHolesParams` object with default parameters.
+
+  Model to create a `DetectAndTreatHolesParams` object with default parameters.
 
   **detect_and_defeature_edges_near_holes: bool, optional**
-  : Option to detect and defeature edges near all holes.
+
+  Option to detect and defeature edges near all holes.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **detect_circular_holes: bool, optional**
-  : Option to detect circular holes.
+
+  Option to detect circular holes.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **detect_non_circular_holes: bool, optional**
-  : Option to detect non-circular holes.
+
+  Option to detect non-circular holes.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **offset_holes: bool, optional**
-  : Option to offset holes.
+
+  Option to offset holes.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **mesh_offset_faces: bool, optional**
-  : Option to mesh the offset holes.
+
+  Option to mesh the offset holes.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **detect_holes_params: DetectHolesParams, optional**
-  : Parameters for detect holes operation.
+
+  Parameters for detect holes operation.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **detect_circular_holes_params: DetectCircularHolesParams, optional**
-  : Parameters for detect circular holes operation.
+
+  Parameters for detect circular holes operation.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **detect_non_circular_holes_params: DetectNonCircularHolesParams, optional**
-  : Parameters for detect non circular holes operation.
+
+  Parameters for detect non circular holes operation.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **hole_proximity_tolerance: float, optional**
-  : Edge proximity tolerance for holes.
+
+  Edge proximity tolerance for holes.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **merge_face_normals_angle: float, optional**
-  : Merge faces when the normal angle between the faces is below the provided value.
+
+  Merge faces when the normal angle between the faces is below the provided value.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **edge_sharp_corner_angle: float, optional**
-  : Merge edges when the angle between the edges are below the provided value.
+
+  Merge edges when the angle between the edges are below the provided value.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **fragmented_edge_tolerance: float, optional**
-  : Fragmented edge length tolerance for merging edges.
+
+  Fragmented edge length tolerance for merging edges.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **offset_distance: float, optional**
-  : Offset distance for creating offset edge.
+
+  Offset distance for creating offset edge.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **edge_mesh_constant_size: float, optional**
-  : Constant size used for edge meshing.
+
+  Constant size used for edge meshing.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **surface_mesh_constant_size: float, optional**
-  : Constant size used for surface meshing.
+
+  Constant size used for surface meshing.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `DetectAndTreatHolesParams` object with provided parameters.
+
+  JSON dictionary to create a `DetectAndTreatHolesParams` object with provided parameters.
 
 ### Examples
 

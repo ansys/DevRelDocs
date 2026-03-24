@@ -6,19 +6,23 @@
 
 Results associated with merge zonelets.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `MergeZoneletsResults` object with default parameters.
+
+  Model to create a `MergeZoneletsResults` object with default parameters.
 
   **merged_zonelets: Iterable[int], optional**
-  : Ids of zonelets to which input zonelets are merged.
+
+  Ids of zonelets to which input zonelets are merged.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the failure of operation.
+
+  Error code associated with the failure of operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `MergeZoneletsResults` object with provided parameters.
+
+  JSON dictionary to create a `MergeZoneletsResults` object with provided parameters.
 
 ### Examples
 

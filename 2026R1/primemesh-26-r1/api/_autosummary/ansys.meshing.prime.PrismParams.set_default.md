@@ -6,12 +6,14 @@
 
 Set the default values of the `PrismParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **stair_step: PrismStairStep, optional**
-  : Prism stairstep parameters.
+
+  Prism stairstep parameters.
 
   **no_imprint_zonelets: Iterable[int], optional**
-  : Option to specify zonelets to skip prism imprint.
+
+  Option to specify zonelets to skip prism imprint.
 
 <!-- !! processed by numpydoc !! -->

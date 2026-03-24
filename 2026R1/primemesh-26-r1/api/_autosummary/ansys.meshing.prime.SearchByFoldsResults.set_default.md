@@ -6,12 +6,14 @@
 
 Set the default values of the `SearchByFoldsResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **n_found: int, optional**
-  : Number of folds identified.
+
+  Number of folds identified.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with search folds operation.
+
+  Error code associated with search folds operation.
 
 <!-- !! processed by numpydoc !! -->

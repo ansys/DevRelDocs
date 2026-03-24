@@ -6,15 +6,18 @@
 
 Set the default values of the `IGAUnstructuredSplineSolid` object.
 
-* **Parameters:**
+**Parameters:**
 
   **id: int, optional**
-  : Id of the unstructured spline solid.
+
+  Id of the unstructured spline solid.
 
   **degree: int, optional**
-  : Degree of the spline solid.
+
+  Degree of the spline solid.
 
   **invalid_jacobian_elements_count: int, optional**
-  : Count of elements with negative jacobian.
+
+  Count of elements with negative jacobian.
 
 <!-- !! processed by numpydoc !! -->

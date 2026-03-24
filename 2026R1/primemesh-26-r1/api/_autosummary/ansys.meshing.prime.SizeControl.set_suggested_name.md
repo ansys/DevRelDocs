@@ -6,17 +6,19 @@
 
 Set the unique name for the size control to a suggested name.
 
-* **Parameters:**
+**Parameters:**
 
   **name**
-  : Suggested name for the size control.
 
-* **Returns:**
+  Suggested name for the size control.
 
-  [`SetNameResults`](ansys.meshing.prime.SetNameResults.md#ansys.meshing.prime.SetNameResults)
-  : Newly suggested name for the size control.
+**Returns:**
 
-* **Return type:**
+  **[`SetNameResults`](ansys.meshing.prime.SetNameResults.md#ansys.meshing.prime.SetNameResults)**
+
+  Newly suggested name for the size control.
+
+**Return type:**
 
   [`SetNameResults`](ansys.meshing.prime.SetNameResults.md#ansys.meshing.prime.SetNameResults)
 

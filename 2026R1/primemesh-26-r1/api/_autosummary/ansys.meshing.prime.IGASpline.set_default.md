@@ -6,9 +6,10 @@
 
 Set the default values of the `IGASpline` object.
 
-* **Parameters:**
+**Parameters:**
 
   **id: int, optional**
-  : Unique id of the spline.
+
+  Unique id of the spline.
 
 <!-- !! processed by numpydoc !! -->

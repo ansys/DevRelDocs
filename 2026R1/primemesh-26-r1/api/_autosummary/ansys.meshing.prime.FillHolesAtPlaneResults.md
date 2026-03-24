@@ -6,28 +6,35 @@
 
 Results associated with fill holes at given plane.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `FillHolesAtPlaneResults` object with default parameters.
+
+  Model to create a `FillHolesAtPlaneResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the failure of operation.
+
+  Error code associated with the failure of operation.
 
   **warning_codes: List[WarningCode], optional**
-  : Warning codes associated with operation.
+
+  Warning codes associated with operation.
 
   **created_face_zonelets: Iterable[int], optional**
-  : Ids of face zonelets created to fill the holes.
+
+  Ids of face zonelets created to fill the holes.
 
   **assigned_zone_name: str, optional**
-  : Name assigned to zone created. Suffix is added to suggested name if the name not available.
+
+  Name assigned to zone created. Suffix is added to suggested name if the name not available.
 
   **created_zone_id: int, optional**
-  : Id assigned to zone created.
+
+  Id assigned to zone created.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `FillHolesAtPlaneResults` object with provided parameters.
+
+  JSON dictionary to create a `FillHolesAtPlaneResults` object with provided parameters.
 
 ### Examples
 

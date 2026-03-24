@@ -6,33 +6,39 @@
 
 Defines MultiZone edge biasing control parameters.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `MultiZoneEdgeBiasingParams` object with default parameters.
+
+  Model to create a `MultiZoneEdgeBiasingParams` object with default parameters.
 
   **face_scope: ScopeDefinition, optional**
-  : Reference face zonelets to control mesh clustering orientation.
+
+  Reference face zonelets to control mesh clustering orientation.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **edge_scope: ScopeDefinition, optional**
-  : Edge zonelets to control the expanse of edge biasing.
+
+  Edge zonelets to control the expanse of edge biasing.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **bias_factor: float, optional**
-  : Bias factor used for MultiZone edge biasing control.
+
+  Bias factor used for MultiZone edge biasing control.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **n_divisions: int, optional**
-  : Number of divisions on the section where edge biasing is done.
+
+  Number of divisions on the section where edge biasing is done.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `MultiZoneEdgeBiasingParams` object with provided parameters.
+
+  JSON dictionary to create a `MultiZoneEdgeBiasingParams` object with provided parameters.
 
 ### Examples
 

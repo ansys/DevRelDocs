@@ -6,19 +6,23 @@
 
 Result structure associated with the check face deviation operations.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `CheckFaceDeviationResults` object with default parameters.
+
+  Model to create a `CheckFaceDeviationResults` object with default parameters.
 
   **n_deviated: int, optional**
-  : Number of faces with deviation.
+
+  Number of faces with deviation.
 
   **maximum_deviation: float, optional**
-  : Maximum deviation found.
+
+  Maximum deviation found.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `CheckFaceDeviationResults` object with provided parameters.
+
+  JSON dictionary to create a `CheckFaceDeviationResults` object with provided parameters.
 
 ### Examples
 

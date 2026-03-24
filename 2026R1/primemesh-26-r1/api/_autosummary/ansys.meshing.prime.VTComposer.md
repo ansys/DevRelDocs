@@ -6,13 +6,15 @@
 
 VTComposer is used for fix topology corrections like separate, pinch.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create VTComposer object.
+
+  Server model to create VTComposer object.
 
   **part_id**
-  : Id of the part.
+
+  Id of the part.
 
 <!-- !! processed by numpydoc !! -->
 

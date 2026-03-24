@@ -6,10 +6,11 @@
 
 Set the parameters for map meshing in terms of topofaces during MultiZone mesh.
 
-* **Parameters:**
+**Parameters:**
 
   **scope_info**
-  : Scoped topofaces to be map meshed.
+
+  Scoped topofaces to be map meshed.
 
 ### Notes
 

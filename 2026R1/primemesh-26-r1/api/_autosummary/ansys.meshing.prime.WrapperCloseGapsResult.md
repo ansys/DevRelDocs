@@ -6,19 +6,23 @@
 
 Result structure associated with close gaps operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `WrapperCloseGapsResult` object with default parameters.
+
+  Model to create a `WrapperCloseGapsResult` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with a close gaps operation.
+
+  Error code associated with a close gaps operation.
 
   **part_id: int, optional**
-  : Id of part created with gap cover patches.
+
+  Id of part created with gap cover patches.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `WrapperCloseGapsResult` object with provided parameters.
+
+  JSON dictionary to create a `WrapperCloseGapsResult` object with provided parameters.
 
 ### Examples
 

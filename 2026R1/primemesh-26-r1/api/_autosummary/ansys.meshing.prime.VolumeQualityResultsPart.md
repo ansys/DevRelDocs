@@ -6,34 +6,43 @@
 
 Result of volume quality of part.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `VolumeQualityResultsPart` object with default parameters.
+
+  Model to create a `VolumeQualityResultsPart` object with default parameters.
 
   **cell_quality_measure: CellQualityMeasure, optional**
-  : Type of the cell quality measure.
+
+  Type of the cell quality measure.
 
   **measure_name: str, optional**
-  : Name of the cell quality measure.
+
+  Name of the cell quality measure.
 
   **part_id: int, optional**
-  : Id of the part for which quality is computed.
+
+  Id of the part for which quality is computed.
 
   **quality_limit: float, optional**
-  : Target quality limit used to find failures.
+
+  Target quality limit used to find failures.
 
   **n_found: int, optional**
-  : Number of failed cells.
+
+  Number of failed cells.
 
   **max_quality: float, optional**
-  : Maximum value of quality measure.
+
+  Maximum value of quality measure.
 
   **min_quality: float, optional**
-  : Minimum value of quality measure.
+
+  Minimum value of quality measure.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `VolumeQualityResultsPart` object with provided parameters.
+
+  JSON dictionary to create a `VolumeQualityResultsPart` object with provided parameters.
 
 ### Examples
 

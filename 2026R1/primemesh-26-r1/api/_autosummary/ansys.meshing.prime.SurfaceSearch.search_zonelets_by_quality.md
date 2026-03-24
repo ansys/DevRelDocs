@@ -6,26 +6,31 @@
 
 Search face zonelets with the provided quality parameters and applies register id on face elements found.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : Id of the part.
+
+  Id of the part.
 
   **face_zonelets**
-  : Ids of the face zonelets whose element search is performed.
+
+  Ids of the face zonelets whose element search is performed.
 
   **register_id**
-  : Id used to register face elements found by the search.
+
+  Id used to register face elements found by the search.
 
   **params**
-  : Quality parameters used to search face elements.
 
-* **Returns:**
+  Quality parameters used to search face elements.
 
-  [`SearchByQualityResults`](ansys.meshing.prime.SearchByQualityResults.md#ansys.meshing.prime.SearchByQualityResults)
-  : Returns the SearchByQualityResults.
+**Returns:**
 
-* **Return type:**
+  **[`SearchByQualityResults`](ansys.meshing.prime.SearchByQualityResults.md#ansys.meshing.prime.SearchByQualityResults)**
+
+  Returns the SearchByQualityResults.
+
+**Return type:**
 
   [`SearchByQualityResults`](ansys.meshing.prime.SearchByQualityResults.md#ansys.meshing.prime.SearchByQualityResults)
 

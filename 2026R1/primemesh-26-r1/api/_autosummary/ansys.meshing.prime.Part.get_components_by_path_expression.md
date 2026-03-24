@@ -6,17 +6,18 @@
 
 Gets component names with the provided path expression.
 
-* **Parameters:**
+**Parameters:**
 
   **path_expression**
-  : Path expression to determine component names that should be returned.
 
-* **Returns:**
+  Path expression to determine component names that should be returned.
+
+**Returns:**
 
   `List`[[`str`](https://docs.python.org/3.11/library/stdtypes.html#str)]
-  : Returns a list of component names.
+  Returns a list of component names.
 
-* **Return type:**
+**Return type:**
 
   [`List`](https://docs.python.org/3.11/library/typing.html#typing.List)[[`str`](https://docs.python.org/3.11/library/stdtypes.html#str)]
 

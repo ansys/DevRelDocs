@@ -10,24 +10,27 @@ The hex-mesh can be structured in blocks but must be conformally connected.
 That is, each block must have six sided volume and must be connected to other blocks through unique face.
 The degree and number of control points of the spline can be set in the fitting parameter structure.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : Id of the part.
+
+  Id of the part.
 
   **cell_zonelet_ids**
-  : Ids of the cell zonelets on which spline will be fit.
+
+  Ids of the cell zonelets on which spline will be fit.
 
   **boundary_fitted_spline_params**
-  : Structure containing spline fitting parameters.
 
-* **Returns:**
+  Structure containing spline fitting parameters.
 
+**Returns:**
 
-  [`IGAResults`](ansys.meshing.prime.IGAResults.md#ansys.meshing.prime.IGAResults)
-  : Returns the IGAResults.
+  **[`IGAResults`](ansys.meshing.prime.IGAResults.md#ansys.meshing.prime.IGAResults)**
 
-* **Return type:**
+  Returns the IGAResults.
+
+**Return type:**
 
   [`IGAResults`](ansys.meshing.prime.IGAResults.md#ansys.meshing.prime.IGAResults)
 

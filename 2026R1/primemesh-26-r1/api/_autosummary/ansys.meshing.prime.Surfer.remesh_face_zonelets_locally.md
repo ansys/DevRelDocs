@@ -6,24 +6,32 @@
 
 Remesh face zonelets locally at the registered faces with given parameters.
 
-* **Parameters:**
+**Parameters:**
+
   **part_id**
-  : ID of part.
+
+  ID of part.
 
   **face_zonelets**
-  : IDs of the face zonelets.
+
+  IDs of the face zonelets.
 
   **register_id**
-  : Register ID of the target faces.
+
+  Register ID of the target faces.
 
   **local_surfer_params**
-  : Local surfer parameters.
-* **Returns:**
-  :
 
-  [`LocalSurferResults`](ansys.meshing.prime.LocalSurferResults.md#ansys.meshing.prime.LocalSurferResults)
-  : Results from remeshing the face zonelets.
-* **Return type:**
+  Local surfer parameters.
+
+**Returns:**
+
+  **[`LocalSurferResults`](ansys.meshing.prime.LocalSurferResults.md#ansys.meshing.prime.LocalSurferResults)**
+
+  Results from remeshing the face zonelets.
+
+**Return type:**
+
   [`LocalSurferResults`](ansys.meshing.prime.LocalSurferResults.md#ansys.meshing.prime.LocalSurferResults)
 
 ### Examples

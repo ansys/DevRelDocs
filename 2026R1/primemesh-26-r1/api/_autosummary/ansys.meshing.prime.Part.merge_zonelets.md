@@ -6,20 +6,23 @@
 
 Merge zonelets.
 
-* **Parameters:**
+**Parameters:**
 
   **zonelets**
-  : Ids of zonelets to be merged.
+
+  Ids of zonelets to be merged.
 
   **params**
-  : Parameters to merge zonelets.
 
-* **Returns:**
+  Parameters to merge zonelets.
 
-  [`MergeZoneletsResults`](ansys.meshing.prime.MergeZoneletsResults.md#ansys.meshing.prime.MergeZoneletsResults)
-  : Returns the MergeZoneletsResults.
+**Returns:**
 
-* **Return type:**
+  **[`MergeZoneletsResults`](ansys.meshing.prime.MergeZoneletsResults.md#ansys.meshing.prime.MergeZoneletsResults)**
+
+  Returns the MergeZoneletsResults.
+
+**Return type:**
 
   [`MergeZoneletsResults`](ansys.meshing.prime.MergeZoneletsResults.md#ansys.meshing.prime.MergeZoneletsResults)
 

@@ -6,12 +6,14 @@
 
 Set the default values of the `VolumetricScaffolderParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **absolute_dist_tol: float, optional**
-  : Specify distance tolerance between overlapping faces.
+
+  Specify distance tolerance between overlapping faces.
 
   **only_check_exact_overlaps: bool, optional**
-  : Check only for fully overlapping topofaces when true.
+
+  Check only for fully overlapping topofaces when true.
 
 <!-- !! processed by numpydoc !! -->

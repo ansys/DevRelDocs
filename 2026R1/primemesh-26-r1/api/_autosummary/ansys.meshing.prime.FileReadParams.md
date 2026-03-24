@@ -6,16 +6,19 @@
 
 Parameters to read file.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `FileReadParams` object with default parameters.
+
+  Model to create a `FileReadParams` object with default parameters.
 
   **append: bool, optional**
-  : Option to append imported mesh to existing mesh instead of resetting model to imported mesh.
+
+  Option to append imported mesh to existing mesh instead of resetting model to imported mesh.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `FileReadParams` object with provided parameters.
+
+  JSON dictionary to create a `FileReadParams` object with provided parameters.
 
 ### Examples
 

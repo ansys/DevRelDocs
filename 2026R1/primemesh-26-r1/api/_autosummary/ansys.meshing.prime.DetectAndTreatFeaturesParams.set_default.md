@@ -6,18 +6,22 @@
 
 Set the default values of the `DetectAndTreatFeaturesParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **detect_and_treat_holes: bool, optional**
-  : Option to detect and treat holes.
+
+  Option to detect and treat holes.
 
   **detect_and_treat_circular_faces: bool, optional**
-  : Option to detect and treat circular faces.
+
+  Option to detect and treat circular faces.
 
   **treat_holes_params: DetectAndTreatHolesParams, optional**
-  : Parameters for detect and treat holes operation.
+
+  Parameters for detect and treat holes operation.
 
   **treat_circular_faces_params: DetectAndTreatCircularFacesParams, optional**
-  : Parameters for detect and treat circular faces operation.
+
+  Parameters for detect and treat circular faces operation.
 
 <!-- !! processed by numpydoc !! -->

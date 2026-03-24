@@ -9,20 +9,23 @@ Perform wrapping with specified controls and given parameters.
 This method performs wrapping with specified controls in the wrapper control
 and with given parameters.
 
-* **Parameters:**
+**Parameters:**
 
   **wrapper_control_id**
-  : ID of the wrapper control.
+
+  ID of the wrapper control.
 
   **params**
-  : Wrap parameters.
 
-* **Returns:**
+  Wrap parameters.
 
-  [`WrapResult`](ansys.meshing.prime.WrapResult.md#ansys.meshing.prime.WrapResult)
-  : Wrap results.
+**Returns:**
 
-* **Return type:**
+  **[`WrapResult`](ansys.meshing.prime.WrapResult.md#ansys.meshing.prime.WrapResult)**
+
+  Wrap results.
+
+**Return type:**
 
   [`WrapResult`](ansys.meshing.prime.WrapResult.md#ansys.meshing.prime.WrapResult)
 

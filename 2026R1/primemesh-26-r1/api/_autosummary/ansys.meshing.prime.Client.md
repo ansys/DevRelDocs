@@ -2,29 +2,47 @@
 
 <a id="ansys.meshing.prime.Client"></a>
 
-### *class* ansys.meshing.prime.Client(\*, server_process=None, ip='127.0.0.1', port=50055, timeout=20.0, credentials=None, communicator_type='grpc', \*\*kwargs)
+### *class* ansys.meshing.prime.Client(, server_process=None, ip='127.0.0.1', port=50055, timeout=20.0, credentials=None, connection_type=ConnectionType.GRPC_SECURE, uds_id=None, client_certs_dir=None, \*\*kwargs)
 
 Provides the `Client` class for PyPrimeMesh.
 
-* **Parameters:**
+**Parameters:**
 
   **server_process**
-  : Server process in the system. The default is `None`.
+
+  Server process in the system. The default is `None`.
 
   **ip**
-  : IP address where the server is located. The default is `defaults.ip()`.
+
+  IP address where the server is located. The default is `defaults.ip()`.
 
   **port**
-  : Port where the server is deployed. The default is `defaults.port()`.
+
+  Port where the server is deployed. The default is `defaults.port()`.
 
   **timeout**
-  : Maximum time to wait for connection. The default is `defaults.connection_timeout()`.
+
+  Maximum time to wait for connection. The default is `defaults.connection_timeout()`.
 
   **credentials**
-  : Credentials to connect to the server. The default is `None`.
-* **Raises:**
-  [`ValueError`](https://docs.python.org/3.11/library/exceptions.html#ValueError)
-  : Failed to load the communicator.
+
+  Credentials to connect to the server. The default is `None`.
+
+  **uds_id**
+
+  Id for the Unix Domain Socket (UDS). The default is `None`.
+
+  **client_certs_dir**
+
+  Directory containing client certificates for mutual TLS.
+
+  **Raises**
+
+  **——**
+
+  **ValueError**
+
+  Failed to load the communicator.
 
 <!-- !! processed by numpydoc !! -->
 

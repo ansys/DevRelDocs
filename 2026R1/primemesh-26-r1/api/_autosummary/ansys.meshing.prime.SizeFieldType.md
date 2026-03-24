@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.SizeFieldType"></a>
 
-### *class* ansys.meshing.prime.SizeFieldType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.SizeFieldType(\*values)
 
 The type of sizing field to be used to fetch element size at given location.
 

@@ -6,19 +6,23 @@
 
 Results associated with fluent meshing mesh import.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ImportFluentMeshingMeshResults` object with default parameters.
+
+  Model to create a `ImportFluentMeshingMeshResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the failure of operation.
+
+  Error code associated with the failure of operation.
 
   **new_parts_created: Iterable[int], optional**
-  : Ids of new parts created for each file unreferenced fluent meshing mesh zones.
+
+  Ids of new parts created for each file unreferenced fluent meshing mesh zones.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ImportFluentMeshingMeshResults` object with provided parameters.
+
+  JSON dictionary to create a `ImportFluentMeshingMeshResults` object with provided parameters.
 
 ### Examples
 

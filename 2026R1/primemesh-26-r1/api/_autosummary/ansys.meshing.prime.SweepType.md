@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.SweepType"></a>
 
-### *class* ansys.meshing.prime.SweepType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.SweepType(\*values)
 
 Provides the Sweep Mesh Decomposition type.
 

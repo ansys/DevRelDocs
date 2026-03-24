@@ -6,28 +6,35 @@
 
 Results structure associated to improve quality.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `WrapperImproveResult` object with default parameters.
+
+  Model to create a `WrapperImproveResult` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with a wrapper operation.
+
+  Error code associated with a wrapper operation.
 
   **n_skew_found: int, optional**
-  : Number of skewed faces found.
+
+  Number of skewed faces found.
 
   **remaining_skew_faces: int, optional**
-  : Number of remaining skew faces.
+
+  Number of remaining skew faces.
 
   **n_face_intersections_found: int, optional**
-  : Number of self intersections found.
+
+  Number of self intersections found.
 
   **unresolved_face_intersections: int, optional**
-  : Number of remaining self intersections.
+
+  Number of remaining self intersections.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `WrapperImproveResult` object with provided parameters.
+
+  JSON dictionary to create a `WrapperImproveResult` object with provided parameters.
 
 ### Examples
 

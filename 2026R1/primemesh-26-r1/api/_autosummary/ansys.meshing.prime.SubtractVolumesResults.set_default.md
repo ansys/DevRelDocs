@@ -6,12 +6,14 @@
 
 Set the default values of the `SubtractVolumesResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the volume subtract operation.
+
+  Error code associated with the volume subtract operation.
 
   **warning_codes: List[WarningCode], optional**
-  : Warning codes associated with the volume subtract operation.
+
+  Warning codes associated with the volume subtract operation.
 
 <!-- !! processed by numpydoc !! -->

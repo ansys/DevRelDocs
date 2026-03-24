@@ -9,23 +9,27 @@ Refine boundary fitted splines.
 Now H and P refinement are supported.
 Refinement along one or more dimension can be suppressed using refinement parameters in the input.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : Id of the part.
+
+  Id of the part.
 
   **spline_ids**
-  : Ids of the splines on which refinement is performed.
+
+  Ids of the splines on which refinement is performed.
 
   **refine_spline_params**
-  : Structure containing parameters for spline refinement.
 
-* **Returns:**
+  Structure containing parameters for spline refinement.
 
-  [`IGAResults`](ansys.meshing.prime.IGAResults.md#ansys.meshing.prime.IGAResults)
-  : Returns the IGAResults Structure.
+**Returns:**
 
-* **Return type:**
+  **[`IGAResults`](ansys.meshing.prime.IGAResults.md#ansys.meshing.prime.IGAResults)**
+
+  Returns the IGAResults Structure.
+
+**Return type:**
 
   [`IGAResults`](ansys.meshing.prime.IGAResults.md#ansys.meshing.prime.IGAResults)
 

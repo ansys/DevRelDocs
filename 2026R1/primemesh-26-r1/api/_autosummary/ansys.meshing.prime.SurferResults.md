@@ -6,19 +6,23 @@
 
 Results associated with the surface mesh.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SurferResults` object with default parameters.
+
+  Model to create a `SurferResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the failure of operation.
+
+  Error code associated with the failure of operation.
 
   **topofaces_not_projected_on_geometry: Iterable[int], optional**
-  : Ids of topofaces projected to facets instead of CAD geometry, when projectOnGeometry is enabled.
+
+  Ids of topofaces projected to facets instead of CAD geometry, when projectOnGeometry is enabled.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SurferResults` object with provided parameters.
+
+  JSON dictionary to create a `SurferResults` object with provided parameters.
 
 ### Examples
 

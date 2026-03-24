@@ -6,9 +6,10 @@
 
 Set the default values of the `MergeBoundaryNodesResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error Code associated with failure of merge nodes operation.
+
+  Error Code associated with failure of merge nodes operation.
 
 <!-- !! processed by numpydoc !! -->

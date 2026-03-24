@@ -6,18 +6,21 @@
 
 Parameters used to export fluent meshing mesh.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ExportFluentMeshingMeshParams` object with default parameters.
+
+  Model to create a `ExportFluentMeshingMeshParams` object with default parameters.
 
   **cff_format: bool, optional**
-  : Option to specify whether to export Fluent mesh file in CFF format (.msh.h5) or legacy format (.msh, .msh.gz).
+
+  Option to specify whether to export Fluent mesh file in CFF format (.msh.h5) or legacy format (.msh, .msh.gz).
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ExportFluentMeshingMeshParams` object with provided parameters.
+
+  JSON dictionary to create a `ExportFluentMeshingMeshParams` object with provided parameters.
 
 ### Examples
 

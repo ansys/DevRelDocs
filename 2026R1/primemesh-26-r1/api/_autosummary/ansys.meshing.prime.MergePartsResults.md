@@ -6,22 +6,27 @@
 
 Parameters to merge parts.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `MergePartsResults` object with default parameters.
+
+  Model to create a `MergePartsResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the failure of operation.
+
+  Error code associated with the failure of operation.
 
   **merged_part_assigned_name: str, optional**
-  : Name assigned to merged part. Suffix is added to suggested name if the name not available.
+
+  Name assigned to merged part. Suffix is added to suggested name if the name not available.
 
   **merged_part_id: int, optional**
-  : Id assigned to merged part.
+
+  Id assigned to merged part.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `MergePartsResults` object with provided parameters.
+
+  JSON dictionary to create a `MergePartsResults` object with provided parameters.
 
 ### Examples
 

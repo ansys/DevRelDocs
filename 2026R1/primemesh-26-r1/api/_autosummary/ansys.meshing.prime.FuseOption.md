@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.FuseOption"></a>
 
-### *class* ansys.meshing.prime.FuseOption(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.FuseOption(\*values)
 
 Type to specify treatment of surfaces for fusing.
 

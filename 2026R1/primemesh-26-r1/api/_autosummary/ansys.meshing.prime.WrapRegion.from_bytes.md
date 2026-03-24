@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.WrapRegion.from_bytes"></a>
 
-#### WrapRegion.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* WrapRegion.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

@@ -6,31 +6,39 @@
 
 Results associated with compute volumes.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ComputeVolumesResults` object with default parameters.
+
+  Model to create a `ComputeVolumesResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the failure of operation.
+
+  Error code associated with the failure of operation.
 
   **error_locations: Iterable[float], optional**
-  : Coordinates of problematic locations in the surface mesh.
+
+  Coordinates of problematic locations in the surface mesh.
 
   **volumes: Iterable[int], optional**
-  : Ids of computed volumes.
+
+  Ids of computed volumes.
 
   **material_point_volumes: Iterable[int], optional**
-  : Ids of computed volumes enclosing material points.
+
+  Ids of computed volumes enclosing material points.
 
   **external_open_face_zonelets: Iterable[int], optional**
-  : Face zonelet ids that are in external space and not part of any computed volumes.
+
+  Face zonelet ids that are in external space and not part of any computed volumes.
 
   **warning_codes: List[WarningCode], optional**
-  : Warning codes associated with the compute volumes.
+
+  Warning codes associated with the compute volumes.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ComputeVolumesResults` object with provided parameters.
+
+  JSON dictionary to create a `ComputeVolumesResults` object with provided parameters.
 
 ### Examples
 

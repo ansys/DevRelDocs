@@ -6,18 +6,19 @@
 
 Gets the face zone of given zonelet.
 
-* **Parameters:**
+**Parameters:**
 
   **zonelet**
-  : Id of zonelet.
 
-* **Returns:**
+  Id of zonelet.
 
+**Returns:**
 
-  [`int`](https://docs.python.org/3.11/library/functions.html#int)
-  : Returns the id of face zone.
+  **[`int`](https://docs.python.org/3.11/library/functions.html#int)**
 
-* **Return type:**
+  Returns the id of face zone.
+
+**Return type:**
 
   [`int`](https://docs.python.org/3.11/library/functions.html#int)
 

@@ -6,10 +6,11 @@
 
 Provides operations for generating a surface mesh using wrapper technology.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create Wrapper object.
+
+  Server model to create Wrapper object.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="periodiccontrol"></a>
-
 # PeriodicControl
 
 <a id="ansys.meshing.prime.PeriodicControl"></a>
@@ -12,19 +8,23 @@ Periodic controls provide settings for the recovery of periodic surfaces.
 
 A periodic control is specified by the scope (source surfaces) and the transformation parameters: the center, axis and angle.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create PeriodicControl object.
+
+  Server model to create PeriodicControl object.
 
   **id**
-  : Id of the PeriodicControl.
+
+  Id of the PeriodicControl.
 
   **object_id**
-  : Object id of the PeriodicControl.
+
+  Object id of the PeriodicControl.
 
   **name**
-  : Name of the PeriodicControl.
+
+  Name of the PeriodicControl.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -10,22 +10,27 @@ The size field is computed based on the size control defined.
 Different type of size controls provide control over how the mesh size is distributed on a
 surface or within the volume.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create SizeControl object.
+
+  Server model to create SizeControl object.
 
   **id**
-  : Id of the SizeControl.
+
+  Id of the SizeControl.
 
   **object_id**
-  : Object id of the SizeControl.
+
+  Object id of the SizeControl.
 
   **name**
-  : Name of the SizeControl..
+
+  Name of the SizeControl..
 
   **local**
-  : Unused. The default is `False`.
+
+  Unused. The default is `False`.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -6,21 +6,23 @@
 
 Creates uniform solid spline and maps the CAD geometry in its parametric space.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : Part on which the spline is to be created.
+
+  Part on which the spline is to be created.
 
   **spline_params**
-  : Parameters used to create the spline.
 
-* **Returns:**
+  Parameters used to create the spline.
 
+**Returns:**
 
-  [`TrimmedSplineResults`](ansys.meshing.prime.TrimmedSplineResults.md#ansys.meshing.prime.TrimmedSplineResults)
-  : Returns the TrimmedSplineResults.
+  **[`TrimmedSplineResults`](ansys.meshing.prime.TrimmedSplineResults.md#ansys.meshing.prime.TrimmedSplineResults)**
 
-* **Return type:**
+  Returns the TrimmedSplineResults.
+
+**Return type:**
 
   [`TrimmedSplineResults`](ansys.meshing.prime.TrimmedSplineResults.md#ansys.meshing.prime.TrimmedSplineResults)
 

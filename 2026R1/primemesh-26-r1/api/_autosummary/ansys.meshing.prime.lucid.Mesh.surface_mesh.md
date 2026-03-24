@@ -18,19 +18,23 @@ is generated with the provided size.
 If neither minimum size or maximum size is provided, the global maximum setting
 is used to generate a constant size mesh.
 
-* **Parameters:**
+**Parameters:**
 
   **min_size**
-  : Minimum edge length of the mesh. The default is `None`.
+
+  Minimum edge length of the mesh. The default is `None`.
 
   **max_size**
-  : Maximum edge length of the mesh. The default is `None`.
+
+  Maximum edge length of the mesh. The default is `None`.
 
   **generate_quads**
-  : Whether to generate a quad dominant mesh. The default is
+
+  Whether to generate a quad dominant mesh. The default is
     `False`, in which case a triangular mesh is generated.
 
   **scope**
-  : Scope for generating the surface mesh.
+
+  Scope for generating the surface mesh.
 
 <!-- !! processed by numpydoc !! -->

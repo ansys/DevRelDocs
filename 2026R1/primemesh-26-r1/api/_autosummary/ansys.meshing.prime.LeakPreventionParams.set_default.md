@@ -6,18 +6,22 @@
 
 Set the default values of the `LeakPreventionParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **material_points: List[str], optional**
-  : Material points used for leak prevention control.
+
+  Material points used for leak prevention control.
 
   **scope: ScopeDefinition, optional**
-  : Scope used for leak prevention control.
+
+  Scope used for leak prevention control.
 
   **max_hole_size: float, optional**
-  : Maximum hole size to prevent leakage into region.
+
+  Maximum hole size to prevent leakage into region.
 
   **n_expansion_layers: int, optional**
-  : Number of layers to expand leaking region.
+
+  Number of layers to expand leaking region.
 
 <!-- !! processed by numpydoc !! -->

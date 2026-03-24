@@ -6,20 +6,23 @@
 
 Delete volumes by deleting its face zonelets.
 
-* **Parameters:**
+**Parameters:**
 
   **volumes**
-  : Ids of volumes to be deleted.
+
+  Ids of volumes to be deleted.
 
   **params**
-  : Parameters to delete volumes.
 
-* **Returns:**
-  
-  [`DeleteVolumesResults`](ansys.meshing.prime.DeleteVolumesResults.md#ansys.meshing.prime.DeleteVolumesResults)
-  : Returns the DeleteVolumesResults.
+  Parameters to delete volumes.
 
-* **Return type:**
+**Returns:**
+
+  **[`DeleteVolumesResults`](ansys.meshing.prime.DeleteVolumesResults.md#ansys.meshing.prime.DeleteVolumesResults)**
+
+  Returns the DeleteVolumesResults.
+
+**Return type:**
 
   [`DeleteVolumesResults`](ansys.meshing.prime.DeleteVolumesResults.md#ansys.meshing.prime.DeleteVolumesResults)
 

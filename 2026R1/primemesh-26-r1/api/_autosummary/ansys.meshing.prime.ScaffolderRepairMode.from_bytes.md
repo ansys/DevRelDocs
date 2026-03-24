@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.ScaffolderRepairMode.from_bytes"></a>
 
-#### ScaffolderRepairMode.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* ScaffolderRepairMode.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

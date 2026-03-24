@@ -6,19 +6,24 @@
 
 Add the given labels on the provided topoentities.
 
-* **Parameters:**
+**Parameters:**
 
   **labels**
-  : Labels to be added on topoentities.
+
+  Labels to be added on topoentities.
 
   **topo_entities**
-  : Ids of topoentities.
-* **Returns:**
-  :
 
-  [`AddLabelResults`](ansys.meshing.prime.AddLabelResults.md#ansys.meshing.prime.AddLabelResults)
-  : Returns the AddLabelResults.
-* **Return type:**
+  Ids of topoentities.
+
+**Returns:**
+
+  **[`AddLabelResults`](ansys.meshing.prime.AddLabelResults.md#ansys.meshing.prime.AddLabelResults)**
+
+  Returns the AddLabelResults.
+
+**Return type:**
+
   [`AddLabelResults`](ansys.meshing.prime.AddLabelResults.md#ansys.meshing.prime.AddLabelResults)
 
 ### Examples

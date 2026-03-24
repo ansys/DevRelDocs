@@ -6,17 +6,18 @@
 
 Get the geometry face zonelets for the provided topoface ids.
 
-* **Parameters:**
+**Parameters:**
 
   **topo_faces**
-  : Ids of the topofaces.
 
-* **Returns:**
+  Ids of the topofaces.
+
+**Returns:**
 
   `Iterable`[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
-  : Return the geometry face zonelet ids.
+  Return the geometry face zonelet ids.
 
-* **Return type:**
+**Return type:**
 
   [`Iterable`](https://docs.python.org/3.11/library/typing.html#typing.Iterable)[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
 

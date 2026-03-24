@@ -6,27 +6,34 @@
 
 Set the default values of the `MeshStackerResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the operation.
+
+  Error code associated with the operation.
 
   **error_codes_per_topo_volume: Iterable[int], optional**
-  : Error codes associated with the topovolume-by-topovolume stacking.
+
+  Error codes associated with the topovolume-by-topovolume stacking.
 
   **non_stackable_faces: Iterable[int], optional**
-  : List of non-stackable faces. Note: Under-resolved faceting can also create non-stackable geometry.
+
+  List of non-stackable faces. Note: Under-resolved faceting can also create non-stackable geometry.
 
   **non_stackable_edges: Iterable[int], optional**
-  : List of non-stackable edges. Note: Under-resolved faceting can also create non-stackable geometry.
+
+  List of non-stackable edges. Note: Under-resolved faceting can also create non-stackable geometry.
 
   **small_features: Iterable[int], optional**
-  : List of features edges smaller than input tolerance.
+
+  List of features edges smaller than input tolerance.
 
   **base_face_ids: Iterable[int], optional**
-  : List of base face ids after base creation.
+
+  List of base face ids after base creation.
 
   **size_control_ids: Iterable[int], optional**
-  : List of ids of newly created size controls.
+
+  List of ids of newly created size controls.
 
 <!-- !! processed by numpydoc !! -->

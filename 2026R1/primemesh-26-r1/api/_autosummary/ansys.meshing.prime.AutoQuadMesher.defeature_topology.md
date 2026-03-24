@@ -6,23 +6,27 @@
 
 Defeature topology with given parameters.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : Id of the Part.
+
+  Id of the Part.
 
   **topo_face_ids**
-  : Ids of topofaces.
+
+  Ids of topofaces.
 
   **params**
-  : Parameters of defeature topology.
 
-* **Returns:**
+  Parameters of defeature topology.
 
-  [`AutoQuadMesherResults`](ansys.meshing.prime.AutoQuadMesherResults.md#ansys.meshing.prime.AutoQuadMesherResults)
-  : Returns the AutoQuadMesherResults structure.
+**Returns:**
 
-* **Return type:**
+  **[`AutoQuadMesherResults`](ansys.meshing.prime.AutoQuadMesherResults.md#ansys.meshing.prime.AutoQuadMesherResults)**
+
+  Returns the AutoQuadMesherResults structure.
+
+**Return type:**
 
   [`AutoQuadMesherResults`](ansys.meshing.prime.AutoQuadMesherResults.md#ansys.meshing.prime.AutoQuadMesherResults)
 

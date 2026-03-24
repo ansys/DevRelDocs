@@ -6,18 +6,22 @@
 
 Set the default values of the `AddThicknessParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **thickness: float, optional**
-  : To assign the offset distance of inflation.
+
+  To assign the offset distance of inflation.
 
   **reverse_face_normal: bool, optional**
-  : To assign the direction of inflation.
+
+  To assign the direction of inflation.
 
   **suggested_part_name: str, optional**
-  : Suggested part name for created patching surfaces.
+
+  Suggested part name for created patching surfaces.
 
   **fix_intersections: bool, optional**
-  : Fix intersections in concave regions.
+
+  Fix intersections in concave regions.
 
 <!-- !! processed by numpydoc !! -->

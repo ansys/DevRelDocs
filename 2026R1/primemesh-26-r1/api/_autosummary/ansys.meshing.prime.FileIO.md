@@ -6,10 +6,11 @@
 
 Handles reading or writing files from the disk.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create FileIO object.
+
+  Server model to create FileIO object.
 
 <!-- !! processed by numpydoc !! -->
 

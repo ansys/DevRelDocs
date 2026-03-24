@@ -6,12 +6,14 @@
 
 Set the default values of the `DeleteVolumesParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **delete_small_volumes: bool, optional**
-  : Option to delete only volumes smaller than provided volume limit.
+
+  Option to delete only volumes smaller than provided volume limit.
 
   **volume_limit: float, optional**
-  : Maximum volume limit to identify smaller volumes to be deleted.
+
+  Maximum volume limit to identify smaller volumes to be deleted.
 
 <!-- !! processed by numpydoc !! -->

@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.ScopeEvaluationType"></a>
 
-### *class* ansys.meshing.prime.ScopeEvaluationType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.ScopeEvaluationType(\*values)
 
 ScopeDefinition uses evaluation type to evaluate the scope.
 

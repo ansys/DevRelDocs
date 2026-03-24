@@ -6,17 +6,19 @@
 
 Delete given face zonelets.
 
-* **Parameters:**
+**Parameters:**
 
   **zonelets**
-  : Ids of zonelets to be deleted.
 
-* **Returns:**
+  Ids of zonelets to be deleted.
 
-  [`DeleteResults`](ansys.meshing.prime.DeleteResults.md#ansys.meshing.prime.DeleteResults)
-  : Return DeleteResults.
+**Returns:**
 
-* **Return type:**
+  **[`DeleteResults`](ansys.meshing.prime.DeleteResults.md#ansys.meshing.prime.DeleteResults)**
+
+  Return DeleteResults.
+
+**Return type:**
 
   [`DeleteResults`](ansys.meshing.prime.DeleteResults.md#ansys.meshing.prime.DeleteResults)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.BCsVolumetricModality"></a>
 
-### *class* ansys.meshing.prime.BCsVolumetricModality(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.BCsVolumetricModality(\*values)
 
 Indicate options to identify morphable region in input volumetric mesh.
 

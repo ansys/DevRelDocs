@@ -6,10 +6,11 @@
 
 Sets the MultiZone parameters.
 
-* **Parameters:**
+**Parameters:**
 
   **params**
-  : Parameters required for MultiZone mesh.
+
+  Parameters required for MultiZone mesh.
 
 ### Notes
 

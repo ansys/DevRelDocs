@@ -6,9 +6,10 @@
 
 Set the default values of the `ResolveIntersectionResult` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Errror code associated with a resolve intersections operation.
+
+  Error code associated with a resolve intersections operation.
 
 <!-- !! processed by numpydoc !! -->

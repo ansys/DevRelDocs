@@ -6,9 +6,10 @@
 
 Set the default values of the `ReadSizeFieldParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **append: bool, optional**
-  : Option to append the size fields from file.
+
+  Option to append the size fields from file.
 
 <!-- !! processed by numpydoc !! -->

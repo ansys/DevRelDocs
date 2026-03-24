@@ -6,33 +6,39 @@
 
 Results associated with the LS-DYNA export.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ExportLSDynaResults` object with default parameters.
+
+  Model to create a `ExportLSDynaResults` object with default parameters.
 
   **summary_log: str, optional**
-  : Summary log for the import operation in json format.
+
+  Summary log for the import operation in json format.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **zone_mesh_results: List[ZoneMeshResult], optional**
-  : Zone-wise mesh information for elements in the exported model.
+
+  Zone-wise mesh information for elements in the exported model.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with failure of operation.
+
+  Error code associated with failure of operation.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **warning_codes: List[WarningCode], optional**
-  : Warning codes associated with the operation.
+
+  Warning codes associated with the operation.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ExportLSDynaResults` object with provided parameters.
+
+  JSON dictionary to create a `ExportLSDynaResults` object with provided parameters.
 
 ### Examples
 

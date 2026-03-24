@@ -6,10 +6,9 @@
 
 Get the prism controls.
 
-* **Returns:**
-
+**Returns**
   `List`[[`PrismControl`](ansys.meshing.prime.PrismControl.md#ansys.meshing.prime.PrismControl)]
-  : List of prism controls.
+  List of prism controls.
 
 ### Examples
 

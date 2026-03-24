@@ -6,12 +6,14 @@
 
 Set the default values of the `PartZonelets` object.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id: int, optional**
-  : Id of part.
+
+  Id of part.
 
   **face_zonelets: Iterable[int], optional**
-  : List of face zonelet ids available in the part.
+
+  List of face zonelet ids available in the part.
 
 <!-- !! processed by numpydoc !! -->

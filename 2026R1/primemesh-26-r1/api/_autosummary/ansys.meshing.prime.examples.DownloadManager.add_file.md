@@ -10,9 +10,10 @@ This list keeps track of where example files are
 downloaded so that a global cleanup of these files can be
 performed when the client is closed.
 
-* **Parameters:**
+**Parameters:**
 
   **file_path**
-  : Local path of the downloaded example file.
+
+  Local path of the downloaded example file.
 
 <!-- !! processed by numpydoc !! -->

@@ -6,12 +6,14 @@
 
 Set the default values of the `SearchByIntersectionResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **n_found: int, optional**
-  : Number of face elements identified by intersection(face elements interfering with each other).
+
+  Number of face elements identified by intersection(face elements interfering with each other).
 
   **error_code: ErrorCode, optional**
-  : Error code associated with search intersection operation.
+
+  Error code associated with search intersection operation.
 
 <!-- !! processed by numpydoc !! -->

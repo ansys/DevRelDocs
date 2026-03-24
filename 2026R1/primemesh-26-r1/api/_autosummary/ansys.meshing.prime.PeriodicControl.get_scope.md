@@ -6,12 +6,14 @@
 
 Gets the scope for the periodic control.
 
-* **Returns:**
 
-  [`ScopeDefinition`](ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition)
-  : Returns the scope of the periodic control.
+**Returns:**
 
-* **Return type:**
+  **[`ScopeDefinition`](ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition)**
+
+  Returns the scope of the periodic control.
+
+**Return type:**
 
   [`ScopeDefinition`](ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition)
 

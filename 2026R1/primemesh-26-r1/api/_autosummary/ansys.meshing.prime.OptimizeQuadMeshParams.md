@@ -6,43 +6,51 @@
 
 Parameters for optimize quad mesh operations.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `OptimizeQuadMeshParams` object with default parameters.
+
+  Model to create a `OptimizeQuadMeshParams` object with default parameters.
 
   **suppress_topo_edge_and_mesh_cleanup: bool, optional**
-  : Option to suppress topoedges and clean up mesh.
+
+  Option to suppress topoedges and clean up mesh.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **edge_mesh_constant_size: float, optional**
-  : Constant size used for edge meshing.
+
+  Constant size used for edge meshing.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **surface_mesh_constant_size: float, optional**
-  : Constant size used for surface meshing.
+
+  Constant size used for surface meshing.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **generate_quads: bool, optional**
-  : Option to generate quadrilateral surface mesh.
+
+  Option to generate quadrilateral surface mesh.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **project_on_geometry: bool, optional**
-  : Option to project on geometry when meshing.
+
+  Option to project on geometry when meshing.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **delete_interior_nodes_params: DeleteInteriorNodesParams, optional**
-  : Parameters to control delete interior nodes operation.
+
+  Parameters to control delete interior nodes operation.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `OptimizeQuadMeshParams` object with provided parameters.
+
+  JSON dictionary to create a `OptimizeQuadMeshParams` object with provided parameters.
 
 ### Examples
 

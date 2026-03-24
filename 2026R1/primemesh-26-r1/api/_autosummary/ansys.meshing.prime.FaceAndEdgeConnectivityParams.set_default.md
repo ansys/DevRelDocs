@@ -6,12 +6,14 @@
 
 Set the default values of the `FaceAndEdgeConnectivityParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **reorder_face_zonelets_mid_nodes: bool, optional**
-  : Option to reorder mid nodes for quadratic faces.
+
+  Option to reorder mid nodes for quadratic faces.
 
   **reorder_edge_zonelets_mid_nodes: bool, optional**
-  : Option to reorder mid nodes for quadratic edges.
+
+  Option to reorder mid nodes for quadratic edges.
 
 <!-- !! processed by numpydoc !! -->

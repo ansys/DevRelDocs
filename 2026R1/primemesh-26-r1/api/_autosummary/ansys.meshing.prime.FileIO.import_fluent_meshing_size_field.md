@@ -6,17 +6,19 @@
 
 Import a Fluent Meshing size field (SF and SF.GZ) file from disk.
 
-* **Parameters:**
+**Parameters:**
 
   **file_name**
-  : Path to the size field file on disk.
 
-* **Returns:**
+  Path to the size field file on disk.
 
-  [`SizeFieldFileReadResults`](ansys.meshing.prime.SizeFieldFileReadResults.md#ansys.meshing.prime.SizeFieldFileReadResults)
-  : Results from reading the size field file.
+**Returns:**
 
-* **Return type:**
+  **[`SizeFieldFileReadResults`](ansys.meshing.prime.SizeFieldFileReadResults.md#ansys.meshing.prime.SizeFieldFileReadResults)**
+
+  Results from reading the size field file.
+
+**Return type:**
 
   [`SizeFieldFileReadResults`](ansys.meshing.prime.SizeFieldFileReadResults.md#ansys.meshing.prime.SizeFieldFileReadResults)
 

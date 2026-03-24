@@ -6,12 +6,13 @@
 
 Gets the list of spline ids.
 
-* **Returns:**
+
+**Returns:**
 
   `Iterable`[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
-  : Returns the list of spline ids.
+  Returns the list of spline ids.
 
-* **Return type:**
+**Return type:**
 
   [`Iterable`](https://docs.python.org/3.11/library/typing.html#typing.Iterable)[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
 

@@ -6,16 +6,19 @@
 
 Parameters used for check face deviation operations.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `CheckFaceDeviationParams` object with default parameters.
+
+  Model to create a `CheckFaceDeviationParams` object with default parameters.
 
   **distance: float, optional**
-  : Distance above which deviated entities are collected.
+
+  Distance above which deviated entities are collected.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `CheckFaceDeviationParams` object with provided parameters.
+
+  JSON dictionary to create a `CheckFaceDeviationParams` object with provided parameters.
 
 ### Examples
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.ThinStripType"></a>
 
-### *class* ansys.meshing.prime.ThinStripType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.ThinStripType(\*values)
 
 The type to identify strip of face elements as thin strips using shape formed by features around the strip of face elements.
 

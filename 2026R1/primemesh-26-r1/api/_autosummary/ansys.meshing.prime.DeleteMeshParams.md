@@ -6,18 +6,21 @@
 
 Parameters to delete mesh on topoentities.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `DeleteMeshParams` object with default parameters.
+
+  Model to create a `DeleteMeshParams` object with default parameters.
 
   **delete_mesh_on_connected_topo_edges: bool, optional**
-  : Option to delete mesh on topoedges connected only to provided topoentities.
+
+  Option to delete mesh on topoedges connected only to provided topoentities.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `DeleteMeshParams` object with provided parameters.
+
+  JSON dictionary to create a `DeleteMeshParams` object with provided parameters.
 
 ### Examples
 

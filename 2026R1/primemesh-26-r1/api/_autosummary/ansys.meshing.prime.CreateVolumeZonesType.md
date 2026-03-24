@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.CreateVolumeZonesType"></a>
 
-### *class* ansys.meshing.prime.CreateVolumeZonesType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.CreateVolumeZonesType(\*values)
 
 Indicate type to create volume zones for volumes.
 

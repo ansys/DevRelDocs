@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.EdgeConnectType"></a>
 
-### *class* ansys.meshing.prime.EdgeConnectType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.EdgeConnectType(\*values)
 
 Edge connect type to define the type of connection between edges .
 

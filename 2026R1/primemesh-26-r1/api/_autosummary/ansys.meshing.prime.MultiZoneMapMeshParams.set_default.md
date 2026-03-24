@@ -6,9 +6,10 @@
 
 Set the default values of the `MultiZoneMapMeshParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **scope: ScopeDefinition, optional**
-  : Scope used for MultiZone map mesh control.
+
+  Scope used for MultiZone map mesh control.
 
 <!-- !! processed by numpydoc !! -->

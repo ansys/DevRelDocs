@@ -9,17 +9,19 @@ Gets the volume quality summary.
 Diagnose volume quality for the given scope and cell quality measures provided in the VolumeQualitySummaryParams structure.
 Use default quality limit if the parameters are not specified.
 
-* **Parameters:**
+**Parameters:**
 
   **params**
-  : Volume quality summary parameters.
 
-* **Returns:**
+  Volume quality summary parameters.
 
-  [`VolumeQualitySummaryResults`](ansys.meshing.prime.VolumeQualitySummaryResults.md#ansys.meshing.prime.VolumeQualitySummaryResults)
-  : Returns the VolumeQualitySummaryResults.
+**Returns:**
 
-* **Return type:**
+  **[`VolumeQualitySummaryResults`](ansys.meshing.prime.VolumeQualitySummaryResults.md#ansys.meshing.prime.VolumeQualitySummaryResults)**
+
+  Returns the VolumeQualitySummaryResults.
+
+**Return type:**
 
   [`VolumeQualitySummaryResults`](ansys.meshing.prime.VolumeQualitySummaryResults.md#ansys.meshing.prime.VolumeQualitySummaryResults)
 

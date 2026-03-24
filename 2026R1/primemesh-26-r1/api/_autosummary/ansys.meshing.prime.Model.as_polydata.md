@@ -6,15 +6,16 @@
 
 Get the model as a polydata.
 
-* **Parameters:**
+**Parameters:**
 
   **update**
-  : Update the polydata if it is already present, by default False.
 
-* **Returns:**
+  Update the polydata if it is already present, by default False.
+
+**Returns:**
 
   `vtk.vtkPolyData`
-  : Polydata of the model.
+  Polydata of the model.
 
 ### Examples
 

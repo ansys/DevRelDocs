@@ -8,10 +8,11 @@ MeshInfo provides information about the mesh connectivity and more.
 
 Mesh connectivity information is used in graphics rendering.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create MeshInfo object.
+
+  Server model to create MeshInfo object.
 
 <!-- !! processed by numpydoc !! -->
 

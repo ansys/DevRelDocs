@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.ShellBLOffsetType.from_bytes"></a>
 
-#### ShellBLOffsetType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* ShellBLOffsetType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

@@ -6,28 +6,35 @@
 
 Parameters used for intersection.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `IntersectParams` object with default parameters.
+
+  Model to create a `IntersectParams` object with default parameters.
 
   **tolerance: float, optional**
-  : Intersection tolerance.
+
+  Intersection tolerance.
 
   **use_absolute_tolerance: bool, optional**
-  : True if tolerance provided is absolute value.
+
+  True if tolerance provided is absolute value.
 
   **remesh: bool, optional**
-  : Local remesh at the intersection.
+
+  Local remesh at the intersection.
 
   **collapse_feature_angle: float, optional**
-  : Angle to preserve features while performing collapse in improve operation.
+
+  Angle to preserve features while performing collapse in improve operation.
 
   **collapse_target_skewness: float, optional**
-  : Perform collapse on faces with skewness above the provided target skewness.
+
+  Perform collapse on faces with skewness above the provided target skewness.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `IntersectParams` object with provided parameters.
+
+  JSON dictionary to create a `IntersectParams` object with provided parameters.
 
 ### Examples
 

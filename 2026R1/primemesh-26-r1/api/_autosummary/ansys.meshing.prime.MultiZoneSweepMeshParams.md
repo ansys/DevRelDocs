@@ -6,38 +6,45 @@
 
 Defines MultiZone thin sweep mesh control parameters.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `MultiZoneSweepMeshParams` object with default parameters.
+
+  Model to create a `MultiZoneSweepMeshParams` object with default parameters.
 
   **source_and_target_scope: ScopeDefinition, optional**
-  : Source and target faces used to determine the direction of sweep in MultiZone meshing.
+
+  Source and target faces used to determine the direction of sweep in MultiZone meshing.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **sweep_mesh_size: float, optional**
-  : Sweep mesh size used to determine the mesh size and number of divisions in the sweep direction.
+
+  Sweep mesh size used to determine the mesh size and number of divisions in the sweep direction.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **n_divisions: int, optional**
-  : Number of divisions in the sweep direction.
+
+  Number of divisions in the sweep direction.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **thin_sweep: bool, optional**
-  : Thin sweep option set to True will generate sweep mesh in thin volumes by respecting nDivisions.   Thin sweep option set to False will generate sweep mesh whose number of divisions in the direction of sweep is determined by sweepMeshSize.
+
+  Thin sweep option set to True will generate sweep mesh in thin volumes by respecting nDivisions.   Thin sweep option set to False will generate sweep mesh whose number of divisions in the direction of sweep is determined by sweepMeshSize.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **sweep_type: SweepType, optional**
-  : Option to specify the sweep mesh decomposition type.
+
+  Option to specify the sweep mesh decomposition type.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `MultiZoneSweepMeshParams` object with provided parameters.
+
+  JSON dictionary to create a `MultiZoneSweepMeshParams` object with provided parameters.
 
 ### Examples
 

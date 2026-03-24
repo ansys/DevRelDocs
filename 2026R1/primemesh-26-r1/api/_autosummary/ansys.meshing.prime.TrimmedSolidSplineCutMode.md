@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.TrimmedSolidSplineCutMode"></a>
 
-### *class* ansys.meshing.prime.TrimmedSolidSplineCutMode(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.TrimmedSolidSplineCutMode(\*values)
 
 Types of Cut modes used to generate Cartesian grid representing subdomains of trimmed solid spline.
 

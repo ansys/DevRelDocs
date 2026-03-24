@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.MergeNodeType"></a>
 
-### *class* ansys.meshing.prime.MergeNodeType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.MergeNodeType(\*values)
 
 Type of nodes to be merged.
 

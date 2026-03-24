@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="addtozoneresults"></a>
-
 # AddToZoneResults
 
 <a id="ansys.meshing.prime.AddToZoneResults"></a>
@@ -10,19 +6,23 @@
 
 Results associated with the add to zone operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `AddToZoneResults` object with default parameters.
+
+  Model to create a `AddToZoneResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the failure of operation.
+
+  Error code associated with the failure of operation.
 
   **warning_codes: List[WarningCode], optional**
-  : Warning codes associated with the add to zone operation.
+
+  Warning codes associated with the add to zone operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `AddToZoneResults` object with provided parameters.
+
+  JSON dictionary to create a `AddToZoneResults` object with provided parameters.
 
 ### Examples
 

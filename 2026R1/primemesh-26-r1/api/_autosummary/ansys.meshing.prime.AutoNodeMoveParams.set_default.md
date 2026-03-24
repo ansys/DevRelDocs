@@ -6,24 +6,30 @@
 
 Set the default values of the `AutoNodeMoveParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **quality_measure: CellQualityMeasure, optional**
-  : Specify cell quality measure to be used for volume mesh improvement. The default value for cell quality measure is skewness.
+
+  Specify cell quality measure to be used for volume mesh improvement. The default value for cell quality measure is skewness.
 
   **target_quality: float, optional**
-  : Specify target quality used for the mesh improvement based on specified quality measure.
+
+  Specify target quality used for the mesh improvement based on specified quality measure.
 
   **dihedral_angle: float, optional**
-  : Dihedral angle used to mantain features of boundary face zonelets.
+
+  Dihedral angle used to maintain features of boundary face zonelets.
 
   **n_iterations_per_node: int, optional**
-  : Number of iterations per node to be moved.
+
+  Number of iterations per node to be moved.
 
   **restrict_boundary_nodes_along_surface: bool, optional**
-  : Option to restrict the movement of the boundary node to the plane containing the boundary faces sharing the boundary node.
+
+  Option to restrict the movement of the boundary node to the plane containing the boundary faces sharing the boundary node.
 
   **n_attempts: int, optional**
-  : Number of attempts to improve specified quality measure by node movement.
+
+  Number of attempts to improve specified quality measure by node movement.
 
 <!-- !! processed by numpydoc !! -->

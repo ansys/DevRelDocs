@@ -6,9 +6,10 @@
 
 Set the default values of the `CheckTopologyParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **topo_search_field_mask: int, optional**
-  : Toposearch field option for topology check.
+
+  Toposearch field option for topology check.
 
 <!-- !! processed by numpydoc !! -->

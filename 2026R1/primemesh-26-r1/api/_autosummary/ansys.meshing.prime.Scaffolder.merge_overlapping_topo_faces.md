@@ -6,20 +6,23 @@
 
 Merge overlapping topofaces.
 
-* **Parameters:**
+**Parameters:**
 
   **topo_faces**
-  : Ids of topology faces.
+
+  Ids of topology faces.
 
   **params**
-  : Scaffolder parameters.
 
-* **Returns:**
+  Scaffolder parameters.
 
-  [`ScaffolderMergeResults`](ansys.meshing.prime.ScaffolderMergeResults.md#ansys.meshing.prime.ScaffolderMergeResults)
-  : Return results in ScaffolderMergeResults.
+**Returns:**
 
-* **Return type:**
+  **[`ScaffolderMergeResults`](ansys.meshing.prime.ScaffolderMergeResults.md#ansys.meshing.prime.ScaffolderMergeResults)**
+
+  Return results in ScaffolderMergeResults.
+
+**Return type:**
 
   [`ScaffolderMergeResults`](ansys.meshing.prime.ScaffolderMergeResults.md#ansys.meshing.prime.ScaffolderMergeResults)
 

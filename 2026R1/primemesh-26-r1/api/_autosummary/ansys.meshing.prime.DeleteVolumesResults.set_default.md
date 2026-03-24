@@ -6,12 +6,14 @@
 
 Set the default values of the `DeleteVolumesResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **deleted_volumes: Iterable[int], optional**
-  : Ids of deleted volumes.
+
+  Ids of deleted volumes.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the volume deletion operation.
+
+  Error code associated with the volume deletion operation.
 
 <!-- !! processed by numpydoc !! -->

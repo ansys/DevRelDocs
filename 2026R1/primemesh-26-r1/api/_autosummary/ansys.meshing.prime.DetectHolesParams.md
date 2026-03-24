@@ -6,38 +6,45 @@
 
 Parameters for detect holes operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `DetectHolesParams` object with default parameters.
+
+  Model to create a `DetectHolesParams` object with default parameters.
 
   **max_radius_circular_holes: float, optional**
-  : Maximum radius of circular holes.
+
+  Maximum radius of circular holes.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **min_radius_circular_holes: float, optional**
-  : Minimum radius of circular holes.
+
+  Minimum radius of circular holes.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **max_hole_length: float, optional**
-  : Maximum length of holes.
+
+  Maximum length of holes.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **min_hole_length: float, optional**
-  : Minimum length of holes.
+
+  Minimum length of holes.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **allow_curved_topo_faces: bool, optional**
-  : Option to allow holes in curved topoface.
+
+  Option to allow holes in curved topoface.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `DetectHolesParams` object with provided parameters.
+
+  JSON dictionary to create a `DetectHolesParams` object with provided parameters.
 
 ### Examples
 

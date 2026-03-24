@@ -6,12 +6,14 @@
 
 Set the default values of the `FillHolesAtPlaneParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **create_zone: bool, optional**
-  : Option to create a face zone for the zonelets created to fill holes.
+
+  Option to create a face zone for the zonelets created to fill holes.
 
   **suggested_zone_name: str, optional**
-  : Suggested name to be set on merged part. If the suggested name is empty, the parameter uses the default name.
+
+  Suggested name to be set on merged part. If the suggested name is empty, the parameter uses the default name.
 
 <!-- !! processed by numpydoc !! -->

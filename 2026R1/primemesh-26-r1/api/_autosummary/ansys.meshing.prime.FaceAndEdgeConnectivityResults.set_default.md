@@ -6,18 +6,22 @@
 
 Set the default values of the `FaceAndEdgeConnectivityResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the get face and edge connectivity operation.
+
+  Error code associated with the get face and edge connectivity operation.
 
   **part_ids: Iterable[int], optional**
-  : Part ids for which face and edge connectivity data is available.
+
+  Part ids for which face and edge connectivity data is available.
 
   **face_connectivity_result_per_part: List[FaceConnectivityResults], optional**
-  : Face connectivity result per part.
+
+  Face connectivity result per part.
 
   **edge_connectivity_result_per_part: List[EdgeConnectivityResults], optional**
-  : Edge connectivity result per part.
+
+  Edge connectivity result per part.
 
 <!-- !! processed by numpydoc !! -->

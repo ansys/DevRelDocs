@@ -6,19 +6,23 @@
 
 Wrapper Control to describe all parameters and controls used for wrapping..
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create WrapperControl object.
+
+  Server model to create WrapperControl object.
 
   **id**
-  : Id of the WrapperControl.
+
+  Id of the WrapperControl.
 
   **object_id**
-  : Object id of the WrapperControl.
+
+  Object id of the WrapperControl.
 
   **name**
-  : Name of the WrapperControl.
+
+  Name of the WrapperControl.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -6,15 +6,18 @@
 
 Set the default values of the `PeriodicControlParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **center: Iterable[float], optional**
-  : Center coordinates.
+
+  Center coordinates.
 
   **axis: Iterable[float], optional**
-  : Axis vector coordinates.
+
+  Axis vector coordinates.
 
   **angle: float, optional**
-  : Angle in degrees.
+
+  Angle in degrees.
 
 <!-- !! processed by numpydoc !! -->

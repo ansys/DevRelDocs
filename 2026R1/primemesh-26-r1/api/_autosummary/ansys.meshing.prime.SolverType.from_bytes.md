@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.SolverType.from_bytes"></a>
 
-#### SolverType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* SolverType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

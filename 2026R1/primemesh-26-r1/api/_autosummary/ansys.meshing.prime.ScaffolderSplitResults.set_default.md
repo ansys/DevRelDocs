@@ -6,12 +6,14 @@
 
 Set the default values of the `ScaffolderSplitResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **new_faces: Iterable[int], optional**
-  : Topofaces created after split operation.
+
+  Topofaces created after split operation.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with split topofaces operation.
+
+  Error code associated with split topofaces operation.
 
 <!-- !! processed by numpydoc !! -->

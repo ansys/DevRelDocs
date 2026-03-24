@@ -6,10 +6,11 @@
 
 Converts all-quad mesh to spline.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create QuadToSpline object.
+
+  Server model to create QuadToSpline object.
 
 <!-- !! processed by numpydoc !! -->
 

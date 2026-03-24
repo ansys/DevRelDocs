@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.ControlPointSelection.from_bytes"></a>
 
-#### ControlPointSelection.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* ControlPointSelection.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

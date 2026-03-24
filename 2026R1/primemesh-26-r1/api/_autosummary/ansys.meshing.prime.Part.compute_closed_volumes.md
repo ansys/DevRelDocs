@@ -6,17 +6,19 @@
 
 Computes volume by identifying closed volumes defined by face zonelets of the part.
 
-* **Parameters:**
+**Parameters:**
 
   **params**
-  : Parameters to compute volumes.
 
-* **Returns:**
+  Parameters to compute volumes.
 
-  [`ComputeVolumesResults`](ansys.meshing.prime.ComputeVolumesResults.md#ansys.meshing.prime.ComputeVolumesResults)
-  : Returns the ComputeVolumesResults.
+**Returns:**
 
-* **Return type:**
+  **[`ComputeVolumesResults`](ansys.meshing.prime.ComputeVolumesResults.md#ansys.meshing.prime.ComputeVolumesResults)**
+
+  Returns the ComputeVolumesResults.
+
+**Return type:**
 
   [`ComputeVolumesResults`](ansys.meshing.prime.ComputeVolumesResults.md#ansys.meshing.prime.ComputeVolumesResults)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.CellZoneletType"></a>
 
-### *class* ansys.meshing.prime.CellZoneletType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.CellZoneletType(\*values)
 
 Types of cell zonelet.
 

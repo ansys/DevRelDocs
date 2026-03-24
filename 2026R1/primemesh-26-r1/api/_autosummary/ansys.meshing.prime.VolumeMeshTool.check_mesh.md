@@ -6,20 +6,23 @@
 
 Checks mesh of a part.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : Id of a part.
+
+  Id of a part.
 
   **params**
-  : Parameters to check mesh.
 
-* **Returns:**
-  
-  [`CheckMeshResults`](ansys.meshing.prime.CheckMeshResults.md#ansys.meshing.prime.CheckMeshResults)
-  : Returns the CheckMeshResults.
+  Parameters to check mesh.
 
-* **Return type:**
+**Returns:**
+
+  **[`CheckMeshResults`](ansys.meshing.prime.CheckMeshResults.md#ansys.meshing.prime.CheckMeshResults)**
+
+  Returns the CheckMeshResults.
+
+**Return type:**
 
   [`CheckMeshResults`](ansys.meshing.prime.CheckMeshResults.md#ansys.meshing.prime.CheckMeshResults)
 

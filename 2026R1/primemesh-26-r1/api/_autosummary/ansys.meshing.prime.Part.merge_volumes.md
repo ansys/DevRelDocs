@@ -6,21 +6,23 @@
 
 Merge volumes by removing shared face zonelets.
 
-* **Parameters:**
+**Parameters:**
 
   **volumes**
-  : Ids of volumes to be merged.
+
+  Ids of volumes to be merged.
 
   **params**
-  : Parameters to merge volumes.
 
-* **Returns:**
-  
+  Parameters to merge volumes.
 
-  [`MergeVolumesResults`](ansys.meshing.prime.MergeVolumesResults.md#ansys.meshing.prime.MergeVolumesResults)
-  : Returns the MergeVolumesResults.
+**Returns:**
 
-* **Return type:**
+  **[`MergeVolumesResults`](ansys.meshing.prime.MergeVolumesResults.md#ansys.meshing.prime.MergeVolumesResults)**
+
+  Returns the MergeVolumesResults.
+
+**Return type:**
 
   [`MergeVolumesResults`](ansys.meshing.prime.MergeVolumesResults.md#ansys.meshing.prime.MergeVolumesResults)
 

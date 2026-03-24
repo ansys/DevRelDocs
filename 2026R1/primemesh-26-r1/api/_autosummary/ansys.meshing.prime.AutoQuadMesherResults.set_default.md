@@ -6,15 +6,18 @@
 
 Set the default values of the `AutoQuadMesherResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code if AutoQuadMesher operation is unsuccessful.
+
+  Error code if AutoQuadMesher operation is unsuccessful.
 
   **warning_codes: List[WarningCode], optional**
-  : Warning code if AutoQuadMesher operation is partially successful.
+
+  Warning code if AutoQuadMesher operation is partially successful.
 
   **failed_topo_face_ids: Iterable[int], optional**
-  : Ids of the failed topofaces during topology check.
+
+  Ids of the failed topofaces during topology check.
 
 <!-- !! processed by numpydoc !! -->

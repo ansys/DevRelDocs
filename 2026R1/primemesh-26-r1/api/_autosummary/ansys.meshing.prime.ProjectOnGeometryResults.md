@@ -6,28 +6,33 @@
 
 Results associated with projection of topofaces nodes on its geometry.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ProjectOnGeometryResults` object with default parameters.
+
+  Model to create a `ProjectOnGeometryResults` object with default parameters.
 
   **success: bool, optional**
-  : Defines the operation was successful or not.
+
+  Indicates whether the operation is successful or not. True if successful, else false.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with failure of operation.
+
+  Error code associated with failure of operation.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **warning_codes: List[WarningCode], optional**
-  : Warning code associated with operation.
+
+  Warning code associated with operation.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ProjectOnGeometryResults` object with provided parameters.
+
+  JSON dictionary to create a `ProjectOnGeometryResults` object with provided parameters.
 
 ### Examples
 
@@ -47,8 +52,8 @@ Results associated with projection of topofaces nodes on its geometry.
 ### Attributes
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
-| [`ProjectOnGeometryResults.error_code`](ansys.meshing.prime.ProjectOnGeometryResults.error_code.md#ansys.meshing.prime.ProjectOnGeometryResults.error_code)          | Error code associated with failure of operation.   |
-| [`ProjectOnGeometryResults.success`](ansys.meshing.prime.ProjectOnGeometryResults.success.md#ansys.meshing.prime.ProjectOnGeometryResults.success)                   | Defines the operation was successful or not.       |
-| [`ProjectOnGeometryResults.warning_codes`](ansys.meshing.prime.ProjectOnGeometryResults.warning_codes.md#ansys.meshing.prime.ProjectOnGeometryResults.warning_codes) | Warning code associated with operation.            |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
+| [`ProjectOnGeometryResults.error_code`](ansys.meshing.prime.ProjectOnGeometryResults.error_code.md#ansys.meshing.prime.ProjectOnGeometryResults.error_code)          | Error code associated with failure of operation.      |
+| [`ProjectOnGeometryResults.success`](ansys.meshing.prime.ProjectOnGeometryResults.success.md#ansys.meshing.prime.ProjectOnGeometryResults.success)                   | Indicates whether the operation is successful or not. |
+| [`ProjectOnGeometryResults.warning_codes`](ansys.meshing.prime.ProjectOnGeometryResults.warning_codes.md#ansys.meshing.prime.ProjectOnGeometryResults.warning_codes) | Warning code associated with operation.               |
 <!-- vale on -->

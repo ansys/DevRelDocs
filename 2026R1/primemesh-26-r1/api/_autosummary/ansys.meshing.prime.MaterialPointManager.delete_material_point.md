@@ -6,17 +6,19 @@
 
 Deletes material point identified with the given name.
 
-* **Parameters:**
+**Parameters:**
 
   **name**
-  : Name of the material point to be deleted.
 
-* **Returns:**
+  Name of the material point to be deleted.
 
-  [`DeleteMaterialPointResults`](ansys.meshing.prime.DeleteMaterialPointResults.md#ansys.meshing.prime.DeleteMaterialPointResults)
-  : Returns the DeleteMaterialPointResults.
+**Returns:**
 
-* **Return type:**
+  **[`DeleteMaterialPointResults`](ansys.meshing.prime.DeleteMaterialPointResults.md#ansys.meshing.prime.DeleteMaterialPointResults)**
+
+  Returns the DeleteMaterialPointResults.
+
+**Return type:**
 
   [`DeleteMaterialPointResults`](ansys.meshing.prime.DeleteMaterialPointResults.md#ansys.meshing.prime.DeleteMaterialPointResults)
 

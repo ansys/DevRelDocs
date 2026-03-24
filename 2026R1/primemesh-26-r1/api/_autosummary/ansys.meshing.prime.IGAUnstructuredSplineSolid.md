@@ -6,28 +6,33 @@
 
 Information of unstructured spline solid.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `IGAUnstructuredSplineSolid` object with default parameters.
+
+  Model to create a `IGAUnstructuredSplineSolid` object with default parameters.
 
   **id: int, optional**
-  : Id of the unstructured spline solid.
+
+  Id of the unstructured spline solid.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **degree: int, optional**
-  : Degree of the spline solid.
+
+  Degree of the spline solid.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **invalid_jacobian_elements_count: int, optional**
-  : Count of elements with negative jacobian.
+
+  Count of elements with negative jacobian.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `IGAUnstructuredSplineSolid` object with provided parameters.
+
+  JSON dictionary to create a `IGAUnstructuredSplineSolid` object with provided parameters.
 
 ### Examples
 

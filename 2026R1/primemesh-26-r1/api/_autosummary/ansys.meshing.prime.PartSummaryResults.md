@@ -6,100 +6,131 @@
 
 Results of part summary.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `PartSummaryResults` object with default parameters.
+
+  Model to create a `PartSummaryResults` object with default parameters.
 
   **message: str, optional**
-  : Part summary text.
+
+  Part summary text.
 
   **n_topo_edges: int, optional**
-  : Number of topoedges.
+
+  Number of topoedges.
 
   **n_topo_faces: int, optional**
-  : Number of topofaces.
+
+  Number of topofaces.
 
   **n_topo_volumes: int, optional**
-  : Number of topovolumes.
+
+  Number of topovolumes.
 
   **n_edge_zonelets: int, optional**
-  : Number of edge zonelets.
+
+  Number of edge zonelets.
 
   **n_face_zonelets: int, optional**
-  : Number of face zonelets.
+
+  Number of face zonelets.
 
   **n_cell_zonelets: int, optional**
-  : Number of cell zonelets.
+
+  Number of cell zonelets.
 
   **n_edge_zones: int, optional**
-  : Number of edge zones.
+
+  Number of edge zones.
 
   **n_face_zones: int, optional**
-  : Number of face zones.
+
+  Number of face zones.
 
   **n_volume_zones: int, optional**
-  : Number of volume zones.
+
+  Number of volume zones.
 
   **n_labels: int, optional**
-  : Number of labels.
+
+  Number of labels.
 
   **n_nodes: int, optional**
-  : Number of nodes.
+
+  Number of nodes.
 
   **n_faces: int, optional**
-  : Number of faces.
+
+  Number of faces.
 
   **n_cells: int, optional**
-  : Number of cells.
+
+  Number of cells.
 
   **n_tri_faces: int, optional**
-  : Number of triangular faces.
+
+  Number of triangular faces.
 
   **n_poly_faces: int, optional**
-  : Number of polygonal faces.
+
+  Number of polygonal faces.
 
   **n_quad_faces: int, optional**
-  : Number of quadrilateral faces.
+
+  Number of quadrilateral faces.
 
   **n_second_order_tri_faces: int, optional**
-  : Number of second order triangular faces.
+
+  Number of second order triangular faces.
 
   **n_second_order_quad_faces: int, optional**
-  : Number of second order quadrilateral faces.
+
+  Number of second order quadrilateral faces.
 
   **n_tet_cells: int, optional**
-  : Number of tetrahedral cells.
+
+  Number of tetrahedral cells.
 
   **n_pyra_cells: int, optional**
-  : Number of pyramid cells.
+
+  Number of pyramid cells.
 
   **n_prism_cells: int, optional**
-  : Number of prism cells.
+
+  Number of prism cells.
 
   **n_poly_cells: int, optional**
-  : Number of polyhedral cells.
+
+  Number of polyhedral cells.
 
   **n_hex_cells: int, optional**
-  : Number of hexahedral cells.
+
+  Number of hexahedral cells.
 
   **n_second_order_tet_cells: int, optional**
-  : Number of second order tetrahedral cells.
+
+  Number of second order tetrahedral cells.
 
   **n_second_order_pyra_cells: int, optional**
-  : Number of second order pyramid cells.
+
+  Number of second order pyramid cells.
 
   **n_second_order_prism_cells: int, optional**
-  : Number of second order prism cells.
+
+  Number of second order prism cells.
 
   **n_second_order_hex_cells: int, optional**
-  : Number of second order hexahedral cells.
+
+  Number of second order hexahedral cells.
 
   **n_unmeshed_topo_faces: int, optional**
-  : Number of unmeshed topofaces.
+
+  Number of unmeshed topofaces.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `PartSummaryResults` object with provided parameters.
+
+  JSON dictionary to create a `PartSummaryResults` object with provided parameters.
 
 ### Examples
 

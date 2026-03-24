@@ -6,22 +6,27 @@
 
 Parameters used to fill holes in topology.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `TopoFillHoleParams` object with default parameters.
+
+  Model to create a `TopoFillHoleParams` object with default parameters.
 
   **edges_to_exclude: Iterable[int], optional**
-  : TopoEdges to be excluded for cap creation.
+
+  TopoEdges to be excluded for cap creation.
 
   **suppress_boundary_after_hole_fill: bool, optional**
-  : Option to preserve or suppress hole-boundary after filling holes.
+
+  Option to preserve or suppress hole-boundary after filling holes.
 
   **fill_annular_hole: bool, optional**
-  : Option for filling holes with annular bounding loops.
+
+  Option for filling holes with annular bounding loops.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `TopoFillHoleParams` object with provided parameters.
+
+  JSON dictionary to create a `TopoFillHoleParams` object with provided parameters.
 
 ### Examples
 

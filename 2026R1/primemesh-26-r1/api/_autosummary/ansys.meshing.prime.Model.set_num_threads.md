@@ -6,10 +6,11 @@
 
 Sets the number of threads for multithreaded operation.
 
-* **Parameters:**
+**Parameters:**
 
   **num**
-  : Number of threads.
+
+  Number of threads.
 
 ### Examples
 

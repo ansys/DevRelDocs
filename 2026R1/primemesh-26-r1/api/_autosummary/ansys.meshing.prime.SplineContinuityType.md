@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.SplineContinuityType"></a>
 
-### *class* ansys.meshing.prime.SplineContinuityType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.SplineContinuityType(\*values)
 
 Spline Continuity types.
 

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="connectresults"></a>
-
 # ConnectResults
 
 <a id="ansys.meshing.prime.ConnectResults"></a>
@@ -10,19 +6,23 @@
 
 Results associated with the connection operations.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ConnectResults` object with default parameters.
+
+  Model to create a `ConnectResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error Code associated with failure of operation.
+
+  Error Code associated with failure of operation.
 
   **warning_codes: List[WarningCode], optional**
-  : Warning codes associated with the operation.
+
+  Warning codes associated with the operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ConnectResults` object with provided parameters.
+
+  JSON dictionary to create a `ConnectResults` object with provided parameters.
 
 ### Examples
 

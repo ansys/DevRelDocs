@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.ContactPatchAxis"></a>
 
-### *class* ansys.meshing.prime.ContactPatchAxis(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.ContactPatchAxis(\*values)
 
 Flow or wake direction for BOI creation.
 

@@ -6,10 +6,11 @@
 
 Sets shadow geometry scope to given scope.
 
-* **Parameters:**
+**Parameters:**
 
   **scope**
-  : ScopeDefinition to scope shadow entities for wrapping.
+
+  ScopeDefinition to scope shadow entities for wrapping.
 
 ### Examples
 

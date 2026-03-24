@@ -6,33 +6,39 @@
 
 Parameters for meshing the solid spline.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `RefineTetMeshParams` object with default parameters.
+
+  Model to create a `RefineTetMeshParams` object with default parameters.
 
   **nisr: int, optional**
-  : Interpolation elements in the local r-direction.
+
+  Interpolation elements in the local r-direction.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **niss: int, optional**
-  : Interpolation elements in the local s-direction.
+
+  Interpolation elements in the local s-direction.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **nist: int, optional**
-  : Interpolation elements in the local t-direction.
+
+  Interpolation elements in the local t-direction.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **tolerance: float, optional**
-  : Tolerance for boundary refinement.
+
+  Tolerance for boundary refinement.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `RefineTetMeshParams` object with provided parameters.
+
+  JSON dictionary to create a `RefineTetMeshParams` object with provided parameters.
 
 ### Examples
 

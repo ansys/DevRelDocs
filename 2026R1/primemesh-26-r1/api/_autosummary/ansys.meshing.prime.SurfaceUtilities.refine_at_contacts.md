@@ -6,20 +6,23 @@
 
 Refine face elements in contact with other parts.
 
-* **Parameters:**
+**Parameters:**
 
   **part_ids**
-  : Input part ids.
+
+  Input part ids.
 
   **params**
-  : Parameters to refine at contacts.
 
-* **Returns:**
+  Parameters to refine at contacts.
 
-  [`RefineAtContactsResults`](ansys.meshing.prime.RefineAtContactsResults.md#ansys.meshing.prime.RefineAtContactsResults)
-  : Returns the RefineAtContactsResults.
+**Returns:**
 
-* **Return type:**
+  **[`RefineAtContactsResults`](ansys.meshing.prime.RefineAtContactsResults.md#ansys.meshing.prime.RefineAtContactsResults)**
+
+  Returns the RefineAtContactsResults.
+
+**Return type:**
 
   [`RefineAtContactsResults`](ansys.meshing.prime.RefineAtContactsResults.md#ansys.meshing.prime.RefineAtContactsResults)
 

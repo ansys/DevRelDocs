@@ -6,28 +6,35 @@
 
 Parameters used for stitch operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `StitchParams` object with default parameters.
+
+  Model to create a `StitchParams` object with default parameters.
 
   **tolerance: float, optional**
-  : Distance tolerance for stitching boundaries.
+
+  Distance tolerance for stitching boundaries.
 
   **use_absolute_tolerance: bool, optional**
-  : True if tolerance provided is absolute value.
+
+  True if tolerance provided is absolute value.
 
   **remesh: bool, optional**
-  : Remesh at stitch connection.
+
+  Remesh at stitch connection.
 
   **enable_multi_threading: bool, optional**
-  : Option to run stitch in parallel using multithread.
+
+  Option to run stitch in parallel using multithread.
 
   **type: StitchType, optional**
-  : Stitch type depending on nature of surface boundary edges to be stitched.
+
+  Stitch type depending on nature of surface boundary edges to be stitched.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `StitchParams` object with provided parameters.
+
+  JSON dictionary to create a `StitchParams` object with provided parameters.
 
 ### Examples
 

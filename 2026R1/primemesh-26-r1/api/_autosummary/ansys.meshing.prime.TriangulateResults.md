@@ -6,23 +6,27 @@
 
 Results associated with triangulate operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `TriangulateResults` object with default parameters.
+
+  Model to create a `TriangulateResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with failure of the operation.
+
+  Error code associated with failure of the operation.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **n_faces_triangulated: int, optional**
-  : Number of faces that were triangulated.
+
+  Number of faces that were triangulated.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `TriangulateResults` object with provided parameters.
+
+  JSON dictionary to create a `TriangulateResults` object with provided parameters.
 
 ### Examples
 

@@ -6,20 +6,23 @@
 
 Split faces in zonelets to get triangular faces.
 
-* **Parameters:**
+**Parameters:**
 
   **face_zonelet_ids**
-  : Ids of face zonelets.
+
+  Ids of face zonelets.
 
   **params**
-  : Parameters to control the split operation.
 
-* **Returns:**
+  Parameters to control the split operation.
 
-  [`TriangulateResults`](ansys.meshing.prime.TriangulateResults.md#ansys.meshing.prime.TriangulateResults)
-  : Returns the TriangulateResults.
+**Returns:**
 
-* **Return type:**
+  **[`TriangulateResults`](ansys.meshing.prime.TriangulateResults.md#ansys.meshing.prime.TriangulateResults)**
+
+  Returns the TriangulateResults.
+
+**Return type:**
 
   [`TriangulateResults`](ansys.meshing.prime.TriangulateResults.md#ansys.meshing.prime.TriangulateResults)
 
