@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.CadReaderRoute.from_bytes"></a>
 
-#### CadReaderRoute.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* CadReaderRoute.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

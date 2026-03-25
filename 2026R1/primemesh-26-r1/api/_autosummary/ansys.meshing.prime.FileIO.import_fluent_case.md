@@ -6,20 +6,23 @@
 
 Import a Fluent case (CAS) file from disk.
 
-* **Parameters:**
+**Parameters:**
 
   **file_name**
-  : Path to the case file on disk.
+
+  Path to the case file on disk.
 
   **import_fluent_case_params**
-  : Parameters for importing the case file.
 
-* **Returns:**
+  Parameters for importing the case file.
 
-  [`ImportFluentCaseResults`](ansys.meshing.prime.ImportFluentCaseResults.md#ansys.meshing.prime.ImportFluentCaseResults)
-  : Results from importing the case file.
+**Returns:**
 
-* **Return type:**
+  **[`ImportFluentCaseResults`](ansys.meshing.prime.ImportFluentCaseResults.md#ansys.meshing.prime.ImportFluentCaseResults)**
+
+  Results from importing the case file.
+
+**Return type:**
 
   [`ImportFluentCaseResults`](ansys.meshing.prime.ImportFluentCaseResults.md#ansys.meshing.prime.ImportFluentCaseResults)
 

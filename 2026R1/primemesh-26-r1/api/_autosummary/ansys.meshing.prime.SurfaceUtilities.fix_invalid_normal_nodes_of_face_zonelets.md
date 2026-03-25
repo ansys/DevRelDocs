@@ -6,23 +6,27 @@
 
 Create nuggets to fix invalid normal at nodes of the given face zonelets.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : Part id of the given face zonelets. Nuggets created are associated to the given part.
+
+  Part id of the given face zonelets. Nuggets created are associated to the given part.
 
   **face_zonelets**
-  : Ids of face zonelets used to find invalid normal nodes.
+
+  Ids of face zonelets used to find invalid normal nodes.
 
   **params**
-  : Parameters to find invalid normal nodes and fix them.
 
-* **Returns:**
+  Parameters to find invalid normal nodes and fix them.
 
-  [`FixInvalidNormalNodeResults`](ansys.meshing.prime.FixInvalidNormalNodeResults.md#ansys.meshing.prime.FixInvalidNormalNodeResults)
-  : Returns the FixInvalidNormalNodeResults.
+**Returns:**
 
-* **Return type:**
+  **[`FixInvalidNormalNodeResults`](ansys.meshing.prime.FixInvalidNormalNodeResults.md#ansys.meshing.prime.FixInvalidNormalNodeResults)**
+
+  Returns the FixInvalidNormalNodeResults.
+
+**Return type:**
 
   [`FixInvalidNormalNodeResults`](ansys.meshing.prime.FixInvalidNormalNodeResults.md#ansys.meshing.prime.FixInvalidNormalNodeResults)
 

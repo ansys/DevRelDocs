@@ -6,12 +6,14 @@
 
 Set the default values of the `DeleteFringesAndOverlapsResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the failure of operation.
+
+  Error code associated with the failure of operation.
 
   **n_deleted: int, optional**
-  : Number of face elements deleted.
+
+  Number of face elements deleted.
 
 <!-- !! processed by numpydoc !! -->

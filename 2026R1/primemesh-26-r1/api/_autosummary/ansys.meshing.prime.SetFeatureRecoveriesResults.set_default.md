@@ -6,12 +6,14 @@
 
 Set the default values of the `SetFeatureRecoveriesResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **ids: Iterable[int], optional**
-  : Ids of added feature recovery controls.
+
+  Ids of added feature recovery controls.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the set feature recoveries.
+
+  Error code associated with the set feature recoveries.
 
 <!-- !! processed by numpydoc !! -->

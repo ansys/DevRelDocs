@@ -6,13 +6,15 @@
 
 Parameters to retrieve information on registered faces.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SearchInfoByRegisterIdParams` object with default parameters.
+
+  Model to create a `SearchInfoByRegisterIdParams` object with default parameters.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SearchInfoByRegisterIdParams` object with provided parameters.
+
+  JSON dictionary to create a `SearchInfoByRegisterIdParams` object with provided parameters.
 
 ### Examples
 

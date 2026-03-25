@@ -6,19 +6,23 @@
 
 Results of file write operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `FileWriteResults` object with default parameters.
+
+  Model to create a `FileWriteResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code if file write operation is unsuccessful.
+
+  Error code if file write operation is unsuccessful.
 
   **warning_codes: List[WarningCode], optional**
-  : Warning codes associated with the file write operation.
+
+  Warning codes associated with the file write operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `FileWriteResults` object with provided parameters.
+
+  JSON dictionary to create a `FileWriteResults` object with provided parameters.
 
 ### Examples
 

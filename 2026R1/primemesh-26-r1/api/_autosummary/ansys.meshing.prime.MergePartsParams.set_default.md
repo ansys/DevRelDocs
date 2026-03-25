@@ -6,9 +6,10 @@
 
 Set the default values of the `MergePartsParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **merged_part_suggested_name: str, optional**
-  : Suggested name to be set on merged part. First in alphabetical order of given part names will be used, when empty name is given.
+
+  Suggested name to be set on merged part. First in alphabetical order of given part names will be used, when empty name is given.
 
 <!-- !! processed by numpydoc !! -->

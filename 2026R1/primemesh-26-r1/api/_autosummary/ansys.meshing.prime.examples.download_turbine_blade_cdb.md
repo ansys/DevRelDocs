@@ -6,7 +6,8 @@
 
 Download the CDB file for the turbine blade example.
 
-* **Return type:**
+
+**Return type:**
 
   [`Union`](https://docs.python.org/3.11/library/typing.html#typing.Union)[[`str`](https://docs.python.org/3.11/library/stdtypes.html#str), [`PathLike`](https://docs.python.org/3.11/library/os.html#os.PathLike)]
 
@@ -20,11 +21,12 @@ force
   `False`, in which case if the example file is cached, it
   is reused.
 
-* **Returns:**
-  :
 
-  [`str`](https://docs.python.org/3.11/library/stdtypes.html#str)
-  : Local path to the downloaded example file.
+**Returns:**
+
+  **[`str`](https://docs.python.org/3.11/library/stdtypes.html#str)**
+
+  Local path to the downloaded example file.
 
 ### Examples
 
@@ -43,4 +45,3 @@ force
 ```
 
 <!-- !! processed by numpydoc !! -->
-

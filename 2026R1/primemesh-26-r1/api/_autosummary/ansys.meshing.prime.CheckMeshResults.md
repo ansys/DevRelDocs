@@ -6,31 +6,39 @@
 
 Result associated with the check mesh operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `CheckMeshResults` object with default parameters.
+
+  Model to create a `CheckMeshResults` object with default parameters.
 
   **has_non_positive_volumes: bool, optional**
-  : Indicates whether mesh has non positive volumes.
+
+  Indicates whether mesh has non positive volumes.
 
   **has_non_positive_areas: bool, optional**
-  : Indicates whether mesh has non positive areas.
+
+  Indicates whether mesh has non positive areas.
 
   **has_invalid_shape: bool, optional**
-  : Indicates whether mesh has invalid shape.
+
+  Indicates whether mesh has invalid shape.
 
   **has_left_handed_faces: bool, optional**
-  : Indicates whether mesh has left handed faces.
+
+  Indicates whether mesh has left handed faces.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the check grid operation.
+
+  Error code associated with the check grid operation.
 
   **warning_codes: List[WarningCode], optional**
-  : Warning codes associated with the check grid operation.
+
+  Warning codes associated with the check grid operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `CheckMeshResults` object with provided parameters.
+
+  JSON dictionary to create a `CheckMeshResults` object with provided parameters.
 
 ### Examples
 

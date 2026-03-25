@@ -6,12 +6,14 @@
 
 Set the default values of the `AddThicknessResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code associated with failure of operation.
+
+  Error code associated with failure of operation.
 
   **part_id: int, optional**
-  : The created thickness part id.
+
+  The created thickness part id.
 
 <!-- !! processed by numpydoc !! -->

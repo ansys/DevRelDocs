@@ -6,12 +6,14 @@
 
 Set the default values of the `WrapperCloseGapsResult` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code associated with a close gaps operation.
+
+  Error code associated with a close gaps operation.
 
   **part_id: int, optional**
-  : Id of part created with gap cover patches.
+
+  Id of part created with gap cover patches.
 
 <!-- !! processed by numpydoc !! -->

@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.SplineRefinementType"></a>
 
-### *class* ansys.meshing.prime.SplineRefinementType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.SplineRefinementType(\*values)
 
 Type of spline refinement. Currently, supports h-refinement and p-refinement.
 

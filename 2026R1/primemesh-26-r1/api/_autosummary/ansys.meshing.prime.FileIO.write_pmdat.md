@@ -6,20 +6,23 @@
 
 Write a PyPrimeMesh data (PMDAT) file.
 
-* **Parameters:**
+**Parameters:**
 
   **file_name**
-  : Path for writing the data file on disk.
+
+  Path for writing the data file on disk.
 
   **file_write_params**
-  : Parameters for writing the data file.
 
-* **Returns:**
-  
-  [`FileWriteResults`](ansys.meshing.prime.FileWriteResults.md#ansys.meshing.prime.FileWriteResults)
-  : Results from writing the data file.
+  Parameters for writing the data file.
 
-* **Return type:**
+**Returns:**
+
+  **[`FileWriteResults`](ansys.meshing.prime.FileWriteResults.md#ansys.meshing.prime.FileWriteResults)**
+
+  Results from writing the data file.
+
+**Return type:**
 
   [`FileWriteResults`](ansys.meshing.prime.FileWriteResults.md#ansys.meshing.prime.FileWriteResults)
 

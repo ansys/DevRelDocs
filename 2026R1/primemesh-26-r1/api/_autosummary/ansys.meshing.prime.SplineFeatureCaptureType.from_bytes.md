@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.SplineFeatureCaptureType.from_bytes"></a>
 
-#### SplineFeatureCaptureType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* SplineFeatureCaptureType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

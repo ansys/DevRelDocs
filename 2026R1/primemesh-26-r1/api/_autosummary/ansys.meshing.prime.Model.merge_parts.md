@@ -6,20 +6,23 @@
 
 Merge multiple parts into a single part.
 
-* **Parameters:**
+**Parameters:**
 
   **part_ids**
-  : IDs of the parts to merge.
+
+  IDs of the parts to merge.
 
   **params**
-  : Parameters for merging parts.
 
-* **Returns:**
+  Parameters for merging parts.
 
-  [`MergePartsResults`](ansys.meshing.prime.MergePartsResults.md#ansys.meshing.prime.MergePartsResults)
-  : Results for merging the parts into a single part.
+**Returns:**
 
-* **Return type:**
+  **[`MergePartsResults`](ansys.meshing.prime.MergePartsResults.md#ansys.meshing.prime.MergePartsResults)**
+
+  Results for merging the parts into a single part.
+
+**Return type:**
 
   [`MergePartsResults`](ansys.meshing.prime.MergePartsResults.md#ansys.meshing.prime.MergePartsResults)
 

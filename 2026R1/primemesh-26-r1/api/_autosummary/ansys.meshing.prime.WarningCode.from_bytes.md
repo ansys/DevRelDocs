@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.WarningCode.from_bytes"></a>
 
-#### WarningCode.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* WarningCode.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

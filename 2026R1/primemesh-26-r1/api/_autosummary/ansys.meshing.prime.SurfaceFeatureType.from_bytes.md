@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.SurfaceFeatureType.from_bytes"></a>
 
-#### SurfaceFeatureType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* SurfaceFeatureType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

@@ -6,43 +6,51 @@
 
 Parameters to define the uniform solid spline.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `UniformSolidSplineCreationParams` object with default parameters.
+
+  Model to create a `UniformSolidSplineCreationParams` object with default parameters.
 
   **n_control_points_u: int, optional**
-  : Number of control points in u direction.
+
+  Number of control points in u direction.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **n_control_points_v: int, optional**
-  : Number of control points in v direction.
+
+  Number of control points in v direction.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **n_control_points_w: int, optional**
-  : Number of control points in w direction.
+
+  Number of control points in w direction.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **degree_u: int, optional**
-  : Degree in u direction.
+
+  Degree in u direction.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **degree_v: int, optional**
-  : Degree in v direction.
+
+  Degree in v direction.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **degree_w: int, optional**
-  : Degree in w direction.
+
+  Degree in w direction.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `UniformSolidSplineCreationParams` object with provided parameters.
+
+  JSON dictionary to create a `UniformSolidSplineCreationParams` object with provided parameters.
 
 ### Examples
 

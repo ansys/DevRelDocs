@@ -6,20 +6,23 @@
 
 Export an MAPDL CDB file.
 
-* **Parameters:**
+**Parameters:**
 
   **file_name**
-  : Path to the CDB file on disk.
+
+  Path to the CDB file on disk.
 
   **params**
-  : Parameters for exporting the CDB file.
 
-* **Returns:**
-  
-  [`ExportMapdlCdbResults`](ansys.meshing.prime.ExportMapdlCdbResults.md#ansys.meshing.prime.ExportMapdlCdbResults)
-  : Results from exporting the CDB file.
+  Parameters for exporting the CDB file.
 
-* **Return type:**
+**Returns:**
+
+  **[`ExportMapdlCdbResults`](ansys.meshing.prime.ExportMapdlCdbResults.md#ansys.meshing.prime.ExportMapdlCdbResults)**
+
+  Results from exporting the CDB file.
+
+**Return type:**
 
   [`ExportMapdlCdbResults`](ansys.meshing.prime.ExportMapdlCdbResults.md#ansys.meshing.prime.ExportMapdlCdbResults)
 

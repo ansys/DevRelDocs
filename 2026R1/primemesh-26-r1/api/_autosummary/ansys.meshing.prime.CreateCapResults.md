@@ -6,19 +6,23 @@
 
 Results associated with create cap on face zonelets.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `CreateCapResults` object with default parameters.
+
+  Model to create a `CreateCapResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the failure of operation.
+
+  Error code associated with the failure of operation.
 
   **created_face_zonelets: Iterable[int], optional**
-  : Ids of cap face zonelets created.
+
+  Ids of cap face zonelets created.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `CreateCapResults` object with provided parameters.
+
+  JSON dictionary to create a `CreateCapResults` object with provided parameters.
 
 ### Examples
 

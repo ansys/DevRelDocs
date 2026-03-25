@@ -6,14 +6,16 @@
 
 Compute volumes in the parts defined by the part expression.
 
-* **Parameters:**
+**Parameters:**
 
   **part_expression**
-  : Expression of the parts where the topology must be deleted.
+
+  Expression of the parts where the topology must be deleted.
     The default is `"*"`.
 
   **create_zones_per_volume**
-  : Whether to create volume zones for each volume. The default
+
+  Whether to create volume zones for each volume. The default
     is `True`.
 
 <!-- !! processed by numpydoc !! -->

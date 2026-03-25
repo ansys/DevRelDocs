@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.TopoSearchField.from_bytes"></a>
 
-#### TopoSearchField.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* TopoSearchField.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

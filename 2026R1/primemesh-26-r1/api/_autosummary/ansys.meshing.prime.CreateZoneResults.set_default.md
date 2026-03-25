@@ -6,15 +6,18 @@
 
 Set the default values of the `CreateZoneResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the create zone operation.
+
+  Error code associated with the create zone operation.
 
   **zone_id: int, optional**
-  : Id of newly created zone.
+
+  Id of newly created zone.
 
   **assigned_name: str, optional**
-  : Assigned name of newly created zone.
+
+  Assigned name of newly created zone.
 
 <!-- !! processed by numpydoc !! -->

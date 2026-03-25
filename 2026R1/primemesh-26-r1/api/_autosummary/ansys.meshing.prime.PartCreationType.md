@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.PartCreationType"></a>
 
-### *class* ansys.meshing.prime.PartCreationType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.PartCreationType(\*values)
 
 Part Creation Type decides whether to create a part per CAD Model, Assembly, Part, Body.
 

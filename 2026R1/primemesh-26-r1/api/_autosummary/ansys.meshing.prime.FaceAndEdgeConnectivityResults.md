@@ -6,25 +6,31 @@
 
 Result of the face and edge connectivity information.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `FaceAndEdgeConnectivityResults` object with default parameters.
+
+  Model to create a `FaceAndEdgeConnectivityResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the get face and edge connectivity operation.
+
+  Error code associated with the get face and edge connectivity operation.
 
   **part_ids: Iterable[int], optional**
-  : Part ids for which face and edge connectivity data is available.
+
+  Part ids for which face and edge connectivity data is available.
 
   **face_connectivity_result_per_part: List[FaceConnectivityResults], optional**
-  : Face connectivity result per part.
+
+  Face connectivity result per part.
 
   **edge_connectivity_result_per_part: List[EdgeConnectivityResults], optional**
-  : Edge connectivity result per part.
+
+  Edge connectivity result per part.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `FaceAndEdgeConnectivityResults` object with provided parameters.
+
+  JSON dictionary to create a `FaceAndEdgeConnectivityResults` object with provided parameters.
 
 ### Examples
 

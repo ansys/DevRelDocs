@@ -6,22 +6,27 @@
 
 Results associated with the set name.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SetNameResults` object with default parameters.
+
+  Model to create a `SetNameResults` object with default parameters.
 
   **warning_code: WarningCode, optional**
-  : Warning code associated with the set name of given entity.
+
+  Warning code associated with the set name of given entity.
 
   **assigned_name: str, optional**
-  : Assigned name of given entity.
+
+  Assigned name of given entity.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the failure of operation.
+
+  Error code associated with the failure of operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SetNameResults` object with provided parameters.
+
+  JSON dictionary to create a `SetNameResults` object with provided parameters.
 
 ### Examples
 

@@ -6,19 +6,23 @@
 
 Parameters to fill holes at given plane.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `FillHolesAtPlaneParams` object with default parameters.
+
+  Model to create a `FillHolesAtPlaneParams` object with default parameters.
 
   **create_zone: bool, optional**
-  : Option to create a face zone for the zonelets created to fill holes.
+
+  Option to create a face zone for the zonelets created to fill holes.
 
   **suggested_zone_name: str, optional**
-  : Suggested name to be set on merged part. If the suggested name is empty, the parameter uses the default name.
+
+  Suggested name to be set on merged part. If the suggested name is empty, the parameter uses the default name.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `FillHolesAtPlaneParams` object with provided parameters.
+
+  JSON dictionary to create a `FillHolesAtPlaneParams` object with provided parameters.
 
 ### Examples
 

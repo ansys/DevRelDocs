@@ -6,20 +6,23 @@
 
 Export a Fluent Meshing mesh (MSH) file.
 
-* **Parameters:**
+**Parameters:**
 
   **file_name**
-  : Path to the mesh file on disk.
+
+  Path to the mesh file on disk.
 
   **export_fluent_mesh_params**
-  : Parameters for exporting the mesh file.
 
-* **Returns:**
-  
-  [`FileWriteResults`](ansys.meshing.prime.FileWriteResults.md#ansys.meshing.prime.FileWriteResults)
-  : Results from exporting the mesh file.
+  Parameters for exporting the mesh file.
 
-* **Return type:**
+**Returns:**
+
+  **[`FileWriteResults`](ansys.meshing.prime.FileWriteResults.md#ansys.meshing.prime.FileWriteResults)**
+
+  Results from exporting the mesh file.
+
+**Return type:**
 
   [`FileWriteResults`](ansys.meshing.prime.FileWriteResults.md#ansys.meshing.prime.FileWriteResults)
 

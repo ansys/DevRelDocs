@@ -6,19 +6,23 @@
 
 Results structure associated with search folds operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SearchByFoldsResults` object with default parameters.
+
+  Model to create a `SearchByFoldsResults` object with default parameters.
 
   **n_found: int, optional**
-  : Number of folds identified.
+
+  Number of folds identified.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with search folds operation.
+
+  Error code associated with search folds operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SearchByFoldsResults` object with provided parameters.
+
+  JSON dictionary to create a `SearchByFoldsResults` object with provided parameters.
 
 ### Examples
 

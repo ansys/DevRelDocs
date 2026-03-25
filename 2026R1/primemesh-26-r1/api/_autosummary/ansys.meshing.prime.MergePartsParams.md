@@ -6,16 +6,19 @@
 
 Parameters to merge parts.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `MergePartsParams` object with default parameters.
+
+  Model to create a `MergePartsParams` object with default parameters.
 
   **merged_part_suggested_name: str, optional**
-  : Suggested name to be set on merged part. First in alphabetical order of given part names will be used, when empty name is given.
+
+  Suggested name to be set on merged part. First in alphabetical order of given part names will be used, when empty name is given.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `MergePartsParams` object with provided parameters.
+
+  JSON dictionary to create a `MergePartsParams` object with provided parameters.
 
 ### Examples
 

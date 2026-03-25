@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.PrismControlOffsetType"></a>
 
-### *class* ansys.meshing.prime.PrismControlOffsetType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.PrismControlOffsetType(\*values)
 
 Offset type for prism control.
 

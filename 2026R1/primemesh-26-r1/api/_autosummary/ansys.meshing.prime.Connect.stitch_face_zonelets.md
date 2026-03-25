@@ -6,26 +6,31 @@
 
 Stitches a set of face zonelets with another set of face zonelets.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : Id of the part.
+
+  Id of the part.
 
   **face_zonelet_ids**
-  : Face zonelets to be stitched.
+
+  Face zonelets to be stitched.
 
   **with_face_zonelet_ids**
-  : Face zonelets to be stitched with.
+
+  Face zonelets to be stitched with.
 
   **params**
-  : Parameters for stitch.
 
-* **Returns:**
+  Parameters for stitch.
 
-  [`ConnectResults`](ansys.meshing.prime.ConnectResults.md#ansys.meshing.prime.ConnectResults)
-  : Returns the ConnectResults.
+**Returns:**
 
-* **Return type:**
+  **[`ConnectResults`](ansys.meshing.prime.ConnectResults.md#ansys.meshing.prime.ConnectResults)**
+
+  Returns the ConnectResults.
+
+**Return type:**
 
   [`ConnectResults`](ansys.meshing.prime.ConnectResults.md#ansys.meshing.prime.ConnectResults)
 

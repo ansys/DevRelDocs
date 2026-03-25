@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.SmoothType"></a>
 
-### *class* ansys.meshing.prime.SmoothType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.SmoothType(\*values)
 
 Indicates the the type of operation to be performed during the smooth dihedral face nodes operation.
 

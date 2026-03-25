@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.EdgeMergeControl.from_bytes"></a>
 
-#### EdgeMergeControl.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* EdgeMergeControl.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

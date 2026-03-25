@@ -6,20 +6,24 @@
 
 Performs volume meshing on the part with the given meshing parameters.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : Id of the part.
+
+  Id of the part.
 
   **automesh_params**
-  : Parameters for auto mesh.
 
-* **Returns:**
+  Parameters for auto mesh.
 
-  [`AutoMeshResults`](ansys.meshing.prime.AutoMeshResults.md#ansys.meshing.prime.AutoMeshResults)
-  : Returns the AutomeshResults.
-  
-* **Return type:**
+**Returns:**
+
+  **[`AutoMeshResults`](ansys.meshing.prime.AutoMeshResults.md#ansys.meshing.prime.AutoMeshResults)**
+
+  Returns the AutomeshResults.
+
+**Return type:**
+
   [`AutoMeshResults`](ansys.meshing.prime.AutoMeshResults.md#ansys.meshing.prime.AutoMeshResults)
 
 ### Examples

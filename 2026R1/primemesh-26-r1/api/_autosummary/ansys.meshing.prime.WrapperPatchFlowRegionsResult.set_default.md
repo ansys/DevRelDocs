@@ -6,18 +6,22 @@
 
 Set the default values of the `WrapperPatchFlowRegionsResult` object.
 
-* **Parameters:**
+**Parameters:**
 
   **warning_codes: List[WarningCode], optional**
-  : Warning codes associated with the patch holes operation.
+
+  Warning codes associated with the patch holes operation.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with a patch holes operation.
+
+  Error code associated with a patch holes operation.
 
   **id: int, optional**
-  : Id of part created with hole patches.
+
+  Id of part created with hole patches.
 
   **name: str, optional**
-  : Name of part created with hole patches.
+
+  Name of part created with hole patches.
 
 <!-- !! processed by numpydoc !! -->

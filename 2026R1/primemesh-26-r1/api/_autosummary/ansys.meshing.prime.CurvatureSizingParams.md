@@ -10,28 +10,35 @@ The curvature size control uses the normal angle parameter as the maximum allowa
 For example, a value of 5 implies that a division will be made when the angle change along the curve is 5 degrees.
 Hence, a 90 degree arc will be divided into approximately 18 segments.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `CurvatureSizingParams` object with default parameters.
+
+  Model to create a `CurvatureSizingParams` object with default parameters.
 
   **min: float, optional**
-  : Minimum size used for computing edge and face size using curavture size control.
+
+  Minimum size used for computing edge and face size using curavture size control.
 
   **max: float, optional**
-  : Maximum size used for computing edge and face size using curavture size control.
+
+  Maximum size used for computing edge and face size using curavture size control.
 
   **growth_rate: float, optional**
-  : Growth rate used for transitioning from one element size to neighbor element size.
+
+  Growth rate used for transitioning from one element size to neighbor element size.
 
   **normal_angle: float, optional**
-  : Maximum allowable angle at which one element edge may span.
+
+  Maximum allowable angle at which one element edge may span.
 
   **use_cad_curvature: bool, optional**
-  : Option to enable use of CAD curvature for computing edge and face size.
+
+  Option to enable use of CAD curvature for computing edge and face size.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `CurvatureSizingParams` object with provided parameters.
+
+  JSON dictionary to create a `CurvatureSizingParams` object with provided parameters.
 
 ### Examples
 

@@ -6,12 +6,14 @@
 
 Set the default values of the `SizeFieldFileReadResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code if size field file read operation was unsuccessful.
+
+  Error code if size field file read operation was unsuccessful.
 
   **size_field_ids: Iterable[int], optional**
-  : Ids of size fields read by read size field operation.
+
+  Ids of size fields read by read size field operation.
 
 <!-- !! processed by numpydoc !! -->

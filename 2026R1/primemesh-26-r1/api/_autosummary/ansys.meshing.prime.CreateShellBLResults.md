@@ -6,23 +6,27 @@
 
 Results associated with the ShellBL mesh.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `CreateShellBLResults` object with default parameters.
+
+  Model to create a `CreateShellBLResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the failure of operation.
+
+  Error code associated with the failure of operation.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **warning_codes: List[WarningCode], optional**
-  : Warning codes associated with the operation.
+
+  Warning codes associated with the operation.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `CreateShellBLResults` object with provided parameters.
+
+  JSON dictionary to create a `CreateShellBLResults` object with provided parameters.
 
 ### Examples
 

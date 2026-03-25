@@ -6,9 +6,10 @@
 
 Set the default values of the `ExtractTopoVolumesParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **zone_name: str, optional**
-  : Specifies zone name to associate extracted flow topovolumes.
+
+  Specifies zone name to associate extracted flow topovolumes.
 
 <!-- !! processed by numpydoc !! -->

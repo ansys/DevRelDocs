@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.IntersectionMask.from_bytes"></a>
 
-#### IntersectionMask.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* IntersectionMask.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

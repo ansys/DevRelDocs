@@ -6,33 +6,39 @@
 
 Growth parameters for ShellBL control.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ShellBLControlGrowthParams` object with default parameters.
+
+  Model to create a `ShellBLControlGrowthParams` object with default parameters.
 
   **n_layers: int, optional**
-  : Number of layers to be generated.
+
+  Number of layers to be generated.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **offset_type: ShellBLOffsetType, optional**
-  : Offset type for ShellBL.
+
+  Offset type for ShellBL.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **growth_rate: float, optional**
-  : Ratio of height of the current layer to the previous layer.
+
+  Ratio of height of the current layer to the previous layer.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **first_height: float, optional**
-  : Height of first layer of ShellBL.
+
+  Height of first layer of ShellBL.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ShellBLControlGrowthParams` object with provided parameters.
+
+  JSON dictionary to create a `ShellBLControlGrowthParams` object with provided parameters.
 
 ### Examples
 

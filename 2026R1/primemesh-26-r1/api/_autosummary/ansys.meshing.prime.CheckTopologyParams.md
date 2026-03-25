@@ -6,18 +6,21 @@
 
 Parameters for check topology operations.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `CheckTopologyParams` object with default parameters.
+
+  Model to create a `CheckTopologyParams` object with default parameters.
 
   **topo_search_field_mask: int, optional**
-  : Toposearch field option for topology check.
+
+  Toposearch field option for topology check.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `CheckTopologyParams` object with provided parameters.
+
+  JSON dictionary to create a `CheckTopologyParams` object with provided parameters.
 
 ### Examples
 

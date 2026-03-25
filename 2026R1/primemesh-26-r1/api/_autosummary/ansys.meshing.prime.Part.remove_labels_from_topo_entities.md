@@ -6,21 +6,23 @@
 
 Remove the given labels from the provided topoentities.
 
-* **Parameters:**
+**Parameters:**
 
   **labels**
-  : Labels to be removed from topoentities.
+
+  Labels to be removed from topoentities.
 
   **topo_entities**
-  : Ids of topoentities.
 
-* **Returns:**
+  Ids of topoentities.
 
+**Returns:**
 
-  [`RemoveLabelResults`](ansys.meshing.prime.RemoveLabelResults.md#ansys.meshing.prime.RemoveLabelResults)
-  : Returns the RemoveLabelResults.
+  **[`RemoveLabelResults`](ansys.meshing.prime.RemoveLabelResults.md#ansys.meshing.prime.RemoveLabelResults)**
 
-* **Return type:**
+  Returns the RemoveLabelResults.
+
+**Return type:**
 
   [`RemoveLabelResults`](ansys.meshing.prime.RemoveLabelResults.md#ansys.meshing.prime.RemoveLabelResults)
 

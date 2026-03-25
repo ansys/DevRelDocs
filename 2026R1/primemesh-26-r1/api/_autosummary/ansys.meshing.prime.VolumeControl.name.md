@@ -6,9 +6,9 @@
 
 Get the name of the volume control.
 
-* **Returns:**
+**Returns**
   [`str`](https://docs.python.org/3.11/library/stdtypes.html#str)
-  : Name of the volume control.
+  Name of the volume control.
 
 ### Examples
 

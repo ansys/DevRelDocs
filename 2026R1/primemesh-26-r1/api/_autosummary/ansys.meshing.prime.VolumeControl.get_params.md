@@ -6,12 +6,14 @@
 
 Get the parameters of the volume control.
 
-* **Returns:**
 
-  [`VolumeControlParams`](ansys.meshing.prime.VolumeControlParams.md#ansys.meshing.prime.VolumeControlParams)
-  : Return parameters of the volume control.
+**Returns:**
 
-* **Return type:**
+  **[`VolumeControlParams`](ansys.meshing.prime.VolumeControlParams.md#ansys.meshing.prime.VolumeControlParams)**
+
+  Return parameters of the volume control.
+
+**Return type:**
 
   [`VolumeControlParams`](ansys.meshing.prime.VolumeControlParams.md#ansys.meshing.prime.VolumeControlParams)
 

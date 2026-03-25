@@ -6,43 +6,55 @@
 
 Result of the edge connectivity information.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `EdgeConnectivityResults` object with default parameters.
+
+  Model to create a `EdgeConnectivityResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the get edge connectivity operation.
+
+  Error code associated with the get edge connectivity operation.
 
   **edge_zonelet_ids: Iterable[int], optional**
-  : Edge zonelet ids for which connectivity data is available.
+
+  Edge zonelet ids for which connectivity data is available.
 
   **topo_edge_ids: Iterable[int], optional**
-  : TopoEdge ids corresponding to each edge zonelet id for topology based mesh.
+
+  TopoEdge ids corresponding to each edge zonelet id for topology based mesh.
 
   **mesh_edge_ids: Iterable[int], optional**
-  : Mesh edge ids corresponding to each topoedge.
+
+  Mesh edge ids corresponding to each topoedge.
 
   **topo_edge_types: Iterable[int], optional**
-  : TopoEdge type corresponding to each topoedge.
+
+  TopoEdge type corresponding to each topoedge.
 
   **num_nodes_per_edge_zonelet: Iterable[int], optional**
-  : Number of nodes per edge zonelet.
+
+  Number of nodes per edge zonelet.
 
   **node_coords: Iterable[float], optional**
-  : Node coordinates describing edges of edge zonelet.
+
+  Node coordinates describing edges of edge zonelet.
 
   **num_edge_list_per_edge_zonelet: Iterable[int], optional**
-  : Number of edge list per edge zonelet.
+
+  Number of edge list per edge zonelet.
 
   **edge_list: Iterable[int], optional**
-  : Edge list describing connectivity of node coordinates.
+
+  Edge list describing connectivity of node coordinates.
 
   **num_edges_per_edge_zonelet: Iterable[int], optional**
-  : Number of edges per edge zonelet.
+
+  Number of edges per edge zonelet.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `EdgeConnectivityResults` object with provided parameters.
+
+  JSON dictionary to create a `EdgeConnectivityResults` object with provided parameters.
 
 ### Examples
 

@@ -6,20 +6,23 @@
 
 Export a Fluent case (CAS) file.
 
-* **Parameters:**
+**Parameters:**
 
   **file_name**
-  : Path to the case file on disk.
+
+  Path to the case file on disk.
 
   **export_fluent_case_params**
-  : Parameters for exporting the case file.
 
-* **Returns:**
+  Parameters for exporting the case file.
 
-  [`FileWriteResults`](ansys.meshing.prime.FileWriteResults.md#ansys.meshing.prime.FileWriteResults)
-  : Results from exporting the case file.
+**Returns:**
 
-* **Return type:**
+  **[`FileWriteResults`](ansys.meshing.prime.FileWriteResults.md#ansys.meshing.prime.FileWriteResults)**
+
+  Results from exporting the case file.
+
+**Return type:**
 
   [`FileWriteResults`](ansys.meshing.prime.FileWriteResults.md#ansys.meshing.prime.FileWriteResults)
 

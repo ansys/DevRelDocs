@@ -6,25 +6,31 @@
 
 Results of search by quality.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SearchByQualityResults` object with default parameters.
+
+  Model to create a `SearchByQualityResults` object with default parameters.
 
   **n_found: int, optional**
-  : Number of face elements found by search for given quality limit.
+
+  Number of face elements found by search for given quality limit.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with failure of operation.
+
+  Error code associated with failure of operation.
 
   **max_quality: float, optional**
-  : Maximum quality found by search.
+
+  Maximum quality found by search.
 
   **min_quality: float, optional**
-  : Minimum quality found by search.
+
+  Minimum quality found by search.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SearchByQualityResults` object with provided parameters.
+
+  JSON dictionary to create a `SearchByQualityResults` object with provided parameters.
 
 ### Examples
 

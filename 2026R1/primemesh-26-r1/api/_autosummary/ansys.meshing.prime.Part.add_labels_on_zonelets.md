@@ -6,20 +6,23 @@
 
 Add the given labels on the provided zonelets.
 
-* **Parameters:**
+**Parameters:**
 
   **labels**
-  : Labels to be added on zonelets.
+
+  Labels to be added on zonelets.
 
   **zonelets**
-  : Ids of zonelets.
 
-* **Returns:**
+  Ids of zonelets.
 
-  [`AddLabelResults`](ansys.meshing.prime.AddLabelResults.md#ansys.meshing.prime.AddLabelResults)
-  : Returns the AddLabelResults.
+**Returns:**
 
-* **Return type:**
+  **[`AddLabelResults`](ansys.meshing.prime.AddLabelResults.md#ansys.meshing.prime.AddLabelResults)**
+
+  Returns the AddLabelResults.
+
+**Return type:**
 
   [`AddLabelResults`](ansys.meshing.prime.AddLabelResults.md#ansys.meshing.prime.AddLabelResults)
 

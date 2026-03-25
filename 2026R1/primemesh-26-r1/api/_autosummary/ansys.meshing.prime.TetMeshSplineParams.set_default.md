@@ -6,15 +6,18 @@
 
 Set the default values of the `TetMeshSplineParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **feature_angle: float, optional**
-  : Feature angle used in meshing of the solid spline.
+
+  Feature angle used in meshing of the solid spline.
 
   **mode: TrimmedSolidSplineCutMode, optional**
-  : Cut mode to specify rule for mesh cell selection in the volume mesh.
+
+  Cut mode to specify rule for mesh cell selection in the volume mesh.
 
   **decimation_factor: float, optional**
-  : Decimation factor used in meshing of the solid spline.
+
+  Decimation factor used in meshing of the trimmed solid spline.
 
 <!-- !! processed by numpydoc !! -->

@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="boisizingparams"></a>
-
 # BoiSizingParams
 
 <a id="ansys.meshing.prime.BoiSizingParams"></a>
@@ -13,19 +9,23 @@ Size field computed using body of influence size control enables you to specify 
 The maximum mesh size will be equal to the specified size within the body of influence.
 The minimum size will be determined based on the influence of other size controls.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `BoiSizingParams` object with default parameters.
+
+  Model to create a `BoiSizingParams` object with default parameters.
 
   **max: float, optional**
-  : Maximum size used for computing edge and face size using boi size control.
+
+  Maximum size used for computing edge and face size using boi size control.
 
   **growth_rate: float, optional**
-  : Growth rate used for transitioning from one element size to neighbor element size.
+
+  Growth rate used for transitioning from one element size to neighbor element size.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `BoiSizingParams` object with provided parameters.
+
+  JSON dictionary to create a `BoiSizingParams` object with provided parameters.
 
 ### Examples
 

@@ -6,12 +6,14 @@
 
 Get the curvature sizing parameters of size control.
 
-* **Returns:**
-  
-  [`CurvatureSizingParams`](ansys.meshing.prime.CurvatureSizingParams.md#ansys.meshing.prime.CurvatureSizingParams)
-  : Return the CurvatureSizingParams.
 
-* **Return type:**
+**Returns:**
+
+  **[`CurvatureSizingParams`](ansys.meshing.prime.CurvatureSizingParams.md#ansys.meshing.prime.CurvatureSizingParams)**
+
+  Return the CurvatureSizingParams.
+
+**Return type:**
 
   [`CurvatureSizingParams`](ansys.meshing.prime.CurvatureSizingParams.md#ansys.meshing.prime.CurvatureSizingParams)
 

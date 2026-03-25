@@ -6,12 +6,14 @@
 
 Set the default values of the `SetParamsResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the set parameters operation.
+
+  Error code associated with the set parameters operation.
 
   **warning_code: WarningCode, optional**
-  : Warning code associated with the set parameters operation.
+
+  Warning code associated with the set parameters operation.
 
 <!-- !! processed by numpydoc !! -->

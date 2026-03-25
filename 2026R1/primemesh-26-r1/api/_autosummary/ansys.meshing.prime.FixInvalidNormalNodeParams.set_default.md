@@ -6,15 +6,18 @@
 
 Set the default values of the `FixInvalidNormalNodeParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **nugget_size: float, optional**
-  : Relative size used to create nugget at invalid normal node. The size is relative to mesh size at the node.
+
+  Relative size used to create nugget at invalid normal node. The size is relative to mesh size at the node.
 
   **nugget_mesh_size: float, optional**
-  : Relative size used as max size to mesh nugget created at invalid normal node. The size is relative to mesh size at the node.
+
+  Relative size used as max size to mesh nugget created at invalid normal node. The size is relative to mesh size at the node.
 
   **label: str, optional**
-  : Label to set on new face zonelets created.
+
+  Label to set on new face zonelets created.
 
 <!-- !! processed by numpydoc !! -->

@@ -6,12 +6,14 @@
 
 Set the default values of the `SmoothDihedralFaceNodesResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **n_nodes_smoothed: int, optional**
-  : Number of dihedral face nodes smoothed.
+
+  Number of dihedral face nodes smoothed.
 
   **error_code: ErrorCode, optional**
-  : Error Code associated with creating offset surface.
+
+  Error Code associated with creating offset surface.
 
 <!-- !! processed by numpydoc !! -->

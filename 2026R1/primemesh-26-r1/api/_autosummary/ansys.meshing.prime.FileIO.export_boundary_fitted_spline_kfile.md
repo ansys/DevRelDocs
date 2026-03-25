@@ -6,20 +6,23 @@
 
 Export the IGA LS-DYNA keyword file for a boundary fitted spline.
 
-* **Parameters:**
+**Parameters:**
 
   **file_name**
-  : Name of the keyword file.
+
+  Name of the keyword file.
 
   **export_params**
-  : Parameters for exporting the keyword file.
 
-* **Returns:**
+  Parameters for exporting the keyword file.
 
-  [`FileWriteResults`](ansys.meshing.prime.FileWriteResults.md#ansys.meshing.prime.FileWriteResults)
-  : Results from exporting the keyword file.
+**Returns:**
 
-* **Return type:**
+  **[`FileWriteResults`](ansys.meshing.prime.FileWriteResults.md#ansys.meshing.prime.FileWriteResults)**
+
+  Results from exporting the keyword file.
+
+**Return type:**
 
   [`FileWriteResults`](ansys.meshing.prime.FileWriteResults.md#ansys.meshing.prime.FileWriteResults)
 

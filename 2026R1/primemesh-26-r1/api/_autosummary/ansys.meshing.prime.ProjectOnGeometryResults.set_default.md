@@ -6,15 +6,18 @@
 
 Set the default values of the `ProjectOnGeometryResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **success: bool, optional**
-  : Defines the operation was successful or not.
+
+  Indicates whether the operation is successful or not. True if successful, else false.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with failure of operation.
+
+  Error code associated with failure of operation.
 
   **warning_codes: List[WarningCode], optional**
-  : Warning code associated with operation.
+
+  Warning code associated with operation.
 
 <!-- !! processed by numpydoc !! -->

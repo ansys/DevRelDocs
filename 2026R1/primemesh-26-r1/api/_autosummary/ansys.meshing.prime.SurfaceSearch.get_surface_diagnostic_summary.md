@@ -8,17 +8,19 @@ Gets the surface diagnostic summary.
 
 Diagnose surface connectivity for the given scope and controls provided by the surface diagnostic summary parameters.
 
-* **Parameters:**
+**Parameters:**
 
   **params**
-  : Surface diagnostic summary parameters.
 
-* **Returns:**
+  Surface diagnostic summary parameters.
 
-  [`SurfaceDiagnosticSummaryResults`](ansys.meshing.prime.SurfaceDiagnosticSummaryResults.md#ansys.meshing.prime.SurfaceDiagnosticSummaryResults)
-  : Returns the SurfaceDiagnosticSummaryResults.
+**Returns:**
 
-* **Return type:**
+  **[`SurfaceDiagnosticSummaryResults`](ansys.meshing.prime.SurfaceDiagnosticSummaryResults.md#ansys.meshing.prime.SurfaceDiagnosticSummaryResults)**
+
+  Returns the SurfaceDiagnosticSummaryResults.
+
+**Return type:**
 
   [`SurfaceDiagnosticSummaryResults`](ansys.meshing.prime.SurfaceDiagnosticSummaryResults.md#ansys.meshing.prime.SurfaceDiagnosticSummaryResults)
 

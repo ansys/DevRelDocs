@@ -6,10 +6,11 @@
 
 Set growth parameters for prism control.
 
-* **Parameters:**
+**Parameters:**
 
   **prism_control_growth_params**
-  : Parameters to set prism control growth.
+
+  Parameters to set prism control growth.
 
 ### Examples
 

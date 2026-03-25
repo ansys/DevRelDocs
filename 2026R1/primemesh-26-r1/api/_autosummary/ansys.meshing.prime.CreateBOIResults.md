@@ -6,19 +6,23 @@
 
 Result structure associated with BOI creation of zonelets.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `CreateBOIResults` object with default parameters.
+
+  Model to create a `CreateBOIResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with failure of operation.
+
+  Error code associated with failure of operation.
 
   **part_id: int, optional**
-  : The BOI part id.
+
+  The BOI part id.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `CreateBOIResults` object with provided parameters.
+
+  JSON dictionary to create a `CreateBOIResults` object with provided parameters.
 
 ### Examples
 

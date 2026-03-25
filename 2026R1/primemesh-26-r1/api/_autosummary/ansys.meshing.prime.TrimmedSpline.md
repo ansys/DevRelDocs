@@ -6,10 +6,11 @@
 
 Handles creation and meshing of trimmed spline.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create TrimmedSpline object.
+
+  Server model to create TrimmedSpline object.
 
 <!-- !! processed by numpydoc !! -->
 

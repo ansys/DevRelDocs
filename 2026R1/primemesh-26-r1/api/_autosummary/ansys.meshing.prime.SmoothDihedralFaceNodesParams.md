@@ -6,22 +6,27 @@
 
 Parameters to smooth dihedral face nodes.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SmoothDihedralFaceNodesParams` object with default parameters.
+
+  Model to create a `SmoothDihedralFaceNodesParams` object with default parameters.
 
   **min_dihedral_angle: float, optional**
-  : Minimum angle to be used to identify dihedral faces.
+
+  Minimum angle to be used to identify dihedral faces.
 
   **tolerance: float, optional**
-  : Tolerance relative to local mesh size to control smooth movement of nodes.
+
+  Tolerance relative to local mesh size to control smooth movement of nodes.
 
   **type: SmoothType, optional**
-  : Option to inflate neighbor nodes of dihedral face edges or smooth dihedral face edge nodes to improve dihedral angle.
+
+  Option to inflate neighbor nodes of dihedral face edges or smooth dihedral face edge nodes to improve dihedral angle.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SmoothDihedralFaceNodesParams` object with provided parameters.
+
+  JSON dictionary to create a `SmoothDihedralFaceNodesParams` object with provided parameters.
 
 ### Examples
 

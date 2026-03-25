@@ -4,6 +4,6 @@
 
 #### *property* AutoNodeMoveParams.dihedral_angle *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 
-Dihedral angle used to mantain features of boundary face zonelets.
+Dihedral angle used to maintain features of boundary face zonelets.
 
 <!-- !! processed by numpydoc !! -->

@@ -6,10 +6,11 @@
 
 Morpher contain functionalities to change the geometry, adapting the mesh accordingly without a recomputation.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create Morpher object.
+
+  Server model to create Morpher object.
 
 <!-- !! processed by numpydoc !! -->
 

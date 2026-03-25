@@ -6,12 +6,14 @@
 
 Set the default values of the `DeleteTopoEntitiesParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **delete_geom_zonelets: bool, optional**
-  : Option to delete geometry zonelets of topology.
+
+  Option to delete geometry zonelets of topology.
 
   **delete_mesh_zonelets: bool, optional**
-  : Option to delete mesh zonelets of topology.
+
+  Option to delete mesh zonelets of topology.
 
 <!-- !! processed by numpydoc !! -->

@@ -6,16 +6,19 @@
 
 Results associated with the delete zone.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `DeleteZoneResults` object with default parameters.
+
+  Model to create a `DeleteZoneResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the delete zone operation.
+
+  Error code associated with the delete zone operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `DeleteZoneResults` object with provided parameters.
+
+  JSON dictionary to create a `DeleteZoneResults` object with provided parameters.
 
 ### Examples
 

@@ -8,27 +8,31 @@ Search face zonelets to identify folds.
 
 Search face zonelets to identify folds with provided folds parameters.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : Id of part.
+
+  Id of part.
 
   **face_zonelets**
-  : Ids of face zonelets.
+
+  Ids of face zonelets.
 
   **register_id**
-  : Id of register.
+
+  Id of register.
 
   **params**
-  : Parameters used to identify folds.
 
-* **Returns:**
+  Parameters used to identify folds.
 
+**Returns:**
 
-  [`SearchByFoldsResults`](ansys.meshing.prime.SearchByFoldsResults.md#ansys.meshing.prime.SearchByFoldsResults)
-  : Returns the SearchByFoldsResults.
+  **[`SearchByFoldsResults`](ansys.meshing.prime.SearchByFoldsResults.md#ansys.meshing.prime.SearchByFoldsResults)**
 
-* **Return type:**
+  Returns the SearchByFoldsResults.
+
+**Return type:**
 
   [`SearchByFoldsResults`](ansys.meshing.prime.SearchByFoldsResults.md#ansys.meshing.prime.SearchByFoldsResults)
 

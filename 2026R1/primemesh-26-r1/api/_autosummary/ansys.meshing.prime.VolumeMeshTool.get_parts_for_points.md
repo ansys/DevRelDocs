@@ -6,20 +6,23 @@
 
 Finds parts enclosing the given list of points.
 
-* **Parameters:**
+**Parameters:**
 
   **points**
-  : Coordinates of points for which parts need to be found.
+
+  Coordinates of points for which parts need to be found.
 
   **params**
-  : Parameters for searching parts.
 
-* **Returns:**
+  Parameters for searching parts.
+
+**Returns:**
 
   `Iterable`[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
-  : Returns array containing information about parts enclosing the points.
-  
-* **Return type:**
+  Returns array containing information about parts enclosing the points.
+
+**Return type:**
+
   Iterable[int]
 
 ### Notes

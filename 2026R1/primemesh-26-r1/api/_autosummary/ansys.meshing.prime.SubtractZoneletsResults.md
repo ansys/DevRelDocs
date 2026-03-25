@@ -6,19 +6,23 @@
 
 Results structure associated with subtracting zonelets.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SubtractZoneletsResults` object with default parameters.
+
+  Model to create a `SubtractZoneletsResults` object with default parameters.
 
   **processing_time: float, optional**
-  : Processing time for subtract operation.
+
+  Processing time for subtract operation.
 
   **error_code: ErrorCode, optional**
-  : Error Code associated with subtract operation.
+
+  Error Code associated with subtract operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SubtractZoneletsResults` object with provided parameters.
+
+  JSON dictionary to create a `SubtractZoneletsResults` object with provided parameters.
 
 ### Examples
 

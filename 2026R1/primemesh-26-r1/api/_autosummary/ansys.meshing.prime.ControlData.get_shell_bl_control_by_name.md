@@ -6,17 +6,19 @@
 
 Get a shell bl control by name.
 
-* **Parameters:**
+**Parameters:**
 
   **name**
-  : Name of the shell bl control.
 
-* **Returns:**
+  Name of the shell bl control.
 
-  [`ShellBLControl`](ansys.meshing.prime.ShellBLControl.md#ansys.meshing.prime.ShellBLControl)
-  : Shell BL control.
+**Returns:**
 
-* **Return type:**
+  **[`ShellBLControl`](ansys.meshing.prime.ShellBLControl.md#ansys.meshing.prime.ShellBLControl)**
+
+  Shell BL control.
+
+**Return type:**
 
   [`ShellBLControl`](ansys.meshing.prime.ShellBLControl.md#ansys.meshing.prime.ShellBLControl)
 

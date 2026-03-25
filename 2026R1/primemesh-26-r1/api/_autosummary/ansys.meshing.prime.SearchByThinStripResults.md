@@ -6,19 +6,23 @@
 
 Results associated with search by thin strip of face elements.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SearchByThinStripResults` object with default parameters.
+
+  Model to create a `SearchByThinStripResults` object with default parameters.
 
   **n_found: int, optional**
-  : Number of face elements identified as thin strips.
+
+  Number of face elements identified as thin strips.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with search thin strips operation.
+
+  Error code associated with search thin strips operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SearchByThinStripResults` object with provided parameters.
+
+  JSON dictionary to create a `SearchByThinStripResults` object with provided parameters.
 
 ### Examples
 

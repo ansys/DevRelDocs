@@ -6,15 +6,18 @@
 
 Set the default values of the `CollapseResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the failure of operation.
+
+  Error code associated with the failure of operation.
 
   **n_collapsed: int, optional**
-  : Number of face elements collapsed.
+
+  Number of face elements collapsed.
 
   **n_splits: int, optional**
-  : Number of face elements split.
+
+  Number of face elements split.
 
 <!-- !! processed by numpydoc !! -->

@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.SplineContinuityType.from_bytes"></a>
 
-#### SplineContinuityType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* SplineContinuityType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

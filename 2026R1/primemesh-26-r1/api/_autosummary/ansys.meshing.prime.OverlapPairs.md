@@ -6,19 +6,23 @@
 
 Provides ids of a pair of overlapping face zonelets.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `OverlapPairs` object with default parameters.
+
+  Model to create a `OverlapPairs` object with default parameters.
 
   **zone_id0: int, optional**
-  : Id of one overlapping face zonelet.
+
+  Id of one overlapping face zonelet.
 
   **zone_id1: int, optional**
-  : Id of other overlapping face zonelet.
+
+  Id of other overlapping face zonelet.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `OverlapPairs` object with provided parameters.
+
+  JSON dictionary to create a `OverlapPairs` object with provided parameters.
 
 ### Examples
 

@@ -6,22 +6,27 @@
 
 Result of edge zonelet extraction by angle.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ExtractFeatureResults` object with default parameters.
+
+  Model to create a `ExtractFeatureResults` object with default parameters.
 
   **processing_time: float, optional**
-  : Time taken for edge extraction.
+
+  Time taken for edge extraction.
 
   **error_code: ErrorCode, optional**
-  : Error code returned by edge extraction function.
+
+  Error code returned by edge extraction function.
 
   **new_edge_zonelets: Iterable[int], optional**
-  : Ids of new edge zonelets extracted.
+
+  Ids of new edge zonelets extracted.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ExtractFeatureResults` object with provided parameters.
+
+  JSON dictionary to create a `ExtractFeatureResults` object with provided parameters.
 
 ### Examples
 

@@ -6,29 +6,35 @@
 
 Matches source and target zonelets defined using match pairs with prescribed boundary conditions for each pair. Also, solves boundary condition parameters to define uniform surface and volume regions in source neighborhood.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : Id of source part.
+
+  Id of source part.
 
   **match_pairs**
-  : Array of  source and target match pairs.
+
+  Array of  source and target match pairs.
 
   **match_morph_params**
-  : Match morph parameters.
+
+  Match morph parameters.
 
   **bc_params**
-  : Morph boundary condition parameters.
+
+  Morph boundary condition parameters.
 
   **solve_params**
-  : Morpher solve parameters.
 
-* **Returns:**
+  Morpher solve parameters.
 
-  [`MatchMorphResults`](ansys.meshing.prime.MatchMorphResults.md#ansys.meshing.prime.MatchMorphResults)
-  : Returns the MatchMorphResults.
+**Returns:**
 
-* **Return type:**
+  **[`MatchMorphResults`](ansys.meshing.prime.MatchMorphResults.md#ansys.meshing.prime.MatchMorphResults)**
+
+  Returns the MatchMorphResults.
+
+**Return type:**
 
   [`MatchMorphResults`](ansys.meshing.prime.MatchMorphResults.md#ansys.meshing.prime.MatchMorphResults)
 

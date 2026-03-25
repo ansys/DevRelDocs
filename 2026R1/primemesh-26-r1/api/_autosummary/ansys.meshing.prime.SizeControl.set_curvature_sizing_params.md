@@ -6,17 +6,19 @@
 
 Set the curvature sizing parameters to compute volumetric size field.
 
-* **Parameters:**
+**Parameters:**
 
   **params**
-  : Parameters that enables you to set the normal angle as the maximum allowable angle at which one element edge may span.
 
-* **Returns:**
+  Parameters that enables you to set the normal angle as the maximum allowable angle at which one element edge may span.
 
-  [`SetSizingResults`](ansys.meshing.prime.SetSizingResults.md#ansys.meshing.prime.SetSizingResults)
-  : Return the SetSizingResults.
+**Returns:**
 
-* **Return type:**
+  **[`SetSizingResults`](ansys.meshing.prime.SetSizingResults.md#ansys.meshing.prime.SetSizingResults)**
+
+  Return the SetSizingResults.
+
+**Return type:**
 
   [`SetSizingResults`](ansys.meshing.prime.SetSizingResults.md#ansys.meshing.prime.SetSizingResults)
 

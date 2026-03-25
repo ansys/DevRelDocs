@@ -6,16 +6,19 @@
 
 Parameters to extract flow topovolumes.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ExtractTopoVolumesParams` object with default parameters.
+
+  Model to create a `ExtractTopoVolumesParams` object with default parameters.
 
   **zone_name: str, optional**
-  : Specifies zone name to associate extracted flow topovolumes.
+
+  Specifies zone name to associate extracted flow topovolumes.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ExtractTopoVolumesParams` object with provided parameters.
+
+  JSON dictionary to create a `ExtractTopoVolumesParams` object with provided parameters.
 
 ### Examples
 

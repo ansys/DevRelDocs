@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.LengthUnit"></a>
 
-### *class* ansys.meshing.prime.LengthUnit(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.LengthUnit(\*values)
 
 Length units
 
@@ -30,7 +30,7 @@ Length units
 | [`LengthUnit.denominator`](ansys.meshing.prime.LengthUnit.denominator.md#ansys.meshing.prime.LengthUnit.denominator) | the denominator of a rational number in lowest terms |
 | [`LengthUnit.M`](ansys.meshing.prime.LengthUnit.M.md#ansys.meshing.prime.LengthUnit.M)                               | Denotes length unit is meters.                       |
 | [`LengthUnit.CM`](ansys.meshing.prime.LengthUnit.CM.md#ansys.meshing.prime.LengthUnit.CM)                            | Denotes length unit is centimeters.                  |
-| [`LengthUnit.MM`](ansys.meshing.prime.LengthUnit.MM.md#ansys.meshing.prime.LengthUnit.MM)                            | Denotes length unit is milimeters.                   |
+| [`LengthUnit.MM`](ansys.meshing.prime.LengthUnit.MM.md#ansys.meshing.prime.LengthUnit.MM)                            | Denotes length unit is millimeters.                  |
 | [`LengthUnit.UM`](ansys.meshing.prime.LengthUnit.UM.md#ansys.meshing.prime.LengthUnit.UM)                            | Denotes length unit is micrometers.                  |
 | [`LengthUnit.NM`](ansys.meshing.prime.LengthUnit.NM.md#ansys.meshing.prime.LengthUnit.NM)                            | Denotes length unit is nanometers.                   |
 | [`LengthUnit.IN`](ansys.meshing.prime.LengthUnit.IN.md#ansys.meshing.prime.LengthUnit.IN)                            | Denotes length unit is inches.                       |

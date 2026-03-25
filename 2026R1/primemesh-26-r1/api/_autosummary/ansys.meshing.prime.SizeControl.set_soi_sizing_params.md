@@ -6,17 +6,19 @@
 
 Set the sphere of influence sizing parameters to compute volumetric size field.
 
-* **Parameters:**
+**Parameters:**
 
   **params**
-  : Parameters that enables you to set sizing on the spherical influence region.
 
-* **Returns:**
+  Parameters that enables you to set sizing on the spherical influence region.
 
-  [`SetSizingResults`](ansys.meshing.prime.SetSizingResults.md#ansys.meshing.prime.SetSizingResults)
-  : Returns the SetSizingResults.
+**Returns:**
 
-* **Return type:**
+  **[`SetSizingResults`](ansys.meshing.prime.SetSizingResults.md#ansys.meshing.prime.SetSizingResults)**
+
+  Returns the SetSizingResults.
+
+**Return type:**
 
   [`SetSizingResults`](ansys.meshing.prime.SetSizingResults.md#ansys.meshing.prime.SetSizingResults)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.EdgeMergeControl"></a>
 
-### *class* ansys.meshing.prime.EdgeMergeControl(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.EdgeMergeControl(\*values)
 
 Specifies type of edge pairs to be merged during scaffold operation.
 

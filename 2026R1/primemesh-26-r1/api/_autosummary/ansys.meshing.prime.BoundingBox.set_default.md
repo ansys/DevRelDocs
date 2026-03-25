@@ -6,24 +6,30 @@
 
 Set the default values of the `BoundingBox` object.
 
-* **Parameters:**
+**Parameters:**
 
   **xmin: float, optional**
-  : Minimal X coordinate of the bounding box.
+
+  Minimal X coordinate of the bounding box.
 
   **ymin: float, optional**
-  : Minimal Y coordinate of the bounding box.
+
+  Minimal Y coordinate of the bounding box.
 
   **zmin: float, optional**
-  : Minimal Z coordinate of the bounding box.
+
+  Minimal Z coordinate of the bounding box.
 
   **xmax: float, optional**
-  : Maximal X coordinate of the bounding box.
+
+  Maximal X coordinate of the bounding box.
 
   **ymax: float, optional**
-  : Maximal Y coordinate of the bounding box.
+
+  Maximal Y coordinate of the bounding box.
 
   **zmax: float, optional**
-  : Maximal Z coordinate of the bounding box.
+
+  Maximal Z coordinate of the bounding box.
 
 <!-- !! processed by numpydoc !! -->

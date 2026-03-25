@@ -6,16 +6,19 @@
 
 Parameters used to read size field file.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ReadSizeFieldParams` object with default parameters.
+
+  Model to create a `ReadSizeFieldParams` object with default parameters.
 
   **append: bool, optional**
-  : Option to append the size fields from file.
+
+  Option to append the size fields from file.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ReadSizeFieldParams` object with provided parameters.
+
+  JSON dictionary to create a `ReadSizeFieldParams` object with provided parameters.
 
 ### Examples
 

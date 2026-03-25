@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.ScaffolderRepairMode"></a>
 
-### *class* ansys.meshing.prime.ScaffolderRepairMode(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.ScaffolderRepairMode(\*values)
 
 Mode of Scaffolder repair to be used.
 

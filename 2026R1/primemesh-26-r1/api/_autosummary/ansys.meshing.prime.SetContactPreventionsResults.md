@@ -6,19 +6,23 @@
 
 Results associated with set contact preventions.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SetContactPreventionsResults` object with default parameters.
+
+  Model to create a `SetContactPreventionsResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the set contact preventions.
+
+  Error code associated with the set contact preventions.
 
   **ids: Iterable[int], optional**
-  : Ids of added contact prevention controls.
+
+  Ids of added contact prevention controls.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SetContactPreventionsResults` object with provided parameters.
+
+  JSON dictionary to create a `SetContactPreventionsResults` object with provided parameters.
 
 ### Examples
 

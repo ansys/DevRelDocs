@@ -8,10 +8,9 @@ Get material point data for the model.
 
 The Material Point Manager is used to create, delete, and manage material points.
 
-* **Returns:**
-
+**Returns**
   [`MaterialPointManager`](ansys.meshing.prime.MaterialPointManager.md#ansys.meshing.prime.MaterialPointManager)
-  : Material Point Manager.
+  Material Point Manager.
 
 ### Examples
 

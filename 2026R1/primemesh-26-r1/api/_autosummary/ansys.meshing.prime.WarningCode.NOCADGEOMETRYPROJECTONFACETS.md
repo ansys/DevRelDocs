@@ -4,6 +4,6 @@
 
 #### WarningCode.NOCADGEOMETRYPROJECTONFACETS *= 7501*
 
-CAD geometry not found for some or all topo entities. Projected on facets for those topo entites.
+CAD geometry not found for some or all topo entities. Projected on facets for those topo entities.
 
 <!-- !! processed by numpydoc !! -->

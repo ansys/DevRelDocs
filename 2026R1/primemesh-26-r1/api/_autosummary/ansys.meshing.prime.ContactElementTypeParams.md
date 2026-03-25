@@ -6,33 +6,39 @@
 
 Parameters to control element type choices for contact surfaces in TIEs and CONTACT PAIRs.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ContactElementTypeParams` object with default parameters.
+
+  Model to create a `ContactElementTypeParams` object with default parameters.
 
   **tie_surf_to_surf: int, optional**
-  : Element type for TIE with Surface-to-Surface contact where the contact surface is of type ELEMENT. Default value is 174. The choices are 174 and 175.
+
+  Element type for TIE with Surface-to-Surface contact where the contact surface is of type ELEMENT. Default value is 174. The choices are 174 and 175.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **tie_node_to_surf: int, optional**
-  : Element type for TIE with Node-to-Surface contact where the contact surface is of type ELEMENT. Default value is 175. The choices are 174 and 175.
+
+  Element type for TIE with Node-to-Surface contact where the contact surface is of type ELEMENT. Default value is 175. The choices are 174 and 175.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **contact_pair_surf_to_surf: int, optional**
-  : Element type for CONTACT PAIR with Surface-to-Surface contact where the contact surface is of type ELEMENT. Default value is 174. The choices are 174 and 175.
+
+  Element type for CONTACT PAIR with Surface-to-Surface contact where the contact surface is of type ELEMENT. Default value is 174. The choices are 174 and 175.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **contact_pair_node_to_surf: int, optional**
-  : Element type for CONTACT PAIR with Node-to-Surface contact where the contact surface is of type ELEMENT. Default value is 174. The choices are 174 and 175.
+
+  Element type for CONTACT PAIR with Node-to-Surface contact where the contact surface is of type ELEMENT. Default value is 174. The choices are 174 and 175.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ContactElementTypeParams` object with provided parameters.
+
+  JSON dictionary to create a `ContactElementTypeParams` object with provided parameters.
 
 ### Examples
 

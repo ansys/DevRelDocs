@@ -6,12 +6,14 @@
 
 Set the default values of the `PartSummaryParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **print_id: bool, optional**
-  : Boolean to control print ids. The default is false.
+
+  Boolean to control print ids. The default is false.
 
   **print_mesh: bool, optional**
-  : Boolean to control print mesh information. The default is true.
+
+  Boolean to control print mesh information. The default is true.
 
 <!-- !! processed by numpydoc !! -->

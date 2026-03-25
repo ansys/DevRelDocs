@@ -6,12 +6,14 @@
 
 Set the default values of the `SetLeakPreventionsResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the set leak preventions.
+
+  Error code associated with the set leak preventions.
 
   **ids: Iterable[int], optional**
-  : Ids of added leak prevention controls.
+
+  Ids of added leak prevention controls.
 
 <!-- !! processed by numpydoc !! -->

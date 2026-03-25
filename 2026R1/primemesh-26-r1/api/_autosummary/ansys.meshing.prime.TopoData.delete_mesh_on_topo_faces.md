@@ -6,21 +6,23 @@
 
 Delete mesh on the provided topofaces.
 
-* **Parameters:**
+**Parameters:**
 
   **topo_faces**
-  : Ids of topofaces.
+
+  Ids of topofaces.
 
   **params**
-  : Parameters to delete mesh on topofaces.
 
-* **Returns:**
+  Parameters to delete mesh on topofaces.
 
+**Returns:**
 
-  [`DeleteMeshResults`](ansys.meshing.prime.DeleteMeshResults.md#ansys.meshing.prime.DeleteMeshResults)
-  : Returns the DeleteMeshResults.
+  **[`DeleteMeshResults`](ansys.meshing.prime.DeleteMeshResults.md#ansys.meshing.prime.DeleteMeshResults)**
 
-* **Return type:**
+  Returns the DeleteMeshResults.
+
+**Return type:**
 
   [`DeleteMeshResults`](ansys.meshing.prime.DeleteMeshResults.md#ansys.meshing.prime.DeleteMeshResults)
 

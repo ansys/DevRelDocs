@@ -6,52 +6,63 @@
 
 Parameters to control scaffold operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ScaffolderParams` object with default parameters.
+
+  Model to create a `ScaffolderParams` object with default parameters.
 
   **absolute_dist_tol: float, optional**
-  : Defines the maximum gap to connect.
+
+  Defines the maximum gap to connect.
 
   **repair_mode: ScaffolderRepairMode, optional**
-  : Defines the mode to be used during repair or connect.
+
+  Defines the mode to be used during repair or connect.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **size_field_type: int, optional**
-  : Specifies the type of size field used for scaffolding.
+
+  Specifies the type of size field used for scaffolding.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **intersection_control_mask: IntersectionMask, optional**
-  : Specifies the nature of intersection to be computed.
+
+  Specifies the nature of intersection to be computed.
 
   **edge_merge_control: int, optional**
-  : Specifies type of edge pairs to be merged during scaffold operation.
+
+  Specifies type of edge pairs to be merged during scaffold operation.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **constant_mesh_size: float, optional**
-  : Defines the constant edge mesh size to check connection.
+
+  Defines the constant edge mesh size to check connection.
 
   **remove_holes_critical_radius: float, optional**
-  : Defines the maximum radius of holes to be removed.
+
+  Defines the maximum radius of holes to be removed.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **remove_slivers_abs_dist_tol_ratio: float, optional**
-  : Defines the maximum aspect ratio to remove sliver faces.
+
+  Defines the maximum aspect ratio to remove sliver faces.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **triangles_coplanar_angle_cos: float, optional**
-  : Lower bound for cos angle to consider coplanar faces for scaffolding.
+
+  Lower bound for cos angle to consider coplanar faces for scaffolding.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ScaffolderParams` object with provided parameters.
+
+  JSON dictionary to create a `ScaffolderParams` object with provided parameters.
 
 ### Examples
 

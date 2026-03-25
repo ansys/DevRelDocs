@@ -6,17 +6,19 @@
 
 Set the soft sizing parameters to compute volumetric size field.
 
-* **Parameters:**
+**Parameters:**
 
   **params**
-  : Parameters that enables you to set the maximum size on scoped face zonelets.
 
-* **Returns:**
+  Parameters that enables you to set the maximum size on scoped face zonelets.
 
-  [`SetSizingResults`](ansys.meshing.prime.SetSizingResults.md#ansys.meshing.prime.SetSizingResults)
-  : Return the SetSizingResults.
+**Returns:**
 
-* **Return type:**
+  **[`SetSizingResults`](ansys.meshing.prime.SetSizingResults.md#ansys.meshing.prime.SetSizingResults)**
+
+  Return the SetSizingResults.
+
+**Return type:**
 
   [`SetSizingResults`](ansys.meshing.prime.SetSizingResults.md#ansys.meshing.prime.SetSizingResults)
 

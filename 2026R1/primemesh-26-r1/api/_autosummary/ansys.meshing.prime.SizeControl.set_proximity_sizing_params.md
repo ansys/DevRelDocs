@@ -6,17 +6,19 @@
 
 Set the proximity sizing parameters to compute volumetric size field.
 
-* **Parameters:**
+**Parameters:**
 
   **params**
-  : Parameters that enables you to specify number of elements in the gaps.
 
-* **Returns:**
+  Parameters that enables you to specify number of elements in the gaps.
 
-  [`SetSizingResults`](ansys.meshing.prime.SetSizingResults.md#ansys.meshing.prime.SetSizingResults)
-  : Return the SetSizingResults.
+**Returns:**
 
-* **Return type:**
+  **[`SetSizingResults`](ansys.meshing.prime.SetSizingResults.md#ansys.meshing.prime.SetSizingResults)**
+
+  Return the SetSizingResults.
+
+**Return type:**
 
   [`SetSizingResults`](ansys.meshing.prime.SetSizingResults.md#ansys.meshing.prime.SetSizingResults)
 

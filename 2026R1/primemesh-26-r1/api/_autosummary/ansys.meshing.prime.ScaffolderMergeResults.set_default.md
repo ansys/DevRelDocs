@@ -6,12 +6,14 @@
 
 Set the default values of the `ScaffolderMergeResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **n_merged: int, optional**
-  : Number of merged topofaces.
+
+  Number of merged topofaces.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with merge overlapping topofaces operation.
+
+  Error code associated with merge overlapping topofaces operation.
 
 <!-- !! processed by numpydoc !! -->

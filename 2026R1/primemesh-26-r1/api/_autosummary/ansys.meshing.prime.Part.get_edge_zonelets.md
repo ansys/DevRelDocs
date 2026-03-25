@@ -6,12 +6,13 @@
 
 Get the edge zonelets of a part.
 
-* **Returns:**
-  
-  `Iterable`[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
-  : Return the ids of edge zonelets. Returns an empty list for a topology part.
 
-* **Return type:**
+**Returns:**
+
+  `Iterable`[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
+  Return the ids of edge zonelets. Returns an empty list for a topology part.
+
+**Return type:**
 
   [`Iterable`](https://docs.python.org/3.11/library/typing.html#typing.Iterable)[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
 

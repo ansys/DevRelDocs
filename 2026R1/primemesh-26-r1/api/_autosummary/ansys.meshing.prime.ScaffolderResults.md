@@ -6,19 +6,23 @@
 
 Results structure associated to scaffold operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ScaffolderResults` object with default parameters.
+
+  Model to create a `ScaffolderResults` object with default parameters.
 
   **n_incomplete_topo_faces: int, optional**
-  : Number of topofaces failed in scaffold operation.
+
+  Number of topofaces failed in scaffold operation.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with scaffold operation.
+
+  Error code associated with scaffold operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ScaffolderResults` object with provided parameters.
+
+  JSON dictionary to create a `ScaffolderResults` object with provided parameters.
 
 ### Examples
 

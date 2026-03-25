@@ -6,20 +6,23 @@
 
 Gets the child components for a component using the given parameters.
 
-* **Parameters:**
+**Parameters:**
 
   **path**
-  : Path to component for which child components are queried.
+
+  Path to component for which child components are queried.
 
   **params**
-  : Parameters to get child component.
 
-* **Returns:**
+  Parameters to get child component.
 
-  [`ComponentChildrenResults`](ansys.meshing.prime.ComponentChildrenResults.md#ansys.meshing.prime.ComponentChildrenResults)
-  : Returns the ComponentChildrenResults structure.
+**Returns:**
 
-* **Return type:**
+  **[`ComponentChildrenResults`](ansys.meshing.prime.ComponentChildrenResults.md#ansys.meshing.prime.ComponentChildrenResults)**
+
+  Returns the ComponentChildrenResults structure.
+
+**Return type:**
 
   [`ComponentChildrenResults`](ansys.meshing.prime.ComponentChildrenResults.md#ansys.meshing.prime.ComponentChildrenResults)
 

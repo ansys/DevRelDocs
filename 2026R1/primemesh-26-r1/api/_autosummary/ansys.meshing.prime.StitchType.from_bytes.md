@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.StitchType.from_bytes"></a>
 
-#### StitchType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* StitchType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

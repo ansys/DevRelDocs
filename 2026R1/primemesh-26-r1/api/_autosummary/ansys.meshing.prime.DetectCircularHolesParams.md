@@ -6,33 +6,39 @@
 
 Parameters for detect circular holes operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `DetectCircularHolesParams` object with default parameters.
+
+  Model to create a `DetectCircularHolesParams` object with default parameters.
 
   **allow_curved_topo_faces: bool, optional**
-  : Option to allow holes in curved topoface.
+
+  Option to allow holes in curved topoface.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **max_radius_circular_holes: float, optional**
-  : Maximum radius of circular holes.
+
+  Maximum radius of circular holes.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **min_radius_circular_holes: float, optional**
-  : Minimum radius of circular holes.
+
+  Minimum radius of circular holes.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **merge_edge_allow_self_close: bool, optional**
-  : Option for merging self-closing edge loops.
+
+  Option for merging self-closing edge loops.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `DetectCircularHolesParams` object with provided parameters.
+
+  JSON dictionary to create a `DetectCircularHolesParams` object with provided parameters.
 
 ### Examples
 

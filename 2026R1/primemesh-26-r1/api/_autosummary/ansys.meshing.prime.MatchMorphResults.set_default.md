@@ -6,9 +6,10 @@
 
 Set the default values of the `MatchMorphResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Errorcode associated with match morph operation.
+
+  Errorcode associated with match morph operation.
 
 <!-- !! processed by numpydoc !! -->

@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.StitchType"></a>
 
-### *class* ansys.meshing.prime.StitchType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.StitchType(\*values)
 
 Stitch type depending on nature of surface boundary edges to be stitched.
 

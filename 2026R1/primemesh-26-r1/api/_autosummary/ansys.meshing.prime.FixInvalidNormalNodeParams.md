@@ -6,22 +6,27 @@
 
 Parameters to fix invalid average face normal at nodes by creating a nugget.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `FixInvalidNormalNodeParams` object with default parameters.
+
+  Model to create a `FixInvalidNormalNodeParams` object with default parameters.
 
   **nugget_size: float, optional**
-  : Relative size used to create nugget at invalid normal node. The size is relative to mesh size at the node.
+
+  Relative size used to create nugget at invalid normal node. The size is relative to mesh size at the node.
 
   **nugget_mesh_size: float, optional**
-  : Relative size used as max size to mesh nugget created at invalid normal node. The size is relative to mesh size at the node.
+
+  Relative size used as max size to mesh nugget created at invalid normal node. The size is relative to mesh size at the node.
 
   **label: str, optional**
-  : Label to set on new face zonelets created.
+
+  Label to set on new face zonelets created.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `FixInvalidNormalNodeParams` object with provided parameters.
+
+  JSON dictionary to create a `FixInvalidNormalNodeParams` object with provided parameters.
 
 ### Examples
 

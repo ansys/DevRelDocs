@@ -6,25 +6,31 @@
 
 Parameters to add thickness for a given plane.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `AddThicknessParams` object with default parameters.
+
+  Model to create a `AddThicknessParams` object with default parameters.
 
   **thickness: float, optional**
-  : To assign the offset distance of inflation.
+
+  To assign the offset distance of inflation.
 
   **reverse_face_normal: bool, optional**
-  : To assign the direction of inflation.
+
+  To assign the direction of inflation.
 
   **suggested_part_name: str, optional**
-  : Suggested part name for created patching surfaces.
+
+  Suggested part name for created patching surfaces.
 
   **fix_intersections: bool, optional**
-  : Fix intersections in concave regions.
+
+  Fix intersections in concave regions.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `AddThicknessParams` object with provided parameters.
+
+  JSON dictionary to create a `AddThicknessParams` object with provided parameters.
 
 ### Examples
 

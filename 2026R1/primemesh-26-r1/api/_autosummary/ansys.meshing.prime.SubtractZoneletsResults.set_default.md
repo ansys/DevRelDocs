@@ -6,12 +6,14 @@
 
 Set the default values of the `SubtractZoneletsResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **processing_time: float, optional**
-  : Processing time for subtract operation.
+
+  Processing time for subtract operation.
 
   **error_code: ErrorCode, optional**
-  : Error Code associated with subtract operation.
+
+  Error Code associated with subtract operation.
 
 <!-- !! processed by numpydoc !! -->

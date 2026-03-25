@@ -6,12 +6,14 @@
 
 Set the default values of the `SearchByInvalidNormalsResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **n_found: int, optional**
-  : Number of invalid normals identified.
+
+  Number of invalid normals identified.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with search invalid normals operation.
+
+  Error code associated with search invalid normals operation.
 
 <!-- !! processed by numpydoc !! -->

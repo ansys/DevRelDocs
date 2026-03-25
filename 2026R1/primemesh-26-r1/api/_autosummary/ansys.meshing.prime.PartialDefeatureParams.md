@@ -6,28 +6,33 @@
 
 Parameters for partial defeature operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `PartialDefeatureParams` object with default parameters.
+
+  Model to create a `PartialDefeatureParams` object with default parameters.
 
   **edge_sharp_corner_angle: float, optional**
-  : Merge edges when the angle between the edges are below the provided value.
+
+  Merge edges when the angle between the edges are below the provided value.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **merge_face_normals_angle: float, optional**
-  : Merge faces when the normal angle between the faces is below the provided value.
+
+  Merge faces when the normal angle between the faces is below the provided value.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **merge_edge_allow_self_close: bool, optional**
-  : Option for merging self-closing edge loops.
+
+  Option for merging self-closing edge loops.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `PartialDefeatureParams` object with provided parameters.
+
+  JSON dictionary to create a `PartialDefeatureParams` object with provided parameters.
 
 ### Examples
 

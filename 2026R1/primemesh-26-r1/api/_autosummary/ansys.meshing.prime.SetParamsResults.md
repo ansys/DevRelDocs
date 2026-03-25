@@ -6,19 +6,23 @@
 
 Results associated with the set parameters operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SetParamsResults` object with default parameters.
+
+  Model to create a `SetParamsResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the set parameters operation.
+
+  Error code associated with the set parameters operation.
 
   **warning_code: WarningCode, optional**
-  : Warning code associated with the set parameters operation.
+
+  Warning code associated with the set parameters operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SetParamsResults` object with provided parameters.
+
+  JSON dictionary to create a `SetParamsResults` object with provided parameters.
 
 ### Examples
 

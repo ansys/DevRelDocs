@@ -10,19 +10,23 @@ When the soft sizing is computed for edges or faces, the size will be affected b
 The minimum size on the zonelet will be determined based on the influence of other size controls,
 else a uniform size will be maintained.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SoftSizingParams` object with default parameters.
+
+  Model to create a `SoftSizingParams` object with default parameters.
 
   **max: float, optional**
-  : Maximum size used for computing edge and face size using soft size control.
+
+  Maximum size used for computing edge and face size using soft size control.
 
   **growth_rate: float, optional**
-  : Growth rate used for transitioning from one element size to neighbor element size.
+
+  Growth rate used for transitioning from one element size to neighbor element size.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SoftSizingParams` object with provided parameters.
+
+  JSON dictionary to create a `SoftSizingParams` object with provided parameters.
 
 ### Examples
 

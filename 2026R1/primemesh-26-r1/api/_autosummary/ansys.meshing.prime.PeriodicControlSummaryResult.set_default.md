@@ -6,9 +6,10 @@
 
 Set the default values of the `PeriodicControlSummaryResult` object.
 
-* **Parameters:**
+**Parameters:**
 
   **message: str, optional**
-  : String with the periodic control summary.
+
+  String with the periodic control summary.
 
 <!-- !! processed by numpydoc !! -->

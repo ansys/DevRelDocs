@@ -6,19 +6,23 @@
 
 Parameters for exporting boundary fitted splines.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ExportBoundaryFittedSplineParams` object with default parameters.
+
+  Model to create a `ExportBoundaryFittedSplineParams` object with default parameters.
 
   **id_offset: int, optional**
-  : Offset value for IGA entity ids between parts.
+
+  Offset value for IGA entity ids between parts.
 
   **id_start: int, optional**
-  : Start ids for IGA entities.
+
+  Start ids for IGA entities.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ExportBoundaryFittedSplineParams` object with provided parameters.
+
+  JSON dictionary to create a `ExportBoundaryFittedSplineParams` object with provided parameters.
 
 ### Examples
 

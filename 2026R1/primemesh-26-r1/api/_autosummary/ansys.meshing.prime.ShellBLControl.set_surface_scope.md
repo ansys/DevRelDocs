@@ -6,18 +6,19 @@
 
 Sets the face zonelet scope.
 
-* **Parameters:**
+**Parameters:**
 
   **entities**
-  : Scope definition entities.
 
-* **Returns:**
+  Scope definition entities.
 
+**Returns:**
 
-  [`SetScopeResults`](ansys.meshing.prime.SetScopeResults.md#ansys.meshing.prime.SetScopeResults)
-  : Returns SetScopeResults.
-  
-* **Return type:**
+  **[`SetScopeResults`](ansys.meshing.prime.SetScopeResults.md#ansys.meshing.prime.SetScopeResults)**
+
+  Returns SetScopeResults.
+
+**Return type:**
 
   [`SetScopeResults`](ansys.meshing.prime.SetScopeResults.md#ansys.meshing.prime.SetScopeResults)
 

@@ -6,26 +6,31 @@
 
 Search face zonelets to identify face element of thin strips(single layer of triangles between features).
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : Id of part.
+
+  Id of part.
 
   **face_zonelets**
-  : Ids of face zonelets.
+
+  Ids of face zonelets.
 
   **register_id**
-  : Id of register.
+
+  Id of register.
 
   **params**
-  : Parameters used to identify face elements of thin strips.
 
-* **Returns:**
-  
-  [`SearchByThinStripResults`](ansys.meshing.prime.SearchByThinStripResults.md#ansys.meshing.prime.SearchByThinStripResults)
-  : Returns the SearchByThinStripResults.
+  Parameters used to identify face elements of thin strips.
 
-* **Return type:**
+**Returns:**
+
+  **[`SearchByThinStripResults`](ansys.meshing.prime.SearchByThinStripResults.md#ansys.meshing.prime.SearchByThinStripResults)**
+
+  Returns the SearchByThinStripResults.
+
+**Return type:**
 
   [`SearchByThinStripResults`](ansys.meshing.prime.SearchByThinStripResults.md#ansys.meshing.prime.SearchByThinStripResults)
 

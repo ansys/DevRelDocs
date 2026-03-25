@@ -6,15 +6,18 @@
 
 Generate constant size control on a scope.
 
-* **Parameters:**
+**Parameters:**
 
   **control_name**
-  : Name of the control.
+
+  Name of the control.
 
   **size**
-  : Constant edge length of the mesh. The default is `1.0`.
+
+  Constant edge length of the mesh. The default is `1.0`.
 
   **scope**
-  : Scope for creating the size control.
+
+  Scope for creating the size control.
 
 <!-- !! processed by numpydoc !! -->

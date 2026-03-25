@@ -6,63 +6,75 @@
 
 Parameters for repair topology operations.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `RepairTopologyParams` object with default parameters.
+
+  Model to create a `RepairTopologyParams` object with default parameters.
 
   **connect_faces: bool, optional**
-  : Option to connect faces.
+
+  Option to connect faces.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **repair_edges: bool, optional**
-  : Option to repair edges.
+
+  Option to repair edges.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **split_topo_edges_at_apex_point: bool, optional**
-  : Option to split edges at apex point.
+
+  Option to split edges at apex point.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **fillet_max_radius: float, optional**
-  : Maximum radius of fillets to be detected.
+
+  Maximum radius of fillets to be detected.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **smallest_edge_length: float, optional**
-  : Length of smallest edge for which split is applied.
+
+  Length of smallest edge for which split is applied.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **merge_edge_allow_self_close: bool, optional**
-  : Option for merging self-closing edge loops.
+
+  Option for merging self-closing edge loops.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **suppress_shared_edges_when_merging: bool, optional**
-  : Option for suppressing shared edges when merging.
+
+  Option for suppressing shared edges when merging.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **edge_connect_type: int, optional**
-  : Edge connection type.
+
+  Edge connection type.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **connect_faces_params: ConnectFacesParams, optional**
-  : Parameters for connect faces operation.
+
+  Parameters for connect faces operation.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **repair_edges_params: RepairEdgesParams, optional**
-  : Parameters for repair edges operation.
+
+  Parameters for repair edges operation.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `RepairTopologyParams` object with provided parameters.
+
+  JSON dictionary to create a `RepairTopologyParams` object with provided parameters.
 
 ### Examples
 

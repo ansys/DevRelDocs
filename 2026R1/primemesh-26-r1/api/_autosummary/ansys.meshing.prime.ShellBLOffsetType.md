@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.ShellBLOffsetType"></a>
 
-### *class* ansys.meshing.prime.ShellBLOffsetType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.ShellBLOffsetType(\*values)
 
 Type of offset method during ShellBL generation.
 

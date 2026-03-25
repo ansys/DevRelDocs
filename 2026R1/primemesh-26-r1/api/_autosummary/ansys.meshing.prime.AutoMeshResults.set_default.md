@@ -6,15 +6,18 @@
 
 Set the default values of the `AutoMeshResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Provides error message when automesh fails.
+
+  Provides error message when automesh fails.
 
   **warning_codes: List[WarningCode], optional**
-  : Warning codes associated with the operation.
+
+  Warning codes associated with the operation.
 
   **error_locations: Iterable[float], optional**
-  : Error location coordinates returned when automesh fails.
+
+  Error location coordinates returned when automesh fails.
 
 <!-- !! processed by numpydoc !! -->

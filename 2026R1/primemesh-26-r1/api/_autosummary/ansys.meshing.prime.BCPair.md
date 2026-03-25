@@ -1,25 +1,32 @@
+# BCPair
+
 <a id="ansys.meshing.prime.BCPair"></a>
 
 ### *class* ansys.meshing.prime.BCPair(model=None, source_zonelet=None, target_zonelet=None, type=None, json_data=None, \*\*kwargs)
 
 Used to define boundary conditions for match morphing.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `BCPair` object with default parameters.
+
+  Model to create a `BCPair` object with default parameters.
 
   **source_zonelet: int, optional**
-  : Id of source zonelet.
+
+  Id of source zonelet.
 
   **target_zonelet: int, optional**
-  : Id of target zonelet.
+
+  Id of target zonelet.
 
   **type: BCPairType, optional**
-  : Option to specify boundary condition pair type.
+
+  Option to specify boundary condition pair type.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `BCPair` object with provided parameters.
+
+  JSON dictionary to create a `BCPair` object with provided parameters.
 
 ### Examples
 

@@ -6,22 +6,27 @@
 
 Results of surface quality summary.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SurfaceQualitySummaryResults` object with default parameters.
+
+  Model to create a `SurfaceQualitySummaryResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the surface quality summary.
+
+  Error code associated with the surface quality summary.
 
   **quality_results: List[SurfaceQualityResult], optional**
-  : Contains surface quality result per face quality measure specified in parameters.
+
+  Contains surface quality result per face quality measure specified in parameters.
 
   **summary: str, optional**
-  : Surface quality summary text.
+
+  Surface quality summary text.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SurfaceQualitySummaryResults` object with provided parameters.
+
+  JSON dictionary to create a `SurfaceQualitySummaryResults` object with provided parameters.
 
 ### Examples
 

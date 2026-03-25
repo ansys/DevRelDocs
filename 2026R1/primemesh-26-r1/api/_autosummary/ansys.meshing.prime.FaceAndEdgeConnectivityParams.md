@@ -6,19 +6,23 @@
 
 Parameters to get face and edge connectivity information.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `FaceAndEdgeConnectivityParams` object with default parameters.
+
+  Model to create a `FaceAndEdgeConnectivityParams` object with default parameters.
 
   **reorder_face_zonelets_mid_nodes: bool, optional**
-  : Option to reorder mid nodes for quadratic faces.
+
+  Option to reorder mid nodes for quadratic faces.
 
   **reorder_edge_zonelets_mid_nodes: bool, optional**
-  : Option to reorder mid nodes for quadratic edges.
+
+  Option to reorder mid nodes for quadratic edges.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `FaceAndEdgeConnectivityParams` object with provided parameters.
+
+  JSON dictionary to create a `FaceAndEdgeConnectivityParams` object with provided parameters.
 
 ### Examples
 

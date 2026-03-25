@@ -6,13 +6,15 @@
 
 Merge multiple parts into a single part.
 
-* **Parameters:**
+**Parameters:**
 
   **parts_expression**
-  : Expression of the parts to merge. The default is `"*"`.
+
+  Expression of the parts to merge. The default is `"*"`.
 
   **new_name**
-  : Name of the new part that is created from the merged parts.
+
+  Name of the new part that is created from the merged parts.
     The default is `"merged_part"`.
 
 <!-- !! processed by numpydoc !! -->

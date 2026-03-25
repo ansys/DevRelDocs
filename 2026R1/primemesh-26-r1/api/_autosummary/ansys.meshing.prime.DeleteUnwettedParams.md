@@ -6,13 +6,15 @@
 
 DeleteUnwettedParams defines parameters for delete unwetted surfaces operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `DeleteUnwettedParams` object with default parameters.
+
+  Model to create a `DeleteUnwettedParams` object with default parameters.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `DeleteUnwettedParams` object with provided parameters.
+
+  JSON dictionary to create a `DeleteUnwettedParams` object with provided parameters.
 
 ### Examples
 

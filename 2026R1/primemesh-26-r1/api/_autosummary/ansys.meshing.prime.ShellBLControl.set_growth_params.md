@@ -6,10 +6,11 @@
 
 Sets growth parameters for ShellBL control.
 
-* **Parameters:**
+**Parameters:**
 
   **params**
-  : Parameters to set ShellBL growth.
+
+  Parameters to set ShellBL growth.
 
 ### Notes
 

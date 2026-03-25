@@ -6,22 +6,27 @@
 
 FeatureRecoveryParams defines feature recovery control parameters for wrapper.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `FeatureRecoveryParams` object with default parameters.
+
+  Model to create a `FeatureRecoveryParams` object with default parameters.
 
   **scope: ScopeDefinition, optional**
-  : Scope used for feature recovery control.
+
+  Scope used for feature recovery control.
 
   **enable_feature_octree_refinement: bool, optional**
-  : Checks whether to perform octree refinement at feature edges.
+
+  Checks whether to perform octree refinement at feature edges.
 
   **size_at_features: float, optional**
-  : Refinement size at features.
+
+  Refinement size at features.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `FeatureRecoveryParams` object with provided parameters.
+
+  JSON dictionary to create a `FeatureRecoveryParams` object with provided parameters.
 
 ### Examples
 

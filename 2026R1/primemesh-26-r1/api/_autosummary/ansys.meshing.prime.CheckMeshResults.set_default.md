@@ -6,24 +6,30 @@
 
 Set the default values of the `CheckMeshResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **has_non_positive_volumes: bool, optional**
-  : Indicates whether mesh has non positive volumes.
+
+  Indicates whether mesh has non positive volumes.
 
   **has_non_positive_areas: bool, optional**
-  : Indicates whether mesh has non positive areas.
+
+  Indicates whether mesh has non positive areas.
 
   **has_invalid_shape: bool, optional**
-  : Indicates whether mesh has invalid shape.
+
+  Indicates whether mesh has invalid shape.
 
   **has_left_handed_faces: bool, optional**
-  : Indicates whether mesh has left handed faces.
+
+  Indicates whether mesh has left handed faces.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the check grid operation.
+
+  Error code associated with the check grid operation.
 
   **warning_codes: List[WarningCode], optional**
-  : Warning codes associated with the check grid operation.
+
+  Warning codes associated with the check grid operation.
 
 <!-- !! processed by numpydoc !! -->

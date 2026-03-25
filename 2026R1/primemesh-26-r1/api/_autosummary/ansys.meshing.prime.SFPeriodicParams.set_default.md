@@ -6,15 +6,18 @@
 
 Set the default values of the `SFPeriodicParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **axis: Iterable[float], optional**
-  : Axis vector coordinates.
+
+  Axis vector coordinates.
 
   **angle: float, optional**
-  : Angle in degrees.
+
+  Angle in degrees.
 
   **center: Iterable[float], optional**
-  : Center coordinates.
+
+  Center coordinates.
 
 <!-- !! processed by numpydoc !! -->

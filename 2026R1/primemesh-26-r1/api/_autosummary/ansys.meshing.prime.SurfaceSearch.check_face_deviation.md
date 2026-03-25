@@ -6,23 +6,27 @@
 
 Gets information regarding the number of faces with a deviation higher than the tolerance.
 
-* **Parameters:**
+**Parameters:**
 
   **source_face_zonelets**
-  : Scope of reference zonelets from which the deviation is checked.
+
+  Scope of reference zonelets from which the deviation is checked.
 
   **target_face_zonelets**
-  : Scope of target zonelets for which the deviation is checked.
+
+  Scope of target zonelets for which the deviation is checked.
 
   **params**
-  : Parameters for retrieving information while performing check face deviation operation.
 
-* **Returns:**
+  Parameters for retrieving information while performing check face deviation operation.
 
-  [`CheckFaceDeviationResults`](ansys.meshing.prime.CheckFaceDeviationResults.md#ansys.meshing.prime.CheckFaceDeviationResults)
-  : Returns the CheckFaceDeviationResults.
+**Returns:**
 
-* **Return type:**
+  **[`CheckFaceDeviationResults`](ansys.meshing.prime.CheckFaceDeviationResults.md#ansys.meshing.prime.CheckFaceDeviationResults)**
+
+  Returns the CheckFaceDeviationResults.
+
+**Return type:**
 
   [`CheckFaceDeviationResults`](ansys.meshing.prime.CheckFaceDeviationResults.md#ansys.meshing.prime.CheckFaceDeviationResults)
 

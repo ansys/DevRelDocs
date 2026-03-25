@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.JoinSeparateMethod.from_bytes"></a>
 
-#### JoinSeparateMethod.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* JoinSeparateMethod.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

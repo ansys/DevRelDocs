@@ -11,20 +11,24 @@ face zonelets with target face labels within a given tolerance. The connection
 happens within the part. Face zonelets of a part are connected with face zonelets
 of the same part only.
 
-* **Parameters:**
+**Parameters:**
 
   **part_expression**
-  : Name pattern of the parts to use for connecting the face zonelets. The
+
+  Name pattern of the parts to use for connecting the face zonelets. The
     default is `"*"`.
 
   **face_labels**
-  : Name pattern of the face labels used for connecting the face zonelets.
+
+  Name pattern of the face labels used for connecting the face zonelets.
     The default is `"*"`.
 
   **target_face_labels**
-  : Name pattern of the face labels to connect. The default is `"*"`.
+
+  Name pattern of the face labels to connect. The default is `"*"`.
 
   **tolerance: float, optional**
-  : Tolerance for the connection. The default is `0.05`.
+
+  Tolerance for the connection. The default is `0.05`.
 
 <!-- !! processed by numpydoc !! -->

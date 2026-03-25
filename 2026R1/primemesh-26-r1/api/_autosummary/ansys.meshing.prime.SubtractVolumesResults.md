@@ -6,21 +6,25 @@
 
 Results of the volume subtract operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SubtractVolumesResults` object with default parameters.
+
+  Model to create a `SubtractVolumesResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the volume subtract operation.
+
+  Error code associated with the volume subtract operation.
 
   **warning_codes: List[WarningCode], optional**
-  : Warning codes associated with the volume subtract operation.
+
+  Warning codes associated with the volume subtract operation.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SubtractVolumesResults` object with provided parameters.
+
+  JSON dictionary to create a `SubtractVolumesResults` object with provided parameters.
 
 ### Examples
 

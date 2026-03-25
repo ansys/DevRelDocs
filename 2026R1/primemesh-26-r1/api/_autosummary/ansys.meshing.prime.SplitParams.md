@@ -6,16 +6,19 @@
 
 Parameters to split face elements at longest edge.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SplitParams` object with default parameters.
+
+  Model to create a `SplitParams` object with default parameters.
 
   **split_ratio: float, optional**
-  : Minimum ratio of split edge length to original edge length.
+
+  Minimum ratio of split edge length to original edge length.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SplitParams` object with provided parameters.
+
+  JSON dictionary to create a `SplitParams` object with provided parameters.
 
 ### Examples
 

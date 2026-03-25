@@ -6,17 +6,19 @@
 
 Delete the control for one or more IDs.
 
-* **Parameters:**
+**Parameters:**
 
   **control_ids**
-  : List of control IDs.
 
-* **Returns:**
+  List of control IDs.
 
-  [`DeleteResults`](ansys.meshing.prime.DeleteResults.md#ansys.meshing.prime.DeleteResults)
-  : Delete results.
+**Returns:**
 
-* **Return type:**
+  **[`DeleteResults`](ansys.meshing.prime.DeleteResults.md#ansys.meshing.prime.DeleteResults)**
+
+  Delete results.
+
+**Return type:**
 
   [`DeleteResults`](ansys.meshing.prime.DeleteResults.md#ansys.meshing.prime.DeleteResults)
 

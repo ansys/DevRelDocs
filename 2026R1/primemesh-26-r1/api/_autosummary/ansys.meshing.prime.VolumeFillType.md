@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.VolumeFillType"></a>
 
-### *class* ansys.meshing.prime.VolumeFillType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.VolumeFillType(\*values)
 
 Types of volume fill options.
 

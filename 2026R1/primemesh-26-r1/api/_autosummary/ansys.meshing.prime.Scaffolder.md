@@ -6,13 +6,15 @@
 
 Scaffolder is used for achieving connections in structures made of sheets and beams. Solid bodies should be suppressed before applying scaffolding.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create Scaffolder object.
+
+  Server model to create Scaffolder object.
 
   **part_id**
-  : Id of the part.
+
+  Id of the part.
 
 <!-- !! processed by numpydoc !! -->
 

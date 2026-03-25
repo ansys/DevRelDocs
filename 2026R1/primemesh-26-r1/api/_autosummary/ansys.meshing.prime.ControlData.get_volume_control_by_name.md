@@ -6,17 +6,19 @@
 
 Get a volume control by name.
 
-* **Parameters:**
+**Parameters:**
 
   **name**
-  : Name of the volume control.
 
-* **Returns:**
+  Name of the volume control.
 
-  [`VolumeControl`](ansys.meshing.prime.VolumeControl.md#ansys.meshing.prime.VolumeControl)
-  : Volume control.
+**Returns:**
 
-* **Return type:**
+  **[`VolumeControl`](ansys.meshing.prime.VolumeControl.md#ansys.meshing.prime.VolumeControl)**
+
+  Volume control.
+
+**Return type:**
 
   [`VolumeControl`](ansys.meshing.prime.VolumeControl.md#ansys.meshing.prime.VolumeControl)
 

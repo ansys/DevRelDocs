@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.BodyQueryType"></a>
 
-### *class* ansys.meshing.prime.BodyQueryType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.BodyQueryType(\*values)
 
 Indicates type of entity to query in part.
 

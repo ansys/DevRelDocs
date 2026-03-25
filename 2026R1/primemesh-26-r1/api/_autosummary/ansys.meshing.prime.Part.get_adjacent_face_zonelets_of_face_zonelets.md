@@ -6,17 +6,18 @@
 
 Gets the adjacent facezonelets for the provided facezonelet ids.
 
-* **Parameters:**
+**Parameters:**
 
   **face_zonelets**
-  : Ids of facezonelets.
 
-* **Returns:**
+  Ids of facezonelets.
+
+**Returns:**
 
   `Iterable`[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
-  : Returns the list of adjacent facezonelet ids.
+  Returns the list of adjacent facezonelet ids.
 
-* **Return type:**
+**Return type:**
 
   [`Iterable`](https://docs.python.org/3.11/library/typing.html#typing.Iterable)[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
 

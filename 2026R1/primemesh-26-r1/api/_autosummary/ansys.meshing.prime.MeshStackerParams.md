@@ -6,39 +6,49 @@
 
 Input parameters associated with the mesh stacker operations.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `MeshStackerParams` object with default parameters.
+
+  Model to create a `MeshStackerParams` object with default parameters.
 
   **origin: Iterable[float], optional**
-  : Origin coordinate list of stacker.
+
+  Origin coordinate list of stacker.
 
   **direction: Iterable[float], optional**
-  : Direction vector of stacker.
+
+  Direction vector of stacker.
 
   **lateral_defeature_tolerance: float, optional**
-  : Absolute lateral distance tolerance for stacker. If the lateral distance tolerance is not specified, a default tolerance value is calculated by stacker.
+
+  Absolute lateral distance tolerance for stacker. If the lateral distance tolerance is not specified, a default tolerance value is calculated by stacker.
 
   **stacking_defeature_tolerance: float, optional**
-  : Absolute stacking distance tolerance for stacker. If the stacking distance tolerance is not specified, a default tolerance value is calculated by stacker.
+
+  Absolute stacking distance tolerance for stacker. If the stacking distance tolerance is not specified, a default tolerance value is calculated by stacker.
 
   **max_offset_size: float, optional**
-  : Maximum stack size allowed during stacking. If the maximum stack size is not specified, it is set to global max size.
+
+  Maximum stack size allowed during stacking. If the maximum stack size is not specified, it is set to global max size.
 
   **size_control_ids: Iterable[int], optional**
-  : List of size control ids to be respected by stacker. Stacker respects all supported controls by default.
+
+  List of size control ids to be respected by stacker. Stacker respects all supported controls by default.
 
   **seed_faces: Iterable[int], optional**
-  : List of faces whose edges need to be imprinted on the base face. If the faces are meshed, the mesh will be transferred to the base face.
+
+  List of faces whose edges need to be imprinted on the base face. If the faces are meshed, the mesh will be transferred to the base face.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **delete_base: bool, optional**
-  : Option to delete base face at the end of stacking. The default is false.
+
+  Option to delete base face at the end of stacking. The default is false.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `MeshStackerParams` object with provided parameters.
+
+  JSON dictionary to create a `MeshStackerParams` object with provided parameters.
 
 ### Examples
 

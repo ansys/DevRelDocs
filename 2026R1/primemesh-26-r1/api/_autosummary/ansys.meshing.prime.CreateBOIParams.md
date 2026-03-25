@@ -6,43 +6,55 @@
 
 Parameters used for BOI surface creation in the given axis.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `CreateBOIParams` object with default parameters.
+
+  Model to create a `CreateBOIParams` object with default parameters.
 
   **boi_type: BOIType, optional**
-  : Type of BOI offsetting.
+
+  Type of BOI offsetting.
 
   **perform_initial_wrap: bool, optional**
-  : Perform an initial wrap to create a BOI if BOI type is OFFSETSURFACE.
+
+  Perform an initial wrap to create a BOI if BOI type is OFFSETSURFACE.
 
   **wrap_size: float, optional**
-  : Set wrap size greater than the largest gap size in the input when performing_initial_wrap is true.
+
+  Set wrap size greater than the largest gap size in the input when performing_initial_wrap is true.
 
   **flow_dir: FlowDirection, optional**
-  : Assigns the offset direction of inflation.
+
+  Assigns the offset direction of inflation.
 
   **side_scale: float, optional**
-  : BOI side scaling factor.
+
+  BOI side scaling factor.
 
   **wake_scale: float, optional**
-  : BOI flow direction scaling factor.
+
+  BOI flow direction scaling factor.
 
   **wake_levels: int, optional**
-  : BOI levels.
+
+  BOI levels.
 
   **suggested_part_name: str, optional**
-  : Suggested part name for created BOI surfaces.
+
+  Suggested part name for created BOI surfaces.
 
   **suggested_label_prefix: str, optional**
-  : Suggested label name for created BOI surfaces.
+
+  Suggested label name for created BOI surfaces.
 
   **number_of_threads: int, optional**
-  : Number of threads for multithreading.
+
+  Number of threads for multithreading.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `CreateBOIParams` object with provided parameters.
+
+  JSON dictionary to create a `CreateBOIParams` object with provided parameters.
 
 ### Examples
 

@@ -6,9 +6,10 @@
 
 Set the default values of the `FixInvalidNormalNodeResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code associated with failure of operation.
+
+  Error code associated with failure of operation.
 
 <!-- !! processed by numpydoc !! -->

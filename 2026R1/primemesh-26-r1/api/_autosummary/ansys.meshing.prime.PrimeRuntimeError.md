@@ -6,15 +6,18 @@
 
 Provides runtime errors for PyPrimeMesh.
 
-* **Parameters:**
+**Parameters:**
 
   **message**
-  : Error message to show.
+
+  Error message to show.
 
   **error_code**
-  : ID of the error. The default is `None`.
+
+  ID of the error. The default is `None`.
 
   **error_locations**
-  : Location of the error. The default is `None`.
+
+  Location of the error. The default is `None`.
 
 <!-- !! processed by numpydoc !! -->

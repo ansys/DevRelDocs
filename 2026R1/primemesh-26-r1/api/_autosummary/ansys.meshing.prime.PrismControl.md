@@ -8,19 +8,23 @@ PrismControl allows you to generate prisms.
 
 PrismControl allows you to control generation of prisms. Controls include setting the face scope, volume scope and growth parameters.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create PrismControl object.
+
+  Server model to create PrismControl object.
 
   **id**
-  : Id of the PrismControl.
+
+  Id of the PrismControl.
 
   **object_id**
-  : Object id of the PrismControl.
+
+  Object id of the PrismControl.
 
   **name**
-  : Name of the PrismControl.
+
+  Name of the PrismControl.
 
 <!-- !! processed by numpydoc !! -->
 

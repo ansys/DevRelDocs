@@ -6,12 +6,14 @@
 
 Set the default values of the `ConnectFacesParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **constant_mesh_size: float, optional**
-  : Constant size used for surface meshing.
+
+  Constant size used for surface meshing.
 
   **absolute_tolerance: float, optional**
-  : Absolute distance tolerance between edges or faces for connect faces operation.
+
+  Absolute distance tolerance between edges or faces for connect faces operation.
 
 <!-- !! processed by numpydoc !! -->

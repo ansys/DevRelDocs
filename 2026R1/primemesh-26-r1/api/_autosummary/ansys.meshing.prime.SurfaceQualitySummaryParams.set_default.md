@@ -6,15 +6,18 @@
 
 Set the default values of the `SurfaceQualitySummaryParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **face_quality_measures: List[FaceQualityMeasure], optional**
-  : List of face quality measures for surface quality diagnostics.
+
+  List of face quality measures for surface quality diagnostics.
 
   **scope: ScopeDefinition, optional**
-  : Scope the face zonelets for surface quality diagnostics.
+
+  Scope the face zonelets for surface quality diagnostics.
 
   **quality_limit: Iterable[float], optional**
-  : Quality limit per face quality measure. If the quality limit is not specified, the default quality limit is used.
+
+  Quality limit per face quality measure. If the quality limit is not specified, the default quality limit is used.
 
 <!-- !! processed by numpydoc !! -->

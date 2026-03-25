@@ -9,20 +9,23 @@ Close gaps.
 Closing gaps creates patching surfaces within the face zonelets specified
 by scope using gap size.
 
-* **Parameters:**
+**Parameters:**
 
   **scope**
-  : Scope definition of the face zonelets.
+
+  Scope definition of the face zonelets.
 
   **params**
-  : Wrapper providing close gap parameters.
 
-* **Returns:**
+  Wrapper providing close gap parameters.
 
-  [`WrapperCloseGapsResult`](ansys.meshing.prime.WrapperCloseGapsResult.md#ansys.meshing.prime.WrapperCloseGapsResult)
-  : Results from the wrapper for closing gaps.
+**Returns:**
 
-* **Return type:**
+  **[`WrapperCloseGapsResult`](ansys.meshing.prime.WrapperCloseGapsResult.md#ansys.meshing.prime.WrapperCloseGapsResult)**
+
+  Results from the wrapper for closing gaps.
+
+**Return type:**
 
   [`WrapperCloseGapsResult`](ansys.meshing.prime.WrapperCloseGapsResult.md#ansys.meshing.prime.WrapperCloseGapsResult)
 

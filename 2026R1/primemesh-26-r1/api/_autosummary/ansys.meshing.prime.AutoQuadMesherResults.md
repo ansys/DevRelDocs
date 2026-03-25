@@ -6,28 +6,33 @@
 
 Results of auto quad mesher.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `AutoQuadMesherResults` object with default parameters.
+
+  Model to create a `AutoQuadMesherResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code if AutoQuadMesher operation is unsuccessful.
+
+  Error code if AutoQuadMesher operation is unsuccessful.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **warning_codes: List[WarningCode], optional**
-  : Warning code if AutoQuadMesher operation is partially successful.
+
+  Warning code if AutoQuadMesher operation is partially successful.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **failed_topo_face_ids: Iterable[int], optional**
-  : Ids of the failed topofaces during topology check.
+
+  Ids of the failed topofaces during topology check.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `AutoQuadMesherResults` object with provided parameters.
+
+  JSON dictionary to create a `AutoQuadMesherResults` object with provided parameters.
 
 ### Examples
 

@@ -6,40 +6,51 @@
 
 Parameters to perform local surface remeshing.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `LocalSurferParams` object with default parameters.
+
+  Model to create a `LocalSurferParams` object with default parameters.
 
   **min_angle: float, optional**
-  : Minimum feature angle limit used to identify and preserve features.
+
+  Minimum feature angle limit used to identify and preserve features.
 
   **max_angle: float, optional**
-  : Maximum feature angle limit used to identify and preserve features.
+
+  Maximum feature angle limit used to identify and preserve features.
 
   **size_field_type: SizeFieldType, optional**
-  : Size field type used to generate surface mesh.
+
+  Size field type used to generate surface mesh.
 
   **min_size: float, optional**
-  : Minimum size to be used in sizing for the surfer.
+
+  Minimum size to be used in sizing for the surfer.
 
   **max_size: float, optional**
-  : Maximum size to be used in sizing for the surfer.
+
+  Maximum size to be used in sizing for the surfer.
 
   **growth_rate: float, optional**
-  : Growth rate to be used to propagate sizes.
+
+  Growth rate to be used to propagate sizes.
 
   **constant_size: float, optional**
-  : Constant size to be used in case of constant size field.
+
+  Constant size to be used in case of constant size field.
 
   **smooth_boundary: bool, optional**
-  : Option to extend local selection to get smooth boundary of selected elements.
+
+  Option to extend local selection to get smooth boundary of selected elements.
 
   **n_rings: int, optional**
-  : Number of rings to extend the registered face selection for remeshing.
+
+  Number of rings to extend the registered face selection for remeshing.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `LocalSurferParams` object with provided parameters.
+
+  JSON dictionary to create a `LocalSurferParams` object with provided parameters.
 
 ### Examples
 

@@ -6,33 +6,39 @@
 
 Results associated with querying child components.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ComponentChildrenResults` object with default parameters.
+
+  Model to create a `ComponentChildrenResults` object with default parameters.
 
   **component_ids: Iterable[int], optional**
-  : Ids of components that are queried.
+
+  Ids of components that are queried.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **component_names: List[str], optional**
-  : Names of components that are queried.
+
+  Names of components that are queried.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **body_ids: Iterable[int], optional**
-  : Ids of bodies that are queried.
+
+  Ids of bodies that are queried.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **body_names: List[str], optional**
-  : Names of bodies that are queried.
+
+  Names of bodies that are queried.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ComponentChildrenResults` object with provided parameters.
+
+  JSON dictionary to create a `ComponentChildrenResults` object with provided parameters.
 
 ### Examples
 

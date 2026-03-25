@@ -6,23 +6,27 @@
 
 Copy face zonelets.
 
-* **Parameters:**
+**Parameters:**
 
   **face_zonelets**
-  : Ids of face zonelets to be copied.
+
+  Ids of face zonelets to be copied.
 
   **target_part_id**
-  : Part id to be used to move the copied zonelets.
+
+  Part id to be used to move the copied zonelets.
 
   **params**
-  : Parameters to copy face zonelets.
 
-* **Returns:**
-  
-  [`CopyZoneletsResults`](ansys.meshing.prime.CopyZoneletsResults.md#ansys.meshing.prime.CopyZoneletsResults)
-  : Returns the CopyZoneletsResults.
+  Parameters to copy face zonelets.
 
-* **Return type:**
+**Returns:**
+
+  **[`CopyZoneletsResults`](ansys.meshing.prime.CopyZoneletsResults.md#ansys.meshing.prime.CopyZoneletsResults)**
+
+  Returns the CopyZoneletsResults.
+
+**Return type:**
 
   [`CopyZoneletsResults`](ansys.meshing.prime.CopyZoneletsResults.md#ansys.meshing.prime.CopyZoneletsResults)
 

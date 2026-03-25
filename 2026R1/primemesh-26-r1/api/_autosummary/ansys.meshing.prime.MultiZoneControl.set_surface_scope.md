@@ -6,10 +6,11 @@
 
 Sets the scope for surface in terms of topofaces.
 
-* **Parameters:**
+**Parameters:**
 
   **scope_info**
-  : Scoped topofaces.
+
+  Scoped topofaces.
 
 ### Notes
 

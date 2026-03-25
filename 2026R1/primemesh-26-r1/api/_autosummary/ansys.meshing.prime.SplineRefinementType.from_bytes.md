@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.SplineRefinementType.from_bytes"></a>
 
-#### SplineRefinementType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* SplineRefinementType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

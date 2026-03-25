@@ -6,16 +6,19 @@
 
 Result structure associated with resolve intersections operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ResolveIntersectionResult` object with default parameters.
+
+  Model to create a `ResolveIntersectionResult` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Errror code associated with a resolve intersections operation.
+
+  Error code associated with a resolve intersections operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ResolveIntersectionResult` object with provided parameters.
+
+  JSON dictionary to create a `ResolveIntersectionResult` object with provided parameters.
 
 ### Examples
 
@@ -35,6 +38,6 @@ Result structure associated with resolve intersections operation.
 ### Attributes
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
-| [`ResolveIntersectionResult.error_code`](ansys.meshing.prime.ResolveIntersectionResult.error_code.md#ansys.meshing.prime.ResolveIntersectionResult.error_code)   | Errror code associated with a resolve intersections operation.   |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| [`ResolveIntersectionResult.error_code`](ansys.meshing.prime.ResolveIntersectionResult.error_code.md#ansys.meshing.prime.ResolveIntersectionResult.error_code)   | Error code associated with a resolve intersections operation.   |
 <!-- vale on -->

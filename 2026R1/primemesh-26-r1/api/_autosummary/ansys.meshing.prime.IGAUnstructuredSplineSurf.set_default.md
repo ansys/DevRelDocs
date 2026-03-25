@@ -6,39 +6,50 @@
 
 Set the default values of the `IGAUnstructuredSplineSurf` object.
 
-* **Parameters:**
+**Parameters:**
 
   **id: int, optional**
-  : Id of the unstructured spline surface.
+
+  Id of the unstructured spline surface.
 
   **degree: int, optional**
-  : Degree of the spline surface.
+
+  Degree of the spline surface.
 
   **spline_refinement_level: int, optional**
-  : Refinement level for rendering of spline points.
+
+  Refinement level for rendering of spline points.
 
   **control_points: Iterable[float], optional**
-  : Coordinates of the control points of the spline.
+
+  Coordinates of the control points of the spline.
 
   **spline_points: Iterable[float], optional**
-  : Coordinates of the spline points.
+
+  Coordinates of the spline points.
 
   **bad_spline_points_indices: Iterable[int], optional**
-  : Node indices in the spline points list which has negative jacobian value.
+
+  Node indices in the spline points list which has negative jacobian value.
 
   **deviation_array: Iterable[float], optional**
-  : Deviation value from the spline point to the model geometry.
+
+  Deviation value from the spline point to the model geometry.
 
   **invalid_jacobian_elements_count: int, optional**
-  : Count of elements with negative jacobian.
+
+  Count of elements with negative jacobian.
 
   **average_mesh_size: float, optional**
-  : Reference length to compute deviation.
+
+  Reference length to compute deviation.
 
   **elements_count: int, optional**
-  : Count of shell elements.
+
+  Count of shell elements.
 
   **shell_thickness: float, optional**
-  : Thickness of shell.
+
+  Thickness of shell.
 
 <!-- !! processed by numpydoc !! -->

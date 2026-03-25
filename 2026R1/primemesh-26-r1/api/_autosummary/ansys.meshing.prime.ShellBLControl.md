@@ -8,19 +8,23 @@ ShellBLControl allows you to generate quad mesh on face zonelets.
 
 ShellBLControl allows you to control generation of quad mesh on face zonelets. Controls include setting the edge scope, face scope and growth parameters.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create ShellBLControl object.
+
+  Server model to create ShellBLControl object.
 
   **id**
-  : Id of the ShellBLControl.
+
+  Id of the ShellBLControl.
 
   **object_id**
-  : Object id of the ShellBLControl.
+
+  Object id of the ShellBLControl.
 
   **name**
-  : Name of the ShellBLControl.
+
+  Name of the ShellBLControl.
 
 <!-- !! processed by numpydoc !! -->
 

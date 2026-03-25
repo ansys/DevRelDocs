@@ -6,22 +6,27 @@
 
 Results associated with the create zone.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `CreateZoneResults` object with default parameters.
+
+  Model to create a `CreateZoneResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the create zone operation.
+
+  Error code associated with the create zone operation.
 
   **zone_id: int, optional**
-  : Id of newly created zone.
+
+  Id of newly created zone.
 
   **assigned_name: str, optional**
-  : Assigned name of newly created zone.
+
+  Assigned name of newly created zone.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `CreateZoneResults` object with provided parameters.
+
+  JSON dictionary to create a `CreateZoneResults` object with provided parameters.
 
 ### Examples
 

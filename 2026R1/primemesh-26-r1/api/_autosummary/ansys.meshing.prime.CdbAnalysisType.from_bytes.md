@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.CdbAnalysisType.from_bytes"></a>
 
-#### CdbAnalysisType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* CdbAnalysisType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

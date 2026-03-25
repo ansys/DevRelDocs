@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.FaceQualityMeasure.from_bytes"></a>
 
-#### FaceQualityMeasure.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* FaceQualityMeasure.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

@@ -6,7 +6,7 @@
 
 Set the default values of the `VTComposerParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **thin_stripes_tol: float, optional**
 

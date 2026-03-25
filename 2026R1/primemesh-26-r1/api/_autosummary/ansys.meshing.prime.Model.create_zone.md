@@ -6,20 +6,23 @@
 
 Creates zone for the given zone type.
 
-* **Parameters:**
+**Parameters:**
 
   **suggested_name**
-  : Suggested name for the zone to be created.
+
+  Suggested name for the zone to be created.
 
   **type**
-  : Type of the zone to be created.
 
-* **Returns:**
+  Type of the zone to be created.
 
-  [`CreateZoneResults`](ansys.meshing.prime.CreateZoneResults.md#ansys.meshing.prime.CreateZoneResults)
-  : Returns the CreateZoneResults.
+**Returns:**
 
-* **Return type:**
+  **[`CreateZoneResults`](ansys.meshing.prime.CreateZoneResults.md#ansys.meshing.prime.CreateZoneResults)**
+
+  Returns the CreateZoneResults.
+
+**Return type:**
 
   [`CreateZoneResults`](ansys.meshing.prime.CreateZoneResults.md#ansys.meshing.prime.CreateZoneResults)
 

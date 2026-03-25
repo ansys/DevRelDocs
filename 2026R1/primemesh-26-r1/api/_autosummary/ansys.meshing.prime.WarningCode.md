@@ -1,12 +1,8 @@
-<!-- vale off -->
-
-<a id="warningcode"></a>
-
 # WarningCode
 
 <a id="ansys.meshing.prime.WarningCode"></a>
 
-### *class* ansys.meshing.prime.WarningCode(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.WarningCode(\*values)
 
 Warning codes associated with the PyPrimeMesh operation.
 
@@ -98,4 +94,6 @@ Warning codes associated with the PyPrimeMesh operation.
 | [`WarningCode.MULTIZONEMESHER_SURFACESCOPEVOLUMESCOPEINCONSISTENCY`](ansys.meshing.prime.WarningCode.MULTIZONEMESHER_SURFACESCOPEVOLUMESCOPEINCONSISTENCY.md#ansys.meshing.prime.WarningCode.MULTIZONEMESHER_SURFACESCOPEVOLUMESCOPEINCONSISTENCY) | MultiZone warning codes                                                                                       |
 | [`WarningCode.MULTIZONEMESHER_DEFEATUREDTOPOEDGES`](ansys.meshing.prime.WarningCode.MULTIZONEMESHER_DEFEATUREDTOPOEDGES.md#ansys.meshing.prime.WarningCode.MULTIZONEMESHER_DEFEATUREDTOPOEDGES)                                                    | TopoEdges that got defeatured in the MultiZone mesh.                                                          |
 | [`WarningCode.MULTIZONEMESHER_DEFEATUREDTOPOFACES`](ansys.meshing.prime.WarningCode.MULTIZONEMESHER_DEFEATUREDTOPOFACES.md#ansys.meshing.prime.WarningCode.MULTIZONEMESHER_DEFEATUREDTOPOFACES)                                                    | TopoFaces that got defeatured in the MultiZone mesh.                                                          |
+| [`WarningCode.MULTIZONEMESHER_DEFEATUREDPROTECTEDTOPOLOGY`](ansys.meshing.prime.WarningCode.MULTIZONEMESHER_DEFEATUREDPROTECTEDTOPOLOGY.md#ansys.meshing.prime.WarningCode.MULTIZONEMESHER_DEFEATUREDPROTECTEDTOPOLOGY)                            | Protected toponodes or topoedges that got defeatured in the MultiZone mesh.                                   |
+| [`WarningCode.REMOVECUSP_PARTWITHMULTIPLEVOLUMES`](ansys.meshing.prime.WarningCode.REMOVECUSP_PARTWITHMULTIPLEVOLUMES.md#ansys.meshing.prime.WarningCode.REMOVECUSP_PARTWITHMULTIPLEVOLUMES)                                                       | Parts with multiple volumes do not support Cusp removal.                                                      |
 <!-- vale on -->

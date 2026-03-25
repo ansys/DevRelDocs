@@ -6,23 +6,27 @@
 
 Perform meshing on TopoFaces with given parameters.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : ID of part.
+
+  ID of part.
 
   **topo_faces**
-  : IDs of the TopoFaces.
+
+  IDs of the TopoFaces.
 
   **params**
-  : Surfer parameters.
 
-* **Returns:**
+  Surfer parameters.
 
-  [`SurferResults`](ansys.meshing.prime.SurferResults.md#ansys.meshing.prime.SurferResults)
-  : Results from performing meshing on the TopoFaces.
+**Returns:**
 
-* **Return type:**
+  **[`SurferResults`](ansys.meshing.prime.SurferResults.md#ansys.meshing.prime.SurferResults)**
+
+  Results from performing meshing on the TopoFaces.
+
+**Return type:**
 
   [`SurferResults`](ansys.meshing.prime.SurferResults.md#ansys.meshing.prime.SurferResults)
 

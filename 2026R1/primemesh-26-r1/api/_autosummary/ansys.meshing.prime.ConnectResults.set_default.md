@@ -6,12 +6,14 @@
 
 Set the default values of the `ConnectResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error Code associated with failure of operation.
+
+  Error Code associated with failure of operation.
 
   **warning_codes: List[WarningCode], optional**
-  : Warning codes associated with the operation.
+
+  Warning codes associated with the operation.
 
 <!-- !! processed by numpydoc !! -->

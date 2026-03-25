@@ -9,19 +9,23 @@ Perform a label-controlled connection.
 This method performs a label-controlled connection of wrapper part face zonelets to
 face zonelets of source parts.
 
-* **Parameters:**
+**Parameters:**
 
   **wrapper_part**
-  : Wrapper part.
+
+  Wrapper part.
 
   **target_labels**
-  : List of target zonelet labels to connect.
+
+  List of target zonelet labels to connect.
 
   **source_parts**
-  : List of source parts to connect with.
+
+  List of source parts to connect with.
 
   **source_labels**
-  : List of source zonelet labels to connect.
+
+  List of source zonelet labels to connect.
 
 ### Examples
 

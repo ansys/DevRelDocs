@@ -14,16 +14,19 @@ This method supports reading and importing these file formats:
 * Importing Fluent’s CAS files
 * Importing MAPDL’s CDB files
 
-* **Parameters:**
+**Parameters:**
 
   **file_name**
-  : Path to the file to read or import.
+
+  Path to the file to read or import.
 
   **append**
-  : Whether to append to the file. The default is `False`, in which case
+
+  Whether to append to the file. The default is `False`, in which case
     : the file is overwritten.
 
   **cad_reader_route**
-  : Route of the CAD reader. The default is `None`.
+
+  Route of the CAD reader. The default is `None`.
 
 <!-- !! processed by numpydoc !! -->

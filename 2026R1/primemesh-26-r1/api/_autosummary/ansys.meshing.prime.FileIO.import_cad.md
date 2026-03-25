@@ -22,20 +22,23 @@ Supported CAD file formats on Linux are:
 Refer **Reading and writing files** section in **User guide** for a
 comprehensive list of supported formats.
 
-* **Parameters:**
+**Parameters:**
 
   **file_name**
-  : Path to the CAD file on disk.
+
+  Path to the CAD file on disk.
 
   **params**
-  : Parameters for importing the CAD file.
 
-* **Returns:**
-  
-  [`ImportCadResults`](ansys.meshing.prime.ImportCadResults.md#ansys.meshing.prime.ImportCadResults)
-  : Results from importing the CAD file.
+  Parameters for importing the CAD file.
 
-* **Return type:**
+**Returns:**
+
+  **[`ImportCadResults`](ansys.meshing.prime.ImportCadResults.md#ansys.meshing.prime.ImportCadResults)**
+
+  Results from importing the CAD file.
+
+**Return type:**
 
   [`ImportCadResults`](ansys.meshing.prime.ImportCadResults.md#ansys.meshing.prime.ImportCadResults)
 

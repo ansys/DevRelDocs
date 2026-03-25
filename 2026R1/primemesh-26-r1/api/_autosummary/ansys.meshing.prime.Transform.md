@@ -6,10 +6,11 @@
 
 Provides functionalities to initialize and manage transformation using transformation matrix.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create Transform object.
+
+  Server model to create Transform object.
 
 <!-- !! processed by numpydoc !! -->
 

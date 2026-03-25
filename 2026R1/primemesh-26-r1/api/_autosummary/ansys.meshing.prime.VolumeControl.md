@@ -6,31 +6,36 @@
 
 Defines the scope and type of volume mesh to generate.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create VolumeControl object.
+
+  Server model to create VolumeControl object.
 
   **id**
-  : Id of the VolumeControl.
+
+  Id of the VolumeControl.
 
   **object_id**
-  : Object id of the VolumeControl.
+
+  Object id of the VolumeControl.
 
   **name**
-  : Name of the VolumeControl.
+
+  Name of the VolumeControl.
 
 <!-- !! processed by numpydoc !! -->
 
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
-| [`VolumeControl.get_params`](ansys.meshing.prime.VolumeControl.get_params.md#ansys.meshing.prime.VolumeControl.get_params)()                             | Get the parameters of the volume control.                             |
-| [`VolumeControl.get_scope`](ansys.meshing.prime.VolumeControl.get_scope.md#ansys.meshing.prime.VolumeControl.get_scope)()                                | Gets the scope for the volume control.                                |
-| [`VolumeControl.set_params`](ansys.meshing.prime.VolumeControl.set_params.md#ansys.meshing.prime.VolumeControl.set_params)(volume_control_params)        | Sets the volume control parameters.                                   |
-| [`VolumeControl.set_scope`](ansys.meshing.prime.VolumeControl.set_scope.md#ansys.meshing.prime.VolumeControl.set_scope)(scope)                           | Sets the scope for volume control to evaluate.                        |
-| [`VolumeControl.set_suggested_name`](ansys.meshing.prime.VolumeControl.set_suggested_name.md#ansys.meshing.prime.VolumeControl.set_suggested_name)(name) | Set the unique name for the volume control based on a suggested name. |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| [`VolumeControl.get_params`](ansys.meshing.prime.VolumeControl.get_params.md#ansys.meshing.prime.VolumeControl.get_params)()                             | Get the parameters of the volume control.                                                   |
+| [`VolumeControl.get_scope`](ansys.meshing.prime.VolumeControl.get_scope.md#ansys.meshing.prime.VolumeControl.get_scope)()                                | Gets the scope for the volume control.                                                      |
+| [`VolumeControl.get_summary`](ansys.meshing.prime.VolumeControl.get_summary.md#ansys.meshing.prime.VolumeControl.get_summary)(params)                    | Gets the volume control summary along with the evaluated scope for the provided parameters. |
+| [`VolumeControl.set_params`](ansys.meshing.prime.VolumeControl.set_params.md#ansys.meshing.prime.VolumeControl.set_params)(volume_control_params)        | Sets the volume control parameters.                                                         |
+| [`VolumeControl.set_scope`](ansys.meshing.prime.VolumeControl.set_scope.md#ansys.meshing.prime.VolumeControl.set_scope)(scope)                           | Sets the scope for volume control to evaluate.                                              |
+| [`VolumeControl.set_suggested_name`](ansys.meshing.prime.VolumeControl.set_suggested_name.md#ansys.meshing.prime.VolumeControl.set_suggested_name)(name) | Set the unique name for the volume control based on a suggested name.                       |
 
 ### Attributes
 

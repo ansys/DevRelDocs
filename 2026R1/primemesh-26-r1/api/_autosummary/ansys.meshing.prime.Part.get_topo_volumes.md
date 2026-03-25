@@ -6,12 +6,13 @@
 
 Get topovolumes of part.
 
-* **Returns:**
-  
-  `Iterable`[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
-  : Returns the list of topovolume ids.
 
-* **Return type:**
+**Returns:**
+
+  `Iterable`[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
+  Returns the list of topovolume ids.
+
+**Return type:**
 
   [`Iterable`](https://docs.python.org/3.11/library/typing.html#typing.Iterable)[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
 

@@ -6,18 +6,21 @@
 
 Results structure associated with delete mesh on topofaces.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `DeleteMeshResults` object with default parameters.
+
+  Model to create a `DeleteMeshResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the failure of operation.
+
+  Error code associated with the failure of operation.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `DeleteMeshResults` object with provided parameters.
+
+  JSON dictionary to create a `DeleteMeshResults` object with provided parameters.
 
 ### Examples
 

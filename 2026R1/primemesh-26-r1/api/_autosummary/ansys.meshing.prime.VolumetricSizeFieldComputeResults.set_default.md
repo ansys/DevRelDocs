@@ -6,12 +6,14 @@
 
 Set the default values of the `VolumetricSizeFieldComputeResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the compute volumetric size field operation.
+
+  Error code associated with the compute volumetric size field operation.
 
   **size_field_id: int, optional**
-  : Id of the computed size field.
+
+  Id of the computed size field.
 
 <!-- !! processed by numpydoc !! -->

@@ -6,25 +6,27 @@
 
 Download the FMD file for the pipe tee example.
 
-* **Parameters:**
+**Parameters:**
 
   **destination**
-  : Path to download the example file to. The default
+
+  Path to download the example file to. The default
     is `None`, in which case the default path for app data
     is used.
 
   **force**
-  : Option to  download the example file. The default is
+
+  Option to  download the example file. The default is
     `False`, in which case if the example file is cached, it
     is reused.
 
-* **Returns:**
-  
+**Returns:**
 
-  [`str`](https://docs.python.org/3.11/library/stdtypes.html#str)
-  : Local path to the downloaded example file.
+  **[`str`](https://docs.python.org/3.11/library/stdtypes.html#str)**
 
-* **Return type:**
+  Local path to the downloaded example file.
+
+**Return type:**
 
   [`Union`](https://docs.python.org/3.11/library/typing.html#typing.Union)[[`str`](https://docs.python.org/3.11/library/stdtypes.html#str), [`PathLike`](https://docs.python.org/3.11/library/os.html#os.PathLike)]
 
@@ -41,3 +43,4 @@ Download the FMD file for the pipe tee example.
 >>>     print(model)
 ```
 
+<!-- !! processed by numpydoc !! -->

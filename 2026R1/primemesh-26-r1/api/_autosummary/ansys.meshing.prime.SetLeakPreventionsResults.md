@@ -6,19 +6,23 @@
 
 Results associated with set leak preventions.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SetLeakPreventionsResults` object with default parameters.
+
+  Model to create a `SetLeakPreventionsResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the set leak preventions.
+
+  Error code associated with the set leak preventions.
 
   **ids: Iterable[int], optional**
-  : Ids of added leak prevention controls.
+
+  Ids of added leak prevention controls.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SetLeakPreventionsResults` object with provided parameters.
+
+  JSON dictionary to create a `SetLeakPreventionsResults` object with provided parameters.
 
 ### Examples
 

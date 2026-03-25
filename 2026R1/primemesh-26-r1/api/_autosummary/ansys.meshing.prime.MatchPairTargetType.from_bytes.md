@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.MatchPairTargetType.from_bytes"></a>
 
-#### MatchPairTargetType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* MatchPairTargetType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

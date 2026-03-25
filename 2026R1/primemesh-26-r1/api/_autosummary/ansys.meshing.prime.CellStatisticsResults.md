@@ -6,19 +6,23 @@
 
 Results of cell statistics information.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `CellStatisticsResults` object with default parameters.
+
+  Model to create a `CellStatisticsResults` object with default parameters.
 
   **volume: float, optional**
-  : Cumulative volume of all the cell elements of selected entities.
+
+  Cumulative volume of all the cell elements of selected entities.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the cell statistics function.
+
+  Error code associated with the cell statistics function.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `CellStatisticsResults` object with provided parameters.
+
+  JSON dictionary to create a `CellStatisticsResults` object with provided parameters.
 
 ### Examples
 

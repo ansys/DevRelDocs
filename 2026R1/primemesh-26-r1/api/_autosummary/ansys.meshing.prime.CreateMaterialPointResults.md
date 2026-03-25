@@ -6,25 +6,31 @@
 
 Results structure associated with create material point operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `CreateMaterialPointResults` object with default parameters.
+
+  Model to create a `CreateMaterialPointResults` object with default parameters.
 
   **id: int, optional**
-  : Id of the material point created.
+
+  Id of the material point created.
 
   **assigned_name: str, optional**
-  : Assigned name of the material point created.
+
+  Assigned name of the material point created.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with create material point operation.
+
+  Error code associated with create material point operation.
 
   **warning_codes: List[WarningCode], optional**
-  : Warning codes associated with create material point operation.
+
+  Warning codes associated with create material point operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `CreateMaterialPointResults` object with provided parameters.
+
+  JSON dictionary to create a `CreateMaterialPointResults` object with provided parameters.
 
 ### Examples
 

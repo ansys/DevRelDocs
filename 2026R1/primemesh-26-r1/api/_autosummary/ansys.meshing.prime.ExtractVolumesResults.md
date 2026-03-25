@@ -6,28 +6,35 @@
 
 Results associated with compute volumes.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ExtractVolumesResults` object with default parameters.
+
+  Model to create a `ExtractVolumesResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the failure of operation.
+
+  Error code associated with the failure of operation.
 
   **volumes: Iterable[int], optional**
-  : Ids of computed volumes.
+
+  Ids of computed volumes.
 
   **warning_codes: List[WarningCode], optional**
-  : Warning codes associated with the compute volumes.
+
+  Warning codes associated with the compute volumes.
 
   **assigned_zone_name: str, optional**
-  : Assigned name of zone for extracted flow volumes.
+
+  Assigned name of zone for extracted flow volumes.
 
   **face_zonelets_without_volumes: Iterable[int], optional**
-  : Ids of face zonelets for which volumes were not extracted.
+
+  Ids of face zonelets for which volumes were not extracted.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ExtractVolumesResults` object with provided parameters.
+
+  JSON dictionary to create a `ExtractVolumesResults` object with provided parameters.
 
 ### Examples
 

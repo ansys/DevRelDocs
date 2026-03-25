@@ -6,27 +6,34 @@
 
 Set the default values of the `VolumeQualityResultsPart` object.
 
-* **Parameters:**
+**Parameters:**
 
   **cell_quality_measure: CellQualityMeasure, optional**
-  : Type of the cell quality measure.
+
+  Type of the cell quality measure.
 
   **measure_name: str, optional**
-  : Name of the cell quality measure.
+
+  Name of the cell quality measure.
 
   **part_id: int, optional**
-  : Id of the part for which quality is computed.
+
+  Id of the part for which quality is computed.
 
   **quality_limit: float, optional**
-  : Target quality limit used to find failures.
+
+  Target quality limit used to find failures.
 
   **n_found: int, optional**
-  : Number of failed cells.
+
+  Number of failed cells.
 
   **max_quality: float, optional**
-  : Maximum value of quality measure.
+
+  Maximum value of quality measure.
 
   **min_quality: float, optional**
-  : Minimum value of quality measure.
+
+  Minimum value of quality measure.
 
 <!-- !! processed by numpydoc !! -->

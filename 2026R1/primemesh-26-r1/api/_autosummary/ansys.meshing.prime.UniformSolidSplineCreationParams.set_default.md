@@ -6,23 +6,30 @@
 
 Set the default values of the `UniformSolidSplineCreationParams` object.
 
-* **Parameters:**
+**Parameters:**
+
   **n_control_points_u: int, optional**
-  : Number of control points in u direction.
+
+  Number of control points in u direction.
 
   **n_control_points_v: int, optional**
-  : Number of control points in v direction.
+
+  Number of control points in v direction.
 
   **n_control_points_w: int, optional**
-  : Number of control points in w direction.
+
+  Number of control points in w direction.
 
   **degree_u: int, optional**
-  : Degree in u direction.
+
+  Degree in u direction.
 
   **degree_v: int, optional**
-  : Degree in v direction.
+
+  Degree in v direction.
 
   **degree_w: int, optional**
-  : Degree in w direction.
+
+  Degree in w direction.
 
 <!-- !! processed by numpydoc !! -->

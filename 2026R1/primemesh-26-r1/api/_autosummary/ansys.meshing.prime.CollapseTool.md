@@ -6,10 +6,11 @@
 
 Performs various collapse operations. For example, split and collapse on face zonelets.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create CollapseTool object.
+
+  Server model to create CollapseTool object.
 
 <!-- !! processed by numpydoc !! -->
 

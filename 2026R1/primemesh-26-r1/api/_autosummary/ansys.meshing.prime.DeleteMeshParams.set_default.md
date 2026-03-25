@@ -6,9 +6,10 @@
 
 Set the default values of the `DeleteMeshParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **delete_mesh_on_connected_topo_edges: bool, optional**
-  : Option to delete mesh on topoedges connected only to provided topoentities.
+
+  Option to delete mesh on topoedges connected only to provided topoentities.
 
 <!-- !! processed by numpydoc !! -->

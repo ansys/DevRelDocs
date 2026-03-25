@@ -8,16 +8,19 @@ Generate a surface mesh on a scope using the given size controls.
 
 This method supports generating quad dominant or triangular elements.
 
-* **Parameters:**
+**Parameters:**
 
   **size_control_names**
-  : Name pattern for the size controls. The default is `"*"`.
+
+  Name pattern for the size controls. The default is `"*"`.
 
   **generate_quads**
-  : Whether to generate a quad dominant mesh. The default is
+
+  Whether to generate a quad dominant mesh. The default is
     `False`, in which case a triangular mesh is generated.
 
   **scope**
-  : Scope for generating the surface mesh.
+
+  Scope for generating the surface mesh.
 
 <!-- !! processed by numpydoc !! -->

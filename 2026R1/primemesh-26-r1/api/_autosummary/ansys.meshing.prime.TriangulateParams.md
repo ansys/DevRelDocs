@@ -6,13 +6,15 @@
 
 Provides the parameters used for triangulation operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `TriangulateParams` object with default parameters.
+
+  Model to create a `TriangulateParams` object with default parameters.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `TriangulateParams` object with provided parameters.
+
+  JSON dictionary to create a `TriangulateParams` object with provided parameters.
 
 ### Examples
 

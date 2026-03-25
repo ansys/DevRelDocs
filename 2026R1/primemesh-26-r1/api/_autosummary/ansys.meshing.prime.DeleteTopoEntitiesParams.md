@@ -6,19 +6,23 @@
 
 Parameters to control delete topoentities.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `DeleteTopoEntitiesParams` object with default parameters.
+
+  Model to create a `DeleteTopoEntitiesParams` object with default parameters.
 
   **delete_geom_zonelets: bool, optional**
-  : Option to delete geometry zonelets of topology.
+
+  Option to delete geometry zonelets of topology.
 
   **delete_mesh_zonelets: bool, optional**
-  : Option to delete mesh zonelets of topology.
+
+  Option to delete mesh zonelets of topology.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `DeleteTopoEntitiesParams` object with provided parameters.
+
+  JSON dictionary to create a `DeleteTopoEntitiesParams` object with provided parameters.
 
 ### Examples
 

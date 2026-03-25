@@ -6,19 +6,23 @@
 
 Parameters to merge volumes.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `MergeVolumesParams` object with default parameters.
+
+  Model to create a `MergeVolumesParams` object with default parameters.
 
   **merge_to_neighbor_volume: bool, optional**
-  : Option to merge given volumes to their neighbor volume.
+
+  Option to merge given volumes to their neighbor volume.
 
   **neighbor_volumes: Iterable[int], optional**
-  : Ids of volume that are neighbors to given volumes for merging.
+
+  Ids of volume that are neighbors to given volumes for merging.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `MergeVolumesParams` object with provided parameters.
+
+  JSON dictionary to create a `MergeVolumesParams` object with provided parameters.
 
 ### Examples
 

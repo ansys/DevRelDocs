@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.BOIType"></a>
 
-### *class* ansys.meshing.prime.BOIType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.BOIType(\*values)
 
 BOI type for BOI creation.
 

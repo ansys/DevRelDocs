@@ -6,36 +6,46 @@
 
 Set the default values of the `RepairTopologyParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **connect_faces: bool, optional**
-  : Option to connect faces.
+
+  Option to connect faces.
 
   **repair_edges: bool, optional**
-  : Option to repair edges.
+
+  Option to repair edges.
 
   **split_topo_edges_at_apex_point: bool, optional**
-  : Option to split edges at apex point.
+
+  Option to split edges at apex point.
 
   **fillet_max_radius: float, optional**
-  : Maximum radius of fillets to be detected.
+
+  Maximum radius of fillets to be detected.
 
   **smallest_edge_length: float, optional**
-  : Length of smallest edge for which split is applied.
+
+  Length of smallest edge for which split is applied.
 
   **merge_edge_allow_self_close: bool, optional**
-  : Option for merging self-closing edge loops.
+
+  Option for merging self-closing edge loops.
 
   **suppress_shared_edges_when_merging: bool, optional**
-  : Option for suppressing shared edges when merging.
+
+  Option for suppressing shared edges when merging.
 
   **edge_connect_type: int, optional**
-  : Edge connection type.
+
+  Edge connection type.
 
   **connect_faces_params: ConnectFacesParams, optional**
-  : Parameters for connect faces operation.
+
+  Parameters for connect faces operation.
 
   **repair_edges_params: RepairEdgesParams, optional**
-  : Parameters for repair edges operation.
+
+  Parameters for repair edges operation.
 
 <!-- !! processed by numpydoc !! -->

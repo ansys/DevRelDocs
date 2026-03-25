@@ -6,19 +6,23 @@
 
 Topodata has all information about connectivity of nodes, edges, elements and more.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create TopoData object.
+
+  Server model to create TopoData object.
 
   **id**
-  : Id of the TopoData.
+
+  Id of the TopoData.
 
   **object_id**
-  : Object id of the TopoData.
+
+  Object id of the TopoData.
 
   **name**
-  : Name of the TopoData.
+
+  Name of the TopoData.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.MatchPairTargetType"></a>
 
-### *class* ansys.meshing.prime.MatchPairTargetType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.MatchPairTargetType(\*values)
 
 Match morph target type.
 

@@ -6,17 +6,18 @@
 
 Get the topoedges of the provided topoface ids.
 
-* **Parameters:**
+**Parameters:**
 
   **topo_faces**
-  : Ids of the topoface.
 
-* **Returns:**
+  Ids of the topoface.
+
+**Returns:**
 
   `Iterable`[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
-  : Returns the list of topoedge ids.
+  Returns the list of topoedge ids.
 
-* **Return type:**
+**Return type:**
 
   [`Iterable`](https://docs.python.org/3.11/library/typing.html#typing.Iterable)[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
 

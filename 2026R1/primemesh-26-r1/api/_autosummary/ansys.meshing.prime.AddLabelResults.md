@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="addlabelresults"></a>
-
 # AddLabelResults
 
 <a id="ansys.meshing.prime.AddLabelResults"></a>
@@ -10,16 +6,19 @@
 
 Results associated with the add label operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `AddLabelResults` object with default parameters.
+
+  Model to create a `AddLabelResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the add label operation.
+
+  Error code associated with the add label operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `AddLabelResults` object with provided parameters.
+
+  JSON dictionary to create a `AddLabelResults` object with provided parameters.
 
 ### Examples
 

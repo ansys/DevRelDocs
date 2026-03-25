@@ -8,10 +8,11 @@ SurfaceSearch allows you to check surface mesh quality.
 
 SurfaceSearch performs surface mesh quality check based on different face quality measures.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create SurfaceSearch object.
+
+  Server model to create SurfaceSearch object.
 
 <!-- !! processed by numpydoc !! -->
 

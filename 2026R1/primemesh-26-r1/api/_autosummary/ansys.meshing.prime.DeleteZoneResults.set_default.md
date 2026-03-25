@@ -6,9 +6,10 @@
 
 Set the default values of the `DeleteZoneResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the delete zone operation.
+
+  Error code associated with the delete zone operation.
 
 <!-- !! processed by numpydoc !! -->

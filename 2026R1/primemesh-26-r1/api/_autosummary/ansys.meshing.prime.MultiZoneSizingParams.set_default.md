@@ -6,18 +6,22 @@
 
 Set the default values of the `MultiZoneSizingParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **max_size: float, optional**
-  : Defines global maximum mesh size.
+
+  Defines global maximum mesh size.
 
   **min_size: float, optional**
-  : Defines global minimum mesh size.
+
+  Defines global minimum mesh size.
 
   **growth_rate: float, optional**
-  : Defines growth rate.
+
+  Defines growth rate.
 
   **use_volumetric_size_field: bool, optional**
-  : Defines whether to use size field for MultiZone meshing.
+
+  Defines whether to use size field for MultiZone meshing.
 
 <!-- !! processed by numpydoc !! -->

@@ -6,20 +6,23 @@
 
 Add topoentities to zone.
 
-* **Parameters:**
+**Parameters:**
 
   **zone_id**
-  : Id of a zone .
+
+  Id of a zone .
 
   **topo_entities**
-  : Ids of topoentities to be added.
 
-* **Returns:**
+  Ids of topoentities to be added.
 
-  [`AddToZoneResults`](ansys.meshing.prime.AddToZoneResults.md#ansys.meshing.prime.AddToZoneResults)
-  : Returns the AddToZoneResults.
+**Returns:**
 
-* **Return type:**
+  **[`AddToZoneResults`](ansys.meshing.prime.AddToZoneResults.md#ansys.meshing.prime.AddToZoneResults)**
+
+  Returns the AddToZoneResults.
+
+**Return type:**
 
   [`AddToZoneResults`](ansys.meshing.prime.AddToZoneResults.md#ansys.meshing.prime.AddToZoneResults)
 

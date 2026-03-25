@@ -6,10 +6,9 @@
 
 Get the wrapper controls.
 
-* **Returns:**
-
+**Returns**
   `List`[[`WrapperControl`](ansys.meshing.prime.WrapperControl.md#ansys.meshing.prime.WrapperControl)]
-  : List of wrapper controls.
+  List of wrapper controls.
 
 ### Examples
 

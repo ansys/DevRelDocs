@@ -6,22 +6,27 @@
 
 Parameters to control surface quality summary results.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SurfaceQualitySummaryParams` object with default parameters.
+
+  Model to create a `SurfaceQualitySummaryParams` object with default parameters.
 
   **face_quality_measures: List[FaceQualityMeasure], optional**
-  : List of face quality measures for surface quality diagnostics.
+
+  List of face quality measures for surface quality diagnostics.
 
   **scope: ScopeDefinition, optional**
-  : Scope the face zonelets for surface quality diagnostics.
+
+  Scope the face zonelets for surface quality diagnostics.
 
   **quality_limit: Iterable[float], optional**
-  : Quality limit per face quality measure. If the quality limit is not specified, the default quality limit is used.
+
+  Quality limit per face quality measure. If the quality limit is not specified, the default quality limit is used.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SurfaceQualitySummaryParams` object with provided parameters.
+
+  JSON dictionary to create a `SurfaceQualitySummaryParams` object with provided parameters.
 
 ### Examples
 
