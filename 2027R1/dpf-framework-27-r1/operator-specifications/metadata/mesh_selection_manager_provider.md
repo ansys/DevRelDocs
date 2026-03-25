@@ -2,6 +2,8 @@
 category: metadata
 plugin: core
 license: None
+namespaces:
+  mapdl: [dsub, rdsp, rfrq, rst, rstp, rth]
 ---
 
 # metadata:mesh selection manager provider

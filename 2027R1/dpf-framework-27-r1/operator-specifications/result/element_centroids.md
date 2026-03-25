@@ -2,6 +2,8 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  mapdl: [rst, rstp, rth]
 ---
 
 # result:undeformed mesh element centroids

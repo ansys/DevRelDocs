@@ -2,6 +2,8 @@
 category: mesh
 plugin: core
 license: None
+namespaces:
+  mapdl: [rst, rstp]
 ---
 
 # mesh:beam properties

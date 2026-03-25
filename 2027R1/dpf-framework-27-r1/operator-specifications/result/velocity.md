@@ -2,6 +2,11 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  cff: [cas, flprj]
+  hdf5: [h5dpf]
+  lsdyna: [d3plot, d3psd, d3ssd, lsda, moddynout]
+  mapdl: [cms, mode, rdsp, rst, rstp]
 ---
 
 # result:velocity

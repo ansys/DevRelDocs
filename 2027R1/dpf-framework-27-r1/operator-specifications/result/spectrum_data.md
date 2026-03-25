@@ -2,6 +2,8 @@
 category: result
 plugin: mapdl
 license: None
+namespaces:
+  mapdl: [mode, prs]
 ---
 
 # result:spectrum data

@@ -2,6 +2,9 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  lsdyna: [moddynout]
+  mapdl: [rdsp, rfrq]
 ---
 
 # result:nodal force

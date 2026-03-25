@@ -2,6 +2,8 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  mapdl: [cms, mode]
 ---
 
 # result:modal basis

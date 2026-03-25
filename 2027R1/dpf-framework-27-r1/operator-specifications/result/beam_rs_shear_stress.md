@@ -2,6 +2,9 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  hdf5: [h5dpf]
+  lsdyna: [d3plot]
 ---
 
 # result:beam RS shear stress (LSDyna)

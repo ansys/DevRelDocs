@@ -2,6 +2,8 @@
 category: metadata
 plugin: core
 license: None
+namespaces:
+  mapdl: [cms, mode, rdsp, rfrq, rst, rstp, rth]
 ---
 
 # metadata:boundary condition provider

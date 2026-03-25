@@ -2,6 +2,10 @@
 category: metadata
 plugin: core
 license: None
+namespaces:
+  cff: [cas, flprj]
+  cgns: [cgns]
+  lsdyna: [d3plot]
 ---
 
 # metadata:mesh info provider

@@ -2,6 +2,10 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  hdf5: [h5dpf]
+  lsdyna: [binout, d3plot, d3psd, d3ssd, moddynout]
+  mapdl: [cms, dsub, mode, rdsp, rfrq, rst, rstp]
 ---
 
 # result:displacement

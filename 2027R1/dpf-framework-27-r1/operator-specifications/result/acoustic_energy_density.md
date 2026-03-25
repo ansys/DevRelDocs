@@ -2,6 +2,8 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  mapdl: [rst]
 ---
 
 # result:Average acoustic energy density in room acoustics

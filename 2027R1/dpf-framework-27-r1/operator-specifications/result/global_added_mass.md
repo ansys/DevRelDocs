@@ -2,6 +2,9 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  hdf5: [h5dpf]
+  lsdyna: [binout]
 ---
 
 # result:global added mass (LSDyna)

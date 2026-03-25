@@ -2,6 +2,8 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  mapdl: [rst, rstp]
 ---
 
 # result:plastic state variable

@@ -2,6 +2,11 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  cff: [cas, flprj]
+  hdf5: [h5dpf]
+  lsdyna: [d3plot]
+  mapdl: [rst, rstp, rth]
 ---
 
 # result:temperature

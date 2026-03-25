@@ -2,6 +2,9 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  hdf5: [h5dpf]
+  mapdl: [rst, rstp, rth]
 ---
 
 # result:state variable

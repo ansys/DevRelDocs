@@ -2,6 +2,10 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  cgns: [cgns]
+  hdf5: [h5dpf]
+  mapdl: [rst]
 ---
 
 # result:pressure

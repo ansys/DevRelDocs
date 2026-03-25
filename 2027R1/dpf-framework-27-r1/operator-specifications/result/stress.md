@@ -2,6 +2,10 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  hdf5: [h5dpf]
+  lsdyna: [binout, d3plot, d3psd, d3ssd]
+  mapdl: [cms, mode, rst, rstp]
 ---
 
 # result:stress
