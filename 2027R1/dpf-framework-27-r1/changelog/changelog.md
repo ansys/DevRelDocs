@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-16).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-28).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -14,9 +14,10 @@ The following table shows which components have updates in each category.
 | cff | [2 items](#Features_cff) |[4 items](#Fixes_cff) |
 | cgns | [1 item](#Features_cgns) | |
 | changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
-| ci | [1 item](#Features_ci) |[2 items](#Fixes_ci) |
+| ci | [1 item](#Features_ci) |[3 items](#Fixes_ci) |
 | compression | [3 items](#Features_compression) |[1 item](#Fixes_compression) |
 | core |  |[1 item](#Fixes_core) |
+| cs | [2 items](#Features_cs) | |
 | cyclic | [1 item](#Features_cyclic) | |
 | doc | [2 items](#Features_doc) |[1 item](#Fixes_doc) |
 | documentation | [1 item](#Features_documentation) |[2 items](#Fixes_documentation) |
@@ -24,7 +25,7 @@ The following table shows which components have updates in each category.
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils | [2 items](#Features_femutils) |[14 items](#Fixes_femutils) |
+| femutils | [3 items](#Features_femutils) |[14 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
 | framework | [2 items](#Features_framework) |[6 items](#Fixes_framework) |
 | grpc | [1 item](#Features_grpc) |[3 items](#Fixes_grpc) |
@@ -33,22 +34,22 @@ The following table shows which components have updates in each category.
 | hdf5 | [7 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
 | hgp | [5 items](#Features_hgp) |[2 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
-| kernel | [3 items](#Features_kernel) |[9 items](#Fixes_kernel) |
+| kernel | [3 items](#Features_kernel) |[10 items](#Fixes_kernel) |
 | lsdyna | [2 items](#Features_lsdyna) | |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [15 items](#Features_mapdl) |[41 items](#Fixes_mapdl) |
+| mapdl | [16 items](#Features_mapdl) |[44 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [12 items](#Features_math) |[1 item](#Fixes_math) |
 | mechanical | [2 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
-| mesh |  |[3 items](#Fixes_mesh) |
-| misc | [13 items](#Features_misc) |[19 items](#Fixes_misc) |
+| mesh | [1 item](#Features_mesh) |[3 items](#Fixes_mesh) |
+| misc | [14 items](#Features_misc) |[21 items](#Fixes_misc) |
 | multiphysicsmapper |  |[5 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [5 items](#Features_native) |[15 items](#Fixes_native) |
+| native | [7 items](#Features_native) |[18 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
-| prime | [3 items](#Features_prime) | |
+| prime | [4 items](#Features_prime) |[1 item](#Fixes_prime) |
 | pydpf |  |[1 item](#Fixes_pydpf) |
 | refactor | [1 item](#Features_refactor) | |
 | rotation |  |[1 item](#Fixes_rotation) |
@@ -193,6 +194,9 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
+
+- React to change in CFFSDK:
+  > 
 ## compression
 ### <a id="Features_compression"></a> Features
 
@@ -235,6 +239,23 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
+## cs
+### <a id="Features_cs"></a> Features
+
+- Add the GenericDataContainer type to the C# API:
+  > Add the GenericDataContainer type to the C# API.
+  >
+  > 
+  >
+  > 
+
+- Expose the Any type to C#:
+  > Expose type Any in the C# API.
+  >
+  > 
+  >
+  > 
+
 ## cyclic
 ### <a id="Features_cyclic"></a> Features
 
@@ -382,6 +403,9 @@ The following table shows which components have updates in each category.
 
 ## femutils
 ### <a id="Features_femutils"></a> Features
+
+- Use ScopingIterators and eliminate GetIds calls in Ans.Dpf.FEMUtils:
+  > 
 
 - Switch from_scoping to entry:
   > Switch mesh::by_scopings op to public
@@ -829,6 +853,13 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_kernel"></a> Fixes
 
+- Use absolute paths in the linux server launcher script:
+  > 
+  >
+  > 
+  >
+  > 
+
 - Speed-up hasEntity API:
   > 
 
@@ -912,6 +943,13 @@ The following table shows which components have updates in each category.
 
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
+
+- CMS nodal results to be filtered:
+  > CMS nodal results to be filtered. For example, if user request rotation results, they will only be provided on nodes of elements having the rotations degree of freedom.
+  >
+  > 
+  >
+  > 
 
 - Freeing license of mapdl_section_properties:
   > Freeing license of `mapdl_section_properties`.
@@ -1025,6 +1063,23 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Register corner_nodes_mapping_provider:
+  > 
+  >
+  > 
+
+- Fix filtering of EUL for high-order old generation elements:
+  > Fix filtering of euler angles for high-order old generation elements
+  >
+  > 
+  >
+  > 
+
+- PreProcess Mode Shapes record positions:
+  > 
+  >
+  > 
 
 - Wrong update concerning shell layers:
   > Wrong update is done while looping over elemental results concerning shell layer. We update the number of shell layer when this is not allowed regarding the post process that is done after reading the result.
@@ -1455,6 +1510,12 @@ The following table shows which components have updates in each category.
   >
   > 
 ## mesh
+### <a id="Features_mesh"></a> Features
+
+- Complete usage of ScopingIterators and eliminate GetIds calls in meshOperators:
+  > 
+  >
+  > 
 
 ### <a id="Fixes_mesh"></a> Fixes
 
@@ -1630,7 +1691,19 @@ The following table shows which components have updates in each category.
   >
   > 
 
+- Set result name for fields container (#258):
+  > 
+
 ### <a id="Fixes_misc"></a> Fixes
+
+- Restored a number of error messages:
+  > 
+  >
+  > Restored some error messages.
+  >
+  > 
+  >
+  > 
 
 - EShellLayerPin correct bool to int:
   > Correct a bug from previous PR merge this pin is an int, not a bool
@@ -1786,6 +1859,9 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
+
+- Critical fixes in LSDYNAStream (#259):
+  > 
 ## multiphysicsmapper
 
 ### <a id="Fixes_multiphysicsmapper"></a> Fixes
@@ -1837,6 +1913,18 @@ The following table shows which components have updates in each category.
 ## native
 ### <a id="Features_native"></a> Features
 
+- Complete usage of ScopingIterators and eliminate GetIds calls in Ans.Dpf.Native:
+  > 
+  >
+  > 
+
+- Add API operator to set name:
+  > To add consistency in the way we set result name for FieldsContainer and Fields, an API operator is implemented and exposed HGP side to be used in the HGP plugins as an API.
+  >
+  > 
+  >
+  > 
+
 - Added "generic_data_container::get_attribute" and "generic_data_container::set_attribute":
   > Added the following APIs for Generic Data Container
   >
@@ -1877,6 +1965,23 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Enable float comparison (time frequency precision) in the compute time scoping operator':
+  > Reverting PR since a better approach has been found.
+  >
+  > 
+
+- Enable float comparison (time frequency precision) in the compute time scoping operator:
+  > Added pin to enable float comparison.
+  >
+  > 
+
+- Docstring GetFieldsContainerAttribute:
+  > Fix the docstring in GetFieldsContainerAttribute operator.
+  >
+  > 
+  >
+  > 
 
 - Inconsistency with elshape treatment  in scoping::by_property op.:
   > When we have shell, solid and skin elements in mesh and perform a scoping::by_property, we observed inconsistency in the way we expose elshape depending if:
@@ -2034,6 +2139,11 @@ The following table shows which components have updates in each category.
 ## prime
 ### <a id="Features_prime"></a> Features
 
+- Adding algorithm options and multithreading:
+  > Addition of algorithm options, multithreading and error messages to the Prime - DPF operators.
+  >
+  > 
+
 - Add TimeFreqSupport as input in morph_field_from_files operator:
   > 
   >
@@ -2049,6 +2159,12 @@ The following table shows which components have updates in each category.
   >
   > 
 
+### <a id="Fixes_prime"></a> Fixes
+
+- Restoring parallelization config options:
+  > Restoring parallelization config options, when applies.
+  >
+  > 
 ## pydpf
 
 ### <a id="Fixes_pydpf"></a> Fixes
@@ -2253,7 +2369,20 @@ The following table shows which components have updates in each category.
 #### mapping
 
 - [apply_mechanical_native_mapping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/apply_mechanical_native_mapping.md):
-  > Maps source data from source mesh to target mesh (computes interpolation).This operator needs to be used with the prepare mechanical native mapping associated one.
+  > 
+  > Applies pre-computed mapping weights to interpolate field data from a source mesh to a target mesh.
+  > This is the second stage of the two-stage native mapping workflow; use `prepare_mechanical_native_mapping` (or a dedicated prepare operator) to compute the weights first.
+  > 
+  > For each target point $j$, the interpolated value is:
+  > 
+  > $$
+  > u_{\text{target}}^{(j)} = \sum_{i \in S(j)} w_{ij} \cdot u_{\text{source}}^{(i)}
+  > $$
+  > 
+  > where $S(j)$ is the set of source points influencing target point $j$, and $w_{ij}$ are algorithm-specific weights: shape function values (shape function algorithms), barycentric coordinates or inverse-distance values (point cloud algorithms), or optimal linear predictors (kriging).
+  > 
+  > For further details on the algorithms and their settings, see the Ansys Mechanical help page on
+  > [Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html).
 
 - [create_mech_kriging_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/create_mech_kriging_workflow.md):
   > Prepares a workflow able to map data from an input mesh to a target mesh.
@@ -2271,34 +2400,85 @@ The following table shows which components have updates in each category.
   > Prepares a workflow able to map data from an input mesh to a target mesh.
 
 - [prepare_mechanical_native_mapping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/prepare_mechanical_native_mapping.md):
-  > Prepare mapping of source data from source mesh to target mesh by operating the source_mesh/target_mesh weights computation. This operator needs to be used with the apply mechanical native mapping associated one. At least one of the optional DataTree inputs need to be set, in order to chose the mapping algorithm and set the mapping options.
+  > Prepares the interpolation weights for mapping source field data from a source mesh to a target mesh.
+  > This operator delegates to one of the dedicated algorithm operators (shape function volumes, shape function surfaces, point cloud, or kriging) depending on which DataTree input pin is provided.
+  > At least one of the `*_mapping` algorithm DataTree inputs (pins 30-33) must be set to choose the mapping algorithm and supply its options.
+  > This operator must be used together with the associated `apply_mechanical_native_mapping` operator.
+  > 
+  > For further details on the available algorithms and their settings, see the Ansys Mechanical help page on [Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html).
 
 - [prepare_mechanical_native_mapping_kriging](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/prepare_mechanical_native_mapping_kriging.md):
-  > Prepare mapping of source data from source mesh to target mesh by operating the source_mesh/target_mesh weights computation.
+  > Prepares field data mapping from a source mesh to a target mesh using **kriging interpolation**, a geostatistical method that assigns weights to nearby source points based on spatial covariance. Use this operator with `apply_mechanical_native_mapping`.
   > 
-  > This operator will use a point kriging algorithm. Kriging is a regression-based interpolation technique that assigns weights to surrounding source points according to their spatial covariance values.
+  > **Ansys Mechanical equivalent**: Weighting = *Kriging*.
   > 
-  > The algorithm combines the Kriging model with a polynomial model to capture local and global deviations:
-  > - The Kriging model interpolates the source points based on their localized deviations.
-  > - The polynomial model globally approximates the source space.
-  > 
-  > Note:
-  > - By default, the Kriging technique uses an adaptive algorithm and ensures that the interpolated values do not exceed specific limits
-  > .- The adaptive algorithm starts by using the higher-order Cross Quadratic polynomial to interpolate data. If the interpolated value of each target point is outside the extrapolation limit you specified, the algorithm re-interpolates data by reducing the polynomial order and the number of source points.
-  > - Target nodes whose values are outside the limits when the lowest polynomial type is used are not assigned a value.
-  > - The Kriging algorithm, when used with the higher-order Cross Quadratic or Pure Quadratic polynomial, may fail to correctly interpolate data for a target point if multiple source points are spaced close to one another or if the target point is outside the region enclosed by the source points that are selected for interpolation. This may introduce gross errors in the estimation of the target value and manifests itself mostly when mapping data on surface or edge geometries.
-  > - In such cases, you should change the Polynomial Type to Constant or Linear and, if necessary, reduce the number of source points to be included for the interpolation.
-  > 
-  > This operator needs to be used with the apply mechanical native mapping associated one.
+  > For further details on the algorithm and its settings, see the Ansys Mechanical help page on [Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html).
 
 - [prepare_mechanical_native_mapping_point_cloud](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/prepare_mechanical_native_mapping_point_cloud.md):
-  > Prepare mapping of source data from source mesh to target mesh by operating the source_mesh/target_mesh weights computation. This operator will use a point cloud based algorithm. This operator needs to be used with the apply mechanical native mapping associated one.
+  > 
+  > Prepares field data mapping from source mesh to target mesh using **point cloud interpolation** — a scattered-data
+  > approximation method that constructs interpolation weights from spatial proximity relationships without requiring mesh
+  > connectivity. Use it together with `apply_mechanical_native_mapping`.
+  > 
+  > For each target point $\mathbf{x}_t$, the interpolated value is:
+  > 
+  > $$
+  > u(\mathbf{x}_t) = \sum_{i=1}^{N_s} w_i(\mathbf{x}_t) \cdot u_i
+  > $$
+  > 
+  > where $u_i$ are the source field values, $w_i$ are normalized distance-based weights, and $N_s$ is the number of
+  > source neighbors (controlled by `search_limit`). See the individual pin descriptions for the available weighting
+  > schemes, outside-point strategies, and geometry options.
+  > 
+  > **Ansys Mechanical equivalent**: Weighting = *Triangulation* (use `weighting_type = "triangulation"`) or Weighting = *Distance Based Average* (use `weighting_type = "weighted_average"`).
+  > 
+  > For further details on the algorithm and its settings, see the Ansys Mechanical help page on
+  > [Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html).
 
 - [prepare_mechanical_native_mapping_shape_functions_for_surfaces](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces.md):
-  > Prepare mapping of source data from source mesh to target mesh by operating the source_mesh/target_mesh weights computation. This operator will use the shape functions of the elements. This operator is meant for surfaces elements. This operator needs to be used with the apply mechanical native mapping associated one.
+  > 
+  > Prepares field data mapping from source mesh to target mesh using **finite element shape functions** for **surface
+  > elements** (shells and membranes). This operator computes interpolation weights by locating target points
+  > within source surface elements and evaluating isoparametric shape functions at the reduced coordinates. This operator
+  > must be used in conjunction with `apply_mechanical_native_mapping`.
+  > 
+  > ##### Shape function interpolation for surfaces
+  > 
+  > For surface elements, the field value at any point $\mathbf{x}$ within an element is interpolated using:
+  > 
+  > $$
+  > u(\mathbf{x}) = \sum_{i=1}^{N_{\text{nodes}}} N_i(\xi, \eta) \cdot u_i
+  > $$
+  > 
+  > where:
+  > - $N_i(\xi, \eta)$ are the 2D isoparametric shape functions
+  > - $(\xi, \eta)$ are the reduced (natural) coordinates in the reference element $[-1, 1]^2$
+  > - $u_i$ are the nodal field values
+  > - $N_{\text{nodes}}$ is the number of nodes per element (3, 4, 6, 8, etc.)
+  > 
+  > ##### Comparison with volume shape functions
+  > 
+  > - **Reduced coordinate dimension**: 2D $(\xi, \eta)$ vs 3D $(\xi, \eta, \zeta)$ for volume elements
+  > - **Target input**: surface operator requires a **meshed_region** target; volume operator also accepts a field
+  > - **Additional proximity controls**: surface operator supports normal distance checking (pins 15-16) and a
+  >   pinball region (pins 17-20), which are not available for volumes
+  > 
+  > **Ansys Mechanical equivalent**: Weighting = *Shape Function*, Transfer Type = *Surface*.
+  > Note: this mode only supports triangle and quadrilateral source elements.
+  > 
+  > For further details on the algorithm and its settings, see the Ansys Mechanical help page on
+  > [Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html).
 
 - [prepare_mechanical_native_mapping_shape_functions_for_volume](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_volume.md):
-  > Prepare mapping of source data from source mesh to target mesh by operating the source_mesh/target_mesh weights computation. This operator will use the shape functions of the elements. This operator is meant for volume elements but can also be used with surfaces elements. This operator needs to be used with the apply mechanical native mapping associated one.
+  > Prepares field data mapping from source mesh to target mesh using **finite element shape functions** on volume elements (hexahedra, tetrahedra, wedges, pyramids).
+  > 
+  > Each target point is located within a source element and the field value is interpolated using 3D isoparametric shape functions at the corresponding reduced coordinates.
+  > 
+  > Note: shape functions near the apex of pyramid elements exhibit singular behaviour and may produce errors for target points close to the apex. Use this operator with `apply_mechanical_native_mapping`.
+  > 
+  > **Ansys Mechanical equivalent**: Weighting = *Shape Function*, Transfer Type = *Volumetric*.
+  > 
+  > For further details on the algorithm and its settings, see the Ansys Mechanical help page on [Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html).
 
 - [sc_mapping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/sc_mapping.md):
   > Apply System Coupling to map data from an input mesh to a target mesh.
@@ -2584,6 +2764,21 @@ The following table shows which components have updates in each category.
 
 #### averaging
 
+- [elemental_difference](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_difference.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [elemental_mean](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_mean.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [elemental_mean_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_mean_fc.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
 - [elemental_nodal_to_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_nodal_to_nodal.md)
 
   > 0.0.1: Fixed issue with semiparabolic elements.
@@ -2591,6 +2786,13 @@ The following table shows which components have updates in each category.
   > 0.0.2: Midside nodes included in the input scoping are now properly averaged regardless of the presence of its parent corner nodes.
 
   > 0.0.3: Improving memory management.
+
+  > 0.0.4: Internal refactoring to use Scoping Iterators.
+
+
+- [elemental_nodal_to_nodal_elemental](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_nodal_to_nodal_elemental.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
 - [elemental_nodal_to_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_nodal_to_nodal_fc.md)
@@ -2601,10 +2803,24 @@ The following table shows which components have updates in each category.
 
   > 0.0.3: Improving memory management.
 
+  > 0.0.4: Internal refactoring to use Scoping Iterators.
+
+
+- [elemental_to_elemental_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_to_elemental_nodal.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [elemental_to_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_to_nodal.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
 
 - [elemental_to_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_to_nodal_fc.md)
 
   > 0.0.1: Fixed shell management issue.
+
+  > 0.0.2: Internal refactoring to use Scoping Iterators.
 
 
 - [force_summation](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/force_summation.md)
@@ -2614,6 +2830,8 @@ The following table shows which components have updates in each category.
   > 0.2.0: Add support for excluding or not contact elements.
 
   > 1.0.0: The moment unit is now kept from the input units and not converted to N.m.
+
+  > 1.0.1: Internal refactoring to use Scoping Iterators.
 
 
 - [force_summation_psd](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/force_summation_psd.md)
@@ -2625,11 +2843,33 @@ The following table shows which components have updates in each category.
   > 1.0.0: The moment unit is now kept from the input units and not converted to N*m.
 
 
+- [gauss_to_node_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/gauss_to_node_fc.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [nodal_difference](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/nodal_difference.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [nodal_fraction_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/nodal_fraction_fc.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [nodal_to_elemental](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/nodal_to_elemental.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
 - [nodal_to_elemental_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/nodal_to_elemental_nodal.md)
 
   > 0.0.1: Fixed issue with resize output field.
 
   > 0.1.0: Add option to extend to midside nodes.
+
+  > 0.1.1: Internal refactoring to use Scoping Iterators.
 
 
 - [nodal_to_elemental_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/nodal_to_elemental_nodal_fc.md)
@@ -2637,6 +2877,18 @@ The following table shows which components have updates in each category.
   > 0.0.1: Fixed issue with resize output fields.
 
   > 0.1.0: Add option to extend to midside nodes.
+
+  > 0.1.1: Internal refactoring to use Scoping Iterators.
+
+
+- [to_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/to_nodal.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [to_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/to_nodal_fc.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
 
@@ -2647,8 +2899,143 @@ The following table shows which components have updates in each category.
   > 0.0.1: Fixed bug in frequency calculation with multiple rpms in the support.
 
 
+- [field_band_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/field_band_pass.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [field_band_pass_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/field_band_pass_fc.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [field_high_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/field_high_pass.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [field_high_pass_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/field_high_pass_fc.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [field_low_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/field_low_pass.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [field_low_pass_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/field_low_pass_fc.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [field_signed_high_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/field_signed_high_pass.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [field_signed_high_pass_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/field_signed_high_pass_fc.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [scoping_band_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/scoping_band_pass.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [scoping_high_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/scoping_high_pass.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [scoping_low_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/scoping_low_pass.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [scoping_signed_high_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/scoping_signed_high_pass.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [timefreq_band_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/timefreq_band_pass.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [timefreq_high_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/timefreq_high_pass.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [timefreq_low_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/timefreq_low_pass.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [timefreq_signed_high_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/timefreq_signed_high_pass.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [timescoping_band_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/timescoping_band_pass.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [timescoping_high_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/timescoping_high_pass.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [timescoping_low_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/timescoping_low_pass.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [timescoping_signed_high_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/timescoping_signed_high_pass.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
 
 #### geo
+
+- [element_nodal_contribution](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/element_nodal_contribution.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [elements_facets_surfaces_over_time](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/elements_facets_surfaces_over_time.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [elements_volume](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/elements_volume.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [elements_volumes_over_time](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/elements_volumes_over_time.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [gauss_to_node](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/gauss_to_node.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [integrate_over_elements](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/integrate_over_elements.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [normals](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/normals.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
 
 - [normals_provider_nl](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/normals_provider_nl.md)
 
@@ -2656,10 +3043,14 @@ The following table shows which components have updates in each category.
 
   > 1.0.0: Fixed reference coordinate-system on which normals are calculated.
 
+  > 1.0.1: Internal refactoring to use Scoping Iterators.
+
 
 - [rotate_in_cylindrical_cs](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/rotate_in_cylindrical_cs.md)
 
   > 1.0.0: Fix bug for the rotation of strain fields with a cylindrical system whose axis is rotated.
+
+  > 1.0.1: Internal refactoring to use Scoping Iterators.
 
 
 
@@ -2678,11 +3069,33 @@ The following table shows which components have updates in each category.
 
 #### logic
 
+- [ascending_sort](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/logic/ascending_sort.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [ascending_sort_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/logic/ascending_sort_fc.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [descending_sort](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/logic/descending_sort.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [descending_sort_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/logic/descending_sort_fc.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
 - [elementary_data_selector](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/logic/elementary_data_selector.md)
 
   > 0.1.0: fix of crash when input field data pointer is empty, the operator will output an empty field in this case moving forward.
 
   > 0.2.0: fix of crash when input field had no data pointer, the operator will output an empty field in this case moving forward.
+
+  > 0.2.1: Internal refactoring to use Scoping Iterators.
 
 
 - [solid_shell_fields](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/logic/solid_shell_fields.md)
@@ -2698,6 +3111,8 @@ The following table shows which components have updates in each category.
   > 0.1.0: Fix bug with interpolation points at corner nodes.
 
   > 0.1.1: Update the operator and pin descriptions.
+
+  > 0.1.2: Internal refactoring to use Scoping Iterators.
 
 
 - [on_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/on_coordinates.md)
@@ -2715,10 +3130,17 @@ The following table shows which components have updates in each category.
 
   > 0.0.1: Update the operator and pin descriptions.
 
+  > 0.0.2: Internal refactoring to use Scoping Iterators.
+
 
 - [prepare_mapping_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/prepare_mapping_workflow.md)
 
   > 0.0.1: Update the operator and pin descriptions.
+
+
+- [scoping_on_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/scoping_on_coordinates.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
 - [solid_to_skin](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/solid_to_skin.md)
@@ -2732,6 +3154,8 @@ The following table shows which components have updates in each category.
   > 0.2.2: Fixed issue with shell layers calculation in the results field while having mid-side nodes on some elements.
 
   > 0.2.3: Improve the operator and pin descriptions.
+
+  > 0.2.4: Internal refactoring to use Scoping Iterators.
 
 
 - [solid_to_skin_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/solid_to_skin_fc.md)
@@ -2784,9 +3208,34 @@ The following table shows which components have updates in each category.
 Upgraded documentation
 
 
+- [entity_extractor](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/entity_extractor.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
 - [expansion_psd](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/expansion_psd.md)
 
   > 0.0.1: Fix handling of empty fields in mode shapes.
+
+
+- [mac](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/mac.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [make_one_on_comp](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/make_one_on_comp.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [modal_participation](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/modal_participation.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [outer_product](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/outer_product.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
 - [pow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/pow.md)
@@ -2824,8 +3273,23 @@ Upgraded documentation
   > 0.0.1: Clarify the documentation.
 
 
+- [time_freq_interpolation](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/time_freq_interpolation.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
 
 #### mesh
+
+- [combine_levelset](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/combine_levelset.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [exclude_levelset](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/exclude_levelset.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
 
 - [from_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/from_scoping.md)
 
@@ -2843,6 +3307,8 @@ Upgraded documentation
 
   > 0.3.0: From premium to entry.
 
+  > 0.3.1: Internal refactoring to use Scoping Iterators.
+
 
 - [from_scopings](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/from_scopings.md)
 
@@ -2853,14 +3319,36 @@ Upgraded documentation
   > 0.1.0: Improvement in the performance for cases with non shared scoping between property fields and mesh.
 
 
+- [make_plane_levelset](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/make_plane_levelset.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [make_sphere_levelset](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/make_sphere_levelset.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
 - [mesh_extraction](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/mesh_extraction.md)
 
   > 1.0.0: Property fields associated to the mesh are rescoped on the selection and associated to the new mesh.
+
+  > 1.0.1: Internal refactoring to use Scoping Iterators.
 
 
 - [mesh_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/mesh_provider.md)
 
   > 0.1.0: Update the effect of the permissive configuration.
+
+
+- [mesh_to_graphics](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/mesh_to_graphics.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [mesh_to_graphics_edges](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/mesh_to_graphics_edges.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
 - [mesh_to_pyvista](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/mesh_to_pyvista.md)
@@ -2873,11 +3361,21 @@ Upgraded documentation
   > 0.1.0: Update the effect of the permissive configuration.
 
 
+- [points_from_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/points_from_coordinates.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
 - [skin](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/skin.md)
 
   > 0.0.1: Fixing issue related to share pointers of property fields and mesh.
 
   > 0.0.2: Internal change to share pointers of property fields and mesh.
+
+
+- [split_fields](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/split_fields.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
 - [split_mesh](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/split_mesh.md)
@@ -2895,6 +3393,8 @@ Upgraded documentation
 
   > 0.1.1: Operator now supports shell and beam elements.
 
+  > 0.1.2: Internal refactoring to use Scoping Iterators.
+
 
 
 #### metadata
@@ -2904,9 +3404,19 @@ Upgraded documentation
   > 0.0.1: Improved documentation and exceptions handling.
 
 
+- [cyclic_mesh_expansion](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/metadata/cyclic_mesh_expansion.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
 - [element_types_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/metadata/element_types_provider.md)
 
   > 0.1.0: Added the possibility to output a PropertyField.
+
+
+- [integrate_over_time_freq](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/metadata/integrate_over_time_freq.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
 - [streams_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/metadata/streams_provider.md)
@@ -2917,6 +3427,21 @@ Upgraded documentation
 - [time_freq_support_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/metadata/time_freq_support_get_attribute.md)
 
   > 0.1.0: Add new supported property name 'step_id_from_harmonic_index' returning an int.
+
+  > 0.1.1: Internal refactoring to use Scoping Iterators.
+
+
+
+#### min_max
+
+- [min_max_fc_inc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/min_max/min_max_fc_inc.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [min_max_over_time_by_entity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/min_max/min_max_over_time_by_entity.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
 
@@ -3137,6 +3662,11 @@ Upgraded documentation
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
+- [euler_load_buckling](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/euler_load_buckling.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
 - [gasket_inelastic_closure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/gasket_inelastic_closure.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
@@ -3192,6 +3722,11 @@ Upgraded documentation
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
+- [mapdl.global_to_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/mapdl.global_to_nodal.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
 - [mapdl.pres_to_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/mapdl.pres_to_field.md)
 
   > 0.0.1: Fix crash caused by invalid iterator when reading shell data.
@@ -3202,6 +3737,21 @@ Upgraded documentation
   > 0.0.1: Making the operator license-free.
 
 
+- [members_in_bending_not_certified](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/members_in_bending_not_certified.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [members_in_compression_not_certified](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/members_in_compression_not_certified.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [members_in_linear_compression_bending_not_certified](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/members_in_linear_compression_bending_not_certified.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
 - [nmisc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/nmisc.md)
 
   > 1.0.0: num_components input pin is removed, please use the item_index pin with a vector of indexes.
@@ -3210,6 +3760,8 @@ Upgraded documentation
 - [nodal_to_global](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/nodal_to_global.md)
 
   > 0.1.0: Addition of optional inverse_rotation pin.
+
+  > 0.1.1: Internal refactoring to use Scoping Iterators.
 
 
 - [num_surface_status_changes](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/num_surface_status_changes.md)
@@ -3418,33 +3970,60 @@ Upgraded documentation
 
   > 1.0.0: The torque unit is now kept from the input units and not converted to N*m.
 
+  > 1.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [transient_rayleigh_integration](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/transient_rayleigh_integration.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
 
 
 #### scoping
 
+- [intersect](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/intersect.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
 - [on_property](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/on_property.md)
 
   > 1.0.0: Remove pin "inclusive"
+
+  > 1.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [reduce_sampling](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/reduce_sampling.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
 - [rescope](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/rescope.md)
 
   > 0.1.0: Performance improvement.
 
+  > 0.1.1: Internal refactoring to use Scoping Iterators.
+
 
 - [rescope_custom_type_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/rescope_custom_type_field.md)
 
   > 0.1.0: Performance improvement.
+
+  > 0.1.1: Internal refactoring to use Scoping Iterators.
 
 
 - [rescope_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/rescope_fc.md)
 
   > 0.1.0: Performance improvement.
 
+  > 0.1.1: Internal refactoring to use Scoping Iterators.
+
 
 - [rescope_property_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/rescope_property_field.md)
 
   > 0.1.0: Performance improvement.
+
+  > 0.1.1: Internal refactoring to use Scoping Iterators.
 
 
 - [transpose](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/transpose.md)
@@ -3454,6 +4033,8 @@ Upgraded documentation
   > 0.1.1: Error with license
 
   > 0.2.0: Added extend_midside_nodes input pin
+
+  > 0.2.1: Internal refactoring to use Scoping Iterators.
 
 
 
@@ -3469,17 +4050,57 @@ Upgraded documentation
   > 1.0.0: Fixed issue while writing csv with multiple fields and common time id between fields.
 
 
+- [workflow_to_pydpf](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/serialization/workflow_to_pydpf.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
 
 #### utility
+
+- [compute_time_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/compute_time_scoping.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
 
 - [extract_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/extract_scoping.md)
 
   > 0.0.1: Error with license
 
 
+- [extract_sub_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/extract_sub_fc.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [extract_sub_mc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/extract_sub_mc.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [extract_sub_sc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/extract_sub_sc.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [extract_time_freq](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/extract_time_freq.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [fc_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/fc_get_attribute.md)
+
+  > 0.1.0: Add new supported property names 'base_name' that returns a string and 'field_names' that returns a StringField.
+
+
+- [for_each](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/for_each.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
 - [forward](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/forward.md)
 
-  > 0.0.1: Add elipsis property to pins.
+  > 1.0.0: Add ellipsis property to pins.
 
 
 - [html_doc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/html_doc.md)
@@ -3494,11 +4115,46 @@ Upgraded documentation
   > 0.1.0: Add input pin 2 to specify an upper bound to create a scoping for a given range (taking single input in pin 0 as the lower bound).
 
 
+- [make_for_each_range](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/make_for_each_range.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [merge_materials](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/merge_materials.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [merge_meshes](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/merge_meshes.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [merge_scopings](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/merge_scopings.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [merge_time_freq_supports](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/merge_time_freq_supports.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
 - [producer_consumer_for_each](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/producer_consumer_for_each.md)
 
   > 0.1.0: Addition of events to monitor the status of the operator.
 
   > 0.2.0: Moving event of progress bar at the beggining of the loop and changing input stream.
+
+
+- [scalars_to_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/scalars_to_field.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [set_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/set_attribute.md)
+
+  > 0.1.0: Add new supported property names 'base_name' and 'field_names'.
 
 
 
