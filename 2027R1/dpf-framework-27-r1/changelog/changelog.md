@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-28).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-30).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -17,7 +17,7 @@ The following table shows which components have updates in each category.
 | ci | [1 item](#Features_ci) |[3 items](#Fixes_ci) |
 | compression | [3 items](#Features_compression) |[1 item](#Fixes_compression) |
 | core |  |[1 item](#Fixes_core) |
-| cs | [2 items](#Features_cs) | |
+| cs | [3 items](#Features_cs) | |
 | cyclic | [1 item](#Features_cyclic) | |
 | doc | [2 items](#Features_doc) |[1 item](#Fixes_doc) |
 | documentation | [1 item](#Features_documentation) |[2 items](#Fixes_documentation) |
@@ -37,7 +37,7 @@ The following table shows which components have updates in each category.
 | kernel | [3 items](#Features_kernel) |[10 items](#Fixes_kernel) |
 | lsdyna | [2 items](#Features_lsdyna) | |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [16 items](#Features_mapdl) |[44 items](#Fixes_mapdl) |
+| mapdl | [17 items](#Features_mapdl) |[45 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [12 items](#Features_math) |[1 item](#Fixes_math) |
@@ -46,7 +46,7 @@ The following table shows which components have updates in each category.
 | misc | [14 items](#Features_misc) |[21 items](#Fixes_misc) |
 | multiphysicsmapper |  |[5 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [7 items](#Features_native) |[18 items](#Fixes_native) |
+| native | [7 items](#Features_native) |[20 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [4 items](#Features_prime) |[1 item](#Fixes_prime) |
@@ -241,6 +241,13 @@ The following table shows which components have updates in each category.
   > 
 ## cs
 ### <a id="Features_cs"></a> Features
+
+- Expose StringField to the C# client API:
+  > Expose the StringField type to the DPF C# client API.
+  >
+  > 
+  >
+  > 
 
 - Add the GenericDataContainer type to the C# API:
   > Add the GenericDataContainer type to the C# API.
@@ -944,6 +951,15 @@ The following table shows which components have updates in each category.
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
 
+- Add Elemental Nodal MOMENT and HEAT operators:
+  > Creation of ENF_MOMENT and ENF_HEAT operators to read elemental nodal moment and heat from rst files.
+  >
+  > Deprecation of pin200 (split_force_components). Dofs components can be obtained with the specific operators and derivative orders can be obtained with component selector
+  >
+  > 
+  >
+  > 
+
 - CMS nodal results to be filtered:
   > CMS nodal results to be filtered. For example, if user request rotation results, they will only be provided on nodes of elements having the rotations degree of freedom.
   >
@@ -1063,6 +1079,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Use loading mesh descriptors:
+  > 
+  >
+  > 
 
 - Register corner_nodes_mapping_provider:
   > 
@@ -1966,6 +1987,18 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_native"></a> Fixes
 
+- B1437835, behavior change in reduce_sampling operator:
+  > 
+
+- Raise a specific error message when trying to import a non-existing file:
+  > 
+  >
+  > Raise an exception with the error message "The input file does not exist." when importing a non-existing workflow file
+  >
+  > 
+  >
+  > 
+
 - Enable float comparison (time frequency precision) in the compute time scoping operator':
   > Reverting PR since a better approach has been found.
   >
@@ -2619,6 +2652,74 @@ The following table shows which components have updates in each category.
   > Read/compute element nodal component creep strains 3rd principal component by calling the readers defined by the datasources and computing its eigen values.
   > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed. The off-diagonal strains are first converted from Voigt notation to the standard strain values.
 
+- [element_nodal_heat](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/element_nodal_heat.md):
+  > Read/compute element nodal heat by calling the readers defined by the datasources.
+  > - The 'requested_location' and 'mesh_scoping' inputs are processed to see if they need scoping transposition or result averaging. The resulting output fields have a 'Nodal', 'ElementalNodal' or 'Elemental' location.
+  > - Once the need for averaging has been detected, the behavior of the combined connection of the 'split_shells' and 'shell_layer' pins is:
+  > 
+  > | Averaging is needed | 'split_shells'      | 'shell_layer' | Expected output |
+  > |---------------------|---------------------|---------------|-----------------|
+  > | No                  | Not connected/false | Not connected | Location as in the result file. Fields with all element shapes combined. All shell layers present. |
+  > | No                  | true                | Not connected | Location as in the result file. Fields split according to element shapes. All shell layers present. |
+  > | No                  | true                | Connected     | Location as in the result file. Fields split according to element shapes. Only the requested shell layer present. |
+  > | No                  | Not connected/false | Connected     | Location as in the result file. Fields with all element shapes combined. Only the requested shell layer present. |
+  > | Yes                 | Not connected/true  | Not connected | Location as requested. Fields split according to element shapes. All shell layers present. |
+  > | Yes                 | false               | Not connected | Location as requested. Fields with all element shapes combined. All shell layers present. |
+  > | Yes                 | false               | Connected     | Location as requested. Fields with all element shapes combined. Only the requested shell layer present. |
+  > | Yes                 | Not connected/true  | Connected     | Location as requested. Fields split according to element shapes. Only the requested shell layer present. |
+  > - The available 'elshape' values are:
+  > 
+  > | elshape | Related elements |
+  > |---------|------------------|
+  > | 1       | Shell (generic)  |
+  > | 2       | Solid            |
+  > | 3       | Beam             |
+  > | 4       | Skin             |
+  > | 5       | Contact          |
+  > | 6       | Load             |
+  > | 7       | Point            |
+  > | 8       | Shell with 1 result across thickness (membrane) |
+  > | 9       | Shell with 2 results across thickness (top/bottom) |
+  > | 10      | Shell with 3 results across thickness (top/bottom/mid) |
+  > | 11      | Gasket          |
+  > | 12      | Multi-Point Constraint |
+  > | 13      | Pretension      |
+  > element_nodal_heat fields contain STATIC and DAMPING forces stored as components (when available). STATIC: component 0. DAMPING: component 1.
+
+- [element_nodal_moments](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/element_nodal_moments.md):
+  > Read/compute element nodal moments by calling the readers defined by the datasources.
+  > - The 'requested_location' and 'mesh_scoping' inputs are processed to see if they need scoping transposition or result averaging. The resulting output fields have a 'Nodal', 'ElementalNodal' or 'Elemental' location.
+  > - Once the need for averaging has been detected, the behavior of the combined connection of the 'split_shells' and 'shell_layer' pins is:
+  > 
+  > | Averaging is needed | 'split_shells'      | 'shell_layer' | Expected output |
+  > |---------------------|---------------------|---------------|-----------------|
+  > | No                  | Not connected/false | Not connected | Location as in the result file. Fields with all element shapes combined. All shell layers present. |
+  > | No                  | true                | Not connected | Location as in the result file. Fields split according to element shapes. All shell layers present. |
+  > | No                  | true                | Connected     | Location as in the result file. Fields split according to element shapes. Only the requested shell layer present. |
+  > | No                  | Not connected/false | Connected     | Location as in the result file. Fields with all element shapes combined. Only the requested shell layer present. |
+  > | Yes                 | Not connected/true  | Not connected | Location as requested. Fields split according to element shapes. All shell layers present. |
+  > | Yes                 | false               | Not connected | Location as requested. Fields with all element shapes combined. All shell layers present. |
+  > | Yes                 | false               | Connected     | Location as requested. Fields with all element shapes combined. Only the requested shell layer present. |
+  > | Yes                 | Not connected/true  | Connected     | Location as requested. Fields split according to element shapes. Only the requested shell layer present. |
+  > - The available 'elshape' values are:
+  > 
+  > | elshape | Related elements |
+  > |---------|------------------|
+  > | 1       | Shell (generic)  |
+  > | 2       | Solid            |
+  > | 3       | Beam             |
+  > | 4       | Skin             |
+  > | 5       | Contact          |
+  > | 6       | Load             |
+  > | 7       | Point            |
+  > | 8       | Shell with 1 result across thickness (membrane) |
+  > | 9       | Shell with 2 results across thickness (top/bottom) |
+  > | 10      | Shell with 3 results across thickness (top/bottom/mid) |
+  > | 11      | Gasket          |
+  > | 12      | Multi-Point Constraint |
+  > | 13      | Pretension      |
+  > element_nodal_moments fields contain STATIC, DAMPING and INERTIA forces stored as components (when available). STATIC: components 0 -> 2. DAMPING: components 3 -> 5. INERTIA components 6 -> 8
+
 - [fluid_velocity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/fluid_velocity.md):
   > Read/compute FV by calling the readers defined by the datasources.
 
@@ -2832,6 +2933,8 @@ The following table shows which components have updates in each category.
   > 1.0.0: The moment unit is now kept from the input units and not converted to N.m.
 
   > 1.0.1: Internal refactoring to use Scoping Iterators.
+
+  > 1.0.2: Internal refactoring to remove usage of deprecated pin 200 of ENF
 
 
 - [force_summation_psd](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/force_summation_psd.md)
@@ -3629,7 +3732,7 @@ Upgraded documentation
 
 - [element_nodal_forces](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/element_nodal_forces.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 0.1.0: split_force_components pin deprecated. To obtain rotation and temperature dofs please use the dedicated operator (element_nodal_moments, element_nodal_heat)Use the component selector to retrieve a specific derivative order. Components 0, 1 and 2 for stiffness. Components 3, 4 and 5 for damping. Components 6, 7 and 8 for inertia.
 
 
 - [element_orientations](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/element_orientations.md)

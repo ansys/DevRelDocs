@@ -935,6 +935,10 @@
       href: operator-specifications/result/element_centroids.md
     - name: element nodal forces
       href: operator-specifications/result/element_nodal_forces.md
+    - name: element nodal heat
+      href: operator-specifications/result/element_nodal_heat.md
+    - name: element nodal moments
+      href: operator-specifications/result/element_nodal_moments.md
     - name: element orientations
       href: operator-specifications/result/element_orientations.md
     - name: element orientations X

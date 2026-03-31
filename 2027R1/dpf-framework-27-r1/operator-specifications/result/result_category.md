@@ -114,6 +114,8 @@
 - [elemental volume](elemental_volume.md)
 - [element centroids](element_centroids.md)
 - [element nodal forces](element_nodal_forces.md)
+- [element nodal heat](element_nodal_heat.md)
+- [element nodal moments](element_nodal_moments.md)
 - [element orientations](element_orientations.md)
 - [element orientations X](element_orientations_X.md)
 - [element orientations Y](element_orientations_Y.md)

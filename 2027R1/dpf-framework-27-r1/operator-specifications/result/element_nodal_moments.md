@@ -4,13 +4,13 @@ plugin: core
 license: None
 ---
 
-# result:element nodal forces
+# result:element nodal moments
 
 **Version: 0.0.0**
 
 ## Description
 
-Read/compute element nodal forces by calling the readers defined by the datasources.
+Read/compute element nodal moments by calling the readers defined by the datasources.
 - The 'requested_location' and 'mesh_scoping' inputs are processed to see if they need scoping transposition or result averaging. The resulting output fields have a 'Nodal', 'ElementalNodal' or 'Elemental' location.
 - Once the need for averaging has been detected, the behavior of the combined connection of the 'split_shells' and 'shell_layer' pins is:
 
@@ -41,14 +41,14 @@ Read/compute element nodal forces by calling the readers defined by the datasour
 | 11      | Gasket          |
 | 12      | Multi-Point Constraint |
 | 13      | Pretension      |
-element_nodal_forces fields contain STATIC, DAMPING and INERTIA forces stored as components (when available). STATIC: components 0 -> 2. DAMPING: components 3 -> 5. INERTIA components 6 -> 8
+element_nodal_moments fields contain STATIC, DAMPING and INERTIA forces stored as components (when available). STATIC: components 0 -> 2. DAMPING: components 3 -> 5. INERTIA components 6 -> 8
 
 ## Supported file types
 
 This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
 
 - hdf5: h5dpf 
-- mapdl: cms, mode, rst, rstp, rth 
+- mapdl: mode, rst, rstp, rth 
 
 ## Inputs
 
@@ -74,7 +74,6 @@ Each parameter is detailed in the sections that follow the table.
 | <strong>26</strong> | [split_shells](#input_26) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>27</strong> | [shell_layer](#input_27) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>28</strong> | [extend_to_mid_nodes](#input_28) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>200</strong> | [split_force_components](#input_200) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
 
 
 <a id="input_0"></a>
@@ -205,14 +204,6 @@ If connected, this pin allows you to extract the result only on the selected she
 
 Compute mid nodes (when available) by averaging the neighbour corner nodes. Default: True
 
-<a id="input_200"></a>
-### split_force_components (Pin 200)
-
-- **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
-
-DEPRECATED. If this pin is set to true, the output fields container splits the ENF by degree of freedom ("dof" label, 0 for translation, 1 for rotation, 2 for temperature) and derivative order ("derivative_order" label, 0 for stiffness terms, 1 for damping terms and 2 for inertial terms). Default is false.
-
 
 ## Outputs
 
@@ -269,11 +260,11 @@ This operator can be accessed through scripting interfaces using these identifie
 
  **Plugin**: core
 
- **Scripting name**: element_nodal_forces
+ **Scripting name**: element_nodal_moments
 
- **Full name**: result.element_nodal_forces
+ **Full name**: result.element_nodal_moments
 
- **Internal name**: ENF
+ **Internal name**: ENF_Moment
 
  **License**: None
 
@@ -288,7 +279,7 @@ Each example shows how to instantiate the operator, connect the required inputs,
 ```cpp
 #include "dpf_api.h"
 
-ansys::dpf::Operator op("ENF"); // operator instantiation
+ansys::dpf::Operator op("ENF_Moment"); // operator instantiation
 op.connect(0, my_time_scoping);
 op.connect(1, my_mesh_scoping);
 op.connect(2, my_fields_container);
@@ -305,7 +296,6 @@ op.connect(22, my_read_beams);
 op.connect(26, my_split_shells);
 op.connect(27, my_shell_layer);
 op.connect(28, my_extend_to_mid_nodes);
-op.connect(200, my_split_force_components);
 ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
 ```
 </details>
@@ -316,7 +306,7 @@ ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::Field
 ```python
 import ansys.dpf.core as dpf
 
-op = dpf.operators.result.element_nodal_forces() # operator instantiation
+op = dpf.operators.result.element_nodal_moments() # operator instantiation
 op.inputs.time_scoping.connect(my_time_scoping)
 op.inputs.mesh_scoping.connect(my_mesh_scoping)
 op.inputs.fields_container.connect(my_fields_container)
@@ -333,7 +323,6 @@ op.inputs.read_beams.connect(my_read_beams)
 op.inputs.split_shells.connect(my_split_shells)
 op.inputs.shell_layer.connect(my_shell_layer)
 op.inputs.extend_to_mid_nodes.connect(my_extend_to_mid_nodes)
-op.inputs.split_force_components.connect(my_split_force_components)
 my_fields_container = op.outputs.fields_container()
 ```
 </details>
@@ -345,7 +334,7 @@ my_fields_container = op.outputs.fields_container()
 import mech_dpf
 import Ans.DataProcessing as dpf
 
-op = dpf.operators.result.element_nodal_forces() # operator instantiation
+op = dpf.operators.result.element_nodal_moments() # operator instantiation
 op.inputs.time_scoping.Connect(my_time_scoping)
 op.inputs.mesh_scoping.Connect(my_mesh_scoping)
 op.inputs.fields_container.Connect(my_fields_container)
@@ -362,7 +351,6 @@ op.inputs.read_beams.Connect(my_read_beams)
 op.inputs.split_shells.Connect(my_split_shells)
 op.inputs.shell_layer.Connect(my_shell_layer)
 op.inputs.extend_to_mid_nodes.Connect(my_extend_to_mid_nodes)
-op.inputs.split_force_components.Connect(my_split_force_components)
 my_fields_container = op.outputs.fields_container.GetData()
 ```
 </details>
