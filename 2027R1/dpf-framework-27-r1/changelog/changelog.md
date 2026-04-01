@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-30).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-31).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -31,8 +31,8 @@ The following table shows which components have updates in each category.
 | grpc | [1 item](#Features_grpc) |[3 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[4 items](#Fixes_h5dpf) |
-| hdf5 | [7 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
-| hgp | [5 items](#Features_hgp) |[2 items](#Fixes_hgp) |
+| hdf5 | [8 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
+| hgp | [5 items](#Features_hgp) |[3 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [3 items](#Features_kernel) |[10 items](#Fixes_kernel) |
 | lsdyna | [2 items](#Features_lsdyna) | |
@@ -42,7 +42,7 @@ The following table shows which components have updates in each category.
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [12 items](#Features_math) |[1 item](#Fixes_math) |
 | mechanical | [2 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
-| mesh | [1 item](#Features_mesh) |[3 items](#Fixes_mesh) |
+| mesh | [2 items](#Features_mesh) |[3 items](#Fixes_mesh) |
 | misc | [14 items](#Features_misc) |[21 items](#Fixes_misc) |
 | multiphysicsmapper |  |[5 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
@@ -690,6 +690,11 @@ The following table shows which components have updates in each category.
 ## hdf5
 ### <a id="Features_hdf5"></a> Features
 
+- Field MetaData as hashable objects:
+  > Field definitions are now stored once when the same definition is used in multiple fields. Same goes for field headers.
+  >
+  > 
+
 - Add Support for Live Monitoring:
   > Support live monitoring for h5 files with mapdl::run
   >
@@ -808,6 +813,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_hgp"></a> Fixes
+
+- Add natvis support for some CustomTypeField variants:
+  > 
+  >
+  > 
 
 - Empty vector copy:
   > 
@@ -1532,6 +1542,13 @@ The following table shows which components have updates in each category.
   > 
 ## mesh
 ### <a id="Features_mesh"></a> Features
+
+- Addition of an operator for Edge Decimation:
+  > Addition of a new operator "edge_decimation" that takes a wireframe mesh (line elements) and reduces its node and edge count by collapsing interior nodes whose two incident edges deviate from straight by less than the given angular threshold.
+  >
+  > 
+  >
+  > 
 
 - Complete usage of ScopingIterators and eliminate GetIds calls in meshOperators:
   > 
@@ -2530,6 +2547,9 @@ The following table shows which components have updates in each category.
 
 
 #### mesh
+
+- [edge_decimation](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/edge_decimation.md):
+  > Takes a wireframe mesh (line elements) and reduces its node and edge count by collapsing interior nodes whose two incident edges deviate from straight by less than the given angular threshold. Branch nodes and sharp corners are preserved.
 
 - [morphed_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/morphed_field.md):
   > Computes the displacement to apply on input coordinates (in 2) if a morphing field (in 0) is applied on coordinates (in 1)

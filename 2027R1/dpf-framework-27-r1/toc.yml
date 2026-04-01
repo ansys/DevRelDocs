@@ -568,6 +568,8 @@
       href: operator-specifications/mesh/combine_levelset.md
     - name: decimate mesh
       href: operator-specifications/mesh/decimate_mesh.md
+    - name: edge decimation
+      href: operator-specifications/mesh/edge_decimation.md
     - name: exclude levelset
       href: operator-specifications/mesh/exclude_levelset.md
     - name: external layer
