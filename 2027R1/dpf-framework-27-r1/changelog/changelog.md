@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-31).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-04-01).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -43,7 +43,8 @@ The following table shows which components have updates in each category.
 | math | [12 items](#Features_math) |[1 item](#Fixes_math) |
 | mechanical | [2 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
 | mesh | [2 items](#Features_mesh) |[3 items](#Fixes_mesh) |
-| misc | [14 items](#Features_misc) |[21 items](#Fixes_misc) |
+| misc | [15 items](#Features_misc) |[21 items](#Fixes_misc) |
+| multiphysics | [1 item](#Features_multiphysics) | |
 | multiphysicsmapper |  |[5 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
 | native | [7 items](#Features_native) |[20 items](#Fixes_native) |
@@ -1578,6 +1579,13 @@ The following table shows which components have updates in each category.
 ## misc
 ### <a id="Features_misc"></a> Features
 
+- Add operator Changelog support to C#:
+  > Support operator changelogs in the C# client API. Add the Changelog class.
+  >
+  > 
+  >
+  > 
+
 - Enhancement of rotation operators and private operators for load vector and spatial gradients computations:
   > Rotation vectors now accepts arbitrary Euler angles as an input.
   >
@@ -1900,6 +1908,16 @@ The following table shows which components have updates in each category.
 
 - Critical fixes in LSDYNAStream (#259):
   > 
+## multiphysics
+### <a id="Features_multiphysics"></a> Features
+
+- Support operators for convection load:
+  > - Introduced new multiphysics workflow operators that contains one prepare opeartor and two apply operators to interpolate for two different quantities.
+  >
+  > 
+  >
+  > 
+
 ## multiphysicsmapper
 
 ### <a id="Fixes_multiphysicsmapper"></a> Fixes
