@@ -296,12 +296,20 @@
     items:
     - name: apply mechanical native mapping
       href: operator-specifications/mapping/apply_mechanical_native_mapping.md
+    - name: create mech kriging convection workflow
+      href: operator-specifications/mapping/create_mech_kriging_convection_workflow.md
     - name: create mech kriging workflow
       href: operator-specifications/mapping/create_mech_kriging_workflow.md
+    - name: create mech point cloud convection workflow
+      href: operator-specifications/mapping/create_mech_point_cloud_convection_workflow.md
     - name: create mech point cloud workflow
       href: operator-specifications/mapping/create_mech_point_cloud_workflow.md
+    - name: create mech shape func surf convection workflow
+      href: operator-specifications/mapping/create_mech_shape_func_surf_convection_workflow.md
     - name: create mech shape func surf workflow
       href: operator-specifications/mapping/create_mech_shape_func_surf_workflow.md
+    - name: create mech shape func vol convection workflow
+      href: operator-specifications/mapping/create_mech_shape_func_vol_convection_workflow.md
     - name: create mech shape func vol workflow
       href: operator-specifications/mapping/create_mech_shape_func_vol_workflow.md
     - name: create sc mapping workflow
@@ -723,12 +731,16 @@
       href: operator-specifications/result/accu_eqv_plastic_strain.md
     - name: acoustic energy density
       href: operator-specifications/result/acoustic_energy_density.md
+    - name: acoustic pressure
+      href: operator-specifications/result/acoustic_pressure.md
     - name: add rigid body motion
       href: operator-specifications/result/add_rigid_body_motion.md
     - name: add rigid body motion fc
       href: operator-specifications/result/add_rigid_body_motion_fc.md
     - name: artificial hourglass energy
       href: operator-specifications/result/artificial_hourglass_energy.md
+    - name: average velocity
+      href: operator-specifications/result/average_velocity.md
     - name: beam axial force
       href: operator-specifications/result/beam_axial_force.md
     - name: beam axial plastic strain
@@ -949,6 +961,12 @@
       href: operator-specifications/result/element_orientations_Y.md
     - name: element orientations Z
       href: operator-specifications/result/element_orientations_Z.md
+    - name: emissivity
+      href: operator-specifications/result/emissivity.md
+    - name: emitted radiation heat flux
+      href: operator-specifications/result/emitted_radiation_heat_flux.md
+    - name: enclosure number
+      href: operator-specifications/result/enclosure_number.md
     - name: enf rotation by euler nodes
       href: operator-specifications/result/enf_rotation_by_euler_nodes.md
     - name: enthalpy
@@ -969,6 +987,10 @@
       href: operator-specifications/result/euler_load_buckling.md
     - name: euler nodes
       href: operator-specifications/result/euler_nodes.md
+    - name: film coefficient
+      href: operator-specifications/result/film_coefficient.md
+    - name: flow rate
+      href: operator-specifications/result/flow_rate.md
     - name: fluid velocity
       href: operator-specifications/result/fluid_velocity.md
     - name: gasket inelastic closure
@@ -1045,6 +1067,8 @@
       href: operator-specifications/result/global_total_mass.md
     - name: global velocity
       href: operator-specifications/result/global_velocity.md
+    - name: heat conductivity rate
+      href: operator-specifications/result/heat_conductivity_rate.md
     - name: heat flux
       href: operator-specifications/result/heat_flux.md
     - name: heat flux X
@@ -1053,8 +1077,12 @@
       href: operator-specifications/result/heat_flux_Y.md
     - name: heat flux Z
       href: operator-specifications/result/heat_flux_Z.md
+    - name: heat transport rate
+      href: operator-specifications/result/heat_transport_rate.md
     - name: hydrostatic pressure
       href: operator-specifications/result/hydrostatic_pressure.md
+    - name: incident radiation heat flux
+      href: operator-specifications/result/incident_radiation_heat_flux.md
     - name: incremental energy
       href: operator-specifications/result/incremental_energy.md
     - name: initial coordinates
@@ -1157,6 +1185,8 @@
       href: operator-specifications/result/modal_coordinate.md
     - name: modal velocity
       href: operator-specifications/result/modal_velocity.md
+    - name: net radiation heat flux
+      href: operator-specifications/result/net_radiation_heat_flux.md
     - name: nmisc
       href: operator-specifications/result/nmisc.md
     - name: nodal force
@@ -1201,6 +1231,8 @@
       href: operator-specifications/result/normal_contact_moment.md
     - name: num surface status changes
       href: operator-specifications/result/num_surface_status_changes.md
+    - name: nusselt number
+      href: operator-specifications/result/nusselt_number.md
     - name: omega
       href: operator-specifications/result/omega.md
     - name: output sound power
@@ -1257,14 +1289,20 @@
       href: operator-specifications/result/poynting_vector.md
     - name: poynting vector surface
       href: operator-specifications/result/poynting_vector_surface.md
+    - name: prandtl number
+      href: operator-specifications/result/prandtl_number.md
     - name: pressure
       href: operator-specifications/result/pressure.md
     - name: pretension
       href: operator-specifications/result/pretension.md
+    - name: raw acceleration
+      href: operator-specifications/result/raw_acceleration.md
     - name: raw displacement
       href: operator-specifications/result/raw_displacement.md
     - name: raw reaction force
       href: operator-specifications/result/raw_reaction_force.md
+    - name: raw velocity
+      href: operator-specifications/result/raw_velocity.md
     - name: reaction force
       href: operator-specifications/result/reaction_force.md
     - name: reaction force X
@@ -1279,12 +1317,16 @@
       href: operator-specifications/result/recombine_harmonic_indeces_cyclic.md
     - name: record reader
       href: operator-specifications/result/record_reader.md
+    - name: reflected radiation heat flux
+      href: operator-specifications/result/reflected_radiation_heat_flux.md
     - name: remove rigid body motion
       href: operator-specifications/result/remove_rigid_body_motion.md
     - name: remove rigid body motion fc
       href: operator-specifications/result/remove_rigid_body_motion_fc.md
     - name: result provider
       href: operator-specifications/result/result_provider.md
+    - name: reynolds number
+      href: operator-specifications/result/reynolds_number.md
     - name: rigid transformation
       href: operator-specifications/result/rigid_transformation.md
     - name: rigid transformation provider
@@ -1429,6 +1471,8 @@
       href: operator-specifications/result/velocity_Y.md
     - name: velocity Z
       href: operator-specifications/result/velocity_Z.md
+    - name: view factor sum
+      href: operator-specifications/result/view_factor_sum.md
     - name: volume fraction
       href: operator-specifications/result/volume_fraction.md
     - name: wall shear stress

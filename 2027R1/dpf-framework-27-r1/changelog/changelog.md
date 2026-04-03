@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-04-01).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-04-02).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -15,7 +15,7 @@ The following table shows which components have updates in each category.
 | cgns | [1 item](#Features_cgns) | |
 | changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
 | ci | [1 item](#Features_ci) |[3 items](#Fixes_ci) |
-| compression | [3 items](#Features_compression) |[1 item](#Fixes_compression) |
+| compression | [3 items](#Features_compression) |[2 items](#Fixes_compression) |
 | core |  |[1 item](#Fixes_core) |
 | cs | [3 items](#Features_cs) | |
 | cyclic | [1 item](#Features_cyclic) | |
@@ -37,11 +37,11 @@ The following table shows which components have updates in each category.
 | kernel | [3 items](#Features_kernel) |[10 items](#Fixes_kernel) |
 | lsdyna | [2 items](#Features_lsdyna) | |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [17 items](#Features_mapdl) |[45 items](#Fixes_mapdl) |
+| mapdl | [19 items](#Features_mapdl) |[45 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [12 items](#Features_math) |[1 item](#Fixes_math) |
-| mechanical | [2 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
+| mechanical | [3 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
 | mesh | [2 items](#Features_mesh) |[3 items](#Fixes_mesh) |
 | misc | [15 items](#Features_misc) |[21 items](#Fixes_misc) |
 | multiphysics | [1 item](#Features_multiphysics) | |
@@ -221,6 +221,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_compression"></a> Fixes
+
+- Wrong dimension for output of sketch matrix operator:
+  > 
+  >
+  > 
 
 - Quantization loss of performance:
   > The quantization ("quantization") operator has became super slow since its last modification.
@@ -962,6 +967,56 @@ The following table shows which components have updates in each category.
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
 
+- New Operators for FLUID116:
+  > 
+  >
+  > Add new operators to read data from FLUID116 element:
+  >
+  > - AverageVelocityProvider
+  >
+  > - ReynoldsNumberProvider
+  >
+  > - FlowRateProvider
+  >
+  > - HeatConductivityRateProvider
+  >
+  > - HeatTransportRateProvider
+  >
+  > - FilmCoefficientProvider
+  >
+  > - NusseltNumberProvider
+  >
+  > - PrandtlNumberProvider
+  >
+  > 
+  >
+  > Add new operators to read data from SURF251/252 elements:
+  >
+  > - EmissivityProvider
+  >
+  > - NetRadiationHeatFluxProvider
+  >
+  > - EmittedRadiationHeatFluxProvider
+  >
+  > - ReflectedRadiationHeatFluxProvider
+  >
+  > - IncidentRadiationHeatFluxProvider
+  >
+  > - EnclosureNumberProvider
+  >
+  > - ViewFactorSumProvider
+  >
+  > 
+  >
+  > 
+
+- Add operators to read modal coordinates from RST/MODE/H5DPF files.:
+  > Creation of operators allowing to read CMS modal coordinates from result files .rst,  .mode & .h5.
+  >
+  > 
+  >
+  > 
+
 - Add Elemental Nodal MOMENT and HEAT operators:
   > Creation of ENF_MOMENT and ENF_HEAT operators to read elemental nodal moment and heat from rst files.
   >
@@ -1504,6 +1559,13 @@ The following table shows which components have updates in each category.
   > 
 ## mechanical
 ### <a id="Features_mechanical"></a> Features
+
+- Adding operator for finding number of modes per chunk:
+  > Add new operators to calculate number of modes that can be evaluated per chunk based on the result mesh and the available memory on the user's machine.
+  >
+  > 
+  >
+  > 
 
 - Adding feedback from the Mechanical Team:
   > Moving event of progress bar at the beginning of the loop and changing input stream.
@@ -2452,13 +2514,25 @@ The following table shows which components have updates in each category.
   > For further details on the algorithms and their settings, see the Ansys Mechanical help page on
   > [Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html).
 
+- [create_mech_kriging_convection_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/create_mech_kriging_convection_workflow.md):
+  > Prepares a workflow able to map data from an input mesh to a target mesh.
+
 - [create_mech_kriging_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/create_mech_kriging_workflow.md):
+  > Prepares a workflow able to map data from an input mesh to a target mesh.
+
+- [create_mech_point_cloud_convection_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/create_mech_point_cloud_convection_workflow.md):
   > Prepares a workflow able to map data from an input mesh to a target mesh.
 
 - [create_mech_point_cloud_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/create_mech_point_cloud_workflow.md):
   > Prepares a workflow able to map data from an input mesh to a target mesh.
 
+- [create_mech_shape_func_surf_convection_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/create_mech_shape_func_surf_convection_workflow.md):
+  > Prepares a workflow able to map data from an input mesh to a target mesh.
+
 - [create_mech_shape_func_surf_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/create_mech_shape_func_surf_workflow.md):
+  > Prepares a workflow able to map data from an input mesh to a target mesh.
+
+- [create_mech_shape_func_vol_convection_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/create_mech_shape_func_vol_convection_workflow.md):
   > Prepares a workflow able to map data from an input mesh to a target mesh.
 
 - [create_mech_shape_func_vol_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/create_mech_shape_func_vol_workflow.md):
@@ -2583,6 +2657,12 @@ The following table shows which components have updates in each category.
 
 - [acoustic_energy_density](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/acoustic_energy_density.md):
   > Read/compute AED by calling the readers defined by the datasources.
+
+- [acoustic_pressure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/acoustic_pressure.md):
+  > Read/compute AcousticPressure by calling the readers defined by the datasources.
+
+- [average_velocity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/average_velocity.md):
+  > Read/compute average velocity by calling the readers defined by the datasources.
 
 - [creep_strain](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/creep_strain.md):
   > Read/compute element nodal component creep strains by calling the readers defined by the datasources.
@@ -2758,6 +2838,21 @@ The following table shows which components have updates in each category.
   > | 13      | Pretension      |
   > element_nodal_moments fields contain STATIC, DAMPING and INERTIA forces stored as components (when available). STATIC: components 0 -> 2. DAMPING: components 3 -> 5. INERTIA components 6 -> 8
 
+- [emissivity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/emissivity.md):
+  > Read/compute emissivity by calling the readers defined by the datasources.
+
+- [emitted_radiation_heat_flux](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/emitted_radiation_heat_flux.md):
+  > Read/compute emitted radiation heat flux by calling the readers defined by the datasources.
+
+- [enclosure_number](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/enclosure_number.md):
+  > Read/compute enclosure number by calling the readers defined by the datasources.
+
+- [film_coefficient](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/film_coefficient.md):
+  > Read/compute film coefficient by calling the readers defined by the datasources.
+
+- [flow_rate](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/flow_rate.md):
+  > Read/compute flow rate by calling the readers defined by the datasources.
+
 - [fluid_velocity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/fluid_velocity.md):
   > Read/compute FV by calling the readers defined by the datasources.
 
@@ -2773,6 +2868,15 @@ The following table shows which components have updates in each category.
 - [gasket_total_closure_XZ](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/gasket_total_closure_XZ.md):
   > Read/compute elemental gasket total closure XZ shear component (02 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
 
+- [heat_conductivity_rate](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/heat_conductivity_rate.md):
+  > Read/compute heat conductivity rate by calling the readers defined by the datasources.
+
+- [heat_transport_rate](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/heat_transport_rate.md):
+  > Read/compute heat transport rate by calling the readers defined by the datasources.
+
+- [incident_radiation_heat_flux](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/incident_radiation_heat_flux.md):
+  > Read/compute incident radiation heat flux by calling the readers defined by the datasources.
+
 - [input_sound_power](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/input_sound_power.md):
   > Read/compute PINC by calling the readers defined by the datasources.
 
@@ -2787,6 +2891,9 @@ The following table shows which components have updates in each category.
 
 - [modal_velocity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/modal_velocity.md):
   > Read/compute modal velocity by calling the readers defined by the datasources.
+
+- [net_radiation_heat_flux](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/net_radiation_heat_flux.md):
+  > Read/compute net radiation heat flux by calling the readers defined by the datasources.
 
 - [nodal_rotation](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/nodal_rotation.md):
   > Read/compute nodal rotation by calling the readers defined by the datasources.
@@ -2836,14 +2943,35 @@ The following table shows which components have updates in each category.
 - [node_orientations_Z](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/node_orientations_Z.md):
   > Read/compute node euler angles Z component of the vector (3rd component) by calling the readers defined by the datasources.
 
+- [nusselt_number](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/nusselt_number.md):
+  > Read/compute nusselt number by calling the readers defined by the datasources.
+
 - [output_sound_power](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/output_sound_power.md):
   > Read/compute POUT by calling the readers defined by the datasources.
+
+- [prandtl_number](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/prandtl_number.md):
+  > Read/compute prandtl number by calling the readers defined by the datasources.
+
+- [raw_acceleration](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/raw_acceleration.md):
+  > Read/compute A vector from the finite element problem MA+CV+KU=F by calling the readers defined by the datasources.
+
+- [raw_velocity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/raw_velocity.md):
+  > Read/compute V vector from the finite element problem MA+CV+KU=F by calling the readers defined by the datasources.
 
 - [record_reader](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/record_reader.md):
   > Extracts a record from a file.
 
+- [reflected_radiation_heat_flux](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/reflected_radiation_heat_flux.md):
+  > Read/compute reflected radiation heat flux by calling the readers defined by the datasources.
+
+- [reynolds_number](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/reynolds_number.md):
+  > Read/compute reynolds number by calling the readers defined by the datasources.
+
 - [squared_l2norm_pressure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/squared_l2norm_pressure.md):
   > Read/compute Square of the L2 norm of pressure over element volume by calling the readers defined by the datasources.
+
+- [view_factor_sum](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/view_factor_sum.md):
+  > Read/compute view factor sum by calling the readers defined by the datasources.
 
 
 #### scoping
