@@ -25,20 +25,20 @@ Implementations of this interface are designed to allow an [IDynamicAlgorithmPro
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-|[ISerializableAlgorithm]() |`DeserializeAlgorithm (string xml)`<br>Given the XML tag for an ISerializableAlgorithm, deserialize the tag and return the result. |
-|void |`DeserializeAlgorithmToUserInteractionInstance (string xml)`<br>Given the XML tag for an ISerializableAlgorithm, deserialize the tag and save it in this instance's UserInteractionInstance. |
-|void |`DeserializeOptionsToUserInteractionInstance (string innerXML)`<br>Given the XML tag for an options object, deserialize the tag to the IAlgorithm.Options property of UserInteractionInstance. |
-|object |`GetCurrentOptionsForDialog ()`<br>Returns a clone of the UserInteractionInstance IAlgorithm.Options property for use in the default options dialog. |
-|object |`GetDefaultOptionsForDialog ()`<br>Returns a default version of the object this algorithm uses for options. |
-|[ISerializableAlgorithm]() |`GetOutOfProcessAlgorithm ()`<br>Create an out-of-process instance of the algorithm suitable for running the algorithm. |
+|Type|Name|Description|
+|-----|-----|-----|
+|[ISerializableAlgorithm]() |`DeserializeAlgorithm (string xml)` |Given the XML tag for an ISerializableAlgorithm, deserialize the tag and return the result. |
+|void |`DeserializeAlgorithmToUserInteractionInstance (string xml)` |Given the XML tag for an ISerializableAlgorithm, deserialize the tag and save it in this instance's UserInteractionInstance. |
+|void |`DeserializeOptionsToUserInteractionInstance (string innerXML)` |Given the XML tag for an options object, deserialize the tag to the IAlgorithm.Options property of UserInteractionInstance. |
+|object |`GetCurrentOptionsForDialog ()` |Returns a clone of the UserInteractionInstance IAlgorithm.Options property for use in the default options dialog. |
+|object |`GetDefaultOptionsForDialog ()` |Returns a default version of the object this algorithm uses for options. |
+|[ISerializableAlgorithm]() |`GetOutOfProcessAlgorithm ()` |Create an out-of-process instance of the algorithm suitable for running the algorithm. |
 
 ## Properties
-|Name|Description|
-|-----|-----|
-|string | `Id [get]`<br>The ID for this algorithm entry. |
-|[IAlgorithm]() | `UserInteractionInstance [get]`<br>This instance is intended for the Opt Tool to present to the user when configuring the algorithm and optimization tool. |
+|Type|Name|Description|
+|-----|-----|-----|
+|string |`Id [get]` |The ID for this algorithm entry. |
+|[IAlgorithm]() |`UserInteractionInstance [get]` |This instance is intended for the Opt Tool to present to the user when configuring the algorithm and optimization tool. |
 
 ## Member Function Documentation
 

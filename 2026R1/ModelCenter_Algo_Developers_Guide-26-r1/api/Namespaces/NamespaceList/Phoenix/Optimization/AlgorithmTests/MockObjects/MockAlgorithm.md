@@ -57,70 +57,70 @@ Dummy implementation of `T:Phoenix.Optimization.IAlgorithm`
 |bool |`ShowOptionsDialog (IWin32Window owner)` |Called to display the algorithms custom options form. |
 
 ## Properties
-|Name|Description|
-|-----|-----|
-|string | `Author [get]`<br>Author |
-|string | `Description [get]`<br>Desciption (not implemented) |
-|string | `DetailsReport [get]`<br>DetailsReport |
-|string | `HelpFilePath [get]`<br>HelpFilePath (not implemented) |
-|string | `HelpURL [get]`<br>HelpURL (not implemented) |
-|string | `IconLocation [get]`<br>IconLocation (not implemented) |
-|string | `Id [get]`<br>A unique string to identify this algorithm. |
-|string | `Keywords [get]`<br>Keywords (not implemented) |
-|string | `LicenseFeature [get, set]`<br>LicenseFeature |
-|int | `MaxNumberOfObjectives [get, set]`<br>MaxNumberOfObjectives |
-|string | `Name [get, set]`<br>Name |
-|AlgorithmNumModelEvaluations | `NumModelEvaluations [get, set]`<br>NumModelEvaluations |
-|object | `Options [get, set]`<br>Options |
-|string | `ReleaseDate [get, set]`<br>ReleaseDate |
-|bool | `RequiresProxy [get, set]`<br>Indicates if ProxiedAlgorithm should wrap this upon deserialization. |
-|string | `ResultsReport [get]`<br>ResultsReport |
-|FuzzyBoolean | `SupportsConstraints [get, set]`<br>SupportsConstraints |
-|FuzzyBoolean | `SupportsDiscreteVariables [get, set]`<br>SupportsDiscreteVariables |
-|bool | `SupportsFailedRuns [get, set]`<br>SupportsFailedRuns |
-|FuzzyBoolean | `SupportsMinMax [get, set]`<br>SupportsMinMax |
-|bool | `SupportsMultipleObjectives [get, set]`<br>SupportsMultipleObjectives |
-|FuzzyBoolean | `SupportsNonSmoothResponses [get, set]`<br>SupportsNonSmoothResponses |
-|FuzzyBoolean | `SupportsSolveFor [get, set]`<br>SupportsSolveFor |
-|string | `Version [get]`<br>Version (not implemented) |
-|WarmStartMethod | `WarmStartMethod = WarmStartMethod.AlgorithmControlled [get, set]`<br>The method used to warm-start this algorithm. |
+|Type|Name|Description|
+|-----|-----|-----|
+|string |`Author [get]` |Author |
+|string |`Description [get]` |Desciption (not implemented) |
+|string |`DetailsReport [get]` |DetailsReport |
+|string |`HelpFilePath [get]` |HelpFilePath (not implemented) |
+|string |`HelpURL [get]` |HelpURL (not implemented) |
+|string |`IconLocation [get]` |IconLocation (not implemented) |
+|string |`Id [get]` |A unique string to identify this algorithm. |
+|string |`Keywords [get]` |Keywords (not implemented) |
+|string |`LicenseFeature [get, set]` |LicenseFeature |
+|int |`MaxNumberOfObjectives [get, set]` |MaxNumberOfObjectives |
+|string |`Name [get, set]` |Name |
+|AlgorithmNumModelEvaluations |`NumModelEvaluations [get, set]` |NumModelEvaluations |
+|object |`Options [get, set]` |Options |
+|string |`ReleaseDate [get, set]` |ReleaseDate |
+|bool |`RequiresProxy [get, set]` |Indicates if ProxiedAlgorithm should wrap this upon deserialization. |
+|string |`ResultsReport [get]` |ResultsReport |
+|FuzzyBoolean |`SupportsConstraints [get, set]` |SupportsConstraints |
+|FuzzyBoolean |`SupportsDiscreteVariables [get, set]` |SupportsDiscreteVariables |
+|bool |`SupportsFailedRuns [get, set]` |SupportsFailedRuns |
+|FuzzyBoolean |`SupportsMinMax [get, set]` |SupportsMinMax |
+|bool |`SupportsMultipleObjectives [get, set]` |SupportsMultipleObjectives |
+|FuzzyBoolean |`SupportsNonSmoothResponses [get, set]` |SupportsNonSmoothResponses |
+|FuzzyBoolean |`SupportsSolveFor [get, set]` |SupportsSolveFor |
+|string |`Version [get]` |Version (not implemented) |
+|WarmStartMethod |`WarmStartMethod = WarmStartMethod.AlgorithmControlled [get, set]` |The method used to warm-start this algorithm. |
 
 ### Properties inherited from [ISerializableAlgorithm]()
-|Name|Description|
-|-----|-----|
-|string | `Id [get]`<br>A unique string to identify this algorithm. |
-|bool | `RequiresProxy [get, set]`<br>Indicates if ProxiedAlgorithm should wrap this upon deserialization. |
+|Type|Name|Description|
+|-----|-----|-----|
+|string |`Id [get]` |A unique string to identify this algorithm. |
+|bool |`RequiresProxy [get, set]` |Indicates if ProxiedAlgorithm should wrap this upon deserialization. |
 
 ### Properties inherited from [IAlgorithm]()
-|Name|Description|
-|-----|-----|
-|string | `Author [get]`<br>String containing the author of the algorithm. |
-|string | `Description [get]`<br>String containing the description of the algorithm. |
-|string | `DetailsReport [get]`<br>String containing the details report for the problem. |
-|string | `HelpFilePath [get]`<br>String containing the relative path to the algorithm's help file. |
-|string | `HelpURL [get]`<br>String containing a URL that can be used get further help with the algorithm. |
-|string | `IconLocation [get]`<br>String containing the relative path to the algorithm's icon. |
-|string | `Keywords [get]`<br>String containing the keywords associated with the algorithm. |
-|string | `LicenseFeature [get]`<br>String containing the algorithms FlexLM license feature. |
-|int | `MaxNumberOfObjectives [get]`<br>Integer containing the maximum number of objectives supported by the algorithm. |
-|string | `Name [get]`<br>String containing the name of the algorithm. |
-|AlgorithmNumModelEvaluations | `NumModelEvaluations [get]`<br>AlgorithmNumModelEvaluations indicating how many model evaluations are required for convergence. |
-|object | `Options [get, set]`<br>Object containing the options for the algorithm. |
-|string | `ReleaseDate [get]`<br>String containing the release date for the algorithm in the format YYYY.MMDD |
-|string | `ResultsReport [get]`<br>String containing the results report for the problem. |
-|FuzzyBoolean | `SupportsConstraints [get]`<br>FuzzyBoolean stating whether the algorithm supports constraints. |
-|FuzzyBoolean | `SupportsDiscreteVariables [get]`<br>FuzzyBoolean stating whether the algorithm supports discrete variables. |
-|bool | `SupportsFailedRuns [get]`<br>Boolean stating whether the algorithm is able to handle failed model evaluations. |
-|FuzzyBoolean | `SupportsMinMax [get]`<br>FuzzyBoolean stating whether the algorithm supports minimize and maximize objectives. |
-|bool | `SupportsMultipleObjectives [get]`<br>Boolean stating whether or not the algorithm supports multiple objectives. |
-|FuzzyBoolean | `SupportsNonSmoothResponses [get]`<br>FuzzyBoolean stating whether the algorithm supports non-smooth responses (objectives and constraints). |
-|FuzzyBoolean | `SupportsSolveFor [get]`<br>FuzzyBoolean stating whether the algorithm supports the solve for value objective. |
-|string | `Version [get]`<br>String containing the version of the algorithm. |
+|Type|Name|Description|
+|-----|-----|-----|
+|string |`Author [get]` |String containing the author of the algorithm. |
+|string |`Description [get]` |String containing the description of the algorithm. |
+|string |`DetailsReport [get]` |String containing the details report for the problem. |
+|string |`HelpFilePath [get]` |String containing the relative path to the algorithm's help file. |
+|string |`HelpURL [get]` |String containing a URL that can be used get further help with the algorithm. |
+|string |`IconLocation [get]` |String containing the relative path to the algorithm's icon. |
+|string |`Keywords [get]` |String containing the keywords associated with the algorithm. |
+|string |`LicenseFeature [get]` |String containing the algorithms FlexLM license feature. |
+|int |`MaxNumberOfObjectives [get]` |Integer containing the maximum number of objectives supported by the algorithm. |
+|string |`Name [get]` |String containing the name of the algorithm. |
+|AlgorithmNumModelEvaluations |`NumModelEvaluations [get]` |AlgorithmNumModelEvaluations indicating how many model evaluations are required for convergence. |
+|object |`Options [get, set]` |Object containing the options for the algorithm. |
+|string |`ReleaseDate [get]` |String containing the release date for the algorithm in the format YYYY.MMDD |
+|string |`ResultsReport [get]` |String containing the results report for the problem. |
+|FuzzyBoolean |`SupportsConstraints [get]` |FuzzyBoolean stating whether the algorithm supports constraints. |
+|FuzzyBoolean |`SupportsDiscreteVariables [get]` |FuzzyBoolean stating whether the algorithm supports discrete variables. |
+|bool |`SupportsFailedRuns [get]` |Boolean stating whether the algorithm is able to handle failed model evaluations. |
+|FuzzyBoolean |`SupportsMinMax [get]` |FuzzyBoolean stating whether the algorithm supports minimize and maximize objectives. |
+|bool |`SupportsMultipleObjectives [get]` |Boolean stating whether or not the algorithm supports multiple objectives. |
+|FuzzyBoolean |`SupportsNonSmoothResponses [get]` |FuzzyBoolean stating whether the algorithm supports non-smooth responses (objectives and constraints). |
+|FuzzyBoolean |`SupportsSolveFor [get]` |FuzzyBoolean stating whether the algorithm supports the solve for value objective. |
+|string |`Version [get]` |String containing the version of the algorithm. |
 
 ### Properties inherited from [IWarmStartAlgorithm]()
-|Name|Description|
-|-----|-----|
-|WarmStartMethod | `WarmStartMethod [get]`<br>The method used to warm-start this algorithm. |
+|Type|Name|Description|
+|-----|-----|-----|
+|WarmStartMethod |`WarmStartMethod [get]` |The method used to warm-start this algorithm. |
 
 ## Constructor & Destructor Documentation
 

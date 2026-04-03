@@ -25,25 +25,25 @@ If a solver hits the maximum number of function evaluations before finding a sol
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-|`MaxFunctionEvaluationsException ()` |Initializes a new instance of the MaxFunctionEvaluationsException class. |
-|`MaxFunctionEvaluationsException (string msg)` |Initializes a new instance of the MaxFunctionEvaluationsException class with a specified error message. |
-|`MaxFunctionEvaluationsException (string msg, Exception inner)` |Initializes a new instance of the MaxFunctionEvaluationsException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+|Type|Name|Description|
+|-----|-----|-----|
+| |`MaxFunctionEvaluationsException ()`| Initializes a new instance of the MaxFunctionEvaluationsException class. |
+| |`MaxFunctionEvaluationsException (string msg)`| Initializes a new instance of the MaxFunctionEvaluationsException class with a specified error message. |
+| |`MaxFunctionEvaluationsException (string msg, Exception inner)`| Initializes a new instance of the MaxFunctionEvaluationsException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
 ### Public Member Functions inherited from [EarlyTerminationException]()
-|Name|Description|
-|-----|-----|
-|`EarlyTerminationException ()` |Initializes a new instance of the EarlyTerminationException class. |
-|`EarlyTerminationException (string msg)` |Initializes a new instance of the EarlyTerminationException class with a specified error message. |
-|`EarlyTerminationException (string msg, Exception inner)` |Initializes a new instance of the EarlyTerminationException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+|Type|Name|Description|
+|-----|-----|-----|
+| |`EarlyTerminationException ()`| Initializes a new instance of the EarlyTerminationException class. |
+| |`EarlyTerminationException (string msg)`| Initializes a new instance of the EarlyTerminationException class with a specified error message. |
+| |`EarlyTerminationException (string msg, Exception inner)`| Initializes a new instance of the EarlyTerminationException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
 ### Public Member Functions inherited from [OptimizationException]()
-|Name|Description|
-|-----|-----|
-|`OptimizationException ()` |Initializes a new instance of the OptimizationException class. |
-|`OptimizationException (string msg)` |Initializes a new instance of the OptimizationException class with a specified error message. |
-|`OptimizationException (string msg, Exception inner)` |Initializes a new instance of the OptimizationException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+|Type|Name|Description|
+|-----|-----|-----|
+| |`OptimizationException ()`| Initializes a new instance of the OptimizationException class. |
+| |`OptimizationException (string msg)`| Initializes a new instance of the OptimizationException class with a specified error message. |
+| |`OptimizationException (string msg, Exception inner)`| Initializes a new instance of the OptimizationException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
 ## Constructor & Destructor Documentation
 

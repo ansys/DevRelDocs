@@ -25,20 +25,20 @@ Class to hold the results of a model evaluation.
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-|`ModelEvaluation ()` |Constructor |
-|`ModelEvaluation (double[] objectiveValues)` |Constructor |
-|`ModelEvaluation (double[] objectiveValues, bool runFailure)` |Constructor |
-|`ModelEvaluation (double[] objectiveValues, double[] constraintValues, bool runFailure)` |Constructor |
-|`ModelEvaluation (ModelEvaluation eval)` |Copy constructor |
+|Type|Name|Description|
+|-----|-----|-----|
+| |`ModelEvaluation ()` |Constructor |
+| |`ModelEvaluation (double[] objectiveValues)` |Constructor |
+| |`ModelEvaluation (double[] objectiveValues, bool runFailure)` |Constructor |
+| |`ModelEvaluation (double[] objectiveValues, double[] constraintValues, bool runFailure)` |Constructor |
+| |`ModelEvaluation (ModelEvaluation eval)` |Copy constructor |
 
 ## Properties
-|Name|Description|
-|-----|-----|
-|double[] | `ConstraintValues [get]`<br>Double array containing the values of the constraints. |
-|double[] | `ObjectiveValues [get]`<br>Double array containing the values of the objectives |
-|bool | `RunFailure [get]`<br>Boolean contain stating whether the model evaluation was successful. |
+|Type|Name|Description|
+|-----|-----|-----|
+|double[] |`ConstraintValues [get]` |Double array containing the values of the constraints. |
+|double[] |`ObjectiveValues [get]` |Double array containing the values of the objectives |
+|bool |`RunFailure [get]` |Boolean contain stating whether the model evaluation was successful. |
 
 ## Constructor & Destructor Documentation
 

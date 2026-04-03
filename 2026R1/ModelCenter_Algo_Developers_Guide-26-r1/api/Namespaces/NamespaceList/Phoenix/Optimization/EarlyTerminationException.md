@@ -25,18 +25,18 @@ Represents a class of cases where the solver terminated early due to some maximu
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-|`EarlyTerminationException ()` |Initializes a new instance of the `EarlyTerminationException` class. |
-|`EarlyTerminationException (string msg)` |Initializes a new instance of the `EarlyTerminationException` class with a specified error message. |
-|`EarlyTerminationException (string msg, Exception inner)` |Initializes a new instance of the `EarlyTerminationException` class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+|Type|Name|Description|
+|-----|-----|-----|
+| |`EarlyTerminationException ()`| Initializes a new instance of the `EarlyTerminationException` class. |
+| |`EarlyTerminationException (string msg)`| Initializes a new instance of the `EarlyTerminationException` class with a specified error message. |
+| |`EarlyTerminationException (string msg, Exception inner)`| Initializes a new instance of the `EarlyTerminationException` class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
 ### Public Member Functions inherited from [OptimizationException]()
-|Name|Description|
-|-----|-----|
-|`OptimizationException ()` |Initializes a new instance of the `OptimizationException` class. |
-|`OptimizationException (string msg)` |Initializes a new instance of the `OptimizationException` class with a specified error message. |
-|`OptimizationException (string msg, Exception inner)` |Initializes a new instance of the `OptimizationException` class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+|Type|Name|Description|
+|-----|-----|-----|
+| |`OptimizationException ()`| Initializes a new instance of the `OptimizationException` class. |
+| |`OptimizationException (string msg)`| Initializes a new instance of the `OptimizationException` class with a specified error message. |
+| |`OptimizationException (string msg, Exception inner)`| Initializes a new instance of the `OptimizationException` class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
 ## Constructor & Destructor Documentation
 

@@ -25,9 +25,9 @@ Class can be used to compare two designs to each other.
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-|int |`Compare (object[] x, object[] y)`<br>Used to perform the comparison between two designs. |
+|Type|Name|Description|
+|-----|-----|-----|
+|int |`Compare (object[] x, object[] y)` |Used to perform the comparison between two designs. |
 
 ## Member Function Documentation
 

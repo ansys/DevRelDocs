@@ -27,25 +27,25 @@ Class to hold information about a design variable
 
 |Type|Name|Description|
 |-----|-----|-----|
-| |`ResponseVariable (string name, bool isNameInMC, bool isDuplicated, bool isItOutput)` |Creates new a variable with the given name and status of presence in MC |
-|void |`UpdateMe (string name, bool isNameInMc, bool isItOutput)` | |
+| |`ResponseVariable (string name, bool isNameInMC, bool isDuplicated, bool isItOutput)`| Creates new a variable with the given name and status of presence in MC |
+|void |`UpdateMe (string name, bool isNameInMc, bool isItOutput)`|  |
 
 ## Properties
-|Name|Description|
-|-----|-----|
-|string | `ErrText [get]`<br> |
-|bool | `HasError [get]`<br> |
-|int | `Index [get, set]`<br> |
-|bool | `IsDuplicated [get, set]`<br>summary> Gets a value indicating whether the variable "HasError" /summary> |
-|bool | `IsItOutput [get, set]`<br> |
-|bool | `IsNameInMc [get, set]`<br>summary> Gets a or sets value indicating whether the "IsDuplicated" has a #. |
-|bool | `IsSelected [get, set]`<br>summary> Gets or sets a reference to "IsNameInMc" /summary> |
-|string | `Name [get, set]`<br>Name of the design variable |
+|Type|Name|Description|
+|-----|-----|-----|
+|string |`ErrText [get]`|  |
+|bool |`HasError [get]`|  |
+|int |`Index [get, set]`|  |
+|bool |`IsDuplicated [get, set]`| summary> Gets a value indicating whether the variable "HasError" /summary> |
+|bool |`IsItOutput [get, set]`|  |
+|bool |`IsNameInMc [get, set]`| summary> Gets a or sets value indicating whether the "IsDuplicated" has a #. |
+|bool |`IsSelected [get, set]`| summary> Gets or sets a reference to "IsNameInMc" /summary> |
+|string |`Name [get, set]`| Name of the design variable |
 
 ### Properties inherited from [IVariableName]()
-|Name|Description|
-|-----|-----|
-|string | `Name [get]`<br>The name of the variable |
+|Type|Name|Description|
+|-----|-----|-----|
+|string |`Name [get]`| The name of the variable |
 
 ## Constructor & Destructor Documentation
 

@@ -25,29 +25,29 @@ This can be thrown from the algorithm when the algorithm is passed a problem def
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-|`BoundsNotSupportedException ()` |Initializes a new instance of the `BoundsNotSupportedException` class. |
-|`BoundsNotSupportedException (string algorithm, string variables)` |Initializes a new instance of the `BoundsNotSupportedException` class specifing the algorithm throwing the error and the variables that require bounds. |
-|`BoundsNotSupportedException (string msg)` |Initializes a new instance of the `BoundsNotSupportedException` class with a specified error message. |
-|`BoundsNotSupportedException (string msg, Exception inner)` |Initializes a new instance of the `BoundsNotSupportedException` class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+|Type|Name|Description|
+|-----|-----|-----|
+| |`BoundsNotSupportedException ()`| Initializes a new instance of the `BoundsNotSupportedException` class. |
+| |`BoundsNotSupportedException (string algorithm, string variables)`| Initializes a new instance of the `BoundsNotSupportedException` class specifing the algorithm throwing the error and the variables that require bounds. |
+| |`BoundsNotSupportedException (string msg)`| Initializes a new instance of the `BoundsNotSupportedException` class with a specified error message. |
+| |`BoundsNotSupportedException (string msg, Exception inner)`| Initializes a new instance of the `BoundsNotSupportedException` class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
 ### Public Member Functions inherited from [OptimizationException]()
-|Name|Description|
-|-----|-----|
-|`OptimizationException ()` |Initializes a new instance of the `OptimizationException` class. |
-|`OptimizationException (string msg)` |Initializes a new instance of the `OptimizationException` class with a specified error message. |
-|`OptimizationException (string msg, Exception inner)` |Initializes a new instance of the `OptimizationException` class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+|Type|Name|Description|
+|-----|-----|-----|
+| |`OptimizationException ()`| Initializes a new instance of the `OptimizationException` class. |
+| |`OptimizationException (string msg)`| Initializes a new instance of the `OptimizationException` class with a specified error message. |
+| |`OptimizationException (string msg, Exception inner)`| Initializes a new instance of the `OptimizationException` class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
 ## Protected Member Functions 
-|Description|
-|-----|
-|`BoundsNotSupportedException (SerializationInfo info, StreamingContext context)`<br>Initializes a new instance of the `BoundsNotSupportedException` class with serialized data. |
+|Type|Name|Description|
+|-----|-----|-----|
+| |`BoundsNotSupportedException (SerializationInfo info, StreamingContext context)`| Initializes a new instance of the `BoundsNotSupportedException` class with serialized data. |
  
 ### Protected Member Functions inherited from OptimizationException 
-|Description|
-|-----|
-| `OptimizationException (SerializationInfo info, StreamingContext context)`<br>Initializes a new instance of the `OptimizationException` class with serialized data |
+|Type|Name|Description|
+|-----|-----|-----|
+| |`OptimizationException (SerializationInfo info, StreamingContext context)`| Initializes a new instance of the `OptimizationException` class with serialized data |
 
 
 ## Constructor & Destructor Documentation

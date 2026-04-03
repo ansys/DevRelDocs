@@ -42,74 +42,74 @@ Number of variables: 9 variables. Definition: f(x) = −9x5 − 15x8 + 6x1 + 16x
 |void |`SetStartPoint (object[] startValues)` |Sets the starting design for the evaluator. |
 
 ### Public Member Functions inherited from [ModelEvaluator]()
-|Name|Description|
-|-----|-----|
-|void `addConstraint (string name, double lowerBound, double upperBound)` |Method used to add a constraint |
-|virtual void `addConstraints ()` |Method called to specifiy the constraints for the evaluator (by default, not constraints are specified) |
-|void `addDesignVariable (string name, object startValue)` |Method used to add design variable |
-|void `addDesignVariable (string name, object startValue, DataTable selectedAlphabet)` |Method used to add design variable |
-|void `addDesignVariable (string name, object startValue, double lowerBound, double upperBound)` |Method used to add design variable |
-|void `addDesignVariable (string name, object startValue, double lowerBound, double upperBound, DataTable selectedAlphabet)` |Method used to add a design variable |
-|abstract void `addDesignVariables ()` |Method called to added design variables |
-|void `addObjective (string name, double solveForValue)` |Method used to add an objective (assumes solve for objective) |
-|void `addObjective (string name, double solveForValue, double weight)` |Method used to add an objective (assumes solve for objective) |
-|void `addObjective (string name, Goal goal)` |Method used to add an objective |
-|void `addObjective (string name, Goal goal, double weight, double solveForValue)` |Method used to add an objective |
-|abstract void `addObjectives ()` |Method called to specifiy the objectives for the evaluator |
-|void `Dispose ()` |Called to dispose the object. |
-|abstract ModelEvaluation `EvaluateModel (object[] designVariables)` |Evaluates the model at the given design point |
-|virtual double `getIGD (List< double[]> bestDesignObjectives, string filePath)` |Calculates the IGD value for multi-objective problem [The IGD formula is slightly modified to get the nearest possible value to actual IGD] [The actual formula accounts for equal no of optimal & obtained set of objectives, while, we calculate based on the number of objectives obtained] |
-|abstract bool `IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)` |Determines whether design is an acceptable design. |
-|void `SetStartPoint (object[] startValues)` |Sets the starting design for the evaluator |
+|Type|Name|Description|
+|-----|-----|-----|
+|void |`addConstraint (string name, double lowerBound, double upperBound)` |Method used to add a constraint |
+|virtual void |`addConstraints ()` |Method called to specifiy the constraints for the evaluator (by default, not constraints are specified) |
+|void |`addDesignVariable (string name, object startValue)` |Method used to add design variable |
+|void |`addDesignVariable (string name, object startValue, DataTable selectedAlphabet)` |Method used to add design variable |
+|void |`addDesignVariable (string name, object startValue, double lowerBound, double upperBound)` |Method used to add design variable |
+|void |`addDesignVariable (string name, object startValue, double lowerBound, double upperBound, DataTable selectedAlphabet)` |Method used to add a design variable |
+|abstract void |`addDesignVariables ()` |Method called to added design variables |
+|void |`addObjective (string name, double solveForValue)` |Method used to add an objective (assumes solve for objective) |
+|void |`addObjective (string name, double solveForValue, double weight)` |Method used to add an objective (assumes solve for objective) |
+|void |`addObjective (string name, Goal goal)` |Method used to add an objective |
+|void |`addObjective (string name, Goal goal, double weight, double solveForValue)` |Method used to add an objective |
+|abstract void |`addObjectives ()` |Method called to specifiy the objectives for the evaluator |
+|void |`Dispose ()` |Called to dispose the object. |
+|abstract ModelEvaluation |`EvaluateModel (object[] designVariables)` |Evaluates the model at the given design point |
+|virtual double |`getIGD (List< double[]> bestDesignObjectives, string filePath)` |Calculates the IGD value for multi-objective problem [The IGD formula is slightly modified to get the nearest possible value to actual IGD] [The actual formula accounts for equal no of optimal & obtained set of objectives, while, we calculate based on the number of objectives obtained] |
+|abstract bool |`IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)` |Determines whether design is an acceptable design. |
+|void |`SetStartPoint (object[] startValues)` |Sets the starting design for the evaluator |
 
 ## Properties
-|Name|Description|
-|-----|-----|
-|override object[,] | `GlobalBestDesigns [get]`<br>List of the globally best designs for the evaluator. |
-|override bool | `HasFailedRuns [get]`<br>Evaluator does not have failed runs. |
-|override bool | `HasNonSmoothResponses [get]`<br>Evaluator has smooth responses. |
-|override string | `Name [get]`<br>Name of the evaluator. |
-|override bool | `UsesConstraints [get]`<br>Evaluator does not use constraints. |
-|override bool | `UsesDiscreteVariables [get]`<br>Evaluator does not use multiple discrete variables. |
-|override bool | `UsesMinMax [get]`<br>Evaluator does uses minimize/maximize objectives. |
-|override bool | `UsesMultipleObjectives [get]`<br>Evaluator does not use multiple objectives. |
-|override bool | `UsesSolveFor [get]`<br>Evaluator does not use the `solve for` objective. |
+|Type|Name|Description|
+|-----|-----|-----|
+|override object[,] |`GlobalBestDesigns [get]` |List of the globally best designs for the evaluator. |
+|override bool |`HasFailedRuns [get]` |Evaluator does not have failed runs. |
+|override bool |`HasNonSmoothResponses [get]` |Evaluator has smooth responses. |
+|override string |`Name [get]` |Name of the evaluator. |
+|override bool |`UsesConstraints [get]` |Evaluator does not use constraints. |
+|override bool |`UsesDiscreteVariables [get]` |Evaluator does not use multiple discrete variables. |
+|override bool |`UsesMinMax [get]` |Evaluator does uses minimize/maximize objectives. |
+|override bool |`UsesMultipleObjectives [get]` |Evaluator does not use multiple objectives. |
+|override bool |`UsesSolveFor [get]` |Evaluator does not use the `solve for` objective. |
 
 ### Properties inherited from [ModelEvaluator]()
-|Name|Description|
-|-----|-----|
-|List< OptConstraint > | `Constraints [get]`<br>Method to get the list of constraints |
-|int | `DesignVariableCount [get]`<br>Number of design variables specificed by the evaluator |
-|List< DesignVariable > | `DesignVariables [get]`<br>Method to get the list of design variables |
-|abstract object[,] | `GlobalBestDesigns [get]`<br>The global best design for the evaluator (a.k.a. "The right answers") |
-|abstract bool | `HasFailedRuns [get]`<br>Does the evalutor have failed runs? |
-|abstract bool | `HasNonSmoothResponses [get]`<br>Does the evaluator have non-smooth responses |
-|abstract string | `Name [get]`<br>Name of the evaluator |
-|int | `NumberOfObjectives [get]`<br>Number of objectives specified |
-|List< Objective > | `Objectives [get]`<br>Method to get the list of objectives |
-|abstract bool | `UsesConstraints [get]`<br>Does the evaluator use constraints? |
-|abstract bool | `UsesDiscreteVariables [get]`<br>Does the evaluator use discrete variables? |
-|abstract bool | `UsesMinMax [get]`<br>Does the evaluator use a `Minimize/Maximize` objective? |
-|abstract bool | `UsesMultipleObjectives [get]`<br>Does the evaluator specify multiple objectives? |
-|abstract bool | `UsesSolveFor [get]`<br>Does the evaluator use the `solve for` objective? |
+|Type|Name|Description|
+|-----|-----|-----|
+|List< OptConstraint > |`Constraints [get]` |Method to get the list of constraints |
+|int |`DesignVariableCount [get]` |Number of design variables specificed by the evaluator |
+|List< DesignVariable > |`DesignVariables [get]` |Method to get the list of design variables |
+|abstract object[,] |`GlobalBestDesigns [get]` |The global best design for the evaluator (a.k.a. "The right answers") |
+|abstract bool |`HasFailedRuns [get]` |Does the evalutor have failed runs? |
+|abstract bool |`HasNonSmoothResponses [get]` |Does the evaluator have non-smooth responses |
+|abstract string |`Name [get]` |Name of the evaluator |
+|int |`NumberOfObjectives [get]` |Number of objectives specified |
+|List< Objective > |`Objectives [get]` |Method to get the list of objectives |
+|abstract bool |`UsesConstraints [get]` |Does the evaluator use constraints? |
+|abstract bool |`UsesDiscreteVariables [get]` |Does the evaluator use discrete variables? |
+|abstract bool |`UsesMinMax [get]` |Does the evaluator use a `Minimize/Maximize` objective? |
+|abstract bool |`UsesMultipleObjectives [get]` |Does the evaluator specify multiple objectives? |
+|abstract bool |`UsesSolveFor [get]` |Does the evaluator use the `solve for` objective? |
 
 ### Properties inherited from [IEvaluator]()
-|Name|Description|
-|-----|-----|
-|List< OptConstraint > | `Constraints [get]`<br>List of constraints defined by the evaluator. |
-|int | `DesignVariableCount [get]`<br>Number of design variables specificed by the evaluator. |
-|List< DesignVariable > | `DesignVariables [get]`<br>List of design variables defined by the evaluator. |
-|object[,] | `GlobalBestDesigns [get]`<br>The global best designs for the evaluator. |
-|bool | `HasFailedRuns [get]`<br>Does the evalutor have failed runs? |
-|bool | `HasNonSmoothResponses [get]`<br>Does the evaluator have non-smooth responses. |
-|string | `Name [get]`<br>Name of the evaluator. |
-|int | `NumberOfObjectives [get]`<br>Number of objectives specified. |
-|List< Objective > | `Objectives [get]`<br>List of objectives defined by the evaluator. |
-|bool | `UsesConstraints [get]`<br>Does the evaluator use constraints? |
-|bool | `UsesDiscreteVariables [get]`<br>Does the evaluator use discrete variables? |
-|bool | `UsesMinMax [get]`<br>Does the evaluator use a `Minimize/Maximize` objective? |
-|bool | `UsesMultipleObjectives [get]`<br>Does the evaluator specify multiple objectives? |
-|bool | `UsesSolveFor [get]`<br>Does the evaluator use the `solve for` objective? |
+|Type|Name|Description|
+|-----|-----|-----|
+|List< OptConstraint > |`Constraints [get]` |List of constraints defined by the evaluator. |
+|int |`DesignVariableCount [get]` |Number of design variables specificed by the evaluator. |
+|List< DesignVariable > |`DesignVariables [get]` |List of design variables defined by the evaluator. |
+|object[,] |`GlobalBestDesigns [get]` |The global best designs for the evaluator. |
+|bool |`HasFailedRuns [get]` |Does the evalutor have failed runs? |
+|bool |`HasNonSmoothResponses [get]` |Does the evaluator have non-smooth responses. |
+|string |`Name [get]` |Name of the evaluator. |
+|int |`NumberOfObjectives [get]` |Number of objectives specified. |
+|List< Objective > |`Objectives [get]` |List of objectives defined by the evaluator. |
+|bool |`UsesConstraints [get]` |Does the evaluator use constraints? |
+|bool |`UsesDiscreteVariables [get]` |Does the evaluator use discrete variables? |
+|bool |`UsesMinMax [get]` |Does the evaluator use a `Minimize/Maximize` objective? |
+|bool |`UsesMultipleObjectives [get]` |Does the evaluator specify multiple objectives? |
+|bool |`UsesSolveFor [get]` |Does the evaluator use the `solve for` objective? |
 
 ## Constructor & Destructor Documentation
 

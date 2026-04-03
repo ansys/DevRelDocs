@@ -25,9 +25,9 @@ Implemented by algorithms with custom IsDesignFeasible implementations.
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-|FuzzyBoolean |`IsDesignFeasible (double[] objectiveValues, double[] constraintValues, object[] designVariableValues)`<br>Tests whether the given design is feasible. |
+|Type|Name|Description|
+|-----|-----|-----|
+|FuzzyBoolean |`IsDesignFeasible (double[] objectiveValues, double[] constraintValues, object[] designVariableValues)` |Tests whether the given design is feasible. |
 
 ## Member Function Documentation
 

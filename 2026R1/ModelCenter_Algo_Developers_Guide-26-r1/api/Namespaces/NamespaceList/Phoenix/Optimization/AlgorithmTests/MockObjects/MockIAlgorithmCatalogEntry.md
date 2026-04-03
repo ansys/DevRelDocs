@@ -43,26 +43,26 @@ A mock implementation of [`IAlgorithmCatalogEntry`](../../IAlgorithmCatalogEntry
 |[ISerializableAlgorithm]() |`GetOutOfProcessAlgorithm ()` |Create an out-of-process instance of the algorithm suitable for running the algorithm. |
 
 ## Protected Member Functions 
-|Name|Description|
-|-----|-----|
-|virtual void  |`Setup (IAlgorithm algorithm)` <br>Initialization method used by contructors to set up the wrapped `IAlgorithm`. |
+|Type|Name|Description|
+|-----|-----|-----|
+|virtual void |`Setup (IAlgorithm algorithm)` |Initialization method used by contructors to set up the wrapped `IAlgorithm`. |
  
 ## Protected Attributes 
-|Name|Description|
-|-----|-----|
-|`IAlgorithm` | `_algorithm` <br> The mock `IAlgorithm` object. | 
+|Type|Name|Description|
+|-----|-----|-----|
+|`IAlgorithm` |`_algorithm` |The mock `IAlgorithm` object. |
 
 ## Properties
-|Name|Description|
-|-----|-----|
-|string | `Id [get]`<br>The ID for this algorithm entry. This is sometimes used to relocate an algorithm in the overall catalog. This property should be the same as the key associated with this entry in the dictionary returned by `[IDynamicAlgorithmProvider]().LoadAlgorithms`. |
-|[IAlgorithm]() | `UserInteractionInstance [get]`<br>This instance is intended for the Opt Tool to present to the user when configuring the algorithm and optimization tool. The instance is owned by the catalog entry and should be disposed when it is disposed. |
+|Type|Name|Description|
+|-----|-----|-----|
+|string |`Id [get]` |The ID for this algorithm entry. This is sometimes used to relocate an algorithm in the overall catalog. This property should be the same as the key associated with this entry in the dictionary returned by `[IDynamicAlgorithmProvider]().LoadAlgorithms`. |
+|[IAlgorithm]() |`UserInteractionInstance [get]` |This instance is intended for the Opt Tool to present to the user when configuring the algorithm and optimization tool. The instance is owned by the catalog entry and should be disposed when it is disposed. |
 
 ### Properties inherited from [IAlgorithmCatalogEntry]()
-|Name|Description|
-|-----|-----|
-|string | `Id [get]`<br>The ID for this algorithm entry. |
-|[IAlgorithm]() | `UserInteractionInstance [get]`<br>This instance is intended for the Opt Tool to present to the user when configuring the algorithm and optimization tool. |
+|Type|Name|Description|
+|-----|-----|-----|
+|string |`Id [get]` |The ID for this algorithm entry. |
+|[IAlgorithm]() |`UserInteractionInstance [get]` |This instance is intended for the Opt Tool to present to the user when configuring the algorithm and optimization tool. |
 
 ## Constructor & Destructor Documentation
 

@@ -25,18 +25,18 @@ This can be thrown from the algorithm when the algorithm is halted.
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-|`HaltedException ()` |Initializes a new instance of the HaltedException class. |
-|`HaltedException (string msg)` |Initializes a new instance of the HaltedException class with a specified error message. |
-|`HaltedException (string msg, Exception inner)` |Initializes a new instance of the HaltedException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+|Type|Name|Description|
+|-----|-----|-----|
+| |`HaltedException ()`| Initializes a new instance of the HaltedException class. |
+| |`HaltedException (string msg)`| Initializes a new instance of the HaltedException class with a specified error message. |
+| |`HaltedException (string msg, Exception inner)`| Initializes a new instance of the HaltedException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
 ### Public Member Functions inherited from [OptimizationException]()
-|Name|Description|
-|-----|-----|
-|`OptimizationException ()` |Initializes a new instance of the OptimizationException class. |
-|`OptimizationException (string msg)` |Initializes a new instance of the OptimizationException class with a specified error message. |
-|`OptimizationException (string msg, Exception inner)` |Initializes a new instance of the OptimizationException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+|Type|Name|Description|
+|-----|-----|-----|
+| |`OptimizationException ()`| Initializes a new instance of the OptimizationException class. |
+| |`OptimizationException (string msg)`| Initializes a new instance of the OptimizationException class with a specified error message. |
+| |`OptimizationException (string msg, Exception inner)`| Initializes a new instance of the OptimizationException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
 ## Constructor & Destructor Documentation
 

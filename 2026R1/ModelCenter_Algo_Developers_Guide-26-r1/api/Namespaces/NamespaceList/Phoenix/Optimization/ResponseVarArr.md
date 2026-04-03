@@ -25,27 +25,27 @@ summary> Get/set flag indicatining if response variable array has error /summary
 
 |Type|Name|Description|
 |-----|-----|-----|
-|[ResponseVariable]() |`AddNew (string name, bool isInMC, bool isItOutput)` | |
-|bool |`CheckIndexAndDuplicatedNames (bool doPopulateErrText)` | |
-|void |`Clear ()` | |
-|void |`CopyTo (ResponseVarArr arrTo)` | |
-|[ResponseVariable]() |`FindByName (string name)` | |
-|[ResponseVariable]() |`FindOrCreateNewVar (string name, bool isInMC=true, bool isItOutput=true)` | |
-|IEnumerator< ResponseVariable > |`GetEnumerator ()` | |
-|bool |`IsEqualTo (ResponseVarArr varArrToCompare)` | |
-|ResponseVarArr |`MakeCopy ()` | |
-|bool |`RemoveVar (int varIndex, bool doRebuildIndexAndCheckName=true)` | |
-|bool |`RemoveVar (ResponseVariable var, bool doRebuildIndexAndCheckName=true)` | |
-| |`ResponseVarArr ()` |summary> Get/set flag indicatining if response variable array has error /summary> |
+|[ResponseVariable]() |`AddNew (string name, bool isInMC, bool isItOutput)`|  |
+|bool |`CheckIndexAndDuplicatedNames (bool doPopulateErrText)`|  |
+|void |`Clear ()`|  |
+|void |`CopyTo (ResponseVarArr arrTo)`|  |
+|[ResponseVariable]() |`FindByName (string name)`|  |
+|[ResponseVariable]() |`FindOrCreateNewVar (string name, bool isInMC=true, bool isItOutput=true)`|  |
+|IEnumerator< ResponseVariable > |`GetEnumerator ()`|  |
+|bool |`IsEqualTo (ResponseVarArr varArrToCompare)`|  |
+|ResponseVarArr |`MakeCopy ()`|  |
+|bool |`RemoveVar (int varIndex, bool doRebuildIndexAndCheckName=true)`|  |
+|bool |`RemoveVar (ResponseVariable var, bool doRebuildIndexAndCheckName=true)`|  |
+| |`ResponseVarArr ()`| summary> Get/set flag indicatining if response variable array has error /summary> |
 
 ## Properties
-|Name|Description|
-|-----|-----|
-|int | `Count [get]`<br> |
-|string | `ErrText [get, set]`<br>summary> Gets "Count" /summary> |
-|bool | `HasErrors [get, set]`<br>summary> Get/Set Error text /summary> |
-|[ResponseVariable]() | `this[int index] [get]`<br> |
-|[ResponseVariable]() | `this[string name] [get]`<br>Return the first occurence of the |
+|Type|Name|Description|
+|-----|-----|-----|
+|int |`Count [get]`|  |
+|string |`ErrText [get, set]`| summary> Gets "Count" /summary> |
+|bool |`HasErrors [get, set]`| summary> Get/Set Error text /summary> |
+|[ResponseVariable]() |`this[int index] [get]`|  |
+|[ResponseVariable]() |`this[string name] [get]`| Return the first occurence of the |
 
 ## Constructor & Destructor Documentation
 

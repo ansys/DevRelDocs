@@ -27,25 +27,25 @@ Class to hold contraint information
 
 |Type|Name|Description|
 |-----|-----|-----|
-|int |`Compare (double x, double y)` |Compares to values to see which violates the constraint worse. |
-|override bool |`Equals (object obj)` |Determines whether the specified Object is equal to the current Object. |
-|bool |`Equals (OptConstraint constraint)` |Determines whether the specified OptConstraint is equal to the current OptConstraint. |
-|double |`GetConstraintViolation (double p)` |Given a particular value, returns an amount by which the constraint is violated. |
-|override int |`GetHashCode ()` |Serves as a hash function for OptConstraint. |
-| |`OptConstraint (OptConstraint constraint)` |Copy constructor to create a new constraint from an existing constraint |
-| |`OptConstraint (string name, double lowerBound, double upperBound)` |Create a new constraint with the given name, lower and upper bound. |
+|int |`Compare (double x, double y)`| Compares to values to see which violates the constraint worse. |
+|override bool |`Equals (object obj)`| Determines whether the specified Object is equal to the current Object. |
+|bool |`Equals (OptConstraint constraint)`| Determines whether the specified OptConstraint is equal to the current OptConstraint. |
+|double |`GetConstraintViolation (double p)`| Given a particular value, returns an amount by which the constraint is violated. |
+|override int |`GetHashCode ()`| Serves as a hash function for OptConstraint. |
+| |`OptConstraint (OptConstraint constraint)`| Copy constructor to create a new constraint from an existing constraint |
+| |`OptConstraint (string name, double lowerBound, double upperBound)`| Create a new constraint with the given name, lower and upper bound. |
 
 ## Properties
-|Name|Description|
-|-----|-----|
-|double | `LowerBound [get]`<br>Lower bound of the constraint or NaN if no lower bound exists. |
-|string | `Name [get]`<br>Name of the constraint |
-|double | `UpperBound [get]`<br>Upper bound of constraint or NaN if no upper bound exists. |
+|Type|Name|Description|
+|-----|-----|-----|
+|double |`LowerBound [get]`| Lower bound of the constraint or NaN if no lower bound exists. |
+|string |`Name [get]`| Name of the constraint |
+|double |`UpperBound [get]`| Upper bound of constraint or NaN if no upper bound exists. |
 
 ### Properties inherited from [IVariableName]()
-|Name|Description|
-|-----|-----|
-|string | `Name [get]`<br>The name of the variable |
+|Type|Name|Description|
+|-----|-----|-----|
+|string |`Name [get]`| The name of the variable |
 
 ## Constructor & Destructor Documentation
 

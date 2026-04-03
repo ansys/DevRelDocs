@@ -40,23 +40,23 @@
 
 
 ## Enumerations 
-|Name|Description|
-|-----|-----|
-|enum  | [`AlgorithmNumModelEvaluations { Small, Moderate, Many, Unspecified }`](#AlgorithmNumModelEvaluations) <br>Enum containing the developer's evaluation of how many model evaluations are required for convergence of the algorithm |
-|enum  | [`FuzzyBoolean : int { True = 3, False = 0, Maybe = 2, Unspecified = 1 }`](#FuzzyBoolean) <br>Enum used to capture maybes in boolean values. |
-|enum  | [`Goal { Minimize, Maximize, SolveFor, Unspecified }`](#Goal) <br>Enum used to specify the goal of an objective. |
-|enum  | [`GoalType { MinMaxOnly, SolveOnly, MinMaxSolve, Unspecified }`](#GoalType) <br>Enum used internally to specify which goals are used in a problem definition. |
-|enum  | [`MessageType { Info, Warn, Error, Debug }`](#MessageType) <br>Enum used to specify status messages type. |
-|enum  | `StartValueBehaviorEnum { UseExplicitValue = 0, UseModelCenterValue = 1, UseBestDesignFromLastRun = 2 }` <br> |
-|enum  | [`WarmStartMethod { AlgorithmControlled = 0, RerunWithCache = 1 }`](#WarmStartMethod) <br>Supported methods for warm-start. |
+|Type|Name|Description|
+|-----|-----|-----|
+|enum  |[`AlgorithmNumModelEvaluations { Small, Moderate, Many, Unspecified }`](#AlgorithmNumModelEvaluations) |Enum containing the developer's evaluation of how many model evaluations are required for convergence of the algorithm |
+|enum  |[`FuzzyBoolean : int { True = 3, False = 0, Maybe = 2, Unspecified = 1 }`](#FuzzyBoolean) |Enum used to capture maybes in boolean values. |
+|enum  |[`Goal { Minimize, Maximize, SolveFor, Unspecified }`](#Goal) |Enum used to specify the goal of an objective. |
+|enum  |[`GoalType { MinMaxOnly, SolveOnly, MinMaxSolve, Unspecified }`](#GoalType) |Enum used internally to specify which goals are used in a problem definition. |
+|enum  |[`MessageType { Info, Warn, Error, Debug }`](#MessageType) |Enum used to specify status messages type. |
+|enum  |`StartValueBehaviorEnum { UseExplicitValue = 0, UseModelCenterValue = 1, UseBestDesignFromLastRun = 2 }` | |
+|enum  |[`WarmStartMethod { AlgorithmControlled = 0, RerunWithCache = 1 }`](#WarmStartMethod) |Supported methods for warm-start. |
  
   
 
 
 ## Functions 
-|Name|Description|
-|-----|-----|
-|delegate bool | [`AreDesignsEqual (object[] design1, object[] design2, IEvaluator evaluator)`](#AreDesignsEqual)<br>Compares two designs to see if they are effectively equal. |
+|Type|Name|Description|
+|-----|-----|-----|
+|delegate bool |[`AreDesignsEqual (object[] design1, object[] design2, IEvaluator evaluator)`](#AreDesignsEqual) |Compares two designs to see if they are effectively equal. |
  
   
 
@@ -182,11 +182,11 @@ delegate bool Phoenix.Optimization.AreDesignsEqual  ( object[]  design1,
 
 Compares two designs to see if they are effectively equal. 
 
-|Parameter|Description|
-|-----|-----|
-|`design1` |First design to be compared. |
-|`design2` |Second design to be compared. |
-|`evaluator` |Evaluator for the comparison. |
-|`ReturnsReturns` |`true` if designs are equal. |  
+|Type|Name|Description|
+|-----|-----|-----|
+| |`design1` |First design to be compared. |
+| |`design2` |Second design to be compared. |
+| |`evaluator` |Evaluator for the comparison. |
+|bool |`Returns` |`true` if designs are equal. |  
  
 
