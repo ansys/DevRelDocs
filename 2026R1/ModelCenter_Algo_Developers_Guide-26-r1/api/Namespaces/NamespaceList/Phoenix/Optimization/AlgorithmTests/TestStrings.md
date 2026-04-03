@@ -19,126 +19,126 @@ A strongly-typed resource class, for looking up localized strings, etc.
 
 
 ## Properties
-|Name|Description|
-|-----|-----|
-|static string | `AckleyFunction [get]`<br>Looks up a localized string similar to Ackley function. |
-|static string | `AlgorithmDoesNotHaveGUID [get]`<br>Looks up a localized string similar to Algorithm does not have a GUID. |
-|static string | `AlgorithmDoesNotSupportConstraints [get]`<br>Looks up a localized string similar to AlgorithmDoesNotSupportConstraints. |
-|static string | `AlgorithmDoesNotSupportFailedRuns [get]`<br>Looks up a localized string similar to Algorithm does not support failed runs. |
-|static string | `AlgorithmDoesNotSupportMinimizeMaximize [get]`<br>Looks up a localized string similar to Algorithm does not support minimize/maximize. |
-|static string | `AlgorithmDoesNotUseOptions [get]`<br>Looks up a localized string similar to Algorithm does not use options. |
-|static string | `AlgorithmInstallationPath [get]`<br>Looks up a localized string similar to algorithm installation path. |
-|static string | `AlgorithmIsNotFeasibilityProvider [get]`<br>Looks up a localized string similar to Algorithm is not an [IFeasibilityProvider](). |
-|static string | `AlgorithmPathEmpty [get]`<br>Looks up a localized string similar to Algorithm Path is empty. |
-|static string | `AlgorithmUsesModelCenterHelp [get]`<br>Looks up a localized string similar to The algorithm is attempting to use the following HelpID for the ModleCenter help: {0} Please Verify. |
-|static string | `AtLeastShouldBeOneAlgorithmLoaded [get]`<br>Looks up a localized string similar to There should be at least one algorithm loaded. |
-|static string | `BestDesignAndGlobalAnswerShouldBeSameSize [get]`<br>Looks up a localized string similar to Best design and expected result should be the same size. |
-|static string | `BestDesignNotDefined [get]`<br>Looks up a localized string similar to Best design not defined. |
-|static string | `BestDesignProgressionDiffersAt [get]`<br>Looks up a localized string similar to Best design progression differs at index: {0}. |
-|static string | `BestDesignsDifferent [get]`<br>Looks up a localized string similar to Final best designs are different. |
-|static string | `BestDesignsNotImproving [get]`<br>Looks up a localized string similar to Best designs are not improving after {0} of {1} designs Designs: {2} |
-|static string | `CannotInstantiateForShuffle [get]`<br>Looks up a localized string similar to Cannot instantiate {0} object: {1}. |
-|static string | `CannotShuffleType [get]`<br>Looks up a localized string similar to The option type, {0}, cannot be shuffled; its set and restore cannot be tested. |
-|static string | `CheckpointEmpty [get]`<br>Looks up a localized string similar to Error in test: checkpoint shouldn't be empty. |
-|static string | `ConstraintName [get]`<br>Looks up a localized string similar to Constraint{0}. |
-|static string | `Constraints [get]`<br>Looks up a localized string similar to constraints. |
-|static string | `ConstraintsBounded [get]`<br>Looks up a localized string similar to Bounded Constraints. |
-|static string | `ConstraintsNoLowerBound [get]`<br>Looks up a localized string similar to No Lower Bound Constraints. |
-|static string | `ConstraintsNoUpperBound [get]`<br>Looks up a localized string similar to No Upper Bound Constraints. |
-|static global::System.Globalization.CultureInfo | `Culture [get, set]`<br>Overrides the current thread's CurrentUICulture property for all resource lookups using this strongly typed resource class. |
-|static string | `DeserializedAlgorithmIsNull [get]`<br>Looks up a localized string similar to Deserialized algorithm is null. |
-|static string | `DesignNotFoundInPrevEvaluations [get]`<br>Looks up a localized string similar to Best Design sent in by the algorithm cannot be found in previous evaluations. |
-|static string | `DesignVariableBounded [get]`<br>Looks up a localized string similar to Bounded Design Variables. |
-|static string | `DesignVariableName [get]`<br>Looks up a localized string similar to DesignVariable{0}. |
-|static string | `DesignVariableNoLowerBound [get]`<br>Looks up a localized string similar to No Lower Bound Design Variable. |
-|static string | `DesignVariableNoUpperBound [get]`<br>Looks up a localized string similar to No Upper Bound Design Variables. |
-|static string | `DesignVariableUnbounded [get]`<br>Looks up a localized string similar to Unbounded Design Variables. |
-|static string | `DetailsReportDoesNotThrowExceptionAndIsNotEmptyAfterRun [get]`<br>Looks up a localized string similar to Details report either null or throws exception after run. |
-|static string | `DetailsReportWasNotUpdatedDuringRun [get]`<br>Looks up a localized string similar to Details report was not updated during run. |
-|static string | `DidNotFindAnAcceptableDesign [get]`<br>Looks up a localized string similar to Did not find an acceptable design. |
-|static string | `DidNotFinishSuccessfully [get]`<br>Looks up a localized string similar to Did not finish successfully. |
-|static string | `DidNotHaltAfterCorrectNumberOfIterations [get]`<br>Looks up a localized string similar to Did not halt after the correct number of iterations. |
-|static string | `DiscreteVariables [get]`<br>Looks up a localized string similar to discrete variables. |
-|static string | `DiscreteVariablesNotSupported [get]`<br>Looks up a localized string similar to Algorithm does not support discrete variables. |
-|static string | `EqualProperties [get]`<br>Looks up a localized string similar to Property {0} values are equal. |
-|static string | `ErrorDeserializngAlgorithm [get]`<br>Looks up a localized string similar to There was an error deserializing the algorithm: {0}. |
-|static string | `ErrorLoadingAlgorithms [get]`<br>Looks up a localized string similar to There was an error loading the algorithms: {0}. |
-|static string | `ErrorSerializingAlgorithm [get]`<br>Looks up a localized string similar to There was an error serializing the algorithm: {0}. |
-|static string | `EvaluationShouldNotHaveFailed [get]`<br>Looks up a localized string similar to Evaluation should not have failed. |
-|static string | `EvaluatorNotValidForAlgorithm [get]`<br>Looks up a localized string similar to {0} uses {1}, but {2} does not support it. |
-|static string | `ExceptionDifferent [get]`<br>Looks up a localized string similar to Exception thrown was different. |
-|static string | `ExceptionMismatch [get]`<br>Looks up a localized string similar to Either full run or restart threw an exception while the other did not. |
-|static string | `ExceptionSettingConstraints [get]`<br>Looks up a localized string similar to Exception setting constraints. |
-|static string | `ExceptionSettingDesignVariables [get]`<br>Looks up a localized string similar to Exception setting design variables. |
-|static string | `ExceptionSettingObjectives [get]`<br>Looks up a localized string similar to Exception thrown setting Objectives. |
-|static string | `ExceptionThrownBySerializeDeserialize [get]`<br>Looks up a localized string similar to An exception was thrown during Options object serialze/deserialize: {0}. |
-|static string | `ExpectedBestDesign [get]`<br>Looks up a localized string similar to Expected Global Best Design:. |
-|static string | `ExpectedObjectiveComparisonDifferent [get]`<br>Looks up a localized string similar to Expected objective comparison is different. |
-|static string | `FailedRunsEvaluator [get]`<br>Looks up a localized string similar to Failed Runs Evaluator. |
-|static string | `FailedToGetAlgorithmType [get]`<br>Looks up a localized string similar to Failed to get algorithm type. |
-|static string | `FailedToShuffle [get]`<br>Looks up a localized string similar to Failed to shuffle {0} property: . |
-|static string | `FailureGetting [get]`<br>Looks up a localized string similar to Failure getting {0}: {1}. |
-|static string | `FailureRunning [get]`<br>Looks up a localized string similar to Failure running {0}: {1}. |
-|static string | `FileNotFound [get]`<br>Looks up a localized string similar to {0} could not be found at: {1}. |
-|static string | `FinishedSuccessfullyShouldBeFalse [get]`<br>Looks up a localized string similar to FinishedSuccessfully should be false when halted. |
-|static string | `FrankFunction [get]`<br>Looks up a localized string similar to Frank function. |
-|static string | `GlobalBestDesignNotFeasibile [get]`<br>Looks up a localized string similar to Algorithm states that one of the global best designs for {0} are not feasible. |
-|static string | `GoalsNotEqual [get]`<br>Looks up a localized string similar to Goals not equal. |
-|static string | `HelpFile [get]`<br>Looks up a localized string similar to help file. |
-|static string | `Icon [get]`<br>Looks up a localized string similar to icon. |
-|static string | `LohPapalambrosExample2 [get]`<br>Looks up a localized string similar to Loh-Papalambros Problem (Example 2). |
-|static string | `LowerBoundsNotEqual [get]`<br>Looks up a localized string similar to Lower bounds not equal. |
-|static string | `MatyasFunction [get]`<br>Looks up a localized string similar to Matyas function. |
-|static string | `Maximize [get]`<br>Looks up a localized string similar to maximize. |
-|static string | `MaxNumObjectivesWrong [get]`<br>Looks up a localized string similar to MaxNumObjectives is not consistent: If algorithm supports multiple objecitves, MaxNumObjectives should be either -1 (no limit) or greater than 1. |
-|static string | `MessageTypesDifferAt [get]`<br>Looks up a localized string similar to Difference between full run message type {0}, and restart message type {1}. |
-|static string | `Minimize [get]`<br>Looks up a localized string similar to minimize. |
-|static string | `MinMax [get]`<br>Looks up a localized string similar to minimize/maximize. |
-|static string | `MultipleObjectives [get]`<br>Looks up a localized string similar to multiple objectives. |
-|static string | `MustBeAtLeastOneObjective [get]`<br>Looks up a localized string similar to The maximum number of objectives must be at least one, or -1 to indicate unlimited. |
-|static string | `NamesNotEqual [get]`<br>Looks up a localized string similar to Names not equal. |
-|static string | `NoBestDesignFound [get]`<br>Looks up a localized string similar to No best design was found. |
-|static string | `NoCheckpoints [get]`<br>Looks up a localized string similar to Algorithm did not save any checkpoints. |
-|static string | `NonConvergingSystemEvaluator [get]`<br>Looks up a localized string similar to Non-Converging system evaluator. |
-|static string | `NonSmoothResponses [get]`<br>Looks up a localized string similar to non-smooth responses. |
-|static string | `NoSupportedTests [get]`<br>Looks up a localized string similar to Algorithm doesn't support any of the available tests. |
-|static string | `NoValidGlobalAnswer [get]`<br>Looks up a localized string similar to No GlobalBestDesign is valid. |
-|static string | `NumConstraintsNotEqual [get]`<br>Looks up a localized string similar to Number of constraints not equal. |
-|static string | `NumDesignVariablessNotEqual [get]`<br>Looks up a localized string similar to Number of design variabless not equal. |
-|static string | `NumDesignVariableStartValueMismatch [get]`<br>Looks up a localized string similar to The number of values in the start point must equal the number of design variables. |
-|static string | `NumObjectivesNotEqual [get]`<br>Looks up a localized string similar to Number of objectives not equal. |
-|static string | `ObjectiveName [get]`<br>Looks up a localized string similar to {0} function test. |
-|static string | `ObjectiveNum [get]`<br>Looks up a localized string similar to objective{0}. |
-|static string | `OptionsAreNull [get]`<br>Looks up a localized string similar to Options object is not specified. |
-|static string | `OptionsMustBeSerializable [get]`<br>Looks up a localized string similar to Options must be serializable or extend MarshalByRefObject. |
-|static string | `PropertiesDiffer [get]`<br>Looks up a localized string similar to Property {0} values differ. |
-|static string | `ReleaseDateError [get]`<br>Looks up a localized string similar to Error parsing release date string. |
-|static string | `RequiresAtLeastTwoDimensions [get]`<br>Looks up a localized string similar to Requires at least two dimensions. |
-|static global::System.Resources.ResourceManager | `ResourceManager [get]`<br>Returns the cached ResourceManager instance used by this class. |
-|static string | `RestartFinished [get]`<br>Looks up a localized string similar to Either full run or restart finished successfully while the other did not. |
-|static string | `ResultsReportsDifferent [get]`<br>Looks up a localized string similar to Results reports are different. |
-|static string | `RosenbrockDiscreteFunction [get]`<br>Looks up a localized string similar to Rosenbrock discrete function. |
-|static string | `RosenbrockFunction [get]`<br>Looks up a localized string similar to Rosenbrock function. |
-|static string | `RosenSuzukiDiscreteProblem [get]`<br>Looks up a localized string similar to Rosen-Suzuki discrete problem. |
-|static string | `RosenSuzukiFailedProblem [get]`<br>Looks up a localized string similar to Rosen-Suzuki problem with failed runs. |
-|static string | `RosenSuzukiProblem [get]`<br>Looks up a localized string similar to Rosen-Suzuki Problem. |
-|static string | `SelectedAlphabbetsNotEqual [get]`<br>Looks up a localized string similar to Selected alphabbets not equal. |
-|static string | `SeparableFunction [get]`<br>Looks up a localized string similar to Separable function problem. |
-|static string | `SolveFor [get]`<br>Looks up a localized string similar to solve for. |
-|static string | `SolveForValuesNotEqual [get]`<br>Looks up a localized string similar to SolveForValues not equal. |
-|static string | `StatusMessagesDifferAt [get]`<br>Looks up a localized string similar to Difference between full run status message {0}, and restart status message {1}. |
-|static string | `Stelmack98FailedProblem [get]`<br>Looks up a localized string similar to Stelmack98 problem with failed runs. |
-|static string | `Stelmack98Problem [get]`<br>Looks up a localized string similar to Stelmack98 Problem. |
-|static string | `SystemOfEquations [get]`<br>Looks up a localized string similar to System of equations. |
-|static string | `TB1Function [get]`<br>Looks up a localized string similar to TB1 function problem. |
-|static string | `TB2Function [get]`<br>Looks up a localized string similar to TB2 function problem. |
-|static string | `TooManyEvaluations [get]`<br>Looks up a localized string similar to Evaluation count exceeds maximum number of evaluations. |
-|static string | `TwoDimQuadratic [get]`<br>Looks up a localized string similar to Two Dimensional Quadratic. |
-|static string | `Unspecified [get]`<br>Looks up a localized string similar to unspecified. |
-|static string | `UpperBoundsNotEqual [get]`<br>Looks up a localized string similar to Upper bounds not equal. |
-|static string | `UsesMoreObjectives [get]`<br>Looks up a localized string similar to uses more than {0} objectives. |
-|static string | `WeightsNotEqual [get]`<br>Looks up a localized string similar to Weights not equal. |
-|static string | `WoodsFunction [get]`<br>Looks up a localized string similar to Woods function. |
+|Type|Name|Description|
+|-----|-----|-----|
+|static string |`AckleyFunction [get]` |Looks up a localized string similar to Ackley function. |
+|static string |`AlgorithmDoesNotHaveGUID [get]` |Looks up a localized string similar to Algorithm does not have a GUID. |
+|static string |`AlgorithmDoesNotSupportConstraints [get]` |Looks up a localized string similar to AlgorithmDoesNotSupportConstraints. |
+|static string |`AlgorithmDoesNotSupportFailedRuns [get]` |Looks up a localized string similar to Algorithm does not support failed runs. |
+|static string |`AlgorithmDoesNotSupportMinimizeMaximize [get]` |Looks up a localized string similar to Algorithm does not support minimize/maximize. |
+|static string |`AlgorithmDoesNotUseOptions [get]` |Looks up a localized string similar to Algorithm does not use options. |
+|static string |`AlgorithmInstallationPath [get]` |Looks up a localized string similar to algorithm installation path. |
+|static string |`AlgorithmIsNotFeasibilityProvider [get]` |Looks up a localized string similar to Algorithm is not an [IFeasibilityProvider](). |
+|static string |`AlgorithmPathEmpty [get]` |Looks up a localized string similar to Algorithm Path is empty. |
+|static string |`AlgorithmUsesModelCenterHelp [get]` |Looks up a localized string similar to The algorithm is attempting to use the following HelpID for the ModleCenter help: {0} Please Verify. |
+|static string |`AtLeastShouldBeOneAlgorithmLoaded [get]` |Looks up a localized string similar to There should be at least one algorithm loaded. |
+|static string |`BestDesignAndGlobalAnswerShouldBeSameSize [get]` |Looks up a localized string similar to Best design and expected result should be the same size. |
+|static string |`BestDesignNotDefined [get]` |Looks up a localized string similar to Best design not defined. |
+|static string |`BestDesignProgressionDiffersAt [get]` |Looks up a localized string similar to Best design progression differs at index: {0}. |
+|static string |`BestDesignsDifferent [get]` |Looks up a localized string similar to Final best designs are different. |
+|static string |`BestDesignsNotImproving [get]` |Looks up a localized string similar to Best designs are not improving after {0} of {1} designs Designs: {2} |
+|static string |`CannotInstantiateForShuffle [get]` |Looks up a localized string similar to Cannot instantiate {0} object: {1}. |
+|static string |`CannotShuffleType [get]` |Looks up a localized string similar to The option type, {0}, cannot be shuffled; its set and restore cannot be tested. |
+|static string |`CheckpointEmpty [get]` |Looks up a localized string similar to Error in test: checkpoint shouldn't be empty. |
+|static string |`ConstraintName [get]` |Looks up a localized string similar to Constraint{0}. |
+|static string |`Constraints [get]` |Looks up a localized string similar to constraints. |
+|static string |`ConstraintsBounded [get]` |Looks up a localized string similar to Bounded Constraints. |
+|static string |`ConstraintsNoLowerBound [get]` |Looks up a localized string similar to No Lower Bound Constraints. |
+|static string |`ConstraintsNoUpperBound [get]` |Looks up a localized string similar to No Upper Bound Constraints. |
+|static global::System.Globalization.CultureInfo |`Culture [get, set]` |Overrides the current thread's CurrentUICulture property for all resource lookups using this strongly typed resource class. |
+|static string |`DeserializedAlgorithmIsNull [get]` |Looks up a localized string similar to Deserialized algorithm is null. |
+|static string |`DesignNotFoundInPrevEvaluations [get]` |Looks up a localized string similar to Best Design sent in by the algorithm cannot be found in previous evaluations. |
+|static string |`DesignVariableBounded [get]` |Looks up a localized string similar to Bounded Design Variables. |
+|static string |`DesignVariableName [get]` |Looks up a localized string similar to DesignVariable{0}. |
+|static string |`DesignVariableNoLowerBound [get]` |Looks up a localized string similar to No Lower Bound Design Variable. |
+|static string |`DesignVariableNoUpperBound [get]` |Looks up a localized string similar to No Upper Bound Design Variables. |
+|static string |`DesignVariableUnbounded [get]` |Looks up a localized string similar to Unbounded Design Variables. |
+|static string |`DetailsReportDoesNotThrowExceptionAndIsNotEmptyAfterRun [get]` |Looks up a localized string similar to Details report either null or throws exception after run. |
+|static string |`DetailsReportWasNotUpdatedDuringRun [get]` |Looks up a localized string similar to Details report was not updated during run. |
+|static string |`DidNotFindAnAcceptableDesign [get]` |Looks up a localized string similar to Did not find an acceptable design. |
+|static string |`DidNotFinishSuccessfully [get]` |Looks up a localized string similar to Did not finish successfully. |
+|static string |`DidNotHaltAfterCorrectNumberOfIterations [get]` |Looks up a localized string similar to Did not halt after the correct number of iterations. |
+|static string |`DiscreteVariables [get]` |Looks up a localized string similar to discrete variables. |
+|static string |`DiscreteVariablesNotSupported [get]` |Looks up a localized string similar to Algorithm does not support discrete variables. |
+|static string |`EqualProperties [get]` |Looks up a localized string similar to Property {0} values are equal. |
+|static string |`ErrorDeserializngAlgorithm [get]` |Looks up a localized string similar to There was an error deserializing the algorithm: {0}. |
+|static string |`ErrorLoadingAlgorithms [get]` |Looks up a localized string similar to There was an error loading the algorithms: {0}. |
+|static string |`ErrorSerializingAlgorithm [get]` |Looks up a localized string similar to There was an error serializing the algorithm: {0}. |
+|static string |`EvaluationShouldNotHaveFailed [get]` |Looks up a localized string similar to Evaluation should not have failed. |
+|static string |`EvaluatorNotValidForAlgorithm [get]` |Looks up a localized string similar to {0} uses {1}, but {2} does not support it. |
+|static string |`ExceptionDifferent [get]` |Looks up a localized string similar to Exception thrown was different. |
+|static string |`ExceptionMismatch [get]` |Looks up a localized string similar to Either full run or restart threw an exception while the other did not. |
+|static string |`ExceptionSettingConstraints [get]` |Looks up a localized string similar to Exception setting constraints. |
+|static string |`ExceptionSettingDesignVariables [get]` |Looks up a localized string similar to Exception setting design variables. |
+|static string |`ExceptionSettingObjectives [get]` |Looks up a localized string similar to Exception thrown setting Objectives. |
+|static string |`ExceptionThrownBySerializeDeserialize [get]` |Looks up a localized string similar to An exception was thrown during Options object serialze/deserialize: {0}. |
+|static string |`ExpectedBestDesign [get]` |Looks up a localized string similar to Expected Global Best Design:. |
+|static string |`ExpectedObjectiveComparisonDifferent [get]` |Looks up a localized string similar to Expected objective comparison is different. |
+|static string |`FailedRunsEvaluator [get]` |Looks up a localized string similar to Failed Runs Evaluator. |
+|static string |`FailedToGetAlgorithmType [get]` |Looks up a localized string similar to Failed to get algorithm type. |
+|static string |`FailedToShuffle [get]` |Looks up a localized string similar to Failed to shuffle {0} property: . |
+|static string |`FailureGetting [get]` |Looks up a localized string similar to Failure getting {0}: {1}. |
+|static string |`FailureRunning [get]` |Looks up a localized string similar to Failure running {0}: {1}. |
+|static string |`FileNotFound [get]` |Looks up a localized string similar to {0} could not be found at: {1}. |
+|static string |`FinishedSuccessfullyShouldBeFalse [get]` |Looks up a localized string similar to FinishedSuccessfully should be false when halted. |
+|static string |`FrankFunction [get]` |Looks up a localized string similar to Frank function. |
+|static string |`GlobalBestDesignNotFeasibile [get]` |Looks up a localized string similar to Algorithm states that one of the global best designs for {0} are not feasible. |
+|static string |`GoalsNotEqual [get]` |Looks up a localized string similar to Goals not equal. |
+|static string |`HelpFile [get]` |Looks up a localized string similar to help file. |
+|static string |`Icon [get]` |Looks up a localized string similar to icon. |
+|static string |`LohPapalambrosExample2 [get]` |Looks up a localized string similar to Loh-Papalambros Problem (Example 2). |
+|static string |`LowerBoundsNotEqual [get]` |Looks up a localized string similar to Lower bounds not equal. |
+|static string |`MatyasFunction [get]` |Looks up a localized string similar to Matyas function. |
+|static string |`Maximize [get]` |Looks up a localized string similar to maximize. |
+|static string |`MaxNumObjectivesWrong [get]` |Looks up a localized string similar to MaxNumObjectives is not consistent: If algorithm supports multiple objecitves, MaxNumObjectives should be either -1 (no limit) or greater than 1. |
+|static string |`MessageTypesDifferAt [get]` |Looks up a localized string similar to Difference between full run message type {0}, and restart message type {1}. |
+|static string |`Minimize [get]` |Looks up a localized string similar to minimize. |
+|static string |`MinMax [get]` |Looks up a localized string similar to minimize/maximize. |
+|static string |`MultipleObjectives [get]` |Looks up a localized string similar to multiple objectives. |
+|static string |`MustBeAtLeastOneObjective [get]` |Looks up a localized string similar to The maximum number of objectives must be at least one, or -1 to indicate unlimited. |
+|static string |`NamesNotEqual [get]` |Looks up a localized string similar to Names not equal. |
+|static string |`NoBestDesignFound [get]` |Looks up a localized string similar to No best design was found. |
+|static string |`NoCheckpoints [get]` |Looks up a localized string similar to Algorithm did not save any checkpoints. |
+|static string |`NonConvergingSystemEvaluator [get]` |Looks up a localized string similar to Non-Converging system evaluator. |
+|static string |`NonSmoothResponses [get]` |Looks up a localized string similar to non-smooth responses. |
+|static string |`NoSupportedTests [get]` |Looks up a localized string similar to Algorithm doesn't support any of the available tests. |
+|static string |`NoValidGlobalAnswer [get]` |Looks up a localized string similar to No GlobalBestDesign is valid. |
+|static string |`NumConstraintsNotEqual [get]` |Looks up a localized string similar to Number of constraints not equal. |
+|static string |`NumDesignVariablessNotEqual [get]` |Looks up a localized string similar to Number of design variabless not equal. |
+|static string |`NumDesignVariableStartValueMismatch [get]` |Looks up a localized string similar to The number of values in the start point must equal the number of design variables. |
+|static string |`NumObjectivesNotEqual [get]` |Looks up a localized string similar to Number of objectives not equal. |
+|static string |`ObjectiveName [get]` |Looks up a localized string similar to {0} function test. |
+|static string |`ObjectiveNum [get]` |Looks up a localized string similar to objective{0}. |
+|static string |`OptionsAreNull [get]` |Looks up a localized string similar to Options object is not specified. |
+|static string |`OptionsMustBeSerializable [get]` |Looks up a localized string similar to Options must be serializable or extend MarshalByRefObject. |
+|static string |`PropertiesDiffer [get]` |Looks up a localized string similar to Property {0} values differ. |
+|static string |`ReleaseDateError [get]` |Looks up a localized string similar to Error parsing release date string. |
+|static string |`RequiresAtLeastTwoDimensions [get]` |Looks up a localized string similar to Requires at least two dimensions. |
+|static global::System.Resources.ResourceManager |`ResourceManager [get]` |Returns the cached ResourceManager instance used by this class. |
+|static string |`RestartFinished [get]` |Looks up a localized string similar to Either full run or restart finished successfully while the other did not. |
+|static string |`ResultsReportsDifferent [get]` |Looks up a localized string similar to Results reports are different. |
+|static string |`RosenbrockDiscreteFunction [get]` |Looks up a localized string similar to Rosenbrock discrete function. |
+|static string |`RosenbrockFunction [get]` |Looks up a localized string similar to Rosenbrock function. |
+|static string |`RosenSuzukiDiscreteProblem [get]` |Looks up a localized string similar to Rosen-Suzuki discrete problem. |
+|static string |`RosenSuzukiFailedProblem [get]` |Looks up a localized string similar to Rosen-Suzuki problem with failed runs. |
+|static string |`RosenSuzukiProblem [get]` |Looks up a localized string similar to Rosen-Suzuki Problem. |
+|static string |`SelectedAlphabbetsNotEqual [get]` |Looks up a localized string similar to Selected alphabbets not equal. |
+|static string |`SeparableFunction [get]` |Looks up a localized string similar to Separable function problem. |
+|static string |`SolveFor [get]` |Looks up a localized string similar to solve for. |
+|static string |`SolveForValuesNotEqual [get]` |Looks up a localized string similar to SolveForValues not equal. |
+|static string |`StatusMessagesDifferAt [get]` |Looks up a localized string similar to Difference between full run status message {0}, and restart status message {1}. |
+|static string |`Stelmack98FailedProblem [get]` |Looks up a localized string similar to Stelmack98 problem with failed runs. |
+|static string |`Stelmack98Problem [get]` |Looks up a localized string similar to Stelmack98 Problem. |
+|static string |`SystemOfEquations [get]` |Looks up a localized string similar to System of equations. |
+|static string |`TB1Function [get]` |Looks up a localized string similar to TB1 function problem. |
+|static string |`TB2Function [get]` |Looks up a localized string similar to TB2 function problem. |
+|static string |`TooManyEvaluations [get]` |Looks up a localized string similar to Evaluation count exceeds maximum number of evaluations. |
+|static string |`TwoDimQuadratic [get]` |Looks up a localized string similar to Two Dimensional Quadratic. |
+|static string |`Unspecified [get]` |Looks up a localized string similar to unspecified. |
+|static string |`UpperBoundsNotEqual [get]` |Looks up a localized string similar to Upper bounds not equal. |
+|static string |`UsesMoreObjectives [get]` |Looks up a localized string similar to uses more than {0} objectives. |
+|static string |`WeightsNotEqual [get]` |Looks up a localized string similar to Weights not equal. |
+|static string |`WoodsFunction [get]` |Looks up a localized string similar to Woods function. |
 
 ## Member Function Documentation
 

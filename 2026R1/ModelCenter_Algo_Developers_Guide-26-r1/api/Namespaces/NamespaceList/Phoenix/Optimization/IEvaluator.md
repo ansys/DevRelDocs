@@ -25,29 +25,29 @@ Interface used to define model evaluator used by the test problem infrastructure
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-|[ModelEvaluation]() |`EvaluateModel (object[] designVariables)`<br>Evaluates the model at the given design point. |
-|bool |`IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)`<br>Determines whether design is an acceptable design. |
-|void |`SetStartPoint (object[] startValues)`<br>Sets the starting design for the evaluator. |
+|Type|Name|Description|
+|-----|-----|-----|
+|[ModelEvaluation]() |`EvaluateModel (object[] designVariables)` |Evaluates the model at the given design point. |
+|bool |`IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)` |Determines whether design is an acceptable design. |
+|void |`SetStartPoint (object[] startValues)` |Sets the starting design for the evaluator. |
 
 ## Properties
-|Name|Description|
-|-----|-----|
-|List< OptConstraint > | `Constraints [get]`<br>List of constraints defined by the evaluator. |
-|int | `DesignVariableCount [get]`<br>Number of design variables specificed by the evaluator. |
-|List< DesignVariable > | `DesignVariables [get]`<br>List of design variables defined by the evaluator. |
-|object[,] | `GlobalBestDesigns [get]`<br>The global best designs for the evaluator. |
-|bool | `HasFailedRuns [get]`<br>Does the evalutor have failed runs? |
-|bool | `HasNonSmoothResponses [get]`<br>Does the evaluator have non-smooth responses. |
-|string | `Name [get]`<br>Name of the evaluator. |
-|int | `NumberOfObjectives [get]`<br>Number of objectives specified. |
-|List< Objective > | `Objectives [get]`<br>List of objectives defined by the evaluator. |
-|bool | `UsesConstraints [get]`<br>Does the evaluator use constraints? |
-|bool | `UsesDiscreteVariables [get]`<br>Does the evaluator use discrete variables? |
-|bool | `UsesMinMax [get]`<br>Does the evaluator use a Minimize/Maximize objective? |
-|bool | `UsesMultipleObjectives [get]`<br>Does the evaluator specify multiple objectives? |
-|bool | `UsesSolveFor [get]`<br>Does the evaluator use the solve for objective? |
+|Type|Name|Description|
+|-----|-----|-----|
+|List< OptConstraint > |`Constraints [get]` |List of constraints defined by the evaluator. |
+|int |`DesignVariableCount [get]` |Number of design variables specificed by the evaluator. |
+|List< DesignVariable > |`DesignVariables [get]` |List of design variables defined by the evaluator. |
+|object[,] |`GlobalBestDesigns [get]` |The global best designs for the evaluator. |
+|bool |`HasFailedRuns [get]` |Does the evalutor have failed runs? |
+|bool |`HasNonSmoothResponses [get]` |Does the evaluator have non-smooth responses. |
+|string |`Name [get]` |Name of the evaluator. |
+|int |`NumberOfObjectives [get]` |Number of objectives specified. |
+|List< Objective > |`Objectives [get]` |List of objectives defined by the evaluator. |
+|bool |`UsesConstraints [get]` |Does the evaluator use constraints? |
+|bool |`UsesDiscreteVariables [get]` |Does the evaluator use discrete variables? |
+|bool |`UsesMinMax [get]` |Does the evaluator use a Minimize/Maximize objective? |
+|bool |`UsesMultipleObjectives [get]` |Does the evaluator specify multiple objectives? |
+|bool |`UsesSolveFor [get]` |Does the evaluator use the solve for objective? |
 
 ## Member Function Documentation
 

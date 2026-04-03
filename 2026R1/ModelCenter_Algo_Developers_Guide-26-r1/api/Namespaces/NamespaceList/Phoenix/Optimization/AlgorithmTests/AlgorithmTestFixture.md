@@ -18,110 +18,110 @@ class AlgorithmTestFixtureabstract
 Abstract class used for implementing basic algorithm tests.  
  
 ## Classes
-|Type|Description|
-|-----|-----|
-|struct|`AlgorithmResults`|
+|Type|Name|Description|
+|-----|-----|-----|
+|struct |`AlgorithmResults` | |
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-|void |`authorDoesDoesNotThrowExceptionAndIsNotEmpty ()`<br>Test to verify that the Author property does not throw an exception and is defined. |
-|void |`canMaximize ()`<br>Test to verify that the algorithm can solve a problem definition with a maximize objective. |
-|void |`canMinimize ()`<br>Test to verify that the algorithm can solve a problem definition with a minimize objective. |
-|abstract void |`createAlgorithm ()`<br>Creates instance of algorithm to be tested and assigns it to the `algorithm` variable |
-|void |`definesGUID ()`<br>Test to verify that the algorithm had a GUID. |
-|void |`descriptionDoesDoesNotThrowExceptionAndIsNotEmpty ()`<br>Test to verify that the Description property does not throw an exception and is defined. |
-|void |`detailsReportDoesNotThrowExceptionAndIsNotEmptyAfterRun ()`<br>Verifies the `P:Phoenix.Optimization.IAlgorithm.DetailsReport` property does not throw an exception and is not empty after the algorithm is run. |
-|void |`detailsReportDoesNotThrowExceptionBeforeRun ()`<br>Verifies the `P:Phoenix.Optimization.IAlgorithm.DetailsReport` property does not throw an exception before the algorithm is run. |
-|void |`detailsReportUpdateDuringRun ()`<br>Verifies that the algorithm updates the `DetailsReport` during the run. |
-|virtual void |`doesAlgorithmLoadProperly ()`<br>Test to verify that the algorithm has been copied to a location where the Optimization Tool can find it and that the Optimization Tool is able to load it. |
-|void |`doesIsDesignFeasibileThrowError ()`<br>Tests whether or not the algorithm's `IsDesignFeasible` method throws an error, or says that a global best design is not feasible. |
-|void |`efficiencyDoesDoesNotThrowExceptionAndIsSpecified ()`<br>Test to verify that the `NumModelEvaluations` does not throw an exception and is not `AlgorithmNumModelEvaluations.Unspecified`. |
-|void |`handlesFailedRuns ()`<br>Test to verify that the algorithm that says that it can support failed runs is able to solve problem that has failed runs. |
-|void |`handlesNaNInConstraints ()`<br>Tests whether the algorithm can handle `NaN` passed as an upper or lower bound for constraints. |
-|void |`handlesNaNInDesignVariables ()`<br>Tests whether the algorithm can handle `NaN` passed as an upper or lower bound for design variables. |
-|void |`handlesNoFeasibleRunsFound (Exception expectedException)`<br>Verify that an algorithm handles the case of no feasible points being found and throws the expected exception. |
-|virtual void |`handlesUnicodeEnums ()`<br>Test to verify that the algorithm can handle Unicode characters in discrete variable enumerations. |
-|void |`handlesUnicodeNames ()`<br>Test to verify that the algorithm can handle Unicode characters in variable names. |
-|void |`helpFilePathDoesDoesNotThrowExceptionAndFileExists ()`<br>Test to verify that the `HelpFilePath` property does not throw an exception, is defined and that the file exists. |
-|void |`helpURLDoesDoesNotThrowExceptionAndIsNotEmpty ()`<br>Test to verify that the `HelpURL` property does not throw an exception and is defined. |
-|void |`iconLocationDoesDoesNotThrowExceptionAndFileExists ()`<br>Test to verify that the `IconLocation` property does not throw an exception, is defined and that the file exists. |
-|void |`keywordsDoesDoesNotThrowExceptionAndIsNotEmpty ()`<br>Test to verify that the `Keywords` property does not throw an exception and is defined. |
-|void |`licenseFeatureDoesDoesNotThrowException ()`<br>Test to verify that the `HelpFilePath` property does not throw an exception. |
-|bool |`lohPapalambrosFunctionTest ()`<br>Runs the algorithm using the `T:Phoenix.Optimization.AlgorithmTests.Evaluators.LohPapalambrosExample2Evaluator`. |
-|bool |`matyasFunctionTest ()`<br>Runs the algorithm using the `T:Phoenix.Optimization.AlgorithmTests.Evaluators.MatyasEvaluator`. |
-|void |`maxNumberOfObjectivesDoesDoesNotThrowExceptionAndIsGreaterThanZero ()`<br>Test to verify that the `MaxNumberOfObjectives` does not throw an exception and is greater than zero. |
-|void |`nameDoesDoesNotThrowExceptionAndIsNotEmpty ()`<br>Test to verify that the `Name` property does not throw an exception and is defined. |
-|void |`optionsDoesDoesNotThrowException ()`<br>Test to verify that calling the `Options` property does not throw an exception. |
-|void |`optionsGetSetCorrectly ()`<br>Test to determine whether or not options work correctly. |
-|void |`optionsIsSerializable ()`<br>Test to verify that algorithm Options are serializable. |
-|void |`optionsSerializeDeserializeCorrectly ()`<br>Test to verify that the algorithm `P:Phoenix.Optimization.IAlgorithm.Options` can be serialized, and that they are the same as the original options when they are deserialized. |
-|void |`releaseDateDoesDoesNotThrowExceptionAndIsInRightFormat ()`<br>Test to verify that the `ReleaseDate` property does not throw an exception, is defined and is in the correct format. |
-|void |`respectsHalt ()`<br>Tests whether the algorithm halts in a timely matter when the `Phoenix.Optimization.IAlgorithmHost.Halt` property is set. |
-|virtual void |`restartWorksCorrectly_RestoreFromEnd ()`<br>Test to verify that the algorithm sets at least one check point during a run, and is able to find the same answer using that check point as by using a full run when restored from the end. |
-|virtual void |`restartWorksCorrectly_RestoreFromMiddle ()`<br>Test to verify that the algorithm sets at least one check point during a run, and is able to find the same answer using that check point as by using a full run when restored from the middle. |
-|virtual void |`restartWorksCorrectly_RestoreFromStart ()`<br>Test to verify that the algorithm sets at least one check point during a run, and is able to find the same answer using that check point as by using a full run when restored from the start. |
-|void |`resultsReportDoesNotThrowExceptionAndIsNotEmptyAfterRun ()`<br>Test to verify that `P:Phoenix.Optimization.IAlgorithm.ResultsReport` does not throw an exception and is not empty after the algorithm has been run. |
-|void |`resultsReportDoesNotThrowExceptionBeforeRun ()`<br>Test to verify that calling `P:Phoenix.Optimization.IAlgorithm.ResultsReport` before the algorithm has been run does not throw an exception. |
-|void |`setConstraintsDoesNotThrowException ()`<br>Test to verify that setting constraints does not throw an exception. |
-|void |`setDesignVariablesDoesNotThrowException ()`<br>Test to verify that setting design variables does not throw an exception. |
-|void |`setDetailsFile ()` |
-|void |`setObjectivesDoesNotThrowException ()`<br>Test to verify that setting algorithm objectives does not throw an exception. |
-|virtual void |`setOptionsForFrankFunctionTest ()`<br>Sets algorithm's options to be used for the Frank function. |
-|virtual void |`setOptionsForLohPapalambrosFunctionTest ()`<br>Sets algorithm's options to be used for the Matyas function. |
-|virtual void |`setOptionsForMatyasFunctionTest ()`<br>Sets algorithm's options to be used for the Matyas function. |
-|virtual void |`setOptionsForNonConvergingFunctionTest ()`<br>Sets algorithm's options to be used for the Non-converging function. |
-|virtual void |`setOptionsForRestartTest ()`<br>Sets algorithm's options to be used for the restart test. |
-|virtual void |`setOptionsForSystemTest ()`<br>Sets algorithm's options to be used for the System test. |
-|void |`Setup ()`<br>Test set up called before each test is Run. |
-|void |`supportsConstraintsDoesDoesNotThrowExceptionAndIsSpecified ()`<br>Test to verify that the `SupportsConstraints` does not throw an exception and is not `FuzzyBoolean.Unspecified`. |
-|void |`supportsDiscreteVariablesDoesDoesNotThrowExceptionAndIsSpecified ()`<br>Test to verify that the `SupportsDiscreteVariables` does not throw an exception and is not `FuzzyBoolean.Unspecified`. |
-|void |`supportsFailedRunsDoesDoesNotThrowException ()`<br>Test to verify that the `SupportsFailedRuns` does not throw an exception. |
-|void |`supportsMinMaxDoesDoesNotThrowExceptionAndIsSpecified ()`<br>Test to verify that the `SupportsMinMax` does not throw an exception and is not `FuzzyBoolean.Unspecified`. |
-|void |`supportsMultipleObjectivesDoesDoesNotThrowExceptionAndMaxNumObjectivesIsConsistent ()`<br>Test to verify that the SupportsMultipleObjectives does not throw an exception and is consistent with the `P:Phoenix.Optimization.IAlgorithm.MaxNumberOfObjectives` property. |
-|void |`supportsNonSmoothConstraintsDoesDoesNotThrowExceptionAndIsSpecified ()`<br>Test to verify that the `SupportsNonSmoothResponses` does not throw an exception and is not `FuzzyBoolean.Unspecified`. |
-|void |`supportsSolveForDoesDoesNotThrowExceptionAndIsSpecified ()`<br>Test to verify that the `SupportsSolveFor` property is does not throw an exception when called and is not `FuzzyBoolean.Unspecified`. |
-|void |`TearDown ()`<br>Test tear down called after each test is Run. |
-|void |`tearDown ()`<br>Called after each test to clean up after test. |
-|void |`versionDoesDoesNotThrowExceptionAndIsNotEmpty ()`<br>Test to verify that the `Version` property does not throw an exception and is defined. |
+|Type|Name|Description|
+|-----|-----|-----|
+|void |`authorDoesDoesNotThrowExceptionAndIsNotEmpty ()` |Test to verify that the Author property does not throw an exception and is defined. |
+|void |`canMaximize ()` |Test to verify that the algorithm can solve a problem definition with a maximize objective. |
+|void |`canMinimize ()` |Test to verify that the algorithm can solve a problem definition with a minimize objective. |
+|abstract void |`createAlgorithm ()` |Creates instance of algorithm to be tested and assigns it to the `algorithm` variable |
+|void |`definesGUID ()` |Test to verify that the algorithm had a GUID. |
+|void |`descriptionDoesDoesNotThrowExceptionAndIsNotEmpty ()` |Test to verify that the Description property does not throw an exception and is defined. |
+|void |`detailsReportDoesNotThrowExceptionAndIsNotEmptyAfterRun ()` |Verifies the `P:Phoenix.Optimization.IAlgorithm.DetailsReport` property does not throw an exception and is not empty after the algorithm is run. |
+|void |`detailsReportDoesNotThrowExceptionBeforeRun ()` |Verifies the `P:Phoenix.Optimization.IAlgorithm.DetailsReport` property does not throw an exception before the algorithm is run. |
+|void |`detailsReportUpdateDuringRun ()` |Verifies that the algorithm updates the `DetailsReport` during the run. |
+|virtual void |`doesAlgorithmLoadProperly ()` |Test to verify that the algorithm has been copied to a location where the Optimization Tool can find it and that the Optimization Tool is able to load it. |
+|void |`doesIsDesignFeasibileThrowError ()` |Tests whether or not the algorithm's `IsDesignFeasible` method throws an error, or says that a global best design is not feasible. |
+|void |`efficiencyDoesDoesNotThrowExceptionAndIsSpecified ()` |Test to verify that the `NumModelEvaluations` does not throw an exception and is not `AlgorithmNumModelEvaluations.Unspecified`. |
+|void |`handlesFailedRuns ()` |Test to verify that the algorithm that says that it can support failed runs is able to solve problem that has failed runs. |
+|void |`handlesNaNInConstraints ()` |Tests whether the algorithm can handle `NaN` passed as an upper or lower bound for constraints. |
+|void |`handlesNaNInDesignVariables ()` |Tests whether the algorithm can handle `NaN` passed as an upper or lower bound for design variables. |
+|void |`handlesNoFeasibleRunsFound (Exception expectedException)` |Verify that an algorithm handles the case of no feasible points being found and throws the expected exception. |
+|virtual void |`handlesUnicodeEnums ()` |Test to verify that the algorithm can handle Unicode characters in discrete variable enumerations. |
+|void |`handlesUnicodeNames ()` |Test to verify that the algorithm can handle Unicode characters in variable names. |
+|void |`helpFilePathDoesDoesNotThrowExceptionAndFileExists ()` |Test to verify that the `HelpFilePath` property does not throw an exception, is defined and that the file exists. |
+|void |`helpURLDoesDoesNotThrowExceptionAndIsNotEmpty ()` |Test to verify that the `HelpURL` property does not throw an exception and is defined. |
+|void |`iconLocationDoesDoesNotThrowExceptionAndFileExists ()` |Test to verify that the `IconLocation` property does not throw an exception, is defined and that the file exists. |
+|void |`keywordsDoesDoesNotThrowExceptionAndIsNotEmpty ()` |Test to verify that the `Keywords` property does not throw an exception and is defined. |
+|void |`licenseFeatureDoesDoesNotThrowException ()` |Test to verify that the `HelpFilePath` property does not throw an exception. |
+|bool |`lohPapalambrosFunctionTest ()` |Runs the algorithm using the `T:Phoenix.Optimization.AlgorithmTests.Evaluators.LohPapalambrosExample2Evaluator`. |
+|bool |`matyasFunctionTest ()` |Runs the algorithm using the `T:Phoenix.Optimization.AlgorithmTests.Evaluators.MatyasEvaluator`. |
+|void |`maxNumberOfObjectivesDoesDoesNotThrowExceptionAndIsGreaterThanZero ()` |Test to verify that the `MaxNumberOfObjectives` does not throw an exception and is greater than zero. |
+|void |`nameDoesDoesNotThrowExceptionAndIsNotEmpty ()` |Test to verify that the `Name` property does not throw an exception and is defined. |
+|void |`optionsDoesDoesNotThrowException ()` |Test to verify that calling the `Options` property does not throw an exception. |
+|void |`optionsGetSetCorrectly ()` |Test to determine whether or not options work correctly. |
+|void |`optionsIsSerializable ()` |Test to verify that algorithm Options are serializable. |
+|void |`optionsSerializeDeserializeCorrectly ()` |Test to verify that the algorithm `P:Phoenix.Optimization.IAlgorithm.Options` can be serialized, and that they are the same as the original options when they are deserialized. |
+|void |`releaseDateDoesDoesNotThrowExceptionAndIsInRightFormat ()` |Test to verify that the `ReleaseDate` property does not throw an exception, is defined and is in the correct format. |
+|void |`respectsHalt ()` |Tests whether the algorithm halts in a timely matter when the `Phoenix.Optimization.IAlgorithmHost.Halt` property is set. |
+|virtual void |`restartWorksCorrectly_RestoreFromEnd ()` |Test to verify that the algorithm sets at least one check point during a run, and is able to find the same answer using that check point as by using a full run when restored from the end. |
+|virtual void |`restartWorksCorrectly_RestoreFromMiddle ()` |Test to verify that the algorithm sets at least one check point during a run, and is able to find the same answer using that check point as by using a full run when restored from the middle. |
+|virtual void |`restartWorksCorrectly_RestoreFromStart ()` |Test to verify that the algorithm sets at least one check point during a run, and is able to find the same answer using that check point as by using a full run when restored from the start. |
+|void |`resultsReportDoesNotThrowExceptionAndIsNotEmptyAfterRun ()` |Test to verify that `P:Phoenix.Optimization.IAlgorithm.ResultsReport` does not throw an exception and is not empty after the algorithm has been run. |
+|void |`resultsReportDoesNotThrowExceptionBeforeRun ()` |Test to verify that calling `P:Phoenix.Optimization.IAlgorithm.ResultsReport` before the algorithm has been run does not throw an exception. |
+|void |`setConstraintsDoesNotThrowException ()` |Test to verify that setting constraints does not throw an exception. |
+|void |`setDesignVariablesDoesNotThrowException ()` |Test to verify that setting design variables does not throw an exception. |
+|void |`setDetailsFile ()` | |
+|void |`setObjectivesDoesNotThrowException ()` |Test to verify that setting algorithm objectives does not throw an exception. |
+|virtual void |`setOptionsForFrankFunctionTest ()` |Sets algorithm's options to be used for the Frank function. |
+|virtual void |`setOptionsForLohPapalambrosFunctionTest ()` |Sets algorithm's options to be used for the Matyas function. |
+|virtual void |`setOptionsForMatyasFunctionTest ()` |Sets algorithm's options to be used for the Matyas function. |
+|virtual void |`setOptionsForNonConvergingFunctionTest ()` |Sets algorithm's options to be used for the Non-converging function. |
+|virtual void |`setOptionsForRestartTest ()` |Sets algorithm's options to be used for the restart test. |
+|virtual void |`setOptionsForSystemTest ()` |Sets algorithm's options to be used for the System test. |
+|void |`Setup ()` |Test set up called before each test is Run. |
+|void |`supportsConstraintsDoesDoesNotThrowExceptionAndIsSpecified ()` |Test to verify that the `SupportsConstraints` does not throw an exception and is not `FuzzyBoolean.Unspecified`. |
+|void |`supportsDiscreteVariablesDoesDoesNotThrowExceptionAndIsSpecified ()` |Test to verify that the `SupportsDiscreteVariables` does not throw an exception and is not `FuzzyBoolean.Unspecified`. |
+|void |`supportsFailedRunsDoesDoesNotThrowException ()` |Test to verify that the `SupportsFailedRuns` does not throw an exception. |
+|void |`supportsMinMaxDoesDoesNotThrowExceptionAndIsSpecified ()` |Test to verify that the `SupportsMinMax` does not throw an exception and is not `FuzzyBoolean.Unspecified`. |
+|void |`supportsMultipleObjectivesDoesDoesNotThrowExceptionAndMaxNumObjectivesIsConsistent ()` |Test to verify that the SupportsMultipleObjectives does not throw an exception and is consistent with the `P:Phoenix.Optimization.IAlgorithm.MaxNumberOfObjectives` property. |
+|void |`supportsNonSmoothConstraintsDoesDoesNotThrowExceptionAndIsSpecified ()` |Test to verify that the `SupportsNonSmoothResponses` does not throw an exception and is not `FuzzyBoolean.Unspecified`. |
+|void |`supportsSolveForDoesDoesNotThrowExceptionAndIsSpecified ()` |Test to verify that the `SupportsSolveFor` property is does not throw an exception when called and is not `FuzzyBoolean.Unspecified`. |
+|void |`TearDown ()` |Test tear down called after each test is Run. |
+|void |`tearDown ()` |Called after each test to clean up after test. |
+|void |`versionDoesDoesNotThrowExceptionAndIsNotEmpty ()` |Test to verify that the `Version` property does not throw an exception and is defined. |
 
 ## Static Public Member Functions 
-|Name|Description|
-|-----|-----|
-|static bool | `areDesignsEqual (object[] design1, object[] design2, IEvaluator evaluator)`<br>Used to determine whether two designs are equal.|
-|static void | `optionsAreEqual (object lhs, object rhs)`<br>Checks whether given options objects properties are equal.|
-|static `MockSolverInfrastructure` | `testWithEvaluator (ref IAlgorithm algorithm, IEvaluator evaluator, ref bool finishedSuccessfully, Action< MockSolverInfrastructure > setupSolver=null)`<br>Tests algorithm with the specified evaluator.|
+|Type|Name|Description|
+|-----|-----|-----|
+|static bool |`areDesignsEqual (object[] design1, object[] design2, IEvaluator evaluator)` |Used to determine whether two designs are equal. |
+|static void |`optionsAreEqual (object lhs, object rhs)` |Checks whether given options objects properties are equal. |
+|static `MockSolverInfrastructure` |`testWithEvaluator (ref IAlgorithm algorithm, IEvaluator evaluator, ref bool finishedSuccessfully, Action< MockSolverInfrastructure > setupSolver=null)` |Tests algorithm with the specified evaluator. |
  
 ## Protected Types 
-|Name|Description|
-|-----|-----|
-|enum| `CheckpointLocation {<br>   Start , <br>   Middle , <br>   End <br>}`  |
+|Type|Name|Description|
+|-----|-----|-----|
+|enum |`CheckpointLocation { Start ,  Middle ,  End  }` | |
 
 ## Protected Member Functions 
-|Name|Description|
-|-----|-----|
-|virtual void | `_cleanUp ()`<br>Allows each implementing test fixture to perform additional cleanup during tear down|
-| void | `_createAlgorithm ()` |
-|void|  `optionsAreNotEqual (object lhs, object rhs)` <br>Checks whether all properties of given options objects are not equal. |
-|string | `pickCheckpoint (Dictionary< int, string > checkPoints, int checkPointIndex, out int runNumber)`<br>Gets the checkpoint string from the desired position in the list, and returns it and its run number. |
-| void|  `recordResults (ref AlgorithmResults runResults, MockSolverInfrastructure solver, IAlgorithm algorithm)`|  
-|bool|  `runAlgorithm (bool useRosenbrock=false, Action< MockSolverInfrastructure > setupSolver=null)`<br>Runs the algorithm & performs some basic tests on the results.|
-|double|  `runRosenBrock (ref AlgorithmResults results, string checkPoint="")`<br>Helper function that runs RosenBrock with default options either resuming or running a new one. |
-|virtual void|  `verifyResultsAreEqual (AlgorithmResults fullRunResults, AlgorithmResults restartResults, int restoreRunNumber)`<br>Verifies that the results of two runs are the same. |
+|Type|Name|Description|
+|-----|-----|-----|
+|virtual void |`_cleanUp ()` |Allows each implementing test fixture to perform additional cleanup during tear down |
+|void |`_createAlgorithm ()` | |
+|void |`optionsAreNotEqual (object lhs, object rhs)` |Checks whether all properties of given options objects are not equal. |
+|string |`pickCheckpoint (Dictionary< int, string > checkPoints, int checkPointIndex, out int runNumber)` |Gets the checkpoint string from the desired position in the list, and returns it and its run number. |
+|void |`recordResults (ref AlgorithmResults runResults, MockSolverInfrastructure solver, IAlgorithm algorithm)` | |
+|bool |`runAlgorithm (bool useRosenbrock=false, Action< MockSolverInfrastructure > setupSolver=null)` |Runs the algorithm & performs some basic tests on the results. |
+|double |`runRosenBrock (ref AlgorithmResults results, string checkPoint="")` |Helper function that runs RosenBrock with default options either resuming or running a new one. |
+|virtual void |`verifyResultsAreEqual (AlgorithmResults fullRunResults, AlgorithmResults restartResults, int restoreRunNumber)` |Verifies that the results of two runs are the same. |
 
 ## Protected Attributes 
-|Name|Description|
-|-----|-----|
-|`IAlgorithm` | `algorithm = null` <br>Instance of algorithm to be tested|
-|`MockSolverInfrastructure`|  `solver = null`<br>Instance of `MockSolverInfrastructure` used for tests|
+|Type|Name|Description|
+|-----|-----|-----|
+|`IAlgorithm` |`algorithm = null` |Instance of algorithm to be tested |
+|`MockSolverInfrastructure` |`solver = null` |Instance of `MockSolverInfrastructure` used for tests |
 
 ## Properties
-|Name|Description|
-|-----|-----|
-|abstract string | `AlgorithmInstallationPath [get]`<br>Returns the path to the installed algorithm |
-|virtual bool | `HasOptions [get]`<br>Specifies whether or not the algorithm has options. |
-|virtual int | `NumberOfMessagesBeforeRestartSync [get]`<br>Offset for the number of status messages before messages are the same after a restart. |
+|Type|Name|Description|
+|-----|-----|-----|
+|abstract string |`AlgorithmInstallationPath [get]` |Returns the path to the installed algorithm |
+|virtual bool |`HasOptions [get]` |Specifies whether or not the algorithm has options. |
+|virtual int |`NumberOfMessagesBeforeRestartSync [get]` |Offset for the number of status messages before messages are the same after a restart. |
 
 ## Class Documentation
 

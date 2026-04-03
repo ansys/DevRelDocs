@@ -25,18 +25,18 @@ This can be thrown from the algorithm when the algorithm is unable to find a fea
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-| |`NoFeasiblePointFoundException ()`<br>Initializes a new instance of the NoFeasiblePointFoundException class. |
-| |`NoFeasiblePointFoundException (string msg)`<br>Initializes a new instance of the NoFeasiblePointFoundException class with a specified error message. |
-| |`NoFeasiblePointFoundException (string msg, Exception inner)`<br>Initializes a new instance of the NoFeasiblePointFoundException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+|Type|Name|Description|
+|-----|-----|-----|
+| |`NoFeasiblePointFoundException ()`| Initializes a new instance of the NoFeasiblePointFoundException class. |
+| |`NoFeasiblePointFoundException (string msg)`| Initializes a new instance of the NoFeasiblePointFoundException class with a specified error message. |
+| |`NoFeasiblePointFoundException (string msg, Exception inner)`| Initializes a new instance of the NoFeasiblePointFoundException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
 ### Public Member Functions inherited from [OptimizationException]()
-|Name|Description|
-|-----|-----|
-| |`OptimizationException ()`<br>Initializes a new instance of the OptimizationException class. |
-| |`OptimizationException (string msg)`<br>Initializes a new instance of the OptimizationException class with a specified error message. |
-| |`OptimizationException (string msg, Exception inner)`<br>Initializes a new instance of the OptimizationException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+|Type|Name|Description|
+|-----|-----|-----|
+| |`OptimizationException ()`| Initializes a new instance of the OptimizationException class. |
+| |`OptimizationException (string msg)`| Initializes a new instance of the OptimizationException class with a specified error message. |
+| |`OptimizationException (string msg, Exception inner)`| Initializes a new instance of the OptimizationException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
 ## Constructor & Destructor Documentation
 

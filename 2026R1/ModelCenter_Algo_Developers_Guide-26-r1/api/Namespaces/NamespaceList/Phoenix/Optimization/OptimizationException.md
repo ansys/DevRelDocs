@@ -25,11 +25,11 @@ Represents an exception that happened in the solver.
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-| |`OptimizationException ()`<br>Initializes a new instance of the OptimizationException class. |
-| |`OptimizationException (string msg)`<br>Initializes a new instance of the OptimizationException class with a specified error message. |
-| |`OptimizationException (string msg, Exception inner)`<br>Initializes a new instance of the OptimizationException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+|Type|Name|Description|
+|-----|-----|-----|
+| |`OptimizationException ()` |Initializes a new instance of the OptimizationException class. |
+| |`OptimizationException (string msg)` |Initializes a new instance of the OptimizationException class with a specified error message. |
+| |`OptimizationException (string msg, Exception inner)` |Initializes a new instance of the OptimizationException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
 ## Constructor & Destructor Documentation
 

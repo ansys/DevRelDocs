@@ -25,32 +25,32 @@ Class to hold information about an objective
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-|int |`Compare (double x, double y)`<br>Compares two points with respect to the objective. |
-|Objective |`ConvertSolverForToMinMax ()`<br>If this objective is a solvefor value, returns a new equivalent objective using an equation and minimize. |
-|override bool |`Equals (object obj)`<br>Determines whether the specified Object is equal to the current Object. |
-|bool |`Equals (Objective obj)`<br>Determines whether the specified Objective is equal to the current Objective. |
-|override int |`GetHashCode ()`<br>Serves as a hash function for Objective. |
-| |`Objective (Objective objective)`<br>Copy constructor |
-| |`Objective (string name, double solveForValue)`<br>Creates a new objective with the given name and solve for value |
-| |`Objective (string name, double solveForValue, double weight)`<br>Creates a new objective with the given name, solve for value and weight. |
-| |`Objective (string name, Goal goal)`<br>Creates a new objective with the given name and goal. |
-| |`Objective (string name, Goal goal, double weight)`<br>Creates a new objective with the given name, goal and weight. |
-| |`Objective (string name, Goal goal, double weight, double solveForValue)`<br>Creates a new objective with the given name, goal, weight and solve for value. |
+|Type|Name|Description|
+|-----|-----|-----|
+|int |`Compare (double x, double y)`| Compares two points with respect to the objective. |
+|Objective |`ConvertSolverForToMinMax ()`| If this objective is a solvefor value, returns a new equivalent objective using an equation and minimize. |
+|override bool |`Equals (object obj)`| Determines whether the specified Object is equal to the current Object. |
+|bool |`Equals (Objective obj)`| Determines whether the specified Objective is equal to the current Objective. |
+|override int |`GetHashCode ()`| Serves as a hash function for Objective. |
+| |`Objective (Objective objective)`| Copy constructor |
+| |`Objective (string name, double solveForValue)`| Creates a new objective with the given name and solve for value |
+| |`Objective (string name, double solveForValue, double weight)`| Creates a new objective with the given name, solve for value and weight. |
+| |`Objective (string name, Goal goal)`| Creates a new objective with the given name and goal. |
+| |`Objective (string name, Goal goal, double weight)`| Creates a new objective with the given name, goal and weight. |
+| |`Objective (string name, Goal goal, double weight, double solveForValue)`| Creates a new objective with the given name, goal, weight and solve for value. |
 
 ## Properties
-|Name|Description|
-|-----|-----|
-|Goal | `Goal [get]`<br>Goal containing the goal of the objeictive. |
-|string | `Name [get]`<br>String containing the name of the objective. |
-|double | `SolveForValue [get]`<br>Double containing the value to be solved for for the `Goal.SolveFor` goal. |
-|double | `Weight [get]`<br>Goal containing the relative weight of the objective. |
+|Type|Name|Description|
+|-----|-----|-----|
+|Goal |`Goal [get]`| Goal containing the goal of the objeictive. |
+|string |`Name [get]`| String containing the name of the objective. |
+|double |`SolveForValue [get]`| Double containing the value to be solved for for the `Goal.SolveFor` goal. |
+|double |`Weight [get]`| Goal containing the relative weight of the objective. |
 
 ### Properties inherited from [IVariableName]()
-|Name|Description|
-|-----|-----|
-|string | `Name [get]`<br>The name of the variable |
+|Type|Name|Description|
+|-----|-----|-----|
+|string |`Name [get]`| The name of the variable |
 
 ## Constructor & Destructor Documentation
 
