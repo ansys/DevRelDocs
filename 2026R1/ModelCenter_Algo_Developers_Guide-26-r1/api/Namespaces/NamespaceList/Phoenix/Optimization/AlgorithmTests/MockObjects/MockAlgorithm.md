@@ -25,36 +25,36 @@ Dummy implementation of `T:Phoenix.Optimization.IAlgorithm`
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-|void |`Dispose ()`<br>Disposes of the resources (other than memory) used by the `MockAlgorithm`. |
-|void |`FromXml (string xml)`<br>TODO |
-|List< OptConstraint > |`GetConstraints ()`<br>Gets current list of constraints |
-|List< DesignVariable > |`GetDesignVariables ()`<br>Gets current list of designVariables |
-|List< Objective > |`GetObjectives ()`<br>Gets current list of objectives |
-|XmlSchema |`GetSchema ()`<br> |
-| |`MockAlgorithm ()`<br>Initializes a new instance of the `MockAlgorithm` class. |
-| |`MockAlgorithm (IAlgorithm algorithm)`<br>Initializes a new instance of the `MockAlgorithm` class with the same properties as the given `T:Phoenix.Optimization.IAlgorithm`. |
-|void |`ReadXml (XmlReader reader)`<br> |
-|void |`RestoreCheckPoint (string saveState)`<br>`RestoreCheckPoint` (not implemented) |
-|void |`Run ()`<br>Run |
-|void |`SetConstraints (List< OptConstraint > constraints)`<br>SetConstraints |
-|void |`SetDesignVariableException (Exception exceptionToThrow)`<br>Sets an exception to be thrown when call the SetDesignVariables method Setting this to null will ensure that no exception is thrown |
-|void |`SetDesignVariables (List< DesignVariable > designVariables)`<br>SetDesignVariables |
-|void |`SetHost (IAlgorithmHost host)`<br>SetHost |
-|void |`SetObjectives (List< Objective > objectives)`<br>SetObjectives |
-|bool |`ShowOptionsDialog (IWin32Window owner)`<br>ShowOptionsDialog (not implemented) |
-|string |`ToXml ()`<br>TODO |
-|void |`WriteXml (XmlWriter writer)`<br> |
-|void |`FromXml (string xml)`<br>TODO |
-|string |`ToXml ()`<br>TODO |
-|void |`RestoreCheckPoint (string saveState)`<br>Restore a specific state of the analysis. |
-|void |`Run ()`<br>Initiates execution of the solver. |
-|void |`SetConstraints (List< OptConstraint > constraints)`<br>Used by the infrastructure to pass the constraints to the algorithm. |
-|void |`SetDesignVariables (List< DesignVariable > designVariables)`<br>Used by the infrastructure to pass the design variables to the algorithm. |
-|void |`SetHost (IAlgorithmHost host)`<br>Set the host interface to be used for callbacks. |
-|void |`SetObjectives (List< Objective > objectives)`<br>Used by the infrastructure to pass the objectives to the algorithm. |
-|bool |`ShowOptionsDialog (IWin32Window owner)`<br>Called to display the algorithms custom options form. |
+|Type|Name|Description|
+|-----|-----|-----|
+|void |`Dispose ()` |Disposes of the resources (other than memory) used by the `MockAlgorithm`. |
+|void |`FromXml (string xml)` |TODO |
+|List< OptConstraint > |`GetConstraints ()` |Gets current list of constraints |
+|List< DesignVariable > |`GetDesignVariables ()` |Gets current list of designVariables |
+|List< Objective > |`GetObjectives ()` |Gets current list of objectives |
+|XmlSchema |`GetSchema ()` | |
+| |`MockAlgorithm ()` |Initializes a new instance of the `MockAlgorithm` class. |
+| |`MockAlgorithm (IAlgorithm algorithm)` |Initializes a new instance of the `MockAlgorithm` class with the same properties as the given `T:Phoenix.Optimization.IAlgorithm`. |
+|void |`ReadXml (XmlReader reader)` | |
+|void |`RestoreCheckPoint (string saveState)` |`RestoreCheckPoint` (not implemented) |
+|void |`Run ()` |Run |
+|void |`SetConstraints (List< OptConstraint > constraints)` |SetConstraints |
+|void |`SetDesignVariableException (Exception exceptionToThrow)` |Sets an exception to be thrown when call the SetDesignVariables method Setting this to null will ensure that no exception is thrown |
+|void |`SetDesignVariables (List< DesignVariable > designVariables)` |SetDesignVariables |
+|void |`SetHost (IAlgorithmHost host)` |SetHost |
+|void |`SetObjectives (List< Objective > objectives)` |SetObjectives |
+|bool |`ShowOptionsDialog (IWin32Window owner)` |ShowOptionsDialog (not implemented) |
+|string |`ToXml ()` |TODO |
+|void |`WriteXml (XmlWriter writer)` | |
+|void |`FromXml (string xml)` |TODO |
+|string |`ToXml ()` |TODO |
+|void |`RestoreCheckPoint (string saveState)` |Restore a specific state of the analysis. |
+|void |`Run ()` |Initiates execution of the solver. |
+|void |`SetConstraints (List< OptConstraint > constraints)` |Used by the infrastructure to pass the constraints to the algorithm. |
+|void |`SetDesignVariables (List< DesignVariable > designVariables)` |Used by the infrastructure to pass the design variables to the algorithm. |
+|void |`SetHost (IAlgorithmHost host)` |Set the host interface to be used for callbacks. |
+|void |`SetObjectives (List< Objective > objectives)` |Used by the infrastructure to pass the objectives to the algorithm. |
+|bool |`ShowOptionsDialog (IWin32Window owner)` |Called to display the algorithms custom options form. |
 
 ## Properties
 |Name|Description|

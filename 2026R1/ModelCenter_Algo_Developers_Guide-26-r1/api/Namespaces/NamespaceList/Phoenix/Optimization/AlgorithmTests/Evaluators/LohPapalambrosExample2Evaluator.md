@@ -34,18 +34,18 @@ Algorithms that do a local search around the continuous optimum will likely only
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-|override void |`addConstraints ()`<br>Adds constraints. |
-|override void |`addDesignVariables ()`<br>Adds design variables |
-|override void |`addObjectives ()`<br>Adds objectives. |
-|override ModelEvaluation |`EvaluateModel (object[] designVariables)`<br>Evaluates function. |
-|override bool |`IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)`<br>Determines whether specified design is a local or global optima. |
-| |`LohPapalambrosExample2Evaluator ()`<br>Default constructor assumes evaluator is not used for a unit test |
-| |`LohPapalambrosExample2Evaluator (bool useClosedBounds)`<br>Constructor that specifies whether evaluator will be used for a unit test |
-|[ModelEvaluation]() |`EvaluateModel (object[] designVariables)`<br>Evaluates the model at the given design point. |
-|bool |`IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)`<br>Determines whether design is an acceptable design. |
-|void |`SetStartPoint (object[] startValues)`<br>Sets the starting design for the evaluator. |
+|Type|Name|Description|
+|-----|-----|-----|
+|override void |`addConstraints ()` |Adds constraints. |
+|override void |`addDesignVariables ()` |Adds design variables |
+|override void |`addObjectives ()` |Adds objectives. |
+|override ModelEvaluation |`EvaluateModel (object[] designVariables)` |Evaluates function. |
+|override bool |`IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)` |Determines whether specified design is a local or global optima. |
+| |`LohPapalambrosExample2Evaluator ()` |Default constructor assumes evaluator is not used for a unit test |
+| |`LohPapalambrosExample2Evaluator (bool useClosedBounds)` |Constructor that specifies whether evaluator will be used for a unit test |
+|[ModelEvaluation]() `EvaluateModel (object[] designVariables)` |Evaluates the model at the given design point. |
+|bool `IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)` |Determines whether design is an acceptable design. |
+|void `SetStartPoint (object[] startValues)` |Sets the starting design for the evaluator. |
 
 ### Public Member Functions inherited from [ModelEvaluator]()
 |Name|Description|

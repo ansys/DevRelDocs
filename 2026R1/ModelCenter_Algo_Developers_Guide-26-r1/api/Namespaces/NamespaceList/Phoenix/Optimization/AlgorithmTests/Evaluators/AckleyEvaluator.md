@@ -25,17 +25,17 @@ Implementation of the Ackley Function Source: http://www-optima.amp.i.kyoto-u.ac
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-| |`AckleyEvaluator ()`<br>Default constructor uses two design variables |
-| |`AckleyEvaluator (int numDesignVariables)`<br>Specifies a number of design variables to use |
-|override void |`addDesignVariables ()`<br>Adds design variables |
-|override void |`addObjectives ()`<br>Adds objectives. |
-|override ModelEvaluation |`EvaluateModel (object[] designVariables)`<br>Evaluates function. |
-|override bool |`IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)`<br>Determines whether specified design is a local or global optima. |
-|[ModelEvaluation]() |`EvaluateModel (object[] designVariables)`<br>Evaluates the model at the given design point. |
-|bool |`IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)`<br>Determines whether design is an acceptable design. |
-|void |`SetStartPoint (object[] startValues)`<br>Sets the starting design for the evaluator. |
+|Type|Name|Description|
+|-----|-----|-----|
+| |`AckleyEvaluator ()` |Default constructor uses two design variables |
+| |`AckleyEvaluator (int numDesignVariables)` |Specifies a number of design variables to use |
+|override void |`addDesignVariables ()` |Adds design variables |
+|override void |`addObjectives ()` |Adds objectives. |
+|override ModelEvaluation |`EvaluateModel (object[] designVariables)` |Evaluates function. |
+|override bool |`IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)` |Determines whether specified design is a local or global optima. |
+|[ModelEvaluation]() |`EvaluateModel (object[] designVariables)` |Evaluates the model at the given design point. |
+|bool |`IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)` |Determines whether design is an acceptable design. |
+|void |`SetStartPoint (object[] startValues)` |Sets the starting design for the evaluator. |
 
 ### Public Member Functions inherited from [ModelEvaluator]()
 |Name|Description|

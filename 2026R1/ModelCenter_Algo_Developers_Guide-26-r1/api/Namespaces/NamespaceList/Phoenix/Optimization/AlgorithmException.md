@@ -25,19 +25,19 @@ This exception can be thrown by an algorithm when an algorithm specific code is 
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-| |`AlgorithmException (int code)`<br>Constructs `AlgorithmException` with a code |
-| |`AlgorithmException (int code, string msg)`<br>Constructs exception with a code and message |
-| |`AlgorithmException (int code, string msg, Exception inner)`<br>Constructs exception with a code, message and inner exception |
-|override void |`GetObjectData (SerializationInfo info, StreamingContext context)`<br>When overridden in a derived class, sets the `SerializationInfo` with information about the exception. |
+|Type|Name|Description|
+|-----|-----|-----|
+| |`AlgorithmException (int code)` |Constructs `AlgorithmException` with a code |
+| |`AlgorithmException (int code, string msg)` |Constructs exception with a code and message |
+| |`AlgorithmException (int code, string msg, Exception inner)` |Constructs exception with a code, message and inner exception |
+|override void |`GetObjectData (SerializationInfo info, StreamingContext context)` |When overridden in a derived class, sets the `SerializationInfo` with information about the exception. |
 
 ### Public Member Functions inherited from [OptimizationException]()
-|Name|Description|
-|-----|-----|
-| |`OptimizationException ()`<br>Initializes a new instance of the `OptimizationException` class. |
-| |`OptimizationException (string msg)`<br>Initializes a new instance of the `OptimizationException` class with a specified error message. |
-| |`OptimizationException (string msg, Exception inner)`<br>Initializes a new instance of the `OptimizationException` class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+|Type|Name|Description|
+|-----|-----|-----|
+| |`OptimizationException ()` |Initializes a new instance of the `OptimizationException` class. |
+| |`OptimizationException (string msg)` |Initializes a new instance of the `OptimizationException` class with a specified error message. |
+| |`OptimizationException (string msg, Exception inner)` |Initializes a new instance of the `OptimizationException` class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
 ## Properties
 |Name|Description|

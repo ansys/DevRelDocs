@@ -25,22 +25,22 @@ A mock implementation of [`IAlgorithmCatalogEntry`](../../IAlgorithmCatalogEntry
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-|[ISerializableAlgorithm]() |`DeserializeAlgorithm (string xml)`<br>Given the XML tag for an [`ISerializableAlgorithm`](../../ISerializableAlgorithm.md), deserialize the tag and return the result. |
-|void |`DeserializeAlgorithmToUserInteractionInstance (string xml)`<br>Given the XML tag for an [`ISerializableAlgorithm`](../../ISerializableAlgorithm.md), deserialize the tag and save it in this instance's `UserInteractionInstance`. |
-|void |`DeserializeOptionsToUserInteractionInstance (string innerXML)`<br>Given the XML tag for an options object, deserialize the tag to the `IAlgorithm.Options` property of `UserInteractionInstance`. |
-|void |`Dispose ()`<br> |
-|object |`GetCurrentOptionsForDialog ()`<br>Returns a clone of the `UserInteractionInstance` `IAlgorithm.Options` property for use in the default options dialog. The `UserInteractionInstance` should be prepared to accept this object being passed as the value to set the `IAlgorithm.Options` property, which indicates that the user clicked "OK" and wants to set the modified version of the object. |
-|object |`GetDefaultOptionsForDialog ()`<br>Returns a default version of the object this algorithm uses for options.The `UserInteractionInstance` should be prepared to accept this object being passed as the value to set the `IAlgorithm.Options` property, which indicates that the user clicked "OK" and wants to set the modified version of the object. |
-|[ISerializableAlgorithm]() |`GetOutOfProcessAlgorithm ()`<br>Create an out-of-process instance of the algorithm suitable for running the algorithm.Before running, the Optimization Tool will set the problem definition and options object currently in use on the `UserInteractionInstance`. The caller of this method owns the returned IAlgorithm and is responsible for disposing it. |
-| |`MockIAlgorithmCatalogEntry (IAlgorithm algorithm)`<br>Constructor. |
-|[ISerializableAlgorithm]() |`DeserializeAlgorithm (string xml)`<br>Given the XML tag for an [`ISerializableAlgorithm`](../../ISerializableAlgorithm.md), deserialize the tag and return the result. |
-|void |`DeserializeAlgorithmToUserInteractionInstance (string xml)`<br>Given the XML tag for an [`ISerializableAlgorithm`](../../ISerializableAlgorithm.md), deserialize the tag and save it in this instance's `UserInteractionInstance`. |
-|void |`DeserializeOptionsToUserInteractionInstance (string innerXML)`<br>Given the XML tag for an options object, deserialize the tag to the `IAlgorithm.Options` property of `UserInteractionInstance`. |
-|object |`GetCurrentOptionsForDialog ()`<br>Returns a clone of the `UserInteractionInstance` `IAlgorithm.Options` property for use in the default options dialog. |
-|object |`GetDefaultOptionsForDialog ()`<br>Returns a default version of the object this algorithm uses for options. |
-|[ISerializableAlgorithm]() |`GetOutOfProcessAlgorithm ()`<br>Create an out-of-process instance of the algorithm suitable for running the algorithm. |
+|Type|Name|Description|
+|-----|-----|-----|
+|[ISerializableAlgorithm]() |`DeserializeAlgorithm (string xml)` |Given the XML tag for an [`ISerializableAlgorithm`](../../ISerializableAlgorithm.md), deserialize the tag and return the result. |
+|void |`DeserializeAlgorithmToUserInteractionInstance (string xml)` |Given the XML tag for an [`ISerializableAlgorithm`](../../ISerializableAlgorithm.md), deserialize the tag and save it in this instance's `UserInteractionInstance`. |
+|void |`DeserializeOptionsToUserInteractionInstance (string innerXML)` |Given the XML tag for an options object, deserialize the tag to the `IAlgorithm.Options` property of `UserInteractionInstance`. |
+|void |`Dispose ()` | |
+|object |`GetCurrentOptionsForDialog ()` |Returns a clone of the `UserInteractionInstance` `IAlgorithm.Options` property for use in the default options dialog. The `UserInteractionInstance` should be prepared to accept this object being passed as the value to set the `IAlgorithm.Options` property, which indicates that the user clicked "OK" and wants to set the modified version of the object. |
+|object |`GetDefaultOptionsForDialog ()` |Returns a default version of the object this algorithm uses for options.The `UserInteractionInstance` should be prepared to accept this object being passed as the value to set the `IAlgorithm.Options` property, which indicates that the user clicked "OK" and wants to set the modified version of the object. |
+|[ISerializableAlgorithm]() |`GetOutOfProcessAlgorithm ()` |Create an out-of-process instance of the algorithm suitable for running the algorithm.Before running, the Optimization Tool will set the problem definition and options object currently in use on the `UserInteractionInstance`. The caller of this method owns the returned IAlgorithm and is responsible for disposing it. |
+| |`MockIAlgorithmCatalogEntry (IAlgorithm algorithm)` |Constructor. |
+|[ISerializableAlgorithm]() |`DeserializeAlgorithm (string xml)` |Given the XML tag for an [`ISerializableAlgorithm`](../../ISerializableAlgorithm.md), deserialize the tag and return the result. |
+|void |`DeserializeAlgorithmToUserInteractionInstance (string xml)` |Given the XML tag for an [`ISerializableAlgorithm`](../../ISerializableAlgorithm.md), deserialize the tag and save it in this instance's `UserInteractionInstance`. |
+|void |`DeserializeOptionsToUserInteractionInstance (string innerXML)` |Given the XML tag for an options object, deserialize the tag to the `IAlgorithm.Options` property of `UserInteractionInstance`. |
+|object |`GetCurrentOptionsForDialog ()` |Returns a clone of the `UserInteractionInstance` `IAlgorithm.Options` property for use in the default options dialog. |
+|object |`GetDefaultOptionsForDialog ()` |Returns a default version of the object this algorithm uses for options. |
+|[ISerializableAlgorithm]() |`GetOutOfProcessAlgorithm ()` |Create an out-of-process instance of the algorithm suitable for running the algorithm. |
 
 ## Protected Member Functions 
 |Name|Description|

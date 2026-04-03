@@ -25,10 +25,10 @@ Class to hold information about a design variable
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-| |`ResponseVariable (string name, bool isNameInMC, bool isDuplicated, bool isItOutput)`<br>Creates new a variable with the given name and status of presence in MC |
-|void |`UpdateMe (string name, bool isNameInMc, bool isItOutput)`<br> |
+|Type|Name|Description|
+|-----|-----|-----|
+| |`ResponseVariable (string name, bool isNameInMC, bool isDuplicated, bool isItOutput)` |Creates new a variable with the given name and status of presence in MC |
+|void |`UpdateMe (string name, bool isNameInMc, bool isItOutput)` | |
 
 ## Properties
 |Name|Description|

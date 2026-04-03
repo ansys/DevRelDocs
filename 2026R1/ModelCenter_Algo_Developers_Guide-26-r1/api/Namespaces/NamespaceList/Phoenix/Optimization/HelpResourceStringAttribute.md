@@ -27,7 +27,7 @@ Attribute used to specify a location in the help for an option.
 
 |Name|Description|
 |-----|-----|
-| |`HelpResourceStringAttribute (string resourceName, string stringName)`<br>Constructor |
+|`HelpResourceStringAttribute (string resourceName, string stringName)` |Constructor |
 
 ## Properties
 |Name|Description|

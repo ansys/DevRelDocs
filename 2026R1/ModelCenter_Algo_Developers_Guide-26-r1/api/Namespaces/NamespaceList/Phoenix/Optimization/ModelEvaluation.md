@@ -27,11 +27,11 @@ Class to hold the results of a model evaluation.
 
 |Name|Description|
 |-----|-----|
-| |`ModelEvaluation ()`<br>Constructor |
-| |`ModelEvaluation (double[] objectiveValues)`<br>Constructor |
-| |`ModelEvaluation (double[] objectiveValues, bool runFailure)`<br>Constructor |
-| |`ModelEvaluation (double[] objectiveValues, double[] constraintValues, bool runFailure)`<br>Constructor |
-| |`ModelEvaluation (ModelEvaluation eval)`<br>Copy constructor |
+|`ModelEvaluation ()` |Constructor |
+|`ModelEvaluation (double[] objectiveValues)` |Constructor |
+|`ModelEvaluation (double[] objectiveValues, bool runFailure)` |Constructor |
+|`ModelEvaluation (double[] objectiveValues, double[] constraintValues, bool runFailure)` |Constructor |
+|`ModelEvaluation (ModelEvaluation eval)` |Copy constructor |
 
 ## Properties
 |Name|Description|

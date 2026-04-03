@@ -30,39 +30,39 @@ Search domain: 0<= x1 <=400; 0<= x2 <= 1000; 340<= xi <= 420, i=3,4; -1000<= x5 
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-|override void |`addConstraints ()`<br>Adds constraints. |
-|override void |`addDesignVariables ()`<br>Adds design variables. |
-|override void |`addObjectives ()`<br>Adds objectives. |
-| |`CRPO17 ()`<br>Default constructor, uses the default goal of `minimize` |
-| |`CRPO17 (Goal goal)`<br>Constructor to use custom goal |
-|override ModelEvaluation |`EvaluateModel (object[] designVariables)`<br>Evaluates function. |
-|override bool |`IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)`<br>Determines whether specified design is a local or global optima. |
-|[ModelEvaluation]() |`EvaluateModel (object[] designVariables)`<br>Evaluates the model at the given design point. |
-|bool |`IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)`<br>Determines whether design is an acceptable design. |
-|void |`SetStartPoint (object[] startValues)`<br>Sets the starting design for the evaluator. |
+|Type|Name|Description|
+|-----|-----|-----|
+|override void |`addConstraints ()` |Adds constraints. |
+|override void |`addDesignVariables ()` |Adds design variables. |
+|override void |`addObjectives ()` |Adds objectives. |
+| |`CRPO17 ()` |Default constructor, uses the default goal of `minimize` |
+| |`CRPO17 (Goal goal)` |Constructor to use custom goal |
+|override ModelEvaluation |`EvaluateModel (object[] designVariables)` |Evaluates function. |
+|override bool |`IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)` |Determines whether specified design is a local or global optima. |
+|[ModelEvaluation]() |`EvaluateModel (object[] designVariables)` |Evaluates the model at the given design point. |
+|bool |`IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)` |Determines whether design is an acceptable design. |
+|void |`SetStartPoint (object[] startValues)` |Sets the starting design for the evaluator. |
 
 ### Public Member Functions inherited from [ModelEvaluator]()
 |Name|Description|
 |-----|-----|
-|void |`addConstraint (string name, double lowerBound, double upperBound)`<br>Method used to add a constraint |
-|virtual void |`addConstraints ()`<br>Method called to specifiy the constraints for the evaluator (by default, not constraints are specified) |
-|void |`addDesignVariable (string name, object startValue)`<br>Method used to add design variable |
-|void |`addDesignVariable (string name, object startValue, DataTable selectedAlphabet)`<br>Method used to add design variable |
-|void |`addDesignVariable (string name, object startValue, double lowerBound, double upperBound)`<br>Method used to add design variable |
-|void |`addDesignVariable (string name, object startValue, double lowerBound, double upperBound, DataTable selectedAlphabet)`<br>Method used to add a design variable |
-|abstract void |`addDesignVariables ()`<br>Method called to added design variables |
-|void |`addObjective (string name, double solveForValue)`<br>Method used to add an objective (assumes solve for objective) |
-|void |`addObjective (string name, double solveForValue, double weight)`<br>Method used to add an objective (assumes solve for objective) |
-|void |`addObjective (string name, Goal goal)`<br>Method used to add an objective |
-|void |`addObjective (string name, Goal goal, double weight, double solveForValue)`<br>Method used to add an objective |
-|abstract void |`addObjectives ()`<br>Method called to specifiy the objectives for the evaluator |
-|void |`Dispose ()`<br>Called to dispose the object. |
-|abstract ModelEvaluation |`EvaluateModel (object[] designVariables)`<br>Evaluates the model at the given design point |
-|virtual double |`getIGD (List< double[]> bestDesignObjectives, string filePath)`<br>Calculates the IGD value for multi-objective problem [The IGD formula is slightly modified to get the nearest possible value to actual IGD] [The actual formula accounts for equal no of optimal & obtained set of objectives, while, we calculate based on the number of objectives obtained] |
-|abstract bool |`IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)`<br>Determines whether design is an acceptable design. |
-|void |`SetStartPoint (object[] startValues)`<br>Sets the starting design for the evaluator |
+|void `addConstraint (string name, double lowerBound, double upperBound)` |Method used to add a constraint |
+|virtual void `addConstraints ()` |Method called to specifiy the constraints for the evaluator (by default, not constraints are specified) |
+|void `addDesignVariable (string name, object startValue)` |Method used to add design variable |
+|void `addDesignVariable (string name, object startValue, DataTable selectedAlphabet)` |Method used to add design variable |
+|void `addDesignVariable (string name, object startValue, double lowerBound, double upperBound)` |Method used to add design variable |
+|void `addDesignVariable (string name, object startValue, double lowerBound, double upperBound, DataTable selectedAlphabet)` |Method used to add a design variable |
+|abstract void `addDesignVariables ()` |Method called to added design variables |
+|void `addObjective (string name, double solveForValue)` |Method used to add an objective (assumes solve for objective) |
+|void `addObjective (string name, double solveForValue, double weight)` |Method used to add an objective (assumes solve for objective) |
+|void `addObjective (string name, Goal goal)` |Method used to add an objective |
+|void `addObjective (string name, Goal goal, double weight, double solveForValue)` |Method used to add an objective |
+|abstract void `addObjectives ()` |Method called to specifiy the objectives for the evaluator |
+|void `Dispose ()` |Called to dispose the object. |
+|abstract ModelEvaluation `EvaluateModel (object[] designVariables)` |Evaluates the model at the given design point |
+|virtual double `getIGD (List< double[]> bestDesignObjectives, string filePath)` |Calculates the IGD value for multi-objective problem [The IGD formula is slightly modified to get the nearest possible value to actual IGD] [The actual formula accounts for equal no of optimal & obtained set of objectives, while, we calculate based on the number of objectives obtained] |
+|abstract bool `IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)` |Determines whether design is an acceptable design. |
+|void `SetStartPoint (object[] startValues)` |Sets the starting design for the evaluator |
 
 ## Properties
 |Name|Description|

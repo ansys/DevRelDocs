@@ -28,23 +28,23 @@ Number of variables: 10 variables. Definition: f(x) = f1,f2 Search domain: 0<= x
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-|override void |`addConstraints ()`<br>Method called to specifiy the constraints for the evaluator (by default, not constraints are specified) |
-|override void |`addDesignVariables ()`<br>Adds design variables. |
-|override void |`addObjectives ()`<br>Adds objectives. |
-|override ModelEvaluation |`EvaluateModel (object[] designVariables)`<br>Evaluates function. |
-|override double |`getIGD (List< double[]> `bestDesignObjectives`, string filePath)`<br>Calculates and returns the IGD value [Implemented only by Multi Objective Evaluators] |
-|override bool |`IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)`<br>Determines whether specified design is a local or global optima. |
-| |`MOC1 ()`<br>Default constructor, uses the default goal of `minimize` |
-| |`MOC1 (Goal goal)`<br>Constructor to use custom goal |
-|[ModelEvaluation]() |`EvaluateModel (object[] designVariables)`<br>Evaluates the model at the given design point. |
-|bool |`IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)`<br>Determines whether design is an acceptable design. |
-|void |`SetStartPoint (object[] startValues)`<br>Sets the starting design for the evaluator. |
+|Type|Name|Description|
+|-----|-----|-----|
+|override void |`addConstraints ()` |Method called to specifiy the constraints for the evaluator (by default, not constraints are specified) |
+|override void |`addDesignVariables ()` |Adds design variables. |
+|override void |`addObjectives ()` |Adds objectives. |
+|override ModelEvaluation |`EvaluateModel (object[] designVariables)` |Evaluates function. |
+|override double |`getIGD (List< double[]> `bestDesignObjectives`, string filePath)` |Calculates and returns the IGD value [Implemented only by Multi Objective Evaluators] |
+|override bool |`IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)` |Determines whether specified design is a local or global optima. |
+| |`MOC1 ()` |Default constructor, uses the default goal of `minimize` |
+| |`MOC1 (Goal goal)` |Constructor to use custom goal |
+|[ModelEvaluation]() |`EvaluateModel (object[] designVariables)` |Evaluates the model at the given design point. |
+|bool |`IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)` |Determines whether design is an acceptable design. |
+|void |`SetStartPoint (object[] startValues)` |Sets the starting design for the evaluator. |
 
 ### Public Member Functions inherited from [ModelEvaluator]()
-|Name|Description|
-|-----|-----|
+|Type|Name|Description|
+|-----|-----|-----|
 |void |`addConstraint (string name, double `lowerBound`, double upperBound)`<br>Method used to add a constraint |
 |virtual void |`addConstraints ()`<br>Method called to specifiy the constraints for the evaluator (by default, not constraints are specified) |
 |void |`addDesignVariable (string name, object startValue)`<br>Method used to add design variable |

@@ -1,4 +1,4 @@
-# Introduction
+# ModelCenter Algorithm Developer's Guide
 
 This article outlines the lifecycle of an algorithm from its creation to its final disposal.
 

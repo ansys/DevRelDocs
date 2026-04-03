@@ -25,18 +25,18 @@ Number of variables: variable (default is 2) Definition: f(x) = sum (i = 0 to n)
 ```
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-|override void |`addDesignVariables ()`<br>Adds design variables. |
-|override void |`addObjectives ()`<br>Adds objectives. |
-|override ModelEvaluation |`EvaluateModel (object[] designVariables)`<br>Evaluates function. |
-|override bool |`IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)`<br>Determines whether specified design is a local or global optima. |
-| |`RosenbrockEvaluator ()`<br>Creates 2 dimensional Rosenbrock evaluator with bounds on the design variables. |
-| |`RosenbrockEvaluator (int numDimensions)`<br>Creates N dimensional Rosenbrock evaluator with bounds on the design variables. |
-| |`RosenbrockEvaluator (int numDimensions, bool useDesignVariableBounds)`<br>Creates N dimensional Rosenbrock evaluator with the ability to specify whether or not to bound design variables. |
-|[ModelEvaluation]() |`EvaluateModel (object[] designVariables)`<br>Evaluates the model at the given design point. |
-|bool |`IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)`<br>Determines whether design is an acceptable design. |
-|void |`SetStartPoint (object[] startValues)`<br>Sets the starting design for the evaluator. |
+|Type|Name|Description|
+|-----|-----|-----|
+|override void |`addDesignVariables ()` |Adds design variables. |
+|override void |`addObjectives ()` |Adds objectives. |
+|override ModelEvaluation |`EvaluateModel (object[] designVariables)` |Evaluates function. |
+|override bool |`IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)` |Determines whether specified design is a local or global optima. |
+| |`RosenbrockEvaluator ()` |Creates 2 dimensional Rosenbrock evaluator with bounds on the design variables. |
+| |`RosenbrockEvaluator (int numDimensions)` |Creates N dimensional Rosenbrock evaluator with bounds on the design variables. |
+| |`RosenbrockEvaluator (int numDimensions, bool useDesignVariableBounds)` |Creates N dimensional Rosenbrock evaluator with the ability to specify whether or not to bound design variables. |
+|[ModelEvaluation]() |`EvaluateModel (object[] designVariables)` |Evaluates the model at the given design point. |
+|bool |`IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)` |Determines whether design is an acceptable design. |
+|void |`SetStartPoint (object[] startValues)` |Sets the starting design for the evaluator. |
 
 ### Public Member Functions inherited from [ModelEvaluator]()
 |Name|Description|

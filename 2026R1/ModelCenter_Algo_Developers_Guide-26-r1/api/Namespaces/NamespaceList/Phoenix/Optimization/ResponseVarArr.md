@@ -23,20 +23,20 @@ summary> Get/set flag indicatining if response variable array has error /summary
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-|[ResponseVariable]() |`AddNew (string name, bool isInMC, bool isItOutput)`<br> |
-|bool |`CheckIndexAndDuplicatedNames (bool doPopulateErrText)`<br> |
-|void |`Clear ()`<br> |
-|void |`CopyTo (ResponseVarArr arrTo)`<br> |
-|[ResponseVariable]() |`FindByName (string name)`<br> |
-|[ResponseVariable]() |`FindOrCreateNewVar (string name, bool isInMC=true, bool isItOutput=true)`<br> |
-|IEnumerator< ResponseVariable > |`GetEnumerator ()`<br> |
-|bool |`IsEqualTo (ResponseVarArr varArrToCompare)`<br> |
-|ResponseVarArr |`MakeCopy ()`<br> |
-|bool |`RemoveVar (int varIndex, bool doRebuildIndexAndCheckName=true)`<br> |
-|bool |`RemoveVar (ResponseVariable var, bool doRebuildIndexAndCheckName=true)`<br> |
-| |`ResponseVarArr ()`<br>summary> Get/set flag indicatining if response variable array has error /summary> |
+|Type|Name|Description|
+|-----|-----|-----|
+|[ResponseVariable]() |`AddNew (string name, bool isInMC, bool isItOutput)` | |
+|bool |`CheckIndexAndDuplicatedNames (bool doPopulateErrText)` | |
+|void |`Clear ()` | |
+|void |`CopyTo (ResponseVarArr arrTo)` | |
+|[ResponseVariable]() |`FindByName (string name)` | |
+|[ResponseVariable]() |`FindOrCreateNewVar (string name, bool isInMC=true, bool isItOutput=true)` | |
+|IEnumerator< ResponseVariable > |`GetEnumerator ()` | |
+|bool |`IsEqualTo (ResponseVarArr varArrToCompare)` | |
+|ResponseVarArr |`MakeCopy ()` | |
+|bool |`RemoveVar (int varIndex, bool doRebuildIndexAndCheckName=true)` | |
+|bool |`RemoveVar (ResponseVariable var, bool doRebuildIndexAndCheckName=true)` | |
+| |`ResponseVarArr ()` |summary> Get/set flag indicatining if response variable array has error /summary> |
 
 ## Properties
 |Name|Description|

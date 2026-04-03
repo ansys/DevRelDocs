@@ -28,17 +28,17 @@ Minimize 2*x1^2 + 2*x2^2 - 2*x1*x2 - 4*x1 - 6*x2 subject to x1 + 5*x2 <= 5 2*x1^
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-|override void |`addConstraints ()`<br>Adds constraints. |
-|override void |`addDesignVariables ()`<br>Adds design variables |
-|override void |`addObjectives ()`<br>Adds objectives. |
-|override ModelEvaluation |`EvaluateModel (object[] designVariables)`<br>Evaluates function. |
-|override bool |`IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)`<br>Determines whether specified design is a local or global optima. |
-| |`TB1Evaluator ()`<br>Default constructor uses two design variables |
-|[ModelEvaluation]() |`EvaluateModel (object[] designVariables)`<br>Evaluates the model at the given design point. |
-|bool |`IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)`<br>Determines whether design is an acceptable design. |
-|void |`SetStartPoint (object[] startValues)`<br>Sets the starting design for the evaluator. |
+|Type|Name|Description|
+|-----|-----|-----|
+|override void |`addConstraints ()` |Adds constraints. |
+|override void |`addDesignVariables ()` |Adds design variables |
+|override void |`addObjectives ()` |Adds objectives. |
+|override ModelEvaluation |`EvaluateModel (object[] designVariables)` |Evaluates function. |
+|override bool |`IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)` |Determines whether specified design is a local or global optima. |
+| |`TB1Evaluator ()` |Default constructor uses two design variables |
+|[ModelEvaluation]() |`EvaluateModel (object[] designVariables)` |Evaluates the model at the given design point. |
+|bool |`IsDesignAcceptable (object[] design, AreDesignsEqual areDesignsEqual)` |Determines whether design is an acceptable design. |
+|void |`SetStartPoint (object[] startValues)` |Sets the starting design for the evaluator. |
 
 ### Public Member Functions inherited from [ModelEvaluator]()
 |Name|Description|

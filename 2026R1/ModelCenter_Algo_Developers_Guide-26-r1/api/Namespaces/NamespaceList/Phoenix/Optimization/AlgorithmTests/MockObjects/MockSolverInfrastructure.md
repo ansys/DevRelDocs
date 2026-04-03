@@ -25,27 +25,27 @@ Dummy implementation of `T:Phoenix.Optimization.IAlgorithmHost`.
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-|void |`Dispose ()`<br>Called to dispose the object. |
-|ModelEvaluation[] |`EvaluateModel (object[,] designVariables)`<br>Evalutes the model for the given designs in batch mode. |
-|[ModelEvaluation]() |`EvaluateModel (object[] designVariables)`<br>Evaluates the model for the given design. |
-|void |`InvokeHelp (string helpPath)`<br>Used to open the Optimization Tool's help viewer. |
-| |`MockSolverInfrastructure ()`<br>Creates a new instance of `MockSolverInfrastructure`. |
-| |`MockSolverInfrastructure (IEvaluator modelEvaluator)`<br>Creates a new instance of `MockSolverInfrastructure` using the given evaluator. |
-| |`MockSolverInfrastructure (IEvaluator modelEvaluator, [IFeasibilityProvider]() feasibilityProvider)`<br>Creates a new instance of `MockSolverInfrastructure` using the given evaluator. |
-| |`MockSolverInfrastructure (IEvaluator modelEvaluator, int haltAfter)`<br>Creates a new instance of `MockSolverInfrastructure` using the given evaluator and setting `P:Phoenix.Optimization.IAlgorithmHost.Halt` after the specified number of function evaluations. |
-|void |`SaveCheckPoint (string checkPointName, string saveState)`<br>Used to save the state of the algorithm for the restart. |
-|void |`SetStatusMessage (string statusMessage)`<br>Updates the current status message for the algorithm. |
-|void |`SetStatusMessage (string statusMessage, MessageType messageType)`<br>Updates the current status message for the algorithm. |
-|void |`UpdateBestDesign (object[] design)`<br>Updates the best design that the algorithm has found so far. |
-|ModelEvaluation[] |`EvaluateModel (object[,] designVariables)`<br>Evalutes the model for the given designs in batch mode. |
-|[ModelEvaluation]() |`EvaluateModel (object[] designVariables)`<br>Evalutes the model for the given design. |
-|void |`InvokeHelp (string helpPath)`<br>Used to open the Optimization Tool's help viewer. |
-|void |`SaveCheckPoint (string checkPointName, string saveState)`<br>Used to save the state of the algorithm for the restart. |
-|void |`SetStatusMessage (string statusMessage)`<br>Updates the current status message for the algorithm. |
-|void |`SetStatusMessage (string statusMessage, MessageType messageType)`<br>Updates the current status message for the algorithm. |
-|void |`UpdateBestDesign (object[] design)`<br>Updates the best design that the algorithm has found so far. |
+|Type|Name|Description|
+|-----|-----|-----|
+|void |`Dispose ()` |Called to dispose the object. |
+|ModelEvaluation[] |`EvaluateModel (object[,] designVariables)` |Evalutes the model for the given designs in batch mode. |
+|[ModelEvaluation]() |`EvaluateModel (object[] designVariables)` |Evaluates the model for the given design. |
+|void |`InvokeHelp (string helpPath)` |Used to open the Optimization Tool's help viewer. |
+| |`MockSolverInfrastructure ()` |Creates a new instance of `MockSolverInfrastructure`. |
+| |`MockSolverInfrastructure (IEvaluator modelEvaluator)` |Creates a new instance of `MockSolverInfrastructure` using the given evaluator. |
+| |`MockSolverInfrastructure (IEvaluator modelEvaluator, [IFeasibilityProvider]() feasibilityProvider)` |Creates a new instance of `MockSolverInfrastructure` using the given evaluator. |
+| |`MockSolverInfrastructure (IEvaluator modelEvaluator, int haltAfter)` |Creates a new instance of `MockSolverInfrastructure` using the given evaluator and setting `P:Phoenix.Optimization.IAlgorithmHost.Halt` after the specified number of function evaluations. |
+|void |`SaveCheckPoint (string checkPointName, string saveState)` |Used to save the state of the algorithm for the restart. |
+|void |`SetStatusMessage (string statusMessage)` |Updates the current status message for the algorithm. |
+|void |`SetStatusMessage (string statusMessage, MessageType messageType)` |Updates the current status message for the algorithm. |
+|void |`UpdateBestDesign (object[] design)` |Updates the best design that the algorithm has found so far. |
+|ModelEvaluation[] |`EvaluateModel (object[,] designVariables)` |Evalutes the model for the given designs in batch mode. |
+|[ModelEvaluation]() |`EvaluateModel (object[] designVariables)` |Evalutes the model for the given design. |
+|void |`InvokeHelp (string helpPath)` |Used to open the Optimization Tool's help viewer. |
+|void |`SaveCheckPoint (string checkPointName, string saveState)` |Used to save the state of the algorithm for the restart. |
+|void |`SetStatusMessage (string statusMessage)` |Updates the current status message for the algorithm. |
+|void |`SetStatusMessage (string statusMessage, MessageType messageType)` |Updates the current status message for the algorithm. |
+|void |`UpdateBestDesign (object[] design)` |Updates the best design that the algorithm has found so far. |
 
 ## Properties
 |Name|Description|

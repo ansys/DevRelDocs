@@ -25,15 +25,15 @@ Class to hold contraint information
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-|int |`Compare (double x, double y)`<br>Compares to values to see which violates the constraint worse. |
-|override bool |`Equals (object obj)`<br>Determines whether the specified Object is equal to the current Object. |
-|bool |`Equals (OptConstraint constraint)`<br>Determines whether the specified OptConstraint is equal to the current OptConstraint. |
-|double |`GetConstraintViolation (double p)`<br>Given a particular value, returns an amount by which the constraint is violated. |
-|override int |`GetHashCode ()`<br>Serves as a hash function for OptConstraint. |
-| |`OptConstraint (OptConstraint constraint)`<br>Copy constructor to create a new constraint from an existing constraint |
-| |`OptConstraint (string name, double lowerBound, double upperBound)`<br>Create a new constraint with the given name, lower and upper bound. |
+|Type|Name|Description|
+|-----|-----|-----|
+|int |`Compare (double x, double y)` |Compares to values to see which violates the constraint worse. |
+|override bool |`Equals (object obj)` |Determines whether the specified Object is equal to the current Object. |
+|bool |`Equals (OptConstraint constraint)` |Determines whether the specified OptConstraint is equal to the current OptConstraint. |
+|double |`GetConstraintViolation (double p)` |Given a particular value, returns an amount by which the constraint is violated. |
+|override int |`GetHashCode ()` |Serves as a hash function for OptConstraint. |
+| |`OptConstraint (OptConstraint constraint)` |Copy constructor to create a new constraint from an existing constraint |
+| |`OptConstraint (string name, double lowerBound, double upperBound)` |Create a new constraint with the given name, lower and upper bound. |
 
 ## Properties
 |Name|Description|

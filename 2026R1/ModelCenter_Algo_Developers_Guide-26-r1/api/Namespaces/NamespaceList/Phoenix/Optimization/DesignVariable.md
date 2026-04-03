@@ -25,27 +25,27 @@ Class to hold information about a design variable
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-|bool |`CheckBounds ()`<br>Check bounds |
-|bool |`CheckLowerBoundValue ()`<br>Check Lower bound value |
-|bool |`CheckMe (bool doTryToFix=false)`<br>Check design variable for valid state |
-|bool |`CheckName (List< DesignVariable > varArr, bool isInMC)`<br> |
-|bool |`CheckStartValue ()`<br>Check StartValue |
-|bool |`CheckUpperBoundValue ()`<br>Check Upper bound value |
-| |`DesignVariable (DesignVariable designVariable)`<br>Copy constructor for a design variable |
-| |`DesignVariable (string name)`<br>Creates a new design variable with the given name. |
-| |`DesignVariable (string uid, string name)`<br>Creates a new design variable with the given id and name. |
-| |`DesignVariable (string uid, string name, DataTable selectedAlphabet)`<br>Creates a new design variable with the given name, start value and selected alphabet. |
-| |`DesignVariable (string uid, string name, double lowerBound, double upperBound)`<br>Creates a new design variable with the given name, start value, lower and upper bounds. |
-| |`DesignVariable (string uid, string name, object startValue)`<br>Creates a new design variable with the given name and start value. |
-| |`DesignVariable (string uid, string name, object startValue, DataTable selectedAlphabet)`<br>Creates a new design variable with the given name, start value and selected alphabet |
-| |`DesignVariable (string uid, string name, object startValue, double lowerBound, double upperBound)`<br>Creates a new design variable with the given name, start value, lower and upper bounds. |
-| |`DesignVariable (string uid, string name, object startValue, double lowerBound, double upperBound, DataTable selectedAlphabet)`<br>Creates a new design variable with the given name, start value, lower bound, upper bound and selected alphabet. |
-| |`DesignVariable (string uid, string name, object startValue, double lowerBound, double upperBound, DataTable selectedAlphabet, DataTable alphabet)`<br>Creates a new design variable with the given name, start value, lower bound, upper bound, selected alphabet and alphabet. |
-|bool |`Equals (DesignVariable desVar)`<br>Determines whether the specified DesignVariable is equal to the current DesignVariable. |
-|override bool |`Equals (object obj)`<br>Determines whether the specified Object is equal to the current Object. |
-|override int |`GetHashCode ()`<br>Serves as a hash function for DesignVariable. |
+|Type|Name|Description|
+|-----|-----|-----|
+|bool |`CheckBounds ()` |Check bounds |
+|bool |`CheckLowerBoundValue ()` |Check Lower bound value |
+|bool |`CheckMe (bool doTryToFix=false)` |Check design variable for valid state |
+|bool |`CheckName (List< DesignVariable > varArr, bool isInMC)` | |
+|bool |`CheckStartValue ()` |Check StartValue |
+|bool |`CheckUpperBoundValue ()` |Check Upper bound value |
+| |`DesignVariable (DesignVariable designVariable)` |Copy constructor for a design variable |
+| |`DesignVariable (string name)` |Creates a new design variable with the given name. |
+| |`DesignVariable (string uid, string name)` |Creates a new design variable with the given id and name. |
+| |`DesignVariable (string uid, string name, DataTable selectedAlphabet)` |Creates a new design variable with the given name, start value and selected alphabet. |
+| |`DesignVariable (string uid, string name, double lowerBound, double upperBound)` |Creates a new design variable with the given name, start value, lower and upper bounds. |
+| |`DesignVariable (string uid, string name, object startValue)` |Creates a new design variable with the given name and start value. |
+| |`DesignVariable (string uid, string name, object startValue, DataTable selectedAlphabet)` |Creates a new design variable with the given name, start value and selected alphabet |
+| |`DesignVariable (string uid, string name, object startValue, double lowerBound, double upperBound)` |Creates a new design variable with the given name, start value, lower and upper bounds. |
+| |`DesignVariable (string uid, string name, object startValue, double lowerBound, double upperBound, DataTable selectedAlphabet)` |Creates a new design variable with the given name, start value, lower bound, upper bound and selected alphabet. |
+| |`DesignVariable (string uid, string name, object startValue, double lowerBound, double upperBound, DataTable selectedAlphabet, DataTable alphabet)` |Creates a new design variable with the given name, start value, lower bound, upper bound, selected alphabet and alphabet. |
+|bool |`Equals (DesignVariable desVar)` |Determines whether the specified DesignVariable is equal to the current DesignVariable. |
+|override bool |`Equals (object obj)` |Determines whether the specified Object is equal to the current Object. |
+|override int |`GetHashCode ()` |Serves as a hash function for DesignVariable. |
 
 ## Properties
 |Name|Description|
