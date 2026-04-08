@@ -4,13 +4,13 @@ plugin: core
 license: None
 ---
 
-# mesh:exclude levelset
+# mesh:edge_decimation
 
 **Version: 0.0.0**
 
 ## Description
 
-Takes two level sets and excludes the second one from the first.
+Takes a wireframe mesh (line elements) and reduces its node and edge count by collapsing interior nodes whose two incident edges deviate from straight by less than the given angular threshold. Branch nodes and sharp corners are preserved.
 
 ## Inputs
 
@@ -20,25 +20,25 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [fieldA](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>1</strong> | [fieldB](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>0</strong> | [mesh](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+| <strong>1</strong> | [angular_limit_in_radian](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`double`](../../core-concepts/dpf-types.md#standard-types) |
 
 
 <a id="input_0"></a>
-### fieldA (Pin 0)
+### mesh (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
 
 
 
 <a id="input_1"></a>
-### fieldB (Pin 1)
+### angular_limit_in_radian (Pin 1)
 
 - **Required:** Yes
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
 
-
+angle threshold in radian that will trigger an edge removal.
 
 
 ## Outputs
@@ -49,13 +49,13 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [field](#output_0) |[`field`](../../core-concepts/dpf-types.md#field) |
+|  **0**| [wireframe](#output_0) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
 
 
 <a id="output_0"></a>
-### field (Pin 0)
+### wireframe (Pin 0)
 
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
 
 
 
@@ -72,20 +72,6 @@ This operator supports [configuration options](../../core-concepts/operator-conf
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
 
-### [num_threads](../../core-concepts/operator-configurations.md#num_threads)
-
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
-- **Default value:** 0
-
-Number of threads to use to run in parallel
-
-### [run_in_parallel](../../core-concepts/operator-configurations.md#run_in_parallel)
-
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
-- **Default value:** true
-
-Loops are allowed to run in parallel if the value of this config is set to true.
-
 
 
 ## Scripting
@@ -96,11 +82,11 @@ This operator can be accessed through scripting interfaces using these identifie
 
  **Plugin**: core
 
- **Scripting name**: exclude_levelset
+ **Scripting name**: edge_decimation
 
- **Full name**: mesh.exclude_levelset
+ **Full name**: mesh.edge_decimation
 
- **Internal name**: levelset::exclude
+ **Internal name**: edge_decimation
 
  **License**: None
 
@@ -115,10 +101,10 @@ Each example shows how to instantiate the operator, connect the required inputs,
 ```cpp
 #include "dpf_api.h"
 
-ansys::dpf::Operator op("levelset::exclude"); // operator instantiation
-op.connect(0, my_fieldA);
-op.connect(1, my_fieldB);
-ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+ansys::dpf::Operator op("edge_decimation"); // operator instantiation
+op.connect(0, my_mesh);
+op.connect(1, my_angular_limit_in_radian);
+ansys::dpf::MeshedRegion my_wireframe = op.getOutput<ansys::dpf::MeshedRegion>(0);
 ```
 </details>
 
@@ -128,10 +114,10 @@ ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
 ```python
 import ansys.dpf.core as dpf
 
-op = dpf.operators.mesh.exclude_levelset() # operator instantiation
-op.inputs.fieldA.connect(my_fieldA)
-op.inputs.fieldB.connect(my_fieldB)
-my_field = op.outputs.field()
+op = dpf.operators.mesh.edge_decimation() # operator instantiation
+op.inputs.mesh.connect(my_mesh)
+op.inputs.angular_limit_in_radian.connect(my_angular_limit_in_radian)
+my_wireframe = op.outputs.wireframe()
 ```
 </details>
 
@@ -142,10 +128,10 @@ my_field = op.outputs.field()
 import mech_dpf
 import Ans.DataProcessing as dpf
 
-op = dpf.operators.mesh.exclude_levelset() # operator instantiation
-op.inputs.fieldA.Connect(my_fieldA)
-op.inputs.fieldB.Connect(my_fieldB)
-my_field = op.outputs.field.GetData()
+op = dpf.operators.mesh.edge_decimation() # operator instantiation
+op.inputs.mesh.Connect(my_mesh)
+op.inputs.angular_limit_in_radian.Connect(my_angular_limit_in_radian)
+my_wireframe = op.outputs.wireframe.GetData()
 ```
 </details>
 <br>

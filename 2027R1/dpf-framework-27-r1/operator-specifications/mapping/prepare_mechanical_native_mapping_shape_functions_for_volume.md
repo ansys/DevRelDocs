@@ -1,6 +1,6 @@
 ---
 category: mapping
-plugin: N/A
+plugin: Ans.Dpf.MultiphysicsMapper
 license: any_dpf_supported_increments
 ---
 
@@ -10,7 +10,15 @@ license: any_dpf_supported_increments
 
 ## Description
 
-Prepare mapping of source data from source mesh to target mesh by operating the source_mesh/target_mesh weights computation. This operator will use the shape functions of the elements. This operator is meant for volume elements but can also be used with surfaces elements. This operator needs to be used with the apply mechanical native mapping associated one.
+Prepares field data mapping from source mesh to target mesh using **finite element shape functions** on volume elements (hexahedra, tetrahedra, wedges, pyramids).
+
+Each target point is located within a source element and the field value is interpolated using 3D isoparametric shape functions at the corresponding reduced coordinates.
+
+Note: shape functions near the apex of pyramid elements exhibit singular behaviour and may produce errors for target points close to the apex. Use this operator with `apply_mechanical_native_mapping`.
+
+**Ansys Mechanical equivalent**: Weighting = *Shape Function*, Transfer Type = *Volumetric*.
+
+For further details on the algorithm and its settings, see the Ansys Mechanical help page on [Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html).
 
 ## Inputs
 
@@ -55,7 +63,13 @@ Source mesh
 - **Required:** Yes
 - **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`field`](../../core-concepts/dpf-types.md#field)
 
-Target mesh. Can be a meshed region or a node coordinates field. Providing node coordinates field is only allowed for non-conservative mapping.
+Target mesh where data will be mapped. Can be:
+- **meshed_region**: Full mesh with connectivity (nodes/elements/faces) - required for conservative mapping
+- **field**: Node coordinates only (target point locations) - allowed only for non-conservative mapping
+
+When providing a field, the operator treats coordinates as unstructured target points without requiring any mesh connectivity.
+This is useful for mapping to arbitrary point clouds or when connectivity is unavailable. However, conservative
+(integral-preserving) mapping requires full mesh connectivity and will fail with field-only input.
 
 <a id="input_3"></a>
 ### target_mesh_scoping (Pin 3)
@@ -119,7 +133,9 @@ Number of threads to be used to parallelize apply operations.
 - **Required:** No
 - **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
 
-Default is 50
+Spatial bucketing scale factor controlling the 3D grid resolution used to partition the
+source mesh for efficient nearest-element searches. Higher values create finer grids, improving search
+performance for dense meshes at the cost of increased memory usage. Default: 50.
 
 <a id="input_11"></a>
 ### edge_tolerance (Pin 11)
@@ -127,7 +143,11 @@ Default is 50
 - **Required:** No
 - **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
 
-Default is 0.02
+Tolerance for accepting target points near element boundaries.
+Controls how far outside an element boundary a target point may still be assigned to that element.
+Default: 0.02.
+A larger value makes mapping more robust when meshes do not align perfectly, at the cost of
+potentially reduced interpolation accuracy for boundary points.
 
 <a id="input_12"></a>
 ### conservative (Pin 12)
@@ -135,7 +155,11 @@ Default is 0.02
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-Default is false
+Enable conservative (integral-preserving) mapping. Default: false.
+When true, the mapping preserves the volume integral of the field across the transfer:
+$$\int_{\Omega_{\text{target}}} u \, dV = \int_{\Omega_{\text{source}}} u \, dV$$
+Requires the target input (pin 1) to be a **meshed_region** with full element connectivity; a field-only
+target (coordinates without topology) is not supported in conservative mode.
 
 <a id="input_13"></a>
 ### ignore_outside_nodes (Pin 13)
@@ -143,7 +167,15 @@ Default is false
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-Default is false
+Controls the fallback behaviour for target nodes not found within any source element after applying the edge tolerance.
+Default: false.
+- **false**: Each unmapped node is assigned weights from the nearest source element node (nearest-node
+  fallback). The node is recorded in the unmapped-nodes diagnostic output.
+- **true**: Unmapped nodes are excluded from the mapping entirely (no weight assigned) and recorded
+  in the unmapped-nodes diagnostic output.
+
+Note: for conservative mapping, outside source nodes (source nodes that cannot be mapped to any target element)
+are always ignored regardless of this setting.
 
 <a id="input_100"></a>
 ### is_element_centroidal_data_mapping (Pin 100)
@@ -281,7 +313,7 @@ This operator can be accessed through scripting interfaces using these identifie
 
  **Category**: mapping
 
- **Plugin**: N/A
+ **Plugin**: Ans.Dpf.MultiphysicsMapper
 
  **Scripting name**: prepare_mechanical_native_mapping_shape_functions_for_volume
 
