@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-04-02).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-04-07).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -17,7 +17,7 @@ The following table shows which components have updates in each category.
 | ci | [1 item](#Features_ci) |[3 items](#Fixes_ci) |
 | compression | [3 items](#Features_compression) |[2 items](#Fixes_compression) |
 | core |  |[1 item](#Fixes_core) |
-| cs | [3 items](#Features_cs) | |
+| cs | [4 items](#Features_cs) |[1 item](#Fixes_cs) |
 | cyclic | [1 item](#Features_cyclic) | |
 | doc | [2 items](#Features_doc) |[1 item](#Fixes_doc) |
 | documentation | [1 item](#Features_documentation) |[2 items](#Fixes_documentation) |
@@ -37,14 +37,14 @@ The following table shows which components have updates in each category.
 | kernel | [3 items](#Features_kernel) |[10 items](#Fixes_kernel) |
 | lsdyna | [2 items](#Features_lsdyna) | |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [19 items](#Features_mapdl) |[45 items](#Fixes_mapdl) |
+| mapdl | [20 items](#Features_mapdl) |[45 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [12 items](#Features_math) |[1 item](#Fixes_math) |
 | mechanical | [3 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
-| mesh | [2 items](#Features_mesh) |[3 items](#Fixes_mesh) |
+| mesh | [2 items](#Features_mesh) |[4 items](#Fixes_mesh) |
 | misc | [15 items](#Features_misc) |[21 items](#Fixes_misc) |
-| multiphysics | [1 item](#Features_multiphysics) | |
+| multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[5 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
 | native | [7 items](#Features_native) |[20 items](#Fixes_native) |
@@ -248,6 +248,13 @@ The following table shows which components have updates in each category.
 ## cs
 ### <a id="Features_cs"></a> Features
 
+- Add Operator.GetVersion():
+  > Add a new `GetVersion` method to the `Operator` class in the DPF C# client API to request the version of the operator.
+  >
+  > 
+  >
+  > 
+
 - Expose StringField to the C# client API:
   > Expose the StringField type to the DPF C# client API.
   >
@@ -269,6 +276,12 @@ The following table shows which components have updates in each category.
   >
   > 
 
+### <a id="Fixes_cs"></a> Fixes
+
+- Connect generic IronPython objects as operator inputs:
+  > 
+  >
+  > 
 ## cyclic
 ### <a id="Features_cyclic"></a> Features
 
@@ -967,6 +980,13 @@ The following table shows which components have updates in each category.
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
 
+- Officially not supporting files older than 14.5:
+  > MAPDL Operators officially not supporting files older than version 14.5.
+  >
+  > 
+  >
+  > 
+
 - New Operators for FLUID116:
   > 
   >
@@ -1620,6 +1640,11 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_mesh"></a> Fixes
 
+- Fix new introduced issue on rescope etype.:
+  > 
+  >
+  > 
+
 - Reduce memory footprint of skin extraction op:
   > - This PR reduces the memory footprint of the ExtractSectorMeshedSkin operator.
   >
@@ -1972,6 +1997,11 @@ The following table shows which components have updates in each category.
   > 
 ## multiphysics
 ### <a id="Features_multiphysics"></a> Features
+
+- Support loads with Apply To = Elements:
+  > 
+  >
+  > 
 
 - Support operators for convection load:
   > - Introduced new multiphysics workflow operators that contains one prepare opeartor and two apply operators to interpolate for two different quantities.
