@@ -1,4 +1,4 @@
-# ModelCenter Custom Optimization Algorithm - Developer's Guide
+# Introduction
 
 The ModelCenter algorithm developer SDK enables users to create custom optimization algorithms for use in ModelCenter products.
 
