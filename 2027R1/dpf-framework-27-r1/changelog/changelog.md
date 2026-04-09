@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-04-07).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-04-08).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -28,6 +28,7 @@ The following table shows which components have updates in each category.
 | femutils | [3 items](#Features_femutils) |[14 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
 | framework | [2 items](#Features_framework) |[6 items](#Fixes_framework) |
+| gate |  |[1 item](#Fixes_gate) |
 | grpc | [1 item](#Features_grpc) |[3 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[4 items](#Fixes_h5dpf) |
@@ -47,7 +48,7 @@ The following table shows which components have updates in each category.
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[5 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [7 items](#Features_native) |[20 items](#Fixes_native) |
+| native | [7 items](#Features_native) |[21 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [4 items](#Features_prime) |[1 item](#Fixes_prime) |
@@ -610,6 +611,16 @@ The following table shows which components have updates in each category.
   > Fields containers with multiple labels (not only time) are now allowed in ErrorAndNorm ("error_norm_calc") operator.
   >
   > The operator computes the norm and the error for each field of the FC, even if there are multiple fields at a time step.
+  >
+  > 
+  >
+  > 
+## gate
+
+### <a id="Fixes_gate"></a> Fixes
+
+- Prevent segfault when GC collects DPFVector during capi load_api:
+  > Fix a potential Segmentation Fault in Python 3.11 when a second local gRPC server is started after having used DPF array data due to the garbage collector firing while initializing the server.
   >
   > 
   >
@@ -2114,6 +2125,15 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_native"></a> Fixes
 
+- Support the reverse_connectivity in the merge_meshes operator:
+  > 
+  >
+  > The `merge_meshes` operator was not properly supporting the reverse connectivity property field (in the sense that it was not being merged respecting the element indices). This is now fixed.
+  >
+  > 
+  >
+  > 
+
 - B1437835, behavior change in reduce_sampling operator:
   > 
 
@@ -3397,6 +3417,16 @@ The following table shows which components have updates in each category.
   > 0.2.1: Internal refactoring to use Scoping Iterators.
 
 
+- [identical_meshes](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/logic/identical_meshes.md)
+
+  > 0.0.1: Support comparing the node to element connectivity.
+
+
+- [identical_property_fields](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/logic/identical_property_fields.md)
+
+  > 0.0.1: Add the order_independent input pin.
+
+
 - [solid_shell_fields](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/logic/solid_shell_fields.md)
 
   > 0.0.1: Input Fields Containers can contain empty fields.
@@ -4427,6 +4457,8 @@ Upgraded documentation
 - [merge_meshes](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/merge_meshes.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+  > 0.0.2: Support merging the node to element connectivity.
 
 
 - [merge_scopings](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/merge_scopings.md)
