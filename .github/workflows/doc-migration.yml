@@ -30,6 +30,17 @@ jobs:
              echo "CLIENT_SECRET=${{ secrets.CLIENT_SECRET_ACCEPT }}" >> $GITHUB_ENV
           fi
 
+      - name: Verify remote access
+        run: |
+          echo "::group::Remote access check"
+          if [[ -z "$BASE_URL" ]]; then
+            echo "BASE_URL is not set"
+            exit 1
+          fi
+          echo "Checking reachability of $BASE_URL"
+          curl -i -L --fail "$BASE_URL" | head -n 20
+          echo "::endgroup::"
+
       - name: Run migration script
         run: |
           echo "::group::Environment check"
