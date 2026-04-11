@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-04-09).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-04-10).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -57,7 +57,7 @@ The following table shows which components have updates in each category.
 | rotation |  |[1 item](#Fixes_rotation) |
 | utilities |  |[1 item](#Fixes_utilities) |
 | vtk |  |[1 item](#Fixes_vtk) |
-| workflows | [2 items](#Features_workflows) |[2 items](#Fixes_workflows) |
+| workflows | [3 items](#Features_workflows) |[2 items](#Fixes_workflows) |
 
 
 ## 1297620
@@ -2399,6 +2399,15 @@ The following table shows which components have updates in each category.
   > 
 ## workflows
 ### <a id="Features_workflows"></a> Features
+
+- Add customisation inputs to the solver_to_h5dpf workflow:
+  > 
+  >
+  > The `solver_to_h5dpf` workflow now has multiple customization inputs for compression, filtering, result selection, ...
+  >
+  > 
+  >
+  > 
 
 - Adaptation of dequantization to the new threshold in quantization operator:
   > Fix in the quantization workflow due to changes in _quantization_ and _quantization_fc_ operators.
