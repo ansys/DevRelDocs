@@ -1,4 +1,4 @@
-# Speos Changelog 2026 R1.1
+# Speos Changelog 2026 R1 SP01
 
 ### Component 3D Texture: Multi-Surface Limiting Support
 
@@ -24,7 +24,7 @@ Previewing the 3D Textures has been enhanced:
 
 ### Light Guide: Advanced Body Customization and Profile Control
 
-As of version 2026 R1.1, Speos offers you two new Light Guide construction types. You can now:
+As of version 2026 R1 SP01, Speos offers you two new Light Guide construction types. You can now:
 - sweep a circular profile along the guide curve with variable diameter.
 - select an existing solid body as the light guide body fully encompassing the guide curve.
 
