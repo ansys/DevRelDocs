@@ -2,7 +2,7 @@
 
 This section list the changelogs of the Speos RPC versions.
 
-- [Speos RPC changelog 2026 R1.1](speos_changelogs_rpc_2611.md)
+- [Speos RPC changelog 2026 R1 SP01](speos_changelogs_rpc_2611.md)
 - [Speos RPC changelog 2026 R1](speos_changelogs_rpc_261.md)
 - [Speos RPC changelog 2025 R2 SP03](speos_changelogs_rpc_2523.md)
 - [Speos RPC changelog 2025 R2 SP01](speos_changelogs_rpc_2521.md)

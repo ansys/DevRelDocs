@@ -1,4 +1,4 @@
-# Speos RPC Changelog
+# Speos RPC Changelog 2026 R1 SP01
 
 ## Common (common/v1/data.proto)
 
