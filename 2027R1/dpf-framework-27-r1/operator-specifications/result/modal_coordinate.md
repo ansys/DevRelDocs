@@ -16,7 +16,8 @@ Read/compute modal coordinate by calling the readers defined by the datasources.
 
 This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
 
-- mapdl: dsub, rdsp, rfrq 
+- hdf5: h5dpf 
+- mapdl: dsub, mode, rdsp, rfrq, rst 
 
 ## Inputs
 

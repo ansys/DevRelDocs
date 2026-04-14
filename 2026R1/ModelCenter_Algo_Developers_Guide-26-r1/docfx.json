@@ -1,8 +1,8 @@
 {
   "build": {
     "globalMetadata": {
-      "title": "ModelCenter Algorithm developer guide 2026 R1",
-      "summary": "",
+      "title": "ModelCenter Custom Optimization Algorithm - Developer's Guide 2026 R1",
+      "summary": "The ModelCenter algorithm developer SDK enables users to create custom optimization algorithms for use in ModelCenter products.",
       "version": "2026 R1",
       "product": "ModelCenter",
       "programming language": "java",

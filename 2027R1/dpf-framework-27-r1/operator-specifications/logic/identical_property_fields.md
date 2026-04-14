@@ -20,9 +20,18 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
+| <strong>-1</strong> | [order_independent](#input_-1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`bool`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>0</strong> | [property_fieldA](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
 | <strong>1</strong> | [property_fieldB](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
 
+
+<a id="input_-1"></a>
+### order_independent (Pin -1)
+
+- **Required:** Yes
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+if true, the comparison between the data for each entity is order-independent (e.g. data 1,4,5 associated to id 7 is considered identical to data 4,5,1 associated to the same id). The default is false.
 
 <a id="input_0"></a>
 ### property_fieldA (Pin 0)
@@ -110,6 +119,7 @@ Each example shows how to instantiate the operator, connect the required inputs,
 #include "dpf_api.h"
 
 ansys::dpf::Operator op("compare::property_field"); // operator instantiation
+op.connect(-1, my_order_independent);
 op.connect(0, my_property_fieldA);
 op.connect(1, my_property_fieldB);
 bool my_are_identical = op.getOutput<bool>(0);
@@ -124,6 +134,7 @@ std::string my_information = op.getOutput<std::string>(1);
 import ansys.dpf.core as dpf
 
 op = dpf.operators.logic.identical_property_fields() # operator instantiation
+op.inputs.order_independent.connect(my_order_independent)
 op.inputs.property_fieldA.connect(my_property_fieldA)
 op.inputs.property_fieldB.connect(my_property_fieldB)
 my_are_identical = op.outputs.are_identical()
@@ -139,6 +150,7 @@ import mech_dpf
 import Ans.DataProcessing as dpf
 
 op = dpf.operators.logic.identical_property_fields() # operator instantiation
+op.inputs.order_independent.Connect(my_order_independent)
 op.inputs.property_fieldA.Connect(my_property_fieldA)
 op.inputs.property_fieldB.Connect(my_property_fieldB)
 my_are_identical = op.outputs.are_identical.GetData()

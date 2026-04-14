@@ -25,59 +25,59 @@ Dummy implementation of `T:Phoenix.Optimization.IAlgorithmHost`.
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-|void |`Dispose ()`<br>Called to dispose the object. |
-|ModelEvaluation[] |`EvaluateModel (object[,] designVariables)`<br>Evalutes the model for the given designs in batch mode. |
-|[ModelEvaluation]() |`EvaluateModel (object[] designVariables)`<br>Evaluates the model for the given design. |
-|void |`InvokeHelp (string helpPath)`<br>Used to open the Optimization Tool's help viewer. |
-| |`MockSolverInfrastructure ()`<br>Creates a new instance of `MockSolverInfrastructure`. |
-| |`MockSolverInfrastructure (IEvaluator modelEvaluator)`<br>Creates a new instance of `MockSolverInfrastructure` using the given evaluator. |
-| |`MockSolverInfrastructure (IEvaluator modelEvaluator, [IFeasibilityProvider]() feasibilityProvider)`<br>Creates a new instance of `MockSolverInfrastructure` using the given evaluator. |
-| |`MockSolverInfrastructure (IEvaluator modelEvaluator, int haltAfter)`<br>Creates a new instance of `MockSolverInfrastructure` using the given evaluator and setting `P:Phoenix.Optimization.IAlgorithmHost.Halt` after the specified number of function evaluations. |
-|void |`SaveCheckPoint (string checkPointName, string saveState)`<br>Used to save the state of the algorithm for the restart. |
-|void |`SetStatusMessage (string statusMessage)`<br>Updates the current status message for the algorithm. |
-|void |`SetStatusMessage (string statusMessage, MessageType messageType)`<br>Updates the current status message for the algorithm. |
-|void |`UpdateBestDesign (object[] design)`<br>Updates the best design that the algorithm has found so far. |
-|ModelEvaluation[] |`EvaluateModel (object[,] designVariables)`<br>Evalutes the model for the given designs in batch mode. |
-|[ModelEvaluation]() |`EvaluateModel (object[] designVariables)`<br>Evalutes the model for the given design. |
-|void |`InvokeHelp (string helpPath)`<br>Used to open the Optimization Tool's help viewer. |
-|void |`SaveCheckPoint (string checkPointName, string saveState)`<br>Used to save the state of the algorithm for the restart. |
-|void |`SetStatusMessage (string statusMessage)`<br>Updates the current status message for the algorithm. |
-|void |`SetStatusMessage (string statusMessage, MessageType messageType)`<br>Updates the current status message for the algorithm. |
-|void |`UpdateBestDesign (object[] design)`<br>Updates the best design that the algorithm has found so far. |
+|Type|Name|Description|
+|-----|-----|-----|
+|void |`Dispose ()` |Called to dispose the object. |
+|ModelEvaluation[] |`EvaluateModel (object[,] designVariables)` |Evalutes the model for the given designs in batch mode. |
+|[ModelEvaluation]() |`EvaluateModel (object[] designVariables)` |Evaluates the model for the given design. |
+|void |`InvokeHelp (string helpPath)` |Used to open the Optimization Tool's help viewer. |
+| |`MockSolverInfrastructure ()` |Creates a new instance of `MockSolverInfrastructure`. |
+| |`MockSolverInfrastructure (IEvaluator modelEvaluator)` |Creates a new instance of `MockSolverInfrastructure` using the given evaluator. |
+| |`MockSolverInfrastructure (IEvaluator modelEvaluator, [IFeasibilityProvider]() feasibilityProvider)` |Creates a new instance of `MockSolverInfrastructure` using the given evaluator. |
+| |`MockSolverInfrastructure (IEvaluator modelEvaluator, int haltAfter)` |Creates a new instance of `MockSolverInfrastructure` using the given evaluator and setting `P:Phoenix.Optimization.IAlgorithmHost.Halt` after the specified number of function evaluations. |
+|void |`SaveCheckPoint (string checkPointName, string saveState)` |Used to save the state of the algorithm for the restart. |
+|void |`SetStatusMessage (string statusMessage)` |Updates the current status message for the algorithm. |
+|void |`SetStatusMessage (string statusMessage, MessageType messageType)` |Updates the current status message for the algorithm. |
+|void |`UpdateBestDesign (object[] design)` |Updates the best design that the algorithm has found so far. |
+|ModelEvaluation[] |`EvaluateModel (object[,] designVariables)` |Evalutes the model for the given designs in batch mode. |
+|[ModelEvaluation]() |`EvaluateModel (object[] designVariables)` |Evalutes the model for the given design. |
+|void |`InvokeHelp (string helpPath)` |Used to open the Optimization Tool's help viewer. |
+|void |`SaveCheckPoint (string checkPointName, string saveState)` |Used to save the state of the algorithm for the restart. |
+|void |`SetStatusMessage (string statusMessage)` |Updates the current status message for the algorithm. |
+|void |`SetStatusMessage (string statusMessage, MessageType messageType)` |Updates the current status message for the algorithm. |
+|void |`UpdateBestDesign (object[] design)` |Updates the best design that the algorithm has found so far. |
 
 ## Properties
-|Name|Description|
-|-----|-----|
-|PHXDesign | `BestDesign [get]`<br>Returns the last best PHXDesign sent by the algorithm. |
-|int | `BestDesignCount [get]`<br>Number of best designs sent by the algorithm. |
-|List< PHXDesign > | `BestDesigns [get]`<br>Returns the last best PHXDesign sent by the algorithm. |
-|Dictionary< int, string > | `CheckPoints [get]`<br>Dictionary of all the check points sent by the algorithm. |
-|int | `EvaluationCount [get]`<br>Number of times `EvaluateModel` has been called. |
-|int | `EvaluationPerformed [get]`<br>Number of new designs evaluated. |
-|List< ModelEvaluation > | `Evaluations [get]`<br>Returns evaluations in a list |
-|List< double[]> | `FeasibleDesignObjectives [get]`<br>List of objective values for all designs [Note: Used only for Multi-objective evaluators] |
-|bool | `Halt [get, set]`<br>Used to check whether a halt of the algorithm has been requested by ModelCenter. |
-|string | `LocaleID [get]`<br>Used to get the local ID for internationalization purposes. |
-|DataTable | `Messages [get]`<br>Table of all the messages sent by the algorithm. |
-|string | `ModelCenterPath [get]`<br>For internal use only. |
-|SortedDictionary< object[], ModelEvaluation > | `ModelEvaluations [get]`<br>Returns the dictionary of Evaluations. |
+|Type|Name|Description|
+|-----|-----|-----|
+|PHXDesign |`BestDesign [get]` |Returns the last best PHXDesign sent by the algorithm. |
+|int |`BestDesignCount [get]` |Number of best designs sent by the algorithm. |
+|List< PHXDesign > |`BestDesigns [get]` |Returns the last best PHXDesign sent by the algorithm. |
+|Dictionary< int, string > |`CheckPoints [get]` |Dictionary of all the check points sent by the algorithm. |
+|int |`EvaluationCount [get]` |Number of times `EvaluateModel` has been called. |
+|int |`EvaluationPerformed [get]` |Number of new designs evaluated. |
+|List< ModelEvaluation > |`Evaluations [get]` |Returns evaluations in a list |
+|List< double[]> |`FeasibleDesignObjectives [get]` |List of objective values for all designs [Note: Used only for Multi-objective evaluators] |
+|bool |`Halt [get, set]` |Used to check whether a halt of the algorithm has been requested by ModelCenter. |
+|string |`LocaleID [get]` |Used to get the local ID for internationalization purposes. |
+|DataTable |`Messages [get]` |Table of all the messages sent by the algorithm. |
+|string |`ModelCenterPath [get]` |For internal use only. |
+|SortedDictionary< object[], ModelEvaluation > |`ModelEvaluations [get]` |Returns the dictionary of Evaluations. |
 
 ### Properties inherited from [IAlgorithmHost]()
-|Name|Description|
-|-----|-----|
-|bool | `Halt [get]`<br>Used to check whether a halt of the algorithm has been requested by ModelCenter. |
-|string | `LocaleID [get]`<br>Used to get the local ID for internationalization purposes. |
-|string | `ModelCenterPath [get]`<br>For internal use only. |
+|Type|Name|Description|
+|-----|-----|-----|
+|bool |`Halt [get]` |Used to check whether a halt of the algorithm has been requested by ModelCenter. |
+|string |`LocaleID [get]` |Used to get the local ID for internationalization purposes. |
+|string |`ModelCenterPath [get]` |For internal use only. |
 
 
 ### Events 
-|Name|Description|
-|-----|-----|
-|`Execute OnHostCalled=` | null <br>Event used by `M:Phoenix.Optimization.AlgorithmTests.AlgorithmTestFixture`.detailsReportUpdateDuringRun to request a callback when `host` is called. |
-|`Execute OnSaveCheckPointCalled=` | null <br>Event used to request a callback when `SaveCheckPoint` is called. |
-|`Execute OnEvaluateModelCalled=` | null <br>Event used to request a callback when `EvaluateModel` is called. | 
+|Type|Name|Description|
+|-----|-----|-----|
+| |`Execute OnHostCalled=` |null. Event used by `M:Phoenix.Optimization.AlgorithmTests.AlgorithmTestFixture`.detailsReportUpdateDuringRun to request a callback when `host` is called. |
+| |`Execute OnSaveCheckPointCalled=` |null. Event used to request a callback when `SaveCheckPoint` is called. |
+| |`Execute OnEvaluateModelCalled=` |null. Event used to request a callback when `EvaluateModel` is called. | 
 
 
 ## Constructor & Destructor Documentation

@@ -24,9 +24,9 @@ Defines an object that has a variable name
 
 
 ## Properties
-|Name|Description|
-|-----|-----|
-|string | `Name [get]`<br>The name of the variable |
+|Type|Name|Description|
+|-----|-----|-----|
+|string |`Name [get]` |The name of the variable |
 
 ## Member Function Documentation
 

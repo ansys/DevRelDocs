@@ -1,6 +1,6 @@
 ---
 category: mapping
-plugin: N/A
+plugin: Ans.Dpf.MultiphysicsMapper
 license: any_dpf_supported_increments
 ---
 
@@ -10,22 +10,11 @@ license: any_dpf_supported_increments
 
 ## Description
 
-Prepare mapping of source data from source mesh to target mesh by operating the source_mesh/target_mesh weights computation.
+Prepares field data mapping from a source mesh to a target mesh using **kriging interpolation**, a geostatistical method that assigns weights to nearby source points based on spatial covariance. Use this operator with `apply_mechanical_native_mapping`.
 
-This operator will use a point kriging algorithm. Kriging is a regression-based interpolation technique that assigns weights to surrounding source points according to their spatial covariance values.
+**Ansys Mechanical equivalent**: Weighting = *Kriging*.
 
-The algorithm combines the Kriging model with a polynomial model to capture local and global deviations:
-- The Kriging model interpolates the source points based on their localized deviations.
-- The polynomial model globally approximates the source space.
-
-Note:
-- By default, the Kriging technique uses an adaptive algorithm and ensures that the interpolated values do not exceed specific limits
-.- The adaptive algorithm starts by using the higher-order Cross Quadratic polynomial to interpolate data. If the interpolated value of each target point is outside the extrapolation limit you specified, the algorithm re-interpolates data by reducing the polynomial order and the number of source points.
-- Target nodes whose values are outside the limits when the lowest polynomial type is used are not assigned a value.
-- The Kriging algorithm, when used with the higher-order Cross Quadratic or Pure Quadratic polynomial, may fail to correctly interpolate data for a target point if multiple source points are spaced close to one another or if the target point is outside the region enclosed by the source points that are selected for interpolation. This may introduce gross errors in the estimation of the target value and manifests itself mostly when mapping data on surface or edge geometries.
-- In such cases, you should change the Polynomial Type to Constant or Linear and, if necessary, reduce the number of source points to be included for the interpolation.
-
-This operator needs to be used with the apply mechanical native mapping associated one.
+For further details on the algorithm and its settings, see the Ansys Mechanical help page on [Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html).
 
 ## Inputs
 
@@ -137,7 +126,10 @@ Number of threads to be used to parallelize apply operations.
 - **Required:** No
 - **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
 
-Default is 20
+Maximum number of nearest source sample points used to compute kriging weights for each target point.
+Default: 20.
+The minimum usable value depends on the selected `polynomial_type` and the geometry dimension; refer to
+[Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html) for the minimum values per polynomial type.
 
 <a id="input_11"></a>
 ### correlation_function_type (Pin 11)
@@ -145,7 +137,18 @@ Default is 20
 - **Required:** No
 - **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
 
-Default is 'gaussian'. Can also be 'exponential', 'linear', 'none', 'spherical', 'cubic', 'multi_quadratic', 'thin_plate_spline'.
+Correlation function defining spatial correlation structure $C(r)$ in the kriging system.
+Options:
+- **'gaussian'** (default): $C(r) = \exp(-r^2)$ - Infinitely smooth, excellent for smooth fields
+- **'exponential'**: $C(r) = \exp(-r)$ - Once differentiable, good for moderately smooth fields
+- **'spherical'**: Compact support, good for localized correlations
+- **'cubic'**: Twice differentiable with compact support
+- **'linear'**: Simple linear decay
+- **'multi_quadratic'**: $C(r) = \sqrt{1 + r^2}$ - Radial basis function variant
+- **'thin_plate_spline'**: $C(r) = r^2 \log(r)$ - Natural 2D spline (good for surface mapping)
+- **'none'**: Pure polynomial interpolation without correlation structure
+
+Choice depends on expected field smoothness and spatial correlation characteristics.
 
 <a id="input_12"></a>
 ### polynomial_type (Pin 12)
@@ -153,7 +156,15 @@ Default is 'gaussian'. Can also be 'exponential', 'linear', 'none', 'spherical',
 - **Required:** No
 - **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
 
-Default is 'adaptive'. Can also be 'pure_quadratic', 'linear', 'constant', 'none'.
+Polynomial drift model globally approximating the source space. Options:
+- **'adaptive'** (default): Starts with Cross Quadratic; if the interpolated value at a target point falls outside the extrapolation tolerance (see `adaptive_tolerance_percent`), the algorithm re-interpolates with a lower polynomial order and fewer source points. Target points that remain out-of-range at the lowest order are left unmapped.
+- **'pure_quadratic'**: Fixed quadratic polynomial
+- **'linear'**: Fixed linear polynomial
+- **'constant'**: Fixed constant polynomial
+- **'none'**: No polynomial term
+
+Higher-order polynomials capture global trends but require more source points (see `samples_limit`) and may produce gross errors when source points are clustered
+or when the target point lies outside the set of selected source points. In such cases, prefer 'constant' or 'linear'.
 
 <a id="input_13"></a>
 ### outside_distance_checking (Pin 13)
@@ -161,7 +172,10 @@ Default is 'adaptive'. Can also be 'pure_quadratic', 'linear', 'constant', 'none
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-Default is false
+Enable checking whether target points lie outside the source mesh bounding box. When true,
+target points farther than `bounding_box_tolerance` from the source domain are marked as unmapped and excluded
+from interpolation (avoiding unreliable extrapolation). Default: false. Enable this for safety when target
+mesh may extend beyond source mesh coverage.
 
 <a id="input_14"></a>
 ### bounding_box_tolerance (Pin 14)
@@ -169,7 +183,10 @@ Default is false
 - **Required:** No
 - **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
 
-Default is 0.0
+Distance tolerance (in mesh length units) for expanding the source mesh bounding box when
+performing outside distance checking. Target points within this expanded region are considered mappable.
+Default: 0.0 (no expansion). Increase this value to allow slight extrapolation near domain boundaries.
+Only effective when `outside_distance_checking` is true.
 
 <a id="input_15"></a>
 ### adaptive_tolerance_percent (Pin 15)
@@ -177,7 +194,11 @@ Default is 0.0
 - **Required:** No
 - **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
 
-Default is 0.1 (corresponds to 10%)
+Extrapolation tolerance (in %) used in adaptive polynomial selection.
+After kriging at each target point, the result is accepted only if it lies within the local source value range extended by `(adaptive_tolerance_percent / 100) x (local_max - local_min)`.
+For example, with source values in [99, 100] and the default 10%, the accepted range is [98.9, 100.1].
+If the result exceeds this range, the algorithm re-interpolates with a lower polynomial order and fewer source points; target points still out-of-range at the lowest order are left unmapped.
+Default: 10.0 (10%). Only relevant when `polynomial_type` is 'adaptive'.
 
 <a id="input_16"></a>
 ### geometry_type (Pin 16)
@@ -185,7 +206,12 @@ Default is 0.1 (corresponds to 10%)
 - **Required:** No
 - **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
 
-Default is 'volume'. Can also be 'surface'.
+Mesh geometry type controlling spatial dimension of kriging interpolation:
+- **'volume'** (default): Full 3D kriging for volumetric meshes (solids, 3D point clouds)
+- **'surface'**: 2D kriging restricted to manifold surfaces (shells, membranes, 2D meshes)
+
+Surface mode projects kriging computations onto the mesh surface tangent space, appropriate when mapping
+between shell structures or 2D geometries.
 
 <a id="input_100"></a>
 ### is_element_centroidal_data_mapping (Pin 100)
@@ -323,7 +349,7 @@ This operator can be accessed through scripting interfaces using these identifie
 
  **Category**: mapping
 
- **Plugin**: N/A
+ **Plugin**: Ans.Dpf.MultiphysicsMapper
 
  **Scripting name**: prepare_mechanical_native_mapping_kriging
 

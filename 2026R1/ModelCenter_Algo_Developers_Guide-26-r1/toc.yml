@@ -3,6 +3,8 @@
 - name: Create an Algorithm
   href: create_algorithm.md
   items:
+  - name: Create an Algorithm Index
+    href: create_algorithm/create_algo_index.md
   - name: Create a .NET Algorithm Project
     href: create_algorithm/create_algo_net.md
   - name: Create a Java Algorithm Project

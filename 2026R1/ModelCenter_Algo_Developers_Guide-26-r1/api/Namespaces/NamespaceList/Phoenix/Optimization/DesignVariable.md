@@ -25,70 +25,70 @@ Class to hold information about a design variable
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-|bool |`CheckBounds ()`<br>Check bounds |
-|bool |`CheckLowerBoundValue ()`<br>Check Lower bound value |
-|bool |`CheckMe (bool doTryToFix=false)`<br>Check design variable for valid state |
-|bool |`CheckName (List< DesignVariable > varArr, bool isInMC)`<br> |
-|bool |`CheckStartValue ()`<br>Check StartValue |
-|bool |`CheckUpperBoundValue ()`<br>Check Upper bound value |
-| |`DesignVariable (DesignVariable designVariable)`<br>Copy constructor for a design variable |
-| |`DesignVariable (string name)`<br>Creates a new design variable with the given name. |
-| |`DesignVariable (string uid, string name)`<br>Creates a new design variable with the given id and name. |
-| |`DesignVariable (string uid, string name, DataTable selectedAlphabet)`<br>Creates a new design variable with the given name, start value and selected alphabet. |
-| |`DesignVariable (string uid, string name, double lowerBound, double upperBound)`<br>Creates a new design variable with the given name, start value, lower and upper bounds. |
-| |`DesignVariable (string uid, string name, object startValue)`<br>Creates a new design variable with the given name and start value. |
-| |`DesignVariable (string uid, string name, object startValue, DataTable selectedAlphabet)`<br>Creates a new design variable with the given name, start value and selected alphabet |
-| |`DesignVariable (string uid, string name, object startValue, double lowerBound, double upperBound)`<br>Creates a new design variable with the given name, start value, lower and upper bounds. |
-| |`DesignVariable (string uid, string name, object startValue, double lowerBound, double upperBound, DataTable selectedAlphabet)`<br>Creates a new design variable with the given name, start value, lower bound, upper bound and selected alphabet. |
-| |`DesignVariable (string uid, string name, object startValue, double lowerBound, double upperBound, DataTable selectedAlphabet, DataTable alphabet)`<br>Creates a new design variable with the given name, start value, lower bound, upper bound, selected alphabet and alphabet. |
-|bool |`Equals (DesignVariable desVar)`<br>Determines whether the specified DesignVariable is equal to the current DesignVariable. |
-|override bool |`Equals (object obj)`<br>Determines whether the specified Object is equal to the current Object. |
-|override int |`GetHashCode ()`<br>Serves as a hash function for DesignVariable. |
+|Type|Name|Description|
+|-----|-----|-----|
+|bool |`CheckBounds ()`| Check bounds |
+|bool |`CheckLowerBoundValue ()`| Check Lower bound value |
+|bool |`CheckMe (bool doTryToFix=false)`| Check design variable for valid state |
+|bool |`CheckName (List< DesignVariable > varArr, bool isInMC)`|  |
+|bool |`CheckStartValue ()`| Check StartValue |
+|bool |`CheckUpperBoundValue ()`| Check Upper bound value |
+| |`DesignVariable (DesignVariable designVariable)`| Copy constructor for a design variable |
+| |`DesignVariable (string name)`| Creates a new design variable with the given name. |
+| |`DesignVariable (string uid, string name)`| Creates a new design variable with the given id and name. |
+| |`DesignVariable (string uid, string name, DataTable selectedAlphabet)`| Creates a new design variable with the given name, start value and selected alphabet. |
+| |`DesignVariable (string uid, string name, double lowerBound, double upperBound)`| Creates a new design variable with the given name, start value, lower and upper bounds. |
+| |`DesignVariable (string uid, string name, object startValue)`| Creates a new design variable with the given name and start value. |
+| |`DesignVariable (string uid, string name, object startValue, DataTable selectedAlphabet)`| Creates a new design variable with the given name, start value and selected alphabet |
+| |`DesignVariable (string uid, string name, object startValue, double lowerBound, double upperBound)`| Creates a new design variable with the given name, start value, lower and upper bounds. |
+| |`DesignVariable (string uid, string name, object startValue, double lowerBound, double upperBound, DataTable selectedAlphabet)`| Creates a new design variable with the given name, start value, lower bound, upper bound and selected alphabet. |
+| |`DesignVariable (string uid, string name, object startValue, double lowerBound, double upperBound, DataTable selectedAlphabet, DataTable alphabet)`| Creates a new design variable with the given name, start value, lower bound, upper bound, selected alphabet and alphabet. |
+|bool |`Equals (DesignVariable desVar)`| Determines whether the specified DesignVariable is equal to the current DesignVariable. |
+|override bool |`Equals (object obj)`| Determines whether the specified Object is equal to the current Object. |
+|override int |`GetHashCode ()`| Serves as a hash function for DesignVariable. |
 
 ## Properties
-|Name|Description|
-|-----|-----|
-|DataTable | `Alphabet [get, set]`<br>DataTable containing the full list of name value pairs for discrete design variables. |
-|object | `BestDesignValue [get, set]`<br>BestDesignValueGUI /|
-|string | `BestDesignValueGUI [get]`<br>LastRunValue can be null /|
-|string | `BestLastDesignValueAsXmlAttr [get, set]`<br>Current Model center Value (current at the moment of creating this object) /|
-|int | `Index [get, set]`<br> |
-|bool | `IsDiscrete [get]`<br>Boolean stating whether or not the design variable is discrete. |
-|bool | `IsMarked [get, set]`<br>Internal marker. |
-|double | `LowerBound [get, set]`<br>Double containing the lower bound for the design variable or `NaN` if there is no lower bound. |
-|string | `LowerBoundErrText [get]`<br>Upper Bound Error text /|
-|double | `LowerBoundForCheck [get]`<br>Get lower for checking bound |
-|string | `LowerBoundGUI [get, set]`<br>Set get LowerBound as text to/from GUI |
-|string | `LowerBoundText [get]`<br>Lower bound as a Text with localization for Nan returns appropriate Nan string |
-|object | `ModelCenterValue [get, set]`<br>Current Model center Value (current at the moment of creating this object) /|
-|string | `ModelCenterValueGUI [get]`<br>Gets a reference to "Index" /|
-|string | `Name [get, set]`<br>Name of the design variable |
-|string | `NameErrText [get]`<br>Variable name error text |
-|DataTable | `SelectedAlphabet [get, set]`<br>DataTable containing the name value pairs for discrete design variables. |
-|object | `StartValue [get]`<br>Object containing the start value for the design variable |
-|double | `StartValueAsDouble [get]`<br>Returns Start value as a double if it's possible to convert startValue object to double otherwise returns `NaN` |
-|string | `StartValueAsXmlAttr [get, set]`<br>Object containing the raw start value for the design variable |
-|StartValueBehaviorEnum | `StartValueBehavior [get, set]`<br>Start Value Behavior |
-|object | `StartValueCalcGUI [get]`<br>Object containing the start value for the design variable |
-|string | `StartValueErrText [get]`<br>Start Value Error /|
-|object | `StartValueGUI [get, set]`<br>Object containing the start value for the design variable |
-|object | `StartValueRaw [get, set]`<br>Object containing the raw start value for the design variable it returns string.empty for null value |
-|string | `StartValueRawText [get]`<br>string containing the raw start value for the design variable it returns string.empty for null value |
-|string | `Uid [get, set]`<br>String with unique identifier of the variable. |
-|double | `UpperBound [get, set]`<br>Double containing the upper bound for the design variable or `NaN` if there is no upper bound. |
-|string | `UpperBoundErrText [get]`<br>Type of the value /|
-|double | `UpperBoundForCheck [get]`<br>Get upper for checking bound |
-|string | `UpperBoundGUI [get, set]`<br>Set get UpperBound as text to/from GUI |
-|string | `UpperBoundText [get]`<br>Upper bound as a Text with localization for Nan returns appropriate Nan string |
-|string | `ValueGUI [get]`<br>Value GUI if there is best design the return best design value, otherewise return modelcenter value |
-|Type | `ValueType [get, set]`<br> |
+|Type|Name|Description|
+|-----|-----|-----|
+|DataTable |`Alphabet [get, set]`| DataTable containing the full list of name value pairs for discrete design variables. |
+|object |`BestDesignValue [get, set]`| BestDesignValueGUI / |
+|string |`BestDesignValueGUI [get]`| LastRunValue can be null / |
+|string |`BestLastDesignValueAsXmlAttr [get, set]`| Current Model center Value (current at the moment of creating this object) / |
+|int |`Index [get, set]`|  |
+|bool |`IsDiscrete [get]`| Boolean stating whether or not the design variable is discrete. |
+|bool |`IsMarked [get, set]`| Internal marker. |
+|double |`LowerBound [get, set]`| Double containing the lower bound for the design variable or `NaN` if there is no lower bound. |
+|string |`LowerBoundErrText [get]`| Upper Bound Error text / |
+|double |`LowerBoundForCheck [get]`| Get lower for checking bound |
+|string |`LowerBoundGUI [get, set]`| Set get LowerBound as text to/from GUI |
+|string |`LowerBoundText [get]`| Lower bound as a Text with localization for Nan returns appropriate Nan string |
+|object |`ModelCenterValue [get, set]`| Current Model center Value (current at the moment of creating this object) / |
+|string |`ModelCenterValueGUI [get]`| Gets a reference to "Index" / |
+|string |`Name [get, set]`| Name of the design variable |
+|string |`NameErrText [get]`| Variable name error text |
+|DataTable |`SelectedAlphabet [get, set]`| DataTable containing the name value pairs for discrete design variables. |
+|object |`StartValue [get]`| Object containing the start value for the design variable |
+|double |`StartValueAsDouble [get]`| Returns Start value as a double if it's possible to convert startValue object to double otherwise returns `NaN` |
+|string |`StartValueAsXmlAttr [get, set]`| Object containing the raw start value for the design variable |
+|StartValueBehaviorEnum |`StartValueBehavior [get, set]`| Start Value Behavior |
+|object |`StartValueCalcGUI [get]`| Object containing the start value for the design variable |
+|string |`StartValueErrText [get]`| Start Value Error / |
+|object |`StartValueGUI [get, set]`| Object containing the start value for the design variable |
+|object |`StartValueRaw [get, set]`| Object containing the raw start value for the design variable it returns string.empty for null value |
+|string |`StartValueRawText [get]`| string containing the raw start value for the design variable it returns string.empty for null value |
+|string |`Uid [get, set]`| String with unique identifier of the variable. |
+|double |`UpperBound [get, set]`| Double containing the upper bound for the design variable or `NaN` if there is no upper bound. |
+|string |`UpperBoundErrText [get]`| Type of the value / |
+|double |`UpperBoundForCheck [get]`| Get upper for checking bound |
+|string |`UpperBoundGUI [get, set]`| Set get UpperBound as text to/from GUI |
+|string |`UpperBoundText [get]`| Upper bound as a Text with localization for Nan returns appropriate Nan string |
+|string |`ValueGUI [get]`| Value GUI if there is best design the return best design value, otherewise return modelcenter value |
+|Type |`ValueType [get, set]`|  |
 
 ### Properties inherited from [IVariableName]()
-|Name|Description|
-|-----|-----|
-|string | `Name [get]`<br>The name of the variable |
+|Type|Name|Description|
+|-----|-----|-----|
+|string |`Name [get]`| The name of the variable |
 
 ## Constructor & Destructor Documentation
 

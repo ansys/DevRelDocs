@@ -5,3 +5,4 @@ This section list the changelogs of the Speos RPC versions.
 - [Speos RPC changelog 2025 R2 SP03](speos_changelogs_rpc_2523.md)
 - [Speos RPC changelog 2025 R2 SP01](speos_changelogs_rpc_2521.md)
 - [Speos RPC changelog 2025 R2](speos_changelogs_rpc_252.md)
+- [Speos RPC changelog 2025 R1 SP04](speos_changelogs_rpc_2523.md)

@@ -25,14 +25,14 @@ Interface to provide for algorithms to return details report as a file
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-|void |`WriteDetailsReportToFile ()`<br>Write the Details Report to file |
+|Type|Name|Description|
+|-----|-----|-----|
+|void |`WriteDetailsReportToFile ()` |Write the Details Report to file |
 
 ## Properties
-|Name|Description|
-|-----|-----|
-|string | `DetailsReportFileName [get, set]`<br>Sets the details reprot file name. |
+|Type|Name|Description|
+|-----|-----|-----|
+|string |`DetailsReportFileName [get, set]` |Sets the details reprot file name. |
 
 ## Member Function Documentation
 

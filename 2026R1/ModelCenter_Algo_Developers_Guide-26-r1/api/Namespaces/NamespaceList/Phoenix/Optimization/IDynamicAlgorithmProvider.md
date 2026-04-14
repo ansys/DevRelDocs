@@ -25,9 +25,9 @@ This interface is intended to allow extensibility of the way in which the Opt To
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-|IDictionary< string, [IAlgorithmCatalogEntry]() > |`LoadAlgorithms ()`<br>Generate [IAlgorithmCatalogEntry]() instances for all the algorithms this provider knows how to load. |
+|Type|Name|Description|
+|-----|-----|-----|
+|IDictionary< string, [IAlgorithmCatalogEntry]() > |`LoadAlgorithms ()` |Generate [IAlgorithmCatalogEntry]() instances for all the algorithms this provider knows how to load. |
 
 ## Member Function Documentation
 
