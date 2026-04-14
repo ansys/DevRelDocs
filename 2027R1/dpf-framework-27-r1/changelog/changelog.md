@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-04-10).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-04-13).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -33,7 +33,7 @@ The following table shows which components have updates in each category.
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[4 items](#Fixes_h5dpf) |
 | hdf5 | [8 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
-| hgp | [5 items](#Features_hgp) |[3 items](#Fixes_hgp) |
+| hgp | [5 items](#Features_hgp) |[4 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [3 items](#Features_kernel) |[10 items](#Fixes_kernel) |
 | lsdyna | [2 items](#Features_lsdyna) | |
@@ -843,6 +843,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_hgp"></a> Fixes
+
+- Add guard variable to prevent dpf_api_i.cpp double include:
+  > 
+  >
+  > 
 
 - Add natvis support for some CustomTypeField variants:
   > 
