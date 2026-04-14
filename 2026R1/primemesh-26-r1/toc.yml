@@ -5097,7 +5097,7 @@
   - name: ansys.meshing.prime.examples.download_wheel_ground_scdoc
     href: api/_autosummary/ansys.meshing.prime.examples.download_wheel_ground_scdoc.md
 - name: Changelog
-  href: changelog.md.
+  href: changelog.md
 
 
 
