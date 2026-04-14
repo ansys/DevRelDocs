@@ -8,8 +8,6 @@ For more information on getting a licensed copy of Ansys, visit the [Ansys websi
 
 Install the latest Prime Mesh Python client library from [Ansys Customer Site](https://support.ansys.com/Home/HomePage).
 
-
-
 ## Run a Python script in batch
 
 To run a PyPrimeMesh Python script directly on the server from a Linux or Windows console:
