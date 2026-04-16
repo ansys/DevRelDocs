@@ -6,14 +6,16 @@ Use this file to drive an AI assistant that helps authors meet **Ansys developer
 
 ### Reviews
 
-Apply **Part 2** in order, skipping sections that clearly do not apply to the package type. Be specific: cite paths, quote short excerpts where helpful, and recommend concrete edits.
+1. **Classify the package first** using **§0 Package classification** in Part 2. There are **three primary documentation types**: **REST API** (OpenAPI/Swagger spec as reference), **API** (protocol and messages documented without that spec as the source of truth — often Markdown or equivalent prose), and **Library/SDK** (language-specific surface: classes, structs, functions, samples). Pick the type(s) that apply; see **§0** for detection rules and the rubric map.
+2. Apply **Part 2** in order, but **only the sections that apply** to that classification (see **§0.5**). For example, **do not** apply **§3.4** or the REST **§2.1** metadata split unless the package is classified as **REST API**. **Do not** require full **§4** for **REST API** or **API** unless the package also documents a **Library/SDK**.
+3. Be specific: cite paths, quote short excerpts where helpful, and recommend concrete edits.
 
 ### Compliance report
 
 When the user asks for a compliance check, self-review, or pre-PR verification, create or update **`documentation-compliance-report.md`** in the **root of the documentation package** under review (the folder that contains `index.md` and usually `docfx.json`).
 
 - **Do not** add that file to **`toc.yml`** or the product landing page unless the team wants it on the portal.
-- **Include:** title; metadata (package path relative to the repo root, ISO date); summary (Approved / needs minor or major revisions; package type); scope; checklist results mapped to Part 2; findings with severity and file paths; numbered action items. For narrative structure, follow **section 8 — Review output format** in Part 2.
+- **Include:** title; metadata (package path relative to the repo root, ISO date); summary (Approved / needs minor or major revisions); **package classification per §0** (which of **REST API**, **API**, and **Library/SDK** **apply**, with evidence); **checklists and findings only for applicable types** — omit sections and table rows for types that do not apply (do not fill the report with “N/A” for irrelevant categories); scope; numbered action items. For narrative structure, follow **section 8 — Review output format** in Part 2.
 
 ### Extra reading (optional)
 
@@ -29,6 +31,14 @@ Check titles, versions, **physics**, and **programming language** against the ta
 
 Encourage Vale, Markdownlint, OpenAPI validation, link checks, and local Docfx where they apply. This agent **complements** those checks; it does not replace them.
 
+### Table of contents (`toc.yml`)
+
+When the package uses **`toc.yml`**, verify the following (see also **§5.2**):
+
+1. **Single file** — Search the **entire documentation package** directory tree (the folder that contains `index.md` and usually `docfx.json`). There must be **exactly one** `toc.yml`. More than one `toc.yml` is an **error** unless the repository’s build explicitly documents an exception; flag duplicates with paths.
+2. **No duplicate targets** — Collect every **`href`** in the TOC (including **nested** entries under `items` or equivalent structure). The same **`href`** must **not** appear more than once. Duplicate links are an **error** (they confuse navigation and can break ordering expectations).
+3. **Quoting `name` values** — If a **`name`** string contains characters that are special in YAML or hard to read unquoted, wrap it in **double quotes**. Examples that should be quoted: colons used as part of the title (e.g. `Topic: overview`), **double colons (`::`)**, hash **`#`**, braces, brackets, leading/trailing spaces, or embedded quotes. Prefer plain titles without exotic punctuation when possible; if you keep them, **quote** the `name` value.
+
 ### Where to store this file
 
 Put it where your tool loads repo-wide agent rules—commonly **`.github/AGENTS.md`** next to the documentation you are editing.
@@ -43,11 +53,13 @@ This agent performs systematic technical reviews of API, library, and SDK docume
 
 ### Scope
 
-This review agent evaluates:
-- **HTTP APIs**: REST APIs, gRPC APIs following OpenAPI Specification or Protocol Buffers
-- **Other APIs**: APIs using specific protocols and data formats
-- **Libraries**: Language-specific interfaces with compiled code (functions, classes, methods)
-- **SDKs**: Collections of libraries with ready-to-run code samples
+Documentation packages fall into **three API / developer-doc types** (see **§0** for how to tell them apart):
+
+1. **REST API** — HTTP REST surface documented with a **machine-readable OpenAPI (or Swagger) JSON/YAML** file and portal metadata rules for `rest_api`.
+2. **API** — **No OpenAPI file** as the authoritative reference (or OpenAPI is not how the portal builds this package’s reference). The **protocol**, **messages** (fields, types, required/optional), **formats**, and behavior are documented — **typically in Markdown** (and optional diagrams). Examples: narrative REST, custom binary/text protocols, gRPC/Protobuf **described in prose** (or generated from `.proto` into Markdown), OSC, etc. Use **§3.6** for non-HTTP/non-gRPC-native layouts; **§3.5** when review targets **`.proto`** as reference.
+3. **Library/SDK** — **Language-dependent** developer surface: **classes**, **structs**, **functions**, modules, and usage samples; reference is often generated (Doxygen, docfx API, etc.) or hand-written. An **SDK** is typically broader than a single library (multiple components + examples).
+
+**Hybrid packages** (e.g. OpenAPI **and** a client library) combine types; apply every checklist that matches a delivered surface.
 
 ### Review instructions
 
@@ -56,6 +68,69 @@ When reviewing documentation, systematically evaluate each section below. Provid
 - References to specific files and line numbers where applicable
 - Actionable recommendations for fixes
 - Recognition of areas that meet or exceed guidelines
+
+**Important:** Complete **§0 Package classification** before scoring §2–§5 so **REST API** rules are not applied to **API** or **Library/SDK** packages (and vice versa).
+
+---
+
+## 0. Package classification (mandatory first step)
+
+Determine the **documentation package classification(s)** before applying the rest of Part 2. The three categories are **REST API**, **API**, and **Library/SDK**; use the decision flow below, then **§0.5** for which rubric sections apply.
+
+### 0.1 REST API
+
+**Definition:** HTTP REST (or REST-like) API where the **authoritative reference** is a **machine-readable OpenAPI or Swagger** file (JSON or YAML).
+
+**How to detect:**
+
+- Search the package tree for **`.json`** / **`.yaml`** / **`.yml`** whose root has **`openapi`** (3.x) or **`swagger`** (2.x). Common names: `openapi.json`, `swagger.json`, paths under `api/`, `spec/`, `openapi/`, etc.
+- Check **`docfx.json`** (and build config) for references to that file.
+- **`doc_type: rest_api`** in `docfx.json` strongly implies **REST API**; if set **without** a spec, flag the mismatch.
+
+**Checklist focus:** §2.1 REST metadata split (`docfx.json` + **`info`** in spec), **full §3** including **§3.4**, **§5.4** OpenAPI validation.
+
+### 0.2 API
+
+**Definition:** The integration surface is an **API** (HTTP, WebSocket, custom wire format, files, etc.), but the **authoritative reference is not OpenAPI** for this package. Documentation covers **protocol**, **message** layouts (fields, types, required vs optional), **serialization**, **errors**, and **examples** — **usually in Markdown** (or equivalent prose/diagrams).
+
+**Examples:** `rest-api.md`-style narrative REST; EnSight-style tool APIs; proprietary request/response schemas; **gRPC** concepts in prose while **§3.5** applies when **`.proto`** files are the reviewed artifact.
+
+**How to detect:** No OpenAPI root file in package (or not used); substantive API prose in `.md`; optional `.proto` or schema files **without** classifying the package as **REST API**.
+
+**Checklist focus:** §2.1 **Markdown** metadata (not the REST/OpenAPI split unless **REST API** also applies). **§3.1–§3.3**, **§3.2** where relevant (e.g. HTTP auth, examples). **§3.6** for non-HTTP / “other” protocols. **§3.5** for **Protobuf/gRPC** reference review when protos are in scope. **Do not** apply **§3.4** (OpenAPI field-by-field) or **§5.4** unless an OpenAPI file is actually part of the deliverable.
+
+**Quality bar:** Messages and fields should be as **complete** as practical—similar intent to OpenAPI, but in prose/tables/diagrams rather than a spec file.
+
+### 0.3 Library/SDK
+
+**Definition:** Developers consume a **programming-language API**: **classes**, **structs**, **functions**, namespaces, modules, **build/install**, **samples**. Reference may be generated (e.g. Doxygen, API doc) or written by hand.
+
+**How to detect:** `getting-started/`, `api-reference/`, language-specific examples; **`doc_type: doxygen`**; generated XML/Markdown API; primary value is “how to call code,” not “how to call HTTP endpoints” (unless hybrid).
+
+**Checklist focus:** **§4** (structure, getting started, user guide, examples, reference for types/members). **§2.1** Markdown or **Doxygen** metadata as applicable (**§5.3**). **§3** only if the same package documents a **separate** wire API (hybrid).
+
+### 0.4 Additional signals and hybrids
+
+- **Doxygen:** §2.1 Doxygen + §5.3; API reference often generated; may be **Library/SDK** even if the product also speaks HTTP elsewhere.
+- **gRPC:** If review is **proto source** → **§3.5**. If only Markdown narrative → **API** + §3.6-style completeness for messages.
+- **Hybrid:** **REST API** **+** client library → **REST API** **+** **Library/SDK** (both §3.4 and §4 where relevant). **API** (prose) **+** small utility library → **API** + applicable §4 sections.
+
+### 0.5 Which sections of Part 2 apply (summary)
+
+| Classification | §2 Metadata | §3 | §4 | §5.4 OpenAPI |
+|----------------|-------------|-----|-----|----------------|
+| **REST API** | REST split (`docfx.json` + spec `info`) | Full, incl. **§3.4** | Only if **Library/SDK** also documented | **Yes** |
+| **API** | Markdown (§2.1) | §3.1–§3.3, §3.2 as fits; **§3.5** or **§3.6** as fits; **not §3.4** | Only if **Library/SDK** also documented | **No** |
+| **Library/SDK** | Markdown or Doxygen | Only if a wire API is also documented (narrative subsets) | **Full §4** | Only if OpenAPI bundled |
+
+When in doubt, state **ambiguous** classification in **`documentation-compliance-report.md`** and list evidence.
+
+### 0.6 Rules for the agent
+
+1. In **`documentation-compliance-report.md`**, record **only the documentation type(s) that apply** (**REST API**, **API**, **Library/SDK**), with **evidence** (OpenAPI path, API topic paths, primary language, `doc_type`). **Do not** add sections, table rows, or “N/A” blocks for types that do not apply.
+2. **Never** require **§3.4** for **API** or **Library/SDK** unless **REST API** also applies (OpenAPI present and in scope).
+3. **Always** require **§3.4** and the **§2.1 REST/OpenAPI metadata split** when **REST API** applies.
+4. For **API**, treat **message and protocol completeness** in documentation as the core review—comparable thoroughness to OpenAPI, without requiring OpenAPI files.
 
 ---
 
@@ -117,6 +192,8 @@ When reviewing documentation, systematically evaluate each section below. Provid
 
 ## 2. Metadata Configuration
 
+**Classification:** Use **§0** to decide which block below applies. Apply the **REST API** metadata split in §2.1 only when an OpenAPI/Swagger spec file is part of the package; otherwise use the **Markdown** (**API** or **Library/SDK**) or **Doxygen** blocks as appropriate.
+
 ### 2.1 Required Metadata
 
 **For Markdown documentation packages** (`docfx.json`, `build.globalMetadata`):
@@ -148,9 +225,10 @@ When reviewing documentation, systematically evaluate each section below. Provid
 - [ ] **Optional fields** (**status**, **access control**, **author**, **date**, and so on) when the package uses them — see [metadata configuration](https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/migrate-dev-portal/migrate-package/metadata.md)
 
 **Review Actions:**
-- Verify metadata completeness in the correct files (`docfx.json` vs OpenAPI/YAML spec for REST)
+- Use **§0** to choose metadata rules before executing the bullets below.
+- Verify metadata completeness in the correct files (`docfx.json` vs OpenAPI/YAML spec **only for REST API**)
 - **For Markdown and Doxygen packages:** Confirm required `globalMetadata` fields in §2.1, including **`summary`** and (for Doxygen) **`doc_type`: `doxygen`**
-- **For REST API packages:** Confirm `docfx.json` includes `doc_type`, `product`, `summary`, and `physics` in `build.globalMetadata`, and that `info.title`, `info.version`, and `info.description` are populated in the spec with no contradictory version or naming between files
+- **For REST API packages only:** Confirm `docfx.json` includes `doc_type`, `product`, `summary`, and `physics` in `build.globalMetadata`, and that `info.title`, `info.version`, and `info.description` are populated in the spec with no contradictory version or naming between files
 - Check version numbering consistency across files
 - Validate taxonomy terms (`physics`, `product`, `programming language`, and any optional fields in use) against the official YAML lists
 - Ensure title formatting is consistent with conventions
@@ -158,6 +236,8 @@ When reviewing documentation, systematically evaluate each section below. Provid
 ---
 
 ## 3. API Documentation Review
+
+**Classification:** This section applies to packages that document a **wire API** under **REST API** or **API** (§0). For **Library/SDK**-only packages, skip most of §3 unless §0 identified a **hybrid** wire API; for **REST API**, include **§3.4**; for **API**, **omit §3.4** (see **§0.5**).
 
 ### 3.1 File Structure Requirements
 
@@ -202,6 +282,8 @@ When reviewing documentation, systematically evaluate each section below. Provid
 - Verify communication flow describes data exchange patterns
 
 #### 3.2.3 Resources Section (REST APIs only)
+
+**Scope:** Applies when the package documents an HTTP REST surface as **REST API** or **API**. For **REST API**, expectations should align with the OpenAPI spec. For **API** (narrative REST, etc.), treat as prose quality guidance (no requirement to mirror OpenAPI `tags`).
 
 **Required elements:**
 - [ ] Definition of all resources handled by API endpoints
@@ -268,6 +350,8 @@ When reviewing documentation, systematically evaluate each section below. Provid
 - Verify entries are clear and specific (not vague)
 
 ### 3.4 REST API Reference Review
+
+**Applies only to:** **REST API** (package includes an OpenAPI/Swagger spec). If the package is **API** only, skip this subsection entirely and review endpoints and messages in Markdown (§3.2, §3.6).
 
 **JSON/YAML file requirements:**
 - [ ] File follows [OpenAPI Specification](https://www.openapis.org/)
@@ -517,6 +601,8 @@ service UserService {
 
 ## 4. Library and SDK Documentation Review
 
+**Classification:** Use **§0**. Full §4 applies to **Library/SDK** packages. For **REST API**-only deliveries, §4 is usually **not** required unless client libraries are documented. Hybrid packages (**REST API** + **Library/SDK**) require both §3 (with §3.4) and §4 where relevant.
+
 ### 4.1 File Structure Requirements
 
 **Required files:**
@@ -756,6 +842,9 @@ Same requirements as API changelog (see section 3.3)
 
 - [ ] Files in logical directory structure
 - [ ] `toc.yml` exists and is correct
+- [ ] **Exactly one** `toc.yml` in the whole documentation package (see Part 1 — **Table of contents (`toc.yml`)**)
+- [ ] No **duplicate** `href` values anywhere in `toc.yml` (including nested items)
+- [ ] Every `name` that contains YAML-sensitive characters (e.g. `::`, `: ` patterns, `#`, `{}`, `[]`, quotes) is **double-quoted**
 - [ ] `docfx.json` exists with proper metadata
 - [ ] All Markdown files use proper formatting
 - [ ] Code blocks specify language for syntax highlighting
@@ -764,6 +853,9 @@ Same requirements as API changelog (see section 3.3)
 
 **Review Actions:**
 - Verify `toc.yml` matches actual file structure
+- Confirm a single `toc.yml`; list all paths if more than one exists (**error**)
+- Flatten the TOC (including nested `items`) and flag any **`href`** that appears more than once (**error**)
+- Scan `name` fields; require YAML double quotes for special characters (Part 1 — **Table of contents (`toc.yml`)**)
 - Check `docfx.json` configuration
 - Test Markdown rendering locally
 - Verify all code blocks have language identifiers
@@ -781,6 +873,8 @@ Same requirements as API changelog (see section 3.3)
 - Confirm Markdown conversion for 2026 R1+
 
 ### 5.4 API Packages
+
+**Applies only when:** **§0** classifies the package as **REST API** (OpenAPI/Swagger spec file exists). Skip for **API**-only or **Library/SDK**-only packages.
 
 - [ ] JSON or YAML file properly formatted
 - [ ] File validates against OpenAPI Specification
@@ -937,13 +1031,15 @@ Reference these resources during review:
 
 Use this quick checklist for review completion tracking:
 
+- [ ] **Package classified per §0**; compliance report lists **only applicable** type(s) and checklists (no N/A filler for other types)
 - [ ] General requirements reviewed (style, quality, GitHub)
-- [ ] Metadata configuration verified
+- [ ] Metadata configuration verified **for that classification** (REST API OpenAPI split vs **API** / **Library/SDK** Markdown vs Doxygen)
 - [ ] File structure validated
-- [ ] API documentation reviewed (if applicable)
+- [ ] **`toc.yml`:** exactly one in package; no duplicate `href`; `name` quoting rules (Part 1 / §5.2)
+- [ ] API documentation reviewed **if §0 says API applies**
   - [ ] Descriptive content (index.md, changelog.md)
-  - [ ] API reference (REST/gRPC/Other)
-- [ ] Library/SDK documentation reviewed (if applicable)
+  - [ ] API reference: **§3.4 only for REST API**; **§3.5** if `.proto` review; **§3.6** for other protocols; **API** = completeness for protocol/messages in docs
+- [ ] Library/SDK documentation reviewed **if §0 says library/SDK applies**
   - [ ] Descriptive content (introduction, getting started, user guide, examples, changelog)
   - [ ] Reference documentation (functions, classes, data structures)
 - [ ] Pre-submission checks completed
