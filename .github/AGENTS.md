@@ -9,13 +9,18 @@ Use this file to drive an AI assistant that helps authors meet **Ansys developer
 1. **Classify the package first** using **§0 Package classification** in Part 2. There are **three primary documentation types**: **REST API** (OpenAPI/Swagger spec as reference), **API** (protocol and messages documented without that spec as the source of truth — often Markdown or equivalent prose), and **Library/SDK** (language-specific surface: classes, structs, functions, samples). Pick the type(s) that apply; see **§0** for detection rules and the rubric map.
 2. Apply **Part 2** in order, but **only the sections that apply** to that classification (see **§0.5**). For example, **do not** apply **§3.4** or the REST **§2.1** metadata split unless the package is classified as **REST API**. **Do not** require full **§4** for **REST API** or **API** unless the package also documents a **Library/SDK**.
 3. Be specific: cite paths, quote short excerpts where helpful, and recommend concrete edits.
+4. **Tag every finding** with exactly one **severity** from **§0.7** (**Must fix**, **Should fix**, or **Nice to fix**). Optionally add a **category** (**Policy**, **Correctness**, **Quality**) when it clarifies why the issue matters.
+
+### Finding severity
+
+Compliance reviews, narrative feedback, and **`documentation-compliance-report.md`** must apply **§0.7** consistently: each **issue** and each **action item** gets one severity; optional **category** labels supplement but do not replace severity.
 
 ### Compliance report
 
-When the user asks for a compliance check, self-review, or pre-PR verification, create or update **`documentation-compliance-report.md`** in the **root of the documentation package** under review (the folder that contains `index.md` and usually `docfx.json`).
+When the user asks for a compliance check, self-review, or pre-PR verification, create or update **`documentation-compliance-report.md`** in the **root of the documentation package** under review (the folder that contains **`docfx.json`** and, for **API** / **Library/SDK** packages, usually **`index.md`** as well).
 
 - **Do not** add that file to **`toc.yml`** or the product landing page unless the team wants it on the portal.
-- **Include:** title; metadata (package path relative to the repo root, ISO date); summary (Approved / needs minor or major revisions); **package classification per §0** (which of **REST API**, **API**, and **Library/SDK** **apply**, with evidence); **checklists and findings only for applicable types** — omit sections and table rows for types that do not apply (do not fill the report with “N/A” for irrelevant categories); scope; numbered action items. For narrative structure, follow **section 8 — Review output format** in Part 2.
+- **Include:** title; metadata (package path relative to the repo root, ISO date); summary (Approved / needs minor or major revisions) **aligned with §0.7**; **package classification per §0** (which of **REST API**, **API**, and **Library/SDK** **apply**, with evidence); **checklists and findings only for applicable types** — omit sections and table rows for types that do not apply (do not fill the report with “N/A” for irrelevant categories); scope; numbered action items **each prefixed with Must fix, Should fix, or Nice to fix**. For narrative structure, follow **section 8 — Review output format** in Part 2.
 
 ### Extra reading (optional)
 
@@ -33,9 +38,11 @@ Encourage Vale, Markdownlint, OpenAPI validation, link checks, and local Docfx w
 
 ### Table of contents (`toc.yml`)
 
+**REST API-only** packages (§0) **do not** require **`toc.yml`** or **`index.md`**; do not flag their absence for those classifications. Apply the checks below only when the package **includes** a **`toc.yml`** (typical for **API** and **Library/SDK** Markdown layouts, and for **hybrid** packages that ship a library TOC).
+
 When the package uses **`toc.yml`**, verify the following (see also **§5.2**):
 
-1. **Single file** — Search the **entire documentation package** directory tree (the folder that contains `index.md` and usually `docfx.json`). There must be **exactly one** `toc.yml`. More than one `toc.yml` is an **error** unless the repository’s build explicitly documents an exception; flag duplicates with paths.
+1. **Single file** — Search the **entire documentation package** directory tree (the folder that contains **`docfx.json`**). There must be **exactly one** `toc.yml`. More than one `toc.yml` is an **error** unless the repository’s build explicitly documents an exception; flag duplicates with paths.
 2. **No duplicate targets** — Collect every **`href`** in the TOC (including **nested** entries under `items` or equivalent structure). The same **`href`** must **not** appear more than once. Duplicate links are an **error** (they confuse navigation and can break ordering expectations).
 3. **Quoting `name` values** — If a **`name`** string contains characters that are special in YAML or hard to read unquoted, wrap it in **double quotes**. Examples that should be quoted: colons used as part of the title (e.g. `Topic: overview`), **double colons (`::`)**, hash **`#`**, braces, brackets, leading/trailing spaces, or embedded quotes. Prefer plain titles without exotic punctuation when possible; if you keep them, **quote** the `name` value.
 
@@ -64,7 +71,7 @@ Documentation packages fall into **three API / developer-doc types** (see **§0*
 ### Review instructions
 
 When reviewing documentation, systematically evaluate each section below. Provide specific feedback with:
-- Clear identification of issues found
+- Clear identification of issues found, each labeled with **one severity** (**Must fix**, **Should fix**, **Nice to fix**) per **§0.7**, and optionally a **category** (**Policy**, **Correctness**, **Quality**)
 - References to specific files and line numbers where applicable
 - Actionable recommendations for fixes
 - Recognition of areas that meet or exceed guidelines
@@ -87,7 +94,7 @@ Determine the **documentation package classification(s)** before applying the re
 - Check **`docfx.json`** (and build config) for references to that file.
 - **`doc_type: rest_api`** in `docfx.json` strongly implies **REST API**; if set **without** a spec, flag the mismatch.
 
-**Checklist focus:** §2.1 REST metadata split (`docfx.json` + **`info`** in spec), **full §3** including **§3.4**, **§5.4** OpenAPI validation.
+**Checklist focus:** §2.1 REST metadata split (`docfx.json` + **`info`** in spec), **full §3** including **§3.4** and **§3.1 REST API file layout** (no `index.md` / `toc.yml` requirement), **§5.4** OpenAPI validation.
 
 ### 0.2 API
 
@@ -131,6 +138,32 @@ When in doubt, state **ambiguous** classification in **`documentation-compliance
 2. **Never** require **§3.4** for **API** or **Library/SDK** unless **REST API** also applies (OpenAPI present and in scope).
 3. **Always** require **§3.4** and the **§2.1 REST/OpenAPI metadata split** when **REST API** applies.
 4. For **API**, treat **message and protocol completeness** in documentation as the core review—comparable thoroughness to OpenAPI, without requiring OpenAPI files.
+
+### 0.7 Finding severity and categories (mandatory tagging)
+
+Assign **exactly one severity** per issue and per action item. Do not mix severities for a single bullet (split into separate items if needed).
+
+**Severities**
+
+| Severity | Use when | Effect on overall summary |
+|----------|----------|---------------------------|
+| **Must fix** | Violates an explicit rubric or portal requirement; breaks build, metadata, or taxonomy contracts; invalid or missing OpenAPI where required; or would **materially mislead** developers (wrong auth, wrong endpoints, contradictory versions, unsafe guidance). | **Not Approved** / **Needs Major Revisions** while any **Must fix** remains open. |
+| **Should fix** | Misses rubric expectations or clearly hurts completeness, accuracy, or usability; authors should resolve before release when practical. | Drives **Needs Major Revisions** if widespread or blocking key flows; otherwise **Needs Minor Revisions**. |
+| **Nice to fix** | Polish, consistency, or optional improvements; does not block policy or correctness. | Cited under **Needs Minor Revisions** or recommendations; does not block **Approved** by itself. |
+
+**Default mapping to summary line**
+
+- **Approved** — no open **Must fix**; no **Should fix** that the reviewer treats as release-blocking (state explicitly if any **Should fix** is deferred).
+- **Needs Minor Revisions** — no **Must fix**; one or more **Should fix** and/or **Nice to fix**.
+- **Needs Major Revisions** — one or more **Must fix**, *or* enough **Should fix** items that the package is not ready as a whole.
+
+**Optional category** (append when it helps triage; does not replace severity)
+
+- **Policy** — metadata, taxonomy, `doc_type`, **`toc.yml`** rules, classification, repository or visibility expectations.
+- **Correctness** — technical accuracy, API behavior, examples and schemas, links, OpenAPI vs prose alignment.
+- **Quality** — style, structure, diagrams, narrative clarity, consistency.
+
+**Example labels:** `Must fix (Policy):`, `Should fix (Correctness):`, `Nice to fix (Quality):`.
 
 ---
 
@@ -241,16 +274,37 @@ When in doubt, state **ambiguous** classification in **`documentation-compliance
 
 ### 3.1 File Structure Requirements
 
+**Classification:** Apply **only** the subsection below that matches **§0**.
+
+#### 3.1.1 REST API packages
+
+**Required deliverables:**
+- [ ] **`changelog.md`** at the **package root** (release history for this API)
+- [ ] **At least one Markdown file** (any title or path under the package) that describes the REST API in prose—introduction, how to call the API, examples, and related guidance. The filename is **not** required to be `index.md`; subfolders (for example `description/`) are allowed if that is how the repo organizes content.
+- [ ] **OpenAPI or Swagger** spec file(s) that are the authoritative HTTP reference (see **§3.4**)
+
+**Not required** for **REST API-only** packages: **`index.md`**, **`toc.yml`**, and a subdirectory **`index.md`** per folder. Do not treat their absence as a defect unless **§0** also classifies the package as **API** (prose-only) or **Library/SDK** where those files apply.
+
+**Review Actions:**
+- Confirm `changelog.md` exists at the package root
+- Locate the descriptive Markdown topic(s); verify they cover §3.2 expectations
+- Confirm the OpenAPI/Swagger file is present and referenced by the build if applicable
+- Verify sensible naming (lowercase with hyphens preferred for new files)
+
+#### 3.1.2 API packages (prose wire API, not OpenAPI-authoritative)
+
 **Required files:**
-- [ ] `index.md` exists at root level (landing page)
-- [ ] `changelog.md` exists at root level
+- [ ] `index.md` exists at package root (landing page)
+- [ ] `changelog.md` exists at package root
 
 **Review Actions:**
 - Verify both required files exist
 - Check that `index.md` serves as effective entry point
 - Verify file naming uses lowercase with hyphens
 
-### 3.2 Index.md Content Review
+### 3.2 Descriptive Markdown content review
+
+**Scope:** For **REST API**, apply §3.2 to the Markdown file(s) identified in **§3.1.1** (any filename). For **API** (§3.1.2), the primary target is typically **`index.md`**. Section headings below still name “Introduction,” “Platform overview,” and so on—regardless of the source file name.
 
 #### 3.2.1 Introduction Section
 
@@ -824,11 +878,13 @@ Same requirements as API changelog (see section 3.3)
 
 ### 5.1 Directory Organization
 
-**Review criteria:**
-- [ ] `index.md` at root level
-- [ ] `changelog.md` at root level
+**Classification:** Use **§0**. For **REST API-only** packages, follow **§3.1.1** (root **`changelog.md`**, descriptive Markdown with any title, OpenAPI spec); **do not** require **`index.md`**, **`toc.yml`**, or an **`index.md` in every subdirectory**.
+
+**Review criteria (API, Library/SDK, and hybrid packages):**
+- [ ] `index.md` at root level (not required for **REST API-only**; see §3.1.1)
+- [ ] `changelog.md` at root level (for **REST API**, same as §3.1.1; for **API** / **Library/SDK**, required at root per §3.1.2 / §4.1)
 - [ ] Related content in logical subdirectories
-- [ ] Each subdirectory has `index.md`
+- [ ] Each subdirectory has `index.md` (expectation for **Library/SDK**-style trees; not for **REST API-only**)
 - [ ] Images in dedicated `images/` directory
 - [ ] File names use lowercase with hyphens (e.g., `getting-started.md`)
 
@@ -838,7 +894,9 @@ Same requirements as API changelog (see section 3.3)
 - Check file naming conventions
 - Ensure images are properly organized
 
-### 5.2 Markdown Packages
+### 5.2 Markdown Packages (API and Library/SDK)
+
+**Does not apply to REST API-only packages** — those have no **`toc.yml`** requirement; use **§3.1.1** and **§5.4** instead.
 
 - [ ] Files in logical directory structure
 - [ ] `toc.yml` exists and is correct
@@ -872,19 +930,21 @@ Same requirements as API changelog (see section 3.3)
 - Check XHTML formatting
 - Confirm Markdown conversion for 2026 R1+
 
-### 5.4 API Packages
+### 5.4 REST API / OpenAPI packages
 
-**Applies only when:** **§0** classifies the package as **REST API** (OpenAPI/Swagger spec file exists). Skip for **API**-only or **Library/SDK**-only packages.
+**Applies only when:** **§0** classifies the package as **REST API** (OpenAPI/Swagger spec file exists). Skip for **API**-only or **Library/SDK**-only packages (unless they bundle OpenAPI).
 
 - [ ] JSON or YAML file properly formatted
 - [ ] File validates against OpenAPI Specification
 - [ ] Indentation is consistent
 - [ ] No syntax errors
+- [ ] Package layout matches **§3.1.1** (root **`changelog.md`**, descriptive Markdown, spec file)
 
 **Review Actions:**
 - Run OpenAPI validator
 - Check file formatting
 - Verify syntax correctness
+- Confirm **§3.1.1** file expectations; do not require **`toc.yml`** or **`index.md`** for **REST API-only** deliveries
 
 ---
 
@@ -970,9 +1030,9 @@ Same requirements as API changelog (see section 3.3)
 When completing a review, provide feedback in this format:
 
 ### Summary
-- Overall assessment (Approved / Needs Minor Revisions / Needs Major Revisions)
+- Overall assessment (Approved / Needs Minor Revisions / Needs Major Revisions), **justified using §0.7**
 - Key strengths
-- Critical issues (if any)
+- Open **Must fix** and **Should fix** items (if any), grouped or counted
 - Estimated effort for fixes
 
 ### Detailed Findings
@@ -985,20 +1045,20 @@ For each section reviewed, provide:
 - List positive aspects
 
 **Issues:**
-1. **[Severity: Critical/High/Medium/Low]** - [Issue description]
+1. **[Must fix | Should fix | Nice to fix]** [(optional) Policy | Correctness | Quality] — [Issue description]
    - **Location**: [File name and line number or section]
    - **Current state**: [What exists now]
    - **Required action**: [What needs to be done]
    - **Reference**: [Link to guideline]
 
 **Recommendations:**
-- Additional suggestions for improvement
+- Additional suggestions for improvement (tag with **Nice to fix** or **Should fix** when they are actionable)
 
 ### Action Items
 
-Priority-ordered list of required actions:
+Order by severity (**Must fix** first, then **Should fix**, then **Nice to fix**):
 
-1. **[Priority]** - [Action description] | [Owner] | [Estimated effort]
+1. **[Must fix | Should fix | Nice to fix]** — [Action description] | [Owner] | [Estimated effort]
 
 ### Sign-off
 
@@ -1034,17 +1094,17 @@ Use this quick checklist for review completion tracking:
 - [ ] **Package classified per §0**; compliance report lists **only applicable** type(s) and checklists (no N/A filler for other types)
 - [ ] General requirements reviewed (style, quality, GitHub)
 - [ ] Metadata configuration verified **for that classification** (REST API OpenAPI split vs **API** / **Library/SDK** Markdown vs Doxygen)
-- [ ] File structure validated
-- [ ] **`toc.yml`:** exactly one in package; no duplicate `href`; `name` quoting rules (Part 1 / §5.2)
-- [ ] API documentation reviewed **if §0 says API applies**
-  - [ ] Descriptive content (index.md, changelog.md)
+- [ ] File structure validated per **§3.1** / **§5.1** (REST API vs **API** / **Library/SDK**)
+- [ ] **`toc.yml`:** when present, exactly one in package; no duplicate `href`; `name` quoting rules (Part 1 / §5.2). **Not required** for **REST API-only** packages.
+- [ ] Wire API documentation reviewed **if §0 says REST API or API applies**
+  - [ ] Descriptive content: **REST API** = **`changelog.md`** at root + Markdown topic(s) per §3.1.1 (any filename); **API (prose)** = **`index.md`** + **`changelog.md`** at root per §3.1.2
   - [ ] API reference: **§3.4 only for REST API**; **§3.5** if `.proto` review; **§3.6** for other protocols; **API** = completeness for protocol/messages in docs
 - [ ] Library/SDK documentation reviewed **if §0 says library/SDK applies**
   - [ ] Descriptive content (introduction, getting started, user guide, examples, changelog)
   - [ ] Reference documentation (functions, classes, data structures)
 - [ ] Pre-submission checks completed
 - [ ] Local testing performed
-- [ ] Feedback documented and communicated
+- [ ] Feedback documented and communicated; **every issue and action item tagged per §0.7**
 - [ ] Final approval status determined
 
 ---
