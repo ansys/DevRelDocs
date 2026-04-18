@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-04-16).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-04-17).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -10,6 +10,7 @@ The following table shows which components have updates in each category.
 |-----------|----------|----------|
 | 1297620 |  |[1 item](#Fixes_1297620) |
 | averaging |  |[1 item](#Fixes_averaging) |
+| build |  |[1 item](#Fixes_build) |
 | c# |  |[1 item](#Fixes_c#) |
 | cff | [2 items](#Features_cff) |[4 items](#Fixes_cff) |
 | cgns | [1 item](#Features_cgns) | |
@@ -27,7 +28,7 @@ The following table shows which components have updates in each category.
 | fbs | [2 items](#Features_fbs) | |
 | femutils | [3 items](#Features_femutils) |[14 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
-| framework | [2 items](#Features_framework) |[6 items](#Fixes_framework) |
+| framework | [2 items](#Features_framework) |[7 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
 | grpc | [1 item](#Features_grpc) |[3 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
@@ -39,7 +40,7 @@ The following table shows which components have updates in each category.
 | lsdyna | [2 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [20 items](#Features_mapdl) |[46 items](#Fixes_mapdl) |
+| mapdl | [21 items](#Features_mapdl) |[46 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [12 items](#Features_math) |[1 item](#Fixes_math) |
@@ -49,7 +50,7 @@ The following table shows which components have updates in each category.
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[5 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [7 items](#Features_native) |[21 items](#Fixes_native) |
+| native | [7 items](#Features_native) |[22 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [4 items](#Features_prime) |[1 item](#Fixes_prime) |
@@ -80,6 +81,14 @@ The following table shows which components have updates in each category.
   >
   > The `elemental_nodal_to_nodal` averaging operators required to have all corner nodes corresponding to a midside node contained in the input nodal scoping if the result wanted to be obtained at that given midside node. This requirement is no longer present.
   >
+  > 
+  >
+  > 
+## build
+
+### <a id="Fixes_build"></a> Fixes
+
+- Fixed build with Ninja, stricter compile flags:
   > 
   >
   > 
@@ -577,6 +586,13 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_framework"></a> Fixes
 
+- Fix Heat Generation unit:
+  > Resolve incorrect Heat Generation unit, should be Power/Volume, not Power.
+  >
+  > 
+  >
+  > 
+
 - Add ellipsis property to forward operator pins:
   > 
 
@@ -1007,6 +1023,15 @@ The following table shows which components have updates in each category.
 
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
+
+- Enable cyclic expansion for composite datasources.:
+  > Enable cyclic expansion for composite datasources.
+  >
+  > Enable cyclic expansion for plastic, thermal, accumulated equivalent plastic strain and elemental orientations. Accumulated equivalent plastic strain and Element Orientations will only account for harmonic 0 for expansion.
+  >
+  > 
+  >
+  > 
 
 - Officially not supporting files older than 14.5:
   > MAPDL Operators officially not supporting files older than version 14.5.
@@ -2146,6 +2171,15 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Fix the merge::meshes operator while trying to merge empty meshes:
+  > 
+  >
+  > The `merge::meshes` operator had a issue while trying to merge empty meshes that has been fixed.
+  >
+  > 
+  >
+  > 
 
 - Support the reverse_connectivity in the merge_meshes operator:
   > 
