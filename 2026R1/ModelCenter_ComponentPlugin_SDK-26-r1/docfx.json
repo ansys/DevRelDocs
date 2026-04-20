@@ -1,7 +1,7 @@
 {
   "build": {
     "globalMetadata": {
-      "title": "Software Developer's Guide (SDK) for writing component plug-ins for the PACZ format 2026 R1",
+      "title": "Component Plugin Software Developer's Guide (SDK) 2026 R1",
       "summary": "",
       "version": "2026 R1",
       "product": "ModelCenter",

@@ -1,4 +1,4 @@
-# Software Developer's Guide (SDK) for writing component plug-ins for the PACZ format
+# Component Plugin Software Developer's Guide (SDK)
 
 Welcome to the parametric analysis component zipped (PACZ) component plug-in 2026R1 SDK documentation. This guide is intended to help plug-in developers extend the capabilities of Ansys products by adding connections to external data and analysis tools such as Excel, databases, CAD systems, and other engineering applications.
 
@@ -38,7 +38,7 @@ Before you begin developing component plug-ins, you should have:
 
 ### Obtaining SDK access
 
-To obtain access to the ModelCenter Component Plug-In SDK, please contact Ansys ModelCenter support.
+To obtain access to the ModelCenter Component Plug-In SDK, please contact [Ansys ModelCenter support](https://www.ansys.com/support).
 
 ## What you'll learn
 
