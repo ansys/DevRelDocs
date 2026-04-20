@@ -1,11 +1,11 @@
 {
   "build": {
     "globalMetadata": {
-      "title": "ModelCenter Component Plugin SDK getting started 2026 R1",
+      "title": "Software Developer's Guide (SDK) for writing component plug-ins for the PACZ format 2026 R1",
       "summary": "",
       "version": "2026 R1",
       "product": "ModelCenter",
-      "programming language": "java",
+      "programming language": "C#",
       "product collection": "Connect",
       "physics": "Connect"
     }

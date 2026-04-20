@@ -1,0 +1,19 @@
+# Method ExpandFile
+
+Namespace: [Phoenix.BuilderUIClient](Phoenix.BuilderUIClient.md)  
+Assembly: Phoenix.BuilderUIClient.dll
+
+## ExpandFile(FileTreeItem)
+
+Fetch the directory contents of the given FileTreeItem and populate them into the view.
+
+```csharp
+void ExpandFile(FileTreeItem item)
+
+```
+
+### Parameters
+
+`item` [FileTreeItem](Phoenix.BuilderUIClient.FileTreeItem.md)
+
+The item that was expanded.
