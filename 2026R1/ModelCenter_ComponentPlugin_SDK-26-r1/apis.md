@@ -1,4 +1,4 @@
-# The PACZ component plug-in SDK .NET API documentation.
+# APIs
 
 - The main interfaces a plug-in must implement:
 
