@@ -1,10 +1,10 @@
-# Frequently Asked Questions
+# Frequently asked questions
 
 This page provides answers to frequently asked questions about developing PACZ component plug-ins.
 
 ## Variables and data types
 
-### Q1: How do I programmatically define a ModelCenter assembly in the Component Tree?
+### Q1: How do I programmatically define a ModelCenter assembly in the component tree?
 
 **A1:** Write nested variable names using "." separators:
 
