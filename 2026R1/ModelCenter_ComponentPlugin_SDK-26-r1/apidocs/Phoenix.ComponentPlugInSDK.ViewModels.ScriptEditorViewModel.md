@@ -1,0 +1,112 @@
+# Class ScriptEditorViewModel
+
+Namespace: [Phoenix.ComponentPlugInSDK.ViewModels](Phoenix.ComponentPlugInSDK.ViewModels.md)  
+Assembly: Phoenix.ComponentPlugInSDK.dll
+
+View model for the Script Editor dialog.
+
+```csharp
+public class ScriptEditorViewModel : AbstractPlugInViewModel<ScriptModel>, IPlugInViewModel, INotifyPropertyChanged
+
+```
+
+#### Inheritance
+
+[object](https://learn.microsoft.com/dotnet/api/system.object) ←
+[AbstractPlugInViewModel<ScriptModel>](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.md) ←
+[ScriptEditorViewModel](Phoenix.ComponentPlugInSDK.ViewModels.ScriptEditorViewModel.md)
+
+#### Implements
+
+[IPlugInViewModel](Phoenix.ComponentPlugInSDK.ViewModels.IPlugInViewModel.md),
+[INotifyPropertyChanged](https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged)
+
+#### Inherited Members
+
+[AbstractPlugInViewModel<ScriptModel>.PropertyChanged](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.PropertyChanged.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1_PropertyChanged),
+[AbstractPlugInViewModel<ScriptModel>.OnPropertyChanged(string)](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.OnPropertyChanged.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1_OnPropertyChanged_System_String_),
+[AbstractPlugInViewModel<ScriptModel>._logger](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1._logger.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1__logger),
+[AbstractPlugInViewModel<ScriptModel>._showErrorAction](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1._showErrorAction.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1__showErrorAction),
+[AbstractPlugInViewModel<ScriptModel>.SaveCommand](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.SaveCommand.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1_SaveCommand),
+[AbstractPlugInViewModel<ScriptModel>.OkCommand](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.OkCommand.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1_OkCommand),
+[AbstractPlugInViewModel<ScriptModel>.IsReadOnly](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.IsReadOnly.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1_IsReadOnly),
+[AbstractPlugInViewModel<ScriptModel>.IsNotReadOnly](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.IsNotReadOnly.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1_IsNotReadOnly),
+[AbstractPlugInViewModel<ScriptModel>.ExternalMetadata](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.ExternalMetadata.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1_ExternalMetadata),
+[AbstractPlugInViewModel<ScriptModel>.IsBusy](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.IsBusy.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1_IsBusy),
+[AbstractPlugInViewModel<ScriptModel>.IsDirty](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.IsDirty.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1_IsDirty),
+[AbstractPlugInViewModel<ScriptModel>.StatusColor](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.StatusColor.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1_StatusColor),
+[AbstractPlugInViewModel<ScriptModel>.StatusMessage](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.StatusMessage.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1_StatusMessage),
+[AbstractPlugInViewModel<ScriptModel>.HasStatus](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.HasStatus.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1_HasStatus),
+[AbstractPlugInViewModel<ScriptModel>.SetStatus(string, Color)](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.SetStatus.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1_SetStatus_System_String_System_Windows_Media_Color_),
+[AbstractPlugInViewModel<ScriptModel>.InputVariables](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.InputVariables.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1_InputVariables),
+[AbstractPlugInViewModel<ScriptModel>._onInputsChanged()](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1._onInputsChanged.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1__onInputsChanged),
+[AbstractPlugInViewModel<ScriptModel>.MoveInputVariablesFrom(IEnumerable<IRuntimeVariable>)](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.MoveInputVariablesFrom.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1_MoveInputVariablesFrom_System_Collections_Generic_IEnumerable_Phoenix_PaczAPI_IRuntimeVariable__),
+[AbstractPlugInViewModel<ScriptModel>.CloneInputVariablesFrom(IEnumerable<IRuntimeVariable>)](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.CloneInputVariablesFrom.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1_CloneInputVariablesFrom_System_Collections_Generic_IEnumerable_Phoenix_PaczAPI_IRuntimeVariable__),
+[AbstractPlugInViewModel<ScriptModel>.OutputVariables](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.OutputVariables.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1_OutputVariables),
+[AbstractPlugInViewModel<ScriptModel>._onOutputsChanged()](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1._onOutputsChanged.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1__onOutputsChanged),
+[AbstractPlugInViewModel<ScriptModel>.MoveOutputVariablesFrom(IEnumerable<IRuntimeVariable>)](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.MoveOutputVariablesFrom.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1_MoveOutputVariablesFrom_System_Collections_Generic_IEnumerable_Phoenix_PaczAPI_IRuntimeVariable__),
+[AbstractPlugInViewModel<ScriptModel>.CloneOutputVariablesFrom(IEnumerable<IRuntimeVariable>)](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.CloneOutputVariablesFrom.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1_CloneOutputVariablesFrom_System_Collections_Generic_IEnumerable_Phoenix_PaczAPI_IRuntimeVariable__),
+[AbstractPlugInViewModel<ScriptModel>.BuilderName](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.BuilderName.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1_BuilderName),
+[AbstractPlugInViewModel<ScriptModel>.WindowTitle](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.WindowTitle.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1_WindowTitle),
+[AbstractPlugInViewModel<ScriptModel>.WindowIcon](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.WindowIcon.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1_WindowIcon),
+[AbstractPlugInViewModel<ScriptModel>.SaveAsync()](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.SaveAsync.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1_SaveAsync),
+[AbstractPlugInViewModel<ScriptModel>._handleError(Exception)](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1._handleError.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1__handleError_System_Exception_),
+[AbstractPlugInViewModel<ScriptModel>.SetVariablesAsPHXVariable(IEnumerable<PHXVariable>)](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.SetVariablesAsPHXVariable.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1_SetVariablesAsPHXVariable_System_Collections_Generic_IEnumerable_Phoenix_ModelCenter_Common_PHXVariable__),
+[AbstractPlugInViewModel<ScriptModel>.GetVariablesAsPHXVariable(VariableValueScope)](Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.GetVariablesAsPHXVariable.md#Phoenix_ComponentPlugInSDK_ViewModels_AbstractPlugInViewModel_1_GetVariablesAsPHXVariable_Phoenix_ModelCenter_Common_Types_VariableValueScope_),
+[object.ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring),
+[object.Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)),
+[object.Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)),
+[object.ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals),
+[object.GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode),
+[object.GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype),
+[object.MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone)
+
+## Constructors
+
+[ScriptEditorViewModel(ScriptModel, string, ILogger, Func<ScriptModel, Task>, Action, Action<Exception>, Uri)](Phoenix.ComponentPlugInSDK.ViewModels.ScriptEditorViewModel.-ctor.md#Phoenix_ComponentPlugInSDK_ViewModels_ScriptEditorViewModel__ctor_Phoenix_ComponentPlugInSDK_Models_ScriptModel_System_String_Microsoft_Extensions_Logging_ILogger_System_Func_Phoenix_ComponentPlugInSDK_Models_ScriptModel_System_Threading_Tasks_Task__System_Action_System_Action_System_Exception__System_Uri_)
+
+Constructor.
+
+## Fields
+
+[CUSTOM_OBJECT_RULE_NAME](Phoenix.ComponentPlugInSDK.ViewModels.ScriptEditorViewModel.CUSTOM_OBJECT_RULE_NAME.md#Phoenix_ComponentPlugInSDK_ViewModels_ScriptEditorViewModel_CUSTOM_OBJECT_RULE_NAME)
+
+The name given to the highlighting color for object highlighting.
+
+[CUSTOM_VARIABLE_RULE_NAME](Phoenix.ComponentPlugInSDK.ViewModels.ScriptEditorViewModel.CUSTOM_VARIABLE_RULE_NAME.md#Phoenix_ComponentPlugInSDK_ViewModels_ScriptEditorViewModel_CUSTOM_VARIABLE_RULE_NAME)
+
+The name given to the highlighting color for variable highlighting.
+
+## Properties
+
+[Script](Phoenix.ComponentPlugInSDK.ViewModels.ScriptEditorViewModel.Script.md#Phoenix_ComponentPlugInSDK_ViewModels_ScriptEditorViewModel_Script)
+
+Underlying script model containing the data currently displayed in the view.
+
+[ScriptDocument](Phoenix.ComponentPlugInSDK.ViewModels.ScriptEditorViewModel.ScriptDocument.md#Phoenix_ComponentPlugInSDK_ViewModels_ScriptEditorViewModel_ScriptDocument)
+
+The object that holds the script text and its properties.
+
+[ScriptText](Phoenix.ComponentPlugInSDK.ViewModels.ScriptEditorViewModel.ScriptText.md#Phoenix_ComponentPlugInSDK_ViewModels_ScriptEditorViewModel_ScriptText)
+
+Direct access to the `Phoenix.ComponentPlugInSDK.ViewModels.ScriptEditorViewModel.ScriptDocument`'s Text property.
+
+[SyntaxHighlighting](Phoenix.ComponentPlugInSDK.ViewModels.ScriptEditorViewModel.SyntaxHighlighting.md#Phoenix_ComponentPlugInSDK_ViewModels_ScriptEditorViewModel_SyntaxHighlighting)
+
+The syntax highlighting definition used to highlight keywords in the script.
+
+[Timeout](Phoenix.ComponentPlugInSDK.ViewModels.ScriptEditorViewModel.Timeout.md#Phoenix_ComponentPlugInSDK_ViewModels_ScriptEditorViewModel_Timeout)
+
+The user-editable script timeout in seconds.
+
+## Methods
+
+[_onInputsChanged()](Phoenix.ComponentPlugInSDK.ViewModels.ScriptEditorViewModel._onInputsChanged.md#Phoenix_ComponentPlugInSDK_ViewModels_ScriptEditorViewModel__onInputsChanged)
+
+This function will be called when the `Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel`1.InputVariables` change to allow
+derived classes to notify the UI.
+
+[_onOutputsChanged()](Phoenix.ComponentPlugInSDK.ViewModels.ScriptEditorViewModel._onOutputsChanged.md#Phoenix_ComponentPlugInSDK_ViewModels_ScriptEditorViewModel__onOutputsChanged)
+
+This function will be called when the `Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel`1.InputVariables` change to allow
+derived classes to notify the UI.

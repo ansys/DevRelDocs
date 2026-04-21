@@ -1,16 +1,18 @@
-- name: Introduction
+- name: Component Plugin Software Developer's Guide (SDK)
   href: index.md
 - name: Getting Started
   href: started.md
-- name: New Project Overview (.NET)
-  href: new_project.md
-- name: Testing the Plugin
-  href: testing.md
-- name: Customizing the Plugin
-  href: customizing.md
-- name: Common Issues & Solutions
-  href: common_issues.md
+- name: Threading
+  href: threading.md
 - name: Frequently Asked Questions
   href: faq.md
+- name: Glossary
+  href: glossary.md
+- name: Examples
+  href: examples.md
+- name: APIs
+  href: apis.md
+- name: .NET API Reference
+  href: apidocs/toc.yml
 - name: Changelog
   href: changelog.md

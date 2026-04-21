@@ -1,0 +1,2311 @@
+- name: Phoenix.BuilderUIClient
+  href: Phoenix.BuilderUIClient.md
+  items:
+  - name: Classes
+  - name: BooleanInvertConverter
+    href: Phoenix.BuilderUIClient.BooleanInvertConverter.md
+    items:
+    - name: Methods
+    - name: Convert
+      href: Phoenix.BuilderUIClient.BooleanInvertConverter.Convert.md
+    - name: ConvertBack
+      href: Phoenix.BuilderUIClient.BooleanInvertConverter.ConvertBack.md
+    - name: ProvideValue
+      href: Phoenix.BuilderUIClient.BooleanInvertConverter.ProvideValue.md
+  - name: BuilderUIClientFactory
+    href: Phoenix.BuilderUIClient.BuilderUIClientFactory.md
+    items:
+    - name: Methods
+    - name: ConfigureServiceCollection
+      href: Phoenix.BuilderUIClient.BuilderUIClientFactory.ConfigureServiceCollection.md
+    - name: ConfigureWithDefaultRepositories
+      href: Phoenix.BuilderUIClient.BuilderUIClientFactory.ConfigureWithDefaultRepositories.md
+    - name: GetClient
+      href: Phoenix.BuilderUIClient.BuilderUIClientFactory.GetClient.md
+  - name: ComponentInfoControl
+    href: Phoenix.BuilderUIClient.ComponentInfoControl.md
+    items:
+    - name: Constructors
+    - name: ComponentInfoControl
+      href: Phoenix.BuilderUIClient.ComponentInfoControl.-ctor.md
+    - name: Properties
+    - name: ViewModel
+      href: Phoenix.BuilderUIClient.ComponentInfoControl.ViewModel.md
+  - name: ComponentInfoControlModel
+    href: Phoenix.BuilderUIClient.ComponentInfoControlModel.md
+    items:
+    - name: Constructors
+    - name: ComponentInfoControlModel
+      href: Phoenix.BuilderUIClient.ComponentInfoControlModel.-ctor.md
+    - name: Properties
+    - name: Author
+      href: Phoenix.BuilderUIClient.ComponentInfoControlModel.Author.md
+    - name: ComponentType
+      href: Phoenix.BuilderUIClient.ComponentInfoControlModel.ComponentType.md
+    - name: Description
+      href: Phoenix.BuilderUIClient.ComponentInfoControlModel.Description.md
+    - name: ExternalMetadata
+      href: Phoenix.BuilderUIClient.ComponentInfoControlModel.ExternalMetadata.md
+    - name: Files
+      href: Phoenix.BuilderUIClient.ComponentInfoControlModel.Files.md
+    - name: Icon
+      href: Phoenix.BuilderUIClient.ComponentInfoControlModel.Icon.md
+    - name: IconImage
+      href: Phoenix.BuilderUIClient.ComponentInfoControlModel.IconImage.md
+    - name: Source
+      href: Phoenix.BuilderUIClient.ComponentInfoControlModel.Source.md
+    - name: Version
+      href: Phoenix.BuilderUIClient.ComponentInfoControlModel.Version.md
+    - name: Methods
+    - name: ApplyFileChanges
+      href: Phoenix.BuilderUIClient.ComponentInfoControlModel.ApplyFileChanges.md
+    - name: ExpandFile
+      href: Phoenix.BuilderUIClient.ComponentInfoControlModel.ExpandFile.md
+    - name: ExportAsync
+      href: Phoenix.BuilderUIClient.ComponentInfoControlModel.ExportAsync.md
+    - name: OpenExtractionFolderAsync
+      href: Phoenix.BuilderUIClient.ComponentInfoControlModel.OpenExtractionFolderAsync.md
+    - name: SafeLoadIconAsync
+      href: Phoenix.BuilderUIClient.ComponentInfoControlModel.SafeLoadIconAsync.md
+    - name: SetIconAsync
+      href: Phoenix.BuilderUIClient.ComponentInfoControlModel.SetIconAsync.md
+  - name: ComponentInfoControlViewModel
+    href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.md
+    items:
+    - name: Constructors
+    - name: ComponentInfoControlViewModel
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.-ctor.md
+    - name: Fields
+    - name: _model
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel._model.md
+    - name: Properties
+    - name: Author
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.Author.md
+    - name: BrowseIconCommand
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.BrowseIconCommand.md
+    - name: CanEditBuilderUI
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.CanEditBuilderUI.md
+    - name: ComponentType
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.ComponentType.md
+    - name: Description
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.Description.md
+    - name: EditBuilderUILabel
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.EditBuilderUILabel.md
+    - name: EditCommandAsync
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.EditCommandAsync.md
+    - name: ExportCommandAsync
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.ExportCommandAsync.md
+    - name: ExternalMetadata
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.ExternalMetadata.md
+    - name: Files
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.Files.md
+    - name: HasChanged
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.HasChanged.md
+    - name: HasComponent
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.HasComponent.md
+    - name: HelpAsyncDelegate
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.HelpAsyncDelegate.md
+    - name: HelpButtonEnabled
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.HelpButtonEnabled.md
+    - name: HelpCommandAsync
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.HelpCommandAsync.md
+    - name: HideExternalMetadata
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.HideExternalMetadata.md
+    - name: Icon
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.Icon.md
+    - name: IconImage
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.IconImage.md
+    - name: InWriteMode
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.InWriteMode.md
+    - name: IsReadOnly
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.IsReadOnly.md
+    - name: OnComponentSaved
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.OnComponentSaved.md
+    - name: OpenFolderCommandAsync
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.OpenFolderCommandAsync.md
+    - name: SaveButtonEnabled
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.SaveButtonEnabled.md
+    - name: SaveCommandAsync
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.SaveCommandAsync.md
+    - name: Source
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.Source.md
+    - name: Version
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.Version.md
+    - name: Methods
+    - name: ExpandFile
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.ExpandFile.md
+    - name: LoadComponentAsync
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.LoadComponentAsync.md
+    - name: OnFileCheckChanged
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.OnFileCheckChanged.md
+    - name: OnPropertyChanged
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.OnPropertyChanged.md
+    - name: StartWriteMode
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.StartWriteMode.md
+    - name: UnloadComponent
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.UnloadComponent.md
+    - name: _onBrowseIcon
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel._onBrowseIcon.md
+    - name: _onExport
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel._onExport.md
+    - name: _onHelp
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel._onHelp.md
+    - name: _onOpenFolder
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel._onOpenFolder.md
+    - name: _onSave
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel._onSave.md
+    - name: _showMessageBox
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel._showMessageBox.md
+    - name: Events
+    - name: PropertyChanged
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.PropertyChanged.md
+    - name: RequestSaveAsync
+      href: Phoenix.BuilderUIClient.ComponentInfoControlViewModel.RequestSaveAsync.md
+  - name: ComponentInfoSessionManager
+    href: Phoenix.BuilderUIClient.ComponentInfoSessionManager.md
+    items:
+    - name: Constructors
+    - name: ComponentInfoSessionManager
+      href: Phoenix.BuilderUIClient.ComponentInfoSessionManager.-ctor.md
+    - name: Fields
+    - name: OnTestRunRequested
+      href: Phoenix.BuilderUIClient.ComponentInfoSessionManager.OnTestRunRequested.md
+    - name: Properties
+    - name: OnComponentSaved
+      href: Phoenix.BuilderUIClient.ComponentInfoSessionManager.OnComponentSaved.md
+    - name: Methods
+    - name: DisposeAsync
+      href: Phoenix.BuilderUIClient.ComponentInfoSessionManager.DisposeAsync.md
+    - name: OpenBuilderUIForComponent
+      href: Phoenix.BuilderUIClient.ComponentInfoSessionManager.OpenBuilderUIForComponent.md
+    - name: OpenComponent
+      href: Phoenix.BuilderUIClient.ComponentInfoSessionManager.OpenComponent.md
+    - name: OpenComponentWithLocalEditSession
+      href: Phoenix.BuilderUIClient.ComponentInfoSessionManager.OpenComponentWithLocalEditSession.md
+    - name: OpenExistingBuilderUI
+      href: Phoenix.BuilderUIClient.ComponentInfoSessionManager.OpenExistingBuilderUI.md
+    - name: TrySavingExistingSessionAsync
+      href: Phoenix.BuilderUIClient.ComponentInfoSessionManager.TrySavingExistingSessionAsync.md
+    - name: UnloadComponent
+      href: Phoenix.BuilderUIClient.ComponentInfoSessionManager.UnloadComponent.md
+    - name: _promptUserToSaveLocalEdit
+      href: Phoenix.BuilderUIClient.ComponentInfoSessionManager._promptUserToSaveLocalEdit.md
+    - name: Events
+    - name: BuilderSessionDisposed
+      href: Phoenix.BuilderUIClient.ComponentInfoSessionManager.BuilderSessionDisposed.md
+  - name: FileTreeItem
+    href: Phoenix.BuilderUIClient.FileTreeItem.md
+    items:
+    - name: Constructors
+    - name: FileTreeItem
+      href: Phoenix.BuilderUIClient.FileTreeItem.-ctor.md
+    - name: Properties
+    - name: CanChangeCheck
+      href: Phoenix.BuilderUIClient.FileTreeItem.CanChangeCheck.md
+    - name: FileName
+      href: Phoenix.BuilderUIClient.FileTreeItem.FileName.md
+    - name: IsChecked
+      href: Phoenix.BuilderUIClient.FileTreeItem.IsChecked.md
+    - name: Items
+      href: Phoenix.BuilderUIClient.FileTreeItem.Items.md
+    - name: RelativePath
+      href: Phoenix.BuilderUIClient.FileTreeItem.RelativePath.md
+    - name: Methods
+    - name: Equals
+      href: Phoenix.BuilderUIClient.FileTreeItem.Equals.md
+    - name: OnPropertyChanged
+      href: Phoenix.BuilderUIClient.FileTreeItem.OnPropertyChanged.md
+    - name: ToString
+      href: Phoenix.BuilderUIClient.FileTreeItem.ToString.md
+    - name: Events
+    - name: PropertyChanged
+      href: Phoenix.BuilderUIClient.FileTreeItem.PropertyChanged.md
+  - name: NewComponentWizard
+    href: Phoenix.BuilderUIClient.NewComponentWizard.md
+    items:
+    - name: Constructors
+    - name: NewComponentWizard
+      href: Phoenix.BuilderUIClient.NewComponentWizard.-ctor.md
+    - name: Properties
+    - name: Model
+      href: Phoenix.BuilderUIClient.NewComponentWizard.Model.md
+    - name: Methods
+    - name: OnOK
+      href: Phoenix.BuilderUIClient.NewComponentWizard.OnOK.md
+  - name: NewComponentWizardModel
+    href: Phoenix.BuilderUIClient.NewComponentWizardModel.md
+    items:
+    - name: Constructors
+    - name: NewComponentWizardModel
+      href: Phoenix.BuilderUIClient.NewComponentWizardModel.-ctor.md
+    - name: Properties
+    - name: CompType
+      href: Phoenix.BuilderUIClient.NewComponentWizardModel.CompType.md
+    - name: Compressed
+      href: Phoenix.BuilderUIClient.NewComponentWizardModel.Compressed.md
+    - name: HelpAvailable
+      href: Phoenix.BuilderUIClient.NewComponentWizardModel.HelpAvailable.md
+    - name: Location
+      href: Phoenix.BuilderUIClient.NewComponentWizardModel.Location.md
+    - name: Name
+      href: Phoenix.BuilderUIClient.NewComponentWizardModel.Name.md
+    - name: OnHelp
+      href: Phoenix.BuilderUIClient.NewComponentWizardModel.OnHelp.md
+    - name: OnPickLocation
+      href: Phoenix.BuilderUIClient.NewComponentWizardModel.OnPickLocation.md
+    - name: Preview
+      href: Phoenix.BuilderUIClient.NewComponentWizardModel.Preview.md
+    - name: SelectedPath
+      href: Phoenix.BuilderUIClient.NewComponentWizardModel.SelectedPath.md
+    - name: Uncompressed
+      href: Phoenix.BuilderUIClient.NewComponentWizardModel.Uncompressed.md
+    - name: Methods
+    - name: OnPropertyChanged
+      href: Phoenix.BuilderUIClient.NewComponentWizardModel.OnPropertyChanged.md
+    - name: Events
+    - name: PropertyChanged
+      href: Phoenix.BuilderUIClient.NewComponentWizardModel.PropertyChanged.md
+  - name: PaczInitializationDialog
+    href: Phoenix.BuilderUIClient.PaczInitializationDialog.md
+    items:
+    - name: Constructors
+    - name: PaczInitializationDialog
+      href: Phoenix.BuilderUIClient.PaczInitializationDialog.-ctor.md
+    - name: Properties
+    - name: ChosenOption
+      href: Phoenix.BuilderUIClient.PaczInitializationDialog.ChosenOption.md
+    - name: ShowHelpCommand
+      href: Phoenix.BuilderUIClient.PaczInitializationDialog.ShowHelpCommand.md
+    - name: Methods
+    - name: GetFromUser
+      href: Phoenix.BuilderUIClient.PaczInitializationDialog.GetFromUser.md
+  - name: UserFriendlyBuilderSessionInitialization
+    href: Phoenix.BuilderUIClient.UserFriendlyBuilderSessionInitialization.md
+    items:
+    - name: Constructors
+    - name: UserFriendlyBuilderSessionInitialization
+      href: Phoenix.BuilderUIClient.UserFriendlyBuilderSessionInitialization.-ctor.md
+    - name: Properties
+    - name: DesiredSaveLocation
+      href: Phoenix.BuilderUIClient.UserFriendlyBuilderSessionInitialization.DesiredSaveLocation.md
+    - name: FilesToCopy
+      href: Phoenix.BuilderUIClient.UserFriendlyBuilderSessionInitialization.FilesToCopy.md
+    - name: FilesToCopyBaseDir
+      href: Phoenix.BuilderUIClient.UserFriendlyBuilderSessionInitialization.FilesToCopyBaseDir.md
+    - name: FolderToConvert
+      href: Phoenix.BuilderUIClient.UserFriendlyBuilderSessionInitialization.FolderToConvert.md
+    - name: Mode
+      href: Phoenix.BuilderUIClient.UserFriendlyBuilderSessionInitialization.Mode.md
+    - name: SelectedName
+      href: Phoenix.BuilderUIClient.UserFriendlyBuilderSessionInitialization.SelectedName.md
+    - name: ShouldSaveExpanded
+      href: Phoenix.BuilderUIClient.UserFriendlyBuilderSessionInitialization.ShouldSaveExpanded.md
+    - name: Methods
+    - name: BuilderUISessionFromPaczWriter
+      href: Phoenix.BuilderUIClient.UserFriendlyBuilderSessionInitialization.BuilderUISessionFromPaczWriter.md
+    - name: CreateSession
+      href: Phoenix.BuilderUIClient.UserFriendlyBuilderSessionInitialization.CreateSession.md
+    - name: PaczWriterFromDirectory
+      href: Phoenix.BuilderUIClient.UserFriendlyBuilderSessionInitialization.PaczWriterFromDirectory.md
+    - name: PaczWriterFromFiles
+      href: Phoenix.BuilderUIClient.UserFriendlyBuilderSessionInitialization.PaczWriterFromFiles.md
+    - name: PromptUser
+      href: Phoenix.BuilderUIClient.UserFriendlyBuilderSessionInitialization.PromptUser.md
+  - name: Interfaces
+  - name: IComponentInfoControlViewModel
+    href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.md
+    items:
+    - name: Properties
+    - name: Author
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.Author.md
+    - name: BrowseIconCommand
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.BrowseIconCommand.md
+    - name: CanEditBuilderUI
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.CanEditBuilderUI.md
+    - name: ComponentType
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.ComponentType.md
+    - name: Description
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.Description.md
+    - name: EditBuilderUILabel
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.EditBuilderUILabel.md
+    - name: EditCommandAsync
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.EditCommandAsync.md
+    - name: ExportCommandAsync
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.ExportCommandAsync.md
+    - name: ExternalMetadata
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.ExternalMetadata.md
+    - name: Files
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.Files.md
+    - name: HasChanged
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.HasChanged.md
+    - name: HasComponent
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.HasComponent.md
+    - name: HelpAsyncDelegate
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.HelpAsyncDelegate.md
+    - name: HelpButtonEnabled
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.HelpButtonEnabled.md
+    - name: HelpCommandAsync
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.HelpCommandAsync.md
+    - name: HideExternalMetadata
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.HideExternalMetadata.md
+    - name: Icon
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.Icon.md
+    - name: IconImage
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.IconImage.md
+    - name: InWriteMode
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.InWriteMode.md
+    - name: IsReadOnly
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.IsReadOnly.md
+    - name: OnComponentSaved
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.OnComponentSaved.md
+    - name: OpenFolderCommandAsync
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.OpenFolderCommandAsync.md
+    - name: SaveButtonEnabled
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.SaveButtonEnabled.md
+    - name: SaveCommandAsync
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.SaveCommandAsync.md
+    - name: Source
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.Source.md
+    - name: Version
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.Version.md
+    - name: Methods
+    - name: ExpandFile
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.ExpandFile.md
+    - name: LoadComponentAsync
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.LoadComponentAsync.md
+    - name: StartWriteMode
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.StartWriteMode.md
+    - name: UnloadComponent
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.UnloadComponent.md
+    - name: Events
+    - name: RequestSaveAsync
+      href: Phoenix.BuilderUIClient.IComponentInfoControlViewModel.RequestSaveAsync.md
+  - name: IDirectory
+    href: Phoenix.BuilderUIClient.IDirectory.md
+    items:
+    - name: Methods
+    - name: EnumerateDirectories
+      href: Phoenix.BuilderUIClient.IDirectory.EnumerateDirectories.md
+    - name: EnumerateFiles
+      href: Phoenix.BuilderUIClient.IDirectory.EnumerateFiles.md
+    - name: Exists
+      href: Phoenix.BuilderUIClient.IDirectory.Exists.md
+    - name: GetFileSystemEntries
+      href: Phoenix.BuilderUIClient.IDirectory.GetFileSystemEntries.md
+  - name: IFile
+    href: Phoenix.BuilderUIClient.IFile.md
+    items:
+    - name: Methods
+    - name: Copy
+      href: Phoenix.BuilderUIClient.IFile.Copy.md
+  - name: IProcess
+    href: Phoenix.BuilderUIClient.IProcess.md
+    items:
+    - name: Methods
+    - name: Start
+      href: Phoenix.BuilderUIClient.IProcess.Start.md
+  - name: ISaveFileDialog
+    href: Phoenix.BuilderUIClient.ISaveFileDialog.md
+    items:
+    - name: Properties
+    - name: FileName
+      href: Phoenix.BuilderUIClient.ISaveFileDialog.FileName.md
+    - name: Filter
+      href: Phoenix.BuilderUIClient.ISaveFileDialog.Filter.md
+    - name: Methods
+    - name: ShowDialog
+      href: Phoenix.BuilderUIClient.ISaveFileDialog.ShowDialog.md
+  - name: Enums
+  - name: ComponentInfoSessionManager.FutureOperation
+    href: Phoenix.BuilderUIClient.ComponentInfoSessionManager.FutureOperation.md
+  - name: UserFriendlyBuilderSessionInitialization.InitializationOption
+    href: Phoenix.BuilderUIClient.UserFriendlyBuilderSessionInitialization.InitializationOption.md
+- name: Phoenix.BuilderUIClient.FileDialogs
+  href: Phoenix.BuilderUIClient.FileDialogs.md
+  items:
+  - name: Classes
+  - name: MultiSourceFileDialog
+    href: Phoenix.BuilderUIClient.FileDialogs.MultiSourceFileDialog.md
+    items:
+    - name: Properties
+    - name: SelectedPath
+      href: Phoenix.BuilderUIClient.FileDialogs.MultiSourceFileDialog.SelectedPath.md
+    - name: Methods
+    - name: ShowDialog
+      href: Phoenix.BuilderUIClient.FileDialogs.MultiSourceFileDialog.ShowDialog.md
+    - name: _showMinervaDialogTask
+      href: Phoenix.BuilderUIClient.FileDialogs.MultiSourceFileDialog._showMinervaDialogTask.md
+  - name: MultiSourceFileOpenDialog
+    href: Phoenix.BuilderUIClient.FileDialogs.MultiSourceFileOpenDialog.md
+    items:
+    - name: Properties
+    - name: Filter
+      href: Phoenix.BuilderUIClient.FileDialogs.MultiSourceFileOpenDialog.Filter.md
+    - name: Methods
+    - name: _showMinervaDialogTask
+      href: Phoenix.BuilderUIClient.FileDialogs.MultiSourceFileOpenDialog._showMinervaDialogTask.md
+  - name: MultiSourceFileSaveDialog
+    href: Phoenix.BuilderUIClient.FileDialogs.MultiSourceFileSaveDialog.md
+    items:
+    - name: Methods
+    - name: _showMinervaDialogTask
+      href: Phoenix.BuilderUIClient.FileDialogs.MultiSourceFileSaveDialog._showMinervaDialogTask.md
+  - name: MultiSourceFolderDialog
+    href: Phoenix.BuilderUIClient.FileDialogs.MultiSourceFolderDialog.md
+    items:
+    - name: Methods
+    - name: _showMinervaDialogTask
+      href: Phoenix.BuilderUIClient.FileDialogs.MultiSourceFolderDialog._showMinervaDialogTask.md
+- name: Phoenix.BuilderUIClient.Properties
+  href: Phoenix.BuilderUIClient.Properties.md
+  items:
+  - name: Classes
+  - name: Resources
+    href: Phoenix.BuilderUIClient.Properties.Resources.md
+    items:
+    - name: Properties
+    - name: BuilderSessionExists
+      href: Phoenix.BuilderUIClient.Properties.Resources.BuilderSessionExists.md
+    - name: BuilderSessionNotSupported
+      href: Phoenix.BuilderUIClient.Properties.Resources.BuilderSessionNotSupported.md
+    - name: CannotUpdateSourceWithLocalChanges
+      href: Phoenix.BuilderUIClient.Properties.Resources.CannotUpdateSourceWithLocalChanges.md
+    - name: ComponentInfoControlAuthorLabel
+      href: Phoenix.BuilderUIClient.Properties.Resources.ComponentInfoControlAuthorLabel.md
+    - name: ComponentInfoControlDescriptionLabel
+      href: Phoenix.BuilderUIClient.Properties.Resources.ComponentInfoControlDescriptionLabel.md
+    - name: ComponentInfoControlEditComponentLabel
+      href: Phoenix.BuilderUIClient.Properties.Resources.ComponentInfoControlEditComponentLabel.md
+    - name: ComponentInfoControlExportLabel
+      href: Phoenix.BuilderUIClient.Properties.Resources.ComponentInfoControlExportLabel.md
+    - name: ComponentInfoControlFilesLabel
+      href: Phoenix.BuilderUIClient.Properties.Resources.ComponentInfoControlFilesLabel.md
+    - name: ComponentInfoControlIconLabel
+      href: Phoenix.BuilderUIClient.Properties.Resources.ComponentInfoControlIconLabel.md
+    - name: ComponentInfoControlOpenFolderLabel
+      href: Phoenix.BuilderUIClient.Properties.Resources.ComponentInfoControlOpenFolderLabel.md
+    - name: ComponentInfoControlSaveLabel
+      href: Phoenix.BuilderUIClient.Properties.Resources.ComponentInfoControlSaveLabel.md
+    - name: ComponentInfoControlSourceLabel
+      href: Phoenix.BuilderUIClient.Properties.Resources.ComponentInfoControlSourceLabel.md
+    - name: ComponentInfoControlVersionLabel
+      href: Phoenix.BuilderUIClient.Properties.Resources.ComponentInfoControlVersionLabel.md
+    - name: ComponentInfoControlViewComponentLabel
+      href: Phoenix.BuilderUIClient.Properties.Resources.ComponentInfoControlViewComponentLabel.md
+    - name: ConfirmCommitChanges
+      href: Phoenix.BuilderUIClient.Properties.Resources.ConfirmCommitChanges.md
+    - name: ConfirmSaveAs
+      href: Phoenix.BuilderUIClient.Properties.Resources.ConfirmSaveAs.md
+    - name: ConfirmSaveAsContentFmt
+      href: Phoenix.BuilderUIClient.Properties.Resources.ConfirmSaveAsContentFmt.md
+    - name: CrossDirectoryFileSelection
+      href: Phoenix.BuilderUIClient.Properties.Resources.CrossDirectoryFileSelection.md
+    - name: Culture
+      href: Phoenix.BuilderUIClient.Properties.Resources.Culture.md
+    - name: DirectoryIsAlreadyPacz
+      href: Phoenix.BuilderUIClient.Properties.Resources.DirectoryIsAlreadyPacz.md
+    - name: ExceptionSendingEvent
+      href: Phoenix.BuilderUIClient.Properties.Resources.ExceptionSendingEvent.md
+    - name: ExportPaczFilter
+      href: Phoenix.BuilderUIClient.Properties.Resources.ExportPaczFilter.md
+    - name: IconFilter
+      href: Phoenix.BuilderUIClient.Properties.Resources.IconFilter.md
+    - name: ImportedFileOutOfBounds
+      href: Phoenix.BuilderUIClient.Properties.Resources.ImportedFileOutOfBounds.md
+    - name: InvalidSelectionCaption
+      href: Phoenix.BuilderUIClient.Properties.Resources.InvalidSelectionCaption.md
+    - name: LocalSessionExists
+      href: Phoenix.BuilderUIClient.Properties.Resources.LocalSessionExists.md
+    - name: NewCompWizCancel
+      href: Phoenix.BuilderUIClient.Properties.Resources.NewCompWizCancel.md
+    - name: NewCompWizComponentName
+      href: Phoenix.BuilderUIClient.Properties.Resources.NewCompWizComponentName.md
+    - name: NewCompWizCompressed
+      href: Phoenix.BuilderUIClient.Properties.Resources.NewCompWizCompressed.md
+    - name: NewCompWizExpanded
+      href: Phoenix.BuilderUIClient.Properties.Resources.NewCompWizExpanded.md
+    - name: NewCompWizHelp
+      href: Phoenix.BuilderUIClient.Properties.Resources.NewCompWizHelp.md
+    - name: NewCompWizIntroText
+      href: Phoenix.BuilderUIClient.Properties.Resources.NewCompWizIntroText.md
+    - name: NewCompWizLocation
+      href: Phoenix.BuilderUIClient.Properties.Resources.NewCompWizLocation.md
+    - name: NewCompWizOK
+      href: Phoenix.BuilderUIClient.Properties.Resources.NewCompWizOK.md
+    - name: NewCompWizSaveStyle
+      href: Phoenix.BuilderUIClient.Properties.Resources.NewCompWizSaveStyle.md
+    - name: NewCompWizTitle
+      href: Phoenix.BuilderUIClient.Properties.Resources.NewCompWizTitle.md
+    - name: NewCompWizWillGenerate
+      href: Phoenix.BuilderUIClient.Properties.Resources.NewCompWizWillGenerate.md
+    - name: PaczInitialization
+      href: Phoenix.BuilderUIClient.Properties.Resources.PaczInitialization.md
+    - name: PaczInitializationButtonCancel
+      href: Phoenix.BuilderUIClient.Properties.Resources.PaczInitializationButtonCancel.md
+    - name: PaczInitializationButtonConvert
+      href: Phoenix.BuilderUIClient.Properties.Resources.PaczInitializationButtonConvert.md
+    - name: PaczInitializationButtonCreateBlank
+      href: Phoenix.BuilderUIClient.Properties.Resources.PaczInitializationButtonCreateBlank.md
+    - name: PaczInitializationButtonHelp
+      href: Phoenix.BuilderUIClient.Properties.Resources.PaczInitializationButtonHelp.md
+    - name: PaczInitializationButtonImport
+      href: Phoenix.BuilderUIClient.Properties.Resources.PaczInitializationButtonImport.md
+    - name: PaczInitializationCaption
+      href: Phoenix.BuilderUIClient.Properties.Resources.PaczInitializationCaption.md
+    - name: PaczInitializationConvertDescription
+      href: Phoenix.BuilderUIClient.Properties.Resources.PaczInitializationConvertDescription.md
+    - name: PaczInitializationCreateBlankDescrtiption
+      href: Phoenix.BuilderUIClient.Properties.Resources.PaczInitializationCreateBlankDescrtiption.md
+    - name: PaczInitializationImportDescription
+      href: Phoenix.BuilderUIClient.Properties.Resources.PaczInitializationImportDescription.md
+    - name: ReadOnly
+      href: Phoenix.BuilderUIClient.Properties.Resources.ReadOnly.md
+    - name: ResourceManager
+      href: Phoenix.BuilderUIClient.Properties.Resources.ResourceManager.md
+    - name: SaveLocalEditChangesPrompt
+      href: Phoenix.BuilderUIClient.Properties.Resources.SaveLocalEditChangesPrompt.md
+    - name: StatusHelp_32x
+      href: Phoenix.BuilderUIClient.Properties.Resources.StatusHelp_32x.md
+    - name: UIError
+      href: Phoenix.BuilderUIClient.Properties.Resources.UIError.md
+- name: Phoenix.ComponentAPI
+  href: Phoenix.ComponentAPI.md
+  items:
+  - name: Classes
+  - name: BasicRunnerSessionOptions
+    href: Phoenix.ComponentAPI.BasicRunnerSessionOptions.md
+    items:
+    - name: Fields
+    - name: DEFAULT
+      href: Phoenix.ComponentAPI.BasicRunnerSessionOptions.DEFAULT.md
+  - name: ComponentRunRequest
+    href: Phoenix.ComponentAPI.ComponentRunRequest.md
+    items:
+    - name: Constructors
+    - name: ComponentRunRequest
+      href: Phoenix.ComponentAPI.ComponentRunRequest.-ctor.md
+    - name: Properties
+    - name: InputValues
+      href: Phoenix.ComponentAPI.ComponentRunRequest.InputValues.md
+    - name: Methods
+    - name: CreateCloneFrom
+      href: Phoenix.ComponentAPI.ComponentRunRequest.CreateCloneFrom.md
+    - name: CreateFromConfigDefaults
+      href: Phoenix.ComponentAPI.ComponentRunRequest.CreateFromConfigDefaults.md
+    - name: Dispose
+      href: Phoenix.ComponentAPI.ComponentRunRequest.Dispose.md
+    - name: MoveStateFrom
+      href: Phoenix.ComponentAPI.ComponentRunRequest.MoveStateFrom.md
+  - name: ComponentRunResults
+    href: Phoenix.ComponentAPI.ComponentRunResults.md
+    items:
+    - name: Properties
+    - name: ResultMetadata
+      href: Phoenix.ComponentAPI.ComponentRunResults.ResultMetadata.md
+    - name: ResultValues
+      href: Phoenix.ComponentAPI.ComponentRunResults.ResultValues.md
+    - name: Methods
+    - name: CreateCanceled
+      href: Phoenix.ComponentAPI.ComponentRunResults.CreateCanceled.md
+    - name: CreateCloneFrom
+      href: Phoenix.ComponentAPI.ComponentRunResults.CreateCloneFrom.md
+    - name: Dispose
+      href: Phoenix.ComponentAPI.ComponentRunResults.Dispose.md
+    - name: MoveResultsTo
+      href: Phoenix.ComponentAPI.ComponentRunResults.MoveResultsTo.md
+    - name: MoveStateFrom
+      href: Phoenix.ComponentAPI.ComponentRunResults.MoveStateFrom.md
+  - name: DebugDataKeyConstants
+    href: Phoenix.ComponentAPI.DebugDataKeyConstants.md
+    items:
+    - name: Fields
+    - name: EXTRACT_DIR_KEY
+      href: Phoenix.ComponentAPI.DebugDataKeyConstants.EXTRACT_DIR_KEY.md
+    - name: HOST_KEY
+      href: Phoenix.ComponentAPI.DebugDataKeyConstants.HOST_KEY.md
+    - name: RUN_DIR_KEY
+      href: Phoenix.ComponentAPI.DebugDataKeyConstants.RUN_DIR_KEY.md
+    - name: Methods
+    - name: DisplayNameForDebugDataKey
+      href: Phoenix.ComponentAPI.DebugDataKeyConstants.DisplayNameForDebugDataKey.md
+  - name: LicenseException
+    href: Phoenix.ComponentAPI.LicenseException.md
+    items:
+    - name: Constructors
+    - name: LicenseException
+      href: Phoenix.ComponentAPI.LicenseException.-ctor.md
+  - name: Structs
+  - name: ComponentRunResultsMetadata
+    href: Phoenix.ComponentAPI.ComponentRunResultsMetadata.md
+    items:
+    - name: Constructors
+    - name: ComponentRunResultsMetadata
+      href: Phoenix.ComponentAPI.ComponentRunResultsMetadata.-ctor.md
+    - name: Properties
+    - name: Error
+      href: Phoenix.ComponentAPI.ComponentRunResultsMetadata.Error.md
+    - name: ResultStatus
+      href: Phoenix.ComponentAPI.ComponentRunResultsMetadata.ResultStatus.md
+    - name: Methods
+    - name: IsValidStatus
+      href: Phoenix.ComponentAPI.ComponentRunResultsMetadata.IsValidStatus.md
+    - name: RequireValidStatus
+      href: Phoenix.ComponentAPI.ComponentRunResultsMetadata.RequireValidStatus.md
+  - name: Interfaces
+  - name: IExecutionInstance
+    href: Phoenix.ComponentAPI.IExecutionInstance.md
+    items:
+    - name: Methods
+    - name: ExecuteAsync
+      href: Phoenix.ComponentAPI.IExecutionInstance.ExecuteAsync.md
+    - name: GetProcessesAsync
+      href: Phoenix.ComponentAPI.IExecutionInstance.GetProcessesAsync.md
+    - name: Events
+    - name: DebugDataUpdated
+      href: Phoenix.ComponentAPI.IExecutionInstance.DebugDataUpdated.md
+  - name: IHarnessBuilderUIClient
+    href: Phoenix.ComponentAPI.IHarnessBuilderUIClient.md
+    items:
+    - name: Methods
+    - name: CreateNewComponentAsync
+      href: Phoenix.ComponentAPI.IHarnessBuilderUIClient.CreateNewComponentAsync.md
+    - name: OpenBuilderUIForComponentAsync
+      href: Phoenix.ComponentAPI.IHarnessBuilderUIClient.OpenBuilderUIForComponentAsync.md
+    - name: OpenLocalEditSessionForComponentAsync
+      href: Phoenix.ComponentAPI.IHarnessBuilderUIClient.OpenLocalEditSessionForComponentAsync.md
+  - name: IHarnessBuilderUISession
+    href: Phoenix.ComponentAPI.IHarnessBuilderUISession.md
+    items:
+    - name: Properties
+    - name: Runner
+      href: Phoenix.ComponentAPI.IHarnessBuilderUISession.Runner.md
+    - name: Methods
+    - name: ShowAsync
+      href: Phoenix.ComponentAPI.IHarnessBuilderUISession.ShowAsync.md
+    - name: TrySaveAsync
+      href: Phoenix.ComponentAPI.IHarnessBuilderUISession.TrySaveAsync.md
+    - name: Events
+    - name: ComponentChanged
+      href: Phoenix.ComponentAPI.IHarnessBuilderUISession.ComponentChanged.md
+    - name: TestRunRequested
+      href: Phoenix.ComponentAPI.IHarnessBuilderUISession.TestRunRequested.md
+    - name: WindowClosed
+      href: Phoenix.ComponentAPI.IHarnessBuilderUISession.WindowClosed.md
+  - name: IHarnessLocalEditSession
+    href: Phoenix.ComponentAPI.IHarnessLocalEditSession.md
+    items:
+    - name: Properties
+    - name: Pacz
+      href: Phoenix.ComponentAPI.IHarnessLocalEditSession.Pacz.md
+    - name: Methods
+    - name: CancelChangesAsync
+      href: Phoenix.ComponentAPI.IHarnessLocalEditSession.CancelChangesAsync.md
+    - name: CommitChangesAsync
+      href: Phoenix.ComponentAPI.IHarnessLocalEditSession.CommitChangesAsync.md
+  - name: IHarnessRunner
+    href: Phoenix.ComponentAPI.IHarnessRunner.md
+    items:
+    - name: Methods
+    - name: ConstructAsync
+      href: Phoenix.ComponentAPI.IHarnessRunner.ConstructAsync.md
+    - name: RunAsync
+      href: Phoenix.ComponentAPI.IHarnessRunner.RunAsync.md
+  - name: IHarnessRunnerClient
+    href: Phoenix.ComponentAPI.IHarnessRunnerClient.md
+    items:
+    - name: Methods
+    - name: InitializeAsync
+      href: Phoenix.ComponentAPI.IHarnessRunnerClient.InitializeAsync.md
+    - name: StartSessionForLocalExtractedPaczAsync
+      href: Phoenix.ComponentAPI.IHarnessRunnerClient.StartSessionForLocalExtractedPaczAsync.md
+    - name: StartSessionForLocalPaczAsync
+      href: Phoenix.ComponentAPI.IHarnessRunnerClient.StartSessionForLocalPaczAsync.md
+  - name: IHarnessRunnerHost
+    href: Phoenix.ComponentAPI.IHarnessRunnerHost.md
+    items:
+    - name: Properties
+    - name: ComponentDirectory
+      href: Phoenix.ComponentAPI.IHarnessRunnerHost.ComponentDirectory.md
+    - name: ExtractedPacz
+      href: Phoenix.ComponentAPI.IHarnessRunnerHost.ExtractedPacz.md
+    - name: Logger
+      href: Phoenix.ComponentAPI.IHarnessRunnerHost.Logger.md
+    - name: Metadata
+      href: Phoenix.ComponentAPI.IHarnessRunnerHost.Metadata.md
+    - name: RunDirectory
+      href: Phoenix.ComponentAPI.IHarnessRunnerHost.RunDirectory.md
+    - name: Methods
+    - name: UpdateDebugData
+      href: Phoenix.ComponentAPI.IHarnessRunnerHost.UpdateDebugData.md
+  - name: IHarnessRunnerReloadable
+    href: Phoenix.ComponentAPI.IHarnessRunnerReloadable.md
+    items:
+    - name: Methods
+    - name: PaczUpdated
+      href: Phoenix.ComponentAPI.IHarnessRunnerReloadable.PaczUpdated.md
+  - name: IHarnessRunnerSession
+    href: Phoenix.ComponentAPI.IHarnessRunnerSession.md
+    items:
+    - name: Properties
+    - name: PlugInInstance
+      href: Phoenix.ComponentAPI.IHarnessRunnerSession.PlugInInstance.md
+    - name: Methods
+    - name: CreateExecutionInstance
+      href: Phoenix.ComponentAPI.IHarnessRunnerSession.CreateExecutionInstance.md
+    - name: GetPaczAsync
+      href: Phoenix.ComponentAPI.IHarnessRunnerSession.GetPaczAsync.md
+    - name: SetMetadataAsync
+      href: Phoenix.ComponentAPI.IHarnessRunnerSession.SetMetadataAsync.md
+  - name: IHarnessSaveOperations
+    href: Phoenix.ComponentAPI.IHarnessSaveOperations.md
+    items:
+    - name: Methods
+    - name: SaveAsLocalFilesAsync
+      href: Phoenix.ComponentAPI.IHarnessSaveOperations.SaveAsLocalFilesAsync.md
+    - name: SaveAsLocalPaczAsync
+      href: Phoenix.ComponentAPI.IHarnessSaveOperations.SaveAsLocalPaczAsync.md
+    - name: SaveAsync
+      href: Phoenix.ComponentAPI.IHarnessSaveOperations.SaveAsync.md
+    - name: UpdateSourceAsync
+      href: Phoenix.ComponentAPI.IHarnessSaveOperations.UpdateSourceAsync.md
+  - name: ILicenseFeature
+    href: Phoenix.ComponentAPI.ILicenseFeature.md
+    items:
+    - name: Methods
+    - name: CheckInAsync
+      href: Phoenix.ComponentAPI.ILicenseFeature.CheckInAsync.md
+  - name: ILicenseProvider
+    href: Phoenix.ComponentAPI.ILicenseProvider.md
+    items:
+    - name: Methods
+    - name: CheckOutAsync
+      href: Phoenix.ComponentAPI.ILicenseProvider.CheckOutAsync.md
+  - name: IProcessInfo
+    href: Phoenix.ComponentAPI.IProcessInfo.md
+  - name: IRunnerSessionOptions
+    href: Phoenix.ComponentAPI.IRunnerSessionOptions.md
+  - name: Enums
+  - name: RunStatus
+    href: Phoenix.ComponentAPI.RunStatus.md
+- name: Phoenix.ComponentBuilderAPI
+  href: Phoenix.ComponentBuilderAPI.md
+  items:
+  - name: Interfaces
+  - name: IHarnessBuilderUI<RUNNER>
+    href: Phoenix.ComponentBuilderAPI.IHarnessBuilderUI-1.md
+    items:
+    - name: Methods
+    - name: ConstructAsync
+      href: Phoenix.ComponentBuilderAPI.IHarnessBuilderUI-1.ConstructAsync.md
+  - name: IHarnessBuilderUIBase
+    href: Phoenix.ComponentBuilderAPI.IHarnessBuilderUIBase.md
+    items:
+    - name: Properties
+    - name: HarnessType
+      href: Phoenix.ComponentBuilderAPI.IHarnessBuilderUIBase.HarnessType.md
+    - name: Methods
+    - name: ShowAsync
+      href: Phoenix.ComponentBuilderAPI.IHarnessBuilderUIBase.ShowAsync.md
+    - name: TrySaveAsync
+      href: Phoenix.ComponentBuilderAPI.IHarnessBuilderUIBase.TrySaveAsync.md
+    - name: Events
+    - name: WindowClosed
+      href: Phoenix.ComponentBuilderAPI.IHarnessBuilderUIBase.WindowClosed.md
+  - name: IHarnessBuilderUIHost<RUNNER>
+    href: Phoenix.ComponentBuilderAPI.IHarnessBuilderUIHost-1.md
+    items:
+    - name: Properties
+    - name: ExtractedPacz
+      href: Phoenix.ComponentBuilderAPI.IHarnessBuilderUIHost-1.ExtractedPacz.md
+    - name: Logger
+      href: Phoenix.ComponentBuilderAPI.IHarnessBuilderUIHost-1.Logger.md
+    - name: Methods
+    - name: CallRunnerAsync<T>
+      href: Phoenix.ComponentBuilderAPI.IHarnessBuilderUIHost-1.CallRunnerAsync.md
+    - name: RaiseTestRunEvent
+      href: Phoenix.ComponentBuilderAPI.IHarnessBuilderUIHost-1.RaiseTestRunEvent.md
+    - name: SaveAsync
+      href: Phoenix.ComponentBuilderAPI.IHarnessBuilderUIHost-1.SaveAsync.md
+- name: Phoenix.ComponentBuilderAPI.Extensions
+  href: Phoenix.ComponentBuilderAPI.Extensions.md
+  items:
+  - name: Classes
+  - name: PaczIconExtensions
+    href: Phoenix.ComponentBuilderAPI.Extensions.PaczIconExtensions.md
+    items:
+    - name: Methods
+    - name: GetIconBitmapAsync
+      href: Phoenix.ComponentBuilderAPI.Extensions.PaczIconExtensions.GetIconBitmapAsync.md
+    - name: GetIconImageSourceAsync
+      href: Phoenix.ComponentBuilderAPI.Extensions.PaczIconExtensions.GetIconImageSourceAsync.md
+  - name: PaczIconExtensions.PaczIconLoadingFailedException
+    href: Phoenix.ComponentBuilderAPI.Extensions.PaczIconExtensions.PaczIconLoadingFailedException.md
+    items:
+    - name: Constructors
+    - name: PaczIconLoadingFailedException
+      href: Phoenix.ComponentBuilderAPI.Extensions.PaczIconExtensions.PaczIconLoadingFailedException.-ctor.md
+  - name: PlugInIconExtensions
+    href: Phoenix.ComponentBuilderAPI.Extensions.PlugInIconExtensions.md
+    items:
+    - name: Methods
+    - name: GetDefaultPlugInBitmap
+      href: Phoenix.ComponentBuilderAPI.Extensions.PlugInIconExtensions.GetDefaultPlugInBitmap.md
+    - name: GetPlugInIconImageSourceOrDefaultAsync
+      href: Phoenix.ComponentBuilderAPI.Extensions.PlugInIconExtensions.GetPlugInIconImageSourceOrDefaultAsync.md
+    - name: GetPlugInIconOrDefaultAsync
+      href: Phoenix.ComponentBuilderAPI.Extensions.PlugInIconExtensions.GetPlugInIconOrDefaultAsync.md
+- name: Phoenix.ComponentClient
+  href: Phoenix.ComponentClient.md
+  items:
+  - name: Classes
+  - name: ClientFactory
+    href: Phoenix.ComponentClient.ClientFactory.md
+    items:
+    - name: Methods
+    - name: ConfigureServiceCollection
+      href: Phoenix.ComponentClient.ClientFactory.ConfigureServiceCollection.md
+    - name: ConfigureWithDefaultRepositories
+      href: Phoenix.ComponentClient.ClientFactory.ConfigureWithDefaultRepositories.md
+    - name: GetClient
+      href: Phoenix.ComponentClient.ClientFactory.GetClient.md
+  - name: OnFileDeleteFailureLogger
+    href: Phoenix.ComponentClient.OnFileDeleteFailureLogger.md
+    items:
+    - name: Constructors
+    - name: OnFileDeleteFailureLogger
+      href: Phoenix.ComponentClient.OnFileDeleteFailureLogger.-ctor.md
+    - name: Methods
+    - name: ConfigureServiceCollection
+      href: Phoenix.ComponentClient.OnFileDeleteFailureLogger.ConfigureServiceCollection.md
+    - name: Dispose
+      href: Phoenix.ComponentClient.OnFileDeleteFailureLogger.Dispose.md
+- name: Phoenix.ComponentClient.Impl
+  href: Phoenix.ComponentClient.Impl.md
+  items:
+  - name: Classes
+  - name: NullLicenseProvider
+    href: Phoenix.ComponentClient.Impl.NullLicenseProvider.md
+    items:
+    - name: Methods
+    - name: CheckOutAsync
+      href: Phoenix.ComponentClient.Impl.NullLicenseProvider.CheckOutAsync.md
+- name: Phoenix.ComponentPlugInSDK
+  href: Phoenix.ComponentPlugInSDK.md
+  items:
+  - name: Classes
+  - name: AbstractBuilderUI<RUNNER>
+    href: Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.md
+    items:
+    - name: Fields
+    - name: _window
+      href: Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1._window.md
+    - name: Properties
+    - name: ComponentIcon
+      href: Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.ComponentIcon.md
+    - name: ComponentName
+      href: Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.ComponentName.md
+    - name: HarnessType
+      href: Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.HarnessType.md
+    - name: Host
+      href: Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.Host.md
+    - name: Methods
+    - name: AddAsyncMenuItem
+      href: Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.AddAsyncMenuItem.md
+    - name: AddMenuItem
+      href: Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.AddMenuItem.md
+    - name: ConstructAsync
+      href: Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.ConstructAsync.md
+    - name: CreateWindow
+      href: Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.CreateWindow.md
+    - name: DisplayException
+      href: Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.DisplayException.md
+    - name: Dispose
+      href: Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.Dispose.md
+    - name: SelectVariables
+      href: Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.SelectVariables.md
+    - name: SetPaczIcon
+      href: Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.SetPaczIcon.md
+    - name: ShowAsync
+      href: Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.ShowAsync.md
+    - name: TrySaveAsync
+      href: Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.TrySaveAsync.md
+    - name: Events
+    - name: WindowClosed
+      href: Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.WindowClosed.md
+  - name: AbstractModelBasedBuilderUI<RUNNER, MODEL>
+    href: Phoenix.ComponentPlugInSDK.AbstractModelBasedBuilderUI-2.md
+    items:
+    - name: Properties
+    - name: Model
+      href: Phoenix.ComponentPlugInSDK.AbstractModelBasedBuilderUI-2.Model.md
+    - name: Methods
+    - name: ConstructAsync
+      href: Phoenix.ComponentPlugInSDK.AbstractModelBasedBuilderUI-2.ConstructAsync.md
+    - name: Dispose
+      href: Phoenix.ComponentPlugInSDK.AbstractModelBasedBuilderUI-2.Dispose.md
+    - name: LoadFromPaczAsync
+      href: Phoenix.ComponentPlugInSDK.AbstractModelBasedBuilderUI-2.LoadFromPaczAsync.md
+    - name: SaveToPaczAsync
+      href: Phoenix.ComponentPlugInSDK.AbstractModelBasedBuilderUI-2.SaveToPaczAsync.md
+    - name: _saveAsync
+      href: Phoenix.ComponentPlugInSDK.AbstractModelBasedBuilderUI-2._saveAsync.md
+  - name: AbstractScriptBasedBuilderUI<RUNNER, MODEL>
+    href: Phoenix.ComponentPlugInSDK.AbstractScriptBasedBuilderUI-2.md
+    items:
+    - name: Properties
+    - name: ComponentIcon
+      href: Phoenix.ComponentPlugInSDK.AbstractScriptBasedBuilderUI-2.ComponentIcon.md
+    - name: ComponentName
+      href: Phoenix.ComponentPlugInSDK.AbstractScriptBasedBuilderUI-2.ComponentName.md
+    - name: ScriptLanguage
+      href: Phoenix.ComponentPlugInSDK.AbstractScriptBasedBuilderUI-2.ScriptLanguage.md
+    - name: Methods
+    - name: CreateWindow
+      href: Phoenix.ComponentPlugInSDK.AbstractScriptBasedBuilderUI-2.CreateWindow.md
+    - name: GetTreeProperties
+      href: Phoenix.ComponentPlugInSDK.AbstractScriptBasedBuilderUI-2.GetTreeProperties.md
+    - name: SetupView
+      href: Phoenix.ComponentPlugInSDK.AbstractScriptBasedBuilderUI-2.SetupView.md
+  - name: AbstractVariableBasedBuilderUI<RUNNER, MODEL>
+    href: Phoenix.ComponentPlugInSDK.AbstractVariableBasedBuilderUI-2.md
+    items:
+    - name: Methods
+    - name: CreateWindow
+      href: Phoenix.ComponentPlugInSDK.AbstractVariableBasedBuilderUI-2.CreateWindow.md
+    - name: GetFileLoadProperties
+      href: Phoenix.ComponentPlugInSDK.AbstractVariableBasedBuilderUI-2.GetFileLoadProperties.md
+    - name: GetTreeProperties
+      href: Phoenix.ComponentPlugInSDK.AbstractVariableBasedBuilderUI-2.GetTreeProperties.md
+    - name: SetupView
+      href: Phoenix.ComponentPlugInSDK.AbstractVariableBasedBuilderUI-2.SetupView.md
+  - name: AbstractVariableBasedBuilderUI<RUNNER>
+    href: Phoenix.ComponentPlugInSDK.AbstractVariableBasedBuilderUI-1.md
+  - name: AbstractVariableProvider
+    href: Phoenix.ComponentPlugInSDK.AbstractVariableProvider.md
+    items:
+    - name: Properties
+    - name: Blacklist
+      href: Phoenix.ComponentPlugInSDK.AbstractVariableProvider.Blacklist.md
+    - name: NameSubstitutions
+      href: Phoenix.ComponentPlugInSDK.AbstractVariableProvider.NameSubstitutions.md
+    - name: SupportsUserVariables
+      href: Phoenix.ComponentPlugInSDK.AbstractVariableProvider.SupportsUserVariables.md
+    - name: Methods
+    - name: GetSubGroups
+      href: Phoenix.ComponentPlugInSDK.AbstractVariableProvider.GetSubGroups.md
+    - name: GetSubVariables
+      href: Phoenix.ComponentPlugInSDK.AbstractVariableProvider.GetSubVariables.md
+    - name: ListVariables
+      href: Phoenix.ComponentPlugInSDK.AbstractVariableProvider.ListVariables.md
+  - name: PHXLoggerToILogger
+    href: Phoenix.ComponentPlugInSDK.PHXLoggerToILogger.md
+    items:
+    - name: Constructors
+    - name: PHXLoggerToILogger
+      href: Phoenix.ComponentPlugInSDK.PHXLoggerToILogger.-ctor.md
+    - name: Properties
+    - name: IsDebugEnabled
+      href: Phoenix.ComponentPlugInSDK.PHXLoggerToILogger.IsDebugEnabled.md
+    - name: IsErrorEnabled
+      href: Phoenix.ComponentPlugInSDK.PHXLoggerToILogger.IsErrorEnabled.md
+    - name: IsInfoEnabled
+      href: Phoenix.ComponentPlugInSDK.PHXLoggerToILogger.IsInfoEnabled.md
+    - name: IsTraceEnabled
+      href: Phoenix.ComponentPlugInSDK.PHXLoggerToILogger.IsTraceEnabled.md
+    - name: IsWarnEnabled
+      href: Phoenix.ComponentPlugInSDK.PHXLoggerToILogger.IsWarnEnabled.md
+    - name: Methods
+    - name: Debug
+      href: Phoenix.ComponentPlugInSDK.PHXLoggerToILogger.Debug.md
+    - name: Error
+      href: Phoenix.ComponentPlugInSDK.PHXLoggerToILogger.Error.md
+    - name: Info
+      href: Phoenix.ComponentPlugInSDK.PHXLoggerToILogger.Info.md
+    - name: Trace
+      href: Phoenix.ComponentPlugInSDK.PHXLoggerToILogger.Trace.md
+    - name: Warn
+      href: Phoenix.ComponentPlugInSDK.PHXLoggerToILogger.Warn.md
+  - name: Delegates
+  - name: AbstractBuilderUI<RUNNER>.RoutedEventHandlerAsync
+    href: Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.RoutedEventHandlerAsync.md
+- name: Phoenix.ComponentPlugInSDK.Images
+  href: Phoenix.ComponentPlugInSDK.Images.md
+  items:
+  - name: Classes
+  - name: ImageFactory
+    href: Phoenix.ComponentPlugInSDK.Images.ImageFactory.md
+    items:
+    - name: Methods
+    - name: GetImage
+      href: Phoenix.ComponentPlugInSDK.Images.ImageFactory.GetImage.md
+  - name: Enums
+  - name: ImageType
+    href: Phoenix.ComponentPlugInSDK.Images.ImageType.md
+- name: Phoenix.ComponentPlugInSDK.Models
+  href: Phoenix.ComponentPlugInSDK.Models.md
+  items:
+  - name: Classes
+  - name: AbstractBuilderModel
+    href: Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.md
+    items:
+    - name: Constructors
+    - name: AbstractBuilderModel
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.-ctor.md
+    - name: Properties
+    - name: ExternalMetadata
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.ExternalMetadata.md
+    - name: InputVariables
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.InputVariables.md
+    - name: IsReadOnly
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.IsReadOnly.md
+    - name: OutputVariables
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.OutputVariables.md
+    - name: Methods
+    - name: CloneInputVariablesFrom
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.CloneInputVariablesFrom.md
+    - name: CloneOutputVariablesFrom
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.CloneOutputVariablesFrom.md
+    - name: Dispose
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.Dispose.md
+    - name: FromPaczAsync
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.FromPaczAsync.md
+    - name: GetVariablesAsPHXVariable
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.GetVariablesAsPHXVariable.md
+    - name: MoveInputVariablesFrom
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.MoveInputVariablesFrom.md
+    - name: MoveOutputVariablesFrom
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.MoveOutputVariablesFrom.md
+    - name: PHXVariableToRuntimeVariable
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.PHXVariableToRuntimeVariable.md
+    - name: PHXVariablesToRuntimeVariables
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.PHXVariablesToRuntimeVariables.md
+    - name: RuntimeVariableToPHXVariable
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.RuntimeVariableToPHXVariable.md
+    - name: RuntimeVariablesToPHXVariables
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.RuntimeVariablesToPHXVariables.md
+    - name: SetVariablesAsPHXVariable
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.SetVariablesAsPHXVariable.md
+    - name: ToPaczAsync
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.ToPaczAsync.md
+  - name: AbstractScriptLanguage
+    href: Phoenix.ComponentPlugInSDK.Models.AbstractScriptLanguage.md
+    items:
+    - name: Properties
+    - name: DefaultText
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractScriptLanguage.DefaultText.md
+    - name: DisplayName
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractScriptLanguage.DisplayName.md
+    - name: FilenameBase
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractScriptLanguage.FilenameBase.md
+    - name: FilenameExtension
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractScriptLanguage.FilenameExtension.md
+    - name: NamedVariableDisplayName
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractScriptLanguage.NamedVariableDisplayName.md
+    - name: NamedVariableToken
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractScriptLanguage.NamedVariableToken.md
+    - name: SyntaxName
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractScriptLanguage.SyntaxName.md
+    - name: UsesNamedVariable
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractScriptLanguage.UsesNamedVariable.md
+    - name: Methods
+    - name: GetHighlightNames
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractScriptLanguage.GetHighlightNames.md
+    - name: GetScriptFilename
+      href: Phoenix.ComponentPlugInSDK.Models.AbstractScriptLanguage.GetScriptFilename.md
+  - name: FileLoadProperties
+    href: Phoenix.ComponentPlugInSDK.Models.FileLoadProperties.md
+    items:
+    - name: Constructors
+    - name: FileLoadProperties
+      href: Phoenix.ComponentPlugInSDK.Models.FileLoadProperties.-ctor.md
+    - name: Properties
+    - name: FileFilter
+      href: Phoenix.ComponentPlugInSDK.Models.FileLoadProperties.FileFilter.md
+    - name: FileLoadAction
+      href: Phoenix.ComponentPlugInSDK.Models.FileLoadProperties.FileLoadAction.md
+  - name: ScriptModel
+    href: Phoenix.ComponentPlugInSDK.Models.ScriptModel.md
+    items:
+    - name: Constructors
+    - name: ScriptModel
+      href: Phoenix.ComponentPlugInSDK.Models.ScriptModel.-ctor.md
+    - name: Properties
+    - name: BodyText
+      href: Phoenix.ComponentPlugInSDK.Models.ScriptModel.BodyText.md
+    - name: ScriptLanguage
+      href: Phoenix.ComponentPlugInSDK.Models.ScriptModel.ScriptLanguage.md
+    - name: Timeout
+      href: Phoenix.ComponentPlugInSDK.Models.ScriptModel.Timeout.md
+    - name: Methods
+    - name: FromPaczAsync
+      href: Phoenix.ComponentPlugInSDK.Models.ScriptModel.FromPaczAsync.md
+    - name: ToPaczAsync
+      href: Phoenix.ComponentPlugInSDK.Models.ScriptModel.ToPaczAsync.md
+  - name: ScriptModel<LANGUAGE>
+    href: Phoenix.ComponentPlugInSDK.Models.ScriptModel-1.md
+    items:
+    - name: Properties
+    - name: ScriptLanguage
+      href: Phoenix.ComponentPlugInSDK.Models.ScriptModel-1.ScriptLanguage.md
+  - name: VariableBasedBuilderModel
+    href: Phoenix.ComponentPlugInSDK.Models.VariableBasedBuilderModel.md
+    items:
+    - name: Fields
+    - name: FILEPATH_PROPERTYKEY
+      href: Phoenix.ComponentPlugInSDK.Models.VariableBasedBuilderModel.FILEPATH_PROPERTYKEY.md
+    - name: Properties
+    - name: ExtractionFolder
+      href: Phoenix.ComponentPlugInSDK.Models.VariableBasedBuilderModel.ExtractionFolder.md
+    - name: FilePath
+      href: Phoenix.ComponentPlugInSDK.Models.VariableBasedBuilderModel.FilePath.md
+    - name: FilePathAbsolute
+      href: Phoenix.ComponentPlugInSDK.Models.VariableBasedBuilderModel.FilePathAbsolute.md
+    - name: Methods
+    - name: FromPaczAsync
+      href: Phoenix.ComponentPlugInSDK.Models.VariableBasedBuilderModel.FromPaczAsync.md
+    - name: ToPaczAsync
+      href: Phoenix.ComponentPlugInSDK.Models.VariableBasedBuilderModel.ToPaczAsync.md
+  - name: VariableEditorModel
+    href: Phoenix.ComponentPlugInSDK.Models.VariableEditorModel.md
+    items:
+    - name: Constructors
+    - name: VariableEditorModel
+      href: Phoenix.ComponentPlugInSDK.Models.VariableEditorModel.-ctor.md
+    - name: Fields
+    - name: groupLineStart
+      href: Phoenix.ComponentPlugInSDK.Models.VariableEditorModel.groupLineStart.md
+    - name: variableLineStart
+      href: Phoenix.ComponentPlugInSDK.Models.VariableEditorModel.variableLineStart.md
+    - name: Properties
+    - name: VariableValueScope
+      href: Phoenix.ComponentPlugInSDK.Models.VariableEditorModel.VariableValueScope.md
+    - name: Variables
+      href: Phoenix.ComponentPlugInSDK.Models.VariableEditorModel.Variables.md
+    - name: Methods
+    - name: FromString
+      href: Phoenix.ComponentPlugInSDK.Models.VariableEditorModel.FromString.md
+    - name: ToString
+      href: Phoenix.ComponentPlugInSDK.Models.VariableEditorModel.ToString.md
+  - name: VariableEditorModel.SyntaxError
+    href: Phoenix.ComponentPlugInSDK.Models.VariableEditorModel.SyntaxError.md
+    items:
+    - name: Constructors
+    - name: SyntaxError
+      href: Phoenix.ComponentPlugInSDK.Models.VariableEditorModel.SyntaxError.-ctor.md
+  - name: VariableTreeProperties
+    href: Phoenix.ComponentPlugInSDK.Models.VariableTreeProperties.md
+    items:
+    - name: Constructors
+    - name: VariableTreeProperties
+      href: Phoenix.ComponentPlugInSDK.Models.VariableTreeProperties.-ctor.md
+    - name: Properties
+    - name: CanAddRemove
+      href: Phoenix.ComponentPlugInSDK.Models.VariableTreeProperties.CanAddRemove.md
+    - name: ComponentName
+      href: Phoenix.ComponentPlugInSDK.Models.VariableTreeProperties.ComponentName.md
+    - name: HasNamedVariables
+      href: Phoenix.ComponentPlugInSDK.Models.VariableTreeProperties.HasNamedVariables.md
+    - name: NamedVariableDisplayName
+      href: Phoenix.ComponentPlugInSDK.Models.VariableTreeProperties.NamedVariableDisplayName.md
+    - name: NamedVariablePickAction
+      href: Phoenix.ComponentPlugInSDK.Models.VariableTreeProperties.NamedVariablePickAction.md
+    - name: NamedVariablePickText
+      href: Phoenix.ComponentPlugInSDK.Models.VariableTreeProperties.NamedVariablePickText.md
+    - name: NamedVariableToken
+      href: Phoenix.ComponentPlugInSDK.Models.VariableTreeProperties.NamedVariableToken.md
+  - name: Interfaces
+  - name: IBuilderUIModel
+    href: Phoenix.ComponentPlugInSDK.Models.IBuilderUIModel.md
+    items:
+    - name: Properties
+    - name: ExternalMetadata
+      href: Phoenix.ComponentPlugInSDK.Models.IBuilderUIModel.ExternalMetadata.md
+    - name: InputVariables
+      href: Phoenix.ComponentPlugInSDK.Models.IBuilderUIModel.InputVariables.md
+    - name: IsReadOnly
+      href: Phoenix.ComponentPlugInSDK.Models.IBuilderUIModel.IsReadOnly.md
+    - name: OutputVariables
+      href: Phoenix.ComponentPlugInSDK.Models.IBuilderUIModel.OutputVariables.md
+    - name: Methods
+    - name: CloneInputVariablesFrom
+      href: Phoenix.ComponentPlugInSDK.Models.IBuilderUIModel.CloneInputVariablesFrom.md
+    - name: CloneOutputVariablesFrom
+      href: Phoenix.ComponentPlugInSDK.Models.IBuilderUIModel.CloneOutputVariablesFrom.md
+    - name: FromPaczAsync
+      href: Phoenix.ComponentPlugInSDK.Models.IBuilderUIModel.FromPaczAsync.md
+    - name: GetVariablesAsPHXVariable
+      href: Phoenix.ComponentPlugInSDK.Models.IBuilderUIModel.GetVariablesAsPHXVariable.md
+    - name: MoveInputVariablesFrom
+      href: Phoenix.ComponentPlugInSDK.Models.IBuilderUIModel.MoveInputVariablesFrom.md
+    - name: MoveOutputVariablesFrom
+      href: Phoenix.ComponentPlugInSDK.Models.IBuilderUIModel.MoveOutputVariablesFrom.md
+    - name: SetVariablesAsPHXVariable
+      href: Phoenix.ComponentPlugInSDK.Models.IBuilderUIModel.SetVariablesAsPHXVariable.md
+    - name: ToPaczAsync
+      href: Phoenix.ComponentPlugInSDK.Models.IBuilderUIModel.ToPaczAsync.md
+  - name: IScriptLanguage
+    href: Phoenix.ComponentPlugInSDK.Models.IScriptLanguage.md
+    items:
+    - name: Properties
+    - name: DefaultText
+      href: Phoenix.ComponentPlugInSDK.Models.IScriptLanguage.DefaultText.md
+    - name: DisplayName
+      href: Phoenix.ComponentPlugInSDK.Models.IScriptLanguage.DisplayName.md
+    - name: FilenameExtension
+      href: Phoenix.ComponentPlugInSDK.Models.IScriptLanguage.FilenameExtension.md
+    - name: NamedVariableDisplayName
+      href: Phoenix.ComponentPlugInSDK.Models.IScriptLanguage.NamedVariableDisplayName.md
+    - name: NamedVariableToken
+      href: Phoenix.ComponentPlugInSDK.Models.IScriptLanguage.NamedVariableToken.md
+    - name: SyntaxName
+      href: Phoenix.ComponentPlugInSDK.Models.IScriptLanguage.SyntaxName.md
+    - name: UsesNamedVariable
+      href: Phoenix.ComponentPlugInSDK.Models.IScriptLanguage.UsesNamedVariable.md
+    - name: Methods
+    - name: GetHighlightNames
+      href: Phoenix.ComponentPlugInSDK.Models.IScriptLanguage.GetHighlightNames.md
+    - name: GetScriptFilename
+      href: Phoenix.ComponentPlugInSDK.Models.IScriptLanguage.GetScriptFilename.md
+- name: Phoenix.ComponentPlugInSDK.Properties
+  href: Phoenix.ComponentPlugInSDK.Properties.md
+  items:
+  - name: Classes
+  - name: Resources
+    href: Phoenix.ComponentPlugInSDK.Properties.Resources.md
+    items:
+    - name: Properties
+    - name: Culture
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.Culture.md
+    - name: DefaultComponentName
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.DefaultComponentName.md
+    - name: DefaultValueForFileVariablesNotSupported
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.DefaultValueForFileVariablesNotSupported.md
+    - name: ErrorInvalidVariableProperty
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.ErrorInvalidVariableProperty.md
+    - name: ErrorNoFileOpenFunction
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.ErrorNoFileOpenFunction.md
+    - name: ErrorOccurred
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.ErrorOccurred.md
+    - name: ErrorOpeningFileFmt
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.ErrorOpeningFileFmt.md
+    - name: ErrorTitleFmt
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.ErrorTitleFmt.md
+    - name: Error_Invalid_Script
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.Error_Invalid_Script.md
+    - name: ExpectedAssignment
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.ExpectedAssignment.md
+    - name: ExpectedColon
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.ExpectedColon.md
+    - name: ExpectedGroupName
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.ExpectedGroupName.md
+    - name: ExpectedValueForMetaDataFmt
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.ExpectedValueForMetaDataFmt.md
+    - name: ExpectedVariableIOState
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.ExpectedVariableIOState.md
+    - name: ExpectedVariableName
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.ExpectedVariableName.md
+    - name: ExpectedVariableType
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.ExpectedVariableType.md
+    - name: FailedParseFmt
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.FailedParseFmt.md
+    - name: InvalidEscapeSequence
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.InvalidEscapeSequence.md
+    - name: InvalidGroupName
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.InvalidGroupName.md
+    - name: InvalidTimeoutValue
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.InvalidTimeoutValue.md
+    - name: InvalidU4EscapeSequence
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.InvalidU4EscapeSequence.md
+    - name: InvalidU8EscapeSequence
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.InvalidU8EscapeSequence.md
+    - name: InvalidUserDataLabelFmt
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.InvalidUserDataLabelFmt.md
+    - name: InvalidXEscapeSequence
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.InvalidXEscapeSequence.md
+    - name: JScript_Description
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.JScript_Description.md
+    - name: ResourceManager
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.ResourceManager.md
+    - name: ScriptEditorTitle
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.ScriptEditorTitle.md
+    - name: SyntaxErrorFmt
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.SyntaxErrorFmt.md
+    - name: UnableToUpdateHighlightingFmt
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.UnableToUpdateHighlightingFmt.md
+    - name: UnknownEscapeSequenceCharFmt
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.UnknownEscapeSequenceCharFmt.md
+    - name: UnrecognizedUnexpectedTokenFmt
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.UnrecognizedUnexpectedTokenFmt.md
+    - name: UnrecognizedUnsupportedMetadataFmt
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.UnrecognizedUnsupportedMetadataFmt.md
+    - name: UnsavedMessage
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.UnsavedMessage.md
+    - name: UnsavedTitle
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.UnsavedTitle.md
+    - name: VBScript_Description
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.VBScript_Description.md
+    - name: VariableEditorTitle
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.VariableEditorTitle.md
+    - name: VariableTypeNotSupportedFmt
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.VariableTypeNotSupportedFmt.md
+    - name: Window_is_not_ISaveable
+      href: Phoenix.ComponentPlugInSDK.Properties.Resources.Window_is_not_ISaveable.md
+- name: Phoenix.ComponentPlugInSDK.ViewModels
+  href: Phoenix.ComponentPlugInSDK.ViewModels.md
+  items:
+  - name: Classes
+  - name: AbstractPlugInViewModel<MODEL_TYPE>
+    href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.md
+    items:
+    - name: Constructors
+    - name: AbstractPlugInViewModel
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.-ctor.md
+    - name: Fields
+    - name: _logger
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1._logger.md
+    - name: _showErrorAction
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1._showErrorAction.md
+    - name: Properties
+    - name: BuilderName
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.BuilderName.md
+    - name: ExternalMetadata
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.ExternalMetadata.md
+    - name: HasStatus
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.HasStatus.md
+    - name: InputVariables
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.InputVariables.md
+    - name: IsBusy
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.IsBusy.md
+    - name: IsDirty
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.IsDirty.md
+    - name: IsNotReadOnly
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.IsNotReadOnly.md
+    - name: IsReadOnly
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.IsReadOnly.md
+    - name: OkCommand
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.OkCommand.md
+    - name: OutputVariables
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.OutputVariables.md
+    - name: SaveCommand
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.SaveCommand.md
+    - name: StatusColor
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.StatusColor.md
+    - name: StatusMessage
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.StatusMessage.md
+    - name: WindowIcon
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.WindowIcon.md
+    - name: WindowTitle
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.WindowTitle.md
+    - name: Methods
+    - name: CloneInputVariablesFrom
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.CloneInputVariablesFrom.md
+    - name: CloneOutputVariablesFrom
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.CloneOutputVariablesFrom.md
+    - name: GetVariablesAsPHXVariable
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.GetVariablesAsPHXVariable.md
+    - name: MoveInputVariablesFrom
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.MoveInputVariablesFrom.md
+    - name: MoveOutputVariablesFrom
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.MoveOutputVariablesFrom.md
+    - name: OnPropertyChanged
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.OnPropertyChanged.md
+    - name: SaveAsync
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.SaveAsync.md
+    - name: SetStatus
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.SetStatus.md
+    - name: SetVariablesAsPHXVariable
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.SetVariablesAsPHXVariable.md
+    - name: _handleError
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1._handleError.md
+    - name: _onInputsChanged
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1._onInputsChanged.md
+    - name: _onOutputsChanged
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1._onOutputsChanged.md
+    - name: Events
+    - name: PropertyChanged
+      href: Phoenix.ComponentPlugInSDK.ViewModels.AbstractPlugInViewModel-1.PropertyChanged.md
+  - name: ScriptEditorViewModel
+    href: Phoenix.ComponentPlugInSDK.ViewModels.ScriptEditorViewModel.md
+    items:
+    - name: Constructors
+    - name: ScriptEditorViewModel
+      href: Phoenix.ComponentPlugInSDK.ViewModels.ScriptEditorViewModel.-ctor.md
+    - name: Fields
+    - name: CUSTOM_OBJECT_RULE_NAME
+      href: Phoenix.ComponentPlugInSDK.ViewModels.ScriptEditorViewModel.CUSTOM_OBJECT_RULE_NAME.md
+    - name: CUSTOM_VARIABLE_RULE_NAME
+      href: Phoenix.ComponentPlugInSDK.ViewModels.ScriptEditorViewModel.CUSTOM_VARIABLE_RULE_NAME.md
+    - name: Properties
+    - name: Script
+      href: Phoenix.ComponentPlugInSDK.ViewModels.ScriptEditorViewModel.Script.md
+    - name: ScriptDocument
+      href: Phoenix.ComponentPlugInSDK.ViewModels.ScriptEditorViewModel.ScriptDocument.md
+    - name: ScriptText
+      href: Phoenix.ComponentPlugInSDK.ViewModels.ScriptEditorViewModel.ScriptText.md
+    - name: SyntaxHighlighting
+      href: Phoenix.ComponentPlugInSDK.ViewModels.ScriptEditorViewModel.SyntaxHighlighting.md
+    - name: Timeout
+      href: Phoenix.ComponentPlugInSDK.ViewModels.ScriptEditorViewModel.Timeout.md
+    - name: Methods
+    - name: _onInputsChanged
+      href: Phoenix.ComponentPlugInSDK.ViewModels.ScriptEditorViewModel._onInputsChanged.md
+    - name: _onOutputsChanged
+      href: Phoenix.ComponentPlugInSDK.ViewModels.ScriptEditorViewModel._onOutputsChanged.md
+  - name: VariableBasedBuilderViewModel
+    href: Phoenix.ComponentPlugInSDK.ViewModels.VariableBasedBuilderViewModel.md
+    items:
+    - name: Constructors
+    - name: VariableBasedBuilderViewModel
+      href: Phoenix.ComponentPlugInSDK.ViewModels.VariableBasedBuilderViewModel.-ctor.md
+    - name: Properties
+    - name: ExtractionFolder
+      href: Phoenix.ComponentPlugInSDK.ViewModels.VariableBasedBuilderViewModel.ExtractionFolder.md
+    - name: FilePath
+      href: Phoenix.ComponentPlugInSDK.ViewModels.VariableBasedBuilderViewModel.FilePath.md
+    - name: FilePathAbsolute
+      href: Phoenix.ComponentPlugInSDK.ViewModels.VariableBasedBuilderViewModel.FilePathAbsolute.md
+    - name: FileSelectionHeader
+      href: Phoenix.ComponentPlugInSDK.ViewModels.VariableBasedBuilderViewModel.FileSelectionHeader.md
+    - name: OpenFileCommand
+      href: Phoenix.ComponentPlugInSDK.ViewModels.VariableBasedBuilderViewModel.OpenFileCommand.md
+    - name: Methods
+    - name: _onInputsChanged
+      href: Phoenix.ComponentPlugInSDK.ViewModels.VariableBasedBuilderViewModel._onInputsChanged.md
+    - name: _onOutputsChanged
+      href: Phoenix.ComponentPlugInSDK.ViewModels.VariableBasedBuilderViewModel._onOutputsChanged.md
+  - name: Interfaces
+  - name: IPlugInViewModel
+    href: Phoenix.ComponentPlugInSDK.ViewModels.IPlugInViewModel.md
+    items:
+    - name: Properties
+    - name: BuilderName
+      href: Phoenix.ComponentPlugInSDK.ViewModels.IPlugInViewModel.BuilderName.md
+    - name: InputVariables
+      href: Phoenix.ComponentPlugInSDK.ViewModels.IPlugInViewModel.InputVariables.md
+    - name: IsBusy
+      href: Phoenix.ComponentPlugInSDK.ViewModels.IPlugInViewModel.IsBusy.md
+    - name: IsDirty
+      href: Phoenix.ComponentPlugInSDK.ViewModels.IPlugInViewModel.IsDirty.md
+    - name: IsReadOnly
+      href: Phoenix.ComponentPlugInSDK.ViewModels.IPlugInViewModel.IsReadOnly.md
+    - name: OkCommand
+      href: Phoenix.ComponentPlugInSDK.ViewModels.IPlugInViewModel.OkCommand.md
+    - name: OutputVariables
+      href: Phoenix.ComponentPlugInSDK.ViewModels.IPlugInViewModel.OutputVariables.md
+    - name: SaveCommand
+      href: Phoenix.ComponentPlugInSDK.ViewModels.IPlugInViewModel.SaveCommand.md
+    - name: WindowIcon
+      href: Phoenix.ComponentPlugInSDK.ViewModels.IPlugInViewModel.WindowIcon.md
+    - name: WindowTitle
+      href: Phoenix.ComponentPlugInSDK.ViewModels.IPlugInViewModel.WindowTitle.md
+    - name: Methods
+    - name: CloneInputVariablesFrom
+      href: Phoenix.ComponentPlugInSDK.ViewModels.IPlugInViewModel.CloneInputVariablesFrom.md
+    - name: CloneOutputVariablesFrom
+      href: Phoenix.ComponentPlugInSDK.ViewModels.IPlugInViewModel.CloneOutputVariablesFrom.md
+    - name: GetVariablesAsPHXVariable
+      href: Phoenix.ComponentPlugInSDK.ViewModels.IPlugInViewModel.GetVariablesAsPHXVariable.md
+    - name: MoveInputVariablesFrom
+      href: Phoenix.ComponentPlugInSDK.ViewModels.IPlugInViewModel.MoveInputVariablesFrom.md
+    - name: MoveOutputVariablesFrom
+      href: Phoenix.ComponentPlugInSDK.ViewModels.IPlugInViewModel.MoveOutputVariablesFrom.md
+    - name: SaveAsync
+      href: Phoenix.ComponentPlugInSDK.ViewModels.IPlugInViewModel.SaveAsync.md
+    - name: SetVariablesAsPHXVariable
+      href: Phoenix.ComponentPlugInSDK.ViewModels.IPlugInViewModel.SetVariablesAsPHXVariable.md
+    - name: Events
+    - name: PropertyChanged
+      href: Phoenix.ComponentPlugInSDK.ViewModels.IPlugInViewModel.PropertyChanged.md
+- name: Phoenix.ComponentPlugInSDK.Views
+  href: Phoenix.ComponentPlugInSDK.Views.md
+  items:
+  - name: Classes
+  - name: AbstractPlugInWindow
+    href: Phoenix.ComponentPlugInSDK.Views.AbstractPlugInWindow.md
+    items:
+    - name: Constructors
+    - name: AbstractPlugInWindow
+      href: Phoenix.ComponentPlugInSDK.Views.AbstractPlugInWindow.-ctor.md
+    - name: Fields
+    - name: _forceClose
+      href: Phoenix.ComponentPlugInSDK.Views.AbstractPlugInWindow._forceClose.md
+    - name: _logger
+      href: Phoenix.ComponentPlugInSDK.Views.AbstractPlugInWindow._logger.md
+    - name: _variableScope
+      href: Phoenix.ComponentPlugInSDK.Views.AbstractPlugInWindow._variableScope.md
+    - name: Properties
+    - name: _cancelButton
+      href: Phoenix.ComponentPlugInSDK.Views.AbstractPlugInWindow._cancelButton.md
+    - name: _editVariablesButton
+      href: Phoenix.ComponentPlugInSDK.Views.AbstractPlugInWindow._editVariablesButton.md
+    - name: _treeControl
+      href: Phoenix.ComponentPlugInSDK.Views.AbstractPlugInWindow._treeControl.md
+    - name: _treeControlHost
+      href: Phoenix.ComponentPlugInSDK.Views.AbstractPlugInWindow._treeControlHost.md
+    - name: Methods
+    - name: EditVariablesButton_Click
+      href: Phoenix.ComponentPlugInSDK.Views.AbstractPlugInWindow.EditVariablesButton_Click.md
+    - name: TreeCtrlHost_GotKeyboardFocus
+      href: Phoenix.ComponentPlugInSDK.Views.AbstractPlugInWindow.TreeCtrlHost_GotKeyboardFocus.md
+    - name: TrySaveAsync
+      href: Phoenix.ComponentPlugInSDK.Views.AbstractPlugInWindow.TrySaveAsync.md
+    - name: _programmaticClose
+      href: Phoenix.ComponentPlugInSDK.Views.AbstractPlugInWindow._programmaticClose.md
+    - name: _showErrorDialog
+      href: Phoenix.ComponentPlugInSDK.Views.AbstractPlugInWindow._showErrorDialog.md
+    - name: _updateAbstractWindow
+      href: Phoenix.ComponentPlugInSDK.Views.AbstractPlugInWindow._updateAbstractWindow.md
+  - name: ScriptEditorView
+    href: Phoenix.ComponentPlugInSDK.Views.ScriptEditorView.md
+    items:
+    - name: Constructors
+    - name: ScriptEditorView
+      href: Phoenix.ComponentPlugInSDK.Views.ScriptEditorView.-ctor.md
+    - name: Properties
+    - name: _cancelButton
+      href: Phoenix.ComponentPlugInSDK.Views.ScriptEditorView._cancelButton.md
+    - name: _editVariablesButton
+      href: Phoenix.ComponentPlugInSDK.Views.ScriptEditorView._editVariablesButton.md
+    - name: _treeControl
+      href: Phoenix.ComponentPlugInSDK.Views.ScriptEditorView._treeControl.md
+    - name: _treeControlHost
+      href: Phoenix.ComponentPlugInSDK.Views.ScriptEditorView._treeControlHost.md
+  - name: ScriptEditorView.ScriptChangedEventArgs
+    href: Phoenix.ComponentPlugInSDK.Views.ScriptEditorView.ScriptChangedEventArgs.md
+    items:
+    - name: Constructors
+    - name: ScriptChangedEventArgs
+      href: Phoenix.ComponentPlugInSDK.Views.ScriptEditorView.ScriptChangedEventArgs.-ctor.md
+    - name: Properties
+    - name: ScriptModel
+      href: Phoenix.ComponentPlugInSDK.Views.ScriptEditorView.ScriptChangedEventArgs.ScriptModel.md
+  - name: VariableBasedBuilderView
+    href: Phoenix.ComponentPlugInSDK.Views.VariableBasedBuilderView.md
+    items:
+    - name: Constructors
+    - name: VariableBasedBuilderView
+      href: Phoenix.ComponentPlugInSDK.Views.VariableBasedBuilderView.-ctor.md
+    - name: Properties
+    - name: _editVariablesButton
+      href: Phoenix.ComponentPlugInSDK.Views.VariableBasedBuilderView._editVariablesButton.md
+    - name: _treeControl
+      href: Phoenix.ComponentPlugInSDK.Views.VariableBasedBuilderView._treeControl.md
+    - name: _treeControlHost
+      href: Phoenix.ComponentPlugInSDK.Views.VariableBasedBuilderView._treeControlHost.md
+  - name: VariableEditorView
+    href: Phoenix.ComponentPlugInSDK.Views.VariableEditorView.md
+    items:
+    - name: Constructors
+    - name: VariableEditorView
+      href: Phoenix.ComponentPlugInSDK.Views.VariableEditorView.-ctor.md
+  - name: Interfaces
+  - name: ISaveableWindow
+    href: Phoenix.ComponentPlugInSDK.Views.ISaveableWindow.md
+    items:
+    - name: Methods
+    - name: TrySaveAsync
+      href: Phoenix.ComponentPlugInSDK.Views.ISaveableWindow.TrySaveAsync.md
+- name: Phoenix.Pacz
+  href: Phoenix.Pacz.md
+  items:
+  - name: Classes
+  - name: Compatibility
+    href: Phoenix.Pacz.Compatibility.md
+    items:
+    - name: Properties
+    - name: ErrorOnLoad
+      href: Phoenix.Pacz.Compatibility.ErrorOnLoad.md
+    - name: MajorVersion
+      href: Phoenix.Pacz.Compatibility.MajorVersion.md
+    - name: Message
+      href: Phoenix.Pacz.Compatibility.Message.md
+    - name: MinorVersion
+      href: Phoenix.Pacz.Compatibility.MinorVersion.md
+    - name: VersionLessThan
+      href: Phoenix.Pacz.Compatibility.VersionLessThan.md
+  - name: ComponentConfig
+    href: Phoenix.Pacz.ComponentConfig.md
+    items:
+    - name: Constructors
+    - name: ComponentConfig
+      href: Phoenix.Pacz.ComponentConfig.-ctor.md
+    - name: Properties
+    - name: ASComponent
+      href: Phoenix.Pacz.ComponentConfig.ASComponent.md
+    - name: Author
+      href: Phoenix.Pacz.ComponentConfig.Author.md
+    - name: Compatibilities
+      href: Phoenix.Pacz.ComponentConfig.Compatibilities.md
+    - name: Description
+      href: Phoenix.Pacz.ComponentConfig.Description.md
+    - name: ExternalFiles
+      href: Phoenix.Pacz.ComponentConfig.ExternalFiles.md
+    - name: HelpUrl
+      href: Phoenix.Pacz.ComponentConfig.HelpUrl.md
+    - name: Icon
+      href: Phoenix.Pacz.ComponentConfig.Icon.md
+    - name: Inputs
+      href: Phoenix.Pacz.ComponentConfig.Inputs.md
+    - name: InstanceFiles
+      href: Phoenix.Pacz.ComponentConfig.InstanceFiles.md
+    - name: Outputs
+      href: Phoenix.Pacz.ComponentConfig.Outputs.md
+    - name: PlugInId
+      href: Phoenix.Pacz.ComponentConfig.PlugInId.md
+    - name: Properties
+      href: Phoenix.Pacz.ComponentConfig.Properties.md
+    - name: RequiredFeatures
+      href: Phoenix.Pacz.ComponentConfig.RequiredFeatures.md
+    - name: RunFolderPreference
+      href: Phoenix.Pacz.ComponentConfig.RunFolderPreference.md
+    - name: Version
+      href: Phoenix.Pacz.ComponentConfig.Version.md
+    - name: Methods
+    - name: AsReadOnly
+      href: Phoenix.Pacz.ComponentConfig.AsReadOnly.md
+    - name: CloneInputsFrom
+      href: Phoenix.Pacz.ComponentConfig.CloneInputsFrom.md
+    - name: CloneOutputsFrom
+      href: Phoenix.Pacz.ComponentConfig.CloneOutputsFrom.md
+    - name: Dispose
+      href: Phoenix.Pacz.ComponentConfig.Dispose.md
+    - name: FromJson
+      href: Phoenix.Pacz.ComponentConfig.FromJson.md
+    - name: MoveInputsFrom
+      href: Phoenix.Pacz.ComponentConfig.MoveInputsFrom.md
+    - name: MoveOutputsFrom
+      href: Phoenix.Pacz.ComponentConfig.MoveOutputsFrom.md
+    - name: ToJson
+      href: Phoenix.Pacz.ComponentConfig.ToJson.md
+  - name: DefaultExternalMetadata
+    href: Phoenix.Pacz.DefaultExternalMetadata.md
+    items:
+    - name: Constructors
+    - name: DefaultExternalMetadata
+      href: Phoenix.Pacz.DefaultExternalMetadata.-ctor.md
+    - name: Fields
+    - name: METADATA_FILE_NAME
+      href: Phoenix.Pacz.DefaultExternalMetadata.METADATA_FILE_NAME.md
+    - name: _metadata
+      href: Phoenix.Pacz.DefaultExternalMetadata._metadata.md
+    - name: Properties
+    - name: IsReadOnly
+      href: Phoenix.Pacz.DefaultExternalMetadata.IsReadOnly.md
+    - name: Metadata
+      href: Phoenix.Pacz.DefaultExternalMetadata.Metadata.md
+    - name: Name
+      href: Phoenix.Pacz.DefaultExternalMetadata.Name.md
+    - name: ReadOnlyReason
+      href: Phoenix.Pacz.DefaultExternalMetadata.ReadOnlyReason.md
+    - name: SourceUri
+      href: Phoenix.Pacz.DefaultExternalMetadata.SourceUri.md
+    - name: Methods
+    - name: FromString
+      href: Phoenix.Pacz.DefaultExternalMetadata.FromString.md
+    - name: GetMetadataValue
+      href: Phoenix.Pacz.DefaultExternalMetadata.GetMetadataValue.md
+    - name: ToString
+      href: Phoenix.Pacz.DefaultExternalMetadata.ToString.md
+    - name: WriteToFileAsync
+      href: Phoenix.Pacz.DefaultExternalMetadata.WriteToFileAsync.md
+  - name: ExternalFile
+    href: Phoenix.Pacz.ExternalFile.md
+    items:
+    - name: Constructors
+    - name: ExternalFile
+      href: Phoenix.Pacz.ExternalFile.-ctor.md
+    - name: Properties
+    - name: Path
+      href: Phoenix.Pacz.ExternalFile.Path.md
+    - name: Methods
+    - name: CompareTo
+      href: Phoenix.Pacz.ExternalFile.CompareTo.md
+  - name: IconMissingException
+    href: Phoenix.Pacz.IconMissingException.md
+    items:
+    - name: Constructors
+    - name: IconMissingException
+      href: Phoenix.Pacz.IconMissingException.-ctor.md
+  - name: InstanceFile
+    href: Phoenix.Pacz.InstanceFile.md
+    items:
+    - name: Constructors
+    - name: InstanceFile
+      href: Phoenix.Pacz.InstanceFile.-ctor.md
+    - name: Properties
+    - name: PlugInIntegral
+      href: Phoenix.Pacz.InstanceFile.PlugInIntegral.md
+    - name: RelativePath
+      href: Phoenix.Pacz.InstanceFile.RelativePath.md
+    - name: Methods
+    - name: CompareTo
+      href: Phoenix.Pacz.InstanceFile.CompareTo.md
+  - name: PaczFactory
+    href: Phoenix.Pacz.PaczFactory.md
+    items:
+    - name: Fields
+    - name: LEGAL_PACJ_FILENAME
+      href: Phoenix.Pacz.PaczFactory.LEGAL_PACJ_FILENAME.md
+    - name: PACZ_SCHEMA_VERSION_MAJOR
+      href: Phoenix.Pacz.PaczFactory.PACZ_SCHEMA_VERSION_MAJOR.md
+    - name: PACZ_SCHEMA_VERSION_MINOR
+      href: Phoenix.Pacz.PaczFactory.PACZ_SCHEMA_VERSION_MINOR.md
+    - name: Methods
+    - name: ConfigureServiceCollection
+      href: Phoenix.Pacz.PaczFactory.ConfigureServiceCollection.md
+  - name: RuntimeVariable
+    href: Phoenix.Pacz.RuntimeVariable.md
+    items:
+    - name: Constructors
+    - name: RuntimeVariable
+      href: Phoenix.Pacz.RuntimeVariable.-ctor.md
+    - name: Properties
+    - name: CustomMetadata
+      href: Phoenix.Pacz.RuntimeVariable.CustomMetadata.md
+    - name: DefaultValue
+      href: Phoenix.Pacz.RuntimeVariable.DefaultValue.md
+    - name: Metadata
+      href: Phoenix.Pacz.RuntimeVariable.Metadata.md
+    - name: Name
+      href: Phoenix.Pacz.RuntimeVariable.Name.md
+    - name: Methods
+    - name: CloneDefaultValueFrom
+      href: Phoenix.Pacz.RuntimeVariable.CloneDefaultValueFrom.md
+    - name: Dispose
+      href: Phoenix.Pacz.RuntimeVariable.Dispose.md
+    - name: MoveDefaultValueFrom
+      href: Phoenix.Pacz.RuntimeVariable.MoveDefaultValueFrom.md
+  - name: SchemaCompatibilityException
+    href: Phoenix.Pacz.SchemaCompatibilityException.md
+    items:
+    - name: Constructors
+    - name: SchemaCompatibilityException
+      href: Phoenix.Pacz.SchemaCompatibilityException.-ctor.md
+  - name: UpdatableSortedSet<T>
+    href: Phoenix.Pacz.UpdatableSortedSet-1.md
+    items:
+    - name: Constructors
+    - name: UpdatableSortedSet
+      href: Phoenix.Pacz.UpdatableSortedSet-1.-ctor.md
+    - name: Properties
+    - name: Count
+      href: Phoenix.Pacz.UpdatableSortedSet-1.Count.md
+    - name: IsReadOnly
+      href: Phoenix.Pacz.UpdatableSortedSet-1.IsReadOnly.md
+    - name: Methods
+    - name: Add
+      href: Phoenix.Pacz.UpdatableSortedSet-1.Add.md
+    - name: Clear
+      href: Phoenix.Pacz.UpdatableSortedSet-1.Clear.md
+    - name: Contains
+      href: Phoenix.Pacz.UpdatableSortedSet-1.Contains.md
+    - name: CopyTo
+      href: Phoenix.Pacz.UpdatableSortedSet-1.CopyTo.md
+    - name: ExceptWith
+      href: Phoenix.Pacz.UpdatableSortedSet-1.ExceptWith.md
+    - name: GetEnumerator
+      href: Phoenix.Pacz.UpdatableSortedSet-1.GetEnumerator.md
+    - name: IntersectWith
+      href: Phoenix.Pacz.UpdatableSortedSet-1.IntersectWith.md
+    - name: IsProperSubsetOf
+      href: Phoenix.Pacz.UpdatableSortedSet-1.IsProperSubsetOf.md
+    - name: IsProperSupersetOf
+      href: Phoenix.Pacz.UpdatableSortedSet-1.IsProperSupersetOf.md
+    - name: IsSubsetOf
+      href: Phoenix.Pacz.UpdatableSortedSet-1.IsSubsetOf.md
+    - name: IsSupersetOf
+      href: Phoenix.Pacz.UpdatableSortedSet-1.IsSupersetOf.md
+    - name: Overlaps
+      href: Phoenix.Pacz.UpdatableSortedSet-1.Overlaps.md
+    - name: Remove
+      href: Phoenix.Pacz.UpdatableSortedSet-1.Remove.md
+    - name: SetEquals
+      href: Phoenix.Pacz.UpdatableSortedSet-1.SetEquals.md
+    - name: SymmetricExceptWith
+      href: Phoenix.Pacz.UpdatableSortedSet-1.SymmetricExceptWith.md
+    - name: UnionWith
+      href: Phoenix.Pacz.UpdatableSortedSet-1.UnionWith.md
+- name: Phoenix.Pacz.Impl
+  href: Phoenix.Pacz.Impl.md
+  items:
+  - name: Classes
+  - name: Extensions
+    href: Phoenix.Pacz.Impl.Extensions.md
+    items:
+    - name: Methods
+    - name: GetComponentName
+      href: Phoenix.Pacz.Impl.Extensions.GetComponentName.md
+    - name: GetPaczName
+      href: Phoenix.Pacz.Impl.Extensions.GetPaczName.md
+    - name: GetPaczUploadLocation
+      href: Phoenix.Pacz.Impl.Extensions.GetPaczUploadLocation.md
+    - name: IsPaczReadOnly
+      href: Phoenix.Pacz.Impl.Extensions.IsPaczReadOnly.md
+    - name: OpenExtractedOrCompressedPaczFileAsync
+      href: Phoenix.Pacz.Impl.Extensions.OpenExtractedOrCompressedPaczFileAsync.md
+    - name: PointsToComponentPacj
+      href: Phoenix.Pacz.Impl.Extensions.PointsToComponentPacj.md
+    - name: StartSessionForLocalExtractedOrCompressedPaczAsync
+      href: Phoenix.Pacz.Impl.Extensions.StartSessionForLocalExtractedOrCompressedPaczAsync.md
+    - name: ToSafeSourceString
+      href: Phoenix.Pacz.Impl.Extensions.ToSafeSourceString.md
+  - name: LegacyExternalMetadata
+    href: Phoenix.Pacz.Impl.LegacyExternalMetadata.md
+    items:
+    - name: Constructors
+    - name: LegacyExternalMetadata
+      href: Phoenix.Pacz.Impl.LegacyExternalMetadata.-ctor.md
+  - name: MinervaExternalMetadata
+    href: Phoenix.Pacz.Impl.MinervaExternalMetadata.md
+    items:
+    - name: Constructors
+    - name: MinervaExternalMetadata
+      href: Phoenix.Pacz.Impl.MinervaExternalMetadata.-ctor.md
+    - name: Properties
+    - name: Name
+      href: Phoenix.Pacz.Impl.MinervaExternalMetadata.Name.md
+- name: Phoenix.PaczAPI
+  href: Phoenix.PaczAPI.md
+  items:
+  - name: Classes
+  - name: CommonProperties
+    href: Phoenix.PaczAPI.CommonProperties.md
+    items:
+    - name: Fields
+    - name: AVERAGE_RUNTIME
+      href: Phoenix.PaczAPI.CommonProperties.AVERAGE_RUNTIME.md
+    - name: TIMEOUT
+      href: Phoenix.PaczAPI.CommonProperties.TIMEOUT.md
+  - name: VariableValueScopeExtensions
+    href: Phoenix.PaczAPI.VariableValueScopeExtensions.md
+    items:
+    - name: Methods
+    - name: ClearAndFillFromConfig
+      href: Phoenix.PaczAPI.VariableValueScopeExtensions.ClearAndFillFromConfig.md
+    - name: FillFromConfig
+      href: Phoenix.PaczAPI.VariableValueScopeExtensions.FillFromConfig.md
+  - name: Interfaces
+  - name: ICompatibility
+    href: Phoenix.PaczAPI.ICompatibility.md
+    items:
+    - name: Properties
+    - name: ErrorOnLoad
+      href: Phoenix.PaczAPI.ICompatibility.ErrorOnLoad.md
+    - name: MajorVersion
+      href: Phoenix.PaczAPI.ICompatibility.MajorVersion.md
+    - name: Message
+      href: Phoenix.PaczAPI.ICompatibility.Message.md
+    - name: MinorVersion
+      href: Phoenix.PaczAPI.ICompatibility.MinorVersion.md
+    - name: VersionLessThan
+      href: Phoenix.PaczAPI.ICompatibility.VersionLessThan.md
+  - name: IComponentConfig
+    href: Phoenix.PaczAPI.IComponentConfig.md
+    items:
+    - name: Properties
+    - name: ASComponent
+      href: Phoenix.PaczAPI.IComponentConfig.ASComponent.md
+    - name: Author
+      href: Phoenix.PaczAPI.IComponentConfig.Author.md
+    - name: Compatibilities
+      href: Phoenix.PaczAPI.IComponentConfig.Compatibilities.md
+    - name: Description
+      href: Phoenix.PaczAPI.IComponentConfig.Description.md
+    - name: ExternalFiles
+      href: Phoenix.PaczAPI.IComponentConfig.ExternalFiles.md
+    - name: HelpUrl
+      href: Phoenix.PaczAPI.IComponentConfig.HelpUrl.md
+    - name: Icon
+      href: Phoenix.PaczAPI.IComponentConfig.Icon.md
+    - name: InstanceFiles
+      href: Phoenix.PaczAPI.IComponentConfig.InstanceFiles.md
+    - name: PlugInId
+      href: Phoenix.PaczAPI.IComponentConfig.PlugInId.md
+    - name: Properties
+      href: Phoenix.PaczAPI.IComponentConfig.Properties.md
+    - name: RequiredFeatures
+      href: Phoenix.PaczAPI.IComponentConfig.RequiredFeatures.md
+    - name: RunFolderPreference
+      href: Phoenix.PaczAPI.IComponentConfig.RunFolderPreference.md
+    - name: Version
+      href: Phoenix.PaczAPI.IComponentConfig.Version.md
+    - name: Methods
+    - name: AsReadOnly
+      href: Phoenix.PaczAPI.IComponentConfig.AsReadOnly.md
+    - name: CloneInputsFrom
+      href: Phoenix.PaczAPI.IComponentConfig.CloneInputsFrom.md
+    - name: CloneOutputsFrom
+      href: Phoenix.PaczAPI.IComponentConfig.CloneOutputsFrom.md
+    - name: MoveInputsFrom
+      href: Phoenix.PaczAPI.IComponentConfig.MoveInputsFrom.md
+    - name: MoveOutputsFrom
+      href: Phoenix.PaczAPI.IComponentConfig.MoveOutputsFrom.md
+  - name: IExternalFile
+    href: Phoenix.PaczAPI.IExternalFile.md
+    items:
+    - name: Properties
+    - name: Path
+      href: Phoenix.PaczAPI.IExternalFile.Path.md
+  - name: IExternalMetadata
+    href: Phoenix.PaczAPI.IExternalMetadata.md
+    items:
+    - name: Properties
+    - name: IsReadOnly
+      href: Phoenix.PaczAPI.IExternalMetadata.IsReadOnly.md
+    - name: Metadata
+      href: Phoenix.PaczAPI.IExternalMetadata.Metadata.md
+    - name: Name
+      href: Phoenix.PaczAPI.IExternalMetadata.Name.md
+    - name: ReadOnlyReason
+      href: Phoenix.PaczAPI.IExternalMetadata.ReadOnlyReason.md
+    - name: SourceUri
+      href: Phoenix.PaczAPI.IExternalMetadata.SourceUri.md
+    - name: Methods
+    - name: GetMetadataValue
+      href: Phoenix.PaczAPI.IExternalMetadata.GetMetadataValue.md
+  - name: IExtractedPacz
+    href: Phoenix.PaczAPI.IExtractedPacz.md
+    items:
+    - name: Properties
+    - name: Config
+      href: Phoenix.PaczAPI.IExtractedPacz.Config.md
+  - name: IInstanceFile
+    href: Phoenix.PaczAPI.IInstanceFile.md
+    items:
+    - name: Properties
+    - name: PlugInIntegral
+      href: Phoenix.PaczAPI.IInstanceFile.PlugInIntegral.md
+    - name: RelativePath
+      href: Phoenix.PaczAPI.IInstanceFile.RelativePath.md
+  - name: IPacz
+    href: Phoenix.PaczAPI.IPacz.md
+    items:
+    - name: Properties
+    - name: Config
+      href: Phoenix.PaczAPI.IPacz.Config.md
+    - name: IsSourceExtracted
+      href: Phoenix.PaczAPI.IPacz.IsSourceExtracted.md
+    - name: SourceUri
+      href: Phoenix.PaczAPI.IPacz.SourceUri.md
+    - name: Methods
+    - name: ExtractToTempFolderAsync
+      href: Phoenix.PaczAPI.IPacz.ExtractToTempFolderAsync.md
+    - name: OpenAlreadyExtractedFolder
+      href: Phoenix.PaczAPI.IPacz.OpenAlreadyExtractedFolder.md
+  - name: IPaczClient
+    href: Phoenix.PaczAPI.IPaczClient.md
+    items:
+    - name: Methods
+    - name: CreateNewPaczFileAsync
+      href: Phoenix.PaczAPI.IPaczClient.CreateNewPaczFileAsync.md
+    - name: OpenExtractedPaczFileAsync
+      href: Phoenix.PaczAPI.IPaczClient.OpenExtractedPaczFileAsync.md
+    - name: OpenPaczFileAsync
+      href: Phoenix.PaczAPI.IPaczClient.OpenPaczFileAsync.md
+  - name: IPaczWriter
+    href: Phoenix.PaczAPI.IPaczWriter.md
+    items:
+    - name: Methods
+    - name: AsReadOnly
+      href: Phoenix.PaczAPI.IPaczWriter.AsReadOnly.md
+    - name: ReReadConfigFromExtractionFolder
+      href: Phoenix.PaczAPI.IPaczWriter.ReReadConfigFromExtractionFolder.md
+    - name: SaveAsLocalFilesAsync
+      href: Phoenix.PaczAPI.IPaczWriter.SaveAsLocalFilesAsync.md
+    - name: SaveAsLocalPaczAsync
+      href: Phoenix.PaczAPI.IPaczWriter.SaveAsLocalPaczAsync.md
+    - name: SaveToSourceAsync
+      href: Phoenix.PaczAPI.IPaczWriter.SaveToSourceAsync.md
+    - name: UpdateSourceAsync
+      href: Phoenix.PaczAPI.IPaczWriter.UpdateSourceAsync.md
+    - name: WriteConfigToExtractionFolderAsync
+      href: Phoenix.PaczAPI.IPaczWriter.WriteConfigToExtractionFolderAsync.md
+  - name: IReadOnlyComponentConfig
+    href: Phoenix.PaczAPI.IReadOnlyComponentConfig.md
+    items:
+    - name: Properties
+    - name: ASComponent
+      href: Phoenix.PaczAPI.IReadOnlyComponentConfig.ASComponent.md
+    - name: Author
+      href: Phoenix.PaczAPI.IReadOnlyComponentConfig.Author.md
+    - name: Compatibilities
+      href: Phoenix.PaczAPI.IReadOnlyComponentConfig.Compatibilities.md
+    - name: Description
+      href: Phoenix.PaczAPI.IReadOnlyComponentConfig.Description.md
+    - name: ExternalFiles
+      href: Phoenix.PaczAPI.IReadOnlyComponentConfig.ExternalFiles.md
+    - name: HelpUrl
+      href: Phoenix.PaczAPI.IReadOnlyComponentConfig.HelpUrl.md
+    - name: Icon
+      href: Phoenix.PaczAPI.IReadOnlyComponentConfig.Icon.md
+    - name: Inputs
+      href: Phoenix.PaczAPI.IReadOnlyComponentConfig.Inputs.md
+    - name: InstanceFiles
+      href: Phoenix.PaczAPI.IReadOnlyComponentConfig.InstanceFiles.md
+    - name: Outputs
+      href: Phoenix.PaczAPI.IReadOnlyComponentConfig.Outputs.md
+    - name: PlugInId
+      href: Phoenix.PaczAPI.IReadOnlyComponentConfig.PlugInId.md
+    - name: Properties
+      href: Phoenix.PaczAPI.IReadOnlyComponentConfig.Properties.md
+    - name: RequiredFeatures
+      href: Phoenix.PaczAPI.IReadOnlyComponentConfig.RequiredFeatures.md
+    - name: RunFolderPreference
+      href: Phoenix.PaczAPI.IReadOnlyComponentConfig.RunFolderPreference.md
+    - name: Version
+      href: Phoenix.PaczAPI.IReadOnlyComponentConfig.Version.md
+    - name: Methods
+    - name: ToJson
+      href: Phoenix.PaczAPI.IReadOnlyComponentConfig.ToJson.md
+  - name: IReadOnlyExtractedPacz
+    href: Phoenix.PaczAPI.IReadOnlyExtractedPacz.md
+    items:
+    - name: Properties
+    - name: Config
+      href: Phoenix.PaczAPI.IReadOnlyExtractedPacz.Config.md
+    - name: ExternalMetadata
+      href: Phoenix.PaczAPI.IReadOnlyExtractedPacz.ExternalMetadata.md
+    - name: ExtractionFolder
+      href: Phoenix.PaczAPI.IReadOnlyExtractedPacz.ExtractionFolder.md
+    - name: PaczSource
+      href: Phoenix.PaczAPI.IReadOnlyExtractedPacz.PaczSource.md
+    - name: Methods
+    - name: ExportAsLocalFilesAsync
+      href: Phoenix.PaczAPI.IReadOnlyExtractedPacz.ExportAsLocalFilesAsync.md
+    - name: ExportAsLocalPaczAsync
+      href: Phoenix.PaczAPI.IReadOnlyExtractedPacz.ExportAsLocalPaczAsync.md
+    - name: KeepFolderOnDispose
+      href: Phoenix.PaczAPI.IReadOnlyExtractedPacz.KeepFolderOnDispose.md
+  - name: IRuntimeVariable
+    href: Phoenix.PaczAPI.IRuntimeVariable.md
+    items:
+    - name: Properties
+    - name: CustomMetadata
+      href: Phoenix.PaczAPI.IRuntimeVariable.CustomMetadata.md
+    - name: DefaultValue
+      href: Phoenix.PaczAPI.IRuntimeVariable.DefaultValue.md
+    - name: Metadata
+      href: Phoenix.PaczAPI.IRuntimeVariable.Metadata.md
+    - name: Name
+      href: Phoenix.PaczAPI.IRuntimeVariable.Name.md
+  - name: IUpdatableSet<T>
+    href: Phoenix.PaczAPI.IUpdatableSet-1.md
+  - name: Enums
+  - name: RunFolderPreference
+    href: Phoenix.PaczAPI.RunFolderPreference.md
+- name: Phoenix.PlugIns
+  href: Phoenix.PlugIns.md
+  items:
+  - name: Classes
+  - name: PlugInDescriptionAttribute
+    href: Phoenix.PlugIns.PlugInDescriptionAttribute.md
+    items:
+    - name: Constructors
+    - name: PlugInDescriptionAttribute
+      href: Phoenix.PlugIns.PlugInDescriptionAttribute.-ctor.md
+    - name: Properties
+    - name: Description
+      href: Phoenix.PlugIns.PlugInDescriptionAttribute.Description.md
+  - name: PlugInDisplayNameAttribute
+    href: Phoenix.PlugIns.PlugInDisplayNameAttribute.md
+    items:
+    - name: Constructors
+    - name: PlugInDisplayNameAttribute
+      href: Phoenix.PlugIns.PlugInDisplayNameAttribute.-ctor.md
+    - name: Properties
+    - name: DisplayName
+      href: Phoenix.PlugIns.PlugInDisplayNameAttribute.DisplayName.md
+    - name: Locale
+      href: Phoenix.PlugIns.PlugInDisplayNameAttribute.Locale.md
+  - name: PlugInHelpUrlAttribute
+    href: Phoenix.PlugIns.PlugInHelpUrlAttribute.md
+    items:
+    - name: Constructors
+    - name: PlugInHelpUrlAttribute
+      href: Phoenix.PlugIns.PlugInHelpUrlAttribute.-ctor.md
+    - name: Properties
+    - name: HelpUrl
+      href: Phoenix.PlugIns.PlugInHelpUrlAttribute.HelpUrl.md
+  - name: PlugInIconAttribute
+    href: Phoenix.PlugIns.PlugInIconAttribute.md
+    items:
+    - name: Constructors
+    - name: PlugInIconAttribute
+      href: Phoenix.PlugIns.PlugInIconAttribute.-ctor.md
+    - name: Properties
+    - name: IconPath
+      href: Phoenix.PlugIns.PlugInIconAttribute.IconPath.md
+  - name: PlugInInfo
+    href: Phoenix.PlugIns.PlugInInfo.md
+    items:
+    - name: Constructors
+    - name: PlugInInfo
+      href: Phoenix.PlugIns.PlugInInfo.-ctor.md
+    - name: Fields
+    - name: METADATA_FILENAME
+      href: Phoenix.PlugIns.PlugInInfo.METADATA_FILENAME.md
+    - name: Properties
+    - name: Author
+      href: Phoenix.PlugIns.PlugInInfo.Author.md
+    - name: CurrentDisplayName
+      href: Phoenix.PlugIns.PlugInInfo.CurrentDisplayName.md
+    - name: Description
+      href: Phoenix.PlugIns.PlugInInfo.Description.md
+    - name: DisplayName
+      href: Phoenix.PlugIns.PlugInInfo.DisplayName.md
+    - name: HelpUrl
+      href: Phoenix.PlugIns.PlugInInfo.HelpUrl.md
+    - name: Icon
+      href: Phoenix.PlugIns.PlugInInfo.Icon.md
+    - name: Id
+      href: Phoenix.PlugIns.PlugInInfo.Id.md
+    - name: ImplClass
+      href: Phoenix.PlugIns.PlugInInfo.ImplClass.md
+    - name: ImplFile
+      href: Phoenix.PlugIns.PlugInInfo.ImplFile.md
+    - name: ImplFramework
+      href: Phoenix.PlugIns.PlugInInfo.ImplFramework.md
+    - name: Options
+      href: Phoenix.PlugIns.PlugInInfo.Options.md
+    - name: SupportedTypes
+      href: Phoenix.PlugIns.PlugInInfo.SupportedTypes.md
+    - name: Version
+      href: Phoenix.PlugIns.PlugInInfo.Version.md
+    - name: Methods
+    - name: GetMetadataForAssembly
+      href: Phoenix.PlugIns.PlugInInfo.GetMetadataForAssembly.md
+    - name: GetPlugInType
+      href: Phoenix.PlugIns.PlugInInfo.GetPlugInType.md
+    - name: Implements<T>
+      href: Phoenix.PlugIns.PlugInInfo.Implements.md
+    - name: Instantiate<T>
+      href: Phoenix.PlugIns.PlugInInfo.Instantiate.md
+    - name: ReadJson
+      href: Phoenix.PlugIns.PlugInInfo.ReadJson.md
+    - name: ReadJsonStreamAsync
+      href: Phoenix.PlugIns.PlugInInfo.ReadJsonStreamAsync.md
+    - name: WriteJson
+      href: Phoenix.PlugIns.PlugInInfo.WriteJson.md
+    - name: WriteMetadataForDLLs
+      href: Phoenix.PlugIns.PlugInInfo.WriteMetadataForDLLs.md
+  - name: PlugInInterfaceNameAttribute
+    href: Phoenix.PlugIns.PlugInInterfaceNameAttribute.md
+    items:
+    - name: Constructors
+    - name: PlugInInterfaceNameAttribute
+      href: Phoenix.PlugIns.PlugInInterfaceNameAttribute.-ctor.md
+    - name: Properties
+    - name: Id
+      href: Phoenix.PlugIns.PlugInInterfaceNameAttribute.Id.md
+    - name: Methods
+    - name: GetNameOrDefault
+      href: Phoenix.PlugIns.PlugInInterfaceNameAttribute.GetNameOrDefault.md
+  - name: PlugInManagerFactory
+    href: Phoenix.PlugIns.PlugInManagerFactory.md
+    items:
+    - name: Methods
+    - name: ConfigureServiceCollection
+      href: Phoenix.PlugIns.PlugInManagerFactory.ConfigureServiceCollection.md
+    - name: ConfigureWithDefaultRepositories
+      href: Phoenix.PlugIns.PlugInManagerFactory.ConfigureWithDefaultRepositories.md
+  - name: PlugInMetadataFromAttribute
+    href: Phoenix.PlugIns.PlugInMetadataFromAttribute.md
+    items:
+    - name: Constructors
+    - name: PlugInMetadataFromAttribute
+      href: Phoenix.PlugIns.PlugInMetadataFromAttribute.-ctor.md
+    - name: Properties
+    - name: ReadFrom
+      href: Phoenix.PlugIns.PlugInMetadataFromAttribute.ReadFrom.md
+  - name: PlugInOptionAttribute
+    href: Phoenix.PlugIns.PlugInOptionAttribute.md
+    items:
+    - name: Constructors
+    - name: PlugInOptionAttribute
+      href: Phoenix.PlugIns.PlugInOptionAttribute.-ctor.md
+    - name: Properties
+    - name: Option
+      href: Phoenix.PlugIns.PlugInOptionAttribute.Option.md
+    - name: Value
+      href: Phoenix.PlugIns.PlugInOptionAttribute.Value.md
+  - name: PlugInTypesAttribute
+    href: Phoenix.PlugIns.PlugInTypesAttribute.md
+    items:
+    - name: Constructors
+    - name: PlugInTypesAttribute
+      href: Phoenix.PlugIns.PlugInTypesAttribute.-ctor.md
+    - name: Properties
+    - name: SupportedTypes
+      href: Phoenix.PlugIns.PlugInTypesAttribute.SupportedTypes.md
+  - name: Interfaces
+  - name: IPlugInInstance
+    href: Phoenix.PlugIns.IPlugInInstance.md
+    items:
+    - name: Properties
+    - name: Icon
+      href: Phoenix.PlugIns.IPlugInInstance.Icon.md
+    - name: Metadata
+      href: Phoenix.PlugIns.IPlugInInstance.Metadata.md
+    - name: Methods
+    - name: GetLocalFolder
+      href: Phoenix.PlugIns.IPlugInInstance.GetLocalFolder.md
+    - name: GetPlugInTypeAsync
+      href: Phoenix.PlugIns.IPlugInInstance.GetPlugInTypeAsync.md
+    - name: InstantiateAsync<T>
+      href: Phoenix.PlugIns.IPlugInInstance.InstantiateAsync.md
+  - name: IPlugInManager
+    href: Phoenix.PlugIns.IPlugInManager.md
+    items:
+    - name: Properties
+    - name: Count
+      href: Phoenix.PlugIns.IPlugInManager.Count.md
+    - name: Methods
+    - name: GetPlugInFor<T>
+      href: Phoenix.PlugIns.IPlugInManager.GetPlugInFor.md
+    - name: GetViewFor<T>
+      href: Phoenix.PlugIns.IPlugInManager.GetViewFor.md
+    - name: InstantiateAsync<T>
+      href: Phoenix.PlugIns.IPlugInManager.InstantiateAsync.md
+    - name: ReReadAsync
+      href: Phoenix.PlugIns.IPlugInManager.ReReadAsync.md
+  - name: IPlugInRepository
+    href: Phoenix.PlugIns.IPlugInRepository.md
+    items:
+    - name: Methods
+    - name: GetChildrenAsync
+      href: Phoenix.PlugIns.IPlugInRepository.GetChildrenAsync.md
+    - name: GetPlugInsAsync
+      href: Phoenix.PlugIns.IPlugInRepository.GetPlugInsAsync.md
+  - name: Enums
+  - name: Framework
+    href: Phoenix.PlugIns.Framework.md
+- name: Phoenix.PlugIns.Repositories
+  href: Phoenix.PlugIns.Repositories.md
+  items:
+  - name: Classes
+  - name: CombiningRepository
+    href: Phoenix.PlugIns.Repositories.CombiningRepository.md
+    items:
+    - name: Constructors
+    - name: CombiningRepository
+      href: Phoenix.PlugIns.Repositories.CombiningRepository.-ctor.md
+    - name: Methods
+    - name: Dispose
+      href: Phoenix.PlugIns.Repositories.CombiningRepository.Dispose.md
+    - name: GetChildrenAsync
+      href: Phoenix.PlugIns.Repositories.CombiningRepository.GetChildrenAsync.md
+    - name: GetPlugInsAsync
+      href: Phoenix.PlugIns.Repositories.CombiningRepository.GetPlugInsAsync.md
+  - name: DirectoryRepository
+    href: Phoenix.PlugIns.Repositories.DirectoryRepository.md
+    items:
+    - name: Constructors
+    - name: DirectoryRepository
+      href: Phoenix.PlugIns.Repositories.DirectoryRepository.-ctor.md
+    - name: Methods
+    - name: Dispose
+      href: Phoenix.PlugIns.Repositories.DirectoryRepository.Dispose.md
+    - name: GetChildrenAsync
+      href: Phoenix.PlugIns.Repositories.DirectoryRepository.GetChildrenAsync.md
+    - name: GetPlugInsAsync
+      href: Phoenix.PlugIns.Repositories.DirectoryRepository.GetPlugInsAsync.md
