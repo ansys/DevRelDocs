@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-04-17).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-04-20).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -26,7 +26,7 @@ The following table shows which components have updates in each category.
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils | [3 items](#Features_femutils) |[14 items](#Fixes_femutils) |
+| femutils | [3 items](#Features_femutils) |[15 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
 | framework | [2 items](#Features_framework) |[7 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
@@ -40,7 +40,7 @@ The following table shows which components have updates in each category.
 | lsdyna | [2 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [21 items](#Features_mapdl) |[46 items](#Fixes_mapdl) |
+| mapdl | [21 items](#Features_mapdl) |[47 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [12 items](#Features_math) |[1 item](#Fixes_math) |
@@ -58,7 +58,7 @@ The following table shows which components have updates in each category.
 | refactor | [1 item](#Features_refactor) | |
 | rotation |  |[1 item](#Fixes_rotation) |
 | utilities |  |[1 item](#Fixes_utilities) |
-| vtk |  |[1 item](#Fixes_vtk) |
+| vtk |  |[2 items](#Fixes_vtk) |
 | workflows | [3 items](#Features_workflows) |[2 items](#Fixes_workflows) |
 
 
@@ -455,6 +455,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_femutils"></a> Fixes
+
+- Fix issue in force_summation with total forces and no damping:
+  > 
+  >
+  > 
 
 - Fixing memory overhead with ElementalNodal to Nodal results:
   > Improved memory management of the `elemental_nodal_To_nodal_fc` operator.
@@ -1218,6 +1223,13 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Add TARGE170 to loading mesh descriptors:
+  > Add TARGE170 elements to loading mesh, the mesh used by the Boundary Conditions operator.
+  >
+  > 
+  >
+  > 
 
 - Prevent from reading shell results without section.:
   > 
@@ -2446,6 +2458,13 @@ The following table shows which components have updates in each category.
 ## vtk
 
 ### <a id="Fixes_vtk"></a> Fixes
+
+- Fix beam3/beam4 mesh conversion support:
+  > DPF Mesh regions containing beam3/beam4 elements can be handled properly using the mesh_to_pyvista operator (even with 'as_linear' turned off).
+  >
+  > 
+  >
+  > 
 
 - Fix the face node ordering for reversed faces:
   > Fix face orientation during export to VTK for fluid meshes.
@@ -3895,6 +3914,8 @@ Upgraded documentation
 
   > 0.0.1: Fix node ordering for face connectivity of fluid cell faces marked as reversed.
 
+  > 0.0.2: Fix connectivity construction to handle higher order beam and line elements.
+
 
 - [meshes_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/meshes_provider.md)
 
@@ -4675,6 +4696,8 @@ Upgraded documentation
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
   > 0.0.2: Support merging the node to element connectivity.
+
+  > 0.0.3: Fix merging empty meshes.
 
 
 - [merge_scopings](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/merge_scopings.md)
