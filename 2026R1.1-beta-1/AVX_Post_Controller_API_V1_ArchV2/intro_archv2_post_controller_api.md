@@ -28,51 +28,50 @@ You can also specify what kind of documents you want to download:
 
 1. Run a simulation job with the Explore & Analyze web-app
 
-![local-sim-1](/sites/default/files/2026-04/local-sim-1.png)
+    ![local-sim-1](/sites/default/files/2026-04/local-sim-1.png)
 
 2. Once the job is completed, click the API icon on the results page
 
-![local-sim-2](/sites/default/files/2026-04/local-sim-2.png)
+    ![local-sim-2](/sites/default/files/2026-04/local-sim-2.png)
 
-API swagger page opens.
+    API swagger page opens.
 
 3. Go to the **files section** and to the **/v1/files/stream-intermediate-file/** API command
 
-![local-sim-3](/sites/default/files/2026-04/local-sim-3.png)
+    ![local-sim-3](/sites/default/files/2026-04/local-sim-3.png)
 
 
-4. This process explains how to retrieve all simulation job data and use them to start a simulation locally,
- Fill the fields depending on the usage, the details of each attribute are below:
+4. This process explains how to retrieve all simulation job data and use them to start a simulation locally. Fill the fields depending on the usage, the details of each attribute are below:
 
-4.1 **samples**: Choose whether you need 1 or multiple sample from the drop-down. 
+    4.1 **samples**: Choose whether you need 1 or multiple sample from the drop-down. 
 
-4.2 **filter_by_asset_declaration_list**: You must specifiy what kind of assets you want to download, for example, for the scenario only add: ["scenario"] or for the scenario and map, add: ["scenario", "map"]. Leave the field empty if you want to include all assets. 
+    4.2 **filter_by_asset_declaration_list**: You must specifiy what kind of assets you want to download, for example, for the scenario only add: ["scenario"] or for the scenario and map, add: ["scenario", "map"]. Leave the field empty if you want to include all assets. 
 
-4.3 **include_runme**: Set it to true if you want to include **runme.sh** script in the downloaded asset. The script is used to run the simulation on your local computer.
+    4.3 **include_runme**: Set it to true if you want to include **runme.sh** script in the downloaded asset. The script is used to run the simulation on your local computer.
 
-![local-sim-4](/sites/default/files/2026-04/local-sim-4.png)
+    ![local-sim-4](/sites/default/files/2026-04/local-sim-4.png)
 
-Once you have filled all the fields, click **Try it out** and **Execute**. 
+    Once you have filled all the fields, click **Try it out** and **Execute**. 
 
-![local-sim-5](/sites/default/files/2026-04/local-sim-5.png)
+    ![local-sim-5](/sites/default/files/2026-04/local-sim-5.png)
 
-![local-sim-5.1](/sites/default/files/2026-04/local-sim-5-1.png)
+    ![local-sim-5.1](/sites/default/files/2026-04/local-sim-5-1.png)
 
-**Prerequisists for the execution of a local simulation:**
-- You must have a linux based system that can run bash script
-- Docker must be installed
-- Docker image used for the simulation must be accessible (either locally or via registry)
+    **Prerequisists for the execution of a local simulation:**
+    - You must have a linux based system that can run bash script
+    - Docker must be installed
+    - Docker image used for the simulation must be accessible (either locally or via registry)
 
 5. To run the simulation locally:
 
-5.1 Unzip the archive.
+    5.1 Unzip the archive.
 
-5.2 Set any environment variables required by the solver (for example, Simulation Framework requires ANSYSLMD_LICENSE_FILE variable to be set).
+    5.2 Set any environment variables required by the solver (for example, Simulation Framework requires ANSYSLMD_LICENSE_FILE variable to be set).
 
-5.3 Run the runme script:  `./runme.sh`.
+    5.3 Run the runme script:  `./runme.sh`.
 
-![local-sim-6](/sites/default/files/2026-04/local-sim-6.png)
-(the steps are available on the REST API url)
+    ![local-sim-6](/sites/default/files/2026-04/local-sim-6.png)
+    (the steps are available on the REST API url)
 
 ## Python helper
 

@@ -1,7 +1,7 @@
 {
   "openapi": "3.1.0",
   "info": {
-    "title": "Post Controller",
+    "title": "AVxcelerate Post Controller",
     "summary": "Service to manage post processing jobs",
     "version": "0.1.0"
   },
