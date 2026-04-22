@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-04-09).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-04-21).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -10,6 +10,7 @@ The following table shows which components have updates in each category.
 |-----------|----------|----------|
 | 1297620 |  |[1 item](#Fixes_1297620) |
 | averaging |  |[1 item](#Fixes_averaging) |
+| build |  |[1 item](#Fixes_build) |
 | c# |  |[1 item](#Fixes_c#) |
 | cff | [2 items](#Features_cff) |[4 items](#Fixes_cff) |
 | cgns | [1 item](#Features_cgns) | |
@@ -25,20 +26,21 @@ The following table shows which components have updates in each category.
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils | [3 items](#Features_femutils) |[14 items](#Fixes_femutils) |
+| femutils | [3 items](#Features_femutils) |[15 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
-| framework | [2 items](#Features_framework) |[6 items](#Fixes_framework) |
+| framework | [2 items](#Features_framework) |[7 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
 | grpc | [1 item](#Features_grpc) |[3 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[4 items](#Fixes_h5dpf) |
 | hdf5 | [8 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
-| hgp | [5 items](#Features_hgp) |[3 items](#Fixes_hgp) |
+| hgp | [5 items](#Features_hgp) |[4 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
-| kernel | [3 items](#Features_kernel) |[10 items](#Fixes_kernel) |
+| kernel | [3 items](#Features_kernel) |[11 items](#Fixes_kernel) |
 | lsdyna | [2 items](#Features_lsdyna) | |
+| madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [20 items](#Features_mapdl) |[45 items](#Fixes_mapdl) |
+| mapdl | [21 items](#Features_mapdl) |[48 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [12 items](#Features_math) |[1 item](#Fixes_math) |
@@ -48,7 +50,7 @@ The following table shows which components have updates in each category.
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[5 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [7 items](#Features_native) |[21 items](#Fixes_native) |
+| native | [7 items](#Features_native) |[22 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [4 items](#Features_prime) |[1 item](#Fixes_prime) |
@@ -56,8 +58,8 @@ The following table shows which components have updates in each category.
 | refactor | [1 item](#Features_refactor) | |
 | rotation |  |[1 item](#Fixes_rotation) |
 | utilities |  |[1 item](#Fixes_utilities) |
-| vtk |  |[1 item](#Fixes_vtk) |
-| workflows | [2 items](#Features_workflows) |[2 items](#Fixes_workflows) |
+| vtk |  |[2 items](#Fixes_vtk) |
+| workflows | [3 items](#Features_workflows) |[2 items](#Fixes_workflows) |
 
 
 ## 1297620
@@ -79,6 +81,14 @@ The following table shows which components have updates in each category.
   >
   > The `elemental_nodal_to_nodal` averaging operators required to have all corner nodes corresponding to a midside node contained in the input nodal scoping if the result wanted to be obtained at that given midside node. This requirement is no longer present.
   >
+  > 
+  >
+  > 
+## build
+
+### <a id="Fixes_build"></a> Fixes
+
+- Fixed build with Ninja, stricter compile flags:
   > 
   >
   > 
@@ -446,6 +456,11 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_femutils"></a> Fixes
 
+- Fix issue in force_summation with total forces and no damping:
+  > 
+  >
+  > 
+
 - Fixing memory overhead with ElementalNodal to Nodal results:
   > Improved memory management of the `elemental_nodal_To_nodal_fc` operator.
   >
@@ -575,6 +590,13 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_framework"></a> Fixes
+
+- Fix Heat Generation unit:
+  > Resolve incorrect Heat Generation unit, should be Power/Volume, not Power.
+  >
+  > 
+  >
+  > 
 
 - Add ellipsis property to forward operator pins:
   > 
@@ -844,6 +866,11 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_hgp"></a> Fixes
 
+- Add guard variable to prevent dpf_api_i.cpp double include:
+  > 
+  >
+  > 
+
 - Add natvis support for some CustomTypeField variants:
   > 
   >
@@ -899,6 +926,9 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_kernel"></a> Fixes
+
+- Improve performance of GenPassOperators cache:
+  > 
 
 - Use absolute paths in the linux server launcher script:
   > 
@@ -976,6 +1006,14 @@ The following table shows which components have updates in each category.
 - Add mesh scoping input for nodout operators (#257):
   > 
 
+## madl
+
+### <a id="Fixes_madl"></a> Fixes
+
+- Return empty container when GCD property is not found:
+  > 
+  >
+  > 
 ## mapd
 ### <a id="Features_mapd"></a> Features
 
@@ -990,6 +1028,15 @@ The following table shows which components have updates in each category.
 
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
+
+- Enable cyclic expansion for composite datasources.:
+  > Enable cyclic expansion for composite datasources.
+  >
+  > Enable cyclic expansion for plastic, thermal, accumulated equivalent plastic strain and elemental orientations. Accumulated equivalent plastic strain and Element Orientations will only account for harmonic 0 for expansion.
+  >
+  > 
+  >
+  > 
 
 - Officially not supporting files older than 14.5:
   > MAPDL Operators officially not supporting files older than version 14.5.
@@ -1176,6 +1223,23 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Fix order mode coefficients.:
+  > 
+  >
+  > 
+
+- Add TARGE170 to loading mesh descriptors:
+  > Add TARGE170 elements to loading mesh, the mesh used by the Boundary Conditions operator.
+  >
+  > 
+  >
+  > 
+
+- Prevent from reading shell results without section.:
+  > 
+  >
+  > 
 
 - Use loading mesh descriptors:
   > 
@@ -2125,6 +2189,15 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_native"></a> Fixes
 
+- Fix the merge::meshes operator while trying to merge empty meshes:
+  > 
+  >
+  > The `merge::meshes` operator had a issue while trying to merge empty meshes that has been fixed.
+  >
+  > 
+  >
+  > 
+
 - Support the reverse_connectivity in the merge_meshes operator:
   > 
   >
@@ -2391,6 +2464,13 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_vtk"></a> Fixes
 
+- Fix beam3/beam4 mesh conversion support:
+  > DPF Mesh regions containing beam3/beam4 elements can be handled properly using the mesh_to_pyvista operator (even with 'as_linear' turned off).
+  >
+  > 
+  >
+  > 
+
 - Fix the face node ordering for reversed faces:
   > Fix face orientation during export to VTK for fluid meshes.
   >
@@ -2399,6 +2479,15 @@ The following table shows which components have updates in each category.
   > 
 ## workflows
 ### <a id="Features_workflows"></a> Features
+
+- Add customisation inputs to the solver_to_h5dpf workflow:
+  > 
+  >
+  > The `solver_to_h5dpf` workflow now has multiple customization inputs for compression, filtering, result selection, ...
+  >
+  > 
+  >
+  > 
 
 - Adaptation of dequantization to the new threshold in quantization operator:
   > Fix in the quantization workflow due to changes in _quantization_ and _quantization_fc_ operators.
@@ -2608,7 +2697,7 @@ The following table shows which components have updates in each category.
 
 - [prepare_mechanical_native_mapping_point_cloud](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/prepare_mechanical_native_mapping_point_cloud.md):
   > 
-  > Prepares field data mapping from source mesh to target mesh using **point cloud interpolation** — a scattered-data
+  > Prepares field data mapping from source mesh to target mesh using **point cloud interpolation** ï¿½ a scattered-data
   > approximation method that constructs interpolation weights from spatial proximity relationships without requiring mesh
   > connectivity. Use it together with `apply_mechanical_native_mapping`.
   > 
@@ -3085,6 +3174,22 @@ The following table shows which components have updates in each category.
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
+  > 0.0.2: Fix data corruption on centroid elements with through_layers enabled.
+
+  > 0.0.3: Fix crash on elements with fewer than two corner nodes.
+
+  > 0.0.4: Fix shell layer metadata when computing elemental difference from nodal input.
+
+
+- [elemental_difference_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_difference_fc.md)
+
+  > 0.0.1: Fix exception type preservation during parallel execution.
+
+
+- [elemental_fraction_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_fraction_fc.md)
+
+  > 0.0.1: Fix exception type preservation during parallel execution.
+
 
 - [elemental_mean](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_mean.md)
 
@@ -3112,6 +3217,11 @@ The following table shows which components have updates in each category.
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
+- [elemental_nodal_to_nodal_elemental_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_nodal_to_nodal_elemental_fc.md)
+
+  > 0.0.1: Fix exception type preservation during parallel execution.
+
+
 - [elemental_nodal_to_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_nodal_to_nodal_fc.md)
 
   > 0.0.1: Fixed issue with semiparabolic elements.
@@ -3122,15 +3232,24 @@ The following table shows which components have updates in each category.
 
   > 0.0.4: Internal refactoring to use Scoping Iterators.
 
+  > 0.0.5: Fix exception type preservation during parallel execution.
+
 
 - [elemental_to_elemental_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_to_elemental_nodal.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
+- [elemental_to_elemental_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_to_elemental_nodal_fc.md)
+
+  > 0.0.1: Fix exception type preservation during parallel execution.
+
+
 - [elemental_to_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_to_nodal.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+  > 0.0.2: Fix division by zero in face-based FVM averaging.
 
 
 - [elemental_to_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_to_nodal_fc.md)
@@ -3138,6 +3257,13 @@ The following table shows which components have updates in each category.
   > 0.0.1: Fixed shell management issue.
 
   > 0.0.2: Internal refactoring to use Scoping Iterators.
+
+  > 0.0.3: Fix exception type preservation during parallel execution.
+
+
+- [extend_to_mid_nodes_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/extend_to_mid_nodes_fc.md)
+
+  > 0.0.1: Fix exception type preservation during parallel execution.
 
 
 - [force_summation](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/force_summation.md)
@@ -3172,14 +3298,26 @@ The following table shows which components have updates in each category.
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
+- [nodal_difference_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/nodal_difference_fc.md)
+
+  > 0.0.1: Fix exception type preservation during parallel execution.
+
+
 - [nodal_fraction_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/nodal_fraction_fc.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+  > 0.0.2: Fix exception type preservation during parallel execution.
 
 
 - [nodal_to_elemental](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/nodal_to_elemental.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [nodal_to_elemental_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/nodal_to_elemental_fc.md)
+
+  > 0.0.1: Fix exception type preservation during parallel execution.
 
 
 - [nodal_to_elemental_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/nodal_to_elemental_nodal.md)
@@ -3198,6 +3336,8 @@ The following table shows which components have updates in each category.
   > 0.1.0: Add option to extend to midside nodes.
 
   > 0.1.1: Internal refactoring to use Scoping Iterators.
+
+  > 0.1.2: Fix exception type preservation during parallel execution.
 
 
 - [to_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/to_nodal.md)
@@ -3321,6 +3461,16 @@ The following table shows which components have updates in each category.
 
 #### geo
 
+- [cartesian_to_spherical](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/cartesian_to_spherical.md)
+
+  > 0.0.1: Fix exception type preservation during parallel execution.
+
+
+- [cartesian_to_spherical_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/cartesian_to_spherical_fc.md)
+
+  > 0.0.1: Fix exception type preservation during parallel execution.
+
+
 - [element_nodal_contribution](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/element_nodal_contribution.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
@@ -3335,10 +3485,17 @@ The following table shows which components have updates in each category.
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
+  > 0.0.2: Fix exception type preservation during parallel execution.
+
 
 - [elements_volumes_over_time](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/elements_volumes_over_time.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [faces_area](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/faces_area.md)
+
+  > 0.0.1: Fix exception type preservation during parallel execution.
 
 
 - [gauss_to_node](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/gauss_to_node.md)
@@ -3365,15 +3522,47 @@ The following table shows which components have updates in each category.
   > 1.0.1: Internal refactoring to use Scoping Iterators.
 
 
+- [rotate_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/rotate_fc.md)
+
+  > 0.0.1: Fix exception type preservation during parallel execution.
+
+
 - [rotate_in_cylindrical_cs](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/rotate_in_cylindrical_cs.md)
 
   > 1.0.0: Fix bug for the rotation of strain fields with a cylindrical system whose axis is rotated.
 
   > 1.0.1: Internal refactoring to use Scoping Iterators.
 
+  > 1.0.2: Fix exception type preservation during parallel execution.
+
+
+- [rotate_in_cylindrical_cs_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/rotate_in_cylindrical_cs_fc.md)
+
+  > 0.0.1: Fix exception type preservation during parallel execution.
+
+
+- [spherical_to_cartesian](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/spherical_to_cartesian.md)
+
+  > 0.0.1: Fix exception type preservation during parallel execution.
+
+
+- [spherical_to_cartesian_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/spherical_to_cartesian_fc.md)
+
+  > 0.0.1: Fix exception type preservation during parallel execution.
+
+
+- [to_polar_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/to_polar_coordinates.md)
+
+  > 0.0.1: Fix exception type preservation during parallel execution.
+
 
 
 #### invariant
+
+- [eigen_values_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/invariant/eigen_values_fc.md)
+
+  > 0.0.1: Fix exception type preservation during parallel execution.
+
 
 - [invariants](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/invariant/invariants.md)
 
@@ -3383,6 +3572,18 @@ The following table shows which components have updates in each category.
 - [invariants_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/invariant/invariants_fc.md)
 
   > 0.1.0: Add input and output pins to control the principal stress output.
+
+  > 0.1.1: Fix exception type preservation during parallel execution.
+
+
+- [segalman_von_mises_eqv_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/invariant/segalman_von_mises_eqv_fc.md)
+
+  > 0.0.1: Fix exception type preservation during parallel execution.
+
+
+- [von_mises_eqv](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/invariant/von_mises_eqv.md)
+
+  > 0.0.1: Fix exception type preservation during parallel execution.
 
 
 
@@ -3486,6 +3687,16 @@ The following table shows which components have updates in each category.
 
   > 0.2.4: Internal refactoring to use Scoping Iterators.
 
+  > 0.2.5: Fix null pointer access when input field has no mesh support.
+
+  > 0.2.6: Fix bounds checking on reusable index maps for skin element mapping.
+
+  > 0.2.7: Fix stack buffer overflow for skin data with many nodes or components.
+
+  > 0.2.8: Fix data copy offset for skin elements with mid-side nodes.
+
+  > 0.2.9: Fix condition check on skin element properties lookup.
+
 
 - [solid_to_skin_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/solid_to_skin_fc.md)
 
@@ -3502,6 +3713,10 @@ The following table shows which components have updates in each category.
   > 0.2.3: Fixed issue with fields container with mixed location.
 
   > 0.2.4: Improve pin 0, pin 1, pin 2, and output pin 0 descriptions to match the solid_to_skin operator.
+
+  > 0.2.5: Fix exception type preservation during parallel execution.
+
+  > 0.2.6: Fix null pointer access when input field has no mesh support.
 
 
 
@@ -3547,6 +3762,11 @@ Upgraded documentation
   > 0.0.1: Fix handling of empty fields in mode shapes.
 
 
+- [fft_approx](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/fft_approx.md)
+
+  > 0.0.1: Fix exception type preservation during parallel execution.
+
+
 - [mac](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/mac.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
@@ -3560,6 +3780,11 @@ Upgraded documentation
 - [modal_participation](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/modal_participation.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [norm_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/norm_fc.md)
+
+  > 0.0.1: Fix exception type preservation during parallel execution.
 
 
 - [outer_product](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/outer_product.md)
@@ -3592,6 +3817,11 @@ Upgraded documentation
   > 0.0.1: Add support of fields with shell layers
 
 
+- [scale_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/scale_fc.md)
+
+  > 0.0.1: Fix exception type preservation during parallel execution.
+
+
 - [sweeping_phase](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/sweeping_phase.md)
 
   > 0.0.1: Clarify the documentation.
@@ -3609,6 +3839,11 @@ Upgraded documentation
 
 
 #### mesh
+
+- [change_cs](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/change_cs.md)
+
+  > 0.0.1: Fix exception type preservation during parallel execution.
+
 
 - [combine_levelset](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/combine_levelset.md)
 
@@ -3683,6 +3918,8 @@ Upgraded documentation
 - [mesh_to_pyvista](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/mesh_to_pyvista.md)
 
   > 0.0.1: Fix node ordering for face connectivity of fluid cell faces marked as reversed.
+
+  > 0.0.2: Fix connectivity construction to handle higher order beam and line elements.
 
 
 - [meshes_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/meshes_provider.md)
@@ -4310,6 +4547,11 @@ Upgraded documentation
 
 #### scoping
 
+- [adapt_with_scopings_container](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/adapt_with_scopings_container.md)
+
+  > 0.0.1: Fix exception type preservation during parallel execution.
+
+
 - [intersect](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/intersect.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
@@ -4459,6 +4701,8 @@ Upgraded documentation
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
   > 0.0.2: Support merging the node to element connectivity.
+
+  > 0.0.3: Fix merging empty meshes.
 
 
 - [merge_scopings](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/merge_scopings.md)

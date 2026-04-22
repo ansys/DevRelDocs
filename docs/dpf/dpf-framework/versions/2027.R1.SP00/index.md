@@ -35,6 +35,7 @@ This allows DPF to be a modular and easy-to-use tool with a large range of capab
 
 ![dpf-flow](./images/dpf-flow.png)
 
+
 ### Advantages
 
 **Computational efficiency**
@@ -54,6 +55,7 @@ DPF is developed around two core entities:
 - An **operator** to act upon this data
 
 Each DPF capability is developed through operators that allow for componentization of the framework. Because DPF is plugin-based, new features or formats can be easily added.
+
 
 ## Install DPF
 
