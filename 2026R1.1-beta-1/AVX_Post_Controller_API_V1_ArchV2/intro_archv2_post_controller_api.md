@@ -28,17 +28,17 @@ You can also specify what kind of documents you want to download:
 
 1. Run a simulation job with the Explore & Analyze web-app
 
-![Alt text](local-sim-1.png)
+![local-sim-1](/sites/default/files/2026-04/local-sim-1.png)
 
 2. Once the job is completed, click the API icon on the results page
 
-![Alt text](local-sim-2.png)
+![local-sim-2](/sites/default/files/2026-04/local-sim-2.png)
 
 API swagger page opens.
 
 3. Go to the **files section** and to the **/v1/files/stream-intermediate-file/** API command
 
-![Alt text](local-sim-3.png)
+![local-sim-3](/sites/default/files/2026-04/local-sim-3.png)
 
 
 4. This process explains how to retrieve all simulation job data and use them to start a simulation locally,
@@ -50,13 +50,13 @@ API swagger page opens.
 
 4.3 **include_runme**: Set it to true if you want to include **runme.sh** script in the downloaded asset. The script is used to run the simulation on your local computer.
 
-![Alt text](local-sim-4.png)
+![local-sim-4](/sites/default/files/2026-04/local-sim-4.png)
 
 Once you have filled all the fields, click **Try it out** and **Execute**. 
 
-![Alt text](local-sim-5.png)
+![local-sim-5](/sites/default/files/2026-04/local-sim-5.png)
 
-![Alt text](local-sim-5-1.png)
+![local-sim-5.1](/sites/default/files/2026-04/local-sim-5-1.png)
 
 **Prerequisists for the execution of a local simulation:**
 - You must have a linux based system that can run bash script
@@ -71,7 +71,7 @@ Once you have filled all the fields, click **Try it out** and **Execute**.
 
 5.3 Run the runme script:  `./runme.sh`.
 
-![Alt text](local-sim-6.png)
+![local-sim-6](/sites/default/files/2026-04/local-sim-6.png)
 (the steps are available on the REST API url)
 
 ## Python helper
