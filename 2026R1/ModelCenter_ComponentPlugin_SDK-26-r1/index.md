@@ -1,4 +1,4 @@
-# Component Plugin Software Developer's Guide (SDK)
+# Introduction
 
 Welcome to the parametric analysis component zipped (PACZ) component plug-in 2026R1 SDK documentation. This guide is intended to help plug-in developers extend the capabilities of Ansys products by adding connections to external data and analysis tools such as Excel, databases, CAD systems, and other engineering applications.
 
@@ -32,9 +32,9 @@ This SDK is designed for:
 
 Before you begin developing component plug-ins, you should have:
 
-- **Development Environment**: Visual Studio 2019 or later (VS 2022 recommended), or a Java development environment
-- **Programming Knowledge**: Familiarity with .NET Framework 4.6.2 or Java
-- **SDK Access**: Access to the SDK ZIP file which contains the `Phoenix.ComponentPlugInSDK` NuGet package and optionally the Visual Studio template extension
+- **Development environment**: Visual Studio 2019 or later (VS 2022 recommended), or a Java development environment
+- **Programming knowledge**: Familiarity with .NET Framework 4.6.2 or Java
+- **SDK access**: Access to the SDK ZIP file which contains the `Phoenix.ComponentPlugInSDK` NuGet package and optionally the Visual Studio template extension
 
 ### Obtaining SDK access
 
@@ -55,7 +55,7 @@ This documentation covers:
 
 ## Next steps
 
-Ready to get started? Head over to the [Getting Started](started.md) guide to set up your development environment and create your first plug-in.
+Ready to get started? Head over to the [Getting started](started.md) guide to set up your development environment and create your first plug-in.
 
 If you're new to PACZ component plug-ins, review the [Glossary](glossary.md) to familiarize yourself with key terminology.
 
