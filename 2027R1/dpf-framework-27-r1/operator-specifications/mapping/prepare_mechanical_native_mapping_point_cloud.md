@@ -11,7 +11,7 @@ license: any_dpf_supported_increments
 ## Description
 
 
-Prepares field data mapping from source mesh to target mesh using **point cloud interpolation** — a scattered-data
+Prepares field data mapping from source mesh to target mesh using **point cloud interpolation** - a scattered-data
 approximation method that constructs interpolation weights from spatial proximity relationships without requiring mesh
 connectivity. Use it together with `apply_mechanical_native_mapping`.
 
