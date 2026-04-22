@@ -188,7 +188,7 @@ An optional `mapping_options` subtree may supply:
 - `polynomial_type` (string): drift polynomial order (`"adaptive"`, `"pure_quadratic"`, `"linear"`, `"constant"`, `"none"`)
 - `outside_distance_checking` (bool): mark target points outside the source bounding box as unmapped
 - `bouding_box_tolerance` (double): expansion tolerance for the source bounding box check
-- `adaptive_tolerance_percent` (double): extrapolation tolerance (%) — accepted range is source range extended by this fraction; default 10.0
+- `adaptive_tolerance_percent` (double): extrapolation tolerance (%) - accepted range is source range extended by this fraction; default 10.0
 - `geometry_type` (string): `"volume"` (default) or `"surface"`
 
 Refer to `prepare_mechanical_native_mapping_kriging` for option defaults and details.
