@@ -1,0 +1,1 @@
+Simple file to test changelog.md presence
