@@ -1,8 +1,8 @@
-# Create Algorithm Tests
+# Create algorithm tests
 
 A suite of unit tests for the algorithm are included with the Developer Tools. Implementing and running the tests help ensure that the algorithm will work properly within the Optimization Tool.
 
-## Added NUnit Tests
+## Add NUnit tests
 
 The algorithm tests require NUnit to run. NUnit can be downloaded for free from [nunit.org](http://www.nunit.org/download). 
 
@@ -16,9 +16,7 @@ The algorithm tests require NUnit to run. NUnit can be downloaded for free from 
    - [`createAlgorithm()`](../api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/AlgorithmTestFixture.md#createAlgorithm) - Method to instantiate the algorithm to be tested.
    - [`AlgorithmInstallationPath`](../api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/AlgorithmTestFixture.md#property.AlgorithmInstallationPath) - Method used by the test to locate the algorithm to be tested.
 
-### See Also
+### See also
 
 - [AlgorithmTestFixture](../api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/AlgorithmTestFixture.md)
-
-
 

@@ -1,8 +1,8 @@
-# How to create a Java Algorithm
+# Create a Java algorithm project
 
 The following instructions are for creating a Java algorithm using the NetBeans IDE. NetBeans can be downloaded for free from [netbeans.org](http://netbeans.org/downloads/).
 
-## Creating a new Algorithm project using NetBeans
+## Create a new algorithm project using NetBeans
 
 1. Create a new project for the Java algorithm by selecting **File > New Project** from the **NetBeans** menu.
 
@@ -70,7 +70,7 @@ The following instructions are for creating a Java algorithm using the NetBeans 
 
 The base class for the Java algorithm has now been implemented. The rest of the guide is based on .NET, but the major differences for Java are that properties use **get *[property name]()*** and methods start with lowercase letters. Java algorithms install to the same location as the .NET algorithms, and the build file can be modified to move the algorithm to the correct location using the ant copy task.
 
-### Add Manifest File for Algorithm
+### Add manifest file for algorithm
 
 A manifest file must be added to tell the Optimization Tool which JAR files should be searched for implementations of [`IAlgorithm`](../api/Namespaces/NamespaceList/Phoenix/Optimization/IAlgorithm.md). To add the manifest:
 
@@ -82,7 +82,7 @@ A manifest file must be added to tell the Optimization Tool which JAR files shou
 
 4. The file should be created in the project's base directory. Open the manifest file and enter the name of the JAR file output by the algorithm project. A single manifest file can specify multiple files that contain [`IAlgorithm`](../api/Namespaces/NamespaceList/Phoenix/Optimization/IAlgorithm.md) implementations, but only one file name should be specified per line.
 
-### Adding Algorithm Copy to the Java Algorithm Build Process
+### Add algorithm copy to the Java algorithm build process
 
 The algorithm can be moved to a location where the Optimization Tool can locate it automatically by adding the following code to the algorithm's *build.xml*.
 

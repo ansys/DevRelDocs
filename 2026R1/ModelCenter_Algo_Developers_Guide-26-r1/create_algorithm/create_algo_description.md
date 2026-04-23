@@ -1,4 +1,4 @@
-# Implement Description Properties
+# Implement description properties
 
 The description properties are read-only properties that provide information about the algorithm to the infrastructure.
 
@@ -23,10 +23,6 @@ The description properties are read-only properties that provide information abo
 - [`Version`](../api/Namespaces/NamespaceList/Phoenix/Optimization/IAlgorithm.md#version) - This is the version information provided to Optimization Tool infrastructure.
 
 It is recommended that `Description`, `HelpFilePath`, `HelpURL`, and `Keywords` be specified using the `UIStrings` resource so that they can be translated. The license feature should not be translatable.
-
-
-
-
 
 
 

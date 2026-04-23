@@ -1,4 +1,4 @@
-# Install the Algorithm
+# Install the algorithm
 
 Once the algorithm has been successfully compiled, the algorithm files must be moved where the Optimization Tool can find them.
 
