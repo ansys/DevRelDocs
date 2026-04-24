@@ -38,7 +38,7 @@ Encourage Vale, Markdownlint, OpenAPI validation, link checks, and local Docfx w
 
 ### Table of contents (`toc.yml`)
 
-**REST API-only** packages (§0) **do not** require **`toc.yml`** or **`index.md`**; do not flag their absence for those classifications. Apply the checks below only when the package **includes** a **`toc.yml`** (typical for **API** and **Library/SDK** Markdown layouts, and for **hybrid** packages that ship a library TOC).
+**REST API-only** packages (§0) **do not** require **`toc.yml`** or a root-level **`index.md`**. For REST API-only layout expectations, require **`description/index.md`** and **`changelog/changelog.md`** instead (with **`docfx.json`** and the OpenAPI/Swagger spec at package root). Apply the checks below only when the package **includes** a **`toc.yml`** (typical for **API** and **Library/SDK** Markdown layouts, and for **hybrid** packages that ship a library TOC).
 
 When the package uses **`toc.yml`**, verify the following (see also **§5.2**):
 
@@ -94,7 +94,7 @@ Determine the **documentation package classification(s)** before applying the re
 - Check **`docfx.json`** (and build config) for references to that file.
 - **`doc_type: rest_api`** in `docfx.json` strongly implies **REST API**; if set **without** a spec, flag the mismatch.
 
-**Checklist focus:** §2.1 REST metadata split (`docfx.json` + **`info`** in spec), **full §3** including **§3.4** and **§3.1 REST API file layout** (no `index.md` / `toc.yml` requirement), **§5.4** OpenAPI validation.
+**Checklist focus:** §2.1 REST metadata split (`docfx.json` + **`info`** in spec), **full §3** including **§3.4** and **§3.1 REST API file layout** (no root `index.md` / `toc.yml` requirement; require `description/index.md` and `changelog/changelog.md`), **§5.4** OpenAPI validation.
 
 ### 0.2 API
 
@@ -112,13 +112,13 @@ Determine the **documentation package classification(s)** before applying the re
 
 **Definition:** Developers consume a **programming-language API**: **classes**, **structs**, **functions**, namespaces, modules, **build/install**, **samples**. Reference may be generated (e.g. Doxygen, API doc) or written by hand.
 
-**How to detect:** `getting-started/`, `api-reference/`, language-specific examples; **`doc_type: doxygen`**; generated XML/Markdown API; primary value is “how to call code,” not “how to call HTTP endpoints” (unless hybrid).
+**How to detect:** `getting-started/`, `api-reference/`, language-specific examples; generated XML/Markdown API converted for migration; primary value is “how to call code,” not “how to call HTTP endpoints” (unless hybrid).
 
-**Checklist focus:** **§4** (structure, getting started, user guide, examples, reference for types/members). **§2.1** Markdown or **Doxygen** metadata as applicable (**§5.3**). **§3** only if the same package documents a **separate** wire API (hybrid).
+**Checklist focus:** **§4** (structure, getting started, user guide, examples, reference for types/members). **§2.1** Markdown metadata (including content converted from Doxygen) and **§5.3** conversion checks where applicable. **§3** only if the same package documents a **separate** wire API (hybrid).
 
 ### 0.4 Additional signals and hybrids
 
-- **Doxygen:** §2.1 Doxygen + §5.3; API reference often generated; may be **Library/SDK** even if the product also speaks HTTP elsewhere.
+- **Doxygen:** content is converted to Markdown and reviewed as a Markdown package; use §5.3 conversion checks where applicable.
 - **gRPC:** If review is **proto source** → **§3.5**. If only Markdown narrative → **API** + §3.6-style completeness for messages.
 - **Hybrid:** **REST API** **+** client library → **REST API** **+** **Library/SDK** (both §3.4 and §4 where relevant). **API** (prose) **+** small utility library → **API** + applicable §4 sections.
 
@@ -128,13 +128,13 @@ Determine the **documentation package classification(s)** before applying the re
 |----------------|-------------|-----|-----|----------------|
 | **REST API** | REST split (`docfx.json` + spec `info`) | Full, incl. **§3.4** | Only if **Library/SDK** also documented | **Yes** |
 | **API** | Markdown (§2.1) | §3.1–§3.3, §3.2 as fits; **§3.5** or **§3.6** as fits; **not §3.4** | Only if **Library/SDK** also documented | **No** |
-| **Library/SDK** | Markdown or Doxygen | Only if a wire API is also documented (narrative subsets) | **Full §4** | Only if OpenAPI bundled |
+| **Library/SDK** | Markdown (including Doxygen-converted content) | Only if a wire API is also documented (narrative subsets) | **Full §4** | Only if OpenAPI bundled |
 
 When in doubt, state **ambiguous** classification in **`documentation-compliance-report.md`** and list evidence.
 
 ### 0.6 Rules for the agent
 
-1. In **`documentation-compliance-report.md`**, record **only the documentation type(s) that apply** (**REST API**, **API**, **Library/SDK**), with **evidence** (OpenAPI path, API topic paths, primary language, `doc_type`). **Do not** add sections, table rows, or “N/A” blocks for types that do not apply.
+1. In **`documentation-compliance-report.md`**, record **only the documentation type(s) that apply** (**REST API**, **API**, **Library/SDK**), with **evidence** (OpenAPI path, API topic paths, primary language, and relevant metadata fields). **Do not** add sections, table rows, or “N/A” blocks for types that do not apply.
 2. **Never** require **§3.4** for **API** or **Library/SDK** unless **REST API** also applies (OpenAPI present and in scope).
 3. **Always** require **§3.4** and the **§2.1 REST/OpenAPI metadata split** when **REST API** applies.
 4. For **API**, treat **message and protocol completeness** in documentation as the core review—comparable thoroughness to OpenAPI, without requiring OpenAPI files.
@@ -225,19 +225,19 @@ Assign **exactly one severity** per issue and per action item. Do not mix severi
 
 ## 2. Metadata Configuration
 
-**Classification:** Use **§0** to decide which block below applies. Apply the **REST API** metadata split in §2.1 only when an OpenAPI/Swagger spec file is part of the package; otherwise use the **Markdown** (**API** or **Library/SDK**) or **Doxygen** blocks as appropriate.
+**Classification:** Use **§0** to decide which block below applies. Apply the **REST API** metadata split in §2.1 only when an OpenAPI/Swagger spec file is part of the package; otherwise use the **Markdown** metadata block (including content converted from Doxygen).
 
 ### 2.1 Required Metadata
 
 **For Markdown documentation packages** (`docfx.json`, `build.globalMetadata`):
-- [ ] **Title**: Clear documentation title with version number (e.g., "DPF C++ client library 2026 R1")
+- [ ] **Title**: Clear package title with version number (e.g., "DPF C++ client library 2026 R1")
+- [ ] **Title wording**: Avoid redundant words such as "documentation" or "guide" because the Dev portal context already provides this information
 - [ ] **Version**: Package version string (e.g., "2026 R1")
 - [ ] **Summary**: Brief description of this **documentation package** (not the commercial product description)
 - [ ] **Physics**: Product collection term from [physics.yml](https://github.com/ansys/DevRelDocs/tree/main/Markdown/taxonomies)
 
-**For Doxygen documentation packages** (`docfx.json`, `build.globalMetadata`):
-- [ ] **Title**, **version**, **summary**, and **physics** as for Markdown packages
-- [ ] **doc_type**: Must be `doxygen`
+**For Library/SDK content converted from Doxygen**:
+- [ ] Apply the same Markdown metadata requirements above
 
 **For HTTP / REST API packages**, metadata is **split** between **`docfx.json`** and the **REST API specification file** (JSON or YAML), per [metadata configuration](https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/migrate-dev-portal/migrate-package/metadata.md):
 
@@ -260,11 +260,12 @@ Assign **exactly one severity** per issue and per action item. Do not mix severi
 **Review Actions:**
 - Use **§0** to choose metadata rules before executing the bullets below.
 - Verify metadata completeness in the correct files (`docfx.json` vs OpenAPI/YAML spec **only for REST API**)
-- **For Markdown and Doxygen packages:** Confirm required `globalMetadata` fields in §2.1, including **`summary`** and (for Doxygen) **`doc_type`: `doxygen`**
+- **For Markdown packages (including Doxygen-converted content):** Confirm required `globalMetadata` fields in §2.1, including **`summary`**
 - **For REST API packages only:** Confirm `docfx.json` includes `doc_type`, `product`, `summary`, and `physics` in `build.globalMetadata`, and that `info.title`, `info.version`, and `info.description` are populated in the spec with no contradictory version or naming between files
 - Check version numbering consistency across files
 - Validate taxonomy terms (`physics`, `product`, `programming language`, and any optional fields in use) against the official YAML lists
 - Ensure title formatting is consistent with conventions
+- Ensure titles avoid redundant words such as "documentation" and "guide"
 
 ---
 
@@ -279,15 +280,17 @@ Assign **exactly one severity** per issue and per action item. Do not mix severi
 #### 3.1.1 REST API packages
 
 **Required deliverables:**
-- [ ] **`changelog.md`** at the **package root** (release history for this API)
-- [ ] **At least one Markdown file** (any title or path under the package) that describes the REST API in prose—introduction, how to call the API, examples, and related guidance. The filename is **not** required to be `index.md`; subfolders (for example `description/`) are allowed if that is how the repo organizes content.
-- [ ] **OpenAPI or Swagger** spec file(s) that are the authoritative HTTP reference (see **§3.4**)
+- [ ] **`docfx.json`** at the package root
+- [ ] **OpenAPI or Swagger** spec file(s) at the package root that are the authoritative HTTP reference (see **§3.4**)
+- [ ] **`description/index.md`** for REST API descriptive content (introduction, how to call the API, examples, and related guidance)
+- [ ] **`changelog/changelog.md`** for release history
 
-**Not required** for **REST API-only** packages: **`index.md`**, **`toc.yml`**, and a subdirectory **`index.md`** per folder. Do not treat their absence as a defect unless **§0** also classifies the package as **API** (prose-only) or **Library/SDK** where those files apply.
+**Not required** for **REST API-only** packages: **`toc.yml`**, a root-level **`index.md`**, and an **`index.md`** in every subdirectory. Do not treat their absence as a defect unless **§0** also classifies the package as **API** (prose-only) or **Library/SDK** where those files apply.
 
 **Review Actions:**
-- Confirm `changelog.md` exists at the package root
-- Locate the descriptive Markdown topic(s); verify they cover §3.2 expectations
+- Confirm `docfx.json` and OpenAPI/Swagger spec file are present at package root
+- Confirm `description/index.md` exists and covers §3.2 expectations
+- Confirm `changelog/changelog.md` exists
 - Confirm the OpenAPI/Swagger file is present and referenced by the build if applicable
 - Verify sensible naming (lowercase with hyphens preferred for new files)
 
@@ -304,7 +307,7 @@ Assign **exactly one severity** per issue and per action item. Do not mix severi
 
 ### 3.2 Descriptive Markdown content review
 
-**Scope:** For **REST API**, apply §3.2 to the Markdown file(s) identified in **§3.1.1** (any filename). For **API** (§3.1.2), the primary target is typically **`index.md`**. Section headings below still name “Introduction,” “Platform overview,” and so on—regardless of the source file name.
+**Scope:** For **REST API**, apply §3.2 to **`description/index.md`** identified in **§3.1.1**. For **API** (§3.1.2), the primary target is typically **`index.md`**. Section headings below still name “Introduction,” “Platform overview,” and so on—regardless of the source file name.
 
 #### 3.2.1 Introduction Section
 
@@ -878,11 +881,11 @@ Same requirements as API changelog (see section 3.3)
 
 ### 5.1 Directory Organization
 
-**Classification:** Use **§0**. For **REST API-only** packages, follow **§3.1.1** (root **`changelog.md`**, descriptive Markdown with any title, OpenAPI spec); **do not** require **`index.md`**, **`toc.yml`**, or an **`index.md` in every subdirectory**.
+**Classification:** Use **§0**. For **REST API-only** packages, follow **§3.1.1** (root **`docfx.json`** + OpenAPI spec, **`description/index.md`**, **`changelog/changelog.md`**); **do not** require **`toc.yml`**, a root **`index.md`**, or an **`index.md` in every subdirectory**.
 
 **Review criteria (API, Library/SDK, and hybrid packages):**
-- [ ] `index.md` at root level (not required for **REST API-only**; see §3.1.1)
-- [ ] `changelog.md` at root level (for **REST API**, same as §3.1.1; for **API** / **Library/SDK**, required at root per §3.1.2 / §4.1)
+- [ ] `index.md` at root level (required for **API** / **Library/SDK**; for **REST API-only**, use `description/index.md` per §3.1.1)
+- [ ] `changelog.md` at root level (required for **API** / **Library/SDK**; for **REST API-only**, use `changelog/changelog.md` per §3.1.1)
 - [ ] Related content in logical subdirectories
 - [ ] Each subdirectory has `index.md` (expectation for **Library/SDK**-style trees; not for **REST API-only**)
 - [ ] Images in dedicated `images/` directory
@@ -938,7 +941,7 @@ Same requirements as API changelog (see section 3.3)
 - [ ] File validates against OpenAPI Specification
 - [ ] Indentation is consistent
 - [ ] No syntax errors
-- [ ] Package layout matches **§3.1.1** (root **`changelog.md`**, descriptive Markdown, spec file)
+- [ ] Package layout matches **§3.1.1** (root **`docfx.json`** + OpenAPI/Swagger spec, **`description/index.md`**, **`changelog/changelog.md`**)
 
 **Review Actions:**
 - Run OpenAPI validator
@@ -1093,11 +1096,11 @@ Use this quick checklist for review completion tracking:
 
 - [ ] **Package classified per §0**; compliance report lists **only applicable** type(s) and checklists (no N/A filler for other types)
 - [ ] General requirements reviewed (style, quality, GitHub)
-- [ ] Metadata configuration verified **for that classification** (REST API OpenAPI split vs **API** / **Library/SDK** Markdown vs Doxygen)
+- [ ] Metadata configuration verified **for that classification** (REST API OpenAPI split vs **API** / **Library/SDK** Markdown, including Doxygen-converted content)
 - [ ] File structure validated per **§3.1** / **§5.1** (REST API vs **API** / **Library/SDK**)
 - [ ] **`toc.yml`:** when present, exactly one in package; no duplicate `href`; `name` quoting rules (Part 1 / §5.2). **Not required** for **REST API-only** packages.
 - [ ] Wire API documentation reviewed **if §0 says REST API or API applies**
-  - [ ] Descriptive content: **REST API** = **`changelog.md`** at root + Markdown topic(s) per §3.1.1 (any filename); **API (prose)** = **`index.md`** + **`changelog.md`** at root per §3.1.2
+  - [ ] Descriptive content: **REST API** = **`description/index.md`** + **`changelog/changelog.md`** with root **`docfx.json`** + OpenAPI spec per §3.1.1; **API (prose)** = **`index.md`** + **`changelog.md`** at root per §3.1.2
   - [ ] API reference: **§3.4 only for REST API**; **§3.5** if `.proto` review; **§3.6** for other protocols; **API** = completeness for protocol/messages in docs
 - [ ] Library/SDK documentation reviewed **if §0 says library/SDK applies**
   - [ ] Descriptive content (introduction, getting started, user guide, examples, changelog)
