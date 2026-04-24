@@ -1,31 +1,31 @@
 - name: Introduction
   href: index.md
-- name: Create an Algorithm
+- name: Create an algorithm
   href: create_algorithm.md
   items:
-  - name: Create an Algorithm Index
+  - name: Create an algorithm index
     href: create_algorithm/create_algo_index.md
-  - name: Create a .NET Algorithm Project
+  - name: Create a .NET algorithm project
     href: create_algorithm/create_algo_net.md
-  - name: Create a Java Algorithm Project
+  - name: Create a Java algorithm project
     href: create_algorithm/create_algo_java.md
-  - name: Implement Description Properties
+  - name: Implement description properties
     href: create_algorithm/create_algo_description.md
-  - name: Implement Capability Properties
+  - name: Implement capability properties
     href: create_algorithm/create_algo_capability.md
-  - name: Implement Setup Methods and Properties
+  - name: Implement setup methods and properties
     href: create_algorithm/create_algo_setup.md
-  - name: Implement Algorithm Execution
+  - name: Implement algorithm execution
     href: create_algorithm/create_algo_execution.md
-  - name: Implement Results Properties
+  - name: Implement results properties
     href: create_algorithm/create_algo_results.md
-  - name: Installing the Algorithm
+  - name: Install the algorithm
     href: create_algorithm/create_algo_install.md
-- name: How to Create an Evaluator
+- name: Create an evaluator
   href: create_evaluator.md
-- name: How to Use the Problem Test Suite
+- name: Use the problem test suite
   href: how_test_suite.md
-- name: API 
+- name: API reference
   href: api/index_api.md
   items:
   - name: Namespaces

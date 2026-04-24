@@ -1,4 +1,4 @@
-# Implement Algorithm Execution
+# Implement algorithm execution
 
 The Optimization Tool calls the [`Run()`](../api/Namespaces/NamespaceList/Phoenix/Optimization/IAlgorithm.md#run) method to start the execution of the algorithm.
 
@@ -8,11 +8,9 @@ When the algorithm requires a model evaluation from ModelCenter, it should call 
 
 For single objective problems, the algorithm should call [`UpdateBestDesign(Object[])`](../api/Namespaces/NamespaceList/Phoenix/Optimization/IAlgorithmHost.md#updatebestdesign) as the optimization progresses so that the designs can be plotted in the convergence history. For multiobjective problems, the Pareto front of designs should be reported back to the Optimization Tool using the `UpdateBestDesigns` method.
 
-### See Also
+### See also
 
 - [`IAlgorithmHost`](../api/Namespaces/NamespaceList/Phoenix/Optimization/IAlgorithmHost.md)
 - [`SetStatusMessage(String)`](../api/Namespaces/NamespaceList/Phoenix/Optimization/IAlgorithmHost.md#setstatusmessage)
 - [`SetStatusMessage(String, MessageType)`](../api/Namespaces/NamespaceList/Phoenix/Optimization/IAlgorithmHost.md#setstatusmessage)
-
-
 

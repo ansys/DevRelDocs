@@ -1,8 +1,8 @@
-# Create an Algorithm Index
+# Create an algorithm index
 
 This article outlines the lifecycle of an algorithm from its creation to its final disposal.
 
-## Algorithm Lifecycle
+## Algorithm lifecycle
 
 1. [Algorithm created](../create_algorithm.md)
 2. [IAlgorithmHost](../api/Namespaces/NamespaceList/Phoenix/Optimization/IAlgorithmHost.md) set (see [SetHost(IAlgorithmHost)](../api/Namespaces/NamespaceList/Phoenix/Optimization/IAlgorithm.md#SetHost))

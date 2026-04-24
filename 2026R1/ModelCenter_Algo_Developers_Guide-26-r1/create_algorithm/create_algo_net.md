@@ -1,4 +1,4 @@
-# How to create a .Net Algorithm Project
+# Create a .NET algorithm project
 
 All that is required of an algorithm by the Optimization Tool is that it implements the [`IAlgorithm`](../api/Namespaces/NamespaceList/Phoenix/Optimization/IAlgorithm.md) interface. Algorithm templates have been included for C#, Visual Basic, and C++ to further simplify the process.
 
@@ -32,7 +32,7 @@ public class Algorithm : IAlgorithm
 
 New GUIDs can be generated using **Create GUID** from the **Tools** menu.
 
-## Adding Algorithm Move to Pre-Build Event
+## Add algorithm move to pre-build event
 
 1. Select *[algorithm project name] Properties* from the **Project** menu to open that algorithm's project properties.
 
@@ -51,7 +51,7 @@ New GUIDs can be generated using **Create GUID** from the **Tools** menu.
 
 3. The next time the Optimization Tool plug-in is invoked, the algorithm will be available for use.
 
-## Add Manifest File for Algorithm
+## Add manifest file for algorithm
 
 A manifest file must be added to tell the Optimization Tool which `.dll` files should be searched for implementations of [`IAlgorithm`](../api/Namespaces/NamespaceList/Phoenix/Optimization/IAlgorithm.md). To add the manifest:
 

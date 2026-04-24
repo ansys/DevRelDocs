@@ -1,4 +1,4 @@
-# How to Implement Capability Properties
+# Implement capability properties
 
 The algorithm capability properties are used by the Algorithm Selection Wizard to help the user select algorithms appropriate for their problem definition.
 
@@ -17,5 +17,3 @@ The algorithm capability properties are used by the Algorithm Selection Wizard t
 - [`SupportsNonSmoothResponses`](../api/Namespaces/NamespaceList/Phoenix/Optimization/IAlgorithm.md#SupportsNonSmoothResponses) - whether the algorithm supports non-smooth responses (objectives and constraints). The property is of the [FuzzyBoolean](../api/Namespaces/NamespaceList/Phoenix/optimization.md#FuzzyBoolean) enum type. The algorithm can specify that it does or does not support non-smooth responses, or that it can handle non-smooth responses, but not very well.
 
 - [`SupportsSolveFor`](../api/Namespaces/NamespaceList/Phoenix/Optimization/IAlgorithm.md#SupportsSolveFor) - whether the algorithm supports solving an objective for a specific value. The property is of the [FuzzyBoolean](../api/Namespaces/NamespaceList/Phoenix/optimization.md#FuzzyBoolean) enum type. The algorithm can specify that it does or does not support discrete variables, or that it can handle solving for a value, but not very well. If the algorithm does not support solving for a value, the infrastructure will create an objective to minimize the difference between the objective and the solve for value.
-
-
