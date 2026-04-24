@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-04-22).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-04-23).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -28,13 +28,13 @@ The following table shows which components have updates in each category.
 | fbs | [2 items](#Features_fbs) | |
 | femutils | [3 items](#Features_femutils) |[15 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
-| framework | [2 items](#Features_framework) |[7 items](#Fixes_framework) |
+| framework | [2 items](#Features_framework) |[8 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
-| grpc | [1 item](#Features_grpc) |[3 items](#Fixes_grpc) |
+| grpc | [1 item](#Features_grpc) |[4 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[4 items](#Fixes_h5dpf) |
 | hdf5 | [8 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
-| hgp | [5 items](#Features_hgp) |[4 items](#Fixes_hgp) |
+| hgp | [5 items](#Features_hgp) |[5 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [3 items](#Features_kernel) |[11 items](#Fixes_kernel) |
 | lsdyna | [2 items](#Features_lsdyna) | |
@@ -591,6 +591,15 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_framework"></a> Fixes
 
+- Add missing throw on errors in eventlogger:
+  > 
+  >
+  > Add missing throw on errors in EventLogger
+  >
+  > 
+  >
+  > 
+
 - Fix Heat Generation unit:
   > Resolve incorrect Heat Generation unit, should be Power/Volume, not Power.
   >
@@ -662,6 +671,15 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_grpc"></a> Fixes
+
+- Fix deep_copy of local Fields to remote servers in HgP:
+  > 
+  >
+  > Since 26.1, local Fields were not correctly copied into remote servers if they had Field supports. This is now fixed.
+  >
+  > 
+  >
+  > 
 
 - Fix non-matching versions of Kernel in DataProcessingCore and Ans.Dpf.GrpcClient:
   > 
@@ -865,6 +883,15 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_hgp"></a> Fixes
+
+- Fix deep_copy of local Fields to remote servers in HgP:
+  > 
+  >
+  > Since 26.1, local Fields were not correctly copied into remote servers if they had Field supports. This is now fixed.
+  >
+  > 
+  >
+  > 
 
 - Add guard variable to prevent dpf_api_i.cpp double include:
   > 
