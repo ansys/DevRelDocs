@@ -298,7 +298,7 @@ Assign **exactly one severity** per issue and per action item. Do not mix severi
 
 **Required files:**
 - [ ] `index.md` exists at package root (landing page)
-- [ ] `changelog.md` exists at package root
+- [ ] Changelog file exists (`changelog.md` at root or `changelog/changelog.md`)
 
 **Review Actions:**
 - Verify both required files exist
@@ -664,33 +664,33 @@ service UserService {
 
 **Required files:**
 - [ ] `index.md` exists at root level (landing page with introduction)
-- [ ] `changelog.md` exists at root level
+- [ ] Changelog file exists (`changelog.md` at root or `changelog/changelog.md`)
 
 **Recommended structure:**
 ```
 Documentation-package/
-â”œâ”€â”€ index.md
-â”œâ”€â”€ changelog.md
-â”œâ”€â”€ getting-started/
-â”‚   â”œâ”€â”€ index.md
-â”‚   â”œâ”€â”€ prerequisites.md
-â”‚   â”œâ”€â”€ installation.md
-â”‚   â””â”€â”€ licensing.md
-â”œâ”€â”€ user-guide/
-â”‚   â”œâ”€â”€ index.md
-â”‚   â”œâ”€â”€ basic-usage.md
-â”‚   â”œâ”€â”€ advanced-features.md
-â”‚   â””â”€â”€ troubleshooting.md
-â”œâ”€â”€ examples/
-â”‚   â”œâ”€â”€ index.md
-â”‚   â”œâ”€â”€ example-1.md
-â”‚   â””â”€â”€ example-2.md
-â”œâ”€â”€ api-reference/
-â”‚   â””â”€â”€ (generated documentation)
-â”œâ”€â”€ images/
-â”‚   â””â”€â”€ (image files)
-â”œâ”€â”€ toc.yml
-â””â”€â”€ docfx.json
+|-- index.md
+|-- changelog.md
+|-- getting-started/
+|   |-- index.md
+|   |-- prerequisites.md
+|   |-- installation.md
+|   `-- licensing.md
+|-- user-guide/
+|   |-- index.md
+|   |-- basic-usage.md
+|   |-- advanced-features.md
+|   `-- troubleshooting.md
+|-- examples/
+|   |-- index.md
+|   |-- example-1.md
+|   `-- example-2.md
+|-- api-reference/
+|   `-- (generated documentation)
+|-- images/
+|   `-- (image files)
+|-- toc.yml
+`-- docfx.json
 ```
 
 **Review Actions:**
@@ -885,7 +885,7 @@ Same requirements as API changelog (see section 3.3)
 
 **Review criteria (API, Library/SDK, and hybrid packages):**
 - [ ] `index.md` at root level (required for **API** / **Library/SDK**; for **REST API-only**, use `description/index.md` per §3.1.1)
-- [ ] `changelog.md` at root level (required for **API** / **Library/SDK**; for **REST API-only**, use `changelog/changelog.md` per §3.1.1)
+- [ ] Changelog file exists (required for **API** / **Library/SDK** at `changelog.md` root or `changelog/changelog.md`; for **REST API-only**, use `changelog/changelog.md` per §3.1.1)
 - [ ] Related content in logical subdirectories
 - [ ] Each subdirectory has `index.md` (expectation for **Library/SDK**-style trees; not for **REST API-only**)
 - [ ] Images in dedicated `images/` directory
@@ -1042,7 +1042,7 @@ When completing a review, provide feedback in this format:
 
 For each section reviewed, provide:
 
-#### [Section Name] - [Status: âœ… Passed / âš ï¸ Warnings / âŒ Failed]
+#### [Section Name] - [Status: Passed / Warnings / Failed]
 
 **Strengths:**
 - List positive aspects
@@ -1100,7 +1100,7 @@ Use this quick checklist for review completion tracking:
 - [ ] File structure validated per **§3.1** / **§5.1** (REST API vs **API** / **Library/SDK**)
 - [ ] **`toc.yml`:** when present, exactly one in package; no duplicate `href`; `name` quoting rules (Part 1 / §5.2). **Not required** for **REST API-only** packages.
 - [ ] Wire API documentation reviewed **if §0 says REST API or API applies**
-  - [ ] Descriptive content: **REST API** = **`description/index.md`** + **`changelog/changelog.md`** with root **`docfx.json`** + OpenAPI spec per §3.1.1; **API (prose)** = **`index.md`** + **`changelog.md`** at root per §3.1.2
+  - [ ] Descriptive content: **REST API** = **`description/index.md`** + **`changelog/changelog.md`** with root **`docfx.json`** + OpenAPI spec per §3.1.1; **API (prose)** = **`index.md`** + changelog at **`changelog.md`** (root) or **`changelog/changelog.md`** per §3.1.2
   - [ ] API reference: **§3.4 only for REST API**; **§3.5** if `.proto` review; **§3.6** for other protocols; **API** = completeness for protocol/messages in docs
 - [ ] Library/SDK documentation reviewed **if §0 says library/SDK applies**
   - [ ] Descriptive content (introduction, getting started, user guide, examples, changelog)
