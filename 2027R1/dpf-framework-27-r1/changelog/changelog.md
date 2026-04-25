@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-04-23).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-04-24).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -33,11 +33,11 @@ The following table shows which components have updates in each category.
 | grpc | [1 item](#Features_grpc) |[4 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[4 items](#Fixes_h5dpf) |
-| hdf5 | [8 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
+| hdf5 | [9 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
 | hgp | [5 items](#Features_hgp) |[5 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [3 items](#Features_kernel) |[11 items](#Fixes_kernel) |
-| lsdyna | [2 items](#Features_lsdyna) | |
+| lsdyna | [3 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
 | mapdl | [21 items](#Features_mapdl) |[49 items](#Fixes_mapdl) |
@@ -760,6 +760,11 @@ The following table shows which components have updates in each category.
 ## hdf5
 ### <a id="Features_hdf5"></a> Features
 
+- Support replacing existing fields in a fields container:
+  > Added support for replacing existing fields within a fields container when writing to H5DPF files. Users can now update field data in-place without having to rewrite the entire dataset, enabling more efficient workflows when modifying previously saved results.
+  >
+  > 
+
 - Field MetaData as hashable objects:
   > Field definitions are now stored once when the same definition is used in multiple fields. Same goes for field headers.
   >
@@ -1028,6 +1033,9 @@ The following table shows which components have updates in each category.
   >
   > 
   >
+  > 
+
+- Add support for the binout ssstat branch (#261):
   > 
 
 - Add mesh scoping input for nodout operators (#257):
@@ -2729,7 +2737,7 @@ The following table shows which components have updates in each category.
 
 - [prepare_mechanical_native_mapping_point_cloud](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/prepare_mechanical_native_mapping_point_cloud.md):
   > 
-  > Prepares field data mapping from source mesh to target mesh using **point cloud interpolation** — a scattered-data
+  > Prepares field data mapping from source mesh to target mesh using **point cloud interpolation** - a scattered-data
   > approximation method that constructs interpolation weights from spatial proximity relationships without requiring mesh
   > connectivity. Use it together with `apply_mechanical_native_mapping`.
   > 
