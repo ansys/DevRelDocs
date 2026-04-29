@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-04-27).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-04-28).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -58,7 +58,7 @@ The following table shows which components have updates in each category.
 | refactor | [1 item](#Features_refactor) | |
 | rotation |  |[1 item](#Fixes_rotation) |
 | utilities |  |[1 item](#Fixes_utilities) |
-| vtk |  |[2 items](#Fixes_vtk) |
+| vtk | [1 item](#Features_vtk) |[2 items](#Fixes_vtk) |
 | workflows | [3 items](#Features_workflows) |[2 items](#Fixes_workflows) |
 
 
@@ -2510,6 +2510,14 @@ The following table shows which components have updates in each category.
 - Fix breaking change in forward operator:
   > 
 ## vtk
+### <a id="Features_vtk"></a> Features
+
+- Perf improvement of mesh_to_pyvista:
+  > Performance improvement of mesh_to_pyvista operator, up to a margin of 60%, was achieved especially when dealing with conversion between Dpf Meshed Regions and various VTK-native mesh formats.
+  >
+  > 
+  >
+  > 
 
 ### <a id="Fixes_vtk"></a> Fixes
 
@@ -3145,6 +3153,21 @@ The following table shows which components have updates in each category.
 
 - [raw_velocity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/raw_velocity.md):
   > Read/compute V vector from the finite element problem MA+CV+KU=F by calling the readers defined by the datasources.
+
+- [reaction_heat](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/reaction_heat.md):
+  > Read/compute nodal reaction heat by calling the readers defined by the datasources.
+
+- [reaction_moment](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/reaction_moment.md):
+  > Read/compute nodal reaction moments by calling the readers defined by the datasources.
+
+- [reaction_moment_X](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/reaction_moment_X.md):
+  > Read/compute nodal reaction moments X component of the vector (1st component) by calling the readers defined by the datasources.
+
+- [reaction_moment_Y](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/reaction_moment_Y.md):
+  > Read/compute nodal reaction moments Y component of the vector (2nd component) by calling the readers defined by the datasources.
+
+- [reaction_moment_Z](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/reaction_moment_Z.md):
+  > Read/compute nodal reaction moments Z component of the vector (3rd component) by calling the readers defined by the datasources.
 
 - [record_reader](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/record_reader.md):
   > Extracts a record from a file.

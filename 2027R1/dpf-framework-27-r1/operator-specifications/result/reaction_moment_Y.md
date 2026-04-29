@@ -4,19 +4,19 @@ plugin: core
 license: None
 ---
 
-# result:nodal force
+# result:reaction moment Y
 
 **Version: 0.0.0**
 
 ## Description
 
-Read/compute nodal forces by calling the readers defined by the datasources.
+Read/compute nodal reaction moments Y component of the vector (2nd component) by calling the readers defined by the datasources.
 
 ## Supported file types
 
 This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
 
-- lsdyna: moddynout 
+- hdf5: h5dpf 
 
 ## Inputs
 
@@ -33,6 +33,7 @@ Each parameter is detailed in the sections that follow the table.
 | <strong>4</strong> | [data_sources](#input_4) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
 | <strong>5</strong> | [bool_rotate_to_global](#input_5) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>7</strong> | [mesh](#input_7) |  |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
+| <strong>14</strong> | [read_cyclic](#input_14) |  |`enum dataProcessing::ECyclicReading`, [`int32`](../../core-concepts/dpf-types.md#standard-types) |
 
 
 <a id="input_0"></a>
@@ -57,7 +58,7 @@ nodes or elements scoping required in output. The output fields will be scoped o
 - **Required:** No
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-Fields container already allocated modified inplace
+FieldsContainer already allocated modified inplace
 
 <a id="input_3"></a>
 ### streams_container (Pin 3)
@@ -81,7 +82,7 @@ result file path container, used if no streams are set
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-Rotate the result to the global coordinate system if rotations are available (default true). Please check your results carefully if 'false' is used for Elemental or ElementalNodal results averaged to the Nodes when adjacent elements do not share the same coordinate system, as results may be incorrect.
+if true the field is rotated to global coordinate system (default true)
 
 <a id="input_7"></a>
 ### mesh (Pin 7)
@@ -90,6 +91,14 @@ Rotate the result to the global coordinate system if rotations are available (de
 - **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container)
 
 prevents from reading the mesh in the result files
+
+<a id="input_14"></a>
+### read_cyclic (Pin 14)
+
+- **Required:** No
+- **Expected type(s):** `enum dataProcessing::ECyclicReading`, [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+if 0 cyclic symmetry is ignored, if 1 cyclic sector is read, if 2 cyclic expansion is done, if 3 cyclic expansion is done and stages are merged (default is 1)
 
 
 ## Outputs
@@ -147,11 +156,11 @@ This operator can be accessed through scripting interfaces using these identifie
 
  **Plugin**: core
 
- **Scripting name**: nodal_force
+ **Scripting name**: reaction_moment_Y
 
- **Full name**: result.nodal_force
+ **Full name**: result.reaction_moment_Y
 
- **Internal name**: F
+ **Internal name**: RF_MomentY
 
  **License**: None
 
@@ -166,7 +175,7 @@ Each example shows how to instantiate the operator, connect the required inputs,
 ```cpp
 #include "dpf_api.h"
 
-ansys::dpf::Operator op("F"); // operator instantiation
+ansys::dpf::Operator op("RF_MomentY"); // operator instantiation
 op.connect(0, my_time_scoping);
 op.connect(1, my_mesh_scoping);
 op.connect(2, my_fields_container);
@@ -174,6 +183,7 @@ op.connect(3, my_streams_container);
 op.connect(4, my_data_sources);
 op.connect(5, my_bool_rotate_to_global);
 op.connect(7, my_mesh);
+op.connect(14, my_read_cyclic);
 ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
 ```
 </details>
@@ -184,7 +194,7 @@ ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::Field
 ```python
 import ansys.dpf.core as dpf
 
-op = dpf.operators.result.nodal_force() # operator instantiation
+op = dpf.operators.result.reaction_moment_Y() # operator instantiation
 op.inputs.time_scoping.connect(my_time_scoping)
 op.inputs.mesh_scoping.connect(my_mesh_scoping)
 op.inputs.fields_container.connect(my_fields_container)
@@ -192,6 +202,7 @@ op.inputs.streams_container.connect(my_streams_container)
 op.inputs.data_sources.connect(my_data_sources)
 op.inputs.bool_rotate_to_global.connect(my_bool_rotate_to_global)
 op.inputs.mesh.connect(my_mesh)
+op.inputs.read_cyclic.connect(my_read_cyclic)
 my_fields_container = op.outputs.fields_container()
 ```
 </details>
@@ -203,7 +214,7 @@ my_fields_container = op.outputs.fields_container()
 import mech_dpf
 import Ans.DataProcessing as dpf
 
-op = dpf.operators.result.nodal_force() # operator instantiation
+op = dpf.operators.result.reaction_moment_Y() # operator instantiation
 op.inputs.time_scoping.Connect(my_time_scoping)
 op.inputs.mesh_scoping.Connect(my_mesh_scoping)
 op.inputs.fields_container.Connect(my_fields_container)
@@ -211,6 +222,7 @@ op.inputs.streams_container.Connect(my_streams_container)
 op.inputs.data_sources.Connect(my_data_sources)
 op.inputs.bool_rotate_to_global.Connect(my_bool_rotate_to_global)
 op.inputs.mesh.Connect(my_mesh)
+op.inputs.read_cyclic.Connect(my_read_cyclic)
 my_fields_container = op.outputs.fields_container.GetData()
 ```
 </details>
