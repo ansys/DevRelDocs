@@ -1,6 +1,6 @@
 # Copyright and trademark information
 
-© 2025 ANSYS, Inc. or its affiliated companies. All rights reserved
+© 2026 ANSYS, Inc. or its affiliated companies. All rights reserved
 
 Ansys, Ansys Workbench, AUTODYN, CFX, FLUENT and any and all ANSYS, Inc. brand, product, service and feature names, logos and slogans are registered trademarks or trademarks of ANSYS, Inc. or its subsidiaries located in the United States or other countries. ICEM CFD is a trademark used by ANSYS, Inc. under license. CFX is a trademark of Sony Corporation in Japan. All other brand, product, service and feature names or trademarks are the property of their respective owners. FLEXlm and FLEXnet are trademarks of Flexera Software LLC.
 
@@ -19,5 +19,5 @@ See the legal information in the product help files for the complete Legal Notic
 
 Published in the U.S.A.
 
-[View third-party licenses](https://innovationspace.ansys.com/granta-mi-2025-r2/)
+[View third-party licenses](https://innovationspace.ansys.com/granta-mi-2026-r1/)
 

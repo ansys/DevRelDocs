@@ -1,39 +1,40 @@
-# Getting Started 
-
-In order to use Granta Cloud Connected Materials, you will need an account on this system that has access to the Granta Cloud instance. We will provide a URL to sign up to the Cloud instance here in future. Ansys will host the Cloud instance of Granta MI. 
-
-An application's point of contact with Granta Cloud Connected Materials is the Granta Integration Service REST API. This API brokers data between Granta services and your application. 
+# Getting started 
+An application's point of contact with Granta Connected Data is the Granta Integration Service REST API. This API brokers data between Granta services and your application. 
 
 Any programming environment that can execute HTTP requests and parse a JSON response should be able to use the Granta Integration Service. 
 
-For a simpler and more performant workflow, HTTP SSE (Serverside events) can be used for part of the workflow.
+For a simpler and more performant workflow, HTTP SSE (Server-Sent Events) can be used for part of the workflow.
 
-In our examples, we will be using python - python is included as a scripting language in many application engineering programs.
+Our examples use Python, but your application environment may restrict your choice of programming language.
+### Authentication
 
-Your choice of programming language may be restricted by the rest of your application environment. 
+In order to use Granta Connected Data, you need an account that has access to the Granta cloud instance. 
+
+### Prerequisites
+- A supported version of Python. You can download Python from [https://www.python.org/downloads/](https://www.python.org/downloads/).
+- The following Python packages required by the example: 
+    - `requests`
+    - `msal`
+- The example script `SimpleExample.py`, available here: [Python examples](./example-scripts/python_examples.zip)     
 
 
-## Quick start for python
+To get started:
 
-### Pre-requisites
-You can download python from [https://www.python.org/downloads/](https://www.python.org/downloads/). This documentation was written against Python 3.11.4.
+1. Open a Command Prompt and navigate to the working directory.
+1. Install the required Python packages using pip:
+    
+    ```cmd
+    python -m pip install requests msal
+    ``` 
+1. Edit `SimpleExample.py` and replace the placeholder _`cloudserver.com`_ with the URL of the Cloud instance you are developing against. See [Examples](./examples.md).
 
-We have provided an example script that interacts with the Granta Integration Service and launches the Granta Material Picker. To run this script, you will need the requests module installed:
+1. Run the example script:
+    ```cmd
+    python SimpleExample.py
+    ```
 
-```cmd
-python -m pip install requests msal
-```
+This launches the Granta Material Picker: 
 
-Download this script:
+<img src="images/MMP-web-ui.png" alt="Material Picker screenshot" width="500" height="auto">
 
-[Granta Integration Service Python example](https://github.com/ansys-internal/granta-cloud-data-examples/blob/main/SampleHostApps/NoHost/SimpleExample.py) [raw file](https://github.com/ansys-internal/granta-cloud-data-examples/blob/raw/SampleHostApps/NoHost/SimpleExample.py)
-
-Run the script without arguments
-
-```cmd
-python SimpleExample.py
-```
-
-This will launch the Granta Material Picker:
-
-![Material Picker screenshot](images/MMP-web-ui.png)
+You can now browse and search materials data for import to your application. Use the [User guide](./user-guide.md) to review basic concepts and material models, and understand how to integrate the Material Picker into your application.
