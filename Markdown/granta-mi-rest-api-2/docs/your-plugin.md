@@ -12,9 +12,9 @@ You must decide which environment you are pointing your plugin at. In all the fo
 
 Choose a suitable location in your application to add the option that launches Granta Material Picker. For example, a toolbar button or context menu:
 
-<img src="./images/launch-ribbon.png" alt="Material Model Picker Button" height="auto">
+![Material Model Picker Button](./images/launch-ribbon.png)
 
-<img src="./images/launch-ctx-menu.png" alt="Material Model Picker Context Menu Option"  height="auto">
+![Material Model Picker Context Menu Option](./images/launch-ctx-menu.png)
 
 **Note:** In addition to the launching point, you might also want to allow the destination path for incoming materials to be set.
 

@@ -9,7 +9,7 @@ requests.delete(f"{sessions_endpoint}{post_session_resp['id']}", json={}, header
 
 Ending a session disables the controls in the Granta Material Picker tab and displays the following message:
 
-<img src="./images/session-ended.jpeg" alt="Material Picker screenshot with session ended popup" width="500" height="auto">
+![Material Picker screenshot with session ended popup](./images/session-ended.jpeg)
 
 Materials are no longer available on the data endpoints.
 
