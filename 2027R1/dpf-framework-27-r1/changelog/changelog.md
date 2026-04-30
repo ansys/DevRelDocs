@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-04-28).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-04-29).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -30,17 +30,17 @@ The following table shows which components have updates in each category.
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
 | framework | [2 items](#Features_framework) |[8 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
-| grpc | [1 item](#Features_grpc) |[4 items](#Fixes_grpc) |
+| grpc | [1 item](#Features_grpc) |[5 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[4 items](#Fixes_h5dpf) |
 | hdf5 | [9 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
-| hgp | [5 items](#Features_hgp) |[5 items](#Fixes_hgp) |
+| hgp | [5 items](#Features_hgp) |[6 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [3 items](#Features_kernel) |[11 items](#Fixes_kernel) |
 | lsdyna | [3 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [22 items](#Features_mapdl) |[49 items](#Fixes_mapdl) |
+| mapdl | [23 items](#Features_mapdl) |[49 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [12 items](#Features_math) |[1 item](#Fixes_math) |
@@ -672,6 +672,9 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_grpc"></a> Fixes
 
+- Complete the work to fully support GenericSupport as Any:
+  > 
+
 - Fix deep_copy of local Fields to remote servers in HgP:
   > 
   >
@@ -889,6 +892,9 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_hgp"></a> Fixes
 
+- Complete the work to fully support GenericSupport as Any:
+  > 
+
 - Fix deep_copy of local Fields to remote servers in HgP:
   > 
   >
@@ -1063,6 +1069,13 @@ The following table shows which components have updates in each category.
 
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
+
+- Add Radiation Area Operator:
+  > Add Radiation Area Operator for SURF251/252
+  >
+  > 
+  >
+  > 
 
 - Reaction moment and heat:
   > Creation of reaction_moment and reaction_heat operators.
