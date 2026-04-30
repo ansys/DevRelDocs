@@ -35,6 +35,6 @@ To get started:
 
 This launches the Granta Material Picker: 
 
-<img src="images/MMP-web-ui.png" alt="Material Picker screenshot" width="500" height="auto">
+<img src="./images/MMP-web-ui.png" alt="Material Picker screenshot" width="500" height="auto">
 
 You can now browse and search materials data for import to your application. Use the [User guide](./user-guide.md) to review basic concepts and material models, and understand how to integrate the Material Picker into your application.
