@@ -1,11 +1,15 @@
-# Requests are blocked with a 403 Forbidden error
+# Troubleshooting
 
-## Symptom
-Requests to the Granta Integration Server are being blocked and a 403 forbidden error is displayed
+Identify and resolve common issues that you might experience while developing your integration.
 
-## Possible cause
+## Requests are blocked with a 403 Forbidden error
 
-The Web Application Firewall (WAF) rules for Granta Cloud Connected Data require all HTTP requests to include a User-Agent header.
+### Symptom
+Requests to the Granta Integration Server are being blocked and a 403 forbidden error is displayed.
+
+### Possible cause
+
+The Web Application Firewall (WAF) rules for Granta Connected Data require all HTTP requests to include a User-Agent header.
 
 Many programming languages do not automatically add this header, and if your integration is not adding a valid User-Agent header, requests will be blocked with 403 Forbidden errors.
 

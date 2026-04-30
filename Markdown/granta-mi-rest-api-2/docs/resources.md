@@ -1,10 +1,8 @@
-# Resources and Style Guide
-
-Resources to help you achieve a consistent look and feel when integrating the Granta Material Picker into your application.
-
+# Resources
+Resources to achieve a consistent look and feel when integrating Granta Material Picker into your application.
 
 ## Names and Acronyms
-The name of the hosted product is **Granta Cloud Connected Data**.
+The name of the hosted product is **Granta Connected Data**.
 
 Use the following names when referring to components of the system:
 
@@ -16,16 +14,15 @@ Use the following names when referring to components of the system:
 | Material Model Definitions | MMDs  |
 | Material Model Outputs | MMOs  |
 
-## UI Text
+## User Interface Terminology
 
-When adding UI controls to launch the Granta Material Picker, use the following text for tooltips and menu items:
+When adding controls to launch Granta Material Picker, use the following text for tooltips and menu items:
 
-**Import from Granta Cloud Materials**
+**Import from Granta Connected Data**
 
 ## Icons
 
-'Granta Cloud Data' icons in ADL Light, ADL Dark, and Classic themes, with square corners.
-[Granta_Cloud_Data_icons.zip](resources/Granta_Cloud_Data_icons.zip)
+Standard icons in Light, Dark, and Classic themes. [Granta_Cloud_Data_icons.zip](resources/Granta_Cloud_Data_icons.zip)
 
 
 | Light  | Dark  |  Classic |
@@ -35,8 +32,7 @@ When adding UI controls to launch the Granta Material Picker, use the following 
 |  ![Granta Cloud Data icon, Light, 64 x 64](resources/Granta_Cloud_Data_icons/molecule-logo/light-theme-64px.bmp) | ![Granta Cloud Data icon, Dark, 64 x 64](resources/Granta_Cloud_Data_icons/molecule-logo/dark-theme-64px.bmp)  | ![Granta Cloud Data icon, Classic, 64 x 64](resources/Granta_Cloud_Data_icons/molecule-logo/classic-theme-64px.bmp)  |
 |   |   |   |
 
-'Granta Cloud Data' icons in ADL Light, ADL Dark, and Classic themes, with rounded corners.
-[Granta_Cloud_Data_icons_rounded.zip](resources/Granta_Cloud_Data_icons_rounded.zip)
+Rounded icons in Light, Dark, and Classic themes. [Granta_Cloud_Data_icons_rounded.zip](resources/Granta_Cloud_Data_icons_rounded.zip)
 
 | Light  | Dark  |  Classic |
 |---|---|---|

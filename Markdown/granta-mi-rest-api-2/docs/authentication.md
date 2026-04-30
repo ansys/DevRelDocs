@@ -1,13 +1,23 @@
 # Authentication
 
-To use the Granta Integration Service's web API, you must authenticate using [Ansys ID](https://webapps.ansys.com/era/ssosupport/index).
+To both develop and use Granta Connected Data, you need to authenticate using [Ansys ID](https://webapps.ansys.com/era/ssosupport/index).
+ 
+For developing your own plugin to Granta Connected Data, send the following information to your Ansys representative:
+ 
+- Your Name
+- Your email account
+- The Product team you are working with
 
-To request access to Granta Cloud Connected Materials, send your requirements to a member of the administration team via the Teams channel:
+To enable your customers to access Granta Connected Data from your application, their Ansys ID accounts must also be enabled, send the following information about each account in CSV format to your Ansys representative:
 
-[Granta Cloud Connected Materials| Questions and Feedback](https://teams.microsoft.com/l/channel/19%3AZZ7_UUt4IZ5UZppC3BhIZcR1NlXWhphtIe3YwyONsCU1%40thread.tacv2/Questions%20and%20Feedback?groupId=3ba720a6-d1c0-4d0c-bce0-23a5edd266f1&tenantId=34c6ce67-15b8-4eff-80e9-52da8be89706)
+- Name
+- Email address
+- Company
+- Database access required
+
 
 ## C# example
-In C# asp.net Core, authentication against Ansys ID is fairly simple. 
+In C# ASP.NET Core, authentication against Ansys ID is fairly simple. 
 
 There are libraries you can use, and you'll need to specify the following in your authentication flow:
 
@@ -18,9 +28,7 @@ scope = "https://a365dev.onmicrosoft.com/AnsysID/Authentication";
 redirectURI = "http://localhost:32284";
 ```
 
-If done correctly, you will get a browser popup like this in your system's browser.
-
-![Material Model Picker Button](./images/EntraID.png)
+If done correctly, you will get a popup in your system's browser.
 
 Use the token in the response from the authentication flow in the Authorization header in subsequent API requests. Only requests to the Granta Integration Service need this header (not the call to open a web browser to display the Granta Material Picker).
 
@@ -29,7 +37,6 @@ Authorization: Bearer TOKEN
 ```
 
 ## Python example
-
 In Python, there is an MSAL library that can be used to retrieve an access token for the Granta Integration Service.
 
 First, install MSAL.

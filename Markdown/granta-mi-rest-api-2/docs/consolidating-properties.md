@@ -1,8 +1,12 @@
-# Consolidating Properties in Material Model Output
+# Consolidating properties in Material Model Output
 
-The Material Model Service can consolidate properties that share the same set of free parameters into a single property in the output. This is controlled by the `consolidatePropertiesThatHaveParameters` flag in the Material Model Definition.
+When a material model contains multiple properties that share the same set of free parameters, the output can contain repeated parameter columns
+for each property. This can make the output larger and harder to consume, especially when related properties are evaluated over the same parameter 
+values.
 
-## How Consolidation Works
+The Material Model Service can consolidate these properties into a single property, preserving the original values and constraints while producing a more compact output. This is controlled by the `consolidatePropertiesThatHaveParameters` flag in the Material Model Definition.
+
+## How consolidation works
 
 When properties are consolidated:
 
@@ -12,7 +16,7 @@ When properties are consolidated:
 - The consolidated property appears at the position of the first property that had free parameters
 - The consolidation process preserves the order of free parameter values, merging rows with identical free parameter values
 
-## Implicit Constraints and Consolidation
+## Implicit constraints and consolidation
 
 Properties often rely on parameters that aren't explicitly defined in the Material Model Definition. The service handles these as follows:
 
@@ -21,7 +25,7 @@ Properties often rely on parameters that aren't explicitly defined in the Materi
 - **During Consolidation**: The service maintains these different implicit constraints for each column when consolidating properties. When resampling (interpolating missing values) in a consolidated property, the service preserves the implicit constraints specific to each original column rather than applying a global set of constraints.
 - **Output Representation**: Importantly, these implicit constraints are not included in the output for consolidated properties. Each column in the consolidated property maintains its original behavior regarding which implicit constraints were used, but these constraints are not explicitly listed in the output.
 
-## Resampling in Consolidated Properties
+## Resampling in consolidated properties
 
 When properties are consolidated, some rows may have missing values for certain columns. The Material Model Service will automatically resample these missing values through interpolation:
 

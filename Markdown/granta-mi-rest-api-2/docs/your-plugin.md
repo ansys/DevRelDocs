@@ -1,32 +1,32 @@
-# Writing your plugin
+# Creating a plugin
 
-Here is some inspiration for designing an integration with Granta Cloud Connected Materials using the Granta Material Picker (GMP).
-The examples have been developed with a typical workflow in mind, but your application's material selection workflow may have different requirements. 
+Creating a plugin that works within your host application requires specific knowledge about that application. 
+However, the following concepts are always required.
 
-## Launch point
+## Choosing the environment
+You must decide which environment you are pointing your plugin at. In all the following code samples, we use the placeholder
+`_`*cloudserver.com*`_` which should be replaced with the URL of the environment you would like to use. The production environment is [https://grantamaterials.ansys.com/](https://grantamaterials.ansys.com/)
 
-You will need to find some space in the UI of your application to launch the Granta Material Picker.
 
-Typically, this is a button on a toolbar:
+## Setting the launch point
 
-![Material Model Picker Button](images/launch-ribbon.png)
+Choose a suitable location in your application to add the option that launches Granta Material Picker. For example, a toolbar button or context menu:
 
-or a context menu option:
+<img src="images/launch-ribbon.png" alt="Material Model Picker Button" height="auto">
 
-![Material Model Picker Context Menu Option](images/launch-ctx-menu.png)
+<img src="images/launch-ctx-menu.png" alt="Material Model Picker Context Menu Option"  height="auto">
 
-Your application code might require the plugin to choose a destination for incoming materials (for example, a part or a library) when the GMP is launched. 
+**Note:** In addition to the launching point, you might also want to allow the destination path for incoming materials to be set.
 
-## Authentication
+## Authenticating
 
-Your code needs an access token provided by Ansys ID in order to use the Granta Integration Service API. See [Authentication](/docs/authentication.html).
+To connect to Granta Material Picker, you must provide a valid access token. For more information, see [Authentication](./authentication.md).
   
-## Create an integration service session
+## Creating an integration service session
 
-Your code needs to create a session on the Integration Service.
-Use [HTTP POST on the sessions endpoint](/integration_service.html#integration_service_api_v1_Ansys_Integration_Service_1_0_0_sessions_post)
+Create a session for the Integration Service by sending an HTTP `POST` request to the `/sessions` endpoint.
 
-Here is an example payload:
+Here is an example request payload:
 
 ```json
 {
@@ -40,40 +40,35 @@ Here is an example payload:
 }
 ```
 
-The response is a JSON object containing a uid key.
+The response is a JSON object containing a uid key:
 
 `"uid": "6bd31d4e-86ff-4b14-8fea-e74386d49e8b"`
 
-Your code should keep the ID of this session for future usage. 
-
-
+Ensure that the ID of this session is stored for future usage.
   
 ## Launch a browser
-Your end user must be prompted to select some material models. Do this by launching a browser at this URL and append your session ID. For example
+Your end user must be prompted to select some material models. Do this by launching a browser at the URL of the cloud instance, and append your session ID. Use the format:
 
-`https://test-grantami.awsansys7np.onscale.com/grantami/#/granta-material-picker?sessionId=<sessionid>`
 
-In most programming languages and operating systems, there is a way to launch the system browser at a certain URL. In Python, for example, you can use 
+`https://`_`cloudserver.com`_`/grantami/#/granta-material-picker?sessionId=<sessionid>`
+
+Where _`cloudserver.com`_ is the URL of the instance that you want to code against (either Staging or Production).
+
 
 ```python
 import webbrowser
-webbrowser.open("https://test-grantami.awsansys7np.onscale.com/grantami/#/granta-material-picker?sessionId="<sessionid>)
+webbrowser.open("https://cloudserver.com/grantami/#/granta-material-picker?sessionId=84286fdbd31d7c2c6d0665f7e8380fa3")
 ```
 
-## Receive model data
-There are two ways to receive the data (in JSON format) that the user has selected for import. 
+## Receiving model data
+There are two ways to receive the selected material model data.
 
-The best way is to listen on a Server-side Event (SSE) using HTTP on the [session data SSE endpoint](/integration_service.html#integration_service_api_v1_Ansys_Integration_Service_1_0_0_get_sessions_uid_data_sse).
+The preferred approach is to listen for Server-Sent Events (SSE) using the session data `SSE` endpoint. Sending an HTTP `GET` request to `/sessions/{session_uid}/data/SSE` acts as an event source and returns data as soon as materials are available. For an example, see [Using SSEs](./sse-example.md).
 
-A simpler way is to send an [HTTP GET for your session data](/integration_service.html#integration_service_api_v1_Ansys_Integration_Service_1_0_0_get_sessions_uid_data)
+A simpler approach is to send a `GET` request for your session data. `GET` requests to the `/sessions/{session_uid}/data` endpoint wait for the value specified by `pollSeconds` in the session options.
+
 
 ## Ending your session (optional)
 
-Depending on the requirements of your workflow, you might want to signal to the user that they should stop selecting materials in the Granta Material Picker. For example, the user may have selected enough materials to satisfy your workflow and a further material would not be used. 
-
-
-To end a Granta Material Picker session, send a [DELETE to your session URL](/integration_service.html#integration_service_api_v1_Granta_Integration_Service_1_0_0_sessions_uid_delete).
-
-This will disable the user interface controls in the web browser tab for your session, and materials will no longer be available on the data endpoints.
-
-If you do not end your session, the web UI will remain active and the session can be used to transfer further material models. 
+Depending on your workflow, you might want to prevent further material selection in Granta Material Picker. For example, you may end the session once enough materials have been selected and no further materials are required.
+For more information, see [Ending a session](./ending-a-session.md).
