@@ -2,11 +2,14 @@
 
 To end a Granta Material Picker session, send an HTTP `DELETE` request to the session URL. For example:
 
-:::code source="../../SampleHostApps/NoHost/SimpleExample.py" language="python" range="37-38":::
+<!-- :::code source="../../SampleHostApps/NoHost/SimpleExample.py" language="python" range="37-38"::: -->
+```python
+requests.delete(f"{sessions_endpoint}{post_session_resp['id']}", json={}, headers=auth_header, verify=0)
+```
 
 Ending a session disables the controls in the Granta Material Picker tab and displays the following message:
 
-<img src="images/session-ended.jpeg" alt="Material Picker screenshot with session ended popup" width="500" height="auto">
+<img src="./images/session-ended.jpeg" alt="Material Picker screenshot with session ended popup" width="500" height="auto">
 
 Materials are no longer available on the data endpoints.
 

@@ -6,7 +6,7 @@ Ansys Materials specialize in offering material data management software to stor
 
 An Ansys Cloud Native Platform hosted solution is provided that uses Granta MI to host materials data and allow other products to connect to this service via the Granta Material Picker:
 
-![Summary of the Ansys Cloud Native Platform solution](images/intro.png)
+![Summary of the Ansys Cloud Native Platform solution](./images/intro.png)
 
 ## Materials data
 

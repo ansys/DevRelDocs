@@ -6,7 +6,7 @@ From the perspective of your application, interacting with Granta Connected Data
 - Granta Material Picker
 - Material models
 
-<img src="images/basic-architecture.png" alt="Basic architecture diagram" width="700" height="auto">
+<img src="./images/basic-architecture.png" alt="Basic architecture diagram" width="700" height="auto">
 
 
 ## Granta Integration Service
@@ -15,7 +15,7 @@ The Granta Integration Service hosts the web API that your application communica
 ## Granta Material Picker
 This is a web application that allows data to be selected for import to your application.
   
-<img src="images/MMP-web-ui.png" alt="Material Model Picker screenshot" width="500" height="auto">
+<img src="./images/MMP-web-ui.png" alt="Material Model Picker screenshot" width="500" height="auto">
 
 
 ## Material models

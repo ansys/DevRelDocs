@@ -36,6 +36,6 @@ items:
     - name: Waiting for data
       href: sse-example.md
 - name: API reference
-  href: ../integration_service.html
+  href: api.md
 - name: Changelog
   href: changelog.md
