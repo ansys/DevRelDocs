@@ -13,6 +13,8 @@
     href: user_guide/lucid.md  
   - name: Reading and writing files
     href: user_guide/fileio.md
+  - name: Solver translation
+    href: user_guide/solver_translation.md
   - name: Logging
     href: user_guide/logging.md
   - name: Interactive graphics using PyVista
