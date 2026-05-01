@@ -183,32 +183,32 @@ enum SurfaceMtfTypes {
 ```
 
 
-#### Enumerator MTF\_Incoherent
+#### Enumerator MTF_Incoherent
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1ab1c82a2b331a167b28732d570a74c3b8a23c8770e113e86dfa71c09fd0a4ded88"></a>
 
 
-#### Enumerator Real\_Incoherent
+#### Enumerator Real_Incoherent
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1ab1c82a2b331a167b28732d570a74c3b8a20a857c73b37cad2c584195e8a3da781"></a>
 
 
-#### Enumerator Imaginary\_Incoherent
+#### Enumerator Imaginary_Incoherent
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1ab1c82a2b331a167b28732d570a74c3b8a9a1a2e76a383215f4d4de9a48461ced1"></a>
 
 
-#### Enumerator MTF\_Coherent
+#### Enumerator MTF_Coherent
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1ab1c82a2b331a167b28732d570a74c3b8a55a579b3ea380ef7485e641c05bd7374"></a>
 
 
-#### Enumerator Real\_Coherent
+#### Enumerator Real_Coherent
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1ab1c82a2b331a167b28732d570a74c3b8a9dc89a1811fde865a1505b8bacd8cd9d"></a>
 
 
-#### Enumerator Imaginary\_Coherent
+#### Enumerator Imaginary_Coherent
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1ab1c82a2b331a167b28732d570a74c3b8a0452bab28131ef4966fca14bd198fe2f"></a>
 
@@ -246,9 +246,8 @@ enum HuygensMtfTypes {
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Mtf.HuygensMtfTypes"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+[private]: https://img.shields.io/badge/-private-red (private)
 [package]: https://img.shields.io/badge/-package-blueviolet (package)

@@ -33,7 +33,7 @@
 
 ## Properties
 
-### Property X1\_Cell
+### Property X1_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_conjugate_1af5a5b4d05f4e2b6be6352ba38b309956"></a>
 
@@ -55,7 +55,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceConjugate.X1_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceConjugate.X1_Cell"}]}`
 -->
 
-### Property Y1\_Cell
+### Property Y1_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_conjugate_1abf6a705d357a1b22e4f6672e797a0fde"></a>
 
@@ -77,7 +77,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceConjugate.Y1_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceConjugate.Y1_Cell"}]}`
 -->
 
-### Property Z1\_Cell
+### Property Z1_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_conjugate_1a199ee0f23beae7bd608730cff7940b58"></a>
 
@@ -99,7 +99,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceConjugate.Z1_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceConjugate.Z1_Cell"}]}`
 -->
 
-### Property X2\_Cell
+### Property X2_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_conjugate_1a21edb3cc25a3e1012d91c82152ac84f1"></a>
 
@@ -121,7 +121,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceConjugate.X2_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceConjugate.X2_Cell"}]}`
 -->
 
-### Property Y2\_Cell
+### Property Y2_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_conjugate_1a9207ea9c5e252d17fd35eb25231c3771"></a>
 
@@ -143,7 +143,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceConjugate.Y2_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceConjugate.Y2_Cell"}]}`
 -->
 
-### Property Z2\_Cell
+### Property Z2_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_conjugate_1a0d98ecf4d3ed5a62a81b91a44dd74b8f"></a>
 
@@ -297,7 +297,5 @@ double ZOSAPI.Editors.LDE.ISurfaceConjugate.Z2
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceConjugate.Z2"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

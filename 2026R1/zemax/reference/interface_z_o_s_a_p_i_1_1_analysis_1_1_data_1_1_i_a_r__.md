@@ -193,7 +193,7 @@ int ZOSAPI.Analysis.Data.IAR_.NumberOfDataSeries
 ```
 
 
-Usage (see [Example 04](page_ex04.md#page_ex04) for a full sample)
+Usage (see [Example 04](../apiexamples/example_04.md) for a full sample)
 
 
 C# 
@@ -297,7 +297,7 @@ IAR_DataSeries [] ZOSAPI.Analysis.Data.IAR_.DataSeries
 ```
 
 
-Usage (see [Example 23](page_ex23.md#page_ex23) for a full sample)
+Usage (see [Example 23](../apiexamples/example_23.md) for a full sample)
 
 
 C# 
@@ -591,7 +591,7 @@ IAR_SpotDataResultMatrix ZOSAPI.Analysis.Data.IAR_.SpotData
 ```
 
 
-Usage (see [Example 22](page_ex22.md#page_ex22) for a full sample)
+Usage (see [Example 22](../apiexamples/example_22.md) for a full sample)
 
 
 C# 
@@ -764,7 +764,7 @@ IAR_DataGridRgb ZOSAPI.Analysis.Data.IAR_.GetDataGridRgb(int index)
 ```
 
 
-Usage (see [Example 24](page_ex24.md#page_ex24) for a full sample)
+Usage (see [Example 24](../apiexamples/example_24.md) for a full sample)
 
 
 C# 
@@ -987,7 +987,7 @@ bool ZOSAPI.Analysis.Data.IAR_.GetTextFile(String Filename)
 
 This function provides similar functionality to the DDE and ZPL commands GETTEXTFILE.
 
-Usage (see [Example 10](page_ex10.md#page_ex10) for a full sample)
+Usage (see [Example 10](../apiexamples/example_10.md) for a full sample)
 
 
 C# 
@@ -1074,7 +1074,5 @@ C#
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_.GetTextFile"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

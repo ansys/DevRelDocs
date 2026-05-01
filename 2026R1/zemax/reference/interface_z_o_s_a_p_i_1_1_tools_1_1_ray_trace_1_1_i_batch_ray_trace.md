@@ -9,7 +9,7 @@
 
 Interfaces and methods for running a ray trace on multiple rays at a time. This interface can be accessed via the IOpticalSystemTools interface.
 
-Usage (see [Example 22](page_ex22.md#page_ex22) for a full sample)
+Usage (see [Example 22](../apiexamples/example_22.md) for a full sample)
 
 
 C# 
@@ -98,7 +98,7 @@ IRayTraceNormUnpolData ZOSAPI.Tools.RayTrace.IBatchRayTrace.CreateNormUnpol(int 
 
 Performs a batch unpolarized ray trace, using normalized pupil coordinates. See the OpticStudio help manual for more information.
 
-Usage (see [Example 23](page_ex23.md#page_ex23) for a full sample)
+Usage (see [Example 23](../apiexamples/example_23.md) for a full sample)
 
 
 C# 
@@ -941,7 +941,5 @@ void ZOSAPI.Tools.RayTrace.IBatchRayTrace.GetPhase(double L, double M, double N,
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Tools.RayTrace.IBatchRayTrace.GetPhase"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

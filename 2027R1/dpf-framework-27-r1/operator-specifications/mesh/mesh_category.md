@@ -5,6 +5,7 @@
 - [change cs](change_cs.md)
 - [combine levelset](combine_levelset.md)
 - [decimate mesh](decimate_mesh.md)
+- [edge decimation](edge_decimation.md)
 - [exclude levelset](exclude_levelset.md)
 - [external layer](external_layer.md)
 - [from field](from_field.md)

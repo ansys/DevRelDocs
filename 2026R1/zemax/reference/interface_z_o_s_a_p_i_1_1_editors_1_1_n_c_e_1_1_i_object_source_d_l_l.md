@@ -29,7 +29,5 @@
 * [WaveNumber](interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_sources.md#interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_sources_1a9360b33ef13f7c942566c3bd37a79c2f)
 * [WaveNumberCell](interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_sources.md#interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_sources_1aa66182684b36d60c5cd742f1c572b089)
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

@@ -363,12 +363,12 @@ Tolerancing Tool 'Criterion' Comps.
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_tolerancing_1a4f04f76132ebfe9fe159f58a64fbacb7a9b285d3da2f07f7eb53444a8c27f5c5c"></a>
 
 
-#### Enumerator NONSEQOptimizeAll\_OD
+#### Enumerator NONSEQOptimizeAll_OD
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_tolerancing_1a4f04f76132ebfe9fe159f58a64fbacb7a5d4175711c0e00f3d36fbb1cd8522feb"></a>
 
 
-#### Enumerator OptimizeAll\_DLS
+#### Enumerator OptimizeAll_DLS
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_tolerancing_1a4f04f76132ebfe9fe159f58a64fbacb7a338c636f0cff320c35fd07aef1cedaad"></a>
 
@@ -383,7 +383,7 @@ Tolerancing Tool 'Criterion' Comps.
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_tolerancing_1a4f04f76132ebfe9fe159f58a64fbacb7a6adf97f83acf6453d4a6a4b1070f3754"></a>
 
 
-#### Enumerator OptimizeAll\_OD
+#### Enumerator OptimizeAll_OD
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_tolerancing_1a4f04f76132ebfe9fe159f58a64fbacb7a1f03ef95b51dbaefc5a0f905df9b01af"></a>
 
@@ -421,12 +421,12 @@ Tolerancing Tool 'Criterion' Fields.
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_tolerancing_1a150df2a2f67d7bd3952818148e19d4ffa9f9ff6cbce248eb12b63119ce13b4aeb"></a>
 
 
-#### Enumerator Y\_Symmetric
+#### Enumerator Y_Symmetric
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_tolerancing_1a150df2a2f67d7bd3952818148e19d4ffa55ce2cb01168a77ac562ef5a1a6ef688"></a>
 
 
-#### Enumerator XY\_Symmetric
+#### Enumerator XY_Symmetric
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_tolerancing_1a150df2a2f67d7bd3952818148e19d4ffab1f17b4fe3decb76f0b16efbe87e130b"></a>
 
@@ -1326,11 +1326,9 @@ enum TolerancingOperand {
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Tools.Tolerancing.TolerancingOperand"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+[private]: https://img.shields.io/badge/-private-red (private)
 [package]: https://img.shields.io/badge/-package-blueviolet (package)
-[Markdown]: https://img.shields.io/badge/language-Markdown-blue (Markdown)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

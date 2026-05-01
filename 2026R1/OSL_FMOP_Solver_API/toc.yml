@@ -1,0 +1,14 @@
+- name: Introduction
+  href: index.md
+- name: Content
+  items:
+    - name: Global content
+      href: global_contents.md
+    - name: Files
+      href: file_contents.md
+- name: Index pages
+  items:
+    - name: Global index
+      href: global_index.md
+    - name: Files
+      href: file_index.md

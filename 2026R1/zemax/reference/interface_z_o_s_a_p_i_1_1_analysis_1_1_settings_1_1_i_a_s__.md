@@ -9,7 +9,7 @@
 
 Base class for all analysis settings interfaces. This class can be accessed via the IA_ interface.
 
-Usage (see [Example 15](page_ex15.md#page_ex15) for a full sample)
+Usage (see [Example 15](../apiexamples/example_15.md) for a full sample)
 
 
 C# 
@@ -317,7 +317,7 @@ bool ZOSAPI.Analysis.Settings.IAS_.SaveTo(string settingsFile)
 
 Saves the current settings to the specified file.
 
-Usage (see [Example 17](page_ex17.md#page_ex17) for a full sample)
+Usage (see [Example 17](../apiexamples/example_17.md) for a full sample)
 
 
 C# 
@@ -407,7 +407,7 @@ bool ZOSAPI.Analysis.Settings.IAS_.LoadFrom(string settingsFile)
 
 Replaces the current settings with settings read from the specified file.
 
-Usage (see [Example 17](page_ex17.md#page_ex17) for a full sample)
+Usage (see [Example 17](../apiexamples/example_17.md) for a full sample)
 
 
 C# 
@@ -497,7 +497,7 @@ bool ZOSAPI.Analysis.Settings.IAS_.ModifySettings(string settingsFile, string ty
 
 Changes a single setting in the specified file. See the MODIFYSETTINGS DDE command help documentation for more information.
 
-Usage (see [Example 17](page_ex17.md#page_ex17) for a full sample)
+Usage (see [Example 17](../apiexamples/example_17.md) for a full sample)
 
 
 C# 
@@ -613,7 +613,5 @@ C#
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.IAS_.ModifySettings"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

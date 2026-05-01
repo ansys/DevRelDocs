@@ -64,7 +64,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceToroidalNurbs.RadiusOfRotationCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceToroidalNurbs.RadiusOfRotationCell"}]}`
 -->
 
-### Property Minimum\_X\_Cell
+### Property Minimum_X_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal_nurbs_1a3c426b53c52fb649b770ceff6e918c1f"></a>
 
@@ -108,7 +108,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceToroidalNurbs.MinimumAngleCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceToroidalNurbs.MinimumAngleCell"}]}`
 -->
 
-### Property Maximum\_X\_Cell
+### Property Maximum_X_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal_nurbs_1a6f217a77f050aea0279fc47e195a8430"></a>
 
@@ -174,7 +174,7 @@ double ZOSAPI.Editors.LDE.ISurfaceToroidalNurbs.RadiusOfRotation
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceToroidalNurbs.RadiusOfRotation"}]}`
 -->
 
-### Property Minimum\_X
+### Property Minimum_X
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal_nurbs_1a1baaa44144caeaf787da2a24611dd136"></a>
 
@@ -218,7 +218,7 @@ double ZOSAPI.Editors.LDE.ISurfaceToroidalNurbs.MinimumAngle
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceToroidalNurbs.MinimumAngle"}]}`
 -->
 
-### Property Maximum\_X
+### Property Maximum_X
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal_nurbs_1aff5fc28060959ad23f2eb261f124dc28"></a>
 
@@ -527,7 +527,5 @@ void ZOSAPI.Editors.LDE.ISurfaceToroidalNurbs.SetWn(int n, double Value)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceToroidalNurbs.SetWn"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

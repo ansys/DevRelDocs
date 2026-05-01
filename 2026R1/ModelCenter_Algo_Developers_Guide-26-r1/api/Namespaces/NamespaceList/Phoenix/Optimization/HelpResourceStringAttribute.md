@@ -25,15 +25,15 @@ Attribute used to specify a location in the help for an option.
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-| |`HelpResourceStringAttribute (string resourceName, string stringName)`<br>Constructor |
+|Type|Name|Description|
+|-----|-----|-----|
+| |`HelpResourceStringAttribute (string resourceName, string stringName)` |Constructor |
 
 ## Properties
-|Name|Description|
-|-----|-----|
-|string | `ResourceName [get, set]`<br>Name of the resource that contains the help file path. |
-|string | `StringName [get, set]`<br>Name of the string that contains the help file path. |
+|Type|Name|Description|
+|-----|-----|-----|
+|string |`ResourceName [get, set]` |Name of the resource that contains the help file path. |
+|string |`StringName [get, set]` |Name of the string that contains the help file path. |
 
 ## Constructor & Destructor Documentation
 

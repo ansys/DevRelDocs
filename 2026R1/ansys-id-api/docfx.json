@@ -1,10 +1,10 @@
 {
     "build": {
       "globalMetadata": {
-        "title": "Ansys ID PAT authentication guide",
+        "title": "Ansys ID SSO PAT authentication guide",
         "summary": "API endpoints for managing groups, members, and roles for Ansys ID Portal",
         "version": "2026 R1",
-        "product": "Ansys ID",
+        "product": "Ansys ID SSO",
         "programming language": "",
         "physics": "Shared Components"
       }

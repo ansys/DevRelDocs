@@ -9,7 +9,7 @@
 
 Aperture Type - Rectangular Aperture / Obscuration. This interface can be retrieved from a ILDEApertureData interface.
 
-Usage (see [Example 19](page_ex19.md#page_ex19) for a full sample)
+Usage (see [Example 19](../apiexamples/example_19.md) for a full sample)
 
 
 C# 
@@ -163,7 +163,5 @@ double ZOSAPI.Editors.LDE.ISurfaceApertureRectangular.ApertureYDecenter
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceApertureRectangular.ApertureYDecenter"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

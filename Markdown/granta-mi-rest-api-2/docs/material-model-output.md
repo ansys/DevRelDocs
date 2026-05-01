@@ -1,240 +1,205 @@
 # Material Model Output
 
-The Material Model Output is returned from the Granta Integration Service, or directly from the Granta Material Model Service. The details of what is
-returned can be seen on the [Swagger UI page](https://test-grantami.awsansys7np.onscale.com/mi_servicelayer/proxy/v1.svc/mms/swagger/index.html).
-(If you get an authentication error, you may have to log in using OIDC to the [MI Service Layer homepage](https://test-grantami.awsansys7np.onscale.com/mi_servicelayer) prior to accessing that link.)
+Material Model Output is the JSON-formatted `ModelExportResponse` that is provided by the `/v1/models/export` endpoint.
 
-The object returned is a `ModelExportResponse` from the `/v1/models/export` endpoint. More details and examples can be found on that page.
+The full details of what is returned can be seen in the [Swagger](https://grantamaterials.ansys.com/mi_servicelayer/proxy/v1.svc/mms/swagger/index.html) documentation.
+
+Note: If you cannot access the Swagger documentation, ensure that you have a valid Ansys ID, and that you have logged in to the [MI Service Layer homepage](https://grantamaterials.ansys.com/mi_servicelayer).
+
 
 ## Example
 
-This is an example of a Material Model Output, with comments added for information.
-
+An annotated example of a Material Model Output.
 ```json
 {
-  "materials": [
-    {
-      "materialName": "Aluminum, 2014, T4",
-      // A unique identifier for the material record.
-      "materialId": "d1c6a822-cb97-4b3d-a0a8-21cc68b749da",
-      // The key for the MI database that the data was exported from.
-      "databaseKey": "MI_Pro",
-      // The name of the MI database that the data was exported from.
-      "databaseName": "MI Pro",
-      // The date/time when the export happened
-      "exportDateTime": "2025-09-10T10:42:31Z",
-      // Provenance information about the material data
-      "traceabilityNotes": "Material data from Granta MI\r\nRecord name: Aluminum, 2014, T4\r\nDate: 2025-09-08 (UTC)\r\nTable name: MaterialUniverse",
-      "models": [
+    "materials": [
         {
-          "modelName": "True stress with strain",
-          "modelId": "stress.strain",
-          // If any constraints were defined in the MMD, the values and units used will be listed here.
-          "constraints": [],
-          "properties": [
-            {
-              "name": "True stress with strain",
-              "columns": [
-                {
-                  "name": "True stress with strain",
-                  "unit": "MPa",
-                  // This field indicates if the column represents a free parameter or data that is dependent on the parameters.
-                  // In a 2-D graph, the free parameter would typically be on the x-axis and the dependent data on the y-axis. 
-                  "isFreeParameter": false,
-                  "numericValues": [
-                    272.7,
-                    323.9,
-                    355.7,
-                    381.3,
-                    403.8,
-                    423.1,
-                    439.4,
-                    453,
-                    463.9,
-                    472.3
-                  ],
-                  // If the MI attribute used to source the data has parameters that are not specified in the MMD as either
-                  // a free parameter or a constraint, a constraint value will be chosen based on the parameter default
-                  // value in MI. These constraints will be listed in this section.
-                  "implicitConstraints": [
-                    {
-                      "name": "Temperature",
-                      "numericValue": 293.15,
-                      "unit": "K"
-                    }
-                  ]
+            "materialName": "Alumina, 88% pure", 
+            "materialId": "046e7049-c548-4ef0-95fc-84362234a8d9",
+            "databaseKey": "MI_Starter_Data",
+            "databaseName": "Starter Data",
+            "tableName": "Starter Data",
+            "unitSystem": "Metric",
+            "absoluteUnits": false,
+            "exportDateTime": "2026-02-03T16:47:50Z",
+            // Provenance information about the material data
+            "traceabilityNotes": "Material data from Granta MI\r\n
+			Record name: Alumina, 88% pure\r\n
+			Table name: Starter Data\r\nDate: 2026-02-03 (UTC)",
+            "models": [
+                 {
+                    "modelName": "Elasticity, isotropic with temperature",
+                    "modelId": "elasticity.isotropic.with.temp",
+                     // If any constraints were defined in the Material Model Definition, the values and units used will be listed here.
+                    "constraints": [],
+                    "properties": [
+                        {
+                            "name": "Tensile modulus",
+                            "columns": [
+                                {
+                                    "name": "Tensile modulus",
+                                    "symbol": "E",
+                                    "unit": "GPa",
+					// Indicates if the column represents a free Parameter or data that is dependent on Parameters.
+					// In a 2-D graph, the free Parameter would typically be on the 
+					// x-axis and the dependent data on the y-axis. 
+                                    "isFreeParameter": false,
+                                    "numericValues": [
+                                        246.3,
+                                        229.5,
+                                        217.7,
+                                        213.5,
+                                        215.3,
+                                        219.3,
+                                        220.3,
+                                        213.4,
+                                        195.3,
+                                        165.8
+                                    ],
+					// If the Attribute used to source the data has Parameters that are not specified 
+					// in the Materials Model Definition as either a free Parameter or a Constraint,
+					// a Constraint value will be chosen based on the default Parameter value in the 
+					// database. 
+					// These constraints will be listed in this section.
+                                    "implicitConstraints": []
+                                },
+                                {
+                                    "name": "Temperature",
+                                    "symbol": "T",
+                                    "unit": "°C",
+                                    "isFreeParameter": true,
+                                    "numericValues": [
+                                        19.850000000000023,
+                                        151,
+                                        282.1,
+                                        413.19999999999993,
+                                        544.3,
+                                        675.4,
+                                        806.5000000000001,
+                                        937.6,
+                                        1069,
+                                        1200
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Poisson's ratio",
+                            "symbol": "v",
+                            "numericValue": 0.23916520982779324
+                        }
+                    ]
+                },
+				{
+                    "modelName": "Classification",
+                    "modelId": "classification",
+                    "constraints": [],
+                    "properties": [
+                        {
+                            "name": "Material class",
+                            "stringValue": "Ceramic"
+                        },
+                        {
+                            "name": "Material family",
+                            "stringValue": "Ceramic (technical)"
+                        },
+                        {
+                            "name": "Material sub-class",
+                            "stringValue": "Technical ceramic"
+                        },
+                        {
+                            "name": "Material form",
+                            "stringValue": "Bulk material"
+                        },
+                        {
+                            "name": "Material state",
+                            "stringValue": "Solid"
+                        }
+                    ]
                 },
                 {
-                  "name": "Strain",
-                  "symbol": "e",
-                  "unit": "% strain",
-                  "isFreeParameter": true,
-                  "numericValues": [
-                    0,
-                    1.556,
-                    3.111,
-                    4.667,
-                    6.222,
-                    7.778,
-                    9.333,
-                    10.89,
-                    12.44,
-                    14
-                  ]
+                    "modelName": "Density",
+                    "modelId": "density",
+                    "constraints": [],
+                    "properties": [
+                        {
+                            "name": "Density",
+                            "symbol": "rho",
+                            "unit": "kg/m^3",
+                            "numericValue": 3474.823760716134
+                        }
+                    ]
+                },
+                {
+                    "modelName": "Description",
+                    "modelId": "description",
+                    "constraints": [],
+                    "properties": [
+                        {
+                            "name": "Description",
+                            "stringValue": "Aluminum oxide (88% Al2O3)"
+                        }
+                    ]
+                },
+                {
+                    "modelName": "Elasticity, isotropic",
+                    "modelId": "elasticity.isotropic",
+                    "constraints": [],
+                    "properties": [
+                        {
+                            "name": "Tensile modulus",
+                            "symbol": "E",
+                            "unit": "GPa",
+                            "numericValue": 249.99874686880756
+                        },
+                        {
+                            "name": "Poisson's ratio",
+                            "symbol": "v",
+                            "numericValue": 0.23916520982779324
+                        }
+                    ]
+                },
+                {
+                    "modelName": "Simple failure",
+                    "modelId": "simple.failure",
+                    "constraints": [],
+                    "properties": [
+                        {
+                            "name": "Tensile strength, yield",
+                            "symbol": "YS",
+                            "unit": "MPa",
+                            "numericValue": 200.0124996093994
+                        }
+                    ]
+                },
+                {
+                    "modelName": "Specific heat capacity",
+                    "modelId": "specific.heat.capacity",
+                    "constraints": [],
+                    "properties": [
+                        {
+                            "name": "Specific heat capacity",
+                            "symbol": "Cp",
+                            "unit": "J/kg.°C",
+                            "numericValue": 804.2387705153241
+                        }
+                    ]
+                },
+                {
+                    "modelName": "Thermal conductivity",
+                    "modelId": "thermal.conductivity",
+                    "constraints": [],
+                    "properties": [
+                        {
+                            "name": "Thermal conductivity",
+                            "symbol": "k",
+                            "unit": "W/m.°C",
+                            "numericValue": 13.73899558884097
+                        }
+                    ]
                 }
-              ]
-            }
-          ],
-          // If there were any issues exporting the model, they will be listed in this section.
-          "notes": [
-            {
-              "message": "An example error occurred."
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  // Information about issues that occurred during export
-  "issues": {
-    "missingRecordHistoryGuids": [
-      "3fa85f64-5717-4562-b3fc-2c963f66afa1"
-    ]
-  }
-}
-```
-
-## Properties
-
-The `properties` element will contain one or more items. Those items may have a single value - specified in the `numericValue`,
-`stringValue`, or `boolValue` elements - or a `columns` element. These elements are mutually exclusive; only one of them
-will be present for a given property.
-
-In this simple example, the property contains the value in the `numericValue` element.
-```json
-{
-  "properties": [
-    {
-      "name": "Density",
-      "symbol": "ρ",
-      "unit": "Mg/m^3",
-      "numericValue": 1.029
-    }
-  ]
-}
-```
-
-Here, the output contains multiple properties, each with multiple columns. Properties do not have to have the
-same free parameters in this case.
-```json
-{
-    "properties": [
-      {
-        "name": "Dynamic viscosity",
-        "columns": [
-          {
-            "name": "Dynamic viscosity",
-            "symbol": "μ",
-            "unit": "Pa.s",
-            "isFreeParameter": false,
-            "numericValues": [
-              0.0019929,
-              0.0017225,
-              0.0015008
-            ],
-            "implicitConstraints": []
-          },
-          {
-            "name": "Temperature",
-            "symbol": "T",
-            "unit": "°C",
-            "isFreeParameter": true,
-            "numericValues": [
-              15.403999999999996,
-              20.350000000000023,
-              25.297000000000025
             ]
-          }
-        ]
-      },
-      {
-        "name": "Kinematic viscosity",
-        "columns": [
-          {
-            "name": "Kinematic viscosity",
-            "symbol": "ν",
-            "unit": "m^2/s",
-            "isFreeParameter": false,
-            "numericValues": [
-              0.00000195,
-              0.00000168,
-              0.00000147
-            ],
-            "implicitConstraints": []
-          },
-          {
-            "name": "Temperature",
-            "symbol": "T",
-            "unit": "°C",
-            "isFreeParameter": true,
-            "numericValues": [
-              15.403999999999996,
-              20.350000000000023,
-              25.297000000000025
-            ]
-          }
-        ]
-      }
-    ]
-}
-```
-
-This example contains the same data as above, but the properties have been consolidated into a single property (as the 
-`consolidatePropertiesThatHaveParameters` flag was set on the Material Model Definition). Consolidated outputs will only contain one property
-that is dependent on free parameters, but may have additional simple properties.
-```json
-{
-  "properties": [
-    {
-      "name": "Viscosity",
-      "columns": [
-        {
-          "name": "Dynamic viscosity",
-          "symbol": "μ",
-          "unit": "Pa.s",
-          "isFreeParameter": false,
-          "numericValues": [
-            0.0019929,
-            0.0017225,
-            0.0015008
-          ],
-          "implicitConstraints": []
-        },
-        {
-          "name": "Kinematic viscosity",
-          "symbol": "ν",
-          "unit": "m^2/s",
-          "isFreeParameter": false,
-          "numericValues": [
-            0.00000195,
-            0.00000168,
-            0.00000147
-          ],
-          "implicitConstraints": []
-        },
-        {
-          "name": "Temperature",
-          "symbol": "T",
-          "unit": "°C",
-          "isFreeParameter": true,
-          "numericValues": [
-            15.403999999999996,
-            20.350000000000023,
-            25.297000000000025
-          ]
         }
-      ]
-    }
-  ]
+    ]
 }
 ```

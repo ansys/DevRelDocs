@@ -169,7 +169,7 @@ bool ZOSAPI.Analysis.Settings.Mtf.IAS_FftMtfvsField.UsePolarization
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Mtf.IAS_FftMtfvsField.UsePolarization"}]}`
 -->
 
-### Property Freq\_1
+### Property Freq_1
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1_1_i_a_s___fft_mtfvs_field_1a90f7cd8b7c0d2a9bc0bd13c7ac1a8b5a"></a>
 
@@ -191,7 +191,7 @@ double ZOSAPI.Analysis.Settings.Mtf.IAS_FftMtfvsField.Freq_1
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Mtf.IAS_FftMtfvsField.Freq_1"}]}`
 -->
 
-### Property Freq\_2
+### Property Freq_2
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1_1_i_a_s___fft_mtfvs_field_1a00378a25c4635ada53bf5f41e510f1ea"></a>
 
@@ -213,7 +213,7 @@ double ZOSAPI.Analysis.Settings.Mtf.IAS_FftMtfvsField.Freq_2
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Mtf.IAS_FftMtfvsField.Freq_2"}]}`
 -->
 
-### Property Freq\_3
+### Property Freq_3
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1_1_i_a_s___fft_mtfvs_field_1ac14a206c5e480f2d99ae07f28de1766f"></a>
 
@@ -235,7 +235,7 @@ double ZOSAPI.Analysis.Settings.Mtf.IAS_FftMtfvsField.Freq_3
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Mtf.IAS_FftMtfvsField.Freq_3"}]}`
 -->
 
-### Property Freq\_4
+### Property Freq_4
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1_1_i_a_s___fft_mtfvs_field_1aa93cf2dff649e4eaa39037f598edf47e"></a>
 
@@ -257,7 +257,7 @@ double ZOSAPI.Analysis.Settings.Mtf.IAS_FftMtfvsField.Freq_4
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Mtf.IAS_FftMtfvsField.Freq_4"}]}`
 -->
 
-### Property Freq\_5
+### Property Freq_5
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1_1_i_a_s___fft_mtfvs_field_1af26332f170dc4202aa8856f2e9d1cfeb"></a>
 
@@ -279,7 +279,7 @@ double ZOSAPI.Analysis.Settings.Mtf.IAS_FftMtfvsField.Freq_5
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Mtf.IAS_FftMtfvsField.Freq_5"}]}`
 -->
 
-### Property Freq\_6
+### Property Freq_6
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_mtf_1_1_i_a_s___fft_mtfvs_field_1a6adae058481b2e704cb6bec833f84632"></a>
 
@@ -323,7 +323,5 @@ int ZOSAPI.Analysis.Settings.Mtf.IAS_FftMtfvsField.FieldDensity
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Mtf.IAS_FftMtfvsField.FieldDensity"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

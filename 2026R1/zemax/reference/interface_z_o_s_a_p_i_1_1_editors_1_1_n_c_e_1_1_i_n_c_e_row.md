@@ -209,7 +209,7 @@ IObject ZOSAPI.Editors.NCE.INCERow.ObjectData
 ```
 
 
-Usage (see [Example 17](page_ex17.md#page_ex17) for a full sample)
+Usage (see [Example 17](../apiexamples/example_17.md) for a full sample)
 
 
 C# 
@@ -357,7 +357,7 @@ INCEDrawData ZOSAPI.Editors.NCE.INCERow.DrawData
 
 Gets the object Draw data.
 
-Usage (see [Example 17](page_ex17.md#page_ex17) for a full sample)
+Usage (see [Example 17](../apiexamples/example_17.md) for a full sample)
 
 
 C# 
@@ -559,7 +559,7 @@ INCEVolumePhysicsData ZOSAPI.Editors.NCE.INCERow.VolumePhysicsData
 
 Gets the object Volume Physics data.
 
-Usage (see [Example 17](page_ex17.md#page_ex17) for a full sample)
+Usage (see [Example 17](../apiexamples/example_17.md) for a full sample)
 
 
 C# 
@@ -734,7 +734,7 @@ INCECADData ZOSAPI.Editors.NCE.INCERow.CADData
 
 Gets the object CAD data.
 
-Usage (see [Example 09](page_ex09.md#page_ex09) for a full sample)
+Usage (see [Example 09](../apiexamples/example_09.md) for a full sample)
 
 
 C# 
@@ -867,7 +867,7 @@ int ZOSAPI.Editors.NCE.INCERow.RefObject
 ```
 
 
-Usage (see [Example 17](page_ex17.md#page_ex17) for a full sample)
+Usage (see [Example 17](../apiexamples/example_17.md) for a full sample)
 
 
 C# 
@@ -1028,7 +1028,7 @@ double ZOSAPI.Editors.NCE.INCERow.XPosition
 ```
 
 
-Usage (see [Example 24](page_ex24.md#page_ex24) for a full sample)
+Usage (see [Example 24](../apiexamples/example_24.md) for a full sample)
 
 
 C# 
@@ -1149,7 +1149,7 @@ double ZOSAPI.Editors.NCE.INCERow.ZPosition
 ```
 
 
-Usage (see [Example 17](page_ex17.md#page_ex17) for a full sample)
+Usage (see [Example 17](../apiexamples/example_17.md) for a full sample)
 
 
 C# 
@@ -1418,7 +1418,7 @@ string ZOSAPI.Editors.NCE.INCERow.Material
 ```
 
 
-Usage (see [Example 17](page_ex17.md#page_ex17) for a full sample)
+Usage (see [Example 17](../apiexamples/example_17.md) for a full sample)
 
 
 C# 
@@ -1579,7 +1579,7 @@ IEditorCell ZOSAPI.Editors.NCE.INCERow.GetObjectCell(ObjectColumn Col)
 
 Gets the specified object cell data.
 
-Usage (see [Example 24](page_ex24.md#page_ex24) for a full sample)
+Usage (see [Example 24](../apiexamples/example_24.md) for a full sample)
 
 
 C# 
@@ -1674,7 +1674,7 @@ string[] ZOSAPI.Editors.NCE.INCERow.AvailableParameters()
 
 Retrieve the headers for all cells used by this object.
 
-Usage (see [Example 09](page_ex09.md#page_ex09) for a full sample)
+Usage (see [Example 09](../apiexamples/example_09.md) for a full sample)
 
 
 C# 
@@ -1763,7 +1763,7 @@ IObjectTypeSettings ZOSAPI.Editors.NCE.INCERow.GetObjectTypeSettings(ObjectType 
 
 Create the settings for the specified type. Use this method to specify any extra data required to change to the appropriate object type (i.e. external files).
 
-Usage (see [Example 17](page_ex17.md#page_ex17) for a full sample)
+Usage (see [Example 17](../apiexamples/example_17.md) for a full sample)
 
 
 C# 
@@ -1841,7 +1841,7 @@ bool ZOSAPI.Editors.NCE.INCERow.ChangeType(IObjectTypeSettings settings)
 
 Changes the current object to the specified type. Use GetObjectTypeSettings to get the relevant settings.
 
-Usage (see [Example 17](page_ex17.md#page_ex17) for a full sample)
+Usage (see [Example 17](../apiexamples/example_17.md) for a full sample)
 
 
 C# 
@@ -2004,7 +2004,5 @@ The Coating Performance data interface.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.INCERow.GetCoatingPerformanceData"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

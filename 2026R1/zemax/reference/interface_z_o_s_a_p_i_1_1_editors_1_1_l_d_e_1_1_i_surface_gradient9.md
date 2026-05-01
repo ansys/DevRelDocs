@@ -49,7 +49,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceGradient9.DeltaTCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceGradient9.DeltaTCell"}]}`
 -->
 
-### Property X\_TangentCell
+### Property X_TangentCell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient9_1ae5b973126dd3d49ccecdf768ce8829be"></a>
 
@@ -71,7 +71,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceGradient9.X_TangentCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceGradient9.X_TangentCell"}]}`
 -->
 
-### Property Y\_TangentCell
+### Property Y_TangentCell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient9_1a23911d81ef6e572d24d686f9d756f3ea"></a>
 
@@ -115,7 +115,7 @@ double ZOSAPI.Editors.LDE.ISurfaceGradient9.DeltaT
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceGradient9.DeltaT"}]}`
 -->
 
-### Property X\_Tangent
+### Property X_Tangent
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient9_1ae939d823fe57944be1bb3ea62e21c938"></a>
 
@@ -137,7 +137,7 @@ double ZOSAPI.Editors.LDE.ISurfaceGradient9.X_Tangent
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceGradient9.X_Tangent"}]}`
 -->
 
-### Property Y\_Tangent
+### Property Y_Tangent
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient9_1a3706146a030b1deb27e09acda96762e5"></a>
 
@@ -159,7 +159,5 @@ double ZOSAPI.Editors.LDE.ISurfaceGradient9.Y_Tangent
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceGradient9.Y_Tangent"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

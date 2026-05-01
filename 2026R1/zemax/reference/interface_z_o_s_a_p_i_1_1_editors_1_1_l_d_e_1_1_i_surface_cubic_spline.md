@@ -24,7 +24,7 @@
 
 ## Public functions
 
-### Function Z\_nEigthsCell
+### Function Z_nEigthsCell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_cubic_spline_1aa8931ed7652e50bf73eb082b6e607b1b"></a>
 
@@ -48,7 +48,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceCubicSpline.Z_nEigthsCell(int n)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceCubicSpline.Z_nEigthsCell"}]}`
 -->
 
-### Function Get\_Z\_nEighths
+### Function Get_Z_nEighths
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_cubic_spline_1a07332016b6ba1802887e082378cb48fc"></a>
 
@@ -72,7 +72,7 @@ double ZOSAPI.Editors.LDE.ISurfaceCubicSpline.Get_Z_nEighths(int n)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceCubicSpline.Get_Z_nEighths"}]}`
 -->
 
-### Function Set\_Z\_nEighths
+### Function Set_Z_nEighths
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_cubic_spline_1af12260068cda21cfedd6cb65094ba534"></a>
 
@@ -97,7 +97,5 @@ void ZOSAPI.Editors.LDE.ISurfaceCubicSpline.Set_Z_nEighths(int n, double Value)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceCubicSpline.Set_Z_nEighths"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

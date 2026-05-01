@@ -1,8 +1,8 @@
-# How to use the Problem Test Suite
+# Use the problem test suite
 
 The problem test suite included with the Algorithm Developer Tools allows developers to run their algorithms against a variety of academic and real-world test problems and compare the performance of their algorithm against the performance of the algorithms included with ModelCenter. New evaluators can be added to the test suite by implementing the `IEvaluator` interface.
 
-## PHXProblemTestSuite *[options] [file]*
+## PHXProblemTestSuite [options] [file]
 
 With no options, all algorithms are run against all evaluators using their default options.
 
@@ -59,6 +59,4 @@ The ***user.xml*** file has three top-level elements. The basic format is as fol
   - `GUID` - GUID of the algorithm
   - `Use` - specifies whether or not the evaluator should be run in this configuration (Default: true)
   - `Options` - The XML serialization of the algorithm options
-
-
 

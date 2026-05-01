@@ -1,4 +1,4 @@
-# API Reference
+# API reference
 
-This section provides detailed API documentation for the ModelCenter Algorithm Developer Tools.
+This section provides detailed API documentation for the ModelCenter Custom Optimization Algorithm SDK.
 

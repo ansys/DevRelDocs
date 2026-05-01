@@ -26,7 +26,5 @@ Surface Scattering - None. This interface can be retrieved from the ILDEScatteri
 * [\_S\_User](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_type.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_type_1ad5ab726bef7c89086a96d358eaeb1fff)
 * [Type](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_type.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_scattering_type_1a305e097b4c203ca74df6a915588b4b95)
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

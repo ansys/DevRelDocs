@@ -199,7 +199,7 @@ ISEQToleranceWizard ZOSAPI.Editors.TDE.IToleranceDataEditor.SEQToleranceWizard
 
 The Sequential Tolerance Wizard.
 
-Usage (see [Example 14](page_ex14.md#page_ex14) for a full sample)
+Usage (see [Example 14](../apiexamples/example_14.md) for a full sample)
 
 
 C# 
@@ -690,7 +690,5 @@ The number of operands actually copied.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.TDE.IToleranceDataEditor.CopyOperandsFrom"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

@@ -24,9 +24,9 @@ Interface used to implement warm start functionality for an algorithm for the Op
 
 
 ## Properties
-|Name|Description|
-|-----|-----|
-|WarmStartMethod | `WarmStartMethod [get]`<br>The method used to warm-start this algorithm. |
+|Type|Name|Description|
+|-----|-----|-----|
+|WarmStartMethod |`WarmStartMethod [get]` |The method used to warm-start this algorithm. |
 
 ## Member Function Documentation
 

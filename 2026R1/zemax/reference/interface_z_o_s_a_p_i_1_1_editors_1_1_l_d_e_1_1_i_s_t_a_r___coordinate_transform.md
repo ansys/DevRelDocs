@@ -353,7 +353,7 @@ double[,] ZOSAPI.Editors.LDE.ISTAR_CoordinateTransform.ConvertAnglesToRotationMa
 ```
 
 
-Generates a 3x3 rotation matrix for rotations of thetaX, thetaY and thetaZ about the X-, Y- and Z-axes respectively. Convention is intrinsic rotation thetaZ about Z -> rotation thetaY about Y -> rotation thetaX about X See [https://support.zemax.com/hc/en-us/articles/1500005576822-Rotation-Matrix-and-Tilt-About-X-Y-Z-in-OpticStudio](https://support.zemax.com/hc/en-us/articles/1500005576822-Rotation-Matrix-and-Tilt-About-X-Y-Z-in-OpticStudio). The angles should be in degrees.
+Generates a 3x3 rotation matrix for rotations of thetaX, thetaY and thetaZ about the X-, Y- and Z-axes respectively. Convention is intrinsic rotation thetaZ about Z -> rotation thetaY about Y -> rotation thetaX about X See https://support.zemax.com/hc/en-us/articles/1500005576822-Rotation-Matrix-and-Tilt-About-X-Y-Z-in-OpticStudio. The angles should be in degrees.
 
 **Parameters**:
 
@@ -379,7 +379,5 @@ Generates a 3x3 rotation matrix for rotations of thetaX, thetaY and thetaZ about
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISTAR_CoordinateTransform.ConvertAnglesToRotationMatrix"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

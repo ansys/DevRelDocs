@@ -18,7 +18,7 @@ This operation is independent of the coordinate system unless averaging across e
 This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
 
 - hdf5: h5dpf 
-- lsdyna: d3plot 
+- lsdyna: d3plot, d3ssd 
 - mapdl: rst, rstp 
 
 ## Inputs

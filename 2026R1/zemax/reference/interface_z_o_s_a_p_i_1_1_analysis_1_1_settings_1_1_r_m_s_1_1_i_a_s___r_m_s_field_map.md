@@ -260,7 +260,7 @@ bool ZOSAPI.Analysis.Settings.RMS.IAS_RMSFieldMap.RemoveVignettingFactors
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.RMS.IAS_RMSFieldMap.RemoveVignettingFactors"}]}`
 -->
 
-### Property X\_FieldSampling
+### Property X_FieldSampling
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_r_m_s_1_1_i_a_s___r_m_s_field_map_1acf6591c1062b91732f49a393bca94523"></a>
 
@@ -282,7 +282,7 @@ int ZOSAPI.Analysis.Settings.RMS.IAS_RMSFieldMap.X_FieldSampling
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.RMS.IAS_RMSFieldMap.X_FieldSampling"}]}`
 -->
 
-### Property Y\_FieldSampling
+### Property Y_FieldSampling
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_r_m_s_1_1_i_a_s___r_m_s_field_map_1a30a183073a7662d6eefb329dc2d3df64"></a>
 
@@ -304,7 +304,7 @@ int ZOSAPI.Analysis.Settings.RMS.IAS_RMSFieldMap.Y_FieldSampling
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.RMS.IAS_RMSFieldMap.Y_FieldSampling"}]}`
 -->
 
-### Property X\_FieldSize
+### Property X_FieldSize
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_r_m_s_1_1_i_a_s___r_m_s_field_map_1a40f932f946e3a9c98045535f44e67586"></a>
 
@@ -326,7 +326,7 @@ double ZOSAPI.Analysis.Settings.RMS.IAS_RMSFieldMap.X_FieldSize
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.RMS.IAS_RMSFieldMap.X_FieldSize"}]}`
 -->
 
-### Property Y\_FieldSize
+### Property Y_FieldSize
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_r_m_s_1_1_i_a_s___r_m_s_field_map_1a0e47b6360a9211f983b0d5c79a653deb"></a>
 
@@ -392,7 +392,5 @@ String ZOSAPI.Analysis.Settings.RMS.IAS_RMSFieldMap.ContourFormat
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.RMS.IAS_RMSFieldMap.ContourFormat"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

@@ -321,7 +321,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceBinary4.OrderInZoneCell(int zoneN)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceBinary4.OrderInZoneCell"}]}`
 -->
 
-### Function AsphereInZone\_P\_NthEvenPowerCell
+### Function AsphereInZone_P_NthEvenPowerCell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_binary4_1aee05a82171625758c8614e08035701e2"></a>
 
@@ -346,7 +346,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceBinary4.AsphereInZone_P_NthEvenPowerCell(
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceBinary4.AsphereInZone_P_NthEvenPowerCell"}]}`
 -->
 
-### Function PhaseInZone\_P\_NthEvenPowerCell
+### Function PhaseInZone_P_NthEvenPowerCell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_binary4_1a441e20f2384626ce5d905473b04f4452"></a>
 
@@ -567,7 +567,7 @@ void ZOSAPI.Editors.LDE.ISurfaceBinary4.SetOrderInZone(int zoneN, double Value)
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceBinary4.SetOrderInZone"}]}`
 -->
 
-### Function GetAsphereInZone\_P\_NthEvenPower
+### Function GetAsphereInZone_P_NthEvenPower
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_binary4_1a9707ba5a97fc6f588dd055a10d6d4ab0"></a>
 
@@ -592,7 +592,7 @@ double ZOSAPI.Editors.LDE.ISurfaceBinary4.GetAsphereInZone_P_NthEvenPower(int zo
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceBinary4.GetAsphereInZone_P_NthEvenPower"}]}`
 -->
 
-### Function SetAsphereInZone\_P\_NthEvenPower
+### Function SetAsphereInZone_P_NthEvenPower
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_binary4_1a3fc7c291fb0ff2c2cffcd4a9a0d50bb3"></a>
 
@@ -618,7 +618,7 @@ void ZOSAPI.Editors.LDE.ISurfaceBinary4.SetAsphereInZone_P_NthEvenPower(int zone
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceBinary4.SetAsphereInZone_P_NthEvenPower"}]}`
 -->
 
-### Function GetPhaseInZone\_P\_NthEvenPower
+### Function GetPhaseInZone_P_NthEvenPower
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_binary4_1ac27e6f6dbc1aa4da690871d103602185"></a>
 
@@ -643,7 +643,7 @@ double ZOSAPI.Editors.LDE.ISurfaceBinary4.GetPhaseInZone_P_NthEvenPower(int zone
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceBinary4.GetPhaseInZone_P_NthEvenPower"}]}`
 -->
 
-### Function SetPhaseInZone\_P\_NthEvenPower
+### Function SetPhaseInZone_P_NthEvenPower
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_binary4_1a7e228843fd4617a1d24ee2a76888f8ef"></a>
 
@@ -669,7 +669,5 @@ void ZOSAPI.Editors.LDE.ISurfaceBinary4.SetPhaseInZone_P_NthEvenPower(int zoneN,
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceBinary4.SetPhaseInZone_P_NthEvenPower"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

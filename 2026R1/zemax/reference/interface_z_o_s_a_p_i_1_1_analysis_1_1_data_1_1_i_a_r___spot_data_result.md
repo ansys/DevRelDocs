@@ -160,7 +160,7 @@ double ZOSAPI.Analysis.Data.IAR_SpotDataResult.N
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_SpotDataResult.N"}]}`
 -->
 
-### Property Detector\_X
+### Property Detector_X
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_data_1_1_i_a_r___spot_data_result_1aa241d185fc0e7705bfb77bcc54d84ab0"></a>
 
@@ -182,7 +182,7 @@ double ZOSAPI.Analysis.Data.IAR_SpotDataResult.Detector_X
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_SpotDataResult.Detector_X"}]}`
 -->
 
-### Property Detector\_Y
+### Property Detector_Y
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_data_1_1_i_a_r___spot_data_result_1a89d2b7a18010a3d8b68610f2d96d534f"></a>
 
@@ -204,7 +204,7 @@ double ZOSAPI.Analysis.Data.IAR_SpotDataResult.Detector_Y
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_SpotDataResult.Detector_Y"}]}`
 -->
 
-### Property Detector\_Z
+### Property Detector_Z
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_data_1_1_i_a_r___spot_data_result_1a8f845d6e5c922054dc2a9f616f178ae8"></a>
 
@@ -226,7 +226,7 @@ double ZOSAPI.Analysis.Data.IAR_SpotDataResult.Detector_Z
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_SpotDataResult.Detector_Z"}]}`
 -->
 
-### Property RefCoord\_X
+### Property RefCoord_X
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_data_1_1_i_a_r___spot_data_result_1a64e6d02acf3d2a939b7cb08ff683cede"></a>
 
@@ -248,7 +248,7 @@ double ZOSAPI.Analysis.Data.IAR_SpotDataResult.RefCoord_X
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_SpotDataResult.RefCoord_X"}]}`
 -->
 
-### Property RefCoord\_Y
+### Property RefCoord_Y
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_data_1_1_i_a_r___spot_data_result_1a98f623fa8ed89b88541ecbc0d7376426"></a>
 
@@ -270,7 +270,7 @@ double ZOSAPI.Analysis.Data.IAR_SpotDataResult.RefCoord_Y
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_SpotDataResult.RefCoord_Y"}]}`
 -->
 
-### Property RMSSpot\_X
+### Property RMSSpot_X
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_data_1_1_i_a_r___spot_data_result_1aa3fd921ce200d65b28c725677ef73ea8"></a>
 
@@ -292,7 +292,7 @@ double ZOSAPI.Analysis.Data.IAR_SpotDataResult.RMSSpot_X
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_SpotDataResult.RMSSpot_X"}]}`
 -->
 
-### Property RMSSpot\_Y
+### Property RMSSpot_Y
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_data_1_1_i_a_r___spot_data_result_1a64b99e27c4e830cf9f1e591637467a02"></a>
 
@@ -358,7 +358,5 @@ double ZOSAPI.Analysis.Data.IAR_SpotDataResult.GeoSpotSize
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_SpotDataResult.GeoSpotSize"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

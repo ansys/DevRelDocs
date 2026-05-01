@@ -45,27 +45,27 @@ enum Distortions {
 ```
 
 
-#### Enumerator F\_TanTheta
+#### Enumerator F_TanTheta
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_aberrations_1a9b81c8ebdc56ab158a9b244ed9398404aabfdacd001ae6fa72ca4920148d597e1"></a>
 
 
-#### Enumerator F\_Theta
+#### Enumerator F_Theta
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_aberrations_1a9b81c8ebdc56ab158a9b244ed9398404a213b6831abf9f268b89233051cba6c6b"></a>
 
 
-#### Enumerator Cal\_F\_Theta
+#### Enumerator Cal_F_Theta
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_aberrations_1a9b81c8ebdc56ab158a9b244ed9398404aacad4f103785e92e42f9f27a81cf62dd"></a>
 
 
-#### Enumerator Cal\_F\_TanTheta
+#### Enumerator Cal_F_TanTheta
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_aberrations_1a9b81c8ebdc56ab158a9b244ed9398404a331147aa5e88bbca8b9375ee5ccbeef0"></a>
 
 
-#### Enumerator SMIA\_TV
+#### Enumerator SMIA_TV
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_aberrations_1a9b81c8ebdc56ab158a9b244ed9398404ab8763af0155899cdb19f3b87eff33f72"></a>
 
@@ -109,7 +109,7 @@ enum DisplayAsTypes {
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Aberrations.DisplayAsTypes"}]}`
 -->
 
-### Enumeration type FFA\_DisplayTypes
+### Enumeration type FFA_DisplayTypes
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_aberrations_1a1b0b644b8d69be3b08c3ea46614d3f1b"></a>
 
@@ -148,7 +148,7 @@ enum FFA_DisplayTypes {
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Aberrations.FFA_DisplayTypes"}]}`
 -->
 
-### Enumeration type FFA\_ShowAsTypes
+### Enumeration type FFA_ShowAsTypes
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_aberrations_1a0c157edcde674e5576302f9a82b16047"></a>
 
@@ -199,7 +199,7 @@ enum FFA_ShowAsTypes {
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Aberrations.FFA_ShowAsTypes"}]}`
 -->
 
-### Enumeration type FFA\_AberrationTypes
+### Enumeration type FFA_AberrationTypes
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_aberrations_1a572e9f4d0dc05e437ae87de0307a574a"></a>
 
@@ -244,7 +244,7 @@ enum FFA_AberrationTypes {
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Aberrations.FFA_AberrationTypes"}]}`
 -->
 
-### Enumeration type FFA\_FieldShapes
+### Enumeration type FFA_FieldShapes
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_aberrations_1a0c41d747c27d91238e349b152008ff4f"></a>
 
@@ -277,7 +277,7 @@ enum FFA_FieldShapes {
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Aberrations.FFA_FieldShapes"}]}`
 -->
 
-### Enumeration type FFA\_DecompositionTypes
+### Enumeration type FFA_DecompositionTypes
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_aberrations_1aaeb4b92ee0342da0e930fee96805406e"></a>
 
@@ -362,22 +362,22 @@ enum FieldScanDirections {
 ```
 
 
-#### Enumerator Plus\_Y
+#### Enumerator Plus_Y
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_aberrations_1ad2767e5a86d706920ddf35e69dead284a1eab11b7a1ada8f1dac89046e796b587"></a>
 
 
-#### Enumerator Plus\_X
+#### Enumerator Plus_X
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_aberrations_1ad2767e5a86d706920ddf35e69dead284ad435e9dc7d8efa70f554777467a849c6"></a>
 
 
-#### Enumerator Minus\_Y
+#### Enumerator Minus_Y
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_aberrations_1ad2767e5a86d706920ddf35e69dead284ae8675dc13adb958ec6e6b9cc59d0141c"></a>
 
 
-#### Enumerator Minus\_X
+#### Enumerator Minus_X
 
 <a id="namespace_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_aberrations_1ad2767e5a86d706920ddf35e69dead284a1b48579d82fe194199b2495a33956cd6"></a>
 
@@ -427,9 +427,8 @@ enum ZernikeCoefficientTypes {
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Aberrations.ZernikeCoefficientTypes"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+[private]: https://img.shields.io/badge/-private-red (private)
 [package]: https://img.shields.io/badge/-package-blueviolet (package)

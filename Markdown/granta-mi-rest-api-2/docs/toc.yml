@@ -1,43 +1,41 @@
+items:
 - name: Introduction
-  href: introduction.md
-- name: Getting Started
+  href: index.md
+- name: Getting started
   href: getting-started.md
 - name: User guide
+  href: user-guide.md
   items:
-    - name: Basic concepts
-      href: basic-concepts.md
     - name: Material Models
+      href: material-models.md
       items:
-      - name: Material Model concepts
-        href: mm-concepts.md
-      - name: Material Model Definition
+      - name: Material Model Definitions
         href: mmd-overview.md
       - name: Material Model Output
         href: material-model-output.md
         items:
         - name: Consolidating Properties
           href: consolidating-properties.md
-      - name: Release models
-        href: release-models.md
-    - name: Writing your plugin
+      - name: Supported host applications
+        href: supported-host-applications.md
+    - name: Creating a plugin
       href: your-plugin.md
     - name: Authentication
       href: authentication.md
-    - name: Waiting for Data
-      href: waiting-for-data.md
     - name: Ending a session
       href: ending-a-session.md
-- name: Resources
-  href: resources.md
+    - name: Resources
+      href: resources.md
+    - name: Troubleshooting
+      href: troubleshooting.md  
 - name: Examples
+  href: examples.md
   items:
     - name: Getting Started
       href: getting-started-example.md
-    - name: Using SSEs 
+    - name: Waiting for data
       href: sse-example.md
-- name: Troubleshooting
-  items:
-    - name: Requests are blocked with a 403 Forbidden error
-      href: ts-request-blocked-403.md
 - name: API reference
-  href: grant-mi-rest-api.md
+  href: api.md
+- name: Changelog
+  href: changelog.md

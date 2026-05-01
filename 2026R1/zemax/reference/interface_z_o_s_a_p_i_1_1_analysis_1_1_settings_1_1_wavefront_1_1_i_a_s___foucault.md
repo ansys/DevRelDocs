@@ -238,7 +238,7 @@ bool ZOSAPI.Analysis.Settings.Wavefront.IAS_Foucault.UsePolarization
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Wavefront.IAS_Foucault.UsePolarization"}]}`
 -->
 
-### Property Y\_Position
+### Property Y_Position
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_wavefront_1_1_i_a_s___foucault_1a22b6dd7302569d497aa8cdff1a70a010"></a>
 
@@ -260,7 +260,7 @@ double ZOSAPI.Analysis.Settings.Wavefront.IAS_Foucault.Y_Position
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Wavefront.IAS_Foucault.Y_Position"}]}`
 -->
 
-### Property Decenter\_X
+### Property Decenter_X
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_wavefront_1_1_i_a_s___foucault_1adc0377d227bd351244859e36e0d9fbb6"></a>
 
@@ -282,7 +282,7 @@ double ZOSAPI.Analysis.Settings.Wavefront.IAS_Foucault.Decenter_X
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Wavefront.IAS_Foucault.Decenter_X"}]}`
 -->
 
-### Property Decenter\_Y
+### Property Decenter_Y
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_wavefront_1_1_i_a_s___foucault_1ae12a2d97caa65ed139b923819e69d986"></a>
 
@@ -304,7 +304,7 @@ double ZOSAPI.Analysis.Settings.Wavefront.IAS_Foucault.Decenter_Y
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Wavefront.IAS_Foucault.Decenter_Y"}]}`
 -->
 
-### Property Scale\_X
+### Property Scale_X
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_wavefront_1_1_i_a_s___foucault_1a095842fb781c5c76cc3f57e779612f9d"></a>
 
@@ -326,7 +326,7 @@ double ZOSAPI.Analysis.Settings.Wavefront.IAS_Foucault.Scale_X
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Wavefront.IAS_Foucault.Scale_X"}]}`
 -->
 
-### Property Scale\_Y
+### Property Scale_Y
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_wavefront_1_1_i_a_s___foucault_1a7321066db4721c4e984bd1a95286dc36"></a>
 
@@ -392,7 +392,5 @@ String ZOSAPI.Analysis.Settings.Wavefront.IAS_Foucault.SaveBMP
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.Wavefront.IAS_Foucault.SaveBMP"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

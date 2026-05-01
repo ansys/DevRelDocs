@@ -284,7 +284,7 @@ IAR_Rgb ZOSAPI.Analysis.Data.IAR_DataGridRgb.GetValue(int x, int y)
 
 Gets the specified point.
 
-Usage (see [Example 25](page_ex25.md#page_ex25) for a full sample)
+Usage (see [Example 25](../apiexamples/example_25.md) for a full sample)
 
 
 C# 
@@ -359,7 +359,7 @@ void ZOSAPI.Analysis.Data.IAR_DataGridRgb.FillValues(uint fullSize, [MarshalAs(U
 
 Retries all RGB data at once, into the specified buffers.
 
-Usage (see [Example 24](page_ex24.md#page_ex24) for a full sample)
+Usage (see [Example 24](../apiexamples/example_24.md) for a full sample)
 
 
 C# 
@@ -424,7 +424,5 @@ C#
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_DataGridRgb.FillValues"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

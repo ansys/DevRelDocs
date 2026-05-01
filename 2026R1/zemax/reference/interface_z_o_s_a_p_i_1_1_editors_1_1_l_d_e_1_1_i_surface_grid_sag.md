@@ -60,7 +60,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceGridSag.InterpolateCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceGridSag.InterpolateCell"}]}`
 -->
 
-### Property ZernikeDecenter\_X\_Cell
+### Property ZernikeDecenter_X_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_grid_sag_1a9fd6ed44b1f759c5dbc7e4c78f307fef"></a>
 
@@ -82,7 +82,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceGridSag.ZernikeDecenter_X_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceGridSag.ZernikeDecenter_X_Cell"}]}`
 -->
 
-### Property ZernikeDecenter\_Y\_Cell
+### Property ZernikeDecenter_Y_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_grid_sag_1ac93ebae5f3a28efad827a8156aa0d499"></a>
 
@@ -126,7 +126,7 @@ InterpolationMethod ZOSAPI.Editors.LDE.ISurfaceGridSag.Interpolate
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceGridSag.Interpolate"}]}`
 -->
 
-### Property ZernikeDecenter\_X
+### Property ZernikeDecenter_X
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_grid_sag_1a1f01a6f7744a7fafc703776471ca69da"></a>
 
@@ -148,7 +148,7 @@ double ZOSAPI.Editors.LDE.ISurfaceGridSag.ZernikeDecenter_X
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceGridSag.ZernikeDecenter_X"}]}`
 -->
 
-### Property ZernikeDecenter\_Y
+### Property ZernikeDecenter_Y
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_grid_sag_1ac60f3c7cdc68f23c6fcd3e64454ee65b"></a>
 
@@ -170,7 +170,5 @@ double ZOSAPI.Editors.LDE.ISurfaceGridSag.ZernikeDecenter_Y
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceGridSag.ZernikeDecenter_Y"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

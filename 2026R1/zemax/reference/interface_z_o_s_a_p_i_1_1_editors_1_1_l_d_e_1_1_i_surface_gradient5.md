@@ -217,7 +217,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceGradient5.Nz4Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceGradient5.Nz4Cell"}]}`
 -->
 
-### Property X\_TangentCell
+### Property X_TangentCell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient5_1a96f5e79d82de152caed43d915b708d68"></a>
 
@@ -239,7 +239,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceGradient5.X_TangentCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceGradient5.X_TangentCell"}]}`
 -->
 
-### Property Y\_TangentCell
+### Property Y_TangentCell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient5_1aa879965a1dfa618817fccec2d3cef713"></a>
 
@@ -437,7 +437,7 @@ double ZOSAPI.Editors.LDE.ISurfaceGradient5.Nz4
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceGradient5.Nz4"}]}`
 -->
 
-### Property X\_Tangent
+### Property X_Tangent
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient5_1ad822a9f93c9411821704e7ddf4785079"></a>
 
@@ -459,7 +459,7 @@ double ZOSAPI.Editors.LDE.ISurfaceGradient5.X_Tangent
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceGradient5.X_Tangent"}]}`
 -->
 
-### Property Y\_Tangent
+### Property Y_Tangent
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient5_1a903266d5ff35e9706202c790579230e6"></a>
 
@@ -481,7 +481,5 @@ double ZOSAPI.Editors.LDE.ISurfaceGradient5.Y_Tangent
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceGradient5.Y_Tangent"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

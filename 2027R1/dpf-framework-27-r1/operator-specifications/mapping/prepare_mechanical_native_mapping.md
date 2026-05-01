@@ -1,6 +1,6 @@
 ---
 category: mapping
-plugin: N/A
+plugin: Ans.Dpf.MultiphysicsMapper
 license: any_dpf_supported_increments
 ---
 
@@ -10,7 +10,12 @@ license: any_dpf_supported_increments
 
 ## Description
 
-Prepare mapping of source data from source mesh to target mesh by operating the source_mesh/target_mesh weights computation. This operator needs to be used with the apply mechanical native mapping associated one. At least one of the optional DataTree inputs need to be set, in order to chose the mapping algorithm and set the mapping options.
+Prepares the interpolation weights for mapping source field data from a source mesh to a target mesh.
+This operator delegates to one of the dedicated algorithm operators (shape function volumes, shape function surfaces, point cloud, or kriging) depending on which DataTree input pin is provided.
+At least one of the `*_mapping` algorithm DataTree inputs (pins 30-33) must be set to choose the mapping algorithm and supply its options.
+This operator must be used together with the associated `apply_mechanical_native_mapping` operator.
+
+For further details on the available algorithms and their settings, see the Ansys Mechanical help page on [Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html).
 
 ## Inputs
 
@@ -51,7 +56,11 @@ Source mesh
 - **Required:** Yes
 - **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`field`](../../core-concepts/dpf-types.md#field)
 
-Target mesh. Can be a meshed region or a node coordinates field depending on the algorithm that is used. Refer to the dedicated algorithm operator documentation.
+Target mesh where data will be mapped. Accepted forms depend on the selected algorithm:
+- **meshed_region**: Full mesh with connectivity (nodes, elements, topology)
+- **field**: Node coordinates only (unstructured target points)
+
+Refer to the documentation of the chosen algorithm operator (pins 30-33) for which forms are supported.
 
 <a id="input_3"></a>
 ### target_mesh_scoping (Pin 3)
@@ -83,7 +92,22 @@ Number of threads to be used to parallelize apply operations.
 - **Required:** No
 - **Expected type(s):** [`data_tree`](../../core-concepts/dpf-types.md#data-tree)
 
-Mapping options as DataTree object with 'mapping_options' subtree for mapping with shape function algorithm. Another 'data_definition' subtree needs to be contained, with at least 'dimensionality' int and 'location' string attributes. The other 'data_definition' and 'mapping_options' attributes can be found looking at the corresponding operator definition. The available mapping_options are: scale (int), edge_tolerance (double), conservative (bool), ignore_outside_nodes (bool). Corresponding operator definition can be checked to know the default values of the mapping options.
+Algorithm selection and options DataTree for mapping with **finite element shape functions on volume elements**.
+Setting this pin delegates execution to `prepare_mechanical_native_mapping_shape_functions_for_volume`.
+
+**Ansys Mechanical equivalent**: Weighting = *Shape Function*, Transfer Type = *Volumetric*.
+
+The DataTree must contain a `data_definition` subtree with at least:
+- `dimensionality` (int): number of field components
+- `location` (string): `"Nodal"` or `"Elemental"`
+
+An optional `mapping_options` subtree may supply:
+- `scale` (int): spatial bucketing scale factor
+- `edge_tolerance` (double): reduced-coordinate boundary tolerance
+- `conservative` (bool): enforce integral conservation
+- `ignore_outside_nodes` (bool): when false (default), assign unmapped nodes the nearest source node value; when true, exclude them from mapping entirely
+
+Refer to `prepare_mechanical_native_mapping_shape_functions_for_volume` for option defaults and details.
 
 <a id="input_31"></a>
 ### shape_function_surfaces_mapping (Pin 31)
@@ -91,7 +115,30 @@ Mapping options as DataTree object with 'mapping_options' subtree for mapping wi
 - **Required:** No
 - **Expected type(s):** [`data_tree`](../../core-concepts/dpf-types.md#data-tree)
 
-Mapping options as DataTree object with 'mapping_options' subtree for mapping with shape function algorithm. Another 'data_definition' subtree needs to be contained, with at least 'dimensionality' int and 'location' string attributes. The other 'data_definition' and 'mapping_options' attributes can be found looking at the corresponding operator definition. The available mapping_options are: scale (int), edge_tolerance (double), conservative (bool), ignore_outside_nodes (bool), key (string), normal_distance_check (bool), normal_tolerance (double), pinball_controll (bool), pinball_key (string), exclude_elements_outside_pinball (bool), pinball_value (double). Corresponding operator definition can be checked to know the default values of the mapping options.
+Algorithm selection and options DataTree for mapping with **finite element shape functions on surface elements**.
+Setting this pin delegates execution to `prepare_mechanical_native_mapping_shape_functions_for_surfaces`.
+
+**Ansys Mechanical equivalent**: Weighting = *Shape Function*, Transfer Type = *Surface*.
+Note: this mode only supports triangle and quadrilateral source elements.
+
+The DataTree must contain a `data_definition` subtree with at least:
+- `dimensionality` (int): number of field components
+- `location` (string): `"Nodal"` or `"Elemental"`
+
+An optional `mapping_options` subtree may supply:
+- `scale` (int): spatial bucketing scale factor
+- `edge_tolerance` (double): reduced-coordinate boundary tolerance
+- `conservative` (bool): enforce integral conservation
+- `ignore_outside_nodes` (bool): when false (default), assign unmapped nodes the nearest source node value; when true, exclude them from mapping entirely
+- `key` (string): edge tolerance interpretation mode (`"relative"` or `"absolute"`)
+- `normal_distance_check` (bool): reject target points farther than `normal_tolerance` along the surface normal
+- `normal_tolerance` (double): maximum allowable normal distance
+- `pinball_control` (bool): restrict mapping to a proximity zone around the surface
+- `pinball_key` (string): pinball sizing mode (`"absolute"` or `"relative"`)
+- `exclude_elements_outside_pinball` (bool): skip source elements entirely outside the pinball region
+- `pinball_value` (double): thickness of the pinball search region
+
+Refer to `prepare_mechanical_native_mapping_shape_functions_for_surfaces` for option defaults and details.
 
 <a id="input_32"></a>
 ### point_cloud_mapping (Pin 32)
@@ -99,7 +146,26 @@ Mapping options as DataTree object with 'mapping_options' subtree for mapping wi
 - **Required:** No
 - **Expected type(s):** [`data_tree`](../../core-concepts/dpf-types.md#data-tree)
 
-Mapping options as DataTree object with 'mapping_options' subtree for mapping with point cloud algorithm. Another 'data_definition' subtree needs to be contained, with at least 'dimensionality' int and 'location' string attributes. The other 'data_definition' and 'mapping_options' attributes can be found looking at the corresponding operator definition. The available mapping_options are: weighting_type (string), outside_option (string), num_outside_nodes (int), max_outside_distance (double), search_limit (int), bouding_box_range (double), geometry_type (string),shell_thickness_factor (double). Corresponding operator definition can be checked to know the default values of the mapping options.
+Algorithm selection and options DataTree for mapping with **point cloud interpolation**.
+Setting this pin delegates execution to `prepare_mechanical_native_mapping_point_cloud`.
+
+**Ansys Mechanical equivalent**: Weighting = *Triangulation* (use `weighting_type = "triangulation"`) or Weighting = *Distance Based Average* (use `weighting_type = "weighted_average"`).
+
+The DataTree must contain a `data_definition` subtree with at least:
+- `dimensionality` (int): number of field components
+- `location` (string): `"Nodal"` or `"Elemental"`
+
+An optional `mapping_options` subtree may supply:
+- `weighting_type` (string): interpolation weight scheme (`"triangulation"` or `"weighted_average"`)
+- `outside_option` (string): strategy for target points outside the source domain
+- `num_outside_nodes` (int): number of neighbors used for outside-domain extrapolation
+- `max_outside_distance` (double): maximum extrapolation distance; points beyond this are left unmapped
+- `search_limit` (int): maximum number of source neighbors per target point
+- `bounding_box_sizing` (double): search region size around each target point; only source points within this distance are candidates (0.0 = no size constraint)
+- `geometry_type` (string): `"volume"` (default) or `"surface"`
+- `shell_thickness_factor` (double): scales shell thickness to extend the surface search region
+
+Refer to `prepare_mechanical_native_mapping_point_cloud` for option defaults and details.
 
 <a id="input_33"></a>
 ### kriging_mapping (Pin 33)
@@ -107,7 +173,25 @@ Mapping options as DataTree object with 'mapping_options' subtree for mapping wi
 - **Required:** No
 - **Expected type(s):** [`data_tree`](../../core-concepts/dpf-types.md#data-tree)
 
-Mapping options as DataTree object with 'mapping_options' subtree for mapping with kriging algorithm. Another 'data_definition' subtree needs to be contained, with at least 'dimensionality' int and 'location' string attributes. The other 'data_definition' and 'mapping_options' attributes can be found looking at the corresponding operator definition. The available mapping_options are: samples_limit (int), correlation_function_type (string), polynomial_type (string), outside_distance_checking (bool), bouding_box_tolerance (double), adaptive_tolerance_percent (double), geometry_type (string). Corresponding operator definition can be checked to know the default values of the mapping options.
+Algorithm selection and options DataTree for mapping with **kriging interpolation**.
+Setting this pin delegates execution to `prepare_mechanical_native_mapping_kriging`.
+
+**Ansys Mechanical equivalent**: Weighting = *Kriging*.
+
+The DataTree must contain a `data_definition` subtree with at least:
+- `dimensionality` (int): number of field components
+- `location` (string): `"Nodal"` or `"Elemental"`
+
+An optional `mapping_options` subtree may supply:
+- `sample_limit` (int): maximum number of source neighbors used to solve the kriging system per target point
+- `correlation_function_type` (string): spatial correlation model (e.g. `"gaussian"`, `"exponential"`, `"spherical"`)
+- `polynomial_type` (string): drift polynomial order (`"adaptive"`, `"pure_quadratic"`, `"linear"`, `"constant"`, `"none"`)
+- `outside_distance_checking` (bool): mark target points outside the source bounding box as unmapped
+- `bouding_box_tolerance` (double): expansion tolerance for the source bounding box check
+- `adaptive_tolerance_percent` (double): extrapolation tolerance (%) — accepted range is source range extended by this fraction; default 10.0
+- `geometry_type` (string): `"volume"` (default) or `"surface"`
+
+Refer to `prepare_mechanical_native_mapping_kriging` for option defaults and details.
 
 <a id="input_100"></a>
 ### is_element_centroidal_data_mapping (Pin 100)
@@ -245,7 +329,7 @@ This operator can be accessed through scripting interfaces using these identifie
 
  **Category**: mapping
 
- **Plugin**: N/A
+ **Plugin**: Ans.Dpf.MultiphysicsMapper
 
  **Scripting name**: prepare_mechanical_native_mapping
 

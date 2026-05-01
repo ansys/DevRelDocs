@@ -25,22 +25,22 @@ Interface used by the algorithm to communicate with the solver and request model
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-|ModelEvaluation[] |`EvaluateModel (object[,] designVariables)`<br>Evalutes the model for the given designs in batch mode. |
-|[ModelEvaluation]() |`EvaluateModel (object[] designVariables)`<br>Evalutes the model for the given design. |
-|void |`InvokeHelp (string helpPath)`<br>Used to open the Optimization Tool's help viewer. |
-|void |`SaveCheckPoint (string checkPointName, string saveState)`<br>Used to save the state of the algorithm for the restart. |
-|void |`SetStatusMessage (string statusMessage)`<br>Updates the current status message for the algorithm. |
-|void |`SetStatusMessage (string statusMessage, MessageType messageType)`<br>Updates the current status message for the algorithm. |
-|void |`UpdateBestDesign (object[] design)`<br>Updates the best design that the algorithm has found so far. |
+|Type|Name|Description|
+|-----|-----|-----|
+|ModelEvaluation[] |`EvaluateModel (object[,] designVariables)` |Evalutes the model for the given designs in batch mode. |
+|[ModelEvaluation]() |`EvaluateModel (object[] designVariables)` |Evalutes the model for the given design. |
+|void |`InvokeHelp (string helpPath)` |Used to open the Optimization Tool's help viewer. |
+|void |`SaveCheckPoint (string checkPointName, string saveState)` |Used to save the state of the algorithm for the restart. |
+|void |`SetStatusMessage (string statusMessage)` |Updates the current status message for the algorithm. |
+|void |`SetStatusMessage (string statusMessage, MessageType messageType)` |Updates the current status message for the algorithm. |
+|void |`UpdateBestDesign (object[] design)` |Updates the best design that the algorithm has found so far. |
 
 ## Properties
-|Name|Description|
-|-----|-----|
-|bool | `Halt [get]`<br>Used to check whether a halt of the algorithm has been requested by ModelCenter. |
-|string | `LocaleID [get]`<br>Used to get the local ID for internationalization purposes. |
-|string | `ModelCenterPath [get]`<br>For internal use only. |
+|Type|Name|Description|
+|-----|-----|-----|
+|bool |`Halt [get]` |Used to check whether a halt of the algorithm has been requested by ModelCenter. |
+|string |`LocaleID [get]` |Used to get the local ID for internationalization purposes. |
+|string |`ModelCenterPath [get]` |For internal use only. |
 
 ## Member Function Documentation
 

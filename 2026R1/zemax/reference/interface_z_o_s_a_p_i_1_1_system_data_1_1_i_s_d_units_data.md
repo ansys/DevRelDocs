@@ -9,7 +9,7 @@
 
 System Explorer - Units Data. This interface can be accessed via the ISystemData interface.
 
-Usage (see [Example 12](page_ex12.md#page_ex12) for a full sample)
+Usage (see [Example 12](../apiexamples/example_12.md) for a full sample)
 
 
 C# 
@@ -65,7 +65,7 @@ ZemaxSystemUnits ZOSAPI.SystemData.ISDUnitsData.LensUnits
 ```
 
 
-Usage (see [Example 11](page_ex11.md#page_ex11) for a full sample)
+Usage (see [Example 11](../apiexamples/example_11.md) for a full sample)
 
 
 C# 
@@ -304,7 +304,5 @@ ZemaxSystemUnits ZOSAPI.SystemData.ISDUnitsData.CADUnits
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.SystemData.ISDUnitsData.CADUnits"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

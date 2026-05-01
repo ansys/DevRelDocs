@@ -1,14 +1,12 @@
 # Getting started
 
-Prime Mesh Python client library 2025 R2 is a modified version of the PyPrimeMesh. You can access the latest Prime Mesh Python client library from  the latest Ansys package.
+Prime Mesh Python client library 2026 R1 is a modified version of the PyPrimeMesh. You can access the latest Prime Mesh Python client library from  the latest Ansys package.
 For more information on getting a licensed copy of Ansys, visit the [Ansys website](https://www.ansys.com/).
 
 
 ## Installation
 
 Install the latest Prime Mesh Python client library from [Ansys Customer Site](https://support.ansys.com/Home/HomePage).
-
-
 
 ## Run a Python script in batch
 
@@ -62,14 +60,14 @@ You can access Prime Mesh Python client through VS code and work on it as follow
 8. In Windows OS, click Enter Interpreter Path and click Find to select runPrime.bat as 
    interpreter from the latest package installed location. 
 
-    ![windowspath](./../images/windowspath.png)
+    ![windowspath](../images/windowspath.png)
 
-   Example: C:\Program Files\ANSYS Inc\v252\meshing\Prime\runPrime.bat 
+   Example: C:\Program Files\ANSYS Inc\v261\meshing\Prime\runPrime.bat 
 
    In Linux OS, press Ctrl + Shift + P to view the search bar and type Python: Select 
    Interpreter and select it.
      
-    Example:/ANSYS_Inc/v252/meshing/Prime/runPrime.sh
+    Example:/ANSYS_Inc/v261/meshing/Prime/runPrime.sh
 
 9. In VS Code, create a new folder with name .vscode. 
  
@@ -80,10 +78,10 @@ You can access Prime Mesh Python client through VS code and work on it as follow
     ```python
     {
         "python.autoComplete.extraPaths": [
-            "C:\\Program Files\\ANSYS Inc\\v252\\meshing\\site"
+            "C:\\Program Files\\ANSYS Inc\\v261\\meshing\\site"
         ],
         "python.analysis.extraPaths": [
-            "C:\\Program Files\\ANSYS Inc\\v252\\meshing\\site"
+            "C:\\Program Files\\ANSYS Inc\\v261\\meshing\\site"
         ],
     }
     ```
@@ -93,10 +91,10 @@ You can access Prime Mesh Python client through VS code and work on it as follow
     ```python
     {
         "python.autoComplete.extraPaths": [
-            "\ansys_inc\v252\meshing\site"
+            "\ansys_inc\v261\meshing\site"
         ],
         "python.analysis.extraPaths": [
-            "\ansys_inc\v252\meshing\site"
+            "\ansys_inc\v261\meshing\site"
         ],
     }
     ```

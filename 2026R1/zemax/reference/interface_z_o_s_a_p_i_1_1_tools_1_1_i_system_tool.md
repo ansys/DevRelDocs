@@ -334,7 +334,7 @@ bool ZOSAPI.Tools.ISystemTool.Run()
 
 Start the tool. Note that for synchronous tools (see IsAsynchronous), this call will block until completion. If it is asynchronous it will start running but return immediately.
 
-Usage (see [Example 20](page_ex20.md#page_ex20) for a full sample)
+Usage (see [Example 20](../apiexamples/example_20.md) for a full sample)
 
 
 C# 
@@ -502,7 +502,7 @@ bool ZOSAPI.Tools.ISystemTool.RunAndWaitForCompletion()
 
 Sames as calling Run followed by WaitForCompletion.
 
-Usage (see [Example 15](page_ex15.md#page_ex15) for a full sample)
+Usage (see [Example 15](../apiexamples/example_15.md) for a full sample)
 
 
 C# 
@@ -611,7 +611,7 @@ bool ZOSAPI.Tools.ISystemTool.Cancel()
 
 Cancels the currently running asynchronous tool.
 
-Usage (see [Example 03](page_ex03.md#page_ex03) for a full sample)
+Usage (see [Example 03](../apiexamples/example_03.md) for a full sample)
 
 
 C# 
@@ -684,7 +684,7 @@ bool ZOSAPI.Tools.ISystemTool.Close()
 
 Closes this tool and frees up and associated resources.
 
-Usage (see [Example 15](page_ex15.md#page_ex15) for a full sample)
+Usage (see [Example 15](../apiexamples/example_15.md) for a full sample)
 
 
 C# 
@@ -824,7 +824,5 @@ A RunStatus value indicating the tool state.///
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Tools.ISystemTool.RunAndWaitWithTimeout"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

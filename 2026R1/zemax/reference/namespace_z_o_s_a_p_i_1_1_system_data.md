@@ -48,7 +48,7 @@ enum ZemaxSystemUnits {
 ```
 
 
-Usage (see [Example 11](page_ex11.md#page_ex11) for a full sample)
+Usage (see [Example 11](../apiexamples/example_11.md) for a full sample)
 
 
 C# 
@@ -465,7 +465,7 @@ enum ZemaxApodizationType {
 ```
 
 
-Usage (see [Example 11](page_ex11.md#page_ex11) for a full sample)
+Usage (see [Example 11](../apiexamples/example_11.md) for a full sample)
 
 
 C# 
@@ -591,7 +591,7 @@ enum WavelengthPreset {
 ```
 
 
-Usage (see [Example 01](page_ex01.md#page_ex01) for a full sample)
+Usage (see [Example 01](../apiexamples/example_01.md) for a full sample)
 
 
 C# 
@@ -616,142 +616,142 @@ C#
 ```
 
 
-#### Enumerator FdC\_Visible
+#### Enumerator FdC_Visible
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92ad9a97efe0753d91bdb174150a4831148"></a>
 
 
-#### Enumerator Photopic\_Bright
+#### Enumerator Photopic_Bright
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92aa6966d3cc47d5ccc4e8b3685c247b13d"></a>
 
 
-#### Enumerator Scotopic\_Dark
+#### Enumerator Scotopic_Dark
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92af216dd6c0313231e15a8d1ad1f846b9e"></a>
 
 
-#### Enumerator HeNe\_0p6328
+#### Enumerator HeNe_0p6328
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92acde83a4af7cc9cd86138d0af34e16101"></a>
 
 
-#### Enumerator HeNe\_0p5438
+#### Enumerator HeNe_0p5438
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92a0320b6e4f8e96d1564ea935e28fef47a"></a>
 
 
-#### Enumerator Argon\_0p4880
+#### Enumerator Argon_0p4880
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92a91f76e5972b7d1efd8dd3a81cbf3ebc8"></a>
 
 
-#### Enumerator Argon\_0p5145
+#### Enumerator Argon_0p5145
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92ab91f2c772108b2439ab300ce788bfc46"></a>
 
 
-#### Enumerator NDYAG\_1p0641
+#### Enumerator NDYAG_1p0641
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92a8390d6fcab17a728e63e6d6a945ace27"></a>
 
 
-#### Enumerator NDGlass\_1p054
+#### Enumerator NDGlass_1p054
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92acf0947131b68421a4263b3ae347406a6"></a>
 
 
-#### Enumerator CO2\_10p60
+#### Enumerator CO2_10p60
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92a1a66c83eb7c4cf5c953423a6e7db8aec"></a>
 
 
-#### Enumerator CrLiSAF\_0p840
+#### Enumerator CrLiSAF_0p840
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92af5b080c0f14e2cd5820acea9691ae837"></a>
 
 
-#### Enumerator TiAl203\_0p760
+#### Enumerator TiAl203_0p760
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92a09f32e8e7ad9f00b33457ee1c48fff60"></a>
 
 
-#### Enumerator Ruby\_0p6943
+#### Enumerator Ruby_0p6943
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92a3d63716cc1e445f6c2b5188f4c620ada"></a>
 
 
-#### Enumerator HeCadmium\_0p4416
+#### Enumerator HeCadmium_0p4416
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92a264dd31467470687f85536ebdc8063c8"></a>
 
 
-#### Enumerator HeCadmium\_0p3536
+#### Enumerator HeCadmium_0p3536
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92ad51ef1b8b3faeae988be66ad63ee1dc1"></a>
 
 
-#### Enumerator HeCadmium\_0p3250
+#### Enumerator HeCadmium_0p3250
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92a903ec92d8d0e5b0af46bc9734a86ad6c"></a>
 
 
-#### Enumerator t\_1p014
+#### Enumerator t_1p014
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92a91a2fcbaf60e65c41cb814d98f5a96a9"></a>
 
 
-#### Enumerator r\_0p707
+#### Enumerator r_0p707
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92a8ead3635711ab4909fae5c0126a5ac59"></a>
 
 
-#### Enumerator C\_0p656
+#### Enumerator C_0p656
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92ab732382ba8dcd4d7d0cbcc4d007ab0d9"></a>
 
 
-#### Enumerator d\_0p587
+#### Enumerator d_0p587
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92a41bc487e85b1e4d0e43d4af94dbd7cb5"></a>
 
 
-#### Enumerator F\_0p486
+#### Enumerator F_0p486
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92a92213197501cc425821374dd56c845e9"></a>
 
 
-#### Enumerator g\_0p436
+#### Enumerator g_0p436
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92a476c229579cd5bea319c32660d43d689"></a>
 
 
-#### Enumerator i\_0p365
+#### Enumerator i_0p365
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92a68ab269c88315ec2d98e64af76f73625"></a>
 
 
-#### Enumerator Fp\_0p365
+#### Enumerator Fp_0p365
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92a9c8554c137c78084def1da5b99fcc261"></a>
 
 
-#### Enumerator e\_0p54607
+#### Enumerator e_0p54607
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92aa86bbc2874b76c8f518959ca57ba7e0c"></a>
 
 
-#### Enumerator Cp\_0p6438469
+#### Enumerator Cp_0p6438469
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92a763bb5936a05c00fb6e75d9b1ee9b045"></a>
 
 
-#### Enumerator FpeCp\_Visible
+#### Enumerator FpeCp_Visible
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92a893e5ea3ea01a459873ebdfa3bb2d735"></a>
 
 
-#### Enumerator THz\_193p10
+#### Enumerator THz_193p10
 
 <a id="namespace_z_o_s_a_p_i_1_1_system_data_1af09b97b3888a6e2576ed1e0baa359b92a6cbeef73428bdfb240e9298fdaa9685c"></a>
 
@@ -888,7 +888,7 @@ enum PolarizationMethod {
 ```
 
 
-Usage (see [Example 12](page_ex12.md#page_ex12) for a full sample)
+Usage (see [Example 12](../apiexamples/example_12.md) for a full sample)
 
 
 C# 
@@ -1337,9 +1337,8 @@ enum FieldColumn {
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.SystemData.FieldColumn"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+[private]: https://img.shields.io/badge/-private-red (private)
 [package]: https://img.shields.io/badge/-package-blueviolet (package)

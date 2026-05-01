@@ -165,7 +165,7 @@ void ZOSAPI.Editors.LDE.ISTAR_DirectIndexFEAData.ImportDirectIndex(string filena
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISTAR_DirectIndexFEAData.ImportDirectIndex"}]}`
 -->
 
-### Function ImportDirectIndex\_1
+### Function ImportDirectIndex_1
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___direct_index_f_e_a_data_1a3e4f902d0c7a062ca6df8451c6392b3b"></a>
 
@@ -370,7 +370,5 @@ Returns points after applying the selected transform. This version does not requ
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISTAR_DirectIndexFEAData.GetTransformedFEAPointsNoImportRequired"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

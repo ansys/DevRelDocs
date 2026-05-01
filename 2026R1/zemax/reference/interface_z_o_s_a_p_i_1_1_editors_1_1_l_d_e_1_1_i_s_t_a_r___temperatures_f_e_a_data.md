@@ -164,7 +164,7 @@ void ZOSAPI.Editors.LDE.ISTAR_TemperaturesFEAData.ImportTemperatures(string file
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISTAR_TemperaturesFEAData.ImportTemperatures"}]}`
 -->
 
-### Function ImportTemperatures\_1
+### Function ImportTemperatures_1
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_s_t_a_r___temperatures_f_e_a_data_1a7cf2c43a2495413917c1d76c9451a81e"></a>
 
@@ -389,7 +389,5 @@ Returns points after applying the selected transform. This version does not requ
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISTAR_TemperaturesFEAData.GetTransformedFEAPointsNoImportRequired"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

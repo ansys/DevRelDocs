@@ -1,8 +1,8 @@
-# Implement Setup Methods 
+# Implement setup methods and properties
 
 Algorithms have five methods and one property that the Optimization Tool uses to pass the problem definition to the algorithm.
 
-## Implement the Setup Methods
+## Implement the setup methods
 
 When the algorithm is being prepared to run the setup methods are called in the following order:
 
@@ -18,7 +18,7 @@ When the algorithm is being prepared to run the setup methods are called in the 
 
    **NOTE:** checkpoints have not yet been implemented into the infrastructure, but the interfaces for it have been defined in preparation.
 
-## Implement Options
+## Implement options
 
 - [`Options`](../api/Namespaces/NamespaceList/Phoenix/Optimization/IAlgorithm.md#Options) - an object that contains all of the options available for the algorithm. Is used to pass the options to the infrastructure for display and to return the options to the algorithm for use.
 

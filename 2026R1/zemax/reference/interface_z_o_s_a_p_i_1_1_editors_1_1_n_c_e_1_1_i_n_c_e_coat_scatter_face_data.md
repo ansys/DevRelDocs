@@ -9,7 +9,7 @@
 
 Coat/Scatter settings for a specific face. This interface can be accessed via the INCECoatScatterData interface.
 
-Usage (see [Example 21](page_ex21.md#page_ex21) for a full sample)
+Usage (see [Example 21](../apiexamples/example_21.md) for a full sample)
 
 
 C# 
@@ -248,7 +248,7 @@ FaceIsType ZOSAPI.Editors.NCE.INCECoatScatterFaceData.FaceIs
 ```
 
 
-Usage (see [Example 24](page_ex24.md#page_ex24) for a full sample)
+Usage (see [Example 24](../apiexamples/example_24.md) for a full sample)
 
 
 C# 
@@ -303,7 +303,7 @@ string ZOSAPI.Editors.NCE.INCECoatScatterFaceData.Coating
 ```
 
 
-Usage (see [Example 24](page_ex24.md#page_ex24) for a full sample)
+Usage (see [Example 24](../apiexamples/example_24.md) for a full sample)
 
 
 C# 
@@ -574,7 +574,7 @@ IObjectScatteringSettings ZOSAPI.Editors.NCE.INCECoatScatterFaceData.CreateScatt
 ```
 
 
-Usage (see [Example 24](page_ex24.md#page_ex24) for a full sample)
+Usage (see [Example 24](../apiexamples/example_24.md) for a full sample)
 
 
 C# 
@@ -635,7 +635,7 @@ bool ZOSAPI.Editors.NCE.INCECoatScatterFaceData.ChangeScatterModelSettings(IObje
 ```
 
 
-Usage (see [Example 24](page_ex24.md#page_ex24) for a full sample)
+Usage (see [Example 24](../apiexamples/example_24.md) for a full sample)
 
 
 C# 
@@ -715,7 +715,5 @@ Copies the coat/scatter settings from the specified face to this face.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.INCECoatScatterFaceData.CopySettingsFrom"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

@@ -60,7 +60,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceZernikeStandardSag.ExtrapolateCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceZernikeStandardSag.ExtrapolateCell"}]}`
 -->
 
-### Property ZernikeDecenter\_X\_Cell
+### Property ZernikeDecenter_X_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_zernike_standard_sag_1a4776577385b24970b9b0853879e3cfce"></a>
 
@@ -82,7 +82,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceZernikeStandardSag.ZernikeDecenter_X_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceZernikeStandardSag.ZernikeDecenter_X_Cell"}]}`
 -->
 
-### Property ZernikeDecenter\_Y\_Cell
+### Property ZernikeDecenter_Y_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_zernike_standard_sag_1a94f90765672f47e6206a27ce25b4f3a4"></a>
 
@@ -126,7 +126,7 @@ int ZOSAPI.Editors.LDE.ISurfaceZernikeStandardSag.Extrapolate
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceZernikeStandardSag.Extrapolate"}]}`
 -->
 
-### Property ZernikeDecenter\_X
+### Property ZernikeDecenter_X
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_zernike_standard_sag_1a7089beab932ae5a53e4aeb81c344aa64"></a>
 
@@ -148,7 +148,7 @@ double ZOSAPI.Editors.LDE.ISurfaceZernikeStandardSag.ZernikeDecenter_X
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceZernikeStandardSag.ZernikeDecenter_X"}]}`
 -->
 
-### Property ZernikeDecenter\_Y
+### Property ZernikeDecenter_Y
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_zernike_standard_sag_1af5c1524ed460baa9ef3b4b77a203cb2f"></a>
 
@@ -170,7 +170,5 @@ double ZOSAPI.Editors.LDE.ISurfaceZernikeStandardSag.ZernikeDecenter_Y
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceZernikeStandardSag.ZernikeDecenter_Y"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

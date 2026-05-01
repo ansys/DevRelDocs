@@ -80,7 +80,7 @@ bool ZOSAPI.Editors.NCE.IObjectScatteringSettings.IsValid
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectScatteringSettings.IsValid"}]}`
 -->
 
-### Property \_S\_None
+### Property _S_None
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_scattering_settings_1a169589d933ef9e0ba9de49aec046f504"></a>
 
@@ -102,7 +102,7 @@ IOSS_None ZOSAPI.Editors.NCE.IObjectScatteringSettings._S_None
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectScatteringSettings._S_None"}]}`
 -->
 
-### Property \_S\_Lambertian
+### Property _S_Lambertian
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_scattering_settings_1a2b6f7320ee0a5de54240ba7101cb6848"></a>
 
@@ -124,7 +124,7 @@ IOSS_Lambertian ZOSAPI.Editors.NCE.IObjectScatteringSettings._S_Lambertian
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectScatteringSettings._S_Lambertian"}]}`
 -->
 
-### Property \_S\_Gaussian
+### Property _S_Gaussian
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_scattering_settings_1a8ab29cc60a2dc8cb19538f3b6c6c44e9"></a>
 
@@ -146,7 +146,7 @@ IOSS_Gaussian ZOSAPI.Editors.NCE.IObjectScatteringSettings._S_Gaussian
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectScatteringSettings._S_Gaussian"}]}`
 -->
 
-### Property \_S\_ABg
+### Property _S_ABg
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_scattering_settings_1ae74b8f293baa55d117ee8b1a327cdaa7"></a>
 
@@ -168,7 +168,7 @@ IOSS_ABg ZOSAPI.Editors.NCE.IObjectScatteringSettings._S_ABg
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectScatteringSettings._S_ABg"}]}`
 -->
 
-### Property \_S\_ABgFile
+### Property _S_ABgFile
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_scattering_settings_1a0f6aa9f934241dfd7803ac7b60ca0ff4"></a>
 
@@ -190,7 +190,7 @@ IOSS_ABgFile ZOSAPI.Editors.NCE.IObjectScatteringSettings._S_ABgFile
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectScatteringSettings._S_ABgFile"}]}`
 -->
 
-### Property \_S\_BSDF
+### Property _S_BSDF
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_scattering_settings_1ad2c4c54dbda6059fa51d5f8129e77182"></a>
 
@@ -212,7 +212,7 @@ IOSS_BSDF ZOSAPI.Editors.NCE.IObjectScatteringSettings._S_BSDF
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectScatteringSettings._S_BSDF"}]}`
 -->
 
-### Property \_S\_User
+### Property _S_User
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_scattering_settings_1aaf8697c0ab31a9fc33599efc0d9bced9"></a>
 
@@ -234,7 +234,7 @@ IOSS_User ZOSAPI.Editors.NCE.IObjectScatteringSettings._S_User
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectScatteringSettings._S_User"}]}`
 -->
 
-### Property \_S\_ISScatterCatalog
+### Property _S_ISScatterCatalog
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_object_scattering_settings_1a4170c4526371a7cb29192fd7efa22db1"></a>
 
@@ -256,7 +256,5 @@ IOSS_ISScatterCatalog ZOSAPI.Editors.NCE.IObjectScatteringSettings._S_ISScatterC
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.IObjectScatteringSettings._S_ISScatterCatalog"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

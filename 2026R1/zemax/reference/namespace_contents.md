@@ -1,4 +1,4 @@
-# Namespaces
+﻿# Namespaces
 
 * [ZOSAPI](namespace_z_o_s_a_p_i.md#namespace_z_o_s_a_p_i): The [ZOSAPI](namespace_z_o_s_a_p_i.md#namespace_z_o_s_a_p_i) namespace contains classes for initially connecting to zemax. See also [ZOSAPI\_Connection](class_z_o_s_a_p_i_1_1_z_o_s_a_p_i___connection.md#class_z_o_s_a_p_i_1_1_z_o_s_a_p_i___connection), and [IZOSAPI\_Application](interface_z_o_s_a_p_i_1_1_i_z_o_s_a_p_i___application.md#interface_z_o_s_a_p_i_1_1_i_z_o_s_a_p_i___application) for more information.
   * [ZOSAPI::Analysis](namespace_z_o_s_a_p_i_1_1_analysis.md#namespace_z_o_s_a_p_i_1_1_analysis)

@@ -22,7 +22,5 @@ Index Model - Isotropic. This interface can be accessed via the INCEIndexData in
 * [IsValid](interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_index_model_settings.md#interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_index_model_settings_1a7e1688b2df4b1ad87969733983e374d3)
 * [Type](interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_index_model_settings.md#interface_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1_1_i_index_model_settings_1a559868ec6b7c59016065ad36d837c030)
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

@@ -8,7 +8,7 @@
 **Definition**:
 
 
-Usage (see [Example 10](page_ex10.md#page_ex10) for a full sample)
+Usage (see [Example 10](../apiexamples/example_10.md) for a full sample)
 
 
 C# 
@@ -159,7 +159,7 @@ DetectorViewerShowAsTypes ZOSAPI.Analysis.Settings.RayTracing.IAS_DetectorViewer
 ```
 
 
-Usage (see [Example 24](page_ex24.md#page_ex24) for a full sample)
+Usage (see [Example 24](../apiexamples/example_24.md) for a full sample)
 
 
 C# 
@@ -806,7 +806,5 @@ bool ZOSAPI.Analysis.Settings.RayTracing.IAS_DetectorViewer.IsValidDetector(int 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.RayTracing.IAS_DetectorViewer.IsValidDetector"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

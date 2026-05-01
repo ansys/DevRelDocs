@@ -8,7 +8,7 @@
 **Definition**:
 
 
-Usage (see [Example 22](page_ex22.md#page_ex22) for a full sample)
+Usage (see [Example 22](../apiexamples/example_22.md) for a full sample)
 
 
 C# 
@@ -72,7 +72,7 @@ C#
 
 ## Properties
 
-### Property HalfWidth\_X
+### Property HalfWidth_X
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_data_1_1_i_a_r___spot_data_result_matrix_1aa966a5b20155f447a5d7b52c85c673dd"></a>
 
@@ -94,7 +94,7 @@ double ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.HalfWidth_X
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.HalfWidth_X"}]}`
 -->
 
-### Property HalfWidth\_Y
+### Property HalfWidth_Y
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_data_1_1_i_a_r___spot_data_result_matrix_1a552087d90581efb1a96561abe21a5e64"></a>
 
@@ -206,7 +206,7 @@ int ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.NumberOfWavelengths
 
 ## Public functions
 
-### Function Get\_X\_For
+### Function Get_X_For
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_data_1_1_i_a_r___spot_data_result_matrix_1a53795bec468cba047de51102fef220a3"></a>
 
@@ -231,7 +231,7 @@ double ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.Get_X_For(int fieldN, int w
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.Get_X_For"}]}`
 -->
 
-### Function Get\_Y\_For
+### Function Get_Y_For
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_data_1_1_i_a_r___spot_data_result_matrix_1a6987af3229e3660e0c05dbcc93307fb7"></a>
 
@@ -256,7 +256,7 @@ double ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.Get_Y_For(int fieldN, int w
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.Get_Y_For"}]}`
 -->
 
-### Function Get\_Z\_For
+### Function Get_Z_For
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_data_1_1_i_a_r___spot_data_result_matrix_1a5df3a20b72eb26993d0c930b896d62b5"></a>
 
@@ -281,7 +281,7 @@ double ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.Get_Z_For(int fieldN, int w
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.Get_Z_For"}]}`
 -->
 
-### Function Get\_L\_For
+### Function Get_L_For
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_data_1_1_i_a_r___spot_data_result_matrix_1a06f02c650f93c01d22d27a892c5aa626"></a>
 
@@ -306,7 +306,7 @@ double ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.Get_L_For(int fieldN, int w
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.Get_L_For"}]}`
 -->
 
-### Function Get\_M\_For
+### Function Get_M_For
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_data_1_1_i_a_r___spot_data_result_matrix_1a503be120281c92a80d9f387ed6189360"></a>
 
@@ -331,7 +331,7 @@ double ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.Get_M_For(int fieldN, int w
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.Get_M_For"}]}`
 -->
 
-### Function Get\_N\_For
+### Function Get_N_For
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_data_1_1_i_a_r___spot_data_result_matrix_1a5378d3194dcfb1d8c5648d35f9f9cbdb"></a>
 
@@ -356,7 +356,7 @@ double ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.Get_N_For(int fieldN, int w
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.Get_N_For"}]}`
 -->
 
-### Function GetDetector\_X\_For
+### Function GetDetector_X_For
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_data_1_1_i_a_r___spot_data_result_matrix_1a00e391168df46ae3a77b2fa5e6cb3344"></a>
 
@@ -381,7 +381,7 @@ double ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.GetDetector_X_For(int field
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.GetDetector_X_For"}]}`
 -->
 
-### Function GetDetector\_Y\_For
+### Function GetDetector_Y_For
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_data_1_1_i_a_r___spot_data_result_matrix_1ac007c1b96bbc9404b977d2ab8bd7e0d1"></a>
 
@@ -406,7 +406,7 @@ double ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.GetDetector_Y_For(int field
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.GetDetector_Y_For"}]}`
 -->
 
-### Function GetDetector\_Z\_For
+### Function GetDetector_Z_For
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_data_1_1_i_a_r___spot_data_result_matrix_1a96ee006b470e8b3519f0232310b84ae0"></a>
 
@@ -481,7 +481,7 @@ double ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.GetRMSSpotSizeFor(int field
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.GetRMSSpotSizeFor"}]}`
 -->
 
-### Function GetRMSSpot\_X\_For
+### Function GetRMSSpot_X_For
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_data_1_1_i_a_r___spot_data_result_matrix_1ac96eadb3714eb91a03bbdc1f81ea1296"></a>
 
@@ -506,7 +506,7 @@ double ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.GetRMSSpot_X_For(int fieldN
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.GetRMSSpot_X_For"}]}`
 -->
 
-### Function GetRMSSpot\_Y\_For
+### Function GetRMSSpot_Y_For
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_data_1_1_i_a_r___spot_data_result_matrix_1a05f198465b35adc8283b100f32be2ebb"></a>
 
@@ -531,7 +531,7 @@ double ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.GetRMSSpot_Y_For(int fieldN
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.GetRMSSpot_Y_For"}]}`
 -->
 
-### Function GetReferenceCoordinate\_X\_For
+### Function GetReferenceCoordinate_X_For
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_data_1_1_i_a_r___spot_data_result_matrix_1a004786cf813690810a86888693d57a55"></a>
 
@@ -556,7 +556,7 @@ double ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.GetReferenceCoordinate_X_Fo
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.GetReferenceCoordinate_X_For"}]}`
 -->
 
-### Function GetReferenceCoordinate\_Y\_For
+### Function GetReferenceCoordinate_Y_For
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_data_1_1_i_a_r___spot_data_result_matrix_1a482a8e632cea66e76c41838b7ea05ede"></a>
 
@@ -581,7 +581,5 @@ double ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.GetReferenceCoordinate_Y_Fo
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Data.IAR_SpotDataResultMatrix.GetReferenceCoordinate_Y_For"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

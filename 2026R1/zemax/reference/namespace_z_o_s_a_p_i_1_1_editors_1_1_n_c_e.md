@@ -7,7 +7,7 @@
 **Definition**:
 
 
-Usage (see [Example 21](page_ex21.md#page_ex21) for a full sample)
+Usage (see [Example 21](../apiexamples/example_21.md) for a full sample)
 
 
 C# 
@@ -414,7 +414,7 @@ enum ObjectType {
 
 All supported non-sequential object types.
 
-Usage (see [Example 17](page_ex17.md#page_ex17) for a full sample)
+Usage (see [Example 17](../apiexamples/example_17.md) for a full sample)
 
 
 C# 
@@ -1358,7 +1358,7 @@ enum ObjectColumn {
 ```
 
 
-Usage (see [Example 24](page_ex24.md#page_ex24) for a full sample)
+Usage (see [Example 24](../apiexamples/example_24.md) for a full sample)
 
 
 C# 
@@ -2718,7 +2718,7 @@ enum DetectorDataType {
 ```
 
 
-Usage (see [Example 24](page_ex24.md#page_ex24) for a full sample)
+Usage (see [Example 24](../apiexamples/example_24.md) for a full sample)
 
 
 C# 
@@ -2825,12 +2825,12 @@ enum PolarDetectorDataType {
 <a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1af2e3d9a13b455eab749a70ec14b79b79a249468b3d9d629f117ae5d4cf259acdb"></a>
 
 
-#### Enumerator u\_T
+#### Enumerator u_T
 
 <a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1af2e3d9a13b455eab749a70ec14b79b79ab7ef8f249394fb22a69bfe9abf4163e9"></a>
 
 
-#### Enumerator u\_V
+#### Enumerator u_V
 
 <a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1af2e3d9a13b455eab749a70ec14b79b79a0cef6340f821d5f2790a666bcc17a52f"></a>
 
@@ -2939,12 +2939,12 @@ enum HologramTypes {
 ```
 
 
-#### Enumerator Type\_1
+#### Enumerator Type_1
 
 <a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1aa8081b8c1c3e59fc47af4ed75147d3c6ac85bcf86bcdccd472c49567fbbfe681f"></a>
 
 
-#### Enumerator Type\_2
+#### Enumerator Type_2
 
 <a id="namespace_z_o_s_a_p_i_1_1_editors_1_1_n_c_e_1aa8081b8c1c3e59fc47af4ed75147d3c6afa2a7f25258e70e95988ff587e25c284"></a>
 
@@ -3611,7 +3611,7 @@ enum ObjectScatteringTypes {
 ```
 
 
-Usage (see [Example 21](page_ex21.md#page_ex21) for a full sample)
+Usage (see [Example 21](../apiexamples/example_21.md) for a full sample)
 
 
 C# 
@@ -3754,7 +3754,7 @@ enum VolumePhysicsModelType {
 ```
 
 
-Usage (see [Example 17](page_ex17.md#page_ex17) for a full sample)
+Usage (see [Example 17](../apiexamples/example_17.md) for a full sample)
 
 
 C# 
@@ -4113,11 +4113,9 @@ enum RayTraceModes {
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.RayTraceModes"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+[private]: https://img.shields.io/badge/-private-red (private)
 [package]: https://img.shields.io/badge/-package-blueviolet (package)
-[Markdown]: https://img.shields.io/badge/language-Markdown-blue (Markdown)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

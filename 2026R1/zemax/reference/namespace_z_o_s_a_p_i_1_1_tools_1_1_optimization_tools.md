@@ -40,27 +40,27 @@ enum FindBestAsphereTypes {
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_optimization_tools_1a097734c33b41c1e35e1f6efe5aa6637babb51a132161f50b4daf4badef28dfbaa"></a>
 
 
-#### Enumerator Polynomial\_4thOrder
+#### Enumerator Polynomial_4thOrder
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_optimization_tools_1a097734c33b41c1e35e1f6efe5aa6637ba2a7c6050543472bac4f8a2687a0759d8"></a>
 
 
-#### Enumerator Polynomial\_6thOrder
+#### Enumerator Polynomial_6thOrder
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_optimization_tools_1a097734c33b41c1e35e1f6efe5aa6637ba4eefadad6b5ecc696906e0e760849fd0"></a>
 
 
-#### Enumerator Polynomial\_8thOrder
+#### Enumerator Polynomial_8thOrder
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_optimization_tools_1a097734c33b41c1e35e1f6efe5aa6637ba2269f32a2b2527468c295b2691613ff6"></a>
 
 
-#### Enumerator Polynomial\_10thOrder
+#### Enumerator Polynomial_10thOrder
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_optimization_tools_1a097734c33b41c1e35e1f6efe5aa6637ba6f16a46c5e7ae24ae9d9b63853a3df36"></a>
 
 
-#### Enumerator Polynomial\_12thOrder
+#### Enumerator Polynomial_12thOrder
 
 <a id="namespace_z_o_s_a_p_i_1_1_tools_1_1_optimization_tools_1a097734c33b41c1e35e1f6efe5aa6637babbd1b7c24e1ae28177f09b5939a601ab"></a>
 
@@ -116,10 +116,8 @@ enum ConvertAsphereTypes {
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Tools.OptimizationTools.ConvertAsphereTypes"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)
+[private]: https://img.shields.io/badge/-private-red (private)
 [package]: https://img.shields.io/badge/-package-blueviolet (package)
-[Markdown]: https://img.shields.io/badge/language-Markdown-blue (Markdown)

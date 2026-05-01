@@ -611,7 +611,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceTrueFreeform.ConicXCell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceTrueFreeform.ConicXCell"}]}`
 -->
 
-### Property ZernikeDecenter\_X\_Cell
+### Property ZernikeDecenter_X_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_true_freeform_1a93359f8a565e35e06ab64a6358b3c504"></a>
 
@@ -633,7 +633,7 @@ IEditorCell ZOSAPI.Editors.LDE.ISurfaceTrueFreeform.ZernikeDecenter_X_Cell
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceTrueFreeform.ZernikeDecenter_X_Cell"}]}`
 -->
 
-### Property ZernikeDecenter\_Y\_Cell
+### Property ZernikeDecenter_Y_Cell
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_true_freeform_1a3b6b66c8bc4ff1066f12226536e900d3"></a>
 
@@ -699,7 +699,7 @@ double ZOSAPI.Editors.LDE.ISurfaceTrueFreeform.ConicX
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceTrueFreeform.ConicX"}]}`
 -->
 
-### Property ZernikeDecenter\_X
+### Property ZernikeDecenter_X
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_true_freeform_1ad8c456ece9bb877074feef1beb08a16e"></a>
 
@@ -721,7 +721,7 @@ double ZOSAPI.Editors.LDE.ISurfaceTrueFreeform.ZernikeDecenter_X
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceTrueFreeform.ZernikeDecenter_X"}]}`
 -->
 
-### Property ZernikeDecenter\_Y
+### Property ZernikeDecenter_Y
 
 <a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_true_freeform_1ad1ca308d3aca59490a1c896c04f5a518"></a>
 
@@ -765,7 +765,5 @@ int ZOSAPI.Editors.LDE.ISurfaceTrueFreeform.NumVariablePoints
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurfaceTrueFreeform.NumVariablePoints"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

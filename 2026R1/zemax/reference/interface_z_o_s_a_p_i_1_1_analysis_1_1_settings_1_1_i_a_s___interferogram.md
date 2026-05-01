@@ -152,7 +152,7 @@ ShowAs ZOSAPI.Analysis.Settings.IAS_Interferogram.ShowAs
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.IAS_Interferogram.ShowAs"}]}`
 -->
 
-### Property Beam\_1
+### Property Beam_1
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_i_a_s___interferogram_1abbb6d9e5d3916360865712e27551a705"></a>
 
@@ -174,7 +174,7 @@ Beam ZOSAPI.Analysis.Settings.IAS_Interferogram.Beam_1
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.IAS_Interferogram.Beam_1"}]}`
 -->
 
-### Property Beam\_2
+### Property Beam_2
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_i_a_s___interferogram_1a1fc3b1492ae729bdcc15cf6c2da99555"></a>
 
@@ -196,7 +196,7 @@ Beam ZOSAPI.Analysis.Settings.IAS_Interferogram.Beam_2
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.IAS_Interferogram.Beam_2"}]}`
 -->
 
-### Property Ref\_Beam\_1\_To\_Vertex
+### Property Ref_Beam_1_To_Vertex
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_i_a_s___interferogram_1a59e7453afa574c7d0f25b59c9647d2b1"></a>
 
@@ -218,7 +218,7 @@ bool ZOSAPI.Analysis.Settings.IAS_Interferogram.Ref_Beam_1_To_Vertex
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.IAS_Interferogram.Ref_Beam_1_To_Vertex"}]}`
 -->
 
-### Property Ref\_Beam\_2\_To\_Vertex
+### Property Ref_Beam_2_To_Vertex
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_i_a_s___interferogram_1ae32d5efb1ed8fbb44aa07edcab0d7757"></a>
 
@@ -306,7 +306,7 @@ double ZOSAPI.Analysis.Settings.IAS_Interferogram.ScaleFactor
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.IAS_Interferogram.ScaleFactor"}]}`
 -->
 
-### Property X\_Tilt
+### Property X_Tilt
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_i_a_s___interferogram_1a7fe0b62a834d89a9e17175a6083a3844"></a>
 
@@ -328,7 +328,7 @@ double ZOSAPI.Analysis.Settings.IAS_Interferogram.X_Tilt
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.IAS_Interferogram.X_Tilt"}]}`
 -->
 
-### Property Y\_Tilt
+### Property Y_Tilt
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_i_a_s___interferogram_1ac1bcbe04d701e2f2518c07a7a7640a65"></a>
 
@@ -350,7 +350,7 @@ double ZOSAPI.Analysis.Settings.IAS_Interferogram.Y_Tilt
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.IAS_Interferogram.Y_Tilt"}]}`
 -->
 
-### Property Subaperture\_X
+### Property Subaperture_X
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_i_a_s___interferogram_1a592620ee3ed7cd7d7ff10924fba6a8a5"></a>
 
@@ -372,7 +372,7 @@ double ZOSAPI.Analysis.Settings.IAS_Interferogram.Subaperture_X
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.IAS_Interferogram.Subaperture_X"}]}`
 -->
 
-### Property Subaperture\_Y
+### Property Subaperture_Y
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_i_a_s___interferogram_1adb409cf127ff95cef4fac11ccec92f8c"></a>
 
@@ -394,7 +394,7 @@ double ZOSAPI.Analysis.Settings.IAS_Interferogram.Subaperture_Y
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.IAS_Interferogram.Subaperture_Y"}]}`
 -->
 
-### Property Subaperture\_R
+### Property Subaperture_R
 
 <a id="interface_z_o_s_a_p_i_1_1_analysis_1_1_settings_1_1_i_a_s___interferogram_1aa5cf8c5802177445b062889c528e308f"></a>
 
@@ -438,7 +438,5 @@ String ZOSAPI.Analysis.Settings.IAS_Interferogram.ContourFormat
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Analysis.Settings.IAS_Interferogram.ContourFormat"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

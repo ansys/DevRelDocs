@@ -25,18 +25,18 @@ This can be thrown from the algorithm when the algorithm receives a failed run a
 
 ## Public Member Functions
 
-|Name|Description|
-|-----|-----|
-| |`RunFailureException ()`<br>Initializes a new instance of the RunFailureException class. |
-| |`RunFailureException (string msg)`<br>Initializes a new instance of the RunFailureException class with a specified error message. |
-| |`RunFailureException (string msg, Exception inner)`<br>Initializes a new instance of the RunFailureException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+|Type|Name|Description|
+|-----|-----|-----|
+| |`RunFailureException ()`| Initializes a new instance of the RunFailureException class. |
+| |`RunFailureException (string msg)`| Initializes a new instance of the RunFailureException class with a specified error message. |
+| |`RunFailureException (string msg, Exception inner)`| Initializes a new instance of the RunFailureException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
 ### Public Member Functions inherited from [OptimizationException]()
-|Name|Description|
-|-----|-----|
-| |`OptimizationException ()`<br>Initializes a new instance of the OptimizationException class. |
-| |`OptimizationException (string msg)`<br>Initializes a new instance of the OptimizationException class with a specified error message. |
-| |`OptimizationException (string msg, Exception inner)`<br>Initializes a new instance of the OptimizationException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+|Type|Name|Description|
+|-----|-----|-----|
+| |`OptimizationException ()`| Initializes a new instance of the OptimizationException class. |
+| |`OptimizationException (string msg)`| Initializes a new instance of the OptimizationException class with a specified error message. |
+| |`OptimizationException (string msg, Exception inner)`| Initializes a new instance of the OptimizationException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
 ## Constructor & Destructor Documentation
 

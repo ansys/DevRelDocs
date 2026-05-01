@@ -21,7 +21,6 @@ The [ZOSAPI](namespace_z_o_s_a_p_i.md#namespace_z_o_s_a_p_i) namespace contains 
 
 ## Classes
 
-* [ZOSAPI::APINetCallback](class_z_o_s_a_p_i_1_1_a_p_i_net_callback.md#class_z_o_s_a_p_i_1_1_a_p_i_net_callback)
 * [ZOSAPI::IOpticalSystem](interface_z_o_s_a_p_i_1_1_i_optical_system.md#interface_z_o_s_a_p_i_1_1_i_optical_system)
 * [ZOSAPI::IPreferences](interface_z_o_s_a_p_i_1_1_i_preferences.md#interface_z_o_s_a_p_i_1_1_i_preferences)
 * [ZOSAPI::ISTARMaterials](interface_z_o_s_a_p_i_1_1_i_s_t_a_r_materials.md#interface_z_o_s_a_p_i_1_1_i_s_t_a_r_materials)
@@ -100,7 +99,7 @@ enum LicenseStatusType {
 ```
 
 
-Usage (see [Example 10](page_ex10.md#page_ex10) for a full sample)
+Usage (see [Example 10](../apiexamples/example_10.md) for a full sample)
 
 
 C# 
@@ -307,7 +306,7 @@ enum UpdateStatus {
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.UpdateStatus"}]}`
 -->
 
-### Enumeration type ZOSAPI\_Mode
+### Enumeration type ZOSAPI_Mode
 
 <a id="namespace_z_o_s_a_p_i_1a254f5f6cb4ff37c2245b456b9bb79d2a"></a>
 
@@ -506,8 +505,6 @@ delegate void ZOSAPI.OpticalSystemStatusChangedHandler(int systemId, string newS
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.OpticalSystemStatusChangedHandler"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)
 [static]: https://img.shields.io/badge/-static-lightgrey (static)

@@ -9,7 +9,7 @@
 
 Object properties Sources tab. This interface can be accessed via the INCERow interface.
 
-Usage (see [Example 21](page_ex21.md#page_ex21) for a full sample)
+Usage (see [Example 21](../apiexamples/example_21.md) for a full sample)
 
 
 C# 
@@ -553,7 +553,7 @@ SourceColorMode ZOSAPI.Editors.NCE.INCESourcesData.SourceColor
 ```
 
 
-Usage (see [Example 25](page_ex25.md#page_ex25) for a full sample)
+Usage (see [Example 25](../apiexamples/example_25.md) for a full sample)
 
 
 C# 
@@ -612,7 +612,7 @@ ISourceColorSettings ZOSAPI.Editors.NCE.INCESourcesData.SourceColorSettings
 ```
 
 
-Usage (see [Example 25](page_ex25.md#page_ex25) for a full sample)
+Usage (see [Example 25](../apiexamples/example_25.md) for a full sample)
 
 
 C# 
@@ -657,7 +657,5 @@ C#
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.NCE.INCESourcesData.SourceColorSettings"}]}`
 -->
 
-[private]: https://img.shields.io/badge/-private-red (private)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[protected]: https://img.shields.io/badge/-protected-yellow (protected)
 [C#]: https://img.shields.io/badge/language-C%23-blue (C#)

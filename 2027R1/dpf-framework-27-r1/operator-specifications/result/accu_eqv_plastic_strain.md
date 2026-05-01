@@ -65,6 +65,10 @@ Each parameter is detailed in the sections that follow the table.
 | <strong>4</strong> | [data_sources](#input_4) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
 | <strong>7</strong> | [mesh](#input_7) |  |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
 | <strong>9</strong> | [requested_location](#input_9) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>14</strong> | [read_cyclic](#input_14) |  |`enum dataProcessing::ECyclicReading`, [`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>15</strong> | [expanded_meshed_region](#input_15) |  |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
+| <strong>18</strong> | [sectors_to_expand](#input_18) |  |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types), [`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
+| <strong>19</strong> | [phi](#input_19) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>22</strong> | [read_beams](#input_22) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>26</strong> | [split_shells](#input_26) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>27</strong> | [shell_layer](#input_27) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
@@ -117,7 +121,7 @@ result file path container, used if no streams are set
 - **Required:** No
 - **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container)
 
-prevents from reading the mesh in the result files
+mesh. If cylic expansion is to be done, mesh of the base sector
 
 <a id="input_9"></a>
 ### requested_location (Pin 9)
@@ -126,6 +130,38 @@ prevents from reading the mesh in the result files
 - **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
 
 requested location Nodal, Elemental or ElementalNodal
+
+<a id="input_14"></a>
+### read_cyclic (Pin 14)
+
+- **Required:** No
+- **Expected type(s):** `enum dataProcessing::ECyclicReading`, [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+if 0 cyclic symmetry is ignored, if 1 cyclic sector is read, if 2 cyclic expansion is done, if 3 cyclic expansion is done and stages are merged (default is 1)
+
+<a id="input_15"></a>
+### expanded_meshed_region (Pin 15)
+
+- **Required:** No
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container)
+
+mesh expanded, use if cyclic expansion is to be done.
+
+<a id="input_18"></a>
+### sectors_to_expand (Pin 18)
+
+- **Required:** No
+- **Expected type(s):** [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types), [`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container)
+
+sectors to expand (start at 0), for multistage: use scopings container with 'stage' label, use if cyclic expansion is to be done.
+
+<a id="input_19"></a>
+### phi (Pin 19)
+
+- **Required:** No
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+
+angle phi in degrees (default value 0.0), use if cyclic expansion is to be done.
 
 <a id="input_22"></a>
 ### read_beams (Pin 22)
@@ -242,6 +278,10 @@ op.connect(3, my_streams_container);
 op.connect(4, my_data_sources);
 op.connect(7, my_mesh);
 op.connect(9, my_requested_location);
+op.connect(14, my_read_cyclic);
+op.connect(15, my_expanded_meshed_region);
+op.connect(18, my_sectors_to_expand);
+op.connect(19, my_phi);
 op.connect(22, my_read_beams);
 op.connect(26, my_split_shells);
 op.connect(27, my_shell_layer);
@@ -264,6 +304,10 @@ op.inputs.streams_container.connect(my_streams_container)
 op.inputs.data_sources.connect(my_data_sources)
 op.inputs.mesh.connect(my_mesh)
 op.inputs.requested_location.connect(my_requested_location)
+op.inputs.read_cyclic.connect(my_read_cyclic)
+op.inputs.expanded_meshed_region.connect(my_expanded_meshed_region)
+op.inputs.sectors_to_expand.connect(my_sectors_to_expand)
+op.inputs.phi.connect(my_phi)
 op.inputs.read_beams.connect(my_read_beams)
 op.inputs.split_shells.connect(my_split_shells)
 op.inputs.shell_layer.connect(my_shell_layer)
@@ -287,6 +331,10 @@ op.inputs.streams_container.Connect(my_streams_container)
 op.inputs.data_sources.Connect(my_data_sources)
 op.inputs.mesh.Connect(my_mesh)
 op.inputs.requested_location.Connect(my_requested_location)
+op.inputs.read_cyclic.Connect(my_read_cyclic)
+op.inputs.expanded_meshed_region.Connect(my_expanded_meshed_region)
+op.inputs.sectors_to_expand.Connect(my_sectors_to_expand)
+op.inputs.phi.Connect(my_phi)
 op.inputs.read_beams.Connect(my_read_beams)
 op.inputs.split_shells.Connect(my_split_shells)
 op.inputs.shell_layer.Connect(my_shell_layer)
