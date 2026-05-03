@@ -17,7 +17,7 @@ Read/compute nodal reaction forces by calling the readers defined by the datasou
 This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
 
 - hdf5: h5dpf 
-- mapdl: mode, rdsp, rfrq, rst, rstp 
+- mapdl: rst, rstp 
 
 ## Inputs
 
