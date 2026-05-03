@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-04-29).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-05-02).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -58,7 +58,7 @@ The following table shows which components have updates in each category.
 | refactor | [1 item](#Features_refactor) | |
 | rotation |  |[1 item](#Fixes_rotation) |
 | utilities |  |[1 item](#Fixes_utilities) |
-| vtk | [1 item](#Features_vtk) |[2 items](#Fixes_vtk) |
+| vtk | [2 items](#Features_vtk) |[2 items](#Fixes_vtk) |
 | workflows | [3 items](#Features_workflows) |[2 items](#Fixes_workflows) |
 
 
@@ -2524,6 +2524,9 @@ The following table shows which components have updates in each category.
   > 
 ## vtk
 ### <a id="Features_vtk"></a> Features
+
+- Perf improvement of mesh_to_pyvista (part 2):
+  > 
 
 - Perf improvement of mesh_to_pyvista:
   > Performance improvement of mesh_to_pyvista operator, up to a margin of 60%, was achieved especially when dealing with conversion between Dpf Meshed Regions and various VTK-native mesh formats.
