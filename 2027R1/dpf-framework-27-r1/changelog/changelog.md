@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-05-02).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-05-04).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -50,7 +50,7 @@ The following table shows which components have updates in each category.
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[5 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [7 items](#Features_native) |[22 items](#Fixes_native) |
+| native | [8 items](#Features_native) |[23 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [4 items](#Features_prime) |[1 item](#Fixes_prime) |
@@ -2198,6 +2198,13 @@ The following table shows which components have updates in each category.
 ## native
 ### <a id="Features_native"></a> Features
 
+- Supported Generic Support in "field::get_attribute" and "propertyfield::get_attribute" APIs:
+  > - Supported Generic Support (property_name = "generic_support") in "field::get_attribute" and "propertyfield::get_attribute" operators.
+  >
+  > 
+  >
+  > 
+
 - Complete usage of ScopingIterators and eliminate GetIds calls in Ans.Dpf.Native:
   > 
   >
@@ -2250,6 +2257,15 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Fix int connection to time_scoping pin for cyclic models:
+  > 
+  >
+  > If an integer different to 1 is connected to the time_scoping input pin for cyclic models, the results that will be read are the ones from time=1 either way. This is now fixed.
+  >
+  > 
+  >
+  > 
 
 - Fix the merge::meshes operator while trying to merge empty meshes:
   > 
@@ -3164,6 +3180,9 @@ The following table shows which components have updates in each category.
 - [prandtl_number](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/prandtl_number.md):
   > Read/compute prandtl number by calling the readers defined by the datasources.
 
+- [radiation_area](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/radiation_area.md):
+  > Read/compute radiation area by calling the readers defined by the datasources.
+
 - [raw_acceleration](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/raw_acceleration.md):
   > Read/compute A vector from the finite element problem MA+CV+KU=F by calling the readers defined by the datasources.
 
@@ -4008,6 +4027,8 @@ Upgraded documentation
   > 0.0.1: Fix node ordering for face connectivity of fluid cell faces marked as reversed.
 
   > 0.0.2: Fix connectivity construction to handle higher order beam and line elements.
+
+  > 0.0.3: Improve performance of mesh conversions for all types of meshes.
 
 
 - [meshes_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/meshes_provider.md)

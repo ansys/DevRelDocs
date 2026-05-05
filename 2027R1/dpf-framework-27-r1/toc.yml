@@ -1295,6 +1295,8 @@
       href: operator-specifications/result/pressure.md
     - name: pretension
       href: operator-specifications/result/pretension.md
+    - name: radiation area
+      href: operator-specifications/result/radiation_area.md
     - name: raw acceleration
       href: operator-specifications/result/raw_acceleration.md
     - name: raw displacement
