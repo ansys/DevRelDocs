@@ -1,8 +1,8 @@
-# How to create an Evaluator
+# Create an evaluator
 
 The Algorithm Developer Tools includes a suite of test problems to test the performance of algorithms. Some of these test problems are academic in nature and others are more real world (some require ModelCenter and other tools such as ABACUS, LS-DYNA, etc.). Additional test problems can be added by implementing the interface and placing the resulting DLL in the correct location.
 
-## Added New Evaluator Functions
+## Add new evaluator functions
 
 Evaluator functions are run using the Algorithm Problem Test Suite which is included with the Algorithm Developer Tools.
 
@@ -46,5 +46,4 @@ Evaluator functions are run using the Algorithm Problem Test Suite which is incl
    - In a subdirectory of Optimization Tool's algorithms directory. Typically, "C:\Program Files\Phoenix Integration\Optimization Tool\evaluators". **NOTE:** This is the location for algorithms that are installed with the Optimization Tool, but users may not have write access to this location because of user security privileges.
 
    Copy the evaluator DLL (and any files it requires) to the new directory.
-
 

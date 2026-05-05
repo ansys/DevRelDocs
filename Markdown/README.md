@@ -224,7 +224,7 @@ The following table describes the metadata fields that can be defined in the glo
 
 | Field                      | Requirement                          | Description | Global | Individual | HTML name | Request |
 |----------------------------|--------------------------------------|-------------|--------|------------|-----------|---------|
-| **Title**                  | Required                             | Title of the documentation package.  | Yes | ? Currently, it is derived from the first H1 heading in the Markdown file. | Served as `<meta name="product">` | Remove version information from the title and serve as `<meta name="name">`|
+| **Title**                  | Required                             | Title of the documentation package.  | Yes | ? Currently, it is derived from the first H1 heading in the Markdown file. | Served as `<meta name="product">` | Remove version information from the title and serve as `<title>page title \| title + version\| company name</title>`  Example: `<title>Introduction \| DPF Framework 2026 R1 \| Ansys</title>`|
 | **Version**                | Required                             | Package version string.  | Yes | No (value from `docfx.json` is always used) | Not implemented | To be used by the backend to build the doc title as `title` + `version` (as currently done for REST APIs). Serve to SEO as `<meta name="version">` instead of including in title |
 | **Summary**                | Required                             | Brief description of the documentation package displayed on landing pages.  | Yes | No | Not implemented | Currently used for internal purposes only, not served to SEO |
 | **Physics**                | Required                             | Product collection category terms. Uses "Physics" for historical reasons. See `physics.yml` in the [taxonomies repository](https://github.com/ansys/DevRelDocs/tree/main/Markdown/taxonomies) for available terms. | Yes | Yes | Served as `<meta name="physics">` | Rename to `product_collection` and serve as `<meta name="product_collection">` |
@@ -237,6 +237,8 @@ The following table describes the metadata fields that can be defined in the glo
 | **Author Email**           | Optional                             | Author email address. If not provided or if no matching Dev Portal user with content editor rights is found, defaults to the Ansys developer account. | Yes | Yes | Not implemented | No request |
 | **Date**                   | Optional                             | Creation date in ISO-8601 format (yyyy-mm-dd). If not provided, uses the import date. Last updated date is automatically derived from GitHub APIs. | Yes | Yes | Not implemented | No request |
 | **Keywords**               | Optional                             | Keywords for the documentation package to enhance AI and SEO discoverability. | Yes | Yes | Not implemented | Implement and serve as `<meta name="keywords">` |
+| **Audience**               | Optional                             | This defines who the content is for to enhance AI and SEO discoverability. | Yes | Yes | Not implemented | Implement and serve as `<meta name="audience">` |
+| **Context**               | Optional                             | This describes in what situation the content is meant to be used (to enhance AI and SEO discoverability.).  | Yes | Yes | Not implemented | Implement and serve as `<meta name="context">` |
 
 #### Proposed Markdown documentation example
 
