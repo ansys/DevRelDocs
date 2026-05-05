@@ -1,6 +1,3 @@
-The code in this page follows the example script `SSEExample.py`, available here: [python_examples.zip](https://github.com/ansys/DevRelPublic/raw/main/Downloads/granta-connected-data/python_examples.zip)
-
-
 # Waiting for and retrieving data
 
 This example illustrates using a Server-Sent Event (SSE) connection to receive data. The advantage of using an SSE is that you do not have to write a polling loop to check for new data. 
