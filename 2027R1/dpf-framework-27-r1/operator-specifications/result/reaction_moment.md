@@ -4,19 +4,20 @@ plugin: core
 license: None
 ---
 
-# result:nodal force
+# result:reaction moment
 
 **Version: 0.0.0**
 
 ## Description
 
-Read/compute nodal forces by calling the readers defined by the datasources.
+Read/compute nodal reaction moments by calling the readers defined by the datasources.
 
 ## Supported file types
 
 This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
 
-- lsdyna: moddynout 
+- hdf5: h5dpf 
+- mapdl: rst, rstp 
 
 ## Inputs
 
@@ -147,11 +148,11 @@ This operator can be accessed through scripting interfaces using these identifie
 
  **Plugin**: core
 
- **Scripting name**: nodal_force
+ **Scripting name**: reaction_moment
 
- **Full name**: result.nodal_force
+ **Full name**: result.reaction_moment
 
- **Internal name**: F
+ **Internal name**: RF_Moment
 
  **License**: None
 
@@ -166,7 +167,7 @@ Each example shows how to instantiate the operator, connect the required inputs,
 ```cpp
 #include "dpf_api.h"
 
-ansys::dpf::Operator op("F"); // operator instantiation
+ansys::dpf::Operator op("RF_Moment"); // operator instantiation
 op.connect(0, my_time_scoping);
 op.connect(1, my_mesh_scoping);
 op.connect(2, my_fields_container);
@@ -184,7 +185,7 @@ ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::Field
 ```python
 import ansys.dpf.core as dpf
 
-op = dpf.operators.result.nodal_force() # operator instantiation
+op = dpf.operators.result.reaction_moment() # operator instantiation
 op.inputs.time_scoping.connect(my_time_scoping)
 op.inputs.mesh_scoping.connect(my_mesh_scoping)
 op.inputs.fields_container.connect(my_fields_container)
@@ -203,7 +204,7 @@ my_fields_container = op.outputs.fields_container()
 import mech_dpf
 import Ans.DataProcessing as dpf
 
-op = dpf.operators.result.nodal_force() # operator instantiation
+op = dpf.operators.result.reaction_moment() # operator instantiation
 op.inputs.time_scoping.Connect(my_time_scoping)
 op.inputs.mesh_scoping.Connect(my_mesh_scoping)
 op.inputs.fields_container.Connect(my_fields_container)

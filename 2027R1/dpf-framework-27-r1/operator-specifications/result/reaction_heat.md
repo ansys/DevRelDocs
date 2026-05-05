@@ -4,19 +4,20 @@ plugin: core
 license: None
 ---
 
-# result:nodal force
+# result:reaction heat
 
 **Version: 0.0.0**
 
 ## Description
 
-Read/compute nodal forces by calling the readers defined by the datasources.
+Read/compute nodal reaction heat by calling the readers defined by the datasources.
 
 ## Supported file types
 
 This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
 
-- lsdyna: moddynout 
+- hdf5: h5dpf 
+- mapdl: rst, rstp, rth 
 
 ## Inputs
 
@@ -31,7 +32,6 @@ Each parameter is detailed in the sections that follow the table.
 | <strong>2</strong> | [fields_container](#input_2) |  |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
 | <strong>3</strong> | [streams_container](#input_3) |  |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
 | <strong>4</strong> | [data_sources](#input_4) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
-| <strong>5</strong> | [bool_rotate_to_global](#input_5) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>7</strong> | [mesh](#input_7) |  |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
 
 
@@ -74,14 +74,6 @@ result file container allowed to be kept open to cache data
 - **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
 
 result file path container, used if no streams are set
-
-<a id="input_5"></a>
-### bool_rotate_to_global (Pin 5)
-
-- **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
-
-Rotate the result to the global coordinate system if rotations are available (default true). Please check your results carefully if 'false' is used for Elemental or ElementalNodal results averaged to the Nodes when adjacent elements do not share the same coordinate system, as results may be incorrect.
 
 <a id="input_7"></a>
 ### mesh (Pin 7)
@@ -147,11 +139,11 @@ This operator can be accessed through scripting interfaces using these identifie
 
  **Plugin**: core
 
- **Scripting name**: nodal_force
+ **Scripting name**: reaction_heat
 
- **Full name**: result.nodal_force
+ **Full name**: result.reaction_heat
 
- **Internal name**: F
+ **Internal name**: RF_Heat
 
  **License**: None
 
@@ -166,13 +158,12 @@ Each example shows how to instantiate the operator, connect the required inputs,
 ```cpp
 #include "dpf_api.h"
 
-ansys::dpf::Operator op("F"); // operator instantiation
+ansys::dpf::Operator op("RF_Heat"); // operator instantiation
 op.connect(0, my_time_scoping);
 op.connect(1, my_mesh_scoping);
 op.connect(2, my_fields_container);
 op.connect(3, my_streams_container);
 op.connect(4, my_data_sources);
-op.connect(5, my_bool_rotate_to_global);
 op.connect(7, my_mesh);
 ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
 ```
@@ -184,13 +175,12 @@ ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::Field
 ```python
 import ansys.dpf.core as dpf
 
-op = dpf.operators.result.nodal_force() # operator instantiation
+op = dpf.operators.result.reaction_heat() # operator instantiation
 op.inputs.time_scoping.connect(my_time_scoping)
 op.inputs.mesh_scoping.connect(my_mesh_scoping)
 op.inputs.fields_container.connect(my_fields_container)
 op.inputs.streams_container.connect(my_streams_container)
 op.inputs.data_sources.connect(my_data_sources)
-op.inputs.bool_rotate_to_global.connect(my_bool_rotate_to_global)
 op.inputs.mesh.connect(my_mesh)
 my_fields_container = op.outputs.fields_container()
 ```
@@ -203,13 +193,12 @@ my_fields_container = op.outputs.fields_container()
 import mech_dpf
 import Ans.DataProcessing as dpf
 
-op = dpf.operators.result.nodal_force() # operator instantiation
+op = dpf.operators.result.reaction_heat() # operator instantiation
 op.inputs.time_scoping.Connect(my_time_scoping)
 op.inputs.mesh_scoping.Connect(my_mesh_scoping)
 op.inputs.fields_container.Connect(my_fields_container)
 op.inputs.streams_container.Connect(my_streams_container)
 op.inputs.data_sources.Connect(my_data_sources)
-op.inputs.bool_rotate_to_global.Connect(my_bool_rotate_to_global)
 op.inputs.mesh.Connect(my_mesh)
 my_fields_container = op.outputs.fields_container.GetData()
 ```
