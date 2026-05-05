@@ -15,7 +15,7 @@ In order to use Granta Connected Data, you need an account that has access to th
 - The following Python packages required by the example: 
     - `requests`
     - `msal`
-- The example script `SimpleExample.py`, available here: [Python examples](./example-scripts/python_examples.zip)     
+- The example script `SimpleExample.py`, available here: [python_examples.zip](https://github.com/ansys/DevRelPublic/raw/main/Downloads/granta-connected-data/python_examples.zip)
 
 
 To get started:
