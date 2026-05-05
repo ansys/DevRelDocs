@@ -22,6 +22,6 @@ When adding controls to launch Granta Material Picker, use the following text fo
 
 ## Icons
 
-Standard icons in Light, Dark, and Classic themes. [Granta_Cloud_Data_icons.zip](./resources/Granta_Cloud_Data_icons.zip)
-Rounded icons in Light, Dark, and Classic themes. [Granta_Cloud_Data_icons_rounded.zip](./resources/Granta_Cloud_Data_icons_rounded.zip)
+Standard icons in Light, Dark, and Classic themes. [Granta_Cloud_Data_icons.zip](https://github.com/ansys/DevRelPublic/raw/main/Downloads/granta-connected-data/Granta_Cloud_Data_icons.zip)
+Rounded icons in Light, Dark, and Classic themes. [Granta_Cloud_Data_icons_rounded.zip](https://github.com/ansys/DevRelPublic/raw/main/Downloads/granta-connected-data/Granta_Cloud_Data_icons_rounded.zip)
 
