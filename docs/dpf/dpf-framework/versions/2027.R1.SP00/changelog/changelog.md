@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-04-21).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-05-04).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -28,19 +28,19 @@ The following table shows which components have updates in each category.
 | fbs | [2 items](#Features_fbs) | |
 | femutils | [3 items](#Features_femutils) |[15 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
-| framework | [2 items](#Features_framework) |[7 items](#Fixes_framework) |
+| framework | [2 items](#Features_framework) |[8 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
-| grpc | [1 item](#Features_grpc) |[3 items](#Fixes_grpc) |
+| grpc | [1 item](#Features_grpc) |[5 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[4 items](#Fixes_h5dpf) |
-| hdf5 | [8 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
-| hgp | [5 items](#Features_hgp) |[4 items](#Fixes_hgp) |
+| hdf5 | [9 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
+| hgp | [5 items](#Features_hgp) |[6 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [3 items](#Features_kernel) |[11 items](#Fixes_kernel) |
-| lsdyna | [2 items](#Features_lsdyna) | |
+| lsdyna | [3 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [21 items](#Features_mapdl) |[48 items](#Fixes_mapdl) |
+| mapdl | [23 items](#Features_mapdl) |[49 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [12 items](#Features_math) |[1 item](#Fixes_math) |
@@ -50,7 +50,7 @@ The following table shows which components have updates in each category.
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[5 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [7 items](#Features_native) |[22 items](#Fixes_native) |
+| native | [8 items](#Features_native) |[23 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [4 items](#Features_prime) |[1 item](#Fixes_prime) |
@@ -58,7 +58,7 @@ The following table shows which components have updates in each category.
 | refactor | [1 item](#Features_refactor) | |
 | rotation |  |[1 item](#Fixes_rotation) |
 | utilities |  |[1 item](#Fixes_utilities) |
-| vtk |  |[2 items](#Fixes_vtk) |
+| vtk | [2 items](#Features_vtk) |[2 items](#Fixes_vtk) |
 | workflows | [3 items](#Features_workflows) |[2 items](#Fixes_workflows) |
 
 
@@ -591,6 +591,15 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_framework"></a> Fixes
 
+- Add missing throw on errors in eventlogger:
+  > 
+  >
+  > Add missing throw on errors in EventLogger
+  >
+  > 
+  >
+  > 
+
 - Fix Heat Generation unit:
   > Resolve incorrect Heat Generation unit, should be Power/Volume, not Power.
   >
@@ -662,6 +671,18 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_grpc"></a> Fixes
+
+- Complete the work to fully support GenericSupport as Any:
+  > 
+
+- Fix deep_copy of local Fields to remote servers in HgP:
+  > 
+  >
+  > Since 26.1, local Fields were not correctly copied into remote servers if they had Field supports. This is now fixed.
+  >
+  > 
+  >
+  > 
 
 - Fix non-matching versions of Kernel in DataProcessingCore and Ans.Dpf.GrpcClient:
   > 
@@ -741,6 +762,11 @@ The following table shows which components have updates in each category.
   > 
 ## hdf5
 ### <a id="Features_hdf5"></a> Features
+
+- Support replacing existing fields in a fields container:
+  > Added support for replacing existing fields within a fields container when writing to H5DPF files. Users can now update field data in-place without having to rewrite the entire dataset, enabling more efficient workflows when modifying previously saved results.
+  >
+  > 
 
 - Field MetaData as hashable objects:
   > Field definitions are now stored once when the same definition is used in multiple fields. Same goes for field headers.
@@ -865,6 +891,18 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_hgp"></a> Fixes
+
+- Complete the work to fully support GenericSupport as Any:
+  > 
+
+- Fix deep_copy of local Fields to remote servers in HgP:
+  > 
+  >
+  > Since 26.1, local Fields were not correctly copied into remote servers if they had Field supports. This is now fixed.
+  >
+  > 
+  >
+  > 
 
 - Add guard variable to prevent dpf_api_i.cpp double include:
   > 
@@ -1003,6 +1041,9 @@ The following table shows which components have updates in each category.
   >
   > 
 
+- Add support for the binout ssstat branch (#261):
+  > 
+
 - Add mesh scoping input for nodout operators (#257):
   > 
 
@@ -1028,6 +1069,22 @@ The following table shows which components have updates in each category.
 
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
+
+- Add Radiation Area Operator:
+  > Add Radiation Area Operator for SURF251/252
+  >
+  > 
+  >
+  > 
+
+- Reaction moment and heat:
+  > Creation of reaction_moment and reaction_heat operators.
+  >
+  > Internal refactoring of reaction_forces operator for MSUP analysis.
+  >
+  > 
+  >
+  > 
 
 - Enable cyclic expansion for composite datasources.:
   > Enable cyclic expansion for composite datasources.
@@ -1223,6 +1280,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Bug 1445294 fix unexpected label on fields container when querying beam results:
+  > 
+  >
+  > 
 
 - Fix order mode coefficients.:
   > 
@@ -2136,6 +2198,13 @@ The following table shows which components have updates in each category.
 ## native
 ### <a id="Features_native"></a> Features
 
+- Supported Generic Support in "field::get_attribute" and "propertyfield::get_attribute" APIs:
+  > - Supported Generic Support (property_name = "generic_support") in "field::get_attribute" and "propertyfield::get_attribute" operators.
+  >
+  > 
+  >
+  > 
+
 - Complete usage of ScopingIterators and eliminate GetIds calls in Ans.Dpf.Native:
   > 
   >
@@ -2188,6 +2257,15 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Fix int connection to time_scoping pin for cyclic models:
+  > 
+  >
+  > If an integer different to 1 is connected to the time_scoping input pin for cyclic models, the results that will be read are the ones from time=1 either way. This is now fixed.
+  >
+  > 
+  >
+  > 
 
 - Fix the merge::meshes operator while trying to merge empty meshes:
   > 
@@ -2461,6 +2539,17 @@ The following table shows which components have updates in each category.
 - Fix breaking change in forward operator:
   > 
 ## vtk
+### <a id="Features_vtk"></a> Features
+
+- Perf improvement of mesh_to_pyvista (part 2):
+  > 
+
+- Perf improvement of mesh_to_pyvista:
+  > Performance improvement of mesh_to_pyvista operator, up to a margin of 60%, was achieved especially when dealing with conversion between Dpf Meshed Regions and various VTK-native mesh formats.
+  >
+  > 
+  >
+  > 
 
 ### <a id="Fixes_vtk"></a> Fixes
 
@@ -2697,7 +2786,7 @@ The following table shows which components have updates in each category.
 
 - [prepare_mechanical_native_mapping_point_cloud](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/prepare_mechanical_native_mapping_point_cloud.md):
   > 
-  > Prepares field data mapping from source mesh to target mesh using **point cloud interpolation** � a scattered-data
+  > Prepares field data mapping from source mesh to target mesh using **point cloud interpolation** - a scattered-data
   > approximation method that constructs interpolation weights from spatial proximity relationships without requiring mesh
   > connectivity. Use it together with `apply_mechanical_native_mapping`.
   > 
@@ -3091,11 +3180,29 @@ The following table shows which components have updates in each category.
 - [prandtl_number](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/prandtl_number.md):
   > Read/compute prandtl number by calling the readers defined by the datasources.
 
+- [radiation_area](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/radiation_area.md):
+  > Read/compute radiation area by calling the readers defined by the datasources.
+
 - [raw_acceleration](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/raw_acceleration.md):
   > Read/compute A vector from the finite element problem MA+CV+KU=F by calling the readers defined by the datasources.
 
 - [raw_velocity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/raw_velocity.md):
   > Read/compute V vector from the finite element problem MA+CV+KU=F by calling the readers defined by the datasources.
+
+- [reaction_heat](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/reaction_heat.md):
+  > Read/compute nodal reaction heat by calling the readers defined by the datasources.
+
+- [reaction_moment](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/reaction_moment.md):
+  > Read/compute nodal reaction moments by calling the readers defined by the datasources.
+
+- [reaction_moment_X](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/reaction_moment_X.md):
+  > Read/compute nodal reaction moments X component of the vector (1st component) by calling the readers defined by the datasources.
+
+- [reaction_moment_Y](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/reaction_moment_Y.md):
+  > Read/compute nodal reaction moments Y component of the vector (2nd component) by calling the readers defined by the datasources.
+
+- [reaction_moment_Z](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/reaction_moment_Z.md):
+  > Read/compute nodal reaction moments Z component of the vector (3rd component) by calling the readers defined by the datasources.
 
 - [record_reader](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/record_reader.md):
   > Extracts a record from a file.
@@ -3920,6 +4027,8 @@ Upgraded documentation
   > 0.0.1: Fix node ordering for face connectivity of fluid cell faces marked as reversed.
 
   > 0.0.2: Fix connectivity construction to handle higher order beam and line elements.
+
+  > 0.0.3: Improve performance of mesh conversions for all types of meshes.
 
 
 - [meshes_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/meshes_provider.md)
