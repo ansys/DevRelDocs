@@ -1,9 +1,5 @@
 # Overview
 
-**Related documentation:** [Entra ID app registration (Azure Portal)](entra-setup.md) — create the Graph app and secrets once; then use this guide to install and run the scripts.
-
----
-
 ## Purpose
 
 This toolset synchronizes the membership of a Microsoft Entra ID (formerly
@@ -14,8 +10,8 @@ without needing to maintain membership separately in the Ansys ID Portal.
 
 Two scripts are provided that perform identical synchronization:
 
-  - (sync_entra_to_ansys.py)[https://github.com/ansys/DevRelPublic/raw/main/Downloads/Ansys-ID-Portal/sync_entra_to_ansys.py]  -- Python, runs on Linux or Windows
-  - (sync_entra_to_ansys.ps1)[https://github.com/ansys/DevRelPublic/raw/main/Downloads/Ansys-ID-Portal/sync_entra_to_ansys.ps1] -- PowerShell, runs on Windows only
+  - [sync_entra_to_ansys.py](https://github.com/ansys/DevRelPublic/raw/main/Downloads/Ansys-ID-Portal/sync_entra_to_ansys.py)  -- Python, runs on Linux or Windows
+  - [sync_entra_to_ansys.ps1](https://github.com/ansys/DevRelPublic/raw/main/Downloads/Ansys-ID-Portal/sync_entra_to_ansys.ps1) -- PowerShell, runs on Windows only
 
 Choose whichever is most appropriate for your environment and automation
 toolchain. Both scripts require the same prerequisites and accept the same
