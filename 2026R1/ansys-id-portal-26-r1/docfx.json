@@ -1,7 +1,7 @@
 {
     "build": {
       "globalMetadata": {
-        "title": " Ansys ID Portal membership sync: setup and usage",
+        "title": "Ansys ID Portal membership sync: setup and usage",
         "summary": "Synchronize Microsoft Entra ID security group membership to an Ansys ID Portal account or named group (Python and PowerShell).",
         "version": "2026 R1",
         "product": "Ansys ID Portal",
