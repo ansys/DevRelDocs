@@ -1,7 +1,5 @@
 # Overview
 
-## Purpose
-
 This toolset synchronizes the membership of a Microsoft Entra ID (formerly
 Azure Active Directory) security group to an Ansys ID Portal account or
 group. It is intended to allow an organization to manage Ansys product
@@ -94,7 +92,7 @@ Complete these steps once before running the script on any platform.
 
 The script reads group membership from Entra ID using the Microsoft Graph
 API. This requires an app registration in your Entra tenant with
-appropriate permissions. Follow the full instructions in [Entra ID app registration setup](entra_setup.md).
+appropriate permissions. Follow the full instructions in [Entra ID app registration setup](entra-setup.md).
 
 You will need the following values from that process:
   - Entra ID tenant domain (e.g. contoso.onmicrosoft.com)
@@ -115,9 +113,9 @@ You will need:
   - If syncing to a named group: the name of the group (it will be
     created automatically if it does not exist).
 
-For instructions on generating and managing PATs, see the official (Ansys
-guide)[docs/ansys-id-sso/pat-authentication-guide].
-PATs are created and revoked in the Ansys ID Portal UI at (id.ansys.com)[https://id.ansys.com/].
+For instructions on generating and managing PATs, see the official [Ansys
+guide](docs/ansys-id-sso/pat-authentication-guide).
+PATs are created and revoked in the Ansys ID Portal UI at [id.ansys.com](https://id.ansys.com/).
 
 The Ansys B2C client ID and resource scope are hardcoded in the script
 and require no configuration.
