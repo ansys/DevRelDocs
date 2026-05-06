@@ -4,7 +4,7 @@ This guide walks through creating the Azure Entra ID (formerly Azure Active
 Directory) app registration that the sync script uses to read security group
 membership via the Microsoft Graph API.
 
-**Next step:** When the app is registered and consented, continue with [Ansys ID Portal sync — setup and usage guide](index.md) to install dependencies and run the sync.
+**Next step:** When the app is registered and consented, continue with [Ansys ID Portal membership sync: setup and usage](index.md) to install dependencies and run the sync.
 
 You will need:
   - An account in your Azure tenant with one of these roles:
@@ -40,7 +40,7 @@ those permissions before they take effect.
 
 ---
 
-## Open the Azure Portal
+## Step 1 - Open the Azure Portal
 
 1. Go to https://portal.azure.com and sign in with your administrator account.
 2. In the top search bar, type **Entra ID** and select
@@ -49,7 +49,7 @@ those permissions before they take effect.
 
 ---
 
-## Create the app registration
+## Step 2 -  Create the app registration
 
 1. In the left-hand menu, click **App registrations**.
 2. Click **+ New registration** at the top.
@@ -68,7 +68,7 @@ Leave this page open — you will need values from it in the next steps.
 
 ---
 
-## Note the client ID
+## Step 3 -  Note the client ID
 
 On the Overview page you will see:
 
@@ -81,7 +81,7 @@ Copy this value. This is what you will supply to the script as
 
 ---
 
-## Create a client secret
+## Step 4 -  Create a client secret
 
 1. In the left-hand menu of your app registration, click
    **Certificates & secrets**.
@@ -106,7 +106,7 @@ Secret can authenticate as this application against your Azure tenant.
 
 ---
 
-## Assign API permissions
+## Step 5 -  Assign API permissions
 
 The script needs two Microsoft Graph API permissions to read group membership:
 
@@ -134,7 +134,7 @@ an administrator must explicitly approve them in the next step.
 
 ---
 
-## Grant admin consent
+## Step 6 -  Grant admin consent
 
 Application permissions (as opposed to permissions a user grants to
 themselves) require a tenant administrator to explicitly approve them.
@@ -153,16 +153,16 @@ the Privileged Role Administrator role to complete this step.
 
 ---
 
-## Verify the setup
+## Step 7 -  Verify the setup
 
 At this point your app registration is complete. As a final check,
 confirm the following on the Overview page:
 
-  - **Application (client) ID:** as documented in **Note the client ID**
+  - **Application (client) ID:** copied in Step 3
   - **Directory (tenant) ID:** this is your tenant's GUID — it is NOT
     needed by the script (the script uses --entra-domain instead) but
     is useful to have for troubleshooting
-  - **Client secret:** from **Create a client secret**, stored securely
+  - **Client secret:** copied in Step 4 and stored securely
 
 And on the API permissions page:
 
@@ -172,7 +172,7 @@ And on the API permissions page:
 
 ---
 
-## Confirm the target security group exists
+## Step 8 -  Confirm the target security group exists
 
 The script reads the group by its **Display Name** — the name shown in
 the Entra ID groups list.
@@ -220,6 +220,6 @@ After completing this guide you will have:
                          Visible in Entra ID → Overview → Primary domain
   --entra-client-id      Application (client) ID from the app registration
                          Overview page
-  --entra-client-secret  The secret value from **Create a client secret**
+  --entra-client-secret  The secret value copied in Step 4
   --entra-group          The exact Display Name of the security group
                          from Entra ID → Groups
