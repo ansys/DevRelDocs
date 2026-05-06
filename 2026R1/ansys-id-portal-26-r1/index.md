@@ -113,7 +113,7 @@ You will need:
   - If syncing to a named group: the name of the group (it will be
     created automatically if it does not exist).
 
-For instructions on generating and managing PATs, see the [PAT authentication guide](docs/ansys-id-sso/pat-authentication-guide).
+For instructions on generating and managing PATs, see the [PAT authentication guide](docs/ansys-id-sso/pat-authentication-guide.md).
 PATs are created and revoked in the Ansys ID Portal UI at [id.ansys.com](https://id.ansys.com/).
 
 The Ansys B2C client ID and resource scope are hardcoded in the script
