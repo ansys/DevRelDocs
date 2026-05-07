@@ -1,9 +1,9 @@
 {
     "build": {
         "globalMetadata": {
-            "title": "DPF Framework 2027 R1",
+            "title": "DPF Framework 2027 R1 SP01",
             "summary": "",
-            "version": "2027 R1",
+            "version": "2027 R1 SP01",
             "product": "DPF",
             "programming language": "C++",
             "product collection": "Structures",
