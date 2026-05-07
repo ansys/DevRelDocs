@@ -158,11 +158,11 @@ the Privileged Role Administrator role to complete this step.
 At this point your app registration is complete. As a final check,
 confirm the following on the Overview page:
 
-  - **Application (client) ID:** copied in Step 3
+  - **Application (client) ID:** copied in **Step 3**
   - **Directory (tenant) ID:** this is your tenant's GUID — it is NOT
     needed by the script (the script uses --entra-domain instead) but
     is useful to have for troubleshooting
-  - **Client secret:** copied in Step 4 and stored securely
+  - **Client secret:** copied in **Step 4** and stored securely
 
 And on the API permissions page:
 
@@ -214,12 +214,12 @@ delete old) ensures there is no gap in service.
 
 After completing this guide you will have:
 
-  Value                  Where to find it
-  ---------------------  -------------------------------------------------
-  --entra-domain         Your tenant's domain, e.g. contoso.onmicrosoft.com
-                         Visible in Entra ID → Overview → Primary domain
-  --entra-client-id      Application (client) ID from the app registration
-                         Overview page
-  --entra-client-secret  The secret value copied in Step 4
-  --entra-group          The exact Display Name of the security group
-                         from Entra ID → Groups
+
+| Value                   | Where to find it                                                                                                   |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| `--entra-domain`        | Your tenant’s domain (for example, `contoso.onmicrosoft.com`). Visible in **Entra ID → Overview → Primary domain** |
+| `--entra-client-id`     | **Application (client) ID** from the app registration **Overview** page                                            |
+| `--entra-client-secret` | The secret value copied in **Step 4**                                                                              |
+| `--entra-group`         | The exact **Display Name** of the security group from **Entra ID → Groups**                                        |
+
+

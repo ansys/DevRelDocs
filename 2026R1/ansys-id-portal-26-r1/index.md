@@ -102,16 +102,10 @@ You will need the following values from that process:
 ### Ansys ID Portal access
 
 You will need:
-  - The Ansys ID Portal account number for the account to sync into, or
-    to sync a group within. The account must already exist.
-  - An Ansys Personal Access Token (PAT) belonging to a user who is a
-    member of that account. The PAT is obtained from the Ansys ID Portal.
-    It is a long string beginning with "eyJ" and is not your Ansys
-    account password. The user whose PAT is used must remain a member of
-    the account -- use --preserve-email to prevent them being removed
-    during sync if they are not in the Entra group.
-  - If syncing to a named group: the name of the group (it will be
-    created automatically if it does not exist).
+  - The Ansys ID Portal account number for the account to sync into, or to sync a group within. The account must already exist.
+  - An Ansys Personal Access Token (PAT) belonging to a user who is a member of that account. The PAT is obtained from the Ansys ID Portal.
+    It is a long string and it is not your Ansys account password. The user whose PAT is used must remain a member of the account -- use --preserve-email to prevent them being removed during sync if they are not in the Entra group.
+  - If syncing to a named group: the name of the group (it will be created automatically if it does not exist).
 
 For instructions on generating and managing PATs, see the [PAT authentication guide](docs/ansys-id-sso/pat-authentication-guide.md).
 PATs are created and revoked in the Ansys ID Portal UI at [id.ansys.com](https://id.ansys.com/).
@@ -267,7 +261,7 @@ write the whole command on a single line without backslashes.
 ### Token cache
 
 The first time the script authenticates to Ansys it will prompt for your
-PAT and cache the resulting token in .token_cache_py.json in the directory
+PAT and cache the resulting token in .token_cache.json in the directory
 from which you run the script. On subsequent runs the cached token is
 reused and refreshed silently without prompting for the PAT again.
 
@@ -276,7 +270,7 @@ the token cache, then schedule it.
 
 Restrict permissions on the cache file:
 
-    chmod 600 .token_cache_py.json
+    chmod 600 .token_cache.json
 
 ### Schedule with cron
 
@@ -363,7 +357,7 @@ correctly with single-quoted strings.
 ### Token cache
 
 The first time the script authenticates to Ansys it will prompt for your
-PAT and cache the resulting token in .token_cache_py.json in the directory
+PAT and cache the resulting token in .token_cache.json in the directory
 from which you run the script. On subsequent runs the cached token is
 reused and refreshed silently.
 
@@ -493,7 +487,7 @@ from which you run the script. On subsequent runs the cached token is
 reused and refreshed silently.
 
 Note: the Python and PowerShell scripts use separate token cache files
-(.token_cache_py.json and .token_cache_ps.json respectively) because
+(.token_cache.json and .token_cache_ps.json respectively) because
 they use different cache formats. Each script must be run interactively
 once to populate its own cache before being scheduled.
 
@@ -559,28 +553,30 @@ The Python and PowerShell scripts accept the same logical parameters
 but with different naming conventions. Python uses --hyphenated-names
 and PowerShell uses -PascalCaseNames.
 
-  Python (--name)           PowerShell (-Name)       Required   Notes
-  ------------------------  -----------------------  ---------  ----------------------------
-  --entra-domain            -EntraDomain             Yes        Entra tenant domain
-  --entra-group             -EntraGroup              Yes        Entra security group name
-  --entra-client-id         -EntraClientId           No*        * prompted if omitted
-  --entra-client-secret     -EntraClientSecret       No*        * prompted if omitted
-  --target-type             -TargetType              Yes        "account" or "group"
-  --account-number          -AccountNumber           Yes        Ansys account number
-  --group-name              -GroupName               No**       ** required if target=group
-  --ansys-pat               -AnsysPat                No*        * prompted if omitted
-  --dry-run                 -DryRun                  No         preview only, no changes
-  --send-email              -SendEmail               No         enable invitation emails
-  --preserve-email          -PreserveEmail           No         comma-separated, never removed
-  --log-file                -LogFile                 No         path to append log to
-  --smtp-relay              -SmtpRelay               No         SMTP gateway hostname/IP
-  --smtp-port               -SmtpPort                No         default: 25
-  --smtp-from               -SmtpFrom                No         envelope From address
-  --log-recipient           -LogRecipient            No         full log email, comma-sep
-  --warn-recipient          -WarnRecipient           No         warnings email, comma-sep
 
-Python-only:
-  --reset-credentials       (n/a)                    No         clear encrypted cred cache
+Here is the same content converted into a clean **Markdown table**:
+
+| Python (`--name`)       | PowerShell (`-Name`) | Required | Notes                                          |
+| ----------------------- | -------------------- | -------- | ---------------------------------------------- |
+| `--entra-domain`        | `-EntraDomain`       | Yes      | Entra tenant domain                            |
+| `--entra-group`         | `-EntraGroup`        | Yes      | Entra security group name                      |
+| `--entra-client-id`     | `-EntraClientId`     | No*     | Prompted if omitted                            |
+| `--entra-client-secret` | `-EntraClientSecret` | No*     | Prompted if omitted                            |
+| `--target-type`         | `-TargetType`        | Yes      | "account" or "group"                       |
+| `--account-number`      | `-AccountNumber`     | Yes      | Ansys account number                           |
+| `--group-name`          | `-GroupName`         | No**   | Required if target = group                  |
+| `--ansys-pat`           | `-AnsysPat`          | No*     | Prompted if omitted                            |
+| `--dry-run`             | `-DryRun`            | No       | Preview only, no changes                       |
+| `--send-email`          | `-SendEmail`         | No       | Enable invitation emails                       |
+| `--preserve-email`      | `-PreserveEmail`     | No       | Comma-separated, never removed                 |
+| `--log-file`            | `-LogFile`           | No       | Path to append log to                          |
+| `--smtp-relay`          | `-SmtpRelay`         | No       | SMTP gateway hostname/IP                       |
+| `--smtp-port`           | `-SmtpPort`          | No       | Default: 25                                    |
+| `--smtp-from`           | `-SmtpFrom`          | No       | Envelope From address                          |
+| `--log-recipient`       | `-LogRecipient`      | No       | Full log email, comma-separated                |
+| `--warn-recipient`      | `-WarnRecipient`     | No       | Warnings email, comma-separated                |
+| `--reset-credentials`   | *(n/a)*              | No       | Python-only: clears encrypted credential cache |
+
 
 ---
 
@@ -591,7 +587,7 @@ This directory should be accessible only to the account running the script.
 
   File                       Script         Contents
   -------------------------  -------------  ----------------------------------------
-  .token_cache_py.json       Python only    Ansys access and refresh tokens
+  .token_cache.json       Python only    Ansys access and refresh tokens
                                             (MSAL SerializableTokenCache format)
   .token_cache_ps.json       PowerShell     Ansys access and refresh tokens
                              only           (custom JSON format)
@@ -600,6 +596,12 @@ This directory should be accessible only to the account running the script.
                                             Protected by a master password prompt.
                                             Requires the cryptography pip package.
 
-The Python and PowerShell token caches are not interchangeable. Each
-script maintains its own cache and must be run interactively at least
-once to populate it before being used in a scheduled context.
+Here’s the same content converted into a clear **Markdown table**:
+
+| File                     | Script          | Contents    |
+| ------------------------ | --------------- | ------------------------------------------------------------------------------------ |
+| `.token_cache.json`      | Python only     | Ansys access and refresh tokens (MSAL `SerializableTokenCache` format for python, custom JSON format for PowerShell)   |
+| `.credential_cache.json` | Python only     | AES‑256‑GCM–encrypted Entra client ID, client secret, and Ansys PAT. Protected by a master password prompt. Requires the `cryptography` pip package. |
+
+
+The Python and PowerShell token caches are not interchangeable. Each script maintains its own cache and must be run interactively at least once to populate it before being used in a scheduled context. Because the names are identical it is advised to run each script in a separate folder/directory to avoid the cache file from being overwritten. Alternatively the scripts can easily be adjusted to name the token cache file uniquely if you wish to run both he python and PowerShell scripts in the same folder/directory.
