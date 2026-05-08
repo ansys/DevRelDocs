@@ -1719,6 +1719,5 @@
       href: operator-specifications/utility/unitary_field.md
     - name: weighted merge fields by label
       href: operator-specifications/utility/weighted_merge_fields_by_label.md
-  
 - name: Changelog
   href: changelog/changelog.md
