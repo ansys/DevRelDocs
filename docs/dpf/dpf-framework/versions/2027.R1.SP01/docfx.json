@@ -8,7 +8,7 @@
             "programming language": "C++",
             "product collection": "Structures",
             "physics": "Structures",
-            "is dpf context": "true"
+            "is dpf context": true
         }
     }
 }
