@@ -261,7 +261,7 @@ write the whole command on a single line without backslashes.
 ### Token cache
 
 The first time the script authenticates to Ansys it will prompt for your
-PAT and cache the resulting token in .token_cache.json in the directory
+PAT and cache the resulting token in `.token_cache.json` in the directory
 from which you run the script. On subsequent runs the cached token is
 reused and refreshed silently without prompting for the PAT again.
 
@@ -357,7 +357,7 @@ correctly with single-quoted strings.
 ### Token cache
 
 The first time the script authenticates to Ansys it will prompt for your
-PAT and cache the resulting token in .token_cache.json in the directory
+PAT and cache the resulting token in `.token_cache.json` in the directory
 from which you run the script. On subsequent runs the cached token is
 reused and refreshed silently.
 
@@ -482,14 +482,11 @@ If a value itself contains a single quote, escape it by doubling it:
 ### Token cache
 
 The first time the script authenticates to Ansys it will prompt for your
-PAT and cache the resulting token in .token_cache_ps.json in the directory
+PAT and cache the resulting token in `.token_cache.json` in the directory
 from which you run the script. On subsequent runs the cached token is
 reused and refreshed silently.
 
-Note: the Python and PowerShell scripts use separate token cache files
-(.token_cache.json and .token_cache_ps.json respectively) because
-they use different cache formats. Each script must be run interactively
-once to populate its own cache before being scheduled.
+Note: The Python and PowerShell scripts each maintain their own token cache file. Although both files are named `.token_cache.json`, they use different cache formats and are managed independently. Each script must be run interactively once to populate its own cache before being scheduled.
 
 ### Use a PowerShell script file for repeated runs
 
