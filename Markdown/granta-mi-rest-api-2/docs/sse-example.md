@@ -1,17 +1,14 @@
-# Using SSEs to wait for and retrieve data
-
-<p style="border: 1px solid #1a78c2; padding: 10px; background-color: #f2f2f2; border-radius: 8px;">
- This page follows <a href=https://github.com/ansys-internal/granta-cloud-data-examples/blob/main/SampleHostApps/NoHost/SSEExample.py>SSEExample.py</a>
+<p style="border: 1px solid #1a78c2; padding: 10px; border-radius: 8px;">
+The code in this page follows the example script `SSEExample.py`, available here: <a href="example-scripts/python_examples.zip">python_examples.zip</a>
 </p>
 
+# Waiting for and retrieving data
 
-## Connect to the Granta Integration Service
+This example illustrates using a Server-Sent Event (SSE) connection to receive data. The advantage of using an SSE is that you do not have to write a polling loop to check for new data. 
 
-This example illustrates using an SSE (Server Sent Event) connection to receive data. 
-The advantage of using an SSE is that you do not have to write a polling loop to check for new data. 
-The first part of this script (creating a session) is the same as in the Getting Started example.
+## Creating a Granta Integration Service session
 
-<!-- :::code source="scripts/SampleHostApps/NoHost/SSEExample.py" language="python" range="8-34"::: -->
+The first part of this script (creating a session) is the same as in the Getting Started example:
 ```python
 import requests
 import json
@@ -31,29 +28,40 @@ token_resp = msal.PublicClientApplication(ansys_id_client_id, authority=ansys_id
 # Store the token from logging in for use in subsequent HTTP requests
 auth_header = {"Authorization": f"Bearer {token_resp['access_token']}"}
 
-host = "https://grantamaterials.ansys.com/is"
+host = "https://cloudserver.com/is"
+
 sessions_endpoint = f"{host}/api/v1/sessions/"
 
 # Create a session. Set a title for the Granta Material Picker. Store the response
 put_session_resp = requests.post(sessions_endpoint, json={'name':'My Application', 'settings':{'title':'My Application', 'packageName':'Workbench'}}, headers=auth_header, verify=0).json()
 
 # Launch default browser at the Granta Material Picker session
-webhost = "https://grantamaterials.ansys.com"
+webhost = "https://cloudserver.com"
+
 webbrowser.open(f"{webhost}/grantami/#/granta-material-picker?sessionId={put_session_resp['id']}")
 ```
 
-
-## Open an SSE connection
-The SSE connection stays open indefinitely. You can receive data on this connection as soon as it is available
-
-<!-- :::code source="scripts/SampleHostApps/NoHost/SSEExample.py" language="python" range="38-39"::: -->
+## Opening an SSE connection
+Next we add the code to connect via SSE:
 ```python
 messages = sseclient.SSEClient(f"{sessions_endpoint}{put_session_resp['id']}/data/sse", headers=auth_header, verify=0)
-
 ```
 
-## End the session
-<!-- :::code source="scripts/SampleHostApps/NoHost/SSEExample.py" language="python" range="45-46"::: -->
+This connection will stay open indefinitely, and you can receive data on this connection as soon as it is available.
+
+To demonstrate receiving data from the SSE connection, add:
+
+```python
+for event in islice((msg for msg in messages if msg.data), 3):
+    print(f"Event received: {event.data}")
+```
+
+
+This waits for events that have data and provides the information. In this example we wait for 3 events. An event will fire when you click "Fetch material data" in the Granta Material Picker.
+
+## Ending the session
+
+To close the session down and ensure no more materials can be received, send an HTTP `DELETE` request to the session URL:
 ```python
 requests.delete(f"{sessions_endpoint}{put_session_resp['id']}", json={}, headers=auth_header, verify=0)
 print("Session deleted")

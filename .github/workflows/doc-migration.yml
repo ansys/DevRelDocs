@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - accept
+      - main
 
 jobs:
   migration:
@@ -28,6 +29,11 @@ jobs:
              echo "BASIC_AUTH_PASSWORD=${{ secrets.BASIC_AUTH_PASSWORD_ACCEPT }}" >> $GITHUB_ENV
              echo "CLIENT_ID=${{ secrets.CLIENT_ID_ACCEPT }}" >> $GITHUB_ENV
              echo "CLIENT_SECRET=${{ secrets.CLIENT_SECRET_ACCEPT }}" >> $GITHUB_ENV
+          elif [[ "${{ github.ref_name }}" == "main" ]]; then
+            echo "TARGET_ENV=Amazee PROD" >> $GITHUB_ENV
+            echo "BASE_URL=${{ vars.BASE_URL_PROD }}" >> $GITHUB_ENV
+            echo "CLIENT_ID=${{ secrets.CLIENT_ID_PROD }}" >> $GITHUB_ENV
+            echo "CLIENT_SECRET=${{ secrets.CLIENT_SECRET_PROD }}" >> $GITHUB_ENV
           fi
 
       - name: Run migration script

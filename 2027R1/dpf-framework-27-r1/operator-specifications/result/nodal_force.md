@@ -17,7 +17,6 @@ Read/compute nodal forces by calling the readers defined by the datasources.
 This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
 
 - lsdyna: moddynout 
-- mapdl: rdsp, rfrq 
 
 ## Inputs
 
