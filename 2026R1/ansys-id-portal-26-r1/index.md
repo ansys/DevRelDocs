@@ -585,19 +585,6 @@ Here is the same content converted into a clean **Markdown table**:
 The following files are created in the directory where the script runs.
 This directory should be accessible only to the account running the script.
 
-  File                       Script         Contents
-  -------------------------  -------------  ----------------------------------------
-  .token_cache.json       Python only    Ansys access and refresh tokens
-                                            (MSAL SerializableTokenCache format)
-  .token_cache_ps.json       PowerShell     Ansys access and refresh tokens
-                             only           (custom JSON format)
-  .credential_cache.json     Python only    AES-256-GCM encrypted Entra client ID,
-                                            client secret, and Ansys PAT.
-                                            Protected by a master password prompt.
-                                            Requires the cryptography pip package.
-
-Here’s the same content converted into a clear **Markdown table**:
-
 | File                     | Script          | Contents    |
 | ------------------------ | --------------- | ------------------------------------------------------------------------------------ |
 | `.token_cache.json`      | Python only     | Ansys access and refresh tokens (MSAL `SerializableTokenCache` format for python, custom JSON format for PowerShell)   |
