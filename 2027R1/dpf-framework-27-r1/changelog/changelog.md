@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-05-04).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-05-07).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -19,7 +19,7 @@ The following table shows which components have updates in each category.
 | compression | [3 items](#Features_compression) |[2 items](#Fixes_compression) |
 | core |  |[1 item](#Fixes_core) |
 | cs | [4 items](#Features_cs) |[1 item](#Fixes_cs) |
-| cyclic | [1 item](#Features_cyclic) | |
+| cyclic | [1 item](#Features_cyclic) |[1 item](#Fixes_cyclic) |
 | doc | [2 items](#Features_doc) |[1 item](#Fixes_doc) |
 | documentation | [1 item](#Features_documentation) |[2 items](#Fixes_documentation) |
 | dpf | [3 items](#Features_dpf) |[1 item](#Fixes_dpf) |
@@ -303,6 +303,12 @@ The following table shows which components have updates in each category.
   >
   > 
 
+### <a id="Fixes_cyclic"></a> Fixes
+
+- Fix composite nodal cyclic request by scoping:
+  > 
+  >
+  > 
 ## doc
 ### <a id="Features_doc"></a> Features
 

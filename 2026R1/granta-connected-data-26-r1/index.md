@@ -1,4 +1,4 @@
-# Granta Connected Data
+# Introduction
 
 Ansys Materials specialize in offering material data management software to store, control, and analyze materials data, creating a “golden-source”.  Alongside software, a comprehensive range of Materials Data is supplied. 
 
