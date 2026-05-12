@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-05-07).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-05-11).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -40,7 +40,7 @@ The following table shows which components have updates in each category.
 | lsdyna | [3 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [23 items](#Features_mapdl) |[49 items](#Fixes_mapdl) |
+| mapdl | [24 items](#Features_mapdl) |[51 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [12 items](#Features_math) |[1 item](#Fixes_math) |
@@ -48,7 +48,7 @@ The following table shows which components have updates in each category.
 | mesh | [2 items](#Features_mesh) |[4 items](#Fixes_mesh) |
 | misc | [15 items](#Features_misc) |[21 items](#Fixes_misc) |
 | multiphysics | [2 items](#Features_multiphysics) | |
-| multiphysicsmapper |  |[5 items](#Fixes_multiphysicsmapper) |
+| multiphysicsmapper |  |[6 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
 | native | [8 items](#Features_native) |[23 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
@@ -1076,6 +1076,21 @@ The following table shows which components have updates in each category.
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
 
+- Add of several operators to real all results from a result file.:
+  > - Addition of "all_state_variables_provider" operator that takes a result file and read all state variables within a single fields container, storing the various homogeneity with different value of "dofs" label.
+  >
+  > - Addition of "all_elemental_nodal_forces_provider" operator that takes a result file and read all elemental nodal forces (mapdl specific concept) within a single fields container, storing the various homogeneity with different value of "dofs" label.
+  >
+  > - Addition of "all_reactions_provider" operator that takes a result file and read all reactions within a single fields container, storing the various homogeneity with different value of "dofs" label.
+  >
+  > - Patch for extract_time_freq, operator can now work with multi -rpm case if the selected set are within the same step.
+  >
+  > - Add step selection in time_freq::integrate. Can now be used with multi-RPM cases.
+  >
+  > 
+  >
+  > 
+
 - Add Radiation Area Operator:
   > Add Radiation Area Operator for SURF251/252
   >
@@ -1286,6 +1301,20 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Support ElementalNodal input fields in mapdl::split_on_facet_indices and mapdl::split_to_acmo_facet_indices:
+  > 
+  >
+  > ElementalNodal Fields are now supported in `mapdl::split_on_facet_indices` and `mapdl::split_to_acmo_facet_indices` operators.
+  >
+  > 
+  >
+  > 
+
+- Fix crash when reading elemental results due to TSHAPE mapping:
+  > 
+  >
+  > 
 
 - Bug 1445294 fix unexpected label on fields container when querying beam results:
   > 
@@ -2156,6 +2185,25 @@ The following table shows which components have updates in each category.
 ## multiphysicsmapper
 
 ### <a id="Fixes_multiphysicsmapper"></a> Fixes
+
+- Kriging (Volumetric/Surface) Import Failure for Coordinates inputs instead of MeshedRegion:
+  > 
+  >
+  > Fix several issues in operator **prepare_mechanical_native_mapping_kriging**.
+  >
+  > 
+  >
+  > **Problem:** Two related failures were found in the MultiphysicsMapper plugin when using the Kriging weighting method:
+  >
+  > 1. Load import failure with Kriging (Volumetric/Surface): The PrepareMappingKriging operator worked correctly when the source was provided as a full MeshedRegion, but failed when the source was defined by node coordinates only (i.e., a coordinate Field without a full mesh).
+  >
+  > 2. Kriging import failure for CGNS-based CFD Pressure: The same root cause affected CGNS-based CFD Pressure loads, which provide only node coordinates (no full mesh) for source/target mesh data in the Kriging workflow.
+  >
+  > 3. Elemental data not forwarded during element centroidal mapping: the condition to populate source mesh data only handled nodal location data, ignoring elemental location data.
+  >
+  > 
+  >
+  > 
 
 - Fix the effect of input pin pinball_key in operator prepare_mechanical_native_mapping_shape_functions_for_surfaces:
   > Fix the effect of input pin `pinball_key` on the algorithm of operator prepare_mechanical_native_mapping_shape_functions_for_surfaces.
