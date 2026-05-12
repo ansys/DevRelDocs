@@ -103,11 +103,11 @@ You will need the following values from that process:
 
 You will need:
   - The Ansys ID Portal account number for the account to sync into, or to sync a group within. The account must already exist.
-  - An Ansys Personal Access Token (PAT) belonging to a user who is a member of that account. The PAT is obtained from the Ansys ID Portal.
+  - An Ansys Personal Access Token (PAT) belonging to a user who is a member of that account and holds an ASC or Customer Administrator role. The PAT is obtained from the Ansys ID Portal.
     It is a long string and it is not your Ansys account password. The user whose PAT is used must remain a member of the account -- use --preserve-email to prevent them being removed during sync if they are not in the Entra group.
   - If syncing to a named group: the name of the group (it will be created automatically if it does not exist).
 
-For instructions on generating and managing PATs, see the [PAT authentication guide](docs/ansys-id-sso/pat-authentication-guide.md).
+For instructions on generating and managing PATs, see the [PAT authentication guide](../../docs/ansys-id-sso/pat-authentication-guide).
 PATs are created and revoked in the Ansys ID Portal UI at [id.ansys.com](https://id.ansys.com/).
 
 The Ansys B2C client ID and resource scope are hardcoded in the script
