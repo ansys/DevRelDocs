@@ -1,0 +1,694 @@
+{
+    "swagger": "2.0",
+    "basePath": "/api/sut",
+    "paths": {
+        "/sut-config": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Success. Retrieved all available SUT configuration tags.",
+                        "schema": {
+                            "$ref": "#/definitions/Tags%20Response"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal Server Error. Error retrieving SUT configuration tags. Contact admin. The server has encountered a situation it does not know how to handle."
+                    },
+                    "404": {
+                        "description": "Not Found. SUT configuration tags not found. The server cannot find the requested resource. In the browser, this means the URL is not recognized. In an API, this can also mean that the endpoint is valid but the resource itself does not exist. Servers may also send this response instead of 403 Forbidden to hide the existence of a resource from an unauthorized client. This response code is probably the most well known due to its frequent occurrence on the web."
+                    }
+                },
+                "summary": "Retrieve a list of all available SUT tags",
+                "operationId": "get_sut_config_tags",
+                "parameters": [
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "SUT Configurations"
+                ]
+            },
+            "post": {
+                "responses": {
+                    "403": {
+                        "description": "Fobidden. Error while adding new SUT configuration. Check your login information and try again. The client does not have access rights to the content; that is, it is unauthorized, so the server is refusing to give the requested resource. Unlike 401 Unauthorized, the client's identity is known to the server."
+                    },
+                    "200": {
+                        "description": "Success. Added new SUT configuration."
+                    }
+                },
+                "summary": "Add a new SUT configuration",
+                "operationId": "post_sut_config_tags",
+                "parameters": [
+                    {
+                        "in": "query",
+                        "description": "Comma-separated list of policies to consider. Possible values: override",
+                        "name": "policy_items",
+                        "type": "string"
+                    },
+                    {
+                        "required": true,
+                        "in": "body",
+                        "description": "SUT Configuration to add",
+                        "name": "payload",
+                        "schema": {
+                            "$ref": "#/definitions/SUT%20Configurations"
+                        }
+                    }
+                ],
+                "produces": ["application/json"],
+                "tags": [
+                    "SUT Configurations"
+                ]
+            }
+        },
+        "/sut-config/{sut_config_tag}": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Success. Retrieved all available versions for the selected SUT tag.",
+                        "schema": {
+                            "$ref": "#/definitions/Versions%20Response"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal Server Error. Error retrieving versions for the selected SUT tag. Contact admin. The server has encountered a situation it does not know how to handle."
+                    },
+                    "404": {
+                        "description": "Not Found. The SUT tag version was not found. Check that the SUT tag is correct and try again. The server cannot find the requested resource. In the browser, this means the URL is not recognized. In an API, this can also mean that the endpoint is valid but the resource itself does not exist. Servers may also send this response instead of 403 Forbidden to hide the existence of a resource from an unauthorized client. This response code is probably the most well known due to its frequent occurrence on the web."
+                    }
+                },
+                "summary": "Retrieve a list of all available versions for the specified SUT tag",
+                "operationId": "get_sut_config_versions_by_tag",
+                "parameters": [
+                    {
+                        "name": "sut_config_tag",
+                        "in": "path",
+                        "required": true,
+                        "type": "string",
+                        "description": "Tag of the SUT Configuration to retrieve"
+                    },
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "SUT Configurations"
+                ]
+            },
+            "delete": {
+                "responses": {
+                    "500": {
+                        "description": "Internal Server Error. Error retrieving SUT configuration. Contact admin. The server has encountered a situation it does not know how to handle."
+                    },
+                    "404": {
+                        "description": "Not Found. The SUT configuration was not found. Check that the SUT configuration is correct and try again. The server cannot find the requested resource. In the browser, this means the URL is not recognized. In an API, this can also mean that the endpoint is valid but the resource itself does not exist. Servers may also send this response instead of 403 Forbidden to hide the existence of a resource from an unauthorized client. This response code is probably the most well known due to its frequent occurrence on the web."
+                    },
+                    "200": {
+                        "description": "Success. Deleted SUT configuration."
+                    }
+                },
+                "summary": "Delete all SUT configurations with a specific tag",
+                "operationId": "delete_sut_config_versions_by_tag",
+                "parameters": [
+                    {
+                        "name": "sut_config_tag",
+                        "in": "path",
+                        "required": true,
+                        "type": "string",
+                        "description": "Tag of the SUT configuration to delete. May find many configurations"
+                    }
+                ],
+                "tags": [
+                    "SUT Configurations"
+                ]
+            }
+        },
+        "/sut-config/{sut_config_tag}/{sut_config_version}": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Success. Retrieved SUT configuration for the provided <sut_config_tag>:<sut_config_version>.",
+                        "schema": {
+                            "$ref": "#/definitions/SUT%20Configurations"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal Server Error. Error retrieving SUT configuration. Contact admin. The server has encountered a situation it does not know how to handle."
+                    },
+                    "404": {
+                        "description": "Not Found. The SUT configuration was not found. Check that the SUT tag and version are correct and try again. The server cannot find the requested resource. In the browser, this means the URL is not recognized. In an API, this can also mean that the endpoint is valid but the resource itself does not exist. Servers may also send this response instead of 403 Forbidden to hide the existence of a resource from an unauthorized client. This response code is probably the most well known due to its frequent occurrence on the web."
+                    }
+                },
+                "summary": "Retrieve a specific SUT configuration by its unique pair of identifiers (tag and version)",
+                "operationId": "get_sut_config_by_version",
+                "parameters": [
+                    {
+                        "name": "sut_config_tag",
+                        "in": "path",
+                        "required": true,
+                        "type": "string",
+                        "description": "Filter SUT configurations by tag"
+                    },
+                    {
+                        "name": "sut_config_version",
+                        "in": "path",
+                        "required": true,
+                        "type": "string",
+                        "description": "Filter SUT configurations by version"
+                    },
+                    {
+                        "name": "X-Fields",
+                        "in": "header",
+                        "type": "string",
+                        "format": "mask",
+                        "description": "An optional fields mask"
+                    }
+                ],
+                "tags": [
+                    "SUT Configurations"
+                ]
+            },
+            "delete": {
+                "responses": {
+                    "500": {
+                        "description": "Internal Server Error. Error fetching SUT configuration. Contact admin. The server has encountered a situation it does not know how to handle."
+                    },
+                    "404": {
+                        "description": "Not Found. The SUT configuration was not found. Check that the SUT tag and version are correct and try again. The server cannot find the requested resource. In the browser, this means the URL is not recognized. In an API, this can also mean that the endpoint is valid but the resource itself does not exist. Servers may also send this response instead of 403 Forbidden to hide the existence of a resource from an unauthorized client. This response code is probably the most well known due to its frequent occurrence on the web."
+                    },
+                    "200": {
+                        "description": "Success. Deleted SUT Configuration."
+                    }
+                },
+                "summary": "Delete a specific SUT configuration by its unique pair of identifiers (tag and version)",
+                "operationId": "delete_sut_config_by_version",
+                "parameters": [
+                    {
+                        "name": "sut_config_tag",
+                        "in": "path",
+                        "required": true,
+                        "type": "string",
+                        "description": "Filter SUT configurations by tag"
+                    },
+                    {
+                        "name": "sut_config_version",
+                        "in": "path",
+                        "required": true,
+                        "type": "string",
+                        "description": "Filter SUT configurations by version"
+                    }
+                ],
+                "tags": [
+                    "SUT Configurations"
+                ]
+            }
+        }
+    },
+    "info": {
+        "title": "AVxcelerate SUT Configuration Service",
+        "version": "2024 R1",
+        "description": "This REST API is used to manage the SUT data available in TSA and is part of the Ansys AVxcelerate Autonomous Driving Toolchain.",
+        "contact": {
+            "name": "support@ansys.com",
+            "email": "support@ansys.com",
+            "url": "https://ansys.com"
+        },
+        "license": {
+            "name": "Ansys software"
+        }
+    },
+    "produces": [
+        "application/json"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "securityDefinitions": {
+        "apikey": {
+            "type": "apiKey",
+            "in": "header",
+            "name": "Authorization"
+        }
+    },
+    "security": [
+        {
+            "apikey": []
+        }
+    ],
+    "tags": [
+        {
+            "name": "SUT Configurations",
+            "description": "Endpoints related to SUT configurations"
+        }
+    ],
+    "definitions": {
+        "Tags Response": {
+            "required": [
+                "tags"
+            ],
+            "properties": {
+                "tags": {
+                    "type": "array",
+                    "uniqueItems": true,
+                    "items": {
+                        "type": "string",
+                        "pattern": "^[a-zA-Z0-9-_\\.]+$"
+                    }
+                }
+            },
+            "type": "object"
+        },
+        "Versions Response": {
+            "required": [
+                "tag",
+                "versions"
+            ],
+            "properties": {
+                "tag": {
+                    "type": "string",
+                    "pattern": "^[a-zA-Z0-9-_\\.]+$"
+                },
+                "versions": {
+                    "type": "array",
+                    "minItems": 1,
+                    "uniqueItems": true,
+                    "items": {
+                        "type": "string",
+                        "pattern": "^[a-zA-Z0-9-_\\.]+$"
+                    }
+                }
+            },
+            "type": "object"
+        },
+        "SUT Configurations": {
+            "required": [
+                "tag",
+                "version"
+            ],
+            "properties": {
+                "tag": {
+                    "type": "string",
+                    "description": "Configuration name/tag Could be anything customer/user defined.",
+                    "pattern": "^[a-zA-Z0-9-_\\.]+$"
+                },
+                "version": {
+                    "type": "string",
+                    "description": "Configuration version/image-tag",
+                    "pattern": "^[a-zA-Z0-9-_\\.]+$"
+                },
+                "execution_command": {
+                    "type": "string",
+                    "description": "Pattern used to fullfil inputs"
+                },
+                "env_requirement": {
+                    "$ref": "#/definitions/Env%20Requirement"
+                },
+                "world_simulator": {
+                    "$ref": "#/definitions/World%20Simulator"
+                },
+                "ad_stack": {
+                    "description": "Details about AD stack",
+                    "allOf": [
+                        {
+                            "$ref": "#/definitions/AD%20stack"
+                        }
+                    ]
+                },
+                "settings": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Setting"
+                    }
+                },
+                "sensor_models": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Sensor%20Model"
+                    }
+                },
+                "evaluations": {
+                    "type": "array",
+                    "description": "Evaluations or KPIs",
+                    "items": {
+                        "$ref": "#/definitions/Evaluation"
+                    }
+                },
+                "error_injection": {
+                    "$ref": "#/definitions/Error%20injection"
+                },
+                "vehicle_model": {
+                    "$ref": "#/definitions/Vehicle%20Model"
+                },
+                "diagnostic_manager": {
+                    "description": "The setup of diagnostic manager used inside Simfwk, currently is not implemented yet",
+                    "allOf": [
+                        {
+                            "$ref": "#/definitions/Diagnostic%20manager"
+                        }
+                    ]
+                },
+                "orchestration": {
+                    "description": "The activity scheduling info of Simfwk, currently is not implemented yet",
+                    "allOf": [
+                        {
+                            "$ref": "#/definitions/Orchestration"
+                        }
+                    ]
+                },
+                "communication": {
+                    "description": "The communication core info of Simfwk, currently is not implemented yet",
+                    "allOf": [
+                        {
+                            "$ref": "#/definitions/Communication"
+                        }
+                    ]
+                }
+            },
+            "type": "object"
+        },
+        "Env Requirement": {
+            "properties": {
+                "cpu_core": {
+                    "type": "integer"
+                },
+                "memory": {
+                    "type": "integer"
+                },
+                "disk_space": {
+                    "type": "integer"
+                }
+            },
+            "type": "object"
+        },
+        "World Simulator": {
+            "properties": {
+                "type": {
+                    "type": "string"
+                },
+                "sample_rate": {
+                    "type": "integer"
+                },
+                "config_path": {
+                    "type": "string"
+                },
+                "custom_data_path": {
+                    "type": "string"
+                },
+                "version": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "AD stack": {
+            "properties": {
+                "type": {
+                    "type": "string"
+                },
+                "tag": {
+                    "type": "string"
+                },
+                "version": {
+                    "type": "string"
+                },
+                "ad-functions": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/AD%20Function"
+                    }
+                }
+            },
+            "type": "object"
+        },
+        "AD Function": {
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "version": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "Setting": {
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "Sensor Model": {
+            "required": [
+                "description",
+                "name",
+                "type"
+            ],
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "config_path": {
+                    "type": "string"
+                },
+                "custom_data_path": {
+                    "type": "string"
+                },
+                "version": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "Evaluation": {
+            "required": [
+                "name"
+            ],
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "source_id": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "config_path": {
+                    "type": "string"
+                },
+                "version": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "Error injection": {
+            "required": [
+                "tag",
+                "version"
+            ],
+            "properties": {
+                "tag": {
+                    "type": "string",
+                    "pattern": "^[a-zA-Z0-9-_\\.]+$"
+                },
+                "version": {
+                    "type": "string",
+                    "pattern": "^[a-zA-Z0-9-_\\.]+$"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "sensor_error_parameters": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Sensor%20Error%20parameter"
+                    }
+                },
+                "error_parameters": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Error%20Parameters"
+                    }
+                }
+            },
+            "type": "object"
+        },
+        "Sensor Error parameter": {
+            "required": [
+                "label",
+                "name",
+                "unit"
+            ],
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "label": {
+                    "type": "string"
+                },
+                "unit": {
+                    "type": "string"
+                },
+                "constraints": {
+                    "$ref": "#/definitions/Error%20constraints"
+                }
+            },
+            "type": "object"
+        },
+        "Error constraints": {
+            "properties": {
+                "min": {
+                    "type": "number"
+                },
+                "max": {
+                    "type": "number"
+                }
+            },
+            "type": "object"
+        },
+        "Error Parameters": {
+            "required": [
+                "error_type"
+            ],
+            "properties": {
+                "error_type": {
+                    "type": "string"
+                },
+                "properties": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Error%20Properties"
+                    }
+                }
+            },
+            "type": "object"
+        },
+        "Error Properties": {
+            "required": [
+                "display_name",
+                "name",
+                "type"
+            ],
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string"
+                },
+                "display_name": {
+                    "type": "string"
+                },
+                "enum": {
+                    "type": "array",
+                    "example": [
+                        "frr_front",
+                        "lidar"
+                    ],
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "unit": {
+                    "type": "string"
+                },
+                "constraints": {
+                    "$ref": "#/definitions/Error%20constraints"
+                }
+            },
+            "type": "object"
+        },
+        "Vehicle Model": {
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "vehicle_type": {
+                    "type": "string"
+                },
+                "tag": {
+                    "type": "string"
+                },
+                "config_path": {
+                    "type": "string"
+                },
+                "version": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "Diagnostic manager": {
+            "properties": {
+                "dashboard_url": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string"
+                },
+                "version": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "Orchestration": {
+            "properties": {
+                "chain_file_path": {
+                    "type": "string"
+                },
+                "version": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "Communication": {
+            "properties": {
+                "strategy": {
+                    "type": "string"
+                },
+                "version": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    },
+    "responses": {
+        "ParseError": {
+            "description": "When a mask can't be parsed"
+        },
+        "MaskError": {
+            "description": "When any error occurs on mask"
+        }
+    }
+}
