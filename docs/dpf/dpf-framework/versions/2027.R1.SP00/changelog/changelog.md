@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-05-07).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-05-12).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -4099,6 +4099,8 @@ Upgraded documentation
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
+  > 0.0.2: Allow to make integration even if the time freq support contains several steps (for example multiple RPM), only if the provided scoping correspond to frequencies of a unique RPM.
+
 
 - [streams_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/metadata/streams_provider.md)
 
@@ -4416,6 +4418,16 @@ Upgraded documentation
 - [mapdl_section](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/mapdl_section.md)
 
   > 0.0.1: Making the operator license-free.
+
+
+- [mapdl_split_on_facet_indices](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/mapdl_split_on_facet_indices.md)
+
+  > 0.0.1: ElementalNodal fields are now supported.
+
+
+- [mapdl_split_to_acmo_facet_indices](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/mapdl_split_to_acmo_facet_indices.md)
+
+  > 0.0.1: ElementalNodal fields are now supported.
 
 
 - [members_in_bending_not_certified](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/members_in_bending_not_certified.md)
@@ -4772,6 +4784,8 @@ Upgraded documentation
 - [extract_time_freq](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/extract_time_freq.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+  > 0.1.0: Addition of an optional input pin to select frequencies from a unique step/RPM.
 
 
 - [fc_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/fc_get_attribute.md)
