@@ -26,7 +26,7 @@ The following table shows which components have updates in each category.
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils | [3 items](#Features_femutils) |[15 items](#Fixes_femutils) |
+| femutils | [3 items](#Features_femutils) |[16 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
 | framework | [2 items](#Features_framework) |[8 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
@@ -46,14 +46,14 @@ The following table shows which components have updates in each category.
 | math | [12 items](#Features_math) |[1 item](#Fixes_math) |
 | mechanical | [3 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
 | mesh | [2 items](#Features_mesh) |[4 items](#Fixes_mesh) |
-| misc | [15 items](#Features_misc) |[21 items](#Fixes_misc) |
+| misc | [15 items](#Features_misc) |[22 items](#Fixes_misc) |
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[6 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
 | native | [8 items](#Features_native) |[23 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
-| prime | [4 items](#Features_prime) |[1 item](#Fixes_prime) |
+| prime | [4 items](#Features_prime) |[2 items](#Fixes_prime) |
 | pydpf |  |[1 item](#Fixes_pydpf) |
 | refactor | [1 item](#Features_refactor) | |
 | rotation |  |[1 item](#Fixes_rotation) |
@@ -461,6 +461,15 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_femutils"></a> Fixes
+
+- Improve performance of Cyclic expansion of meshes and results:
+  > 
+  >
+  > Fix performance bottlenecks for large model in cyclic operators `cyclic_expansion_meshes` and `cyclic_expansion_field`.
+  >
+  > 
+  >
+  > 
 
 - Fix issue in force_summation with total forces and no damping:
   > 
@@ -2001,6 +2010,11 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_misc"></a> Fixes
 
+- Ansys.dpf conanfile DPFEmpty.xml wrong source dir:
+  > 
+  >
+  > 
+
 - Restored a number of error messages:
   > 
   >
@@ -2545,6 +2559,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_prime"></a> Fixes
+
+- Fixing parallelization issue with prime operators:
+  > Support parallelization for `prepare_morphing` (and so `morphed_field`) and `export_mesh_with_prime`.
+  >
+  > 
 
 - Restoring parallelization config options:
   > Restoring parallelization config options, when applies.
