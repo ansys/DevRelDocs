@@ -1,21 +1,28 @@
 # Overview
 
-This toolset synchronizes the membership of a Microsoft Entra ID (formerly
-Azure Active Directory) security group to an Ansys ID Portal account or
-group. It is intended to allow an organization to manage Ansys product
-access through their existing identity management processes in Entra ID,
-without needing to maintain membership separately in the Ansys ID Portal.
+This documentation is aimed at **administrators** who manage organizations in the Ansys ID Portal: users, groups, and access to Ansys products and licenses.
 
-Two scripts are provided that perform identical synchronization:
+You can organize people and control access through **accounts** and **groups**:
+
+- **Accounts** represent your organization and define access to Ansys entitlements.
+- **Groups** allow finer-grained control—for example for specific products, license pools, or features.
+
+The Portal can integrate with **external identity providers** so user access stays aligned with your organization’s directory or identity system. How each integration behaves depends on the provider and configuration; many patterns are **one-way**, so changes made outside the Portal can replace manual membership updates on the next sync.
+
+Automation that calls the **Ansys ID Portal API** typically authenticates with a **Personal Access Token (PAT)** for a user who belongs to the target account and holds an ASC or Customer Administrator role. PATs are created and managed in the Ansys ID Portal (for example at [id.ansys.com](https://id.ansys.com/)). For PAT details, see the [PAT authentication guide](../../docs/ansys-id-sso/pat-authentication-guide). For broader identity and single sign-on topics, see the Ansys ID SSO documentation.
+
+---
+
+## Microsoft Entra ID membership sync
+
+The scripts in this guide synchronize the membership of a Microsoft Entra ID (formerly Azure Active Directory) security group to an Ansys ID Portal account or group. They let an organization drive Ansys product access from existing identity workflows in Entra ID, without maintaining the same membership separately in the Ansys ID Portal.
+
+Two scripts perform the same synchronization:
 
   - [sync_entra_to_ansys.py](https://github.com/ansys/DevRelPublic/blob/main/Downloads/Ansys-ID-Portal/sync_entra_to_ansys.py)  -- Python, runs on Linux or Windows
   - [sync_entra_to_ansys.ps1](https://github.com/ansys/DevRelPublic/blob/main/Downloads/Ansys-ID-Portal/sync_entra_to_ansys.ps1) -- PowerShell, runs on Windows only
 
-Choose whichever is most appropriate for your environment and automation
-toolchain. Both scripts require the same prerequisites and accept the same
-logical parameters.
-
----
+Use whichever fits your environment and automation toolchain. Both scripts share the same prerequisites and accept the same logical parameters.
 
 ## How synchronization works
 
@@ -103,11 +110,11 @@ You will need the following values from that process:
 
 You will need:
   - The Ansys ID Portal account number for the account to sync into, or to sync a group within. The account must already exist.
-  - An Ansys Personal Access Token (PAT) belonging to a user who is a member of that account. The PAT is obtained from the Ansys ID Portal.
+  - An Ansys Personal Access Token (PAT) belonging to a user who is a member of that account and holds an ASC or Customer Administrator role. The PAT is obtained from the Ansys ID Portal.
     It is a long string and it is not your Ansys account password. The user whose PAT is used must remain a member of the account -- use --preserve-email to prevent them being removed during sync if they are not in the Entra group.
   - If syncing to a named group: the name of the group (it will be created automatically if it does not exist).
 
-For instructions on generating and managing PATs, see the [PAT authentication guide](docs/ansys-id-sso/pat-authentication-guide.md).
+For instructions on generating and managing PATs, see the [PAT authentication guide](../../docs/ansys-id-sso/pat-authentication-guide).
 PATs are created and revoked in the Ansys ID Portal UI at [id.ansys.com](https://id.ansys.com/).
 
 The Ansys B2C client ID and resource scope are hardcoded in the script
@@ -261,7 +268,7 @@ write the whole command on a single line without backslashes.
 ### Token cache
 
 The first time the script authenticates to Ansys it will prompt for your
-PAT and cache the resulting token in .token_cache.json in the directory
+PAT and cache the resulting token in `.token_cache.json` in the directory
 from which you run the script. On subsequent runs the cached token is
 reused and refreshed silently without prompting for the PAT again.
 
@@ -357,7 +364,7 @@ correctly with single-quoted strings.
 ### Token cache
 
 The first time the script authenticates to Ansys it will prompt for your
-PAT and cache the resulting token in .token_cache.json in the directory
+PAT and cache the resulting token in `.token_cache.json` in the directory
 from which you run the script. On subsequent runs the cached token is
 reused and refreshed silently.
 
@@ -482,14 +489,11 @@ If a value itself contains a single quote, escape it by doubling it:
 ### Token cache
 
 The first time the script authenticates to Ansys it will prompt for your
-PAT and cache the resulting token in .token_cache_ps.json in the directory
+PAT and cache the resulting token in `.token_cache.json` in the directory
 from which you run the script. On subsequent runs the cached token is
 reused and refreshed silently.
 
-Note: the Python and PowerShell scripts use separate token cache files
-(.token_cache.json and .token_cache_ps.json respectively) because
-they use different cache formats. Each script must be run interactively
-once to populate its own cache before being scheduled.
+Note: The Python and PowerShell scripts each maintain their own token cache file. Although both files are named `.token_cache.json`, they use different cache formats and are managed independently. Each script must be run interactively once to populate its own cache before being scheduled.
 
 ### Use a PowerShell script file for repeated runs
 

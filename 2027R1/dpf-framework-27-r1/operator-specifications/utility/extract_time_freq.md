@@ -23,6 +23,7 @@ Each parameter is detailed in the sections that follow the table.
 | <strong>0</strong> | [time_freq_support](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support) |
 | <strong>1</strong> | [time_scoping](#input_1) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
 | <strong>2</strong> | [real_or_complex](#input_2) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>3</strong> | [rpm_scoping](#input_3) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
 
 
 <a id="input_0"></a>
@@ -48,6 +49,14 @@ Each parameter is detailed in the sections that follow the table.
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
 False for real only (default). True for complex output.
+
+<a id="input_3"></a>
+### rpm_scoping (Pin 3)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Optional scoping for RPM/load case selection.
 
 
 ## Outputs
@@ -114,6 +123,7 @@ ansys::dpf::Operator op("extract_time_freq"); // operator instantiation
 op.connect(0, my_time_freq_support);
 op.connect(1, my_time_scoping);
 op.connect(2, my_real_or_complex);
+op.connect(3, my_rpm_scoping);
 ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
 ```
 </details>
@@ -128,6 +138,7 @@ op = dpf.operators.utility.extract_time_freq() # operator instantiation
 op.inputs.time_freq_support.connect(my_time_freq_support)
 op.inputs.time_scoping.connect(my_time_scoping)
 op.inputs.real_or_complex.connect(my_real_or_complex)
+op.inputs.rpm_scoping.connect(my_rpm_scoping)
 my_field_as_field = op.outputs.field_as_field()
 ```
 </details>
@@ -143,6 +154,7 @@ op = dpf.operators.utility.extract_time_freq() # operator instantiation
 op.inputs.time_freq_support.Connect(my_time_freq_support)
 op.inputs.time_scoping.Connect(my_time_scoping)
 op.inputs.real_or_complex.Connect(my_real_or_complex)
+op.inputs.rpm_scoping.Connect(my_rpm_scoping)
 my_field = op.outputs.field.GetData()
 ```
 </details>
