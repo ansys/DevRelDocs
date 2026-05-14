@@ -24,7 +24,6 @@ The data array ordering follows a nested loop structure from coarse to fine:
 4. **Component** (innermost loop): Iterate through vector/tensor components
 
 **Example data array for 2 nodes with 3-component vectors (displacement)**:
-
 ```
 data = [X_node1, Y_node1, Z_node1, X_node2, Y_node2, Z_node2]
 ```
