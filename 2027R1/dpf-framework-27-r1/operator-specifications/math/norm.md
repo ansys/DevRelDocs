@@ -10,7 +10,13 @@ license: None
 
 ## Description
 
-Computes the element-wise Lp norm of the field elementary data. Default Lp=L2
+
+Computes the [$L_p$ norm](https://en.wikipedia.org/wiki/Norm_(mathematics)#p-norm) of the component vector
+for each entity in the field:
+$\mathrm{out}[k] = \left(\sum_{j=0}^{n_c-1} |v_{k,j}|^p\right)^{1/p}$,
+where $n_c$ is the number of components. Default is $p = 2$ (Euclidean norm).
+The output is a scalar field with one value per entity.
+
 
 ## Inputs
 
@@ -38,7 +44,7 @@ field or fields container with only one field is expected
 - **Required:** No
 - **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
 
-Lp normalisation type, p = 1, 2, ...n - Default Lp=L2
+$L_p$ norm order $p$ (positive integer, default is 2 for the Euclidean norm).
 
 
 ## Outputs
@@ -57,7 +63,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-Scalar field containing the Lp norm values for each element
+Scalar field containing the $L_p$ norm value for each entity.
 
 
 ## Configurations

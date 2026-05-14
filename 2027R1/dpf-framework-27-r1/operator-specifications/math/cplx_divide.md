@@ -10,7 +10,13 @@ license: None
 
 ## Description
 
-Computes division between two field containers containing complex fields.
+
+Computes the [complex division](https://en.wikipedia.org/wiki/Complex_number#Multiplicative_inverse)
+$z_1 / z_2$ for matching fields in two complex-valued fields containers:
+$\mathrm{Re}(z_\mathrm{out}[i]) = (\mathrm{Re}_1 \mathrm{Re}_2 + \mathrm{Im}_1 \mathrm{Im}_2) / D$,
+$\mathrm{Im}(z_\mathrm{out}[i]) = (\mathrm{Im}_1 \mathrm{Re}_2 - \mathrm{Re}_1 \mathrm{Im}_2) / D$
+where $D = \mathrm{Re}_2^2 + \mathrm{Im}_2^2$. Raises an error if $D = 0$.
+
 
 ## Inputs
 
@@ -30,7 +36,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Numerator complex-valued fields container.
 
 <a id="input_1"></a>
 ### fields_containerB (Pin 1)
@@ -38,7 +44,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Denominator complex-valued fields container.
 
 
 ## Outputs
@@ -57,7 +63,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Fields container with the complex quotient $z_1 / z_2$ (real and imaginary parts).
 
 
 ## Configurations

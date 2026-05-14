@@ -10,7 +10,12 @@ license: None
 
 ## Description
 
-For every two fields with the same label space (from the two input fields containers), computes component-wise fraction between two fields of same dimensionality. If one field's scoping has an 'overall' location, then this field's values are applied on the other field entirely.
+
+For every pair of fields with matching label space in the two input fields containers,
+computes the component-wise fraction $\mathrm{out}[k] = A[k] / B[k]$
+(also known as the [Hadamard division](https://en.wikipedia.org/wiki/Hadamard_product_(matrices)#Analogous_operations)).
+Both containers must have identical label spaces and the same number of fields.
+
 
 ## Inputs
 
@@ -57,7 +62,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Fields container with the component-wise quotient fields; unit is $u_A / u_B$.
 
 
 ## Configurations

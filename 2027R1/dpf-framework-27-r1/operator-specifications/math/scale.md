@@ -10,7 +10,16 @@ license: None
 
 ## Description
 
-Scales a field by a constant factor. This factor can be a scalar or a vector, where each value of the vector represents a scaler per component. Number of the components are corresponding to the input field dimensionality
+
+Scales a field by a constant factor $k$: $\mathrm{out}[i] = k \cdot \mathrm{field}[i]$.
+The factor can be a scalar (same $k$ for every component),
+a vector of length $n_c$ (one $k_j$ per component,
+applied as $\mathrm{out}[i \cdot n_c + j] = k_j \cdot \mathrm{field}[i \cdot n_c + j]$),
+or a field whose values are matched by entity or location
+(entity-wise multiplication, also known as the
+[Hadamard product](https://en.wikipedia.org/wiki/Hadamard_product_(matrices))).
+Setting pin 2 to true makes the output dimensionless.
+
 
 ## Inputs
 

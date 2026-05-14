@@ -4,7 +4,15 @@ uid: Ans.DataProcessing.operators.math.centroid_fc
 
 # *class* centroid_fc(fields_container: object = None, time_freq: object = None, step: object = None, time_freq_support: object = None, config: OperatorConfig = None)
 
-Computes the centroid of all the matching fields of a fields container at a given time or frequency, using fieldOut = field1*(1.-fact)+field2*(fact).
+Computes a [linear interpolation](https://en.wikipedia.org/wiki/Linear_interpolation) between the two fields
+
+in the input fields container that bracket the requested time or frequency value $t$:
+
+$\mathrm{out}[i] = (1 - s) \cdot f_1[i] + s \cdot f_2[i]$,
+
+where $s = (t - t_1) / (t_2 - t_1)$ and $t_1$, $t_2$ are the bracketing time/frequency values.
+
+If the requested value exactly matches an available one, that field is returned directly.
 
 available inputs: `fields_container` (FieldsContainer), `time_freq` (double), `step` (Int32) (optional), `time_freq_support` (TimeFreqSupport) (optional)
 
@@ -32,25 +40,25 @@ op = centroid_fc(fields_container=my_fields_container,time_freq=my_time_freq,ste
 
 ### fields_container
 
-FieldsContainer with fields for centroid calculation
+Fields container with fields over time or frequency.
 
 **Type:** *LinkableInput*
 
 ### time_freq
 
-Time or frequency value for field selection
+Time or frequency value at which to interpolate.
 
 **Type:** *LinkableInput*
 
 ### step
 
-Optional step specification
+Optional step specification.
 
 **Type:** *LinkableInput*
 
 ### time_freq_support
 
-Optional TimeFreqSupport for field resolution
+Optional time/frequency support for field resolution.
 
 **Type:** *LinkableInput*
 
@@ -58,7 +66,7 @@ Optional TimeFreqSupport for field resolution
 
 ### fields_container
 
-FieldsContainer with centroid calculation results at specified time/frequency
+Fields container with the interpolated fields at the requested time or frequency.
 
 **Type:** *LinkableOutput*
 

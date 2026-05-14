@@ -10,7 +10,7 @@ license: None
 
 ## Description
 
-DEPRECATED, PLEASE USE GENERALIZED INNER PRODUCT. Computes element-wise dot product between two tensor fields.
+DEPRECATED, PLEASE USE GENERALIZED INNER PRODUCT. Computes entity-wise dot product between two tensor fields.
 
 ## Inputs
 

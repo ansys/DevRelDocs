@@ -10,7 +10,13 @@ license: None
 
 ## Description
 
-Shifts the phase of all the corresponding real and imaginary fields of a fields container for a given angle (in 2) of a unit (in 4). An output field is computed for each pair of real and imaginary fields in the input fields_container as field_out = real_field`*`cos(angle) - imaginary_field`*`sin(angle).
+
+Projects every [phasor](https://en.wikipedia.org/wiki/Phasor) field pair in the input fields container
+onto a given phase angle $\theta$:
+$\mathrm{out}[i] = \mathrm{fieldReal}[i] \cdot \cos(\theta) - \mathrm{fieldImaginary}[i] \cdot \sin(\theta)$.
+Pairs are matched by complex label.
+When pin 4 is true, the absolute value of each projection is returned.
+
 
 ## Inputs
 
@@ -32,7 +38,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Complex-valued fields container with paired real and imaginary part fields.
 
 <a id="input_2"></a>
 ### angle (Pin 2)
@@ -40,7 +46,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
 
-
+Phase angle $\theta$ to project onto, in the unit specified by pin 3 (default: radians).
 
 <a id="input_3"></a>
 ### unit_name (Pin 3)
@@ -56,7 +62,7 @@ String Unit. Supported values: "deg" or "rad". Default: "rad".
 - **Required:** Yes
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-
+If true, the absolute value of each projection is returned (default: false).
 
 
 ## Outputs
@@ -75,7 +81,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Fields container with the projected fields $\mathrm{fieldReal} \cdot \cos(\theta) - \mathrm{fieldImaginary} \cdot \sin(\theta)$, without the complex label.
 
 
 ## Configurations

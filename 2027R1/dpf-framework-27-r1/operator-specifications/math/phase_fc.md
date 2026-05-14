@@ -10,7 +10,12 @@ license: None
 
 ## Description
 
-Computes phase (in rad) between real and imaginary fields.
+
+Computes the [argument](https://en.wikipedia.org/wiki/Argument_(complex_analysis)) (phase angle)
+$\mathrm{atan2}(\mathrm{Im}[i],\, \mathrm{Re}[i])$ in radians for each complex-valued field pair
+in the input fields container, where pairs are matched by complex label.
+If no imaginary part is found for a real field, a zero-valued field is produced.
+
 
 ## Inputs
 
@@ -29,7 +34,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Complex-valued fields container with paired real (complex label 0) and imaginary (complex label 1) fields.
 
 
 ## Outputs
@@ -48,7 +53,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Fields container with phase angle fields $\mathrm{atan2}(\mathrm{Im}[i],\, \mathrm{Re}[i])$ in radians; zero-valued fields are produced where no imaginary part is found.
 
 
 ## Configurations

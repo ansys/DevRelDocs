@@ -10,7 +10,15 @@ license: None
 
 ## Description
 
-Converts an input field/fields container or mesh of a given unit to another unit.
+
+Converts an input entity from one unit to another using the linear relation
+$v_\mathrm{out}[i] = k \cdot v_\mathrm{in}[i] + \delta$,
+where $k$ and $\delta$ are the unit conversion factor and shift.
+Accepts fields, fields containers, meshes, and meshes containers.
+For mesh inputs only the coordinate field is converted.
+When the permissive option is enabled and units are not homogeneous with the target unit,
+the conversion is silently skipped.
+
 
 ## Inputs
 
@@ -57,7 +65,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container), [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container)
 
-the output entity is the same as the input (inplace operator)
+Converted entity of the same type as the input, modified in place.
 
 
 ## Configurations

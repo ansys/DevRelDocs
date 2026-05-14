@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-05-12).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-05-13).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -50,7 +50,7 @@ The following table shows which components have updates in each category.
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[6 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [8 items](#Features_native) |[23 items](#Fixes_native) |
+| native | [8 items](#Features_native) |[24 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [4 items](#Features_prime) |[2 items](#Fixes_prime) |
@@ -2326,6 +2326,15 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_native"></a> Fixes
 
+- Fix labels issue in adapt_with_scopings_container:
+  > 
+  >
+  > Fix issue in `adapt_with_scopings_container` when input FieldsContainer and ScopingsContainer don't share labels.
+  >
+  > 
+  >
+  > 
+
 - Fix int connection to time_scoping pin for cyclic models:
   > 
   >
@@ -3902,6 +3911,26 @@ The following table shows which components have updates in each category.
 
 #### math
 
+- [absolute_value_by_component](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/absolute_value_by_component.md)
+
+  > 0.0.1: Improve operator description with formula and Wikipedia link. Improve output pin description.
+
+
+- [absolute_value_by_component_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/absolute_value_by_component_fc.md)
+
+  > 0.0.1: Improve operator description with formula and Wikipedia link. Improve output pin description.
+
+
+- [accumulate](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/accumulate.md)
+
+  > 0.0.1: Improve operator description with weighted sum formula. Improve pin 2 and output pin descriptions.
+
+
+- [accumulate_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/accumulate_fc.md)
+
+  > 0.0.1: Improve operator description with weighted sum formula. Improve pin 2 and output pin descriptions.
+
+
 - [accumulate_level_over_label_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/accumulate_level_over_label_fc.md)
 
   > 0.0.1: Fixed issue with crash due to empty label.
@@ -3917,9 +3946,49 @@ The following table shows which components have updates in each category.
   > 0.0.1: Fixed issue with crash due to empty label.
 
 
+- [add](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/add.md)
+
+  > 0.0.1: Improve operator description to document formula, broadcast behaviour, unit handling, and inplace option. Improve output pin description. Add entity-wise addition synonym.
+
+
+- [add_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/add_fc.md)
+
+  > 0.0.1: Improve operator description. Improve output pin description. Add entity-wise addition synonym.
+
+
+- [amplitude](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/amplitude.md)
+
+  > 0.0.1: Improve operator description. Add output pin description. Add Wikipedia link.
+
+
+- [amplitude_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/amplitude_fc.md)
+
+  > 0.0.1: Improve operator description with amplitude formula, fallback behaviour and Wikipedia link. Add input and output pin descriptions.
+
+
 - [average_over_label_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/average_over_label_fc.md)
 
   > 0.0.1: Fixed issue with crash due to empty label.
+
+
+- [centroid](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/centroid.md)
+
+  > 0.0.1: Improve operator description with interpolation formula, convexity criterion and Wikipedia link. Improve pin 2 and output pin descriptions.
+
+
+- [centroid_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/centroid_fc.md)
+
+  > 0.0.1: Improve operator description with interpolation formula, exact-match behaviour and Wikipedia link. Improve pin descriptions.
+
+
+- [component_wise_divide](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/component_wise_divide.md)
+
+  > 0.0.1: Improve operator description with formula and zero-denominator behaviour. Add output pin description. Add Wikipedia link.
+
+
+- [component_wise_divide_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/component_wise_divide_fc.md)
+
+  > 0.0.1: Improve operator description. Add output pin description. Add Wikipedia link.
 
 
 - [compute_residual_and_error](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/compute_residual_and_error.md)
@@ -3932,6 +4001,41 @@ The following table shows which components have updates in each category.
 Upgraded documentation
 
 
+- [conjugate](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/conjugate.md)
+
+  > 0.0.1: Improve operator description with conjugate formula and Wikipedia link. Add input and output pin descriptions.
+
+
+- [cos](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/cos.md)
+
+  > 0.0.1: Improve operator description to document unit constraints and formula. Improve input and output pin descriptions. Add Wikipedia link.
+
+
+- [cos_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/cos_fc.md)
+
+  > 0.0.1: Improve operator description to document unit constraints and formula. Improve input and output pin descriptions. Add Wikipedia link.
+
+
+- [cplx_derive](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/cplx_derive.md)
+
+  > 0.0.1: Improve operator description with frequency-domain derivation formula and Wikipedia link. Add input and output pin descriptions.
+
+
+- [cplx_divide](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/cplx_divide.md)
+
+  > 0.0.1: Improve operator description with complex division formula, zero-denominator error and Wikipedia link. Improve pin and output pin descriptions.
+
+
+- [cplx_dot](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/cplx_dot.md)
+
+  > 0.0.1: Improve operator description with Hermitian inner product formula and Wikipedia link.
+
+
+- [cplx_multiply](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/cplx_multiply.md)
+
+  > 0.0.1: Improve operator description with complex multiplication formula and Wikipedia link. Add output pin description.
+
+
 - [entity_extractor](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/entity_extractor.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
@@ -3942,9 +4046,54 @@ Upgraded documentation
   > 0.0.1: Fix handling of empty fields in mode shapes.
 
 
+- [exponential](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/exponential.md)
+
+  > 0.0.1: Improve operator description with formula and dimensionless constraint. Improve input and output pin descriptions. Add Wikipedia link.
+
+
+- [exponential_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/exponential_fc.md)
+
+  > 0.0.1: Improve operator description with formula and dimensionless constraint. Improve input and output pin descriptions. Add Wikipedia link.
+
+
 - [fft_approx](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/fft_approx.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
+
+
+- [generalized_inner_product](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/generalized_inner_product.md)
+
+  > 0.0.1: Improve operator description with Wikipedia links and dispatch table. Add missing optional input pin 2 (mesh) for elemental-nodal/nodal dot product. Improve output pin description.
+
+
+- [generalized_inner_product_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/generalized_inner_product_fc.md)
+
+  > 0.0.1: Improve operator description with Wikipedia links and dispatch table. Add missing optional input pin 2 (mesh) for elemental-nodal/nodal dot product. Improve output pin description.
+
+
+- [img_part](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/img_part.md)
+
+  > 0.0.1: Improve operator description. Add input and output pin descriptions.
+
+
+- [kronecker_prod](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/kronecker_prod.md)
+
+  > 0.0.1: Improve operator description with Kronecker product formula and Wikipedia link. Add output pin description.
+
+
+- [linear_combination](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/linear_combination.md)
+
+  > 0.0.1: Improve operator description with LaTeX formula and Wikipedia link. Improve pin 0, 3, 4 and output pin descriptions.
+
+
+- [ln](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/ln.md)
+
+  > 0.0.1: Improve operator description with formula and dimensionless constraint. Improve input and output pin descriptions. Add Wikipedia link.
+
+
+- [ln_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/ln_fc.md)
+
+  > 0.0.1: Improve operator description with formula and dimensionless constraint. Improve input and output pin descriptions. Add Wikipedia link.
 
 
 - [mac](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/mac.md)
@@ -3957,19 +4106,54 @@ Upgraded documentation
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
+- [minus](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/minus.md)
+
+  > 0.0.1: Improve operator description to document formula, broadcast behaviour, unit handling, and temperature-difference unit. Improve output pin description. Add entity-wise subtraction synonym.
+
+
+- [minus_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/minus_fc.md)
+
+  > 0.0.1: Improve operator description to document formula, broadcast behaviour, unit handling, and temperature-difference unit. Improve output pin description. Add entity-wise subtraction synonym.
+
+
 - [modal_participation](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/modal_participation.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
+- [modulus](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/modulus.md)
+
+  > 0.0.1: Improve operator description with complex modulus formula and Wikipedia link. Add input and output pin descriptions.
+
+
+- [norm](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/norm.md)
+
+  > 0.0.1: Improve operator description with $L_p$ norm formula and Wikipedia link. Improve pin 1 and output pin descriptions.
+
+
 - [norm_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/norm_fc.md)
 
-  > 0.0.1: Fix exception type preservation during parallel execution.
+  > 0.0.1: Fix exception type preservation during parallel execution. Fix operator description accuracy: now documents $L_p$ norm (not just $L_2$). Improve pin 1 and output pin descriptions. Add Wikipedia link.
 
 
 - [outer_product](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/outer_product.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [phase](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/phase.md)
+
+  > 0.0.1: Improve operator description with atan2 formula and Wikipedia link. Add output pin description.
+
+
+- [phase_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/phase_fc.md)
+
+  > 0.0.1: Improve operator description with atan2 formula, zero-field fallback and Wikipedia link. Add input and output pin descriptions.
+
+
+- [polar_to_cplx](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/polar_to_cplx.md)
+
+  > 0.0.1: Improve operator description with polar-to-rectangular conversion formulas and Wikipedia link. Add input and output pin descriptions.
 
 
 - [pow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/pow.md)
@@ -3982,9 +4166,14 @@ Upgraded documentation
   > 0.1.0: Pin added to chose the value to set for division by zero for negative exponents
 
 
+- [real_part](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/real_part.md)
+
+  > 0.0.1: Improve operator description. Add input and output pin descriptions.
+
+
 - [scale](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/scale.md)
 
-  > 0.0.1: Fixed a segmentation fault.
+  > 0.0.1: Fixed a segmentation fault. Improve operator description with scalar and vector scale formulas. Fix 'scaler' typo. Add Hadamard product synonym for field-valued scale factor.
 
 
 - [scale_by_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/scale_by_field.md)
@@ -3999,22 +4188,62 @@ Upgraded documentation
 
 - [scale_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/scale_fc.md)
 
-  > 0.0.1: Fix exception type preservation during parallel execution.
+  > 0.0.1: Fix exception type preservation during parallel execution. Improve operator description with supported scale-factor types. Fix 'scaler' typo. Add Hadamard product synonym for field-valued scale factor.
+
+
+- [sin](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/sin.md)
+
+  > 0.0.1: Improve operator description to document unit constraints and formula. Add input and output pin descriptions. Add Wikipedia link.
+
+
+- [sin_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/sin_fc.md)
+
+  > 0.0.1: Improve operator description to document unit constraints and formula. Add input and output pin descriptions. Add Wikipedia link.
+
+
+- [sqr](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/sqr.md)
+
+  > 0.0.1: Improve operator description with formula and output unit. Improve output pin description. Add Wikipedia link.
+
+
+- [sqr_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/sqr_fc.md)
+
+  > 0.0.1: Improve operator description with formula and output unit. Improve output pin description. Add Wikipedia link.
+
+
+- [sqrt](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/sqrt.md)
+
+  > 0.0.1: Improve operator description with formula, non-negativity constraint, and output unit. Improve input and output pin descriptions. Add Wikipedia link.
+
+
+- [sqrt_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/sqrt_fc.md)
+
+  > 0.0.1: Improve operator description with formula, non-negativity constraint, and output unit. Improve input and output pin descriptions. Add Wikipedia link.
 
 
 - [sweeping_phase](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/sweeping_phase.md)
 
-  > 0.0.1: Clarify the documentation.
+  > 0.0.1: Improve operator description with projection formula and Wikipedia link. Improve pin 2, 4 and output pin descriptions.
 
 
 - [sweeping_phase_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/sweeping_phase_fc.md)
 
-  > 0.0.1: Clarify the documentation.
+  > 0.0.1: Improve operator description with projection formula and Wikipedia link. Improve pin 2, 4 and output pin descriptions.
 
 
 - [time_freq_interpolation](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/time_freq_interpolation.md)
 
-  > 0.0.1: Internal refactoring to use Scoping Iterators.
+  > 0.0.1: Internal refactoring to use Scoping Iterators. Improve operator description with interpolation formula and Wikipedia link. Add missing output pin 1 (TimeFreqSupport). Improve pin descriptions.
+
+
+- [unit_convert](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/unit_convert.md)
+
+  > 0.0.1: Improve operator description to document conversion formula, mesh handling, and permissive behaviour. Improve output pin description.
+
+
+- [unit_convert_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/unit_convert_fc.md)
+
+  > 0.0.1: Improve operator description to document conversion formula and permissive behaviour. Add input pin description. Improve output pin description.
 
 
 

@@ -4,7 +4,15 @@ uid: Ans.DataProcessing.operators.math.linear_combination
 
 # *class* linear_combination(a: object = None, fields_containerA: object = None, fields_containerB: object = None, b: object = None, fields_containerC: object = None, config: OperatorConfig = None)
 
-Computes aXY + bZ where a,b (in 0, in 3) are scalar and X,Y,Z (in 1,2,4) are complex numbers.
+Computes the [linear combination](https://en.wikipedia.org/wiki/Linear_combination)
+
+$a \cdot X \cdot Y + b \cdot Z$,
+
+where $a$ (pin 0) and $b$ (pin 3) are real scalars,
+
+and $X$ (pin 1), $Y$ (pin 2), $Z$ (pin 4) are complex-valued fields containers.
+
+The product $X \cdot Y$ is a standard complex multiplication.
 
 available inputs: `a` (double), `fields_containerA` (FieldsContainer), `fields_containerB` (FieldsContainer), `b` (double), `fields_containerC` (FieldsContainer)
 
@@ -33,7 +41,7 @@ op = linear_combination(a=my_a,fields_containerA=my_fields_containerA,fields_con
 
 ### a
 
-Double
+Real scalar factor $a$ applied to the complex product $X \cdot Y$.
 
 **Type:** *LinkableInput*
 
@@ -47,17 +55,21 @@ Double
 
 ### b
 
-Double
+Real scalar factor $b$ applied to the complex addend $Z$.
 
 **Type:** *LinkableInput*
 
 ### fields_containerC
+
+Third complex-valued fields container $Z$.
 
 **Type:** *LinkableInput*
 
 ## Outputs
 
 ### fields_container
+
+Fields container with the complex result $a \cdot X \cdot Y + b \cdot Z$ (real and imaginary parts).
 
 **Type:** *LinkableOutput*
 

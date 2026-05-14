@@ -10,7 +10,12 @@ license: None
 
 ## Description
 
-Computes the phase (in rad) between a real and an imaginary field.
+
+Computes the [argument](https://en.wikipedia.org/wiki/Argument_(complex_analysis)) (phase angle)
+of a complex quantity given as separate real and imaginary fields:
+$\phi[i] = \mathrm{atan2}(B[i],\, A[i])$.
+The output is in radians.
+
 
 ## Inputs
 
@@ -57,7 +62,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-
+Field containing the phase angle $\mathrm{atan2}(B[i],\, A[i])$ in radians for each data entry.
 
 
 ## Configurations

@@ -10,7 +10,12 @@ license: None
 
 ## Description
 
-Selects all fields with the same label space in the input fields container and add those together. If fields, doubles, or vectors of doubles, are put in input they are added to all the fields.
+
+Entity-wise addition across all input fields containers:
+for each label space, sums the matching fields from every container.
+Scalar inputs (field, double, or vector of doubles) are broadcast and added to every field in each container.
+If only one fields container is provided and no scalar inputs are given, it is forwarded to the output unchanged.
+
 
 ## Inputs
 
@@ -48,7 +53,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-FieldsContainer with summed fields by label space
+Fields container with fields summed by matching label space.
 
 
 ## Configurations

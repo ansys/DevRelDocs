@@ -10,7 +10,12 @@ license: None
 
 ## Description
 
-Computes element-wise conjugate of field containers containing complex fields.
+
+Computes the [complex conjugate](https://en.wikipedia.org/wiki/Complex_conjugate)
+$\bar{z}[i] = \mathrm{Re}[i] - j \cdot \mathrm{Im}[i]$ for each value in a complex-valued fields container
+(the imaginary part is negated).
+Input and output containers have the same structure.
+
 
 ## Inputs
 
@@ -29,7 +34,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Complex-valued fields container with real (complex label 0) and imaginary (complex label 1) part fields.
 
 
 ## Outputs
@@ -48,7 +53,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Fields container with conjugate values; the imaginary-part fields carry negated data.
 
 
 ## Configurations
