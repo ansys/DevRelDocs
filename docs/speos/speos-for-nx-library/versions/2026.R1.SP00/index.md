@@ -6,7 +6,7 @@ _layout: landing
 
 This document provides you a complete documentation of the Speos for NX library for Python.
 
-Refer to [Changelog](articles/changelog.md) to see what's new in the latest version.
+Refer to [Changelog](Changelog.md) to see what's new in the latest version.
 
 ## Main features
 
@@ -59,6 +59,6 @@ Detailed documentation of each properties such as its accessing privilege, type,
 
 ## Next steps
 
-- [Getting Started](articles/getting_started.md) - Learn how to set up and use the SpeosNX API
-- [Usage Examples](articles/usage_examples.md) - See practical code examples
-- [Classes](articles/classes/index.md) - Browse the complete API reference
+- [Getting Started](getting_started.md) - Learn how to set up and use the SpeosNX API
+- [Usage Examples](usage_examples.md) - See practical code examples
+- [Classes](classes/index.md) - Browse the complete API reference

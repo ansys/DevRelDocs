@@ -4,10 +4,9 @@
     "content": [
       {
         "files": [
-          "articles/**.md",
-          "articles/**/toc.yml",
-          "toc.yml",
-          "*.md"
+          "**.md",
+          "**/toc.yml",
+          "toc.yml"
         ]
       }
     ],
