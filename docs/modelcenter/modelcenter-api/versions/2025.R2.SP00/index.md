@@ -1,11 +1,14 @@
----
-_layout: landing
----
+# Introduction
 
-# This is the **HOMEPAGE**.
+The ModelCenter API empowers you to easily perform important tasks, including:
+- Automate and optimize complex, cross-disciplinary engineering workflows. 
+- Integrate simulations and tools from various domains. 
+- Extend functionality through custom plugins. 
+- Use ModelCenter results and models for advanced postprocessing and analysis. 
+- Remotely connect to any engineering analysis and workflows stored anywhere in the world while securing the IP.
 
-Refer to [Markdown](http://daringfireball.net/projects/markdown/) for how to write markdown files.
 
-## Quick Start Notes:
+## Reference Links
 
-1. Add images to the *images* folder if the file is referencing an image.
+* [ModelCenter COM API](modelcenter-api-md/index.md)
+* [ModelCenter Java API](modelcenter-java-api-md/index.md)
