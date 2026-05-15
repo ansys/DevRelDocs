@@ -10,7 +10,10 @@ license: None
 
 ## Description
 
-Extracts element-wise real part of field containers containing complex fields.
+
+Extracts the real-part fields (complex label 0) from a complex-valued fields container.
+The output container preserves all labels except the complex label.
+
 
 ## Inputs
 
@@ -29,7 +32,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Complex-valued fields container with real (complex label 0) and imaginary (complex label 1) part fields.
 
 
 ## Outputs
@@ -48,7 +51,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Fields container containing only the real-part fields, without the complex label.
 
 
 ## Configurations

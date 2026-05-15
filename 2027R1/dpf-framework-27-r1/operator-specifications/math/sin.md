@@ -10,7 +10,13 @@ license: None
 
 ## Description
 
-Computes element-wise sine function on field data: sin(field[i]).
+
+Computes the entity-wise [sine](https://en.wikipedia.org/wiki/Sine_and_cosine):
+$\mathrm{out}[i] = \sin(\mathrm{in}[i])$.
+The input must be dimensionless or carry an angle unit; any other unit raises an error.
+When the input unit is an angle (e.g. degrees), values are automatically converted to radians
+before the sine is applied. The output is dimensionless.
+
 
 ## Inputs
 
@@ -29,7 +35,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-Field containing numeric data for sine calculation
+Dimensionless or angle-unit field.
 
 
 ## Outputs
@@ -48,7 +54,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-Field with sine values applied element-wise to input data
+Dimensionless field with $\sin(\mathrm{in}[i])$ for each data entry.
 
 
 ## Configurations

@@ -10,7 +10,14 @@ license: None
 
 ## Description
 
-Computes element-wise Kronecker product between two tensor fields.
+
+Computes the [Kronecker product](https://en.wikipedia.org/wiki/Kronecker_product)
+of two matrix-valued fields per entity.
+For each entity, if $A$ is an $(m \times n)$ matrix and $B$ is a $(p \times q)$ matrix,
+the result is an $(mp \times nq)$ matrix:
+$(A \otimes B)_{(ip+k),(jq+l)} = A_{i,j} \cdot B_{k,l}$.
+Both input fields must have the same number of entities.
+
 
 ## Inputs
 
@@ -57,7 +64,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-
+Matrix field containing the Kronecker product $A \otimes B$ for each entity; unit is $u_A \cdot u_B$.
 
 
 ## Configurations

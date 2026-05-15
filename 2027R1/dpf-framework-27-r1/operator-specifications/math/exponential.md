@@ -10,7 +10,12 @@ license: None
 
 ## Description
 
-Computes element-wise exponential function on field data: exp(field[i]).
+
+Computes the entity-wise [exponential function](https://en.wikipedia.org/wiki/Exponential_function):
+$\mathrm{out}[i] = e^{\mathrm{in}[i]}$.
+The input must be dimensionless; a dimensional input raises an error.
+The output is dimensionless.
+
 
 ## Inputs
 
@@ -29,7 +34,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container), [`double`](../../core-concepts/dpf-types.md#standard-types), [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
 
-Field, fields container, or numeric data for exponential calculation
+Dimensionless field, fields container, or numeric data.
 
 
 ## Outputs
@@ -48,7 +53,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-Field with exponential values applied element-wise to input data
+Dimensionless field with $e^{\mathrm{in}[i]}$ for each data entry.
 
 
 ## Configurations

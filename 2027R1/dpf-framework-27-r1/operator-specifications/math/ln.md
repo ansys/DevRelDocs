@@ -10,7 +10,12 @@ license: None
 
 ## Description
 
-Computes element-wise ln(field[i]).
+
+Computes the entity-wise [natural logarithm](https://en.wikipedia.org/wiki/Natural_logarithm):
+$\mathrm{out}[i] = \ln(\mathrm{in}[i])$.
+The input must be dimensionless; a dimensional input raises an error.
+The output is dimensionless.
+
 
 ## Inputs
 
@@ -29,7 +34,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container), [`double`](../../core-concepts/dpf-types.md#standard-types), [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
 
-field or fields container with only one field is expected
+Dimensionless field, fields container, or numeric data.
 
 
 ## Outputs
@@ -48,7 +53,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-Field with natural logarithm values applied element-wise
+Dimensionless field with $\ln(\mathrm{in}[i])$ for each data entry.
 
 
 ## Configurations

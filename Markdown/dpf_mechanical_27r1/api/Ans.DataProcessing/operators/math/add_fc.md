@@ -31,7 +31,7 @@ add_fc(config: OperatorConfig)
 
 ### fields_container
 
-FieldsContainer with summed fields by label space
+Fields container with fields summed by matching label space.
 
 **Type:** *LinkableOutput*
 

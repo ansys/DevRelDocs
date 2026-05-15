@@ -4,7 +4,13 @@ uid: Ans.DataProcessing.operators.math.norm_fc
 
 # *class* norm_fc(fields_container: object = None, scalar_int: object = None, config: OperatorConfig = None)
 
-Computes the element-wise L2 norm of the field elementary data. This process is applied on each field of the input fields container.
+Computes the [$L_p$ norm](https://en.wikipedia.org/wiki/Norm_(mathematics)#p-norm) of the component vector
+
+for each entity in every field of the input fields container:
+
+$\mathrm{out}[k] = \left(\sum_{j=0}^{n_c-1} |v_{k,j}|^p\right)^{1/p}$.
+
+Default is $p = 2$ (Euclidean norm). Each output field is scalar.
 
 available inputs: `fields_container` (FieldsContainer), `scalar_int` (Int32) (optional)
 
@@ -30,13 +36,13 @@ op = norm_fc(fields_container=my_fields_container,scalar_int=my_scalar_int)
 
 ### fields_container
 
-FieldsContainer containing fields for norm calculation
+Fields container containing fields for norm calculation
 
 **Type:** *LinkableInput*
 
 ### scalar_int
 
-Lp normalisation type, p = 1, 2, ...n - Default Lp=2
+$L_p$ norm order $p$ (positive integer, default is 2 for the Euclidean norm).
 
 **Type:** *LinkableInput*
 
@@ -44,7 +50,7 @@ Lp normalisation type, p = 1, 2, ...n - Default Lp=2
 
 ### fields_container
 
-FieldsContainer with computed norms for each field
+Fields container of scalar fields, one per input field, each containing the $L_p$ norm per entity.
 
 **Type:** *LinkableOutput*
 

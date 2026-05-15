@@ -4,7 +4,13 @@ uid: Ans.DataProcessing.operators.math.exponential_fc
 
 # *class* exponential_fc(fields_container: object = None, config: OperatorConfig = None)
 
-Computes element-wise exponential function on field data: exp(field[i]).
+Computes the entity-wise [exponential function](https://en.wikipedia.org/wiki/Exponential_function):
+
+$\mathrm{out}[i] = e^{\mathrm{in}[i]}$.
+
+The input must be dimensionless; a dimensional input raises an error.
+
+The output is dimensionless.
 
 available inputs: `fields_container` (FieldsContainer)
 
@@ -29,7 +35,7 @@ op = exponential_fc(fields_container=my_fields_container)
 
 ### fields_container
 
-Field, fields container, or numeric data for exponential calculation
+Dimensionless field, fields container, or numeric data.
 
 **Type:** *LinkableInput*
 
@@ -37,7 +43,7 @@ Field, fields container, or numeric data for exponential calculation
 
 ### fields_container
 
-Field with exponential values applied element-wise to input data
+Dimensionless field with $e^{\mathrm{in}[i]}$ for each data entry.
 
 **Type:** *LinkableOutput*
 

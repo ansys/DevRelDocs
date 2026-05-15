@@ -4,7 +4,15 @@ uid: Ans.DataProcessing.operators.math.cos_fc
 
 # *class* cos_fc(fields_container: object = None, config: OperatorConfig = None)
 
-Computes element-wise cosine function on field data: cos(field[i]).
+Computes the entity-wise [cosine](https://en.wikipedia.org/wiki/Sine_and_cosine):
+
+$\mathrm{out}[i] = \cos(\mathrm{in}[i])$.
+
+The input must be dimensionless or carry an angle unit; any other unit raises an error.
+
+When the input unit is an angle (e.g. degrees), values are automatically converted to radians
+
+before the cosine is applied. The output is dimensionless.
 
 available inputs: `fields_container` (FieldsContainer)
 
@@ -29,7 +37,7 @@ op = cos_fc(fields_container=my_fields_container)
 
 ### fields_container
 
-Field or fields container containing numeric data for cosine calculation
+Dimensionless or angle-unit field or fields container.
 
 **Type:** *LinkableInput*
 
@@ -37,7 +45,7 @@ Field or fields container containing numeric data for cosine calculation
 
 ### fields_container
 
-Field with cosine values applied element-wise to input data
+Dimensionless field with $\cos(\mathrm{in}[i])$ for each data entry.
 
 **Type:** *LinkableOutput*
 

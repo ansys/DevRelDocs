@@ -59,7 +59,13 @@ If set to true, the output fields container will always have a new time freq sup
 
 ### fields_container
 
-FieldsContainer with interpolated fields at specified time/frequency values
+Fields container with one interpolated field set per requested time or frequency value.
+
+**Type:** *LinkableOutput*
+
+### time_freq_support
+
+Time or frequency support aligned with the output fields container.
 
 **Type:** *LinkableOutput*
 

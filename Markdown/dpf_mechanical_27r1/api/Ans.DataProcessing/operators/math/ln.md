@@ -20,7 +20,7 @@ ln(config: OperatorConfig)
 
 ### field
 
-field or fields container with only one field is expected
+Dimensionless field, fields container, or numeric data.
 
 **Type:** *LinkableInput*
 
@@ -28,7 +28,7 @@ field or fields container with only one field is expected
 
 ### field
 
-Field with natural logarithm values applied element-wise
+Dimensionless field with $\ln(\mathrm{in}[i])$ for each data entry.
 
 **Type:** *LinkableOutput*
 
