@@ -1,4 +1,4 @@
-# Learning Path
+# Introduction
 
 This document is a working draft of the DPF Learning Path. It outlines the initial structure, scope, and planned content.
 

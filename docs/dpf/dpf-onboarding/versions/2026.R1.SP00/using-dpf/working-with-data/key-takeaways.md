@@ -87,16 +87,4 @@ You can now:
 - ✅ Create reusable Workflow objects with named inputs/outputs
 - ✅ Visualize workflow structure using Graphviz export
 
-## 📝 Checkpoint: Verify your understanding
 
-Before moving to the next chapter:
-
-## Complete the Working with data survey
-**Take 5-7 minutes to:**
-- ✅ Verify you understood the key concepts
-- 💡 Share what worked well
-- 🔧 Tell us what could be improved
-
-[📋 Start survey →](https://forms.office.com/r/bSHdhE9mPZ)
-
-Your responses directly improve this content for future learners!

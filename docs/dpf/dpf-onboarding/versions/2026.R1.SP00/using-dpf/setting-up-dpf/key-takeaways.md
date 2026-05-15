@@ -23,16 +23,5 @@ At this point, you have successfully installed the DPF server and Python client,
 
 In the next chapter, **Using DPF**, we will explore the practical aspects of interacting with data in DPF. This includes understanding how data is represented, imported, and manipulated within the framework. Let's continue the journey!
 
-## 📝 Checkpoint: Verify your understanding
 
-Before moving to the next chapter:
 
-## Complete the Introduction survey
-**Take 5-7 minutes to:**
-- ✅ Verify you understood the key concepts
-- 💡 Share what worked well
-- 🔧 Tell us what could be improved
-
-[📋 Start survey →](https://forms.cloud.microsoft/r/fhef49Zdm5)
-
-Your responses directly improve this content for future learners!

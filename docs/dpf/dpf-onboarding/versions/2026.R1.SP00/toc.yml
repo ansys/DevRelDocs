@@ -2,7 +2,7 @@
   href: index.md
 - name: Introduction to DPF
   items:
-  - name: Introduction
+  - name: About this chapter
     href: introduction/index.md
   - name: What is DPF
     href: introduction/what-is-dpf.md
@@ -12,7 +12,7 @@
     href: introduction/key-takeaways.md
 - name: Setting up DPF
   items:
-  - name: Setting up DPF
+  - name: About this chapter
     href: using-dpf/setting-up-dpf/index.md
   - name: Installing DPF
     href: using-dpf/setting-up-dpf/how-to-install-dpf.md
@@ -24,7 +24,7 @@
     href: using-dpf/setting-up-dpf/key-takeaways.md
 - name: Working with data
   items:
-  - name: Working with data
+  - name: About this chapter
     href: using-dpf/working-with-data/index.md
   - name: Which data can be represented
     href: using-dpf/working-with-data/which-data-can-be-represented.md
