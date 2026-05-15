@@ -1,0 +1,38 @@
+- name: Introduction
+  href: index.md
+- name: Introduction to DPF
+  items:
+  - name: Introduction
+    href: introduction/index.md
+  - name: What is DPF
+    href: introduction/what-is-dpf.md
+  - name: How DPF works
+    href: introduction/how-dpf-works.md
+  - name: Key takeaways
+    href: introduction/key-takeaways.md
+- name: Setting up DPF
+  items:
+  - name: Setting up DPF
+    href: using-dpf/setting-up-dpf/index.md
+  - name: Installing DPF
+    href: using-dpf/setting-up-dpf/how-to-install-dpf.md
+  - name: Configuring licensing
+    href: using-dpf/setting-up-dpf/licensing.md
+  - name: Verifying your installation
+    href: using-dpf/setting-up-dpf/check-your-installation.md
+  - name: Key takeaways
+    href: using-dpf/setting-up-dpf/key-takeaways.md
+- name: Working with data
+  items:
+  - name: Working with data
+    href: using-dpf/working-with-data/index.md
+  - name: Which data can be represented
+    href: using-dpf/working-with-data/which-data-can-be-represented.md
+  - name: How is data represented in DPF
+    href: using-dpf/working-with-data/how-data-is-represented-in-dpf.md
+  - name: Where does the data come from
+    href: using-dpf/working-with-data/where-does-the-data-come-from.md
+  - name: How to interact with data in DPF
+    href: using-dpf/working-with-data/how-to-interact-with-data.md
+  - name: Key takeaways
+    href: using-dpf/working-with-data/key-takeaways.md
