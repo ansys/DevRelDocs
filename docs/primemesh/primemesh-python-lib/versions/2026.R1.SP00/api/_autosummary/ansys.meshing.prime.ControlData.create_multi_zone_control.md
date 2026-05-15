@@ -6,19 +6,20 @@
 
 Create multizone control with defaults.
 
-* **Returns:**
+
+**Returns:**
 
   `multizone`
-  : Returns the multizone control.
+  Returns the multizone control.
 
-* **Return type:**
+**Return type:**
 
   [`MultiZoneControl`](ansys.meshing.prime.MultiZoneControl.md#ansys.meshing.prime.MultiZoneControl)
 
 ### Examples
 
 ```pycon
->>> multizone = model.control_data.create_wrapper_control()
+>>> multizone = model.control_data.create_multi_zone_control()
 ```
 
 <!-- !! processed by numpydoc !! -->

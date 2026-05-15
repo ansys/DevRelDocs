@@ -6,15 +6,18 @@
 
 Set the default values of the `CopyZoneletsResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code associated with failure of operation.
+
+  Error code associated with failure of operation.
 
   **copied_zonelets: Iterable[int], optional**
-  : Ids of the copied zonelets.
+
+  Ids of the copied zonelets.
 
   **copied_face_zonelets: Iterable[int], optional**
-  : Ids of the copied bounding faces of cell zonelets.
+
+  Ids of the copied bounding faces of cell zonelets.
 
 <!-- !! processed by numpydoc !! -->

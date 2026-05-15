@@ -6,15 +6,16 @@
 
 Get the scoped polydata of the model.
 
-* **Parameters:**
+**Parameters:**
 
   **scope**
-  : Scope of the model.
 
-* **Returns:**
+  Scope of the model.
+
+**Returns:**
 
   `vtk.vtkPolyData`
-  : Scoped polydata of the model.
+  Scoped polydata of the model.
 
 ### Examples
 

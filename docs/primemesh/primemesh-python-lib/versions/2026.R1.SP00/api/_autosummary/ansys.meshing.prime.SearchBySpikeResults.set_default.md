@@ -6,12 +6,14 @@
 
 Set the default values of the `SearchBySpikeResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **n_found: int, optional**
-  : Number of spikes detected.
+
+  Number of spikes detected.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with search spikes operation.
+
+  Error code associated with search spikes operation.
 
 <!-- !! processed by numpydoc !! -->

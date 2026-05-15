@@ -6,19 +6,23 @@
 
 Result structure associated with merge overlapping topofaces and delete shadowed topofaces operations.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ScaffolderMergeResults` object with default parameters.
+
+  Model to create a `ScaffolderMergeResults` object with default parameters.
 
   **n_merged: int, optional**
-  : Number of merged topofaces.
+
+  Number of merged topofaces.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with merge overlapping topofaces operation.
+
+  Error code associated with merge overlapping topofaces operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ScaffolderMergeResults` object with provided parameters.
+
+  JSON dictionary to create a `ScaffolderMergeResults` object with provided parameters.
 
 ### Examples
 

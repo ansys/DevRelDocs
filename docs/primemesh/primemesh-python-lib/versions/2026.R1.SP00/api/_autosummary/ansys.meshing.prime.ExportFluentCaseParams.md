@@ -6,16 +6,19 @@
 
 Parameters to export fluent case file.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ExportFluentCaseParams` object with default parameters.
+
+  Model to create a `ExportFluentCaseParams` object with default parameters.
 
   **cff_format: bool, optional**
-  : Option to specify whether to export Fluent case file in CFF format (.cas.h5) or legacy format (.cas, .cas.gz).
+
+  Option to specify whether to export Fluent case file in CFF format (.cas.h5) or legacy format (.cas, .cas.gz).
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ExportFluentCaseParams` object with provided parameters.
+
+  JSON dictionary to create a `ExportFluentCaseParams` object with provided parameters.
 
 ### Examples
 

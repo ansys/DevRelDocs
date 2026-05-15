@@ -6,12 +6,14 @@
 
 Set the default values of the `ExportBoundaryFittedSplineParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **id_offset: int, optional**
-  : Offset value for IGA entity ids between parts.
+
+  Offset value for IGA entity ids between parts.
 
   **id_start: int, optional**
-  : Start ids for IGA entities.
+
+  Start ids for IGA entities.
 
 <!-- !! processed by numpydoc !! -->

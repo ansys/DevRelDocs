@@ -6,16 +6,19 @@
 
 Results associated with match morph operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `MatchMorphResults` object with default parameters.
+
+  Model to create a `MatchMorphResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Errorcode associated with match morph operation.
+
+  Errorcode associated with match morph operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `MatchMorphResults` object with provided parameters.
+
+  JSON dictionary to create a `MatchMorphResults` object with provided parameters.
 
 ### Examples
 

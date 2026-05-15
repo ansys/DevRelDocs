@@ -6,16 +6,19 @@
 
 Results associated with stretch free boundaries operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `StretchFreeBoundariesResults` object with default parameters.
+
+  Model to create a `StretchFreeBoundariesResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with failure of operation.
+
+  Error code associated with failure of operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `StretchFreeBoundariesResults` object with provided parameters.
+
+  JSON dictionary to create a `StretchFreeBoundariesResults` object with provided parameters.
 
 ### Examples
 

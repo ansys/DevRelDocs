@@ -6,24 +6,30 @@
 
 Set the default values of the `CadRefacetingParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **cad_faceter: CadFaceter, optional**
-  : Specify the available choices for faceter. The available option is Parasolid. (Note: ACIS faceter is being deprecated from 25R1).
+
+  Specify the available choices for faceter. The available option is Parasolid. (Note: ACIS faceter is being deprecated from 25R1).
 
   **faceting_resolution: CadRefacetingResolution, optional**
-  : Set the faceting resolution.
+
+  Set the faceting resolution.
 
   **custom_surface_deviation_tolerance: float, optional**
-  : Set custom tolerance for surface deviation in specified length unit.
+
+  Set custom tolerance for surface deviation in specified length unit.
 
   **custom_normal_angle_tolerance: float, optional**
-  : Set custom tolerance for normal angle in degree.
+
+  Set custom tolerance for normal angle in degree.
 
   **max_edge_size_limit: CadRefacetingMaxEdgeSizeLimit, optional**
-  : Specify maximum edge size limit for faceting.
+
+  Specify maximum edge size limit for faceting.
 
   **max_edge_size: float, optional**
-  : Set maximum edge size of the facets.
+
+  Set maximum edge size of the facets.
 
 <!-- !! processed by numpydoc !! -->

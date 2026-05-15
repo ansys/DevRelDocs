@@ -6,15 +6,18 @@
 
 Set the default values of the `RefineAtContactsResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **n_refined: int, optional**
-  : Number of face elements identified for refinement.
+
+  Number of face elements identified for refinement.
 
   **size_field_id: int, optional**
-  : Id of size field created to refine at contacts.
+
+  Id of size field created to refine at contacts.
 
   **error_code: ErrorCode, optional**
-  : ErrorCode associated with the refine contacts operation.
+
+  ErrorCode associated with the refine contacts operation.
 
 <!-- !! processed by numpydoc !! -->

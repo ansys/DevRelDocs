@@ -6,23 +6,26 @@
 
 Gets face zonelet ids belonging to components or bodies with name matching the given name pattern.
 
-* **Parameters:**
+**Parameters:**
 
   **component_body_name_pattern**
-  : Name pattern to be matched with component or body names.
+
+  Name pattern to be matched with component or body names.
 
   **type**
-  : Type of query used to match component or body name pattern.
+
+  Type of query used to match component or body name pattern.
 
   **name_pattern_params**
-  : Name pattern parameters used to match component or body name pattern.
 
-* **Returns:**
+  Name pattern parameters used to match component or body name pattern.
+
+**Returns:**
 
   `Iterable`[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
-  : Returns face zonelet ids of labels with name matching the name pattern. Returns an empty list for a topology part.
+  Returns face zonelet ids of labels with name matching the name pattern. Returns an empty list for a topology part.
 
-* **Return type:**
+**Return type:**
 
   [`Iterable`](https://docs.python.org/3.11/library/typing.html#typing.Iterable)[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
 

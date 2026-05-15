@@ -6,19 +6,23 @@
 
 Result structure associated with created contact patch zonelets.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `CreateContactPatchResults` object with default parameters.
+
+  Model to create a `CreateContactPatchResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the contact patch creation operation.
+
+  Error code associated with the contact patch creation operation.
 
   **part_id: int, optional**
-  : Contact patch part id.
+
+  Contact patch part id.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `CreateContactPatchResults` object with provided parameters.
+
+  JSON dictionary to create a `CreateContactPatchResults` object with provided parameters.
 
 ### Examples
 

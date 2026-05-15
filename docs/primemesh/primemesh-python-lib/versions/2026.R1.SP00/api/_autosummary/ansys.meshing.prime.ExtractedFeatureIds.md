@@ -6,19 +6,23 @@
 
 Contains ids of the features extracted.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ExtractedFeatureIds` object with default parameters.
+
+  Model to create a `ExtractedFeatureIds` object with default parameters.
 
   **part_id: int, optional**
-  : Id of the part from which edge zonelets are extracted.
+
+  Id of the part from which edge zonelets are extracted.
 
   **new_edge_zonelets: Iterable[int], optional**
-  : Ids of new edge zonelets extracted.
+
+  Ids of new edge zonelets extracted.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ExtractedFeatureIds` object with provided parameters.
+
+  JSON dictionary to create a `ExtractedFeatureIds` object with provided parameters.
 
 ### Examples
 

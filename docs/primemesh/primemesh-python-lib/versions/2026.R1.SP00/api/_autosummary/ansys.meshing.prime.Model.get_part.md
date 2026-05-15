@@ -6,17 +6,19 @@
 
 Get the part by ID.
 
-* **Parameters:**
+**Parameters:**
 
   **id**
-  : ID of the part.
 
-* **Returns:**
+  ID of the part.
 
-  [`Part`](ansys.meshing.prime.Part.md#ansys.meshing.prime.Part)
-  : Part or `None` if the given part ID doesn’t exist.
+**Returns:**
 
-* **Return type:**
+  **[`Part`](ansys.meshing.prime.Part.md#ansys.meshing.prime.Part)**
+
+  Part or `None` if the given part ID doesn’t exist.
+
+**Return type:**
 
   [`Part`](ansys.meshing.prime.Part.md#ansys.meshing.prime.Part)
 

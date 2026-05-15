@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.ContactPatchAxis.from_bytes"></a>
 
-#### ContactPatchAxis.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* ContactPatchAxis.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

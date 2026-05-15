@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.EdgeConnectType.from_bytes"></a>
 
-#### EdgeConnectType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* EdgeConnectType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

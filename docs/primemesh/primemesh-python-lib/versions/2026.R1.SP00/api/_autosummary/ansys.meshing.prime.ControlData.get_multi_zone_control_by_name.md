@@ -6,17 +6,19 @@
 
 Get the multizone control by name.
 
-* **Parameters:**
+**Parameters:**
 
   **name**
-  : Name of the multizone control.
 
-* **Returns:**
+  Name of the multizone control.
 
-  [`MultiZoneControl`](ansys.meshing.prime.MultiZoneControl.md#ansys.meshing.prime.MultiZoneControl)
-  : Returns the multizone control.
+**Returns:**
 
-* **Return type:**
+  **[`MultiZoneControl`](ansys.meshing.prime.MultiZoneControl.md#ansys.meshing.prime.MultiZoneControl)**
+
+  Returns the multizone control.
+
+**Return type:**
 
   [`MultiZoneControl`](ansys.meshing.prime.MultiZoneControl.md#ansys.meshing.prime.MultiZoneControl)
 

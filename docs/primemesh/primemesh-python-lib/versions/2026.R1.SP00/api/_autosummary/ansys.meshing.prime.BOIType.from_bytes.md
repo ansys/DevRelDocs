@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.BOIType.from_bytes"></a>
 
-#### BOIType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* BOIType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

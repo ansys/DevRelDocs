@@ -1,8 +1,6 @@
-<a id="volume-sweeping"></a>
-
 # Volume sweeping
 
-The [`VolumeSweeper`](./../api/_autosummary/ansys.meshing.prime.VolumeSweeper.md#ansys.meshing.prime.VolumeSweeper) class creates a volume mesh on 2.5D models, stacking faces
+The [`VolumeSweeper`](../api/_autosummary/ansys.meshing.prime.VolumeSweeper.md#ansys.meshing.prime.VolumeSweeper) class creates a volume mesh on 2.5D models, stacking faces
 or edge zonelets one above the other in layers. This volume sweeping technology stacks each of the input topovolumes individually.
 
 #### NOTE
@@ -15,11 +13,10 @@ The hex-dominant mesh created by volume sweeper can only be applied to 2.5D mode
 
 Volume sweeping workflow involves the following:
 
- - Create imprints of model edges on the base face.
- - Surface mesh the imprinted base face.
- - Extrude the base face mesh at the selected origin by stacking the face layer by layer along the specified direction to generate a volume mesh.
-
-![Alt text](./../images/stacker_workflow.png)
+> - Create imprints of model edges on the base face.
+> - Surface mesh the imprinted base face.
+> - Extrude the base face mesh at the selected origin by stacking the face layer by layer along the specified direction to generate a volume mesh.
+![image](../images/stacker_workflow.png)
 
 <a id="hex-dominant-meshing-for-2-5d-geometry"></a>
 
@@ -46,7 +43,7 @@ Define stacking parameters:
 #### NOTE
 Default global max size is used for stacking parameters if you are not providing the max size.
 
-Default [`lateral_defeature_tolerance`](./../api/_autosummary/ansys.meshing.prime.MeshStackerParams.lateral_defeature_tolerance.md#ansys.meshing.prime.MeshStackerParams.lateral_defeature_tolerance) and [`stacking_defeature_tolerance`](./../api/_autosummary/ansys.meshing.prime.MeshStackerParams.stacking_defeature_tolerance.md#ansys.meshing.prime.MeshStackerParams.stacking_defeature_tolerance) are set to (global min size/4).
+Default [`lateral_defeature_tolerance`](../api/_autosummary/ansys.meshing.prime.MeshStackerParams.lateral_defeature_tolerance.md#ansys.meshing.prime.MeshStackerParams.lateral_defeature_tolerance) and [`stacking_defeature_tolerance`](../api/_autosummary/ansys.meshing.prime.MeshStackerParams.stacking_defeature_tolerance.md#ansys.meshing.prime.MeshStackerParams.stacking_defeature_tolerance) are set to (global min size/4).
 
 ```python
 sweeper = prime.VolumeSweeper(model)
@@ -98,9 +95,7 @@ meshbase_result = prime.Surfer(model).mesh_topo_faces(
 )
 ```
 
-![Meshbase Result](./../images/meshbase_result.png)
-
-**Base face meshed**
+![image](../images/meshbase_result.png)
 
 Stack the base face:
 
@@ -113,6 +108,4 @@ stackbase_results = sweeper.stack_base_face(
 )
 ```
 
-![Stackbase Results](./../images/stackbase_results.png)
-
-**Stack base meshed**
+![image](../images/stackbase_results.png)

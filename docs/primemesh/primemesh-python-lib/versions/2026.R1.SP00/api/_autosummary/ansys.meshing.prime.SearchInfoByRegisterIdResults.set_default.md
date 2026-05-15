@@ -6,18 +6,22 @@
 
 Set the default values of the `SearchInfoByRegisterIdResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the retreiving information based on register id.
+
+  Error code associated with the retrieving information based on register id.
 
   **n_found: int, optional**
-  : Number of registered face elements.
+
+  Number of registered face elements.
 
   **locations_found: Iterable[float], optional**
-  : Locations of each cluster of registered face elements.
+
+  Locations of each cluster of registered face elements.
 
   **face_zonelets_found: Iterable[int], optional**
-  : Ids of the face zonelets containing atleast one registered face element.
+
+  Ids of the face zonelets containing at least one registered face element.
 
 <!-- !! processed by numpydoc !! -->

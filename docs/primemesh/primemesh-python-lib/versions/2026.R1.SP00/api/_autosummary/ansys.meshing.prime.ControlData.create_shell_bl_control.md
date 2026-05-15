@@ -6,12 +6,14 @@
 
 Create a ShellBL control.
 
-* **Returns:**
 
-  [`ShellBLControl`](ansys.meshing.prime.ShellBLControl.md#ansys.meshing.prime.ShellBLControl)
-  : ShellBL Control.
+**Returns:**
 
-* **Return type:**
+  **[`ShellBLControl`](ansys.meshing.prime.ShellBLControl.md#ansys.meshing.prime.ShellBLControl)**
+
+  ShellBL Control.
+
+**Return type:**
 
   [`ShellBLControl`](ansys.meshing.prime.ShellBLControl.md#ansys.meshing.prime.ShellBLControl)
 

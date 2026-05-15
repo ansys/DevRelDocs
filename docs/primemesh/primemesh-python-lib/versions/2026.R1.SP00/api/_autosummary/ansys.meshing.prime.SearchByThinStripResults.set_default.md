@@ -6,12 +6,14 @@
 
 Set the default values of the `SearchByThinStripResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **n_found: int, optional**
-  : Number of face elements identified as thin strips.
+
+  Number of face elements identified as thin strips.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with search thin strips operation.
+
+  Error code associated with search thin strips operation.
 
 <!-- !! processed by numpydoc !! -->

@@ -6,9 +6,10 @@
 
 Set the default values of the `CheckFaceDeviationParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **distance: float, optional**
-  : Distance above which deviated entities are collected.
+
+  Distance above which deviated entities are collected.
 
 <!-- !! processed by numpydoc !! -->

@@ -6,31 +6,39 @@
 
 Provides information about the definition of a bounding box.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `BoundingBox` object with default parameters.
+
+  Model to create a `BoundingBox` object with default parameters.
 
   **xmin: float, optional**
-  : Minimal X coordinate of the bounding box.
+
+  Minimal X coordinate of the bounding box.
 
   **ymin: float, optional**
-  : Minimal Y coordinate of the bounding box.
+
+  Minimal Y coordinate of the bounding box.
 
   **zmin: float, optional**
-  : Minimal Z coordinate of the bounding box.
+
+  Minimal Z coordinate of the bounding box.
 
   **xmax: float, optional**
-  : Maximal X coordinate of the bounding box.
+
+  Maximal X coordinate of the bounding box.
 
   **ymax: float, optional**
-  : Maximal Y coordinate of the bounding box.
+
+  Maximal Y coordinate of the bounding box.
 
   **zmax: float, optional**
-  : Maximal Z coordinate of the bounding box.
+
+  Maximal Z coordinate of the bounding box.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `BoundingBox` object with provided parameters.
+
+  JSON dictionary to create a `BoundingBox` object with provided parameters.
 
 ### Examples
 

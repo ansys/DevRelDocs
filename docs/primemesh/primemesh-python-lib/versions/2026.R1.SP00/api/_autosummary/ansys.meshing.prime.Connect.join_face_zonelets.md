@@ -6,26 +6,31 @@
 
 Joins a set of face zones with another set of face zones.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : Id of the part.
+
+  Id of the part.
 
   **face_zonelet_ids**
-  : Face zonelets to be joined.
+
+  Face zonelets to be joined.
 
   **with_face_zonelet_ids**
-  : Face zonelets to be joined with.
+
+  Face zonelets to be joined with.
 
   **params**
-  : Parameters for join.
 
-* **Returns:**
+  Parameters for join.
 
-  [`ConnectResults`](ansys.meshing.prime.ConnectResults.md#ansys.meshing.prime.ConnectResults)
-  : Returns the ConnectResults.
+**Returns:**
 
-* **Return type:**
+  **[`ConnectResults`](ansys.meshing.prime.ConnectResults.md#ansys.meshing.prime.ConnectResults)**
+
+  Returns the ConnectResults.
+
+**Return type:**
 
   [`ConnectResults`](ansys.meshing.prime.ConnectResults.md#ansys.meshing.prime.ConnectResults)
 

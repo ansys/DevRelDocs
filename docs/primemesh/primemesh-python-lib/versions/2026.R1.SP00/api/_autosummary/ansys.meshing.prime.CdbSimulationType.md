@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.CdbSimulationType"></a>
 
-### *class* ansys.meshing.prime.CdbSimulationType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.CdbSimulationType(\*values)
 
 Simulation Type for CDB export.
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.LSDynaAnalysisType"></a>
 
-### *class* ansys.meshing.prime.LSDynaAnalysisType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.LSDynaAnalysisType(\*values)
 
 Provides the LS-DYNA analysis type.
 

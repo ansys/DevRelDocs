@@ -6,21 +6,26 @@
 
 Set the default values of the `StitchParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **tolerance: float, optional**
-  : Distance tolerance for stitching boundaries.
+
+  Distance tolerance for stitching boundaries.
 
   **use_absolute_tolerance: bool, optional**
-  : True if tolerance provided is absolute value.
+
+  True if tolerance provided is absolute value.
 
   **remesh: bool, optional**
-  : Remesh at stitch connection.
+
+  Remesh at stitch connection.
 
   **enable_multi_threading: bool, optional**
-  : Option to run stitch in parallel using multithread.
+
+  Option to run stitch in parallel using multithread.
 
   **type: StitchType, optional**
-  : Stitch type depending on nature of surface boundary edges to be stitched.
+
+  Stitch type depending on nature of surface boundary edges to be stitched.
 
 <!-- !! processed by numpydoc !! -->

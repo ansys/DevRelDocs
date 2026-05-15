@@ -8,10 +8,11 @@ The size field is computed based on the size control defined.
 
 You can remesh surfaces and edges based on the size field.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create SizeField object.
+
+  Server model to create SizeField object.
 
 <!-- !! processed by numpydoc !! -->
 

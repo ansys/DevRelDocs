@@ -6,22 +6,27 @@
 
 Parameters used for the merge boundary nodes operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `MergeBoundaryNodesParams` object with default parameters.
+
+  Model to create a `MergeBoundaryNodesParams` object with default parameters.
 
   **tolerance: float, optional**
-  : Distance tolerance for merging boundary nodes.
+
+  Distance tolerance for merging boundary nodes.
 
   **use_absolute_tolerance: bool, optional**
-  : Indicates whether the tolerance provided is an absolute value or not.
+
+  Indicates whether the tolerance provided is an absolute value or not.
 
   **merge_node_type: MergeNodeType, optional**
-  : Type of nodes to be merged.
+
+  Type of nodes to be merged.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `MergeBoundaryNodesParams` object with provided parameters.
+
+  JSON dictionary to create a `MergeBoundaryNodesParams` object with provided parameters.
 
 ### Examples
 

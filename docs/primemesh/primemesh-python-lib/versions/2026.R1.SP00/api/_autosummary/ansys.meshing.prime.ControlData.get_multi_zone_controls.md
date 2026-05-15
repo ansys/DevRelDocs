@@ -6,12 +6,13 @@
 
 Get ids of all the MultiZone controls.
 
-* **Returns:**
+
+**Returns:**
 
   `Iterable`[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
-  : Return all the MultiZone controls ids.
+  Return all the MultiZone controls ids.
 
-* **Return type:**
+**Return type:**
 
   [`Iterable`](https://docs.python.org/3.11/library/typing.html#typing.Iterable)[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
 

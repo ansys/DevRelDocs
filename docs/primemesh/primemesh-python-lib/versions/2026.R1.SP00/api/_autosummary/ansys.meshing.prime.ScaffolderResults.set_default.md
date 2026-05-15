@@ -6,12 +6,14 @@
 
 Set the default values of the `ScaffolderResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **n_incomplete_topo_faces: int, optional**
-  : Number of topofaces failed in scaffold operation.
+
+  Number of topofaces failed in scaffold operation.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with scaffold operation.
+
+  Error code associated with scaffold operation.
 
 <!-- !! processed by numpydoc !! -->

@@ -6,20 +6,23 @@
 
 Separates the given topofaces having interior edges using the given VT Composer parameters.
 
-* **Parameters:**
+**Parameters:**
 
   **topo_faces**
-  : Ids of input topofaces.
+
+  Ids of input topofaces.
 
   **params**
-  : VT composer parameters.
 
-* **Returns:**
+  VT composer parameters.
 
-  [`VTComposerResults`](ansys.meshing.prime.VTComposerResults.md#ansys.meshing.prime.VTComposerResults)
-  : Return results in VTComposerResults.
+**Returns:**
 
-* **Return type:**
+  **[`VTComposerResults`](ansys.meshing.prime.VTComposerResults.md#ansys.meshing.prime.VTComposerResults)**
+
+  Return results in VTComposerResults.
+
+**Return type:**
 
   [`VTComposerResults`](ansys.meshing.prime.VTComposerResults.md#ansys.meshing.prime.VTComposerResults)
 

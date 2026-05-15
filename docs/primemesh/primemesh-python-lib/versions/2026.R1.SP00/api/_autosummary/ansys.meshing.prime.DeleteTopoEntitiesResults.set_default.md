@@ -6,9 +6,10 @@
 
 Set the default values of the `DeleteTopoEntitiesResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code associated with delete topoentities.
+
+  Error code associated with delete topoentities.
 
 <!-- !! processed by numpydoc !! -->

@@ -6,19 +6,23 @@
 
 Parameters to control prism mesh generation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `PrismParams` object with default parameters.
+
+  Model to create a `PrismParams` object with default parameters.
 
   **stair_step: PrismStairStep, optional**
-  : Prism stairstep parameters.
+
+  Prism stairstep parameters.
 
   **no_imprint_zonelets: Iterable[int], optional**
-  : Option to specify zonelets to skip prism imprint.
+
+  Option to specify zonelets to skip prism imprint.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `PrismParams` object with provided parameters.
+
+  JSON dictionary to create a `PrismParams` object with provided parameters.
 
 ### Examples
 

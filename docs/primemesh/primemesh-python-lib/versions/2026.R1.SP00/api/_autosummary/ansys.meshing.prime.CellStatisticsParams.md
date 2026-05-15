@@ -6,16 +6,19 @@
 
 Parameters used to calculate cell statistics.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `CellStatisticsParams` object with default parameters.
+
+  Model to create a `CellStatisticsParams` object with default parameters.
 
   **get_volume: bool, optional**
-  : Provides option to compute and get cumulative cell volume of all element.
+
+  Provides option to compute and get cumulative cell volume of all element.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `CellStatisticsParams` object with provided parameters.
+
+  JSON dictionary to create a `CellStatisticsParams` object with provided parameters.
 
 ### Examples
 

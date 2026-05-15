@@ -8,10 +8,11 @@ VolumeMeshTool allows you to check grid and improve volume mesh quality.
 
 VolumeMeshTool provides various volume mesh improvement algorithms.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create VolumeMeshTool object.
+
+  Server model to create VolumeMeshTool object.
 
 <!-- !! processed by numpydoc !! -->
 

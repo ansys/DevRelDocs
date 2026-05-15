@@ -9,10 +9,9 @@ Get python standard logger from PyPrimeMesh’s logger instance.
 PyPrimeMesh’s python standard logger instance can be used to control
 the verbosity of messages printed by PyPrimeMesh and more.
 
-* **Returns:**
-
+**Returns**
   [`logging.Logger`](https://docs.python.org/3.11/library/logging.html#logging.Logger)
-  : PyPrimeMesh’s python standard logger instance.
+  PyPrimeMesh’s python standard logger instance.
 
 ### Examples
 

@@ -6,34 +6,43 @@
 
 Growth parameters for prism control.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `PrismControlGrowthParams` object with default parameters.
+
+  Model to create a `PrismControlGrowthParams` object with default parameters.
 
   **offset_type: PrismControlOffsetType, optional**
-  : Offset type controls the method that is used to compute prism layer heights. The following options are supported.The aspect ratio option takes first aspect ratio, number of layers and growth rate. It ignores first height as input.The uniform option takes first height, number of layers and growth rate. It ignores first aspect ratio as input.Aspect ratio is ratio of prism base to height.
+
+  Offset type controls the method that is used to compute prism layer heights. The following options are supported.The aspect ratio option takes first aspect ratio, number of layers and growth rate. It ignores first height as input.The uniform option takes first height, number of layers and growth rate. It ignores first aspect ratio as input.Aspect ratio is ratio of prism base to height.
 
   **n_layers: int, optional**
-  : Number of prism layers to be generated. It is used for all prism control offset types.
+
+  Number of prism layers to be generated. It is used for all prism control offset types.
 
   **growth_rate: float, optional**
-  : Growth rate to be used to compute prism layer heights. It is used when prism control offset type is ASPECTRATIO or UNIFORM.
+
+  Growth rate to be used to compute prism layer heights. It is used when prism control offset type is ASPECTRATIO or UNIFORM.
 
   **first_height: float, optional**
-  : Height to be used for first layer and adjust following layer height based on other settings. It is used when prism control offset type is UNIFORM.
+
+  Height to be used for first layer and adjust following layer height based on other settings. It is used when prism control offset type is UNIFORM.
 
   **first_aspect_ratio: float, optional**
-  : Aspect ratio to be used to compute first layer height. It is used only when prism control offset type is ASPECTRATIO.
+
+  Aspect ratio to be used to compute first layer height. It is used only when prism control offset type is ASPECTRATIO.
 
   **last_aspect_ratio: float, optional**
-  : Apsect ratio of the last layer. The heights of the other layers is computed based on number of layers and first height. This is used only when prism control offset type is LASTRATIO.
+
+  Apsect ratio of the last layer. The heights of the other layers is computed based on number of layers and first height. This is used only when prism control offset type is LASTRATIO.
 
   **min_aspect_ratio: float, optional**
-  : Minimum apsect ratio limit to be used for all the layers. This condition is respected in all offset types.
+
+  Minimum apsect ratio limit to be used for all the layers. This condition is respected in all offset types.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `PrismControlGrowthParams` object with provided parameters.
+
+  JSON dictionary to create a `PrismControlGrowthParams` object with provided parameters.
 
 ### Examples
 

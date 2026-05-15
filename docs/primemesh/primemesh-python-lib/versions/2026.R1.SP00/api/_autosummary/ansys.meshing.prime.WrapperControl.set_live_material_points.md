@@ -6,10 +6,11 @@
 
 Set live material points to the wrapper control.
 
-* **Parameters:**
+**Parameters:**
 
   **material_point_names**
-  : List of live material points.
+
+  List of live material points.
 
 ### Examples
 

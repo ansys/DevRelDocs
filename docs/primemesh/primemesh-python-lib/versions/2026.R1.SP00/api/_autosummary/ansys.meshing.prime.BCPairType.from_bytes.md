@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.BCPairType.from_bytes"></a>
 
-#### BCPairType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* BCPairType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

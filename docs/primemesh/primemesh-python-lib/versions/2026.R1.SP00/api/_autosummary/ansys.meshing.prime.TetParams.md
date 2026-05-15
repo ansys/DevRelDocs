@@ -6,16 +6,19 @@
 
 Parameters to control tetrahedral mesh generation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `TetParams` object with default parameters.
+
+  Model to create a `TetParams` object with default parameters.
 
   **quadratic: bool, optional**
-  : Option to generate quadratic tetrahedral mesh. It is not supported with parallel meshing. It is only supported with pure tetrahedral mesh.
+
+  Option to generate quadratic tetrahedral mesh. It is not supported with parallel meshing. It is only supported with pure tetrahedral mesh.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `TetParams` object with provided parameters.
+
+  JSON dictionary to create a `TetParams` object with provided parameters.
 
 ### Examples
 

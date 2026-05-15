@@ -6,16 +6,19 @@
 
 Results of file read operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `FileReadResults` object with default parameters.
+
+  Model to create a `FileReadResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code if file read operation was unsuccessful.
+
+  Error code if file read operation was unsuccessful.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `FileReadResults` object with provided parameters.
+
+  JSON dictionary to create a `FileReadResults` object with provided parameters.
 
 ### Examples
 

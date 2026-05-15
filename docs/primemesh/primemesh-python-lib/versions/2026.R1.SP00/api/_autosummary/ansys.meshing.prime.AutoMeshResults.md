@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="automeshresults"></a>
-
 # AutoMeshResults
 
 <a id="ansys.meshing.prime.AutoMeshResults"></a>
@@ -10,22 +6,27 @@
 
 Results of volume meshing.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `AutoMeshResults` object with default parameters.
+
+  Model to create a `AutoMeshResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Provides error message when automesh fails.
+
+  Provides error message when automesh fails.
 
   **warning_codes: List[WarningCode], optional**
-  : Warning codes associated with the operation.
+
+  Warning codes associated with the operation.
 
   **error_locations: Iterable[float], optional**
-  : Error location coordinates returned when automesh fails.
+
+  Error location coordinates returned when automesh fails.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `AutoMeshResults` object with provided parameters.
+
+  JSON dictionary to create a `AutoMeshResults` object with provided parameters.
 
 ### Examples
 

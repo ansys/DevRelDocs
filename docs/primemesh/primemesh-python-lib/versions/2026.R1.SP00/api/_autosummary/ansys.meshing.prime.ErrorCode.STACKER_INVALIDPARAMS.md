@@ -1,5 +1,3 @@
-<a id="ansys-meshing-prime-errorcode-stacker-invalidparams"></a>
-
 # ansys.meshing.prime.ErrorCode.STACKER_INVALIDPARAMS
 
 <a id="ansys.meshing.prime.ErrorCode.STACKER_INVALIDPARAMS"></a>

@@ -6,15 +6,18 @@
 
 Set the default values of the `IGAResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code if IGA operation is unsuccessful.
+
+  Error code if IGA operation is unsuccessful.
 
   **warning_code: WarningCode, optional**
-  : Warning code if IGA operation is partially successful.
+
+  Warning code if IGA operation is partially successful.
 
   **spline_ids: Iterable[int], optional**
-  : Ids of the created spline.
+
+  Ids of the created spline.
 
 <!-- !! processed by numpydoc !! -->

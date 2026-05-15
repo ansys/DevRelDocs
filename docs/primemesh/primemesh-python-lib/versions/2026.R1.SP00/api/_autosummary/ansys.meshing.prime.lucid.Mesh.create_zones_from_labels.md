@@ -27,14 +27,16 @@ For example, if “LabelA” and “LabelB” have overlapping TopoFaces,
 these zones are created: `"LabelA"`, `"LabelB"`, and
 `"LabelA_LabelB"` for the overlap.
 
-* **Parameters:**
+**Parameters:**
 
   **label_expression**
-  : Expression for the labels to convert to zones. The
+
+  Expression for the labels to convert to zones. The
     default is `None`.
 
   **conversion_method**
-  : Method for converting the labels to zones. The default
+
+  Method for converting the labels to zones. The default
     is `LabelToZoneMethod.SIMPLE`.
 
 ### Examples

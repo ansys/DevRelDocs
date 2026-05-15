@@ -6,12 +6,14 @@
 
 Set the default values of the `ExtractedFeatureIds` object.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id: int, optional**
-  : Id of the part from which edge zonelets are extracted.
+
+  Id of the part from which edge zonelets are extracted.
 
   **new_edge_zonelets: Iterable[int], optional**
-  : Ids of new edge zonelets extracted.
+
+  Ids of new edge zonelets extracted.
 
 <!-- !! processed by numpydoc !! -->

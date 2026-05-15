@@ -4,6 +4,6 @@
 
 #### LengthUnit.MM *= 2*
 
-Denotes length unit is milimeters.
+Denotes length unit is millimeters.
 
 <!-- !! processed by numpydoc !! -->

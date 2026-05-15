@@ -6,20 +6,23 @@
 
 Converts fully hex mesh with topology to spline.
 
-* **Parameters:**
+**Parameters:**
 
   **input_scope**
-  : Scope definition for input hex mesh.
+
+  Scope definition for input hex mesh.
 
   **hex_to_spline_params**
-  : Parameters to convert hex to spline.
 
-* **Returns:**
+  Parameters to convert hex to spline.
 
-  [`IGAResults`](ansys.meshing.prime.IGAResults.md#ansys.meshing.prime.IGAResults)
-  : Returns the IGAResults structure.
+**Returns:**
 
-* **Return type:**
+  **[`IGAResults`](ansys.meshing.prime.IGAResults.md#ansys.meshing.prime.IGAResults)**
+
+  Returns the IGAResults structure.
+
+**Return type:**
 
   [`IGAResults`](ansys.meshing.prime.IGAResults.md#ansys.meshing.prime.IGAResults)
 

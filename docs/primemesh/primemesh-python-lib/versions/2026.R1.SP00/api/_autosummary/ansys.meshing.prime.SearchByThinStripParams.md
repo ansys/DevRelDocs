@@ -6,28 +6,35 @@
 
 Parameters to search by thin strip of face elements.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SearchByThinStripParams` object with default parameters.
+
+  Model to create a `SearchByThinStripParams` object with default parameters.
 
   **strip_height_limit: float, optional**
-  : Absolute height limit to ignore strips with height more than provided limit.
+
+  Absolute height limit to ignore strips with height more than provided limit.
 
   **quality_limit: float, optional**
-  : Quality limit used for search strip of face elements.
+
+  Quality limit used for search strip of face elements.
 
   **face_quality_measure: FaceQualityMeasure, optional**
-  : Quality measure used for search strip of face elements.
+
+  Quality measure used for search strip of face elements.
 
   **feature_type: SurfaceFeatureType, optional**
-  : Used to identify thin strip of face elements based on the provided feature type.
+
+  Used to identify thin strip of face elements based on the provided feature type.
 
   **feature_angle: float, optional**
-  : Angle used to identify angle based features.
+
+  Angle used to identify angle based features.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SearchByThinStripParams` object with provided parameters.
+
+  JSON dictionary to create a `SearchByThinStripParams` object with provided parameters.
 
 ### Examples
 

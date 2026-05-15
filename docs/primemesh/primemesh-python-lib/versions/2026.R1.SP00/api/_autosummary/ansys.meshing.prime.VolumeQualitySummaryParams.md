@@ -6,22 +6,27 @@
 
 Parameters to control volume quality summary results.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `VolumeQualitySummaryParams` object with default parameters.
+
+  Model to create a `VolumeQualitySummaryParams` object with default parameters.
 
   **cell_quality_measures: List[CellQualityMeasure], optional**
-  : List of cell quality measures for volume quality diagnostics.
+
+  List of cell quality measures for volume quality diagnostics.
 
   **scope: ScopeDefinition, optional**
-  : Scope of the cell zonelets for volume quality diagnostics.
+
+  Scope of the cell zonelets for volume quality diagnostics.
 
   **quality_limit: Iterable[float], optional**
-  : Quality limit per cell quality measure. If the quality limit is not specified, the default quality limit is used.
+
+  Quality limit per cell quality measure. If the quality limit is not specified, the default quality limit is used.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `VolumeQualitySummaryParams` object with provided parameters.
+
+  JSON dictionary to create a `VolumeQualitySummaryParams` object with provided parameters.
 
 ### Examples
 

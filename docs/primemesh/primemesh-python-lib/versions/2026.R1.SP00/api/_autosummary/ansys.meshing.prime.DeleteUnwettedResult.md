@@ -6,16 +6,19 @@
 
 Results structure associated with delete unwetted surfaces operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `DeleteUnwettedResult` object with default parameters.
+
+  Model to create a `DeleteUnwettedResult` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with delete unwetted surfaces operation.
+
+  Error code associated with delete unwetted surfaces operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `DeleteUnwettedResult` object with provided parameters.
+
+  JSON dictionary to create a `DeleteUnwettedResult` object with provided parameters.
 
 ### Examples
 

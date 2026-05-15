@@ -6,9 +6,10 @@
 
 Set the default values of the `ExportSTLParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **part_ids: Iterable[int], optional**
-  : Ids of parts to export.
+
+  Ids of parts to export.
 
 <!-- !! processed by numpydoc !! -->

@@ -6,19 +6,23 @@
 
 Provide functions for material point creation, deletion and queries.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create MaterialPointManager object.
+
+  Server model to create MaterialPointManager object.
 
   **id**
-  : Id of the MaterialPointManager.
+
+  Id of the MaterialPointManager.
 
   **object_id**
-  : Object id of the MaterialPointManager.
+
+  Object id of the MaterialPointManager.
 
   **name**
-  : Name of the MaterialPointManager.
+
+  Name of the MaterialPointManager.
 
 <!-- !! processed by numpydoc !! -->
 

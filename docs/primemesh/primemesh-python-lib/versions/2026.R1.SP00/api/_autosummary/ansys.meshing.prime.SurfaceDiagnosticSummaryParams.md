@@ -6,28 +6,35 @@
 
 Parameters to control surface diagnostics summary results.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SurfaceDiagnosticSummaryParams` object with default parameters.
+
+  Model to create a `SurfaceDiagnosticSummaryParams` object with default parameters.
 
   **scope: ScopeDefinition, optional**
-  : Scope the face zonelets for surface diagnostics.
+
+  Scope the face zonelets for surface diagnostics.
 
   **compute_self_intersections: bool, optional**
-  : Control to identify face intersections are present or not.
+
+  Control to identify face intersections are present or not.
 
   **compute_free_edges: bool, optional**
-  : Control to identify free face edges are present or not.
+
+  Control to identify free face edges are present or not.
 
   **compute_multi_edges: bool, optional**
-  : Control to identify multi face edges are present or not.
+
+  Control to identify multi face edges are present or not.
 
   **compute_duplicate_faces: bool, optional**
-  : Control to identify duplicate faces are present or not.
+
+  Control to identify duplicate faces are present or not.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SurfaceDiagnosticSummaryParams` object with provided parameters.
+
+  JSON dictionary to create a `SurfaceDiagnosticSummaryParams` object with provided parameters.
 
 ### Examples
 

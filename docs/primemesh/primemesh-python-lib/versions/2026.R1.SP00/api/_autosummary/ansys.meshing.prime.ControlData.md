@@ -9,19 +9,23 @@ Contains all controls.
 This class contains all controls, including size controls, prism controls, multizone controls
 and wrapper controls.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create ControlData object.
+
+  Server model to create ControlData object.
 
   **id**
-  : Id of the ControlData.
+
+  Id of the ControlData.
 
   **object_id**
-  : Object id of the ControlData.
+
+  Object id of the ControlData.
 
   **name**
-  : Name of the ControlData.
+
+  Name of the ControlData.
 
 <!-- !! processed by numpydoc !! -->
 

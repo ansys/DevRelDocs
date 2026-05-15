@@ -4,7 +4,7 @@
 
 #### *property* TetMeshSplineParams.decimation_factor *: [float](https://docs.python.org/3.11/library/functions.html#float)*
 
-Decimation factor used in meshing of the solid spline.
+Decimation factor used in meshing of the trimmed solid spline.
 
 **This is a beta parameter**. **The behavior and name may change in the future**.
 

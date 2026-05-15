@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.MaterialPointType.from_bytes"></a>
 
-#### MaterialPointType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* MaterialPointType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

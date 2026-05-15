@@ -6,9 +6,10 @@
 
 Set the default values of the `SplitParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **split_ratio: float, optional**
-  : Minimum ratio of split edge length to original edge length.
+
+  Minimum ratio of split edge length to original edge length.
 
 <!-- !! processed by numpydoc !! -->

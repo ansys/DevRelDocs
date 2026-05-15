@@ -6,15 +6,18 @@
 
 Set the default values of the `MergePartsResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the failure of operation.
+
+  Error code associated with the failure of operation.
 
   **merged_part_assigned_name: str, optional**
-  : Name assigned to merged part. Suffix is added to suggested name if the name not available.
+
+  Name assigned to merged part. Suffix is added to suggested name if the name not available.
 
   **merged_part_id: int, optional**
-  : Id assigned to merged part.
+
+  Id assigned to merged part.
 
 <!-- !! processed by numpydoc !! -->

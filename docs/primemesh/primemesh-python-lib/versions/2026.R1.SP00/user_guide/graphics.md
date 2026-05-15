@@ -13,9 +13,9 @@ This code shows how to display the model using the `Graphics` class:
 >>> display.show()
 ```
 
-![Graphics](./../images/graphics.png)
+![image](../images/graphics.png)
 
-Using the [`ScopeDefinition`](./../api/_autosummary/ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition) class allows
+Using the [`ScopeDefinition`](../api/_autosummary/ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition) class allows
 you to limit the display to particular regions of the model:
 
 ```pycon
@@ -27,7 +27,7 @@ you to limit the display to particular regions of the model:
 >>> display.show()
 ```
 
-![Graphics Part](./../images/graphics_part.png)
+![image](../images/graphics_part.png)
 
 Selections can be made of displayed objects. If selections in the window are made,
 information about them can be printed to the console. Selections can also be hidden.
@@ -35,4 +35,4 @@ information about them can be printed to the console. Selections can also be hid
 These graphics buttons are provided to help navigate the model and to
 carry out basic verifications:
 
-![Graphics buttton](./../images/graphics_buttons(2).png)
+![image](../images/graphics_buttons(2).png)

@@ -6,12 +6,13 @@
 
 Computes the volumetric size field using given size control ids.
 
-* **Parameters:**
+**Parameters:**
 
   **size_control_ids**
-  : Ids of size controls.
 
-* **Return type:**
+  Ids of size controls.
+
+**Return type:**
 
   [`VolumetricSizeFieldComputeResults`](ansys.meshing.prime.VolumetricSizeFieldComputeResults.md#ansys.meshing.prime.VolumetricSizeFieldComputeResults)
 

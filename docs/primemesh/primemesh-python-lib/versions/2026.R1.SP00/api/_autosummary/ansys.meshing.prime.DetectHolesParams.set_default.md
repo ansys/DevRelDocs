@@ -6,21 +6,26 @@
 
 Set the default values of the `DetectHolesParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **max_radius_circular_holes: float, optional**
-  : Maximum radius of circular holes.
+
+  Maximum radius of circular holes.
 
   **min_radius_circular_holes: float, optional**
-  : Minimum radius of circular holes.
+
+  Minimum radius of circular holes.
 
   **max_hole_length: float, optional**
-  : Maximum length of holes.
+
+  Maximum length of holes.
 
   **min_hole_length: float, optional**
-  : Minimum length of holes.
+
+  Minimum length of holes.
 
   **allow_curved_topo_faces: bool, optional**
-  : Option to allow holes in curved topoface.
+
+  Option to allow holes in curved topoface.
 
 <!-- !! processed by numpydoc !! -->

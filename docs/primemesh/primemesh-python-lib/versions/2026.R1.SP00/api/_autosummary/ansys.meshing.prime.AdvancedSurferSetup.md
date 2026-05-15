@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.AdvancedSurferSetup"></a>
 
-### *class* ansys.meshing.prime.AdvancedSurferSetup(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.AdvancedSurferSetup(\*values)
 
 Define advanced settings for remeshing operation.
 

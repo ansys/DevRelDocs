@@ -8,17 +8,20 @@ Sets the scope for periodic control to evaluate.
 
 Periodic Control uses scope to evaluate entities for which periodic surface recovery must be carried out.
 
-* **Parameters:**
+**Parameters:**
 
   **scope**
-  : ScopeDefinition to scope entities for periodic surface recovery.
 
-* **Returns:**
+  ScopeDefinition to scope entities for periodic surface recovery.
 
-  [`SetScopeResults`](ansys.meshing.prime.SetScopeResults.md#ansys.meshing.prime.SetScopeResults)
-  : Returns the SetScopeResults.
-  
-* **Return type:**
+**Returns:**
+
+  **[`SetScopeResults`](ansys.meshing.prime.SetScopeResults.md#ansys.meshing.prime.SetScopeResults)**
+
+  Returns the SetScopeResults.
+
+**Return type:**
+
   [`SetScopeResults`](ansys.meshing.prime.SetScopeResults.md#ansys.meshing.prime.SetScopeResults)
 
 ### Examples

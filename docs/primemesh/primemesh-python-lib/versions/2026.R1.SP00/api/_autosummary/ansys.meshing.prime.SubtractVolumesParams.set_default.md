@@ -6,15 +6,18 @@
 
 Set the default values of the `SubtractVolumesParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **ignore_face_zonelets: Iterable[int], optional**
-  : Face zonelet ids that subtract volumes should not remove (for example, periodic or fluid cap zonelets). If ignore face zonelets are provided, then the target volumes after subtract operation need to be recomputed.
+
+  Face zonelet ids that subtract volumes should not remove (for example, periodic or fluid cap zonelets). If ignore face zonelets are provided, then the target volumes after subtract operation need to be recomputed.
 
   **check_cutters: bool, optional**
-  : Option to manage intersecting cutter volumes. When check cutters is False an error message is provided if multiple cutters intersect. Overlapping cutter volumes are not supported.
+
+  Option to manage intersecting cutter volumes. When check cutters is False an error message is provided if multiple cutters intersect. Overlapping cutter volumes are not supported.
 
   **keep_cutters: bool, optional**
-  : Option to retain cutter volumes.
+
+  Option to retain cutter volumes.
 
 <!-- !! processed by numpydoc !! -->

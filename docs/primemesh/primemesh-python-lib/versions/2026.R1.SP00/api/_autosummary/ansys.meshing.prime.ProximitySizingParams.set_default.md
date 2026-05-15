@@ -6,24 +6,30 @@
 
 Set the default values of the `ProximitySizingParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **min: float, optional**
-  : Minimum size used for computing edge and face size using proximity size control.
+
+  Minimum size used for computing edge and face size using proximity size control.
 
   **max: float, optional**
-  : Maximum size used for computing edge and face size using proximity size control.
+
+  Maximum size used for computing edge and face size using proximity size control.
 
   **growth_rate: float, optional**
-  : Growth rate used for transitioning from one element size to neighbor element size.
+
+  Growth rate used for transitioning from one element size to neighbor element size.
 
   **elements_per_gap: float, optional**
-  : The number of elements per gap can be a real value.  This has the effect of stretching face elements with larger sizes along side faces,  or gaps, thereby reducing the overall face count, and ultimately the cell count.
+
+  The number of elements per gap can be a real value.  This has the effect of stretching face elements with larger sizes along side faces,  or gaps, thereby reducing the overall face count, and ultimately the cell count.
 
   **ignore_self_proximity: bool, optional**
-  : Ignore proximity within zonelets.
+
+  Ignore proximity within zonelets.
 
   **ignore_orientation: bool, optional**
-  : The ignore orientation option can be used to ignore the face normal orientation during the proximity calculation. The default is false.
+
+  The ignore orientation option can be used to ignore the face normal orientation during the proximity calculation. The default is false.
 
 <!-- !! processed by numpydoc !! -->

@@ -6,27 +6,32 @@
 
 Assigns a region id to the cells in target cell zonelets of target part id. The region id is based on their location within source part ids.
 
-* **Parameters:**
+**Parameters:**
 
   **target_part_id**
-  : Id of the target part.
+
+  Id of the target part.
 
   **target_cell_zonelets**
-  : Ids of cell zonelets to be split into regions.
+
+  Ids of cell zonelets to be split into regions.
 
   **source_part_ids**
-  : Ids of solids used as a reference for assigning regions.
+
+  Ids of solids used as a reference for assigning regions.
 
   **small_regions_volume_fraction**
-  : Regions with volumes smaller than a specified fraction of the total volume are merged into their largest adjacent region.
+
+  Regions with volumes smaller than a specified fraction of the total volume are merged into their largest adjacent region.
     This helps to eliminate isolated cells and thin regions from the output.
 
-* **Returns:**
+**Returns:**
 
-  [`VolumeMeshToolResults`](ansys.meshing.prime.VolumeMeshToolResults.md#ansys.meshing.prime.VolumeMeshToolResults)
-  : Returns the VolumeMeshToolResults.
+  **[`VolumeMeshToolResults`](ansys.meshing.prime.VolumeMeshToolResults.md#ansys.meshing.prime.VolumeMeshToolResults)**
 
-* **Return type:**
+  Returns the VolumeMeshToolResults.
+
+**Return type:**
 
   [`VolumeMeshToolResults`](ansys.meshing.prime.VolumeMeshToolResults.md#ansys.meshing.prime.VolumeMeshToolResults)
 

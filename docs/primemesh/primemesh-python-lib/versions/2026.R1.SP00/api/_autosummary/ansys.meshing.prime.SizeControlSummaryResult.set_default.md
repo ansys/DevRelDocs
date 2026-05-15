@@ -6,9 +6,10 @@
 
 Set the default values of the `SizeControlSummaryResult` object.
 
-* **Parameters:**
+**Parameters:**
 
   **message: str, optional**
-  : Size control summary text.
+
+  Size control summary text.
 
 <!-- !! processed by numpydoc !! -->

@@ -6,20 +6,23 @@
 
 Export IGA LS-DYNA Keyword file for solid, surface splines.
 
-* **Parameters:**
+**Parameters:**
 
   **file_name**
-  : Name of the file.
+
+  Name of the file.
 
   **params**
-  : Parameters for IGA LS-DYNA Keyword file export.
 
-* **Returns:**
+  Parameters for IGA LS-DYNA Keyword file export.
 
-  [`ExportLSDynaIGAResults`](ansys.meshing.prime.ExportLSDynaIGAResults.md#ansys.meshing.prime.ExportLSDynaIGAResults)
-  : Returns ExportLSDynaIGAResults.
+**Returns:**
 
-* **Return type:**
+  **[`ExportLSDynaIGAResults`](ansys.meshing.prime.ExportLSDynaIGAResults.md#ansys.meshing.prime.ExportLSDynaIGAResults)**
+
+  Returns ExportLSDynaIGAResults.
+
+**Return type:**
 
   [`ExportLSDynaIGAResults`](ansys.meshing.prime.ExportLSDynaIGAResults.md#ansys.meshing.prime.ExportLSDynaIGAResults)
 

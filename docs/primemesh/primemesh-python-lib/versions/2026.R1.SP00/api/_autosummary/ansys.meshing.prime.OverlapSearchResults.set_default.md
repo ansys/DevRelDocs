@@ -6,15 +6,18 @@
 
 Set the default values of the `OverlapSearchResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **n_pairs: int, optional**
-  : Number of pairs.
+
+  Number of pairs.
 
   **overlap_pairs: List[OverlapPairs], optional**
-  : Ids corresponding to pairs of overlapping face zonelets.
+
+  Ids corresponding to pairs of overlapping face zonelets.
 
   **error_code: ErrorCode, optional**
-  : Error Code associated with failure of operation.
+
+  Error Code associated with failure of operation.
 
 <!-- !! processed by numpydoc !! -->

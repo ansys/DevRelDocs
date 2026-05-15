@@ -6,12 +6,14 @@
 
 Set the default values of the `ExtractTopoVolumesResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **volumes: Iterable[int], optional**
-  : Ids of extracted flow topovolumes.
+
+  Ids of extracted flow topovolumes.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the failure of operation.
+
+  Error code associated with the failure of operation.
 
 <!-- !! processed by numpydoc !! -->

@@ -6,17 +6,19 @@
 
 Set leak preventions to the wrapper control.
 
-* **Parameters:**
+**Parameters:**
 
   **params**
-  : List of leak prevention parameters.
 
-* **Returns:**
+  List of leak prevention parameters.
 
-  [`SetLeakPreventionsResults`](ansys.meshing.prime.SetLeakPreventionsResults.md#ansys.meshing.prime.SetLeakPreventionsResults)
-  : Return the set leak prevention results.
+**Returns:**
 
-* **Return type:**
+  **[`SetLeakPreventionsResults`](ansys.meshing.prime.SetLeakPreventionsResults.md#ansys.meshing.prime.SetLeakPreventionsResults)**
+
+  Return the set leak prevention results.
+
+**Return type:**
 
   [`SetLeakPreventionsResults`](ansys.meshing.prime.SetLeakPreventionsResults.md#ansys.meshing.prime.SetLeakPreventionsResults)
 

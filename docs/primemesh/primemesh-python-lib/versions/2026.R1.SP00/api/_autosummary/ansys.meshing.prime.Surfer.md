@@ -9,13 +9,15 @@ Generates surface mesh.
 Performs surface meshing using various surface meshing algorithms on topofaces or face zonelets.
 For example, constant size or volumetric size surface meshing.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create Surfer object.
+
+  Server model to create Surfer object.
 
   **part_id**
-  : Id of the part.
+
+  Id of the part.
 
 <!-- !! processed by numpydoc !! -->
 

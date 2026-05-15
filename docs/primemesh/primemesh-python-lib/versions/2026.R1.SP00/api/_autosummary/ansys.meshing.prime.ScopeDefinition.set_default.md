@@ -6,21 +6,26 @@
 
 Set the default values of the `ScopeDefinition` object.
 
-* **Parameters:**
+**Parameters:**
 
   **entity_type: ScopeEntity, optional**
-  : Entity type for which scope needs to be evaluated. The default is set to face zonelets.
+
+  Entity type for which scope needs to be evaluated. The default is set to face zonelets.
 
   **evaluation_type: ScopeEvaluationType, optional**
-  : Evaluation type to scope entities. The default is set to labels.
+
+  Evaluation type to scope entities. The default is set to labels.
 
   **part_expression: str, optional**
-  : Part expression to scope parts while evaluating scope.
+
+  Part expression to scope parts while evaluating scope.
 
   **label_expression: str, optional**
-  : Label expression to scope entities when evaluation type is set to labels.
+
+  Label expression to scope entities when evaluation type is set to labels.
 
   **zone_expression: str, optional**
-  : Zone expression to scope entities when evaluation type is set to zones.
+
+  Zone expression to scope entities when evaluation type is set to zones.
 
 <!-- !! processed by numpydoc !! -->

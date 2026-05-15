@@ -6,27 +6,34 @@
 
 Set the default values of the `WrapperPatchFlowRegionsParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **base_size: float, optional**
-  : Base size to define octree.
+
+  Base size to define octree.
 
   **suggested_part_name: str, optional**
-  : Suggested part name for created patching surfaces.
+
+  Suggested part name for created patching surfaces.
 
   **number_of_threads: int, optional**
-  : Number of threads for multithreading.
+
+  Number of threads for multithreading.
 
   **dead_regions: List[DeadRegion], optional**
-  : List of dead regions.
+
+  List of dead regions.
 
   **sizing_method: SizeFieldType, optional**
-  : Used to define sizing method for patching.
+
+  Method used to define sizing method for patching.
 
   **size_field_ids: Iterable[int], optional**
-  : Used to define size field based octree refinement.
+
+  Ids used to define size field based octree refinement.
 
   **patch_at_live: bool, optional**
-  : Creates patches closer to live instead of dead.
+
+  Creates patches closer to live instead of dead.
 
 <!-- !! processed by numpydoc !! -->

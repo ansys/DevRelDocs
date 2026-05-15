@@ -9,28 +9,33 @@ Results containing zone-wise mesh information.
 Contains zone name, element ids and their corresponding data (such as centroid coordinates)
 for elements within a zone.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ZoneMeshResult` object with default parameters.
+
+  Model to create a `ZoneMeshResult` object with default parameters.
 
   **zone_name: str, optional**
-  : Name of the zone where the elements belong to.
+
+  Name of the zone where the elements belong to.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **element_ids: Iterable[int], optional**
-  : List of element ids in the zone.
+
+  List of element ids in the zone.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **centroids: Iterable[float], optional**
-  : Flattened array of centroid coordinates [x1,y1,z1,x2,y2,z2,…].
+
+  Flattened array of centroid coordinates [x1,y1,z1,x2,y2,z2,…].
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ZoneMeshResult` object with provided parameters.
+
+  JSON dictionary to create a `ZoneMeshResult` object with provided parameters.
 
 ### Examples
 

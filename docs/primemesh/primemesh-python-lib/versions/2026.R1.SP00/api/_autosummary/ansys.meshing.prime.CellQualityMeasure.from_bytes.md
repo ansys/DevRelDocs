@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.CellQualityMeasure.from_bytes"></a>
 
-#### CellQualityMeasure.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* CellQualityMeasure.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

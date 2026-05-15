@@ -6,13 +6,14 @@
 
 Gets the sizing type for the size control.
 
-* **Returns:**
-  
 
-  [`SizingType`](ansys.meshing.prime.SizingType.md#ansys.meshing.prime.SizingType)
-  : Returns the sizing type of the control.
-  
-* **Return type:**
+**Returns:**
+
+  **[`SizingType`](ansys.meshing.prime.SizingType.md#ansys.meshing.prime.SizingType)**
+
+  Returns the sizing type of the control.
+
+**Return type:**
 
   [`SizingType`](ansys.meshing.prime.SizingType.md#ansys.meshing.prime.SizingType)
 

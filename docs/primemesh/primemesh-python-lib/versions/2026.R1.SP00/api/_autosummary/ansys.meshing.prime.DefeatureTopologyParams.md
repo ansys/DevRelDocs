@@ -6,53 +6,63 @@
 
 Parameters for defeature topology operations.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `DefeatureTopologyParams` object with default parameters.
+
+  Model to create a `DefeatureTopologyParams` object with default parameters.
 
   **partial_defeature: bool, optional**
-  : Option to partial defeature.
+
+  Option to partial defeature.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **delete_interior_nodes: bool, optional**
-  : Option to delete interior nodes.
+
+  Option to delete interior nodes.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **allow_curved_topo_faces: bool, optional**
-  : Option to allow curved topofaces.
+
+  Option to allow curved topofaces.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **fillet_spanning_angle: float, optional**
-  : Angular threshold for detecting fillets with spanning angles below the provided value.
+
+  Angular threshold for detecting fillets with spanning angles below the provided value.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **aggressive_edge_merge: bool, optional**
-  : Indicate whether to allow aggressive edge merge while performing partial defeature.
+
+  Indicate whether to allow aggressive edge merge while performing partial defeature.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **thin_stripes_tolerance: float, optional**
-  : Topoface width tolerance to detect thin faces below the provided value.
+
+  Topoface width tolerance to detect thin faces below the provided value.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **partial_defeature_params: PartialDefeatureParams, optional**
-  : Parameters for partial defeature operation.
+
+  Parameters for partial defeature operation.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **delete_interior_nodes_params: DeleteInteriorNodesParams, optional**
-  : Parameters for delete interior nodes operation.
+
+  Parameters for delete interior nodes operation.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `DefeatureTopologyParams` object with provided parameters.
+
+  JSON dictionary to create a `DefeatureTopologyParams` object with provided parameters.
 
 ### Examples
 

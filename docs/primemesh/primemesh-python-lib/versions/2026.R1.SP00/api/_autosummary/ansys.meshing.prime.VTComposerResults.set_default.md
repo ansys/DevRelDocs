@@ -6,7 +6,7 @@
 
 Set the default values of the `VTComposerResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
 

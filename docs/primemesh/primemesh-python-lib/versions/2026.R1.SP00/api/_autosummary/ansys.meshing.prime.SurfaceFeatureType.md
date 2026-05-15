@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.SurfaceFeatureType"></a>
 
-### *class* ansys.meshing.prime.SurfaceFeatureType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.SurfaceFeatureType(\*values)
 
 Type of face edges considered as features.
 

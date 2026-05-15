@@ -6,21 +6,26 @@
 
 Set the default values of the `SurfaceDiagnosticSummaryParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **scope: ScopeDefinition, optional**
-  : Scope the face zonelets for surface diagnostics.
+
+  Scope the face zonelets for surface diagnostics.
 
   **compute_self_intersections: bool, optional**
-  : Control to identify face intersections are present or not.
+
+  Control to identify face intersections are present or not.
 
   **compute_free_edges: bool, optional**
-  : Control to identify free face edges are present or not.
+
+  Control to identify free face edges are present or not.
 
   **compute_multi_edges: bool, optional**
-  : Control to identify multi face edges are present or not.
+
+  Control to identify multi face edges are present or not.
 
   **compute_duplicate_faces: bool, optional**
-  : Control to identify duplicate faces are present or not.
+
+  Control to identify duplicate faces are present or not.
 
 <!-- !! processed by numpydoc !! -->

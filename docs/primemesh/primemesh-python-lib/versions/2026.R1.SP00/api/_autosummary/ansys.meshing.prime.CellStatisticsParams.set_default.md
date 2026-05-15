@@ -6,8 +6,10 @@
 
 Set the default values of the `CellStatisticsParams` object.
 
-* **Parameters:**
+**Parameters:**
+
   **get_volume: bool, optional**
-  : Provides option to compute and get cumulative cell volume of all element.
+
+  Provides option to compute and get cumulative cell volume of all element.
 
 <!-- !! processed by numpydoc !! -->

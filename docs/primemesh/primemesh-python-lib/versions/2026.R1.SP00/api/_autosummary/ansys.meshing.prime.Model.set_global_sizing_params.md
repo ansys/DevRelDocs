@@ -6,10 +6,11 @@
 
 Set global sizing parameters.
 
-* **Parameters:**
+**Parameters:**
 
   **params**
-  : Global sizing parameters for initializing surfer parameters and
+
+  Global sizing parameters for initializing surfer parameters and
     various size control parameters.
 
 ### Examples

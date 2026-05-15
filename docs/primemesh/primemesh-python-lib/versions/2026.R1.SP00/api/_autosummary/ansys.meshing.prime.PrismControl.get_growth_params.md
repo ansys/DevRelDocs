@@ -6,12 +6,14 @@
 
 Gets the prism parameters for prism control.
 
-* **Returns:**
 
-  [`PrismControlGrowthParams`](ansys.meshing.prime.PrismControlGrowthParams.md#ansys.meshing.prime.PrismControlGrowthParams)
-  : Returns the PrismControlGrowthParams.
+**Returns:**
 
-* **Return type:**
+  **[`PrismControlGrowthParams`](ansys.meshing.prime.PrismControlGrowthParams.md#ansys.meshing.prime.PrismControlGrowthParams)**
+
+  Returns the PrismControlGrowthParams.
+
+**Return type:**
 
   [`PrismControlGrowthParams`](ansys.meshing.prime.PrismControlGrowthParams.md#ansys.meshing.prime.PrismControlGrowthParams)
 

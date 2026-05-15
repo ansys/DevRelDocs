@@ -6,19 +6,23 @@
 
 Results associated with delete volumes operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `DeleteVolumesResults` object with default parameters.
+
+  Model to create a `DeleteVolumesResults` object with default parameters.
 
   **deleted_volumes: Iterable[int], optional**
-  : Ids of deleted volumes.
+
+  Ids of deleted volumes.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the volume deletion operation.
+
+  Error code associated with the volume deletion operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `DeleteVolumesResults` object with provided parameters.
+
+  JSON dictionary to create a `DeleteVolumesResults` object with provided parameters.
 
 ### Examples
 

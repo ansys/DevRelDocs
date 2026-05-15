@@ -6,21 +6,25 @@
 
 Parameters to copy zonelets.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `CopyZoneletsParams` object with default parameters.
+
+  Model to create a `CopyZoneletsParams` object with default parameters.
 
   **copy_labels: bool, optional**
-  : Option to copy labels of input zonelets to the corresponding copied zonelets.
+
+  Option to copy labels of input zonelets to the corresponding copied zonelets.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **copy_zones: bool, optional**
-  : Option to copy zones of input zonelets to corresponding copied zonelets.
+
+  Option to copy zones of input zonelets to corresponding copied zonelets.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `CopyZoneletsParams` object with provided parameters.
+
+  JSON dictionary to create a `CopyZoneletsParams` object with provided parameters.
 
 ### Examples
 

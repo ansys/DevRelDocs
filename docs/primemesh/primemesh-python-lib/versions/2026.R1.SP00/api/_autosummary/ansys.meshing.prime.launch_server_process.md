@@ -2,38 +2,47 @@
 
 <a id="ansys.meshing.prime.launch_server_process"></a>
 
-### ansys.meshing.prime.launch_server_process(prime_root=None, ip='127.0.0.1', port=50055, n_procs=None, \*\*kw)
+### ansys.meshing.prime.launch_server_process(prime_root=None, ip='127.0.0.1', port=50055, n_procs=None, connection_type=None, server_certs_dir=None, \*\*kw)
 
 Launch a server process for Ansys Prime Server.
 
-* **Parameters:**
+**Parameters:**
 
   **prime_root**
-  : Root directory for Ansys Prime Server.
+
+  Root directory for Ansys Prime Server.
 
   **ip: str**
-  : IP address to start the server at. The default is `127.0.0.1`.
+
+  IP address to start the server at. The default is `127.0.0.1`.
 
   **port: int**
-  : Port at which the server is started. The default is `50055`.
+
+  Port at which the server is started. The default is `50055`.
 
   **n_procs: Optional[int]**
-  : When running in distributed mode, the number of distributed
+
+  When running in distributed mode, the number of distributed
     processes to spawn. The default is `None`, in which case
     the server is launched as the only process (normal mode). The
     process marked as `Node 0` hosts the gRPC server.
 
-* **Returns:**
+  **server_certs_dir**
 
-  [`subprocess.Popen`](https://docs.python.org/3.11/library/subprocess.html#subprocess.Popen)
-  : Instance of the subprocess that is launched.
+  Directory containing server certificates for mutual TLS.
 
-* **Raises:**
+**Returns:**
+
+  **[`subprocess.Popen`](https://docs.python.org/3.11/library/subprocess.html#subprocess.Popen)**
+
+  Instance of the subprocess that is launched.
+
+**Raises:**
 
   [`FileNotFoundError`](https://docs.python.org/3.11/library/exceptions.html#FileNotFoundError)
-  : When there is an error in the file paths used to launch the server.
+  When there is an error in the file paths used to launch the server.
 
-* **Return type:**
+**Return type:**
 
   [`Popen`](https://docs.python.org/3.11/library/subprocess.html#subprocess.Popen)
 

@@ -4,13 +4,14 @@
 
 ## Model
 
-The [`Model`](./../api/_autosummary/ansys.meshing.prime.Model.md#ansys.meshing.prime.Model) class is the top-level container for PyPrimeMesh.
+The [`Model`](../api/_autosummary/ansys.meshing.prime.Model.md#ansys.meshing.prime.Model) class is the top-level container for PyPrimeMesh.
 It contains all information about the PyPrimeMesh session.
 
-![Model Structure](./../images/model_structure.png)
+![Model_structure](../images/model_structure.png)
 
-This code shows how the [`Model`](./../api/_autosummary/ansys.meshing.prime.Model.md#ansys.meshing.prime.Model) class is accessed from the
-[`Client`](./../api/_autosummary/ansys.meshing.prime.Client.md#ansys.meshing.prime.Client) class:
+
+This code shows how the [`Model`](../api/_autosummary/ansys.meshing.prime.Model.md#ansys.meshing.prime.Model) class is accessed from the
+[`Client`](../api/_autosummary/ansys.meshing.prime.Client.md#ansys.meshing.prime.Client) class:
 
 ```python
 import ansys.meshing.prime as prime
@@ -27,7 +28,7 @@ params = prime.ImportCadParams(model)
 prime.FileIO(model).import_cad(file_name=cad_file, params=params)
 ```
 
-The code prints the [`Model`](./../api/_autosummary/ansys.meshing.prime.Model.md#ansys.meshing.prime.Model) class to obtain a summary
+The code prints the [`Model`](../api/_autosummary/ansys.meshing.prime.Model.md#ansys.meshing.prime.Model) class to obtain a summary
 of the current session:
 
 ```pycon
@@ -59,19 +60,19 @@ of the current session:
 
 ## Parts
 
-Geometry topology and mesh data in the [`Model`](./../api/_autosummary/ansys.meshing.prime.Model.md#ansys.meshing.prime.Model) class is stored
-within any number of [`parts`](./../api/_autosummary/ansys.meshing.prime.Model.parts.md#ansys.meshing.prime.Model.parts) parameters:
+Geometry topology and mesh data in the [`Model`](../api/_autosummary/ansys.meshing.prime.Model.md#ansys.meshing.prime.Model) class is stored
+within any number of [`parts`](../api/_autosummary/ansys.meshing.prime.Model.parts.md#ansys.meshing.prime.Model.parts) parameters:
 
 ```python
 model.parts
 ```
 
-Each [`Part`](./../api/_autosummary/ansys.meshing.prime.Part.md#ansys.meshing.prime.Part) class can contain *TopoEntities* or *zonelets*.
+Each [`Part`](../api/_autosummary/ansys.meshing.prime.Part.md#ansys.meshing.prime.Part) class can contain *TopoEntities* or *zonelets*.
 TopoEntities are *TopoParts* created from CAD geometry imports. Zonelets are mesh parts created
 from faceted geometry and mesh imports. TopoEntities and zonelets are characterized by the
 dimension of entities.
+![alt text](../images/part_type.png)
 
-![Part Type](./../images/part_type.png)
 
 <a id="topoentities"></a>
 
@@ -88,7 +89,7 @@ There are four types of TopoEntities:
 - TopoFace: TopoEntity representing surfaces
 - TopoVolume: TopoEntity representing volumes
 
-![Topoentities](./../images/TopoEntities.png)
+![image](../images/TopoEntities.png)
 
 <a id="zonelets"></a>
 
@@ -104,7 +105,7 @@ There are three types of zonelets:
 
 A *volume* is a set of face zonelets that define a closed volume without containing any cell elements.
 
-![Zonelets](./../images/Zonelets(2).png)
+![image](../images/Zonelets(2).png)
 
 <a id="zones"></a>
 

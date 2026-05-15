@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.CadFaceter"></a>
 
-### *class* ansys.meshing.prime.CadFaceter(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.CadFaceter(\*values)
 
 Types of CAD faceter.
 

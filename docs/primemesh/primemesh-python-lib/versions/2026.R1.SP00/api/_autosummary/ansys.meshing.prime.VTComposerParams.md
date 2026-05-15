@@ -6,16 +6,18 @@
 
 Parameters to control VTComposer operations.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `VTComposerParams` object with default parameters.
+
+  Model to create a `VTComposerParams` object with default parameters.
 
   **thin_stripes_tol: float, optional**
-  : **This is a beta parameter**. **The behavior and name may change in the future**.
+  **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `VTComposerParams` object with provided parameters.
+
+  JSON dictionary to create a `VTComposerParams` object with provided parameters.
 
 ### Examples
 

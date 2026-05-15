@@ -6,16 +6,19 @@
 
 Results of size control summary.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SizeControlSummaryResult` object with default parameters.
+
+  Model to create a `SizeControlSummaryResult` object with default parameters.
 
   **message: str, optional**
-  : Size control summary text.
+
+  Size control summary text.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SizeControlSummaryResult` object with provided parameters.
+
+  JSON dictionary to create a `SizeControlSummaryResult` object with provided parameters.
 
 ### Examples
 

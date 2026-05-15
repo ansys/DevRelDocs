@@ -6,26 +6,31 @@
 
 Perform fuse between overlapping face zonelets within a single part. Surfaces that are fused can then be colocated, merged or removed as directed.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : Id of the part.
+
+  Id of the part.
 
   **source_face_zonelet_ids**
-  : Ids of source face zonelets to be fused.
+
+  Ids of source face zonelets to be fused.
 
   **target_face_zonelet_ids**
-  : Ids of target face zonelets to be fused.
+
+  Ids of target face zonelets to be fused.
 
   **params**
-  : Parameters for fuse operation.
 
-* **Returns:**
+  Parameters for fuse operation.
 
-  [`FuseResults`](ansys.meshing.prime.FuseResults.md#ansys.meshing.prime.FuseResults)
-  : Returns the FuseResults.
+**Returns:**
 
-* **Return type:**
+  **[`FuseResults`](ansys.meshing.prime.FuseResults.md#ansys.meshing.prime.FuseResults)**
+
+  Returns the FuseResults.
+
+**Return type:**
 
   [`FuseResults`](ansys.meshing.prime.FuseResults.md#ansys.meshing.prime.FuseResults)
 

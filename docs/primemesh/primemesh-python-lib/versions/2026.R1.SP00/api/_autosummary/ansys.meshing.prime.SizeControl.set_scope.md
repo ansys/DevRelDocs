@@ -8,17 +8,19 @@ Set the scope for size control to evaluate.
 
 Size control uses scope to evaluate entities for which size field needs to be computed.
 
-* **Parameters:**
+**Parameters:**
 
   **scope**
-  : ScopeDefinition to scope entities for size field computation.
 
-* **Returns:**
+  ScopeDefinition to scope entities for size field computation.
 
-  [`SetScopeResults`](ansys.meshing.prime.SetScopeResults.md#ansys.meshing.prime.SetScopeResults)
-  : Return a SetScopeResults.
+**Returns:**
 
-* **Return type:**
+  **[`SetScopeResults`](ansys.meshing.prime.SetScopeResults.md#ansys.meshing.prime.SetScopeResults)**
+
+  Return a SetScopeResults.
+
+**Return type:**
 
   [`SetScopeResults`](ansys.meshing.prime.SetScopeResults.md#ansys.meshing.prime.SetScopeResults)
 

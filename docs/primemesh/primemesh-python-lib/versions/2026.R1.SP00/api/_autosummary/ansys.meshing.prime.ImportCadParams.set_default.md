@@ -6,39 +6,50 @@
 
 Set the default values of the `ImportCadParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **append: bool, optional**
-  : Append imported CAD into existing model when true.
+
+  Append imported CAD into existing model when true.
 
   **ansys_release: str, optional**
-  : Configures the Ansys release to be used for loading CAD data through non Native route. Supported formats for specifying Ansys release version are ‘25.2’, ‘252’, ‘v252’, ‘25R2’.
+
+  Configures the Ansys release to be used for loading CAD data through non Native route. Supported formats for specifying Ansys release version are ‘26.1’, ‘261’, ‘v261’, ‘26R1’.
 
   **cad_reader_route: CadReaderRoute, optional**
-  : Specify the available CAD reader routes. The available CAD reader routes are ProgramControlled, Native, WorkBench, SpaceClaim.
+
+  Specify the available CAD reader routes. The available CAD reader routes are ProgramControlled, Native, WorkBench, SpaceClaim.
 
   **part_creation_type: PartCreationType, optional**
-  : Create a part per CAD Model, Assembly, Part, Body.
+
+  Create a part per CAD Model, Assembly, Part, Body.
 
   **geometry_transfer: bool, optional**
-  : Option to enable transfer of geometry data (NURBS).
+
+  Option to enable transfer of geometry data (NURBS).
 
   **length_unit: LengthUnit, optional**
-  : Specify length unit for import.
+
+  Specify length unit for import.
 
   **refacet: bool, optional**
-  : Refine or coarsen the CAD faceting based on refaceting parameters when true.
+
+  Refine or coarsen the CAD faceting based on refaceting parameters when true.
 
   **cad_refaceting_params: CadRefacetingParams, optional**
-  : Specify refaceting parameters.
+
+  Specify refaceting parameters.
 
   **stitch_tolerance: float, optional**
-  : Stitch facets based on tolerance. Available only with WorkBench CAD Reader route.
+
+  Stitch facets based on tolerance. Available only with WorkBench CAD Reader route.
 
   **cad_update_parameters: Dict[str, Union[str, int, float, bool]], optional**
-  : Specify the CAD parameters for parametric CAD update. Available only with WorkBench CAD Reader route.
+
+  Specify the CAD parameters for parametric CAD update. Available only with WorkBench CAD Reader route.
 
   **validate_shared_topology: bool, optional**
-  : Specify whether to validate the shared topology information.
+
+  Specify whether to validate the shared topology information.
 
 <!-- !! processed by numpydoc !! -->

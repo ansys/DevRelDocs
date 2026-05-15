@@ -6,19 +6,23 @@
 
 Parameters to delete volumes.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `DeleteVolumesParams` object with default parameters.
+
+  Model to create a `DeleteVolumesParams` object with default parameters.
 
   **delete_small_volumes: bool, optional**
-  : Option to delete only volumes smaller than provided volume limit.
+
+  Option to delete only volumes smaller than provided volume limit.
 
   **volume_limit: float, optional**
-  : Maximum volume limit to identify smaller volumes to be deleted.
+
+  Maximum volume limit to identify smaller volumes to be deleted.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `DeleteVolumesParams` object with provided parameters.
+
+  JSON dictionary to create a `DeleteVolumesParams` object with provided parameters.
 
 ### Examples
 

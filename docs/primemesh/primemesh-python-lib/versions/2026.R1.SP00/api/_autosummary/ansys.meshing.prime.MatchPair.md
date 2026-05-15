@@ -6,25 +6,31 @@
 
 Match pair to specify sources, targets for match morphing. Included boundary conditions specification.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `MatchPair` object with default parameters.
+
+  Model to create a `MatchPair` object with default parameters.
 
   **source_surfaces: Iterable[int], optional**
-  : Ids of source surfaces.
+
+  Ids of source surfaces.
 
   **target_surfaces: Iterable[int], optional**
-  : Ids of target surfaces.
+
+  Ids of target surfaces.
 
   **target_type: MatchPairTargetType, optional**
-  : Option to specify target surface type.
+
+  Option to specify target surface type.
 
   **bc_pairs: List[BCPair], optional**
-  : Array of boundary condition pairs.
+
+  Array of boundary condition pairs.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `MatchPair` object with provided parameters.
+
+  JSON dictionary to create a `MatchPair` object with provided parameters.
 
 ### Examples
 

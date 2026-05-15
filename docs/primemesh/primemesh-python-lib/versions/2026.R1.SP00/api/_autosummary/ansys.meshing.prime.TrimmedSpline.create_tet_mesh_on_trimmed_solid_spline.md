@@ -6,20 +6,23 @@
 
 Creates tetrahedral mesh on trimmed solid spline.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : Part on which the tetrahedral meshing is performed.
+
+  Part on which the tetrahedral meshing is performed.
 
   **mesh_params**
-  : Parameters to configure the meshing.
 
-* **Returns:**
+  Parameters to configure the meshing.
 
-  [`TrimmedSplineResults`](ansys.meshing.prime.TrimmedSplineResults.md#ansys.meshing.prime.TrimmedSplineResults)
-  : Returns the TrimmedSplineResults.
+**Returns:**
 
-* **Return type:**
+  **[`TrimmedSplineResults`](ansys.meshing.prime.TrimmedSplineResults.md#ansys.meshing.prime.TrimmedSplineResults)**
+
+  Returns the TrimmedSplineResults.
+
+**Return type:**
 
   [`TrimmedSplineResults`](ansys.meshing.prime.TrimmedSplineResults.md#ansys.meshing.prime.TrimmedSplineResults)
 

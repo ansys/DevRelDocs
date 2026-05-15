@@ -6,12 +6,14 @@
 
 Gets the surface scope.
 
-* **Returns:**
 
-  [`ScopeDefinition`](ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition)
-  : Returns the ScopeDefinition.
+**Returns:**
 
-* **Return type:**
+  **[`ScopeDefinition`](ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition)**
+
+  Returns the ScopeDefinition.
+
+**Return type:**
 
   [`ScopeDefinition`](ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition)
 

@@ -6,18 +6,21 @@
 
 Define controlling parameters for the map mesh using MultiZone.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `MultiZoneMapMeshParams` object with default parameters.
+
+  Model to create a `MultiZoneMapMeshParams` object with default parameters.
 
   **scope: ScopeDefinition, optional**
-  : Scope used for MultiZone map mesh control.
+
+  Scope used for MultiZone map mesh control.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `MultiZoneMapMeshParams` object with provided parameters.
+
+  JSON dictionary to create a `MultiZoneMapMeshParams` object with provided parameters.
 
 ### Examples
 

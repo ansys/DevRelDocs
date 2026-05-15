@@ -6,27 +6,34 @@
 
 Set the default values of the `HexCoreParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **transition_size_field_type: SizeFieldType, optional**
-  : Size field type to be used for transition volume (volume between hexcore and boundary).
+
+  Size field type to be used for transition volume (volume between hexcore and boundary).
 
   **buffer_layers: int, optional**
-  : Minimum number of cell layers of the same size before the cell size halves or doubles.
+
+  Minimum number of cell layers of the same size before the cell size halves or doubles.
 
   **rel_peel_layer_offset: float, optional**
-  : Gap between hexahedral core and geometry surface relative to the surface mesh size.
+
+  Gap between hexahedral core and geometry surface relative to the surface mesh size.
 
   **transition_layer_type: HexCoreTransitionLayerType, optional**
-  : Handle size transition of hex cells.
+
+  Handle size transition of hex cells.
 
   **cell_element_type: HexCoreCellElementType, optional**
-  : Cell element type of hex-shaped cells.
+
+  Cell element type of hex-shaped cells.
 
   **surface_mesh_size_scaling: SurfaceMeshSizeScaling, optional**
-  : Setting for scaling surface mesh size for hexcore refinement.
+
+  Setting for scaling surface mesh size for hexcore refinement.
 
   **enable_region_based_hexcore: bool, optional**
-  : Checks whether to enable region based hexcore or not.
+
+  Checks whether to enable region based hexcore or not.
 
 <!-- !! processed by numpydoc !! -->

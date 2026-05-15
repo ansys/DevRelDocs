@@ -6,33 +6,39 @@
 
 Parameters for detect and treat circular faces operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `DetectAndTreatCircularFacesParams` object with default parameters.
+
+  Model to create a `DetectAndTreatCircularFacesParams` object with default parameters.
 
   **edge_mesh_constant_size: float, optional**
-  : Constant size used for edge meshing.
+
+  Constant size used for edge meshing.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **surface_mesh_constant_size: float, optional**
-  : Constant size used for surface meshing.
+
+  Constant size used for surface meshing.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **merge_edge_allow_self_close: bool, optional**
-  : Option for merging self-closing edge loops.
+
+  Option for merging self-closing edge loops.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **merge_face_normals_angle: float, optional**
-  : Merge faces when the normal angle between the faces is below the provided value.
+
+  Merge faces when the normal angle between the faces is below the provided value.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `DetectAndTreatCircularFacesParams` object with provided parameters.
+
+  JSON dictionary to create a `DetectAndTreatCircularFacesParams` object with provided parameters.
 
 ### Examples
 

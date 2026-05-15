@@ -6,20 +6,23 @@
 
 Stretch free boundaries of each zonelet.
 
-* **Parameters:**
+**Parameters:**
 
   **face_zonelet_ids**
-  : Ids of face zonelets.
+
+  Ids of face zonelets.
 
   **params**
-  : Parameters to control stretch free boundaries operation.
 
-* **Returns:**
+  Parameters to control stretch free boundaries operation.
 
-  [`StretchFreeBoundariesResults`](ansys.meshing.prime.StretchFreeBoundariesResults.md#ansys.meshing.prime.StretchFreeBoundariesResults)
-  : Returns the StretchFreeBoundariesResults.
+**Returns:**
 
-* **Return type:**
+  **[`StretchFreeBoundariesResults`](ansys.meshing.prime.StretchFreeBoundariesResults.md#ansys.meshing.prime.StretchFreeBoundariesResults)**
+
+  Returns the StretchFreeBoundariesResults.
+
+**Return type:**
 
   [`StretchFreeBoundariesResults`](ansys.meshing.prime.StretchFreeBoundariesResults.md#ansys.meshing.prime.StretchFreeBoundariesResults)
 

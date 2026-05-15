@@ -6,16 +6,19 @@
 
 Parameters to transform given entities.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `TransformParams` object with default parameters.
+
+  Model to create a `TransformParams` object with default parameters.
 
   **transformation_matrix: Iterable[float], optional**
-  : Transformation matrix(4x4) to be used to transform.
+
+  Transformation matrix(4x4) to be used to transform.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `TransformParams` object with provided parameters.
+
+  JSON dictionary to create a `TransformParams` object with provided parameters.
 
 ### Examples
 

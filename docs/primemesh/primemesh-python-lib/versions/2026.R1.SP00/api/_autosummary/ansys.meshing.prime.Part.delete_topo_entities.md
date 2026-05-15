@@ -4,19 +4,21 @@
 
 #### Part.delete_topo_entities(params)
 
-Delete topoentities of part controled by parameters.
+Delete topoentities of part controlled by parameters.
 
-* **Parameters:**
+**Parameters:**
 
   **params**
-  : Parameters for control delete topoentities operation.
 
-* **Returns:**
+  Parameters for control delete topoentities operation.
 
-  [`DeleteTopoEntitiesResults`](ansys.meshing.prime.DeleteTopoEntitiesResults.md#ansys.meshing.prime.DeleteTopoEntitiesResults)
-  : Return results of delete topoentities.
+**Returns:**
 
-* **Return type:**
+  **[`DeleteTopoEntitiesResults`](ansys.meshing.prime.DeleteTopoEntitiesResults.md#ansys.meshing.prime.DeleteTopoEntitiesResults)**
+
+  Return results of delete topoentities.
+
+**Return type:**
 
   [`DeleteTopoEntitiesResults`](ansys.meshing.prime.DeleteTopoEntitiesResults.md#ansys.meshing.prime.DeleteTopoEntitiesResults)
 

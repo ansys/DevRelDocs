@@ -6,12 +6,14 @@
 
 Set the default values of the `ProjectOnGeometryParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **project_only_mid_nodes: bool, optional**
-  : Option to project only the mid nodes.
+
+  Option to project only the mid nodes.
 
   **project_on_facets_if_cadnot_found: bool, optional**
-  : Option to project on facet if geometry is not found.
+
+  Option to project on facet if geometry is not found.
 
 <!-- !! processed by numpydoc !! -->

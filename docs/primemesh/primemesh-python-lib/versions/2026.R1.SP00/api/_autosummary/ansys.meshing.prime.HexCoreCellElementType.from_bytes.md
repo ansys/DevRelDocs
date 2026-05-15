@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.HexCoreCellElementType.from_bytes"></a>
 
-#### HexCoreCellElementType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* HexCoreCellElementType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

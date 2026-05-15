@@ -6,13 +6,14 @@
 
 Get the sphere of influence sizing parameters of size control.
 
-* **Returns:**
 
+**Returns:**
 
-  [`SoiSizingParams`](ansys.meshing.prime.SoiSizingParams.md#ansys.meshing.prime.SoiSizingParams)
-  : Returns the SoiSizingParams.
+  **[`SoiSizingParams`](ansys.meshing.prime.SoiSizingParams.md#ansys.meshing.prime.SoiSizingParams)**
 
-* **Return type:**
+  Returns the SoiSizingParams.
+
+**Return type:**
 
   [`SoiSizingParams`](ansys.meshing.prime.SoiSizingParams.md#ansys.meshing.prime.SoiSizingParams)
 

@@ -6,9 +6,9 @@
 
 Get the name of the wrapper control.
 
-* **Returns:**
+**Returns**
   [`str`](https://docs.python.org/3.11/library/stdtypes.html#str)
-  : Name of the wrapper control.
+  Name of the wrapper control.
 
 ### Examples
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.JoinSeparateMethod"></a>
 
-### *class* ansys.meshing.prime.JoinSeparateMethod(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.JoinSeparateMethod(\*values)
 
 Join separation method to handle separated overlapped zonelets.
 

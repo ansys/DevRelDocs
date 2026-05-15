@@ -6,19 +6,23 @@
 
 Results associated with fill holes in topology operations.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `TopoFillHoleResult` object with default parameters.
+
+  Model to create a `TopoFillHoleResult` object with default parameters.
 
   **new_topo_faces_created: Iterable[int], optional**
-  : Ids of new topofaces created.
+
+  Ids of new topofaces created.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with a wrap operation.
+
+  Error code associated with a wrap operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `TopoFillHoleResult` object with provided parameters.
+
+  JSON dictionary to create a `TopoFillHoleResult` object with provided parameters.
 
 ### Examples
 

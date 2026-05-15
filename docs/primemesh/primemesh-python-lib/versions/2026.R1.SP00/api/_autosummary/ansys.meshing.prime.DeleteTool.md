@@ -6,10 +6,11 @@
 
 Performs various delete operation. For example, delete fringes and overlapping faces.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create DeleteTool object.
+
+  Server model to create DeleteTool object.
 
 <!-- !! processed by numpydoc !! -->
 

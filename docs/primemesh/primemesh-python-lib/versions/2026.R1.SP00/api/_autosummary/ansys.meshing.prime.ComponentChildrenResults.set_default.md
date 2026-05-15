@@ -6,18 +6,22 @@
 
 Set the default values of the `ComponentChildrenResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **component_ids: Iterable[int], optional**
-  : Ids of components that are queried.
+
+  Ids of components that are queried.
 
   **component_names: List[str], optional**
-  : Names of components that are queried.
+
+  Names of components that are queried.
 
   **body_ids: Iterable[int], optional**
-  : Ids of bodies that are queried.
+
+  Ids of bodies that are queried.
 
   **body_names: List[str], optional**
-  : Names of bodies that are queried.
+
+  Names of bodies that are queried.
 
 <!-- !! processed by numpydoc !! -->

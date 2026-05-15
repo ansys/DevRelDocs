@@ -6,16 +6,19 @@
 
 Parameters to control fold detection.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SearchByFoldsParams` object with default parameters.
+
+  Model to create a `SearchByFoldsParams` object with default parameters.
 
   **critical_angle: float, optional**
-  : Threshold angle for fold detection.
+
+  Threshold angle for fold detection.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SearchByFoldsParams` object with provided parameters.
+
+  JSON dictionary to create a `SearchByFoldsParams` object with provided parameters.
 
 ### Examples
 

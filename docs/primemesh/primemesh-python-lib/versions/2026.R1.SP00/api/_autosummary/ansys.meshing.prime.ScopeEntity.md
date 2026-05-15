@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.ScopeEntity"></a>
 
-### *class* ansys.meshing.prime.ScopeEntity(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.ScopeEntity(\*values)
 
 ScopeDefinition uses entity type to scope entities.
 

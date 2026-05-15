@@ -6,12 +6,14 @@
 
 Set the default values of the `RemoveZoneResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the failure of operation.
+
+  Error code associated with the failure of operation.
 
   **warning_codes: List[WarningCode], optional**
-  : Warning codes associated with the remove zone operation.
+
+  Warning codes associated with the remove zone operation.
 
 <!-- !! processed by numpydoc !! -->

@@ -6,24 +6,27 @@
 
 Creates a material point at the given coordinates.
 
-* **Parameters:**
+**Parameters:**
 
   **suggested_name**
-  : Name suggested for the material point.
+
+  Name suggested for the material point.
 
   **coords**
-  : Coordinates of material point.
+
+  Coordinates of material point.
 
   **params**
-  : Parameters used to create material point.
 
-* **Returns:**
+  Parameters used to create material point.
 
+**Returns:**
 
-  [`CreateMaterialPointResults`](ansys.meshing.prime.CreateMaterialPointResults.md#ansys.meshing.prime.CreateMaterialPointResults)
-  : Returns the result with material point name and id.
+  **[`CreateMaterialPointResults`](ansys.meshing.prime.CreateMaterialPointResults.md#ansys.meshing.prime.CreateMaterialPointResults)**
 
-* **Return type:**
+  Returns the result with material point name and id.
+
+**Return type:**
 
   [`CreateMaterialPointResults`](ansys.meshing.prime.CreateMaterialPointResults.md#ansys.meshing.prime.CreateMaterialPointResults)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.CadRefacetingMaxEdgeSizeLimit.from_bytes"></a>
 
-#### CadRefacetingMaxEdgeSizeLimit.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* CadRefacetingMaxEdgeSizeLimit.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

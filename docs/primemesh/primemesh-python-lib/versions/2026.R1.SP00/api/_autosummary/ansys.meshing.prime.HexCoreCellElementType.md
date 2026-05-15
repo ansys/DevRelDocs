@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.HexCoreCellElementType"></a>
 
-### *class* ansys.meshing.prime.HexCoreCellElementType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.HexCoreCellElementType(\*values)
 
 Cell element type of hex-shaped cells.
 

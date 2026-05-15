@@ -6,15 +6,18 @@
 
 Set the default values of the `VolumeQualitySummaryResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the volume quality summary.
+
+  Error code associated with the volume quality summary.
 
   **quality_results_part: List[VolumeQualityResultsPart], optional**
-  : Contains volume quality result per cell quality measure by parts specified in parameters.
+
+  Contains volume quality result per cell quality measure by parts specified in parameters.
 
   **message: str, optional**
-  : Volume quality summary text.
+
+  Volume quality summary text.
 
 <!-- !! processed by numpydoc !! -->

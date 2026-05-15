@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="automeshparams"></a>
-
 # AutoMeshParams
 
 <a id="ansys.meshing.prime.AutoMeshParams"></a>
@@ -10,46 +6,59 @@
 
 Parameters for volume meshing.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `AutoMeshParams` object with default parameters.
+
+  Model to create a `AutoMeshParams` object with default parameters.
 
   **size_field_type: SizeFieldType, optional**
-  : Type of sizing to be used to generate volume mesh.
+
+  Type of sizing to be used to generate volume mesh.
 
   **max_size: float, optional**
-  : Maximum cell size.
+
+  Maximum cell size.
 
   **prism_control_ids: Iterable[int], optional**
-  : Set prism control ids.
+
+  Set prism control ids.
 
   **thin_volume_control_ids: Iterable[int], optional**
-  : Set thin volume control ids.
+
+  Set thin volume control ids.
 
   **multi_zone_control_ids: Iterable[int], optional**
-  : Set MultiZone control ids.
+
+  Set MultiZone control ids.
 
   **volume_fill_type: VolumeFillType, optional**
-  : Option to fill volume.
+
+  Option to fill volume.
 
   **prism: PrismParams, optional**
-  : Prism control parameters.
+
+  Prism control parameters.
 
   **tet: TetParams, optional**
-  : Parameters to control tetrahedral mesh generation.
+
+  Parameters to control tetrahedral mesh generation.
 
   **hexcore: HexCoreParams, optional**
-  : Parameters to control hexahedral mesh generation.
+
+  Parameters to control hexahedral mesh generation.
 
   **volume_control_ids: Iterable[int], optional**
-  : Ids of the volume controls.
+
+  Ids of the volume controls.
 
   **periodic_control_ids: Iterable[int], optional**
-  : Ids of the periodic controls.
+
+  Ids of the periodic controls.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `AutoMeshParams` object with provided parameters.
+
+  JSON dictionary to create a `AutoMeshParams` object with provided parameters.
 
 ### Examples
 

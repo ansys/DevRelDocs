@@ -6,22 +6,27 @@
 
 Parameters for setting periodic size fields.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SFPeriodicParams` object with default parameters.
+
+  Model to create a `SFPeriodicParams` object with default parameters.
 
   **axis: Iterable[float], optional**
-  : Axis vector coordinates.
+
+  Axis vector coordinates.
 
   **angle: float, optional**
-  : Angle in degrees.
+
+  Angle in degrees.
 
   **center: Iterable[float], optional**
-  : Center coordinates.
+
+  Center coordinates.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SFPeriodicParams` object with provided parameters.
+
+  JSON dictionary to create a `SFPeriodicParams` object with provided parameters.
 
 ### Examples
 

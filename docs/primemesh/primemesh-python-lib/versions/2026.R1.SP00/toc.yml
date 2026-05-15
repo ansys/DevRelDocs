@@ -13,6 +13,8 @@
     href: user_guide/lucid.md  
   - name: Reading and writing files
     href: user_guide/fileio.md
+  - name: Solver translation
+    href: user_guide/solver_translation.md
   - name: Logging
     href: user_guide/logging.md
   - name: Interactive graphics using PyVista
@@ -1764,6 +1766,8 @@
     href: api/_autosummary/ansys.meshing.prime.ExportLSDynaKeywordFileParams.compute_spotweld_thickness.md
   - name: ansys.meshing.prime.ExportLSDynaKeywordFileParams.database_keywords
     href: api/_autosummary/ansys.meshing.prime.ExportLSDynaKeywordFileParams.database_keywords.md
+  - name: ansys.meshing.prime.ExportLSDynaKeywordFileParams.get_zone_mesh_results
+    href: api/_autosummary/ansys.meshing.prime.ExportLSDynaKeywordFileParams.get_zone_mesh_results.md
   - name: ansys.meshing.prime.ExportLSDynaKeywordFileParams.material_properties
     href: api/_autosummary/ansys.meshing.prime.ExportLSDynaKeywordFileParams.material_properties.md
   - name: ansys.meshing.prime.ExportLSDynaKeywordFileParams.output_controls_d3_part
@@ -1821,7 +1825,15 @@
   - name: ansys.meshing.prime.ExportMapdlCdbParams.export_fasteners_as_swgen
     href: api/_autosummary/ansys.meshing.prime.ExportMapdlCdbParams.export_fasteners_as_swgen.md
   - name: ansys.meshing.prime.ExportMapdlCdbParams.export_rigid_bodies_as_rbgen
-    href: api/_autosummary/ansys.meshing.prime.ExportMapdlCdbParams.export_rigid_bodies_as_rbgen.md
+    href: api/_autosummary/ansys.meshing.prime.ExportMapdlCdbParams.export_rigid_bodies_as_rbgen.md  
+  - name: ansys.meshing.prime.ExportMapdlCdbParams.export_tie_as_cntgen
+    href: api/_autosummary/ansys.meshing.prime.ExportMapdlCdbParams.export_tie_as_cntgen.md
+  - name: ansys.meshing.prime.ExportMapdlCdbParams.get_zone_mesh_results
+    href: api/_autosummary/ansys.meshing.prime.ExportMapdlCdbParams.get_zone_mesh_results.md
+  - name: ansys.meshing.prime.ExportMapdlCdbParams.initial_counters
+    href: api/_autosummary/ansys.meshing.prime.ExportMapdlCdbParams.initial_counters.md
+  - name: ansys.meshing.prime.ExportMapdlCdbParams.export_coupling_as_sfcgen
+    href: api/_autosummary/ansys.meshing.prime.ExportMapdlCdbParams.export_coupling_as_sfcgen.md
   - name: ansys.meshing.prime.ExportMapdlCdbParams.label_export_params
     href: api/_autosummary/ansys.meshing.prime.ExportMapdlCdbParams.label_export_params.md
   - name: ansys.meshing.prime.ExportMapdlCdbParams.material_properties
@@ -1830,10 +1842,14 @@
     href: api/_autosummary/ansys.meshing.prime.ExportMapdlCdbParams.mortar_contact_for_ties.md
   - name: ansys.meshing.prime.ExportMapdlCdbParams.pre_solution_settings
     href: api/_autosummary/ansys.meshing.prime.ExportMapdlCdbParams.pre_solution_settings.md
+  - name: ansys.meshing.prime.ExportMapdlCdbParams.reorder_spotweldsurface
+    href: api/_autosummary/ansys.meshing.prime.ExportMapdlCdbParams.reorder_spotweldsurface.md
   - name: ansys.meshing.prime.ExportMapdlCdbParams.separate_blocks_format_type
     href: api/_autosummary/ansys.meshing.prime.ExportMapdlCdbParams.separate_blocks_format_type.md 
   - name: ansys.meshing.prime.ExportMapdlCdbParams.simulation_type
     href: api/_autosummary/ansys.meshing.prime.ExportMapdlCdbParams.simulation_type.md
+  - name: ansys.meshing.prime.ExportMapdlCdbParams.skip_comments
+    href: api/_autosummary/ansys.meshing.prime.ExportMapdlCdbParams.skip_comments.md   
   - name: ansys.meshing.prime.ExportMapdlCdbParams.write_by_zones
     href: api/_autosummary/ansys.meshing.prime.ExportMapdlCdbParams.write_by_zones.md
   - name: ansys.meshing.prime.ExportMapdlCdbParams.write_cells
@@ -1854,6 +1870,8 @@
     href: api/_autosummary/ansys.meshing.prime.ExportMapdlCdbResults.set_default.md
   - name: ansys.meshing.prime.ExportMapdlCdbResults.error_code
     href: api/_autosummary/ansys.meshing.prime.ExportMapdlCdbResults.error_code.md
+  - name: ansys.meshing.prime.ExportMapdlCdbResults.formatted_summary_log
+    href: api/_autosummary/ansys.meshing.prime.ExportMapdlCdbResults.formatted_summary_log.md
   - name: ansys.meshing.prime.ExportMapdlCdbResults.summary_log
     href: api/_autosummary/ansys.meshing.prime.ExportMapdlCdbResults.summary_log.md
   - name: ansys.meshing.prime.ExportMapdlCdbResults.warning_codes
@@ -2176,8 +2194,6 @@
     href: api/_autosummary/ansys.meshing.prime.FuseParams.check_orientation.md
   - name: ansys.meshing.prime.FuseParams.dump_mesh
     href: api/_autosummary/ansys.meshing.prime.FuseParams.dump_mesh.md
-  - name: ansys.meshing.prime.FuseParams.fuse_edges_only
-    href: api/_autosummary/ansys.meshing.prime.FuseParams.fuse_edges_only.md
   - name: ansys.meshing.prime.FuseParams.fuse_option
     href: api/_autosummary/ansys.meshing.prime.FuseParams.fuse_option.md
   - name: ansys.meshing.prime.FuseParams.gap_tolerance
@@ -2360,14 +2376,22 @@
     href: api/_autosummary/ansys.meshing.prime.ImportAbaqusParams.print_default.md
   - name: ansys.meshing.prime.ImportAbaqusParams.set_default
     href: api/_autosummary/ansys.meshing.prime.ImportAbaqusParams.set_default.md
+  - name: ansys.meshing.prime.ImportAbaqusParams.initial_counters
+    href: api/_autosummary/ansys.meshing.prime.ImportAbaqusParams.initial_counters.md
   - name: ansys.meshing.prime.ImportAbaqusResults
     href: api/_autosummary/ansys.meshing.prime.ImportAbaqusResults.md
   - name: ansys.meshing.prime.ImportAbaqusResults.print_default
     href: api/_autosummary/ansys.meshing.prime.ImportAbaqusResults.print_default.md
   - name: ansys.meshing.prime.ImportAbaqusResults.set_default
     href: api/_autosummary/ansys.meshing.prime.ImportAbaqusResults.set_default.md
+  - name: ansys.meshing.prime.ImportAbaqusResults.formatted_summary_log
+    href: api/_autosummary/ansys.meshing.prime.ImportAbaqusResults.formatted_summary_log.md
+  - name: ansys.meshing.prime.ImportAbaqusResults.summary_log
+    href: api/_autosummary/ansys.meshing.prime.ImportAbaqusResults.summary_log.md
   - name: ansys.meshing.prime.ImportAbaqusResults.error_code
     href: api/_autosummary/ansys.meshing.prime.ImportAbaqusResults.error_code.md
+  - name: ansys.meshing.prime.ImportAbaqusResults.warning_codes
+    href: api/_autosummary/ansys.meshing.prime.ImportAbaqusResults.warning_codes.md
   - name: ansys.meshing.prime.ImportCadParams
     href: api/_autosummary/ansys.meshing.prime.ImportCadParams.md
   - name: ansys.meshing.prime.ImportCadParams.print_default
@@ -4420,8 +4444,6 @@
     href: api/_autosummary/ansys.meshing.prime.TrimmedSolidSplineCutMode.EXACT.md
   - name: ansys.meshing.prime.TrimmedSpline
     href: api/_autosummary/ansys.meshing.prime.TrimmedSpline.md
-  - name: ansys.meshing.prime.TrimmedSpline.create_tet_mesh_on_trimmed_solid_spline
-    href: api/_autosummary/ansys.meshing.prime.TrimmedSpline.create_tet_mesh_on_trimmed_solid_spline.md
   - name: ansys.meshing.prime.TrimmedSpline.create_trimmed_uniform_solid_spline_by_brep_mapping
     href: api/_autosummary/ansys.meshing.prime.TrimmedSpline.create_trimmed_uniform_solid_spline_by_brep_mapping.md
   - name: ansys.meshing.prime.TrimmedSpline.refine_tet_mesh
@@ -4478,6 +4500,8 @@
     href: api/_autosummary/ansys.meshing.prime.VolumeControl.get_params.md
   - name: ansys.meshing.prime.VolumeControl.get_scope
     href: api/_autosummary/ansys.meshing.prime.VolumeControl.get_scope.md
+  - name: ansys.meshing.prime.VolumeControl.get_summary
+    href: api/_autosummary/ansys.meshing.prime.VolumeControl.get_summary.md
   - name: ansys.meshing.prime.VolumeControl.set_params
     href: api/_autosummary/ansys.meshing.prime.VolumeControl.set_params.md
   - name: ansys.meshing.prime.VolumeControl.set_scope
@@ -4722,6 +4746,8 @@
     href: api/_autosummary/ansys.meshing.prime.WrapParams.set_default.md
   - name: ansys.meshing.prime.WrapParams.base_size
     href: api/_autosummary/ansys.meshing.prime.WrapParams.base_size.md
+  - name: ansys.meshing.prime.WrapParams.feature_recovery_control_ids
+    href: api/_autosummary/ansys.meshing.prime.WrapParams.feature_recovery_control_ids.md
   - name: ansys.meshing.prime.WrapParams.imprint_iterations
     href: api/_autosummary/ansys.meshing.prime.WrapParams.imprint_iterations.md
   - name: ansys.meshing.prime.WrapParams.imprint_relative_range
@@ -5016,8 +5042,6 @@
     href: api/_autosummary/ansys.meshing.prime.examples.download_elbow_pmdat.md
   - name: ansys.meshing.prime.examples.download_elbow_scdoc
     href: api/_autosummary/ansys.meshing.prime.examples.download_elbow_scdoc.md
-  - name: ansys.meshing.prime.examples.download_f1_rw_drs_st
-    href: api/_autosummary/ansys.meshing.prime.examples.download_f1_rw_drs_st.md
   - name: ansys.meshing.prime.examples.download_f1_rw_enclosure_stl
     href: api/_autosummary/ansys.meshing.prime.examples.download_f1_rw_enclosure_stl.md
   - name: ansys.meshing.prime.examples.download_f1_rw_end_plates_stl
@@ -5076,9 +5100,6 @@
     href: api/_autosummary/ansys.meshing.prime.examples.download_wheel_ground_scdoc.md
 - name: Changelog
   href: changelog.md
-
-
-
 
 
 

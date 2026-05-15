@@ -11,8 +11,8 @@ can be used within a string as follows:
 * `!abc\*` collects all required entities with a name that is not starting with abc.
 * `\*abc,\*xyz` `\*abc \*xyz` collects all required entities with a name ending with abc or xyz. A comma or a space represents `OR`.
 
-The following example uses expressions in the [`ScopeDefinition`](./../api/_autosummary/ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition)
-class. The [`part_expression`](./../api/_autosummary/ansys.meshing.prime.ScopeDefinition.part_expression.md#ansys.meshing.prime.ScopeDefinition.part_expression) parameter
+The following example uses expressions in the [`ScopeDefinition`](../api/_autosummary/ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition)
+class. The [`part_expression`](../api/_autosummary/ansys.meshing.prime.ScopeDefinition.part_expression.md#ansys.meshing.prime.ScopeDefinition.part_expression) parameter
 is used to gather part entities to define a scope. You can provide the exact part name or use
 expressions for more complex entity collections.
 

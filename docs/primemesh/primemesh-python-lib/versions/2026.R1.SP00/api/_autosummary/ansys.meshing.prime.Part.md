@@ -22,19 +22,23 @@ The mesh generated on topoentities will be projected on geometry representation.
 * TopoEdge: Topoentity representing curves.
 * TopoVolume: Topoentity representing volumes.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create Part object.
+
+  Server model to create Part object.
 
   **id**
-  : Id of the Part.
+
+  Id of the Part.
 
   **object_id**
-  : Object id of the Part.
+
+  Object id of the Part.
 
   **name**
-  : Name of the Part.
+
+  Name of the Part.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -49,7 +53,7 @@ The mesh generated on topoentities will be projected on geometry representation.
 | [`Part.add_zonelets_to_zone`](ansys.meshing.prime.Part.add_zonelets_to_zone.md#ansys.meshing.prime.Part.add_zonelets_to_zone)(zone_id, zonelets)                                                                       | Add zonelets to zone.                                                                              |
 | [`Part.compute_closed_volumes`](ansys.meshing.prime.Part.compute_closed_volumes.md#ansys.meshing.prime.Part.compute_closed_volumes)(params)                                                                            | Computes volume by identifying closed volumes defined by face zonelets of the part.                |
 | [`Part.compute_topo_volumes`](ansys.meshing.prime.Part.compute_topo_volumes.md#ansys.meshing.prime.Part.compute_topo_volumes)(params)                                                                                  | Compute topovolumes by identifying closed volumes defined by topofaces of the part.                |
-| [`Part.delete_topo_entities`](ansys.meshing.prime.Part.delete_topo_entities.md#ansys.meshing.prime.Part.delete_topo_entities)(params)                                                                                  | Delete topoentities of part controled by parameters.                                               |
+| [`Part.delete_topo_entities`](ansys.meshing.prime.Part.delete_topo_entities.md#ansys.meshing.prime.Part.delete_topo_entities)(params)                                                                                  | Delete topoentities of part controlled by parameters.                                              |
 | [`Part.delete_volumes`](ansys.meshing.prime.Part.delete_volumes.md#ansys.meshing.prime.Part.delete_volumes)(volumes, params)                                                                                           | Delete volumes by deleting its face zonelets.                                                      |
 | [`Part.delete_zonelets`](ansys.meshing.prime.Part.delete_zonelets.md#ansys.meshing.prime.Part.delete_zonelets)(zonelets)                                                                                               | Delete given face zonelets.                                                                        |
 | [`Part.extract_topo_volumes`](ansys.meshing.prime.Part.extract_topo_volumes.md#ansys.meshing.prime.Part.extract_topo_volumes)(topo_faces, params)                                                                      | Extract topovolumes connected to given cap topofaces.                                              |

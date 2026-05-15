@@ -6,19 +6,23 @@
 
 Parameters to control search by quality results.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SearchByQualityParams` object with default parameters.
+
+  Model to create a `SearchByQualityParams` object with default parameters.
 
   **quality_limit: float, optional**
-  : Quality limit used for search face elements.
+
+  Quality limit used for search face elements.
 
   **face_quality_measure: FaceQualityMeasure, optional**
-  : Quality measure used for search face elements.
+
+  Quality measure used for search face elements.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SearchByQualityParams` object with provided parameters.
+
+  JSON dictionary to create a `SearchByQualityParams` object with provided parameters.
 
 ### Examples
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.SizeFieldType.from_bytes"></a>
 
-#### SizeFieldType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* SizeFieldType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

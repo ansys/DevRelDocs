@@ -6,19 +6,23 @@
 
 Parameters to extract flow topovolumes.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ExtractTopoVolumesResults` object with default parameters.
+
+  Model to create a `ExtractTopoVolumesResults` object with default parameters.
 
   **volumes: Iterable[int], optional**
-  : Ids of extracted flow topovolumes.
+
+  Ids of extracted flow topovolumes.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the failure of operation.
+
+  Error code associated with the failure of operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ExtractTopoVolumesResults` object with provided parameters.
+
+  JSON dictionary to create a `ExtractTopoVolumesResults` object with provided parameters.
 
 ### Examples
 

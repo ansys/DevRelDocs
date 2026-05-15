@@ -6,10 +6,11 @@
 
 Sets the volume control parameters.
 
-* **Parameters:**
+**Parameters:**
 
   **volume_control_params**
-  : Parameters to control volume.
+
+  Parameters to control volume.
 
 ### Examples
 

@@ -6,12 +6,14 @@
 
 Set the default values of the `CreateShellBLResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the failure of operation.
+
+  Error code associated with the failure of operation.
 
   **warning_codes: List[WarningCode], optional**
-  : Warning codes associated with the operation.
+
+  Warning codes associated with the operation.
 
 <!-- !! processed by numpydoc !! -->

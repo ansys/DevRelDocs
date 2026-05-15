@@ -6,30 +6,37 @@
 
 Parameters to collapse face elements.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `CollapseParams` object with default parameters.
+
+  Model to create a `CollapseParams` object with default parameters.
 
   **feature_type: SurfaceFeatureType, optional**
-  : Feature type to be preserved when performing collapse.
+
+  Feature type to be preserved when performing collapse.
 
   **collapse_ratio: float, optional**
-  : Maximum ratio of shortest face edge length to longest face edge length.
+
+  Maximum ratio of shortest face edge length to longest face edge length.
 
   **preserve_quality: bool, optional**
-  : Option to preserve quality of neighboring triangles when performing collapse.Collapse may lead to quality deterioration beyond target skewness. Such collapse is prevented, when the option is enabled.
+
+  Option to preserve quality of neighboring triangles when performing collapse.Collapse may lead to quality deterioration beyond target skewness. Such collapse is prevented, when the option is enabled.
 
   **target_skewness: float, optional**
-  : Skewness limit used as target to preserve quality. Better quality elements are skipped for collapse.
+
+  Skewness limit used as target to preserve quality. Better quality elements are skipped for collapse.
 
   **keep_edge_connectivity: bool, optional**
-  : Option to keep edge connectivity. The default value is false. When keep edge connectivity is true, edges that were connected to collapsed triangles will be connected to different triangles. Otherwise, edges will be disconnected from faces.
+
+  Option to keep edge connectivity. The default value is false. When keep edge connectivity is true, edges that were connected to collapsed triangles will be connected to different triangles. Otherwise, edges will be disconnected from faces.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `CollapseParams` object with provided parameters.
+
+  JSON dictionary to create a `CollapseParams` object with provided parameters.
 
 ### Examples
 

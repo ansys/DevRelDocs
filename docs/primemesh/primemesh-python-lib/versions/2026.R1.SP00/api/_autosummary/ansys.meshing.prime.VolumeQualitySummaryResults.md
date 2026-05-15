@@ -6,22 +6,27 @@
 
 Results of volume quality summary.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `VolumeQualitySummaryResults` object with default parameters.
+
+  Model to create a `VolumeQualitySummaryResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the volume quality summary.
+
+  Error code associated with the volume quality summary.
 
   **quality_results_part: List[VolumeQualityResultsPart], optional**
-  : Contains volume quality result per cell quality measure by parts specified in parameters.
+
+  Contains volume quality result per cell quality measure by parts specified in parameters.
 
   **message: str, optional**
-  : Volume quality summary text.
+
+  Volume quality summary text.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `VolumeQualitySummaryResults` object with provided parameters.
+
+  JSON dictionary to create a `VolumeQualitySummaryResults` object with provided parameters.
 
 ### Examples
 

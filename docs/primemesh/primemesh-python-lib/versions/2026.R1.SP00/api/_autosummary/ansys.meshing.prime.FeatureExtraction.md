@@ -6,10 +6,11 @@
 
 Provide functions for all feature extraction operations like extracting edges zonlelets, tracing node paths.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create FeatureExtraction object.
+
+  Server model to create FeatureExtraction object.
 
 <!-- !! processed by numpydoc !! -->
 

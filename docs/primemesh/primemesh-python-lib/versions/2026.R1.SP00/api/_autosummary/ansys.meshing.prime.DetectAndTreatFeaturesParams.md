@@ -6,33 +6,39 @@
 
 Parameters for detect and treat features operations.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `DetectAndTreatFeaturesParams` object with default parameters.
+
+  Model to create a `DetectAndTreatFeaturesParams` object with default parameters.
 
   **detect_and_treat_holes: bool, optional**
-  : Option to detect and treat holes.
+
+  Option to detect and treat holes.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **detect_and_treat_circular_faces: bool, optional**
-  : Option to detect and treat circular faces.
+
+  Option to detect and treat circular faces.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **treat_holes_params: DetectAndTreatHolesParams, optional**
-  : Parameters for detect and treat holes operation.
+
+  Parameters for detect and treat holes operation.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **treat_circular_faces_params: DetectAndTreatCircularFacesParams, optional**
-  : Parameters for detect and treat circular faces operation.
+
+  Parameters for detect and treat circular faces operation.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `DetectAndTreatFeaturesParams` object with provided parameters.
+
+  JSON dictionary to create a `DetectAndTreatFeaturesParams` object with provided parameters.
 
 ### Examples
 

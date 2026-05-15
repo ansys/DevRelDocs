@@ -6,25 +6,26 @@
 
 Download the example files necessary for unit testing.
 
-* **Parameters:**
+**Parameters:**
 
   **destination**
-  : Path to download the test example files to. The default
+
+  Path to download the test example files to. The default
     is `None`, in which case the default path for app data
     is used.
 
   **force**
-  : Whether to always download the test example files. The default is
+
+  Whether to always download the test example files. The default is
     `False`, in which case if the test example files are cached, they
     are reused.
 
-* **Returns:**
-  
+**Returns:**
 
   `List`[[`str`](https://docs.python.org/3.11/library/stdtypes.html#str)]
-  : Local paths to the downloaded test example files.
+  Local paths to the downloaded test example files.
 
-* **Return type:**
+**Return type:**
 
   [`Union`](https://docs.python.org/3.11/library/typing.html#typing.Union)[[`str`](https://docs.python.org/3.11/library/stdtypes.html#str), [`PathLike`](https://docs.python.org/3.11/library/os.html#os.PathLike)]
 

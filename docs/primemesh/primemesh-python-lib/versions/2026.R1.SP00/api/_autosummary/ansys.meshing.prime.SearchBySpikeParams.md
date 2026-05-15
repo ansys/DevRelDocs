@@ -6,16 +6,19 @@
 
 Parameters to control spike detection.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SearchBySpikeParams` object with default parameters.
+
+  Model to create a `SearchBySpikeParams` object with default parameters.
 
   **spike_angle: float, optional**
-  : Threshold angle for spike detection.
+
+  Threshold angle for spike detection.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SearchBySpikeParams` object with provided parameters.
+
+  JSON dictionary to create a `SearchBySpikeParams` object with provided parameters.
 
 ### Examples
 

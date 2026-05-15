@@ -6,20 +6,23 @@
 
 Extract topovolumes connected to given cap topofaces.
 
-* **Parameters:**
+**Parameters:**
 
   **topo_faces**
-  : Ids of topofaces connected to topovolumes.
+
+  Ids of topofaces connected to topovolumes.
 
   **params**
-  : Parameters to compute topovolumes.
 
-* **Returns:**
+  Parameters to compute topovolumes.
 
-  [`ExtractTopoVolumesResults`](ansys.meshing.prime.ExtractTopoVolumesResults.md#ansys.meshing.prime.ExtractTopoVolumesResults)
-  : Return the ExtractTopoVolumesResults.
+**Returns:**
 
-* **Return type:**
+  **[`ExtractTopoVolumesResults`](ansys.meshing.prime.ExtractTopoVolumesResults.md#ansys.meshing.prime.ExtractTopoVolumesResults)**
+
+  Return the ExtractTopoVolumesResults.
+
+**Return type:**
 
   [`ExtractTopoVolumesResults`](ansys.meshing.prime.ExtractTopoVolumesResults.md#ansys.meshing.prime.ExtractTopoVolumesResults)
 

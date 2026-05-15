@@ -6,19 +6,23 @@
 
 Results structure associated with smooth dihedral face nodes.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SmoothDihedralFaceNodesResults` object with default parameters.
+
+  Model to create a `SmoothDihedralFaceNodesResults` object with default parameters.
 
   **n_nodes_smoothed: int, optional**
-  : Number of dihedral face nodes smoothed.
+
+  Number of dihedral face nodes smoothed.
 
   **error_code: ErrorCode, optional**
-  : Error Code associated with creating offset surface.
+
+  Error Code associated with creating offset surface.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SmoothDihedralFaceNodesResults` object with provided parameters.
+
+  JSON dictionary to create a `SmoothDihedralFaceNodesResults` object with provided parameters.
 
 ### Examples
 

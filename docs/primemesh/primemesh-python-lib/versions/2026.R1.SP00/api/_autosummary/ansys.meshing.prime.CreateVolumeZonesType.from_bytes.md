@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.CreateVolumeZonesType.from_bytes"></a>
 
-#### CreateVolumeZonesType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* CreateVolumeZonesType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

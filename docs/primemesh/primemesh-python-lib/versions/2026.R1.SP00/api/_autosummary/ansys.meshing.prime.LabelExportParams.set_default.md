@@ -6,9 +6,10 @@
 
 Set the default values of the `LabelExportParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **label_expression_for_nodal_components: str, optional**
-  : Label expression to export matching labels as Nodal Components in CDB. Non-matching labels will be exported as Element Components.
+
+  Label expression to export matching labels as Nodal Components in CDB. Non-matching labels will be exported as Element Components.
 
 <!-- !! processed by numpydoc !! -->

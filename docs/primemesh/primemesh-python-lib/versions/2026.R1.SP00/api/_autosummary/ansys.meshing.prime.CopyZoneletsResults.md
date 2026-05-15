@@ -6,22 +6,27 @@
 
 Result structure associated with copying zonelets.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `CopyZoneletsResults` object with default parameters.
+
+  Model to create a `CopyZoneletsResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with failure of operation.
+
+  Error code associated with failure of operation.
 
   **copied_zonelets: Iterable[int], optional**
-  : Ids of the copied zonelets.
+
+  Ids of the copied zonelets.
 
   **copied_face_zonelets: Iterable[int], optional**
-  : Ids of the copied bounding faces of cell zonelets.
+
+  Ids of the copied bounding faces of cell zonelets.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `CopyZoneletsResults` object with provided parameters.
+
+  JSON dictionary to create a `CopyZoneletsResults` object with provided parameters.
 
 ### Examples
 

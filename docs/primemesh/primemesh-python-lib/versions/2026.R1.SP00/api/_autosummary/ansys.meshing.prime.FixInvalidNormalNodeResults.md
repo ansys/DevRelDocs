@@ -6,16 +6,19 @@
 
 Results associated with fix invalid average face normal at nodes.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `FixInvalidNormalNodeResults` object with default parameters.
+
+  Model to create a `FixInvalidNormalNodeResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with failure of operation.
+
+  Error code associated with failure of operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `FixInvalidNormalNodeResults` object with provided parameters.
+
+  JSON dictionary to create a `FixInvalidNormalNodeResults` object with provided parameters.
 
 ### Examples
 

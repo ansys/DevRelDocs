@@ -6,20 +6,23 @@
 
 Write a PyPrimeMesh size field (PSF) file to a file on disk.
 
-* **Parameters:**
+**Parameters:**
 
   **file_name**
-  : Path to the size field file on disk.
+
+  Path to the size field file on disk.
 
   **params**
-  : Parameters for writing the size field file.
 
-* **Returns:**
+  Parameters for writing the size field file.
 
-  [`FileWriteResults`](ansys.meshing.prime.FileWriteResults.md#ansys.meshing.prime.FileWriteResults)
-  : Results from writing the size field file.
+**Returns:**
 
-* **Return type:**
+  **[`FileWriteResults`](ansys.meshing.prime.FileWriteResults.md#ansys.meshing.prime.FileWriteResults)**
+
+  Results from writing the size field file.
+
+**Return type:**
 
   [`FileWriteResults`](ansys.meshing.prime.FileWriteResults.md#ansys.meshing.prime.FileWriteResults)
 

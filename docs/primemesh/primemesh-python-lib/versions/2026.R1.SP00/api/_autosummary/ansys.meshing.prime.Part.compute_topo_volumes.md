@@ -6,17 +6,19 @@
 
 Compute topovolumes by identifying closed volumes defined by topofaces of the part.
 
-* **Parameters:**
+**Parameters:**
 
   **params**
-  : Parameters to compute topovolumes.
 
-* **Returns:**
+  Parameters to compute topovolumes.
 
-  [`ComputeTopoVolumesResults`](ansys.meshing.prime.ComputeTopoVolumesResults.md#ansys.meshing.prime.ComputeTopoVolumesResults)
-  : Return the ComputeTopoVolumesResults.
+**Returns:**
 
-* **Return type:**
+  **[`ComputeTopoVolumesResults`](ansys.meshing.prime.ComputeTopoVolumesResults.md#ansys.meshing.prime.ComputeTopoVolumesResults)**
+
+  Return the ComputeTopoVolumesResults.
+
+**Return type:**
 
   [`ComputeTopoVolumesResults`](ansys.meshing.prime.ComputeTopoVolumesResults.md#ansys.meshing.prime.ComputeTopoVolumesResults)
 

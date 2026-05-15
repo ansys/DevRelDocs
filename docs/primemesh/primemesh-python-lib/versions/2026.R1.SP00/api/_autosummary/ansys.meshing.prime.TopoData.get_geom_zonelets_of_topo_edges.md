@@ -6,17 +6,18 @@
 
 Get the geometry edge zonelets for the provided topoedge ids.
 
-* **Parameters:**
+**Parameters:**
 
   **topo_edges**
-  : Ids of the topoedges.
 
-* **Returns:**
+  Ids of the topoedges.
+
+**Returns:**
 
   `Iterable`[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
-  : Return the geometry edge zonelet ids.
+  Return the geometry edge zonelet ids.
 
-* **Return type:**
+**Return type:**
 
   [`Iterable`](https://docs.python.org/3.11/library/typing.html#typing.Iterable)[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
 

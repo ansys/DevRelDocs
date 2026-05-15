@@ -6,17 +6,19 @@
 
 Sets the source surface scope of thin volume control.
 
-* **Parameters:**
+**Parameters:**
 
   **entities**
-  : Scope definition source face entities.
 
-* **Returns:**
+  Scope definition source face entities.
 
-  [`SetScopeResults`](ansys.meshing.prime.SetScopeResults.md#ansys.meshing.prime.SetScopeResults)
-  : Returns SetScopeResults.
+**Returns:**
 
-* **Return type:**
+  **[`SetScopeResults`](ansys.meshing.prime.SetScopeResults.md#ansys.meshing.prime.SetScopeResults)**
+
+  Returns SetScopeResults.
+
+**Return type:**
 
   [`SetScopeResults`](ansys.meshing.prime.SetScopeResults.md#ansys.meshing.prime.SetScopeResults)
 

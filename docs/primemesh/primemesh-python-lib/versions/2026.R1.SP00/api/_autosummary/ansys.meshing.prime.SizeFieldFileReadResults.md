@@ -6,19 +6,23 @@
 
 Results of size field file read operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SizeFieldFileReadResults` object with default parameters.
+
+  Model to create a `SizeFieldFileReadResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code if size field file read operation was unsuccessful.
+
+  Error code if size field file read operation was unsuccessful.
 
   **size_field_ids: Iterable[int], optional**
-  : Ids of size fields read by read size field operation.
+
+  Ids of size fields read by read size field operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SizeFieldFileReadResults` object with provided parameters.
+
+  JSON dictionary to create a `SizeFieldFileReadResults` object with provided parameters.
 
 ### Examples
 

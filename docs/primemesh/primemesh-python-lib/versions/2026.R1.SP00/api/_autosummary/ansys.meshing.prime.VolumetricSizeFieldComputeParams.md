@@ -6,27 +6,33 @@
 
 Parameters associated with the compute volumetric size field operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `VolumetricSizeFieldComputeParams` object with default parameters.
+
+  Model to create a `VolumetricSizeFieldComputeParams` object with default parameters.
 
   **enable_multi_threading: bool, optional**
-  : Option to compute volumetric size field in parallel using multithreads.
+
+  Option to compute volumetric size field in parallel using multithreads.
 
   **enable_periodicity: bool, optional**
-  : Option to enable periodic size field computations.
+
+  Option to enable periodic size field computations.
 
   **periodic_params: SFPeriodicParams, optional**
-  : Periodic parameters to compute the size field.
+
+  Periodic parameters to compute the size field.
 
   **growth_rate_lower_bound: float, optional**
-  : Lower bound for growth rate.
+
+  Lower bound for growth rate.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `VolumetricSizeFieldComputeParams` object with provided parameters.
+
+  JSON dictionary to create a `VolumetricSizeFieldComputeParams` object with provided parameters.
 
 ### Examples
 

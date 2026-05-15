@@ -6,25 +6,31 @@
 
 LeakPreventionParams defines leakage prevention control parameters for wrapper.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `LeakPreventionParams` object with default parameters.
+
+  Model to create a `LeakPreventionParams` object with default parameters.
 
   **material_points: List[str], optional**
-  : Material points used for leak prevention control.
+
+  Material points used for leak prevention control.
 
   **scope: ScopeDefinition, optional**
-  : Scope used for leak prevention control.
+
+  Scope used for leak prevention control.
 
   **max_hole_size: float, optional**
-  : Maximum hole size to prevent leakage into region.
+
+  Maximum hole size to prevent leakage into region.
 
   **n_expansion_layers: int, optional**
-  : Number of layers to expand leaking region.
+
+  Number of layers to expand leaking region.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `LeakPreventionParams` object with provided parameters.
+
+  JSON dictionary to create a `LeakPreventionParams` object with provided parameters.
 
 ### Examples
 

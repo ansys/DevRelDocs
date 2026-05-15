@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.PartCreationType.from_bytes"></a>
 
-#### PartCreationType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* PartCreationType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

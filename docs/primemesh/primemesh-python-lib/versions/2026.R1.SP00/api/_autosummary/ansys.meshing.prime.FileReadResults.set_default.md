@@ -6,9 +6,10 @@
 
 Set the default values of the `FileReadResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code if file read operation was unsuccessful.
+
+  Error code if file read operation was unsuccessful.
 
 <!-- !! processed by numpydoc !! -->

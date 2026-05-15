@@ -6,17 +6,19 @@
 
 Gets the zone with the provided name.
 
-* **Parameters:**
+**Parameters:**
 
   **zone_name**
-  : Name of the zone.
 
-* **Returns:**
+  Name of the zone.
 
-  [`int`](https://docs.python.org/3.11/library/functions.html#int)
-  : Returns id of the zone.
+**Returns:**
 
-* **Return type:**
+  **[`int`](https://docs.python.org/3.11/library/functions.html#int)**
+
+  Returns id of the zone.
+
+**Return type:**
 
   [`int`](https://docs.python.org/3.11/library/functions.html#int)
 

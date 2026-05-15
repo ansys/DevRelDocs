@@ -6,17 +6,19 @@
 
 Get a periodic control by name.
 
-* **Parameters:**
+**Parameters:**
 
   **name**
-  : Name of the periodic control.
 
-* **Returns:**
+  Name of the periodic control.
 
-  [`PeriodicControl`](ansys.meshing.prime.PeriodicControl.md#ansys.meshing.prime.PeriodicControl)
-  : Periodic control.
+**Returns:**
 
-* **Return type:**
+  **[`PeriodicControl`](ansys.meshing.prime.PeriodicControl.md#ansys.meshing.prime.PeriodicControl)**
+
+  Periodic control.
+
+**Return type:**
 
   `PeriodicControl`
 

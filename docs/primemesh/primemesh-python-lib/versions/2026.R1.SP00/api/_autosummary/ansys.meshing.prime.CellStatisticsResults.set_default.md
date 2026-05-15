@@ -6,12 +6,14 @@
 
 Set the default values of the `CellStatisticsResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **volume: float, optional**
-  : Cumulative volume of all the cell elements of selected entities.
+
+  Cumulative volume of all the cell elements of selected entities.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the cell statistics function.
+
+  Error code associated with the cell statistics function.
 
 <!-- !! processed by numpydoc !! -->

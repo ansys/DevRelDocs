@@ -6,17 +6,19 @@
 
 Delete parts and their contents.
 
-* **Parameters:**
+**Parameters:**
 
   **part_ids**
-  : IDs of parts to delete.
 
-* **Returns:**
+  IDs of parts to delete.
 
-  [`DeleteResults`](ansys.meshing.prime.DeleteResults.md#ansys.meshing.prime.DeleteResults)
-  : Results from deleting parts and their contents.
+**Returns:**
 
-* **Return type:**
+  **[`DeleteResults`](ansys.meshing.prime.DeleteResults.md#ansys.meshing.prime.DeleteResults)**
+
+  Results from deleting parts and their contents.
+
+**Return type:**
 
   [`DeleteResults`](ansys.meshing.prime.DeleteResults.md#ansys.meshing.prime.DeleteResults)
 

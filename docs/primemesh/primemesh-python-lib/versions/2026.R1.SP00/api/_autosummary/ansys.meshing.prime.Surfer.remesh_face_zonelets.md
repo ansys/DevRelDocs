@@ -6,26 +6,31 @@
 
 Perform meshing on face zonelets with given parameters.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : ID of part.
+
+  ID of part.
 
   **face_zonelets**
-  : IDs of the face zonelets.
+
+  IDs of the face zonelets.
 
   **edge_zonelets**
-  : IDs of the edge zonelets.
+
+  IDs of the edge zonelets.
 
   **params**
-  : Surfer parameters.
 
-* **Returns:**
+  Surfer parameters.
 
-  [`SurferResults`](ansys.meshing.prime.SurferResults.md#ansys.meshing.prime.SurferResults)
-  : Results from meshing the face zonelets.
+**Returns:**
 
-* **Return type:**
+  **[`SurferResults`](ansys.meshing.prime.SurferResults.md#ansys.meshing.prime.SurferResults)**
+
+  Results from meshing the face zonelets.
+
+**Return type:**
 
   [`SurferResults`](ansys.meshing.prime.SurferResults.md#ansys.meshing.prime.SurferResults)
 

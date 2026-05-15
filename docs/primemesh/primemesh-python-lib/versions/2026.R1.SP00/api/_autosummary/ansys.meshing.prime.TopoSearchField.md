@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.TopoSearchField"></a>
 
-### *class* ansys.meshing.prime.TopoSearchField(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.TopoSearchField(\*values)
 
 Toposearch diagnostic field.
 

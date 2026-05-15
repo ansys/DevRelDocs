@@ -6,18 +6,22 @@
 
 Set the default values of the `CreateMaterialPointResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **id: int, optional**
-  : Id of the material point created.
+
+  Id of the material point created.
 
   **assigned_name: str, optional**
-  : Assigned name of the material point created.
+
+  Assigned name of the material point created.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with create material point operation.
+
+  Error code associated with create material point operation.
 
   **warning_codes: List[WarningCode], optional**
-  : Warning codes associated with create material point operation.
+
+  Warning codes associated with create material point operation.
 
 <!-- !! processed by numpydoc !! -->

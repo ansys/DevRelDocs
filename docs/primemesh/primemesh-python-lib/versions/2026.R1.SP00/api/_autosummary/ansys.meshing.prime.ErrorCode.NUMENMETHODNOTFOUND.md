@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.ErrorCode.NUMENMETHODNOTFOUND"></a>
 
-#### ErrorCode.NUMENMETHODNOTFOUND *= 3801*
+#### ErrorCode.NUMENMETHODNOTFOUND *= 3901*
 
 Could not find numen method.
 

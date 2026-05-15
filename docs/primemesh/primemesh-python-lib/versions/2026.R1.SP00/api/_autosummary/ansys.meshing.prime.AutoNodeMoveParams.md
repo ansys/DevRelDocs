@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="autonodemoveparams"></a>
-
 # AutoNodeMoveParams
 
 <a id="ansys.meshing.prime.AutoNodeMoveParams"></a>
@@ -10,31 +6,39 @@
 
 Parameters used to improve volume mesh by auto node move.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `AutoNodeMoveParams` object with default parameters.
+
+  Model to create a `AutoNodeMoveParams` object with default parameters.
 
   **quality_measure: CellQualityMeasure, optional**
-  : Specify cell quality measure to be used for volume mesh improvement. The default value for cell quality measure is skewness.
+
+  Specify cell quality measure to be used for volume mesh improvement. The default value for cell quality measure is skewness.
 
   **target_quality: float, optional**
-  : Specify target quality used for the mesh improvement based on specified quality measure.
+
+  Specify target quality used for the mesh improvement based on specified quality measure.
 
   **dihedral_angle: float, optional**
-  : Dihedral angle used to mantain features of boundary face zonelets.
+
+  Dihedral angle used to maintain features of boundary face zonelets.
 
   **n_iterations_per_node: int, optional**
-  : Number of iterations per node to be moved.
+
+  Number of iterations per node to be moved.
 
   **restrict_boundary_nodes_along_surface: bool, optional**
-  : Option to restrict the movement of the boundary node to the plane containing the boundary faces sharing the boundary node.
+
+  Option to restrict the movement of the boundary node to the plane containing the boundary faces sharing the boundary node.
 
   **n_attempts: int, optional**
-  : Number of attempts to improve specified quality measure by node movement.
+
+  Number of attempts to improve specified quality measure by node movement.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `AutoNodeMoveParams` object with provided parameters.
+
+  JSON dictionary to create a `AutoNodeMoveParams` object with provided parameters.
 
 ### Examples
 
@@ -55,7 +59,7 @@ Parameters used to improve volume mesh by auto node move.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| [`AutoNodeMoveParams.dihedral_angle`](ansys.meshing.prime.AutoNodeMoveParams.dihedral_angle.md#ansys.meshing.prime.AutoNodeMoveParams.dihedral_angle)                                                                      | Dihedral angle used to mantain features of boundary face zonelets.                                                         |
+| [`AutoNodeMoveParams.dihedral_angle`](ansys.meshing.prime.AutoNodeMoveParams.dihedral_angle.md#ansys.meshing.prime.AutoNodeMoveParams.dihedral_angle)                                                                      | Dihedral angle used to maintain features of boundary face zonelets.                                                        |
 | [`AutoNodeMoveParams.n_attempts`](ansys.meshing.prime.AutoNodeMoveParams.n_attempts.md#ansys.meshing.prime.AutoNodeMoveParams.n_attempts)                                                                                  | Number of attempts to improve specified quality measure by node movement.                                                  |
 | [`AutoNodeMoveParams.n_iterations_per_node`](ansys.meshing.prime.AutoNodeMoveParams.n_iterations_per_node.md#ansys.meshing.prime.AutoNodeMoveParams.n_iterations_per_node)                                                 | Number of iterations per node to be moved.                                                                                 |
 | [`AutoNodeMoveParams.quality_measure`](ansys.meshing.prime.AutoNodeMoveParams.quality_measure.md#ansys.meshing.prime.AutoNodeMoveParams.quality_measure)                                                                   | Specify cell quality measure to be used for volume mesh improvement.                                                       |

@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.PrismControlOffsetType.from_bytes"></a>
 
-#### PrismControlOffsetType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* PrismControlOffsetType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

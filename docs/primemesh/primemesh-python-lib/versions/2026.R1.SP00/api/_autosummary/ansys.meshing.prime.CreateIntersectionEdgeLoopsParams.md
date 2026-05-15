@@ -6,16 +6,19 @@
 
 Parameters used to calculate edge loops created by intersection of two groups of face zonelets.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `CreateIntersectionEdgeLoopsParams` object with default parameters.
+
+  Model to create a `CreateIntersectionEdgeLoopsParams` object with default parameters.
 
   **label_name: str, optional**
-  : Label name to be assigned to extracted features.
+
+  Label name to be assigned to extracted features.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `CreateIntersectionEdgeLoopsParams` object with provided parameters.
+
+  JSON dictionary to create a `CreateIntersectionEdgeLoopsParams` object with provided parameters.
 
 ### Examples
 

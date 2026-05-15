@@ -6,12 +6,14 @@
 
 Set the default values of the `ImportFluentMeshingMeshParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **append: bool, optional**
-  : Option to append imported mesh to existing mesh instead of resetting model to imported mesh.
+
+  Option to append imported mesh to existing mesh instead of resetting model to imported mesh.
 
   **enable_multi_threading: bool, optional**
-  : Option to import multiple files in parallel using multithreading.
+
+  Option to import multiple files in parallel using multithreading.
 
 <!-- !! processed by numpydoc !! -->

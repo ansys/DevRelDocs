@@ -6,12 +6,13 @@
 
 Get the cell zonelet ids in the part.
 
-* **Returns:**
+
+**Returns:**
 
   `Iterable`[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
-  : Return the ids of cell zonelets. Returns an empty list for a topology part.
+  Return the ids of cell zonelets. Returns an empty list for a topology part.
 
-* **Return type:**
+**Return type:**
 
   [`Iterable`](https://docs.python.org/3.11/library/typing.html#typing.Iterable)[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
 

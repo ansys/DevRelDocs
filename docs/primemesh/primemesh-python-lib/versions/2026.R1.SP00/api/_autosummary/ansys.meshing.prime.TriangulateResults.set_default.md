@@ -6,12 +6,14 @@
 
 Set the default values of the `TriangulateResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code associated with failure of the operation.
+
+  Error code associated with failure of the operation.
 
   **n_faces_triangulated: int, optional**
-  : Number of faces that were triangulated.
+
+  Number of faces that were triangulated.
 
 <!-- !! processed by numpydoc !! -->

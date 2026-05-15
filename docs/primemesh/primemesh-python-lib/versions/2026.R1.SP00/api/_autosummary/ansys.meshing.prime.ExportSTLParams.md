@@ -6,16 +6,19 @@
 
 Parameters to export STL file.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ExportSTLParams` object with default parameters.
+
+  Model to create a `ExportSTLParams` object with default parameters.
 
   **part_ids: Iterable[int], optional**
-  : Ids of parts to export.
+
+  Ids of parts to export.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ExportSTLParams` object with provided parameters.
+
+  JSON dictionary to create a `ExportSTLParams` object with provided parameters.
 
 ### Examples
 

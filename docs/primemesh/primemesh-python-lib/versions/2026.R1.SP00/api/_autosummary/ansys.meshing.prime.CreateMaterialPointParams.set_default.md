@@ -6,9 +6,10 @@
 
 Set the default values of the `CreateMaterialPointParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **type: MaterialPointType, optional**
-  : Defines the type of material point.
+
+  Defines the type of material point.
 
 <!-- !! processed by numpydoc !! -->

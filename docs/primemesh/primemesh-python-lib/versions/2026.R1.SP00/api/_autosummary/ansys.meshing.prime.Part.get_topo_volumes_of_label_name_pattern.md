@@ -6,20 +6,22 @@
 
 Gets the topovolumes of labels of the given label name expression.
 
-* **Parameters:**
+**Parameters:**
 
   **label_name_pattern**
-  : Name pattern to be matched with topovolume name
+
+  Name pattern to be matched with topovolume name
 
   **name_pattern_params**
-  : Name pattern parameters used to match topovolume name pattern.
 
-* **Returns:**
+  Name pattern parameters used to match topovolume name pattern.
+
+**Returns:**
 
   `Iterable`[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
-  : Returns the ids of the topovolumes.
+  Returns the ids of the topovolumes.
 
-* **Return type:**
+**Return type:**
 
   [`Iterable`](https://docs.python.org/3.11/library/typing.html#typing.Iterable)[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
 

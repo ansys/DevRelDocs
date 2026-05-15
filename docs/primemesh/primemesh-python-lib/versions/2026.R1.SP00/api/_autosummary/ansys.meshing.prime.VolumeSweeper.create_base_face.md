@@ -10,23 +10,27 @@ This method creates a face at the specified origin and perpendicular to the
 specified direction. Also, it imprints model edges on the face, makes necessary
 edge repairs, and duplicates relevant size controls on the base face.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : ID of part.
+
+  ID of part.
 
   **topo_volume_ids**
-  : IDs of the volumes to mesh.
+
+  IDs of the volumes to mesh.
 
   **params**
-  : Mesh stacker parameters.
 
-* **Returns:**
+  Mesh stacker parameters.
 
-  [`MeshStackerResults`](ansys.meshing.prime.MeshStackerResults.md#ansys.meshing.prime.MeshStackerResults)
-  : Results from creating the face.
+**Returns:**
 
-* **Return type:**
+  **[`MeshStackerResults`](ansys.meshing.prime.MeshStackerResults.md#ansys.meshing.prime.MeshStackerResults)**
+
+  Results from creating the face.
+
+**Return type:**
 
   [`MeshStackerResults`](ansys.meshing.prime.MeshStackerResults.md#ansys.meshing.prime.MeshStackerResults)
 

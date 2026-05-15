@@ -6,15 +6,18 @@
 
 Set the default values of the `SubtractZoneletsParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **retain_cutter: bool, optional**
-  : Retain the zonelets used for removal.
+
+  Retain the zonelets used for removal.
 
   **extract_edges: bool, optional**
-  : Extract edges of intersection during subtract.
+
+  Extract edges of intersection during subtract.
 
   **trace_edges: bool, optional**
-  : Trace edges of intersection on target. Only works if extractEdges is true.
+
+  Trace edges of intersection on target. Only works if extractEdges is true.
 
 <!-- !! processed by numpydoc !! -->

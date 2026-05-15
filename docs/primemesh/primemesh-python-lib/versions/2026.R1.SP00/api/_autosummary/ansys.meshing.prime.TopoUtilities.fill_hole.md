@@ -6,20 +6,23 @@
 
 Fill holes bounded by given topoedges.
 
-* **Parameters:**
+**Parameters:**
 
   **topo_edges**
-  : Ids of topoedges to be used to find holes.
+
+  Ids of topoedges to be used to find holes.
 
   **params**
-  : Parameters to fill holes.
 
-* **Returns:**
+  Parameters to fill holes.
 
-  [`TopoFillHoleResult`](ansys.meshing.prime.TopoFillHoleResult.md#ansys.meshing.prime.TopoFillHoleResult)
-  : Return the TopoFillHoleResult.
+**Returns:**
 
-* **Return type:**
+  **[`TopoFillHoleResult`](ansys.meshing.prime.TopoFillHoleResult.md#ansys.meshing.prime.TopoFillHoleResult)**
+
+  Return the TopoFillHoleResult.
+
+**Return type:**
 
   [`TopoFillHoleResult`](ansys.meshing.prime.TopoFillHoleResult.md#ansys.meshing.prime.TopoFillHoleResult)
 

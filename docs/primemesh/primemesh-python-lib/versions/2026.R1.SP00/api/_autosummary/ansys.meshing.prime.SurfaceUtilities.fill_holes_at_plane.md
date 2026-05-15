@@ -6,26 +6,31 @@
 
 Fill holes in given face zonelets at given plane.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : Id of part to associate face zonelets created to fill hole.
+
+  Id of part to associate face zonelets created to fill hole.
 
   **face_zonelets**
-  : Ids of face zonelets to be used to find holes.
+
+  Ids of face zonelets to be used to find holes.
 
   **plane_points**
-  : Coordinates of three points to define plane.
+
+  Coordinates of three points to define plane.
 
   **params**
-  : Parameters to fill holes.
 
-* **Returns:**
+  Parameters to fill holes.
 
-  [`FillHolesAtPlaneResults`](ansys.meshing.prime.FillHolesAtPlaneResults.md#ansys.meshing.prime.FillHolesAtPlaneResults)
-  : Returns the FillHolesAtPlaneResults.
+**Returns:**
 
-* **Return type:**
+  **[`FillHolesAtPlaneResults`](ansys.meshing.prime.FillHolesAtPlaneResults.md#ansys.meshing.prime.FillHolesAtPlaneResults)**
+
+  Returns the FillHolesAtPlaneResults.
+
+**Return type:**
 
   [`FillHolesAtPlaneResults`](ansys.meshing.prime.FillHolesAtPlaneResults.md#ansys.meshing.prime.FillHolesAtPlaneResults)
 

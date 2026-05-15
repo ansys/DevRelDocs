@@ -6,10 +6,11 @@
 
 Sets geometry scope to given scope.
 
-* **Parameters:**
+**Parameters:**
 
   **scope**
-  : ScopeDefinition to scope entities for wrapping.
+
+  ScopeDefinition to scope entities for wrapping.
 
 ### Examples
 

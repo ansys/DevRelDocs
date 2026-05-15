@@ -6,12 +6,14 @@
 
 Gets the scope for the volume control.
 
-* **Returns:**
 
-  [`ScopeDefinition`](ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition)
-  : Returns scope of the volume control.
+**Returns:**
 
-* **Return type:**
+  **[`ScopeDefinition`](ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition)**
+
+  Returns scope of the volume control.
+
+**Return type:**
 
   [`ScopeDefinition`](ansys.meshing.prime.ScopeDefinition.md#ansys.meshing.prime.ScopeDefinition)
 

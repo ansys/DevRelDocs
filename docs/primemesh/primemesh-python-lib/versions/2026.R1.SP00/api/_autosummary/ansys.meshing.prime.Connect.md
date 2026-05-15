@@ -8,10 +8,11 @@ Connect face zonelets.
 
 Perform surface connection using various connect algorithms on face zonelets.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create Connect object.
+
+  Server model to create Connect object.
 
 ### Notes
 

@@ -6,13 +6,15 @@
 
 Performs various general topology utility algorithms. For example, fill hole.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create TopoUtilities object.
+
+  Server model to create TopoUtilities object.
 
   **part_id**
-  : Id of the part.
+
+  Id of the part.
 
 <!-- !! processed by numpydoc !! -->
 

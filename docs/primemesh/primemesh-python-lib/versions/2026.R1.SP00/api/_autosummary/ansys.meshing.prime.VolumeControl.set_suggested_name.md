@@ -6,16 +6,19 @@
 
 Set the unique name for the volume control based on a suggested name.
 
-* **Parameters:**
+**Parameters:**
+
   **name**
-  : Suggested name for the volume control.
 
-* **Returns:**
+  Suggested name for the volume control.
 
-  [`SetNameResults`](ansys.meshing.prime.SetNameResults.md#ansys.meshing.prime.SetNameResults)
-  : Newly suggested name of the volume control.
+**Returns:**
 
-* **Return type:**
+  **[`SetNameResults`](ansys.meshing.prime.SetNameResults.md#ansys.meshing.prime.SetNameResults)**
+
+  Newly suggested name of the volume control.
+
+**Return type:**
 
   [`SetNameResults`](ansys.meshing.prime.SetNameResults.md#ansys.meshing.prime.SetNameResults)
 

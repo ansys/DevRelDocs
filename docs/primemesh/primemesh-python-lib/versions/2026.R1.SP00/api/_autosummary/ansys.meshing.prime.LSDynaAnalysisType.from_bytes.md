@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.LSDynaAnalysisType.from_bytes"></a>
 
-#### LSDynaAnalysisType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* LSDynaAnalysisType.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

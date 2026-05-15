@@ -6,19 +6,23 @@
 
 A structure containing some or all face zonelet ids available in a part.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `PartZonelets` object with default parameters.
+
+  Model to create a `PartZonelets` object with default parameters.
 
   **part_id: int, optional**
-  : Id of part.
+
+  Id of part.
 
   **face_zonelets: Iterable[int], optional**
-  : List of face zonelet ids available in the part.
+
+  List of face zonelet ids available in the part.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `PartZonelets` object with provided parameters.
+
+  JSON dictionary to create a `PartZonelets` object with provided parameters.
 
 ### Examples
 

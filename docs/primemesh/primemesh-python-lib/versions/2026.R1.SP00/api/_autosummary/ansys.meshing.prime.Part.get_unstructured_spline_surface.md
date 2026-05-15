@@ -6,12 +6,14 @@
 
 Gets the unstructured surface spline for the part.
 
-* **Returns:**
 
-  [`IGAUnstructuredSplineSurf`](ansys.meshing.prime.IGAUnstructuredSplineSurf.md#ansys.meshing.prime.IGAUnstructuredSplineSurf)
-  : Returns the surface spline structure.
+**Returns:**
 
-* **Return type:**
+  **[`IGAUnstructuredSplineSurf`](ansys.meshing.prime.IGAUnstructuredSplineSurf.md#ansys.meshing.prime.IGAUnstructuredSplineSurf)**
+
+  Returns the surface spline structure.
+
+**Return type:**
 
   [`IGAUnstructuredSplineSurf`](ansys.meshing.prime.IGAUnstructuredSplineSurf.md#ansys.meshing.prime.IGAUnstructuredSplineSurf)
 

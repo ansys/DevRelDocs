@@ -6,27 +6,34 @@
 
 Set the default values of the `WrapperCloseGapsParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **target: ScopeDefinition, optional**
-  : Scope of target face zonelets to patch gaps between scope and target. If empty scope is provided, CloseGaps patch gaps within scope.
+
+  Scope of target face zonelets to patch gaps between scope and target. If empty scope is provided, CloseGaps patch gaps within scope.
 
   **gap_size: float, optional**
-  : Maximum gap size to be closed.
+
+  Maximum gap size to be closed.
 
   **material_point_name: str, optional**
-  : Material point name near the gaps to be closed.
+
+  Material point name near the gaps to be closed.
 
   **suggested_part_name: str, optional**
-  : Suggested part name for created patching surfaces.
+
+  Suggested part name for created patching surfaces.
 
   **number_of_threads: int, optional**
-  : Number of threads for multithreading.
+
+  Number of threads for multithreading.
 
   **create_new_part: bool, optional**
-  : Creates a new gap closure part. If set to false, merge the patches to the adjacent face zonelet with the highest face count in the input.
+
+  Creates a new gap closure part. If set to false, merge the patches to the adjacent face zonelet with the highest face count in the input.
 
   **resolution_factor: float, optional**
-  : Factor to resolve the smallest gap for the given gap size.
+
+  Factor to resolve the smallest gap for the given gap size.
 
 <!-- !! processed by numpydoc !! -->

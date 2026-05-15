@@ -6,19 +6,23 @@
 
 Parameters to control part summary results.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `PartSummaryParams` object with default parameters.
+
+  Model to create a `PartSummaryParams` object with default parameters.
 
   **print_id: bool, optional**
-  : Boolean to control print ids. The default is false.
+
+  Boolean to control print ids. The default is false.
 
   **print_mesh: bool, optional**
-  : Boolean to control print mesh information. The default is true.
+
+  Boolean to control print mesh information. The default is true.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `PartSummaryParams` object with provided parameters.
+
+  JSON dictionary to create a `PartSummaryParams` object with provided parameters.
 
 ### Examples
 

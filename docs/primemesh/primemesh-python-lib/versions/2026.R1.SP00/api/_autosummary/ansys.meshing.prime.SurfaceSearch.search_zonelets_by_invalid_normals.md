@@ -8,24 +8,27 @@ Search face zonelets to identify faces with invalid normals.
 
 Search face zonelets to identify faces with invalid normals.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : Id of part.
+
+  Id of part.
 
   **face_zonelets**
-  : Ids of face zonelets.
+
+  Ids of face zonelets.
 
   **register_id**
-  : Id of register.
 
-* **Returns:**
+  Id of register.
 
+**Returns:**
 
-  [`SearchByInvalidNormalsResults`](ansys.meshing.prime.SearchByInvalidNormalsResults.md#ansys.meshing.prime.SearchByInvalidNormalsResults)
-  : Returns the SearchByInvalidNormalsResults.
+  **[`SearchByInvalidNormalsResults`](ansys.meshing.prime.SearchByInvalidNormalsResults.md#ansys.meshing.prime.SearchByInvalidNormalsResults)**
 
-* **Return type:**
+  Returns the SearchByInvalidNormalsResults.
+
+**Return type:**
 
   [`SearchByInvalidNormalsResults`](ansys.meshing.prime.SearchByInvalidNormalsResults.md#ansys.meshing.prime.SearchByInvalidNormalsResults)
 

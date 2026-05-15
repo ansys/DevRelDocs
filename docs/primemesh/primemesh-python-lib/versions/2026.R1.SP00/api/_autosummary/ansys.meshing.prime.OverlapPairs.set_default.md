@@ -6,12 +6,14 @@
 
 Set the default values of the `OverlapPairs` object.
 
-* **Parameters:**
+**Parameters:**
 
   **zone_id0: int, optional**
-  : Id of one overlapping face zonelet.
+
+  Id of one overlapping face zonelet.
 
   **zone_id1: int, optional**
-  : Id of other overlapping face zonelet.
+
+  Id of other overlapping face zonelet.
 
 <!-- !! processed by numpydoc !! -->

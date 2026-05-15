@@ -6,17 +6,19 @@
 
 Sets the unique name for the prism control based on the suggested name.
 
-* **Parameters:**
+**Parameters:**
 
   **name**
-  : Suggested name for the prism control.
 
-* **Returns:**
+  Suggested name for the prism control.
 
-  [`SetNameResults`](ansys.meshing.prime.SetNameResults.md#ansys.meshing.prime.SetNameResults)
-  : Returns the SetNameResults.
+**Returns:**
 
-* **Return type:**
+  **[`SetNameResults`](ansys.meshing.prime.SetNameResults.md#ansys.meshing.prime.SetNameResults)**
+
+  Returns the SetNameResults.
+
+**Return type:**
 
   [`SetNameResults`](ansys.meshing.prime.SetNameResults.md#ansys.meshing.prime.SetNameResults)
 

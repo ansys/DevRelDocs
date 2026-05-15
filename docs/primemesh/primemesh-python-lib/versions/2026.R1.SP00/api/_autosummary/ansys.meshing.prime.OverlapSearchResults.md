@@ -6,22 +6,27 @@
 
 Provides ids of a pair of overlapping face zonelets.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `OverlapSearchResults` object with default parameters.
+
+  Model to create a `OverlapSearchResults` object with default parameters.
 
   **n_pairs: int, optional**
-  : Number of pairs.
+
+  Number of pairs.
 
   **overlap_pairs: List[OverlapPairs], optional**
-  : Ids corresponding to pairs of overlapping face zonelets.
+
+  Ids corresponding to pairs of overlapping face zonelets.
 
   **error_code: ErrorCode, optional**
-  : Error Code associated with failure of operation.
+
+  Error Code associated with failure of operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `OverlapSearchResults` object with provided parameters.
+
+  JSON dictionary to create a `OverlapSearchResults` object with provided parameters.
 
 ### Examples
 

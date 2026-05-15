@@ -6,23 +6,27 @@
 
 Transforms given zonelets using provided transform parameters.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : Part id of zonelets to be transformed.
+
+  Part id of zonelets to be transformed.
 
   **zonelets**
-  : Ids of zonelets.
+
+  Ids of zonelets.
 
   **params**
-  : Transform parameters.
 
-* **Returns:**
+  Transform parameters.
 
-  [`TransformResults`](ansys.meshing.prime.TransformResults.md#ansys.meshing.prime.TransformResults)
-  : Returns the transform results.
+**Returns:**
 
-* **Return type:**
+  **[`TransformResults`](ansys.meshing.prime.TransformResults.md#ansys.meshing.prime.TransformResults)**
+
+  Returns the transform results.
+
+**Return type:**
 
   [`TransformResults`](ansys.meshing.prime.TransformResults.md#ansys.meshing.prime.TransformResults)
 

@@ -6,15 +6,18 @@
 
 Set the default values of the `DeadRegion` object.
 
-* **Parameters:**
+**Parameters:**
 
   **face_zonelet_ids: Iterable[int], optional**
-  : Face zonelets enclosing dead region.
+
+  Face zonelets enclosing dead region.
 
   **dead_material_points: List[str], optional**
-  : Material points to identify dead region.
+
+  Material points to identify dead region.
 
   **hole_size: float, optional**
-  : Maximum hole size used for patching.
+
+  Maximum hole size used for patching.
 
 <!-- !! processed by numpydoc !! -->

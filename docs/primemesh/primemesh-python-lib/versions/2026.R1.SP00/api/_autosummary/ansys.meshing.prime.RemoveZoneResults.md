@@ -6,19 +6,23 @@
 
 Results associated with the remove zone operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `RemoveZoneResults` object with default parameters.
+
+  Model to create a `RemoveZoneResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the failure of operation.
+
+  Error code associated with the failure of operation.
 
   **warning_codes: List[WarningCode], optional**
-  : Warning codes associated with the remove zone operation.
+
+  Warning codes associated with the remove zone operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `RemoveZoneResults` object with provided parameters.
+
+  JSON dictionary to create a `RemoveZoneResults` object with provided parameters.
 
 ### Examples
 

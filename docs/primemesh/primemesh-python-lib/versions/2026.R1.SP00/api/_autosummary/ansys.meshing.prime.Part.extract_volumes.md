@@ -6,20 +6,23 @@
 
 Extract volumes connected to given face zonelets.
 
-* **Parameters:**
+**Parameters:**
 
   **face_zonelets**
-  : Ids of face zonelets connected to volumes.
+
+  Ids of face zonelets connected to volumes.
 
   **params**
-  : Parameters to compute volumes.
 
-* **Returns:**
+  Parameters to compute volumes.
 
-  [`ExtractVolumesResults`](ansys.meshing.prime.ExtractVolumesResults.md#ansys.meshing.prime.ExtractVolumesResults)
-  : Return the ExtractVolumesResults.
+**Returns:**
 
-* **Return type:**
+  **[`ExtractVolumesResults`](ansys.meshing.prime.ExtractVolumesResults.md#ansys.meshing.prime.ExtractVolumesResults)**
+
+  Return the ExtractVolumesResults.
+
+**Return type:**
 
   [`ExtractVolumesResults`](ansys.meshing.prime.ExtractVolumesResults.md#ansys.meshing.prime.ExtractVolumesResults)
 

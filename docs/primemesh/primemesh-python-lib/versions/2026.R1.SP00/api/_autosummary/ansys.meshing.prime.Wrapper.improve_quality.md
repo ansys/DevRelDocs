@@ -6,20 +6,23 @@
 
 Improve the surface quality and resolve connectivity issues like intersections, multi, free, spikes, point contacts and so on.
 
-* **Parameters:**
+**Parameters:**
 
   **part_id**
-  : Id of the part.
+
+  Id of the part.
 
   **params**
-  : Wrapper improve quality parameters.
 
-* **Returns:**
+  Wrapper improve quality parameters.
 
-  [`WrapperImproveResult`](ansys.meshing.prime.WrapperImproveResult.md#ansys.meshing.prime.WrapperImproveResult)
-  : Return the Wrapper improve result.
+**Returns:**
 
-* **Return type:**
+  **[`WrapperImproveResult`](ansys.meshing.prime.WrapperImproveResult.md#ansys.meshing.prime.WrapperImproveResult)**
+
+  Return the Wrapper improve result.
+
+**Return type:**
 
   [`WrapperImproveResult`](ansys.meshing.prime.WrapperImproveResult.md#ansys.meshing.prime.WrapperImproveResult)
 

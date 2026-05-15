@@ -6,23 +6,27 @@
 
 Finds the edge zonelets formed by intersection of two face zonelets. Performs n to n intersection of face zonelets present in part face zonelets with those in intersecting part face zonelets depending on the input parameters. Order of input does not matter.
 
-* **Parameters:**
+**Parameters:**
 
   **part_face_zonelets**
-  : List of part zonelets to be intersected.
+
+  List of part zonelets to be intersected.
 
   **intersecting_part_face_zonelets**
-  : List of part zonelets to intersect with.
+
+  List of part zonelets to intersect with.
 
   **params**
-  : Parameter to control edge extraction.
 
-* **Returns:**
+  Parameter to control edge extraction.
 
-  [`CreateIntersectionEdgeLoopsResults`](ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.md#ansys.meshing.prime.CreateIntersectionEdgeLoopsResults)
-  : Returns the CreateIntersectionEdgeLoopsResults.
+**Returns:**
 
-* **Return type:**
+  **[`CreateIntersectionEdgeLoopsResults`](ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.md#ansys.meshing.prime.CreateIntersectionEdgeLoopsResults)**
+
+  Returns the CreateIntersectionEdgeLoopsResults.
+
+**Return type:**
 
   [`CreateIntersectionEdgeLoopsResults`](ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.md#ansys.meshing.prime.CreateIntersectionEdgeLoopsResults)
 

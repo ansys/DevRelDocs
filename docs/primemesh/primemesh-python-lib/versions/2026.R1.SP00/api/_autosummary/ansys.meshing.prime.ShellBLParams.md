@@ -6,13 +6,15 @@
 
 Parameters used to generate ShellBL.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ShellBLParams` object with default parameters.
+
+  Model to create a `ShellBLParams` object with default parameters.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ShellBLParams` object with provided parameters.
+
+  JSON dictionary to create a `ShellBLParams` object with provided parameters.
 
 ### Examples
 

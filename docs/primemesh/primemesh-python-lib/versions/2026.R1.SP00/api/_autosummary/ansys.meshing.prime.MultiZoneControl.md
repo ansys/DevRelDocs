@@ -9,19 +9,23 @@ MultiZoneControl provides a way to gather all the information required for Multi
 The MultiZone meshing provides hex meshing capabilities.
 Different type of mesh can be generated using MultiZoneControl. For example, sweep mesh, map mesh and edge biased mesh.
 
-* **Parameters:**
+**Parameters:**
 
   **model**
-  : Server model to create MultiZoneControl object.
+
+  Server model to create MultiZoneControl object.
 
   **id**
-  : Id of the MultiZoneControl.
+
+  Id of the MultiZoneControl.
 
   **object_id**
-  : Object id of the MultiZoneControl.
+
+  Object id of the MultiZoneControl.
 
   **name**
-  : Name of the MultiZoneControl.
+
+  Name of the MultiZoneControl.
 
 <!-- !! processed by numpydoc !! -->
 

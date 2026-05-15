@@ -6,22 +6,27 @@
 
 PeriodicControlParams contains the parameters for periodic surface recovery.  Parameters like center, axis and angle determine the transformation from  one surface to its matching periodic surface.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `PeriodicControlParams` object with default parameters.
+
+  Model to create a `PeriodicControlParams` object with default parameters.
 
   **center: Iterable[float], optional**
-  : Center coordinates.
+
+  Center coordinates.
 
   **axis: Iterable[float], optional**
-  : Axis vector coordinates.
+
+  Axis vector coordinates.
 
   **angle: float, optional**
-  : Angle in degrees.
+
+  Angle in degrees.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `PeriodicControlParams` object with provided parameters.
+
+  JSON dictionary to create a `PeriodicControlParams` object with provided parameters.
 
 ### Examples
 

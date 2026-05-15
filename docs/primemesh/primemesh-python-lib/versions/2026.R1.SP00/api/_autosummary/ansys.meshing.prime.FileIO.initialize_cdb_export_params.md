@@ -11,23 +11,27 @@ export_rigid_bodies_as_rbgen parameters of the provided ExportMapdlCdbParams
 object based on the given major and minor version numbers.
 Other parameters remain unchanged.
 
-* **Parameters:**
+**Parameters:**
 
   **params**
-  : The CDB export parameters object to be modified.
+
+  The CDB export parameters object to be modified.
 
   **major_version**
-  : The major version number.
+
+  The major version number.
 
   **minor_version**
-  : The minor version number.
 
-* **Returns:**
+  The minor version number.
 
-  [`ExportMapdlCdbParams`](ansys.meshing.prime.ExportMapdlCdbParams.md#ansys.meshing.prime.ExportMapdlCdbParams)
-  : The modified CDB export parameters object.
+**Returns:**
 
-* **Return type:**
+  **[`ExportMapdlCdbParams`](ansys.meshing.prime.ExportMapdlCdbParams.md#ansys.meshing.prime.ExportMapdlCdbParams)**
+
+  The modified CDB export parameters object.
+
+**Return type:**
 
   [`ExportMapdlCdbParams`](ansys.meshing.prime.ExportMapdlCdbParams.md#ansys.meshing.prime.ExportMapdlCdbParams)
 

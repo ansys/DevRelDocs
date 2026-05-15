@@ -6,12 +6,14 @@
 
 Set the default values of the `TopoFillHoleResult` object.
 
-* **Parameters:**
+**Parameters:**
 
   **new_topo_faces_created: Iterable[int], optional**
-  : Ids of new topofaces created.
+
+  Ids of new topofaces created.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with a wrap operation.
+
+  Error code associated with a wrap operation.
 
 <!-- !! processed by numpydoc !! -->

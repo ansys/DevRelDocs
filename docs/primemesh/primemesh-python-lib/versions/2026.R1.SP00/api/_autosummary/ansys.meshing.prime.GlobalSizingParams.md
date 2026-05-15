@@ -6,22 +6,27 @@
 
 Global sizing parameters.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `GlobalSizingParams` object with default parameters.
+
+  Model to create a `GlobalSizingParams` object with default parameters.
 
   **min: float, optional**
-  : Minimum value of global sizing parameters.
+
+  Minimum value of global sizing parameters.
 
   **max: float, optional**
-  : Maximum value of global sizing parameters.
+
+  Maximum value of global sizing parameters.
 
   **growth_rate: float, optional**
-  : Growth rate of global sizing parameters.
+
+  Growth rate of global sizing parameters.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `GlobalSizingParams` object with provided parameters.
+
+  JSON dictionary to create a `GlobalSizingParams` object with provided parameters.
 
 ### Examples
 

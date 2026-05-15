@@ -6,19 +6,23 @@
 
 Results associated with the CAD import.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ImportCadResults` object with default parameters.
+
+  Model to create a `ImportCadResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with failure of operation.
+
+  Error code associated with failure of operation.
 
   **cad_parameters: Dict[str, Union[str, int, float, bool]], optional**
-  : Returns the parameters associated with CAD. Available only with WorkBench CAD Reader route.
+
+  Returns the parameters associated with CAD. Available only with WorkBench CAD Reader route.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ImportCadResults` object with provided parameters.
+
+  JSON dictionary to create a `ImportCadResults` object with provided parameters.
 
 ### Examples
 

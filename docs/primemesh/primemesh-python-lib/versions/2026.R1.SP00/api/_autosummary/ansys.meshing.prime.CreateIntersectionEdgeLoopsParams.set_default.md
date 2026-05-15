@@ -6,8 +6,10 @@
 
 Set the default values of the `CreateIntersectionEdgeLoopsParams` object.
 
-* **Parameters:**
+**Parameters:**
+
   **label_name: str, optional**
-  : Label name to be assigned to extracted features.
+
+  Label name to be assigned to extracted features.
 
 <!-- !! processed by numpydoc !! -->

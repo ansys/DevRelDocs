@@ -6,68 +6,81 @@
 
 Parameters to control conversion of quadrilateral mesh to spline.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `QuadToSplineParams` object with default parameters.
+
+  Model to create a `QuadToSplineParams` object with default parameters.
 
   **feature_capture_type: SplineFeatureCaptureType, optional**
-  : Feature capture options.
+
+  Feature capture options.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **feature_angle: float, optional**
-  : Angle to capture the feature.
+
+  Angle to capture the feature.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **corner_angle: float, optional**
-  : Corner angle of the feature.
+
+  Corner angle of the feature.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **shell_thickness: float, optional**
-  : Thickness of shell.
+
+  Thickness of shell.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **solid_shell: bool, optional**
-  : Solid shell option. Set true to generate solid shell spline, and set false to generate surface spline.
+
+  Solid shell option. Set true to generate solid shell spline, and set false to generate surface spline.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **separate_by_zone: bool, optional**
-  : Option to separate IGA shell regions by zone. If set to true, it creates LS-Dyna part per zone while exporting IGA .k file and if set to false, it creates a single LS-Dyna part per Prime part, irrespective of the zones.
+
+  Option to separate IGA shell regions by zone. If set to true, it creates LS-Dyna part per zone while exporting IGA .k file and if set to false, it creates a single LS-Dyna part per Prime part, irrespective of the zones.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **zone_name_shell_thickness_pairs: Dict[str, Union[str, int, float, bool]], optional**
-  : Zone name and thickness pair list. For example, {“Zone1Name”: Zone1Thickness, “Zone2Name”: Zone2Thickness, …}.
+
+  Zone name and thickness pair list. For example, {“Zone1Name”: Zone1Thickness, “Zone2Name”: Zone2Thickness, …}.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **continuity: SplineContinuityType, optional**
-  : Spline Continuity options.
+
+  Spline Continuity options.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **project_on_geometry: bool, optional**
-  : Option to project on geometry.
+
+  Option to project on geometry.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **use_projection_scope: bool, optional**
-  : Option to use projection scope.
+
+  Option to use projection scope.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **projection_scope: ScopeDefinition, optional**
-  : Scope to evaluate entities for projection.
+
+  Scope to evaluate entities for projection.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `QuadToSplineParams` object with provided parameters.
+
+  JSON dictionary to create a `QuadToSplineParams` object with provided parameters.
 
 ### Examples
 

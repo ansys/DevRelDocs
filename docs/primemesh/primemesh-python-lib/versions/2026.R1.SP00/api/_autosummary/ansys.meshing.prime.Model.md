@@ -9,19 +9,23 @@ Model is the nucleus of Prime. Model forms the base and contains all the informa
 You can access any information in Prime only through Model.
 Model allows you to query TopoData, ControlData, Parts, SizeFields and more.
 
-* **Parameters:**
+**Parameters:**
 
   **comm**
-  : Communicator to connect with the Ansys Prime server.
+
+  Communicator to connect with the Ansys Prime server.
 
   **id**
-  : Id of the Model.
+
+  Id of the Model.
 
   **object_id**
-  : Object id of the Model.
+
+  Object id of the Model.
 
   **name**
-  : Name of the Model.
+
+  Name of the Model.
 
 <!-- !! processed by numpydoc !! -->
 

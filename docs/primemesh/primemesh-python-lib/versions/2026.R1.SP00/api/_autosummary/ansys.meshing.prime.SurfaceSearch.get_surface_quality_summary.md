@@ -9,18 +9,20 @@ Gets the surface quality summary.
 Diagnose surface quality for the given scope and face quality measures provided by the surface quality summary parameters.
 Uses default quality limit if not specified with params.
 
-* **Parameters:**
+**Parameters:**
 
   **params**
-  : Surface quality summary parameters.
 
-* **Returns:**
-  
-  [`SurfaceQualitySummaryResults`](ansys.meshing.prime.SurfaceQualitySummaryResults.md#ansys.meshing.prime.SurfaceQualitySummaryResults)
-  : Returns the SurfaceQualitySummaryResults.
+  Surface quality summary parameters.
 
-* **Return type:**
-S
+**Returns:**
+
+  **[`SurfaceQualitySummaryResults`](ansys.meshing.prime.SurfaceQualitySummaryResults.md#ansys.meshing.prime.SurfaceQualitySummaryResults)**
+
+  Returns the SurfaceQualitySummaryResults.
+
+**Return type:**
+
   [`SurfaceQualitySummaryResults`](ansys.meshing.prime.SurfaceQualitySummaryResults.md#ansys.meshing.prime.SurfaceQualitySummaryResults)
 
 ### Examples

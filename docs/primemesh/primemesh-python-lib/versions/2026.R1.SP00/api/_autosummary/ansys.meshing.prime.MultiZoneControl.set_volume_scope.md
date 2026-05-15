@@ -6,10 +6,11 @@
 
 Sets the scope for volume in terms of topovolumes.The topovolumes given by the scope are imported by MultiZone to generate MultiZone mesh on it.
 
-* **Parameters:**
+**Parameters:**
 
   **scope_info**
-  : Scoped topovolumes.
+
+  Scoped topovolumes.
 
 ### Notes
 

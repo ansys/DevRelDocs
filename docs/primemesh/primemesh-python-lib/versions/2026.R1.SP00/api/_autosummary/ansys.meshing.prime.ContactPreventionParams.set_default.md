@@ -6,15 +6,18 @@
 
 Set the default values of the `ContactPreventionParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **source_scope: ScopeDefinition, optional**
-  : Source scope used for contact prevention control.
+
+  Source scope used for contact prevention control.
 
   **target_scope: ScopeDefinition, optional**
-  : Target scope used for contact prevention control.
+
+  Target scope used for contact prevention control.
 
   **size: float, optional**
-  : Minimum gap size (gap/4) to resolve contact between source and target.
+
+  Minimum gap size (gap/4) to resolve contact between source and target.
 
 <!-- !! processed by numpydoc !! -->

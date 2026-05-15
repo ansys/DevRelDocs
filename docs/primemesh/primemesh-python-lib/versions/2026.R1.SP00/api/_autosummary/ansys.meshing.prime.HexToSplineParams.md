@@ -6,48 +6,57 @@
 
 Parameters to control conversion of hex mesh to spline.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `HexToSplineParams` object with default parameters.
+
+  Model to create a `HexToSplineParams` object with default parameters.
 
   **feature_capture_type: SplineFeatureCaptureType, optional**
-  : Feature capture options.
+
+  Feature capture options.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **feature_angle: float, optional**
-  : Angle to capture the feature.
+
+  Angle to capture the feature.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **corner_angle: float, optional**
-  : Corner angle of the feature.
+
+  Corner angle of the feature.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **continuity: SplineContinuityType, optional**
-  : Spline Continuity options.
+
+  Spline Continuity options.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **project_on_geometry: bool, optional**
-  : Option to project on geometry.
+
+  Option to project on geometry.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **use_projection_scope: bool, optional**
-  : Option to use projection scope.
+
+  Option to use projection scope.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **projection_scope: ScopeDefinition, optional**
-  : Scope to evaluate entities for projection.
+
+  Scope to evaluate entities for projection.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `HexToSplineParams` object with provided parameters.
+
+  JSON dictionary to create a `HexToSplineParams` object with provided parameters.
 
 ### Examples
 

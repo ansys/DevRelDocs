@@ -6,16 +6,19 @@
 
 Results of Periodic control summary.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `PeriodicControlSummaryResult` object with default parameters.
+
+  Model to create a `PeriodicControlSummaryResult` object with default parameters.
 
   **message: str, optional**
-  : String with the periodic control summary.
+
+  String with the periodic control summary.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `PeriodicControlSummaryResult` object with provided parameters.
+
+  JSON dictionary to create a `PeriodicControlSummaryResult` object with provided parameters.
 
 ### Examples
 

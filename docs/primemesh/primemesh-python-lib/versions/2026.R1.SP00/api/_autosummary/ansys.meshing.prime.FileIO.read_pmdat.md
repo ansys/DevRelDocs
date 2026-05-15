@@ -6,20 +6,23 @@
 
 Read a PyPrimeMesh data (PMDAT) file.
 
-* **Parameters:**
+**Parameters:**
 
   **file_name**
-  : Path to the data file on disk.
+
+  Path to the data file on disk.
 
   **file_read_params**
-  : Parameters for reading the data file.
 
-* **Returns:**
+  Parameters for reading the data file.
 
-  [`FileReadResults`](ansys.meshing.prime.FileReadResults.md#ansys.meshing.prime.FileReadResults)
-  : Results from reading the data file.
+**Returns:**
 
-* **Return type:**
+  **[`FileReadResults`](ansys.meshing.prime.FileReadResults.md#ansys.meshing.prime.FileReadResults)**
+
+  Results from reading the data file.
+
+**Return type:**
 
   [`FileReadResults`](ansys.meshing.prime.FileReadResults.md#ansys.meshing.prime.FileReadResults)
 

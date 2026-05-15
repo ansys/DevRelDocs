@@ -6,12 +6,14 @@
 
 Set the default values of the `CreateCapResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the failure of operation.
+
+  Error code associated with the failure of operation.
 
   **created_face_zonelets: Iterable[int], optional**
-  : Ids of cap face zonelets created.
+
+  Ids of cap face zonelets created.
 
 <!-- !! processed by numpydoc !! -->

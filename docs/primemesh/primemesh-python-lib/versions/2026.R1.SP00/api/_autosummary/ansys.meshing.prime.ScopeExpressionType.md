@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.ScopeExpressionType"></a>
 
-### *class* ansys.meshing.prime.ScopeExpressionType(value, names=None, \*values, module=None, qualname=None, type=None, start=1, boundary=None)
+### *class* ansys.meshing.prime.ScopeExpressionType(\*values)
 
 ScopeExpressionType uses expression type to evaluate the scope.
 

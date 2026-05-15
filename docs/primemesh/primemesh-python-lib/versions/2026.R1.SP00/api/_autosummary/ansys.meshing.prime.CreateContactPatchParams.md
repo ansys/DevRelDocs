@@ -6,28 +6,35 @@
 
 Parameters used for contact patch creation in the given axis.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `CreateContactPatchParams` object with default parameters.
+
+  Model to create a `CreateContactPatchParams` object with default parameters.
 
   **contact_patch_axis: ContactPatchAxis, optional**
-  : Assigns the contact patch direction.
+
+  Assigns the contact patch direction.
 
   **offset_distance: float, optional**
-  : Source offset distance value.
+
+  Source offset distance value.
 
   **grouping_tolerance: float, optional**
-  : Tolerance distance value to group regions for contact patch creation.
+
+  Tolerance distance value to group regions for contact patch creation.
 
   **suggested_part_name: str, optional**
-  : Suggested part name for created contact patch surfaces.
+
+  Suggested part name for created contact patch surfaces.
 
   **suggested_label_prefix: str, optional**
-  : Suggested label name for created contact patch surfaces.
+
+  Suggested label name for created contact patch surfaces.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `CreateContactPatchParams` object with provided parameters.
+
+  JSON dictionary to create a `CreateContactPatchParams` object with provided parameters.
 
 ### Examples
 

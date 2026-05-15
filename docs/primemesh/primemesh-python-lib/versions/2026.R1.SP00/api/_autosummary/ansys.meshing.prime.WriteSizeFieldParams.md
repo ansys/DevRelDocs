@@ -6,16 +6,19 @@
 
 Parameters used to write size field file.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `WriteSizeFieldParams` object with default parameters.
+
+  Model to create a `WriteSizeFieldParams` object with default parameters.
 
   **write_only_active_size_fields: bool, optional**
-  : Option to write only active size fields into the file.
+
+  Option to write only active size fields into the file.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `WriteSizeFieldParams` object with provided parameters.
+
+  JSON dictionary to create a `WriteSizeFieldParams` object with provided parameters.
 
 ### Examples
 

@@ -6,9 +6,10 @@
 
 Set the default values of the `TrimmedSplineResults` object.
 
-* **Parameters:**
+**Parameters:**
 
   **error_code: ErrorCode, optional**
-  : Error code if IGA operation is unsuccessful.
+
+  Error code if IGA operation is unsuccessful.
 
 <!-- !! processed by numpydoc !! -->

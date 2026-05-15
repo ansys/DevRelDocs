@@ -6,13 +6,15 @@
 
 MatchMorphParams describes the parameters required for match morphing.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `MatchMorphParams` object with default parameters.
+
+  Model to create a `MatchMorphParams` object with default parameters.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `MatchMorphParams` object with provided parameters.
+
+  JSON dictionary to create a `MatchMorphParams` object with provided parameters.
 
 ### Examples
 

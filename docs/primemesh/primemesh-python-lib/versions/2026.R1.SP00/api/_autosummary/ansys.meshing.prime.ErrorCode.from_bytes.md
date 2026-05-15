@@ -2,7 +2,7 @@
 
 <a id="ansys.meshing.prime.ErrorCode.from_bytes"></a>
 
-#### ErrorCode.from_bytes(/, bytes, byteorder='big', \*, signed=False)
+#### *classmethod* ErrorCode.from_bytes(/, bytes, byteorder='big', \*, signed=False)
 
 Return the integer represented by the given array of bytes.
 

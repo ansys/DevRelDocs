@@ -6,28 +6,35 @@
 
 Results of surface diagnostic summary.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SurfaceDiagnosticSummaryResults` object with default parameters.
+
+  Model to create a `SurfaceDiagnosticSummaryResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the surface diagnostic summary.
+
+  Error code associated with the surface diagnostic summary.
 
   **n_self_intersections: int, optional**
-  : Number of self intersecting faces identified.
+
+  Number of self intersecting faces identified.
 
   **n_free_edges: int, optional**
-  : Number of free face edges identified.
+
+  Number of free face edges identified.
 
   **n_multi_edges: int, optional**
-  : Number of multi face edges identified.
+
+  Number of multi face edges identified.
 
   **n_duplicate_faces: int, optional**
-  : Number of duplicate faces identified.
+
+  Number of duplicate faces identified.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SurfaceDiagnosticSummaryResults` object with provided parameters.
+
+  JSON dictionary to create a `SurfaceDiagnosticSummaryResults` object with provided parameters.
 
 ### Examples
 

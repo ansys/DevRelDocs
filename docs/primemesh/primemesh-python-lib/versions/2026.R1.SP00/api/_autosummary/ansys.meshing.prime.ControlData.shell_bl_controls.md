@@ -6,10 +6,9 @@
 
 Get the shell bl controls.
 
-* **Returns:**
-
+**Returns**
   `List`[[`ShellBLControl`](ansys.meshing.prime.ShellBLControl.md#ansys.meshing.prime.ShellBLControl)]
-  : List of shell bl controls.
+  List of shell bl controls.
 
 ### Examples
 

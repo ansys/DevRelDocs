@@ -1,7 +1,3 @@
-<!-- vale off -->
-
-<a id="connectfacesparams"></a>
-
 # ConnectFacesParams
 
 <a id="ansys.meshing.prime.ConnectFacesParams"></a>
@@ -10,23 +6,27 @@
 
 Parameters for connect faces operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `ConnectFacesParams` object with default parameters.
+
+  Model to create a `ConnectFacesParams` object with default parameters.
 
   **constant_mesh_size: float, optional**
-  : Constant size used for surface meshing.
+
+  Constant size used for surface meshing.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **absolute_tolerance: float, optional**
-  : Absolute distance tolerance between edges or faces for connect faces operation.
+
+  Absolute distance tolerance between edges or faces for connect faces operation.
     <br/>
     **This is a beta parameter**. **The behavior and name may change in the future**.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `ConnectFacesParams` object with provided parameters.
+
+  JSON dictionary to create a `ConnectFacesParams` object with provided parameters.
 
 ### Examples
 

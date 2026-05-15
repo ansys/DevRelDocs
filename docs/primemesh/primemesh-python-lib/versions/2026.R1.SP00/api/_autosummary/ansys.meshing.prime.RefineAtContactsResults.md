@@ -6,22 +6,27 @@
 
 Results structure associated with refine face elements in contact.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `RefineAtContactsResults` object with default parameters.
+
+  Model to create a `RefineAtContactsResults` object with default parameters.
 
   **n_refined: int, optional**
-  : Number of face elements identified for refinement.
+
+  Number of face elements identified for refinement.
 
   **size_field_id: int, optional**
-  : Id of size field created to refine at contacts.
+
+  Id of size field created to refine at contacts.
 
   **error_code: ErrorCode, optional**
-  : ErrorCode associated with the refine contacts operation.
+
+  ErrorCode associated with the refine contacts operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `RefineAtContactsResults` object with provided parameters.
+
+  JSON dictionary to create a `RefineAtContactsResults` object with provided parameters.
 
 ### Examples
 

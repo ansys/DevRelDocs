@@ -6,12 +6,14 @@
 
 Create a thin volume control.
 
-* **Returns:**
 
-  [`ThinVolumeControl`](ansys.meshing.prime.ThinVolumeControl.md#ansys.meshing.prime.ThinVolumeControl)
-  : Thin volume control.
+**Returns:**
 
-* **Return type:**
+  **[`ThinVolumeControl`](ansys.meshing.prime.ThinVolumeControl.md#ansys.meshing.prime.ThinVolumeControl)**
+
+  Thin volume control.
+
+**Return type:**
 
   [`ThinVolumeControl`](ansys.meshing.prime.ThinVolumeControl.md#ansys.meshing.prime.ThinVolumeControl)
 

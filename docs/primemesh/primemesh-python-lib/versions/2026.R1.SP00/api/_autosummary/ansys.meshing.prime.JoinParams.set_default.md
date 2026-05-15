@@ -6,21 +6,26 @@
 
 Set the default values of the `JoinParams` object.
 
-* **Parameters:**
+**Parameters:**
 
   **tolerance: float, optional**
-  : Overlap tolerance between overlapping zonelets.
+
+  Overlap tolerance between overlapping zonelets.
 
   **use_absolute_tolerance: bool, optional**
-  : Tolerance provided is absolute value.
+
+  Tolerance provided is absolute value.
 
   **remesh: bool, optional**
-  : Remesh at overlap surface boundary.
+
+  Remesh at overlap surface boundary.
 
   **match_angle: float, optional**
-  : Match angle determines face pair inclination for overlap consideration.
+
+  Match angle determines face pair inclination for overlap consideration.
 
   **overlap_zone_name: str, optional**
-  : Zone id to be assigned to overlap zonelets belonging to different zones.
+
+  Name of face zone to which the overlap zonelets are assigned.
 
 <!-- !! processed by numpydoc !! -->

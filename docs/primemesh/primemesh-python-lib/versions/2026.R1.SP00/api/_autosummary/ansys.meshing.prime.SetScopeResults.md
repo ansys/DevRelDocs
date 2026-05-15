@@ -6,19 +6,23 @@
 
 Results associated with the set scope operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `SetScopeResults` object with default parameters.
+
+  Model to create a `SetScopeResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the set scope.
+
+  Error code associated with the set scope.
 
   **warning_code: WarningCode, optional**
-  : Warning code associated with the set scope.
+
+  Warning code associated with the set scope.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `SetScopeResults` object with provided parameters.
+
+  JSON dictionary to create a `SetScopeResults` object with provided parameters.
 
 ### Examples
 

@@ -6,16 +6,19 @@
 
 Size field computed using meshed size control enables you to set the size based on existing sizes.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `MeshedSizingParams` object with default parameters.
+
+  Model to create a `MeshedSizingParams` object with default parameters.
 
   **growth_rate: float, optional**
-  : Growth rate used for transitioning from one element size to neighbor element size.
+
+  Growth rate used for transitioning from one element size to neighbor element size.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `MeshedSizingParams` object with provided parameters.
+
+  JSON dictionary to create a `MeshedSizingParams` object with provided parameters.
 
 ### Examples
 

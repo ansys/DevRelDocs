@@ -6,16 +6,19 @@
 
 Result associated with the volume mesh tool operation.
 
-* **Parameters:**
+**Parameters:**
 
   **model: Model**
-  : Model to create a `VolumeMeshToolResults` object with default parameters.
+
+  Model to create a `VolumeMeshToolResults` object with default parameters.
 
   **error_code: ErrorCode, optional**
-  : Error code associated with the volume mesh tool operation.
+
+  Error code associated with the volume mesh tool operation.
 
   **json_data: dict, optional**
-  : JSON dictionary to create a `VolumeMeshToolResults` object with provided parameters.
+
+  JSON dictionary to create a `VolumeMeshToolResults` object with provided parameters.
 
 ### Examples
 

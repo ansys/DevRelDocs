@@ -4,16 +4,16 @@
 
 ## Mesh statistics and quality
 
-You can use a set of quality metrics to measure the mesh quality. The [`SurfaceSearch`](./../api/_autosummary/ansys.meshing.prime.SurfaceSearch.md#ansys.meshing.prime.SurfaceSearch)
-and [`VolumeSearch`](./../api/_autosummary/ansys.meshing.prime.VolumeSearch.md#ansys.meshing.prime.VolumeSearch) classes allow you to verify surface and volume mesh quality, respectively.
+You can use a set of quality metrics to measure the mesh quality. The [`SurfaceSearch`](../api/_autosummary/ansys.meshing.prime.SurfaceSearch.md#ansys.meshing.prime.SurfaceSearch)
+and [`VolumeSearch`](../api/_autosummary/ansys.meshing.prime.VolumeSearch.md#ansys.meshing.prime.VolumeSearch) classes allow you to verify surface and volume mesh quality, respectively.
 
 <a id="connectivity-checks"></a>
 
 ### Connectivity checks
 
 Surface diagnostics are important prior to generating a volume mesh. You can get a surface diagnostic summary by using
-the [`SurfaceSearch.get_surface_diagnostic_summary()`](./../api/_autosummary/ansys.meshing.prime.SurfaceSearch.get_surface_diagnostic_summary.md#ansys.meshing.prime.SurfaceSearch.get_surface_diagnostic_summary)
-method. The [`SurfaceDiagnosticSummaryParams`](./../api/_autosummary/ansys.meshing.prime.SurfaceDiagnosticSummaryParams.md#ansys.meshing.prime.SurfaceDiagnosticSummaryParams) class provides for
+the [`SurfaceSearch.get_surface_diagnostic_summary()`](../api/_autosummary/ansys.meshing.prime.SurfaceSearch.get_surface_diagnostic_summary.md#ansys.meshing.prime.SurfaceSearch.get_surface_diagnostic_summary)
+method. The [`SurfaceDiagnosticSummaryParams`](../api/_autosummary/ansys.meshing.prime.SurfaceDiagnosticSummaryParams.md#ansys.meshing.prime.SurfaceDiagnosticSummaryParams) class provides for
 diagnosing surface connectivity for the given scope and controls:
 
 * Duplicate faces
@@ -58,13 +58,13 @@ Number of self intersections :  0
 
 ### Face metrics
 
-The [`FaceQualityMeasure`](./../api/_autosummary/ansys.meshing.prime.FaceQualityMeasure.md#ansys.meshing.prime.FaceQualityMeasure) class offers various types
+The [`FaceQualityMeasure`](../api/_autosummary/ansys.meshing.prime.FaceQualityMeasure.md#ansys.meshing.prime.FaceQualityMeasure) class offers various types
 of measures to verify face quality metrics.
 
-* The [`SKEWNESS`](./../api/_autosummary/ansys.meshing.prime.FaceQualityMeasure.SKEWNESS.md#ansys.meshing.prime.FaceQualityMeasure.SKEWNESS) metric ranges between 0 (ideal) and 1 (worst).
-* The [`ASPECTRATIO`](./../api/_autosummary/ansys.meshing.prime.FaceQualityMeasure.ASPECTRATIO.md#ansys.meshing.prime.FaceQualityMeasure.ASPECTRATIO) metric is greater than 1. The smaller
+* The [`SKEWNESS`](../api/_autosummary/ansys.meshing.prime.FaceQualityMeasure.SKEWNESS.md#ansys.meshing.prime.FaceQualityMeasure.SKEWNESS) metric ranges between 0 (ideal) and 1 (worst).
+* The [`ASPECTRATIO`](../api/_autosummary/ansys.meshing.prime.FaceQualityMeasure.ASPECTRATIO.md#ansys.meshing.prime.FaceQualityMeasure.ASPECTRATIO) metric is greater than 1. The smaller
   the aspect ratio, the higher the quality of an element.
-* The [`ELEMENTQUALITY`](./../api/_autosummary/ansys.meshing.prime.FaceQualityMeasure.ELEMENTQUALITY.md#ansys.meshing.prime.FaceQualityMeasure.ELEMENTQUALITY) metric ranges between
+* The [`ELEMENTQUALITY`](../api/_autosummary/ansys.meshing.prime.FaceQualityMeasure.ELEMENTQUALITY.md#ansys.meshing.prime.FaceQualityMeasure.ELEMENTQUALITY) metric ranges between
   0 (worst) and 1 (ideal).
 
 This code gets face quality measures:
@@ -95,16 +95,16 @@ Number of faces above limit :  0
 
 ### Cell metrics
 
-The [`CellQualityMeasure`](./../api/_autosummary/ansys.meshing.prime.CellQualityMeasure.md#ansys.meshing.prime.CellQualityMeasure) class offers various types
+The [`CellQualityMeasure`](../api/_autosummary/ansys.meshing.prime.CellQualityMeasure.md#ansys.meshing.prime.CellQualityMeasure) class offers various types
 of measures to verify cell quality metrics.
 
-* The [`SKEWNESS`](./../api/_autosummary/ansys.meshing.prime.CellQualityMeasure.SKEWNESS.md#ansys.meshing.prime.CellQualityMeasure.SKEWNESS) metric ranges between
+* The [`SKEWNESS`](../api/_autosummary/ansys.meshing.prime.CellQualityMeasure.SKEWNESS.md#ansys.meshing.prime.CellQualityMeasure.SKEWNESS) metric ranges between
   0 (ideal) and 1 (worst).
-* The [`ASPECTRATIO`](./../api/_autosummary/ansys.meshing.prime.CellQualityMeasure.ASPECTRATIO.md#ansys.meshing.prime.CellQualityMeasure.ASPECTRATIO) metric
+* The [`ASPECTRATIO`](../api/_autosummary/ansys.meshing.prime.CellQualityMeasure.ASPECTRATIO.md#ansys.meshing.prime.CellQualityMeasure.ASPECTRATIO) metric
   is greater than 1. The smaller the aspect ratio, the higher the quality of an element.
-* The [`FLUENTASPECTRATIO`](./../api/_autosummary/ansys.meshing.prime.CellQualityMeasure.FLUENTASPECTRATIO.md#ansys.meshing.prime.CellQualityMeasure.FLUENTASPECTRATIO) metric
+* The [`FLUENTASPECTRATIO`](../api/_autosummary/ansys.meshing.prime.CellQualityMeasure.FLUENTASPECTRATIO.md#ansys.meshing.prime.CellQualityMeasure.FLUENTASPECTRATIO) metric
   is greater than 1. The smaller the Fluent aspect ratio, the higher the quality of an element.
-* The [`ELEMENTQUALITY`](./../api/_autosummary/ansys.meshing.prime.CellQualityMeasure.ELEMENTQUALITY.md#ansys.meshing.prime.CellQualityMeasure.ELEMENTQUALITY) metric ranges
+* The [`ELEMENTQUALITY`](../api/_autosummary/ansys.meshing.prime.CellQualityMeasure.ELEMENTQUALITY.md#ansys.meshing.prime.CellQualityMeasure.ELEMENTQUALITY) metric ranges
   between 0 (worst) and 1 (ideal).
 
 This code gets cell quality measures:
@@ -137,7 +137,7 @@ Number of cells above limit :  0
 
 ### Mesh counts
 
-The [`Part.get_summary()`](./../api/_autosummary/ansys.meshing.prime.Part.get_summary.md#ansys.meshing.prime.Part.get_summary) method provides the
+The [`Part.get_summary()`](../api/_autosummary/ansys.meshing.prime.Part.get_summary.md#ansys.meshing.prime.Part.get_summary) method provides the
 number of nodes, faces, or cells after meshing with the given parameters.
 
 This code gets mesh counts:
@@ -166,7 +166,7 @@ Total number of cells :  337429
 
 ## Mesh improvement
 
-When the metrics show that the mesh quality is low, the [`VolumeMeshTool`](./../api/_autosummary/ansys.meshing.prime.VolumeMeshTool.md#ansys.meshing.prime.VolumeMeshTool)
+When the metrics show that the mesh quality is low, the [`VolumeMeshTool`](../api/_autosummary/ansys.meshing.prime.VolumeMeshTool.md#ansys.meshing.prime.VolumeMeshTool)
 class provides various volume mesh improvement algorithms for improving the mesh.
 
 <a id="auto-node-move"></a>
@@ -174,9 +174,9 @@ class provides various volume mesh improvement algorithms for improving the mesh
 ### Auto node move
 
 You can improve volume mesh by auto node move using the
-[`VolumeMeshTool.improve_by_auto_node_move()`](./../api/_autosummary/ansys.meshing.prime.VolumeMeshTool.improve_by_auto_node_move.md#ansys.meshing.prime.VolumeMeshTool.improve_by_auto_node_move)
+[`VolumeMeshTool.improve_by_auto_node_move()`](../api/_autosummary/ansys.meshing.prime.VolumeMeshTool.improve_by_auto_node_move.md#ansys.meshing.prime.VolumeMeshTool.improve_by_auto_node_move)
 method with given parameters. In addition, you can verify the mesh using the
-[`VolumeMeshTool.check_mesh()`](./../api/_autosummary/ansys.meshing.prime.VolumeMeshTool.check_mesh.md#ansys.meshing.prime.VolumeMeshTool.check_mesh) method.
+[`VolumeMeshTool.check_mesh()`](../api/_autosummary/ansys.meshing.prime.VolumeMeshTool.check_mesh.md#ansys.meshing.prime.VolumeMeshTool.check_mesh) method.
 
 This code improves and checks the volume mesh:
 

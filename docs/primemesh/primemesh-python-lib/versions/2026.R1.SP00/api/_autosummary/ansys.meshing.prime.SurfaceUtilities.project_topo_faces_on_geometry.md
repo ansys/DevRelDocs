@@ -6,20 +6,23 @@
 
 Project nodes of given topofaces on geometry associated to those topofaces.
 
-* **Parameters:**
+**Parameters:**
 
   **topo_faces**
-  : Ids of topofaces to be used to project nodes on the geometry.
+
+  Ids of topofaces to be used to project nodes on the geometry.
 
   **params**
-  : Parameters used for projecting topoface nodes on geometry.
 
-* **Returns:**
+  Parameters used for projecting topoface nodes on geometry.
 
-  [`ProjectOnGeometryResults`](ansys.meshing.prime.ProjectOnGeometryResults.md#ansys.meshing.prime.ProjectOnGeometryResults)
-  : Returns the ProjectOnGeometryResults.
+**Returns:**
 
-* **Return type:**
+  **[`ProjectOnGeometryResults`](ansys.meshing.prime.ProjectOnGeometryResults.md#ansys.meshing.prime.ProjectOnGeometryResults)**
+
+  Returns the ProjectOnGeometryResults.
+
+**Return type:**
 
   [`ProjectOnGeometryResults`](ansys.meshing.prime.ProjectOnGeometryResults.md#ansys.meshing.prime.ProjectOnGeometryResults)
 

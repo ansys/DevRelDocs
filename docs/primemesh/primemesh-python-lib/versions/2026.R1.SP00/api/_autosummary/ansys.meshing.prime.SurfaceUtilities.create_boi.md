@@ -6,20 +6,23 @@
 
 Create BOI to input face zonelets.
 
-* **Parameters:**
+**Parameters:**
 
   **face_zonelet_ids**
-  : List of input face zonelet IDs.
+
+  List of input face zonelet IDs.
 
   **params**
-  : Parameters for controlling BOI creation.
 
-* **Returns:**
-  
-  [`CreateBOIResults`](ansys.meshing.prime.CreateBOIResults.md#ansys.meshing.prime.CreateBOIResults)
-  : Results from creating BOI.
+  Parameters for controlling BOI creation.
 
-* **Return type:**
+**Returns:**
+
+  **[`CreateBOIResults`](ansys.meshing.prime.CreateBOIResults.md#ansys.meshing.prime.CreateBOIResults)**
+
+  Results from creating BOI.
+
+**Return type:**
 
   [`CreateBOIResults`](ansys.meshing.prime.CreateBOIResults.md#ansys.meshing.prime.CreateBOIResults)
 
