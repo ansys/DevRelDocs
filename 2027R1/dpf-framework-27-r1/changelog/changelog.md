@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-05-13).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-05-14).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -28,7 +28,7 @@ The following table shows which components have updates in each category.
 | fbs | [2 items](#Features_fbs) | |
 | femutils | [3 items](#Features_femutils) |[16 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
-| framework | [2 items](#Features_framework) |[8 items](#Fixes_framework) |
+| framework | [2 items](#Features_framework) |[9 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
 | grpc | [1 item](#Features_grpc) |[5 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
@@ -605,6 +605,9 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_framework"></a> Fixes
+
+- Refactor handling of named selections in CMeshedRegion:
+  > 
 
 - Add missing throw on errors in eventlogger:
   > 
@@ -4973,6 +4976,8 @@ Upgraded documentation
 - [adapt_with_scopings_container](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/adapt_with_scopings_container.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
+
+  > 0.0.2: Fix issue when input FieldsContainer and ScopingsContainer don't share labels.
 
 
 - [intersect](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/intersect.md)
